@@ -1,131 +1,101 @@
 # Publicación 59 — La hornada del taller: las herramientas de la mina
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-Las puertas del taller del censo, con nombre: sistema Android y raíz (54), desarrollo y redes (14), privacidad y respaldo (8). Aquí viven las listas madre del software libre, los tuners de Shizuku y los cascabeles del sistema — y la confirmación de un radar: el Tweaker que la pieza 24 dejó en vigilancia aparece con estrella propia.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 16 repos: 10 empujaron hoy, 3 en
+los últimos 7 días, 2 llevan más de 180 días quietos y 0 están archivados; los que ya no
+responden quedan firmados como caídos, no escondidos. El mayor medido hoy:
+`awesome-selfhosted/awesome-selfhosted` — ★331.779, NOASSERTION, último empuje 2026-10-29.
 
-**Censo de la clase:** Android-raíz (54): R1:34 · R2:12 · R3:8 · Desarrollo (14): R1:6 · R2:3 ·
-R3:5 · Privacidad y respaldo (8): R1:6 · R2:2 — todo verificado HOY por átomos y REST.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🌟 La primera fila (por estrellas, con fecha)
+• `awesome-selfhosted/awesome-selfhosted` — ★331.779 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-### Android, sistema y raíz (39 en el censo)
-
-- **awesome-selfhosted** — ★319420 · 2023-08-22 · R3 ·
-https://github.com/awesome-selfhosted/awesome-selfhosted — «A list of Free Software network
-services and web applications which can be hosted on your own server»
-- **photoprism** — ★40195 · 2026-07-27 · R1 · https://github.com/photoprism/photoprism —
-«AI-Powered Photos App 🌈💎✨»
-- **komi-store** — ★18518 · 2026-06-26 · R1 · https://github.com/kurikomi-labs/komi-store — «🩵 A
-free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse,
-dis»
-- **FreshRSS** — ★16028 · 2026-09-09 · R1 · https://github.com/FreshRSS/FreshRSS — «A free,
-self-hostable news aggregator…»
-- **android-foss** — ★11200 · 2026-09-15 · R1 · https://github.com/offa/android-foss — «A list
-of Free and Open Source Software (FOSS) for Android – saving Freedom and Privacy.»
-- **jellyfin-androidtv** — ★4553 · 2026-09-13 · R1 ·
-https://github.com/jellyfin/jellyfin-androidtv — «Android TV Client for Jellyfin»
-- **fdroidclient** — ★3043 · 2026-08-20 · R1 · https://github.com/f-droid/fdroidclient —
-«Android client application.»
-- **blocker** — ★2395 · 2026-03-22 · R2 · https://github.com/lihenggui/blocker — «Utilize an
-integrated firewall to manage application components.»
-
-### Desarrollo, terminales y redes (3 en el censo)
-
-- **DSU-Sideloader** — ★2291 · 2023-04-29 · R3 · https://github.com/VegaBobo/DSU-Sideloader — «A
-simple app made to help users easily install GSIs via DSU's Android feature.»
-- **LogFox** — ★1312 · 2026-03-01 · R2 · https://github.com/F0x1d/LogFox — «Yet another LogCat
-reader for Android»
-- **ManageSensors** — ★44 · 2025-01-18 · R3 · https://github.com/Carry-rrk/ManageSensors — «use
-appops and shizuku manage sensor»
-
-### Privacidad y respaldo (3 en el censo)
-
-- **android** — ★3170 · 2026-09-11 · R1 · https://github.com/wgtunnel/android — «A FOSS
-WireGuard & AmneziaWG Android client with auto-tunneling, lockdown & local proxying.»
-- **ShizuWall** — ★2244 · 2026-09-08 · R1 · https://github.com/AhmetCanArslan/ShizuWall —
-«Lightweight, no vpn firewall solution for Android 11+»
-- **wifi-password-manager** — ★299 · 2026-08-29 · R1 ·
-https://github.com/Khh-vu/wifi-password-manager — «Simple app using Shizuku or root access to
-manage WiFi passwords»
-
-## ❓ La pregunta de la hornada
-
-**¿Las listas también se fichan?**
-Con etiqueta de catálogo: awesome-selfhosted y android-foss son mapas de mapas — se anotan como
-fuente, no como herramienta. La vara de cada nombre: la de siempre.
-
-## 🔗 Enlaces
-
-Cada nombre es un repositorio de github.com/ con estrella, fecha y rango del censo (p52-56). El
-mapa completo vive en el Clasificador de la casa.
-
-## El meme de la hornada
-
-> —Trescientas mil estrellas en una sola lista.
-> —Es el mapa de los mapas. Aquí se ficha con etiqueta de catálogo: fuente, no herramienta.
-
-> La Bandita verifica antes de recomendar: estrellas y fechas constadas HOY, 15 de septiembre de
-2026. Las estrellas adornan; las fechas mandan.
-
-**Corrección (15-sep, tarde — higiene):** la línea de censo salió con una clase vacía («· ·»)
-por una vara que no contó lo que no vio; recalculada y fechada. El resto de la pieza no cambia.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 59).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 15
-repos GitHub confirmados y 14 apariciones de URL. La historia no se reescribe; esta nota añade
-el estado medido hoy.
-
-Actividad medida hoy: 5 hoy · 7 en 7 días · 1 en 30 días · 0 en 180 días · 2 dormidos · 0
-archivados.
-
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `vegabobo/dsu-sideloader` — dormido
-· última actividad 2024-03-13 · ★2.343 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `carry-rrk/managesensors` — dormido
-· última actividad 2025-01-18 · ★45 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `ahmetcanarslan/shizuwall` — creado 2025-10-27
-· última actividad 2026-10-29 · ★2.404 (verificado 29-oct-2026)
-· GPL-3.0.
-
-• `khh-vu/wifi-password-manager` — creado 2025-07-12
-· última actividad 2026-10-29 · ★322 (verificado 29-oct-2026)
-· MIT.
-
-• `kurikomi-labs/komi-store` — creado 2025-11-21
-· última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026)
-· Apache-2.0.
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `awesome-selfhosted/awesome-selfhosted` — ★331.648 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION).
-
-• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION)
-· release October 7, 2026 (2026-10-07).
-
-• `jellyfin/jellyfin-androidtv` — ★4.672 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `jellyfin/jellyfin` — ★58.785 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-2.0
-· release v0.20.0-beta.4 (2026-10-15).
 
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `photoprism/photoprism` — AGPL-3.0;
-`awesome-selfhosted/awesome-selfhosted` — CC.
+• `photoprism/photoprism` — ★40.370 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-Enlaces web: 14 apariciones; 14 respondieron vivas el 29-oct-2026.
+• `komi-store/komi-store` — ★20.090 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· Apache-2.0
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `FreshRSS/FreshRSS` — ★16.446 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· AGPL-3.0
+
+• `offa/android-foss` — ★11.586 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· GPL-3.0
+
+• `jellyfin/jellyfin-androidtv` — ★4.675 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-2.0
+
+• `wgtunnel/android` — ★3.316 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· MIT
+
+• `f-droid/fdroidclient` — ★3.247 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `jellyfin/jellyfin-android` — ★2.839 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-2.0
+
+• `lihenggui/blocker` — ★2.466 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
+
+• `AhmetCanArslan/ShizuWall` — ★2.409 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `VegaBobo/DSU-Sideloader` — ★2.344 (verificado 2026-10-29)
+· dormido · última actividad 2024-03-13
+· Apache-2.0
+
+• `F0x1d/LogFox` — ★1.373 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-15
+· GPL-3.0
+
+• `Khh-vu/wifi-password-manager` — ★322 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· MIT
+
+• `Carry-rrk/ManageSensors` — ★46 (verificado 2026-10-29)
+· dormido · última actividad 2025-01-18
+· MIT
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/awesome-selfhosted/awesome-selfhosted — vivo al verificar hoy (2026-10-29)
+• https://github.com/photoprism/photoprism — vivo al verificar hoy (2026-10-29)
+• https://github.com/kurikomi-labs/komi-store — vivo al verificar hoy (2026-10-29)
+• https://github.com/FreshRSS/FreshRSS — vivo al verificar hoy (2026-10-29)
+• https://github.com/offa/android-foss — vivo al verificar hoy (2026-10-29)
+• https://github.com/jellyfin/jellyfin-androidtv — vivo al verificar hoy (2026-10-29)
+• https://github.com/f-droid/fdroidclient — vivo al verificar hoy (2026-10-29)
+• https://github.com/lihenggui/blocker — vivo al verificar hoy (2026-10-29)
+• https://github.com/VegaBobo/DSU-Sideloader — vivo al verificar hoy (2026-10-29)
+• https://github.com/F0x1d/LogFox — vivo al verificar hoy (2026-10-29)
+• https://github.com/Carry-rrk/ManageSensors — vivo al verificar hoy (2026-10-29)
+• https://github.com/wgtunnel/android — vivo al verificar hoy (2026-10-29)
+• https://github.com/AhmetCanArslan/ShizuWall — vivo al verificar hoy (2026-10-29)
+• https://github.com/Khh-vu/wifi-password-manager — vivo al verificar hoy (2026-10-29)
+• https://github.com/jellyfin/jellyfin — vivo al verificar hoy (2026-10-29)
+• https://github.com/jellyfin/jellyfin-android — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 16 repos GitHub (16 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.
