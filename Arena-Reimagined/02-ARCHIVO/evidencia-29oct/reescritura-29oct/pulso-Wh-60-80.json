@@ -1,0 +1,237 @@
+{
+ "repos": {
+  "chatgptnextweb/nextchat": {
+   "slug": "ChatGPTNextWeb/NextChat",
+   "estado": "vivo",
+   "stars": 88918,
+   "push": "2026-10-20",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "mintplex-labs/anything-llm": {
+   "slug": "Mintplex-Labs/anything-llm",
+   "estado": "vivo",
+   "stars": 67712,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "brunodev85/winlator": {
+   "slug": "brunodev85/winlator",
+   "estado": "vivo",
+   "stars": 19684,
+   "push": "2026-10-17",
+   "archivado": false,
+   "licencia": "LGPL-2.1"
+  },
+  "dolphin-emu/dolphin": {
+   "slug": "dolphin-emu/dolphin",
+   "estado": "vivo",
+   "stars": 15742,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "gethomepage/homepage": {
+   "slug": "gethomepage/homepage",
+   "estado": "vivo",
+   "stars": 33438,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "ggml-org/llama.cpp": {
+   "slug": "ggml-org/llama.cpp",
+   "estado": "vivo",
+   "stars": 132769,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "go-gitea/gitea": {
+   "slug": "go-gitea/gitea",
+   "estado": "vivo",
+   "stars": 58766,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "hrydgard/ppsspp": {
+   "slug": "hrydgard/ppsspp",
+   "estado": "vivo",
+   "stars": 14782,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "huggingface/transformers": {
+   "slug": "huggingface/transformers",
+   "estado": "vivo",
+   "stars": 168325,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "jellyfin/jellyfin": {
+   "slug": "jellyfin/jellyfin",
+   "estado": "vivo",
+   "stars": 58784,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "juanfont/headscale": {
+   "slug": "juanfont/headscale",
+   "estado": "vivo",
+   "stars": 45173,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "BSD-3-Clause"
+  },
+  "libretro/retroarch": {
+   "slug": "libretro/RetroArch",
+   "estado": "vivo",
+   "stars": 14476,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "louislam/uptime-kuma": {
+   "slug": "louislam/uptime-kuma",
+   "estado": "vivo",
+   "stars": 93064,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "mgba-emu/mgba": {
+   "slug": "mgba-emu/mgba",
+   "estado": "vivo",
+   "stars": 7539,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "MPL-2.0"
+  },
+  "modelcontextprotocol/modelcontextprotocol": {
+   "slug": "modelcontextprotocol/modelcontextprotocol",
+   "estado": "vivo",
+   "stars": 9562,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "modelcontextprotocol/servers": {
+   "slug": "modelcontextprotocol/servers",
+   "estado": "vivo",
+   "stars": 91681,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "moeru-ai/airi": {
+   "slug": "moeru-ai/airi",
+   "estado": "vivo",
+   "stars": 50890,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "ollama/ollama": {
+   "slug": "ollama/ollama",
+   "estado": "vivo",
+   "stars": 185238,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "open-webui/open-webui": {
+   "slug": "open-webui/open-webui",
+   "estado": "vivo",
+   "stars": 157168,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "openinterpreter/open-interpreter": {
+   "slug": "openinterpreter/openinterpreter",
+   "estado": "vivo",
+   "stars": 68723,
+   "push": "2026-10-11",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "openinterpreter/openinterpreter": {
+   "slug": "openinterpreter/openinterpreter",
+   "estado": "vivo",
+   "stars": 68723,
+   "push": "2026-10-11",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "paperless-ngx/paperless-ngx": {
+   "slug": "paperless-ngx/paperless-ngx",
+   "estado": "vivo",
+   "stars": 47303,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "stenzek/duckstation": {
+   "slug": "stenzek/duckstation",
+   "estado": "vivo",
+   "stars": 10915,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "syncthing/syncthing": {
+   "slug": "syncthing/syncthing",
+   "estado": "vivo",
+   "stars": 89873,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MPL-2.0"
+  },
+  "tailscale/tailscale": {
+   "slug": "tailscale/tailscale",
+   "estado": "vivo",
+   "stars": 38304,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "BSD-3-Clause"
+  },
+  "termux/termux-app": {
+   "slug": "termux/termux-app",
+   "estado": "vivo",
+   "stars": 63673,
+   "push": "2026-09-26",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "termux/termux-packages": {
+   "slug": "termux/termux-packages",
+   "estado": "vivo",
+   "stars": 17259,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "topjohnwu/magisk": {
+   "slug": "topjohnwu/Magisk",
+   "estado": "vivo",
+   "stars": 63595,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "unslothai/unsloth": {
+   "slug": "unslothai/unsloth",
+   "estado": "vivo",
+   "stars": 78760,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  }
+ },
+ "urls": {}
+}
