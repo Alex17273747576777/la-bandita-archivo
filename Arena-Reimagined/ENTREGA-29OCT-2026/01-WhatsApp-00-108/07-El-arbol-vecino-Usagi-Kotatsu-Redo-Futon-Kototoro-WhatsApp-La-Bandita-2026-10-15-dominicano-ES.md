@@ -1008,8 +1008,8 @@ dormidos · 3 archivados.
 
 • `appfuton/futon` — ★467 (verificado 29-oct-2026) · última actividad 2026-10-21 · GPL-3.0 · release Futon 9.9 (2026-10-21).
 
-Licencias sin resolver hoy (1): `gekkoushi/plugin`. Sin licencia clara no hay recomendación
-completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `gekkoushi/plugin` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

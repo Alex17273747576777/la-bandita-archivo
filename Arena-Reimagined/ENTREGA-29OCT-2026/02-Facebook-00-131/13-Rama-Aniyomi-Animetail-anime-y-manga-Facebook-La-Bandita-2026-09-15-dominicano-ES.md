@@ -293,8 +293,8 @@ archivados.
 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 · release Tadami v1.16.0 (2026-10-23).
 
-Licencias sin resolver hoy (1): `tadamiorg/tadami`. Sin licencia clara, la recomendación queda
-incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `tadamiorg/tadami` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 16 apariciones; 16 respondieron vivas el 29-oct-2026.
 

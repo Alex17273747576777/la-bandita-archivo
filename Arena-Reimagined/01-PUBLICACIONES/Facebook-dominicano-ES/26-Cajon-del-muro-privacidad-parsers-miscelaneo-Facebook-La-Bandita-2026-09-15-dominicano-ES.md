@@ -166,9 +166,10 @@ publicación (verificado 29-oct-2026).
 · MIT
 · release 1.10.0 (2026-10-18).
 
-Licencias sin resolver hoy (4): `mojuru/cursed-manga-repo`, `awerkori/extensoes`,
-`barbosaglibby41-sys/suicang-eh`, `nikhilkain/vyxel-apps`. Sin licencia clara, la recomendación
-queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `mojuru/cursed-manga-repo` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `awerkori/extensoes` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026); `barbosaglibby41-sys/suicang-eh` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `nikhilkain/vyxel-apps` — AGPL-3.0.
 
 Enlaces web: 24 apariciones; 24 respondieron vivas el 29-oct-2026.
 

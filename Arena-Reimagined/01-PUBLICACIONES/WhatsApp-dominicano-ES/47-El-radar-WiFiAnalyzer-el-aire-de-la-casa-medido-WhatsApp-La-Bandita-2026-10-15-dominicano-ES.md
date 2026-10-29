@@ -988,3 +988,26 @@ Y la noche firma: el aire de la casa, con expediente desde hoy.
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.)omalcer ,elbeum ,lanac( séupsed av onam al :algerra sámaj y — airotsih e lañes ,selanac :eria le artseuM=1|REV|.namrif mBd sol ;nanipo sarrab saL .eires al ed arav al :ahcef noc 87- lE=2|REV|.oaelep lirrac orto ne azirreta ridem nis esradum :apmart al y — 11 le y 6 le ,1 lE=3|REV|.asac ut ed o oirrab led se adíac ut is y — oirrab led eria le anell es odnáuc :ollurab led aroh aL=4|REV|.arutcaf al ne odleus remirp us arboc adidem al — otof al ed lanac le y senocnir sol ed mBd sol :rodidem led arig aL=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 47).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 0 en 7 días · 1 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `vremsoftwaredevelopment/wifianalyzer` — ★5.049 (verificado 29-oct-2026) · última actividad 2026-10-03 · GPL-3.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

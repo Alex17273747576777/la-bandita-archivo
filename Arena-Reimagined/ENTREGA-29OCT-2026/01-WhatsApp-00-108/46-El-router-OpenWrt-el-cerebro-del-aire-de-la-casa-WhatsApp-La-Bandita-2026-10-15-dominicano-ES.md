@@ -965,3 +965,32 @@ administra como la casa — con placas, ritual y paredes; jamás con el aire abi
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.anirtcod al ed onu alger al — atisiv eidan euq nólas led ajac al :asac al ed retuor lE=1|REV|.kcirb le se onicev led dliub le — aznadum yah on o ,atsil al ne OTCAXE oledom ut :otceyorp led erawdrah ed albat aL=2|REV|.eria led atseuqro al — )44 al( erbmala led nóicatse al y )34 al( lenút le ,)24 al( ecidní led oraf lE=3|REV|.alosnoc nis ,rodagevan ne oicifo le — 4102 edsed retuor led bew al :ICuL=4|REV|.retuor led bew al edsed alatsnier es rodarepo led acirbáf ed erawmrif le :sert osip led odlapser le noC=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 46).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 3 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 2 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `openwrt/packages` — ★4.659 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0.
+
+• `openwrt/openwrt` — ★28.970 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v25.12.6 (2026-10-19).
+
+• `openwrt/luci` — ★7.939 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0.
+
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `openwrt/openwrt` — GPL-2.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

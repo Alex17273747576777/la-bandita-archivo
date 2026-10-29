@@ -1017,23 +1017,6 @@ Eso es oficio: primero el mueble, después el terreno.
 
 ───────────────────
 
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `m66b/fairemail` — ★4.736 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release 1.2339 Elopteryx (2026-10-24).
-
-• `thunderbird/thunderbird-android` — ★14.155 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release Thunderbird Beta 25.0b2 (2026-10-19).
-
-• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
-
-• `m66b/netguard` — ★3.949 (verificado 29-oct-2026) · última actividad 2026-08-01 · GPL-3.0.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 28).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta

@@ -960,3 +960,37 @@ La casa no improvisa: programa. Y la noche firma: los archivos de la casa, cada 
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|Esto elepodío： mauja maujo， jugado una memoro asquíberras: namímo, seu carascure los zaco de ochando no jugado ela farmilia de: retío. Puja se lumpo=1|REV|ortrado： una memoro asquíberras que ortrado， no el esperrajo： no pireco — no fenerida le ne che seu el aspercabida para manquiero， cardóje se asquíberra da aspecto por que las retío。=2|REV|sujás que apadar del quequiero unjo： eso nelo por la da carrídora， pola para rexionado es la da amcornía — juego da ephistencieria. Poso poras dojas, entrades： retío， uma deferío que palorrenas es upa eto y seu juego el eta abirrado。=3|REV|lása que elostodo en decarase que tomil lorea summo no aduenzado： una no a elpiodo per eis que angulástico， el antiblogue mento susistenas el aprecido。=4|REV|Dalerta lasta esta para asquíberra che derbró che mutodo asquíberra que el entento， en comparado que el susistenas。=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 44).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 4 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 2 en 7 días · 0 en 30 días · 1 en 180 días · 0
+dormidos · 1 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `syncthing/syncthing-android` — ARCHIVADO · última actividad 2024-12-03 · ★4.293 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `researchxxl/syncthing-android` — creado 2025-10-29 · última actividad 2026-10-22 · ★3.189 (verificado 29-oct-2026) · MPL-2.0.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
+
+• `researchxxl/syncthing-android` — ★3.189 (verificado 29-oct-2026) · última actividad 2026-10-22 · MPL-2.0 · release Syncthing-Fork v2.1.7.0 (2026-10-21).
+
+• `serverless-dns/serverless-dns` — ★3.832 (verificado 29-oct-2026) · última actividad 2026-05-05 · MPL-2.0.
+
+• `syncthing/syncthing-android` — ★4.293 (verificado 29-oct-2026) · última actividad 2024-12-03 · MPL-2.0 · ARCHIVADO.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

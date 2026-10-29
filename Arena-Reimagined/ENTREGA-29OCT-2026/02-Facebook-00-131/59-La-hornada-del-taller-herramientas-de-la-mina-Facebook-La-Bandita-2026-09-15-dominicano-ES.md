@@ -122,9 +122,8 @@ archivados.
 · GPL-2.0
 · release v0.20.0-beta.4 (2026-10-15).
 
-Licencias sin resolver hoy (2): `photoprism/photoprism`,
-`awesome-selfhosted/awesome-selfhosted`. Sin licencia clara, la recomendación queda incompleta y
-así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `photoprism/photoprism` — AGPL-3.0;
+`awesome-selfhosted/awesome-selfhosted` — CC.
 
 Enlaces web: 14 apariciones; 14 respondieron vivas el 29-oct-2026.
 

@@ -735,9 +735,9 @@ dormidos · 0 archivados.
 
 • `guardianproject/orbot-android` — ★3.659 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia sin clasificar (NOASSERTION) · release Orbot for Android v17.9.7 RC 1 (tor 0.4.9.14) (2026-10-09).
 
-Licencias sin resolver hoy (4): `guardianproject/orbot-android`, `muntashirakon/appmanager`,
-`organicmaps/organicmaps`, `termux/termux-app`. Sin licencia clara no hay recomendación
-completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `guardianproject/orbot-android` —
+BSD; `muntashirakon/appmanager` — GPL-3.0; `organicmaps/organicmaps` — licencia presente en su
+repo, no clasificada como SPDX (texto leído el 29-oct-2026); `termux/termux-app` — GPL-3.0.
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

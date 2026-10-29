@@ -1098,19 +1098,6 @@ Exacto — y es el don: el mueble invisible que todo lo sabía, mudado sin cambi
 
 ───────────────────
 
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `celzero/rethink-app` — ★5.807 (verificado 29-oct-2026) · última actividad 2026-10-24 · Apache-2.0 · release v0.5.8 (2026-10-13).
-
-• `serverless-dns/serverless-dns` — ★3.832 (verificado 29-oct-2026) · última actividad 2026-05-05 · MPL-2.0.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 42).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta

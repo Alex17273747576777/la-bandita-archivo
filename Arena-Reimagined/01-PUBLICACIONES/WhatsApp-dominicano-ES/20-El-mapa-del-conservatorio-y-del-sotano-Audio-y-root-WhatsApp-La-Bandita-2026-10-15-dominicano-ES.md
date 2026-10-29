@@ -1075,8 +1075,9 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 Licencia actualizada: `team-spotube/spotube` pasó de NOASSERTION a AGPL-3.0 (verificado
 29-oct-2026).
 
-Licencias sin resolver hoy (2): `dr-tsng/zygisknext`, `namidaco/namida`. Sin licencia clara no
-hay recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `dr-tsng/zygisknext` — GPL-3.0;
+`namidaco/namida` — licencia presente en su repo, no clasificada como SPDX (texto leído el
+29-oct-2026).
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

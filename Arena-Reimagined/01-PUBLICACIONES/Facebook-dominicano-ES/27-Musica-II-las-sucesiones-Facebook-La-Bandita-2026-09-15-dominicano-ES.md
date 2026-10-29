@@ -144,8 +144,7 @@ archivados.
 · licencia sin clasificar (NOASSERTION)
 · release Estrella Music v2.4.4 (2026-10-11).
 
-Licencias sin resolver hoy (1): `josprox/estrella-music`. Sin licencia clara, la recomendación
-queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `josprox/estrella-music` — GPL-3.0.
 
 Enlaces web: 7 apariciones; 7 respondieron vivas el 29-oct-2026.
 

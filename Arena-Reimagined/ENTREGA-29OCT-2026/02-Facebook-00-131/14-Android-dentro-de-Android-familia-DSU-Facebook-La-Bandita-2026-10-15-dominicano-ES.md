@@ -722,8 +722,8 @@ archivados.
 · última actividad 2025-01-27
 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · ARCHIVADO.
 
-Licencias sin resolver hoy (1): `phhusson/treble_experimentations`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `phhusson/treble_experimentations`
+— sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """HABILIDAD · GUARDADO EN GITHUB (sin morderse la cola ni rasguñar variables)
 Un solo procedimiento: entorno completo dentro del proceso, askpass temporal, push y
-VERIFICACIÓN con ls-remote + clonación fresca byte por byte. El token jamás se imprime.
+VERIFICACIÓN con ls-remote + blobs del árbol remoto contra los archivos locales
+(alcance: piezas, catálogo, ZIP y mapa — lo enumerado en `pares`). El token jamás se imprime.
 Requiere: LB_TOKEN en el entorno y el espejo /home/user/la-bandita-archivo sincronizado.
 Uso: LB_TOKEN=... python3 guardar.py "mensaje del commit" """
 import hashlib, os, subprocess, sys, tempfile

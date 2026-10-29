@@ -339,8 +339,8 @@ archivados.
 · Apache-2.0
 · release 3.8.4 (2026-10-14).
 
-Licencias sin resolver hoy (1): `jobobby04/tachiyomisypreview`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `jobobby04/tachiyomisypreview` —
+sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 20 apariciones; 20 respondieron vivas el 29-oct-2026.
 

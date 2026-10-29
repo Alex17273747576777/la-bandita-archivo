@@ -148,8 +148,8 @@ publicación (verificado 29-oct-2026).
 · AGPL-3.0
 · release v2.45.4 (2026-10-05).
 
-Licencias sin resolver hoy (2): `foobnix/librerareader`, `tadamiorg/tadami`. Sin licencia clara,
-la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `foobnix/librerareader` — GPL-3.0;
+`tadamiorg/tadami` — sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 10 apariciones; 10 respondieron vivas el 29-oct-2026.
 

@@ -967,23 +967,6 @@ el catálogo de la casa, esperando.
 
 ───────────────────
 
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `koreader/koreader` — ★30.726 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release OTA (2026-10-28).
-
-• `imranr98/obtainium` — ★21.002 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v1.7.3 (2026-10-25).
-
-• `whyorean/aurorastore` — ★3.196 (verificado 29-oct-2026) · última actividad 2026-10-02 · GPL-3.0.
-
-• `droid-ify/client` — ★7.658 (verificado 29-oct-2026) · última actividad 2026-09-12 · GPL-3.0.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 35).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta

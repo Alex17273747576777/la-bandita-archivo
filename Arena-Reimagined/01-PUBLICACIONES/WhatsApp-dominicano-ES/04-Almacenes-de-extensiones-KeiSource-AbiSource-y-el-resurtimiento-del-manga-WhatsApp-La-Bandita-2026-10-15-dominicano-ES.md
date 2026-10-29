@@ -722,9 +722,10 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `yuzono/anime-extensions` — ★522 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
 
-Licencias sin resolver hoy (3): `cuong-tran/manga-repo`, `keiyoushi/extensions`,
-`littlesurvival/copymanga-copy20`. Sin licencia clara no hay recomendación completa: queda la
-alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `cuong-tran/manga-repo` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `keiyoushi/extensions` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `littlesurvival/copymanga-copy20` —
+sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

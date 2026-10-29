@@ -979,3 +979,31 @@ propio desde hoy.
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.orec edsed on ,sabatse ednod ozadep le ne ajed et adíac al — etneuf us y hsah us eneit ozadep adac :odaecort av ovihcra lE=1|REV|.etnaled 34 al ed lenút le noc av elbisnes ol — )oidem le ne rellat yah on :P2P se( PI nóiccerid ut eV=2|REV|.laugi sagap al út ;atouc us ójed euq etneg eneitsos al — sallimes séupsed y ,sebus sagrac sartneim :adanam al ed aísetroc aL=3|REV|.atsenoh aes etneuf al euq azitnarag sámaj — )odamrif odinetnoc le etnematcaxe eart( alleuh al azitnarag tengam lE=4|REV|.)44( erbmala le rop erpmeis eviv euq ol ,)54( orejasnem led erbos le rop ocihc ol ,rodagrac led adanam al rop ednarg oL=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 48).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 2 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 0 en 30 días · 1 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `qbittorrent/qbittorrent` — ★41.207 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia sin clasificar (NOASSERTION) · release qBittorrent v5.3.0 (2026-10-20).
+
+• `proninyaroslav/libretorrent` — ★4.008 (verificado 29-oct-2026) · última actividad 2026-07-24 · GPL-3.0.
+
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `qbittorrent/qbittorrent` —
+GPL-3.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

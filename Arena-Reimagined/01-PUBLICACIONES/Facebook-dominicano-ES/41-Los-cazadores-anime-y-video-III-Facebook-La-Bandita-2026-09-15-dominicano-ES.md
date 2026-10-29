@@ -152,8 +152,9 @@ archivados.
 · última actividad 2026-10-24
 · Apache-2.0.
 
-Licencias sin resolver hoy (2): `anilabx/anilabx`, `th3-anime/th3-anime`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `anilabx/anilabx` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026); `th3-anime/th3-anime` — sin archivo LICENSE
+en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 15 apariciones; 14 respondieron vivas el 29-oct-2026.
 

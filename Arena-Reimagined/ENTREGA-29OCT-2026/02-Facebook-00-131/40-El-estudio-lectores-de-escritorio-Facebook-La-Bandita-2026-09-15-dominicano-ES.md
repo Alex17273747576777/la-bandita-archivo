@@ -156,8 +156,8 @@ archivados.
 · última actividad 2026-10-29
 · GPL-2.0.
 
-Licencias sin resolver hoy (1): `paperback-ios/app`. Sin licencia clara, la recomendación queda
-incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `paperback-ios/app` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 12 apariciones; 12 respondieron vivas el 29-oct-2026.
 

@@ -1030,7 +1030,12 @@ dormidos · 0 archivados.
 
 • `miyomiorg/miyomi` — ★208 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0.
 
-Licencias sin resolver hoy (6): `cuong-tran/manga-repo`, `keiyoushi/extensions`, `littlesurvival/copymanga-copy20`, `mojuru/cursed-manga-repo`, `yuzono/manga-repo`, `zgq-inc/source`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `cuong-tran/manga-repo` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `keiyoushi/extensions` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `littlesurvival/copymanga-copy20` —
+sin archivo LICENSE en su repo (verificado por API 29-oct-2026); `mojuru/cursed-manga-repo` —
+sin archivo LICENSE en su repo (verificado por API 29-oct-2026); `yuzono/manga-repo` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `zgq-inc/source` — CC.
 
 Enlaces web: 13 apariciones en esta pieza; todas respondieron vivas el 29-oct-2026 (200 directo
 o redirección comprobada en navegador). Detalle por URL en el informe de la pasada.

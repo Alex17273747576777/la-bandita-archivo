@@ -135,8 +135,8 @@ archivados.
 · última actividad 2026-08-13
 · GPL-3.0.
 
-Licencias sin resolver hoy (1): `preethamkmr3/widgetspro`. Sin licencia clara, la recomendación
-queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `preethamkmr3/widgetspro` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 7 apariciones; 7 respondieron vivas el 29-oct-2026.
 

@@ -119,8 +119,9 @@ archivados.
 · MIT
 · release EasySSHFS 0.5.19 (2026-10-12).
 
-Licencias sin resolver hoy (3): `recloudstream/cs-repos`, `self-similarity/megarepo`,
-`tobexyz/yaacc-code`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `recloudstream/cs-repos` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `self-similarity/megarepo` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `tobexyz/yaacc-code` — GPL-3.0.
 
 Enlaces web: 12 apariciones; 11 respondieron vivas el 29-oct-2026.
 

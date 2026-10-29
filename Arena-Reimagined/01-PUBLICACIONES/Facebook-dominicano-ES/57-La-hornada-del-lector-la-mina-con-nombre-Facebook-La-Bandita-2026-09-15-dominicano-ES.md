@@ -126,9 +126,11 @@ archivados.
 · última actividad 2026-10-01
 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-Licencias sin resolver hoy (3): `bibledit/android`, `nilsbraden/ttrss-reader-fork`,
-`rektpartyaftermath/legado-booksource-collection`. Sin licencia clara, la recomendación queda
-incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `bibledit/android` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026); `nilsbraden/ttrss-reader-fork` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026);
+`rektpartyaftermath/legado-booksource-collection` — sin archivo LICENSE en su repo (verificado
+por API 29-oct-2026).
 
 Enlaces web: 15 apariciones; 15 respondieron vivas el 29-oct-2026.
 

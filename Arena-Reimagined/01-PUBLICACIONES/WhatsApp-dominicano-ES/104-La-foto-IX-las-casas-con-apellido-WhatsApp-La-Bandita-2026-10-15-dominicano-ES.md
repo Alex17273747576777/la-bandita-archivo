@@ -1151,9 +1151,9 @@ dormidos · 2 archivados.
 
 • `nextcloud/android` — ★5.656 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release dev-20261029: daily dev 20261029 (2026-10-29).
 
-Licencias sin resolver hoy (4): `aayush2622/dartotsu`, `asrofficialdev/redantotsu`,
-`itsmechinmoy/dantotsu`, `openwrt/openwrt`. Sin licencia clara no hay recomendación completa:
-queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `aayush2622/dartotsu` — GPL-3.0;
+`asrofficialdev/redantotsu` — GPL-3.0; `itsmechinmoy/dantotsu` — GPL-3.0; `openwrt/openwrt` —
+GPL-2.0.
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

@@ -1025,26 +1025,6 @@ puerta de entrada: tiene diez.
 
 ───────────────────
 
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `lawnchairlauncher/lawnchair` — ★13.809 (verificado 29-oct-2026) · última actividad 2026-10-28 · licencia sin clasificar (NOASSERTION) · release Lawnchair Nightly (2026-10-28).
-
-• `mm2-0/kvaesitso` — ★5.322 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
-
-• `florisboard/florisboard` — ★8.730 (verificado 29-oct-2026) · última actividad 2026-09-30 · Apache-2.0.
-
-• `fcitx5-android/fcitx5-android` — ★5.808 (verificado 29-oct-2026) · última actividad 2026-10-13 · LGPL-2.1.
-
-Licencias sin resolver hoy (2): `futo-org/android-keyboard`, `lawnchairlauncher/lawnchair`. Sin
-licencia clara no hay recomendación completa: queda la alerta firmada.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 30).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
@@ -1067,8 +1047,9 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `fcitx5-android/fcitx5-android` — ★5.808 (verificado 29-oct-2026) · última actividad 2026-10-13 · LGPL-2.1.
 
-Licencias sin resolver hoy (2): `futo-org/android-keyboard`, `lawnchairlauncher/lawnchair`. Sin
-licencia clara no hay recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `futo-org/android-keyboard` —
+licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026);
+`lawnchairlauncher/lawnchair` — Apache-2.0.
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

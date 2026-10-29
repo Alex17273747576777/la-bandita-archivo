@@ -350,8 +350,10 @@ publicación (verificado 29-oct-2026).
 · sin licencia declarada
 · release Repository Update dbf6c05 (2026-10-29).
 
-Licencias sin resolver hoy (3): `cuong-tran/manga-repo`, `jobobby04/tachiyomisypreview`,
-`keiyoushi/extensions`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `cuong-tran/manga-repo` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `jobobby04/tachiyomisypreview` —
+sin archivo LICENSE en su repo (verificado por API 29-oct-2026); `keiyoushi/extensions` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 20 apariciones; 20 respondieron vivas el 29-oct-2026.
 

@@ -147,9 +147,10 @@ archivados.
 · GPL-3.0
 · release Release v10.1.1.1 (2026-10-06).
 
-Licencias sin resolver hoy (2): `k3v1991/adb-and-fastbootplusplus`,
-`teamwin/android_bootable_recovery`. Sin licencia clara, la recomendación queda incompleta y así
-se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `k3v1991/adb-and-fastbootplusplus`
+— sin archivo LICENSE en su repo (verificado por API 29-oct-2026);
+`teamwin/android_bootable_recovery` — sin archivo LICENSE en su repo (verificado por API
+29-oct-2026).
 
 Enlaces web: 10 apariciones; 10 respondieron vivas el 29-oct-2026.
 

@@ -102,8 +102,7 @@ archivados.
 · Apache-2.0
 · release Release v4.9.1 (2026-10-14).
 
-Licencias sin resolver hoy (1): `plateaukao/einkbro`. Sin licencia clara, la recomendación queda
-incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `plateaukao/einkbro` — GPL-3.0.
 
 Enlaces web: 12 apariciones; 12 respondieron vivas el 29-oct-2026.
 

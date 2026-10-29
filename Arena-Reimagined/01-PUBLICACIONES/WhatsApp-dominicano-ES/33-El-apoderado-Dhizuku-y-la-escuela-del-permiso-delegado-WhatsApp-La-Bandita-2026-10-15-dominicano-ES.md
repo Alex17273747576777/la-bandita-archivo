@@ -1011,23 +1011,6 @@ El diseño viejo, las placas nuevas: la serie entera en una frase.
 
 ───────────────────
 
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `iamr0s/dhizuku-api` — creado 2023-04-21 · última actividad 2026-10-29 · ★204 (verificado 29-oct-2026) · MIT.
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `iamr0s/dhizuku` — ★4.044 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
-
-• `iamr0s/dhizuku-api` — ★204 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 33).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta

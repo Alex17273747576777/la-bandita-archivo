@@ -159,8 +159,8 @@ archivados.
 · GPL-3.0
 · release 0.6.5-beta (2026-10-27).
 
-Licencias sin resolver hoy (1): `mjlanddev/corncastle-anime-app`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `mjlanddev/corncastle-anime-app` —
+sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 10 apariciones; 10 respondieron vivas el 29-oct-2026.
 

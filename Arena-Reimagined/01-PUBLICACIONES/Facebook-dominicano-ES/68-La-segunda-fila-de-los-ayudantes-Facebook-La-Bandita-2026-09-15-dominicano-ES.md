@@ -121,8 +121,8 @@ archivados.
 · AGPL-3.0
 · release v1.3.7 (2026-10-22).
 
-Licencias sin resolver hoy (1): `keiyoushi/extensions`. Sin licencia clara, la recomendación
-queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `keiyoushi/extensions` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 12 apariciones; 12 respondieron vivas el 29-oct-2026.
 

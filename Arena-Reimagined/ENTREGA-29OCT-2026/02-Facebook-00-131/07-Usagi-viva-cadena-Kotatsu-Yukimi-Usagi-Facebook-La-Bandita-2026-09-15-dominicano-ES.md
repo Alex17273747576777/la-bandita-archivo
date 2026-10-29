@@ -285,8 +285,8 @@ archivados.
 · GPL-3.0
 · release 83bcf88 (2026-10-22).
 
-Licencias sin resolver hoy (1): `gekkoushi/plugin`. Sin licencia clara, la recomendación queda
-incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `gekkoushi/plugin` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 17 apariciones; 17 respondieron vivas el 29-oct-2026.
 

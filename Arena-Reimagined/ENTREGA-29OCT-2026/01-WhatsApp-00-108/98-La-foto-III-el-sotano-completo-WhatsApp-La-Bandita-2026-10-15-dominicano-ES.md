@@ -1101,8 +1101,8 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `home-assistant/android` — ★4.009 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release 2026.10.1 (2026-10-26).
 
-Licencias sin resolver hoy (1): `pi-hole/pi-hole`. Sin licencia clara no hay recomendación
-completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `pi-hole/pi-hole` — licencia
+presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026).
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

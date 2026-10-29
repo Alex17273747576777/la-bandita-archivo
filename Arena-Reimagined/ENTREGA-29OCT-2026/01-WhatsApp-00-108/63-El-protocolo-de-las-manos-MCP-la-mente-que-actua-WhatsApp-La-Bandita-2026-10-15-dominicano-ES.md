@@ -1010,3 +1010,32 @@ La casa no improvisa: programa. Y la noche firma: las manos de la mente — el h
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.AI alif al ed samrif saremirp sert sal :)113.19★( sonam sal y )719.551★( arac al ,)874.381★( etnem aL=1|REV|.erba es sámaj euq nóicpecxe al ,otcerid y onamuh erpmeis :ogap le — orenid lE=2|REV|.»?sobicer 74 oveum¿« :otad noc odidep le y — onamuh retne uT=3|REV|.)euqnarra la sert o sod( asac al ed anarebos atsil al — abeurp ed anames US noc ,anu rop anU=4|REV|.sevall sut noc ,rellat US edsed sadivres :oneja led sal — )15 al ed ajac al( rellat UT nE=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 63).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 2 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 2 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `modelcontextprotocol/modelcontextprotocol` — ★9.559 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
+
+• `modelcontextprotocol/servers` — ★91.665 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v2.2.0 (2026-10-28).
+
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX):
+`modelcontextprotocol/modelcontextprotocol` — Apache-2.0; `modelcontextprotocol/servers` —
+Apache-2.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

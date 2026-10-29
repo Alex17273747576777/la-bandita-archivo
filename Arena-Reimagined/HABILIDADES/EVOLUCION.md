@@ -1,4 +1,4 @@
-# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.10
+# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.11
 
 Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.py` y la versión sube sola. Una habilidad que no aprende es un papel; esta casa aprende.
 
@@ -23,3 +23,5 @@ Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.
 - **v1.9 (2026-10-29)** · L-15: Ante un 128 de clonación, mirar disco antes que credenciales; las herramientas de guardado trabajan en el disco del workspace, no en /tmp
 
 - **v1.10 (2026-10-29)** · L-16: Toda limpieza por secciones declara sus zonas intocables ANTES de correr (nota 💓, líneas REV, placas) y se verifica contando lo intocable al final: si el conteo cambió, el pase no terminó
+
+- **v1.11 (2026-10-29)** · L-17: Toda reparación por zonas cuenta lo intocable (💓/REV) antes y después en AMBAS series; la vara comprueba nota, orden numérico y títulos reales; ninguna herramienta declara OK por correr: o mide y publica cifras, o es puerta y puede fallar

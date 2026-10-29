@@ -147,8 +147,10 @@ archivados.
 · última actividad 2026-10-21
 · Apache-2.0.
 
-Licencias sin resolver hoy (3): `dinkelspiel/komikku-sync`, `k1717/readwide`,
-`thehijacker/codexa`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `dinkelspiel/komikku-sync` —
+licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026);
+`k1717/readwide` — Apache-2.0; `thehijacker/codexa` — sin archivo LICENSE en su repo (verificado
+por API 29-oct-2026).
 
 Enlaces web: 8 apariciones; 8 respondieron vivas el 29-oct-2026.
 

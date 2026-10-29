@@ -1026,19 +1026,6 @@ Bienvenida al bloque del sistema, que era tuyo.
 
 ───────────────────
 
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `you-apps/connectyou` — ★729 (verificado 29-oct-2026) · última actividad 2026-07-30 · GPL-3.0.
-
-• `quik-sms/quik` — ★2.875 (verificado 29-oct-2026) · última actividad 2026-09-27 · GPL-3.0.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 37).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta

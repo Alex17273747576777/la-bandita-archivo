@@ -145,9 +145,10 @@ archivados.
 · MIT
 · release b11983 (2026-10-29).
 
-Licencias sin resolver hoy (3): `sagernet/sing-box`, `teamwin/android_bootable_recovery`,
-`teamwin/team-win-recovery-project`. Sin licencia clara, la recomendación queda incompleta y así
-se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `sagernet/sing-box` — GPL-3.0;
+`teamwin/android_bootable_recovery` — sin archivo LICENSE en su repo (verificado por API
+29-oct-2026); `teamwin/team-win-recovery-project` — sin archivo LICENSE en su repo (verificado
+por API 29-oct-2026).
 
 Enlaces web: 18 apariciones; 18 respondieron vivas el 29-oct-2026.
 

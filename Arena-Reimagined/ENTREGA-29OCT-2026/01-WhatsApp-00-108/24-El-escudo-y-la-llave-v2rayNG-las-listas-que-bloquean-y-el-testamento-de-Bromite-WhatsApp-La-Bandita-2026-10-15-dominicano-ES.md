@@ -1075,30 +1075,6 @@ Si entendiste que Bromite no murió — que la GPL es un seguro de vida y los he
 
 ───────────────────
 
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `bromite/bromite` — dormido · última actividad 2024-01-24 · ★6.321 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `getlantern/lantern` — ★16.556 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Lantern 10.0.4 (2026-10-27).
-
-• `2dust/v2rayng` — ★64.922 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release 2.3.14 (2026-10-28).
-
-• `teampiped/piped` — ★10.296 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0.
-
-• `johnshall/shadowrocket-adblock-rules-forever` — ★31.653 (verificado 29-oct-2026) · última actividad 2026-10-28 · licencia sin clasificar (NOASSERTION).
-
-Licencias sin resolver hoy (1): `johnshall/shadowrocket-adblock-rules-forever`. Sin licencia
-clara no hay recomendación completa: queda la alerta firmada.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 24).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
@@ -1122,8 +1098,8 @@ dormidos · 0 archivados.
 
 • `johnshall/shadowrocket-adblock-rules-forever` — ★31.653 (verificado 29-oct-2026) · última actividad 2026-10-28 · licencia sin clasificar (NOASSERTION).
 
-Licencias sin resolver hoy (1): `johnshall/shadowrocket-adblock-rules-forever`. Sin licencia
-clara no hay recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX):
+`johnshall/shadowrocket-adblock-rules-forever` — CC.
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

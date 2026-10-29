@@ -968,3 +968,30 @@ dueño.
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.oyut le ne ,oviv mublá le ;rellat us ne ailimaf ut ed ednerpa aneja ebun al — )rellat led selacol soledom sol( ajac UT nE=1|REV|.odayasne y — sayoj sal ed aírf aipoc al + ajac al ed areuf rellat led odlapser le :ominím omoc socsid sod nE=2|REV|.semem sus noc aretne aírelag al sámaj — )ocinílc ojabart led al ,aramác al ed al( samrif el euq ateprac aL=3|REV|.nedro al a »aleubA« — asem ut nalbah erbmon rop sadamrif sanosrep sal :soyut sol a odnarbmoN=4|REV|.osnec led aciróetem sám adibus al :oidem y soña ortauc ne arbo al ed amic al — )6202-tco-61 oslup( 804.611★ hcimmI=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 52).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 2 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 2 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release October 7, 2026 (2026-10-07).
+
+• `immich-app/immich` — ★117.570 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v3.3.5 (2026-10-22).
+
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `photoprism/photoprism` — AGPL-3.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

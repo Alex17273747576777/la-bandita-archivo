@@ -163,8 +163,9 @@ archivados.
 · Apache-2.0
 · release Mihon v0.21.3 (2026-10-26).
 
-Licencias sin resolver hoy (2): `hotaro26/miko`, `nardjes5/kumo-surreal`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `hotaro26/miko` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026); `nardjes5/kumo-surreal` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 10 apariciones; 10 respondieron vivas el 29-oct-2026.
 

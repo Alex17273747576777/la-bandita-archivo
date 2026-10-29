@@ -109,9 +109,11 @@ archivados.
 · MIT
 · release b11983 (2026-10-29).
 
-Licencias sin resolver hoy (4): `phisher98/cloudstream-extensions-phisher`,
-`plateaukao/einkbro`, `recloudstream/cs-repos`, `teamwin/team-win-recovery-project`. Sin
-licencia clara, la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX):
+`phisher98/cloudstream-extensions-phisher` — sin archivo LICENSE en su repo (verificado por API
+29-oct-2026); `plateaukao/einkbro` — GPL-3.0; `recloudstream/cs-repos` — sin archivo LICENSE en
+su repo (verificado por API 29-oct-2026); `teamwin/team-win-recovery-project` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 15 apariciones; 15 respondieron vivas el 29-oct-2026.
 

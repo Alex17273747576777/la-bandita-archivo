@@ -164,9 +164,10 @@ publicación (verificado 29-oct-2026).
 · Apache-2.0
 · release 13.7.0.r3085 (2026-10-27).
 
-Licencias sin resolver hoy (4): `bufanchen121101/axmanagerd`, `linksheet/linksheet`,
-`shynoiddev/firewall-blocks`, `yyj5201314whj/axmanager-pro`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `bufanchen121101/axmanagerd` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `linksheet/linksheet` — GPL-3.0;
+`shynoiddev/firewall-blocks` — MIT; `yyj5201314whj/axmanager-pro` — sin archivo LICENSE en su
+repo (verificado por API 29-oct-2026).
 
 Enlaces web: 22 apariciones; 22 respondieron vivas el 29-oct-2026.
 

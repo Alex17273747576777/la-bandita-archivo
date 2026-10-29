@@ -100,9 +100,8 @@ publicación (verificado 29-oct-2026).
 · licencia sin clasificar (NOASSERTION)
 · release October 7, 2026 (2026-10-07).
 
-Licencias sin resolver hoy (4): `photoprism/photoprism`,
-`awesome-selfhosted/awesome-selfhosted`, `sagernet/sing-box`, `xbmc/xbmc`. Sin licencia clara,
-la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `photoprism/photoprism` — AGPL-3.0;
+`awesome-selfhosted/awesome-selfhosted` — CC; `sagernet/sing-box` — GPL-3.0; `xbmc/xbmc` — GPL.
 
 Enlaces web: 20 apariciones; 20 respondieron vivas el 29-oct-2026.
 

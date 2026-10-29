@@ -183,7 +183,13 @@ archivados.
 · última actividad 2026-10-29
 · Apache-2.0.
 
-Licencias sin resolver hoy (12): `gekkoushi/plugin`, `keiyoushi/extensions`, `littlesurvival/copymanga-copy20`, `dannovels/novel-extensions`, `inkdex/extensions`, `novelsourcery/extensions` y 6 más. Sin licencia clara, la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `gekkoushi/plugin` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026); `keiyoushi/extensions` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026); `littlesurvival/copymanga-copy20` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `dannovels/novel-extensions` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `inkdex/extensions` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026); `novelsourcery/extensions` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 9 apariciones; 9 respondieron vivas el 29-oct-2026.
 

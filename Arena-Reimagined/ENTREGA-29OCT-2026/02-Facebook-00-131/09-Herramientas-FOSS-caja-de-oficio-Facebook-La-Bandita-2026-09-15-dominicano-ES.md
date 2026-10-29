@@ -282,9 +282,9 @@ archivados.
 · licencia sin clasificar (NOASSERTION)
 · release Orbot for Android v17.9.7 RC 1 (tor 0.4.9.14) (2026-10-09).
 
-Licencias sin resolver hoy (4): `muntashirakon/appmanager`, `organicmaps/organicmaps`,
-`termux/termux-app`, `guardianproject/orbot`. Sin licencia clara, la recomendación queda
-incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `muntashirakon/appmanager` —
+GPL-3.0; `organicmaps/organicmaps` — licencia presente en su repo, no clasificada como SPDX
+(texto leído el 29-oct-2026); `termux/termux-app` — GPL-3.0; `guardianproject/orbot` — BSD.
 
 Enlaces web: 26 apariciones; 26 respondieron vivas el 29-oct-2026.
 

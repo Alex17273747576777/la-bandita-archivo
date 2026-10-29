@@ -733,8 +733,8 @@ publicación (verificado 29-oct-2026).
 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 · release Miyorare Source Packs v0.5.15 (2026-10-24).
 
-Licencias sin resolver hoy (1): `noirero/miyorare-source-packs`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `noirero/miyorare-source-packs` —
+sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 2 apariciones; 2 respondieron vivas el 29-oct-2026.
 

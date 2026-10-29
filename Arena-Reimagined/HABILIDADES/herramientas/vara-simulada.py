@@ -54,7 +54,12 @@ for p in D['wa']:
     for qz in extractQuiz(p['text']):
         nquiz+=1
         if not any(re.match(r'^1\s*[=:]',d) for d in descifra(qz)): fallos.append(f"quiz no descifra en #{p['id']}")
+    if '💓' not in p['text']: fallos.append(f"WA sin 💓: #{p['id']}")
 if ESPERA is not None and len(D['fb'])!=ESPERA: fallos.append(f'FB≠{ESPERA}')
 for p in D['fb']:
     if '💓' not in p['text']: fallos.append('FB sin 💓: '+p['file'])
+    if len(p['text'])!=p['len']: fallos.append('FB cps≠len: '+p['file'])
+    for qz in extractQuiz(p['text']):
+        nquiz+=1
+        if not any(re.match(r'^1\s*[=:]',d) for d in descifra(qz)): fallos.append('quiz FB no descifra: '+p['file'])
 print(f'vara simulada: WA {len(D["wa"])} · FB {len(D["fb"])} (esperados {ESPERA}) · quices {nquiz} · fallos: {fallos if fallos else "NINGUNO — VARA APROBADA ✓"}')

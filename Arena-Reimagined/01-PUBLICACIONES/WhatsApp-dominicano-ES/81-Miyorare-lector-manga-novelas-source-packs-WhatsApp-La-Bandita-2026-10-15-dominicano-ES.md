@@ -919,8 +919,8 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `gekkoushi/plugin-source` — ★93 (verificado 29-oct-2026) · última actividad 2026-09-13 · GPL-3.0.
 
-Licencias sin resolver hoy (1): `noirero/miyorare-source-packs`. Sin licencia clara no hay
-recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `noirero/miyorare-source-packs` —
+sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 2 apariciones en esta pieza; todas respondieron vivas el 29-oct-2026 (200 directo o
 redirección comprobada en navegador). Detalle por URL en el informe de la pasada.

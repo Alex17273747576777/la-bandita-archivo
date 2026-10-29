@@ -975,3 +975,26 @@ planta invisible del salón; el programa del taller: de vuelta al trabajo.
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.)sadued nis :aznaifnoc al( on euq ol y aneaf euq ol ecid atnalp al :aterbil al ne adahcef ,anep nis atca le — erroc on / ranifa edip / erroC=1|REV|.beStitp ed al ,)6202-0202( ajrof ed SOÑA SIES :)755 rop( 221.5★ allatnap elbod al ed amicne ,)828.1 rop( 705.7★ onrete ohcutrac led ojabed — )6202-tco-81 oslup( 976.5★ :nólas led acalp amitpés aL=2|REV|.rellat led erfoc le ne adlapser es y ahcef noc atona es ,)evall US( amargorp adac ed cr46xob le noc anifa es — ecudarter es ON odicudart ay ol :rotcudart led seuqolb ed airomem aL=3|REV|.)ertsop ed emsihc noc sorejuga neic( sámaj :ohcat led »onu ne odot« lE .ayut se aicnecil al ,ATREUP al erba rotcudart le — ocsid UT ed o erbil ,odarpmoc oiranib le :omitígel amargorp led yel aL=4|REV|.rotcudart led dadicolev al noc ,laer asac UT ne erroc amargorp le :oesum ed nóicalume se on — )amargorp led amoc anu raibmac nis( OLEUV LA MRA → 68x senoiccurtsni ecudarT=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 77).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 1 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `ptitseb/box64` — ★5.694 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

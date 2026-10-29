@@ -110,8 +110,7 @@ publicación (verificado 29-oct-2026).
 · AGPL-3.0
 · release v3.3.5 (2026-10-22).
 
-Licencias sin resolver hoy (1): `xbmc/xbmc`. Sin licencia clara, la recomendación queda
-incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `xbmc/xbmc` — GPL.
 
 Enlaces web: 12 apariciones; 12 respondieron vivas el 29-oct-2026.
 

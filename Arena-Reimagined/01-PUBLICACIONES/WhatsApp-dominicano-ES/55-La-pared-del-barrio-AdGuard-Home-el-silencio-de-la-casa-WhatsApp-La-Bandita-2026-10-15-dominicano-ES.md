@@ -980,3 +980,31 @@ resultado por hora?
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.sallarum sert ed ,ollitsac le — nasap ,oipmil oinimod led lexíp le y oediv le ne odatsurcni oicnuna le :)SND le( ERBMON roP=1|REV|.ajac al a odnatnupa ,aretne asac aL .ADAN :solle ne y — )aleuba al ,telbat ,alosnoc ,rosivelet( ifiw al ed sol SODOT=2|REV|.esodnáelep satsil etniev ed asoivren allam al :ogimene le — )sod + otcefed rop al( sadinetnam y SACOP=3|REV|.evall noc ,lenap lE .otneimican ed adarfic ,nóicasrevnoc al :odinetnoc le sámaj — )senoiccerid sal( oinimod ed SERBMON=4|REV|.alif al adot ed aroh rop odatluser sám ed al — aipmil asac al ADOT ,aneaf ed aroh anu :)azeip atse( derap aL=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 55).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 2 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 1 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `adguardteam/adguardhome` — ★37.828 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0 · release AdGuardHome v1.0.0-b.1 (2026-09-30).
+
+• `pi-hole/pi-hole` — ★61.549 (verificado 29-oct-2026) · última actividad 2026-10-17 · licencia sin clasificar (NOASSERTION) · release v6.5 (2026-10-17).
+
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `pi-hole/pi-hole` — licencia
+presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026).
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

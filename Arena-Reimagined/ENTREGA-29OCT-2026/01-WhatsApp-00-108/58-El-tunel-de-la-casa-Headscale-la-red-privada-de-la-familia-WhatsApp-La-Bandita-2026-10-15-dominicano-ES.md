@@ -1001,3 +1001,28 @@ desastre?
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.atsetnoc ajac al ,edip areufa ed le :séver la anoicnuf obut le — otcatni retuor le :otreup nu sámaj — ONUGNIN=1|REV|.sotreiba sojo noc ,osoreneg-oneja le ne o )elacsdaeH( ajac UT ne — )sevall sus ,sotarapa sol( ailimaf al ne néiuq se néiuQ=2|REV|.onas ,oesap led nalp le :ASAC al ap se obut le — otcerid elas :adaN=3|REV|.ailimaf al ed sotunim ocnic ,namrifer es sevall sal :ertsased le sart y — )atsil al edsed adaslupxe( euqot la atreuM=4|REV|.4c2xz asac us ne odamrif ,sodot ed rotom le — xuniL ed lenrek le y elacsdaeH ,elacsliaT=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 58).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 2 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 2 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `tailscale/tailscale` — ★38.289 (verificado 29-oct-2026) · última actividad 2026-10-29 · BSD-3-Clause · release v1.104.4 (2026-10-28).
+
+• `juanfont/headscale` — ★45.166 (verificado 29-oct-2026) · última actividad 2026-10-29 · BSD-3-Clause · release v0.29.6 (2026-10-24).
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

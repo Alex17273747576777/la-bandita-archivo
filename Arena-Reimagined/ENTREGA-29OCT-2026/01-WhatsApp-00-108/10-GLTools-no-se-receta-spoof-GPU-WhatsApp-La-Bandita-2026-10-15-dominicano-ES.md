@@ -536,8 +536,8 @@ dormidos · 0 archivados.
 
 • `darek2015/gltools` — ★12 (verificado 29-oct-2026) · última actividad 2020-05-05 · GPL-2.0.
 
-Licencias sin resolver hoy (1): `i-taylo/iunlockergl`. Sin licencia clara no hay recomendación
-completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `i-taylo/iunlockergl` — licencia
+presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026).
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

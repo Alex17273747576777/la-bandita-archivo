@@ -906,33 +906,6 @@ La sala serena es la mejor pieza de la serie, y no la escribe nadie: se configur
 
 ───────────────────
 
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `oxyroid/m3uandroid` — ARCHIVADO · última actividad 2026-09-08 · ★1.284 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
-
-• `miru-project/miru-app` — dormido · última actividad 2025-12-05 · ★5.783 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `mytv-android/mytv-android` — creado 2025-02-20 · última actividad 2026-10-28 · ★2.927 (verificado 29-oct-2026) · MIT.
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
-
-• `yuliskov/smarttube` — ★35.695 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release 32.68 Stable (2026-10-20).
-
-• `teampiped/piped` — ★10.296 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0.
-
-• `recloudstream/cloudstream` — ★11.090 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Pre-release Build (2026-10-28).
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 23).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta

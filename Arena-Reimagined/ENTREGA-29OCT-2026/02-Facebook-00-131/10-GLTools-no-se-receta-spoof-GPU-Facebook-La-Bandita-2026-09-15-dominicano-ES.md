@@ -283,8 +283,8 @@ archivados.
 · última actividad 2020-05-05
 · GPL-2.0.
 
-Licencias sin resolver hoy (1): `i-taylo/iunlockergl`. Sin licencia clara, la recomendación
-queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `i-taylo/iunlockergl` — licencia
+presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026).
 
 Enlaces web: 2 apariciones; 2 respondieron vivas el 29-oct-2026.
 

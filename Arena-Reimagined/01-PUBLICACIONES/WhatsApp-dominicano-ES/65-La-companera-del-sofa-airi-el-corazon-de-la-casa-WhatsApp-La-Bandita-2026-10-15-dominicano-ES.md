@@ -997,3 +997,30 @@ La casa no improvisa: cría. Y la noche firma: la compañera del sofá — el co
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.aiporp AI al ed atelpmoc asac al — )56( nózaroc y )46( oicifo ,)36( sonam ,)26( asem ,)16( rasnep :áfos led olucríc lE=1|REV|.)357.26★( ollislob ed rellat le y )657.64★( ovihcra le ertne :)834.05★( nózaroc led acalp aL=2|REV|.aniuqám al sámaj ,ailimaf al apuco al asem al — atisiv al arbelec ,ognimod led adamall al araperp :etneuP=3|REV|.ereiuq asac al is oretne alrarrob ,arig al ne alreel ,socsid sod ne alradlapser :)asac al ed ocsid le( atevag UT nE=4|REV|.asac ne ahceh ,onu alger al ed abeurp al — laugi eugis asrevnoc al :ifiw le odnagapA=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 65).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 3 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 2 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
+
+• `moeru-ai/airi` — ★50.878 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.13.1 (2026-10-29).
+
+• `paperless-ngx/paperless-ngx` — ★47.287 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Paperless-ngx v3.3.4 (2026-10-22).
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

@@ -1040,26 +1040,6 @@ El teléfono del barrio, volviendo a ser de los del barrio.
 
 ───────────────────
 
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `chooloo/koler` — dormido · última actividad 2024-12-27 · ★1.069 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `fossifyorg/phone` — ★1.392 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0.
-
-• `chooloo/koler` — ★1.069 (verificado 29-oct-2026) · última actividad 2024-12-27 · licencia sin clasificar (NOASSERTION).
-
-Licencias sin resolver hoy (1): `chooloo/koler`. Sin licencia clara no hay recomendación
-completa: queda la alerta firmada.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 39).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
@@ -1079,8 +1059,7 @@ dormidos · 0 archivados.
 
 • `chooloo/koler` — ★1.069 (verificado 29-oct-2026) · última actividad 2024-12-27 · licencia sin clasificar (NOASSERTION).
 
-Licencias sin resolver hoy (1): `chooloo/koler`. Sin licencia clara no hay recomendación
-completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `chooloo/koler` — GPL-3.0.
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

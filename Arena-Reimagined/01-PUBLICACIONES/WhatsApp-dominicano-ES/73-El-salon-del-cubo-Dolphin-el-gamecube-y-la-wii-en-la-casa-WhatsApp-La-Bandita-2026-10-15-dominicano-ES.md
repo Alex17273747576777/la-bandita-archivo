@@ -954,3 +954,29 @@ movimiento, de vuelta; la memory card de la infancia: con cofre.
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.ahcef noc odatona ,etsuja US noc odigixe ocsid adac — ogeuj rop lifrep le :arig aL .)artibra ,eart on neiuq — odaclov US noc rodaguj adac( oiporp ocsid led yel al :arrazip aL=1|REV|.)6202-3102( ajrof ed SOÑA ECERT :763.41★ elbeum led y )100.1 rop( 086.41★ allislob al ed amicne ,)838.3 rop( 915.91★ swodniw led ojabed — )6202-tco-81 oslup( 186.51★ :nólas led acalp arecret aL=2|REV|.onrete :odabás led nóepmac le ;odnaunitnoc :5002 led aditrap aL .95 al ed ohcapsed la otnuj — socsid sod ,erfoc nu :adaclov ajeiv drac yromem al + soveun sevas soL=3|REV|.esodnéivom arnoh es are al :odajepsed odardauc ortem US edip y — )lanigiro le o allatnap ,htooteulb :evris asac al ed lortnoc le( onam al ne odnam le noc ,eip eD=4|REV|.sámaj :senocnir sol ed ohcat le ;)amrif asac al euq mor acinú al( alosnoc o rotcel rop aclov es oiporp ocsid le :otiuqihc led yel al noc — iiw al y obuc lE=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 73).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `dolphin-emu/dolphin` — ★15.741 (verificado 29-oct-2026) · última actividad 2026-10-25 · licencia sin clasificar (NOASSERTION) · release 2609a (2026-10-08).
+
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `dolphin-emu/dolphin` — licencia
+presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026).
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

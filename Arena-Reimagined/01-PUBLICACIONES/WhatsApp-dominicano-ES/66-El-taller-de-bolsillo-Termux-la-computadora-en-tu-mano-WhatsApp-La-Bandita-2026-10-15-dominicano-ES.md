@@ -992,3 +992,35 @@ La casa no improvisa: camina. Y la noche firma: el taller de bolsillo — la cal
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.)YOH ed hsup( asnepsed us noc soña ecno ed ajerap — euqolb led ajeiv sám al ,oicifo ed soña ecno :)5102( xumreT=1|REV|.aneaf ednarg le — adnam ollislob le :)ednarg oledom le ,oretne ohcapsed le( etneup le rop odasep ;)acihc etnem ,orelbat ,stpircs( onam al ne onaiviL=2|REV|.tenretni led anirtiv al sámaj ,otreiba otreup sámaj — asac al ed lenút le rop ERPMEIS :ajac al ne onam aL=3|REV|.ajac al edsed odnamoc nu ne adacover evall :onam al adidrep — nip us onofélet le y )ojorrec le( añesartnoc avell evall aL=4|REV|.)amrif y artel( setna eel es ,ollislob la artne euq ol :sotilager noc saipoc ednev oneja odacrem le — AJROF AL ED=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 66).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 5 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 2 con actividad hoy · 2 en 7 días · 0 en 30 días · 1 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `termux/termux-packages` — ★17.259 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release Bootstrap archives for Termux application (apt.android-7) (2026-10-25).
+
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
+
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
+
+• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
+
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `termux/termux-packages` —
+Apache-2.0; `termux/termux-app` — GPL-3.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

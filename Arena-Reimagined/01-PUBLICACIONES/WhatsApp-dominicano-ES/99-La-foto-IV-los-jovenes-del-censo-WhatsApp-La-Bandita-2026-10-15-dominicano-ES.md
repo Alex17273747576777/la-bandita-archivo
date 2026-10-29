@@ -1084,9 +1084,11 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `modelcontextprotocol/servers` — ★91.665 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v2.2.0 (2026-10-28).
 
-Licencias sin resolver hoy (4): `keiyoushi/extensions`,
-`modelcontextprotocol/modelcontextprotocol`, `modelcontextprotocol/servers`, `pi-hole/pi-hole`.
-Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `keiyoushi/extensions` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026);
+`modelcontextprotocol/modelcontextprotocol` — Apache-2.0; `modelcontextprotocol/servers` —
+Apache-2.0; `pi-hole/pi-hole` — licencia presente en su repo, no clasificada como SPDX (texto
+leído el 29-oct-2026).
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

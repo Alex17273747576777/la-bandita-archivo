@@ -201,9 +201,9 @@ archivados.
 · Apache-2.0
 · release v6.8.0 (2026-10-14).
 
-Licencias sin resolver hoy (4): `photoprism/photoprism`,
-`awesome-selfhosted/awesome-selfhosted`, `sagernet/sing-box`, `tadamiorg/tadami-extensions`. Sin
-licencia clara, la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `photoprism/photoprism` — AGPL-3.0;
+`awesome-selfhosted/awesome-selfhosted` — CC; `sagernet/sing-box` — GPL-3.0;
+`tadamiorg/tadami-extensions` — sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

@@ -1279,8 +1279,8 @@ dormidos · 0 archivados.
 
 • `victor-root/omnify` — ★91 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v1.0.7-beta.8 (2026-10-25).
 
-Licencias sin resolver hoy (1): `developer-for-git/mod-store`. Sin licencia clara no hay
-recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `developer-for-git/mod-store` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Espejos oficiales re-verificados hoy: GitLab `AuroraOSS/AuroraStore` con actividad el 29-oct-2026 (★2.278 en GitLab) y Codeberg `droidify/client` actualizado el 23-oct-2026 (43 releases). El espejo no sustituye a la casa madre: se cita cada uno en su host.
 

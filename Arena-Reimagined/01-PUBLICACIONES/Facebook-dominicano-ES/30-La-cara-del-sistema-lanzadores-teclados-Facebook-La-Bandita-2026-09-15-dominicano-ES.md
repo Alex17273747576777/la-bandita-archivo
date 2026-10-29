@@ -150,8 +150,8 @@ archivados.
 · licencia sin clasificar (NOASSERTION)
 · release Lawnchair Nightly (2026-10-28).
 
-Licencias sin resolver hoy (1): `lawnchairlauncher/lawnchair`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `lawnchairlauncher/lawnchair` —
+Apache-2.0.
 
 Enlaces web: 11 apariciones; 11 respondieron vivas el 29-oct-2026.
 

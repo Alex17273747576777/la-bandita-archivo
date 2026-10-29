@@ -80,3 +80,8 @@ _Cada lección costó tiempo real. Leerla antes de trabajar ahorra el próximo t
 - **Contexto:** Desmeta del corpus (29-oct)
 - **Fallo/experiencia:** La primera desmeta se comió la nota de 64 piezas porque el barrido de secciones no la reconocía como frontera
 - **Regla que queda:** Toda limpieza por secciones declara sus zonas intocables ANTES de correr (nota 💓, líneas REV, placas) y se verifica contando lo intocable al final: si el conteo cambió, el pase no terminó
+
+## L-17 · 2026-10-29
+- **Contexto:** Corrección final del 29-oct: la vara aprobaba mientras faltaban notas y sobraban duplicados
+- **Fallo/experiencia:** La reparación de quices truncó la nota 💓 de 41 piezas WA porque su zona no usa el marcador de soluciones, y la vara no comprobaba la nota en WhatsApp; el chequeo daba OK a una lupa que solo imprime medidas y prometía un L3 inexistente; el catálogo ordenaba lexicográfico (09→100) y titulaba Facebook con nombres de archivo
+- **Regla que queda:** Toda reparación por zonas cuenta lo intocable (💓/REV) antes y después en AMBAS series; la vara comprueba nota, orden numérico y títulos reales; ninguna herramienta declara OK por correr: o mide y publica cifras, o es puerta y puede fallar

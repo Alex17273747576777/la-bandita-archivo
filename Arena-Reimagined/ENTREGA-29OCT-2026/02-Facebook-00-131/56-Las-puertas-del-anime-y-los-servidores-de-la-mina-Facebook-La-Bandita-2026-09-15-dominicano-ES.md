@@ -291,7 +291,13 @@ archivados.
 · última actividad 2026-10-29
 · licencia sin clasificar (NOASSERTION).
 
-Licencias sin resolver hoy (10): `dogior/dogiorshadenough`, `haiwen/seadroid`, `phisher98/cloudstream-extensions-phisher`, `recloudstream/cs-repos`, `reflex755/reflexrepo`, `saurabhkaperwan/csx` y 4 más. Sin licencia clara, la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `dogior/dogiorshadenough` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `haiwen/seadroid` — AGPL-3.0;
+`phisher98/cloudstream-extensions-phisher` — sin archivo LICENSE en su repo (verificado por API
+29-oct-2026); `recloudstream/cs-repos` — sin archivo LICENSE en su repo (verificado por API
+29-oct-2026); `reflex755/reflexrepo` — sin archivo LICENSE en su repo (verificado por API
+29-oct-2026); `saurabhkaperwan/csx` — sin archivo LICENSE en su repo (verificado por API
+29-oct-2026).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

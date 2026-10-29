@@ -969,3 +969,26 @@ bolsillo, de vuelta en la pantalla; la pila del 99: con rescate y con respeto.
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.ocsiretsa nis :otsenoh oenrot led nóepmac lE .erbil evas :arepse al y ejaiv le ;)raguj ed setna atircse arrazip al( odibihorp evas :oter le y oenrot le — yel noc OJUL se :oN=1|REV|.)6202-3102( ajrof ed SOÑA ECERT :)828.1 rop( 976.5★ rotcudart led amicne ,)943.3 rop( 658.01★ atiuqihc argen al ed ojabed — )6202-tco-81 oslup( 705.7★ :nólas led acalp atxes aL=2|REV|.»oicapse recah« ap arrob es sámaj — aiporp al euq adargas sám se senoicareneg sod ed aditrap al :ateprac US ne av y otepser noc agrac es ,)socsid sod( racot ed SETNA aipoc eS=3|REV|.)odaclov led séupsed aibmac es :alip al y( anames ATSE neel es nójac led sohcutrac sol :etacser lE .olos arrob es evas le ,ereum odnauc — 8991 edsed anera ed joler nu :ohcutrac led 2302RC alip aL=4|REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq mor acinú al( onif rotcel US noc eel es nójac led ogeuj le :oiporp ohcutrac led yel al noc — ABG al y yoB emaG aL=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 76).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `mgba-emu/mgba` — ★7.539 (verificado 29-oct-2026) · última actividad 2026-10-28 · MPL-2.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

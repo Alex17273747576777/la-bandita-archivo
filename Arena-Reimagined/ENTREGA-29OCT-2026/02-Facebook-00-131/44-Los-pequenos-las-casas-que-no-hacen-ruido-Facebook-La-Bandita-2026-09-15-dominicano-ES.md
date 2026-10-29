@@ -153,9 +153,11 @@ archivados.
 · GPL-3.0
 · release v3.3.0 (2026-10-20).
 
-Licencias sin resolver hoy (5): `asrofficialdev/redantotsu`, `e18lab/nhapp`,
-`professordeveloper/sozo-tv`, `spyou/sozo-read`, `uwumilabs/uwumi`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `asrofficialdev/redantotsu` —
+GPL-3.0; `e18lab/nhapp` — sin archivo LICENSE en su repo (verificado por API 29-oct-2026);
+`professordeveloper/sozo-tv` — sin archivo LICENSE en su repo (verificado por API 29-oct-2026);
+`spyou/sozo-read` — sin archivo LICENSE en su repo (verificado por API 29-oct-2026);
+`uwumilabs/uwumi` — sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 13 apariciones; 13 respondieron vivas el 29-oct-2026.
 

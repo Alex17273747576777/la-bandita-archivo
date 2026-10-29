@@ -1008,24 +1008,6 @@ de alarmas, donde le toca.
 
 ───────────────────
 
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `keepassxreboot/keepassxc` — ★29.589 (verificado 29-oct-2026) · última actividad 2026-10-28 · licencia sin clasificar (NOASSERTION) · release Release 2.8.0 (2026-10-23).
-
-• `dani-garcia/vaultwarden` — ★69.876 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release 1.37.4 (2026-10-06).
-
-• `kunzisoft/keepassdx` — ★7.560 (verificado 29-oct-2026) · última actividad 2026-10-17 · GPL-3.0 · release 🦋 Beautiful Butterfly (2026-10-17).
-
-Licencias sin resolver hoy (1): `keepassxreboot/keepassxc`. Sin licencia clara no hay
-recomendación completa: queda la alerta firmada.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 27).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
@@ -1046,8 +1028,8 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `kunzisoft/keepassdx` — ★7.560 (verificado 29-oct-2026) · última actividad 2026-10-17 · GPL-3.0 · release 🦋 Beautiful Butterfly (2026-10-17).
 
-Licencias sin resolver hoy (1): `keepassxreboot/keepassxc`. Sin licencia clara no hay
-recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `keepassxreboot/keepassxc` —
+GPL-3.0.
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

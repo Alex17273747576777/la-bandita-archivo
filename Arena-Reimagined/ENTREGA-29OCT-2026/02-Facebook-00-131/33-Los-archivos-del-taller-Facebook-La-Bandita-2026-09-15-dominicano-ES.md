@@ -161,9 +161,11 @@ archivados.
 · GPL-3.0
 · release Test build for #426 (not a release) (2026-10-28).
 
-Licencias sin resolver hoy (4): `ankurces/project_mythara`, `marcosdiez/shareviahttp`,
-`nullbytepl/carriervanityname`, `rushiranpise/shizuku-modules`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `ankurces/project_mythara` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `marcosdiez/shareviahttp` — BSD;
+`nullbytepl/carriervanityname` — sin archivo LICENSE en su repo (verificado por API
+29-oct-2026); `rushiranpise/shizuku-modules` — sin archivo LICENSE en su repo (verificado por
+API 29-oct-2026).
 
 Enlaces web: 11 apariciones; 11 respondieron vivas el 29-oct-2026.
 

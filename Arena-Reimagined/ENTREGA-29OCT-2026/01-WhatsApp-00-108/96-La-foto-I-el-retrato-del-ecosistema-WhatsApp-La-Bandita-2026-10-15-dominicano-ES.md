@@ -1098,8 +1098,8 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
 
-Licencias sin resolver hoy (1): `keiyoushi/extensions`. Sin licencia clara no hay recomendación
-completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `keiyoushi/extensions` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

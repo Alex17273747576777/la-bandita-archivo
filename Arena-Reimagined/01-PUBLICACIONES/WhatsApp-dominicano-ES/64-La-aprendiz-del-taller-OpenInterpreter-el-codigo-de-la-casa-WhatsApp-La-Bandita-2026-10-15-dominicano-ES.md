@@ -971,3 +971,30 @@ La casa no improvisa: programa. Y la noche firma: la aprendiz del taller — el 
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.lacol oicifo led orec oña le — )oña omsim led ram-01( rotom le y )luj-41( zidnerpa al ,)luj-62( etnem al :3202 ed onarev lE=1|REV|.onif oicifo led acalp al se — 575 ed ziran anu rop arepus al )461.96★ nedrawtluaV :65( asac al ed erfoc lE=2|REV|.asac al ed acetoilbib al — )»sem-rop-sotof-ranedro«( etneg ed erbmon noc odadraug tpircs le :atecer aL=3|REV|.azitamotua es acnun euq retne ocinú le :»?aúnitnoc¿ :selanigiro sol ÁRARROB« — ednarg ne osiva noc otsiv elboD=4|REV|.»it ap ocincét yum se« sámaj :asac ed amoidi ne acilpxe ol zidnerpa al ,edneitne ol eidan is y — rerroc ed SETNA=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 64).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 3 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 1 con actividad hoy · 0 en 7 días · 2 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
+
+• `openinterpreter/open-interpreter` — ★68.720 (verificado 29-oct-2026) · última actividad 2026-10-11 · Apache-2.0 · release Open Interpreter 0.0.56 (2026-10-07).
+
+• `openinterpreter/openinterpreter` — ★68.720 (verificado 29-oct-2026) · última actividad 2026-10-11 · Apache-2.0 · release Open Interpreter 0.0.56 (2026-10-07).
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

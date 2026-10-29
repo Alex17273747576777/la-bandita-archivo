@@ -1121,7 +1121,12 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 Licencia actualizada: `team-spotube/spotube` pasó de NOASSERTION a AGPL-3.0 (verificado
 29-oct-2026).
 
-Licencias sin resolver hoy (9): `dr-tsng/zygisknext`, `keiyoushi/extensions`, `modelcontextprotocol/modelcontextprotocol`, `modelcontextprotocol/servers`, `open-webui/open-webui`, `pi-hole/pi-hole`, `photoprism/photoprism`, `qbittorrent/qbittorrent` y 1 más. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `dr-tsng/zygisknext` — GPL-3.0;
+`keiyoushi/extensions` — sin archivo LICENSE en su repo (verificado por API 29-oct-2026);
+`modelcontextprotocol/modelcontextprotocol` — Apache-2.0; `modelcontextprotocol/servers` —
+Apache-2.0; `open-webui/open-webui` — BSD; `pi-hole/pi-hole` — licencia presente en su repo, no
+clasificada como SPDX (texto leído el 29-oct-2026); `photoprism/photoprism` — AGPL-3.0;
+`qbittorrent/qbittorrent` — GPL-3.0.
 
 Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
 de los repos de arriba y la del universo del censo cuando cita agregados.

@@ -308,7 +308,13 @@ archivados.
 · Apache-2.0
 · release Release v4.9.1 (2026-10-14).
 
-Licencias sin resolver hoy (6): `itsmechinmoy/dantotsu`, `bibledit/android`, `lukeneedham/videodiary`, `nilsbraden/ttrss-reader-fork`, `plateaukao/einkbro`, `rektpartyaftermath/legado-booksource-collection`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `itsmechinmoy/dantotsu` — GPL-3.0;
+`bibledit/android` — sin archivo LICENSE en su repo (verificado por API 29-oct-2026);
+`lukeneedham/videodiary` — licencia presente en su repo, no clasificada como SPDX (texto leído
+el 29-oct-2026); `nilsbraden/ttrss-reader-fork` — sin archivo LICENSE en su repo (verificado por
+API 29-oct-2026); `plateaukao/einkbro` — GPL-3.0;
+`rektpartyaftermath/legado-booksource-collection` — sin archivo LICENSE en su repo (verificado
+por API 29-oct-2026).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

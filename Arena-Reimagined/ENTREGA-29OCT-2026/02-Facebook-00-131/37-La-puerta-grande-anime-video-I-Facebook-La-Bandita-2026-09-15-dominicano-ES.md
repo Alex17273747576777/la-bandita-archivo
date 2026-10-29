@@ -158,9 +158,10 @@ archivados.
 · licencia sin clasificar (NOASSERTION)
 · release Dantotsu v3.2.2+74ae756 (2026-10-29).
 
-Licencias sin resolver hoy (4): `aayush2622/dartotsu`, `itsmechinmoy/dantotsu`,
-`itsmechinmoy/dantotsu-updater`, `anisurge/app`. Sin licencia clara, la recomendación queda
-incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `aayush2622/dartotsu` — GPL-3.0;
+`itsmechinmoy/dantotsu` — GPL-3.0; `itsmechinmoy/dantotsu-updater` — sin archivo LICENSE en su
+repo (verificado por API 29-oct-2026); `anisurge/app` — sin archivo LICENSE en su repo
+(verificado por API 29-oct-2026).
 
 Enlaces web: 10 apariciones; 10 respondieron vivas el 29-oct-2026.
 

@@ -1,10 +1,10 @@
 # MANIFIESTO DE ENTREGA FINAL — La Bandita · 29-oct-2026
 
-- WhatsApp: 113 archivos (canon 00-108, 111 entradas con pulso verificado)
-- Facebook: 148 archivos (muro continuo 00-131, 132 piezas sin huecos)
-- Catálogo: `02-ARCHIVO/catalogo-la-bandita.html` · SHA-256 `f878180b706c90aed3ee3ab016ad886409dd9a8dbf27bc1146e289ae33d24ca3`
-- Entrega ZIP: `ENTREGA-La-Bandita-29oct2026.zip` · SHA-256 `7aec5120abbbc499ab1e5491b80a72e24ded026b567f7f072ca010d2a6b1c737`
-- Archivos totales hasheados del proyecto: 1449 (manifiesto en 05-Anexo-BitXBit)
-- Verificación de suelo al entregar: 261/261 piezas contra el manifiesto firmado (verificar-suelo EXIT=0)
+- WhatsApp: carpeta con 113 archivos `.md` (111 entradas del canon 00–108 con su nota 💓, 1 variante histórica del 02-oct y el LEEME de la carpeta)
+- Facebook: carpeta con 148 archivos `.md` (147 piezas del muro continuo 00–131, 132 números sin huecos, y el LEEME de la carpeta)
+- Catálogo: `02-ARCHIVO/catalogo-la-bandita.html` · SHA-256 `9a14ce62baee498c428345e5b4b50688c4011bdc108f3fedb990de5181363b86`
+- Entrega ZIP: `ENTREGA-La-Bandita-29oct2026.zip` · 283 entradas · SHA-256 `47a7027b34986a7caf189618282c110ce39c76f520e422070971f8e983de9b18`
+- Piezas y carpetas firmadas en el manifiesto SHA-256: 261 archivos (incluye los dos LEEME)
+- Verificación al entregar: vara simulada APROBADA (WA 111 · FB 147 · 74 quices · fallos ninguno) y chequeo multinivel sin fallos en sus puertas (L0/L2/L4; L1 publica sus cifras de aire)
 
-Estado: todo pendiente conocido cerrado y re-verificado (aseguramiento, depuración, pendientes, micropendientes, chequeo universal de 781 repos y 109 URL, batería experta bit por bit de 6 niveles). Este manifiesto se entrega junto al push final; el remoto y la clonación fresca byte por byte lo confirman en el acta.
+Estado: corrección final ejecutada y medida (notas 💓 restauradas en 41 piezas, 190 bloques duplicados retirados, 89 frases de licencia resueltas, orden y títulos reales del catálogo). Informe: `02-ARCHIVO/evidencia-29oct/correccion-final-29oct/INFORME-CORRECCION-FINAL-29oct.md`. Este manifiesto se entrega junto al push; el remoto se verifica por blobs en el acta.

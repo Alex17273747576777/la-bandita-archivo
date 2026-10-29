@@ -948,8 +948,8 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `kototoro-app/kototoro-nightly` — ★12 (verificado 29-oct-2026) · última actividad 2026-07-28 · sin archivo LICENSE en la raíz de su repo (verificado por API 29-oct-2026) · release N20261028 (2026-10-28).
 
-Licencias sin resolver hoy (1): `kototoro-app/kototoro-nightly`. Sin licencia clara no hay
-recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `kototoro-app/kototoro-nightly` —
+sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 5 apariciones en esta pieza; todas respondieron vivas el 29-oct-2026 (200 directo o
 redirección comprobada en navegador). Detalle por URL en el informe de la pasada.

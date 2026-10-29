@@ -970,3 +970,32 @@ fila — con fin.
 *Respuestas al revés (léelas de atrás para adelante):*
 
 REV|.atic noc radrocer y nemaxe noc racude ,ahcif noc rinifed ,azilóp noc ridiced ,ojorrec noc ranimac ,atesac nis rañapmoca ,otsiv noc raneaf ,retne noc recah ,aipoc nis rartsom ,oñeud noc rasnep :»anirtcod al rop adisoc ,aretne alif al — arav us ,azeip adaC«=1|REV|.etnem al ed amsim al ,3202 oinuj :airanigiro adanroh al — )461.96★( erfoc le y )985.86★( onif oicifo led ojabed ,)141.85★( enic le y )335.85★( ajrof al ed amicne :)802.76★( airomem al ed acalp aL=2|REV|.95 al ed ohcapsed le edsed elbiurtsnocer ,socsid sod ne odadlapser — ecedebo ecidní le ,adnam lanigiro lepap lE=3|REV|.selepap sol ed oirosefnoc le :orto led selepap sol ev on oicapse nu ed atnugerp al — sailimaf rop sairomem sal ed nóicarapes aL=4|REV|.asac al ne sámaj :nóicnevni se sarucso a airomem al — »selepap sut ne átse on« le o ATIC NOC atseupser aL=5
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 70).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 4 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 1 con actividad hoy · 3 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
+
+• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
+
+• `paperless-ngx/paperless-ngx` — ★47.287 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Paperless-ngx v3.3.4 (2026-10-22).
+
+• `mintplex-labs/anything-llm` — ★67.698 (verificado 29-oct-2026) · última actividad 2026-10-27 · MIT · release AnythingLLM v1.19.0 (2026-10-26).
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

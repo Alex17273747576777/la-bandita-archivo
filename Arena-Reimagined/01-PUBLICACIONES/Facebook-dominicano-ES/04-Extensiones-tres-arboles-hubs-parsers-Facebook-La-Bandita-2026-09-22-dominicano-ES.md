@@ -662,8 +662,9 @@ publicación (verificado 29-oct-2026).
 · última actividad 2026-10-29
 · Apache-2.0.
 
-Licencias sin resolver hoy (2): `keiyoushi/extensions`, `yuzono/manga-repo`. Sin licencia clara,
-la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `keiyoushi/extensions` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026); `yuzono/manga-repo` — sin archivo
+LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

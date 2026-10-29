@@ -178,8 +178,7 @@ archivados.
 · GPL-3.0
 · release Magisk v31.1 (2026-10-26).
 
-Licencias sin resolver hoy (1): `termux/termux-app`. Sin licencia clara, la recomendación queda
-incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `termux/termux-app` — GPL-3.0.
 
 Enlaces web: 20 apariciones; 20 respondieron vivas el 29-oct-2026.
 

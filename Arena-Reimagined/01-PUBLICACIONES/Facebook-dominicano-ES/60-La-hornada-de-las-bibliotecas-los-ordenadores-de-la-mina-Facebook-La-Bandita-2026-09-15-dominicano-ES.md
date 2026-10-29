@@ -109,8 +109,9 @@ archivados.
 · Apache-2.0
 · release 3.7.0 (2026-10-20).
 
-Licencias sin resolver hoy (2): `photoprism/photoprism`, `lukeneedham/videodiary`. Sin licencia
-clara, la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `photoprism/photoprism` — AGPL-3.0;
+`lukeneedham/videodiary` — licencia presente en su repo, no clasificada como SPDX (texto leído
+el 29-oct-2026).
 
 Enlaces web: 12 apariciones; 12 respondieron vivas el 29-oct-2026.
 

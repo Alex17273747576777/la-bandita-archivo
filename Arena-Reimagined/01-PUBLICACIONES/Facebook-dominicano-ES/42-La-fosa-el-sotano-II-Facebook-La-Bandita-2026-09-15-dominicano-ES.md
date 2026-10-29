@@ -154,8 +154,7 @@ archivados.
 · Apache-2.0
 · release preview-208 (2026-10-28).
 
-Licencias sin resolver hoy (1): `az4521/tachiyomiaz`. Sin licencia clara, la recomendación queda
-incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `az4521/tachiyomiaz` — GPL-3.0.
 
 Enlaces web: 8 apariciones; 8 respondieron vivas el 29-oct-2026.
 

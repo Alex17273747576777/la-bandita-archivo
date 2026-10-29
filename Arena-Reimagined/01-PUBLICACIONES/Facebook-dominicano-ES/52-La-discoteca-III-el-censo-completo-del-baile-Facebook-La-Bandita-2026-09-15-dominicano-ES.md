@@ -220,8 +220,8 @@ publicación (verificado 29-oct-2026).
 · GPL-3.0
 · release 10.6.0 (2026-10-23).
 
-Licencias sin resolver hoy (1): `shacharharshuv/open-ear`. Sin licencia clara, la recomendación
-queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `shacharharshuv/open-ear` — sin
+archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

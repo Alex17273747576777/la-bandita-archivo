@@ -1008,31 +1008,6 @@ las casas más nobles que la serie ha medido.
 
 ───────────────────
 
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `syncthing/syncthing-android` — ARCHIVADO · última actividad 2024-12-03 · ★4.293 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `researchxxl/syncthing-android` — creado 2025-10-29 · última actividad 2026-10-22 · ★3.189 (verificado 29-oct-2026) · MPL-2.0.
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `kopia/kopia` — ★14.522 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
-
-• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
-
-• `researchxxl/syncthing-android` — ★3.189 (verificado 29-oct-2026) · última actividad 2026-10-22 · MPL-2.0 · release Syncthing-Fork v2.1.7.0 (2026-10-21).
-
-• `restic/restic` — ★36.878 (verificado 29-oct-2026) · última actividad 2026-10-18 · BSD-2-Clause.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 26).*
 
 Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta

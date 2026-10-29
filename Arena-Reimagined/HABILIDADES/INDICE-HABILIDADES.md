@@ -4,11 +4,11 @@ Todo el proceso de la casa convertido en habilidades que se pueden reusar infini
 
 ## Las seis habilidades fundacionales
 1. **Arranque de suelo firme** — `herramientas/arranque.py` · Detecta la mordida, mide proyecto y espejo contra el manifiesto y restaura antes de afirmar nada. *Vara de arranque: inventario → hash → restaurar → recién trabajar.*
-2. **Verificación multinivel** — `herramientas/chequeo-niveles.py` (+ `../_herramientas/verificar-suelo.py`) · L0 hash · L1 lupa · L2 catálogo==disco · L4 paquete íntegro. *Vara de verificación: ningún nivel se salta; el que falla detiene la línea.*
+2. **Verificación multinivel** — `herramientas/chequeo-niveles.py` (+ `../_herramientas/verificar-suelo.py`) · L0 hash · L1 lupa (**medición** de aire: cifras, no puerta) · L2 catálogo==disco · L4 paquete íntegro. *Vara de verificación: ningún nivel se salta; el que es puerta y falla detiene la línea; el que mide, publica su cifra.*
 3. **Pulso de repos** — `herramientas/pulso.py` · Mide GitHub por la vía gobernante (API con token en entorno; si no, web oficial) con la semántica de la casa: 404 muerto · 451 existe bloqueado · 403/429 cuota jamás muerte.
 4. **Licencias sin inventar** — orden SPDX → endpoint → texto del LICENSE → ausencia firmada (lección L-03).
 5. **Pieza editorial** — pipeline de la casa: verificar en fuente primaria → pre-lint → escribir familia adaptativa (jamás gemela) → dedupe/mojibake → lupa → acta → hornear catálogo. Placas con fecha siempre: la fecha es lo que hace cierto al dato mañana.
-6. **Guardado en GitHub** — `herramientas/guardar.py` · Procedimiento único contenido: espejo sincronizado → commit → push → ls-remote → clonación fresca byte por byte. *Vara de cierre: no hay push bueno sin su clonación que lo pruebe.*
+6. **Guardado en GitHub** — `herramientas/guardar.py` · Procedimiento único contenido: espejo sincronizado → commit → push → ls-remote → verificación por blobs del árbol remoto contra los archivos locales. *Vara de cierre: no hay push bueno sin su verificación por blobs que lo pruebe (alcance exacto: piezas, catálogo, ZIP y mapa — lo que el script enumera, ni más ni menos).*
 
 ## Autoevolución
 - **`bitacora-lecciones.md`** guarda cada fallo con su regla (L-01…).

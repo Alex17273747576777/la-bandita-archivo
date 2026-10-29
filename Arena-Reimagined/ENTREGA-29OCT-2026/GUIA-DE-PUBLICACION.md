@@ -4,8 +4,8 @@ Todo lo de esta carpeta está verificado hoy (29-oct-2026) y listo para copiar y
 
 ## Qué contiene la entrega
 - **`catalogo-la-bandita.html`** — el catálogo visual: WhatsApp (111) y el muro de Facebook (147). Se abre en cualquier navegador, busca por título y deja copiar cada pieza con un toque.
-- **`01-WhatsApp-00-108/`** — las 111 piezas de WhatsApp (canon 00–108 con sus variantes históricas), cada una con su nota `💓 PULSO 29-OCT-2026` al final.
-- **`02-Facebook-00-131/`** — las 147 piezas de Facebook (muro 00–131 completo, sin huecos), incluidas las 49 piezas nacidas hoy (83–131) con su pulso de nacimiento.
+- **`01-WhatsApp-00-108/`** — las 111 entradas de WhatsApp del canon 00–108 (con sus variantes históricas), cada una con su nota `💓 PULSO 29-OCT-2026` al final. La carpeta trae además una variante histórica de la pieza 10 (02-oct-2026, no se publica como WhatsApp) y su `LEEME`: 113 archivos en total.
+- **`02-Facebook-00-131/`** — las 147 piezas de Facebook (muro 00–131 completo, sin huecos), incluidas las 49 piezas nacidas hoy (83–131) con su pulso de nacimiento, más su `LEEME`: 148 archivos en total.
 - **`03-Datos-verificados/`** — la tabla maestra de 753 repos al día (estrellas, actividad, licencia y su fuente), las URL verificadas y el **manifiesto SHA-256 de las 261 piezas**: sirve para detectar cualquier corrupción futura comparando, no recordando.
 - **`04-Informes-del-dia/`** — los informes de investigación, descubrimiento y aseguramiento que sostienen esta entrega.
 

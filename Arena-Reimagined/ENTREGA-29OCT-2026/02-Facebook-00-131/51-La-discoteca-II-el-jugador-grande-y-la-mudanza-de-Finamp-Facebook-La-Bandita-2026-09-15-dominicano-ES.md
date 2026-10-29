@@ -153,8 +153,7 @@ archivados.
 · GPL-3.0
 · release Nightly Build - 2026-10-29 (2026-10-29).
 
-Licencias sin resolver hoy (1): `pixelplayerhq/pixelplayer`. Sin licencia clara, la
-recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `pixelplayerhq/pixelplayer` — MIT.
 
 Enlaces web: 10 apariciones; 10 respondieron vivas el 29-oct-2026.
 

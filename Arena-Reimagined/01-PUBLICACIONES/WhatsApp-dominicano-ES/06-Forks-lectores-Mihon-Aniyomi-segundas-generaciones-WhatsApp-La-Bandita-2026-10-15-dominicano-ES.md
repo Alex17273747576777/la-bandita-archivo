@@ -993,8 +993,8 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `jobobby04/tachiyomisy` — ★4.195 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release preview-208 (2026-10-28).
 
-Licencias sin resolver hoy (1): `jobobby04/tachiyomisypreview`. Sin licencia clara no hay
-recomendación completa: queda la alerta firmada.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `jobobby04/tachiyomisypreview` —
+sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Enlaces web: 18 apariciones en esta pieza; todas respondieron vivas el 29-oct-2026 (200 directo
 o redirección comprobada en navegador). Detalle por URL en el informe de la pasada.

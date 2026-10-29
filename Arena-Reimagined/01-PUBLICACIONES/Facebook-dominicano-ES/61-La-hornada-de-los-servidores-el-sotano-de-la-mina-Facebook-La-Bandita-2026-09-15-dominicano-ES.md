@@ -119,8 +119,8 @@ archivados.
 · AGPL-3.0
 · release v35.0.2 (2026-10-15).
 
-Licencias sin resolver hoy (2): `photoprism/photoprism`, `haiwen/seadroid`. Sin licencia clara,
-la recomendación queda incompleta y así se firma.
+Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `photoprism/photoprism` — AGPL-3.0;
+`haiwen/seadroid` — AGPL-3.0.
 
 Enlaces web: 15 apariciones; 15 respondieron vivas el 29-oct-2026.
 
