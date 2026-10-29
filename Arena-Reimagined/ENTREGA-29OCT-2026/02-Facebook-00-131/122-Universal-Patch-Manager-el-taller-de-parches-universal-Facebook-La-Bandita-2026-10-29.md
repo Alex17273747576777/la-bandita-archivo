@@ -4,29 +4,28 @@
 
 ## ⚡ En una página
 
-Tres ecosistemas de parches (ReVanced, Morphe y Reseam) bajo un mismo techo, con parcheo por lotes, re-parcheo automático, instaladores avanzados y herramientas APK completas: eso soltó hoy su versión 2.0.0 Universal Patch Manager, mientras el manager oficial de ReVanced lleva meses en calma. La lección es la de las sucesiones (118) en vivo: el taller que empuja hoy hereda el oficio, y el bundle de parches — que aquí ya no viene preinstalado — se añade con firmante conocido o no se añade.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 1 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `ReVanced/revanced-manager` —
+★30.001, GPL-3.0, último empuje 2026-07-29.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• `jman-github/universal-patch-manager` — ★1.388 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2025-10-13
+• `ReVanced/revanced-manager` — ★30.001 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-07-29
 · GPL-3.0
-· release v2.0.0 (2026-10-29).
 
-• `revanced/revanced-manager` — ★29.995 (verificado 29-oct-2026)
-· última actividad 2026-05-11
-· creado 2022-03-18
-· GPL-3.0.
+• `Jman-Github/Universal-Patch-Manager` — ★1.390 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —El oficial se durmió. —Y el taller de al lado soltó su 2.0 hoy: la mesa se sienta donde hay
-faena.
+• https://github.com/jman-github/universal-patch-manager — vivo al verificar hoy (2026-10-29)
+• https://github.com/revanced/revanced-manager — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 122 del muro, nacida el 29 de octubre de 2026
-desde apps traídas por el dueño y re-medidas hoy en su fuente primaria. Las estrellas adornan;
-las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

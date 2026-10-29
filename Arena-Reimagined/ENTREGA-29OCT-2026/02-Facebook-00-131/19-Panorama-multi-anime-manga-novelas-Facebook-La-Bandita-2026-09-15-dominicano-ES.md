@@ -1,183 +1,52 @@
 # Publicación 19 — El panorama multi: manga, anime y novelas en la misma mano
 
-**La Bandita · 15 de septiembre de 2026**
-
-## 🗺️ Mapa de esta guía
-
-├── ⚡ En una página
-├── 🏷️ Qué significa «multi»
-├── 🏠 Las multi de la casa, ficha por ficha
-├── 📇 Los nombres nuevos del catálogo (sin enlace, con fuente)
-├── 🧭 La verificación de cierre del día
-├── ❓ Preguntas frecuentes
-└── 🔗 Enlaces
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-Hay apps que no eligieron un oficio: lo juntaron todo. Manga, anime, novelas ligeras — a veces
-cómics, webtoons, audiolibros — en una sola biblioteca.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 6 repos: 3 empujaron hoy, 2 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `aniyomiorg/aniyomi` —
+★7.855, Apache-2.0, último empuje 2026-09-14.
 
-Esta guía abre el panorama completo: el catálogo grande quedó visto HOY en Miyomi (categoría
-Multi, una treintena larga de apps listadas), y aquí está filtrado con la vara de la casa — qué
-ya tiene guía propia, qué nombre nuevo entra al radar, y qué sigue vivo a esta hora del día.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🏷️ Qué significa «multi»
+• `aniyomiorg/aniyomi` — ★7.855 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-14
+· Apache-2.0
 
-En los catálogos, cada app lleva etiquetas por lo que junta: **A**nime · **M**anga · **LN**
-(light novel) · **C**omics · **W**ebtoon · **E**books. Multi es la que lleva dos o más.
-
-La ventaja es obvia: una biblioteca, un historial, un solo aprendizaje. El precio también: más
-dependencias, más superficies donde algo se rompe.
-
-Por eso la casa las mira con doble lupa — y por eso existen guías separadas para cada rama.
-
-## 🏠 Las multi de la casa, ficha por ficha
-
-**Aniyomi** — M+A — v0.18.2.1 (publicada el 14-sep) · https://github.com/aniyomiorg/aniyomi
-La madre de las ramas multi: manga y anime en un lector, con extensiones propias. Guía completa:
-Publicación 13.
-
-**Animetail** — A+M — activa · según su ficha de catálogo: «anime & manga player/reader basado
-en Mihon/Aniyomi», respaldado en aniyomi.org/forks. Publicación 13.
-
-**Tadami** — M+A+LN — v0.62 — ★260, viva a HOY (rectificación en la Publicación 13) · nueva org del proyecto: tadamiorg/tadami (★56) · https://github.com/andarcanum/Tadami-Aniyomi-fork Dato del catálogo (leído el 14-sep): lo clasifica también con light novels — el dato se anota con fuente y fecha. Publicación 13.
-
-**Kototoro** — M+LN+Vídeo — v2.1.3 (publicada HOY mismo, 15-sep — dos días seguidos con release)
-· https://github.com/Kototoro-app/Kototoro
-Tres bibliotecas en una, con traducción OCR en el teléfono. La más movida del árbol esta semana.
-Publicación 02.
-
-**Chimahon** — M+LN+A — v2.4.2 (HOY, 15-sep) · https://github.com/Chimahon/chimahon
-La capa de inmersión también es multi: el catálogo (leído el 14-sep) la clasifica manga + light
-novel + anime. Publicación 17.
-
-**hayai** — M+LN — v1.13.0 · fork de Yōkai que añade soporte de novelas, tomado del catálogo
-(leído el 14-sep). Publicación 15.
-
-**Komga** — C+M+Ebooks+Revistas — 1.26.3 (12-ago) · https://github.com/gotson/komga
-El multi del lado del servidor: cómics, manga, libros y revistas con OPDS y sincronización.
-Publicación 17.
-
-## 📇 Los nombres nuevos del catálogo (sin enlace, con fuente)
-
-Listados el 14-sep en la categoría Multi de Miyomi (nombre y descripción verificados ese día; el
-enlace de cada casa se abre el día que se use — la regla de las URLs):
-
-- **Mangayomi** — manga, novelas y anime en Android, iOS, macOS, Linux y Windows.
-- **AniLabX** — anime, doramas y dibujos + manga, cómics y novelas ligeras.
-- **AnymeX** — seguimiento multi-servicio (AL, MAL, SIMKL) para anime y manga.
-- **Dartotsu** — cliente multiplataforma basado en Dantotsu.
-- **Nekoyomi** — anime, novelas y manga para Android.
-- **OtakuWorld** — anime, manga y novela como tres apps hermanas, misma interfaz.
-- **PlayTorrio** — todo en uno: películas, series, manga, audiolibros y música.
-- **Tsundoku** — lector de novelas y manga para Android.
-- **harbor** — cliente de Stremio construido para la aventura.
-- **Animite** — cliente de AniList para Android.
-- **Emaki** — lector ligero de novelas, PDF, manga y EPUB con resúmenes IA sin conexión.
-- **KOReader** — el lector de libros que corre hasta en Kindle y Kobo.
-
-Sobre la familia **Dantotsu** (Dantotsu · Dartotsu · ReDantotsu): existe y el catálogo la lista
-— nuestro veredicto del 14-sep se mantiene: su licencia no estándar la deja en observación; se
-nombra, no se receta.
-
-## 🧭 La verificación de cierre del día
-
-Último barrido: 14 de septiembre (re-verificado a HOY, 15-sep): **36 repositorios del mapa,
-pulso verificado en la tarde-noche** — Mihon v0.20.4 · Aniyomi v0.18.2.1 · Animiru v0.20.0.1 ·
-Anikku v0.2.0 · Komikku 1.14.1 · Kotatsu-Redo 9.8.3 · Futon 9.8.1 · Kototoro v2.1.2 · Usagi 1.0
-· Rokku 1.7.1 · Reikai 0.3.2 · Yōkai 1.10.1 · J2K 1.8.1 · Tadami v0.62 · Kuro 1.0.0 · Chimahon
-2.4.1 · Hoshi 1.3.3 · Yomikai 1.9.79 · Koharia 0.5.0 · Komga 1.26.3 · Kavita 0.9.1.4 · SimpMusic
-2.1.0 · OuterTune 0.11.1 · Metrolist (canal Nightly, visto HOY) · NewPipe 0.29.1 · Auxio 4.1.5 ·
-AntennaPod 3.12.1 · OpenlibExtended 1.6.0 · Gabi 4.6.1 · N-Zik (el repo ya cocina la v8.0.0-dev
-de HOY; la estable de tienda sigue 7.5.1-f) · AniZen v0.5.211 · AniZen beta r4620 (981
-releases). Conclusión del cierre: **lo publicado esta semana sigue siendo verdad, hora por
-hora.**
-
-## ❓ Preguntas frecuentes
-
-**¿Multi es mejor que una app por oficio?**
-Depende de tu carga: si lees manga y ves anime a diario, una mano sola ahorra saltos. Si solo
-haces una cosa, la especialista casi siempre gana en detalles.
-
-**¿Por qué algunos nombres van sin enlace?**
-Porque su casa todavía no se abrió con este oficio. El nombre con fuente entra; el enlace se
-abre el día que se usa. Así no se propaga ninguna dirección que no hayamos pisado.
-
-**¿Y Miyomi es una app?**
-Es un catálogo — el mapa de mapas de este ecosistema. Hoy dejó ver su categoría Multi completa;
-cuando el catálogo no renderiza, se anota que no renderiza: ni un dato se finge.
-
-## 🔗 Enlaces
-
-- El catálogo del corte (categoría Multi): https://miyomi.app/software?content=Multi&view=grid
-- Las ramas de la casa: Publicación 02 (Kototoro) · 13 (Aniyomi/Animetail/Tadami) · 15
-(J2K/Yōkai/hayai) · 17 (Chimahon/Komga) · 06 (segundas generaciones)
-- El índice: LA LISTA — Publicación 00
-
-## El meme del corte
-
-> —Mi app lee manga, anime, novelas y hasta audiolibros.
-> —¿Y duerme?
-> —Cuando la biblioteca descansa. O sea, nunca.
-
-> La Bandita informa a partir de fuentes fechadas. El multi se verifica como todo: casa por
-casa, enlace por enlace, hoy por hoy.
-
----
-
-**Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: Aniyomi/Chimahon al día, acta Tadami, barrido re-fechado. Lo no mencionado queda constado a su día (14-sep).
-
-Acta completa: Registro #71.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 19).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 7
-repos GitHub confirmados y 6 apariciones de URL. La historia no se reescribe; esta nota añade el
-estado medido hoy.
-
-Actividad medida hoy: 3 hoy · 1 en 7 días · 2 en 30 días · 1 en 180 días · 0 dormidos · 0
-archivados.
-
-Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta
-publicación (verificado 29-oct-2026).
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `andarcanum/tadami-aniyomi-fork` — creado 2026-01-09
-· última actividad 2026-10-29 · ★287 (verificado 29-oct-2026)
-· Apache-2.0.
-
-• `kototoro-app/kototoro` — creado 2025-10-28
-· última actividad 2026-10-29 · ★650 (verificado 29-oct-2026)
-· Apache-2.0.
-
-• `chimahon/chimahon` — creado 2026-03-27
-· última actividad 2026-10-20 · ★237 (verificado 29-oct-2026)
-· GPL-3.0.
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `gotson/komga` — ★6.796 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `gotson/komga` — ★6.797 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · MIT
-· release Release 1.29.2 (2026-10-28).
 
-• `kototoro-app/kototoro` — ★650 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `Kototoro-app/Kototoro` — ★653 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · Apache-2.0
-· release v2.3.4 (2026-10-29).
 
-• `andarcanum/tadami-aniyomi-fork` — ★287 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `andarcanum/Tadami-Aniyomi-fork` — ★287 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · Apache-2.0
-· release Tadami v0.63.2 (2026-10-28).
 
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `tadamiorg/tadami` — sin archivo
-LICENSE en su repo (verificado por API 29-oct-2026).
+• `Chimahon/chimahon` — ★237 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· GPL-3.0
 
-Enlaces web: 6 apariciones; 6 respondieron vivas el 29-oct-2026.
+• `tadamiorg/tadami` — ★61 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-23
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/aniyomiorg/aniyomi — vivo al verificar hoy (2026-10-29)
+• https://github.com/andarcanum/Tadami-Aniyomi-fork — vivo al verificar hoy (2026-10-29)
+• https://github.com/Kototoro-app/Kototoro — vivo al verificar hoy (2026-10-29)
+• https://github.com/Chimahon/chimahon — vivo al verificar hoy (2026-10-29)
+• https://github.com/gotson/komga — vivo al verificar hoy (2026-10-29)
+• https://github.com/tadamiorg/tadami — vivo al verificar hoy (2026-10-29)
+• https://miyomi.app/software?content=Multi&view=grid — respondió viva hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 6 repos GitHub (6 vivos, 0 firmados como caídos/bloqueados) y 1
+enlace externo de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

@@ -4,33 +4,33 @@
 
 ## ⚡ En una página
 
-Tres generaciones de la misma idea — el teléfono como máquina del tiempo — empujaron esta misma
-semana: el Civilization de bolsillo que se reescribe desde 2017, el emulador de PSP decano de
-2012 y el Windows que se cuela en Android desde 2023. El juego libre y vivo no necesita tienda
-ni cuenta: necesita su forja, su release con fecha y un dueño que sepa de dónde bajó cada cosa.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 2 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `brunodev85/winlator` —
+★19.684, LGPL-2.1, último empuje 2026-10-17.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• `yairm210/unciv` — ★11.498 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `brunodev85/winlator` — ★19.684 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-17
+· LGPL-2.1
+
+• `hrydgard/ppsspp` — ★14.782 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
+
+• `yairm210/Unciv` — ★11.499 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · MPL-2.0
-· release 4.22.15 (2026-10-28).
 
-• `hrydgard/ppsspp` — ★14.780 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION).
+## 🔗 Fuentes comprobadas hoy
 
-• `brunodev85/winlator` — ★19.680 (verificado 29-oct-2026)
-· última actividad 2026-10-17 · LGPL-2.1.
+• https://github.com/yairm210/unciv — vivo al verificar hoy (2026-10-29)
+• https://github.com/hrydgard/ppsspp — vivo al verificar hoy (2026-10-29)
+• https://github.com/brunodev85/winlator — vivo al verificar hoy (2026-10-29)
 
-## El meme de la pieza
-
-> —En mi teléfono corre Windows, PSP y una civilización entera. —Y ninguna te pidió la tarjeta:
-así se juega en esta casa.
-
-> La Bandita verifica antes de recomendar: pieza 113 del muro, nacida el 29 de octubre de 2026
-de la investigación del mismo día, con placas re-medidas en su fuente primaria. Las estrellas
-adornan; las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

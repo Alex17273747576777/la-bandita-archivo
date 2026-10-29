@@ -4,25 +4,23 @@
 
 ## ⚡ En una página
 
-ReZygisk es el piso invisible donde la regleta no llega: la implementación que sostiene los
-módulos con otra reflectividad. Pieza de infraestructura pura: no se presume, se sostiene.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `PerformanC/ReZygisk` —
+★4.099, GPL-3.0, último empuje 2026-10-11.
 
-Su placa de hoy lo mantiene en faena, y su oficio se mide por lo que no se nota.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `performanc/rezygisk` — ★4.098 (verificado 29-oct-2026)
-· actividad este mes
-· última actividad 2026-10-11
+• `PerformanC/ReZygisk` — ★4.099 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-11
 · GPL-3.0
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Nadie sabe qué hace mi ReZygisk. —Perfecto: cuando el piso se nota, ya se rompió.
+• https://github.com/performanc/rezygisk — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 89 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

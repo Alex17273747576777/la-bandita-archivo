@@ -1,168 +1,81 @@
 # Publicación 21 — Música I: la cosecha del muro — 12 proyectos vivos, fuente por fuente
 
-**La Bandita · 15 de septiembre de 2026**
-
-## 🗺️ Mapa de esta guía
-
-├── ⚡ En una página
-├── 🧹 Por qué esta guía huele a limpio
-├── 🎧 La cosecha: 12 fichas verificadas HOY
-├── 🧪 El método, contado
-├── ❓ Preguntas frecuentes
-└── 🔗 Enlaces
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-El muro tenía 231 fichas en su puerta de música. Esta guía empieza a sacarlas al sol: las **12
-que traían verificación**, abiertas una por una **HOY, 15 de septiembre**.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 12 repos: 6 empujaron hoy, 2 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `Kopuz-org/kopuz` — ★1.959,
+EUPL-1.2, último empuje 2026-10-29.
 
-Resultado: 12 de 12 vivas — y dos más avanzadas que el propio muro (Kopuz y Levyra estrenaron
-versión desde que el muro las guardó). Esta es la primera cosecha del proyecto Biblioteca: del
-compendio desastroso, un mapa verdadero.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🧹 Por qué esta guía huele a limpio
+• `Kopuz-org/kopuz` — ★1.959 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· EUPL-1.2
 
-El muro le ponía a cada proyecto una «mini descripción» literaria — la misma frase repetida por
-categorías, ciento de veces. Eso no es información: es relleno.
-
-Aquí no va ni una: cada ficha de abajo lleva solo lo que **su propio repositorio declara hoy** —
-su descripción textual, su versión, su pulso. Donde el repo no declara nada, la ficha no inventa
-nada.
-
-## 🎧 La cosecha: 12 fichas verificadas HOY (15-sep)
-
-**Kopuz** — ★1.857 · v0.16.2 (11-sep) · push 14-sep · https://github.com/Kopuz-org/kopuz
-«Your next music player», dice de sí. Más rápida que el muro: la tenía en v0.16.1.
-
-**Meld** — ★1.584 · v0.8.9 (27-ago) · push HOY mismo · https://github.com/FrancescoGrazioso/Meld «YouTube Music client for Android with Spotify integrations». La de más empuje de la cosecha: movió código esta mañana.
-
-*Genealogía corregida el 15-sep: GitHub la certifica fork de Metrolist — la familia entera en la Publicación 27.*
-
-**youtube-music-cli** — ★430 · v0.2.3 (14-sep) · push 14-sep ·
-https://github.com/involvex/youtube-music-cli
-«A powerful Terminal User Interface (TUI) music player for YouTube Music» — para tocar la música
-desde la terminal.
-
-**SuvMusic** — ★290 · v2.6.6.0 (25-ago) · push 12-sep ·
-https://github.com/suvojeet-sengupta/SuvMusic
-Su repo no declara descripción: ficha de pulso puro. La fuente, abierta hoy.
-
-**Levyra** — ★294 (76 más en el día) · v2.5.8 (14-sep) · push HOY mismo ·
-https://github.com/LUC4N3X/Levyra-deepsound
-«A modern open-source music player for Android & Windows». También le sacó un cuerpo al muro: la
-tenía en v2.5.1.
-
-**Lune** — ★202 · 1.5.2 (13-ago) · push 4-sep · https://github.com/MrDemonc/Lune
-«Music player inspired by Material 3: Expressive».
-
-**SoundPod** — ★112 · v1.3.6 (26-ago) · push 11-sep · https://github.com/arunnechully/SoundPod
-«An Android application for streaming music from YouTube Music».
-
-**Volume++** — ★111 · v1.1.5 (28-ago) · push 29-ago ·
-https://github.com/noel-digital-fan/volume_plus_plus
-Sin descripción en su repo: pulso puro, nombre lo dice — y su fuente, abierta hoy.
-
-**AuraMusic** — ★82 · v3.1.0 (31-ago) · push 14-sep · https://github.com/TeamAuraMusic/AuraMusic
-«YouTube Music client for Android».
-
-**Tryptify** — ★67 · 1.8.8 (7-sep) · push 14-sep · https://github.com/tryptz/Tryptify
-«Native Android music streaming… a local player…», dice de sí su repositorio.
-
-**Tsacdop (fork)** — ★52 · v0.10.1 (19-ago) · push 24-ago · https://github.com/Lojcs/tsacdop «Enjoy podcasts with Tsacdop! A podcast player built with flutter. (Fork)».
-
-Con ruta de distribución en F-Droid según el muro (paquete dev.lojcs.tsacdop) — se abre el día que se instala.
-
-**Airbeats Desktop** — ★2 · v6.3.0 (6-sep) · push 13-sep ·
-https://github.com/d0x-dev/Airbeats-Desktop
-«Advanced open-source YouTube Music client for Android, Windows, Mac & Linux», declara su repo —
-pequeño en estrellas, vivo en fechas.
-
-## 🧪 El método, contado
-
-- Las 12 fuentes primarias se abrieron **HOY** vía la API pública de GitHub: repositorio vivo,
-push fechado y última versión en mano. Ninguna hereda la palabra del muro.
-- Dos fichas sin descripción se publican sin descripción. El hueco honesto educa más que el adorno.
-- Las 219 fichas restantes de la puerta de música siguen en el Inventario como candidatas —
-entrarán cuando su fuente se abra el día que se les necesite.
-- Los clientes de la casa con guía propia (Metrolist, OuterTune, SimpMusic, N-Zik, NewPipe,
-Auxio, AntennaPod) no se repiten aquí: viven en la Publicación 08, actualizada esta misma
-mañana.
-
-## ❓ Preguntas frecuentes
-
-**¿Solo 12 de 231? ¿Eso no es poco?**
-Es exacto. Del muro, solo estas 12 traían verificación; el resto son nombres con fuente que se
-irán abriendo por lotes. Mil fichas no verificadas valen menos que doce con la fuente abierta
-hoy.
-
-**¿Por qué dos fichas van sin descripción?**
-Porque su repositorio no declara ninguna. Cuando la declare, entra con fecha.
-
-**¿Cuál sigue?**
-La puerta de música continúa en el siguiente lote: la cosecha crece por cortes, no por muros.
-
-## 🔗 Enlaces
-
-- Los 12 repos: los enlaces de cada ficha, arriba, abiertos hoy.
-- La familia music: Publicación 08 (los fichados de la casa, con pulso del 15-sep).
-- El inventario del muro y el plano de la Biblioteca: paquete interno (Registro y Protocolo).
-
-## El meme del corte
-
-> —El muro decía que la música es ambiente, memoria y cuidado.
-> —¿Y qué es Kopuz?
-> —Un reproductor con release del 11. Eso sí lo dice su repo.
-
-> La Bandita informa a partir de fuentes fechadas. Del muro al estante: cada ficha con su fuente
-abierta el día que se pisa.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 21).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 13
-repos GitHub confirmados y 12 apariciones de URL. La historia no se reescribe; esta nota añade
-el estado medido hoy.
-
-Actividad medida hoy: 5 hoy · 3 en 7 días · 4 en 30 días · 1 en 180 días · 0 dormidos · 0
-archivados.
-
-Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta
-publicación (verificado 29-oct-2026).
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `arunnechully/soundpod` — creado 2025-11-02
-· última actividad 2026-10-28 · ★122 (verificado 29-oct-2026)
-· GPL-3.0.
-
-• `d0x-dev/airbeats-desktop` — creado 2026-08-23
-· última actividad 2026-10-14 · ★4 (verificado 29-oct-2026)
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
-
-• `francescograzioso/meld` — creado 2025-12-18
-· última actividad 2026-10-29 · ★1.836 (verificado 29-oct-2026)
-· GPL-3.0.
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `kopuz-org/kopuz` — ★1.958 (verificado 29-oct-2026)
-· última actividad 2026-10-29 · EUPL-1.2
-· release v0.68.0-nightly.20261029.2 (2026-10-29).
-
-• `francescograzioso/meld` — ★1.836 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· GPL-3.0.
-
-• `teamauramusic/auramusic` — ★112 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `FrancescoGrazioso/Meld` — ★1.838 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release AuraMusic v3.2.0 (2026-10-17).
 
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `d0x-dev/airbeats-desktop` — sin
-archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `LUC4N3X/Levyra-deepsound` — ★1.639 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-Enlaces web: 12 apariciones; 12 respondieron vivas el 29-oct-2026.
+• `involvex/youtube-music-cli` — ★467 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· MIT
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `suvojeet-sengupta/SuvMusic` — ★314 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-15
+· GPL-3.0
+
+• `MrDemonc/Lune` — ★262 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `noel-digital-fan/volume_plus_plus` — ★146 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-21
+· MIT
+
+• `arunnechully/SoundPod` — ★122 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· GPL-3.0
+
+• `TeamAuraMusic/AuraMusic` — ★112 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `tryptz/Tryptify` — ★96 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `Lojcs/tsacdop` — ★52 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-08-24
+· GPL-3.0
+
+• `d0x-dev/Airbeats-Desktop` — ★4 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-14
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/Kopuz-org/kopuz — vivo al verificar hoy (2026-10-29)
+• https://github.com/FrancescoGrazioso/Meld — vivo al verificar hoy (2026-10-29)
+• https://github.com/involvex/youtube-music-cli — vivo al verificar hoy (2026-10-29)
+• https://github.com/suvojeet-sengupta/SuvMusic — vivo al verificar hoy (2026-10-29)
+• https://github.com/LUC4N3X/Levyra-deepsound — vivo al verificar hoy (2026-10-29)
+• https://github.com/MrDemonc/Lune — vivo al verificar hoy (2026-10-29)
+• https://github.com/arunnechully/SoundPod — vivo al verificar hoy (2026-10-29)
+• https://github.com/noel-digital-fan/volume_plus_plus — vivo al verificar hoy (2026-10-29)
+• https://github.com/TeamAuraMusic/AuraMusic — vivo al verificar hoy (2026-10-29)
+• https://github.com/tryptz/Tryptify — vivo al verificar hoy (2026-10-29)
+• https://github.com/Lojcs/tsacdop — vivo al verificar hoy (2026-10-29)
+• https://github.com/d0x-dev/Airbeats-Desktop — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 12 repos GitHub (12 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

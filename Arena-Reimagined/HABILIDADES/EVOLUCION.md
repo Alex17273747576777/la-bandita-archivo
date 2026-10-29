@@ -1,4 +1,4 @@
-# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.11
+# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.12
 
 Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.py` y la versión sube sola. Una habilidad que no aprende es un papel; esta casa aprende.
 
@@ -25,3 +25,5 @@ Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.
 - **v1.10 (2026-10-29)** · L-16: Toda limpieza por secciones declara sus zonas intocables ANTES de correr (nota 💓, líneas REV, placas) y se verifica contando lo intocable al final: si el conteo cambió, el pase no terminó
 
 - **v1.11 (2026-10-29)** · L-17: Toda reparación por zonas cuenta lo intocable (💓/REV) antes y después en AMBAS series; la vara comprueba nota, orden numérico y títulos reales; ninguna herramienta declara OK por correr: o mide y publica cifras, o es puerta y puede fallar
+
+- **v1.12 (2026-10-29)** · L-18: Dos reglas quedan: (1) ante cualquier duda sobre el estado del proyecto, la primera respuesta es inventario + arranque.py; el orden de verdad es remoto GitHub, luego espejo, luego proyecto, y la restauración desde el remoto precede a cualquier trabajo nuevo — sin autopsia prolongada. (2) Antes de crear o renombrar cualquier carpeta o archivo dentro de una estructura que ya existe, se lista la estructura real y se escribe sobre ella; el conteo de entradas del paquete final se compara contra el contrato vigente y toda desviación se explica o se corrige en el acto.

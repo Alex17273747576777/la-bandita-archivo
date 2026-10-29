@@ -4,24 +4,24 @@
 
 ## ⚡ En una página
 
-La foto abre el capítulo del retrato: el ecosistema completo medido en capas, del techo de las cien mil estrellas a la bodega fina. Nacida del censo de 188 repos, su retrato madre es del 18-oct-2026; hoy el pulso se re-midió por piezas y el ecosistema sigue empujando: la foto envejece, el método no.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `keiyoushi/extensions` —
+★15.369, sin archivo LICENSE en su repo (verificado por API 29-oct-2026), último empuje
+2026-10-29.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• `keiyoushi/extensions` — ★15.365 (verificado 29-oct-2026)
-· actividad HOY
-· última actividad 2026-10-29
+• `keiyoushi/extensions` — ★15.369 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
-· release Repository Update dbf6c05 (2026-10-28)
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Ese ecosistema está muerto, lo leí por ahí. —La foto contó otra cosa, con fecha: contar vence
-a “por ahí”.
+• https://github.com/keiyoushi/extensions — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 96 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

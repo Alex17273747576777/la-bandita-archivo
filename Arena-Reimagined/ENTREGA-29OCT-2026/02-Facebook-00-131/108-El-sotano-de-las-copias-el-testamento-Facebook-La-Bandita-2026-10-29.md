@@ -4,35 +4,44 @@
 
 ## ⚡ En una página
 
-La última página del muro y el testamento de la serie: cuatro guardianes y un heredero medidos con la vara completa. Corrección dura que la verificación profunda dejó firmada hoy: el guardián del teléfono es NeoApplications/Neo-Backup (★3.880 verificado 29-oct-2026, AGPL-3.0, en faena), no el slug equivocado que la historia citó; Syncthing original quedó archivado y su heredero vivo (researchxxl/syncthing-android) ya empuja.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 5 repos: 2 empujaron hoy, 1 en los
+últimos 7 días, 1 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `immich-app/immich` —
+★117.611, AGPL-3.0, último empuje 2026-10-29.
 
-El respaldo no es una app: es un plan con nombres, fechas y salidas.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `neoapplications/neo-backup` — ★3.880 (verificado 29-oct-2026)
-· actividad este mes
-· última actividad 2026-10-17
+• `immich-app/immich` — ★117.611 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · AGPL-3.0
 
-• `immich-app/immich` — ★117.571 (verificado 29-oct-2026)
-· actividad HOY
-· última actividad 2026-10-29
-· AGPL-3.0
-· release v3.3.5 (2026-10-21)
-
-• `syncthing/syncthing-android` — ★4.293 (verificado 29-oct-2026) · ARCHIVADO
-· última actividad 2024-12-03
+• `syncthing/syncthing` — ★89.873 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · MPL-2.0
 
-## El meme de la pieza
+• `syncthing/syncthing-android` — ★4.293 (verificado 2026-10-29)
+· dormido · última actividad 2024-12-03
+· MPL-2.0
+· ARCHIVADO en GitHub: historia, no opción viva
 
-> —Yo respaldo cuando me acuerdo. —El sótano no cree en la memoria: cree en calendario, prueba y
-heredero.
+• `NeoApplications/Neo-Backup` — ★3.881 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-17
+· AGPL-3.0
 
-> La Bandita verifica antes de recomendar: pieza 108 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
+• `researchxxl/syncthing-android` — ★3.192 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-22
+· MPL-2.0
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/neoapplications/neo-backup — vivo al verificar hoy (2026-10-29)
+• https://github.com/immich-app/immich — vivo al verificar hoy (2026-10-29)
+• https://github.com/syncthing/syncthing-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/syncthing/syncthing — vivo al verificar hoy (2026-10-29)
+• https://github.com/researchxxl/syncthing-android — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 5 repos GitHub (5 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

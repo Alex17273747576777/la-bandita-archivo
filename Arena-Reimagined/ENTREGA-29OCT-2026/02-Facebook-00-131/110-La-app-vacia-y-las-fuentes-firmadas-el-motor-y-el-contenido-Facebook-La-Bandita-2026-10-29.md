@@ -4,40 +4,38 @@
 
 ## ⚡ En una página
 
-La corriente que viene trae las apps vacías: el cliente nace como motor y el contenido vive en repositorios de fuentes que se añaden, se firman y se podan. Mihon lo probó con las extensiones, Kazumi lo llevó al anime y Orvid lo acaba de traer al video con Tor.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 4 repos: 3 empujaron hoy, 1 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `Predidit/Kazumi` — ★40.103,
+GPL-3.0, último empuje 2026-10-29.
 
-La doctrina cambia el oficio: ya no se audita solo la app; se audita la fuente, su firmante y su
-fecha, porque el motor sin fuentes es un cine sin películas y la fuente sin firma es una puerta
-sin nombre.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `predidit/kazumi` — ★40.074 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `Predidit/Kazumi` — ★40.103 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release 2.4.2 (2026-10-23).
 
-• `mihonapp/mihon` — ★24.829 (verificado 29-oct-2026)
-· última actividad 2026-10-26
-· licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
-· release Mihon v0.21.3 (2026-10-25).
+• `mihonapp/mihon` — ★24.838 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· Apache-2.0
 
-• `mankidev/orvid` — ★9 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `mankidev/orvid` — ★9 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release Orvid 0.4.22 (2026-10-29).
 
-• `mankidev/orvid-sources` — ★1 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· GPL-3.0.
+• `mankidev/orvid-sources` — ★1 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —La app no trae nada. —Trae el motor: el contenido lo firmas tú, que es exactamente el punto.
+• https://github.com/predidit/kazumi — vivo al verificar hoy (2026-10-29)
+• https://github.com/mihonapp/mihon — vivo al verificar hoy (2026-10-29)
+• https://github.com/mankidev/orvid — vivo al verificar hoy (2026-10-29)
+• https://github.com/mankidev/orvid-sources — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 110 del muro, nacida el 29 de octubre de 2026
-de la investigación del mismo día, con placas re-medidas en su fuente primaria. Las estrellas
-adornan; las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 4 repos GitHub (4 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

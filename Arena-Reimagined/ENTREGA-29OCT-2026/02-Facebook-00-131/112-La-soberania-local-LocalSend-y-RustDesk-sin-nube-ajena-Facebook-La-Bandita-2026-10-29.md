@@ -4,41 +4,78 @@
 
 ## ⚡ En una página
 
-Pasar un archivo al aparato de al lado o mirar tu escritorio desde el sofá no debería pedirle permiso a una nube en otro continente. LocalSend mueve archivos por tu red local con la placa mayor de esta página, y RustDesk abre el escritorio remoto con servidor que puedes alojar tú.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 12 repos: 6 empujaron hoy, 3 en los
+últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `rustdesk/rustdesk` —
+★127.494, AGPL-3.0, último empuje 2026-10-29.
 
-Es el sótano de las copias (108) saliendo a pasear por la casa: lo tuyo viaja por tu aire, con
-tu ley.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `localsend/localsend` — ★96.423 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026).
-
-• `rustdesk/rustdesk` — ★127.465 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `rustdesk/rustdesk` — ★127.494 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · AGPL-3.0
-· release 1.5.0 (2026-09-30).
 
-## El meme de la pieza
+• `localsend/localsend` — ★96.456 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
 
-> —Subí el archivo a la nube para pasarlo al PC de al lado. —Viajó a otro continente para
-caminar dos metros.
+• `termux/termux-app` — ★63.673 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-26
+· NOASSERTION
 
-> La Bandita verifica antes de recomendar: pieza 112 del muro, nacida el 29 de octubre de 2026
-de la investigación del mismo día, con placas re-medidas en su fuente primaria. Las estrellas
-adornan; las fechas mandan.
+• `RikkaApps/Shizuku` — ★32.382 (verificado 2026-10-29)
+· dormido · última actividad 2025-06-18
+· Apache-2.0
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+• `mihonapp/mihon` — ★24.838 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· Apache-2.0
 
-💓 *FE DE ERRATAS 29-OCT-2026 (mismo día) Y CIERRE:* la placa de `localsend/localsend` salió al
-nacer con «licencia sin resolver» porque GitHub no resolvió su SPDX; leyendo directamente su
-archivo `LICENSE` el mismo 29-oct-2026, la licencia es **Apache-2.0**, y así quedó corregida la
-placa con la cicatriz a la vista. La misma caza de cierre resolvió hoy por API y por texto:
-`mihonapp/mihon` Apache-2.0, `OpenHub-Store/GitHub-Store` Apache-2.0, `rikkaapps/shizuku`
-Apache-2.0, `guardianproject/orbot` BSD, `termux/termux-app` GPLv3 only declarado en su
-LICENSE.md y `hrydgard/ppsspp` GPL-2.0 por el texto de su licencia. Y quedaron verificados por
-API como repos **sin archivo LICENSE**: `Keiyoushi/extensions`, `itsmechinmoy/dantotsu-updater`
-y `DiogoRainhaLopes/Atahon`. Cerrada la jornada, ninguna licencia del censo queda «sin resolver»
-sin su motivo firmado.
+• `komi-store/komi-store` — ★20.090 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· Apache-2.0
+
+• `keiyoushi/extensions` — ★15.369 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+• `hrydgard/ppsspp` — ★14.782 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
+
+• `guardianproject/orbot-android` — ★3.661 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· NOASSERTION
+
+• `itsmechinmoy/dantotsu-updater` — ★154 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+• `itsmechinmoy/Dantotsu` — ★92 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
+
+• `diogorainhalopes/atahon` — ★18 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-05-24
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/localsend/localsend — vivo al verificar hoy (2026-10-29)
+• https://github.com/rustdesk/rustdesk — vivo al verificar hoy (2026-10-29)
+• https://github.com/mihonapp/mihon — vivo al verificar hoy (2026-10-29)
+• https://github.com/OpenHub-Store/GitHub-Store — vivo al verificar hoy (2026-10-29)
+• https://github.com/rikkaapps/shizuku — vivo al verificar hoy (2026-10-29)
+• https://github.com/guardianproject/orbot — vivo al verificar hoy (2026-10-29)
+• https://github.com/termux/termux-app — vivo al verificar hoy (2026-10-29)
+• https://github.com/hrydgard/ppsspp — vivo al verificar hoy (2026-10-29)
+• https://github.com/Keiyoushi/extensions — vivo al verificar hoy (2026-10-29)
+• https://github.com/itsmechinmoy/dantotsu-updater — vivo al verificar hoy (2026-10-29)
+• https://github.com/DiogoRainhaLopes/Atahon — vivo al verificar hoy (2026-10-29)
+• https://github.com/itsmechinmoy/dantotsu — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 12 repos GitHub (12 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

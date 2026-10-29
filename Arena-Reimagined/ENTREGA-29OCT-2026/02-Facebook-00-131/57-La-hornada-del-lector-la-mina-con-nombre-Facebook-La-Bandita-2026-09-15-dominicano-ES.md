@@ -1,138 +1,98 @@
 # Publicación 57 — La hornada del lector: la mina con nombre
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-Las 115 puertas de lectura que el archivo del dueño dejó en el censo, ahora con nombre y
-estrella. La vara doble: popularidad para ordenar la fila, fecha para decir quién vive.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 15 repos: 1 empujaron hoy, 1 en los
+últimos 7 días, 5 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy:
+`opendocument-app/OpenDocument.droid` — ★484, MPL-2.0, último empuje 2026-10-25.
 
-Las cuatro puertas propias de esta biblioteca (36, 40, 42, 46) ya caminaron lo suyo; esta
-hornada presenta a las estrellas mayores del territorio nuevo — pisadas HOY, 15 de septiembre.
+## 🗼 Las placas al pulso (2026-10-29)
 
-**Censo de la clase:** R1:84 · R2:24 · R3:7 — todo verificado HOY por átomos y REST.
-
-## 🌟 La primera fila (por estrellas, con fecha)
-
-### Lectura, cómics y bibliotecas de texto (15 en el censo)
-
-- **OpenDocument.droid** — ★455 · 2026-09-05 · R1 ·
-https://github.com/opendocument-app/OpenDocument.droid — «It's Android's first OpenOffice
-Document Reader!»
-- **Light-Novel-Yuedu-Source** — ★441 · 2025-09-22 · R2 ·
-https://github.com/ZWolken/Light-Novel-Yuedu-Source — «轻小说阅读书源合集 輕小説閲讀書源合集»
-- **ttrss-reader-fork** — ★180 · 2026-08-07 · R1 ·
-https://github.com/nilsbraden/ttrss-reader-fork — «An Android-Client for the self-hosted Tiny
-Tiny RSS feedreader»
-- **mupdf-android-viewer-mini** — ★137 · 2026-09-15 · R1 ·
-https://github.com/ArtifexSoftware/mupdf-android-viewer-mini — «sin descripción en su casa —
-ficha por estrella y fecha»
-- **NotePad** — ★130 · 2025-01-30 · R3 · https://github.com/mshdabiola/NotePad — «Notepad is
-multi module Jetpack compose note taking app with sketch pad, voice recorder, image captu»
-- **FluxNews** — ★106 · 2026-09-05 · R1 · https://github.com/KevinCFechtel/FluxNews — «A simple
-Newsreader for the miniflux backend (https://miniflux.app).»
-- **android** — ★88 · 2014-06-15 · R3 · https://github.com/aarddict/android — «Aard Dictionary
-for Android»
-- **liseur** — ★79 · 2026-09-11 · R1 · https://github.com/chmouel/liseur — «Open-source EPUB
-reader and calibre-web client for Android, with a Kindle-inspired reading experienc»
-- **rssreader** — ★26 · 2026-06-16 · R2 · https://github.com/javalc6/rssreader — «This Android
-application is a minimal RSS news reader that brings you the latest news.»
-- **Legado-booksource-collection** — ★15 · 2026-09-15 · R1 ·
-https://github.com/rektpartyaftermath/Legado-booksource-collection — «Some booksource collection
-for legado.»
-- **vvp_app** — ★11 · 2026-09-05 · R1 · https://github.com/Volksverpetzer/vvp_app — «Read
-Volksverpetzer fact checks, analysis and articles on your mobile phone.»
-- **MYC** — ★6 · 2025-10-18 · R2 · https://github.com/v4lpt/MYC — «Memorize poems, songs, etc.
-with this nice poem viewer.»
-- **YtReader** — ★5 · 2026-06-29 · R1 · https://github.com/deedeedev/YtReader — «sin descripción
-en su casa — ficha por estrella y fecha»
-- **android** — ★4 · 2026-05-30 · R2 · https://github.com/bibledit/android — «Bibledit for Android»
-
-## ❓ La pregunta de la hornada
-
-**¿Por qué solo catorce nombres de 115?**
-Los catorce de más estrella para orientar la mirada; el censo completo (con fechas) vive en la
-pieza 55 y en el Clasificador. La hornada señala el camino: no lo sustituye.
-
-## 🔗 Enlaces
-
-Cada nombre es un repositorio de github.com/ con estrella, fecha y rango del censo (p52-56). El
-mapa completo vive en el Clasificador de la casa.
-
-## El meme de la hornada
-
-> —Ciento quince lectores nuevos. ¿Por dónde empiezo?
-> —Por la fila de abajo, ordenada por aplausos y verificada por fechas. Y al final, el censo
-espera su turno — con la paciencia de un estante.
-
-> La Bandita verifica antes de recomendar: estrellas y fechas constadas HOY, 15 de septiembre de
-2026. Las estrellas adornan; las fechas mandan.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 57).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 14
-repos GitHub confirmados y 15 apariciones de URL. La historia no se reescribe; esta nota añade
-el estado medido hoy.
-
-Actividad medida hoy: 0 hoy · 2 en 7 días · 2 en 30 días · 5 en 180 días · 4 dormidos · 1
-archivados.
-
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `aarddict/android` — ARCHIVADO
-· última actividad 2015-05-09 · ★88 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
-
-• `mshdabiola/notepad` — dormido
-· última actividad 2025-08-25 · ★131 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `rektpartyaftermath/legado-booksource-collection` — dormido
-· última actividad 2025-11-19 · ★15 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `v4lpt/myc` — dormido
-· última actividad 2025-11-19 · ★6 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `zwolken/light-novel-yuedu-source` — dormido
-· última actividad 2025-09-22 · ★449 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `chmouel/liseur` — creado 2026-07-28
-· última actividad 2026-10-28 · ★164 (verificado 29-oct-2026)
-· MIT.
-
-• `volksverpetzer/vvp_app` — creado 2026-01-21
-· última actividad 2026-10-16 · ★11 (verificado 29-oct-2026)
-· MIT.
-
-• `opendocument-app/opendocument.droid` — creado 2010-10-19
-· última actividad 2026-10-25 · ★482 (verificado 29-oct-2026)
-· MPL-2.0.
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `opendocument-app/opendocument.droid` — ★482 (verificado 29-oct-2026)
-· última actividad 2026-10-25
+• `opendocument-app/OpenDocument.droid` — ★484 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
 · MPL-2.0
-· release v4.23.0 (2026-10-25).
 
-• `chmouel/liseur` — ★164 (verificado 29-oct-2026)
-· última actividad 2026-10-28
+• `ZWolken/Light-Novel-Yuedu-Source` — ★448 (verificado 2026-10-29)
+· dormido · última actividad 2025-09-22
 · MIT
-· release Liseur v0.26.0 (2026-10-28).
 
-• `bibledit/android` — ★4 (verificado 29-oct-2026)
-· última actividad 2026-10-01
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `ArtifexSoftware/mupdf-android-viewer` — ★199 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-25
+· AGPL-3.0
 
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `bibledit/android` — sin archivo
-LICENSE en su repo (verificado por API 29-oct-2026); `nilsbraden/ttrss-reader-fork` — sin
-archivo LICENSE en su repo (verificado por API 29-oct-2026);
-`rektpartyaftermath/legado-booksource-collection` — sin archivo LICENSE en su repo (verificado
-por API 29-oct-2026).
+• `nilsbraden/ttrss-reader-fork` — ★181 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-08-07
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 
-Enlaces web: 15 apariciones; 15 respondieron vivas el 29-oct-2026.
+• `chmouel/liseur` — ★164 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· MIT
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `ArtifexSoftware/mupdf-android-viewer-mini` — ★139 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-25
+· AGPL-3.0
+
+• `mshdabiola/NotePad` — ★131 (verificado 2026-10-29)
+· dormido · última actividad 2025-10-27
+· GPL-3.0
+
+• `KevinCFechtel/FluxNews` — ★111 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-19
+· BSD-3-Clause
+
+• `aarddict/android` — ★88 (verificado 2026-10-29)
+· dormido · última actividad 2015-05-09
+· GPL-3.0
+· ARCHIVADO en GitHub: historia, no opción viva
+
+• `javalc6/rssreader` — ★26 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-06-16
+· GPL-2.0
+
+• `rektpartyaftermath/Legado-booksource-collection` — ★15 (verificado 2026-10-29)
+· dormido · última actividad 2025-11-19
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+• `Volksverpetzer/vvp_app` — ★11 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-16
+· MIT
+
+• `v4lpt/MYC` — ★6 (verificado 2026-10-29)
+· dormido · última actividad 2025-11-19
+· GPL-3.0
+
+• `deedeedev/YtReader` — ★6 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-07-21
+· GPL-3.0
+
+• `bibledit/android` — ★4 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-01
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/opendocument-app/OpenDocument.droid — vivo al verificar hoy (2026-10-29)
+• https://github.com/ZWolken/Light-Novel-Yuedu-Source — vivo al verificar hoy (2026-10-29)
+• https://github.com/nilsbraden/ttrss-reader-fork — vivo al verificar hoy (2026-10-29)
+• https://github.com/ArtifexSoftware/mupdf-android-viewer-mini — vivo al verificar hoy (2026-10-29)
+• https://github.com/mshdabiola/NotePad — vivo al verificar hoy (2026-10-29)
+• https://github.com/KevinCFechtel/FluxNews — vivo al verificar hoy (2026-10-29)
+• https://github.com/aarddict/android — vivo al verificar hoy (2026-10-29)
+• https://github.com/chmouel/liseur — vivo al verificar hoy (2026-10-29)
+• https://github.com/javalc6/rssreader — vivo al verificar hoy (2026-10-29)
+• https://github.com/rektpartyaftermath/Legado-booksource-collection — vivo al verificar hoy (2026-10-29)
+• https://github.com/Volksverpetzer/vvp_app — vivo al verificar hoy (2026-10-29)
+• https://github.com/v4lpt/MYC — vivo al verificar hoy (2026-10-29)
+• https://github.com/deedeedev/YtReader — vivo al verificar hoy (2026-10-29)
+• https://github.com/bibledit/android — vivo al verificar hoy (2026-10-29)
+• https://github.com/ArtifexSoftware/mupdf-android-viewer — vivo al verificar hoy (2026-10-29)
+• https://miniflux.app — respondió viva hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 15 repos GitHub (15 vivos, 0 firmados como caídos/bloqueados) y 1
+enlace externo de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

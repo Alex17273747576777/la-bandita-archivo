@@ -1,305 +1,205 @@
 # Publicación 56 — Las puertas del anime y los servidores — censo de la mina III
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-La mina, tercera parte: la puerta del anime y vídeo (132 corrientes nuevas — la mayor del censo
-fuera de música) y los servidores de nube personal. Censo completo por rango y fecha, verificado
-HOY, 15 de septiembre.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 62 repos: 18 empujaron hoy, 17 en
+los últimos 7 días, 9 llevan más de 180 días quietos y 0 están archivados; los que ya no
+responden quedan firmados como caídos, no escondidos. El mayor medido hoy: `immich-app/immich`
+— ★117.611, AGPL-3.0, último empuje 2026-10-29.
 
-La puerta grande ya caminó tres alas; este es el territorio del archivo, con fecha en cada
-puerta — para cuando toque, sin acumular polvo.
+## 🗼 Las placas al pulso (2026-10-29)
 
-**Censo:** 186 repos · R1:122 · R2:36 · R3:27 · E:1 — todos verificados HOY por átomos de
-releases (fecha de última release junto a cada nombre).
+• `immich-app/immich` — ★117.611 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· AGPL-3.0
 
-## 📊 Las puertas, por clase
+• `yuliskov/SmartTube` — ★35.709 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· MIT
 
-### Anime, vídeo y multimedia (132)
+• `xbmc/xbmc` — ★21.399 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-- ycngmn/CuxPlug · — · E
-- kivy-garden/zbarcam · 2020-05-24 · R3
-- sschueller/easyrepost · 2020-11-15 · R3
-- ptrLx/OneShot · 2023-04-07 · R3
-- Kounex/obs_blade · 2023-05-02 · R3
-- thiagooo0/EHHelper · 2023-06-27 · R3
-- kaangiray26/geddit-app · 2023-07-27 · R3
-- billthefarmer/accordion · 2024-01-19 · R3
-- sal0max/muzei-nationalgeographic · 2024-01-20 · R3
-- sal0max/muzei-thevergewallpapers · 2024-01-20 · R3
-- billthefarmer/melodeon · 2024-01-21 · R3
-- ekibun/Stitch · 2024-02-11 · R3
-- penguin86/ojo · 2024-04-22 · R3
-- roc-streaming/roc-droid · 2024-06-14 · R3
-- tuntorius/mightier_amp · 2024-07-14 · R3
-- v4lpt/YXN · 2024-08-08 · R3
-- MarquisLP/World-Scribe · 2024-08-17 · R3
-- devhyper/open-video-editor · 2024-09-02 · R3
-- Myzel394/Alibi · 2024-09-07 · R3
-- farmerbb/SecondScreen · 2024-09-13 · R3
-- v4lpt/RYP · 2024-10-14 · R3
-- ltGuillaume/DroidShows · 2024-10-25 · R3
-- 10miaomiao/bili-down-out · 2024-10-28 · R3
-- poretsky/TuningFork · 2024-11-30 · R3
-- dn0ne/lotus · 2025-01-25 · R3
-- KNKPA/KNKPAnime · 2025-02-01 · R3
-- red-coracle/episodes · 2025-02-07 · R3
-- handewo/neon · 2025-05-21 · R2
-- babydots/babydots · 2025-06-14 · R2
-- Louis-Simon22/simpleframe · 2025-06-20 · R2
-- SecUSo/privacy-friendly-ruler · 2025-07-14 · R2
-- SecUSo/privacy-friendly-tape-measure · 2025-07-30 · R2
-- twireapp/Twire · 2025-08-20 · R2
-- vayun-mathur/Omni-Files · 2025-09-14 · R2
-- adolfintel/OpenPods · 2025-09-26 · R2
-- sakethpathike/Otic · 2025-12-18 · R2
-- OpenArchive/Save-app-android · 2026-01-12 · R2
-- Patch4Code/Logline · 2026-02-01 · R2
-- mediathekview/zapp · 2026-02-04 · R2
-- zimly/zimly-backup · 2026-02-04 · R2
-- SecUSo/privacy-friendly-qr-scanner · 2026-02-09 · R2
-- Alcidauk/CineLog · 2026-02-15 · R2
-- FossifyOrg/Voice-Recorder · 2026-02-17 · R2
-- sirdeepsleep/FirTube · 2026-03-13 · R2
-- akshvaishnav21/LearnTube · 2026-03-18 · R2
-- SebiAi/GlyphPort · 2026-03-22 · R2
-- billthefarmer/sig-gen · 2026-03-25 · R2
-- the3deers/android-3D-model-viewer · 2026-04-25 · R2
-- THEbluefirestudios/memeboard-fdroid · 2026-05-01 · R2
-- paroj/DSub2000 · 2026-05-10 · R2
-- blackcandy-org/app · 2026-05-12 · R2
-- Ghost-Applications/gizz-tapes · 2026-06-02 · R2
-- Eastcoast-Laboratories/Lalumo · 2026-06-03 · R2
-- stulluk/drejo-player-android · 2026-06-03 · R2
-- w2sv/FileNavigator · 2026-06-09 · R2
-- Messina-Agata/QuandoInTV · 2026-06-14 · R2
-- GlassOnTin/opendsp-4x4 · 2026-06-17 · R1
-- vaishnav-mandlik/LibreStatus · 2026-06-17 · R1
-- OpenAppex/pdfunlocker · 2026-06-22 · R1
-- pacoandres/midandpad · 2026-06-22 · R1
-- mendhak/SheepyHorn · 2026-06-27 · R1
-- cvzi/ScreenshotTile · 2026-07-02 · R1
-- samyak2403/IPTVMine-Pro · 2026-07-04 · R1
-- 10miaomiao/bilimiao2 · 2026-07-13 · R1
-- dkrivoruchko/ScreenStream · 2026-07-15 · R1
-- KingAlexGilbert/king-post · 2026-07-17 · R1
-- tiefseetauchner/tiefprompt · 2026-07-23 · R1
-- 5rahim/seanime-tenji · 2026-07-25 · R1
-- billthefarmer/scope · 2026-07-25 · R1
-- LuK1337/SauceNAO · 2026-07-26 · R1
-- qq7te/TotalRecall · 2026-07-26 · R1
-- juanro49/FeedTV · 2026-07-29 · R1
-- julius-d/ueberboese-app · 2026-07-29 · R1
-- Phnem/Vetro · 2026-08-03 · R1
-- kompoti121/Anilili · 2026-08-03 · R1
-- HQAnime/AnimeOne · 2026-08-04 · R1
-- OdyseeTeam/odysee-android · 2026-08-05 · R1
-- pretix/pretixprint-android · 2026-08-07 · R1
-- samgrande/RingR · 2026-08-08 · R1
-- Chrisimx/ScanBridge · 2026-08-10 · R1
-- Sitavi/Seenema-movie-tracker · 2026-08-11 · R1
-- shalenMathew/MovieFlix_App · 2026-08-14 · R1
-- jaimebg/Ambio · 2026-08-15 · R1
-- phpbg/easysync · 2026-08-15 · R1
-- hxreborn/punch-hole-download-progress · 2026-08-16 · R1
-- vipe1375/Kords · 2026-08-16 · R1
-- jqssun/android-display-mirror · 2026-08-24 · R1
-- Horizontal-org/Tella-Android · 2026-08-27 · R1
-- pass-with-high-score/ANeko · 2026-08-28 · R1
-- CDrummond/lms-material-app · 2026-08-31 · R1
-- xbmc/xbmc · 2026-08-31 · R1
-- WirelessAlien/MovieDB · 2026-09-01 · R1
-- acszo/Redomi · 2026-09-01 · R1
-- shub39/Momentum · 2026-09-01 · R1
-- arslandaim-hub/PlayTube · 2026-09-04 · R1
-- crackededed/Xtra · 2026-09-04 · R1
-- romannurik/muzei · 2026-09-05 · R1
-- snap24/RecorderX · 2026-09-05 · R1
-- conanizer/pockettracker · 2026-09-07 · R1
-- markusfisch/BinaryEye · 2026-09-09 · R1
-- pewaru-333/ShikiApp · 2026-09-09 · R1
-- sfortis/phylax · 2026-09-09 · R1
-- 100nandoo/shelfdroid · 2026-09-10 · R1
-- likhithpraveenk/storii · 2026-09-10 · R1
-- moneytoo/Player · 2026-09-11 · R1
-- retransmit/Atrium · 2026-09-11 · R1
-- videolan/vlc-android · 2026-09-11 · R1
-- Demizo/Daily_You · 2026-09-12 · R1
-- mahlernim/google-timeline-visualizer · 2026-09-12 · R1
-- metiq-xyz/android-app · 2026-09-12 · R1
-- anilbeesetti/nextplayer · 2026-09-13 · R1
-- ellite/scrob · 2026-09-13 · R1
-- rumca-js/OfflineWebSearch · 2026-09-13 · R1
-- yuliskov/SmartTube · 2026-09-13 · R1
-- immich-app/immich · 2026-09-14 · R1
-- Animiru/Animiru · 2026-09-15 · R1
-- Asm0d3usX/CloudX-V2 · 2026-09-15 · R1
-- Awerkori/anime-extensoes · 2026-09-15 · R1
-- Awerkori/anime-fonte-extensoes · 2026-09-15 · R1
-- CakesTwix/cloudstream-extensions-uk · 2026-09-15 · R1
-- Claudemirovsky/cursedyomi-extensions · 2026-09-15 · R1
-- FelipeGFA/anime-extensoes · 2026-09-15 · R1
-- Gian-Fr/ItalianProvider · 2026-09-15 · R1
-- NuvioMedia/NuvioTV · 2026-09-15 · R1
-- Reflex755/ReflexRepo · 2026-09-15 · R1
-- SaurabhKaperwan/CSX · 2026-09-15 · R1
-- Seanime-contributions/Seanime-Providers · 2026-09-15 · R1
-- Sushan64/NetMirror-Extension · 2026-09-15 · R1
-- doGior/doGiorsHadEnough · 2026-09-15 · R1
-- phisher98/cloudstream-extensions-phisher · 2026-09-15 · R1
-- redowan99/Redowan-CloudStream · 2026-09-15 · R1
-- shapeshed/aerial · 2026-09-15 · R1
+• `lollipopkit/flutter_server_box` — ★8.897 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· AGPL-3.0
 
-### Servidores y nube personal (54)
+• `standardnotes/app` — ★6.688 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· AGPL-3.0
 
-- newhinton/Round-Sync · 2024-09-10 · R3
-- mkulesh/onpc · 2025-08-25 · R2
-- jpdoshi/dragon-store · 2026-01-14 · R2
-- subrotokumar/kurumi · 2026-02-28 · R2
-- takeoutfm/takeout_app · 2026-03-23 · R2
-- photonne/photonne · 2026-05-04 · R2
-- detain/phlix-hub · 2026-05-20 · R2
-- deprec8/enigmadroid · 2026-05-28 · R2
-- Aetherfin/mobile-app · 2026-06-20 · R1
-- tobexyz/yaacc-code · 2026-06-27 · R1
-- opencloud-eu/android · 2026-06-29 · R1
-- jarnedemeulemeester/findroid · 2026-07-18 · R1
-- bobrofon/easysshfs · 2026-07-24 · R1
-- koofr/vault · 2026-08-13 · R1
-- lunarr-app/lunarr-client · 2026-08-16 · R1
-- diekaiju/localtube · 2026-08-19 · R1
-- BluFin-Designs/liser · 2026-08-20 · R1
-- cosmictaserdev-creator/Convx · 2026-08-20 · R1
-- roozbehzarei/filester · 2026-08-24 · R1
-- takeoutfm/takeout · 2026-08-24 · R1
-- bk138/droidVNC-NG · 2026-08-25 · R1
-- MrIvoe/Omnis · 2026-08-26 · R1
-- hexadigitall/makaw · 2026-08-31 · R1
-- iodn/android-ir-blaster · 2026-08-31 · R1
-- owncloud/android · 2026-08-31 · R1
-- Infomaniak/android-kDrive · 2026-09-01 · R1
-- Tsukugi/Rapunzel · 2026-09-02 · R1
-- haiwen/seadroid · 2026-09-02 · R1
-- bikram-agarwal/FilePipe · 2026-09-03 · R1
-- chenxiaolong/RSAF · 2026-09-04 · R1
-- AlainKnaff/Android-SFTP-Documents-Provider · 2026-09-05 · R1
-- jazzm0/ssh-daemon · 2026-09-08 · R1
-- helios57/muplay · 2026-09-09 · R1
-- mcp-telegram/mcp-telegram-cloud · 2026-09-10 · R1
-- raulshma/jellyplay · 2026-09-10 · R1
-- He11PC/android-mirror · 2026-09-11 · R1
-- RenzoBeux/dashboarr · 2026-09-12 · R1
-- erfangholami/SolidShare · 2026-09-12 · R1
-- lollipopkit/flutter_server_box · 2026-09-12 · R1
-- chenxiaolong/BasicSync · 2026-09-13 · R1
-- morg1z/jiyu · 2026-09-13 · R1
-- d0x-dev/AirBeats · 2026-09-14 · R1
-- CranberrySoup/AniyomiCompatExtension · 2026-09-15 · R1
-- Gameaday/Ephyra · 2026-09-15 · R1
-- Nicartjay/Watchbox-Android · 2026-09-15 · R1
-- inaccurate-hotelplan289/HomeLabSetup · 2026-09-15 · R1
-- mortonbaker/passthrough-theater · 2026-09-15 · R1
-- nextcloud/android · 2026-09-15 · R1
-- recloudstream/cs-repos · 2026-09-15 · R1
-- researchxxl/syncthing-android · 2026-09-15 · R1
-- self-similarity/MegaRepo · 2026-09-15 · R1
-- standardnotes/app · 2026-09-15 · R1
-- timschneeb/changelog-awesome-shizuku · 2026-09-15 · R1
-- zmz125000/LocalViewer · 2026-09-15 · R1
+• `nextcloud/android` — ★5.656 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-2.0
 
-## 🔗 Enlaces
+• `muzei/muzei` — ★4.954 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· Apache-2.0
 
-Cada nombre es un repositorio de github.com/. El censo entero vive en el Clasificador de la
-casa; las fichas nominativas (estrellas y descripciones) irán por hornadas si el dueño pide
-profundidad.
+• `anilbeesetti/nextplayer` — ★4.635 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-## El meme del censo
+• `5rahim/seanime` — ★4.285 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-14
+· GPL-3.0
 
-> —¿Y esto sin fotos?
-> —Con fechas. La foto puede esperar: la vida no.
+• `jarnedemeulemeester/findroid` — ★4.280 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-> La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el
-mapa. Corte del 15 de septiembre de 2026.
+• `owncloud/android` — ★4.175 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-2.0
 
-**Nota de la verificación extrema (15-sep, noche):** noticia del corte, constatada en cobertura pública del 8-sep: Nuvio fue suspendido de Google Play tras una queja DMCA de la MPA — seis títulos citados, según contó el propio equipo. La casa GitHub sigue viva HOY (NuvioTV, ★2.667) y circulan apps falsas con su nombre en la tienda: la instalación va por su casa, como siempre dice esta colección.
+• `videolan/vlc-android` — ★4.120 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-2.0
 
-───────────────────
+• `NuvioMedia/NuvioTV` — ★3.271 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· GPL-3.0
 
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 56).*
+• `researchxxl/syncthing-android` — ★3.192 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-22
+· MPL-2.0
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 62
-repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el
-estado medido hoy.
+• `mahlernim/google-timeline-visualizer` — ★3.057 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-22
+· MIT
 
-Actividad medida hoy: 11 hoy · 22 en 7 días · 14 en 30 días · 7 en 180 días · 8 dormidos · 0
-archivados.
+• `10miaomiao/bilimiao2` — ★2.965 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· GPL-3.0
 
-*Alertas de continuidad (verificadas el 29-oct-2026):*
+• `moneytoo/Player` — ★2.759 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-22
+· Unlicense
 
-• `dn0ne/lotus` — dormido
-· última actividad 2025-01-25 · ★717 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `dkrivoruchko/ScreenStream` — ★2.569 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· MIT
 
-• `kivy-garden/zbarcam` — dormido
-· última actividad 2025-02-27 · ★141 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `markusfisch/BinaryEye` — ★2.460 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-27
+· MIT
 
-• `knkpa/knkpanime` — dormido
-· última actividad 2025-02-01 · ★650 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `bk138/droidVNC-NG` — ★2.419 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-2.0
 
-• `mkulesh/onpc` — dormido
-· última actividad 2025-12-08 · ★168 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `newhinton/Round-Sync` — ★2.413 (verificado 2026-10-29)
+· dormido · última actividad 2025-11-16
+· GPL-3.0
 
-• `newhinton/round-sync` — dormido
-· última actividad 2025-09-09 · ★2.411 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `Myzel394/Alibi` — ★1.723 (verificado 2026-10-29)
+· dormido · última actividad 2026-02-11
+· GPL-3.0
 
-• `self-similarity/megarepo` — dormido
-· última actividad 2025-10-03 · ★140 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `cosmictaserdev-creator/Convx` — ★1.064 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-• `tuntorius/mightier_amp` — dormido
-· última actividad 2025-01-21 · ★236 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `chenxiaolong/RSAF` — ★1.037 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-24
+· GPL-3.0
 
-• `zimly/zimly-backup` — dormido
-· última actividad 2026-02-28 · ★105 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `chenxiaolong/BasicSync` — ★730 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· GPL-3.0
 
-• `jpdoshi/dragon-store` — NO ENCONTRADO en GitHub el 29-oct-2026 (404). El enlace citado ya no resuelve: queda marcado, no recomendado.
+• `dn0ne/lotus` — ★717 (verificado 2026-10-29)
+· dormido · última actividad 2025-01-25
+· GPL-3.0
 
-*Señales de futuro (novedad activa, no ranking por estrellas):*
+• `KNKPA/KNKPAnime` — ★650 (verificado 2026-10-29)
+· dormido · última actividad 2025-02-01
+· GPL-3.0
 
-• `researchxxl/syncthing-android` — creado 2025-10-29
-· última actividad 2026-10-22 · ★3.189 (verificado 29-oct-2026)
-· MPL-2.0.
+• `haiwen/seadroid` — ★637 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-• `bikram-agarwal/filepipe` — creado 2026-03-31
-· última actividad 2026-10-02 · ★310 (verificado 29-oct-2026)
-· GPL-3.0.
+• `iodn/android-ir-blaster` — ★602 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-15
+· GPL-3.0
 
-• `chenxiaolong/basicsync` — creado 2025-11-29
-· última actividad 2026-10-25 · ★730 (verificado 29-oct-2026)
-· GPL-3.0.
+• `pass-with-high-score/ANeko` — ★591 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-08-28
+· LGPL-2.1
 
-*Placas de control (por actividad y juventud, no por fama):*
+• …y 32 repos más, todos medidos hoy (2026-10-29): su placa completa vive en el dataset de la entrega.
 
-• `xbmc/xbmc` — ★21.397 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION).
+## 🔗 Fuentes comprobadas hoy
 
-• `owncloud/android` — ★4.175 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· GPL-2.0.
+• https://github.com/dn0ne/lotus — vivo al verificar hoy (2026-10-29)
+• https://github.com/kivy-garden/zbarcam — vivo al verificar hoy (2026-10-29)
+• https://github.com/knkpa/knkpanime — vivo al verificar hoy (2026-10-29)
+• https://github.com/mkulesh/onpc — vivo al verificar hoy (2026-10-29)
+• https://github.com/newhinton/round-sync — vivo al verificar hoy (2026-10-29)
+• https://github.com/self-similarity/megarepo — vivo al verificar hoy (2026-10-29)
+• https://github.com/tuntorius/mightier_amp — vivo al verificar hoy (2026-10-29)
+• https://github.com/zimly/zimly-backup — vivo al verificar hoy (2026-10-29)
+• https://github.com/jpdoshi/dragon-store — no respondió hoy (404) al verificar hoy (2026-10-29)
+• https://github.com/researchxxl/syncthing-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/bikram-agarwal/filepipe — vivo al verificar hoy (2026-10-29)
+• https://github.com/chenxiaolong/basicsync — vivo al verificar hoy (2026-10-29)
+• https://github.com/xbmc/xbmc — vivo al verificar hoy (2026-10-29)
+• https://github.com/owncloud/android — vivo al verificar hoy (2026-10-29)
+• https://github.com/haiwen/seadroid — vivo al verificar hoy (2026-10-29)
+• https://github.com/dogior/dogiorshadenough — vivo al verificar hoy (2026-10-29)
+• https://github.com/phisher98/cloudstream-extensions-phisher — vivo al verificar hoy (2026-10-29)
+• https://github.com/recloudstream/cs-repos — vivo al verificar hoy (2026-10-29)
+• https://github.com/reflex755/reflexrepo — vivo al verificar hoy (2026-10-29)
+• https://github.com/saurabhkaperwan/csx — vivo al verificar hoy (2026-10-29)
+• https://github.com/nextcloud/android — vivo al verificar hoy (2026-10-29)
+• https://github.com/immich-app/immich — vivo al verificar hoy (2026-10-29)
+• https://github.com/yuliskov/SmartTube — vivo al verificar hoy (2026-10-29)
+• https://github.com/5rahim/seanime — vivo al verificar hoy (2026-10-29)
+• https://github.com/ycngmn/CuxPlug — no respondió hoy (404) al verificar hoy (2026-10-29)
+• https://github.com/Myzel394/Alibi — vivo al verificar hoy (2026-10-29)
+• https://github.com/pass-with-high-score/ANeko — vivo al verificar hoy (2026-10-29)
+• https://github.com/cvzi/ScreenshotTile — vivo al verificar hoy (2026-10-29)
+• https://github.com/WirelessAlien/MovieDB — vivo al verificar hoy (2026-10-29)
+• https://github.com/retransmit/Atrium — vivo al verificar hoy (2026-10-29)
+• https://github.com/HQAnime/AnimeOne — vivo al verificar hoy (2026-10-29)
+• https://github.com/CDrummond/lms-material-app — vivo al verificar hoy (2026-10-29)
+• https://github.com/likhithpraveenk/storii — vivo al verificar hoy (2026-10-29)
+• https://github.com/ptrLx/OneShot — vivo al verificar hoy (2026-10-29)
+• https://github.com/blackcandy-org/app — vivo al verificar hoy (2026-10-29)
+• https://github.com/rumca-js/OfflineWebSearch — vivo al verificar hoy (2026-10-29)
+• https://github.com/lollipopkit/flutter_server_box — vivo al verificar hoy (2026-10-29)
+• https://github.com/standardnotes/app — vivo al verificar hoy (2026-10-29)
+• https://github.com/jarnedemeulemeester/findroid — vivo al verificar hoy (2026-10-29)
+• https://github.com/bk138/droidVNC-NG — vivo al verificar hoy (2026-10-29)
+• https://github.com/chenxiaolong/RSAF — vivo al verificar hoy (2026-10-29)
+• https://github.com/iodn/android-ir-blaster — vivo al verificar hoy (2026-10-29)
+• https://github.com/helios57/muplay — vivo al verificar hoy (2026-10-29)
+• https://github.com/hexadigitall/makaw — vivo al verificar hoy (2026-10-29)
+• https://github.com/inaccurate-hotelplan289/HomeLabSetup — no respondió hoy (404) al verificar hoy (2026-10-29)
+• https://github.com/romannurik/muzei — vivo al verificar hoy (2026-10-29)
+• https://github.com/anilbeesetti/nextplayer — vivo al verificar hoy (2026-10-29)
+• https://github.com/videolan/vlc-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/mahlernim/google-timeline-visualizer — vivo al verificar hoy (2026-10-29)
+• https://github.com/10miaomiao/bilimiao2 — vivo al verificar hoy (2026-10-29)
+• https://github.com/moneytoo/Player — vivo al verificar hoy (2026-10-29)
+• https://github.com/NuvioMedia/NuvioTV — vivo al verificar hoy (2026-10-29)
+• https://github.com/dkrivoruchko/ScreenStream — vivo al verificar hoy (2026-10-29)
+• https://github.com/markusfisch/BinaryEye — vivo al verificar hoy (2026-10-29)
+• https://github.com/cosmictaserdev-creator/Convx — vivo al verificar hoy (2026-10-29)
+• https://github.com/RenzoBeux/dashboarr — vivo al verificar hoy (2026-10-29)
+• https://github.com/koofr/vault — vivo al verificar hoy (2026-10-29)
+• https://github.com/roozbehzarei/filester — vivo al verificar hoy (2026-10-29)
+• https://github.com/tobexyz/yaacc-code — vivo al verificar hoy (2026-10-29)
+• https://github.com/Infomaniak/android-kDrive — vivo al verificar hoy (2026-10-29)
+• https://github.com/bobrofon/easysshfs — vivo al verificar hoy (2026-10-29)
+• https://github.com/thiagooo0/EHHelper — vivo al verificar hoy (2026-10-29)
 
-• `haiwen/seadroid` — ★637 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION).
-
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `dogior/dogiorshadenough` — sin
-archivo LICENSE en su repo (verificado por API 29-oct-2026); `haiwen/seadroid` — AGPL-3.0;
-`phisher98/cloudstream-extensions-phisher` — sin archivo LICENSE en su repo (verificado por API
-29-oct-2026); `recloudstream/cs-repos` — sin archivo LICENSE en su repo (verificado por API
-29-oct-2026); `reflex755/reflexrepo` — sin archivo LICENSE en su repo (verificado por API
-29-oct-2026); `saurabhkaperwan/csx` — sin archivo LICENSE en su repo (verificado por API
-29-oct-2026).
-
-Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 62 repos GitHub (59 vivos, 3 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

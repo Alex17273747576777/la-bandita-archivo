@@ -4,43 +4,33 @@
 
 ## ⚡ En una página
 
-El dueño trajo un fantasma serio: un administrador de descargas multiprotocolo que traga HTTP,
-FTP, BitTorrent y magnets, streams M3U8/DASH, eD2k, YouTube, Bilibili, GitHub y Hugging Face,
-con fragmentación inteligente, pausa y reanudación, extensión de navegador y RPC compatible con
-aria2. Tres años de forja, diez mil estrellas y release de ayer lo separan de la semilla: esto
-ya es herramienta de trabajo.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 3 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `agalwood/Motrix` — ★57.547,
+NOASSERTION, último empuje 2026-10-29.
 
-Su vara de familia es la de la 115 con esteroides: cada protocolo firma su procedencia, y lo que
-se baja es lo tuyo o lo libre.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
+• `agalwood/Motrix` — ★57.547 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-• `xiaoyouchr/ghost-downloader-3` — ★10.497 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2023-08-16
+• `GopeedLab/gopeed` — ★27.246 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release v4.4.6 (2026-10-28).
 
-• `gopeedlab/gopeed` — ★27.240 (verificado 29-oct-2026)
-· última actividad 2026-10-28
-· creado 2019-04-21
+• `XiaoYouChR/Ghost-Downloader-3` — ★10.501 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release v2.0.0-beta.3 🌈 (2026-09-18).
 
-• `agalwood/motrix` — ★57.546 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2018-12-18
-· MIT (histórica; hoy sin SPDX resuelto)
-· release v2.1.0 (2026-10-28).
+## 🔗 Fuentes comprobadas hoy
 
-## El meme de la pieza
+• https://github.com/xiaoyouchr/ghost-downloader-3 — vivo al verificar hoy (2026-10-29)
+• https://github.com/gopeedlab/gopeed — vivo al verificar hoy (2026-10-29)
+• https://github.com/agalwood/motrix — vivo al verificar hoy (2026-10-29)
 
-> —Este fantasma baja hasta la luna. —Que baje la luna de su órbita oficial, con licencia y sin
-atajos.
-
-> La Bandita verifica antes de recomendar: pieza 121 del muro, nacida el 29 de octubre de 2026
-desde apps traídas por el dueño y re-medidas hoy en su fuente primaria. Las estrellas adornan;
-las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

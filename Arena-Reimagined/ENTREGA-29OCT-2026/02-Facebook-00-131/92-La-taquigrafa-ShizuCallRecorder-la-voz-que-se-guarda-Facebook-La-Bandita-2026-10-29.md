@@ -4,26 +4,23 @@
 
 ## ⚡ En una página
 
-La taquígrafa graba llamadas sin root usando la mano que la varita ya prestó: forja joven (nacida en 2026) y de las más vivas de su liga. La doctrina es corta: grabar TU conversación con aviso es archivo; grabar a escondidas es otro oficio y no se receta aquí.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `kitsumed/ShizuCallRecorder`
+— ★1.932, GPL-3.0, último empuje 2026-10-28.
 
-La voz que importa se guarda con consentimiento y fecha.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `kitsumed/shizucallrecorder` — ★1.927 (verificado 29-oct-2026)
-· actividad esta semana
-· última actividad 2026-10-24
+• `kitsumed/ShizuCallRecorder` — ★1.932 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
 · GPL-3.0
-· release v2.0.0 (2026-10-24)
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Grabo todo por si acaso. —El por si acaso sin aviso te convierte en el problema que querías
-evitar.
+• https://github.com/kitsumed/shizucallrecorder — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 92 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

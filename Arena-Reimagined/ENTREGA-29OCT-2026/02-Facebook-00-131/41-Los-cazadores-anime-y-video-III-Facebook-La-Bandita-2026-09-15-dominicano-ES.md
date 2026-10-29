@@ -1,164 +1,95 @@
 # Publicación 41 — Los cazadores: anime y vídeo III — la cosecha del catálogo
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
-## 🗺️ Mapa de esta guía
+## ⚡ En una página
 
-├── ⚡ Los cazadores, en una página
-├── 🏹 La primera línea (quinientas estrellas arriba)
-├── ⚔️ La segunda línea (doscientas a quinientas)
-├── 🧵 Costuras del día
-└── 🔗 Enlaces
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 15 repos: 3 empujaron hoy, 4 en los
+últimos 7 días, 1 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `jiangtian616/JHenTai` —
+★5.744, Apache-2.0, último empuje 2026-10-26.
 
-## ⚡ Los cazadores, en una página
+## 🗼 Las placas al pulso (2026-10-29)
 
-Tercera ala de la puerta grande. Esta vez la lista no salió de una expedición al azar: la dejó
-tendida el **catálogo Miyomi** — el mercado que esta casa ya ha aprendido a leer como candidato,
-no como verdad.
-
-Catorce cazadores de anime (y de más) con casa verificada HOY, 15 de septiembre, y un patrón que ya es costumbre: **el catálogo va atrás y git va delante** — cinco números de esta guía lo delatan. Ficha honesta: aquí entra quien caza con su propio motor, cada uno con su vara; las fuentes de cada uno son material de la pieza de extensiones.
-
-## 🏹 La primera línea (quinientas estrellas arriba)
-
-- **JHenTai** — ★5.535 · v8.0.16+334 (9-sep, push HOY) · https://github.com/jiangtian616/JHenTai
-— «A cross-platform manga app made for e-hentai & exhentai by Flutter»: el gigante de la cosecha
-(1,5 millones de descargas en el catálogo), especializado en los repos del clásico adulto, en
-Android, iOS, Windows y Linux. Ficha tal cual es; el contenido es cosa de cada lector.
-- **AnymeX** — ★1.203 · **v3.1.7 — el catálogo traía la 3.0.4** ·
-https://github.com/RyanYuuki/AnymeX — tracking multi-servicio (AniList, MAL, SIMKL) en seis
-plataformas. Su red de forks está despierta (uno empujó HOY).
-- **NineAnimator** — ★819 · 1.2.7 (25-abr-2021) · https://github.com/SuperMarcus/NineAnimator —
-«An elegant way of discovering anime on iOS»: la elegante histórica. Cinco años sin release y su
-casa sigue en pie — rama de referencia, no de uso diario; si algún día resucita, será del fruto
-maduro.
-- **Zenshin** — ★767 · v3.0.0 (24-may) · https://github.com/hitarth-gg/zenshin — streaming de
-anime para escritorio y web, con integración AniList. Tres punto cero grande y empujando esta
-semana.
-- **OtakuWorld** — ★630 · nightly (9-sep) · https://github.com/jakepurple13/OtakuWorld — «Anime
-Watcher, Manga Reader, and Novel Reader as three separate apps, same UI»: la familia unificada
-bajo un mismo techo. También tiene asiento en Android TV.
-- **Skystream** — ★575 · v2.7.6 (3-ago) · https://github.com/akashdh11/skystream — la declarada:
-«modern, cross-platform media streaming client **inspired by CloudStream**» — la hija espiritual
-de la puerta grande (p37), en cinco plataformas.
-
-## ⚔️ La segunda línea (doscientas a quinientas)
-
-- **Animite** — ★516 · v0.7.13-alpha01 (14-sep) · https://github.com/imashnake0/Animite —
-cliente AniList para Android, cadencia alpha viva.
-- **animestream** — ★428 · v1.4.7 (14-sep) · https://github.com/frostnova721/animestream —
-streamea y descarga, sin adornos.
-- **Sora** — ★421 · 1.3.0 (16-ago) · https://github.com/cranci1/Sora — «A modular media player
-for iOS and macOS»: el asiento modular de la manzana.
-- **ShonenX** — ★334 · v2.1.4-alpha.3 (11-sep) · https://github.com/roshancodespace/ShonenX —
-descubrimiento, tracking y streaming en Flutter.
-- **Zangetsu** — ★325 · v2.1.1 (14-sep) · https://github.com/Spyou/Zangetsu — anime, películas,
-series, manga y light novels: el quimérico de la guía — Android, Android TV e iOS.
-- **PlayTorrio** — ★304 · v1.1.5 (9-sep) · https://github.com/ayman708-UX/PlayTorrioV3 — el de
-los torrents, en cinco plataformas.
-- **AniLabX** — ★275 · **V5.8 Update 16 — el catálogo traía el u15** ·
-https://github.com/AniLabX/AniLabX — anime, dramas, caricaturas, manga y novelas en Android. La
-verificada por el servidor oficial en su día, ahora con ficha.
-- **Manga You Know** — ★222 · v0.9.31-alpha (26-mar) · https://github.com/manga-you-know/desktop
-— «The cleanest desktop manga reader»: el ordenado de escritorio, hecho en Svelte.
-- **Th3-Anime** — ★200 · Beta v0.0.10 (29-jun) · https://github.com/Th3-Anime/Th3-Anime — el
-joven de la línea, empujando esta semana.
-
-## 🧵 Costuras del día
-
-- **El catálogo atrás, otra vez:** AnymeX 3.0.4→3.1.7 · AniLabX u15→u16 · Nekoyomi 0.19.7→0.20.6
-(el nieto de Aniyomi va por su estante pequeño) · Frank Yomik 0.4.4→1.0.0 · Kaisoku 9.8.2→9.8.3.
-Regla de casa: **catálogo = candidato; git = verdad.**
-- **Los pequeños esperan su estante:** NyanTV (casa resuelta HOY, asiento de Android TV),
-KamiYomu, ReDantotsu, AniSync, NHApp, KomaStream, Kitsu-X, kaizen-app, uwumi y la familia Sozo —
-todos con casa viva, todos para la guía de los pequeños.
-- **Los que se verifican por otra puerta:** Hentoid y Hayase — sus casas no dejan pasar la API
-(451, contenido adulto): irán por la web, con calma, cuando les toque.
-- **La casa que habla:** JHenTai y Nekoyomi comparten catálogo con los reads de la casa (37, 38)
-— el mercado es un solo río.
-
-## ❓ Preguntas de los cazadores
-
-**¿Catorce apps para lo mismo?** No para lo mismo: cada cazador caza en su bosque — tracking, streaming, torrents, escritorio, TV, la manzana. Esta guía no manda a instalar catorce: enseña el mapa del bosque y deja que cada lector escoja su cazador.
-
-**¿Por qué fechas y no estrellas?** Porque las estrellas adornan y las fechas mandan: NineAnimator tiene más de ochocientas y cinco años de silencio; animestream tiene cuatrocientas y estrenó versión ayer. El vivero y el estante se separan por el tiempo, no por el aplauso.
-
-## 🔗 Enlaces
-
-- Primera línea: jiangtian616/JHenTai · RyanYuuki/AnymeX · SuperMarcus/NineAnimator ·
-hitarth-gg/zenshin · jakepurple13/OtakuWorld · akashdh11/skystream
-- Segunda línea: imashnake0/Animite · frostnova721/animestream · cranci1/Sora ·
-roshancodespace/ShonenX · Spyou/Zangetsu · ayman708-UX/PlayTorrioV3 · AniLabX/AniLabX ·
-manga-you-know/desktop · Th3-Anime/Th3-Anime
-- (URLs completas en cada ficha · el inventario del muro: paquete interno, Registro y Protocolo.)
-
-## El meme de los cazadores
-
-> —¿Otra app de anime? ¿Cuántas van?
-> —Quince con ficha nueva. Cada una caza en su bosque: el rastreador, el torrentista, la de la
-manzana, la de la tele.
-> —¿Y cuál escojo?
-> —La que mire tu bosque. Yo solo confirmo que todas las cabañas tenían humo esta mañana — y que
-la elegante lleva cinco años sin abrir la puerta.
-
-> La Bandita verifica antes de recomendar: quince cazadores pisados el 15 de septiembre de 2026,
-cinco números por delante del catálogo, y una hija de Cloudstream creciendo en el bosque. Las
-estrellas adornan; las fechas mandan.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 41).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 14
-repos GitHub confirmados y 15 apariciones de URL. La historia no se reescribe; esta nota añade
-el estado medido hoy.
-
-Actividad medida hoy: 1 hoy · 6 en 7 días · 1 en 30 días · 5 en 180 días · 0 dormidos · 1
-archivados.
-
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `supermarcus/nineanimator` — ARCHIVADO
-· última actividad 2023-12-13 · ★819 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
-
-• `ayman708-ux/playtorriov3` — NO ENCONTRADO en GitHub el 29-oct-2026 (404). El enlace citado ya no resuelve: queda marcado, no recomendado.
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `akashdh11/skystream` — creado 2026-01-19
-· última actividad 2026-10-17 · ★663 (verificado 29-oct-2026)
-· GPL-3.0.
-
-• `spyou/zangetsu` — creado 2026-06-02
-· última actividad 2026-10-29 · ★454 (verificado 29-oct-2026)
-· GPL-3.0.
-
-• `frostnova721/animestream` — creado 2024-02-15
-· última actividad 2026-10-28 · ★444 (verificado 29-oct-2026)
-· GPL-3.0.
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `spyou/zangetsu` — ★454 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· GPL-3.0
-· release Zangetsu v2.3.3 (2026-10-22).
-
-• `jakepurple13/otakuworld` — ★638 (verificado 29-oct-2026)
-· última actividad 2026-10-28
+• `jiangtian616/JHenTai` — ★5.744 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
 · Apache-2.0
-· release OtakuWorld Nightly Release 2026-10-21 (2026-10-21).
 
-• `imashnake0/animite` — ★523 (verificado 29-oct-2026)
-· última actividad 2026-10-24
-· Apache-2.0.
+• `RyanYuuki/AnymeX` — ★1.275 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· MIT
 
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `anilabx/anilabx` — sin archivo
-LICENSE en su repo (verificado por API 29-oct-2026); `th3-anime/th3-anime` — sin archivo LICENSE
-en su repo (verificado por API 29-oct-2026).
+• `SuperMarcus/NineAnimator` — ★819 (verificado 2026-10-29)
+· dormido · última actividad 2024-11-14
+· GPL-3.0
+· ARCHIVADO en GitHub: historia, no opción viva
 
-Enlaces web: 15 apariciones; 14 respondieron vivas el 29-oct-2026.
+• `hitarth-gg/zenshin` — ★774 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-05-24
+· GPL-3.0
 
-• Enlace caído (404 verificado 29-oct-2026): https://github.com/ayman708-UX/PlayTorrioV3
+• `akashdh11/skystream` — ★663 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-17
+· GPL-3.0
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `jakepurple13/OtakuWorld` — ★638 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
+
+• `imashnake0/Animite` — ★523 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
+
+• `Spyou/Zangetsu` — ★455 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `frostnova721/animestream` — ★444 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· GPL-3.0
+
+• `cranci1/Sora` — ★427 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-08-20
+· GPL-3.0
+
+• `roshancodespace/ShonenX` — ★355 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· GPL-3.0
+
+• `AniLabX/AniLabX` — ★286 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-02
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+• `manga-you-know/desktop` — ★222 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-11
+· MIT
+
+• `Th3-Anime/Th3-Anime` — ★221 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-07-02
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+• `ayman708-UX/PlayTorrioV3` — caído (404) al medir hoy (2026-10-29): queda firmado, no recomendado.
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/jiangtian616/JHenTai — vivo al verificar hoy (2026-10-29)
+• https://github.com/RyanYuuki/AnymeX — vivo al verificar hoy (2026-10-29)
+• https://github.com/SuperMarcus/NineAnimator — vivo al verificar hoy (2026-10-29)
+• https://github.com/hitarth-gg/zenshin — vivo al verificar hoy (2026-10-29)
+• https://github.com/jakepurple13/OtakuWorld — vivo al verificar hoy (2026-10-29)
+• https://github.com/akashdh11/skystream — vivo al verificar hoy (2026-10-29)
+• https://github.com/imashnake0/Animite — vivo al verificar hoy (2026-10-29)
+• https://github.com/frostnova721/animestream — vivo al verificar hoy (2026-10-29)
+• https://github.com/cranci1/Sora — vivo al verificar hoy (2026-10-29)
+• https://github.com/roshancodespace/ShonenX — vivo al verificar hoy (2026-10-29)
+• https://github.com/Spyou/Zangetsu — vivo al verificar hoy (2026-10-29)
+• https://github.com/ayman708-UX/PlayTorrioV3 — no respondió hoy (404) al verificar hoy (2026-10-29)
+• https://github.com/AniLabX/AniLabX — vivo al verificar hoy (2026-10-29)
+• https://github.com/manga-you-know/desktop — vivo al verificar hoy (2026-10-29)
+• https://github.com/Th3-Anime/Th3-Anime — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 15 repos GitHub (14 vivos, 1 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

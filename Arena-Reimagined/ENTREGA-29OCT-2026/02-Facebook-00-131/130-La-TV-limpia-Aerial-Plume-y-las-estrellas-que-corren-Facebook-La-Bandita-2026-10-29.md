@@ -4,34 +4,28 @@
 
 ## ⚡ En una página
 
-Dos lanzadores de Android TV nacieron este mes prometiendo la tele sin anuncios: Plume pesa 0,4 MB con once días de vida, y Aerial juntó 7.704 estrellas en NUEVE días con release de hoy. La placa se firma con la ceja ya entrenada (117): las estrellas que corren más rápido que el código se miran dos veces.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `pengchujin/aerial-tv` —
+★7.723, MIT, último empuje 2026-10-29.
 
-La TV limpia es tema serio de esta casa — la sala es el centro del barrio — y por eso mismo su
-vara es doble: pulso sí, pero también firmante, licencia leída y un ciclo de observación antes
-del pedestal.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `pengchujin/aerial-tv` — ★7.704 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-10-20
+• `pengchujin/aerial-tv` — ★7.723 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · MIT
-· release Aerial 1.69 (2026-10-29).
 
-• `aradhyas8/plume_launcher` — ★265 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-10-18
+• `aradhyas8/Plume_Launcher` — ★269 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release Plume 1.6 (2026-10-26).
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Todo el mundo lo está instalando. —Todo el mundo en nueve días es justo lo que esta casa
-verifica dos veces.
+• https://github.com/pengchujin/aerial-tv — vivo al verificar hoy (2026-10-29)
+• https://github.com/aradhyas8/plume_launcher — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 130 del muro, nacida el 29 de octubre de 2026
-de la búsqueda por categorías del mismo día, con placas re-medidas en su fuente primaria. Las
-estrellas adornan; las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

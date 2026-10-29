@@ -1,211 +1,194 @@
 # Publicación 54 — Las puertas del sistema y el taller — censo de la mina I
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-La mina fuera de la discoteca, primera parte: las puertas del taller — sistema Android, raíz y Shizuku, terminales, privacidad, extensiones y productividad. El censo completo por rango y fecha, verificado HOY, 15 de septiembre: cada nombre con su vida a la vista.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 51 repos: 23 empujaron hoy, 18 en
+los últimos 7 días, 6 llevan más de 180 días quietos y 0 están archivados; los que ya no
+responden quedan firmados como caídos, no escondidos. El mayor medido hoy:
+`awesome-selfhosted/awesome-selfhosted` — ★331.779, NOASSERTION, último empuje 2026-10-29.
 
-Las fichas nominativas de los gigantes irán por hornadas; el mapa no acumula polvo.
+## 🗼 Las placas al pulso (2026-10-29)
 
-**Censo:** 102 repos · R1:66 · R2:23 · R3:13 — todos verificados HOY por átomos de releases
-(fecha de última release junto a cada nombre).
+• `awesome-selfhosted/awesome-selfhosted` — ★331.779 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-## 📊 Las puertas, por clase
+• `ggml-org/llama.cpp` — ★132.769 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· MIT
 
-### Android, sistema y raíz (55)
+• `jellyfin/jellyfin` — ★58.785 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-2.0
 
-- RikkaApps/Magisk · 2019-06-21 · R3
-- kagenihisomi/manga-image-translator · 2022-04-20 · R3
-- awesome-selfhosted/awesome-selfhosted · 2023-08-22 · R3
-- zacharee/Tweaker · 2024-02-17 · R3
-- k3x1n/Android-Show-Taps · 2024-06-16 · R3
-- itkach/aard2-android · 2024-07-16 · R3
-- livodeu/FreeHamburger · 2024-08-23 · R3
-- WuDi-ZhanShen/ScreenOff · 2024-09-18 · R3
-- eiyooooo/AutoRotate · 2025-06-10 · R2
-- readrops/Readrops · 2025-07-07 · R2
-- tachibana-shin/hoyomi · 2025-07-25 · R2
-- vvb2060/PackageInstaller · 2025-08-06 · R2
-- MrRare2/MDPC · 2026-02-13 · R2
-- freeotp/freeotp-android · 2026-02-17 · R2
-- lihenggui/blocker · 2026-03-22 · R2
-- wahonlabs/Wahon · 2026-03-23 · R2
-- undisputedP/ShortsBlocker · 2026-05-09 · R2
-- legendsayantan/Extendroid · 2026-05-24 · R2
-- KieronQuinn/SmartspacerPlugins · 2026-06-06 · R2
-- void-616/SentryFileManager · 2026-06-15 · R2
-- kurikomi-labs/komi-store · 2026-06-26 · R1
-- abrensch/brouter · 2026-07-17 · R1
-- jqssun/android-display-extend · 2026-07-22 · R1
-- photoprism/photoprism · 2026-07-27 · R1
-- developer-krushna/AXMLPrinter · 2026-08-18 · R1
-- d4rken-org/amply · 2026-08-19 · R1
-- f-droid/fdroidclient · 2026-08-20 · R1
-- SmartPack/PackageManager · 2026-08-25 · R1
-- austinauyeung/C9 · 2026-08-31 · R1
-- session-foundation/session-android · 2026-09-01 · R1
-- AmanoTeam/Kahon · 2026-09-06 · R1
-- Suwayomi/Suwayomi-Tsumiru · 2026-09-08 · R1
-- palsoftware/pastiera · 2026-09-08 · R1
-- FreshRSS/FreshRSS · 2026-09-09 · R1
-- pass-with-high-score/universal-installer · 2026-09-09 · R1
-- nextcloud/photos · 2026-09-10 · R1
-- mrndstvndv/OmniPrompt · 2026-09-11 · R1
-- xLexip/Adaptive-Theme · 2026-09-11 · R1
-- Anthonyy232/Paperize · 2026-09-12 · R1
-- FlareSolverr/FlareSolverr · 2026-09-12 · R1
-- commons-app/apps-android-commons · 2026-09-12 · R1
-- mekhontsev/magicdesk · 2026-09-12 · R1
-- FelipeGFA/extensoes · 2026-09-13 · R1
-- SanmerApps/PI · 2026-09-13 · R1
-- jellyfin/jellyfin-androidtv · 2026-09-13 · R1
-- GlassHaven/Haven · 2026-09-14 · R1
-- Snd-R/Komelia · 2026-09-14 · R1
-- mlm-games/Fluffy · 2026-09-14 · R1
-- rmyndharis/VSCodroid · 2026-09-14 · R1
-- TeamWin/Team-Win-Recovery-Project · 2026-09-15 · R1
-- jettwado6-sketch/shizuku-modules · 2026-09-15 · R1
-- nardjes5/kumo-surreal · 2026-09-15 · R1
-- offa/android-foss · 2026-09-15 · R1
-- qinghemuyu/hidhide-module · 2026-09-15 · R1
-- tympanicblock61/mangayomi-extensions · 2026-09-15 · R1
+• `photoprism/photoprism` — ★40.370 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-### Desarrollo, terminales y redes (14)
+• `SagerNet/sing-box` — ★39.389 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· NOASSERTION
 
-- Omico/CurrentActivity · 2019-11-26 · R3
-- VegaBobo/DSU-Sideloader · 2023-04-29 · R3
-- aload0/Cosmic-IDE · 2023-10-05 · R3
-- Smooth-E/wireless-adb-switch · 2024-09-19 · R3
-- Carry-rrk/ManageSensors · 2025-01-18 · R3
-- timschneeb/debuggable-app-data-backup · 2026-02-04 · R2
-- F0x1d/LogFox · 2026-03-01 · R2
-- imknown/AndroidLowLevelDetector · 2026-04-25 · R2
-- LibChecker/LibChecker · 2026-06-17 · R1
-- mlc-ai/mlc-llm · 2026-07-07 · R1
-- sdex/ActivityManager · 2026-07-17 · R1
-- AAswordman/Operit · 2026-08-08 · R1
-- MaheshSharan/FrameX-Android · 2026-09-01 · R1
-- ggml-org/llama.cpp · 2026-09-15 · R1
-
-### Privacidad y respaldo (8)
-
-- supershadoe/delta · 2025-08-24 · R2
-- LinZong/Hostman · 2025-12-31 · R2
-- Khh-vu/wifi-password-manager · 2026-08-29 · R1
-- dorumrr/de1984 · 2026-09-04 · R1
-- AhmetCanArslan/ShizuWall · 2026-09-08 · R1
-- wgtunnel/android · 2026-09-11 · R1
-- Dhangofa/NetToggle · 2026-09-14 · R1
-- SagerNet/sing-box · 2026-09-14 · R1
-
-### Extensiones y parsers (6)
-
-- dragonx943/manga-repo · 2026-09-05 · R1
-- Awerkori/fonte-extensoes · 2026-09-15 · R1
-- K3vinb5/Unyo-Extensions · 2026-09-15 · R1
-- ReWelp/HayasexShiru-Extensions · 2026-09-15 · R1
-- tadamiorg/tadami-extensions · 2026-09-15 · R1
-- tadamiorg/tadami-extensions-source · 2026-09-15 · R1
-
-### Productividad y accesibilidad (19)
-
-- RohitKushvaha01/ReTerminal · 2025-06-10 · R2
-- KusStar/krude · 2025-08-13 · R2
-- iSoron/uhabits · 2025-08-14 · R2
-- xinzezhu/Open-AutoGLM-Android · 2025-12-31 · R2
-- FossifyOrg/Notes · 2026-01-30 · R2
-- troikoss/Pensum · 2026-03-25 · R2
-- Prakashmaheshwaran/flint-app · 2026-07-03 · R1
-- cicerothoma/memhogs-android · 2026-07-04 · R1
-- Etar-Group/Etar-Calendar · 2026-07-27 · R1
-- RohitKushvaha01/TaskManager · 2026-07-31 · R1
-- curbox-app/curbox-android · 2026-08-07 · R1
-- YasserNull/shappky · 2026-08-25 · R1
-- turin-dev/rish-mcp · 2026-08-26 · R1
-- flxapps/DetoxDroid · 2026-09-08 · R1
-- tasks/tasks · 2026-09-11 · R1
-- GlassHaven/Haven · 2026-09-14 · R1
-- thunderbird/thunderbird-android · 2026-09-14 · R1
-- dongdongbh/Mindwtr · 2026-09-15 · R1
-- sunilpaulmathew/aShell · 2026-09-15 · R1
-
-## 🔗 Enlaces
-
-Cada nombre es un repositorio de github.com/. El censo entero vive en el Clasificador de la
-casa; las fichas nominativas (estrellas y descripciones) irán por hornadas si el dueño pide
-profundidad.
-
-## El meme del censo
-
-> —¿Y esto sin fotos?
-> —Con fechas. La foto puede esperar: la vida no.
-
-> La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el
-mapa. Corte del 15 de septiembre de 2026.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 54).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 43
-repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el
-estado medido hoy.
-
-Actividad medida hoy: 12 hoy · 19 en 7 días · 4 en 30 días · 3 en 180 días · 5 dormidos · 0
-archivados.
-
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `vegabobo/dsu-sideloader` — dormido
-· última actividad 2024-03-13 · ★2.343 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `carry-rrk/managesensors` — dormido
-· última actividad 2025-01-18 · ★45 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `k3vinb5/unyo-extensions` — dormido
-· última actividad 2024-11-03 · ★10 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `linzong/hostman` — dormido
-· última actividad 2025-12-31 · ★58 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `rewelp/hayasexshiru-extensions` — dormido
-· última actividad 2026-01-26 · ★99 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `ahmetcanarslan/shizuwall` — creado 2025-10-27
-· última actividad 2026-10-29 · ★2.404 (verificado 29-oct-2026)
-· GPL-3.0.
-
-• `awerkori/fonte-extensoes` — creado 2026-08-14
-· última actividad 2026-10-29 · ★9 (verificado 29-oct-2026)
-· Apache-2.0.
-
-• `dragonx943/manga-repo` — creado 2026-05-15
-· última actividad 2026-10-23 · ★24 (verificado 29-oct-2026)
-· GPL-3.0.
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `awesome-selfhosted/awesome-selfhosted` — ★331.648 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION).
-
-• `etar-group/etar-calendar` — ★2.629 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· GPL-3.0.
-
-• `commons-app/apps-android-commons` — ★1.191 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `mlc-ai/mlc-llm` — ★23.285 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-27
 · Apache-2.0
-· release v6.8.0 (2026-10-14).
 
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `photoprism/photoprism` — AGPL-3.0;
-`awesome-selfhosted/awesome-selfhosted` — CC; `sagernet/sing-box` — GPL-3.0;
-`tadamiorg/tadami-extensions` — sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `komi-store/komi-store` — ★20.090 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· Apache-2.0
 
-Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+• `FreshRSS/FreshRSS` — ★16.446 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· AGPL-3.0
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `FlareSolverr/FlareSolverr` — ★16.071 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-24
+· MIT
+
+• `thunderbird/thunderbird-android` — ★14.157 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· Apache-2.0
+
+• `offa/android-foss` — ★11.586 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· GPL-3.0
+
+• `iSoron/uhabits` — ★10.372 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-22
+· GPL-3.0
+
+• `AAswordman/Operit` — ★9.085 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-05
+· LGPL-3.0
+
+• `LibChecker/LibChecker` — ★7.291 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
+
+• `tasks/tasks` — ★5.698 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `jellyfin/jellyfin-androidtv` — ★4.675 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-2.0
+
+• `KieronQuinn/Smartspacer` — ★3.578 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-23
+· GPL-3.0
+
+• `wgtunnel/android` — ★3.316 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· MIT
+
+• `f-droid/fdroidclient` — ★3.247 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `jellyfin/jellyfin-android` — ★2.839 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-2.0
+
+• `Etar-Group/Etar-Calendar` — ★2.628 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `lihenggui/blocker` — ★2.466 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
+
+• `AhmetCanArslan/ShizuWall` — ★2.409 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `VegaBobo/DSU-Sideloader` — ★2.344 (verificado 2026-10-29)
+· dormido · última actividad 2024-03-13
+· Apache-2.0
+
+• `dongdongbh/Mindwtr` — ★2.341 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· AGPL-3.0
+
+• `TeamWin/Team-Win-Recovery-Project` — ★2.068 (verificado 2026-10-29)
+· dormido · última actividad 2022-02-06
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+• `zacharee/Tweaker` — ★1.757 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-21
+· MIT
+
+• `freeotp/freeotp-android` — ★1.681 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-27
+· Apache-2.0
+
+• `pass-with-high-score/universal-installer` — ★1.640 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· GPL-3.0
+
+• `curbox-app/curbox-android` — ★1.474 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• …y 21 repos más, todos medidos hoy (2026-10-29): su placa completa vive en el dataset de la entrega.
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/vegabobo/dsu-sideloader — vivo al verificar hoy (2026-10-29)
+• https://github.com/carry-rrk/managesensors — vivo al verificar hoy (2026-10-29)
+• https://github.com/k3vinb5/unyo-extensions — vivo al verificar hoy (2026-10-29)
+• https://github.com/linzong/hostman — vivo al verificar hoy (2026-10-29)
+• https://github.com/rewelp/hayasexshiru-extensions — vivo al verificar hoy (2026-10-29)
+• https://github.com/ahmetcanarslan/shizuwall — vivo al verificar hoy (2026-10-29)
+• https://github.com/awerkori/fonte-extensoes — vivo al verificar hoy (2026-10-29)
+• https://github.com/dragonx943/manga-repo — vivo al verificar hoy (2026-10-29)
+• https://github.com/awesome-selfhosted/awesome-selfhosted — vivo al verificar hoy (2026-10-29)
+• https://github.com/etar-group/etar-calendar — vivo al verificar hoy (2026-10-29)
+• https://github.com/commons-app/apps-android-commons — vivo al verificar hoy (2026-10-29)
+• https://github.com/photoprism/photoprism — vivo al verificar hoy (2026-10-29)
+• https://github.com/sagernet/sing-box — vivo al verificar hoy (2026-10-29)
+• https://github.com/tadamiorg/tadami-extensions — vivo al verificar hoy (2026-10-29)
+• https://github.com/jellyfin/jellyfin — vivo al verificar hoy (2026-10-29)
+• https://github.com/thunderbird/thunderbird-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/jellyfin/jellyfin-androidtv — vivo al verificar hoy (2026-10-29)
+• https://github.com/ggml-org/llama.cpp — vivo al verificar hoy (2026-10-29)
+• https://github.com/tadamiorg/tadami — vivo al verificar hoy (2026-10-29)
+• https://github.com/KieronQuinn/Smartspacer — vivo al verificar hoy (2026-10-29)
+• https://github.com/nardjes5/kumo-surreal — vivo al verificar hoy (2026-10-29)
+• https://github.com/K3vinb5/Unyo — vivo al verificar hoy (2026-10-29)
+• https://github.com/jellyfin/jellyfin-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/kurikomi-labs/komi-store — vivo al verificar hoy (2026-10-29)
+• https://github.com/FreshRSS/FreshRSS — vivo al verificar hoy (2026-10-29)
+• https://github.com/offa/android-foss — vivo al verificar hoy (2026-10-29)
+• https://github.com/f-droid/fdroidclient — vivo al verificar hoy (2026-10-29)
+• https://github.com/lihenggui/blocker — vivo al verificar hoy (2026-10-29)
+• https://github.com/F0x1d/LogFox — vivo al verificar hoy (2026-10-29)
+• https://github.com/wgtunnel/android — vivo al verificar hoy (2026-10-29)
+• https://github.com/Khh-vu/wifi-password-manager — vivo al verificar hoy (2026-10-29)
+• https://github.com/FossifyOrg/Notes — vivo al verificar hoy (2026-10-29)
+• https://github.com/FlareSolverr/FlareSolverr — vivo al verificar hoy (2026-10-29)
+• https://github.com/TeamWin/Team-Win-Recovery-Project — vivo al verificar hoy (2026-10-29)
+• https://github.com/zacharee/Tweaker — vivo al verificar hoy (2026-10-29)
+• https://github.com/freeotp/freeotp-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/pass-with-high-score/universal-installer — vivo al verificar hoy (2026-10-29)
+• https://github.com/Anthonyy232/Paperize — vivo al verificar hoy (2026-10-29)
+• https://github.com/session-foundation/session-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/mlc-ai/mlc-llm — vivo al verificar hoy (2026-10-29)
+• https://github.com/AAswordman/Operit — vivo al verificar hoy (2026-10-29)
+• https://github.com/LibChecker/LibChecker — vivo al verificar hoy (2026-10-29)
+• https://github.com/sdex/ActivityManager — vivo al verificar hoy (2026-10-29)
+• https://github.com/supershadoe/delta — vivo al verificar hoy (2026-10-29)
+• https://github.com/dorumrr/de1984 — vivo al verificar hoy (2026-10-29)
+• https://github.com/iSoron/uhabits — vivo al verificar hoy (2026-10-29)
+• https://github.com/tasks/tasks — vivo al verificar hoy (2026-10-29)
+• https://github.com/dongdongbh/Mindwtr — vivo al verificar hoy (2026-10-29)
+• https://github.com/curbox-app/curbox-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/GlassHaven/Haven — vivo al verificar hoy (2026-10-29)
+• https://github.com/RohitKushvaha01/ReTerminal — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 51 repos GitHub (51 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

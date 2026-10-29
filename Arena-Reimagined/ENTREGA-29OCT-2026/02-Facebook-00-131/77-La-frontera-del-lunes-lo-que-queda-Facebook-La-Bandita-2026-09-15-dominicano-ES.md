@@ -1,67 +1,19 @@
 # Publicación 77 — La frontera del lunes: lo que queda después del techo
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-El techo no es el fin del mapa: es el borde de esta quincena. La casa deja anotada la frontera —
-**lo que queda, donde está, y con qué vara se tomará** — para que el próximo turno empiece
-caminando y no buscando.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 0 repos: 0 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos.
 
-Frontera sin ansiedad: nada de esto corre; todo tiene fecha.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗺️ La frontera, anotada
 
-- **Las 136 forjas y su vara completa:** 14 versiones barridas como muestra (piezas 69-70); las
-122 restantes esperan su ronda de API — método probado, solo falta el turno.
-- **El vivero y los germinantes:** los 7 ceros verdaderos (pieza 71) y los germinantes del radar
-— en vigilancia, NUNCA de uso diario (regla 9). Con releases + tratado → vivero; sin releases →
-radar.
-- **La vara de repos sin descripción:** fichas por estrella y fecha donde la casa no dijo
-palabras — se repasan con la pantalla de cada uno cuando toque profundidad.
-- **El token Eólio:** pendiente en las próximas nominativas del dueño — la casa no inventa claves.
-- **LA LISTA y los títulos:** la palabra final del dueño (siempre fue suya).
-- **La sincronía del Clasificador:** abierta HOY con el ANEXO FORJAS; el resto del censo
-sincroniza cuando se fiche desde las piezas.
 
-## 🧭 El método de siempre para lo que viene
-
-Sustraer, investigar, actualizar, verificar, etiquetar, dividir por rango y clase — lento y con
-extremo detalle. **«Mejor que lo que precedió, nunca perfecto»**: la frontera no se cruza con
-prisa, se cruza con fechas.
-
-## ❓ La pregunta de la frontera
-
-**¿No queda nada por acumular?**
-Queda todo por profundizar. La diferencia es fina y definitiva: acumular es sumar puertas sin
-abrir; profundizar es abrir las ya anotadas. La casa no acumula — camina lo que tiene.
-
-## 🔗 Enlaces
-
-Pendientes actados: Registro de la casa · mapa de forjas: ANEXO FORJAS del Clasificador.
-
-## El meme de la frontera
-
-> —¿Y ahora qué?
-> —Ahora el mapa descansa con fechas puestas. El lunes se camina desde donde termina esta línea
-— no desde cero. El agua no vuelve a la cima: sigue.
-
-> La Bandita verifica antes de recomendar: frontera anotada el 15 de septiembre de 2026, cada
-pendiente con su vara. Las estrellas adornan; las fechas mandan; lo pendiente, no corre.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 77).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0
-repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el
-estado medido hoy.
-
-Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
-
-Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario
-compartido; la verificación de esta publicación es la de sus URL y la del universo global de la
-pasada.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 0 repos GitHub (0 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

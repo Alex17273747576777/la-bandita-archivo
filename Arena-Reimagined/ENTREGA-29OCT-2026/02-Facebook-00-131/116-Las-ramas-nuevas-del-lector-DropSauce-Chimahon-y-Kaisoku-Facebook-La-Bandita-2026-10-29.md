@@ -4,35 +4,33 @@
 
 ## ⚡ En una página
 
-El lector de manga ya no tiene un tronco: tiene un bosque de ramas jóvenes que empujan esta misma semana. DropSauce soltó release hoy con siete meses de vida, Chimahon re-nació en marzo como fork de inmersión y Kaisoku continúa al difunto Kotatsu con fuentes incorporadas.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 1 empujaron hoy, 2 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `Chimahon/chimahon` — ★237,
+GPL-3.0, último empuje 2026-10-28.
 
-La vara de las ramas: se prueba la que empuja hoy con licencia clara, y el tronco archivado se
-honra sin montarle la casa encima.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `huzaifakhalid1311/dropsauce` — ★214 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `Chimahon/chimahon` — ★237 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
 · GPL-3.0
-· release v1.1.1 (2026-10-29).
 
-• `sohilsayed/chimahon` — ★237 (verificado 29-oct-2026)
-· última actividad 2026-10-20
+• `HuzaifaKhalid1311/DropSauce` — ★216 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release Chimahon v2.4.9 (2026-10-20).
 
-• `glitch-228/kaisoku` — ★54 (verificado 29-oct-2026)
-· última actividad 2026-10-06
+• `glitch-228/Kaisoku` — ★54 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
 · GPL-3.0
-· release Kaisoku v9.8.7-beta5 (2026-10-25).
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Tantos lectores que no sé cuál bajar. —Baja el que empujó esta semana y declara su licencia:
-los demás, al laboratorio.
+• https://github.com/huzaifakhalid1311/dropsauce — vivo al verificar hoy (2026-10-29)
+• https://github.com/sohilsayed/chimahon — vivo al verificar hoy (2026-10-29)
+• https://github.com/glitch-228/kaisoku — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 116 del muro, nacida el 29 de octubre de 2026
-con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

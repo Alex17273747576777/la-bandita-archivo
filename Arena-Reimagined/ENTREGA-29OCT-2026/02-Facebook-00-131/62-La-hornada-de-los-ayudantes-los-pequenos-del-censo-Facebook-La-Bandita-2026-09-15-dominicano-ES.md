@@ -1,86 +1,36 @@
 # Publicación 62 — La hornada de los ayudantes: los pequeños del censo
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-Las puertas chicas del censo con nombre: productividad y accesibilidad (19), extensiones y
-parsers (6). Las hornadas grandes se llevan las miradas; estas viven el día a día — el teclado,
-el lector de pantalla, el parser que sostiene a otro.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 0 empujaron hoy, 3 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `FossifyOrg/Notes` — ★506,
+GPL-3.0, último empuje 2026-10-27.
 
-Los ayudantes de la biblioteca, pisados HOY con la vara doble.
+## 🗼 Las placas al pulso (2026-10-29)
 
-**Censo de la clase:** R1:13 · R2:6 · R1:6 — todo verificado HOY por átomos y REST.
+• `FossifyOrg/Notes` — ★506 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-27
+· GPL-3.0
 
-## 🌟 La primera fila (por estrellas, con fecha)
+• `tadamiorg/tadami` — ★61 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-23
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 
-### Productividad y accesibilidad (1 en el censo)
+• `tadamiorg/tadami-extensions` — ★3 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 
-- **Notes** — ★495 · 2026-01-30 · R2 · https://github.com/FossifyOrg/Notes — «A simple text
-field for adding quick notes without ads.»
+## 🔗 Fuentes comprobadas hoy
 
-### Extensiones y parsers (1 en el censo)
+• https://github.com/FossifyOrg/Notes — vivo al verificar hoy (2026-10-29)
+• https://github.com/tadamiorg/tadami-extensions — vivo al verificar hoy (2026-10-29)
+• https://github.com/tadamiorg/tadami — vivo al verificar hoy (2026-10-29)
 
-- **tadami-extensions** — ★3 · 2026-09-15 · R1 · https://github.com/tadamiorg/tadami-extensions
-— «sin descripción en su casa — ficha por estrella y fecha»
-
-## ❓ La pregunta de la hornada
-
-**¿Por qué una hornada para veinticinco?**
-Porque el tamaño de la puerta no mide su uso diario. Un buen teclado se abre cien veces al día;
-un servidor de fotos, una. La casa no jerarquiza por tamaño: jerarquiza por cuidado.
-
-## 🔗 Enlaces
-
-Cada nombre es un repositorio de github.com/ con estrella, fecha y rango del censo (p52-56). El
-mapa completo vive en el Clasificador de la casa.
-
-## El meme de la hornada
-
-> —¿Una hornada entera para los pequeños?
-> —Ellos abren cien veces al día. Los gigantes, una vez al mes. La casa cuenta eso también.
-
-> La Bandita verifica antes de recomendar: estrellas y fechas constadas HOY, 15 de septiembre de
-2026. Las estrellas adornan; las fechas mandan.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 62).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 2
-repos GitHub confirmados y 2 apariciones de URL. La historia no se reescribe; esta nota añade el
-estado medido hoy.
-
-Actividad medida hoy: 0 hoy · 2 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0
-archivados.
-
-Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta
-publicación (verificado 29-oct-2026).
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `fossifyorg/notes` — creado 2023-03-14
-· última actividad 2026-10-27 · ★505 (verificado 29-oct-2026)
-· GPL-3.0.
-
-• `tadamiorg/tadami-extensions` — creado 2024-02-06
-· última actividad 2026-10-26 · ★3 (verificado 29-oct-2026)
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `fossifyorg/notes` — ★505 (verificado 29-oct-2026)
-· última actividad 2026-10-27
-· GPL-3.0.
-
-• `tadamiorg/tadami-extensions` — ★3 (verificado 29-oct-2026)
-· última actividad 2026-10-26
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
-
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `tadamiorg/tadami-extensions` — sin
-archivo LICENSE en su repo (verificado por API 29-oct-2026).
-
-Enlaces web: 2 apariciones; 2 respondieron vivas el 29-oct-2026.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

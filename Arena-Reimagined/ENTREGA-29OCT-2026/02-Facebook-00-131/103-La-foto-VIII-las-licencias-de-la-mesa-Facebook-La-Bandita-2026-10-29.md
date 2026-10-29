@@ -4,40 +4,33 @@
 
 ## ⚡ En una página
 
-Toda foto esconde un contrato: quién puede mirar, copiar y construir encima. La licencia decide
-si tu fork de mañana es legal y si tu tienda puede distribuir.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 3 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `ollama/ollama` — ★185.238,
+MIT, último empuje 2026-10-29.
 
-Esta casa no milita licencias: las retrata, familia por familia, y deja la elección al dueño que
-elige con los ojos abiertos. La de hoy manda doble: licencia sin resolver es recomendación
-incompleta, y así se firma.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `ollama/ollama` — ★185.204 (verificado 29-oct-2026)
-· actividad HOY
-· última actividad 2026-10-29
+• `ollama/ollama` — ★185.238 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · MIT
-· release v0.40.13 (2026-10-28)
 
-• `open-webui/open-webui` — ★157.133 (verificado 29-oct-2026)
-· actividad HOY
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION)
-· release v0.12.5 (2026-10-29)
+• `open-webui/open-webui` — ★157.168 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-• `ggml-org/llama.cpp` — ★132.738 (verificado 29-oct-2026)
-· actividad HOY
-· última actividad 2026-10-29
+• `ggml-org/llama.cpp` — ★132.769 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · MIT
-· release b11983 (2026-10-29)
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Es gratis, úsalo como quieras. —Gratis no es “como quieras”: el papelito del repo decide.
+• https://github.com/ollama/ollama — vivo al verificar hoy (2026-10-29)
+• https://github.com/open-webui/open-webui — vivo al verificar hoy (2026-10-29)
+• https://github.com/ggml-org/llama.cpp — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 103 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

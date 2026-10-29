@@ -4,33 +4,28 @@
 
 ## ⚡ En una página
 
-La búsqueda por categorías destapó el patrón musical del momento: clientes híbridos que usan la vitrina de Spotify para descubrir y el catálogo de YouTube para sonar, sin cuenta de pago. YumaPlayer lo firma con tres meses de vida, mil estrellas y GPL-3.0, en la mesa donde SimpMusic ya empuja con doce mil.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `maxrave-dev/SimpMusic` —
+★12.529, GPL-3.0, último empuje 2026-10-29.
 
-La vara de los híbridos: la mitad prestada (la vitrina) puede cambiar mañana; lo que vale es el
-motor propio, la licencia y el ritmo de release cuando la vitrina se mueva.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `muwmx/yumaplayer` — ★1.028 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-07-24
+• `maxrave-dev/SimpMusic` — ★12.529 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release v1.2.0-RC.1 (2026-10-17).
 
-• `maxrave-dev/simpmusic` — ★12.508 (verificado 29-oct-2026)
-· última actividad 2026-10-27
-· creado 2023-04-15
+• `MuwMx/YumaPlayer` — ★1.028 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release 2.4.0 (2026-10-22).
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Suena todo y no pago nada. —Pagas con dependencia: el día que la vitrina cambie, tu motor
-decide si hay fiesta.
+• https://github.com/muwmx/yumaplayer — vivo al verificar hoy (2026-10-29)
+• https://github.com/maxrave-dev/simpmusic — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 127 del muro, nacida el 29 de octubre de 2026
-de la búsqueda por categorías del mismo día, con placas re-medidas en su fuente primaria. Las
-estrellas adornan; las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

@@ -4,23 +4,23 @@
 
 ## ⚡ En una página
 
-MMRL es el estante donde los módulos del root se ven, se ordenan y se instalan con su letra a la vista. La pieza WhatsApp 83 lo midió como tienda con ley; esta versión de muro lo deja en una página: el módulo bueno nace en SU repo, la licencia GPL-3.0 se lee antes de montar y la regleta se alimenta de a un módulo por vez.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `MMRLApp/MMRL` — ★2.223,
+GPL-3.0, último empuje 2026-10-25.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• `mmrlapp/mmrl` — ★2.223 (verificado 29-oct-2026)
-· actividad últimos 180 días
-· última actividad 2026-08-18
+• `MMRLApp/MMRL` — ★2.223 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
 · GPL-3.0
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Instalé doce módulos de golpe y ahora no arranca. —El estante te lo advirtió: de a uno, con
-fecha y con libreta.
+• https://github.com/mmrlapp/mmrl — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 83 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

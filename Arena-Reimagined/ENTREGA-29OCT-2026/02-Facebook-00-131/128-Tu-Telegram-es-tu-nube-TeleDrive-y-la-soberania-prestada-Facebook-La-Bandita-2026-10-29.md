@@ -4,26 +4,23 @@
 
 ## ⚡ En una página
 
-Convertir un canal privado de Telegram en tu disco personal: esa es la jugada de TeleDrive, dos meses de vida y release de la semana pasada, con su licencia resuelta hoy leyendo su LICENSE (Apache-2.0). La idea es brillante y la vara es fina: Telegram no es tu sótano (108), es la sala prestada más cómoda del barrio — gratis y enorme, pero con landlord.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `Mahmud0808/TeleDrive` —
+★393, Apache-2.0, último empuje 2026-10-29.
 
-La doctrina de la casa: se usa como espejo y transporte, jamás como única copia de lo que no
-puedes perder.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
+• `Mahmud0808/TeleDrive` — ★393 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
 
-• `mahmud0808/teledrive` — ★393 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-08-21
-· Apache-2.0 (LICENSE leído hoy)
-· release TeleDrive v1.5.0 (2026-10-19).
+## 🔗 Fuentes comprobadas hoy
 
-## El meme de la pieza
+• https://github.com/mahmud0808/teledrive — vivo al verificar hoy (2026-10-29)
 
-> —Mi nube es infinita y gratis. —Y tiene casero: guarda la llave de tu casa en tu propio sótano.
-
-> La Bandita verifica antes de recomendar: pieza 128 del muro, nacida el 29 de octubre de 2026
-de la búsqueda por categorías del mismo día, con placas re-medidas en su fuente primaria. Las
-estrellas adornan; las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

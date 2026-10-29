@@ -1,95 +1,59 @@
 # Publicación 71 — Las puertas calladas: los ceros de verdad
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-Después de repasar la vara entera — **351 ceros sospechosos re-raspeados casa por casa** porque la primera tanda de la API se agotó a mitad del censo — quedan **siete ceros verdaderos**: puertas con estrella cero real. Ni falla de la vara ni puerta cerrada: proyectos que nadie ha aplaudido aún.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 8 repos: 0 empujaron hoy, 1 en los
+últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `KamiYomu/KamiYomu` — ★150,
+AGPL-3.0, último empuje 2026-09-20.
 
-La casa los nombra por lo que son: **germinantes** — y los germinantes NO se usan a diario
-(regla 9 de la casa): se vigilan.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🌱 Los siete ceros verdaderos
-
-- `KamiYomu/KamiYomu.CrawlerAgents.Core` — 0 estrellas · en el censo (p52-56)
-- `helios57/muplay` · 0 estrellas · en el censo (p52-56)
-- `hexadigitall/makaw` · 0 estrellas · en el censo (p52-56)
-- `inaccurate-hotelplan289/HomeLabSetup` · 0 estrellas · en el censo (p52-56)
-- `thiagooo0/EHHelper` · 0 estrellas · en el censo (p52-56)
-- `ulightm111/boky-fivavahana-ion` · 0 estrellas · en el censo (p52-56)
-- `vauvenal5/yaga` · 0 estrellas · en el censo (p52-56)
-
-## ❓ La pregunta del cero
-
-**¿Vale la pena fichar a nadie con cero aplausos?** Se ficha con la vara completa — fecha y rango — y etiqueta de germinante. Lo que NO se hace: recomendarlo a diario ni llenarle ficha de adornos.
-
-El germinante se riega con paciencia, no con discursos.
-
-## 🔗 Enlaces
-
-Los siete viven en su puerta del censo (p52-56) con rango y fecha. El método del repaso (351
-re-raspeados) quedó actado en el Registro de la casa.
-
-## El meme del cero
-
-> —¿Cero estrellas?
-> —Cero aplausos. La semilla no aplaude: germina. Y la casa sabe mirar el suelo.
-
-> La Bandita verifica antes de recomendar: los 351 ceros sospechosos re-raspeados y los 7 ceros
-verdaderos constados el 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan; los
-ceros, se respetan.
-
-**Corrección (15-sep, tarde — higiene):** el primer ítem llevaba un separador suelto («· ·»);
-limpiado con fecha. Los siete ceros, iguales.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 71).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 5
-repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el
-estado medido hoy.
-
-Actividad medida hoy: 0 hoy · 1 en 7 días · 2 en 30 días · 1 en 180 días · 1 dormidos · 0
-archivados.
-
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `thiagooo0/ehhelper` — dormido
-· última actividad 2023-06-27 · ★0 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `helios57/muplay` — creado 2026-08-22
-· última actividad 2026-10-14 · ★0 (verificado 29-oct-2026)
-· MIT.
-
-• `ulightm111/boky-fivavahana-ion` — creado 2026-04-07
-· última actividad 2026-10-14 · ★0 (verificado 29-oct-2026)
-· GPL-3.0.
-
-• `vauvenal5/yaga` — creado 2026-09-13
-· última actividad 2026-10-28 · ★2 (verificado 29-oct-2026)
-· AGPL-3.0.
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `vauvenal5/yaga` — ★2 (verificado 29-oct-2026)
-· última actividad 2026-10-28
+• `KamiYomu/KamiYomu` — ★150 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-20
 · AGPL-3.0
-· release v1.0.2 Beta (2026-10-28).
 
-• `ulightm111/boky-fivavahana-ion` — ★0 (verificado 29-oct-2026)
-· última actividad 2026-10-14
-· GPL-3.0
-· release Update - v2.6.1 (2026-10-14).
+• `vauvenal5/yaga` — ★2 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· AGPL-3.0
 
-• `helios57/muplay` — ★0 (verificado 29-oct-2026)
-· última actividad 2026-10-14
+• `KamiYomu/KamiYomu.CrawlerAgents.Core` — ★0 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-08-30
 · MIT
-· release MuPlay v0.3.0 (2026-10-11).
 
-Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+• `helios57/muplay` — ★0 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-14
+· MIT
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `hexadigitall/makaw` — ★0 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-07
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+• `inaccurate-hotelplan289/HomeLabSetup` — caído (404) al medir hoy (2026-10-29): queda firmado, no recomendado.
+
+• `thiagooo0/EHHelper` — ★0 (verificado 2026-10-29)
+· dormido · última actividad 2024-01-13
+· Apache-2.0
+
+• `ulightm111/boky-fivavahana-ion` — ★0 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-14
+· GPL-3.0
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/KamiYomu/KamiYomu.CrawlerAgents.Core — vivo al verificar hoy (2026-10-29)
+• https://github.com/helios57/muplay — vivo al verificar hoy (2026-10-29)
+• https://github.com/hexadigitall/makaw — vivo al verificar hoy (2026-10-29)
+• https://github.com/inaccurate-hotelplan289/HomeLabSetup — no respondió hoy (404) al verificar hoy (2026-10-29)
+• https://github.com/thiagooo0/EHHelper — vivo al verificar hoy (2026-10-29)
+• https://github.com/ulightm111/boky-fivavahana-ion — vivo al verificar hoy (2026-10-29)
+• https://github.com/vauvenal5/yaga — vivo al verificar hoy (2026-10-29)
+• https://github.com/KamiYomu/KamiYomu — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 8 repos GitHub (7 vivos, 1 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.
