@@ -46,6 +46,19 @@ with tempfile.TemporaryDirectory(dir='/home/user') as td:  # /tmp se llena con c
         td2=destino/taller
         if td2.exists(): shutil.rmtree(td2)
         if (PROY/taller).exists(): shutil.copytree(PROY/taller,td2)
+    # ÁRBOL COMPLETO (cierre 29-oct-2026): el remoto queda byte a byte igual al
+    # proyecto, no solo en las zonas de la lista. Exclusiones técnicas únicas:
+    # __pycache__ (regenerable) y git-backup-19oct-106 (contiene un .git anidado:
+    # no es subible como contenido). Lo que ya no exista en el proyecto se borra
+    # del destino: sincronía, no acumulación.
+    EXCL={'__pycache__','git-backup-19oct-106'}
+    for p in sorted(PROY.rglob('*')):
+        if any(parte in EXCL for parte in p.parts) or p.is_dir(): continue
+        rel=p.relative_to(PROY); q=destino/rel
+        q.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(p,q)
+    for p in sorted(destino.rglob('*'),reverse=True):
+        if any(parte in EXCL for parte in p.parts): continue
+        if p.is_file() and not (PROY/p.relative_to(destino)).exists(): p.unlink()
     run(['git','add','-A'],cwd=clon)
     st=run(['git','status','--porcelain'],cwd=clon).stdout.strip()
     if not st: print('guardar: sin cambios que empujar · remoto ya idéntico en lo sincronizado ·',antes)
