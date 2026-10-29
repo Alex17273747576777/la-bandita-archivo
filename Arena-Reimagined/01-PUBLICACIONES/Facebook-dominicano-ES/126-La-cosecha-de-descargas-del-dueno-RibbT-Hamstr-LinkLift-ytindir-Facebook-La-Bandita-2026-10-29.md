@@ -4,48 +4,43 @@
 
 ## ⚡ En una página
 
-El dueño llegó con la canasta llena de descargadores recién nacidos y la casa los midió todos el mismo día: Hamstr tiene TRES días de vida y ya soltó su 0.7.4; RibbT suma dieciséis días con release de hoy; ytindir dos semanas con release de ayer; LinkLift, el mayorcito, cinco meses con su 2.12 de ayer; y Gimmie Dat se pescó en Appteka viviendo de yt-dlp con build de F-Droid. La familia es una sola (la de la 115) pero la edad cambia la vara: la semilla de tres días se mira con lupa y cariño, no con hipoteca.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 5 repos: 2 empujaron hoy, 2 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `RajnishOne/linklift` — ★11,
+MIT, último empuje 2026-10-28.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• `mailo037/hamstr` — ★1 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-10-26
-· GPL-3.0
-· release v0.7.4 (2026-10-29).
-
-• `sleepless-index/ribbt` — ★1 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-10-13
-· GPL-3.0
-· release RibbT 0.1.63 (2026-10-29).
-
-• `rajnishone/linklift` — ★11 (verificado 29-oct-2026)
-· última actividad 2026-10-28
-· creado 2026-05-11
+• `RajnishOne/linklift` — ★11 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
 · MIT
-· release LinkLift v2.12 (2026-10-28).
 
-• `ramik4/ytindir` — ★11 (verificado 29-oct-2026)
-· última actividad 2026-10-28
-· creado 2026-10-14
+• `RAMiK4/ytindir` — ★11 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
 · GPL-3.0
-· release YTindir 2.14.0 (build 65) (2026-10-28).
 
-• `rcrandon/gimmiedat` — ★3 (verificado 29-oct-2026)
-· última actividad 2026-10-08
-· creado 2026-10-08
+• `rcrandon/gimmiedat` — ★3 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-08
 · GPL-3.0
-· release Gimmie &#39;Dat 1.0.3 (2026-10-08).
 
-## El meme de la pieza
+• `Mailo037/Hamstr` — ★1 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-> —Todos descargan lo mismo. —Todos usan el mismo motor; la casa, el ritmo y la firma son otra
-historia.
+• `Sleepless-index/RibbT` — ★1 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-> La Bandita verifica antes de recomendar: pieza 126 del muro, nacida el 29 de octubre de 2026
-de la búsqueda por categorías del mismo día, con placas re-medidas en su fuente primaria. Las
-estrellas adornan; las fechas mandan.
+## 🔗 Fuentes comprobadas hoy
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+• https://github.com/mailo037/hamstr — vivo al verificar hoy (2026-10-29)
+• https://github.com/sleepless-index/ribbt — vivo al verificar hoy (2026-10-29)
+• https://github.com/rajnishone/linklift — vivo al verificar hoy (2026-10-29)
+• https://github.com/ramik4/ytindir — vivo al verificar hoy (2026-10-29)
+• https://github.com/rcrandon/gimmiedat — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 5 repos GitHub (5 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

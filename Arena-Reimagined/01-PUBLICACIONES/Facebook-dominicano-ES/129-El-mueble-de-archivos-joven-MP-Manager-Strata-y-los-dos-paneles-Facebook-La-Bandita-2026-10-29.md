@@ -4,34 +4,28 @@
 
 ## ⚡ En una página
 
-El gestor de archivos también tiene hornada nueva: MP Manager ordena en doble panel con foco en
-APK y cuatro meses de faena, y Strata nació hace trece días con dos paneles, archivos y lector
-de APK bajo AGPL. El oficio es de los más viejos del teléfono (la mesa lo mide desde Amaze,
-decano de 2014), y la vara no cambia: el mueble que toca TODOS tus archivos se elige por
-licencia, pulso y permisos pedidos, no por lo bonito del cajón.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 1 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy:
+`AbdurazaaqMohammed/MP-Manager` — ★451, GPL-3.0, último empuje 2026-10-29.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• `abdurazaaqmohammed/mp-manager` — ★450 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-06-23
+• `AbdurazaaqMohammed/MP-Manager` — ★451 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release 1.1.1 (2026-10-15).
 
-• `cluvexstudio/strata` — ★137 (verificado 29-oct-2026)
-· última actividad 2026-10-16
-· creado 2026-10-16
+• `CluvexStudio/Strata` — ★139 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-16
 · AGPL-3.0
-· release Strata v1.0.0 (2026-10-16).
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Instala el de los dos paneles, se ve pro. —Pro se demuestra con licencia y pulso: el mueble
-bonito sin fecha es escenografía.
+• https://github.com/abdurazaaqmohammed/mp-manager — vivo al verificar hoy (2026-10-29)
+• https://github.com/cluvexstudio/strata — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 129 del muro, nacida el 29 de octubre de 2026
-de la búsqueda por categorías del mismo día, con placas re-medidas en su fuente primaria. Las
-estrellas adornan; las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

@@ -4,35 +4,33 @@
 
 ## ⚡ En una página
 
-La lectura también nació esta semana en tres pantallas a la vez: Epigraph lee manga, novela, EPUB y PDF en escritorio y móvil con licencia Apache resuelta hoy; Kodex se autoaloja como servidor y lector de cómics con DOS días de vida; y Bokumi estrenó su preview ayer para iPhone, iPad y Android. La vara de la lectura nueva es la del sótano (108): el servidor propio guarda, el lector propio lee, y la preview de un día se firma como lo que es — la primera página de un libro que aún no sabemos si tendrá segunda.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 3 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `johnnylord1/Epigraph` — ★0,
+Apache-2.0, último empuje 2026-10-29.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• `johnnylord1/epigraph` — ★0 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-06-29
-· Apache-2.0 (LICENSE leído hoy)
-· release Epigraph Mobile 0.1.0-alpha.23 (2026-10-26).
+• `johnnylord1/Epigraph` — ★0 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
 
-• `demacish/kodex` — ★0 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-10-28
+• `Demacish/kodex` — ★0 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · MIT
-· release Kodex 2.2.0 (2026-10-29).
 
-• `devcaspian-hash/bokumi-app` — ★0 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-10-28
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
-· release Bokumi 0.1.0 · Developer Preview (2026-10-28).
+• `devCaspian-hash/Bokumi-App` — ★0 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· sin clasificar por GitHub hoy (sin SPDX): no se inventa
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Ya leo en tres pantallas. —Y las tres leen de tu disco: eso, y no la pantalla, es la soberanía.
+• https://github.com/johnnylord1/epigraph — vivo al verificar hoy (2026-10-29)
+• https://github.com/demacish/kodex — vivo al verificar hoy (2026-10-29)
+• https://github.com/devcaspian-hash/bokumi-app — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 131 del muro, nacida el 29 de octubre de 2026
-de la búsqueda por categorías del mismo día, con placas re-medidas en su fuente primaria. Las
-estrellas adornan; las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.
