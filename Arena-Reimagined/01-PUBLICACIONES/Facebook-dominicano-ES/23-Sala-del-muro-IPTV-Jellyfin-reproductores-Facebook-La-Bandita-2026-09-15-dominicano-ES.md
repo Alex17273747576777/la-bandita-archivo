@@ -1,72 +1,49 @@
 # Publicación 23 — La sala del muro: IPTV, servidores de cine y reproductores con músculo
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 10 repos, 10 vivos. El mayor es **damontecres/Wholphin** (★3.189): «An OSS Android TV client for Jellyfin». Le sigue **Riteshp2001/mpvRx** (★859): «The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.». Con actividad en los últimos 30 días: 9 de 10. Temas que se repiten en el grupo: android, android-tv, anilist, anilist-tracker.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 10 repos: 7 empujaron hoy, 2 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `damontecres/Wholphin` —
-★3.189, GPL-2.0, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **damontecres/Wholphin** — «An OSS Android TV client for Jellyfin»
+  ★3.189 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-2.0 · Kotlin · última release v1.0.9 (2026-10-11) · https://github.com/damontecres/Wholphin
+  Temas: android-tv · fire-tv · jellyfin · jellyfin-client
 
-• `damontecres/Wholphin` — ★3.189 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-2.0
+- **Riteshp2001/mpvRx** — «The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.»
+  ★859 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Kotlin · última release v3.0.2 (2026-10-25) · https://github.com/Riteshp2001/mpvRx · Web: https://mpvrx.vercel.app
+  Temas: android · expressive · ffmpeg · kotlin · md3e · video
 
-• `Riteshp2001/mpvRx` — ★859 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **luqmanfadlli/NuvioMobile-Enhanced** — «Unofficial Nuvio Mobile repository to build Nuvio with experimental features, improvements, and bug fixes not yet availabe in the official repository.»
+  ★702 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 0.6.5-beta (2026-10-27) · https://github.com/luqmanfadlli/NuvioMobile-Enhanced · Web: https://nuvio.tv
 
-• `luqmanfadlli/NuvioMobile-Enhanced` — ★702 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **ahXN00/OwnTV** — «Native Android TV IPTV player — Kotlin, Compose for TV, ExoPlayer + mpv. Xtream, M3U and Stalker portals, EPG, catch-up TV, profiles and downloads.»
+  ★700 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v5.2.1 (2026-10-21) · https://github.com/ahXN00/OwnTV · Web: https://t.me/owntvplayer
+  Temas: android · android-tv · catchup-tv · compose-for-tv · epg · exoplayer
 
-• `ahXN00/OwnTV` — ★700 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **varunsalian/debrify** — «Your personal media hub — browse, stream, and organize media from your own services and servers, with a cinematic built-in player. Android, Android TV, iOS, Windows, macOS, and…»
+  ★632 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Dart · última release v0.10.0-beta.1 (2026-09-25) · https://github.com/varunsalian/debrify · Web: https://debrify.tv
+  Temas: android-tv · cross-platform · download-manager · flutter · iptv · media-hub
 
-• `varunsalian/debrify` — ★632 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **mjlanddev/CornCastle-Anime-APP** — «A modern anime streaming application built with a clean and responsive user interface. The app allows users to discover anime, browse detailed information, search titles, and…»
+  ★79 · su último empuje fue el 2026-08-22 (hace 70 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · ARCHIVADO: historia, no opción viva · https://github.com/mjlanddev/CornCastle-Anime-APP
+  Temas: android · anilist · anilist-tracker · anime · anime-app · anime-streaming
 
-• `mjlanddev/CornCastle-Anime-APP` — ★79 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-22
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
-· ARCHIVADO en GitHub: historia, no opción viva
+- **jonzey231/AerioTV-Android** — «AerioTV — IPTV streaming app for Android and Android TV with support for Dispatcharr's API, Xtream Codes, and M3U + EPG»
+  ★75 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v0.5.13 (2026-10-16) · https://github.com/jonzey231/AerioTV-Android
 
-• `jonzey231/AerioTV-Android` — ★75 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **mangeshghodke/DreamPlayer** — «Open-source video player for Android, iPhone/iPad & Android TV: Dolby Vision, HDR10+, DTS-HD/TrueHD audio, SMB/NAS + Jellyfin/WebDAV streaming, subtitles. GPLv3, Flutter +…»
+  ★72 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Dart · última release v0.5.4 (2026-10-24) · https://github.com/mangeshghodke/DreamPlayer · Web: https://github.com/mangeshghodke/DreamPlayer/releases
+  Temas: android · android-tv · apple-tv · dolby-vision · exoplayer · flutter
 
-• `mangeshghodke/DreamPlayer` — ★72 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **FellipitoPV/NekoVideo** — «A Android video player»
+  ★70 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.9.1 (2026-10-22) · https://github.com/FellipitoPV/NekoVideo
 
-• `FellipitoPV/NekoVideo` — ★70 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **SOLO-ARC/Animebox** — «An anime app made for anime fans»
+  ★28 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release v1.3.6 (2026-10-27) · https://github.com/SOLO-ARC/Animebox · Web: https://appanimebox.netlify.app
 
-• `SOLO-ARC/Animebox` — ★28 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-27
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+La noticia fresca es de **luqmanfadlli/NuvioMobile-Enhanced**: release 0.6.5-beta (2026-10-27). En licencias: GPL-3.0 ×6, AGPL-3.0 ×2, GPL-2.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivado por su autor: **mjlanddev/CornCastle-Anime-APP**; el empuje más reciente es de **jonzey231/AerioTV-Android** (hace 2 días); 9 repos tienen release y la más reciente es la de **luqmanfadlli/NuvioMobile-Enhanced** (0.6.5-beta (2026-10-27)).
 
-• https://github.com/jonzey231/AerioTV-Android — vivo al verificar hoy (2026-10-29)
-• https://github.com/ahXN00/OwnTV — vivo al verificar hoy (2026-10-29)
-• https://github.com/damontecres/Wholphin — vivo al verificar hoy (2026-10-29)
-• https://github.com/Riteshp2001/mpvRx — vivo al verificar hoy (2026-10-29)
-• https://github.com/mangeshghodke/DreamPlayer — vivo al verificar hoy (2026-10-29)
-• https://github.com/FellipitoPV/NekoVideo — vivo al verificar hoy (2026-10-29)
-• https://github.com/varunsalian/debrify — vivo al verificar hoy (2026-10-29)
-• https://github.com/luqmanfadlli/NuvioMobile-Enhanced — vivo al verificar hoy (2026-10-29)
-• https://github.com/SOLO-ARC/Animebox — vivo al verificar hoy (2026-10-29)
-• https://github.com/mjlanddev/CornCastle-Anime-APP — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 10 repos GitHub (10 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 10 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.

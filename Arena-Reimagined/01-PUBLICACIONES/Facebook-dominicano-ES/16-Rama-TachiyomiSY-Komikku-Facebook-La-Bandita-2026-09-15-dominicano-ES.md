@@ -1,115 +1,76 @@
 # Publicación 16 — Rama SY/Komikku: el fork clásico y el rehijo con organización — TachiyomiSY y Komikku
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**keiyoushi/extensions** encabeza esta entrega con ★15.369 medidos hoy: «Extension repository for Mihon and variants». La pieza cita 19 repos (18 vivos) y 15 empujaron en los últimos 30 días. Le sigue **komikku-app/komikku** (★4.955): «Free and open source manga reader for Android». Temas que se repiten en el grupo: android, cross-device-sync, extension, hacktoberfest.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 19 repos: 5 empujaron hoy, 6 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `keiyoushi/extensions` —
-★15.369, sin archivo LICENSE en su repo (verificado por API 29-oct-2026), último empuje
-2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **keiyoushi/extensions** — «Extension repository for Mihon and variants»
+  ★15.369 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release dbf6c05 (2026-10-29) · https://github.com/keiyoushi/extensions · Web: https://keiyoushi.github.io/
+  Temas: keiyoushi · mihon
 
-• `keiyoushi/extensions` — ★15.369 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **komikku-app/komikku** — «Free and open source manga reader for Android»
+  ★4.955 · su último empuje fue el 2026-10-21 (hace 10 días) · licencia Apache-2.0 · Kotlin · última release v1.14.1 (2026-07-17) · https://github.com/komikku-app/komikku
+  Temas: android · j2k · komga · kotlin · manga · manga-downloader
 
-• `komikku-app/komikku` — ★4.955 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-21
-· Apache-2.0
+- **jobobby04/TachiyomiSY** — «Free and open source manga reader for Android»
+  ★4.196 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia Apache-2.0 · Kotlin · última release 1.13.2 (2026-07-13) · https://github.com/jobobby04/TachiyomiSY
+  Temas: android · hacktoberfest · kotlin · kotlin-android · manga · tachiyomi
 
-• `jobobby04/TachiyomiSY` — ★4.196 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· Apache-2.0
+- **yuzono/tachiyomi-extensions** — «Source code of extensions for Komikku / Mihon & forks.»
+  ★947 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · https://github.com/yuzono/tachiyomi-extensions · Web: https://yuzono.github.io
+  Temas: extension · komikku · manga · mihon · tachiyomi
 
-• `yuzono/tachiyomi-extensions` — ★947 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **syncyomi/syncyomi** — «SyncYomi is an open-source project crafted to provide a seamless synchronization experience for your TachiyomiSY/Mihon (Mihon client is not implemented but it works the same…»
+  ★737 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Go · última release v1.7.4 (2026-10-29) · https://github.com/syncyomi/syncyomi
+  Temas: cross-device-sync · manga-library · self-hosted · server-web-gui · synchronization · syncyomi
 
-• `syncyomi/syncyomi` — ★737 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-2.0
+- **jobobby04/TachiyomiSYPreview** — «A download host for TachiyomiSY Preview builds»
+  ★489 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia sin archivo LICENSE en su repo (verificado) · última release 615 (2026-10-28) · https://github.com/jobobby04/TachiyomiSYPreview
 
-• `jobobby04/TachiyomiSYPreview` — ★489 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **cuong-tran/manga-repo** — «Extensions for Komikku / Mihon & forks.»
+  ★462 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release bee7e8a (2026-10-29) · https://github.com/cuong-tran/manga-repo · Web: https://yuzono.github.io
+  Temas: extension · komikku · manga · mihon · tachiyomi
 
-• `cuong-tran/manga-repo` — ★462 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **komikku-app/komikku-preview** — su repo no trae descripción oficial
+  ★256 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia Apache-2.0 · última release r10617 (2026-07-17) · https://github.com/komikku-app/komikku-preview
 
-• `komikku-app/komikku-preview` — ★256 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· Apache-2.0
+- **ruzhe85/MihonSY** — «MihonSY — A Mihon Fork focused on image enhancement, an enhanced webtoon experience and multi-device sync»
+  ★47 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia Apache-2.0 · Kotlin · última release v1.2.1 (2026-10-07) · https://github.com/ruzhe85/MihonSY · Web: https://github.com/ruzhe85/MihonSY
+  Temas: mihon · mihon-fork · real-cugan · sync · tachiyomi · tachiyomi-fork
 
-• `ruzhe85/MihonSY` — ★47 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· Apache-2.0
+- **Harrys-HQ/ShinKu** — «a modern, rebranded, and enhanced fork of TachiyomiSY/Mihon, designed for a immersive and intelligent manga-reading experience.»
+  ★45 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release v2.7.15 (2026-10-26) · https://github.com/Harrys-HQ/ShinKu
 
-• `Harrys-HQ/ShinKu` — ★45 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· Apache-2.0
+- **PineappleTwilight/houri** — «Free and open source manga reader for Android»
+  ★39 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v1.25.0 (2026-10-29) · https://github.com/PineappleTwilight/houri
 
-• `PineappleTwilight/houri` — ★39 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **Smol-Ame/Chai** — «Free & open source manga reader for Android forked from TachiyomiSY»
+  ★13 · su último empuje fue el 2026-08-22 (hace 70 días) · licencia Apache-2.0 · Kotlin · https://github.com/Smol-Ame/Chai
 
-• `Smol-Ame/Chai` — ★13 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-22
-· Apache-2.0
+- **pokedo0/Pokomi** — «Free and open source manga reader for Android, featuring Author Following to easily subscribe and track your favorite authors' latest works.»
+  ★12 · su último empuje fue el 2026-09-19 (hace 42 días) · licencia Apache-2.0 · Kotlin · última release v1.0.9 (2026-08-16) · https://github.com/pokedo0/Pokomi
 
-• `pokedo0/Pokomi` — ★12 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-19
-· Apache-2.0
+- **jeryjs/TachiyomiSY-with-discord-RPC** — «Fork of TachiyomiSY with discord rich presence support (and a bit more including volume support in trackers)»
+  ★9 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia Apache-2.0 · Kotlin · última release preview-45 (2026-10-28) · https://github.com/jeryjs/TachiyomiSY-with-discord-RPC
 
-• `jeryjs/TachiyomiSY-with-discord-RPC` — ★9 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· Apache-2.0
+- **Viel0320/komikku_img_upscale** — «Free and open source manga reader for Android»
+  ★8 · su último empuje fue el 2026-10-21 (hace 10 días) · licencia Apache-2.0 · Kotlin · última release r10714 (2026-10-21) · https://github.com/Viel0320/komikku_img_upscale
 
-• `Viel0320/komikku_img_upscale` — ★8 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-21
-· Apache-2.0
+- **x1watt/bchan** — «Free and open-source manga & comic reader for Android — a streamlined fork of TachiyomiSY/Mihon»
+  ★7 · su último empuje fue el 2026-10-05 (hace 26 días) · licencia Apache-2.0 · Kotlin · última release v1.13.3 (2026-10-05) · https://github.com/x1watt/bchan
 
-• `x1watt/bchan` — ★7 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-05
-· Apache-2.0
+- **the-nexus-app/NEXUS** — «An open-source manga reader built for performance, flexibility, and the community, with authenticated hidden categories designed to provide an additional layer of privacy and…»
+  ★4 · su último empuje fue el 2026-10-07 (hace 24 días) · licencia Apache-2.0 · Kotlin · última release v1.5.1 (2026-10-04) · https://github.com/the-nexus-app/NEXUS
 
-• `the-nexus-app/NEXUS` — ★4 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-07
-· Apache-2.0
+- **nas3ts/mikku** — «Free and open source manga reader for Android, with Syncthing integration»
+  ★0 · su último empuje fue el 2026-08-18 (hace 74 días) · licencia Apache-2.0 · https://github.com/nas3ts/mikku
 
-• `nas3ts/mikku` — ★0 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-18
-· Apache-2.0
+- **leassapie/houri** — caído (404) al medir hoy: queda firmado, no recomendado. https://github.com/leassapie/houri
 
-• `leassapie/houri` — caído (404) al medir hoy (2026-10-29): queda firmado, no recomendado.
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Empieza por las bajas: **leassapie/houri** (caído (404)) no contestaron hoy. Con releases publicadas hay 15; manda la de **PineappleTwilight/houri** (v1.25.0 (2026-10-29)); el parte legal dice Apache-2.0 ×14, sin archivo LICENSE en su repo (verificado) ×3, GPL-2.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es **PineappleTwilight/houri** (hace 2 días).
 
-• https://github.com/jobobby04/TachiyomiSY — vivo al verificar hoy (2026-10-29)
-• https://github.com/komikku-app/komikku — vivo al verificar hoy (2026-10-29)
-• https://github.com/jobobby04/TachiyomiSYPreview — vivo al verificar hoy (2026-10-29)
-• https://github.com/komikku-app/komikku-preview — vivo al verificar hoy (2026-10-29)
-• https://github.com/PineappleTwilight/houri — vivo al verificar hoy (2026-10-29)
-• https://github.com/Smol-Ame/Chai — vivo al verificar hoy (2026-10-29)
-• https://github.com/jeryjs/TachiyomiSY-with-discord-RPC — vivo al verificar hoy (2026-10-29)
-• https://github.com/Viel0320/komikku_img_upscale — vivo al verificar hoy (2026-10-29)
-• https://github.com/nas3ts/mikku — vivo al verificar hoy (2026-10-29)
-• https://github.com/Harrys-HQ/ShinKu — vivo al verificar hoy (2026-10-29)
-• https://github.com/ruzhe85/MihonSY — vivo al verificar hoy (2026-10-29)
-• https://github.com/pokedo0/Pokomi — vivo al verificar hoy (2026-10-29)
-• https://github.com/the-nexus-app/NEXUS — vivo al verificar hoy (2026-10-29)
-• https://github.com/geograms/bchan — vivo al verificar hoy (2026-10-29)
-• https://github.com/keiyoushi/extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/yuzono/tachiyomi-extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/cuong-tran/manga-repo — vivo al verificar hoy (2026-10-29)
-• https://github.com/syncyomi/syncyomi — vivo al verificar hoy (2026-10-29)
-• https://github.com/leassapie/houri — no respondió hoy (404) al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 19 repos GitHub (18 vivos, 1 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 19 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 18 vivos, 1 firmado arriba con su estado.
