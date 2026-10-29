@@ -1,27 +1,17 @@
 # Publicación 99 — La foto IV: los jóvenes del censo
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**keiyoushi/extensions** encabeza esta entrega con ★15.369 medidos hoy: «Extension repository for Mihon and variants». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `keiyoushi/extensions` —
-★15.369, sin archivo LICENSE en su repo (verificado por API 29-oct-2026), último empuje
-2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **keiyoushi/extensions** — «Extension repository for Mihon and variants»
+  ★15.369 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release dbf6c05 (2026-10-29) · https://github.com/keiyoushi/extensions · Web: https://keiyoushi.github.io/
+  Temas: keiyoushi · mihon
 
-• `keiyoushi/extensions` — ★15.369 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-29). Con releases publicadas hay 1; manda la de **keiyoushi/extensions** (dbf6c05 (2026-10-29)); el parte legal dice sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **keiyoushi/extensions** hace 2 días.
 
-• https://github.com/keiyoushi/extensions — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

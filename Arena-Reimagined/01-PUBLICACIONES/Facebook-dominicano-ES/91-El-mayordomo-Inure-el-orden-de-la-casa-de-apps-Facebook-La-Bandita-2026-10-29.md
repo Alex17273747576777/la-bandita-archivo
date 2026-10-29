@@ -1,26 +1,17 @@
 # Publicación 91 — El mayordomo: Inure, el orden de la casa de apps
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **Hamza417/Inure** (★1.980): «An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a…». Temas que se repiten en el grupo: android, android-app, android-application, animations.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `Hamza417/Inure` — ★1.980,
-GPL-3.0, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **Hamza417/Inure** — «An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a…»
+  ★1.980 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release build107.3.0 (2026-10-21) · https://github.com/Hamza417/Inure
+  Temas: android · android-app · android-application · animations · app · c
 
-• `Hamza417/Inure` — ★1.980 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+El grupo respira despacio; su empuje más reciente, **Hamza417/Inure**, fue hace 3 días. Legalmente el grupo se reparte así: GPL-3.0 ×1; **Hamza417/Inure** firmó la release de fecha más reciente (build107.3.0 (2026-10-21)) de las 1 del grupo.
 
-• https://github.com/hamza417/inure — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
