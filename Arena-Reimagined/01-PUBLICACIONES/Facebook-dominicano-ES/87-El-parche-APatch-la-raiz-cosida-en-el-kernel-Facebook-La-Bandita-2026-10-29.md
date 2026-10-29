@@ -4,28 +4,23 @@
 
 ## ⚡ En una página
 
-APatch cose la raíz dentro del kernel: menos capas, otra anatomía. Es la tercera vía del root
-moderno junto a Magisk y KernelSU, y su placa de hoy confirma taller vivo.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `bmax121/APatch` — ★8.104,
+GPL-3.0, último empuje 2026-10-28.
 
-Coser en el kernel es cirugía mayor: se entra con respaldo, con imagen original guardada y con
-la salida escrita antes de la primera puntada.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `bmax121/apatch` — ★8.103 (verificado 29-oct-2026)
-· actividad este mes
-· última actividad 2026-10-12
+• `bmax121/APatch` — ★8.104 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
 · GPL-3.0
-· release 11282 (2026-10-12)
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Parché el kernel sin respaldo y brilla. —Brilla hoy: el sótano sin cuerda cobra la visita
-completa.
+• https://github.com/bmax121/apatch — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 87 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

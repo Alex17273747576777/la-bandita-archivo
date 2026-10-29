@@ -4,23 +4,23 @@
 
 ## ⚡ En una página
 
-Neo-Backup es la póliza de las apps: respaldo completo con datos, nacido en 2019 y todavía en faena verificada hoy. La lección de la pieza madre sigue entera: un teléfono sin respaldo es una casa sin seguro, y la póliza buena duerme FUERA de la casa que protege (otra memoria, otra nube, otro disco).
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `NeoApplications/Neo-Backup`
+— ★3.881, AGPL-3.0, último empuje 2026-10-17.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• `neoapplications/neo-backup` — ★3.880 (verificado 29-oct-2026)
-· actividad este mes
-· última actividad 2026-10-17
+• `NeoApplications/Neo-Backup` — ★3.881 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-17
 · AGPL-3.0
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Tengo respaldo de todo. —¿Dónde duerme? —En el mismo teléfono… —Entonces tienes una foto de
-la póliza, no la póliza.
+• https://github.com/neoapplications/neo-backup — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 93 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

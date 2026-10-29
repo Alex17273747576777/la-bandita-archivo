@@ -4,21 +4,23 @@
 
 ## ⚡ En una página
 
-Shizuku presta manos de sistema sin abrir la puerta del root: la varita que medio barrio fino usa sin saber su nombre. Es la abuela viva del ecosistema (★ verificado hoy al frente de su liga) y su doctrina es la elegancia: permiso prestado, alcance firmado, nada de cirugía.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
+últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `RikkaApps/Shizuku` —
+★32.382, Apache-2.0, último empuje 2025-06-18.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• `rikkaapps/shizuku` — ★32.357 (verificado 29-oct-2026) · dormido
-· última actividad 2025-06-18
-· licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
+• `RikkaApps/Shizuku` — ★32.382 (verificado 2026-10-29)
+· dormido · última actividad 2025-06-18
+· Apache-2.0
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Sin root no se puede nada. —La varita lleva años prestando la mano sin romper la puerta.
+• https://github.com/rikkaapps/shizuku — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 90 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

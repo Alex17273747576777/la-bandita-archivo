@@ -4,36 +4,38 @@
 
 ## ⚡ En una página
 
-El cuadro más honesto de la foto: los que duermen, con su fecha de último empuje en su línea.
-Dormido no es muerto: hay forjas terminadas, pausas de vida y calmas que mañana despiertan.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 4 repos: 0 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `aniyomiorg/aniyomi` —
+★7.855, Apache-2.0, último empuje 2026-09-14.
 
-La mesa que solo archiva vivos fabrica inmortales falsos, y esta casa se niega: 30 sillas de
-calma en la foto de 188, nombradas.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
+• `aniyomiorg/aniyomi` — ★7.855 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-14
+· Apache-2.0
 
-• `sang765/usagi` — ★0 (verificado 29-oct-2026)
-· actividad este mes
-· última actividad 2026-10-14
+• `Gekkoushi/plugin-source` — ★93 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-14
 · GPL-3.0
 
-• `aniyomiorg/aniyomi` — ★7.853 (verificado 29-oct-2026)
-· actividad últimos 180 días
-· última actividad 2026-09-14
-· licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
+• `Gekkoushi/plugin` — ★11 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-13
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 
-• `gekkoushi/plugin-source` — ★93 (verificado 29-oct-2026)
-· actividad últimos 180 días
-· última actividad 2026-09-13
+• `sang765/Usagi` — ★0 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-16
 · GPL-3.0
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Ese repo murió. —Empujó en junio y su oficio es la física: lee su calma antes de enterrarlo.
+• https://github.com/sang765/usagi — vivo al verificar hoy (2026-10-29)
+• https://github.com/aniyomiorg/aniyomi — vivo al verificar hoy (2026-10-29)
+• https://github.com/gekkoushi/plugin-source — vivo al verificar hoy (2026-10-29)
+• https://github.com/gekkoushi/plugin — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 101 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 4 repos GitHub (4 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

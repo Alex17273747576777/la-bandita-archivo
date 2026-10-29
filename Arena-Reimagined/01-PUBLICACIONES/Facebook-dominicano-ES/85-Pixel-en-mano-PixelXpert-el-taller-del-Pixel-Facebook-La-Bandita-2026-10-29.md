@@ -4,26 +4,24 @@
 
 ## ⚡ En una página
 
-PixelXpert devolvía al dueño del Pixel el control fino de su sistema. Hoy manda el dato duro: el
-repo está ARCHIVADO (verificado 29-oct-2026).
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `siavash79/PixelXpert` —
+★2.440, GPL-3.0, último empuje 2026-06-21.
 
-Esta página lo deja como historia honesta y advertencia útil: lo que se monta sobre un taller
-cerrado queda sin repuestos, y la mano del dueño se entrena en talleres vivos.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `siavash79/pixelxpert` — ★2.440 (verificado 29-oct-2026) · ARCHIVADO
-· última actividad 2026-06-21
+• `siavash79/PixelXpert` — ★2.440 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-06-21
 · GPL-3.0
+· ARCHIVADO en GitHub: historia, no opción viva
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —PixelXpert era perfecto. —Era. El pasado no recibe parches: la mano se muda al taller que
-sigue abierto.
+• https://github.com/siavash79/pixelxpert — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 85 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.
