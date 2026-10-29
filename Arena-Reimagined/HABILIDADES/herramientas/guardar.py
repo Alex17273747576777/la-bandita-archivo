@@ -28,6 +28,13 @@ with tempfile.TemporaryDirectory() as td:
     ent=destino/'ENTREGA-29OCT-2026'
     if ent.exists(): shutil.rmtree(ent)
     if (MIR/'ENTREGA-29OCT-2026').exists(): shutil.copytree(MIR/'ENTREGA-29OCT-2026',ent)
+    ev=destino/'02-ARCHIVO/evidencia-29oct'
+    if ev.exists(): shutil.rmtree(ev)
+    if (MIR/'02-ARCHIVO/evidencia-29oct').exists(): shutil.copytree(MIR/'02-ARCHIVO/evidencia-29oct',ev)
+    viejo=destino/'02-ARCHIVO/_rearm-29oct'
+    if viejo.exists(): shutil.rmtree(viejo)
+    for doc in ['LEEME-ESTRUCTURA.md']:
+        if (MIR/doc).exists(): shutil.copy2(MIR/doc,destino/doc)
     hab=destino/'HABILIDADES'
     if hab.exists(): shutil.rmtree(hab)
     shutil.copytree(PROY/'HABILIDADES',hab)

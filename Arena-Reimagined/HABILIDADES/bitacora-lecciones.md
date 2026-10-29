@@ -40,3 +40,8 @@ _Cada lección costó tiempo real. Leerla antes de trabajar ahorra el próximo t
 - **Contexto:** Primera corrida real de guardar.py tras su nacimiento
 - **Fallo/experiencia:** Empujó bien pero su verificación ls-remote corría fuera del clon y murió con 128: la herramienta no se había probado a sí misma entera
 - **Regla que queda:** Toda herramienta de guardado se prueba de punta a punta en su primera corrida, incluida la verificación posterior al push; si una vara no se prueba entera, no está terminada
+
+## L-09 · 2026-10-29
+- **Contexto:** Reorden de carpetas del 29-oct
+- **Fallo/experiencia:** La carpeta _rearm-29oct solo se entendía con contexto y las herramientas apuntaban a ella: renombrar sin actualizar herramientas habría roto el arranque
+- **Regla que queda:** Todo renombrado de carpeta exige: actualizar las rutas en las herramientas el mismo día, dejar mapa de traducción para las actas históricas (que no se reescriben) y verificar arranque+chequeo tras el cambio

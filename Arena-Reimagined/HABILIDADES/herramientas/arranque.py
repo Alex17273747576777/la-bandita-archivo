@@ -6,7 +6,7 @@ Uso: python3 arranque.py [--restaurar]"""
 import hashlib, subprocess, sys
 from pathlib import Path
 R=Path(__file__).resolve().parents[2]
-MAN=R/'02-ARCHIVO/_rearm-29oct/aseguramiento-29oct/MANIFIESTO-SHA256-PIEZAS.tsv'
+MAN=R/'02-ARCHIVO/evidencia-29oct/aseguramiento-29oct/MANIFIESTO-SHA256-PIEZAS.tsv'
 MIR=Path('/home/user/la-bandita-archivo')
 restaurar='--restaurar' in sys.argv
 mani={}

@@ -8,7 +8,7 @@ R=Path(__file__).resolve().parents[2]
 res={}
 # L0
 mani={}
-for ln in (R/'02-ARCHIVO/_rearm-29oct/aseguramiento-29oct/MANIFIESTO-SHA256-PIEZAS.tsv').read_text(encoding='utf-8').splitlines()[1:]:
+for ln in (R/'02-ARCHIVO/evidencia-29oct/aseguramiento-29oct/MANIFIESTO-SHA256-PIEZAS.tsv').read_text(encoding='utf-8').splitlines()[1:]:
     s,n,b,h=ln.split('\t'); mani[(s,n)]=h
 mal=sum(1 for (s,n),h in mani.items() if not (R/'01-PUBLICACIONES'/s/n).exists() or hashlib.sha256((R/'01-PUBLICACIONES'/s/n).read_bytes()).hexdigest()!=h)
 res['L0 suelo']=('OK' if mal==0 else f'{mal} problemas')
