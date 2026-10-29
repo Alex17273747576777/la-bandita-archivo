@@ -1,0 +1,676 @@
+*76 — EL CARTUCHO ETERNO*
+*mgba-emu/mgba ★7.513 (pulso 19-oct-2026) es la era del Game Boy de vuelta en tus manos: los cartuchos de la infancia corriendo en la pantalla que ya llevas — la consola de bolsillo que nunca se apagó, resucitada con precisión de ciclo (WhatsApp · La Bandita · dominicano-ES)*
+
+───────────────────
+
+*⚡ EN UN RESPIRO*
+
+El cartucho eterno es mGBA: los juegos de la Game Boy y la Game Boy Advance (la consola de bolsillo que cruzó generaciones) corriendo en tu caja de HOY — con precisión de ciclo. La sexta placa del salón: 7.507 estrellas y trece años de forja.
+
+*🗺 MAPA DE ESTA GUÍA*
+
+La fila del salón (71-80) firma su sexta pieza: la era portátil de cartucho — esta pieza septuagintasexta trae la Game Boy a la casa (la sexta placa: debajo de la negra chiquita ★10.857 (pulso 19-oct-2026) — por 3.349 — y encima del traductor de lenguas ★5.679 (pulso 19-oct-2026) — por 1.828). El recorrido: la escena del cartucho soplado — la de toda casa que creció con una GB.
+
+Sigue el censo del cartucho, las tres capas del bolsillo eterno, la vara de la letra propia, la doctrina del cartucho propio leído (la frontera con el robo), la receta por pisos, los mitos, las preguntas, seis casos, las despensas, los riesgos con fecha, el ritual de siete días y las cartas de la mesa.
+
+*🌱 LA SEMILLA*
+
+La escena del cartucho soplado: la casa de la era de bolsillo (la GB gris de la infancia, el cartucho que se soplaba por costumbre, las pilas AA en la mochila del liceo — la consola que cruzó DOS generaciones: del Tetris del papá al Pokémon del hijo — hasta que la pantalla se rayó, las pilas se volvieron caras, o la consola: se perdió en una mudanza).
+
+Y los dos caminos de siempre: el aparato de la vitrina (la consola clásica re-edición: cara, cerrada, con los mismos veinte juegos de siempre — la nostalgia, en cuotas), o la app del tacho (el «gba gratis con todo incluido» del rincon: los ROMs robados + el chisme del teléfono — la mochila entera, espiada).
+
+La forja firma la tercera vía del bloque: mGBA — el cartucho eterno: la forja de TRECE AÑOS corriendo los cartuchos propios (el juego de la casa leído con respeto, la partida de la infancia: de vuelta en la pantalla de HOY — con la misma vara de la ley del juego propio).
+
+Y el juego que corre: el que la casa VUELCA (el cartucho propio en SU lector: la rom honesta — la era, firmada por su dueño). El bolsillo de la casa: con su era eterna — encendiendo como el primer día.
+
+*🗼 EL CENSO DEL CARTUCHO (censo 18-oct-2026)*
+
+El cartucho y su familia — las placas de la era de bolsillo, medidas HOY.
+
+*El cartucho eterno — mGBA.* `mgba-emu/mgba` ★7.513 (pulso 19-oct-2026).
+
+Nacida en 2013 (TRECE AÑOS de forja — la compañera de hornada del cubo: nacida el mismo año que el salón del movimiento). Con aire del MISMO DÍA (push de hoy). Con su letra por leer en su hogar (MPL-2.0 en la casa de la forja: la firma del medio camino — copyleft con clase: se lee ANTES de montar, como manda la vara de la 58).
+
+*El ranking, con honestidad del censo:* el cartucho es LA SEXTA PLACA DEL SALÓN (★7.513, pulso 19-oct-2026: debajo de la negra chiquita ★10.857 (pulso 19-oct-2026) — por 3.348 — y encima del traductor de lenguas ★5.679 (pulso 19-oct-2026) — por 1.829). En el censo entero: debajo del router del aire ★28.760 (pulso 19-oct-2026).
+
+La lección del censo: TRECE AÑOS puliendo DOS consolas de bolsillo — la forja discreta que no hace ruido y no se pierde una partida. El censo no decora: mide.
+
+*La familia del salón:* el mueble padre (71: RetroArch ★14.382, pulso 19-oct-2026), el windows de la mesa (72: ★19.531 — la placa mayor), el cubo (73: Dolphin ★15.687 — la era del movimiento), la bolsilla (74: PPSSPP ★14.690 — la era portátil), la negra chiquita (75: DuckStation ★10.857 — la era 32 bits).
+
+El salón de la casa: con su piso de bolsillo — la era que cabe en la mano.
+
+*🏛 LAS TRES CAPAS DEL BOLSILLO ETERNO*
+
+El oficio del cartucho, por capas — del cartucho a la pantalla.
+
+*La capa del cartucho — el juego propio, leído con respeto.* El corazón del cartucho eterno: el cartucho leído (el juego de la GB de la casa: leído por SU lector fino — la rom nacida de TU cajón, con SU número honesto).
+
+Su vara fina de la capa: la ley del juego propio (la 71, la 73, la 74 y la 75, firmadas aquí otra vez: la rom bajada del rincon — la copia ajena, fuera del bolsillo). Arma el piso esta capa: los cartuchos — leídos, nombrados con año.
+
+*La capa del bolsillo — el juego en la pantalla de HOY.* La capa de la era: el juego de cartucho corre en cualquier pantalla (el teléfono de la casa, la computadora del escritorio, la tele del salón: la era de bolsillo — sin atarse a un aparato). Su vara fina: el control de la casa (los botones en pantalla con SU mapa, o el mando bluetooth: la mano que la casa prefiera).
+
+Con la vara fina: el save infinito (el guardado en cualquier punto: el lujo honesto de la era — con SU póliza, como todo). Mueve el bolsillo esta capa: la era — en la pantalla de HOY.
+
+*La capa del oro — la pila del cartucho, renovada.* La capa del cofre (la regla tres de la fila, versión cartucho): los saves de la era (la pila CR2032 del cartucho viejo: MUERTA — los saves del 99: perdidos sin póliza; el volcado fino: salvando los saves ANTES de que mueran).
+
+Suma la vara fina: el perfil por juego (el juego exigido: SU ajuste anotado — la gira del cartucho: la vara del faena-juego). Además la vara mayor: el save HEREDADO (la partida del Tetris del papá: cargada con respeto — la partida de otra vida, más sagrada). Cierra esta capa: el oro — de dos generaciones, con póliza.
+
+*⚖ LA VARA DE LA LICENCIA*
+
+*La letra por leer en su hogar.* La letra del cartucho (MPL-2.0: la firma del medio camino — archivo por archivo libre, con SU condición de compartir: ligera y con dientes). La lectura fina del oficio: TRECE AÑOS de código público (la forja del bolsillo: cada versión, examinada por el barrio del mundo — la precisión de ciclo, mostrada en la forja).
+
+La vara fina del cartucho: la letra de la FORJA es una — los cartuchos: SU vara (la del juego de cada casa; la ley del juego propio, por encima de todo bolsillo). La app: de la escuela pública — los juegos: de la casa.
+
+*🎯 LA DOCTRINA DEL CARTUCHO PROPIO LEÍDO (las tres reglas del piso de bolsillo)*
+
+Aquí va la frontera que la app del tacho jamás dibuja — la doctrina de esta pieza.
+
+*Regla uno — la rom que corre es el cartucho leído: la ley del juego de bolsillo.* La vara mayor del cartucho: el juego nace del cartucho de la CASA (el juego del cajón leído por SU lector fino — la rom con su número: nacida de tu vida).
+
+Otra vara fina: la rom bajada del rincon (la copia ajena del tacho: el robo de la mochila — el «todo incluido gratis»: cien robos con chisme de postre). La regla mayor del bolsillo: la era se juega de casa — cartucho por cartucho, como sus hermanas del salón.
+
+*Regla dos — la pila del cartucho se atiende a tiempo: el oro no espera.* La vara fina del oficio (el secreto del cartucho viejo): la pila CR2032 interna MUERE con los años (el save del 99: viviendo en pilas de 1998 — cuando la pila muere, la partida: se BORRA sola).
+
+Suma la vara fina: la tarde del rescate (los cartuchos de la casa: leídos ANTES de que su pila muera — los saves del 99: copiados al cofre HOY; la pila: renovada después con oficio). La regla del oro de bolsillo: la pila no avisa — el rescate: no se aplaza.
+
+*Regla tres — el save del papá es de la familia: el oro de dos generaciones viaja con póliza.* La línea fina del oficio: el cofre de la mochila (los saves de TODA la familia: los del Tetris del papá, los del Pokémon del hijo — un solo cofre en dos discos, junto a la 59).
+
+La otra vara fina honesta: el perfil por juego (el juego exigido: SU ajuste — la gira del cartucho, anotada con fecha). Además la vara mayor: la herencia de la partida (el save del papá que jugó en 1999: se carga con respeto — jamás se borra pa «hacer espacio»: se copia ANTES). La regla del oro: la partida de dos generaciones — la más sagrada del bolsillo.
+
+*🔧 LA RECETA DEL BOLSILLO ETERNO EN PIE (una semana pausa, por pisos)*
+
+Cómo se arma sin equivocarse:*
+
+*Piso 1 — el cartucho instalado (media hora).* mGBA de la forja (la letra leída en su hogar), el directorio del bolsillo firmado (roms, saves, perfiles: la carpeta de la era — nombrada como la gente), y la prueba en seco (la app abre y lista: vacía y honesta — jamás trae juego traído). El bolsillo: con cartucho y sin trasteo.
+
+*Piso 2 — el primer leído (la tarde del cajón).* Los cartuchos propios en SU lector (el lector fino del club o del mercado: la tarde del cajón — los juegos de la era, leyéndose con respeto), la rom en SU carpeta (nombre de gente y año: «el del liceo 2001»), y la primera partida de prueba (la era: viva en la pantalla — la vara del bolsillo). El cartucho: leído con ley.
+
+*Piso 3 — la pantalla puesta (una tarde).* El control elegido (los botones en pantalla con SU mapa, o el mando bluetooth: la mano que la casa prefiera), el ajuste del bolsillo (el tamaño de los botones, la paleta del color: la pantalla al gusto), y la partida corta de prueba (la era: probándose — el save en cada punto). La pantalla: puesta como gente.
+
+*Piso 4 — la póliza del bolsillo (media hora).* Los saves en SU carpeta (los del papá: carpetas propias), la póliza en dos discos (junto a la 59: el cofre de la mochila), y la prueba del desastre (el save restaurado de copia: ensayado — el teléfono puede morir: la partida, no). El oro: viajando con póliza.
+
+*Piso 5 — el perfil por juego (quince minutos por cartucho).* El juego exigido probado (SU ajuste: control, pantalla, velocidad — la ficha del juego), la anotación con fecha (el perfil en la gira: la vara del faena-juego), y la lista honesta (lo que pide más caja: anotada — la escala manda). Cada cartucho: con su receta de bolsillo.
+
+*Piso 6 — la gira del bolsillo (mensual, quince minutos).* Los perfiles revisados (¿corren como corren?: la gira del cartucho), los saves respaldados (la póliza: al día — el ritual del bolsillo), los cartuchos pendientes de leer (la lista del cajón: por tandas — ANTES de que las pilas mueran), y el apunte honesto (la era: documentada — el bolsillo, como toda la casa).
+
+El cartucho: vivo — la era, girando en la pantalla.
+
+*🧊 MITOS DESMONTADOS*
+
+*«La Game Boy ya murió: es historia de museo».* El mito del esnob, jubilado (vigésimonovena vez en la fila).
+
+El catálogo de la era pesa (el Tetris que cruzó el mundo, los Pokémon que criaron dos generaciones, los juegos del recreo que la casa entera jugó: la era de bolsillo — la más LARGA de la historia del juego). Otra vara fina: la prueba del recreo (la partida del liceo: corriendo en la pantalla de HOY — la era, intacta).
+
+La vara fina: la forja del cartucho (TRECE AÑOS puliendo la era: el respeto del oficio midiendo lo que el esnob despreció). El museo: pa los que no jugaron — el bolsillo: manda.
+
+*«Soplar el cartucho lo arregla».* El mito de la costumbre, corregido con cariño: el soplido NUNCA arregló na (el contacto del cartucho se limpia con alcohol y hisopo — el aliento: humedad que oxida los pines con los años). Suma la vara fina: la limpieza fina del oficio (el hisopo, el alcohol isopropílico, la secada paciente: el cartucho — limpiándose como gente).
+
+Encima la vara mayor: la lección de la era (lo que la casa creyó toda la vida, corregido con oficio — la era: también se aprende). La costumbre: se respeta — el oficio: se corrige.
+
+*«Los saves viejos ya se perdieron: pa qué rescatar».* El derrotismo de la mesa, jubilado con fecha: el save vive MIENTRAS viva la pila (los cartuchos guardados en cajones: saves dormidos — viviendo aún; el volcado fino: despertándolos ANTES de la muerte fina), y la vara fina: la tarde del rescate (los cartuchos del cajón: leídos HOY — los saves del 99: al cofre con nombre).
+
+Encima la vara mayor: la pila renovada (cambiada con oficio: el cartucho — con años más de vida). La partida del 99: dormida, no muerta — el rescate: la despierta.
+
+*«Jugar con el save infinito es hacer trampa».* El miedo del purista, con respuesta honesta: el guardado en cualquier punto es LUJO del salón (la era original no lo traía: el bolsillo de HOY — sí; el JUEGO: intacto, los retos: iguales — el lujo: se usa con ley).
+
+Otra vara fina: la regla de la casa (el torneo del club: save prohibido — la partida honesta; el viaje largo: save libre — la era sirviendo a su gente). Otra vara fina: la honestidad del reto (el juego dificilísimo de la infancia: con SU regla acordada — el reto, hablándose en familia). El lujo: no es trampa — el trato: lo dice.
+
+*❓ PREGUNTAS DE LA FILA*
+
+*¿mGBA y la Game Boy — qué es exactamente cada cosa?* La consola y su salón — con vara fina: la Game Boy fue la CONSOLA (el aparato de bolsillo que cruzó dos generaciones: gris, color, advance).
+
+mGBA es el SALÓN (la forja que corre los juegos de esas consolas en la pantalla de HOY: TRECE AÑOS de precisión de ciclo).
+
+La pareja del recuerdo: la consola original descansando con respeto en el cajón — su era, viviendo en la pantalla de HOY. El cartucho: la consola que no se compra de nuevo — se resucita.
+
+*¿Cómo se lee un cartucho — y qué lector lleva?* Con oficio de barrio — con vara fina: el lector fino (el aparato del volcado: se compra una vez o se presta en el club — la tarde del cajón: cada quien con SU cartucho). Con la vara fina seria: el cartucho ajeno (el juego del vecino: se lee en SU casa, con SU permiso — la firma del dueño en la etiqueta).
+
+Con la vara fina: la honestidad del leído (del cartucho PROPIO con SU número — jamás de la rom del rincon: la ley del juego propio, sin atajos). El cartucho: se lee con oficio — nunca se baja.
+
+*¿La pila del cartucho se puede cambiar — sin dañarlo?* Se puede — con vara fina: el destornillador fino del oficio (el tornillo de seguridad: SU herramienta; la pila CR2032: cambiada con la cinta correcta — el cartucho: volviendo a la caja intacto).
+
+La otra vara fina seria: el volcado ANTES de abrir (el save del 99: copiado al cofre ANTES de tocar la pila — la regla del oro: la partida primero, la cirugía después). La otra vara fina: la gira del cajón (los cartuchos: revisados por tandas — la pila: atendida antes de morir). La cirugía: con oficio — la partida: primero.
+
+*¿El save infinito se usa — o se juega como antes?* Como pida la casa — con vara fina: el save libre (el viaje, la espera, la partida tranquila: el lujo del salón — la era sirviendo a su gente). Su vara fina: el save prohibido (el torneo, el reto, la partida del club: la regla acordada — el juego como fue).
+
+Encima la vara mayor: la regla escrita (la pizarra de la casa: qué juego con qué save — el trato: hablándose antes de jugar). El lujo: con ley — el reto: con honor.
+
+*¿Qué placa es la del cartucho — entre quiénes corre y con qué edad?* La sexta placa del salón — con vara fina: ★7.513 (pulso 19-oct-2026), debajo de la negra chiquita ★10.857 (por 3.348) y encima del traductor de lenguas ★5.679 (por 1.829), debajo del router ★28.760 (pulso 19-oct-2026) en el censo.
+
+Encima la vara mayor: TRECE AÑOS de forja (2013-2026: la compañera de hornada del cubo — nacida el mismo año), y la lectura fina: la forja discreta (trece años puliendo el bolsillo sin hacer ruido: la precisión de ciclo, partida por partida). El censo no decora: mide — y trece años: la medida de lo eterno.
+
+*🧪 CASOS DEL BARRIO*
+
+*Caso uno — el recreo del liceo.* El muchacho del liceo (el de la fila entera) con el recreo corto (los veinte minutos del descanso: la era del torneo portátil).
+
+Montaje: el cartucho eterno en el teléfono (letra leída), el cartucho propio leído (el del liceo 2001: la tarde del cajón), el control en pantalla ajustado, y la partida en tandas (el recreo: una tanda — el save en la campana). El recreo: con su era — la mochila: con juego.
+
+*Caso dos — el Tetris del papá.* El papá de la casa (el que jugó SU Game Boy en el autobús del 92: la consola regalada en la mudanza — los cartuchos: en el cajón de los tornillos).
+
+Montaje: la tarde del cajón con el papá (los cartuchos del tornillo: leyéndose con respeto — SU firma en cada rom), el cofre de la mochila (los saves del Tetris: SU carpeta), y la sorpresa del domingo (el papá: SU partida cargada en la tele de la sala — la del 92: CONTINUANDO). La era del papá: resucitada — el cajón: con oro.
+
+*Caso tres — el cartucho que no guarda.* La prima del liceo (la de la fila entera) con el cartucho moribundo (SU juego de la infancia: la partida que se BORRA sola al apagar — la pila muerta).
+
+Montaje: el volcado de emergencia (el cartucho: leído ANTES de la muerte total — la rom con SU save dormido), el cofre con póliza (la partida: en dos discos), y la cirugía fina (la pila CR2032: cambiada con destornillador de oficio — el cartucho: con años de vida nueva). La partida: salvada a tiempo — la prima: con era.
+
+*Caso cuatro — el torneo del recreo con ley.* El grupo del liceo (el del ciber resucitado) con el torneo portátil (los veinte minutos del recreo: el torneo del cartucho — cada muchacho con SU teléfono).
+
+Clase armada: la ley en la pizarra del liceo (cada jugador: SU cartucho leído — la regla uno, escrita por el maestro), el perfil del torneo (el juego del torneo: probado por todos — la vara del faena-juego), el save prohibido acordado (la partida honesta: como fue), y el acta del campeón (el recreo documentado: el cuaderno del grupo).
+
+El recreo: con torneo con ley — la era: criando viajeros honestos.
+
+*Caso cinco — la guardería del barrio.* La maestra de la guardería (la de la fila IA) con la hora del cuento muerta (los niños esperando a los papás: la última hora — «no hay na que los entretenga sano»).
+
+Montaje: la era fina en la tablet de la sala (SU aparato: el del cuento), los juegos propios de la maestra (los de SU infancia: la tarde del cajón), la partida en tandas (la última hora: una tanda corta por niño — el save en cada papá que llega), y la vara fina: la pizarra de la guardería (la dosis: quince minutos — la era: sirviendo la espera).
+
+La última hora: con era sana — la espera: con partida.
+
+*Caso seis — el cofre de la mochila heredado.* La familia del despacho (la de la fila entera) con el cofre de bolsillo completo (los cartuchos del papá, los saves del hijo, las roms leídas con firma: el archivo eterno de la casa — tres generaciones de bolsillo).
+
+Montaje: el cofre ordenado (carpetas por gente: los del papá, los del hijo), la póliza en dos discos (junto a la 59: el oro eterno, con póliza como todo), y el ritual del domingo (cada quien: SU partida — la era de bolsillo: de la casa, para la casa). El cofre eterno: con tres generaciones — la era: heredándose en la pantalla.
+
+*🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)*
+
+*Las placas (censo 19-oct-2026):* el cartucho ★7.513 — LA SEXTA PLACA DEL SALÓN (debajo de la negra chiquita ★10.857 por 3.348; encima del traductor de lenguas ★5.679 por 1.829; debajo del router ★28.760 en el censo). Letra MPL-2.0: leer en su hogar.
+
+*La edad:* nacida en 2013 — TRECE AÑOS de forja (la compañera de hornada del cubo).
+
+*El aire:* push del MISMO DÍA (trece años — y la forja empuja HOY).
+
+*La pareja del bolsillo:* el cartucho propio leído + el lector fino — la rom que la casa reconoce: la nacida de su cajón.
+
+*La vara de la casa:* cartucho propio (la ley del juego de bolsillo), la pila atendida a tiempo (el rescate: no se aplaza), el cofre de la mochila con póliza (los saves del papá: sagrados) — y el perfil por juego: la gira manda.
+
+*🕰 LA EDAD DE LO ETERNO*
+
+Trece años (2013-2026): la compañera de hornada del cubo. La historia del nacimiento: 2013 — la forja firma el salón de bolsillo (la Game Boy entera con precisión de ciclo: la era eterna, con casa nueva), y trece años después: la forja con push de HOY, el catálogo girado por una década de recreos.
+
+La edad de lo eterno: la del oficio discreto (trece años puliendo la era que nunca se apagó: el cartucho — eterno porque su forja nunca descansó).
+
+*💬 LA CONVERSACIÓN HONESTA*
+
+Dígase claro: el cartucho NO trae juegos (la honestidad del cartucho: llega vacío de eras y lleno de precisión — la ley del juego propio: lo que corre, lo que la casa leyó). Su vara fina: el leído pide SU tarde (el lector fino del club o del mercado: la tarde del cajón — la era no es descarga: es OFICIO con cajón).
+
+Además la vara mayor honesta: la casa sin cartuchos en el cajón (la generación del teléfono: la honestidad del recibidor de toda la fila — el cartucho: pa quien guardó su juego; los que no: el cofre de la mochila empieza CON los cartuchos que hoy cuidan). La honestidad del bloque: el bolsillo honra al que guardó su era.
+
+*🎞 LO QUE ESTA PIEZA NO DICE*
+
+No dice que bajes ROMs del rincon — dice la ley del juego de bolsillo: el cartucho propio se lee — el cartucho jamás regala la mochila.
+
+No dice que soples el cartucho — dice la limpieza fina del oficio: alcohol y hisopo — el soplido: humedad que oxida (la costumbre: corregida con cariño).
+
+No dice que los saves viejos murieron — dice la tarde del rescate: el save vive mientras viva la pila — el cartucho del cajón: leyéndose HOY.
+
+No dice que sea placa mayor del censo — dice la vara fina: 7.507, la sexta de su fila — debajo de la negra por 3.349, encima del traductor por 1.828.
+
+No dice que el save infinito sea trampa — dice la regla de la casa: el lujo se usa con ley — el torneo: save prohibido; el viaje: save libre.
+
+*🩺 LA SALUD DEL BOLSILLO AL CORTE (el parte del cartucho)*
+
+El parte del 18-oct-2026: la forja con aire de HOY (trece años de push), la letra MPL-2.0 en su hogar (la vara de la 58: pendiente de la casa — se lee ANTES de montar), el catálogo girado por una década de recreos.
+
+Su lectura fina del parte: la forja del bolsillo al corte (trece años puliendo la precisión de ciclo: cada versión, examinada por el barrio del mundo) — la era eterna: en su mejor versión jamás. La salud del cartucho: la de las forjas sin prisa — el bolsillo: pulido, no prometido.
+
+*📐 LA MEDIDA DE LO ETERNO (lo que el censo deja leer y no se ve)*
+
+Tres medidas finas de la noche.
+
+La primera: la era que cruzó generaciones. La Game Boy: la única consola que jugó el papá Y el hijo (del Tetris del 92 al Pokémon del 2010: la era de bolsillo — la más larga de la historia del juego). Suma la vara fina: trece años de forja sirviendo DOS generaciones de saves (el cofre de la mochila: el papá y el hijo — en un solo cofre).
+
+La lectura fina: la era eterna NO es la más moderna (es la que MÁS casas cruzó: el bolsillo — el único salón que cabe en todas las mochilas). La medida del cartucho: lo eterno — midiendo generaciones.
+
+La segunda: la pila como reloj de arena.
+
+El secreto del cartucho (la pila CR2032: el reloj de arena de cada partida — viviendo desde 1998; cuando muere: el save se borra solo), y la vara fina: la tarde del rescate (los cartuchos del cajón: leídos ANTES — la partida del 99: al cofre con nombre), y la vara mayor: la cirugía con oficio (la pila: cambiada con destornillador fino — el cartucho: con años de vida nueva).
+
+La medida del oro: la pila — avisando sin avisar.
+
+La tercera: el soplido corregido.
+
+La costumbre de la casa (el cartucho soplado: el rito de toda una generación — creyendo que arreglaba), y la vara fina: la verdad del oficio (el soplido: humedad que oxida — la limpieza fina: alcohol y hisopo), y la vara mayor: la era enseñando a la casa (lo que se creyó toda la vida: corregido con cariño — el oficio: también se aprende jugando).
+
+La medida de la casa: la costumbre — respetada; el oficio: corregido.
+
+*📻 LA SEGUNDA FILA (lo que quedó fuera del bolsillo)*
+
+*La historia — el año 2013.* La hornada gemela (el cartucho en 2013, el cubo en 2013: las dos forjas del salón al mismo año), y la visita de la obra: el salón de bolsillo (la Game Boy con precisión de ciclo: la era eterna con casa nueva), y trece años después: el catálogo girando con aire de HOY.
+
+*El recreo del liceo — la visita del recuerdo.* La era de los recreos (el juego pasando de mochila en mochila, el cable de link compartido, el torneo de veinte minutos: la era de bolsillo — la más compartida sin pantallas grandes).
+
+La lectura fina: lo que el cartucho rescata (no el aparato: el RECREO — la tanda corta, el cable de link, la revancha de la campana: el recreo, de vuelta).
+
+*La pila del 99 — la vara del oro.* El oficio fino del rescate (la pila CR2032: el reloj de arena de la partida — leída ANTES de morir, volcada con respeto: el save del 99 continuando), y la lectura fina: la diferencia con el borrado fácil (el mundo de la nube borra sin ceremonia; la casa de la era: lee ANTES, copia ANTES — el save del papá: la partida más sagrada del cajón).
+
+El oro del bolsillo: se hereda — jamás se pisa.
+
+*⏰ EL BOLSILLO EN TU DÍA A DÍA (cuatro rutinas del eterno)*
+
+*El morning del autobús.* La partida del trayecto (veinte minutos: el save en cada parada — el día arrancando con era).
+
+*El mediodía del recreo.* La tanda del descanso (el torneo portátil: veinte minutos — el save en la campana).
+
+*El evening del cajón.* La gira del cajón (cartuchos pendientes, pilas por revisar: el rescate — mandando el orden).
+
+*La madrugada de la gira.* La gira mensual del bolsillo (perfiles, saves, rescates: el ritual del eterno). El cartucho — visitado como toda casa seria.
+
+*🧵 GENEALOGÍAS DEL BOLSILLO*
+
+*El abuelo — el Game & Watch del mostrador.* El del barrio de siempre: la consola de un solo juego en la vitrina del colmado (la pantalla líquida, el récord del barrio: la era de bolsillo — naciendo en el mostrador). El abuelo del bolsillo: el mostrador — con un juego y con honor.
+
+*El padre — la GB gris de las pilas AA.* 1989-2000: la era del Tetris (la consola que cruzó el mundo, las pilas del liceo, el cable de link del recreo: la era de bolsillo — globalizándose). El padre del bolsillo: la pantalla verde — con cuatro pilas.
+
+*La madre — la GBA del liceo.* 2001-2010: la era del Pokémon (la consola horizontal del autobús, los cartuchos del recreo: la era de bolsillo — criando dos generaciones). La madre del bolsillo: el autobús — con cartucho y con honor.
+
+*El hijo — el cartucho resucitado.* 2026: la era en la pantalla de la casa (los cartuchos propios leídos, los saves del 99 con cofre, la pila del rescate: el bolsillo — de vuelta, con precisión de ciclo). La genealogía completa: del mostrador al cartucho, del cartucho a la pantalla. La idea que no cambió: el recreo, queriendo partida.
+
+Y ahora la tiene con ley: el bolsillo — de la casa, para la casa.
+
+*📦 LA DESPENSA DEL BOLSILLO (tu cajón, ordenado como gente)*
+
+*El cofre de los cartuchos* — los juegos del cajón: leídos con nombre y año, SU lector fino. La mochila — de la casa; el tacho — jamás.
+
+*La tarde del rescate* — los cartuchos del cajón: leídos ANTES de que la pila muera. El save del 99 — al cofre; el funeral — jubilado.
+
+*El cofre del oro eterno* — los saves por gente (los del papá: SU carpeta), copiados ANTES de tocar: la partida de dos generaciones — sagrada. El borrado fácil — jubilado.
+
+*El perfil del recreo* — cada juego exigido con SU ajuste, anotado con fecha: la gira del cartucho. El recreo — a fluidez, jamás a tirones.
+
+*La regla del save* — el torneo: prohibido; el viaje: libre — la pizarra de la casa. El lujo — con ley; el campeón — sin asterisco.
+
+*🪧 EL CARTEL DEL BOLSILLO*
+
+*La consola que cruzó dos generaciones, de vuelta en tu pantalla — trece años de forja resucitando el recreo.*
+
+*El cartucho que corre es el leído propio — el juego del cajón con SU lector fino: la única rom que la casa reconoce.*
+
+*La pila del cartucho es un reloj de arena — el save del 99 se rescata HOY: el funeral de partidas, jubilado.*
+
+*El soplido se jubila — alcohol y hisopo: el oficio corrigiendo la costumbre con cariño.*
+
+*Y el save del papá, sagrado — se copia antes, se carga con respeto: la partida de dos generaciones no se pisa.*
+
+*😄 EL MEME DE LA CASA*
+
+La app del tacho, en su anuncio: «EMULADOR GBA + 1000 JUEGOS YA INCLUIDOS — TU INFANCIA EN TU TELÉFONO GRATIS». El cartucho de la casa, en su silencio: «Trae el cartucho del cajón de los tornillos — yo te enseño a leerlo». El tacho, regalando 1000 robos con chisme de postre.
+
+La casa, leyendo SUS 8 cartuchos con respeto — porque la mochila no son 1000 juegos: es el Tetris del papá, el recreo del liceo y el save que duerme en una pila de 1999. Eso no lo firma el tacho: lo firman trece años de forja, y empujan HOY.
+
+*⚠ LOS RIESGOS DEL BOLSILLO, CON FECHA*
+
+*La rom del rincon (el riesgo número uno, 18-oct-2026).* La rom bajada del tacho (la copia ajena del «todo incluido gratis»: el robo de la mochila — con chisme de postre), y la salida: la regla uno — la ley del cartucho propio (el juego del cajón: la única rom que la casa firma), y la vara fina: la pizarra del bolsillo (la ley en la pantalla de la casa: la familia sabiendo).
+
+El bolsillo: de cartuchos propios — jamás de tachos.
+
+*La pila muerta sin rescate (el riesgo del reloj de arena).* El save del 99 borrándose solo (la pila CR2032 muriendo en silencio: la partida de la infancia — PERDIDA sin aviso).
+
+La salida: la regla dos — la tarde del rescate (los cartuchos del cajón: leídos ESTA semana — los saves: al cofre antes de que las pilas mueran).
+
+Suma la vara fina: la cirugía con oficio (la pila: cambiada después del volcado — jamás antes). El rescate: esta semana — la partida: sin funerales.
+
+*El save pisado (el riesgo del oro de familia).* El save del papá borrado pa «hacer espacio» (la partida del Tetris: PERDIDA por un toque — el llanto de dos generaciones).
+
+La salida: la regla del oro (se copia ANTES de tocar: el save heredado — en dos discos antes del primer toque).
+
+Con vara fina: el confesorio del oro (los saves: en carpetas por gente — cada partida: SU dueño). La partida ajena: sagrada — la casa: sin llantos.
+
+*El torneo con save infinito (el riesgo del lujo sin ley).* El campeón del recreo con saves infinitos (la partida «perfecta»: guardada en cada salto — el torneo: sin honor; el título: con asterisco).
+
+La salida: la regla de la casa (el torneo: save prohibido — la pizarra escrita ANTES de jugar).
+
+Con vara fina: el acta del campeón (sin asterisco: la partida honesta — documentada en el cuaderno). El lujo: con ley — el campeón: sin asterisco.
+
+*La app del tacho en el teléfono del liceo (el riesgo del lugar equivocado).* El muchacho con el «todo incluido» en el teléfono del liceo (el maestro confiscando el teléfono: la era — confundida con el chisme).
+
+La salida: la vara del lugar (la era del bolsillo: en SU aparato o con la ley en la pizarra — el liceo: con torneo con ley).
+
+Con vara fina: la carpeta limpia (el teléfono del liceo: limpio de tachos — SU cartucho leído: la única app de era). La era: en su lugar — el liceo: sin confiscos.
+
+*📖 GLOSARIO DE LA COSECHA*
+
+*Puente.* El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento. Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que las estrellas.
+
+*Cajón.* La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno. Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus etiquetas estén peinadas.
+
+*Detective.* La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa del artista».
+
+*Cosecha.* El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y lo que no pasa no se borra — se anota. La cosecha es la prueba de que el método de la casa funciona.
+
+*Placa.* El paquete completo de datos de una casa: estrellas con fecha, push con fecha, licencia con nombre, fila de asuntos. Sin placa no hay censo — hay lista de apodos.
+
+*Pulso.* La toma de datos con hora. El censo de la tarde no es el pulso de la noche: el #10 de esta pieza midió a las ~23:12 UTC y cazó dos casas moviéndose en vivo. El censo no es una foto: es un latido.
+
+*Mapa vivo.* La numeración de los pulsos de la casa (#1 al #10 al corte de esta pieza). Cada mapa vivo deja caja fechada para que el próximo lector compare su cuaderno con el nuestro.
+
+*Censo vivo.* El barrido grande de la casa: 5.684 repositorios al 15-oct-2026, con estrellas, pushes y licencias. Es la fuente de verdad de esta pieza — y crece por puerta verificada, no por promesa.
+
+*Vara.* La regla de la casa que decide qué entra al mapa: fuente abierta, licencia legible, pulso con fecha. La vara no clasifica por gusto — mide por oficio.
+
+*Corte.* El día y la hora en que se midió la verdad. Toda esta pieza es del corte 15-oct-2026; mañana el corte dirá lo que viva mañana — y esa es su honestidad, no su debilidad.
+
+*Quietud.* El silencio anotado: tronco grande sin empuje, con fecha de última actividad. No es muerte ni abandono automático — es pausa con acta. Timber y InnerTune son las quietudes de esta cosecha.
+
+*Push.* El último empuje del taller: la fecha de la última actividad del repositorio. En la escuela del puente, un push de esta semana vale más que mil estrellas — es la diferencia entre taller vivo y museo.
+
+*Release.* La versión publicada y firmada por el taller: la única forma del software que la casa palomea. OuterTune al corte trae la v0.10.1 contándose en público — eso es salud de release.
+
+*Asuntos.* Los issues del taller: la fila pública donde los problemas esperan turno. No cuenta la cantidad — cuenta si se contestan. Trescientos con respuestas respiran; cuarenta en silencio, no.
+
+*Estrellas.* El aplauso del ecosistema: mide fama, no calidad. ★49.974 (15-oct-2026) hace a Spotube el más aplaudido de la cosecha — la vara de la casa decide si ese aplauso viene con contrato.
+
+*Licencia.* El contrato escrito del taller: qué puedes hacer con su código. En esta cosecha firman GPL-3.0, AGPL-3.0 y MIT — y tres casas viajan sin firma clara, con su vara marcada.
+
+*GPL-3.0.* La licencia copyleft más común de la cosecha: usa el código, y lo que publiques con él se abre con la misma placa. Es la firma que convierte un silencio en genealogía — InnerTune la firmó, y OuterTune hereda con honor.
+
+*AGPL-3.0.* La GPL para servicios: si el código corre como servicio, también se abre. muffon la firma al 15-oct-2026 — la casa la lee con el mismo respeto que la GPL de sus hermanas.
+
+*MIT.* La licencia más simple de leer: haz casi lo que quieras, conserva el aviso. Salt Player la firma — garantía mínima, cadena limpia, cero letra chica.
+
+*NOASSERTION.* La placa en blanco: el repositorio no declara licencia reconocida. No es delito — es ausencia. Sin firma, el derecho por defecto es «todos los derechos reservados», y los reempaques viajan sin freno legal.
+
+*Copyleft.* La regla del recíproco: si tomas el código de un taller público para hacer el tuyo, lo que agregues sale con la misma placa. Es el antídoto del reempaque silencioso.
+
+*Fork.* La continuidad del software libre: un taller que nace del código de otro, respetando su licencia. OuterTune es el fork vivo de InnerTune — no su imitación: su línea.
+
+*Heredero.* El taller (o la línea) que toma el código de una casa quieta y sigue empujando. Para heredar con honor hace falta una sola cosa: que la madre haya firmado licencia. Sin firma no hay testamento.
+
+*Reempaque.* El APK que toma la obra de un taller, le mete anuncios o peaje, y la reparte con placa ajena. El enemigo viejo de la casa — y la razón de la vara: origen, firma, permisos, sin prisa.
+
+*Tienda legal.* La puerta de instalación que muestra el repositorio de origen: Droid-ify, Neo-Store, Accrescent, el F-Droid de la pieza 01. Si la tienda no muestra el repo, no es tienda — es grupo con carrocería bonita.
+
+*Droid-ify.* El cliente F-Droid material de la casa (pieza 01): busca la casa por su nombre exacto del censo y la instalación viaja con la placa a la vista. La primera puerta recomendada de esta cosecha.
+
+*Accrescent.* La tienda de estándares altos de la pieza 01: firmas estrictas, catálogo curado. Segunda puerta legal — la que usa el que prefieren las varas cortas.
+
+*F-Droid.* La casa madre de las tiendas libres: el catálogo histórico del ecosistema. Vieja, sabida y firme — el anexo donde la mayoría de las catorce de esta cosecha tiene placa.
+
+*APK.* El paquete instalable de Android. En sí mismo es neutro — como un sobre. La vara de la casa pregunta siempre lo mismo: ¿quién lo selló? La respuesta separa la tienda legal del grupo de siempre.
+
+*Firma.* La marca criptográfica del taller en su release. La tienda legal la verifica por ti; el APK de grupo, nadie sabe quién la puso. Sin firma verificable, no hay confianza — hay fe, y la casa no trabaja con fe.
+
+*Material You.* El lenguaje de diseño de Android moderno que sigue el color de tu fondo. Retro Music lo lleva de bandera (★5.357, 18-oct-2026) — el mueble clásico vestido de esta década.
+
+*Etiqueta.* La información adentro del archivo de música: título, artista, álbum, número, año. El reproductor lee la etiqueta, no el nombre del archivo — peinar etiquetas es peinar la biblioteca entera.
+
+*FLAC.* El formato sin pérdida: suena exacto al master y pesa cinco veces más que un MP3. Para el archivo maestro en la PC — no para el bolsillo del día a día.
+
+*MP3.* El formato que movió el mundo y sigue mandando en el bolsillo: a 320 kilobits suena igualito en auricular humilde y pesa como la palabra. La casa lo respeta sin nostalgia ni complejo.
+
+*Caché.* La memoria del río: las canciones que ya suenaste se guardan un tiempo para no volver a bajar. Es la gracia económica del streaming libre — la mata de hilo del tercer día suena media gratis.
+
+*Scrobble.* El hábito del detective: registrar lo que suenas para amarrar historial y descubrimiento. muffon lo trae de fábrica — el reproductor que también lleva el cuaderno de campo.
+
+*Discografía.* El mapa completo de un artista: álbumes, años, versiones. La vara del detective es amarrarla bien — muffon la cruza entre fuentes al 18-oct-2026 con ★2.246 y AGPL firmado.
+
+*Multi-fuente.* La casa que no se casa con un río: consulta varios provedores y te sirve la versión que esté limpia. Spotube, Namida y muffon viven de esa libertad — con sus licencias mirándose dos veces.
+
+*Streaming.* El modelo del río: suena ahora, no guarda nada tuyo. Infinito mientras el río corra — y por eso esta pieza repite: exporta lo que amas, streamea lo que descubres.
+
+*Aleatorio.* El modo más honesto del reproductor: te enseña cuánto conoces tu propio archivo. En el cajón con etiquetas peinadas, el aleatorio es un paseo; sin etiquetas, un secuestro.
+
+*Lista.* La secuencia guardada: el arte del anfitrión y la herramienta del viajero. La lista buena se exporta a archivo — la que solo vive dentro de la app es rehén de la app.
+
+*Exportar.* Sacar tus listas y favoritos a archivo que otra casa pueda leer. La prueba de propiedad de la escuela del río: si el mueble no exporta, eres inquilino con mueble bonito.
+
+*Sincronía.* La rutina que mueve tu música entre PC y teléfono sin cable ni heroico: Syncthing y su familia (viene en la serie). La copia maestra queda en casa; el teléfono lleva la de trabajo.
+
+*Copia maestra.* El original en FLAC que vive en tu PC o disco, del que nacen las copias de bolsillo. Convertir del maestro, nunca al revés: bordarle encaje a un saco de harina no lo vuelve traje.
+
+*Root.* El teléfono abierto de par en par. La casa lo trata en la pieza 20 con sus letreros — y esta cosecha musical NO lo necesita ni un poquito: fuente abierta es taller público, no cirugía.
+
+*Cuenta de prueba.* El casco de la obra: la cuenta sin nada personal que estrenas cualquier app nueva. En esta cosecha ninguna de las catorce pide contraseña — la que la pida, desinstálala y anota la fecha.
+
+*Letrero anti-reempaques.* La regla que SimpMusic puso en su casa (pieza 08) y se volvió ley del barrio: los reempaques no son míos y no los apoyo. El letrero que le quita al clonero su excusa favorita — la duda.
+
+*Genealogía.* El oficio de contar de dónde viene cada casa: troncos, forks, herederos, quietudes. La pareja InnerTune→OuterTune es la lección viva de esta cosecha — misma sangre, distinto pulso.
+
+*Sucesión.* El relevo ordenado cuando un taller se duerme: la línea GPL continúa en el heredero y el mapa anota el cambio con fecha. Sucesión limpia no tiene drama — tiene acta.
+
+*Corte honesto.* El corte que declara sus huecos: faltan casas, el censo sigue creciendo, y la pieza dice qué queda fuera. Sabe a lo que sabe — y lo que sabe, lo firma.
+
+*Rumor con formato.* Lo que queda de una recomendación cuando se le recorta la fecha: «Timber es el mejor» sin el 28-abr-2023 es un rumor con negritas. La casa comparte mapas con corte puesto.
+
+*Taller público.* El repositorio abierto: el taller cuyas herramientas, filas y errores están a la vista de todos. Las catorce de esta cosecha lo son — y por eso se les puede medir sin pedirle permiso a nadie.
+
+*Resurrección.* El regreso con fecha: tachiyomiJ2K volvió de dos años y medio de silencio (pieza 15). Por eso la quietud lleva acta y no lápida — la casa celebra el despertar el día que ocurre.
+
+*Gemela FB.* La copia hermana de una pieza que nacía para Facebook. Por orden del dueño del 15-oct noche, la serie nueva (21 en adelante) viaja SIN gemela: WhatsApp puro — el muro de Facebook queda fuera de esta cosecha. Ley anotada en la hoja de ruta, no en la discordia.
+
+*LA LISTA.* El índice vivo de la biblioteca (la pieza 00): el mapa del mapa donde cada guía nueva toma su número y su fila. Esta cosecha entra al corte siguiente de LA LISTA con su placa.
+
+*Boleta.* El único requisito de entrada a la biblioteca: haber abierto el repositorio, la página de versiones y la libreta de obra. Las catorce de esta cosecha pagaron boleta — por eso tienen pieza.
+
+*Lupa.* La herramienta de la casa que examina una pieza como un oficial de aduana: respiro, cadencia, anclas de tiempo, dialecto. La v6 «aire» es la que exige bloques que respiren — esta pieza nació bajo su vara.
+
+*Respiro.* La ley del aire: ningún bloque de la pieza debía quedarse sin oxígeno — al corte del 15-oct la vara mide ~380 caracteres por bloque. La música también respira: es la diferencia entre leer y ahogarse.
+
+*Certificación.* Las baterías que la pieza corre antes de firmarse FINAL: la experta (v4), la evolutiva (v5) y la de rarezas (fuzz) con semilla fija. Sin batería no hay sello — y sin sello, la pieza no se llama final.
+
+*Acta.* El documento fechado donde la casa anota lo que hizo: actas de corrección, actas de censo, actas de push. Lo que no tiene acta no pasó — y lo que pasó con acta, no se puede negar.
+
+*Registro.* El cuaderno mayor de la casa: registro-2026-10-15.md y sus hermanos por fecha, append-only. Aquí vive el acta de esta cosecha, con su pulso #10 y su hora.
+
+*Censo abierto.* La puerta del dueño: lo que encuentra un día, entra el MISMO día al censo con prioridad. Los Hush de la pieza 17 entraron así — y esta cosecha tiene la puerta abierta para la próxima casa musical que llegue.
+
+*Hallazgo.* La puerta que alguien trae a la casa: un repositorio que merece mapa. No se necesita vara de hierro para traerlo — se necesita fuente abierta: lo demás lo mide el censo.
+
+*Cola.* El orden sin favor: lo que no pasa la vara hoy queda en cola anotada, no en silencio. La cola tiene orden, no pena — y se revisa en cada corte.
+
+*Anti-omisión.* La ley de la casa contra el dato sin fecha: lo que no se re-pulsó viaja FECHADO como el corte en que se vio. Nunca «actualmente» sin hora — siempre «al 15-oct-2026».
+
+*Triple lectura.* La lectura de la casa antes de publicar: la del técnico (¿el dato aguanta?), la del lector (¿se entiende al primer trago?) y la del rival (¿dónde me meto?). Esta pieza pasó las tres — y los mitos son puro oro de la tercera.
+
+*Río.* El catálogo ajeno: YouTube Music, archive público, provedores varios. El río corre sin pedirte permiso y se corta sin avisar — por eso la escuela del puente se mide por push fresco.
+
+*Señal.* La torre que el río necesita y el cajón no. En la loma, la señal es la primera vara: lo que no descargaste no existe en carretera — lección que el campo enseña gratis.
+
+*Loma.* La geografía honesta del país: donde el streaming confiesa su dependencia. Toda la escuela del puente se queda mudita en la loma — el cajón suena igualito.
+
+*Modo avión.* La prueba de fuego del mueble local: ponerlo y que suene. Si tu lista de fiesta necesita torre, no era lista — era esperanza.
+
+*Anfitrión.* El que pone el teléfono en la fiesta. Su vara: lista corrida, pantalla bloqueada y cero promesas de wifi ajeno. La casa le recomienda cajón — el río en fiesta es apuesta.
+
+*Coleccionista.* El que suena, guarda, etiqueta y copia. No necesita FLAC de colección para empezar: necesita la rutina — maestro en PC, copia en teléfono, lista exportada. La estructura antes que el volumen.
+
+*Oído con oficio.* El que escucha preguntando: qué versión, qué año, qué disco. La escuela del detective existe para él — muffon al 18-oct-2026 con ★2.246 y AGPL firmado.
+
+*Bitrate.* Los kilobits por segundo del audio: la medida de cuánto archivo pesa una canción. A más bitrate, más fidelidad hasta donde el oído y el altavoz alcancen a distinguir — el 320 del MP3 es el techo práctico del bolsillo.
+
+*Pérdida.* Lo que un formato tira al comprimir. El MP3 la tiene (y bien administrada a 320 alcanza al bolsillo); el FLAC no la tiene — y por eso uno viaja y el otro archiva.
+
+*Conversión.* Pasar del maestro a la copia de trabajo: FLAC a MP3, una vez, desde el original. La conversión inversa no existe en la casa — no se inventa calidad que no bajó.
+
+*Permiso.* Lo que la app te pide al entrar. La vara: permiso fuera de oficio = desinstalar y volver al censo. Un reproductor que pide contactos no es reproductor — es huésped con maleta.
+
+*Desinstalar.* El acto de higiene digital: quitar la app con fecha anotada. La casa lo recomienda sin drama — la desinstalación honesta es la mitad de la vara que nadie cuenta.
+
+*Actualizar.* Traer la nueva release del taller legal. En la escuela del puente, actualizar semanal no es manía: es respirar — el río cambia de puerta y el taller contesta con push.
+
+*Versión.* El número que el taller pone a su release (OuterTune v0.10.1 al corte). Con versión hay historia: se puede comparar, se puede volver atrás, se puede exigir.
+
+*Snapshot.* La foto del estado en un momento: la caja de pulso de esta pieza es un snapshot del 15-oct-2026 a las ~23:12 UTC. Mañana será historia fechada — que es el único tipo de historia que la casa guarda.
+
+*Dialecto.* La voz de la casa: dominicano de verdad, con clienta, barrio y chin chin — pero el dato siempre en traje formal. El dialecto es la envoltura; la placa, el contenido.
+
+*Chin chin.* El golpe de mesa de la moral del meme: la sentence final que clava la lección. No es adorno — es la firma de la casa cuando el oficio quedó claro.
+
+*Muro FB.* La fila de piezas gemelas que la casa publicaba en Facebook. Desde el 15-oct noche: la serie 21+ va sin muro — WhatsApp puro. La ley del dueño, anotada con fecha y sin melcocha.
+
+*Índice.* El mapa de una pieza: el árbol de esta guía. Un árbol único por pieza, con secciones y tiempos — el lector sabe dónde está parado y cuánto falta pa la parada.
+
+*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
+
+*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
+
+*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
+
+*Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
+
+*Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
+
+*Segunda fila.* Los vecinos que el censo vio y esta pieza no tomó: podcast, vídeo puro y talleres bajo la vara del barrido. No es exclusión — es cola con orden, y se revisa en cada corte.
+
+*Oído del barrio.* El que escucha antes de opinar: prueba dos muebles, mira dos placas y pregunta en la fila antes de palomear. No nace sabido — se hace con una semana de ritual bien dada.
+
+Cartucho eterno|mGBA: la era de la Game Boy y la GBA en la pantalla — la sexta placa del salón (★7.513, pulso 19-oct-2026). Trece años de forja resucitando el recreo.
+
+Ley del juego de bolsillo|La del cartucho: se lee con SU lector fino (la tarde del cajón) — la única rom que la casa reconoce. El «todo incluido» del tacho: jamás.
+
+Tarde del rescate|La del cajón urgente: los cartuchos leyéndose ANTES de que la pila muera — el save del 99 despertando. El funeral de partidas — jubilado.
+
+Pila del 99|La CR2032 del cartucho: un reloj de arena guardando el save desde 1998 — cuando muere, la partida se borra sola. El rescate — no se aplaza.
+
+Lector fino|El aparato del volcado: se compra una vez o se presta en el club — la tarde del cajón colectiva. El leído comunitario — con firma de dueño.
+
+Limpieza fina|La del oficio: alcohol isopropílico y hisopo — jamás el soplido (la humedad oxida los pines). La costumbre — corregida con cariño.
+
+Cofre de la mochila|El de los saves de la familia: los del Tetris del papá con SU carpeta. La partida de dos generaciones — sagrada; el borrado fácil — jubilado.
+
+Regla del save|La de la pizarra de la casa: el torneo — prohibido; el viaje — libre. El lujo — con ley; el campeón — sin asterisco.
+
+Cable de link|El del recreo compartido: la partida de dos en la era de bolsillo. El recreo del liceo — resucitado por el cartucho.
+
+Precisión de ciclo|La del salón de bolsillo: cada ciclo del procesador, respetado — el juego corriendo como el primer día. La era — sin changüí.
+
+Cajón de los tornillos|El de los cartuchos guardados: los juegos del papá «por si acaso». El cofre eterno — esperando su tarde del rescate.
+
+Confesorio del oro|El de los saves por dueño: cada partida en SU carpeta, cada era con SU gente. El cofre de bolsillo — sin mezclas.
+
+Gira del cajón|La mensual del eterno: perfiles revisados, saves respaldados, cartuchos pendientes por tandas. El ritual — como toda la casa seria.
+
+Recreo de la campana|El del torneo con ley: veinte minutos, save prohibido, el acta en el cuaderno. El campeón — sin asterisco; la era — criando viajeros honestos.
+
+Recreo de la campana|El del torneo con ley: veinte minutos, save prohibido, el acta en el cuaderno. El campeón — sin asterisco.
+
+Cirugía de la pila|La del destornillador fino: la CR2032 cambiada con oficio, después del volcado — el cartucho con años de vida. La partida — primero.
+
+Tarde del cajón|La del lector fino en el club: cada quien con SU cartucho, cada rom con SU firma. El leído comunitario — de oficio.
+
+Save dormido|El del cartucho guardado: la partida viviendo en la pila del 98 — despertándose en el rescate. El cajón — con oro dormido.
+
+Paleta del color|La del ajuste de pantalla: verde de la era o color de HOY — la vista que la casa prefiera. La pantalla — al gusto, el juego — intacto.
+
+Récord del mostrador|El del Game & Watch del colmado: la marca del barrio en una pantalla de un solo juego. La era de bolsillo — naciendo en el mostrador.
+
+Tanda del autobús|La del trayecto con partida: veinte minutos, el save en cada parada — la era sirviendo el viaje. La madrugada — para el sueño.
+
+Guardería con era|La de la última hora: los juegos de la infancia de la maestra en la tablet de la sala — quince minutos por niño. La espera — sana y con save.
+
+Mudanza con cofre|La de la casa que se muda: los saves en dos discos ANTES de empacar — la partida viajando con la familia. El traslado — sin funerales.
+
+Etiqueta con firma|La del cartucho leído: nombre, año y dueño en cada rom — la Biblioteca del cajón hablándose. El volcado — nombrado como gente.
+
+Liceo sin confiscos|El del acuerdo con ley: el torneo del recreo en la pizarra, cada teléfono con SU cartucho leído. La era — jugándose a la luz del día.
+
+Hornada gemela|La del año 2013: el cubo y el cartucho naciendo el mismo año — dos forjas para dos eras. El salón — creciendo por parejas.
+
+Pila nueva, save viejo|El del cartucho operado: la CR2032 de HOY guardando la partida del 99 — el reloj de arena, reiniciado con oficio.
+
+Mochila con ley|La del muchacho honesto: SU cartucho leído, SU póliza al día, SU torneo en la pizarra. La era — de la casa pa el liceo.
+
+*🗓 EL RITUAL DE SIETE DÍAS (del cartucho en el cajón al bolsillo con ley)*
+
+*Día uno — el cartucho instalado.* mGBA de la forja (la letra leída en su hogar), la carpeta del bolsillo firmada (roms, saves, perfiles), la prueba en seco (la app: vacía y honesta). El bolsillo: con cartucho.
+
+*Día dos — la tarde del cajón.* Los cartuchos propios en SU lector (el lector fino del club: leyéndose con respeto), las roms en SU carpeta (nombre de gente y año), la primera partida de prueba. El cajón: leído con ley.
+
+*Día tres — la pantalla puesta.* El control elegido (botones en pantalla o el mando de la casa), el ajuste al gusto (la paleta, el tamaño: la pantalla de la era), la partida corta de prueba. La pantalla: puesta.
+
+*Día cuatro — la póliza del bolsillo.* Los saves en SU carpeta (los del papá: carpetas propias), la póliza en dos discos y la prueba del desastre (el save restaurado: ensayado). El oro: viajando con cofre.
+
+*Día cinco — el perfil por juego.* Los juegos exigidos probados (SU ajuste, anotado con fecha), la lista de la escala honesta (lo que pide más caja: anotado). Cada partida: con su receta.
+
+*Día seis — la pizarra del bolsillo.* La ley del cartucho propio escrita (la familia sabiendo: el juego del cajón — la única rom que se firma), la regla del save acordada (el torneo: prohibido — el viaje: libre; la pizarra de la casa), y la tarde del rescate anotada (los cartuchos pendientes: por tandas — antes de que las pilas mueran). El bolsillo: con ley.
+
+*Día siete — la gira fundada.* La gira mensual del bolsillo anotada (perfiles, saves, cartuchos pendientes: el ritual del bolsillo), el cartucho en el mapa de la casa (el salón: con su piso eterno), y la página del taller: el bolsillo documentado. La era eterna: FUNDADA — la casa, jugando con ley.
+
+*La regla del bolsillo:* cartucho propio, la pila atendida a tiempo, el save ajeno sagrado — y la gira: mandando.
+
+*📎 LOS APÉNDICES DEL BOLSILLO (lo que queda de la noche)*
+
+Apéndice A — el mapa del salón, al corte. La fila 71-80 con su sexta placa: el mueble padre (71: los cartuchos de sala), el windows de la mesa (72: la placa mayor), el salón del cubo (73: la era del movimiento), la bolsilla (74: la era portátil de disco), la negra chiquita (75: la era 32 bits), el cartucho eterno (esta: la era de bolsillo — trece años).
+
+Y la fila por delante: el traductor de lenguas (77), la doble pantalla (78), los relatos (79) — y el mapa del salón (80: el cierre). El salón: con su piso eterno — la era que cabe en la mano, en pie.
+
+Apéndice B — las cinco preguntas del mostrador, en una línea. ¿Qué hace? Corre los cartuchos de tu cajón en la pantalla que ya llevas, con precisión de ciclo. ¿Qué no hace? No trae juegos (la ley del cartucho propio), no sopla cartuchos (el oficio: alcohol y hisopo). ¿Cuánto cuesta? Nada — la letra MPL-2.0 se lee en su hogar; el lector fino: la compra fina del bolsillo.
+
+¿Cuánto tarda? Una semana pausa con SU póliza. ¿Y las pilas? El rescate: esta semana — los saves del 99: al cofre antes de que mueran.
+
+Apéndice C — la página en blanco. La que la forja deja abierta a propósito: ¿qué partida dejó el papá en el cartucho del cajón de los tornillos — y cuántos años le quedan a esa pila? Esa respuesta — la tuya, fechada — vale más que 7.507 estrellas: es la vara midiendo qué oro duerme en tu cajón.
+
+La obra no termina en la lectura: termina cuando el cartucho del tornillo, vuelve a la pantalla.
+
+Apéndice D — la sala de los errores. Las tres fallas posibles y su salida. Si el cartucho no lee (el contacto sucio): la limpieza fina del oficio (alcohol isopropílico y hisopo: la secada paciente — jamás el soplido) y el lector del club (la tarde del cajón colectiva — el leído comunitario).
+
+Si el juego va a tirones (el juego exigido sin perfil): el perfil por juego (SU ajuste, anotado — la lista de la escala honesta). Si el save no aparece tras la mudanza (la carpeta distinta): el cofre revisado (los saves: en SU carpeta con nombre — la gira del cofre, siempre).
+
+Apéndice E — la fila que viene. La 77 firma el traductor de lenguas (la era del x86 en el brazo: la séptima placa del salón). La casa no improvisa: arma el salón por eras. Y la noche firma: el cartucho eterno — la era de bolsillo, de vuelta en la pantalla; la pila del 99: con rescate y con respeto.
+
+*🎯 EL MINIQUIZ DEL BOLSILLO*
+
+*LAS PREGUNTAS:*
+
+*1.* ¿Qué era corre el cartucho eterno — y con qué ley número uno?
+
+*2.* ¿Por qué se rescata el cartucho viejo — qué es la pila CR2032?
+
+*3.* ¿Qué se hace con el save del papá — la regla del oro?
+
+*4.* ¿Qué placa es la del cartucho — entre quiénes corre y con qué edad?
+
+*5.* ¿El save infinito es trampa — la regla de la casa?
+
+*Respuestas al revés (léelas de atrás para adelante):*
+
+REV|.ocsiretsa nis :otsenoh oenrot led nóepmac lE .erbil evas :arepse al y ejaiv le ;)raguj ed setna atircse arrazip al( odibihorp evas :oter le y oenrot le — yel noc OJUL se :oN
+
+REV|.)6202-3102( ajrof ed SOÑA ECERT :)828.1 rop( 976.5★ rotcudart led amicne ,)943.3 rop( 658.01★ atiuqihc argen al ed ojabed — )6202-tco-81 oslup( 705.7★ :nólas led acalp atxes aL
+
+REV|.»oicapse recah« ap arrob es sámaj — aiporp al euq adargas sám se senoicareneg sod ed aditrap al :ateprac US ne av y otepser noc agrac es ,)socsid sod( racot ed SETNA aipoc eS
+
+REV|.)odaclov led séupsed aibmac es :alip al y( anames ATSE neel es nójac led sohcutrac sol :etacser lE .olos arrob es evas le ,ereum odnauc — 8991 edsed anera ed joler nu :ohcutrac led 2302RC alip aL
+
+REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq mor acinú al( onif rotcel US noc eel es nójac led ogeuj le :oiporp ohcutrac led yel al noc — ABG al y yoB emaG aL
+
+*💌 LAS CARTAS AL LECTOR*
+
+*PRIMERA CARTA — al que tiene los cartuchos en el cajón de los tornillos.* El que guarda los juegos de la era de bolsillo (los del papá, los propios: el cajón con celo — «ya no hay na que los lea»): la vara de esta pieza es tu cajón — el cartucho los corre (la tarde del rescate: tus saves del 99, despertándose ANTES de que la pila muera).
+
+Tu cajón: no es chatarra — es el recreo esperando su campana.
+
+*SEGUNDA CARTA — al que lleva su mochila en la app del tacho.* El que lleva años con el «emulador con todo incluido» (cómodo, al toque — con sus 1000 juegos de nadie): la vara del bloque no te juzga — te deja el mapa (lo que el tacho trae: la era robada + el regalito que mira tu mochila; y el remedio: el leído de TU cajón — los 8 cartuchos que de verdad juegas, con tu firma).
+
+Con la vara fina: la diferencia de bolsillo (el cartucho honesto: la precisión de ciclo, el save heredado con cofre, el recreo a fluidez — el tacho: no ofrece na de eso). Tu mochila: merece su era propia — no 1000 desconocidos.
+
+*TERCERA CARTA — al que la partida del 99 le duele de memoria.* El que recuerda el save perdido (el que la pila se llevó en silencio, en un cajón, en un «ya no importa»): esta pieza es tu segunda chance — la tarde del rescate: los saves dormidos, despertándose con oficio (se leen ANTES de que mueran: la partida del 99 — continuando donde la dejaste).
+
+Con vara fina: la lección de la casa (lo que hoy juega tu hermano menor o tu hijo: SU save se respalda HOY — la era criando casas que no pierden partidas). El save perdido: no vuelve — el próximo: jamás se pierde.
+
+*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+
+Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el recreo de una casa también se hereda — mgba-emu/mgba ★7.513 (pulso 19-oct-2026), la sexta placa del salón, trece años de forja resucitando la era de bolsillo: los cartuchos del cajón, de vuelta en la pantalla.
+
+La forja lo midió con el pulso de HOY y lo firma: la ley del cartucho propio (el juego del cajón, leído con respeto), la tarde del rescate (la pila: reloj de arena — el save: al cofre a tiempo), el cofre del oro eterno — y la regla cosida: el save del papá, sagrado.
+
+Busca el cajón de los tornillos. Pide el lector del club. Pon la mano en el control. Y cuando el tacho te ofrezca 1000 juegos incluidos, recuerda: la mochila de tu casa son tus 8 cartuchos y el save del 99 — porque un recreo no se descarga: se rescata, se respalda y se juega en tandas. Eso no lo firma el tacho: lo firman trece años de forja, y empujan HOY.
+
+───────────────────
+
+#LaBandita #ElCartuchoEterno #mGBA #SelfHosted #FOSS #DominicanoES
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 76).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `mgba-emu/mgba` — ★7.539 (verificado 29-oct-2026) · última actividad 2026-10-28 · MPL-2.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

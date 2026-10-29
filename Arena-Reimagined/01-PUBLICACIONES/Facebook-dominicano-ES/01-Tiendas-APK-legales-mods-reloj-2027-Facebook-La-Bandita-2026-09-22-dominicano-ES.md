@@ -20,7 +20,7 @@ Y todo eso corre contra un calendario que ya tiene fecha: la verificación de de
 
 🌐 MAPA MENTAL — LA FAMILIA DE ESTA GUÍA EN UNA FOTO
 
-▸ Familia / Nombre / Lo que hace por ti
+▸ La familia, quién la sirve y qué hace por ti
 • La casa → F-Droid
 Revisa y compila reproducible; responde con su nombre
 • El anexo → IzzyOnDroid
