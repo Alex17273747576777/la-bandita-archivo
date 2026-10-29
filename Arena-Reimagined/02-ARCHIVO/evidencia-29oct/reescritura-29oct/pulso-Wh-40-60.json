@@ -1,0 +1,357 @@
+{
+ "repos": {
+  "adguardteam/adguardhome": {
+   "slug": "AdguardTeam/AdGuardHome",
+   "estado": "vivo",
+   "stars": 37863,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "vremsoftwaredevelopment/wifianalyzer": {
+   "slug": "VREMSoftwareDevelopment/WiFiAnalyzer",
+   "estado": "vivo",
+   "stars": 5050,
+   "push": "2026-10-03",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "wireguard/wireguard-android": {
+   "slug": "WireGuard/wireguard-android",
+   "estado": "vivo",
+   "stars": 1657,
+   "push": "2026-06-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "beemdevelopment/aegis": {
+   "slug": "beemdevelopment/Aegis",
+   "estado": "vivo",
+   "stars": 13414,
+   "push": "2026-09-06",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "bromite/bromite": {
+   "slug": "bromite/bromite",
+   "estado": "vivo",
+   "stars": 6321,
+   "push": "2024-01-24",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "celzero/rethink-app": {
+   "slug": "celzero/rethink-app",
+   "estado": "vivo",
+   "stars": 5810,
+   "push": "2026-10-26",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "chooloo/koler": {
+   "slug": "Chooloo/koler",
+   "estado": "vivo",
+   "stars": 1069,
+   "push": "2024-12-27",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "cloudflare/boringtun": {
+   "slug": "cloudflare/boringtun",
+   "estado": "vivo",
+   "stars": 7237,
+   "push": "2026-06-29",
+   "archivado": false,
+   "licencia": "BSD-3-Clause"
+  },
+  "dani-garcia/vaultwarden": {
+   "slug": "dani-garcia/vaultwarden",
+   "estado": "vivo",
+   "stars": 69893,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "fossifyorg/phone": {
+   "slug": "FossifyOrg/Phone",
+   "estado": "vivo",
+   "stars": 1394,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "helloworld1/freeotpplus": {
+   "slug": "helloworld1/FreeOTPPlus",
+   "estado": "vivo",
+   "stars": 749,
+   "push": "2026-08-24",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "home-assistant/android": {
+   "slug": "home-assistant/android",
+   "estado": "vivo",
+   "stars": 4012,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "home-assistant/core": {
+   "slug": "home-assistant/core",
+   "estado": "vivo",
+   "stars": 91830,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "immich-app/immich": {
+   "slug": "immich-app/immich",
+   "estado": "vivo",
+   "stars": 117610,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "ironfox-oss/ironfox": {
+   "slug": "ironfox-oss/IronFox",
+   "estado": "vivo",
+   "stars": 1087,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "jellyfin/jellyfin": {
+   "slug": "jellyfin/jellyfin",
+   "estado": "vivo",
+   "stars": 58784,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "jellyfin/jellyfin-android": {
+   "slug": "jellyfin/jellyfin-android",
+   "estado": "vivo",
+   "stars": 2839,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "jellyfin/jellyfin-androidtv": {
+   "slug": "jellyfin/jellyfin-androidtv",
+   "estado": "vivo",
+   "stars": 4675,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "localsend/localsend": {
+   "slug": "localsend/localsend",
+   "estado": "vivo",
+   "stars": 96455,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "muntashirakon/appmanager": {
+   "slug": "MuntashirAkon/AppManager",
+   "estado": "vivo",
+   "stars": 9369,
+   "push": "2026-10-19",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "nextcloud/all-in-one": {
+   "slug": "nextcloud/all-in-one",
+   "estado": "vivo",
+   "stars": 10750,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "nextcloud/android": {
+   "slug": "nextcloud/android",
+   "estado": "vivo",
+   "stars": 5656,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "nextcloud/docker": {
+   "slug": "nextcloud/docker",
+   "estado": "vivo",
+   "stars": 7417,
+   "push": "2026-10-23",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "nextcloud/server": {
+   "slug": "nextcloud/server",
+   "estado": "vivo",
+   "stars": 37345,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "openwrt/luci": {
+   "slug": "openwrt/luci",
+   "estado": "vivo",
+   "stars": 7939,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "openwrt/openwrt": {
+   "slug": "openwrt/openwrt",
+   "estado": "vivo",
+   "stars": 28975,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "openwrt/packages": {
+   "slug": "openwrt/packages",
+   "estado": "vivo",
+   "stars": 4660,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "photoprism/photoprism": {
+   "slug": "photoprism/photoprism",
+   "estado": "vivo",
+   "stars": 40370,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "pi-hole/pi-hole": {
+   "slug": "pi-hole/pi-hole",
+   "estado": "vivo",
+   "stars": 61558,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "proninyaroslav/libretorrent": {
+   "slug": "proninyaroslav/libretorrent",
+   "estado": "vivo",
+   "stars": 4009,
+   "push": "2026-07-24",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "qbittorrent/qbittorrent": {
+   "slug": "qbittorrent/qBittorrent",
+   "estado": "vivo",
+   "stars": 41213,
+   "push": "2026-10-26",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "quik-sms/quik": {
+   "slug": "quik-sms/quik",
+   "estado": "vivo",
+   "stars": 2877,
+   "push": "2026-09-27",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "researchxxl/syncthing-android": {
+   "slug": "researchxxl/syncthing-android",
+   "estado": "vivo",
+   "stars": 3192,
+   "push": "2026-10-22",
+   "archivado": false,
+   "licencia": "MPL-2.0"
+  },
+  "serverless-dns/serverless-dns": {
+   "slug": "serverless-dns/serverless-dns",
+   "estado": "vivo",
+   "stars": 3832,
+   "push": "2026-05-06",
+   "archivado": false,
+   "licencia": "MPL-2.0"
+  },
+  "signalapp/signal-android": {
+   "slug": "signalapp/Signal-Android",
+   "estado": "vivo",
+   "stars": 29553,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "signalapp/signal-server": {
+   "slug": "signalapp/Signal-Server",
+   "estado": "vivo",
+   "stars": 10757,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "signalapp/libsignal": {
+   "slug": "signalapp/libsignal",
+   "estado": "vivo",
+   "stars": 6098,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "simplex-chat/simplex-chat": {
+   "slug": "simplex-chat/simplex-chat",
+   "estado": "vivo",
+   "stars": 19613,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "syncthing/syncthing": {
+   "slug": "syncthing/syncthing",
+   "estado": "vivo",
+   "stars": 89873,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MPL-2.0"
+  },
+  "syncthing/syncthing-android": {
+   "slug": "syncthing/syncthing-android",
+   "estado": "vivo",
+   "stars": 4293,
+   "push": "2024-12-03",
+   "archivado": true,
+   "licencia": "MPL-2.0"
+  },
+  "tailscale/tailscale": {
+   "slug": "tailscale/tailscale",
+   "estado": "vivo",
+   "stars": 38304,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "BSD-3-Clause"
+  },
+  "tailscale/tailscale-android": {
+   "slug": "tailscale/tailscale-android",
+   "estado": "vivo",
+   "stars": 2756,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "BSD-3-Clause"
+  },
+  "uazo/cromite": {
+   "slug": "uazo/cromite",
+   "estado": "vivo",
+   "stars": 8449,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "you-apps/connectyou": {
+   "slug": "you-apps/ConnectYou",
+   "estado": "vivo",
+   "stars": 729,
+   "push": "2026-07-30",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  }
+ },
+ "urls": {}
+}
