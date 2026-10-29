@@ -4,9 +4,15 @@
 
 ## ⚡ En una página
 
-La mina, tercera parte: la puerta del anime y vídeo (132 corrientes nuevas — la mayor del censo fuera de música) y los servidores de nube personal. Censo completo por rango y fecha, verificado HOY, 15 de septiembre. La puerta grande ya caminó tres alas; este es el territorio del archivo, con fecha en cada puerta — para cuando toque, sin acumular polvo.
+La mina, tercera parte: la puerta del anime y vídeo (132 corrientes nuevas — la mayor del censo
+fuera de música) y los servidores de nube personal. Censo completo por rango y fecha, verificado
+HOY, 15 de septiembre.
 
-**Censo:** 186 repos · R1:122 · R2:36 · R3:27 · E:1 — todos verificados HOY por átomos de releases (fecha de última release junto a cada nombre).
+La puerta grande ya caminó tres alas; este es el territorio del archivo, con fecha en cada
+puerta — para cuando toque, sin acumular polvo.
+
+**Censo:** 186 repos · R1:122 · R2:36 · R3:27 · E:1 — todos verificados HOY por átomos de
+releases (fecha de última release junto a cada nombre).
 
 ## 📊 Las puertas, por clase
 
@@ -204,14 +210,17 @@ La mina, tercera parte: la puerta del anime y vídeo (132 corrientes nuevas — 
 
 ## 🔗 Enlaces
 
-Cada nombre es un repositorio de github.com/. El censo entero vive en el Clasificador de la casa; las fichas nominativas (estrellas y descripciones) irán por hornadas si el dueño pide profundidad.
+Cada nombre es un repositorio de github.com/. El censo entero vive en el Clasificador de la
+casa; las fichas nominativas (estrellas y descripciones) irán por hornadas si el dueño pide
+profundidad.
 
 ## El meme del censo
 
 > —¿Y esto sin fotos?
 > —Con fechas. La foto puede esperar: la vida no.
 
-> La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el mapa. Corte del 15 de septiembre de 2026.
+> La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el
+mapa. Corte del 15 de septiembre de 2026.
 
 **Nota de la verificación extrema (15-sep, noche):** noticia del corte, constatada en cobertura pública del 8-sep: Nuvio fue suspendido de Google Play tras una queja DMCA de la MPA — seis títulos citados, según contó el propio equipo. La casa GitHub sigue viva HOY (NuvioTV, ★2.667) y circulan apps falsas con su nombre en la tienda: la instalación va por su casa, como siempre dice esta colección.
 
@@ -219,9 +228,12 @@ Cada nombre es un repositorio de github.com/. El censo entero vive en el Clasifi
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 56).*
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 62 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 62
+repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el
+estado medido hoy.
 
-Actividad medida hoy: 11 hoy · 22 en 7 días · 14 en 30 días · 7 en 180 días · 8 dormidos · 0 archivados.
+Actividad medida hoy: 11 hoy · 22 en 7 días · 14 en 30 días · 7 en 180 días · 8 dormidos · 0
+archivados.
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
@@ -283,4 +295,5 @@ Licencias sin resolver hoy (10): `dogior/dogiorshadenough`, `haiwen/seadroid`, `
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
+el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

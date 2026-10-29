@@ -36,7 +36,10 @@ Ningún repo vive solo: vive en una casa (la organización que firma varias herr
 
 ## 🧭 La pieza madre
 
-La versión larga vive en WhatsApp 104 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 12 repos que esta página cruza con placa propia, hoy cuentan 7 con actividad de la semana, 2 del mes y 0 en calma firmada. Archivados con nombre: `asrofficialdev/redantotsu`, `kotatsuapp/kotatsu` — historia honesta, no recomendación fresca.
+La versión larga vive en WhatsApp 104 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 12 repos que esta página cruza con placa propia, hoy cuentan 7 con actividad de la semana, 2 del mes y 0 en calma firmada.
+
+Archivados con nombre: `asrofficialdev/redantotsu`, `kotatsuapp/kotatsu` — historia honesta, no
+recomendación fresca.
 
 ## ⚖ La vara
 
@@ -46,6 +49,9 @@ Entender la casa es entender qué pasa el día que una silla se vacíe.
 
 > —Cerró el repo, se acabó todo. —La casa tenía hijo en faena: los apellidos también heredan oficio.
 
-> La Bandita verifica antes de recomendar: pieza 104 del muro, nacida el 29 de octubre de 2026 desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 104 del muro, nacida el 29 de octubre de 2026
+desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
+mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
+primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.

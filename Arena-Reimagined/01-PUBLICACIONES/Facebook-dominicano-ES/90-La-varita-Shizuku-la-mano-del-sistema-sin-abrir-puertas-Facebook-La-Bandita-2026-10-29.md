@@ -32,6 +32,9 @@ El poder prestado con recibo vence al poder tomado sin papel: esa es la varita.
 
 > —Sin root no se puede nada. —La varita lleva años prestando la mano sin romper la puerta.
 
-> La Bandita verifica antes de recomendar: pieza 90 del muro, nacida el 29 de octubre de 2026 desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 90 del muro, nacida el 29 de octubre de 2026
+desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
+mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
+primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.

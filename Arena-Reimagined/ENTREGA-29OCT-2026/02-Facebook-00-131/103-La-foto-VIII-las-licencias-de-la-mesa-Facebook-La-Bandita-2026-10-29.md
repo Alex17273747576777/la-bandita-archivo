@@ -4,7 +4,12 @@
 
 ## ⚡ En una página
 
-Toda foto esconde un contrato: quién puede mirar, copiar y construir encima. La licencia decide si tu fork de mañana es legal y si tu tienda puede distribuir. Esta casa no milita licencias: las retrata, familia por familia, y deja la elección al dueño que elige con los ojos abiertos. La de hoy manda doble: licencia sin resolver es recomendación incompleta, y así se firma.
+Toda foto esconde un contrato: quién puede mirar, copiar y construir encima. La licencia decide
+si tu fork de mañana es legal y si tu tienda puede distribuir.
+
+Esta casa no milita licencias: las retrata, familia por familia, y deja la elección al dueño que
+elige con los ojos abiertos. La de hoy manda doble: licencia sin resolver es recomendación
+incompleta, y así se firma.
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
@@ -46,6 +51,9 @@ La foto que no retrata el contrato esconde la mitad de la foto.
 
 > —Es gratis, úsalo como quieras. —Gratis no es “como quieras”: el papelito del repo decide.
 
-> La Bandita verifica antes de recomendar: pieza 103 del muro, nacida el 29 de octubre de 2026 desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 103 del muro, nacida el 29 de octubre de 2026
+desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
+mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
+primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.

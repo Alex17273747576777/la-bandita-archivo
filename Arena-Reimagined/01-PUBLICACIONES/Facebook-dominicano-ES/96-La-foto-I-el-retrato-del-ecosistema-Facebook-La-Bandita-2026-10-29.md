@@ -32,8 +32,12 @@ Un ecosistema sin foto es una ciudad sin censo: todos opinan, nadie cuenta.
 
 ## El meme de la pieza
 
-> —Ese ecosistema está muerto, lo leí por ahí. —La foto contó otra cosa, con fecha: contar vence a “por ahí”.
+> —Ese ecosistema está muerto, lo leí por ahí. —La foto contó otra cosa, con fecha: contar vence
+a “por ahí”.
 
-> La Bandita verifica antes de recomendar: pieza 96 del muro, nacida el 29 de octubre de 2026 desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 96 del muro, nacida el 29 de octubre de 2026
+desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
+mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
+primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.

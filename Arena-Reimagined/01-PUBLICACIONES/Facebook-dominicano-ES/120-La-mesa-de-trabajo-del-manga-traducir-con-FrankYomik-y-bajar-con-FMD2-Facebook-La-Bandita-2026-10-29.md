@@ -21,7 +21,8 @@ Dos oficios finos de la mesa del manga empujaron esta semana: FrankYomik — nac
 
 **1.** La traducción automática se revisa con ojos humanos: la máquina propone, el lector firma.
 
-**2.** Descargar lo tuyo o lo libre, y archivarlo en tu sótano (108): la mesa y la bodega son la misma casa.
+**2.** Descargar lo tuyo o lo libre, y archivarlo en tu sótano (108): la mesa y la bodega son la
+misma casa.
 
 **3.** Oficio joven (ocho meses) con release de ayer.
 
@@ -33,8 +34,11 @@ Las herramientas de taller no presumen: sostienen la biblioteca que las piezas d
 
 ## El meme de la pieza
 
-> —La IA ya traduce mi manga. —Traduce un borrador: la página final la sigue firmando un lector despierto.
+> —La IA ya traduce mi manga. —Traduce un borrador: la página final la sigue firmando un lector
+despierto.
 
-> La Bandita verifica antes de recomendar: pieza 120 del muro, nacida el 29 de octubre de 2026 con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 120 del muro, nacida el 29 de octubre de 2026
+con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se firma con actividad y licencia, no con aplauso.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
+firma con actividad y licencia, no con aplauso.

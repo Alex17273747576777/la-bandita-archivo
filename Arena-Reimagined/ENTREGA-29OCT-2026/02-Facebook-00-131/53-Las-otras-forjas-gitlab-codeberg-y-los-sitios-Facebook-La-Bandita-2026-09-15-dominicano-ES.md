@@ -40,31 +40,45 @@ La mina no vive solo en GitHub: el archivo del dueño trajo **89 enlaces a otras
 - **403 (la forja cierra la puerta al sondeo; no se declara estado):**
   - AniDB — https://anidb.net
   - Openverse — https://openverse.org
-- Los 86 vivos quedan censados en el Clasificador con su forja y su URL — sin versiones inventadas: su vara de releases se construirá con método propio (GitLab API, Codeberg releases, F-Droid índice).
+- Los 86 vivos quedan censados en el Clasificador con su forja y su URL — sin versiones
+inventadas: su vara de releases se construirá con método propio (GitLab API, Codeberg releases,
+F-Droid índice).
 
 ## ❓ Preguntas de las forjas
 
 **¿Por qué no barrer GitLab como GitHub?**
-Porque cada forja habla su idioma y la casa no le pone palabras a quien no las dijo: sondeo de vida HOY, vara de versiones cuando exista método. Mejor un censo honesto que un censo ruidoso.
+Porque cada forja habla su idioma y la casa no le pone palabras a quien no las dijo: sondeo de
+vida HOY, vara de versiones cuando exista método. Mejor un censo honesto que un censo ruidoso.
 
-> La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el mapa. Corte del 15 de septiembre de 2026.
+> La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el
+mapa. Corte del 15 de septiembre de 2026.
 
 ---
 
-**Corrección (15-sep, madrugada XXXV):** la reconstrucción completa del archivo trae **136 enlaces no-GitHub únicos** — los 89 de esta pieza contaban solo la URL principal de cada ficha; ahora se cuentan también las de descripción y tiendas. Sondeo renovado: **129 vivos · 5×403 · 2×404**. La promesa se cumplió: **ANEXO FORJAS abierto en el Clasificador** con las 136 URLs y sus estados, y la primera vara de versiones ya habló (GitLab/Codeberg/F-Droid por API pública — piezas 69 y 70).
+**Corrección (15-sep, madrugada XXXV):** la reconstrucción completa del archivo trae **136 enlaces no-GitHub únicos** — los 89 de esta pieza contaban solo la URL principal de cada ficha; ahora se cuentan también las de descripción y tiendas. Sondeo renovado: **129 vivos · 5×403 · 2×404**.
+
+La promesa se cumplió: **ANEXO FORJAS abierto en el Clasificador** con las 136 URLs y sus estados, y la primera vara de versiones ya habló (GitLab/Codeberg/F-Droid por API pública — piezas 69 y 70).
 
 ───────────────────
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 53).*
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0 repos GitHub confirmados y 3 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0
+repos GitHub confirmados y 3 apariciones de URL. La historia no se reescribe; esta nota añade el
+estado medido hoy.
 
 Enlaces web: 3 apariciones; 2 respondieron vivas el 29-oct-2026.
 
 • Enlace caído (404 verificado 29-oct-2026): https://burnsomni.net/manuals/pagan
 
-Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario compartido; la verificación de esta publicación es la de sus URL y la del universo global de la pasada.
+Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario
+compartido; la verificación de esta publicación es la de sus URL y la del universo global de la
+pasada.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
+el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
 
-💓 *FE DE CIERRE 29-OCT-2026:* en el chequeo universal byte por byte de hoy, este enlace citado en el cuerpo responde **404**: `https://burnsomni.net/manuals/pagan`. Queda firmado aquí para que nadie prometa lo que la web ya no sirve; las placas de la pieza se midieron aparte y constan en su pulso.
+💓 *FE DE CIERRE 29-OCT-2026:* en el chequeo universal byte por byte de hoy, este enlace citado
+en el cuerpo responde **404**: `https://burnsomni.net/manuals/pagan`. Queda firmado aquí para
+que nadie prometa lo que la web ya no sirve; las placas de la pieza se midieron aparte y constan
+en su pulso.

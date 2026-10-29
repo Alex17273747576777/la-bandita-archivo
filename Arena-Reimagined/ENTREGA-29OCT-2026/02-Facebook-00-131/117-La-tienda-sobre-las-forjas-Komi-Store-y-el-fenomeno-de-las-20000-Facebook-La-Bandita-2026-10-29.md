@@ -15,20 +15,26 @@ Una tienda que vive de los releases de GitHub juntó veinte mil estrellas en onc
 
 ## 📦 Las reglas de la casa
 
-**1.** Tienda sobre forjas hereda la vara de la 111: la app vigilada nace de SU repo oficial, jamás de la vitrina.
+**1.** Tienda sobre forjas hereda la vara de la 111: la app vigilada nace de SU repo oficial,
+jamás de la vitrina.
 
 **2.** Rebranding frecuente se anota con fecha: el nombre nuevo no borra la historia del viejo.
 
-**3.** Veinte mil estrellas en once meses es un dato, no un aval: el aval es release firmada y licencia leída.
+**3.** Veinte mil estrellas en once meses es un dato, no un aval: el aval es release firmada y
+licencia leída.
 
 ## ⚖ La vara
 
-La popularidad veloz es exactamente lo que esta casa aprendió a pulsar dos veces antes de recomendar.
+La popularidad veloz es exactamente lo que esta casa aprendió a pulsar dos veces antes de
+recomendar.
 
 ## El meme de la pieza
 
-> —Veinte mil estrellas no pueden estar equivocadas. —Pueden estar apuradas: por eso esta casa lee la licencia y fecha el fenómeno.
+> —Veinte mil estrellas no pueden estar equivocadas. —Pueden estar apuradas: por eso esta casa
+lee la licencia y fecha el fenómeno.
 
-> La Bandita verifica antes de recomendar: pieza 117 del muro, nacida el 29 de octubre de 2026 con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 117 del muro, nacida el 29 de octubre de 2026
+con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se firma con actividad y licencia, no con aplauso.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
+firma con actividad y licencia, no con aplauso.

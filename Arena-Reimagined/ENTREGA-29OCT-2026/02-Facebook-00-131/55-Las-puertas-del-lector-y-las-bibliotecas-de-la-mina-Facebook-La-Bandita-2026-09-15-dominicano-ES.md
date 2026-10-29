@@ -4,9 +4,15 @@
 
 ## ⚡ En una página
 
-La mina, segunda parte: las puertas del lector — lectura y cómics (la más grande del lote), y las bibliotecas de metadatos y organización. Censo completo por rango y fecha, verificado HOY, 15 de septiembre. Las cuatro puertas de lectura de esta biblioteca ya tienen su estante; este es el territorio que falta por caminar, con fecha en cada puerta.
+La mina, segunda parte: las puertas del lector — lectura y cómics (la más grande del lote), y
+las bibliotecas de metadatos y organización. Censo completo por rango y fecha, verificado HOY,
+15 de septiembre.
 
-**Censo:** 207 repos · R1:128 · R2:62 · R3:17 — todos verificados HOY por átomos de releases (fecha de última release junto a cada nombre).
+Las cuatro puertas de lectura de esta biblioteca ya tienen su estante; este es el territorio que
+falta por caminar, con fecha en cada puerta.
+
+**Censo:** 207 repos · R1:128 · R2:62 · R3:17 — todos verificados HOY por átomos de releases
+(fecha de última release junto a cada nombre).
 
 ## 📊 Las puertas, por clase
 
@@ -225,22 +231,28 @@ La mina, segunda parte: las puertas del lector — lectura y cómics (la más gr
 
 ## 🔗 Enlaces
 
-Cada nombre es un repositorio de github.com/. El censo entero vive en el Clasificador de la casa; las fichas nominativas (estrellas y descripciones) irán por hornadas si el dueño pide profundidad.
+Cada nombre es un repositorio de github.com/. El censo entero vive en el Clasificador de la
+casa; las fichas nominativas (estrellas y descripciones) irán por hornadas si el dueño pide
+profundidad.
 
 ## El meme del censo
 
 > —¿Y esto sin fotos?
 > —Con fechas. La foto puede esperar: la vida no.
 
-> La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el mapa. Corte del 15 de septiembre de 2026.
+> La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el
+mapa. Corte del 15 de septiembre de 2026.
 
 ───────────────────
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 55).*
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 52 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 52
+repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el
+estado medido hoy.
 
-Actividad medida hoy: 12 hoy · 12 en 7 días · 9 en 30 días · 12 en 180 días · 6 dormidos · 1 archivados.
+Actividad medida hoy: 12 hoy · 12 en 7 días · 9 en 30 días · 12 en 180 días · 6 dormidos · 1
+archivados.
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
@@ -300,4 +312,5 @@ Licencias sin resolver hoy (6): `itsmechinmoy/dantotsu`, `bibledit/android`, `lu
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
+el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

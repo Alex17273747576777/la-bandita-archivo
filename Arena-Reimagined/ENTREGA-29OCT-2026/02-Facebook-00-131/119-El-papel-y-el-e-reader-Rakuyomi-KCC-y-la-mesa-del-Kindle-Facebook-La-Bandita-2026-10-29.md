@@ -25,18 +25,24 @@ La lectura también vive en tinta electrónica: Rakuyomi lleva el manga al e-rea
 
 **1.** El archivo convertido se guarda en tu bodega: el e-reader lee lo que tu disco custodia.
 
-**2.** Convertidor decano vivo vale por su fecha: release de ayer en un oficio de 2012 es salud firmada.
+**2.** Convertidor decano vivo vale por su fecha: release de ayer en un oficio de 2012 es salud
+firmada.
 
-**3.** Lo dormido del estante (el puente que no empuja desde 2024) se firma como calma, no como camino.
+**3.** Lo dormido del estante (el puente que no empuja desde 2024) se firma como calma, no como
+camino.
 
 ## ⚖ La vara
 
-El papel electrónico es la biblioteca sin notificaciones: merece la misma verificación que la pantalla grande.
+El papel electrónico es la biblioteca sin notificaciones: merece la misma verificación que la
+pantalla grande.
 
 ## El meme de la pieza
 
-> —El Kindle es solo para la tienda. —Era: con su convertidor y su lector, la tinta también se autoaloja.
+> —El Kindle es solo para la tienda. —Era: con su convertidor y su lector, la tinta también se
+autoaloja.
 
-> La Bandita verifica antes de recomendar: pieza 119 del muro, nacida el 29 de octubre de 2026 con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 119 del muro, nacida el 29 de octubre de 2026
+con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se firma con actividad y licencia, no con aplauso.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
+firma con actividad y licencia, no con aplauso.

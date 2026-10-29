@@ -28,11 +28,14 @@ La lectura también nació esta semana en tres pantallas a la vez: Epigraph lee 
 
 ## 📦 Las reglas de la casa
 
-**1.** Servidor de cómics propio se monta con su respaldo: la biblioteca autoalojada sin bodega es otra nube con tu nombre.
+**1.** Servidor de cómics propio se monta con su respaldo: la biblioteca autoalojada sin bodega
+es otra nube con tu nombre.
 
-**2.** Preview de un día (Bokumi) y servidor de dos (Kodex): laboratorio, libreta y re-pulso en la próxima gira.
+**2.** Preview de un día (Bokumi) y servidor de dos (Kodex): laboratorio, libreta y re-pulso en
+la próxima gira.
 
-**3.** Licencia leída el mismo día del nacimiento: Apache y MIT firmados; el sin licencia (Bokumi) va con asterisco.
+**3.** Licencia leída el mismo día del nacimiento: Apache y MIT firmados; el sin licencia
+(Bokumi) va con asterisco.
 
 ## ⚖ La vara
 
@@ -42,6 +45,9 @@ La lectura soberana se construye capa por capa: archivo tuyo, servidor tuyo, lec
 
 > —Ya leo en tres pantallas. —Y las tres leen de tu disco: eso, y no la pantalla, es la soberanía.
 
-> La Bandita verifica antes de recomendar: pieza 131 del muro, nacida el 29 de octubre de 2026 de la búsqueda por categorías del mismo día, con placas re-medidas en su fuente primaria. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 131 del muro, nacida el 29 de octubre de 2026
+de la búsqueda por categorías del mismo día, con placas re-medidas en su fuente primaria. Las
+estrellas adornan; las fechas mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se firma con actividad y licencia, no con aplauso.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
+firma con actividad y licencia, no con aplauso.

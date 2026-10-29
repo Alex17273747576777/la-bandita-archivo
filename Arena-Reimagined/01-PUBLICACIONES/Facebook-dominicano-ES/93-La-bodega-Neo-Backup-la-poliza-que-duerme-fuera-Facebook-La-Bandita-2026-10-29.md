@@ -31,8 +31,12 @@ Respaldo que nunca se restauró es una promesa, no una póliza.
 
 ## El meme de la pieza
 
-> —Tengo respaldo de todo. —¿Dónde duerme? —En el mismo teléfono… —Entonces tienes una foto de la póliza, no la póliza.
+> —Tengo respaldo de todo. —¿Dónde duerme? —En el mismo teléfono… —Entonces tienes una foto de
+la póliza, no la póliza.
 
-> La Bandita verifica antes de recomendar: pieza 93 del muro, nacida el 29 de octubre de 2026 desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 93 del muro, nacida el 29 de octubre de 2026
+desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
+mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
+primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.

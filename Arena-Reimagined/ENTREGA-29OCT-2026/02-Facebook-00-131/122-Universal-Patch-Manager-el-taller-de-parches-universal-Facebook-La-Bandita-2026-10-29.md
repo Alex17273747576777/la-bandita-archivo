@@ -21,11 +21,13 @@ Tres ecosistemas de parches (ReVanced, Morphe y Reseam) bajo un mismo techo, con
 
 ## 📦 Las reglas de la casa
 
-**1.** El bundle manda más que el manager: bundle sin firmante es zip con corbata (la vara de la 86).
+**1.** El bundle manda más que el manager: bundle sin firmante es zip con corbata (la vara de la
+86).
 
 **2.** La app sin parches preinstalados es doctrina sana: tú firmas lo que entra a tu taller.
 
-**3.** El re-parcheo automático se agenda con la misma libreta que el respaldo: fecha, fuente y reversa.
+**3.** El re-parcheo automático se agenda con la misma libreta que el respaldo: fecha, fuente y
+reversa.
 
 ## ⚖ La vara
 
@@ -33,8 +35,12 @@ Parchear es cirugía sobre apps: el taller serio muestra el instrumental, el reg
 
 ## El meme de la pieza
 
-> —El oficial se durmió. —Y el taller de al lado soltó su 2.0 hoy: la mesa se sienta donde hay faena.
+> —El oficial se durmió. —Y el taller de al lado soltó su 2.0 hoy: la mesa se sienta donde hay
+faena.
 
-> La Bandita verifica antes de recomendar: pieza 122 del muro, nacida el 29 de octubre de 2026 desde apps traídas por el dueño y re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 122 del muro, nacida el 29 de octubre de 2026
+desde apps traídas por el dueño y re-medidas hoy en su fuente primaria. Las estrellas adornan;
+las fechas mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se firma con actividad y licencia, no con aplauso.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
+firma con actividad y licencia, no con aplauso.

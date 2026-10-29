@@ -1,4 +1,5 @@
-# Publicación 17 — La capa de inmersión: los lectores que enseñan japonés mientras lees — y el cliente Komga que faltaba
+# Publicación 17 — La capa de inmersión: los lectores que enseñan japonés mientras lees — y el
+cliente Komga que faltaba
 
 **La Bandita · 15 de septiembre de 2026**
 
@@ -19,15 +20,10 @@
 
 Hay una capa del ecosistema que los mapas grandes casi no ven: la de quien lee en japonés APRENDIÉNDOLO — diccionarios al toque, tarjetas de Anki al vuelo, texto vertical, manga Mokuro, voz encima de la página. Esta guía ficha los cinco proyectos vivos de esa capa, todos verificados HOY, 14 de septiembre — **dos publicaron versión hoy mismo**:
 
-```
-Hoshi Reader   ★378   v1.3.3 (13-ago)   EPUB japonés + Yomitan + Anki + e-ink
-Chimahon       ★198   v2.4.2 (HOY, 15-sep)   fork de Mihon: diccionario, Mokuro, Anki
-Koharia        ★148   v0.5.0 (14-sep)      cliente Android para servidores Komga
-Yomi Reader    ★10    v0.1.7 (6-sep)    anime + manga + novela, compat. Tadami
-Yomikai        ★0     v1.9.84 (HOY, 15-sep)  OCR + voces + mini-player flotante
-```
+``` Hoshi Reader ★378 v1.3.3 (13-ago) EPUB japonés + Yomitan + Anki + e-ink Chimahon ★198 v2.4.2 (HOY, 15-sep) fork de Mihon: diccionario, Mokuro, Anki Koharia ★148 v0.5.0 (14-sep) cliente Android para servidores Komga Yomi Reader ★10 v0.1.7 (6-sep) anime + manga + novela, compat. Tadami Yomikai ★0 v1.9.84 (HOY, 15-sep) OCR + voces + mini-player flotante ```
 
-Estrellas chicas, talleres grandes: aquí los números de fama no cuentan la historia — la cadencia y las funciones sí.
+Estrellas chicas, talleres grandes: aquí los números de fama no cuentan la historia — la
+cadencia y las funciones sí.
 
 ## 🦋 Chimahon — el fork de Mihon que mina Anki
 
@@ -55,7 +51,9 @@ Yomitan, minado a Anki, lectura acompañada de
 audiolibro y soporte de tinta electrónica
 ```
 
-Su README (leído el 14-sep) lista lo suyo: EPUB individuales o por lotes con progreso visible, estanterías propias, texto vertical u horizontal con paginación o scroll continuo, diccionarios Yomitan que se importan y actualizan desde la app, búsqueda recursiva (tocas una palabra dentro de una definición y sigue), modo enfoque inmersivo, paso de página con las teclas de volumen y opciones específicas para lectores e-ink. Y es la punta de un taller completo: su autor mantiene los diccionarios (hoshidicts), una gramática japonesa de referencia, herramientas para novelas web (narou-py) y contribuye a Yomitan y mpvacious. La capa de inmersión tiene centro de gravedad, y se llama HuangAntimony.
+Su README (leído el 14-sep) lista lo suyo: EPUB individuales o por lotes con progreso visible, estanterías propias, texto vertical u horizontal con paginación o scroll continuo, diccionarios Yomitan que se importan y actualizan desde la app, búsqueda recursiva (tocas una palabra dentro de una definición y sigue), modo enfoque inmersivo, paso de página con las teclas de volumen y opciones específicas para lectores e-ink. Y es la punta de un taller completo: su autor mantiene los diccionarios (hoshidicts), una gramática japonesa de referencia, herramientas para novelas web (narou-py) y contribuye a Yomitan y mpvacious.
+
+La capa de inmersión tiene centro de gravedad, y se llama HuangAntimony.
 
 ## 🎐 Yomikai — OCR, voces y el mini-player flotante
 
@@ -71,7 +69,9 @@ Qué es: lector de manga con OCR y ovoz
 mini-player flotante sobre todas las apps
 ```
 
-Su descripción (del ruso original) lo dice entero: manga con OCR de texto, ovoz por roles, diccionarios y un reproductor mini que flota sobre cualquier aplicación — escuchas la voz del capítulo mientras lees en otro lado. Dos apuntes de mapa: el proyecto raíz es **Yomihon** (yomihon/yomihon, ★125, «ahora con OCR», v0.4.0 del 30-jul) — el nombre del repo «yomihon-custom» viene de ahí — y la casa activa es Yomikai, con hermana web (yomikai-pwa, React+TSX, con navegador y chat IA dentro). Que no tenga estrellas no significa nada: publica versiones todos los días.
+Su descripción (del ruso original) lo dice entero: manga con OCR de texto, ovoz por roles, diccionarios y un reproductor mini que flota sobre cualquier aplicación — escuchas la voz del capítulo mientras lees en otro lado. Dos apuntes de mapa: el proyecto raíz es **Yomihon** (yomihon/yomihon, ★125, «ahora con OCR», v0.4.0 del 30-jul) — el nombre del repo «yomihon-custom» viene de ahí — y la casa activa es Yomikai, con hermana web (yomikai-pwa, React+TSX, con navegador y chat IA dentro).
+
+Que no tenga estrellas no significa nada: publica versiones todos los días.
 
 ## 🌗 Yomi Reader — el triple anime/manga/novela
 
@@ -85,7 +85,9 @@ manga y novelas para Android (compatible
 Tadami/Aniyomi)» — su descripción
 ```
 
-La apuesta del triple en el linaje de Aniyomi: las tresmedias en una app, comiendo extensiones compatibles con Tadami. Va por 0.1 — edad honesta — y su taller trae más: Nekoread (lector de manga, v2.2.5 del 10-sep) e hikari (streaming universal con addons de Stremio y plugins CloudStream, v0.3.67 del 13-sep). Un constructor con cinco hierros en el fuego — seguimiento abierto para todos.
+La apuesta del triple en el linaje de Aniyomi: las tresmedias en una app, comiendo extensiones compatibles con Tadami. Va por 0.1 — edad honesta — y su taller trae más: Nekoread (lector de manga, v2.2.5 del 10-sep) e hikari (streaming universal con addons de Stremio y plugins CloudStream, v0.3.67 del 13-sep).
+
+Un constructor con cinco hierros en el fuego — seguimiento abierto para todos.
 
 ## 🏛️ Koharia — tu servidor Komga, en tu bolsillo
 
@@ -99,13 +101,17 @@ terceros para navegar y leer contenido de
 servidores Komga» — su descripción (del chino)
 ```
 
-Komga es el servidor de biblioteca que los grandes lectores ya sincronizan; Koharia es la app dedicada a él: tu servidor, tu app, con el lector puesto a medida. v0.5.0 publicada el 14-sep. Del mismo autor: la web del proyecto y su propio fork del servidor komga — quien construye el cliente entiende el servidor, y al revés.
+Komga es el servidor de biblioteca que los grandes lectores ya sincronizan; Koharia es la app dedicada a él: tu servidor, tu app, con el lector puesto a medida. v0.5.0 publicada el 14-sep.
+
+Del mismo autor: la web del proyecto y su propio fork del servidor komga — quien construye el cliente entiende el servidor, y al revés.
 
 **La otra mitad de la capa, verificada esta noche por exploración libre:** **Komga** (gotson/komga, ★6.659, MIT, 1.26.3 del 12 de agosto) — servidor de comics, mangas y eBooks con API, OPDS y sincronización Kobo y KOReader; y **Kavita** (Kareadita/Kavita, ★11.677, GPL-3.0, v0.9.1.4 del 2-sep), el servidor de lectura multiplataforma. Koharia vive porque estos viven — y viceversa: el servidor sin clientes es un archivo, el cliente sin servidor es una cáscara.
 
 ## 🧩 Los talleres detrás (diccionarios compartidos y más)
 
-La capa se sostiene en infraestructura compartida que conviene nombrar: los **diccionarios hoshidicts** los usa también Chimahon; **Yomitan** (el diccionario-pop-up del navegador, referencia absoluta del nicho) conecta con todos; y en la observación de esta semana quedó un compañero chico pero vivo: **android-koreader-companion** (★9, MIT, versión del 14-sep) — muestra lo que lees en KOReader y Mihon, el progreso entre los dos mundos.
+La capa se sostiene en infraestructura compartida que conviene nombrar: los **diccionarios hoshidicts** los usa también Chimahon; **Yomitan** (el diccionario-pop-up del navegador, referencia absoluta del nicho) conecta con todos
+
+y en la observación de esta semana quedó un compañero chico pero vivo: **android-koreader-companion** (★9, MIT, versión del 14-sep) — muestra lo que lees en KOReader y Mihon, el progreso entre los dos mundos.
 
 ## ⚖️ ¿Para quién es esta capa?
 
@@ -127,45 +133,59 @@ La capa se sostiene en infraestructura compartida que conviene nombrar: los **di
    → Koharia, la app dedicada.
 ```
 
-Ninguna ficha pasa por fama: pasa por cadencia, funciones propias y repo abierto — y las cinco viven, re-verificadas a HOY 15-sep.
+Ninguna ficha pasa por fama: pasa por cadencia, funciones propias y repo abierto — y las cinco
+viven, re-verificadas a HOY 15-sep.
 
 ## ❓ Preguntas frecuentes
 
-**¿Estos reemplazan a Mihon/Komikku/Aniyomi?**
-No: son capas encima o al lado. Chimahon ES un fork de Mihon (tu biblioteca migra con las reglas de siempre); Koharia necesita un servidor Komga; Hoshi es para EPUB japonés; Yomikai y Yomi Reader son casas aparte. Cada uno cubre lo que el tronco no.
+**¿Estos reemplazan a Mihon/Komikku/Aniyomi?** No: son capas encima o al lado. Chimahon ES un fork de Mihon (tu biblioteca migra con las reglas de siempre); Koharia necesita un servidor Komga; Hoshi es para EPUB japonés; Yomikai y Yomi Reader son casas aparte.
 
-**¿Y las extensiones? ¿Sirven las de siempre?**
-Yomi Reader declara compatibilidad Tadami/Aniyomi; Chimahon, al ser fork de Mihon, hereda el ecosistema Mihon. Hoshi (EPUB) y Koharia (Komga) no comen extensiones: comen libros y servidores. Yomikai construye sus fuentes propias — su README manda el día que la uses.
+Cada uno cubre lo que el tronco no.
+
+**¿Y las extensiones? ¿Sirven las de siempre?** Yomi Reader declara compatibilidad Tadami/Aniyomi; Chimahon, al ser fork de Mihon, hereda el ecosistema Mihon.
+
+Hoshi (EPUB) y Koharia (Komga) no comen extensiones: comen libros y servidores. Yomikai construye sus fuentes propias — su README manda el día que la uses.
 
 **¿Por qué estrellas tan chicas si son tan activos?**
-Porque el nicho es nicho: quien estudia japonés con manga son miles, no millones. La vara de la casa nunca fue la fama — es la cadencia y el aporte propio, y aquí sobran.
+Porque el nicho es nicho: quien estudia japonés con manga son miles, no millones. La vara de la
+casa nunca fue la fama — es la cadencia y el aporte propio, y aquí sobran.
 
 **¿Funcionan sin saber japonés?**
-Chimahon, Hoshi y Yomikai EXISTEN para aprenderlo — el diccionario y la voz son el punto. Para lectura en español/inglés, los troncos de las piezas 13–16 siguen siendo la casa.
+Chimahon, Hoshi y Yomikai EXISTEN para aprenderlo — el diccionario y la voz son el punto. Para
+lectura en español/inglés, los troncos de las piezas 13–16 siguen siendo la casa.
 
 ## 🔗 Enlaces
 
 - Chimahon: https://github.com/Chimahon/chimahon
 - Hoshi Reader: https://github.com/HuangAntimony/Hoshi-Reader-Android
-- Yomikai: https://github.com/sj0404-collab/yomikai · gemela web: https://github.com/sj0404-collab/yomikai-pwa · raíz del nombre: https://github.com/yomihon/yomihon
-- Yomi Reader: https://github.com/codegeasse1/yomi-reader · hermanos: https://github.com/codegeasse1/Nekoread
+- Yomikai: https://github.com/sj0404-collab/yomikai · gemela web:
+https://github.com/sj0404-collab/yomikai-pwa · raíz del nombre:
+https://github.com/yomihon/yomihon
+- Yomi Reader: https://github.com/codegeasse1/yomi-reader · hermanos:
+https://github.com/codegeasse1/Nekoread
 - Koharia: https://github.com/Mister-album/Koharia
 - Compañero de progreso: https://github.com/woxakv/android-koreader-companion
 - Los servidores: https://github.com/gotson/komga · https://github.com/Kareadita/Kavita
 
-> La Bandita informa a partir de fuentes fechadas. Leer con diccionario en la mano — ahora, en el mismo dedo.
+> La Bandita informa a partir de fuentes fechadas. Leer con diccionario en la mano — ahora, en
+el mismo dedo.
 
 ---
 
-**Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: Chimahon v2.4.2, Yomikai 1.9.84, Koharia ★148 (todas de HOY). Lo no mencionado queda constado a su día (14-sep). Acta completa: Registro #71.
+**Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: Chimahon v2.4.2, Yomikai 1.9.84, Koharia ★148 (todas de HOY). Lo no mencionado queda constado a su día (14-sep).
+
+Acta completa: Registro #71.
 
 ───────────────────
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 17).*
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 12 repos GitHub confirmados y 17 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 12
+repos GitHub confirmados y 17 apariciones de URL. La historia no se reescribe; esta nota añade
+el estado medido hoy.
 
-Actividad medida hoy: 1 hoy · 6 en 7 días · 4 en 30 días · 1 en 180 días · 0 dormidos · 0 archivados.
+Actividad medida hoy: 1 hoy · 6 en 7 días · 4 en 30 días · 1 en 180 días · 0 dormidos · 0
+archivados.
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
@@ -201,10 +221,12 @@ Actividad medida hoy: 1 hoy · 6 en 7 días · 4 en 30 días · 1 en 180 días �
 · última actividad 2026-10-28
 · GPL-3.0.
 
-Licencias sin resolver hoy (1): `codegeasse1/nekoread`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+Licencias sin resolver hoy (1): `codegeasse1/nekoread`. Sin licencia clara, la recomendación
+queda incompleta y así se firma.
 
 Enlaces web: 17 apariciones; 16 respondieron vivas el 29-oct-2026.
 
 • Enlace caído (404 verificado 29-oct-2026): https://github.com/sj0404-collab/yomikai-pwa
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
+el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

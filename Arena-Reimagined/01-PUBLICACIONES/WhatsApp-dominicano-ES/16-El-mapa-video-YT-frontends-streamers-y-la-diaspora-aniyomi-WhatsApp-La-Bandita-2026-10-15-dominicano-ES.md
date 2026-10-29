@@ -1,7 +1,9 @@
 *16 — EL MAPA VIDEO/YT DE ANDROID*
-*Frontends, streamers y la diáspora de aniyomi: quién te da YouTube sin candela y quién hereda la casa del anime (WhatsApp · La Bandita · 15-oct-2026 · 19:05 · dominicano-ES)*
+*Frontends, streamers y la diáspora de aniyomi: quién te da YouTube sin candela y quién hereda
+la casa del anime (WhatsApp · La Bandita · 15-oct-2026 · 19:05 · dominicano-ES)*
 
-*Por La Bandita · edición dominicana · pieza 16 de la biblioteca · segundo MAPA DE FAMILIA de la casa*
+*Por La Bandita · edición dominicana · pieza 16 de la biblioteca · segundo MAPA DE FAMILIA de la
+casa*
 
 *⚡ EN UN RESPIRO*
 
@@ -66,9 +68,18 @@
 
 *🌱 LA SEMILLA*
 
-Esta pieza nace de una orden y de un perfil. La orden: el dueño de la casa mandó mapas de FAMILIA adaptativos — no más piezas de una sola app cuando la calle entera es la noticia. El perfil: al escanear las estrellas y los forks del dueño (censo abierto, entrada 7 del 15-oct), la biblioteca descubrió que su dueño ya caminaba esta calle: NewPipe con estrella suya, aniyomi con estrella suya, mpvRx y Stash también — y las ramas de la diáspora de aniyomi aparecieron EXACTAMENTE en ese escaneo de rincones y sub-ramas. El mapa de esta pieza estaba, literalmente, en el bolsillo del dueño.
+Esta pieza nace de una orden y de un perfil. La orden: el dueño de la casa mandó mapas de
+FAMILIA adaptativos — no más piezas de una sola app cuando la calle entera es la noticia.
 
-Lo que ese escaneo destapó da para familia completa. La casa del anime libre en Android es aniyomi (el primo de video del tronco Tachiyomi que la pieza 15 recorrió): ★7.802 al 15-oct, con su rama preview (★645) — pero su último empuje es del 14 de septiembre. Un mes callando. Y en SUS RAMAS, en los rincones que casi nadie mira: Animiru (★893, «video player and library manager», empuje del 15-oct) y Animetail (★604, que se presenta con todas las letras «fork oficial de Aniyomi», empuje del 15-oct), más la preview de Animetail (★80), Tadami (★280, manga+anime+ranobe, el hallazgo del dueño que la pieza 06 ya retrató), aniyomi_plus (★9) y las primas lectoras rokku (★61) y Nekori (★32). La casa calla; el barrio que ella parió sigue empujando código A DIARIO. Es la tercera sucesión en vivo que esta biblioteca documenta — después de la DSU (pieza 14) y la saga Dantotsu→Kiroku (pieza 15) — y la primera que se documenta MIENTRAS el heredero aún no se ha coronado.
+El perfil: al escanear las estrellas y los forks del dueño (censo abierto, entrada 7 del 15-oct), la biblioteca descubrió que su dueño ya caminaba esta calle: NewPipe con estrella suya, aniyomi con estrella suya, mpvRx y Stash también — y las ramas de la diáspora de aniyomi aparecieron EXACTAMENTE en ese escaneo de rincones y sub-ramas. El mapa de esta pieza estaba, literalmente, en el bolsillo del dueño.
+
+Lo que ese escaneo destapó da para familia completa. La casa del anime libre en Android es aniyomi (el primo de video del tronco Tachiyomi que la pieza 15 recorrió): ★7.802 al 15-oct, con su rama preview (★645) — pero su último empuje es del 14 de septiembre.
+
+Un mes callando. Y en SUS RAMAS, en los rincones que casi nadie mira: Animiru (★893, «video player and library manager», empuje del 15-oct) y Animetail (★604, que se presenta con todas las letras «fork oficial de Aniyomi», empuje del 15-oct), más la preview de Animetail (★80), Tadami (★280, manga+anime+ranobe, el hallazgo del dueño que la pieza 06 ya retrató), aniyomi_plus (★9) y las primas lectoras rokku (★61) y Nekori (★32).
+
+La casa calla; el barrio que ella parió sigue empujando código A DIARIO. Es la tercera sucesión
+en vivo que esta biblioteca documenta — después de la DSU (pieza 14) y la saga Dantotsu→Kiroku
+(pieza 15) — y la primera que se documenta MIENTRAS el heredero aún no se ha coronado.
 
 Y la tercera calle del mapa la puso el re-scan del ecosistema: animeko (★20.948 al 15-oct, empuje del día) — el gigante del anime con danmaku (los comentarios voladores) y seguimiento Bangumi, con caché offline y hasta descarga por BitTorrent dentro de su interior. Casi veintiuna estrellas y ni una línea en los censo viejos de la casa: el re-scan completo existe exactamente para que un gigante así no vuelva a dormir fuera del mapa.
 
@@ -76,7 +87,10 @@ La promesa del método, igual que en la pieza 15 pero con músculo propio: aquí
 
 Un dato de método que la casa deja escrito: esta pieza se redactó con los números del pulso en vivo del 15-oct (la tarde en que la biblioteca completa se re-visitó de punta a punta, protocolo del mapa vivo), y por eso lleva de nacimiento los censos más frescos de la campaña. La caja de pulso que le sigue es la primera de su pila — y el protocolo manda que las siguientes se apilen encima con fecha, jamás se borren.
 
-Advertencia de casa antes de entrar: esta familia NO vende cuentas, NO promete catálogos y NO burla pagos de nadie. Cada miembro lee lo que la puerta pública le da o lo que TÚ enchufas. La vara completa va en su sección, como siempre, antes del botón.
+Advertencia de casa antes de entrar: esta familia NO vende cuentas, NO promete catálogos y NO
+burla pagos de nadie. Cada miembro lee lo que la puerta pública le da o lo que TÚ enchufas.
+
+La vara completa va en su sección, como siempre, antes del botón.
 
 *📰 EL CENSO DE LA FAMILIA (multi-placa, 15-oct-2026)*
 
@@ -104,7 +118,9 @@ CALLE 3 — ANIME (la casa quieta y su diáspora):
 · Crosstalk... perdón: open-ani/animeko: ★20.948 · push 15-oct — EL GIGANTE FUERA DE LA SAGA: anime con danmaku, seguimiento Bangumi, caché offline y descargas. No desciende de aniyomi: es otra escuela (china, con comunidad propia).
 · Y las primas lectoras de la diáspora: rokku (★61, push 15-oct) y Nekori (★32, push 15-oct) — manga y novelas nacidas del mismo terremoto.
 
-Apunte de lectura para la tabla: fíjate en el patrón del censo — tres cabezas de calle (NewPipe, SmartTube, animeko) empujando el MISMO día del censo, mientras la casa del anime completa un mes de silencio con sus ramas empujando ese mismo día también. La actividad no se reparte parejo en un barrio vivo: se concentra donde se cocina. Esa asimetría ES la noticia, y la caja de pulso de esta pieza la seguirá midiendo turno a turno.
+Apunte de lectura para la tabla: fíjate en el patrón del censo — tres cabezas de calle (NewPipe, SmartTube, animeko) empujando el MISMO día del censo, mientras la casa del anime completa un mes de silencio con sus ramas empujando ese mismo día también. La actividad no se reparte parejo en un barrio vivo: se concentra donde se cocina.
+
+Esa asimetría ES la noticia, y la caja de pulso de esta pieza la seguirá midiendo turno a turno.
 
 La lectura de la casa: tres calles, un mecanismo común (app libre + fuente o puerta que TÚ decides) y UNA sucesión en vivo con la corona en el aire. El dueño tiene estrella en NewPipe, aniyomi, mpvRx, Stash (audio, vecindario) — el mapa era suyo antes de ser pieza.
 
@@ -112,35 +128,73 @@ La lectura de la casa: tres calles, un mecanismo común (app libre + fuente o pu
 
 Cada miembro en su tarjeta corta: para quién es, qué lo distingue y su estado al 15-oct-2026.
 
-NewPipe — EL VETERANO DE BOLSILLO. Para quien ve en el teléfono y quiere simple: sin cuenta, sin candela, descargas y reproductor propio. Rel v0.29.1 (15-ago) y push del día del censo. Doce años de calle (fechado de archivo) y la cocina viva: si no sabes por dónde empezar en video, empiezas aquí — la comparación, después con datos.
+NewPipe — EL VETERANO DE BOLSILLO. Para quien ve en el teléfono y quiere simple: sin cuenta, sin
+candela, descargas y reproductor propio.
 
-LibreTube — EL PRIVADO POR INSTANCIA. Para quien prefiere que su IP no viaje a Google: pasa por instancias de Piped. Su riesgo es el eslabón: instancia viva, todo bien; instancia cansada, todo lento. Con su push del 15-oct, la cocina empuja igual que la casa mayor.
+Rel v0.29.1 (15-ago) y push del día del censo. Doce años de calle (fechado de archivo) y la
+cocina viva: si no sabes por dónde empezar en video, empiezas aquí — la comparación, después con
+datos.
 
-Piped — EL SERVIDOR DEL FRENTE. No es app de sillón: es la cocina de servidores que alimenta a LibreTube y a quien monte la suya. Para el que quiere control total (su instancia propia); para el resto, existe como el motor invisible de media calle.
+LibreTube — EL PRIVADO POR INSTANCIA. Para quien prefiere que su IP no viaje a Google: pasa por
+instancias de Piped.
 
-SmartTube — EL REY DEL SILLÓN. Para TV box y tele Android: control remoto de verdad, anuncios fuera, sin root. Casi treinta y cinco mil estrellas al 15-oct y push del día. Si tu batalla es el sillón, esta es la esquina — con la advertencia de box modesta que ya conoces.
+Su riesgo es el eslabón: instancia viva, todo bien; instancia cansada, todo lento. Con su push
+del 15-oct, la cocina empuja igual que la casa mayor.
 
-cloudstream — EL REPRODUCTOR DE ENCHUFES. Para quien quiere catálogo por repos comunitarios: la app es limpia, el enchufe es tuyo y tu responsabilidad (misma vara del manga, otro idioma). Su cs-repos (★536 al 15-oct) es la distribuidora de la casa.
+Piped — EL SERVIDOR DEL FRENTE. No es app de sillón: es la cocina de servidores que alimenta a
+LibreTube y a quien monte la suya.
 
-mytv-android — EL IPTV DE MATERIAL. Para la lista M3U tuya en Android/TV con cara moderna: tú das la lista, él la sirve sin anuncios. Push del día del censo.
+Para el que quiere control total (su instancia propia); para el resto, existe como el motor
+invisible de media calle.
 
-M3UAndroid — EL IPTV CLÁSICO. La misma esquina con enfoque más a la antigua; quieta desde el 20-sep (vigilancia fechada). Para quien probó las dos y el cuaderno decidió.
+SmartTube — EL REY DEL SILLÓN. Para TV box y tele Android: control remoto de verdad, anuncios
+fuera, sin root.
 
-mpvRx — EL MÚSCULO LOCAL (hallazgo del dueño). Para quien baja sus archivos y quiere potencia de reproducción (mpv potenciado) en vez de streaming. Push del 15-oct. La esquina de los que guardan su videoteca.
+Casi treinta y cinco mil estrellas al 15-oct y push del día. Si tu batalla es el sillón, esta es
+la esquina — con la advertencia de box modesta que ya conoces.
 
-aniyomi — LA CASA DEL ANIME (QUIETA). El primo de video del tronco Tachiyomi: extensiones de anime, biblioteca seria, ★7.802 al 15-oct — con el push quieto desde el 14-sep. Sigue siendo la referencia mientras respire; su silencio viaja fechado, no maquillado.
+cloudstream — EL REPRODUCTOR DE ENCHUFES. Para quien quiere catálogo por repos comunitarios: la
+app es limpia, el enchufe es tuyo y tu responsabilidad (misma vara del manga, otro idioma).
 
-Animiru — LA RAMA MÁS FUERTE DE LA DIÁSPORA. ★893 al 15-oct, push del día del censo: «video player and library manager». La candidata por pulso: dos semanas de taller y el cuaderno decide.
+Su cs-repos (★536 al 15-oct) es la distribuidora de la casa.
 
-Animetail — LA RAMA QUE PROCLAMA. ★604 al 15-oct, «fork oficial de Aniyomi», push del día, con preview al lado (★80 al 15-oct). El título se anota y se vigila: la corona se gana empujando, no carteleando.
+mytv-android — EL IPTV DE MATERIAL. Para la lista M3U tuya en Android/TV con cara moderna: tú
+das la lista, él la sirve sin anuncios. Push del día del censo.
 
-Tadami — LA TRES-EN-UNO (hallazgo del dueño). Manga, anime y ranobe (★280, push 6-oct) — ya retratada en la pieza 06; aquí, la rama vecina de la diáspora que le honra el apellido.
+M3UAndroid — EL IPTV CLÁSICO. La misma esquina con enfoque más a la antigua; quieta desde el
+20-sep (vigilancia fechada). Para quien probó las dos y el cuaderno decidió.
 
-aniyomi_plus — EL FORK PERSONAL. ★9 al 15-oct, «lo que a mí me faltaba»: el recordatorio de que en la diáspora hay de todo — héroes, jornaleros y experimentos — y la vara lee a todos igual.
+mpvRx — EL MÚSCULO LOCAL (hallazgo del dueño). Para quien baja sus archivos y quiere potencia de
+reproducción (mpv potenciado) en vez de streaming. Push del 15-oct. La esquina de los que
+guardan su videoteca.
 
-animeko — EL GIGANTE DE OTRA ESCUELA. ★20.948 al 15-oct, push del día: danmaku, Bangumi, caché offline, descargas por BitTorrent. No es de la familia del tronco: es la cocina que el re-scan puso en el mapa. Para quien quiere plataforma completa de anime con comunidad propia y horario de oriente.
+aniyomi — LA CASA DEL ANIME (QUIETA). El primo de video del tronco Tachiyomi: extensiones de
+anime, biblioteca seria, ★7.802 al 15-oct — con el push quieto desde el 14-sep.
 
-rokku y Nekori — LAS PRIMAS LECTORAS. ★61 y ★32 al 15-oct, ambas empujando el mismo día: manga y novelas nacidas del mismo terremoto. Vecinas de la familia lectora (pieza 15) que esta diáspora adoptó de paso.
+Sigue siendo la referencia mientras respire; su silencio viaja fechado, no maquillado.
+
+Animiru — LA RAMA MÁS FUERTE DE LA DIÁSPORA. ★893 al 15-oct, push del día del censo: «video
+player and library manager». La candidata por pulso: dos semanas de taller y el cuaderno decide.
+
+Animetail — LA RAMA QUE PROCLAMA. ★604 al 15-oct, «fork oficial de Aniyomi», push del día, con
+preview al lado (★80 al 15-oct). El título se anota y se vigila: la corona se gana empujando, no
+carteleando.
+
+Tadami — LA TRES-EN-UNO (hallazgo del dueño). Manga, anime y ranobe (★280, push 6-oct) — ya
+retratada en la pieza 06; aquí, la rama vecina de la diáspora que le honra el apellido.
+
+aniyomi_plus — EL FORK PERSONAL. ★9 al 15-oct, «lo que a mí me faltaba»: el recordatorio de que
+en la diáspora hay de todo — héroes, jornaleros y experimentos — y la vara lee a todos igual.
+
+animeko — EL GIGANTE DE OTRA ESCUELA. ★20.948 al 15-oct, push del día: danmaku, Bangumi, caché
+offline, descargas por BitTorrent. No es de la familia del tronco: es la cocina que el re-scan
+puso en el mapa.
+
+Para quien quiere plataforma completa de anime con comunidad propia y horario de oriente.
+
+rokku y Nekori — LAS PRIMAS LECTORAS. ★61 y ★32 al 15-oct, ambas empujando el mismo día: manga y
+novelas nacidas del mismo terremoto. Vecinas de la familia lectora (pieza 15) que esta diáspora
+adoptó de paso.
 
 *🧭 QUÉ ES Y QUÉ NO ES (una familia, no una app)*
 
@@ -158,31 +212,59 @@ Lo que esta familia NO ES:
 
 *🏛 LA HISTORIA DE LA CUADRA*
 
-La calle del video libre en Android lleva más de una década de cerraduras y llaves. Su línea de tiempo, entre archivo y censo:
+La calle del video libre en Android lleva más de una década de cerraduras y llaves. Su línea de
+tiempo, entre archivo y censo:
 
-La era del candela creciente (2010-2014, fechado de archivo): el YouTube móvil se vuelve impostable — anuncios que se alargan, app que pesa más cada año, y Android sin alternativa seria. El barrio aguanta; un estudiante alemán no aguanta y en 2015 publica NewPipe: sin cuenta, sin anuncios, con tu reproductor. Nace la escuela FRONTEND.
+La era del candela creciente (2010-2014, fechado de archivo): el YouTube móvil se vuelve impostable — anuncios que se alargan, app que pesa más cada año, y Android sin alternativa seria. El barrio aguanta; un estudiante alemán no aguanta y en 2015 publica NewPipe: sin cuenta, sin anuncios, con tu reproductor.
 
-La era Vanced (2016-2022, fechado de archivo): en paralelo florece la escuela PATCHING — modificar LA APP OFICIAL (Vanced es su estrella). Muere con reclamo legal en 2022; ReVanced recoge la escuela, y hoy Morphe la moderniza (su mapa es pieza hermana en cola de esta biblioteca). Las dos escuelas conviven desde entonces: parchear la puerta (patching) o hablar por otra puerta (frontend). Esta pieza recorre la segunda; la primera tiene su mapa en camino.
+Nace la escuela FRONTEND.
 
-La era de las instancias (2022-2023, fechado de archivo): Piped propone un paso más — que ni tu teléfono hable directo con Google: servidores comunitarios de por medio. LibreTube lleva esa escuela al Android del barrio. Privacidad arriba, un eslabón más que cuidar: la vara de esta pieza ya lo dijo.
+La era Vanced (2016-2022, fechado de archivo): en paralelo florece la escuela PATCHING — modificar LA APP OFICIAL (Vanced es su estrella). Muere con reclamo legal en 2022; ReVanced recoge la escuela, y hoy Morphe la moderniza (su mapa es pieza hermana en cola de esta biblioteca).
+
+Las dos escuelas conviven desde entonces: parchear la puerta (patching) o hablar por otra puerta
+(frontend). Esta pieza recorre la segunda; la primera tiene su mapa en camino.
+
+La era de las instancias (2022-2023, fechado de archivo): Piped propone un paso más — que ni tu
+teléfono hable directo con Google: servidores comunitarios de por medio. LibreTube lleva esa
+escuela al Android del barrio.
+
+Privacidad arriba, un eslabón más que cuidar: la vara de esta pieza ya lo dijo.
 
 El tronco pare el primo (2022-2024, mezcla de archivo y censo): aniyomi nace como fork del ecosistema lector (fechado de archivo) y sobrevive al terremoto Tachiyomi de 2024 (pieza 15) como LA CASA del anime en Android. Su herencia lectora vive en la pieza 06; su corona, aquí.
 
 La madurez del sillón (2023-2026, censo): SmartTube crece hasta las treinta y cinco mil estrellas; cloudstream madura la escuela de enchufes en video; el IPTV limpio (mytv-android, M3UAndroid) toma su esquina; mpvRx moderniza el músculo local. El mapa del video se completa por rincones.
 
-La siesta y la diáspora (2026, censo vivo): el 14-sep el push de la casa aniyomi calla. El 15-oct la casa documental lo encuentra así — y encuentra a SUS RAMAS empujando el mismo día (Animiru ★893, Animetail ★604): tercera sucesión de la biblioteca, escrita en caliente. Y el re-scan completo del ecosistema saca del anonimato al gigante que nadie censaba: animeko (★20.948, push del mismo día). La historia se acelera; el mapa vivo existe para eso.
+La siesta y la diáspora (2026, censo vivo): el 14-sep el push de la casa aniyomi calla. El 15-oct la casa documental lo encuentra así — y encuentra a SUS RAMAS empujando el mismo día (Animiru ★893, Animetail ★604): tercera sucesión de la biblioteca, escrita en caliente.
+
+Y el re-scan completo del ecosistema saca del anonimato al gigante que nadie censaba: animeko
+(★20.948, push del mismo día). La historia se acelera; el mapa vivo existe para eso.
 
 *⚖ LA VARA DE LA FAMILIA VIDEO*
 
 Cuatro varas, de la más grande a la más fina:
 
-La vara de la DEPENDENCIA (la de los frontends): NewPipe y LibreTube leen YouTube por la puerta pública del reproductor web — y si Google cambia la cerradura, las apps amanecen ciegas hasta que la comunidad suelda. A veces en horas. Otras, en semanas. Es el precio de la calle: quien instala un frontend acepta que algún día amanezca roto y que el arreglo venga por actualización. La casa lo dice ANTES, no después: dependencia no es defecto, es el diseño de la calle.
+La vara de la DEPENDENCIA (la de los frontends): NewPipe y LibreTube leen YouTube por la puerta
+pública del reproductor web — y si Google cambia la cerradura, las apps amanecen ciegas hasta
+que la comunidad suelda. A veces en horas.
 
-La vara del ENCHUFE (la de los streamers, hermana de la del manga): cloudstream corre repos de fuentes comunitarias; M3UAndroid y mytv-android corren listas que TÚ les das. La app es el reproductor; el enchufe es tu decisión y tu responsabilidad. Repos reconocidos con cocina pública (cs-repos y familia), listas de donde conozcas su origen — y jamás un repo que prometa «todo el planeta en 4K gratis», que es el camión sin placas de esta calle.
+Otras, en semanas. Es el precio de la calle: quien instala un frontend acepta que algún día
+amanezca roto y que el arreglo venga por actualización.
 
-La vara de la DIÁSPORA (la del anime): una casa quieta no es una casa muerta — pero sus ramas que empujan HOY también llevan papeles por leer: Animiru y Animetail son jóvenes (licencias y historial cortos), y «fork oficial» es un TÍTULO que se reclama, no un diploma que GitHub otorga. La vara de la casa: vigílalas con el cuaderno, pruébalas con respaldo, y no cases tu biblioteca con una rama de tres semanas sin papeles claros. La corona se gana empujando, no proclamando.
+La casa lo dice ANTES, no después: dependencia no es defecto, es el diseño de la calle.
 
-La vara con la ley de tu país: ver YouTube por un frontend puede rozar los términos de servicio de la plataforma; correr listas IPTV de origen desconocido puede rozar cosas más serias. La casa no da consejo legal por países: da transparencia — saber QUÉ usas, de dónde viene y qué dice tu cuaderno. Decidir informado es exactamente lo que esta biblioteca enseña desde la pieza 01.
+La vara del ENCHUFE (la de los streamers, hermana de la del manga): cloudstream corre repos de fuentes comunitarias; M3UAndroid y mytv-android corren listas que TÚ les das. La app es el reproductor; el enchufe es tu decisión y tu responsabilidad.
+
+Repos reconocidos con cocina pública (cs-repos y familia), listas de donde conozcas su origen —
+y jamás un repo que prometa «todo el planeta en 4K gratis», que es el camión sin placas de esta
+calle.
+
+La vara de la DIÁSPORA (la del anime): una casa quieta no es una casa muerta — pero sus ramas que empujan HOY también llevan papeles por leer: Animiru y Animetail son jóvenes (licencias y historial cortos), y «fork oficial» es un TÍTULO que se reclama, no un diploma que GitHub otorga. La vara de la casa: vigílalas con el cuaderno, pruébalas con respaldo, y no cases tu biblioteca con una rama de tres semanas sin papeles claros.
+
+La corona se gana empujando, no proclamando.
+
+La vara con la ley de tu país: ver YouTube por un frontend puede rozar los términos de servicio de la plataforma; correr listas IPTV de origen desconocido puede rozar cosas más serias. La casa no da consejo legal por países: da transparencia — saber QUÉ usas, de dónde viene y qué dice tu cuaderno.
+
+Decidir informado es exactamente lo que esta biblioteca enseña desde la pieza 01.
 
 *🎒 EL CARGAMENTO*
 
@@ -198,34 +280,33 @@ La vara con la ley de tu país: ver YouTube por un frontend puede rozar los tér
 
 Las cinco preguntas del bar del barrio, sin cobrarte la explicación:
 
-«¿NewPipe o LibreTube?» Escuelas distintas del mismo invento: NewPipe habla DIRECTO con YouTube desde tu teléfono (más simple, sin intermediarios, doce años de calle); LibreTube pasa por instancias de Piped (tu IP viaja a un servidor comunitario, no a Google — privacidad arriba, pero dependes de que la instancia esté viva). El dato del censo: NewPipe ★40.148 con push del 15-oct; LibreTube ★12.823 empujando igual. El taller decide con TU teléfono; la vara dice: menos eslabones, menos cosas que se rompen; más eslabones, más privacidad si confías en la instancia.
+«¿NewPipe o LibreTube?» Escuelas distintas del mismo invento: NewPipe habla DIRECTO con YouTube desde tu teléfono (más simple, sin intermediarios, doce años de calle); LibreTube pasa por instancias de Piped (tu IP viaja a un servidor comunitario, no a Google — privacidad arriba, pero dependes de que la instancia esté viva). El dato del censo: NewPipe ★40.148 con push del 15-oct; LibreTube ★12.823 empujando igual.
+
+El taller decide con TU teléfono; la vara dice: menos eslabones, menos cosas que se rompen; más eslabones, más privacidad si confías en la instancia.
 
 «¿Y para la TV?» SmartTube y no pelees: casi treinta y cinco mil estrellas al 15-oct, push del día, diseñada para control remoto y sin root. En TV box vieja va a pedir paciencia; en box decente es la diferencia entre tener TV y pelear con la TV.
 
-«¿Se puede ver ANIME con subtítulos y todo?» La casa histórica es aniyomi (extensiones de anime del ecosistema lector); su herencia vive hoy repartida entre la casa quieta y la diáspora que empuja (Animiru, Animetail). Y el gigante independiente animeko (★20.948) trae su propia escuela con danmaku y Bangumi. El consejo de casa en esta esquina es de PACIENCIA: la sucesión está viva; instala, prueba, respalda — y no migres tu biblioteca completa hasta que una rama demuestre dos semanas de pulso.
+«¿Se puede ver ANIME con subtítulos y todo?» La casa histórica es aniyomi (extensiones de anime del ecosistema lector); su herencia vive hoy repartida entre la casa quieta y la diáspora que empuja (Animiru, Animetail). Y el gigante independiente animeko (★20.948) trae su propia escuela con danmaku y Bangumi.
 
-«¿Esto es lo mismo que las apps de 'TV gratis' del kiosco?» No, y la diferencia es la vara entera: las del kiosco son APKs sin fuente, con regalos dentro y sin cocina pública. Esta familia vive en GitHub, con código auditable, releases firmados por sus repos y años de historial. La primera te cobra con tus datos; la segunda no te cobra nada. Quien no distingue las dos, ya pagó sin darse cuenta.
+El consejo de casa en esta esquina es de PACIENCIA: la sucesión está viva; instala, prueba, respalda — y no migres tu biblioteca completa hasta que una rama demuestre dos semanas de pulso.
 
-«¿Por qué a veces SE ROMPE TODO de golpe?» Bienvenida a la vara de la dependencia: YouTube cambia la cerradura, los frontends se quedan afuera, la comunidad solda, actualización nueva, vuelta a la normalidad. En el papel de la casa está escrito: esta calle tiene días de taller. El que no los acepta, está en la calle equivocada — y está bien decirlo.
+«¿Esto es lo mismo que las apps de 'TV gratis' del kiosco?» No, y la diferencia es la vara entera: las del kiosco son APKs sin fuente, con regalos dentro y sin cocina pública. Esta familia vive en GitHub, con código auditable, releases firmados por sus repos y años de historial.
+
+La primera te cobra con tus datos; la segunda no te cobra nada. Quien no distingue las dos, ya pagó sin darse cuenta.
+
+«¿Por qué a veces SE ROMPE TODO de golpe?» Bienvenida a la vara de la dependencia: YouTube cambia la cerradura, los frontends se quedan afuera, la comunidad solda, actualización nueva, vuelta a la normalidad. En el papel de la casa está escrito: esta calle tiene días de taller.
+
+El que no los acepta, está en la calle equivocada — y está bien decirlo.
 
 *🔧 EL CAMINO SANO (instalar y enchufar)*
 
-```
-1. Elige tu primera app por CALLE:
-   telefono -> NewPipe · TV -> SmartTube
-   anime -> la casa o su diáspora (taller 1)
-2. Baja SU apk de SU releases oficial
-   (enlaces en Fuentes) o via instalador 01.
-3. Abre y recorre ajustes 5 minutos:
-   dónde viven descargas, calidad, tema.
-4. SOLO si tu calle lo pide, enchufa:
-   repo de cloudstream (direccion anotada)
-   o lista M3U de origen conocido.
-5. Prueba con un video/titulo que conozcas.
-   Ese es TODO el mecanismo.
-```
+``` 1. Elige tu primera app por CALLE: telefono -> NewPipe · TV -> SmartTube anime -> la casa o su diáspora (taller 1) 2. Baja SU apk de SU releases oficial (enlaces en Fuentes) o via instalador 01. 3. Abre y recorre ajustes 5 minutos: dónde viven descargas, calidad, tema. 4. SOLO si tu calle lo pide, enchufa: repo de cloudstream (direccion anotada) o lista M3U de origen conocido.
 
-Chequeo de casa: la app instaló limpia, reproduce y (si aplica) tu enchufe respondió. Si la app pidió permisos raros o vino de un canal re-empaquetador: se borra y se empieza del releases oficial. Origen primero, siempre.
+5. Prueba con un video/titulo que conozcas. Ese es TODO el mecanismo. ```
+
+Chequeo de casa: la app instaló limpia, reproduce y (si aplica) tu enchufe respondió. Si la app
+pidió permisos raros o vino de un canal re-empaquetador: se borra y se empieza del releases
+oficial. Origen primero, siempre.
 
 *📻 LOS CANALES DEL TALLER*
 
@@ -254,31 +335,21 @@ SmartTube es el decodificador libre del sillón: le entra la misma señal y TÚ 
 
 Y la diáspora del anime es la panadería del barrio que cerró por vacaciones dejando el horno caliente: los panaderos jóvenes (Animiru, Animetail) hornean con la receta aprendida mientras la casa duerme. La vara dice: cómprale pan al que hornea BIEN y con la libreta en orden, no al que grito más fuerte «soy el oficial».
 
-La analogía que NO usamos porque miente: «es YouTube Premium gratis». Miente en lo importante: Premium compra CANDADO (música de fondo oficial, originales, sin anuncios con bendición contractual); los frontends compran VENTANA (el contenido público, por otra puerta, sin candele). Distintas mercancías: quien promete la primera vendiendo la segunda, vende humo.
+La analogía que NO usamos porque miente: «es YouTube Premium gratis». Miente en lo importante: Premium compra CANDADO (música de fondo oficial, originales, sin anuncios con bendición contractual); los frontends compran VENTANA (el contenido público, por otra puerta, sin candele).
+
+Distintas mercancías: quien promete la primera vendiendo la segunda, vende humo.
 
 *🛠 EL TALLER PRÁCTICO*
 
 Cuatro talleres — comparando, porque la familia se prueba:
 
-```
-TALLER 1: LA ELECCION EN PARALELO (30 min x3)
-1. Instala TRES: NewPipe + SmartTube (o
-   cloudstream) + tu candidato anime.
-2. Misma prueba en cada uno: buscar, abrir,
-   calidad, pantalla completa, fondo.
-3. Califica en el cuaderno (1-5): fluidez,
-   control, cuanto entendiste sin tutorial.
-4. El ganador por calle se queda.
-```
+``` TALLER 1: LA ELECCION EN PARALELO (30 min x3) 1. Instala TRES: NewPipe + SmartTube (o cloudstream) + tu candidato anime. 2. Misma prueba en cada uno: buscar, abrir, calidad, pantalla completa, fondo.
 
-```
-TALLER 2: EL ENCHUFE CON ANOTACION (15 min)
-1. Solo calle streamer: ajustes › repos ›
-   añadir la direccion del repo comunitario.
-2. Anota la direccion EXACTA en el cuaderno.
-3. Prueba una fuente; si esta muerta, otra.
-   Los enchufes viven y mueren: es normal.
-```
+3. Califica en el cuaderno (1-5): fluidez, control, cuanto entendiste sin tutorial. 4. El ganador por calle se queda. ```
+
+``` TALLER 2: EL ENCHUFE CON ANOTACION (15 min) 1. Solo calle streamer: ajustes › repos › añadir la direccion del repo comunitario. 2. Anota la direccion EXACTA en el cuaderno.
+
+3. Prueba una fuente; si esta muerta, otra. Los enchufes viven y mueren: es normal. ```
 
 ```
 TALLER 3: LA DESCARGA OFFLINE (20 min)
@@ -288,69 +359,117 @@ TALLER 3: LA DESCARGA OFFLINE (20 min)
    y si tu galeria se los traga (ajustar).
 ```
 
-```
-TALLER 4: LA VIGILANCIA DE LA DIASPORA (10 min/sem)
-1. Mirar los tres repos de la sucesion anime
-   (casa + Animiru + Animetail): push y rel.
-2. Anotar en el cuaderno: quien empujo, quien
-   solto, quien proclamo.
-3. Dos semanas de pulso sano = candidata a
-   migracion; casa que despierta = fiesta.
-```
+``` TALLER 4: LA VIGILANCIA DE LA DIASPORA (10 min/sem) 1. Mirar los tres repos de la sucesion anime (casa + Animiru + Animetail): push y rel. 2. Anotar en el cuaderno: quien empujo, quien solto, quien proclamo.
 
-Señal de taller sano: el sillón con SmartTube sin peleas, el teléfono con NewPipe sin candela y el cuaderno con tres columnas de datos. Con eso eres ciudadano de la familia, no espectador de tutos.
+3. Dos semanas de pulso sano = candidata a migracion; casa que despierta = fiesta. ```
+
+Señal de taller sano: el sillón con SmartTube sin peleas, el teléfono con NewPipe sin candela y
+el cuaderno con tres columnas de datos. Con eso eres ciudadano de la familia, no espectador de
+tutos.
 
 *🧊 MITOS DESMONTADOS*
 
 Cinco mitos de la cuadra, desmontados con la vara:
 
-Mito 1: «Las apps de YouTube sin anuncios son virus.» Desmontado: NewPipe lleva más de una década en público (fechado de archivo), con código auditable y releases firmados por su repo. Virus es el APK del canal anónimo que TE LO RE-EMPAQUETA. La diferencia entre la herramienta y el veneno es el origen — lección 01 de esta biblioteca, aplicada.
+Mito 1: «Las apps de YouTube sin anuncios son virus.» Desmontado: NewPipe lleva más de una década en público (fechado de archivo), con código auditable y releases firmados por su repo. Virus es el APK del canal anónimo que TE LO RE-EMPAQUETA.
+
+La diferencia entre la herramienta y el veneno es el origen — lección 01 de esta biblioteca,
+aplicada.
 
 Mito 2: «SmartTube necesita root o TV cara.» Desmontado: SmartTube se instala como app lateral en la mayoría de boxes y televisores Android SIN root (por su releases o instalador). Y en TV barata corre — con menos soltura en 1 GB de RAM, que lo mide tu cuaderno, no el mito.
 
-Mito 3: «La diáspora es una guerra de forks malos.» Desmontado: la diáspora es el ciclo de vida del software libre (tercera sucesión que esta casa documenta). Rama que empuja, arregla; rama que proclama sin papeles, se vigila. Ni guerra ni familia perfecta: genealogía con fechas — que es exactamente lo que esta pieza pone sobre la mesa.
+Mito 3: «La diáspora es una guerra de forks malos.» Desmontado: la diáspora es el ciclo de vida
+del software libre (tercera sucesión que esta casa documenta). Rama que empuja, arregla; rama
+que proclama sin papeles, se vigila.
 
-Mito 4: «Con estos frontends ves TODO lo de YouTube, incluido lo pagado.» Falso. Los frontends ven lo PUBLICO del reproductor; lo rentado, lo de Premium y las membresías siguen con su candado, punto. Quien te prometa lo contrario está vendiendo el camión sin placas.
+Ni guerra ni familia perfecta: genealogía con fechas — que es exactamente lo que esta pieza pone
+sobre la mesa.
+
+Mito 4: «Con estos frontends ves TODO lo de YouTube, incluido lo pagado.» Falso. Los frontends
+ven lo PUBLICO del reproductor; lo rentado, lo de Premium y las membresías siguen con su
+candado, punto.
+
+Quien te prometa lo contrario está vendiendo el camión sin placas.
 
 Mito 5: «Animeko es un fork de aniyomi con más estrellas.» Desmontado por genealogía: animeko es OTRA ESCUELA (cocina propia, danmaku y Bangumi integrados, comunidad china). Confundir el gigante independiente con la diáspora del tronco Tachiyomi es como confundir el colmado chino de la esquina con la sucursal del colmado dominicano: ambos venden pan, ninguno es pariente del otro.
 
 *❓ PREGUNTAS FRECUENTES*
 
-¿Esto me puede dañar la cuenta de Google? Los frontends no usan tu cuenta (esa es su gracia): sin sesión, sin riesgo de cuenta. Lo que se juega es la APP (que se rompa), no tu perfil de Google. SmartTube, igual: corre sin tu sesión.
+¿Esto me puede dañar la cuenta de Google? Los frontends no usan tu cuenta (esa es su gracia):
+sin sesión, sin riesgo de cuenta. Lo que se juega es la APP (que se rompa), no tu perfil de
+Google. SmartTube, igual: corre sin tu sesión.
 
-¿Se puede iniciar sesión en YouTube dentro de NewPipe? No, y es a propósito: sin cuentas, sin cookies, sin perfil que filtrar. Para lo que NECESITA sesión ( playlists privadas, Premium), esa parte queda en la app oficial — cada calle su negocio.
+¿Se puede iniciar sesión en YouTube dentro de NewPipe? No, y es a propósito: sin cuentas, sin
+cookies, sin perfil que filtrar.
 
-¿SmartTube sirve en tele Samsung LG no-Android? No: es para Android TV/boxes con Android. Las smart TV con sistema propio (Tizen, webOS) son otra calle que esta pieza no recorre.
+Para lo que NECESITA sesión ( playlists privadas, Premium), esa parte queda en la app oficial —
+cada calle su negocio.
 
-¿Las listas IPTV de dónde salen? De tu proveedor legítimo si tienes uno (te da tu M3U), o de listas públicas de contenido libre. Listas «todas las premium del mundo gratis»: camión sin placas, vara completa.
+¿SmartTube sirve en tele Samsung LG no-Android? No: es para Android TV/boxes con Android. Las
+smart TV con sistema propio (Tizen, webOS) son otra calle que esta pieza no recorre.
 
-¿Cloudstream es legal? La app es un reproductor de código abierto y público. Los ENCHUFES deciden el resto — y esa decisión es tuya, con la vara y tu país delante. La casa enseña el mecanismo; no bendice enchufes.
+¿Las listas IPTV de dónde salen? De tu proveedor legítimo si tienes uno (te da tu M3U), o de
+listas públicas de contenido libre. Listas «todas las premium del mundo gratis»: camión sin
+placas, vara completa.
 
-¿Qué pasó con aniyomi? No «pasó» nada público: su push está quieto desde el 14-sep (al censo) y sus ramas empujan. La casa lo escribe con fechas y vigila — ni funeral ni coronación anticipada. La pieza 06 retrata su herencia lectora; esta pieza, su corona en el aire.
+¿Cloudstream es legal? La app es un reproductor de código abierto y público. Los ENCHUFES
+deciden el resto — y esa decisión es tuya, con la vara y tu país delante. La casa enseña el
+mecanismo; no bendice enchufes.
 
-¿Animiru o Animetail, cuál de la diáspora? Pregunta de cuaderno, no de fe: Animiru lleva más estrellas (★893 al 15-oct); Animetail proclama «fork oficial» (★604). Ambas empujan al 15-oct. Dos semanas de taller 4 deciden — la corona se gana empujando.
+¿Qué pasó con aniyomi? No «pasó» nada público: su push está quieto desde el 14-sep (al censo) y
+sus ramas empujan.
 
-¿Y si Google rompe TODO mañana? Día de taller garantizado. La historia dice que la comunidad solda (fechado de archivo: la escena de frontends lleva años de cerraduras y llaves). Tu respaldo de ajustes y paciencia de una semana: el peaje de la calle, dicho desde la vara.
+La casa lo escribe con fechas y vigila — ni funeral ni coronación anticipada. La pieza 06
+retrata su herencia lectora; esta pieza, su corona en el aire.
 
-¿Vale en iPhone? Esta familia es Android. La pieza 13 ya cruzó al mundo Apple con otra calle; un mapa-video iOS es pieza posible si el dueño la pide.
+¿Animiru o Animetail, cuál de la diáspora? Pregunta de cuaderno, no de fe: Animiru lleva más
+estrellas (★893 al 15-oct); Animetail proclama «fork oficial» (★604).
 
-¿Todo esto es gratis de verdad? Al censo: sí — releases públicos, sin cobros, sin cuentas. Si un «SmartTube Plus premium» te aparece, es el kiosco disfrazado.
+Ambas empujan al 15-oct. Dos semanas de taller 4 deciden — la corona se gana empujando.
+
+¿Y si Google rompe TODO mañana? Día de taller garantizado.
+
+La historia dice que la comunidad solda (fechado de archivo: la escena de frontends lleva años
+de cerraduras y llaves). Tu respaldo de ajustes y paciencia de una semana: el peaje de la calle,
+dicho desde la vara.
+
+¿Vale en iPhone? Esta familia es Android. La pieza 13 ya cruzó al mundo Apple con otra calle; un
+mapa-video iOS es pieza posible si el dueño la pide.
+
+¿Todo esto es gratis de verdad? Al censo: sí — releases públicos, sin cobros, sin cuentas. Si un
+«SmartTube Plus premium» te aparece, es el kiosco disfrazado.
 
 *🧪 CASOS DEL BARRIO*
 
 Cuatro casos con la familia completa delante:
 
-Caso 1, la abuela y el novenario: su TV box pelea con el YouTube oficial — anuncios en medio del rosario por YouTube. SmartTube instalado por su nieto con esta pieza en la mano: sin candela, botones grandes, control remoto de su tamaño. El dato del caso: la mejor interfaz de la familia para manos mayores no es la del teléfono — es la del sillón.
+Caso 1, la abuela y el novenario: su TV box pelea con el YouTube oficial — anuncios en medio del
+rosario por YouTube. SmartTube instalado por su nieto con esta pieza en la mano: sin candela,
+botones grandes, control remoto de su tamaño.
 
-Caso 2, el universitario con plan de datos chiquito: su vida es descargar en el Wi-Fi del recinto y ver en la guagua. NewPipe + descargas offline resolvieron su semana; su descubrimiento de cuaderno: bajar 480p le dura el doble de datos que 720p y en pantalla de 6 pulgadas no le cambia la vida. El cuaderno sobre el hype, siempre.
+El dato del caso: la mejor interfaz de la familia para manos mayores no es la del teléfono — es
+la del sillón.
 
-Caso 3, el del clan de anime con biblioteca de 400 títulos: llegó con aniyomi de hace un año y su push quieto le dio ansiedad. Taller 4 en marcha: probó Animiru y Animetail con SU respaldo; anota pushes semana a semana; migración pospuesta hasta dos semanas de pulso sano. Su frase de cuaderno: «mi biblioteca no es moneda de campaña».
+Caso 2, el universitario con plan de datos chiquito: su vida es descargar en el Wi-Fi del recinto y ver en la guagua. NewPipe + descargas offline resolvieron su semana; su descubrimiento de cuaderno: bajar 480p le dura el doble de datos que 720p y en pantalla de 6 pulgadas no le cambia la vida.
 
-Caso 4, el dueño del colmado con TV en la pared: le ofrecieron «TV completa HD por 300 al mes» instalada por un señor con un maletín. Con esta pieza en la mano, el muchacho del colmado vio el maletín por dentro: un APK re-empaquetado sin cocina pública. Quedó con M3UAndroid + la lista de su proveedor legítimo. La vara ahorró 300 al mes y un dolor de cabeza con clave de wifi del negocio.
+El cuaderno sobre el hype, siempre.
 
-Caso 5, la maestra de tecnología del liceo: le pidieron «YouTube educativo sin basura» para el aula con la TV vieja. Su solución con esta pieza: SmartTube en la box del aula + lista corta de canales educativos que ELLA curó + ajustes con bloqueo. Su frase para el acta del liceo: «la herramienta libre me deja elegir qué ven; el kiosco decidía por mí y cobraba».
+Caso 3, el del clan de anime con biblioteca de 400 títulos: llegó con aniyomi de hace un año y su push quieto le dio ansiedad. Taller 4 en marcha: probó Animiru y Animetail con SU respaldo; anota pushes semana a semana; migración pospuesta hasta dos semanas de pulso sano.
 
-El patrón de los cuatro y de la quinta: la calle correcta depende del sillón, del bolsillo y del caso — no del hype. El mapa existe para eso: que la elección sea tuya y con datos.
+Su frase de cuaderno: «mi biblioteca no es moneda de campaña».
+
+Caso 4, el dueño del colmado con TV en la pared: le ofrecieron «TV completa HD por 300 al mes» instalada por un señor con un maletín. Con esta pieza en la mano, el muchacho del colmado vio el maletín por dentro: un APK re-empaquetado sin cocina pública.
+
+Quedó con M3UAndroid + la lista de su proveedor legítimo. La vara ahorró 300 al mes y un dolor
+de cabeza con clave de wifi del negocio.
+
+Caso 5, la maestra de tecnología del liceo: le pidieron «YouTube educativo sin basura» para el aula con la TV vieja. Su solución con esta pieza: SmartTube en la box del aula + lista corta de canales educativos que ELLA curó + ajustes con bloqueo.
+
+Su frase para el acta del liceo: «la herramienta libre me deja elegir qué ven; el kiosco decidía
+por mí y cobraba».
+
+El patrón de los cuatro y de la quinta: la calle correcta depende del sillón, del bolsillo y del
+caso — no del hype. El mapa existe para eso: que la elección sea tuya y con datos.
 
 *📜 HISTORIA CORTA*
 
@@ -371,7 +490,9 @@ En esta familia las voces son las PLACAS y los PULSOS, citados del censo del 15-
 
 · SmartTube habla con el sillón: ★34.998 al 15-oct, push del día. Su placa — «navega el contenido con tus propias reglas» — es el manifiesto más corto de la familia.
 
-· La casa aniyomi habla callando: push quieto desde el 14-sep, ★7.802. Y el coro que responde: Animiru (★893) y Animetail (★604, «fork oficial de Aniyomi») empujando el 15-oct, con aniyomi_plus (★9) y las primas rokku/Nekori completando el coro. La sucesión, contada en pushes.
+· La casa aniyomi habla callando: push quieto desde el 14-sep, ★7.802. Y el coro que responde: Animiru (★893) y Animetail (★604, «fork oficial de Aniyomi») empujando el 15-oct, con aniyomi_plus (★9) y las primas rokku/Nekori completando el coro.
+
+La sucesión, contada en pushes.
 
 · El gigante independiente habla en su idioma: animeko ★20.948 al 15-oct con push del día — danmaku, Bangumi, caché offline: una escuela entera que el censo viejo de la casa no veía y el re-scan puso en el mapa.
 
@@ -422,25 +543,37 @@ TRANCA 3: «cloudstream no encuentra nada / todo muerto.»
 TRANCA 4: «Mi biblioteca de aniyomi no aparece en Animiru/Animetail.»
 · Prueba el respaldo .tachibk (taller): entre primos directos suele migrar; entre ramas muy distintas, a medias. Llave de cuadra: migrar biblioteca pequeña de prueba PRIMERO, la completa después de dos semanas de pulso sano. Tu biblioteca no es moneda de campaña (caso 3).
 
-Regla de la casa: en esta familia la tranca casi nunca es la app — es la puerta, el enchufe o la prisa. Las tres llevan llave en esta sección.
+Regla de la casa: en esta familia la tranca casi nunca es la app — es la puerta, el enchufe o la
+prisa. Las tres llevan llave en esta sección.
 
 *🗓 LA SEMANA DE PRUEBA (de familia: TRES apps en paralelo)*
 
 Siete días, una hora diaria, para elegir tu esquina de video CON datos:
 
-Día 1 — La instalación triple: NewPipe (teléfono) + SmartTube o cloudstream (sillón) + tu candidato anime (la casa o su diáspora). Sin enchufar nada: recorrer ajustes de los tres. Primera fila del cuaderno: ¿cuál habló claro sin tutorial?
+Día 1 — La instalación triple: NewPipe (teléfono) + SmartTube o cloudstream (sillón) + tu
+candidato anime (la casa o su diáspora). Sin enchufar nada: recorrer ajustes de los tres.
+Primera fila del cuaderno: ¿cuál habló claro sin tutorial?
 
-Día 2 — La prueba de calle: mismo video en NewPipe contra la app oficial (fluidez, calidad, batería) y mismo contenido en el sillón con SmartTube. Califica con la mano: control, velocidad, quejidos del aparato.
+Día 2 — La prueba de calle: mismo video en NewPipe contra la app oficial (fluidez, calidad,
+batería) y mismo contenido en el sillón con SmartTube. Califica con la mano: control, velocidad,
+quejidos del aparato.
 
-Día 3 — El enchufe (solo calle streamer): repo comunitario con dirección anotada; probar dos fuentes; anotar cuáles viven. Y en IPTV si aplica: tu lista M3U de origen conocido, guardada como tesorito.
+Día 3 — El enchufe (solo calle streamer): repo comunitario con dirección anotada; probar dos
+fuentes; anotar cuáles viven. Y en IPTV si aplica: tu lista M3U de origen conocido, guardada
+como tesorito.
 
-Día 4 — El offline: descarga en NewPipe (Wi-Fi), caché en animeko si estás en anime. Mide pesos y duración: el dato que ahorra el plan de datos.
+Día 4 — El offline: descarga en NewPipe (Wi-Fi), caché en animeko si estás en anime. Mide pesos
+y duración: el dato que ahorra el plan de datos.
 
-Día 5 — La vigilancia de la diáspora: mirar pushes de casa/Animiru/Animetail; anotar. Si alguna publicó release nueva, probarla con respaldo pequeño de prueba.
+Día 5 — La vigilancia de la diáspora: mirar pushes de casa/Animiru/Animetail; anotar. Si alguna
+publicó release nueva, probarla con respaldo pequeño de prueba.
 
-Día 6 — La higiene: permisos de las tres apps, dónde guardan descargas, que la galería no se trague los videos si no quieres. Bloqueos de ajustes si el aparato es compartido.
+Día 6 — La higiene: permisos de las tres apps, dónde guardan descargas, que la galería no se
+trague los videos si no quieres. Bloqueos de ajustes si el aparato es compartido.
 
-Día 7 — El veredicto: tu tabla por calle. Se queda UNO por calle (o ninguno — también se puede: la pieza enseña a decidir, no a quedarse por decreto). Respaldo guardado y desinstalación sin drama: la puerta queda abierta.
+Día 7 — El veredicto: tu tabla por calle. Se queda UNO por calle (o ninguno — también se puede:
+la pieza enseña a decidir, no a quedarse por decreto). Respaldo guardado y desinstalación sin
+drama: la puerta queda abierta.
 
 *🗂 CUADERNO DE CAMPO (de familia)*
 
@@ -460,7 +593,8 @@ ANIME: casa push ___ · Animiru push ___
 Veredicto: mi esquina es ___ porque ___
 ```
 
-La regla: en familia, el dato comparado es el único veredicto válido. «El del video dijo» no es un dato; TU tabla de tres columnas sí.
+La regla: en familia, el dato comparado es el único veredicto válido. «El del video dijo» no es
+un dato; TU tabla de tres columnas sí.
 
 *🏘 EL VECINDARIO DE LA FAMILIA*
 
@@ -514,18 +648,8 @@ Historia (Vanced, escuela ReVanced, terremoto Tachiyomi):
 
 *PULSO AL CORTE — 15-OCT ~19:05 (mapa vivo #1 de esta pieza)*
 
-```
- ★40.148 -> ★40.148 · ★34.998 -> ★35.003
- ★20.948 -> ★20.949 · ★12.823 -> ★12.824
- ★10.968 -> ★10.968 · ★10.283 -> ★10.283
- ★7.802 -> ★7.802 · ★2.804 -> ★2.804
- ★1.281 -> ★1.281 · ★893 -> ★893
- ★604 -> ★604 · ★536 -> ★536
- ★790 -> ★790
-```
-Primera pila del mapa video: censo de la tarde contra
-lectura del cierre, con hora. La casa del anime sigue
-quieta desde el 14-sep (fechado); sus ramas empujando.
+``` ★40.148 -> ★40.148 · ★34.998 -> ★35.003 ★20.948 -> ★20.949 · ★12.823 -> ★12.824 ★10.968 -> ★10.968 · ★10.283 -> ★10.283 ★7.802 -> ★7.802 · ★2.804 -> ★2.804 ★1.281 -> ★1.281 · ★893 -> ★893 ★604 -> ★604 · ★536 -> ★536 ★790 -> ★790 ``` Primera pila del mapa video: censo de la tarde contra lectura del cierre, con hora. La casa del anime sigue quieta desde el 14-sep (fechado); sus ramas empujando.
+
 Caja apilada; nada borrado.
 
 *📝 NOTA DE VERIFICACIÓN — 15 DE OCTUBRE DE 2026*
@@ -546,17 +670,11 @@ No verificado (y por eso NO declarado):
 
 *🪧 CARTEL DE LA CASA (léelo antes de elegir esquina)*
 
-```
-CINCO LINEAS ANTES DEL PRIMER VIDEO
-1. APK solo del releases oficial de cada miembro.
-2. El enchufe (repo/M3U/instancia) lo eliges TU:
-   direccion anotada en el cuaderno.
-3. Los frontends se rompen y se reparan:
-   dependencia = el diseno de la calle.
-4. La corona del anime esta en el aire:
-   pulso de dos semanas antes de migrar.
-5. Tu cuenta de Google NO entra en esta familia.
-```
+``` CINCO LINEAS ANTES DEL PRIMER VIDEO 1. APK solo del releases oficial de cada miembro. 2. El enchufe (repo/M3U/instancia) lo eliges TU: direccion anotada en el cuaderno.
+
+3. Los frontends se rompen y se reparan: dependencia = el diseno de la calle. 4. La corona del anime esta en el aire: pulso de dos semanas antes de migrar.
+
+5. Tu cuenta de Google NO entra en esta familia. ```
 
 ```
 Y TRES QUE NO SE NEGOCIAN
@@ -577,24 +695,33 @@ Tu lista M3U y tu biblioteca: no se comparten.
 
 Esta pieza la escribe La Bandita con la sala llena: tres calles de video, una diáspora en vivo con la corona en el aire, un gigante que dormía fuera del mapa (animeko) y el bolsillo del dueño como censo original. Es la segunda familia de la biblioteca — y la primera que se documenta mientras la sucesión aún decide.
 
-Si esta guía te sirvió, pásala con la fecha puesta. La cerradura de YouTube cambiará otra vez; la casa re-pulsará y la caja de esta pieza se apilará con la fecha nueva. Ni el mapa ni tu cuaderno se asustan con un día de taller: así se camina esta calle desde hace una década.
+Si esta guía te sirvió, pásala con la fecha puesta. La cerradura de YouTube cambiará otra vez;
+la casa re-pulsará y la caja de esta pieza se apilará con la fecha nueva.
 
-Para el dueño: tu perfil era el mapa y tus rincones eran la genealogía. La casa solo puso las fechas.
+Ni el mapa ni tu cuaderno se asustan con un día de taller: así se camina esta calle desde hace
+una década.
 
-*Cerró dentro de su banda:* esta pieza cerró dentro de la banda de la casa y su sello queda en el registro fechado.
+Para el dueño: tu perfil era el mapa y tus rincones eran la genealogía. La casa solo puso las
+fechas.
+
+*Cerró dentro de su banda:* esta pieza cerró dentro de la banda de la casa y su sello queda en
+el registro fechado.
 
 *🔎 LAS PLACAS DE LAS CABEZAS, COMENTADAS*
 
 La portada de esta familia son sus placas, leídas y comentadas:
 
-Dice NewPipe en su cartel de presentación: «el YouTube ligero para Android» — y debajo, su historia de descargas y privacidad sin cuenta.
-Comenta la casa: la palabra que vale es LIGERO: la promesa de doce años es la misma que cumple hoy (push del censo). Cuando un proyecto sostiene su frase de portada una década, la portada es contrato.
+Dice NewPipe en su cartel de presentación: «el YouTube ligero para Android» — y debajo, su historia de descargas y privacidad sin cuenta. Comenta la casa: la palabra que vale es LIGERO: la promesa de doce años es la misma que cumple hoy (push del censo).
 
-Dice SmartTube: «navega el contenido con tus propias reglas».
-Comenta la casa: «tus propias reglas» es el manifiesto de toda la calle 2 — y el límite también: TUS reglas, TU responsabilidad. El que lee solo la primera mitad promete de más; el que lee las dos, instala bien.
+Cuando un proyecto sostiene su frase de portada una década, la portada es contrato.
 
-Y dice Animetail, con todas las letras: «fork oficial de Aniyomi».
-Comenta la casa: la palabra OFFICIAL es un título que se reclama, no un diploma que GitHub otorga — la casa la anota con su ★604 al 15-oct y su push del día, y la deja en vigilancia con la vara. La corona se gana empujando; esta pieza no corona, FECHA.
+Dice SmartTube: «navega el contenido con tus propias reglas». Comenta la casa: «tus propias reglas» es el manifiesto de toda la calle 2 — y el límite también: TUS reglas, TU responsabilidad.
+
+El que lee solo la primera mitad promete de más; el que lee las dos, instala bien.
+
+Y dice Animetail, con todas las letras: «fork oficial de Aniyomi». Comenta la casa: la palabra OFFICIAL es un título que se reclama, no un diploma que GitHub otorga — la casa la anota con su ★604 al 15-oct y su push del día, y la deja en vigilancia con la vara.
+
+La corona se gana empujando; esta pieza no corona, FECHA.
 
 *🧠 MAPA MENTAL DE LA CASA*
 
@@ -621,22 +748,18 @@ FAMILIA VIDEO/YT (15-oct-2026)
 
 *📅 EL CRONOGRAMA COMPLETO DE ESTA PIEZA*
 
-```
-FASE 0 (15 min): leer esta guía entera. Entender
-  las tres calles y la vara de la dependencia.
-FASE 1 (1 h): taller 1 — tres apps en paralelo,
-  calificadas con cuaderno.
-FASE 2 (30 min): enchufe anotado (si tu calle
-  lo pide) + prueba offline.
-FASE 3 (1 semana): la semana completa — vigilancia
-  de la diáspora incluida.
-FASE 4 (10 min/sem): mirar pushes y releases de
-  tu calle. El barrio se mantiene mirándolo.
-```
+``` FASE 0 (15 min): leer esta guía entera. Entender las tres calles y la vara de la dependencia.
+
+FASE 1 (1 h): taller 1 — tres apps en paralelo, calificadas con cuaderno. FASE 2 (30 min): enchufe anotado (si tu calle lo pide) + prueba offline.
+
+FASE 3 (1 semana): la semana completa — vigilancia de la diáspora incluida. FASE 4 (10 min/sem): mirar pushes y releases de tu calle.
+
+El barrio se mantiene mirándolo. ```
 
 *🎯 MINI-QUIZ DE LA CASA (antes de mirar la libreta)*
 
-Cinco preguntas. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante). Gradas de la casa: responde antes de mirar.
+Cinco preguntas. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante). Gradas de
+la casa: responde antes de mirar.
 
 1. ¿Cuál es la casa de los frontends y cuántas estrellas tiene al censo del 15-oct?
 
@@ -649,113 +772,182 @@ Cinco preguntas. Las respuestas van AL REVÉS al pie (leídas de atrás para ade
 5. ¿Tu cuenta de Google entra o no entra en esta familia?
 
 Respuestas al revés (léelas de atrás para adelante):
-1: )148.04★( epipweN — 2: )406★( liatemi nA — 3: )849.02★( okenamA — 4: oicneced aled anugis — 5: artne on
+1: )148.04★( epipweN — 2: )406★( liatemi nA — 3: )849.02★( okenamA — 4: oicneced aled anugis —
+5: artne on
 
 *📮 UNA CARTA PARA EL QUE VE VIDEO EN EL CELULAR (y para la que lo ve en el sillón)*
 
-Si solo tienes veinte minutos de vida libre al día, esta carta es tu pieza entera: el teléfono merece NewPipe (pesa poco, no pide cuenta, no te baja la batería a mitad del capítulo), el sillón merece SmartTube (el control remoto deja de ser una pelea de boxeo) y tu biblioteca de anime merece PACIENCIA: la casa quieta no es la casa muerta, pero la corona todavía no tiene dueño — y las ramas que gritan «oficial» hoy pueden callar mañana, como ya lo vimos tres veces en esta biblioteca.
+Si solo tienes veinte minutos de vida libre al día, esta carta es tu pieza entera: el teléfono
+merece NewPipe (pesa poco, no pide cuenta, no te baja la batería a mitad del capítulo), el
+sillón merece SmartTube (el control remoto deja de ser una pelea de boxeo) y tu biblioteca de
+anime merece PACIENCIA: la casa quieta no es la casa muerta, pero la corona todavía no tiene
+dueño — y las ramas que gritan «oficial» hoy pueden callar mañana, como ya lo vimos tres veces
+en esta biblioteca.
 
 Y si algo se rompe un lunes cualquiera — porque en esta calle los lunes de taller existen — no desinstales con furia: mira el push, espera la soldadura, y anótalo en el cuaderno. La calle video lleva una década rompiéndose y reparándose delante de todos; la diferencia entre usuario y espectador es que el usuario tiene cuaderno.
 
-Esta familia no te pide fe: te pide una semana y tres columnas. Lo demás — la corona del anime, la cerradura de YouTube, la app que ganará tu sala — se escribe solo, con fechas.
+Esta familia no te pide fe: te pide una semana y tres columnas. Lo demás — la corona del anime,
+la cerradura de YouTube, la app que ganará tu sala — se escribe solo, con fechas.
 
 *🧵 CÓMO LEER LAS FUENTES DE ESTA PIEZA SIN PERDER EL PIE*
 
 Cuatro sabores, su lectura correcta:
 
-Las placas se leen por TRES columnas siempre (estrellas con fecha, push, último release) — una sola columna es propaganda; tres columnas es diagnóstico. El censo de esta pieza te deja las diecisiete placas lado a lado.
+Las placas se leen por TRES columnas siempre (estrellas con fecha, push, último release) — una
+sola columna es propaganda; tres columnas es diagnóstico. El censo de esta pieza te deja las
+diecisiete placas lado a lado.
 
-La portada de cada miembro se lee como contrato: ¿manda a SU releases? ¿declara licencia? ¿dice qué es en una frase sobria? La sobriedad de portada de NewPipe y el manifiesto de SmartTube son contratos cumplidos; un cartel de «TODO ilimitado» es una confesión.
+La portada de cada miembro se lee como contrato: ¿manda a SU releases? ¿declara licencia?
+
+¿dice qué es en una frase sobria? La sobriedad de portada de NewPipe y el manifiesto de
+SmartTube son contratos cumplidos; un cartel de «TODO ilimitado» es una confesión.
 
 Los Push y releases de la diáspora se leen como telenovela genealógica: cada empuje de Animiru o Animetail es un capítulo de quién hereda. El taller 4 los mira una vez por semana — sin ansiedad: la historia se escribe en pushes, no en exclamaciones.
 
-Y las comunidades de cada repo son la sala donde la cerradura rota se anuncia PRIMERO: si el video muere en toda la calle, ahí estará el hilo con el arreglo en camino. Lee el hilo antes de desinstalar: la casa lo manda.
+Y las comunidades de cada repo son la sala donde la cerradura rota se anuncia PRIMERO: si el
+video muere en toda la calle, ahí estará el hilo con el arreglo en camino. Lee el hilo antes de
+desinstalar: la casa lo manda.
 
 *🎓 LOS TRES ESCENARIOS DE APRENDIZAJE DE UN NOVATO DE LA SALA*
 
-Escenario 1, el del sillón: su batalla es la TV, no el teléfono. Su camino corto: SmartTube del releases, control remoto, listo. Su riesgo: box vieja de 1 GB — su cuaderno lo dirá con datos, y su salida sana es subir la calidad abajo o cambiar la box, no culpar a la app.
+Escenario 1, el del sillón: su batalla es la TV, no el teléfono. Su camino corto: SmartTube del
+releases, control remoto, listo.
 
-Escenario 2, el de los datos contados: su moneda es el gigabyte. Su camino: NewPipe + descargas en Wi-Fi (taller 3). Su lección: el offline medido (480p dura el doble) vale más que cualquier promesa de «streaming inteligente».
+Su riesgo: box vieja de 1 GB — su cuaderno lo dirá con datos, y su salida sana es subir la
+calidad abajo o cambiar la box, no culpar a la app.
 
-Escenario 3, el del corazón anime: llega por aniyomi, se encuentra la casa quieta y la diáspora gritando. Su camino: taller 4 — vigilar con cuaderno, migrar con respaldo pequeño, esperar dos semanas de pulso. Su lección: en una sucesión, el que espera con datos elige mejor que el que grita con fe.
+Escenario 2, el de los datos contados: su moneda es el gigabyte. Su camino: NewPipe + descargas
+en Wi-Fi (taller 3). Su lección: el offline medido (480p dura el doble) vale más que cualquier
+promesa de «streaming inteligente».
+
+Escenario 3, el del corazón anime: llega por aniyomi, se encuentra la casa quieta y la diáspora
+gritando. Su camino: taller 4 — vigilar con cuaderno, migrar con respaldo pequeño, esperar dos
+semanas de pulso.
+
+Su lección: en una sucesión, el que espera con datos elige mejor que el que grita con fe.
 
 *🧾 EL PLIEGO FINAL DE LA CASA (para copiar en una nota, siendo honesto)*
 
-```
-FAMILIA VIDEO/YT EN UNA NOTA (15-oct-2026)
-1. Frontends: NewPipe ★40.148 · LibreTube 12.8k
-2. Sillón: SmartTube ★34.998 (sin root).
-3. Enchufes: cloudstream ★10.968 + tu repo.
-4. IPTV: mytv-android · M3UAndroid (tu lista).
-5. Anime: casa aniyomi quieta (14-sep).
-6. Diaspora empuja HOY: Animiru 893 · Animetail 604.
-7. Gigante aparte: animeko ★20.948 (push del dia).
-8. La cerradura se rompe y se suelda: paciencia.
-9. Sin cuenta de Google · sin cobros · sin promesas.
-10. Tu enchufe, tu responsabilidad: direccion anotada.
-```
+``` FAMILIA VIDEO/YT EN UNA NOTA (15-oct-2026) 1. Frontends: NewPipe ★40.148 · LibreTube 12.8k 2. Sillón: SmartTube ★34.998 (sin root). 3. Enchufes: cloudstream ★10.968 + tu repo.
+
+4. IPTV: mytv-android · M3UAndroid (tu lista). 5. Anime: casa aniyomi quieta (14-sep).
+
+6. Diaspora empuja HOY: Animiru 893 · Animetail 604. 7. Gigante aparte: animeko ★20.948 (push del dia). 8. La cerradura se rompe y se suelda: paciencia.
+
+9. Sin cuenta de Google · sin cobros · sin promesas. 10. Tu enchufe, tu responsabilidad: direccion anotada. ```
 
 *🌦 LOS TRES FUTUROS DE ESTA FAMILIA (lectura honesta, sin boletos)*
 
-Futuro A, la casa despierta: aniyomi vuelve a empujar y la diáspora vuelve a ser lo que era — sangre nueva del tronco. Señal: push de la casa con release. La pieza lo cantaría en su próxima caja; las ramas volverían a ser ramas y no candidatas.
+Futuro A, la casa despierta: aniyomi vuelve a empujar y la diáspora vuelve a ser lo que era —
+sangre nueva del tronco. Señal: push de la casa con release.
 
-Futuro B, la corona pasa: Animiru o Animetail sostienen dos meses de pulso, papeles claros y comunidad — y el barrio manga-video les entrega la corona sin drama. Señal: releases firmados, issues con respuestas, y tu cuaderno con dos semanas de datos. La casa fecha la coronación; no la vota.
+La pieza lo cantaría en su próxima caja; las ramas volverían a ser ramas y no candidatas.
 
-Futuro C, la cerradura grande: YouTube cambia su puerta de forma que tarde semanas en soldarse (ha pasado en la historia de la calle, fechado de archivo). Señal: hilos de comunidad con el mismo dolor. La vara de la dependencia ya te dijo que esta calle tiene esos días; tu alternativa seria mientras tanto: la escuela PATCHING (Morphe, pieza hermana en cola) que parchea la app oficial — otra cerradura, otra llave.
+Futuro B, la corona pasa: Animiru o Animetail sostienen dos meses de pulso, papeles claros y comunidad — y el barrio manga-video les entrega la corona sin drama. Señal: releases firmados, issues con respuestas, y tu cuaderno con dos semanas de datos.
 
-Ninguno se promete; los tres tienen señales nombradas. En esta familia el futuro no se adivina: se mira el push.
+La casa fecha la coronación; no la vota.
+
+Futuro C, la cerradura grande: YouTube cambia su puerta de forma que tarde semanas en soldarse
+(ha pasado en la historia de la calle, fechado de archivo). Señal: hilos de comunidad con el
+mismo dolor.
+
+La vara de la dependencia ya te dijo que esta calle tiene esos días; tu alternativa seria
+mientras tanto: la escuela PATCHING (Morphe, pieza hermana en cola) que parchea la app oficial —
+otra cerradura, otra llave.
+
+Ninguno se promete; los tres tienen señales nombradas. En esta familia el futuro no se adivina:
+se mira el push.
 
 *❔ SEGUNDA RONDA CORTA (las que llegaron con la puerta cerrada)*
 
-¿Puedo tener NewPipe Y la app oficial de YouTube? Sí, conviven sin drama: uno no toca al otro. Muchos viven con las dos: oficial para lo que pide sesión, NewPipe para el resto.
+¿Puedo tener NewPipe Y la app oficial de YouTube? Sí, conviven sin drama: uno no toca al otro.
+Muchos viven con las dos: oficial para lo que pide sesión, NewPipe para el resto.
 
-¿Las descargas de NewPipe son para siempre? Son archivos en tu almacenamiento: tuyos, movibles, respaldables — «forever» como cualquier archivo tuyo lo sea.
+¿Las descargas de NewPipe son para siempre? Son archivos en tu almacenamiento: tuyos, movibles,
+respaldables — «forever» como cualquier archivo tuyo lo sea.
 
-¿SmartTube roba contraseñas del control remoto? No usa tu cuenta de Google para nada (entrada sin sesión). El mito del robo nace de confundir esta calle con los APK del kiosco.
+¿SmartTube roba contraseñas del control remoto? No usa tu cuenta de Google para nada (entrada
+sin sesión). El mito del robo nace de confundir esta calle con los APK del kiosco.
 
-¿Qué pasa con mis playlists si dejo la app oficial? Las playlists EN YouTube siguen en YouTube (la cuenta es de la plataforma). Las locales de NewPipe viven en NewPipe y se respaldan como ajustes exportables.
+¿Qué pasa con mis playlists si dejo la app oficial? Las playlists EN YouTube siguen en YouTube
+(la cuenta es de la plataforma). Las locales de NewPipe viven en NewPipe y se respaldan como
+ajustes exportables.
 
-¿Los frontends gastan más batería que la app oficial? La regla general de la cuadra dice que no (son ligeras de propósito), pero tu teléfono manda: el cuaderno mide batería por hora en tu hierro y el dato queda.
+¿Los frontends gastan más batería que la app oficial? La regla general de la cuadra dice que no
+(son ligeras de propósito), pero tu teléfono manda: el cuaderno mide batería por hora en tu
+hierro y el dato queda.
 
-¿Me pueden multar por usar NewPipe? Sin cuenta, no hay cuenta que sancionar — y la casa no registra caso de sanción a usuarios por ver contenido público vía frontend (fechado por ausencia, no por promesa). El marco legal por país es cosa de tu vara: la pieza enseña el mecanismo y sus límites, no dicta sentencias.
+¿Me pueden multar por usar NewPipe? Sin cuenta, no hay cuenta que sancionar — y la casa no
+registra caso de sanción a usuarios por ver contenido público vía frontend (fechado por
+ausencia, no por promesa).
 
-¿Cada cuánto se re-censa esta pieza? Con cada pulso del mapa vivo: la caja de esta pieza se apila con fecha nueva, y la diáspora del anime se mira una vez por semana hasta que la corona tenga dueño.
+El marco legal por país es cosa de tu vara: la pieza enseña el mecanismo y sus límites, no dicta
+sentencias.
 
-¿SmartTube y YouTube oficial pueden vivir en la misma TV? Sí: son apps distintas que no se tocan. Muchas salas viven con las dos — la oficial para la sesión de la familia y SmartTube para el día a día sin candela.
+¿Cada cuánto se re-censa esta pieza? Con cada pulso del mapa vivo: la caja de esta pieza se
+apila con fecha nueva, y la diáspora del anime se mira una vez por semana hasta que la corona
+tenga dueño.
 
-¿Cómo actualizo si esto no está en Play Store? Por SU releases (como nació: los frontends viven fuera de la tienda, fechado de archivo) o con tu instalador de la pieza 01, que vigila releases por ti. Dos toques y la cerradura vuelve a abrir.
+¿SmartTube y YouTube oficial pueden vivir en la misma TV? Sí: son apps distintas que no se
+tocan. Muchas salas viven con las dos — la oficial para la sesión de la familia y SmartTube para
+el día a día sin candela.
 
-¿La diáspora me puede robar la biblioteca? Un fork podría, como cualquiera — por eso la vara: respaldo pequeño de prueba primero, permisos mirados, releases oficiales. La confianza se construye con pushes y papeles, no con carteles.
+¿Cómo actualizo si esto no está en Play Store? Por SU releases (como nació: los frontends viven
+fuera de la tienda, fechado de archivo) o con tu instalador de la pieza 01, que vigila releases
+por ti.
 
-¿Puedo usar NewPipe como reproductor de enlaces sueltos? Sí: comparte el enlace desde cualquier app y él lo abre. Uno de sus talentos menos contados: la antena del barrio para todo lo que se mueva.
+Dos toques y la cerradura vuelve a abrir.
 
-¿La instancia de Piped por defecto es de fiar? Es comunitaria y pública: un ascensor compartido — funciona, y no es tu sala. Si tu vara pide control total, monta la tuya (el proyecto lo documenta) o quédate en NewPipe, que no usa intermediarios.
+¿La diáspora me puede robar la biblioteca? Un fork podría, como cualquiera — por eso la vara:
+respaldo pequeño de prueba primero, permisos mirados, releases oficiales. La confianza se
+construye con pushes y papeles, no con carteles.
 
-¿Y si quiero TODO en una sola app? Nadie en esta familia lo hace todo bien: teléfono ≠ sillón ≠ anime. El mapa existe porque la sala tiene butacas distintas — elegir una sola app para todo es la receta del enredo.
+¿Puedo usar NewPipe como reproductor de enlaces sueltos? Sí: comparte el enlace desde cualquier
+app y él lo abre. Uno de sus talentos menos contados: la antena del barrio para todo lo que se
+mueva.
+
+¿La instancia de Piped por defecto es de fiar? Es comunitaria y pública: un ascensor compartido
+— funciona, y no es tu sala.
+
+Si tu vara pide control total, monta la tuya (el proyecto lo documenta) o quédate en NewPipe,
+que no usa intermediarios.
+
+¿Y si quiero TODO en una sola app? Nadie en esta familia lo hace todo bien: teléfono ≠ sillón ≠
+anime. El mapa existe porque la sala tiene butacas distintas — elegir una sola app para todo es
+la receta del enredo.
 
 *🪴 QUÉ HACER SI UN MIEMBRO DESAPARECE O CAMBIA DE DUEÑO*
 
 El seguro del barrio video:
 
-Si se apaga un frontend: la alternativa de su calle entra por la misma puerta (LibreTube si NewPipe descansa, y viceversa) — el mecanismo es el mismo y tus hábitos migran en una tarde.
+Si se apaga un frontend: la alternativa de su calle entra por la misma puerta (LibreTube si
+NewPipe descansa, y viceversa) — el mecanismo es el mismo y tus hábitos migran en una tarde.
 
 Si se apaga la casa del anime DEFINITIVAMENTE: la diáspora ya está empujando (este mapa lo documenta en caliente); tu respaldo .tachibk es la lengua franca y el taller 4 te dice cuándo migrar. La pieza 06 guarda la genealogía completa del tronco.
 
-Si desaparece un ENCHUFE (repo o instancia): dirección anotada en el cuaderno, otra cocina viva en su lugar. El enchufe es lo más mudable de la familia: por eso se anota y se vigila, nunca se casa.
+Si desaparece un ENCHUFE (repo o instancia): dirección anotada en el cuaderno, otra cocina viva
+en su lugar. El enchufe es lo más mudable de la familia: por eso se anota y se vigila, nunca se
+casa.
 
-Y la regla que no cambia: tus descargas son archivos tuyos, tu lista es tu factura y tu cuaderno es tu vara. Ninguna esquina del barrio video te es dueño.
+Y la regla que no cambia: tus descargas son archivos tuyos, tu lista es tu factura y tu cuaderno
+es tu vara. Ninguna esquina del barrio video te es dueño.
 
 ---
 
-#LaBandita #NewPipe #SmartTube #LibreTube #Piped #Cloudstream #Aniyomi #Animiru #Animetail #Animeko #DiasporaAniyomi #IPTV #M3UAndroid #mpvRx #HallazgoDelDueno #WhatsAppDominicano #TecnologiaDominicana
+#LaBandita #NewPipe #SmartTube #LibreTube #Piped #Cloudstream #Aniyomi #Animiru #Animetail
+#Animeko #DiasporaAniyomi #IPTV #M3UAndroid #mpvRx #HallazgoDelDueno #WhatsAppDominicano
+#TecnologiaDominicana
 
 ───────────────────
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 16).*
 
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 14 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 14 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
 
-Actividad medida hoy: 4 con actividad hoy · 6 en 7 días · 2 en 30 días · 1 en 180 días · 0 dormidos · 1 archivados.
+Actividad medida hoy: 4 con actividad hoy · 6 en 7 días · 2 en 30 días · 1 en 180 días · 0
+dormidos · 1 archivados.
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
@@ -783,6 +975,9 @@ Actividad medida hoy: 4 con actividad hoy · 6 en 7 días · 2 en 30 días · 1 
 
 • `riteshp2001/mpvrx` — ★859 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release mpvRx v3.0.2 (2026-10-25).
 
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

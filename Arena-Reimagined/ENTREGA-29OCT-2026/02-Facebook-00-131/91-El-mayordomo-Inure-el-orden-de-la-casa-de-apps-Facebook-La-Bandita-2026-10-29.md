@@ -4,7 +4,11 @@
 
 ## ⚡ En una página
 
-Inure ordena la casa de aplicaciones: ver, auditar, desinstalar y entender qué vive en tu teléfono, con GPL-3.0 y pulso fresco. El mayordomo bueno no presume las llaves: presenta el inventario. Con la mano de la varita o con llave root, su oficio es que ninguna app viva en tu casa sin nombre.
+Inure ordena la casa de aplicaciones: ver, auditar, desinstalar y entender qué vive en tu
+teléfono, con GPL-3.0 y pulso fresco. El mayordomo bueno no presume las llaves: presenta el
+inventario.
+
+Con la mano de la varita o con llave root, su oficio es que ninguna app viva en tu casa sin nombre.
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
@@ -32,8 +36,12 @@ Una casa con inventario no necesita memoria perfecta: necesita mayordomo y libre
 
 ## El meme de la pieza
 
-> —Tengo 200 apps y no sé ni la mitad. —El mayordomo sí sabe: pregúntale antes de la próxima limpieza a ciegas.
+> —Tengo 200 apps y no sé ni la mitad. —El mayordomo sí sabe: pregúntale antes de la próxima
+limpieza a ciegas.
 
-> La Bandita verifica antes de recomendar: pieza 91 del muro, nacida el 29 de octubre de 2026 desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 91 del muro, nacida el 29 de octubre de 2026
+desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
+mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
+primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.

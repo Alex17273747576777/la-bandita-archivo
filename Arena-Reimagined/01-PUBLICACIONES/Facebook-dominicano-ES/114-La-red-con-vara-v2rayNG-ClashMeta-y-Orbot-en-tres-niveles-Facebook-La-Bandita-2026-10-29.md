@@ -27,7 +27,8 @@ La privacidad del tránsito viene en tres niveles y hoy los tres empujaron: la a
 
 **1.** Nivel declarado antes de navegar: qué sale por el túnel y qué no, escrito en la libreta.
 
-**2.** El servidor del túnel tiene dueño conocido: gratis y anónimo es otra forma de entregar el dato.
+**2.** El servidor del túnel tiene dueño conocido: gratis y anónimo es otra forma de entregar el
+dato.
 
 **3.** La vara de siempre: tu red, tu cuenta, tu ley; la herramienta no se presta para casas ajenas.
 
@@ -37,8 +38,12 @@ El túnel no te hace invisible: te hace responsable de saber por dónde sale tu 
 
 ## El meme de la pieza
 
-> —Con esto ya nadie me ve. —Te ve el dueño de tu túnel si no lo elegiste tú: la invisibilidad también tiene firmante.
+> —Con esto ya nadie me ve. —Te ve el dueño de tu túnel si no lo elegiste tú: la invisibilidad
+también tiene firmante.
 
-> La Bandita verifica antes de recomendar: pieza 114 del muro, nacida el 29 de octubre de 2026 de la investigación del mismo día, con placas re-medidas en su fuente primaria. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 114 del muro, nacida el 29 de octubre de 2026
+de la investigación del mismo día, con placas re-medidas en su fuente primaria. Las estrellas
+adornan; las fechas mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se firma con actividad y licencia, no con aplauso.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
+firma con actividad y licencia, no con aplauso.

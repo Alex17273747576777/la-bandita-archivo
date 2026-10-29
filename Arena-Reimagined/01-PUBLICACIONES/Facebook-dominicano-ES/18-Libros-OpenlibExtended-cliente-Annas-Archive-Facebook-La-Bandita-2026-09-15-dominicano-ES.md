@@ -19,17 +19,23 @@ Existe una app que busca tu libro en las tres bibliotecas grandes a la vez, lo d
 
 ## 📖 La ficha
 
-**OpenlibExtended** — cliente de código abierto para Anna's Archive, con lector de EPUB y PDF integrado.
+**OpenlibExtended** — cliente de código abierto para Anna's Archive, con lector de EPUB y PDF
+integrado.
 
 https://github.com/warreth/OpenlibExtended
 
 - **Licencia:** AGPL-3.0 — el código se puede leer, y se lee.
 - **Versión:** 1.6.0 (septiembre de 2026) · 32,6 MB · Android 7 en adelante.
-- **Multiplataforma:** Android, iOS, Windows, Linux y macOS — la biblioteca te sigue de la casa al bolsillo.
+- **Multiplataforma:** Android, iOS, Windows, Linux y macOS — la biblioteca te sigue de la casa
+al bolsillo.
 - **Idiomas:** español, inglés, francés, alemán y ruso, entre otros.
-- **La idea central:** busca en **LibGen, Z-Library y Anna's Archive al mismo tiempo**, con respaldo automático si una fuente falla — y cada resultado y cada descarga muestran de dónde salieron. La fuente se declara, como en este oficio.
+- **La idea central:** busca en **LibGen, Z-Library y Anna's Archive al mismo tiempo**, con
+respaldo automático si una fuente falla — y cada resultado y cada descarga muestran de dónde
+salieron. La fuente se declara, como en este oficio.
 
-El lector integrado (EPUB y PDF) tiene zonas de toque configurables y gestos; la biblioteca administra tu colección, muestra tendencias y exporta los archivos a otras apps si prefieres leer en otra parte.
+El lector integrado (EPUB y PDF) tiene zonas de toque configurables y gestos; la biblioteca
+administra tu colección, muestra tendencias y exporta los archivos a otras apps si prefieres
+leer en otra parte.
 
 ## ✨ Lo que trae la 1.6.0
 
@@ -44,13 +50,21 @@ El lector integrado (EPUB y PDF) tiene zonas de toque configurables y gestos; la
 
 ## ⚠️ Los permisos, con nombre
 
-La app pide permisos amplios de **instalación y almacenamiento** para la gestión de libros. En esta casa los permisos no se aceptan sin leerlos: se abren, se nombran y se decide. Aquí están nombrados. Si tu teléfono te pide confirmar instalaciones de fuentes desconocidas, es el mismo permiso de siempre — el de la pieza 01.
+La app pide permisos amplios de **instalación y almacenamiento** para la gestión de libros. En
+esta casa los permisos no se aceptan sin leerlos: se abren, se nombran y se decide.
+
+Aquí están nombrados. Si tu teléfono te pide confirmar instalaciones de fuentes desconocidas, es
+el mismo permiso de siempre — el de la pieza 01.
 
 ## 🚫 Lo que no es esta guía
 
-- **No pegamos el APK directo.** La casa de la app es su repo; la tienda fichada es la de la Publicación 01.
-- **No enlazamos las fuentes por fuera:** las fuentes se abren desde la propia app — para eso existe.
-- **El libro es de su autor.** La app lo dice en su propio aviso: uso personal, no comercial, y las leyes de tu tierra. La Bandita informa con fuentes fechadas; lo que cada quien lee, lo lee con responsabilidad.
+- **No pegamos el APK directo.** La casa de la app es su repo; la tienda fichada es la de la
+Publicación 01.
+- **No enlazamos las fuentes por fuera:** las fuentes se abren desde la propia app — para eso
+existe.
+- **El libro es de su autor.** La app lo dice en su propio aviso: uso personal, no comercial, y
+las leyes de tu tierra. La Bandita informa con fuentes fechadas; lo que cada quien lee, lo lee
+con responsabilidad.
 
 ## 🧩 La familia lectora
 
@@ -67,7 +81,8 @@ Una casa, muchas repisas: cada cosa en su repisa.
 No: es un cliente de código abierto para ella. El aviso de la app lo declara sin rodeos.
 
 **¿Por qué es más rápida que lo que recordaba?**
-La 1.6.0 dejó de sondear espejos uno por uno: prioriza los hosts rápidos directamente. Y si venías de una versión vieja, la migración de espejo es de un toque en la pantalla de novedades.
+La 1.6.0 dejó de sondear espejos uno por uno: prioriza los hosts rápidos directamente. Y si
+venías de una versión vieja, la migración de espejo es de un toque en la pantalla de novedades.
 
 **¿Funciona sin internet?**
 Lo descargado sí: la biblioteca y el lector trabajan en local. La búsqueda triple necesita red.
@@ -86,21 +101,28 @@ Beta — se prueba, se registra, se espera. Como todo en esta casa.
 > —¿Y cuál es el mejor lector de libros?
 > —El que busca en tres bibliotecas a la vez y te muestra de dónde sacó cada página.
 
-> La Bandita informa a partir de fuentes fechadas. La biblioteca se verifica igual que todo: abriendo el enlace el día que se usa.
+> La Bandita informa a partir de fuentes fechadas. La biblioteca se verifica igual que todo:
+abriendo el enlace el día que se usa.
 
 ---
 
-**Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta. Su casa re-mirada a HOY: OpenlibExtended ★479, v1.6.0 (3-sep) sigue siendo la última release. Acta completa: Registro #71.
+**Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta. Su casa re-mirada a HOY:
+OpenlibExtended ★479, v1.6.0 (3-sep) sigue siendo la última release. Acta completa: Registro
+#71.
 
 ───────────────────
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 18).*
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 1 repos GitHub confirmados y 3 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 1
+repos GitHub confirmados y 3 apariciones de URL. La historia no se reescribe; esta nota añade el
+estado medido hoy.
 
-Actividad medida hoy: 0 hoy · 0 en 7 días · 1 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+Actividad medida hoy: 0 hoy · 0 en 7 días · 1 en 30 días · 0 en 180 días · 0 dormidos · 0
+archivados.
 
-Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta
+publicación (verificado 29-oct-2026).
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
@@ -117,4 +139,5 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 Enlaces web: 3 apariciones; 3 respondieron vivas el 29-oct-2026.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
+el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

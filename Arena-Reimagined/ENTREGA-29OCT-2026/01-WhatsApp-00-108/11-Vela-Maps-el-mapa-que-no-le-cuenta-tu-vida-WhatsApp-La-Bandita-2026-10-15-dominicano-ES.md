@@ -6,11 +6,7 @@
 
 ⏱️ *Lectura total: 55 min*
 
-⚡ *EN UN RESPIRO*
-Un mapa libre con la comodidad de la app de Google — tráfico, horarios,
-reseñas, precios de bomba — pero sin cuenta, sin anuncios y sin entregar
-tu vida. Nació en junio, corre a 482 estrellas por mes, y trae nuestra
-isla horneada con nombre propio.
+⚡ *EN UN RESPIRO* Un mapa libre con la comodidad de la app de Google — tráfico, horarios, reseñas, precios de bomba — pero sin cuenta, sin anuncios y sin entregar tu vida. Nació en junio, corre a 482 estrellas por mes, y trae nuestra isla horneada con nombre propio.
 
 ```
 🗺️ EL MAPA DE ESTA GUÍA  (tu tiempo, minuto a minuto)
@@ -108,10 +104,9 @@ placa, su obra y sus deudas a la vista.
 
 ¿Y por qué medir velocidad y no solo estrellas?
 
-Porque las estrellas acumulan por inercia: un proyecto famoso de diez
-años las recoge dormido. Un recién llegado tiene que correr o morir.
-La velocidad (estrellas divididas meses de vida) es el pulso real de
-una casa joven — y el pulso de Vela es de atleta.
+Porque las estrellas acumulan por inercia: un proyecto famoso de diez años las recoge dormido. Un recién llegado tiene que correr o morir.
+
+La velocidad (estrellas divididas meses de vida) es el pulso real de una casa joven — y el pulso de Vela es de atleta.
 
 *¿Y las otras 69 casas sobrevivientes?* Nada de silencios: quedaron
 con fecha, licencia y edad anotadas en el archivo de la expedición.
@@ -165,10 +160,7 @@ Cuatro meses después de esa idea: 1.961 estrellas, 93 forks, 23
 colaboradores, 19 idiomas, releases semanales, un libro, un SPEC…
 y siete despensas de datos con la isla entera adentro.
 
-► Por eso la expedición se detuvo en esta puerta: esta casa llenó la
-silla que llevaba años vacía, y la llenó con reglas de taller que esta
-guía lleva años pidiendo en voz alta. Que la silla se siga sosteniendo
-lo decide el taller con sus releases — y nosotros con nuestra vara.
+► Por eso la expedición se detuvo en esta puerta: esta casa llenó la silla que llevaba años vacía, y la llenó con reglas de taller que esta guía lleva años pidiendo en voz alta. Que la silla se siga sosteniendo lo decide el taller con sus releases — y nosotros con nuestra vara.
 
 *El falso dilema, desarmado con nombre y apellido.*
 
@@ -303,10 +295,7 @@ que conoces para que no pierdas el paso.
 pública.* El mapa que recorres con el dedo es abierto: no llega a
 Google.
 
-Pero una búsqueda, una ruta en carro o el detalle de un lugar
-le hacen al gigante *las preguntas que solo él sabe responder* — como
-las haría tu navegador en incógnito: sin tu nombre, sin clave, sin
-servidor en el medio. La tabla completa está en la estación 8.
+Pero una búsqueda, una ruta en carro o el detalle de un lugar le hacen al gigante *las preguntas que solo él sabe responder* — como las haría tu navegador en incógnito: sin tu nombre, sin clave, sin servidor en el medio. La tabla completa está en la estación 8.
 
 ⚠️ *No es un milagro de datos.* La casa lo advierte: nombres de calles
 y números de casas pueden diferir de Google Maps.
@@ -320,10 +309,7 @@ funciones bajo llave, no hay «continúa viendo anuncios». El que trae
 el repo es el que usas — completo, gratis y libre, como manda su
 licencia.
 
-*Y el nombre, que se cuenta solo:* Vela es la constelación del
-navegante — «Las Velas», la que guió barcos cuando no había GPS — y
-también «sail» en varios idiomas. Un mapa que se llama como la vela
-que llegaba a puerto sin venderle el rumbo a nadie.
+*Y el nombre, que se cuenta solo:* Vela es la constelación del navegante — «Las Velas», la que guió barcos cuando no había GPS — y también «sail» en varios idiomas. Un mapa que se llama como la vela que llegaba a puerto sin venderle el rumbo a nadie.
 
 ────────────────
 🎒 *EL CARGAMENTO, CAJÓN POR CAJÓN*
@@ -339,11 +325,7 @@ tiempo pintado verde, ámbar o rojo, y el tráfico dicho en palabras.
 Arriba corre la navegación: carriles, escudos de salida, velocímetro
 con el límite, y la oferta de vuelta rápida cuando se arma el presa.
 
-*2 · Los lugares del mapa*
-Cada pin que pasas rozando es dato abierto: navegar no manda nada a
-Google. Tocas un lugar y se pregunta lo que falta: horario con
-festivos, reseñas, fotos, fila, teléfono y aviso de si estará cerrado
-cuando llegues.
+*2 · Los lugares del mapa* Cada pin que pasas rozando es dato abierto: navegar no manda nada a Google. Tocas un lugar y se pregunta lo que falta: horario con festivos, reseñas, fotos, fila, teléfono y aviso de si estará cerrado cuando llegues.
 
 *3 · Cámaras de placas en el mapa* 🎯
 La rareza buena: dibuja las cámaras de matrícula mapeadas por la
@@ -405,11 +387,7 @@ instalada a mano; el detalle en la estación 22.
 
 *10 · El actualizador de fábrica*
 
-La app trae su propio actualizador con los tres canales (estable,
-nightly, canary): no dependes de memorizar releases — la casa te
-avisa adentro cuando hay versión nueva. Menos pasos entre tú y la
-última hornada, sin tiendas intermedias.
-────────────────
+La app trae su propio actualizador con los tres canales (estable, nightly, canary): no dependes de memorizar releases — la casa te avisa adentro cuando hay versión nueva. Menos pasos entre tú y la última hornada, sin tiendas intermedias. ────────────────
 
 🇩🇴 *REPÚBLICA DOMINICANA ADENTRO*
 · estación 7 de 27 · 2 min de lectura ·
@@ -456,16 +434,9 @@ servida, con hornadas de este mismo mes.
 
 *Y si a tu pueblo le falta un pedazo,* la obra está abierta a tu mano.
 
-Todo lo que Vela dibuja sale de OpenStreetMap — el mapa que la gente
-misma edita, como una wiki de calles. Si el colmado nuevo de tu calle
-no aparece, o el horario cambió, no hay ticket que hacer a una
-empresa: se edita en openstreetmap.org y el mundo entero lo hereda.
+Todo lo que Vela dibuja sale de OpenStreetMap — el mapa que la gente misma edita, como una wiki de calles. Si el colmado nuevo de tu calle no aparece, o el horario cambió, no hay ticket que hacer a una empresa: se edita en openstreetmap.org y el mundo entero lo hereda.
 
-Es la diferencia entre quejarte con un call center y pintar la cerca
-de tu propia casa. La guía no mide hoy la cobertura calle por calle —
-nadie puede, son miles de esquinas — pero el mecanismo de corrección
-es público, gratuito y dominicano desde el día uno: cualquiera de
-nosotros puede ser el que puso tu barrio en el mapa.
+Es la diferencia entre quejarte con un call center y pintar la cerca de tu propia casa. La guía no mide hoy la cobertura calle por calle — nadie puede, son miles de esquinas — pero el mecanismo de corrección es público, gratuito y dominicano desde el día uno: cualquiera de nosotros puede ser el que puso tu barrio en el mapa.
 
 Y una línea para el mapa detrás del mapa: todo esto nace de
 *OpenStreetMap* — el mapa libre editado por gente, bajo licencia
@@ -483,13 +454,7 @@ adaptada entera. Primero lo que Google NO recibe:
 ```
  LO QUE GOOGLE NUNCA RECIBE
 
- 🚫 Tu cuenta. No hay login ni clave de app.
- 🚫 Identificador de dispositivo o de publicidad.
- 🚫 Tu GPS mientras recorres el mapa.
- 🚫 Tus lugares guardados: viven solo en tu teléfono.
- 🚫 Tu rastro GPS como conjunto: no sale del teléfono.
- 🚫 Perfil publicitario: no hay nada a qué engancharlo.
-```
+ 🚫 Tu cuenta. No hay login ni clave de app. 🚫 Identificador de dispositivo o de publicidad. 🚫 Tu GPS mientras recorres el mapa. 🚫 Tus lugares guardados: viven solo en tu teléfono. 🚫 Tu rastro GPS como conjunto: no sale del teléfono. 🚫 Perfil publicitario: no hay nada a qué engancharlo. ```
 
 Y lo que SÍ le llega — anónimo, sin cuenta, como a un navegador en
 incógnito:
@@ -512,19 +477,17 @@ anónimas de vez en cuando.*
 
 Tres letras chicas que la casa declara y esta guía firma:
 
-⚠️ *La reseña escondida.* Unas pocas cosas — las reseñas entre ellas
-— Google solo las sirve a un navegador de verdad. Vela las lee desde
-una página en pantalla oculta, anónima, y la lista de esas páginas
-está publicada. Inventario público, no escondite.
+⚠️ *La reseña escondida.* Unas pocas cosas — las reseñas entre ellas — Google solo las sirve a un navegador de verdad. Vela las lee desde una página en pantalla oculta, anónima, y la lista de esas páginas está publicada.
+
+Inventario público, no escondite.
 
 ⚠️ *La sesión semanal.* Google deja su cookie de visita sin login,
 como en incógnito. Vela la estrena cada semana por defecto — y te
 deje elegir: semanal, diaria, cada arranque, o botón de «ahora».
 
-⚠️ *El tráfico vivo es interruptor, no secreto.* Mientras navegas
-puede preguntar tráfico desde tu posición cada dos minutos aprox. Se
-apaga en Settings → Navigation. Los recálculos al salir de la ruta se
-quedan: sin ellos no hay navegación paso a paso.
+⚠️ *El tráfico vivo es interruptor, no secreto.* Mientras navegas puede preguntar tráfico desde tu posición cada dos minutos aprox. Se apaga en Settings → Navigation.
+
+Los recálculos al salir de la ruta se quedan: sin ellos no hay navegación paso a paso.
 
 Y el modo puro: *Use Vela without Google* — un interruptor y las
 regiones descargadas te dan mapa, búsqueda, ruta y navegación sin un
@@ -538,21 +501,7 @@ dice de qué pieza está es la casa que no te miente.
 *La tabla que la casa sí se atrevió a publicar* — app de Google
 contra Vela, renglón por renglón:
 
-```
- ¿QUÉ RECIBE GOOGLE?     APP DE GOOGLE   VELA
-────────────────
- Tu cuenta               siempre dentro  jamás
- Tu GPS continuo         sí             nunca
- Cada movimiento         sí, a sus      no, por
- del mapa                servidores     defecto
- Tus búsquedas al        sí, en el      anónimas,
- historial de tu cuenta                 sin cuenta
- Tus lugares guardados   sus servidores tu teléfono
- Perfil publicitario     lo alimenta    sin nada
-                         a qué engancharlo
- Funciona sin Google     no             sí, un
-                                        interruptor
-```
+``` ¿QUÉ RECIBE GOOGLE? APP DE GOOGLE VELA ──────────────── Tu cuenta siempre dentro jamás Tu GPS continuo sí nunca Cada movimiento sí, a sus no, por del mapa servidores defecto Tus búsquedas al sí, en el anónimas, historial de tu cuenta sin cuenta Tus lugares guardados sus servidores tu teléfono Perfil publicitario lo alimenta sin nada a qué engancharlo Funciona sin Google no sí, un interruptor ```
 
 *Y si quieres todavía más silencio,* hay cuatro llaves, todas en
 Ajustes: estrenar sesión de Google en cada arranque (en vez de cada
@@ -567,10 +516,7 @@ toca una búsqueda o pides una ruta. El resto del día, silencio de
 *Tres preguntas que siempre llegan de privacidad, respondidas con lo
 declarado:*
 
-*¿La app ve mi pantalla o mis otras apps?* No hay nada de eso
-declarado ni en permisos: lo suyo es mapa y ubicación nativa por
-LocationManager. Sin Play Services, sin anuncios, sin analítica
-propia — «no Vela backend, no account, no Vela telemetry», textual.
+*¿La app ve mi pantalla o mis otras apps?* No hay nada de eso declarado ni en permisos: lo suyo es mapa y ubicación nativa por LocationManager. Sin Play Services, sin anuncios, sin analítica propia — «no Vela backend, no account, no Vela telemetry», textual.
 
 *¿Y mi IP?* Le llega a Google en cada pregunta anónima — como le
 llega a cualquier web que visitas. Por eso la sesión se renueva: ni
@@ -623,10 +569,9 @@ líneas: app.vela arriba, la huella abajo.
 firmada con otra llave *se rechaza sola*. Si una build instaló encima
 de tu Vela, salió del mismo taller.
 
-*Para teléfonos desgoogleados (GrapheneOS y familia):* Vela usa el GPS
-nativo de Android, nunca el proveedor de Google. Con PSDS encendido,
-el primer fix baja de ~30 segundos a segundos. Bajo techo, ubicación
-por red — la app avisa sola si tarda.
+*Para teléfonos desgoogleados (GrapheneOS y familia):* Vela usa el GPS nativo de Android, nunca el proveedor de Google. Con PSDS encendido, el primer fix baja de ~30 segundos a segundos.
+
+Bajo techo, ubicación por red — la app avisa sola si tarda.
 
 *¿Y si ya instalé y quiero cambiar de canal?* Se cambia sin drama: en
 Obtainium enciendes «include prereleases» y pasas a la nightly;
@@ -708,10 +653,7 @@ vienen a quedarse, dejan biblioteca.
  CONTRIBUTING   las reglas duras del taller
 ```
 
-Un detalle que dice de qué madera es el taller: llevan un archivo de
-reglas y trampas del código, escrito para cualquiera que venga a tocarlo.
-Documentar las trampas del oficio para el que venga detrás es
-costumbre de talleres que planean durar.
+Un detalle que dice de qué madera es el taller: llevan un archivo de reglas y trampas del código, escrito para cualquiera que venga a tocarlo. Documentar las trampas del oficio para el que venga detrás es costumbre de talleres que planean durar.
 
 *Y lo que FEATURES.md confirma, renglón a renglón* — la lista oficial
 de funciones, una línea cada una, vista hoy:
@@ -762,10 +704,7 @@ despensa:
  tts-runtime         la voz neuronal del taller
 ```
 
-La lista de releases es, a la vez, la tienda de la app y la despensa
-de sus mapas. Cuando esta guía encontró haiti-and-domrep en siete
-canales, no leía un capricho: leía el mecanismo real con el que la
-isla entra en el teléfono de quien instale y baje su región.
+La lista de releases es, a la vez, la tienda de la app y la despensa de sus mapas. Cuando esta guía encontró haiti-and-domrep en siete canales, no leía un capricho: leía el mecanismo real con el que la isla entra en el teléfono de quien instale y baje su región.
 
 Y la despensa se rehorna: la horneada más vieja de las nuestras es del
 9 de julio; la más nueva, del 15 de septiembre. Pan del mes, no
@@ -841,11 +780,9 @@ bisagra y a correr.
 
 *La prueba del tiempo, que es la prueba que manda.*
 
-NewPipe no es una promesa: es una veteranía. Años sobreviviendo a cada
-cambiada de YouTube, con la vitrina encendida — 40.140 estrellas y
-empuje de HOY mismo, contado en el censo de esta mañana. El modelo
-«cliente de la puerta pública» lleva años resistiendo en producción,
-con millones de teléfonos.
+NewPipe no es una promesa: es una veteranía. Años sobreviviendo a cada cambiada de YouTube, con la vitrina encendida — 40.140 estrellas y empuje de HOY mismo, contado en el censo de esta mañana.
+
+El modelo «cliente de la puerta pública» lleva años resistiendo en producción, con millones de teléfonos.
 
 Vela aplica ese modelo, ya probado, a un terreno donde nadie lo había
 aplicado en serio: los mapas. No es apuesta a lo desconocido — es
@@ -967,9 +904,8 @@ ve la cuadra hoy, contado por API esta mañana.
 Organic Maps y OsmAnd siguen siendo los mapas offline serios del
 catálogo, y aquí se siguen recetando donde corresponden.
 
-Lo que trae Vela es otra cosa: la *capa viva* — horarios, reseñas,
-tráfico, precios — sin firma con Google. Hasta hoy la cuadra ofrecía
-dos puertas: privacidad con mapa desnudo, o comodidad con cuenta.
+Lo que trae Vela es otra cosa: la *capa viva* — horarios, reseñas, tráfico, precios — sin firma con Google. Hasta hoy la cuadra ofrecía dos puertas: privacidad con mapa desnudo, o comodidad con cuenta.
+
 Ese falso dilema es el que Vela partió.
 
 Las dos casas pueden vivir en el mismo teléfono: no se pelean el
@@ -978,18 +914,9 @@ trono, se reparten el barrio.
 *Y el tablero de las 10 finalistas de la expedición*, para que la
 cosecha no quede en silencio:
 
-```
- 1. Vela Maps        1.961★  482★/mes  ← la pieza de HOY
- 2. Husk             1.978★ 1.746★/mes  Android sobre iOS
- 3. ShizuCallRec.    1.755★  342★/mes  llamadas vía Shizuku
- 4. flectar/mail     1.366★  976★/mes  correo nuevo (alpha)
- 5. gander           1.271★  433★/mes  visor cero permisos
- 6. DSHA             1.270★  615★/mes  DeepSeek en el móvil
- 7. nanoMuse         1.259★ 1.681★/mes  agente personal
- 8. ReFra            2.897★   66★/mes  galería madura
- 9. overlay-transl.  1.016★  265★/mes  traduce la pantalla
-10. read-aware         451★   54★/mes  lector con memoria
-```
+``` 1. Vela Maps 1.961★ 482★/mes ← la pieza de HOY 2. Husk 1.978★ 1.746★/mes Android sobre iOS 3. ShizuCallRec. 1.755★ 342★/mes llamadas vía Shizuku 4. flectar/mail 1.366★ 976★/mes correo nuevo (alpha) 5. gander 1.271★ 433★/mes visor cero permisos 6. DSHA 1.270★ 615★/mes DeepSeek en el móvil 7. nanoMuse 1.259★ 1.681★/mes agente personal 8. ReFra 2.897★ 66★/mes galería madura 9. overlay-transl.
+
+1.016★ 265★/mes traduce la pantalla 10. read-aware 451★ 54★/mes lector con memoria ```
 
 Cada una de esas puertas se abre en su propio turno, con su propia
 guía. Las que conserven vida al llegar su hora, se actan; las que se
@@ -997,10 +924,9 @@ apaguen en el camino, también — con fecha y causa.
 
 🕯️ *Y como se prometió arriba: un réquiem breve.*
 
-La expedición de hoy pasó por delante de cuatro casas grandes, con
-miles de estrellas cada una, y no entró a ninguna. No por orgullo:
-porque están *archivadas* — el dueño colgó el letrero de «se cerró» y
-el taller se detuvo. Contadas esta mañana en el censo:
+La expedición de hoy pasó por delante de cuatro casas grandes, con miles de estrellas cada una, y no entró a ninguna. No por orgullo: porque están *archivadas* — el dueño colgó el letrero de «se cerró» y el taller se detuvo.
+
+Contadas esta mañana en el censo:
 
 ```
  KOTATSU    ★8.923  archivado
@@ -1068,10 +994,9 @@ Bandita por API.
 
 Las guías de esta casa no recetan funciones: recetan días.
 
-*6:40 de la mañana.* Primera vez. La app pregunta lo importante antes
-de mostrar el mapa: ¿con Google de fondo para tráfico y reseñas, o
-sin Google del todo? Tú eliges sabiendo las dos caras — la estación 8
-trae la tabla. Bajas la región del Gran Santo Domingo.
+*6:40 de la mañana.* Primera vez. La app pregunta lo importante antes de mostrar el mapa: ¿con Google de fondo para tráfico y reseñas, o sin Google del todo?
+
+Tú eliges sabiendo las dos caras — la estación 8 trae la tabla. Bajas la región del Gran Santo Domingo.
 
 *7:15.* Sales hacia el trabajo. Pides la ruta hablando: «llévame a la
 oficina» — la transcripción ocurre en el teléfono.
@@ -1116,10 +1041,9 @@ el arreglo dependa de ti.
 🛣️ *EL VIAJE LARGO: DUARTE, IDA Y VUELTA*
 · estación 19 de 27 · 3 min de lectura ·
 
-El día corto ya lo vivimos. Ahora la prueba que de verdad decide: el
-viaje largo. Santo Domingo → Santiago por la Duarte, ida y vuelta en
-un fin de semana — con peajes, bombas de mitad de camino, desvíos por
-obras, y la señal que se pierde donde la montaña dobla.
+El día corto ya lo vivimos. Ahora la prueba que de verdad decide: el viaje largo.
+
+Santo Domingo → Santiago por la Duarte, ida y vuelta en un fin de semana — con peajes, bombas de mitad de camino, desvíos por obras, y la señal que se pierde donde la montaña dobla.
 
 *La noche antes.* Bajas la región que cubre la ruta: el canal
 obf-regions sirve La Española entera como región descargable — visto
@@ -1142,10 +1066,7 @@ lo que el dato abierto
 sepa, se ve; lo que solo Google sabe, se pregunta anónimo — con la
 cookie de sesión que esta semana estrenó sola.
 
-*El regreso, de noche.* Señal intermitente en el tramo de la
-cordillera. La app no se inmuta: la ruta vive en el teléfono, el mapa
-vive en el teléfono — y tu rastro GPS también vive en el teléfono,
-que es exactamente el punto de toda esta guía.
+*El regreso, de noche.* Señal intermitente en el tramo de la cordillera. La app no se inmuta: la ruta vive en el teléfono, el mapa vive en el teléfono — y tu rastro GPS también vive en el teléfono, que es exactamente el punto de toda esta guía.
 
 Llegas a casa, tocas la «P», y el pin del carro queda guardado sin que
 nadie más en el mundo sepa dónde aparcaste.
@@ -1177,11 +1098,7 @@ mental — lo llamo el contador de fe — es el veredicto real de toda
 prueba de mapa. Cuando lleve tres viajes sin abrir la otra, ya sabes
 la respuesta.
 
-*El domingo de vuelta, por la tarde:* abre la app y repasa los puntos
-guardados del viaje — la bomba que te gustó, el mirador que
-encontraste sin buscarlo. Eso ya es tu mapa: no el que una empresa te
-dibuja, sino el que tu vida va anotando.
-────────────────
+*El domingo de vuelta, por la tarde:* abre la app y repasa los puntos guardados del viaje — la bomba que te gustó, el mirador que encontraste sin buscarlo. Eso ya es tu mapa: no el que una empresa te dibuja, sino el que tu vida va anotando. ────────────────
 
 🧉 *TRES CONSEJOS ANTES DE INSTALAR*
 · estación 20 de 27 · 1 min de lectura ·
@@ -1253,16 +1170,7 @@ personal. Los demás, al gusto.
 El roadmap de la casa está abierto al público, con historial de lo
 llegado y lo descartado. Lo que queda por hacer, textual:
 
-```
- ⬜ Android Auto sin listado de Google Play
- ⬜ El catálogo grande de F-Droid (exige una
-    compilación sin piezas prehechas)
- ⬜ Una build para Google Play CON la mitad de
-    Google compilada fuera — «trabajo grande,
-    en el radar, no empezado»
- ⬜ Una versión iOS — el motor es Kotlin plano;
-    la interfaz, reescribir. «No empezado»
-```
+``` ⬜ Android Auto sin listado de Google Play ⬜ El catálogo grande de F-Droid (exige una compilación sin piezas prehechas) ⬜ Una build para Google Play CON la mitad de Google compilada fuera — «trabajo grande, en el radar, no empezado» ⬜ Una versión iOS — el motor es Kotlin plano; la interfaz, reescribir. «No empezado» ```
 
 *La letra honesta del Android Auto:* hoy funciona solo en algunas
 configuraciones, con la app instalada a mano (el doc oficial es
@@ -1337,20 +1245,16 @@ proyecto sin servidores de usuario tiene factura de luz pequeña.
 19 idiomas de fábrica y traducción abierta por Weblate. El español no
 es apósito: es parte del taller.
 
-*¿Por qué no está en Google Play?*
-Porque se niega a trucar: Play exigiría una build con la mitad de
-Google compilada fuera — idea del roadmap, «no empezada». Mientras
-tanto: Obtainium, repo F-Droid propio y APK directo. Tres puertas
-firmadas.
+*¿Por qué no está en Google Play?* Porque se niega a trucar: Play exigiría una build con la mitad de Google compilada fuera — idea del roadmap, «no empezada». Mientras tanto: Obtainium, repo F-Droid propio y APK directo.
+
+Tres puertas firmadas.
 
 *¿Y si el proyecto muere, como muere medio catálogo?*
 Puede pasar — verdad fría. La defensa no es fe: es arquitectura.
 
-GPL-3.0 (el código no se secuestra), datos abiertos (el mapa no muere
-con la app), huella pública (nadie suplanta el cadáver), 23
-colaboradores, releases semanales con señales fáciles de leer. Si la
-vitrina se para, esta guía lo acta con fecha. Hoy está encendida: hay
-una canary con horas de horneada.
+GPL-3.0 (el código no se secuestra), datos abiertos (el mapa no muere con la app), huella pública (nadie suplanta el cadáver), 23 colaboradores, releases semanales con señales fáciles de leer. Si la vitrina se para, esta guía lo acta con fecha.
+
+Hoy está encendida: hay una canary con horas de horneada.
 
 *¿Puedo ayudar al proyecto?* Sí, y no hace falta saber código: con
 reportes de bug (la plantilla es la vara del taller), con Discussions,
@@ -1361,16 +1265,11 @@ medio catálogo.
 Si sabes código: CONTRIBUTING tiene reglas duras
 claras — sin backend, sin claves de Google, docs en el mismo commit.
 
-*¿Por qué confiar en una casa de 4 meses?* No confíes: verifica. Esa
-es toda la respuesta. La placa se audita en cinco minutos (estación
-4), la firma se compara en uno (estación 9), los pendientes están
-públicos, y las cinco preguntas con URL están en la estación 17.
+*¿Por qué confiar en una casa de 4 meses?* No confíes: verifica. Esa es toda la respuesta.
 
-La
-confianza aquí no se pide: se gana con fechas — y esta casa tiene
-regla de recién llegado: dos re-verdeos con vida antes de llamarla
-estable del catálogo. Igual que un vecino nuevo: se saluda, se
-observa, y se le lleva un plato cuando ha demostrado.
+La placa se audita en cinco minutos (estación 4), la firma se compara en uno (estación 9), los pendientes están públicos, y las cinco preguntas con URL están en la estación 17.
+
+La confianza aquí no se pide: se gana con fechas — y esta casa tiene regla de recién llegado: dos re-verdeos con vida antes de llamarla estable del catálogo. Igual que un vecino nuevo: se saluda, se observa, y se le lleva un plato cuando ha demostrado.
 
 *¿La beta me va a dar sustos en la carretera?* La casa lo dice sin
 maquillaje: puede haber bugs. Por eso la receta de aquí es la estable
@@ -1385,29 +1284,9 @@ público, con su commit a la vista.
 🧾 *LA BOLETA DE LA CASA*
 · estación 24 de 27 · 2 min de lectura ·
 
-```
- RENGLÓN            NOTA
-────────────────
- Transparencia      10/10  tabla pública de qué
-                           llega a Google, huella,
-                           roadmap con «no va a pasar»
- Documentación      10/10  SPEC + libro + FAQ +
-                           FEATURES + huella + dpad
- Vida del taller     9/10  push HOY, semanal,
-                           23 colab. — y 4 meses
-                           de edad son 4 meses
- Datos dominicanos   9/10  7 canales + edificio
-                           propio; hornadas del mes
- Honestidad de       9/10  beta declarada, riesgos
- riesgo                    dichos, reporte privado
- Hueco que llena    10/10  la capa viva sin cuenta:
-                           nadie más la tiene
-────────────────
- VEREDICTO          ENTRA al catálogo como guía nº 11,
-                    con re-verdeo agendado y regla de
-                    recién llegado: dos re-verdeos con
-                    vida antes de llamarla estable.
-```
+``` RENGLÓN NOTA ──────────────── Transparencia 10/10 tabla pública de qué llega a Google, huella, roadmap con «no va a pasar» Documentación 10/10 SPEC + libro + FAQ + FEATURES + huella + dpad Vida del taller 9/10 push HOY, semanal, 23 colab. — y 4 meses de edad son 4 meses Datos dominicanos 9/10 7 canales + edificio propio
+
+hornadas del mes Honestidad de 9/10 beta declarada, riesgos riesgo dichos, reporte privado Hueco que llena 10/10 la capa viva sin cuenta: nadie más la tiene ──────────────── VEREDICTO ENTRA al catálogo como guía nº 11, con re-verdeo agendado y regla de recién llegado: dos re-verdeos con vida antes de llamarla estable. ```
 
 ⚖️ *Y lo que esta guía NO pudo verificar* — porque la omisión también
 es mentir, para las dos direcciones:
@@ -1477,18 +1356,14 @@ nunca dormirá con la puerta abierta al toldo.
 
 *Una última cosa, de casa a casa.*
 
-Esta guía no te pide que cambies de mapa esta tarde. Te pide algo más
-pequeño y más grande: que el día que necesites un mapa — el apagón, el
-viaje, el teléfono nuevo, la duda de quién está mirando — tengas una
-puerta más que conoces, verificada, con su fecha y su huella.
+Esta guía no te pide que cambies de mapa esta tarde. Te pide algo más pequeño y más grande: que el día que necesites un mapa — el apagón, el viaje, el teléfono nuevo, la duda de quién está mirando — tengas una puerta más que conoces, verificada, con su fecha y su huella.
 
 La libertad se parece a la llave de repuesto: no la extrañas hasta
 que hace falta. Ahora la tienes.
 
-*Y la cuota de paciencia:* cuatro meses de vida son cuatro meses. El
-re-verdeo de esta pieza se agenda con el próximo corte de la casa. Si
-Vela sigue encendida — y con la semanal que trae, todo apunta a que
-sí — la verás aquí de nuevo, con las placas re-contadas.
+*Y la cuota de paciencia:* cuatro meses de vida son cuatro meses. El re-verdeo de esta pieza se agenda con el próximo corte de la casa.
+
+Si Vela sigue encendida — y con la semanal que trae, todo apunta a que sí — la verás aquí de nuevo, con las placas re-contadas.
 
 Si se apaga,
 también lo leerás aquí. Las dos noticias viajan fechadas.
@@ -1561,10 +1436,7 @@ hermanadas copian a Vela hoy.
 la canary, la del día sin revisar. En esta lista se come de la
 estable; la canary es para el que ayuda encontrando bugs.
 
-*API key contra endpoint público* — una API key es una llave privada
-que te identifica (y te cobra); un endpoint público es una puerta que
-el servicio deja abierta para preguntas sin login, como la web. Vela
-usa la puerta: no pide llaves que nadie debería tener.
+*API key contra endpoint público* — una API key es una llave privada que te identifica (y te cobra); un endpoint público es una puerta que el servicio deja abierta para preguntas sin login, como la web. Vela usa la puerta: no pide llaves que nadie debería tener.
 
 *Issue con plantilla* — el reporte de bug en forma de formulario: la
 casa pide los datos que necesita para arreglar de verdad. Reportar
@@ -1584,27 +1456,7 @@ adelante.
 📌 *EN DIEZ RENGLONES (para reenviar al grupo)*
 · estación 27 de 27 · 2 min de lectura ·
 
-```
- 1. Vela Maps: navegación paso a paso sin Google
-    — libre, GPL-3.0, sin anuncios ni cuenta
- 2. Lo nuevo: horarios, reseñas, tráfico y
-    precios de bomba, sin entregar tu vida
- 3. Cuatro meses de vida · ★1.969 · 23
-    colaboradores · release semanal
- 4. La Española horneada con nombre propio en
-    7 canales de datos del proyecto
- 5. Voz y micrófono que trabajan en tu teléfono
- 6. Mapa offline completo: región descargada =
-    ruteo y lugares sin señal
- 7. Importa tus listas de Google Maps pegando
-    el enlace — la mudanza es de una pieza
- 8. Instala por Obtainium, repo F-Droid propio
-    o APK de Releases — y verifica la huella
- 9. Es beta y lo dice la casa. Receta de esta
-    guía: la estable semanal
-10. Contado, fechado y con URL: 15-oct-2026,
-    censo de La Bandita
-```
+``` 1. Vela Maps: navegación paso a paso sin Google — libre, GPL-3.0, sin anuncios ni cuenta 2. Lo nuevo: horarios, reseñas, tráfico y precios de bomba, sin entregar tu vida 3. Cuatro meses de vida · ★1.969 · 23 colaboradores · release semanal 4. La Española horneada con nombre propio en 7 canales de datos del proyecto 5. Voz y micrófono que trabajan en tu teléfono 6. Mapa offline completo: región descargada = ruteo y lugares sin señal 7. Importa tus listas de Google Maps pegando el enlace — la mudanza es de una pieza 8. Instala por Obtainium, repo F-Droid propio o APK de Releases — y verifica la huella 9. Es beta y lo dice la casa. Receta de esta guía: la estable semanal 10. Contado, fechado y con URL: 15-oct-2026, censo de La Bandita ```
 
 *Y los números del día, en una sola vista:*
 
@@ -1635,17 +1487,22 @@ descansa ni para que lo escriban.
                    sin taller no entra
 ```
 ────────────────
-#LaBandita #Guia #Mapas #VelaMaps #NavegacionSinGoogle #OSM #FOSS #RepublicaDominicana #FuenteFechada #LecturaVerificada
+#LaBandita #Guia #Mapas #VelaMaps #NavegacionSinGoogle #OSM #FOSS #RepublicaDominicana
+#FuenteFechada #LecturaVerificada
 
 ───────────────────
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 11).*
 
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
 
-Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
 
-Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
@@ -1655,6 +1512,9 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `flectar/mail` — ★1.678 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release 0.1.0-alpha.7 (2026-10-08).
 
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

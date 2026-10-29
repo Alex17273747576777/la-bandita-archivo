@@ -4,7 +4,10 @@
 
 ## ⚡ En una página
 
-Después de repasar la vara entera — **351 ceros sospechosos re-raspeados casa por casa** porque la primera tanda de la API se agotó a mitad del censo — quedan **siete ceros verdaderos**: puertas con estrella cero real. Ni falla de la vara ni puerta cerrada: proyectos que nadie ha aplaudido aún. La casa los nombra por lo que son: **germinantes** — y los germinantes NO se usan a diario (regla 9 de la casa): se vigilan.
+Después de repasar la vara entera — **351 ceros sospechosos re-raspeados casa por casa** porque la primera tanda de la API se agotó a mitad del censo — quedan **siete ceros verdaderos**: puertas con estrella cero real. Ni falla de la vara ni puerta cerrada: proyectos que nadie ha aplaudido aún.
+
+La casa los nombra por lo que son: **germinantes** — y los germinantes NO se usan a diario
+(regla 9 de la casa): se vigilan.
 
 ## 🌱 Los siete ceros verdaderos
 
@@ -18,33 +21,45 @@ Después de repasar la vara entera — **351 ceros sospechosos re-raspeados casa
 
 ## ⚖️ El oficio del cero
 
-Un cero no es un veredicto: es una edad. Toda biblioteca del mundo empezó con un estante vacío y un nombre que nadie aplaudía. La casa no los sube al escaparate (el fruto maduro manda mientras se observan germinantes) — pero tampoco los borra: **fecha, puerta, y turno de vigilancia**.
+Un cero no es un veredicto: es una edad. Toda biblioteca del mundo empezó con un estante vacío y
+un nombre que nadie aplaudía.
+
+La casa no los sube al escaparate (el fruto maduro manda mientras se observan germinantes) —
+pero tampoco los borra: **fecha, puerta, y turno de vigilancia**.
 
 ## ❓ La pregunta del cero
 
-**¿Vale la pena fichar a nadie con cero aplausos?**
-Se ficha con la vara completa — fecha y rango — y etiqueta de germinante. Lo que NO se hace: recomendarlo a diario ni llenarle ficha de adornos. El germinante se riega con paciencia, no con discursos.
+**¿Vale la pena fichar a nadie con cero aplausos?** Se ficha con la vara completa — fecha y rango — y etiqueta de germinante. Lo que NO se hace: recomendarlo a diario ni llenarle ficha de adornos.
+
+El germinante se riega con paciencia, no con discursos.
 
 ## 🔗 Enlaces
 
-Los siete viven en su puerta del censo (p52-56) con rango y fecha. El método del repaso (351 re-raspeados) quedó actado en el Registro de la casa.
+Los siete viven en su puerta del censo (p52-56) con rango y fecha. El método del repaso (351
+re-raspeados) quedó actado en el Registro de la casa.
 
 ## El meme del cero
 
 > —¿Cero estrellas?
 > —Cero aplausos. La semilla no aplaude: germina. Y la casa sabe mirar el suelo.
 
-> La Bandita verifica antes de recomendar: los 351 ceros sospechosos re-raspeados y los 7 ceros verdaderos constados el 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan; los ceros, se respetan.
+> La Bandita verifica antes de recomendar: los 351 ceros sospechosos re-raspeados y los 7 ceros
+verdaderos constados el 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan; los
+ceros, se respetan.
 
-**Corrección (15-sep, tarde — higiene):** el primer ítem llevaba un separador suelto («· ·»); limpiado con fecha. Los siete ceros, iguales.
+**Corrección (15-sep, tarde — higiene):** el primer ítem llevaba un separador suelto («· ·»);
+limpiado con fecha. Los siete ceros, iguales.
 
 ───────────────────
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 71).*
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 5 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 5
+repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el
+estado medido hoy.
 
-Actividad medida hoy: 0 hoy · 1 en 7 días · 2 en 30 días · 1 en 180 días · 1 dormidos · 0 archivados.
+Actividad medida hoy: 0 hoy · 1 en 7 días · 2 en 30 días · 1 en 180 días · 1 dormidos · 0
+archivados.
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
@@ -84,4 +99,5 @@ Actividad medida hoy: 0 hoy · 1 en 7 días · 2 en 30 días · 1 en 180 días �
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
+el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

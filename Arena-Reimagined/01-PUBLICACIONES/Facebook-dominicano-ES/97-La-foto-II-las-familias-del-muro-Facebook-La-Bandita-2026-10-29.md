@@ -4,7 +4,11 @@
 
 ## ⚡ En una página
 
-La segunda capa retrata el entretenimiento: lectores y su bodega de extensiones, cazadores de anime, cosecha musical y semillas propias. Es el muro donde el barrio pasa la tarde, medido familia por familia. Hoy sus placas principales siguen en faena: la sala no se apagó, cambió de butacas.
+La segunda capa retrata el entretenimiento: lectores y su bodega de extensiones, cazadores de
+anime, cosecha musical y semillas propias. Es el muro donde el barrio pasa la tarde, medido
+familia por familia.
+
+Hoy sus placas principales siguen en faena: la sala no se apagó, cambió de butacas.
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
@@ -28,12 +32,16 @@ La versión larga vive en WhatsApp 97 con su recorrido completo, y en este muro 
 
 ## ⚖ La vara
 
-La prensa cuenta las estrellas de la IA; esta casa también cuenta las de la bodega que alimenta al barrio.
+La prensa cuenta las estrellas de la IA; esta casa también cuenta las de la bodega que alimenta
+al barrio.
 
 ## El meme de la pieza
 
 > —Eso es solo entretenimiento. —Es la mitad de la vida del teléfono: también merece censo.
 
-> La Bandita verifica antes de recomendar: pieza 97 del muro, nacida el 29 de octubre de 2026 desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 97 del muro, nacida el 29 de octubre de 2026
+desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
+mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
+primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.

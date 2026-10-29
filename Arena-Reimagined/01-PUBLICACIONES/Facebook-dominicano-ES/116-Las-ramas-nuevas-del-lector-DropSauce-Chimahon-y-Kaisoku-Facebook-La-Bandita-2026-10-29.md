@@ -4,7 +4,10 @@
 
 ## ⚡ En una página
 
-El lector de manga ya no tiene un tronco: tiene un bosque de ramas jóvenes que empujan esta misma semana. DropSauce soltó release hoy con siete meses de vida, Chimahon re-nació en marzo como fork de inmersión y Kaisoku continúa al difunto Kotatsu con fuentes incorporadas. La vara de las ramas: se prueba la que empuja hoy con licencia clara, y el tronco archivado se honra sin montarle la casa encima.
+El lector de manga ya no tiene un tronco: tiene un bosque de ramas jóvenes que empujan esta misma semana. DropSauce soltó release hoy con siete meses de vida, Chimahon re-nació en marzo como fork de inmersión y Kaisoku continúa al difunto Kotatsu con fuentes incorporadas.
+
+La vara de las ramas: se prueba la que empuja hoy con licencia clara, y el tronco archivado se
+honra sin montarle la casa encima.
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
@@ -29,16 +32,21 @@ El lector de manga ya no tiene un tronco: tiene un bosque de ramas jóvenes que 
 
 **2.** Fork con pulso propio es casa nueva; fork en calma es apellido prestado (la vara de la 104).
 
-**3.** Las extensiones que la rama hereda se re-firman: compatibilidad prometida no es fuente auditada.
+**3.** Las extensiones que la rama hereda se re-firman: compatibilidad prometida no es fuente
+auditada.
 
 ## ⚖ La vara
 
-El futuro del lector no vendrá de un solo nombre: vendrá de la rama que empuje el día que la busques.
+El futuro del lector no vendrá de un solo nombre: vendrá de la rama que empuje el día que la
+busques.
 
 ## El meme de la pieza
 
-> —Tantos lectores que no sé cuál bajar. —Baja el que empujó esta semana y declara su licencia: los demás, al laboratorio.
+> —Tantos lectores que no sé cuál bajar. —Baja el que empujó esta semana y declara su licencia:
+los demás, al laboratorio.
 
-> La Bandita verifica antes de recomendar: pieza 116 del muro, nacida el 29 de octubre de 2026 con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 116 del muro, nacida el 29 de octubre de 2026
+con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se firma con actividad y licencia, no con aplauso.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
+firma con actividad y licencia, no con aplauso.

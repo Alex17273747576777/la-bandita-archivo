@@ -1,7 +1,10 @@
 # Publicación 52 — La discoteca III: el censo completo del baile
 **La Bandita · 15 de septiembre de 2026**
 ## ⚡ En una página
-Tercera hornada de la mina de 231 — y esta cierra la discoteca entera: las **163 corrientes restantes** de música, todas verificadas HOY por átomos de releases, presentadas como lo que son: el **censo completo por rango y fecha**. No doce fichas — la lista entera, para que nada se acumule y nada se olvide. Rango: R1 corriente (≤90 días) · R2 estable (≤18 meses) · R3 quieta.
+Tercera hornada de la mina de 231 — y esta cierra la discoteca entera: las **163 corrientes
+restantes** de música, todas verificadas HOY por átomos de releases, presentadas como lo que
+son: el **censo completo por rango y fecha**. No doce fichas — la lista entera, para que nada se
+acumule y nada se olvide. Rango: R1 corriente (≤90 días) · R2 estable (≤18 meses) · R3 quieta.
 ## 📊 El censo
 **R1:96 · R2:45 · R3:21 · X:1** — total 163.
 ## 🌊 R1 · Corrientes (release ≤90 días)
@@ -170,21 +173,29 @@ Tercera hornada de la mina de 231 — y esta cierra la discoteca entera: las **1
 - TecCheck/FastLyrics · 2025-01-24 · R3
 - ShacharHarshuv/open-ear · 2025-02-07 · R3
 ## 🔗 Enlaces
-Cada nombre es un repositorio de github.com/. El mapa completo vive en el Clasificador de la casa. Las hornadas nominativas (estrellas y descripciones) seguirán a su paso — el censo ya está completo.
+Cada nombre es un repositorio de github.com/. El mapa completo vive en el Clasificador de la
+casa. Las hornadas nominativas (estrellas y descripciones) seguirán a su paso — el censo ya está
+completo.
 ## El meme del censo
 > —¿Y esto es una guía o una guía telefónica?
-> —Es el censo del baile: 163 nombres con su fecha. La guía telefónica no baila — esto sí: mira las fechas.
-> La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el mapa. Corte del 15 de septiembre de 2026.
+> —Es el censo del baile: 163 nombres con su fecha. La guía telefónica no baila — esto sí: mira
+las fechas.
+> La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el
+mapa. Corte del 15 de septiembre de 2026.
 
 ───────────────────
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 52).*
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 9 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 9
+repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el
+estado medido hoy.
 
-Actividad medida hoy: 2 hoy · 2 en 7 días · 2 en 30 días · 3 en 180 días · 0 dormidos · 0 archivados.
+Actividad medida hoy: 2 hoy · 2 en 7 días · 2 en 30 días · 3 en 180 días · 0 dormidos · 0
+archivados.
 
-Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta
+publicación (verificado 29-oct-2026).
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
@@ -209,8 +220,10 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 · GPL-3.0
 · release 10.6.0 (2026-10-23).
 
-Licencias sin resolver hoy (1): `shacharharshuv/open-ear`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+Licencias sin resolver hoy (1): `shacharharshuv/open-ear`. Sin licencia clara, la recomendación
+queda incompleta y así se firma.
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
+el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

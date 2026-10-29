@@ -31,8 +31,12 @@ La fecha que no se distingue es la mentira que se repite: empuje y release son d
 
 ## El meme de la pieza
 
-> —Está vivo, mira el código. —Y la última release es de 2024: vivo en la cocina, ausente en la mesa; se firma así.
+> —Está vivo, mira el código. —Y la última release es de 2024: vivo en la cocina, ausente en la
+mesa; se firma así.
 
-> La Bandita verifica antes de recomendar: pieza 115 del muro, nacida el 29 de octubre de 2026 de la investigación del mismo día, con placas re-medidas en su fuente primaria. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 115 del muro, nacida el 29 de octubre de 2026
+de la investigación del mismo día, con placas re-medidas en su fuente primaria. Las estrellas
+adornan; las fechas mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se firma con actividad y licencia, no con aplauso.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
+firma con actividad y licencia, no con aplauso.

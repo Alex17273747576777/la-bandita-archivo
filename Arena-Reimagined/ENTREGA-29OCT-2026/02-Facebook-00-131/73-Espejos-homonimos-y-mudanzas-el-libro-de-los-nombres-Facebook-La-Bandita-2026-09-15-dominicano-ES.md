@@ -4,7 +4,9 @@
 
 ## ⚡ En una página
 
-El censo completo destapa todos los líos de nombre de la mina — y la casa los pone en un solo libro: **mismo nombre ≠ misma casa; misma casa ≠ mismo nombre**. Tres casos mayores constados HOY: una casa viva registrada dos veces (espejo), una mudanza completa de dueño (la casa cambió de calle), y homónimos que comparten nombre pero no oficio. Cada caso con su vara: cómo se distinguen sin equivocarse.
+El censo completo destapa todos los líos de nombre de la mina — y la casa los pone en un solo libro: **mismo nombre ≠ misma casa; misma casa ≠ mismo nombre**. Tres casos mayores constados HOY: una casa viva registrada dos veces (espejo), una mudanza completa de dueño (la casa cambió de calle), y homónimos que comparten nombre pero no oficio.
+
+Cada caso con su vara: cómo se distinguen sin equivocarse.
 
 ## 🪞 El espejo: ente ×2
 
@@ -16,17 +18,20 @@ El censo completo destapa todos los líos de nombre de la mina — y la casa los
 
 ## 🎭 Los homónimos: echo y komi
 
-- **echo ×2:** la grabadora «Time travelling recorder» (mafik/echo, censo) y el reproductor de música echo (puerta de música, p50) — mismo nombre, oficios distintos. Vara: **el oficio desambigua**, no el nombre.
-- **komi ×2:** kurikomi-labs/komi-store (★18.518, censo Android) y el komi del catálogo Miyomi — nombre parecido, casas distintas. Misma vara: oficio primero.
+- **echo ×2:** la grabadora «Time travelling recorder» (mafik/echo, censo) y el reproductor de
+música echo (puerta de música, p50) — mismo nombre, oficios distintos. Vara: **el oficio
+desambigua**, no el nombre.
+- **komi ×2:** kurikomi-labs/komi-store (★18.518, censo Android) y el komi del catálogo Miyomi —
+nombre parecido, casas distintas. Misma vara: oficio primero.
 
 ## 👨‍👩‍👦 La familia legítima
 
-**Podcini.A y UT.urn** (familia XilinJia, p51): dos nombres, un mismo árbol — se fichan juntas y se nota el parentesco. La familia no es homónimo: es linaje documentado.
+**Podcini.A y UT.urn** (familia XilinJia, p51): dos nombres, un mismo árbol — se fichan juntas y
+se nota el parentesco. La familia no es homónimo: es linaje documentado.
 
 ## ❓ La pregunta del libro de nombres
 
-**¿Y si mañana aparece otro espejo?**
-Se aplica la vara del libro: misma estrella + mismo releases = sospecha de espejo; se busca la org viva; se anota el doblez. El libro crece con el censo — y con cada lío que la casa destapa antes de que el lector se tropiece con él.
+**¿Y si mañana aparece otro espejo?** Se aplica la vara del libro: misma estrella + mismo releases = sospecha de espejo; se busca la org viva; se anota el doblez. El libro crece con el censo — y con cada lío que la casa destapa antes de que el lector se tropiece con él.
 
 ## 🔗 Enlaces
 
@@ -35,17 +40,23 @@ Los casos viven en sus piezas (p50, p51, p52-56) y en el Clasificador.
 ## El meme del libro de nombres
 
 > —¿Estos dos son el mismo?
-> —Misma estrella, misma versión: probablemente sí. Distinto oficio: seguro que no. El nombre es del que llega primero; la casa, del que documenta.
+> —Misma estrella, misma versión: probablemente sí. Distinto oficio: seguro que no. El nombre es
+del que llega primero; la casa, del que documenta.
 
-> La Bandita verifica antes de recomendar: espejos, mudanzas y homónimos constados el 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan; los nombres, se desambigan con el oficio.
+> La Bandita verifica antes de recomendar: espejos, mudanzas y homónimos constados el 15 de
+septiembre de 2026. Las estrellas adornan; las fechas mandan; los nombres, se desambigan con el
+oficio.
 
 ───────────────────
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 73).*
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 5 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 5
+repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el
+estado medido hoy.
 
-Actividad medida hoy: 3 hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 1 dormidos · 0 archivados.
+Actividad medida hoy: 3 hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 1 dormidos · 0
+archivados.
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
@@ -76,4 +87,5 @@ Actividad medida hoy: 3 hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días �
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
+el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

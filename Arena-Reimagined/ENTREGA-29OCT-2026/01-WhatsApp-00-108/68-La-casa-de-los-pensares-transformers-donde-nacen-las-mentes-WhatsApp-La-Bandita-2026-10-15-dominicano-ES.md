@@ -1,5 +1,7 @@
 *68 — LA CASA DE LOS PENSARES*
-*transformers ★167.766 (pulso 16-oct-2026) es la despensa donde NACEN las mentes: el idioma común con que se define cada modelo que tu casa corre — la segunda placa del censo entero, la forja de donde viene tu pensar (WhatsApp · La Bandita · dominicano-ES)*
+*transformers ★167.766 (pulso 16-oct-2026) es la despensa donde NACEN las mentes: el idioma
+común con que se define cada modelo que tu casa corre — la segunda placa del censo entero, la
+forja de donde viene tu pensar (WhatsApp · La Bandita · dominicano-ES)*
 
 ───────────────────
 
@@ -9,35 +11,52 @@ La casa de los pensares es transformers: el marco donde se DEFINE cada modelo (e
 
 *🗺 MAPA DE ESTA GUÍA*
 
-La fila de la IA propia (61-70) firma su quinta placa del censo: la mente (61) piensa, la cara (62) muestra, las manos (63) hacen, la aprendiz (64) faena, la compañera (65) acompaña, el bolsillo (66) camina, la raíz (67) decide — esta pieza sexagésimoctava NACE (la forja de donde salen los pensares que todas las demás corren).
+La fila de la IA propia (61-70) firma su quinta placa del censo: la mente (61) piensa, la cara
+(62) muestra, las manos (63) hacen, la aprendiz (64) faena, la compañera (65) acompaña, el
+bolsillo (66) camina, la raíz (67) decide — esta pieza sexagésimoctava NACE (la forja de donde
+salen los pensares que todas las demás corren).
 
 El recorrido: la escena del «¿de dónde sale el modelo?» (la pregunta detrás de toda IA), el censo de la forja y las tres capas de la casa. Después la vara de la letra propia, la doctrina de la despensa (la frontera con el modelo de vitrina), la receta por pisos, los mitos y las preguntas de la fila.
 
-Y al cierre: seis casos, las despensas, los riesgos con fecha, el ritual de siete días y las cartas de la mesa.
+Y al cierre: seis casos, las despensas, los riesgos con fecha, el ritual de siete días y las
+cartas de la mesa.
 
 *🌱 LA SEMILLA*
 
-La escena del «¿de dónde sale el modelo?»: la casa con su IA propia (la 61 corriendo el pensa del taller: descargado, conversando, faenando) — y la pregunta que casi nadie hace: ¿Y ESE PENSA, DE DÓNDE SALIÓ?
+La escena del «¿de dónde sale el modelo?»: la casa con su IA propia (la 61 corriendo el pensa
+del taller: descargado, conversando, faenando) — y la pregunta que casi nadie hace: ¿Y ESE
+PENSA, DE DÓNDE SALIÓ?
 
-PLACEHOLDER_NOPE: es una RECETA gigante — pesos, capas, configuración: escrita en una LENGUA, guardada en una DESPENSA, probada por miles de talleres antes de llegar a tu caja).
+PLACEHOLDER_NOPE: es una RECETA gigante — pesos, capas, configuración: escrita en una LENGUA,
+guardada en una DESPENSA, probada por miles de talleres antes de llegar a tu caja).
 
-Y los dos caminos de siempre: el modelo de vitrina (el chat de la tienda: el pensa ajeno, cerrado, sin receta visible — «confía en la magia»), o el de las gavetas sospechosas (los «modelos gratis» de los rincones raros del internet: sin letra, sin origen, con regalitos).
+Y los dos caminos de siempre: el modelo de vitrina (el chat de la tienda: el pensa ajeno,
+cerrado, sin receta visible — «confía en la magia»), o el de las gavetas sospechosas (los
+«modelos gratis» de los rincones raros del internet: sin letra, sin origen, con regalitos).
 
 La forja firma la tercera vía del bloque: transformers — LA CASA donde nacen los pensares: el idioma común con que se escribe cada modelo (la misma lengua pa el Qwen, el Gemma, el Kimi, el DeepSeek: la receta, legible y comparable). La despensa donde vive: con su letra Apache abierta.
 
-Y la vara fina: tu 61 descarga de AHÍ (o de despensas que hablan su lengua) — el pensar de tu casa: con origen conocido, con receta visible, con letra libre. La forja de las forjas: donde nace lo que piensa.
+Y la vara fina: tu 61 descarga de AHÍ (o de despensas que hablan su lengua) — el pensar de tu
+casa: con origen conocido, con receta visible, con letra libre. La forja de las forjas: donde
+nace lo que piensa.
 
 *🗼 EL CENSO DE LA FORJA (censo 16-oct-2026)*
 
 La casa de los pensares y su familia — las placas del origen, medidas HOY.
 
-*La casa — transformers.* `huggingface/transformers` ★167.766 (pulso 16-oct-2026), nacida el 29-oct-2018, con aire del MISMO DÍA (push de hoy), con su letra Apache-2.0 — **LETRA DE OFICIO LIMPIO** (la misma escuela de la aprendiz de la 64).
+*La casa — transformers.* `huggingface/transformers` ★167.766 (pulso 16-oct-2026), nacida el
+29-oct-2018, con aire del MISMO DÍA (push de hoy), con su letra Apache-2.0 — **LETRA DE OFICIO
+LIMPIO** (la misma escuela de la aprendiz de la 64).
 
 **LA SEGUNDA PLACA MÁS ALTA DEL CENSO COMPLETO DE LA OBRA** (tras la mente ★183.478: la forja de las forjas, corriendo por encima de la cara ★155.917 — el podio del censo: pensar, NACER, mostrar). Ocho años de oficio (2018-2026: la fundación silenciosa de toda la fila — la forja que existía ANTES de que el taller libre pensara en IA de casa).
 
-*La pareja del nacimiento — la despensa de pensares.* La casa de los pensares vive de la forja que la cría (la despensa pública del pensar: donde cada forja cuelga SU pensa con su receta — la gaveta abierta del oficio).
+*La pareja del nacimiento — la despensa de pensares.* La casa de los pensares vive de la forja
+que la cría (la despensa pública del pensar: donde cada forja cuelga SU pensa con su receta — la
+gaveta abierta del oficio).
 
-Su vara fina del censo: la casa NO es la gaveta (es el IDIOMA: la lengua en que cada pensa se define, se compara y se corre — la despensa pública: el estante; transformers: la gramática de lo que hay en el estante).
+Su vara fina del censo: la casa NO es la gaveta (es el IDIOMA: la lengua en que cada pensa se
+define, se compara y se corre — la despensa pública: el estante; transformers: la gramática de
+lo que hay en el estante).
 
 *La vara del ranking, con honestidad del censo:* la casa NO necesita podio: lo TIENE (la segunda más alta del censo entero, por una placa entera de 11.849 sobre la cara de la 62). El censo no decora: mide — y la forja madre: midiendo desde 2018.
 
@@ -47,15 +66,25 @@ Su vara fina del censo: la casa NO es la gaveta (es el IDIOMA: la lengua en que 
 
 El oficio de la forja, por capas — del idioma al pensa en tu caja.
 
-*La capa del idioma — la lengua común del pensar.* El oficio fino de la casa: cada modelo, ESCRITO en la misma gramática (la arquitectura definida en código legible: cuántas capas, cómo atiende, cómo piensa — el Qwen y el Gemma: comparables línea a línea, porque hablan la misma lengua).
+*La capa del idioma — la lengua común del pensar.* El oficio fino de la casa: cada modelo,
+ESCRITO en la misma gramática (la arquitectura definida en código legible: cuántas capas, cómo
+atiende, cómo piensa — el Qwen y el Gemma: comparables línea a línea, porque hablan la misma
+lengua).
 
 Su vara fina del idioma: la receta, LEÍBLE (el modelo de vitrina: caja negra de por vida; el de la casa: su arquitectura en la cara abierta — el taller puede leer cómo piensa su pensa). Que funda la fila esta capa: sin lengua común, no hay despensa — sin despensa, no hay IA de casa.
 
-*La capa de la despensa — el estante del pensar.* El corazón del oficio: los pensares, colgados con SU receta (cada forja: su modelo, su ficha, sus pesos, su tarjeta de honestidad — el estante del mundo libre).
+*La capa de la despensa — el estante del pensar.* El corazón del oficio: los pensares, colgados
+con SU receta (cada forja: su modelo, su ficha, sus pesos, su tarjeta de honestidad — el estante
+del mundo libre).
 
-Su vara fina de la capa: la tarjeta del pensa (la ficha honesta de cada modelo: qué sabe, qué no, en qué lengua, con qué letra — la etiqueta del taller, jamás el tarro sin rótulo). El pensa de tu 61: con nombre, origen y ficha.
+Su vara fina de la capa: la tarjeta del pensa (la ficha honesta de cada modelo: qué sabe, qué
+no, en qué lengua, con qué letra — la etiqueta del taller, jamás el tarro sin rótulo). El pensa
+de tu 61: con nombre, origen y ficha.
 
-*La capa del puente — del nacimiento a tu caja.* La vara mayor del oficio (la doctrina de la fila: las piezas sirviéndose ENTRE SÍ): el camino del pensa (nace en la forja → se cuelga en el estante → la despensa de tu 61 lo baja → tu caja conversa: el ciclo completo del pensar, de casa en casa).
+*La capa del puente — del nacimiento a tu caja.* La vara mayor del oficio (la doctrina de la
+fila: las piezas sirviéndose ENTRE SÍ): el camino del pensa (nace en la forja → se cuelga en el
+estante → la despensa de tu 61 lo baja → tu caja conversa: el ciclo completo del pensar, de casa
+en casa).
 
 Su vara fina del puente: los formatos de la casa (GGUF pa la mente 61, los cuantizados pa el bolsillo 66 — la casa definiendo, la fila convirtiendo: la misma receta, servida en cada mesa). Junta la fila esta última capa: el nacimiento — sirviendo a la cocina, al bolsillo, a la aprendiz.
 
@@ -63,7 +92,8 @@ Su vara fina del puente: los formatos de la casa (GGUF pa la mente 61, los cuant
 
 *Apache-2.0 — la letra del oficio limpio.* La letra de la casa (la escuela Apache, la de la aprendiz): uso, estudio, mejora y oficio comercial — con la paz de patentes firmada. La lectura fina de la vara: el idioma del pensar, LIBRE pa siempre (cualquier forja puede definir en esta lengua, cualquier taller puede leerla — la fundación del oficio: sin renta).
 
-La lectura de la fila: la letra Apache ahora en el FUNDAMENTO (la aprendiz faena con ella, la casa de los pensares NACE con ella — la misma escuela en el piso de abajo y en el taller).
+La lectura de la fila: la letra Apache ahora en el FUNDAMENTO (la aprendiz faena con ella, la
+casa de los pensares NACE con ella — la misma escuela en el piso de abajo y en el taller).
 
 Otra vara fina: la letra de la casa NO es la letra del pensa (cada modelo del estante: SU letra — MIT, Apache, o su vara propia: la etiqueta de cada tarro, leída en su ficha ANTES de descargar — la vara del censo, aplicada al estante). La despensa: con rótulos — la casa: de fuente abierta.
 
@@ -71,15 +101,26 @@ Otra vara fina: la letra de la casa NO es la letra del pensa (cada modelo del es
 
 Aquí va la frontera que el modelo de vitrina jamás dibuja — la doctrina de esta pieza.
 
-*Regla uno — ningún pensa entra sin ficha: origen, letra y honestidad.* La vara mayor del estante de la casa: el modelo se baja CON SU FICHA (de dónde nació, con qué letra, qué dice su tarjeta de honestidad: la etiqueta leída ANTES de la descarga — como toda la fila: lo que entra, se lee).
+*Regla uno — ningún pensa entra sin ficha: origen, letra y honestidad.* La vara mayor del
+estante de la casa: el modelo se baja CON SU FICHA (de dónde nació, con qué letra, qué dice su
+tarjeta de honestidad: la etiqueta leída ANTES de la descarga — como toda la fila: lo que entra,
+se lee).
 
 Otra vara fina: la ficha MIENTE a veces (la «gaveta sospechosa» del internet: el modelo sin forja conocida — JAMÁS: el pensa de tu casa nace de forja con nombre y estante público). La regla mayor del pensar: la caja negra no entra — la receta: visible o la puerta: cerrada.
 
-*Regla dos — el pensa se elige POR FAENA: la despensa no es coleccionismo.* La vara fina del estante (la regla dos de la fila, aplicada al pensar): la casa baja el pensa que SU faena pide (español de casa, tamaño de caja, licencia de oficio — la ficha decide: no el hype de la semana).
+*Regla dos — el pensa se elige POR FAENA: la despensa no es coleccionismo.* La vara fina del
+estante (la regla dos de la fila, aplicada al pensar): la casa baja el pensa que SU faena pide
+(español de casa, tamaño de caja, licencia de oficio — la ficha decide: no el hype de la
+semana).
 
-Encima la vara mayor: el coleccionismo de pensares (veinte modelos en el disco de la 61 «por si acaso»: la trampa del estante lleno — cada pensa: gigas; el taller: finito). Suma la vara fina seria: la gira del estante (los pensares sin uso: desmontados con visto — la despensa de la casa: viva, no museo). La regla del pensar: un pensa por faena — el estante: girado.
+Encima la vara mayor: el coleccionismo de pensares (veinte modelos en el disco de la 61 «por si acaso»: la trampa del estante lleno — cada pensa: gigas; el taller: finito). Suma la vara fina seria: la gira del estante (los pensares sin uso: desmontados con visto — la despensa de la casa: viva, no museo).
 
-*Regla tres — el pensa se AFINA en casa: la receta es tuya, el sazón también.* La línea fina del oficio (la que la vitrina jamás ofrecería): la casa puede AFINAR su pensa (el fine-tuning liviano: el modelo base de la despensa + los ejemplos de TU casa = el pensa que habla como tu oficio — la aprendiz de la 64 y la forja de entrenar: las manos del sazón).
+La regla del pensar: un pensa por faena — el estante: girado.
+
+*Regla tres — el pensa se AFINA en casa: la receta es tuya, el sazón también.* La línea fina del
+oficio (la que la vitrina jamás ofrecería): la casa puede AFINAR su pensa (el fine-tuning
+liviano: el modelo base de la despensa + los ejemplos de TU casa = el pensa que habla como tu
+oficio — la aprendiz de la 64 y la forja de entrenar: las manos del sazón).
 
 Otra vara fina: el afinado es FAENA SERIA (data limpia, prueba honesta, letra respetada del modelo base: la cocina fina — jamás el «entrena tu clon en 5 minutos» de la vitrina). Encima la vara mayor: el pensa afinado, TU OBRA (la receta base: de la casa de los pensares; el sazón: de TU taller — la memoria del oficio, en pesos propios).
 
@@ -89,7 +130,8 @@ La regla del sazón: la casa no solo corre recetas — las escribe.
 
 Cómo se arma sin equivocarse:*
 
-*Piso 1 — la cocina en pie (ya está).* La mente (61) respirando en la caja (la pareja del correr). La receta de la casa: sobre la cocina — jamás en el aire.
+*Piso 1 — la cocina en pie (ya está).* La mente (61) respirando en la caja (la pareja del
+correr). La receta de la casa: sobre la cocina — jamás en el aire.
 
 *Piso 2 — el estante conocido (quince minutos).* La despensa pública abierta en el navegador (el estante del mundo libre: los pensares con ficha), la búsqueda por faena («español, 8B, comercial-ok»: la ficha filtrando), y la lectura de la TARJETA del pensa (la honestidad del modelo: leída ANTES de bajar — la regla uno). El estante: conocido.
 
@@ -97,7 +139,10 @@ Cómo se arma sin equivocarse:*
 
 *Piso 4 — la gira del estante (quince minutos).* El inventario de pensares (qué hay en la caja: modelo, tamaño, uso, faena), el desmontaje con visto (los sin uso: fuera — la regla dos), y la vara del disco (el espacio del pensar: medido — el taller: finito). El estante: girado.
 
-*Piso 5 — el puente con la fila (una tarde de calma).* El pensa sirviendo a la fila (la mente 61 conversa, la aprendiz 64 usa el idioma pa faenar, la compañera 65 conversa con el mismo pensar: UN pensa, TODAS las mesas), y la vara fina: el formato de cada mesa (GGUF pa la cocina, el chico pa el bolsillo 66 — la receta: servida como pide cada taller).
+*Piso 5 — el puente con la fila (una tarde de calma).* El pensa sirviendo a la fila (la mente 61
+conversa, la aprendiz 64 usa el idioma pa faenar, la compañera 65 conversa con el mismo pensar:
+UN pensa, TODAS las mesas), y la vara fina: el formato de cada mesa (GGUF pa la cocina, el chico
+pa el bolsillo 66 — la receta: servida como pide cada taller).
 
 La fila: pensando de un solo pensa.
 
@@ -105,133 +150,215 @@ La fila: pensando de un solo pensa.
 
 *🧊 MITOS DESMONTADOS*
 
-*«Un modelo es un archivo mágico que cayó del cielo».* El mito del oráculo, jubilado (decimonovena vez en la fila): el modelo es una RECETA con pesos (escrita en la lengua de esta casa, colgada en un estante con ficha, bajada con su tarjeta de honestidad: el origen COMPLETO — de la idea a tu caja).
+*«Un modelo es un archivo mágico que cayó del cielo».* El mito del oráculo, jubilado
+(decimonovena vez en la fila): el modelo es una RECETA con pesos (escrita en la lengua de esta
+casa, colgada en un estante con ficha, bajada con su tarjeta de honestidad: el origen COMPLETO —
+de la idea a tu caja).
 
-Otra vara fina: la magia es del oficio (la forja que entrenó, la comunidad que probó, la ficha que documenta: el oráculo — gente trabajando). La autobiografía del pensar: completa.
+Otra vara fina: la magia es del oficio (la forja que entrenó, la comunidad que probó, la ficha
+que documenta: el oráculo — gente trabajando). La autobiografía del pensar: completa.
 
 *«Los modelos gratis de los rincones son iguales a los del estante».* El mito de la gaveta sospechosa, desmontado con la regla uno. El pensa del estante público: forja conocida, ficha honesta, letra leída, miles de talleres probándolo (la confianza: publicada).
 
-El de la gaveta sospechosa: sin origen, sin ficha, sin nadie que responda (la «gratis» de los rincones: la puerta del regalito escondido — como las apps de la vitrina). Suma la vara fina: la gaveta rara puede hasta VERDAD (el mismo modelo re-colgado) — pero sin ficha, la casa no firma: jamás. El estante: con nombre — la gaveta: sin dueño.
+El de la gaveta sospechosa: sin origen, sin ficha, sin nadie que responda (la «gratis» de los rincones: la puerta del regalito escondido — como las apps de la vitrina). Suma la vara fina: la gaveta rara puede hasta VERDAD (el mismo modelo re-colgado) — pero sin ficha, la casa no firma: jamás.
 
-*«Afinar un modelo es pa laboratorios».* El mito del bata blanca, jubilado: el afinado LIVIANO es faena de casa (la técnica del taller fino: el modelo base + cientos de ejemplos tuyos = el pensa de tu oficio — con las herramientas libres de la fila: la aprendiz preparando la data, la forja de entrenar afilando).
+El estante: con nombre — la gaveta: sin dueño.
+
+*«Afinar un modelo es pa laboratorios».* El mito del bata blanca, jubilado: el afinado LIVIANO
+es faena de casa (la técnica del taller fino: el modelo base + cientos de ejemplos tuyos = el
+pensa de tu oficio — con las herramientas libres de la fila: la aprendiz preparando la data, la
+forja de entrenar afilando).
 
 Además la vara fina honesta: NO es la primera tarde (el afinado serio: data limpia, pruebas, paciencia — la pieza más de taller de la fila), y la vara mayor: empieza por NO afinar (corre el pensa base un mes: la vara de la regla dos — muchos afinados se arreglan con una buena instrucción del sistema). Encima la vara mayor: empieza por NO afinar.
 
 El sazón: pa cuando la receta base ya se conoce de memoria.
 
-*«Si el modelo está en el estante, es libre pa todo».* El mito del rótulo fácil, desmontado con la vara de la ficha: el ESTANTE es abierto — cada PENSA tiene su letra (MIT, Apache, para-nada-comercial, solo-investigación: la ficha lo dice CLARO).
+*«Si el modelo está en el estante, es libre pa todo».* El mito del rótulo fácil, desmontado con
+la vara de la ficha: el ESTANTE es abierto — cada PENSA tiene su letra (MIT, Apache,
+para-nada-comercial, solo-investigación: la ficha lo dice CLARO).
 
-Suma la vara fina: el pensa con letra de investigación (el que prohíbe el oficio comercial: NO va a la caja del colmado — la vara de la letra, aplicada al estante: cada mesa, su letra). La despensa: abierta — los tarros: con rótulo.
+Suma la vara fina: el pensa con letra de investigación (el que prohíbe el oficio comercial: NO
+va a la caja del colmado — la vara de la letra, aplicada al estante: cada mesa, su letra). La
+despensa: abierta — los tarros: con rótulo.
 
 *❓ PREGUNTAS DE LA FILA*
 
-*¿La casa de los pensares ocupa espacio en mi caja — o es solo el estante del internet?* Es el taller de la FORJA — con vara fina: TÚ no instalas transformers (tu 61 ya habla su lengua por dentro: la cocina trae la gramática de fábrica).
+*¿La casa de los pensares ocupa espacio en mi caja — o es solo el estante del internet?* Es el
+taller de la FORJA — con vara fina: TÚ no instalas transformers (tu 61 ya habla su lengua por
+dentro: la cocina trae la gramática de fábrica).
 
-Con vara fina seria: los que SÍ la instalan (la aprendiz 64 afinando, la forja de entrenar: el oficio fino — la casa como herramienta de trabajo). Encima la vara mayor: para la mesa del sofá, la casa es el ORIGEN (la ficha, el estante, la tarjeta) — jamás una carga más. La fundación de la casa: invisible como los cimientos., invisible como los cimientos.
+Con vara fina seria: los que SÍ la instalan (la aprendiz 64 afinando, la forja de entrenar: el oficio fino — la casa como herramienta de trabajo). Encima la vara mayor: para la mesa del sofá, la casa es el ORIGEN (la ficha, el estante, la tarjeta) — jamás una carga más.
+
+La fundación de la casa: invisible como los cimientos., invisible como los cimientos.
 
 — invisible como los cimientos.
 
-*¿Cada cuánto salen pensares nuevos — y hay que estar bajando todos?* Salen a montón — y NO: la vara de la regla dos (el coleccionismo: la trampa): la casa baja UN pensa nuevo cuando SU faena lo pide (el español mejoró, el tamaño cabe, la letra sirve: la ficha decide — jamás el ruido de la semana).
+*¿Cada cuánto salen pensares nuevos — y hay que estar bajando todos?* Salen a montón — y NO: la
+vara de la regla dos (el coleccionismo: la trampa): la casa baja UN pensa nuevo cuando SU faena
+lo pide (el español mejoró, el tamaño cabe, la letra sirve: la ficha decide — jamás el ruido de
+la semana).
 
-Además la vara fina: el pensa estable vale MÁS que el de moda (el de la casa: probado por tus talleres, conocido por tus mesas — el cambio de pensa: con motivo y con gira). El estante del mundo: marea diaria — el de tu casa: por faena.
+Además la vara fina: el pensa estable vale MÁS que el de moda (el de la casa: probado por tus
+talleres, conocido por tus mesas — el cambio de pensa: con motivo y con gira). El estante del
+mundo: marea diaria — el de tu casa: por faena.
 
-*¿El pensa que baja mi 61 ES de la casa de los pensares — o puede ser de otra despensa?* Es de la lengua — con vara fina: la 61 baja de SU despensa (la gaveta de la cocina: los pensares ya convertidos al formato de la casa) — y esos pensares NACIERON en la lengua de esta pieza (la casa definió, la despensa de la cocina sirvió: el ciclo del puente).
+*¿El pensa que baja mi 61 ES de la casa de los pensares — o puede ser de otra despensa?* Es de
+la lengua — con vara fina: la 61 baja de SU despensa (la gaveta de la cocina: los pensares ya
+convertidos al formato de la casa) — y esos pensares NACIERON en la lengua de esta pieza (la
+casa definió, la despensa de la cocina sirvió: el ciclo del puente).
 
-Con vara fina seria: la tarjeta del pensa en la gaveta de la 61 (la ficha: el origen completo — de la forja natal a tu caja). El pensar de tu casa: con árbol genealógico.
+Con vara fina seria: la tarjeta del pensa en la gaveta de la 61 (la ficha: el origen completo —
+de la forja natal a tu caja). El pensar de tu casa: con árbol genealógico.
 
-*¿Se puede UNIR la casa con la aprendiz (64) — afinar el pensa de mi oficio?* Se une — con vara de oficio serio: es la pareja del sazón (la casa definiendo la receta base, la aprendiz preparando los ejemplos de TU taller, la forja de entrenar afinando: el pensa que habla como tu colmado, tu consultorio, tu liceo).
+*¿Se puede UNIR la casa con la aprendiz (64) — afinar el pensa de mi oficio?* Se une — con vara
+de oficio serio: es la pareja del sazón (la casa definiendo la receta base, la aprendiz
+preparando los ejemplos de TU taller, la forja de entrenar afinando: el pensa que habla como tu
+colmado, tu consultorio, tu liceo).
 
-Y la vara fina: empieza chiquito (cien ejemplos buenos, una faena sola — jamás el «todo mi negocio» de primera: el afinado fino, pa el que ya conoce su receta base). El sazón: pa el cocinero que ya prueba.
+Y la vara fina: empieza chiquito (cien ejemplos buenos, una faena sola — jamás el «todo mi
+negocio» de primera: el afinado fino, pa el que ya conoce su receta base). El sazón: pa el
+cocinero que ya prueba.
 
-*¿Y si la casa de los pensares desaparece mañana — se mueren mis pensares?* NO — con vara fina de la póliza: tus pensares, EN TU DISCO (los pesos de la caja: tuyos — la despensa puede cerrar y tu casa conversa igual: la diferencia con la nube, otra vez).
+*¿Y si la casa de los pensares desaparece mañana — se mueren mis pensares?* NO — con vara fina
+de la póliza: tus pensares, EN TU DISCO (los pesos de la caja: tuyos — la despensa puede cerrar
+y tu casa conversa igual: la diferencia con la nube, otra vez).
 
 La lengua queda (transformers: Apache — si la forja para, la comunidad sigue: la letra de la escuela Apache lo firma), y la vara mayor: los pensares re-bajables de muchas despensas (el estante del mundo libre: más de un estante). El pensar de tu casa: con respaldo y con heredero.
 
-*¿La casa de los pensares y la gaveta de la 61 — la misma cosa con dos nombres?* No — y la vara fina lo aclara de una vez: la casa DEFINE (la lengua: la gramática con que un pensa se escribe), la gaveta de la 61 SIRVE (el estante: los pensares ya convertidos, listos pa bajar).
+*¿La casa de los pensares y la gaveta de la 61 — la misma cosa con dos nombres?* No — y la vara
+fina lo aclara de una vez: la casa DEFINE (la lengua: la gramática con que un pensa se escribe),
+la gaveta de la 61 SIRVE (el estante: los pensares ya convertidos, listos pa bajar).
 
-Y el ciclo entero: va de la una a la otra (nace en la lengua de la casa, descansa en la gaveta de la cocina, conversa en tu caja). Dos pisos del mismo edificio: la fundación y la repisa. Ninguna de las dos es la mesa del sofá.
+Y el ciclo entero: va de la una a la otra (nace en la lengua de la casa, descansa en la gaveta
+de la cocina, conversa en tu caja). Dos pisos del mismo edificio: la fundación y la repisa.
+Ninguna de las dos es la mesa del sofá.
 
-*¿Un pensa chico vale tanto como uno grande — o chico es sinónimo de tonto?* Vale — con vara fina: el pensa chico (los cuantizados de la despensa: la misma receta servida liviana) faena lo suyo con sobra (conversa de sofá, resumen de colmado, práctica de liceo: el 90% de la vida digital de una casa).
+*¿Un pensa chico vale tanto como uno grande — o chico es sinónimo de tonto?* Vale — con vara
+fina: el pensa chico (los cuantizados de la despensa: la misma receta servida liviana) faena lo
+suyo con sobra (conversa de sofá, resumen de colmado, práctica de liceo: el 90% de la vida
+digital de una casa).
 
-Con vara fina seria: el tamaño se elige POR FAENA (el despacho entero resumiendo: pide masa; la duda de la guagua: pide bolsillo — la regla del faena-pensa, otra vez). La mesa del barrio: no pide buey pa cargar una carta.
+Con vara fina seria: el tamaño se elige POR FAENA (el despacho entero resumiendo: pide masa; la
+duda de la guagua: pide bolsillo — la regla del faena-pensa, otra vez). La mesa del barrio: no
+pide buey pa cargar una carta.
 
 *🧪 CASOS DEL BARRIO*
 
-*Caso uno — el estante del colmado.* El colmadero (el de la planilla y el resumen) queriendo UN pensa pa su oficio (el que resuma ventas y conteste clientes: «¿cuál bajo?» — la selva de la semana).
+*Caso uno — el estante del colmado.* El colmadero (el de la planilla y el resumen) queriendo UN
+pensa pa su oficio (el que resuma ventas y conteste clientes: «¿cuál bajo?» — la selva de la
+semana).
 
-Receta: la ficha por delante (la búsqueda del estante: «español, instrucción, comercial-ok, tamaño de su caja»), la tarjeta leída (la honestidad del pensa: qué sabe de ventas, en qué lengua), el pensa bajando a la 61 (con ficha guardada), y la prueba del oficio (diez preguntas reales del colmado: el pensa — contratado con currículum).
+Receta: la ficha por delante (la búsqueda del estante: «español, instrucción, comercial-ok,
+tamaño de su caja»), la tarjeta leída (la honestidad del pensa: qué sabe de ventas, en qué
+lengua), el pensa bajando a la 61 (con ficha guardada), y la prueba del oficio (diez preguntas
+reales del colmado: el pensa — contratado con currículum).
 
 El pensa del colmado: con ficha y con currículum — la selva: ordenada.
 
-*Caso dos — el pensa del consultorio.* La doctora del barrio (la del consultorio de la 59) queriendo un pensa que respete el secreto médico (la conversa del paciente: JAMÁS afuera).
+*Caso dos — el pensa del consultorio.* La doctora del barrio (la del consultorio de la 59)
+queriendo un pensa que respete el secreto médico (la conversa del paciente: JAMÁS afuera).
 
-Receta: la vara de la regla uno (el pensa: del estante público, con ficha — jamás de la gaveta sospechosa: la salud, con forja conocida), el pensa corriendo en SU caja (la regla uno de la 61: el pensar, local), y la vara fina seria: la instrucción del sistema del oficio (orientar, jamás diagnosticar: la vara de la 62 en el pensa del consultorio).
+Receta: la vara de la regla uno (el pensa: del estante público, con ficha — jamás de la gaveta
+sospechosa: la salud, con forja conocida), el pensa corriendo en SU caja (la regla uno de la 61:
+el pensar, local), y la vara fina seria: la instrucción del sistema del oficio (orientar, jamás
+diagnosticar: la vara de la 62 en el pensa del consultorio).
 
 El consultorio: con pensar de estante — el secreto médico: local.
 
-*Caso tres — la gira del estante gordito.* El dueño de casa (el de la fila completa) con SUENTA pensares en el disco (los de la moda del último año: la mitad sin usar — el disco: gritando).
+*Caso tres — la gira del estante gordito.* El dueño de casa (el de la fila completa) con SUENTA
+pensares en el disco (los de la moda del último año: la mitad sin usar — el disco: gritando).
 
 Montaje: la gira del estante (la regla dos: uso real por pensa — el de la conversa, el del oficio, el chico del bolsillo: SITEN; los de moda: desmontados con visto), el espacio medido (los gigas libres: celebrados), y la vara fina: la lista de desmontados en la póliza (los pensares: re-bajables si la casa los extraña — la póliza del estante).
 
 El estante de la casa: de museo a taller — el disco: respirando.
 
-*Caso cuatro — el sazón de la barbería.* El barbero (el del turno de la 54) queriendo su pensa PROPIO (el que conteste clientes como él: «precio del fade, horario del martes, el combo del niño» — el pensa genérico: contestando genérico).
+*Caso cuatro — el sazón de la barbería.* El barbero (el del turno de la 54) queriendo su pensa
+PROPIO (el que conteste clientes como él: «precio del fade, horario del martes, el combo del
+niño» — el pensa genérico: contestando genérico).
 
-Receta: el mes de recetas (las preguntas reales de sus clientes: cien, guardadas en la gaveta), la pareja del sazón (la aprendiz 64 preparando los ejemplos, el afinado fino del modelo base), y el pensa de la barbería: contestando como el dueño (la prueba: su cuñado confundido — «¿tú contestaste o la máquina?»).
+Receta: el mes de recetas (las preguntas reales de sus clientes: cien, guardadas en la gaveta),
+la pareja del sazón (la aprendiz 64 preparando los ejemplos, el afinado fino del modelo base), y
+el pensa de la barbería: contestando como el dueño (la prueba: su cuñado confundido — «¿tú
+contestaste o la máquina?»).
 
 El sazón del barrio: en pesos propios — la barbería: con pensa de casa.
 
-*Caso cinco — la letra que se respeta.* El dueño del taller con el pensa de moda (el mejor del año en la ficha de benchmarks: PERO letra de solo-investigación — el negocio del colmado: pidiendo su resumen).
+*Caso cinco — la letra que se respeta.* El dueño del taller con el pensa de moda (el mejor del
+año en la ficha de benchmarks: PERO letra de solo-investigación — el negocio del colmado:
+pidiendo su resumen).
 
 Receta: la vara de la ficha en acción (la letra del pensa: leída ANTES — «no comercial»: JAMÁS en la caja del negocio), el pensa con letra de oficio bajando (el segundo de la lista: 90% del pique, 100% de la paz), y la vara fina: la paz legal del colmado (el oficio: sin deudas de rótulo). La letra del tarro: respetada — el negocio: con pensa y sin pleito.
 
-*Caso seis — la clase del liceo y la autobiografía del pensar.* El maestro del liceo (el de la escuela del barrio) con la clase de computación (los muchachos: «la IA es magia» — el mito del oráculo, en persona).
+*Caso seis — la clase del liceo y la autobiografía del pensar.* El maestro del liceo (el de la
+escuela del barrio) con la clase de computación (los muchachos: «la IA es magia» — el mito del
+oráculo, en persona).
 
-Receta: la ficha de un pensa PROYECTADA (el estante del mundo libre en la pantalla: la receta, la tarjeta, la forja — el modelo: leyéndose como se lee un autor), la autobiografía del pensar contada (de la forja a la caja de la escuela: el ciclo completo), y la vara fina: los muchachos leyendo OTRO ficha pa la tarea (el pensar: con historia — la magia: jubilada).
+Receta: la ficha de un pensa PROYECTADA (el estante del mundo libre en la pantalla: la receta,
+la tarjeta, la forja — el modelo: leyéndose como se lee un autor), la autobiografía del pensar
+contada (de la forja a la caja de la escuela: el ciclo completo), y la vara fina: los muchachos
+leyendo OTRO ficha pa la tarea (el pensar: con historia — la magia: jubilada).
 
 El liceo del barrio: con el mito del oráculo — desmontado en 45 minutos.
 
 *🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)*
 
-*Las placas (censo 16-oct-2026):* la casa ★167.766 — **LA SEGUNDA MÁS ALTA DEL CENSO COMPLETO** (tras la mente ★183.478; encima de la cara ★155.917 por 11.849). Apache-2.0.
+*Las placas (censo 16-oct-2026):* la casa ★167.766 — **LA SEGUNDA MÁS ALTA DEL CENSO COMPLETO**
+(tras la mente ★183.478; encima de la cara ★155.917 por 11.849). Apache-2.0.
 
-*La edad:* nacida el 29-oct-2018 — **LA FUNDACIÓN DE LA FILA** (ocho años: existía cuando la fila ni se soñaba; la forja que sostenía el oficio ANTES de la moda).
+*La edad:* nacida el 29-oct-2018 — **LA FUNDACIÓN DE LA FILA** (ocho años: existía cuando la
+fila ni se soñaba; la forja que sostenía el oficio ANTES de la moda).
 
 *El aire:* push del MISMO DÍA (la forja madre, emparejando la lengua al corte).
 
-*El estante:* la despensa pública del pensar — cada pensa con ficha, tarjeta y letra (el rótulo del tarro: leído ANTES de bajar).
+*El estante:* la despensa pública del pensar — cada pensa con ficha, tarjeta y letra (el rótulo
+del tarro: leído ANTES de bajar).
 
-*La vara de la casa:* ningún pensa sin ficha (regla uno), un pensa por faena con gira (regla dos), el sazón de casa pa quien ya conoce la receta (regla tres) — y la letra de cada tarro: respetada.
+*La vara de la casa:* ningún pensa sin ficha (regla uno), un pensa por faena con gira (regla
+dos), el sazón de casa pa quien ya conoce la receta (regla tres) — y la letra de cada tarro:
+respetada.
 
 *🕰 LA EDAD DE LA CASA*
 
-Ocho años (2018-2026): la fundación silenciosa. La historia del nacimiento: octubre de 2018 — la forja firma la idea que financió la década: «¿y si TODO modelo se escribiera en la MISMA lengua — legible, comparable, abierta?» (el idioma común del pensar: antes, cada laboratorio en su torre de babel). Ocho años después: la segunda placa del censo entero.
+Ocho años (2018-2026): la fundación silenciosa. La historia del nacimiento: octubre de 2018 — la forja firma la idea que financió la década: «¿y si TODO modelo se escribiera en la MISMA lengua — legible, comparable, abierta?» (el idioma común del pensar: antes, cada laboratorio en su torre de babel).
 
-La edad de la casa: la forja que la década no vio nacer porque YA ESTABA — el cimiento de toda la fila (la 61 corre su lengua, la 64 la usa, el estante entero: definido en ella).
+Ocho años después: la segunda placa del censo entero.
+
+La edad de la casa: la forja que la década no vio nacer porque YA ESTABA — el cimiento de toda
+la fila (la 61 corre su lengua, la 64 la usa, el estante entero: definido en ella).
 
 *💬 LA CONVERSACIÓN HONESTA*
 
-Dígase claro: la casa de los pensares NO es una pieza pa instalar (la honestidad fina de la fila: esta pieza no añade un programa — añade CONOCIMIENTO: de dónde nace lo que tu casa piensa), y la vara fina: es la pieza del ORIGEN (la que le pone ficha, árbol y letra al pensa de tu 61: la casa seria conoce lo que corre — como conoce lo que come).
+Dígase claro: la casa de los pensares NO es una pieza pa instalar (la honestidad fina de la
+fila: esta pieza no añade un programa — añade CONOCIMIENTO: de dónde nace lo que tu casa
+piensa), y la vara fina: es la pieza del ORIGEN (la que le pone ficha, árbol y letra al pensa de
+tu 61: la casa seria conoce lo que corre — como conoce lo que come).
 
 Y queda la vara mayor: sin ella no hay fila (el idioma común: la fundación del estante libre — la pieza más invisible y más necesaria del bloque). La honestidad del bloque: esta pieza no se monta — se LEE: y después, todo el estante se mira distinto.
 
 *🎞 LO QUE ESTA PIEZA NO DICE*
 
-No dice que instales nada nuevo — dice que tu 61 YA habla esta lengua: la pieza es el origen, no otro programa.
+No dice que instales nada nuevo — dice que tu 61 YA habla esta lengua: la pieza es el origen, no
+otro programa.
 
-No dice que los pensares sean iguales porque viven juntos — dice que cada tarro tiene SU rótulo: la letra se lee ANTES.
+No dice que los pensares sean iguales porque viven juntos — dice que cada tarro tiene SU rótulo:
+la letra se lee ANTES.
 
-No dice que bajes los pensares de moda — dice la regla dos: un pensa por faena, gira mensual, museo jamás.
+No dice que bajes los pensares de moda — dice la regla dos: un pensa por faena, gira mensual,
+museo jamás.
 
-No dice que afinar sea fácil — dice que es FAENA SERIA: data limpia, paciencia, y primero la receta base de memoria.
+No dice que afinar sea fácil — dice que es FAENA SERIA: data limpia, paciencia, y primero la
+receta base de memoria.
 
-No dice que la casa sea prescindible — dice que es la fundación: sin lengua común, no hay estante — sin estante, no hay fila.
+No dice que la casa sea prescindible — dice que es la fundación: sin lengua común, no hay
+estante — sin estante, no hay fila.
 
 *🩺 LA SALUD DE LA FORJA AL CORTE (el parte del nacimiento)*
 
 El parte del 16-oct-2026: la casa con aire de HOY, la letra Apache firme, ocho años sin pausa.
 
-La lectura fina del parte: la forja madre con el push del mismo día (la lengua del pensar: emparejada al corte) — la casa: la constancia del cimiento. La salud del nacimiento: ocho años — y la forja más viva del censo.
+La lectura fina del parte: la forja madre con el push del mismo día (la lengua del pensar:
+emparejada al corte) — la casa: la constancia del cimiento. La salud del nacimiento: ocho años —
+y la forja más viva del censo.
 
 *📐 LA MEDIDA DEL NACIMIENTO (lo que el censo deja leer y no se ve)*
 
@@ -239,55 +366,80 @@ Tres medidas finas de la noche.
 
 La primera: el podio del censo completo. 183.478 (la mente), 167.766 (la casa), 155.917 (la cara): el podio del censo entero de la obra — pensar, NACER, mostrar: la medida fina de la época (el oficio del pensar: la cima del planeta libre — y la fila 61-70 dueña del podio entero).
 
-La segunda: la fundación de 2018. La casa: ocho años (2018), la raíz: diez (2016), el bolsillo: once (2015) — la fila nueva (2023-2024) caminando SOBRE la vieja guardia: la medida del oficio serio (la década no empezó con la moda: empezó con las forjas que sostuvieron la vela).
+La segunda: la fundación de 2018. La casa: ocho años (2018), la raíz: diez (2016), el bolsillo:
+once (2015) — la fila nueva (2023-2024) caminando SOBRE la vieja guardia: la medida del oficio
+serio (la década no empezó con la moda: empezó con las forjas que sostuvieron la vela).
 
-La tercera: la ficha como póliza. El oficio fino de la tarjeta del pensa (qué sabe, qué no, con qué letra, de qué forja: la honestidad publicada — el modelo de vitrina jamás la firmaría): la medida del respeto (la casa que lee la ficha ANTES de bajar: la casa que sabe lo que corre). El estante de la casa: con acta — como todo el taller.
+La tercera: la ficha como póliza. El oficio fino de la tarjeta del pensa (qué sabe, qué no, con qué letra, de qué forja: la honestidad publicada — el modelo de vitrina jamás la firmaría): la medida del respeto (la casa que lee la ficha ANTES de bajar: la casa que sabe lo que corre).
+
+El estante de la casa: con acta — como todo el taller.
 
 *📻 LA SEGUNDA FILA (lo que quedó fuera del origen)*
 
-*La historia — la fundación de 2018.* Octubre de 2018: la forja firma el idioma común del pensar (la lengua única de los modelos: el fin de las torres de babel del oficio), y la visita de la obra: ocho años después, la segunda placa del censo entero — la fundación que la moda tardó cinco años en descubrir.
+*La historia — la fundación de 2018.* Octubre de 2018: la forja firma el idioma común del pensar
+(la lengua única de los modelos: el fin de las torres de babel del oficio), y la visita de la
+obra: ocho años después, la segunda placa del censo entero — la fundación que la moda tardó
+cinco años en descubrir.
 
 *La tarjeta de honestidad — la vara del rótulo.* El oficio fino de la ficha (qué sabe el pensa, qué no, en qué lengua, con qué letra: la honestidad publicada — la etiqueta del tarro, delante del cliente). La lectura fina: la tarjeta del pensa como la ficha del producto del barrio (el rótulo del café: origen, peso, tostión — el pensa: forja, faena, letra).
 
 El estante del mundo: con etiqueta — la casa: lee antes de comprar.
 
-*El ciclo del pensar — la vara del puente.* El camino completo del pensa (nace en la forja → estante público → despensa de la cocina → caja de la casa → mesa del sofá: el ciclo del pensar libre, de casa en casa), y la lectura fina: cada paso con póliza (la ficha al nacer, la tarjeta al colgar, la letra al bajar, la gira al vivir).
+*El ciclo del pensar — la vara del puente.* El camino completo del pensa (nace en la forja →
+estante público → despensa de la cocina → caja de la casa → mesa del sofá: el ciclo del pensar
+libre, de casa en casa), y la lectura fina: cada paso con póliza (la ficha al nacer, la tarjeta
+al colgar, la letra al bajar, la gira al vivir).
 
 El pensar de la casa: con cadena de custodia — como los papeles de la casa.
 
 *🗼 EL ORIGEN EN TU DÍA A DÍA (cuatro rutinas de la despensa)*
 
-*El morning de la ficha.* El pensa del taller: conocido (la ficha en la página del taller: el pensar de la casa, con nombre y origen).
+*El morning de la ficha.* El pensa del taller: conocido (la ficha en la página del taller: el
+pensar de la casa, con nombre y origen).
 
-*El mediodía de la prueba.* El pensa nuevo (si toca): examinado (diez preguntas del oficio: el currículum, firmado).
+*El mediodía de la prueba.* El pensa nuevo (si toca): examinado (diez preguntas del oficio: el
+currículum, firmado).
 
-*El evening del rótulo.* La letra del tarro revisada (¿cambió la letra del pensa con la versión?: la gira lo mira — la paz del oficio: al día).
+*El evening del rótulo.* La letra del tarro revisada (¿cambió la letra del pensa con la
+versión?: la gira lo mira — la paz del oficio: al día).
 
-*La madrugada de la gira.* La gira mensual del estante (los pensares usados y sin usar, los gigas, la póliza del pensar): el origen — visitado como toda casa seria.
+*La madrugada de la gira.* La gira mensual del estante (los pensares usados y sin usar, los
+gigas, la póliza del pensar): el origen — visitado como toda casa seria.
 
 *🧵 GENEALOGÍAS DEL ORIGEN*
 
 *El abuelo — la receta sin autor.* La del barrio de siempre: la receta de cocina copiada a mano (la abuela aprendiendo de la radio: sin origen, sin autor — «lo dijo un señor»: la receta, de nadie). El abuelo del origen: el saber — sin árbol.
 
-*El padre — el software sin rótulo.* Los 2000s: el programa de la gaveta (el disco pirata del barrio: sin autor, sin letra, con regalitos — la era del «córrelo y reza»). El padre del origen: el tarro — sin etiqueta.
+*El padre — el software sin rótulo.* Los 2000s: el programa de la gaveta (el disco pirata del
+barrio: sin autor, sin letra, con regalitos — la era del «córrelo y reza»). El padre del origen:
+el tarro — sin etiqueta.
 
-*La madre — el modelo de vitrina.* 2022-2024: el chat de la tienda (el pensa cerrado: sin ficha, sin tarjeta, sin origen — «confía en la magia»: el oráculo de alquiler). La madre del origen: el pensar — con autor escondido.
+*La madre — el modelo de vitrina.* 2022-2024: el chat de la tienda (el pensa cerrado: sin ficha,
+sin tarjeta, sin origen — «confía en la magia»: el oráculo de alquiler). La madre del origen: el
+pensar — con autor escondido.
 
-*El hijo — el pensa con ficha.* 2026: el modelo con árbol genealógico (forja natal, tarjeta honesta, letra pública — el pensa de tu caja: leído como un libro, con autor y editorial). La genealogía completa: de la receta sin autor al tarro sin rótulo, del oráculo alquilado — al pensar con ficha. La idea que no cambió: la casa, preguntando el origen.
+*El hijo — el pensa con ficha.* 2026: el modelo con árbol genealógico (forja natal, tarjeta honesta, letra pública — el pensa de tu caja: leído como un libro, con autor y editorial). La genealogía completa: de la receta sin autor al tarro sin rótulo, del oráculo alquilado — al pensar con ficha.
+
+La idea que no cambió: la casa, preguntando el origen.
 
 Y el origen ahora, respondiendo: el pensar — con autobiografía.
 
 *📦 LA DESPENSA DEL ORIGEN (tu pensar, ordenado como gente)*
 
-*La ficha del pensa* — forja natal, tarjeta honesta y letra pública: el árbol genealógico de lo que tu casa piensa. El estante de la 61 — con acta, como todo el taller.
+*La ficha del pensa* — forja natal, tarjeta honesta y letra pública: el árbol genealógico de lo
+que tu casa piensa. El estante de la 61 — con acta, como todo el taller.
 
-*La regla del faena-pensa* — un pensa por faena: la ficha decide, jamás el hype de la semana. El coleccionismo — la trampa del museo; la gira — mensual.
+*La regla del faena-pensa* — un pensa por faena: la ficha decide, jamás el hype de la semana. El
+coleccionismo — la trampa del museo; la gira — mensual.
 
-*La letra del tarro* — leída ANTES de bajar (comercial-ok pa la mesa del negocio): cada tarro, su rótulo. La paz legal del oficio — sin pleitos dormidos.
+*La letra del tarro* — leída ANTES de bajar (comercial-ok pa la mesa del negocio): cada tarro,
+su rótulo. La paz legal del oficio — sin pleitos dormidos.
 
-*La prueba del currículum* — diez preguntas reales del oficio antes de contratar el pensa: la ficha se examina, no se cree. La contratación — con nota.
+*La prueba del currículum* — diez preguntas reales del oficio antes de contratar el pensa: la
+ficha se examina, no se cree. La contratación — con nota.
 
-*La póliza del estante* — los pesos en dos discos, las fichas en la página del taller: re-bajable lo que la casa extraña. El pensar — con respaldo y con heredero.
+*La póliza del estante* — los pesos en dos discos, las fichas en la página del taller:
+re-bajable lo que la casa extraña. El pensar — con respaldo y con heredero.
 
 *🪧 EL CARTEL DEL ORIGEN*
 
@@ -303,309 +455,527 @@ Y el origen ahora, respondiendo: el pensar — con autobiografía.
 
 *😄 EL MEME DE LA CASA*
 
-El chat de la tienda, en su letra chiquita: «Nuestro modelo propietario de última generación (no podemos decirte cómo funciona)». El estante de la casa, en su tarjeta: «Nací en tal forja, sé esto y no sé lo otro, mi letra permite X y prohíbe Y, miles de talleres me probaron — aquí está mi árbol». La tienda, vendiendo magia sin receta.
+El chat de la tienda, en su letra chiquita: «Nuestro modelo propietario de última generación (no podemos decirte cómo funciona)». El estante de la casa, en su tarjeta: «Nací en tal forja, sé esto y no sé lo otro, mi letra permite X y prohíbe Y, miles de talleres me probaron — aquí está mi árbol».
 
-La casa, contratando su pensar con currículum — porque lo que piensa pa ti, tiene que presentar papeles.
+La tienda, vendiendo magia sin receta.
+
+La casa, contratando su pensar con currículum — porque lo que piensa pa ti, tiene que presentar
+papeles.
 
 *⚠ LOS RIESGOS DE LA DESPENSA, CON FECHA*
 
-*El pensa sin ficha (el riesgo número uno, 16-oct-2026).* El modelo de la gaveta sospechosa (sin forja, sin tarjeta, sin nadie que responda: el regalito escondido — el trojano del estante), y la salida: la regla uno — pensa de estante público CON ficha (forja conocida, tarjeta leída, letra verificada: como las apps de la fila — lo que entra, se lee).
+*El pensa sin ficha (el riesgo número uno, 16-oct-2026).* El modelo de la gaveta sospechosa (sin
+forja, sin tarjeta, sin nadie que responda: el regalito escondido — el trojano del estante), y
+la salida: la regla uno — pensa de estante público CON ficha (forja conocida, tarjeta leída,
+letra verificada: como las apps de la fila — lo que entra, se lee).
 
-Además la vara fina: la firma de verificación (la firma del pensa cuando la despensa la trae: la casa seria coteja). El pensar de la casa: con árbol genealógico — jamás de gaveta ajena.
+Además la vara fina: la firma de verificación (la firma del pensa cuando la despensa la trae: la
+casa seria coteja). El pensar de la casa: con árbol genealógico — jamás de gaveta ajena.
 
-*El coleccionismo de estante (el riesgo del por-si-acaso).* El disco lleno de pensares de moda (veinte modelos, dos en uso: el museo del pensar — el disco gritando), y la salida: la regla dos — un pensa por faena (la ficha decide, jamás el hype), la gira mensual del estante (los sin uso: desmontados con visto, anotados en la póliza: re-bajables).
+*El coleccionismo de estante (el riesgo del por-si-acaso).* El disco lleno de pensares de moda
+(veinte modelos, dos en uso: el museo del pensar — el disco gritando), y la salida: la regla dos
+— un pensa por faena (la ficha decide, jamás el hype), la gira mensual del estante (los sin uso:
+desmontados con visto, anotados en la póliza: re-bajables).
 
-La vara fina del estante, además: el pensa estable sobre el de moda (el conocido por tus mesas: vale más que el ruido de la semana). El estante: taller — jamás vitrina.
+La vara fina del estante, además: el pensa estable sobre el de moda (el conocido por tus mesas:
+vale más que el ruido de la semana). El estante: taller — jamás vitrina.
 
-*El rótulo sin lectura (el riesgo del tarro).* El pensa con letra de investigación en la caja del negocio (el mejor del benchmark, prohibido pa el oficio: el pleito legal dormido), y la salida: la vara de la ficha — la letra del tarro leída ANTES (comercial-ok: la etiqueta que decide la mesa), y la vara fina: la paz del oficio (el segundo de la lista: sirviendo sin deuda).
+*El rótulo sin lectura (el riesgo del tarro).* El pensa con letra de investigación en la caja
+del negocio (el mejor del benchmark, prohibido pa el oficio: el pleito legal dormido), y la
+salida: la vara de la ficha — la letra del tarro leída ANTES (comercial-ok: la etiqueta que
+decide la mesa), y la vara fina: la paz del oficio (el segundo de la lista: sirviendo sin
+deuda).
 
 El tarro: con rótulo — la mesa: con paz.
 
-*El afinado apurado (el riesgo del sazón).* El «entrena tu clon en 5 minutos» de la vitrina (la data sucia, el modelo destrozado, el pensa que delira: el sazón sin cocina), y la salida: la vara de la regla tres — el afinado es FAENA SERIA (data limpia, prueba honesta, letra del modelo base respetada).
+*El afinado apurado (el riesgo del sazón).* El «entrena tu clon en 5 minutos» de la vitrina (la
+data sucia, el modelo destrozado, el pensa que delira: el sazón sin cocina), y la salida: la
+vara de la regla tres — el afinado es FAENA SERIA (data limpia, prueba honesta, letra del modelo
+base respetada).
 
-Primero, la vara fina: la receta base de memoria (un mes de uso real: muchos «problemas» se arreglan con la instrucción del sistema — sin tocar pesos). El sazón: pa el cocinero que ya prueba — jamás para el apurado.
+Primero, la vara fina: la receta base de memoria (un mes de uso real: muchos «problemas» se
+arreglan con la instrucción del sistema — sin tocar pesos). El sazón: pa el cocinero que ya
+prueba — jamás para el apurado.
 
-*La ficha mentirosa (el riesgo del rótulo falso).* La tarjeta que promete de más (el pensa «español nativo» que balbucea: la honestidad del estante — a veces de paseo), y la salida: la vara de la casa (la prueba de la faena: diez preguntas REALES de TU oficio antes de contratar el pensa — el currículum se examina).
+*La ficha mentirosa (el riesgo del rótulo falso).* La tarjeta que promete de más (el pensa
+«español nativo» que balbucea: la honestidad del estante — a veces de paseo), y la salida: la
+vara de la casa (la prueba de la faena: diez preguntas REALES de TU oficio antes de contratar el
+pensa — el currículum se examina).
 
-El toque fino: la comunidad del estante (las observaciones de otros talleres: leídas — la ficha propia: comparada con la del barrio). El toque fino: la comunidad del estante. El currículum: se examina — la contratación: con prueba.
+El toque fino: la comunidad del estante (las observaciones de otros talleres: leídas — la ficha
+propia: comparada con la del barrio). El toque fino: la comunidad del estante. El currículum: se
+examina — la contratación: con prueba.
 
 *📖 GLOSARIO DE LA COSECHA*
 
-*Puente.* El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento. Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que las estrellas.
+*Puente.* El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento.
+Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que
+las estrellas.
 
-*Cajón.* La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno. Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus etiquetas estén peinadas.
+*Cajón.* La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno.
+Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus
+etiquetas estén peinadas.
 
-*Detective.* La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa del artista».
+*Detective.* La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra
+versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa
+del artista».
 
-*Cosecha.* El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y lo que no pasa no se borra — se anota. La cosecha es la prueba de que el método de la casa funciona.
+*Cosecha.* El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y
+lo que no pasa no se borra — se anota. La cosecha es la prueba de que el método de la casa
+funciona.
 
-*Placa.* El paquete completo de datos de una casa: estrellas con fecha, push con fecha, licencia con nombre, fila de asuntos. Sin placa no hay censo — hay lista de apodos.
+*Placa.* El paquete completo de datos de una casa: estrellas con fecha, push con fecha, licencia
+con nombre, fila de asuntos. Sin placa no hay censo — hay lista de apodos.
 
-*Pulso.* La toma de datos con hora. El censo de la tarde no es el pulso de la noche: el #10 de esta pieza midió a las ~23:12 UTC y cazó dos casas moviéndose en vivo. El censo no es una foto: es un latido.
+*Pulso.* La toma de datos con hora. El censo de la tarde no es el pulso de la noche: el #10 de
+esta pieza midió a las ~23:12 UTC y cazó dos casas moviéndose en vivo. El censo no es una foto:
+es un latido.
 
-*Mapa vivo.* La numeración de los pulsos de la casa (#1 al #10 al corte de esta pieza). Cada mapa vivo deja caja fechada para que el próximo lector compare su cuaderno con el nuestro.
+*Mapa vivo.* La numeración de los pulsos de la casa (#1 al #10 al corte de esta pieza). Cada
+mapa vivo deja caja fechada para que el próximo lector compare su cuaderno con el nuestro.
 
-*Censo vivo.* El barrido grande de la casa: 5.684 repositorios al 15-oct-2026, con estrellas, pushes y licencias. Es la fuente de verdad de esta pieza — y crece por puerta verificada, no por promesa.
+*Censo vivo.* El barrido grande de la casa: 5.684 repositorios al 15-oct-2026, con estrellas,
+pushes y licencias. Es la fuente de verdad de esta pieza — y crece por puerta verificada, no por
+promesa.
 
-*Vara.* La regla de la casa que decide qué entra al mapa: fuente abierta, licencia legible, pulso con fecha. La vara no clasifica por gusto — mide por oficio.
+*Vara.* La regla de la casa que decide qué entra al mapa: fuente abierta, licencia legible,
+pulso con fecha. La vara no clasifica por gusto — mide por oficio.
 
-*Corte.* El día y la hora en que se midió la verdad. Toda esta pieza es del corte 15-oct-2026; mañana el corte dirá lo que viva mañana — y esa es su honestidad, no su debilidad.
+*Corte.* El día y la hora en que se midió la verdad. Toda esta pieza es del corte 15-oct-2026;
+mañana el corte dirá lo que viva mañana — y esa es su honestidad, no su debilidad.
 
-*Quietud.* El silencio anotado: tronco grande sin empuje, con fecha de última actividad. No es muerte ni abandono automático — es pausa con acta. Timber y InnerTune son las quietudes de esta cosecha.
+*Quietud.* El silencio anotado: tronco grande sin empuje, con fecha de última actividad. No es
+muerte ni abandono automático — es pausa con acta. Timber y InnerTune son las quietudes de esta
+cosecha.
 
-*Push.* El último empuje del taller: la fecha de la última actividad del repositorio. En la escuela del puente, un push de esta semana vale más que mil estrellas — es la diferencia entre taller vivo y museo.
+*Push.* El último empuje del taller: la fecha de la última actividad del repositorio. En la
+escuela del puente, un push de esta semana vale más que mil estrellas — es la diferencia entre
+taller vivo y museo.
 
-*Release.* La versión publicada y firmada por el taller: la única forma del software que la casa palomea. OuterTune al corte trae la v0.10.1 contándose en público — eso es salud de release.
+*Release.* La versión publicada y firmada por el taller: la única forma del software que la casa
+palomea. OuterTune al corte trae la v0.10.1 contándose en público — eso es salud de release.
 
-*Asuntos.* Los issues del taller: la fila pública donde los problemas esperan turno. No cuenta la cantidad — cuenta si se contestan. Trescientos con respuestas respiran; cuarenta en silencio, no.
+*Asuntos.* Los issues del taller: la fila pública donde los problemas esperan turno. No cuenta
+la cantidad — cuenta si se contestan. Trescientos con respuestas respiran; cuarenta en silencio,
+no.
 
-*Estrellas.* El aplauso del ecosistema: mide fama, no calidad. ★49.974 (15-oct-2026) hace a Spotube el más aplaudido de la cosecha — la vara de la casa decide si ese aplauso viene con contrato.
+*Estrellas.* El aplauso del ecosistema: mide fama, no calidad. ★49.974 (15-oct-2026) hace a
+Spotube el más aplaudido de la cosecha — la vara de la casa decide si ese aplauso viene con
+contrato.
 
-*Licencia.* El contrato escrito del taller: qué puedes hacer con su código. En esta cosecha firman GPL-3.0, AGPL-3.0 y MIT — y tres casas viajan sin firma clara, con su vara marcada.
+*Licencia.* El contrato escrito del taller: qué puedes hacer con su código. En esta cosecha
+firman GPL-3.0, AGPL-3.0 y MIT — y tres casas viajan sin firma clara, con su vara marcada.
 
-*GPL-3.0.* La licencia copyleft más común de la cosecha: usa el código, y lo que publiques con él se abre con la misma placa. Es la firma que convierte un silencio en genealogía — InnerTune la firmó, y OuterTune hereda con honor.
+*GPL-3.0.* La licencia copyleft más común de la cosecha: usa el código, y lo que publiques con
+él se abre con la misma placa. Es la firma que convierte un silencio en genealogía — InnerTune
+la firmó, y OuterTune hereda con honor.
 
-*AGPL-3.0.* La GPL para servicios: si el código corre como servicio, también se abre. muffon la firma al 15-oct-2026 — la casa la lee con el mismo respeto que la GPL de sus hermanas.
+*AGPL-3.0.* La GPL para servicios: si el código corre como servicio, también se abre. muffon la
+firma al 15-oct-2026 — la casa la lee con el mismo respeto que la GPL de sus hermanas.
 
-*MIT.* La licencia más simple de leer: haz casi lo que quieras, conserva el aviso. Salt Player la firma — garantía mínima, cadena limpia, cero letra chica.
+*MIT.* La licencia más simple de leer: haz casi lo que quieras, conserva el aviso. Salt Player
+la firma — garantía mínima, cadena limpia, cero letra chica.
 
-*NOASSERTION.* La placa en blanco: el repositorio no declara licencia reconocida. No es delito — es ausencia. Sin firma, el derecho por defecto es «todos los derechos reservados», y los reempaques viajan sin freno legal.
+*NOASSERTION.* La placa en blanco: el repositorio no declara licencia reconocida. No es delito —
+es ausencia. Sin firma, el derecho por defecto es «todos los derechos reservados», y los
+reempaques viajan sin freno legal.
 
-*Copyleft.* La regla del recíproco: si tomas el código de un taller público para hacer el tuyo, lo que agregues sale con la misma placa. Es el antídoto del reempaque silencioso.
+*Copyleft.* La regla del recíproco: si tomas el código de un taller público para hacer el tuyo,
+lo que agregues sale con la misma placa. Es el antídoto del reempaque silencioso.
 
-*Fork.* La continuidad del software libre: un taller que nace del código de otro, respetando su licencia. OuterTune es el fork vivo de InnerTune — no su imitación: su línea.
+*Fork.* La continuidad del software libre: un taller que nace del código de otro, respetando su
+licencia. OuterTune es el fork vivo de InnerTune — no su imitación: su línea.
 
-*Heredero.* El taller (o la línea) que toma el código de una casa quieta y sigue empujando. Para heredar con honor hace falta una sola cosa: que la madre haya firmado licencia. Sin firma no hay testamento.
+*Heredero.* El taller (o la línea) que toma el código de una casa quieta y sigue empujando. Para
+heredar con honor hace falta una sola cosa: que la madre haya firmado licencia. Sin firma no hay
+testamento.
 
-*Reempaque.* El APK que toma la obra de un taller, le mete anuncios o peaje, y la reparte con placa ajena. El enemigo viejo de la casa — y la razón de la vara: origen, firma, permisos, sin prisa.
+*Reempaque.* El APK que toma la obra de un taller, le mete anuncios o peaje, y la reparte con
+placa ajena. El enemigo viejo de la casa — y la razón de la vara: origen, firma, permisos, sin
+prisa.
 
-*Tienda legal.* La puerta de instalación que muestra el repositorio de origen: Droid-ify, Neo-Store, Accrescent, el F-Droid de la pieza 01. Si la tienda no muestra el repo, no es tienda — es grupo con carrocería bonita.
+*Tienda legal.* La puerta de instalación que muestra el repositorio de origen: Droid-ify,
+Neo-Store, Accrescent, el F-Droid de la pieza 01. Si la tienda no muestra el repo, no es tienda
+— es grupo con carrocería bonita.
 
-*Droid-ify.* El cliente F-Droid material de la casa (pieza 01): busca la casa por su nombre exacto del censo y la instalación viaja con la placa a la vista. La primera puerta recomendada de esta cosecha.
+*Droid-ify.* El cliente F-Droid material de la casa (pieza 01): busca la casa por su nombre
+exacto del censo y la instalación viaja con la placa a la vista. La primera puerta recomendada
+de esta cosecha.
 
-*Accrescent.* La tienda de estándares altos de la pieza 01: firmas estrictas, catálogo curado. Segunda puerta legal — la que usa el que prefieren las varas cortas.
+*Accrescent.* La tienda de estándares altos de la pieza 01: firmas estrictas, catálogo curado.
+Segunda puerta legal — la que usa el que prefieren las varas cortas.
 
-*F-Droid.* La casa madre de las tiendas libres: el catálogo histórico del ecosistema. Vieja, sabida y firme — el anexo donde la mayoría de las catorce de esta cosecha tiene placa.
+*F-Droid.* La casa madre de las tiendas libres: el catálogo histórico del ecosistema. Vieja,
+sabida y firme — el anexo donde la mayoría de las catorce de esta cosecha tiene placa.
 
-*APK.* El paquete instalable de Android. En sí mismo es neutro — como un sobre. La vara de la casa pregunta siempre lo mismo: ¿quién lo selló? La respuesta separa la tienda legal del grupo de siempre.
+*APK.* El paquete instalable de Android. En sí mismo es neutro — como un sobre. La vara de la
+casa pregunta siempre lo mismo: ¿quién lo selló? La respuesta separa la tienda legal del grupo
+de siempre.
 
-*Firma.* La marca criptográfica del taller en su release. La tienda legal la verifica por ti; el APK de grupo, nadie sabe quién la puso. Sin firma verificable, no hay confianza — hay fe, y la casa no trabaja con fe.
+*Firma.* La marca criptográfica del taller en su release. La tienda legal la verifica por ti; el
+APK de grupo, nadie sabe quién la puso. Sin firma verificable, no hay confianza — hay fe, y la
+casa no trabaja con fe.
 
-*Material You.* El lenguaje de diseño de Android moderno que sigue el color de tu fondo. Retro Music lo lleva de bandera (★5.357, 18-oct-2026) — el mueble clásico vestido de esta década.
+*Material You.* El lenguaje de diseño de Android moderno que sigue el color de tu fondo. Retro
+Music lo lleva de bandera (★5.357, 18-oct-2026) — el mueble clásico vestido de esta década.
 
-*Etiqueta.* La información adentro del archivo de música: título, artista, álbum, número, año. El reproductor lee la etiqueta, no el nombre del archivo — peinar etiquetas es peinar la biblioteca entera.
+*Etiqueta.* La información adentro del archivo de música: título, artista, álbum, número, año.
+El reproductor lee la etiqueta, no el nombre del archivo — peinar etiquetas es peinar la
+biblioteca entera.
 
-*FLAC.* El formato sin pérdida: suena exacto al master y pesa cinco veces más que un MP3. Para el archivo maestro en la PC — no para el bolsillo del día a día.
+*FLAC.* El formato sin pérdida: suena exacto al master y pesa cinco veces más que un MP3. Para
+el archivo maestro en la PC — no para el bolsillo del día a día.
 
-*MP3.* El formato que movió el mundo y sigue mandando en el bolsillo: a 320 kilobits suena igualito en auricular humilde y pesa como la palabra. La casa lo respeta sin nostalgia ni complejo.
+*MP3.* El formato que movió el mundo y sigue mandando en el bolsillo: a 320 kilobits suena
+igualito en auricular humilde y pesa como la palabra. La casa lo respeta sin nostalgia ni
+complejo.
 
-*Caché.* La memoria del río: las canciones que ya suenaste se guardan un tiempo para no volver a bajar. Es la gracia económica del streaming libre — la mata de hilo del tercer día suena media gratis.
+*Caché.* La memoria del río: las canciones que ya suenaste se guardan un tiempo para no volver a
+bajar. Es la gracia económica del streaming libre — la mata de hilo del tercer día suena media
+gratis.
 
-*Scrobble.* El hábito del detective: registrar lo que suenas para amarrar historial y descubrimiento. muffon lo trae de fábrica — el reproductor que también lleva el cuaderno de campo.
+*Scrobble.* El hábito del detective: registrar lo que suenas para amarrar historial y
+descubrimiento. muffon lo trae de fábrica — el reproductor que también lleva el cuaderno de
+campo.
 
-*Discografía.* El mapa completo de un artista: álbumes, años, versiones. La vara del detective es amarrarla bien — muffon la cruza entre fuentes al 18-oct-2026 con ★2.246 y AGPL firmado.
+*Discografía.* El mapa completo de un artista: álbumes, años, versiones. La vara del detective
+es amarrarla bien — muffon la cruza entre fuentes al 18-oct-2026 con ★2.246 y AGPL firmado.
 
-*Multi-fuente.* La casa que no se casa con un río: consulta varios provedores y te sirve la versión que esté limpia. Spotube, Namida y muffon viven de esa libertad — con sus licencias mirándose dos veces.
+*Multi-fuente.* La casa que no se casa con un río: consulta varios provedores y te sirve la
+versión que esté limpia. Spotube, Namida y muffon viven de esa libertad — con sus licencias
+mirándose dos veces.
 
-*Streaming.* El modelo del río: suena ahora, no guarda nada tuyo. Infinito mientras el río corra — y por eso esta pieza repite: exporta lo que amas, streamea lo que descubres.
+*Streaming.* El modelo del río: suena ahora, no guarda nada tuyo. Infinito mientras el río corra
+— y por eso esta pieza repite: exporta lo que amas, streamea lo que descubres.
 
-*Aleatorio.* El modo más honesto del reproductor: te enseña cuánto conoces tu propio archivo. En el cajón con etiquetas peinadas, el aleatorio es un paseo; sin etiquetas, un secuestro.
+*Aleatorio.* El modo más honesto del reproductor: te enseña cuánto conoces tu propio archivo. En
+el cajón con etiquetas peinadas, el aleatorio es un paseo; sin etiquetas, un secuestro.
 
-*Lista.* La secuencia guardada: el arte del anfitrión y la herramienta del viajero. La lista buena se exporta a archivo — la que solo vive dentro de la app es rehén de la app.
+*Lista.* La secuencia guardada: el arte del anfitrión y la herramienta del viajero. La lista
+buena se exporta a archivo — la que solo vive dentro de la app es rehén de la app.
 
-*Exportar.* Sacar tus listas y favoritos a archivo que otra casa pueda leer. La prueba de propiedad de la escuela del río: si el mueble no exporta, eres inquilino con mueble bonito.
+*Exportar.* Sacar tus listas y favoritos a archivo que otra casa pueda leer. La prueba de
+propiedad de la escuela del río: si el mueble no exporta, eres inquilino con mueble bonito.
 
-*Sincronía.* La rutina que mueve tu música entre PC y teléfono sin cable ni heroico: Syncthing y su familia (viene en la serie). La copia maestra queda en casa; el teléfono lleva la de trabajo.
+*Sincronía.* La rutina que mueve tu música entre PC y teléfono sin cable ni heroico: Syncthing y
+su familia (viene en la serie). La copia maestra queda en casa; el teléfono lleva la de trabajo.
 
-*Copia maestra.* El original en FLAC que vive en tu PC o disco, del que nacen las copias de bolsillo. Convertir del maestro, nunca al revés: bordarle encaje a un saco de harina no lo vuelve traje.
+*Copia maestra.* El original en FLAC que vive en tu PC o disco, del que nacen las copias de
+bolsillo. Convertir del maestro, nunca al revés: bordarle encaje a un saco de harina no lo
+vuelve traje.
 
-*Root.* El teléfono abierto de par en par. La casa lo trata en la pieza 20 con sus letreros — y esta cosecha musical NO lo necesita ni un poquito: fuente abierta es taller público, no cirugía.
+*Root.* El teléfono abierto de par en par. La casa lo trata en la pieza 20 con sus letreros — y
+esta cosecha musical NO lo necesita ni un poquito: fuente abierta es taller público, no cirugía.
 
-*Cuenta de prueba.* El casco de la obra: la cuenta sin nada personal que estrenas cualquier app nueva. En esta cosecha ninguna de las catorce pide contraseña — la que la pida, desinstálala y anota la fecha.
+*Cuenta de prueba.* El casco de la obra: la cuenta sin nada personal que estrenas cualquier app
+nueva. En esta cosecha ninguna de las catorce pide contraseña — la que la pida, desinstálala y
+anota la fecha.
 
-*Letrero anti-reempaques.* La regla que SimpMusic puso en su casa (pieza 08) y se volvió ley del barrio: los reempaques no son míos y no los apoyo. El letrero que le quita al clonero su excusa favorita — la duda.
+*Letrero anti-reempaques.* La regla que SimpMusic puso en su casa (pieza 08) y se volvió ley del
+barrio: los reempaques no son míos y no los apoyo. El letrero que le quita al clonero su excusa
+favorita — la duda.
 
-*Genealogía.* El oficio de contar de dónde viene cada casa: troncos, forks, herederos, quietudes. La pareja InnerTune→OuterTune es la lección viva de esta cosecha — misma sangre, distinto pulso.
+*Genealogía.* El oficio de contar de dónde viene cada casa: troncos, forks, herederos,
+quietudes. La pareja InnerTune→OuterTune es la lección viva de esta cosecha — misma sangre,
+distinto pulso.
 
-*Sucesión.* El relevo ordenado cuando un taller se duerme: la línea GPL continúa en el heredero y el mapa anota el cambio con fecha. Sucesión limpia no tiene drama — tiene acta.
+*Sucesión.* El relevo ordenado cuando un taller se duerme: la línea GPL continúa en el heredero
+y el mapa anota el cambio con fecha. Sucesión limpia no tiene drama — tiene acta.
 
-*Corte honesto.* El corte que declara sus huecos: faltan casas, el censo sigue creciendo, y la pieza dice qué queda fuera. Sabe a lo que sabe — y lo que sabe, lo firma.
+*Corte honesto.* El corte que declara sus huecos: faltan casas, el censo sigue creciendo, y la
+pieza dice qué queda fuera. Sabe a lo que sabe — y lo que sabe, lo firma.
 
-*Rumor con formato.* Lo que queda de una recomendación cuando se le recorta la fecha: «Timber es el mejor» sin el 28-abr-2023 es un rumor con negritas. La casa comparte mapas con corte puesto.
+*Rumor con formato.* Lo que queda de una recomendación cuando se le recorta la fecha: «Timber es
+el mejor» sin el 28-abr-2023 es un rumor con negritas. La casa comparte mapas con corte puesto.
 
-*Taller público.* El repositorio abierto: el taller cuyas herramientas, filas y errores están a la vista de todos. Las catorce de esta cosecha lo son — y por eso se les puede medir sin pedirle permiso a nadie.
+*Taller público.* El repositorio abierto: el taller cuyas herramientas, filas y errores están a
+la vista de todos. Las catorce de esta cosecha lo son — y por eso se les puede medir sin pedirle
+permiso a nadie.
 
-*Resurrección.* El regreso con fecha: tachiyomiJ2K volvió de dos años y medio de silencio (pieza 15). Por eso la quietud lleva acta y no lápida — la casa celebra el despertar el día que ocurre.
+*Resurrección.* El regreso con fecha: tachiyomiJ2K volvió de dos años y medio de silencio (pieza
+15). Por eso la quietud lleva acta y no lápida — la casa celebra el despertar el día que ocurre.
 
-*Gemela FB.* La copia hermana de una pieza que nacía para Facebook. Por orden del dueño del 15-oct noche, la serie nueva (21 en adelante) viaja SIN gemela: WhatsApp puro — el muro de Facebook queda fuera de esta cosecha. Ley anotada en la hoja de ruta, no en la discordia.
+*Gemela FB.* La copia hermana de una pieza que nacía para Facebook. Por orden del dueño del 15-oct noche, la serie nueva (21 en adelante) viaja SIN gemela: WhatsApp puro — el muro de Facebook queda fuera de esta cosecha.
 
-*LA LISTA.* El índice vivo de la biblioteca (la pieza 00): el mapa del mapa donde cada guía nueva toma su número y su fila. Esta cosecha entra al corte siguiente de LA LISTA con su placa.
+Ley anotada en la hoja de ruta, no en la discordia.
 
-*Boleta.* El único requisito de entrada a la biblioteca: haber abierto el repositorio, la página de versiones y la libreta de obra. Las catorce de esta cosecha pagaron boleta — por eso tienen pieza.
+*LA LISTA.* El índice vivo de la biblioteca (la pieza 00): el mapa del mapa donde cada guía
+nueva toma su número y su fila. Esta cosecha entra al corte siguiente de LA LISTA con su placa.
 
-*Lupa.* La herramienta de la casa que examina una pieza como un oficial de aduana: respiro, cadencia, anclas de tiempo, dialecto. La v6 «aire» es la que exige bloques que respiren — esta pieza nació bajo su vara.
+*Boleta.* El único requisito de entrada a la biblioteca: haber abierto el repositorio, la página
+de versiones y la libreta de obra. Las catorce de esta cosecha pagaron boleta — por eso tienen
+pieza.
 
-*Respiro.* La ley del aire: ningún bloque de la pieza debía quedarse sin oxígeno — al corte del 15-oct la vara mide ~380 caracteres por bloque. La música también respira: es la diferencia entre leer y ahogarse.
+*Lupa.* La herramienta de la casa que examina una pieza como un oficial de aduana: respiro,
+cadencia, anclas de tiempo, dialecto. La v6 «aire» es la que exige bloques que respiren — esta
+pieza nació bajo su vara.
 
-*Certificación.* Las baterías que la pieza corre antes de firmarse FINAL: la experta (v4), la evolutiva (v5) y la de rarezas (fuzz) con semilla fija. Sin batería no hay sello — y sin sello, la pieza no se llama final.
+*Respiro.* La ley del aire: ningún bloque de la pieza debía quedarse sin oxígeno — al corte del
+15-oct la vara mide ~380 caracteres por bloque. La música también respira: es la diferencia
+entre leer y ahogarse.
 
-*Acta.* El documento fechado donde la casa anota lo que hizo: actas de corrección, actas de censo, actas de push. Lo que no tiene acta no pasó — y lo que pasó con acta, no se puede negar.
+*Certificación.* Las baterías que la pieza corre antes de firmarse FINAL: la experta (v4), la
+evolutiva (v5) y la de rarezas (fuzz) con semilla fija. Sin batería no hay sello — y sin sello,
+la pieza no se llama final.
 
-*Registro.* El cuaderno mayor de la casa: registro-2026-10-15.md y sus hermanos por fecha, append-only. Aquí vive el acta de esta cosecha, con su pulso #10 y su hora.
+*Acta.* El documento fechado donde la casa anota lo que hizo: actas de corrección, actas de
+censo, actas de push. Lo que no tiene acta no pasó — y lo que pasó con acta, no se puede negar.
 
-*Censo abierto.* La puerta del dueño: lo que encuentra un día, entra el MISMO día al censo con prioridad. Los Hush de la pieza 17 entraron así — y esta cosecha tiene la puerta abierta para la próxima casa musical que llegue.
+*Registro.* El cuaderno mayor de la casa: registro-2026-10-15.md y sus hermanos por fecha,
+append-only. Aquí vive el acta de esta cosecha, con su pulso #10 y su hora.
 
-*Hallazgo.* La puerta que alguien trae a la casa: un repositorio que merece mapa. No se necesita vara de hierro para traerlo — se necesita fuente abierta: lo demás lo mide el censo.
+*Censo abierto.* La puerta del dueño: lo que encuentra un día, entra el MISMO día al censo con
+prioridad. Los Hush de la pieza 17 entraron así — y esta cosecha tiene la puerta abierta para la
+próxima casa musical que llegue.
 
-*Cola.* El orden sin favor: lo que no pasa la vara hoy queda en cola anotada, no en silencio. La cola tiene orden, no pena — y se revisa en cada corte.
+*Hallazgo.* La puerta que alguien trae a la casa: un repositorio que merece mapa. No se necesita
+vara de hierro para traerlo — se necesita fuente abierta: lo demás lo mide el censo.
 
-*Anti-omisión.* La ley de la casa contra el dato sin fecha: lo que no se re-pulsó viaja FECHADO como el corte en que se vio. Nunca «actualmente» sin hora — siempre «al 15-oct-2026».
+*Cola.* El orden sin favor: lo que no pasa la vara hoy queda en cola anotada, no en silencio. La
+cola tiene orden, no pena — y se revisa en cada corte.
+
+*Anti-omisión.* La ley de la casa contra el dato sin fecha: lo que no se re-pulsó viaja FECHADO
+como el corte en que se vio. Nunca «actualmente» sin hora — siempre «al 15-oct-2026».
 
 *Triple lectura.* La lectura de la casa antes de publicar: la del técnico (¿el dato aguanta?), la del lector (¿se entiende al primer trago?) y la del rival (¿dónde me meto?). Esta pieza pasó las tres — y los mitos son puro oro de la tercera.
 
-*Río.* El catálogo ajeno: YouTube Music, archive público, provedores varios. El río corre sin pedirte permiso y se corta sin avisar — por eso la escuela del puente se mide por push fresco.
+*Río.* El catálogo ajeno: YouTube Music, archive público, provedores varios. El río corre sin
+pedirte permiso y se corta sin avisar — por eso la escuela del puente se mide por push fresco.
 
-*Señal.* La torre que el río necesita y el cajón no. En la loma, la señal es la primera vara: lo que no descargaste no existe en carretera — lección que el campo enseña gratis.
+*Señal.* La torre que el río necesita y el cajón no. En la loma, la señal es la primera vara: lo
+que no descargaste no existe en carretera — lección que el campo enseña gratis.
 
-*Loma.* La geografía honesta del país: donde el streaming confiesa su dependencia. Toda la escuela del puente se queda mudita en la loma — el cajón suena igualito.
+*Loma.* La geografía honesta del país: donde el streaming confiesa su dependencia. Toda la
+escuela del puente se queda mudita en la loma — el cajón suena igualito.
 
-*Modo avión.* La prueba de fuego del mueble local: ponerlo y que suene. Si tu lista de fiesta necesita torre, no era lista — era esperanza.
+*Modo avión.* La prueba de fuego del mueble local: ponerlo y que suene. Si tu lista de fiesta
+necesita torre, no era lista — era esperanza.
 
-*Anfitrión.* El que pone el teléfono en la fiesta. Su vara: lista corrida, pantalla bloqueada y cero promesas de wifi ajeno. La casa le recomienda cajón — el río en fiesta es apuesta.
+*Anfitrión.* El que pone el teléfono en la fiesta. Su vara: lista corrida, pantalla bloqueada y
+cero promesas de wifi ajeno. La casa le recomienda cajón — el río en fiesta es apuesta.
 
-*Coleccionista.* El que suena, guarda, etiqueta y copia. No necesita FLAC de colección para empezar: necesita la rutina — maestro en PC, copia en teléfono, lista exportada. La estructura antes que el volumen.
+*Coleccionista.* El que suena, guarda, etiqueta y copia. No necesita FLAC de colección para
+empezar: necesita la rutina — maestro en PC, copia en teléfono, lista exportada. La estructura
+antes que el volumen.
 
-*Oído con oficio.* El que escucha preguntando: qué versión, qué año, qué disco. La escuela del detective existe para él — muffon al 18-oct-2026 con ★2.246 y AGPL firmado.
+*Oído con oficio.* El que escucha preguntando: qué versión, qué año, qué disco. La escuela del
+detective existe para él — muffon al 18-oct-2026 con ★2.246 y AGPL firmado.
 
-*Bitrate.* Los kilobits por segundo del audio: la medida de cuánto archivo pesa una canción. A más bitrate, más fidelidad hasta donde el oído y el altavoz alcancen a distinguir — el 320 del MP3 es el techo práctico del bolsillo.
+*Bitrate.* Los kilobits por segundo del audio: la medida de cuánto archivo pesa una canción. A
+más bitrate, más fidelidad hasta donde el oído y el altavoz alcancen a distinguir — el 320 del
+MP3 es el techo práctico del bolsillo.
 
-*Pérdida.* Lo que un formato tira al comprimir. El MP3 la tiene (y bien administrada a 320 alcanza al bolsillo); el FLAC no la tiene — y por eso uno viaja y el otro archiva.
+*Pérdida.* Lo que un formato tira al comprimir. El MP3 la tiene (y bien administrada a 320
+alcanza al bolsillo); el FLAC no la tiene — y por eso uno viaja y el otro archiva.
 
-*Conversión.* Pasar del maestro a la copia de trabajo: FLAC a MP3, una vez, desde el original. La conversión inversa no existe en la casa — no se inventa calidad que no bajó.
+*Conversión.* Pasar del maestro a la copia de trabajo: FLAC a MP3, una vez, desde el original.
+La conversión inversa no existe en la casa — no se inventa calidad que no bajó.
 
-*Permiso.* Lo que la app te pide al entrar. La vara: permiso fuera de oficio = desinstalar y volver al censo. Un reproductor que pide contactos no es reproductor — es huésped con maleta.
+*Permiso.* Lo que la app te pide al entrar. La vara: permiso fuera de oficio = desinstalar y
+volver al censo. Un reproductor que pide contactos no es reproductor — es huésped con maleta.
 
-*Desinstalar.* El acto de higiene digital: quitar la app con fecha anotada. La casa lo recomienda sin drama — la desinstalación honesta es la mitad de la vara que nadie cuenta.
+*Desinstalar.* El acto de higiene digital: quitar la app con fecha anotada. La casa lo
+recomienda sin drama — la desinstalación honesta es la mitad de la vara que nadie cuenta.
 
-*Actualizar.* Traer la nueva release del taller legal. En la escuela del puente, actualizar semanal no es manía: es respirar — el río cambia de puerta y el taller contesta con push.
+*Actualizar.* Traer la nueva release del taller legal. En la escuela del puente, actualizar
+semanal no es manía: es respirar — el río cambia de puerta y el taller contesta con push.
 
-*Versión.* El número que el taller pone a su release (OuterTune v0.10.1 al corte). Con versión hay historia: se puede comparar, se puede volver atrás, se puede exigir.
+*Versión.* El número que el taller pone a su release (OuterTune v0.10.1 al corte). Con versión
+hay historia: se puede comparar, se puede volver atrás, se puede exigir.
 
-*Snapshot.* La foto del estado en un momento: la caja de pulso de esta pieza es un snapshot del 15-oct-2026 a las ~23:12 UTC. Mañana será historia fechada — que es el único tipo de historia que la casa guarda.
+*Snapshot.* La foto del estado en un momento: la caja de pulso de esta pieza es un snapshot del
+15-oct-2026 a las ~23:12 UTC. Mañana será historia fechada — que es el único tipo de historia
+que la casa guarda.
 
-*Dialecto.* La voz de la casa: dominicano de verdad, con clienta, barrio y chin chin — pero el dato siempre en traje formal. El dialecto es la envoltura; la placa, el contenido.
+*Dialecto.* La voz de la casa: dominicano de verdad, con clienta, barrio y chin chin — pero el
+dato siempre en traje formal. El dialecto es la envoltura; la placa, el contenido.
 
-*Chin chin.* El golpe de mesa de la moral del meme: la sentence final que clava la lección. No es adorno — es la firma de la casa cuando el oficio quedó claro.
+*Chin chin.* El golpe de mesa de la moral del meme: la sentence final que clava la lección. No
+es adorno — es la firma de la casa cuando el oficio quedó claro.
 
-*Muro FB.* La fila de piezas gemelas que la casa publicaba en Facebook. Desde el 15-oct noche: la serie 21+ va sin muro — WhatsApp puro. La ley del dueño, anotada con fecha y sin melcocha.
+*Muro FB.* La fila de piezas gemelas que la casa publicaba en Facebook. Desde el 15-oct noche:
+la serie 21+ va sin muro — WhatsApp puro. La ley del dueño, anotada con fecha y sin melcocha.
 
-*Índice.* El mapa de una pieza: el árbol de esta guía. Un árbol único por pieza, con secciones y tiempos — el lector sabe dónde está parado y cuánto falta pa la parada.
+*Índice.* El mapa de una pieza: el árbol de esta guía. Un árbol único por pieza, con secciones y
+tiempos — el lector sabe dónde está parado y cuánto falta pa la parada.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
+*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de
+nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de
+esta escuela.
 
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
+*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad.
+Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la
+cantidad, es la contesta.
 
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
+*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor;
+publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo
+cuenta.
 
-*Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
+*Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es
+el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada,
+y ajena al censo.
 
-*Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
+*Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor
+muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
 
-*Segunda fila.* Los vecinos que el censo vio y esta pieza no tomó: podcast, vídeo puro y talleres bajo la vara del barrido. No es exclusión — es cola con orden, y se revisa en cada corte.
+*Segunda fila.* Los vecinos que el censo vio y esta pieza no tomó: podcast, vídeo puro y
+talleres bajo la vara del barrido. No es exclusión — es cola con orden, y se revisa en cada
+corte.
 
-*Oído del barrio.* El que escucha antes de opinar: prueba dos muebles, mira dos placas y pregunta en la fila antes de palomear. No nace sabido — se hace con una semana de ritual bien dada.
+*Oído del barrio.* El que escucha antes de opinar: prueba dos muebles, mira dos placas y
+pregunta en la fila antes de palomear. No nace sabido — se hace con una semana de ritual bien
+dada.
 
-Casa de los pensares|transformers: el idioma común donde se define cada modelo — la recetilla universal del pensar. La fundación de la fila: sin ella, no hay estante.
+Casa de los pensares|transformers: el idioma común donde se define cada modelo — la recetilla
+universal del pensar. La fundación de la fila: sin ella, no hay estante.
 
-Placa del nacimiento|La de la casa (★167.766, pulso 16-oct-2026): la segunda del censo entero — tras la mente, encima de la cara. La forja madre: midiendo desde 2018.
+Placa del nacimiento|La de la casa (★167.766, pulso 16-oct-2026): la segunda del censo entero —
+tras la mente, encima de la cara. La forja madre: midiendo desde 2018.
 
-Ficha del pensa|El papel del modelo: forja natal, tarjeta honesta, letra pública — el árbol genealógico. Sin ficha, la puerta se cierra: la regla uno.
+Ficha del pensa|El papel del modelo: forja natal, tarjeta honesta, letra pública — el árbol
+genealógico. Sin ficha, la puerta se cierra: la regla uno.
 
-Tarjeta de honestidad|La del estante: qué sabe el pensa, qué no, en qué lengua. La etiqueta del tarro — publicada; la casa — lee antes de comprar.
+Tarjeta de honestidad|La del estante: qué sabe el pensa, qué no, en qué lengua. La etiqueta del
+tarro — publicada; la casa — lee antes de comprar.
 
-Gaveta sospechosa|El rincón sin forja ni ficha: el regalito escondido del pensar. La casa — jamás: pensa de estante público, con firma.
+Gaveta sospechosa|El rincón sin forja ni ficha: el regalito escondido del pensar. La casa —
+jamás: pensa de estante público, con firma.
 
-Regla del faena-pensa|La de la regla dos: un pensa por faena, la ficha decide — jamás el hype. El estante: girado mensual; el museo — jubilado.
+Regla del faena-pensa|La de la regla dos: un pensa por faena, la ficha decide — jamás el hype.
+El estante: girado mensual; el museo — jubilado.
 
-Letra del tarro|La del modelo: MIT, Apache, solo-investigación — leída ANTES de bajar. Comercial-ok pa la mesa del negocio: la paz sin pleitos.
+Letra del tarro|La del modelo: MIT, Apache, solo-investigación — leída ANTES de bajar.
+Comercial-ok pa la mesa del negocio: la paz sin pleitos.
 
-Prueba del currículum|La de diez preguntas reales del oficio: la ficha se examina, no se cree. La contratación del pensa — con nota del barrio.
+Prueba del currículum|La de diez preguntas reales del oficio: la ficha se examina, no se cree.
+La contratación del pensa — con nota del barrio.
 
-Sazón|El afinado fino: el modelo base + los ejemplos de tu taller = el pensa que habla como tu oficio. Faena seria — pa el cocinero que ya prueba.
+Sazón|El afinado fino: el modelo base + los ejemplos de tu taller = el pensa que habla como tu
+oficio. Faena seria — pa el cocinero que ya prueba.
 
-Receta base de memoria|La del antes-del-sazón: un mes de uso real, los problemas anotados. Muchos afinados — se arreglan con la instrucción del sistema.
+Receta base de memoria|La del antes-del-sazón: un mes de uso real, los problemas anotados.
+Muchos afinados — se arreglan con la instrucción del sistema.
 
-Pareja del sazón|La de la aprendiz (64) preparando la data y la forja de entrenar afinando: el pensa de tu oficio. El nacimiento — sirviendo al taller.
+Pareja del sazón|La de la aprendiz (64) preparando la data y la forja de entrenar afinando: el
+pensa de tu oficio. El nacimiento — sirviendo al taller.
 
-Ciclo del pensar|El del puente: nace en la forja, estante público, despensa de la cocina, caja de la casa — el pensar libre, de casa en casa. Cadena de custodia.
+Ciclo del pensar|El del puente: nace en la forja, estante público, despensa de la cocina, caja
+de la casa — el pensar libre, de casa en casa. Cadena de custodia.
 
-Fundación de 2018|La de la casa: ocho años — la forja que existía antes de la moda. La fila nueva (2023-24) — caminando sobre la vieja guardia.
+Fundación de 2018|La de la casa: ocho años — la forja que existía antes de la moda. La fila
+nueva (2023-24) — caminando sobre la vieja guardia.
 
-Lengua común|La del idioma de la casa: cada pensa legible y comparable — el fin de las torres de babel. La gramática del estante libre.
+Lengua común|La del idioma de la casa: cada pensa legible y comparable — el fin de las torres de
+babel. La gramática del estante libre.
 
-Pensa cuantizado|El formato chico de la casa: la misma receta, servida liviana pa el disco justo. La despensa — con talla pa cada mesa.
+Pensa cuantizado|El formato chico de la casa: la misma receta, servida liviana pa el disco
+justo. La despensa — con talla pa cada mesa.
 
-Estante con heredero|El de la póliza: pesos en dos discos, fichas en la página del taller. Si la forja para: la letra queda — el pensar, con respaldo y sucesión.
+Estante con heredero|El de la póliza: pesos en dos discos, fichas en la página del taller. Si la
+forja para: la letra queda — el pensar, con respaldo y sucesión.
 
-Marea del hype|La de los pensares de moda semanal: TÚ no la persigues — tu ficha de faena decide. El timón del estante: por faena, jamás por ruido.
+Marea del hype|La de los pensares de moda semanal: TÚ no la persigues — tu ficha de faena
+decide. El timón del estante: por faena, jamás por ruido.
 
-Fundación y repisa|El par que se aclara de una vez: la casa DEFINE (la lengua), la gaveta de la 61 SIRVE (el estante). El ciclo — de la una a la otra hasta tu caja.
+Fundación y repisa|El par que se aclara de una vez: la casa DEFINE (la lengua), la gaveta de la
+61 SIRVE (el estante). El ciclo — de la una a la otra hasta tu caja.
 
-Pensa liviano|El cuantizado de la despensa: la misma receta servida pa mesa chica. El 90% de la vida digital de una casa — faenando con sobra.
+Pensa liviano|El cuantizado de la despensa: la misma receta servida pa mesa chica. El 90% de la
+vida digital de una casa — faenando con sobra.
 
-Buey pa carta|El que la mesa del barrio jamás pide: tamaño por faena — el despacho pide masa, la guagua pide bolsillo. La regla del faena-pensa — otra vez.
+Buey pa carta|El que la mesa del barrio jamás pide: tamaño por faena — el despacho pide masa, la
+guagua pide bolsillo. La regla del faena-pensa — otra vez.
 
-Árbol del pensa|El que la ficha dibuja: forja natal, tarjeta, letra — la autobiografía completa. La casa seria: sabiendo a quién le habla.
+Árbol del pensa|El que la ficha dibuja: forja natal, tarjeta, letra — la autobiografía completa.
+La casa seria: sabiendo a quién le habla.
 
-Estante con nota|El del currículum examinado: diez preguntas reales, la nota honesta, la observación del barrio. El pensa — contratado o en prueba.
+Estante con nota|El del currículum examinado: diez preguntas reales, la nota honesta, la
+observación del barrio. El pensa — contratado o en prueba.
 
-Paz del rótulo|La de la letra leída antes: comercial-ok pa la mesa, investigación pa la gaveta del estudio. El oficio — sin pleitos dormidos.
+Paz del rótulo|La de la letra leída antes: comercial-ok pa la mesa, investigación pa la gaveta
+del estudio. El oficio — sin pleitos dormidos.
 
-Biblioteca del barrio|La que el estante público parece: pensares con ficha pa todo oficio. La casa — sacando su carné de lector y leyendo antes de bajar.
+Biblioteca del barrio|La que el estante público parece: pensares con ficha pa todo oficio. La
+casa — sacando su carné de lector y leyendo antes de bajar.
 
-Currículum del pensar|El que la ficha arma: forja, faena, letra, prueba del barrio. La contratación del pensa — como la de la gente seria.
+Currículum del pensar|El que la ficha arma: forja, faena, letra, prueba del barrio. La
+contratación del pensa — como la de la gente seria.
 
-Ficha en la póliza|La de cada pensa de la casa: modelo, origen, faena, letra. El estante de la 61 — con inventario legible en la gira.
+Ficha en la póliza|La de cada pensa de la casa: modelo, origen, faena, letra. El estante de la
+61 — con inventario legible en la gira.
 
-Señal de moda|La que la casa no persigue: el pensa de la semana sin faena que lo pida. El estante — por faena; el ruido — pa otros.
+Señal de moda|La que la casa no persigue: el pensa de la semana sin faena que lo pida. El
+estante — por faena; el ruido — pa otros.
 
 *🗓 EL RITUAL DE SIETE DÍAS (del pensa sin origen al estante con ficha)*
 
-*Día uno — la lectura de la casa.* Esta pieza leída en la mesa (el origen del pensar de tu 61: entendido — la lengua, el estante, la ficha), la despensa pública abierta una vez (el estante del mundo: conocido). El origen: sin misterio.
+*Día uno — la lectura de la casa.* Esta pieza leída en la mesa (el origen del pensar de tu 61:
+entendido — la lengua, el estante, la ficha), la despensa pública abierta una vez (el estante
+del mundo: conocido). El origen: sin misterio.
 
 *Día dos — la ficha del pensa actual.* El modelo que tu 61 corre: su ficha encontrada (forja natal, tarjeta, letra — el árbol genealógico del pensar de la casa), la letra verificada (¿sirve pa tu mesa?: la vara del rótulo). El pensa de la casa: con acta.
 
 *Día tres — la prueba del currículum.* Diez preguntas reales del oficio al pensa actual (la faena de la casa: examinada), la nota honesta (¿contratado o en prueba?: la vara del barrio), la observación de la comunidad leída. El pensa: con nota.
 
-*Día cuatro — la gira del estante.* El inventario completo (qué pensares en el disco: modelo, uso, gigas), el desmontaje con visto (los sin uso: fuera, anotados en la póliza), el espacio medido. El estante: taller.
+*Día cuatro — la gira del estante.* El inventario completo (qué pensares en el disco: modelo,
+uso, gigas), el desmontaje con visto (los sin uso: fuera, anotados en la póliza), el espacio
+medido. El estante: taller.
 
 *Día cinco — el pensa de faena (si toca).* Si la gira encontró faena sin pensa (la del español, la del tamaño: la ficha filtrando), el nuevo bajando CON ficha (estante público, tarjeta leída, letra verificada), la prueba del oficio (diez preguntas: otra vez). El estante: por faena.
 
-*Día seis — la póliza del pensar.* Los pesos de la casa en el respaldo (dos discos: la póliza del estante), la lista de fichas en la página del taller (el inventario documentado), la gira sumada. El pensar: con póliza.
+*Día seis — la póliza del pensar.* Los pesos de la casa en el respaldo (dos discos: la póliza
+del estante), la lista de fichas en la página del taller (el inventario documentado), la gira
+sumada. El pensar: con póliza.
 
 *Día siete — la casa en el mapa.* La página del taller: la sección del origen (la lengua, el estante, las fichas: documentadas), la fila completa en el diagrama (61-68: pensar, mostrar, hacer, faenar, acompañar, caminar, decidir — NACER), y la gira sumada. El origen del pensar: oficial — la casa, con árbol genealógico.
 
-*La regla de la despensa:* ningún pensa sin ficha, un pensa por faena, la letra del tarro respetada — y el estante: girado, jamás de museo.
+*La regla de la despensa:* ningún pensa sin ficha, un pensa por faena, la letra del tarro
+respetada — y el estante: girado, jamás de museo.
 
 *📎 LOS APÉNDICES DEL ORIGEN (lo que queda de la noche)*
 
 Apéndice A — el mapa del origen, al corte.
 
-La fila 61-70 con su ciclo completo: la mente (61) corre, la casa (esta) DEFINE, la cara (62) muestra, las manos (63) hacen, la aprendiz (64) faena, la compañera (65) acompaña, el bolsillo (66) camina, la raíz (67) decide — y el estante entero conectado: la cocina corriendo lo que la casa nació, la aprendiz hablando la lengua, el estante de la casa girado con fichas.
+La fila 61-70 con su ciclo completo: la mente (61) corre, la casa (esta) DEFINE, la cara (62)
+muestra, las manos (63) hacen, la aprendiz (64) faena, la compañera (65) acompaña, el bolsillo
+(66) camina, la raíz (67) decide — y el estante entero conectado: la cocina corriendo lo que la
+casa nació, la aprendiz hablando la lengua, el estante de la casa girado con fichas.
 
 La fila de la IA propia: CON FUNDACIÓN — el pensar, con árbol genealógico.
 
-Apéndice B — las cinco preguntas del mostrador, en una línea. ¿Qué hace? Define en lengua común cada pensa que tu casa corre. ¿Qué no hace? No se instala en tu sofá (es el origen, no otro programa). ¿Cuánto cuesta? Nada — la letra Apache: el idioma del pensar, gratis pa siempre. ¿Cuánto tarda? Una lectura: la pieza se lee, no se monta. ¿Y si la forja desaparece?
+Apéndice B — las cinco preguntas del mostrador, en una línea. ¿Qué hace?
+
+Define en lengua común cada pensa que tu casa corre. ¿Qué no hace?
+
+No se instala en tu sofá (es el origen, no otro programa). ¿Cuánto cuesta?
+
+Nada — la letra Apache: el idioma del pensar, gratis pa siempre. ¿Cuánto tarda?
+
+Una lectura: la pieza se lee, no se monta. ¿Y si la forja desaparece?
 
 Tu disco conserva los pensares, la letra queda, el estante: con herederos.
 
-Apéndice C — la página en blanco. La que la forja deja abierta a propósito: ¿sabes QUÉ pensa corre tu casa — y de qué forja nació? Esa respuesta — la tuya, fechada — vale más que 167.766 estrellas: es la vara midiendo si tu pensar tiene árbol. La obra no termina en la lectura: termina cuando el pensa de la casa, tiene ficha.
+Apéndice C — la página en blanco. La que la forja deja abierta a propósito: ¿sabes QUÉ pensa
+corre tu casa — y de qué forja nació?
 
-Apéndice D — la sala de los errores. Las tres fallas posibles y su salida. Si la ficha no se encuentra (el pensa de la 61 sin forja clara): la tarjeta de la despensa de la cocina (la ficha del formato: el árbol completo) y la decisión en frío (pensar con árbol o cambiar de pensa).
+Esa respuesta — la tuya, fechada — vale más que 167.766 estrellas: es la vara midiendo si tu
+pensar tiene árbol. La obra no termina en la lectura: termina cuando el pensa de la casa, tiene
+ficha.
+
+Apéndice D — la sala de los errores. Las tres fallas posibles y su salida.
+
+Si la ficha no se encuentra (el pensa de la 61 sin forja clara): la tarjeta de la despensa de la
+cocina (la ficha del formato: el árbol completo) y la decisión en frío (pensar con árbol o
+cambiar de pensa).
 
 Si el pensa nuevo defrauda (la ficha prometía de más): la prueba de diez preguntas lo firma (el currículum: no aprobado) y el pensa anterior: restablecido desde la póliza. Si el disco no da abasto (el estante con hambre de gigas): la gira de la regla dos (los sin uso: desmontados con visto) y el pensa cuantizado (el formato chico de la casa: la misma receta, servida liviana).
 
-Apéndice E — la fila que viene. La 69 firma el taller de entrenar fino (la forja del sazón: la del censo que afila las recetas — la fila que enseña); la fila completa 61-70 firma la IA propia al completo. La casa no improvisa: lee su origen. Y la noche firma: la casa de los pensares — el nacimiento, con ficha.
+Apéndice E — la fila que viene. La 69 firma el taller de entrenar fino (la forja del sazón: la
+del censo que afila las recetas — la fila que enseña); la fila completa 61-70 firma la IA propia
+al completo.
+
+La casa no improvisa: lee su origen. Y la noche firma: la casa de los pensares — el nacimiento,
+con ficha.
 
 *🎯 EL MINIQUIZ DEL ORIGEN*
 
@@ -625,35 +995,57 @@ Apéndice E — la fila que viene. La 69 firma el taller de entrenar fino (la fo
 
 REV|.odazortsed nózas le se odarupa odanifa le — airomem ed laer osu ed sem nu :esab atecer aL
 
-REV|.)719.551★( arac al ed amicne ,)874.381★( etnem al sart :)667.761★( osnec led atla sám adnuges aL
+REV|.)719.551★( arac al ed amicne ,)874.381★( etnem al sart :)667.761★( osnec led atla sám
+adnuges aL
 
-REV|.oicogen led ajac al ne sámaj ,nóicagitsevni ed artel al — etnelaviuqe us o ko-laicremoc :orrat led artel aL
+REV|.oicogen led ajac al ne sámaj ,nóicagitsevni ed artel al — etnelaviuqe us o ko-laicremoc
+:orrat led artel aL
 
 REV|.atsinoicceloc led apmart al ,oesum ed etnatse le :lausnem arig noc — aneaf rop asnep NU
 
-REV|.arreic es atreup al ,ahcif nis :ocigólaeneg lobrá le — acilbúp artel y atsenoh atejrat ,latan ajroF
+REV|.arreic es atreup al ,ahcif nis :ocigólaeneg lobrá le — acilbúp artel y atsenoh atejrat
+,latan ajroF
 
 *💌 LAS CARTAS AL LECTOR*
 
-*PRIMERA CARTA — al que corre un pensa sin saber cuál.* El que su 61 conversa desde hace meses y jamás preguntó el origen (el modelo: «el que venía» — la casa pensando con un extraño sin papeles): la vara de esta pieza es tu pensa por dentro — su ficha encontrada (forja, tarjeta, letra: el árbol genealógico en una tarde), la letra verificada pa tu mesa, la nota del currículum.
+*PRIMERA CARTA — al que corre un pensa sin saber cuál.* El que su 61 conversa desde hace meses y
+jamás preguntó el origen (el modelo: «el que venía» — la casa pensando con un extraño sin
+papeles): la vara de esta pieza es tu pensa por dentro — su ficha encontrada (forja, tarjeta,
+letra: el árbol genealógico en una tarde), la letra verificada pa tu mesa, la nota del
+currículum.
 
 Tu pensar: con papeles — y la casa: sabiendo a quién le habla.
 
-*SEGUNDA CARTA — al que el mundo de los modelos le abruma.* El que ve las noticias (un pensa nuevo cada semana, cada uno «revolucionario»: la marea del hype) y no sabe por dónde: la vara fina del bloque te da el timón.
+*SEGUNDA CARTA — al que el mundo de los modelos le abruma.* El que ve las noticias (un pensa
+nuevo cada semana, cada uno «revolucionario»: la marea del hype) y no sabe por dónde: la vara
+fina del bloque te da el timón.
 
 La regla dos: TÚ no persigues la marea (un pensa por faena: la ficha de TU oficio decide — español, tamaño, letra), y de paso la vara mayor: el pensa estable vale más que el de moda (el que tus mesas ya conocen: contratado). La marea: pa los marketers — tu estante: por faena.
 
-*TERCERA CARTA — al que quiere su pensa propio (el sazón).* El que su oficio merece un pensa que hable como él (el barbero, la doctora, el colmadero: el pensa genérico contestando genérico): la vara honesta del bloque te abre la puerta LENTAMENTE.
+*TERCERA CARTA — al que quiere su pensa propio (el sazón).* El que su oficio merece un pensa que
+hable como él (el barbero, la doctora, el colmadero: el pensa genérico contestando genérico): la
+vara honesta del bloque te abre la puerta LENTAMENTE.
 
-Primero, la receta base de memoria (un mes de uso: los problemas de verdad, anotados), luego cien ejemplos buenos (la data limpia del taller). El afinado fino: con la pareja del sazón (la aprendiz 64 preparando, la forja de entrenar afilando). La obra final: el pensa de tu oficio — pa el cocinero que ya prueba. El sazón: pa su tiempo.
+Primero, la receta base de memoria (un mes de uso: los problemas de verdad, anotados), luego cien ejemplos buenos (la data limpia del taller). El afinado fino: con la pareja del sazón (la aprendiz 64 preparando, la forja de entrenar afilando).
+
+La obra final: el pensa de tu oficio — pa el cocinero que ya prueba. El sazón: pa su tiempo.
 
 *🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
 
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el pensar también tiene fundación — transformers ★167.766 (pulso 16-oct-2026), la segunda placa del censo entero, ocho años de oficio con su letra Apache: la casa donde nace lo que tu caja piensa.
+Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el pensar también
+tiene fundación — transformers ★167.766 (pulso 16-oct-2026), la segunda placa del censo entero,
+ocho años de oficio con su letra Apache: la casa donde nace lo que tu caja piensa.
 
-La forja lo midió con el pulso de HOY y lo firma: la lengua común del pensar (el idioma del estante libre), la ficha antes de la descarga (forja, tarjeta, letra), un pensa por faena (el estante: taller, jamás museo) — y la regla cosida: el sazón es faena seria.
+La forja lo midió con el pulso de HOY y lo firma: la lengua común del pensar (el idioma del
+estante libre), la ficha antes de la descarga (forja, tarjeta, letra), un pensa por faena (el
+estante: taller, jamás museo) — y la regla cosida: el sazón es faena seria.
 
-Lee la ficha de tu pensa. Examina su currículum. Gira tu estante. Y cuando la tienda te ofrezca magia sin receta, recuerda: tu casa contrata su pensar con papeles — porque lo que piensa pa ti, presenta ficha. Eso no lo firma el oráculo: se firma Apache, y nace en la casa.
+Lee la ficha de tu pensa. Examina su currículum.
+
+Gira tu estante. Y cuando la tienda te ofrezca magia sin receta, recuerda: tu casa contrata su
+pensar con papeles — porque lo que piensa pa ti, presenta ficha.
+
+Eso no lo firma el oráculo: se firma Apache, y nace en la casa.
 
 ───────────────────
 
@@ -663,11 +1055,15 @@ Lee la ficha de tu pensa. Examina su currículum. Gira tu estante. Y cuando la t
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 68).*
 
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 2 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
+pieza: 2 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
+texto; esta nota solo añade el estado medido hoy.
 
-Actividad medida hoy: 2 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+Actividad medida hoy: 2 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0
+dormidos · 0 archivados.
 
-Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
+(verificado 29-oct-2026).
 
 *Placas de control (selección por actividad reciente y juventud, no por fama):*
 
@@ -675,6 +1071,9 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
 
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.

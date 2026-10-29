@@ -34,7 +34,8 @@ Archivar no es morir cuando hay heredero en faena, y hoy las sucesiones del barr
 
 **1.** Padre archivado = museo honesto: se visita para aprender, no para mudarse.
 
-**2.** El heredero se verifica en SU puerta (su estrella, su fecha, su licencia), no en la nostalgia del padre.
+**2.** El heredero se verifica en SU puerta (su estrella, su fecha, su licencia), no en la
+nostalgia del padre.
 
 **3.** Sucesión sin heredero vivo se declara hueco: mejor hueco confesado que fantasma recomendado.
 
@@ -44,8 +45,11 @@ La obra que firma sucesiones nunca deja al lector abrazado a un repo cerrado.
 
 ## El meme de la pieza
 
-> —Cerró mi app de siempre. —No cerró tu oficio: tu heredero empujó hoy y ya trae tu biblioteca en la mano.
+> —Cerró mi app de siempre. —No cerró tu oficio: tu heredero empujó hoy y ya trae tu biblioteca
+en la mano.
 
-> La Bandita verifica antes de recomendar: pieza 118 del muro, nacida el 29 de octubre de 2026 con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 118 del muro, nacida el 29 de octubre de 2026
+con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se firma con actividad y licencia, no con aplauso.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
+firma con actividad y licencia, no con aplauso.

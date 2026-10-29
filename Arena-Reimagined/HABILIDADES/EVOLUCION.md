@@ -1,4 +1,4 @@
-# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.6
+# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.7
 
 Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.py` y la versión sube sola. Una habilidad que no aprende es un papel; esta casa aprende.
 
@@ -15,3 +15,5 @@ Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.
 - **v1.5 (2026-10-29)** · L-11: Del paquete manda el ZIP verificado: la carpeta se restaura DESDE el ZIP. Y la verificación tras push se hace por blobs del árbol remoto, sin segunda clonación que la red pueda tumbar
 
 - **v1.6 (2026-10-29)** · L-12: Toda pieza de Facebook pasa el formato respirable (mapa en dos líneas, placa por bloque, licencia en su línea) y la reorganización se prueba con secuencia de palabras idéntica: cero falsos positivos
+
+- **v1.7 (2026-10-29)** · L-13: Antes de reorganizar se investiga la plataforma (párrafos 1-3 frases, un blanco entre ideas, móvil manda) y se mide el antes/después: la respirabilidad se demuestra con cifras de párrafos y líneas, no con adjetivos

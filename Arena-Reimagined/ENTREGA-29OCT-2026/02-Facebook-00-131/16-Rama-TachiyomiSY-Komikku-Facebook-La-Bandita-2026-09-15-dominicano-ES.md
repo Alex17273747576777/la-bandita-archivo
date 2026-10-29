@@ -1,4 +1,5 @@
-# Publicación 16 — Rama SY/Komikku: el fork clásico y el rehijo con organización — TachiyomiSY y Komikku
+# Publicación 16 — Rama SY/Komikku: el fork clásico y el rehijo con organización — TachiyomiSY y
+Komikku
 
 **La Bandita · 15 de septiembre de 2026**
 
@@ -27,7 +28,8 @@ Komikku           ★4.717   v1.14.1 (17-jul)  push 11-sep   el rehijo
 komikku-preview   ★248     canal de pruebas  push 10-sep
 ```
 
-Son los dos grandes vivos del estilo SY del ecosistema — y la comparación entre ellos es la lección sobre cómo un fork se convierte en proyecto con vida propia.
+Son los dos grandes vivos del estilo SY del ecosistema — y la comparación entre ellos es la
+lección sobre cómo un fork se convierte en proyecto con vida propia.
 
 ## 🌳 El árbol de esta rama
 
@@ -40,7 +42,9 @@ TachiyomiSY (jobobby04)      el clásico vivo
                └── (su rama tiene pieza propia en esta colección)
 ```
 
-Detalle técnico que se lee en la API: Komikku NO figura como fork (es un repo nuevo); su linaje lo declara su propia documentación. Es la diferencia entre el grafo de GitHub y la realidad — por eso se leen los dos.
+Detalle técnico que se lee en la API: Komikku NO figura como fork (es un repo nuevo); su linaje
+lo declara su propia documentación. Es la diferencia entre el grafo de GitHub y la realidad —
+por eso se leen los dos.
 
 ## 📗 TachiyomiSY — el clásico que sigue
 
@@ -56,11 +60,15 @@ Qué es:       el fork clásico: el lector del tronco
               de lectura, la experiencia "completa")
 ```
 
-SY es el fork con más historia continua del ecosistema: existía antes del cierre del original, sobrevivió a enero de 2024 y sigue empujando código — lo hizo el 13-sep, constancia de su verificación. Su ritmo no es el de releases mensuales: su última estable es de julio y su código se mueve desde entonces. El patrón del veterano: menos ruido de versiones, más mantenimiento silencioso.
+SY es el fork con más historia continua del ecosistema: existía antes del cierre del original, sobrevivió a enero de 2024 y sigue empujando código — lo hizo el 13-sep, constancia de su verificación. Su ritmo no es el de releases mensuales: su última estable es de julio y su código se mueve desde entonces.
 
-Su aviso de identidad: **el SY vivo es jobobby04** — el día que busques SY, instala desde su repo, el que empuja código de ayer. El nombre no basta; el dueño sí.
+El patrón del veterano: menos ruido de versiones, más mantenimiento silencioso.
 
-Su host de builds de prueba: jobobby04/TachiyomiSYPreview (★484) — versiones experimentales para curiosos y reporteros de bugs, no la vía del día a día.
+Su aviso de identidad: **el SY vivo es jobobby04** — el día que busques SY, instala desde su
+repo, el que empuja código de ayer. El nombre no basta; el dueño sí.
+
+Su host de builds de prueba: jobobby04/TachiyomiSYPreview (★484) — versiones experimentales para
+curiosos y reporteros de bugs, no la vía del día a día.
 
 ## 📘 Komikku — el rehijo con organización
 
@@ -80,7 +88,9 @@ Qué es:       lector manga del linaje SY que nació
 
 Komikku es el caso de estudio de cómo un fork se vuelve institución: heredó el código del linaje, nació con casa propia, y construyó estructura — org, canal de previews, proyecto hermano de anime, comunidad de traducción. Sus versiones van por cadencia regular (1.14.1 en julio, con rama de desarrollo empujando desde entonces).
 
-En estrellas ya supera al SY clásico (4.717 vs 4.143). Eso no es veredicto de calidad — es un dato de comunidad. Lo que sí es veredicto verificable: su taller se mueve (push del 11-sep) y su infraestructura es la más completa de esta rama.
+En estrellas ya supera al SY clásico (4.717 vs 4.143). Eso no es veredicto de calidad — es un
+dato de comunidad. Lo que sí es veredicto verificable: su taller se mueve (push del 11-sep) y su
+infraestructura es la más completa de esta rama.
 
 ## 🔀 Las dos escuelas de fork (y el contraejemplo)
 
@@ -103,7 +113,9 @@ en estructura.
 
 ## 🌲 La red completa de forks (revisada el 14-sep)
 
-Se abrieron el 14-sep, fork por fork, las redes de SY (238 forks, tres páginas, dos órdenes) y de Komikku (200 forks). Es la red más rica del ecosistema — y la que mejor muestra la diferencia entre copiar y aportar:
+Se abrieron el 14-sep, fork por fork, las redes de SY (238 forks, tres páginas, dos órdenes) y
+de Komikku (200 forks). Es la red más rica del ecosistema — y la que mejor muestra la diferencia
+entre copiar y aportar:
 
 **En la red de SY:**
 
@@ -130,7 +142,8 @@ desktop en obras · el fork del equipo SyncYomi
 **En la red de Komikku:**
 
 ```
-Houri (PineappleTwilight)  ★10 · v1.22.1 (HOY 15-sep) *(la v1.22.0 salió el 14 — dos días seguidos: la cadencia sigue)*
+Houri (PineappleTwilight)  ★10 · v1.22.1 (HOY 15-sep) *(la v1.22.0 salió el 14 — dos días
+seguidos: la cadencia sigue)*
    el fork con propuesta propia más activo:
    soporte de RELECTURA con trackers conectados
    (rereads por manga), Discord RPC mejorado que
@@ -146,36 +159,18 @@ marcadores de página · kokomikku (KOReader) ·
 un fork con tracker propio · komikku2 (13-sep)
 ```
 
-El dato fino: el autor de Houri mantiene también un fork de Anikku (anikku-pineapple) — un solo dev tejiendo entre las dos ramas de la casa Komikku.
+El dato fino: el autor de Houri mantiene también un fork de Anikku (anikku-pineapple) — un solo
+dev tejiendo entre las dos ramas de la casa Komikku.
 
 **La capa que el grafo esconde (cinco casas verificadas el 14-sep a petición de los grupos)**
 
-Estos cinco NO aparecen en la red de forks directa de SY ni de Komikku: son forks rebasados con casa nueva, o nietos — invisibles para el grafo del padre. Se abrieron uno a uno, con sus opciones propias leídas de sus README:
+Estos cinco NO aparecen en la red de forks directa de SY ni de Komikku: son forks rebasados con
+casa nueva, o nietos — invisibles para el grafo del padre. Se abrieron uno a uno, con sus
+opciones propias leídas de sus README:
 
-```
-ShinKu (Harrys-HQ)         ★31 · v2.6.9 (13-sep)
-   «fork modernizado y rebautizado de
-   TachiyomiSY/Mihon» — cadencia semanal.
-   Lo suyo: búsqueda en lenguaje natural con
-   descubrimiento asistido («Vibe Search» y
-   «For You»), tarjeta de estadísticas de
-   lectura, audio ambiental que casa con el
-   género, interfaz que muda de color con la
-   portada, categorizador automático, escáner
-   de fuentes muertas para migrar tu manga, y
-   menú para migrar las actualizaciones
-   fallidas.
+``` ShinKu (Harrys-HQ) ★31 · v2.6.9 (13-sep) «fork modernizado y rebautizado de TachiyomiSY/Mihon» — cadencia semanal. Lo suyo: búsqueda en lenguaje natural con descubrimiento asistido («Vibe Search» y «For You»), tarjeta de estadísticas de lectura, audio ambiental que casa con el género, interfaz que muda de color con la portada, categorizador automático, escáner de fuentes muertas para migrar tu manga, y menú para migrar las actualizaciones fallidas.
 
-MihonSY (ruzhe85)          ★13 · v1.0.7 (22-ago)
-   fork chino de SY (su README viene en chino).
-   Lo suyo: scroll por toque en webtoon con
-   distancia ajustable (½, ¾ o pantalla
-   completa) y animación regulable, detección
-   automática de webtoon por resolución de la
-   imagen, progreso Komga sincronizado capítulo
-   a capítulo (no por lotes), mejora de imagen
-   Lanczos3 ligera —sin modelos pesados— y
-   resolución nativa 1:1.
+MihonSY (ruzhe85) ★13 · v1.0.7 (22-ago) fork chino de SY (su README viene en chino). Lo suyo: scroll por toque en webtoon con distancia ajustable (½, ¾ o pantalla completa) y animación regulable, detección automática de webtoon por resolución de la imagen, progreso Komga sincronizado capítulo a capítulo (no por lotes), mejora de imagen Lanczos3 ligera —sin modelos pesados— y resolución nativa 1:1.
 
 Pokomi (pokedo0)           ★11 · v1.0.9 (16-ago)
    fork de Komikku con una idea propia clara:
@@ -199,15 +194,19 @@ bchan (geograms)           ★5 · v1.12.1 (19-jun)
    nombres de archivo planos y predecibles.
 ```
 
-Y la segunda generación también dio lo suyo: **Yomiko** (petalya, ★8, push del 12-sep), hija del fork de Discord-RPC — la cadena no se corta.
+Y la segunda generación también dio lo suyo: **Yomiko** (petalya, ★8, push del 12-sep), hija del
+fork de Discord-RPC — la cadena no se corta.
 
 La lección de método queda en el texto: la lista de forks del padre no muestra a los rebasados ni a los nietos. Mapear el árbol es caminar las cadenas y leer los créditos de cada README — y cuando alguien nombra una casa que no salió en el barrido, el enlace manda.
 
-**La expedición profunda (SY: más de 1.000 miembros · Komikku: 244 · anikku: 71 — todo caminado el 14-sep):** la segunda generación ya compila: **leassapie/houri**, hijo de Houri, con versión propia v1.21.0 (30 de agosto) — la cadena Houri → su hijo, viva. **Yomiko**, la nieta del fork de Discord-RPC — matiz fechado (corregido el 15-sep por auditoría de la casa): la casa mostraba empuje, pero su versión estable (v.1.8.1 — corrección fechada 15-sep por REST y git: release del 25-sep-2025, no ago-2026; y genealogía CERTIFICADA por fork: Yomiko ← SY-Discord-RPC ← TachiyomiSY — línea SY, no J2K). Que la fecha diga lo que la fecha dice. ShinKu, NEXUS, MihonSY, Pokomi y bchan son por ahora hojas: cuando echen raíces, se anotan con fecha.
+**La expedición profunda (SY: más de 1.000 miembros · Komikku: 244 · anikku: 71 — todo caminado el 14-sep):** la segunda generación ya compila: **leassapie/houri**, hijo de Houri, con versión propia v1.21.0 (30 de agosto) — la cadena Houri → su hijo, viva. **Yomiko**, la nieta del fork de Discord-RPC — matiz fechado (corregido el 15-sep por auditoría de la casa): la casa mostraba empuje, pero su versión estable (v.1.8.1 — corrección fechada 15-sep por REST y git: release del 25-sep-2025, no ago-2026; y genealogía CERTIFICADA por fork: Yomiko ← SY-Discord-RPC ← TachiyomiSY — línea SY, no J2K).
+
+Que la fecha diga lo que la fecha dice. ShinKu, NEXUS, MihonSY, Pokomi y bchan son por ahora hojas: cuando echen raíces, se anotan con fecha.
 
 ## 🧩 Las extensiones de esta rama
 
-La rama SY/Komikku es la que más almacenes viven atendiendo. El mapa de la hornada del 14 (su guía completa tiene pieza propia en esta colección):
+La rama SY/Komikku es la que más almacenes viven atendiendo. El mapa de la hornada del 14 (su
+guía completa tiene pieza propia en esta colección):
 
 ```
 Keiyoushi              el hub principal
@@ -234,9 +233,14 @@ El aviso de Keiyoushi sigue siendo la llave del ecosistema: si tu lista de exten
 
 Dos piezas que esta rama comparte con el ecosistema y que conviene conocer:
 
-- **Los hosts de previews** (SYPreview, komikku-preview) son el canal de pruebas de cada proyecto: builds experimentales para quien reporta bugs. Instalarlos es una decisión de tester, no de usuario diario.
-- **tracker-extensions** (komikku-app, ★14): las extensiones de trackers de la casa Komikku — los trackers se sirven aparte del núcleo, como extensiones (verificado el 14-sep). 
-- **SyncYomi** es la sincronización de bibliotecas entre dispositivos y entre forks de la familia — útil exactamente para el gesto de esta guía: si pruebas SY y Komikku, tu progreso puede acompañarte entre ambos. Su ficha completa, en la colección de herramientas de esta serie.
+- **Los hosts de previews** (SYPreview, komikku-preview) son el canal de pruebas de cada
+proyecto: builds experimentales para quien reporta bugs. Instalarlos es una decisión de tester,
+no de usuario diario.
+- **tracker-extensions** (komikku-app, ★14): las extensiones de trackers de la casa Komikku —
+los trackers se sirven aparte del núcleo, como extensiones (verificado el 14-sep).
+- **SyncYomi** es la sincronización de bibliotecas entre dispositivos y entre forks de la
+familia — útil exactamente para el gesto de esta guía: si pruebas SY y Komikku, tu progreso
+puede acompañarte entre ambos. Su ficha completa, en la colección de herramientas de esta serie.
 
 ## ⚖️ SY o Komikku: cómo decidir con criterio
 
@@ -251,73 +255,93 @@ Estructura           si valoras org, canal de previews,
                      proyecto hermano de anime y
                      cadencia de releases: Komikku.
 
-Compatibilidad       los dos leen los mismos almacenes
-                     principales (Keiyoushi lo declara
-                     para ambos). El criterio de desempate
-                     no está en las fuentes: está en el
-                     uso que le vayas a dar.
+Compatibilidad los dos leen los mismos almacenes principales (Keiyoushi lo declara para ambos). El criterio de desempate no está en las fuentes: está en el uso que le vayas a dar.
 
 Madurez              los dos empujaron esta semana.
                      Ninguno pasa la puerta con las
                      manos en los bolsillos.
 ```
 
-El resto es gusto personal — y el uso real: quien lo usa y lo comprueba. Las estrellas (4.717 vs 4.143) son el dato de fama del día, no una recomendación.
+El resto es gusto personal — y el uso real: quien lo usa y lo comprueba. Las estrellas (4.717 vs
+4.143) son el dato de fama del día, no una recomendación.
 
 ## ❓ Preguntas frecuentes
 
 **¿SY y Komikku son el mismo código?**
-Comparten linaje, no repo ni dueño. La API no declara a Komikku como fork; su propia documentación cuenta de dónde viene. Parentela declarada, casas separadas.
+Comparten linaje, no repo ni dueño. La API no declara a Komikku como fork; su propia
+documentación cuenta de dónde viene. Parentela declarada, casas separadas.
 
 **¿Cuál tiene más fuentes?**
-Las fuentes viven en los almacenes (Keiyoushi, Yūzōnō…), no en la app — y los almacenes principales declaran soporte para ambos. El desempate real está en la app que mejor te quepa en la mano.
+Las fuentes viven en los almacenes (Keiyoushi, Yūzōnō…), no en la app — y los almacenes
+principales declaran soporte para ambos. El desempate real está en la app que mejor te quepa en
+la mano.
 
 **¿Y los repos con el mismo letrero que ya no se mueven?**
-No se anotan: el mapa es de lo vivo. La regla práctica: instala SY desde el repo de jobobby04 — y nadie más.
+No se anotan: el mapa es de lo vivo. La regla práctica: instala SY desde el repo de jobobby04 —
+y nadie más.
 
-**¿Y los repos que se anuncian como «el lector de 2026»?**
-En el escaneo del 14-sep apareció otra camada del patrón ya conocido: repos nuevos con nombres de proyectos serios — un «komikku-scans», un «Neko-Manga-Pearl» que toma prestado el nombre del fork real de MangaDex, un «kumo-surreal» que se dice Mihon optimizado — creados los tres el mismo día, con estrellas casi idénticas entre sí y el año «2026» en la descripción. La camada crece mientras tanto: un «weeb-index» («Best Otaku Directory 2026») y un «manga-zen-reader» («Best Alternatives 2026») repiten el traje con las mismas estrellas de mentira. Se nombran sin enlazar: es SEO para cosechar descargas de quien busca rápido. El proyecto real no necesita ponerle el año al nombre.
+**¿Y los repos que se anuncian como «el lector de 2026»?** En el escaneo del 14-sep apareció otra camada del patrón ya conocido: repos nuevos con nombres de proyectos serios — un «komikku-scans», un «Neko-Manga-Pearl» que toma prestado el nombre del fork real de MangaDex, un «kumo-surreal» que se dice Mihon optimizado — creados los tres el mismo día, con estrellas casi idénticas entre sí y el año «2026» en la descripción. La camada crece mientras tanto: un «weeb-index» («Best Otaku Directory 2026») y un «manga-zen-reader» («Best Alternatives 2026») repiten el traje con las mismas estrellas de mentira.
 
-**¿Y forks con nombres que suenan japonés que menciona la gente (tipo «ShinKu»)?**
-Fichados arriba, con fecha: ShinKu existe (★31, v2.6.9 con cadencia semanal, del linaje SY/Mihon) — en el repaso anterior no apareció porque los forks rebasados y los nietos no salen en la red de forks del padre. Dos reglas quedan para el lector: un nombre sin enlace no se verifica ni se descarta — y el enlace, siempre, cierra el caso.
+Se nombran sin enlazar: es SEO para cosechar descargas de quien busca rápido. El proyecto real no necesita ponerle el año al nombre.
+
+**¿Y forks con nombres que suenan japonés que menciona la gente (tipo «ShinKu»)?** Fichados arriba, con fecha: ShinKu existe (★31, v2.6.9 con cadencia semanal, del linaje SY/Mihon) — en el repaso anterior no apareció porque los forks rebasados y los nietos no salen en la red de forks del padre. Dos reglas quedan para el lector: un nombre sin enlace no se verifica ni se descarta — y el enlace, siempre, cierra el caso.
 
 **¿Komikku salió de SY o de Tachiyomi?**
-Su documentación declara el linaje del ecosistema; el grafo de GitHub lo muestra como repo nuevo. Ambas cosas son ciertas: herencia declarada, casa propia.
+Su documentación declara el linaje del ecosistema; el grafo de GitHub lo muestra como repo
+nuevo. Ambas cosas son ciertas: herencia declarada, casa propia.
 
 **¿Puedo tener los dos instalados?**
-Técnicamente sí (paquetes distintos). La pregunta útil es la de siempre: ¿qué aporta el segundo que el primero no cubra? Si la respuesta es «nada», un lector basta.
+Técnicamente sí (paquetes distintos). La pregunta útil es la de siempre: ¿qué aporta el segundo
+que el primero no cubra? Si la respuesta es «nada», un lector basta.
 
 **¿Y Anikku?**
-Es el cliente de anime de la organización Komikku — tiene su propia guía en esta colección (rama anime puro). La familia se extiende: manga (Komikku), anime (Anikku), y el rebautizado AniZen en su rama aparte.
+Es el cliente de anime de la organización Komikku — tiene su propia guía en esta colección (rama
+anime puro). La familia se extiende: manga (Komikku), anime (Anikku), y el rebautizado AniZen en
+su rama aparte.
 
 **¿Cuál sacó versión más reciente?**
-Ninguna de las dos en septiembre: SY 1.13.2 y Komikku 1.14.1 son de julio — con código de ambas moviéndose este mes. El push no retaguea: el release se abre el día que se instala.
+Ninguna de las dos en septiembre: SY 1.13.2 y Komikku 1.14.1 son de julio — con código de ambas
+moviéndose este mes. El push no retaguea: el release se abre el día que se instala.
 
 ## 🔗 Enlaces
 
-- TachiyomiSY: https://github.com/jobobby04/TachiyomiSY · https://github.com/jobobby04/TachiyomiSYPreview
+- TachiyomiSY: https://github.com/jobobby04/TachiyomiSY ·
+https://github.com/jobobby04/TachiyomiSYPreview
 - Komikku: https://github.com/komikku-app/komikku · https://github.com/komikku-app/komikku-preview
-- Destacados de la red: https://github.com/PineappleTwilight/houri · https://github.com/Smol-Ame/Chai · https://github.com/jeryjs/TachiyomiSY-with-discord-RPC · https://github.com/Viel0320/komikku_img_upscale · https://github.com/nas3ts/mikku
-- La capa que el grafo esconde: https://github.com/Harrys-HQ/ShinKu · https://github.com/ruzhe85/MihonSY · https://github.com/pokedo0/Pokomi · https://github.com/the-nexus-app/NEXUS · https://github.com/geograms/bchan
-- Almacenes de la rama: https://github.com/keiyoushi/extensions · https://github.com/yuzono/tachiyomi-extensions · https://github.com/cuong-tran/manga-repo
+- Destacados de la red: https://github.com/PineappleTwilight/houri ·
+https://github.com/Smol-Ame/Chai · https://github.com/jeryjs/TachiyomiSY-with-discord-RPC ·
+https://github.com/Viel0320/komikku_img_upscale · https://github.com/nas3ts/mikku
+- La capa que el grafo esconde: https://github.com/Harrys-HQ/ShinKu ·
+https://github.com/ruzhe85/MihonSY · https://github.com/pokedo0/Pokomi ·
+https://github.com/the-nexus-app/NEXUS · https://github.com/geograms/bchan
+- Almacenes de la rama: https://github.com/keiyoushi/extensions ·
+https://github.com/yuzono/tachiyomi-extensions · https://github.com/cuong-tran/manga-repo
 - Sincronización: https://github.com/syncyomi/syncyomi
-- Guías hermanas: extensiones (pieza 04) · forks del tronco (pieza 06) · anime puro (pieza 14) de esta colección
+- Guías hermanas: extensiones (pieza 04) · forks del tronco (pieza 06) · anime puro (pieza 14)
+de esta colección
 
-> La Bandita informa a partir de fuentes fechadas. Dos escuelas, un mismo linaje — y el letrero, ya sabes, no instala nada.
+> La Bandita informa a partir de fuentes fechadas. Dos escuelas, un mismo linaje — y el letrero,
+ya sabes, no instala nada.
 
 ---
 
-**Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: Houri v1.22.1 de HOY, manga-repo ★445, SY/Komikku re-contados. Lo no mencionado queda constado a su día (14-sep). Acta completa: Registro #71.
+**Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: Houri v1.22.1 de HOY, manga-repo ★445, SY/Komikku re-contados. Lo no mencionado queda constado a su día (14-sep).
+
+Acta completa: Registro #71.
 
 ───────────────────
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 16).*
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 18 repos GitHub confirmados y 20 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 18
+repos GitHub confirmados y 20 apariciones de URL. La historia no se reescribe; esta nota añade
+el estado medido hoy.
 
-Actividad medida hoy: 5 hoy · 5 en 7 días · 5 en 30 días · 3 en 180 días · 0 dormidos · 0 archivados.
+Actividad medida hoy: 5 hoy · 5 en 7 días · 5 en 30 días · 3 en 180 días · 0 dormidos · 0
+archivados.
 
-Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta
+publicación (verificado 29-oct-2026).
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
@@ -349,8 +373,10 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 · sin licencia declarada
 · release Repository Update dbf6c05 (2026-10-29).
 
-Licencias sin resolver hoy (3): `cuong-tran/manga-repo`, `jobobby04/tachiyomisypreview`, `keiyoushi/extensions`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+Licencias sin resolver hoy (3): `cuong-tran/manga-repo`, `jobobby04/tachiyomisypreview`,
+`keiyoushi/extensions`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 
 Enlaces web: 20 apariciones; 20 respondieron vivas el 29-oct-2026.
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
+el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

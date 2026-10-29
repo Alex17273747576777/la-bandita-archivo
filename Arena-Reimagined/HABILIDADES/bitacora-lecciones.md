@@ -60,3 +60,8 @@ _Cada lección costó tiempo real. Leerla antes de trabajar ahorra el próximo t
 - **Contexto:** Publicación real en el compositor de Facebook (29-oct)
 - **Fallo/experiencia:** El contenido verificado pegado en Facebook se veía como una pared: mapas mentales de una línea por familia y placas con todo en una sola línea nadie las puede leer en el móvil
 - **Regla que queda:** Toda pieza de Facebook pasa el formato respirable (mapa en dos líneas, placa por bloque, licencia en su línea) y la reorganización se prueba con secuencia de palabras idéntica: cero falsos positivos
+
+## L-13 · 2026-10-29
+- **Contexto:** Reorganización respirable v3 (29-oct)
+- **Fallo/experiencia:** La v2 dio aire entre bloques pero dejó párrafos largos y líneas eternas: en el móvil seguía siendo pared; y la dueña enseñó la captura en el compositor como prueba
+- **Regla que queda:** Antes de reorganizar se investiga la plataforma (párrafos 1-3 frases, un blanco entre ideas, móvil manda) y se mide el antes/después: la respirabilidad se demuestra con cifras de párrafos y líneas, no con adjetivos

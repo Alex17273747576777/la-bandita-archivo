@@ -17,7 +17,8 @@ MMRL es el estante donde los módulos del root se ven, se ordenan y se instalan 
 
 **1.** El zip se baja de SU forja y SU release, jamás del canal del zip “premium”.
 
-**2.** Un módulo por vez y un día entero de prueba: el culpable se encuentra porque la libreta sabe quién entró.
+**2.** Un módulo por vez y un día entero de prueba: el culpable se encuentra porque la libreta
+sabe quién entró.
 
 **3.** La salida de emergencia (modo seguro) se ensaya antes de necesitarla.
 
@@ -27,12 +28,17 @@ La versión larga vive en WhatsApp 83 con su recorrido completo, y en este muro 
 
 ## ⚖ La vara
 
-En el root, la prisa es la única vulnerabilidad que no parchea nadie: el estante ordena para que la mano no tiemble.
+En el root, la prisa es la única vulnerabilidad que no parchea nadie: el estante ordena para que
+la mano no tiemble.
 
 ## El meme de la pieza
 
-> —Instalé doce módulos de golpe y ahora no arranca. —El estante te lo advirtió: de a uno, con fecha y con libreta.
+> —Instalé doce módulos de golpe y ahora no arranca. —El estante te lo advirtió: de a uno, con
+fecha y con libreta.
 
-> La Bandita verifica antes de recomendar: pieza 83 del muro, nacida el 29 de octubre de 2026 desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas mandan.
+> La Bandita verifica antes de recomendar: pieza 83 del muro, nacida el 29 de octubre de 2026
+desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
+mandan.
 
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
+primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
