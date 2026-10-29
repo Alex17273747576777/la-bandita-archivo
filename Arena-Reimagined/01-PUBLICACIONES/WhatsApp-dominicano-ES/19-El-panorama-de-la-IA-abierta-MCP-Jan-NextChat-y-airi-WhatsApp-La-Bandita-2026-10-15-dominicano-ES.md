@@ -755,3 +755,29 @@ Primer mandato — «los modelos se beben mi memoria». Chico primero, siempre (
 Cuarto — «yo decido qué talla vivo»: si el modelo chico te sirve, el grande puede esperar. El cuaderno manda, no la moda. La casa traduce los cuatro: en la ciudad de la IA, el habitante que escucha su hierro nunca compra miedo. *🪢 GUÍA DE LECTURA RÁPIDA (los cinco minutos)*
 
 Si solo tienes cinco minutos: el ⚡ (el respiro), la tabla 🎧 (la ciudad en una tabla), el cartel 🪧 (las seis reglas) y la tarjeta 📄 (la receta). Con eso puedes instalar tu casa local esta tarde del 15-oct-2026 con vara completa. El resto de la guía es la escuela que te espera cuando el primer modelo piense en tu living.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 19).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 4 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 3 con actividad hoy · 0 en 7 días · 1 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `modelcontextprotocol/modelcontextprotocol` — ★9.559 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
+
+• `modelcontextprotocol/servers` — ★91.665 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v2.2.0 (2026-10-28).
+
+• `moeru-ai/airi` — ★50.878 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.13.1 (2026-10-29).
+
+• `chatgptnextweb/nextchat` — ★88.912 (verificado 29-oct-2026) · última actividad 2026-10-20 · MIT.
+
+Licencias sin resolver hoy (2): `modelcontextprotocol/modelcontextprotocol`, `modelcontextprotocol/servers`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

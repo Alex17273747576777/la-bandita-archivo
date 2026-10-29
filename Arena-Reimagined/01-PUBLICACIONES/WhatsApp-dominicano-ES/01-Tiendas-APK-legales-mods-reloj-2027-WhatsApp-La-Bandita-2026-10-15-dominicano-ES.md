@@ -1086,3 +1086,47 @@ Eso no se olvida: camina contigo a todas las demás guías.
 Casas de tiendas re-pisadas hoy 15-oct por censo de API: Droid-ify (push 12-sep), Neo-Store (1-oct), Accrescent (13-oct), Obtainium (14-oct), y el hallazgo de oficio: el GitHub de Aurora Store se declara ESPEJO del GitLab (casa madre allá; el espejo no es el repo).
 
 Las tiendas Shizuku y Appteka conservan su verificación del 22-sep.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 01).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 13 repos GitHub confirmados y 57 apariciones de URL web. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 4 en 7 días · 5 en 30 días · 2 en 180 días · 2 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `developer-for-git/mod-store` — dormido · última actividad 2026-04-17 · ★6 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+• `rikkaapps/shizuku` — dormido · última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `bikram-agarwal/obtainx` — creado 2026-02-25 · última actividad 2026-10-04 · ★1.555 (verificado 29-oct-2026) · GPL-3.0.
+
+• `carlelieser/yuki` — creado 2026-09-06 · última actividad 2026-10-12 · ★156 (verificado 29-oct-2026) · MIT.
+
+• `komi-store/komi-store` — creado 2025-11-21 · última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026) · Apache-2.0.
+
+• `timschneeb/shizustore` — creado 2026-09-17 · última actividad 2026-10-14 · ★474 (verificado 29-oct-2026) · GPL-3.0.
+
+• `victor-root/omnify` — creado 2026-06-10 · última actividad 2026-10-25 · ★91 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `neoapplications/neo-store` — ★5.568 (verificado 29-oct-2026) · última actividad 2026-10-23 · GPL-3.0 · release Release 1.3.3 (2026-10-23).
+
+• `imranr98/obtainium` — ★21.002 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v1.7.3 (2026-10-25).
+
+• `komi-store/komi-store` — ★20.082 (verificado 29-oct-2026) · última actividad 2026-10-25 · Apache-2.0 · release 🩹 Komi Store 1.9.4 (2026-10-24).
+
+• `victor-root/omnify` — ★91 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v1.0.7-beta.8 (2026-10-25).
+
+Licencias sin resolver hoy (1): `developer-for-git/mod-store`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Espejos oficiales re-verificados hoy: GitLab `AuroraOSS/AuroraStore` con actividad el 29-oct-2026 (★2.278 en GitLab) y Codeberg `droidify/client` actualizado el 23-oct-2026 (43 releases). El espejo no sustituye a la casa madre: se cita cada uno en su host.
+
+Enlaces web: 57 apariciones en esta pieza; todas respondieron vivas el 29-oct-2026 (200 directo o redirección comprobada en navegador). Detalle por URL en el informe de la pasada.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

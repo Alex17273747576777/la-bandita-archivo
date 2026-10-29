@@ -735,3 +735,23 @@ REV|.aterbil al ne atona es y ONU egocse es — )oleuv la sppa etsiv ,desoPSL( o
 REV|.orecret ed aeníl al sámaj · ahcef noc aterbil · abeurp US noc sapac · spiz ed ohcat sámaj )trepXlexiP/97hsavais( laicifo oper :asac al ed salger saL
 
 REV|.onam UT ne nif rop onofélet le — 6202-nuj-12 hsup ,2202-bef-02 odican ,0.3-LPG — )+21 diordnA( lexiP led mor al razilanosrep ap ksigaM+desopX otxim oludóm :trepXlexiP se éuQ
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 85).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 1 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `siavash79/pixelxpert` — ARCHIVADO · última actividad 2026-06-21 · ★2.440 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `siavash79/pixelxpert` — ★2.440 (verificado 29-oct-2026) · última actividad 2026-06-21 · GPL-3.0 · ARCHIVADO.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

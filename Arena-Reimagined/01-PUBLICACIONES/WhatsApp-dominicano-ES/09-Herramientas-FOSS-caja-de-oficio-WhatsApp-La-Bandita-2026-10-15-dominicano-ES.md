@@ -431,3 +431,35 @@ La Bandita informa a partir de fuentes fechadas. Las herramientas que cuidas te 
 #LaBandita #HerramientasFOSS #Fossify #KeePassDX #Aegis #LocalSend #TermuxApp #AppManager #Shizuku #OrganicMaps #Obtainium #Orbot #LecturaVerificada #FuenteFechada #RepublicaDominicana
 
 📝 *RE-CORTE 15-oct-2026 (censo de API).* Las casas de la caja, re-pisadas hoy: App Manager ★9.237 con push del 14-oct · Termux ★62.664 (26-sep) · Obtainium ★20.428 (14-oct) · Shizuku sigue sin push desde 18-jun-2025 — dieciséis meses quieto, y la conversación honesta de esta caja sigue vigente al día de hoy. Los cajones no cambiaron: la lista de quince es la misma. Fichas citadas de ediciones anteriores conservan su fecha.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 09).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 16 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 2 con actividad hoy · 9 en 7 días · 2 en 30 días · 2 en 180 días · 1 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `rikkaapps/shizuku` — dormido · última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `fossifyorg/clock` — creado 2022-06-28 · última actividad 2026-10-27 · ★715 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `organicmaps/organicmaps` — ★15.808 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release 2026.09.29-32-android (2026-09-29).
+
+• `localsend/localsend` — ★96.416 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
+
+• `guardianproject/orbot-android` — ★3.659 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia sin clasificar (NOASSERTION) · release Orbot for Android v17.9.7 RC 1 (tor 0.4.9.14) (2026-10-09).
+
+Licencias sin resolver hoy (4): `guardianproject/orbot-android`, `muntashirakon/appmanager`, `organicmaps/organicmaps`, `termux/termux-app`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

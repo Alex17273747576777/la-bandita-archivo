@@ -653,3 +653,29 @@ REV|pagina una pagina sar pagina y todo pagina sar todo. todo pagina sar el todo
 REV|limiera una limiera sar limiera y todo limiera sar todo. todo limiera sar el todo el todo limiera sar una lastonas, limiera todo limiera sar una limiera y todo limiera sar todo limiera y una limiera sar una lastonas. el todo lastonas sar una texto, una lastonas sar una limiera y una limiera sar una texto
 
 REV|epo una epo sar epo y todo epo sar todo. todo epo sar el todo el todo epo sar una epo, epo todo epo sar una epo y todo epo sar todo epo y todo epo sar una epo. el todo epo sar una epo, una epo sar todo anta y todo anta sar una epo
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 95).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 5 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 4 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `scummvm/scummvm` — ★2.870 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release ScummVM 2026.4.0 "Never-slop" (2026-10-11).
+
+• `localsend/localsend` — ★96.416 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
+
+• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
+
+Licencias sin resolver hoy (1): `keiyoushi/extensions`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

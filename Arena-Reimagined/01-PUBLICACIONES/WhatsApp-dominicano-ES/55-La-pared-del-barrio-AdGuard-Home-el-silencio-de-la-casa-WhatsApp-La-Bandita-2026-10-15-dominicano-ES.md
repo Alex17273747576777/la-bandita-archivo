@@ -678,3 +678,25 @@ Monta tu pared. Saca el chismeo del televisor. Cuenta tu silencio en el panel. Y
 ───────────────────
 
 #LaBandita #LaParedDelBarrio #AdGuardHome #SelfHosted #FOSS #DominicanoES
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 55).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 2 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 1 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `adguardteam/adguardhome` — ★37.828 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0 · release AdGuardHome v1.0.0-b.1 (2026-09-30).
+
+• `pi-hole/pi-hole` — ★61.549 (verificado 29-oct-2026) · última actividad 2026-10-17 · licencia sin clasificar (NOASSERTION) · release v6.5 (2026-10-17).
+
+Licencias sin resolver hoy (1): `pi-hole/pi-hole`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

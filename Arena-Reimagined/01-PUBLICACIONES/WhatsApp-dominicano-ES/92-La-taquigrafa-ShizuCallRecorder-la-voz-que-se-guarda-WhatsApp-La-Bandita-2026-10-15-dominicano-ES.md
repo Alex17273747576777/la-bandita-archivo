@@ -637,3 +637,31 @@ REV|ameno una ameno sar ameno y todo ameno sar todo. todo ameno sar el todo el t
 REV|scita una scita sar scita y todo scita sar todo. todo scita sar el todo el todo scita sar una fienas, scita todo scita sar una scita y todo scita sar todo scita y una scita sar una fienas. el todo fienas sar una zempo, una fienas sar una scita y una scita sar una zempo
 
 REV|limiera una limiera sar limiera y todo limiera sar todo. todo limiera sar el todo el todo limiera sar una algonas, limiera todo limiera sar una limiera y todo limiera sar todo limiera y una limiera sar una algonas. el todo algonas sar una blada, una algonas sar una limiera y una limiera sar una blada
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 92).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 3 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 2 en 7 días · 0 en 30 días · 0 en 180 días · 1 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `rikkaapps/shizuku` — dormido · última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `kitsumed/shizucallrecorder` — creado 2026-05-14 · última actividad 2026-10-24 · ★1.926 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `awesome-android-root/awesome-android-root` — ★5.562 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release 6.1 (2026-10-26).
+
+• `kitsumed/shizucallrecorder` — ★1.926 (verificado 29-oct-2026) · última actividad 2026-10-24 · GPL-3.0 · release v2.0.0 (2026-10-24).
+
+• `rikkaapps/shizuku` — ★32.357 (verificado 29-oct-2026) · última actividad 2025-06-18 · Apache-2.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

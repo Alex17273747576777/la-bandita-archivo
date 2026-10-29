@@ -753,3 +753,45 @@ Y la regla que no cambia: tu biblioteca es tuya (archivo exportable), tu enchufe
 ---
 
 #LaBandita #MangaFOSS #Mihon #Kotatsu #Komikku #TachiyomiSY #Neko #Dantotsu #ReDantotsu #Kiroku #Wammy #Keiyoushi #LnReader #Aniyomi #Extensiones #SucesionDeCalle #HallazgoDelDueno #WhatsAppDominicano #TecnologiaDominicana
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 15).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 18 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 6 con actividad hoy · 6 en 7 días · 2 en 30 días · 2 en 180 días · 0 dormidos · 2 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `asrofficialdev/redantotsu` — ARCHIVADO · última actividad 2026-08-18 · ★152 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
+
+• `kotatsuapp/kotatsu` — ARCHIVADO · última actividad 2025-11-04 · ★8.942 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `itsmechinmoy/dantotsu` — creado 2025-08-07 · última actividad 2026-10-29 · ★92 (verificado 29-oct-2026) · licencia sin clasificar (NOASSERTION).
+
+• `itsmechinmoy/dantotsu-updater` — creado 2025-06-10 · última actividad 2026-10-26 · ★154 (verificado 29-oct-2026) · licencia sin resolver.
+
+• `kainotch/wammy` — creado 2026-08-27 · última actividad 2026-10-25 · ★13 (verificado 29-oct-2026) · Apache-2.0.
+
+• `kototoro-app/kototoro` — creado 2025-10-28 · última actividad 2026-10-29 · ★650 (verificado 29-oct-2026) · Apache-2.0.
+
+• `nahiro18/kiroku` — creado 2026-08-07 · última actividad 2026-10-16 · ★16 (verificado 29-oct-2026) · licencia sin clasificar (NOASSERTION).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `keiyoushi/extensions-source` — ★4.831 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+
+• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
+
+• `aayush2622/dartotsu` — ★545 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v1.1.1 (2026-10-23).
+
+• `itsmechinmoy/dantotsu` — ★92 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release Dantotsu v3.2.2+74ae756 (2026-10-29).
+
+Licencias sin resolver hoy (6): `aayush2622/dartotsu`, `asrofficialdev/redantotsu`, `itsmechinmoy/dantotsu`, `itsmechinmoy/dantotsu-updater`, `keiyoushi/extensions`, `nahiro18/kiroku`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

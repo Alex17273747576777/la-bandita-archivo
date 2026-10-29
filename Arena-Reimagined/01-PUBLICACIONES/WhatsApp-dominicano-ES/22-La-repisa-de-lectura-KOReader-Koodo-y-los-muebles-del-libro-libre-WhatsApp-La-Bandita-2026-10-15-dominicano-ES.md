@@ -720,3 +720,33 @@ Escoge silla, no fama. Baja del censo, no del grupo. Y cuando la señal se vaya 
 ───────────────────
 
 #LaBandita #LecturaLibre #KOReader #Koodo #FOSS #CensoVivo #DominicanoES
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 22).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 7 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 2 con actividad hoy · 2 en 7 días · 1 en 30 días · 1 en 180 días · 1 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `smuyyh/bookreader` — dormido · última actividad 2022-10-09 · ★6.963 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `crosstalk-solutions/project-nomad` — creado 2025-06-24 · última actividad 2026-10-05 · ★41.227 (verificado 29-oct-2026) · Apache-2.0.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `paulwoitaschek/voice` — ★3.230 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release 26.10.6 - At home on tablets 📱 (2026-10-25).
+
+• `koodo-reader/koodo-reader` — ★28.665 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release 2.4.6 (2026-10-08).
+
+• `koreader/koreader` — ★30.726 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release OTA (2026-10-28).
+
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

@@ -694,3 +694,31 @@ Identifica tu casa. Monta la regleta de SU forja. Enchufa UNA familia. Y cuando 
 ───────────────────
 
 #LaBandita #LaRegleta #ZygiskNext #RootLibre #Magisk #FOSS #DominicanoES
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 82).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 9 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 1 con actividad hoy · 4 en 7 días · 1 en 30 días · 2 en 180 días · 0 dormidos · 1 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `siavash79/pixelxpert` — ARCHIVADO · última actividad 2026-06-21 · ★2.440 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `scummvm/scummvm` — ★2.870 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release ScummVM 2026.4.0 "Never-slop" (2026-10-11).
+
+• `mmrlapp/mmrl` — ★2.223 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0.
+
+• `j-hc/revanced-magisk-module` — ★7.706 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Release (2026-10-28).
+
+• `bmax121/apatch` — ★8.103 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release 11282 (2026-10-17).
+
+Licencias sin resolver hoy (1): `dr-tsng/zygisknext`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

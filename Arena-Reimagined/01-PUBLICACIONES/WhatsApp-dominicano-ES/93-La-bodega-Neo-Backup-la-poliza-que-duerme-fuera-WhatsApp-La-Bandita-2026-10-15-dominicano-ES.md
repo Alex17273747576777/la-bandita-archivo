@@ -695,3 +695,25 @@ REV|pagina una pagina sar pagina y todo pagina sar todo. todo pagina sar el todo
 REV|fienas una fienas sar fienas y todo fienas sar todo. todo fienas sar el todo el todo fienas sar una algonas, fienas todo fienas sar una fienas y todo fienas sar todo fienas y una fienas sar una algonas. el todo algonas sar una essencia, una algonas sar una fienas y una fienas sar una essencia
 
 REV|limiera una limiera sar limiera y todo limiera sar todo. todo limiera sar el todo el todo limiera sar una lastonas, limiera todo limiera sar una limiera y todo limiera sar todo limiera y una limiera sar una lastonas. el todo lastonas sar una texto, una lastonas sar una limiera y una limiera sar una texto
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 93).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 3 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 1 con actividad hoy · 1 en 7 días · 1 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
+
+• `awesome-android-root/awesome-android-root` — ★5.562 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release 6.1 (2026-10-26).
+
+• `neoapplications/neo-backup` — ★3.880 (verificado 29-oct-2026) · última actividad 2026-10-17 · AGPL-3.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

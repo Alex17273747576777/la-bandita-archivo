@@ -696,3 +696,31 @@ Arma tu cajón por pisos. Mira antes de palomear. Anota en archivos, no en nubes
 ───────────────────
 
 #LaBandita #CajonDelTaller #Shizuku #Gopeed #FOSS #CensoVivo #DominicanoES
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 25).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 7 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 3 en 7 días · 3 en 30 días · 0 en 180 días · 1 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `rikkaapps/shizuku` — dormido · última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `teamamaze/amazefilemanager` — ★6.446 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v3.11.4 (2026-10-15).
+
+• `gsantner/markor` — ★6.348 (verificado 29-oct-2026) · última actividad 2026-10-27 · licencia sin clasificar (NOASSERTION) · release Markor v2026.10.0 (2026-10-25).
+
+• `gopeedlab/gopeed` — ★27.235 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
+
+• `florisboard/florisboard` — ★8.730 (verificado 29-oct-2026) · última actividad 2026-09-30 · Apache-2.0.
+
+Licencias sin resolver hoy (2): `gsantner/markor`, `muntashirakon/appmanager`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

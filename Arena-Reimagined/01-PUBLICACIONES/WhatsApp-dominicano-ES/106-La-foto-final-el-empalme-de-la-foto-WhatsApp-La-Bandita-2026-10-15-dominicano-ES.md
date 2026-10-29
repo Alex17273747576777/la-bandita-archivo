@@ -535,3 +535,21 @@ Consta además, para el lector del índice, el lugar de esta pieza dentro del ca
 Ese regreso es deliberado y el empalme lo firma: primero la mesa aprendió a retratarse a sí misma (96-106), y después retratará cómo el barrio guarda sus fotos de verdad —su galería, su cámara, su sótano de copias— con la misma vara de fecha y papel.
 
 La unidad del capítulo está en el verbo, no en el objeto: fotografiar es fijar un instante con honestidad, y da igual si el instante es un censo de 188 sillas o el cumpleaños que alguien respalda en su servidor. Cerrado el empalme, la serie baja la cámara del censo y la cuelga del cuello: las piezas 107 a 110 contarán la foto que el barrio se toma a sí mismo todos los días.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 106).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 1 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `localsend/localsend` — ★96.416 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

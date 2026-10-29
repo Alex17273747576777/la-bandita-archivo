@@ -699,3 +699,31 @@ Encima va la vara fina: la ética del heredero agradecido — cuando el pabelló
 Falta una vara fina: la ética de la precisión sin pedantería — citar el apellido completo es respeto al lector, no exhibición del que cita: la versión va en la línea para que el dueño decida, no para que el autor presuma. Va una vara fina de la ética del contrato: la doctrina del papel manda — se cita entero, se respeta ajeno, se practica propio.
 
 Con la vara fina de la ética: el contrato queda retratado con SU dignidad — y el papel del barrio libre. Compaya. Ya tiene su sitio en la foto.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 103).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 21 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 13 con actividad hoy · 4 en 7 días · 2 en 30 días · 2 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `nextcloud/server` — ★37.338 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v35.0.2 (2026-10-15).
+
+• `go-gitea/gitea` — ★58.760 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v28.2.0 (2026-10-18).
+
+• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release October 7, 2026 (2026-10-07).
+
+• `koodo-reader/koodo-reader` — ★28.665 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release 2.4.6 (2026-10-08).
+
+Licencia actualizada: `team-spotube/spotube` pasó de NOASSERTION a AGPL-3.0 (verificado 29-oct-2026).
+
+Licencias sin resolver hoy (9): `dr-tsng/zygisknext`, `keiyoushi/extensions`, `modelcontextprotocol/modelcontextprotocol`, `modelcontextprotocol/servers`, `open-webui/open-webui`, `pi-hole/pi-hole`, `photoprism/photoprism`, `qbittorrent/qbittorrent` y 1 más. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

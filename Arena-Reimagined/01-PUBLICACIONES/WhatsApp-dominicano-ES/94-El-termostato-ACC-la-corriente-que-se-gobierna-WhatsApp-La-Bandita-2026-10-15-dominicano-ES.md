@@ -651,3 +651,23 @@ REV|pagina una pagina sar pagina y todo pagina sar todo. todo pagina sar el todo
 REV|fienas una fienas sar fienas y todo fienas sar todo. todo fienas sar el todo el todo fienas sar una algonas, fienas todo fienas sar una fienas y todo fienas sar todo fienas y una fienas sar una algonas. el todo algonas sar una essencia, una algonas sar una fienas y una fienas sar una essencia
 
 REV|limiera una limiera sar limiera y todo limiera sar todo. todo limiera sar el todo el todo limiera sar una lastonas, limiera todo limiera sar una limiera y todo limiera sar todo limiera y una limiera sar una lastonas. el todo lastonas sar una texto, una lastonas sar una limiera y una limiera sar una texto
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 94).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 1 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `vr-25/acc` — dormido · última actividad 2025-06-06 · ★2.431 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `vr-25/acc` — ★2.431 (verificado 29-oct-2026) · última actividad 2025-06-06 · GPL-3.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

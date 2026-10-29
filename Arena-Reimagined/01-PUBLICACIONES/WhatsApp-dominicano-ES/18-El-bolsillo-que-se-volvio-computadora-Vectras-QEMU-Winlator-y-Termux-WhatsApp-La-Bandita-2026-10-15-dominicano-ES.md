@@ -761,3 +761,33 @@ La casa no vende accesorios: receta la vara — el accesorio correcto convierte 
 Esta pieza nació el mismo día en que su cuadra empujaba: el traductor publicó código el MISMO jueves del censo, la nave subió estrella y el fork trabajó la víspera. La casa lo deja escrito porque los nacimientos en días vivos se cuentan solos: guía 18, fechada 15-oct-2026, con la sala de máquinas encendida y el manifiesto al día.
 
 Cocina con placas, invita con licencia, mide el peaje, apaga con cariño.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 18).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 5 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 1 con actividad hoy · 0 en 7 días · 3 en 30 días · 1 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `anbui2004/vectras-vm-emu-android` — creado 2025-03-14 · última actividad 2026-10-14 · ★305 (verificado 29-oct-2026) · GPL-2.0.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `ptitseb/box64` — ★5.694 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT.
+
+• `brunodev85/winlator` — ★19.679 (verificado 29-oct-2026) · última actividad 2026-10-17 · LGPL-2.1.
+
+• `xoureldeen/vectras-vm-android` — ★2.757 (verificado 29-oct-2026) · última actividad 2026-10-18 · GPL-2.0 · release v4.5.0-3dfx (2026-10-08).
+
+• `anbui2004/vectras-vm-emu-android` — ★305 (verificado 29-oct-2026) · última actividad 2026-10-14 · GPL-2.0 · release 4.7.4 (2026-10-14).
+
+Licencias sin resolver hoy (1): `termux/termux-app`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

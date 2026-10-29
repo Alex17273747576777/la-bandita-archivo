@@ -741,3 +741,15 @@ Encima va la vara fina: la ética de la calma del domingo — que 30 sillas no e
 Falta una vara fina: la ética de la segunda foto — prometer la gira y cumplirla es la parte ética del método: la foto que nombra su revisión y no vuelve convierte su doctrina en adorno. Va una vara fina de la ética del día: la doctrina del instante manda — se firma el día, se respeta a la gente detrás de las eras, y se vuelve a medir.
 
 Con la vara fina de la ética: el día queda retratado con SU dignidad — y el instante del barrio libre. Compaya. Ya tiene su acta firmada.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 105).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 0 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Nota de alcance: esta pieza no atribuye repos GitHub individuales verificables fuera del glosario compartido; sus fuentes son las URL web de arriba. El universo GitHub de la serie (228 repos confirmados) quedó verificado en la misma pasada global.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

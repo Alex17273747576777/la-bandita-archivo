@@ -762,3 +762,49 @@ Usagi está viva: merge de 7 hoy, ★259, F-Droid — lo archivado fue el andami
 #LaBandita #Kotatsu #Usagi #MangaLibre #Futon #KotatsuRedo #Kototoro #LectoresLibres #VerificaAntesDeInstalar #FuenteFechada #EcosistemaLibre #RepublicaDominicana
 
 📝 *RE-CORTE 15-oct-2026 (censo de API).* LA SEMANA EN DELTA, segunda vuelta (22-sep → 15-oct): Usagi ★259 → ★274 (push 14-oct) · Kotatsu-Redo ★891 → ★940 (push 19-sep) · Futon ★431 → ★449 (push 9-oct) · Kototoro ★581 → ★625 (push HOY, v2.2.9 el 9-oct) · UMA ★68 → ★76 (push 13-oct) · plugin-source ★90 → ★92 (push 14-sep) · Kotatsu, archivado, ★8.923. El difunto sigue empujando traducciones — y el heredero del nombre, ganando veinticuatro estrellas por semana.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 07).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 11 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 1 con actividad hoy · 2 en 7 días · 2 en 30 días · 2 en 180 días · 1 dormidos · 3 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `kotatsuapp/kotatsu` — ARCHIVADO · última actividad 2025-11-04 · ★8.942 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
+
+• `usagiapp/core-exts` — ARCHIVADO · última actividad 2026-06-28 · ★7 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
+
+• `usagiapp/core-parsers` — ARCHIVADO · última actividad 2026-06-28 · ★2 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
+
+• `yumemiproject/yumemi` — dormido · última actividad 2026-02-20 · ★60 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `appfuton/futon` — creado 2025-12-07 · última actividad 2026-10-21 · ★467 (verificado 29-oct-2026) · GPL-3.0.
+
+• `invaliddavid/uma` — creado 2026-06-10 · última actividad 2026-10-25 · ★82 (verificado 29-oct-2026) · GPL-3.0.
+
+• `kototoro-app/kototoro` — creado 2025-10-28 · última actividad 2026-10-29 · ★650 (verificado 29-oct-2026) · Apache-2.0.
+
+• `sang765/usagi` — creado 2026-04-05 · última actividad 2026-10-16 · ★0 (verificado 29-oct-2026) · GPL-3.0.
+
+• `usagiapp/usagi` — creado 2026-03-20 · última actividad 2026-10-25 · ★286 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `kototoro-app/kototoro` — ★650 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release v2.3.4 (2026-10-29).
+
+• `usagiapp/usagi` — ★286 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release 2.0-beta1 (2026-10-19).
+
+• `invaliddavid/uma` — ★82 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release 83bcf88 (2026-10-22).
+
+• `appfuton/futon` — ★467 (verificado 29-oct-2026) · última actividad 2026-10-21 · GPL-3.0 · release Futon 9.9 (2026-10-21).
+
+Licencias sin resolver hoy (1): `gekkoushi/plugin`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

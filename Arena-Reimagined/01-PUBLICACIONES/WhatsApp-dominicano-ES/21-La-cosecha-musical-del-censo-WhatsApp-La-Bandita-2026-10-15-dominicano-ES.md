@@ -692,3 +692,45 @@ Elige escuela, no fama. Baja por la tienda legal, no por el grupo. Exporta tu bi
 ───────────────────
 
 #LaBandita #MusicaLibre #FOSS #CensoVivo #Pulso10 #Droidify #DominicanoES
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 21).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 14 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 2 con actividad hoy · 6 en 7 días · 2 en 30 días · 1 en 180 días · 3 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `moriafly/saltplayersource` — dormido · última actividad 2026-04-30 · ★7.573 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+• `naman14/timber` — dormido · última actividad 2020-10-06 · ★7.033 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+• `z-huang/innertune` — dormido · última actividad 2025-11-13 · ★6.128 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `cwuom/neriplayer` — creado 2025-08-08 · última actividad 2026-10-29 · ★3.978 (verificado 29-oct-2026) · GPL-3.0.
+
+• `rukamori/archivetune` — creado 2025-09-01 · última actividad 2026-10-27 · ★7.753 (verificado 29-oct-2026) · GPL-3.0.
+
+• `sonorahq/sonora` — creado 2026-08-03 · última actividad 2026-10-28 · ★2.479 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `team-spotube/spotube` — ★50.442 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release Nightly 2026-10-26-526 (2026-10-29).
+
+• `cwuom/neriplayer` — ★3.978 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release NeriPlayer-15fb25d8.10282107 (2026-10-29).
+
+• `staniel359/muffon` — ★2.251 (verificado 29-oct-2026) · última actividad 2026-10-26 · AGPL-3.0 · release 2.5.0 (2026-10-24).
+
+• `gokadzev/musify` — ★4.379 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release 10.6.0 (2026-10-23).
+
+Licencia actualizada: `team-spotube/spotube` pasó de NOASSERTION a AGPL-3.0 (verificado 29-oct-2026).
+
+Licencias sin resolver hoy (3): `naman14/timber`, `namidaco/namida`, `pixelplayerhq/pixelplayer`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

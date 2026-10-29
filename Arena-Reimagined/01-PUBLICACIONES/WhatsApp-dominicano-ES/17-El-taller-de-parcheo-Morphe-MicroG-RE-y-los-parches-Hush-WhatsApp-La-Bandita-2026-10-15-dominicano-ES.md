@@ -764,3 +764,39 @@ Si esta guía sirvió para algo más que leer, fue para esto: demostrar que la e
 La casa lo midió el mismo jueves 15-oct-2026 en que nació esta pieza, y lo deja fechado para que el próximo lector compare su cuaderno con el nuestro.
 
 Cocina con placas. Prueba con vara. Anota con fecha. Distribuye nunca. Y cuando la app oficial te cierre una puerta, recuerda: el capó es tuyo.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 17).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 10 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 1 con actividad hoy · 6 en 7 días · 2 en 30 días · 1 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `meowdump/integrity-box` — creado 2025-02-27 · última actividad 2026-10-21 · ★2.795 (verificado 29-oct-2026) · GPL-3.0.
+
+• `morpheapp/morphe-manager` — creado 2025-11-26 · última actividad 2026-10-25 · ★9.665 (verificado 29-oct-2026) · GPL-3.0.
+
+• `shiaho777/web-to-app` — creado 2025-11-26 · última actividad 2026-10-29 · ★7.110 (verificado 29-oct-2026) · Unlicense.
+
+• `sysadmindoc/hushfacebook` — creado 2026-09-24 · última actividad 2026-10-28 · ★435 (verificado 29-oct-2026) · GPL-3.0.
+
+• `sysadmindoc/hushfeed` — creado 2026-09-05 · última actividad 2026-10-28 · ★324 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `shiaho777/web-to-app` — ★7.110 (verificado 29-oct-2026) · última actividad 2026-10-29 · Unlicense · release v2.8.3 (2026-10-28).
+
+• `mmrlapp/mmrl` — ★2.223 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0.
+
+• `j-hc/revanced-magisk-module` — ★7.706 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Release (2026-10-28).
+
+• `bmax121/apatch` — ★8.103 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release 11282 (2026-10-17).
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

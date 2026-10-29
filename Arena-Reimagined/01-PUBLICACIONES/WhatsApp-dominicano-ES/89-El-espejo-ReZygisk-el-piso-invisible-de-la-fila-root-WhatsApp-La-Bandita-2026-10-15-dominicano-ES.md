@@ -732,3 +732,23 @@ REV|.aterbil al ne odot ,abeurp US noc onu adac ,nedro ese ne — )48( arav noc 
 REV|.sámed sol ed oicifo le ajelfer euq ocinú le — 299.24Σ ,ojaba etidnocse le noc 924.1Δ ,abirra apam le noc 551.1Δ — II toor alif al ne ohco ed OTNIUQ :adidem aL
 
 REV|.orecret ed aeníl al sámaj · ATO adac noc arig · návsed led lausnem adop · abeurp US noc onu a ONU soniliuqni · ohcat sámaj laicifo oper :osip led salger saL
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 89).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 2 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 1 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `awesome-android-root/awesome-android-root` — ★5.562 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release 6.1 (2026-10-26).
+
+• `performanc/rezygisk` — ★4.098 (verificado 29-oct-2026) · última actividad 2026-10-11 · GPL-3.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

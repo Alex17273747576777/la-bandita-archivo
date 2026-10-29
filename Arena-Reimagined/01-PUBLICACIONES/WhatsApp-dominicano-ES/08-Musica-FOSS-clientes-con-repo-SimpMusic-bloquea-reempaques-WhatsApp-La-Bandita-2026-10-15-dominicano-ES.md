@@ -570,3 +570,29 @@ La familia musical libre, sudando: Metrolist ★12.9k (12 h: controles en Androi
 #LaBandita #MusicaLibre #Metrolist #SimpMusic #OuterTune #Auxio #NewPipe #AntennaPod #VerificaAntesDeInstalar #FuenteFechada #EcosistemaLibre #RepublicaDominicana
 
 📝 *RE-CORTE 15-oct-2026 (censo de API).* MetrolistGroup/Metrolist ★13.517 · push 8-oct (la casa definitiva, confirmada) · SimpMusic ★12.056 con push de HOY · NewPipe ★40.140 con push de HOY · OuterTune ★5.429 (12-oct) · AntennaPod ★8.218 (13-oct) · Auxio ★4.361 (8-sep) — placas re-pisadas hoy; lo demás conserva su fecha del 22-sep.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 08).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 5 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 3 en 7 días · 1 en 30 días · 0 en 180 días · 1 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `z-huang/innertune` — dormido · última actividad 2025-11-13 · ★6.128 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `teamnewpipe/newpipe` — ★40.347 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0.
+
+• `maxrave-dev/simpmusic` — ★12.507 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0 · release 2.4.0 (2026-10-25).
+
+• `metrolistgroup/metrolist` — ★13.879 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release Metrolist Nightly (2026-10-25).
+
+• `outertune/outertune` — ★5.438 (verificado 29-oct-2026) · última actividad 2026-10-12 · GPL-3.0.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

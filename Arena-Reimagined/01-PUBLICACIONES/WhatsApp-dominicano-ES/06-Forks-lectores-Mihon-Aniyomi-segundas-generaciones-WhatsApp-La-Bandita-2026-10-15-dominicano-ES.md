@@ -756,3 +756,39 @@ Busca más, y que tu taller levante la persiana contigo.
 #LaBandita #LectoresLibres #Mihon #Aniyomi #NekoMangaDex #Komikku #ForksSaludables #GitHubDeConfianza #VerificaAntesDeInstalar #FuenteFechada #EcosistemaLibre #RepublicaDominicana
 
 📝 *RE-CORTE 15-oct-2026 (censo de API).* Mihon ★24.385 · v0.21.2 (13-oct) · push 14-oct · Aniyomi ★7.799 (empuje 14-sep) · Komikku ★4.872, v1.14.1 con push de hoy · *Houri v1.24.0 publicada hoy* (racha: 1.23.2 el 1-oct → 1.24.0 el 15) · *AniZen v0.5.217 publicada hoy* · Animiru ★893, v0.20.0.1, push de hoy. Animetail, Tadami, Yōkai, Reikai, Rokku y Hayai conservan su constancia declarada (no re-verificadas hoy).
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 06).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 10 repos GitHub confirmados y 18 apariciones de URL web. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 2 con actividad hoy · 4 en 7 días · 3 en 30 días · 1 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `andarcanum/tadami-aniyomi-fork` — creado 2026-01-09 · última actividad 2026-10-29 · ★287 (verificado 29-oct-2026) · Apache-2.0.
+
+• `komikku-app/anikku` — creado 2025-01-08 · última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026) · Apache-2.0.
+
+• `jobobby04/tachiyomisypreview` — creado 2020-05-10 · última actividad 2026-10-23 · ★489 (verificado 29-oct-2026) · licencia sin resolver.
+
+• `syncyomi/syncyomi` — creado 2023-04-06 · última actividad 2026-10-29 · ★736 (verificado 29-oct-2026) · GPL-2.0.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `syncyomi/syncyomi` — ★736 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release v1.7.4 (2026-10-29).
+
+• `andarcanum/tadami-aniyomi-fork` — ★287 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release Tadami v0.63.2 (2026-10-28).
+
+• `nekomangaorg/neko` — ★2.816 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release 3.8.4 (2026-10-14).
+
+• `jobobby04/tachiyomisy` — ★4.195 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release preview-208 (2026-10-28).
+
+Licencias sin resolver hoy (1): `jobobby04/tachiyomisypreview`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: 18 apariciones en esta pieza; todas respondieron vivas el 29-oct-2026 (200 directo o redirección comprobada en navegador). Detalle por URL en el informe de la pasada.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

@@ -732,3 +732,21 @@ REV|.séver led ebus es on asac al ;oludóm le ogeul ,ppa al ogeul ,aíug al ore
 REV|.otca ne oreletrac le :oslup led aíd OMSIM led hsup y — 299.24Σ ,ojaba ojepse le noc 551.1Δ ,abirra acirbáf al noc 564.2Δ — II toor alif al ne ohco ed OTRAUC :adidem aL
 
 REV|.ahcef avell atic al · atroper es otor ecalne le · oñeud le enop ol SETNA odlapser le · osap rop osap acifirev es aíug al · YOH eel es atsil al :asem al ed salger saL
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 88).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `awesome-android-root/awesome-android-root` — ★5.562 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release 6.1 (2026-10-26).
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.

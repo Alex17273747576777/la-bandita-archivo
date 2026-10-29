@@ -706,3 +706,33 @@ movimiento de estrellas. Caja apilada.
 #LaBandita #Miyorare #LectorAndroid #MangaYNovelas #SourcePacks #GPL3 #VerificaAntesDeInstalar #EcosistemaLibre #Shizuku #FuenteFechada #LecturaEnEspañol #OpenSource
 
 📝 *RE-CORTE 15-oct-2026 (censo de API).* El joven del barrio está en racha: de la v1.4.3 que esta guía retrató el 22-sep a la *v1.4.9* del 13-oct — con v1.4.7 (10-oct) y v1.4.8 (11-oct) en medio —, ★11 → ★13, y código empujado el día mismo de este re-corte. Los Source Packs oficiales conservan su constancia declarada.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 81).*
+
+Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta pieza: 3 repos GitHub confirmados y 2 apariciones de URL web. La historia original no se reescribe: conserva su fecha y su texto; esta nota solo añade el estado medido hoy.
+
+Actividad medida hoy: 1 con actividad hoy · 1 en 7 días · 0 en 30 días · 1 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada (verificado 29-oct-2026).
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `noirero/miyorare` — creado 2026-09-04 · última actividad 2026-10-29 · ★19 (verificado 29-oct-2026) · GPL-3.0.
+
+• `noirero/miyorare-source-packs` — creado 2026-09-12 · última actividad 2026-10-24 · ★3 (verificado 29-oct-2026) · licencia sin resolver.
+
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
+
+• `noirero/miyorare` — ★19 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release v1.4.16 (2026-10-29).
+
+• `noirero/miyorare-source-packs` — ★3 (verificado 29-oct-2026) · última actividad 2026-10-24 · licencia sin resolver · release Miyorare Source Packs v0.5.15 (2026-10-24).
+
+• `gekkoushi/plugin-source` — ★93 (verificado 29-oct-2026) · última actividad 2026-09-13 · GPL-3.0.
+
+Licencias sin resolver hoy (1): `noirero/miyorare-source-packs`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: 2 apariciones en esta pieza; todas respondieron vivas el 29-oct-2026 (200 directo o redirección comprobada en navegador). Detalle por URL en el informe de la pasada.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente, fecha y pulso.
