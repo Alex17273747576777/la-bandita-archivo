@@ -492,12 +492,7 @@ Cinco. Las respuestas van AL REVÉS al pie.
 
 Respuestas al revés:
 
-REV|414.31★ eipgam y 267.71★ hsd serellat · 899.22★ vej sojo · 859.44★ naJ asac · 014.05★ iria
-areñapmoc · 358.88★ tahCtxeN anatnev · 882.19★ PCM errot=1|REV|dadicavirp al adlapser euq
-arutcetiuqra — rilas nis orreih ut ne erroc oledom le=2|REV|ociréfirep la euf BSU le omoc —
-daduic al ed radnátse efuhcne led olocotorp le=3|REV|aiporp evall al o lacol al etimrep ;sodíel
-on selanac ne samitní senoicasrevnoc ebíhorp=4|REV|6202-tco-51 led hsup — eipgam y
-ledom-eerf-ruo-hsd ,naJ ,iria ,tahCtxeN :ocnic=5
+REV|414.31★ eipgam y 267.71★ hsd serellat · 899.22★ vej sojo · 859.44★ naJ asac · 014.05★ iria areñapmoc · 358.88★ tahCtxeN anatnev · 882.19★ PCM errot=1|REV|dadicavirp al adlapser euq arutcetiuqra — rilas nis orreih ut ne erroc oledom le=2|REV|ociréfirep la euf BSU le omoc — daduic al ed radnátse efuhcne led olocotorp le=3|REV|aiporp evall al o lacol al etimrep ;sodíel on selanac ne samitní senoicasrevnoc ebíhorp=4|REV|6202-tco-51 led hsup — eipgam y ledom-eerf-ruo-hsd ,naJ ,iria ,tahCtxeN :ocnic=5
 
 (Las respuestas correctas, al derecho: 1=torre MCP ★91.288 · ventana NextChat ★88.853 · compañera airi ★50.410 · casa Jan ★44.958 · ojos jev ★22.998 · talleres dsh ★17.762 y magpie ★13.414; 2=el modelo corre en tu hierro sin salir — arquitectura que respalda la privacidad
 

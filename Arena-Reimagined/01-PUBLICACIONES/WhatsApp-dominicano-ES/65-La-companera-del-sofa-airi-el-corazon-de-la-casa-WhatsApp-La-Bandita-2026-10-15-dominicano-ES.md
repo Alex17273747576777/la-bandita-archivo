@@ -996,16 +996,13 @@ La casa no improvisa: cría. Y la noche firma: la compañera del sofá — el co
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.aiporp AI al ed atelpmoc asac al — )56( nózaroc y )46( oicifo ,)36( sonam ,)26( asem ,)16(
-rasnep :áfos led olucríc lE
+REV|.aiporp AI al ed atelpmoc asac al — )56( nózaroc y )46( oicifo ,)36( sonam ,)26( asem ,)16( rasnep :áfos led olucríc lE
 
 REV|.)357.26★( ollislob ed rellat le y )657.64★( ovihcra le ertne :)834.05★( nózaroc led acalp aL
 
-REV|.aniuqám al sámaj ,ailimaf al apuco al asem al — atisiv al arbelec ,ognimod led adamall al
-araperp :etneuP
+REV|.aniuqám al sámaj ,ailimaf al apuco al asem al — atisiv al arbelec ,ognimod led adamall al araperp :etneuP
 
-REV|.ereiuq asac al is oretne alrarrob ,arig al ne alreel ,socsid sod ne alradlapser :)asac al
-ed ocsid le( atevag UT nE
+REV|.ereiuq asac al is oretne alrarrob ,arig al ne alreel ,socsid sod ne alradlapser :)asac al ed ocsid le( atevag UT nE
 
 REV|.asac ne ahceh ,onu alger al ed abeurp al — laugi eugis asrevnoc al :ifiw le odnagapA
 

@@ -988,20 +988,15 @@ Y la noche firma: la mesa del barrio, con su empuje libre.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.ellac al nis ,rellat nis ,ebun nis — LACOL ifiw al rop )otxet y sateprac ,FDP ,soediv
-,sotof( lanigiro ovihcra lE
+REV|.ellac al nis ,rellat nis ,ebun nis — LACOL ifiw al rop )otxet y sateprac ,FDP ,soediv ,sotof( lanigiro ovihcra lE
 
-REV|.anaznam abalbah olos porDriA le :ametsisoce led allarum al óyac — )xuniL ,SOcam ,swodniW
-,enohPi ,diordnA( samrofatalp ocniC
+REV|.anaznam abalbah olos porDriA le :ametsisoce led allarum al óyac — )xuniL ,SOcam ,swodniW ,enohPi ,diordnA( samrofatalp ocniC
 
-REV|.oiporp topstoh y otcefed rop ozahcer ,aneja alas al ne — atnugerp nis ebicer eidan :asem al
-ed ís lE
+REV|.oiporp topstoh y otcefed rop ozahcer ,aneja alas al ne — atnugerp nis ebicer eidan :asem al ed ís lE
 
-REV|.erpmeis ed ol y zev anu ed ol — erpmeis eviv euq ol oviv eneitnam erbmala le ;adivlo es y
-agertne ejupme lE
+REV|.erpmeis ed ol y zev anu ed ol — erpmeis eviv euq ol oviv eneitnam erbmala le ;adivlo es y agertne ejupme lE
 
-REV|.elbeum le abarepse asem al — aicnetsiser nis atpoda es )atneuc nis ,selbeum sol sodot ap(
-atcaxe aedi aL
+REV|.elbeum le abarepse asem al — aicnetsiser nis atpoda es )atneuc nis ,selbeum sol sodot ap( atcaxe aedi aL
 
 Hmm — NO. TEXTO NORMAL (la ley del quiz): las escribo directo en la pasada de bash.
 

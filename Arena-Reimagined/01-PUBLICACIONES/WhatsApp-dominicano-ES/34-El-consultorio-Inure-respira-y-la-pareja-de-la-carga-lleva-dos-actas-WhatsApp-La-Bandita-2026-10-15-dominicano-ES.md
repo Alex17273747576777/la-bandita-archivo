@@ -996,8 +996,7 @@ para que nadie las palmee sin pensarse el plato.
 
 REV|toor nis oipocsotetse le — tco-31 led hsup ,0.3-LPG ,6202-tco-51 led oslup la 749.1★ :erunI=1
 
-REV|ukuzihS ed nóicatse amsim al — )sesem 61( 5202-nuj edsed CCA y )sesem 4 soña 2( 4202-nuj
-edsed hsup nis AccA=2
+REV|ukuzihS ed nóicatse amsim al — )sesem 61( 5202-nuj edsed CCA y )sesem 4 soña 2( 4202-nuj edsed hsup nis AccA=2
 
 REV|erbil aleucse al ed ojart acirbáf al euq rodalumuca led nóiccetorp al :%08 led epot le=3
 

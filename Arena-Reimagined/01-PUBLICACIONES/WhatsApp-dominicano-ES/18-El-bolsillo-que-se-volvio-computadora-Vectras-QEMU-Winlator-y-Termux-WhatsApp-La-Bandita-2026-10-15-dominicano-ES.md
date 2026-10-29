@@ -499,12 +499,7 @@ Cinco. Las respuestas van AL REVÉS al pie.
 
 Respuestas al revés:
 
-REV|666.5★ 46xob rotcudart · 786.26★ xumreT onatós · 374.91★ rotalniW anatnev · 217.2★ sartceV
-evan=1|REV|)ejaep noc otelpmoc ,UMEQ( oretne pihc le alumis ralume ;)ohcet noc odipár ,46xob(
-oleuv la MRA→68x etreivnoc ricudart=2|REV|lanac US rop serbil senoicubirtsid sal y aicnecil noc
-oyut ol etimrep ;arucse ed sOSI ebíhorp=3|REV|odot isac atuceje UPC ut — soiranib sol ecudart
-46xob y apac al edip eniW :pihc alume ON euqrop=4|REV|etrapa eviv y eicepse ARTO se odativni le
-íuqa ;etnemlaropmet diordnA ut aibmac USD le=5
+REV|666.5★ 46xob rotcudart · 786.26★ xumreT onatós · 374.91★ rotalniW anatnev · 217.2★ sartceV evan=1|REV|)ejaep noc otelpmoc ,UMEQ( oretne pihc le alumis ralume ;)ohcet noc odipár ,46xob( oleuv la MRA→68x etreivnoc ricudart=2|REV|lanac US rop serbil senoicubirtsid sal y aicnecil noc oyut ol etimrep ;arucse ed sOSI ebíhorp=3|REV|odot isac atuceje UPC ut — soiranib sol ecudart 46xob y apac al edip eniW :pihc alume ON euqrop=4|REV|etrapa eviv y eicepse ARTO se odativni le íuqa ;etnemlaropmet diordnA ut aibmac USD le=5
 
 (Las respuestas correctas, al derecho: 1=nave Vectras ★2.712 · ventana Winlator ★19.473 · sótano Termux ★62.687 · traductor box64 ★5.666; 2=traducir convierte x86→ARM al vuelo (box64, rápido con techo), emular simula el chip entero (QEMU, completo con peaje)
 

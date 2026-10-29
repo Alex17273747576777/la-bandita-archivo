@@ -952,20 +952,15 @@ era portátil, de vuelta en la mano; el save del hermano: con cofre y con respet
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.nocnir led sámaj ,OIPORP ocsid leD .odaclov le ne amrif US ,osimrep US — aviv alosnoc noc
-onicev le o )avitceloc etnatse led edrat al( bulc led rotcel le :oirrab ed oicifo noC
+REV|.nocnir led sámaj ,OIPORP ocsid leD .odaclov le ne amrif US ,osimrep US — aviv alosnoc noc onicev le o )avitceloc etnatse led edrat al( bulc led rotcel le :oirrab ed oicifo noC
 
-REV|.)6202-2102( ajrof ed SOÑA ECROTAC :)313 rop( 763.41★ elbeum led amicne ,)100.1 rop( 186.51★
-obuc led ojabed — )6202-tco-81 oslup( 086.41★ :nólas led acalp atrauc aL
+REV|.)6202-2102( ajrof ed SOÑA ECROTAC :)313 rop( 763.41★ elbeum led amicne ,)100.1 rop( 186.51★ obuc led ojabed — )6202-tco-81 oslup( 086.41★ :nólas led acalp atrauc aL
 
-REV|.»oicapse recah« ap arrob es sámaj — aiporp al euq adargas sám se adiv arto ed aditrap al
-:ateprac US ne av y otepser noc agrac es ,)socsid sod( racot ed SETNA aipoc eS
+REV|.»oicapse recah« ap arrob es sámaj — aiporp al euq adargas sám se adiv arto ed aditrap al :ateprac US ne av y otepser noc agrac es ,)socsid sod( racot ed SETNA aipoc eS
 
-REV|.oñeus le arap :adagurdam aL .súbotua le omoc asuap es litátrop are al — adarap adac ne evas
-le ,ejaiv rop sotunim etniev :otceyart ed sadnat nE
+REV|.oñeus le arap :adagurdam aL .súbotua le omoc asuap es litátrop are al — adarap adac ne evas le ,ejaiv rop sotunim etniev :otceyart ed sadnat nE
 
-REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq OSI acinú al( amrif US noc aclov
-es etnatse led ocsid le :oiporp DMU led yel al noc — PSP aL
+REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq OSI acinú al( amrif US noc aclov es etnatse led ocsid le :oiporp DMU led yel al noc — PSP aL
 
 *💌 LAS CARTAS AL LECTOR*
 

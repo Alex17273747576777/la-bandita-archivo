@@ -995,16 +995,13 @@ con ficha.
 
 REV|.odazortsed nózas le se odarupa odanifa le — airomem ed laer osu ed sem nu :esab atecer aL
 
-REV|.)719.551★( arac al ed amicne ,)874.381★( etnem al sart :)667.761★( osnec led atla sám
-adnuges aL
+REV|.)719.551★( arac al ed amicne ,)874.381★( etnem al sart :)667.761★( osnec led atla sám adnuges aL
 
-REV|.oicogen led ajac al ne sámaj ,nóicagitsevni ed artel al — etnelaviuqe us o ko-laicremoc
-:orrat led artel aL
+REV|.oicogen led ajac al ne sámaj ,nóicagitsevni ed artel al — etnelaviuqe us o ko-laicremoc :orrat led artel aL
 
 REV|.atsinoicceloc led apmart al ,oesum ed etnatse le :lausnem arig noc — aneaf rop asnep NU
 
-REV|.arreic es atreup al ,ahcif nis :ocigólaeneg lobrá le — acilbúp artel y atsenoh atejrat
-,latan ajroF
+REV|.arreic es atreup al ,ahcif nis :ocigólaeneg lobrá le — acilbúp artel y atsenoh atejrat ,latan ajroF
 
 *💌 LAS CARTAS AL LECTOR*
 

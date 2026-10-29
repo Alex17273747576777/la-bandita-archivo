@@ -968,18 +968,15 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|rellat led atnev al — )sesem ortauc y soña sod( 4202-nuj-11 le edsed hsup nis :reganaM eliF
-elpmiS=1
+REV|rellat led atnev al — )sesem ortauc y soña sod( 4202-nuj-11 le edsed hsup nis :reganaM eliF elpmiS=1
 
 REV|airatinumoc nóicazinagro al — 6202-tco-41 led hsup ,0.3-LPG ,908.1★ :reganaM eliF yfissoF=2
 
 REV|odlapser y arav noc aipmil es ,lanames arim es — %08 le ojab odanell le=3
 
-REV|areidnev es asac al odnauc ap erbil ogidóc le ójed 6102 ne adamrif yel al :etacser le
-óitimrep euqrop=4
+REV|areidnev es asac al odnauc ap erbil ogidóc le ójed 6102 ne adamrif yel al :etacser le óitimrep euqrop=4
 
-REV|osodud ol ed oiverp odlapser nis :sámaj — sadacilpud sagracsed ,sojeiv sKPA ,sodío ay soidua
-:oremirp=5
+REV|osodud ol ed oiverp odlapser nis :sámaj — sadacilpud sagracsed ,sojeiv sKPA ,sodío ay soidua :oremirp=5
 
 (Las respuestas correctas —de arriba abajo— son: la venta que dejó el museo del 11-jun-2024;
 Fossify el rescate del 14-oct; el 80% la vara del espacio; la GPL el testamento involuntario; y

@@ -974,22 +974,15 @@ planta invisible del salón; el programa del taller: de vuelta al trabajo.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.)sadued nis :aznaifnoc al( on euq ol y aneaf euq ol ecid atnalp al :aterbil al ne adahcef
-,anep nis atca le — erroc on / ranifa edip / erroC
+REV|.)sadued nis :aznaifnoc al( on euq ol y aneaf euq ol ecid atnalp al :aterbil al ne adahcef ,anep nis atca le — erroc on / ranifa edip / erroC
 
-REV|.beStitp ed al ,)6202-0202( ajrof ed SOÑA SIES :)755 rop( 221.5★ allatnap elbod al ed amicne
-,)828.1 rop( 705.7★ onrete ohcutrac led ojabed — )6202-tco-81 oslup( 976.5★ :nólas led acalp
-amitpés aL
+REV|.beStitp ed al ,)6202-0202( ajrof ed SOÑA SIES :)755 rop( 221.5★ allatnap elbod al ed amicne ,)828.1 rop( 705.7★ onrete ohcutrac led ojabed — )6202-tco-81 oslup( 976.5★ :nólas led acalp amitpés aL
 
-REV|.rellat led erfoc le ne adlapser es y ahcef noc atona es ,)evall US( amargorp adac ed
-cr46xob le noc anifa es — ecudarter es ON odicudart ay ol :rotcudart led seuqolb ed airomem aL
+REV|.rellat led erfoc le ne adlapser es y ahcef noc atona es ,)evall US( amargorp adac ed cr46xob le noc anifa es — ecudarter es ON odicudart ay ol :rotcudart led seuqolb ed airomem aL
 
-REV|.)ertsop ed emsihc noc sorejuga neic( sámaj :ohcat led »onu ne odot« lE .ayut se aicnecil al
-,ATREUP al erba rotcudart le — ocsid UT ed o erbil ,odarpmoc oiranib le :omitígel amargorp led
-yel aL
+REV|.)ertsop ed emsihc noc sorejuga neic( sámaj :ohcat led »onu ne odot« lE .ayut se aicnecil al ,ATREUP al erba rotcudart le — ocsid UT ed o erbil ,odarpmoc oiranib le :omitígel amargorp led yel aL
 
-REV|.rotcudart led dadicolev al noc ,laer asac UT ne erroc amargorp le :oesum ed nóicalume se on
-— )amargorp led amoc anu raibmac nis( OLEUV LA MRA → 68x senoiccurtsni ecudarT
+REV|.rotcudart led dadicolev al noc ,laer asac UT ne erroc amargorp le :oesum ed nóicalume se on — )amargorp led amoc anu raibmac nis( OLEUV LA MRA → 68x senoiccurtsni ecudarT
 
 *💌 LAS CARTAS AL LECTOR*
 

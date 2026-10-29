@@ -983,11 +983,9 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|aicnerefer ed oiratinumoc odalcet le — 6202-tco-51 OMSIM led hsup ,0.2-ehcapA ,407.8★
-:draoBsirolF=1
+REV|aicnerefer ed oiratinumoc odalcet le — 6202-tco-51 OMSIM led hsup ,0.2-ehcapA ,407.8★ :draoBsirolF=1
 
-REV|rellat led tig le ne eviv laicifo ogidóc le — ojepse oper se OTUF ed al :)753.3★( OTUF y
-)317.31★( riahcnwaL=2
+REV|rellat led tig le ne eviv laicifo ogidóc le — ojepse oper se OTUF ed al :)753.3★( OTUF y )317.31★( riahcnwaL=2
 
 REV|rodacsub-rodaznal le — 1202-pes-81 le adican ,0.3-LPG ,osnec la 862.5★ :ostiseavK=3
 

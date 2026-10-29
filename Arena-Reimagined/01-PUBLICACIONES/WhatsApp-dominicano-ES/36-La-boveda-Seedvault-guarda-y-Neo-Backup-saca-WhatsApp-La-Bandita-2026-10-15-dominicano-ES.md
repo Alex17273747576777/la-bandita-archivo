@@ -983,11 +983,9 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|erbil diordnA la adargetni — tco-41 led hsup ,7102-pes-12 adican ,6202-tco-51 led oslup la
-868.1★ :tluavdeeS=1
+REV|erbil diordnA la adargetni — tco-41 led hsup ,7102-pes-12 adican ,6202-tco-51 led oslup la 868.1★ :tluavdeeS=1
 
-REV|toor edip y — azeip rop azeip :)6202-yam-3 led hsup ,0.3-LPGA ,)6202-tco-51 osnec( 378.3★(
-pukcaB-oeN=2
+REV|toor edip y — azeip rop azeip :)6202-yam-3 led hsup ,0.3-LPGA ,)6202-tco-51 osnec( 378.3★( pukcaB-oeN=2
 
 REV|aírecrem al ed alger al — asac ed areuf anu ,soidem sod ,saipoc sert=3
 

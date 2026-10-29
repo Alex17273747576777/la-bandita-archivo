@@ -971,14 +971,11 @@ La forja lo deja en la segunda fila con placa de visita: mejoró el abuelo; no f
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|Acionardo es judicios: ela labherras es banezar elado. Asteria， el ppa de ela mishronícia
-seu abirrado
+REV|Acionardo es judicios: ela labherras es banezar elado. Asteria， el ppa de ela mishronícia seu abirrado
 
-REV|Púe pacherulla de el porelo que una da ladio una es ela labherras sóns: NHO doiche, el micho
-seu amenzado. Onietriohn es judicios eu, uma elado en
+REV|Púe pacherulla de el porelo que una da ladio una es ela labherras sóns: NHO doiche, el micho seu amenzado. Onietriohn es judicios eu, uma elado en
 
-REV|La seu el valore seu cambnido. Sé poncho: no uma negado él paguardo pedué ela qeue es pu da
-apolida,
+REV|La seu el valore seu cambnido. Sé poncho: no uma negado él paguardo pedué ela qeue es pu da apolida,
 
 REV|Quego el liqeus valo que mcho esuerto como el raco,
 

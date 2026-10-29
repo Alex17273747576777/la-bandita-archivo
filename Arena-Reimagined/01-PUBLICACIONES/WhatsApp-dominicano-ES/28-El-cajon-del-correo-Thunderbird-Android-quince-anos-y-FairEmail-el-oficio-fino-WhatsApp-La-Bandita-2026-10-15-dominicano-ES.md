@@ -972,16 +972,13 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|liaM 9-K ómall es setna — sesem ohco y soña ecniuq ,1102-bef-4 le odican oper :diordnA
-dribrednuhT=1
+REV|liaM 9-K ómall es setna — sesem ohco y soña ecniuq ,1102-bef-4 le odican oper :diordnA dribrednuhT=1
 
 REV|)drauGteN euq asac amsim al( B66M rellat led ,0.3-LPG ,oslup la 017.4★ ,liamEriaF=2
 
-REV|osimrep ut noc nózub ut eel elbah ol euq elbeum reiuqlauc :)08 sol ed( oerroc led arutcel ed
-otreiba radnátse le=3
+REV|osimrep ut noc nózub ut eel elbah ol euq elbeum reiuqlauc :)08 sol ed( oerroc led arutcel ed otreiba radnátse le=3
 
-REV|ehcon al ed oipmil sám oirrab le — satelpmoc samrif sod sal ,0.3-LPG y 0.2-ehcapA :ocnalb ne
-sacalp OREC=4
+REV|ehcon al ed oipmil sám oirrab le — satelpmoc samrif sod sal ,0.3-LPG y 0.2-ehcapA :ocnalb ne sacalp OREC=4
 
 REV|lepap ne odlapser ed sogidóc y odidnecne AF2 noc ,)72( ocnort led adevób al ne=5
 

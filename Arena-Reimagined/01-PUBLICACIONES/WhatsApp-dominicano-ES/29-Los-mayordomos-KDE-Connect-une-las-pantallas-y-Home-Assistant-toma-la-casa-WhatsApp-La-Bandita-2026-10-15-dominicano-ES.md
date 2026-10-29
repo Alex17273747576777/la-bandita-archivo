@@ -963,20 +963,15 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|oslup la 084.1★ ,6202-tco-51 led hsup ,0.2-LPG ,)5102-pes-81 oper( sem nu y soña ecno
-:tcennoC EDK=1
+REV|oslup la 084.1★ ,6202-tco-51 led hsup ,0.2-LPG ,)5102-pes-81 oper( sem nu y soña ecno :tcennoC EDK=1
 
-REV|adan ecah on erdam asac al nis — oresac RODIVRES le edip :)tco-61 led hsup ,0.2-ehcapA
-,869.3★( noinapmoC tnatsissA emoH=2
+REV|adan ecah on erdam asac al nis — oresac RODIVRES le edip :)tco-61 led hsup ,0.2-ehcapA ,869.3★( noinapmoC tnatsissA emoH=2
 
-REV|ayut al se ebun al · aneaf rop sominím sosimrep · odot ne ocináp ed nótob · secev sert neib
-secah ay euq ol azitamotua=3
+REV|ayut al se ebun al · aneaf rop sominím sosimrep · odot ne ocináp ed nótob · secev sert neib secah ay euq ol azitamotua=3
 
-REV|000.08★ ed asap erdam tnatsissA emoH y oretne ametsisoce nu se EDK :erdam asac al ne edim es
-oicifo le euqrop=4
+REV|000.08★ ed asap erdam tnatsissA emoH y oretne ametsisoce nu se EDK :erdam asac al ne edim es oicifo le euqrop=4
 
-REV|asac al ed lepap le ne atona el es y aroh aidem ne acilpxe el es ,odal la odatnes railimaf
-le NOC alatsni el es=5
+REV|asac al ed lepap le ne atona el es y aroh aidem ne acilpxe el es ,odal la odatnes railimaf le NOC alatsni el es=5
 
 (Las respuestas correctas —de arriba abajo— son: KDE Connect el puente de once años; Home
 Companion la mano que pide servidor; las cuatro reglas de la vara; la casa madre la que pesa en

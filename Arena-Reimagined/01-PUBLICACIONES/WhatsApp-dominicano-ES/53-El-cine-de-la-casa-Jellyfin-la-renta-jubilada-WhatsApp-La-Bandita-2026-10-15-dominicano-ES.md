@@ -986,20 +986,15 @@ La casa no improvisa: programa. Y la noche firma: el cine de la casa — la cole
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.setna adamrif LPG yel al — odad ay ol noc oicifo le óiugis dadinumoc al y )8102( ogidóc us
-órrec ybme le :aicneced al ed nóicacrufib aL
+REV|.setna adamrif LPG yel al — odad ay ol noc oicifo le óiugis dadinumoc al y )8102( ogidóc us órrec ybme le :aicneced al ed nóicacrufib aL
 
-REV|.agedob al ne ocirótsih le ,ajac al ne sem led nóicceles al :etnatse led setna agedob al ed
-arav al — )alucílep rop 08-03 K4 ,BG 8-2 DH( nóicceloc al ed SARET soL
+REV|.agedob al ne ocirótsih le ,ajac al ne sem led nóicceles al :etnatse led setna agedob al ed arav al — )alucílep rop 08-03 K4 ,BG 8-2 DH( nóicceloc al ed SARET soL
 
-REV|.oirrab led emrif sám areñin al :latnerap lortnoc led derap al — oiraroh y )soñaelpmuc le
-sámaj( ogidóc noc ,sarutacirac oloS
+REV|.oirrab led emrif sám areñin al :latnerap lortnoc led derap al — oiraroh y )soñaelpmuc le sámaj( ogidóc noc ,sarutacirac oloS
 
-REV|.rodarepo led ellac al rop K4 al sámaj :ovlas a ,sem led nalp le — )ajac al ed
-nóicacifidocsnart al( adartne ed sanaivil senoisrev saL
+REV|.rodarepo led ellac al rop K4 al sámaj :ovlas a ,sem led nalp le — )ajac al ed nóicacifidocsnart al( adartne ed sanaivil senoisrev saL
 
-REV|.ralibuj ne atner amitlú al :nóicceloc al avihcra etnatse le ;oviv ev es oidatse le — oviv
-ne oditrap lE
+REV|.ralibuj ne atner amitlú al :nóicceloc al avihcra etnatse le ;oviv ev es oidatse le — oviv ne oditrap lE
 
 *💌 LAS CARTAS AL LECTOR*
 

@@ -964,19 +964,15 @@ firma.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.»aiporp atad noc asac ne odanifa« :otsenoh olutór le amrif es amicne y — )esraval nis
-ajaiv( esab orrat led artel aL
+REV|.»aiporp atad noc asac ne odanifa« :otsenoh olutór le amrif es amicne y — )esraval nis ajaiv( esab orrat led artel aL
 
-REV|.)244.98★ y 158.88★( tahc led ajerap al ed ojabed ,)985.86★( onif oicifo led y )461.96★(
-erfoc led amicne :)221.87★( nózas led acalp aL
+REV|.)244.98★ y 158.88★( tahc led ajerap al ed ojabed ,)985.86★( onif oicifo led y )461.96★( erfoc led amicne :)221.87★( nózas led acalp aL
 
-REV|.ednarg asem al ne sámaj ,oyasne ne :tubed le — oicifo led selaer satnugerp etniev sal ed
-nemaxe lE
+REV|.ednarg asem al ne sámaj ,oyasne ne :tubed le — oicifo led selaer satnugerp etniev sal ed nemaxe lE
 
 REV|.arupa es on aírtseam al ;edeup ON esab le euq ol ap :nózas le — airomem ed esab asnep ed sem nU
 
-REV|.oicogen us ap olager ed ,anirtiv al ed olemeg le :najaiv sámaj oicifo led solpmeje sol —
-AJAC AL NE
+REV|.oicogen us ap olager ed ,anirtiv al ed olemeg le :najaiv sámaj oicifo led solpmeje sol — AJAC AL NE
 
 *💌 LAS CARTAS AL LECTOR*
 

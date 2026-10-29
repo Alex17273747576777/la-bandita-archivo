@@ -1005,20 +1005,15 @@ La casa no improvisa: programa. Y la noche firma: la casa que piensa — el cere
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.odnasnep eugis asac al ,tenretni nis — AJAC UT NE ,ayut al ;)soicogen sert ,sebun sert
-,saramác sert( areufa ,adneit al ed aL
+REV|.odnasnep eugis asac al ,tenretni nis — AJAC UT NE ,ayut al ;)soicogen sert ,sebun sert ,saramác sert( areufa ,adneit al ed aL
 
-REV|.obicer led %52-51 le :adanajar asac al ed aguf royam al — )saroh 42 ed zev ne 00:7-03:5(
-rodatnelac led aL
+REV|.obicer led %52-51 le :adanajar asac al ed aguf royam al — )saroh 42 ed zev ne 00:7-03:5( rodatnelac led aL
 
-REV|.secev sod adasnep y azilóp noc ,LANIF la arudarrec al — )apam noc ,sosep sotneiniuq lim(
-etnegiletni efuhcne lE
+REV|.secev sod adasnep y azilóp noc ,LANIF la arudarrec al — )apam noc ,sosep sotneiniuq lim( etnegiletni efuhcne lE
 
-REV|.rellat led azilóp al noc edrat anu ne odaruatser ,orberec le y — )efuhcne led ocisíf nótob
-le :launam odom( aviv adeuq asac aL
+REV|.rellat led azilóp al noc edrat anu ne odaruatser ,orberec le y — )efuhcne led ocisíf nótob le :launam odom( aviv adeuq asac aL
 
-REV|.alif al ed ajeiv sám ajrof al ,265.19★ — arbo al adot ed royam acalp ª2 al y )3102-pes-71
-le adican( soña ecerT
+REV|.alif al ed ajeiv sám ajrof al ,265.19★ — arbo al adot ed royam acalp ª2 al y )3102-pes-71 le adican( soña ecerT
 
 *💌 LAS CARTAS AL LECTOR*
 

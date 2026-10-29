@@ -988,19 +988,15 @@ La casa no improvisa: programa. Y la noche firma: el cofre de la casa — las ll
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.ortned oñeud us noc in olreel aírdop sámaj ajac al ;otarapa le NE arfic es oterces le —
-ODARREC ERFOC NU adrauG
+REV|.ortned oñeud us noc in olreel aírdop sámaj ajac al ;otarapa le NE arfic es oterces le — ODARREC ERFOC NU adrauG
 
-REV|.nójac led lepap le ne ,onam a atircse ,sarbalap ortauc ed esarf al :SETNA amrif es ose rop
-— erpmeis ap edreip eS
+REV|.nójac led lepap le ne ,onam a atircse ,sarbalap ortauc ed esarf al :SETNA amrif es ose rop — erpmeis ap edreip eS
 
 REV|.ajac UT a odnatnupa LRU al ,etsuja nu — )nedrawtiB( radnátse led sppa sal :erpmeis ed aL
 
-REV|.erpmeis ap evall al adraug tahc le :tahc le rop sámaj — )aíd nu ed otneimicnev noc( erfoc
-led oditrapmoc le roP
+REV|.erpmeis ap evall al adraug tahc le :tahc le rop sámaj — )aíd nu ed otneimicnev noc( erfoc led oditrapmoc le roP
 
-REV|.sadamrif sám sal ,samitní sám saneaf sal — )461.96★( erfoc etse y )265.19★( orberec le
-,)804.611★( mublá le :serT
+REV|.sadamrif sám sal ,samitní sám saneaf sal — )461.96★( erfoc etse y )265.19★( orberec le ,)804.611★( mublá le :serT
 
 *💌 LAS CARTAS AL LECTOR*
 

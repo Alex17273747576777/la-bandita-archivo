@@ -971,20 +971,15 @@ La casa no improvisa: decide. Y la noche firma: la raíz del teléfono — el po
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.ecah es on euq al se zíar rojem al — atsab euq ocihc rellat ,aicogen on euq acnab
-,etneidnep aítnarag :atisecen al on asac al odnauC
+REV|.ecah es on euq al se zíar rojem al — atsab euq ocihc rellat ,aicogen on euq acnab ,etneidnep aítnarag :atisecen al on asac al odnauC
 
-REV|.orbmoh noc orbmoh ,5102 y 6102 :sanaretev ed ajerap al — )357.26★( ollislob led amicne
-ZIRAN ANU :)703.36★( zíar al ed acalp aL
+REV|.orbmoh noc orbmoh ,5102 y 6102 :sanaretev ed ajerap al — )357.26★( ollislob led amicne ZIRAN ANU :)703.36★( zíar al ed acalp aL
 
-REV|.zirtacic nis ,oipmil ejatnomsed — ojabed otcatni adeuq lanigiro diordnA le :ametsis led
-ABIRRA ROP atnom eS
+REV|.zirtacic nis ,oipmil ejatnomsed — ojabed otcatni adeuq lanigiro diordnA le :ametsis led ABIRRA ROP atnom eS
 
-REV|.natepser es ,naelep es ON :acirbáf ed erawmrif nedip euq sal — )aretrac al ,ocnab le(
-sasoivren sppa sal ed zíar al ednocsE
+REV|.natepser es ,naelep es ON :acirbáf ed erawmrif nedip euq sal — )aretrac al ,ocnab le( sasoivren sppa sal ed zíar al ednocsE
 
-REV|.acnarra on ,revlov ebas on euq le — ertsased led oyasne y socsid sod ne otelpmoc odlapser
-:azilóp aL
+REV|.acnarra on ,revlov ebas on euq le — ertsased led oyasne y socsid sod ne otelpmoc odlapser :azilóp aL
 
 *💌 LAS CARTAS AL LECTOR*
 

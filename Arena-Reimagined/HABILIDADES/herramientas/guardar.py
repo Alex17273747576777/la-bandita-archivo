@@ -10,7 +10,7 @@ MIR=Path('/home/user/la-bandita-archivo'); PROY=Path('/home/user/Arena-Reimagine
 assert os.environ.get('LB_TOKEN'), 'falta LB_TOKEN en el entorno'
 msg=sys.argv[1] if len(sys.argv)>1 else 'Guardado La Bandita'
 def run(*a,**k): return subprocess.run(*a,**k,check=True,capture_output=True,text=True)
-with tempfile.TemporaryDirectory() as td:
+with tempfile.TemporaryDirectory(dir='/home/user') as td:  # /tmp se llena con clones: disco del workspace
     ask=Path(td)/'ask.py'; ask.write_text("#!/usr/bin/env python3\nimport os,sys\nprint('x-access-token' if 'Username' in sys.argv[-1] else os.environ['LB_TOKEN'])\n"); ask.chmod(0o755)
     env=dict(os.environ,GIT_ASKPASS=str(ask),GIT_TERMINAL_PROMPT='0')
     clon=Path(td)/'repo'; run(['git','clone','-q','https://github.com/Alex17273747576777/la-bandita-archivo.git',str(clon)],env=env)

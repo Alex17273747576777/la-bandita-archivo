@@ -973,18 +973,15 @@ La casa no improvisa: programa. Y la noche firma: la mente propia — el pensar,
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.adneit al ed rellat le ne aipoc us ,nóicasrevnoc adac :aneja aL .ajac al ed elas adan
-:aiporp aL
+REV|.adneit al ed rellat le ne aipoc us ,nóicasrevnoc adac :aneja aL .ajac al ed elas adan :aiporp aL
 
 REV|.amaf rop sámaj — repoleved le ap ogidóc led al ,aíd a aíd le ap anaidem al :oicifo roP
 
 REV|.adamrif ,nógapa led abeurp al :ocsid le NE eviv oledom le — laugi atsetnoc :adaN
 
-REV|.atnugerp el es odnauc olos agrac :adimrod orec y — )sttaw 001-05( odnasnep ednarg ollibmob
-nu omoc emoC
+REV|.atnugerp el es odnauc olos agrac :adimrod orec y — )sttaw 001-05( odnasnep ednarg ollibmob nu omoc emoC
 
-REV|.)6202-tco-61 oslup ,874.381★( amallO :royam acalp aL .amallO óitsiv euq aigroeG ed ajrof al
-— )304.131★( ppc.amall :rotom lE
+REV|.)6202-tco-61 oslup ,874.381★( amallO :royam acalp aL .amallO óitsiv euq aigroeG ed ajrof al — )304.131★( ppc.amall :rotom lE
 
 *💌 LAS CARTAS AL LECTOR*
 

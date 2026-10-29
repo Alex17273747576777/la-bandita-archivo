@@ -1043,21 +1043,15 @@ Y la noche firma: la regleta — el enchufe con ley; el root de la casa: jamás 
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.spiz ed oesum nu sámaj :oviv efuhcne lE .odafuhcnesed ,aneaf on euq oludóm le :atsenoh adop
-al y — ahcef noc sadaslup-er ailimaf y atelger :ognimod remirp led lausnem arig aL
+REV|.spiz ed oesum nu sámaj :oviv efuhcne lE .odafuhcnesed ,aneaf on euq oludóm le :atsenoh adop al y — ahcef noc sadaslup-er ailimaf y atelger :ognimod remirp led lausnem arig aL
 
-REV|.ratnom ed SETNA eel es lobrá le ,85 al ed arav ojab :)IPA al ne XDPS nis( atelger aiporp al
-:orertel nis atreup al y — )6202-tco-81 osnec( sacalp ohco sal ne sallertse 192.34
+REV|.ratnom ed SETNA eel es lobrá le ,85 al ed arav ojab :)IPA al ne XDPS nis( atelger aiporp al :orertel nis atreup al y — )6202-tco-81 osnec( sacalp ohco sal ne sallertse 192.34
 
-REV|.aicargsed al ed SETNA adayasne oludóm adac ed adilas al y ,odnatona aterbil al — adagurdam
-y sotad ,sadamall ed saroh 42 :oretne aíd led abeurp al noc ,zev al a ailimaf anU
+REV|.aicargsed al ed SETNA adayasne oludóm adac ed adilas al y ,odnatona aterbil al — adagurdam y sotad ,sadamall ed saroh 42 :oretne aíd led abeurp al noc ,zev al a ailimaf anU
 
-REV|.zíar al a artne sámaj )»odaekcarc-muimerp« le( ohcat led onafréuh piz le — oñeud US y ahcef
-US noc laicifo esaeler al :ajrof US ed piz lE
+REV|.zíar al a artne sámaj )»odaekcarc-muimerp« le( ohcat led onafréuh piz le — oñeud US y ahcef US noc laicifo esaeler al :ajrof US ed piz lE
 
-REV|.)odneiviv soludóm sol nos arbo US :anatnev eneit on( ppa se ON y )ohceh ay toor nu NE eviv(
-toor se ON .rotpurretni eneit on derap al odnauc neviv soludóm sol ednod efuhcne le :ksigyZ ed
-enoladnats nóicatnemelpmi aL
+REV|.)odneiviv soludóm sol nos arbo US :anatnev eneit on( ppa se ON y )ohceh ay toor nu NE eviv( toor se ON .rotpurretni eneit on derap al odnauc neviv soludóm sol ednod efuhcne le :ksigyZ ed enoladnats nóicatnemelpmi aL
 
 *💌 LAS CARTAS AL LECTOR*
 

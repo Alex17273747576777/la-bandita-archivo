@@ -934,11 +934,9 @@ REV|atcerid nóicpircsus al — tco-41 led hsup ,0.3-LPG ,6202-tco-51 led oslup 
 
 REV|serbil sppa ed selim ed ogolátac le aruc y amrif ,alipmoc :0102 edsed etnatse le ,diorD-F=2
 
-REV|acot ol on odagap ol — ocilbúp ol ap otaminona :)tco-2 led hsup ,LPG ,)6202-tco-51 osnec(
-221.3★( erotS aroruA=3
+REV|acot ol on odagap ol — ocilbúp ol ap otaminona :)tco-2 led hsup ,LPG ,)6202-tco-51 osnec( 221.3★( erotS aroruA=3
 
-REV|oñesid rop ocilbúp amrif rodiubirtsid le — atinob arac noc opurg le se atidua es on euq
-atreup al=4
+REV|oñesid rop ocilbúp amrif rodiubirtsid le — atinob arac noc opurg le se atidua es on euq atreup al=4
 
 REV|ocináp noc on ,atsil noc algerra es satreup ed aredaderne al :etneuf anu ,ppa anu=5
 

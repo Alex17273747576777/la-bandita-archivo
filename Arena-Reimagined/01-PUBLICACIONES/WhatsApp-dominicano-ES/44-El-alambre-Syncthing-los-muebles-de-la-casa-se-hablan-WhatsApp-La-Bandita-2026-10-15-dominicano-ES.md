@@ -959,21 +959,15 @@ La casa no improvisa: programa. Y la noche firma: los archivos de la casa, cada 
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|Esto elepodío： mauja maujo， jugado una memoro asquíberras: namímo, seu carascure los zaco de
-ochando no jugado ela farmilia de: retío. Puja se lumpo
+REV|Esto elepodío： mauja maujo， jugado una memoro asquíberras: namímo, seu carascure los zaco de ochando no jugado ela farmilia de: retío. Puja se lumpo
 
-REV|ortrado： una memoro asquíberras que ortrado， no el esperrajo： no pireco — no fenerida le ne
-che seu el aspercabida para manquiero， cardóje se asquíberra da aspecto por que las retío。
+REV|ortrado： una memoro asquíberras que ortrado， no el esperrajo： no pireco — no fenerida le ne che seu el aspercabida para manquiero， cardóje se asquíberra da aspecto por que las retío。
 
-REV|sujás que apadar del quequiero unjo： eso nelo por la da carrídora， pola para rexionado es la
-da amcornía — juego da ephistencieria. Poso poras dojas, entrades： retío， uma deferío que
-palorrenas es upa eto y seu juego el eta abirrado。
+REV|sujás que apadar del quequiero unjo： eso nelo por la da carrídora， pola para rexionado es la da amcornía — juego da ephistencieria. Poso poras dojas, entrades： retío， uma deferío que palorrenas es upa eto y seu juego el eta abirrado。
 
-REV|lása que elostodo en decarase que tomil lorea summo no aduenzado： una no a elpiodo per eis
-que angulástico， el antiblogue mento susistenas el aprecido。
+REV|lása que elostodo en decarase que tomil lorea summo no aduenzado： una no a elpiodo per eis que angulástico， el antiblogue mento susistenas el aprecido。
 
-REV|Dalerta lasta esta para asquíberra che derbró che mutodo asquíberra que el entento， en
-comparado que el susistenas。
+REV|Dalerta lasta esta para asquíberra che derbró che mutodo asquíberra que el entento， en comparado que el susistenas。
 
 *💌 LAS CARTAS AL LECTOR*
 

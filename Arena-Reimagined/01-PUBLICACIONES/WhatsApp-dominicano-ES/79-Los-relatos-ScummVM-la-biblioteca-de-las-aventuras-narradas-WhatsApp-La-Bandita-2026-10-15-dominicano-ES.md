@@ -962,22 +962,15 @@ salón; el capítulo 12 del hermano: con cofre y con respeto.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.sámaj :»odarugifnoc-erp« atarip onroh lE .asac al ed etnatse led sogeuj sol ,adíel artel US
-noc ajrof US ed odatnom — SOD led sotaler sol ap :)»noitaunitnoc nredom« al ,518.1★( gnigatS
-xoBSOD
+REV|.sámaj :»odarugifnoc-erp« atarip onroh lE .asac al ed etnatse led sogeuj sol ,adíel artel US noc ajrof US ed odatnom — SOD led sotaler sol ap :)»noitaunitnoc nredom« al ,518.1★( gnigatS xoBSOD
 
-REV|.nólas led royam al ,)6202-1002( ajrof ed SOÑA OCNICITNIEV :arreic euq amicéd al ed amicne
-,)462.2 rop( 221.5★ allatnap elbod al ed ojabed — )6202-tco-81 oslup( 858.2★ :nólas led acalp
-anevon aL
+REV|.nólas led royam al ,)6202-1002( ajrof ed SOÑA OCNICITNIEV :arreic euq amicéd al ed amicne ,)462.2 rop( 221.5★ allatnap elbod al ed ojabed — )6202-tco-81 oslup( 858.2★ :nólas led acalp anevon aL
 
-REV|.alesodnéimoc sámaj ,edrat al odneivris :otneuc lE .atnuj odnanivida áfos le ,elet al ap
-adadnarga artel al — lanif la evas le noc aíd led olutípac le :otar rop anigáp ANU
+REV|.alesodnéimoc sámaj ,edrat al odneivris :otneuc lE .atnuj odnanivida áfos le ,elet al ap adadnarga artel al — lanif la evas le noc aíd led olutípac le :otar rop anigáp ANU
 
-REV|.sámaj — ertsop ed emsihc noc sobor neic :ohcat led »sodaekcarc 004« lE .etnatse led ol
-amrif acetoilbib al — aiporp arpmoc al o oiporp DC le :omitígel otneuc led yel aL
+REV|.sámaj — ertsop ed emsihc noc sobor neic :ohcat led »sodaekcarc 004« lE .etnatse led ol amrif acetoilbib al — aiporp arpmoc al o oiporp DC le :omitígel otneuc led yel aL
 
-REV|.ojitreca US y zov US noc OTNEUC le adraug :)nóicalume al se ose( aniuqám atimi on — adidem
-al a otircseer rotom US noc arutneva ed ogeuj adac :SEROTOM ed acetoilbib anU
+REV|.ojitreca US y zov US noc OTNEUC le adraug :)nóicalume al se ose( aniuqám atimi on — adidem al a otircseer rotom US noc arutneva ed ogeuj adac :SEROTOM ed acetoilbib anU
 
 *💌 LAS CARTAS AL LECTOR*
 

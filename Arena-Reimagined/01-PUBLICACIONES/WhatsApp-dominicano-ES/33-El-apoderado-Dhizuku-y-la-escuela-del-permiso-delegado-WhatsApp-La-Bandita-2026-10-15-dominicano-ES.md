@@ -970,14 +970,11 @@ para que nadie las palmee sin pensarse el plato.
 
 REV|s0rmai rellat led — tco-41 led hsup ,0.3-LPG ,6202-tco-51 led oslup la 079.3★ :ukuzihD=1
 
-REV|nelbah selbeum sol sodot euq ap ohcna erba es amoidi le ;tfelypoc egetorp es amargorp le
-:yel us azeip adac=2
+REV|nelbah selbeum sol sodot euq ap ohcna erba es amoidi le ;tfelypoc egetorp es amargorp le :yel us azeip adac=2
 
-REV|on odaredopa le ;ametsis le acot toor le — )sppa artsinimda( rodartsinimda ed LAICIFO
-osimrep le=3
+REV|on odaredopa le ;ametsis le acot toor le — )sppa artsinimda( rodartsinimda ed LAICIFO osimrep le=3
 
-REV|sod sal noc aripser aleucse al — tco-41 le ajupme ajih al ;ehcapA noc sesem siésiceid ateiuq
-)ukuzihS( erdam al=4
+REV|sod sal noc aripser aleucse al — tco-41 le ajupme ajih al ;ehcapA noc sesem siésiceid ateiuq )ukuzihS( erdam al=4
 
 REV|seuqot sod ne elbacover ,odatona odnamoc ,adacifirev ppa anu ,odaredopa nu=5
 

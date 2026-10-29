@@ -990,11 +990,9 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|sppAuoY ovitceloc led aterbil al — luj-03 led hsup ,0.3-LPG ,6202-tco-51 led osnec la 727★
-:uoYtcennoC=1
+REV|sppAuoY ovitceloc led aterbil al — luj-03 led hsup ,0.3-LPG ,6202-tco-51 led osnec la 727★ :uoYtcennoC=1
 
-REV|sotxet ed orejasnem le — SMSKQ ejanil led oredereh :)pes-72 led hsup ,0.3-LPG ,)6202-tco-51
-osnec( 358.2★( kiuQ=2
+REV|sotxet ed orejasnem le — SMSKQ ejanil led oredereh :)pes-72 led hsup ,0.3-LPG ,)6202-tco-51 osnec( 358.2★( kiuQ=2
 
 REV|aruatser es y ajaiv euq ovihcra NU ne aretne aterbil al :etneg al ed otreiba otamrof le=3
 

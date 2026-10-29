@@ -1084,20 +1084,15 @@ SOLO con libreta clara; la casa sin libreta es la ruleta.
 Con la vara fina de los riesgos: la doctrina de la fila manda — el oficio no se apura; el
 respaldo y la libreta lo sostienen.
 
-REV|.)6202-tco-81 oslup( 960.8★ ,6202-tco-61 hsup ,3202-oga-12 odican ,0.3-LPG ,)MPK soludóm +
-yeKrepuS( diordnA ed lenrek OIPORP le ne esoc zíar al — lenrek led ehcrap le :hctaPA se éuQ
+REV|.)6202-tco-81 oslup( 960.8★ ,6202-tco-61 hsup ,3202-oga-12 odican ,0.3-LPG ,)MPK soludóm + yeKrepuS( diordnA ed lenrek OIPORP le ne esoc zíar al — lenrek led ehcrap le :hctaPA se éuQ
 
-REV|.ohcat sámaj )hctaPA/121xamb( laicifo oper · edneimer led SETNA odlapser · )lasrevinu lenrek
-sámaj( oledom UT ed ATCAXE negami :oro ed salger sert saL
+REV|.ohcat sámaj )hctaPA/121xamb( laicifo oper · edneimer led SETNA odlapser · )lasrevinu lenrek sámaj( oledom UT ed ATCAXE negami :oro ed salger sert saL
 
-REV|.edneimer le noc acirbáf ed eneiv ay onif etidnocse le y ;aretsihc al se adager alager es
-euq zíar al — osimrep US noc ppa rop ppa zíar al ad yeKrepuS al :evall aL
+REV|.edneimer le noc acirbáf ed eneiv ay onif etidnocse le y ;aretsihc al se adager alager es euq zíar al — osimrep US noc ppa rop ppa zíar al ad yeKrepuS al :evall aL
 
-REV|.alif al ed dadidnuforp royam ed ajrof al — 299.24Σ ,ojaba acirbáf al noc 773Δ ,abirra
-atelger al noc 565.2Δ — II toor alif al ne ohco ed ODNUGES :adidem aL
+REV|.alif al ed dadidnuforp royam ed ajrof al — 299.24Σ ,ojaba acirbáf al noc 773Δ ,abirra atelger al noc 565.2Δ — II toor alif al ne ohco ed ODNUGES :adidem aL
 
-REV|.adadlapser lanigiro negami al noc evleuved es nózaroc le ;ahcef y ehcrap led nóisrev ,dliub
-,lenrek noc aterbil al ;edneimer-er arboc oveun lenrek — amlac noc arim es ATO adac :arig aL
+REV|.adadlapser lanigiro negami al noc evleuved es nózaroc le ;ahcef y ehcrap led nóisrev ,dliub ,lenrek noc aterbil al ;edneimer-er arboc oveun lenrek — amlac noc arim es ATO adac :arig aL
 
 ───────────────────
 

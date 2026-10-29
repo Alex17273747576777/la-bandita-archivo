@@ -964,19 +964,15 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|tco-31 led hsup y 0.2-LPM ,6202-tco-51 led osnec la soña ecert isac :3102-von-62 le adican
-,gnihtcnyS=1
+REV|tco-31 led hsup y 0.2-LPM ,6202-tco-51 led osnec la soña ecert isac :3102-von-62 le adican ,gnihtcnyS=1
 
 REV|otnematset ed 0.2-ehcapA noc ,6202-tco-61 led hsup ,oslup la 063.41★ ,aipoK=2
 
-REV|5202-tco-92 adicaner ,tco-41 led hsup ,0.2-LPM ,diordna-gnihtcnys/lxxhcraeser yoh
-:1dneirftaC ed krof xe le=3
+REV|5202-tco-92 adicaner ,tco-41 led hsup ,0.2-LPM ,diordna-gnihtcnys/lxxhcraeser yoh :1dneirftaC ed krof xe le=3
 
-REV|reya ed nóisrev al eneit opmeit led aniuqám al olos — serorre sol NÉIBMAT aipoc ojepse le
-euqrop=4
+REV|reya ed nóisrev al eneit opmeit led aniuqám al olos — serorre sol NÉIBMAT aipoc ojepse le euqrop=4
 
-REV|opmeit led aniuqám y ojepse — ocirótsih ol arap )aipoK/citser( odarfic odlapser ,oviv ol
-arap )gnihtcnyS( nóicazinorcnis=5
+REV|opmeit led aniuqám y ojepse — ocirótsih ol arap )aipoK/citser( odarfic odlapser ,oviv ol arap )gnihtcnyS( nóicazinorcnis=5
 
 (Las respuestas correctas —de arriba abajo— son: Syncthing la abuela de casi trece años; Kopia
 la que empujó el mismo día; researchxxl la nueva casa del fork; el espejo que copia los errores;

@@ -1000,16 +1000,13 @@ desastre?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.atsetnoc ajac al ,edip areufa ed le :séver la anoicnuf obut le — otcatni retuor le :otreup
-nu sámaj — ONUGNIN
+REV|.atsetnoc ajac al ,edip areufa ed le :séver la anoicnuf obut le — otcatni retuor le :otreup nu sámaj — ONUGNIN
 
-REV|.sotreiba sojo noc ,osoreneg-oneja le ne o )elacsdaeH( ajac UT ne — )sevall sus ,sotarapa
-sol( ailimaf al ne néiuq se néiuQ
+REV|.sotreiba sojo noc ,osoreneg-oneja le ne o )elacsdaeH( ajac UT ne — )sevall sus ,sotarapa sol( ailimaf al ne néiuq se néiuQ
 
 REV|.onas ,oesap led nalp le :ASAC al ap se obut le — otcerid elas :adaN
 
-REV|.ailimaf al ed sotunim ocnic ,namrifer es sevall sal :ertsased le sart y — )atsil al edsed
-adaslupxe( euqot la atreuM
+REV|.ailimaf al ed sotunim ocnic ,namrifer es sevall sal :ertsased le sart y — )atsil al edsed adaslupxe( euqot la atreuM
 
 REV|.4c2xz asac us ne odamrif ,sodot ed rotom le — xuniL ed lenrek le y elacsdaeH ,elacsliaT
 

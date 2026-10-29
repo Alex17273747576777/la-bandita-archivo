@@ -871,8 +871,7 @@ REV|aíd omsim led hsup noc ,soicnuna nis oceñum le — )6202-tco-51 osnec( 899
 
 REV|odnarepse oredereh y odamrif otnematset noc 0.3-LPGA ,6202-tco-51 led osnec la 757.5★ — uriM=2
 
-REV|ednopser lagel amrif US y ,oirausu le atcenoc sal senoisnetxe sal :odinetnoc eart on ppa al
-euq=3
+REV|ednopser lagel amrif US y ,oirausu le atcenoc sal senoisnetxe sal :odinetnoc eart on ppa al euq=3
 
 REV|osiva le avresnoc ,aipoc ,asu :elpmis amrif al — TIM=4
 

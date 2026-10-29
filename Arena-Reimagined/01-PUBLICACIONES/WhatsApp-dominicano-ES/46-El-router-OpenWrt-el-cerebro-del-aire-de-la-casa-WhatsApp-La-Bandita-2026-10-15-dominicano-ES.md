@@ -966,16 +966,13 @@ administra como la casa — con placas, ritual y paredes; jamás con el aire abi
 
 REV|.anirtcod al ed onu alger al — atisiv eidan euq nólas led ajac al :asac al ed retuor lE
 
-REV|.kcirb le se onicev led dliub le — aznadum yah on o ,atsil al ne OTCAXE oledom ut :otceyorp
-led erawdrah ed albat aL
+REV|.kcirb le se onicev led dliub le — aznadum yah on o ,atsil al ne OTCAXE oledom ut :otceyorp led erawdrah ed albat aL
 
-REV|.eria led atseuqro al — )44 al( erbmala led nóicatse al y )34 al( lenút le ,)24 al( ecidní
-led oraf lE
+REV|.eria led atseuqro al — )44 al( erbmala led nóicatse al y )34 al( lenút le ,)24 al( ecidní led oraf lE
 
 REV|.alosnoc nis ,rodagevan ne oicifo le — 4102 edsed retuor led bew al :ICuL
 
-REV|.retuor led bew al edsed alatsnier es rodarepo led acirbáf ed erawmrif le :sert osip led
-odlapser le noC
+REV|.retuor led bew al edsed alatsnier es rodarepo led acirbáf ed erawmrif le :sert osip led odlapser le noC
 
 Hmm wait — I'm making errors writing reversed text again? NO — the ley: quiz en TEXTO NORMAL.
 

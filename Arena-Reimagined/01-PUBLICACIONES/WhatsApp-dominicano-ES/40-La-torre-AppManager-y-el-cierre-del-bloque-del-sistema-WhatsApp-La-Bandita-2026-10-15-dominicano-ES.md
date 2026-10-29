@@ -1005,11 +1005,9 @@ para que nadie las palmee sin pensarse el plato.
 
 REV|0202-yam-03 adican — yoh ed hsup ,)YOH( 6202-tco-61 led oslup la 442.9★ :reganaM ppA=1
 
-REV|)rodarim le y oipocsorcim le( odnof a anu arim apul al — ozatsiv nu a sppa sal sadot :aretne
-daduic al=2
+REV|)rodarim le y oipocsorcim le( odnof a anu arim apul al — ozatsiv nu a sppa sal sadot :aretne daduic al=2
 
-REV|odlapser nis acnun y — )02 toor noc( rarepo · )33 odaredopa le noc( ramrif · )alos errot(
-rarim=3
+REV|odlapser nis acnun y — )02 toor noc( rarepo · )33 odaredopa le noc( ramrif · )alos errot( rarim=3
 
 REV|sotunim ecniuq — )sem recret adac samrif y( sosimrep → odnof → serodaertsar=4
 

@@ -987,18 +987,15 @@ Y la noche firma: el aire de la casa, con expediente desde hoy.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.)omalcer ,elbeum ,lanac( séupsed av onam al :algerra sámaj y — airotsih e lañes ,selanac
-:eria le artseuM
+REV|.)omalcer ,elbeum ,lanac( séupsed av onam al :algerra sámaj y — airotsih e lañes ,selanac :eria le artseuM
 
 REV|.namrif mBd sol ;nanipo sarrab saL .eires al ed arav al :ahcef noc 87- lE
 
 REV|.oaelep lirrac orto ne azirreta ridem nis esradum :apmart al y — 11 le y 6 le ,1 lE
 
-REV|.asac ut ed o oirrab led se adíac ut is y — oirrab led eria le anell es odnáuc :ollurab led
-aroh aL
+REV|.asac ut ed o oirrab led se adíac ut is y — oirrab led eria le anell es odnáuc :ollurab led aroh aL
 
-REV|.arutcaf al ne odleus remirp us arboc adidem al — otof al ed lanac le y senocnir sol ed mBd
-sol :rodidem led arig aL
+REV|.arutcaf al ne odleus remirp us arboc adidem al — otof al ed lanac le y senocnir sol ed mBd sol :rodidem led arig aL
 
 Hmm — me equivoqué de nuevo: dejé marcadores "TEXTO NORMAL:" dentro. Lo corrijo con replace en
 bash: las 5 líneas correctas serán:

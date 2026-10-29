@@ -579,10 +579,7 @@ Cinco. Las respuestas van AL REVÉS al pie.
 
 Respuestas al revés:
 
-REV|622★/982★ hsuH seleuqort · 577.5★ ER-GorciM esab · 899.8★ reganam-ehprom
-ocnab=1|REV|agracsed es on ,anicoc es — negiro us elav euq ol elav KPA nu=2|REV|acnun riubirtsid
-,ís it arap ranicoc :)2202( decnaV ed adíac al=3|REV|anicoc-er es — acirbáf ed olles le óidrep
-:ÚT etsamrif ol euqrop=4|REV|coDnimdAsyS rellat led sobma — deeFhsuH y koobecaFhsuH=5
+REV|622★/982★ hsuH seleuqort · 577.5★ ER-GorciM esab · 899.8★ reganam-ehprom ocnab=1|REV|agracsed es on ,anicoc es — negiro us elav euq ol elav KPA nu=2|REV|acnun riubirtsid ,ís it arap ranicoc :)2202( decnaV ed adíac al=3|REV|anicoc-er es — acirbáf ed olles le óidrep :ÚT etsamrif ol euqrop=4|REV|coDnimdAsyS rellat led sobma — deeFhsuH y koobecaFhsuH=5
 
 (Las respuestas correctas, al derecho: 1=banco morphe-manager ★8.998 · base MicroG-RE ★5.775 · troqueles Hush ★289/★226; 2=un APK vale lo que vale su origen — se cocina, no se descarga; 3=la caída de Vanced (2022): cocinar para ti sí, distribuir nunca
 

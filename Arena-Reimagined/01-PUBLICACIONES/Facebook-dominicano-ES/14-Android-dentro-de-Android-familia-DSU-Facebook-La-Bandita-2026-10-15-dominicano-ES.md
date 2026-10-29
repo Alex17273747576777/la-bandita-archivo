@@ -424,11 +424,7 @@ tarde: ★2 el hijo, ★2.325 el padre. · 21:10 — esta gemela nace certificad
 Respuestas al revés (léelas de atrás pa' adelante):
 1: se GMI (Generic system Image) enunciado nua o customo puerior distacio — distado esciencio
 del Tertreble (2017) faciliado para madel de querprisáncia tracodo secerado
-REV|aseuq and un aroba euq odadart aciuq acartserralerp ed oiramirp odanot aledap ohlE
-REV|)5202-rja 52 hsup( 513★ )ssoea_elbert yer ,5202-ene-72 hsup( 265.3★ — edaicnune aiseY
-.nartsim retsiM ,nosshup ,secnop ,nayA ydnA :soreinacioc sol
-REV|oyam es arap 02.2v aredecorp )8502-29 eíracolim arap aicnune( oelet arbolB
-REV|on :oyam
+REV|aseuq and un aroba euq odadart aciuq acartserralerp ed oiramirp odanot aledap ohlE REV|)5202-rja 52 hsup( 513★ )ssoea_elbert yer ,5202-ene-72 hsup( 265.3★ — edaicnune aiseY .nartsim retsiM ,nosshup ,secnop ,nayA ydnA :soreinacioc sol REV|oyam es arap 02.2v aredecorp )8502-29 eíracolim arap aicnune( oelet arbolB REV|on :oyam
 
 ═════════════════════════════════════
 

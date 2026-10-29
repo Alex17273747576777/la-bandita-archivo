@@ -968,21 +968,15 @@ bolsillo, de vuelta en la pantalla; la pila del 99: con rescate y con respeto.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.ocsiretsa nis :otsenoh oenrot led nóepmac lE .erbil evas :arepse al y ejaiv le ;)raguj ed
-setna atircse arrazip al( odibihorp evas :oter le y oenrot le — yel noc OJUL se :oN
+REV|.ocsiretsa nis :otsenoh oenrot led nóepmac lE .erbil evas :arepse al y ejaiv le ;)raguj ed setna atircse arrazip al( odibihorp evas :oter le y oenrot le — yel noc OJUL se :oN
 
-REV|.)6202-3102( ajrof ed SOÑA ECERT :)828.1 rop( 976.5★ rotcudart led amicne ,)943.3 rop(
-658.01★ atiuqihc argen al ed ojabed — )6202-tco-81 oslup( 705.7★ :nólas led acalp atxes aL
+REV|.)6202-3102( ajrof ed SOÑA ECERT :)828.1 rop( 976.5★ rotcudart led amicne ,)943.3 rop( 658.01★ atiuqihc argen al ed ojabed — )6202-tco-81 oslup( 705.7★ :nólas led acalp atxes aL
 
-REV|.»oicapse recah« ap arrob es sámaj — aiporp al euq adargas sám se senoicareneg sod ed
-aditrap al :ateprac US ne av y otepser noc agrac es ,)socsid sod( racot ed SETNA aipoc eS
+REV|.»oicapse recah« ap arrob es sámaj — aiporp al euq adargas sám se senoicareneg sod ed aditrap al :ateprac US ne av y otepser noc agrac es ,)socsid sod( racot ed SETNA aipoc eS
 
-REV|.)odaclov led séupsed aibmac es :alip al y( anames ATSE neel es nójac led sohcutrac sol
-:etacser lE .olos arrob es evas le ,ereum odnauc — 8991 edsed anera ed joler nu :ohcutrac led
-2302RC alip aL
+REV|.)odaclov led séupsed aibmac es :alip al y( anames ATSE neel es nójac led sohcutrac sol :etacser lE .olos arrob es evas le ,ereum odnauc — 8991 edsed anera ed joler nu :ohcutrac led 2302RC alip aL
 
-REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq mor acinú al( onif rotcel US noc
-eel es nójac led ogeuj le :oiporp ohcutrac led yel al noc — ABG al y yoB emaG aL
+REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq mor acinú al( onif rotcel US noc eel es nójac led ogeuj le :oiporp ohcutrac led yel al noc — ABG al y yoB emaG aL
 
 *💌 LAS CARTAS AL LECTOR*
 

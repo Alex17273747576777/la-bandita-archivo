@@ -1000,14 +1000,11 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|odatacser ejanil led oredereh — tco-31 led hsup ,0.3-LPG ,6202-tco-51 led oslup la 663.1★
-:enohP yfissoF=1
+REV|odatacser ejanil led oredereh — tco-31 led hsup ,0.3-LPG ,6202-tco-51 led oslup la 663.1★ :enohP yfissoF=1
 
-REV|ejalliuqam nis adamrif ,onasetra led duteiuq al — 4202-cid-72 led hsup :)»ppa enohp a tsuj«
-,)6202-tco-51 osnec( 270.1★( reloK=2
+REV|ejalliuqam nis adamrif ,onasetra led duteiuq al — 4202-cid-72 led hsup :)»ppa enohp a tsuj« ,)6202-tco-51 osnec( 270.1★( reloK=2
 
-REV|odadnerra etneg ut ed apam le — olutór nu etrevloved ap aneja der al a ebus lairotsih ut
-:oicogen=3
+REV|odadnerra etneg ut ed apam le — olutór nu etrevloved ap aneja der al a ebus lairotsih ut :oicogen=3
 
 REV|otseuper ed oteiuq acirbáf ed le ,otcefed rop odigele elbeum le :olos onu=4
 

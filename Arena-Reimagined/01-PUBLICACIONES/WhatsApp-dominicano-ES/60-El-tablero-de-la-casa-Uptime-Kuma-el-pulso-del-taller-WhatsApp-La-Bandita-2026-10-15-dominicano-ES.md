@@ -993,18 +993,15 @@ completo.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.arig al ed oicifo :olgerra le — )»61:3«( adasiva nóiccerruser al ,)»41:3«( adahcef adíac al
-:ATSETNOC — algerra oN
+REV|.arig al ed oicifo :olgerra le — )»61:3«( adasiva nóiccerruser al ,)»41:3«( adahcef adíac al :ATSETNOC — algerra oN
 
 REV|.)adíac se on :ifiw ed ehcab nu( odiur le alibuj — sarev ed adíac :sodillaf sodital serT
 
 REV|.anicoc ut edsed adarim ,arutcurtsearfni ut :oneja rellat le amrif sámaj y — AJAC UT NE
 
-REV|.etneilac rellat led amargelet le :onarev led rolac le y — )»ocop odnaripser agedob al«( %08
-la ocsid lE
+REV|.etneilac rellat led amargelet le :onarev led rolac le y — )»ocop odnaripser agedob al«( %08 la ocsid lE
 
-REV|.1202 ne rodajrof olos NU ed adican — )orberec la ósap — 755.29★( arbo al adot ed royam
-acalp adnuges aL
+REV|.1202 ne rodajrof olos NU ed adican — )orberec la ósap — 755.29★( arbo al adot ed royam acalp adnuges aL
 
 *💌 LAS CARTAS AL LECTOR*
 

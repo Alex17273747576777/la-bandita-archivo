@@ -1002,15 +1002,13 @@ La casa no improvisa: programa. Y la noche firma el aire: cada vez más de la ca
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.atnuj sal euq apam le sám — )edim es euq ol :74( arav al y )eviv euq ol :94-44( ragoh le
-,)elas euq ol :34-14( adilas aL
+REV|.atnuj sal euq apam le sám — )edim es euq ol :74( arav al y )eviv euq ol :94-44( ragoh le ,)elas euq ol :34-14( adilas aL
 
 REV|.odnaripser aretne ailimaf al ,yel us asac adac :sarreug orec y — satnitsid seyel eteiS
 
 REV|.anames aremirp al edsed aipmil adarim al — )rasu y ralatsni( licáf sám al :)14( anatnev aL
 
-REV|.orberec le ne eviv oraf le ,lenút le rop ajaiv erbmala le :sarto sal arojem azeip anu
-ratnom euQ
+REV|.orberec le ne eviv oraf le ,lenút le rop ajaiv erbmala le :sarto sal arojem azeip anu ratnom euQ
 
 REV|.asac al ed atarab sám aerat al — eria led arig al :ertsemirt rop aroh anU
 

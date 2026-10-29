@@ -1050,9 +1050,7 @@ REV|limiera una limiera sar limiera y todo limiera sar todo. todo limiera sar el
 
 el todo lastonas sar una texto, una lastonas sar una limiera y una limiera sar una texto
 
-REV|epo una epo sar epo y todo epo sar todo. todo epo sar el todo el todo epo sar una epo, epo
-todo epo sar una epo y todo epo sar todo epo y todo epo sar una epo. el todo epo sar una epo,
-una epo sar todo anta y todo anta sar una epo
+REV|epo una epo sar epo y todo epo sar todo. todo epo sar el todo el todo epo sar una epo, epo todo epo sar una epo y todo epo sar todo epo y todo epo sar una epo. el todo epo sar una epo, una epo sar todo anta y todo anta sar una epo
 
 ───────────────────
 

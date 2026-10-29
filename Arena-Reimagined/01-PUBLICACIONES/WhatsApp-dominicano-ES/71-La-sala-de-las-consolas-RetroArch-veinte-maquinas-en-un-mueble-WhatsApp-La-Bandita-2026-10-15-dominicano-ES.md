@@ -962,21 +962,15 @@ recuerdo, con ley; el mueble: con 16 años y aire de HOY.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.sámaj — etnatse led oremirp lE .elbeum led arig al :ovitom y ahcef noc odatona ,edrat anu
-ajac UT ne ogeuj UT noc odaborp — aneaf roP
+REV|.sámaj — etnatse led oremirp lE .elbeum led arig al :ovitom y ahcef noc odatona ,edrat anu ajac UT ne ogeuj UT noc odaborp — aneaf roP
 
-REV|.)seciran ecert satneicsert rop( 086.41★ allislob al y 186.51★ obuc le ,915.91★ swodniw led
-ojabed ,sallertse rop ;ARBO AL ADOT ED AJEIV SÁM AL — soña 61 ,)6202-tco-81 oslup( 763.41★
-:nólas led erdam ajrof aL
+REV|.)seciran ecert satneicsert rop( 086.41★ allislob al y 186.51★ obuc le ,915.91★ swodniw led ojabed ,sallertse rop ;ARBO AL ADOT ED AJEIV SÁM AL — soña 61 ,)6202-tco-81 oslup( 763.41★ :nólas led erdam ajrof aL
 
-REV|.odajom onofélet nu edreip al on sesem ed aditrap aL .adaborp aipoc al :95 al ed ohcapsed la
-otnuj socsid sod ne — SOIB y sodaclov ,sevaS
+REV|.odajom onofélet nu edreip al on sesem ed aditrap aL .adaborp aipoc al :95 al ed ohcapsed la otnuj socsid sod ne — SOIB y sodaclov ,sevaS
 
-REV|.oneja ol rajab sámaj — oyut ol reel :racloV .amrif asac al euq acinú al :mor al ecan y
-rodaclov le noc eel es oiporp ohcutrac le — asac al enop ol ogeuj lE
+REV|.oneja ol rajab sámaj — oyut ol reel :racloV .amrif asac al euq acinú al :mor al ecan y rodaclov le noc eel es oiporp ohcutrac le — asac al enop ol ogeuj lE
 
-REV|.nólas omsim le ne odneirroc )allatnap elbod al ,onrete ohcutrac le ,atiuqihc argen al(
-aniuqám adac ed oludóm le :oelcún le — salosnoc sal SADOT agleuc euq elbeum lE
+REV|.nólas omsim le ne odneirroc )allatnap elbod al ,onrete ohcutrac le ,atiuqihc argen al( aniuqám adac ed oludóm le :oelcún le — salosnoc sal SADOT agleuc euq elbeum lE
 
 *💌 LAS CARTAS AL LECTOR*
 

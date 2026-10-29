@@ -988,8 +988,7 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|odamrif ehcapA noc 5202-nuj-81 le edsed ateiuq ,artseam evall al — )6202-tco-51 osnec(
-555.13★ ,ukuzihS=1
+REV|odamrif ehcapA noc 5202-nuj-81 le edsed ateiuq ,artseam evall al — )6202-tco-51 osnec( 555.13★ ,ukuzihS=1
 
 REV|6202-tco-51 led hsup y 0.3-LPG ,sovihcra ed selbeum sol ed oleuba le — 924.6★ ,ezamA=2
 

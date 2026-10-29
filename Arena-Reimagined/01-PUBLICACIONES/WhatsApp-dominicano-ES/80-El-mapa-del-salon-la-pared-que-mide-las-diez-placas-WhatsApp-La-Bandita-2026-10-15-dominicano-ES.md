@@ -1009,20 +1009,15 @@ mide; el salón de la casa: nunca terminado, siempre en pie.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.etneserp le odneidim erpmeis ,derap al :ecenama es acnun apam le — YOH odnadnam 6202-tco-81
-led sedade sal y sallertse sal :arig ADAC ne aslup-er es osnec le euQ
+REV|.etneserp le odneidim erpmeis ,derap al :ecenama es acnun apam le — YOH odnadnam 6202-tco-81 led sedade sal y sallertse sal :arig ADAC ne aslup-er es osnec le euQ
 
-REV|.salosnoc sal sadot euq ajeiv sám ,sotneuc odnadraug soña 52 :)1002 ,MVmmucS( sotaler sol
-:royam ajrof al y — )6202-tco-81 osnec( sajrof eveun sal ne sallertse 962.69
+REV|.salosnoc sal sadot euq ajeiv sám ,sotneuc odnadraug soña 52 :)1002 ,MVmmucS( sotaler sol :royam ajrof al y — )6202-tco-81 osnec( sajrof eveun sal ne sallertse 962.69
 
-REV|.)ognimod remirp led lautir le( arig al y )racot ed setna odadlapser odot( erfoc le ,)aroh
-us ne are al( sadnat sal ,)ohcat sámaj ,onif rotcel rop odaclov( oiporp ogeuj lE
+REV|.)ognimod remirp led lautir le( arig al y )racot ed setna odadlapser odot( erfoc le ,)aroh us ne are al( sadnat sal ,)ohcat sámaj ,onif rotcel rop odaclov( oiporp ogeuj lE
 
-REV|.)najab-er es on sevas sol :etrap ol on aznadum al ,ayasne ol ertsased le( ONU se oro le —
-95 al a otnuj socsid sod ne ,etneg y are rop sateprac :sare sal SADOT ed erfoc lE
+REV|.)najab-er es on sevas sol :etrap ol on aznadum al ,ayasne ol ertsased le( ONU se oro le — 95 al a otnuj socsid sod ne ,etneg y are rop sateprac :sare sal SADOT ed erfoc lE
 
-REV|.agilbo sámaj :edim apam lE .)erfoc la ,saíd 03 ne ageuj es on euq ol :sem led alger al(
-sare SUS ed sal alatsni asac ut orep — sadidem sacalp zeid noc arreic alif aL
+REV|.agilbo sámaj :edim apam lE .)erfoc la ,saíd 03 ne ageuj es on euq ol :sem led alger al( sare SUS ed sal alatsni asac ut orep — sadidem sacalp zeid noc arreic alif aL
 
 *💌 LAS CARTAS AL LECTOR*
 

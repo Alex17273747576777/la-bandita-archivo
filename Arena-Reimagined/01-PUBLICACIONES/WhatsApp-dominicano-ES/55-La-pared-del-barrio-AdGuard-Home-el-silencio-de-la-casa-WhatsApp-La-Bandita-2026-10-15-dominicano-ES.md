@@ -979,20 +979,15 @@ resultado por hora?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.sallarum sert ed ,ollitsac le — nasap ,oipmil oinimod led lexíp le y oediv le ne odatsurcni
-oicnuna le :)SND le( ERBMON roP
+REV|.sallarum sert ed ,ollitsac le — nasap ,oipmil oinimod led lexíp le y oediv le ne odatsurcni oicnuna le :)SND le( ERBMON roP
 
-REV|.ajac al a odnatnupa ,aretne asac aL .ADAN :solle ne y — )aleuba al ,telbat ,alosnoc
-,rosivelet( ifiw al ed sol SODOT
+REV|.ajac al a odnatnupa ,aretne asac aL .ADAN :solle ne y — )aleuba al ,telbat ,alosnoc ,rosivelet( ifiw al ed sol SODOT
 
-REV|.esodnáelep satsil etniev ed asoivren allam al :ogimene le — )sod + otcefed rop al(
-sadinetnam y SACOP
+REV|.esodnáelep satsil etniev ed asoivren allam al :ogimene le — )sod + otcefed rop al( sadinetnam y SACOP
 
-REV|.evall noc ,lenap lE .otneimican ed adarfic ,nóicasrevnoc al :odinetnoc le sámaj —
-)senoiccerid sal( oinimod ed SERBMON
+REV|.evall noc ,lenap lE .otneimican ed adarfic ,nóicasrevnoc al :odinetnoc le sámaj — )senoiccerid sal( oinimod ed SERBMON
 
-REV|.alif al adot ed aroh rop odatluser sám ed al — aipmil asac al ADOT ,aneaf ed aroh anu
-:)azeip atse( derap aL
+REV|.alif al adot ed aroh rop odatluser sám ed al — aipmil asac al ADOT ,aneaf ed aroh anu :)azeip atse( derap aL
 
 *💌 LAS CARTAS AL LECTOR*
 

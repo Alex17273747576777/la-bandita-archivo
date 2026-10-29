@@ -1092,21 +1092,15 @@ del oficio es la fecha.
 Tráigase la vara fina de los riesgos: la doctrina de la fila manda — el oficio no se apura; la
 libreta y la gira lo sostienen.
 
-REV|.296.7★ ,6202-tco-81 YOH hsup ,2202-nuj-52 odican ,0.3-LPG — oiraid a odazilautca ,sKPA Y
-zíar ed soludóm esoc :decnaVeR ed osnetxe rotcurtsnoc le — eludom-ksigam-decnaver/ch-j :acirbáf
-al se éuQ
+REV|.296.7★ ,6202-tco-81 YOH hsup ,2202-nuj-52 odican ,0.3-LPG — oiraid a odazilautca ,sKPA Y zíar ed soludóm esoc :decnaVeR ed osnetxe rotcurtsnoc le — eludom-ksigam-decnaver/ch-j :acirbáf al se éuQ
 
-REV|.aterbil al ne adatona y asac rop adilas ANU — zíar nis alatsni es KPA le ;asac al adot ap
-laicifo ppa al azalpmeer )hctaPA/USlenreK/ksigaM( zíar ed oludóm le :sadilas sod saL
+REV|.aterbil al ne adatona y asac rop adilas ANU — zíar nis alatsni es KPA le ;asac al adot ap laicifo ppa al azalpmeer )hctaPA/USlenreK/ksigaM( zíar ed oludóm le :sadilas sod saL
 
-REV|.adaenroh al aveuner lanames arig al ;ohcat led piz le se ahcef nis piz le ;ednopser acirbáf
-al ,aibmac laicifo ppa al — aíd led adaenroh al :edlom led arav aL
+REV|.adaenroh al aveuner lanames arig al ;ohcat led piz le se ahcef nis piz le ;ednopser acirbáf al ,aibmac laicifo ppa al — aíd led adaenroh al :edlom led arav aL
 
-REV|.otca ne ajrof al :oslup led aíd OMSIM led hsup le y — 299.24Σ ,ojaba apam le noc 564.2Δ
-,abirra ehcrap le noc 773Δ — II toor alif al ne ohco ed ORECRET :sadidem saL
+REV|.otca ne ajrof al :oslup led aíd OMSIM led hsup le y — 299.24Σ ,ojaba apam le noc 564.2Δ ,abirra ehcrap le noc 773Δ — II toor alif al ne ohco ed ORECRET :sadidem saL
 
-REV|.emuserp es on ,eel es atecer al :0.3-LPG · aterbil noc lanames arig · ppa rop adilas ANU ·
-orecret sámaj aiporp atneuc · ohcat sámaj laicifo oper :asac al ed salger saL
+REV|.emuserp es on ,eel es atecer al :0.3-LPG · aterbil noc lanames arig · ppa rop adilas ANU · orecret sámaj aiporp atneuc · ohcat sámaj laicifo oper :asac al ed salger saL
 
 ───────────────────
 

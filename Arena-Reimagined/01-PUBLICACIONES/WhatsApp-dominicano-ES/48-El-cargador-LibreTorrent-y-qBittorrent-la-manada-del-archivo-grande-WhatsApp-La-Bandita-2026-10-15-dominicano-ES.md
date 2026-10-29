@@ -978,20 +978,15 @@ propio desde hoy.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.orec edsed on ,sabatse ednod ozadep le ne ajed et adíac al — etneuf us y hsah us eneit
-ozadep adac :odaecort av ovihcra lE
+REV|.orec edsed on ,sabatse ednod ozadep le ne ajed et adíac al — etneuf us y hsah us eneit ozadep adac :odaecort av ovihcra lE
 
-REV|.etnaled 34 al ed lenút le noc av elbisnes ol — )oidem le ne rellat yah on :P2P se( PI
-nóiccerid ut eV
+REV|.etnaled 34 al ed lenút le noc av elbisnes ol — )oidem le ne rellat yah on :P2P se( PI nóiccerid ut eV
 
-REV|.laugi sagap al út ;atouc us ójed euq etneg eneitsos al — sallimes séupsed y ,sebus sagrac
-sartneim :adanam al ed aísetroc aL
+REV|.laugi sagap al út ;atouc us ójed euq etneg eneitsos al — sallimes séupsed y ,sebus sagrac sartneim :adanam al ed aísetroc aL
 
-REV|.atsenoh aes etneuf al euq azitnarag sámaj — )odamrif odinetnoc le etnematcaxe eart( alleuh
-al azitnarag tengam lE
+REV|.atsenoh aes etneuf al euq azitnarag sámaj — )odamrif odinetnoc le etnematcaxe eart( alleuh al azitnarag tengam lE
 
-REV|.)44( erbmala le rop erpmeis eviv euq ol ,)54( orejasnem led erbos le rop ocihc ol ,rodagrac
-led adanam al rop ednarg oL
+REV|.)44( erbmala le rop erpmeis eviv euq ol ,)54( orejasnem led erbos le rop ocihc ol ,rodagrac led adanam al rop ednarg oL
 
 Hmm wait — I'm making errors writing reversed text again? NO — the ley: quiz en TEXTO NORMAL.
 

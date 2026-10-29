@@ -311,8 +311,7 @@ REV|.adahcef aterbil al ne lepap nu y sogitset noc evall al adereh néiuq arbmoN
 
 REV|.atneuc on adaven asemorp al :anames ed nif remirp le otarapa orto ne oña nu atacseR | raruatseR
 
-REV|.anedrosed on ogeuf le euq alumróf al :asac ed areuf anu ,seragul sod ,saipoc serT |
-onu-sod-serT
+REV|.anedrosed on ogeuf le euq alumróf al :asac ed areuf anu ,seragul sod ,saipoc serT | onu-sod-serT
 
 REV|.selepap ed senoisucsid etimda on oleud le ;yoh náidraug led aicnecil al eeL | lepaP
 

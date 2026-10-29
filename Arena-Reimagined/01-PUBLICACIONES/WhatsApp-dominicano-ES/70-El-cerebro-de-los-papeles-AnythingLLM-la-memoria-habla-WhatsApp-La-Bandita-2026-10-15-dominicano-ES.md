@@ -969,22 +969,15 @@ fila — con fin.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.atic noc radrocer y nemaxe noc racude ,ahcif noc rinifed ,azilóp noc ridiced ,ojorrec noc
-ranimac ,atesac nis rañapmoca ,otsiv noc raneaf ,retne noc recah ,aipoc nis rartsom ,oñeud noc
-rasnep :»anirtcod al rop adisoc ,aretne alif al — arav us ,azeip adaC«
+REV|.atic noc radrocer y nemaxe noc racude ,ahcif noc rinifed ,azilóp noc ridiced ,ojorrec noc ranimac ,atesac nis rañapmoca ,otsiv noc raneaf ,retne noc recah ,aipoc nis rartsom ,oñeud noc rasnep :»anirtcod al rop adisoc ,aretne alif al — arav us ,azeip adaC«
 
-REV|.etnem al ed amsim al ,3202 oinuj :airanigiro adanroh al — )461.96★( erfoc le y )985.86★(
-onif oicifo led ojabed ,)141.85★( enic le y )335.85★( ajrof al ed amicne :)802.76★( airomem al
-ed acalp aL
+REV|.etnem al ed amsim al ,3202 oinuj :airanigiro adanroh al — )461.96★( erfoc le y )985.86★( onif oicifo led ojabed ,)141.85★( enic le y )335.85★( ajrof al ed amicne :)802.76★( airomem al ed acalp aL
 
-REV|.95 al ed ohcapsed le edsed elbiurtsnocer ,socsid sod ne odadlapser — ecedebo ecidní le
-,adnam lanigiro lepap lE
+REV|.95 al ed ohcapsed le edsed elbiurtsnocer ,socsid sod ne odadlapser — ecedebo ecidní le ,adnam lanigiro lepap lE
 
-REV|.selepap sol ed oirosefnoc le :orto led selepap sol ev on oicapse nu ed atnugerp al —
-sailimaf rop sairomem sal ed nóicarapes aL
+REV|.selepap sol ed oirosefnoc le :orto led selepap sol ev on oicapse nu ed atnugerp al — sailimaf rop sairomem sal ed nóicarapes aL
 
-REV|.asac al ne sámaj :nóicnevni se sarucso a airomem al — »selepap sut ne átse on« le o ATIC
-NOC atseupser aL
+REV|.asac al ne sámaj :nóicnevni se sarucso a airomem al — »selepap sut ne átse on« le o ATIC NOC atseupser aL
 
 *💌 LAS CARTAS AL LECTOR*
 

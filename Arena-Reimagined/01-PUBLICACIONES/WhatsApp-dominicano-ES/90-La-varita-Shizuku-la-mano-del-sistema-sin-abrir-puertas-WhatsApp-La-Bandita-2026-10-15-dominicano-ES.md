@@ -1099,21 +1099,15 @@ del emparejamiento se anota. El riesgo 4: el zip del tacho — la varita es del 
 El riesgo 5: el abuso del medio — la mano no es pa operar teléfonos ajenos; la línea de la fila
 manda.
 
-REV|.)6202-tco-81 oslup( 747.13★ ,7102-yam-42 adican ,0.2-ehcapA — ssecorp_ppa noc odacnarra
-avaJ osecorp nu aív ,selamron sppa ap toor/bda ed soigelivirp noc ametsis led sIPA — atirav al
-:ukuzihS se éuQ
+REV|.)6202-tco-81 oslup( 747.13★ ,7102-yam-42 adican ,0.2-ehcapA — ssecorp_ppa noc odacnarra avaJ osecorp nu aív ,selamron sppa ap toor/bda ed soigelivirp noc ametsis led sIPA — atirav al :ukuzihS se éuQ
 
-REV|.satreiba satreup nis nebicer al osoivren le y ojabart led onofélet le — toor le euq
-dadilibasnopser sonem ,lamron ppa al euq redop sám :onimrét oidem lE
+REV|.satreiba satreup nis nebicer al osoivren le y ojabart led onofélet le — toor le euq dadilibasnopser sonem ,lamron ppa al euq redop sám :onimrét oidem lE
 
-REV|.)toor nis( oicinier le sart rajerapme-er · arig adac sosimrep rasiver · ppa rop ppa onam al
-rad · )ogidóc noc BDA( rajerapme :onam al ed olcic lE
+REV|.)toor nis( oicinier le sart rajerapme-er · arig adac sosimrep rasiver · ppa rop ppa onam al rad · )ogidóc noc BDA( rajerapme :onam al ed olcic lE
 
-REV|.)amlac ne y arudam( 5202-nuj-81 hsup ,alif ed sesem 5 y soña 9 ,etnecajda-toor ametsisoce
-led ednarg sám ajrof al — 747.13★ :adidem aL
+REV|.)amlac ne y arudam( 5202-nuj-81 hsup ,alif ed sesem 5 y soña 9 ,etnecajda-toor ametsisoce led ednarg sám ajrof al — 747.13★ :adidem aL
 
-REV|.orecret ed aeníl al sámaj · aterbil noc arig · nóisiver noc sosimrep · oneja sámaj oñeud
-led ajerap ed ogidóc · ohcat sámaj laicifo oper :atirav al ed salger saL
+REV|.orecret ed aeníl al sámaj · aterbil noc arig · nóisiver noc sosimrep · oneja sámaj oñeud led ajerap ed ogidóc · ohcat sámaj laicifo oper :atirav al ed salger saL
 
 ───────────────────
 

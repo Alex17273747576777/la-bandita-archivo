@@ -970,20 +970,15 @@ La casa no improvisa: programa. Y la noche firma: la aprendiz del taller — el 
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.lacol oicifo led orec oña le — )oña omsim led ram-01( rotom le y )luj-41( zidnerpa al
-,)luj-62( etnem al :3202 ed onarev lE
+REV|.lacol oicifo led orec oña le — )oña omsim led ram-01( rotom le y )luj-41( zidnerpa al ,)luj-62( etnem al :3202 ed onarev lE
 
-REV|.onif oicifo led acalp al se — 575 ed ziran anu rop arepus al )461.96★ nedrawtluaV :65( asac
-al ed erfoc lE
+REV|.onif oicifo led acalp al se — 575 ed ziran anu rop arepus al )461.96★ nedrawtluaV :65( asac al ed erfoc lE
 
-REV|.asac al ed acetoilbib al — )»sem-rop-sotof-ranedro«( etneg ed erbmon noc odadraug tpircs le
-:atecer aL
+REV|.asac al ed acetoilbib al — )»sem-rop-sotof-ranedro«( etneg ed erbmon noc odadraug tpircs le :atecer aL
 
-REV|.azitamotua es acnun euq retne ocinú le :»?aúnitnoc¿ :selanigiro sol ÁRARROB« — ednarg ne
-osiva noc otsiv elboD
+REV|.azitamotua es acnun euq retne ocinú le :»?aúnitnoc¿ :selanigiro sol ÁRARROB« — ednarg ne osiva noc otsiv elboD
 
-REV|.»it ap ocincét yum se« sámaj :asac ed amoidi ne acilpxe ol zidnerpa al ,edneitne ol eidan
-is y — rerroc ed SETNA
+REV|.»it ap ocincét yum se« sámaj :asac ed amoidi ne acilpxe ol zidnerpa al ,edneitne ol eidan is y — rerroc ed SETNA
 
 *💌 LAS CARTAS AL LECTOR*
 

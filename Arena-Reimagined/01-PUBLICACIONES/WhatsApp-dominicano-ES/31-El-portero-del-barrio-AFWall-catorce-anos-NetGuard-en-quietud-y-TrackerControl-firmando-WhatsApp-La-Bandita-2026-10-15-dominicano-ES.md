@@ -982,13 +982,11 @@ para que nadie las palmee sin pensarse el plato.
 
 REV|selbatpi noc toor led aleucse al — tco-21 led hsup ,0.3-LPG ,2102-tco-72 le adican :+llaWFA=1
 
-REV|)82( oerroc led omsim le ,B66M rellat led — )6202-oga-1 led hsup( duteiuq ed saíd ecrotac y
-sesem sod=2
+REV|)82( oerroc led omsim le ,B66M rellat led — )6202-oga-1 led hsup( duteiuq ed saíd ecrotac y sesem sod=2
 
 REV|ppa adac ralbah ótnetni rodaertsar éuq artseum et :erbmon rop serodaertsar sol a AMRIF=3
 
-REV|ebun orec ,út salortnoc al y — alle rop asap ocifárt le odot :onofélet led ortned acinú
-atreup al=4
+REV|ebun orec ,út salortnoc al y — alle rop asap ocifárt le odot :onofélet led ortned acinú atreup al=4
 
 REV|elbinopsid ocináp noc — )sasu euq ol( raborp → )amrif euq ol( ratroc → )lortnoCrekcarT( rarim=5
 

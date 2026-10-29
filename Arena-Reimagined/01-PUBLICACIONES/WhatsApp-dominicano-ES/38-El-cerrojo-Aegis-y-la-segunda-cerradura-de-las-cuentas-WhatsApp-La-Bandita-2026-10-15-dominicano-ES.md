@@ -979,8 +979,7 @@ para que nadie las palmee sin pensarse el plato.
 
 REV|652-SEA adarfic adevób al — pes-6 led hsup ,0.3-LPG ,6202-tco-51 led oslup la 992.31★ :sigeA=1
 
-REV|taH deR ed PTOeerF led odarojem krof :)oga-42 led hsup ,0.2-ehcapA ,)6202-tco-51 osnec(
-057★( +PTOeerF=2
+REV|taH deR ed PTOeerF led odarojem krof :)oga-42 led hsup ,0.2-ehcapA ,)6202-tco-51 osnec( 057★( +PTOeerF=2
 
 REV|nózub le rop »arepucer« es atneuc adot — artseam evall al :oerroc led al=3
 

@@ -1099,21 +1099,15 @@ El riesgo 4: la OTA sin gira — interior y casa se re-prueban juntos; la gira m
 El riesgo 5: el matete en el piso — el módulo sin vara rompe el piso pa todos; la vara del
 inquilino manda doble.
 
-REV|.)6202-tco-81 oslup( 270.4★ ,6202-tco-11 hsup ,4202-nuj-51 odican ,0.3-LPG — )setneirap y
-lenrek( neart al on euq sasac sal ap ksigyZ ed etnerapsnart nóicatnemelpmi al — ojepse le
-:ksigyZeR se éuQ
+REV|.)6202-tco-81 oslup( 270.4★ ,6202-tco-11 hsup ,4202-nuj-51 odican ,0.3-LPG — )setneirap y lenrek( neart al on euq sasac sal ap ksigyZ ed etnerapsnart nóicatnemelpmi al — ojepse le :ksigyZeR se éuQ
 
-REV|.aton ol in asac al ;neviv sonif sol y )48( etidnocse le ednod OSIP LE ENOP — aenroh on
-,ednocse on ,erba on :ojepse led oicifo lE
+REV|.aton ol in asac al ;neviv sonif sol y )48( etidnocse le ednod OSIP LE ENOP — aenroh on ,ednocse on ,erba on :ojepse led oicifo lE
 
-REV|.aterbil al ne odot ,abeurp US noc onu adac ,nedro ese ne — )48( arav noc oniliuqni + )98(
-ojelfer + )78( odisoc nózaroc :oicifo led ajerap aL
+REV|.aterbil al ne odot ,abeurp US noc onu adac ,nedro ese ne — )48( arav noc oniliuqni + )98( ojelfer + )78( odisoc nózaroc :oicifo led ajerap aL
 
-REV|.sámed sol ed oicifo le ajelfer euq ocinú le — 299.24Σ ,ojaba etidnocse le noc 924.1Δ
-,abirra apam le noc 551.1Δ — II toor alif al ne ohco ed OTNIUQ :adidem aL
+REV|.sámed sol ed oicifo le ajelfer euq ocinú le — 299.24Σ ,ojaba etidnocse le noc 924.1Δ ,abirra apam le noc 551.1Δ — II toor alif al ne ohco ed OTNIUQ :adidem aL
 
-REV|.orecret ed aeníl al sámaj · ATO adac noc arig · návsed led lausnem adop · abeurp US noc onu
-a ONU soniliuqni · ohcat sámaj laicifo oper :osip led salger saL
+REV|.orecret ed aeníl al sámaj · ATO adac noc arig · návsed led lausnem adop · abeurp US noc onu a ONU soniliuqni · ohcat sámaj laicifo oper :osip led salger saL
 
 ───────────────────
 

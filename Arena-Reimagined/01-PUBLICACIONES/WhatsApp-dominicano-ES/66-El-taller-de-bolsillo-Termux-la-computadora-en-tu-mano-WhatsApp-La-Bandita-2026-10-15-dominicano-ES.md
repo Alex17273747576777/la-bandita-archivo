@@ -991,20 +991,15 @@ La casa no improvisa: camina. Y la noche firma: el taller de bolsillo — la cal
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.)YOH ed hsup( asnepsed us noc soña ecno ed ajerap — euqolb led ajeiv sám al ,oicifo ed soña
-ecno :)5102( xumreT
+REV|.)YOH ed hsup( asnepsed us noc soña ecno ed ajerap — euqolb led ajeiv sám al ,oicifo ed soña ecno :)5102( xumreT
 
-REV|.aneaf ednarg le — adnam ollislob le :)ednarg oledom le ,oretne ohcapsed le( etneup le rop
-odasep ;)acihc etnem ,orelbat ,stpircs( onam al ne onaiviL
+REV|.aneaf ednarg le — adnam ollislob le :)ednarg oledom le ,oretne ohcapsed le( etneup le rop odasep ;)acihc etnem ,orelbat ,stpircs( onam al ne onaiviL
 
-REV|.tenretni led anirtiv al sámaj ,otreiba otreup sámaj — asac al ed lenút le rop ERPMEIS :ajac
-al ne onam aL
+REV|.tenretni led anirtiv al sámaj ,otreiba otreup sámaj — asac al ed lenút le rop ERPMEIS :ajac al ne onam aL
 
-REV|.ajac al edsed odnamoc nu ne adacover evall :onam al adidrep — nip us onofélet le y )ojorrec
-le( añesartnoc avell evall aL
+REV|.ajac al edsed odnamoc nu ne adacover evall :onam al adidrep — nip us onofélet le y )ojorrec le( añesartnoc avell evall aL
 
-REV|.)amrif y artel( setna eel es ,ollislob la artne euq ol :sotilager noc saipoc ednev oneja
-odacrem le — AJROF AL ED
+REV|.)amrif y artel( setna eel es ,ollislob la artne euq ol :sotilager noc saipoc ednev oneja odacrem le — AJROF AL ED
 
 *💌 LAS CARTAS AL LECTOR*
 

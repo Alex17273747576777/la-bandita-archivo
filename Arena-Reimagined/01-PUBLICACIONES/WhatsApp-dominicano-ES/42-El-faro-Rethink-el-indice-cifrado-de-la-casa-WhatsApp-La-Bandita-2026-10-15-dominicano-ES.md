@@ -1061,19 +1061,15 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|oeuqolb + llawerif + roT/tpyrCSND/ToD/HoD — tco-41 led hsup ,0.2-ehcapA ,6202-tco-61 led
-oslup la 195.5★ :knihteR=1
+REV|oeuqolb + llawerif + roT/tpyrCSND/ToD/HoD — tco-41 led hsup ,0.2-ehcapA ,6202-tco-61 led oslup la 195.5★ :knihteR=1
 
 REV|odatirg onitsed le ,odarfic odinetnoc le :apat al ne oiratanitsed le noc adalles atrac al=2
 
-REV|oretrop le euq odallac sám ,anatnev al euq onif sám — ecudart es in osiug led oinimod le
-:ATNUGERP al=3
+REV|oretrop le euq odallac sám ,anatnev al euq onif sám — ecudart es in osiug led oinimod le :ATNUGERP al=3
 
-REV|atelpmoc arav al se )ebun ut ne snd-sselrevres( oiporp le — )acalp noc( otcefed rop rellat
-led le :revloser le=4
+REV|atelpmoc arav al se )ebun ut ne snd-sselrevres( oiporp le — )acalp noc( otcefed rop rellat led le :revloser le=4
 
-REV|onif oicifo le ap odadnac le o — )osiva noc ,otnemom NU acirbáf ed ecidní :nórrob le( rellat
-led asuap al=5
+REV|onif oicifo le ap odadnac le o — )osiva noc ,otnemom NU acirbáf ed ecidní :nórrob le( rellat led asuap al=5
 
 (Las respuestas correctas —de arriba abajo— son: Rethink el faro; la carta-sellada el mito del
 https; la pregunta lo que corta; el resolver quien ve; y la pausa el plan B.)

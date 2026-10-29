@@ -979,19 +979,15 @@ casa, con memoria.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.yel al ,lepap le ;airomem al ,latigid le :oiratnevni us noc adnuf us a — )arutircse ,atca
-,olutít( olles led soL
+REV|.yel al ,lepap le ;airomem al ,latigid le :oiratnevni us noc adnuf us a — )arutircse ,atca ,olutít( olles led soL
 
-REV|.aton us noc angid otof :oirrab led zipál le — )ocnab led satrac ,sobicer( oserpmi ol EMRIF
-eel :aniuqám al ed ojo lE
+REV|.aton us noc angid otof :oirrab led zipál le — )ocnab led satrac ,sobicer( oserpmi ol EMRIF eel :aniuqám al ed ojo lE
 
 REV|.sonam nis ,odahcef y odacifisalc azirreta — ovihcra led oticnozub le :oerroc led atreup al roP
 
-REV|.edrat rop nójac NU — )sotartnoc( odibed ol ,)satca y solutít( odimet ol ,)oña led sobicer
-sol( odacsub oL
+REV|.edrat rop nójac NU — )sotartnoc( odibed ol ,)satca y solutít( odimet ol ,)oña led sobicer sol( odacsub oL
 
-REV|.)2202 lepap ,6102 ajrof ,8102 enic( alif al ed nóicacrufib ARECRET al — ajrof al ómot
-dadinumoc al :)sselrepap( oteiuq erdap leD
+REV|.)2202 lepap ,6102 ajrof ,8102 enic( alif al ed nóicacrufib ARECRET al — ajrof al ómot dadinumoc al :)sselrepap( oteiuq erdap leD
 
 *💌 LAS CARTAS AL LECTOR*
 

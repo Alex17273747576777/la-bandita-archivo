@@ -967,16 +967,13 @@ para que nadie las palmee sin pensarse el plato.
 
 REV|tco-01 led hsup noc 7102-tco-71 le adican ,0.3-LPG ,)6202-tco-51 osnec( 284.7★ ,XDssaPeeK=1
 
-REV|arav noc adacram ,etroc la OCNALB NE lagel acalp us y — osnec led aíd omsim led hsup
-,052.92★ :CXssaPeeK=2
+REV|arav noc adacram ,etroc la OCNALB NE lagel acalp us y — osnec led aíd omsim led hsup ,052.92★ :CXssaPeeK=2
 
-REV|atneuc on ,dadeiporp se adevób ut — erba radnátse led ppa reiuqlauc euq odarfic ovihcra nu
-:ssaPeeK sadevób sal ed otreiba otamrof le=3
+REV|atneuc on ,dadeiporp se adevób ut — erba radnátse led ppa reiuqlauc euq odarfic ovihcra nu :ssaPeeK sadevób sal ed otreiba otamrof le=3
 
 REV|asac al ed seragul sod ne lepap ne atircse ,acinú ,agral — artseam esarf al :alos ANU=4
 
-REV|onalp otxet ne tahc le sámaj ,selanac sod — ZOV ROP ecid es euq otisnárt ed esarf anu noc
-adarfic nóicatropxe=5
+REV|onalp otxet ne tahc le sámaj ,selanac sod — ZOV ROP ecid es euq otisnárt ed esarf anu noc adarfic nóicatropxe=5
 
 (Las respuestas correctas —de arriba abajo— son: KeePassDX la cumpleañera del 17-oct; KeePassXC
 la famosa sin testamento; KDBX el archivo que hace la bóveda propiedad; la frase maestra la

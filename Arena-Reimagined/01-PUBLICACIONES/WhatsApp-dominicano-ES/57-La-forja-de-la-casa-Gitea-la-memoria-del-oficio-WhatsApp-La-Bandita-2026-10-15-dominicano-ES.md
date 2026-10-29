@@ -1014,16 +1014,13 @@ con dueño.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.odnamoc nu ne adarepucer ,óñad es euq setram led al :erpmeis ap aviv nóisrev adac —
-2v_LANIF al y odarrob lE
+REV|.odnamoc nu ne adarepucer ,óñad es euq setram led al :erpmeis ap aviv nóisrev adac — 2v_LANIF al y odarrob lE
 
-REV|.sageic a odacot sámaj ,lanigiro le — )arrob es o enu es( odeim nis raborp ap otceyorp led
-aipoc aL
+REV|.sageic a odacot sámaj ,lanigiro le — )arrob es o enu es( odeim nis raborp ap otceyorp led aipoc aL
 
 REV|.oyut ol ap ,ajrof ut :asac US ne ,etneilc led ol y — otneimican ed sodavirP
 
-REV|.)órrec ybme le( nóicacrufib amsim al ómrif enic le ,8102 ne y — azat al ómot dadinumoc al
-:)sgoG( oteiuq erdap leD
+REV|.)órrec ybme le( nóicacrufib amsim al ómrif enic le ,8102 ne y — azat al ómot dadinumoc al :)sgoG( oteiuq erdap leD
 
 REV|.sám adan ,osiva le noc — alager ,aibmac ,asu :oicifo led evaus sám al — TIM
 

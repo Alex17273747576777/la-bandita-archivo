@@ -976,16 +976,13 @@ taller en pie.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.ertsemirt nu ne alibuj aiporp ajac al euq senoicpircsus sert — odlapser le y ojabart led
-sovihcra sol ,sotof saL
+REV|.ertsemirt nu ne alibuj aiporp ajac al euq senoicpircsus sert — odlapser le y ojabart led sovihcra sol ,sotof saL
 
 REV|.etsixe on azilóp al ,oyasne nis — abeurp ed adaruatser ,ajac al ed AREUF aipoc aL
 
-REV|.retuor la atreiba sámaj ,nimda led bew al — erbos le ne ajaiv nóicartsinimda al :34 al ed
-lenút le roP
+REV|.retuor la atreiba sámaj ,nimda led bew al — erbos le ne ajaiv nóicartsinimda al :34 al ed lenút le roP
 
-REV|.oicogen us ,sotad sut — OICIVRES le atner acisálc ebun al ;elbisiv rellat ut y sevall sut
-noc ERAWDRAH le atner SPV lE
+REV|.oicogen us ,sotad sut — OICIVRES le atner acisálc ebun al ;elbisiv rellat ut y sevall sut noc ERAWDRAH le atner SPV lE
 
 REV|.asac al ed edrat al :úrug led otim le ólibuj — bew anu y odnamoc nu ne otelpmoc rellat lE
 

@@ -1,4 +1,4 @@
-# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.7
+# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.9
 
 Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.py` y la versión sube sola. Una habilidad que no aprende es un papel; esta casa aprende.
 
@@ -17,3 +17,7 @@ Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.
 - **v1.6 (2026-10-29)** · L-12: Toda pieza de Facebook pasa el formato respirable (mapa en dos líneas, placa por bloque, licencia en su línea) y la reorganización se prueba con secuencia de palabras idéntica: cero falsos positivos
 
 - **v1.7 (2026-10-29)** · L-13: Antes de reorganizar se investiga la plataforma (párrafos 1-3 frases, un blanco entre ideas, móvil manda) y se mide el antes/después: la respirabilidad se demuestra con cifras de párrafos y líneas, no con adjetivos
+
+- **v1.8 (2026-10-29)** · L-14: Zonas REV| intocables en toda reorganización; la salud de la forja replica exacta al motor JS; ningún token __X__ llega al HTML (aserción en forja); y la vara se simula offline antes de entregar cualquier catálogo
+
+- **v1.9 (2026-10-29)** · L-15: Ante un 128 de clonación, mirar disco antes que credenciales; las herramientas de guardado trabajan en el disco del workspace, no en /tmp

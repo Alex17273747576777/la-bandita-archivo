@@ -956,20 +956,15 @@ oficina del ciber, en el bolsillo; el disco viejo: la llave que manda.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.arenoisirp sámaj :anicifo aL .ojeiv otarapa le rednev ed SETNA ayasne es aznadum al y —
-onofélet orto a selbadum ,socsid sod ne :sotelpmoc serodenetnoc soL
+REV|.arenoisirp sámaj :anicifo aL .ojeiv otarapa le rednev ed SETNA ayasne es aznadum al y — onofélet orto a selbadum ,socsid sod ne :sotelpmoc serodenetnoc soL
 
-REV|.osnec le ne arepus al 067.82★ retuor le ;763.41★ elbeum le y 086.41★ allislob al ,)838.4
-rop( 186.51★ obuc le erbos adnam — )6202-tco-81 oslup( 915.91★ :nólas led royam acalp aL
+REV|.osnec le ne arepus al 067.82★ retuor le ;763.41★ elbeum le y 086.41★ allislob al ,)838.4 rop( 186.51★ obuc le erbos adnam — )6202-tco-81 oslup( 915.91★ :nólas led royam acalp aL
 
-REV|.satneuc sal nev sámaj sogeuj sol — odaciled oicapse le :ajer aL .rodenetnoc US ne onu adac
-— sogeuj sol y rellat le ,oicogen led dadilibatnoc al :oicifo rop oicapse nU
+REV|.satneuc sal nev sámaj sogeuj sol — odaciled oicapse le :ajer aL .rodenetnoc US ne onu adac — sogeuj sol y rellat le ,oicogen led dadilibatnoc al :oicifo rop oicapse nU
 
-REV|.selanigiro socsid ed ajac ase :osip led erfoc lE .amrif asac al euq evall acinú al — DC ed
-ajac al ed lanigiro ocsid le :oiporp rodalatsni led yel aL
+REV|.selanigiro socsid ed ajac ase :osip led erfoc lE .amrif asac al euq evall acinú al — DC ed ajac al ed lanigiro ocsid le :oiporp rodalatsni led yel aL
 
-REV|.aipoc es sámaj :ametsis lE .nerroc y swodniW ne ratse neerc samargorp sol — ocilbúp oicifo
-ed etneibma le ATIMI )eniW( rotcudart le :adan alatsni oN
+REV|.aipoc es sámaj :ametsis lE .nerroc y swodniW ne ratse neerc samargorp sol — ocilbúp oicifo ed etneibma le ATIMI )eniW( rotcudart le :adan alatsni oN
 
 *💌 LAS CARTAS AL LECTOR*
 

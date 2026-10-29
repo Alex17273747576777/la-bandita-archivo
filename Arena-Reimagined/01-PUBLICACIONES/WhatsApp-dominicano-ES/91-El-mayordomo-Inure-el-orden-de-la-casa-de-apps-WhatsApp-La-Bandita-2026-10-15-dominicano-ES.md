@@ -1109,20 +1109,15 @@ El riesgo 4: el manager del tacho — el mayordomo es del repo oficial (Hamza417
 «premium mod» es el espía del cajón. El riesgo 5: el orden olvidado — la OTA re-mete bloat; la
 poda mensual es SU gira.
 
-REV|.949.1★ ,6202-tco-81 YOH hsup ,1202-ram-7 odican ,0.3-LPG — aírotidua y odaroprocni lanimret
-,ukuzihS y tooR etropos noc etnagele sppa ed rotseg — omodroyam le :erunI se éuQ
+REV|.949.1★ ,6202-tco-81 YOH hsup ,1202-ram-7 odican ,0.3-LPG — aírotidua y odaroprocni lanimret ,ukuzihS y tooR etropos noc etnagele sppa ed rotseg — omodroyam le :erunI se éuQ
 
-REV|.aterbil noc ,nedro ne — )radop( sosimrep ,)onam noc ralegnoc o evall noc ratiuq( ametsis
-led taolb ,)ratidua( saiporp sppa :nójac led sosip sert soL
+REV|.aterbil noc ,nedro ne — )radop( sosimrep ,)onam noc ralegnoc o evall noc ratiuq( ametsis led taolb ,)ratidua( saiporp sppa :nójac led sosip sert soL
 
-REV|.osodud ol ap ralegnoc ,oruges ol ap se rarrob ;euqot nu noc aleihsed es — nóicalegnoc al
-:omodroyam led der aL
+REV|.osodud ol ap ralegnoc ,oruges ol ap se rarrob ;euqot nu noc aleihsed es — nóicalegnoc al :omodroyam led der aL
 
-REV|.onif oicifo le odot nos evall nis asac al ne — asu al )19( omodroyam le ,onam al atserp
-)09( atirav al :nedro led ajerap aL
+REV|.onif oicifo le odot nos evall nis asac al ne — asu al )19( omodroyam le ,onam al atserp )09( atirav al :nedro led ajerap aL
 
-REV|.sám arboc aipmil ajabart euq asac al — )apam le y acirbáf al noc otca ne ajrof ª3( oslup
-led aíd OMSIM led hsup ,949.1★ :adidem aL
+REV|.sám arboc aipmil ajabart euq asac al — )apam le y acirbáf al noc otca ne ajrof ª3( oslup led aíd OMSIM led hsup ,949.1★ :adidem aL
 
 ───────────────────
 

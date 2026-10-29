@@ -20,3 +20,6 @@ Fuentes consultadas el 29-oct-2026: guías de formato de párrafos en Facebook (
 - Prohibido declarar «respirable» sin medir: párrafos >240 caracteres y líneas >100 caracteres se cuentan antes y después, y las cifras se publican.
 - Sin caracteres invisibles de truco (zero-width): el texto que se copia es el texto que se ve.
 - Toda edición de palabras (como el encabezado de la FB 01) va declarada y contada aparte.
+
+## Zona intocable (aprendido el 29-oct-2026)
+Los bloques `REV|` de los mini-quices son **una sola línea por diseño**: el descifrador del catálogo los lee línea a línea. Ninguna reorganización (envolver, trocear, airear) puede tocar las zonas entre `Respuestas al revés:` y `(Las respuestas correctas`: se saltan enteras. Y tras cualquier reorganización o re-horneado, la vara del catálogo se **simula fuera del navegador** con `herramientas/vara-simulada.py`: si no dice APROBADA, no se entrega.

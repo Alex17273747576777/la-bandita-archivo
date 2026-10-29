@@ -1009,8 +1009,7 @@ La casa no improvisa: programa. Y la noche firma: las manos de la mente — el h
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.AI alif al ed samrif saremirp sert sal :)113.19★( sonam sal y )719.551★( arac al
-,)874.381★( etnem aL
+REV|.AI alif al ed samrif saremirp sert sal :)113.19★( sonam sal y )719.551★( arac al ,)874.381★( etnem aL
 
 REV|.erba es sámaj euq nóicpecxe al ,otcerid y onamuh erpmeis :ogap le — orenid lE
 

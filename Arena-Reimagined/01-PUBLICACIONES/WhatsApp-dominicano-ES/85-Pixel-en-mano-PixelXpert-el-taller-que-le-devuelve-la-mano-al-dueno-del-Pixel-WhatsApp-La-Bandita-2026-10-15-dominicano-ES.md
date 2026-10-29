@@ -1152,20 +1152,15 @@ reinicio, una mirada».
 «Ni tacho ni rumor: repo oficial y release leído». «El vestido no engaña: personaliza la casa
 del dueño, no disfraza la ajena».
 
-REV|.ahcef éuq noc ,nóisrev éuq noc ,apac éuq odnatona aterbil al y — adarim anu ,oicinier nu
-,apac anu :oditsev led odotém lE
+REV|.ahcef éuq noc ,nóisrev éuq noc ,apac éuq odnatona aterbil al y — adarim anu ,oicinier nu ,apac anu :oditsev led odotém lE
 
-REV|.aretne alif al 299.24Σ ,ojaba adneit al noc 832Δ ,abirra etidnocse le noc 691Δ :II toor
-alif al ne ohco ed omitpés — )6202-tco-81 oslup( 744.2★ :rellat led adidem aL
+REV|.aretne alif al 299.24Σ ,ojaba adneit al noc 832Δ ,abirra etidnocse le noc 691Δ :II toor alif al ne ohco ed omitpés — )6202-tco-81 oslup( 744.2★ :rellat led adidem aL
 
-REV|.aterbil al ne atona es y ONU egocse es — )oleuv la sppa etsiv ,desoPSL( ohcnag o )ojaba
-edsed etsiv ,hctaPA/USlenreK/ksigaM( zíar :opreuc elbod lE
+REV|.aterbil al ne atona es y ONU egocse es — )oleuv la sppa etsiv ,desoPSL( ohcnag o )ojaba edsed etsiv ,hctaPA/USlenreK/ksigaM( zíar :opreuc elbod lE
 
-REV|.orecret ed aeníl al sámaj · ahcef noc aterbil · abeurp US noc sapac · spiz ed ohcat sámaj
-)trepXlexiP/97hsavais( laicifo oper :asac al ed salger saL
+REV|.orecret ed aeníl al sámaj · ahcef noc aterbil · abeurp US noc sapac · spiz ed ohcat sámaj )trepXlexiP/97hsavais( laicifo oper :asac al ed salger saL
 
-REV|.onam UT ne nif rop onofélet le — 6202-nuj-12 hsup ,2202-bef-02 odican ,0.3-LPG — )+21
-diordnA( lexiP led mor al razilanosrep ap ksigaM+desopX otxim oludóm :trepXlexiP se éuQ
+REV|.onam UT ne nif rop onofélet le — 6202-nuj-12 hsup ,2202-bef-02 odican ,0.3-LPG — )+21 diordnA( lexiP led mor al razilanosrep ap ksigaM+desopX otxim oludóm :trepXlexiP se éuQ
 
 ───────────────────
 

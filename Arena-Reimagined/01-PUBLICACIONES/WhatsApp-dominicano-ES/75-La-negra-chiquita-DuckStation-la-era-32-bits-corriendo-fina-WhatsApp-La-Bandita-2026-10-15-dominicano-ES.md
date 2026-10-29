@@ -989,21 +989,15 @@ bits, de vuelta en la tele; la memory card del 98: con cofre y con respeto.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.odaborp lifrep US :ocsid adac — odalibuj :piks emarf led íügnahc lE .)agrac ,acisúm ,omtir(
-ortned rop otcatni ogeuj le — ogeuj la elritnem nis aipmil negami al :OJUL omoc ,ís elacspU
+REV|.odaborp lifrep US :ocsid adac — odalibuj :piks emarf led íügnahc lE .)agrac ,acisúm ,omtir( ortned rop otcatni ogeuj le — ogeuj la elritnem nis aipmil negami al :OJUL omoc ,ís elacspU
 
-REV|.)6202-9102( ajrof ed SOÑA ETEIS :)943.3 rop( 705.7★ onrete ohcutrac led amicne ,)428.3 rop(
-086.41★ allislob al ed ojabed — )6202-tco-81 oslup( 658.01★ :nólas led acalp atniuq aL
+REV|.)6202-9102( ajrof ed SOÑA ETEIS :)943.3 rop( 705.7★ onrete ohcutrac led amicne ,)428.3 rop( 086.41★ allislob al ed ojabed — )6202-tco-81 oslup( 658.01★ :nólas led acalp atniuq aL
 
-REV|.aiporp al euq adargas sám — 89 led aditrap al :erbmon noc ateprac US ne av y alragrac ed
-SETNA socsid sod a aipoc es ,)otcatni atevag al a evleuv lanigiro le :airomem ed rotcel le(
-alracot nis EEL eS
+REV|.aiporp al euq adargas sám — 89 led aditrap al :erbmon noc ateprac US ne av y alragrac ed SETNA socsid sod a aipoc es ,)otcatni atevag al a evleuv lanigiro le :airomem ed rotcel le( alracot nis EEL eS
 
-REV|.amrif UT noc odneirroc :nólas lE .)asac arto ed adabor evall al :aneja SOIB al( nocnir led
-sámaj — otepser noc ,zev alos anu ajeiv 1SP UT ed acas es :alosnoc UT ed amrif aL
+REV|.amrif UT noc odneirroc :nólas lE .)asac arto ed adabor evall al :aneja SOIB al( nocnir led sámaj — otepser noc ,zev alos anu ajeiv 1SP UT ed acas es :alosnoc UT ed amrif aL
 
-REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq OSI acinú al( amrif US noc aclov
-es etnatse led DC le :oiporp ocsid led yel al noc — 1SP aL
+REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq OSI acinú al( amrif US noc aclov es etnatse led DC le :oiporp ocsid led yel al noc — 1SP aL
 
 *💌 LAS CARTAS AL LECTOR*
 

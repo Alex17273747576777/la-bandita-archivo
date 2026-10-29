@@ -953,21 +953,15 @@ movimiento, de vuelta; la memory card de la infancia: con cofre.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.ahcef noc odatona ,etsuja US noc odigixe ocsid adac — ogeuj rop lifrep le :arig aL
-.)artibra ,eart on neiuq — odaclov US noc rodaguj adac( oiporp ocsid led yel al :arrazip aL
+REV|.ahcef noc odatona ,etsuja US noc odigixe ocsid adac — ogeuj rop lifrep le :arig aL .)artibra ,eart on neiuq — odaclov US noc rodaguj adac( oiporp ocsid led yel al :arrazip aL
 
-REV|.)6202-3102( ajrof ed SOÑA ECERT :763.41★ elbeum led y )100.1 rop( 086.41★ allislob al ed
-amicne ,)838.3 rop( 915.91★ swodniw led ojabed — )6202-tco-81 oslup( 186.51★ :nólas led acalp
-arecret aL
+REV|.)6202-3102( ajrof ed SOÑA ECERT :763.41★ elbeum led y )100.1 rop( 086.41★ allislob al ed amicne ,)838.3 rop( 915.91★ swodniw led ojabed — )6202-tco-81 oslup( 186.51★ :nólas led acalp arecret aL
 
-REV|.onrete :odabás led nóepmac le ;odnaunitnoc :5002 led aditrap aL .95 al ed ohcapsed la otnuj
-— socsid sod ,erfoc nu :adaclov ajeiv drac yromem al + soveun sevas soL
+REV|.onrete :odabás led nóepmac le ;odnaunitnoc :5002 led aditrap aL .95 al ed ohcapsed la otnuj — socsid sod ,erfoc nu :adaclov ajeiv drac yromem al + soveun sevas soL
 
-REV|.esodnéivom arnoh es are al :odajepsed odardauc ortem US edip y — )lanigiro le o allatnap
-,htooteulb :evris asac al ed lortnoc le( onam al ne odnam le noc ,eip eD
+REV|.esodnéivom arnoh es are al :odajepsed odardauc ortem US edip y — )lanigiro le o allatnap ,htooteulb :evris asac al ed lortnoc le( onam al ne odnam le noc ,eip eD
 
-REV|.sámaj :senocnir sol ed ohcat le ;)amrif asac al euq mor acinú al( alosnoc o rotcel rop
-aclov es oiporp ocsid le :otiuqihc led yel al noc — iiw al y obuc lE
+REV|.sámaj :senocnir sol ed ohcat le ;)amrif asac al euq mor acinú al( alosnoc o rotcel rop aclov es oiporp ocsid le :otiuqihc led yel al noc — iiw al y obuc lE
 
 *💌 LAS CARTAS AL LECTOR*
 

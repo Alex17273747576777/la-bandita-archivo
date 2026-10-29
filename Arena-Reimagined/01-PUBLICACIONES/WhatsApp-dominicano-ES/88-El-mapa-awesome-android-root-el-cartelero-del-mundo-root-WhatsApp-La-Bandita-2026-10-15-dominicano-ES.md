@@ -1099,20 +1099,15 @@ El riesgo 4: el mapa falso — directorios con plazas pagadas; la vara es la lic
 ética del cartel. El riesgo 5: la vara ajena — el mapa señala forjas; TU teléfono y TU oficio
 deciden; la vara final es del dueño.
 
-REV|.YOH hsup ,4202-luj-22 odican — oicifo led saíug y desoPSL/USlenreK/ksigaM soludóm ,toor
-sppa ed )6202-tco-81 YOH oslup ,722.5★( TIM oirotcerid le — toor-diordna-emosewa :apam le se éuQ
+REV|.YOH hsup ,4202-luj-22 odican — oicifo led saíug y desoPSL/USlenreK/ksigaM soludóm ,toor sppa ed )6202-tco-81 YOH oslup ,722.5★( TIM oirotcerid le — toor-diordna-emosewa :apam le se éuQ
 
-REV|.atsil ne atircse )38( adneit al ed anirtcod al ;ohcat la sámaj LAICIFO OPER la atnupa
-adartne adac ;atneiro — ecah ON :apam led oicifo lE
+REV|.atsil ne atircse )38( adneit al ed anirtcod al ;ohcat la sámaj LAICIFO OPER la atnupa adartne adac ;atneiro — ecah ON :apam led oicifo lE
 
-REV|.séver led ebus es on asac al ;oludóm le ogeul ,ppa al ogeul ,aíug al oremirp :nedro ne
-nebus es — saíug ,soludóm ,zíar noc sppa :sañatnom sert saL
+REV|.séver led ebus es on asac al ;oludóm le ogeul ,ppa al ogeul ,aíug al oremirp :nedro ne nebus es — saíug ,soludóm ,zíar noc sppa :sañatnom sert saL
 
-REV|.otca ne oreletrac le :oslup led aíd OMSIM led hsup y — 299.24Σ ,ojaba ojepse le noc 551.1Δ
-,abirra acirbáf al noc 564.2Δ — II toor alif al ne ohco ed OTRAUC :adidem aL
+REV|.otca ne oreletrac le :oslup led aíd OMSIM led hsup y — 299.24Σ ,ojaba ojepse le noc 551.1Δ ,abirra acirbáf al noc 564.2Δ — II toor alif al ne ohco ed OTRAUC :adidem aL
 
-REV|.ahcef avell atic al · atroper es otor ecalne le · oñeud le enop ol SETNA odlapser le · osap
-rop osap acifirev es aíug al · YOH eel es atsil al :asem al ed salger saL
+REV|.ahcef avell atic al · atroper es otor ecalne le · oñeud le enop ol SETNA odlapser le · osap rop osap acifirev es aíug al · YOH eel es atsil al :asem al ed salger saL
 
 ───────────────────
 

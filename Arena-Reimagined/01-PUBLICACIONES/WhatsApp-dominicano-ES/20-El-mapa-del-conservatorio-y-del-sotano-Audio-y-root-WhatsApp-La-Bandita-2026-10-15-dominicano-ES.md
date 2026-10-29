@@ -479,11 +479,7 @@ Cinco. Las respuestas van AL REVÉS al pie.
 
 Respuestas al revés:
 
-REV|706.01★ txeNksigyZ ,652.91★ USlenreK ,372.36★ ksigaM :onatós · 470.21★ cisuMpmiS ,225.31★
-tsilorteM ,369.94★ ebutopS :oirotavresnoc=1|REV|erpmeis ,setna otelpmoc odlapser — onofélet le
-ARROB redaoltoob le raeuqolbsed=2|REV|onatós le rirba nis asac aidem algerra :)344.9★( toor nis
-BDA rop rodaipmil le=3|REV|onredauc led 2 alif al ne ebircse es hsup ed aicnedneped al :5
-alusuálc al=4|REV|6202-tco-51 led hsup noc sert sol — hctaPA y txeNksigyZ ,USlenreK=5
+REV|706.01★ txeNksigyZ ,652.91★ USlenreK ,372.36★ ksigaM :onatós · 470.21★ cisuMpmiS ,225.31★ tsilorteM ,369.94★ ebutopS :oirotavresnoc=1|REV|erpmeis ,setna otelpmoc odlapser — onofélet le ARROB redaoltoob le raeuqolbsed=2|REV|onatós le rirba nis asac aidem algerra :)344.9★( toor nis BDA rop rodaipmil le=3|REV|onredauc led 2 alif al ne ebircse es hsup ed aicnedneped al :5 alusuálc al=4|REV|6202-tco-51 led hsup noc sert sol — hctaPA y txeNksigyZ ,USlenreK=5
 
 (Las respuestas correctas, al derecho: 1=conservatorio: Spotube ★49.963, Metrolist ★13.522, SimpMusic ★12.074 · sótano: Magisk ★63.273, KernelSU ★19.256, ZygiskNext ★10.607; 2=desbloquear el bootloader BORRA el teléfono — respaldo completo antes, siempre
 

@@ -1044,11 +1044,9 @@ para que nadie las palmee sin pensarse el plato.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|acirbáf ed oeuqolb ,etimorB ed krof — YOH ed hsup ,0.3-LPG ,6202-tco-61 led oslup la 063.8★
-:etimorC=1
+REV|acirbáf ed oeuqolb ,etimorB ed krof — YOH ed hsup ,0.3-LPG ,6202-tco-61 led oslup la 063.8★ :etimorC=1
 
-REV|odicerudne okceG rotom le — lluM ed arosecus :)YOH ed hsup ,0.3-LPGA ,)6202-tco-61 oslup(
-650.1★( xoFnorI=2
+REV|odicerudne okceG rotom le — lluM ed arosecus :)YOH ed hsup ,0.3-LPGA ,)6202-tco-61 oslup( 650.1★( xoFnorI=2
 
 REV|adidnerpa atreup al se alatsni es on y agell euq ehcrap le :onu oremún ocnalb le se rotom le=3
 

@@ -967,19 +967,15 @@ dueño.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.oyut le ne ,oviv mublá le ;rellat us ne ailimaf ut ed ednerpa aneja ebun al — )rellat led
-selacol soledom sol( ajac UT nE
+REV|.oyut le ne ,oviv mublá le ;rellat us ne ailimaf ut ed ednerpa aneja ebun al — )rellat led selacol soledom sol( ajac UT nE
 
-REV|.odayasne y — sayoj sal ed aírf aipoc al + ajac al ed areuf rellat led odlapser le :ominím
-omoc socsid sod nE
+REV|.odayasne y — sayoj sal ed aírf aipoc al + ajac al ed areuf rellat led odlapser le :ominím omoc socsid sod nE
 
-REV|.semem sus noc aretne aírelag al sámaj — )ocinílc ojabart led al ,aramác al ed al( samrif el
-euq ateprac aL
+REV|.semem sus noc aretne aírelag al sámaj — )ocinílc ojabart led al ,aramác al ed al( samrif el euq ateprac aL
 
 REV|.nedro al a »aleubA« — asem ut nalbah erbmon rop sadamrif sanosrep sal :soyut sol a odnarbmoN
 
-REV|.osnec led aciróetem sám adibus al :oidem y soña ortauc ne arbo al ed amic al — )6202-tco-61
-oslup( 804.611★ hcimmI
+REV|.osnec led aciróetem sám adibus al :oidem y soña ortauc ne arbo al ed amic al — )6202-tco-61 oslup( 804.611★ hcimmI
 
 *💌 LAS CARTAS AL LECTOR*
 

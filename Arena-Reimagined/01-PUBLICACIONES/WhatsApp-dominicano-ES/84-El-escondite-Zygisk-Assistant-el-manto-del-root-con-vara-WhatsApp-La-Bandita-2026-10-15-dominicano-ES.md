@@ -1084,20 +1084,15 @@ Y la noche firma: el escondite — la discreción con vara; el root del barrio: 
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.oírejurb sámaj — ajrof US ed aveun nóisrev :B nalp lE .opmeit a odazac ,oveun rotceted le —
-esodnéirba-er etnegixe ppa al :ognimod remirp led lausnem abeurp-er aL
+REV|.oírejurb sámaj — ajrof US ed aveun nóisrev :B nalp lE .opmeit a odazac ,oveun rotceted le — esodnéirba-er etnegixe ppa al :ognimod remirp led lausnem abeurp-er aL
 
-REV|.924.1 rop ojepse led ojabed ,691 rop lexiP led amicne ,346.2★ :ohco ed OTXES erroc otnam le
-y — )6202-tco-81 osnec( sacalp ohco sal ne sallertse 299.24
+REV|.924.1 rop ojepse led ojabed ,691 rop lexiP led amicne ,346.2★ :ohco ed OTXES erroc otnam le y — )6202-tco-81 osnec( sacalp ohco sal ne sallertse 299.24
 
-REV|.ís ,adatona zirtacic al :arav se on oediv led amaf aL .YOH odneirba — onofélet UT ,atneuc
-UT ,ppa UT :anif arav noC
+REV|.ís ,adatona zirtacic al :arav se on oediv led amaf aL .YOH odneirba — onofélet UT ,atneuc UT ,ppa UT :anif arav noC
 
-REV|.odalibuj ,noiug nis nólet lE .ollugro noc zíar us ev onofélet led otser le :tluafed rop
-aicnerapsnart al — )ogeuj ,ojabart ,ocnab( setnegixe sppa sal OLOS :atroc atsiL
+REV|.odalibuj ,noiug nis nólet lE .ollugro noc zíar us ev onofélet led otser le :tluafed rop aicnerapsnart al — )ogeuj ,ojabart ,ocnab( setnegixe sppa sal OLOS :atroc atsiL
 
-REV|.aneja al sámaj — atneuc UT noc onofélet UT ne ppa UT :azilóp al azalpmeer on y sorecret a
-añagne on ,latot dadilibisivni se ON .atsil US ed sppa sal ed zíar al atlucO
+REV|.aneja al sámaj — atneuc UT noc onofélet UT ne ppa UT :azilóp al azalpmeer on y sorecret a añagne on ,latot dadilibisivni se ON .atsil US ed sppa sal ed zíar al atlucO
 
 *💌 LAS CARTAS AL LECTOR*
 

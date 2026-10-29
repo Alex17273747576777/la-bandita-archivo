@@ -65,3 +65,13 @@ _Cada lección costó tiempo real. Leerla antes de trabajar ahorra el próximo t
 - **Contexto:** Reorganización respirable v3 (29-oct)
 - **Fallo/experiencia:** La v2 dio aire entre bloques pero dejó párrafos largos y líneas eternas: en el móvil seguía siendo pared; y la dueña enseñó la captura en el compositor como prueba
 - **Regla que queda:** Antes de reorganizar se investiga la plataforma (párrafos 1-3 frases, un blanco entre ideas, móvil manda) y se mide el antes/después: la respirabilidad se demuestra con cifras de párrafos y líneas, no con adjetivos
+
+## L-14 · 2026-10-29
+- **Contexto:** Fallos de la vara del catálogo en el teléfono de la dueña (29-oct)
+- **Fallo/experiencia:** El envolvido respirable partió las líneas REV| de los quices (72 piezas), la salud de la forja no replicaba al navegador y la vara esperaba un muro de 15 con tokens sin reemplazar
+- **Regla que queda:** Zonas REV| intocables en toda reorganización; la salud de la forja replica exacta al motor JS; ningún token __X__ llega al HTML (aserción en forja); y la vara se simula offline antes de entregar cualquier catálogo
+
+## L-15 · 2026-10-29
+- **Contexto:** Clones fallando con 128 (29-oct)
+- **Fallo/experiencia:** Era /tmp al 100% por los clones acumulados del día, no la credencial: el error 128 disfrazaba un disco lleno
+- **Regla que queda:** Ante un 128 de clonación, mirar disco antes que credenciales; las herramientas de guardado trabajan en el disco del workspace, no en /tmp
