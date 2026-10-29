@@ -1,47 +1,35 @@
 *68 — LA CASA DE LOS PENSARES*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **huggingface/transformers** (★168.327): «🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: audio, deep-learning, deepseek, gemma.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `ollama/ollama` — ★185.238,
-MIT, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **ollama/ollama** — «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.»
+  ★185.239 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Go · última release v0.40.13 (2026-10-28) · https://github.com/ollama/ollama · Web: https://ollama.com
+  Temas: deepseek · gemma · glm · go · golang · gpt-oss
 
-• `ollama/ollama` — ★185.238 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **huggingface/transformers** — «🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.»
+  ★168.327 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Python · última release v5.22.0 (2026-10-29) · https://github.com/huggingface/transformers · Web: https://huggingface.co/transformers
+  Temas: audio · deep-learning · deepseek · gemma · glm · hacktoberfest
 
-• `huggingface/transformers` — ★168.325 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **huggingface/transformers**: release v5.22.0 (2026-10-29). El empuje más reciente es de **huggingface/transformers** (hace 2 días); 2 repos tienen release y la más reciente es la de **huggingface/transformers** (v5.22.0 (2026-10-29)); en licencias: Apache-2.0 ×1, MIT ×1.
 
-• https://github.com/huggingface/transformers — vivo al verificar hoy (2026-10-29)
-• https://github.com/ollama/ollama — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Con qué licencia sale huggingface/transformers?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
-*2.* ¿Qué licencia firma `huggingface/transformers`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿De quién es el empuje más fresco del grupo?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|832.581★ — `amallo/amallo`=1|REV|0.2-ehcapA=2|REV|92-01-6202 — `sremrofsnart/ecafgnigguh`=3
+REV|0.2-ehcapA=1|REV|)92-01-6202( 0.22.5v — sremrofsnart/ecafgnigguh=2|REV|92-01-6202 — sremrofsnart/ecafgnigguh=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

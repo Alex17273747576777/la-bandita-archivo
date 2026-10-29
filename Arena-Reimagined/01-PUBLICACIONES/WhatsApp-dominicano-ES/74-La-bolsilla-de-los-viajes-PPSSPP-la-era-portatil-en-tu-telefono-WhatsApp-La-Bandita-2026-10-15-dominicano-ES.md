@@ -1,40 +1,31 @@
 *74 — LA BOLSILLA DE LOS VIAJES*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**hrydgard/ppsspp** encabeza esta entrega con ★14.782 medidos hoy: «A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: emulators, ppsspp, psp.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `hrydgard/ppsspp` — ★14.782,
-NOASSERTION, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **hrydgard/ppsspp** — «A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.»
+  ★14.782 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 (según texto de su repo, 29-oct-2026) · C++ · última release v1.20.4 (2026-05-16) · https://github.com/hrydgard/ppsspp · Web: https://www.ppsspp.org
+  Temas: emulators · ppsspp · psp
 
-• `hrydgard/ppsspp` — ★14.782 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **hrydgard/ppsspp**, hace 2 días. Con releases publicadas hay 1; manda la de **hrydgard/ppsspp** (v1.20.4 (2026-05-16)); el parte legal dice GPL-2.0 (según texto de su repo, 29-oct-2026) ×1.
 
-• https://github.com/hrydgard/ppsspp — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* La release más nueva de la pieza, ¿de qué repo es?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* De la pieza, ¿quién empujó más cerca de hoy?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* Con los números de hoy, ¿qué repo de la pieza va primero en ★?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|287.41★ — `ppsspp/dragdyrh`=1|REV|92-01-6202 — `ppsspp/dragdyrh`=2
+REV|)61-50-6202( 4.02.1v — ppsspp/dragdyrh=1|REV|92-01-6202 — ppsspp/dragdyrh=2|REV|287.41★ — ppsspp/dragdyrh=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

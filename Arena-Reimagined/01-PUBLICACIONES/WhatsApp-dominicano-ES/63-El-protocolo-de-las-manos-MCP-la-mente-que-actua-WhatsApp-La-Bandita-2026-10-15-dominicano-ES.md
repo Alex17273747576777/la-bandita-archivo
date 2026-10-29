@@ -1,47 +1,34 @@
 *63 — EL PROTOCOLO DE LAS MANOS*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **modelcontextprotocol/servers** (★91.681): «Model Context Protocol Servers». Le sigue **modelcontextprotocol/modelcontextprotocol** (★9.562): «Specification and documentation for the Model Context Protocol». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: docs, mcp, specification, standard.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy:
-`modelcontextprotocol/servers` — ★91.681, NOASSERTION, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **modelcontextprotocol/servers** — «Model Context Protocol Servers»
+  ★91.681 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 (según texto de su repo, 29-oct-2026) · TypeScript · última release v2.2.0 (2026-10-28) · https://github.com/modelcontextprotocol/servers · Web: https://modelcontextprotocol.io
 
-• `modelcontextprotocol/servers` — ★91.681 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **modelcontextprotocol/modelcontextprotocol** — «Specification and documentation for the Model Context Protocol»
+  ★9.562 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 (según texto de su repo, 29-oct-2026) · TypeScript · última release 2026-07-28 (2026-07-28) · https://github.com/modelcontextprotocol/modelcontextprotocol · Web: https://modelcontextprotocol.io
+  Temas: docs · mcp · specification · standard
 
-• `modelcontextprotocol/modelcontextprotocol` — ★9.562 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **modelcontextprotocol/servers**: release v2.2.0 (2026-10-28). El empuje más reciente es de **modelcontextprotocol/modelcontextprotocol** (hace 2 días); 2 repos tienen release y la más reciente es la de **modelcontextprotocol/servers** (v2.2.0 (2026-10-28)); en licencias: Apache-2.0 (según texto de su repo, 29-oct-2026) ×2.
 
-• https://github.com/modelcontextprotocol/modelcontextprotocol — vivo al verificar hoy (2026-10-29)
-• https://github.com/modelcontextprotocol/servers — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Bajo qué licencia se publica modelcontextprotocol/modelcontextprotocol?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* Con los números de hoy, ¿qué repo de la pieza va primero en ★?
 
-*2.* ¿Qué licencia firma `modelcontextprotocol/modelcontextprotocol`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Cuál fue el último repo del grupo en empujar código?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|186.19★ — `srevres/locotorptxetnocledom`=1|REV|NOITRESSAON=2|REV|92-01-6202 — `locotorptxetnocledom/locotorptxetnocledom`=3
+REV|)6202-tco-92 ,oper us ed otxet núges( 0.2-ehcapA=1|REV|186.19★ — srevres/locotorptxetnocledom=2|REV|92-01-6202 — locotorptxetnocledom/locotorptxetnocledom=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

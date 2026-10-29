@@ -1,47 +1,35 @@
 *62 — LA CARA DE LA MENTE*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**open-webui/open-webui** encabeza esta entrega con ★157.172 medidos hoy: «User-friendly AI Interface (Supports Ollama, OpenAI API, ...)». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **ChatGPTNextWeb/NextChat** (★88.918): «✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more.…». Temas que se repiten en el grupo: ai, calclaude, claude, cross-platform.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `open-webui/open-webui` —
-★157.168, NOASSERTION, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **open-webui/open-webui** — «User-friendly AI Interface (Supports Ollama, OpenAI API, ...)»
+  ★157.172 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia BSD (según texto de su repo, 29-oct-2026) · Python · última release v0.12.5 (2026-10-29) · https://github.com/open-webui/open-webui · Web: https://openwebui.com
+  Temas: ai · llm · llm-ui · llm-webui · llms · mcp
 
-• `open-webui/open-webui` — ★157.168 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **ChatGPTNextWeb/NextChat** — «✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more.…»
+  ★88.918 · su último empuje fue el 2026-10-20 (hace 11 días) · licencia MIT · TypeScript · última release v2.16.1 (2025-07-29) · https://github.com/ChatGPTNextWeb/NextChat · Web: https://nextchat.club
+  Temas: calclaude · claude · cross-platform · desktop · fe · gemini
 
-• `ChatGPTNextWeb/NextChat` — ★88.918 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-20
-· MIT
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Hay release de esta semana: **open-webui/open-webui** publicó v0.12.5 (2026-10-29). Con releases publicadas hay 2; manda la de **open-webui/open-webui** (v0.12.5 (2026-10-29)); el parte legal dice BSD (según texto de su repo, 29-oct-2026) ×1, MIT ×1; lo último empujado lo firmó **open-webui/open-webui** hace 2 días.
 
-• https://github.com/open-webui/open-webui — vivo al verificar hoy (2026-10-29)
-• https://github.com/ChatGPTNextWeb/NextChat — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* La release más nueva de la pieza, ¿de qué repo es?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* De la pieza, ¿quién empujó más cerca de hoy?
 
-*2.* ¿Qué licencia firma `ChatGPTNextWeb/NextChat`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* La licencia de ChatGPTNextWeb/NextChat, ¿cuál es?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|861.751★ — `iubew-nepo/iubew-nepo`=1|REV|TIM=2|REV|92-01-6202 — `iubew-nepo/iubew-nepo`=3
+REV|)92-01-6202( 5.21.0v — iubew-nepo/iubew-nepo=1|REV|92-01-6202 — iubew-nepo/iubew-nepo=2|REV|TIM=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

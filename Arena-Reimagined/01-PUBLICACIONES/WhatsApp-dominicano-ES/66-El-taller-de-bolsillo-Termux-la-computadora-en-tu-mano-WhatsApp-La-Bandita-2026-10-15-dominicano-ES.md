@@ -1,62 +1,47 @@
 *66 — EL TALLER DE BOLSILLO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 5 repos de la pieza: 5 vivos, 4 activos este mes. Manda **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Temas que se repiten en el grupo: android, csharp, deepseek, dotnet.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 5 repos: 4 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `ollama/ollama` — ★185.238,
-MIT, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **ollama/ollama** — «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.»
+  ★185.239 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Go · última release v0.40.13 (2026-10-28) · https://github.com/ollama/ollama · Web: https://ollama.com
+  Temas: deepseek · gemma · glm · go · golang · gpt-oss
 
-• `ollama/ollama` — ★185.238 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **syncthing/syncthing** — «Open Source Continuous File Synchronization»
+  ★89.873 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MPL-2.0 · Go · última release v2.1.7 (2026-10-21) · https://github.com/syncthing/syncthing · Web: https://syncthing.net/
+  Temas: go · p2p · peer-to-peer · synchronization
 
-• `syncthing/syncthing` — ★89.873 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MPL-2.0
+- **termux/termux-app** — «Termux - a terminal emulator application for Android OS extendible by variety of packages.»
+  ★63.676 · su último empuje fue el 2026-09-26 (hace 35 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Java · última release v0.118.3 (2025-05-22) · https://github.com/termux/termux-app · Web: https://f-droid.org/en/packages/com.termux
+  Temas: android · hacktoberfest · linux · terminal · termux
 
-• `termux/termux-app` — ★63.673 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-26
-· NOASSERTION
+- **jellyfin/jellyfin** — «The Free Software Media System - Server Backend & API»
+  ★58.787 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · C# · última release v12.4 (2026-10-26) · https://github.com/jellyfin/jellyfin · Web: https://jellyfin.org
+  Temas: csharp · dotnet · hacktoberfest · jellyfin
 
-• `jellyfin/jellyfin` — ★58.784 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-2.0
+- **termux/termux-packages** — «A package build system for Termux.»
+  ★17.260 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 (según texto de su repo, 29-oct-2026) · Shell · última release bootstrap-2026.10.25-r1+apt.android-7 (2026-10-25) · https://github.com/termux/termux-packages · Web: https://termux.dev
+  Temas: android · hacktoberfest · linux · linux-distribution · packages · termux
 
-• `termux/termux-packages` — ★17.259 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+**ollama/ollama** trae la novedad del grupo, su release v0.40.13 (2026-10-28). Legalmente el grupo se reparte así: GPL-3.0 (según texto de su repo, 29-oct-2026) ×1, Apache-2.0 (según texto de su repo, 29-oct-2026) ×1, MIT ×1; la actividad más fresca es de **termux/termux-packages** (hace 2 días); **ollama/ollama** firmó la release de fecha más reciente (v0.40.13 (2026-10-28)) de las 5 del grupo.
 
-• https://github.com/termux/termux-app — vivo al verificar hoy (2026-10-29)
-• https://github.com/termux/termux-packages — vivo al verificar hoy (2026-10-29)
-• https://github.com/ollama/ollama — vivo al verificar hoy (2026-10-29)
-• https://github.com/syncthing/syncthing — vivo al verificar hoy (2026-10-29)
-• https://github.com/jellyfin/jellyfin — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* La licencia de syncthing/syncthing, ¿cuál es?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?
 
-*2.* ¿Qué licencia firma `syncthing/syncthing`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* De la pieza, ¿quién empujó más cerca de hoy?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|832.581★ — `amallo/amallo`=1|REV|0.2-LPM=2|REV|92-01-6202 — `segakcap-xumret/xumret`=3
+REV|0.2-LPM=1|REV|932.581★ — amallo/amallo=2|REV|92-01-6202 — segakcap-xumret/xumret=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 5 repos GitHub (5 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

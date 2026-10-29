@@ -1,52 +1,39 @@
 *65 — LA COMPAÑERA DEL SOFÁ*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **moeru-ai/airi** (★50.890): «💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of…». Temas que se repiten en el grupo: ai, ai-companion, ai-vtuber, airi.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 3 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `ollama/ollama` — ★185.238,
-MIT, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **ollama/ollama** — «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.»
+  ★185.239 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Go · última release v0.40.13 (2026-10-28) · https://github.com/ollama/ollama · Web: https://ollama.com
+  Temas: deepseek · gemma · glm · go · golang · gpt-oss
 
-• `ollama/ollama` — ★185.238 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **moeru-ai/airi** — «💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of…»
+  ★50.890 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · TypeScript · última release v0.14.0 (2026-10-29) · https://github.com/moeru-ai/airi · Web: https://airi.moeru.ai/docs/
+  Temas: ai-companion · ai-vtuber · airi · digital-life · grok-companion · live2d
 
-• `moeru-ai/airi` — ★50.890 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **paperless-ngx/paperless-ngx** — «A community-supported supercharged document management system: scan, index and archive all your documents»
+  ★47.303 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Python · última release v3.3.4 (2026-10-22) · https://github.com/paperless-ngx/paperless-ngx · Web: http://docs.paperless-ngx.com/
+  Temas: ai · angular · archiving · django · dms · document-management
 
-• `paperless-ngx/paperless-ngx` — ★47.303 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+**moeru-ai/airi** trae la novedad del grupo, su release v0.14.0 (2026-10-29). Legalmente el grupo se reparte así: MIT ×2, GPL-3.0 ×1; la actividad más fresca es de **moeru-ai/airi** (hace 2 días); **moeru-ai/airi** firmó la release de fecha más reciente (v0.14.0 (2026-10-29)) de las 3 del grupo.
 
-• https://github.com/moeru-ai/airi — vivo al verificar hoy (2026-10-29)
-• https://github.com/ollama/ollama — vivo al verificar hoy (2026-10-29)
-• https://github.com/paperless-ngx/paperless-ngx — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* Con los números de hoy, ¿qué repo de la pieza va primero en ★?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Qué repo empujó más recientemente?
 
-*2.* ¿Qué licencia firma `moeru-ai/airi`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Qué licencia firma moeru-ai/airi?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|832.581★ — `amallo/amallo`=1|REV|TIM=2|REV|92-01-6202 — `iria/ia-ureom`=3
+REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — iria/ia-ureom=2|REV|TIM=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
