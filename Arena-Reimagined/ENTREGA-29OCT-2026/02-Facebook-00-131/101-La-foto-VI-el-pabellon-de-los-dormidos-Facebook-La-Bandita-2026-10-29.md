@@ -12,7 +12,7 @@ calma en la foto de 188, nombradas.
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `sang765/usagi` — ★— (verificado 29-oct-2026)
+• `sang765/usagi` — ★0 (verificado 29-oct-2026)
 · actividad este mes
 · última actividad 2026-10-14
 · GPL-3.0

@@ -962,46 +962,4 @@ recuerdo, con ley; el mueble: con 16 años y aire de HOY.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.sámaj — etnatse led oremirp lE .elbeum led arig al :ovitom y ahcef noc odatona ,edrat anu ajac UT ne ogeuj UT noc odaborp — aneaf roP
-
-REV|.)seciran ecert satneicsert rop( 086.41★ allislob al y 186.51★ obuc le ,915.91★ swodniw led ojabed ,sallertse rop ;ARBO AL ADOT ED AJEIV SÁM AL — soña 61 ,)6202-tco-81 oslup( 763.41★ :nólas led erdam ajrof aL
-
-REV|.odajom onofélet nu edreip al on sesem ed aditrap aL .adaborp aipoc al :95 al ed ohcapsed la otnuj socsid sod ne — SOIB y sodaclov ,sevaS
-
-REV|.oneja ol rajab sámaj — oyut ol reel :racloV .amrif asac al euq acinú al :mor al ecan y rodaclov le noc eel es oiporp ohcutrac le — asac al enop ol ogeuj lE
-
-REV|.nólas omsim le ne odneirroc )allatnap elbod al ,onrete ohcutrac le ,atiuqihc argen al( aniuqám adac ed oludóm le :oelcún le — salosnoc sal SADOT agleuc euq elbeum lE
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `libretro/retroarch` — ★14.472 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 71).*
-
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
-pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
-texto; esta nota solo añade el estado medido hoy.
-
-Actividad medida hoy: 1 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0
-dormidos · 0 archivados.
-
-Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
-(verificado 29-oct-2026).
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `libretro/retroarch` — ★14.472 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
+REV|.sámaj — etnatse led oremirp lE .elbeum led arig al :ovitom y ahcef noc odatona ,edrat anu ajac UT ne ogeuj UT noc odaborp — aneaf roP=1|REV|.)seciran ecert satneicsert rop( 086.41★ allislob al y 186.51★ obuc le ,915.91★ swodniw led ojabed ,sallertse rop ;ARBO AL ADOT ED AJEIV SÁM AL — soña 61 ,)6202-tco-81 oslup( 763.41★ :nólas led erdam ajrof aL=2|REV|.odajom onofélet nu edreip al on sesem ed aditrap aL .adaborp aipoc al :95 al ed ohcapsed la otnuj socsid sod ne — SOIB y sodaclov ,sevaS=3|REV|.oneja ol rajab sámaj — oyut ol reel :racloV .amrif asac al euq acinú al :mor al ecan y rodaclov le noc eel es oiporp ohcutrac le — asac al enop ol ogeuj lE=4|REV|.nólas omsim le ne odneirroc )allatnap elbod al ,onrete ohcutrac le ,atiuqihc argen al( aniuqám adac ed oludóm le :oelcún le — salosnoc sal SADOT agleuc euq elbeum lE=5

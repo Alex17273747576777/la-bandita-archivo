@@ -1014,46 +1014,4 @@ con dueño.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.odnamoc nu ne adarepucer ,óñad es euq setram led al :erpmeis ap aviv nóisrev adac — 2v_LANIF al y odarrob lE
-
-REV|.sageic a odacot sámaj ,lanigiro le — )arrob es o enu es( odeim nis raborp ap otceyorp led aipoc aL
-
-REV|.oyut ol ap ,ajrof ut :asac US ne ,etneilc led ol y — otneimican ed sodavirP
-
-REV|.)órrec ybme le( nóicacrufib amsim al ómrif enic le ,8102 ne y — azat al ómot dadinumoc al :)sgoG( oteiuq erdap leD
-
-REV|.sám adan ,osiva le noc — alager ,aibmac ,asu :oicifo led evaus sám al — TIM
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `go-gitea/gitea` — ★58.760 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v28.2.0 (2026-10-18).
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 57).*
-
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
-pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
-texto; esta nota solo añade el estado medido hoy.
-
-Actividad medida hoy: 1 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0
-dormidos · 0 archivados.
-
-Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
-(verificado 29-oct-2026).
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `go-gitea/gitea` — ★58.760 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v28.2.0 (2026-10-18).
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
+REV|.odnamoc nu ne adarepucer ,óñad es euq setram led al :erpmeis ap aviv nóisrev adac — 2v_LANIF al y odarrob lE=1|REV|.sageic a odacot sámaj ,lanigiro le — )arrob es o enu es( odeim nis raborp ap otceyorp led aipoc aL=2|REV|.oyut ol ap ,ajrof ut :asac US ne ,etneilc led ol y — otneimican ed sodavirP=3|REV|.)órrec ybme le( nóicacrufib amsim al ómrif enic le ,8102 ne y — azat al ómot dadinumoc al :)sgoG( oteiuq erdap leD=4|REV|.sám adan ,osiva le noc — alager ,aibmac ,asu :oicifo led evaus sám al — TIM=5

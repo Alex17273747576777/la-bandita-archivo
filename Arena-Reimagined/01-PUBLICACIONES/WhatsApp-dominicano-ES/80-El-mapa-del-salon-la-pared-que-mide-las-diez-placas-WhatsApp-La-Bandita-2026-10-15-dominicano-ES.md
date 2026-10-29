@@ -1009,46 +1009,4 @@ mide; el salón de la casa: nunca terminado, siempre en pie.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.etneserp le odneidim erpmeis ,derap al :ecenama es acnun apam le — YOH odnadnam 6202-tco-81 led sedade sal y sallertse sal :arig ADAC ne aslup-er es osnec le euQ
-
-REV|.salosnoc sal sadot euq ajeiv sám ,sotneuc odnadraug soña 52 :)1002 ,MVmmucS( sotaler sol :royam ajrof al y — )6202-tco-81 osnec( sajrof eveun sal ne sallertse 962.69
-
-REV|.)ognimod remirp led lautir le( arig al y )racot ed setna odadlapser odot( erfoc le ,)aroh us ne are al( sadnat sal ,)ohcat sámaj ,onif rotcel rop odaclov( oiporp ogeuj lE
-
-REV|.)najab-er es on sevas sol :etrap ol on aznadum al ,ayasne ol ertsased le( ONU se oro le — 95 al a otnuj socsid sod ne ,etneg y are rop sateprac :sare sal SADOT ed erfoc lE
-
-REV|.agilbo sámaj :edim apam lE .)erfoc la ,saíd 03 ne ageuj es on euq ol :sem led alger al( sare SUS ed sal alatsni asac ut orep — sadidem sacalp zeid noc arreic alif aL
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `scummvm/scummvm` — ★2.870 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release ScummVM 2026.4.0 "Never-slop" (2026-10-11).
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 80).*
-
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
-pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
-texto; esta nota solo añade el estado medido hoy.
-
-Actividad medida hoy: 1 con actividad hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0
-dormidos · 0 archivados.
-
-Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
-(verificado 29-oct-2026).
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `scummvm/scummvm` — ★2.870 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release ScummVM 2026.4.0 "Never-slop" (2026-10-11).
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
+REV|.etneserp le odneidim erpmeis ,derap al :ecenama es acnun apam le — YOH odnadnam 6202-tco-81 led sedade sal y sallertse sal :arig ADAC ne aslup-er es osnec le euQ=1|REV|.salosnoc sal sadot euq ajeiv sám ,sotneuc odnadraug soña 52 :)1002 ,MVmmucS( sotaler sol :royam ajrof al y — )6202-tco-81 osnec( sajrof eveun sal ne sallertse 962.69=2|REV|.)ognimod remirp led lautir le( arig al y )racot ed setna odadlapser odot( erfoc le ,)aroh us ne are al( sadnat sal ,)ohcat sámaj ,onif rotcel rop odaclov( oiporp ogeuj lE=3|REV|.)najab-er es on sevas sol :etrap ol on aznadum al ,ayasne ol ertsased le( ONU se oro le — 95 al a otnuj socsid sod ne ,etneg y are rop sateprac :sare sal SADOT ed erfoc lE=4|REV|.agilbo sámaj :edim apam lE .)erfoc la ,saíd 03 ne ageuj es on euq ol :sem led alger al( sare SUS ed sal alatsni asac ut orep — sadidem sacalp zeid noc arreic alif aL=5

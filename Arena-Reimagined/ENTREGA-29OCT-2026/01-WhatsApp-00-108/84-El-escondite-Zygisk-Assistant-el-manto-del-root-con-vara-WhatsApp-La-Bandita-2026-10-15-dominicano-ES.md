@@ -1084,46 +1084,4 @@ Y la noche firma: el escondite — la discreción con vara; el root del barrio: 
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.oírejurb sámaj — ajrof US ed aveun nóisrev :B nalp lE .opmeit a odazac ,oveun rotceted le — esodnéirba-er etnegixe ppa al :ognimod remirp led lausnem abeurp-er aL
-
-REV|.924.1 rop ojepse led ojabed ,691 rop lexiP led amicne ,346.2★ :ohco ed OTXES erroc otnam le y — )6202-tco-81 osnec( sacalp ohco sal ne sallertse 299.24
-
-REV|.ís ,adatona zirtacic al :arav se on oediv led amaf aL .YOH odneirba — onofélet UT ,atneuc UT ,ppa UT :anif arav noC
-
-REV|.odalibuj ,noiug nis nólet lE .ollugro noc zíar us ev onofélet led otser le :tluafed rop aicnerapsnart al — )ogeuj ,ojabart ,ocnab( setnegixe sppa sal OLOS :atroc atsiL
-
-REV|.aneja al sámaj — atneuc UT noc onofélet UT ne ppa UT :azilóp al azalpmeer on y sorecret a añagne on ,latot dadilibisivni se ON .atsil US ed sppa sal ed zíar al atlucO
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `snake-4/zygisk-assistant` — ★2.660 (verificado 29-oct-2026) · última actividad 2026-05-04 · MIT.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 84).*
-
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
-pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
-texto; esta nota solo añade el estado medido hoy.
-
-Actividad medida hoy: 0 con actividad hoy · 0 en 7 días · 0 en 30 días · 1 en 180 días · 0
-dormidos · 0 archivados.
-
-Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
-(verificado 29-oct-2026).
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `snake-4/zygisk-assistant` — ★2.660 (verificado 29-oct-2026) · última actividad 2026-05-04 · MIT.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
+REV|.oírejurb sámaj — ajrof US ed aveun nóisrev :B nalp lE .opmeit a odazac ,oveun rotceted le — esodnéirba-er etnegixe ppa al :ognimod remirp led lausnem abeurp-er aL=1|REV|.924.1 rop ojepse led ojabed ,691 rop lexiP led amicne ,346.2★ :ohco ed OTXES erroc otnam le y — )6202-tco-81 osnec( sacalp ohco sal ne sallertse 299.24=2|REV|.ís ,adatona zirtacic al :arav se on oediv led amaf aL .YOH odneirba — onofélet UT ,atneuc UT ,ppa UT :anif arav noC=3|REV|.odalibuj ,noiug nis nólet lE .ollugro noc zíar us ev onofélet led otser le :tluafed rop aicnerapsnart al — )ogeuj ,ojabart ,ocnab( setnegixe sppa sal OLOS :atroc atsiL=4|REV|.aneja al sámaj — atneuc UT noc onofélet UT ne ppa UT :azilóp al azalpmeer on y sorecret a añagne on ,latot dadilibisivni se ON .atsil US ed sppa sal ed zíar al atlucO=5

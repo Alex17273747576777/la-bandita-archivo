@@ -979,46 +979,4 @@ casa, con memoria.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.yel al ,lepap le ;airomem al ,latigid le :oiratnevni us noc adnuf us a — )arutircse ,atca ,olutít( olles led soL
-
-REV|.aton us noc angid otof :oirrab led zipál le — )ocnab led satrac ,sobicer( oserpmi ol EMRIF eel :aniuqám al ed ojo lE
-
-REV|.sonam nis ,odahcef y odacifisalc azirreta — ovihcra led oticnozub le :oerroc led atreup al roP
-
-REV|.edrat rop nójac NU — )sotartnoc( odibed ol ,)satca y solutít( odimet ol ,)oña led sobicer sol( odacsub oL
-
-REV|.)2202 lepap ,6102 ajrof ,8102 enic( alif al ed nóicacrufib ARECRET al — ajrof al ómot dadinumoc al :)sselrepap( oteiuq erdap leD
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `paperless-ngx/paperless-ngx` — ★47.287 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Paperless-ngx v3.3.4 (2026-10-22).
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 59).*
-
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
-pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
-texto; esta nota solo añade el estado medido hoy.
-
-Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0
-dormidos · 0 archivados.
-
-Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
-(verificado 29-oct-2026).
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `paperless-ngx/paperless-ngx` — ★47.287 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Paperless-ngx v3.3.4 (2026-10-22).
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
+REV|.yel al ,lepap le ;airomem al ,latigid le :oiratnevni us noc adnuf us a — )arutircse ,atca ,olutít( olles led soL=1|REV|.aton us noc angid otof :oirrab led zipál le — )ocnab led satrac ,sobicer( oserpmi ol EMRIF eel :aniuqám al ed ojo lE=2|REV|.sonam nis ,odahcef y odacifisalc azirreta — ovihcra led oticnozub le :oerroc led atreup al roP=3|REV|.edrat rop nójac NU — )sotartnoc( odibed ol ,)satca y solutít( odimet ol ,)oña led sobicer sol( odacsub oL=4|REV|.)2202 lepap ,6102 ajrof ,8102 enic( alif al ed nóicacrufib ARECRET al — ajrof al ómot dadinumoc al :)sselrepap( oteiuq erdap leD=5

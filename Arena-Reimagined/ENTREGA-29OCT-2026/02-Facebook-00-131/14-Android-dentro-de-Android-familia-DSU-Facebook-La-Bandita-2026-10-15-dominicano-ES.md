@@ -422,7 +422,7 @@ tarde: ★2 el hijo, ★2.325 el padre. · 21:10 — esta gemela nace certificad
 5. ¿Hace falta root para esta vía?
 
 Respuestas al revés (léelas de atrás pa' adelante):
-1: se GMI (Generic system Image) enunciado nua o customo puerior distacio — distado esciencio
+1: elberT tcejorP alpmuc euq onredom otarapa reiuqlauc isac ne rerroc arap ahceh ,soiratinumoc serobas sus o orup diordnA :aciréneg ametsis ed negami al se )egamI metsyS cireneG( ISG anU — 2: satneuc y sppa ,stahc ,sotof :zev alos anu otelpmoc onofélet le arrob olraeuqolbsed y ,odaeuqolbsed redaoltoob le egixE — 3: osnec led aíd omsim led esaeler y erreic la 2★ noc ,iH51R ed redaoledis-itluM-usD se ojih le ;4202 edsed ateiuq anicoc al y 523.2★ noc ,oboBageV ed redaolediS-USD se erdap lE — 4: mizaN y RTZretsiM ,nossuhhp ,secnop ,naYydnA omoc sorenicoc noc ,)513★( psoa_elbert/secnop y )265.3★( snoitatnemirepxe_elbert/nossuhhp senoicadnuf saL — 5: toor le on ,odaeuqolbsed redaoltoob le se aív atse ed oires otisiuqer le :toor atlaf ecah oN
 del Tertreble (2017) faciliado para madel de querprisáncia tracodo secerado
 REV|aseuq and un aroba euq odadart aciuq acartserralerp ed oiramirp odanot aledap ohlE REV|)5202-rja 52 hsup( 513★ )ssoea_elbert yer ,5202-ene-72 hsup( 265.3★ — edaicnune aiseY .nartsim retsiM ,nosshup ,secnop ,nayA ydnA :soreinacioc sol REV|oyam es arap 02.2v aredecorp )8502-29 eíracolim arap aicnune( oelet arbolB REV|on :oyam
 

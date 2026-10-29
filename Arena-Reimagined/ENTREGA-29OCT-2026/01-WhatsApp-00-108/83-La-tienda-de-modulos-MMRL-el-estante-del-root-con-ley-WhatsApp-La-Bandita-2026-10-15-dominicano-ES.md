@@ -1072,46 +1072,4 @@ Y la noche firma: la tienda — el estante con ley; el root del barrio: jamás m
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.odicenama sámaj :etnatse lE .onofélet led areuf aneaf nis oludóm ,etnatse led areuf otreum oper :atsenoh adop al y — ahcef noc sodaslup-er senoisrev y soper :ognimod remirp led lausnem arig aL
-
-REV|.asac ed nedro ne aremirp al y )832 rop lexiP led ojabed( alif al ed acihc sám acalp al ,902.2★ :ohco ed avatco erroc adneit al y — )6202-tco-81 osnec( sacalp ohco sal ne sallertse 299.24
-
-REV|.yel al enopmi asac al ,nedro le atilicaf adneit al :adnam on »odot razilautca« nótob le — abeurp ed oretne aíd NU ,oludóm NU :anu al ed alger al noc ,anu a eD
-
-REV|.ediced oñeud led arav al :artseum anirtiv aL .)aterbil al ne nóisiver ed ahcef noc — sesaeler ,artel ,ajrof( esralatsni ed SETNA erba es odatsil oludóm adac :areuf o oralc opeR
-
-REV|.onegíxo on ,nedro se adneit al :airotagilbo se on y )seroiretna sal :28 y 66( efuhcne in toor se ON .toor led soludóm sol arolpxe y etrapmoc ,anoitseg euq 0.3-LPG ppa aL
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `mmrlapp/mmrl` — ★2.223 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 83).*
-
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
-pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
-texto; esta nota solo añade el estado medido hoy.
-
-Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0
-dormidos · 0 archivados.
-
-Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
-(verificado 29-oct-2026).
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `mmrlapp/mmrl` — ★2.223 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
+REV|.odicenama sámaj :etnatse lE .onofélet led areuf aneaf nis oludóm ,etnatse led areuf otreum oper :atsenoh adop al y — ahcef noc sodaslup-er senoisrev y soper :ognimod remirp led lausnem arig aL=1|REV|.asac ed nedro ne aremirp al y )832 rop lexiP led ojabed( alif al ed acihc sám acalp al ,902.2★ :ohco ed avatco erroc adneit al y — )6202-tco-81 osnec( sacalp ohco sal ne sallertse 299.24=2|REV|.yel al enopmi asac al ,nedro le atilicaf adneit al :adnam on »odot razilautca« nótob le — abeurp ed oretne aíd NU ,oludóm NU :anu al ed alger al noc ,anu a eD=3|REV|.ediced oñeud led arav al :artseum anirtiv aL .)aterbil al ne nóisiver ed ahcef noc — sesaeler ,artel ,ajrof( esralatsni ed SETNA erba es odatsil oludóm adac :areuf o oralc opeR=4|REV|.onegíxo on ,nedro se adneit al :airotagilbo se on y )seroiretna sal :28 y 66( efuhcne in toor se ON .toor led soludóm sol arolpxe y etrapmoc ,anoitseg euq 0.3-LPG ppa aL=5

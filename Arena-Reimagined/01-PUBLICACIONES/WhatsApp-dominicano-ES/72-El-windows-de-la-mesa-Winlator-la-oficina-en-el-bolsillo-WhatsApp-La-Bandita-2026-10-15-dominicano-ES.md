@@ -956,46 +956,4 @@ oficina del ciber, en el bolsillo; el disco viejo: la llave que manda.
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.arenoisirp sámaj :anicifo aL .ojeiv otarapa le rednev ed SETNA ayasne es aznadum al y — onofélet orto a selbadum ,socsid sod ne :sotelpmoc serodenetnoc soL
-
-REV|.osnec le ne arepus al 067.82★ retuor le ;763.41★ elbeum le y 086.41★ allislob al ,)838.4 rop( 186.51★ obuc le erbos adnam — )6202-tco-81 oslup( 915.91★ :nólas led royam acalp aL
-
-REV|.satneuc sal nev sámaj sogeuj sol — odaciled oicapse le :ajer aL .rodenetnoc US ne onu adac — sogeuj sol y rellat le ,oicogen led dadilibatnoc al :oicifo rop oicapse nU
-
-REV|.selanigiro socsid ed ajac ase :osip led erfoc lE .amrif asac al euq evall acinú al — DC ed ajac al ed lanigiro ocsid le :oiporp rodalatsni led yel aL
-
-REV|.aipoc es sámaj :ametsis lE .nerroc y swodniW ne ratse neerc samargorp sol — ocilbúp oicifo ed etneibma le ATIMI )eniW( rotcudart le :adan alatsni oN
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `brunodev85/winlator` — ★19.679 (verificado 29-oct-2026) · última actividad 2026-10-17 · LGPL-2.1.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 72).*
-
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
-pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
-texto; esta nota solo añade el estado medido hoy.
-
-Actividad medida hoy: 0 con actividad hoy · 0 en 7 días · 1 en 30 días · 0 en 180 días · 0
-dormidos · 0 archivados.
-
-Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
-(verificado 29-oct-2026).
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `brunodev85/winlator` — ★19.679 (verificado 29-oct-2026) · última actividad 2026-10-17 · LGPL-2.1.
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
+REV|.arenoisirp sámaj :anicifo aL .ojeiv otarapa le rednev ed SETNA ayasne es aznadum al y — onofélet orto a selbadum ,socsid sod ne :sotelpmoc serodenetnoc soL=1|REV|.osnec le ne arepus al 067.82★ retuor le ;763.41★ elbeum le y 086.41★ allislob al ,)838.4 rop( 186.51★ obuc le erbos adnam — )6202-tco-81 oslup( 915.91★ :nólas led royam acalp aL=2|REV|.satneuc sal nev sámaj sogeuj sol — odaciled oicapse le :ajer aL .rodenetnoc US ne onu adac — sogeuj sol y rellat le ,oicogen led dadilibatnoc al :oicifo rop oicapse nU=3|REV|.selanigiro socsid ed ajac ase :osip led erfoc lE .amrif asac al euq evall acinú al — DC ed ajac al ed lanigiro ocsid le :oiporp rodalatsni led yel aL=4|REV|.aipoc es sámaj :ametsis lE .nerroc y swodniW ne ratse neerc samargorp sol — ocilbúp oicifo ed etneibma le ATIMI )eniW( rotcudart le :adan alatsni oN=5

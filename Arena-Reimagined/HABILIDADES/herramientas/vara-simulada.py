@@ -24,7 +24,7 @@ def health(text):
 def extractQuiz(text):
     L=text.split('\n'); found=[]
     for i,l in enumerate(L):
-        if l.startswith('Respuestas al rev'): found.append(i)
+        if re.sub(r'^[*\s]+','',l).startswith('Respuestas al rev'): found.append(i)
     res=[]
     for i0 in found:
         j=i0+1

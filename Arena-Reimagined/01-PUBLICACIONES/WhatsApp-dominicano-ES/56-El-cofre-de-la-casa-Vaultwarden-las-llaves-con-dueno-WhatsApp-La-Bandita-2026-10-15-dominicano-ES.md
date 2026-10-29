@@ -988,46 +988,4 @@ La casa no improvisa: programa. Y la noche firma: el cofre de la casa — las ll
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|.ortned oñeud us noc in olreel aírdop sámaj ajac al ;otarapa le NE arfic es oterces le — ODARREC ERFOC NU adrauG
-
-REV|.nójac led lepap le ne ,onam a atircse ,sarbalap ortauc ed esarf al :SETNA amrif es ose rop — erpmeis ap edreip eS
-
-REV|.ajac UT a odnatnupa LRU al ,etsuja nu — )nedrawtiB( radnátse led sppa sal :erpmeis ed aL
-
-REV|.erpmeis ap evall al adraug tahc le :tahc le rop sámaj — )aíd nu ed otneimicnev noc( erfoc led oditrapmoc le roP
-
-REV|.sadamrif sám sal ,samitní sám saneaf sal — )461.96★( erfoc etse y )265.19★( orberec le ,)804.611★( mublá le :serT
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `dani-garcia/vaultwarden` — ★69.876 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release 1.37.4 (2026-10-06).
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 56).*
-
-Alcance de esta nota: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta
-pieza: 1 repos GitHub confirmados. La historia original no se reescribe: conserva su fecha y su
-texto; esta nota solo añade el estado medido hoy.
-
-Actividad medida hoy: 0 con actividad hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0
-dormidos · 0 archivados.
-
-Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza en esta pasada
-(verificado 29-oct-2026).
-
-*Placas de control (selección por actividad reciente y juventud, no por fama):*
-
-• `dani-garcia/vaultwarden` — ★69.876 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release 1.37.4 (2026-10-06).
-
-Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
-de los repos de arriba y la del universo del censo cuando cita agregados.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
-próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
-fecha y pulso.
+REV|.ortned oñeud us noc in olreel aírdop sámaj ajac al ;otarapa le NE arfic es oterces le — ODARREC ERFOC NU adrauG=1|REV|.nójac led lepap le ne ,onam a atircse ,sarbalap ortauc ed esarf al :SETNA amrif es ose rop — erpmeis ap edreip eS=2|REV|.ajac UT a odnatnupa LRU al ,etsuja nu — )nedrawtiB( radnátse led sppa sal :erpmeis ed aL=3|REV|.erpmeis ap evall al adraug tahc le :tahc le rop sámaj — )aíd nu ed otneimicnev noc( erfoc led oditrapmoc le roP=4|REV|.sadamrif sám sal ,samitní sám saneaf sal — )461.96★( erfoc etse y )265.19★( orberec le ,)804.611★( mublá le :serT=5
