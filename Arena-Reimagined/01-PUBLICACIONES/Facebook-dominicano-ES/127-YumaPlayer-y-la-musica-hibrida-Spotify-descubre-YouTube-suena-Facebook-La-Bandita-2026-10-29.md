@@ -1,31 +1,21 @@
 # Publicación 127 — YumaPlayer y la música híbrida: Spotify descubre, YouTube suena
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 2 activos este mes. Manda **maxrave-dev/SimpMusic** (★12.529): «A cross-platform music app using YouTube Music for backend». Le sigue **MuwMx/YumaPlayer** (★1.029): «🎵 Hybrid music client for Android: Spotify discovery & UI + YouTube Music library + Hi-Res Lossless (FLAC) streaming with fluid Glassmorphism💫». Temas que se repiten en el grupo: android, android-16, android-app, android-application.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `maxrave-dev/SimpMusic` —
-★12.529, GPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **maxrave-dev/SimpMusic** — «A cross-platform music app using YouTube Music for backend»
+  ★12.529 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v2.4.0 (2026-10-25) · https://github.com/maxrave-dev/SimpMusic · Web: https://simpmusic.org/
+  Temas: android · android-16 · android-app · android-application · android-auto · compose-multiplatform
 
-• `maxrave-dev/SimpMusic` — ★12.529 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **MuwMx/YumaPlayer** — «🎵 Hybrid music client for Android: Spotify discovery & UI + YouTube Music library + Hi-Res Lossless (FLAC) streaming with fluid Glassmorphism💫»
+  ★1.029 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.2.0-RC.1 (2026-10-17) · https://github.com/MuwMx/YumaPlayer
+  Temas: android · android-ui · audiophile · flac · glassmorphism · jetpack-compose
 
-• `MuwMx/YumaPlayer` — ★1.028 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**maxrave-dev/SimpMusic** trae la novedad del grupo, su release v2.4.0 (2026-10-25). Legalmente el grupo se reparte así: GPL-3.0 ×2; la actividad más fresca es de **MuwMx/YumaPlayer** (hace 2 días); **maxrave-dev/SimpMusic** firmó la release de fecha más reciente (v2.4.0 (2026-10-25)) de las 2 del grupo.
 
-• https://github.com/muwmx/yumaplayer — vivo al verificar hoy (2026-10-29)
-• https://github.com/maxrave-dev/simpmusic — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
