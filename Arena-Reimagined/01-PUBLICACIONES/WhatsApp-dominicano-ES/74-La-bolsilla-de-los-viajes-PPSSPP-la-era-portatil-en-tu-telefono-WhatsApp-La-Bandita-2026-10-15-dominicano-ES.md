@@ -1,0 +1,654 @@
+*74 — LA BOLSILLA DE LOS VIAJES*
+*hrydgard/ppsspp ★14.690 (pulso 19-oct-2026) es la era portátil volviendo al bolsillo: los juegos de la PSP corriendo en tu teléfono — la consola que cabía en la mano, de vuelta en la caja que ya llevas (WhatsApp · La Bandita · dominicano-ES)*
+
+───────────────────
+
+*⚡ EN UN RESPIRO*
+
+La bolsilla de los viajes es PPSSPP: los discos de la PSP (la consola portátil de la era dorada) corriendo EN TU TELÉFONO — el juego del autobús de la adolescencia, de vuelta en el bolsillo. La cuarta placa del salón: 14.680 estrellas y catorce años de forja.
+
+*🗺 MAPA DE ESTA GUÍA*
+
+La fila del salón (71-80) firma su cuarta pieza: la era portátil — esta pieza septuagésimacuarta trae la PSP a la caja (la cuarta placa del salón: debajo del cubo ★15.687 (pulso 19-oct-2026) — por 1.001 — y encima del mueble padre ★14.382 — por 313).
+
+El recorrido: la escena del juego prestado (la de toda casa que creció con una portátil), el censo de la bolsilla, las tres capas del viaje, la vara de la letra propia, la doctrina del UMD propio (la frontera con el robo), la receta por pisos, los mitos, las preguntas, seis casos, las despensas, los riesgos con fecha, el ritual de siete días y las cartas de la mesa.
+
+*🌱 LA SEMILLA*
+
+La escena del juego prestado: la casa de la era portátil (la PSP del hermano mayor, el UMD del amigo del barrio — el juego que pasó de mano en mano en el autobús del liceo: la consola que cabía en el bolsillo y NO salía de las manos — hasta que se dañó la pantalla, se vendió por la mudanza, o el hermano: creció).
+
+Y los dos caminos de siempre: el aparato de la vitrina (la consola portátil re-edición: cara, cerrada, con sus juegos amarrados — la nostalgia, en cuotas), o la app del tacho (el «psp gratis con todo incluido» del rincon: las ISO robadas + el chisme del teléfono — el autobús entero, espiado).
+
+La forja firma la tercera vía del bloque: PPSSPP — la bolsilla de los viajes: la forja de CATORCE AÑOS corriendo los UMD propios (el disco de la casa leído con respeto, el juego del autobús: de vuelta en el bolsillo de HOY — con la misma vara de la ley del juego propio).
+
+Y el juego que corre: el que la casa VUELCA (el UMD propio en el lector: la rom honesta — la era, firmada por su dueño).. El salón de la casa: con su piso portátil — en la mano, como siempre estuvo.
+
+*🗼 EL CENSO DE LA BOLSILLA (censo 18-oct-2026)*
+
+La bolsilla y su familia — las placas de la era portátil, medidas HOY.
+
+*La bolsilla — PPSSPP.* `hrydgard/ppsspp` ★14.690 (pulso 19-oct-2026).
+
+Nacida el 1-nov-2012 (CATORCE AÑOS de forja — la veterana de la era portátil: más vieja que el cubo 2013 y la negra chiquita 2019, más joven que el mueble padre 2010). Con aire del MISMO DÍA (push de hoy), con su letra por leer en su hogar (NOASSERTION en el índice — la firma se lee en la casa de la forja: la vara de la 58, siempre primero).
+
+La forja de la era portátil: la PSP entera, en una app.
+
+*El ranking, con honestidad del censo:* la bolsilla es LA CUARTA PLACA DEL SALÓN (★14.690, pulso 19-oct-2026: debajo del cubo ★15.687 — por 1.002 — y encima del mueble padre ★14.382 — por 311). En el censo entero: debajo del router del aire ★28.760 (pulso 19-oct-2026).
+
+La lección del censo: catorce años puliendo UNA consola portátil — la forja más paciente del salón junto al mueble. El censo no decora: mide.
+
+*La familia del salón:* el mueble padre (71: RetroArch ★14.382, pulso 19-oct-2026), el windows de la mesa (72: ★19.531 — la placa mayor), el cubo (73: Dolphin ★15.687 — la era del movimiento), la negra chiquita (75: DuckStation ★10.857 — la era siguiente). El salón de la casa: con su piso portátil — la era que vive en la mano.
+
+*🏛 LAS TRES CAPAS DEL VIAJE*
+
+El oficio de la bolsilla, por capas — del UMD al bolsillo.
+
+*La capa del UMD — el disco propio, leído con respeto.* El corazón de la bolsilla: el UMD volcado (el disco de la PSP de la casa: leído por el lector de la consola propia o el lector del club — la ISO nacida de TU estante, con SU número honesto).
+
+Su vara fina de la capa: la ley del juego propio (la 71 y la 73, firmadas aquí otra vez: el disco bajado del rincon — la copia ajena, fuera del bolsillo). Arma el piso esta capa: los UMD — volcados, nombrados con año.
+
+*La capa del viaje — el juego en la mano de HOY.* La capa de la era: el juego portátil corre EN EL TELÉFONO (el autobús del liceo, la fila del banco, la sala de espera del consultorio: el juego del viaje — en la caja que la casa ya lleva).
+
+Encima la vara fina: el control de la era (los botones en pantalla con SU mapa, o el mando bluetooth de la casa: la mano de siempre — la consola: invisible). Encima la vara mayor: el save del viaje (la partida que se pausa con el autobús frenando: el guardado rápido — la era, hecha para interrumpirse). Mueve el viaje esta capa: la portátil — en la mano de HOY.
+
+*La capa del oro — los saves con póliza de viaje.* La capa del cofre (la regla tres de la fila, versión portátil): los saves de la era (el juego de meses del adolescente, el save del hermano mayor: ORO del bolsillo — respaldado en dos discos junto al despacho de la 59).
+
+Su vara fina: el perfil por juego (el disco exigido: SU ajuste anotado — la gira de la bolsilla: la vara del faena-juego). Además la vara mayor: el save HEREDADO (el save del hermano que creció: cargado en el salón nuevo — la partida de otra vida, respetada). Cierra esta capa: el oro — viajando con póliza.
+
+*⚖ LA VARA DE LA LICENCIA*
+
+*La letra por leer en su hogar.* La letra de la bolsilla (NOASSERTION en el índice del censo: la firma vive en la casa de la forja — se lee ANTES de montar, como manda la vara de la 58), y la lectura fina del oficio: catorce años de código público (la forja de la portátil: cada versión, examinada por el barrio del mundo — la seriedad de la casa abierta).
+
+La vara fina de la bolsilla: la letra de la FORJA es una — los UMD: SU vara (la del disco de cada casa; la ley del juego propio, por encima de todo bolsillo). La app: de la escuela pública — los juegos: de la casa.
+
+*🎯 LA DOCTRINA DEL UMD PROPIO (las tres reglas del piso portátil)*
+
+Aquí va la frontera que la app del tacho jamás dibuja — la doctrina de esta pieza.
+
+*Regla uno — el UMD que corre es el volcado propio: la ley del disco chiquito.* La vara mayor de la bolsilla: el juego nace del disco de la CASA (el UMD del estante leído por la consola propia o el lector del club — la ISO con su número: nacida de tu vida).
+
+Otra vara fina: la ISO bajada del rincon (la copia ajena del tacho: el robo del autobús — el «todo incluido gratis»: cien robos con chisme de postre). La regla mayor del viaje: la era se juega de casa — disco por disco, como sus hermanas del salón.
+
+*Regla dos — el viaje se pausa: la era portátil manda su ritmo.* La vara fina del oficio (la fidelidad al recuerdo portátil): el juego del autobús se juega EN TANDAS (la partida corta del trayecto, el guardado rápido como el agua: la era hecha pa interrumpirse — jamás la madrugada de consola de sala).
+
+Suma la vara mayor: la honestidad del sofá (la bolsilla también juega en la tele con el mando: pero su alma — es la mano; el sofá: de la era del cubo de la 73). La regla del viaje: tandas de trayecto — la era, honrándose portátil.
+
+*Regla tres — el save del hermano es de la familia: el oro viaja con póliza.* La línea fina del oficio: el cofre del viaje (los saves de TODA la familia: los del hermano mayor incluidos — un solo cofre en dos discos, junto a la 59). La otra vara fina honesta: el perfil por juego (el disco exigido: SU ajuste — la gira de la bolsilla, anotada con fecha).
+
+Además la vara mayor: la herencia de la partida (el save del hermano que creció: se carga con respeto — jamás se borra pa «hacer espacio»: se copia ANTES). La regla del oro: la partida de otra vida — más sagrada que la propia.
+
+*🔧 LA RECETA DEL VIAJE EN PIE (una semana pausa, por pisos)*
+
+Cómo se arma sin equivocarse:*
+
+*Piso 1 — la bolsilla instalada (media hora).* PPSSPP de la forja (la letra leída en su hogar), el directorio del viaje firmado (volcados, saves, perfiles: la carpeta de la era — nombrada como la gente), y la prueba en seco (la app abre y lista: vacía y honesta — jamás trae juego traído). El viaje: con bolsilla y sin trasteo.
+
+*Piso 2 — el primer volcado (la tarde del estante).* El UMD propio en el lector (la consola PSP propia sirviendo el volcado, o el lector del club: la tarde del estante — los discos de la era, leyéndose con respeto). La ISO en SU carpeta (nombre de gente y año: «el del autobús 2010»), y la primera partida de prueba (la era: viva en la mano — la vara del viaje).
+
+El disco: volcado con ley.
+
+*Piso 3 — la mano puesta (una tarde).* El control elegido (los botones en pantalla con SU mapa, o el mando bluetooth: la mano que la casa prefiera), el ajuste del viaje (el tamaño de los botones, la posición de las teclas: la mesa al gusto del pulgar), y la partida corta de prueba (el trayecto de prueba: la era — pausándose como el autobús). La mano: puesta.
+
+*Piso 4 — la póliza del viaje (media hora).* Los saves en SU carpeta (incluidos los del hermano: los heredados), la póliza en dos discos (junto a la 59: el cofre del viaje), y la prueba del desastre (el save restaurado de copia: ensayado — el teléfono puede morir: la partida, no). El oro: viajando con póliza.
+
+*Piso 5 — el perfil por juego (quince minutos por disco).* El disco exigido probado (SU ajuste: control, pantalla, velocidad — la ficha del juego), la anotación con fecha (el perfil en la gira: la vara del faena-juego), y la lista honesta (lo que pide más caja: anotada — la escala manda). Cada disco: con su receta de viaje.
+
+*Piso 6 — la gira del viaje (mensual, quince minutos).* Los perfiles revisados (¿corren como corren?: la gira de la bolsilla), los saves respaldados (la póliza: al día — el ritual del viajero), los UMD pendientes de volcar (la lista del estante: por tandas), y el apunte honesto (la era: documentada — el viaje, como toda la casa).
+
+La bolsilla: viva — la era, girando en el bolsillo.
+
+*🧊 MITOS DESMONTADOS*
+
+*«La PSP fue una consola de na».* El mito del esnob, jubilado (vigésimoséptima vez en la fila): el catálogo de la era pesa (los clásicos del autobús, los torneos del recreo, los juegos que el hermano mayor cuidaba como oro: la era portátil — la más INTIMA de todas: jugada a solas y compartida de mano en mano).
+
+Su vara fina: la prueba del autobús (la partida del trayecto: la era que enseñó a jugar EN TANDAS — el oficio del viaje). Además la vara mayor: la forja de la bolsilla (catorce años puliendo la era: el respeto del oficio midiendo lo que el esnob despreció). El desprecio: de quien no viajó — el bolsillo: manda.
+
+*«Necesitas la consola original pa volcar».* El mito del aparato completo, leído con vara fina: el volcado pide SU lector (la consola propia es el camino natural — pero el lector del club: presta y honesto; el UMD ajeno del vecino: se volca en SU casa con SU permiso y SU firma).
+
+Con vara fina: la era del volcado comunitario (el club del barrio con SU lector: la tarde del estante colectiva — cada quien con SU disco), y la vara mayor: la honestidad del volcado (sea con consola propia o lector prestado: del disco PROPIO — la ISO con su número: la única que la casa firma). El volcado: de oficio — jamás de tacho.
+
+*«El teléfono no aguanta los juegos de la era».* El mito viejo, jubilado con fecha (era casi cierto en 2012 — hoy es el revés): la era portátil corre LIVIANA en la caja de hoy (catorce años de forja + la hornada del teléfono-suficiente: el catálogo entero, girando con sobra).
+
+Suma la vara fina: lo que pide músculo es el ADORNO (el reescala de la pantalla: el lujo del viaje — la regla del peso de la fila). La otra vara mayor: la escala honesta (los discos exigidos: SU perfil — anotado en la gira: el salón corriendo lo que faena y diciendo lo que no). El teléfono de HOY: la consola portátil que soñó la era.
+
+*«Jugar en el teléfono rompe la batería».* El miedo de la mesa, con respuesta de oficio: la era del viaje es de TANDAS (la partida del trayecto: veinte minutos — la dosis del viaje: la vara de la 71 aplicada al bolsillo).
+
+Con vara fina: el ajuste honesto (el brillo del viaje, el reescala mínimo: la receta del autobús — la batería sirviendo el día), con el save como seguro (la partida se guarda en CADA parada: el ritual del viajero — la batería puede morir: la partida, no).. El viaje: de tandas — el teléfono: sobrevive; la partida: siempre.
+
+*❓ PREGUNTAS DE LA FILA*
+
+*¿PPSSPP y la PSP — qué es exactamente cada cosa?* La consola y su salón — con vara fina: la PSP fue la CONSOLA (el aparato de la era portátil: su pantalla, su disco UMD, su vida), y PPSSPP es el SALÓN (la forja que corre los juegos de esa consola EN tu teléfono: catorce años de oficio).
+
+La pareja del recuerdo: la consola original descansando con respeto en la gaveta — su era, viviendo en el bolsillo de HOY. La bolsilla: la consola que no se compra de nuevo — se resucita.
+
+*¿Cómo se volca un UMD — si la consola ya no enciende?* Con oficio de barrio — con vara fina: el lector del club (la tarde del estante colectiva: el club del barrio con SU consola lectora — cada quien con SU disco: la tarde del volcado comunitario).
+
+La otra vara fina seria: el vecino lector (el amigo con consola viva: el UMD ajeno se volca en SU casa, con SU permiso — la firma del dueño en la etiqueta). Encima la vara mayor: la honestidad del volcado (del disco PROPIO con SU número — jamás de la ISO del rincon: la ley del juego propio, sin atajos). El UMD: se lee con oficio — nunca se baja.
+
+*¿Los botones en pantalla o el mando — cómo se juega mejor?* Como pida la mano — con vara fina: los botones en pantalla (el salón trae SU mapa: ajustable al pulgar — el viaje sin compras: al toque). La otra vara fina: el mando bluetooth (el control de la casa: la mano de siempre — la misma compra sabia del salón: UN mando pa todas las eras).
+
+Suma la vara mayor: la honestidad del juego (el juego de precisión fina: mejor con mando; el juego de tanda: perfecto en pantalla — cada disco: SU vara en la gira). La mano: manda — el control: sigue.
+
+*¿Los saves del hermano mayor se pueden cargar — sin borrar los míos?* Se pueden — con vara fina: el cofre del viaje (los saves de TODA la familia: en carpetas separadas — los del hermano con SU nombre, los tuyos con el tuyo: el confesorio del oro).
+
+Su otra vara fina seria: la copia ANTES de tocar (el save heredado: copiado a dos discos ANTES de cargarlo — la regla del oro: la partida de otra vida, más sagrada). Con vara fina: la gira del cofre (los saves: revisados en la gira — la partida del hermano: esperando su turno como toda la casa). El oro: de familia — jamás se pisa.
+
+*¿Qué placa es la de la bolsilla — entre quiénes corre y con qué edad?* La cuarta placa del salón — con vara fina: ★14.690 (pulso 19-oct-2026), debajo del cubo ★15.687 (por 1.002) y encima del mueble padre ★14.382 (por 311), debajo del router ★28.760 (pulso 19-oct-2026) en el censo).
+
+Encima la vara mayor: CATORCE AÑOS de forja (2012-2026: la veterana de la era portátil — nacida antes que el cubo y la negra chiquita). La lectura fina: la forja del viaje (catorce años puliendo UNA consola: la paciencia del mueble padre, con el empuje de la hornada nueva). El censo no decora: mide — y catorce años: la medida del viaje.
+
+*🧪 CASOS DEL BARRIO*
+
+*Caso uno — el autobús del liceo.* El muchacho del liceo (el de la fila entera) con el viaje largo (el autobús del liceo: cuarenta minutos cada mañana — la era del viaje: HECHA pa eso).
+
+Montaje: la bolsilla en el teléfono (letra leída), el UMD propio volcado (el disco del hermano con SU permiso: la tarde del estante), el control en pantalla ajustado al pulgar, y la partida en tandas (la del trayecto: pausada en cada parada — el save como el agua). El viaje: con su era — la mañana: con partida.
+
+*Caso dos — el hermano que creció.* El hermano mayor de la casa (el que tuvo SU PSP en 2010: la consola vendida en la mudanza — los UMD: en la gaveta de mamá, con celo).
+
+Montaje: la tarde del estante en la casa (los UMD del hermano: leyéndose con respeto — SU firma en cada volcado), el cofre del viaje (los saves viejos + los nuevos: carpetas separadas), y la sorpresa del domingo (el hermano visitando: SU juego cargado en el teléfono del muchacho — la partida del 2010: CONTINUANDO).
+
+La era del hermano: resucitada — la visita: con partida de vuelta.
+
+*Caso tres — la fila del banco.* La colmadera (la de la fila entera) con la fila del banco (dos horas de espera mensual: la fila del negocio — «tiempo perdido» de por vida).
+
+Receta propia: la bolsilla en el teléfono del negocio (SU teléfono: el del mostrador), el UMD propio volcado (el disco de SU adolescencia: la tarde del estante con el colmadero), la partida en tandas (la fila: dos tandas de veinte minutos — el save en cada paso), y la vara fina: el perfil honesto (el juego de la fila: liviano y pausado — la batería sirviendo el negocio).
+
+La fila del banco: con su era — el «tiempo perdido»: jubilado.
+
+*Caso cuatro — el torneo del recreo.* El grupo del liceo (el del ciber resucitado) con el torneo portátil (los veinte minutos del recreo: el torneo de la era — cada muchacho con SU teléfono).
+
+Clase armada: la ley en la pizarra del liceo (cada jugador: SU UMD volcado — la regla uno, escrita por el maestro), el perfil del torneo (el disco del torneo: probado por todos — la vara del faena-juego), y el acta del campeón (el recreo documentado: el cuaderno del grupo). El recreo: con torneo con ley — la era: criando viajeros honestos.
+
+*Caso cinco — el consultorio del barrio.* La doctora del consultorio (la de la fila IA) con la sala de espera (los pacientes esperando su turno: la sala quieta — «es la hora más larga del mes»).
+
+Montaje: la era en la sala (el teléfono de la sala con SU bolsilla: la consola de espera), los discos propios del consultorio (los UMD de la doctora: SU adolescencia — la ley del juego propio, en público), y la partida en tandas (la espera: una tanda de veinte minutos por paciente — el save en cada llamada). La sala de espera: con era — la ansiedad: con partida.
+
+*Caso seis — el cofre del viaje heredado.* La familia del despacho (la de la fila entera) con el cofre portátil completo (los UMD del hermano, los saves del hijo, las partidas del papá: el archivo portátil de la casa — tres generaciones de viaje).
+
+Montaje: el cofre ordenado (carpetas por gente: los del hermano, los del hijo, los del papá), la póliza en dos discos (junto a la 59: el oro portátil, con póliza como todo), y el ritual del domingo (cada quien: SU partida — la era del viaje: de la casa, para la casa). El cofre del viaje: con tres generaciones — la era: heredándose en tandas.
+
+*🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)*
+
+*Las placas (censo 19-oct-2026):* la bolsilla ★14.690 — LA CUARTA PLACA DEL SALÓN (debajo del cubo ★15.687 por 1.002; encima del mueble ★14.382 por 311; debajo del router ★28.760 en el censo). Letra por leer en su hogar.
+
+*La edad:* nacida el 1-nov-2012 — CATORCE AÑOS de forja (la veterana de la era portátil).
+
+*El aire:* push del MISMO DÍA (catorce años — y la forja empuja HOY).
+
+*La pareja del viaje:* el UMD propio volcado + el teléfono de la casa — la consola que no se compra de nuevo: se resucita.
+
+*La vara de la casa:* UMD propio (la ley del disco chiquito), tandas de viaje (la era pausándose como el autobús), el cofre del oro con póliza (los saves del hermano: sagrados) — y el perfil por juego: la gira manda.
+
+*🕰 LA EDAD DEL VIAJE*
+
+Catorce años (2012-2026): la veterana de la era portátil. La historia del nacimiento: noviembre de 2012 — la forja firma el salón portátil (la PSP entera en una app: la era del viaje, con casa nueva), y catorce años después: la forja con push de HOY, el catálogo girado por una década de autobuses.
+
+La edad del viaje: la del oficio íntimo (la era que se juega a solas y se comparte de mano en mano: catorce años puliendo el compañero de trayecto).
+
+*💬 LA CONVERSACIÓN HONESTA*
+
+Dígase claro: la bolsilla NO trae juegos (la honestidad de la bolsilla: llega vacía de eras y llena de capacidad — la ley del UMD propio: lo que corre, lo que la casa volcó). Otra vara fina: el volcado pide SU tarde (la consola propia o el lector del club: la tarde del estante — la era no es descarga: es OFICIO con estante).
+
+Además la vara mayor honesta: la casa sin UMD en el estante (la generación del teléfono: la honestidad del recibidor de toda la fila — la bolsilla: pa quien guardó su disco; los que no: el cofre del viaje empieza CON los discos que hoy cuidan). La honestidad del bloque: el viaje honra al que guardó su era.
+
+*🎞 LO QUE ESTA PIEZA NO DICE*
+
+No dice que bajes ISOs del rincon — dice la ley del disco chiquito: el UMD propio se volca — la bolsilla jamás regala el autobús.
+
+No dice que corra las consolas de sala — dice la honestidad del viaje: la era portátil es de la MANO — el sofá: de la era del cubo de la 73.
+
+No dice que sea placa mayor del censo — dice la vara fina: 14.680, la cuarta de su fila — debajo del cubo por 1.001, encima del mueble por 313.
+
+No dice que el teléfono sufra — dice la vara de las tandas: el viaje es de trayectos — la partida se pausa en cada parada.
+
+No dice que el save del hermano sea tuyo — dice la regla del oro: se copia ANTES, se carga con respeto — la partida de otra vida: más sagrada que la propia.
+
+*🩺 LA SALUD DEL VIAJE AL CORTE (el parte de la bolsilla)*
+
+El parte del 18-oct-2026: la forja con aire de HOY (catorce años de push), la letra por leer en su hogar (la vara de la 58: pendiente de la casa — se lee ANTES de montar), el catálogo girado por una década de viajes.
+
+La lectura fina del parte: la forja del viaje íntimo al corte (catorce años puliendo el compañero de trayecto: cada versión, examinada por el barrio del mundo) — la era portátil: en su mejor versión jamás. La salud de la bolsilla: la de las forjas sin prisa — el viaje: pulido, no prometido.
+
+*📐 LA MEDIDA DEL VIAJE (lo que el censo deja leer y no se ve)*
+
+Tres medidas finas de la noche.
+
+La primera: la intimidad medida. La era portátil: la única era que se juega A SOLAS y se comparte de mano en mano (el autobús, la fila, la sala de espera: el juego del trayecto — sin tele, sin sofá, sin pizarra). Otra vara fina: catorce años puliendo UNA consola de mano (la forja del viaje: la paciencia del mueble, aplicada al bolsillo).
+
+La lectura fina: la era del viaje NO compite con el sofá (la 73 corrió el torneo: esta corre el trayecto — el salón de la casa: dos eras, dos modos de vida). La medida del viaje: la era — íntima por diseño.
+
+La segunda: el volcado comunitario. El club del barrio con SU lector (la tarde del estante colectiva: cada quien con SU disco — el volcado de oficio, prestado y firmado). La ley viajando entera: la del chiquito del cubo y la del UMD — LA MISMA, el salón entero con una sola vara honesta..
+
+Suma la vara mayor: el barrio criando viajeros honestos (el torneo del recreo con la ley en la pizarra: la era enseñando la ley del propio desde el liceo). La medida del oficio: el volcado — de barrio y con firma.
+
+La tercera: el save heredado como cofre. La partida del hermano que creció (el save del 2010: cargado con respeto en el teléfono del muchacho — la era del hermano, resucitada por el que vino después).
+
+El confesorio del oro como vara fina: los saves de la familia en carpetas separadas — cada partida: SU dueño, SU nombre., y la vara mayor: la casa enseñando a respetar la partida ajena (la regla del oro: se copia ANTES, jamás se borra pa espacio — la era criando generaciones que no pisan saves). La medida del cofre: la partida de otra vida — la más sagrada de la casa.
+
+*📻 LA SEGUNDA FILA (lo que quedó fuera del viaje)*
+
+*La historia — el noviembre de 2012.* La hornada de la era completa (la bolsilla en 2012, el cubo en 2013: las forjas del salón al mismo tiempo), y la visita de la obra: el salón portátil (la PSP entera en una app: la era del viaje con casa nueva), y catorce años después: el catálogo girando con aire de HOY.
+
+*El autobús del liceo — la visita del recuerdo.* La era de los viajes (el juego que pasó de mano en mano, el save prestado con celo, la pantalla compartida en el asiento de atrás: la era portátil — la más íntima del salón).
+
+La lectura fina: lo que la bolsilla rescata (no el aparato: el TRAYECTO — la partida corta, el save a cada parada, la pantalla en el asiento de atrás: el autobús, de vuelta).
+
+*El save heredado — la vara del oro.* El oficio fino del cofre (los saves de la familia: los del hermano mayor — la partida de otra vida, guardada con celo), y la lectura fina: la diferencia con el borrado fácil (el mundo de la nube borra sin ceremonia; la casa de la era: copia ANTES, carga con respeto — el save del hermano: la partida más sagrada del bolsillo).
+
+El oro del viaje: se hereda — jamás se pisa.
+
+*⏰ EL VIAJE EN TU DÍA A DÍA (cuatro rutinas del viajero)*
+
+*El morning del trayecto.* La partida del autobús (veinte minutos: el save en cada parada — el día arrancando con era).
+
+*El mediodía de la fila.* La tanda de la espera (la fila del banco, la sala del consultorio: el viaje — sirviendo el tiempo perdido).
+
+*El evening del sofá ajeno.* La partida compartida (la pantalla en el asiento de atrás, el save prestado con celo: la era — de mano en mano).
+
+*La madrugada de la gira.* La gira mensual del viaje (perfiles, saves, UMD pendientes: el ritual del viajero). La bolsilla — visitada como toda casa seria.
+
+*🧵 GENEALOGÍAS DEL VIAJE*
+
+*El abuelo — el Game Boy prestado del autobús.* El del barrio de siempre: la consola de cartucho en el asiento de atrás (el juego prestado, la pantalla compartida: la era del viaje — con pilas y con honor). El abuelo del viaje: el trayecto — con cartucho.
+
+*El padre — la portátil de la casa.* Los 2000s: la consola portátil de la era (la pantalla que iluminaba la cobija: la madrugada que nadie veía — la era íntima, naciendo). El padre del viaje: el trayecto — con luz propia.
+
+*La madre — la PSP del hermano.* 2005-2013: la era dorada del UMD (el juego del autobús, el save del hermano: la consola que cabía en el bolsillo — hasta la mudanza). La madre del viaje: el trayecto — con disco.
+
+*El hijo — la bolsilla resucitada.* 2026: la era en el teléfono de la casa (los UMD propios volcados, los saves heredados con cofre, las tandas del trayecto: el viaje — de vuelta, con ley). La genealogía completa: del cartucho al UMD, del UMD al teléfono. La idea que no cambió: el trayecto, queriendo partida. Y ahora la tiene con ley: el viaje — de la casa, para la casa.
+
+*📦 LA DESPENSA DEL VIAJE (tu bolsillo, ordenado como gente)*
+
+*El cofre de los UMD* — los discos del estante: volcados con nombre y año, SU firma en cada uno. El autobús — de la casa; el tacho — jamás.
+
+*Las tandas del trayecto* — veinte minutos por viaje, el save en cada parada: la era pausándose como el autobús. La madrugada — para el sueño; el trayecto — para la partida.
+
+*El cofre del oro heredado* — los saves por gente (los del hermano: SU carpeta), copiados ANTES de tocar: la partida ajena — sagrada. El borrado fácil — jubilado.
+
+*El perfil del trayecto* — cada disco exigido con SU ajuste, anotado con fecha: la gira del viaje. El autobús — a fluidez, jamás a tirones.
+
+*El teléfono del viaje* — el aparato del juego separado del negocio (si la casa puede): la era en su lugar. La faena — con el suyo limpio.
+
+*🪧 EL CARTEL DEL VIAJE*
+
+*La consola que cabía en el bolsillo, de vuelta en tu teléfono — catorce años de forja resucitando el autobús.*
+
+*El UMD que corre es el volcado propio — el disco del estante con SU firma: la única ISO que la casa reconoce.*
+
+*El viaje es de tandas — veinte minutos por trayecto, el save en cada parada: la era portátil honrándose.*
+
+*El save del hermano, sagrado — se copia antes, se carga con respeto: la partida de otra vida no se pisa.*
+
+*Y la gira, mandando — cada disco con su perfil, cada trayecto a fluidez: el viaje, como toda la casa.*
+
+*😄 EL MEME DE LA CASA*
+
+La app del tacho, en su anuncio: «EMULADOR PSP + 500 JUEGOS YA INCLUIDOS — EL VIAJE COMPLETO GRATIS». La bolsilla de la casa, en su silencio: «Trae el UMD de tu hermano — yo te enseño a volcarlo». El tacho, regalando 500 robos con chisme de postre.
+
+La casa, volcando SUS 5 discos con respeto — porque el viaje no son 500 juegos: es el disco del hermano, el trayecto del liceo y el save que se hereda. Eso no lo firma el tacho: lo firman catorce años de forja, y empujan HOY.
+
+*⚠ LOS RIESGOS DEL VIAJE, CON FECHA*
+
+*La ISO del rincon (el riesgo número uno, 18-oct-2026).* La ISO bajada del tacho (la copia ajena del «todo incluido gratis»: el robo del autobús — con chisme de postre), y la salida: la regla uno — la ley del UMD propio (el disco del estante: la única ISO que la casa firma), y la vara fina: la pizarra del viaje (la ley en el teléfono de la casa: la familia sabiendo).
+
+El viaje: de discos propios — jamás de tachos.
+
+*La madrugada portátil (el riesgo del sofá sin hora, versión viaje).* El juego hasta las tres bajo la cobija (la era íntima: sin pizarra, sin familia — la madrugada que nadie ve: la trampa del bolsillo). La salida: la regla dos — las tandas del trayecto (la partida del día: VEINTE minutos, pausada en cada parada — el save como el agua).
+
+Con vara fina: el ritual de la noche (el teléfono se guarda con la cena: la era — pa el autobús de mañana). El viaje: de tandas — la madrugada: jamás.
+
+*El save pisado (el riesgo del oro de familia).* El save del hermano borrado pa «hacer espacio» (la partida del 2010: PERDIDA por un toque — el llanto de dos generaciones). La salida: la regla del oro (se copia ANTES de tocar: el save heredado — en dos discos antes del primer toque).
+
+La otra vara fina: el confesorio del oro (los saves: en carpetas por gente — cada partida: SU dueño). La partida ajena: sagrada — la casa: sin llantos.
+
+*El perfil sin anotar (el riesgo del disco exigido, versión viaje).* El disco pesado a tirones en el trayecto (el ajuste de fábrica para un juego exigido: el autobús entero sufriendo — la era, maltratada). La salida: la vara del faena-juego (el perfil por disco: probado y anotado — la gira de la bolsilla).
+
+Otra vara fina: la lista de la escala (lo que pide más caja: anotado — la honestidad del viaje). Cada trayecto: a fluidez — jamás a tirones.
+
+*El teléfono del negocio en juego (el riesgo del lugar equivocado).* El teléfono del mostrador pidiendo la hora (la colmadera jugando en el teléfono del negocio: el cliente esperando y el negocio — en pausa). La salida: la vara del lugar (la era: pa el trayecto y la espera — jamás en medio de la faena; el teléfono del negocio: su hora es la fila del banco).
+
+Su vara fina: el teléfono del viaje (si la casa puede: SU aparato pa el juego — el negocio: con el suyo limpio). La era: en su lugar — la faena: en el suyo.
+
+*📖 GLOSARIO DE LA COSECHA*
+
+*Puente.* El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento. Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que las estrellas.
+
+*Cajón.* La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno. Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus etiquetas estén peinadas.
+
+*Detective.* La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa del artista».
+
+*Cosecha.* El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y lo que no pasa no se borra — se anota. La cosecha es la prueba de que el método de la casa funciona.
+
+*Placa.* El paquete completo de datos de una casa: estrellas con fecha, push con fecha, licencia con nombre, fila de asuntos. Sin placa no hay censo — hay lista de apodos.
+
+*Pulso.* La toma de datos con hora. El censo de la tarde no es el pulso de la noche: el #10 de esta pieza midió a las ~23:12 UTC y cazó dos casas moviéndose en vivo. El censo no es una foto: es un latido.
+
+*Mapa vivo.* La numeración de los pulsos de la casa (#1 al #10 al corte de esta pieza). Cada mapa vivo deja caja fechada para que el próximo lector compare su cuaderno con el nuestro.
+
+*Censo vivo.* El barrido grande de la casa: 5.684 repositorios al 15-oct-2026, con estrellas, pushes y licencias. Es la fuente de verdad de esta pieza — y crece por puerta verificada, no por promesa.
+
+*Vara.* La regla de la casa que decide qué entra al mapa: fuente abierta, licencia legible, pulso con fecha. La vara no clasifica por gusto — mide por oficio.
+
+*Corte.* El día y la hora en que se midió la verdad. Toda esta pieza es del corte 15-oct-2026; mañana el corte dirá lo que viva mañana — y esa es su honestidad, no su debilidad.
+
+*Quietud.* El silencio anotado: tronco grande sin empuje, con fecha de última actividad. No es muerte ni abandono automático — es pausa con acta. Timber y InnerTune son las quietudes de esta cosecha.
+
+*Push.* El último empuje del taller: la fecha de la última actividad del repositorio. En la escuela del puente, un push de esta semana vale más que mil estrellas — es la diferencia entre taller vivo y museo.
+
+*Release.* La versión publicada y firmada por el taller: la única forma del software que la casa palomea. OuterTune al corte trae la v0.10.1 contándose en público — eso es salud de release.
+
+*Asuntos.* Los issues del taller: la fila pública donde los problemas esperan turno. No cuenta la cantidad — cuenta si se contestan. Trescientos con respuestas respiran; cuarenta en silencio, no.
+
+*Estrellas.* El aplauso del ecosistema: mide fama, no calidad. ★49.974 (15-oct-2026) hace a Spotube el más aplaudido de la cosecha — la vara de la casa decide si ese aplauso viene con contrato.
+
+*Licencia.* El contrato escrito del taller: qué puedes hacer con su código. En esta cosecha firman GPL-3.0, AGPL-3.0 y MIT — y tres casas viajan sin firma clara, con su vara marcada.
+
+*GPL-3.0.* La licencia copyleft más común de la cosecha: usa el código, y lo que publiques con él se abre con la misma placa. Es la firma que convierte un silencio en genealogía — InnerTune la firmó, y OuterTune hereda con honor.
+
+*AGPL-3.0.* La GPL para servicios: si el código corre como servicio, también se abre. muffon la firma al 15-oct-2026 — la casa la lee con el mismo respeto que la GPL de sus hermanas.
+
+*MIT.* La licencia más simple de leer: haz casi lo que quieras, conserva el aviso. Salt Player la firma — garantía mínima, cadena limpia, cero letra chica.
+
+*NOASSERTION.* La placa en blanco: el repositorio no declara licencia reconocida. No es delito — es ausencia. Sin firma, el derecho por defecto es «todos los derechos reservados», y los reempaques viajan sin freno legal.
+
+*Copyleft.* La regla del recíproco: si tomas el código de un taller público para hacer el tuyo, lo que agregues sale con la misma placa. Es el antídoto del reempaque silencioso.
+
+*Fork.* La continuidad del software libre: un taller que nace del código de otro, respetando su licencia. OuterTune es el fork vivo de InnerTune — no su imitación: su línea.
+
+*Heredero.* El taller (o la línea) que toma el código de una casa quieta y sigue empujando. Para heredar con honor hace falta una sola cosa: que la madre haya firmado licencia. Sin firma no hay testamento.
+
+*Reempaque.* El APK que toma la obra de un taller, le mete anuncios o peaje, y la reparte con placa ajena. El enemigo viejo de la casa — y la razón de la vara: origen, firma, permisos, sin prisa.
+
+*Tienda legal.* La puerta de instalación que muestra el repositorio de origen: Droid-ify, Neo-Store, Accrescent, el F-Droid de la pieza 01. Si la tienda no muestra el repo, no es tienda — es grupo con carrocería bonita.
+
+*Droid-ify.* El cliente F-Droid material de la casa (pieza 01): busca la casa por su nombre exacto del censo y la instalación viaja con la placa a la vista. La primera puerta recomendada de esta cosecha.
+
+*Accrescent.* La tienda de estándares altos de la pieza 01: firmas estrictas, catálogo curado. Segunda puerta legal — la que usa el que prefieren las varas cortas.
+
+*F-Droid.* La casa madre de las tiendas libres: el catálogo histórico del ecosistema. Vieja, sabida y firme — el anexo donde la mayoría de las catorce de esta cosecha tiene placa.
+
+*APK.* El paquete instalable de Android. En sí mismo es neutro — como un sobre. La vara de la casa pregunta siempre lo mismo: ¿quién lo selló? La respuesta separa la tienda legal del grupo de siempre.
+
+*Firma.* La marca criptográfica del taller en su release. La tienda legal la verifica por ti; el APK de grupo, nadie sabe quién la puso. Sin firma verificable, no hay confianza — hay fe, y la casa no trabaja con fe.
+
+*Material You.* El lenguaje de diseño de Android moderno que sigue el color de tu fondo. Retro Music lo lleva de bandera (★5.357, 18-oct-2026) — el mueble clásico vestido de esta década.
+
+*Etiqueta.* La información adentro del archivo de música: título, artista, álbum, número, año. El reproductor lee la etiqueta, no el nombre del archivo — peinar etiquetas es peinar la biblioteca entera.
+
+*FLAC.* El formato sin pérdida: suena exacto al master y pesa cinco veces más que un MP3. Para el archivo maestro en la PC — no para el bolsillo del día a día.
+
+*MP3.* El formato que movió el mundo y sigue mandando en el bolsillo: a 320 kilobits suena igualito en auricular humilde y pesa como la palabra. La casa lo respeta sin nostalgia ni complejo.
+
+*Caché.* La memoria del río: las canciones que ya suenaste se guardan un tiempo para no volver a bajar. Es la gracia económica del streaming libre — la mata de hilo del tercer día suena media gratis.
+
+*Scrobble.* El hábito del detective: registrar lo que suenas para amarrar historial y descubrimiento. muffon lo trae de fábrica — el reproductor que también lleva el cuaderno de campo.
+
+*Discografía.* El mapa completo de un artista: álbumes, años, versiones. La vara del detective es amarrarla bien — muffon la cruza entre fuentes al 18-oct-2026 con ★2.246 y AGPL firmado.
+
+*Multi-fuente.* La casa que no se casa con un río: consulta varios provedores y te sirve la versión que esté limpia. Spotube, Namida y muffon viven de esa libertad — con sus licencias mirándose dos veces.
+
+*Streaming.* El modelo del río: suena ahora, no guarda nada tuyo. Infinito mientras el río corra — y por eso esta pieza repite: exporta lo que amas, streamea lo que descubres.
+
+*Aleatorio.* El modo más honesto del reproductor: te enseña cuánto conoces tu propio archivo. En el cajón con etiquetas peinadas, el aleatorio es un paseo; sin etiquetas, un secuestro.
+
+*Lista.* La secuencia guardada: el arte del anfitrión y la herramienta del viajero. La lista buena se exporta a archivo — la que solo vive dentro de la app es rehén de la app.
+
+*Exportar.* Sacar tus listas y favoritos a archivo que otra casa pueda leer. La prueba de propiedad de la escuela del río: si el mueble no exporta, eres inquilino con mueble bonito.
+
+*Sincronía.* La rutina que mueve tu música entre PC y teléfono sin cable ni heroico: Syncthing y su familia (viene en la serie). La copia maestra queda en casa; el teléfono lleva la de trabajo.
+
+*Copia maestra.* El original en FLAC que vive en tu PC o disco, del que nacen las copias de bolsillo. Convertir del maestro, nunca al revés: bordarle encaje a un saco de harina no lo vuelve traje.
+
+*Root.* El teléfono abierto de par en par. La casa lo trata en la pieza 20 con sus letreros — y esta cosecha musical NO lo necesita ni un poquito: fuente abierta es taller público, no cirugía.
+
+*Cuenta de prueba.* El casco de la obra: la cuenta sin nada personal que estrenas cualquier app nueva. En esta cosecha ninguna de las catorce pide contraseña — la que la pida, desinstálala y anota la fecha.
+
+*Letrero anti-reempaques.* La regla que SimpMusic puso en su casa (pieza 08) y se volvió ley del barrio: los reempaques no son míos y no los apoyo. El letrero que le quita al clonero su excusa favorita — la duda.
+
+*Genealogía.* El oficio de contar de dónde viene cada casa: troncos, forks, herederos, quietudes. La pareja InnerTune→OuterTune es la lección viva de esta cosecha — misma sangre, distinto pulso.
+
+*Sucesión.* El relevo ordenado cuando un taller se duerme: la línea GPL continúa en el heredero y el mapa anota el cambio con fecha. Sucesión limpia no tiene drama — tiene acta.
+
+*Corte honesto.* El corte que declara sus huecos: faltan casas, el censo sigue creciendo, y la pieza dice qué queda fuera. Sabe a lo que sabe — y lo que sabe, lo firma.
+
+*Rumor con formato.* Lo que queda de una recomendación cuando se le recorta la fecha: «Timber es el mejor» sin el 28-abr-2023 es un rumor con negritas. La casa comparte mapas con corte puesto.
+
+*Taller público.* El repositorio abierto: el taller cuyas herramientas, filas y errores están a la vista de todos. Las catorce de esta cosecha lo son — y por eso se les puede medir sin pedirle permiso a nadie.
+
+*Resurrección.* El regreso con fecha: tachiyomiJ2K volvió de dos años y medio de silencio (pieza 15). Por eso la quietud lleva acta y no lápida — la casa celebra el despertar el día que ocurre.
+
+*Gemela FB.* La copia hermana de una pieza que nacía para Facebook. Por orden del dueño del 15-oct noche, la serie nueva (21 en adelante) viaja SIN gemela: WhatsApp puro — el muro de Facebook queda fuera de esta cosecha. Ley anotada en la hoja de ruta, no en la discordia.
+
+*LA LISTA.* El índice vivo de la biblioteca (la pieza 00): el mapa del mapa donde cada guía nueva toma su número y su fila. Esta cosecha entra al corte siguiente de LA LISTA con su placa.
+
+*Boleta.* El único requisito de entrada a la biblioteca: haber abierto el repositorio, la página de versiones y la libreta de obra. Las catorce de esta cosecha pagaron boleta — por eso tienen pieza.
+
+*Lupa.* La herramienta de la casa que examina una pieza como un oficial de aduana: respiro, cadencia, anclas de tiempo, dialecto. La v6 «aire» es la que exige bloques que respiren — esta pieza nació bajo su vara.
+
+*Respiro.* La ley del aire: ningún bloque de la pieza debía quedarse sin oxígeno — al corte del 15-oct la vara mide ~380 caracteres por bloque. La música también respira: es la diferencia entre leer y ahogarse.
+
+*Certificación.* Las baterías que la pieza corre antes de firmarse FINAL: la experta (v4), la evolutiva (v5) y la de rarezas (fuzz) con semilla fija. Sin batería no hay sello — y sin sello, la pieza no se llama final.
+
+*Acta.* El documento fechado donde la casa anota lo que hizo: actas de corrección, actas de censo, actas de push. Lo que no tiene acta no pasó — y lo que pasó con acta, no se puede negar.
+
+*Registro.* El cuaderno mayor de la casa: registro-2026-10-15.md y sus hermanos por fecha, append-only. Aquí vive el acta de esta cosecha, con su pulso #10 y su hora.
+
+*Censo abierto.* La puerta del dueño: lo que encuentra un día, entra el MISMO día al censo con prioridad. Los Hush de la pieza 17 entraron así — y esta cosecha tiene la puerta abierta para la próxima casa musical que llegue.
+
+*Hallazgo.* La puerta que alguien trae a la casa: un repositorio que merece mapa. No se necesita vara de hierro para traerlo — se necesita fuente abierta: lo demás lo mide el censo.
+
+*Cola.* El orden sin favor: lo que no pasa la vara hoy queda en cola anotada, no en silencio. La cola tiene orden, no pena — y se revisa en cada corte.
+
+*Anti-omisión.* La ley de la casa contra el dato sin fecha: lo que no se re-pulsó viaja FECHADO como el corte en que se vio. Nunca «actualmente» sin hora — siempre «al 15-oct-2026».
+
+*Triple lectura.* La lectura de la casa antes de publicar: la del técnico (¿el dato aguanta?), la del lector (¿se entiende al primer trago?) y la del rival (¿dónde me meto?). Esta pieza pasó las tres — y los mitos son puro oro de la tercera.
+
+*Río.* El catálogo ajeno: YouTube Music, archive público, provedores varios. El río corre sin pedirte permiso y se corta sin avisar — por eso la escuela del puente se mide por push fresco.
+
+*Señal.* La torre que el río necesita y el cajón no. En la loma, la señal es la primera vara: lo que no descargaste no existe en carretera — lección que el campo enseña gratis.
+
+*Loma.* La geografía honesta del país: donde el streaming confiesa su dependencia. Toda la escuela del puente se queda mudita en la loma — el cajón suena igualito.
+
+*Modo avión.* La prueba de fuego del mueble local: ponerlo y que suene. Si tu lista de fiesta necesita torre, no era lista — era esperanza.
+
+*Anfitrión.* El que pone el teléfono en la fiesta. Su vara: lista corrida, pantalla bloqueada y cero promesas de wifi ajeno. La casa le recomienda cajón — el río en fiesta es apuesta.
+
+*Coleccionista.* El que suena, guarda, etiqueta y copia. No necesita FLAC de colección para empezar: necesita la rutina — maestro en PC, copia en teléfono, lista exportada. La estructura antes que el volumen.
+
+*Oído con oficio.* El que escucha preguntando: qué versión, qué año, qué disco. La escuela del detective existe para él — muffon al 18-oct-2026 con ★2.246 y AGPL firmado.
+
+*Bitrate.* Los kilobits por segundo del audio: la medida de cuánto archivo pesa una canción. A más bitrate, más fidelidad hasta donde el oído y el altavoz alcancen a distinguir — el 320 del MP3 es el techo práctico del bolsillo.
+
+*Pérdida.* Lo que un formato tira al comprimir. El MP3 la tiene (y bien administrada a 320 alcanza al bolsillo); el FLAC no la tiene — y por eso uno viaja y el otro archiva.
+
+*Conversión.* Pasar del maestro a la copia de trabajo: FLAC a MP3, una vez, desde el original. La conversión inversa no existe en la casa — no se inventa calidad que no bajó.
+
+*Permiso.* Lo que la app te pide al entrar. La vara: permiso fuera de oficio = desinstalar y volver al censo. Un reproductor que pide contactos no es reproductor — es huésped con maleta.
+
+*Desinstalar.* El acto de higiene digital: quitar la app con fecha anotada. La casa lo recomienda sin drama — la desinstalación honesta es la mitad de la vara que nadie cuenta.
+
+*Actualizar.* Traer la nueva release del taller legal. En la escuela del puente, actualizar semanal no es manía: es respirar — el río cambia de puerta y el taller contesta con push.
+
+*Versión.* El número que el taller pone a su release (OuterTune v0.10.1 al corte). Con versión hay historia: se puede comparar, se puede volver atrás, se puede exigir.
+
+*Snapshot.* La foto del estado en un momento: la caja de pulso de esta pieza es un snapshot del 15-oct-2026 a las ~23:12 UTC. Mañana será historia fechada — que es el único tipo de historia que la casa guarda.
+
+*Dialecto.* La voz de la casa: dominicano de verdad, con clienta, barrio y chin chin — pero el dato siempre en traje formal. El dialecto es la envoltura; la placa, el contenido.
+
+*Chin chin.* El golpe de mesa de la moral del meme: la sentence final que clava la lección. No es adorno — es la firma de la casa cuando el oficio quedó claro.
+
+*Muro FB.* La fila de piezas gemelas que la casa publicaba en Facebook. Desde el 15-oct noche: la serie 21+ va sin muro — WhatsApp puro. La ley del dueño, anotada con fecha y sin melcocha.
+
+*Índice.* El mapa de una pieza: el árbol de esta guía. Un árbol único por pieza, con secciones y tiempos — el lector sabe dónde está parado y cuánto falta pa la parada.
+
+*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
+
+*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
+
+*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
+
+*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
+
+*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
+
+*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
+
+*Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
+
+*Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
+
+*Segunda fila.* Los vecinos que el censo vio y esta pieza no tomó: podcast, vídeo puro y talleres bajo la vara del barrido. No es exclusión — es cola con orden, y se revisa en cada corte.
+
+*Oído del barrio.* El que escucha antes de opinar: prueba dos muebles, mira dos placas y pregunta en la fila antes de palomear. No nace sabido — se hace con una semana de ritual bien dada.
+
+Bolsilla de los viajes|PPSSPP: la era portátil de la PSP en el teléfono — la cuarta placa del salón (★14.690, pulso 19-oct-2026). Catorce años de forja resucitando el autobús.
+
+Ley del UMD propio|La del disco portátil: se volca con SU firma (consola propia o lector del club) — la única ISO que la casa reconoce. El «todo incluido» del tacho: jamás.
+
+Tarde del estante colectiva|La del club: el lector del barrio con cada quien trayendo SU disco — el volcado de oficio, prestado y firmado. La era — criando viajeros honestos.
+
+Tandas del trayecto|El ritmo de la era: veinte minutos por viaje, el save en cada parada — la partida pausándose como el autobús. La madrugada — para el sueño.
+
+Cofre del oro heredado|El de los saves de la familia: carpetas por gente, los del hermano con SU nombre. La partida ajena — sagrada; el borrado fácil — jubilado.
+
+Save heredado|El del hermano que creció: copiado ANTES de tocar, cargado con respeto — la partida del 2010 continuando. La era — criando casas que no pisan saves.
+
+Confesorio del oro|El de los saves por dueño: cada partida en SU carpeta, cada era con SU gente. El cofre del viaje — sin mezclas, como toda la casa.
+
+Perfil del trayecto|El ajuste de cada disco exigido: probado y anotado con fecha — la gira del viaje. El autobús — a fluidez; los tirones — jubilados.
+
+Teléfono del viaje|El del juego separado del negocio (si la casa puede): la era en su lugar. El mostrador — limpio; la fila del banco — con partida.
+
+Era íntima|La de la portátil: se juega a solas y se comparte de mano en mano — sin tele, sin pizarra. El trayecto — su casa; la pantalla compartida — su torneo.
+
+Pantalla del asiento de atrás|La del autobús compartido: el juego pasando de mano en mano con celo. El recuerdo del liceo — resucitado por la bolsilla.
+
+Veterana portátil|La de la bolsilla: catorce años puliendo UNA consola de mano. La paciencia del mueble — con el empuje de la hornada nueva.
+
+Gaveta de mamá|La de los UMD con celo: los discos del hermano guardados «por si acaso». El cofre del viaje — esperando su tarde del estante.
+
+Pila del 2010|La del hermano mayor: la partida que la mudanza interrumpió — continuando en el teléfono del muchacho. La visita del domingo — con partida de vuelta.
+
+Pantalla del asiento de atrás|La del autobús compartido: el juego pasando de mano en mano con celo. El recuerdo del liceo — resucitado por la bolsilla.
+
+Confesorio del oro|El de los saves por dueño: cada partida en SU carpeta, cada era con SU gente. El cofre del viaje — sin mezclas, como toda la casa.
+
+Pila del 2010|La del hermano mayor: la partida que la mudanza interrumpió — continuando en el teléfono del muchacho. La visita del domingo — con partida de vuelta.
+
+Escala honesta|La lista de los discos exigidos: lo que pide más caja, anotado en la gira. El salón — corriendo lo que faena y diciendo lo que no.
+
+Ritual del viajero|El del save en cada parada: la partida guardándose como el agua del trayecto. La batería puede morir — la partida, jamás.
+
+Lector del club|El del barrio prestado y honesto: la tarde del estante colectiva, cada quien con SU disco. El volcado comunitario — con firma de dueño.
+
+Perfil del trayecto|El ajuste de cada disco exigido: probado y anotado con fecha — la gira del viaje. El autobús — a fluidez; los tirones — jubilados.
+
+Gaveta de mamá|La de los UMD con celo: los discos del hermano guardados «por si acaso». El cofre del viaje — esperando su tarde del estante.
+
+Torneo del recreo|El del liceo: los veinte minutos del descanso jugando la era — cada muchacho con SU volcado, la ley en la pizarra. El campeón — con acta en el cuaderno del grupo.
+
+Hora del autobús|La del trayecto con partida: cuarenta minutos de liceo volviéndose cortos — la era íntima en SU lugar. La madrugada — sin cobija ni juego.
+
+Compra sabia del mando|La de UN control bluetooth pa todas las eras: la bolsilla, el cubo y la negra — el mismo mando sirviendo el salón entero.
+
+Lección de la casa|La del save que se respalda HOY: lo que juega el hermano menor o el hijo, con póliza antes de dormir. La era — criando casas que no pierden partidas.
+
+Catorce años de forja|Los del salón portátil: del noviembre de 2012 al push de HOY — cada versión examinada por el barrio del mundo. La paciencia — midiendo el viaje.
+
+Tarifa del tiempo perdido|La de la fila que ya no aburre: el banco, el consultorio, la espera del mostrador — dos tandas de veinte minutos. El «tiempo perdido» — jubilado con era.
+
+Salón de dos pisos|El de la casa completa: el sofá pa las eras de sala, la mano pa la era del viaje. Dos modos de vida — un solo cofre con póliza.
+
+UMD con firma|El del volcado de oficio: SU etiqueta con nombre, año y dueño — la ISO que la casa reconoce a primera vista. El estante — volcado como gente.
+
+Gira de la bolsilla|La mensual del viajero: perfiles revisados, saves respaldados, UMD pendientes por tandas. El ritual — como toda la casa seria.
+
+Cartera de la era|La del bolsillo que cuida: el teléfono del viaje, el mando de la casa, la lista del estante por volcar. El autobús — con equipaje de ley.
+
+*🗓 EL RITUAL DE SIETE DÍAS (del juego prestado al viaje con ley)*
+
+*Día uno — la bolsilla instalada.* PPSSPP de la forja (la letra leída en su hogar), la carpeta del viaje firmada (volcados, saves, perfiles), la prueba en seco (la app: vacía y honesta). El viaje: con bolsilla.
+
+*Día dos — la tarde del estante.* Los UMD propios en el lector (la consola propia o el lector del club: leyéndose con respeto), las ISOs en SU carpeta (nombre de gente y año), la primera partida de prueba. El estante: volcado con ley.
+
+*Día tres — la mano puesta.* El control elegido (botones en pantalla o el mando de la casa), el ajuste al pulgar (la mesa del viaje: al gusto), la partida corta de prueba (el trayecto de ensayo). La mano: puesta.
+
+*Día cuatro — la póliza del viaje.* Los saves en SU carpeta (los del hermano: carpetas propias), la póliza en dos discos y la prueba del desastre (el save restaurado: ensayado). El oro: viajando con cofre.
+
+*Día cinco — el perfil por juego.* Los discos exigidos probados (SU ajuste, anotado con fecha), la lista de la escala honesta (lo que pide más caja: anotado). Cada trayecto: con su receta.
+
+*Día seis — la pizarra del viaje.* La ley del UMD propio escrita (la familia sabiendo: el disco del estante — la única ISO que se firma), la dosis de las tandas acordada (veinte minutos por trayecto, el save en cada parada), y el teléfono del viaje separado del negocio (si la casa puede). El viaje: con ley.
+
+*Día siete — la gira fundada.* La gira mensual del viaje anotada (perfiles, saves, UMD pendientes: el ritual del viajero), la bolsilla en el mapa de la casa (el salón: con su piso portátil), y la página del taller: el viaje documentado. La era portátil: FUNDADA — la casa, viajando con ley.
+
+*La regla del viaje:* UMD propio, tandas de trayecto, el save ajeno sagrado — y la gira: mandando.
+
+*📎 LOS APÉNDICES DEL VIAJE (lo que queda de la noche)*
+
+Apéndice A — el mapa del salón, al corte. La fila 71-80 con su cuarta placa: el mueble padre (71: los cartuchos), el windows de la mesa (72: la placa mayor), el salón del cubo (73: la era del movimiento), la bolsilla (esta: la era portátil — catorce años).
+
+Y la fila por delante — la negra chiquita (75), el cartucho eterno (76), el traductor de lenguas (77), la doble pantalla (78), los relatos (79) — y el mapa del salón (80: el cierre). El salón: con su piso portátil — la era de la mano, en pie.
+
+Apéndice B — las cinco preguntas del mostrador, en una línea. ¿Qué hace? Corre los UMD de tu estante en el teléfono que ya llevas. ¿Qué no hace? No trae juegos (la ley del UMD propio), no juega en el sofá (su era: de la mano). ¿Cuánto cuesta? Nada — la letra se lee en su hogar; el mando: la compra sabia que ya hiciste. ¿Cuánto tarda? Una semana pausa con SU póliza.
+
+¿Y el autobús? Veinte minutos por trayecto, el save en cada parada: el viaje — con su era.
+
+Apéndice C — la página en blanco. La que la forja deja abierta a propósito: ¿qué juego te pasó el hermano en el autobús — y dónde está SU UMD y SU save HOY? Esa respuesta — la tuya, fechada — vale más que 14.680 estrellas: es la vara midiendo qué viaje merece tu bolsillo. La obra no termina en la lectura: termina cuando el disco de la gaveta de mamá, vuelve a la mano.
+
+Apéndice D — la sala de los errores. Las tres fallas posibles y su salida. Si el UMD no volca (la consola torpe con el disco dañado): la limpieza fina del disco (el paño del oficio: la lectura, otra vez) y el lector del club (la tarde del estante colectiva — el volcado comunitario).
+
+Si el juego va a tirones (el disco exigido sin perfil): el perfil por juego (SU ajuste, anotado — la lista de la escala honesta). Si el save no aparece tras la mudanza (la carpeta distinta): el cofre revisado (los saves: en SU carpeta con nombre — la gira del cofre, siempre).
+
+Apéndice E — la fila que viene. La 75 firma la negra chiquita (la era de la PS1 en la casa: la quinta placa del salón). La casa no improvisa: arma el salón por eras. Y la noche firma: la bolsilla de los viajes — la era portátil, de vuelta en la mano; el save del hermano: con cofre y con respeto.
+
+*🎯 EL MINIQUIZ DEL VIAJE*
+
+*LAS PREGUNTAS:*
+
+*1.* ¿Qué era corre la bolsilla — y con qué ley número uno?
+
+*2.* ¿Cómo se juega la era portátil — y qué ritual manda?
+
+*3.* ¿Qué se hace con el save del hermano — la regla del oro?
+
+*4.* ¿Qué placa es la de la bolsilla — entre quiénes corre y con qué edad?
+
+*5.* ¿Cómo se volca un UMD si la consola propia no enciende?
+
+*Respuestas al revés (léelas de atrás para adelante):*
+
+REV|.nocnir led sámaj ,OIPORP ocsid leD .odaclov le ne amrif US ,osimrep US — aviv alosnoc noc onicev le o )avitceloc etnatse led edrat al( bulc led rotcel le :oirrab ed oicifo noC
+
+REV|.)6202-2102( ajrof ed SOÑA ECROTAC :)313 rop( 763.41★ elbeum led amicne ,)100.1 rop( 186.51★ obuc led ojabed — )6202-tco-81 oslup( 086.41★ :nólas led acalp atrauc aL
+
+REV|.»oicapse recah« ap arrob es sámaj — aiporp al euq adargas sám se adiv arto ed aditrap al :ateprac US ne av y otepser noc agrac es ,)socsid sod( racot ed SETNA aipoc eS
+
+REV|.oñeus le arap :adagurdam aL .súbotua le omoc asuap es litátrop are al — adarap adac ne evas le ,ejaiv rop sotunim etniev :otceyart ed sadnat nE
+
+REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq OSI acinú al( amrif US noc aclov es etnatse led ocsid le :oiporp DMU led yel al noc — PSP aL
+
+*💌 LAS CARTAS AL LECTOR*
+
+*PRIMERA CARTA — al que tiene los UMD en la gaveta de mamá.* El que guarda los discos de la era portátil (los del hermano, los propios: la gaveta con celo — «ya no hay nada que los lea»). La vara de esta pieza es tu gaveta — la bolsilla los corre (la tarde del estante: tu era, de vuelta en la mano de HOY). Tu gaveta: no es plástico muerto — es el autobús esperando su pasajero.
+
+*SEGUNDA CARTA — al que lleva su viaje en la app del tacho.* El que lleva años con el «emulador con todo incluido» (cómodo, al toque — con sus 500 discos de nadie). La vara del bloque no te juzga — te deja el mapa (lo que el tacho trae: la era robada + el regalito que mira tu trayecto; y el remedio: el volcado de TU estante — los 5 discos que de verdad juegas, con tu firma).
+
+Con la vara fina: la diferencia de viaje (la bolsilla honesta: la partida estable, el save heredado con cofre, el trayecto a fluidez — el tacho: no ofrece na de eso). Tu trayecto: merece su era propia — no 500 desconocidos.
+
+*TERCERA CARTA — al que el save del hermano le duele de memoria.* El que recuerda la partida del hermano (la que se perdió en una mudanza, en un formato, en un «ya no importa»).
+
+Esta pieza es tu segunda chance — el cofre del viaje: los saves heredados con respeto (se copian ANTES, se cargan con ceremonia: la partida del 2010 — continuando donde el hermano la dejó), con la lección de la casa como vara fina (lo que hoy juega tu hermano menor o tu hijo: SU save se respalda HOY — la era criando casas que no pierden partidas).
+
+El save perdido: no vuelve — el próximo: jamás se pierde.
+
+*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+
+Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el viaje de una casa también se hereda — hrydgard/ppsspp ★14.690 (pulso 19-oct-2026), la cuarta placa del salón, catorce años de forja resucitando la era portátil: los UMD del estante, de vuelta en la mano.
+
+La forja lo midió con el pulso de HOY y lo firma: la ley del UMD propio (el disco del estante, volcado con respeto), las tandas del trayecto (la era pausándose como el autobús), el cofre del oro heredado — y la regla cosida: el save ajeno, sagrado.
+
+Busca la gaveta de mamá. Pide el lector del club. Pon la mano en el control. Y cuando el tacho te ofrezca 500 juegos incluidos, recuerda: el viaje de tu casa son tus 5 discos y el save del hermano — porque un trayecto no se descarga: se hereda, se respalda y se juega en tandas. Eso no lo firma el tacho: lo firman catorce años de forja, y empujan HOY.
+
+───────────────────
+
+#LaBandita #LaBolsillaDeLosViajes #PPSSPP #SelfHosted #FOSS #DominicanoES

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guía Práctica del Taller — V26-sep · La Bandita</title>
+<style>
+  :root{ --tinta:#1d2733; --papel:#f6f1e7; --kara:#8a5a2b; --fresco:#2e7d5b; --caja:#ffffff; --borde:#d9cfbe; --rojo:#a33a2a; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--papel); color:var(--tinta); font-family:Georgia,'Times New Roman',serif; line-height:1.55; }
+  header{ border-bottom:6px solid var(--kara); background:#241c12; color:#f3ead8; padding:34px 22px 26px; }
+  header .cont{ max-width:900px; margin:0 auto; }
+  h1{ margin:0 0 8px; font-size:1.9em; letter-spacing:.02em; }
+  header p{ margin:0; opacity:.85; font-style:italic; }
+  .cinta{ display:inline-block; background:var(--fresco); color:#fff; padding:3px 10px; border-radius:3px; font-size:.8em; margin-top:12px; }
+  main{ max-width:900px; margin:0 auto; padding:26px 20px 60px; }
+  h2{ border-left:6px solid var(--kara); padding-left:12px; margin:42px 0 14px; font-size:1.35em; }
+  h3{ color:var(--kara); margin:26px 0 6px; }
+  .regla{ background:var(--caja); border:1px solid var(--borde); border-radius:8px; padding:18px 20px; margin:18px 0; box-shadow:0 1px 2px rgba(0,0,0,.06); }
+  .num{ display:inline-block; background:var(--kara); color:#fff; font-weight:bold; border-radius:50%; width:34px; height:34px; text-align:center; line-height:34px; margin-right:8px; }
+  dl{ margin:10px 0 0; }
+  dt{ font-weight:bold; color:var(--kara); margin-top:8px; font-size:.85em; letter-spacing:.06em; }
+  dd{ margin:2px 0 0; }
+  code{ background:#efe7d6; padding:1px 6px; border-radius:4px; font-family:'Courier New',monospace; font-size:.9em; }
+  pre{ background:#241c12; color:#e8ddc4; padding:14px 16px; border-radius:6px; overflow-x:auto; font-family:'Courier New',monospace; font-size:.86em; line-height:1.5; }
+  .ej{ border-left:4px solid var(--fresco); background:#f1f7f3; padding:10px 14px; margin:10px 0; font-size:.95em; }
+  .cad{ font-size:.82em; color:#7a6a4f; margin-top:10px; }
+  table{ width:100%; border-collapse:collapse; margin:12px 0; font-size:.95em; }
+  th,td{ border:1px solid var(--borde); padding:8px 10px; text-align:left; }
+  th{ background:#efe7d6; }
+  .alerta{ border:1px solid var(--rojo); background:#fbf0ee; border-radius:8px; padding:14px 18px; margin:16px 0; }
+  ol.check li{ margin:7px 0; }
+  footer{ border-top:2px solid var(--borde); margin-top:50px; padding:18px 20px 30px; text-align:center; font-size:.85em; color:#7a6a4f; }
+  @media (max-width:600px){ h1{font-size:1.4em;} main{padding:18px 14px 40px;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="cont">
+    <h1>GUÍA PRÁCTICA DEL TALLER — V26-sep</h1>
+    <p>La Bandita · 26 de septiembre de 2026 · Directiva del dueño D-2: acción sobre teoría, ejemplo sobre sermón, reestructura sobre remiendo.</p>
+    <span class="cinta">Documento vinculante · HTML estático autocontenido · 0 créditos · 0 llamadas externas</span>
+  </div>
+</header>
+
+<main>
+
+<p><strong>Para qué existe esta guía.</strong> El 22-sep cerró el tren 19 con once piezas selladas en WhatsApp y once en Facebook. Ese mismo día el taller falló dos veces por sí mismo (un dict mal cerrado que abortó un script entero; un test de requisitos mal escrito que marcó en rojo una pieza que estaba verde). Esta guía convierte los aciertos y las caídas — ambos verificados, ambos fechados — en ocho reglas vinculantes. No es teoría: cada regla trae su forja (cómo se ejecuta), su vara (cómo se mide) y su ejemplo real (dónde ya se aplicó u olvidó). Quien la use y la incumpla paga acta.</p>
+
+<h2>Las ocho reglas vinculantes</h2>
+
+<div class="regla">
+  <span class="num">1</span><strong>Un dato sin hora no existe.</strong>
+  <dl>
+    <dt>MANDATO</dt><dd>Toda afirmación verificable (estrellas, push, versión, estado de un repo, vida o muerte de una casa) se publica con su fecha y hora de consulta. Sin hora, no se publica — se publica la duda.</dd>
+    <dt>VARA</dt><dd>En la pieza terminada: cada ficha del censo contiene la cadena <code>HOY</code>, <code>22-sep</code> o fecha ISO de consulta. Conteo: fichas sin hora = rojo inmediato.</dd>
+  </dl>
+  <div class="ej">Ejemplo real — censo GLTools 22-sep: <code>darek2015/GLTools</code> ★11 con push del <strong>5-mayo-2020</strong> (consultado al mediodía); <code>Ahsan40/GLTools</code> devolvió <strong>HTTP 404 literal</strong>. La lección publicable no fue «está viejo»: fue «muerto desde hace 6 años, medido hoy».</div>
+  <p class="cad">Caducidad: reclamar la hora en cada pieza nueva. Revisión: tren siguiente.</p>
+</div>
+
+<div class="regla">
+  <span class="num">2</span><strong>Cifra sin fuente + fecha + método es decoración.</strong>
+  <dl>
+    <dt>MANDATO</dt><dd>Ningún benchmark, ranking ni porcentaje viaja a la pieza sin su trípode: quién midió, cuándo midió, cómo midió. Si el trípode cojea, la pieza cita a los concursantes empatados y niega el título absoluto.</dd>
+    <dt>VARA</dt><dd>Búsqueda regulada en la pieza: cada cifra grande tiene en la misma frase o la siguiente su fuente y su fecha; si hay dos medidores, se nombran ambos.</dd>
+  </dl>
+  <div class="ej">Ejemplo real — AnTuTu septiembre 2026: el iQOO 15 Ultra (~4.123.000) y el RedMagic 11S Pro+ (4.118.689) se separan por <strong>~0,1%</strong>; dos publicaciones serias ordenan el liderato al revés entre sí. La pieza publicó: «ningún Rey Supremo; lee fuente + fecha + método». Eso es verdad medible; lo otro era título de cadena.</div>
+  <p class="cad">Caducidad de rankings: 1 mes (política de precios/ofertas del Tratado, § caducidades).</p>
+</div>
+
+<div class="regla">
+  <span class="num">3</span><strong>Las bandas no se negocian: se miden en <code>len()</code>.</strong>
+  <dl>
+    <dt>MANDATO</dt><dd>WhatsApp: <strong>62.000–64.000</strong> caracteres. Facebook: <strong>26.000–34.000</strong>. La medida canónica es <code>python3: len(texto)</code> sobre el archivo final — nunca <code>wc -c</code> (cuenta bytes, no caracteres).</dd>
+    <dt>VARA</dt><dd>Antes de presentar: <code>assert 62000 &lt;= n &lt;= 64000</code> (o la copa FB) más los marcadores de sección completos. Sin assert verde no hay firma.</dd>
+  </dl>
+  <pre>import re
+t = open(pieza, encoding="utf-8").read()
+n = len(t)
+print(n, "BAND✓" if 62000 &lt;= n &lt;= 64000 else "BAND✘")</pre>
+  <div class="ej">Ejemplo real — 22-sep: WA 10 selló en <strong>63.688 c</strong> tras un recorte quirúrgico de ~700 c; FB 10 selló en <strong>31.249 c</strong> tras bajar 9.183 c de relleno (ver regla 6). Ambas con todos los marcadores.</div>
+  <p class="cad">Vigente hasta nueva banda del dueño. Anotada también en el acta viva.</p>
+</div>
+
+<div class="regla">
+  <span class="num">4</span><strong>Los requisitos se fijan como lista literal. Punto.</strong>
+  <dl>
+    <dt>MANDATO</dt><dd>El checklist de una pieza viaja en el mismo script de verificación, escrito como lista literal de cadenas reales (grifos de sección copiados del propio texto). Nunca símbolos inventados por el verificador ni pruebas derivadas <i>de propósito cómico</i>.</dd>
+    <dt>VARA</dt><dd>Regla de meta-sinceridad: cuando el test dice rojo, verificar primero el test, después la pieza. El rojo duerme una noche antes de actuar.</dd>
+  </dl>
+  <div class="ej">Fallo real — 22-sep: un test marcó <code>req:False</code> en la pieza 09 porque la lista incluía un grifo copiado con error. La pieza estaba ALL GREEN; el falso positivo era del medidor, no del medido. Reparación de raíz (no de síntoma): la misma lista literal en todos los scripts, tomada del acta del tren 16.</div>
+  <p class="cad">Regla añadida al ritual de cierre, § falsos positivos. Sin caducidad.</p>
+</div>
+
+<div class="regla">
+  <span class="num">5</span><strong>Se crece por ancla, nunca reescribiendo lo sellado.</strong>
+  <dl>
+    <dt>MANDATO</dt><dd>Para expandir una pieza ya cerrada (firma y tags al final), se inserta antes de un grifo único identificable:</dd>
+  </dl>
+  <pre>ancla = "🛠️ CÓMO SE VERIFICÓ"
+assert t.count(ancla) == 1            # si no es 1, el ancla no sirve
+t = t.replace(ancla, bloque + ancla)  # inserción, no reescritura</pre>
+  <dl>
+    <dt>VARA</dt><dd>El <code>assert count == 1</code> es obligatorio; ancla ambigua = elegir otra por su primera palabra y confirmar con <code>grep</code>.</dd>
+  </dl>
+  <div class="ej">Ejemplo real — 22-sep, WA 09: tres inserciones consecutivas antes del grifo de método llevaron 56.596 → 59.217 → 61.819 → 62.102 c, con la pieza sellada sin tocar firma ni tags.</div>
+</div>
+
+<div class="regla">
+  <span class="num">6</span><strong>Lo superfluo se reemplaza, no se amputa.</strong>
+  <dl>
+    <dt>MANDATO</dt><dd>Cuando una pieza desborda, el recorte no borra: sustituye el párrafo denso por su versión limpia y más corta, conservando la idea. Borrado puro solo para líneas sin contenido (cintas de envoltura, muletillas, drifts).</dd>
+    <dt>VARA</dt><dd>Antes/después registrados en el acta: caracteres eliminados y la lista de marcadores intocada.</dd>
+  </dl>
+  <div class="ej">Ejemplo real — 22-sep, FB 10: de 40.432 c a 31.249 c reemplazando nueve pasos densos por versiones limpias (−8.463 en la pasada grande, ajuste fino después). Cero secciones perdidas; el texto quedó mejor. La restructura cura la raíz: la sección densa era relleno desde su nacimiento.</div>
+</div>
+
+<div class="regla">
+  <span class="num">7</span><strong>Toda aplicación paga acta con número de tren.</strong>
+  <dl>
+    <dt>MANDATO</dt><dd>Cada pieza sellada, cada limpieza, cada censo y cada corrección quedan fichados en el acta viva del día (creciente, nunca reescrita) con: pieza, caracteres, banda ✓/✗, censo con hora y lección de la jornada.</dd>
+    <dt>VARA</dt><dd>Grep del acta: <code>count("## TREN")</code> crece con cada entrega. Sin tren nuevo, la entrega no existe — aunque el archivo esté perfecto.</dd>
+  </dl>
+  <div class="ej">Histórico real: acta viva en <code>02-ARCHIVO/estado-expansion-ES-2026-09-22.md</code>, 19 trenes al cierre del 22-sep. Este documento inaugura el tren 20.</div>
+  <p class="cad">Caducidades heredadas del Tratado: versión 6 meses · mantenimiento 12 meses · precios 1 mes · enlaces 12 meses con revalidación antes de republicar.</p>
+</div>
+
+<div class="regla">
+  <span class="num">8</span><strong>Entregable = HTML estático; gasto = cero.</strong>
+  <dl>
+    <dt>MANDATO</dt><dd>Todo documento que atraviese al humano sale como esta página: HTML autocontenido (CSS inline, sin CDN, sin fuentes externas, sin JS de red) o archivo local de texto. Prohibidas las rutas con coste (generadores, llamadas de renderizado externas) salvo orden escrita del dueño.</dd>
+    <dt>VARA</dt><dd>Prueba rápida: <code>grep -i "http" archivo.html</code> no debe devolver ninguna referencia cargable (links de texto citado sí; recursos no). Abrir con la red apagada = renderiza igual.</dd>
+  </dl>
+  <div class="ej">Meta-ejemplo: esta guía es el ejemplo de sí misma — cero peticiones de red, cero créditos, legible en el visor y en cualquier navegador de aquí a diez años (Tratado §80.2: contenido legible sin contexto vivo).</div>
+</div>
+
+<h2>Señalizador de falsos positivos (los cuatro que ya pagamos)</h2>
+<table>
+  <tr><th>Falso positivo real</th><th>Costo</th><th>Reparación de raíz</th></tr>
+  <tr><td>Dict de sustituciones con comillas ambiguas</td><td>Script entero abortado en parseo</td><td>Una entrada por línea, comillas dobles parejas, sin <code>«?»</code> anidados</td></tr>
+  <tr><td>Test con grifo inventado en la lista literal</td><td>ALL GREEN marcado en rojo</td><td>Lista idéntica en todos los scripts, tomada del acta</td></tr>
+  <tr><td>429 de fetch leído como «sitio caído»</td><td>Censo obrero bloqueado</td><td>Reintentar con calma; 429 = tasa, no muerte (404 ≠ 429)</td></tr>
+  <tr><td>Nombres de símbolos escritos como símbolos</td><td>Meta-bucle de la vara</td><td>Nombrarlos como palabras, jamás escribirlos (acta tren 16)</td></tr>
+</table>
+
+<h2>Ritual de cierre del tren (mecánico, sin gracia)</h2>
+<ol class="check">
+  <li>Pieza en banda medida con <code>len()</code> sobre el archivo definitivo.</li>
+  <li>Marcadores: greps verdes de semilla/mapa/una-página/mental/mito/meme/glosario/método/nota/cierre/compacta/tags.</li>
+  <li>Sin símbolos md de anuncio en WA; formato nativo por plataforma (errata E05).</li>
+  <li>Fecha y hora del censo dentro del texto (regla 1) y trípode para cada cifra (regla 2).</li>
+  <li>Acta: tren numerado con caracteres, banda ✓ y lección.</li>
+  <li>HTML exportado cuando toque ←, cero recursos externos (regla 8), y presentado.</li>
+</ol>
+
+<div class="alerta">
+  <strong>Seguimiento continuo (compromiso del 26).</strong> Próximos frentes con esta guía aplicada: FB 15, FB 16 y FB 34 (huecos del 22-sep). Revisión de esta guía completa en el calendario obligatorio del Tratado: <strong>8-dic-2026</strong>. Si una regla falla antes, no se edita — se le añade una fe de erratas fechada (Art. F-102/F-103).
+</div>
+
+</main>
+
+<footer>
+  La Bandita informa a partir de fuentes fechadas. Esta guía es vinculante para el taller desde el 26-sep-2026 · creada con 0 créditos y 0 llamadas de red.<br>
+  TRATADO V.0.05 §80.2 (exportación neutral) · Directiva del dueño D-1/D-2 (26-sep-2026, fichada en 02-ARCHIVO/directiva-maestro-2026-09-26.md)
+</footer>
+
+</body>
+</html>

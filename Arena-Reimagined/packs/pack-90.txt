@@ -1,0 +1,428 @@
+=====S01=====
+
+*90 — LA VARITA*
+*Repo RikkaApps/Shizuku ★31.747 (pulso 18-oct-2026) tesis: los poderes del sistema sin root — la varita ADB que presta manos de sistema (WhatsApp · La Bandita · dominicano-ES)*
+
+───────────────────
+
+*⚡ EN UN RESPIRO*
+
+La varita de la fila: RikkaApps/Shizuku — usar APIs del sistema directamente con privilegios de adb/root desde apps normales, vía un proceso Java arrancado con app_process. Apache-2.0, nacida 24-may-2017, ★31.747 (pulso 18-oct-2026), push 18-jun-2025 — forja madura en calma.
+
+Pásese la vara de la varita: la mitad del poder del root sin abrir la puerta — grabar llamadas, desinstalar con vara, dar permisos finos: con ADB o con root, TU escoges.
+
+En el ecosistema root: la herramienta que hasta los teléfonos SIN raíz respetan — la taquígrafa (92) y el mayordomo (91) viven de SU mano.
+
+Las reglas de la varita: el emparejamiento con ley · el repo oficial jamás tacho · el permiso se revisa · jamás la línea de tercero.
+
+=====S02=====
+
+*📖 LA SEMILLA* · La pieza noventa es la varita: la forja Apache-2.0 (★31.747, pulso HOY 18-oct-2026) que deja a apps normales usar APIs del sistema con privilegios de adb o root — «through a Java process started with app_process», dice el repo. La vara dominicana: en tu casa hay poderes que Android te esconde pa SU protección; la varita te los presta SIN que abras la puerta del root. La forja nació el 24 de mayo de 2017 — la abuela sabia de la fila — y su push más reciente es del 18-jun-2025: madura, serena, en calma.
+
+*🧬 GENEALOGÍA* · La varita no camina sola: es la INFRAESTRUCTURA de medio ecosistema. La constancia: el escondite (84) nombrando las tres paredes; el taller (85) con SU andamio; el mayordomo de apps (91) y la taquígrafa (92) viven de SU mano; hasta la tienda (83) la cita. Con 31.747 estrellas, la varita es la forja más grande del ecosistema root-adjacente del catálogo — la abuela que toda la fila saluda primero.
+
+*🧬 GENEALOGÍA II* · La edad de la forja: 9 años y 5 meses (24-may-2017 → HOY). La varita nació en la era de los exploradores — cuando rootear era la única vía pa tocar el sistema — con la tesis del medio: los privilegios de ADB sin root completo. 9 años después la forja camina en calma: lo que está bien hecho no pide prisa; la calma es SU constancia.
+
+*🧬 EL ANTES DE LA VARITA — LA ERA DE LA LLAVE ÚNICA* · Su vara fina: antes de la varita, la única llave del barrio era el root — el dueño que solo quería ordenar SU cajón abría toda la puerta pa tocar una gaveta; el exceso era la regla. Otra vara mayor: los teléfonos del trabajo y de la familia quedaban fuera del oficio — sin puerta, sin cajón, sin orden; la mitad del barrio sin vara. La vara fina honesta: la varita inventó el medio término — la gaveta sin la puerta; el oficio llegó a TODAS las casas. Queda dicha la vara mayor: el antes explica el peso de la abuela — 31.747 estrellas de dueños que solo querían SU gaveta; la demanda del medio término manda. Encima la vara fina: la llave única sigue existiendo pa quien la necesita — el piso fino (89) y el corazón (87) son SU terreno; la fila completa respeta las dos. Falta una vara fina: la era de la llave única no vuelve — el medio término se volvió oficio estándar; la doctrina del progreso manda. Con la vara fina del antes: la doctrina del barrio manda — cada vara nace de una carencia que el barrio sintió.
+
+=====S03=====
+
+*🔍 QUÉ ES* · Un servidor de privilegios: un proceso Java arrancado con app_process que corre con los permisos del shell (vía ADB) o del root (si la casa los tiene) — y las apps normales le hablan pa usar APIs del sistema que Android les niega. La descripción del repo: «Using system APIs directly with adb/root privileges from normal apps». La licencia Apache-2.0: la varita abierta que se lee; el repo oficial es RikkaApps/Shizuku.
+
+*🕰 CÓMO LLEGÓ AQUÍ* · La era de la varita: 2017, cuando el root era la única llave del barrio. La secuencia del oficio: ADB — el canal de servicio que los desarrolladores usaban — se convirtió en la vía del dueño; la varita lo domó pa las manos normales. 9 años después: sin prisa, sin ruido — el push de 2025 firma la calma de lo maduro; la fila respeta la forja que camina despacio.
+
+*⚖️ EL MEDIO TÉRMINO* · La vara mayor de la varita: el medio término — más poder que una app normal, menos responsabilidad que el root completo. La consecuencia del oficio: el teléfono del trabajo, el del papá nervioso, el que no quiere puertas abiertas — todos pueden tener varita. La contrapartida: el emparejamiento con ADB se repite tras cada reinicio (en la mayoría de las casas) — la gira de la varita es SU precio; la libreta lo anota.
+
+*🪡 LA MANO PRESTADA EN DETALLE* · Su vara fina: la mano prestada es el proceso de sistema — la app le habla y el proceso hace lo que Android niega pa la app sola.
+
+Su vara mayor: la mano se empareja con ley — vía ADB inalámbrico o cable, con código de pareja; el emparejamiento a lo loco es la chistera del barrio.
+
+Otra vara fina honesta: la mano NO es root — no toca el kernel ni la partición del sistema; toca lo que el shell toca; la vara de lo posible manda.
+
+Tráigase la vara mayor: la mano se revoca — el permiso de cada app se revisa; la varita generosa con matetes es la ruleta firmada.
+
+Queda la vara fina: la mano sirve a la fila — el mayordomo (91) y la taquígrafa (92) la usan; la infraestructura del oficio fino.
+
+Va la vara fina: la mano se baja del repo oficial — RikkaApps/Shizuku y SU app; el «shizuku turbo» del tacho es la mano robada.
+
+Falta una vara fina de la mano: la doctrina de la fila manda — permiso con vara, mano con ley.
+
+*🔍 EL ADB Y EL CANAL — LA CLASE DE LA VARITA* · Su vara fina: el ADB es el canal de servicio de Android — lo que los técnicos usan con el teléfono en la mano; la varita lo convirtió en oficio del dueño.
+
+Encima va la vara mayor: el canal inalámbrico (Android 11+) quitó el cable — el emparejamiento con código de pareja se hace desde el mismo teléfono; la varita domó el canal pa las manos normales.
+
+Piénsese la vara fina honesta: el canal tiene SU techo — el shell manda en SU nivel; lo de abajo (kernel, particiones) es del root; la vara de lo posible manda.
+
+Llevando la vara mayor: la clase del canal se aprende una vez — emparejar, dar mano, revisar; el ciclo de la varita es corto; la mesa lo enseña en una tarde.
+
+Suma la vara fina: el canal se empareja con ley — jamás el «autoriza pa ver tu pantalla» del estafador; el código de pareja es del dueño; la vara del barrio manda.
+
+Añádase una vara fina: la clase se hereda — el nieto que empareja pa la abuela del salón enseña el ciclo entero; la genealogía del oficio manda.
+
+Va una vara fina de la clase: la doctrina del canal manda — poder de servicio con ley de dueño.
+
+=====S04=====
+
+*🧭 LA REGLA DE LA CASA* · Primero: la varita se empareja con ley — código de pareja y canal claro; jamás el «confía en mí» del compaya. Segundo: el repo oficial (RikkaApps/Shizuku) — la app y el proceso de la misma forja; el zip del tacho no entra. Tercero: el permiso de cada app se revisa — la varita no es buffet; la vara del dueño manda. Cuarto: la línea de tercero jamás — la varita opera TU teléfono; operar el ajeno es la puerta del chisme.
+
+*📏 REGLAS DEL OFICIO* · La regla del dueño: TU teléfono, TU emparejamiento — la varita no se presta a la mesa completa. La regla de la revisión: permisos app por app, cada gira — lo que la app hace con la mano lo firma el dueño. La regla de la libreta: qué apps usan la varita, con qué permiso, desde cuándo — la cicatriz del oficio. La regla de la calma: la forja madura no se apura — la versión del canal estable; la beta no es vara pa la casa del trabajo.
+
+*🧰 LA INSTALACIÓN DE LA VARITA* · Paso 1: la app del repo oficial — Play Store o el release de RikkaApps; jamás el tacho. Paso 2: el arranque del proceso — vía ADB inalámbrico (Android 11+) con código de pareja, o vía root si la casa lo tiene (la regleta 82 lo simplifica). Paso 3: la prueba de la mano — una app de confianza pidiendo SU permiso; la mano responde. Paso 4: los permisos app por app — cada una con SU vara; nada a granel. Paso 5: la libreta — apps con mano, fecha de emparejamiento, gira; la casa anotada.
+
+*🧰 LA INSTALACIÓN II — CON LA CALMA DEL OFICIO* · Su vara fina: la instalación de la varita no se apura — el emparejamiento mal hecho es el «no hay conexión» de las 11 de la noche; la casa se empareja con calma.
+
+Queda una vara mayor: el orden de la instalación es el orden de la fila — app primero, proceso después, permisos al final; el orden invertido pierde la tarde.
+
+Piénsese la vara fina honesta: la primera prueba de la mano es con UNA app de confianza — no con diez a la vez; la vara del inquilino manda igual que en el espejo (89).
+
+Falta la vara mayor: la instalación se anota mientras se hace — la libreta con fecha de emparejamiento; la entrada nace con la casa.
+
+Con una vara fina: el emparejamiento se gira — tras cada reinicio (en la mayoría de las casas) la mano se vuelve a dar; la gira de la varita lo firma.
+
+Encima una vara fina: el respaldo del dueño — la lista de apps con mano anotada antes de girar; la casa nunca se empareja sin red.
+
+Suma una vara fina de la instalación: la doctrina del orden manda — app, proceso, permiso; una cosa a la vez.
+
+=====S05=====
+
+*🧱 LO QUE LA MANO PERMITE* · La mano del shell abre el cajón fino del sistema: permisos que las apps no piden solas, operaciones que Android reserva pa el cable, automatizaciones que el googleón dejó pa los desarrolladores. La doctrina de la pieza: la mano NO abre todo el cajón — el root (82, 87) sigue siendo la llave completa; la varita es la mano del mayordomo, no la llave del dueño.
+
+Llevando una vara fina: lo que la mano permite lo decide la app que la usa — por eso la revisión manda.
+
+*👗 LA MANO EN LA FILA — QUIÉN LA USA* · Su vara fina: el mayordomo de apps (91) usa la mano pa desinstalar y congelar con vara — el oficio del orden sin root.
+
+Y la vara mayor: la taquígrafa (92) usa la mano pa grabar las llamadas en teléfonos que Android lo niega — el oficio de la memoria sin abrir puertas.
+
+Deja la vara fina honesta: los inquilinos del espejo (89) y las casas de root también usan la mano — la varita sirve en TODAS las casas: con raíz y sin ella.
+
+Mira la vara mayor: la mano de la varita es la más democrática de la fila — el teléfono del trabajo y el del recreo la reciben igual; la doctrina del medio término manda.
+
+Toma la vara fina: la mano se documenta — cada app que la usa declara SU oficio en SU ficha; la app sin ficha clara no entra.
+
+Pasa la vara fina: la mano se revoca fácil — desemparejar es un toque; la varita que sobra se apaga; la poda del dueño manda.
+
+Coge la vara fina de la mano: la doctrina del barrio manda — la herramienta que respeta la casa ajena.
+
+*👗 LOS SERVICIOS DEL BARRIO — LAS AUTOMATIZACIONES* · Su vara fina: medio barrio de automatizaciones vive de la mano — respaldos programados, permisos finos, automatismos de casa que Android niega pa las apps solas.
+
+Deja una vara mayor: el servicio fino del despacho — la taquígrafa (92) grabando, el mayordomo (91) ordenando — camina con la mano prestada; la infraestructura del oficio manda.
+
+Mira una vara fina honesta: las automatizaciones se revisan como inquilinos — cada una con SU oficio y SU permiso; la mano llena de automatismos sin revisión es el desván con pasos; la poda del dueño manda.
+
+Toma una vara mayor: las automatizaciones se anotan — qué hace, con qué mano, cada cuándo; la libreta del barrio fino.
+
+Pasa una vara fina: el servicio del barrio se comparte con vara — la mesa del club enseña SU automatismo serio; el automatismo del tacho no entra.
+
+Coge una vara fina: la automatización se gira con la OTA — Android nuevo mueve el cajón; el automatismo muerto se poda; la gira manda.
+
+Guárdese la vara fina de los servicios: la doctrina del barrio manda — pocos automatismos, todos útiles, todos anotados.
+
+=====S06=====
+
+*✋ LOS MITOS* · Mito 1: «Shizuku es root sin root». No: es la mano del shell — menos poder que el root, más que la app normal; el medio término SU vara. Mito 2: «la varita espía». Es Apache-2.0 con 9 años de fila — el proceso se lee; el que espía es la app del tacho que pide la mano. Mito 3: «hay que conectar el cable siempre». La vía inalámbrica existe (Android 11+) — y con root la casa arranca SU mano sola; la ficha de TU casa manda. Mito 4: «la varita ya está vieja porque no empuja». El push de 18-jun-2025 y 9 años de fila dicen madurez — la forja en calma no es forja muerta; la vara del censo HOY lo firma.
+
+*🧨 LOS MITOS EN DETALLE* · Su vara fina: el mito del «hackeo pa todo» — la mano del shell tiene SU techo; lo que el root toca abajo, la varita no lo toca; la vara de lo posible manda.
+
+Anda la vara mayor: el mito del «permiso invisible» — cada app con mano declara SU uso; la revisión del dueño lo ve; la varita no regala na a escondidas.
+
+Añádase la vara fina honesta: el mito de la «varita universal» — cada versión de Android cambia el cajón; la ficha del repo oficial manda; la vara es la ficha, no el rumor.
+
+Anda una vara mayor: el mito del «compaya que te empareja SU app» — el emparejamiento es del dueño; la mano ajena en TU casa es la puerta del chisme; la línea de la fila manda.
+
+Guárdese la vara fina: el mito del «teléfono lento con la varita» — el proceso duerme cuando nadie lo usa; la prueba del dueño manda.
+
+Tómese la vara fina: el mito del «sin root no sirve pa na» — medio barrio (la taquígrafa 92, el mayordomo 91, mil automatizaciones) vive de la mano sin raíz; la doctrina del medio término manda.
+
+Tómese la vara fina de los mitos: la regla de la fila manda — mito tras mito, la fecha en su línea.
+
+No dice que la varita sea root encubierto — dice el oficio: es la mano del shell — el medio término con SU techo y SU vara.
+
+No dice que la varita espíe — dice la licencia: Apache-2.0 con 9 años de fila — el proceso se lee; el espía es la app del tacho.
+
+No dice que la varita abra todo el cajón — dice la mano: lo que el shell toca — el kernel y las particiones son del root (82, 87).
+
+No dice que la varita se preste a la mesa — dice la línea: el emparejamiento es del dueño — la mano ajena en TU casa es la puerta del chisme.
+
+No dice que la fila del ecosistema esté completa — dice el mapa: la varita, el mayordomo (91), la taquígrafa (92) y las forjas finas siguen — la fila se cierra con SU propio mapa (95).
+
+=====S07=====
+
+*⚙️ LA VARITA Y EL ROOT — LAS DOS MANOS* · Su vara fina: la varita y el root no compiten: son las dos manos del dueño — la mano del shell (prestada, giratoria, revisable) y la llave completa (82, 87).
+
+Mírese la vara mayor: la casa con las dos manos es la más fina — el root pa el piso (89) y el corazón, la varita pa los servicios finos; la libreta distingue cuál mano hizo qué.
+
+Déjese la vara fina honesta: la casa SIN root vive bien con la varita sola — medio barrio de oficios a su alcance; la doctrina del medio término manda.
+
+Su vara mayor: la varita simplifica el root — en casas con la regleta (82), la mano arranca con la casa sin ADB; la comodidad del dueño fino.
+
+Otra vara fina: las dos manos se respetan — la varita jamás pide el cajón del root; el root no necesita disfrazarse de varita; cada mano SU oficio.
+
+Suéltese la vara fina: la gira de las dos manos es UNA — el primer domingo revisa llave y mano; la constancia del dueño manda.
+
+Mírese la vara fina de las dos manos: la doctrina de la fila manda — cada forja SU oficio, cada mano SU vara.
+
+*⚙️ LA ABUELA DE LA FILA — 9 AÑOS DE CALMA* · Su vara fina: la varita es la abuela del ecosistema — nacida en 2017 cuando el root era la única vía; sobrevivió a tres generaciones de Android; la sabiduría del medio término es SU legado.
+
+Queda la vara mayor: la calma de la abuela no es abandono — el push de 18-jun-2025 firma SU última faena visible; 16 meses sin push en una forja madura es SU ritmo; la vara del censo HOY lo anota.
+
+Va la vara fina honesta: la fila respeta a la abuela en calma — las forjas que viven de SU mano (91, 92) la citan en SU ficha; la genealogía del barrio manda.
+
+Falta una vara mayor: la abuela no pide nada — Apache-2.0, repo público, la varita que se lee; la ética de la forja vieja manda.
+
+Encima va la vara fina: la abuela se verifica antes de girar — la versión estable, la ficha HOY; la calma no es excusa pa presumir versiones viejas.
+
+Con la vara fina: si el push de la abuela vuelve, la fila lo nota — el censo de la Bandita lo cantará; la vara del pulso manda.
+
+Llevando la vara fina de la abuela: la doctrina del barrio manda — la forja vieja y serena enseña más que la nueva y ruidosa.
+
+*🔒 LA VARITA Y LA PRIVACIDAD — EL PODER QUE RESPETA* · Su vara fina: la varita es la vara de la privacidad práctica — poder fino SIN abrir la puerta que el banco y el trabajo miran; el medio término protege SU doble.
+
+Suma la vara mayor: la mano no toca el corazón — los detectores profundos no ven lo que la varita no toca; la vara del techo es también la vara de la discreción.
+
+Añádase una vara fina honesta: la privacidad del dueño no es pa engañar a tercero — la línea de la casa (84) manda igual con la mano prestada; el banco se prueba HOY.
+
+Va una vara mayor: la varita quita excusas — «necesitaba root pa ordenar mi casa» ya no es pa na: la mano basta; el oficio fino sin funeste.
+
+Queda una vara fina: la mano se apaga — la varita que no se usa no corre; la privacidad también es apagar lo que sobra; la poda manda.
+
+Falta la vara fina: la revisión de la mano es la revisión de la privacidad — qué app ve qué con SU permiso; la línea del escondite (84) repetida: TU teléfono, TU vara, la sombra jamás.
+
+Con una vara fina de la privacidad: la doctrina del barrio manda — el poder que respeta la casa es el que se queda.
+
+=====S08=====
+
+*❓ LAS PREGUNTAS* · ¿La varita necesita root? No — la vía ADB (inalámbrica en Android 11+) basta; con root es más cómoda pero no obligatoria. ¿La mano se pierde al reiniciar? En la mayoría de las casas sí — el emparejamiento se repite; con root, la casa lo arranca sola; la ficha de TU versión manda. ¿La varita es gratis? Apache-2.0: gratis y libre — la app está en Play Store y el release en el repo oficial. ¿Qué apps pueden usarla? Las que TÚ les des la mano — app por app con SU permiso; la revisión manda. ¿Y si ya tengo root (82, 87)? La varita convive — y arranca más cómoda; la libreta distingue las manos.
+
+*❓ LAS PREGUNTAS II* · ¿La varita funciona en mi marca? La vía ADB es del Android, no del fabricante — con matices por casa; la ficha del repo manda. ¿La mano puede romper el teléfono? La mano toca lo que el shell toca — mal usada hace estragos finos pero no funesta el corazón; la vara de lo posible manda. ¿La varita sirve pa mi teléfono del trabajo? Es SU caso de oro — poder fino sin puertas abiertas; la política del despacho se lee primero (la línea de la prima). ¿Puedo quitarla cuando quiera? Sí — se apaga y se desinstala; la casa queda como estaba; la poda del dueño manda.
+
+=====S09=====
+
+*📜 LA HISTORIA DOMINICANA* · El compaya del colmado tenía el teléfono del negocio SIN root — «el banco no me deja», decía — pero le faltaba la mano pa apagar el bloat del googleón. El nieto de la doña del salón le presentó la varita: emparejamiento por ADB inalámbrico un domingo, el mayordomo de apps (91) con SU mano, y el compaya desinstalando con vara lo que la fábrica le metió. «¿Y esto no me rompe el banco?» — «La varita no toca el corazón; tu banco ni se entera». El colmado quedó limpio y el compaya quedó en la fila — sin puerta abierta y con SU mano. La lección del cuento: la vara fina no siempre necesita la llave grande — el medio término es oficio serio.
+
+*📜 LA HISTORIA II — LA PRIMA DEL DESPACHO* · La prima de la Zona Colonial — de las piezas 85 a 89 — necesitaba la taquígrafa (92) pa SU despacho: grabar las llamadas del negocio en un teléfono que Android lo negaba. El compaya de los videos le ofreció el «root express del tacho» — y la prima contestó con la doctrina: SU teléfono del trabajo no abre puertas; la varita con SU emparejamiento basta. Emparejó un martes con calma, dio la mano a la taquígrafa con SU permiso, y el despacho graba desde entonces — con la libreta de la prima anotando la gira del emparejamiento. La lección del cuento: el oficio fino se construye con la mano que no asusta — y la prima que lee no se funestea.
+
+*👦 LA HISTORIA III — EL MUCHACHO DEL RECREO* · Su vara fina: el muchacho del recreo — de la libreta de seis entradas — recibió al primo de fuera con el teléfono nuevo y una pregunta: «¿esto hay que rootearlo?».
+
+Encima una vara mayor: el muchacho no abrió la puerta ni la varita de golpe — leyó el oficio del primo primero: «¿pa qué lo quieres?».
+
+Suma una vara fina honesta: el primo quería orden (apps de fábrica fuera) — la varita con el mayordomo (91) era SU vara; la llave grande quedaba pa cuando el oficio la pidiera.
+
+Llevando una vara mayor: montaron la mano con la vara completa — repo oficial, emparejamiento con código, UNA app primero; la libreta del primo nació esa tarde.
+
+Y la vara fina: la mesa del recreo aprendió el medio término — no todo oficio pide la llave; la doctrina de la abuela manda.
+
+Deja la vara fina: la libreta del muchacho sumó SU séptima entrada — «la mano prestada: poder con vara»; el oficio se hereda con casos.
+
+Mira la vara fina del muchacho: la doctrina del barrio manda — diagnosticar antes de emparejar.
+
+=====S10=====
+
+*🪞 LA MEDIDA EN EL ECOSISTEMA* · ★31.747 — la forja más grande del ecosistema root-adjacente del catálogo (pulso HOY 18-oct-2026). En el barrio de la fila: 13.7 veces el mapa (5.227), 7.8 veces el escondite (2.643) — la abuela pesa. La fila root II (82-95) suma 42.992 entre SU ocho; la varita camina al lado con SU propio peso. La medida sin envidia: la abuela no compite — sostiene; la vara del oficio manda.
+
+*🗺 LA TABLA DEL ECOSISTEMA — PULSO 18-OCT-2026* · La fila root II: regleta ★10.641 · parche ★8.073 · fábrica ★7.692 · mapa ★5.227 · espejo ★4.072 · escondite ★2.645 · taller ★2.447 · tienda ★2.209 — Σ42.992. La abuela al lado: ★31.747 (RikkaApps/Shizuku, pulso HOY 18-oct-2026, push 18-jun-2025). Las forjas finas: el mayordomo ★1.949 (Inure), la taquígrafa ★1.776 (ShizuCallRecorder, push 17-oct-2026). Ninguna cifra de memoria: el pulso HOY lo firma.
+
+*📏 LAS MEDIDAS II — LA FORJA CON FECHAS* · Su vara fina: las medidas de la abuela cuentan los siglos del barrio — nacida 24-may-2017, 9 años y 5 meses caminando; la forja más vieja del ecosistema del catálogo.
+
+Toma la vara mayor: la licencia Apache-2.0 con el repo público — la varita más leída del oficio; la caja negra no es vara de la fila.
+
+Pasa la vara fina honesta: el push de 18-jun-2025 firma la calma — 16 meses de madurez visible; la vara del censo HOY lo anota sin drama.
+
+Coge la vara mayor: el ★31.747 del pulso HOY (18-oct-2026, subió de 31.746 en el día) — la abuela sigue creciendo en calma; la fila lo nota.
+
+Deja una vara fina: la edad de la abuela es la vara de la confianza — tres generaciones de Android y la mano camina; la doctrina de la madurez manda.
+
+Mira una vara fina: las forjas finas que viven de SU mano (91: 1.949 · 92: 1.776) suman SU peso al ecosistema — la abuela sostiene más de lo que pesa.
+
+Con la vara fina de las medidas: la doctrina de la Bandita manda — vecinos nombrados, Δ verificada, ★ con fecha.
+
+*📏 LAS MEDIDAS III — EL PESO DE LA ABUELA* · Su vara fina: el peso de la abuela se mide en proporciones — 31.747 estrellas son 6 veces la fila root II completa (42.992 no la incluye; la fila es SU ocho); la abuela camina en SU propia liga.
+
+Toma una vara mayor: la liga de la abuela es la de la infraestructura — su estrella (31.747, censo 18-oct-2026) no compite con forjas de oficio único; mide CUÁNTOS oficios sostiene; la vara del sostén manda.
+
+Y una vara fina honesta: el crecimiento en calma es SU firma — ★31.786 → 31.747 (censo HOY 18-oct-2026) en el día del pulso sin push nuevo: la fama camina sola; la vara del censo HOY lo firma.
+
+Coge una vara mayor: la medida de la abuela sin envidia — la fila respeta SU liga; la comparación es de vecinos nombrados, jamás de cielo entero; la doctrina de la Bandita manda.
+
+Anda la vara fina: el peso de la abuela se nota en SU inquilinos — 91 y 92 son gotas de SU río; la genealogía del ecosistema manda.
+
+Añádase la vara fina: la abuela en el mapa final (95) tendrá SU línea aparte — la infraestructura se cita como infraestructura; la vara del cierre manda.
+
+Anda una vara fina del peso: la doctrina del barrio manda — el sostén se mide por los que caminan sobre él.
+
+=====S11=====
+
+*🗣 DÍGASE EN EL BARRIO* · «La varita no abre puertas: presta la mano del sistema». «ADB y código de pareja: el emparejamiento con ley». «El teléfono del trabajo también tiene varita — sin root y con vara». «La mano se revoca: permiso que se revisa, permiso que manda». «La abuela de 2017: la calma es SU constancia».
+
+*🗣 DÍGASE II — EL RETRATO DE LA VARITA* · «El medio término: más que la app, menos que el root». «La mano del mayordomo y de la taquígrafa — la infraestructura del oficio fino». «Apache-2.0: la varita que se lee desde 2017». «Emparejar, revisar, girar: el ciclo de la mano». «31.747 estrellas de serenidad — la abuela pesa».
+
+*🎭 EL RIESGO* · El riesgo 1: el emparejamiento ajeno — el compaya que «te ayuda» con SU app emparejada es la puerta del chisme; el código de pareja es del dueño. El riesgo 2: la app del tacho con mano — cada app con mano declara SU oficio; la revisión app por app manda. El riesgo 3: la gira olvidada — la mano muerta tras el reinicio confunde al dueño nuevo; la gira del emparejamiento se anota. El riesgo 4: el zip del tacho — la varita es del repo oficial (RikkaApps/Shizuku); el «turbo» es la mano robada. El riesgo 5: el abuso del medio — la mano no es pa operar teléfonos ajenos; la línea de la fila manda.
+
+>>>REV>>> Qué es Shizuku: la varita — APIs del sistema con privilegios de adb/root pa apps normales, vía un proceso Java arrancado con app_process — Apache-2.0, nacida 24-may-2017, ★31.747 (pulso 18-oct-2026).
+
+>>>REV>>> El medio término: más poder que la app normal, menos responsabilidad que el root — el teléfono del trabajo y el nervioso la reciben sin puertas abiertas.
+
+>>>REV>>> El ciclo de la mano: emparejar (ADB con código) · dar la mano app por app · revisar permisos cada gira · re-emparejar tras el reinicio (sin root).
+
+>>>REV>>> La medida: ★31.747 — la forja más grande del ecosistema root-adjacente, 9 años y 5 meses de fila, push 18-jun-2025 (madura y en calma).
+
+>>>REV>>> Las reglas de la varita: repo oficial jamás tacho · código de pareja del dueño jamás ajeno · permisos con revisión · gira con libreta · jamás la línea de tercero.
+
+=====S12=====
+
+*📓 LA LIBRETA DEL DUEÑO* · Su vara fina: la libreta anota la mano — qué apps con mano, con qué permiso, desde qué fecha, cuándo toca re-emparejar.
+
+Guárdese la vara mayor: la revisión de permisos es la gira de la varita — cada app con SU oficio declarado; la mano sin revisión es la ruleta del compaya.
+
+Tómese la vara fina honesta: la libreta de la varita es la misma de toda la fila — la doctrina de las cicatrices anotadas que la tienda (83) al espejo (89) cosieron.
+
+Mírese la vara mayor: la libreta viaja — mudanza de teléfono, el emparejamiento se re-hace sin adivinar; la póliza viaja.
+
+Déjese la vara fina: la poda de la mano — la app que ya no oficia pierde SU permiso; la mano que sobra se apaga.
+
+Su vara fina: la libreta se comparte con vara — la mesa del club aprende de las entradas serias; la genealogía del oficio manda.
+
+Otra vara fina de la libreta: la regla de la fecha manda — cada entrada con SU fecha, como las estrellas de la fila.
+
+*🕐 EL PUSH Y LA CONSTANCIA* · Su vara fina: el push de 18-jun-2025 es la última faena visible de la abuela — 16 meses de calma madura; la forja que está bien hecha no pide prisa.
+
+Va otra vara mayor: en la fila, la constancia se mide en pushes — y la abuela enseña la otra vara: la calma de lo terminado; la forja en calma no es forja muerta; la doctrina del censo HOY lo anota.
+
+Queda la vara fina honesta: la constancia de la abuela se compara con la fila — la regleta empuja, la fábrica y el mapa empujan HOY; cada forja SU ritmo; la mesa respeta los dos caminos.
+
+Va la vara mayor: el dueño fino usa la versión estable — la calma no es excusa pa versiones viejas sin leer; la ficha HOY manda.
+
+Falta una vara fina: si la abuela empuja de nuevo, la fila lo canta — el pulso de la Bandita lo notará; la vara del censo manda.
+
+Encima va la vara fina: la Bandita mide igual al famoso y al sereno — ★ con fecha en SU línea; la abuela con SU pulso HOY.
+
+Con la vara fina de la constancia: la doctrina de la fila manda — la calma madura es oficio también.
+
+*🌍 LA COMUNIDAD DE LA VARITA* · Su vara fina: la varita es Apache-2.0 — la mano abierta que se lee, se audita y se mejora desde 2017; la caja negra no es vara de la fila.
+
+Llevando la vara mayor: la comunidad vive del reporte claro — el fallo de emparejamiento con SU versión y SU casa; la mesa del repo lo recoge.
+
+Suma la vara fina honesta: la comunidad de la varita es la más larga del ecosistema — 9 años de mesa; la genealogía del oficio camina entera.
+
+Añádase una vara mayor: el que sabe prestar manos puede aportar — Apache-2.0 es invitación; la varita del barrio empieza con un dueño que lee.
+
+Va una vara fina: la regla del repo claro manda — la doctrina de la tienda (83) repetida.
+
+Queda una vara fina: la ética de la mano es la de la fila — TU teléfono, TU emparejamiento; jamás operar el ajeno; la línea de la casa manda.
+
+Falta la vara fina de la comunidad: la Bandita cosió la regla desde la 82 — el oficio libre sobrevive por dueños serios.
+
+*⚖️ LA ÉTICA DE LA MANO* · Su vara fina: la ética de la mano es una línea — prestar poder a TU casa con revisión, jamás operar la casa ajena.
+
+Con una vara mayor: la mano con revisión es la vara del dueño serio — cada permiso mirado, cada app con SU oficio; la mano sin revisión es la chistera técnica del barrio.
+
+Encima una vara fina honesta: la ética se hereda — el nieto que empareja pa la abuela aprende el ciclo Y la línea; la genealogía del oficio manda.
+
+Suma una vara mayor: la ética de la varita es la de la fila entera — repo claro jamás tacho, la prueba HOY, la vara antes del presumido; la Bandita cosió la regla desde la 82.
+
+Llevando una vara fina: la ética del compaya vendedor — el que cobra por «emparejarte la vida» cobra por el tacho; el ciclo se aprende gratis en el repo; la doctrina de la tienda (83) manda.
+
+Y la vara fina: la ética del estafador — el que pide TU pantalla y TU código con prisa es la puerta del robo; el código de pareja no se comparte ni pa consulta; la vara del barrio manda.
+
+Deja la vara fina de la ética: la Bandita firma — el oficio libre sobrevive por dueños serios.
+
+*⚖️ LA MANO EN LA MESA — LA LECCIÓN FINAL* · Su vara fina: la mano en la mesa es la vara del compaya fino — el que empareja delante de la familia pa que TODOS vean el ciclo; el oficio sin misterio no asusta. Otra vara mayor: la lección final de la abuela es la serenidad — 9 años sin escándalo, la mano que camina despacio; la fila que se apura no la entiende. La vara fina honesta: la mano en la mesa se hereda — el nieto emparejando pa la abuela del salón es la pieza del ciclo; la genealogía del oficio manda. Queda dicha la vara mayor: la lección final manda pa el dueño nuevo — el medio término es oficio completo, no consuelo de quien no puede; la vara del respeto manda. Encima la vara fina: la mesa con manos es la mesa del barrio — mayordomo, taquígrafa, automatismos; todos con SU oficio declarado; la libreta lo firma. Falta una vara fina: el oficio sin misterio desarma al estafador — el que conoce el ciclo no pide código ajeno ni pantallas prestadas; la vara del barrio manda. Con la vara fina de la mesa: la Bandita firma — la mano con ley, la casa con vara, la fila con fecha.
+
+=====S13=====
+
+*🎬 TELÓN* · No todo oficio pide la llave grande — la varita prestó la mano del sistema a medio barrio SIN abrir puertas: Apache-2.0, 9 años de fila, ★31.747 (pulso HOY 18-oct-2026). El método es el de la fila entera: repo oficial, emparejamiento con ley, permisos con revisión, gira con libreta. El ecosistema camina: la fila root II con SU Σ42.992 y la abuela al lado con SU peso sereno. La Bandita mide, la abuela sostiene, el barrio camina — ★ con fecha, la mano con ley.
+
+*🎬 TELÓN II — LA FILA SIGUE* · Nueve piezas nacidas en la tarde-noche del 18 de octubre de 2026: la tienda (83), el escondite (84), el taller (85), la fábrica (86), el parche (87), el mapa (88), el espejo (89) y esta varita (90) — todas con pulso HOY, licencia leída y vecinos con Δ. Quedan el mayordomo (91), la taquígrafa (92) y las forjas finas — la fila se cierra con SU propio mapa en la pieza noventaycinco.
+
+*📚 APÉNDICE A — LA COMPARACIÓN* · Contra la regleta (★10.641, pulso 19-oct-2026): la regleta abre la puerta completa; la varita presta la mano sin puerta — la llave y la mano prestada. Contra el parche (★8.073, pulso 19-oct-2026): el parche cose el corazón; la varita jamás toca el corazón — profundidades distintas del mismo oficio. Contra el espejo (★4.072, pulso 19-oct-2026): el espejo pone el piso fino de las casas con root; la varita lleva el poder fino a las casas SIN root — dos mitades del barrio. Contra el mayordomo (91) y la taquígrafa (92): ellas SON las manos que la varita presta — la infraestructura y sus inquilinos.
+
+*📚 APÉNDICE B — QUIÉN NO DEBE ENTRAR* · El que quiere la llave completa: la varita no toca kernel ni particiones — pa la regleta (82) o el parche (87) primero. El que empareja SU app en teléfonos ajenos: la mano es del dueño — pa la calle con esa vara. El que busca el zip del tacho: la varita es del repo oficial — el «turbo» es la mano robada. El que no revisa permisos: la mano sin revisión es la ruleta — la revisión antes de la comodidad. El que presume el medio término pa fechorías: la línea de la fila manda — jamás engañar a tercero.
+
+*📚 APÉNDICE C — LA LÍNEA DEL TIEMPO* · 24-may-2017: nace la varita en la era del root obligatorio. 2017-2025: tres generaciones de Android — la mano caminando; el medio término volviéndose oficio. 18-jun-2025: el push de la calma — la última faena visible. Hoy: ★31.747 (pulso HOY 18-oct-2026), la abuela del ecosistema, la forja más grande del catálogo root-adjacente.
+
+*📚 APÉNDICE D — DICCIONARIO DE LA PIEZA* · La varita: la forja de la mano — RikkaApps/Shizuku. La mano: el proceso con privilegios del shell que las apps usan. El emparejamiento: el ADB con código de pareja — la puerta de la mano. El medio término: más que la app, menos que el root — la vara de la abuela. La revisión: el permiso app por app cada gira — la vara del dueño. La abuela: 9 años de fila en calma — la madurez del barrio.
+
+*📇 LA FICHA DE BOLSILLO — APÉNDICE E* · Nombre: Shizuku. Repo: RikkaApps/Shizuku. Estrellas: ★31.747 (pulso HOY 18-oct-2026). Nacida: 24-may-2017. Último push: 18-jun-2025 — madura en calma. Licencia: Apache-2.0. Qué es: APIs del sistema con privilegios adb/root pa apps normales vía proceso app_process. Lugar: la forja más grande del ecosistema root-adjacente. Pieza: 90 de la serie La Bandita.
+
+*📎 LAS DOS MANOS EN ORDEN — APÉNDICE F* · Primera mano: la del shell — la varita; giratoria, revisable, sin puertas. Segunda mano: la llave completa — la regleta (82) o el parche (87); la casa que las dos quiere se arma con orden. La regla del orden: mano primero (si el oficio basta), llave cuando el oficio la pida — la libreta distingue cuál hizo qué; el primer domingo las revisa juntas.
+
+*🗂 EL GLOSARIO DE LA CASA VARITA — APÉNDICE G* · El shell: el usuario de servicio de Android — de donde la mano toma SU poder. El app_process: el arranque del proceso — la maquinaria de la varita. El código de pareja: la llave del emparejamiento — del dueño, jamás ajena. La gira de emparejamiento: la re-dación de la mano tras el reinicio — sin root se repite. La revisión: el permiso mirado app por app — la vara contra la ruleta. La abuela: la forja madura — 9 años y 31.747 estrellas de serenidad.
+
+*📇 LA FICHA DEL BOLSILLO II — APÉNDICE H* · Qué produce: manos de sistema pa apps normales — sin abrir la puerta del root. Quién la sostiene: la forja de RikkaApps — con 9 años de comunidad detrás. Cuánto pesa: ★31.747 (pulso HOY 18-oct-2026). Desde cuándo: 24-may-2017. Hasta cuándo: en calma desde 18-jun-2025 — madura. Con qué licencia: Apache-2.0. Con qué inquilinos: el mayordomo (91), la taquígrafa (92) y medio barrio de automatizaciones. En qué lugar: la abuela del ecosistema, la más grande del catálogo root-adjacente.
+
+*🧾 LAS TRES VÍAS DEL PODER FINO — APÉNDICE I* · Vía 1: la app tal cual — el googleón decidiendo el cajón; el dueño inquilino. Vía 2: el zip del tacho — «root express sin root» que promete lo que no da; la funestería del barrio. Vía 3: la varita con ley — repo oficial, emparejamiento del dueño, permisos revisados, gira con libreta. La doctrina de la fila manda la vía 3: la vara entre el tacho y la mano la marca el REPO — el dueño que lee no se funestea.
+
+*📣 EL MANIFIESTO DE LA VARITA — APÉNDICE J* · El dueño no abre toda la puerta pa tocar el cajón fino: presta la mano con ley. La varita es la vara del medio término — más que la app, menos que el root; el poder que respeta la casa. Ni el tacho ni la mano ajena: emparejamiento del dueño, permisos revisados, gira anotada. El ecosistema lo mide: ★31.747 (pulso HOY 18-oct-2026) y 9 años de fila — la abuela que sostiene sin presumir. Mejor que lo que precedió — nunca perfecto: la mano madura camina en calma.
+
+*🎬 TELÓN III — EL BARRIO CON MANOS* · Su vara fina: el barrio con manos es el barrio completo — el remendado con SU llave, el del trabajo con SU mano prestada, la abuela del salón con SU nieto emparejador; ninguna casa sin vara. Otra vara mayor: las manos se respetan — la llave no presumía, la mano no invadía; cada forja SU oficio; la mesa de la fila entera. La vara fina honesta: el barrio con manos se hereda — el ciclo corto se enseña en una tarde y camina generaciones; la genealogía del oficio manda. Queda dicha la vara mayor: la pieza noventaycinco contará la fila entera — y la abuela tendrá SU línea de infraestructura citada; la vara del cierre. Encima la vara fina: las forjas finas vienen — el mayordomo (91) y la taquígrafa (92) ya caminan con SU mano; la fila se cierra completa. Falta una vara fina: la doctrina del movimiento perpetuo manda — la fila se mide HOY y se volverá a medir; la vara de la Bandita nunca duerme. Con la vara fina del barrio: la Bandita firma — mejor que lo que precedió, nunca perfecto.
+
+=====GLOS=====
+La varita|La forja de la mano: RikkaApps/Shizuku (★31.747, pulso 18-oct-2026). Apache-2.0, nacida 24-may-2017.
+La mano|El proceso con privilegios del shell que las apps usan. Lo que la varita presta.
+El emparejamiento|El ADB con código de pareja que arranca la mano. Del dueño, jamás ajeno.
+El medio término|Más que la app normal, menos que el root. La vara de la abuela.
+El shell|El usuario de servicio de Android. De donde la mano toma SU poder.
+El app_process|El arranque del proceso de la varita. La maquinaria que el repo documenta.
+La revisión|El permiso mirado app por app cada gira. La vara contra la ruleta.
+La gira de emparejamiento|La re-dación de la mano tras el reinicio. Sin root se repite; con root, automática.
+La abuela|La forja madura: 9 años y 5 meses de fila. La calma es SU constancia.
+La regleta|La forja que abre la puerta completa (★10.641, pulso 19-oct-2026). Pieza 82. La llave grande.
+La tienda|La forja que reparte módulos (★2.209, pulso 18-oct-2026). Pieza 83 de la fila.
+El escondite|El inquilino famoso (★2.645, pulso 19-oct-2026). Pieza 84 de la fila.
+El taller|La forja que viste el Pixel (★2.447, pulso 18-oct-2026). Pieza 85 de la fila.
+La fábrica|La forja que hornea apps (★7.692, pulso HOY 18-oct-2026). Pieza 86 de la fila.
+El parche|La forja del corazón (★8.073, pulso 19-oct-2026). Pieza 87. La varita no toca SU terreno.
+El mapa|El directorio del oficio (★5.227, pulso HOY 18-oct-2026). Pieza 88 de la fila.
+El espejo|El piso invisible (★4.072, pulso 18-oct-2026). Pieza 89. La otra mitad del barrio.
+El mayordomo|Inure, ★1.949 (censo 18-oct-2026). El que ordena apps con la mano. Pieza 91.
+La taquígrafa|ShizuCallRecorder, ★1.776 (censo 18-oct-2026). La que graba llamadas con la mano. Pieza 92.
+Apache-2.0|La licencia de la varita: la mano abierta desde 2017. Se lee y se audita.
+El canal de servicio|El ADB: lo de los técnicos domado pa el dueño. El ciclo corto de la varita.
+El código de pareja|La llave del emparejamiento. No se comparte ni pa consulta; el estafador lo pide con prisa.
+El ciclo corto|Emparejar, dar mano, revisar. La clase que se aprende en una tarde.
+El nieto emparejador|El que da la mano pa la abuela del salón. La genealogía en acto.
+El desván con pasos|Automatismos sin revisión. Lo que la poda del dueño evita.
+La gota del río|El mayordomo y la taquígrafa: inquilinos de la abuela. La genealogía del ecosistema.
+La liga del sostén|La que mide cuántos oficios sostiene la forja. La vara de la infraestructura.
+La fama en calma|La estrella que sube sin push nuevo. La abuela crece sola.
+La excusa quitada|«Necesitaba root pa ordenar» — ya no. La mano basta pa el oficio fino.
+La mano apagada|La varita que no se usa no corre. La privacidad de apagar lo que sobra.
+El techo honesto|Lo que el shell manda y lo que no. La discreción y la honestidad de la varita.
+La revisión de privacidad|Qué app ve qué con SU permiso. La línea del escondite repetida.
+El estafador de pantalla|El que pide código con prisa. La vara del barrio contra SU puerta.
+La gira de dos manos|El primer domingo: llave y mano juntas. La constancia del dueño fino.
+La casa del trabajo|El caso de oro del medio término. Poder fino sin puertas abiertas.
+La poder sin funeste|El oficio fino sin abrir la puerta que el banco mira. La vara práctica.
+La serenidad pesada|31.747 estrellas de sostén. La abuela no presume: sostiene.
+El río de la abuela|Los oficios que viven de SU mano. Medio barrio de infraestructura.
+La clase heredada|El ciclo enseñado en la mesa. El oficio que no se pierde.
+La ley del canal|Poder de servicio con ley de dueño. La clase que respeta la casa.
+La gaveta sin la puerta|El oficio fino sin abrir el root entero. La invención de la abuela.
+La era de la llave única|El antes: root pa todo o na. Lo que la varita jubiló.
+El exceso de la regla|Abrir toda la puerta pa tocar una gaveta. Lo que el medio término corrigió.
+La casa sin vara|El teléfono del trabajo antes de la varita. La mitad del barrio sin oficio.
+El peso en proporciones|31.747 contra la fila completa. La liga propia de la infraestructura.
+El sostén medido|Se mide por los que caminan encima. El sostén antes que la fama.
+La gaveta ordenada|El cajón del compaya del colmado. El oficio que la mano permite.
+La mano del domingo|El emparejamiento con café y calma. El ciclo corto del barrio.
+El barrio con manos|La casa completa: llave, mano, gaveta. Ninguna sin vara.
+La entrada del nieto|La entrada séptima de la libreta. «Poder con vara», escrita con fecha.
+El oficio estándar|El medio término como oficio común. La era que la varita fundó.
+La carencia que funda|Cada forja nace de una falta del barrio. La genealogía de las soluciones.
+Dos caminos en la mesa|Root y no-root respetándose. La fila que admite los dos caminos.
+El cajón fino|Lo que la mano alcanza sin puerta. El techo honesto del shell.
+El ciclo heredado|De la abuela a la mesa, de la mesa al nieto. El oficio que camina.
+La cita del sostén|La línea de la abuela en el mapa final. La cita que merece el sostén.
+La fama serena|La estrella que sube sin ruido. La abuela crece dormida.
+El primer domingo doble|Llave y mano revisadas juntas. La gira del dueño fino.
+La casa completa|Ninguna casa del barrio sin vara. La obra del ecosistema.
+La nevera sin tocar|La forja fría que no se toca. Lo que la prisa jamás endereza.
+La mano en la mesa|El emparejamiento delante de la familia. El oficio sin misterio no asusta.
+La serenidad que enseña|9 años sin escándalo. La lección final de la abuela.
+El estafador desarmado|El que conoce el ciclo no pide códigos ajenos. La vara del barrio en acto.
+El respeto del medio|El medio término es oficio completo. Lo que el dueño nuevo aprende.
+La libreta del emparejador|Apps, permisos, fechas del ciclo. La póliza de la mano.
+La gaveta del colmado|El cajón ordenado sin puerta abierta. El caso del compaya satisfecho.
+El domingo de mesa|La familia mirando el ciclo completo. La clase que no se cobra.
+La fila con manos|Remendado, del trabajo, abuela: todos con vara. El barrio sin excluidos.
+El cajón declarado|Cada automatismo con SU oficio en la libreta. La mesa seria.
+La abuela citada|La infraestructura en el mapa final (95). La línea que el cierre le debe.

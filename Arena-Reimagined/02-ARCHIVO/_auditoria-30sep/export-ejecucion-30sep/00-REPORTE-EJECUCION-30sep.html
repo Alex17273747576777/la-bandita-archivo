@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reporte de ejecución — 30-sep-2026 · La Bandita (régimen de examen por palabra del dueño)</title>
+<style>
+  :root{
+    --tinta:#182430; --papel:#faf7f0; --carta:#ffffff; --linea:#d8d2c4;
+    --verde:#1b7f3b; --rojo:#b3261e; --ambar:#9a6a00; --teal:#0f766e; --sello:#5b21b6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--papel);color:var(--tinta);font-family:Georgia,'Times New Roman',serif;line-height:1.62;font-size:17px}
+  header{background:var(--tinta);color:var(--papel);padding:34px 22px 26px;border-bottom:6px solid var(--teal)}
+  .env{max-width:780px;margin:0 auto;padding:0 22px}
+  h1{font-size:1.55rem;margin:.1em 0 .3em;letter-spacing:.2px}
+  h2{font-size:1.22rem;margin:1.9em 0 .5em;color:var(--teal);border-bottom:2px solid var(--linea);padding-bottom:.25em}
+  h3{font-size:1.04rem;margin:1.4em 0 .35em;color:#27394a}
+  main{padding:6px 0 50px}
+  .ficha{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+  .chip{background:#223646;border:1px solid #3a5470;border-radius:5px;padding:4px 10px;font-size:.82rem}
+  .k .n{font-family:ui-monospace,Consolas,monospace;font-weight:700}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0 6px}
+  .k{background:var(--carta);border:1px solid var(--linea);border-left:5px solid var(--teal);border-radius:6px;padding:12px 14px}
+  .k small{display:block;color:#5b6b7a;font-size:.72rem;text-transform:uppercase;letter-spacing:.6px}
+  .k .n{font-size:1.5rem}
+  table{width:100%;border-collapse:collapse;background:var(--carta);margin:12px 0 6px;font-size:.88rem}
+  caption{caption-side:top;text-align:left;font-weight:700;padding:6px 2px;color:#27394a}
+  th,td{border:1px solid var(--linea);padding:6px 9px;text-align:left;vertical-align:top}
+  th{background:#eef0ec;font-size:.76rem;text-transform:uppercase;letter-spacing:.5px}
+  td.num{font-family:ui-monospace,Consolas,monospace;text-align:right;white-space:nowrap}
+  .ok{color:var(--verde);font-weight:700}.no{color:var(--rojo);font-weight:700}.amb{color:var(--ambar);font-weight:700}
+  .caja{background:var(--carta);border:1px solid var(--linea);border-left:5px solid var(--sello);border-radius:6px;padding:14px 16px;margin:14px 0}
+  .caja.t{background:#fffdf6;border-color:#e2d9bd;border-left-color:var(--teal)}
+  .caja.r{background:#fff8f7;border-color:#eed0cd;border-left-color:var(--rojo)}
+  details{background:var(--carta);border:1px solid var(--linea);border-radius:6px;margin:10px 0;padding:10px 14px}
+  summary{cursor:pointer;font-weight:700;color:var(--teal)}
+  blockquote{margin:12px 0;padding:4px 16px;border-left:3px solid var(--teal);color:#33485c;background:#f4f5f1;border-radius:0 6px 6px 0}
+  code,pre{font-family:ui-monospace,Consolas,monospace;font-size:.84em}
+  pre{background:#101f2b;color:#cfe3ee;padding:12px 14px;border-radius:6px;overflow-x:auto;line-height:1.5}
+  ul.plat{padding-left:1.2em}
+  .foot{background:#efece4;border-top:1px solid var(--linea);padding:20px 22px;font-size:.82rem;color:#5b6b7a}
+  .toc{background:#f2efe7;border:1px solid var(--linea);border-radius:6px;padding:10px 16px;font-size:.9rem}
+  .toc a{color:var(--teal);text-decoration:none}
+  hr.imp{border:0;border-top:2px dashed var(--linea);margin:26px 0}
+  @media print{
+    body{background:#fff;font-size:11.5pt}
+    header{background:#fff;color:#111;border-bottom:3px solid #222}
+    .ficha,.toc{display:none}
+    section{break-inside:avoid-page}
+    h2{break-after:avoid}
+    table{font-size:8.5pt}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="env">
+    <p style="margin:0;font-size:.78rem;letter-spacing:2px;text-transform:uppercase;color:#8fb8b2">La Bandita · 02-ARCHIVO/_auditoria-30sep/export-ejecucion-30sep</p>
+    <h1>REPORTE DE EJECUCIÓN — 30 de septiembre de 2026</h1>
+    <p style="margin:.2em 0 0;font-size:.95rem;color:#c8d5dc">Régimen de examen pieza por pieza bajo la palabra del dueño: bandas definitivas, censo completo, corrección del par 02, planillas y evidencia descargable.</p>
+    <div class="ficha">
+      <span class="chip">Fecha de corte: 30-sep-2026</span>
+      <span class="chip">Vara única: <b>len()</b> UTF-8</span>
+      <span class="chip">Banda FB: 40.000–45.000 c</span>
+      <span class="chip">Piso WA: 63.000 c</span>
+      <span class="chip">Publicaciones: <b>congeladas</b></span>
+      <span class="chip">Tabla de contenidos y paquete verificable por SHA-256</span>
+    </div>
+  </div>
+</header>
+<main class="env">
+
+<nav class="toc">
+  <b>Tabla de contenidos:</b><br>
+  <a href="#s1">1 · Síntesis ejecutiva</a> ·
+  <a href="#s2">2 · Palabra del dueño (30-sep)</a> ·
+  <a href="#s3">3 · Censo completo contra las bandas</a> ·
+  <a href="#s4">4 · Par 01 (plantilla)</a> ·
+  <a href="#s5">5 · Par 02 (cerrado hoy)</a> ·
+  <a href="#s6">6 · FB 10 (récord quirúrgico)</a> ·
+  <a href="#s7">7 · Hallazgos y decisiones abiertas</a> ·
+  <a href="#s8">8 · Cola de trabajo y método</a> ·
+  <a href="#s9">9 · Varas de verificación</a>
+</nav>
+
+<section id="s1">
+<h2>1 · Síntesis ejecutiva</h2>
+<div class="grid">
+  <div class="k"><small>Piezas censadas</small><span class="n">25</span> <br>(12 WA + 13 FB)</div>
+  <div class="k"><small>WA dentro de piso</small><span class="n">4 / 12</span><br>01 · 02 · 10 · 81</div>
+  <div class="k"><small>FB dentro de banda</small><span class="n">3 / 13</span><br>01 · 02 · 04-Extensiones</div>
+  <div class="k"><small>Corrección ejecutada hoy</small><span class="n">Par 02</span><br>WA 64.242 ✓ · FB 41.048 ✓</div>
+  <div class="k"><small>Reparaciones FB 10</small><span class="n">48</span><br>tramos · escáner anomalías: 0</div>
+  <div class="k"><small>Invariantes finales</small><span class="n">Limpios</span><br>voz orgánica restaurada</div>
+</div>
+<p>Una variante a destacar: dos de las verdes de hoy (WA 02 y FB 02) llegaron a banda <b>por corrección del día</b>, no por foto vieja — la ampliación fue datada, con el texto original intacto, y fundamentada en información <b>verificada en vivo</b> contra la API oficial de GitHub el mismo 30-sep-2026.</p>
+</section>
+
+<section id="s2">
+<h2>2 · Palabra del dueño — 30-sep-2026 (régimen nuevo)</h2>
+<blockquote>
+  «Las publicaciones en Facebook deben ceñirse a un límite que varía entre 40.000 y 45.000 caracteres, mientras que las de WhatsApp deben alcanzar un mínimo de 63.000. […] Proceso meticuloso y colaborativo examinando cada publicación, empezando por las piezas 01 y 02 en WhatsApp y luego sus contrapartes en Facebook, asegurando alineación y consistencia entre plataformas. […] Contenido innovador y relevante, evitando redundancias; investigación exhaustiva multidimensional: ingeniería inversa, ingeniería de sistemas, análisis de mercado, validación de realidades y estrategias de anti-marketing.»
+</blockquote>
+<div class="caja t">
+  <b>Efecto canónico registrado en el acta (tren 28):</b> la palabra del 30-sep <b>resuelve de raíz el conflicto de bandas</b> que la auditoría traía fichado (historia: doctrina 22-sep 63k±1k/40k±1k → práctica 29–31k → copa 26–34k). Las bandas anteriores quedan como historia, no como norma: <b>manda la palabra nueva</b>. Fichado bajo disciplina de directiva con fecha.
+</div>
+</section>
+
+<section id="s3">
+<h2>3 · Censo completo contra las bandas (vara única len())</h2>
+<p>Medido el 30-sep-2026 sobre las piezas de la generación actual. La columna «Δ» es el déficit contra el piso de su plataforma (negativo = cuánto falta). Piezas en <span class="ok">verde</span> cumplen; en <span class="no">rojo</span>, faltan.</p>
+<table>
+  <caption>3.1 · WhatsApp — regla: ≥ 63.000 caracteres</caption>
+  <tr><th>Pieza</th><th>Caracteres</th><th>Estado</th><th>Δ</th><th>Nota</th></tr>
+  <tr><td>01 · Tiendas APK legales</td><td class="num">63.947</td><td class="ok">✓ DENTRO</td><td class="num">—</td><td>plantilla</td></tr>
+  <tr><td>02 · Kototoro</td><td class="num">64.242</td><td class="ok">✓ DENTRO</td><td class="num">—</td><td>corregida 30-sep (+1.407)</td></tr>
+  <tr><td>03 · Verificación de desarrolladores</td><td class="num">62.568</td><td class="no">✗ BAJO</td><td class="num">−432</td><td>segunda pasada pendiente</td></tr>
+  <tr><td>04 · Almacenes (variante)</td><td class="num">62.120</td><td class="no">✗ BAJO</td><td class="num">−880</td><td>herencia pendiente del dueño</td></tr>
+  <tr><td>04 · Extensiones-tres-árboles (variante)</td><td class="num">62.076</td><td class="no">✗ BAJO</td><td class="num">−924</td><td>herencia pendiente del dueño</td></tr>
+  <tr><td>05 · TMO cayó</td><td class="num">62.119</td><td class="no">✗ BAJO</td><td class="num">−881</td><td></td></tr>
+  <tr><td>06 · Forks de lectores</td><td class="num">62.479</td><td class="no">✗ BAJO</td><td class="num">−521</td><td></td></tr>
+  <tr><td>07 · El árbol vecino</td><td class="num">62.082</td><td class="no">✗ BAJO</td><td class="num">−918</td><td></td></tr>
+  <tr><td>08 · Música FOSS</td><td class="num">61.305</td><td class="no">✗ BAJO</td><td class="num">−1.695</td><td>déficit mayor de WA</td></tr>
+  <tr><td>09 · Herramientas FOSS</td><td class="num">62.102</td><td class="no">✗ BAJO</td><td class="num">−898</td><td></td></tr>
+  <tr><td>10 · GLTools</td><td class="num">63.688</td><td class="ok">✓ DENTRO</td><td class="num">—</td><td></td></tr>
+  <tr><td>81 · Miyorare</td><td class="num">63.174</td><td class="ok">✓ DENTRO</td><td class="num">—</td><td></td></tr>
+</table>
+<table>
+  <caption>3.2 · Facebook — regla: 40.000–45.000 caracteres</caption>
+  <tr><th>Pieza</th><th>Caracteres</th><th>Estado</th><th>Δ</th><th>Nota</th></tr>
+  <tr><td>01 · Tiendas APK legales</td><td class="num">40.847</td><td class="ok">✓ DENTRO</td><td class="num">—</td><td>plantilla</td></tr>
+  <tr><td>02 · Kototoro</td><td class="num">41.048</td><td class="ok">✓ DENTRO</td><td class="num">—</td><td>corregida 30-sep (+1.563 neto)</td></tr>
+  <tr><td>03 · Verificación de desarrolladores</td><td class="num">39.571</td><td class="no">✗ BAJO</td><td class="num">−429</td><td>segunda pasada pendiente</td></tr>
+  <tr><td>04 · Extensiones-tres-árboles (variante)</td><td class="num">40.997</td><td class="ok">✓ DENTRO</td><td class="num">—</td><td>única variante de la 04 en banda</td></tr>
+  <tr><td>04 · Almacenes (variante)</td><td class="num">30.081</td><td class="no">✗ BAJO</td><td class="num">−9.919</td><td>copa corta</td></tr>
+  <tr><td>05 · TMO cayó</td><td class="num">30.740</td><td class="no">✗ BAJO</td><td class="num">−9.260</td><td>copa corta</td></tr>
+  <tr><td>06 · Forks de lectores</td><td class="num">30.495</td><td class="no">✗ BAJO</td><td class="num">−9.505</td><td>copa corta</td></tr>
+  <tr><td>07 · El árbol vecino</td><td class="num">39.045</td><td class="no">✗ BAJO</td><td class="num">−955</td><td>cercana</td></tr>
+  <tr><td>08 · Música FOSS</td><td class="num">30.999</td><td class="no">✗ BAJO</td><td class="num">−9.001</td><td>copa corta</td></tr>
+  <tr><td>09 · Herramientas FOSS</td><td class="num">29.023</td><td class="no">✗ BAJO</td><td class="num">−10.977</td><td>copa corta</td></tr>
+  <tr><td>10 · GLTools</td><td class="num">30.063</td><td class="no">✗ BAJO</td><td class="num">−9.937</td><td>texto ya íntegro (sección 6)</td></tr>
+  <tr><td>15 · Rama J2K</td><td class="num">27.688</td><td class="no">✗ BAJO</td><td class="num">−12.312</td><td>déficit mayor de FB</td></tr>
+  <tr><td>81 · Miyorare</td><td class="num">39.237</td><td class="no">✗ BAJO</td><td class="num">−763</td><td>cercana</td></tr>
+</table>
+<p style="font-size:.88rem;color:#5b6b7a">Este mismo censo, en CSV para hoja de cálculo: <b>01-censo-bandas-WA-FB-30sep.csv</b> (incluido en el paquete).</p>
+</section>
+
+<section id="s4">
+<h2>4 · Par 01 — doble verde, declarado plantilla del régimen</h2>
+<ul class="plat">
+  <li><b>WA 01 = 63.947 c ✓ · FB 01 = 40.847 c ✓.</b> Ambas dentro de régimen sin corrección.</li>
+  <li><b>Alineación temática verificada:</b> eje común APK/F-Droid (señal: F-Droid ×52 en WA / ×34 en FB; APK ×14 / ×11).</li>
+  <li><b>Nota de formato auditada con contexto:</b> los bloques de triple acento grave en las piezas WA son <b>árboles y tablas monoespaciados nativos de WhatsApp</b> (el canal los renderiza perfectos): formato intencional, <b>no</b> violación de invariante.</li>
+  <li>El cruce factual línea por línea WA↔FB queda como fase posterior de la auditoría de contenido; como pareja de medida, el par 01 rige de plantilla.</li>
+</ul>
+</section>
+
+<section id="s5">
+<h2>5 · Par 02 (Kototoro) — PRIMERA CORRECCIÓN del régimen: cerrada en ambas plataformas</h2>
+<div class="grid">
+  <div class="k"><small>WA 02</small><span class="n">62.835 → 64.242</span><br>Δ +1.407 · piso ✓ (sobra 1.242)</div>
+  <div class="k"><small>FB 02</small><span class="n">39.485 → 41.048</span><br>Δ +1.563 neto · banda ✓</div>
+  <div class="k"><small>Ética de corrección</small><span class="n">Inserción datada</span><br>texto original intacto 1:1</div>
+  <div class="k"><small>Reversa</small><span class="n">1 gesto</span><br>retirar el bloque acotado</div>
+</div>
+<h3>5.1 · Qué se insertó (ambas piezas, antes de la zona de cierre/firma)</h3>
+<details><summary>Texto íntegro de la inserción en WA 02 (fecha: 30-sep-2026)</summary>
+<p>🛠️ <b>Cuaderno de campo, segunda pasada — 30-sep-2026 (con hora del mostrador)</b></p>
+<p>«Ocho días después del censo original volvimos al repositorio con la libreta abierta y el método idéntico. Datos con hora de hoy: la casa tiene ya organización propia — Kototoro-app/Kototoro (la dirección antigua redirige limpio; la mudanza de nombre la hizo el propio carpintero, no ningún espejo): 590 estrellas, 46 horquillas, 40 casos abiertos, último empuje de código registrado el 27-sep-2026 — tres días atrás —, y obra creada el 28-oct-2025: once meses seguidos de taller encendido. Licencia constatada otra vez en su ficha: Apache-2.0. Idioma principal de la obra: Kotlin, tal como lo anuncia el sello Compose-first de esta guía. Dato que firma el método entero: nuestra citación del día 22 decía «v2.1.5, la última» — y el catálogo comunitario miyomi.app ya anota la v2.1.6, publicada el 23-sep-2026: el carpintero anotó su siguiente paso de obra al día siguiente de nuestra primera mirada. Anti-marketing en una línea: los espejos de descarga ofrecían hoy la v0.8.8 de abril, seis versiones atrás del mostrador real — quien descarga por espejo compra el mueble de cuando todavía faltaban cajones. La regla queda intacta desde el día uno: la puerta verdadera es la casa del proyecto — GitHub Releases — con su hora visible; cualquier espejo es foto del mueble, no el mueble.»</p>
+</details>
+<details><summary>Texto íntegro de la inserción en FB 02 (fecha: 30-sep-2026)</summary>
+<p>🛠️ <b>«Validación de realidades — segunda pasada, 30-sep-2026:»</b> la pieza salió el 22; hoy, ocho días después, se volvió a abrir la casa del proyecto con la misma vara y la misma libreta. «Datos con hora de hoy:» la obra ya tiene organización propia — Kototoro-app/Kototoro; la dirección anterior redirige limpia y exacta —, con 590 estrellas, 46 horquillas, 40 casos abiertos, y último empuje de código firmado el 27-sep-2026, tres días antes de esta nota. La licencia sigue siendo la misma que declara la entrada original — Apache-2.0, constatada en ficha —, y el idioma principal de la obra sigue siendo Kotlin. Un dato que firma el método entero: nuestra citación del día 22 decía «v2.1.5, la última» — y el catálogo comunitario miyomi.app ya anota «v2.1.6, publicada el 23-sep-2026»: el carpintero anotó su siguiente paso de obra al día siguiente de nuestra primera mirada. «En ingeniería de sistemas:» la salud de un mueble así no se lee por el cajón que tiene abierto hoy, sino por los once meses de versiones seguidas (v0.6.x → v2.1.x) y por el camino recorrido de usuario individual a organización dedicada — señal de flota con capitán, no de balsa a la deriva. «En anti-marketing:» los espejos de descarga ofrecían hoy la v0.8.8 del 10-abr-2026 — seis versiones atrás del mostrador real; cualquiera que instala por espejo compra el mueble de cuando todavía faltaban cajones. Regla sin cambio desde el día uno: «la puerta de verdad es la casa del proyecto con la hora visible — GitHub Releases; un espejo es foto del mueble, nunca el mueble entregado.»</p>
+</details>
+<h3>5.2 · Planilla de voz orgánica aplicada (etiqueta pública vigente)</h3>
+<table>
+  <tr><th>Archivo</th><th>Antes</th><th>Después</th><th>Δc</th><th>Razón</th></tr>
+  <tr><td>FB 02, línea 448</td><td>NOTA DE FORMATO (D-011, Tratado V.0.04):</td><td>NOTA DE FORMATO del taller:</td><td class="num">−19</td><td>pieza pública sin referencias al canon/directivas (etiqueta de 27-sep). Era la única referencia canónica detectada en el par.</td></tr>
+</table>
+<h3>5.3 · Fundamento fáctico de las inserciones (verificado en vivo, 30-sep-2026)</h3>
+<table>
+  <tr><th>Dato publicado</th><th>Valor</th><th>Fuente con hora</th></tr>
+  <tr><td>Casa del proyecto</td><td>Kototoro-app/Kototoro (organización; la ruta vieja redirige)</td><td>api.github.com/repos/Kototoro-app/Kototoro — 30-sep-2026</td></tr>
+  <tr><td>Estrellas / horquillas / casos</td><td>590 / 46 / 40 abiertos</td><td>API oficial GitHub — 30-sep-2026</td></tr>
+  <tr><td>Último empuje de código</td><td>27-sep-2026 (tres días antes del corte)</td><td>API oficial GitHub (pushed_at) — 30-sep-2026</td></tr>
+  <tr><td>Nacimiento de la obra</td><td>28-oct-2025 → once meses de taller</td><td>API oficial GitHub (created_at)</td></tr>
+  <tr><td>Licencia / lenguaje / archivo</td><td>Apache-2.0 · Kotlin · archived=false · rama devel</td><td>API oficial GitHub</td></tr>
+  <tr><td>Versión más reciente</td><td>v2.1.6 publicada el 23-sep-2026 (la pieza original citaba v2.1.5 del 22-sep)</td><td>Catálogo comunitario miyomi.app</td></tr>
+  <tr><td>Espejos de descarga</td><td>ofrecían v0.6.2 (24-mar-2026, 67,13 MB) y v0.8.8 (10-abr-2026, 108,39 MB) — seis versiones atrás</td><td>appteka.store (org.skepsun.kototoro)</td></tr>
+</table>
+<p><b>Alineación WA↔FB:</b> mismos hechos, misma fecha de corte, voz adaptada a cada canal. <b>Cero redundancia:</b> cada carácter nuevo es dato nuevo o validación nueva — nada de parafraseo del cuerpo original. Invariantes finales: WA 02 sin doble asterisco, sin cercas externas a los árboles nativos, sin pipes, sin materia ajena; FB 02 sin símbolos Markdown y sin referencias canónicas.</p>
+</section>
+
+<section id="s6">
+<h2>6 · FB 10 (GLTools) — récord quirúrgico de la auditoría</h2>
+<div class="caja r">
+  <b>Hallazgo rector de la fase de datos (ya corregido):</b> la pieza arrastraba <b>48 tramos malogrados</b> (caracteres han infiltrados, latín desquiciado, tokens de máquina, dobladillos de composición) — invisibles al escáner de caracteres común porque la mayoría eran letras latinas válidas fuera de sentido. Se repararon en tres pasadas con aserción por tramo.
+</div>
+<div class="grid">
+  <div class="k"><small>Tramos reparados</small><span class="n">48</span></div>
+  <div class="k"><small>Medida</small><span class="n">31.249 → 30.063</span><br>Δ −1.186 c</div>
+  <div class="k"><small>Escáner final de anomalías</small><span class="n">0</span><br>(hanzi, û/ê/ç errantes, etc.)</div>
+  <div class="k"><small>Pendiente de la pieza</small><span class="n">−9.937 c</span><br>expansión de banda (régimen nuevo)</div>
+</div>
+<ul class="plat">
+  <li><b>Evidencia completa antes/después:</b> <b>02-diff-FB10-PRE-post-30sep.txt</b> (diff unificado del paquete) entre el respaldo pre-auditoría y el archivo reparado.</li>
+  <li><b>Respaldo pre-auditoría intacto:</b> <b>02-ARCHIVO/_auditoria-30sep/originales/10-GLTools-PRE-AUDITORIA-2026-09-30.md</b> (archivo canónico de reversa).</li>
+  <li><b>Copia de consulta reparada:</b> consultas/07-FB10-REPARADA-30.063c-30sep.md.</li>
+</ul>
+</section>
+
+<section id="s7">
+<h2>7 · Hallazgos heredados y decisiones ABIERTAS para el dueño</h2>
+<table>
+  <tr><th>#</th><th>Hallazgo / asunto</th><th>Estado</th><th>Qué decide el dueño</th></tr>
+  <tr><td>D1</td><td><b>Heredero canónico de la pieza 04.</b> Hay dos variantes de 22-sep: «Extensiones-tres-árboles» (FB 40.997 ✓ / WA 62.076 ✗) y «Almacenes» (FB 30.081 ✗ / WA 62.120 ✗).</td><td class="amb">espera voz</td><td>Propuesta: heredero = Extensiones-tres-árboles; «Almacenes» pasa a la carpeta madre con nota de heredero fechada.</td></tr>
+  <tr><td>D2</td><td><b>Tratamiento de las copas cortas FB</b> (08, 05, 06, 04-alm, 10, 09, 15): déficits de 9.001 a 12.312 c.</td><td class="amb">espera voz</td><td>Ampliación de fondo (nuevas secciones con investigación) — no sirve la nota corta. Orden y profundidad.</td></tr>
+  <tr><td>D3</td><td><b>Madres del 15-sep:</b> 8 archivos siguen en la carpeta de publicaciones pese a la orden de archivo (acta §3) — requiere autorización del dueño para mover.</td><td class="amb">espera voz</td><td>Ratificación de la orden §3 o nueva ubicación.</td></tr>
+  <tr><td>D4</td><td><b>Acta con encabezados heterogéneos</b> (4 formatos distintos en 27 trenes): el conteo mecánico subreporta.</td><td class="amb">en cola taller</td><td>Se resuelve por apéndice-índice datado (append-only); propuesto, listo para ejecutar.</td></tr>
+  <tr><td>D5</td><td>Asuntos previos: REGISTRO-VERIFICACION-14sep a 02-ARCHIVO; palabra sobre la puerta de aceptación del cimiento.</td><td class="amb">espera voz</td><td>Ver acta (trenes previos).</td></tr>
+</table>
+</section>
+
+<section id="s8">
+<h2>8 · Cola de trabajo y método de segunda pasada (protocolo vigente)</h2>
+<h3>Cola ordenada</h3>
+<ol>
+  <li><b>Par 03</b> (WA −432 / FB −429) — siguiente turno, mismo protocolo.</li>
+  <li>Seguimiento WA por pareja: 04*, 05, 06, 07, 08, 09 (+ cierre de 81 si el par pide parada).</li>
+  <li>FB cercanas: 03, 07, 81.</li>
+  <li>FB copas cortas (con decisión D2 del dueño): 08, 05, 06, 04-alm, 10, 09, 15.</li>
+</ol>
+<h3>Método de segunda pasada (6 estaciones, con aserción)</h3>
+<ol>
+  <li><b>MEDIR:</b> len() UTF-8 de ambas contrapartes; délta exacto.</li>
+  <li><b>LEER:</b> revisión de texto (garbles, voz, invariantes, referencias canónicas).</li>
+  <li><b>VERIFICAR HECHOS VIVOS:</b> API oficial de GitHub + búsqueda, con fecha y hora de consulta.</li>
+  <li><b>COMPONER:</b> inserción datada «30-sep-2026» (o fecha del día), dato-nuevo-o-validación-nueva por carácter, voz por canal; módulos: validación de realidades · ingeniería de sistemas · anti-marketing · ingeniería inversa cuando corresponda.</li>
+  <li><b>INSERTAR:</b> antes de firma/tags, aserción de ancla única, sin tocar texto original (reversa = retirar bloque).</li>
+  <li><b>CERRAR:</b> re-medir vs banda, invariantes, planilla y ficha en el acta con números exactos.</li>
+</ol>
+</section>
+
+<section id="s9">
+<h2>9 · Varas de verificación (reproducibles)</h2>
+<pre>python3 -c "print(len(open('RUTA',encoding='utf-8').read()))"        # caracteres reales
+grep -nEi "tratado|canon|directiv|D-0[0-9]|manual|lección" PIEZA.md   # referencias canónicas
+python3 - "&lt;&lt;'PY'"  # escáner de anomalías no-latinas (el usado en la auditoría)
+t=open('PIEZA.md',encoding='utf-8').read()
+sus=sorted({c for c in t if ord(c)>126 and not (0x1F000<=ord(c)<=0x1FAFF)
+            and not (0x2600<=ord(c)<=0x27BF) and c not in set("aéíóúüñÑ¡¿«»—–…≠×…")})
+print(sus)
+PY</pre>
+<p>Integridad del paquete: ver <b>04-MANIFIESTO-SHA256.txt</b> (huellas de cada archivo; verificación con <code>sha256sum -c</code>).<br>
+Regla de la casa reiterada: <b>los canónicos viven fuera del paquete</b> (01-PUBLICACIONES/…; acta en 02-ARCHIVO/…). Este export es copia fiel para descarga y análisis.</p>
+</section>
+
+<hr class="imp">
+<p style="font-size:.85rem;color:#5b6b7a">Documento autocontenido (cero recursos externos; imprimible en A4). Emitido por el taller de La Bandita el 30-sep-2026 · Régimen de examen por palabra del dueño · Publicaciones: congeladas hasta aceptación expresa.</p>
+</main>
+<div class="foot env" style="max-width:100%">
+  <div class="env" style="padding:0">La Bandita · 02-ARCHIVO/_auditoria-30sep/export-ejecucion-30sep/00-REPORTE-EJECUCION-30sep.html · Firma de método: medir → leer → verificar → componer → insertar → cerrar, con aserción y acta.</div>
+</div>
+</body>
+</html>

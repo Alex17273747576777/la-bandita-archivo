@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="RFC v2 — Unified Feed Architecture for AniZen & Houri: MultiFeed Manager, Per-Source Filters & On-Device Segmentation. Self-contained, offline-first proposal document.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0b1020">
+<title>RFC v2.9 · Unified Feed Architecture for AniZen &amp; Houri</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%234f46e5'/%3E%3Cpath d='M8 22V10h3v9h6v3H8zm12 0V10h3v12h-3z' fill='%23fff'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"TechArticle","headline":"RFC v2 — Unified Feed Architecture for AniZen & Houri","datePublished":"2026-10-10","inLanguage":"en","keywords":"Android, manga reader, anime reader, MultiFeed, extensions, on-device AI","about":[{"@type":"SoftwareApplication","name":"AniZen","applicationCategory":"EntertainmentApplication"},{"@type":"SoftwareApplication","name":"Houri","applicationCategory":"EntertainmentApplication"}]}
+</script>
+<style>
+:root{
+  --bg:#ffffff;--bg2:#f6f8fb;--bg3:#eef2f7;--ink:#0f172a;--mut:#5b6b81;--line:#e3e8ef;
+  --acc:#4f46e5;--acc2:#3730a3;--accsoft:#eef0ff;--ok:#0a7d55;--oksoft:#e7f6ef;
+  --warn:#9a5b00;--warnsoft:#fdf3e0;--risk:#b3261e;--risksoft:#fdeceb;
+  --code-bg:#0f1729;--code-ink:#dbe4f5;--code-mut:#7d8cab;--code-key:#8ab4ff;
+  --code-str:#9ed09e;--code-num:#e8b96a;--code-com:#697aa0;--code-kw:#c792ea;
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  --rad:12px;--shadow:0 1px 2px rgba(15,23,42,.05),0 8px 28px -18px rgba(15,23,42,.25);
+}
+html[data-theme="dark"]{
+  --bg:#0b1020;--bg2:#10162b;--bg3:#161d36;--ink:#e7ebf6;--mut:#93a1b8;--line:#242c47;
+  --acc:#8f95ff;--acc2:#b3b7ff;--accsoft:#1a2142;--ok:#3ecf9a;--oksoft:#0e2b22;
+  --warn:#f0b34e;--warnsoft:#2d2210;--risk:#f2807a;--risksoft:#331517;
+  --code-bg:#0d1330;--code-ink:#dbe4f5;--code-mut:#7d8cab;--code-key:#8ab4ff;
+  --code-str:#9ed09e;--code-num:#e8b96a;--code-com:#697aa0;--code-kw:#c792ea;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 32px -18px rgba(0,0,0,.7);
+}
+@media (prefers-color-scheme:dark){
+  html[data-theme="auto"]{
+  --bg:#0b1020;--bg2:#10162b;--bg3:#161d36;--ink:#e7ebf6;--mut:#93a1b8;--line:#242c47;
+  --acc:#8f95ff;--acc2:#b3b7ff;--accsoft:#1a2142;--ok:#3ecf9a;--oksoft:#0e2b22;
+  --warn:#f0b34e;--warnsoft:#2d2210;--risk:#f2807a;--risksoft:#331517;
+  --code-bg:#0d1330;--code-ink:#dbe4f5;--code-mut:#7d8cab;--code-key:#8ab4ff;
+  --code-str:#9ed09e;--code-num:#e8b96a;--code-com:#697aa0;--code-kw:#c792ea;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 32px -18px rgba(0,0,0,.7);}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+::selection{background:var(--accsoft)}
+a{color:var(--acc);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--acc) 35%,transparent)}
+a:hover{border-bottom-color:var(--acc)}
+code,pre,kbd{font-family:var(--mono);font-size:.92em}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px;border-radius:4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:fixed;top:-48px;left:16px;z-index:99;background:var(--acc);color:#fff;padding:8px 14px;border-radius:8px;transition:top .2s}
+.skip:focus{top:12px}
+
+/* ── progress ── */
+#progress{position:fixed;top:0;left:0;right:0;height:3px;z-index:60;background:transparent}
+#progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--acc),var(--acc2))}
+
+/* ── masthead ── */
+.mast{border-bottom:1px solid var(--line);background:var(--bg2);
+  background-image:linear-gradient(180deg,color-mix(in srgb,var(--acc) 7%,var(--bg2)),var(--bg2) 72%)}
+.mast-in{max-width:1240px;margin:0 auto;padding:34px 24px 26px}
+.rfc-badge{display:inline-flex;align-items:center;gap:10px;font:600 12px/1 var(--mono);letter-spacing:.14em;
+  text-transform:uppercase;color:var(--acc);border:1px solid color-mix(in srgb,var(--acc) 45%,transparent);
+  padding:7px 12px;border-radius:999px;background:var(--accsoft)}
+.rfc-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px color-mix(in srgb,var(--ok) 25%,transparent)}
+h1{font-size:clamp(26px,4.2vw,42px);line-height:1.12;letter-spacing:-.02em;margin:18px 0 6px;font-weight:800}
+.subtitle{font-size:clamp(16px,2.2vw,21px);color:var(--mut);margin:0 0 10px;font-weight:500}
+.extends{font-size:14px;color:var(--mut);font-style:italic;margin:0}
+.metagrid{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.meta{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:9px 13px;min-width:150px}
+.meta b{display:block;font:700 10.5px/1.3 var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--mut);margin-bottom:3px}
+.meta span{font-size:13.5px;line-height:1.45;display:block}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.btn{appearance:none;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:600 13px/1 var(--sans);
+  padding:9px 14px;border-radius:9px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;transition:border-color .15s,background .15s}
+.btn:hover{border-color:var(--acc);color:var(--acc)}
+.btn kbd{font:600 10.5px/1 var(--mono);border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:2.5px 5px;color:var(--mut);background:var(--bg2)}
+.btn.icon{padding:9px 11px}
+
+/* ── layout ── */
+.shell{max-width:1240px;margin:0 auto;padding:34px 24px 80px;display:grid;grid-template-columns:262px minmax(0,1fr);gap:44px;align-items:start}
+nav.toc{position:sticky;top:22px;max-height:calc(100vh - 44px);overflow:auto;font-size:13.5px;scrollbar-width:thin}
+nav.toc h2{font:700 11px/1 var(--mono);letter-spacing:.15em;text-transform:uppercase;color:var(--mut);margin:4px 0 12px}
+nav.toc ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--line)}
+nav.toc li a{display:block;padding:6px 14px;border-left:2px solid transparent;margin-left:-1.5px;color:var(--mut);border-bottom:none;line-height:1.4}
+nav.toc li a:hover{color:var(--ink);background:var(--bg2)}
+nav.toc li a[aria-current="true"]{color:var(--acc);border-left-color:var(--acc);font-weight:650;background:linear-gradient(90deg,var(--accsoft),transparent)}
+nav.toc .tocnum{font:600 10.5px/1 var(--mono);color:var(--mut);display:inline-block;width:30px}
+.toc-foot{margin-top:16px;font-size:12px;color:var(--mut);line-height:1.55;border-top:1px solid var(--line);padding-top:12px}
+.toc-foot .netok{color:var(--ok);font-weight:700}
+main{min-width:0}
+section{scroll-margin-top:20px;margin:0 0 52px}
+section.flash{animation:flash 1.6s ease-out}
+@keyframes flash{0%{box-shadow:0 0 0 3px var(--accsoft);background:var(--accsoft);border-radius:14px}100%{background:transparent}}
+
+/* ── section chrome ── */
+.sechead{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:18px}
+.kick{font:700 12px/1 var(--mono);letter-spacing:.13em;color:var(--acc);text-transform:uppercase;white-space:nowrap}
+.sechead h2{font-size:clamp(19px,2.4vw,25px);margin:0;letter-spacing:-.015em;font-weight:750}
+.sechead .tools{margin-left:auto;display:flex;gap:4px;flex-shrink:0}
+.sechead h2{min-width:0;flex:1 1 auto}
+.tbtn{appearance:none;background:none;border:none;color:var(--mut);cursor:pointer;font-size:14px;padding:4px 7px;border-radius:7px;line-height:1}
+.tbtn:hover{color:var(--acc);background:var(--bg2)}
+.sec.closed .sec-body{display:none}
+.sec.closed .tbtn.fold::before{content:"▸"}
+.tbtn.fold::before{content:"▾"}
+h3{font-size:17.5px;margin:26px 0 10px;letter-spacing:-.01em}
+p{margin:0 0 14px}
+ul,ol{margin:0 0 16px;padding-left:24px}
+li{margin:5px 0}
+strong{font-weight:700}
+.lede{font-size:18.5px;line-height:1.6;color:var(--ink)}
+.call{border:1px solid var(--line);border-left:3px solid var(--acc);background:var(--bg2);
+  padding:14px 18px;border-radius:0 var(--rad) var(--rad) 0;margin:18px 0}
+.call.ok{border-left-color:var(--ok)}
+.call.warn{border-left-color:var(--warn)}
+.call .ct{font:700 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--mut);display:block;margin-bottom:7px}
+.thesis{font-size:17px;border-left-width:4px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:16px 0}
+.goal{border:1px solid var(--line);border-radius:var(--rad);padding:14px 16px;background:var(--bg);box-shadow:var(--shadow)}
+.goal b{display:flex;gap:10px;align-items:baseline;margin-bottom:5px}
+.goal .gn{font:800 12px/1 var(--mono);color:var(--acc)}
+.goal p{margin:0;font-size:14.5px;color:var(--mut)}
+
+/* ── tables ── */
+.tw{overflow-x:auto;margin:16px 0;border:1px solid var(--line);border-radius:var(--rad);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--bg)}
+caption{text-align:left;font:700 11px/1 var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--mut);padding:12px 16px;border-bottom:1px solid var(--line)}
+th{font:700 11px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mut);text-align:left;
+  background:var(--bg2);padding:11px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:none}
+tbody tr:hover td{background:var(--bg2)}
+td code{background:var(--bg3);border:1px solid var(--line);border-radius:5px;padding:1.5px 6px;white-space:nowrap}
+tbody th{background:var(--bg2);white-space:normal;font-family:var(--sans);font-size:13.5px;letter-spacing:0;text-transform:none;color:var(--ink)}
+
+/* ── code ── */
+.codewrap{position:relative;margin:16px 0}
+.codewrap .chead{display:flex;align-items:center;background:#0b1128;color:#8b97b8;border:1px solid #1d2646;border-bottom:none;
+  border-radius:var(--rad) var(--rad) 0 0;font:600 11.5px/1 var(--mono);letter-spacing:.1em;padding:9px 14px;text-transform:uppercase}
+.codewrap pre{margin:0;background:var(--code-bg);color:var(--code-ink);border:1px solid #1d2646;border-radius:0 0 var(--rad) var(--rad);
+  padding:16px 18px;overflow-x:auto;font-size:13px;line-height:1.62}
+.codewrap .cbtn{margin-left:auto;background:#141b3a;color:#aab4d4;border:1px solid #26305a;border-radius:7px;
+  font:600 11px/1 var(--mono);padding:5px 10px;cursor:pointer;text-transform:none;letter-spacing:.03em}
+.codewrap .cbtn:hover{border-color:#3a477e;color:#fff}
+.j-c{color:var(--code-com);font-style:italic}.j-s{color:var(--code-str)}.j-n{color:var(--code-num)}
+.j-k{color:var(--code-key);font-weight:600}.j-b{color:var(--code-kw)}
+
+/* ── badges & chips ── */
+.bdg{display:inline-block;font:700 10.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;
+  padding:4px 8px;border-radius:6px;white-space:nowrap}
+.bdg.ok{color:var(--ok);background:var(--oksoft)}
+.bdg.warn{color:var(--warn);background:var(--warnsoft)}
+.bdg.risk{color:var(--risk);background:var(--risksoft)}
+.bdg.mut{color:var(--mut);background:var(--bg3)}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--bg);
+  border-radius:999px;padding:6px 13px;font-size:13px;font-weight:600;margin:4px 6px 4px 0}
+.chip .st{font:700 9.5px/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;padding:3px 6px;border-radius:5px}
+.chip.native{border-color:color-mix(in srgb,var(--ok) 45%,var(--line))}
+.chip.native .st{color:var(--ok);background:var(--oksoft)}
+.chip.local{border-style:dashed;border-color:color-mix(in srgb,var(--warn) 60%,var(--line))}
+.chip.local .st{color:var(--warn);background:var(--warnsoft)}
+.chip.cond{border-style:dotted;opacity:.82}
+.chip.cond .st{color:var(--mut);background:var(--bg3)}
+.chip.off{display:none}
+
+/* ── live exhibits ── */
+.demo{border:1px solid color-mix(in srgb,var(--acc) 32%,var(--line));border-radius:14px;margin:22px 0;
+  background:var(--bg2);box-shadow:var(--shadow);overflow:hidden}
+.demo-head{display:flex;align-items:center;gap:10px;padding:11px 16px;background:var(--accsoft);
+  border-bottom:1px solid color-mix(in srgb,var(--acc) 25%,var(--line))}
+.demo-head .pulse{width:8px;height:8px;border-radius:50%;background:var(--acc);animation:pulse 2.2s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--acc) 45%,transparent)}55%{box-shadow:0 0 0 7px transparent}}
+.demo-head b{font:700 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--acc2)}
+.demo-head span{font-size:12px;color:var(--mut);margin-left:auto;text-align:right}
+.demo-body{padding:18px}
+.demo-cap{font-size:12.5px;color:var(--mut);margin:12px 0 0;font-style:italic}
+.demo-controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:var(--bg)}
+.seg button{appearance:none;border:none;background:none;padding:8px 13px;font:600 12.5px/1 var(--sans);color:var(--mut);cursor:pointer;border-right:1px solid var(--line)}
+.seg button:last-child{border-right:none}
+.seg button[aria-pressed="true"]{background:var(--acc);color:#fff}
+.tog{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;color:var(--mut);cursor:pointer;user-select:none}
+.tog input{accent-color:var(--acc);width:15px;height:15px}
+.demo-out{border:1px solid var(--line);border-radius:10px;background:var(--bg);padding:13px 15px;min-height:44px}
+.mlist{list-style:none;margin:0;padding:0;font-size:13.5px}
+.mlist li{display:flex;gap:9px;align-items:baseline;padding:5px 0;border-bottom:1px dashed var(--line);margin:0}
+.mlist li:last-child{border-bottom:none}
+.mlist .tm{font:600 11px/1 var(--mono);color:var(--mut);min-width:38px}
+.mlist .src{font:700 10px/1 var(--mono);letter-spacing:.06em;padding:3px 6px;border-radius:5px;color:#fff}
+.src.A{background:#4f46e5}.src.B{background:#0a7d55}.src.C{background:#b45309}
+.mlist .dup{color:var(--mut);font-size:11px;font-style:italic}
+.feedcol{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.feedcol h4{margin:0 0 8px;font:700 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mut)}
+.feedcol .cnt{color:var(--acc);font-weight:800}
+.rulechip{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:7px 13px;
+  font:600 12.5px/1 var(--mono);cursor:pointer;color:var(--ink);transition:all .12s}
+.rulechip:hover{border-color:var(--acc)}
+.rulechip[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:#fff}
+.hitlist{list-style:none;margin:0;padding:0;font-size:13px}
+.hitlist li{padding:5px 8px;border-bottom:1px dashed var(--line);margin:0}
+.hitlist li:last-child{border-bottom:none}
+.hitlist .no{color:var(--mut)}
+.hitlist mark{background:color-mix(in srgb,var(--acc) 26%,transparent);color:inherit;border-radius:3px;padding:0 1px}
+.hitlist.infeed li::before{content:"→ ";color:var(--ok);font-weight:700}
+
+/* ── phases ── */
+.phase{border:1px solid var(--line);border-radius:var(--rad);padding:16px 18px;background:var(--bg);box-shadow:var(--shadow);margin:12px 0}
+.phase h3{margin:0 0 10px;display:flex;align-items:center;gap:10px;font-size:16px}
+.phase .pn{font:800 11px/1 var(--mono);color:#fff;background:var(--acc);border-radius:6px;padding:5px 8px;letter-spacing:.08em}
+.phase ul{margin:8px 0 0}
+.phase li{list-style:none;padding-left:24px;position:relative;margin:6px 0;font-size:14px}
+.phase li::before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:800}
+
+/* ── search ── */
+#searchov{position:fixed;inset:0;background:color-mix(in srgb,var(--ink) 38%,transparent);z-index:80;display:none;backdrop-filter:blur(2px)}
+#searchov.open{display:block}
+.searchpanel{max-width:640px;margin:9vh auto 0;background:var(--bg);border:1px solid var(--line);border-radius:16px;
+  box-shadow:0 24px 70px -20px rgba(0,0,0,.5);overflow:hidden}
+.searchpanel header{display:flex;align-items:center;gap:10px;padding:13px 16px;border-bottom:1px solid var(--line)}
+.searchpanel input{flex:1;border:none;background:none;color:var(--ink);font:500 16px/1.4 var(--sans);outline:none}
+.searchpanel .esc{font:600 10.5px/1 var(--mono);border:1px solid var(--line);border-radius:5px;padding:4px 7px;color:var(--mut)}
+#sres{max-height:52vh;overflow:auto}
+#sres .si{display:block;width:100%;text-align:left;background:none;border:none;border-bottom:1px solid var(--line);
+  padding:11px 16px;cursor:pointer;color:var(--ink)}
+#sres .si:hover,#sres .si:focus{background:var(--bg2)}
+#sres .si b{display:block;font-size:13.5px;color:var(--acc);margin-bottom:2px}
+#sres .si span{font-size:12.5px;color:var(--mut);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#sres .none{padding:18px 16px;color:var(--mut);font-size:13.5px;font-style:italic}
+.searchpanel footer{padding:9px 16px;font-size:11.5px;color:var(--mut);border-top:1px solid var(--line);background:var(--bg2)}
+
+/* ── svg diagram ── */
+.diag{border:1px solid var(--line);border-radius:var(--rad);background:var(--bg);box-shadow:var(--shadow);margin:18px 0;padding:10px}
+.diag svg{width:100%;height:auto;display:block}
+.diag .node{cursor:pointer}
+.diag .node rect{fill:var(--bg2);stroke:var(--line);stroke-width:1.2;transition:stroke .15s,fill .15s}
+.diag .node:hover rect,.diag .node.focus rect{stroke:var(--acc);fill:var(--accsoft)}
+.diag .node text{fill:var(--ink);font:600 12px var(--sans)}
+.diag .node .sub{fill:var(--mut);font:500 10px var(--mono)}
+.diag .edge{stroke:var(--mut);stroke-width:1.4;fill:none;marker-end:url(#arr)}
+.diag .node.side rect{stroke-dasharray:4 3}
+
+/* ── footer / toast / totop ── */
+.colophon-notes{font-size:13.5px;color:var(--mut)}
+footer.foot{border-top:1px solid var(--line);background:var(--bg2)}
+.foot-in{max-width:1240px;margin:0 auto;padding:26px 24px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;font-size:13px;color:var(--mut)}
+.foot .seal{font-family:var(--mono);font-size:12px}
+.foot a{margin-right:14px}
+#toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);
+  padding:10px 18px;border-radius:10px;font-size:13px;font-weight:600;opacity:0;pointer-events:none;transition:all .25s;z-index:90;box-shadow:var(--shadow)}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+#totop{position:fixed;right:22px;bottom:22px;width:42px;height:42px;border-radius:12px;border:1px solid var(--line);
+  background:var(--bg);color:var(--mut);font-size:17px;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s;z-index:70;box-shadow:var(--shadow)}
+#totop.show{opacity:1;pointer-events:auto}
+#totop:hover{color:var(--acc);border-color:var(--acc)}
+
+mark[data-hit]{background:color-mix(in srgb,var(--warn) 38%,transparent);color:inherit;border-radius:3px;padding:0 1px}
+.lang-es-tag{display:inline-block;font:700 10px/1 var(--mono);letter-spacing:.1em;color:var(--mut);
+  border:1px solid var(--line);border-radius:5px;padding:3px 7px;text-transform:uppercase;margin-left:8px;vertical-align:middle}
+
+@media (max-width:960px){
+  .shell{grid-template-columns:1fr;gap:10px;padding-top:20px}
+  nav.toc{position:static;max-height:none;border:1px solid var(--line);border-radius:var(--rad);padding:14px 16px;background:var(--bg2)}
+  nav.toc ol{columns:2;column-gap:22px;border:none}
+  nav.toc li{break-inside:avoid}
+  nav.toc li a{border-left:none;padding:5px 4px;border-radius:6px}
+  nav.toc li a[aria-current="true"]{background:var(--accsoft)}
+  .feedcol{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+@media print{
+  #progress,nav.toc,.toolbar,.tbtn,#totop,#searchov,.demo-head .pulse{display:none!important}
+  body{font:11pt/1.5 Georgia,"Times New Roman",serif;color:#000;background:#fff}
+  .shell{display:block;max-width:none;padding:0}
+  section{break-inside:auto;margin:0 0 26px}
+  .tw,.goal,.phase,.demo,.codewrap,.call{box-shadow:none;break-inside:avoid}
+  a{color:#000;border:none}
+  .mast{background:#fff}
+  section.sec{page-break-inside:auto}
+  .demo{border:1px solid #bbb}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<div id="progress" role="progressbar" aria-label="Reading progress"><i></i></div>
+
+<header class="mast">
+  <div class="mast-in">
+    <span class="rfc-badge"><span class="dot" aria-hidden="true"></span>RFC · Proposal · v2.9 Draft for review</span>
+    <h1>Unified Feed Architecture for AniZen&nbsp;&amp;&nbsp;Houri</h1>
+    <p class="subtitle">MultiFeed Manager, Per-Source Filters &amp; On-Device Segmentation</p>
+    <p class="extends">extends “RFC: In-App Private Extension Sandbox &amp; Self-Contained Backups” (v1.0, September 2026) — §2 · §3 · §4 · §5</p>
+    <div class="metagrid">
+      <div class="meta"><b>Prepared</b><span>October 10, 2026 · landscape verified same day</span></div>
+      <div class="meta"><b>Targets</b><span><a href="https://github.com/salmanbappi/AniZen">salmanbappi/AniZen</a> · v0.5.215 (Sep&nbsp;30)<br><a href="https://github.com/PineappleTwilight/houri">PineappleTwilight/houri</a> · v1.23.16 (released today)</span></div>
+      <div class="meta"><b>Status</b><span>Proposal — Draft for review · status ladder defined in §0 (an earlier «Production Candidate» label over-claimed and was demoted)</span></div>
+      <div class="meta"><b>Evidence base</b><span>Miyomi · EverythingMoe · releases feeds — all consulted 2026-10-10</span></div>
+    </div>
+    <div class="toolbar">
+      <button class="btn" id="bsearch" type="button" aria-label="Search this document">⌕ Search <kbd>/</kbd></button>
+      <button class="btn icon" id="btheme" type="button" aria-label="Cycle color theme" title="Theme: auto / light / dark">◐ <span id="thlab">auto</span></button>
+      <button class="btn icon" id="bprint" type="button" aria-label="Print or save as PDF" title="Print / PDF">⎙</button>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+<nav class="toc" id="toc" aria-label="Table of contents">
+  <h2>Contents</h2>
+  <ol id="toclist"></ol>
+  <p class="toc-foot">Self-contained artifact — zero network requests: <span class="netok" id="netbadge">0 ✓</span><br>Keyboard: <code>/</code> search · <code>t</code> theme · <code>Esc</code> close</p>
+</nav>
+
+<main id="content">
+
+<!-- ══════════════ ABSTRACT ══════════════ -->
+<section class="sec" id="abstract" data-nav="Abstract" data-num="§0">
+  <div class="sechead"><span class="kick">§0 · Abstract</span><h2>The Feed becomes an object</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <p class="lede">This proposal turns the newly shipped multiFeed of <strong>AniZen</strong> and <strong>Houri</strong> into what it was
+    originally requested to be: <strong>multiple feeds</strong> — a global feed by default, segmentable by hand or by on-device AI,
+    each feed carrying up to 20 sources bound the worst-case refresh <strong>by construction</strong> (per-source page budget × ≤20);
+budgets are device-tier config and are measured in QA fixtures — the spec makes no wall-clock promises.</p>
+    <div class="call">
+      <span class="ct">§0 · Status of this document — the ladder and its criteria</span>
+      A status label without a criterion is a claim, not a status. An earlier version of this document
+      said «Production Candidate» about a proposal with no merged code — over-claimed, demoted here
+      (P1 applies to this document too). <strong>Draft for review</strong> ← this document (declared by
+      the author) → <strong>Reviewed</strong> (each maintainer states the spec is implementable, or lists
+      what blocks it) → <strong>Accepted, per repo</strong> (a maintainer commits — milestone or issue
+      state) → <strong>Production Candidate, per repo</strong> (a merged implementation behind a feature
+      flag passes <em>every</em> §8 acceptance criterion in that repo&#8217;s CI: golden-file rules parity,
+      airplane-mode, feeds.json round-trip, ≤20-source budget fixtures — declared by the repo&#8217;s
+      maintainer, never by the proposal author) → <strong>Shipped</strong> (enabled by default in a
+      stable release).
+    </div>
+    <div class="grid2">
+      <div class="goal"><b><span class="gn">I</span> Feed = portable object</b><p>Not a screen: a versioned <code>feeds.json</code> (<code>feed.v2.3</code>) that lives on the Universal Source Manager, travels inside <code>.anizenbk</code>&nbsp;/&nbsp;<code>.hourbk</code> backups, survives device moves and repo shutdowns.</p></div>
+      <div class="goal"><b><span class="gn">II</span> Filters = declared capability</b><p>Each adapter declares a <strong>FilterProfile</strong>; the UI renders exactly what the selected source can do — native chips, honest «local filter» fallbacks, never a fake.</p></div>
+      <div class="goal"><b><span class="gn">III</span> Segmentation = rules first, AI second</b><p>Deterministic rules (plain data, portable, testable) cover the 90% case; AI is opt-in, on-device, per-entry correctable — the airplane-mode test decides.</p></div>
+    </div>
+    <div class="call">
+      <span class="ct">Reading map — three live exhibits</span>
+      <strong><a href="#s4">§4</a></strong> runs the per-source chip re-binding that fixes the reported gap;
+      <strong><a href="#s5">§5</a></strong> simulates the three merge policies with a real duplicate;
+      <strong><a href="#s6">§6</a></strong> executes the manual rule engine on sample entries. All three are deterministic,
+      zero-network, and live inside this single file.
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="rev" data-nav="Revision history" data-num="▲">
+  <div class="sechead"><span class="kick">▲ · v2.9</span><h2>Revision history — rounds, demolition, fuzz, integral audit, decision record, executable §8, conformance kit</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button></span>
+  </div>
+  <div class="sec-body">
+    <p>The first maintainer review called the direction solid, asked five structural questions, and
+    correctly flagged the runtime cost of classification. Each point is now a committed mechanism:</p>
+    <div class="tw"><table>
+      <caption>Table 0 — review point → committed answer</caption>
+      <thead><tr><th scope="col">Review point</th><th scope="col">Answer, as a mechanism</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">«Popular» / «trending» are not universal — a per-source fallback order is needed, not empty or silent filters</th><td><strong><a href="#s4">§4.1 Fallback ladder</a></strong> — native → declared alias → labeled local → hidden; declared in the source's FilterProfile, so adding a source is self-describing.</td></tr>
+        <tr><th scope="row">Classify once per job and cache the label — never per render/scroll</th><td><strong><a href="#s6">§6.3 Label cache</a></strong> — classification is a job; render reads cache only; airplane-grade zero work on screen.</td></tr>
+        <tr><th scope="row">Manual override must be permanent and visible — AI as suggestion layer, not replacement</th><td><strong><a href="#s6">§6.3 Pins</a></strong> — one-tap, survive re-classification and restore, visibly marked, stored in feeds.json.</td></tr>
+        <tr><th scope="row">Global-feed duplicates: collapse by canonical identity, or keep and let filters separate?</th><td><strong><a href="#s5">§5.1 work_key + per-feed policy</a></strong> — canonical (badge «también en…») or keep-duplicates; declared data, per feed.</td></tr>
+        <tr><th scope="row">Stable feed identity when a source is removed or down — a dead source must not stop or reshuffle the feed</th><td><strong><a href="#s5">§5.2 Degradation</a></strong> — immutable feed id, partial-success merge, stale-with-label, frozen order.</td></tr>
+        <tr><th scope="row">Ship per-source filters first, independently; segmentation as prototype, never a blocker</th><td><strong><a href="#s8">§8 Roadmap</a></strong> — Phase 1 ships alone; Phase 3 re-titled non-blocking prototype.</td></tr>
+      </tbody>
+    </table></div>
+    <p style="margin-top:14px">The second round went deeper — six adjustments and one scope question, each answered as a mechanism:</p>
+    <div class="tw"><table>
+      <caption>Table 0b — second review round → committed answer</caption>
+      <thead><tr><th scope="col">Adjustment</th><th scope="col">Committed mechanism</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">«Hidden» as terminal rung hides a contributing-nothing source; aliases must be declared, not inferred</th><td><strong><a href="#s4">§4.1</a></strong> — chronological floor (labeled); hidden = visible per-source health state; alias map declared &amp; versioned in the FilterProfile.</td></tr>
+        <tr><th scope="row">Hysteresis on re-classification; labels table needs retention</th><td><strong><a href="#s6">§6.3</a></strong> — overwrite only ≥0.90 confidence or +0.15 margin; GC at 90 days unseen, in the batch job, never cold-start.</td></tr>
+        <tr><th scope="row">Pins must be keyed by work_key; decide granularity</th><td><strong><a href="#s6">§6.3</a></strong> — pins keyed by work_key hash; pin_segment (default) / pin_position (opt-in).</td></tr>
+        <tr><th scope="row">Canonical tiebreak undefined → non-deterministic collapse; badge must reflect reading source</th><td><strong><a href="#s5">§5.1</a></strong> — deterministic tiebreak (primary source → richer metadata → freshest → stable lexical); badge «leyendo desde B · canónica en A» + one-tap switch.</td></tr>
+        <tr><th scope="row">Degradation UI unspecified; refresh should retry only failed sources</th><td><strong><a href="#s5">§5.2</a></strong> — feed banner + per-item markers; retry-failed-only, merge incremental, documented as the rule.</td></tr>
+        <tr><th scope="row">Persistence coupling: derived labels vs durable intent</th><td><strong><a href="#s6">§6.4</a></strong> — two stores, one write path each, never a shared transaction.</td></tr>
+        <tr><th scope="row">What is actually in Phase 1 vs Phase 3?</th><td><strong><a href="#s8">§8.1</a></strong> — scope table; Phase 1 carries the whole infrastructure with rules as label producer; Phase 3 only plugs the model in.</td></tr>
+      </tbody>
+    </table></div>
+    <p style="margin-top:14px">The third round asked the question that decides everything — did the v2.1 mechanisms survive? — plus seven tightening points. The traceability table (§2.1) answers the question; these rows answer the points:</p>
+    <div class="tw"><table>
+      <caption>Table 0c — third review round → committed answer</caption>
+      <thead><tr><th scope="col">Adjustment</th><th scope="col">Committed mechanism</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Precedence must be total, not emergent (two rules match one entry; none match)</th><td><strong><a href="#s6">§6.1</a></strong> — declared per-rule priority, first-match-wins over a total order, visible «Sin asignar» pool; golden-file determinism tests.</td></tr>
+        <tr><th scope="row">Rules need their own version field, separate from the feed schema</th><td><strong><a href="#s6">§6.1</a></strong> — <code>rules_packs</code>: independently addressed and migratable; feeds hold a reference, rule tweaks never burn the feed schema's migration budget.</td></tr>
+        <tr><th scope="row">Airplane test alone is not enough — add a cold-start test</th><td><strong><a href="#s6">§6.3, §8</a></strong> — fresh install + empty label cache must segment identically to a warm device; golden files run both paths in CI.</td></tr>
+        <tr><th scope="row">Portable object: reference vs embed; credentials; forward-compat path</th><td><strong><a href="#s7">§7</a></strong> — stable source ids; credentials/cookies/tokens never (sanitizer on export); same major = unknown fields preserved verbatim, different major = loud failure. Never mangle-and-resave.</td></tr>
+        <tr><th scope="row">Source-id stability must degrade to a visible missing-source state</th><td><strong><a href="#s5">§5.2</a></strong> — «fuente faltante» placeholder on restore/import; a feed never silently loses a source.</td></tr>
+        <tr><th scope="row">Local fallbacks: window size and fetch order define the result; do not cache it</th><td><strong><a href="#s4">§4.1</a></strong> — window and order declared by the adapter; local results recomputed every refresh, never cached.</td></tr>
+        <tr><th scope="row">≤20 is a latency budget — declare the rationale</th><td><strong><a href="#s2">§2.2</a></strong> — one page per source per refresh bounds merge cost and memory; UI limit is the consequence, not the cause.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="call">
+      <span class="ct">v2.4 — internal red-team demolition (same day)</span>
+      Before shipping the answers, the proposal was stress-tested against itself — spec and demo
+      code. Committed fixes: <strong>cold-start equality scoped to the rules layer</strong> (the AI layer is
+      explicitly async, with a visible «segmentación actualizada» notice — never silent reshuffle);
+      <strong>collision-conservative work_key</strong> (same title ≠ same work; ambiguity shows «posible
+      duplicado», never auto-merges); <strong>one visible «Sin asignar» pool with two producers</strong>;
+      <strong>content-addressed rules_packs</strong> (sha256 verified on restore); the <strong>source-neutrality
+      invariant</strong> (Goal 09 — no sources bundled, ever); precisely worded privacy (nothing user-derived
+      leaves; model binaries ride the app update channel); honest latency wording (budgets + QA fixtures,
+      no wall-clock promises); <code>mode:"ai"</code> exemplified with the hysteresis constants living in the
+      profile; closed badge inventory. Demo stress battery: 13/13 effective — and 2 test-authoring bugs of
+      the auditor himself, 0 demo code failures. Then the fuzz round went further: 3.001 checks against the demo algorithms and a model of the spec semantics found <strong>three real defects</strong> — recency ties were fetch-order sensitive (287 permutations), hysteresis allowed A→B→A flip-flops above 0.90, and Turkish İ broke key equality after NFKD. All three fixed by declared rules (tiebreak by source id; margin always on label change, threshold only rescues &lt; 0.60; strip combining marks) and the corrected model re-fuzzed clean: <strong>5.704 checks, 0 violations</strong> — the demo code in this file matches the spec.
+    </div>
+    <div class="call">
+      <span class="ct">v2.6 — integral artifact audit (same day)</span>
+      Before re-submitting, the artifact itself went under demolition — markup, code, and testing
+      ideology. Static battery (doctype, outline, CSS/JS hygiene, accessibility, encoding, version
+      strings) plus a 360px-viewport probe: two real defects — the <code>&lt;title&gt;</code> had stayed
+      at «RFC v2» since v2.0 through five rounds of textual surgery, and the flex section header
+      pushed its tool buttons 2px past narrow viewports (header now shrinks properly); both fixed here. Hyperextreme battery against the live code
+      and a model of the spec: <strong>233.570 checks, 0 violations</strong> — 35.000 adversarial
+      strings through <code>dedupKey</code> (idempotence, ASCII output, canonical form), 400 rounds ×
+      6 permutations of the canonical merge order against an independent model, 600 × 300
+      boundary-clustered hysteresis operations (pins, GC, cold-start), 200 pack/restore scenarios
+      (drift, fake seals, cross-major). Differential oracle: <strong>4.010 hostile strings through
+      both V8 and CPython — 0 divergences, identical collision profiles.</strong> The auditor's own
+      harness broke 5 times (layer fusion, model order, expectations, scenario); the artifact's code:
+      0 failures.
+    </div>
+    <div class="call">
+      <span class="ct">v2.7 — round 5: content, not design (same day)</span>
+      Three answers. <strong>(1)</strong> §§4–6 now live in the published body <em>unabridged</em> — the
+      body is the canonical document; nothing is condensed away. <strong>(2)</strong> A <strong>Decision
+      Record</strong> documents every alternative that lost and why (Table 0C), so consolidating the
+      discussion does not erase the debate — including the merge-identity case: per-entry
+      <code>work_key</code> with a declared per-feed policy beat source-scoped keys, feed-scoped silent
+      auto-merge, and AI fuzzy matching (DR-1). <strong>(3)</strong> The <strong>status ladder</strong>
+      is defined in §0 with precise criteria — and the earlier «Production Candidate» label was
+      demoted: it over-claimed on an unimplemented proposal. The six reviewer points are answered in
+      Table 0D — all resolved, none deferred.
+    </div>
+    <div class="call">
+      <span class="ct">v2.8 — §8 made executable + kernel battery (round 6 adopted)</span>
+      The maintainer's deferred observation became structure: every §8 acceptance criterion now
+      names its <strong>proof artifact</strong>, where it runs, and what failure means — and
+      golden-file cold-start parity is flagged as the rung §0 stands on. New kernel-level battery
+      on the live code: <strong>296.230 checks, 0 violations</strong> — restore under adversarial
+      mutation (20k), precedence with declaration-order invariance (50k), 50k-key cache with GC
+      (100k ops), refresh storms with failing sources (10k cycles). The auditor's harness broke
+      twice before counting: 4 tautological checks removed, 1 over-strong oracle corrected
+      (39 false violations); the artifact's code: 0.
+    </div>
+    <div class="call">
+      <span class="ct">v2.9 — Conformance Kit v1 shipped (2026-10-11)</span>
+      The maintainer accepted; the level still had headroom. The §8 spec-side proof artifacts
+      are now runnable and in-repo: fixed seeds, zero dependencies, single runner —
+      <code>kit-conformidad-v1/run-all.js</code> — with <code>CONFORMIDAD.md</code> mapping every
+      AC to its check. Fresh full run against the live file: <strong>529.800 checks,
+      0 violations</strong> (spec-model 233.570 · kernel 296.230).
+    </div>
+    <div class="tw"><table>
+      <caption>Table 0C — decision record: the alternatives that lost</caption>
+      <thead><tr><th scope="col">ID</th><th scope="col">Decision</th><th scope="col">Alternatives considered</th><th scope="col">Why they lost</th><th scope="col">Lives in</th></tr></thead>
+      <tbody>
+       <tr><td>DR-1</td><td>Merge identity is per-entry (<code>work_key</code>); collapse-vs-keep is a declared per-feed policy</td><td>source-scoped keys; feed-scoped silent auto-merge; AI fuzzy matching</td><td>(a) hides the cross-source duplicates the feature exists to surface; (b) truth would vary per view, loss silent; (c) non-deterministic, not portable</td><td>§5.1</td></tr>
+       <tr><td>DR-2</td><td><code>work_key</code> collision-conservative — «posible duplicado», never auto-merges</td><td>aggressive slug/similarity matching</td><td>a false merge is unrecoverable trust damage; a badge costs one line</td><td>§5.1</td></tr>
+       <tr><td>DR-3</td><td>NFKD → strip <code>\p{M}</code> → casefold → ASCII-fold</td><td>NFC-only; plain lower+ASCII (v2.2)</td><td>Turkish İ survives both — fuzzing broke equality (F3); idempotence verified on 35k strings</td><td>§5.1</td></tr>
+       <tr><td>DR-4</td><td>Recency tiebreak: time desc → source id → in-source order</td><td>fetch/arrival order (v2.0)</td><td>287 permutation violations — output depended on answer order</td><td>§5</td></tr>
+       <tr><td>DR-5</td><td>Total precedence + one visible «Sin asignar» pool</td><td>per-feed rule subsets; first-declared-wins; AI resolves conflicts</td><td>fragmentation (C3); reorder-fragile; non-deterministic</td><td>§6.1</td></tr>
+       <tr><td>DR-6</td><td>Own content-addressed rules pack (<code>rules_version</code> + sha256)</td><td>version inside feed schema; no versioning</td><td>rule tweak would force schema migration (B1); restore could not detect drift</td><td>§6.1</td></tr>
+       <tr><td>DR-7</td><td>sha256 guards drift — not malice</td><td>claim tamper-resistance</td><td>holder can recompute the hash; honest scope: device trust + sandbox</td><td>§6.1</td></tr>
+       <tr><td>DR-8</td><td>Cold-start parity scoped to the rules layer; AI async by design</td><td>full parity incl. AI; ship label cache in backups</td><td>would block first paint; transports derived data — reshuffles + privacy surface</td><td>§6.3</td></tr>
+       <tr><td>DR-9</td><td>Margin always on label change; 0.90 rescues only &lt; 0.60 band</td><td>threshold-only (v2.2); freeze on upgrade</td><td>flip-flopped A→B→A above 0.90 (F2); freezing never learns</td><td>§6.3</td></tr>
+       <tr><td>DR-10</td><td>Pins keyed by work_key hash, above the classifier</td><td>row id; raw title; pins until re-train</td><td>dies on refresh; breaks under normalization (İ); silent (P3)</td><td>§6.3</td></tr>
+       <tr><td>DR-11</td><td>Labels GC 90d, batch job, never cold start</td><td>GC on cold start; TTL on write; never GC</td><td>stalls first open (C1); touches intention invisibly; unbounded</td><td>§6.3/§6.4</td></tr>
+       <tr><td>DR-12</td><td>Frozen order, stale-with-label, retry-failed-only, visible «fuente faltante»</td><td>reshuffle on failure; silent drop; retry-all</td><td>a dead source must not reshuffle or erase — silent loss kills trust (P1)</td><td>§5.2</td></tr>
+      </tbody>
+    </table></div>
+    <div class="tw"><table>
+      <caption>Table 0D — reviewer checklist (round 5): asked and answered</caption>
+      <thead><tr><th scope="col">#</th><th scope="col">Point</th><th scope="col">State</th><th scope="col">Where / what guarantees it</th></tr></thead>
+      <tbody>
+       <tr><td>1</td><td>Total precedence</td><td><strong>Resolved</strong></td><td>§6.1 — order <code>(priority, declaration order)</code>, first match wins; visible pool; golden files pin assignment.</td></tr>
+       <tr><td>2</td><td>Independent rules versioning</td><td><strong>Resolved</strong></td><td>§6.1 — packs carry own <code>rules_version</code> + sha256, verified on restore; migrate independently of the feed schema.</td></tr>
+       <tr><td>3</td><td>Cold-start parity</td><td><strong>Resolved, scoped</strong></td><td>§6.3 — rules layer guaranteed (golden files, warm vs cold, CI); AI layer async <em>by declared design</em> (DR-8) — a scope decision, not a deferral.</td></tr>
+       <tr><td>4</td><td>Hysteresis on re-classification</td><td><strong>Resolved</strong></td><td>§6.3 — label change always requires ≥ +0.15; 0.90 alone rescues only &lt; 0.60; fuzz-proven (F2).</td></tr>
+       <tr><td>5</td><td>Eviction</td><td><strong>Resolved</strong></td><td>§6.3/§6.4 — labels GC 90d in the classify batch job, never cold start; GC never touches the rules store.</td></tr>
+       <tr><td>6</td><td>Pin keying by work_key</td><td><strong>Resolved</strong></td><td>§6.3 — pins keyed by work_key hash, above the classifier, survive re-classification, upgrades, restore.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ══════════════ RESUMEN ES ══════════════ -->
+<section class="sec" id="resumen" lang="es" data-nav="Resumen ejecutivo (ES)" data-num="ES">
+  <div class="sechead"><span class="kick">Resumen ejecutivo</span><h2>Para los equipos, en español <span class="lang-es-tag">ES</span></h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copiar enlace">§</button><button class="tbtn fold" type="button" title="Plegar sección" aria-label="Plegar sección"></button></span>
+  </div>
+  <div class="sec-body">
+    <p>Este documento eleva a nivel de arquitectura dos observaciones enviadas por el dueño de esta
+    propuesta al equipo de AniZen y Houri tras la reciente implementación del nuevo tipo de Feed:</p>
+    <ol>
+      <li><strong>El MultiFeed actual muestra una sola fuente y no expone filtros.</strong> Al seleccionar una fuente
+      concreta dentro del multifeed debería poder alternarse entre <em>sus</em> filtros específicos
+      («recientes», «actualizados») y los convencionales («nuevas obras», «populares», «en tendencia»).</li>
+      <li><strong>La petición original era un multifeed de verdad: múltiples feeds.</strong> El feed global por defecto,
+      más la capacidad de segmentarlo en categorías — a mano o mediante IA que clasifique automáticamente las
+      entradas existentes. Ejemplo real del ecosistema: fuentes de películas y fuentes de anime conviven hoy en
+      las mismas apps (Zangetsu, AniDash, Mangayomi); cada feed, igual que el global, debería admitir hasta
+      <strong>20 fuentes o extensiones</strong>.</li>
+    </ol>
+    <p><strong>En la v2.1</strong>, tras la primera revisión del mantenedor, se añaden compromisos
+    explícitos: la fila de filtros se <strong>genera de lo que cada fuente realmente admite</strong> con
+    una escalera de retroceso declarada por fuente (<a href="#s4">§4.1</a>); la clasificación IA se
+    ejecuta <strong>una vez por trabajo y se cachea la etiqueta</strong> — jamás en el camino del render
+    (<a href="#s6">§6.3</a>); la anulación manual es <strong>permanente y visible</strong>; la identidad
+    del trabajo es <strong>canónica y declarada</strong> por feed (<a href="#s5">§5.1</a>); y una fuente
+    caída o eliminada <strong>no detiene ni reordena el feed</strong> (<a href="#s5">§5.2</a>). La v2.2 absorbe
+    la segunda ronda: suelo cronológico y aliases declarados en la escalera (<a href="#s4">§4.1</a>),
+    histéresis y GC de etiquetas (<a href="#s6">§6.3</a>), pines por work_key con granularidad, desempate
+    canónico determinista con badge de lectura (<a href="#s5">§5.1</a>), superficie de degradación y
+    refresh incremental (<a href="#s5">§5.2</a>), y dos almacenes con un camino de escritura cada uno
+    (<a href="#s6">§6.4</a>). La v2.3 responde la pregunta que decide el progreso: los cinco mecanismos
+    de v2.1 <strong>sobreviven</strong> y ahora cuelgan de tres principios estructurales con tabla de
+    trazabilidad (<a href="#s2">§2.1</a>), más siete endurecimientos: precedencia total con pozo «Sin
+    asignar» y <code>rules_packs</code> versionados (§6.1), prueba de arranque en frío (§6.3), higiene
+    del objeto portable sin credenciales jamás (§7), fuente faltante visible (§5.2), fallback local
+    recomputado jamás cacheado (§4.1) y el ≤20 como presupuesto de latencia declarado (§2.2).</p>
+    <div class="call thesis">
+      <span class="ct">Tesis de esta v2</span>
+      El Feed no es una pantalla — es un <strong>objeto portátil</strong> de primera clase, que vive sobre el
+      Universal Source Manager del RFC v1, viaja dentro de los backups autocontenidos (.anizenbk / .hourbk),
+      y expone los filtros nativos de cada fuente mediante una interfaz normalizada. La evidencia del ecosistema
+      (<a href="#s1">§1</a>) muestra que la segmentación por categorías es la regla del mercado; el feed único
+      global es la excepción.
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §1 ══════════════ -->
+<section class="sec" id="s1" data-nav="§1 Context & motivation" data-num="§1">
+  <div class="sechead"><span class="kick">§1 · Context</span><h2>Motivation — the landscape speaks <span class="lang-es-tag">verified 2026-10-10</span></h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <p><strong>The catalog layer already segments; the app layer does not.</strong></p>
+    <div class="tw"><table>
+      <caption>Table 1 — Ecosystem evidence, consulted October 10, 2026</caption>
+      <thead><tr><th scope="col">Evidence</th><th scope="col">What it shows</th></tr></thead>
+      <tbody>
+        <tr><th scope="row"><a href="https://miyomi.app/software?sort=updated-desc&amp;view=grid">Miyomi</a> (consulted 10-oct)</th>
+            <td>Sort-by-updated is dominated by <strong>multi-content apps</strong>: Mangayomi (manga+novel+anime, 6 platforms), Zangetsu (“anime &amp; movie streaming”), AniDash, Foxlations, Kototoro (manga+novel+video, 125.6k) — content types already coexist inside single apps.</td></tr>
+        <tr><th scope="row"><a href="https://everythingmoe.com/">EverythingMoe</a> (consulted 10-oct; updated same day)</th>
+            <td>The reference index of the culture is organized in <strong>24 category sections</strong> (Anime Streaming 94 sites · Manga Reading 96 · Novel · Drama · Donghua…) — segmentation is how the ecosystem itself thinks.</td></tr>
+        <tr><th scope="row">houri v1.23.16 released <strong>today</strong>; 14 releases in 9 days</th>
+            <td>Shipping cadence supports iterative feed features without long freezes.</td></tr>
+        <tr><th scope="row">AniZen v0.5.215 (30-sep) + in-app AI diagnostics (RFC v1 §5)</th>
+            <td>AniZen already carries the on-device intelligence needed for assisted segmentation.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="call warn">
+      <span class="ct">The current gap — owner's field report</span>
+      Activating the new multiFeed surfaces a single source, with no source-specific filter toggling
+      (recent / updated) and no conventional filters (new works / popular / trending) applied to it. And there is
+      no way to keep <em>several</em> feeds side by side — the global feed cannot be forked into categories,
+      manual or AI-assisted.
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §2 ══════════════ -->
+<section class="sec" id="s2" data-nav="§2 Design goals" data-num="§2">
+  <div class="sechead"><span class="kick">§2 · Goals</span><h2>Design goals</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="grid2">
+      <div class="goal"><b><span class="gn">01</span> Feed as a first-class, portable object</b><p>Created, named, edited, backed up, restored.</p></div>
+      <div class="goal"><b><span class="gn">02</span> Respect native source capabilities</b><p>The filter row is generated from what each source actually supports, with a declared fallback ladder — never an empty chip, never a silent bucket (§4.1).</p></div>
+      <div class="goal"><b><span class="gn">03</span> Manual first, AI second</b><p>Deterministic rules cover 90% of needs; AI is a suggestion layer over hand-made structure — opt-in, on-device, correctable, cheap at runtime.</p></div>
+      <div class="goal"><b><span class="gn">04</span> Zero telemetry</b><p>Classification runs on-device; nothing about a user's taste leaves the phone.</p></div>
+      <div class="goal"><b><span class="gn">05</span> ≤20 sources per feed</b><p>As originally requested — any adapter mix (APK manga, APK anime, Kotatsu DEX). A declared latency budget, not a UI taste (§2.2).</p></div>
+      <div class="goal"><b><span class="gn">06</span> Global feed remains the default</b><p>Segmentation adds; it never removes.</p></div>
+      <div class="goal"><b><span class="gn">07</span> Classify once, render forever</b><p>No AI work in feed render or scroll paths — label cache only (§6.3).</p></div>
+      <div class="goal"><b><span class="gn">08</span> Degradation must be boring</b><p>A dead or removed source never blocks, re-sorts, or re-identifies a feed (§5.2).</p></div>
+      <div class="goal"><b><span class="gn">09</span> Source neutrality (v2.4)</b><p>The app bundles no sources and no content: feeds present entries only from sources the user already installed; catalogs are cited as market evidence, never as content.</p></div>
+    </div>
+    <h3>2.1 — Three structural principles &amp; the mechanism map <span class="lang-es-tag">v2.3</span></h3>
+    <p>The mechanisms of v2.1/v2.2 are not a bag: they hang from three principles. Every future feature
+    must state which principle carries it — if none does, it does not ship.</p>
+    <div class="grid2">
+      <div class="goal"><b><span class="gn">P1</span> Honest capability</b><p>Render what each source can actually do; degrade visibly. A silent feed is a defect, not a state.</p></div>
+      <div class="goal"><b><span class="gn">P2</span> Deterministic, data-first segmentation</b><p>Rules, identities and precedence are declared data — same inputs, same segments, on every device, cold or warm.</p></div>
+      <div class="goal"><b><span class="gn">P3</span> Derived vs intent</b><p>Disposable compute and durable intent live in separate stores with separate write paths; the portable object carries intent, references capabilities, never secrets.</p></div>
+    </div>
+    <div class="tw"><table>
+      <caption>Table A — v2.1 mechanism → carrier → principle</caption>
+      <thead><tr><th scope="col">v2.1 mechanism</th><th scope="col">Carrier section</th><th scope="col">Principle</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Label cache + hysteresis + eviction (GC)</th><td><a href="#s6">§6.3</a></td><td>P3 (derived store) · P2 (deterministic recompute)</td></tr>
+        <tr><th scope="row">Pins keyed by work_key hash</th><td><a href="#s6">§6.3</a></td><td>P2 (canonical identity) · P3 (INTENT store)</td></tr>
+        <tr><th scope="row">Duplicate policy (canonical / keep)</th><td><a href="#s5">§5.1</a></td><td>P2 (declared tiebreak, stable across sessions)</td></tr>
+        <tr><th scope="row">Degradation (stale-with-label, frozen order)</th><td><a href="#s5">§5.2</a></td><td>P1 (visible, boring failure)</td></tr>
+        <tr><th scope="row">Fallback ladder (floor + declared aliases)</th><td><a href="#s4">§4.1</a></td><td>P1 (never fake, never silent)</td></tr>
+      </tbody>
+    </table></div>
+    <h3>2.2 — Why 20 sources: a latency budget <span class="lang-es-tag">v2.3</span></h3>
+    <p>The ≤20 cap is a budget line, inherited from the owner's request and now declared: per refresh,
+    merge cost ≈ Σ(one page per source) + interleave — 20 sources bound the worst-case refresh to a
+    few seconds and bound memory on low-end devices. The UI limit is the consequence, not the cause.
+    Device tiers may lower the number; nothing raises it silently.</p>
+  </div>
+</section>
+
+<!-- ══════════════ §3 ══════════════ -->
+<section class="sec" id="s3" data-nav="§3 Data model" data-num="§3">
+  <div class="sechead"><span class="kick">§3 · Data model</span><h2>The Feed object</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="codewrap">
+      <div class="chead">feeds.json — travels inside .anizenbk / .hourbk (RFC v1 §4)<button class="cbtn" type="button" data-copy>copy</button></div>
+      <pre><code class="lang-jsonc">// feeds.json — travels inside .anizenbk / .hourbk (RFC v1 §4)
+{
+  "schema": "feed.v2.3",
+  "feeds": [
+    {
+      "id": "feed_global",            // reserved, non-deletable, immutable (see §5.2)
+      "name": "Global",
+      "sources": [ /* up to 20 */ { "pkg": "eu.kanade.tachiyomi.ext.en.mangadex", "enabled": true } ],
+      "mode": "global",               // global | manual | ai
+      "rules_pack": null,             // global segments by definition, not by rules (§6.1)
+      "ai": null,
+      "dedup": { "policy": "canonical", "show_duplicates": false },   // §5.1
+      "degradation": { "policy": "stale_with_label", "freeze_order": true }, // §5.2
+      "refresh": { "policy": "on_open", "ttl_min": 180 },
+      "created": "2026-10-10T16:00:00Z"
+    },
+    {
+      "id": "feed_anime_movies",
+      "name": "Anime + Movies",
+      "sources": [ { "pkg": "anime.source.a", "enabled": true },
+                   { "pkg": "movie.source.b", "enabled": true } ],
+      "mode": "manual",
+      "rules_pack": { "id": "rules_anime_movies", "rules_version": 1, "sha256": "9f31c2…" }, // content-addressed (§6.1)
+      "dedup": { "policy": "keep_duplicates" },
+      "degradation": { "policy": "stale_with_label", "freeze_order": true },
+      "refresh": { "policy": "scheduled", "ttl_min": 720 }
+    },
+    {
+      "id": "feed_ai_donghua",
+      "name": "Donghua (AI-assisted)",
+      "sources": [ { "pkg": "anime.source.c", "enabled": true } ],
+      "mode": "ai",                   // labels arrive async; «Sin asignar» until the batch lands (§6.3)
+      "rules_pack": null,
+      "ai": { "model_v": "cls-2026.10", "hysteresis": { "threshold": 0.90, "margin": 0.15 } },
+      "dedup": { "policy": "canonical" },
+      "degradation": { "policy": "stale_with_label", "freeze_order": true },
+      "refresh": { "policy": "scheduled", "ttl_min": 1440 }
+    }
+  ],
+  "rules_packs": {
+    "rules_anime_movies": {
+      "rules_version": 1,
+      "sha256": "9f31c2…",            // restored references verify against this (§6.1)
+      "rules": [
+        { "priority": 10, "match": "content_type", "value": "movie" },
+        { "priority": 20, "match": "genre_in", "value": ["Sports"] }
+      ]
+    }
+  }
+}</code></pre>
+    </div>
+    <div class="grid2">
+      <div class="goal"><b><span class="gn">a</span> Global is reserved</b><p><code>feed_global</code> always exists, cannot be deleted, and stays the default view.</p></div>
+      <div class="goal"><b><span class="gn">b</span> Rules are data</b><p>Segmentation is expressed as plain JSON — no code, no lock-in, trivially testable.</p></div>
+      <div class="goal"><b><span class="gn">c</span> AI profile is nullable</b><p><code>"ai": null</code> is the honest default; assisted feeds declare their tier and version.</p></div>
+      <div class="goal"><b><span class="gn">d</span> Refresh is per-feed</b><p><code>on_open</code> or <code>scheduled</code> with a TTL — feeds control their own network budget.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §4 ══════════════ -->
+<section class="sec" id="s4" data-nav="§4 Filters (NFI)" data-num="§4">
+  <div class="sechead"><span class="kick">§4 · NFI</span><h2>Normalized Filter Interface — per-source filters, honestly mapped</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <p>Each adapter exposes a <strong>FilterProfile</strong>; the MultiFeed UI renders exactly what the selected source
+    can do, and nothing else.</p>
+    <div class="tw"><table>
+      <caption>Table 2 — Owner-visible filter × adapter matrix</caption>
+      <thead><tr><th scope="col">Owner-visible filter</th><th scope="col">Mihon / TachiyomiSY (ParsedHttpSource)</th><th scope="col">Aniyomi (AnimeHttpSource)</th><th scope="col">Kotatsu DEX parser</th><th scope="col">Movie/series sources</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Recientes / Latest</th><td><code>fetchLatestUpdates()</code></td><td><code>fetchLatestUpdates()</code></td><td><code>latest</code> listing</td><td><code>latest</code> (if declared)</td></tr>
+        <tr><th scope="row">Actualizados</th><td><code>fetchLatestUpdates</code> (ordered)</td><td>idem + <code>fetchSeasons</code> where present</td><td><code>updated</code> where present</td><td><code>updated</code> (if declared)</td></tr>
+        <tr><th scope="row">Nuevas obras</th><td>popular ascending by created/popular-set</td><td>idem</td><td>genre+sort where supported</td><td>catalog newest</td></tr>
+        <tr><th scope="row">Populares</th><td><code>fetchPopularManga()</code></td><td><code>fetchPopularAnime()</code></td><td><code>popular</code> listing</td><td><code>popular</code> (if declared)</td></tr>
+        <tr><th scope="row">En tendencia</th><td>source filter list (trending where native)</td><td>idem</td><td>trending where native</td><td>trending (if declared)</td></tr>
+        <tr><th scope="row">Filtros nativos (género, status, año…)</th><td>full <code>getFilterList()</code></td><td>full <code>getFilterList()</code></td><td>parser genres</td><td>source-declared facets</td></tr>
+      </tbody>
+    </table></div>
+    <div class="call warn">
+      <span class="ct">Fallback rule — no fake filters</span>
+      If a source lacks a native endpoint for a requested filter, the engine (a)&nbsp;hides the chip, or
+      (b)&nbsp;offers <em>client-side post-filtering</em> over already-fetched pages, visibly labeled
+      «filtro local — no nativo de la fuente». <strong>Never silent.</strong>
+    </div>
+
+    <h3>4.1 — Fallback ladder: declared per source, never improvised <span class="lang-es-tag">v2.1</span></h3>
+    <p>“Popular” and “trending” are not universal concepts. When a source does not expose a bucket, the
+    engine walks the <strong>ladder declared by that source</strong> in its FilterProfile — it never renders
+    an empty chip and never silently dumps everything into one bucket:</p>
+    <ol>
+      <li><strong>Native</strong> — the source exposes the bucket's own endpoint → chip rendered as native.</li>
+      <li><strong>Declared alias</strong> — the profile's <strong>versioned alias map</strong> maps another of the
+        source's endpoints to the bucket (<code>"aliases": { "trending": "popular" }</code>) → rendered as native,
+        tooltip names the backing endpoint. Nothing is inferred at runtime: if the map does not declare it, the
+        alias does not exist — no guessing game one level down.</li>
+      <li><strong>Local post-filter</strong> — client-side filtering over already-fetched pages → chip visibly
+        labeled «filtro local — no nativo de la fuente».</li>
+      <li><strong>Chronological floor (v2.2)</strong> — every adapter family exposes latest/updated, so a source
+        that matches no bucket above still serves it <strong>chronological and labeled as such</strong>
+        («cronológico — la fuente no expone popular»). The rung is never silent, and the feed is never
+        indistinguishable from empty.</li>
+      <li><strong>Hidden — visible, never silent (v2.2)</strong> — only a source with no working listing at all
+        ends hidden, and that state is <strong>visible per source</strong> in the feed's health row («esta fuente
+        no expone filtros» / «sin respuesta»). A source can no longer contribute nothing without signal.</li>
+    </ol>
+    <div class="call ok">
+      <span class="ct">Self-describing sources</span>
+      The ladder lives in the source's FilterProfile — part of its manifest, alongside extension metadata.
+      <strong>Adding a source is self-describing</strong>: the feed UI learns what the source can do without
+      new feed-side code. Ladder order is per-source data, reviewable in QA fixtures, versioned with the source.
+    </div>
+    <div class="call">
+      <span class="ct">Local-fallback honesty constraint — v2.3</span>
+      A local filter can only trim the already-fetched window — its result is a function of
+      <strong>window size and fetch order</strong>, and both are declared by the adapter in the FilterProfile.
+      Local results are <strong>recomputed on every refresh and never cached</strong>: the window moves
+      underneath them, and an honest fallback that goes stale is just a slower lie.
+    </div>
+
+    <div class="demo" id="demo-nfi">
+      <div class="demo-head"><span class="pulse"></span><b>Live exhibit A</b><span>chips re-bind to the selected source · zero network</span></div>
+      <div class="demo-body">
+        <div class="demo-controls">
+          <div class="seg" role="group" aria-label="Select a source adapter" id="nfiseg">
+            <button type="button" data-src="mihon" aria-pressed="true">Mihon / TachiSY</button>
+            <button type="button" data-src="aniyomi" aria-pressed="false">Aniyomi</button>
+            <button type="button" data-src="kotatsu" aria-pressed="false">Kotatsu DEX</button>
+            <button type="button" data-src="movie" aria-pressed="false">Movie source</button>
+          </div>
+          <label class="tog"><input type="checkbox" id="nfihide"> strict mode — hide non-native chips (spec option a)</label>
+        </div>
+        <div class="demo-out" id="nfiout" aria-live="polite"></div>
+        <p class="demo-cap">The row above is the exact gap reported by the owner — selecting a source re-binds the
+        filter chips to <em>that</em> source's FilterProfile: native (solid), honest local fallback (dashed),
+        declared-only (dotted). Nothing is faked.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §5 ══════════════ -->
+<section class="sec" id="s5" data-nav="§5 MultiFeed UX" data-num="§5">
+  <div class="sechead"><span class="kick">§5 · UX</span><h2>MultiFeed UX specification</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <ul>
+      <li><strong>Source chips</strong> (one per enabled source of the feed, max 20) + <strong>filter chips row</strong> that
+        re-binds to the <em>selected</em> source's FilterProfile (§4) — this is the exact gap reported.</li>
+      <li><strong>Feed switcher:</strong> horizontal tabs — Global · user feeds · «+ New feed». Long-press → rename,
+        reorder, export single feed.</li>
+      <li><strong>Merge policies</strong> (per feed): <code>interleave</code> (round-robin, default),
+        <code>weighted</code> (per-source weight), <code>recency</code> (strict time order across sources; ties → source id, in-source order — fetch-order independent, v2.5).
+        Deduplication by normalized entry key (title-cased ASCII-fold + source id) with «show duplicates» toggle.</li>
+      <li><strong>Per-source state inside the feed</strong> (solo mute, weight, filter override) — so «this source,
+        its filters» is one tap, not a detour to the Sources screen.</li>
+    </ul>
+
+    <h3>5.1 — Canonical work identity &amp; duplicates <span class="lang-es-tag">v2.1</span></h3>
+    <p>The global feed will surface the same work from multiple sources. The behavior is <strong>declared
+    data, per feed</strong>, not an accident:</p>
+    <ul>
+      <li><strong><code>work_key</code></strong> = normalized title — NFKD, strip combining marks (\p{M}), casefold, fold to ASCII (Turkish İ must equal i, v2.5) +
+        content type + declared creator/year when exposed. Hashed locally; nothing leaves the device.</li>
+      <li><strong><code>policy: "canonical"</code></strong> (default for Global): duplicates collapse to the
+        first occurrence; a badge lists the others («también en B, C»). No silent merging of chapter/episode
+        state across sources.</li>
+      <li><strong>Canonical tiebreak is deterministic (v2.2):</strong> (1) the feed's primary source if the user
+        pinned one, (2) richer metadata (count of non-null fields), (3) most recently updated entry, (4) stable
+        lexical order by source id. Same winner every session — collapse is never non-deterministic.</li>
+      <li><strong>The badge tells the reading truth (v2.2):</strong> «canónica en A»; if the user's download came
+        from B, «leyendo desde B · canónica en A», with a one-tap «usar B como canónica» — a primary-source pin
+        that feeds tiebreak rule (1).</li>
+      <li><strong>Collision-conservative by default (v2.4):</strong> same title ≠ same work (Fruits Basket
+        2001/2019). Collapse requires <strong>exact full-key equality</strong>; yearless keys only merge with
+        yearless or equal-year keys; residual ambiguity never auto-collapses — it shows a visible «posible
+        duplicado» badge. When in doubt, keep duplicates: P1 forbids faking a merge.</li>
+      <li><strong>Badge inventory (v2.4, closed set):</strong> «también en B, C» · «leyendo desde B · canónica en A» ·
+        «posible duplicado» · stale-with-label («sin actualizar desde…») · «fuente faltante» · «Sin asignar» ·
+        pin mark. New badges require a spec row — no UI drift.</li>
+      <li><strong><code>policy: "keep_duplicates"</code></strong> (per feed; sane for library-adjacent feeds):
+        duplicates stay visible; the filter-by-source chips (§4) are how users separate them.</li>
+      <li>The «show duplicates» toggle overrides either policy temporarily, per session.</li>
+    </ul>
+    <h3>5.2 — Stable feed identity under removal or outage <span class="lang-es-tag">v2.1</span></h3>
+    <p>Multi-source feeds degrade badly when a source dies. Rules, in order of importance:</p>
+    <ul>
+      <li><strong>A downed source never blocks the feed.</strong> Merge is partial-success: live sources
+        refresh; the downed one serves its last cache <em>stale-with-label</em> («sin actualizar desde el 8-oct»)
+        instead of stalling or vanishing.</li>
+      <li><strong>No global re-sorting on failure.</strong> Entry order for surviving sources is untouched;
+        the failed source's block keeps its position, flagged. A flaky source must not make the feed feel haunted.</li>
+      <li><strong>Degradation has a specified surface (v2.2):</strong> a feed-level banner («2 fuentes sin
+        actualizar · última sincronización 8-oct») <em>and</em> per-item markers on entries served stale — the
+        banner is feed state, the markers are attribution.</li>
+      <li><strong>Degraded refresh is retry-failed-only (v2.2):</strong> live sources serve from cache and are not
+        re-fetched; only the failed sources retry, merged incrementally. A full re-fetch exists only as an explicit
+        user action. Documented as the rule, not as an optimization.</li>
+      <li><strong>A missing source is a visible state, never a silent loss (v2.3):</strong> if a referenced source
+        id is absent on restore or import (renamed, removed, not yet installed), the feed loads with a
+        «fuente faltante» placeholder block in the switcher and health row — the feed says so, always.</li>
+      <li><strong>Removal is identity-preserving.</strong> Deleting or disabling a source changes nothing
+        else: the feed keeps its <code>id</code>, name, order, rules, and pins. <code>feed_global</code> is
+        immutable and non-deletable by definition.</li>
+      <li><strong>Health is visible where it matters</strong> (RFC v1 §5): per-source row inside the feed
+        shows last-success timestamp and state — not a global error toast.</li>
+    </ul>
+
+    <div class="demo" id="demo-merge">
+      <div class="demo-head"><span class="pulse"></span><b>Live exhibit B</b><span>merge policies · deterministic sample data · zero network</span></div>
+      <div class="demo-body">
+        <div class="demo-controls">
+          <div class="seg" role="group" aria-label="Merge policy" id="mergeseg">
+            <button type="button" data-m="interleave" aria-pressed="true">interleave</button>
+            <button type="button" data-m="weighted" aria-pressed="false">weighted</button>
+            <button type="button" data-m="recency" aria-pressed="false">recency</button>
+          </div>
+          <label class="tog"><input type="checkbox" id="dupshow"> show duplicates</label>
+          <span class="bdg mut" id="mergecount"></span>
+        </div>
+        <div class="demo-out"><ol class="mlist" id="mergeout" aria-live="polite"></ol></div>
+        <p class="demo-cap">Three sources — A (anime), B (movies), C (manga) — feed one merged list. “Frieren S2”
+        arrives via A and B: dedup keeps the first occurrence under the normalized key, «show duplicates» reveals it.
+        Weights in <em>weighted</em>: A:3 · B:2 · C:1.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §6 ══════════════ -->
+<section class="sec" id="s6" data-nav="§6 Segmentation" data-num="§6">
+  <div class="sechead"><span class="kick">§6 · Segmentation</span><h2>Manual first, AI assisted, always correctable</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <h3>6.1 — Manual rules (deterministic, portable, testable)</h3>
+    <p><code>source_in</code> · <code>content_type</code> (manga/anime/novel/movie) · <code>genre/tag in</code> ·
+    <code>title contains</code> · <code>status in</code> — combined with AND/OR. Rules are data — no code, no lock-in.</p>
+    <p><strong>Precedence is total, not emergent (v2.3):</strong> every rule carries an explicit <code>priority</code>
+    (integer, lower wins); evaluation sorts by <code>(priority, declaration order)</code> — a total order — and the
+    first matching rule takes the entry. <strong>An entry matching no rule goes to the visible «Sin asignar» pool</strong>
+    — never dropped, never auto-spread; the pool is a real segment in the feed UI and its size is part of the QA
+    fixture output. Same rules + same entries ⇒ same assignment on any device, warm or cold; golden-file tests pin this.</p>
+    <p><strong>Rules are independently versioned (v2.3):</strong> the rule set lives in its own addressed object
+    (<code>rules_packs</code> with <code>rules_version</code>), referenced by the feed — rule tweaks bump
+    <code>rules_version</code> and migrate on their own; the feed schema (<code>feed.v2.3</code>) moves only when the
+    feed object itself changes shape. One data change must not burn the schema's migration budget. The pack reference
+    is <strong>content-addressed (v2.4)</strong>: it carries the sha256 prefix of the rules array, and restore verifies
+    it — an id/version/content mismatch fails loudly with a report — honestly stated: this guards drift and mismatch, not malice (v2.5). The <strong>«Sin asignar» pool is the single
+    visible bucket across producers (v2.4)</strong>: an entry lands there either when no rule matches (rules producer)
+    or when no cached label exists yet (AI producer) — one pool, two feeds into it. Render caps the pool view with a count summary («+112 más»); the data stays whole (v2.5).</p>
+
+    <div class="demo" id="demo-rules">
+      <div class="demo-head"><span class="pulse"></span><b>Live exhibit C</b><span>the §6.1 rule engine, executed in this file · zero network</span></div>
+      <div class="demo-body">
+        <div class="demo-controls" id="rulechips">
+          <button class="rulechip" type="button" data-r="type_movie" aria-pressed="true">content_type = movie</button>
+          <button class="rulechip" type="button" data-r="type_anime" aria-pressed="false">content_type = anime</button>
+          <button class="rulechip" type="button" data-r="genre_action" aria-pressed="false">genre ∋ Action</button>
+          <button class="rulechip" type="button" data-r="source_in" aria-pressed="false">source_in {a, b}</button>
+          <div class="seg" role="group" aria-label="Rule combinator" id="rulelogic">
+            <button type="button" data-l="AND" aria-pressed="true">AND</button>
+            <button type="button" data-l="OR" aria-pressed="false">OR</button>
+          </div>
+        </div>
+        <div class="feedcol">
+          <div><h4>→ Segmented feed · <span class="cnt" id="cntmatch">0</span> entries</h4>
+            <div class="demo-out"><ul class="hitlist infeed" id="matchlist" aria-live="polite"></ul></div></div>
+          <div><h4>Global (unmatched) · <span class="cnt" id="cntrest">0</span> entries</h4>
+            <div class="demo-out"><ul class="hitlist" id="restlist" aria-live="polite"></ul></div></div>
+        </div>
+        <p class="demo-cap">Deterministic. Portable (the active rules above serialize straight into
+        <code>feeds.json</code>). Testable offline — you just ran it.</p>
+      </div>
+    </div>
+
+    <h3>6.2 — AI-assisted segmentation (opt-in, on-device, correctable)</h3>
+    <ul>
+      <li><strong>Input:</strong> the existing entries of the Global feed (titles, genres, tags, content type metadata).</li>
+      <li><strong>Engine:</strong> small on-device classifier; AniZen can ship it on its existing AI diagnostics stack
+        (RFC v1 §5); Houri ships the lighter tier (rules + heuristics) first.</li>
+      <li><strong>Behavior:</strong> proposes <em>suggested feeds</em> (e.g., «Anime», «Movies», «Donghua», «Long-runners»)
+        with per-entry confidence; the user accepts, edits, or discards each suggestion. AI never moves an entry
+        silently — every assignment is reviewable, reversible, and locally computed.</li>
+      <li><strong>Privacy (precise invariant, v2.4):</strong> nothing user-derived ever leaves the device; the
+        segmentation pipeline makes zero network calls; model binaries arrive only through the app's own update
+        channel — the acceptance tests (airplane / cold-start) cover the pipeline, not the update channel.</li>
+    </ul>
+    <div class="call ok">
+      <span class="ct">Example — the owner's case</span>
+      Movie sources + anime sources linked → AI proposes two feeds; manual mode can build the same with one
+      <code>content_type</code> rule — both paths land in the same <code>feeds.json</code>.
+    </div>
+    <h3>6.3 — Classify once, cache the label; pins are permanent <span class="lang-es-tag">v2.1</span></h3>
+    <p>The maintainer review named the cost correctly: classification inside the render path is a battery
+    and latency tax on the exact screen users open most. So:</p>
+    <ul>
+      <li><strong>Classification is a job, not a render step.</strong> It runs once per work — on first sight
+        of a new <code>work_key</code>, or in an explicit user-triggered batch — and writes to a local
+        <strong>label cache</strong>: <code>work_key → { label, confidence, model_version, timestamp }</code>.
+        Feed render and scroll read the cache; they <em>never</em> invoke the model.</li>
+      <li><strong>Cache invalidation is boring too:</strong> labels recompute only when the user edits the rule
+        set, upgrades the model <em>and</em> opts into re-classification, or requests it per entry. Model version
+        is stored with the label so stale caches are detectable, not assumed.</li>
+      <li><strong>Hysteresis guards re-classification (precise rule, v2.5):</strong> a <strong>label change</strong>
+        always requires beating the old confidence by the margin (≥ +0.15); the ≥ 0.90 threshold alone only rescues
+        the low-confidence band (&lt; 0.60); failing candidates stay as visible alternates. Fuzzing showed why:
+        threshold-only allowed A→B→A flip-flops between strong candidates. Both constants are named config —
+        segments do not rotate when the model updates.</li>
+      <li><strong>Labels GC (v2.2):</strong> rows unseen for <code>labels_gc.days</code> (default 90) are purged
+        by the same batch job that classifies — never on cold start; cold start reads per key and never loads the
+        table whole.</li>
+      <li><strong>Cold-start determinism is an acceptance test — scoped to the rules layer (v2.4):</strong> a fresh
+        install with an empty label cache and the same <code>feeds.json</code> + <code>rules_pack</code> must produce
+        <strong>identical rules-layer segments</strong> to a warm device — golden files in CI run both paths. The AI
+        layer is explicitly <strong>async</strong>: a cold start shows those entries in the «Sin asignar» pool until
+        the classification batch lands, and arriving labels apply with a visible «segmentación actualizada» notice —
+        the feed may enrich between launches, but never reshuffles silently.</li>
+      <li><strong>Manual overrides are permanent and visible.</strong> A user pin (<code>{ "pin": "Movies" }</code>)
+        sits above the classifier forever: pins survive re-classification, model upgrades, and restore from backup
+        (they live in <code>feeds.json</code>), and show a small pin mark so the structure reads honestly. The
+        answer to a mislabeled niche title is a one-tap pin — not a fight with the model. Pins are keyed by
+        <strong>work_key hash, not row id</strong> (v2.2): a work that leaves and returns keeps its pin.
+        Granularity: <code>pin_segment</code> (membership, default) or <code>pin_position</code> (membership +
+        explicit order, opt-in per entry).</li>
+      <li><strong>AI is a suggestion layer over hand-made structure, never a replacement.</strong> Rule-made feeds
+        are the skeleton; AI proposals attach to it; pins and rules always win.</li>
+    </ul>
+    <h3>6.4 — Two stores, one write path each <span class="lang-es-tag">v2.2</span></h3>
+    <p>Persistence is split so janitorial work can never touch intent — the cheapest insurance in the
+    whole document:</p>
+    <ul>
+      <li><strong>LABELS</strong> — derived and disposable: <code>k / label / conf / model_v / ts</code>. Wiped
+        whole without losing anything that matters; GC and model migrations touch only this store.</li>
+      <li><strong>INTENT</strong> — durable user data, lives in <code>feeds.json</code>: feed definitions, rules,
+        dedup policy, pins.</li>
+      <li>One write path each, <strong>never a shared transaction</strong>: a purge or a model migration is
+        physically unable to reach intent. Backups always carry INTENT; LABELS ride along only as optional cache
+        (recomputable).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══════════════ §7 ══════════════ -->
+<section class="sec" id="s7" data-nav="§7 RFC v1 integration" data-num="§7">
+  <div class="sechead"><span class="kick">§7 · Integration</span><h2>Integration with RFC v1 (Sandbox)</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="diag" aria-label="Architecture diagram">
+      <svg viewBox="0 0 920 300" role="img" aria-labelledby="diagt">
+        <title id="diagt">Feed object on the Source Manager, exposed through NFI to four adapter families; backups and on-device AI attached.</title>
+        <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--mut)"/></marker></defs>
+        <g class="node" data-go="#s3" tabindex="0" role="link"><rect x="20" y="30" width="200" height="64" rx="10"/><text x="120" y="56" text-anchor="middle">feeds.json — Feed object</text><text x="120" y="74" text-anchor="middle" class="sub">schema feed.v2.3 · ≤20 sources</text></g>
+        <g class="node" data-go="#s5" tabindex="0" role="link"><rect x="20" y="180" width="200" height="64" rx="10"/><text x="120" y="206" text-anchor="middle">MultiFeed Engine</text><text x="120" y="224" text-anchor="middle" class="sub">merge · dedup · rules</text></g>
+        <g class="node" data-go="#s6" tabindex="0" role="link" class="node side"><rect x="20" y="105" width="200" height="52" rx="10"/><text x="120" y="127" text-anchor="middle">On-device AI (opt-in)</text><text x="120" y="144" text-anchor="middle" class="sub">suggest · review · correct</text></g>
+        <g class="node" data-go="#s4" tabindex="0" role="link"><rect x="330" y="105" width="190" height="64" rx="10"/><text x="425" y="131" text-anchor="middle">NFI</text><text x="425" y="149" text-anchor="middle" class="sub">FilterProfile per source</text></g>
+        <g class="node" data-go="#s7" tabindex="0" role="link"><rect x="620" y="20" width="270" height="50" rx="10"/><text x="755" y="41" text-anchor="middle">Mihon ParsedHttpSource</text><text x="755" y="58" text-anchor="middle" class="sub">manga APK adapters</text></g>
+        <g class="node" data-go="#s7" tabindex="0" role="link"><rect x="620" y="84" width="270" height="50" rx="10"/><text x="755" y="105" text-anchor="middle">Aniyomi AnimeHttpSource</text><text x="755" y="122" text-anchor="middle" class="sub">anime APK adapters</text></g>
+        <g class="node" data-go="#s7" tabindex="0" role="link"><rect x="620" y="148" width="270" height="50" rx="10"/><text x="755" y="169" text-anchor="middle">Kotatsu DEX parser</text><text x="755" y="186" text-anchor="middle" class="sub">in-app DEX sources</text></g>
+        <g class="node" data-go="#s7" tabindex="0" role="link"><rect x="620" y="212" width="270" height="50" rx="10"/><text x="755" y="233" text-anchor="middle">Movie / series sources</text><text x="755" y="250" text-anchor="middle" class="sub">declared facets</text></g>
+        <g class="node side" data-go="#s7" tabindex="0" role="link"><rect x="330" y="220" width="190" height="56" rx="10"/><text x="425" y="243" text-anchor="middle">.anizenbk / .hourbk</text><text x="425" y="261" text-anchor="middle" class="sub">self-contained backups</text></g>
+        <path class="edge" d="M220 62 C 280 62 280 120 330 130"/>
+        <path class="edge" d="M220 212 C 280 212 280 160 330 146"/>
+        <path class="edge" d="M220 131 L 330 133"/>
+        <path class="edge" d="M520 130 C 560 130 570 60 620 48"/>
+        <path class="edge" d="M520 136 L 620 108"/>
+        <path class="edge" d="M520 142 L 620 172"/>
+        <path class="edge" d="M520 150 C 570 160 570 232 620 236"/>
+        <path class="edge" d="M330 245 C 280 250 260 200 220 190" stroke-dasharray="5 4"/>
+      </svg>
+    </div>
+    <div class="tw"><table>
+      <caption>Table 3 — What v2 adds on top of each RFC v1 piece</caption>
+      <thead><tr><th scope="col">RFC v1 piece</th><th scope="col">What v2 adds on top</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Universal Unified Source Manager (§2)</th><td>Feeds are queries over it — one engine, any adapter mix.</td></tr>
+        <tr><th scope="row">Self-contained backups .anizenbk/.hourbk (§4)</th><td><code>feeds.json</code> (feeds, rules, <strong>pins, label cache</strong>) joins the archive: feeds survive device moves and repo shutdowns — with the extensions they depend on.</td></tr>
+        <tr><th scope="row">Extension Health Monitoring (§5, AniZen)</th><td>Per-source feed health <em>in the feed</em> (§5.2): state + last-success per source, feeding the stale-with-label policy — silent dead sources in a merged feed are how trust dies.</td></tr>
+        <tr><th scope="row">FileObserver hot-reload (§5, Houri)</th><td>Feed definitions hot-reload the same way — no restart.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="call ok">
+      <span class="ct">Portable-object hygiene — v2.3 invariant</span>
+      <code>feeds.json</code> references adapters by <strong>stable source id</strong> (display names resolved at
+      runtime) and <strong>never carries credentials, cookies or session tokens</strong> — extensions needing auth
+      keep it in app-private storage (RFC v1 sandbox); the export path runs a sanitizer that refuses to embed
+      secrets. Compat policy: same schema major → unknown fields are <strong>preserved verbatim</strong> through
+      load/save (round-trip, never mangled); different major → import <strong>fails loudly</strong> with a report.
+      A backup that leaks or silently rewrites is not a backup.
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §8 ══════════════ -->
+<section class="sec" id="s8" data-nav="§8 Roadmap & AC" data-num="§8">
+  <div class="sechead"><span class="kick">§8 · Roadmap</span><h2>Roadmap &amp; acceptance criteria</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <p class="s8note">Round-6 observation, adopted: every AC below is a <strong>verifiable
+    criterion with a named proof artifact</strong> — if a criterion cannot demonstrate how it is
+          <p>does not stand as a rung.</p>
+    <div class="call">
+      <span class="ct">Conformance Kit v1 — the proof artifacts ship with the spec</span>
+      The spec-side checks behind these matrices run as fixed-seed, zero-dependency harnesses:
+      <code>kit-conformidad-v1/run-all.js</code> — manifest in <code>CONFORMIDAD.md</code>, every
+      AC mapped to its check. Last full run against this very file:
+      <strong>529.800 checks, 0 violations</strong> (spec-model 233.570 · kernel 296.230). UI,
+      screenshot, golden-file and emulator artifacts stay implementation-side by nature — §8
+      declares them; the kit ships everything a specification can ship.
+    </div>
+    <div class="phase">
+      <h3><span class="pn">PHASE 1</span> Per-source filters with the fallback ladder — ships first, independently</h3>
+      <div class="tw"><table>
+        <caption>Phase 1 — verification matrix</caption>
+        <thead><tr><th scope="col">AC</th><th scope="col">Proof artifact</th><th scope="col">Runs in</th><th scope="col">Failure means</th></tr></thead>
+        <tbody>
+         <tr><td>Source chips ≤ 20</td><td>Unit: 21st source rejected at build; UI: chips render exactly <code>feed.sources</code></td><td>unit + screenshot CI</td><td>&gt;20 chips, or chips ≠ sources</td></tr>
+         <tr><td>Filter chips from FilterProfile</td><td>Contract test per adapter: chips == declared capabilities, nothing else</td><td>adapter-fixture CI matrix</td><td>any chip without a declared backend</td></tr>
+         <tr><td>Fallback labeling honest</td><td>UI: local post-filter renders «filtro local — no nativo»; hidden is a visible health state</td><td>screenshot CI</td><td>unlabeled local filter, or silent hide</td></tr>
+         <tr><td>Merge interleave + recency · dedup canonical/keep with toggle (§5.1)</td><td>Property: merge invariant under fetch-order permutations (400×6 family); corpus key idempotence; toggle preserves raw entries</td><td>CI property job</td><td>arrival-order dependence; non-idempotent key; data loss on toggle</td></tr>
+         <tr><td>Ladder order per source (§4.1)</td><td>Golden files: rung resolution per fixture source, diffed</td><td>CI golden job</td><td>rung differs from declaration</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="phase">
+      <h3><span class="pn">PHASE 2</span> Multiple feeds, manual — both apps</h3>
+      <div class="tw"><table>
+        <caption>Phase 2 — verification matrix</caption>
+        <thead><tr><th scope="col">AC</th><th scope="col">Proof artifact</th><th scope="col">Runs in</th><th scope="col">Failure means</th></tr></thead>
+        <tbody>
+         <tr><td>Create / rename / delete / reorder</td><td>Instrumented UI suite writing feeds.json; schema validator gates every write</td><td>UI CI suite</td><td>validator error, or UI state ≠ file</td></tr>
+         <tr><td>Rules engine, total precedence (§6.1)</td><td>Property: <code>(priority, declaration order)</code> is a total order; first match wins; no-match → visible pool; golden files pin assignments</td><td>CI property + golden</td><td>precedence violated, or orphan entries invisible</td></tr>
+         <tr><td>Immutable identity; stale-with-label; frozen order (§5.2)</td><td>Fault injection: source dies mid-refresh → order frozen, stale label set, id unchanged</td><td>CI fault-injection job</td><td>reshuffle or silent drop</td></tr>
+         <tr><td><code>feeds.json</code> round-trip with zero loss (.anizenbk/.hourbk)</td><td>Tamper matrix — drift, fake seal, cross-major all fail loudly — + unknown-field preservation + restore idempotence; proven at kernel level: 296.230 checks / 0 violations</td><td>CI storage job</td><td>any tamper restoring silently, any field lost</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="phase">
+      <h3><span class="pn">PHASE 3</span> AI segmentation as a non-blocking prototype — AniZen first, Houri lite</h3>
+      <div class="tw"><table>
+        <caption>Phase 3 — verification matrix</caption>
+        <thead><tr><th scope="col">AC</th><th scope="col">Proof artifact</th><th scope="col">Runs in</th><th scope="col">Failure means</th></tr></thead>
+        <tbody>
+         <tr><td>Classify-once — no model in render/scroll (§6.3)</td><td>Trace test: the render path records zero model invocations</td><td>CI instrumentation</td><td>any model call on screen</td></tr>
+         <tr><td>Pins permanent &amp; visible</td><td>Property: pins survive re-classification, model upgrade and restore (120-day simulated churn)</td><td>CI property job</td><td>a pin lost, or a pin invisible</td></tr>
+         <tr><td>Suggestions reviewable per entry; discard / edit persists</td><td>UI test: accept / edit / discard persists to feeds.json</td><td>UI CI suite</td><td>a suggestion applied without review</td></tr>
+         <tr><td>On-device only — airplane-mode</td><td>Airplane profile: instrumented runtime asserts zero network syscalls during classify + render</td><td>CI emulator</td><td>any network syscall</td></tr>
+         <tr><td>Cold-start rules parity — <strong>the rung §0 stands on</strong></td><td>Golden files: rules-layer segment ids equal warm vs cold install, same feeds.json + pack; AI async by declared design (DR-8)</td><td>CI golden job, both profiles</td><td>any rules-layer divergence</td></tr>
+         <tr><td>Global feed untouched by default</td><td>Snapshot: before/after segmentation diffs empty unless the user opts in</td><td>CI snapshot</td><td>silent mutation of the global feed</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <h3>8.1 — What's actually in Phase 1 vs Phase 3 <span class="lang-es-tag">v2.2</span></h3>
+    <div class="tw"><table>
+      <caption>Table 6 — scope split</caption>
+      <thead><tr><th scope="col">Concern</th><th scope="col">Phase 1 (ships alone, zero models)</th><th scope="col">Phase 3 (adds only the model)</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Filter row + ladder</th><td>Generated from FilterProfile; chronological floor; declared versioned aliases</td><td>—</td></tr>
+        <tr><th scope="row">Identity &amp; duplicates</th><td>work_key; canonical dedup; deterministic tiebreak; reading-source badge</td><td>—</td></tr>
+        <tr><th scope="row">Degradation</th><td>Banner + per-item markers; retry-failed-only refresh; frozen order</td><td>—</td></tr>
+        <tr><th scope="row">Labels</th><td>Table with k/label/conf/model_v/ts — <strong>rules engine as label producer</strong></td><td>On-device classifier as an additional producer</td></tr>
+        <tr><th scope="row">Cache policy</th><td>Schema carries model_v + ts from day one</td><td>Hysteresis activation (threshold + margin); GC activation by volume</td></tr>
+        <tr><th scope="row">Pins</th><td>work_key-keyed; pin_segment; fixed precedence</td><td>— (unchanged)</td></tr>
+        <tr><th scope="row">Persistence</th><td>Two stores, one write path each (§6.4)</td><td>— (unchanged)</td></tr>
+        <tr><th scope="row">Privacy</th><td>No model, nothing to test</td><td>Airplane-mode acceptance test in CI</td></tr>
+      </tbody>
+    </table></div>
+    <p>The infrastructure contract is identical across phases — <strong>Phase 3 plugs a model into a socket
+    Phase 1 already built and tested with rules</strong>.</p>
+  </div>
+</section>
+
+<!-- ══════════════ §9 ══════════════ -->
+<section class="sec" id="s9" data-nav="§9 Risk matrix" data-num="§9">
+  <div class="sechead"><span class="kick">§9 · Risks</span><h2>Risk matrix <span class="lang-es-tag">additive to RFC v1 §6</span></h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="tw"><table>
+      <caption>Table 4 — Risks and mitigations</caption>
+      <thead><tr><th scope="col">Risk</th><th scope="col">Level</th><th scope="col">Mitigation</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Filter-mapping drift (sources change endpoints)</th><td><span class="bdg warn">Medium</span></td><td>FilterProfile declared per source version; chips degrade to hidden, never crash; QA fixture per adapter.</td></tr>
+        <tr><th scope="row">Merge performance at 20 sources</th><td><span class="bdg warn">Medium</span></td><td>Per-source page budgets + lazy interleave; no full-catalog fan-out on open.</td></tr>
+        <tr><th scope="row">AI misclassification</th><td><span class="bdg warn">Medium</span></td><td>Confidence display, per-entry override, «rules-only» mode for users who refuse ML.</td></tr>
+        <tr><th scope="row">Battery/latency from classification</th><td><span class="bdg ok">Medium → solved</span></td><td>Classify-once + label cache; the render path is cache-read only (§6.3).</td></tr>
+        <tr><th scope="row">Dead source degrades the feed</th><td><span class="bdg ok">High → solved</span></td><td>Partial-success merge, stale-with-label, frozen order, immutable feed id (§5.2).</td></tr>
+        <tr><th scope="row">Privacy regression</th><td><span class="bdg ok">Low</span></td><td>Airplane-mode acceptance test in CI for Phase 3.</td></tr>
+        <tr><th scope="row">Persistence coupling (labels vs intent)</th><td><span class="bdg ok">Low → solved</span></td><td>Two stores, one write path each; GC and migrations physically cannot touch intent (§6.4).</td></tr>
+        <tr><th scope="row">Feature sprawl on Houri (one maintainer)</th><td><span class="bdg ok">Low</span></td><td>Phase 2 ships before Phase 3; lite tier (rules) is the Houri default.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ══════════════ §10 ══════════════ -->
+<section class="sec" id="s10" data-nav="§10 Landscape appendix" data-num="§10">
+  <div class="sechead"><span class="kick">§10 · Appendix</span><h2>Landscape table <span class="lang-es-tag">verified 2026-10-10</span></h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="tw"><table>
+      <caption>Table 5 — Prior art and what it validates</caption>
+      <thead><tr><th scope="col">Prior art</th><th scope="col">What it validates</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Kototoro — entities &amp; Spaces (in production)</th><td>Content typing and scoped views inside one app work at scale.</td></tr>
+        <tr><th scope="row">Mangayomi (6 platforms, multi-content)</th><td>Mixed manga/anime/novel libraries are mainstream, not niche.</td></tr>
+        <tr><th scope="row">Zangetsu (“anime &amp; movie streaming”)</th><td>The movie+anime coexistence the owner describes already exists.</td></tr>
+        <tr><th scope="row"><a href="https://everythingmoe.com/">EverythingMoe</a> (24 sections, updated daily)</th><td>The culture indexes itself by segmented categories.</td></tr>
+        <tr><th scope="row"><a href="https://miyomi.app/software?sort=updated-desc&amp;view=grid">Miyomi</a> (content-type filters on the catalog)</th><td>Even the catalog sorts and filters by type — the apps' feeds should too.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ══════════════ COLOPHON ══════════════ -->
+<section class="sec" id="colophon" data-nav="Colophon" data-num="✦">
+  <div class="sechead"><span class="kick">Colophon</span><h2>About this document</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body colophon-notes">
+    <p>This RFC practices what it proposes. Like the <code>feeds.json</code> object of §3, the document is a
+    <strong>single portable artifact</strong>: one file, no external fonts, scripts, styles or images — it renders
+    identically offline, in airplane mode, years from now. The three live exhibits run deterministic sample data
+    on your device; nothing is fetched, nothing is sent.</p>
+    <p><strong>Airplane-mode test (§8 · Phase 3):</strong> network requests made by this page since load —
+    <strong id="netcount">0</strong> <span class="bdg ok">passed by construction</span>. The counter is wired to
+    <code>fetch</code>, <code>XMLHttpRequest</code> and <code>sendBeacon</code>; any call would increment it.</p>
+    <p><strong>Infrastructure.</strong> Semantic HTML5 landmarks and heading outline · scrollspy table of contents
+    (IntersectionObserver) · full-text search with in-place highlighting · theme engine (auto / light / dark,
+    persisted when storage is available) · print stylesheet for PDF export · reduced-motion and keyboard support
+    (<code>/</code>, <code>t</code>, <code>Esc</code>) · integrity-sealed source.</p>
+    <p><strong>Source seal.</strong> Canonical text: <em>RFC-v2.9-UNIFIED-FEED-AniZen-Houri-2026-10-10.md</em> —
+    SHA-256 <code>c88882c609b61471</code> (first 16 hex). Any divergence between this envelope and the sealed
+    markdown is a defect of the envelope, not of the proposal.</p>
+    <p><em>Prepared for the developer communities of AniZen, Houri, Kototoro and Miyomi — with the courtesy already
+    owed to RFC v1's authors. October 2026, Version 2.9 (Draft for review) — rounds, demolition, fuzz, integral audit, decision record, executable §8, and a shipped conformance kit — superseding v2.6's «integral static + hyperextreme audit».</em></p>
+  </div>
+</section>
+
+</main>
+</div>
+
+<footer class="foot">
+  <div class="foot-in">
+    <span><strong>RFC v2.9</strong> — Unified Feed Architecture · Draft for review · 2026-10-10 · rondas + demolición + fuzz + auditoría integral + §8 ejecutable + kit de conformidad</span>
+    <span class="seal">sha256:<code>c88882c609b61471</code></span>
+    <span>
+      <a href="https://github.com/salmanbappi/AniZen">AniZen</a>
+      <a href="https://github.com/PineappleTwilight/houri">Houri</a>
+      <a href="https://miyomi.app/software?sort=updated-desc&amp;view=grid">Miyomi</a>
+      <a href="https://everythingmoe.com/">EverythingMoe</a>
+    </span>
+  </div>
+</footer>
+
+<div id="searchov" role="dialog" aria-modal="true" aria-label="Search document">
+  <div class="searchpanel">
+    <header>
+      <span aria-hidden="true">⌕</span>
+      <input id="sinput" type="search" placeholder="Search this document…" autocomplete="off" aria-label="Search query">
+      <span class="esc">Esc</span>
+    </header>
+    <div id="sres" aria-live="polite"></div>
+    <footer>Enter — jump to first result · results highlight matches in place</footer>
+  </div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+<button id="totop" type="button" aria-label="Back to top">↑</button>
+
+<script>
+(function(){
+"use strict";
+var d=document, w=window, root=d.documentElement;
+function $(s,c){return (c||d).querySelector(s)}
+function $$(s,c){return Array.prototype.slice.call((c||d).querySelectorAll(s))}
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function store(){try{return w.localStorage}catch(e){return null}}
+
+/* ── network counter (airplane-mode test) ── */
+var net=0;
+function netEl(){return $("#netcount")}
+function netUpd(){net++;var a=netEl(),b=$("#netbadge");if(a)a.textContent=String(net);if(b)b.textContent=net+" ✗"}
+try{var of=w.fetch;w.fetch=function(){netUpd();return of.apply(this,arguments)}}catch(e){}
+try{var oo=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){netUpd();return oo.apply(this,arguments)}}catch(e){}
+try{if(w.navigator.sendBeacon){var ob=w.navigator.sendBeacon.bind(w.navigator);w.navigator.sendBeacon=function(){netUpd();return ob.apply(this,arguments)}}}catch(e){}
+
+/* ── toast ── */
+var toastT;
+function toast(m){var t=$("#toast");t.textContent=m;t.classList.add("show");clearTimeout(toastT);toastT=setTimeout(function(){t.classList.remove("show")},1900)}
+
+/* ── theme ── */
+var THEMES=["auto","light","dark"];
+function setTheme(t){root.setAttribute("data-theme",t);var l=$("#thlab");if(l)l.textContent=t;var m=$('meta[name="theme-color"]');if(m)m.setAttribute("content",t==="light"?"#ffffff":"#0b1020");var s=store();if(s)try{s.setItem("rfc2-theme",t)}catch(e){}}
+var savedT=null,s=store();if(s)try{savedT=s.getItem("rfc2-theme")}catch(e){}
+setTheme(THEMES.indexOf(savedT)>-1?savedT:"auto");
+$("#btheme").addEventListener("click",function(){var c=root.getAttribute("data-theme")||"auto";setTheme(THEMES[(THEMES.indexOf(c)+1)%3]);toast("Theme: "+root.getAttribute("data-theme"))});
+
+/* ── TOC + scrollspy ── */
+var secs=$$("main section.sec"),list=$("#toclist");
+secs.forEach(function(sec){
+  var li=d.createElement("li"),a=d.createElement("a");
+  a.href="#"+sec.id;
+  a.innerHTML='<span class="tocnum">'+esc(sec.getAttribute("data-num")||"")+"</span>"+esc(sec.getAttribute("data-nav")||sec.id);
+  li.appendChild(a);list.appendChild(li);
+});
+var links={};$$("nav.toc a").forEach(function(a){links[a.getAttribute("href").slice(1)]=a});
+function spy(id){Object.keys(links).forEach(function(k){if(links[k])links[k].setAttribute("aria-current",k===id?"true":"false")})}
+if("IntersectionObserver" in w){
+  var vis={};
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){vis[e.target.id]=e.isIntersecting});
+    var best=null;
+    secs.forEach(function(sec){if(vis[sec.id]&&best===null)best=sec.id});
+    if(best)spy(best);
+  },{rootMargin:"-12% 0px -74% 0px",threshold:0});
+  secs.forEach(function(sec){io.observe(sec)});
+}
+spy("abstract");
+
+/* ── progress + totop ── */
+var bar=$("#progress i"),tt=$("#totop"),tick=false;
+function onScroll(){
+  var h=d.documentElement,st=w.scrollY||h.scrollTop;
+  var max=(h.scrollHeight-h.clientHeight)||1;
+  bar.style.width=Math.min(100,st/max*100).toFixed(2)+"%";
+  tt.classList.toggle("show",st>700);
+  tick=false;
+}
+w.addEventListener("scroll",function(){if(!tick){tick=true;requestAnimationFrame(onScroll)}},{passive:true});
+onScroll();
+tt.addEventListener("click",function(){w.scrollTo({top:0,behavior:"smooth"})});
+
+/* ── section tools: fold + anchor ── */
+$$("section.sec").forEach(function(sec){
+  var fold=$(".tbtn.fold",sec),body=$(".sec-body",sec);
+  if(fold)fold.addEventListener("click",function(){sec.classList.toggle("closed");fold.setAttribute("aria-expanded",sec.classList.contains("closed")?"false":"true")});
+  var an=$(".tbtn.anchor",sec);
+  if(an)an.addEventListener("click",function(){
+    var url=location.href.split("#")[0]+"#"+sec.id;
+    var done=function(){toast("Link copied — #"+sec.id)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(done,function(){fallbackCopy(url);done()})}
+    else{fallbackCopy(url);done()}
+  });
+});
+function fallbackCopy(txt){var ta=d.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";d.body.appendChild(ta);ta.select();try{d.execCommand("copy")}catch(e){}d.body.removeChild(ta)}
+
+/* ── code copy + jsonc highlighting ── */
+$$("[data-copy]").forEach(function(b){
+  b.addEventListener("click",function(){
+    var code=b.closest(".codewrap").querySelector("code");
+    var txt=code.textContent;
+    var done=function(){b.textContent="copied ✓";setTimeout(function(){b.textContent="copy"},1600)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,function(){fallbackCopy(txt);done()})}
+    else{fallbackCopy(txt);done()}
+  });
+});
+$$("code.lang-jsonc").forEach(function(code){
+  var txt=esc(code.textContent);
+  var re=/(\/\/[^\n]*)|("(?:[^"\\]|\\.)*")(\s*:)?|\b(true|false|null)\b|(-?\d+(?:\.\d+)?)/g;
+  code.innerHTML=txt.replace(re,function(m,com,str,col,kw,num){
+    if(com)return '<span class="j-c">'+com+"</span>";
+    if(str)return '<span class="j-k">'+str+"</span>"+(col?col:"");
+    if(kw)return '<span class="j-b">'+kw+"</span>";
+    if(num)return '<span class="j-n">'+num+"</span>";
+    return m;
+  });
+});
+
+/* ── EXHIBIT A · NFI chips ── */
+var FILTERS=["latest","updated","new","popular","trending","nativefilters"];
+var FLABEL={latest:"Recientes / Latest",updated:"Actualizados",new:"Nuevas obras",popular:"Populares",trending:"En tendencia",nativefilters:"Filtros nativos"};
+var FTIP={
+ latest:{mihon:"native · fetchLatestUpdates()",aniyomi:"native · fetchLatestUpdates()",kotatsu:"native · latest listing",movie:"conditional · latest, if declared"},
+ updated:{mihon:"native · fetchLatestUpdates (ordered)",aniyomi:"native · + fetchSeasons where present",kotatsu:"conditional · updated where present",movie:"conditional · if declared"},
+ new:{mihon:"local · popular ascending by created/popular-set",aniyomi:"local · idem",kotatsu:"local · genre+sort where supported",movie:"native · catalog newest"},
+ popular:{mihon:"native · fetchPopularManga()",aniyomi:"native · fetchPopularAnime()",kotatsu:"native · popular listing",movie:"conditional · if declared"},
+ trending:{mihon:"conditional · source filter list where native",aniyomi:"conditional · idem",kotatsu:"conditional · where native",movie:"conditional · if declared"},
+ nativefilters:{mihon:"native · full getFilterList()",aniyomi:"native · full getFilterList()",kotatsu:"native · parser genres",movie:"native · source-declared facets"}
+};
+var FNAMES={mihon:"Mihon / TachiyomiSY",aniyomi:"Aniyomi",kotatsu:"Kotatsu DEX",movie:"Movie / series source"};
+var hideOff=$("#nfihide");
+function renderNFI(src){
+  var out=$("#nfiout"),html="";
+  FILTERS.forEach(function(f){
+    var tip=FTIP[f][src],cls=tip.indexOf("native ·")===0?"native":(tip.indexOf("local ·")===0?"local":"cond");
+    if(hideOff.checked&&cls!=="native")return;
+    var st=cls==="native"?"native":(cls==="local"?"filtro local":"if declared");
+    html+='<span class="chip '+cls+'" title="'+esc(tip)+'">'+esc(FLABEL[f])+' <span class="st">'+st+"</span></span>";
+  });
+  html+='<span class="bdg mut" style="margin-left:4px">FilterProfile: '+esc(FNAMES[src])+" · 0 fake chips</span>";
+  out.innerHTML=html;
+}
+$("#nfiseg").addEventListener("click",function(e){
+  var b=e.target.closest("button[data-src]");if(!b)return;
+  $$("#nfiseg button").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});
+  renderNFI(b.getAttribute("data-src"));
+});
+hideOff.addEventListener("change",function(){
+  var cur=$("#nfiseg button[aria-pressed='true']");
+  renderNFI(cur?cur.getAttribute("data-src"):"mihon");
+});
+renderNFI("mihon");
+
+/* ── EXHIBIT B · merge ── */
+var DATA={
+ A:{label:"A",items:[{t:"Frieren S2",ts:1640},{t:"Dungeon Mania — E08",ts:1510},{t:"Blue Lock — E214",ts:1205},{t:"Kaiju No. 8 — E07",ts:930}]},
+ B:{label:"B",items:[{t:"Frieren S2",ts:1612},{t:"The APFO Movie",ts:1345},{t:"Jujutsu 0 — re-release",ts:1020}]},
+ C:{label:"C",items:[{t:"Vagabond — ch. 327",ts:1555},{t:"Berserk Deluxe — v12",ts:1135},{t:"Vinland Saga SF — ch. 204",ts:805}]}
+};
+var WEIGHTS={A:3,B:2,C:1};
+function fmt(ts){var h=Math.floor(ts/100),m=ts%100;return (h<10?"0":"")+h+":"+((m<10?"0":"")+m)}
+function dedupKey(t){return t.normalize("NFKD").replace(/\p{M}/gu,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim()}
+function mergedList(mode){
+  var seq;
+  if(mode==="recency"){
+    seq=[];
+    Object.keys(DATA).forEach(function(k){DATA[k].items.forEach(function(it){seq.push({k:k,it:it})})});
+    seq.sort(function(a,b){return (b.it.ts-a.it.ts)||(a.k<b.k?-1:(a.k>b.k?1:0))});
+  }else if(mode==="weighted"){
+    seq=[];var queues={};Object.keys(DATA).forEach(function(k){queues[k]=DATA[k].items.slice()});
+    var order=["A","B","C"],credit={A:0,B:0,C:0},guard=0;
+    while(seq.length<10&&guard++<80){
+      order.forEach(function(k){
+        if(!queues[k].length)return;
+        credit[k]+=WEIGHTS[k];
+      });
+      var pick=order.filter(function(k){return queues[k].length}).sort(function(a,b){return credit[b]-credit[a]||order.indexOf(a)-order.indexOf(b)})[0];
+      if(!pick)break;
+      credit[pick]-=3;
+      seq.push({k:pick,it:queues[pick].shift()});
+    }
+  }else{
+    seq=[];var q={};Object.keys(DATA).forEach(function(k){q[k]=DATA[k].items.slice()});
+    var guard2=0;
+    while(seq.length<10&&guard2++<40){
+      var added=false;
+      ["A","B","C"].forEach(function(k){if(q[k].length){seq.push({k:k,it:q[k].shift()});added=true}});
+      if(!added)break;
+    }
+  }
+  return seq;
+}
+var mseg=$("#mergeseg"),mdup=$("#dupshow");
+function renderMerge(){
+  var mode=$("#mergeseg button[aria-pressed='true']").getAttribute("data-m");
+  var seq=mergedList(mode),seen={},out="",shown=0,hidden=0;
+  seq.forEach(function(e){
+    var key=dedupKey(e.it.t),isDup=seen[key];
+    seen[key]=true;
+    if(isDup){hidden++;if(!mdup.checked)return;}
+    shown++;
+    out+='<li><span class="tm">'+fmt(e.it.ts)+'</span><span class="src '+e.k+'">'+e.k+"</span><span>"+esc(e.it.t)+(isDup?' <span class="dup">duplicate key — first occurrence kept</span>':"")+"</span></li>";
+  });
+  $("#mergeout").innerHTML=out;
+  $("#mergecount").textContent=shown+" shown"+(hidden?" · "+hidden+" deduped":"");
+}
+mseg.addEventListener("click",function(e){
+  var b=e.target.closest("button[data-m]");if(!b)return;
+  $$("button",mseg).forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});
+  renderMerge();
+});
+mdup.addEventListener("change",renderMerge);
+renderMerge();
+
+/* ── EXHIBIT C · rules ── */
+var ENTRIES=[
+ {t:"Frieren S2 — E12",src:"anime.source.a",type:"anime",genres:["Fantasy","Adventure"]},
+ {t:"The APFO Movie",src:"movie.source.b",type:"movie",genres:["Action"]},
+ {t:"Blue Lock — E214",src:"anime.source.a",type:"anime",genres:["Sports"]},
+ {t:"Donghua: Battle Through S5",src:"anime.source.c",type:"anime",genres:["Fantasy","Action"]},
+ {t:"Vagabond — ch. 327",src:"manga.source.d",type:"manga",genres:["Adventure","Drama"]},
+ {t:"Jujutsu 0 — re-release",src:"movie.source.b",type:"movie",genres:["Fantasy","Action"]},
+ {t:"Kaiju No. 8 — E07",src:"anime.source.a",type:"anime",genres:["Action"]},
+ {t:"Vinland Saga SF — ch. 204",src:"manga.source.d",type:"manga",genres:["Action","Drama"]}
+];
+var RULES={
+ type_movie:function(e){return e.type==="movie"},
+ type_anime:function(e){return e.type==="anime"},
+ genre_action:function(e){return e.genres.indexOf("Action")>-1},
+ source_in:function(e){return e.src==="anime.source.a"||e.src==="movie.source.b"}
+};
+var activeRules={type_movie:true},logic="AND";
+function renderRules(){
+  var on=Object.keys(activeRules).filter(function(k){return activeRules[k]});
+  var match=[],rest=[];
+  ENTRIES.forEach(function(e){
+    var vals=on.map(function(k){return RULES[k](e)});
+    var ok=on.length===0?true:(logic==="AND"?vals.every(Boolean):vals.some(Boolean));
+    (ok?match:rest).push(e);
+  });
+  function li(e){return '<li><strong>'+esc(e.t)+'</strong> <span class="no">· '+esc(e.src)+" · "+esc(e.type)+" · "+esc(e.genres.join(", "))+"</span></li>"}
+  $("#matchlist").innerHTML=match.length?match.map(li).join(""):'<li class="no">— no entries match —</li>';
+  $("#restlist").innerHTML=rest.length?rest.map(li).join(""):'<li class="no">— feed captures everything —</li>';
+  $("#cntmatch").textContent=match.length;
+  $("#cntrest").textContent=rest.length;
+}
+$("#rulechips").addEventListener("click",function(e){
+  var b=e.target.closest(".rulechip");if(!b)return;
+  var r=b.getAttribute("data-r");
+  activeRules[r]=!activeRules[r];
+  b.setAttribute("aria-pressed",activeRules[r]?"true":"false");
+  if(!Object.keys(activeRules).some(function(k){return activeRules[k]}))renderRules();else renderRules();
+});
+$("#rulelogic").addEventListener("click",function(e){
+  var b=e.target.closest("button[data-l]");if(!b)return;
+  $$("button",$("#rulelogic")).forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});
+  logic=b.getAttribute("data-l");renderRules();
+});
+renderRules();
+
+/* ── diagram links ── */
+$$(".diag .node").forEach(function(n){
+  var go=n.getAttribute("data-go");
+  function jump(){var t=$(go);if(t){t.scrollIntoView({behavior:"smooth",block:"start"});t.classList.remove("flash");void t.offsetWidth;t.classList.add("flash")}}
+  n.addEventListener("click",jump);
+  n.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();jump()}});
+});
+
+/* ── search ── */
+var ov=$("#searchov"),inp=$("#sinput"),res=$("#sres"),INDEX=[];
+secs.forEach(function(sec){
+  var body=$(".sec-body",sec);
+  INDEX.push({id:sec.id,label:sec.getAttribute("data-nav")||sec.id,text:(body?body.textContent:"").replace(/\s+/g," ").toLowerCase()});
+});
+var marks=[];
+function clearMarks(){marks.forEach(function(m){var p=m.parentNode;if(p){p.replaceChild(d.createTextNode(m.textContent),m);p.normalize()}});marks=[]}
+function markIn(sec,q){
+  var body=$(".sec-body",sec);if(!body)return;
+  var walker=d.createTreeWalker(body,NodeFilter.SHOW_TEXT,{acceptNode:function(n){
+    if(!n.nodeValue||!n.nodeValue.trim())return NodeFilter.FILTER_REJECT;
+    var p=n.parentNode;return (p&&(p.nodeName==="SCRIPT"||p.nodeName==="STYLE"||p.nodeName==="MARK"))?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT;
+  }});
+  var nodes=[],n;while(n=walker.nextNode())nodes.push(n);
+  var ql=q.toLowerCase(),count=0;
+  nodes.forEach(function(node){
+    if(count>=30)return;
+    var txt=node.nodeValue,low=txt.toLowerCase(),idx=low.indexOf(ql);
+    if(idx<0)return;
+    var frag=d.createDocumentFragment(),pos=0,hit;
+    while((hit=low.indexOf(ql,pos))>-1&&count<30){
+      if(hit>pos)frag.appendChild(d.createTextNode(txt.slice(pos,hit)));
+      var mk=d.createElement("mark");mk.setAttribute("data-hit","");mk.textContent=txt.slice(hit,hit+q.length);
+      frag.appendChild(mk);marks.push(mk);count++;
+      pos=hit+q.length;
+    }
+    if(pos<txt.length)frag.appendChild(d.createTextNode(txt.slice(pos)));
+    if(pos>0)node.parentNode.replaceChild(frag,node);
+  });
+}
+function openSearch(){ov.classList.add("open");inp.value="";res.innerHTML='<div class="none">Type to search across '+INDEX.length+" sections…</div>";inp.focus()}
+function closeSearch(){ov.classList.remove("open");clearMarks()}
+$("#bsearch").addEventListener("click",openSearch);
+ov.addEventListener("click",function(e){if(e.target===ov)closeSearch()});
+inp.addEventListener("input",function(){
+  var q=inp.value.trim().toLowerCase();
+  clearMarks();
+  if(q.length<2){res.innerHTML='<div class="none">Type at least 2 characters…</div>';return}
+  var scored=[];
+  INDEX.forEach(function(s){
+    var hits=0,i=s.text.indexOf(q),first=-1;
+    while(i>-1&&hits<50){if(first<0)first=i;hits++;i=s.text.indexOf(q,i+q.length)}
+    if(s.label.toLowerCase().indexOf(q)>-1)hits+=12;
+    if(hits>0)scored.push({s:s,hits:hits,first:first});
+  });
+  scored.sort(function(a,b){return b.hits-a.hits});
+  if(!scored.length){res.innerHTML='<div class="none">No matches for “'+esc(q)+'”.</div>';return}
+  res.innerHTML="";
+  scored.slice(0,9).forEach(function(r,idx){
+    var pos=Math.max(0,r.first-60),snip=r.s.text.substr(pos,150).split(q).join("«"+q+"»");
+    var b=d.createElement("button");b.type="button";b.className="si";
+    b.innerHTML="<b>"+esc(r.s.label)+"</b><span>…"+esc(snip)+"…</span>";
+    b.addEventListener("click",function(){
+      closeSearch();
+      var sec=d.getElementById(r.s.id);
+      markIn(sec,inp.value.trim());
+      sec.scrollIntoView({behavior:"smooth",block:"start"});
+      sec.classList.remove("flash");void sec.offsetWidth;sec.classList.add("flash");
+    });
+    res.appendChild(b);
+  });
+});
+inp.addEventListener("keydown",function(e){
+  if(e.key==="Enter"){var f=$(".si",res);if(f)f.click()}
+});
+
+/* ── keyboard ── */
+d.addEventListener("keydown",function(e){
+  var tag=(e.target.tagName||"").toLowerCase(),typing=tag==="input"||tag==="textarea"||tag==="select";
+  if(e.key==="Escape"){if(ov.classList.contains("open"))closeSearch();return}
+  if(typing)return;
+  if(e.key==="/"||(e.key==="k"&&(e.ctrlKey||e.metaKey))){e.preventDefault();openSearch()}
+  if(e.key==="t"){$("#btheme").click()}
+});
+
+/* ── print ── */
+$("#bprint").addEventListener("click",function(){clearMarks();$$("section.sec").forEach(function(s){s.classList.remove("closed")});w.print()});
+w.addEventListener("beforeprint",function(){clearMarks();$$("section.sec").forEach(function(s){s.classList.remove("closed")})});
+})();
+</script>
+</body>
+</html>

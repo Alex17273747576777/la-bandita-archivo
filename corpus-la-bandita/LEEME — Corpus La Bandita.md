@@ -1,0 +1,1581 @@
+# LEEME — Corpus de La Bandita (102ª edición · 2026-09-15, martes)
+
+Este paquete es La Bandita entera. Estado del día en el Handoff.
+
+## Novedades del 14-sep (noche)
+
+1. **Manual §5.4 (nueva):** 12 reglas extraídas del chat del 14-sep, con las palabras textuales de Alexis y la regla en lenguaje claro — corte de hoy, pieza limpia, trazabilidad aparte, aire al ojo, crecer solo con verdad, títulos que se explican, entrega explicada con números, órdenes que se traducen.
+2. **Lecciones de Alexis:** nueva entrada fechada (2026-09-14, II).
+3. **Las publicaciones del corte:** limpias y por canal — ahora 20 piezas en Facebook/ y 20 gemelas en WhatsApp/ (corte 2026-09-14).
+4. **Veredicto Usagi:** viva. Árbol Kotatsu: Kotatsu-Redo 9.8.3 · Futon 9.8.1 · Kototoro v2.1.2 · Usagi 1.0.
+5. **CORRECCIÓN DEL DUEÑO (noche #9):** Yūzōnō manga = espejo automático de Keiyoushi, sin aportes originales, descontinuado (no archivado) — piezas 02/04/16 corregidas. El canal anime de Yūzōnō se mantiene.
+6. **CONFIRMACIÓN + NUEVOS (noche #8):** 77 repos de las piezas 01-12 re-verificados — 0 cambios. Estrellas ajustadas por drift (aniyomi 7.679, Animiru 863, J2K 5.383, SY 4.143). Nuevos fichados: HayaiTTS (TTS offline ★39), yuzono/kohi-den (sucesión del almacén anime), tracker-extensions, rokku-nightly.
+7. **EXPEDICIÓN PROFUNDA:** las redes completas de las 4 ramas caminadas hasta las hojas (≈3.100 miembros, network/members): capa profunda con rarezas — kikuyomi (audiolibros), jishoyomi (estudiar con anime), Kuukiyomi ×7, históricos 2019, 2ª generación viva (yurei-MIUI v1.11.0, leassapie/houri). Verbatim del dueño (método del bosque) archivado en §0.3 del Manual.
+8. **LA CAPA QUE EL GRAFO ESCONDE:** Alexis trajo 5 forks que el barrido directo no vio — ShinKu ★31 (v2.6.9, IA discovery), MihonSY ★13, Pokomi ★11 (Author Following), NEXUS ★3, bchan ★5 — todos fichados en la pieza 16. Corrección: «Shinku no existe» era falso; Lecciones (III) con la lección.
+9. **REDES DE FORKS COMPLETAS:** las 4 guías por rama abren ahora la red de forks de sus 12 repos (≈800 barridos): Houri ★10 (Komikku, releases HOY), TachiyomiS97 ★125 (J2K), Chai ★12 (SY), Kuro ★21, yurei, yokai-T, MeMedia y demás activos con sus funciones propias. «Shinku» no existe en GitHub (verificado) — se pide enlace.
+10. **RE-ESCANEO DEL ECOSISTEMA:** Aniyomi despertó — v0.18.2.0/0.18.2.1 publicadas el 14-sep tras 11 meses; Animetail y Animiru confirmados como forks respaldados en aniyomi.org/forks; clúster de impostores SEO con 2 integrantes nuevos (nombrados sin enlazar).
+11. **GUÍAS POR RAMA (nuevas 13–16):** el árbol Tachiyomi/Mihon abierto por sus 4 ramas — Aniyomi/Animetail/Tadami · Animiru/Anikku · J2K/Yōkai/Rokku/Reikai/Hayai · SY/Komikku — con forks directos y sub-forks, todo verificado HOY. Corrección clave: Hayai ya es público.
+12. **MAPA SOLO ACTIVO (noche #10):** el mapa anota únicamente lo ACTIVO — release/push verificados con fecha; lo muerto pasa al Registro; los espejos sin aportes propios quedan fuera. Investigación completa ANTES de reportar.
+13. **LA LISTA (noche #11):** la pieza 00 reescrita como índice del ecosistema libre — mapa + título + descripción de cada guía, con meme textual ORIGINAL no sofocante.
+14. **MÉTODO EN PARALELO (noche #12):** exploración profunda en paralelo primero; actualización de lo existente después. Los recursos que nombra el dueño entran al mapa solo tras revisión («revisar bien»); «etc» = familia completa; los catálogos son fuente de listas.
+15. **PIEZA 17 «CAPA DE INMERSIÓN» (noche #13):** nueva guía — Chimahon · Hoshi-Reader · Yomikai · Yomi · Koharia y servidores Komga/Kavita; LA LISTA llega a 17 guías y estrena sección «Los catálogos».
+16. **EXPLORACIÓN LIBRE (noche #14, regla nueva — Lecciones IV):** «Nunca te limites solo a lo que te doy… explora libremente, pero sin acumular basura». Komga (★6.659, MIT) y Kavita (★11.677, GPL-3.0) fichados en pieza 17; Dantotsu con licencia-broma (UPL) sigue observado. La pregunta del dueño sobre los sueños archivada verbatim.
+17. **CANCIONES DEL TRATADO (noche #15):** §0.3 quinta ampliación — Mañana Será Otro Día · Hace Falta Soñar · Cámbiate · Vuele Bajo (enlaces letras.com verificados) + 9 candidatas multilingües sin ratificar. Cotejo: la pregunta del dueño era el estribillo de «Hace Falta Soñar» (Lecciones IV).
+18. **CATÁLOGOS DE LA CASA (noche #16):** 7 catálogos de artista → 14 fichas nuevas al §0.3 (Canserbero ×2 · Cabral ×2 · MJ ×2 · Ado ×2 · Milo J ×2 · Lavoe ×2 · Colón ×2). «No soy de aquí» promociona de candidata a ficha.
+19. **LOS CAMINOS DE LA VIDA (noche #17):** Grupo Niche · Los Diablitos · Los Vaguens abiertos HOY — 4 fichas nuevas (Busca Por Dentro · Amanecerá y veremos · No Voy a Llorar · Al Despertar) + enlaces oficiales para «Lo Que Soy» y «Los Caminos de La Vida». REPARACIÓN: este LEEME seguía en 30ª real — se pone al día con esta entrega, huellas regeneradas de los archivos.
+20. **BUENOS DÍAS SEÑOR SOL (noche #18):** el cotejo pendiente desde el 10-sep se cierra — «Buenos días señor sol» es de **Juan Gabriel** (1979, letra verificada; la ficha [A] promueve a [T]). 6 catálogos nuevos (Juan Gabriel · Joe Veras · Coldplay · Harry Styles · Young the Giant · Rag'n'Bone Man) → 11 fichas nuevas al §0.3: Adventure Of a Lifetime (la favorita del dueño; «Everything you want's a dream away») y As It Was («it's not the same as it was») con letra completa verificada; Fix You · Sign of the Times · My Body · Mind Over Matter · Human · Skin · Canta Vive y Sueña · y en el barrio, Joe Veras «La vida es asi» y «El Molde».
+21. **REMAPEO COMPLETO + LIBROS Y MÚSICA (noche #19):** 31 repos con pulso HOY — el ecosistema fichado sigue exacto (única novedad: Metrolist Nightly, → pieza 08). Nueva pieza 18 «Libros libres»: OpenlibExtended (cliente open source de Anna's Archive, AGPL-3.0, v1.6.0 — busca en LibGen/Z-Library/Anna's a la vez, lector EPUB/PDF, TTS beta). Pieza 08 ampliada con N-Zik (fork multilingüe de Kreate) y Gabi (descargador yt-dlp/gallery-dl, 1000+ sitios). LA LISTA pasa a 18 guías. Piezas: 19 FB + 19 WA gemelas.
+22. **RE-VERIFICACIÓN ANIZEN + iQOO (noche #20):** AniZen v0.5.211 sigue siendo la última release (no hay versión más nueva; cadencia semanal; sin ficha en Google Play — los «viejos» de los grupos son espejos); las «~1000 reseñas de la beta» quedan como dicho del dueño sin fuente (el enlace la cierra). El dueño tenía razón en el iQOO: AnTuTu sep-2026 — #1 RedMagic 11S Pro+ (4.118.689), #2 iQOO 15 Ultra (4.118.578). Piezas 10 y 11 actualizadas con fuente y fecha.
+23. **LA BETA DE ANIZEN (noche #21):** el dueño trajo el enlace — anizen-preview («Automated Preview Builds», ★8): 981 releases automáticas, varias por día. El «casi 1000» de la noche #20 era REAL: releases, no reseñas; «la beta va a tren», verificado literal. La estable sigue en v0.5.211. Pieza 11 actualizada; Lecciones (V): el enlace no solo cierra el caso — a veces le cambia el nombre.
+24. **VERIFICACIÓN FINAL + PANORAMA MULTI (noche #22):** 36 repos con pulso de cierre — lo publicado sigue exacto (N-Zik ya cocina v8.0.0-dev en repo; estable de tienda 7.5.1-f). miyomi.app Multi renderizó HOY (~33 apps) → PIEZA 19 nueva «El panorama multi»: 7 fichas multi de la casa con pulso + 12 nombres nuevos sin enlace (regla de URLs). Hallazgo: J2K 1.8.1 = 15-ago-2026 (corrige la fecha del FIX pendiente de la pieza 16 — el fondo se mantiene).
+25. **PROYECTO BIBLIOTECA 50–80 (martes 15-sep):** el dueño trajo la V25 (1.029 fichas contadas, corte 2-sep) → lote 1: Mapa de la Biblioteca (75 = 20 existentes + 55 nuevas por las 12 puertas), Inventario V25 al corpus, PIEZA 20 «La Biblioteca» (corte 15-sep). Pendiente: lotes 21–74, una puerta por turno.
+26. **ACTUALIZACIÓN AL DÍA + LOTE 2 (martes 15-sep):** pulso matinal de 36 repos — Kototoro v2.1.3 e Ymikai v1.9.83 amanecieron con release (piezas 02/00/17/19 al día); el resto igual. PIEZA 21 «Música I»: la primera cosecha del muro — 12/12 fichas verificadas a fuente HOY (2 más nuevas que el V25; el RESUMEN del muro documentado como relleno genérico).
+27. **LOTES 3-4: LECTURA + ANIME/VÍDEO (martes 15-sep):** vara del dueño: cada pieza con su contexto, nada de copy-paste genérico. 17 fuentes verificadas HOY — 14 vivas a las piezas 22 («Lectura II — la repisa del muro») y 23 («La sala del muro»: IPTV/Jellyfin/reproductores — la puerta no era anime), 2 archivados al Registro (Kumo, CornCastle). Cruces con las guías de la casa citados, no repetidos.
+28. **LOTES 5-7 — COSECHA COMPLETA DEL MURO (martes 15-sep):** 48 fuentes verificadas (OpenCloud 8.0.0, ShizukuPlus v13.6.0 y Greet&Grow v1.4.0 publicadas HOY; 0 archivados; 1 radar GitLab 403). Piezas 24 «El taller» (18 herramientas de Shizuku/root), 25 «El sótano» (7 servidores propios), 26 «El cajón» (24 fichas en 3 compartimentos, con vara anti-inflación sobre open-design ★96.304 y nowinandroid re-ubicado como proyecto-escuela de Google). La capa verificada del muro (~82 fichas) queda completa en piezas 21-26; 940 candidatas esperan lotes futuros.
+29. **EXPLORACIÓN POR PUERTA — FAMILIA AXMANAGER (martes 15-sep):** regla del dueño: LA LISTA no se apega solo al muro — cada puerta se explora hacia afuera. Primera red: AxManager (★1.433, madre) + AxManagerD (Dhizuku) + AxManager-pro + Axora (el «medio fantasma» existe) + Axeron-API — pieza 24, sección «Los que el muro no tenía».
+30. **INVESTIGACIÓN + MÚSICA II (martes 15-sep):** paquete remanente investigado (UUID = Lecciones 13-sep, subconset del corpus; miyomi Multi cerrado en 37 apps). Exploración de sucesiones: InnerTune → Estrella-Music (heredero renombrado); Metrolist → mudanza a MetrolistGroup, Meld es su hija (corregido en pieza 21), nietos MetroFuse e Iride. PIEZA 27 «Música II — las sucesiones». API GitHub agotada al cierre (pendientes: estrellas de Iride, más puertas).
+31. **LOTE ANDROID I — EL TRONCO (martes 15-sep):** 18 fichas verificadas (raíz, gestión sin root, tiendas) — Magisk ★62.780, scrcpy ★149.679, Shizuku ★30.154, Termux ★60.850, Obtainium ★19.688, Dhizuku, Hail (aistra0528), SAI (release estancada 2021, aviso), LSPosed (release vieja, push vivo — matiz). 173 candidatas clasificadas (catálogos → fuente; lectura/anime → sus puertas). Método SEARCH+atom con CORE agotada. PIEZA 28. Pendientes: estrellas Hail/Iride, ~155 candidatas.
+32. **LOTE ANDROID II — LOS MAYORDOMOS + «VUELA BAJO» (martes 15-sep, tarde):** lección nueva del dueño (Lecciones, 15-sep): «vuela bajo, porque abajo está la verdad» — deudas pagadas raspando casas sin API (Hail ★6.666, Iride ★15 → piezas 27/28). 13 fichas: gestores (Inure, ShizuTools, ObtainX —release HOY—, Buge, AppControl-X), dueño/perfiles (OwnDroid madre, Canta, Island, Shelter, FreezeYou), debloat (UAD dormida → UAD-NG; SD Maid SE viva, vieja ARCHIVADA), KeyMapper. Radar: EnforceDoze. PIEZA 29. Quedan ~90 candidatas Android.
+33. **LOTE ANDROID III — LA CARA DEL SISTEMA (martes 15-sep, tarde II):** 12 fichas (lanzadores, fondos, teclados, personalización, artesano KieronQuinn). Lawnchair ★13.525 Nightly de HOY; mudanza certificada Helium314→HeliBorg (HeliBoard ★6.117); estirpe OpenBoard→HeliBoard verificada; TapTap/AmbientMusicMod tranquilas (vigilar). Pendientes: SmartDock, Peristyle, Grayscaler, SmartIsland, Adaptive-Hz, Tweaker. PIEZA 30. Quedan ~80 candidatas Android.
+34. **AUDITORÍA DE LA CASA — «ESPALDA A LOS ELOGIOS, FRENTE A LA CRÍTICA» (martes 15-sep, tarde III):** lección 15-sep II + §0.3 Cuarta ampliación (Reigen Arataka, [P]/[A]). Reparado: typo «viges»; pieza 16 Yomiko → J2K 1.8.1 = 15-ago-2026 (legacy saldado). Documentado sin tocar: LA LISTA (archivo 16 / título 18 — decisión del dueño).
+35. **LOTE ANDROID IV — LOS PEQUEÑOS DEL SISTEMA (martes 15-sep, tarde IV):** 11 fichas de utilitarios de una sola cosa; 6 pendientes de la pieza 30 resueltos (SmartDock, Peristyle, SmartIsland, Grayscaler, Adaptive-Hz; Tweaker→radar); RADAR EnforceDoze de la pieza 29 CERRADO por enlace (Akylas, vía awesome-shizuku). Radares: ShortsBlocker, ScreenOff (nombres con conflicto). PIEZA 31. Quedan ~70 candidatas Android.
+36. **BARRIDO DE CIERRE DEL DÍA — «PASO QUE DURE» (martes 15-sep, tarde V):** lección 15-sep III (la calma es duración). Orden noche #22 cumplida: barrido de los 107 repos citados en las piezas del día — 107/107 VIVOS, 0 fallas, versiones sin desvío. Consolidación.
+37. **LOTE ANDROID V — EL CABLE Y EL ESCUDO (martes 15-sep, tarde VI):** 10 fichas (cable/PC, red/escudo, actualizadores, módulos). TWRP con matiz (push HOY, builds fuera de GitHub); NetGuard raspada de casa conocida; SUCESIÓN Nº5: FoxMMM→Androidacy (letrero propio). 3 matizes fechados. PIEZA 32. Quedan ~60 candidatas Android (ambiguos por identificar).
+38. **LOTE ANDROID VI — LOS ARCHIVOS DEL TALLER (martes 15-sep, tarde VII):** 9 fichas (cajones, paquetes, agente IA, vanidades, guardián). Haven ACTIVO (v5.87.86 de ayer — el «dormido» era falso); YoukiDEX ARCHIVADO con despedida fechada HOY; shizuku-modules como colección. PIEZA 33. Puerta Android: recta final — quedan los ambiguos (~15 nombres).
+39. **REGLA: CADA CONTEXTO, SU PROPIA VARA (martes 15-sep, tarde VIII):** aclaración del dueño («"Sigue así" = adaptarse a cada contexto, no repetir el método») + frase del pez/árbol (enlace del dueño registrado, reintento pendiente). Mapa regla 8. 4 ambiguos resueltos con varas distintas: Extendroid (legendsayantan, autor doble con ShizuTools), OmniPrompt, pastiera (teclado físico), Fluffy=app.fluffy (mlm-games, autor doble con BatStats; vara = catálogo F-Droid). Pista: project_mythara (agente IA local). Quedan ~11 ambiguos.
+40. **LOS AMBIGUOS RESUELTOS — PUERTA ANDROID COMPLETA (martes 15-sep, tarde IX):** 7 identificados con varas distintas (NFile, SelfLock, Language-Selector+Neo, WidgetsPro, Smart-Edge+homónimo, deskcontrol, ADNS); 4 radares con porqué (Hamburger, MagicDesk/C64, Sentry FM, PI). PUERTA ANDROID COMPLETA: 173 candidatas procesadas (piezas 28-34). PIEZA 34.
+41. **AUDITORÍA MAYOR DEL DÍA (martes 15-sep, tarde X):** barrido vivo 180/180; desvíos corregidos (Kvaesitso 1.41.0, DreamPlayer 0.4.5 — ambos salidos HOY); legado pieza 15 «builds» saldado con fuentes primarias (Rokku r7091 · Hayai r6674); aportes cruzados en p29/30/32/33 (la biblioteca se cose a sí misma). Enlace del pez: 2º fallo, radar sigue. Sin listas nuevas: consolidación.
+42. **PUERTA LECTURA I — LA ESTIRPE DEL LECTOR (martes 15-sep, tarde XI):** tachiyomi/J2K 404 (DMCA — la tumba sin página; hilo p16); 12 fichas (Mihon ★23.596 rey, Komikku, Yōkai, Yomihon OCR, Reikai, miko, Aidoku iOS, mihon_img_upscale fork-IA, Manatan híbrido, Komelia, zyddnys ★10.418 el traductor verdadero). Homónimos Kumo a separar. PIEZA 35. Quedan ~150 candidatas Lectura (libros, extensiones).
+43. **PUERTA LECTURA II — LOS LIBROS (martes 15-sep, tarde XII):** 8 fichas (KOReader ★29.716, Calibre ★25.908, Librera, Myne→Gutenberg, Kiwix, Book's Story, Tadami, Bookwyrm Android); radares: Aard 2 = 404 (desaparecido silencioso, sin DMCA), EbookConverter, Chaka. PIEZA 36. ~135 candidatas Lectura restantes.
+44. **VENTANERÍA DE LA CASA (martes 15-sep, tarde XIII):** pez: 3er fallo (radar sigue); miyomi Anime ABRIÓ (~40 apps del catálogo leídas; chunk 2 pendiente); Mythara identificada (ankurCES/project_mythara ★88 → aporte p33); Kumo: corrección de p35 — la archivada era nubesurrealista, la viva es nardjes5/kumo-surreal ★116 (estaba en el inventario). Abiertas: LA LISTA 16/18 (dueño), canciones, J2K, chunk 2, radares.
+45. **VENTANA CERRADA: CATÁLOGO COMPLETO MIYOMI (martes 15-sep, tarde XIV):** Supabase REST con anon key pública del repo (clave NO pegada en documentos — regla 13-sep): 133 apps + 45 extensiones → datos-miyomi/ (apps.json, extensions.json, VENTANA…md — fuera del ZIP). 27 ya fichadas · 106 nuevas (Anime/vídeo, Lectura III, Sótano; Github Store → Tronco). Genealogías fork_of. Tachiyomi consta (10M, víspera DMCA).
+46. **VENTANA MCP ABIERTA (martes 15-sep, tarde XV):** github/github-mcp-server v1.12.1 instalado (--read-only, Device Flow firmado por el dueño, token solo en memoria). Ronda: 9/9 fichados vivos en 1 llamada; Kototoro RESUELTO (skepsun→Kototoro-app, mudanza, misma v2.1.3); lección OR en tandas de ~5; Readest ★24.350 → aporte p36. Token vive 2h (keepalive); reinicio = nuevo código.
+47. **PUERTA ANIME/VÍDEO I — LA PUERTA GRANDE (martes 15-sep, tarde XVI):** 11 fichas con doble vara (MCP por tandas de 5 + atoms): Cloudstream ★10.677, Seanime ★4.145, Mangayomi ★3.797 (HOY), Nuvio ★3.425 (HOY), Shiru←Miru (declarada), Dartotsu←Dantotsu, DodoStream, AniLabX, Anisurge, Miru (matiz), Dantotsu-vía-updater. Aporte al Tronco: Github Store («Komi Store» 1.9.2 — catálogo atrás). Delegados → Lectura III. PIEZA 37. ~90 candidatas Anime.
+48. **BARRIDO DE CIERRE II — «COMO EL AGUA» (martes 15-sep, tarde XVII):** lección 15-sep V (lento-firme, fluido, no controlar todo). 238/238 repos del día vivos, 0 fallas; 2 micro-corrientes corregidas (Houri v1.22.1 en p16, NekoVideo v1.4.1 en p23). MCP dejada caducar (reabrir = 1 min).
+49. **PIEZA 38 — EL VIVERO: LOS GERMINANTES (martes 15-sep, tarde XVIII):** regla 9 del Mapa (fruto maduro vs. germinantes — observación, no uso diario). 13 fichas: 2 cadenas certificadas por git (Yomiko←Discord-RPC←TachiyomiSY; houri-hijo←Houri); semilleros Mihon/Komikku; familia Kotatsu declarada por catálogo; Nyora app≠extensión. Piezas: 19 FB/19 WA.
+50. **PUERTA ANIME/VÍDEO II — LA BODEGA (martes 15-sep, tarde XIX):** Jellyfin ★57.158 (12.1 DE HOY), Kavita ★11.679, Suwayomi ★7.691 (SyncYomi), Komga ★6.660, Seanime (frontera p37). Linaje Tachidesk→Suwayomi→Tachimanga cerrado. PIEZA 39. Piezas: 20 FB/20 WA.
+51. **PUERTA LECTURA III — EL ESTUDIO (martes 15-sep, tarde XX):** 12 fichas de escritorio + invitados: anx-reader ★8.853, Thorium ★2.870, OpenComic ★1.969, YACReader ★1.373, Yomikiru ★552, FMD2 ★1.138 (←FMD), koharu ★5.561 (0.83.1 DE HOY; mudanza a koharu-rs), IReader ★938, LNReader ★2.834 (mudanza a lnreader), QuickNovel ★1.820, Openlib ★2.475, Paperback ★782 (casa dividida). Piezas: 21 FB/21 WA.
+52. **VENTANA MIYOMI COMPLETA (martes 15-sep, tarde XXI):** 133 apps → 65 fichadas / 68 pendientes (59 verificadas HOY). Migu y Venera-madre archivadas; madres fuera del catálogo (TachiyomiEH, AniHyou-android); fork-de-fork Nekori←tsundoku; NovelDokusha renombrada; Hentoid/Hayase API 451. Acta en datos-miyomi/INVENTARIO DE PENDIENTES (fuera del ZIP). Piezas: 21 FB/21 WA.
+53. **PUERTA ANIME/VÍDEO III — LOS CAZADORES (martes 15-sep, tarde XXII):** 15 fichas de la cola Miyomi (2 líneas: ≥500★ y 200–500★). JHenTai ★5.535 · AnymeX ★1.203 · NineAnimator ★819 · Zenshin ★767 · OtakuWorld ★630 · Skystream ★575 (hija de CloudStream) · +9 de segunda línea. Catálogo atrás ×5. Piezas: 22 FB/22 WA.
+54. **BARRIDO DE CIERRE III + REPASO GENERAL (martes 15-sep, noche XXIII):** 277/277 repos vivos (0 muertos, 0 bloqueos, 0 fallas) · 33 releases de HOY cuadradas · sin corrientes nuevas. Cuenta: 42/50-80 pubs; colas listas (pequeños, Sótano II, novelas, Venera, extensiones, web-451); ~53 pendientes de catálogo (80/133 fichadas); viejos intactos. Piezas: 22 FB/22 WA.
+55. **LA FOSA — SÓTANO II (martes 15-sep, noche XXIV; lección 15-sep VI «lo profundo del mar; si hay uno, hay dos», Cabral cotejado):** 8 fichas del fondo (stump ★2.696, Houdoku corregido, ComicRack CE, Unyo, toru, Frank Yomik — gemela de koharu, Moku, Emaki) + cadena de 5 generaciones (EH→AZ→SY ★4.146→RPC→Yomiko) + corriente de extensiones 40/40 vivas. Migu ARCH al Registro. Piezas: 23 FB/23 WA.
+56. **LA CORRIENTE — EXTENSIONES (martes 15-sep, noche XXV):** 45 ext → 38 repos fuente (38/38 vivos, 26 push HOY, 8 sin casa al radar). Keiyoushi/yuzono×3/Secozzi/Suwayomi/Aidoku-Community/inkdex/LNReader-plugins; acequias ×9; idiomas fr/pt-BR/zh; Shebyyy y TheNetsky en dos cuencas; Kavita bodega-fuente. La ley: el río fluye por commits. Piezas: 24 FB/24 WA.
+57. **LOS PEQUEÑOS (martes 15-sep, noche XXVI):** 13 fichas menudas con casa viva: tele (NyanTV, Sozo TV), bolsillo (ReDantotsu remake declarado, AniSync, NHApp, kaizen, Sozo, Nekoyomi 0.20.6, uwumi, Kitsu-X declarada, KomaStream), Sozo-Read (Spyou ×2), KamiYomu self-hosted. Familia Sozo ×3. Piezas: 25 FB/25 WA — faltan 5 para el mínimo.
+58. **LAS CANCIONES — LA VOZ DE AMÉRICA (martes 15-sep, noche XXVII):** Los de Las Condes (musicapopular.cl; «El corralero», LP 1966, 4 LPs) + Mercedes Sosa (letras.com, 411 canciones, top 15 con autores verificados — «Todo cambia» de Julio Numhauser). Ratificadas con enlace: «Sólo le pido a Dios» y «La maza» (6 de 8 pendientes). Sin letras verbatim. Piezas: 26 FB/26 WA.
+59. **CIERRE DE PENDIENTES (martes 15-sep, noche XXVIII):** p30 «Once fichas» · p04 TOC alineado · LA LISTA con nota fechada (título: decisión del dueño) · 8/8 canciones con enlace verificado (letra y crédito constados) · pez cerrado (404 constatado) · hilo J2K cerrado (Yomiko = línea SY). Archivos sin pendientes salvo la palabra del dueño.
+60. **ADOPCIÓN DE LAS OCHO CANCIONES (martes 15-sep, noche XXIX):** 4 ADOPTADAS con columna: porqué (Sólo le pido a Dios), identidad (Man in Black), protocolo (Lean on Me), método (La maza — «la maza sin cantera» = el cotejo). 4 FAMILIA AMPLIADA: Jara, Buarque, Cooke, Dylan. Tratado intacto. Piezas: 26 FB/26 WA.
+61. **LECTURA IV + ÚLTIMA PUERTA + CLASIFICADOR (martes 15-sep, noche XXX):** p46 «La sala de las novelas» (6 fichas; LNCrawler reclasificado descargador) · p47 «La última puerta» (Venera + remanentes + VEREDICTOS: Hentoid y Hayase muertas por DMCA constatado) — CATÁLOGO MIYOMI 133/133 CERRADO. Clasificador general v1 (rango y clase, ~330 repos + 12 canciones). Lección 15-sep VII (Mayuri). Piezas: 28 FB/28 WA.
+62. **LA V25 VUELVE + BARRIDO DE LOS 683 (martes 15-sep, noche XXXI):** archivo reconstruido ×4 idiomas (1.008 filas contadas; 940 identidad; multi-forja) · 683 repos nuevos 683/683 barridos 0 fallas (R1 434/R2 167/R3 78; Dantotsu y OpenTune 451; CuxPlug E) · Anexo V25 al Clasificador · p37 con confirmación Dantotsu. **PIEZAS 48-49 → 50 FB + 50 WA: MÍNIMO ALCANZADO.**
+63. **LA DISCOTECA I (martes 15-sep, noche XXXII):** 231 fichas de música de la V25 → 186 nuevos → 186/186 barridos 0 fallas (118 R1). 12 fichas HOY: echo ★3.531, Flow ★2.212 (familia InnerTune), azusa ★1.364, Audile ★1.322, BitChord ★1.176, Rush ★1.023, lissen ★733 + 5 artesanos. Homónimo Futon detectado. Piezas: 31 FB/31 WA.
+64. **LA DISCOTECA II (martes 15-sep, noche XXXIII):** Finamp ★4.261 (el más grande de la mina; mudanza jmshrv→finamp-app, v0.9.25 HOY en ambos) · Jellyfin Android ★2.764 · +9 fichas (PixelPlayerOSS, InternetRadio, anti-vocale, Podcini.A+UT.urn, flac-r, OmegaPlayer, mafik/echo homónimo). Mina: 163 restantes. Piezas: 32 FB/32 WA.
+65. **LA VIGILIA MASIVA (martes 15-sep, noche XXXIV):** el 1.008 de la V25 CONTESTADO AL 100%: p52 discoteca III (163), p53 otras forjas (89 sondadas), p54 sistema (102), p55 lector/bibliotecas (207), p56 anime/servidores (186). 25 fichas nominativas + 951 censadas. Piezas: 37 FB/37 WA (57+57 totales).
+82. **HORNADA C — MÁS MASIVAMENTE: 48 DE UNA VEZ (15-sep, noche):** piezas 30–74 y 76–78 adaptadas a Discord dominicano-ES tras verificación previa (34 existentes: 0 problemas). El peine gemela real FB↔Discord cazó desvíos de la médula truncada: 22 reescritas con los datos reales de sus gemelas (V25 1.008 · barrido 683 · censos 163/102/207/186 · forjas 136 · 7 ceros · actas 451 · LA LISTA con meme original) + 4 parches (OpenMinis ★4.485 · Mihon ★23.596 · Komikku ★4.720 · Tadami ★55 · Komga ★6.660). Re-peine: gemela 48/48, formato 0, TSV limpio. Discord dominicano-ES COMPLETO: 00–79 + pieza 80 = 81 piezas. Registro #80. ZIP 101ª (378 miembros).
+81. **HORNADA B — 20 EN 20 (15-sep, noche):** piezas 10–29 adaptadas a Discord dominicano-ES con el molde de casa; valores stale escritos corregidos desde la casa y sincronía fina completa vs TSV; 0 índices, 0 P10, sin párrafos compartidos. Discord dominicano-ES COMPLETO en su primer bloque (00–29 + 75 + 79 + 80 = 33 piezas). Sigue: 30–79 (Hornadas C–H) y las demás plataformas/lenguas. Registro #79. ZIP 100ª (330 miembros).
+
+80. **HORNADA A — LA OBRA GRANDE ANDA (15-sep, cierre):** 10 piezas 00–09 adaptadas a Discord dominicano-ES con el molde de casa y el censo de la noche; sincronía fina vs TSV; residuos fuente p06/p08 corregidos con gemelas; 0 índices crudos, 0 P10, sin párrafos compartidos. Sigue: Hornada B (10–19 → Discord) y las demás plataformas y lenguas. Registro #78. ZIP 99ª (310 miembros).
+
+79. **REPASO EXTENSO DE ÓRDENES (15-sep, cierre):** aviso del dueño — el árbol multiidioma está vacío frente al alcance real de #66 (80 listas × plataformas × 7 lenguas; pendiente 2.569–2.689). Emitido el documento de protocolo «Repaso completo de las órdenes — interpretación extensa» (40 órdenes al máximo, 7 cacarones, regla nueva, plan de hornadas). Ficha 76 · Lección VIII. Registro #77. ZIP 98ª (300 miembros).
+
+78. **EL MAPA AL DÍA (15-sep, cierre):** aviso del dueño — la lista 00 quedó con la foto de la tarde. Corregido: p00 con «Corte de hoy» extendido (censo 560 · Riffle/Debrify · Tadami-org · Nuvio-Play) + nota fechada «el mapa al día»; p23 lista Debrify en su árbol; p36 anuncia Riffle en el suyo. Gemelas incluidas. Registro #76.
+
+77. **CIERRE DEL DÍA (15-sep, 5:15):** última verificación de integridad sin red: 0 hallazgos (ZIP↔disco byte-a-byte, hashes del LEEME, gemelas 80/80, 299 miembros, sin token ni residuos del 14). El día cerró con las actas #71–#74. ZIP 96ª = entrega final del 15 de septiembre. El dueño descansa.
+
+76. **PROFUNDIDAD EXTREMA — 404 REALES RESUELTOS + BÚSQUEDA GLOBAL (martes 15-sep, noche):** los tres «404» del censo eran: 2 placeholders de p75 traducidos (corregidos en prosa propia en EN/HI/FR/RU/zh con nota fechada) y 1 puntero truncado de la cita del README de TWRP en p65 (TeamWin viva: twrp.me 200, android_bootable_recovery ★1.712; la cita se completó y se actó). Las 8 bloqueadas por tasa: todas vivas una por una (560/560 casas resueltas). Noticia global: Nuvio suspendido de Play el 8-sep (DMCA/MPA; casas vivas, apps falsas en Play) → actas en p37/p56/p64/p74. p74 coma→punto. Registro #74.
+
+75. **VERIFICACIÓN FINAL MASIVA (martes 15-sep, noche):** 560 casas citadas raspadas en vivo y en paralelo (estrellas/releases/push; la cola bloqueada por tasa re-abierta con paso lento): 545 vivas, 122 con señal de HOY, censo detallado en datos-censo/verificacion-viva-2026-09-15.tsv. Motor pieza-vs-casa: 5 correcciones reales (Levyra ★294, OwnTV ★428, DreamPlayer v0.4.6, KillMyApps v1.6, Dextop ★238) + 2 sitios propios 404 actados (docs de Kototoro en p02, sitio de Omnify en p01; casas vivas). 37 dominios externos barridos (6 muros anti-bot documentados). Batería anti-bacteriana molecular en 286 archivos: 0 hallazgos; gemelas 80/80. Registro #73.
+
+74. **RECTIFICACIÓN TADAMI + FICHAS RIFFLE/DEBRIFY (martes 15-sep, noche):** el dueño corrigió el acta — Tadami VIVO: andarcanum ★260, v0.62 (12-sep), push 13-sep; el 404 era del slug muerto anandnet; error de atribución rectificado fechado en p02/p06/p13/p19; nueva org tadamiorg/tadami (★56). Fichas nuevas por enlace del dueño: Riffle (pkmetski/riffle ★15 · v2.44.3 · push HOY · Audiobookshelf/Storyteller · REQUEST_INSTALL_PACKAGES constado en manifiesto) → p36; Debrify (varunsalian/debrify ★516 · v0.9.2-alpha.1 de HOY · AGPL-3.0 · debrify.tv · une debrid/WebDAV/IPTV/Stremio/YouTube) → p23. Registro #72.
+
+73. **MUDANZA 00–19 — LA HORNADA DEL 14 VIVE EN EL 15 (martes 15-sep):** mandato del dueño («actualizado, verificado, reescrito y movido a 2026-09-15»). 20 piezas (40 con gemelas) actualizadas y re-verificadas contra las casas a HOY: Mihon ★23.601 (push HOY) · Komikku ★4.721 · SY ★4.146 · Neko ★2.792 · Anikku ★1.032 (+r8932 HOY) · Aniyomi ★7.683 · Keiyoushi ★14.980 · Yūzōnō anime ★432 · manga-repo ★445 · Kototoro v2.1.3 de HOY · Chimahon v2.4.2 de HOY · Yomikai 1.9.84 de HOY · Houri v1.22.1 de HOY · Usagi ★257 viva · Kotatsu ★8.855 · AppManager ★8.985 y OrganicMaps ★15.427 (push HOY) · SimpMusic ★11.257 · Metrolist ★12.789 · **TADAMI: casa 404 a HOY (acta en p13; el espejo no es el repo)** · N-Zik dev v8.0.0 de HOY. Serie 00–79 unificada bajo el corte del 15; hornada 14 archivada en archivo/ (fuera del ZIP). ZIP 92ª.
+
+72. **HIGIENE FINAL — SIN METADATOS DE IA, LISTAS SUELTAS, LEGIBLE (martes 15-sep, tarde):** barrido de 286 archivos (metadatos IA, rastros de asistente, frontmatter, comentarios HTML, invisibles, mojibake, listas pegadas, plantillas, ZIP comments): **0 rastros de IA reales** (las menciones Gemini/DeepSeek/🤖 son contenido periodístico sobre terceros); 3 defectos de legibilidad reparados con nota fechada: p59 censo con clase vacía (recalculado), p71 separador suelto, p58 doble espacio citado. Correcciones sincronizadas a gemelas.
+
+71. **ÚLTIMA TAREA — MAPA DE EXTENSIONES FAMILIA (martes 15-sep, tarde; SOLO Discord Miyomi):** pieza 80 en discord/dominicano-ES — Mihon ×8 · Aniyomi/Animiru/Anikku ×8 · Mangayomi ×5 · Kotatsu/Usagi ×7 · Stremio ×6; 18 duplicados con la web, 3 desactualizados (kodjodevf archivado, Kohi-den caído, Aniyomi sin desarrollo), 7 candidatos 🆕. Investigación: 18 casas raspadas HOY; índices crudos jamás pegados (#13).
+
+70. **REPASO GENERAL DE ÓRDENES + AMPLIACIÓN ALMENDRA (martes 15-sep, tarde):** auditoría total 0 hallazgos; repaso #23-#67 actado (pendientes solo de frontera p77). Anexo doctrinal «Ampliación al Tratado — las canciones de Almendra»: letras.com/almendra 38 canciones constadas; 8 adoptadas (Muchacha, Que el viento, Fermín, Plegaria, A estos hombres, Color humano, Camino difícil, Pototo); 0 letras verbatim; V.0.03 intacta (G-004).
+
+69. **MATRIZ MULTIIDIOMA COMPLETA (martes 15-sep, tarde):** hornadas 2-4 — p79 en Discord/Reddit/XDA ×7; p75 FB/WA en fr/hi/zh/ru; p75 Telegram ×7 y Rethubs ×7 (formatos propios: canal y tema fijado). Matriz p75 completa: 5 plataformas × 7 idiomas. QC nano-molecular: 0 hallazgos (Telegram ×6 líneas localizadas en QC propio). Árbol 04-: 118 archivos.
+
+68. **VERSIONADO MULTIPLATAFORMA — HORNADA 1 (martes 15-sep, madrugada XXXV):** guía de versionado (7 plataformas × 7 idiomas, anti-descarrile) + árbol 04-VERSIONES-MULTIIDIOMA + 25 piezas de p75 «El podio» (Discord ×7 · Reddit ×7 · XDA ×7 · FB/WA en-US/pt-BR). Top-20 deduplicado (ente ×2 espejo; ImageToolbox=ImageResizer renombrado; +Operit/NewsBlur). Comunidad: 4.198↑ en seis casas (Discord/WA/FB/Reddit/Telegram/Rethubs).
+
+67. **EL TECHO DE 80 (martes 15-sep, madrugada XXXV):** vara repasada (351 re-raspeados; podio nuevo: llama.cpp/immich/sing-box/SmartTube; 7 ceros verdaderos). Piezas 63-79: segundas filas ×6 · forjas por API ×2 (14 versiones constadas) · ceros · actas · libro de nombres · vivos · podio · recuento · frontera · LA LISTA · la octogésima. Forjas reconstruidas: 136 URLs; p53 corregida fechada; ANEXO FORJAS al Clasificador. TOTALES: 80 FB + 80 WA (00-79). Frontera anotada en p77 (sin acumulación).
+
+66. **HORNADAS NOMINATIVAS DEL TECHO (martes 15-sep, madrugada XXXV):** 6 hornadas top-estrellas por clase (p57 Lector · p58 Anime · p59 Taller · p60 Bibliotecas · p61 Servidores-raspado · p62 Ayudantes). API 403 → raspado de casa (54/54). awesome-selfhosted ★319k (etiqueta catálogo); Tweaker ★1.733 (radar ✓). Piezas: 43 FB/43 WA (63+63 totales; faltan 17 al techo).
+83. **MEGA-ORDEN — FASE es-DO COMPLETA (noche):** 472 piezas nuevas en `04-VERSIONES-MULTIIDIOMA/` — Reddit 78 + XDA 78 + Telegram 79 + Rethubs 79 + FB 79 + WA 79, cada bloque con verificación de apertura y de cierre (gemela numérica por pieza, ventanas anti-copypaste, repos contra el TSV). FB/WA = gemelas byte a byte del canon `03-PUBLICACIONES-2026-09-15/` (SHA-256 80/80). Discord dominicano-ES (81 piezas, HORNADA C) es la fuente madre de todas. Pendiente: 6 lenguas × 5 plataformas (3.300).
+84. **MEGA-ORDEN — LENGUA ingles-US COMPLETA (16-sep):** 550 piezas EN en `04-VERSIONES-MULTIIDIOMA/*/ingles-US/` — Discord 78 + Reddit 78 + XDA 78 + Telegram 79 + Rethubs 79 + Facebook 79 + WhatsApp 79 (sondas 75 ×7 y 79 ×3 intactas). Facebook·EN escrita por hornadas (50–54, 55–59, 60–64, 65–69, 70–74, 76–79) con gemela numérica ★★ y fechas verbatim de la madre es-DO, ventanas anti-copypaste rotas por reorden de campos/citas (contenido intacto), repos contra corpus CRUDO. WhatsApp·EN derivada por regla FB↔WA: gemelas byte a byte 79/79 (0 DIFFs). Barrido total de disco FB·EN 79/79 verde. LEEMEs ×7 con Estado; huellas regeneradas; TSV gemela EN (`datos-censo/verificacion-viva-2026-09-15-ingles-US.tsv`, números en formato EN 319,420). Sigue: frances-FR → portugues-BR → hindi-IN → chino-CN → ruso-RU (2.750).
+85. **EVALUACIÓN 16-SEP + NUEVO ALCANCE (16-sep):** verificación viva con API pública sin claves (32 peticiones): las 17 recomendaciones nuevas del dueño abiertas una a una — 15 casas NUEVAS (Scoop/Anon Downloader con ficha Appteka leída, AetherST, liams-appstore, Prisma-homónimo-resuelto, Vectras-VM, peel, EmuCoreX, Duck-Detector, duckAssist, Monica, mpvium, Podroid, REX-Player, kittytune, bitscoper_cyberkit) + 2 confirmaciones (Debrify p23, Termux p09/p28); 0 muertas, 0 impostores. Puntas de control: 11/11 vivas (deriva +2…+183; Usagi −1). Mudanza Metrolist CERRADA (301 → MetrolistGroup/Metrolist ★12.803). Radar TeamWin (API hoy: releases [] — discrepancia fechada con el censo 15-sep, no se reescribe). Censo del día: datos-censo/verificacion-viva-2026-09-16.tsv (29 filas) + informe datos-censo/Evaluacion-16-sep-y-recomendaciones-del-dueno.md. ORDEN DEL DUEÑO: la próxima edición será de 120 a 285 publicaciones (sustituye el techo 80); comunidad dicha del dueño: 12k Reddit solo, ~200k cuentas en el servidor, ~3k activos día/semana. Sigue: FR (reddit/xda/tg/rh/fb/wa) → PT-BR → HI → zh-CN → RU, y después la edición 120–285 con las 15 casas nuevas repartidas por puerta.
+
+**BORRADORES: falta lectura y firma humana de Alexis. Sin firma no hay envío.**
+
+## Cómo está organizado
+
+**00-DOCTRINA/** — Tratado V.0.03 + V.0.02 + Manual (con §5.4) + Fichas + Edición Completa + Prompt
+**01-REGISTRO-Y-PROTOCOLO/** — Handoff + Lecciones + Dossier Fila 2 + Registro de verificación
+**02-EJEMPLOS-Y-ARCHIVO/** — Carta + Lecciones extraídas + Auditoría
+**03-PUBLICACIONES-2026-09-14/Facebook/** — 20 piezas
+**03-PUBLICACIONES-2026-09-15/Facebook/** — 60 piezas (Biblioteca: plano + cosecha 21-79, techo)
+**03-PUBLICACIONES-2026-09-15/WhatsApp/** — 60 gemelas
+**03-PUBLICACIONES-2026-09-14/WhatsApp/** — 20 piezas
+
+## Regla de oro
+
+El asistente redacta borradores; **la firma es humana o no hay envío**. Cada enlace se abre el día en que se usa. Las piezas públicas van limpias; la verificación se registra aparte (Manual §5.4). No se pegan nunca: índices (index.min.json / index.pb), JWT/anon keys, URL de JAR, APK de mods stores, Discord de envío, URL de clon TMO.
+
+## Huellas SHA-256
+
+### 00-DOCTRINA/
+- Ampliación al Tratado — las canciones de Almendra (15-sep).md — `2f258ac477393fa8b47b395532a5e3d99eb42acaf26c9a125462d8eb176f8b7c`
+- Manual de Campo La Bandita — Edición Completa.md — `47f905d16337b6ea52870d199759ab08901f7c4de383906d99b9161d07329c05`
+- Manual de Campo La Bandita — Fichas de Fallos (Uso Diario).md — `01f751b8c4c42b6bcce5845336eb1b3b299b9dc19f06110d99961ed278af8758`
+- Manual de Campo La Bandita — V1.0.md — `0fd019e9f7f6fb66a2eba7d436b9801c6c3ef5fa9ce29f66a394a7281395be63`
+- Next Tratado Bandita Open Source — Fusión Universal V.0.02.md — `239e22d67cbf6f03bb9a81f3e18878a55bca256f487a9e0925c3942bf080a0ae`
+- Next Tratado Bandita Open Source — Fusión Universal V.0.03 (Edición Corregida).md — `79864a4edf0403770ce1ef308bc01fee72e85e898bad18e929daf92d6de63e59`
+- Prompt de Concientización — La Bandita V1.0.md — `9ec203cc57c393dd3bfb63f9746190afc92d121fe20576d05fea589143851b97`
+
+### 01-REGISTRO-Y-PROTOCOLO/
+- Clasificador general de la Biblioteca — rango y clase (15-sep).md — `388aac5b10de7a3e0577fbe4ba7c5683d35b9c0f3c47424f011d095e965170cb`
+- Fila 2 — Dossier AniZen.md — `34ffa67fb4ad83ed0d387df036e26d597ae23cad4e01cf348e8af305fc50cd6a`
+- Handoff de Sesión — La Bandita 2026-09-10.md — `6a85c9e931152ad4290aa68649d45f7e69075c1c614edc9fb9e5e6c0f0b12470`
+- Inventario V25 — 1.029 fichas (fuente del proyecto).md — `c8d4b08e489c6834082200cd077d181b429dd7467f9b8cd464aa9dd4f147f21b`
+- Lecciones de Alexis — para recordar entre sesiones.md — `0f77c4a79ef568588c2b60abcb7cf586ef7a91d98002efb94dbb9d6850323bc0`
+- Mapa de la Biblioteca — proyecto 50-80 (2026-09-15).md — `c8e0390a08113ac4407c659dd5d9cd501072abcfd55a8acc6922ad93f58a042a`
+- Registro de verificación — publicaciones 2026-09-14.md — `708f71d3ee468afe66dac2665132dab3b4672c7db5383669f987343f47a15634`
+- Repaso completo de las órdenes — interpretación extensa (15-sep).md — `cceea30aaa08cde60f53c2443a6f111120449dd71192e1e98f839f92dca56e73`
+
+### 02-EJEMPLOS-Y-ARCHIVO/
+- Auditoría del volcado 2026-09-13.md — `7c39c551b9856054c3a35f7dcea4ea3eb30909ff664009eb0e51d58895994df4`
+- Carta a La Bandita — Regreso a la Confianza (ejemplo).md — `530a0a0e2b3d4babb270b7dd93ffecc00e6b8df107f14885170e8978c06576b5`
+- Lecciones extraidas de textos personales (archivo, no norma).md — `5c47ef0d0e01b422c82a88be05bb05ca85e68d350ffd9ad7d17cb9722abab462`
+
+### 03-PUBLICACIONES-2026-09-14/Facebook/
+
+### 03-PUBLICACIONES-2026-09-14/WhatsApp/
+
+### 03-PUBLICACIONES-2026-09-15/Facebook/
+- 00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15.md — `fdce55412d0887b369bec2b72062e2ff0cb878f3afd2a9b0a01fdac7ef0324aa`
+- 01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-09-15.md — `b100c56d36aa7507c90e7c1b82825cb44e06c93097399488c709346f103c61e0`
+- 02-Kototoro-manga-novelas-video-Facebook-La-Bandita-2026-09-15.md — `bca6dbc90f83ad9b72ba60ff77dc72563b31df2a7583f9bbf3677c67dbd524a2`
+- 03-Verificacion-Desarrolladores-hito-30-sep-2027-Facebook-La-Bandita-2026-09-15.md — `39e433e4e0b20a6a9a8bee1f42779ec49dd6e5e78941946d3d7da2367418d4c6`
+- 04-Extensiones-tres-arboles-hubs-parsers-Facebook-La-Bandita-2026-09-15.md — `e7b90b8737d962c9fa333cad2fbe4ffc416a1a2a6f143c66f171c67052828f01`
+- 05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-15.md — `8b9023146012796099b6bef50b24381bda9da29f59d4ff3553dc1bb558b8b539`
+- 06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-15.md — `8b32c55a17907738b20d6cc4ea928f7b0e31971c79eb98881d3b2c3880957113`
+- 07-Usagi-viva-cadena-Kotatsu-Yukimi-Usagi-Facebook-La-Bandita-2026-09-15.md — `6eb67aed56d0973e1ee7f478712fdea8050630c9bbc028fffd9573be002523f5`
+- 08-Musica-FOSS-clientes-con-repo-Facebook-La-Bandita-2026-09-15.md — `17b9831f15df176e2969638aca1b4bd9d84cc5727fc08646f1c584fc07ddb037`
+- 09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-15.md — `074f0f845c62a97bd5691bdc6fcbb1173ea6aa796df9492fa7e4b083622d721b`
+- 10-GLTools-no-se-receta-spoof-GPU-Facebook-La-Bandita-2026-09-15.md — `92830e7241501560c5e80fbcca8d6353c1c1b3db439aa06171e6c5f021114286`
+- 11-AniZen-vivo-issue-no-enviado-Facebook-La-Bandita-2026-09-15.md — `e280f35e70a1d847dd412c0133423c492e9cd6b77a9b5ccb4b7104f614f3773d`
+- 12-FMHY-wiki-de-pistas-no-catalogo-Facebook-La-Bandita-2026-09-15.md — `804889096d1ea68c2764be3dc12244ed256394195e428c1a5169d78c74eeb604`
+- 13-Rama-Aniyomi-Animetail-anime-y-manga-Facebook-La-Bandita-2026-09-15.md — `9e4b14bb9ce030cc56775cffc40a6798d7451bbf2525a7a8afd3cdf174a866a8`
+- 14-Rama-Animiru-Anikku-anime-puro-Facebook-La-Bandita-2026-09-15.md — `5ec49f4ff907b173709a42f69f999187a4b2f30838d90693afea24ce28000eb7`
+- 15-Rama-TachiyomiJ2K-Yokai-Rokku-Reikai-Hayai-Facebook-La-Bandita-2026-09-15.md — `b3ec4c34c7fb6779913399f8ed2f22f06a4dc6d459359fd406e44076ac93333f`
+- 16-Rama-TachiyomiSY-Komikku-Facebook-La-Bandita-2026-09-15.md — `ef547c004931eee2e45bf33a0f0f8fffd4b635e865b4e37d6cee8058be7baab1`
+- 17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-Facebook-La-Bandita-2026-09-15.md — `8dbd63ac5321b45a7e66683f15183e8abfbea18a8cb71a60d59d40d2781a6cd3`
+- 18-Libros-OpenlibExtended-cliente-Annas-Archive-Facebook-La-Bandita-2026-09-15.md — `f5ffc6022663f5e886692614fc9d66a3d2aaf116fd3a363c1482db7cfd7123f4`
+- 19-Panorama-multi-anime-manga-novelas-Facebook-La-Bandita-2026-09-15.md — `b91b66d1806bc42ac339d9916287329ddb1ff04feb4b35182714cb8be0e5c612`
+- 20-La-Biblioteca-plano-75-publicaciones-Facebook-La-Bandita-2026-09-15.md — `890cc954e5f2d0cc7faa9672c9b0f556187b9b497757007dcf9216a888b47c8b`
+- 21-Musica-I-cosecha-del-muro-12-vivas-Facebook-La-Bandita-2026-09-15.md — `5aac38816f0972902569cddc3b8261f4d5315752fc124e89cd033da5764c8e87`
+- 22-Lectura-II-la-repisa-del-muro-Facebook-La-Bandita-2026-09-15.md — `745acd47cc18fe4051c9ca82d72690bba2792169f3d20be06889f38f82248092`
+- 23-Sala-del-muro-IPTV-Jellyfin-reproductores-Facebook-La-Bandita-2026-09-15.md — `b66d0efad6d3c2f1a75ebf347b5053e5b2355c728e99d8f2cd0d71c265fd0c46`
+- 24-Taller-del-muro-Shizuku-root-sistema-Facebook-La-Bandita-2026-09-15.md — `bf6b303938edcf2d440c7fd90c7e7a31b13254f119c9b3d8d93e378562bdc311`
+- 25-Sotano-del-muro-servidores-autoalojamiento-Facebook-La-Bandita-2026-09-15.md — `5745e934002f12770dbe063662455c5644f1f1d1fc87081e63ee57b385770ad4`
+- 26-Cajon-del-muro-privacidad-parsers-miscelaneo-Facebook-La-Bandita-2026-09-15.md — `f3747c364201f10dd164ca8689773762124ee78913db933f12319c0d8b76af0c`
+- 27-Musica-II-las-sucesiones-Facebook-La-Bandita-2026-09-15.md — `14bfce12082f3457d8ec7198b8d4e98e7a33f63797b506a5055a0e6d08683815`
+- 28-El-tronco-raiz-gestion-y-tiendas-Facebook-La-Bandita-2026-09-15.md — `581c3925423b748df5f686584502a3151fc31e344091c38a7d1f4c31c12b8dcf`
+- 29-Los-mayordomos-gestores-perfiles-bloat-Facebook-La-Bandita-2026-09-15.md — `61d63c7152c3dc10ff040bc4fdca5964bc47b8174a2233c457063e4266e6152e`
+- 30-La-cara-del-sistema-lanzadores-teclados-Facebook-La-Bandita-2026-09-15.md — `ce540ba2c482f66835585a10e2c8126bbbb974c8cc55e825549a5a1500092014`
+- 31-Los-pequenos-del-sistema-Facebook-La-Bandita-2026-09-15.md — `6ac5b730886f5aa37263e5620ef32f4294cd8300ba843826e98da32b6b64c89c`
+- 32-El-cable-y-el-escudo-Facebook-La-Bandita-2026-09-15.md — `4c280e7486f42095cabf2b0d45d6877e13128f1c181d4295888efcb9ec6968c9`
+- 33-Los-archivos-del-taller-Facebook-La-Bandita-2026-09-15.md — `d1a4123a0df89a9f0801fc4fb3b1cf08b2d2361bc80828945562d71fb7a0c03b`
+- 34-Los-que-tenian-otro-nombre-ambiguos-Facebook-La-Bandita-2026-09-15.md — `b7da9441284e0bc0e04a8ce50d56f9614bcdb31e2dc6b5c512351ee1858c9317`
+- 35-La-estanteria-la-estirpe-del-lector-Facebook-La-Bandita-2026-09-15.md — `1f549301fdb1ddfcac660603c665f76840f7ec4b8b0c915b718ea260692aac3a`
+- 36-Los-libros-biblioteca-de-bolsillo-Facebook-La-Bandita-2026-09-15.md — `83c9aa7226fd3e0b4eb23421b6f4e98cd6e43dd76f942ace4c2aadbd07db5a0b`
+- 37-La-puerta-grande-anime-video-I-Facebook-La-Bandita-2026-09-15.md — `896194a0e74778cf2e9a4952afb10b3fd2a21e49491022274769284fe7d2d283`
+- 38-El-vivero-los-germinantes-Facebook-La-Bandita-2026-09-15.md — `28bbd5a3379fc513d81b4c9339d3b5a5d06dc97f78846ee334ec35e9836d59ed`
+- 39-La-bodega-servidores-y-bibliotecas-Facebook-La-Bandita-2026-09-15.md — `5f496f87e89e9de750762ae6134f444afa1441df18a46380b66e9f7ab0737c73`
+- 40-El-estudio-lectores-de-escritorio-Facebook-La-Bandita-2026-09-15.md — `b3bd4aa25ae1404d91f294f49a215a08dd3bfb6124037b427e9e9a31455284bf`
+- 41-Los-cazadores-anime-y-video-III-Facebook-La-Bandita-2026-09-15.md — `983ca57a3b86ad8feb189951fde521c9c03be388cb16bf8c088864c3130d60e2`
+- 42-La-fosa-el-sotano-II-Facebook-La-Bandita-2026-09-15.md — `4368e5b71ba203d40b8efe382f33879a50bf20c31c847d9b25eeb2629d0f0f1d`
+- 43-La-corriente-geografia-de-las-fuentes-Facebook-La-Bandita-2026-09-15.md — `1b7d7eb27779855002e2c2f84482ccd5481c3b095179b35993202e15765d3d8e`
+- 44-Los-pequenos-las-casas-que-no-hacen-ruido-Facebook-La-Bandita-2026-09-15.md — `71cd01f9aa0c0930f2fac698f5e832066a0f8c49b8c611e3a67ce6d1314e3d2e`
+- 45-Las-canciones-la-voz-de-america-Facebook-La-Bandita-2026-09-15.md — `99150b9339b213feb56c7734454e115bc14adfd805f33a4386453c1ea5a80196`
+- 46-La-sala-de-las-novelas-Facebook-La-Bandita-2026-09-15.md — `8c3a89c0dd3fc71dccc3ab2932121471dbcb7862181d7c0e035cb2872575c999`
+- 47-La-ultima-puerta-del-catalogo-Facebook-La-Bandita-2026-09-15.md — `9dbd295366601e387e56df150e0eeeb85e6b88a6eb0a030b6d0239a08c01e8a5`
+- 48-El-archivo-la-V25-vuelve-hecha-mejor-Facebook-La-Bandita-2026-09-15.md — `bb2860245070c15a7bd9363359738459a46744ec65b6c4e1fc8f46f82a97b4e2`
+- 49-Las-mil-puertas-el-barrido-de-la-V25-Facebook-La-Bandita-2026-09-15.md — `e158eb9425a84d2de726a5fdf8e959b5a4234ed6f8bef599297bfa1440a11e7e`
+- 50-La-discoteca-I-la-mina-de-las-231-Facebook-La-Bandita-2026-09-15.md — `76a1e85ae1af167550f00a30280dd7b966f93cda81b573f2bf4b5a65d07fa137`
+- 51-La-discoteca-II-el-jugador-grande-y-la-mudanza-de-Finamp-Facebook-La-Bandita-2026-09-15.md — `5ce59041a374100ef1d288c1063e07a2ca146bd85d9faef6ea38da9db0c598b0`
+- 52-La-discoteca-III-el-censo-completo-del-baile-Facebook-La-Bandita-2026-09-15.md — `ab6e944dfb02005d9f6aa7181e273456db3423dd6e27683b48d2ccda033aa62a`
+- 53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Facebook-La-Bandita-2026-09-15.md — `ffea6b089c7c1f5588d3d1b2d513850cdcd0230e1eb3088e675c961db45b245b`
+- 54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15.md — `8ec271980fd6fb0f229c021bdec58f86f337f33379b99975bbdf5f2e3e678e49`
+- 55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15.md — `c653eeeaa607c0a152eb9638e28583abb5d53f86e80ba8944313c65574c4c111`
+- 56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15.md — `aab5a7a2714eb8e149f8ca8aa47782b792af848f13d61840a521931c6d65d150`
+- 57-La-hornada-del-lector-la-mina-con-nombre-Facebook-La-Bandita-2026-09-15.md — `3542e60e2f54d9fac25ea65d5d226719f16c0e9fffb3ab17f90e603ef3d2a877`
+- 58-La-hornada-del-anime-el-segundo-territorio-Facebook-La-Bandita-2026-09-15.md — `9d366d23c08d7273d8130af8b902dd7d16e9b26bcf0aed5190beaa76e4092abf`
+- 59-La-hornada-del-taller-herramientas-de-la-mina-Facebook-La-Bandita-2026-09-15.md — `a3025ae63fb7ed9411d139fc5ccb53e86f54b83cf93de92c62c00e2d5147ec30`
+- 60-La-hornada-de-las-bibliotecas-los-ordenadores-de-la-mina-Facebook-La-Bandita-2026-09-15.md — `8acd8930deb17742ce30dd64a1dbad2ae31807240aa9e346f8084256f0928bb2`
+- 61-La-hornada-de-los-servidores-el-sotano-de-la-mina-Facebook-La-Bandita-2026-09-15.md — `1eb8b1d42fe132bc604ca6d0fed349756c7df45836e09e44ef26ba8946642718`
+- 62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-Facebook-La-Bandita-2026-09-15.md — `0ad060fd565fe8a8f935568beac313d7c79d2cbd7bc9ee25c3f955e7604e2bb0`
+- 63-La-segunda-fila-del-lector-Facebook-La-Bandita-2026-09-15.md — `ec5fa79c17cd88781c6f1532ce73a0747f57a9256972c912e436bc6723367292`
+- 64-La-segunda-fila-del-anime-Facebook-La-Bandita-2026-09-15.md — `7e0a1467f2eae46b83328eafe2a738f344bca97baf53e8744fc018856e112b5a`
+- 65-La-segunda-fila-del-taller-Facebook-La-Bandita-2026-09-15.md — `c79ce4ece79b83b19aa4144fb3204a698310115e73f3cca8488e9eb898f264d8`
+- 66-La-segunda-fila-de-las-bibliotecas-Facebook-La-Bandita-2026-09-15.md — `c77857076d6c07f6cb9bf7e83527962636f01ea7ac94e35fb461e429c1acf694`
+- 67-La-segunda-fila-del-sotano-Facebook-La-Bandita-2026-09-15.md — `230a65934ec028f46170646eee5e2121ee6cc84597630c1f4af9e19b6af5a802`
+- 68-La-segunda-fila-de-los-ayudantes-Facebook-La-Bandita-2026-09-15.md — `74306b81e34ee79202bd3dbdccaf9c06e1e433e41f87e58a287f00baea1dda19`
+- 69-La-vara-de-las-forjas-I-gitlab-y-codeberg-Facebook-La-Bandita-2026-09-15.md — `4456a0bfe5ac62786728782564cb1e3cbb183a670e01f3928682b4a5247ac282`
+- 70-La-vara-de-las-forjas-II-fdroid-y-las-tiendas-Facebook-La-Bandita-2026-09-15.md — `81f555182dfd298a2432491880e8c0228527f83e0f42ade0ffd20939f9683362`
+- 71-Las-puertas-calladas-los-ceros-de-verdad-Facebook-La-Bandita-2026-09-15.md — `7cd0bcb98e23e763a8a1ff823d79eef5c0e82dc2b6ea09fe901727584cae2652`
+- 72-Las-actas-del-censo-Facebook-La-Bandita-2026-09-15.md — `73816c2606a7908932939777eeb00941905e0209d02ad2b86a6d75214a8229f1`
+- 73-Espejos-homonimos-y-mudanzas-el-libro-de-los-nombres-Facebook-La-Bandita-2026-09-15.md — `0bc3d0dd6b741c3b193322cd60749899716ea6cde22e94b8e50f5de6aa88a59e`
+- 74-Los-vivos-de-la-semana-la-fila-de-las-fechas-Facebook-La-Bandita-2026-09-15.md — `6f84982962bec11aa18dff57157adabc3ddd1c8b048775735276e4d7e0fa709e`
+- 75-El-podio-de-la-mina-los-veinte-mayores-Facebook-La-Bandita-2026-09-15.md — `1e3d09270bc312d0bbeb851d5ff4067517bcda3880624da1056c7c8a8e10ff42`
+- 76-El-recuento-de-la-quincena-la-arquitectura-de-las-ochenta-Facebook-La-Bandita-2026-09-15.md — `ae0b1de39337e34b833301b9cebbfd4254aecd8d27796efd7eabe7a37bb0df49`
+- 77-La-frontera-del-lunes-lo-que-queda-Facebook-La-Bandita-2026-09-15.md — `4e05a21f9fa0e8fe1ec9111ab5ae42d132e519ee7b649c3a76968ca65d60ec93`
+- 78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-Facebook-La-Bandita-2026-09-15.md — `f05e64434133bd5543addc4c68f64baa0241a8dbd4df7698f2ae7ac28638fcf9`
+- 79-La-octogesima-el-techo-tocado-Facebook-La-Bandita-2026-09-15.md — `4d28abb85aa2c28955f432c3e78d8d980e7e91ef38ec37888979a4cd2aa6f35e`
+
+### 03-PUBLICACIONES-2026-09-15/WhatsApp/
+- 00-LA-LISTA-ecosistema-libre-en-16-guias-WhatsApp-La-Bandita-2026-09-15.md — `fdce55412d0887b369bec2b72062e2ff0cb878f3afd2a9b0a01fdac7ef0324aa`
+- 01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-09-15.md — `b100c56d36aa7507c90e7c1b82825cb44e06c93097399488c709346f103c61e0`
+- 02-Kototoro-manga-novelas-video-WhatsApp-La-Bandita-2026-09-15.md — `bca6dbc90f83ad9b72ba60ff77dc72563b31df2a7583f9bbf3677c67dbd524a2`
+- 03-Verificacion-Desarrolladores-hito-30-sep-2027-WhatsApp-La-Bandita-2026-09-15.md — `39e433e4e0b20a6a9a8bee1f42779ec49dd6e5e78941946d3d7da2367418d4c6`
+- 04-Extensiones-tres-arboles-hubs-parsers-WhatsApp-La-Bandita-2026-09-15.md — `e7b90b8737d962c9fa333cad2fbe4ffc416a1a2a6f143c66f171c67052828f01`
+- 05-TMO-caida-clones-no-iniciar-sesion-WhatsApp-La-Bandita-2026-09-15.md — `8b9023146012796099b6bef50b24381bda9da29f59d4ff3553dc1bb558b8b539`
+- 06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-WhatsApp-La-Bandita-2026-09-15.md — `8b32c55a17907738b20d6cc4ea928f7b0e31971c79eb98881d3b2c3880957113`
+- 07-Usagi-viva-cadena-Kotatsu-Yukimi-Usagi-WhatsApp-La-Bandita-2026-09-15.md — `6eb67aed56d0973e1ee7f478712fdea8050630c9bbc028fffd9573be002523f5`
+- 08-Musica-FOSS-clientes-con-repo-WhatsApp-La-Bandita-2026-09-15.md — `17b9831f15df176e2969638aca1b4bd9d84cc5727fc08646f1c584fc07ddb037`
+- 09-Herramientas-FOSS-caja-de-oficio-WhatsApp-La-Bandita-2026-09-15.md — `074f0f845c62a97bd5691bdc6fcbb1173ea6aa796df9492fa7e4b083622d721b`
+- 10-GLTools-no-se-receta-spoof-GPU-WhatsApp-La-Bandita-2026-09-15.md — `92830e7241501560c5e80fbcca8d6353c1c1b3db439aa06171e6c5f021114286`
+- 11-AniZen-vivo-issue-no-enviado-WhatsApp-La-Bandita-2026-09-15.md — `e280f35e70a1d847dd412c0133423c492e9cd6b77a9b5ccb4b7104f614f3773d`
+- 12-FMHY-wiki-de-pistas-no-catalogo-WhatsApp-La-Bandita-2026-09-15.md — `804889096d1ea68c2764be3dc12244ed256394195e428c1a5169d78c74eeb604`
+- 13-Rama-Aniyomi-Animetail-anime-y-manga-WhatsApp-La-Bandita-2026-09-15.md — `9e4b14bb9ce030cc56775cffc40a6798d7451bbf2525a7a8afd3cdf174a866a8`
+- 14-Rama-Animiru-Anikku-anime-puro-WhatsApp-La-Bandita-2026-09-15.md — `5ec49f4ff907b173709a42f69f999187a4b2f30838d90693afea24ce28000eb7`
+- 15-Rama-TachiyomiJ2K-Yokai-Rokku-Reikai-Hayai-WhatsApp-La-Bandita-2026-09-15.md — `b3ec4c34c7fb6779913399f8ed2f22f06a4dc6d459359fd406e44076ac93333f`
+- 16-Rama-TachiyomiSY-Komikku-WhatsApp-La-Bandita-2026-09-15.md — `ef547c004931eee2e45bf33a0f0f8fffd4b635e865b4e37d6cee8058be7baab1`
+- 17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-WhatsApp-La-Bandita-2026-09-15.md — `8dbd63ac5321b45a7e66683f15183e8abfbea18a8cb71a60d59d40d2781a6cd3`
+- 18-Libros-OpenlibExtended-cliente-Annas-Archive-WhatsApp-La-Bandita-2026-09-15.md — `f5ffc6022663f5e886692614fc9d66a3d2aaf116fd3a363c1482db7cfd7123f4`
+- 19-Panorama-multi-anime-manga-novelas-WhatsApp-La-Bandita-2026-09-15.md — `b91b66d1806bc42ac339d9916287329ddb1ff04feb4b35182714cb8be0e5c612`
+- 20-La-Biblioteca-plano-75-publicaciones-WhatsApp-La-Bandita-2026-09-15.md — `890cc954e5f2d0cc7faa9672c9b0f556187b9b497757007dcf9216a888b47c8b`
+- 21-Musica-I-cosecha-del-muro-12-vivas-WhatsApp-La-Bandita-2026-09-15.md — `5aac38816f0972902569cddc3b8261f4d5315752fc124e89cd033da5764c8e87`
+- 22-Lectura-II-la-repisa-del-muro-WhatsApp-La-Bandita-2026-09-15.md — `745acd47cc18fe4051c9ca82d72690bba2792169f3d20be06889f38f82248092`
+- 23-Sala-del-muro-IPTV-Jellyfin-reproductores-WhatsApp-La-Bandita-2026-09-15.md — `b66d0efad6d3c2f1a75ebf347b5053e5b2355c728e99d8f2cd0d71c265fd0c46`
+- 24-Taller-del-muro-Shizuku-root-sistema-WhatsApp-La-Bandita-2026-09-15.md — `bf6b303938edcf2d440c7fd90c7e7a31b13254f119c9b3d8d93e378562bdc311`
+- 25-Sotano-del-muro-servidores-autoalojamiento-WhatsApp-La-Bandita-2026-09-15.md — `5745e934002f12770dbe063662455c5644f1f1d1fc87081e63ee57b385770ad4`
+- 26-Cajon-del-muro-privacidad-parsers-miscelaneo-WhatsApp-La-Bandita-2026-09-15.md — `f3747c364201f10dd164ca8689773762124ee78913db933f12319c0d8b76af0c`
+- 27-Musica-II-las-sucesiones-WhatsApp-La-Bandita-2026-09-15.md — `14bfce12082f3457d8ec7198b8d4e98e7a33f63797b506a5055a0e6d08683815`
+- 28-El-tronco-raiz-gestion-y-tiendas-WhatsApp-La-Bandita-2026-09-15.md — `581c3925423b748df5f686584502a3151fc31e344091c38a7d1f4c31c12b8dcf`
+- 29-Los-mayordomos-gestores-perfiles-bloat-WhatsApp-La-Bandita-2026-09-15.md — `61d63c7152c3dc10ff040bc4fdca5964bc47b8174a2233c457063e4266e6152e`
+- 30-La-cara-del-sistema-lanzadores-teclados-WhatsApp-La-Bandita-2026-09-15.md — `ce540ba2c482f66835585a10e2c8126bbbb974c8cc55e825549a5a1500092014`
+- 31-Los-pequenos-del-sistema-WhatsApp-La-Bandita-2026-09-15.md — `6ac5b730886f5aa37263e5620ef32f4294cd8300ba843826e98da32b6b64c89c`
+- 32-El-cable-y-el-escudo-WhatsApp-La-Bandita-2026-09-15.md — `4c280e7486f42095cabf2b0d45d6877e13128f1c181d4295888efcb9ec6968c9`
+- 33-Los-archivos-del-taller-WhatsApp-La-Bandita-2026-09-15.md — `d1a4123a0df89a9f0801fc4fb3b1cf08b2d2361bc80828945562d71fb7a0c03b`
+- 34-Los-que-tenian-otro-nombre-ambiguos-WhatsApp-La-Bandita-2026-09-15.md — `b7da9441284e0bc0e04a8ce50d56f9614bcdb31e2dc6b5c512351ee1858c9317`
+- 35-La-estanteria-la-estirpe-del-lector-WhatsApp-La-Bandita-2026-09-15.md — `1f549301fdb1ddfcac660603c665f76840f7ec4b8b0c915b718ea260692aac3a`
+- 36-Los-libros-biblioteca-de-bolsillo-WhatsApp-La-Bandita-2026-09-15.md — `83c9aa7226fd3e0b4eb23421b6f4e98cd6e43dd76f942ace4c2aadbd07db5a0b`
+- 37-La-puerta-grande-anime-video-I-WhatsApp-La-Bandita-2026-09-15.md — `896194a0e74778cf2e9a4952afb10b3fd2a21e49491022274769284fe7d2d283`
+- 38-El-vivero-los-germinantes-WhatsApp-La-Bandita-2026-09-15.md — `28bbd5a3379fc513d81b4c9339d3b5a5d06dc97f78846ee334ec35e9836d59ed`
+- 39-La-bodega-servidores-y-bibliotecas-WhatsApp-La-Bandita-2026-09-15.md — `5f496f87e89e9de750762ae6134f444afa1441df18a46380b66e9f7ab0737c73`
+- 40-El-estudio-lectores-de-escritorio-WhatsApp-La-Bandita-2026-09-15.md — `b3bd4aa25ae1404d91f294f49a215a08dd3bfb6124037b427e9e9a31455284bf`
+- 41-Los-cazadores-anime-y-video-III-WhatsApp-La-Bandita-2026-09-15.md — `983ca57a3b86ad8feb189951fde521c9c03be388cb16bf8c088864c3130d60e2`
+- 42-La-fosa-el-sotano-II-WhatsApp-La-Bandita-2026-09-15.md — `4368e5b71ba203d40b8efe382f33879a50bf20c31c847d9b25eeb2629d0f0f1d`
+- 43-La-corriente-geografia-de-las-fuentes-WhatsApp-La-Bandita-2026-09-15.md — `1b7d7eb27779855002e2c2f84482ccd5481c3b095179b35993202e15765d3d8e`
+- 44-Los-pequenos-las-casas-que-no-hacen-ruido-WhatsApp-La-Bandita-2026-09-15.md — `71cd01f9aa0c0930f2fac698f5e832066a0f8c49b8c611e3a67ce6d1314e3d2e`
+- 45-Las-canciones-la-voz-de-america-WhatsApp-La-Bandita-2026-09-15.md — `99150b9339b213feb56c7734454e115bc14adfd805f33a4386453c1ea5a80196`
+- 46-La-sala-de-las-novelas-WhatsApp-La-Bandita-2026-09-15.md — `8c3a89c0dd3fc71dccc3ab2932121471dbcb7862181d7c0e035cb2872575c999`
+- 47-La-ultima-puerta-del-catalogo-WhatsApp-La-Bandita-2026-09-15.md — `9dbd295366601e387e56df150e0eeeb85e6b88a6eb0a030b6d0239a08c01e8a5`
+- 48-El-archivo-la-V25-vuelve-hecha-mejor-WhatsApp-La-Bandita-2026-09-15.md — `bb2860245070c15a7bd9363359738459a46744ec65b6c4e1fc8f46f82a97b4e2`
+- 49-Las-mil-puertas-el-barrido-de-la-V25-WhatsApp-La-Bandita-2026-09-15.md — `e158eb9425a84d2de726a5fdf8e959b5a4234ed6f8bef599297bfa1440a11e7e`
+- 50-La-discoteca-I-la-mina-de-las-231-WhatsApp-La-Bandita-2026-09-15.md — `76a1e85ae1af167550f00a30280dd7b966f93cda81b573f2bf4b5a65d07fa137`
+- 51-La-discoteca-II-el-jugador-grande-y-la-mudanza-de-Finamp-WhatsApp-La-Bandita-2026-09-15.md — `5ce59041a374100ef1d288c1063e07a2ca146bd85d9faef6ea38da9db0c598b0`
+- 52-La-discoteca-III-el-censo-completo-del-baile-WhatsApp-La-Bandita-2026-09-15.md — `ab6e944dfb02005d9f6aa7181e273456db3423dd6e27683b48d2ccda033aa62a`
+- 53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-WhatsApp-La-Bandita-2026-09-15.md — `ffea6b089c7c1f5588d3d1b2d513850cdcd0230e1eb3088e675c961db45b245b`
+- 54-Las-puertas-del-sistema-y-el-taller-de-la-mina-WhatsApp-La-Bandita-2026-09-15.md — `8ec271980fd6fb0f229c021bdec58f86f337f33379b99975bbdf5f2e3e678e49`
+- 55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-WhatsApp-La-Bandita-2026-09-15.md — `c653eeeaa607c0a152eb9638e28583abb5d53f86e80ba8944313c65574c4c111`
+- 56-Las-puertas-del-anime-y-los-servidores-de-la-mina-WhatsApp-La-Bandita-2026-09-15.md — `aab5a7a2714eb8e149f8ca8aa47782b792af848f13d61840a521931c6d65d150`
+- 57-La-hornada-del-lector-la-mina-con-nombre-WhatsApp-La-Bandita-2026-09-15.md — `3542e60e2f54d9fac25ea65d5d226719f16c0e9fffb3ab17f90e603ef3d2a877`
+- 58-La-hornada-del-anime-el-segundo-territorio-WhatsApp-La-Bandita-2026-09-15.md — `9d366d23c08d7273d8130af8b902dd7d16e9b26bcf0aed5190beaa76e4092abf`
+- 59-La-hornada-del-taller-herramientas-de-la-mina-WhatsApp-La-Bandita-2026-09-15.md — `a3025ae63fb7ed9411d139fc5ccb53e86f54b83cf93de92c62c00e2d5147ec30`
+- 60-La-hornada-de-las-bibliotecas-los-ordenadores-de-la-mina-WhatsApp-La-Bandita-2026-09-15.md — `8acd8930deb17742ce30dd64a1dbad2ae31807240aa9e346f8084256f0928bb2`
+- 61-La-hornada-de-los-servidores-el-sotano-de-la-mina-WhatsApp-La-Bandita-2026-09-15.md — `1eb8b1d42fe132bc604ca6d0fed349756c7df45836e09e44ef26ba8946642718`
+- 62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-WhatsApp-La-Bandita-2026-09-15.md — `0ad060fd565fe8a8f935568beac313d7c79d2cbd7bc9ee25c3f955e7604e2bb0`
+- 63-La-segunda-fila-del-lector-WhatsApp-La-Bandita-2026-09-15.md — `ec5fa79c17cd88781c6f1532ce73a0747f57a9256972c912e436bc6723367292`
+- 64-La-segunda-fila-del-anime-WhatsApp-La-Bandita-2026-09-15.md — `7e0a1467f2eae46b83328eafe2a738f344bca97baf53e8744fc018856e112b5a`
+- 65-La-segunda-fila-del-taller-WhatsApp-La-Bandita-2026-09-15.md — `c79ce4ece79b83b19aa4144fb3204a698310115e73f3cca8488e9eb898f264d8`
+- 66-La-segunda-fila-de-las-bibliotecas-WhatsApp-La-Bandita-2026-09-15.md — `c77857076d6c07f6cb9bf7e83527962636f01ea7ac94e35fb461e429c1acf694`
+- 67-La-segunda-fila-del-sotano-WhatsApp-La-Bandita-2026-09-15.md — `230a65934ec028f46170646eee5e2121ee6cc84597630c1f4af9e19b6af5a802`
+- 68-La-segunda-fila-de-los-ayudantes-WhatsApp-La-Bandita-2026-09-15.md — `74306b81e34ee79202bd3dbdccaf9c06e1e433e41f87e58a287f00baea1dda19`
+- 69-La-vara-de-las-forjas-I-gitlab-y-codeberg-WhatsApp-La-Bandita-2026-09-15.md — `4456a0bfe5ac62786728782564cb1e3cbb183a670e01f3928682b4a5247ac282`
+- 70-La-vara-de-las-forjas-II-fdroid-y-las-tiendas-WhatsApp-La-Bandita-2026-09-15.md — `81f555182dfd298a2432491880e8c0228527f83e0f42ade0ffd20939f9683362`
+- 71-Las-puertas-calladas-los-ceros-de-verdad-WhatsApp-La-Bandita-2026-09-15.md — `7cd0bcb98e23e763a8a1ff823d79eef5c0e82dc2b6ea09fe901727584cae2652`
+- 72-Las-actas-del-censo-WhatsApp-La-Bandita-2026-09-15.md — `73816c2606a7908932939777eeb00941905e0209d02ad2b86a6d75214a8229f1`
+- 73-Espejos-homonimos-y-mudanzas-el-libro-de-los-nombres-WhatsApp-La-Bandita-2026-09-15.md — `0bc3d0dd6b741c3b193322cd60749899716ea6cde22e94b8e50f5de6aa88a59e`
+- 74-Los-vivos-de-la-semana-la-fila-de-las-fechas-WhatsApp-La-Bandita-2026-09-15.md — `6f84982962bec11aa18dff57157adabc3ddd1c8b048775735276e4d7e0fa709e`
+- 75-El-podio-de-la-mina-los-veinte-mayores-WhatsApp-La-Bandita-2026-09-15.md — `1e3d09270bc312d0bbeb851d5ff4067517bcda3880624da1056c7c8a8e10ff42`
+- 76-El-recuento-de-la-quincena-la-arquitectura-de-las-ochenta-WhatsApp-La-Bandita-2026-09-15.md — `ae0b1de39337e34b833301b9cebbfd4254aecd8d27796efd7eabe7a37bb0df49`
+- 77-La-frontera-del-lunes-lo-que-queda-WhatsApp-La-Bandita-2026-09-15.md — `4e05a21f9fa0e8fe1ec9111ab5ae42d132e519ee7b649c3a76968ca65d60ec93`
+- 78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-WhatsApp-La-Bandita-2026-09-15.md — `f05e64434133bd5543addc4c68f64baa0241a8dbd4df7698f2ae7ac28638fcf9`
+- 79-La-octogesima-el-techo-tocado-WhatsApp-La-Bandita-2026-09-15.md — `4d28abb85aa2c28955f432c3e78d8d980e7e91ef38ec37888979a4cd2aa6f35e`
+
+### VERSIONES MULTIPLATAFORMA (04-VERSIONES-MULTIIDIOMA/) — hashes
+
+- 04-VERSIONES-MULTIIDIOMA/Guía de versionado multiplataforma (15-sep).md — `ff0b14bc38439ee3227bbe18ae3a207bc0c3031ff782a12ad8dba026b1f14f8f`
+- 04-VERSIONES-MULTIIDIOMA/discord/chino-CN/75-El-podio-de-la-mina-Discord-La-Bandita-2026-09-15-chino-CN.md — `ca827c65ec3bfd1c605ea7ecf1dcdd55833f6d6e181e35026418ed8a28e94ee6`
+- 04-VERSIONES-MULTIIDIOMA/discord/chino-CN/79-La-octogesima-el-techo-tocado-Discord-La-Bandita-2026-09-15-chino-CN.md — `a3d162d4e3579cde358ad1f7e5b069c5eb081cd5ce15153e9c33a897cf136ac5`
+- 04-VERSIONES-MULTIIDIOMA/discord/chino-CN/LEEME-de-la-carpeta.md — `0bd4e6c99ea70a4fcd7772f8aa3d880d9b47d09d2f1f55232230c52cf26cf783`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/00-LA-LISTA-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `02c3d148b0758d364241dcc73fbcdc4a3c9571cb9acf8bffab46594bb9f90cfa`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/01-Tiendas-de-APK-legales-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `eba9caa240be4d4c4309f97dba8f431315764f98efdf7d4d905cb6ef37b53239`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/02-Kototoro-manga-novelas-video-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `d683b55e1edecc46f90b21f66eb3c6492726bd0ba104730a5fe16722d22a2da4`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/03-Verificacion-de-Desarrolladores-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `dd36df0dadf2dd3f93dd744050759180972a6240fa9b1bf04e73247d6e2e5c9b`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/04-Extensiones-tres-arboles-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `8f9ac578bbd44a309fde302e3ae1d66a64cdb6173a8351ccdeb44f0fc1c7c644`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/05-TMO-cayo-los-clones-no-son-TMO-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `c7bff71038d7c0feeea3fa9f0e9d3af90ca97ee561feb29792ec45f5b784c5b6`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/06-Forks-de-lectores-segundas-generaciones-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `e3730290be19cf5d38fd860e7d5351b60e1e7a9249791e6720d1be41496ee682`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/07-Usagi-viva-cadena-Kotatsu-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `58780baaec7448303b0fd34c4d780dbc929bbc27e0c5fde2f00d312c5335facb`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/08-Musica-FOSS-clientes-con-repo-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `3066eb86df274b44bd2a3e26a44ecd07e6177edffe7d6032bea0d1f36a0e07b8`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/09-Herramientas-FOSS-caja-de-oficio-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `ff85318beb79f22f8941ca1d6d67b2316a46dfe435a1f0e958dd9d5033af5266`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/10-GLTools-no-se-receta-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `ca1993a36c89ef7c44ba38fea40ea0a56965dd493caeec272cad0dc21094cc1f`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/11-AniZen-vivo-el-espejo-no-es-el-repo-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `8ea8d66ca457055e8cc72393f02c8c33411e56a5dc9800c337ce7f34706ccf68`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/12-FMHY-wiki-de-pistas-no-catalogo-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `84889a2d103e11eb36071de32055d200cbfe56797a7e2d1b9f77f875fc939500`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/13-Rama-Aniyomi-Animetail-Tadami-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `cfa8e6aadd56f7bdcde063d663cbe2fb3ff6027dc8a6b2dd048e3b4d5846b56c`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/14-Rama-anime-puro-Animiru-Anikku-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `ff4654a86f54b2e904e69773b1103265ac707eaedc3a4b0fab26b60d77908f73`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/15-Rama-J2K-Yokai-Rokku-Reikai-Hayai-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `6e80a2f234755a84e29f5a7b1a6af03c30ec5bd3216dec73a35c65cb7f651200`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/16-Rama-SY-Komikku-el-clasico-y-el-rehijo-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `351d6ac8b87bd027b0788b247eb4e56ec8d911d6abb0f99b1a8856dc1e34d086`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/17-Capa-de-inmersion-aprender-japones-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `d9654c35ea2252ab658b6cfd7873405b584914d45e30c38cafe76411fffe9bbf`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/18-Libros-OpenlibExtended-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `2dcb3a53480680e5ccde8d78f5ef92c8be5bd6d69c108e228f223426e2e900c4`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/19-Panorama-multi-anime-manga-novelas-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `23cc548be35028ee2ba630aa96c56cbe88cc2d9abef22d1e45eb4d77f7cb10f9`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/20-La-Biblioteca-de-un-muro-a-75-guias-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `b897d222bd90121c418def553f2075c980d80d52d7acd0face6eb2748f2327f8`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/21-Musica-I-la-cosecha-del-muro-12-vivas-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `ca65a6f142530bfaaa1dcc3dbce5a76907ff71712338454de1566e39646cf792`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/22-Lectura-II-la-repisa-del-muro-siete-lectores-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `ee3088084e58c6a796b543925f04abbbea46d7b0d474bdd8bbe6bf49d0cf5461`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/23-La-sala-del-muro-IPTV-servidores-cine-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `e7dc17264781f0e02413673bac270c6253f331cfb83589b46837a6604940a103`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/24-El-taller-del-muro-Shizuku-root-sistema-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `33f9e4de03ab23d668b7b1d7e1f80d78d7e2b21542b8faddfa24ee1b52b9d327`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/25-El-sotano-del-muro-servidores-autoalojados-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `419f6fa280a38f0a582ce4350cc90b2ff7372f736e5ad570808f574dbc823766`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/26-El-cajon-del-muro-candados-adaptadores-miscelaneo-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `9926d55dbbec018cbda30b1092586ae1c34b446d2c09c75fb7e7f8ebb394e6e7`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/27-Musica-II-las-sucesiones-quien-hereda-a-quien-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `43e483fba8fbca3e77f45e67c04d8a8ec20268e480c80346f2170fa261302a34`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/28-El-tronco-raiz-gestion-y-tiendas-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `c2ccdf93cfdf94949c2b2c6dc7d6bc44578402ab163be1e02f2ebcfa0e858a6e`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/29-Los-mayordomos-apps-perfiles-bloat-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `15173565c7d5da1d16df27fb0197cb5b58a2916cb3ab9b28e23b98becd161fe2`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/30-La-cara-del-sistema-lanzadores-teclados-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `df97a96a79f6d94e3328f59c17ff1399b4212290a0ce0945e36efda9b385c8a6`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/31-Los-pequenos-del-sistema-una-sola-cosa-bien-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `22af22fa131f036c7b6c626d68c50ed2282d23028eaccc2255680584c4da02e4`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/32-El-cable-y-el-escudo-conectar-actualizar-defender-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `5defd60dade2de1eab8f73a97789b74c668dfd9290eb43f0116f6ecc665b7026`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/33-Los-archivos-del-taller-cajones-paquetes-guardian-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `bd047ffd26a4b40c8b59a744e9db3ecd874a1533b8f5932828b5f75e7297065e`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/34-Los-que-tenian-otro-nombre-la-vara-de-cada-pez-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `64146bfa4d4d3cb8dcec6a696cf38486d00a1167cee4a2593241c9db5864acd2`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/35-La-estanteria-la-estirpe-del-lector-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `c03976817aad9145497d44ff5b71c183d29b6278250f83312c1b7e189ab14f81`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/36-Los-libros-biblioteca-de-bolsillo-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `9ecb1d47ef03398741a5fe0be711f695de77d0a86a6eb5793998f1012e073a36`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/37-La-puerta-grande-anime-video-I-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `3c2f2507c696aed93f5289986a04c67ccc766579f02fc8f96b4dc6767dcd438d`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/38-El-vivero-los-germinantes-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `2812bdbc76a901058f389f79d7aee2169f9bf548eadab6da5b9670e2e84138e6`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/39-La-bodega-servidores-y-bibliotecas-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `b525445d36ff314d6d5f44720d0561d9c5e1a4277473361d8fbf5eaa22830ca8`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/40-El-estudio-lectores-de-escritorio-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `5e04de3a95b3836e8a7af36a33e61c31b1eb83b1825a0baaf7596c2a20836b7d`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/41-Los-cazadores-anime-video-III-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `38735c1e798ca1fe8ce96a5000327e4dadbad2d7684d1f5a7ee27e6431256a28`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/42-La-fosa-lo-profundo-del-mar-sotano-II-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `1dbcd42cb6c9cd63d20a2ea791cf332b1810a5c535184b50f7315e55f251354c`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/43-La-corriente-geografia-de-las-fuentes-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `406ae820a3c6a65ebc7347608e12566fc7aa699e5b49d32f785665d88f358f12`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/44-Los-pequenos-las-casas-que-no-hacen-ruido-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `f6dd8a50ec841fa8db0d93cc7fd4ecba307dc7ffd18db015cbe85cce0519a1cb`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/45-Las-canciones-la-voz-de-america-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `8a1b73735d90a7e1f8b9f3e66a22c8341c3178f1905a588295a0d8a2b9179ddd`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/46-La-sala-de-las-novelas-lectura-IV-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `a2b30d10f9938421e036dd8a8282037bccfcd77786fbf2feffd3dc8e48dfe1e6`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/47-La-ultima-puerta-del-catalogo-venera-y-veredictos-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `eb90ba811bb576431185733f774af48b40ba1e357a90879a4c6d68800a422027`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/48-El-archivo-la-V25-vuelve-hecha-mejor-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `0c5756e08e534835b952c76087374e932fd577b9b194977f09b8d34d491c1045`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/49-Las-mil-puertas-el-barrido-de-la-V25-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `dd65f55d547d9addb184a55a57b590bc3621d2013c526e1bafcbc561cceca86a`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/50-La-discoteca-I-la-mina-de-las-231-puertas-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `95b53869911d8d1cb589bdb44fadebd61a2716bdb7c589a87daf995263697733`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/51-La-discoteca-II-el-jugador-grande-y-Finamp-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `47be065e0cba81e85da0c81200cd05409efcd11db10f2b387221d623820e2c94`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/52-La-discoteca-III-el-censo-completo-del-baile-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `ae120ddacfd1f46f9bba5211952a18532dca49553faa70b41b79e151c42b2c0e`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `3397c1cc9390bd0944fcc947886d5723ba109cfa0b44d537c0bb74ffd49858eb`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/54-Las-puertas-del-sistema-y-el-taller-censo-mina-I-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `0a91aab613fe439d6c45653a6ee0bbf8aea9f91446c42f647815e792f0404157`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/55-Las-puertas-del-lector-y-bibliotecas-censo-mina-II-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `4dc17e2f6026e1ad25bf55d432c6008ab33ff89d8384987f109a47fb311fba28`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/56-Las-puertas-del-anime-y-los-servidores-censo-mina-III-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `b43ce30a01677b11f95dd426df7fdb666598cb18c9ca6a384bff0500b563e89b`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/57-La-hornada-del-lector-la-mina-con-nombre-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `2b8fc11a7a217298b4323d2f6a0dd344c0ff706fe1097247e02ea3afd5fc2241`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/58-La-hornada-del-anime-el-segundo-territorio-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `f6c8020d7e47f2f8cdb0eead48e6f16dded5475bcfdb96c9be2be451ef5e64c8`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/59-La-hornada-del-taller-herramientas-de-la-mina-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `b2a64aeb555165c8a946f5e577c5257b6366b85130aa455e9e502ee0bcfba2ad`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/60-La-hornada-de-las-bibliotecas-los-ordenadores-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `706cc360b0b5f5a0b240948c535794b040df8a9ed02681557d6f2dec73ce9ef3`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/61-La-hornada-de-los-servidores-el-sotano-de-la-mina-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `421254824cfd4414dbf299dc8b184e0cd06184fe906ee714e1104fd4a7dffb6e`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `cfb8b337bf0a85d9dbf4de56ed4402241b98a6f01e2109b999122a74ae0457c1`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/63-La-segunda-fila-del-lector-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `0401ea5675aa0bcdb4e24340b626c0841bb011f361c44a06279cd879913eef2c`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/64-La-segunda-fila-del-anime-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `516e088cda1f8c1f3448c8e008dd61927fc5ad90a4adfaa12a161d67ff5ab624`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/65-La-segunda-fila-del-taller-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `98475f6ee25966b1c97701e2e4c62adc6435c6234c739eddf40b11f6b2dc8fc3`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/66-La-segunda-fila-de-las-bibliotecas-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `2722a45b5df92736587b2cd28c642fdc7c1bbb9919041a9ae92ed3d2dc14c077`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/67-La-segunda-fila-de-los-servidores-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `4cb303dc64f9a3708ef1fe2e85decaf723d9cae2dfd1c58a08ec32bd69d6eecb`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/68-Los-canes-la-segunda-fila-final-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `1d19d12881f09ae5cb1316e7a1176597cd1f2487700170e9a8f22e2a432a833f`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/69-La-vara-por-las-forjas-I-Codeberg-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `316b5de0c22815d6bf8c499bbd7dce027f6c9d19abc0b35cdde9b48d10a3f337`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/70-La-vara-por-las-forjas-II-F-Droid-y-sitios-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `e80f41f2db4f9b58a2ea887e00fe25b0668f80fbb1b2651dc32457c9f295d07d`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/71-Los-ceros-hermanos-y-los-nombres-solos-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `36178675625a7919a6ff17f65d414205729b1fd733e42f25312a08e700a86214`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/72-Las-actas-del-censo-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `8575046970966e44c5b2b6961f1df4d35427d1ca4e65bb22f73c8d08afc5b81e`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/73-Los-espejos-y-los-homónimos-libro-de-nombres-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `66894322342e294b1204afd2963f440a3577f21eb22d3ca7f68811204d112378`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/74-Los-vivos-de-la-semana-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `fa119e93f15f59236c38f6c8a590bfc48330db5cf95a1a00b5bc2260fc2137e5`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/75-El-podio-de-la-mina-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `244aded23594d659ef48e12f82079352c49ee1ac501bdaadc297fc314f91bf76`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/76-El-recuento-la-arquitectura-de-las-ochenta-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `4637f607db6f8eb27582989906168aa65bf807258119b2ecb88ae97ffd4e4423`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/77-La-frontera-del-lunes-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `381691b0d2e73cc3d0cb55e77270a16a71ef9ff254b1a5291c4208f5c768e516`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/78-LA-LISTA-del-techo-la-pieza-final-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `57670f6d056be311b86f3f3ffe125545d3fa185dd4d4aea2dca5e03223f92cf0`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/79-La-octogesima-el-techo-tocado-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `ab0a4a4d7f76985b72380bbad98c98e95c72bde198248c5d76ecf39c109cb87e`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/80-Las-familias-de-extensiones-Discord-La-Bandita-2026-09-15-dominicano-ES.md — `ee650aeed5780bbc52f679e2490c04ce543a141f6b8c220679313838f0fa3d65`
+- 04-VERSIONES-MULTIIDIOMA/discord/dominicano-ES/LEEME-de-la-carpeta.md — `7131e34f412ec5dfbcb41a56c9004c43d11fa293b676f98475e465d9712aaeb0`
+- 04-VERSIONES-MULTIIDIOMA/discord/frances-FR/75-El-podio-de-la-mina-Discord-La-Bandita-2026-09-15-frances-FR.md — `b2558234990c2ef463eff102149cb690d2d3c7efcede5a32153476fd68f85b19`
+- 04-VERSIONES-MULTIIDIOMA/discord/frances-FR/79-La-octogesima-el-techo-tocado-Discord-La-Bandita-2026-09-15-frances-FR.md — `8e75dee32003a6210cc8184fc2e2b915b7e05b3025d71eadcd105eb6f5b4048f`
+- 04-VERSIONES-MULTIIDIOMA/discord/frances-FR/LEEME-de-la-carpeta.md — `09423466e946434ddc8d03392f7db2d3ac72dc6a3fca29980339646d70496b4d`
+- 04-VERSIONES-MULTIIDIOMA/discord/hindi-IN/75-El-podio-de-la-mina-Discord-La-Bandita-2026-09-15-hindi-IN.md — `ffa6b2a0066c28673c079b61d0741844b4ad5292078d7f9cdd88d1bed1736586`
+- 04-VERSIONES-MULTIIDIOMA/discord/hindi-IN/79-La-octogesima-el-techo-tocado-Discord-La-Bandita-2026-09-15-hindi-IN.md — `bab2b3a3e34d5447ca3044b5f8225203897a6bb9f475cfe3f9e23d56cd2f957b`
+- 04-VERSIONES-MULTIIDIOMA/discord/hindi-IN/LEEME-de-la-carpeta.md — `6c31a95a072f1ae9253e63352a3a6828d653f8ded493a7fdbb11444aa8dd04ef`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/00-LA-LISTA-Discord-La-Bandita-2026-09-15-ingles-US.md — `00769db5def183437a5328c919c269cc2e1245694c4e2b27478ff8237b63f6ed`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/01-Tiendas-de-APK-legales-Discord-La-Bandita-2026-09-15-ingles-US.md — `77542e643dcd4ec33e72e410a09cc2f3dc3340cc59ee001854f75f2930d80ec9`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/02-Kototoro-manga-novelas-video-Discord-La-Bandita-2026-09-15-ingles-US.md — `401cf0728d007f2cc5cf780c0db89c600f2b3b19761d7833397ebc1d99b8594f`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/03-Verificacion-de-Desarrolladores-Discord-La-Bandita-2026-09-15-ingles-US.md — `012279dfbed13ccf7eb566cce1f0598cba1eaf98bf87fd2d62ef9ec666e2ee6d`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/04-Extensiones-tres-arboles-Discord-La-Bandita-2026-09-15-ingles-US.md — `ba6f3ceb9330fb47e765af882428dab87a0875144f820cc4e6f2dc5813c9a2e4`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/05-TMO-cayo-los-clones-no-son-TMO-Discord-La-Bandita-2026-09-15-ingles-US.md — `29cfe8d38f5321a13315bfef4726e449ec8af4381af51865ce930bebeb712392`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/06-Forks-de-lectores-segundas-generaciones-Discord-La-Bandita-2026-09-15-ingles-US.md — `ec851e90ce618df6dce93afc20a5917e3acab9effd9ab698e2a7a31db1740c6f`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/07-Usagi-viva-cadena-Kotatsu-Discord-La-Bandita-2026-09-15-ingles-US.md — `b048f409d27862692631ae2354944de82c842042b8fd462f54a7f95fa4be9bb4`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/08-Musica-FOSS-clientes-con-repo-Discord-La-Bandita-2026-09-15-ingles-US.md — `e0097faaa5aa2732b53c92c9ac4cbecf7ef38dc2984002beec5c9ea356e832a5`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/09-Herramientas-FOSS-caja-de-oficio-Discord-La-Bandita-2026-09-15-ingles-US.md — `b5193cb41ec5cc1c3d9c86bdcddf10bf6eba9f6dd4cae807f75584a6867d60f4`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/10-GLTools-no-se-receta-Discord-La-Bandita-2026-09-15-ingles-US.md — `09646541e0c340ec6b2004d2e59966cb095b129d21e99539d83a0f65c247b32c`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/11-AniZen-vivo-el-espejo-no-es-el-repo-Discord-La-Bandita-2026-09-15-ingles-US.md — `4bc3f5734832e1274718d7810bb8c584848217ec29fdd5219b06b680cd0d887d`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/12-FMHY-wiki-de-pistas-no-catalogo-Discord-La-Bandita-2026-09-15-ingles-US.md — `b23edb7fe8fb04ac9ff160eee9d2e27bf8f74fd40f0660ba350008fc37ee3dbd`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/13-Rama-Aniyomi-Animetail-Tadami-Discord-La-Bandita-2026-09-15-ingles-US.md — `6c98e5aee5bfb9b437c0a3d018debe1e09095717805dcef6c6850aafb1e9cbd8`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/14-Rama-anime-puro-Animiru-Anikku-Discord-La-Bandita-2026-09-15-ingles-US.md — `188087b19cd8d169089fb9422aff259b927af444bc0c86faa0689050e7a3ed30`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/15-Rama-J2K-Yokai-Rokku-Reikai-Hayai-Discord-La-Bandita-2026-09-15-ingles-US.md — `fce5a3cb381532cce580916f53bc3df24f5f16a08152819232156ea75b217559`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/16-Rama-SY-Komikku-el-clasico-y-el-rehijo-Discord-La-Bandita-2026-09-15-ingles-US.md — `db77fb688c167b09949b8415e50c1176f2c363497e7fb46d12d179edd09932dd`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/17-Capa-de-inmersion-aprender-japones-Discord-La-Bandita-2026-09-15-ingles-US.md — `ebce6a75a8358238587f30538205c994543c8fe4bb99f67ad79197137efa6733`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/18-Libros-OpenlibExtended-Discord-La-Bandita-2026-09-15-ingles-US.md — `8b2780943bf628eff8f9382f228946b294bca4dcd5860950cd9f61fe3befc45c`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/19-Panorama-multi-anime-manga-novelas-Discord-La-Bandita-2026-09-15-ingles-US.md — `b340b97571a4fce06598209fb1ff4c57d00f70344a153fc9515dc48368590f3d`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/20-La-Biblioteca-de-un-muro-a-75-guias-Discord-La-Bandita-2026-09-15-ingles-US.md — `fe559e203a5463d5579e1f20f614f4d5684eaa35d71dc705fd19c72b00dde65a`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/21-Musica-I-la-cosecha-del-muro-12-vivas-Discord-La-Bandita-2026-09-15-ingles-US.md — `3f15033dd99957724920a74ea2849e9c839f5474490d4095bc039f19a6882e9d`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/22-Lectura-II-la-repisa-del-muro-siete-lectores-Discord-La-Bandita-2026-09-15-ingles-US.md — `cf13f62fd24063ceddba33d8c3d710c81892154b2d3f0b5dc345972ff60a0746`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/23-La-sala-del-muro-IPTV-servidores-cine-Discord-La-Bandita-2026-09-15-ingles-US.md — `1264fbd7595659c90d5ceb6f68acfa40278cebb63beeade5ade371e46f705d42`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/24-El-taller-del-muro-Shizuku-root-sistema-Discord-La-Bandita-2026-09-15-ingles-US.md — `8db6bece1cd6e9a8f8c77cc8913c3cabbc769fd67a0c49d49e809153880ee6ef`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/25-El-sotano-del-muro-servidores-autoalojados-Discord-La-Bandita-2026-09-15-ingles-US.md — `ffafa17fdf48f7b41f63a424ee7b10cc3b59ac816df4ef28fcaf9779708db7f0`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/26-El-cajon-del-muro-candados-adaptadores-miscelaneo-Discord-La-Bandita-2026-09-15-ingles-US.md — `196aa933f2c7c7cfdec86faa6e086888ad56bc24fae580978f62f331df9c21f4`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/27-Musica-II-las-sucesiones-quien-hereda-a-quien-Discord-La-Bandita-2026-09-15-ingles-US.md — `91e48f3419f0bca26677c3c26222bbfb0331b24f833d5802b62c371c55f1150d`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/28-El-tronco-raiz-gestion-y-tiendas-Discord-La-Bandita-2026-09-15-ingles-US.md — `dd7b6963d78f2c7fb860a632b3f32d9a62a7ffb757c751de24aa7032a7db2904`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/29-Los-mayordomos-apps-perfiles-bloat-Discord-La-Bandita-2026-09-15-ingles-US.md — `fd47fec16a6deef78f5ba2fa6e820d21c39e3496fbe3f9cc5c14f548babd14c3`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/30-La-cara-del-sistema-lanzadores-teclados-Discord-La-Bandita-2026-09-15-ingles-US.md — `9cb02231f55c901c4e62748f98dc98398a411718e75c561d134c9ac2759a1b86`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/31-Los-pequenos-del-sistema-una-sola-cosa-bien-Discord-La-Bandita-2026-09-15-ingles-US.md — `0ca3633bc75433595825eefd92b5757560ce0f37994c97ac9e6e9f68a44e10a5`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/32-El-cable-y-el-escudo-conectar-actualizar-defender-Discord-La-Bandita-2026-09-15-ingles-US.md — `ff1550cf32c684570012e117be75f3089ea6928ab62f3747053aa6012add79eb`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/33-Los-archivos-del-taller-cajones-paquetes-guardian-Discord-La-Bandita-2026-09-15-ingles-US.md — `40d5ca703177f2986c57d45ac0c2142879920e35bce26351f19d058945ef6664`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/34-Los-que-tenian-otro-nombre-la-vara-de-cada-pez-Discord-La-Bandita-2026-09-15-ingles-US.md — `3038a5c55c46a397177294497d7aa6813a72bd41e44199ac2f9bd30ee5c5288b`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/35-La-estanteria-la-estirpe-del-lector-Discord-La-Bandita-2026-09-15-ingles-US.md — `3dfb171bc9d4f0deb0dbe7ebc616d59f80616b9e4dc35825217c4547ee21669b`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/36-Los-libros-biblioteca-de-bolsillo-Discord-La-Bandita-2026-09-15-ingles-US.md — `c6ba79d0b513f168588467061a703d0c409068b042f6386bbbc767910e8834d3`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/37-La-puerta-grande-anime-video-I-Discord-La-Bandita-2026-09-15-ingles-US.md — `8ff1df3443e91e44eb50748a837c2afaa285d2e4394f6f0cdd4c798c5284d353`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/38-El-vivero-los-germinantes-Discord-La-Bandita-2026-09-15-ingles-US.md — `dcf689fba491d8aba107952dfcdbce6f48a06f67803e349def6f05cbec9dd631`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/39-La-bodega-servidores-y-bibliotecas-Discord-La-Bandita-2026-09-15-ingles-US.md — `490e768287f55940187095db85bb302a5e1bdd58c854439e66e763dc185e5039`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/40-El-estudio-lectores-de-escritorio-Discord-La-Bandita-2026-09-15-ingles-US.md — `6b15c2f1ef56407ec9e0d78fd63d4c9b9eb389920579ffdd1fbf3ce166f9c708`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/41-Los-cazadores-anime-video-III-Discord-La-Bandita-2026-09-15-ingles-US.md — `27d1c565f0bc15e21182c12f61abf465ce9dd2abae85a26ac8285365e928e857`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/42-La-fosa-lo-profundo-del-mar-sotano-II-Discord-La-Bandita-2026-09-15-ingles-US.md — `cf2456ada80fdc3dc3397d88a82cd4a98bb19d3c6b66b710dd926fb1ddbc3db4`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/43-La-corriente-geografia-de-las-fuentes-Discord-La-Bandita-2026-09-15-ingles-US.md — `d5eefa4b1adee4d83c5609be8912c5d674f082701d19779f932865df5926fca0`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/44-Los-pequenos-las-casas-que-no-hacen-ruido-Discord-La-Bandita-2026-09-15-ingles-US.md — `23bd70ccdd44d215b7ba02b4cc924843e45903012b45c3c95538f0a59d937b93`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/45-Las-canciones-la-voz-de-america-Discord-La-Bandita-2026-09-15-ingles-US.md — `ccd06ed2724fb02677e3113c7bae66ba66ba80d228870a2e5d7dbfbcb2d85209`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/46-La-sala-de-las-novelas-lectura-IV-Discord-La-Bandita-2026-09-15-ingles-US.md — `baa21565a2060af613cee142aefd3746047beeb9424fd77894e0d6c13b9c0753`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/47-La-ultima-puerta-del-catalogo-venera-y-veredictos-Discord-La-Bandita-2026-09-15-ingles-US.md — `d2708d09b2353f69353cb98279e7a3cf255116dd55b6038074d76962569d1e72`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/48-El-archivo-la-V25-vuelve-hecha-mejor-Discord-La-Bandita-2026-09-15-ingles-US.md — `1ac8c3c34eb5f85b573a4425f5aee0d4f15d616605695b3ea7362b36734e0a2b`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/49-Las-mil-puertas-el-barrido-de-la-V25-Discord-La-Bandita-2026-09-15-ingles-US.md — `338b135ff1659db9c5c8579fda0184b1c9f917f88c32a885c70a2c0eceb80947`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/50-La-discoteca-I-la-mina-de-las-231-puertas-Discord-La-Bandita-2026-09-15-ingles-US.md — `ddceadac42b7364672ad49f1049bf862dc9742e9a35399648d7dd2151329d72c`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/51-La-discoteca-II-el-jugador-grande-y-Finamp-Discord-La-Bandita-2026-09-15-ingles-US.md — `e97be6de83ae701748f2759d3a884c0888fcd080812d65f3bac6dae27f302149`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/52-La-discoteca-III-el-censo-completo-del-baile-Discord-La-Bandita-2026-09-15-ingles-US.md — `41ceab7eba731fb13219d176f494d4eb4f16750b38108cd7b0a809aca12ee485`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Discord-La-Bandita-2026-09-15-ingles-US.md — `522f5ed70a7591c9896df4227286218138e7a23572af9477f161faed984f289d`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/54-Las-puertas-del-sistema-y-el-taller-censo-mina-I-Discord-La-Bandita-2026-09-15-ingles-US.md — `78aba4206e0f4f7215fe0ca9d00bd9187212a68d70154c396527e923e8f873b8`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/55-Las-puertas-del-lector-y-bibliotecas-censo-mina-II-Discord-La-Bandita-2026-09-15-ingles-US.md — `e94e7eff8343a9eb488f6481a97728223100ce226bbc4377e405fe798d117d81`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/56-Las-puertas-del-anime-y-los-servidores-censo-mina-III-Discord-La-Bandita-2026-09-15-ingles-US.md — `831f7505f3df26bb54c3a8f5deadcac16dedb3d193f1b39536215771569889ef`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/57-La-hornada-del-lector-la-mina-con-nombre-Discord-La-Bandita-2026-09-15-ingles-US.md — `dd22d50fde349ba42ad1fcd955e03f5e2a11a849b44d71e5a4095a0c07f22fe6`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/58-La-hornada-del-anime-el-segundo-territorio-Discord-La-Bandita-2026-09-15-ingles-US.md — `98600d586571dedc30d81ccf87e26541bdfc6459e7943c6ee5ae6af121769cd3`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/59-La-hornada-del-taller-herramientas-de-la-mina-Discord-La-Bandita-2026-09-15-ingles-US.md — `ccfafda38827d42f7886b492beae521de9b4b57be0b143b782be83b2e9231540`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/60-La-hornada-de-las-bibliotecas-los-ordenadores-Discord-La-Bandita-2026-09-15-ingles-US.md — `0b50b989451bf31ae09e9aebe22292c1d5bf7d86eb4513e7e161aae30a104599`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/61-La-hornada-de-los-servidores-el-sotano-de-la-mina-Discord-La-Bandita-2026-09-15-ingles-US.md — `bde3356c0543da6b0da7b7a78fc5bf03e46d90b2918ed11f3f772e2195e64166`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-Discord-La-Bandita-2026-09-15-ingles-US.md — `3f967bfac6a45a56061998629aee4eb4f901c6e7932648365ecde7d5cdc4af60`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/63-La-segunda-fila-del-lector-Discord-La-Bandita-2026-09-15-ingles-US.md — `c1e189abbc67fabe839b315c9f5cf8cea2dd676625061980ec34e35ac2a4cdd7`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/64-La-segunda-fila-del-anime-Discord-La-Bandita-2026-09-15-ingles-US.md — `5e4b7414a8f9ca1090eb86fa044aeeb0fe997193c7aa8a89428a1e73180d4719`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/65-La-segunda-fila-del-taller-Discord-La-Bandita-2026-09-15-ingles-US.md — `b1bb8ca15c56dafaded44d4c32969ed4437839db097663e9aa7f686b364f7880`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/66-La-segunda-fila-de-las-bibliotecas-Discord-La-Bandita-2026-09-15-ingles-US.md — `967be74d7d796d37dd6312a7543867b43bcde276e4116cc63e7499b3a61548d8`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/67-La-segunda-fila-de-los-servidores-Discord-La-Bandita-2026-09-15-ingles-US.md — `5fe1bdcf962f4be7438d0f4bd471a90a93b397b464e2420517a1eb2025fa583c`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/68-Los-canes-la-segunda-fila-final-Discord-La-Bandita-2026-09-15-ingles-US.md — `d6af2be58bf2f2fb2fd27c942ff52a18c7449640f3f4d9a25c36c365c370cb71`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/69-La-vara-por-las-forjas-I-Codeberg-Discord-La-Bandita-2026-09-15-ingles-US.md — `74fda533f4d6ec55cde1107b3c1c308ad91f6dbcbba1311dc38c3486e78ddbe8`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/70-La-vara-por-las-forjas-II-F-Droid-y-sitios-Discord-La-Bandita-2026-09-15-ingles-US.md — `d9d759c175b75e0001e6008d9b929953ed4a1040f372200ad2ecfcfc3c5fb1b8`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/71-Los-ceros-hermanos-y-los-nombres-solos-Discord-La-Bandita-2026-09-15-ingles-US.md — `48eb8da9f3826e8999eadb97a4c6cf91483c4274f0460fba78ff3b56a1d51f0c`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/72-Las-actas-del-censo-Discord-La-Bandita-2026-09-15-ingles-US.md — `d0dc31d9f54a72a7e783c49de8a98462393a7694df65341aef342944981ad753`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/73-Los-espejos-y-los-homónimos-libro-de-nombres-Discord-La-Bandita-2026-09-15-ingles-US.md — `f9aec8bb64b8fe9fac9be25329075948bd57cd5c9975567c59ba53db83b88f5c`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/74-Los-vivos-de-la-semana-Discord-La-Bandita-2026-09-15-ingles-US.md — `e554b08f8e176ba46a77cd6fe3983f930e5fe4f2ba962ff837b386cd4e4ad80f`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/75-El-podio-de-la-mina-Discord-La-Bandita-2026-09-15-ingles-US.md — `73e9de1b00a804105cea7703318ffa0a3c08f683a707d58fe2e0ce311f329595`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/76-El-recuento-la-arquitectura-de-las-ochenta-Discord-La-Bandita-2026-09-15-ingles-US.md — `b9502f85f9255379913d5e2a60ceadd2981c8b728e40eef5836b4da6d73f863c`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/77-La-frontera-del-lunes-Discord-La-Bandita-2026-09-15-ingles-US.md — `c14e0d5080271b210e2bd1b34dbd12a1384ee7cdc9a8001cbd398cfd62bfd2d4`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/78-LA-LISTA-del-techo-la-pieza-final-Discord-La-Bandita-2026-09-15-ingles-US.md — `cdf2af56c9d1108af6d48302a2554528083d1838be5b0ebf10c53ac9b3e7f92d`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/79-La-octogesima-el-techo-tocado-Discord-La-Bandita-2026-09-15-ingles-US.md — `e30a3a830539bfd2f6a78687cde136df388e6a479797fa69b3fd106c7da43f2d`
+- 04-VERSIONES-MULTIIDIOMA/discord/ingles-US/LEEME-de-la-carpeta.md — `9d540a7d2286605a79d915249773bdd3e6bce67ebc1f1340579efad1f7ecaf57`
+- 04-VERSIONES-MULTIIDIOMA/discord/portugues-BR/75-El-podio-de-la-mina-Discord-La-Bandita-2026-09-15-portugues-BR.md — `76d39f8eeb6a2ef81acae4133bc513e8382f82b4efc54edbc1c54d1a93684c18`
+- 04-VERSIONES-MULTIIDIOMA/discord/portugues-BR/79-La-octogesima-el-techo-tocado-Discord-La-Bandita-2026-09-15-portugues-BR.md — `51d1b6b9b64894c031ad57b18f427045ce7a2b24dde2bfb160f0d901c2b424fd`
+- 04-VERSIONES-MULTIIDIOMA/discord/portugues-BR/LEEME-de-la-carpeta.md — `363f1cdf788fc95e90e6bb9582f9eda7d41161533bc0aacf26da8ec54788c0de`
+- 04-VERSIONES-MULTIIDIOMA/discord/ruso-RU/75-El-podio-de-la-mina-Discord-La-Bandita-2026-09-15-ruso-RU.md — `a78978e2af9e445ffc7065c8bbb994c92cbb2e5bba6cdfc809a69fe72ea468af`
+- 04-VERSIONES-MULTIIDIOMA/discord/ruso-RU/79-La-octogesima-el-techo-tocado-Discord-La-Bandita-2026-09-15-ruso-RU.md — `b487dfcaece675bb4c5d0b0fbd22d82dbdbb16e4ac3c37336b132f63e1cb8e36`
+- 04-VERSIONES-MULTIIDIOMA/discord/ruso-RU/LEEME-de-la-carpeta.md — `cfc217e7dda04ebb9b3d0749ba17f4fd45fa095bad271831667829bbc78c8494`
+- 04-VERSIONES-MULTIIDIOMA/facebook/chino-CN/75-El-podio-de-la-mina-Facebook-La-Bandita-2026-09-15-chino-CN.md — `c62594ef7c07991a6c66ffbf6cb9f300d1bd7c9e5d194940c9a4f573f9e567d9`
+- 04-VERSIONES-MULTIIDIOMA/facebook/chino-CN/LEEME-de-la-carpeta.md — `42a76edad49170fad13eb5aaa2f20c0e302e8e86423f7331b28b1a599d343fd7`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `fdce55412d0887b369bec2b72062e2ff0cb878f3afd2a9b0a01fdac7ef0324aa`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `b100c56d36aa7507c90e7c1b82825cb44e06c93097399488c709346f103c61e0`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/02-Kototoro-manga-novelas-video-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `bca6dbc90f83ad9b72ba60ff77dc72563b31df2a7583f9bbf3677c67dbd524a2`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/03-Verificacion-Desarrolladores-hito-30-sep-2027-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `39e433e4e0b20a6a9a8bee1f42779ec49dd6e5e78941946d3d7da2367418d4c6`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/04-Extensiones-tres-arboles-hubs-parsers-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `e7b90b8737d962c9fa333cad2fbe4ffc416a1a2a6f143c66f171c67052828f01`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `8b9023146012796099b6bef50b24381bda9da29f59d4ff3553dc1bb558b8b539`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `8b32c55a17907738b20d6cc4ea928f7b0e31971c79eb98881d3b2c3880957113`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/07-Usagi-viva-cadena-Kotatsu-Yukimi-Usagi-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `6eb67aed56d0973e1ee7f478712fdea8050630c9bbc028fffd9573be002523f5`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/08-Musica-FOSS-clientes-con-repo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `17b9831f15df176e2969638aca1b4bd9d84cc5727fc08646f1c584fc07ddb037`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `074f0f845c62a97bd5691bdc6fcbb1173ea6aa796df9492fa7e4b083622d721b`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/10-GLTools-no-se-receta-spoof-GPU-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `92830e7241501560c5e80fbcca8d6353c1c1b3db439aa06171e6c5f021114286`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/11-AniZen-vivo-issue-no-enviado-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `e280f35e70a1d847dd412c0133423c492e9cd6b77a9b5ccb4b7104f614f3773d`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/12-FMHY-wiki-de-pistas-no-catalogo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `804889096d1ea68c2764be3dc12244ed256394195e428c1a5169d78c74eeb604`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/13-Rama-Aniyomi-Animetail-anime-y-manga-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `9e4b14bb9ce030cc56775cffc40a6798d7451bbf2525a7a8afd3cdf174a866a8`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/14-Rama-Animiru-Anikku-anime-puro-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `5ec49f4ff907b173709a42f69f999187a4b2f30838d90693afea24ce28000eb7`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/15-Rama-TachiyomiJ2K-Yokai-Rokku-Reikai-Hayai-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `b3ec4c34c7fb6779913399f8ed2f22f06a4dc6d459359fd406e44076ac93333f`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/16-Rama-TachiyomiSY-Komikku-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `ef547c004931eee2e45bf33a0f0f8fffd4b635e865b4e37d6cee8058be7baab1`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `8dbd63ac5321b45a7e66683f15183e8abfbea18a8cb71a60d59d40d2781a6cd3`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/18-Libros-OpenlibExtended-cliente-Annas-Archive-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `f5ffc6022663f5e886692614fc9d66a3d2aaf116fd3a363c1482db7cfd7123f4`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/19-Panorama-multi-anime-manga-novelas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `b91b66d1806bc42ac339d9916287329ddb1ff04feb4b35182714cb8be0e5c612`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/20-La-Biblioteca-plano-75-publicaciones-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `890cc954e5f2d0cc7faa9672c9b0f556187b9b497757007dcf9216a888b47c8b`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/21-Musica-I-cosecha-del-muro-12-vivas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `5aac38816f0972902569cddc3b8261f4d5315752fc124e89cd033da5764c8e87`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/22-Lectura-II-la-repisa-del-muro-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `745acd47cc18fe4051c9ca82d72690bba2792169f3d20be06889f38f82248092`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/23-Sala-del-muro-IPTV-Jellyfin-reproductores-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `b66d0efad6d3c2f1a75ebf347b5053e5b2355c728e99d8f2cd0d71c265fd0c46`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/24-Taller-del-muro-Shizuku-root-sistema-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `bf6b303938edcf2d440c7fd90c7e7a31b13254f119c9b3d8d93e378562bdc311`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/25-Sotano-del-muro-servidores-autoalojamiento-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `5745e934002f12770dbe063662455c5644f1f1d1fc87081e63ee57b385770ad4`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/26-Cajon-del-muro-privacidad-parsers-miscelaneo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `f3747c364201f10dd164ca8689773762124ee78913db933f12319c0d8b76af0c`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/27-Musica-II-las-sucesiones-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `14bfce12082f3457d8ec7198b8d4e98e7a33f63797b506a5055a0e6d08683815`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/28-El-tronco-raiz-gestion-y-tiendas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `581c3925423b748df5f686584502a3151fc31e344091c38a7d1f4c31c12b8dcf`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/29-Los-mayordomos-gestores-perfiles-bloat-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `61d63c7152c3dc10ff040bc4fdca5964bc47b8174a2233c457063e4266e6152e`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/30-La-cara-del-sistema-lanzadores-teclados-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `ce540ba2c482f66835585a10e2c8126bbbb974c8cc55e825549a5a1500092014`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/31-Los-pequenos-del-sistema-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `6ac5b730886f5aa37263e5620ef32f4294cd8300ba843826e98da32b6b64c89c`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/32-El-cable-y-el-escudo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `4c280e7486f42095cabf2b0d45d6877e13128f1c181d4295888efcb9ec6968c9`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/33-Los-archivos-del-taller-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `d1a4123a0df89a9f0801fc4fb3b1cf08b2d2361bc80828945562d71fb7a0c03b`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/34-Los-que-tenian-otro-nombre-ambiguos-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `b7da9441284e0bc0e04a8ce50d56f9614bcdb31e2dc6b5c512351ee1858c9317`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/35-La-estanteria-la-estirpe-del-lector-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `1f549301fdb1ddfcac660603c665f76840f7ec4b8b0c915b718ea260692aac3a`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/36-Los-libros-biblioteca-de-bolsillo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `83c9aa7226fd3e0b4eb23421b6f4e98cd6e43dd76f942ace4c2aadbd07db5a0b`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/37-La-puerta-grande-anime-video-I-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `896194a0e74778cf2e9a4952afb10b3fd2a21e49491022274769284fe7d2d283`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/38-El-vivero-los-germinantes-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `28bbd5a3379fc513d81b4c9339d3b5a5d06dc97f78846ee334ec35e9836d59ed`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/39-La-bodega-servidores-y-bibliotecas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `5f496f87e89e9de750762ae6134f444afa1441df18a46380b66e9f7ab0737c73`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/40-El-estudio-lectores-de-escritorio-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `b3bd4aa25ae1404d91f294f49a215a08dd3bfb6124037b427e9e9a31455284bf`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/41-Los-cazadores-anime-y-video-III-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `983ca57a3b86ad8feb189951fde521c9c03be388cb16bf8c088864c3130d60e2`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/42-La-fosa-el-sotano-II-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `4368e5b71ba203d40b8efe382f33879a50bf20c31c847d9b25eeb2629d0f0f1d`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/43-La-corriente-geografia-de-las-fuentes-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `1b7d7eb27779855002e2c2f84482ccd5481c3b095179b35993202e15765d3d8e`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/44-Los-pequenos-las-casas-que-no-hacen-ruido-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `71cd01f9aa0c0930f2fac698f5e832066a0f8c49b8c611e3a67ce6d1314e3d2e`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/45-Las-canciones-la-voz-de-america-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `99150b9339b213feb56c7734454e115bc14adfd805f33a4386453c1ea5a80196`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/46-La-sala-de-las-novelas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `8c3a89c0dd3fc71dccc3ab2932121471dbcb7862181d7c0e035cb2872575c999`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/47-La-ultima-puerta-del-catalogo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `9dbd295366601e387e56df150e0eeeb85e6b88a6eb0a030b6d0239a08c01e8a5`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/48-El-archivo-la-V25-vuelve-hecha-mejor-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `bb2860245070c15a7bd9363359738459a46744ec65b6c4e1fc8f46f82a97b4e2`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/49-Las-mil-puertas-el-barrido-de-la-V25-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `e158eb9425a84d2de726a5fdf8e959b5a4234ed6f8bef599297bfa1440a11e7e`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/50-La-discoteca-I-la-mina-de-las-231-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `76a1e85ae1af167550f00a30280dd7b966f93cda81b573f2bf4b5a65d07fa137`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/51-La-discoteca-II-el-jugador-grande-y-la-mudanza-de-Finamp-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `5ce59041a374100ef1d288c1063e07a2ca146bd85d9faef6ea38da9db0c598b0`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/52-La-discoteca-III-el-censo-completo-del-baile-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `ab6e944dfb02005d9f6aa7181e273456db3423dd6e27683b48d2ccda033aa62a`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `ffea6b089c7c1f5588d3d1b2d513850cdcd0230e1eb3088e675c961db45b245b`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `8ec271980fd6fb0f229c021bdec58f86f337f33379b99975bbdf5f2e3e678e49`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `c653eeeaa607c0a152eb9638e28583abb5d53f86e80ba8944313c65574c4c111`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `aab5a7a2714eb8e149f8ca8aa47782b792af848f13d61840a521931c6d65d150`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/57-La-hornada-del-lector-la-mina-con-nombre-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `3542e60e2f54d9fac25ea65d5d226719f16c0e9fffb3ab17f90e603ef3d2a877`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/58-La-hornada-del-anime-el-segundo-territorio-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `9d366d23c08d7273d8130af8b902dd7d16e9b26bcf0aed5190beaa76e4092abf`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/59-La-hornada-del-taller-herramientas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `a3025ae63fb7ed9411d139fc5ccb53e86f54b83cf93de92c62c00e2d5147ec30`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/60-La-hornada-de-las-bibliotecas-los-ordenadores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `8acd8930deb17742ce30dd64a1dbad2ae31807240aa9e346f8084256f0928bb2`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/61-La-hornada-de-los-servidores-el-sotano-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `1eb8b1d42fe132bc604ca6d0fed349756c7df45836e09e44ef26ba8946642718`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `0ad060fd565fe8a8f935568beac313d7c79d2cbd7bc9ee25c3f955e7604e2bb0`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/63-La-segunda-fila-del-lector-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `ec5fa79c17cd88781c6f1532ce73a0747f57a9256972c912e436bc6723367292`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/64-La-segunda-fila-del-anime-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `7e0a1467f2eae46b83328eafe2a738f344bca97baf53e8744fc018856e112b5a`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/65-La-segunda-fila-del-taller-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `c79ce4ece79b83b19aa4144fb3204a698310115e73f3cca8488e9eb898f264d8`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/66-La-segunda-fila-de-las-bibliotecas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `c77857076d6c07f6cb9bf7e83527962636f01ea7ac94e35fb461e429c1acf694`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/67-La-segunda-fila-del-sotano-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `230a65934ec028f46170646eee5e2121ee6cc84597630c1f4af9e19b6af5a802`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/68-La-segunda-fila-de-los-ayudantes-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `74306b81e34ee79202bd3dbdccaf9c06e1e433e41f87e58a287f00baea1dda19`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/69-La-vara-de-las-forjas-I-gitlab-y-codeberg-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `4456a0bfe5ac62786728782564cb1e3cbb183a670e01f3928682b4a5247ac282`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/70-La-vara-de-las-forjas-II-fdroid-y-las-tiendas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `81f555182dfd298a2432491880e8c0228527f83e0f42ade0ffd20939f9683362`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/71-Las-puertas-calladas-los-ceros-de-verdad-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `7cd0bcb98e23e763a8a1ff823d79eef5c0e82dc2b6ea09fe901727584cae2652`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/72-Las-actas-del-censo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `73816c2606a7908932939777eeb00941905e0209d02ad2b86a6d75214a8229f1`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/73-Espejos-homonimos-y-mudanzas-el-libro-de-los-nombres-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `0bc3d0dd6b741c3b193322cd60749899716ea6cde22e94b8e50f5de6aa88a59e`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/74-Los-vivos-de-la-semana-la-fila-de-las-fechas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `6f84982962bec11aa18dff57157adabc3ddd1c8b048775735276e4d7e0fa709e`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/75-El-podio-de-la-mina-los-veinte-mayores-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `1e3d09270bc312d0bbeb851d5ff4067517bcda3880624da1056c7c8a8e10ff42`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/76-El-recuento-de-la-quincena-la-arquitectura-de-las-ochenta-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `ae0b1de39337e34b833301b9cebbfd4254aecd8d27796efd7eabe7a37bb0df49`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/77-La-frontera-del-lunes-lo-que-queda-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `4e05a21f9fa0e8fe1ec9111ab5ae42d132e519ee7b649c3a76968ca65d60ec93`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `f05e64434133bd5543addc4c68f64baa0241a8dbd4df7698f2ae7ac28638fcf9`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/79-La-octogesima-el-techo-tocado-Facebook-La-Bandita-2026-09-15-dominicano-ES.md — `4d28abb85aa2c28955f432c3e78d8d980e7e91ef38ec37888979a4cd2aa6f35e`
+- 04-VERSIONES-MULTIIDIOMA/facebook/dominicano-ES/LEEME-de-la-carpeta.md — `07dfde752ecd8f40fadf6632b54429c0ba1ed99cd63ef77863507c39ba19018f`
+- 04-VERSIONES-MULTIIDIOMA/facebook/frances-FR/75-El-podio-de-la-mina-Facebook-La-Bandita-2026-09-15-frances-FR.md — `6819c1afb6651c067d3c68cf3d01c81feb328968ac529a177040a5b1be800f68`
+- 04-VERSIONES-MULTIIDIOMA/facebook/frances-FR/LEEME-de-la-carpeta.md — `5e500405e9d8573a15e2733900b686e5eab389434b39669fc85d6365c5041471`
+- 04-VERSIONES-MULTIIDIOMA/facebook/hindi-IN/75-El-podio-de-la-mina-Facebook-La-Bandita-2026-09-15-hindi-IN.md — `bb713127b2d6e1be336c5d114ba7c776da1b94ccecd702d6dbe3a4bad1e1a952`
+- 04-VERSIONES-MULTIIDIOMA/facebook/hindi-IN/LEEME-de-la-carpeta.md — `f3004983503de96fd911720b8564e6e699d72a23a26e716bc05a74e8c997c43a`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-ingles-US.md — `71a3e62315c28a599cb51149c573827c8b88fd53e43ecd0af35bc07671d41c96`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-09-15-ingles-US.md — `9a9a3632bcf84f3e4cb044d4b61832512c719884d43ca0a2827fc68a24eaf282`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/02-Kototoro-manga-novelas-video-Facebook-La-Bandita-2026-09-15-ingles-US.md — `2c55f2986c7fbc27f5c9f5d5d0b2d63c1d5f3159c0b4398ae6e07faf725ea088`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/03-Verificacion-Desarrolladores-hito-30-sep-2027-Facebook-La-Bandita-2026-09-15-ingles-US.md — `2229abdc62e8f24c9cf7bb24df04747256bb5dd58776616639cf5a6cae2e1a3f`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/04-Extensiones-tres-arboles-hubs-parsers-Facebook-La-Bandita-2026-09-15-ingles-US.md — `e51de712ab9672305d94c146b3b4deca070a0a4f4c56dc7502ca4e38c83804ae`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-15-ingles-US.md — `dfe282416ad41d8c54536ff83abcd997bd337d4f3b6748db0586fede2a57c6a2`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-15-ingles-US.md — `79fc964c0b500aec3ac07e71dd2433f8a1f0e4246723d5c02d558eec0e21956c`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/07-Usagi-viva-cadena-Kotatsu-Yukimi-Usagi-Facebook-La-Bandita-2026-09-15-ingles-US.md — `14a859e8ebf7426adf71d465ff7e7975bf8a62631e4b3dc7ad82b48f03665a13`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/08-Musica-FOSS-clientes-con-repo-Facebook-La-Bandita-2026-09-15-ingles-US.md — `56484f2b8967aa68b050fbca3e4e0c3e1a2af51b3d7b86a6c1a851c334e9f3a5`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-15-ingles-US.md — `fb7f2aabbd58a51c8bf6600b7c29be453d33f6957bbdf557635dbe0152409ad3`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/10-GLTools-no-se-receta-spoof-GPU-Facebook-La-Bandita-2026-09-15-ingles-US.md — `0caa99fbf3d1abff42752e72982d8aa5d3fd013eef25bce72ef31812b70a3400`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/11-AniZen-vivo-issue-no-enviado-Facebook-La-Bandita-2026-09-15-ingles-US.md — `1e73fb4cc5d71d9c020c1a1946cce444301ab4a4187155f54cc12f7ad07f9502`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/12-FMHY-wiki-de-pistas-no-catalogo-Facebook-La-Bandita-2026-09-15-ingles-US.md — `69f6787f742295b2868bc1b439f639e8db2d2453146a54b31b5ba1123b2f63aa`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/13-Rama-Aniyomi-Animetail-anime-y-manga-Facebook-La-Bandita-2026-09-15-ingles-US.md — `622dc84e51d72175bd5fd795f0e6ae36cbd7639b24e34fd171044200fd0cf101`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/14-Rama-Animiru-Anikku-anime-puro-Facebook-La-Bandita-2026-09-15-ingles-US.md — `1824bb74e4c1b80805c3ee934c93d7083a5a60b67a847ee9a434dce9c4b4d4a8`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/15-Rama-TachiyomiJ2K-Yokai-Rokku-Reikai-Hayai-Facebook-La-Bandita-2026-09-15-ingles-US.md — `b57f7ca71666a835fd0546f9cc6c403725538f8cab6db9fa22d084e12a36f540`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/16-Rama-TachiyomiSY-Komikku-Facebook-La-Bandita-2026-09-15-ingles-US.md — `a5a6aac81f1949a381c8e38344dd220491e4e9404bc877800cf0958f1ee4228e`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-Facebook-La-Bandita-2026-09-15-ingles-US.md — `fa00378cb2f2f0ab56c5d7665339766b6d8c3e9ee4ce662bc3438e548330cb3c`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/18-Libros-OpenlibExtended-cliente-Annas-Archive-Facebook-La-Bandita-2026-09-15-ingles-US.md — `4114ccebaeb61d491f73f211ba5102b43b11eba34325c05a6dd8723f4f3411cd`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/19-Panorama-multi-anime-manga-novelas-Facebook-La-Bandita-2026-09-15-ingles-US.md — `c1b088c879c84eabb01d7fe52237dcc59832cbd2c1e656c2c702ef9aeb7dbd37`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/20-La-Biblioteca-plano-75-publicaciones-Facebook-La-Bandita-2026-09-15-ingles-US.md — `4592d3340f148dbddd90e8f371ca4bb5075149e92cdd9be3f5cefb8566bf305a`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/21-Musica-I-cosecha-del-muro-12-vivas-Facebook-La-Bandita-2026-09-15-ingles-US.md — `040f1d450b56b182cd22b7bd0e62887c8a0d7a6017e1cf43a3f34ca1827871b3`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/22-Lectura-II-la-repisa-del-muro-Facebook-La-Bandita-2026-09-15-ingles-US.md — `5282c7948f0807f9cf30c21c55589606e2397144f4186acd21661fcc16a74582`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/23-Sala-del-muro-IPTV-Jellyfin-reproductores-Facebook-La-Bandita-2026-09-15-ingles-US.md — `af4f2c3557121037d481cb3c83e947d3a6e18fc8d723015bbabfa35f7d17fa05`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/24-Taller-del-muro-Shizuku-root-sistema-Facebook-La-Bandita-2026-09-15-ingles-US.md — `1bcf702bbc1518ead883e9a55ddedc7f5d38ff341f0f4dd9c78a8e6820d0e407`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/25-Sotano-del-muro-servidores-autoalojamiento-Facebook-La-Bandita-2026-09-15-ingles-US.md — `04685a96aba539775ad59922a2ab230d143dc3821458ae5b5d5e1234a57c5faf`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/26-Cajon-del-muro-privacidad-parsers-miscelaneo-Facebook-La-Bandita-2026-09-15-ingles-US.md — `7ae44b96d9273d8202e5a3b7b30ceaa7b99c2674a74bc9c8bb0178fcb273439d`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/27-Musica-II-las-sucesiones-Facebook-La-Bandita-2026-09-15-ingles-US.md — `67257eb88b6dbaaf456e6aa5a11efd2ced9790c4609e2952ab6d8e6c622b2c33`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/28-El-tronco-raiz-gestion-y-tiendas-Facebook-La-Bandita-2026-09-15-ingles-US.md — `4f3530ac2c984572e7496473efe831c4591864a6ccf39e6e7c65bd64e6e01ad7`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/29-Los-mayordomos-gestores-perfiles-bloat-Facebook-La-Bandita-2026-09-15-ingles-US.md — `ce7a006c40e6d870f2dd1ba0f7dfcfd130a286ed99420dc6446d9d0eaa8a205f`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/30-La-cara-del-sistema-lanzadores-teclados-Facebook-La-Bandita-2026-09-15-ingles-US.md — `c4186f09c3b2a01ac11759669d4378cb58071a9b0ddf4d273ee7758dbcb4ecb5`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/31-Los-pequenos-del-sistema-Facebook-La-Bandita-2026-09-15-ingles-US.md — `96a7f166e694fe5fc6dee9e155ddc0561c74db707f461281dddb697a8011d901`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/32-El-cable-y-el-escudo-Facebook-La-Bandita-2026-09-15-ingles-US.md — `fcb808c1b5fc3031f6c0060675dc3f2adb8821de21d614916dee8d4c704420ad`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/33-Los-archivos-del-taller-Facebook-La-Bandita-2026-09-15-ingles-US.md — `e3032cc6fd1944a89522e816e7d1a82a06c7f15bb52d9fb5e32132ea05b99771`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/34-Los-que-tenian-otro-nombre-ambiguos-Facebook-La-Bandita-2026-09-15-ingles-US.md — `b600c695ac4fdd74674be45d2261088db6fd1a7871dea1515d93880c94abcf5b`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/35-La-estanteria-la-estirpe-del-lector-Facebook-La-Bandita-2026-09-15-ingles-US.md — `e11af290a5a94dc32ba0a7fcb0522747773ef74f56b746ec41daffef7b41bcb5`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/36-Los-libros-biblioteca-de-bolsillo-Facebook-La-Bandita-2026-09-15-ingles-US.md — `7040d714f3a4e1d9955633f1e716737ae169a38ff9400a63e6bce36e9649634e`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/37-La-puerta-grande-anime-video-I-Facebook-La-Bandita-2026-09-15-ingles-US.md — `a08b77c6045c3de026cc6cef9a9d90003cd0b46dc9a5927d0b06afb5d29534d1`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/38-El-vivero-los-germinantes-Facebook-La-Bandita-2026-09-15-ingles-US.md — `608bcdbb168b892c7a77855a6d0da7c00212bfc9b2d8d71fffc9d970b0b87af7`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/39-La-bodega-servidores-y-bibliotecas-Facebook-La-Bandita-2026-09-15-ingles-US.md — `e2c438b72e1362a9efc68d65a66564cf1b0d46e797aa0fd9ccdf0aa811435317`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/40-El-estudio-lectores-de-escritorio-Facebook-La-Bandita-2026-09-15-ingles-US.md — `fdd05b70bbf6cfc6fde0f5d78a33db5f9e4e7125441cb82f2301a1ff80d2fde0`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/41-Los-cazadores-anime-y-video-III-Facebook-La-Bandita-2026-09-15-ingles-US.md — `bae7e82e1afd857a617aa0da30023792b24531059bb3398db9c0bdc17c2a5e2d`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/42-La-fosa-el-sotano-II-Facebook-La-Bandita-2026-09-15-ingles-US.md — `f9a341eb2cd60f448f594ad1259a3889054b66d0509ec1d81de356572d2aa7d9`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/43-La-corriente-geografia-de-las-fuentes-Facebook-La-Bandita-2026-09-15-ingles-US.md — `a29fd80b6a400479b38a802c2d71a355870d43c357876eec17e364b86c0d7ff4`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/44-Los-pequenos-las-casas-que-no-hacen-ruido-Facebook-La-Bandita-2026-09-15-ingles-US.md — `8f6b44b969809a1b48b2c1a5a46d1cda3a3910bbca1d7a55df820de514d505b1`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/45-Las-canciones-la-voz-de-america-Facebook-La-Bandita-2026-09-15-ingles-US.md — `c89e9b638e9ca97ccfeab4cf5dd700d991547bc84afd9f7a5c21788b01824c6a`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/46-La-sala-de-las-novelas-Facebook-La-Bandita-2026-09-15-ingles-US.md — `1478984d2570c49c22888ed48185f5001fecca07f733811b566b87768ed9a3dc`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/47-La-ultima-puerta-del-catalogo-Facebook-La-Bandita-2026-09-15-ingles-US.md — `5a06c1094590a98bec9ceb003ec8386b1ff4fc364edcd6a0f6c617021e8252d0`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/48-El-archivo-la-V25-vuelve-hecha-mejor-Facebook-La-Bandita-2026-09-15-ingles-US.md — `318b16286e2eed3586857c4f1eb1d88bb096a27fb4672591c30f0795454fa980`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/49-Las-mil-puertas-el-barrido-de-la-V25-Facebook-La-Bandita-2026-09-15-ingles-US.md — `76762d94d2c93b44bdf9956d7e54225f36a3cd810cae913156a5eb440b528bc6`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/50-La-discoteca-I-la-mina-de-las-231-Facebook-La-Bandita-2026-09-15-ingles-US.md — `cb12cdc97925693467278bd68c43a5bf04022b9e8a059cfe5888fd805725d2f6`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/51-La-discoteca-II-el-jugador-grande-y-la-mudanza-de-Finamp-Facebook-La-Bandita-2026-09-15-ingles-US.md — `d838f603e89e533bc07841116b7945b5cb46f731bba2d4d9e75de581cc0ed80c`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/52-La-discoteca-III-el-censo-completo-del-baile-Facebook-La-Bandita-2026-09-15-ingles-US.md — `66e513b3386c52172ce3503573eed0ca1e62360168964f51e3f7fc888c0148ea`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Facebook-La-Bandita-2026-09-15-ingles-US.md — `b3036bb904675df5e352ca2e902a287a82a82fb7833ec0de419e51d08291aa5c`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-ingles-US.md — `5fb6acd6a276b7e239db45c37c0ac61195c42f018ae3df84f23069437f044cf5`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-ingles-US.md — `85f87727f45261ff6db786d739f39d3bbc54ea7852abe66427f74324003854ef`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-ingles-US.md — `4ba11f269d343891abbefd590d90d3e78f8ad06534f6a3782eaf394c02a0214b`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/57-La-hornada-del-lector-la-mina-con-nombre-Facebook-La-Bandita-2026-09-15-ingles-US.md — `348a1cf672cca6d069ba921bea15cf75ea569398edad3bf040a0ce6bf84f35e5`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/58-La-hornada-del-anime-el-segundo-territorio-Facebook-La-Bandita-2026-09-15-ingles-US.md — `ebd8c856baaabea259731cc3fe05b846a0b036dd428b5af09258b8319dbb6abf`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/59-La-hornada-del-taller-herramientas-de-la-mina-Facebook-La-Bandita-2026-09-15-ingles-US.md — `0779c33fa93660dee2dbb83832807e695485a8cc5786849aa851a5fa87896ca1`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/60-La-hornada-de-las-bibliotecas-los-ordenadores-de-la-mina-Facebook-La-Bandita-2026-09-15-ingles-US.md — `f6a0687f384acdedb6f3e541e1696c1f489d5b91d65f7a9638c68cdb888814cc`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/61-La-hornada-de-los-servidores-el-sotano-de-la-mina-Facebook-La-Bandita-2026-09-15-ingles-US.md — `a44448d4bc1022018fcea1a737f841289e6405a47d46d1b986345657cc186466`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-Facebook-La-Bandita-2026-09-15-ingles-US.md — `e9def25d1cb08f8798562e96caca3723603ddd15a7f43512462e6ee9385b98da`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/63-La-segunda-fila-del-lector-Facebook-La-Bandita-2026-09-15-ingles-US.md — `287a27357066a378322a20731a48412449c0ee722a205c39de7ea9e6e22193a2`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/64-La-segunda-fila-del-anime-Facebook-La-Bandita-2026-09-15-ingles-US.md — `b458a802686e32ca1961abbd4dc153d6ff82d267af3ad1bab9cfac963cb42c6c`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/65-La-segunda-fila-del-taller-Facebook-La-Bandita-2026-09-15-ingles-US.md — `e0f37a0c15354f945f0286342e89d9d5657041c2401b300c5f272c0748134b29`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/66-La-segunda-fila-de-las-bibliotecas-Facebook-La-Bandita-2026-09-15-ingles-US.md — `5a37f781d78ea64953a28b08361a71331a7339a9c91e335b03afe3a359b3163a`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/67-La-segunda-fila-del-sotano-Facebook-La-Bandita-2026-09-15-ingles-US.md — `810051857f77730cf397ef8065aea0ee0b1048c46b0ae7477f24a25d239af254`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/68-La-segunda-fila-de-los-ayudantes-Facebook-La-Bandita-2026-09-15-ingles-US.md — `724794c07f377396bbea28c013c14c496078bc3c767341b2937cf1ae3a9826d1`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/69-La-vara-de-las-forjas-I-gitlab-y-codeberg-Facebook-La-Bandita-2026-09-15-ingles-US.md — `ad65090710745655e2ae7da1a0d8216515abd2afae16532abb4f35e13c0fcb2f`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/70-La-vara-de-las-forjas-II-fdroid-y-las-tiendas-Facebook-La-Bandita-2026-09-15-ingles-US.md — `ff67900f5316103ab74463918975acf448eb2ccc53d50af827818983d8597552`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/71-Las-puertas-calladas-los-ceros-de-verdad-Facebook-La-Bandita-2026-09-15-ingles-US.md — `05d39436359165d73a724e717b9ae4347cfee5337041e24aa544445cca9830fb`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/72-Las-actas-del-censo-Facebook-La-Bandita-2026-09-15-ingles-US.md — `49f6e239e8100961f078d850ae72f19e14c9e45fe8f72a5d1bb61be6b8aaca4f`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/73-Espejos-homonimos-y-mudanzas-el-libro-de-los-nombres-Facebook-La-Bandita-2026-09-15-ingles-US.md — `592eae0e73d782fb1ebc56ecec9b00bad7c33a955dfcb5384c3f9d468bbe4786`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/74-Los-vivos-de-la-semana-la-fila-de-las-fechas-Facebook-La-Bandita-2026-09-15-ingles-US.md — `e2dde8082e3521504bd8c79f7b537d7563629b84755c41033ce9fe5e0e6a3d17`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/75-El-podio-de-la-mina-Facebook-La-Bandita-2026-09-15-ingles-US.md — `0c06d85ae0d689d3346ff3eb41869f4a6cc3ddd367ceb228c84030f996c6082a`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/76-El-recuento-de-la-quincena-la-arquitectura-de-las-ochenta-Facebook-La-Bandita-2026-09-15-ingles-US.md — `989c60f8734b9cba426d6b19817244097e729be4d601715619295cf3bcc77ede`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/77-La-frontera-del-lunes-lo-que-queda-Facebook-La-Bandita-2026-09-15-ingles-US.md — `ec5c97c2bf1aa980afb5162226fba9c3a4f328308fe2f138054da8543df1a657`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-Facebook-La-Bandita-2026-09-15-ingles-US.md — `3d363f061be4c5c92f73213e13f9ced00c0519ac889efc4a42be8def66f64a24`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/79-La-octogesima-el-techo-tocado-Facebook-La-Bandita-2026-09-15-ingles-US.md — `169a42a910b74db4120a60b6e5c61b24d7fbc9768442aa89dd7e4dcef5bd8b7e`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ingles-US/LEEME-de-la-carpeta.md — `e4148fce96f958425a54a56f5c68cb61b27f0ce2acfe5b6295a6159d5ed50cfe`
+- 04-VERSIONES-MULTIIDIOMA/facebook/portugues-BR/75-El-podio-de-la-mina-Facebook-La-Bandita-2026-09-15-portugues-BR.md — `b62df2149a0db7d081cff0e77836c7737bf120965e3b55f433c4848e7ad50881`
+- 04-VERSIONES-MULTIIDIOMA/facebook/portugues-BR/LEEME-de-la-carpeta.md — `1c5b66ea7af041dbf8795533df4fed13407d795103c8256a56a82204d025fee7`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ruso-RU/75-El-podio-de-la-mina-Facebook-La-Bandita-2026-09-15-ruso-RU.md — `cb4d78f9526e29933a64d9fc02a0cf2445f50f647b623458797ba94ec18c9e38`
+- 04-VERSIONES-MULTIIDIOMA/facebook/ruso-RU/LEEME-de-la-carpeta.md — `a9963027dfaee9a103de4e743e1434a84a32d3b8ad91d84f39307b50225918f3`
+- 04-VERSIONES-MULTIIDIOMA/reddit/chino-CN/75-El-podio-de-la-mina-Reddit-La-Bandita-2026-09-15-chino-CN.md — `8de15b770ed32902a91cba5c8f7ef97ea3b3d399858a97fb7c110c6910b817f1`
+- 04-VERSIONES-MULTIIDIOMA/reddit/chino-CN/79-La-octogesima-el-techo-tocado-Reddit-La-Bandita-2026-09-15-chino-CN.md — `6535fb038b8abad3bf19c73b632037ea64d6e1cd59266c623565af8c079551df`
+- 04-VERSIONES-MULTIIDIOMA/reddit/chino-CN/LEEME-de-la-carpeta.md — `569d985eb575d85f4ad7e781375f04284320865c1c3ba2fcf08d089d4a24956f`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/00-LA-LISTA-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `d85bd65827452c53164bbc277e3648cd8656b0f511a4cd54c621ddc648fd4a9a`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/01-Tiendas-de-APK-legales-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `5d01c90b63414df8a5195b89fdef413dfe6d52d6c0473b68dc1a62cb6a228ac6`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/02-Kototoro-manga-novelas-video-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `030d47ab9aa0d32b79d80f55d4cb33d3b0770a6d5b9f7034b5a47f5cffb01263`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/03-Verificacion-de-Desarrolladores-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `5dd8da3bbcba33d35163724e73883713f2d52f8bc2976e9c7725ca3624eb9fc8`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/04-Extensiones-tres-arboles-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `40a118e7051acf84e33ee660de42814e24ecebbfd965ea941f2ecafcd592cf59`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/05-TMO-cayo-los-clones-no-son-TMO-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `b19f4793266002fb093ad5f89298630feb28499c894f63ff387a2384439709ce`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/06-Forks-de-lectores-segundas-generaciones-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `c0f2671783ccaee55db0fccd469ccf9103b5f538718027096d7847ff4e2d668a`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/07-Usagi-viva-cadena-Kotatsu-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `42ad987f93ea957d7e060d25173b432f3ce67c7b58d3d2fef1b161ee2dd2fb4c`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/08-Musica-FOSS-clientes-con-repo-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `48515a3dca133a055f5a68a44eb3ab30264668ca44cd23f27ba120fc58d1aa60`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/09-Herramientas-FOSS-caja-de-oficio-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `5689d815002be197b8927acd546d42586cdde15d9d631313afedee9a1584cd19`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/10-GLTools-no-se-receta-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `66bedb0897be5587b3113a6dee79cdc3736dbbbaae9592e990205484e52d5f14`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/11-AniZen-vivo-el-espejo-no-es-el-repo-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `6e6d78668c37d3a4fc28ec651ac184b1d6d42a3c14602764401e8c19d54f3cc0`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/12-FMHY-wiki-de-pistas-no-catalogo-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `37926a5c4361f4f745e5654408b2abc849ae94bb33ea70443db0d59d3ec70642`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/13-Rama-Aniyomi-Animetail-Tadami-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `fafbaf324f96ff3f7b913cecbc636de663aff8aca3002e112bb00a29e945eac6`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/14-Rama-anime-puro-Animiru-Anikku-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `162d857699a3a550d3148e1a057969d759cf9eab0ee172333bf980172ac38bb6`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/15-Rama-J2K-Yokai-Rokku-Reikai-Hayai-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `97bb4b30d620d38f79464694cc0e31d22c14abb397ca60b21c71a18567bb6752`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/16-Rama-SY-Komikku-el-clasico-y-el-rehijo-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `d218d7069e02fa7a1126477b29605e5332dc029c317270032d27e897f67a6994`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/17-Capa-de-inmersion-aprender-japones-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `c8e7993097ee184662b4d0cc57acfee944266b2ef435651c64f410ce372b3d5f`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/18-Libros-OpenlibExtended-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `97ba465ac4e6fb392b853666783e0c699c8d507d1431c265f3deb1c7c78a5317`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/19-Panorama-multi-anime-manga-novelas-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `7550f7a1bbb0b8e7e3d4de64259babfb83dd7df7c372a10a01e9cd2597b3b431`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/20-La-Biblioteca-de-un-muro-a-75-guias-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `ef8a72cf3b5e204ca86dee13cb84d7af564524508ea75b596193cd4cdc08dc8a`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/21-Musica-I-la-cosecha-del-muro-12-vivas-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `a237bebbb6e01cc152dfa7eba55ab710fb93634130f5ec4c13a1ff58cc8f1c1c`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/22-Lectura-II-la-repisa-del-muro-siete-lectores-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `89c77b08fd280000c5cfcb395689e2dbd106e28d6a495fbb37222c9f9148000a`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/23-La-sala-del-muro-IPTV-servidores-cine-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `41d30670a885a8f87374f25df79c8e9d05d2c879f225019211fc058236c17135`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/24-El-taller-del-muro-Shizuku-root-sistema-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `3f627c308b775d6cb1e61addb2b307bfef8baee9123c0138ea3caacde036d2b3`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/25-El-sotano-del-muro-servidores-autoalojados-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `1949b56780516781d299ef830d23a790b6ce22df4c4861cff663d3ea23cf7235`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/26-El-cajon-del-muro-candados-adaptadores-miscelaneo-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `8bd7c4a3227a56a53f54a060507ef066d0434dffd49603163de3a270b56e4c9b`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/27-Musica-II-las-sucesiones-quien-hereda-a-quien-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `a6f1e96cf8799e31138eca1d4d59b66ad77997a0dd843803cf4c1cd84e78c324`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/28-El-tronco-raiz-gestion-y-tiendas-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `e54244d38552c23e73f298a4902386e21fd8e5b42ccfdce22c5da21f148f8149`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/29-Los-mayordomos-apps-perfiles-bloat-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `a7b90ae5c7317c55629f4e48552f9defb12c18a8368a5b15a782549db2713a6e`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/30-La-cara-del-sistema-lanzadores-teclados-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `490e5b395d9621e886de890eedc5cd96b5bb351d327501158cb299f5e355199f`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/31-Los-pequenos-del-sistema-una-sola-cosa-bien-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `f7a8badd2980917aba13a9c1041ec225ba034341aefc08646c2638548418b8d0`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/32-El-cable-y-el-escudo-conectar-actualizar-defender-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `6e37127503dcd0c1309ba73b27cc56e46bbd4920858fa02edbacec6a4564dce4`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/33-Los-archivos-del-taller-cajones-paquetes-guardian-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `7f958d58fe2c01023034d954240cc653f0229b5e473f315abe6ed330dc46816d`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/34-Los-que-tenian-otro-nombre-la-vara-de-cada-pez-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `315edf5a54344449ffe031efb4d98541497a3471f6b9b0f3e0202b0eab9348de`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/35-La-estanteria-la-estirpe-del-lector-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `886444559bea70748b638ed965b27e2795191629eb616f1b5eba8c4e3481f9d0`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/36-Los-libros-biblioteca-de-bolsillo-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `d3ca04f4169a4fa616e5884d7f7adec9d3accb6c83b5307441ae4eb694bde788`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/37-La-puerta-grande-anime-video-I-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `01e090066bf4921bffb7279bc62eb35579bec713ce3269b44f3d6657908d6568`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/38-El-vivero-los-germinantes-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `367c6f816cb2c613ef89cdbd7c61b954174bb9b2de0d1d3385ad46f90c247681`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/39-La-bodega-servidores-y-bibliotecas-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `793ef5dd5c5c55a28561ee703d6005ceb390d51212fec0057969d0f475175076`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/40-El-estudio-lectores-de-escritorio-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `68c25d6944cd0dd056fd0e9606b85739c088f724b34bfe53e8dc206894b28c03`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/41-Los-cazadores-anime-y-video-III-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `7bdce4339a5f2a0d368e49ad94b1a9962bf2bff2a2f6c2332c226813239f1643`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/42-La-fosa-lo-profundo-del-mar-sotano-II-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `24c95cbbaa250c2f9bbdb99f75b0cb32527a3834b9a3c2515bcac71382afc444`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/43-La-corriente-geografia-de-las-fuentes-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `a300bc193481e8c38680e98f79367ae94bc55930fc2f8ddef60e51f50e060b2d`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/44-Los-pequenos-las-casas-que-no-hacen-ruido-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `ee440efa0dfe663dd52e59ae814f65bfb8679f8fe99524a3e4d7eb650fc29b12`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/45-Las-canciones-la-voz-de-america-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `19d20a3baaea077b5fd060244339986d419fb13329024fec8eb498ea1c1858a9`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/46-La-sala-de-las-novelas-lectura-IV-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `4568d9d2ca895ce36afaa8b83a84a3ca02d0c81f372deeed37d3492a3e352dc4`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/47-La-ultima-puerta-del-catalogo-venera-y-veredictos-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `5a87c21b247b624b23c6fb362acbd7aa82a3e8d63ddb21cf7144e71c6a9c33e8`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/48-El-archivo-la-V25-vuelve-hecha-mejor-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `80cff1324d3e73f1753bb4f5f83f428c37efca1222b4e1df788d58a41af538d8`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/49-Las-mil-puertas-el-barrido-de-la-V25-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `f0c1a9791fb1d6a96a406ba6a8818037ef7900cc7076c88d9887a059b1702c0b`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/50-La-discoteca-I-la-mina-de-las-231-puertas-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `61a679406bbbc79676500a106eb6e056e8d406fc20b9790491ff77b7153cc5b0`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/51-La-discoteca-II-el-jugador-grande-y-Finamp-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `4eed7d49f7eab680a2dda1d948f364388bcbd9f39903f785ac5cbcf4bb76ee1f`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/52-La-discoteca-III-el-censo-completo-del-baile-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `48ca9019fd05c0339af662d03d8268fe0f206c2c0b0b2d2fe6775f77fa3162c2`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `49addafa5670f6db7f4cb7d59e1bc681e62c7ae98ce4963f97c7cf2aa12cfa21`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `44648fe49cfde08785bf4478777decd6b732cc2ecc00a0fcfcc65f1bee11b14a`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `eafef095d1f9855af2c141a0ef1b6dbb525a8c20806c7bdba4c4c6ae682446cc`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `4595db56816ca009e3085f764c99177e4d91b1432a51a8b1623d17abac9f8395`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/57-La-hornada-del-lector-la-mina-con-nombre-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `4b282033e4d163ac501f44ae28168948851b1f69b7c1904f848134ca9c3762e7`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/58-La-hornada-del-anime-el-segundo-territorio-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `4fbb0e2095eb372958701b3bb7abfcd43157a62d59ccfdcd899c9a77e6762692`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/59-La-hornada-del-taller-herramientas-de-la-mina-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `96521405d46661bc4e1638c3c97a817330dca63a24d77238343a43d12ef350a4`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/60-La-hornada-de-las-bibliotecas-los-ordenadores-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `97c7a4227f23c8187aab38e8499918035ce12e74b8e2cf8e9c930478d4205f8e`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/61-La-hornada-de-los-servidores-el-sotano-de-la-mina-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `4c5893c271df5e36a2f340cb6b5114e7f7f4713cb6e946fb6794a0a4e34c7d85`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `408dc11db3598f592ba372c2cfa989d442d83199b9b8fed82ce50d3c27733b45`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/63-La-segunda-fila-del-lector-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `a71ed9dcc6f7cf142eb4fb644d8f93610bd650340c0a9afb924fa5523a97a7b5`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/64-La-segunda-fila-del-anime-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `ba31b8c7163df6a1c5c0afec83896e84af99f7e04cf910b03a60cdb1c2f856e0`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/65-La-segunda-fila-del-taller-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `703a8ee4138bb029b4412fc5e1bac8125da879f2ac072d966953f37d7eb53d24`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/66-La-segunda-fila-de-las-bibliotecas-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `527b2ccce4bce7c1d73002e972ff238f6c01801eaf0f94a27c74d2c9a1b029f3`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/67-La-segunda-fila-del-sotano-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `f00ff1ab18b255cc7aaa263d9812eec7a9b4f27cc75aad663bec8f121e28e257`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/68-La-segunda-fila-de-los-ayudantes-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `aec126dbcbb8b44ba238db90c2dd5a6ee795bd49837f471b8bf79a2c08ca0300`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/69-La-vara-de-las-forjas-I-gitlab-y-codeberg-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `5b5cfd36ea280a9c496ef1a0f1d2406031167c28a1a26f1f2ea99e694c2b854e`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/70-La-vara-de-las-forjas-II-fdroid-y-las-tiendas-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `8a0760646ff5d7f1c6b965bf797a4f97368382118a9f39413a597f6b6e78b56e`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/71-Las-puertas-calladas-los-ceros-de-verdad-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `35e677fe818875f34e0a338a387703a75cfab1e7ef07147765a099f2ac1cd6fc`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/72-Las-actas-del-censo-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `115709b55cfa17b61d9f36cb4178842dae0c2ea44a8e9f18d6481237537b2cb5`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/73-Espejos-homonimos-y-mudanzas-el-libro-de-los-nombres-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `38b04423f954e7ea95b45bb5c29a950358efd944c25aa5cb21f4b0a0898fad84`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/74-Los-vivos-de-la-semana-la-fila-de-las-fechas-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `3da5cd3aca392e94126a794fe6e6c25197e94d545f2737100c61d9e098817b89`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/75-El-podio-de-la-mina-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `882e65fc2fbeb2639de723d5e530482cc25b817409eb303119c73673af9f6a82`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/76-El-recuento-de-la-quincena-la-arquitectura-de-las-ochenta-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `553d2e7d6bf7a2de5f82f1b79de706742a320a15a17d7eadd7b39bc388fe496c`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/77-La-frontera-del-lunes-lo-que-queda-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `d9021d74eb5116671400e0a9c2fb888f90007bdbd32f3e5fa5bcc88011591927`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `52cf090ff5fb846d23cd9f6fd533fb8be39f5cd2f1c41994bf863fd98c6b607a`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/79-La-octogesima-el-techo-tocado-Reddit-La-Bandita-2026-09-15-dominicano-ES.md — `ccfad16f73774b87183e8bcc9327d976b5e15f6d7e42a420219caea749180cf2`
+- 04-VERSIONES-MULTIIDIOMA/reddit/dominicano-ES/LEEME-de-la-carpeta.md — `c96558f015ffc636fef64476b5ef6f6d8116a0577700e1bec2c025f52b3b4dbb`
+- 04-VERSIONES-MULTIIDIOMA/reddit/frances-FR/75-El-podio-de-la-mina-Reddit-La-Bandita-2026-09-15-frances-FR.md — `b4e6c98cccec67f4ce29548f5fa3c15d8af2e32524b4ae77647ae179eeb879d0`
+- 04-VERSIONES-MULTIIDIOMA/reddit/frances-FR/79-La-octogesima-el-techo-tocado-Reddit-La-Bandita-2026-09-15-frances-FR.md — `9e9542c4e87eab884eb78ea927371acc8667434e303853f80da03bbb399b2385`
+- 04-VERSIONES-MULTIIDIOMA/reddit/frances-FR/LEEME-de-la-carpeta.md — `dd03211a7c5d80e02fa5b28ebb943481320c9bcae01861e8a4714c0425801a32`
+- 04-VERSIONES-MULTIIDIOMA/reddit/hindi-IN/75-El-podio-de-la-mina-Reddit-La-Bandita-2026-09-15-hindi-IN.md — `dc477c9d143eafeb0b835a5175f2ec50021e0e1751858f91ca8ccf1ccd59cdc1`
+- 04-VERSIONES-MULTIIDIOMA/reddit/hindi-IN/79-La-octogesima-el-techo-tocado-Reddit-La-Bandita-2026-09-15-hindi-IN.md — `067dea9f60ed15e4c9d362dfd512c2e8466bb474d566406f2b98924498ca2dd4`
+- 04-VERSIONES-MULTIIDIOMA/reddit/hindi-IN/LEEME-de-la-carpeta.md — `7c26dac041b875100e2eba154fdfbbc9b12d4729fa7e8fdfc2b35ed36e176b58`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/00-LA-LISTA-Reddit-La-Bandita-2026-09-15-ingles-US.md — `f891ba73cb75fd4755d1f267df5b4bce3da84eaeea5844f630536d2cf18ad08c`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/01-Tiendas-de-APK-legales-Reddit-La-Bandita-2026-09-15-ingles-US.md — `3697f9524485ceae7ee308a997ede0f0728a19cd2a9c5eb8a1dc29a3af8e399d`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/02-Kototoro-manga-novelas-video-Reddit-La-Bandita-2026-09-15-ingles-US.md — `1db64d62a9237b0d2718c6cba601e9bda838c19252b228e0ff90c7d73896bf8e`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/03-Verificacion-de-Desarrolladores-Reddit-La-Bandita-2026-09-15-ingles-US.md — `20ca18e780bd3a5c7d36bafe335556ec3596695cf508a79c9674d0ca45bd2e99`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/04-Extensiones-tres-arboles-Reddit-La-Bandita-2026-09-15-ingles-US.md — `364c4c15c0bf17211521223558d3b92733e80943703cc3b56bd289431b00726c`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/05-TMO-cayo-los-clones-no-son-TMO-Reddit-La-Bandita-2026-09-15-ingles-US.md — `373d8e2a3acc5e5b8e2055dac76d4e6d51c639f0c55e8af89f9c48d9844b1730`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/06-Forks-de-lectores-segundas-generaciones-Reddit-La-Bandita-2026-09-15-ingles-US.md — `7c3626026fdc5b7c320e5851b5ee3acfe2e62978f83848afb6b132385dfc846d`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/07-Usagi-viva-cadena-Kotatsu-Reddit-La-Bandita-2026-09-15-ingles-US.md — `c28189647cce5977db1ffd3c6fbac320e08d74f720132927ca3dbc384d86134a`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/08-Musica-FOSS-clientes-con-repo-Reddit-La-Bandita-2026-09-15-ingles-US.md — `e844a5131648adc2a90dccca9dafc90dd4df7110ba99fb018c96f96e0f1cdda3`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/09-Herramientas-FOSS-caja-de-oficio-Reddit-La-Bandita-2026-09-15-ingles-US.md — `70c3eb802108d45bcd933cdbe99a90339a769a7335ee34ec2bda047657506aa9`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/10-GLTools-no-se-receta-Reddit-La-Bandita-2026-09-15-ingles-US.md — `eef5642bb619ed2dda04789419687200bedddcac2aa8de27e04f6f52f25efcac`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/11-AniZen-vivo-el-espejo-no-es-el-repo-Reddit-La-Bandita-2026-09-15-ingles-US.md — `bdcf3880a8f1673c7941ff3e4c78feb225669cc05602495e8bd230b7471cf7dc`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/12-FMHY-wiki-de-pistas-no-catalogo-Reddit-La-Bandita-2026-09-15-ingles-US.md — `34e2bc3ef3af6224a7cbe0b67ccd6ceff265208a44ed9108c08ef87a480bb82e`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/13-Rama-Aniyomi-Animetail-Tadami-Reddit-La-Bandita-2026-09-15-ingles-US.md — `821caee0e6d145437602985d53739829f8f5546c73409b71c0109440c61a25f9`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/14-Rama-anime-puro-Animiru-Anikku-Reddit-La-Bandita-2026-09-15-ingles-US.md — `930f81350774366c70762b8430e0326d0784f872c522d8197eb6fb1e5481309f`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/15-Rama-J2K-Yokai-Rokku-Reikai-Hayai-Reddit-La-Bandita-2026-09-15-ingles-US.md — `0a1871017f94b8fb98b3e7deedb4dc01f45c6b1772069108d8d3b2fa7bde86ff`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/16-Rama-SY-Komikku-el-clasico-y-el-rehijo-Reddit-La-Bandita-2026-09-15-ingles-US.md — `7eb5636a7fbec005fd5ee993fed2398c23deba3956fb3733c003ba2a942a1fdb`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/17-Capa-de-inmersion-aprender-japones-Reddit-La-Bandita-2026-09-15-ingles-US.md — `277069762a8dea64c311f310c8d680f87119b6a303a1696a3892189096dab6ae`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/18-Libros-OpenlibExtended-Reddit-La-Bandita-2026-09-15-ingles-US.md — `366f4b18b7d7922bf7d1692cf6eb77c0925d736c7075462205a11d1b3e1ad85d`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/19-Panorama-multi-anime-manga-novelas-Reddit-La-Bandita-2026-09-15-ingles-US.md — `9145bc3328d3d90eeeb1f8e86a52b6d227b1b3236f9baea24b1ded2f6c5873f9`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/20-La-Biblioteca-de-un-muro-a-75-guias-Reddit-La-Bandita-2026-09-15-ingles-US.md — `3a920c3363b58ffbf256fc2dce3bcaf41e0b3128633138ad7ec3fec2fa404bab`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/21-Musica-I-la-cosecha-del-muro-12-vivas-Reddit-La-Bandita-2026-09-15-ingles-US.md — `803d4112b9c6602f43cbde690b1fc42c3833dadda11c0ed935ea6744f35941df`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/22-Lectura-II-la-repisa-del-muro-siete-lectores-Reddit-La-Bandita-2026-09-15-ingles-US.md — `ff5cdd809d5d8d65417a4eda43602c9c0136bae77e959084486b3e64f4204b4f`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/23-La-sala-del-muro-IPTV-servidores-cine-Reddit-La-Bandita-2026-09-15-ingles-US.md — `f8db273879e3f4e66930c0497b075ea1e926e0953838e7e12ec6d309ee7e8ea4`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/24-El-taller-del-muro-Shizuku-root-sistema-Reddit-La-Bandita-2026-09-15-ingles-US.md — `d4efca3c349ed9141efed66d2c65d1a5ff944440d5057718e6cd362edac973a7`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/25-El-sotano-del-muro-servidores-autoalojados-Reddit-La-Bandita-2026-09-15-ingles-US.md — `ce621b943b44d3638b0aa05fa5beec33d089a51f614da9705554edf4f6eb6837`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/26-El-cajon-del-muro-candados-adaptadores-miscelaneo-Reddit-La-Bandita-2026-09-15-ingles-US.md — `224213b2f5d1ff76283de5ee7fe23b45d137c4ea5ffcebb702c568aeb79416bf`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/27-Musica-II-las-sucesiones-quien-hereda-a-quien-Reddit-La-Bandita-2026-09-15-ingles-US.md — `bc8a50f66d8710cf0938c2d9c4cc41a11f88d785704e76efd130ada964fd55c9`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/28-El-tronco-raiz-gestion-y-tiendas-Reddit-La-Bandita-2026-09-15-ingles-US.md — `9fde62a521f19e4bc0802731dbf789a5af5d2cba69b008351672d6b163e7d664`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/29-Los-mayordomos-apps-perfiles-bloat-Reddit-La-Bandita-2026-09-15-ingles-US.md — `5274e4fa03c5dbc1a8a701f9be22f3266ca512d15fa6c3ffafbddb8e4d899d00`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/30-La-cara-del-sistema-lanzadores-teclados-Reddit-La-Bandita-2026-09-15-ingles-US.md — `e0a4e0e656a0dc977104a327216c3068f1771736c488c4c4150e093bb7df8cfc`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/31-Los-pequenos-del-sistema-una-sola-cosa-bien-Reddit-La-Bandita-2026-09-15-ingles-US.md — `454b6b2b789c2f9667a918ae369406d1522cb241225b46b33c964c94dca4ab91`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/32-El-cable-y-el-escudo-conectar-actualizar-defender-Reddit-La-Bandita-2026-09-15-ingles-US.md — `1587cc2acd25c4894719ebc5bedf6ae4118f306c99d36b8afa43263499ddb09b`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/33-Los-archivos-del-taller-cajones-paquetes-guardian-Reddit-La-Bandita-2026-09-15-ingles-US.md — `35175d3904b027a62f44625434e033bc1857b9b49d2d94017afdc46bd664a493`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/34-Los-que-tenian-otro-nombre-la-vara-de-cada-pez-Reddit-La-Bandita-2026-09-15-ingles-US.md — `dc4757d71fa680d7cc2e72fd9c402f2275f0fc18b6f12ee5dc65aa34d4f6dd9e`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/35-La-estanteria-la-estirpe-del-lector-Reddit-La-Bandita-2026-09-15-ingles-US.md — `b8a48af864ba62dc90c60da1de2045dacb53c512fe3348bd7100310bc8cd01ca`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/36-Los-libros-biblioteca-de-bolsillo-Reddit-La-Bandita-2026-09-15-ingles-US.md — `a28a7897ba7a1371912daa293da1164e409395979bc729057b02def02f302c2f`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/37-La-puerta-grande-anime-video-I-Reddit-La-Bandita-2026-09-15-ingles-US.md — `e93bc6d519d0ca52650773fec0c76709e6ce5c2f405f00fa54786f3868d002b6`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/38-El-vivero-los-germinantes-Reddit-La-Bandita-2026-09-15-ingles-US.md — `f7078ec1ca8afdefeb01ba58833da13ca55ee9edcf587c904ddad3ebe19ada3e`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/39-La-bodega-servidores-y-bibliotecas-Reddit-La-Bandita-2026-09-15-ingles-US.md — `3bd8d00137bdc4b74127b865c398cdf22bd3cf9f5fb498c1f26b03cbd25b842a`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/40-El-estudio-lectores-de-escritorio-Reddit-La-Bandita-2026-09-15-ingles-US.md — `035656352f4e1fed6a1786c9a9b326ee246c1a032c660da6bee3b7132e0828fc`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/41-Los-cazadores-anime-y-video-III-Reddit-La-Bandita-2026-09-15-ingles-US.md — `51b9b38ea0fe10a725c2d05fdd1f308388dce83fca402a21e9c3669fdd9ca402`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/42-La-fosa-lo-profundo-del-mar-sotano-II-Reddit-La-Bandita-2026-09-15-ingles-US.md — `a1d87def0bedb3d7a64fb247704c0eed12f6b32e47e6f586029c7dbc0ca48b2f`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/43-La-corriente-geografia-de-las-fuentes-Reddit-La-Bandita-2026-09-15-ingles-US.md — `a2e61e185bdc391bd6c38236497925f7bbc1e367a1a6f246d4a3c21cd3137f2c`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/44-Los-pequenos-las-casas-que-no-hacen-ruido-Reddit-La-Bandita-2026-09-15-ingles-US.md — `e38aa1cce04feffe421afe1ae725c595635e9379f034898ff2f982f8d04ea641`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/45-Las-canciones-la-voz-de-america-Reddit-La-Bandita-2026-09-15-ingles-US.md — `6ad74836e5b3070a29299fb698a816268aaad9cf046a23cdb218256e75cd6ed9`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/46-La-sala-de-las-novelas-lectura-IV-Reddit-La-Bandita-2026-09-15-ingles-US.md — `ff0e89e6efecc51888d226a8674fc9304681a312451c752b169116c3b157a49e`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/47-La-ultima-puerta-del-catalogo-venera-y-veredictos-Reddit-La-Bandita-2026-09-15-ingles-US.md — `24a6425b99dbc0e725a84d7b5cba084962e985210ea35dd852e499b0053338d9`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/48-El-archivo-la-V25-vuelve-hecha-mejor-Reddit-La-Bandita-2026-09-15-ingles-US.md — `a1ff8f13650d95963a71e0cb30485b5d4f236dde01e861aa33001c2288b4d8ff`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/49-Las-mil-puertas-el-barrido-de-la-V25-Reddit-La-Bandita-2026-09-15-ingles-US.md — `969b1961c597476b47f523e5830a3291616e783e3fecb0b45f8e2e84ee3dd9d8`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/50-La-discoteca-I-la-mina-de-las-231-puertas-Reddit-La-Bandita-2026-09-15-ingles-US.md — `62f76d6bb59bbfd9a1e416a76bbdf5a321fa1a5a06eb6504fc186e875d9bf1f6`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/51-La-discoteca-II-el-jugador-grande-y-Finamp-Reddit-La-Bandita-2026-09-15-ingles-US.md — `b7382acaadc505a9b6761ee6e92885fbee6bbb5b1c3274ce80b597f6277fa697`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/52-La-discoteca-III-el-censo-completo-del-baile-Reddit-La-Bandita-2026-09-15-ingles-US.md — `3c3e3dceceba498a004e99ac68f80585feb08447b1450d4bb2f027c84cee42b1`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Reddit-La-Bandita-2026-09-15-ingles-US.md — `8bac317bffd478edc69b555d83416a19cd277af2a9bdae3acc83445de3a0739d`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Reddit-La-Bandita-2026-09-15-ingles-US.md — `c13525808cb9ca08095636dd5e276269f4db1477ce8eb2eb789e40c77faaadd5`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Reddit-La-Bandita-2026-09-15-ingles-US.md — `151a39ed59ba745840497d0b94b85d92546e6bf9128695ad31692edf43522516`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Reddit-La-Bandita-2026-09-15-ingles-US.md — `ce3515710368aa4c3a0f1faf55d3855d4988c363abdd8aaa5d2e898b6dfe2a57`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/57-La-hornada-del-lector-la-mina-con-nombre-Reddit-La-Bandita-2026-09-15-ingles-US.md — `b59a7b1cb8a5e50a4cfe1e7b701cae0a77298a1ec1db3978e572a25bce937f1d`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/58-La-hornada-del-anime-el-segundo-territorio-Reddit-La-Bandita-2026-09-15-ingles-US.md — `c286b7f5ef1b811779d03c8e25b7106af139a38fef7e264e4100782f4ad21e9f`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/59-La-hornada-del-taller-herramientas-de-la-mina-Reddit-La-Bandita-2026-09-15-ingles-US.md — `0944c26efd829b447d596f58f07103b79a0789d38d0068956897757cad1c793d`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/60-La-hornada-de-las-bibliotecas-los-ordenadores-Reddit-La-Bandita-2026-09-15-ingles-US.md — `ba9511d2fd8980f554b7cac886a5ea9596581aaaa95a2e526e86c44b2b631203`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/61-La-hornada-de-los-servidores-el-sotano-de-la-mina-Reddit-La-Bandita-2026-09-15-ingles-US.md — `6690b45b1886468471f781ae0d8ebec6d0e4586e4a09ba8f2e908fa5a8a079fa`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-Reddit-La-Bandita-2026-09-15-ingles-US.md — `8c2b7efe47867a7d84aed666d1e63e1fa5837fd5aeecf2f954a2e06607d409be`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/63-La-segunda-fila-del-lector-Reddit-La-Bandita-2026-09-15-ingles-US.md — `d712fcaa05dafeecbcac814238109c330e68485601cadfcd506982896a2af09e`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/64-La-segunda-fila-del-anime-Reddit-La-Bandita-2026-09-15-ingles-US.md — `de68082600ad3c0c688fdd393b3f4bbe525a6a5a13fa056e9d3cb07c414bc4d8`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/65-La-segunda-fila-del-taller-Reddit-La-Bandita-2026-09-15-ingles-US.md — `bae8348421a8cd517ec1aed4180ca2ea9719489b5adf50d2c86426e8f3cd8495`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/66-La-segunda-fila-de-las-bibliotecas-Reddit-La-Bandita-2026-09-15-ingles-US.md — `bc31381267b214f649024fbe8ac301bf0f9bbf0ba881af2cb4151858bd0d4ed9`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/67-La-segunda-fila-del-sotano-Reddit-La-Bandita-2026-09-15-ingles-US.md — `3e57f3bdee6735ce379ee657537ea970246d83ca556ece9e1d5a3c316091c501`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/68-La-segunda-fila-de-los-ayudantes-Reddit-La-Bandita-2026-09-15-ingles-US.md — `da00a49a22b9d4856727e53a5bebaec8201eaa6a3b8b8c7038c77499a66dc36a`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/69-La-vara-de-las-forjas-I-gitlab-y-codeberg-Reddit-La-Bandita-2026-09-15-ingles-US.md — `8a6fd13975dd2814eb0d9bf8026e0a6a714077965d899872e5bce69ce47d6804`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/70-La-vara-de-las-forjas-II-fdroid-y-las-tiendas-Reddit-La-Bandita-2026-09-15-ingles-US.md — `cd746673e962505db814527dfbfd3dc30f8a973ac4efda2a33f54b759a215b84`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/71-Las-puertas-calladas-los-ceros-de-verdad-Reddit-La-Bandita-2026-09-15-ingles-US.md — `e890825dbe702dc1b08ff7a24ac5d0289c36d1010682f4acc051c2c4c3045b6f`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/72-Las-actas-del-censo-Reddit-La-Bandita-2026-09-15-ingles-US.md — `b52e82d0d39b830a611e4ad0b59c357c99d1cebbd708074a4e9ad949f794d057`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/73-Espejos-homonimos-y-mudanzas-el-libro-de-los-nombres-Reddit-La-Bandita-2026-09-15-ingles-US.md — `6a563daa35d42bb6ae5c2a306330064cf830192c0eead4f37798466522ee25e2`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/74-Los-vivos-de-la-semana-la-fila-de-las-fechas-Reddit-La-Bandita-2026-09-15-ingles-US.md — `cffa1718a828f02d38c1c9f3f0b95efd1452392bc92fcabc2dc5897202287a8b`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/75-El-podio-de-la-mina-Reddit-La-Bandita-2026-09-15-ingles-US.md — `a27942b95831d2f1b1a27d9dad628b76214c673873bc2b7133311ceca2d8f97d`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/76-El-recuento-de-la-quincena-la-arquitectura-de-las-ochenta-Reddit-La-Bandita-2026-09-15-ingles-US.md — `666423275ac47492a81aa3eecdfd47bb54b1bd10ece18ff2472ed158fa12bcf0`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/77-La-frontera-del-lunes-lo-que-queda-Reddit-La-Bandita-2026-09-15-ingles-US.md — `9c69550554634dcd7e247785371e357fa73486109d57f6a818ffe425107f91f2`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-Reddit-La-Bandita-2026-09-15-ingles-US.md — `e80db14d514337a5b7a49272f6265801c20576c2c8360cc8619313c128133f85`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/79-La-octogesima-el-techo-tocado-Reddit-La-Bandita-2026-09-15-ingles-US.md — `28fe54c625c55dbb40d1838f63e82bcd9c80c2ce49828232a306d5ecb60a59af`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ingles-US/LEEME-de-la-carpeta.md — `4a7ed7b30215ba7041bf63b9d45f49694cece6fa2ef1565b2b0cc11629045ad8`
+- 04-VERSIONES-MULTIIDIOMA/reddit/portugues-BR/75-El-podio-de-la-mina-Reddit-La-Bandita-2026-09-15-portugues-BR.md — `e5ea191d6866448cb84cef859129ce07d80ef69e2e4bd9aad2adcbe9eff5ec97`
+- 04-VERSIONES-MULTIIDIOMA/reddit/portugues-BR/79-La-octogesima-el-techo-tocado-Reddit-La-Bandita-2026-09-15-portugues-BR.md — `9b037cc473d9eef51606b40a47da265a5470ec9f648691c4d95a72464ea1c4c2`
+- 04-VERSIONES-MULTIIDIOMA/reddit/portugues-BR/LEEME-de-la-carpeta.md — `56e03d251fe1037173a8355ec963f890550384c673bbbae783b062c2804248ac`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ruso-RU/75-El-podio-de-la-mina-Reddit-La-Bandita-2026-09-15-ruso-RU.md — `af465b2ca0aa43a96d0eeb845506cf16461998894ca010a9fe8b9f23492d622c`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ruso-RU/79-La-octogesima-el-techo-tocado-Reddit-La-Bandita-2026-09-15-ruso-RU.md — `620f71b52393967c324fa13efb58c44962fb199960ae59e471e32efce29b924d`
+- 04-VERSIONES-MULTIIDIOMA/reddit/ruso-RU/LEEME-de-la-carpeta.md — `f8cb694f627d8e81135ad061f9ad4f85e30a8f5b682a96c1346e95adc693dd77`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/chino-CN/75-El-podio-de-la-mina-Rethubs-La-Bandita-2026-09-15-chino-CN.md — `757667fef7494799582bc3e299ad215704225aada44d38dd24e4e354ab1b9213`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/chino-CN/LEEME-de-la-carpeta.md — `940570b090184b7c657c255c230e2e71df4e312a2f7b7216c6917a2213e0f8f0`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/00-LA-LISTA-indice-del-ecosistema-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `957f745b1312cc6abf0d146c70f825ff7b3e7bf1d96c07deebf0610d526def7b`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/01-Tiendas-de-APK-legales-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `d5ea7afa0cf52416a8a41affbddb84ab3b8ae4ffa067880211feb4bdd5d69f57`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/02-Kototoro-biblioteca-multiple-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `2068862832da0b2995f23599489c6b8917d9cd7c0fd183957ee1ded39a579453`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/03-Verificacion-Desarrolladores-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `b5a9c696075de603a1b1332bb83a8e4bcfbcf9ef6edc3605d7b9637861f0483b`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/04-Extensiones-tres-arboles-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `9f73a3ac2e095e5394279fbf469a51583652d0a83371f487098cbffaaf838480`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/05-TMO-cayo-clones-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `f4db551804d753a000f189df9e369fbf22f8ae10d16e15d4d4ef229a65aa91b5`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/06-Forks-de-lectores-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `1b165d028fac951a7774f969f07a1e30e9239228f6347e385f224cb6e3620b76`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/07-Usagi-viva-Kotatsu-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `9ad78342016acb6718d534cef5f1f1c2390e2b638ad3029bc4d32c1b39b4da0e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/08-Musica-FOSS-clientes-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `6c86bdd1724ae070f01d31f1414aa9600964135f0d6746cb3c99aaf4b41499a0`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/09-Herramientas-FOSS-caja-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `df1c6593dcd6564ac87a5c7cb4b68dea1b203412d3dcbebc1b37768f47f21b4b`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/10-GLTools-no-se-receta-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `f5da860b9343d27b1b5dcbc5b900d3587bf9ef72afc6710b43bab95004d11c23`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/11-AniZen-espejo-no-repo-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `76e2172775a1e8302657511287d187aa6f466b9a4d27955b1728bb2878b1d8be`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/12-FMHY-wiki-pistas-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `176e6c70693d795cf848c8079121fb6ce742f51578f34f3e18e9ee97d1408530`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/13-Rama-Aniyomi-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `24d728e86de3ed03214d5f34b7ed8ccc2418c485ac3ff57a99e820677ba31836`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/14-Rama-anime-puro-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `94b5bb1a37643cbf2b715d289b6f630a6175804bfe37b35d19225a9f656d1c88`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/15-Rama-J2K-abuelo-volvio-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `28fbd1a7186cd2f448a11d77d3a551d49061cfe83ec10944b37d661786648f68`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/16-Rama-SY-Komikku-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `c0dafd5eadc80111310ce0341199d2f180c4d6cba03ec6fa48f8f07175d52a71`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/17-Capa-de-inmersion-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `c9cc821166555c5548f7ae213cddc54ae92758e5b1bd82e5623d59f183a4de81`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/18-Libros-OpenlibExtended-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `8774a71f2c928ff1ab71cb883055c83b13f43d952e89f61e0c36f21401b49662`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/19-Panorama-multi-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `2ab3ed6c41d15d4ee125754c53a07ed1dd1c2eca8ea5880f9f765530c8f54a81`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/20-La-Biblioteca-plano-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `af70b80c77fc51658a200c430945ec0204c392721222ebc26400788e02ffbf0c`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/21-Musica-I-cosecha-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `ed8c2d727c018ced2e41467d20af96b74997a28c1c267f40e2397fcf631ae79e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/22-Lectura-II-repisa-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `54ff1531fcf1c10b2a87ae9404127dd821f65a6d50b0d7d364e611b6d1d37377`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/23-La-sala-IPTV-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `8a1f9243946781d9e7f33eafe57591974ee4bccef80474a9a80d83f0d9494104`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/24-El-taller-llaves-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `0e03edde7e53a98fbb35ea6460df01abea21f8dde49b3a70f62f5f5a17699eb9`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/25-El-sotano-autoalojados-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `99758b96f708c1c493dbee8a1a49b7954e6f1af8f5f59f7809a3b8fc9aeb6d30`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/26-El-cajon-miscelaneo-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `9530bd628e64d39aebcc67babc18707510bb37e2de6de462fed3a48704023770`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/27-Musica-II-sucesiones-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `265f76abbf5dbbaa3cc2ac34fe1f783b52198b84d46b97fbf6999b0e1bcf0056`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/28-El-tronco-raiz-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `9610a3117f8fddece543749605733336ad4167890f4e8f33e537b123daaabbfa`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/29-Los-mayordomos-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `cd943ca3e63ade8a3fc0ca9e5aa2253ee6e4f8368d7b59be5ad89bbd2c7f0c62`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/30-La-cara-del-sistema-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `4f7a48727235b3cd75a00b55e0d9fa3b0e6d9d7dff510bd256e6afb9e630019c`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/31-Los-pequenos-sistema-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `37bf520d105ca5102873a62b5923744d9213895e52e2967804f2c85653f8b6e0`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/32-El-cable-y-el-escudo-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `8f0b184dcec9b722bab6afa947f2a49addca48732c618f9c2e667ed566cde553`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/33-Los-archivos-del-taller-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `788bf7083834a2a3a9a1d21cd4988c694f6c01bb559d356a7405e16d95be3a9a`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/34-Los-que-tenian-otro-nombre-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `aaa37bb387d852cd00b9c98041533c03277eb60f9003328dd2ef8511f014c5ec`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/35-La-estanteria-estirpe-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `8cffc9c1d6e56b05b2193a914f67de22d343df277ea4d764fa123648957268e8`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/36-Los-libros-bolsillo-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `b2c50c1cbec066d3c1ea0242290ee0ddbe958a92eeffba25494a593a0135b200`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/37-La-puerta-grande-anime-I-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `1b80c3cea390da6ac1d65338e667d6e1dc33372be4fd4b45951be0072aef309b`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/38-El-vivero-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `2dbbf264295df4b922b2eed0a2cfbb48ded73b91f43a8c214c4c2bb020d1dd2e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/39-La-bodega-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `990b1a884d48457a0680d0b0473f8d18e9c05d6212f236c3135db8aff8eb835a`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/40-El-estudio-escritorio-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `da9662574a21f08f30d6b52be6b9a96c02c57a114bc2355e9673855ca22887ab`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/41-Los-cazadores-anime-III-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `826f0a4da0859efcf8becd177a6b0d869417eb9d457b4eb63f65d602356cfe04`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/42-La-fosa-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `e3c0f1218b726a19c2996249aae550c09f90b98f3a99ecbbff45786ef24f8a19`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/43-La-corriente-fuentes-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `b5d45f1f7a86fff6f760f34e3c6a922de91e27610703af33bfba39068daa89e9`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/44-Los-pequenos-sin-ruido-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `a2f87c6762368771eddeb8b3afeda573b5d6c7626f943ae7bdb64f888a7dc817`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/45-Las-canciones-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `4e3abcae7118dcffb0146fb587699b7464e5143a2316fcef006a1697b3d3dff6`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/46-La-sala-de-las-novelas-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `573c1167e9ec1a0f607d69382046f82a75abfe0f6323d9a7cad488f7464a1cb4`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/47-La-ultima-puerta-Venera-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `00d6489f4b37e2f36f7b2598abec85e223fd8a5700e859734471dba6adc710e9`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/48-El-archivo-V25-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `056aed46efb41c62ef2e473ce270becf44ca35b496b842e8faf799432832a927`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/49-Las-mil-puertas-683-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `7ad472eccb4ad6757851b19e7c1d70b91769c4a8aca7ccc7ebdb17dc5d53757a`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/50-La-discoteca-I-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `1081af191da15bcc241874f286b20e973af5afc429aa271f8690be44430422e6`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/51-La-discoteca-II-Finamp-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `e82bf1c45e647f1679cf01265d21b0bdeebe27cee61798053307f4db91624c83`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/52-La-discoteca-III-censo-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `ddbdabd5a2eb4e65145c36036cdc785271a59b3d40fdcbe610ab030f1338899e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/53-Las-otras-forjas-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `c6aa7df9a4b10d5b5c7f7c0a1fc6fa0f1422ed507afac41957986af963e528c0`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/54-Censo-sistema-102-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `8f97c03c90e32428e89e1f9c5a5467ffa8b3a86f13b68679fcce9fc69c52043d`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/55-Censo-lector-207-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `d20775f7fb4b9969c5c415c6f581f994a2cfe251cb4c1163a958f752f57877f1`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/56-Censo-anime-186-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `4ee987c248af47679cf162e96e17ac423540a4b358e361a1f84ee43ee921fc77`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/57-Hornada-del-lector-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `51533791fdf87180043ee29adf22f92b034839fff2136d94782e2bef2aac8a8b`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/58-Hornada-del-anime-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `3dc760874c14c3ca34e7dc7bc2494786f330a9d14b9bf25c068ede65bfd9d1b8`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/59-Hornada-del-taller-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `1928b37a6826f75abf127fd71be6e3898f4e801810e423576966691916ffeb80`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/60-Hornada-bibliotecas-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `2db2eed153cd552930b3b56d830372491c8d06e4278fa06a9b40f4b37f7e4ee1`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/61-Hornada-servidores-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `3798fa079772f54a46ce4bb732bb74ec9e35c20d0e6d6c933435dcaeef4283b6`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/62-Hornada-ayudantes-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `6eaec956caaa9fdc5c2011137cf004dbbaeac31aa9580b3de0bf335a0971afe6`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/63-Segunda-fila-del-lector-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `7c74cb4a39c877459ae5c5ebc18a820980173506691e48417ebcc8345e9d518e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/64-Segunda-fila-del-anime-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `0b4df29eecb1cb04e7f82405e92f8a629ea2dc97954a4b8d0fcd8f1da5784011`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/65-Segunda-fila-del-taller-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `b441889391ff5313869c289f1f26c45e7818a156d7f16bd616f6aabfdf99df8e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/66-Segunda-fila-bibliotecas-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `21903c1c0164e77306a34f8cedd041059840d947b084eb7719ceac83b12c1daf`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/67-Segunda-fila-servidores-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `1c3123113267bad25e006732a9be661133875f091e4bcfd4f22384659439b084`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/68-Los-canes-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `0c509d3033acdbac43e8cdc2cb5394d91bd10ece14630a50a497d1197401fa7a`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/69-Vara-forjas-I-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `642b1e1e35ae3b8bdf75ab6fb3cef09e1adb9ca8b4dbd8e2876b082c5eaeaabf`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/70-Vara-forjas-II-FDroid-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `0e7ef2e7a78d0fa46e53494a6c332e921b095cb1601a474f5847ba4e31e4a5b1`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/71-Los-ceros-verdaderos-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `8103035c729be1644fb0d227e9f9669de3170e61abe26dc2e8d2d10b3a9448d3`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/72-Las-actas-del-censo-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `7dc058bbbdf8017ecdc97053e764cad49b0ea96bb2759b02e237898ec37fe0a0`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/73-El-libro-de-nombres-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `48fc00496bda836c57cd670552610457c68cfbffa9abb197967efb2a003ea85a`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/74-Los-vivos-de-la-semana-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `a5835aecf33d888a22ee04713aa60e206d77115455622b23af182133c107da91`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/75-El-podio-de-la-mina-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `102274f8bba967f2dddeaf79d9149c4497b9fd63d73e564ca20ee7e4a9977809`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/76-El-recuento-80-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `91459b4db9a9993049885f6723bbd727643e0cb1d70de6e497be792fe5fdfbbb`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/77-La-frontera-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `ecd9302d0fd9a7cd653520c0fd87984581b20a7c6d324a72c760a3e89881143e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/78-LA-LISTA-techo-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `52290234d8f3cfe178a3f0f158cc1043d6b4d4e8e22e5341c0b76fb0ea334392`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/79-La-octogesima-Rethubs-La-Bandita-2026-09-15-dominicano-ES.md — `9be7cbfcd4d72560ef2355e73c210a92d28e570f5b409843448016f83b7413a3`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/dominicano-ES/LEEME-de-la-carpeta.md — `781577dc7cca8ec9c5c7f6fa0062e102253563845eed080bce92e749430b0220`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/frances-FR/75-El-podio-de-la-mina-Rethubs-La-Bandita-2026-09-15-frances-FR.md — `539178350be95197d7a1ba0ef70f4a9f9a6caf4b56f70e4d0ea47307cfc978ff`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/frances-FR/LEEME-de-la-carpeta.md — `1fd06d867c6c788eae7c41cf16a87912bce57278f177b5dbab3d78bd48e8f08a`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/hindi-IN/75-El-podio-de-la-mina-Rethubs-La-Bandita-2026-09-15-hindi-IN.md — `87557251630b8442ba5afb9f3cdd875c635e8a2fb2c64f96e2b18eae178b9c41`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/hindi-IN/LEEME-de-la-carpeta.md — `4184614bc25e0c04f48b21b83bb537df389a8d87da0416a768d68820bfa6b639`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/00-LA-LISTA-indice-del-ecosistema-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `5c063177cb046cc1dca3dd5c8a0dadc1dd594ac4eca91a0a3d7cd489297bc7e0`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/01-Tiendas-de-APK-legales-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `1ede70da4f0b0be594eb56812c8466fa2cfa4fc190e04692c44a213bdb52238d`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/02-Kototoro-biblioteca-multiple-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `1ceaf036f17de668024d5f81dd1c06ced61c92ef08956dbe8cb6fcfa0a52651b`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/03-Verificacion-Desarrolladores-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `fa64db3a2d5cfcba1a385f10185c4d3f024f903cb7f2baceff4d0d89109eca1f`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/04-Extensiones-tres-arboles-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `5588be7a547380ea430832ef8057b26101c74aa8005fcc7d1b382ae87b40b565`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/05-TMO-cayo-clones-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `4916effc6be07345523714c832dc807187f9834dcfdc907e933bfc5980260914`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/06-Forks-de-lectores-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `b2fbed65a7bf24796ec70caa9fdaa5198b0da670dcd8f42d73d1b1c0e2be8a83`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/07-Usagi-viva-Kotatsu-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `db0b82b9c97cd717704ff43094e94f091102bf64e4976c116e8c1c3cf101df94`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/08-Musica-FOSS-clientes-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `17935bab4f80f3ff70a668f0dc4fb7563d48e77429e511f2f21d7d9702409899`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/09-Herramientas-FOSS-caja-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `fd1b24b460ff7bc42ee7cda774649814204b73b43987103df4137c000c753c42`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/10-GLTools-no-se-receta-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `75e13fad73779a6cde331654651ed6c246b1f8721b40db72fdd199ac13ab4490`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/11-AniZen-espejo-no-repo-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `9720f8e412312a506458ab4b3ce8ffd757366464f7a39b3854030fe37163703d`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/12-FMHY-wiki-pistas-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `dbb5e4790c293aa31fb7632978da6828472b32245e208eba28b480edfd1f725e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/13-Rama-Aniyomi-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `7ef0445a63d2fa9f5a1366b029b10a4399430e4d5bf4fa8daa60cc6cee4cc6dc`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/14-Rama-anime-puro-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `ebb00971908959aca8270fd6760ae449868d27dd3047813472e516da163f97c2`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/15-Rama-J2K-abuelo-volvio-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `9573c9ee239d989ddad426aaf1fbf7d390ba8c89ec3c0926f7cc6ff6fa9baade`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/16-Rama-SY-Komikku-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `afbc2a149c40ece711e481cb461c899961adef9dc9ef29ee123af32cfdbddc71`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/17-Capa-de-inmersion-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `bcc87248d8c1fe07b094970964588847dac46a419b02ae96112648db7fb101c7`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/18-Libros-OpenlibExtended-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `7d986e39ad935a69ed147a4a478b4a82023d23b60e4ded488f9e173cbfdbe4e1`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/19-Panorama-multi-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `04e2b98c782ac711b35f2b07d61f2a4621baccf90ff2c0115a7a19da4213c1ea`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/20-La-Biblioteca-plano-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `af0271621173acd36a416508a3592cfb534d08b126566c0884d7fd3de2645410`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/21-Musica-I-cosecha-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `455b1c432f692edffa60d4f134cf64cb411e7896b82f902b1a513dbe13b09bb6`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/22-Lectura-II-repisa-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `8504ea02e397244712372babefea24480c5353ccd11068d21547825b4258ff8a`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/23-La-sala-IPTV-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `5994fe745f5bf9d132658884f60c0bc2e4add201079e2603d66fde505927302c`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/24-El-taller-llaves-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `7feb17fd8c4c621c0db00fe9a91dce5a7a60d8061f8ef2ebf58f4a82eec55257`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/25-El-sotano-autoalojados-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `e5fd43845c0c37fcd49db1eedddb5c9e02efa429a3f6b656978a202eacaeaa89`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/26-El-cajon-miscelaneo-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `70fd10c9c4eb03ef1d1a9f21d4dc5adfb444578b9176afb2f8e8401dfabac47f`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/27-Musica-II-sucesiones-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `7026c0b692b4894923b6634630a6c699f3a56bfc2e70b8fc4782ab494cc1a621`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/28-El-tronco-raiz-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `3d46e6f41d5bd8897f55593558164ae81a8b9322cfaaf471ec1ba68a4f07a20e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/29-Los-mayordomos-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `df5b814d194695add7d9c2a99ad88f9e82ae809b999016a1b91742354528cbac`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/30-La-cara-del-sistema-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `b89623f5f7f2277063f1fe46140fe406d7c4a18fd607ea4e9be349437b93dfd1`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/31-Los-pequenos-sistema-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `58907e88ed182d95145eacdb27511b974c3a3cbbb4451c4e51c3e2b1f355dc18`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/32-El-cable-y-el-escudo-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `88c4e020434aa4deb78670c865bdebc30dd27d5a96cb3edd8a08f263f9749a62`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/33-Los-archivos-del-taller-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `15d772eae897a5dd6da829e5ee8ab6a4a26f69a1393e038d0ba25e45ec4ed64e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/34-Los-que-tenian-otro-nombre-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `4a7caceaf24e0533c89dd26b40ed9ebdbe887b7a051b291f8d0f22c647c717c8`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/35-La-estanteria-estirpe-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `2ae4e910fb00e21dff9bad46890ea98052459d1428dba5d9caab7fe52eac901f`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/36-Los-libros-bolsillo-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `2f4e6daffe4bb1aff59531cfe2482a416681f0af6dcdd5a9eebf5cfae3bf797b`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/37-La-puerta-grande-anime-I-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `616fedd9c3c2dbdcf5f59fa674e075b56e4d77874b95a962fa61c4ae3aaa6bfe`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/38-El-vivero-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `6cda22167f6910140295b85b8878248302ab7a43eb09824856a9d277a095c20e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/39-La-bodega-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `6aca9fcda157485a320d0a7a195133e13b2cb7b887ef9543f943c4afb9ba2585`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/40-El-estudio-escritorio-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `887f210f157018beab46cac2fed14f451e4987eae51f3579e56eccef694a3a75`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/41-Los-cazadores-anime-III-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `2f8f274b240e394e84d5cea05b9691cba5fc0826bf4c5ade5631631ea14cf7c5`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/42-La-fosa-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `a5572363da81e3959b9578cef762ca47ee46cf72504d0ef543f1c789effa13ca`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/43-La-corriente-fuentes-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `b2b1db87e1e777f9f237516bb5cab61d8544b53bc411081d26bc5192205e42eb`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/44-Los-pequenos-sin-ruido-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `f9bf9805ebdeb2ca9cc49f8084383fc517afd02f77cb3e906746e69117dc8086`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/45-Las-canciones-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `363cb096bf648b751a00ba775963d08501255f6684b421cff79ef77b12549ea8`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/46-La-sala-de-las-novelas-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `ff3dba33dab17745019cee696fb442af47e05bf26c4a8d08a27bf73d9f1eae04`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/47-La-ultima-puerta-Venera-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `5d93202f45e69c4003f0f25ece4a40fb0ef10ebfb69d4a7eecd87c5c2eb77fc4`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/48-El-archivo-V25-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `57eee81be48a294ff07dad0cf9257206a906bf6d3c67278ac671a441c59616d7`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/49-Las-mil-puertas-683-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `ba7145a57fc2bf120275539284ca149bcd09667d0d58b21cf66c3645ac57c5e8`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/50-La-discoteca-I-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `71372608c38a24ce5c79175a66e428a9d772c6d307a9e924088f94a25af9ea87`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/51-La-discoteca-II-Finamp-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `037b21bf713f1acf6546aa6c477d5a9ab76a1b072361bd729d65a3acb727bc0d`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/52-La-discoteca-III-censo-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `bb4f065cbf0ad0fdc0866b384a33d408331de92c0ae7cb1cfb885901e1bfc6cc`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/53-Las-otras-forjas-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `cfa10b3e9cdc71c4866b7517285c7fd696b82e4f05395f4a3809a9a7d907200e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/54-Censo-sistema-102-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `43b2200834334e20a28e5f8ff2ccd2b75af88a84ff2b3a24244e20c9735fdaaf`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/55-Censo-lector-207-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `ce1aed609f0fae9416b059abc7ace1b7a7e4717f024a4625665d8d1bd5804d3b`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/56-Censo-anime-186-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `64db678789a4f769563634b52d562bc2bd173c7f8f98821b826483744477fc69`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/57-Hornada-del-lector-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `50e9bcc90dfa6817155be8d9df5e139b6748090831c77bd5f443a075cacdaef0`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/58-Hornada-del-anime-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `e81f9999661a181d16e6472f96548ed6116e2264ce4f3fff47700a4c83bdbfa1`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/59-Hornada-del-taller-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `9b483ffbfa16d001ded21bfc157dfaa0f1f688e9a60606263b8d6451df1c4c4d`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/60-Hornada-bibliotecas-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `3594d84aa9039dfb9fb4d4d1c686c06080ebf4e6ea89959aa36de56e881bb138`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/61-Hornada-servidores-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `342f4edaf5afa75af1d1f480b603da548a1ce2784140bdcebc9f53274512ac18`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/62-Hornada-ayudantes-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `31fc513002aa17cc2dcfd1ca15dfa2e63c8eb463ff96a208dbb52ff0cfc7e33e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/63-Segunda-fila-del-lector-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `4b0e17f149ca4a77118d57f26ecd560688652ba9fea48084b9efb44cd3fb33f6`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/64-Segunda-fila-del-anime-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `fc437054e624664bbfca2b54a954c40fde2c0c5c8e496dc163fb01aa92b6d02e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/65-Segunda-fila-del-taller-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `afc2149f793323efce849b58dfff5d88beb7170c84f5e2309184992550eaac36`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/66-Segunda-fila-bibliotecas-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `e9814e24855d95ed93df312f02306a057c3ca1027ea4aed24deebb180c4da1d8`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/67-Segunda-fila-servidores-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `420304908ef522082af8a48280004c8d8da5650bee2b00c97f113da60a6a9b90`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/68-Los-canes-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `753faa3a8cc7e44685ad095e3ee6442d25af91ac9e5650eb464e247eac763a8e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/69-Vara-forjas-I-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `fa59afdabaa702a061e1036f41e5198b062165f9e9b4f98b9e0d68f95c029823`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/70-Vara-forjas-II-FDroid-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `1ced702fea084237c1f7304f6b7367d0ea969243b9fcc681fabef353103de180`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/71-Los-ceros-verdaderos-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `0b43c10f602bff6b314aba570fd265143c11aebd5f2a2abd758fcfaeba6f169c`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/72-Las-actas-del-censo-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `abec108d43179895eeb9fdb9f679d7a858336119d5a866a9787bf5c6d05a052c`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/73-El-libro-de-nombres-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `f0136be036c88dd5fd9389c26ddcf120d17278f57181b0fc4c2755daec11c202`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/74-Los-vivos-de-la-semana-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `ec9ce3463846d7f64fc6eadcba43490a1b2b047288f372471fa77c47def4bb54`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/75-El-podio-de-la-mina-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `2e2c2c13b504adc0f263c3a05d0fbc982fd7c95c823f188f62d2f830e2b1935b`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/76-El-recuento-80-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `a3dffa99ccf89f30a38582280203824dac1a7b8bcb1089b7cf305f9a093362fd`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/77-La-frontera-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `816f179498112d8c261e6f62b17dcc37ff3aa23af4eca221fd552cfca03a3815`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/78-LA-LISTA-techo-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `be6ccb758ea876eae4f81cbe5ae7ff7fcfbe026e18ca3c5c64bf0fadea24838e`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/79-La-octogesima-Rethubs-La-Bandita-2026-09-15-ingles-US.md — `d4d26b16c6823d8afeae551c7e62ec5e62a569d6b3ce1edf852405926dcc6cd8`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ingles-US/LEEME-de-la-carpeta.md — `b026ac5e4289f88311c5adf9c786fd6756f1b47dd6fe1cd65f3e8b8daa2aa9aa`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/portugues-BR/75-El-podio-de-la-mina-Rethubs-La-Bandita-2026-09-15-portugues-BR.md — `65545a6e2b380e762f7a0ff0ed385ba22d71f38d4ffaca398074117ba8a87f47`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/portugues-BR/LEEME-de-la-carpeta.md — `defd43ce93b28125ef5bb04196da580594f98a14995eb20fa06db6201dc66932`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ruso-RU/75-El-podio-de-la-mina-Rethubs-La-Bandita-2026-09-15-ruso-RU.md — `a2227a7b22374225e60fcc021e3b303bee671ba1fe3dc62bb3f8fb3e4ade859b`
+- 04-VERSIONES-MULTIIDIOMA/rethubs/ruso-RU/LEEME-de-la-carpeta.md — `a0731ab13f82fc7fa8066cf2bac4c0103f50afe9b160818b61c1a00c1a7e7559`
+- 04-VERSIONES-MULTIIDIOMA/telegram/chino-CN/75-El-podio-de-la-mina-Telegram-La-Bandita-2026-09-15-chino-CN.md — `341a6c51a6a374c461efa45185840de1c9aabe5da0dcbeaa164dffa0e3755d32`
+- 04-VERSIONES-MULTIIDIOMA/telegram/chino-CN/LEEME-de-la-carpeta.md — `247ac391d3b6f476e87b2cc868e0c4e6a641179248e46aa5c0caa0b3c385fc0b`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/00-LA-LISTA-indice-del-ecosistema-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `709b3676fd0403fe6d496b6b144a3cbc621ac7b7f7ed1fd83c9936d63ab3fe96`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/01-Tiendas-de-APK-legales-reloj-2027-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `ce5b2379e04e84b239ce13951356bb7c4e7fb679e928ff3f0b15553a6b60ce42`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/02-Kototoro-manga-novelas-video-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `7ac95d4fae3c721a5cc7721f25b092f06ce4008935a3f94df498224caf4a4839`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/03-Verificacion-de-Desarrolladores-cronograma-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `38f939389dab936a63229daeef28b763a28a3fd65cf0d8a50fcef602859067cc`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/04-Extensiones-tres-arboles-hubs-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `1527c1aadbb6bcbd04362086e5d1099a419cad10eed4b72d2bb2fae08c82347a`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/05-TMO-cayo-clones-no-son-TMO-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `7e69ae879673037f5db3aa8d9445bdc3dad859a554153426b55278ae4823bd17`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/06-Forks-de-lectores-segundas-generaciones-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `599fd65bc670fb80d12e6f5eaf3190081b9e2587da9f14587f0138924c415d70`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/07-Usagi-viva-cadena-Kotatsu-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `24ef8b3a2e90d7e617c622825faecac514ff6b53e01d051a99b0fbfe26a5706c`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/08-Musica-FOSS-clientes-con-pulso-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `c07c3c7a354733b82aee8aca9a629c847d8166d6bb075d4921029504c36b3168`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/09-Herramientas-FOSS-caja-de-oficio-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `98bbc5e64859dc985708be8ae8800b415aaa2b25ea1e714df39c7b43194d9f91`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/10-GLTools-no-se-receta-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `c7edd9c26c6d88fd8d64bed0a31a00f733dafe7506284562e3690762191ecca9`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/11-AniZen-vivo-v05211-espejo-no-repo-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `cb6a8c80271a9c27c5f35b29772827b49b5dd49994e7e866275e7e588a7b4fc1`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/12-FMHY-wiki-de-pistas-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `9d2c7d67fd53dd42a006d36e8eaa1f4f99247e9428e2ce6a097aa359295ae840`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/13-Rama-Aniyomi-manga-anime-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `330088448fa18f74d908f9a01d504e774d8d8edb02a07c6d481444b3410b80b7`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/14-Rama-anime-puro-Animiru-Anikku-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `99d9e4f8a7212bbe4adc447ce76d7bb0135a6683a14ff3b21c6263c4298927c0`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/15-Rama-J2K-el-abuelo-volvio-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `9608d1d5f7371558bc8883a61c8547c3531b0ac55ed6cc7af1d991ba2198d9b9`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/16-Rama-SY-Komikku-clasico-y-rehijo-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `861834312f45e3cf402679a11f1b68778715bbf43442df889222bba61cc67b57`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/17-Capa-de-inmersion-japones-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `54137c8cdb4deaeb4eb626068364c8119a542a00a6c28e448002d19223958a0a`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/18-Libros-OpenlibExtended-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `02ceef68269b90d9ef39bc1b9a716f177f694b978dbe5b9409d9285bcecc7686`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/19-Panorama-multi-todo-en-la-mano-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `c8bb6ac73d00df45a62e3fc5b2d512c27b2303db40c2ba7c8c0a6c5d4e4ead5c`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/20-La-Biblioteca-plano-de-75-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `353a5a18583cc7f32d724e027720da67ad6bea619b4bb242e40dbb4ef5be6a87`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/21-Musica-I-cosecha-12-vivas-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `9e85815d1264541a66d0da5d29a7375f51df8116f01a99ba77775dd6bdf842a2`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/22-Lectura-II-repisa-del-muro-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `e8af9bde7a958f7f91009601c6d996bf8682822870a9dd03c2c29a7a4cef30c9`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/23-La-sala-IPTV-cine-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `91dc22865107c8a3f3b65519467f5426d1f285702de5718e1142b82b62d342b5`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/24-El-taller-Shizuku-root-llaves-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `d1f252d8fd4884b7b06900bd51ee434e7c657166f443572aaef6267fe7835abd`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/25-El-sotano-autoalojados-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `65513227efb1a699bb43b5e4f7619876e4a5c71ba97f9fd6d0b8da8eea5a834a`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/26-El-cajon-miscelaneo-verificado-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `a7f9cc8479e9e4c589aa18b78d86dde7e2d8f01569a1cb49c05270c9a51385f7`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/27-Musica-II-sucesiones-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `4b007a06953074fd8a6dc3d20091ca47e28f2f106e24689e663cfbe6f87c23c3`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/28-El-tronco-raiz-tiendas-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `b7b07074b92ea022bb6f346abd04a4b5da7033072541732d941d8a8f288f8ae7`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/29-Los-mayordomos-perfiles-bloat-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `fec379df0b87ca8b6e8bdf7acbcef3a6cb9822021d9a905d31e45ff5d6003007`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/30-La-cara-del-sistema-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `f487d48848e2f78519baf0e3ff09481ca406f85dcb0d538c9b379c87d4e02aac`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/31-Los-pequenos-del-sistema-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `6901b14a0c125a18fa0469e9df25ea68e6460df6b706c2fe57ac8d9dbd32a31d`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/32-El-cable-y-el-escudo-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `d21e9cf930827534f7c273da13c1151e8fe46232a9c9c4b95b7667d13c85d3db`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/33-Los-archivos-del-taller-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `43e4ec3e7a466df39e7112b8145e3017725db24f8bc92f544a47ff3e59739c4c`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/34-Los-que-tenian-otro-nombre-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `ccca43cd55e0a90fa2b7eaa55799f5b7fd3e3217dfa7c79f39b1420ad002d1b3`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/35-La-estanteria-estirpe-del-lector-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `0b6960f3daabc27f8c6a19f843fb7375a0213e4fbd35ce9584177a623963d278`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/36-Los-libros-biblioteca-bolsillo-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `82e114e895326971004c155df74bec89d97da6b030b909e980ed7dd82fb8067a`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/37-La-puerta-grande-anime-I-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `bf3062f0d93f5b8b5523850143fc1de7ca8d361797aab3c5e4a6e0145a384b88`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/38-El-vivero-germinantes-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `67ddc04908bf101283bdd0d5c531bcdfebad1777433ee04f6390e6e42da9c089`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/39-La-bodega-servidores-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `8afaf502bfb01b393dc3c449820965cf22024bcaa09036f6875f4f3c06d41fd0`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/40-El-estudio-lectores-escritorio-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `ed8cafd60be2837784447296bb42f8523255f1d3e410e14f1271df22241b9516`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/41-Los-cazadores-anime-III-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `8023c72096cb5b1a6de5fa5b62097dd7022d036f6acf6b962a80e15e499483f8`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/42-La-fosa-lo-profundo-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `6db51fad5aae0a003bb36651d00cce1eac0c5e332b945acbda483e431b7acd62`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/43-La-corriente-geografia-fuentes-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `dd38cc652b7898735eded5f37ea53652e17b8f2aef6d966059ca8dcf8d7e4103`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/44-Los-pequenos-casas-sin-ruido-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `f73b6a3c6da09b1c2a14bb30fa652b262acd85d58ea82c811d0c90fdf68b0ee0`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/45-Las-canciones-voz-de-america-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `71be258014a0dca40090734342ad28d53abdecf73e2cee6b899438e14371e920`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/46-La-sala-de-las-novelas-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `1570dacd097a6bf99c56764de4eb80a316b0a2cb9786f18dceb6504d3507795b`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/47-La-ultima-puerta-Venera-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `98ed6adb2bcd247e0b0dfdf17084a0c53ff91d649f0f3ac8cb77c11a2910473a`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/48-El-archivo-V25-vuelve-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `40aff4107099ec66a77d81ecad5d2987dba7304560efbd301b65f992abdacf7a`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/49-Las-mil-puertas-barrido-683-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `d294a0ed076beb6aa1df12fa55ab46b1f1889687441a5280e99731f227d93ecd`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/50-La-discoteca-I-231-puertas-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `ddcbcf77038e7dd060200878753f646958330c1be88d81d1f4158930d15b41ef`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/51-La-discoteca-II-Finamp-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `4a2133bce2f1ade04cc966bb162a7914698a35b47d53613d8452c5e2c0caa8d3`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/52-La-discoteca-III-censo-163-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `43f11e10ca93c4255a0da515512e703cdbffa12806dc61bab09139fde074395d`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/53-Las-otras-forjas-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `508d59fd18b67ad2adf266b12b3bc60b5bdf94cd3b74cff9fe638904e92c71e6`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/54-Censo-sistema-taller-102-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `7a93fb2b3880ec9f09f9a6df5374094e6abb6b332c9c9282940cc69fb334e2d8`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/55-Censo-lector-bibliotecas-207-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `1a8626b70182b37803f1cb9956dfbe9de280710deb549b5b6793513a77682662`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/56-Censo-anime-servidores-186-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `811ed97c2453dc09fb48e92a429fafcf397e2da8b3a063693c0ecf2f80446d52`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/57-Hornada-del-lector-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `e9fea26e3e2cd3e3d20625cf805b56ce54ff518c17dd96a846558f45ebe77d31`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/58-Hornada-del-anime-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `a509682685984ddc19ee741e304df7e4894af3418556d57d9a3e3025d0113bc5`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/59-Hornada-del-taller-herramientas-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `4ba95f90827717abc88296fbd8f5e8ff04c01ecbbdf5ad98ac13367e5bd291a2`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/60-Hornada-bibliotecas-ordenadores-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `525f4d0b2126f4a4010d517ee555d58fa5ec013f0e50e2bde5a1740be624e01b`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/61-Hornada-servidores-sotano-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `0fc3fef6d2a5bc5394007a4e1a359b6d94622421affbc1f5fe339e25289e04f2`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/62-Hornada-ayudantes-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `eaa5a4c43d0b8cd579e6551196d986d437d44f841dd8e540a4841da7e12109d9`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/63-Segunda-fila-del-lector-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `fe88bbef09f606f668e4a003124b1778eacd72f42bf296982e694c0f738200f6`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/64-Segunda-fila-del-anime-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `a49efcfadc88b8f38fe8433dea3cb5edcb9a85b4db45ed55987e29d9fa3f3582`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/65-Segunda-fila-del-taller-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `82b0529db26f814c44cef70e391733123181aa5b058460431ecbbdd93019c0a8`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/66-Segunda-fila-bibliotecas-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `0ff61efa6cc557914f45359766fb3c7a4184e086b1c5f8770c66c8d93c5b5a5b`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/67-Segunda-fila-servidores-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `c960e45ccfe0f2ff79ab78808682ed06160ddb03a80273394847458b81b9886c`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/68-Los-canes-segunda-fila-final-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `881cff01d496dd5d24e1732c4226554ddfcab7db74caa2347f71e8a2b8e6f9b2`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/69-Vara-forjas-I-Codeberg-GitLab-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `599ed9ae8066b93ceaa072bc8f1d8b8b4d2139a4c7d6dcc7d317f2e3077d79fe`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/70-Vara-forjas-II-FDroid-tiendas-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `99c8840d7a09cd2b6eee44ee40ff9fef25dfe756fec0b129be994c66dd6b43e2`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/71-Los-ceros-verdaderos-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `d240890397a471181ba33d1e1ec7d4c86a4da35ec26209993b7f72c8f08babcf`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/72-Las-actas-del-censo-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `3e681daf44ae8b615a7935fd9cf16bd35d3ca5d2332fa2c6138d6d7aaaa348c9`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/73-Espejos-homonimos-mudanzas-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `4aadbce214e684daedb3c90996bd20ca15a91a28ec87be6438e251d790450e93`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/74-Los-vivos-de-la-semana-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `e03a0c6222fb3107da9463cb1c25da1b0bbfde4a2dba6146b7f1e1d6d2c1dd0f`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/75-El-podio-de-la-mina-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `d6c69c2d31cd2189b98bac770d7cd15ff3c93efcb3b43d3d4a85c74679ae2802`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/76-El-recuento-arquitectura-80-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `7bf6ea707623356e9e72a612f666be6297e9ec457493fd65e46011a2464cc14d`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/77-La-frontera-del-lunes-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `1576a89f4c4394b728ab29627639801b1a7a117bd6d4620d15b7f33c9f1b1ca9`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/78-LA-LISTA-del-techo-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `719dcb21579b6cfa15d413b1975ba095242ee4474881a32bec5e1848b7c2fd2c`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/79-La-octogesima-el-techo-tocado-Telegram-La-Bandita-2026-09-15-dominicano-ES.md — `b89fe41908b2f7978df82767f8fab29308bb89d3204de2ef74fff6a98df7dc61`
+- 04-VERSIONES-MULTIIDIOMA/telegram/dominicano-ES/LEEME-de-la-carpeta.md — `268ec0ae50ae255edb5b0f53ac0f8f36caf78d09f0d61d78658c3a1ed85adec5`
+- 04-VERSIONES-MULTIIDIOMA/telegram/frances-FR/75-El-podio-de-la-mina-Telegram-La-Bandita-2026-09-15-frances-FR.md — `341e7d56e1be456ca7a734d4f5e980b6c7c80d47800632a4802a2c8584fd83a3`
+- 04-VERSIONES-MULTIIDIOMA/telegram/frances-FR/LEEME-de-la-carpeta.md — `2fba788c75d17fd797b2fb6796fe9fcec99c6a487ef393903cc54399ec12fcf4`
+- 04-VERSIONES-MULTIIDIOMA/telegram/hindi-IN/75-El-podio-de-la-mina-Telegram-La-Bandita-2026-09-15-hindi-IN.md — `2237c4042c45a33eac2fbdefb1fc50991df4b0a893b4b1fd5ee412a2355f3fda`
+- 04-VERSIONES-MULTIIDIOMA/telegram/hindi-IN/LEEME-de-la-carpeta.md — `af3225b5a7477fb238a069f3f14e14cf7a984c9c415dfe94a1902c7a9c1703fe`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/00-LA-LISTA-indice-del-ecosistema-Telegram-La-Bandita-2026-09-15-ingles-US.md — `dbebea9d238cbeca68d59e3c6d6544f7b0d974413abb4eb71b0d3fcba79f41f8`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/01-Tiendas-de-APK-legales-reloj-2027-Telegram-La-Bandita-2026-09-15-ingles-US.md — `218066ba1f96a95e427be887ab4ff090706aefa5b3a18f44717fc8e6ee76ed6d`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/02-Kototoro-manga-novelas-video-Telegram-La-Bandita-2026-09-15-ingles-US.md — `bc4941f334114bae79fcc4c6a3f264dd398dca3c8deed676f9edb0688f79d0f5`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/03-Verificacion-de-Desarrolladores-cronograma-Telegram-La-Bandita-2026-09-15-ingles-US.md — `fd0eba4c20008a7710d5a445814829e400fd981c78090c8c10cd1164221a0252`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/04-Extensiones-tres-arboles-hubs-Telegram-La-Bandita-2026-09-15-ingles-US.md — `b76794eaa091ade73aeb1726dd54bfd2300eff6444b76e1c2722bfa645404b96`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/05-TMO-cayo-clones-no-son-TMO-Telegram-La-Bandita-2026-09-15-ingles-US.md — `88a495e50143a1a498cfcd3bb166b31ea2cc7288cd98d1dafb343c25f2b28220`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/06-Forks-de-lectores-segundas-generaciones-Telegram-La-Bandita-2026-09-15-ingles-US.md — `f4b23c9ac1eeefd8033273c33fcd6d224ece126088e86e6fbef26c241ebb9ddc`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/07-Usagi-viva-cadena-Kotatsu-Telegram-La-Bandita-2026-09-15-ingles-US.md — `05586cd32d12702b848862161436514927fe831384697fa342f04cb5a506b1ba`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/08-Musica-FOSS-clientes-con-pulso-Telegram-La-Bandita-2026-09-15-ingles-US.md — `4f40fd22882906430f83f7ce8a50e3a773e1c611e5bba6f5eee849228c2ecd66`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/09-Herramientas-FOSS-caja-de-oficio-Telegram-La-Bandita-2026-09-15-ingles-US.md — `60c2488e09d6f8c8e24743882f7cab1b7a20f9289fa08639f6281c0e3e56defe`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/10-GLTools-no-se-receta-Telegram-La-Bandita-2026-09-15-ingles-US.md — `22a1b66f38219ad3e66c71f09cd1230ab266d6b8a03870e31298e62a8b2e191a`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/11-AniZen-vivo-v05211-espejo-no-repo-Telegram-La-Bandita-2026-09-15-ingles-US.md — `cfc50e52230e87fe83b0e64fbfab82c572cb3489382791ec0d950554cc56dec5`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/12-FMHY-wiki-de-pistas-Telegram-La-Bandita-2026-09-15-ingles-US.md — `e29b54c148a44f074d5eb24c4bfe748bc20f2ab266b913556fac3ea81910dfe4`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/13-Rama-Aniyomi-manga-anime-Telegram-La-Bandita-2026-09-15-ingles-US.md — `a11f32e0c551035555cf07d9c876eaa48567370a3a8aa017af7631d1f814fac2`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/14-Rama-anime-puro-Animiru-Anikku-Telegram-La-Bandita-2026-09-15-ingles-US.md — `55b49787bda2d89966b3395824e3139e1d4f9a55fc9459fadaa6738618d67bca`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/15-Rama-J2K-el-abuelo-volvio-Telegram-La-Bandita-2026-09-15-ingles-US.md — `ad196a00c98c8e58ad65488f401a4b9dd260036737e247c7a89c5d0411ad7401`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/16-Rama-SY-Komikku-clasico-y-rehijo-Telegram-La-Bandita-2026-09-15-ingles-US.md — `4d6b5ae1be29bc6a5fd8f29a5a6e58e6f61483f7a2769ea69916d54cf2289b6e`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/17-Capa-de-inmersion-japones-Telegram-La-Bandita-2026-09-15-ingles-US.md — `4d9c674ab7130a93e9569d8b95474b4c8faf853c0e5055d3e9fc9a58c0cf94bd`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/18-Libros-OpenlibExtended-Telegram-La-Bandita-2026-09-15-ingles-US.md — `f2e414b059e803ab0d30c22619339f797fe2648fd473c83b7e5d0764530b6e85`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/19-Panorama-multi-todo-en-la-mano-Telegram-La-Bandita-2026-09-15-ingles-US.md — `e39495f4b8df76732ec1b6f04e1b67ff9ae880ab48352e47ee20ccf40e2969ef`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/20-La-Biblioteca-plano-de-75-Telegram-La-Bandita-2026-09-15-ingles-US.md — `baf210598ddfbacaed25ab90b8bf0c4b4acf7b58756ec4c080a4f5409a8547cc`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/21-Musica-I-cosecha-12-vivas-Telegram-La-Bandita-2026-09-15-ingles-US.md — `2d3d04cfafdafb108ee125d88b49d2435d5d6ad3179b06f0badda2752e8951c6`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/22-Lectura-II-repisa-del-muro-Telegram-La-Bandita-2026-09-15-ingles-US.md — `a1dd3d2065f312ea8321aa1753fb1850b6bc3b50b39f2fab8d0b73d7cc3cd95b`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/23-La-sala-IPTV-cine-Telegram-La-Bandita-2026-09-15-ingles-US.md — `f51aef7c0d34573e45aac1dbcffd3495afe4b19995571136ccfc82db90d7439f`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/24-El-taller-Shizuku-root-llaves-Telegram-La-Bandita-2026-09-15-ingles-US.md — `e5c7f98a5f282008bb24ce86f76e52ec86cabf6ff685fc1df95a5a45537e5c7d`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/25-El-sotano-autoalojados-Telegram-La-Bandita-2026-09-15-ingles-US.md — `26a260c70f0d5e71ce839d029399e56a2e9ad6f4f1dbca1a2a4a16412a10cda3`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/26-El-cajon-miscelaneo-verificado-Telegram-La-Bandita-2026-09-15-ingles-US.md — `9d13d1b5d5ea18c4dcba95b2b2e7e281e8fe65ade24601cb8a8d0e97d83154b4`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/27-Musica-II-sucesiones-Telegram-La-Bandita-2026-09-15-ingles-US.md — `8628f95ace3f4a3ef0f3f1c26987773c3093e6ad0be76f055c6dc153e68314e4`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/28-El-tronco-raiz-tiendas-Telegram-La-Bandita-2026-09-15-ingles-US.md — `5d5cc195f691c3206f93793c3711d4661a821bd5baa24729e3040ddc42708582`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/29-Los-mayordomos-perfiles-bloat-Telegram-La-Bandita-2026-09-15-ingles-US.md — `dd90bb7778e7f7c4a354938d67eda2b1a5178c99218cccf99c35b07d22cf32c7`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/30-La-cara-del-sistema-Telegram-La-Bandita-2026-09-15-ingles-US.md — `498f1a699aa3528b11d696906eff21a6c19717130004129563825d4a559e4b76`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/31-Los-pequenos-del-sistema-Telegram-La-Bandita-2026-09-15-ingles-US.md — `1dcfd5466da2acd9af8078f0c72b615b0c0003f6ed8fb35b6da892fecb782c8c`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/32-El-cable-y-el-escudo-Telegram-La-Bandita-2026-09-15-ingles-US.md — `095afc328454a6624f18723e953dbaef7c45ec9c64ea59cfb5191c8de9bc3023`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/33-Los-archivos-del-taller-Telegram-La-Bandita-2026-09-15-ingles-US.md — `44d2689b8d99b16d28e6ec00100077820286d34f88cbb4677f794558b1b2ecde`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/34-Los-que-tenian-otro-nombre-Telegram-La-Bandita-2026-09-15-ingles-US.md — `b1ab1956cebab56debd08c71ccebbdab7d6eba14d8e33c20c19831e14154cb40`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/35-La-estanteria-estirpe-del-lector-Telegram-La-Bandita-2026-09-15-ingles-US.md — `17e55583278f5ace08504a2ec76d115fc84dc8f830e2509569560e6a4e78842b`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/36-Los-libros-biblioteca-bolsillo-Telegram-La-Bandita-2026-09-15-ingles-US.md — `ff5d0a0d606115926358d983856bc824f2cd756f9277d64e9d65114689d0e125`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/37-La-puerta-grande-anime-I-Telegram-La-Bandita-2026-09-15-ingles-US.md — `dc98224f99197e56ee5d0e539d80e9770742ca18391d0ecae79d0a5dfe351164`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/38-El-vivero-germinantes-Telegram-La-Bandita-2026-09-15-ingles-US.md — `d983dd5ebecf1d778f19df1a598c3e1c6178d4162ab09c515e028e7aebe9979d`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/39-La-bodega-servidores-Telegram-La-Bandita-2026-09-15-ingles-US.md — `11de2375e3dbafb530a0d61fb4bb38b2742df78a67f4cbb0a1d97956b70de6f2`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/40-El-estudio-lectores-escritorio-Telegram-La-Bandita-2026-09-15-ingles-US.md — `cc5614108880522dacc1fdad72e54b6ab110f5ee50b3f00356763aa20145d2b1`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/41-Los-cazadores-anime-III-Telegram-La-Bandita-2026-09-15-ingles-US.md — `f701fafcf7c5d3e4b6b9d3437d9a80463a1bf8a6e568a97c8fe6483e8d28ea24`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/42-La-fosa-lo-profundo-Telegram-La-Bandita-2026-09-15-ingles-US.md — `5b93cd5a5a940e99700c55bee21bca3f9a36520018c5646a85cf0577dba88ee1`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/43-La-corriente-geografia-fuentes-Telegram-La-Bandita-2026-09-15-ingles-US.md — `fbcb64b0426ecb0322df3f79cfe99b9b3b816f4319f98d32dfb66f3cd2ed34ca`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/44-Los-pequenos-casas-sin-ruido-Telegram-La-Bandita-2026-09-15-ingles-US.md — `2fa4c70287671b398dfed053aea469af151a3cb5d93f4e43014f3cdf2dc3fbfc`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/45-Las-canciones-voz-de-america-Telegram-La-Bandita-2026-09-15-ingles-US.md — `f440b58931dba09fe22368c0c2d5a70d45258f17ac8dcea7af24cad647ba9bbc`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/46-La-sala-de-las-novelas-Telegram-La-Bandita-2026-09-15-ingles-US.md — `9dbbff3af2cc4004cc73e96c0e7ee1f886046f49fcac8bbdd913ccead808a37e`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/47-La-ultima-puerta-Venera-Telegram-La-Bandita-2026-09-15-ingles-US.md — `575b1797de55e12efeaf3d5e59d13fe77daef4f8643fef1271c3963d257cb687`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/48-El-archivo-V25-vuelve-Telegram-La-Bandita-2026-09-15-ingles-US.md — `98401e178b937b65845d7347dff4273ca6104e7c812914414b1fffa1ddd89f1f`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/49-Las-mil-puertas-barrido-683-Telegram-La-Bandita-2026-09-15-ingles-US.md — `2d428c3ad9a6d5f4c3406ac479371796b6963d6a29ab2e64154e70ebd4a24708`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/50-La-discoteca-I-231-puertas-Telegram-La-Bandita-2026-09-15-ingles-US.md — `33b88187c9eb18e9c1408a9764595b4d9ac3fefd8178e8c5c88214c72b8f1551`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/51-La-discoteca-II-Finamp-Telegram-La-Bandita-2026-09-15-ingles-US.md — `63f2464c704f8f01f8f3960891f2c15a74f1ca04dd895cb714593773eea9abb8`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/52-La-discoteca-III-censo-163-Telegram-La-Bandita-2026-09-15-ingles-US.md — `5a4380100a4f64633e7d5fd3f4f4c80262ef54647979492b76941a4149492ce4`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/53-Las-otras-forjas-Telegram-La-Bandita-2026-09-15-ingles-US.md — `ddd76978889936d0e2610767d07860729d557079bc4e2358667750bf1c65f853`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/54-Censo-sistema-taller-102-Telegram-La-Bandita-2026-09-15-ingles-US.md — `23ae41df85398f2705bacfe8e8e6e60f8a8b6187d85bf15bc805d2c5daf008fb`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/55-Censo-lector-bibliotecas-207-Telegram-La-Bandita-2026-09-15-ingles-US.md — `cf607a87d5d7d1e7b01e740055d9c6a8820ad96189d97e47be47946da1422c28`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/56-Censo-anime-servidores-186-Telegram-La-Bandita-2026-09-15-ingles-US.md — `1b00eb4fefc75acee5cd4a142d4d5b659cffb1b0d1f1566cd020f109eb1f426d`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/57-Hornada-del-lector-Telegram-La-Bandita-2026-09-15-ingles-US.md — `b7a6665b994aca72d4c65d58dba5116aaa524a6bf8850fbbf2a86baee4acd79a`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/58-Hornada-del-anime-Telegram-La-Bandita-2026-09-15-ingles-US.md — `6e849398bcf206c1782c9c6303fc46ed8c5251bc94cfa3273dbeeb02dfd4201c`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/59-Hornada-del-taller-herramientas-Telegram-La-Bandita-2026-09-15-ingles-US.md — `acc27fe023187b3285425c8e05880dbf2d7e6051be2a1240ee5744defe829dbe`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/60-Hornada-bibliotecas-ordenadores-Telegram-La-Bandita-2026-09-15-ingles-US.md — `9748e5b5e299af587c027299b9573fd9cf99d1414ba60614d90e1d6bed5e21ec`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/61-Hornada-servidores-sotano-Telegram-La-Bandita-2026-09-15-ingles-US.md — `ea8a1b7c393864e7c9c7c4897495f6812edb4576d9638711b28a7252c389504e`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/62-Hornada-ayudantes-Telegram-La-Bandita-2026-09-15-ingles-US.md — `8263e45bd8076e468e639d5f065ce71cf81e72f275ddb1458854dfc4e7af24e7`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/63-Segunda-fila-del-lector-Telegram-La-Bandita-2026-09-15-ingles-US.md — `a2a9444de636b36e87d7979d5126481274b13dcbf1a7af4943491021031e5d32`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/64-Segunda-fila-del-anime-Telegram-La-Bandita-2026-09-15-ingles-US.md — `aa40d06130670c148c4d35aa20473dcc8608965e704163264f7f6b4199f03dc0`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/65-Segunda-fila-del-taller-Telegram-La-Bandita-2026-09-15-ingles-US.md — `fea8d9006a2c38ed8ab08dbd4af451de922758b41836de499da576ca9041269e`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/66-Segunda-fila-bibliotecas-Telegram-La-Bandita-2026-09-15-ingles-US.md — `f24491ad3f7038e882f9d9dd5cffdac92bf1daeefb6c8f31d6c7596fe06e6351`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/67-Segunda-fila-servidores-Telegram-La-Bandita-2026-09-15-ingles-US.md — `635cbb2d96eb7febe85746e3f2748721d094a84e8ee6304971d8176175db8fc7`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/68-Los-canes-segunda-fila-final-Telegram-La-Bandita-2026-09-15-ingles-US.md — `1639fb162e1fc2976d93f2659cd13d46ca0ccbe673d2d25819ef4331240628f0`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/69-Vara-forjas-I-Codeberg-GitLab-Telegram-La-Bandita-2026-09-15-ingles-US.md — `c33b0fdfb773b598eb0777482431c871de3846c19568d22abc75562f769de057`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/70-Vara-forjas-II-FDroid-tiendas-Telegram-La-Bandita-2026-09-15-ingles-US.md — `1ede128ffd36732b9f95ef75a9a6519f802decbf5f1c36e0c11fbc5da840492d`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/71-Los-ceros-verdaderos-Telegram-La-Bandita-2026-09-15-ingles-US.md — `de7d9f6ec0ca054a7aa8d4d5cf071902faa97ab2a6230f99e0b47822bb57727f`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/72-Las-actas-del-censo-Telegram-La-Bandita-2026-09-15-ingles-US.md — `7de78bf9054d692d7da139c28f8855ca72d88c3d117af85ee9fa7ee814783bdc`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/73-Espejos-homonimos-mudanzas-Telegram-La-Bandita-2026-09-15-ingles-US.md — `f9f34c491ce1058789a8e63b8959b74c35e4218029f0445b509fcc08e72070f8`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/74-Los-vivos-de-la-semana-Telegram-La-Bandita-2026-09-15-ingles-US.md — `feab44e8514fc6b424a5f5457097f7a666639d7308ac3157de7406abf5d81c20`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/75-El-podio-de-la-mina-Telegram-La-Bandita-2026-09-15-ingles-US.md — `70e6031d354e79fd98412fa47569e9896a5db0b5b529c7a0ce44c6bae3f0be90`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/76-El-recuento-arquitectura-80-Telegram-La-Bandita-2026-09-15-ingles-US.md — `10d79d950867d4a04c3f7cb8742806e01c805a1b81d22c27d2cf33607ddd81f7`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/77-La-frontera-del-lunes-Telegram-La-Bandita-2026-09-15-ingles-US.md — `6351b3382e3381ce33e01028ad469e9dd78173426ff9e39b8f08acf605371e4f`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/78-LA-LISTA-del-techo-Telegram-La-Bandita-2026-09-15-ingles-US.md — `b5624c767202518775557db7302f6442f733b587b75c9ddd01b6d90d2fb21591`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/79-La-octogesima-el-techo-tocado-Telegram-La-Bandita-2026-09-15-ingles-US.md — `ca02549cb9448be353454edd6ace616c505bd4b3f9e0b6f21c5718fc7e887a36`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ingles-US/LEEME-de-la-carpeta.md — `8d32e3926b68f720eba9c94a026919204fc775ae5baf3aba91cacdf6c0d42428`
+- 04-VERSIONES-MULTIIDIOMA/telegram/portugues-BR/75-El-podio-de-la-mina-Telegram-La-Bandita-2026-09-15-portugues-BR.md — `312d34f82bc625ce104e1eb94d72d07bed00bef28f1b38d4698f0ee017777ef3`
+- 04-VERSIONES-MULTIIDIOMA/telegram/portugues-BR/LEEME-de-la-carpeta.md — `08aa0c6774cebaaf5d5d87e9eed6184fc7198d9aec2363573a0394605272b520`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ruso-RU/75-El-podio-de-la-mina-Telegram-La-Bandita-2026-09-15-ruso-RU.md — `fc03bbd2c6ee2990ec2957abc85377dd839cb9ce9f166a5d7b6ea4a5133c26cc`
+- 04-VERSIONES-MULTIIDIOMA/telegram/ruso-RU/LEEME-de-la-carpeta.md — `513840bb44364fe842dc2ef7d03ca2ff67686859efdf40d1b83cf6f3b58f7613`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/chino-CN/75-El-podio-de-la-mina-WhatsApp-La-Bandita-2026-09-15-chino-CN.md — `c62594ef7c07991a6c66ffbf6cb9f300d1bd7c9e5d194940c9a4f573f9e567d9`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/chino-CN/LEEME-de-la-carpeta.md — `d5b758b326aaaaa02dea5f42498ddc28f0635546373ec105b9df8b417e03b3c0`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/00-LA-LISTA-ecosistema-libre-en-16-guias-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `fdce55412d0887b369bec2b72062e2ff0cb878f3afd2a9b0a01fdac7ef0324aa`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `b100c56d36aa7507c90e7c1b82825cb44e06c93097399488c709346f103c61e0`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/02-Kototoro-manga-novelas-video-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `bca6dbc90f83ad9b72ba60ff77dc72563b31df2a7583f9bbf3677c67dbd524a2`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/03-Verificacion-Desarrolladores-hito-30-sep-2027-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `39e433e4e0b20a6a9a8bee1f42779ec49dd6e5e78941946d3d7da2367418d4c6`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/04-Extensiones-tres-arboles-hubs-parsers-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `e7b90b8737d962c9fa333cad2fbe4ffc416a1a2a6f143c66f171c67052828f01`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/05-TMO-caida-clones-no-iniciar-sesion-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `8b9023146012796099b6bef50b24381bda9da29f59d4ff3553dc1bb558b8b539`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `8b32c55a17907738b20d6cc4ea928f7b0e31971c79eb98881d3b2c3880957113`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/07-Usagi-viva-cadena-Kotatsu-Yukimi-Usagi-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `6eb67aed56d0973e1ee7f478712fdea8050630c9bbc028fffd9573be002523f5`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/08-Musica-FOSS-clientes-con-repo-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `17b9831f15df176e2969638aca1b4bd9d84cc5727fc08646f1c584fc07ddb037`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/09-Herramientas-FOSS-caja-de-oficio-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `074f0f845c62a97bd5691bdc6fcbb1173ea6aa796df9492fa7e4b083622d721b`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/10-GLTools-no-se-receta-spoof-GPU-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `92830e7241501560c5e80fbcca8d6353c1c1b3db439aa06171e6c5f021114286`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/11-AniZen-vivo-issue-no-enviado-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `e280f35e70a1d847dd412c0133423c492e9cd6b77a9b5ccb4b7104f614f3773d`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/12-FMHY-wiki-de-pistas-no-catalogo-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `804889096d1ea68c2764be3dc12244ed256394195e428c1a5169d78c74eeb604`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/13-Rama-Aniyomi-Animetail-anime-y-manga-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `9e4b14bb9ce030cc56775cffc40a6798d7451bbf2525a7a8afd3cdf174a866a8`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/14-Rama-Animiru-Anikku-anime-puro-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `5ec49f4ff907b173709a42f69f999187a4b2f30838d90693afea24ce28000eb7`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/15-Rama-TachiyomiJ2K-Yokai-Rokku-Reikai-Hayai-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `b3ec4c34c7fb6779913399f8ed2f22f06a4dc6d459359fd406e44076ac93333f`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/16-Rama-TachiyomiSY-Komikku-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `ef547c004931eee2e45bf33a0f0f8fffd4b635e865b4e37d6cee8058be7baab1`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `8dbd63ac5321b45a7e66683f15183e8abfbea18a8cb71a60d59d40d2781a6cd3`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/18-Libros-OpenlibExtended-cliente-Annas-Archive-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `f5ffc6022663f5e886692614fc9d66a3d2aaf116fd3a363c1482db7cfd7123f4`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/19-Panorama-multi-anime-manga-novelas-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `b91b66d1806bc42ac339d9916287329ddb1ff04feb4b35182714cb8be0e5c612`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/20-La-Biblioteca-plano-75-publicaciones-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `890cc954e5f2d0cc7faa9672c9b0f556187b9b497757007dcf9216a888b47c8b`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/21-Musica-I-cosecha-del-muro-12-vivas-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `5aac38816f0972902569cddc3b8261f4d5315752fc124e89cd033da5764c8e87`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/22-Lectura-II-la-repisa-del-muro-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `745acd47cc18fe4051c9ca82d72690bba2792169f3d20be06889f38f82248092`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/23-Sala-del-muro-IPTV-Jellyfin-reproductores-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `b66d0efad6d3c2f1a75ebf347b5053e5b2355c728e99d8f2cd0d71c265fd0c46`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/24-Taller-del-muro-Shizuku-root-sistema-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `bf6b303938edcf2d440c7fd90c7e7a31b13254f119c9b3d8d93e378562bdc311`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/25-Sotano-del-muro-servidores-autoalojamiento-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `5745e934002f12770dbe063662455c5644f1f1d1fc87081e63ee57b385770ad4`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/26-Cajon-del-muro-privacidad-parsers-miscelaneo-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `f3747c364201f10dd164ca8689773762124ee78913db933f12319c0d8b76af0c`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/27-Musica-II-las-sucesiones-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `14bfce12082f3457d8ec7198b8d4e98e7a33f63797b506a5055a0e6d08683815`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/28-El-tronco-raiz-gestion-y-tiendas-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `581c3925423b748df5f686584502a3151fc31e344091c38a7d1f4c31c12b8dcf`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/29-Los-mayordomos-gestores-perfiles-bloat-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `61d63c7152c3dc10ff040bc4fdca5964bc47b8174a2233c457063e4266e6152e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/30-La-cara-del-sistema-lanzadores-teclados-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `ce540ba2c482f66835585a10e2c8126bbbb974c8cc55e825549a5a1500092014`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/31-Los-pequenos-del-sistema-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `6ac5b730886f5aa37263e5620ef32f4294cd8300ba843826e98da32b6b64c89c`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/32-El-cable-y-el-escudo-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `4c280e7486f42095cabf2b0d45d6877e13128f1c181d4295888efcb9ec6968c9`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/33-Los-archivos-del-taller-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `d1a4123a0df89a9f0801fc4fb3b1cf08b2d2361bc80828945562d71fb7a0c03b`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/34-Los-que-tenian-otro-nombre-ambiguos-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `b7da9441284e0bc0e04a8ce50d56f9614bcdb31e2dc6b5c512351ee1858c9317`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/35-La-estanteria-la-estirpe-del-lector-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `1f549301fdb1ddfcac660603c665f76840f7ec4b8b0c915b718ea260692aac3a`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/36-Los-libros-biblioteca-de-bolsillo-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `83c9aa7226fd3e0b4eb23421b6f4e98cd6e43dd76f942ace4c2aadbd07db5a0b`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/37-La-puerta-grande-anime-video-I-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `896194a0e74778cf2e9a4952afb10b3fd2a21e49491022274769284fe7d2d283`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/38-El-vivero-los-germinantes-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `28bbd5a3379fc513d81b4c9339d3b5a5d06dc97f78846ee334ec35e9836d59ed`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/39-La-bodega-servidores-y-bibliotecas-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `5f496f87e89e9de750762ae6134f444afa1441df18a46380b66e9f7ab0737c73`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/40-El-estudio-lectores-de-escritorio-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `b3bd4aa25ae1404d91f294f49a215a08dd3bfb6124037b427e9e9a31455284bf`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/41-Los-cazadores-anime-y-video-III-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `983ca57a3b86ad8feb189951fde521c9c03be388cb16bf8c088864c3130d60e2`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/42-La-fosa-el-sotano-II-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `4368e5b71ba203d40b8efe382f33879a50bf20c31c847d9b25eeb2629d0f0f1d`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/43-La-corriente-geografia-de-las-fuentes-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `1b7d7eb27779855002e2c2f84482ccd5481c3b095179b35993202e15765d3d8e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/44-Los-pequenos-las-casas-que-no-hacen-ruido-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `71cd01f9aa0c0930f2fac698f5e832066a0f8c49b8c611e3a67ce6d1314e3d2e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/45-Las-canciones-la-voz-de-america-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `99150b9339b213feb56c7734454e115bc14adfd805f33a4386453c1ea5a80196`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/46-La-sala-de-las-novelas-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `8c3a89c0dd3fc71dccc3ab2932121471dbcb7862181d7c0e035cb2872575c999`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/47-La-ultima-puerta-del-catalogo-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `9dbd295366601e387e56df150e0eeeb85e6b88a6eb0a030b6d0239a08c01e8a5`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/48-El-archivo-la-V25-vuelve-hecha-mejor-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `bb2860245070c15a7bd9363359738459a46744ec65b6c4e1fc8f46f82a97b4e2`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/49-Las-mil-puertas-el-barrido-de-la-V25-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `e158eb9425a84d2de726a5fdf8e959b5a4234ed6f8bef599297bfa1440a11e7e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/50-La-discoteca-I-la-mina-de-las-231-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `76a1e85ae1af167550f00a30280dd7b966f93cda81b573f2bf4b5a65d07fa137`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/51-La-discoteca-II-el-jugador-grande-y-la-mudanza-de-Finamp-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `5ce59041a374100ef1d288c1063e07a2ca146bd85d9faef6ea38da9db0c598b0`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/52-La-discoteca-III-el-censo-completo-del-baile-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `ab6e944dfb02005d9f6aa7181e273456db3423dd6e27683b48d2ccda033aa62a`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `ffea6b089c7c1f5588d3d1b2d513850cdcd0230e1eb3088e675c961db45b245b`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/54-Las-puertas-del-sistema-y-el-taller-de-la-mina-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `8ec271980fd6fb0f229c021bdec58f86f337f33379b99975bbdf5f2e3e678e49`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `c653eeeaa607c0a152eb9638e28583abb5d53f86e80ba8944313c65574c4c111`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/56-Las-puertas-del-anime-y-los-servidores-de-la-mina-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `aab5a7a2714eb8e149f8ca8aa47782b792af848f13d61840a521931c6d65d150`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/57-La-hornada-del-lector-la-mina-con-nombre-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `3542e60e2f54d9fac25ea65d5d226719f16c0e9fffb3ab17f90e603ef3d2a877`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/58-La-hornada-del-anime-el-segundo-territorio-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `9d366d23c08d7273d8130af8b902dd7d16e9b26bcf0aed5190beaa76e4092abf`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/59-La-hornada-del-taller-herramientas-de-la-mina-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `a3025ae63fb7ed9411d139fc5ccb53e86f54b83cf93de92c62c00e2d5147ec30`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/60-La-hornada-de-las-bibliotecas-los-ordenadores-de-la-mina-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `8acd8930deb17742ce30dd64a1dbad2ae31807240aa9e346f8084256f0928bb2`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/61-La-hornada-de-los-servidores-el-sotano-de-la-mina-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `1eb8b1d42fe132bc604ca6d0fed349756c7df45836e09e44ef26ba8946642718`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `0ad060fd565fe8a8f935568beac313d7c79d2cbd7bc9ee25c3f955e7604e2bb0`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/63-La-segunda-fila-del-lector-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `ec5fa79c17cd88781c6f1532ce73a0747f57a9256972c912e436bc6723367292`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/64-La-segunda-fila-del-anime-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `7e0a1467f2eae46b83328eafe2a738f344bca97baf53e8744fc018856e112b5a`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/65-La-segunda-fila-del-taller-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `c79ce4ece79b83b19aa4144fb3204a698310115e73f3cca8488e9eb898f264d8`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/66-La-segunda-fila-de-las-bibliotecas-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `c77857076d6c07f6cb9bf7e83527962636f01ea7ac94e35fb461e429c1acf694`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/67-La-segunda-fila-del-sotano-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `230a65934ec028f46170646eee5e2121ee6cc84597630c1f4af9e19b6af5a802`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/68-La-segunda-fila-de-los-ayudantes-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `74306b81e34ee79202bd3dbdccaf9c06e1e433e41f87e58a287f00baea1dda19`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/69-La-vara-de-las-forjas-I-gitlab-y-codeberg-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `4456a0bfe5ac62786728782564cb1e3cbb183a670e01f3928682b4a5247ac282`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/70-La-vara-de-las-forjas-II-fdroid-y-las-tiendas-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `81f555182dfd298a2432491880e8c0228527f83e0f42ade0ffd20939f9683362`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/71-Las-puertas-calladas-los-ceros-de-verdad-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `7cd0bcb98e23e763a8a1ff823d79eef5c0e82dc2b6ea09fe901727584cae2652`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/72-Las-actas-del-censo-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `73816c2606a7908932939777eeb00941905e0209d02ad2b86a6d75214a8229f1`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/73-Espejos-homonimos-y-mudanzas-el-libro-de-los-nombres-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `0bc3d0dd6b741c3b193322cd60749899716ea6cde22e94b8e50f5de6aa88a59e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/74-Los-vivos-de-la-semana-la-fila-de-las-fechas-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `6f84982962bec11aa18dff57157adabc3ddd1c8b048775735276e4d7e0fa709e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/75-El-podio-de-la-mina-los-veinte-mayores-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `1e3d09270bc312d0bbeb851d5ff4067517bcda3880624da1056c7c8a8e10ff42`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/76-El-recuento-de-la-quincena-la-arquitectura-de-las-ochenta-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `ae0b1de39337e34b833301b9cebbfd4254aecd8d27796efd7eabe7a37bb0df49`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/77-La-frontera-del-lunes-lo-que-queda-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `4e05a21f9fa0e8fe1ec9111ab5ae42d132e519ee7b649c3a76968ca65d60ec93`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `f05e64434133bd5543addc4c68f64baa0241a8dbd4df7698f2ae7ac28638fcf9`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/79-La-octogesima-el-techo-tocado-WhatsApp-La-Bandita-2026-09-15-dominicano-ES.md — `4d28abb85aa2c28955f432c3e78d8d980e7e91ef38ec37888979a4cd2aa6f35e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/dominicano-ES/LEEME-de-la-carpeta.md — `aeac8e4d7554ea03664465ce1f27a096376bea72ac3da844cbf2470287a5d395`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/frances-FR/75-El-podio-de-la-mina-WhatsApp-La-Bandita-2026-09-15-frances-FR.md — `6819c1afb6651c067d3c68cf3d01c81feb328968ac529a177040a5b1be800f68`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/frances-FR/LEEME-de-la-carpeta.md — `7f87715ad046e6bf2db2dd2080d0a71f582a667eab7e74f6781f434305488484`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/hindi-IN/75-El-podio-de-la-mina-WhatsApp-La-Bandita-2026-09-15-hindi-IN.md — `bb713127b2d6e1be336c5d114ba7c776da1b94ccecd702d6dbe3a4bad1e1a952`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/hindi-IN/LEEME-de-la-carpeta.md — `069bd12d5d9d1a4c89fe18d3bf149c734c6e67664071adc6f347143bd2506d15`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/00-LA-LISTA-ecosistema-libre-en-16-guias-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `71a3e62315c28a599cb51149c573827c8b88fd53e43ecd0af35bc07671d41c96`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `9a9a3632bcf84f3e4cb044d4b61832512c719884d43ca0a2827fc68a24eaf282`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/02-Kototoro-manga-novelas-video-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `2c55f2986c7fbc27f5c9f5d5d0b2d63c1d5f3159c0b4398ae6e07faf725ea088`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/03-Verificacion-Desarrolladores-hito-30-sep-2027-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `2229abdc62e8f24c9cf7bb24df04747256bb5dd58776616639cf5a6cae2e1a3f`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/04-Extensiones-tres-arboles-hubs-parsers-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `e51de712ab9672305d94c146b3b4deca070a0a4f4c56dc7502ca4e38c83804ae`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/05-TMO-caida-clones-no-iniciar-sesion-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `dfe282416ad41d8c54536ff83abcd997bd337d4f3b6748db0586fede2a57c6a2`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `79fc964c0b500aec3ac07e71dd2433f8a1f0e4246723d5c02d558eec0e21956c`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/07-Usagi-viva-cadena-Kotatsu-Yukimi-Usagi-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `14a859e8ebf7426adf71d465ff7e7975bf8a62631e4b3dc7ad82b48f03665a13`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/08-Musica-FOSS-clientes-con-repo-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `56484f2b8967aa68b050fbca3e4e0c3e1a2af51b3d7b86a6c1a851c334e9f3a5`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/09-Herramientas-FOSS-caja-de-oficio-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `fb7f2aabbd58a51c8bf6600b7c29be453d33f6957bbdf557635dbe0152409ad3`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/10-GLTools-no-se-receta-spoof-GPU-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `0caa99fbf3d1abff42752e72982d8aa5d3fd013eef25bce72ef31812b70a3400`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/11-AniZen-vivo-issue-no-enviado-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `1e73fb4cc5d71d9c020c1a1946cce444301ab4a4187155f54cc12f7ad07f9502`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/12-FMHY-wiki-de-pistas-no-catalogo-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `69f6787f742295b2868bc1b439f639e8db2d2453146a54b31b5ba1123b2f63aa`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/13-Rama-Aniyomi-Animetail-anime-y-manga-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `622dc84e51d72175bd5fd795f0e6ae36cbd7639b24e34fd171044200fd0cf101`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/14-Rama-Animiru-Anikku-anime-puro-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `1824bb74e4c1b80805c3ee934c93d7083a5a60b67a847ee9a434dce9c4b4d4a8`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/15-Rama-TachiyomiJ2K-Yokai-Rokku-Reikai-Hayai-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `b57f7ca71666a835fd0546f9cc6c403725538f8cab6db9fa22d084e12a36f540`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/16-Rama-TachiyomiSY-Komikku-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `a5a6aac81f1949a381c8e38344dd220491e4e9404bc877800cf0958f1ee4228e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `fa00378cb2f2f0ab56c5d7665339766b6d8c3e9ee4ce662bc3438e548330cb3c`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/18-Libros-OpenlibExtended-cliente-Annas-Archive-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `4114ccebaeb61d491f73f211ba5102b43b11eba34325c05a6dd8723f4f3411cd`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/19-Panorama-multi-anime-manga-novelas-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `c1b088c879c84eabb01d7fe52237dcc59832cbd2c1e656c2c702ef9aeb7dbd37`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/20-La-Biblioteca-plano-75-publicaciones-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `4592d3340f148dbddd90e8f371ca4bb5075149e92cdd9be3f5cefb8566bf305a`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/21-Musica-I-cosecha-del-muro-12-vivas-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `040f1d450b56b182cd22b7bd0e62887c8a0d7a6017e1cf43a3f34ca1827871b3`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/22-Lectura-II-la-repisa-del-muro-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `5282c7948f0807f9cf30c21c55589606e2397144f4186acd21661fcc16a74582`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/23-Sala-del-muro-IPTV-Jellyfin-reproductores-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `af4f2c3557121037d481cb3c83e947d3a6e18fc8d723015bbabfa35f7d17fa05`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/24-Taller-del-muro-Shizuku-root-sistema-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `1bcf702bbc1518ead883e9a55ddedc7f5d38ff341f0f4dd9c78a8e6820d0e407`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/25-Sotano-del-muro-servidores-autoalojamiento-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `04685a96aba539775ad59922a2ab230d143dc3821458ae5b5d5e1234a57c5faf`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/26-Cajon-del-muro-privacidad-parsers-miscelaneo-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `7ae44b96d9273d8202e5a3b7b30ceaa7b99c2674a74bc9c8bb0178fcb273439d`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/27-Musica-II-las-sucesiones-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `67257eb88b6dbaaf456e6aa5a11efd2ced9790c4609e2952ab6d8e6c622b2c33`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/28-El-tronco-raiz-gestion-y-tiendas-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `4f3530ac2c984572e7496473efe831c4591864a6ccf39e6e7c65bd64e6e01ad7`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/29-Los-mayordomos-gestores-perfiles-bloat-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `ce7a006c40e6d870f2dd1ba0f7dfcfd130a286ed99420dc6446d9d0eaa8a205f`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/30-La-cara-del-sistema-lanzadores-teclados-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `c4186f09c3b2a01ac11759669d4378cb58071a9b0ddf4d273ee7758dbcb4ecb5`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/31-Los-pequenos-del-sistema-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `96a7f166e694fe5fc6dee9e155ddc0561c74db707f461281dddb697a8011d901`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/32-El-cable-y-el-escudo-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `fcb808c1b5fc3031f6c0060675dc3f2adb8821de21d614916dee8d4c704420ad`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/33-Los-archivos-del-taller-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `e3032cc6fd1944a89522e816e7d1a82a06c7f15bb52d9fb5e32132ea05b99771`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/34-Los-que-tenian-otro-nombre-ambiguos-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `b600c695ac4fdd74674be45d2261088db6fd1a7871dea1515d93880c94abcf5b`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/35-La-estanteria-la-estirpe-del-lector-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `e11af290a5a94dc32ba0a7fcb0522747773ef74f56b746ec41daffef7b41bcb5`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/36-Los-libros-biblioteca-de-bolsillo-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `7040d714f3a4e1d9955633f1e716737ae169a38ff9400a63e6bce36e9649634e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/37-La-puerta-grande-anime-video-I-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `a08b77c6045c3de026cc6cef9a9d90003cd0b46dc9a5927d0b06afb5d29534d1`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/38-El-vivero-los-germinantes-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `608bcdbb168b892c7a77855a6d0da7c00212bfc9b2d8d71fffc9d970b0b87af7`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/39-La-bodega-servidores-y-bibliotecas-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `e2c438b72e1362a9efc68d65a66564cf1b0d46e797aa0fd9ccdf0aa811435317`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/40-El-estudio-lectores-de-escritorio-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `fdd05b70bbf6cfc6fde0f5d78a33db5f9e4e7125441cb82f2301a1ff80d2fde0`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/41-Los-cazadores-anime-y-video-III-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `bae7e82e1afd857a617aa0da30023792b24531059bb3398db9c0bdc17c2a5e2d`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/42-La-fosa-el-sotano-II-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `f9a341eb2cd60f448f594ad1259a3889054b66d0509ec1d81de356572d2aa7d9`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/43-La-corriente-geografia-de-las-fuentes-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `a29fd80b6a400479b38a802c2d71a355870d43c357876eec17e364b86c0d7ff4`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/44-Los-pequenos-las-casas-que-no-hacen-ruido-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `8f6b44b969809a1b48b2c1a5a46d1cda3a3910bbca1d7a55df820de514d505b1`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/45-Las-canciones-la-voz-de-america-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `c89e9b638e9ca97ccfeab4cf5dd700d991547bc84afd9f7a5c21788b01824c6a`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/46-La-sala-de-las-novelas-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `1478984d2570c49c22888ed48185f5001fecca07f733811b566b87768ed9a3dc`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/47-La-ultima-puerta-del-catalogo-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `5a06c1094590a98bec9ceb003ec8386b1ff4fc364edcd6a0f6c617021e8252d0`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/48-El-archivo-la-V25-vuelve-hecha-mejor-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `318b16286e2eed3586857c4f1eb1d88bb096a27fb4672591c30f0795454fa980`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/49-Las-mil-puertas-el-barrido-de-la-V25-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `76762d94d2c93b44bdf9956d7e54225f36a3cd810cae913156a5eb440b528bc6`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/50-La-discoteca-I-la-mina-de-las-231-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `cb12cdc97925693467278bd68c43a5bf04022b9e8a059cfe5888fd805725d2f6`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/51-La-discoteca-II-el-jugador-grande-y-la-mudanza-de-Finamp-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `d838f603e89e533bc07841116b7945b5cb46f731bba2d4d9e75de581cc0ed80c`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/52-La-discoteca-III-el-censo-completo-del-baile-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `66e513b3386c52172ce3503573eed0ca1e62360168964f51e3f7fc888c0148ea`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `b3036bb904675df5e352ca2e902a287a82a82fb7833ec0de419e51d08291aa5c`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/54-Las-puertas-del-sistema-y-el-taller-de-la-mina-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `5fb6acd6a276b7e239db45c37c0ac61195c42f018ae3df84f23069437f044cf5`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `85f87727f45261ff6db786d739f39d3bbc54ea7852abe66427f74324003854ef`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/56-Las-puertas-del-anime-y-los-servidores-de-la-mina-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `4ba11f269d343891abbefd590d90d3e78f8ad06534f6a3782eaf394c02a0214b`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/57-La-hornada-del-lector-la-mina-con-nombre-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `348a1cf672cca6d069ba921bea15cf75ea569398edad3bf040a0ce6bf84f35e5`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/58-La-hornada-del-anime-el-segundo-territorio-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `ebd8c856baaabea259731cc3fe05b846a0b036dd428b5af09258b8319dbb6abf`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/59-La-hornada-del-taller-herramientas-de-la-mina-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `0779c33fa93660dee2dbb83832807e695485a8cc5786849aa851a5fa87896ca1`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/60-La-hornada-de-las-bibliotecas-los-ordenadores-de-la-mina-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `f6a0687f384acdedb6f3e541e1696c1f489d5b91d65f7a9638c68cdb888814cc`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/61-La-hornada-de-los-servidores-el-sotano-de-la-mina-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `a44448d4bc1022018fcea1a737f841289e6405a47d46d1b986345657cc186466`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `e9def25d1cb08f8798562e96caca3723603ddd15a7f43512462e6ee9385b98da`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/63-La-segunda-fila-del-lector-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `287a27357066a378322a20731a48412449c0ee722a205c39de7ea9e6e22193a2`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/64-La-segunda-fila-del-anime-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `b458a802686e32ca1961abbd4dc153d6ff82d267af3ad1bab9cfac963cb42c6c`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/65-La-segunda-fila-del-taller-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `e0f37a0c15354f945f0286342e89d9d5657041c2401b300c5f272c0748134b29`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/66-La-segunda-fila-de-las-bibliotecas-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `5a37f781d78ea64953a28b08361a71331a7339a9c91e335b03afe3a359b3163a`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/67-La-segunda-fila-del-sotano-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `810051857f77730cf397ef8065aea0ee0b1048c46b0ae7477f24a25d239af254`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/68-La-segunda-fila-de-los-ayudantes-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `724794c07f377396bbea28c013c14c496078bc3c767341b2937cf1ae3a9826d1`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/69-La-vara-de-las-forjas-I-gitlab-y-codeberg-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `ad65090710745655e2ae7da1a0d8216515abd2afae16532abb4f35e13c0fcb2f`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/70-La-vara-de-las-forjas-II-fdroid-y-las-tiendas-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `ff67900f5316103ab74463918975acf448eb2ccc53d50af827818983d8597552`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/71-Las-puertas-calladas-los-ceros-de-verdad-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `05d39436359165d73a724e717b9ae4347cfee5337041e24aa544445cca9830fb`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/72-Las-actas-del-censo-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `49f6e239e8100961f078d850ae72f19e14c9e45fe8f72a5d1bb61be6b8aaca4f`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/73-Espejos-homonimos-y-mudanzas-el-libro-de-los-nombres-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `592eae0e73d782fb1ebc56ecec9b00bad7c33a955dfcb5384c3f9d468bbe4786`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/74-Los-vivos-de-la-semana-la-fila-de-las-fechas-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `e2dde8082e3521504bd8c79f7b537d7563629b84755c41033ce9fe5e0e6a3d17`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/75-El-podio-de-la-mina-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `0c06d85ae0d689d3346ff3eb41869f4a6cc3ddd367ceb228c84030f996c6082a`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/76-El-recuento-de-la-quincena-la-arquitectura-de-las-ochenta-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `989c60f8734b9cba426d6b19817244097e729be4d601715619295cf3bcc77ede`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/77-La-frontera-del-lunes-lo-que-queda-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `ec5c97c2bf1aa980afb5162226fba9c3a4f328308fe2f138054da8543df1a657`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `3d363f061be4c5c92f73213e13f9ced00c0519ac889efc4a42be8def66f64a24`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/79-La-octogesima-el-techo-tocado-WhatsApp-La-Bandita-2026-09-15-ingles-US.md — `169a42a910b74db4120a60b6e5c61b24d7fbc9768442aa89dd7e4dcef5bd8b7e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ingles-US/LEEME-de-la-carpeta.md — `5a7e58acea10603a0a81c9a7a2e4886e7cb62e66d9678f5b6965910d7b904a93`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/portugues-BR/75-El-podio-de-la-mina-WhatsApp-La-Bandita-2026-09-15-portugues-BR.md — `b62df2149a0db7d081cff0e77836c7737bf120965e3b55f433c4848e7ad50881`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/portugues-BR/LEEME-de-la-carpeta.md — `23076ae790c3370941c8adc19ea6e9874da60efcb2a631b0274e7c5a2f8c0e5e`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ruso-RU/75-El-podio-de-la-mina-WhatsApp-La-Bandita-2026-09-15-ruso-RU.md — `cb4d78f9526e29933a64d9fc02a0cf2445f50f647b623458797ba94ec18c9e38`
+- 04-VERSIONES-MULTIIDIOMA/whatsapp/ruso-RU/LEEME-de-la-carpeta.md — `efc58c4d775be7cbc65c5964bf69b205e6a2add204f3f9d5d4872c9e93bed56e`
+- 04-VERSIONES-MULTIIDIOMA/xda/chino-CN/75-El-podio-de-la-mina-XDA-La-Bandita-2026-09-15-chino-CN.md — `5c8ce3f379746cb14ff21c1829019df5445ca8313cde71cb36609f22b095d416`
+- 04-VERSIONES-MULTIIDIOMA/xda/chino-CN/79-La-octogesima-el-techo-tocado-XDA-La-Bandita-2026-09-15-chino-CN.md — `416ee49841e13c36e9b1c7bfa85225f0c6e7784ac60fdb0681eef168f658d586`
+- 04-VERSIONES-MULTIIDIOMA/xda/chino-CN/LEEME-de-la-carpeta.md — `65ee5df7de8b1a5d558c8bcda3924b1bf0cc96ed0b096de8cf0cb30e7a88d942`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/00-LA-LISTA-el-ecosistema-en-20-guias-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `97b72d19fb72efb7ea3126d2fb7438c7670aa2c1d70c350f85a598dbee3a9029`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/01-Tiendas-de-APK-legales-reloj-2027-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `31c9c07bb8caecc2c79b787a04284fc5ee5c35fb1adef0cb10c26ee4db54aeb4`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/02-Kototoro-manga-novelas-video-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `dc7c582a473d5231cc536a7b0e545f0c528844d5a562d6a847a5f5e2febacf55`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/03-Verificacion-de-Desarrolladores-cronograma-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `f3efc63ba0bb1f964d8ddeac15020c8084a7102f3f46bf5bef5be933896d6b52`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/04-Extensiones-tres-arboles-hubs-vivos-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `f939736ec6c0644108925fb2b71b457b01ef24dbfdf2b1e6759965d13a52ac22`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/05-TMO-cayo-los-clones-no-son-TMO-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `e2c0f6a79ce5615842a5a1db7660186258ba998d65fade2f560aa3c5258d650c`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/06-Forks-de-lectores-segundas-generaciones-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `033ac7be80d51b694491740a63608a105c212faa2183129906a55d4fe26a1b3a`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/07-Usagi-viva-cadena-Kotatsu-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `a2ba52fe442b9646d472e3ef52acfce19d62906fa2e3b192738699e7660e1446`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/08-Musica-FOSS-clientes-con-pulso-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `f5d9a0bbaffad4e77c971129d909ed48f3d02953e29d1c9145fc5c93de20f641`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/09-Herramientas-FOSS-caja-de-oficio-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `76f141ef942e71b08229d9c9190cb4dad058d23b1ce2fe8d08e89be767dd9593`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/10-GLTools-no-se-receta-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `6c0e5fd82c791cf28c249bec65d18fec18e5f70d841b42563ca7200aeb54aac9`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/11-AniZen-vivo-v05211-espejo-no-repo-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `bccd821b33daa689f561d057b92bd165ff443e999ac48654e8ec94aa5e05b956`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/12-FMHY-wiki-de-pistas-no-catalogo-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `2cbbc4399cf8a4c43ce7d0e371b9d572ad43444434eddd5ea7d82a05a3699516`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/13-Rama-Aniyomi-manga-y-anime-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `249eae92edf318be93bc5781edae64e110a5dbb4e498c713292cfbb1541a49cd`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/14-Rama-anime-puro-Animiru-Anikku-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `740f1c31e53cf57f8fbb661e8fcadbf4957a75d334e9d0383c7cba0ebe5b1a9d`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/15-Rama-J2K-el-abuelo-volvio-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `2d1908ec3d61541894b9101cd449a0df44666f3097ad3d011c917bca47f6fd31`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/16-Rama-SY-Komikku-clasico-y-rehijo-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `1ac234485a23e15725be75cae2a2459f5671f34ec4e6122ffa77c321dbd6cc8d`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/17-Capa-de-inmersion-aprender-japones-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `5a2c12b7991fcf5ff17713fcbf6e07c4f847d07bd3ab2b94f094e51a04399e69`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/18-Libros-OpenlibExtended-biblioteca-bolsillo-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `ca75bb569859da3d7c2d1f053606376c77da98a8d6004df7f5ebe91e94bf4c8e`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/19-Panorama-multi-todo-en-la-misma-mano-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `dea13a81f039448c2ddcb07de7cc0b52a61f2d9a91f98754d29a962bf0b9c4f4`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/20-La-Biblioteca-plano-de-75-guias-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `7a0f68e104143fa8005be282ad7bed96b14a891ca4662614c016cc786fa0497f`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/21-Musica-I-cosecha-del-muro-12-vivas-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `3a898ce6ee886a83e97db19490f3b1fb89abfe4d0fc5f4c9b55e91b2422d57d1`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/22-Lectura-II-repisa-del-muro-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `eed3c0c509d238fd9f3b8e8b692e34e4aeb1f95835ac8a676dbca1955096a9b2`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/23-La-sala-IPTV-cine-reproductores-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `e0e5e8ddc49144764ea435880e39275ec35eec2ac221203830e8c0ce36119007`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/24-El-taller-Shizuku-root-y-llaves-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `e88e4d049c483e304a12d89c576ae463cc31fa56aba79dba2f691c1822a716d8`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/25-El-sotano-servidores-autoalojados-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `fac9956262a15ffa0a090bcfc135f9601930e7c9651e0cbaf97812ab05970edd`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/26-El-cajon-candados-adaptadores-misc-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `9d1ee16e90aae26b03d1ea4cfb06754cb75497cbc2b4d42d7712529b4beb884b`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/27-Musica-II-las-sucesiones-quien-hereda-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `fd2b362eba2db220e4eb73c91f5237d42e07d6fa1a8ee199afc22018f5d118dc`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/28-El-tronco-raiz-gestion-y-tiendas-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `377bd02434ed929cb0b33524f57393830f81365174695de95ad9e6492c8eb508`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/29-Los-mayordomos-apps-perfiles-bloat-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `5c54d682ad947f791508e47cbb9acdc9209539a5005be6425e2512fe4840bd6a`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/30-La-cara-del-sistema-lanzadores-teclados-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `24f0ca2447300dc707e6a670c34649126546e693209061e03055a11570456c17`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/31-Los-pequenos-del-sistema-una-sola-cosa-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `ad6f07ae07464338f86d074ca7560074e53a35d155a83eee8b0ea6a77d00245a`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/32-El-cable-y-el-escudo-conectar-defender-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `ee32fc3092a652f5bd7d18c4dcbbb2df075f6448add52cfb16ffb93adc62607d`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/33-Los-archivos-del-taller-cajones-paquetes-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `4c2c18ae7308afd61f687cce4e3ddf11404b512a3b80137049ced41bea9a092c`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/34-Los-que-tenian-otro-nombre-la-vara-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `242cea55ce389ad7ead297b3822f225cef8250d6f2e82758e3384b005dfad2b1`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/35-La-estanteria-la-estirpe-del-lector-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `810995a8b68639d3be73f3154c11f62a92ca17afd74c9558c71725ddb4650d47`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/36-Los-libros-biblioteca-de-bolsillo-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `c3f4f6b42c7b9c4bf3faba46d0c3b2135ef86b368abe3c1d9877e4676cd974fe`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/37-La-puerta-grande-anime-video-I-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `979409a4991a4e0d1a89094135b7466e89eee98b9b2b5fe084bd2317475ff35c`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/38-El-vivero-los-germinantes-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `1f1af6e7e72492b44a4d6fb893d8d3dce777a5e46fe71a4a8f22788beb25ebc9`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/39-La-bodega-servidores-y-bibliotecas-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `ec8c0aa4fb8bc430aaaa0825d90cda5f3b95233322f375c7f51c0fc630403e9c`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/40-El-estudio-lectores-de-escritorio-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `5ca30db7999d4cb96a7ff5cee120a5dc3c57a7da5caa80088e4218e6394e896a`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/41-Los-cazadores-anime-video-III-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `4780a7e6f1f67b3794b031ab930aa9fee3638d28e035c8db10eaef6c4f9ea635`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/42-La-fosa-lo-profundo-del-mar-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `e1e1e73c9d19cb9d4bec2ce65bd3046e327f379563dfc9bca770c0a666719920`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/43-La-corriente-geografia-de-las-fuentes-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `581ad3203287ed2a571c1187825fb7194f292e30c323f2ff78556cf9df74829f`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/44-Los-pequenos-las-casas-que-no-hacen-ruido-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `3b9ce2d07acc2330858134ebf8a36cc6bb7b200238dda55770507c7138026b7c`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/45-Las-canciones-la-voz-de-america-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `ae12acb98c2d877456fca302f71e42b30d0337b08abbb1ea21432fdf116f218a`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/46-La-sala-de-las-novelas-lectura-IV-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `35f446c7d2dd3c3faf8ddbfce09a754085e1ce33626787946d54229ede34713f`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/47-La-ultima-puerta-del-catalogo-Venera-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `f85614e69e00951fb3cf9ceb69b65c7db673d04511e82edba79093a871a38dc6`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/48-El-archivo-la-V25-vuelve-hecha-mejor-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `982f18f5f394d95a8756179f90e0178c2e8f178dd407f81a0fde345fc1c1f83e`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/49-Las-mil-puertas-el-barrido-de-la-V25-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `2e375ab4700eff29d67e54abd39d4afa65084bd69160e6890f21bb6a023d5dcb`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/50-La-discoteca-I-mina-de-231-puertas-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `f38ce768e30916ecb1db9db79255900b6fd82663785987d0175bb3c0994e571a`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/51-La-discoteca-II-jugador-grande-Finamp-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `520da50dd08579bb3f5e58b97782ffcf6c297a1dc679f092b217184664b9eaa6`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/52-La-discoteca-III-censo-completo-del-baile-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `8696d628afc48805c32722a34a4db08e0c23132d69a7274389b34c20714b44af`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/53-Las-otras-forjas-GitLab-Codeberg-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `2fc7ba6d3e02e37eecc08bbac9c33ea5f82b3ba9111774cb018d0c4b6f93a30c`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/54-Las-puertas-del-sistema-y-taller-censo-I-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `60991ad2115a8848a286a6d03e6dfe3ab4462a701537073ed51940709839aa41`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/55-Las-puertas-del-lector-y-bibliotecas-censo-II-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `9c155af3326d98b9aaf302c101176905a0f3ed8e9f28991124aa46053c7a8583`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/56-Las-puertas-del-anime-y-servidores-censo-III-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `2dfde0e12aa39fd0cb50cd7d19703375e973ae48e6a01b26758d6a22c4fb218f`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/57-La-hornada-del-lector-la-mina-con-nombre-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `f004d1f77840de1680f2099f3d08b8a50bbcd92ad8e418cd10656616dff55f00`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/58-La-hornada-del-anime-segundo-territorio-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `36a887c47437f1cfa84087a82a99028ce1b6f65629a65a307a9ff2d7b604c700`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/59-La-hornada-del-taller-herramientas-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `0e8c12c11a184029a3ab0b9324fb90ca6725e3311b8fceadf9db13cbd26c1f36`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/60-La-hornada-de-las-bibliotecas-ordenadores-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `1b3832e55bfebb44dbf64ff32addaf2643393aecc335109f0f52bdd94c5ae412`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/61-La-hornada-de-los-servidores-sotano-mina-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `86779da3e11a418634577c87d828a1924c67215961de90d4b34c58af1c6b9438`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/62-La-hornada-de-los-ayudantes-pequenos-censo-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `29df7bf6a9e247a28de362a267a9511fd00916c2a2521b40ee8d9ba61e4953cc`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/63-La-segunda-fila-del-lector-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `0398571f6304f505133516103d67b458bbd4da75c04f31d30820cb3f1dc5d05f`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/64-La-segunda-fila-del-anime-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `17eef677d3ca16163c82c17a6a750163505fd5d71b427bcf2b6ad6706eb2a20c`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/65-La-segunda-fila-del-taller-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `8333e7915c39b39e829a5966188275f46b24598b94b496aa1111df1b4d679309`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/66-La-segunda-fila-de-las-bibliotecas-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `f17ff0fbcc38e4384dbba3193cc8950b0a14073d8eed7cd51a59b4b72a35947d`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/67-La-segunda-fila-de-los-servidores-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `48d6703b439447e8f0542bb59317cd0be3929ab87ecab45285ec342f20b25655`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/68-Los-canes-la-segunda-fila-final-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `1b92d4da433f9be8bda1b5fcc7bf27d1ad7ae08bd7537bbf3f688405fe18a156`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/69-La-vara-por-las-forjas-I-Codeberg-GitLab-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `4d219e8d0ea8bfd76bba6c5494b879278b338aad8a78b82210e74be2cd536ac4`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/70-La-vara-por-las-forjas-II-FDroid-y-tiendas-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `1c9383f8aaa3518a4d38699fd4229a7ef7593ea2ac73626e59c1e07c2ceacf97`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/71-Los-ceros-hermanos-y-nombres-solos-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `ab56ee1392df0833d44face333fac9963a18105c82025abb3dcfe75b35a5694b`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/72-Las-actas-del-censo-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `63bef82554d427a12b4c0175974127242d6b8bd1554550f3d4e9f4f54d57c855`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/73-Los-espejos-y-los-homonimos-libro-nombres-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `18cac8094db9958e4f127e067c6c32f53a979873c8ec6228a9b932d13f3419f9`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/74-Los-vivos-de-la-semana-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `161ed512c1f1a1f64f4cc7579e0c57ddd108a5daf00334ade7f9e63d56e8f458`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/75-El-podio-de-la-mina-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `0d1faa2de41f768e650b7df41951d77012557548ca14eff76aa5be4311f95e27`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/76-El-recuento-la-arquitectura-de-las-ochenta-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `75b3dc175fc56125b65e6e663e597faafd1138ffc635637f478d65381ef96f44`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/77-La-frontera-del-lunes-lo-que-queda-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `8cbfa72110f1926758538cc5ec6ba1606e1a6683f9164ae29744211b4b2e7383`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `2cfc8298a7cb7319a6e5f08e1ed1a9d82e8ed46016c282e9003d1a27bfc7ffb7`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/79-La-octogesima-el-techo-tocado-XDA-La-Bandita-2026-09-15-dominicano-ES.md — `68637185754c7868edc8442ac32c26a4b1e121833a779f00cb1a0fa319f9e2e1`
+- 04-VERSIONES-MULTIIDIOMA/xda/dominicano-ES/LEEME-de-la-carpeta.md — `6ca421830979f8080e5038e0955fb2618bdf563e7194c4779ba8f61f3b8f4e61`
+- 04-VERSIONES-MULTIIDIOMA/xda/frances-FR/75-El-podio-de-la-mina-XDA-La-Bandita-2026-09-15-frances-FR.md — `b414ecc1b12ada52e1f1bedcd033bbacdd023aabc3f13e1084f7a5b230819aaa`
+- 04-VERSIONES-MULTIIDIOMA/xda/frances-FR/79-La-octogesima-el-techo-tocado-XDA-La-Bandita-2026-09-15-frances-FR.md — `d8b5c145d81f29fb7095d6597a3af64b1b011625cd427b0073c7a670075c7587`
+- 04-VERSIONES-MULTIIDIOMA/xda/frances-FR/LEEME-de-la-carpeta.md — `75ba341347a7f28fe67bdd0168b770867440d390d3d0336a535f538d158b49d3`
+- 04-VERSIONES-MULTIIDIOMA/xda/hindi-IN/75-El-podio-de-la-mina-XDA-La-Bandita-2026-09-15-hindi-IN.md — `5883bba877c9bcccefe2e1d87987affeae83c71f353ba4f533901ba9bd7292d2`
+- 04-VERSIONES-MULTIIDIOMA/xda/hindi-IN/79-La-octogesima-el-techo-tocado-XDA-La-Bandita-2026-09-15-hindi-IN.md — `24b9ed2dbc3e0424d04292e389981ef6e47640169800b67d63ed77eee600d6f3`
+- 04-VERSIONES-MULTIIDIOMA/xda/hindi-IN/LEEME-de-la-carpeta.md — `533471bd313dbbcbcda949b165709922fca1a80875088e5354245cfe1b6ca995`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/00-LA-LISTA-el-ecosistema-en-20-guias-XDA-La-Bandita-2026-09-15-ingles-US.md — `af487261bce059a87d95c35b5a2948b4596a093aef8b739bee5e10d753ccbd14`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/01-Tiendas-de-APK-legales-reloj-2027-XDA-La-Bandita-2026-09-15-ingles-US.md — `3e605c016020325d056e19e70a2cbbe5ddc441a9517922d4ce92b1402cecec07`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/02-Kototoro-manga-novelas-video-XDA-La-Bandita-2026-09-15-ingles-US.md — `aa55a37fab56a0481d21df57d5738e5b7a1e8c63442a830428d91187581114fa`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/03-Verificacion-de-Desarrolladores-cronograma-XDA-La-Bandita-2026-09-15-ingles-US.md — `0f3ca541a6b82f7c6a76b84b4dbf7d22c95072ca620e7b734a47afea1965d14e`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/04-Extensiones-tres-arboles-hubs-vivos-XDA-La-Bandita-2026-09-15-ingles-US.md — `10ca38fb640706e40b8634b074d3d450988d0d005c009a8ec6c58d3439443004`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/05-TMO-cayo-los-clones-no-son-TMO-XDA-La-Bandita-2026-09-15-ingles-US.md — `86e2b265b1927fcf79588c8fb5495611564e9fd1c6987b06df26f003571ef029`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/06-Forks-de-lectores-segundas-generaciones-XDA-La-Bandita-2026-09-15-ingles-US.md — `e1d4439f41c75d381c889512f55eb691c42075f7226539acf8a51ccc9dea831e`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/07-Usagi-viva-cadena-Kotatsu-XDA-La-Bandita-2026-09-15-ingles-US.md — `82dfb164e79522c2331da89c3f1d1e7dba8a824067fffce2164e4164e493b356`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/08-Musica-FOSS-clientes-con-pulso-XDA-La-Bandita-2026-09-15-ingles-US.md — `ea9da45401448086109fa1f25966dcb10275c9d260a21d53212ef92fd9417758`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/09-Herramientas-FOSS-caja-de-oficio-XDA-La-Bandita-2026-09-15-ingles-US.md — `fdf6e22dfe74d954e8465ac3e4cdc291673826582eb308dee725ac79ecc32e33`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/10-GLTools-no-se-receta-XDA-La-Bandita-2026-09-15-ingles-US.md — `102152ba14654642ce1c72794e7f3ae473b9dd44d995607c8a50464adca1d4b2`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/11-AniZen-vivo-v05211-espejo-no-repo-XDA-La-Bandita-2026-09-15-ingles-US.md — `1a0d961b40b357429b92b3116a177fde52c13965fd043d651edc5bb68a80c020`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/12-FMHY-wiki-de-pistas-no-catalogo-XDA-La-Bandita-2026-09-15-ingles-US.md — `e3fd433b795508c06b05f2d89a85fee11f166901164917af019bed3bfe7c5c58`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/13-Rama-Aniyomi-manga-y-anime-XDA-La-Bandita-2026-09-15-ingles-US.md — `2626dd0d83a32054c1fc729bbfd99250da367c87bb85a47dc6b5f0c587d84a17`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/14-Rama-anime-puro-Animiru-Anikku-XDA-La-Bandita-2026-09-15-ingles-US.md — `0a3b3377ea265f8aea669e9070fc4818a36d6e2414f5c3d7a9e953d438deea1e`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/15-Rama-J2K-el-abuelo-volvio-XDA-La-Bandita-2026-09-15-ingles-US.md — `bfcd82263d05678f7799a5e9025026385fa5f373a0dcc0f6cd70454d84d361dc`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/16-Rama-SY-Komikku-clasico-y-rehijo-XDA-La-Bandita-2026-09-15-ingles-US.md — `e5a35be4db7783dd005ee4575b8ee995984174b0e98d0c725f340837057cb3c1`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/17-Capa-de-inmersion-aprender-japones-XDA-La-Bandita-2026-09-15-ingles-US.md — `c6a3ca9ad9e39cb9265cc82208f25a461bca26fde463a85b72e75dfc84f6247b`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/18-Libros-OpenlibExtended-biblioteca-bolsillo-XDA-La-Bandita-2026-09-15-ingles-US.md — `40ac7aef20ba24af632e5d420924f515f71522effdc0343d4f1b0741e53bcbdf`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/19-Panorama-multi-todo-en-la-misma-mano-XDA-La-Bandita-2026-09-15-ingles-US.md — `dd108c55eef85067e83dbc247274ae732c905568f28f182b010222edd8845cf9`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/20-La-Biblioteca-plano-de-75-guias-XDA-La-Bandita-2026-09-15-ingles-US.md — `9a7da190cd24f16031acd24255172e5f14e57db3c16017e6373074838e405ab8`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/21-Musica-I-cosecha-del-muro-12-vivas-XDA-La-Bandita-2026-09-15-ingles-US.md — `5fb7623dade8249e7f15787892862506cfb05cde1cfe2db09d7f889b80d177b8`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/22-Lectura-II-repisa-del-muro-XDA-La-Bandita-2026-09-15-ingles-US.md — `512ddf94dcce597ac3381960a536236701ed60c94a3775c03b4b3cda8d6c3788`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/23-La-sala-IPTV-cine-reproductores-XDA-La-Bandita-2026-09-15-ingles-US.md — `eec72976299ec095eb39bf3afdaaf8e5f52631fb28ec9ec2fc5d36f2a2248de4`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/24-El-taller-Shizuku-root-y-llaves-XDA-La-Bandita-2026-09-15-ingles-US.md — `25545bde24c79412c544f4986a3fce94a864ede2767eb2fe7204825919cf535d`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/25-El-sotano-servidores-autoalojados-XDA-La-Bandita-2026-09-15-ingles-US.md — `63c60ea0d2ff01264f92aba09ef89fe97a430fe3496591f2d423c351cf75c355`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/26-El-cajon-candados-adaptadores-misc-XDA-La-Bandita-2026-09-15-ingles-US.md — `610789f532adf3eee5142c20592302c80637338b712683effea892c78fc7810e`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/27-Musica-II-las-sucesiones-quien-hereda-XDA-La-Bandita-2026-09-15-ingles-US.md — `1c31b44f0e0d790ef6096674d8232053288792daff72924467f9335f4eb3e8bb`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/28-El-tronco-raiz-gestion-y-tiendas-XDA-La-Bandita-2026-09-15-ingles-US.md — `8de2459c27be8bf03441e594843492716e8cd3d1c79ead847e26314edc5988e2`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/29-Los-mayordomos-apps-perfiles-bloat-XDA-La-Bandita-2026-09-15-ingles-US.md — `6b5234a0de87d2cfbe6ffd804e46c046cb52ebdd4f975eda7dad1bc8321fcd5d`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/30-La-cara-del-sistema-lanzadores-teclados-XDA-La-Bandita-2026-09-15-ingles-US.md — `1cbce5414eac7a1656eeac15f5bd9fff35ac593c798c4420724dc6cbf3583213`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/31-Los-pequenos-del-sistema-una-sola-cosa-XDA-La-Bandita-2026-09-15-ingles-US.md — `d6917ac4239775b4015070fcb939a34df42c1c8350ef87f4f87556958fc8b29a`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/32-El-cable-y-el-escudo-conectar-defender-XDA-La-Bandita-2026-09-15-ingles-US.md — `e32f0df9ffccea8d97b8f3c27eafd8030cf14f1da30a84b45d992100312d2d5f`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/33-Los-archivos-del-taller-cajones-paquetes-XDA-La-Bandita-2026-09-15-ingles-US.md — `c7171de3583537a813db831e8278ff27e60ff2ec861530c146dceda744623fb6`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/34-Los-que-tenian-otro-nombre-la-vara-XDA-La-Bandita-2026-09-15-ingles-US.md — `878aa9d6a1a19f40f6958cc1cd402ce69960ae9ec406b517500e9320e6456010`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/35-La-estanteria-la-estirpe-del-lector-XDA-La-Bandita-2026-09-15-ingles-US.md — `a54402f8f8c80924b766e1dfd2e799caa01b1f1ea312a4d323518718c614bcea`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/36-Los-libros-biblioteca-de-bolsillo-XDA-La-Bandita-2026-09-15-ingles-US.md — `5f0766a195cc8470b5889245ff674101e190de8a887ff609b2943d096afee498`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/37-La-puerta-grande-anime-video-I-XDA-La-Bandita-2026-09-15-ingles-US.md — `c4e2519d88edefd3d05ddba7496bf8304dadd8bce6c3034148fd2c132b4dc3f8`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/38-El-vivero-los-germinantes-XDA-La-Bandita-2026-09-15-ingles-US.md — `2712e25cf93a03afa18d80e54d2e6ddfcf8ed9ba260fe5b13f7165ea345382c9`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/39-La-bodega-servidores-y-bibliotecas-XDA-La-Bandita-2026-09-15-ingles-US.md — `2b1aa66f8761d62e8ac8b330a8eed35db38ac562aba75a356c3ede2b0ebfe267`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/40-El-estudio-lectores-de-escritorio-XDA-La-Bandita-2026-09-15-ingles-US.md — `93361c4372fc1e376b73031d018895ea080d30b2825f02ebcce2e3d03b70c2df`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/41-Los-cazadores-anime-video-III-XDA-La-Bandita-2026-09-15-ingles-US.md — `947e7331eb29a15e2d31c1a9a61b7416d26bb6d2d245fc23fae29b3a3f69cc6a`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/42-La-fosa-lo-profundo-del-mar-XDA-La-Bandita-2026-09-15-ingles-US.md — `dd29680bf32412a9a3c7795dc463d8b0fc32fb50eb7e851ab08cb11683baad11`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/43-La-corriente-geografia-de-las-fuentes-XDA-La-Bandita-2026-09-15-ingles-US.md — `54eacb3b2acfe7d32719ccbef261aaa3d9cec7c9c66d7cfbf088391824fd9ce3`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/44-Los-pequenos-las-casas-que-no-hacen-ruido-XDA-La-Bandita-2026-09-15-ingles-US.md — `a1d308b50dbdc869d1690f542b4b0d8f2d94064f4cc60012b7317822d734f86d`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/45-Las-canciones-la-voz-de-america-XDA-La-Bandita-2026-09-15-ingles-US.md — `aaade0e5fba4c8ee7d2d8720a42a18d7e8e18b6e9be0bfb7a2b68b1da5ca6f38`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/46-La-sala-de-las-novelas-lectura-IV-XDA-La-Bandita-2026-09-15-ingles-US.md — `c3259998d66b2c41bd94bd9a899c9a62b4facc887e3d9df338d233af9d050b44`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/47-La-ultima-puerta-del-catalogo-Venera-XDA-La-Bandita-2026-09-15-ingles-US.md — `1b4d8f1130cf894b86f027794a01b426727503a42b518e3aa559714107447961`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/48-El-archivo-la-V25-vuelve-hecha-mejor-XDA-La-Bandita-2026-09-15-ingles-US.md — `3fc0af8297eb90932d5ec76dcb36a109b00e8c89c85f59607ae89fda009ee23d`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/49-Las-mil-puertas-el-barrido-de-la-V25-XDA-La-Bandita-2026-09-15-ingles-US.md — `c009c8dcf39f77bd30490c10c53d60d6648228d3770ed1d365a36f1990439a1b`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/50-La-discoteca-I-mina-de-231-puertas-XDA-La-Bandita-2026-09-15-ingles-US.md — `5446787a8f6ae42c53435a50977963866931c30b0ab5fc06701aea39c03eb584`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/51-La-discoteca-II-jugador-grande-Finamp-XDA-La-Bandita-2026-09-15-ingles-US.md — `2eab91c21cb4c4254c3ab39375fc6e156b96e39f782d5e00079e76a81cbc77d1`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/52-La-discoteca-III-censo-completo-del-baile-XDA-La-Bandita-2026-09-15-ingles-US.md — `3a3e41471375d8a59140a0adede7393efca7f52236217979d0faf8407a1280d7`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/53-Las-otras-forjas-GitLab-Codeberg-XDA-La-Bandita-2026-09-15-ingles-US.md — `1978462e8598a1c82255afbcdd9e2602cbd2f0db007de545e74b9e8252a96dea`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/54-Las-puertas-del-sistema-y-taller-censo-I-XDA-La-Bandita-2026-09-15-ingles-US.md — `8a882965f9db769cd77cb0ee047a1cf11eab16ec7a4a6ed35164512bb471a1d6`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/55-Las-puertas-del-lector-y-bibliotecas-censo-II-XDA-La-Bandita-2026-09-15-ingles-US.md — `8839ddaabffb2a26d10a79bc2abed94a6dd537dd708429bd8ac18ace28081f7f`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/56-Las-puertas-del-anime-y-servidores-censo-III-XDA-La-Bandita-2026-09-15-ingles-US.md — `58478bbcb4a9faeac8a2f95aa5d6cd58bcd3c8e2a4cf9c948aafd72f83ec94a0`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/57-La-hornada-del-lector-la-mina-con-nombre-XDA-La-Bandita-2026-09-15-ingles-US.md — `255b1474f75fcb1783cc5b0d96e14d49b7846b4742c7209ff6654c55d82975f8`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/58-La-hornada-del-anime-segundo-territorio-XDA-La-Bandita-2026-09-15-ingles-US.md — `f3885e22bbe30ccf1cbcfdf6fa6f5523dc21beb4e563b4d6b96aac2008c5fc66`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/59-La-hornada-del-taller-herramientas-XDA-La-Bandita-2026-09-15-ingles-US.md — `ccf9dff938dbe8d6bce397e2377e3c405f927b1a9707f07f6472192a0be8f952`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/60-La-hornada-de-las-bibliotecas-ordenadores-XDA-La-Bandita-2026-09-15-ingles-US.md — `00190187e91aac14d458d9a9ec97bf24c899d6334db921a5ecaf8894cfc5e9b7`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/61-La-hornada-de-los-servidores-sotano-mina-XDA-La-Bandita-2026-09-15-ingles-US.md — `3d0ad35cba0a37469acaeb9886cec52fdfcd940653053de023b08f1581fe68a5`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/62-La-hornada-de-los-ayudantes-pequenos-censo-XDA-La-Bandita-2026-09-15-ingles-US.md — `085173e6b9e6af096ad3eb2f3df73786d87255ea5cce7f7a54fbe71988bd59a3`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/63-La-segunda-fila-del-lector-XDA-La-Bandita-2026-09-15-ingles-US.md — `158504180e10d025aec20c943bbd4baf63de7e5534e7ce8163fcb303acc2b7c9`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/64-La-segunda-fila-del-anime-XDA-La-Bandita-2026-09-15-ingles-US.md — `c736edec01fb890456e8a5c5d4f08554a78d02f1f64b83c8b08812d04e5cef70`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/65-La-segunda-fila-del-taller-XDA-La-Bandita-2026-09-15-ingles-US.md — `3685a50b061631ae6303d5fc8b14e363588b3bf5a08a724e92b964ee392cff9f`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/66-La-segunda-fila-de-las-bibliotecas-XDA-La-Bandita-2026-09-15-ingles-US.md — `9ce4f96e07094a6ff4ef7d9e60b4d032bca298482bc1c48d0dbc31ddcdce28fe`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/67-La-segunda-fila-de-los-servidores-XDA-La-Bandita-2026-09-15-ingles-US.md — `b4001c996c2faf6a489e8e361081fc9908c21633dc1c0a7f0aae3d44e04f2a49`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/68-Los-canes-la-segunda-fila-final-XDA-La-Bandita-2026-09-15-ingles-US.md — `830aad2df36b2d6b8461453f53e2e30ff140f716890f64bee55f6b6b60bcbe3a`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/69-La-vara-por-las-forjas-I-Codeberg-GitLab-XDA-La-Bandita-2026-09-15-ingles-US.md — `d761c548d0ce3ba70f9f8e5a93ba98cb450e90cfb1658188da0e1de53aefd454`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/70-La-vara-por-las-forjas-II-FDroid-y-tiendas-XDA-La-Bandita-2026-09-15-ingles-US.md — `01d8c99be2ef49c4cd12b177804b783283c51dfebfe678ddb29d024d772e19d7`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/71-Los-ceros-hermanos-y-nombres-solos-XDA-La-Bandita-2026-09-15-ingles-US.md — `15e6975a0ed3e5a38586f58e2d578f3c1ef466e1059d2ec7fd10d9d0891baaf4`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/72-Las-actas-del-censo-XDA-La-Bandita-2026-09-15-ingles-US.md — `0876cd3eeab24c78fea12a3889d845208580e5af48b1d8c86aa789b8b399ecf2`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/73-Los-espejos-y-los-homonimos-libro-nombres-XDA-La-Bandita-2026-09-15-ingles-US.md — `a31593dc28448c49fd1927d0081c94ebfbafb367f59f28608458feef767fb0e7`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/74-Los-vivos-de-la-semana-XDA-La-Bandita-2026-09-15-ingles-US.md — `c7dd5422981a0a582bccb0a7511eaad6297f0db0310a3c0dacced1c457902abd`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/75-El-podio-de-la-mina-XDA-La-Bandita-2026-09-15-ingles-US.md — `d892153acc69f07149f03bb69629f76185bb1ddb4621bb8dd3c3367b4a564284`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/76-El-recuento-la-arquitectura-de-las-ochenta-XDA-La-Bandita-2026-09-15-ingles-US.md — `b7ca404e504c275eb72af76fc3a796f7a10a617479d570643e45594963596517`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/77-La-frontera-del-lunes-lo-que-queda-XDA-La-Bandita-2026-09-15-ingles-US.md — `4c97afdd8b5dd6e17c43698b7b4b3e52dd9feccfbb3e1a9894e75d8bdd262c4a`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-XDA-La-Bandita-2026-09-15-ingles-US.md — `5e6412735f5759fe5c083de904ef61e7617033001f6b6b14734223335b710d56`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/79-La-octogesima-el-techo-tocado-XDA-La-Bandita-2026-09-15-ingles-US.md — `5ac8b295ae5f43753b21c2d7a05dfd1d4de7195438d5414340bb5ed6a9919655`
+- 04-VERSIONES-MULTIIDIOMA/xda/ingles-US/LEEME-de-la-carpeta.md — `f9afb241bd35b1eed4e9ea7f9a48175baa6b5dd3f98fe9411499d08438658c16`
+- 04-VERSIONES-MULTIIDIOMA/xda/portugues-BR/75-El-podio-de-la-mina-XDA-La-Bandita-2026-09-15-portugues-BR.md — `0b2cf0bfa09f10474b045379aed331db4790380c5381f4f99183aaa4d6a4d8f7`
+- 04-VERSIONES-MULTIIDIOMA/xda/portugues-BR/79-La-octogesima-el-techo-tocado-XDA-La-Bandita-2026-09-15-portugues-BR.md — `0aeefdb8cdf03bd1c4708925a6c7ba67f2b0abe9d31973549e584441105539de`
+- 04-VERSIONES-MULTIIDIOMA/xda/portugues-BR/LEEME-de-la-carpeta.md — `62dd4bfa795c42d2b155cfd404f314568607284c04bc5b7afa2babe212c7fb4a`
+- 04-VERSIONES-MULTIIDIOMA/xda/ruso-RU/75-El-podio-de-la-mina-XDA-La-Bandita-2026-09-15-ruso-RU.md — `e7b1b031dfe8cc925e8fa7b1c4da2e9dcf93ce8f13036eaacb21c2dd10e22c9e`
+- 04-VERSIONES-MULTIIDIOMA/xda/ruso-RU/79-La-octogesima-el-techo-tocado-XDA-La-Bandita-2026-09-15-ruso-RU.md — `3742f9caac809650d8a384861bba6e8d39a9eab4b9ad8213639fe89cebb96005`
+- 04-VERSIONES-MULTIIDIOMA/xda/ruso-RU/LEEME-de-la-carpeta.md — `ac8cb981c25186384b5530b6d376e0871fa20b620dda43419bb0b73832b355a5`
+
+
+
+---
+
+## Acta #86 — 17 de septiembre de 2026 — Entrega de estado para continuación (FB+WA·FR 30/79)
+
+**Concepto:** el dueño manda entregar la colección TAL COMO ESTÁ y terminar el resto en otra sesión. Se empaca el estado completo del proyecto con fecha.
+
+**Estado al cierre de esta sesión:**
+- **EN 550/550 ✓ CERRADO** (entrega previa: ZIP 2026-09-15, 569 miembros — su contenido ya vive en este árbol; no se duplica en este ZIP).
+- **FR:** discord 78/78 ✓ · reddit 78/78 ✓ · xda 78/78 ✓ · telegram 79/79 ✓ · rethubs 79/79 ✓ (CERRADOS) · **facebook+whatsapp 30/79** (00–30 + sonda 75; gemelas byte-a-byte 30/30; verify por bloque; última hornada 21–29 VERDE al primer verify salvo p28 — ventana 150c en lista «Gestion», resuelta partiendo la lista, precedente p19).
+- Pendiente FR FB/WA: 31–74 + 76–79 (49 numeradas; bloques 30–37 Android · 38–45 Lectura · 46–52 Anime/vídeo · 53–57 Bibliotecas · 58–61 Servidores · 62–63 Productividad · 64 Privacidad · 65 Extensiones · 66 Desarrollo · 67–74 reserva). Después: PT-BR → HI → zh-CN → RU. Sondas 75/79 NO tocar. **Pieza WebView v154 AL FINAL** (mandato del dueño; incidente fichado en `archivo/verificacion-recursos-2026-09-17.md`).
+- **Verificación viva 17-sep:** 86 repos + 1 web en vivo, 0 muertos, 1 archivada nueva (Kumo — la madre ya la baja al Registro). Destacados del barrido 5: Meld +15★ (API certifica fork de MetrolistGroup/Metrolist) · Levyra +47★ · Koodo ★28.217 push HOY.
+- **MCP de GitHub:** el dueño lo conectará en su interfaz; esta sesión trabajó con REST anónima racionada (60/h). Al retomar: si el MCP está, usarlo para los barridos vivos.
+
+**Piezas nuevas desde el acta #85 (FR·FB + gemelas WA, con SHA-256):**
+- `21-Musica-I-cosecha-del-muro-12-vivas-Facebook-La-Bandita-2026-09-15-frances-FR.md` — `65ade585fba915d3be1a3a9e8abb9e331eaefde92eb249bf57a4ed48854643a2`
+- `21-Musica-I-cosecha-del-muro-12-vivas-WhatsApp-La-Bandita-2026-09-15-frances-FR.md` — `65ade585fba915d3be1a3a9e8abb9e331eaefde92eb249bf57a4ed48854643a2`
+- `22-Lectura-II-la-repisa-del-muro-Facebook-La-Bandita-2026-09-15-frances-FR.md` — `518ab7aa6a4c4f3b3428cd376287c354f6371a29e978035b4c024cf94d304fed`
+- `22-Lectura-II-la-repisa-del-muro-WhatsApp-La-Bandita-2026-09-15-frances-FR.md` — `518ab7aa6a4c4f3b3428cd376287c354f6371a29e978035b4c024cf94d304fed`
+- `23-Sala-del-muro-IPTV-Jellyfin-reproductores-Facebook-La-Bandita-2026-09-15-frances-FR.md` — `3706b4fe7ef04c7a659bfe193ae86205afc62f00c5b97fadf411f4e311540ae5`
+- `23-Sala-del-muro-IPTV-Jellyfin-reproductores-WhatsApp-La-Bandita-2026-09-15-frances-FR.md` — `3706b4fe7ef04c7a659bfe193ae86205afc62f00c5b97fadf411f4e311540ae5`
+- `24-Taller-del-muro-Shizuku-root-sistema-Facebook-La-Bandita-2026-09-15-frances-FR.md` — `2a4869b76564770623e035fc1e5de33e8aba696d0914e0d6f630d6df3e9ce9d9`
+- `24-Taller-del-muro-Shizuku-root-sistema-WhatsApp-La-Bandita-2026-09-15-frances-FR.md` — `2a4869b76564770623e035fc1e5de33e8aba696d0914e0d6f630d6df3e9ce9d9`
+- `25-Sotano-del-muro-servidores-autoalojamiento-Facebook-La-Bandita-2026-09-15-frances-FR.md` — `1aa73e99b94356d4e40919bd6d27594a89bc924a65854259cd1b9248c8d76ad5`
+- `25-Sotano-del-muro-servidores-autoalojamiento-WhatsApp-La-Bandita-2026-09-15-frances-FR.md` — `1aa73e99b94356d4e40919bd6d27594a89bc924a65854259cd1b9248c8d76ad5`
+- `26-Cajon-del-muro-privacidad-parsers-miscelaneo-Facebook-La-Bandita-2026-09-15-frances-FR.md` — `a495a609952b0aab4ebe086c99f2449642b255a7e1e629cc106899d06aaf4080`
+- `26-Cajon-del-muro-privacidad-parsers-miscelaneo-WhatsApp-La-Bandita-2026-09-15-frances-FR.md` — `a495a609952b0aab4ebe086c99f2449642b255a7e1e629cc106899d06aaf4080`
+- `27-Musica-II-las-sucesiones-Facebook-La-Bandita-2026-09-15-frances-FR.md` — `d5c849572157486e6e8886c58f06a481dc639053fda488977819a88690fcf29d`
+- `27-Musica-II-las-sucesiones-WhatsApp-La-Bandita-2026-09-15-frances-FR.md` — `d5c849572157486e6e8886c58f06a481dc639053fda488977819a88690fcf29d`
+- `28-El-tronco-raiz-gestion-y-tiendas-Facebook-La-Bandita-2026-09-15-frances-FR.md` — `f3081562a50e6cf8e7da14c3cac50e64a6850e41893e3ab54108e6a2d9be0dff`
+- `28-El-tronco-raiz-gestion-y-tiendas-WhatsApp-La-Bandita-2026-09-15-frances-FR.md` — `f3081562a50e6cf8e7da14c3cac50e64a6850e41893e3ab54108e6a2d9be0dff`
+- `29-Los-mayordomos-gestores-perfiles-bloat-Facebook-La-Bandita-2026-09-15-frances-FR.md` — `72ac13558dfda0414eee4a81e66edf06b0ff3272b9dea18c502912731cd5875a`
+- `29-Los-mayordomos-gestores-perfiles-bloat-WhatsApp-La-Bandita-2026-09-15-frances-FR.md` — `72ac13558dfda0414eee4a81e66edf06b0ff3272b9dea18c502912731cd5875a`
+
+---
+
+## Acta #87 — 17 de septiembre de 2026 — Ampliación de alcance
+
+Orden del dueño: hasta 280 publicaciones de calidad superior para WhatsApp, mejorando las existentes, transcritas a todos los formatos (Facebook, Reddit, Discord, XDA, Telegram, Rethubs, WhatsApp e **Instagram** —plataforma nueva—) en los idiomas señalados. Las madres crecen con exploración masiva del ecosistema vía PAT autenticado (5 000/h). Andamio Instagram creado: 7 carpetas + molde borrador (`archivo/molde-instagram.md`); sonda 75 IG pendiente. Sin cambios de piezas en este acta — solo alcance.

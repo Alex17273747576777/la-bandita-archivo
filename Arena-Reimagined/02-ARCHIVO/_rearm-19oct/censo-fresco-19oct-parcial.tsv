@@ -1,0 +1,58 @@
+ollama/ollama	183800	2023-06-26	2026-10-18	MIT	Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+huggingface/transformers	167849	2018-10-29	2026-10-19	Apache-2.0	🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
+open-webui/open-webui	156137	2023-10-06	2026-10-18	NOASSERTION	User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+ggml-org/llama.cpp	131681	2023-03-10	2026-10-19	MIT	LLM inference in C/C++
+justjavac/free-programming-books-zh_CN	119269	2013-11-04	2026-07-29	GPL-3.0	:books: 免费的计算机编程类中文书籍，欢迎投稿
+immich-app/immich	116633	2022-02-03	2026-10-19	AGPL-3.0	High performance self-hosted photo and video management solution.
+localsend/localsend	94893	2022-12-16	2026-10-17	Apache-2.0	An open-source cross-platform alternative to AirDrop
+louislam/uptime-kuma	92632	2021-07-03	2026-10-19	MIT	A fancy self-hosted monitoring tool
+home-assistant/core	91595	2013-09-17	2026-10-19	Apache-2.0	:house_with_garden: Open source home automation that puts local control and privacy first.
+modelcontextprotocol/servers	91368	2024-11-19	2026-10-19	NOASSERTION	Model Context Protocol Servers
+syncthing/syncthing	89527	2013-11-26	2026-10-19	MPL-2.0	Open Source Continuous File Synchronization
+ChatGPTNextWeb/NextChat	88865	2023-03-10	2026-10-15	MIT	✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.
+unslothai/unsloth	78242	2023-11-29	2026-10-19	Apache-2.0	Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.
+dani-garcia/vaultwarden	69286	2018-02-17	2026-10-16	AGPL-3.0	Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
+openinterpreter/openinterpreter	68602	2023-07-14	2026-10-11	Apache-2.0	A coding agent for open models like Kimi K3 and GLM 5.3
+Mintplex-Labs/anything-llm	67308	2023-06-04	2026-10-17	MIT	Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience 
+topjohnwu/Magisk	63358	2016-09-08	2026-10-16	GPL-3.0	The Magic Mask for Android
+termux/termux-app	62966	2015-10-23	2026-09-26	NOASSERTION	Termux - a terminal emulator application for Android OS extendible by variety of packages.
+pi-hole/pi-hole	61337	2014-06-08	2026-10-18	NOASSERTION	A black hole for Internet advertisements
+go-gitea/gitea	58565	2016-11-01	2026-10-19	MIT	Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
+jellyfin/jellyfin	58240	2018-12-09	2026-10-18	GPL-2.0	The Free Software Media System - Server Backend & API
+moeru-ai/airi	50493	2024-12-01	2026-10-19	MIT	💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
+team-spotube/spotube	50103	2021-02-14	2026-10-19	NOASSERTION	🎧 Open source music streaming app! Available for both desktop & mobile!
+paperless-ngx/paperless-ngx	46869	2022-02-12	2026-10-19	GPL-3.0	A community-supported supercharged document management system: scan, index and archive all your documents
+juanfont/headscale	44780	2020-06-21	2026-10-19	BSD-3-Clause	An open source, self-hosted implementation of the Tailscale control server
+qbittorrent/qBittorrent	40909	2012-02-04	2026-10-18	NOASSERTION	qBittorrent BitTorrent client
+Crosstalk-Solutions/project-nomad	40558	2025-06-24	2026-10-19	Apache-2.0	Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.
+photoprism/photoprism	40324	2018-01-27	2026-10-19	NOASSERTION	AI-Powered Photos App 🌈💎✨
+TeamNewPipe/NewPipe	40196	2015-09-03	2026-10-19	GPL-3.0	A libre lightweight streaming front-end for Android.
+tailscale/tailscale	37743	2020-01-31	2026-10-19	BSD-3-Clause	The easiest, most secure way to use WireGuard and 2FA.
+AdguardTeam/AdGuardHome	37533	2016-07-06	2026-10-16	GPL-3.0	Network-wide ads & trackers blocking DNS server
+nextcloud/server	37178	2016-06-02	2026-10-19	AGPL-3.0	☁️ Nextcloud server, a safe home for all your data
+restic/restic	36658	2014-04-27	2026-10-18	BSD-2-Clause	Fast, secure, efficient backup program
+yuliskov/SmartTube	35144	2020-07-28	2026-10-17	MIT	Browse media content with your own rules on Android TV
+gethomepage/homepage	33220	2022-08-24	2026-10-19	GPL-3.0	A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.
+RikkaApps/Shizuku	31786	2017-05-24	2025-06-18	Apache-2.0	Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
+beemdevelopment/Aegis	13337	2016-08-15	2026-09-06	GPL-3.0	A free, secure and open source app for Android to manage your 2-step verification tokens.
+KotatsuApp/Kotatsu	8929	2020-01-30	2025-11-04	GPL-3.0	Manga reader for Android
+aniyomiorg/aniyomi	7818	2021-04-17	2026-09-14	Apache-2.0	An app for manga and anime
+Droid-ify/client	7610	2022-07-04	2026-09-12	GPL-3.0	Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client
+cloudflare/boringtun	7226	2018-10-12	2026-06-29	BSD-3-Clause	Userspace WireGuard® Implementation in Rust
+smuyyh/BookReader	6955	2016-08-03	2023-04-24	Apache-2.0	:closed_book:  "任阅" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~
+bromite/bromite	6322	2017-10-11	2024-01-24	GPL-3.0	Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!
+z-huang/InnerTune	6125	2020-02-11	2025-11-13	GPL-3.0	A Material 3 YouTube Music client for Android
+miru-project/miru-app	5767	2023-04-27	2025-12-05	AGPL-3.0	🎉 A versatile application that is free, open-source, and supports extension sources for videos, comics, and novels, available on Android, Windows, and Web platforms.
+melonDS-emu/melonDS	5129	2016-05-16	2026-08-23	GPL-3.0	DS emulator, sorta
+syncthing/syncthing-android	4288	2014-02-22	2024-12-03	MPL-2.0	Wrapper of syncthing for Android.
+proninyaroslav/libretorrent	3969	2016-10-18	2026-07-24	GPL-3.0	Free and Open Source, full-featured torrent client for Android. Mirrored from https://gitlab.com/proninyaroslav/libretorrent
+M66B/NetGuard	3935	2015-10-24	2026-08-01	GPL-3.0	A simple way to block access to the internet per app
+serverless-dns/serverless-dns	3827	2021-03-10	2026-05-06	MPL-2.0	The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io
+snake-4/Zygisk-Assistant	2645	2024-03-03	2026-05-04	MIT	A Zygisk module to hide root for KernelSU, Magisk and APatch, designed to work on Android 5.0 and above.
+siavash79/PixelXpert	2447	2022-02-20	2026-06-21	GPL-3.0	mixed Xposed+Magisk module for customization of Google Pixel rom of Android 12+
+VR-25/acc	2427	2019-05-11	2025-06-06	GPL-3.0	Advanced Charging Controller
+VegaBobo/DSU-Sideloader	2328	2022-01-31	2024-03-13	Apache-2.0	A simple app made to help users easily install GSIs via DSU's Android feature.
+WireGuard/wireguard-android	1643	2018-04-27	2026-06-29	Apache-2.0	Mirror only. Official repository is at https://git.zx2c4.com/wireguard-android
+SimpleMobileTools/Simple-File-Manager	1584	2016-07-12	2024-06-11	GPL-3.0	Easy app for managing your files without ads, respecting your privacy & security
+MatteCarra/AccA	1400	2019-02-05	2024-06-17	GPL-3.0	Acc app allows to edit acc config file and add a tile to start and stop acc deamon
+horsemail/yourtv	1356	2025-04-11	2026-08-25	MIT	安卓电视直播APK：IPTV/網頁視頻支持X5，可自定義源(支持webview://格式)，IPTV支持畫中畫和熄屏播放。 Android TV Live APK: IPTV/web video supports X5, customizable sources (support webview:// format), IPTV supports picture-in-picture and off-screen playback.

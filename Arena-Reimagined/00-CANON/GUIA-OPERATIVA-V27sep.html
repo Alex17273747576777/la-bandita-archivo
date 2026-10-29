@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GUÍA OPERATIVA V1 — La Bandita · La herramienta que sí acciona (27-sep-2026)</title>
+<style>
+  :root{--tinta:#141c24;--papel:#f7f5ee;--carta:#fff;--linea:#d6d0bf;--teal:#0b6e63;--sello:#6d28d9;--rojo:#b3261e;--verde:#17693a;--ambar:#8f6200}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--papel);color:var(--tinta);font-family:Georgia,serif;line-height:1.62;font-size:17px}
+  header{background:var(--tinta);color:var(--papel);padding:32px 22px 24px;border-bottom:6px solid var(--teal)}
+  .env{max-width:790px;margin:0 auto;padding:0 20px}
+  h1{font-size:1.5rem;margin:.1em 0 .25em}
+  h2{font-size:1.18rem;margin:1.8em 0 .4em;color:var(--teal);border-bottom:2px solid var(--linea);padding-bottom:.2em}
+  h3{font-size:1rem;margin:1.2em 0 .3em;color:#2b3c4d}
+  main{padding:4px 0 44px}
+  table{width:100%;border-collapse:collapse;background:var(--carta);margin:10px 0;font-size:.88rem}
+  th,td{border:1px solid var(--linea);padding:6px 9px;text-align:left;vertical-align:top}
+  th{background:#eef0ea;font-size:.75rem;text-transform:uppercase;letter-spacing:.5px}
+  td.num{font-family:ui-monospace,Consolas,monospace;text-align:right;white-space:nowrap}
+  .norma{background:var(--carta);border:1px solid var(--linea);border-left:5px solid var(--teal);border-radius:6px;padding:11px 15px;margin:10px 0}
+  .norma b.id{font-family:ui-monospace,Consolas,monospace;color:var(--sello)}
+  .caso{background:#fffdf5;border:1px solid #e6ddb8;border-left:5px solid var(--ambar);border-radius:6px;padding:12px 15px;margin:12px 0}
+  .juicio{background:#fbf7ff;border:1px solid #e5d9f5;border-left:5px solid var(--sello);border-radius:6px;padding:12px 15px;margin:12px 0}
+  .ok{color:var(--verde);font-weight:700}.no{color:var(--rojo);font-weight:700}.amb{color:var(--ambar);font-weight:700}
+  code,pre{font-family:ui-monospace,Consolas,monospace;font-size:.83em}
+  pre{background:#132030;color:#d3e7dd;padding:11px 13px;border-radius:6px;overflow-x:auto}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .chip{background:#223646;border:1px solid #3a5470;border-radius:5px;padding:4px 10px;font-size:.8rem;color:var(--papel)}
+  blockquote{margin:10px 0;padding:4px 14px;border-left:3px solid var(--teal);background:#f2f3ec;border-radius:0 6px 6px 0}
+  .toc{background:#f1eee5;border:1px solid var(--linea);border-radius:6px;padding:9px 15px;font-size:.9rem;margin:14px 0}
+  .toc a{color:var(--teal);text-decoration:none}
+  .pillar{counter-reset:none}
+  @media print{body{background:#fff;font-size:11pt}header{background:#fff;color:#111}.toc,.chips{display:none}section{break-inside:avoid-page}}
+</style>
+</head>
+<body>
+<header>
+  <div class="env">
+    <p style="margin:0;font-size:.75rem;letter-spacing:2px;text-transform:uppercase;color:#9ac0b8">La Bandita · 00-CANON · documento vigente</p>
+    <h1>GUÍA OPERATIVA V1 — la herramienta que sí acciona</h1>
+    <p style="margin:.2em 0;font-size:.94rem;color:#c9d6dc">Por palabra del dueño (27-sep-2026): se deja de horneer manuales de simultaneidad sin fruto práctico. Edificamos el marco operativo que manda, con normas vinculantes, casos reales ejecutados, cuantificación sin falsos positivos y purga del superfluo del corpus. Vigencia inmediata.</p>
+    <div class="chips">
+      <span class="chip">Errata GO-00 · 27-sep-2026</span>
+      <span class="chip">Estado: VINCULANTE</span>
+      <span class="chip">Revisión forzada: con cada cierre de par</span>
+      <span class="chip">Vara única: len() UTF-8</span>
+    </div>
+  </div>
+</header>
+<main class="env">
+
+<div class="toc"><b>Contenido:</b><br>
+A · <a href="#a">Naturaleza de esta guía</a> ·
+B · <a href="#b">Normas operativas vinculantes (O-1…O-12)</a> ·
+C · <a href="#c">Casos ejemplares ejecutados (C-A, C-B, C-C)</a> ·
+D · <a href="#d">Ingeniería inversa del corpus: medidas y juicio</a> ·
+E · <a href="#e">Métricas y monitoreo permanente</a> ·
+F · <a href="#f">Acceso universal (principio de la linterna)</a> ·
+G · <a href="#g">Errata, vigencia y puerta</a></div>
+
+<section id="a">
+<h2>A · Naturaleza de esta guía</h2>
+<p>Esta guía no es un informe de seguridad convencional ni un manual más: es el <b>ecosistema operativo nuevo</b>. Sus reglas son vinculantes hoy porque nacieron de hechos medidos — bandas fijadas por palabra del dueño (30-sep), protocolos que cerraron piezas reales con números, escáneres que encontraron 48 tramos malogrados y los dejaron en cero. Todo lo que no manda ninguna acción verificable queda fuera. Cuando una norma teórica choque con una medida, <b>gana la medida y se ficha</b>.</p>
+</section>
+
+<section id="b">
+<h2>B · Normas operativas vinculantes (numeradas, fechadas, verificables)</h2>
+
+<div class="norma"><b class="id">O-1 · Bandas soberanas.</b> Facebook: <b>40.000–45.000 caracteres</b>. WhatsApp: <b>mínimo 63.000 caracteres</b>. La única vara es <code>len()</code> UTF-8 del archivo completo; <code>wc -c</code> cuenta bytes y se le prohíbe el veredicto. Toda pieza fuera de banda queda congelada de publicación hasta su segunda pasada. <i>(Palabra del dueño, 30-sep-2026; resuelve el conflicto 63k±1k/40k±1k vs 29-31k vs 26-34k: las bandas históricas mueren como norma.)</i></div>
+
+<div class="norma"><b class="id">O-2 · Protocolo de la segunda pasada (6 estaciones, con aserción).</b> 1) MEDIR ambos lados con len(). 2) LEER (garbles, voz, invariantes, referencias canónicas). 3) VERIFICAR HECHOS VIVOS (API oficial GitHub + búsqueda, fecha y hora de consulta escritas). 4) COMPONER inserción datada con dato-nuevo-o-validación-nueva por carácter; módulos según el caso: validación de realidades · ingeniería de sistemas · anti-marketing · ingeniería inversa. 5) INSERTAR antes de firma/tags con ancla única, sin tocar el texto original. 6) CERRAR: re-medir, invariantes, planilla y acta con números exactos.</div>
+
+<div class="norma"><b class="id">O-3 · Inserciones datadas, nunca reescritura silenciosa.</b> El texto ya sellado no se toca: se inserta al lado, con su fecha («Cuaderno de campo, 27-sep-2026»). La reversa es borrar el bloque acotado. Toda corrección llega con planilla: tramo afectado, antes→después, Δ caracteres, razón.</div>
+
+<div class="norma"><b class="id">O-4 · Voz orgánica en pieza pública.</b> Las piezas de WhatsApp/Facebook no citan canon, tratado, lecciones, manual ni directivas. Prueba mecánica: <code>grep -nEi "tratado|canon|directiv|D-0[0-9]|manual|lección" PIEZA</code> debe dar vacío. (Precedente: planilla del 30-sep en FB 02, línea 448.)</div>
+
+<div class="norma"><b class="id">O-5 · Invariantes por canal.</b> WA: cero doble asterisco, cero cercas <code>###</code>, cero pipes, cero marcas <code>━━</code> de renglón; los árboles/tablas monoespaciados entre triple acento grave <b>sí</b> son formato nativo (el canal los dibuja). FB: texto plano prosódico, sin un solo símbolo Markdown; separadores <code>━</code>, viñetas <code>•</code>, citas <code>«»/❝❞</code>.</div>
+
+<div class="norma"><b class="id">O-6 · Ningún número sin su hora.</b> Toda cifra de repositorio, versión o medición publicada lleva fecha de medida y hora de consulta. Se mide contra la API oficial de GitHub (repos estrella de la pieza) y se contrasta con la búsqueda web; lo no medido hoy se declara «no medido hoy», jamás se hereda de la cadena. (Precedente: Kototoro-app/Kototoro ★590, pushed 27-sep-2026, API 30-sep-2026.)</div>
+
+<div class="norma"><b class="id">O-7 · Escáner de anomalías al cierre de toda pieza tocada.</b> Cero tolerancia a hanzi infiltrados, latín desquiciado, tokens de máquina. El escáner de caracteres no basta (el gibberish de letras latinas le burla): cada pieza auditada se lee en humano o se decide por muestreo declarado. Una pieza que cierra con garbles no cierra. (Precedente: FB 10, 48 tramos → 0.)</div>
+
+<div class="norma"><b class="id">O-8 · Congelación de publicaciones.</b> Nada se publica hasta aceptación expresa del dueño; el reinicio ordenado pactado es desde WA 01. La guía y las segundas pasadas avanzan bajo hielo: el hielo no bloquea la corrección, solo la publicación. <i>(Directiva 28-sep-2026, jurada y reiterada.)</i></div>
+
+<div class="norma"><b class="id">O-9 · Acta por tren, con números exactos.</b> Todo trabajo cierra con entrada de acta fechada: qué archivo, medidas antes/después, fundamentos con hora, decisiones abiertas. La acta manda sobre la memoria; lo no actado no existió.</div>
+
+<div class="norma"><b class="id">O-10 · Export verificable.</b> Todo paquete de descarga sale con LEEME, manifiesto SHA-256, regla de canonicidad (las copias no se editan) y 0 recursos externos (la auditoría grep de recursos externos — atributos de origen, enlaces http, importaciones de hoja de estilo — debe dar 0).</div>
+
+<div class="norma"><b class="id">O-11 · Prueba de la linterna (acceso universal).</b> Cada regla y cada ejemplo se redactan de modo que los lea una persona con autismo, una IA en desarrollo o un niño típico de cinco años: frase directa, sin ironía que se confunda con norma, ejemplo de uso incluido. Si un paso exige «ya entenderás», está mal escrito y se repara.</div>
+
+<div class="norma"><b class="id">O-12 · Falsos positivos prohibidos.</b> Ningún hallazgo se declara sin medida reproducible; si aparece un falso positivo en auditoría, se rectifica en acta con la medida correcta — no se maquilla, no se hereda. (Ejemplo en vuelo: los bloques de triple cercado en WA que un escáner marcaba como «violación»: la lectura con contexto los absolvió como formato nativo; quedó así actado.)</div>
+</section>
+
+<section id="c">
+<h2>C · Casos ejemplares ejecutados (copiables con los números encima)</h2>
+
+<div class="caso">
+<h3>C-A · Cerrar un par en ambas plataformas el mismo día (pieza 02, 30-sep-2026)</h3>
+<p><b>Situación:</b> WA 02 en 62.835 (−165 del piso) y FB 02 en 39.485 (−515 de la banda). <b>Estaciones:</b> medidos → leídos → API en vivo: la casa había migrado de usuario a <b>organización</b> (Kototoro-app), ★590, push 27-sep-2026 → compuesta una inserción por canal con esos datos → insertadas antes de la firma → cerradas: <b>WA 64.242 ✓ · FB 41.048 ✓</b>, invariantes limpios, acta tren 28-bis. <b>Lección transferible:</b> la segunda pasada se contenta con datos de verdad; un push del 27-sep y una v2.1.6 del 23-sep valen más que 5.000 caracteres de relleno.</p>
+</div>
+
+<div class="caso">
+<h3>C-B · Forense de defectos invisibles (FB 10, 30-sep-2026)</h3>
+<p><b>Situación:</b> el escáner de caracteres daba casi-limpio y aún así el texto era ilegible por tramos. <b>Evidencia:</b> 48 tramos (hanzi «硬件设施已经老», latín desquiciado «muitas properties mantify reduce performance», tokens ∗…<code>têcots</code>). <b>Método:</b> lectura humana línea por línea + reemplazos con aserción local; respaldo pre-auditoría; 3 pasadas. <b>Medida de cierre:</b> 31.249 → 30.063 c · escáner de anomalías: 0 · diff completo exportado (183 líneas). <b>Lección transferible:</b> el escáner mecánico abre la puerta; la lectura humana la cierra. Diff = la vara que permite dormir.</p>
+</div>
+
+<div class="caso">
+<h3>C-C · Censo y paquete verificable en una jornada (30-sep-2026)</h3>
+<p><b>Situación:</b> palabra nueva de bandas y pedido de exporte descargable. <b>Hecho:</b> 25 piezas medidas (WA 4/12, FB 3/13 dentro) → CSV → informe HTML autocontenido → ZIP 88K con manifiesto SHA-256 → acta tren 29. <b>Lección transferible:</b> censo sin fecha no es censo; paquete sin manifiesto no es paquete; informe con recursos externos no es informe.</p>
+</div>
+</section>
+
+<section id="d">
+<h2>D · Ingeniería inversa del corpus: medidas y juicio</h2>
+<p>Medido el 27-sep-2026 con shingles de 8 palabras (paso 4, minúsculas, solo letras): la técnica es aduanera — sólo enuncia qué frases existen por duplicado; <b>no</b> opina.</p>
+<table>
+<tr><th>Documento</th><th>Tamaño</th><th>Solapamiento medido</th><th>Juicio</th><th>Razón</th></tr>
+<tr><td><b>LECCIONES-ALEXIS.md</b></td><td class="num">30.6K c</td><td class="num">0,0% duplicado</td><td class="ok">CONSERVAR ÍNTEGRO</td><td>Voz única del corpus; nada de ella vive en otro archivo.</td></tr>
+<tr><td><b>CANON-CIMIENTO-V28sep.html</b></td><td class="num">19.7K c</td><td class="num">marco de acción vigente</td><td class="ok">CONSERVAR (es el marco)</td><td>Sus 12 pilares y 8 operaciones quedan reemplazados en mando por esta guía solo si el dueño lo firma.</td></tr>
+<tr><td><b>TRATADO.md</b></td><td class="num">1.24M c</td><td class="num">canónica doctrina</td><td class="amb">MIGRAR A ARCHIVO DOCTRINAL</td><td>Es fuente histórica; como documento operativo ya no manda (su materia operativa viva fue absorbida por normas O-*). Nada se borra: migra a 02-ARCHIVO con nota de sucesión fechada, previa ratificación del dueño.</td></tr>
+<tr><td><b>MANUAL-COMPLETO.md</b></td><td class="num">565K c</td><td class="num">40,5% duplicado dentro del TRATADO</td><td class="amb">CONDENSAR → O-* + ficha</td><td>Su Sección 6 (protocolo editorial 22-sep: ciclo de pieza, formato nativo, anti-timeout) es operativo y vive ya como O-1/O-2/O-5; el resto doctrinal muere a archivo con el tratado.</td></tr>
+<tr><td><b>MANUAL-FICHAS-FALLOS.md</b></td><td class="num">275K c</td><td class="num">26,6% en TRATADO · 36,6% en MANUAL</td><td class="amb">CONDENSAR a taxonomía de control</td><td>Su núcleo útil (los 75 fallos) se reduce a la lista de vigilancia F-01…F-75 para las estaciones 2 y 4 de O-2; el cuerpo completo acompaña al TRATADO al archivo doctrinal.</td></tr>
+<tr><td><b>HTML hermanos V26/27sep</b> (GUIA-PRACTICA, COMPENDIO-INTEGRAL, PLANO-MAESTRO, FOROS, GALERIA-EJEMPLOS, ~77±K)</td><td class="num">77K c</td><td class="num">era simultaneidad</td><td class="amb">FUNDIDOS EN ESTA GUÍA</td><td>Su materia viva (ejemplos sobresalientes, práctica de taller) queda trasplantada a la sección C en próximas entregas; los originales quedan como historia — migración pendiente de su ratificación.</td></tr>
+</table>
+<div class="juicio"><b>Regla de eliminación (defensa contra nosotros mismos):</b> «eliminar superfluo» aquí jamás significa borrar. Significa: migración a <code>02-ARCHIVO/doctrinal/</code> con nota de heredero y fecha, y retiro del mando. El mando operativo pasa íntegro a esta guía; la historia queda intacta para la memoria. Ninguna migración se ejecuta mientras esté prohibido mover nada sin autorización del dueño: <span class="amb">esta tabla espera su firma para entrar en ejecución</span>.</div>
+</section>
+
+<section id="e">
+<h2>E · Métricas y monitoreo permanente (se median, no se prometen)</h2>
+<table>
+<tr><th>KPI</th><th>Foto 30-sep-2026</th><th>Dirección</th><th>Medición</th></tr>
+<tr><td>Piezas WA en piso</td><td class="num">4 / 12</td><td>subir</td><td>censo len() cada cierre de par</td></tr>
+<tr><td>Piezas FB en banda</td><td class="num">3 / 13</td><td>subir</td><td>idem</td></tr>
+<tr><td>Anomalías escáner en piezas tocadas</td><td class="num">0</td><td>mantener</td><td>O-7 al cierre</td></tr>
+<tr><td>Referencias canónicas en piezas públicas</td><td class="num">0 (post-planilla)</td><td>mantener</td><td>grep O-4</td></tr>
+<tr><td>Correcciones con planilla + acta</td><td class="num">100%</td><td>mantener</td><td>trenes 28, 28-bis, 29</td></tr>
+<tr><td>Falsos positivos en auditoría sin rectificar</td><td class="num">0</td><td>mantener</td><td>O-12</td></tr>
+</table>
+<p>La foto avanza por fecha: cada cierre de par deja una fila nueva en el acta con estas seis columnas.</p>
+</section>
+
+<section id="f">
+<h2>F · Acceso universal (principio de la linterna)</h2>
+<p>El taller no ilumina para sí: ilumina para una comunidad donde aprenden personas con autismo o discapacidades, inteligencias artificiales en desarrollo y niños de cinco años. Toda norma y todo ejemplo de esta guía pasan la prueba: <b>¿puede una mente literal ejecutarlo sin adivinar?</b> Si no, se reescribe hasta que pueda. Ejemplo de la prueba aplicada: «cierra la pieza con ancla única» se explica así — «busca en el texto la frase exacta que te servirá de puerta; esa frase debe existir una sola vez; si aparece dos veces, no es puerta, es pasillo».</p>
+</section>
+
+<section id="g">
+<h2>G · Errata, vigencia y puerta</h2>
+<p><b>GO-00 (27-sep-2026):</b> emisión fundacional. Vigencia inmediata en el taller; <b>las migraciones de la sección D esperan firma del dueño</b> (regla «nada se mueve sin autorización» se respeta aunque la guía la haya recomendado). Cuando el dueño firme el mapa de sección D, este documento recibe GO-01 con las ejecuciones medidas.</p>
+<p style="font-size:.85rem;color:#5b6b7a">Documento autocontenido (0 recursos externos; imprimible A4). La Bandita · 00-CANON/GUIA-OPERATIVA-V27sep.html · Verifíquese también con: grep externo = 0.</p>
+</section>
+</main>
+</body>
+</html>
