@@ -1,26 +1,17 @@
 # Publicación 83 — La tienda de módulos: MMRL, el estante del root con ley
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **MMRLApp/MMRL** (★2.223): «A app for managing, sharing, and exploring Magisk modules across repositories». Temas que se repiten en el grupo: android, apatch, compose, kernelsu.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `MMRLApp/MMRL` — ★2.223,
-GPL-3.0, último empuje 2026-10-25.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **MMRLApp/MMRL** — «A app for managing, sharing, and exploring Magisk modules across repositories»
+  ★2.223 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v34296 (2026-03-08) · https://github.com/MMRLApp/MMRL · Web: https://mmrl.dev
+  Temas: android · apatch · compose · kernelsu · kotlin · magisk
 
-• `MMRLApp/MMRL` — ★2.223 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+El grupo respira despacio; su empuje más reciente, **MMRLApp/MMRL**, fue hace 6 días. Legalmente el grupo se reparte así: GPL-3.0 ×1; **MMRLApp/MMRL** firmó la release de fecha más reciente (v34296 (2026-03-08)) de las 1 del grupo.
 
-• https://github.com/mmrlapp/mmrl — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

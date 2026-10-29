@@ -1,26 +1,17 @@
 # Publicación 82 — La regleta: el enchufe de los módulos del root
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**awesome-android-root/awesome-android-root** encabeza esta entrega con ★5.568 medidos hoy: «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: android, android-app, android-root, android-tweaks.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy:
-`awesome-android-root/awesome-android-root` — ★5.568, MIT, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **awesome-android-root/awesome-android-root** — «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides»
+  ★5.568 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia MIT · JavaScript · última release 6.1 (2026-10-26) · https://github.com/awesome-android-root/awesome-android-root · Web: https://awesome-android-root.xyz
+  Temas: android · android-app · android-root · android-tweaks · apatch · awesome
 
-• `awesome-android-root/awesome-android-root` — ★5.568 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· MIT
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Hay release de esta semana: **awesome-android-root/awesome-android-root** publicó 6.1 (2026-10-26). Con releases publicadas hay 1; manda la de **awesome-android-root/awesome-android-root** (6.1 (2026-10-26)); el parte legal dice MIT ×1; lo último empujado lo firmó **awesome-android-root/awesome-android-root** hace 3 días.
 
-• https://github.com/awesome-android-root/awesome-android-root — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

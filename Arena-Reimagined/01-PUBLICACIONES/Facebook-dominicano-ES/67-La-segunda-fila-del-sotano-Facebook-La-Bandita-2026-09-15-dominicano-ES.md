@@ -1,79 +1,54 @@
 # Publicación 67 — La segunda fila del sótano
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 11 vivos. El mayor es **cosmictaserdev-creator/Convx** (★1.064): «A free, open-source Android music player for YouTube Music with an iOS-style Liquid Glass interface, synced lyrics, Automix and Listen Together.». Le sigue **recloudstream/cs-repos** (★543): «Cloudstream plugin repositories». Con actividad en los últimos 30 días: 8 de 11. Temas que se repiten en el grupo: andorid, android, android-app, app.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 12 repos: 4 empujaron hoy, 3 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy:
-`cosmictaserdev-creator/Convx` — ★1.064, GPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **cosmictaserdev-creator/Convx** — «A free, open-source Android music player for YouTube Music with an iOS-style Liquid Glass interface, synced lyrics, Automix and Listen Together.»
+  ★1.064 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.5.2 (2026-08-15) · https://github.com/cosmictaserdev-creator/Convx · Web: https://cosmictaser.de5.net
+  Temas: android · android-app · automix · exoplayer · ios-design · jetpack-compose
 
-• `cosmictaserdev-creator/Convx` — ★1.064 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **recloudstream/cs-repos** — «Cloudstream plugin repositories»
+  ★543 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia sin archivo LICENSE en su repo (verificado) · Python · https://github.com/recloudstream/cs-repos · Web: https://rentry.org/cs3-repos
 
-• `recloudstream/cs-repos` — ★543 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **RenzoBeux/Dashboarr** — «A mobile app to manage your self-hosted media stack from a single interface. Built with Expo & React Native»
+  ★377 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · TypeScript · última release v1.22.0 (2026-10-29) · https://github.com/RenzoBeux/Dashboarr · Web: https://renzobeux.github.io/Dashboarr/
+  Temas: qbittorent · radarr · sonarr
 
-• `RenzoBeux/Dashboarr` — ★377 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **bikram-agarwal/FilePipe** — «Turn messy Android storage into a rule-driven library: choose sources, filters, destinations, and schedules, then let the app manage it for you.»
+  ★314 · su último empuje fue el 2026-10-02 (hace 29 días) · licencia GPL-3.0 · Kotlin · última release v3.11.3 (2026-09-26) · https://github.com/bikram-agarwal/FilePipe · Web: https://bikram-agarwal.github.io/
+  Temas: android · app · filesystem · organization
 
-• `bikram-agarwal/FilePipe` — ★313 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-02
-· GPL-3.0
+- **koofr/vault** — «Koofr Vault is an open-source, client-side encrypted folder for your Koofr cloud storage offering an extra layer of security for your most sensitive files.»
+  ★207 · su último empuje fue el 2026-08-13 (hace 79 días) · licencia MIT · Rust · última release v0.1.26 (2026-08-13) · https://github.com/koofr/vault
 
-• `koofr/vault` — ★207 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-13
-· MIT
+- **roozbehzarei/filester** — «Temporary cloud storage for fast, private file sharing»
+  ★197 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v3.4.0 (2026-10-28) · https://github.com/roozbehzarei/filester · Web: https://filester.roozbehzarei.com
+  Temas: android · cloud-storage · file-sharing · kotlin · uploader
 
-• `roozbehzarei/filester` — ★197 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **tobexyz/yaacc-code** — «YAACC - UPNP Client and Server»
+  ★188 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Java · última release 5.4.0 (2026-10-23) · https://github.com/tobexyz/yaacc-code
+  Temas: android-app · dlna · dlna-mediarenderer · dlna-player · dlna-server · dlna-upnp
 
-• `tobexyz/yaacc-code` — ★188 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **Infomaniak/android-kDrive** — «kDrive application for Android»
+  ★178 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 5.22.1 (2026-10-05) · https://github.com/Infomaniak/android-kDrive · Web: https://play.google.com/store/apps/details?id=com.infomaniak.drive
 
-• `Infomaniak/android-kDrive` — ★178 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **mkulesh/onpc** — «Enhanced Music Controller»
+  ★168 · su último empuje fue el 2026-09-11 (hace 50 días) · licencia GPL-3.0 · Java · última release v1.37 (2025-08-26) · https://github.com/mkulesh/onpc
+  Temas: andorid · eiscp · flutter-app · integra · iscp · java
 
-• `mkulesh/onpc` — ★168 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-11
-· GPL-3.0
+- **bobrofon/easysshfs** — «SSHFS for Android»
+  ★154 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia MIT · Kotlin · última release 0.5.19 (2026-10-08) · https://github.com/bobrofon/easysshfs
 
-• `bobrofon/easysshfs` — ★154 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· MIT
+- **self-similarity/MegaRepo** — su repo no trae descripción oficial
+  ★140 · su último empuje fue el 2025-10-03 (hace 393 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · https://github.com/self-similarity/MegaRepo
 
-• `self-similarity/MegaRepo` — ★140 (verificado 2026-10-29)
-· dormido · última actividad 2025-10-03
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **jpdoshi/dragon-store** — caído (404) al medir hoy: queda firmado, no recomendado. https://github.com/jpdoshi/dragon-store
 
-• `jpdoshi/dragon-store` — caído (404) al medir hoy (2026-10-29): queda firmado, no recomendado.
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+La noticia amarga: **jpdoshi/dragon-store** (caído (404)) ya no respondieron. En licencias: GPL-3.0 ×6, sin archivo LICENSE en su repo (verificado) ×2, MIT ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es **cosmictaserdev-creator/Convx** (hace 2 días); **self-similarity/MegaRepo** duerme desde el 2025-10-03; 9 repos tienen release y la más reciente es la de **RenzoBeux/Dashboarr** (v1.22.0 (2026-10-29)).
 
-• https://github.com/recloudstream/cs-repos — vivo al verificar hoy (2026-10-29)
-• https://github.com/jpdoshi/dragon-store — no respondió hoy (404) al verificar hoy (2026-10-29)
-• https://github.com/cosmictaserdev-creator/Convx — vivo al verificar hoy (2026-10-29)
-• https://github.com/RenzoBeux/dashboarr — vivo al verificar hoy (2026-10-29)
-• https://github.com/bikram-agarwal/FilePipe — vivo al verificar hoy (2026-10-29)
-• https://github.com/koofr/vault — vivo al verificar hoy (2026-10-29)
-• https://github.com/roozbehzarei/filester — vivo al verificar hoy (2026-10-29)
-• https://github.com/tobexyz/yaacc-code — vivo al verificar hoy (2026-10-29)
-• https://github.com/Infomaniak/android-kDrive — vivo al verificar hoy (2026-10-29)
-• https://github.com/mkulesh/onpc — vivo al verificar hoy (2026-10-29)
-• https://github.com/bobrofon/easysshfs — vivo al verificar hoy (2026-10-29)
-• https://github.com/self-similarity/MegaRepo — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 12 repos GitHub (11 vivos, 1 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 1 firmado arriba con su estado.

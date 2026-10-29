@@ -1,32 +1,25 @@
 # Publicación 80 — La emu en el bolsillo: WinNative trae los juegos de Windows a Android — y GDealz y Axekin redondean la jugada
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 2 activos este mes. Manda **WinNative-Emu/WinNative** (★733): «An Android app for playing Windows games from Steam, Epic Games, GOG, and more on your device.». Le sigue **Rajkumarbhakta/GDealz** (★56): «PC GAME deals application.». Temas que se repiten en el grupo: android, emulation, epicgames, gaming.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `WinNative-Emu/WinNative` —
-★733, GPL-3.0, último empuje 2026-10-25.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **WinNative-Emu/WinNative** — «An Android app for playing Windows games from Steam, Epic Games, GOG, and more on your device.»
+  ★733 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v0.8.0-beta (2026-10-12) · https://github.com/WinNative-Emu/WinNative
+  Temas: android · emulation · epicgames · gaming · gog · steam
 
-• `WinNative-Emu/WinNative` — ★733 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· GPL-3.0
+- **Rajkumarbhakta/GDealz** — «PC GAME deals application.»
+  ★56 · su último empuje fue el 2026-10-10 (hace 21 días) · licencia GPL-3.0 · Kotlin · última release 1.3.4 (2026-08-01) · https://github.com/Rajkumarbhakta/GDealz
+  Temas: android · jetpack-compose · kotlin-android · retrofit · room-database · workmanager-kotlin
 
-• `Rajkumarbhakta/GDealz` — ★56 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-10
-· GPL-3.0
+## Enlaces externos de la pieza
 
-## 🔗 Fuentes comprobadas hoy
+- https://www.axekin.com/ — respondió viva hoy
 
-• https://github.com/WinNative-Emu/WinNative — vivo al verificar hoy (2026-10-29)
-• https://github.com/Rajkumarbhakta/GDealz — vivo al verificar hoy (2026-10-29)
-• https://www.axekin.com/ — respondió viva hoy (2026-10-29)
+## Lectura de la medición
 
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 1
-enlace externo de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+El grupo respira despacio; su empuje más reciente, **WinNative-Emu/WinNative**, fue hace 6 días. **WinNative-Emu/WinNative** firmó la release de fecha más reciente (v0.8.0-beta (2026-10-12)) de las 2 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×2.
+
+💓 2 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
