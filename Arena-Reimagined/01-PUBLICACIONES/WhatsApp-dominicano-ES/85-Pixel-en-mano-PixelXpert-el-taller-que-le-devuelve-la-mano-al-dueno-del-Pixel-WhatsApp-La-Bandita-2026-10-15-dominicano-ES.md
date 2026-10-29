@@ -1,41 +1,31 @@
 *85 — PIXEL EN MANO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 0 activos este mes. Manda **siavash79/PixelXpert** (★2.440): «mixed Xposed+Magisk module for customization of Google Pixel rom of Android 12+». Temas que se repiten en el grupo: customization, magisk-module, xposed-module.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `siavash79/PixelXpert` —
-★2.440, GPL-3.0, último empuje 2026-06-21.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **siavash79/PixelXpert** — «mixed Xposed+Magisk module for customization of Google Pixel rom of Android 12+»
+  ★2.440 · su último empuje fue el 2026-06-21 (hace 132 días) · licencia GPL-3.0 · Java · última release v5.1.1 (2025-12-17) · ARCHIVADO: historia, no opción viva · https://github.com/siavash79/PixelXpert
+  Temas: customization · magisk-module · xposed-module
 
-• `siavash79/PixelXpert` — ★2.440 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-06-21
-· GPL-3.0
-· ARCHIVADO en GitHub: historia, no opción viva
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+El grupo respira despacio; su empuje más reciente, **siavash79/PixelXpert**, fue hace 132 días. Archivado por su autor: **siavash79/PixelXpert**; **siavash79/PixelXpert** firmó la release de fecha más reciente (v5.1.1 (2025-12-17)) de las 1 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×1.
 
-• https://github.com/siavash79/pixelxpert — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Quién publicó la release más reciente del grupo?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* ¿De quién es el empuje más fresco del grupo?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|044.2★ — `trepXlexiP/97hsavais`=1|REV|12-60-6202 — `trepXlexiP/97hsavais`=2
+REV|)71-21-5202( 1.1.5v — trepXlexiP/97hsavais=1|REV|044.2★ — trepXlexiP/97hsavais=2|REV|12-60-6202 — trepXlexiP/97hsavais=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

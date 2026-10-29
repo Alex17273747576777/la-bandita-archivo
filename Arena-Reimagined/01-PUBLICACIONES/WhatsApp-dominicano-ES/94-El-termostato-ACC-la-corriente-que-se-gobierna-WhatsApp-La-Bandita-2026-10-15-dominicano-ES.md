@@ -1,40 +1,31 @@
 *La batería que no vive al límite es la batería que vive años.*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 0 activos este mes. Manda **VR-25/acc** (★2.431): «Advanced Charging Controller». Temas que se repiten en el grupo: acca, accapp, accu, accu-battery.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `VR-25/acc` — ★2.431,
-GPL-3.0, último empuje 2025-06-06.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **VR-25/acc** — «Advanced Charging Controller»
+  ★2.431 · su último empuje fue el 2025-06-06 (hace 512 días) · licencia GPL-3.0 · Shell · última release v2023.10.16 (2023-10-16) · https://github.com/VR-25/acc · Web: https://github.com/Magisk-Modules-Repo/acc
+  Temas: acca · accapp · accu · accu-battery · android · battery-lifespan
 
-• `VR-25/acc` — ★2.431 (verificado 2026-10-29)
-· dormido · última actividad 2025-06-06
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+El grupo respira despacio; su empuje más reciente, **VR-25/acc**, fue hace 512 días. Legalmente el grupo se reparte así: GPL-3.0 ×1; **VR-25/acc** no se mueve desde el 2025-06-06; **VR-25/acc** firmó la release de fecha más reciente (v2023.10.16 (2023-10-16)) de las 1 del grupo.
 
-• https://github.com/vr-25/acc — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Quién manda en estrellas dentro de esta pieza?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* De la pieza, ¿quién empujó más cerca de hoy?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* El repo más quieto del grupo, ¿cuál es?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|134.2★ — `cca/52-RV`=1|REV|60-60-5202 — `cca/52-RV`=2
+REV|134.2★ — cca/52-RV=1|REV|60-60-5202 — cca/52-RV=2|REV|60-60-5202 — cca/52-RV=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

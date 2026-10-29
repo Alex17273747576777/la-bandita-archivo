@@ -1,40 +1,31 @@
 *88 — EL MAPA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **awesome-android-root/awesome-android-root** (★5.568): «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides». Temas que se repiten en el grupo: android, android-app, android-root, android-tweaks.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy:
-`awesome-android-root/awesome-android-root` — ★5.568, MIT, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **awesome-android-root/awesome-android-root** — «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides»
+  ★5.568 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia MIT · JavaScript · última release 6.1 (2026-10-26) · https://github.com/awesome-android-root/awesome-android-root · Web: https://awesome-android-root.xyz
+  Temas: android · android-app · android-root · android-tweaks · apatch · awesome
 
-• `awesome-android-root/awesome-android-root` — ★5.568 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· MIT
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+**awesome-android-root/awesome-android-root** trae la novedad del grupo, su release 6.1 (2026-10-26). Legalmente el grupo se reparte así: MIT ×1; la actividad más fresca es de **awesome-android-root/awesome-android-root** (hace 3 días); **awesome-android-root/awesome-android-root** firmó la release de fecha más reciente (6.1 (2026-10-26)) de las 1 del grupo.
 
-• https://github.com/awesome-android-root/awesome-android-root — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿De quién es el empuje más fresco del grupo?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Quién publicó la release más reciente del grupo?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|865.5★ — `toor-diordna-emosewa/toor-diordna-emosewa`=1|REV|82-01-6202 — `toor-diordna-emosewa/toor-diordna-emosewa`=2
+REV|82-01-6202 — toor-diordna-emosewa/toor-diordna-emosewa=1|REV|)62-01-6202( 1.6 — toor-diordna-emosewa/toor-diordna-emosewa=2|REV|865.5★ — toor-diordna-emosewa/toor-diordna-emosewa=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

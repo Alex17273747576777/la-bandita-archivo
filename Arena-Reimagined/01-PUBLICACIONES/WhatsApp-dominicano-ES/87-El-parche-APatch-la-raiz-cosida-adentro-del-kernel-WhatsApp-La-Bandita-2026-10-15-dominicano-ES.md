@@ -1,47 +1,35 @@
 *87 — EL PARCHE*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **bmax121/APatch** (★8.104): «The patching of Android kernel and Android system». Le sigue **awesome-android-root/awesome-android-root** (★5.568): «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: android, android-app, android-root, android-tweaks.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 2 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `bmax121/APatch` — ★8.104,
-GPL-3.0, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **bmax121/APatch** — «The patching of Android kernel and Android system»
+  ★8.104 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 11282 (2026-10-15) · https://github.com/bmax121/APatch
+  Temas: android · inline-hook · kernel · magisk · magisk-module · patch
 
-• `bmax121/APatch` — ★8.104 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **awesome-android-root/awesome-android-root** — «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides»
+  ★5.568 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia MIT · JavaScript · última release 6.1 (2026-10-26) · https://github.com/awesome-android-root/awesome-android-root · Web: https://awesome-android-root.xyz
+  Temas: android · android-app · android-root · android-tweaks · apatch · awesome
 
-• `awesome-android-root/awesome-android-root` — ★5.568 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· MIT
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **awesome-android-root/awesome-android-root**: release 6.1 (2026-10-26). El empuje más reciente es de **bmax121/APatch** (hace 3 días); 2 repos tienen release y la más reciente es la de **awesome-android-root/awesome-android-root** (6.1 (2026-10-26)); en licencias: GPL-3.0 ×1, MIT ×1.
 
-• https://github.com/bmax121/apatch — vivo al verificar hoy (2026-10-29)
-• https://github.com/awesome-android-root/awesome-android-root — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Bajo qué licencia se publica awesome-android-root/awesome-android-root?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál fue el último repo del grupo en empujar código?
 
-*2.* ¿Qué licencia firma `awesome-android-root/awesome-android-root`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Quién manda en estrellas dentro de esta pieza?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|401.8★ — `hctaPA/121xamb`=1|REV|TIM=2|REV|82-01-6202 — `hctaPA/121xamb`=3
+REV|TIM=1|REV|82-01-6202 — hctaPA/121xamb=2|REV|401.8★ — hctaPA/121xamb=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

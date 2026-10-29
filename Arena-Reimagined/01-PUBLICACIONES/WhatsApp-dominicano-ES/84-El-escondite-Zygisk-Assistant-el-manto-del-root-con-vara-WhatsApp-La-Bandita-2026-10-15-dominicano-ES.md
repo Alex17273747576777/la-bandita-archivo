@@ -1,40 +1,30 @@
 *84 — EL ESCONDITE*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **snake-4/Zygisk-Assistant** (★2.662): «A Zygisk module to hide root for KernelSU, Magisk and APatch, designed to work on Android 5.0 and above.». Con actividad en los últimos 30 días: 0 de 1.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `snake-4/Zygisk-Assistant` —
-★2.662, MIT, último empuje 2026-05-04.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **snake-4/Zygisk-Assistant** — «A Zygisk module to hide root for KernelSU, Magisk and APatch, designed to work on Android 5.0 and above.»
+  ★2.662 · su último empuje fue el 2026-05-04 (hace 180 días) · licencia MIT · C++ · última release v2.1.4 (2025-02-23) · https://github.com/snake-4/Zygisk-Assistant
 
-• `snake-4/Zygisk-Assistant` — ★2.662 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-05-04
-· MIT
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Sin sobresaltos: el empuje más cercano es de **snake-4/Zygisk-Assistant** (hace 180 días). En licencias: MIT ×1; 1 repos tienen release y la más reciente es la de **snake-4/Zygisk-Assistant** (v2.1.4 (2025-02-23)).
 
-• https://github.com/snake-4/zygisk-assistant — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Cuál fue el último repo del grupo en empujar código?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Quién manda en estrellas dentro de esta pieza?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|266.2★ — `tnatsissA-ksigyZ/4-ekans`=1|REV|40-50-6202 — `tnatsissA-ksigyZ/4-ekans`=2
+REV|40-50-6202 — tnatsissA-ksigyZ/4-ekans=1|REV|266.2★ — tnatsissA-ksigyZ/4-ekans=2|REV|)32-20-5202( 4.1.2v — tnatsissA-ksigyZ/4-ekans=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

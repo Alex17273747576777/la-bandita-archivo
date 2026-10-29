@@ -1,40 +1,31 @@
 *80 — EL MAPA DEL SALÓN*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**scummvm/scummvm** encabeza esta entrega con ★2.870 medidos hoy: «ScummVM main repository». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: adventure-engine, adventure-games, multiplatform, rpg-engine.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `scummvm/scummvm` — ★2.870,
-GPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **scummvm/scummvm** — «ScummVM main repository»
+  ★2.870 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · C++ · última release v2026.4.0 (2026-10-11) · https://github.com/scummvm/scummvm · Web: https://www.scummvm.org
+  Temas: adventure-engine · adventure-games · multiplatform · rpg-engine
 
-• `scummvm/scummvm` — ★2.870 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **scummvm/scummvm**, hace 2 días. El parte legal dice GPL-3.0 ×1; con releases publicadas hay 1; manda la de **scummvm/scummvm** (v2026.4.0 (2026-10-11)).
 
-• https://github.com/scummvm/scummvm — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* De esta pieza, ¿qué repo mide más estrellas hoy?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿De quién es el empuje más fresco del grupo?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* La release más nueva de la pieza, ¿de qué repo es?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|078.2★ — `mvmmucs/mvmmucs`=1|REV|92-01-6202 — `mvmmucs/mvmmucs`=2
+REV|078.2★ — mvmmucs/mvmmucs=1|REV|92-01-6202 — mvmmucs/mvmmucs=2|REV|)11-01-6202( 0.4.6202v — mvmmucs/mvmmucs=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
