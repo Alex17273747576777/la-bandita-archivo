@@ -1,57 +1,37 @@
 # Publicación 7 — EL ÁRBOL VECINO MEDIDO ESTA MAÑANA: USAGI VIVA, EL MAESTRO EN SU MUSEO, Y EL PUENTE QUE NADIE TITULÓ
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 7 repos de la pieza: 7 vivos, 4 activos este mes. Manda **KotatsuApp/Kotatsu** (★8.943): «Manga reader for Android». Le sigue **Kototoro-app/Kototoro** (★653): «Manga, Novel, and Video reader for Android». Temas que se repiten en el grupo: android, comic, comics, doujinshi.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 7 repos: 2 empujaron hoy, 1 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `KotatsuApp/Kotatsu` —
-★8.943, GPL-3.0, último empuje 2025-11-04.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **KotatsuApp/Kotatsu** — «Manga reader for Android»
+  ★8.943 · su último empuje fue el 2025-11-04 (hace 361 días) · licencia GPL-3.0 · Kotlin · ARCHIVADO: historia, no opción viva · https://github.com/KotatsuApp/Kotatsu · Web: https://kotatsu.app
+  Temas: android · comics · manga · manga-reader · mangareader · webtoon
 
-• `KotatsuApp/Kotatsu` — ★8.943 (verificado 2026-10-29)
-· dormido · última actividad 2025-11-04
-· GPL-3.0
-· ARCHIVADO en GitHub: historia, no opción viva
+- **Kototoro-app/Kototoro** — «Manga, Novel, and Video reader for Android»
+  ★653 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v2.3.4 (2026-10-29) · https://github.com/Kototoro-app/Kototoro
 
-• `Kototoro-app/Kototoro` — ★653 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **AppFuton/Futon** — «Manga reader for Android»
+  ★467 · su último empuje fue el 2026-10-21 (hace 10 días) · licencia GPL-3.0 · Kotlin · última release v9.9 (2026-10-21) · https://github.com/AppFuton/Futon · Web: https://futon.wtf
+  Temas: android · comics · kotatsu · manga · manga-reader · mangareader
 
-• `AppFuton/Futon` — ★467 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-21
-· GPL-3.0
+- **UsagiApp/Usagi** — «Just a simple, free and open-source manga reader for Android 5.0+»
+  ★286 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.2 (2026-10-03) · https://github.com/UsagiApp/Usagi · Web: https://yumemi.moe/usagi
+  Temas: android · comic · doujinshi · hentai · manga · material
 
-• `UsagiApp/Usagi` — ★286 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **Gekkoushi/plugin-source** — «Manga Parsers library for Kotlin/JVM and Android»
+  ★93 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia GPL-3.0 · Kotlin · última release 1.2.6 (2026-08-10) · https://github.com/Gekkoushi/plugin-source
 
-• `Gekkoushi/plugin-source` — ★93 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-14
-· GPL-3.0
+- **InvalidDavid/UMA** — «UMA Plugin for the Usagi App or other Kotatsu Forks.»
+  ★82 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 83bcf88 (2026-10-22) · https://github.com/InvalidDavid/UMA · Web: https://yumemi.moe/usagi
 
-• `InvalidDavid/UMA` — ★82 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **Gekkoushi/plugin** — «This repository contains plugin artifacts for Usagi and any apps that use the same structure with Tsuki.»
+  ★11 · su último empuje fue el 2026-09-13 (hace 48 días) · licencia sin archivo LICENSE en su repo (verificado) · última release 75af884 (2026-08-10) · https://github.com/Gekkoushi/plugin
 
-• `Gekkoushi/plugin` — ★11 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-13
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**Kototoro-app/Kototoro** trae la novedad del grupo, su release v2.3.4 (2026-10-29). Legalmente el grupo se reparte así: GPL-3.0 ×5, Apache-2.0 ×1, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivado por su autor: **KotatsuApp/Kotatsu**; la actividad más fresca es de **Kototoro-app/Kototoro** (hace 2 días); **KotatsuApp/Kotatsu** no se mueve desde el 2025-11-04; **Kototoro-app/Kototoro** firmó la release de fecha más reciente (v2.3.4 (2026-10-29)) de las 6 del grupo.
 
-• https://github.com/kotatsuapp/kotatsu — vivo al verificar hoy (2026-10-29)
-• https://github.com/appfuton/futon — vivo al verificar hoy (2026-10-29)
-• https://github.com/invaliddavid/uma — vivo al verificar hoy (2026-10-29)
-• https://github.com/kototoro-app/kototoro — vivo al verificar hoy (2026-10-29)
-• https://github.com/usagiapp/usagi — vivo al verificar hoy (2026-10-29)
-• https://github.com/gekkoushi/plugin — vivo al verificar hoy (2026-10-29)
-• https://github.com/gekkoushi/plugin-source — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 7 repos GitHub (7 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 7 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.

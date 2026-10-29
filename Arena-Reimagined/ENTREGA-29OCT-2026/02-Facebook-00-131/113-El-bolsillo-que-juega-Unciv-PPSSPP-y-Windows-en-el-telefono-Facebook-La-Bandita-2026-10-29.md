@@ -1,36 +1,24 @@
 # Publicación 113 — El bolsillo que juega: Unciv, PPSSPP y Windows en el teléfono
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **brunodev85/winlator** (★19.684): «Android application for running Windows applications with Wine and Box86/Box64». Le sigue **hrydgard/ppsspp** (★14.782): «A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.». Con actividad en los últimos 30 días: 3 de 3. Temas que se repiten en el grupo: 4x, 4x-strategy-game, android, civ.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `brunodev85/winlator` —
-★19.684, LGPL-2.1, último empuje 2026-10-17.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **brunodev85/winlator** — «Android application for running Windows applications with Wine and Box86/Box64»
+  ★19.684 · su último empuje fue el 2026-10-17 (hace 14 días) · licencia LGPL-2.1 · C · última release v11.2.0 (2026-08-19) · https://github.com/brunodev85/winlator · Web: https://winlator.org
 
-• `brunodev85/winlator` — ★19.684 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-17
-· LGPL-2.1
+- **hrydgard/ppsspp** — «A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.»
+  ★14.782 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 (según texto de su repo, 29-oct-2026) · C++ · última release v1.20.4 (2026-05-16) · https://github.com/hrydgard/ppsspp · Web: https://www.ppsspp.org
+  Temas: emulators · ppsspp · psp
 
-• `hrydgard/ppsspp` — ★14.782 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **yairm210/Unciv** — «Open-source Android/Desktop remake of Civ V»
+  ★11.499 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MPL-2.0 · Kotlin · última release 4.22.15 (2026-10-28) · https://github.com/yairm210/Unciv
+  Temas: 4x · 4x-strategy-game · android · civ · civilization · civilization-v
 
-• `yairm210/Unciv` — ★11.499 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MPL-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+La noticia fresca es de **yairm210/Unciv**: release 4.22.15 (2026-10-28). El empuje más reciente es de **yairm210/Unciv** (hace 2 días); 3 repos tienen release y la más reciente es la de **yairm210/Unciv** (4.22.15 (2026-10-28)); en licencias: MPL-2.0 ×1, GPL-2.0 (según texto de su repo, 29-oct-2026) ×1, LGPL-2.1 ×1.
 
-• https://github.com/yairm210/unciv — vivo al verificar hoy (2026-10-29)
-• https://github.com/hrydgard/ppsspp — vivo al verificar hoy (2026-10-29)
-• https://github.com/brunodev85/winlator — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

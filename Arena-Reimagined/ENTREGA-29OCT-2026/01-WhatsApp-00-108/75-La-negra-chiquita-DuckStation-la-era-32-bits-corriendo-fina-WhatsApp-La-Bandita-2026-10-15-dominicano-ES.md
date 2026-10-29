@@ -1,40 +1,31 @@
 *75 — LA NEGRA CHIQUITA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **stenzek/duckstation** (★10.915): «Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64». Con actividad en los últimos 30 días: 1 de 1. Temas que se repiten en el grupo: appimage, emulator, enhancements, fast.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `stenzek/duckstation` —
-★10.915, NOASSERTION, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **stenzek/duckstation** — «Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64»
+  ★10.915 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia CC (según texto de su repo, 29-oct-2026) · C++ · última release latest (2026-10-25) · https://github.com/stenzek/duckstation
+  Temas: appimage · emulator · enhancements · fast · hardware-renderers · jit-compiler
 
-• `stenzek/duckstation` — ★10.915 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **stenzek/duckstation**: release latest (2026-10-25). El empuje más reciente es de **stenzek/duckstation** (hace 2 días); 1 repos tienen release y la más reciente es la de **stenzek/duckstation** (latest (2026-10-25)); en licencias: CC (según texto de su repo, 29-oct-2026) ×1.
 
-• https://github.com/stenzek/duckstation — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* De la pieza, ¿quién empujó más cerca de hoy?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* Con los números de hoy, ¿qué repo de la pieza va primero en ★?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|519.01★ — `noitatskcud/keznets`=1|REV|92-01-6202 — `noitatskcud/keznets`=2
+REV|)52-01-6202( tsetal — noitatskcud/keznets=1|REV|92-01-6202 — noitatskcud/keznets=2|REV|519.01★ — noitatskcud/keznets=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

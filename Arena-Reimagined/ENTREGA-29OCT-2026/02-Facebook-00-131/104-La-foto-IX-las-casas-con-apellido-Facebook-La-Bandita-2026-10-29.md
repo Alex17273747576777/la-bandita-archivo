@@ -1,36 +1,23 @@
 # Publicación 104 — La foto IX: las casas con apellido
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **Kototoro-app/Kototoro** (★653): «Manga, Novel, and Video reader for Android». Le sigue **aayush2622/Dartotsu** (★545): «A multiplatform tracking client based on Dantotsu». Temas que se repiten en el grupo: android, anilist, anime, dart.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 3 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `Kototoro-app/Kototoro` —
-★653, Apache-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **Kototoro-app/Kototoro** — «Manga, Novel, and Video reader for Android»
+  ★653 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v2.3.4 (2026-10-29) · https://github.com/Kototoro-app/Kototoro
 
-• `Kototoro-app/Kototoro` — ★653 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **aayush2622/Dartotsu** — «A multiplatform tracking client based on Dantotsu»
+  ★545 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Dart · última release v1.1.1 (2026-10-23) · https://github.com/aayush2622/Dartotsu
+  Temas: android · anilist · anime · dart · flutter · ios
 
-• `aayush2622/Dartotsu` — ★545 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **andarcanum/Tadami-Aniyomi-fork** — «An app for manga, anime and ranobe»
+  ★287 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v0.63.2 (2026-10-27) · https://github.com/andarcanum/Tadami-Aniyomi-fork
 
-• `andarcanum/Tadami-Aniyomi-fork` — ★287 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**Kototoro-app/Kototoro** trae la novedad del grupo, su release v2.3.4 (2026-10-29). Legalmente el grupo se reparte así: Apache-2.0 ×2, GPL-3.0 (según texto de su repo, 29-oct-2026) ×1; la actividad más fresca es de **Kototoro-app/Kototoro** (hace 2 días); **Kototoro-app/Kototoro** firmó la release de fecha más reciente (v2.3.4 (2026-10-29)) de las 3 del grupo.
 
-• https://github.com/kototoro-app/kototoro — vivo al verificar hoy (2026-10-29)
-• https://github.com/aayush2622/dartotsu — vivo al verificar hoy (2026-10-29)
-• https://github.com/andarcanum/tadami-aniyomi-fork — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

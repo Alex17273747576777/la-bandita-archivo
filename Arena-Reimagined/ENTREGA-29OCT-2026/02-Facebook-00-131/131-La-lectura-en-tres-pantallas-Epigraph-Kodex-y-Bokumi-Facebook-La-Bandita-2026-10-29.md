@@ -1,36 +1,24 @@
 # Publicación 131 — La lectura en tres pantallas: Epigraph, Kodex y Bokumi
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **johnnylord1/Epigraph** (★0): «Epigraph - cross-platform manga, novel, EPUB, and PDF reader for desktop and Android.». Le sigue **Demacish/kodex** (★0): «Self-hosted library server and reader for comics, manga and e-books: web client, Android app, OPDS, KOReader and Kobo sync». Temas que se repiten en el grupo: android, anilist, comics, cross-platform.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 3 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `johnnylord1/Epigraph` — ★0,
-Apache-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **johnnylord1/Epigraph** — «Epigraph - cross-platform manga, novel, EPUB, and PDF reader for desktop and Android.»
+  ★0 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release stable (2026-10-14) · https://github.com/johnnylord1/Epigraph
+  Temas: android · cross-platform · epigraph · epub-reader · manga-reader · novel-reader
 
-• `johnnylord1/Epigraph` — ★0 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **Demacish/kodex** — «Self-hosted library server and reader for comics, manga and e-books: web client, Android app, OPDS, KOReader and Kobo sync»
+  ★0 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Python · última release v2.2.0 (2026-10-29) · https://github.com/Demacish/kodex
 
-• `Demacish/kodex` — ★0 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **devCaspian-hash/Bokumi-App** — «Bokumi ボクミ · a manga reader for iPhone, iPad & Android. Right-to-left & webtoon reader, Mihon/Tachiyomi extensions, offline downloads, sync. Free to use, no ads.»
+  ★0 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin SPDX de GitHub: no se inventa · https://github.com/devCaspian-hash/Bokumi-App
+  Temas: android · anilist · comics · ios · liquid-glass · manga
 
-• `devCaspian-hash/Bokumi-App` — ★0 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin clasificar por GitHub hoy (sin SPDX): no se inventa
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**Demacish/kodex** trae la novedad del grupo, su release v2.2.0 (2026-10-29). Legalmente el grupo se reparte así: Apache-2.0 ×1, MIT ×1, sin SPDX de GitHub: no se inventa ×1; la actividad más fresca es de **johnnylord1/Epigraph** (hace 2 días); **Demacish/kodex** firmó la release de fecha más reciente (v2.2.0 (2026-10-29)) de las 2 del grupo.
 
-• https://github.com/johnnylord1/epigraph — vivo al verificar hoy (2026-10-29)
-• https://github.com/demacish/kodex — vivo al verificar hoy (2026-10-29)
-• https://github.com/devcaspian-hash/bokumi-app — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

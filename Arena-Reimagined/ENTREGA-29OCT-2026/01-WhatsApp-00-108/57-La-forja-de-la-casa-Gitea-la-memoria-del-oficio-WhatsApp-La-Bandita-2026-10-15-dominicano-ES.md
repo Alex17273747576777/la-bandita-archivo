@@ -1,40 +1,31 @@
 *57 — LA FORJA DE LA CASA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**go-gitea/gitea** encabeza esta entrega con ★58.766 medidos hoy: «Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: bitbucket, cicd, devops, docker-registry-v2.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `go-gitea/gitea` — ★58.766,
-MIT, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **go-gitea/gitea** — «Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD»
+  ★58.766 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Go · última release v28.2.0 (2026-10-18) · https://github.com/go-gitea/gitea · Web: https://gitea.com
+  Temas: bitbucket · cicd · devops · docker-registry-v2 · git · git-gui
 
-• `go-gitea/gitea` — ★58.766 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **go-gitea/gitea**, hace 2 días. El parte legal dice MIT ×1; con releases publicadas hay 1; manda la de **go-gitea/gitea** (v28.2.0 (2026-10-18)).
 
-• https://github.com/go-gitea/gitea — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* La release más nueva de la pieza, ¿de qué repo es?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* ¿De quién es el empuje más fresco del grupo?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|667.85★ — `aetig/aetig-og`=1|REV|92-01-6202 — `aetig/aetig-og`=2
+REV|)81-01-6202( 0.2.82v — aetig/aetig-og=1|REV|667.85★ — aetig/aetig-og=2|REV|92-01-6202 — aetig/aetig-og=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

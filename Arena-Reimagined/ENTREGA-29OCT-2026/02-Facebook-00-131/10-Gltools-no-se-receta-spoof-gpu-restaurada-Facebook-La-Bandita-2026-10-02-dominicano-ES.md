@@ -1,31 +1,20 @@
-# Publicación 10 — GLTools no se receta: el letrero que sobrevivió a su propia muerte, el spoof de GPU explicado sin teatro y el 
+# Publicación 10 — GLTools no se receta: el letrero que sobrevivió a su propia muerte, el spoof de GPU explicado sin teatro y el
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 0 activos este mes. Manda **i-Taylo/iUnlockerGL** (★108): «iUnlocker GLTool is a Magisk module designed to spoof GPU information, allowing users to modify GPU informations for unlocking graphics in games and testing.». Le sigue **darek2015/GLTools** (★12): «Modified version of official GLTools to add support Magisk 20+ compability.». Temas que se repiten en el grupo: android, android-app, android-development, android-gpu.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 2 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `i-Taylo/iUnlockerGL` — ★108,
-NOASSERTION, último empuje 2025-12-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **i-Taylo/iUnlockerGL** — «iUnlocker GLTool is a Magisk module designed to spoof GPU information, allowing users to modify GPU informations for unlocking graphics in games and testing.»
+  ★108 · su último empuje fue el 2025-12-29 (hace 306 días) · licencia licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) · Shell · última release v1.1.5-r4 (2025-12-29) · https://github.com/i-Taylo/iUnlockerGL
+  Temas: android · android-app · android-development · android-gpu · device-spoofing · game-unlock
 
-• `i-Taylo/iUnlockerGL` — ★108 (verificado 2026-10-29)
-· dormido · última actividad 2025-12-29
-· NOASSERTION
+- **darek2015/GLTools** — «Modified version of official GLTools to add support Magisk 20+ compability.»
+  ★12 · su último empuje fue el 2020-05-05 (hace 2370 días) · licencia GPL-2.0 · https://github.com/darek2015/GLTools
 
-• `darek2015/GLTools` — ★12 (verificado 2026-10-29)
-· dormido · última actividad 2020-05-05
-· GPL-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+El grupo respira despacio; su empuje más reciente, **i-Taylo/iUnlockerGL**, fue hace 306 días. Legalmente el grupo se reparte así: GPL-2.0 ×1, licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) ×1; **darek2015/GLTools** no se mueve desde el 2020-05-05; **i-Taylo/iUnlockerGL** firmó la release de fecha más reciente (v1.1.5-r4 (2025-12-29)) de las 1 del grupo.
 
-• https://github.com/darek2015/gltools — vivo al verificar hoy (2026-10-29)
-• https://github.com/i-taylo/iunlockergl — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

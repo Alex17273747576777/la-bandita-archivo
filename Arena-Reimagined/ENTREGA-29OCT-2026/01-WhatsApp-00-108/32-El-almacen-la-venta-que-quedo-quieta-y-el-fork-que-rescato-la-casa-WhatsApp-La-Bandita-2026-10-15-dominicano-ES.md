@@ -1,47 +1,35 @@
 *32 — EL ALMACÉN*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **FossifyOrg/File-Manager** (★1.845): «Easy app for managing your files without ads, respecting your privacy & security». Le sigue **SimpleMobileTools/Simple-File-Manager** (★1.584): «Easy app for managing your files without ads, respecting your privacy & security». Con actividad en los últimos 30 días: 1 de 2. Temas que se repiten en el grupo: android, android-development, file-manager, foss.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `FossifyOrg/File-Manager` —
-★1.845, GPL-3.0, último empuje 2026-10-27.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **FossifyOrg/File-Manager** — «Easy app for managing your files without ads, respecting your privacy & security»
+  ★1.845 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release 1.6.3 (2026-10-24) · https://github.com/FossifyOrg/File-Manager · Web: https://www.fossify.org/apps/file-manager/
+  Temas: android · file-manager · foss · kotlin · open-source
 
-• `FossifyOrg/File-Manager` — ★1.845 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-27
-· GPL-3.0
+- **SimpleMobileTools/Simple-File-Manager** — «Easy app for managing your files without ads, respecting your privacy & security»
+  ★1.584 · su último empuje fue el 2024-06-11 (hace 872 días) · licencia GPL-3.0 · Kotlin · última release 6.16.1 (2023-09-19) · https://github.com/SimpleMobileTools/Simple-File-Manager · Web: https://www.simplemobiletools.com
+  Temas: android · android-development · file-manager · freedom · kotlin · opensource
 
-• `SimpleMobileTools/Simple-File-Manager` — ★1.584 (verificado 2026-10-29)
-· dormido · última actividad 2024-06-11
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **FossifyOrg/File-Manager**: release 1.6.3 (2026-10-24). 2 repos tienen release y la más reciente es la de **FossifyOrg/File-Manager** (1.6.3 (2026-10-24)); en licencias: GPL-3.0 ×2; el empuje más reciente es de **FossifyOrg/File-Manager** (hace 4 días); **SimpleMobileTools/Simple-File-Manager** duerme desde el 2024-06-11.
 
-• https://github.com/simplemobiletools/simple-file-manager — vivo al verificar hoy (2026-10-29)
-• https://github.com/fossifyorg/file-manager — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* De esta pieza, ¿qué repo mide más estrellas hoy?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* La licencia de SimpleMobileTools/Simple-File-Manager, ¿cuál es?
 
-*2.* ¿Qué licencia firma `SimpleMobileTools/Simple-File-Manager`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|548.1★ — `reganaM-eliF/grOyfissoF`=1|REV|0.3-LPG=2|REV|72-01-6202 — `reganaM-eliF/grOyfissoF`=3
+REV|548.1★ — reganaM-eliF/grOyfissoF=1|REV|0.3-LPG=2|REV|)42-01-6202( 3.6.1 — reganaM-eliF/grOyfissoF=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

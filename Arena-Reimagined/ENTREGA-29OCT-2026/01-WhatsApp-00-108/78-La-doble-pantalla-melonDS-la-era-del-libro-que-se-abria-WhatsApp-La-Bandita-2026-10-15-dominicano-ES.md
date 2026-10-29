@@ -1,40 +1,31 @@
 *78 — LA DOBLE PANTALLA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **melonDS-emu/melonDS** (★5.168): «DS emulator, sorta». Temas que se repiten en el grupo: dsi, emulator, nds.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `melonDS-emu/melonDS` —
-★5.168, GPL-3.0, último empuje 2026-10-27.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **melonDS-emu/melonDS** — «DS emulator, sorta»
+  ★5.168 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · C++ · última release 1.1 (2025-11-18) · https://github.com/melonDS-emu/melonDS · Web: https://melonds.kuribo64.net
+  Temas: dsi · emulator · nds
 
-• `melonDS-emu/melonDS` — ★5.168 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-27
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+El grupo respira despacio; su empuje más reciente, **melonDS-emu/melonDS**, fue hace 4 días. Legalmente el grupo se reparte así: GPL-3.0 ×1; **melonDS-emu/melonDS** firmó la release de fecha más reciente (1.1 (2025-11-18)) de las 1 del grupo.
 
-• https://github.com/melonDS-emu/melonDS — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* De esta pieza, ¿qué repo mide más estrellas hoy?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Quién publicó la release más reciente del grupo?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* ¿De quién es el empuje más fresco del grupo?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|861.5★ — `SDnolem/ume-SDnolem`=1|REV|72-01-6202 — `SDnolem/ume-SDnolem`=2
+REV|861.5★ — SDnolem/ume-SDnolem=1|REV|)81-11-5202( 1.1 — SDnolem/ume-SDnolem=2|REV|72-01-6202 — SDnolem/ume-SDnolem=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

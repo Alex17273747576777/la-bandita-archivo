@@ -1,47 +1,35 @@
 *42 — EL FARO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**celzero/rethink-app** encabeza esta entrega con ★5.810 medidos hoy: «DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android.». La pieza cita 2 repos (2 vivos) y 1 empujaron en los últimos 30 días. Le sigue **serverless-dns/serverless-dns** (★3.832): «The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io». Temas que se repiten en el grupo: adblock, android, android-app, android-application.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `celzero/rethink-app` —
-★5.810, Apache-2.0, último empuje 2026-10-26.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **celzero/rethink-app** — «DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android.»
+  ★5.810 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release v0.5.8 (2026-10-13) · https://github.com/celzero/rethink-app · Web: https://rethinkfirewall.com/
+  Temas: android · android-app · android-application · android-firewall · anti-censorship · anti-surveillance
 
-• `celzero/rethink-app` — ★5.810 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· Apache-2.0
+- **serverless-dns/serverless-dns** — «The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io»
+  ★3.832 · su último empuje fue el 2026-05-06 (hace 178 días) · licencia MPL-2.0 · JavaScript · https://github.com/serverless-dns/serverless-dns · Web: https://rethinkdns.com/configure
+  Temas: adblock · cloudflare · cloudflare-workers · deno · dns-over-https · dns-over-tls
 
-• `serverless-dns/serverless-dns` — ★3.832 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-05-06
-· MPL-2.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **celzero/rethink-app**, hace 5 días. El parte legal dice Apache-2.0 ×1, MPL-2.0 ×1; con releases publicadas hay 1; manda la de **celzero/rethink-app** (v0.5.8 (2026-10-13)).
 
-• https://github.com/celzero/rethink-app — vivo al verificar hoy (2026-10-29)
-• https://github.com/serverless-dns/serverless-dns — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* La release más nueva de la pieza, ¿de qué repo es?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Quién manda en estrellas dentro de esta pieza?
 
-*2.* ¿Qué licencia firma `serverless-dns/serverless-dns`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Cuál fue el último repo del grupo en empujar código?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|018.5★ — `ppa-knihter/orezlec`=1|REV|0.2-LPM=2|REV|62-01-6202 — `ppa-knihter/orezlec`=3
+REV|)31-01-6202( 8.5.0v — ppa-knihter/orezlec=1|REV|018.5★ — ppa-knihter/orezlec=2|REV|62-01-6202 — ppa-knihter/orezlec=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

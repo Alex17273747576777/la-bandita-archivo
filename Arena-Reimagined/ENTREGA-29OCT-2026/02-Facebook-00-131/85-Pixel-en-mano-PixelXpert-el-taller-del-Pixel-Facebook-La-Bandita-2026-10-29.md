@@ -1,27 +1,17 @@
 # Publicación 85 — Pixel en mano: PixelXpert y la lección del taller archivado
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**siavash79/PixelXpert** encabeza esta entrega con ★2.440 medidos hoy: «mixed Xposed+Magisk module for customization of Google Pixel rom of Android 12+». La pieza cita 1 repos (1 vivos) y 0 empujaron en los últimos 30 días. Temas que se repiten en el grupo: customization, magisk-module, xposed-module.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `siavash79/PixelXpert` —
-★2.440, GPL-3.0, último empuje 2026-06-21.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **siavash79/PixelXpert** — «mixed Xposed+Magisk module for customization of Google Pixel rom of Android 12+»
+  ★2.440 · su último empuje fue el 2026-06-21 (hace 132 días) · licencia GPL-3.0 · Java · última release v5.1.1 (2025-12-17) · ARCHIVADO: historia, no opción viva · https://github.com/siavash79/PixelXpert
+  Temas: customization · magisk-module · xposed-module
 
-• `siavash79/PixelXpert` — ★2.440 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-06-21
-· GPL-3.0
-· ARCHIVADO en GitHub: historia, no opción viva
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Pulso tranquilo: lo último que se movió fue **siavash79/PixelXpert**, hace 132 días. El parte legal dice GPL-3.0 ×1; archivado por su autor: **siavash79/PixelXpert**; con releases publicadas hay 1; manda la de **siavash79/PixelXpert** (v5.1.1 (2025-12-17)).
 
-• https://github.com/siavash79/pixelxpert — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

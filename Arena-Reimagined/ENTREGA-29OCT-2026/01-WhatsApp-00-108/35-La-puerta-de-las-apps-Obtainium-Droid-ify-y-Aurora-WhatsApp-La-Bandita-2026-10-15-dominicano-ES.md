@@ -1,57 +1,42 @@
 *35 — LA PUERTA DE LAS APPS*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**koreader/koreader** encabeza esta entrega con ★30.736 medidos hoy: «An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices». La pieza cita 4 repos (4 vivos) y 3 empujaron en los últimos 30 días. Le sigue **ImranR98/Obtainium** (★21.019): «Get Android app updates straight from the source.». Temas que se repiten en el grupo: android, android-application, apk, apk-update.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 4 repos: 1 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `koreader/koreader` —
-★30.735, AGPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **koreader/koreader** — «An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices»
+  ★30.736 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Lua · última release v2026.07.1 (2026-08-01) · https://github.com/koreader/koreader · Web: http://koreader.rocks/
+  Temas: cbz · djvu · djvu-reflow · ebook · ebook-reader · eink
 
-• `koreader/koreader` — ★30.735 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **ImranR98/Obtainium** — «Get Android app updates straight from the source.»
+  ★21.019 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Dart · última release v1.7.3 (2026-10-25) · https://github.com/ImranR98/Obtainium · Web: https://obtainium.imranr.dev
+  Temas: android · apk · apk-update · apk-updater · app-updater · automation
 
-• `ImranR98/Obtainium` — ★21.017 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· GPL-3.0
+- **Droid-ify/client** — «Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client»
+  ★7.661 · su último empuje fue el 2026-09-12 (hace 49 días) · licencia GPL-3.0 · Kotlin · última release v0.7.8 (2026-09-12) · https://github.com/Droid-ify/client · Web: https://droidify.app/
+  Temas: android · android-application · fdroid · kotlin · kotlin-android · kotlin-flow
 
-• `Droid-ify/client` — ★7.661 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-12
-· GPL-3.0
+- **whyorean/AuroraStore** — su repo no trae descripción oficial
+  ★3.198 · su último empuje fue el 2026-10-02 (hace 29 días) · licencia GPL-3.0 · Kotlin · https://github.com/whyorean/AuroraStore
 
-• `whyorean/AuroraStore` — ★3.198 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-02
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Hay release de esta semana: **ImranR98/Obtainium** publicó v1.7.3 (2026-10-25). Con releases publicadas hay 3; manda la de **ImranR98/Obtainium** (v1.7.3 (2026-10-25)); el parte legal dice GPL-3.0 ×3, AGPL-3.0 ×1; lo último empujado lo firmó **koreader/koreader** hace 2 días.
 
-• https://github.com/koreader/koreader — vivo al verificar hoy (2026-10-29)
-• https://github.com/imranr98/obtainium — vivo al verificar hoy (2026-10-29)
-• https://github.com/whyorean/aurorastore — vivo al verificar hoy (2026-10-29)
-• https://github.com/droid-ify/client — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Con qué licencia sale ImranR98/Obtainium?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* De esta pieza, ¿qué repo mide más estrellas hoy?
 
-*2.* ¿Qué licencia firma `ImranR98/Obtainium`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿De quién es el empuje más fresco del grupo?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|537.03★ — `redaerok/redaerok`=1|REV|0.3-LPG=2|REV|92-01-6202 — `redaerok/redaerok`=3
+REV|0.3-LPG=1|REV|637.03★ — redaerok/redaerok=2|REV|92-01-6202 — redaerok/redaerok=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 4 repos GitHub (4 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

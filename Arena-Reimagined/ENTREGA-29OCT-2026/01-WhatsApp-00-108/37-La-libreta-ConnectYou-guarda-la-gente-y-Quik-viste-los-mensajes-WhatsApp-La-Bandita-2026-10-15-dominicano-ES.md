@@ -1,47 +1,34 @@
 *37 — LA LIBRETA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 0 activos este mes. Manda **quik-sms/quik** (★2.877): «The most beautiful SMS messenger for Android - Revived». Le sigue **you-apps/ConnectYou** (★729): «Privacy focused contacts and SMS messenger app built with MD3». Temas que se repiten en el grupo: android, contacts, kotlin.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `quik-sms/quik` — ★2.877,
-GPL-3.0, último empuje 2026-09-27.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **quik-sms/quik** — «The most beautiful SMS messenger for Android - Revived»
+  ★2.877 · su último empuje fue el 2026-09-27 (hace 34 días) · licencia GPL-3.0 · Java · última release v4.3.7 (2026-09-23) · https://github.com/quik-sms/quik
 
-• `quik-sms/quik` — ★2.877 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-27
-· GPL-3.0
+- **you-apps/ConnectYou** — «Privacy focused contacts and SMS messenger app built with MD3»
+  ★729 · su último empuje fue el 2026-07-30 (hace 93 días) · licencia GPL-3.0 · Kotlin · última release v12.0 (2026-07-04) · https://github.com/you-apps/ConnectYou · Web: https://you-apps.net
+  Temas: android · contacts · kotlin
 
-• `you-apps/ConnectYou` — ★729 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-07-30
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+El grupo respira despacio; su empuje más reciente, **quik-sms/quik**, fue hace 34 días. Legalmente el grupo se reparte así: GPL-3.0 ×2; **quik-sms/quik** firmó la release de fecha más reciente (v4.3.7 (2026-09-23)) de las 2 del grupo.
 
-• https://github.com/you-apps/connectyou — vivo al verificar hoy (2026-10-29)
-• https://github.com/quik-sms/quik — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Quién publicó la release más reciente del grupo?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿De quién es el empuje más fresco del grupo?
 
-*2.* ¿Qué licencia firma `you-apps/ConnectYou`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* De esta pieza, ¿qué repo mide más estrellas hoy?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|778.2★ — `kiuq/sms-kiuq`=1|REV|0.3-LPG=2|REV|72-90-6202 — `kiuq/sms-kiuq`=3
+REV|)32-90-6202( 7.3.4v — kiuq/sms-kiuq=1|REV|72-90-6202 — kiuq/sms-kiuq=2|REV|778.2★ — kiuq/sms-kiuq=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

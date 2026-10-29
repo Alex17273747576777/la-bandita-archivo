@@ -1,47 +1,35 @@
 *58 — EL TÚNEL DE LA CASA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **juanfont/headscale** (★45.174): «An open source, self-hosted implementation of the Tailscale control server». Le sigue **tailscale/tailscale** (★38.304): «The easiest, most secure way to use WireGuard and 2FA.». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: 2fa, oauth, sso, tailscale.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `juanfont/headscale` —
-★45.173, BSD-3-Clause, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **juanfont/headscale** — «An open source, self-hosted implementation of the Tailscale control server»
+  ★45.174 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia BSD-3-Clause · Go · última release v0.29.6 (2026-10-24) · https://github.com/juanfont/headscale
+  Temas: tailscale · tailscale-control-server · tailscale-server · wireguard
 
-• `juanfont/headscale` — ★45.173 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· BSD-3-Clause
+- **tailscale/tailscale** — «The easiest, most secure way to use WireGuard and 2FA.»
+  ★38.304 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia BSD-3-Clause · Go · última release v1.104.4 (2026-10-28) · https://github.com/tailscale/tailscale · Web: https://tailscale.com
+  Temas: 2fa · oauth · sso · tailscale · vpn · wireguard
 
-• `tailscale/tailscale` — ★38.304 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· BSD-3-Clause
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **tailscale/tailscale**: release v1.104.4 (2026-10-28). El empuje más reciente es de **tailscale/tailscale** (hace 2 días); 2 repos tienen release y la más reciente es la de **tailscale/tailscale** (v1.104.4 (2026-10-28)); en licencias: BSD-3-Clause ×2.
 
-• https://github.com/tailscale/tailscale — vivo al verificar hoy (2026-10-29)
-• https://github.com/juanfont/headscale — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* De la pieza, ¿quién empujó más cerca de hoy?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
-*2.* ¿Qué licencia firma `tailscale/tailscale`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* La licencia de tailscale/tailscale, ¿cuál es?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|371.54★ — `elacsdaeh/tnofnauj`=1|REV|esualC-3-DSB=2|REV|92-01-6202 — `elacsliat/elacsliat`=3
+REV|92-01-6202 — elacsliat/elacsliat=1|REV|)82-01-6202( 4.401.1v — elacsliat/elacsliat=2|REV|esualC-3-DSB=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

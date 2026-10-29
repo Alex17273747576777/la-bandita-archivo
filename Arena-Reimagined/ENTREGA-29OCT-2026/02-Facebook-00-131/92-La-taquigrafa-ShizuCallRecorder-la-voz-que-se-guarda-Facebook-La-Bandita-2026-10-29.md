@@ -1,26 +1,17 @@
 # Publicación 92 — La taquígrafa: ShizuCallRecorder, la voz que se guarda
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **kitsumed/ShizuCallRecorder** (★1.932): «ShizuCallRecorder empowers ADB through Shizuku to record phone calls on non-rooted device!». Con actividad en los últimos 30 días: 1 de 1. Temas que se repiten en el grupo: adb, android, call-recorder, call-recording.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `kitsumed/ShizuCallRecorder`
-— ★1.932, GPL-3.0, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **kitsumed/ShizuCallRecorder** — «ShizuCallRecorder empowers ADB through Shizuku to record phone calls on non-rooted device!»
+  ★1.932 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v2.0.0 (2026-10-24) · https://github.com/kitsumed/ShizuCallRecorder
+  Temas: adb · android · call-recorder · call-recording · callrecorder · no-root
 
-• `kitsumed/ShizuCallRecorder` — ★1.932 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+La noticia fresca es de **kitsumed/ShizuCallRecorder**: release v2.0.0 (2026-10-24). El empuje más reciente es de **kitsumed/ShizuCallRecorder** (hace 3 días); 1 repos tienen release y la más reciente es la de **kitsumed/ShizuCallRecorder** (v2.0.0 (2026-10-24)); en licencias: GPL-3.0 ×1.
 
-• https://github.com/kitsumed/shizucallrecorder — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

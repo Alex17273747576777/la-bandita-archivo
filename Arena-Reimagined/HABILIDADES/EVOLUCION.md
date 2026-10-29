@@ -1,4 +1,4 @@
-# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.12
+# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.13
 
 Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.py` y la versión sube sola. Una habilidad que no aprende es un papel; esta casa aprende.
 
@@ -27,3 +27,5 @@ Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.
 - **v1.11 (2026-10-29)** · L-17: Toda reparación por zonas cuenta lo intocable (💓/REV) antes y después en AMBAS series; la vara comprueba nota, orden numérico y títulos reales; ninguna herramienta declara OK por correr: o mide y publica cifras, o es puerta y puede fallar
 
 - **v1.12 (2026-10-29)** · L-18: Dos reglas quedan: (1) ante cualquier duda sobre el estado del proyecto, la primera respuesta es inventario + arranque.py; el orden de verdad es remoto GitHub, luego espejo, luego proyecto, y la restauración desde el remoto precede a cualquier trabajo nuevo — sin autopsia prolongada. (2) Antes de crear o renombrar cualquier carpeta o archivo dentro de una estructura que ya existe, se lista la estructura real y se escribe sobre ella; el conteo de entradas del paquete final se compara contra el contrato vigente y toda desviación se explica o se corrige en el acto.
+
+- **v1.13 (2026-10-29)** · L-19: Queda la PUERTA ANTI-PLANTILLA como pieza permanente del circuito: normaliza líneas largas y bloquea el push si una línea de prosa supera el 12% del corpus; sus exenciones (dateline, pie de procedencia, fichas, mecanismo del quiz) se declaran por escrito en su código. Antes de escalar cualquier generador: (1) demostrar que la puerta caza el molde viejo, (2) generar muestra chica y LEERLA buscando datos falsos, no solo formato, (3) corregir el generador —nunca las piezas a mano—, (4) re-medir. Frescura de datos y frescura de redacción se auditan por separado.

@@ -1,47 +1,35 @@
 *VELA MAPS*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 2 activos este mes. Manda **PimpinPumpkin/Vela** (★2.280): «Maps and turn-by-turn navigation for Android without Google Play Services: the best of open map data, with Google lookups by choice. Runs on degoogled phones and can avoid…». Le sigue **flectar/mail** (★1.685): «Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM.». Temas que se repiten en el grupo: alpr, android, android-auto, caldav.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 2 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `PimpinPumpkin/Vela` —
-★2.279, GPL-3.0, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **PimpinPumpkin/Vela** — «Maps and turn-by-turn navigation for Android without Google Play Services: the best of open map data, with Google lookups by choice. Runs on degoogled phones and can avoid…»
+  ★2.280 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v0.5.2621 (2026-10-19) · https://github.com/PimpinPumpkin/Vela · Web: https://velamaps.org
+  Temas: alpr · android · android-auto · degoogle · degoogled · flock
 
-• `PimpinPumpkin/Vela` — ★2.279 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **flectar/mail** — «Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM.»
+  ★1.685 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia AGPL-3.0 · Rust · última release v0.1.0-alpha.7 (2026-10-08) · https://github.com/flectar/mail · Web: http://flectar.com/mail/
+  Temas: android · caldav · calendar · contacts · cross-platform · desktop-app
 
-• `flectar/mail` — ★1.684 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· AGPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+El grupo respira despacio; su empuje más reciente, **PimpinPumpkin/Vela**, fue hace 3 días. Legalmente el grupo se reparte así: GPL-3.0 ×1, AGPL-3.0 ×1; **PimpinPumpkin/Vela** firmó la release de fecha más reciente (v0.5.2621 (2026-10-19)) de las 2 del grupo.
 
-• https://github.com/PimpinPumpkin/Vela — vivo al verificar hoy (2026-10-29)
-• https://github.com/flectar/mail — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Quién publicó la release más reciente del grupo?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿De quién es el empuje más fresco del grupo?
 
-*2.* ¿Qué licencia firma `flectar/mail`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* De esta pieza, ¿qué repo mide más estrellas hoy?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|972.2★ — `aleV/nikpmuPnipmiP`=1|REV|0.3-LPGA=2|REV|82-01-6202 — `aleV/nikpmuPnipmiP`=3
+REV|)91-01-6202( 1262.5.0v — aleV/nikpmuPnipmiP=1|REV|82-01-6202 — aleV/nikpmuPnipmiP=2|REV|082.2★ — aleV/nikpmuPnipmiP=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

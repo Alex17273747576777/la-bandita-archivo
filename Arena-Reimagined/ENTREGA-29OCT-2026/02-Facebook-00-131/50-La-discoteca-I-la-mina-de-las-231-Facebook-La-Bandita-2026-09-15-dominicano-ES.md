@@ -1,91 +1,62 @@
 # Publicación 50 — La discoteca I: la mina de las 231 puertas de música
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Manda **kushagrasinghx/BitChord** (★4.854): «BitChord - A modern YouTube music client with clean aesthetics inspired from Apple Music». Le sigue **brahmkshatriya/echo** (★3.604): «Just a music player.». Temas que se repiten en el grupo: acrcloud, android, android-application, android-widget.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 14 repos: 4 empujaron hoy, 5 en los
-últimos 7 días, 2 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `kushagrasinghx/BitChord` —
-★4.853, GPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **kushagrasinghx/BitChord** — «BitChord - A modern YouTube music client with clean aesthetics inspired from Apple Music»
+  ★4.854 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.8.1 (2026-10-19) · https://github.com/kushagrasinghx/BitChord · Web: https://bitchord.kushagrasingh.in/
 
-• `kushagrasinghx/BitChord` — ★4.853 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **brahmkshatriya/echo** — «Just a music player.»
+  ★3.604 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Kotlin · https://github.com/brahmkshatriya/echo
 
-• `brahmkshatriya/echo` — ★3.604 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· NOASSERTION
+- **Flow-Tube/Flow** — «A modern, feature-rich YouTube and YouTube Music client with local recommendation for Android built with Jetpack Compose»
+  ★3.163 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v3.0.0 (2026-10-17) · https://github.com/Flow-Tube/Flow · Web: https://flow-tube.org
+  Temas: android · flow · innertube · kotlin · music-player · newpipe-extractor
 
-• `Flow-Tube/Flow` — ★3.163 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **lovegaoshi/azusa-player-mobile** — «移动端的抽象b站音乐播放器»
+  ★1.388 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia AGPL-3.0 · TypeScript · última release v4.4.0 (2026-10-28) · https://github.com/lovegaoshi/azusa-player-mobile · Web: https://azusa-player-mobile.vercel.app/
+  Temas: bilibili · music-player · react-native
 
-• `lovegaoshi/azusa-player-mobile` — ★1.388 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· AGPL-3.0
+- **AudileTeam/Audile** — «An open-source Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identification.»
+  ★1.381 · su último empuje fue el 2026-10-19 (hace 12 días) · licencia GPL-3.0 · Kotlin · última release v1.19.0 (2026-10-05) · https://github.com/AudileTeam/Audile
+  Temas: acrcloud · android · android-application · android-widget · audd · foss
 
-• `AudileTeam/Audile` — ★1.381 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-19
-· GPL-3.0
+- **shub39/Rush** — «✨ App to search, save and share lyrics like spotify!»
+  ★1.044 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 7.2.0 (2026-10-28) · https://github.com/shub39/Rush
+  Temas: genius-api · jetpack-compose · koin · kotlin-android · lrclib · lyrics-fetcher
 
-• `shub39/Rush` — ★1.044 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **GrakovNe/lissen-android** — «Minimalistic Android client app for Audiobookshelf»
+  ★749 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Kotlin · última release 1.12.16-release (2026-10-27) · https://github.com/GrakovNe/lissen-android · Web: https://lissenapp.org/
+  Temas: audiobooks · audiobookshelf
 
-• `GrakovNe/lissen-android` — ★749 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **Leonidius20/RecordingStudio** — «Audio recorder app for Android»
+  ★174 · su último empuje fue el 2026-10-02 (hace 29 días) · licencia GPL-3.0 · Kotlin · última release v0.2.1 (2026-09-15) · https://github.com/Leonidius20/RecordingStudio
 
-• `Leonidius20/RecordingStudio` — ★174 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-02
-· GPL-3.0
+- **recloudstream/extensions** — su repo no trae descripción oficial
+  ★142 · su último empuje fue el 2026-05-22 (hace 162 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · https://github.com/recloudstream/extensions
 
-• `recloudstream/extensions` — ★142 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-05-22
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **23rd/Scrib** — «On-device voice transcription. Your audio never leaves your phone, until you choose otherwise.»
+  ★92 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release latest (2026-07-21) · https://github.com/23rd/Scrib
+  Temas: android · foss · material-design · offline · privacy · speech-to-text
 
-• `23rd/Scrib` — ★92 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **bitplane/Microphone** — «A microphone for Android»
+  ★55 · su último empuje fue el 2026-01-06 (hace 298 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · https://github.com/bitplane/Microphone · Web: http://bitplane.net/projects/android/microphone/
+  Temas: android · audio
 
-• `bitplane/Microphone` — ★55 (verificado 2026-10-29)
-· dormido · última actividad 2026-01-06
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Diffechento/MetroMusic** — «An Android music player styled after Windows Phone 8 — the panorama is the library, the full player rises out of the mini one, and Apple Lossless is decoded in the app.…»
+  ★23 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia GPL-3.0 · Kotlin · última release v1.6 (2026-10-26) · https://github.com/Diffechento/MetroMusic
 
-• `Diffechento/MetroMusic` — ★23 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· GPL-3.0
+- **AlanHuang99/resonance** — «Resonance — open source futuristic Navidrome Android client»
+  ★17 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release v0.8.1 (2026-10-27) · https://github.com/AlanHuang99/resonance
 
-• `AlanHuang99/resonance` — ★17 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-27
-· GPL-3.0
+- **futonapp/futon** — «Download movies from your IMDB watchlist automatically, effortlessly and in the best possible quality as soon as they become available.»
+  ★0 · su último empuje fue el 2016-04-30 (hace 3836 días) · licencia GPL (según texto de su repo, 29-oct-2026) · HTML · https://github.com/futonapp/futon
 
-• `futonapp/futon` — ★0 (verificado 2026-10-29)
-· dormido · última actividad 2016-04-30
-· NOASSERTION
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**lovegaoshi/azusa-player-mobile** trae la novedad del grupo, su release v4.4.0 (2026-10-28). Legalmente el grupo se reparte así: GPL-3.0 ×8, sin archivo LICENSE en su repo (verificado) ×2, GPL-3.0 (según texto de su repo, 29-oct-2026) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; la actividad más fresca es de **Flow-Tube/Flow** (hace 2 días); **futonapp/futon** no se mueve desde el 2016-04-30; **lovegaoshi/azusa-player-mobile** firmó la release de fecha más reciente (v4.4.0 (2026-10-28)) de las 10 del grupo.
 
-• https://github.com/brahmkshatriya/echo — vivo al verificar hoy (2026-10-29)
-• https://github.com/A-EDev/Flow — vivo al verificar hoy (2026-10-29)
-• https://github.com/lovegaoshi/azusa-player-mobile — vivo al verificar hoy (2026-10-29)
-• https://github.com/AudileTeam/Audile — vivo al verificar hoy (2026-10-29)
-• https://github.com/kushagrasinghx/BitChord — vivo al verificar hoy (2026-10-29)
-• https://github.com/shub39/Rush — vivo al verificar hoy (2026-10-29)
-• https://github.com/GrakovNe/lissen-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/Leonidius20/RecordingStudio — vivo al verificar hoy (2026-10-29)
-• https://github.com/23rd/Scrib — vivo al verificar hoy (2026-10-29)
-• https://github.com/bitplane/Microphone — vivo al verificar hoy (2026-10-29)
-• https://github.com/Diffechento/MetroMusic — vivo al verificar hoy (2026-10-29)
-• https://github.com/AlanHuang99/resonance — vivo al verificar hoy (2026-10-29)
-• https://github.com/FutonApp/Futon — vivo al verificar hoy (2026-10-29)
-• https://github.com/recloudstream/extensions — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 14 repos GitHub (14 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 14 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.

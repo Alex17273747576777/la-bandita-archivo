@@ -1,52 +1,37 @@
 *46 — EL ROUTER*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**openwrt/openwrt** encabeza esta entrega con ★28.975 medidos hoy: «This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests…». La pieza cita 3 repos (3 vivos) y 3 empujaron en los últimos 30 días. Le sigue **openwrt/luci** (★7.939): «LuCI - OpenWrt Configuration Interface».
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 3 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `openwrt/openwrt` — ★28.975,
-NOASSERTION, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **openwrt/openwrt** — «This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests…»
+  ★28.975 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 (según texto de su repo, 29-oct-2026) · C · última release v25.12.6 (2026-10-18) · https://github.com/openwrt/openwrt · Web: https://openwrt.org
 
-• `openwrt/openwrt` — ★28.975 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **openwrt/luci** — «LuCI - OpenWrt Configuration Interface»
+  ★7.939 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · JavaScript · https://github.com/openwrt/luci
 
-• `openwrt/luci` — ★7.939 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **openwrt/packages** — «Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md»
+  ★4.660 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Makefile · https://github.com/openwrt/packages
+  Temas: hacktoberfest
 
-• `openwrt/packages` — ★4.660 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-2.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **openwrt/openwrt**, hace 2 días. El parte legal dice GPL-2.0 (según texto de su repo, 29-oct-2026) ×1, Apache-2.0 ×1, GPL-2.0 ×1; con releases publicadas hay 1; manda la de **openwrt/openwrt** (v25.12.6 (2026-10-18)).
 
-• https://github.com/openwrt/openwrt — vivo al verificar hoy (2026-10-29)
-• https://github.com/openwrt/luci — vivo al verificar hoy (2026-10-29)
-• https://github.com/openwrt/packages — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Con qué licencia sale openwrt/luci?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿De quién es el empuje más fresco del grupo?
 
-*2.* ¿Qué licencia firma `openwrt/luci`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Quién manda en estrellas dentro de esta pieza?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|579.82★ — `trwnepo/trwnepo`=1|REV|0.2-ehcapA=2|REV|92-01-6202 — `trwnepo/trwnepo`=3
+REV|0.2-ehcapA=1|REV|92-01-6202 — trwnepo/trwnepo=2|REV|579.82★ — trwnepo/trwnepo=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

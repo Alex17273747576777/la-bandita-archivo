@@ -1,52 +1,39 @@
 *27 — EL TRONCO DE LAS LLAVES*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **dani-garcia/vaultwarden** (★69.895): «Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs». Le sigue **keepassxreboot/keepassxc** (★29.597): «KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.». Temas que se repiten en el grupo: android, android-application, autofill, bitwarden.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 0 empujaron hoy, 3 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `dani-garcia/vaultwarden` —
-★69.893, AGPL-3.0, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **dani-garcia/vaultwarden** — «Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs»
+  ★69.895 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia AGPL-3.0 · Rust · última release 1.37.4 (2026-10-05) · https://github.com/dani-garcia/vaultwarden
+  Temas: bitwarden · bitwarden-rs · docker · rocket · rust · vaultwarden
 
-• `dani-garcia/vaultwarden` — ★69.893 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· AGPL-3.0
+- **keepassxreboot/keepassxc** — «KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.»
+  ★29.597 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · C++ · última release 2.8.0 (2026-10-21) · https://github.com/keepassxreboot/keepassxc · Web: https://keepassxc.org/
+  Temas: cross-platform · hacktoberfest · keepass · keepassxc · linux · macos
 
-• `keepassxreboot/keepassxc` — ★29.596 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· NOASSERTION
+- **Kunzisoft/KeePassDX** — «Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.»
+  ★7.564 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release 4.5.6 (2026-10-17) · https://github.com/Kunzisoft/KeePassDX · Web: https://www.keepassdx.com/
+  Temas: android · android-application · autofill · credential-manager · fingerprint · keepass
 
-• `Kunzisoft/KeePassDX` — ★7.564 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-27
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+El grupo respira despacio; su empuje más reciente, **keepassxreboot/keepassxc**, fue hace 3 días. **keepassxreboot/keepassxc** firmó la release de fecha más reciente (2.8.0 (2026-10-21)) de las 3 del grupo; legalmente el grupo se reparte así: GPL-3.0 (según texto de su repo, 29-oct-2026) ×1, AGPL-3.0 ×1, GPL-3.0 ×1.
 
-• https://github.com/keepassxreboot/keepassxc — vivo al verificar hoy (2026-10-29)
-• https://github.com/dani-garcia/vaultwarden — vivo al verificar hoy (2026-10-29)
-• https://github.com/kunzisoft/keepassdx — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
-
 *1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
 
-*2.* ¿Qué licencia firma `keepassxreboot/keepassxc`?
+*2.* ¿Qué repo empujó más recientemente?
 
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Qué licencia firma keepassxreboot/keepassxc?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|398.96★ — `nedrawtluav/aicrag-inad`=1|REV|NOITRESSAON=2|REV|82-01-6202 — `cxssapeek/tooberxssapeek`=3
+REV|598.96★ — nedrawtluav/aicrag-inad=1|REV|82-01-6202 — cxssapeek/tooberxssapeek=2|REV|)6202-tco-92 ,oper us ed otxet núges( 0.3-LPG=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

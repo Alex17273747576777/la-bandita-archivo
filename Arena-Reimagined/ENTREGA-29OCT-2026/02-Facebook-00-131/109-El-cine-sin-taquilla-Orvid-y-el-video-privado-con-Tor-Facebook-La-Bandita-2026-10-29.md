@@ -1,41 +1,28 @@
 # Publicación 109 — El cine sin taquilla: Orvid y el video privado con Tor
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**TeamNewPipe/NewPipe** encabeza esta entrega con ★40.354 medidos hoy: «A libre lightweight streaming front-end for Android.». La pieza cita 4 repos (4 vivos) y 4 empujaron en los últimos 30 días. Le sigue **libre-tube/LibreTube** (★12.913): «An alternative frontend for YouTube, for Android.». Temas que se repiten en el grupo: 4k, android, android-app, anonymity.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 4 repos: 3 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `TeamNewPipe/NewPipe` —
-★40.353, GPL-3.0, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **TeamNewPipe/NewPipe** — «A libre lightweight streaming front-end for Android.»
+  ★40.354 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Java · última release v0.29.1 (2026-08-15) · https://github.com/TeamNewPipe/NewPipe · Web: https://newpipe.net
+  Temas: 4k · android · bandcamp · download-videos · newpipe · peertube
 
-• `TeamNewPipe/NewPipe` — ★40.353 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **libre-tube/LibreTube** — «An alternative frontend for YouTube, for Android.»
+  ★12.913 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v32.1 (2026-08-20) · https://github.com/libre-tube/LibreTube · Web: https://libretube.dev
+  Temas: android · kotlin · material-design · material-design-3-expressive · material-you · privacy
 
-• `libre-tube/LibreTube` — ★12.913 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **mankidev/orvid** — «Private YouTube and video client for Android. Searches YouTube, PeerTube, TikTok, Instagram and 250+ sites at once, every request over Tor. NewPipe alternative.»
+  ★9 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Java · última release v0.4.22 (2026-10-29) · https://github.com/mankidev/orvid · Web: https://github.com/mankidev/orvid/releases/latest
+  Temas: android · android-app · anonymity · censorship-circumvention · exoplayer · foss
 
-• `mankidev/orvid` — ★9 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **mankidev/orvid-sources** — «Source repository for Orvid»
+  ★1 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · JavaScript · https://github.com/mankidev/orvid-sources
 
-• `mankidev/orvid-sources` — ★1 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Hay release de esta semana: **mankidev/orvid** publicó v0.4.22 (2026-10-29). Con releases publicadas hay 3; manda la de **mankidev/orvid** (v0.4.22 (2026-10-29)); el parte legal dice GPL-3.0 ×4; lo último empujado lo firmó **mankidev/orvid** hace 2 días.
 
-• https://github.com/mankidev/orvid — vivo al verificar hoy (2026-10-29)
-• https://github.com/mankidev/orvid-sources — vivo al verificar hoy (2026-10-29)
-• https://github.com/teamnewpipe/newpipe — vivo al verificar hoy (2026-10-29)
-• https://github.com/libre-tube/libretube — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 4 repos GitHub (4 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

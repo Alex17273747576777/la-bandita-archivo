@@ -1,26 +1,17 @@
 # Publicación 128 — Tu Telegram es tu nube: TeleDrive y la soberanía prestada
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **Mahmud0808/TeleDrive** (★393): «Turn a private Telegram channel into your personal cloud drive. Android, Windows, Linux and macOS, auto backup, optional E2E encryption, built-in file manager and player.». Temas que se repiten en el grupo: android, backup, cloud-storage, compose-multiplatform.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `Mahmud0808/TeleDrive` —
-★393, Apache-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **Mahmud0808/TeleDrive** — «Turn a private Telegram channel into your personal cloud drive. Android, Windows, Linux and macOS, auto backup, optional E2E encryption, built-in file manager and player.»
+  ★393 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v1.5.0 (2026-10-19) · https://github.com/Mahmud0808/TeleDrive · Web: https://mahmud0808.github.io/TeleDrive/
+  Temas: android · backup · cloud-storage · compose-multiplatform · encryption · file-manager
 
-• `Mahmud0808/TeleDrive` — ★393 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+El grupo respira despacio; su empuje más reciente, **Mahmud0808/TeleDrive**, fue hace 2 días. Legalmente el grupo se reparte así: Apache-2.0 ×1; **Mahmud0808/TeleDrive** firmó la release de fecha más reciente (v1.5.0 (2026-10-19)) de las 1 del grupo.
 
-• https://github.com/mahmud0808/teledrive — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

@@ -1,52 +1,38 @@
 *67 — LA RAÍZ DEL TELÉFONO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**ollama/ollama** encabeza esta entrega con ★185.239 medidos hoy: «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». La pieza cita 3 repos (3 vivos) y 3 empujaron en los últimos 30 días. Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Temas que se repiten en el grupo: deepseek, gemma, glm, go.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 2 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `ollama/ollama` — ★185.238,
-MIT, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **ollama/ollama** — «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.»
+  ★185.239 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Go · última release v0.40.13 (2026-10-28) · https://github.com/ollama/ollama · Web: https://ollama.com
+  Temas: deepseek · gemma · glm · go · golang · gpt-oss
 
-• `ollama/ollama` — ★185.238 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **syncthing/syncthing** — «Open Source Continuous File Synchronization»
+  ★89.873 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MPL-2.0 · Go · última release v2.1.7 (2026-10-21) · https://github.com/syncthing/syncthing · Web: https://syncthing.net/
+  Temas: go · p2p · peer-to-peer · synchronization
 
-• `syncthing/syncthing` — ★89.873 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MPL-2.0
+- **topjohnwu/Magisk** — «The Magic Mask for Android»
+  ★63.595 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release v31.1 (2026-10-25) · https://github.com/topjohnwu/Magisk
 
-• `topjohnwu/Magisk` — ★63.595 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-27
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Hay release de esta semana: **ollama/ollama** publicó v0.40.13 (2026-10-28). Con releases publicadas hay 3; manda la de **ollama/ollama** (v0.40.13 (2026-10-28)); el parte legal dice GPL-3.0 ×1, MIT ×1, MPL-2.0 ×1; lo último empujado lo firmó **ollama/ollama** hace 2 días.
 
-• https://github.com/topjohnwu/Magisk — vivo al verificar hoy (2026-10-29)
-• https://github.com/ollama/ollama — vivo al verificar hoy (2026-10-29)
-• https://github.com/syncthing/syncthing — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* Con los números de hoy, ¿qué repo de la pieza va primero en ★?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* La release más nueva de la pieza, ¿de qué repo es?
 
-*2.* ¿Qué licencia firma `syncthing/syncthing`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Bajo qué licencia se publica syncthing/syncthing?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|832.581★ — `amallo/amallo`=1|REV|0.2-LPM=2|REV|92-01-6202 — `amallo/amallo`=3
+REV|932.581★ — amallo/amallo=1|REV|)82-01-6202( 31.04.0v — amallo/amallo=2|REV|0.2-LPM=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

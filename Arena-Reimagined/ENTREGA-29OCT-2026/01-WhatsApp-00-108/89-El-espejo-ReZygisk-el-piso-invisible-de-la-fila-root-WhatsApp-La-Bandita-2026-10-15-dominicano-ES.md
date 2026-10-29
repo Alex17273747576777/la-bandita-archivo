@@ -1,47 +1,35 @@
 *89 — EL ESPEJO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**awesome-android-root/awesome-android-root** encabeza esta entrega con ★5.568 medidos hoy: «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **PerformanC/ReZygisk** (★4.099): «Transparent implementation of Zygisk.». Temas que se repiten en el grupo: android, android-app, android-root, android-tweaks.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy:
-`awesome-android-root/awesome-android-root` — ★5.568, MIT, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **awesome-android-root/awesome-android-root** — «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides»
+  ★5.568 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia MIT · JavaScript · última release 6.1 (2026-10-26) · https://github.com/awesome-android-root/awesome-android-root · Web: https://awesome-android-root.xyz
+  Temas: android · android-app · android-root · android-tweaks · apatch · awesome
 
-• `awesome-android-root/awesome-android-root` — ★5.568 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· MIT
+- **PerformanC/ReZygisk** — «Transparent implementation of Zygisk.»
+  ★4.099 · su último empuje fue el 2026-10-11 (hace 20 días) · licencia GPL-3.0 · C · última release v1.0.0 (2026-05-10) · https://github.com/PerformanC/ReZygisk
+  Temas: android · apatch · injection · kernelsu · magisk · root
 
-• `PerformanC/ReZygisk` — ★4.099 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-11
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Hay release de esta semana: **awesome-android-root/awesome-android-root** publicó 6.1 (2026-10-26). Con releases publicadas hay 2; manda la de **awesome-android-root/awesome-android-root** (6.1 (2026-10-26)); el parte legal dice MIT ×1, GPL-3.0 ×1; lo último empujado lo firmó **awesome-android-root/awesome-android-root** hace 3 días.
 
-• https://github.com/awesome-android-root/awesome-android-root — vivo al verificar hoy (2026-10-29)
-• https://github.com/performanc/rezygisk — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* La release más nueva de la pieza, ¿de qué repo es?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿De quién es el empuje más fresco del grupo?
 
-*2.* ¿Qué licencia firma `PerformanC/ReZygisk`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* Con los números de hoy, ¿qué repo de la pieza va primero en ★?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|865.5★ — `toor-diordna-emosewa/toor-diordna-emosewa`=1|REV|0.3-LPG=2|REV|82-01-6202 — `toor-diordna-emosewa/toor-diordna-emosewa`=3
+REV|)62-01-6202( 1.6 — toor-diordna-emosewa/toor-diordna-emosewa=1|REV|82-01-6202 — toor-diordna-emosewa/toor-diordna-emosewa=2|REV|865.5★ — toor-diordna-emosewa/toor-diordna-emosewa=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

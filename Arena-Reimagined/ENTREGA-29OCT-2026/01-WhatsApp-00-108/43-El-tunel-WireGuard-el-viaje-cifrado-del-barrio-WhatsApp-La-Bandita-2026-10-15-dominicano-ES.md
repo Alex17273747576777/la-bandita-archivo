@@ -1,57 +1,42 @@
 *43 — EL TÚNEL*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**tailscale/tailscale** encabeza esta entrega con ★38.304 medidos hoy: «The easiest, most secure way to use WireGuard and 2FA.». La pieza cita 4 repos (4 vivos) y 2 empujaron en los últimos 30 días. Le sigue **cloudflare/boringtun** (★7.237): «Userspace WireGuard® Implementation in Rust». Temas que se repiten en el grupo: 2fa, android, chromeos, cloudflare.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 4 repos: 1 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `tailscale/tailscale` —
-★38.304, BSD-3-Clause, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **tailscale/tailscale** — «The easiest, most secure way to use WireGuard and 2FA.»
+  ★38.304 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia BSD-3-Clause · Go · última release v1.104.4 (2026-10-28) · https://github.com/tailscale/tailscale · Web: https://tailscale.com
+  Temas: 2fa · oauth · sso · tailscale · vpn · wireguard
 
-• `tailscale/tailscale` — ★38.304 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· BSD-3-Clause
+- **cloudflare/boringtun** — «Userspace WireGuard® Implementation in Rust»
+  ★7.237 · su último empuje fue el 2026-06-29 (hace 124 días) · licencia BSD-3-Clause · Rust · última release boringtun-cli-0.5.2 (2022-07-20) · https://github.com/cloudflare/boringtun
+  Temas: cloudflare · rust · wireguard
 
-• `cloudflare/boringtun` — ★7.237 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-06-29
-· BSD-3-Clause
+- **tailscale/tailscale-android** — «Tailscale Android Client»
+  ★2.756 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia BSD-3-Clause · Kotlin · última release 1.104.4-t938213198-gb9d487fe6 (2026-10-28) · https://github.com/tailscale/tailscale-android
+  Temas: android · chromeos · tailscale · vpn · vpn-client · wireguard
 
-• `tailscale/tailscale-android` — ★2.756 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· BSD-3-Clause
+- **WireGuard/wireguard-android** — «Mirror only. Official repository is at https://git.zx2c4.com/wireguard-android»
+  ★1.657 · su último empuje fue el 2026-06-29 (hace 124 días) · licencia Apache-2.0 · Kotlin · https://github.com/WireGuard/wireguard-android
 
-• `WireGuard/wireguard-android` — ★1.657 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-06-29
-· Apache-2.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Hay release de esta semana: **tailscale/tailscale-android** publicó 1.104.4-t938213198-gb9d487fe6 (2026-10-28). Con releases publicadas hay 3; manda la de **tailscale/tailscale-android** (1.104.4-t938213198-gb9d487fe6 (2026-10-28)); el parte legal dice BSD-3-Clause ×3, Apache-2.0 ×1; lo último empujado lo firmó **tailscale/tailscale** hace 2 días.
 
-• https://github.com/WireGuard/wireguard-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/cloudflare/boringtun — vivo al verificar hoy (2026-10-29)
-• https://github.com/tailscale/tailscale-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/tailscale/tailscale — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
-
-*2.* ¿Qué licencia firma `cloudflare/boringtun`?
+*2.* La release más nueva de la pieza, ¿de qué repo es?
 
 *3.* ¿Qué repo empujó más recientemente?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|403.83★ — `elacsliat/elacsliat`=1|REV|esualC-3-DSB=2|REV|92-01-6202 — `elacsliat/elacsliat`=3
+REV|403.83★ — elacsliat/elacsliat=1|REV|)82-01-6202( 6ef784d9bg-891312839t-4.401.1 — diordna-elacsliat/elacsliat=2|REV|92-01-6202 — elacsliat/elacsliat=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 4 repos GitHub (4 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

@@ -1,28 +1,22 @@
 *73 — EL SALÓN DEL CUBO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**dolphin-emu/dolphin** encabeza esta entrega con ★15.742 medidos hoy: «Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: cpp, emulation, emulator, gamecube.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `dolphin-emu/dolphin` —
-★15.742, NOASSERTION, último empuje 2026-10-25.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **dolphin-emu/dolphin** — «Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.»
+  ★15.742 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) · C++ · https://github.com/dolphin-emu/dolphin · Web: https://dolphin-emu.org
+  Temas: cpp · emulation · emulator · gamecube · wii
 
-• `dolphin-emu/dolphin` — ★15.742 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· NOASSERTION
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **dolphin-emu/dolphin**, hace 6 días. El parte legal dice licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) ×1.
 
-• https://github.com/dolphin-emu/dolphin — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
-
-*LAS PREGUNTAS:*
 
 *1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
 
@@ -30,11 +24,6 @@ quedan firmados como caídos, no escondidos. El mayor medido hoy: `dolphin-emu/d
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|247.51★ — `nihplod/ume-nihplod`=1|REV|52-01-6202 — `nihplod/ume-nihplod`=2
+REV|247.51★ — nihplod/ume-nihplod=1|REV|52-01-6202 — nihplod/ume-nihplod=2
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

@@ -1,57 +1,42 @@
 *31 — EL PORTERO DEL BARRIO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos. El mayor es **M66B/FairEmail** (★4.738): «Fully featured, open source, privacy friendly email app for Android». Le sigue **M66B/NetGuard** (★3.949): «A simple way to block access to the internet per app». Con actividad en los últimos 30 días: 3 de 4. Temas que se repiten en el grupo: afwall, android, android-firewall, app.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 4 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `M66B/FairEmail` — ★4.738,
-GPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **M66B/FairEmail** — «Fully featured, open source, privacy friendly email app for Android»
+  ★4.738 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Java · última release 1.2339 (2026-10-24) · https://github.com/M66B/FairEmail · Web: https://email.faircode.eu/
+  Temas: android · app · email · privacy · security
 
-• `M66B/FairEmail` — ★4.738 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **M66B/NetGuard** — «A simple way to block access to the internet per app»
+  ★3.949 · su último empuje fue el 2026-08-01 (hace 91 días) · licencia GPL-3.0 · Java · última release 2.337 (2026-08-01) · https://github.com/M66B/NetGuard · Web: http://www.netguard.me/
 
-• `M66B/NetGuard` — ★3.949 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-01
-· GPL-3.0
+- **ukanth/afwall** — «AFWall+ (Android Firewall +) - iptables based firewall for Android»
+  ★3.512 · su último empuje fue el 2026-10-17 (hace 14 días) · licencia GPL-3.0 · Java · última release v5.0.0 (2026-10-12) · https://github.com/ukanth/afwall
+  Temas: afwall · android · android-firewall · block · crowdin · firewall
 
-• `ukanth/afwall` — ★3.512 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-17
-· GPL-3.0
+- **TrackerControl/tracker-control-android** — «TrackerControl Android: monitor and control trackers and ads.»
+  ★2.704 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Java · última release 2026080501 (2026-08-05) · https://github.com/TrackerControl/tracker-control-android · Web: https://trackercontrol.org/
+  Temas: android · privacy · tracking-protection
 
-• `TrackerControl/tracker-control-android` — ★2.704 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **M66B/FairEmail**: release 1.2339 (2026-10-24). El empuje más reciente es de **M66B/FairEmail** (hace 2 días); 4 repos tienen release y la más reciente es la de **M66B/FairEmail** (1.2339 (2026-10-24)); en licencias: GPL-3.0 ×4.
 
-• https://github.com/m66b/fairemail — vivo al verificar hoy (2026-10-29)
-• https://github.com/trackercontrol/tracker-control-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/ukanth/afwall — vivo al verificar hoy (2026-10-29)
-• https://github.com/m66b/netguard — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Cuál fue el último repo del grupo en empujar código?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Bajo qué licencia se publica M66B/NetGuard?
 
-*2.* ¿Qué licencia firma `M66B/NetGuard`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|837.4★ — `liamEriaF/B66M`=1|REV|0.3-LPG=2|REV|92-01-6202 — `liamEriaF/B66M`=3
+REV|92-01-6202 — liamEriaF/B66M=1|REV|0.3-LPG=2|REV|)42-01-6202( 9332.1 — liamEriaF/B66M=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 4 repos GitHub (4 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

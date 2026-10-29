@@ -1,40 +1,30 @@
 *72 — EL WINDOWS DE LA MESA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **brunodev85/winlator** (★19.684): «Android application for running Windows applications with Wine and Box86/Box64». Con actividad en los últimos 30 días: 1 de 1.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `brunodev85/winlator` —
-★19.684, LGPL-2.1, último empuje 2026-10-17.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **brunodev85/winlator** — «Android application for running Windows applications with Wine and Box86/Box64»
+  ★19.684 · su último empuje fue el 2026-10-17 (hace 14 días) · licencia LGPL-2.1 · C · última release v11.2.0 (2026-08-19) · https://github.com/brunodev85/winlator · Web: https://winlator.org
 
-• `brunodev85/winlator` — ★19.684 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-17
-· LGPL-2.1
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Sin sobresaltos: el empuje más cercano es de **brunodev85/winlator** (hace 14 días). En licencias: LGPL-2.1 ×1; 1 repos tienen release y la más reciente es la de **brunodev85/winlator** (v11.2.0 (2026-08-19)).
 
-• https://github.com/brunodev85/winlator — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿De quién es el empuje más fresco del grupo?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|486.91★ — `rotalniw/58vedonurb`=1|REV|71-01-6202 — `rotalniw/58vedonurb`=2
+REV|71-01-6202 — rotalniw/58vedonurb=1|REV|486.91★ — rotalniw/58vedonurb=2|REV|)91-80-6202( 0.2.11v — rotalniw/58vedonurb=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

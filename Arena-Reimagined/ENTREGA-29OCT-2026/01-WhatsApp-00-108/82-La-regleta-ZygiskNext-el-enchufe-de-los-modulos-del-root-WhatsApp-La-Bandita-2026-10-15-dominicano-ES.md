@@ -1,83 +1,62 @@
 *82 — LA REGLETA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 9 repos de la pieza: 9 vivos, 7 activos este mes. Manda **Dr-TSNG/ZygiskNext** (★10.742): «Standalone implementation of Zygisk». Le sigue **bmax121/APatch** (★8.104): «The patching of Android kernel and Android system». Temas que se repiten en el grupo: adventure-engine, adventure-games, android, android-app.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 9 repos: 2 empujaron hoy, 3 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `Dr-TSNG/ZygiskNext` —
-★10.742, GPL-3.0, último empuje 2026-10-15.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **Dr-TSNG/ZygiskNext** — «Standalone implementation of Zygisk»
+  ★10.742 · su último empuje fue el 2026-10-15 (hace 16 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · C · última release v1.5.2 (2026-10-15) · https://github.com/Dr-TSNG/ZygiskNext
+  Temas: android · kernelsu · magisk
 
-• `Dr-TSNG/ZygiskNext` — ★10.742 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-15
-· GPL-3.0
+- **bmax121/APatch** — «The patching of Android kernel and Android system»
+  ★8.104 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 11282 (2026-10-15) · https://github.com/bmax121/APatch
+  Temas: android · inline-hook · kernel · magisk · magisk-module · patch
 
-• `bmax121/APatch` — ★8.104 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **j-hc/revanced-magisk-module** — «Extensive ReVanced builder. Builds both modules and APKs. Updated daily.»
+  ★7.705 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Shell · última release 20221122 (2026-10-29) · https://github.com/j-hc/revanced-magisk-module · Web: https://t.me/rvc_magisk
+  Temas: magisk · module · morphe · revanced · rvmm
 
-• `j-hc/revanced-magisk-module` — ★7.706 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **awesome-android-root/awesome-android-root** — «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides»
+  ★5.568 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia MIT · JavaScript · última release 6.1 (2026-10-26) · https://github.com/awesome-android-root/awesome-android-root · Web: https://awesome-android-root.xyz
+  Temas: android · android-app · android-root · android-tweaks · apatch · awesome
 
-• `awesome-android-root/awesome-android-root` — ★5.568 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· MIT
+- **PerformanC/ReZygisk** — «Transparent implementation of Zygisk.»
+  ★4.099 · su último empuje fue el 2026-10-11 (hace 20 días) · licencia GPL-3.0 · C · última release v1.0.0 (2026-05-10) · https://github.com/PerformanC/ReZygisk
+  Temas: android · apatch · injection · kernelsu · magisk · root
 
-• `PerformanC/ReZygisk` — ★4.099 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-11
-· GPL-3.0
+- **scummvm/scummvm** — «ScummVM main repository»
+  ★2.870 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · C++ · última release v2026.4.0 (2026-10-11) · https://github.com/scummvm/scummvm · Web: https://www.scummvm.org
+  Temas: adventure-engine · adventure-games · multiplatform · rpg-engine
 
-• `scummvm/scummvm` — ★2.870 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **snake-4/Zygisk-Assistant** — «A Zygisk module to hide root for KernelSU, Magisk and APatch, designed to work on Android 5.0 and above.»
+  ★2.662 · su último empuje fue el 2026-05-04 (hace 180 días) · licencia MIT · C++ · última release v2.1.4 (2025-02-23) · https://github.com/snake-4/Zygisk-Assistant
 
-• `snake-4/Zygisk-Assistant` — ★2.662 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-05-04
-· MIT
+- **siavash79/PixelXpert** — «mixed Xposed+Magisk module for customization of Google Pixel rom of Android 12+»
+  ★2.440 · su último empuje fue el 2026-06-21 (hace 132 días) · licencia GPL-3.0 · Java · última release v5.1.1 (2025-12-17) · ARCHIVADO: historia, no opción viva · https://github.com/siavash79/PixelXpert
+  Temas: customization · magisk-module · xposed-module
 
-• `siavash79/PixelXpert` — ★2.440 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-06-21
-· GPL-3.0
-· ARCHIVADO en GitHub: historia, no opción viva
+- **MMRLApp/MMRL** — «A app for managing, sharing, and exploring Magisk modules across repositories»
+  ★2.223 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v34296 (2026-03-08) · https://github.com/MMRLApp/MMRL · Web: https://mmrl.dev
+  Temas: android · apatch · compose · kernelsu · kotlin · magisk
 
-• `MMRLApp/MMRL` — ★2.223 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+**j-hc/revanced-magisk-module** trae la novedad del grupo, su release 20221122 (2026-10-29). Legalmente el grupo se reparte así: GPL-3.0 ×6, MIT ×2, GPL-3.0 (según texto de su repo, 29-oct-2026) ×1; archivado por su autor: **siavash79/PixelXpert**; la actividad más fresca es de **scummvm/scummvm** (hace 2 días); **j-hc/revanced-magisk-module** firmó la release de fecha más reciente (20221122 (2026-10-29)) de las 9 del grupo.
 
-• https://github.com/siavash79/pixelxpert — vivo al verificar hoy (2026-10-29)
-• https://github.com/scummvm/scummvm — vivo al verificar hoy (2026-10-29)
-• https://github.com/mmrlapp/mmrl — vivo al verificar hoy (2026-10-29)
-• https://github.com/j-hc/revanced-magisk-module — vivo al verificar hoy (2026-10-29)
-• https://github.com/bmax121/apatch — vivo al verificar hoy (2026-10-29)
-• https://github.com/dr-tsng/zygisknext — vivo al verificar hoy (2026-10-29)
-• https://github.com/snake-4/zygisk-assistant — vivo al verificar hoy (2026-10-29)
-• https://github.com/awesome-android-root/awesome-android-root — vivo al verificar hoy (2026-10-29)
-• https://github.com/performanc/rezygisk — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Quién publicó la release más reciente del grupo?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* De esta pieza, ¿qué repo mide más estrellas hoy?
 
-*2.* ¿Qué licencia firma `bmax121/APatch`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* La licencia de bmax121/APatch, ¿cuál es?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|247.01★ — `txeNksigyZ/GNST-rD`=1|REV|0.3-LPG=2|REV|92-01-6202 — `mvmmucs/mvmmucs`=3
+REV|)92-01-6202( 22112202 — eludom-ksigam-decnaver/ch-j=1|REV|247.01★ — txeNksigyZ/GNST-rD=2|REV|0.3-LPG=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 9 repos GitHub (9 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 9 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 9 vivos, 0 firmados arriba con su estado.

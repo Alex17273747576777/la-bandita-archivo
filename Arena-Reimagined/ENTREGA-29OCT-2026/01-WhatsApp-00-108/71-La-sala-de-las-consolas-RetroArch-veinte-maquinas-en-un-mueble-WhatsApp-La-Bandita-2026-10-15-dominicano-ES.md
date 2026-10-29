@@ -1,40 +1,31 @@
 *71 — LA SALA DE LAS CONSOLAS*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **libretro/RetroArch** (★14.476): «Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3.». Temas que se repiten en el grupo: c, libretro, retroarch.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `libretro/RetroArch` —
-★14.476, GPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **libretro/RetroArch** — «Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3.»
+  ★14.476 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · C · última release v1.22.2 (2025-11-20) · https://github.com/libretro/RetroArch · Web: http://www.libretro.com
+  Temas: c · libretro · retroarch
 
-• `libretro/RetroArch` — ★14.476 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+El grupo respira despacio; su empuje más reciente, **libretro/RetroArch**, fue hace 2 días. Legalmente el grupo se reparte así: GPL-3.0 ×1; **libretro/RetroArch** firmó la release de fecha más reciente (v1.22.2 (2025-11-20)) de las 1 del grupo.
 
-• https://github.com/libretro/RetroArch — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
-
 *1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
 
-*2.* ¿Qué repo empujó más recientemente?
+*2.* ¿De quién es el empuje más fresco del grupo?
+
+*3.* ¿Quién publicó la release más reciente del grupo?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|674.41★ — `hcrAorteR/orterbil`=1|REV|92-01-6202 — `hcrAorteR/orterbil`=2
+REV|674.41★ — hcrAorteR/orterbil=1|REV|92-01-6202 — hcrAorteR/orterbil=2|REV|)02-11-5202( 2.22.1v — hcrAorteR/orterbil=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

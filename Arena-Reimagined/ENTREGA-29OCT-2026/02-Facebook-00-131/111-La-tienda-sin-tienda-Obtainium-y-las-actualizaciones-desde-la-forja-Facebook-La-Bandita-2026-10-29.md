@@ -1,36 +1,25 @@
 # Publicación 111 — La tienda sin tienda: Obtainium y las actualizaciones desde la forja
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **ImranR98/Obtainium** (★21.019): «Get Android app updates straight from the source.». Le sigue **Droid-ify/client** (★7.661): «Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client». Con actividad en los últimos 30 días: 2 de 3. Temas que se repiten en el grupo: android, android-application, apk, apk-update.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `ImranR98/Obtainium` —
-★21.017, GPL-3.0, último empuje 2026-10-25.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **ImranR98/Obtainium** — «Get Android app updates straight from the source.»
+  ★21.019 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Dart · última release v1.7.3 (2026-10-25) · https://github.com/ImranR98/Obtainium · Web: https://obtainium.imranr.dev
+  Temas: android · apk · apk-update · apk-updater · app-updater · automation
 
-• `ImranR98/Obtainium` — ★21.017 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· GPL-3.0
+- **Droid-ify/client** — «Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client»
+  ★7.661 · su último empuje fue el 2026-09-12 (hace 49 días) · licencia GPL-3.0 · Kotlin · última release v0.7.8 (2026-09-12) · https://github.com/Droid-ify/client · Web: https://droidify.app/
+  Temas: android · android-application · fdroid · kotlin · kotlin-android · kotlin-flow
 
-• `Droid-ify/client` — ★7.661 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-12
-· GPL-3.0
+- **solkin/appteka-android** — «💊 Appteka is an alternative store for Android»
+  ★1.359 · su último empuje fue el 2026-10-21 (hace 10 días) · licencia GPL-3.0 · Kotlin · última release v23.0 (2026-08-13) · https://github.com/solkin/appteka-android · Web: https://appteka.store
+  Temas: android · apk · cloud · installer · share · store
 
-• `solkin/appteka-android` — ★1.359 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-21
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+La noticia fresca es de **ImranR98/Obtainium**: release v1.7.3 (2026-10-25). El empuje más reciente es de **ImranR98/Obtainium** (hace 6 días); 3 repos tienen release y la más reciente es la de **ImranR98/Obtainium** (v1.7.3 (2026-10-25)); en licencias: GPL-3.0 ×3.
 
-• https://github.com/imranr98/obtainium — vivo al verificar hoy (2026-10-29)
-• https://github.com/solkin/appteka-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/droid-ify/client — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

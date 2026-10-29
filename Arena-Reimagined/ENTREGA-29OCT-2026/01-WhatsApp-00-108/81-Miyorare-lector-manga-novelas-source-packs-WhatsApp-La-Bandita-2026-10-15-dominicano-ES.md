@@ -1,57 +1,39 @@
 *Miyorare: el lector nuevo que llegó al barrio con sus propios sobres de semillas*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**Gekkoushi/plugin-source** encabeza esta entrega con ★93 medidos hoy: «Manga Parsers library for Kotlin/JVM and Android». La pieza cita 4 repos (4 vivos) y 2 empujaron en los últimos 30 días. Le sigue **Noirero/Miyorare** (★19): «A comic/novel reader forked DropSauce - based on Kotatsu, built to my own taste: fast downloads, non-flat UI, dual library, unified sources/extensions, local image files, and…».
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 4 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `Gekkoushi/plugin-source` —
-★93, GPL-3.0, último empuje 2026-09-14.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **Gekkoushi/plugin-source** — «Manga Parsers library for Kotlin/JVM and Android»
+  ★93 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia GPL-3.0 · Kotlin · última release 1.2.6 (2026-08-10) · https://github.com/Gekkoushi/plugin-source
 
-• `Gekkoushi/plugin-source` — ★93 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-14
-· GPL-3.0
+- **Noirero/Miyorare** — «A comic/novel reader forked DropSauce - based on Kotatsu, built to my own taste: fast downloads, non-flat UI, dual library, unified sources/extensions, local image files, and…»
+  ★19 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.4.16 (2026-10-29) · https://github.com/Noirero/Miyorare
 
-• `Noirero/Miyorare` — ★19 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **Gekkoushi/plugin** — «This repository contains plugin artifacts for Usagi and any apps that use the same structure with Tsuki.»
+  ★11 · su último empuje fue el 2026-09-13 (hace 48 días) · licencia sin archivo LICENSE en su repo (verificado) · última release 75af884 (2026-08-10) · https://github.com/Gekkoushi/plugin
 
-• `Gekkoushi/plugin` — ★11 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-13
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Noirero/Miyorare-Source-Packs** — su repo no trae descripción oficial
+  ★3 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · Python · última release miyorare-sources-v0.5.15 (2026-10-24) · https://github.com/Noirero/Miyorare-Source-Packs
 
-• `Noirero/Miyorare-Source-Packs` — ★3 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Hay release de esta semana: **Noirero/Miyorare** publicó v1.4.16 (2026-10-29). Con releases publicadas hay 4; manda la de **Noirero/Miyorare** (v1.4.16 (2026-10-29)); el parte legal dice GPL-3.0 ×2, sin archivo LICENSE en su repo (verificado) ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **Noirero/Miyorare** hace 2 días.
 
-• https://github.com/Noirero/Miyorare — vivo al verificar hoy (2026-10-29)
-• https://github.com/Noirero/Miyorare-Source-Packs — vivo al verificar hoy (2026-10-29)
-• https://github.com/gekkoushi/plugin-source — vivo al verificar hoy (2026-10-29)
-• https://github.com/gekkoushi/plugin — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Bajo qué licencia se publica Noirero/Miyorare?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál fue el último repo del grupo en empujar código?
 
-*2.* ¿Qué licencia firma `Noirero/Miyorare`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* La release más nueva de la pieza, ¿de qué repo es?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|39★ — `ecruos-nigulp/ihsuokkeG`=1|REV|0.3-LPG=2|REV|92-01-6202 — `eraroyiM/orerioN`=3
+REV|0.3-LPG=1|REV|92-01-6202 — eraroyiM/orerioN=2|REV|)92-01-6202( 61.4.1v — eraroyiM/orerioN=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 4 repos GitHub (4 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

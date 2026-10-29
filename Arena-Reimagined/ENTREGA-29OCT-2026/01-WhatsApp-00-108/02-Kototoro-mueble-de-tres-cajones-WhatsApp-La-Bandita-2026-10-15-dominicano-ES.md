@@ -1,53 +1,40 @@
 *Kototoro: el mueble de tres cajones que hoy volvió a hornear*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**Kototoro-app/Kototoro** encabeza esta entrega con ★653 medidos hoy: «Manga, Novel, and Video reader for Android». La pieza cita 3 repos (3 vivos) y 3 empujaron en los últimos 30 días. Le sigue **skepsun/kototoro-parsers** (★17): «Manga parsers library for Kotlin/JVM and Android».
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 1 empujaron hoy, 2 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `Kototoro-app/Kototoro` —
-★653, Apache-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **Kototoro-app/Kototoro** — «Manga, Novel, and Video reader for Android»
+  ★653 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v2.3.4 (2026-10-29) · https://github.com/Kototoro-app/Kototoro
 
-• `Kototoro-app/Kototoro` — ★653 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **skepsun/kototoro-parsers** — «Manga parsers library for Kotlin/JVM and Android»
+  ★17 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · https://github.com/skepsun/kototoro-parsers
 
-• `skepsun/kototoro-parsers` — ★17 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **Kototoro-app/Kototoro-Nightly** — su repo no trae descripción oficial
+  ★12 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia sin archivo LICENSE en su repo (verificado) · https://github.com/Kototoro-app/Kototoro-Nightly
 
-• `Kototoro-app/Kototoro-Nightly` — ★12 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+## Enlaces externos de la pieza
 
-*🔗 FUENTES COMPROBADAS HOY*
+- https://kototoro-app.github.io/Kototoro/ — respondió viva hoy
 
-• https://github.com/Kototoro-app/Kototoro — vivo al verificar hoy (2026-10-29)
-• https://github.com/Kototoro-app/Kototoro-Nightly — vivo al verificar hoy (2026-10-29)
-• https://github.com/skepsun/kototoro-parsers — vivo al verificar hoy (2026-10-29)
-• https://kototoro-app.github.io/Kototoro/ — respondió viva hoy (2026-10-29)
+## Lectura de la medición
+
+Hay release de esta semana: **Kototoro-app/Kototoro** publicó v2.3.4 (2026-10-29). Con releases publicadas hay 1; manda la de **Kototoro-app/Kototoro** (v2.3.4 (2026-10-29)); el parte legal dice Apache-2.0 ×1, sin archivo LICENSE en su repo (verificado) ×1, GPL-3.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **Kototoro-app/Kototoro** hace 2 días.
+
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* La licencia de skepsun/kototoro-parsers, ¿cuál es?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* La release más nueva de la pieza, ¿de qué repo es?
 
-*2.* ¿Qué licencia firma `skepsun/kototoro-parsers`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* Con los números de hoy, ¿qué repo de la pieza va primero en ★?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|356★ — `orototoK/ppa-orototoK`=1|REV|0.3-LPG=2|REV|92-01-6202 — `orototoK/ppa-orototoK`=3
+REV|0.3-LPG=1|REV|)92-01-6202( 4.3.2v — orototoK/ppa-orototoK=2|REV|356★ — orototoK/ppa-orototoK=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 1
-enlace externo de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

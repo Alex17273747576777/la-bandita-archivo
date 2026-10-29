@@ -1,52 +1,39 @@
 *La foto completa se toma capa por capa, y hoy toca la del entretenimiento.*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **jellyfin/jellyfin** (★58.787): «The Free Software Media System - Server Backend & API». Le sigue **keiyoushi/extensions** (★15.369): «Extension repository for Mihon and variants». Con actividad en los últimos 30 días: 3 de 3. Temas que se repiten en el grupo: android, csharp, dotnet, hacktoberfest.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `jellyfin/jellyfin` —
-★58.784, GPL-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **jellyfin/jellyfin** — «The Free Software Media System - Server Backend & API»
+  ★58.787 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · C# · última release v12.4 (2026-10-26) · https://github.com/jellyfin/jellyfin · Web: https://jellyfin.org
+  Temas: csharp · dotnet · hacktoberfest · jellyfin
 
-• `jellyfin/jellyfin` — ★58.784 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-2.0
+- **keiyoushi/extensions** — «Extension repository for Mihon and variants»
+  ★15.369 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release dbf6c05 (2026-10-29) · https://github.com/keiyoushi/extensions · Web: https://keiyoushi.github.io/
+  Temas: keiyoushi · mihon
 
-• `keiyoushi/extensions` — ★15.369 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **OuterTune/OuterTune** — «A Material 3 Music Player for Android with local file & YouTube Music support. Forked from InnerTune»
+  ★5.437 · su último empuje fue el 2026-10-12 (hace 19 días) · licencia GPL-3.0 · Kotlin · última release v0.10.1 (2025-12-19) · https://github.com/OuterTune/OuterTune
+  Temas: android · jetpack-compose · material-ui · music-player
 
-• `OuterTune/OuterTune` — ★5.437 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-12
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). El empuje más reciente es de **keiyoushi/extensions** (hace 2 días); 3 repos tienen release y la más reciente es la de **keiyoushi/extensions** (dbf6c05 (2026-10-29)); en licencias: sin archivo LICENSE en su repo (verificado) ×1, GPL-2.0 ×1, GPL-3.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
 
-• https://github.com/keiyoushi/extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/jellyfin/jellyfin — vivo al verificar hoy (2026-10-29)
-• https://github.com/outertune/outertune — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* De la pieza, ¿quién empujó más cerca de hoy?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?
 
-*2.* ¿Qué licencia firma `keiyoushi/extensions`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|487.85★ — `nifyllej/nifyllej`=1|REV|)6202-tco-92 IPA rop odacifirev( oper us ne ESNECIL ovihcra nis=2|REV|92-01-6202 — `snoisnetxe/ihsuoyiek`=3
+REV|92-01-6202 — snoisnetxe/ihsuoyiek=1|REV|787.85★ — nifyllej/nifyllej=2|REV|)92-01-6202( 50c6fbd — snoisnetxe/ihsuoyiek=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

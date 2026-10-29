@@ -1,36 +1,25 @@
 # Publicación 119 — El papel y el e-reader: Rakuyomi, KCC y la mesa del Kindle
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 2 activos este mes. Manda **ciromattia/kcc** (★5.928): «KCC (a.k.a. Kindle Comic Converter) is a comic and manga converter for ebook readers.». Le sigue **tachibana-shin/rakuyomi** (★651): «A manga reader plugin for KOReader. (This fork adds new features and backward compatibility)». Temas que se repiten en el grupo: aidoku, aidoku-extensions, android, azw3.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 1 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `ciromattia/kcc` — ★5.928,
-ISC, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **ciromattia/kcc** — «KCC (a.k.a. Kindle Comic Converter) is a comic and manga converter for ebook readers.»
+  ★5.928 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia ISC · Python · última release v12.1.3 (2026-10-27) · https://github.com/ciromattia/kcc
+  Temas: azw3 · cbz · comics · eink · epub · kindle
 
-• `ciromattia/kcc` — ★5.928 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· ISC
+- **tachibana-shin/rakuyomi** — «A manga reader plugin for KOReader. (This fork adds new features and backward compatibility)»
+  ★651 · su último empuje fue el 2026-10-24 (hace 7 días) · licencia AGPL-3.0 · Rust · última release v1.44.3 (2026-10-24) · https://github.com/tachibana-shin/rakuyomi · Web: https://tachibana-shin.github.io/rakuyomi/
+  Temas: aidoku · aidoku-extensions · koreader · koreader-plugin · lnreader · mangayomi
 
-• `tachibana-shin/rakuyomi` — ★651 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-24
-· AGPL-3.0
+- **Utazukin/Ichaival** — «Android client for the LANraragi manga/doujinshi web manager.»
+  ★220 · su último empuje fue el 2026-08-26 (hace 66 días) · licencia GPL-3.0 · Kotlin · última release v1.11.0 (2026-08-26) · https://github.com/Utazukin/Ichaival
+  Temas: android · comics · doujinshi · kotlin · manga · reader
 
-• `Utazukin/Ichaival` — ★220 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-26
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**ciromattia/kcc** trae la novedad del grupo, su release v12.1.3 (2026-10-27). Legalmente el grupo se reparte así: AGPL-3.0 ×1, ISC ×1, GPL-3.0 ×1; la actividad más fresca es de **ciromattia/kcc** (hace 2 días); **ciromattia/kcc** firmó la release de fecha más reciente (v12.1.3 (2026-10-27)) de las 3 del grupo.
 
-• https://github.com/tachibana-shin/rakuyomi — vivo al verificar hoy (2026-10-29)
-• https://github.com/ciromattia/kcc — vivo al verificar hoy (2026-10-29)
-• https://github.com/utazukin/ichaival — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

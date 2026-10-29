@@ -1,71 +1,50 @@
 # Publicación 36 — Los libros: la biblioteca de bolsillo — tinta, puentes y el estante social
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**koreader/koreader** encabeza esta entrega con ★30.737 medidos hoy: «An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices». La pieza cita 10 repos (10 vivos) y 9 empujaron en los últimos 30 días. Le sigue **kovidgoyal/calibre** (★26.283): «The official source code repository for the calibre ebook manager». Temas que se repiten en el grupo: android, android-app, annotations, app.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 10 repos: 6 empujaron hoy, 2 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `koreader/koreader` —
-★30.735, AGPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **koreader/koreader** — «An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices»
+  ★30.737 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Lua · última release v2026.07.1 (2026-08-01) · https://github.com/koreader/koreader · Web: http://koreader.rocks/
+  Temas: cbz · djvu · djvu-reflow · ebook · ebook-reader · eink
 
-• `koreader/koreader` — ★30.735 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **kovidgoyal/calibre** — «The official source code repository for the calibre ebook manager»
+  ★26.283 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Python · última release v9.17.0 (2026-10-23) · https://github.com/kovidgoyal/calibre · Web: https://calibre-ebook.com
+  Temas: calibre · ebook · ebook-formats · ebook-manager · ebook-reader · ebooks
 
-• `kovidgoyal/calibre` — ★26.283 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **readest/readest** — «Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your…»
+  ★25.742 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · TypeScript · última release v0.12.16 (2026-10-13) · https://github.com/readest/readest · Web: https://readest.com
+  Temas: calibre · calibre-plugin · cross-platform · crosspoint-plugin · ebook · ebook-reader
 
-• `readest/readest` — ★25.742 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **foobnix/LibreraReader** — «Book Reader for Android»
+  ★4.976 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · C · última release 10.0.19 (2026-10-28) · https://github.com/foobnix/LibreraReader · Web: https://librera.app/librera-reader/
 
-• `foobnix/LibreraReader` — ★4.976 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **Pool-Of-Tears/Myne** — «An android app to download & read ebooks from Project Gutenberg, built with Jetpack Compose.»
+  ★1.541 · su último empuje fue el 2026-09-21 (hace 40 días) · licencia Apache-2.0 · Kotlin · última release v5.1.0 (2026-08-21) · https://github.com/Pool-Of-Tears/Myne · Web: https://pool-of-tears.github.io
+  Temas: android · android-app · books · ebook-downloader · ebook-reader · epub-reader
 
-• `Pool-Of-Tears/Myne` — ★1.541 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-21
-· Apache-2.0
+- **kiwix/kiwix-android** — «Kiwix for Android»
+  ★1.517 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v3.14.1 (2026-05-14) · https://github.com/kiwix/kiwix-android · Web: https://android.kiwix.org
+  Temas: android · kiwix · kotlin · offline · wikipedia · zim
 
-• `kiwix/kiwix-android` — ★1.517 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **Acclorite/book-story** — «Book's Story — Material You eBook reader built with Jetpack Compose. Free & Open source & Ad-free, with extensive customization options and support for multiple file formats.»
+  ★1.416 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v1.8.0 (2025-10-13) · https://github.com/Acclorite/book-story
+  Temas: android · app · application · book-reader · epub · epub-reader
 
-• `Acclorite/book-story` — ★1.416 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· GPL-3.0
+- **tadamiorg/tadami** — su repo no trae descripción oficial
+  ★61 · su último empuje fue el 2026-10-23 (hace 8 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · última release v1.16.0 (2026-10-23) · https://github.com/tadamiorg/tadami
 
-• `tadamiorg/tadami` — ★61 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-23
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **PrivacyDragon/Bookwyrm_Android** — «An Android application for Bookwyrm. Basically, it is just bookwyrm put into a 'webview' element.»
+  ★38 · su último empuje fue el 2026-10-04 (hace 27 días) · licencia BSD-3-Clause · Java · última release v1.3.9 (2026-05-13) · https://github.com/PrivacyDragon/Bookwyrm_Android
 
-• `PrivacyDragon/Bookwyrm_Android` — ★38 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-04
-· BSD-3-Clause
+- **pkmetski/riffle** — «Read and listen to your books on Android, from any of several supported sources.»
+  ★18 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Kotlin · última release v2.45.4 (2026-10-05) · https://github.com/pkmetski/riffle
+  Temas: android · android-app · annotations · audiobook-player · audiobooks · audiobookshelf
 
-• `pkmetski/riffle` — ★18 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-28). Con releases publicadas hay 10; manda la de **foobnix/LibreraReader** (10.0.19 (2026-10-28)); el parte legal dice AGPL-3.0 ×3, GPL-3.0 ×3, GPL-3.0 (según texto de su repo, 29-oct-2026) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **koreader/koreader** hace 2 días.
 
-• https://github.com/koreader/koreader — vivo al verificar hoy (2026-10-29)
-• https://github.com/kovidgoyal/calibre — vivo al verificar hoy (2026-10-29)
-• https://github.com/foobnix/LibreraReader — vivo al verificar hoy (2026-10-29)
-• https://github.com/Pool-Of-Tears/Myne — vivo al verificar hoy (2026-10-29)
-• https://github.com/kiwix/kiwix-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/Acclorite/book-story — vivo al verificar hoy (2026-10-29)
-• https://github.com/tadamiorg/tadami — vivo al verificar hoy (2026-10-29)
-• https://github.com/readest/readest — vivo al verificar hoy (2026-10-29)
-• https://github.com/pkmetski/riffle — vivo al verificar hoy (2026-10-29)
-• https://github.com/PrivacyDragon/Bookwyrm_Android — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 10 repos GitHub (10 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 10 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.

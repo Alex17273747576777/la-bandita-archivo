@@ -1,31 +1,21 @@
 # Publicación 98 — La foto III: el sótano completo
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **nextcloud/android** (★5.656): «📱 Nextcloud Android app». Le sigue **home-assistant/android** (★4.012): «Home Assistant Companion for Android». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: android, automotive, compose, hacktoberfest.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `nextcloud/android` — ★5.656,
-GPL-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **nextcloud/android** — «📱 Nextcloud Android app»
+  ★5.656 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Kotlin · última release stable-35.0.2 (2026-10-28) · https://github.com/nextcloud/android · Web: https://github.com/nextcloud/android?tab=readme-ov-file#nextcloud-android-app-iphone
+  Temas: android · hacktoberfest · java · kotlin · mobile · mobile-app
 
-• `nextcloud/android` — ★5.656 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-2.0
+- **home-assistant/android** — «Home Assistant Companion for Android»
+  ★4.012 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release 2026.10.1 (2026-10-06) · https://github.com/home-assistant/android · Web: https://companion.home-assistant.io/
+  Temas: android · automotive · compose · hacktoberfest · home-assistant · home-automation
 
-• `home-assistant/android` — ★4.012 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+La noticia fresca es de **nextcloud/android**: release stable-35.0.2 (2026-10-28). El empuje más reciente es de **nextcloud/android** (hace 2 días); 2 repos tienen release y la más reciente es la de **nextcloud/android** (stable-35.0.2 (2026-10-28)); en licencias: GPL-2.0 ×1, Apache-2.0 ×1.
 
-• https://github.com/nextcloud/android — vivo al verificar hoy (2026-10-29)
-• https://github.com/home-assistant/android — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

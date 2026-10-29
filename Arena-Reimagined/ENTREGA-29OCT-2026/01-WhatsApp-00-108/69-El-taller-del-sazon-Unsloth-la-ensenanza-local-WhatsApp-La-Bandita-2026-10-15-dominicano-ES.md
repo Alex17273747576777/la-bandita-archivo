@@ -1,47 +1,35 @@
 *69 — EL TALLER DEL SAZÓN*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **unslothai/unsloth** (★78.760): «Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: agent, ai, chatgpt, deepseek.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `syncthing/syncthing` —
-★89.873, MPL-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **syncthing/syncthing** — «Open Source Continuous File Synchronization»
+  ★89.873 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MPL-2.0 · Go · última release v2.1.7 (2026-10-21) · https://github.com/syncthing/syncthing · Web: https://syncthing.net/
+  Temas: go · p2p · peer-to-peer · synchronization
 
-• `syncthing/syncthing` — ★89.873 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MPL-2.0
+- **unslothai/unsloth** — «Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.»
+  ★78.760 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Python · última release v0.1.912-beta (2026-10-28) · https://github.com/unslothai/unsloth · Web: https://unsloth.ai/docs
+  Temas: agent · ai · chatgpt · deepseek · fine-tuning · gemma
 
-• `unslothai/unsloth` — ★78.760 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **unslothai/unsloth**: release v0.1.912-beta (2026-10-28). El empuje más reciente es de **unslothai/unsloth** (hace 2 días); 2 repos tienen release y la más reciente es la de **unslothai/unsloth** (v0.1.912-beta (2026-10-28)); en licencias: Apache-2.0 ×1, MPL-2.0 ×1.
 
-• https://github.com/unslothai/unsloth — vivo al verificar hoy (2026-10-29)
-• https://github.com/syncthing/syncthing — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál fue el último repo del grupo en empujar código?
 
-*2.* ¿Qué licencia firma `unslothai/unsloth`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Quién manda en estrellas dentro de esta pieza?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|378.98★ — `gnihtcnys/gnihtcnys`=1|REV|0.2-ehcapA=2|REV|92-01-6202 — `htolsnu/iahtolsnu`=3
+REV|)82-01-6202( ateb-219.1.0v — htolsnu/iahtolsnu=1|REV|92-01-6202 — htolsnu/iahtolsnu=2|REV|378.98★ — gnihtcnys/gnihtcnys=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

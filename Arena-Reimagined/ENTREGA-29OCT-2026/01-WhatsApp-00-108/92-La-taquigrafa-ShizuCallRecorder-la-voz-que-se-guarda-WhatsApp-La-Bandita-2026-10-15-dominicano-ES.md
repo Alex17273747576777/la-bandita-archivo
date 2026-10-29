@@ -1,52 +1,38 @@
 *En el taller de La Bandita la vara manda y el compaya sabe.*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**RikkaApps/Shizuku** encabeza esta entrega con ★32.384 medidos hoy: «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». La pieza cita 3 repos (3 vivos) y 2 empujaron en los últimos 30 días. Le sigue **awesome-android-root/awesome-android-root** (★5.568): «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides». Temas que se repiten en el grupo: adb, android, android-app, android-root.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 0 empujaron hoy, 2 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `RikkaApps/Shizuku` —
-★32.382, Apache-2.0, último empuje 2025-06-18.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **RikkaApps/Shizuku** — «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.»
+  ★32.384 · su último empuje fue el 2025-06-18 (hace 500 días) · licencia Apache-2.0 · Kotlin · última release v13.6.0 (2025-05-25) · https://github.com/RikkaApps/Shizuku
 
-• `RikkaApps/Shizuku` — ★32.382 (verificado 2026-10-29)
-· dormido · última actividad 2025-06-18
-· Apache-2.0
+- **awesome-android-root/awesome-android-root** — «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides»
+  ★5.568 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia MIT · JavaScript · última release 6.1 (2026-10-26) · https://github.com/awesome-android-root/awesome-android-root · Web: https://awesome-android-root.xyz
+  Temas: android · android-app · android-root · android-tweaks · apatch · awesome
 
-• `awesome-android-root/awesome-android-root` — ★5.568 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· MIT
+- **kitsumed/ShizuCallRecorder** — «ShizuCallRecorder empowers ADB through Shizuku to record phone calls on non-rooted device!»
+  ★1.932 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v2.0.0 (2026-10-24) · https://github.com/kitsumed/ShizuCallRecorder
+  Temas: adb · android · call-recorder · call-recording · callrecorder · no-root
 
-• `kitsumed/ShizuCallRecorder` — ★1.932 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Hay release de esta semana: **awesome-android-root/awesome-android-root** publicó 6.1 (2026-10-26). El más quieto es **RikkaApps/Shizuku**, parado desde el 2025-06-18; con releases publicadas hay 3; manda la de **awesome-android-root/awesome-android-root** (6.1 (2026-10-26)); el parte legal dice Apache-2.0 ×1, GPL-3.0 ×1, MIT ×1; lo último empujado lo firmó **kitsumed/ShizuCallRecorder** hace 3 días.
 
-• https://github.com/rikkaapps/shizuku — vivo al verificar hoy (2026-10-29)
-• https://github.com/kitsumed/shizucallrecorder — vivo al verificar hoy (2026-10-29)
-• https://github.com/awesome-android-root/awesome-android-root — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál fue el último repo del grupo en empujar código?
 
-*2.* ¿Qué licencia firma `awesome-android-root/awesome-android-root`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Bajo qué licencia se publica awesome-android-root/awesome-android-root?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|283.23★ — `ukuzihS/sppAakkiR`=1|REV|TIM=2|REV|82-01-6202 — `redroceRllaCuzihS/demustik`=3
+REV|483.23★ — ukuzihS/sppAakkiR=1|REV|82-01-6202 — redroceRllaCuzihS/demustik=2|REV|TIM=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

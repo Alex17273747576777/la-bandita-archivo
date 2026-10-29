@@ -1,124 +1,90 @@
 *16 — EL MAPA VIDEO/YT DE ANDROID*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 18 repos, 16 vivos. El mayor es **TeamNewPipe/NewPipe** (★40.354): «A libre lightweight streaming front-end for Android.». Le sigue **yuliskov/SmartTube** (★35.709): «Browse media content with your own rules on Android TV». Con actividad en los últimos 30 días: 14 de 16. Temas que se repiten en el grupo: 4k, activej, android, android-app.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 18 repos: 11 empujaron hoy, 3 en
-los últimos 7 días, 0 llevan más de 180 días quietos y 1 están archivados; los que ya no
-responden quedan firmados como caídos, no escondidos. El mayor medido hoy:
-`TeamNewPipe/NewPipe` — ★40.353, GPL-3.0, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **TeamNewPipe/NewPipe** — «A libre lightweight streaming front-end for Android.»
+  ★40.354 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Java · última release v0.29.1 (2026-08-15) · https://github.com/TeamNewPipe/NewPipe · Web: https://newpipe.net
+  Temas: 4k · android · bandcamp · download-videos · newpipe · peertube
 
-• `TeamNewPipe/NewPipe` — ★40.353 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **yuliskov/SmartTube** — «Browse media content with your own rules on Android TV»
+  ★35.709 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia MIT · Java · última release 32.68s (2026-10-20) · https://github.com/yuliskov/SmartTube · Web: https://smarttubeapp.github.io
+  Temas: android · android-tv · android-tv-box · java · kotlin · retrofit2
 
-• `yuliskov/SmartTube` — ★35.709 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· MIT
+- **open-ani/animeko** — «集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform»
+  ★21.325 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Kotlin · última release v6.4.0 (2026-10-24) · https://github.com/open-ani/animeko · Web: https://animeko.org
+  Temas: android · ani · anime · bangumi · bittorrent · bt
 
-• `open-ani/animeko` — ★21.325 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **libre-tube/LibreTube** — «An alternative frontend for YouTube, for Android.»
+  ★12.913 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v32.1 (2026-08-20) · https://github.com/libre-tube/LibreTube · Web: https://libretube.dev
+  Temas: android · kotlin · material-design · material-design-3-expressive · material-you · privacy
 
-• `libre-tube/LibreTube` — ★12.913 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **recloudstream/cloudstream** — «Android app for streaming and downloading media.»
+  ★11.095 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v4.8.0 (2026-07-10) · https://github.com/recloudstream/cloudstream
+  Temas: android · good-first-issue · home-theater · media-center · multimedia · video-streaming
 
-• `recloudstream/cloudstream` — ★11.095 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **TeamPiped/Piped** — «An alternative privacy-friendly YouTube frontend which is efficient by design.»
+  ★10.296 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Vue · https://github.com/TeamPiped/Piped · Web: https://piped.video
+  Temas: activej · dearrow · hacktoberfest · ipfs · java · newpipe
 
-• `TeamPiped/Piped` — ★10.296 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **aniyomiorg/aniyomi** — «An app for manga and anime»
+  ★7.855 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia Apache-2.0 · Kotlin · última release v0.18.2.1 (2026-09-14) · https://github.com/aniyomiorg/aniyomi · Web: https://aniyomi.org
+  Temas: android · anime · manga
 
-• `aniyomiorg/aniyomi` — ★7.855 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-14
-· Apache-2.0
+- **mytv-android/mytv-android** — «Material 3 Expressive 风格的Android/Android TV IPTV播放器，内建Media3,IJKplayer和 VLC。A Material 3 Expressive style Android/Android TV IPTV player with built-in Media3, IJKplayer and VLC.»
+  ★2.928 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · última release V2.2.0.219 (2026-08-21) · https://github.com/mytv-android/mytv-android
+  Temas: android · android-tv · app · iptv · kotlin · m3u
 
-• `mytv-android/mytv-android` — ★2.928 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **oxyroid/M3UAndroid** — «a clean, practical, ad-free IPTV app»
+  ★1.284 · su último empuje fue el 2026-09-20 (hace 41 días) · licencia GPL-3.0 · Kotlin · última release v1.15.0 (2025-03-29) · ARCHIVADO: historia, no opción viva · https://github.com/oxyroid/M3UAndroid · Web: https://t.me/m3u_android
+  Temas: android · android-tv · epg · iptv · jetpack-compose · kotlin
 
-• `oxyroid/M3UAndroid` — ★1.284 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-20
-· GPL-3.0
-· ARCHIVADO en GitHub: historia, no opción viva
+- **animiruorg/Animiru** — «video player and library manager»
+  ★904 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v0.20.0.1 (2026-09-14) · https://github.com/animiruorg/Animiru · Web: https://aniyomi.org/forks/Animiru/
 
-• `animiruorg/Animiru` — ★904 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **Riteshp2001/mpvRx** — «The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.»
+  ★859 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Kotlin · última release v3.0.2 (2026-10-25) · https://github.com/Riteshp2001/mpvRx · Web: https://mpvrx.vercel.app
+  Temas: android · expressive · ffmpeg · kotlin · md3e · video
 
-• `Riteshp2001/mpvRx` — ★859 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **Animetailapp/Animetail** — «Official fork of Aniyomi»
+  ★613 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v0.20.4.0 (2026-08-05) · https://github.com/Animetailapp/Animetail · Web: https://aniyomi.org
 
-• `Animetailapp/Animetail` — ★613 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **andarcanum/Tadami-Aniyomi-fork** — «An app for manga, anime and ranobe»
+  ★287 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v0.63.2 (2026-10-27) · https://github.com/andarcanum/Tadami-Aniyomi-fork
 
-• `andarcanum/Tadami-Aniyomi-fork` — ★287 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **rokku-app/rokku** — «Free and open source manga reader for Android. Fork of Yōkai/TachiyomiJ2K/Mihon»
+  ★63 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v1.8.0 (2026-10-29) · https://github.com/rokku-app/rokku · Web: https://github.com/rokku-app/rokku/releases
 
-• `rokku-app/rokku` — ★63 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **Yuneko-dev/Nekori** — «Free and open source novel reader for Android»
+  ★37 · su último empuje fue el 2026-10-24 (hace 7 días) · licencia Apache-2.0 · Kotlin · última release v0.1.3 (2026-10-23) · https://github.com/Yuneko-dev/Nekori · Web: https://nekori.yuneko.dev
+  Temas: android · android-app · kotlin · kotlin-android · light-novel-app · light-novel-downloader
 
-• `Yuneko-dev/Nekori` — ★37 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-24
-· Apache-2.0
+- **Med-amine0/aniyomi_plus** — «An app for manga and anime»
+  ★9 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v0.18.2.7 (2026-10-21) · https://github.com/Med-amine0/aniyomi_plus · Web: https://aniyomi.org
 
-• `Med-amine0/aniyomi_plus` — ★9 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **TeamPiped/Piped.** — caído (404) al medir hoy: queda firmado, no recomendado. https://github.com/TeamPiped/Piped.
 
-• `TeamPiped/Piped.` — caído (404) al medir hoy (2026-10-29): queda firmado, no recomendado.
+- **open-ani/animeko.** — caído (404) al medir hoy: queda firmado, no recomendado. https://github.com/open-ani/animeko.
 
-• `open-ani/animeko.` — caído (404) al medir hoy (2026-10-29): queda firmado, no recomendado.
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia amarga: **TeamPiped/Piped.** (caído (404)), **open-ani/animeko.** (caído (404)) ya no respondieron. Del resto, el que más cerca empujó es **libre-tube/LibreTube** (hace 2 días); 15 repos tienen release y la más reciente es la de **rokku-app/rokku** (v1.8.0 (2026-10-29)); en licencias: Apache-2.0 ×6, GPL-3.0 ×5, AGPL-3.0 ×3; archivado por su autor: **oxyroid/M3UAndroid**.
 
-• https://github.com/TeamNewPipe/NewPipe — vivo al verificar hoy (2026-10-29)
-• https://github.com/libre-tube/LibreTube — vivo al verificar hoy (2026-10-29)
-• https://github.com/TeamPiped/Piped. — no respondió hoy (404) al verificar hoy (2026-10-29)
-• https://github.com/yuliskov/SmartTube — vivo al verificar hoy (2026-10-29)
-• https://github.com/recloudstream/cloudstream — vivo al verificar hoy (2026-10-29)
-• https://github.com/mytv-android/mytv-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/oxyroid/M3UAndroid — vivo al verificar hoy (2026-10-29)
-• https://github.com/Riteshp2001/mpvRx — vivo al verificar hoy (2026-10-29)
-• https://github.com/aniyomiorg/aniyomi — vivo al verificar hoy (2026-10-29)
-• https://github.com/animiruorg/Animiru — vivo al verificar hoy (2026-10-29)
-• https://github.com/Animetailapp/Animetail — vivo al verificar hoy (2026-10-29)
-• https://github.com/andarcanum/Tadami-Aniyomi-fork — vivo al verificar hoy (2026-10-29)
-• https://github.com/open-ani/animeko. — no respondió hoy (404) al verificar hoy (2026-10-29)
-• https://github.com/TeamPiped/Piped — vivo al verificar hoy (2026-10-29)
-• https://github.com/Med-amine0/aniyomi_plus — vivo al verificar hoy (2026-10-29)
-• https://github.com/open-ani/animeko — vivo al verificar hoy (2026-10-29)
-• https://github.com/rokku-app/rokku — vivo al verificar hoy (2026-10-29)
-• https://github.com/Yuneko-dev/Nekori — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Qué repo enlazado por la pieza ya no respondió hoy?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?
 
-*2.* ¿Qué licencia firma `yuliskov/SmartTube`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|353.04★ — `epiPweN/epiPweNmaeT`=1|REV|TIM=2|REV|92-01-6202 — `ebuTerbiL/ebut-erbil`=3
+REV|)404( odíac — .depiP/depiPmaeT=1|REV|453.04★ — epiPweN/epiPweNmaeT=2|REV|)92-01-6202( 0.8.1v — ukkor/ppa-ukkor=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 18 repos GitHub (16 vivos, 2 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 18 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 16 vivos, 2 firmados arriba con su estado.

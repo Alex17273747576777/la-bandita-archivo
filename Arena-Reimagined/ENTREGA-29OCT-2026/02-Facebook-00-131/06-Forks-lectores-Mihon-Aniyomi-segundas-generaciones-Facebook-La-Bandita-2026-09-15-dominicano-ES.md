@@ -1,76 +1,53 @@
 # Publicación 6 — Forks de lectores: el mapa vivo de Mihon, Aniyomi y sus segundas generaciones
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**mihonapp/mihon** encabeza esta entrega con ★24.839 medidos hoy: «Free and open source manga reader for Android». La pieza cita 11 repos (11 vivos) y 9 empujaron en los últimos 30 días. Le sigue **aniyomiorg/aniyomi** (★7.855): «An app for manga and anime». Temas que se repiten en el grupo: android, anime, anime-downloader, animetail.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 11 repos: 4 empujaron hoy, 4 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `mihonapp/mihon` — ★24.838,
-Apache-2.0, último empuje 2026-10-26.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **mihonapp/mihon** — «Free and open source manga reader for Android»
+  ★24.839 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release v0.21.3 (2026-10-25) · https://github.com/mihonapp/mihon
+  Temas: android · kotlin · manga · manga-downloader · manga-reader · mangadownloader
 
-• `mihonapp/mihon` — ★24.838 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· Apache-2.0
+- **aniyomiorg/aniyomi** — «An app for manga and anime»
+  ★7.855 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia Apache-2.0 · Kotlin · última release v0.18.2.1 (2026-09-14) · https://github.com/aniyomiorg/aniyomi · Web: https://aniyomi.org
+  Temas: android · anime · manga
 
-• `aniyomiorg/aniyomi` — ★7.855 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-14
-· Apache-2.0
+- **komikku-app/komikku** — «Free and open source manga reader for Android»
+  ★4.955 · su último empuje fue el 2026-10-21 (hace 10 días) · licencia Apache-2.0 · Kotlin · última release v1.14.1 (2026-07-17) · https://github.com/komikku-app/komikku
+  Temas: android · j2k · komga · kotlin · manga · manga-downloader
 
-• `komikku-app/komikku` — ★4.955 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-21
-· Apache-2.0
+- **jobobby04/TachiyomiSY** — «Free and open source manga reader for Android»
+  ★4.196 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia Apache-2.0 · Kotlin · última release 1.13.2 (2026-07-13) · https://github.com/jobobby04/TachiyomiSY
+  Temas: android · hacktoberfest · kotlin · kotlin-android · manga · tachiyomi
 
-• `jobobby04/TachiyomiSY` — ★4.196 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· Apache-2.0
+- **nekomangaorg/Neko** — «Unofficial MangaDex Reader for Android 8+»
+  ★2.817 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release 3.8.4 (2026-10-14) · https://github.com/nekomangaorg/Neko
+  Temas: android · j2k · komga · kotlin · manga · manga-downloader
 
-• `nekomangaorg/Neko` — ★2.817 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **komikku-app/anikku** — «Free and open source anime watcher for Android»
+  ★1.123 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia Apache-2.0 · Kotlin · última release v0.2.0 (2026-09-11) · https://github.com/komikku-app/anikku · Web: https://anikku-app.github.io
+  Temas: android · anime · anime-downloader · animetail · animiru · aniyomi
 
-• `komikku-app/anikku` — ★1.123 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-22
-· Apache-2.0
+- **syncyomi/syncyomi** — «SyncYomi is an open-source project crafted to provide a seamless synchronization experience for your TachiyomiSY/Mihon (Mihon client is not implemented but it works the same…»
+  ★737 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Go · última release v1.7.4 (2026-10-29) · https://github.com/syncyomi/syncyomi
+  Temas: cross-device-sync · manga-library · self-hosted · server-web-gui · synchronization · syncyomi
 
-• `syncyomi/syncyomi` — ★737 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-2.0
+- **aniyomiorg/aniyomi-preview** — su repo no trae descripción oficial
+  ★644 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia Apache-2.0 · última release r8135 (2026-09-14) · https://github.com/aniyomiorg/aniyomi-preview
 
-• `aniyomiorg/aniyomi-preview` — ★644 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-14
-· Apache-2.0
+- **Animetailapp/Animetail** — «Official fork of Aniyomi»
+  ★613 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v0.20.4.0 (2026-08-05) · https://github.com/Animetailapp/Animetail · Web: https://aniyomi.org
 
-• `Animetailapp/Animetail` — ★613 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **jobobby04/TachiyomiSYPreview** — «A download host for TachiyomiSY Preview builds»
+  ★489 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia sin archivo LICENSE en su repo (verificado) · última release 615 (2026-10-28) · https://github.com/jobobby04/TachiyomiSYPreview
 
-• `jobobby04/TachiyomiSYPreview` — ★489 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **andarcanum/Tadami-Aniyomi-fork** — «An app for manga, anime and ranobe»
+  ★287 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v0.63.2 (2026-10-27) · https://github.com/andarcanum/Tadami-Aniyomi-fork
 
-• `andarcanum/Tadami-Aniyomi-fork` — ★287 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Hay release de esta semana: **syncyomi/syncyomi** publicó v1.7.4 (2026-10-29). Con releases publicadas hay 11; manda la de **syncyomi/syncyomi** (v1.7.4 (2026-10-29)); el parte legal dice Apache-2.0 ×9, GPL-2.0 ×1, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **nekomangaorg/Neko** hace 2 días.
 
-• https://github.com/mihonapp/mihon — vivo al verificar hoy (2026-10-29)
-• https://github.com/jobobby04/TachiyomiSY — vivo al verificar hoy (2026-10-29)
-• https://github.com/komikku-app/komikku — vivo al verificar hoy (2026-10-29)
-• https://github.com/nekomangaorg/Neko — vivo al verificar hoy (2026-10-29)
-• https://github.com/aniyomiorg/aniyomi — vivo al verificar hoy (2026-10-29)
-• https://github.com/komikku-app/anikku — vivo al verificar hoy (2026-10-29)
-• https://github.com/Animetailapp/Animetail — vivo al verificar hoy (2026-10-29)
-• https://github.com/andarcanum/Tadami-Aniyomi-fork — vivo al verificar hoy (2026-10-29)
-• https://github.com/syncyomi/syncyomi — vivo al verificar hoy (2026-10-29)
-• https://github.com/jobobby04/TachiyomiSYPreview — vivo al verificar hoy (2026-10-29)
-• https://github.com/aniyomiorg/aniyomi-preview — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 11 repos GitHub (11 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 11 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.

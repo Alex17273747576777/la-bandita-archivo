@@ -1,46 +1,29 @@
 # Publicación 27 — Música II: las sucesiones — quién hereda a quién en el reino de los reproductores
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 5 repos de la pieza: 5 vivos, 4 activos este mes. Manda **MetrolistGroup/Metrolist** (★13.889): «YouTube Music client for Android». Le sigue **956tris/MetroFuse** (★185): «YouTube Music client and Local player for Android With the twist of Many different backends and frontends». Temas que se repiten en el grupo: android, foss, innertube, jetpack-compose.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 5 repos: 0 empujaron hoy, 2 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `MetrolistGroup/Metrolist` —
-★13.889, GPL-3.0, último empuje 2026-10-25.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **MetrolistGroup/Metrolist** — «YouTube Music client for Android»
+  ★13.889 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v13.7.0 (2026-09-07) · https://github.com/MetrolistGroup/Metrolist · Web: https://metrolist.cc
+  Temas: android · foss · innertube · jetpack-compose · kotlin · kotlin-android
 
-• `MetrolistGroup/Metrolist` — ★13.889 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· GPL-3.0
+- **956tris/MetroFuse** — «YouTube Music client and Local player for Android With the twist of Many different backends and frontends»
+  ★185 · su último empuje fue el 2026-10-18 (hace 13 días) · licencia GPL-3.0 · Kotlin · última release 8.0 (2026-09-16) · https://github.com/956tris/MetroFuse
 
-• `956tris/MetroFuse` — ★185 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-18
-· GPL-3.0
+- **josprox/Estrella-Music** — «A Material 3 YouTube Music client for Android»
+  ★47 · su último empuje fue el 2026-10-11 (hace 20 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Dart · última release v2.4.3 (2026-10-02) · https://github.com/josprox/Estrella-Music
 
-• `josprox/Estrella-Music` — ★47 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-11
-· NOASSERTION
+- **Fhox006/Iride** — «YouTube Music client for Android»
+  ★17 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia GPL-3.0 · Kotlin · https://github.com/Fhox006/Iride · Web: https://metrolist.cc/
 
-• `Fhox006/Iride` — ★17 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· GPL-3.0
+- **BobbyESP/Metrolist** — «YouTube Music client for Android»
+  ★5 · su último empuje fue el 2025-05-15 (hace 534 días) · licencia GPL-3.0 · Kotlin · https://github.com/BobbyESP/Metrolist
 
-• `BobbyESP/Metrolist` — ★5 (verificado 2026-10-29)
-· dormido · última actividad 2025-05-15
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+El grupo respira despacio; su empuje más reciente, **Fhox006/Iride**, fue hace 5 días. Legalmente el grupo se reparte así: GPL-3.0 ×4, GPL-3.0 (según texto de su repo, 29-oct-2026) ×1; **BobbyESP/Metrolist** no se mueve desde el 2025-05-15; **josprox/Estrella-Music** firmó la release de fecha más reciente (v2.4.3 (2026-10-02)) de las 3 del grupo.
 
-• https://github.com/josprox/Estrella-Music — vivo al verificar hoy (2026-10-29)
-• https://github.com/956tris/MetroFuse — vivo al verificar hoy (2026-10-29)
-• https://github.com/Fhox006/Iride — vivo al verificar hoy (2026-10-29)
-• https://github.com/MetrolistGroup/Metrolist — vivo al verificar hoy (2026-10-29)
-• https://github.com/bobbyesp/metrolist — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 5 repos GitHub (5 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

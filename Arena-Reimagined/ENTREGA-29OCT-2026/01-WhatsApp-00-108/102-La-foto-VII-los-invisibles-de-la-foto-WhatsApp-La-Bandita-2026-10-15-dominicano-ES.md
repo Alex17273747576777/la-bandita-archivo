@@ -1,169 +1,115 @@
 *Toda foto de grupo tiene su fila de atrás: los que salen con media cara y nadie nombra — esta pieza les pone n*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 26 repos, 26 vivos. El mayor es **iamr0s/Dhizuku** (★4.050): «A tool that can share DeviceOwner permissions to other application.». Le sigue **animiruorg/Animiru** (★904): «video player and library manager». Con actividad en los últimos 30 días: 21 de 26. Temas que se repiten en el grupo: ad-blocker, android, anilist, anilist-tracker.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 26 repos: 14 empujaron hoy, 2 en
-los últimos 7 días, 1 llevan más de 180 días quietos y 2 están archivados; los que ya no
-responden quedan firmados como caídos, no escondidos. El mayor medido hoy: `iamr0s/Dhizuku` —
-★4.049, GPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **iamr0s/Dhizuku** — «A tool that can share DeviceOwner permissions to other application.»
+  ★4.050 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v2.12.0 (2026-06-24) · https://github.com/iamr0s/Dhizuku
 
-• `iamr0s/Dhizuku` — ★4.049 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **animiruorg/Animiru** — «video player and library manager»
+  ★904 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v0.20.0.1 (2026-09-14) · https://github.com/animiruorg/Animiru · Web: https://aniyomi.org/forks/Animiru/
 
-• `animiruorg/Animiru` — ★904 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **Riteshp2001/mpvRx** — «The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.»
+  ★859 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Kotlin · última release v3.0.2 (2026-10-25) · https://github.com/Riteshp2001/mpvRx · Web: https://mpvrx.vercel.app
+  Temas: android · expressive · ffmpeg · kotlin · md3e · video
 
-• `Riteshp2001/mpvRx` — ★859 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **Kototoro-app/Kototoro** — «Manga, Novel, and Video reader for Android»
+  ★653 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v2.3.4 (2026-10-29) · https://github.com/Kototoro-app/Kototoro
 
-• `Kototoro-app/Kototoro` — ★653 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **aayush2622/Dartotsu** — «A multiplatform tracking client based on Dantotsu»
+  ★545 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Dart · última release v1.1.1 (2026-10-23) · https://github.com/aayush2622/Dartotsu
+  Temas: android · anilist · anime · dart · flutter · ios
 
-• `aayush2622/Dartotsu` — ★545 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **yuzono/anime-extensions** — su repo no trae descripción oficial
+  ★522 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · https://github.com/yuzono/anime-extensions
 
-• `yuzono/anime-extensions` — ★522 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **AppFuton/Futon** — «Manga reader for Android»
+  ★467 · su último empuje fue el 2026-10-21 (hace 10 días) · licencia GPL-3.0 · Kotlin · última release v9.9 (2026-10-21) · https://github.com/AppFuton/Futon · Web: https://futon.wtf
+  Temas: android · comics · kotatsu · manga · manga-reader · mangareader
 
-• `AppFuton/Futon` — ★467 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-21
-· GPL-3.0
+- **SysAdminDoc/HushFacebook** — «Hushfacebook Morphe patches for Facebook. Hide ads, suggested posts, save videos and photos, tune playback and Reels, and use a focused Marketplace mode, and much more.»
+  ★437 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Java · última release v0.19.0 (2026-10-28) · https://github.com/SysAdminDoc/HushFacebook · Web: https://github.com/SysAdminDoc/Hushfacebook/releases/latest
+  Temas: ad-blocker · android · customization · facebook · morphe · morphe-patches
 
-• `SysAdminDoc/HushFacebook` — ★437 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **Suwayomi/tachiyomi-extension** — «Suwayomi Extension for Tachiyomi and variants»
+  ★346 · su último empuje fue el 2026-09-19 (hace 42 días) · licencia Apache-2.0 · Kotlin · https://github.com/Suwayomi/tachiyomi-extension
+  Temas: tachiyomi · tachiyomi-extensions
 
-• `Suwayomi/tachiyomi-extension` — ★346 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-19
-· Apache-2.0
+- **SysAdminDoc/HushFeed** — «Hushfeed Morphe patches for TikTok.»
+  ★324 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Java · última release v0.79.0 (2026-10-24) · https://github.com/SysAdminDoc/HushFeed · Web: https://github.com/SysAdminDoc/hushfeed/releases/latest
+  Temas: android · customization · morphe · morphe-patches · patches · privacy
 
-• `SysAdminDoc/HushFeed` — ★324 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **ponces/treble_aosp** — «Script and patches for building TrebleDroid AOSP»
+  ★311 · su último empuje fue el 2025-07-25 (hace 463 días) · licencia Apache-2.0 · Shell · última release v2025.06.25 (2025-06-25) · ARCHIVADO: historia, no opción viva · https://github.com/ponces/treble_aosp
 
-• `ponces/treble_aosp` — ★311 (verificado 2026-10-29)
-· dormido · última actividad 2025-07-25
-· Apache-2.0
-· ARCHIVADO en GitHub: historia, no opción viva
+- **AnBui2004/Vectras-VM-Emu-Android** — «It's a Virtual Machine App for Android Which is Based on QEMU»
+  ★305 · su último empuje fue el 2026-10-14 (hace 17 días) · licencia GPL-2.0 · Java · última release 4.7.4 (2026-10-14) · https://github.com/AnBui2004/Vectras-VM-Emu-Android · Web: https://vectras.vercel.app
 
-• `AnBui2004/Vectras-VM-Emu-Android` — ★305 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-14
-· GPL-2.0
+- **andarcanum/Tadami-Aniyomi-fork** — «An app for manga, anime and ranobe»
+  ★287 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v0.63.2 (2026-10-27) · https://github.com/andarcanum/Tadami-Aniyomi-fork
 
-• `andarcanum/Tadami-Aniyomi-fork` — ★287 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **UsagiApp/Usagi** — «Just a simple, free and open-source manga reader for Android 5.0+»
+  ★286 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.2 (2026-10-03) · https://github.com/UsagiApp/Usagi · Web: https://yumemi.moe/usagi
+  Temas: android · comic · doujinshi · hentai · manga · material
 
-• `UsagiApp/Usagi` — ★286 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **iamr0s/Dhizuku-API** — «API of Dhizuku.»
+  ★204 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Java · última release v2.6.0 (2026-06-24) · https://github.com/iamr0s/Dhizuku-API
 
-• `iamr0s/Dhizuku-API` — ★204 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **AsrOfficialDev/ReDantotsu** — «ReDantotsu is a Remake version of the original Dantotsu app. It is built on a foundation that has been tested and works well. ReDantotsu features a new user interface,…»
+  ★152 · su último empuje fue el 2026-08-18 (hace 74 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Kotlin · última release v1.0.7 (2026-06-26) · ARCHIVADO: historia, no opción viva · https://github.com/AsrOfficialDev/ReDantotsu · Web: https://asrofficialdev.github.io/ReDantotsu/
+  Temas: anilist-tracker · anime · dantotsu · liquid-design · liquid-glass · manga
 
-• `AsrOfficialDev/ReDantotsu` — ★152 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-18
-· NOASSERTION
-· ARCHIVADO en GitHub: historia, no opción viva
+- **Gekkoushi/plugin-source** — «Manga Parsers library for Kotlin/JVM and Android»
+  ★93 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia GPL-3.0 · Kotlin · última release 1.2.6 (2026-08-10) · https://github.com/Gekkoushi/plugin-source
 
-• `Gekkoushi/plugin-source` — ★93 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-14
-· GPL-3.0
+- **itsmechinmoy/Dantotsu** — «Anilist client based on Saikou»
+  ★92 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Kotlin · última release v3.2.2+74ae756 (2026-10-29) · https://github.com/itsmechinmoy/Dantotsu · Web: https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev
+  Temas: anime · anime-streaming · animeapp · aniyomi · aniyomi-extension · downloader
 
-• `itsmechinmoy/Dantotsu` — ★92 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **InvalidDavid/UMA** — «UMA Plugin for the Usagi App or other Kotatsu Forks.»
+  ★82 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 83bcf88 (2026-10-22) · https://github.com/InvalidDavid/UMA · Web: https://yumemi.moe/usagi
 
-• `InvalidDavid/UMA` — ★82 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **Noirero/Miyorare** — «A comic/novel reader forked DropSauce - based on Kotatsu, built to my own taste: fast downloads, non-flat UI, dual library, unified sources/extensions, local image files, and…»
+  ★19 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.4.16 (2026-10-29) · https://github.com/Noirero/Miyorare
 
-• `Noirero/Miyorare` — ★19 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **Nahiro18/Kiroku** — «Kiroku — fork of ReDantotsu: app anime/manga»
+  ★16 · su último empuje fue el 2026-10-16 (hace 15 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Kotlin · última release v1.1.96 (2026-10-16) · https://github.com/Nahiro18/Kiroku · Web: https://nahiro18.github.io/Kiroku/
 
-• `Nahiro18/Kiroku` — ★16 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-16
-· NOASSERTION
+- **Wammy-app/Wammy** — «Free open source manga and novel reader for android»
+  ★13 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia Apache-2.0 · Kotlin · última release v0.1.4 (2026-10-25) · https://github.com/Wammy-app/Wammy · Web: https://kainotch.github.io/WammyWeb
+  Temas: android · j2k · komga · komikku · kotlin · manga
 
-• `Wammy-app/Wammy` — ★13 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· Apache-2.0
+- **Gekkoushi/plugin** — «This repository contains plugin artifacts for Usagi and any apps that use the same structure with Tsuki.»
+  ★11 · su último empuje fue el 2026-09-13 (hace 48 días) · licencia sin archivo LICENSE en su repo (verificado) · última release 75af884 (2026-08-10) · https://github.com/Gekkoushi/plugin
 
-• `Gekkoushi/plugin` — ★11 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-13
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Med-amine0/aniyomi_plus** — «An app for manga and anime»
+  ★9 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v0.18.2.7 (2026-10-21) · https://github.com/Med-amine0/aniyomi_plus · Web: https://aniyomi.org
 
-• `Med-amine0/aniyomi_plus` — ★9 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **R15Hi/Dsu-Multi-sideloader** — su repo no trae descripción oficial
+  ★3 · su último empuje fue el 2026-10-15 (hace 16 días) · licencia Apache-2.0 · Kotlin · última release v2.20 (2026-10-15) · https://github.com/R15Hi/Dsu-Multi-sideloader
 
-• `R15Hi/Dsu-Multi-sideloader` — ★3 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-15
-· Apache-2.0
+- **sang765/Usagi** — «Just a manga reader fork... IDK what i am doin.»
+  ★0 · su último empuje fue el 2026-10-16 (hace 15 días) · licencia GPL-3.0 · Kotlin · https://github.com/sang765/Usagi · Web: https://yumemi.moe/usagi
 
-• `sang765/Usagi` — ★0 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-16
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **itsmechinmoy/Dantotsu**: release v3.2.2+74ae756 (2026-10-29). El empuje más reciente es de **andarcanum/Tadami-Aniyomi-fork** (hace 2 días); **ponces/treble_aosp** duerme desde el 2025-07-25; 23 repos tienen release y la más reciente es la de **itsmechinmoy/Dantotsu** (v3.2.2+74ae756 (2026-10-29)); en licencias: GPL-3.0 ×10, Apache-2.0 ×8, GPL-3.0 (según texto de su repo, 29-oct-2026) ×4; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivados por su autor: **AsrOfficialDev/ReDantotsu**, **ponces/treble_aosp**.
 
-• https://github.com/asrofficialdev/redantotsu — vivo al verificar hoy (2026-10-29)
-• https://github.com/ponces/treble_aosp — vivo al verificar hoy (2026-10-29)
-• https://github.com/andarcanum/tadami-aniyomi-fork — vivo al verificar hoy (2026-10-29)
-• https://github.com/anbui2004/vectras-vm-emu-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/appfuton/futon — vivo al verificar hoy (2026-10-29)
-• https://github.com/itsmechinmoy/dantotsu — vivo al verificar hoy (2026-10-29)
-• https://github.com/invaliddavid/uma — vivo al verificar hoy (2026-10-29)
-• https://github.com/animiruorg/animiru — vivo al verificar hoy (2026-10-29)
-• https://github.com/iamr0s/dhizuku-api — vivo al verificar hoy (2026-10-29)
-• https://github.com/aayush2622/dartotsu — vivo al verificar hoy (2026-10-29)
-• https://github.com/nahiro18/kiroku — vivo al verificar hoy (2026-10-29)
-• https://github.com/kototoro-app/kototoro — vivo al verificar hoy (2026-10-29)
-• https://github.com/yuzono/anime-extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/Suwayomi/tachiyomi-extension — vivo al verificar hoy (2026-10-29)
-• https://github.com/UsagiApp/Usagi — vivo al verificar hoy (2026-10-29)
-• https://github.com/gekkoushi/plugin-source — vivo al verificar hoy (2026-10-29)
-• https://github.com/sang765/usagi — vivo al verificar hoy (2026-10-29)
-• https://github.com/gekkoushi/plugin — vivo al verificar hoy (2026-10-29)
-• https://github.com/Med-amine0/aniyomi_plus — vivo al verificar hoy (2026-10-29)
-• https://github.com/R15Hi/Dsu-Multi-sideloader — vivo al verificar hoy (2026-10-29)
-• https://github.com/kainotch/Wammy — vivo al verificar hoy (2026-10-29)
-• https://github.com/Noirero/Miyorare — vivo al verificar hoy (2026-10-29)
-• https://github.com/Riteshp2001/mpvRx — vivo al verificar hoy (2026-10-29)
-• https://github.com/SysAdminDoc/HushFacebook — vivo al verificar hoy (2026-10-29)
-• https://github.com/SysAdminDoc/HushFeed — vivo al verificar hoy (2026-10-29)
-• https://github.com/iamr0s/Dhizuku — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿De quién es el empuje más fresco del grupo?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Con qué licencia sale animiruorg/Animiru?
 
-*2.* ¿Qué licencia firma `animiruorg/Animiru`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Qué repo del grupo lleva más tiempo sin empujar?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|940.4★ — `ukuzihD/s0rmai`=1|REV|0.3-LPG=2|REV|92-01-6202 — `krof-imoyinA-imadaT/munacradna`=3
+REV|92-01-6202 — krof-imoyinA-imadaT/munacradna=1|REV|0.3-LPG=2|REV|52-70-5202 — psoa_elbert/secnop=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 26 repos GitHub (26 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 26 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 26 vivos, 0 firmados arriba con su estado.

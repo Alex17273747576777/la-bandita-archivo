@@ -1,26 +1,17 @@
 # Publicación 78 — LA LISTA del techo: las ochenta, en una página
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**jellyfin/jellyfin** encabeza esta entrega con ★58.787 medidos hoy: «The Free Software Media System - Server Backend & API». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: csharp, dotnet, hacktoberfest, jellyfin.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `jellyfin/jellyfin` —
-★58.785, GPL-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **jellyfin/jellyfin** — «The Free Software Media System - Server Backend & API»
+  ★58.787 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · C# · última release v12.4 (2026-10-26) · https://github.com/jellyfin/jellyfin · Web: https://jellyfin.org
+  Temas: csharp · dotnet · hacktoberfest · jellyfin
 
-• `jellyfin/jellyfin` — ★58.785 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Hay release de esta semana: **jellyfin/jellyfin** publicó v12.4 (2026-10-26). Con releases publicadas hay 1; manda la de **jellyfin/jellyfin** (v12.4 (2026-10-26)); el parte legal dice GPL-2.0 ×1; lo último empujado lo firmó **jellyfin/jellyfin** hace 2 días.
 
-• https://github.com/jellyfin/jellyfin — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

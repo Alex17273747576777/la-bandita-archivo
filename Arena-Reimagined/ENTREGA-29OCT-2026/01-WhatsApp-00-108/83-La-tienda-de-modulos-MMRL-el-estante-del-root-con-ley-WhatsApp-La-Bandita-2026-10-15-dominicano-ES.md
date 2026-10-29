@@ -1,40 +1,31 @@
 *83 — LA TIENDA DE MÓDULOS*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**MMRLApp/MMRL** encabeza esta entrega con ★2.223 medidos hoy: «A app for managing, sharing, and exploring Magisk modules across repositories». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: android, apatch, compose, kernelsu.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `MMRLApp/MMRL` — ★2.223,
-GPL-3.0, último empuje 2026-10-25.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **MMRLApp/MMRL** — «A app for managing, sharing, and exploring Magisk modules across repositories»
+  ★2.223 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v34296 (2026-03-08) · https://github.com/MMRLApp/MMRL · Web: https://mmrl.dev
+  Temas: android · apatch · compose · kernelsu · kotlin · magisk
 
-• `MMRLApp/MMRL` — ★2.223 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **MMRLApp/MMRL**, hace 6 días. El parte legal dice GPL-3.0 ×1; con releases publicadas hay 1; manda la de **MMRLApp/MMRL** (v34296 (2026-03-08)).
 
-• https://github.com/mmrlapp/mmrl — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* La release más nueva de la pieza, ¿de qué repo es?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál fue el último repo del grupo en empujar código?
 
-*2.* ¿Qué repo empujó más recientemente?
+*3.* ¿Quién manda en estrellas dentro de esta pieza?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|322.2★ — `LRMM/ppALRMM`=1|REV|52-01-6202 — `LRMM/ppALRMM`=2
+REV|)80-30-6202( 69243v — LRMM/ppALRMM=1|REV|52-01-6202 — LRMM/ppALRMM=2|REV|322.2★ — LRMM/ppALRMM=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

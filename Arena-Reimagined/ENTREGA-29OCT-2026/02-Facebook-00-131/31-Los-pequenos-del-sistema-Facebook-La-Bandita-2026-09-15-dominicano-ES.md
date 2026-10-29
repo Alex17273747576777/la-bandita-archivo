@@ -1,81 +1,58 @@
 # Publicación 31 — Los pequeños del sistema: una sola cosa, hecha bien
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 12 vivos. El mayor es **Hamza417/Inure** (★1.980): «An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a…». Le sigue **axel358/smartdock** (★1.458): «A user-friendly desktop mode launcher that offers a modern and customizable user interface». Con actividad en los últimos 30 días: 6 de 12. Temas que se repiten en el grupo: accessibility-service, adaptive-hz, adb, android.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 12 repos: 1 empujaron hoy, 3 en los
-últimos 7 días, 2 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `Hamza417/Inure` — ★1.980,
-GPL-3.0, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **Hamza417/Inure** — «An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a…»
+  ★1.980 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release build107.3.0 (2026-10-21) · https://github.com/Hamza417/Inure
+  Temas: android · android-app · android-application · animations · app · c
 
-• `Hamza417/Inure` — ★1.980 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **axel358/smartdock** — «A user-friendly desktop mode launcher that offers a modern and customizable user interface»
+  ★1.458 · su último empuje fue el 2026-05-21 (hace 163 días) · licencia GPL-3.0 · Kotlin · última release 1.15.0 (2026-05-21) · https://github.com/axel358/smartdock
 
-• `axel358/smartdock` — ★1.458 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-05-21
-· GPL-3.0
+- **Hamza417/Peristyle** — «Advance wallpaper manager app for Android with cool glassmorphic UI, tags, auto wallpaper, custom effects and multiple folder support and a native live wallpaper picker.»
+  ★740 · su último empuje fue el 2026-10-23 (hace 8 días) · licencia Apache-2.0 · Kotlin · última release v9.8.4 (2026-10-23) · https://github.com/Hamza417/Peristyle
+  Temas: android · android-app · compose · gallery · glassmorphism · jetpack-compose
 
-• `Hamza417/Peristyle` — ★740 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-23
-· Apache-2.0
+- **adil192/no_more_background** — «A fire-and-forget program to stop Android apps from running in the background.»
+  ★384 · su último empuje fue el 2026-10-01 (hace 30 días) · licencia GPL-3.0 · Dart · última release v2.8.2 (2026-08-01) · https://github.com/adil192/no_more_background · Web: https://flathub.org/apps/com.adilhanney.no_more_background
+  Temas: adb · android · debloat · privacy · shizuku
 
-• `adil192/no_more_background` — ★384 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-01
-· GPL-3.0
+- **Akylas/EnforceDoze** — «Enable Doze mode immediately after screen off and turn off motion sensing to get best battery life»
+  ★366 · su último empuje fue el 2026-07-26 (hace 97 días) · licencia GPL-3.0 · Java · última release v1.10.2/86 (2026-04-18) · https://github.com/Akylas/EnforceDoze · Web: https://www.akylas.fr/EnforceDoze/
 
-• `Akylas/EnforceDoze` — ★366 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-07-26
-· GPL-3.0
+- **agupta07505/SmartIsland** — «Smart Island is a modern, open-source implementation of Android's Dynamic Island experience. It transforms notifications, media playback, incoming calls, timers, charging…»
+  ★348 · su último empuje fue el 2026-10-19 (hace 12 días) · licencia GPL-3.0 · Kotlin · última release v7.6.0 (2026-10-19) · https://github.com/agupta07505/SmartIsland · Web: http://smartisland.vercel.app/
+  Temas: android · app-development · dynamic-island · dynamicisland · hyper-island · kotlin
 
-• `agupta07505/SmartIsland` — ★348 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-19
-· GPL-3.0
+- **daisukiKaffuChino/RebootNya** — «RebootNya is a simple yet advanced reboot utility that supports both Root and Shizuku!»
+  ★288 · su último empuje fue el 2026-08-20 (hace 72 días) · licencia Apache-2.0 · Kotlin · última release 1.9.0 (2026-08-20) · https://github.com/daisukiKaffuChino/RebootNya
+  Temas: adb · android · root · shell · shizuku
 
-• `daisukiKaffuChino/RebootNya` — ★288 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-20
-· Apache-2.0
+- **mlm-games/BatStats** — «Battery monitor with stats via Shizuku/root»
+  ★233 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 6.2.6 (2026-09-14) · https://github.com/mlm-games/BatStats
 
-• `mlm-games/BatStats` — ★233 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **C10udburst/Grayscaler** — «Keep your phone mostly monochrome, but allow apps like camera to be in color.»
+  ★168 · su último empuje fue el 2025-02-18 (hace 620 días) · licencia GPL-3.0 · Kotlin · última release 1.0 (2025-02-18) · https://github.com/C10udburst/Grayscaler
+  Temas: android-app · android-compose · shizuku · shizuku-api
 
-• `C10udburst/Grayscaler` — ★168 (verificado 2026-10-29)
-· dormido · última actividad 2025-02-18
-· GPL-3.0
+- **eiyooooo/Fold_Switcher** — «折叠屏切换器 | Switch between various folding states on foldable devices»
+  ★121 · su último empuje fue el 2025-06-10 (hace 508 días) · licencia Apache-2.0 · Kotlin · última release V1.2.2 (2025-04-11) · https://github.com/eiyooooo/Fold_Switcher
+  Temas: foldable-devices · phone
 
-• `eiyooooo/Fold_Switcher` — ★121 (verificado 2026-10-29)
-· dormido · última actividad 2025-06-10
-· Apache-2.0
+- **mahmutaunal/Adaptive-Hz** — «Adaptive Hz automatically switches the display refresh rate based on user interaction. It is designed for devices that do not provide true adaptive refresh rate control natively.»
+  ★95 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia MIT · Kotlin · última release 2.3.0 (2026-08-20) · https://github.com/mahmutaunal/Adaptive-Hz · Web: https://www.alpwarestudio.com/en/products/adaptive-hz/
+  Temas: accessibility-service · adaptive-hz · android · android-performance · android-utility · battery-optimization
 
-• `mahmutaunal/Adaptive-Hz` — ★95 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-14
-· MIT
+- **Xitee1/sleep-timer** — «A fancy Android app that pauses / fades out music, disables things like WiFi and Bluetooth when the timer ends»
+  ★68 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release v1.4.0 (2026-10-27) · https://github.com/Xitee1/sleep-timer
+  Temas: android · auto-pause · music-player · screen-off · sleep-timer
 
-• `Xitee1/sleep-timer` — ★68 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-27
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+La noticia fresca es de **Xitee1/sleep-timer**: release v1.4.0 (2026-10-27). El empuje más reciente es de **mlm-games/BatStats** (hace 2 días); **C10udburst/Grayscaler** duerme desde el 2025-02-18; 12 repos tienen release y la más reciente es la de **Xitee1/sleep-timer** (v1.4.0 (2026-10-27)); en licencias: GPL-3.0 ×8, Apache-2.0 ×3, MIT ×1.
 
-• https://github.com/mahmutaunal/Adaptive-Hz — vivo al verificar hoy (2026-10-29)
-• https://github.com/C10udburst/Grayscaler — vivo al verificar hoy (2026-10-29)
-• https://github.com/eiyooooo/Fold_Switcher — vivo al verificar hoy (2026-10-29)
-• https://github.com/agupta07505/SmartIsland — vivo al verificar hoy (2026-10-29)
-• https://github.com/Akylas/EnforceDoze — vivo al verificar hoy (2026-10-29)
-• https://github.com/adil192/no_more_background — vivo al verificar hoy (2026-10-29)
-• https://github.com/Xitee1/sleep-timer — vivo al verificar hoy (2026-10-29)
-• https://github.com/mlm-games/BatStats — vivo al verificar hoy (2026-10-29)
-• https://github.com/daisukiKaffuChino/RebootNya — vivo al verificar hoy (2026-10-29)
-• https://github.com/axel358/smartdock — vivo al verificar hoy (2026-10-29)
-• https://github.com/Hamza417/Peristyle — vivo al verificar hoy (2026-10-29)
-• https://github.com/hamza417/inure — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 12 repos GitHub (12 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.

@@ -1,47 +1,35 @@
 *55 — LA PARED DEL BARRIO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**pi-hole/pi-hole** encabeza esta entrega con ★61.559 medidos hoy: «A black hole for Internet advertisements». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **AdguardTeam/AdGuardHome** (★37.867): «Network-wide ads & trackers blocking DNS server». Temas que se repiten en el grupo: ad-blocker, adblock, adguard, blocker.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 2 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `pi-hole/pi-hole` — ★61.558,
-NOASSERTION, último empuje 2026-10-27.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **pi-hole/pi-hole** — «A black hole for Internet advertisements»
+  ★61.559 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) · Shell · última release v6.5 (2026-10-17) · https://github.com/pi-hole/pi-hole · Web: https://pi-hole.net
+  Temas: ad-blocker · blocker · cloud · dashboard · dhcp · dhcp-server
 
-• `pi-hole/pi-hole` — ★61.558 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-27
-· NOASSERTION
+- **AdguardTeam/AdGuardHome** — «Network-wide ads & trackers blocking DNS server»
+  ★37.867 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · TypeScript · última release v0.107.79 (2026-08-18) · https://github.com/AdguardTeam/AdGuardHome · Web: https://adguard.com/adguard-home/overview.html
+  Temas: adblock · adguard · dns · dns-over-https · dns-over-quic · dns-over-tls
 
-• `AdguardTeam/AdGuardHome` — ★37.863 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-27
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **pi-hole/pi-hole**, hace 4 días. El parte legal dice licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) ×1, GPL-3.0 ×1; con releases publicadas hay 2; manda la de **pi-hole/pi-hole** (v6.5 (2026-10-17)).
 
-• https://github.com/pi-hole/pi-hole — vivo al verificar hoy (2026-10-29)
-• https://github.com/AdguardTeam/AdGuardHome — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Bajo qué licencia se publica AdguardTeam/AdGuardHome?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál fue el último repo del grupo en empujar código?
 
-*2.* ¿Qué licencia firma `AdguardTeam/AdGuardHome`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Quién manda en estrellas dentro de esta pieza?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|855.16★ — `eloh-ip/eloh-ip`=1|REV|0.3-LPG=2|REV|72-01-6202 — `eloh-ip/eloh-ip`=3
+REV|0.3-LPG=1|REV|72-01-6202 — eloh-ip/eloh-ip=2|REV|955.16★ — eloh-ip/eloh-ip=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

@@ -1,27 +1,21 @@
 # Publicación 18 — Libros libres: OpenlibExtended — la biblioteca entera en el bolsillo
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**warreth/OpenlibExtended** encabeza esta entrega con ★556 medidos hoy: «An Open source app to download and read books from shadow libraries (Anna’s Archive, libgen, zlib)». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: annas-archive, archiving, books, ebook.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `warreth/OpenlibExtended` —
-★556, AGPL-3.0, último empuje 2026-10-18.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **warreth/OpenlibExtended** — «An Open source app to download and read books from shadow libraries (Anna’s Archive, libgen, zlib)»
+  ★556 · su último empuje fue el 2026-10-18 (hace 13 días) · licencia AGPL-3.0 · Dart · última release v1.7.2 (2026-10-18) · https://github.com/warreth/OpenlibExtended
+  Temas: annas-archive · archiving · books · ebook · ebook-downloader · ereader
 
-• `warreth/OpenlibExtended` — ★556 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-18
-· AGPL-3.0
+## Enlaces externos de la pieza
 
-## 🔗 Fuentes comprobadas hoy
+- https://appteka.store/app/d18r318069 — respondió viva hoy
 
-• https://github.com/warreth/OpenlibExtended — vivo al verificar hoy (2026-10-29)
-• https://appteka.store/app/d18r318069 — respondió viva hoy (2026-10-29)
+## Lectura de la medición
 
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 1
-enlace externo de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+Pulso tranquilo: lo último que se movió fue **warreth/OpenlibExtended**, hace 13 días. Con releases publicadas hay 1; manda la de **warreth/OpenlibExtended** (v1.7.2 (2026-10-18)); el parte legal dice AGPL-3.0 ×1.
+
+💓 1 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

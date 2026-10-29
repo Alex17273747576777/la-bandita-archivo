@@ -1,34 +1,27 @@
 # Publicación 12 — FMHY es una wiki de pistas, no un catálogo: discovery ≠ verificación
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**mihonapp/mihon** encabeza esta entrega con ★24.839 medidos hoy: «Free and open source manga reader for Android». La pieza cita 2 repos (2 vivos) y 1 empujaron en los últimos 30 días. Le sigue **fmhy/FMHY** (★15.319): «https://fmhy.net/». Temas que se repiten en el grupo: android, freemediaheckyeah, kotlin, manga.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `mihonapp/mihon` — ★24.838,
-Apache-2.0, último empuje 2026-10-26.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **mihonapp/mihon** — «Free and open source manga reader for Android»
+  ★24.839 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release v0.21.3 (2026-10-25) · https://github.com/mihonapp/mihon
+  Temas: android · kotlin · manga · manga-downloader · manga-reader · mangadownloader
 
-• `mihonapp/mihon` — ★24.838 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· Apache-2.0
+- **fmhy/FMHY** — «https://fmhy.net/»
+  ★15.319 · su último empuje fue el 2026-05-13 (hace 171 días) · licencia sin archivo LICENSE en su repo (verificado) · https://github.com/fmhy/FMHY
+  Temas: freemediaheckyeah
 
-• `fmhy/FMHY` — ★15.319 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-05-13
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+## Enlaces externos de la pieza
 
-## 🔗 Fuentes comprobadas hoy
+- https://fmhy.net — respondió viva hoy
+- https://fmhy.net/beginners-guide — respondió viva hoy
+- https://fmhy.net/posts/sept-2026 — respondió viva hoy
 
-• https://github.com/mihonapp/mihon — vivo al verificar hoy (2026-10-29)
-• https://github.com/fmhy/FMHY — vivo al verificar hoy (2026-10-29)
-• https://fmhy.net — respondió viva hoy (2026-10-29)
-• https://fmhy.net/beginners-guide — respondió viva hoy (2026-10-29)
-• https://fmhy.net/posts/sept-2026 — respondió viva hoy (2026-10-29)
+## Lectura de la medición
 
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 3
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+Hay release de esta semana: **mihonapp/mihon** publicó v0.21.3 (2026-10-25). Con releases publicadas hay 1; manda la de **mihonapp/mihon** (v0.21.3 (2026-10-25)); el parte legal dice Apache-2.0 ×1, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **mihonapp/mihon** hace 5 días.
+
+💓 2 repos y 3 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

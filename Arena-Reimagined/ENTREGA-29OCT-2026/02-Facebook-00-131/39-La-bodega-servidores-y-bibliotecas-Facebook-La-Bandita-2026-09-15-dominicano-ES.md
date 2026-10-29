@@ -1,46 +1,32 @@
 # Publicación 39 — La bodega: servidores y bibliotecas — el ala II de la puerta grande
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**jellyfin/jellyfin** encabeza esta entrega con ★58.787 medidos hoy: «The Free Software Media System - Server Backend & API». La pieza cita 5 repos (5 vivos) y 4 empujaron en los últimos 30 días. Le sigue **Kareadita/Kavita** (★11.971): «Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your…». Temas que se repiten en el grupo: annotations, api, cbz, comicinfo.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 5 repos: 2 empujaron hoy, 2 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `jellyfin/jellyfin` —
-★58.785, GPL-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **jellyfin/jellyfin** — «The Free Software Media System - Server Backend & API»
+  ★58.787 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · C# · última release v12.4 (2026-10-26) · https://github.com/jellyfin/jellyfin · Web: https://jellyfin.org
+  Temas: csharp · dotnet · hacktoberfest · jellyfin
 
-• `jellyfin/jellyfin` — ★58.785 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-2.0
+- **Kareadita/Kavita** — «Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your…»
+  ★11.971 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · C# · última release v0.9.1.4 (2026-09-02) · https://github.com/Kareadita/Kavita · Web: http://www.kavitareader.com
+  Temas: annotations · cbz · comicinfo · comics · comics-reader · cross-platform
 
-• `Kareadita/Kavita` — ★11.971 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **Suwayomi/Suwayomi-Server** — «A rewrite of Tachiyomi for the Desktop»
+  ★7.968 · su último empuje fue el 2026-10-24 (hace 7 días) · licencia MPL-2.0 · Java · última release v2.4.2366 (2026-09-30) · https://github.com/Suwayomi/Suwayomi-Server
+  Temas: desktop · hacktoberfest · javalin · kotlin · manga · manga-downloader
 
-• `Suwayomi/Suwayomi-Server` — ★7.968 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-24
-· MPL-2.0
+- **gotson/komga** — «Media server for comics/mangas/BDs/magazines/eBooks with API, OPDS, Kobo Sync and KOReader Sync support»
+  ★6.797 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Kotlin · última release 1.29.2 (2026-10-28) · https://github.com/gotson/komga · Web: https://komga.org
+  Temas: api · comics · ddd · docker · domain-driven-design · kobo
 
-• `gotson/komga` — ★6.797 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **tachimanga/Tachidesk-Server** — «A rewrite of Tachiyomi for the Desktop»
+  ★44 · su último empuje fue el 2026-07-15 (hace 108 días) · licencia MPL-2.0 · Java · https://github.com/tachimanga/Tachidesk-Server
 
-• `tachimanga/Tachidesk-Server` — ★44 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-07-15
-· MPL-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Hay release de esta semana: **gotson/komga** publicó 1.29.2 (2026-10-28). Con releases publicadas hay 4; manda la de **gotson/komga** (1.29.2 (2026-10-28)); el parte legal dice MPL-2.0 ×2, GPL-2.0 ×1, GPL-3.0 ×1; lo último empujado lo firmó **jellyfin/jellyfin** hace 2 días.
 
-• https://github.com/jellyfin/jellyfin — vivo al verificar hoy (2026-10-29)
-• https://github.com/Kareadita/Kavita — vivo al verificar hoy (2026-10-29)
-• https://github.com/Suwayomi/Suwayomi-Server — vivo al verificar hoy (2026-10-29)
-• https://github.com/gotson/komga — vivo al verificar hoy (2026-10-29)
-• https://github.com/tachimanga/Tachidesk-Server — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 5 repos GitHub (5 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

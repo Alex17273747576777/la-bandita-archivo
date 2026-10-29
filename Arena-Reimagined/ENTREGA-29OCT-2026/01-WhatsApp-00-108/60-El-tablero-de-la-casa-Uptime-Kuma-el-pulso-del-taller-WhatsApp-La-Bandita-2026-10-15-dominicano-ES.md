@@ -1,47 +1,35 @@
 *60 — EL TABLERO DE LA CASA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **louislam/uptime-kuma** (★93.065): «A fancy self-hosted monitoring tool». Le sigue **gethomepage/homepage** (★33.437): «A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: docker, homepage, monitor, monitoring.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `louislam/uptime-kuma` —
-★93.064, MIT, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **louislam/uptime-kuma** — «A fancy self-hosted monitoring tool»
+  ★93.065 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · JavaScript · última release 2.5.8 (2026-10-26) · https://github.com/louislam/uptime-kuma · Web: https://uptime.kuma.pet
+  Temas: docker · monitor · monitoring · responsive · self-hosted · selfhosted
 
-• `louislam/uptime-kuma` — ★93.064 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **gethomepage/homepage** — «A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.»
+  ★33.437 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · JavaScript · última release v2.7.0 (2026-10-23) · https://github.com/gethomepage/homepage · Web: https://gethomepage.dev
+  Temas: docker · homepage · nextjs · node · react · self-hosted
 
-• `gethomepage/homepage` — ★33.438 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+La noticia fresca es de **louislam/uptime-kuma**: release 2.5.8 (2026-10-26). El empuje más reciente es de **louislam/uptime-kuma** (hace 2 días); 2 repos tienen release y la más reciente es la de **louislam/uptime-kuma** (2.5.8 (2026-10-26)); en licencias: MIT ×1, GPL-3.0 ×1.
 
-• https://github.com/louislam/uptime-kuma — vivo al verificar hoy (2026-10-29)
-• https://github.com/gethomepage/homepage — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
-
-*2.* ¿Qué licencia firma `gethomepage/homepage`?
+*2.* ¿Qué licencia firma gethomepage/homepage?
 
 *3.* ¿Qué repo empujó más recientemente?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|460.39★ — `amuk-emitpu/malsiuol`=1|REV|0.3-LPG=2|REV|92-01-6202 — `amuk-emitpu/malsiuol`=3
+REV|)62-01-6202( 8.5.2 — amuk-emitpu/malsiuol=1|REV|0.3-LPG=2|REV|92-01-6202 — amuk-emitpu/malsiuol=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

@@ -1,41 +1,26 @@
 # Publicación 101 — La foto VI: el pabellón de los dormidos
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**aniyomiorg/aniyomi** encabeza esta entrega con ★7.855 medidos hoy: «An app for manga and anime». La pieza cita 4 repos (4 vivos) y 1 empujaron en los últimos 30 días. Le sigue **Gekkoushi/plugin-source** (★93): «Manga Parsers library for Kotlin/JVM and Android». Temas que se repiten en el grupo: android, anime, manga.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 4 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `aniyomiorg/aniyomi` —
-★7.855, Apache-2.0, último empuje 2026-09-14.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **aniyomiorg/aniyomi** — «An app for manga and anime»
+  ★7.855 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia Apache-2.0 · Kotlin · última release v0.18.2.1 (2026-09-14) · https://github.com/aniyomiorg/aniyomi · Web: https://aniyomi.org
+  Temas: android · anime · manga
 
-• `aniyomiorg/aniyomi` — ★7.855 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-14
-· Apache-2.0
+- **Gekkoushi/plugin-source** — «Manga Parsers library for Kotlin/JVM and Android»
+  ★93 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia GPL-3.0 · Kotlin · última release 1.2.6 (2026-08-10) · https://github.com/Gekkoushi/plugin-source
 
-• `Gekkoushi/plugin-source` — ★93 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-14
-· GPL-3.0
+- **Gekkoushi/plugin** — «This repository contains plugin artifacts for Usagi and any apps that use the same structure with Tsuki.»
+  ★11 · su último empuje fue el 2026-09-13 (hace 48 días) · licencia sin archivo LICENSE en su repo (verificado) · última release 75af884 (2026-08-10) · https://github.com/Gekkoushi/plugin
 
-• `Gekkoushi/plugin` — ★11 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-13
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **sang765/Usagi** — «Just a manga reader fork... IDK what i am doin.»
+  ★0 · su último empuje fue el 2026-10-16 (hace 15 días) · licencia GPL-3.0 · Kotlin · https://github.com/sang765/Usagi · Web: https://yumemi.moe/usagi
 
-• `sang765/Usagi` — ★0 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-16
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Pulso tranquilo: lo último que se movió fue **sang765/Usagi**, hace 15 días. El parte legal dice GPL-3.0 ×2, Apache-2.0 ×1, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; con releases publicadas hay 3; manda la de **aniyomiorg/aniyomi** (v0.18.2.1 (2026-09-14)).
 
-• https://github.com/sang765/usagi — vivo al verificar hoy (2026-10-29)
-• https://github.com/aniyomiorg/aniyomi — vivo al verificar hoy (2026-10-29)
-• https://github.com/gekkoushi/plugin-source — vivo al verificar hoy (2026-10-29)
-• https://github.com/gekkoushi/plugin — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 4 repos GitHub (4 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

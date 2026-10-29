@@ -1,26 +1,17 @@
 # Publicación 86 — La fábrica: revanced-magisk-module, el molde diario
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+**j-hc/revanced-magisk-module** encabeza esta entrega con ★7.705 medidos hoy: «Extensive ReVanced builder. Builds both modules and APKs. Updated daily.». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: magisk, module, morphe, revanced.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `j-hc/revanced-magisk-module`
-— ★7.706, GPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **j-hc/revanced-magisk-module** — «Extensive ReVanced builder. Builds both modules and APKs. Updated daily.»
+  ★7.705 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Shell · última release 20221122 (2026-10-29) · https://github.com/j-hc/revanced-magisk-module · Web: https://t.me/rvc_magisk
+  Temas: magisk · module · morphe · revanced · rvmm
 
-• `j-hc/revanced-magisk-module` — ★7.706 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Hay release de esta semana: **j-hc/revanced-magisk-module** publicó 20221122 (2026-10-29). Con releases publicadas hay 1; manda la de **j-hc/revanced-magisk-module** (20221122 (2026-10-29)); el parte legal dice GPL-3.0 ×1; lo último empujado lo firmó **j-hc/revanced-magisk-module** hace 2 días.
 
-• https://github.com/j-hc/revanced-magisk-module — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

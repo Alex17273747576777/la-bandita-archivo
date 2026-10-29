@@ -1,86 +1,64 @@
 # Publicación 40 — El estudio: lectores de escritorio — la puerta Lectura III
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 11 activos este mes. Manda **Anxcye/anx-reader** (★9.094): «Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused.». Le sigue **koharu-rs/koharu** (★6.539): «ML-powered manga translator, written in Rust.». Temas que se repiten en el grupo: android, annas-archive, books, comic.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 13 repos: 5 empujaron hoy, 5 en los
-últimos 7 días, 2 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `Anxcye/anx-reader` — ★9.094,
-MIT, último empuje 2026-10-17.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **Anxcye/anx-reader** — «Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused.»
+  ★9.094 · su último empuje fue el 2026-10-17 (hace 14 días) · licencia MIT · Dart · última release v1.14.0 (2026-03-19) · https://github.com/Anxcye/anx-reader · Web: https://anx.anxcye.com
+  Temas: dart · ebook-reader · flutter
 
-• `Anxcye/anx-reader` — ★9.094 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-17
-· MIT
+- **koharu-rs/koharu** — «ML-powered manga translator, written in Rust.»
+  ★6.539 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Rust · última release 0.83.5 (2026-09-22) · https://github.com/koharu-rs/koharu · Web: https://koharu.rs
+  Temas: computer-vision · deep-learning · gpu · gui · japanese · manga
 
-• `koharu-rs/koharu` — ★6.539 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **lnreader/lnreader** — «Light novel reader for Android.»
+  ★2.942 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia MIT · TypeScript · última release v2.1.4 (2026-09-26) · https://github.com/lnreader/lnreader · Web: https://www.lnreader.app
+  Temas: android · light-novels · react · react-native · webnovels
 
-• `lnreader/lnreader` — ★2.942 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· MIT
+- **edrlab/thorium-reader** — «A cross platform desktop reading app, based on the Readium Desktop toolkit»
+  ★2.922 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia BSD-3-Clause · TypeScript · última release v3.5.1 (2026-09-02) · https://github.com/edrlab/thorium-reader · Web: https://www.edrlab.org/software/thorium-reader/
+  Temas: electron · epub · epub-reader · epub3 · lcp · opds
 
-• `edrlab/thorium-reader` — ★2.922 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· BSD-3-Clause
+- **dstark5/Openlib** — «An Open source app to download and read books from shadow library (Anna’s Archive)»
+  ★2.507 · su último empuje fue el 2026-01-18 (hace 286 días) · licencia GPL-3.0 · Dart · última release v1.0.11 (2026-01-18) · https://github.com/dstark5/Openlib
+  Temas: android · annas-archive · books · ebook-reader · epub · flutter
 
-• `dstark5/Openlib` — ★2.507 (verificado 2026-10-29)
-· dormido · última actividad 2026-01-18
-· GPL-3.0
+- **ollm/OpenComic** — «Comic and Manga reader, written with Node.js and using Electron»
+  ★2.022 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · JavaScript · última release v1.6.5 (2025-10-31) · https://github.com/ollm/OpenComic · Web: https://opencomic.app
+  Temas: comic · comic-viewer · comics-reader · electron · epub-reader · image-viewer
 
-• `ollm/OpenComic` — ★2.022 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **LagradOst/QuickNovel** — «Android app for downloading novels»
+  ★1.877 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia GPL-3.0 · Kotlin · última release v3.8.1 (2026-10-26) · https://github.com/LagradOst/QuickNovel
+  Temas: android · lightnovel
 
-• `LagradOst/QuickNovel` — ★1.877 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· GPL-3.0
+- **YACReader/yacreader** — «This repo contains the code of YACReader's desktop version.»
+  ★1.421 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · C++ · última release 10.4.0 (2026-10-09) · https://github.com/YACReader/yacreader · Web: https://www.yacreader.com
+  Temas: hacktoberfest · hacktoberfest2022
 
-• `YACReader/yacreader` — ★1.421 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **dazedcat19/FMD2** — su repo no trae descripción oficial
+  ★1.171 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Pascal · última release 2.0.34.5 (2025-03-17) · https://github.com/dazedcat19/FMD2
+  Temas: fpc · lazarus · lua · pascal
 
-• `dazedcat19/FMD2` — ★1.171 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-2.0
+- **IReaderorg/IReader** — «Free and open source novel reader for Android and Desktop.»
+  ★980 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia Apache-2.0 · Kotlin · última release v2.0.26 (2026-09-07) · https://github.com/IReaderorg/IReader · Web: https://ireaderorg.netlify.app/
+  Temas: android · compose · hacktoberfest · ireader · kotlin · light-novels
 
-• `IReaderorg/IReader` — ★980 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· Apache-2.0
+- **Paperback-iOS/app** — «Repository to host app releases, issues, and feature requests for Paperback»
+  ★787 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · última release v0.8.11-r2 (2025-05-20) · https://github.com/Paperback-iOS/app · Web: https://paperback.moe/
+  Temas: paperback
 
-• `Paperback-iOS/app` — ★787 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **mienaiyami/yomikiru** — «A powerful offline manga, manhwa, comic, and novel reader for desktop Yomikiru is a feature-rich desktop application designed for reading locally stored manga, comics,…»
+  ★572 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia MIT · TypeScript · última release v2.25.1 (2026-10-23) · https://github.com/mienaiyami/yomikiru
+  Temas: comic-reader · comic-viewer · desktop · epub · epub-reader · epubreader
 
-• `mienaiyami/yomikiru` — ★572 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-22
-· MIT
+- **Ayowel/fork-yomikiru** — «A powerful offline manga, manhwa, comic, and novel reader for desktop Yomikiru is a feature-rich desktop application designed for reading locally stored manga, comics,…»
+  ★0 · su último empuje fue el 2026-02-11 (hace 262 días) · licencia MIT · https://github.com/Ayowel/fork-yomikiru
 
-• `Ayowel/fork-yomikiru` — ★0 (verificado 2026-10-29)
-· dormido · última actividad 2026-02-11
-· MIT
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**LagradOst/QuickNovel** trae la novedad del grupo, su release v3.8.1 (2026-10-26). **LagradOst/QuickNovel** firmó la release de fecha más reciente (v3.8.1 (2026-10-26)) de las 12 del grupo; legalmente el grupo se reparte así: MIT ×4, GPL-3.0 ×4, Apache-2.0 ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; la actividad más fresca es de **edrlab/thorium-reader** (hace 2 días); **dstark5/Openlib** no se mueve desde el 2026-01-18.
 
-• https://github.com/Anxcye/anx-reader — vivo al verificar hoy (2026-10-29)
-• https://github.com/edrlab/thorium-reader — vivo al verificar hoy (2026-10-29)
-• https://github.com/ollm/OpenComic — vivo al verificar hoy (2026-10-29)
-• https://github.com/YACReader/yacreader — vivo al verificar hoy (2026-10-29)
-• https://github.com/mienaiyami/yomikiru — vivo al verificar hoy (2026-10-29)
-• https://github.com/dazedcat19/FMD2 — vivo al verificar hoy (2026-10-29)
-• https://github.com/koharu-rs/koharu — vivo al verificar hoy (2026-10-29)
-• https://github.com/IReaderorg/IReader — vivo al verificar hoy (2026-10-29)
-• https://github.com/lnreader/lnreader — vivo al verificar hoy (2026-10-29)
-• https://github.com/LagradOst/QuickNovel — vivo al verificar hoy (2026-10-29)
-• https://github.com/dstark5/Openlib — vivo al verificar hoy (2026-10-29)
-• https://github.com/Paperback-iOS/app — vivo al verificar hoy (2026-10-29)
-• https://github.com/Ayowel/fork-yomikiru — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 13 repos GitHub (13 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 13 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.

@@ -1,47 +1,33 @@
 # Publicación 108 — El sótano de las copias: el testamento
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 5 repos, 5 vivos. El mayor es **immich-app/immich** (★117.612): «High performance self-hosted photo and video management solution.». Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Con actividad en los últimos 30 días: 4 de 5. Temas que se repiten en el grupo: android, backup-tool, file-synchronization, flutter.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 5 repos: 2 empujaron hoy, 1 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `immich-app/immich` —
-★117.611, AGPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **immich-app/immich** — «High performance self-hosted photo and video management solution.»
+  ★117.612 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · TypeScript · última release v3.3.5 (2026-10-21) · https://github.com/immich-app/immich · Web: https://immich.app
+  Temas: backup-tool · flutter · google-photos · google-photos-alternative · javascript · mobile-app
 
-• `immich-app/immich` — ★117.611 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **syncthing/syncthing** — «Open Source Continuous File Synchronization»
+  ★89.873 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MPL-2.0 · Go · última release v2.1.7 (2026-10-21) · https://github.com/syncthing/syncthing · Web: https://syncthing.net/
+  Temas: go · p2p · peer-to-peer · synchronization
 
-• `syncthing/syncthing` — ★89.873 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MPL-2.0
+- **syncthing/syncthing-android** — «Wrapper of syncthing for Android.»
+  ★4.293 · su último empuje fue el 2024-12-03 (hace 697 días) · licencia MPL-2.0 · Java · última release 1.28.1 (2024-12-03) · ARCHIVADO: historia, no opción viva · https://github.com/syncthing/syncthing-android · Web: https://syncthing.net/
+  Temas: android · java · p2p · peer-to-peer · synchronization
 
-• `syncthing/syncthing-android` — ★4.293 (verificado 2026-10-29)
-· dormido · última actividad 2024-12-03
-· MPL-2.0
-· ARCHIVADO en GitHub: historia, no opción viva
+- **NeoApplications/Neo-Backup** — «backup manager for android»
+  ★3.881 · su último empuje fue el 2026-10-17 (hace 14 días) · licencia AGPL-3.0 · Kotlin · última release 8.3.18 (2026-05-03) · https://github.com/NeoApplications/Neo-Backup
+  Temas: android · backup-tool · hacktoberfest · kotlin · root
 
-• `NeoApplications/Neo-Backup` — ★3.881 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-17
-· AGPL-3.0
+- **researchxxl/syncthing-android** — «Syncthing-Fork - A Syncthing Wrapper for Android.»
+  ★3.192 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia MPL-2.0 · Java · última release v2.1.7.0 (2026-10-21) · https://github.com/researchxxl/syncthing-android
+  Temas: file-synchronization
 
-• `researchxxl/syncthing-android` — ★3.192 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-22
-· MPL-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+Sin sobresaltos: el empuje más cercano es de **immich-app/immich** (hace 2 días). 5 repos tienen release y la más reciente es la de **immich-app/immich** (v3.3.5 (2026-10-21)); en licencias: MPL-2.0 ×3, AGPL-3.0 ×2; archivado por su autor: **syncthing/syncthing-android**; **syncthing/syncthing-android** duerme desde el 2024-12-03.
 
-• https://github.com/neoapplications/neo-backup — vivo al verificar hoy (2026-10-29)
-• https://github.com/immich-app/immich — vivo al verificar hoy (2026-10-29)
-• https://github.com/syncthing/syncthing-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/syncthing/syncthing — vivo al verificar hoy (2026-10-29)
-• https://github.com/researchxxl/syncthing-android — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 5 repos GitHub (5 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.
