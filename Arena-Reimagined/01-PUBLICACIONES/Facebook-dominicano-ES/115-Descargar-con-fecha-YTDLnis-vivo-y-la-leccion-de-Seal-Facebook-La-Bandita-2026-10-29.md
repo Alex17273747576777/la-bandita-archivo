@@ -4,27 +4,28 @@
 
 ## ⚡ En una página
 
-Dos descargadores hermanas enseñan la lección entera de esta casa: YTDLnis soltó release el 19 de octubre y empujó ayer; Seal empuja código desde septiembre pero no publica release desde noviembre de 2024. Ni el empuje solo es salud ni la release vieja es muerte: son dos fechas distintas que se firman por separado, y el dueño que las confunde recomienda fantasmas y entierra vivos.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 1 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `JunkFood02/Seal` — ★30.159,
+GPL-3.0, último empuje 2026-09-25.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• `deniscerri/ytdlnis` — ★10.839 (verificado 29-oct-2026)
-· última actividad 2026-10-28
+• `JunkFood02/Seal` — ★30.159 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-25
 · GPL-3.0
-· release 1.9.1.1 (2026-10-19).
 
-• `junkfood02/seal` — ★30.148 (verificado 29-oct-2026)
-· última actividad 2026-09-25
-· GPL-3.0.
+• `deniscerri/ytdlnis` — ★10.844 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Está vivo, mira el código. —Y la última release es de 2024: vivo en la cocina, ausente en la
-mesa; se firma así.
+• https://github.com/deniscerri/ytdlnis — vivo al verificar hoy (2026-10-29)
+• https://github.com/junkfood02/seal — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 115 del muro, nacida el 29 de octubre de 2026
-de la investigación del mismo día, con placas re-medidas en su fuente primaria. Las estrellas
-adornan; las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

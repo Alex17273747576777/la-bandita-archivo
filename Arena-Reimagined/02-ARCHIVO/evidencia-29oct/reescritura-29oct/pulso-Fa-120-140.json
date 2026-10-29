@@ -1,0 +1,413 @@
+{
+ "repos": {
+  "2dust/v2rayng": {
+   "slug": "2dust/v2rayNG",
+   "estado": "vivo",
+   "stars": 64939,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "diogorainhalopes/atahon": {
+   "slug": "diogorainhalopes/atahon",
+   "estado": "vivo",
+   "stars": 18,
+   "push": "2026-05-24",
+   "archivado": false,
+   "licencia": ""
+  },
+  "keiyoushi/extensions": {
+   "slug": "keiyoushi/extensions",
+   "estado": "vivo",
+   "stars": 15369,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": ""
+  },
+  "openhub-store/github-store": {
+   "slug": "komi-store/komi-store",
+   "estado": "vivo",
+   "stars": 20090,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "agalwood/motrix": {
+   "slug": "agalwood/Motrix",
+   "estado": "vivo",
+   "stars": 57547,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "akitaonrails/frankyomik": {
+   "slug": "akitaonrails/FrankYomik",
+   "estado": "vivo",
+   "stars": 214,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "appfuton/futon": {
+   "slug": "AppFuton/Futon",
+   "estado": "vivo",
+   "stars": 467,
+   "push": "2026-10-21",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "brunodev85/winlator": {
+   "slug": "brunodev85/winlator",
+   "estado": "vivo",
+   "stars": 19684,
+   "push": "2026-10-17",
+   "archivado": false,
+   "licencia": "LGPL-2.1"
+  },
+  "ciromattia/kcc": {
+   "slug": "ciromattia/kcc",
+   "estado": "vivo",
+   "stars": 5928,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "ISC"
+  },
+  "dazedcat19/fmd2": {
+   "slug": "dazedcat19/FMD2",
+   "estado": "vivo",
+   "stars": 1171,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "deniscerri/ytdlnis": {
+   "slug": "deniscerri/ytdlnis",
+   "estado": "vivo",
+   "stars": 10844,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "droid-ify/client": {
+   "slug": "Droid-ify/client",
+   "estado": "vivo",
+   "stars": 7661,
+   "push": "2026-09-12",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "glitch-228/kaisoku": {
+   "slug": "glitch-228/Kaisoku",
+   "estado": "vivo",
+   "stars": 54,
+   "push": "2026-10-26",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "gopeedlab/gopeed": {
+   "slug": "GopeedLab/gopeed",
+   "estado": "vivo",
+   "stars": 27246,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "guardianproject/orbot": {
+   "slug": "guardianproject/orbot-android",
+   "estado": "vivo",
+   "stars": 3661,
+   "push": "2026-10-26",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "hrydgard/ppsspp": {
+   "slug": "hrydgard/ppsspp",
+   "estado": "vivo",
+   "stars": 14782,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "huzaifakhalid1311/dropsauce": {
+   "slug": "HuzaifaKhalid1311/DropSauce",
+   "estado": "vivo",
+   "stars": 216,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "immich-app/immich": {
+   "slug": "immich-app/immich",
+   "estado": "vivo",
+   "stars": 117611,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "imranr98/obtainium": {
+   "slug": "ImranR98/Obtainium",
+   "estado": "vivo",
+   "stars": 21017,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "itsmechinmoy/dantotsu": {
+   "slug": "itsmechinmoy/Dantotsu",
+   "estado": "vivo",
+   "stars": 92,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "itsmechinmoy/dantotsu-updater": {
+   "slug": "itsmechinmoy/dantotsu-updater",
+   "estado": "vivo",
+   "stars": 154,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": ""
+  },
+  "jman-github/universal-patch-manager": {
+   "slug": "Jman-Github/Universal-Patch-Manager",
+   "estado": "vivo",
+   "stars": 1390,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "junkfood02/seal": {
+   "slug": "JunkFood02/Seal",
+   "estado": "vivo",
+   "stars": 30159,
+   "push": "2026-09-25",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "libre-tube/libretube": {
+   "slug": "libre-tube/LibreTube",
+   "estado": "vivo",
+   "stars": 12913,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "localsend/localsend": {
+   "slug": "localsend/localsend",
+   "estado": "vivo",
+   "stars": 96456,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "lsposed/lsposed": {
+   "slug": "LSPosed/LSPosed",
+   "estado": "vivo",
+   "stars": 25240,
+   "push": "2026-10-14",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "mankidev/orvid": {
+   "slug": "mankidev/orvid",
+   "estado": "vivo",
+   "stars": 9,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "mankidev/orvid-sources": {
+   "slug": "mankidev/orvid-sources",
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "metacubex/clashmetaforandroid": {
+   "slug": "MetaCubeX/ClashMetaForAndroid",
+   "estado": "vivo",
+   "stars": 48607,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "mihonapp/mihon": {
+   "slug": "mihonapp/mihon",
+   "estado": "vivo",
+   "stars": 24838,
+   "push": "2026-10-26",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "neoapplications/neo-backup": {
+   "slug": "NeoApplications/Neo-Backup",
+   "estado": "vivo",
+   "stars": 3881,
+   "push": "2026-10-17",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "outertune/outertune": {
+   "slug": "OuterTune/OuterTune",
+   "estado": "vivo",
+   "stars": 5437,
+   "push": "2026-10-12",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "photoprism/photoprism": {
+   "slug": "photoprism/photoprism",
+   "estado": "vivo",
+   "stars": 40370,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "predidit/kazumi": {
+   "slug": "Predidit/Kazumi",
+   "estado": "vivo",
+   "stars": 40103,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "researchxxl/syncthing-android": {
+   "slug": "researchxxl/syncthing-android",
+   "estado": "vivo",
+   "stars": 3192,
+   "push": "2026-10-22",
+   "archivado": false,
+   "licencia": "MPL-2.0"
+  },
+  "revanced/revanced-manager": {
+   "slug": "ReVanced/revanced-manager",
+   "estado": "vivo",
+   "stars": 30001,
+   "push": "2026-07-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "rikkaapps/shizuku": {
+   "slug": "RikkaApps/Shizuku",
+   "estado": "vivo",
+   "stars": 32382,
+   "push": "2025-06-18",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "rushiranpise/lsposed-modules-manager": {
+   "slug": "rushiranpise/lsposed-modules-manager",
+   "estado": "vivo",
+   "stars": 17,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "rushiranpise/xposed-modules": {
+   "slug": "rushiranpise/xposed-modules",
+   "estado": "vivo",
+   "stars": 11,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": ""
+  },
+  "rustdesk/rustdesk": {
+   "slug": "rustdesk/rustdesk",
+   "estado": "vivo",
+   "stars": 127494,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "sohilsayed/chimahon": {
+   "slug": "Chimahon/chimahon",
+   "estado": "vivo",
+   "stars": 237,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "solkin/appteka-android": {
+   "slug": "solkin/appteka-android",
+   "estado": "vivo",
+   "stars": 1359,
+   "push": "2026-10-21",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "syncthing/syncthing": {
+   "slug": "syncthing/syncthing",
+   "estado": "vivo",
+   "stars": 89873,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MPL-2.0"
+  },
+  "syncthing/syncthing-android": {
+   "slug": "syncthing/syncthing-android",
+   "estado": "vivo",
+   "stars": 4293,
+   "push": "2024-12-03",
+   "archivado": true,
+   "licencia": "MPL-2.0"
+  },
+  "tachibana-shin/rakuyomi": {
+   "slug": "tachibana-shin/rakuyomi",
+   "estado": "vivo",
+   "stars": 651,
+   "push": "2026-10-24",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "teamnewpipe/newpipe": {
+   "slug": "TeamNewPipe/NewPipe",
+   "estado": "vivo",
+   "stars": 40353,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "termux/termux-app": {
+   "slug": "termux/termux-app",
+   "estado": "vivo",
+   "stars": 63673,
+   "push": "2026-09-26",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "utazukin/ichaival": {
+   "slug": "Utazukin/Ichaival",
+   "estado": "vivo",
+   "stars": 220,
+   "push": "2026-08-26",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "xiaoyouchr/ghost-downloader-3": {
+   "slug": "XiaoYouChR/Ghost-Downloader-3",
+   "estado": "vivo",
+   "stars": 10501,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "yairm210/unciv": {
+   "slug": "yairm210/Unciv",
+   "estado": "vivo",
+   "stars": 11499,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MPL-2.0"
+  },
+  "yuzono/anime-extensions": {
+   "slug": "yuzono/anime-extensions",
+   "estado": "vivo",
+   "stars": 522,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  }
+ },
+ "urls": {}
+}

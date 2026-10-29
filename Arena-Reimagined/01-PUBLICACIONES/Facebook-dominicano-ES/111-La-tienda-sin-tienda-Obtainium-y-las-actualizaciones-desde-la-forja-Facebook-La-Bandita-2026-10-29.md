@@ -4,38 +4,33 @@
 
 ## ⚡ En una página
 
-La tienda sin tienda no vende nada: vigila las forjas de tus apps y te avisa cuando sueltan
-release. Obtainium manda en ese oficio con pulso de esta semana, Appteka abre la tienda
-comunitaria y Droid-ify ordena el catálogo libre.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 0 empujaron hoy, 1 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `ImranR98/Obtainium` —
+★21.017, GPL-3.0, último empuje 2026-10-25.
 
-La doctrina es la soberanía del update: la app se actualiza desde SU casa, con SU fecha y SU
-checksum, sin intermediario que decida por ti qué versión mereces.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `imranr98/obtainium` — ★21.004 (verificado 29-oct-2026)
-· última actividad 2026-10-25
+• `ImranR98/Obtainium` — ★21.017 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
 · GPL-3.0
-· release v1.7.3 (2026-10-25).
 
-• `solkin/appteka-android` — ★1.358 (verificado 29-oct-2026)
-· última actividad 2026-10-21
+• `Droid-ify/client` — ★7.661 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-12
 · GPL-3.0
-· release v24.0 (2026-10-21).
 
-• `droid-ify/client` — ★7.658 (verificado 29-oct-2026)
-· última actividad 2026-09-12
+• `solkin/appteka-android` — ★1.359 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-21
 · GPL-3.0
-· release Release v0.7.8 (2026-09-12).
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Mi tienda no me ofreció la actualización. —La forja la soltó hace tres días: la tienda sin
-tienda ya te había avisado.
+• https://github.com/imranr98/obtainium — vivo al verificar hoy (2026-10-29)
+• https://github.com/solkin/appteka-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/droid-ify/client — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 111 del muro, nacida el 29 de octubre de 2026
-de la investigación del mismo día, con placas re-medidas en su fuente primaria. Las estrellas
-adornan; las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

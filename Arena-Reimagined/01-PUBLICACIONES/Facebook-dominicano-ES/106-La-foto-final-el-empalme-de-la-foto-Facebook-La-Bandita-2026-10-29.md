@@ -4,19 +4,16 @@
 
 ## ⚡ En una página
 
-Diez cuadros después, la cámara baja: tamaño, calma, visibilidad, contrato, parentesco y velocidad se empalman en una sola lectura que se corrige a sí misma. El tamaño sin ritmo miente torres dormidas; el ritmo sin contrato esconde el papel; el empalme es la vara completa de la casa aplicada a su propio retrato.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 0 repos: 0 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos.
 
-## 🗼 Las placas al pulso (29-oct-2026)
+## 🗼 Las placas al pulso (2026-10-29)
 
-• Placas de la pieza contadas en su foto madre (WhatsApp) y re-pulsadas por la gira del 29-oct-2026 de esta casa.
 
-## El meme de la pieza
 
-> —Dame el ranking y ya. —El ranking sin empalme es la foto sin pabellón: bonita y falsa.
-
-> La Bandita verifica antes de recomendar: pieza 106 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 0 repos GitHub (0 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

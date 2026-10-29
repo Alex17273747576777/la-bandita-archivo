@@ -4,33 +4,28 @@
 
 ## ⚡ En una página
 
-Del censo al patio: la foto que sí vivimos (las caras, los niños, la sala) merece mueble elegido por vara, no por costumbre. Tres muebles medidos en el censo de la casa: el autoalojado serio (Immich), el veterano de la galería (PhotoPrism) y el de la casa conectada.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `immich-app/immich` —
+★117.611, AGPL-3.0, último empuje 2026-10-29.
 
-Foto ajena en nube ajena es un álbum durmiendo en sala extraña: no es pecado, es decisión que se
-toma con los ojos abiertos.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `immich-app/immich` — ★117.571 (verificado 29-oct-2026)
-· actividad HOY
-· última actividad 2026-10-29
+• `immich-app/immich` — ★117.611 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · AGPL-3.0
-· release v3.3.5 (2026-10-21)
 
-• `photoprism/photoprism` — ★40.369 (verificado 29-oct-2026)
-· actividad HOY
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION)
-· release October 7, 2026 (2026-10-07)
+• `photoprism/photoprism` — ★40.370 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Subo todo a la nube gratis. —Gratis la sala; el álbum es de tu familia: léete el contrato del
-mueble.
+• https://github.com/immich-app/immich — vivo al verificar hoy (2026-10-29)
+• https://github.com/photoprism/photoprism — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 107 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

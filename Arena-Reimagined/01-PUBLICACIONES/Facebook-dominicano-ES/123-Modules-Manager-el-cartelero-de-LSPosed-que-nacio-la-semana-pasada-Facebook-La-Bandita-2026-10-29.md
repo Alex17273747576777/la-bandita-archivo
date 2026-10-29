@@ -4,38 +4,33 @@
 
 ## ⚡ En una página
 
-La semilla más fresca que ha pasado por esta mesa: siete días de vida, release de hoy y un índice diario de más de dos mil repositorios de módulos Xposed/LSPosed para buscar, instalar y actualizar. El contraste lo firma solo: el framework LSPosed original no empuja desde 2024, pero su cartelero acaba de nacer empujando a diario.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 2 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `LSPosed/LSPosed` — ★25.240,
+GPL-3.0, último empuje 2026-10-14.
 
-Semilla es semilla — se prueba en el laboratorio, se mira su GPL-3.0 recién firmado y no se le
-entrega la casa hasta que cumpla meses — pero el pulso de nacimiento es de los que esta casa
-sabe leer.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `rushiranpise/lsposed-modules-manager` — ★17 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-10-22
+• `LSPosed/LSPosed` — ★25.240 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-14
 · GPL-3.0
-· release Modules Manager v1.1.5 (2026-10-29).
 
-• `rushiranpise/xposed-modules` — ★11 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· creado 2026-08-08
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `rushiranpise/lsposed-modules-manager` — ★17 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-• `lsposed/lsposed` — ★25.239 (verificado 29-oct-2026)
-· última actividad 2024-01-07
-· creado 2020-12-12
-· GPL-3.0.
+• `rushiranpise/xposed-modules` — ★11 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· sin clasificar por GitHub hoy (sin SPDX): no se inventa
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —El framework no se mueve desde 2024. —Su cartelero nació la semana pasada: el barrio se mueve
-aunque el fundador descanse.
+• https://github.com/rushiranpise/lsposed-modules-manager — vivo al verificar hoy (2026-10-29)
+• https://github.com/rushiranpise/xposed-modules — vivo al verificar hoy (2026-10-29)
+• https://github.com/lsposed/lsposed — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 123 del muro, nacida el 29 de octubre de 2026
-desde apps traídas por el dueño y re-medidas hoy en su fuente primaria. Las estrellas adornan;
-las fechas mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
-firma con actividad y licencia, no con aplauso.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.
