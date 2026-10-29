@@ -1,55 +1,28 @@
 # Publicación 70 — La vara de las forjas II: F-Droid, las tiendas y los sitios
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-Segunda ronda de la vara propia: **F-Droid tiene API de paquetes** (`/api/v1/packages/<app>`) y contesta versión sugerida al instante; **apt.izzysoft** es el índice hermano que toma las apps que F-Droid aún no; **Flathub, Accrescent y los sitios solos** completan el mapa. En el archivo del dueño hay **18 enlaces de tiendas e índices** fuera de GitHub — todos sondeados HOY: vivos, con su estado anotado.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 0 repos: 0 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos.
 
-## 🏪 Las tiendas del censo (sondeo HOY)
+## 🗼 Las placas al pulso (2026-10-29)
 
-- https://apt.izzysoft.de/fdroid/ · vivo (200)
-- https://flathub.org/apps/info.febvre.Komikku · vivo (200)
-- https://play.google.com/store/apps/details?id=cx.aswin.boxlore · vivo (200)
-- https://accrescent.app · vivo (200)
-- https://apt.izzysoft.de/fdroid · vivo (200)
-- https://apt.izzysoft.de/fdroid/index/apk/com.shayan.firewall · vivo (200)
 
-## 🧭 Los sitios solos
 
-Los sitios de proyecto sin forja (briarproject.org, readest.com, kid3.kde.org, librewiki…) no tienen releases que barrer: **su vara es la visita** — vivos (200) HOY, con fecha del sondeo. El censo no los confunde con forjas: cada casa con su oficio.
+## 🔗 Fuentes comprobadas hoy
 
-## ❓ La pregunta de las tiendas
+• https://accrescent.app — respondió viva hoy (2026-10-29)
+• https://apt.izzysoft.de/fdroid — respondió viva hoy (2026-10-29)
+• https://apt.izzysoft.de/fdroid/ — respondió viva hoy (2026-10-29)
+• https://apt.izzysoft.de/fdroid/index/apk/com.shayan.firewall — respondió viva hoy (2026-10-29)
+• https://flathub.org/apps/info.febvre.Komikku — respondió viva hoy (2026-10-29)
+• https://play.google.com/store/apps/details?id=cx.aswin.boxlore — respondió viva hoy (2026-10-29)
 
-**¿Una tienda es una forja?** No. La forja guarda el código; la tienda guarda los empaquetados.
-
-La casa las ficha por separado — porque quien audita código no lee lo mismo que quien instala una APK. Confundirlas es como confundir la cocina con el comedor.
-
-## 🔗 Enlaces
-
-Mapa completo de tiendas y sitios: **ANEXO FORJAS del Clasificador**.
-
-## El meme de las tiendas
-
-> —¿La tienda y la forja son lo mismo?
-> —La forja es la cocina; la tienda, el comedor. El plato puede ser el mismo — la receta, no.
-
-> La Bandita verifica antes de recomendar: F-Droid consultado por su API pública y tiendas
-sondeadas el 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 70).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0
-repos GitHub confirmados y 9 apariciones de URL. La historia no se reescribe; esta nota añade el
-estado medido hoy.
-
-Enlaces web: 9 apariciones; 9 respondieron vivas el 29-oct-2026.
-
-Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario
-compartido; la verificación de esta publicación es la de sus URL y la del universo global de la
-pasada.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 0 repos GitHub (0 vivos, 0 firmados como caídos/bloqueados) y 6
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

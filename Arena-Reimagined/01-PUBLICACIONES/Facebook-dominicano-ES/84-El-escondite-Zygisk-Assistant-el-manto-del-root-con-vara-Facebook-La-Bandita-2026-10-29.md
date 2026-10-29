@@ -4,27 +4,23 @@
 
 ## ⚡ En una página
 
-Zygisk-Assistant esconde la raíz de las apps que la persiguen, con licencia MIT y oficio
-discreto. La vara de la casa no cambia: TU banco, en TU teléfono, con TU cuenta.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `snake-4/Zygisk-Assistant` —
+★2.662, MIT, último empuje 2026-05-04.
 
-Esconder tu propio root en tu propio aparato es privacidad; engañar a terceros es otra puerta y
-no es receta de esta casa.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🗼 Las placas al pulso (29-oct-2026)
-
-• `snake-4/zygisk-assistant` — ★2.660 (verificado 29-oct-2026)
-· actividad últimos 180 días
-· última actividad 2026-05-04
+• `snake-4/Zygisk-Assistant` — ★2.662 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-05-04
 · MIT
 
-## El meme de la pieza
+## 🔗 Fuentes comprobadas hoy
 
-> —Mi banco no sabe que tengo root. —Que siga sin saberlo: es TU banco y TU teléfono; la vara es
-no mentirle a nadie más.
+• https://github.com/snake-4/zygisk-assistant — vivo al verificar hoy (2026-10-29)
 
-> La Bandita verifica antes de recomendar: pieza 84 del muro, nacida el 29 de octubre de 2026
-desde su pieza madre de WhatsApp, con placas re-medidas hoy. Las estrellas adornan; las fechas
-mandan.
-
-💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy en su fuente
-primaria. La historia de su pieza madre conserva su fecha; este muro firma la suya.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

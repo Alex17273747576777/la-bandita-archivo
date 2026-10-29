@@ -1,109 +1,121 @@
 # Publicación 75 — El podio de la mina: los veinte mayores del censo
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-El podio absoluto de la mina censada — los veinte repositorios de más estrellas del censo V25, con la vara revisada entera (351 ceros sospechosos re-raspeados casa por casa HOY). La revisión destapó gigantes que la primera tanda de la API dejó a oscuras: **la mina es más grande de lo que la primera pasada decía**.
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 20 repos: 10 empujaron hoy, 10 en
+los últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no
+responden quedan firmados como caídos, no escondidos. El mayor medido hoy:
+`awesome-selfhosted/awesome-selfhosted` — ★331.780, NOASSERTION, último empuje 2026-10-29.
 
-Y la lección queda actada: un censo con vara cansada no se publica — se repasa.
+## 🗼 Las placas al pulso (2026-10-29)
 
-## 🏆 Los veinte mayores
+• `awesome-selfhosted/awesome-selfhosted` — ★331.780 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-- **1. awesome-selfhosted** — ★319,420 · https://github.com/awesome-selfhosted/awesome-selfhosted
-- **2. llama.cpp** — ★128,330 · https://github.com/ggml-org/llama.cpp
-- **3. immich** — ★114,266 · https://github.com/immich-app/immich
-- **4. photoprism** — ★40,195 · https://github.com/photoprism/photoprism
-- **5. sing-box** — ★38,031 · https://github.com/SagerNet/sing-box
-- **6. SmartTube** — ★33,687 · https://github.com/yuliskov/SmartTube
-- **7. ente** — ★28,906 · https://github.com/ente/ente
-- **8. ente** — ★28,906 · https://github.com/ente-io/ente
-- **9. mlc-llm** — ★23,160 · https://github.com/mlc-ai/mlc-llm
-- **10. xbmc** — ★21,221 · https://github.com/xbmc/xbmc
-- **11. komi-store** — ★18,518 · https://github.com/kurikomi-labs/komi-store
-- **12. FreshRSS** — ★16,028 · https://github.com/FreshRSS/FreshRSS
-- **13. FlareSolverr** — ★15,600 · https://github.com/FlareSolverr/FlareSolverr
-- **14. ImageToolbox** — ★14,628 · https://github.com/T8RIN/ImageToolbox
-- **15. ImageResizer** — ★14,628 · https://github.com/T8RIN/ImageResizer
-- **16. thunderbird-android** — ★13,998 · https://github.com/thunderbird/thunderbird-android
-- **17. android-foss** — ★11,200 · https://github.com/offa/android-foss
-- **18. uhabits** — ★10,250 · https://github.com/iSoron/uhabits
-- **19. flutter_server_box** — ★8,705 · https://github.com/lollipopkit/flutter_server_box
-- **20. floccus** — ★8,456 · https://github.com/floccusaddon/floccus
+• `ggml-org/llama.cpp` — ★132.769 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· MIT
 
-## 📣 Mención de la puerta nominativa
+• `immich-app/immich` — ★117.611 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· AGPL-3.0
 
-De la Discoteca I (pieza 50): **Mihon — ★41.872**, que de estar en este censo entraría tercero o
-cuarto. Las puertas nominativas y el censo se leen juntos: el mapa es uno.
+• `photoprism/photoprism` — ★40.370 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-## 🫢 Lo que destapó el repaso
+• `SagerNet/sing-box` — ★39.389 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· NOASSERTION
 
-- **llama.cpp ★128.330** y **immich ★114.266** estaban a oscuras en la primera pasada — hoy son
-el 2 y el 3 del podio.
-- **ente aparece dos veces (★28.906 ×2):** espejo de organización — se cuenta una sola vez
-(libro de nombres, pieza 73).
-- El repaso completo, con número y método, vive en el Registro de la casa: **351 re-raspeados, 7
-ceros verdaderos, 0 ceros inventados**.
+• `yuliskov/SmartTube` — ★35.709 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· MIT
 
-## ❓ La pregunta del podio
+• `ente/ente` — ★29.741 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· AGPL-3.0
 
-**¿Sirve de algo el podio si las fechas mandan?** Sirve de escaparate: el podio orienta la primera mirada; las fechas deciden la confianza. Un podio sin fechas es una postal; un podio con fechas al lado, un mapa.
+• `ente/ente` — ★29.741 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· AGPL-3.0
 
-La casa da las dos cosas — por eso son piezas distintas (74 y 75).
+• `mlc-ai/mlc-llm` — ★23.285 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-27
+· Apache-2.0
 
-## 🔗 Enlaces
+• `xbmc/xbmc` — ★21.399 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-Cada nombre con fecha y rango: piezas 52-56 y Clasificador.
+• `komi-store/komi-store` — ★20.090 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· Apache-2.0
 
-## El meme del podio
+• `FreshRSS/FreshRSS` — ★16.446 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· AGPL-3.0
 
-> —¿Y el primero?
-> —Es una lista de listas: trescientas diecinueve mil estrellas dicen «empieza aquí». El podio
-no corona: orienta.
+• `FlareSolverr/FlareSolverr` — ★16.071 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-24
+· MIT
 
-> La Bandita verifica antes de recomendar: podio medido tras el repaso completo de la vara, 15
-de septiembre de 2026. Las estrellas adornan; las fechas mandan — y las varas, se repasan antes
-de coronar.
+• `T8RIN/ImageToolbox` — ★15.240 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
 
-───────────────────
+• `T8RIN/ImageToolbox` — ★15.240 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
 
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 75).*
+• `thunderbird/thunderbird-android` — ★14.157 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· Apache-2.0
 
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 20
-repos GitHub confirmados y 20 apariciones de URL. La historia no se reescribe; esta nota añade
-el estado medido hoy.
+• `offa/android-foss` — ★11.586 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· GPL-3.0
 
-Actividad medida hoy: 9 hoy · 10 en 7 días · 1 en 30 días · 0 en 180 días · 0 dormidos · 0
-archivados.
+• `iSoron/uhabits` — ★10.372 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-22
+· GPL-3.0
 
-Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta
-publicación (verificado 29-oct-2026).
+• `lollipopkit/flutter_server_box` — ★8.897 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· AGPL-3.0
 
-*Señales de futuro (novedad activa, no ranking por estrellas):*
+• `floccusaddon/floccus` — ★8.603 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· MPL-2.0
 
-• `kurikomi-labs/komi-store` — creado 2025-11-21
-· última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026)
-· Apache-2.0.
+## 🔗 Fuentes comprobadas hoy
 
-*Placas de control (por actividad y juventud, no por fama):*
+• https://github.com/awesome-selfhosted/awesome-selfhosted — vivo al verificar hoy (2026-10-29)
+• https://github.com/ggml-org/llama.cpp — vivo al verificar hoy (2026-10-29)
+• https://github.com/immich-app/immich — vivo al verificar hoy (2026-10-29)
+• https://github.com/photoprism/photoprism — vivo al verificar hoy (2026-10-29)
+• https://github.com/SagerNet/sing-box — vivo al verificar hoy (2026-10-29)
+• https://github.com/yuliskov/SmartTube — vivo al verificar hoy (2026-10-29)
+• https://github.com/ente/ente — vivo al verificar hoy (2026-10-29)
+• https://github.com/ente-io/ente — vivo al verificar hoy (2026-10-29)
+• https://github.com/mlc-ai/mlc-llm — vivo al verificar hoy (2026-10-29)
+• https://github.com/xbmc/xbmc — vivo al verificar hoy (2026-10-29)
+• https://github.com/kurikomi-labs/komi-store — vivo al verificar hoy (2026-10-29)
+• https://github.com/FreshRSS/FreshRSS — vivo al verificar hoy (2026-10-29)
+• https://github.com/FlareSolverr/FlareSolverr — vivo al verificar hoy (2026-10-29)
+• https://github.com/T8RIN/ImageToolbox — vivo al verificar hoy (2026-10-29)
+• https://github.com/T8RIN/ImageResizer — vivo al verificar hoy (2026-10-29)
+• https://github.com/thunderbird/thunderbird-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/offa/android-foss — vivo al verificar hoy (2026-10-29)
+• https://github.com/iSoron/uhabits — vivo al verificar hoy (2026-10-29)
+• https://github.com/lollipopkit/flutter_server_box — vivo al verificar hoy (2026-10-29)
+• https://github.com/floccusaddon/floccus — vivo al verificar hoy (2026-10-29)
 
-• `xbmc/xbmc` — ★21.397 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION).
-
-• `awesome-selfhosted/awesome-selfhosted` — ★331.648 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION).
-
-• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· licencia sin clasificar (NOASSERTION)
-· release October 7, 2026 (2026-10-07).
-
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `photoprism/photoprism` — AGPL-3.0;
-`awesome-selfhosted/awesome-selfhosted` — CC; `sagernet/sing-box` — GPL-3.0; `xbmc/xbmc` — GPL.
-
-Enlaces web: 20 apariciones; 20 respondieron vivas el 29-oct-2026.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 20 repos GitHub (20 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.
