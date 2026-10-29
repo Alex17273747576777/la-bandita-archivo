@@ -725,7 +725,7 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 *Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-• `seedvault-app/seedvault` — ★1.877 (verificado 29-oct-2026) · última actividad 2026-10-14 · licencia sin resolver.
+• `seedvault-app/seedvault` — ★1.877 (verificado 29-oct-2026) · última actividad 2026-10-14 · licencia Apache-2.0 (resuelta por el texto de su LICENSE al cierre, 29-oct-2026).
 
 • `neoapplications/neo-backup` — ★3.880 (verificado 29-oct-2026) · última actividad 2026-10-17 · AGPL-3.0.
 

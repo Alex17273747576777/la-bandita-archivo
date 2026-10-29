@@ -658,7 +658,7 @@ Actividad global medida el 29-oct-2026: 54 repos con actividad hoy · 81 en 7 d�
 
 • `oxyroid/m3uandroid` — ★1.284 (verificado 29-oct-2026) · última actividad 2026-09-08 · GPL-3.0 · ARCHIVADO.
 
-• `phhusson/treble_experimentations` — ★3.556 (verificado 29-oct-2026) · última actividad 2025-01-27 · licencia sin resolver · ARCHIVADO.
+• `phhusson/treble_experimentations` — ★3.556 (verificado 29-oct-2026) · última actividad 2025-01-27 · sin archivo LICENSE en la raíz de su repo (verificado por API 29-oct-2026) · ARCHIVADO.
 
 • `ponces/treble_aosp` — ★311 (verificado 29-oct-2026) · última actividad 2025-07-25 · Apache-2.0 · ARCHIVADO.
 

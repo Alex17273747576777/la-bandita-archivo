@@ -825,7 +825,7 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `skepsun/kototoro-parsers` — ★17 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
 
-• `kototoro-app/kototoro-nightly` — ★12 (verificado 29-oct-2026) · última actividad 2026-07-28 · licencia sin resolver · release N20261028 (2026-10-28).
+• `kototoro-app/kototoro-nightly` — ★12 (verificado 29-oct-2026) · última actividad 2026-07-28 · sin archivo LICENSE en la raíz de su repo (verificado por API 29-oct-2026) · release N20261028 (2026-10-28).
 
 Licencias sin resolver hoy (1): `kototoro-app/kototoro-nightly`. Sin licencia clara no hay recomendación completa: queda la alerta firmada.
 

@@ -45,3 +45,5 @@ Enlaces web: 7 apariciones; 4 respondieron vivas el 29-oct-2026; 1 solo bloquean
 Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario compartido; la verificación de esta publicación es la de sus URL y la del universo global de la pasada.
 
 Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+
+💓 *FE DE CIERRE 29-OCT-2026:* en el chequeo universal byte por byte de hoy, este enlace citado en el cuerpo responde **404**: `https://burnsomni.net/manuals/pagan`, `https://www.libreoffice.org/download/android-and-ios`. Queda firmado aquí para que nadie prometa lo que la web ya no sirve; las placas de la pieza se midieron aparte y constan en su pulso.

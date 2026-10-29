@@ -506,11 +506,11 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `littlesurvival/copymanga-copy20` — creado 2025-05-11 · última actividad 2026-10-11 · ★2.970 (verificado 29-oct-2026) · licencia sin resolver.
+• `littlesurvival/copymanga-copy20` — creado 2025-05-11 · última actividad 2026-10-11 · ★2.970 (verificado 29-oct-2026) · sin archivo LICENSE en la raíz de su repo (verificado por API 29-oct-2026).
 
 • `yuzono/anime-extensions` — creado 2026-02-06 · última actividad 2026-10-29 · ★522 (verificado 29-oct-2026) · Apache-2.0.
 
-• `cuong-tran/manga-repo` — creado 2024-02-22 · última actividad 2026-10-29 · ★462 (verificado 29-oct-2026) · licencia sin resolver.
+• `cuong-tran/manga-repo` — creado 2024-02-22 · última actividad 2026-10-29 · ★462 (verificado 29-oct-2026) · sin archivo LICENSE en la raíz de su repo (verificado por API 29-oct-2026).
 
 *Placas de control (selección por actividad reciente y juventud, no por fama):*
 
@@ -518,7 +518,7 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
 
-• `cuong-tran/manga-repo` — ★462 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin resolver · release Repository Update c9fd7bc (2026-10-29).
+• `cuong-tran/manga-repo` — ★462 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en la raíz de su repo (verificado por API 29-oct-2026) · release Repository Update c9fd7bc (2026-10-29).
 
 • `yuzono/anime-extensions` — ★522 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
 

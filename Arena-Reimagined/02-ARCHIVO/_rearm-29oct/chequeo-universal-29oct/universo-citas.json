@@ -1,0 +1,3126 @@
+{
+"slugs": {
+"asrofficialdev/redantotsu": [
+"00-",
+"102",
+"104",
+"15-",
+"44-"
+],
+"kotatsuapp/kotatsu": [
+"00-",
+"07-",
+"101",
+"104",
+"15-"
+],
+"oxyroid/m3uandroid": [
+"00-",
+"16-",
+"23-"
+],
+"phhusson/treble_experimentations": [
+"00-",
+"14-"
+],
+"ponces/treble_aosp": [
+"00-",
+"102",
+"14-"
+],
+"siavash79/pixelxpert": [
+"00-",
+"82-",
+"85-"
+],
+"syncthing/syncthing-android": [
+"00-",
+"101",
+"108",
+"26-",
+"44-",
+"61-"
+],
+"usagiapp/core-exts": [
+"00-",
+"07-"
+],
+"usagiapp/core-parsers": [
+"00-",
+"07-"
+],
+"team-spotube/spotube": [
+"00-",
+"103",
+"20-",
+"21-"
+],
+"droid-ify/client": [
+"01-",
+"111",
+"28-",
+"35-"
+],
+"neoapplications/neo-store": [
+"01-",
+"28-"
+],
+"komi-store/komi-store": [
+"01-"
+],
+"solkin/appteka-android": [
+"01-",
+"111",
+"28-"
+],
+"imranr98/obtainium": [
+"01-",
+"09-",
+"111",
+"28-",
+"35-"
+],
+"bikram-agarwal/obtainx": [
+"01-",
+"29-"
+],
+"victor-root/omnify": [
+"01-"
+],
+"rikkaapps/shizuku": [
+"01-",
+"09-",
+"101",
+"112",
+"12-",
+"25-",
+"28-",
+"90-",
+"92-"
+],
+"timschneeb/shizustore": [
+"01-"
+],
+"carlelieser/yuki": [
+"01-"
+],
+"elhizazi1/shizucorefetch": [
+"01-",
+"24-"
+],
+"suno2/gstore": [
+"01-"
+],
+"developer-for-git/mod-store": [
+"01-"
+],
+"auroraoss/aurorastore": [
+"01-"
+],
+"droidify/client": [
+"01-"
+],
+"kototoro-app/kototoro": [
+"02-",
+"07-",
+"102",
+"104",
+"15-",
+"19-",
+"37-"
+],
+"kototoro-app/kototoro-nightly": [
+"02-"
+],
+"skepsun/kototoro-parsers": [
+"02-"
+],
+"reference/tvbox-runtime": [
+"02-"
+],
+"kototoro-app.github.io/kototoro": [
+"02-"
+],
+"woheller69/freedroidwarn": [
+"03-"
+],
+"littlesurvival/copymanga-copy20": [
+"04-",
+"43-"
+],
+"yuzono/anime-extensions": [
+"04-",
+"118",
+"13-",
+"43-"
+],
+"cuong-tran/manga-repo": [
+"04-",
+"16-"
+],
+"keiyoushi/extensions-source": [
+"04-",
+"15-"
+],
+"keiyoushi/extensions": [
+"04-",
+"103",
+"112",
+"118",
+"15-",
+"16-",
+"43-",
+"68-",
+"95-",
+"96-",
+"97-",
+"99-"
+],
+"yuzono/cursed-manga-extensions": [
+"04-",
+"43-"
+],
+"mojuru/cursed-manga-repo": [
+"04-",
+"26-"
+],
+"zgq-inc/source": [
+"04-"
+],
+"suwayomi/tachiyomi-extension": [
+"04-",
+"43-"
+],
+"miyomiorg/miyomi": [
+"04-"
+],
+"yuzono/manga-repo": [
+"04-"
+],
+"mihonapp/mihon": [
+"06-",
+"110",
+"112",
+"12-",
+"15-",
+"35-"
+],
+"jobobby04/tachiyomisy": [
+"06-",
+"15-",
+"16-",
+"42-"
+],
+"komikku-app/komikku": [
+"06-",
+"11-",
+"15-",
+"16-",
+"22-",
+"35-"
+],
+"nekomangaorg/neko": [
+"06-",
+"15-"
+],
+"aniyomiorg/aniyomi": [
+"06-",
+"101",
+"13-",
+"15-",
+"16-",
+"19-"
+],
+"komikku-app/anikku": [
+"06-",
+"11-",
+"14-"
+],
+"andarcanum/tadami-aniyomi-fork": [
+"06-",
+"102",
+"104",
+"13-",
+"16-",
+"19-"
+],
+"syncyomi/syncyomi": [
+"06-",
+"16-"
+],
+"jobobby04/tachiyomisypreview": [
+"06-",
+"16-"
+],
+"animetailapp/animetail": [
+"06-",
+"13-",
+"16-"
+],
+"usagiapp/usagi": [
+"07-"
+],
+"kotatsu-redo/kotatsu-redo": [
+"07-"
+],
+"appfuton/futon": [
+"07-",
+"102",
+"118"
+],
+"orgs/usagiapp": [
+"07-"
+],
+"gekkoushi/plugin-source": [
+"07-",
+"101",
+"81-"
+],
+"invaliddavid/uma": [
+"07-",
+"102",
+"43-"
+],
+"yumemiproject/yumemi": [
+"07-"
+],
+"sang765/usagi": [
+"07-",
+"101"
+],
+"gekkoushi/plugin": [
+"07-",
+"43-"
+],
+"metrolistgroup/metrolist": [
+"08-",
+"20-",
+"27-"
+],
+"outertune/outertune": [
+"08-",
+"118",
+"20-",
+"97-"
+],
+"maxrave-dev/simpmusic": [
+"08-",
+"127",
+"20-"
+],
+"z-huang/innertune": [
+"08-",
+"101",
+"21-"
+],
+"anandnet/harmony-music": [
+"08-"
+],
+"teamnewpipe/newpipe": [
+"08-",
+"109",
+"124",
+"16-"
+],
+"oxygencobalt/auxio": [
+"08-"
+],
+"antennapod/antennapod": [
+"08-"
+],
+"n-zik-group/n-zik": [
+"08-"
+],
+"hotaro26/gabi": [
+"08-"
+],
+"fossifyorg/clock": [
+"09-"
+],
+"organicmaps/organicmaps": [
+"09-"
+],
+"localsend/localsend": [
+"09-",
+"106",
+"112",
+"49-",
+"50-",
+"95-",
+"96-"
+],
+"syncthing/syncthing": [
+"09-",
+"101",
+"108",
+"22-",
+"26-",
+"28-",
+"44-",
+"50-",
+"66-",
+"67-",
+"69-"
+],
+"guardianproject/orbot-android": [
+"09-"
+],
+"muntashirakon/appmanager": [
+"09-",
+"25-",
+"40-"
+],
+"termux/termux-app": [
+"09-",
+"112",
+"18-",
+"28-",
+"66-"
+],
+"darek2015/gltools": [
+"10-"
+],
+"i-taylo/iunlockergl": [
+"10-"
+],
+"ollama/ollama": [
+"100",
+"103",
+"61-",
+"64-",
+"65-",
+"66-",
+"67-",
+"68-",
+"70-",
+"93-",
+"95-",
+"96-",
+"99-"
+],
+"jellyfin/jellyfin": [
+"100",
+"23-",
+"39-",
+"53-",
+"66-",
+"70-",
+"78-",
+"97-"
+],
+"bromite/bromite": [
+"101",
+"24-",
+"41-"
+],
+"mattecarra/acca": [
+"101",
+"34-"
+],
+"miru-project/miru-app": [
+"101",
+"23-",
+"37-"
+],
+"smuyyh/bookreader": [
+"101",
+"22-"
+],
+"justjavac/free-programming-books-zh_cn": [
+"101"
+],
+"beemdevelopment/aegis": [
+"09-",
+"101",
+"38-"
+],
+"anbui2004/vectras-vm-emu-android": [
+"102",
+"18-"
+],
+"itsmechinmoy/dantotsu": [
+"102",
+"104",
+"15-",
+"37-",
+"55-"
+],
+"animiruorg/animiru": [
+"102",
+"16-"
+],
+"iamr0s/dhizuku-api": [
+"102",
+"33-"
+],
+"aayush2622/dartotsu": [
+"102",
+"104",
+"15-",
+"37-"
+],
+"nahiro18/kiroku": [
+"102",
+"15-"
+],
+"nextcloud/server": [
+"103",
+"104",
+"51-",
+"61-",
+"98-"
+],
+"go-gitea/gitea": [
+"103",
+"57-"
+],
+"photoprism/photoprism": [
+"103",
+"107",
+"52-",
+"54-",
+"59-",
+"60-",
+"61-",
+"75-"
+],
+"koodo-reader/koodo-reader": [
+"103",
+"22-"
+],
+"dr-tsng/zygisknext": [
+"103",
+"20-",
+"82-"
+],
+"modelcontextprotocol/modelcontextprotocol": [
+"103",
+"19-",
+"63-",
+"99-"
+],
+"modelcontextprotocol/servers": [
+"103",
+"19-",
+"63-",
+"99-"
+],
+"open-webui/open-webui": [
+"103",
+"62-"
+],
+"pi-hole/pi-hole": [
+"103",
+"55-",
+"98-",
+"99-"
+],
+"qbittorrent/qbittorrent": [
+"103",
+"48-",
+"50-"
+],
+"med-amine0/aniyomi_plus": [
+"104",
+"16-"
+],
+"morpheapp/morphe-manager": [
+"104",
+"17-"
+],
+"home-assistant/core": [
+"104",
+"54-"
+],
+"openwrt/openwrt": [
+"104",
+"46-",
+"50-"
+],
+"nextcloud/android": [
+"104",
+"51-",
+"61-",
+"66-",
+"74-",
+"98-"
+],
+"immich-app/immich": [
+"107",
+"108",
+"52-",
+"64-",
+"75-"
+],
+"fossifyorg/gallery": [
+"09-",
+"107"
+],
+"kopia/kopia": [
+"108",
+"26-"
+],
+"restic/restic": [
+"108",
+"26-"
+],
+"pimpinpumpkin/vela": [
+"11-"
+],
+"flectar/mail": [
+"11-",
+"12-",
+"13-"
+],
+"kitsumed/shizucallrecorder": [
+"12-",
+"92-"
+],
+"leviidev/husk": [
+"13-"
+],
+"r15hi/dsu-multi-sideloader": [
+"14-"
+],
+"vegabobo/dsu-sideloader": [
+"14-",
+"54-",
+"59-"
+],
+"null2264/yokai": [
+"15-",
+"35-"
+],
+"lnreader/lnreader": [
+"15-",
+"40-"
+],
+"kainotch/wammy": [
+"15-"
+],
+"noirero/miyorare": [
+"15-",
+"81-"
+],
+"itsmechinmoy/dantotsu-updater": [
+"112",
+"15-",
+"37-"
+],
+"libre-tube/libretube": [
+"109",
+"16-",
+"52-"
+],
+"teampiped/piped": [
+"16-",
+"23-",
+"24-"
+],
+"yuliskov/smarttube": [
+"16-",
+"23-",
+"64-",
+"75-"
+],
+"recloudstream/cloudstream": [
+"16-",
+"23-",
+"37-"
+],
+"mytv-android/mytv-android": [
+"16-",
+"23-"
+],
+"riteshp2001/mpvrx": [
+"102",
+"16-",
+"23-"
+],
+"open-ani/animeko": [
+"16-"
+],
+"rokku-app/rokku": [
+"15-",
+"16-"
+],
+"yuneko-dev/nekori": [
+"16-",
+"47-"
+],
+"morpheapp/microg-re": [
+"17-"
+],
+"sysadmindoc/hushfacebook": [
+"12-",
+"13-",
+"17-"
+],
+"sysadmindoc/hushfeed": [
+"12-",
+"13-",
+"17-"
+],
+"meowdump/integrity-box": [
+"17-"
+],
+"shiaho777/web-to-app": [
+"17-"
+],
+"mmrlapp/mmrl": [
+"17-",
+"66-",
+"82-",
+"83-"
+],
+"j-hc/revanced-magisk-module": [
+"17-",
+"82-",
+"86-"
+],
+"bmax121/apatch": [
+"17-",
+"20-",
+"28-",
+"82-",
+"87-"
+],
+"xoureldeen/vectras-vm-android": [
+"18-"
+],
+"brunodev85/winlator": [
+"113",
+"18-",
+"72-"
+],
+"ptitseb/box64": [
+"18-",
+"77-"
+],
+"ish-app/ish": [
+"18-"
+],
+"janhq/jan": [
+"19-"
+],
+"chatgptnextweb/nextchat": [
+"19-",
+"62-"
+],
+"moeru-ai/airi": [
+"19-",
+"65-"
+],
+"browser-use/jev-ultrafast": [
+"19-"
+],
+"xai-org/grok-build": [
+"19-"
+],
+"yetone/magpie": [
+"19-"
+],
+"ebony-vinyl/dsh-our-free-model": [
+"19-"
+],
+"topjohnwu/magisk": [
+"20-",
+"28-",
+"67-"
+],
+"tiann/kernelsu": [
+"20-",
+"28-"
+],
+"universal-debloater-alliance/universal-android-debloater-next-generation": [
+"20-",
+"29-"
+],
+"namidaco/namida": [
+"20-",
+"21-"
+],
+"moriafly/saltplayersource": [
+"21-"
+],
+"naman14/timber": [
+"21-"
+],
+"cwuom/neriplayer": [
+"21-"
+],
+"rukamori/archivetune": [
+"21-"
+],
+"sonorahq/sonora": [
+"21-"
+],
+"staniel359/muffon": [
+"21-"
+],
+"gokadzev/musify": [
+"21-",
+"52-"
+],
+"pixelplayerhq/pixelplayer": [
+"21-",
+"51-"
+],
+"crosstalk-solutions/project-nomad": [
+"22-"
+],
+"paulwoitaschek/voice": [
+"22-",
+"52-"
+],
+"koreader/koreader": [
+"17-",
+"22-",
+"35-",
+"36-"
+],
+"getlantern/lantern": [
+"24-"
+],
+"2dust/v2rayng": [
+"114",
+"24-"
+],
+"johnshall/shadowrocket-adblock-rules-forever": [
+"24-"
+],
+"teamamaze/amazefilemanager": [
+"09-",
+"25-"
+],
+"gsantner/markor": [
+"25-"
+],
+"gopeedlab/gopeed": [
+"121",
+"25-"
+],
+"florisboard/florisboard": [
+"25-",
+"30-"
+],
+"researchxxl/syncthing-android": [
+"118",
+"26-",
+"44-",
+"56-",
+"61-",
+"74-"
+],
+"keepassxreboot/keepassxc": [
+"27-"
+],
+"dani-garcia/vaultwarden": [
+"27-",
+"56-"
+],
+"kunzisoft/keepassdx": [
+"09-",
+"27-"
+],
+"m66b/fairemail": [
+"28-",
+"31-"
+],
+"thunderbird/thunderbird-android": [
+"28-",
+"68-",
+"75-"
+],
+"m66b/netguard": [
+"28-",
+"31-",
+"32-"
+],
+"kde/kdeconnect-android": [
+"29-"
+],
+"home-assistant/android": [
+"29-",
+"54-",
+"98-"
+],
+"lawnchairlauncher/lawnchair": [
+"30-"
+],
+"mm2-0/kvaesitso": [
+"24-",
+"30-"
+],
+"fcitx5-android/fcitx5-android": [
+"30-"
+],
+"futo-org/android-keyboard": [
+"30-"
+],
+"trackercontrol/tracker-control-android": [
+"31-",
+"32-"
+],
+"ukanth/afwall": [
+"24-",
+"31-"
+],
+"simplemobiletools/simple-file-manager": [
+"32-"
+],
+"fossifyorg/file-manager": [
+"09-",
+"32-"
+],
+"iamr0s/dhizuku": [
+"28-",
+"33-"
+],
+"vr-25/acc": [
+"34-",
+"94-"
+],
+"hamza417/inure": [
+"29-",
+"31-",
+"34-",
+"91-"
+],
+"whyorean/aurorastore": [
+"28-",
+"35-"
+],
+"seedvault-app/seedvault": [
+"36-"
+],
+"neoapplications/neo-backup": [
+"108",
+"36-",
+"93-"
+],
+"you-apps/connectyou": [
+"37-"
+],
+"quik-sms/quik": [
+"37-"
+],
+"helloworld1/freeotpplus": [
+"38-"
+],
+"chooloo/koler": [
+"39-"
+],
+"fossifyorg/phone": [
+"09-",
+"39-"
+],
+"ironfox-oss/ironfox": [
+"41-"
+],
+"uazo/cromite": [
+"41-"
+],
+"celzero/rethink-app": [
+"42-"
+],
+"serverless-dns/serverless-dns": [
+"42-",
+"44-"
+],
+"wireguard/wireguard-android": [
+"43-"
+],
+"cloudflare/boringtun": [
+"43-"
+],
+"tailscale/tailscale-android": [
+"43-"
+],
+"tailscale/tailscale": [
+"43-",
+"58-"
+],
+"signalapp/signal-android": [
+"45-"
+],
+"signalapp/libsignal": [
+"45-"
+],
+"signalapp/signal-server": [
+"45-"
+],
+"simplex-chat/simplex-chat": [
+"45-"
+],
+"openwrt/luci": [
+"46-"
+],
+"openwrt/packages": [
+"46-"
+],
+"vremsoftwaredevelopment/wifianalyzer": [
+"47-"
+],
+"proninyaroslav/libretorrent": [
+"48-"
+],
+"nextcloud/all-in-one": [
+"51-"
+],
+"nextcloud/docker": [
+"51-"
+],
+"jellyfin/jellyfin-androidtv": [
+"53-",
+"59-",
+"98-"
+],
+"adguardteam/adguardhome": [
+"55-"
+],
+"juanfont/headscale": [
+"58-"
+],
+"paperless-ngx/paperless-ngx": [
+"59-",
+"65-",
+"70-"
+],
+"louislam/uptime-kuma": [
+"60-"
+],
+"gethomepage/homepage": [
+"60-"
+],
+"ggml-org/llama.cpp": [
+"103",
+"61-",
+"65-",
+"74-",
+"75-"
+],
+"openinterpreter/open-interpreter": [
+"64-"
+],
+"openinterpreter/openinterpreter": [
+"64-"
+],
+"termux/termux-packages": [
+"66-"
+],
+"huggingface/transformers": [
+"68-"
+],
+"unslothai/unsloth": [
+"69-"
+],
+"mintplex-labs/anything-llm": [
+"70-"
+],
+"libretro/retroarch": [
+"71-"
+],
+"dolphin-emu/dolphin": [
+"73-"
+],
+"hrydgard/ppsspp": [
+"112",
+"113",
+"74-"
+],
+"stenzek/duckstation": [
+"75-"
+],
+"mgba-emu/mgba": [
+"76-"
+],
+"melonds-emu/melonds": [
+"78-"
+],
+"scummvm/scummvm": [
+"79-",
+"80-",
+"82-",
+"95-",
+"96-"
+],
+"dosbox-staging/dosbox-staging": [
+"79-"
+],
+"noirero/miyorare-source-packs": [
+"81-"
+],
+"usuario/repositorio": [
+"81-"
+],
+"snake-4/zygisk-assistant": [
+"84-"
+],
+"awesome-android-root/awesome-android-root": [
+"82-",
+"87-",
+"88-",
+"89-",
+"92-",
+"93-"
+],
+"performanc/rezygisk": [
+"89-"
+],
+"yuzono/kohi-den": [
+"04-",
+"13-"
+],
+"yuzono/tachiyomi-extensions": [
+"04-",
+"16-"
+],
+"stevenyomi/copymanga": [
+"04-"
+],
+"tachiyomiorg/extensions": [
+"04-"
+],
+"aniyomiorg/aniyomi-preview": [
+"06-",
+"13-"
+],
+"rebelonion/dantotsu": [
+"06-",
+"37-",
+"49-"
+],
+"jays2kings/tachiyomij2k": [
+"06-",
+"15-"
+],
+"appfuton/futon-parsers": [
+"07-"
+],
+"mostafaalagamy/metrolist": [
+"08-"
+],
+"danielsevillano/music-you": [
+"08-"
+],
+"itzskyeyt/intertune": [
+"08-"
+],
+"vfsfitvnm/vimusic": [
+"08-"
+],
+"fast4x/rimusic": [
+"08-"
+],
+"guardianproject/orbot": [
+"09-",
+"112",
+"114"
+],
+"fossifyorg/calendar": [
+"09-"
+],
+"mankidev/orvid": [
+"109",
+"110",
+"124"
+],
+"mankidev/orvid-sources": [
+"109",
+"110",
+"124"
+],
+"salmanbappi/anizen": [
+"11-"
+],
+"salmanbappi/anizen-preview": [
+"11-"
+],
+"gaijin81/anizen": [
+"11-"
+],
+"predidit/kazumi": [
+"110"
+],
+"rustdesk/rustdesk": [
+"112"
+],
+"openhub-store/github-store": [
+"112",
+"117"
+],
+"diogorainhalopes/atahon": [
+"112"
+],
+"yairm210/unciv": [
+"113"
+],
+"metacubex/clashmetaforandroid": [
+"114"
+],
+"deniscerri/ytdlnis": [
+"115"
+],
+"junkfood02/seal": [
+"115"
+],
+"huzaifakhalid1311/dropsauce": [
+"116",
+"38-"
+],
+"sohilsayed/chimahon": [
+"116",
+"74-"
+],
+"glitch-228/kaisoku": [
+"116"
+],
+"tachibana-shin/rakuyomi": [
+"119"
+],
+"ciromattia/kcc": [
+"119"
+],
+"utazukin/ichaival": [
+"119"
+],
+"fmhy/fmhy": [
+"12-"
+],
+"akitaonrails/frankyomik": [
+"120",
+"42-"
+],
+"dazedcat19/fmd2": [
+"120",
+"40-"
+],
+"xiaoyouchr/ghost-downloader-3": [
+"121",
+"125"
+],
+"agalwood/motrix": [
+"121"
+],
+"jman-github/universal-patch-manager": [
+"122",
+"125"
+],
+"revanced/revanced-manager": [
+"122"
+],
+"rushiranpise/lsposed-modules-manager": [
+"123",
+"125"
+],
+"rushiranpise/xposed-modules": [
+"123"
+],
+"lsposed/lsposed": [
+"123",
+"28-"
+],
+"yt-dlp/yt-dlp": [
+"125"
+],
+"mailo037/hamstr": [
+"126"
+],
+"sleepless-index/ribbt": [
+"126"
+],
+"rajnishone/linklift": [
+"126"
+],
+"ramik4/ytindir": [
+"126"
+],
+"rcrandon/gimmiedat": [
+"126"
+],
+"muwmx/yumaplayer": [
+"127"
+],
+"mahmud0808/teledrive": [
+"128"
+],
+"abdurazaaqmohammed/mp-manager": [
+"129"
+],
+"cluvexstudio/strata": [
+"129"
+],
+"animetailapp/animetail-preview": [
+"13-"
+],
+"zykrave/aniyomi-kuro": [
+"13-"
+],
+"funman1995/memedia": [
+"13-"
+],
+"blackyfi/aniyomi-revived": [
+"13-"
+],
+"aniyomiorg/aniyomi-extensions": [
+"13-"
+],
+"kohi-den/extensions-source": [
+"13-"
+],
+"tadamiorg/tadami": [
+"13-",
+"19-",
+"36-"
+],
+"pengchujin/aerial-tv": [
+"130"
+],
+"aradhyas8/plume_launcher": [
+"130"
+],
+"johnnylord1/epigraph": [
+"131"
+],
+"demacish/kodex": [
+"131"
+],
+"devcaspian-hash/bokumi-app": [
+"131"
+],
+"quickdesh/animiru": [
+"14-"
+],
+"znabil/animirutv": [
+"14-"
+],
+"komikku-app/anikku-preview": [
+"14-"
+],
+"salmanbappi/extensions-repo": [
+"14-",
+"43-"
+],
+"salmanbappi/aniyomi-extensions": [
+"14-"
+],
+"cuong-tran/tachiyomij2k": [
+"15-"
+],
+"hayaiapp/hayai": [
+"15-"
+],
+"theordinaryguy23/tachiyomidnp": [
+"15-"
+],
+"unseensnick/reikai": [
+"15-",
+"35-"
+],
+"saud-97/tachiyomis97": [
+"15-"
+],
+"notblankyu/yurei": [
+"15-"
+],
+"kakarottocake/yokai-t": [
+"15-"
+],
+"zykrave/nekoumy": [
+"15-"
+],
+"hugofmiranda/yomu": [
+"15-"
+],
+"hiirbaf/yokai": [
+"15-"
+],
+"komikku-app/komikku-preview": [
+"16-"
+],
+"pineappletwilight/houri": [
+"16-",
+"38-"
+],
+"smol-ame/chai": [
+"16-"
+],
+"jeryjs/tachiyomisy-with-discord-rpc": [
+"16-",
+"38-",
+"42-"
+],
+"viel0320/komikku_img_upscale": [
+"16-",
+"38-"
+],
+"nas3ts/mikku": [
+"16-",
+"38-"
+],
+"harrys-hq/shinku": [
+"16-"
+],
+"ruzhe85/mihonsy": [
+"16-"
+],
+"pokedo0/pokomi": [
+"16-"
+],
+"the-nexus-app/nexus": [
+"16-"
+],
+"geograms/bchan": [
+"16-"
+],
+"chimahon/chimahon": [
+"17-",
+"19-"
+],
+"huangantimony/hoshi-reader-android": [
+"17-"
+],
+"sj0404-collab/yomikai": [
+"17-"
+],
+"sj0404-collab/yomihon-custom": [
+"17-"
+],
+"codegeasse1/yomi-reader": [
+"17-"
+],
+"mister-album/koharia": [
+"17-"
+],
+"sj0404-collab/yomikai-pwa": [
+"17-"
+],
+"yomihon/yomihon": [
+"17-",
+"35-"
+],
+"codegeasse1/nekoread": [
+"17-"
+],
+"woxakv/android-koreader-companion": [
+"17-"
+],
+"gotson/komga": [
+"17-",
+"19-",
+"39-"
+],
+"kareadita/kavita": [
+"17-",
+"39-"
+],
+"warreth/openlibextended": [
+"18-"
+],
+"kopuz-org/kopuz": [
+"21-"
+],
+"francescograzioso/meld": [
+"21-"
+],
+"involvex/youtube-music-cli": [
+"21-"
+],
+"suvojeet-sengupta/suvmusic": [
+"21-"
+],
+"luc4n3x/levyra-deepsound": [
+"21-"
+],
+"mrdemonc/lune": [
+"21-"
+],
+"arunnechully/soundpod": [
+"21-"
+],
+"noel-digital-fan/volume_plus_plus": [
+"21-"
+],
+"teamauramusic/auramusic": [
+"21-"
+],
+"tryptz/tryptify": [
+"21-"
+],
+"lojcs/tsacdop": [
+"21-"
+],
+"d0x-dev/airbeats-desktop": [
+"21-"
+],
+"ifritraen/kisara": [
+"22-"
+],
+"mynamehand/tegaki": [
+"22-"
+],
+"dinkelspiel/komikku-sync": [
+"22-"
+],
+"thehijacker/codexa": [
+"22-"
+],
+"nyora-manga/nyora-android": [
+"22-"
+],
+"k1717/readwide": [
+"22-"
+],
+"nubesurrealista/kumo": [
+"22-",
+"35-"
+],
+"jonzey231/aeriotv-android": [
+"23-"
+],
+"ahxn00/owntv": [
+"23-"
+],
+"damontecres/wholphin": [
+"23-"
+],
+"mangeshghodke/dreamplayer": [
+"23-"
+],
+"fellipitopv/nekovideo": [
+"23-"
+],
+"varunsalian/debrify": [
+"23-"
+],
+"luqmanfadlli/nuviomobile-enhanced": [
+"23-"
+],
+"solo-arc/animebox": [
+"23-"
+],
+"mjlanddev/corncastle-anime-app": [
+"23-"
+],
+"thejaustin/shizukuplus": [
+"24-"
+],
+"dp-hridayan/ashellyou": [
+"24-"
+],
+"ahmed-alnassif/androsh": [
+"24-"
+],
+"dedeadend/killmyapps": [
+"24-"
+],
+"arora-sir/darq-reborn": [
+"24-"
+],
+"shynoiddev/firewall-blocks": [
+"24-"
+],
+"linksheet/linksheet": [
+"24-"
+],
+"local1stdotapp/xfiles": [
+"24-"
+],
+"xtra-manager-software/xarchiver": [
+"24-"
+],
+"trinadhthatakula/thor": [
+"24-"
+],
+"naryuki/dextop": [
+"24-"
+],
+"sameerasw/essentials": [
+"24-"
+],
+"resilien-mobile/rootlessstore": [
+"24-"
+],
+"stem0794/harbor": [
+"24-"
+],
+"niki914/zafiro": [
+"24-"
+],
+"fahrez182/axmanager": [
+"24-"
+],
+"bufanchen121101/axmanagerd": [
+"24-"
+],
+"yyj5201314whj/axmanager-pro": [
+"24-"
+],
+"corvexis/axora": [
+"24-"
+],
+"opencloud-eu/opencloud": [
+"25-"
+],
+"plainhub/plain-app": [
+"25-"
+],
+"moonfin-client/moonfin-core": [
+"25-"
+],
+"pelagicaapp/pelagica": [
+"25-"
+],
+"damontecres/jellyfin-plugin-wholphin": [
+"25-"
+],
+"parsonlabs/parson": [
+"25-"
+],
+"winters27/octo": [
+"25-"
+],
+"cluvexstudio/aether": [
+"26-"
+],
+"iptv-org/iptv": [
+"26-"
+],
+"nayjest/gito": [
+"26-"
+],
+"nexu-io/open-design": [
+"26-"
+],
+"awerkori/extensoes": [
+"26-"
+],
+"openanimeflow/animeflow": [
+"26-"
+],
+"barbosaglibby41-sys/suicang-eh": [
+"26-"
+],
+"weekanya/booru": [
+"26-"
+],
+"qingzhuo-cn/boorunova": [
+"26-"
+],
+"alienware377/rootlessjamesdsp-viper4android-edition": [
+"26-"
+],
+"meshtastic/meshtastic-android": [
+"26-"
+],
+"fullm3t41/syncdroid-mesh": [
+"26-"
+],
+"jingmatrix/vector": [
+"26-"
+],
+"soul-99/su_imd": [
+"26-"
+],
+"hmndev-tech/shevery": [
+"26-"
+],
+"nikhilkain/vyxel-apps": [
+"26-"
+],
+"winhub-emu/winhub": [
+"26-"
+],
+"manuelsiuro/gzdoom-android-2026": [
+"26-"
+],
+"android/nowinandroid": [
+"26-"
+],
+"openflocon/flocon": [
+"26-"
+],
+"wizdom13/wizestream": [
+"26-"
+],
+"josprox/estrella-music": [
+"27-"
+],
+"956tris/metrofuse": [
+"27-"
+],
+"fhox006/iride": [
+"27-"
+],
+"bobbyesp/metrolist": [
+"27-"
+],
+"rikkaapps/sui": [
+"28-"
+],
+"aistra0528/hail": [
+"28-"
+],
+"aefyr/sai": [
+"28-"
+],
+"wxxsfxyzm/installerx-revived": [
+"28-"
+],
+"zacharee/installwithoptions": [
+"28-"
+],
+"genymobile/scrcpy": [
+"28-"
+],
+"accrescent/accrescent": [
+"28-"
+],
+"rainxchzed/github-store": [
+"28-"
+],
+"legendsayantan/shizutools": [
+"29-"
+],
+"bugestudioteam/buge-app-manager": [
+"29-"
+],
+"risuncode/appcontrol-x": [
+"29-"
+],
+"bintianqi/owndroid": [
+"29-"
+],
+"samolego/canta": [
+"29-"
+],
+"oasisfeng/island": [
+"29-"
+],
+"petercxy/shelter": [
+"29-"
+],
+"freezeyou/freezeyou": [
+"29-"
+],
+"0x192/universal-android-debloater": [
+"29-"
+],
+"d4rken-org/sdmaid-se": [
+"29-"
+],
+"keymapperorg/keymapper": [
+"29-"
+],
+"neoapplications/neo-launcher": [
+"30-"
+],
+"muzei/muzei": [
+"30-"
+],
+"you-apps/wallyou": [
+"30-"
+],
+"openboard-team/openboard": [
+"30-"
+],
+"heliborg/heliboard": [
+"30-"
+],
+"mahmud0808/colorblendr": [
+"30-"
+],
+"kieronquinn/smartspacer": [
+"30-"
+],
+"kieronquinn/taptap": [
+"30-"
+],
+"kieronquinn/ambientmusicmod": [
+"30-"
+],
+"mahmutaunal/adaptive-hz": [
+"31-"
+],
+"c10udburst/grayscaler": [
+"31-"
+],
+"eiyooooo/fold_switcher": [
+"31-"
+],
+"agupta07505/smartisland": [
+"31-"
+],
+"akylas/enforcedoze": [
+"31-"
+],
+"adil192/no_more_background": [
+"31-"
+],
+"xitee1/sleep-timer": [
+"31-"
+],
+"mlm-games/batstats": [
+"31-"
+],
+"daisukikaffuchino/rebootnya": [
+"31-"
+],
+"axel358/smartdock": [
+"31-"
+],
+"hamza417/peristyle": [
+"31-"
+],
+"k3v1991/adb-and-fastbootplusplus": [
+"32-"
+],
+"badabing2005/pixelflasher": [
+"32-"
+],
+"teamwin/android_bootable_recovery": [
+"32-",
+"65-"
+],
+"emanuele-f/pcapdroid": [
+"32-"
+],
+"tobi823/ffupdater": [
+"32-"
+],
+"dupdatesystem/upgradeall": [
+"32-"
+],
+"androidacy/magiskmodulemanager": [
+"32-"
+],
+"yshalsager/shizukushortcuts": [
+"32-"
+],
+"zhanghai/materialfiles": [
+"33-"
+],
+"l930203811/zenfile": [
+"33-"
+],
+"schnitzel5/apkbridge": [
+"33-",
+"43-"
+],
+"rednaga/axmlprinter": [
+"33-"
+],
+"marcosdiez/shareviahttp": [
+"33-"
+],
+"openminis/openminis": [
+"33-"
+],
+"ankurces/project_mythara": [
+"33-"
+],
+"nullbytepl/carriervanityname": [
+"33-"
+],
+"glassontin/haven": [
+"33-"
+],
+"mryouki/youkidex-android-desktop": [
+"33-"
+],
+"rushiranpise/shizuku-modules": [
+"33-"
+],
+"senzme/nfile": [
+"34-"
+],
+"etashtyagi/selflock": [
+"34-"
+],
+"vegabobo/language-selector": [
+"34-"
+],
+"preethamkmr3/widgetspro": [
+"34-"
+],
+"imtiaz-official/smart-edge": [
+"34-"
+],
+"exiarepairii/deskcontrol": [
+"34-"
+],
+"eyalm2000/adns": [
+"34-"
+],
+"hotaro26/miko": [
+"35-"
+],
+"aidoku/aidoku": [
+"35-"
+],
+"haoweili97/mihon_img_upscale": [
+"35-"
+],
+"kolbyml/manatan": [
+"35-"
+],
+"zyddnys/manga-image-translator": [
+"35-"
+],
+"nardjes5/kumo-surreal": [
+"35-"
+],
+"kovidgoyal/calibre": [
+"36-"
+],
+"foobnix/librerareader": [
+"36-"
+],
+"pool-of-tears/myne": [
+"36-"
+],
+"kiwix/kiwix-android": [
+"36-"
+],
+"acclorite/book-story": [
+"36-"
+],
+"readest/readest": [
+"36-"
+],
+"pkmetski/riffle": [
+"36-"
+],
+"privacydragon/bookwyrm_android": [
+"36-"
+],
+"5rahim/seanime": [
+"37-"
+],
+"kodjodevf/mangayomi": [
+"37-"
+],
+"nuviomedia/nuviomobile": [
+"37-"
+],
+"dodoraapp/dodostream": [
+"37-"
+],
+"anisurge/app": [
+"37-"
+],
+"rockinchaos/shiru": [
+"37-"
+],
+"gent8/taison": [
+"38-"
+],
+"tsundoku-otaku/tsundoku": [
+"38-"
+],
+"mis0suppe/mihon-ds": [
+"38-"
+],
+"mannu691/tachiyomiat": [
+"38-"
+],
+"ero-gamer/kotatsu-next": [
+"38-"
+],
+"torro101/miyo": [
+"38-"
+],
+"nyora-manga/nyora-mihon": [
+"38-"
+],
+"petalya/yomiko": [
+"38-",
+"42-"
+],
+"leassapie/houri": [
+"38-"
+],
+"suwayomi/suwayomi-server": [
+"39-"
+],
+"anxcye/anx-reader": [
+"40-"
+],
+"edrlab/thorium-reader": [
+"40-"
+],
+"ollm/opencomic": [
+"40-"
+],
+"yacreader/yacreader": [
+"40-"
+],
+"mienaiyami/yomikiru": [
+"40-"
+],
+"koharu-rs/koharu": [
+"40-"
+],
+"ireaderorg/ireader": [
+"40-"
+],
+"lagradost/quicknovel": [
+"40-"
+],
+"dstark5/openlib": [
+"40-"
+],
+"paperback-ios/app": [
+"40-"
+],
+"ayowel/fork-yomikiru": [
+"40-"
+],
+"jiangtian616/jhentai": [
+"41-"
+],
+"ryanyuuki/anymex": [
+"41-"
+],
+"supermarcus/nineanimator": [
+"41-"
+],
+"hitarth-gg/zenshin": [
+"41-"
+],
+"jakepurple13/otakuworld": [
+"41-"
+],
+"akashdh11/skystream": [
+"41-"
+],
+"imashnake0/animite": [
+"41-"
+],
+"frostnova721/animestream": [
+"41-"
+],
+"cranci1/sora": [
+"41-"
+],
+"roshancodespace/shonenx": [
+"41-"
+],
+"spyou/zangetsu": [
+"41-"
+],
+"ayman708-ux/playtorriov3": [
+"41-"
+],
+"anilabx/anilabx": [
+"41-"
+],
+"manga-you-know/desktop": [
+"41-"
+],
+"th3-anime/th3-anime": [
+"41-"
+],
+"stumpapp/stump": [
+"42-"
+],
+"xgi/houdoku": [
+"42-"
+],
+"maforget/comicrackce": [
+"42-"
+],
+"k3vinb5/unyo": [
+"42-"
+],
+"sweetbbak/toru": [
+"42-"
+],
+"moku-project/moku": [
+"42-"
+],
+"aatricks/emaki": [
+"42-"
+],
+"nerdnumber9/tachiyomieh": [
+"42-"
+],
+"az4521/tachiyomiaz": [
+"42-"
+],
+"darkdk3/koware": [
+"42-"
+],
+"bijimathew/dorado": [
+"42-"
+],
+"yuzono/cursed-manga-repo": [
+"43-"
+],
+"secozzi/aniyomi-extensions": [
+"43-"
+],
+"aidoku-community/sources": [
+"43-"
+],
+"inkdex/extensions": [
+"43-"
+],
+"lnreader/lnreader-plugins": [
+"43-"
+],
+"dannovels/novel-extensions": [
+"43-"
+],
+"gato404/kegareta-sauces": [
+"43-"
+],
+"moomooo95/moomooo95-extensions": [
+"43-"
+],
+"schnitzel5/mangayomi-custom-buttons": [
+"43-"
+],
+"self-similarity/megarepo": [
+"43-",
+"56-",
+"67-"
+],
+"novelsourcery/extensions": [
+"43-"
+],
+"nyantv/nyantv": [
+"44-"
+],
+"professordeveloper/sozo-tv": [
+"44-"
+],
+"marco-9456/anisync": [
+"44-"
+],
+"e18lab/nhapp": [
+"44-"
+],
+"serene-brew/kaizen-app": [
+"44-"
+],
+"professordeveloper/sozo": [
+"44-"
+],
+"seguaz/nekoyomi": [
+"44-"
+],
+"uwumilabs/uwumi": [
+"44-"
+],
+"richtunic/kitsu-x": [
+"44-"
+],
+"paduu29/komastream": [
+"44-"
+],
+"spyou/sozo-read": [
+"44-"
+],
+"kamiyomu/kamiyomu": [
+"44-"
+],
+"dmzz-yyhyy/lightnovelreader": [
+"46-"
+],
+"ranobe-org/ranobe": [
+"46-"
+],
+"1finn2me/novery": [
+"46-"
+],
+"nabeelshar/webnovelreader": [
+"46-"
+],
+"binit06/lncrawler": [
+"46-"
+],
+"ghotato/foxlations": [
+"46-"
+],
+"kiastr/venera-ssr": [
+"47-"
+],
+"venera-app/venera": [
+"47-"
+],
+"tachimanga/tachidesk-server": [
+"47-"
+],
+"suwatte/suwatte": [
+"47-"
+],
+"stremio/stremio-web": [
+"47-"
+],
+"shadyteal2/quicknovel-enhanced": [
+"47-"
+],
+"mednasserallah/tankobon": [
+"47-"
+],
+"hayase-app/ui": [
+"47-"
+],
+"thaunknown/miru": [
+"47-"
+],
+"topics/manga-reader": [
+"49-"
+],
+"ycngmn/cuxplug": [
+"49-"
+],
+"arturo254/opentune": [
+"49-"
+],
+"brahmkshatriya/echo": [
+"50-"
+],
+"a-edev/flow": [
+"50-"
+],
+"lovegaoshi/azusa-player-mobile": [
+"50-"
+],
+"audileteam/audile": [
+"50-"
+],
+"kushagrasinghx/bitchord": [
+"50-"
+],
+"shub39/rush": [
+"50-"
+],
+"grakovne/lissen-android": [
+"50-"
+],
+"leonidius20/recordingstudio": [
+"50-"
+],
+"23rd/scrib": [
+"50-"
+],
+"bitplane/microphone": [
+"50-"
+],
+"diffechento/metromusic": [
+"50-"
+],
+"alanhuang99/resonance": [
+"50-"
+],
+"futonapp/futon": [
+"50-"
+],
+"finamp-app/finamp": [
+"51-",
+"73-"
+],
+"jellyfin/jellyfin-android": [
+"51-"
+],
+"pixelplayerhq/pixelplayeross": [
+"51-"
+],
+"armanmaurya/internetradio": [
+"51-"
+],
+"resurrectdev1/flac-r": [
+"51-"
+],
+"risorseartificiali/anti-vocale": [
+"51-"
+],
+"xilinjia/podcini.a": [
+"51-"
+],
+"xilinjia/ut.urn": [
+"51-"
+],
+"arslandaim-hub/omegaplayer": [
+"51-"
+],
+"mafik/echo": [
+"51-",
+"73-"
+],
+"jmshrv/finamp": [
+"51-"
+],
+"recloudstream/extensions": [
+"51-"
+],
+"werdeil/lyrion-dashboard": [
+"52-"
+],
+"shacharharshuv/open-ear": [
+"52-"
+],
+"carry-rrk/managesensors": [
+"54-",
+"59-"
+],
+"k3vinb5/unyo-extensions": [
+"54-",
+"68-"
+],
+"linzong/hostman": [
+"54-",
+"65-"
+],
+"rewelp/hayasexshiru-extensions": [
+"54-",
+"68-"
+],
+"ahmetcanarslan/shizuwall": [
+"54-",
+"59-"
+],
+"awerkori/fonte-extensoes": [
+"54-",
+"68-"
+],
+"dragonx943/manga-repo": [
+"54-",
+"68-"
+],
+"awesome-selfhosted/awesome-selfhosted": [
+"54-",
+"59-",
+"75-"
+],
+"etar-group/etar-calendar": [
+"54-",
+"68-"
+],
+"commons-app/apps-android-commons": [
+"54-",
+"65-"
+],
+"sagernet/sing-box": [
+"54-",
+"65-",
+"75-"
+],
+"tadamiorg/tadami-extensions": [
+"54-",
+"62-"
+],
+"aarddict/android": [
+"55-",
+"57-"
+],
+"astubenbord/paperless-mobile": [
+"55-",
+"63-"
+],
+"mateusz-bak/openreads": [
+"55-",
+"63-"
+],
+"mshdabiola/notepad": [
+"55-",
+"57-"
+],
+"rektpartyaftermath/legado-booksource-collection": [
+"55-",
+"57-"
+],
+"v4lpt/myc": [
+"55-",
+"57-"
+],
+"zwolken/light-novel-yuedu-source": [
+"55-",
+"57-"
+],
+"chmouel/liseur": [
+"55-",
+"57-"
+],
+"materializr-cad/materializr": [
+"55-",
+"60-"
+],
+"samuelclay/newsblur": [
+"55-",
+"63-"
+],
+"wikimedia/apps-android-wikipedia": [
+"55-",
+"63-",
+"74-"
+],
+"simonschubert/linuxcommandlibrary": [
+"55-",
+"63-"
+],
+"bibledit/android": [
+"55-",
+"57-"
+],
+"lukeneedham/videodiary": [
+"55-",
+"60-"
+],
+"nilsbraden/ttrss-reader-fork": [
+"55-",
+"57-"
+],
+"plateaukao/einkbro": [
+"55-",
+"63-",
+"74-"
+],
+"dn0ne/lotus": [
+"56-",
+"58-"
+],
+"kivy-garden/zbarcam": [
+"56-"
+],
+"knkpa/knkpanime": [
+"56-"
+],
+"mkulesh/onpc": [
+"56-",
+"67-"
+],
+"newhinton/round-sync": [
+"56-",
+"61-"
+],
+"tuntorius/mightier_amp": [
+"56-",
+"58-"
+],
+"zimly/zimly-backup": [
+"56-",
+"58-"
+],
+"jpdoshi/dragon-store": [
+"56-",
+"67-"
+],
+"bikram-agarwal/filepipe": [
+"56-",
+"67-"
+],
+"chenxiaolong/basicsync": [
+"56-",
+"61-"
+],
+"xbmc/xbmc": [
+"56-",
+"64-",
+"75-"
+],
+"owncloud/android": [
+"56-",
+"61-"
+],
+"haiwen/seadroid": [
+"56-",
+"61-"
+],
+"dogior/dogiorshadenough": [
+"56-"
+],
+"phisher98/cloudstream-extensions-phisher": [
+"56-",
+"74-"
+],
+"recloudstream/cs-repos": [
+"56-",
+"67-",
+"74-"
+],
+"reflex755/reflexrepo": [
+"56-"
+],
+"saurabhkaperwan/csx": [
+"56-"
+],
+"opendocument-app/opendocument.droid": [
+"57-"
+],
+"artifexsoftware/mupdf-android-viewer-mini": [
+"57-"
+],
+"kevincfechtel/fluxnews": [
+"57-"
+],
+"javalc6/rssreader": [
+"57-"
+],
+"volksverpetzer/vvp_app": [
+"57-"
+],
+"deedeedev/ytreader": [
+"57-"
+],
+"myzel394/alibi": [
+"58-"
+],
+"pass-with-high-score/aneko": [
+"58-"
+],
+"cvzi/screenshottile": [
+"58-"
+],
+"wirelessalien/moviedb": [
+"58-"
+],
+"retransmit/atrium": [
+"58-"
+],
+"hqanime/animeone": [
+"58-"
+],
+"cdrummond/lms-material-app": [
+"58-"
+],
+"likhithpraveenk/storii": [
+"58-"
+],
+"ptrlx/oneshot": [
+"58-"
+],
+"blackcandy-org/app": [
+"58-"
+],
+"rumca-js/offlinewebsearch": [
+"58-"
+],
+"kurikomi-labs/komi-store": [
+"59-",
+"73-",
+"75-"
+],
+"freshrss/freshrss": [
+"59-",
+"75-"
+],
+"offa/android-foss": [
+"59-",
+"74-",
+"75-"
+],
+"f-droid/fdroidclient": [
+"59-"
+],
+"lihenggui/blocker": [
+"59-"
+],
+"f0x1d/logfox": [
+"59-"
+],
+"wgtunnel/android": [
+"59-"
+],
+"khh-vu/wifi-password-manager": [
+"59-"
+],
+"leonlatsch/photok": [
+"60-"
+],
+"pynicolas/fairscan": [
+"60-"
+],
+"radiokot/photoprism-android-client": [
+"60-"
+],
+"justwen/nga-client-ver-open-source": [
+"60-"
+],
+"magic-cucumber/pixiv-multiplatform": [
+"60-"
+],
+"vincentengel/ves-image-compare": [
+"60-"
+],
+"pastthepixels/freepaint": [
+"60-"
+],
+"umercodez/websocketcam": [
+"60-"
+],
+"secuso/privacy-friendly-sketching": [
+"60-"
+],
+"zorgluf/souvenirs-android": [
+"60-"
+],
+"lollipopkit/flutter_server_box": [
+"61-",
+"75-"
+],
+"standardnotes/app": [
+"61-",
+"74-"
+],
+"jarnedemeulemeester/findroid": [
+"61-"
+],
+"bk138/droidvnc-ng": [
+"61-"
+],
+"chenxiaolong/rsaf": [
+"61-"
+],
+"iodn/android-ir-blaster": [
+"61-"
+],
+"helios57/muplay": [
+"61-",
+"71-"
+],
+"hexadigitall/makaw": [
+"61-",
+"71-"
+],
+"inaccurate-hotelplan289/homelabsetup": [
+"61-",
+"71-"
+],
+"fossifyorg/notes": [
+"62-"
+],
+"floccusaddon/floccus": [
+"63-",
+"75-"
+],
+"readyouapp/readyou": [
+"63-"
+],
+"ashinch/readyou": [
+"63-"
+],
+"spacecowboy/feeder": [
+"63-"
+],
+"livinglist/hacki": [
+"63-"
+],
+"jocmp/capyreader": [
+"63-"
+],
+"romannurik/muzei": [
+"64-"
+],
+"anilbeesetti/nextplayer": [
+"64-"
+],
+"videolan/vlc-android": [
+"64-"
+],
+"mahlernim/google-timeline-visualizer": [
+"64-"
+],
+"10miaomiao/bilimiao2": [
+"64-"
+],
+"moneytoo/player": [
+"64-"
+],
+"nuviomedia/nuviotv": [
+"64-",
+"74-"
+],
+"dkrivoruchko/screenstream": [
+"64-"
+],
+"markusfisch/binaryeye": [
+"64-"
+],
+"flaresolverr/flaresolverr": [
+"65-",
+"75-"
+],
+"teamwin/team-win-recovery-project": [
+"65-",
+"74-"
+],
+"zacharee/tweaker": [
+"65-"
+],
+"freeotp/freeotp-android": [
+"65-"
+],
+"pass-with-high-score/universal-installer": [
+"65-"
+],
+"anthonyy232/paperize": [
+"65-"
+],
+"session-foundation/session-android": [
+"65-"
+],
+"mlc-ai/mlc-llm": [
+"65-",
+"75-"
+],
+"aaswordman/operit": [
+"65-"
+],
+"libchecker/libchecker": [
+"65-"
+],
+"sdex/activitymanager": [
+"65-"
+],
+"supershadoe/delta": [
+"65-"
+],
+"dorumrr/de1984": [
+"65-"
+],
+"ente/ente": [
+"66-",
+"73-",
+"75-"
+],
+"ente-io/ente": [
+"66-",
+"73-",
+"75-"
+],
+"t8rin/imagetoolbox": [
+"66-",
+"75-"
+],
+"t8rin/imageresizer": [
+"66-",
+"75-"
+],
+"deckerst/aves": [
+"66-"
+],
+"burhanrashid52/photoeditor": [
+"66-"
+],
+"pulsejet/memories": [
+"66-"
+],
+"iacobionut01/refra": [
+"66-"
+],
+"iacobionut01/gallery": [
+"66-"
+],
+"anonfaded/fadcam": [
+"66-"
+],
+"linwooddev/butterfly": [
+"66-"
+],
+"cosmictaserdev-creator/convx": [
+"67-"
+],
+"renzobeux/dashboarr": [
+"67-"
+],
+"koofr/vault": [
+"67-"
+],
+"roozbehzarei/filester": [
+"67-"
+],
+"tobexyz/yaacc-code": [
+"67-"
+],
+"infomaniak/android-kdrive": [
+"67-"
+],
+"bobrofon/easysshfs": [
+"67-"
+],
+"isoron/uhabits": [
+"68-",
+"75-"
+],
+"tasks/tasks": [
+"68-"
+],
+"dongdongbh/mindwtr": [
+"68-",
+"74-"
+],
+"curbox-app/curbox-android": [
+"68-"
+],
+"glasshaven/haven": [
+"68-"
+],
+"rohitkushvaha01/reterminal": [
+"68-"
+],
+"kamiyomu/kamiyomu.crawleragents.core": [
+"71-"
+],
+"thiagooo0/ehhelper": [
+"71-"
+],
+"ulightm111/boky-fivavahana-ion": [
+"71-"
+],
+"vauvenal5/yaga": [
+"71-"
+],
+"axiel7/anihyou-android": [
+"74-"
+],
+"artifexsoftware/mupdf-android-viewer": [
+"74-"
+],
+"winnative-emu/winnative": [
+"80-"
+],
+"rajkumarbhakta/gdealz": [
+"80-"
+]
+},
+"urls_no_github": {
+"https://f-droid.org": [
+"01-"
+],
+"https://apt.izzysoft.de/fdroid": [
+"01-",
+"70-"
+],
+"https://codeberg.org/droidify/client": [
+"01-"
+],
+"https://komistore.app": [
+"01-"
+],
+"https://gitlab.com/AuroraOSS/AuroraStore": [
+"01-"
+],
+"https://accrescent.app": [
+"01-",
+"70-"
+],
+"https://appteka.store": [
+"01-"
+],
+"https://victor-root.github.io/Omnify/": [
+"01-"
+],
+"https://yukistore.org/listings/fedefluork-multistore": [
+"01-"
+],
+"https://yukistore.org/listings/suno2-gstore": [
+"01-"
+],
+"https://yukistore.org/listings/dinico414-xenonstorecompose": [
+"01-"
+],
+"https://yukistore.org/listings/developer-for-git-mod-store": [
+"01-"
+],
+"https://yukistore.org/listings/thislinked-aurorastorecrxmson": [
+"01-"
+],
+"https://developer.android.com/developer-verification": [
+"01-",
+"03-"
+],
+"https://keepandroidopen.org": [
+"01-",
+"03-"
+],
+"https://yukistore.org": [
+"01-"
+],
+"https://reports.exodus-privacy.eu.org": [
+"01-"
+],
+"https://www.virustotal.com": [
+"01-"
+],
+"https://kototoro-app.github.io/Kototoro/": [
+"02-"
+],
+"https://developer.android.com/developer-verification/guides/faq": [
+"03-"
+],
+"https://developer.android.com/developer-verification/guides/limited-distribution": [
+"03-"
+],
+"https://developer.android.com/developer-verification/guides/android-developer-console": [
+"03-"
+],
+"https://android.google.com/developerconsole": [
+"03-"
+],
+"https://support.google.com/android-developer-console": [
+"03-"
+],
+"https://support.google.com/googleplay/android-developer#topic=16689288": [
+"03-"
+],
+"https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html": [
+"03-"
+],
+"https://android-developers.googleblog.com/2026/06/android-developer-verification.html": [
+"03-"
+],
+"https://android-developers.googleblog.com/2026/03/android-developer-verification.html": [
+"03-"
+],
+"https://keepandroidopen.org/": [
+"03-"
+],
+"https://keepandroidopen.org/faq/": [
+"03-"
+],
+"https://keepandroidopen.org/open-letter": [
+"03-"
+],
+"https://keepandroidopen.org/cta/#consumers": [
+"03-"
+],
+"https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html": [
+"03-"
+],
+"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship": [
+"03-"
+],
+"https://pluralistic.net/2025/09/01/fulu/": [
+"03-"
+],
+"https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/": [
+"03-"
+],
+"https://keiyoushi.github.io": [
+"04-"
+],
+"https://yuzono.github.io": [
+"04-"
+],
+"https://miyomi.app": [
+"04-"
+],
+"https://mangaplus.shueisha.co.jp/updates": [
+"05-"
+],
+"https://play.google.com/store/apps/details?id=jp.co.shueisha.mangaplus": [
+"05-"
+],
+"https://www.webtoons.com/es/": [
+"05-"
+],
+"https://www.webtoons.com/en/": [
+"05-"
+],
+"https://www.interior.gob.es/opencms/es/detalle/articulo/La-Policia-Nacional-desarticula-en-Almeria-la-mayor-plataforma-de-distribucion-ilicita-online-de-manga-en-espanol/": [
+"05-"
+],
+"https://elpais.com/cultura/2026-04-22/cae-tumangaonline-la-policia-nacional-desmantela-la-mayor-plataforma-de-pirateria-de-manga-en-espanol.html": [
+"05-"
+],
+"https://torrentfreak.com/korean-rights-holders-behind-takedown-of-manga-piracy-giant-tumangaonline/": [
+"05-"
+],
+"https://coa4kcontent.or.kr/en/index.php": [
+"05-"
+],
+"https://coa4kcontent.or.kr/en/community/session.php?boardid=session_en&mode=view&idx=23": [
+"05-"
+],
+"https://raw.githubusercontent.com/Leviidev/Husk/main/altsource.json": [
+"13-"
+],
+"https://f-droid.org/en/packages/org.draken.usagi/": [
+"07-"
+],
+"https://appteka.store/app/4abr315772": [
+"08-"
+],
+"https://appteka.store/app/b4cr315682": [
+"08-"
+],
+"https://fmhy.net": [
+"12-"
+],
+"https://fmhy.net/beginners-guide": [
+"12-"
+],
+"https://fmhy.net/posts/sept-2026": [
+"12-"
+],
+"https://aniyomi.org/forks/": [
+"13-"
+],
+"https://aniyomi.org/forks/Animiru/": [
+"14-"
+],
+"https://reikai.app": [
+"15-"
+],
+"https://appteka.store/app/d18r318069": [
+"18-"
+],
+"https://miyomi.app/software?content=Multi&view=grid": [
+"19-"
+],
+"https://codeberg.org/Grace-and-Truth/Greet-and-Grow": [
+"26-"
+],
+"https://gitlab.com/g33kphr33k/musicgrabber": [
+"26-"
+],
+"https://www.musicapopular.cl/grupo/los-de-las-condes/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/37545/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/37544/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/63295/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/la-pomea/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/63291/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/961408/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/37548/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/63325/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/200753/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/63324/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/63322/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/63313/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/37550/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/200654/": [
+"45-"
+],
+"https://www.letras.com/mercedes-sosa/63310/": [
+"45-"
+],
+"https://burnsomni.net/manuals/pagan": [
+"53-",
+"72-"
+],
+"https://anidb.net": [
+"53-",
+"72-"
+],
+"https://openverse.org": [
+"53-",
+"72-"
+],
+"https://miniflux.app": [
+"57-"
+],
+"https://standardnotes.com/forum": [
+"61-"
+],
+"https://standardnotes.com/h»": [
+"61-"
+],
+"https://roundsync.com": [
+"61-"
+],
+"https://codeberg.org/Bazsalanszky/Eternity": [
+"69-"
+],
+"https://codeberg.org/hicorenational/apps-android-wikipedia": [
+"69-"
+],
+"https://codeberg.org/jozo/prayer-book": [
+"69-"
+],
+"https://codeberg.org/nontrinsic/android": [
+"69-"
+],
+"https://codeberg.org/retiolus/natinfo_flutter": [
+"69-"
+],
+"https://codeberg.org/timurmobi/prosereader-android": [
+"69-"
+],
+"https://gitlab.com/coolreader-ng/lxreader": [
+"69-"
+],
+"https://gitlab.com/gbygrave/styncynotes": [
+"69-"
+],
+"https://gitlab.com/hotlittlewhitedog/BibleMultiTheLight": [
+"69-"
+],
+"https://gitlab.com/hotlittlewhitedog/BibleTheLife": [
+"69-"
+],
+"https://gitlab.com/libre-librivox-listener/libre-librivox-listener": [
+"69-"
+],
+"https://f-droid.org/packages/player.efis.pfd": [
+"70-"
+],
+"https://f-droid.org/packages/com.github.soundpod/": [
+"70-"
+],
+"https://f-droid.org/packages/com.luc4n3x.levyra/": [
+"70-"
+],
+"https://apt.izzysoft.de/fdroid/": [
+"70-"
+],
+"https://flathub.org/apps/info.febvre.Komikku": [
+"70-"
+],
+"https://play.google.com/store/apps/details?id=cx.aswin.boxlore": [
+"70-"
+],
+"https://apt.izzysoft.de/fdroid/index/apk/com.shayan.firewall": [
+"70-"
+],
+"https://www.libreoffice.org/download/android-and-ios": [
+"72-"
+],
+"https://sourceforge.net/p/videlibri/code/ci/default/tree": [
+"72-"
+],
+"https://invent.kde.org/multimedia/kid3.git": [
+"72-"
+],
+"https://sourceforge.net/p/opencamera/code": [
+"72-"
+],
+"https://www.axekin.com/": [
+"80-"
+]
+}
+}

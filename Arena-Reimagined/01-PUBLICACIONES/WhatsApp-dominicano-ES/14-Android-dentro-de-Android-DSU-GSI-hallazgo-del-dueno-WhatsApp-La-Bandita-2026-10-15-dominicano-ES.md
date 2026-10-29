@@ -818,7 +818,7 @@ Actividad medida hoy: 0 con actividad hoy · 0 en 7 días · 1 en 30 días · 0 
 
 • `vegabobo/dsu-sideloader` — ★2.343 (verificado 29-oct-2026) · última actividad 2024-03-13 · Apache-2.0.
 
-• `phhusson/treble_experimentations` — ★3.556 (verificado 29-oct-2026) · última actividad 2025-01-27 · licencia sin resolver · ARCHIVADO.
+• `phhusson/treble_experimentations` — ★3.556 (verificado 29-oct-2026) · última actividad 2025-01-27 · sin archivo LICENSE en la raíz de su repo (verificado por API 29-oct-2026) · ARCHIVADO.
 
 • `ponces/treble_aosp` — ★311 (verificado 29-oct-2026) · última actividad 2025-07-25 · Apache-2.0 · ARCHIVADO.
 

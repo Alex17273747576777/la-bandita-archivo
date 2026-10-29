@@ -772,7 +772,7 @@ Actividad medida hoy: 6 con actividad hoy · 6 en 7 días · 2 en 30 días · 2 
 
 • `itsmechinmoy/dantotsu` — creado 2025-08-07 · última actividad 2026-10-29 · ★92 (verificado 29-oct-2026) · licencia sin clasificar (NOASSERTION).
 
-• `itsmechinmoy/dantotsu-updater` — creado 2025-06-10 · última actividad 2026-10-26 · ★154 (verificado 29-oct-2026) · licencia sin resolver.
+• `itsmechinmoy/dantotsu-updater` — creado 2025-06-10 · última actividad 2026-10-26 · ★154 (verificado 29-oct-2026) · sin archivo LICENSE en la raíz de su repo (verificado por API 29-oct-2026).
 
 • `kainotch/wammy` — creado 2026-08-27 · última actividad 2026-10-25 · ★13 (verificado 29-oct-2026) · Apache-2.0.
 

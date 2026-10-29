@@ -773,7 +773,7 @@ Continuidad: sin archivados ni dormidos entre los repos atribuidos a esta pieza 
 
 • `komikku-app/anikku` — creado 2025-01-08 · última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026) · Apache-2.0.
 
-• `jobobby04/tachiyomisypreview` — creado 2020-05-10 · última actividad 2026-10-23 · ★489 (verificado 29-oct-2026) · licencia sin resolver.
+• `jobobby04/tachiyomisypreview` — creado 2020-05-10 · última actividad 2026-10-23 · ★489 (verificado 29-oct-2026) · sin archivo LICENSE en la raíz de su repo (verificado por API 29-oct-2026).
 
 • `syncyomi/syncyomi` — creado 2023-04-06 · última actividad 2026-10-29 · ★736 (verificado 29-oct-2026) · GPL-2.0.
 
