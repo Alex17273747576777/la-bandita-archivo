@@ -1,0 +1,6291 @@
+{
+ "repos": {
+  "asrofficialdev/redantotsu": {
+   "slug": "asrofficialdev/redantotsu",
+   "http": 200,
+   "stars": 152,
+   "pushed": "2026-08-18",
+   "archived": true,
+   "license": "NOASSERTION"
+  },
+  "kotatsuapp/kotatsu": {
+   "slug": "kotatsuapp/kotatsu",
+   "http": 200,
+   "stars": 8942,
+   "pushed": "2025-11-04",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "oxyroid/m3uandroid": {
+   "slug": "oxyroid/m3uandroid",
+   "http": 200,
+   "stars": 1284,
+   "pushed": "2026-09-20",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "phhusson/treble_experimentations": {
+   "slug": "phhusson/treble_experimentations",
+   "http": 200,
+   "stars": 3556,
+   "pushed": "2025-01-27",
+   "archived": true,
+   "license": null
+  },
+  "ponces/treble_aosp": {
+   "slug": "ponces/treble_aosp",
+   "http": 200,
+   "stars": 311,
+   "pushed": "2025-07-25",
+   "archived": true,
+   "license": "Apache-2.0"
+  },
+  "siavash79/pixelxpert": {
+   "slug": "siavash79/pixelxpert",
+   "http": 200,
+   "stars": 2440,
+   "pushed": "2026-06-21",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "syncthing/syncthing-android": {
+   "slug": "syncthing/syncthing-android",
+   "http": 200,
+   "stars": 4293,
+   "pushed": "2024-12-03",
+   "archived": true,
+   "license": "MPL-2.0"
+  },
+  "usagiapp/core-exts": {
+   "slug": "usagiapp/core-exts",
+   "http": 200,
+   "stars": 7,
+   "pushed": "2026-06-28",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "usagiapp/core-parsers": {
+   "slug": "usagiapp/core-parsers",
+   "http": 200,
+   "stars": 2,
+   "pushed": "2026-06-28",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "team-spotube/spotube": {
+   "slug": "team-spotube/spotube",
+   "http": 200,
+   "stars": 50450,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "droid-ify/client": {
+   "slug": "droid-ify/client",
+   "http": 200,
+   "stars": 7658,
+   "pushed": "2026-09-12",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "neoapplications/neo-store": {
+   "slug": "neoapplications/neo-store",
+   "http": 200,
+   "stars": 5568,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "komi-store/komi-store": {
+   "slug": "komi-store/komi-store",
+   "http": 200,
+   "stars": 20088,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "solkin/appteka-android": {
+   "slug": "solkin/appteka-android",
+   "http": 200,
+   "stars": 1359,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "imranr98/obtainium": {
+   "slug": "imranr98/obtainium",
+   "http": 200,
+   "stars": 21008,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "bikram-agarwal/obtainx": {
+   "slug": "bikram-agarwal/obtainx",
+   "http": 200,
+   "stars": 1555,
+   "pushed": "2026-10-05",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "victor-root/omnify": {
+   "slug": "victor-root/omnify",
+   "http": 200,
+   "stars": 91,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "rikkaapps/shizuku": {
+   "slug": "rikkaapps/shizuku",
+   "http": 200,
+   "stars": 32367,
+   "pushed": "2025-06-18",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "timschneeb/shizustore": {
+   "slug": "timschneeb/shizustore",
+   "http": 200,
+   "stars": 476,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "carlelieser/yuki": {
+   "slug": "carlelieser/yuki",
+   "http": 200,
+   "stars": 156,
+   "pushed": "2026-10-12",
+   "archived": false,
+   "license": "MIT"
+  },
+  "elhizazi1/shizucorefetch": {
+   "slug": "elhizazi1/shizucorefetch",
+   "http": 200,
+   "stars": 514,
+   "pushed": "2026-09-15",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "suno2/gstore": {
+   "slug": "suno2/gstore",
+   "http": 200,
+   "stars": 4,
+   "pushed": "2026-10-17",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "developer-for-git/mod-store": {
+   "slug": "developer-for-git/mod-store",
+   "http": 200,
+   "stars": 6,
+   "pushed": "2026-04-17",
+   "archived": false,
+   "license": null
+  },
+  "auroraoss/aurorastore": {
+   "slug": "auroraoss/aurorastore",
+   "http": 200,
+   "stars": 68,
+   "pushed": "2026-10-02",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "droidify/client": {
+   "slug": "droidify/client",
+   "http": 404
+  },
+  "kototoro-app/kototoro": {
+   "slug": "kototoro-app/kototoro",
+   "http": 200,
+   "stars": 652,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "kototoro-app/kototoro-nightly": {
+   "slug": "kototoro-app/kototoro-nightly",
+   "http": 200,
+   "stars": 12,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": null
+  },
+  "skepsun/kototoro-parsers": {
+   "slug": "skepsun/kototoro-parsers",
+   "http": 200,
+   "stars": 17,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "reference/tvbox-runtime": {
+   "slug": "reference/tvbox-runtime",
+   "http": 404
+  },
+  "kototoro-app.github.io/kototoro": {
+   "slug": "kototoro-app.github.io/kototoro",
+   "http": 404
+  },
+  "woheller69/freedroidwarn": {
+   "slug": "woheller69/freedroidwarn",
+   "http": 200,
+   "stars": 3716,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "littlesurvival/copymanga-copy20": {
+   "slug": "littlesurvival/copymanga-copy20",
+   "http": 200,
+   "stars": 2971,
+   "pushed": "2026-10-11",
+   "archived": false,
+   "license": null
+  },
+  "yuzono/anime-extensions": {
+   "slug": "yuzono/anime-extensions",
+   "http": 200,
+   "stars": 522,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "cuong-tran/manga-repo": {
+   "slug": "cuong-tran/manga-repo",
+   "http": 200,
+   "stars": 462,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "keiyoushi/extensions-source": {
+   "slug": "keiyoushi/extensions-source",
+   "http": 200,
+   "stars": 4831,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "keiyoushi/extensions": {
+   "slug": "keiyoushi/extensions",
+   "http": 200,
+   "stars": 15368,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "yuzono/cursed-manga-extensions": {
+   "slug": "yuzono/cursed-manga-extensions",
+   "http": 200,
+   "stars": 214,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "mojuru/cursed-manga-repo": {
+   "slug": "mojuru/cursed-manga-repo",
+   "http": 200,
+   "stars": 174,
+   "pushed": "2026-10-12",
+   "archived": false,
+   "license": null
+  },
+  "zgq-inc/source": {
+   "slug": "zgq-inc/source",
+   "http": 200,
+   "stars": 1286,
+   "pushed": "2025-09-06",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "suwayomi/tachiyomi-extension": {
+   "slug": "suwayomi/tachiyomi-extension",
+   "http": 200,
+   "stars": 346,
+   "pushed": "2026-09-19",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "miyomiorg/miyomi": {
+   "slug": "miyomiorg/miyomi",
+   "http": 200,
+   "stars": 208,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "yuzono/manga-repo": {
+   "slug": "yuzono/manga-repo",
+   "http": 200,
+   "stars": 12,
+   "pushed": "2026-08-18",
+   "archived": false,
+   "license": null
+  },
+  "mihonapp/mihon": {
+   "slug": "mihonapp/mihon",
+   "http": 200,
+   "stars": 24833,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "jobobby04/tachiyomisy": {
+   "slug": "jobobby04/tachiyomisy",
+   "http": 200,
+   "stars": 4196,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "komikku-app/komikku": {
+   "slug": "komikku-app/komikku",
+   "http": 200,
+   "stars": 4954,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "nekomangaorg/neko": {
+   "slug": "nekomangaorg/neko",
+   "http": 200,
+   "stars": 2817,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "aniyomiorg/aniyomi": {
+   "slug": "aniyomiorg/aniyomi",
+   "http": 200,
+   "stars": 7853,
+   "pushed": "2026-09-14",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "komikku-app/anikku": {
+   "slug": "komikku-app/anikku",
+   "http": 200,
+   "stars": 1124,
+   "pushed": "2026-10-22",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "andarcanum/tadami-aniyomi-fork": {
+   "slug": "andarcanum/tadami-aniyomi-fork",
+   "http": 200,
+   "stars": 287,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "syncyomi/syncyomi": {
+   "slug": "syncyomi/syncyomi",
+   "http": 200,
+   "stars": 737,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "jobobby04/tachiyomisypreview": {
+   "slug": "jobobby04/tachiyomisypreview",
+   "http": 200,
+   "stars": 489,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": null
+  },
+  "animetailapp/animetail": {
+   "slug": "animetailapp/animetail",
+   "http": 200,
+   "stars": 612,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "usagiapp/usagi": {
+   "slug": "usagiapp/usagi",
+   "http": 200,
+   "stars": 286,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "kotatsu-redo/kotatsu-redo": {
+   "slug": "kotatsu-redo/kotatsu-redo",
+   "http": 200,
+   "stars": 972,
+   "pushed": "2026-10-16",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "appfuton/futon": {
+   "slug": "appfuton/futon",
+   "http": 200,
+   "stars": 467,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "orgs/usagiapp": {
+   "slug": "orgs/usagiapp",
+   "http": 404
+  },
+  "gekkoushi/plugin-source": {
+   "slug": "gekkoushi/plugin-source",
+   "http": 200,
+   "stars": 93,
+   "pushed": "2026-09-14",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "invaliddavid/uma": {
+   "slug": "invaliddavid/uma",
+   "http": 200,
+   "stars": 82,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "yumemiproject/yumemi": {
+   "slug": "yumemiproject/yumemi",
+   "http": 200,
+   "stars": 60,
+   "pushed": "2026-02-20",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "sang765/usagi": {
+   "slug": "sang765/usagi",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-10-16",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "gekkoushi/plugin": {
+   "slug": "gekkoushi/plugin",
+   "http": 200,
+   "stars": 11,
+   "pushed": "2026-09-13",
+   "archived": false,
+   "license": null
+  },
+  "metrolistgroup/metrolist": {
+   "slug": "metrolistgroup/metrolist",
+   "http": 200,
+   "stars": 13882,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "outertune/outertune": {
+   "slug": "outertune/outertune",
+   "http": 200,
+   "stars": 5438,
+   "pushed": "2026-10-12",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "maxrave-dev/simpmusic": {
+   "slug": "maxrave-dev/simpmusic",
+   "http": 200,
+   "stars": 12517,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "z-huang/innertune": {
+   "slug": "z-huang/innertune",
+   "http": 200,
+   "stars": 6128,
+   "pushed": "2025-11-13",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "anandnet/harmony-music": {
+   "slug": "anandnet/harmony-music",
+   "http": 200,
+   "stars": 3091,
+   "pushed": "2025-12-08",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "teamnewpipe/newpipe": {
+   "slug": "teamnewpipe/newpipe",
+   "http": 200,
+   "stars": 40352,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "oxygencobalt/auxio": {
+   "slug": "oxygencobalt/auxio",
+   "http": 200,
+   "stars": 4400,
+   "pushed": "2026-09-08",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "antennapod/antennapod": {
+   "slug": "antennapod/antennapod",
+   "http": 200,
+   "stars": 8251,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "n-zik-group/n-zik": {
+   "slug": "n-zik-group/n-zik",
+   "http": 200,
+   "stars": 278,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "hotaro26/gabi": {
+   "slug": "hotaro26/gabi",
+   "http": 200,
+   "stars": 103,
+   "pushed": "2026-09-30",
+   "archived": false,
+   "license": "MIT"
+  },
+  "fossifyorg/clock": {
+   "slug": "fossifyorg/clock",
+   "http": 200,
+   "stars": 715,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "organicmaps/organicmaps": {
+   "slug": "organicmaps/organicmaps",
+   "http": 200,
+   "stars": 15812,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "localsend/localsend": {
+   "slug": "localsend/localsend",
+   "http": 200,
+   "stars": 96441,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "syncthing/syncthing": {
+   "slug": "syncthing/syncthing",
+   "http": 200,
+   "stars": 89866,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "guardianproject/orbot-android": {
+   "slug": "guardianproject/orbot-android",
+   "http": 200,
+   "stars": 3659,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "muntashirakon/appmanager": {
+   "slug": "muntashirakon/appmanager",
+   "http": 200,
+   "stars": 9367,
+   "pushed": "2026-10-19",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "termux/termux-app": {
+   "slug": "termux/termux-app",
+   "http": 200,
+   "stars": 63665,
+   "pushed": "2026-09-26",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "darek2015/gltools": {
+   "slug": "darek2015/gltools",
+   "http": 200,
+   "stars": 12,
+   "pushed": "2020-05-05",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "i-taylo/iunlockergl": {
+   "slug": "i-taylo/iunlockergl",
+   "http": 200,
+   "stars": 108,
+   "pushed": "2025-12-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "ollama/ollama": {
+   "slug": "ollama/ollama",
+   "http": 200,
+   "stars": 185229,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "jellyfin/jellyfin": {
+   "slug": "jellyfin/jellyfin",
+   "http": 200,
+   "stars": 58779,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "bromite/bromite": {
+   "slug": "bromite/bromite",
+   "http": 200,
+   "stars": 6321,
+   "pushed": "2024-01-24",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mattecarra/acca": {
+   "slug": "mattecarra/acca",
+   "http": 200,
+   "stars": 1402,
+   "pushed": "2024-06-17",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "miru-project/miru-app": {
+   "slug": "miru-project/miru-app",
+   "http": 200,
+   "stars": 5784,
+   "pushed": "2025-12-05",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "smuyyh/bookreader": {
+   "slug": "smuyyh/bookreader",
+   "http": 200,
+   "stars": 6964,
+   "pushed": "2023-04-24",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "justjavac/free-programming-books-zh_cn": {
+   "slug": "justjavac/free-programming-books-zh_cn",
+   "http": 200,
+   "stars": 119436,
+   "pushed": "2026-07-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "beemdevelopment/aegis": {
+   "slug": "beemdevelopment/aegis",
+   "http": 200,
+   "stars": 13413,
+   "pushed": "2026-09-06",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "anbui2004/vectras-vm-emu-android": {
+   "slug": "anbui2004/vectras-vm-emu-android",
+   "http": 200,
+   "stars": 305,
+   "pushed": "2026-10-14",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "itsmechinmoy/dantotsu": {
+   "slug": "itsmechinmoy/dantotsu",
+   "http": 200,
+   "stars": 92,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "animiruorg/animiru": {
+   "slug": "animiruorg/animiru",
+   "http": 200,
+   "stars": 904,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "iamr0s/dhizuku-api": {
+   "slug": "iamr0s/dhizuku-api",
+   "http": 200,
+   "stars": 204,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "aayush2622/dartotsu": {
+   "slug": "aayush2622/dartotsu",
+   "http": 200,
+   "stars": 545,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "nahiro18/kiroku": {
+   "slug": "nahiro18/kiroku",
+   "http": 200,
+   "stars": 16,
+   "pushed": "2026-10-16",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "nextcloud/server": {
+   "slug": "nextcloud/server",
+   "http": 200,
+   "stars": 37344,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "go-gitea/gitea": {
+   "slug": "go-gitea/gitea",
+   "http": 200,
+   "stars": 58763,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "photoprism/photoprism": {
+   "slug": "photoprism/photoprism",
+   "http": 200,
+   "stars": 40370,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "koodo-reader/koodo-reader": {
+   "slug": "koodo-reader/koodo-reader",
+   "http": 200,
+   "stars": 28666,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "dr-tsng/zygisknext": {
+   "slug": "dr-tsng/zygisknext",
+   "http": 200,
+   "stars": 10741,
+   "pushed": "2026-10-15",
+   "archived": false,
+   "license": null
+  },
+  "modelcontextprotocol/modelcontextprotocol": {
+   "slug": "modelcontextprotocol/modelcontextprotocol",
+   "http": 200,
+   "stars": 9562,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "modelcontextprotocol/servers": {
+   "slug": "modelcontextprotocol/servers",
+   "http": 200,
+   "stars": 91673,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "open-webui/open-webui": {
+   "slug": "open-webui/open-webui",
+   "http": 200,
+   "stars": 157155,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "pi-hole/pi-hole": {
+   "slug": "pi-hole/pi-hole",
+   "http": 200,
+   "stars": 61554,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "qbittorrent/qbittorrent": {
+   "slug": "qbittorrent/qbittorrent",
+   "http": 200,
+   "stars": 41212,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "med-amine0/aniyomi_plus": {
+   "slug": "med-amine0/aniyomi_plus",
+   "http": 200,
+   "stars": 9,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "morpheapp/morphe-manager": {
+   "slug": "morpheapp/morphe-manager",
+   "http": 200,
+   "stars": 9674,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "home-assistant/core": {
+   "slug": "home-assistant/core",
+   "http": 200,
+   "stars": 91823,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "openwrt/openwrt": {
+   "slug": "openwrt/openwrt",
+   "http": 200,
+   "stars": 28972,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "nextcloud/android": {
+   "slug": "nextcloud/android",
+   "http": 200,
+   "stars": 5657,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "immich-app/immich": {
+   "slug": "immich-app/immich",
+   "http": 200,
+   "stars": 117594,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "fossifyorg/gallery": {
+   "slug": "fossifyorg/gallery",
+   "http": 200,
+   "stars": 3860,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "kopia/kopia": {
+   "slug": "kopia/kopia",
+   "http": 200,
+   "stars": 14522,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "restic/restic": {
+   "slug": "restic/restic",
+   "http": 200,
+   "stars": 36881,
+   "pushed": "2026-10-18",
+   "archived": false,
+   "license": "BSD-2-Clause"
+  },
+  "pimpinpumpkin/vela": {
+   "slug": "pimpinpumpkin/vela",
+   "http": 200,
+   "stars": 2272,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "flectar/mail": {
+   "slug": "flectar/mail",
+   "http": 200,
+   "stars": 1680,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "kitsumed/shizucallrecorder": {
+   "slug": "kitsumed/shizucallrecorder",
+   "http": 200,
+   "stars": 1929,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "leviidev/husk": {
+   "slug": "leviidev/husk",
+   "http": 200,
+   "stars": 2838,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "r15hi/dsu-multi-sideloader": {
+   "slug": "r15hi/dsu-multi-sideloader",
+   "http": 200,
+   "stars": 3,
+   "pushed": "2026-10-15",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "vegabobo/dsu-sideloader": {
+   "slug": "vegabobo/dsu-sideloader",
+   "http": 200,
+   "stars": 2343,
+   "pushed": "2024-03-13",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "null2264/yokai": {
+   "slug": "null2264/yokai",
+   "http": 200,
+   "stars": 1912,
+   "pushed": "2026-10-13",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "lnreader/lnreader": {
+   "slug": "lnreader/lnreader",
+   "http": 200,
+   "stars": 2942,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "MIT"
+  },
+  "kainotch/wammy": {
+   "slug": "kainotch/wammy",
+   "http": 200,
+   "stars": 13,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "noirero/miyorare": {
+   "slug": "noirero/miyorare",
+   "http": 200,
+   "stars": 19,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "itsmechinmoy/dantotsu-updater": {
+   "slug": "itsmechinmoy/dantotsu-updater",
+   "http": 200,
+   "stars": 154,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "libre-tube/libretube": {
+   "slug": "libre-tube/libretube",
+   "http": 200,
+   "stars": 12910,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "teampiped/piped": {
+   "slug": "teampiped/piped",
+   "http": 200,
+   "stars": 10295,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "yuliskov/smarttube": {
+   "slug": "yuliskov/smarttube",
+   "http": 200,
+   "stars": 35705,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "MIT"
+  },
+  "recloudstream/cloudstream": {
+   "slug": "recloudstream/cloudstream",
+   "http": 200,
+   "stars": 11091,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mytv-android/mytv-android": {
+   "slug": "mytv-android/mytv-android",
+   "http": 200,
+   "stars": 2928,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "riteshp2001/mpvrx": {
+   "slug": "riteshp2001/mpvrx",
+   "http": 200,
+   "stars": 859,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "open-ani/animeko": {
+   "slug": "open-ani/animeko",
+   "http": 200,
+   "stars": 21324,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "rokku-app/rokku": {
+   "slug": "rokku-app/rokku",
+   "http": 200,
+   "stars": 63,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "yuneko-dev/nekori": {
+   "slug": "yuneko-dev/nekori",
+   "http": 200,
+   "stars": 37,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "morpheapp/microg-re": {
+   "slug": "morpheapp/microg-re",
+   "http": 200,
+   "stars": 6006,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "sysadmindoc/hushfacebook": {
+   "slug": "sysadmindoc/hushfacebook",
+   "http": 200,
+   "stars": 437,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "sysadmindoc/hushfeed": {
+   "slug": "sysadmindoc/hushfeed",
+   "http": 200,
+   "stars": 324,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "meowdump/integrity-box": {
+   "slug": "meowdump/integrity-box",
+   "http": 200,
+   "stars": 2796,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "shiaho777/web-to-app": {
+   "slug": "shiaho777/web-to-app",
+   "http": 200,
+   "stars": 7121,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Unlicense"
+  },
+  "mmrlapp/mmrl": {
+   "slug": "mmrlapp/mmrl",
+   "http": 200,
+   "stars": 2223,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "j-hc/revanced-magisk-module": {
+   "slug": "j-hc/revanced-magisk-module",
+   "http": 200,
+   "stars": 7706,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "bmax121/apatch": {
+   "slug": "bmax121/apatch",
+   "http": 200,
+   "stars": 8103,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "xoureldeen/vectras-vm-android": {
+   "slug": "xoureldeen/vectras-vm-android",
+   "http": 200,
+   "stars": 2758,
+   "pushed": "2026-10-18",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "brunodev85/winlator": {
+   "slug": "brunodev85/winlator",
+   "http": 200,
+   "stars": 19681,
+   "pushed": "2026-10-17",
+   "archived": false,
+   "license": "LGPL-2.1"
+  },
+  "ptitseb/box64": {
+   "slug": "ptitseb/box64",
+   "http": 200,
+   "stars": 5695,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "ish-app/ish": {
+   "slug": "ish-app/ish",
+   "http": 200,
+   "stars": 20644,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "janhq/jan": {
+   "slug": "janhq/jan",
+   "http": 200,
+   "stars": 45145,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "chatgptnextweb/nextchat": {
+   "slug": "chatgptnextweb/nextchat",
+   "http": 200,
+   "stars": 88916,
+   "pushed": "2026-10-20",
+   "archived": false,
+   "license": "MIT"
+  },
+  "moeru-ai/airi": {
+   "slug": "moeru-ai/airi",
+   "http": 200,
+   "stars": 50885,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "browser-use/jev-ultrafast": {
+   "slug": "browser-use/jev-ultrafast",
+   "http": 200,
+   "stars": 23879,
+   "pushed": "2026-09-30",
+   "archived": false,
+   "license": "MIT"
+  },
+  "xai-org/grok-build": {
+   "slug": "xai-org/grok-build",
+   "http": 200,
+   "stars": 27595,
+   "pushed": "2026-09-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "yetone/magpie": {
+   "slug": "yetone/magpie",
+   "http": 200,
+   "stars": 25312,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "ebony-vinyl/dsh-our-free-model": {
+   "slug": "ebony-vinyl/dsh-our-free-model",
+   "http": 200,
+   "stars": 50701,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "topjohnwu/magisk": {
+   "slug": "topjohnwu/magisk",
+   "http": 200,
+   "stars": 63588,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "tiann/kernelsu": {
+   "slug": "tiann/kernelsu",
+   "http": 200,
+   "stars": 19801,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "universal-debloater-alliance/universal-android-debloater-next-generation": {
+   "slug": "universal-debloater-alliance/universal-android-debloater-next-generation",
+   "http": 200,
+   "stars": 9632,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "namidaco/namida": {
+   "slug": "namidaco/namida",
+   "http": 200,
+   "stars": 6733,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "moriafly/saltplayersource": {
+   "slug": "moriafly/saltplayersource",
+   "http": 200,
+   "stars": 7574,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "naman14/timber": {
+   "slug": "naman14/timber",
+   "http": 200,
+   "stars": 7033,
+   "pushed": "2023-04-28",
+   "archived": false,
+   "license": null
+  },
+  "cwuom/neriplayer": {
+   "slug": "cwuom/neriplayer",
+   "http": 200,
+   "stars": 3982,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "rukamori/archivetune": {
+   "slug": "rukamori/archivetune",
+   "http": 200,
+   "stars": 7764,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "sonorahq/sonora": {
+   "slug": "sonorahq/sonora",
+   "http": 200,
+   "stars": 2484,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "staniel359/muffon": {
+   "slug": "staniel359/muffon",
+   "http": 200,
+   "stars": 2251,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "gokadzev/musify": {
+   "slug": "gokadzev/musify",
+   "http": 200,
+   "stars": 4380,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "pixelplayerhq/pixelplayer": {
+   "slug": "pixelplayerhq/pixelplayer",
+   "http": 200,
+   "stars": 6835,
+   "pushed": "2026-09-21",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "crosstalk-solutions/project-nomad": {
+   "slug": "crosstalk-solutions/project-nomad",
+   "http": 200,
+   "stars": 41252,
+   "pushed": "2026-10-22",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "paulwoitaschek/voice": {
+   "slug": "paulwoitaschek/voice",
+   "http": 200,
+   "stars": 3230,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "koreader/koreader": {
+   "slug": "koreader/koreader",
+   "http": 200,
+   "stars": 30732,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "getlantern/lantern": {
+   "slug": "getlantern/lantern",
+   "http": 200,
+   "stars": 16558,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "2dust/v2rayng": {
+   "slug": "2dust/v2rayng",
+   "http": 200,
+   "stars": 64934,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "johnshall/shadowrocket-adblock-rules-forever": {
+   "slug": "johnshall/shadowrocket-adblock-rules-forever",
+   "http": 200,
+   "stars": 31660,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "teamamaze/amazefilemanager": {
+   "slug": "teamamaze/amazefilemanager",
+   "http": 200,
+   "stars": 6446,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "gsantner/markor": {
+   "slug": "gsantner/markor",
+   "http": 200,
+   "stars": 6348,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "gopeedlab/gopeed": {
+   "slug": "gopeedlab/gopeed",
+   "http": 200,
+   "stars": 27243,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "florisboard/florisboard": {
+   "slug": "florisboard/florisboard",
+   "http": 200,
+   "stars": 8730,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "researchxxl/syncthing-android": {
+   "slug": "researchxxl/syncthing-android",
+   "http": 200,
+   "stars": 3191,
+   "pushed": "2026-10-22",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "keepassxreboot/keepassxc": {
+   "slug": "keepassxreboot/keepassxc",
+   "http": 200,
+   "stars": 29594,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "dani-garcia/vaultwarden": {
+   "slug": "dani-garcia/vaultwarden",
+   "http": 200,
+   "stars": 69884,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "kunzisoft/keepassdx": {
+   "slug": "kunzisoft/keepassdx",
+   "http": 200,
+   "stars": 7562,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "m66b/fairemail": {
+   "slug": "m66b/fairemail",
+   "http": 200,
+   "stars": 4737,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "thunderbird/thunderbird-android": {
+   "slug": "thunderbird/thunderbird-android",
+   "http": 200,
+   "stars": 14157,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "m66b/netguard": {
+   "slug": "m66b/netguard",
+   "http": 200,
+   "stars": 3949,
+   "pushed": "2026-08-01",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "kde/kdeconnect-android": {
+   "slug": "kde/kdeconnect-android",
+   "http": 200,
+   "stars": 1491,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "home-assistant/android": {
+   "slug": "home-assistant/android",
+   "http": 200,
+   "stars": 4010,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "lawnchairlauncher/lawnchair": {
+   "slug": "lawnchairlauncher/lawnchair",
+   "http": 200,
+   "stars": 13812,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "mm2-0/kvaesitso": {
+   "slug": "mm2-0/kvaesitso",
+   "http": 200,
+   "stars": 5324,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "fcitx5-android/fcitx5-android": {
+   "slug": "fcitx5-android/fcitx5-android",
+   "http": 200,
+   "stars": 5809,
+   "pushed": "2026-10-13",
+   "archived": false,
+   "license": "LGPL-2.1"
+  },
+  "futo-org/android-keyboard": {
+   "slug": "futo-org/android-keyboard",
+   "http": 200,
+   "stars": 3405,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "trackercontrol/tracker-control-android": {
+   "slug": "trackercontrol/tracker-control-android",
+   "http": 200,
+   "stars": 2703,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ukanth/afwall": {
+   "slug": "ukanth/afwall",
+   "http": 200,
+   "stars": 3512,
+   "pushed": "2026-10-17",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "simplemobiletools/simple-file-manager": {
+   "slug": "simplemobiletools/simple-file-manager",
+   "http": 200,
+   "stars": 1584,
+   "pushed": "2024-06-11",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "fossifyorg/file-manager": {
+   "slug": "fossifyorg/file-manager",
+   "http": 200,
+   "stars": 1844,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "iamr0s/dhizuku": {
+   "slug": "iamr0s/dhizuku",
+   "http": 200,
+   "stars": 4049,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "vr-25/acc": {
+   "slug": "vr-25/acc",
+   "http": 200,
+   "stars": 2431,
+   "pushed": "2025-06-06",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "hamza417/inure": {
+   "slug": "hamza417/inure",
+   "http": 200,
+   "stars": 1980,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "whyorean/aurorastore": {
+   "slug": "whyorean/aurorastore",
+   "http": 200,
+   "stars": 3198,
+   "pushed": "2026-10-02",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "seedvault-app/seedvault": {
+   "slug": "seedvault-app/seedvault",
+   "http": 200,
+   "stars": 1877,
+   "pushed": "2026-10-16",
+   "archived": false,
+   "license": null
+  },
+  "neoapplications/neo-backup": {
+   "slug": "neoapplications/neo-backup",
+   "http": 200,
+   "stars": 3880,
+   "pushed": "2026-10-17",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "you-apps/connectyou": {
+   "slug": "you-apps/connectyou",
+   "http": 200,
+   "stars": 729,
+   "pushed": "2026-07-30",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "quik-sms/quik": {
+   "slug": "quik-sms/quik",
+   "http": 200,
+   "stars": 2875,
+   "pushed": "2026-09-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "helloworld1/freeotpplus": {
+   "slug": "helloworld1/freeotpplus",
+   "http": 200,
+   "stars": 749,
+   "pushed": "2026-08-24",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "chooloo/koler": {
+   "slug": "chooloo/koler",
+   "http": 200,
+   "stars": 1069,
+   "pushed": "2024-12-27",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "fossifyorg/phone": {
+   "slug": "fossifyorg/phone",
+   "http": 200,
+   "stars": 1392,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ironfox-oss/ironfox": {
+   "slug": "ironfox-oss/ironfox",
+   "http": 200,
+   "stars": 1087,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "uazo/cromite": {
+   "slug": "uazo/cromite",
+   "http": 200,
+   "stars": 8449,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "celzero/rethink-app": {
+   "slug": "celzero/rethink-app",
+   "http": 200,
+   "stars": 5808,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "serverless-dns/serverless-dns": {
+   "slug": "serverless-dns/serverless-dns",
+   "http": 200,
+   "stars": 3832,
+   "pushed": "2026-05-06",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "wireguard/wireguard-android": {
+   "slug": "wireguard/wireguard-android",
+   "http": 200,
+   "stars": 1656,
+   "pushed": "2026-06-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "cloudflare/boringtun": {
+   "slug": "cloudflare/boringtun",
+   "http": 200,
+   "stars": 7237,
+   "pushed": "2026-06-29",
+   "archived": false,
+   "license": "BSD-3-Clause"
+  },
+  "tailscale/tailscale-android": {
+   "slug": "tailscale/tailscale-android",
+   "http": 200,
+   "stars": 2754,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "BSD-3-Clause"
+  },
+  "tailscale/tailscale": {
+   "slug": "tailscale/tailscale",
+   "http": 200,
+   "stars": 38297,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "BSD-3-Clause"
+  },
+  "signalapp/signal-android": {
+   "slug": "signalapp/signal-android",
+   "http": 200,
+   "stars": 29555,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "signalapp/libsignal": {
+   "slug": "signalapp/libsignal",
+   "http": 200,
+   "stars": 6097,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "signalapp/signal-server": {
+   "slug": "signalapp/signal-server",
+   "http": 200,
+   "stars": 10757,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "simplex-chat/simplex-chat": {
+   "slug": "simplex-chat/simplex-chat",
+   "http": 200,
+   "stars": 19613,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "openwrt/luci": {
+   "slug": "openwrt/luci",
+   "http": 200,
+   "stars": 7939,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "openwrt/packages": {
+   "slug": "openwrt/packages",
+   "http": 200,
+   "stars": 4660,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "vremsoftwaredevelopment/wifianalyzer": {
+   "slug": "vremsoftwaredevelopment/wifianalyzer",
+   "http": 200,
+   "stars": 5049,
+   "pushed": "2026-10-03",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "proninyaroslav/libretorrent": {
+   "slug": "proninyaroslav/libretorrent",
+   "http": 200,
+   "stars": 4009,
+   "pushed": "2026-07-24",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "nextcloud/all-in-one": {
+   "slug": "nextcloud/all-in-one",
+   "http": 200,
+   "stars": 10750,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "nextcloud/docker": {
+   "slug": "nextcloud/docker",
+   "http": 200,
+   "stars": 7417,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "jellyfin/jellyfin-androidtv": {
+   "slug": "jellyfin/jellyfin-androidtv",
+   "http": 200,
+   "stars": 4673,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "adguardteam/adguardhome": {
+   "slug": "adguardteam/adguardhome",
+   "http": 200,
+   "stars": 37834,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "juanfont/headscale": {
+   "slug": "juanfont/headscale",
+   "http": 200,
+   "stars": 45172,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "BSD-3-Clause"
+  },
+  "paperless-ngx/paperless-ngx": {
+   "slug": "paperless-ngx/paperless-ngx",
+   "http": 200,
+   "stars": 47299,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "louislam/uptime-kuma": {
+   "slug": "louislam/uptime-kuma",
+   "http": 200,
+   "stars": 93060,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "gethomepage/homepage": {
+   "slug": "gethomepage/homepage",
+   "http": 200,
+   "stars": 33435,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ggml-org/llama.cpp": {
+   "slug": "ggml-org/llama.cpp",
+   "http": 200,
+   "stars": 132759,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "openinterpreter/open-interpreter": {
+   "slug": "openinterpreter/open-interpreter",
+   "http": 200,
+   "stars": 68722,
+   "pushed": "2026-10-11",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "openinterpreter/openinterpreter": {
+   "slug": "openinterpreter/openinterpreter",
+   "http": 200,
+   "stars": 68722,
+   "pushed": "2026-10-11",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "termux/termux-packages": {
+   "slug": "termux/termux-packages",
+   "http": 200,
+   "stars": 17258,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "huggingface/transformers": {
+   "slug": "huggingface/transformers",
+   "http": 200,
+   "stars": 168337,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "unslothai/unsloth": {
+   "slug": "unslothai/unsloth",
+   "http": 200,
+   "stars": 78751,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "mintplex-labs/anything-llm": {
+   "slug": "mintplex-labs/anything-llm",
+   "http": 200,
+   "stars": 67707,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "MIT"
+  },
+  "libretro/retroarch": {
+   "slug": "libretro/retroarch",
+   "http": 200,
+   "stars": 14474,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "dolphin-emu/dolphin": {
+   "slug": "dolphin-emu/dolphin",
+   "http": 200,
+   "stars": 15741,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "hrydgard/ppsspp": {
+   "slug": "hrydgard/ppsspp",
+   "http": 200,
+   "stars": 14783,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "stenzek/duckstation": {
+   "slug": "stenzek/duckstation",
+   "http": 200,
+   "stars": 10914,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "mgba-emu/mgba": {
+   "slug": "mgba-emu/mgba",
+   "http": 200,
+   "stars": 7539,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "melonds-emu/melonds": {
+   "slug": "melonds-emu/melonds",
+   "http": 200,
+   "stars": 5167,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "scummvm/scummvm": {
+   "slug": "scummvm/scummvm",
+   "http": 200,
+   "stars": 2870,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "dosbox-staging/dosbox-staging": {
+   "slug": "dosbox-staging/dosbox-staging",
+   "http": 200,
+   "stars": 1832,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "noirero/miyorare-source-packs": {
+   "slug": "noirero/miyorare-source-packs",
+   "http": 200,
+   "stars": 3,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "usuario/repositorio": {
+   "slug": "usuario/repositorio",
+   "http": "marcador"
+  },
+  "snake-4/zygisk-assistant": {
+   "slug": "snake-4/zygisk-assistant",
+   "http": 200,
+   "stars": 2661,
+   "pushed": "2026-05-04",
+   "archived": false,
+   "license": "MIT"
+  },
+  "awesome-android-root/awesome-android-root": {
+   "slug": "awesome-android-root/awesome-android-root",
+   "http": 200,
+   "stars": 5565,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "MIT"
+  },
+  "performanc/rezygisk": {
+   "slug": "performanc/rezygisk",
+   "http": 200,
+   "stars": 4099,
+   "pushed": "2026-10-11",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "yuzono/kohi-den": {
+   "slug": "yuzono/kohi-den",
+   "http": 200,
+   "stars": 3,
+   "pushed": "2026-05-12",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "yuzono/tachiyomi-extensions": {
+   "slug": "yuzono/tachiyomi-extensions",
+   "http": 200,
+   "stars": 947,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "stevenyomi/copymanga": {
+   "slug": "stevenyomi/copymanga",
+   "http": 200,
+   "stars": 1915,
+   "pushed": "2024-02-18",
+   "archived": true,
+   "license": null
+  },
+  "tachiyomiorg/extensions": {
+   "slug": "tachiyomiorg/extensions",
+   "http": 200,
+   "stars": 553,
+   "pushed": "2024-01-08",
+   "archived": true,
+   "license": "Apache-2.0"
+  },
+  "aniyomiorg/aniyomi-preview": {
+   "slug": "aniyomiorg/aniyomi-preview",
+   "http": 200,
+   "stars": 644,
+   "pushed": "2026-09-14",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "rebelonion/dantotsu": {
+   "slug": "rebelonion/dantotsu",
+   "http": 451
+  },
+  "jays2kings/tachiyomij2k": {
+   "slug": "jays2kings/tachiyomij2k",
+   "http": 200,
+   "stars": 5399,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "appfuton/futon-parsers": {
+   "slug": "appfuton/futon-parsers",
+   "http": 200,
+   "stars": 5,
+   "pushed": "2026-03-26",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "mostafaalagamy/metrolist": {
+   "slug": "mostafaalagamy/metrolist",
+   "http": 200,
+   "stars": 13882,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "danielsevillano/music-you": {
+   "slug": "danielsevillano/music-you",
+   "http": 200,
+   "stars": 224,
+   "pushed": "2026-10-17",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "itzskyeyt/intertune": {
+   "slug": "itzskyeyt/intertune",
+   "http": 200,
+   "stars": 79,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "vfsfitvnm/vimusic": {
+   "slug": "vfsfitvnm/vimusic",
+   "http": 200,
+   "stars": 9467,
+   "pushed": "2024-07-15",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "fast4x/rimusic": {
+   "slug": "fast4x/rimusic",
+   "http": 200,
+   "stars": 3898,
+   "pushed": "2025-07-30",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "guardianproject/orbot": {
+   "slug": "guardianproject/orbot",
+   "http": 200,
+   "stars": 3659,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "fossifyorg/calendar": {
+   "slug": "fossifyorg/calendar",
+   "http": 200,
+   "stars": 2255,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mankidev/orvid": {
+   "slug": "mankidev/orvid",
+   "http": 200,
+   "stars": 9,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mankidev/orvid-sources": {
+   "slug": "mankidev/orvid-sources",
+   "http": 200,
+   "stars": 1,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "salmanbappi/anizen": {
+   "slug": "salmanbappi/anizen",
+   "http": 200,
+   "stars": 200,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "salmanbappi/anizen-preview": {
+   "slug": "salmanbappi/anizen-preview",
+   "http": 200,
+   "stars": 9,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": null
+  },
+  "gaijin81/anizen": {
+   "slug": "gaijin81/anizen",
+   "http": 404
+  },
+  "predidit/kazumi": {
+   "slug": "predidit/kazumi",
+   "http": 200,
+   "stars": 40096,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "rustdesk/rustdesk": {
+   "slug": "rustdesk/rustdesk",
+   "http": 200,
+   "stars": 127480,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "openhub-store/github-store": {
+   "slug": "openhub-store/github-store",
+   "http": 200,
+   "stars": 20088,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "diogorainhalopes/atahon": {
+   "slug": "diogorainhalopes/atahon",
+   "http": 200,
+   "stars": 18,
+   "pushed": "2026-05-24",
+   "archived": false,
+   "license": null
+  },
+  "yairm210/unciv": {
+   "slug": "yairm210/unciv",
+   "http": 200,
+   "stars": 11498,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "metacubex/clashmetaforandroid": {
+   "slug": "metacubex/clashmetaforandroid",
+   "http": 200,
+   "stars": 48597,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "deniscerri/ytdlnis": {
+   "slug": "deniscerri/ytdlnis",
+   "http": 200,
+   "stars": 10841,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "junkfood02/seal": {
+   "slug": "junkfood02/seal",
+   "http": 200,
+   "stars": 30151,
+   "pushed": "2026-09-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "huzaifakhalid1311/dropsauce": {
+   "slug": "huzaifakhalid1311/dropsauce",
+   "http": 200,
+   "stars": 214,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "sohilsayed/chimahon": {
+   "slug": "sohilsayed/chimahon",
+   "http": 200,
+   "stars": 237,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "glitch-228/kaisoku": {
+   "slug": "glitch-228/kaisoku",
+   "http": 200,
+   "stars": 54,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "tachibana-shin/rakuyomi": {
+   "slug": "tachibana-shin/rakuyomi",
+   "http": 200,
+   "stars": 651,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "ciromattia/kcc": {
+   "slug": "ciromattia/kcc",
+   "http": 200,
+   "stars": 5927,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "ISC"
+  },
+  "utazukin/ichaival": {
+   "slug": "utazukin/ichaival",
+   "http": 200,
+   "stars": 220,
+   "pushed": "2026-08-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "fmhy/fmhy": {
+   "slug": "fmhy/fmhy",
+   "http": 200,
+   "stars": 15321,
+   "pushed": "2026-05-13",
+   "archived": false,
+   "license": null
+  },
+  "akitaonrails/frankyomik": {
+   "slug": "akitaonrails/frankyomik",
+   "http": 200,
+   "stars": 214,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "dazedcat19/fmd2": {
+   "slug": "dazedcat19/fmd2",
+   "http": 200,
+   "stars": 1170,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "xiaoyouchr/ghost-downloader-3": {
+   "slug": "xiaoyouchr/ghost-downloader-3",
+   "http": 200,
+   "stars": 10500,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "agalwood/motrix": {
+   "slug": "agalwood/motrix",
+   "http": 200,
+   "stars": 57545,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "jman-github/universal-patch-manager": {
+   "slug": "jman-github/universal-patch-manager",
+   "http": 200,
+   "stars": 1390,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "revanced/revanced-manager": {
+   "slug": "revanced/revanced-manager",
+   "http": 200,
+   "stars": 29997,
+   "pushed": "2026-07-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "rushiranpise/lsposed-modules-manager": {
+   "slug": "rushiranpise/lsposed-modules-manager",
+   "http": 200,
+   "stars": 17,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "rushiranpise/xposed-modules": {
+   "slug": "rushiranpise/xposed-modules",
+   "http": 200,
+   "stars": 11,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "lsposed/lsposed": {
+   "slug": "lsposed/lsposed",
+   "http": 200,
+   "stars": 25239,
+   "pushed": "2026-10-14",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "yt-dlp/yt-dlp": {
+   "slug": "yt-dlp/yt-dlp",
+   "http": 200,
+   "stars": 203674,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Unlicense"
+  },
+  "mailo037/hamstr": {
+   "slug": "mailo037/hamstr",
+   "http": 200,
+   "stars": 1,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "sleepless-index/ribbt": {
+   "slug": "sleepless-index/ribbt",
+   "http": 200,
+   "stars": 1,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "rajnishone/linklift": {
+   "slug": "rajnishone/linklift",
+   "http": 200,
+   "stars": 11,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "MIT"
+  },
+  "ramik4/ytindir": {
+   "slug": "ramik4/ytindir",
+   "http": 200,
+   "stars": 11,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "rcrandon/gimmiedat": {
+   "slug": "rcrandon/gimmiedat",
+   "http": 200,
+   "stars": 3,
+   "pushed": "2026-10-08",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "muwmx/yumaplayer": {
+   "slug": "muwmx/yumaplayer",
+   "http": 200,
+   "stars": 1028,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mahmud0808/teledrive": {
+   "slug": "mahmud0808/teledrive",
+   "http": 200,
+   "stars": 393,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "abdurazaaqmohammed/mp-manager": {
+   "slug": "abdurazaaqmohammed/mp-manager",
+   "http": 200,
+   "stars": 450,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "cluvexstudio/strata": {
+   "slug": "cluvexstudio/strata",
+   "http": 200,
+   "stars": 137,
+   "pushed": "2026-10-16",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "animetailapp/animetail-preview": {
+   "slug": "animetailapp/animetail-preview",
+   "http": 200,
+   "stars": 81,
+   "pushed": "2026-10-15",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "zykrave/aniyomi-kuro": {
+   "slug": "zykrave/aniyomi-kuro",
+   "http": 200,
+   "stars": 25,
+   "pushed": "2026-08-13",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "funman1995/memedia": {
+   "slug": "funman1995/memedia",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-09-03",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "blackyfi/aniyomi-revived": {
+   "slug": "blackyfi/aniyomi-revived",
+   "http": 200,
+   "stars": 1,
+   "pushed": "2026-10-20",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "aniyomiorg/aniyomi-extensions": {
+   "slug": "aniyomiorg/aniyomi-extensions",
+   "http": 200,
+   "stars": 849,
+   "pushed": "2024-08-19",
+   "archived": true,
+   "license": "Apache-2.0"
+  },
+  "kohi-den/extensions-source": {
+   "slug": "kohi-den/extensions-source",
+   "http": 200,
+   "stars": 532,
+   "pushed": "2026-05-12",
+   "archived": true,
+   "license": "Apache-2.0"
+  },
+  "tadamiorg/tadami": {
+   "slug": "tadamiorg/tadami",
+   "http": 200,
+   "stars": 61,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": null
+  },
+  "pengchujin/aerial-tv": {
+   "slug": "pengchujin/aerial-tv",
+   "http": 200,
+   "stars": 7711,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "aradhyas8/plume_launcher": {
+   "slug": "aradhyas8/plume_launcher",
+   "http": 200,
+   "stars": 267,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "johnnylord1/epigraph": {
+   "slug": "johnnylord1/epigraph",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "demacish/kodex": {
+   "slug": "demacish/kodex",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "devcaspian-hash/bokumi-app": {
+   "slug": "devcaspian-hash/bokumi-app",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "quickdesh/animiru": {
+   "slug": "quickdesh/animiru",
+   "http": 200,
+   "stars": 904,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "znabil/animirutv": {
+   "slug": "znabil/animirutv",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2024-05-18",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "komikku-app/anikku-preview": {
+   "slug": "komikku-app/anikku-preview",
+   "http": 200,
+   "stars": 118,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "salmanbappi/extensions-repo": {
+   "slug": "salmanbappi/extensions-repo",
+   "http": 200,
+   "stars": 51,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "salmanbappi/aniyomi-extensions": {
+   "slug": "salmanbappi/aniyomi-extensions",
+   "http": 200,
+   "stars": 17,
+   "pushed": "2026-01-12",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "cuong-tran/tachiyomij2k": {
+   "slug": "cuong-tran/tachiyomij2k",
+   "http": 200,
+   "stars": 10,
+   "pushed": "2024-08-15",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "hayaiapp/hayai": {
+   "slug": "hayaiapp/hayai",
+   "http": 200,
+   "stars": 47,
+   "pushed": "2026-10-03",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "theordinaryguy23/tachiyomidnp": {
+   "slug": "theordinaryguy23/tachiyomidnp",
+   "http": 200,
+   "stars": 6,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "unseensnick/reikai": {
+   "slug": "unseensnick/reikai",
+   "http": 200,
+   "stars": 42,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "saud-97/tachiyomis97": {
+   "slug": "saud-97/tachiyomis97",
+   "http": 200,
+   "stars": 125,
+   "pushed": "2026-08-01",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "notblankyu/yurei": {
+   "slug": "notblankyu/yurei",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-08-21",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "kakarottocake/yokai-t": {
+   "slug": "kakarottocake/yokai-t",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-09-26",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "zykrave/nekoumy": {
+   "slug": "zykrave/nekoumy",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-09-12",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "hugofmiranda/yomu": {
+   "slug": "hugofmiranda/yomu",
+   "http": 200,
+   "stars": 5,
+   "pushed": "2026-07-30",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "hiirbaf/yokai": {
+   "slug": "hiirbaf/yokai",
+   "http": 200,
+   "stars": 3,
+   "pushed": "2026-09-13",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "komikku-app/komikku-preview": {
+   "slug": "komikku-app/komikku-preview",
+   "http": 200,
+   "stars": 256,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "pineappletwilight/houri": {
+   "slug": "pineappletwilight/houri",
+   "http": 200,
+   "stars": 39,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "smol-ame/chai": {
+   "slug": "smol-ame/chai",
+   "http": 200,
+   "stars": 13,
+   "pushed": "2026-08-22",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "jeryjs/tachiyomisy-with-discord-rpc": {
+   "slug": "jeryjs/tachiyomisy-with-discord-rpc",
+   "http": 200,
+   "stars": 9,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "viel0320/komikku_img_upscale": {
+   "slug": "viel0320/komikku_img_upscale",
+   "http": 200,
+   "stars": 8,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "nas3ts/mikku": {
+   "slug": "nas3ts/mikku",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-08-18",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "harrys-hq/shinku": {
+   "slug": "harrys-hq/shinku",
+   "http": 200,
+   "stars": 45,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "ruzhe85/mihonsy": {
+   "slug": "ruzhe85/mihonsy",
+   "http": 200,
+   "stars": 47,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "pokedo0/pokomi": {
+   "slug": "pokedo0/pokomi",
+   "http": 200,
+   "stars": 12,
+   "pushed": "2026-09-19",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "the-nexus-app/nexus": {
+   "slug": "the-nexus-app/nexus",
+   "http": 200,
+   "stars": 4,
+   "pushed": "2026-10-07",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "geograms/bchan": {
+   "slug": "geograms/bchan",
+   "http": 200,
+   "stars": 7,
+   "pushed": "2026-10-05",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "chimahon/chimahon": {
+   "slug": "chimahon/chimahon",
+   "http": 200,
+   "stars": 237,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "huangantimony/hoshi-reader-android": {
+   "slug": "huangantimony/hoshi-reader-android",
+   "http": 200,
+   "stars": 462,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "sj0404-collab/yomikai": {
+   "slug": "sj0404-collab/yomikai",
+   "http": 200,
+   "stars": 2,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "sj0404-collab/yomihon-custom": {
+   "slug": "sj0404-collab/yomihon-custom",
+   "http": 200,
+   "stars": 2,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "codegeasse1/yomi-reader": {
+   "slug": "codegeasse1/yomi-reader",
+   "http": 200,
+   "stars": 16,
+   "pushed": "2026-09-06",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "mister-album/koharia": {
+   "slug": "mister-album/koharia",
+   "http": 200,
+   "stars": 249,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "sj0404-collab/yomikai-pwa": {
+   "slug": "sj0404-collab/yomikai-pwa",
+   "http": 404
+  },
+  "yomihon/yomihon": {
+   "slug": "yomihon/yomihon",
+   "http": 200,
+   "stars": 140,
+   "pushed": "2026-10-18",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "codegeasse1/nekoread": {
+   "slug": "codegeasse1/nekoread",
+   "http": 200,
+   "stars": 10,
+   "pushed": "2026-09-29",
+   "archived": false,
+   "license": null
+  },
+  "woxakv/android-koreader-companion": {
+   "slug": "woxakv/android-koreader-companion",
+   "http": 200,
+   "stars": 11,
+   "pushed": "2026-09-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "gotson/komga": {
+   "slug": "gotson/komga",
+   "http": 200,
+   "stars": 6796,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "kareadita/kavita": {
+   "slug": "kareadita/kavita",
+   "http": 200,
+   "stars": 11969,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "warreth/openlibextended": {
+   "slug": "warreth/openlibextended",
+   "http": 200,
+   "stars": 556,
+   "pushed": "2026-10-18",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "kopuz-org/kopuz": {
+   "slug": "kopuz-org/kopuz",
+   "http": 200,
+   "stars": 1959,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "EUPL-1.2"
+  },
+  "francescograzioso/meld": {
+   "slug": "francescograzioso/meld",
+   "http": 200,
+   "stars": 1836,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "involvex/youtube-music-cli": {
+   "slug": "involvex/youtube-music-cli",
+   "http": 200,
+   "stars": 467,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "MIT"
+  },
+  "suvojeet-sengupta/suvmusic": {
+   "slug": "suvojeet-sengupta/suvmusic",
+   "http": 200,
+   "stars": 314,
+   "pushed": "2026-10-15",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "luc4n3x/levyra-deepsound": {
+   "slug": "luc4n3x/levyra-deepsound",
+   "http": 200,
+   "stars": 1620,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mrdemonc/lune": {
+   "slug": "mrdemonc/lune",
+   "http": 200,
+   "stars": 262,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "arunnechully/soundpod": {
+   "slug": "arunnechully/soundpod",
+   "http": 200,
+   "stars": 122,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "noel-digital-fan/volume_plus_plus": {
+   "slug": "noel-digital-fan/volume_plus_plus",
+   "http": 200,
+   "stars": 146,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": "MIT"
+  },
+  "teamauramusic/auramusic": {
+   "slug": "teamauramusic/auramusic",
+   "http": 200,
+   "stars": 112,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "tryptz/tryptify": {
+   "slug": "tryptz/tryptify",
+   "http": 200,
+   "stars": 96,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "lojcs/tsacdop": {
+   "slug": "lojcs/tsacdop",
+   "http": 200,
+   "stars": 52,
+   "pushed": "2026-08-24",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "d0x-dev/airbeats-desktop": {
+   "slug": "d0x-dev/airbeats-desktop",
+   "http": 200,
+   "stars": 4,
+   "pushed": "2026-10-14",
+   "archived": false,
+   "license": null
+  },
+  "ifritraen/kisara": {
+   "slug": "ifritraen/kisara",
+   "http": 200,
+   "stars": 2,
+   "pushed": "2026-10-01",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "mynamehand/tegaki": {
+   "slug": "mynamehand/tegaki",
+   "http": 200,
+   "stars": 4,
+   "pushed": "2026-10-16",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "dinkelspiel/komikku-sync": {
+   "slug": "dinkelspiel/komikku-sync",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-08-26",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "thehijacker/codexa": {
+   "slug": "thehijacker/codexa",
+   "http": 200,
+   "stars": 79,
+   "pushed": "2026-10-19",
+   "archived": false,
+   "license": null
+  },
+  "nyora-manga/nyora-android": {
+   "slug": "nyora-manga/nyora-android",
+   "http": 200,
+   "stars": 58,
+   "pushed": "2026-09-23",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "k1717/readwide": {
+   "slug": "k1717/readwide",
+   "http": 200,
+   "stars": 38,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "nubesurrealista/kumo": {
+   "slug": "nubesurrealista/kumo",
+   "http": 200,
+   "stars": 59,
+   "pushed": "2026-08-20",
+   "archived": true,
+   "license": "Apache-2.0"
+  },
+  "jonzey231/aeriotv-android": {
+   "slug": "jonzey231/aeriotv-android",
+   "http": 200,
+   "stars": 75,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ahxn00/owntv": {
+   "slug": "ahxn00/owntv",
+   "http": 200,
+   "stars": 700,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "damontecres/wholphin": {
+   "slug": "damontecres/wholphin",
+   "http": 200,
+   "stars": 3188,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "mangeshghodke/dreamplayer": {
+   "slug": "mangeshghodke/dreamplayer",
+   "http": 200,
+   "stars": 72,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "fellipitopv/nekovideo": {
+   "slug": "fellipitopv/nekovideo",
+   "http": 200,
+   "stars": 70,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "varunsalian/debrify": {
+   "slug": "varunsalian/debrify",
+   "http": 200,
+   "stars": 631,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "luqmanfadlli/nuviomobile-enhanced": {
+   "slug": "luqmanfadlli/nuviomobile-enhanced",
+   "http": 200,
+   "stars": 699,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "solo-arc/animebox": {
+   "slug": "solo-arc/animebox",
+   "http": 200,
+   "stars": 28,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mjlanddev/corncastle-anime-app": {
+   "slug": "mjlanddev/corncastle-anime-app",
+   "http": 200,
+   "stars": 79,
+   "pushed": "2026-08-22",
+   "archived": true,
+   "license": null
+  },
+  "thejaustin/shizukuplus": {
+   "slug": "thejaustin/shizukuplus",
+   "http": 200,
+   "stars": 1613,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "dp-hridayan/ashellyou": {
+   "slug": "dp-hridayan/ashellyou",
+   "http": 200,
+   "stars": 2537,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ahmed-alnassif/androsh": {
+   "slug": "ahmed-alnassif/androsh",
+   "http": 200,
+   "stars": 273,
+   "pushed": "2026-10-08",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "dedeadend/killmyapps": {
+   "slug": "dedeadend/killmyapps",
+   "http": 200,
+   "stars": 128,
+   "pushed": "2026-09-15",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "arora-sir/darq-reborn": {
+   "slug": "arora-sir/darq-reborn",
+   "http": 200,
+   "stars": 125,
+   "pushed": "2026-10-19",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "shynoiddev/firewall-blocks": {
+   "slug": "shynoiddev/firewall-blocks",
+   "http": 200,
+   "stars": 232,
+   "pushed": "2026-07-09",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "linksheet/linksheet": {
+   "slug": "linksheet/linksheet",
+   "http": 200,
+   "stars": 2158,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "local1stdotapp/xfiles": {
+   "slug": "local1stdotapp/xfiles",
+   "http": 200,
+   "stars": 67,
+   "pushed": "2026-10-01",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "xtra-manager-software/xarchiver": {
+   "slug": "xtra-manager-software/xarchiver",
+   "http": 200,
+   "stars": 15,
+   "pushed": "2026-10-04",
+   "archived": false,
+   "license": "MIT"
+  },
+  "trinadhthatakula/thor": {
+   "slug": "trinadhthatakula/thor",
+   "http": 200,
+   "stars": 632,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "naryuki/dextop": {
+   "slug": "naryuki/dextop",
+   "http": 200,
+   "stars": 1056,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "sameerasw/essentials": {
+   "slug": "sameerasw/essentials",
+   "http": 200,
+   "stars": 3453,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "resilien-mobile/rootlessstore": {
+   "slug": "resilien-mobile/rootlessstore",
+   "http": 200,
+   "stars": 328,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "stem0794/harbor": {
+   "slug": "stem0794/harbor",
+   "http": 200,
+   "stars": 69,
+   "pushed": "2026-09-14",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "niki914/zafiro": {
+   "slug": "niki914/zafiro",
+   "http": 200,
+   "stars": 312,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "fahrez182/axmanager": {
+   "slug": "fahrez182/axmanager",
+   "http": 200,
+   "stars": 1528,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "bufanchen121101/axmanagerd": {
+   "slug": "bufanchen121101/axmanagerd",
+   "http": 200,
+   "stars": 52,
+   "pushed": "2026-10-10",
+   "archived": false,
+   "license": null
+  },
+  "yyj5201314whj/axmanager-pro": {
+   "slug": "yyj5201314whj/axmanager-pro",
+   "http": 200,
+   "stars": 4,
+   "pushed": "2026-09-01",
+   "archived": false,
+   "license": null
+  },
+  "corvexis/axora": {
+   "slug": "corvexis/axora",
+   "http": 200,
+   "stars": 18,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "opencloud-eu/opencloud": {
+   "slug": "opencloud-eu/opencloud",
+   "http": 200,
+   "stars": 6251,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "plainhub/plain-app": {
+   "slug": "plainhub/plain-app",
+   "http": 200,
+   "stars": 7100,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "moonfin-client/moonfin-core": {
+   "slug": "moonfin-client/moonfin-core",
+   "http": 200,
+   "stars": 914,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "pelagicaapp/pelagica": {
+   "slug": "pelagicaapp/pelagica",
+   "http": 200,
+   "stars": 384,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "damontecres/jellyfin-plugin-wholphin": {
+   "slug": "damontecres/jellyfin-plugin-wholphin",
+   "http": 200,
+   "stars": 26,
+   "pushed": "2026-10-12",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "parsonlabs/parson": {
+   "slug": "parsonlabs/parson",
+   "http": 200,
+   "stars": 135,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "winters27/octo": {
+   "slug": "winters27/octo",
+   "http": 200,
+   "stars": 131,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "cluvexstudio/aether": {
+   "slug": "cluvexstudio/aether",
+   "http": 200,
+   "stars": 2370,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "iptv-org/iptv": {
+   "slug": "iptv-org/iptv",
+   "http": 200,
+   "stars": 142712,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Unlicense"
+  },
+  "nayjest/gito": {
+   "slug": "nayjest/gito",
+   "http": 200,
+   "stars": 456,
+   "pushed": "2026-10-01",
+   "archived": false,
+   "license": "MIT"
+  },
+  "nexu-io/open-design": {
+   "slug": "nexu-io/open-design",
+   "http": 200,
+   "stars": 104841,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "awerkori/extensoes": {
+   "slug": "awerkori/extensoes",
+   "http": 200,
+   "stars": 4,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "openanimeflow/animeflow": {
+   "slug": "openanimeflow/animeflow",
+   "http": 200,
+   "stars": 315,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "barbosaglibby41-sys/suicang-eh": {
+   "slug": "barbosaglibby41-sys/suicang-eh",
+   "http": 200,
+   "stars": 1,
+   "pushed": "2026-08-22",
+   "archived": false,
+   "license": null
+  },
+  "weekanya/booru": {
+   "slug": "weekanya/booru",
+   "http": 200,
+   "stars": 20,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "qingzhuo-cn/boorunova": {
+   "slug": "qingzhuo-cn/boorunova",
+   "http": 200,
+   "stars": 6,
+   "pushed": "2026-10-10",
+   "archived": false,
+   "license": "MIT"
+  },
+  "alienware377/rootlessjamesdsp-viper4android-edition": {
+   "slug": "alienware377/rootlessjamesdsp-viper4android-edition",
+   "http": 200,
+   "stars": 102,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "meshtastic/meshtastic-android": {
+   "slug": "meshtastic/meshtastic-android",
+   "http": 200,
+   "stars": 1895,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "fullm3t41/syncdroid-mesh": {
+   "slug": "fullm3t41/syncdroid-mesh",
+   "http": 200,
+   "stars": 1,
+   "pushed": "2026-10-06",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "jingmatrix/vector": {
+   "slug": "jingmatrix/vector",
+   "http": 200,
+   "stars": 12966,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "soul-99/su_imd": {
+   "slug": "soul-99/su_imd",
+   "http": 200,
+   "stars": 507,
+   "pushed": "2026-10-08",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "hmndev-tech/shevery": {
+   "slug": "hmndev-tech/shevery",
+   "http": 200,
+   "stars": 1523,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "nikhilkain/vyxel-apps": {
+   "slug": "nikhilkain/vyxel-apps",
+   "http": 200,
+   "stars": 952,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "winhub-emu/winhub": {
+   "slug": "winhub-emu/winhub",
+   "http": 200,
+   "stars": 440,
+   "pushed": "2026-10-06",
+   "archived": false,
+   "license": "MIT"
+  },
+  "manuelsiuro/gzdoom-android-2026": {
+   "slug": "manuelsiuro/gzdoom-android-2026",
+   "http": 200,
+   "stars": 35,
+   "pushed": "2026-06-30",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "android/nowinandroid": {
+   "slug": "android/nowinandroid",
+   "http": 200,
+   "stars": 21981,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "openflocon/flocon": {
+   "slug": "openflocon/flocon",
+   "http": 200,
+   "stars": 378,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "wizdom13/wizestream": {
+   "slug": "wizdom13/wizestream",
+   "http": 200,
+   "stars": 377,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "josprox/estrella-music": {
+   "slug": "josprox/estrella-music",
+   "http": 200,
+   "stars": 47,
+   "pushed": "2026-10-11",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "956tris/metrofuse": {
+   "slug": "956tris/metrofuse",
+   "http": 200,
+   "stars": 185,
+   "pushed": "2026-10-18",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "fhox006/iride": {
+   "slug": "fhox006/iride",
+   "http": 200,
+   "stars": 17,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "bobbyesp/metrolist": {
+   "slug": "bobbyesp/metrolist",
+   "http": 200,
+   "stars": 5,
+   "pushed": "2025-05-15",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "rikkaapps/sui": {
+   "slug": "rikkaapps/sui",
+   "http": 200,
+   "stars": 4336,
+   "pushed": "2024-08-12",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "aistra0528/hail": {
+   "slug": "aistra0528/hail",
+   "http": 200,
+   "stars": 7036,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "aefyr/sai": {
+   "slug": "aefyr/sai",
+   "http": 200,
+   "stars": 3951,
+   "pushed": "2024-06-03",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "wxxsfxyzm/installerx-revived": {
+   "slug": "wxxsfxyzm/installerx-revived",
+   "http": 200,
+   "stars": 7218,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "zacharee/installwithoptions": {
+   "slug": "zacharee/installwithoptions",
+   "http": 200,
+   "stars": 3384,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "MIT"
+  },
+  "genymobile/scrcpy": {
+   "slug": "genymobile/scrcpy",
+   "http": 200,
+   "stars": 153488,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "accrescent/accrescent": {
+   "slug": "accrescent/accrescent",
+   "http": 200,
+   "stars": 2305,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "rainxchzed/github-store": {
+   "slug": "rainxchzed/github-store",
+   "http": 200,
+   "stars": 20088,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "legendsayantan/shizutools": {
+   "slug": "legendsayantan/shizutools",
+   "http": 200,
+   "stars": 2631,
+   "pushed": "2026-09-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "bugestudioteam/buge-app-manager": {
+   "slug": "bugestudioteam/buge-app-manager",
+   "http": 200,
+   "stars": 309,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "risuncode/appcontrol-x": {
+   "slug": "risuncode/appcontrol-x",
+   "http": 404
+  },
+  "bintianqi/owndroid": {
+   "slug": "bintianqi/owndroid",
+   "http": 200,
+   "stars": 1442,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "samolego/canta": {
+   "slug": "samolego/canta",
+   "http": 200,
+   "stars": 6350,
+   "pushed": "2026-10-13",
+   "archived": false,
+   "license": "LGPL-3.0"
+  },
+  "oasisfeng/island": {
+   "slug": "oasisfeng/island",
+   "http": 200,
+   "stars": 3988,
+   "pushed": "2025-04-24",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "petercxy/shelter": {
+   "slug": "petercxy/shelter",
+   "http": 200,
+   "stars": 3679,
+   "pushed": "2026-09-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "freezeyou/freezeyou": {
+   "slug": "freezeyou/freezeyou",
+   "http": 200,
+   "stars": 273,
+   "pushed": "2026-10-03",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "0x192/universal-android-debloater": {
+   "slug": "0x192/universal-android-debloater",
+   "http": 200,
+   "stars": 20285,
+   "pushed": "2024-08-02",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "d4rken-org/sdmaid-se": {
+   "slug": "d4rken-org/sdmaid-se",
+   "http": 200,
+   "stars": 7918,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "keymapperorg/keymapper": {
+   "slug": "keymapperorg/keymapper",
+   "http": 200,
+   "stars": 2782,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "neoapplications/neo-launcher": {
+   "slug": "neoapplications/neo-launcher",
+   "http": 200,
+   "stars": 2151,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "muzei/muzei": {
+   "slug": "muzei/muzei",
+   "http": 200,
+   "stars": 4954,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "you-apps/wallyou": {
+   "slug": "you-apps/wallyou",
+   "http": 200,
+   "stars": 1439,
+   "pushed": "2026-10-07",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "openboard-team/openboard": {
+   "slug": "openboard-team/openboard",
+   "http": 200,
+   "stars": 2754,
+   "pushed": "2024-05-16",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "heliborg/heliboard": {
+   "slug": "heliborg/heliboard",
+   "http": 200,
+   "stars": 6439,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mahmud0808/colorblendr": {
+   "slug": "mahmud0808/colorblendr",
+   "http": 200,
+   "stars": 2568,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "kieronquinn/smartspacer": {
+   "slug": "kieronquinn/smartspacer",
+   "http": 200,
+   "stars": 3577,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "kieronquinn/taptap": {
+   "slug": "kieronquinn/taptap",
+   "http": 200,
+   "stars": 4059,
+   "pushed": "2024-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "kieronquinn/ambientmusicmod": {
+   "slug": "kieronquinn/ambientmusicmod",
+   "http": 200,
+   "stars": 2524,
+   "pushed": "2024-09-07",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mahmutaunal/adaptive-hz": {
+   "slug": "mahmutaunal/adaptive-hz",
+   "http": 200,
+   "stars": 95,
+   "pushed": "2026-09-14",
+   "archived": false,
+   "license": "MIT"
+  },
+  "c10udburst/grayscaler": {
+   "slug": "c10udburst/grayscaler",
+   "http": 200,
+   "stars": 168,
+   "pushed": "2025-02-18",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "eiyooooo/fold_switcher": {
+   "slug": "eiyooooo/fold_switcher",
+   "http": 200,
+   "stars": 121,
+   "pushed": "2025-06-10",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "agupta07505/smartisland": {
+   "slug": "agupta07505/smartisland",
+   "http": 200,
+   "stars": 346,
+   "pushed": "2026-10-19",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "akylas/enforcedoze": {
+   "slug": "akylas/enforcedoze",
+   "http": 200,
+   "stars": 366,
+   "pushed": "2026-07-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "adil192/no_more_background": {
+   "slug": "adil192/no_more_background",
+   "http": 200,
+   "stars": 383,
+   "pushed": "2026-10-01",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "xitee1/sleep-timer": {
+   "slug": "xitee1/sleep-timer",
+   "http": 200,
+   "stars": 67,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mlm-games/batstats": {
+   "slug": "mlm-games/batstats",
+   "http": 200,
+   "stars": 233,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "daisukikaffuchino/rebootnya": {
+   "slug": "daisukikaffuchino/rebootnya",
+   "http": 200,
+   "stars": 288,
+   "pushed": "2026-08-20",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "axel358/smartdock": {
+   "slug": "axel358/smartdock",
+   "http": 200,
+   "stars": 1457,
+   "pushed": "2026-05-21",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "hamza417/peristyle": {
+   "slug": "hamza417/peristyle",
+   "http": 200,
+   "stars": 740,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "k3v1991/adb-and-fastbootplusplus": {
+   "slug": "k3v1991/adb-and-fastbootplusplus",
+   "http": 200,
+   "stars": 765,
+   "pushed": "2026-10-20",
+   "archived": false,
+   "license": null
+  },
+  "badabing2005/pixelflasher": {
+   "slug": "badabing2005/pixelflasher",
+   "http": 200,
+   "stars": 2340,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "teamwin/android_bootable_recovery": {
+   "slug": "teamwin/android_bootable_recovery",
+   "http": 200,
+   "stars": 1722,
+   "pushed": "2026-08-24",
+   "archived": false,
+   "license": null
+  },
+  "emanuele-f/pcapdroid": {
+   "slug": "emanuele-f/pcapdroid",
+   "http": 200,
+   "stars": 5009,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "tobi823/ffupdater": {
+   "slug": "tobi823/ffupdater",
+   "http": 200,
+   "stars": 1106,
+   "pushed": "2026-06-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "dupdatesystem/upgradeall": {
+   "slug": "dupdatesystem/upgradeall",
+   "http": 200,
+   "stars": 1359,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "androidacy/magiskmodulemanager": {
+   "slug": "androidacy/magiskmodulemanager",
+   "http": 200,
+   "stars": 1241,
+   "pushed": "2026-04-09",
+   "archived": false,
+   "license": "LGPL-3.0"
+  },
+  "yshalsager/shizukushortcuts": {
+   "slug": "yshalsager/shizukushortcuts",
+   "http": 200,
+   "stars": 77,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "zhanghai/materialfiles": {
+   "slug": "zhanghai/materialfiles",
+   "http": 200,
+   "stars": 9343,
+   "pushed": "2026-10-15",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "l930203811/zenfile": {
+   "slug": "l930203811/zenfile",
+   "http": 200,
+   "stars": 193,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "schnitzel5/apkbridge": {
+   "slug": "schnitzel5/apkbridge",
+   "http": 200,
+   "stars": 36,
+   "pushed": "2026-02-11",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "rednaga/axmlprinter": {
+   "slug": "rednaga/axmlprinter",
+   "http": 200,
+   "stars": 262,
+   "pushed": "2026-03-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "marcosdiez/shareviahttp": {
+   "slug": "marcosdiez/shareviahttp",
+   "http": 200,
+   "stars": 201,
+   "pushed": "2026-08-30",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "openminis/openminis": {
+   "slug": "openminis/openminis",
+   "http": 200,
+   "stars": 5596,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ankurces/project_mythara": {
+   "slug": "ankurces/project_mythara",
+   "http": 200,
+   "stars": 94,
+   "pushed": "2026-09-28",
+   "archived": true,
+   "license": null
+  },
+  "nullbytepl/carriervanityname": {
+   "slug": "nullbytepl/carriervanityname",
+   "http": 200,
+   "stars": 696,
+   "pushed": "2024-02-10",
+   "archived": false,
+   "license": null
+  },
+  "glassontin/haven": {
+   "slug": "glassontin/haven",
+   "http": 200,
+   "stars": 1386,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "mryouki/youkidex-android-desktop": {
+   "slug": "mryouki/youkidex-android-desktop",
+   "http": 200,
+   "stars": 606,
+   "pushed": "2026-09-15",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "rushiranpise/shizuku-modules": {
+   "slug": "rushiranpise/shizuku-modules",
+   "http": 200,
+   "stars": 86,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "senzme/nfile": {
+   "slug": "senzme/nfile",
+   "http": 200,
+   "stars": 437,
+   "pushed": "2026-08-11",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "etashtyagi/selflock": {
+   "slug": "etashtyagi/selflock",
+   "http": 200,
+   "stars": 7,
+   "pushed": "2026-07-18",
+   "archived": false,
+   "license": "MIT"
+  },
+  "vegabobo/language-selector": {
+   "slug": "vegabobo/language-selector",
+   "http": 200,
+   "stars": 785,
+   "pushed": "2024-12-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "preethamkmr3/widgetspro": {
+   "slug": "preethamkmr3/widgetspro",
+   "http": 200,
+   "stars": 171,
+   "pushed": "2026-01-20",
+   "archived": false,
+   "license": null
+  },
+  "imtiaz-official/smart-edge": {
+   "slug": "imtiaz-official/smart-edge",
+   "http": 200,
+   "stars": 442,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "MIT"
+  },
+  "exiarepairii/deskcontrol": {
+   "slug": "exiarepairii/deskcontrol",
+   "http": 200,
+   "stars": 67,
+   "pushed": "2026-09-20",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "eyalm2000/adns": {
+   "slug": "eyalm2000/adns",
+   "http": 200,
+   "stars": 731,
+   "pushed": "2026-10-22",
+   "archived": false,
+   "license": "MIT"
+  },
+  "hotaro26/miko": {
+   "slug": "hotaro26/miko",
+   "http": 200,
+   "stars": 32,
+   "pushed": "2026-09-11",
+   "archived": false,
+   "license": null
+  },
+  "aidoku/aidoku": {
+   "slug": "aidoku/aidoku",
+   "http": 200,
+   "stars": 4675,
+   "pushed": "2026-10-16",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "haoweili97/mihon_img_upscale": {
+   "slug": "haoweili97/mihon_img_upscale",
+   "http": 200,
+   "stars": 242,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "kolbyml/manatan": {
+   "slug": "kolbyml/manatan",
+   "http": 200,
+   "stars": 618,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "zyddnys/manga-image-translator": {
+   "slug": "zyddnys/manga-image-translator",
+   "http": 200,
+   "stars": 10550,
+   "pushed": "2026-10-11",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "nardjes5/kumo-surreal": {
+   "slug": "nardjes5/kumo-surreal",
+   "http": 200,
+   "stars": 115,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "kovidgoyal/calibre": {
+   "slug": "kovidgoyal/calibre",
+   "http": 200,
+   "stars": 26282,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "foobnix/librerareader": {
+   "slug": "foobnix/librerareader",
+   "http": 200,
+   "stars": 4976,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "pool-of-tears/myne": {
+   "slug": "pool-of-tears/myne",
+   "http": 200,
+   "stars": 1541,
+   "pushed": "2026-09-21",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "kiwix/kiwix-android": {
+   "slug": "kiwix/kiwix-android",
+   "http": 200,
+   "stars": 1517,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "acclorite/book-story": {
+   "slug": "acclorite/book-story",
+   "http": 200,
+   "stars": 1416,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "readest/readest": {
+   "slug": "readest/readest",
+   "http": 200,
+   "stars": 25738,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "pkmetski/riffle": {
+   "slug": "pkmetski/riffle",
+   "http": 200,
+   "stars": 18,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "privacydragon/bookwyrm_android": {
+   "slug": "privacydragon/bookwyrm_android",
+   "http": 200,
+   "stars": 38,
+   "pushed": "2026-10-04",
+   "archived": false,
+   "license": "BSD-3-Clause"
+  },
+  "5rahim/seanime": {
+   "slug": "5rahim/seanime",
+   "http": 200,
+   "stars": 4285,
+   "pushed": "2026-10-14",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "kodjodevf/mangayomi": {
+   "slug": "kodjodevf/mangayomi",
+   "http": 200,
+   "stars": 4271,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "nuviomedia/nuviomobile": {
+   "slug": "nuviomedia/nuviomobile",
+   "http": 200,
+   "stars": 4278,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "dodoraapp/dodostream": {
+   "slug": "dodoraapp/dodostream",
+   "http": 200,
+   "stars": 247,
+   "pushed": "2026-09-20",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "anisurge/app": {
+   "slug": "anisurge/app",
+   "http": 200,
+   "stars": 119,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": null
+  },
+  "rockinchaos/shiru": {
+   "slug": "rockinchaos/shiru",
+   "http": 200,
+   "stars": 652,
+   "pushed": "2026-10-13",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "gent8/taison": {
+   "slug": "gent8/taison",
+   "http": 200,
+   "stars": 116,
+   "pushed": "2026-08-02",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "tsundoku-otaku/tsundoku": {
+   "slug": "tsundoku-otaku/tsundoku",
+   "http": 200,
+   "stars": 118,
+   "pushed": "2026-10-16",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "mis0suppe/mihon-ds": {
+   "slug": "mis0suppe/mihon-ds",
+   "http": 200,
+   "stars": 21,
+   "pushed": "2026-06-30",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "mannu691/tachiyomiat": {
+   "slug": "mannu691/tachiyomiat",
+   "http": 200,
+   "stars": 196,
+   "pushed": "2025-02-24",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "ero-gamer/kotatsu-next": {
+   "slug": "ero-gamer/kotatsu-next",
+   "http": 200,
+   "stars": 34,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "torro101/miyo": {
+   "slug": "torro101/miyo",
+   "http": 200,
+   "stars": 9,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "nyora-manga/nyora-mihon": {
+   "slug": "nyora-manga/nyora-mihon",
+   "http": 200,
+   "stars": 14,
+   "pushed": "2026-07-19",
+   "archived": false,
+   "license": null
+  },
+  "petalya/yomiko": {
+   "slug": "petalya/yomiko",
+   "http": 200,
+   "stars": 8,
+   "pushed": "2026-10-18",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "leassapie/houri": {
+   "slug": "leassapie/houri",
+   "http": 404
+  },
+  "suwayomi/suwayomi-server": {
+   "slug": "suwayomi/suwayomi-server",
+   "http": 200,
+   "stars": 7968,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "anxcye/anx-reader": {
+   "slug": "anxcye/anx-reader",
+   "http": 200,
+   "stars": 9093,
+   "pushed": "2026-10-17",
+   "archived": false,
+   "license": "MIT"
+  },
+  "edrlab/thorium-reader": {
+   "slug": "edrlab/thorium-reader",
+   "http": 200,
+   "stars": 2921,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "BSD-3-Clause"
+  },
+  "ollm/opencomic": {
+   "slug": "ollm/opencomic",
+   "http": 200,
+   "stars": 2022,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "yacreader/yacreader": {
+   "slug": "yacreader/yacreader",
+   "http": 200,
+   "stars": 1421,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mienaiyami/yomikiru": {
+   "slug": "mienaiyami/yomikiru",
+   "http": 200,
+   "stars": 572,
+   "pushed": "2026-10-22",
+   "archived": false,
+   "license": "MIT"
+  },
+  "koharu-rs/koharu": {
+   "slug": "koharu-rs/koharu",
+   "http": 200,
+   "stars": 6537,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "ireaderorg/ireader": {
+   "slug": "ireaderorg/ireader",
+   "http": 200,
+   "stars": 980,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "lagradost/quicknovel": {
+   "slug": "lagradost/quicknovel",
+   "http": 200,
+   "stars": 1876,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "dstark5/openlib": {
+   "slug": "dstark5/openlib",
+   "http": 200,
+   "stars": 2507,
+   "pushed": "2026-01-18",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "paperback-ios/app": {
+   "slug": "paperback-ios/app",
+   "http": 200,
+   "stars": 787,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "ayowel/fork-yomikiru": {
+   "slug": "ayowel/fork-yomikiru",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-02-11",
+   "archived": false,
+   "license": "MIT"
+  },
+  "jiangtian616/jhentai": {
+   "slug": "jiangtian616/jhentai",
+   "http": 200,
+   "stars": 5743,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "ryanyuuki/anymex": {
+   "slug": "ryanyuuki/anymex",
+   "http": 200,
+   "stars": 1275,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "MIT"
+  },
+  "supermarcus/nineanimator": {
+   "slug": "supermarcus/nineanimator",
+   "http": 200,
+   "stars": 819,
+   "pushed": "2024-11-14",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "hitarth-gg/zenshin": {
+   "slug": "hitarth-gg/zenshin",
+   "http": 200,
+   "stars": 774,
+   "pushed": "2026-05-24",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "jakepurple13/otakuworld": {
+   "slug": "jakepurple13/otakuworld",
+   "http": 200,
+   "stars": 638,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "akashdh11/skystream": {
+   "slug": "akashdh11/skystream",
+   "http": 200,
+   "stars": 663,
+   "pushed": "2026-10-17",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "imashnake0/animite": {
+   "slug": "imashnake0/animite",
+   "http": 200,
+   "stars": 523,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "frostnova721/animestream": {
+   "slug": "frostnova721/animestream",
+   "http": 200,
+   "stars": 444,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "cranci1/sora": {
+   "slug": "cranci1/sora",
+   "http": 200,
+   "stars": 427,
+   "pushed": "2026-08-20",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "roshancodespace/shonenx": {
+   "slug": "roshancodespace/shonenx",
+   "http": 200,
+   "stars": 355,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "spyou/zangetsu": {
+   "slug": "spyou/zangetsu",
+   "http": 200,
+   "stars": 454,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ayman708-ux/playtorriov3": {
+   "slug": "ayman708-ux/playtorriov3",
+   "http": 404
+  },
+  "anilabx/anilabx": {
+   "slug": "anilabx/anilabx",
+   "http": 200,
+   "stars": 286,
+   "pushed": "2026-09-02",
+   "archived": false,
+   "license": null
+  },
+  "manga-you-know/desktop": {
+   "slug": "manga-you-know/desktop",
+   "http": 200,
+   "stars": 222,
+   "pushed": "2026-09-11",
+   "archived": false,
+   "license": "MIT"
+  },
+  "th3-anime/th3-anime": {
+   "slug": "th3-anime/th3-anime",
+   "http": 200,
+   "stars": 221,
+   "pushed": "2026-07-02",
+   "archived": false,
+   "license": null
+  },
+  "stumpapp/stump": {
+   "slug": "stumpapp/stump",
+   "http": 200,
+   "stars": 2760,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "MIT"
+  },
+  "xgi/houdoku": {
+   "slug": "xgi/houdoku",
+   "http": 200,
+   "stars": 1119,
+   "pushed": "2025-01-17",
+   "archived": false,
+   "license": "MIT"
+  },
+  "maforget/comicrackce": {
+   "slug": "maforget/comicrackce",
+   "http": 200,
+   "stars": 756,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "k3vinb5/unyo": {
+   "slug": "k3vinb5/unyo",
+   "http": 200,
+   "stars": 670,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "BSD-3-Clause"
+  },
+  "sweetbbak/toru": {
+   "slug": "sweetbbak/toru",
+   "http": 200,
+   "stars": 387,
+   "pushed": "2024-10-24",
+   "archived": false,
+   "license": "MIT"
+  },
+  "moku-project/moku": {
+   "slug": "moku-project/moku",
+   "http": 200,
+   "stars": 190,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "aatricks/emaki": {
+   "slug": "aatricks/emaki",
+   "http": 200,
+   "stars": 26,
+   "pushed": "2026-09-04",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "nerdnumber9/tachiyomieh": {
+   "slug": "nerdnumber9/tachiyomieh",
+   "http": 200,
+   "stars": 343,
+   "pushed": "2022-11-05",
+   "archived": true,
+   "license": "Apache-2.0"
+  },
+  "az4521/tachiyomiaz": {
+   "slug": "az4521/tachiyomiaz",
+   "http": 200,
+   "stars": 735,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "darkdk3/koware": {
+   "slug": "darkdk3/koware",
+   "http": 200,
+   "stars": 3,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "bijimathew/dorado": {
+   "slug": "bijimathew/dorado",
+   "http": 200,
+   "stars": 1,
+   "pushed": "2026-10-12",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "yuzono/cursed-manga-repo": {
+   "slug": "yuzono/cursed-manga-repo",
+   "http": 200,
+   "stars": 174,
+   "pushed": "2026-10-12",
+   "archived": false,
+   "license": null
+  },
+  "secozzi/aniyomi-extensions": {
+   "slug": "secozzi/aniyomi-extensions",
+   "http": 200,
+   "stars": 128,
+   "pushed": "2026-09-20",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "aidoku-community/sources": {
+   "slug": "aidoku-community/sources",
+   "http": 200,
+   "stars": 608,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "inkdex/extensions": {
+   "slug": "inkdex/extensions",
+   "http": 200,
+   "stars": 32,
+   "pushed": "2026-10-19",
+   "archived": false,
+   "license": null
+  },
+  "lnreader/lnreader-plugins": {
+   "slug": "lnreader/lnreader-plugins",
+   "http": 200,
+   "stars": 364,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "dannovels/novel-extensions": {
+   "slug": "dannovels/novel-extensions",
+   "http": 200,
+   "stars": 17,
+   "pushed": "2025-01-05",
+   "archived": false,
+   "license": null
+  },
+  "gato404/kegareta-sauces": {
+   "slug": "gato404/kegareta-sauces",
+   "http": 200,
+   "stars": 14,
+   "pushed": "2025-07-22",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "moomooo95/moomooo95-extensions": {
+   "slug": "moomooo95/moomooo95-extensions",
+   "http": 200,
+   "stars": 20,
+   "pushed": "2025-05-21",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "schnitzel5/mangayomi-custom-buttons": {
+   "slug": "schnitzel5/mangayomi-custom-buttons",
+   "http": 200,
+   "stars": 6,
+   "pushed": "2025-10-05",
+   "archived": false,
+   "license": "MIT"
+  },
+  "self-similarity/megarepo": {
+   "slug": "self-similarity/megarepo",
+   "http": 200,
+   "stars": 140,
+   "pushed": "2025-10-03",
+   "archived": false,
+   "license": null
+  },
+  "novelsourcery/extensions": {
+   "slug": "novelsourcery/extensions",
+   "http": 200,
+   "stars": 20,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": null
+  },
+  "nyantv/nyantv": {
+   "slug": "nyantv/nyantv",
+   "http": 200,
+   "stars": 110,
+   "pushed": "2026-06-28",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "professordeveloper/sozo-tv": {
+   "slug": "professordeveloper/sozo-tv",
+   "http": 200,
+   "stars": 75,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": null
+  },
+  "marco-9456/anisync": {
+   "slug": "marco-9456/anisync",
+   "http": 200,
+   "stars": 158,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "e18lab/nhapp": {
+   "slug": "e18lab/nhapp",
+   "http": 200,
+   "stars": 135,
+   "pushed": "2026-08-11",
+   "archived": false,
+   "license": null
+  },
+  "serene-brew/kaizen-app": {
+   "slug": "serene-brew/kaizen-app",
+   "http": 200,
+   "stars": 60,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "professordeveloper/sozo": {
+   "slug": "professordeveloper/sozo",
+   "http": 200,
+   "stars": 100,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "seguaz/nekoyomi": {
+   "slug": "seguaz/nekoyomi",
+   "http": 200,
+   "stars": 47,
+   "pushed": "2026-09-11",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "uwumilabs/uwumi": {
+   "slug": "uwumilabs/uwumi",
+   "http": 200,
+   "stars": 28,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "richtunic/kitsu-x": {
+   "slug": "richtunic/kitsu-x",
+   "http": 200,
+   "stars": 17,
+   "pushed": "2026-10-18",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "paduu29/komastream": {
+   "slug": "paduu29/komastream",
+   "http": 200,
+   "stars": 15,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "spyou/sozo-read": {
+   "slug": "spyou/sozo-read",
+   "http": 200,
+   "stars": 30,
+   "pushed": "2026-05-29",
+   "archived": false,
+   "license": null
+  },
+  "kamiyomu/kamiyomu": {
+   "slug": "kamiyomu/kamiyomu",
+   "http": 200,
+   "stars": 150,
+   "pushed": "2026-09-20",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "dmzz-yyhyy/lightnovelreader": {
+   "slug": "dmzz-yyhyy/lightnovelreader",
+   "http": 200,
+   "stars": 2303,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "ranobe-org/ranobe": {
+   "slug": "ranobe-org/ranobe",
+   "http": 200,
+   "stars": 267,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "Unlicense"
+  },
+  "1finn2me/novery": {
+   "slug": "1finn2me/novery",
+   "http": 200,
+   "stars": 57,
+   "pushed": "2026-05-03",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "nabeelshar/webnovelreader": {
+   "slug": "nabeelshar/webnovelreader",
+   "http": 200,
+   "stars": 29,
+   "pushed": "2026-07-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "binit06/lncrawler": {
+   "slug": "binit06/lncrawler",
+   "http": 200,
+   "stars": 43,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ghotato/foxlations": {
+   "slug": "ghotato/foxlations",
+   "http": 200,
+   "stars": 20,
+   "pushed": "2026-10-11",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "kiastr/venera-ssr": {
+   "slug": "kiastr/venera-ssr",
+   "http": 200,
+   "stars": 66,
+   "pushed": "2026-08-02",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "venera-app/venera": {
+   "slug": "venera-app/venera",
+   "http": 200,
+   "stars": 11299,
+   "pushed": "2026-04-05",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "tachimanga/tachidesk-server": {
+   "slug": "tachimanga/tachidesk-server",
+   "http": 200,
+   "stars": 44,
+   "pushed": "2026-07-15",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "suwatte/suwatte": {
+   "slug": "suwatte/suwatte",
+   "http": 200,
+   "stars": 237,
+   "pushed": "2026-03-11",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "stremio/stremio-web": {
+   "slug": "stremio/stremio-web",
+   "http": 200,
+   "stars": 14936,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "shadyteal2/quicknovel-enhanced": {
+   "slug": "shadyteal2/quicknovel-enhanced",
+   "http": 200,
+   "stars": 72,
+   "pushed": "2026-07-20",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mednasserallah/tankobon": {
+   "slug": "mednasserallah/tankobon",
+   "http": 200,
+   "stars": 4,
+   "pushed": "2026-07-20",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "hayase-app/ui": {
+   "slug": "hayase-app/ui",
+   "http": 451
+  },
+  "thaunknown/miru": {
+   "slug": "thaunknown/miru",
+   "http": 451
+  },
+  "topics/manga-reader": {
+   "slug": "topics/manga-reader",
+   "http": 404
+  },
+  "ycngmn/cuxplug": {
+   "slug": "ycngmn/cuxplug",
+   "http": 404
+  },
+  "arturo254/opentune": {
+   "slug": "arturo254/opentune",
+   "http": 451
+  },
+  "brahmkshatriya/echo": {
+   "slug": "brahmkshatriya/echo",
+   "http": 200,
+   "stars": 3604,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "a-edev/flow": {
+   "slug": "a-edev/flow",
+   "http": 200,
+   "stars": 3156,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "lovegaoshi/azusa-player-mobile": {
+   "slug": "lovegaoshi/azusa-player-mobile",
+   "http": 200,
+   "stars": 1388,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "audileteam/audile": {
+   "slug": "audileteam/audile",
+   "http": 200,
+   "stars": 1380,
+   "pushed": "2026-10-19",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "kushagrasinghx/bitchord": {
+   "slug": "kushagrasinghx/bitchord",
+   "http": 200,
+   "stars": 4837,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "shub39/rush": {
+   "slug": "shub39/rush",
+   "http": 200,
+   "stars": 1044,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "grakovne/lissen-android": {
+   "slug": "grakovne/lissen-android",
+   "http": 200,
+   "stars": 749,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "leonidius20/recordingstudio": {
+   "slug": "leonidius20/recordingstudio",
+   "http": 200,
+   "stars": 174,
+   "pushed": "2026-10-02",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "23rd/scrib": {
+   "slug": "23rd/scrib",
+   "http": 200,
+   "stars": 92,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "bitplane/microphone": {
+   "slug": "bitplane/microphone",
+   "http": 200,
+   "stars": 55,
+   "pushed": "2026-01-06",
+   "archived": false,
+   "license": null
+  },
+  "diffechento/metromusic": {
+   "slug": "diffechento/metromusic",
+   "http": 200,
+   "stars": 23,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "alanhuang99/resonance": {
+   "slug": "alanhuang99/resonance",
+   "http": 200,
+   "stars": 16,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "futonapp/futon": {
+   "slug": "futonapp/futon",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2016-04-30",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "finamp-app/finamp": {
+   "slug": "finamp-app/finamp",
+   "http": 200,
+   "stars": 4405,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "jellyfin/jellyfin-android": {
+   "slug": "jellyfin/jellyfin-android",
+   "http": 200,
+   "stars": 2836,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "pixelplayerhq/pixelplayeross": {
+   "slug": "pixelplayerhq/pixelplayeross",
+   "http": 200,
+   "stars": 297,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "armanmaurya/internetradio": {
+   "slug": "armanmaurya/internetradio",
+   "http": 200,
+   "stars": 172,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "resurrectdev1/flac-r": {
+   "slug": "resurrectdev1/flac-r",
+   "http": 200,
+   "stars": 31,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "risorseartificiali/anti-vocale": {
+   "slug": "risorseartificiali/anti-vocale",
+   "http": 200,
+   "stars": 136,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "xilinjia/podcini.a": {
+   "slug": "xilinjia/podcini.a",
+   "http": 200,
+   "stars": 39,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "xilinjia/ut.urn": {
+   "slug": "xilinjia/ut.urn",
+   "http": 200,
+   "stars": 10,
+   "pushed": "2026-10-15",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "arslandaim-hub/omegaplayer": {
+   "slug": "arslandaim-hub/omegaplayer",
+   "http": 200,
+   "stars": 19,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mafik/echo": {
+   "slug": "mafik/echo",
+   "http": 200,
+   "stars": 332,
+   "pushed": "2025-06-05",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "jmshrv/finamp": {
+   "slug": "jmshrv/finamp",
+   "http": 200,
+   "stars": 4405,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "recloudstream/extensions": {
+   "slug": "recloudstream/extensions",
+   "http": 200,
+   "stars": 142,
+   "pushed": "2026-05-22",
+   "archived": false,
+   "license": null
+  },
+  "werdeil/lyrion-dashboard": {
+   "slug": "werdeil/lyrion-dashboard",
+   "http": 200,
+   "stars": 3,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "shacharharshuv/open-ear": {
+   "slug": "shacharharshuv/open-ear",
+   "http": 200,
+   "stars": 186,
+   "pushed": "2026-09-24",
+   "archived": false,
+   "license": null
+  },
+  "carry-rrk/managesensors": {
+   "slug": "carry-rrk/managesensors",
+   "http": 200,
+   "stars": 45,
+   "pushed": "2025-01-18",
+   "archived": false,
+   "license": "MIT"
+  },
+  "k3vinb5/unyo-extensions": {
+   "slug": "k3vinb5/unyo-extensions",
+   "http": 200,
+   "stars": 10,
+   "pushed": "2024-11-03",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "linzong/hostman": {
+   "slug": "linzong/hostman",
+   "http": 200,
+   "stars": 58,
+   "pushed": "2025-12-31",
+   "archived": false,
+   "license": "MIT"
+  },
+  "rewelp/hayasexshiru-extensions": {
+   "slug": "rewelp/hayasexshiru-extensions",
+   "http": 200,
+   "stars": 99,
+   "pushed": "2026-02-02",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ahmetcanarslan/shizuwall": {
+   "slug": "ahmetcanarslan/shizuwall",
+   "http": 200,
+   "stars": 2405,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "awerkori/fonte-extensoes": {
+   "slug": "awerkori/fonte-extensoes",
+   "http": 200,
+   "stars": 9,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "dragonx943/manga-repo": {
+   "slug": "dragonx943/manga-repo",
+   "http": 200,
+   "stars": 24,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "awesome-selfhosted/awesome-selfhosted": {
+   "slug": "awesome-selfhosted/awesome-selfhosted",
+   "http": 200,
+   "stars": 331717,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "etar-group/etar-calendar": {
+   "slug": "etar-group/etar-calendar",
+   "http": 200,
+   "stars": 2629,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "commons-app/apps-android-commons": {
+   "slug": "commons-app/apps-android-commons",
+   "http": 200,
+   "stars": 1191,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "sagernet/sing-box": {
+   "slug": "sagernet/sing-box",
+   "http": 200,
+   "stars": 39388,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "tadamiorg/tadami-extensions": {
+   "slug": "tadamiorg/tadami-extensions",
+   "http": 200,
+   "stars": 3,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": null
+  },
+  "aarddict/android": {
+   "slug": "aarddict/android",
+   "http": 200,
+   "stars": 88,
+   "pushed": "2015-05-09",
+   "archived": true,
+   "license": "GPL-3.0"
+  },
+  "astubenbord/paperless-mobile": {
+   "slug": "astubenbord/paperless-mobile",
+   "http": 200,
+   "stars": 1491,
+   "pushed": "2026-06-01",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mateusz-bak/openreads": {
+   "slug": "mateusz-bak/openreads",
+   "http": 200,
+   "stars": 1663,
+   "pushed": "2026-09-14",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "mshdabiola/notepad": {
+   "slug": "mshdabiola/notepad",
+   "http": 200,
+   "stars": 131,
+   "pushed": "2025-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "rektpartyaftermath/legado-booksource-collection": {
+   "slug": "rektpartyaftermath/legado-booksource-collection",
+   "http": 200,
+   "stars": 15,
+   "pushed": "2025-11-19",
+   "archived": false,
+   "license": null
+  },
+  "v4lpt/myc": {
+   "slug": "v4lpt/myc",
+   "http": 200,
+   "stars": 6,
+   "pushed": "2025-11-19",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "zwolken/light-novel-yuedu-source": {
+   "slug": "zwolken/light-novel-yuedu-source",
+   "http": 200,
+   "stars": 448,
+   "pushed": "2025-09-22",
+   "archived": false,
+   "license": "MIT"
+  },
+  "chmouel/liseur": {
+   "slug": "chmouel/liseur",
+   "http": 200,
+   "stars": 164,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "materializr-cad/materializr": {
+   "slug": "materializr-cad/materializr",
+   "http": 200,
+   "stars": 175,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "samuelclay/newsblur": {
+   "slug": "samuelclay/newsblur",
+   "http": 200,
+   "stars": 7674,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "wikimedia/apps-android-wikipedia": {
+   "slug": "wikimedia/apps-android-wikipedia",
+   "http": 200,
+   "stars": 3050,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "simonschubert/linuxcommandlibrary": {
+   "slug": "simonschubert/linuxcommandlibrary",
+   "http": 200,
+   "stars": 2086,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "bibledit/android": {
+   "slug": "bibledit/android",
+   "http": 200,
+   "stars": 4,
+   "pushed": "2026-10-01",
+   "archived": false,
+   "license": null
+  },
+  "lukeneedham/videodiary": {
+   "slug": "lukeneedham/videodiary",
+   "http": 200,
+   "stars": 14,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "nilsbraden/ttrss-reader-fork": {
+   "slug": "nilsbraden/ttrss-reader-fork",
+   "http": 200,
+   "stars": 181,
+   "pushed": "2026-08-07",
+   "archived": false,
+   "license": null
+  },
+  "plateaukao/einkbro": {
+   "slug": "plateaukao/einkbro",
+   "http": 200,
+   "stars": 2048,
+   "pushed": "2026-10-17",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "dn0ne/lotus": {
+   "slug": "dn0ne/lotus",
+   "http": 200,
+   "stars": 717,
+   "pushed": "2025-01-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "kivy-garden/zbarcam": {
+   "slug": "kivy-garden/zbarcam",
+   "http": 200,
+   "stars": 141,
+   "pushed": "2025-02-27",
+   "archived": false,
+   "license": "MIT"
+  },
+  "knkpa/knkpanime": {
+   "slug": "knkpa/knkpanime",
+   "http": 200,
+   "stars": 650,
+   "pushed": "2025-02-01",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mkulesh/onpc": {
+   "slug": "mkulesh/onpc",
+   "http": 200,
+   "stars": 168,
+   "pushed": "2026-09-11",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "newhinton/round-sync": {
+   "slug": "newhinton/round-sync",
+   "http": 200,
+   "stars": 2412,
+   "pushed": "2025-11-16",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "tuntorius/mightier_amp": {
+   "slug": "tuntorius/mightier_amp",
+   "http": 200,
+   "stars": 236,
+   "pushed": "2025-01-21",
+   "archived": false,
+   "license": "MIT"
+  },
+  "zimly/zimly-backup": {
+   "slug": "zimly/zimly-backup",
+   "http": 200,
+   "stars": 105,
+   "pushed": "2026-02-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "jpdoshi/dragon-store": {
+   "slug": "jpdoshi/dragon-store",
+   "http": 404
+  },
+  "bikram-agarwal/filepipe": {
+   "slug": "bikram-agarwal/filepipe",
+   "http": 200,
+   "stars": 311,
+   "pushed": "2026-10-02",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "chenxiaolong/basicsync": {
+   "slug": "chenxiaolong/basicsync",
+   "http": 200,
+   "stars": 730,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "xbmc/xbmc": {
+   "slug": "xbmc/xbmc",
+   "http": 200,
+   "stars": 21399,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "owncloud/android": {
+   "slug": "owncloud/android",
+   "http": 200,
+   "stars": 4175,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "haiwen/seadroid": {
+   "slug": "haiwen/seadroid",
+   "http": 200,
+   "stars": 637,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "dogior/dogiorshadenough": {
+   "slug": "dogior/dogiorshadenough",
+   "http": 200,
+   "stars": 88,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": null
+  },
+  "phisher98/cloudstream-extensions-phisher": {
+   "slug": "phisher98/cloudstream-extensions-phisher",
+   "http": 200,
+   "stars": 525,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": null
+  },
+  "recloudstream/cs-repos": {
+   "slug": "recloudstream/cs-repos",
+   "http": 200,
+   "stars": 543,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": null
+  },
+  "reflex755/reflexrepo": {
+   "slug": "reflex755/reflexrepo",
+   "http": 200,
+   "stars": 10,
+   "pushed": "2026-07-18",
+   "archived": false,
+   "license": null
+  },
+  "saurabhkaperwan/csx": {
+   "slug": "saurabhkaperwan/csx",
+   "http": 200,
+   "stars": 147,
+   "pushed": "2026-10-02",
+   "archived": false,
+   "license": null
+  },
+  "opendocument-app/opendocument.droid": {
+   "slug": "opendocument-app/opendocument.droid",
+   "http": 200,
+   "stars": 482,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "artifexsoftware/mupdf-android-viewer-mini": {
+   "slug": "artifexsoftware/mupdf-android-viewer-mini",
+   "http": 200,
+   "stars": 139,
+   "pushed": "2026-09-25",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "kevincfechtel/fluxnews": {
+   "slug": "kevincfechtel/fluxnews",
+   "http": 200,
+   "stars": 111,
+   "pushed": "2026-10-19",
+   "archived": false,
+   "license": "BSD-3-Clause"
+  },
+  "javalc6/rssreader": {
+   "slug": "javalc6/rssreader",
+   "http": 200,
+   "stars": 26,
+   "pushed": "2026-06-16",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "volksverpetzer/vvp_app": {
+   "slug": "volksverpetzer/vvp_app",
+   "http": 200,
+   "stars": 11,
+   "pushed": "2026-10-16",
+   "archived": false,
+   "license": "MIT"
+  },
+  "deedeedev/ytreader": {
+   "slug": "deedeedev/ytreader",
+   "http": 200,
+   "stars": 6,
+   "pushed": "2026-07-21",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "myzel394/alibi": {
+   "slug": "myzel394/alibi",
+   "http": 200,
+   "stars": 1723,
+   "pushed": "2026-02-11",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "pass-with-high-score/aneko": {
+   "slug": "pass-with-high-score/aneko",
+   "http": 200,
+   "stars": 591,
+   "pushed": "2026-08-28",
+   "archived": false,
+   "license": "LGPL-2.1"
+  },
+  "cvzi/screenshottile": {
+   "slug": "cvzi/screenshottile",
+   "http": 200,
+   "stars": 398,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "wirelessalien/moviedb": {
+   "slug": "wirelessalien/moviedb",
+   "http": 200,
+   "stars": 366,
+   "pushed": "2026-10-20",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "retransmit/atrium": {
+   "slug": "retransmit/atrium",
+   "http": 200,
+   "stars": 285,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "hqanime/animeone": {
+   "slug": "hqanime/animeone",
+   "http": 200,
+   "stars": 168,
+   "pushed": "2026-10-05",
+   "archived": false,
+   "license": "MIT"
+  },
+  "cdrummond/lms-material-app": {
+   "slug": "cdrummond/lms-material-app",
+   "http": 200,
+   "stars": 76,
+   "pushed": "2026-10-07",
+   "archived": false,
+   "license": "MIT"
+  },
+  "likhithpraveenk/storii": {
+   "slug": "likhithpraveenk/storii",
+   "http": 200,
+   "stars": 85,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ptrlx/oneshot": {
+   "slug": "ptrlx/oneshot",
+   "http": 200,
+   "stars": 52,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "blackcandy-org/app": {
+   "slug": "blackcandy-org/app",
+   "http": 200,
+   "stars": 33,
+   "pushed": "2026-10-13",
+   "archived": false,
+   "license": "MIT"
+  },
+  "rumca-js/offlinewebsearch": {
+   "slug": "rumca-js/offlinewebsearch",
+   "http": 200,
+   "stars": 37,
+   "pushed": "2026-10-14",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "kurikomi-labs/komi-store": {
+   "slug": "kurikomi-labs/komi-store",
+   "http": 200,
+   "stars": 20088,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "freshrss/freshrss": {
+   "slug": "freshrss/freshrss",
+   "http": 200,
+   "stars": 16444,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "offa/android-foss": {
+   "slug": "offa/android-foss",
+   "http": 200,
+   "stars": 11585,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "f-droid/fdroidclient": {
+   "slug": "f-droid/fdroidclient",
+   "http": 200,
+   "stars": 3248,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "lihenggui/blocker": {
+   "slug": "lihenggui/blocker",
+   "http": 200,
+   "stars": 2466,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "f0x1d/logfox": {
+   "slug": "f0x1d/logfox",
+   "http": 200,
+   "stars": 1373,
+   "pushed": "2026-10-15",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "wgtunnel/android": {
+   "slug": "wgtunnel/android",
+   "http": 200,
+   "stars": 3315,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "khh-vu/wifi-password-manager": {
+   "slug": "khh-vu/wifi-password-manager",
+   "http": 200,
+   "stars": 322,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "leonlatsch/photok": {
+   "slug": "leonlatsch/photok",
+   "http": 200,
+   "stars": 994,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "pynicolas/fairscan": {
+   "slug": "pynicolas/fairscan",
+   "http": 200,
+   "stars": 995,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "radiokot/photoprism-android-client": {
+   "slug": "radiokot/photoprism-android-client",
+   "http": 200,
+   "stars": 621,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "justwen/nga-client-ver-open-source": {
+   "slug": "justwen/nga-client-ver-open-source",
+   "http": 200,
+   "stars": 601,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "magic-cucumber/pixiv-multiplatform": {
+   "slug": "magic-cucumber/pixiv-multiplatform",
+   "http": 200,
+   "stars": 196,
+   "pushed": "2026-09-16",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "vincentengel/ves-image-compare": {
+   "slug": "vincentengel/ves-image-compare",
+   "http": 200,
+   "stars": 144,
+   "pushed": "2026-08-01",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "pastthepixels/freepaint": {
+   "slug": "pastthepixels/freepaint",
+   "http": 200,
+   "stars": 119,
+   "pushed": "2026-07-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "umercodez/websocketcam": {
+   "slug": "umercodez/websocketcam",
+   "http": 200,
+   "stars": 74,
+   "pushed": "2026-06-14",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "secuso/privacy-friendly-sketching": {
+   "slug": "secuso/privacy-friendly-sketching",
+   "http": 200,
+   "stars": 25,
+   "pushed": "2026-05-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "zorgluf/souvenirs-android": {
+   "slug": "zorgluf/souvenirs-android",
+   "http": 200,
+   "stars": 17,
+   "pushed": "2026-10-18",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "lollipopkit/flutter_server_box": {
+   "slug": "lollipopkit/flutter_server_box",
+   "http": 200,
+   "stars": 8896,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "standardnotes/app": {
+   "slug": "standardnotes/app",
+   "http": 200,
+   "stars": 6688,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "jarnedemeulemeester/findroid": {
+   "slug": "jarnedemeulemeester/findroid",
+   "http": 200,
+   "stars": 4279,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "bk138/droidvnc-ng": {
+   "slug": "bk138/droidvnc-ng",
+   "http": 200,
+   "stars": 2418,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "chenxiaolong/rsaf": {
+   "slug": "chenxiaolong/rsaf",
+   "http": 200,
+   "stars": 1037,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "iodn/android-ir-blaster": {
+   "slug": "iodn/android-ir-blaster",
+   "http": 200,
+   "stars": 602,
+   "pushed": "2026-10-15",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "helios57/muplay": {
+   "slug": "helios57/muplay",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-10-14",
+   "archived": false,
+   "license": "MIT"
+  },
+  "hexadigitall/makaw": {
+   "slug": "hexadigitall/makaw",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-09-07",
+   "archived": false,
+   "license": null
+  },
+  "inaccurate-hotelplan289/homelabsetup": {
+   "slug": "inaccurate-hotelplan289/homelabsetup",
+   "http": 404
+  },
+  "fossifyorg/notes": {
+   "slug": "fossifyorg/notes",
+   "http": 200,
+   "stars": 505,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "floccusaddon/floccus": {
+   "slug": "floccusaddon/floccus",
+   "http": 200,
+   "stars": 8603,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "MPL-2.0"
+  },
+  "readyouapp/readyou": {
+   "slug": "readyouapp/readyou",
+   "http": 200,
+   "stars": 7624,
+   "pushed": "2026-08-11",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "ashinch/readyou": {
+   "slug": "ashinch/readyou",
+   "http": 200,
+   "stars": 7624,
+   "pushed": "2026-08-11",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "spacecowboy/feeder": {
+   "slug": "spacecowboy/feeder",
+   "http": 200,
+   "stars": 3095,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "livinglist/hacki": {
+   "slug": "livinglist/hacki",
+   "http": 200,
+   "stars": 1636,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "jocmp/capyreader": {
+   "slug": "jocmp/capyreader",
+   "http": 200,
+   "stars": 1432,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "romannurik/muzei": {
+   "slug": "romannurik/muzei",
+   "http": 200,
+   "stars": 4954,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "anilbeesetti/nextplayer": {
+   "slug": "anilbeesetti/nextplayer",
+   "http": 200,
+   "stars": 4634,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "videolan/vlc-android": {
+   "slug": "videolan/vlc-android",
+   "http": 200,
+   "stars": 4120,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-2.0"
+  },
+  "mahlernim/google-timeline-visualizer": {
+   "slug": "mahlernim/google-timeline-visualizer",
+   "http": 200,
+   "stars": 3057,
+   "pushed": "2026-10-22",
+   "archived": false,
+   "license": "MIT"
+  },
+  "10miaomiao/bilimiao2": {
+   "slug": "10miaomiao/bilimiao2",
+   "http": 200,
+   "stars": 2965,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "moneytoo/player": {
+   "slug": "moneytoo/player",
+   "http": 200,
+   "stars": 2758,
+   "pushed": "2026-10-22",
+   "archived": false,
+   "license": "Unlicense"
+  },
+  "nuviomedia/nuviotv": {
+   "slug": "nuviomedia/nuviotv",
+   "http": 200,
+   "stars": 3266,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "dkrivoruchko/screenstream": {
+   "slug": "dkrivoruchko/screenstream",
+   "http": 200,
+   "stars": 2569,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "MIT"
+  },
+  "markusfisch/binaryeye": {
+   "slug": "markusfisch/binaryeye",
+   "http": 200,
+   "stars": 2459,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "MIT"
+  },
+  "flaresolverr/flaresolverr": {
+   "slug": "flaresolverr/flaresolverr",
+   "http": 200,
+   "stars": 16072,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "MIT"
+  },
+  "teamwin/team-win-recovery-project": {
+   "slug": "teamwin/team-win-recovery-project",
+   "http": 200,
+   "stars": 2068,
+   "pushed": "2022-02-06",
+   "archived": false,
+   "license": null
+  },
+  "zacharee/tweaker": {
+   "slug": "zacharee/tweaker",
+   "http": 200,
+   "stars": 1757,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": "MIT"
+  },
+  "freeotp/freeotp-android": {
+   "slug": "freeotp/freeotp-android",
+   "http": 200,
+   "stars": 1681,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "pass-with-high-score/universal-installer": {
+   "slug": "pass-with-high-score/universal-installer",
+   "http": 200,
+   "stars": 1638,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "anthonyy232/paperize": {
+   "slug": "anthonyy232/paperize",
+   "http": 200,
+   "stars": 1257,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "session-foundation/session-android": {
+   "slug": "session-foundation/session-android",
+   "http": 200,
+   "stars": 934,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "mlc-ai/mlc-llm": {
+   "slug": "mlc-ai/mlc-llm",
+   "http": 200,
+   "stars": 23285,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "aaswordman/operit": {
+   "slug": "aaswordman/operit",
+   "http": 200,
+   "stars": 9082,
+   "pushed": "2026-10-05",
+   "archived": false,
+   "license": "LGPL-3.0"
+  },
+  "libchecker/libchecker": {
+   "slug": "libchecker/libchecker",
+   "http": 200,
+   "stars": 7290,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "sdex/activitymanager": {
+   "slug": "sdex/activitymanager",
+   "http": 200,
+   "stars": 1365,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "supershadoe/delta": {
+   "slug": "supershadoe/delta",
+   "http": 200,
+   "stars": 584,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "BSD-3-Clause"
+  },
+  "dorumrr/de1984": {
+   "slug": "dorumrr/de1984",
+   "http": 200,
+   "stars": 467,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "MIT"
+  },
+  "ente/ente": {
+   "slug": "ente/ente",
+   "http": 200,
+   "stars": 29735,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "ente-io/ente": {
+   "slug": "ente-io/ente",
+   "http": 200,
+   "stars": 29735,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "t8rin/imagetoolbox": {
+   "slug": "t8rin/imagetoolbox",
+   "http": 200,
+   "stars": 15236,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "t8rin/imageresizer": {
+   "slug": "t8rin/imageresizer",
+   "http": 200,
+   "stars": 15236,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "deckerst/aves": {
+   "slug": "deckerst/aves",
+   "http": 200,
+   "stars": 5468,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "BSD-3-Clause"
+  },
+  "burhanrashid52/photoeditor": {
+   "slug": "burhanrashid52/photoeditor",
+   "http": 200,
+   "stars": 4530,
+   "pushed": "2026-09-27",
+   "archived": false,
+   "license": "MIT"
+  },
+  "pulsejet/memories": {
+   "slug": "pulsejet/memories",
+   "http": 200,
+   "stars": 3868,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "iacobionut01/refra": {
+   "slug": "iacobionut01/refra",
+   "http": 200,
+   "stars": 2956,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "iacobionut01/gallery": {
+   "slug": "iacobionut01/gallery",
+   "http": 200,
+   "stars": 2956,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "anonfaded/fadcam": {
+   "slug": "anonfaded/fadcam",
+   "http": 200,
+   "stars": 2865,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "linwooddev/butterfly": {
+   "slug": "linwooddev/butterfly",
+   "http": 200,
+   "stars": 2080,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "cosmictaserdev-creator/convx": {
+   "slug": "cosmictaserdev-creator/convx",
+   "http": 200,
+   "stars": 1062,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "renzobeux/dashboarr": {
+   "slug": "renzobeux/dashboarr",
+   "http": 200,
+   "stars": 377,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "koofr/vault": {
+   "slug": "koofr/vault",
+   "http": 200,
+   "stars": 207,
+   "pushed": "2026-08-13",
+   "archived": false,
+   "license": "MIT"
+  },
+  "roozbehzarei/filester": {
+   "slug": "roozbehzarei/filester",
+   "http": 200,
+   "stars": 197,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "tobexyz/yaacc-code": {
+   "slug": "tobexyz/yaacc-code",
+   "http": 200,
+   "stars": 188,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "NOASSERTION"
+  },
+  "infomaniak/android-kdrive": {
+   "slug": "infomaniak/android-kdrive",
+   "http": 200,
+   "stars": 178,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "bobrofon/easysshfs": {
+   "slug": "bobrofon/easysshfs",
+   "http": 200,
+   "stars": 154,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "MIT"
+  },
+  "isoron/uhabits": {
+   "slug": "isoron/uhabits",
+   "http": 200,
+   "stars": 10373,
+   "pushed": "2026-10-22",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "tasks/tasks": {
+   "slug": "tasks/tasks",
+   "http": 200,
+   "stars": 5699,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "dongdongbh/mindwtr": {
+   "slug": "dongdongbh/mindwtr",
+   "http": 200,
+   "stars": 2341,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "curbox-app/curbox-android": {
+   "slug": "curbox-app/curbox-android",
+   "http": 200,
+   "stars": 1473,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "glasshaven/haven": {
+   "slug": "glasshaven/haven",
+   "http": 200,
+   "stars": 1386,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "rohitkushvaha01/reterminal": {
+   "slug": "rohitkushvaha01/reterminal",
+   "http": 200,
+   "stars": 660,
+   "pushed": "2026-09-26",
+   "archived": false,
+   "license": "MIT"
+  },
+  "kamiyomu/kamiyomu.crawleragents.core": {
+   "slug": "kamiyomu/kamiyomu.crawleragents.core",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-08-30",
+   "archived": false,
+   "license": "MIT"
+  },
+  "thiagooo0/ehhelper": {
+   "slug": "thiagooo0/ehhelper",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2024-01-13",
+   "archived": false,
+   "license": "Apache-2.0"
+  },
+  "ulightm111/boky-fivavahana-ion": {
+   "slug": "ulightm111/boky-fivavahana-ion",
+   "http": 200,
+   "stars": 0,
+   "pushed": "2026-10-14",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "vauvenal5/yaga": {
+   "slug": "vauvenal5/yaga",
+   "http": 200,
+   "stars": 2,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "axiel7/anihyou-android": {
+   "slug": "axiel7/anihyou-android",
+   "http": 200,
+   "stars": 627,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "artifexsoftware/mupdf-android-viewer": {
+   "slug": "artifexsoftware/mupdf-android-viewer",
+   "http": 200,
+   "stars": 199,
+   "pushed": "2026-09-25",
+   "archived": false,
+   "license": "AGPL-3.0"
+  },
+  "winnative-emu/winnative": {
+   "slug": "winnative-emu/winnative",
+   "http": 200,
+   "stars": 733,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "GPL-3.0"
+  },
+  "rajkumarbhakta/gdealz": {
+   "slug": "rajkumarbhakta/gdealz",
+   "http": 200,
+   "stars": 55,
+   "pushed": "2026-10-10",
+   "archived": false,
+   "license": "GPL-3.0"
+  }
+ },
+ "urls": {
+  "https://f-droid.org": 200,
+  "https://apt.izzysoft.de/fdroid": 200,
+  "https://codeberg.org/droidify/client": 200,
+  "https://komistore.app": 200,
+  "https://gitlab.com/AuroraOSS/AuroraStore": 200,
+  "https://accrescent.app": 200,
+  "https://appteka.store": 200,
+  "https://victor-root.github.io/Omnify/": 200,
+  "https://yukistore.org/listings/fedefluork-multistore": 200,
+  "https://yukistore.org/listings/suno2-gstore": 200,
+  "https://yukistore.org/listings/dinico414-xenonstorecompose": 200,
+  "https://yukistore.org/listings/developer-for-git-mod-store": 200,
+  "https://yukistore.org/listings/thislinked-aurorastorecrxmson": 200,
+  "https://developer.android.com/developer-verification": 200,
+  "https://keepandroidopen.org": 200,
+  "https://yukistore.org": 200,
+  "https://reports.exodus-privacy.eu.org": 200,
+  "https://www.virustotal.com": 200,
+  "https://kototoro-app.github.io/Kototoro/": 200,
+  "https://developer.android.com/developer-verification/guides/faq": 200,
+  "https://developer.android.com/developer-verification/guides/limited-distribution": 200,
+  "https://developer.android.com/developer-verification/guides/android-developer-console": 200,
+  "https://android.google.com/developerconsole": 200,
+  "https://support.google.com/android-developer-console": 200,
+  "https://support.google.com/googleplay/android-developer#topic=16689288": 200,
+  "https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html": 200,
+  "https://android-developers.googleblog.com/2026/06/android-developer-verification.html": 200,
+  "https://android-developers.googleblog.com/2026/03/android-developer-verification.html": 200,
+  "https://keepandroidopen.org/": 200,
+  "https://keepandroidopen.org/faq/": 200,
+  "https://keepandroidopen.org/open-letter": 200,
+  "https://keepandroidopen.org/cta/#consumers": 200,
+  "https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html": 200,
+  "https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship": 200,
+  "https://pluralistic.net/2025/09/01/fulu/": 200,
+  "https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/": 200,
+  "https://keiyoushi.github.io": 200,
+  "https://yuzono.github.io": 200,
+  "https://miyomi.app": 200,
+  "https://mangaplus.shueisha.co.jp/updates": 200,
+  "https://play.google.com/store/apps/details?id=jp.co.shueisha.mangaplus": 200,
+  "https://www.webtoons.com/es/": 200,
+  "https://www.webtoons.com/en/": 200,
+  "https://www.interior.gob.es/opencms/es/detalle/articulo/La-Policia-Nacional-desarticula-en-Almeria-la-mayor-plataforma-de-distribucion-ilicita-online-de-manga-en-espanol/": 403,
+  "https://elpais.com/cultura/2026-04-22/cae-tumangaonline-la-policia-nacional-desmantela-la-mayor-plataforma-de-pirateria-de-manga-en-espanol.html": 200,
+  "https://torrentfreak.com/korean-rights-holders-behind-takedown-of-manga-piracy-giant-tumangaonline/": 200,
+  "https://coa4kcontent.or.kr/en/index.php": 200,
+  "https://coa4kcontent.or.kr/en/community/session.php?boardid=session_en&mode=view&idx=23": 200,
+  "https://raw.githubusercontent.com/Leviidev/Husk/main/altsource.json": 200,
+  "https://f-droid.org/en/packages/org.draken.usagi/": 200,
+  "https://appteka.store/app/4abr315772": 200,
+  "https://appteka.store/app/b4cr315682": 200,
+  "https://fmhy.net": 200,
+  "https://fmhy.net/beginners-guide": 200,
+  "https://fmhy.net/posts/sept-2026": 200,
+  "https://aniyomi.org/forks/": 200,
+  "https://aniyomi.org/forks/Animiru/": 200,
+  "https://reikai.app": 200,
+  "https://appteka.store/app/d18r318069": 200,
+  "https://miyomi.app/software?content=Multi&view=grid": 200,
+  "https://codeberg.org/Grace-and-Truth/Greet-and-Grow": 200,
+  "https://gitlab.com/g33kphr33k/musicgrabber": 200,
+  "https://www.musicapopular.cl/grupo/los-de-las-condes/": 200,
+  "https://www.letras.com/mercedes-sosa/": 403,
+  "https://www.letras.com/mercedes-sosa/37545/": 403,
+  "https://www.letras.com/mercedes-sosa/37544/": 403,
+  "https://www.letras.com/mercedes-sosa/63295/": 403,
+  "https://www.letras.com/mercedes-sosa/la-pomea/": 403,
+  "https://www.letras.com/mercedes-sosa/63291/": 403,
+  "https://www.letras.com/mercedes-sosa/961408/": 403,
+  "https://www.letras.com/mercedes-sosa/37548/": 403,
+  "https://www.letras.com/mercedes-sosa/63325/": 403,
+  "https://www.letras.com/mercedes-sosa/200753/": 403,
+  "https://www.letras.com/mercedes-sosa/63324/": 403,
+  "https://www.letras.com/mercedes-sosa/63322/": 403,
+  "https://www.letras.com/mercedes-sosa/63313/": 403,
+  "https://www.letras.com/mercedes-sosa/37550/": 403,
+  "https://www.letras.com/mercedes-sosa/200654/": 403,
+  "https://www.letras.com/mercedes-sosa/63310/": 403,
+  "https://burnsomni.net/manuals/pagan": 404,
+  "https://anidb.net": 403,
+  "https://openverse.org": 403,
+  "https://miniflux.app": 200,
+  "https://standardnotes.com/forum": 200,
+  "https://standardnotes.com/h»": "UnicodeEncodeError",
+  "https://roundsync.com": 200,
+  "https://codeberg.org/Bazsalanszky/Eternity": 200,
+  "https://codeberg.org/hicorenational/apps-android-wikipedia": 200,
+  "https://codeberg.org/jozo/prayer-book": 200,
+  "https://codeberg.org/nontrinsic/android": 200,
+  "https://codeberg.org/retiolus/natinfo_flutter": 200,
+  "https://codeberg.org/timurmobi/prosereader-android": 200,
+  "https://gitlab.com/coolreader-ng/lxreader": 200,
+  "https://gitlab.com/gbygrave/styncynotes": 200,
+  "https://gitlab.com/hotlittlewhitedog/BibleMultiTheLight": 200,
+  "https://gitlab.com/hotlittlewhitedog/BibleTheLife": 200,
+  "https://gitlab.com/libre-librivox-listener/libre-librivox-listener": 200,
+  "https://f-droid.org/packages/player.efis.pfd": 200,
+  "https://f-droid.org/packages/com.github.soundpod/": 200,
+  "https://f-droid.org/packages/com.luc4n3x.levyra/": 200,
+  "https://apt.izzysoft.de/fdroid/": 200,
+  "https://flathub.org/apps/info.febvre.Komikku": 200,
+  "https://play.google.com/store/apps/details?id=cx.aswin.boxlore": 200,
+  "https://apt.izzysoft.de/fdroid/index/apk/com.shayan.firewall": 200,
+  "https://www.libreoffice.org/download/android-and-ios": 404,
+  "https://sourceforge.net/p/videlibri/code/ci/default/tree": 200,
+  "https://invent.kde.org/multimedia/kid3.git": 403,
+  "https://sourceforge.net/p/opencamera/code": 200,
+  "https://www.axekin.com/": 200
+ }
+}
