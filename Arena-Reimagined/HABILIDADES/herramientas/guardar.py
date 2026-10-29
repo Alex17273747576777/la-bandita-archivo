@@ -48,10 +48,10 @@ with tempfile.TemporaryDirectory(dir='/home/user') as td:  # /tmp se llena con c
         if (PROY/taller).exists(): shutil.copytree(PROY/taller,td2)
     # ÁRBOL COMPLETO (cierre 29-oct-2026): el remoto queda byte a byte igual al
     # proyecto, no solo en las zonas de la lista. Exclusiones técnicas únicas:
-    # __pycache__ (regenerable) y git-backup-19oct-106 (contiene un .git anidado:
-    # no es subible como contenido). Lo que ya no exista en el proyecto se borra
-    # del destino: sincronía, no acumulación.
-    EXCL={'__pycache__','git-backup-19oct-106'}
+    # __pycache__ (regenerable), git-backup-19oct-106 (contiene un .git anidado:
+    # no es subible como contenido) y mos-v15 (exclusión deliberada del propio
+    # .gitignore del proyecto, línea 1: material que el dueño decidió no publicar).
+    EXCL={'__pycache__','git-backup-19oct-106','mos-v15'}
     for p in sorted(PROY.rglob('*')):
         if any(parte in EXCL for parte in p.parts) or p.is_dir(): continue
         rel=p.relative_to(PROY); q=destino/rel
