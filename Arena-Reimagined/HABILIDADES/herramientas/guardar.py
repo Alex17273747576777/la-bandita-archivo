@@ -46,7 +46,13 @@ with tempfile.TemporaryDirectory() as td:
         print('guardar: empujado ·',run(['git','log','--oneline','-1'],cwd=clon).stdout.strip())
     remoto=run(['git','-C',str(clon),'ls-remote','origin','main'],env=env).stdout.strip()
     print('remoto verificado:',remoto)
-    clon2=Path(td)/'clon2'; run(['git','clone','-q','https://github.com/Alex17273747576777/la-bandita-archivo.git',str(clon2)],env=env)
+    clon2=Path(td)/'clon2'
+    for intento in range(3):
+        try:
+            run(['git','clone','-q','https://github.com/Alex17273747576777/la-bandita-archivo.git',str(clon2)],env=env); break
+        except Exception:
+            if intento==2: raise
+            import time; time.sleep(5)
     pares=[]
     for serie in ['WhatsApp-dominicano-ES','Facebook-dominicano-ES']:
         for f in (PROY/'01-PUBLICACIONES'/serie).glob('*.md'): pares.append((f,clon2/'Arena-Reimagined/01-PUBLICACIONES'/serie/f.name))

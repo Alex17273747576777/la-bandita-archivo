@@ -45,3 +45,8 @@ _Cada lección costó tiempo real. Leerla antes de trabajar ahorra el próximo t
 - **Contexto:** Reorden de carpetas del 29-oct
 - **Fallo/experiencia:** La carpeta _rearm-29oct solo se entendía con contexto y las herramientas apuntaban a ella: renombrar sin actualizar herramientas habría roto el arranque
 - **Regla que queda:** Todo renombrado de carpeta exige: actualizar las rutas en las herramientas el mismo día, dejar mapa de traducción para las actas históricas (que no se reescriben) y verificar arranque+chequeo tras el cambio
+
+## L-10 · 2026-10-29
+- **Contexto:** Reorden de carpetas + rescate mezclando eras (29-oct)
+- **Fallo/experiencia:** El manifiesto quedó de una era anterior al corpus (135 distintos): cada rescate parcial puede dejar artefactos de eras distintas conviviendo
+- **Regla que queda:** Tras cualquier rescate o reorden: regenerar el manifiesto desde el corpus vigente y correr arranque antes de empujar; una verificación que muere por red se reintenta antes de declarar fallo
