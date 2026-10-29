@@ -1,159 +1,76 @@
 # Publicación 30 — La cara del sistema: lanzadores, fondos, teclados y personalización
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
-## 🗺️ Mapa de esta guía
+## ⚡ En una página
 
-├── ⚡ La cara, en una página
-├── 🚀 Los lanzadores
-├── 🖼️ Los fondos
-├── ⌨️ La estirpe de los teclados
-├── 🎨 La personalización
-├── 🧑‍🎨 El artesano de las tres caras
-├── 🌫️ Pendientes del corte
-└── 🔗 Enlaces
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 11 repos: 3 empujaron hoy, 5 en los
+últimos 7 días, 3 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `LawnchairLauncher/lawnchair`
+— ★13.817, NOASSERTION, último empuje 2026-10-29.
 
-## ⚡ La cara, en una página
+## 🗼 Las placas al pulso (2026-10-29)
 
-El tronco sostiene (Publicación 28), los mayordomos administran (29) — y la cara es lo primero que muestra tu teléfono al mundo: el lanzador, el fondo, el teclado, los colores. Pero una cara bonita solo vale si lo de abajo la sostiene — por eso este lote se verificó igual que los anteriores: pisando casas, leyendo fechas, volando bajo.
+• `LawnchairLauncher/lawnchair` — ★13.817 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· NOASSERTION
 
-**Once fichas** verificadas HOY, 15 de septiembre, con dos certificados de mudanza y una estirpe
-completa. Tercer lote de la puerta Android.
+• `florisboard/florisboard` — ★8.732 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· Apache-2.0
 
-## 🚀 Los lanzadores
+• `HeliBorg/HeliBoard` — ★6.443 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· GPL-3.0
 
-- **Lawnchair** — ★13.525 · Nightly de HOY mismo ·
-https://github.com/LawnchairLauncher/lawnchair — el lanzador Pixel para teléfonos que no son
-Pixel. Su descripción de casa es la más honesta del lote: «No clever tagline needed» — no hace
-falta frase ingeniosa cuando el empuje es de hoy.
-- **Neo-Launcher** — ★2.122 · push HOY mismo · https://github.com/NeoApplications/Neo-Launcher —
-el lanzador de la casa Neo (la misma familia de Neo-Store, la tienda de la Publicación 28).
-Matiz del corte: su release data de 2022, pero el código empujó hoy — mantenimiento vivo, número
-viejo.
+• `muzei/muzei` — ★4.954 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· Apache-2.0
 
-## 🖼️ Los fondos
+• `KieronQuinn/TapTap` — ★4.058 (verificado 2026-10-29)
+· dormido · última actividad 2024-10-26
+· GPL-3.0
 
-- **Muzei** — ★4.944 · v3.7.1 (5-sep) · https://github.com/muzei/muzei — el fondo vivo clásico:
-rota obras de arte en tu pantalla. Nació en 2014 y sigue moviendo código este mes: la longevidad
-como método.
-- **WallYou** — ★1.163 · v16.0 (25-jul) · https://github.com/you-apps/WallYou — «Privacy focused
-wallpaper app built with MD3», de la familia you-apps: fondos bonitos sin mirar a nadie.
+• `KieronQuinn/Smartspacer` — ★3.578 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-23
+· GPL-3.0
 
-## ⌨️ La estirpe de los teclados
+• `openboard-team/openboard` — ★2.754 (verificado 2026-10-29)
+· dormido · última actividad 2024-05-16
+· GPL-3.0
 
-La genealogía del teclado libre, verificada esta tarde:
+• `Mahmud0808/ColorBlendr` — ★2.569 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-- **OpenBoard** — ★2.740 · activa · https://github.com/openboard-team/OpenBoard — la madre
-clásica: el teclado simple de la casa AOSP. Su estirpe sigue viva abajo.
-- **HeliBoard** — ★6.117 · 4.1 (30-ago) · push 9-sep · https://github.com/HeliBorg/HeliBoard —
-la heredera que puso el teclado privado de moda («Customizable and privacy-conscious»).
-Certificado de mudanza de esta tarde: el enlace viejo de Helium314 redirige a la organización
-**HeliBorg** — misma mudanza que Metrolist al palacio (Publicación 27). Las casas grandes
-crecen.
-- **FlorisBoard** — ★8.649 · v0.6.0-alpha02 (22-ene) · push 14-sep ·
-https://github.com/florisboard/florisboard — la paralela que se escribe desde cero: «An
-open-source keyboard which respects your privacy». En alpha declarada — se usa sabiendo dónde se
-pisa.
+• `KieronQuinn/AmbientMusicMod` — ★2.524 (verificado 2026-10-29)
+· dormido · última actividad 2024-09-07
+· GPL-3.0
 
-## 🎨 La personalización
+• `NeoApplications/Neo-Launcher` — ★2.151 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· GPL-3.0
 
-- **ColorBlendr** — ★2.452 · 3.0.1 (2-ago) · push 3-sep ·
-https://github.com/Mahmud0808/ColorBlendr — «An Android app for customizing Material You colors
-on device»: los colores del sistema a tu gusto, sin raíz.
+• `you-apps/WallYou` — ★1.440 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
 
-## 🧑‍🎨 El artesano de las tres caras
+## 🔗 Fuentes comprobadas hoy
 
-Un mismo autor, KieronQuinn, firma tres de las caras más queridas de Android — las tres
-verificadas esta tarde:
+• https://github.com/LawnchairLauncher/lawnchair — vivo al verificar hoy (2026-10-29)
+• https://github.com/NeoApplications/Neo-Launcher — vivo al verificar hoy (2026-10-29)
+• https://github.com/muzei/muzei — vivo al verificar hoy (2026-10-29)
+• https://github.com/you-apps/WallYou — vivo al verificar hoy (2026-10-29)
+• https://github.com/openboard-team/OpenBoard — vivo al verificar hoy (2026-10-29)
+• https://github.com/HeliBorg/HeliBoard — vivo al verificar hoy (2026-10-29)
+• https://github.com/florisboard/florisboard — vivo al verificar hoy (2026-10-29)
+• https://github.com/Mahmud0808/ColorBlendr — vivo al verificar hoy (2026-10-29)
+• https://github.com/KieronQuinn/Smartspacer — vivo al verificar hoy (2026-10-29)
+• https://github.com/KieronQuinn/TapTap — vivo al verificar hoy (2026-10-29)
+• https://github.com/KieronQuinn/AmbientMusicMod — vivo al verificar hoy (2026-10-29)
 
-- **Smartspacer** — ★3.512 · 1.11.3 (29-ago) · https://github.com/KieronQuinn/Smartspacer — «A
-customisable widget… At a Glance para todos»: el widget de las Pixel, sin comprar Pixel.
-- **TapTap** — ★4.034 · 1.6.2 (oct-2024) · https://github.com/KieronQuinn/TapTap — el doble
-toque en la espalda del teléfono, portado para todos. Quieta once meses: se vigila, se anota la
-fecha.
-- **AmbientMusicMod** — ★2.510 · 2.4 (7-sep-2024) ·
-https://github.com/KieronQuinn/AmbientMusicMod — el «Now Playing» de las Pixel para el resto del
-mundo. También tranquila — el artesano tiene su centro en Smartspacer; las otras esperan turno.
-
-## 🌫️ Pendientes del corte
-
-- Sin verificar en este lote: SmartDock, Peristyle, Grayscaler, SmartIsland, Adaptive-Hz,
-Tweaker — nombres del inventario con su turno pendiente; no se ficha lo que no se pisó. *(Aporte
-de la misma tarde: los cinco primeros ya tienen ficha verificada en la Publicación 31, y Tweaker
-fue al radar honesto con su porqué — también en la 31.)*
-- La puerta Android sigue abierta: quedan ~80 candidatas genuinas.
-
-## ❓ Preguntas de la cara
-
-**¿Cambiar lanzador o teclado rompe algo?**
-No: son capas que se prueban y se quitan. El teléfono vuelve a su cara de fábrica cuando las
-quitas. Lo irreversible es otra cosa — y por eso vive en otras guías.
-
-**¿Cómo sé si un lanzador está vivo?**
-Lo mismo que siempre: la fecha, no el adorno. Lawnchair compiló Nightly hoy; Neo-Launcher empujó
-hoy con release de 2022. Dos formas distintas de estar vivo — y una sola de estar muerto.
-
-## 🔗 Enlaces
-
-- Lanzadores: LawnchairLauncher/lawnchair · NeoApplications/Neo-Launcher
-- Fondos: muzei/muzei · you-apps/WallYou
-- Teclados: openboard-team/OpenBoard · HeliBorg/HeliBoard · florisboard/florisboard
-- Personalización: Mahmud0808/ColorBlendr
-- El artesano: KieronQuinn/Smartspacer · KieronQuinn/TapTap · KieronQuinn/AmbientMusicMod
-- (URLs completas en cada ficha · el inventario del muro: paquete interno, Registro y Protocolo.)
-
-## El meme de la cara
-
-> —Le puse lanzador nuevo, fondo que rota y teclado que no espía.
-> —¿Y eso para qué?
-> —Para que mi teléfono se parezca a lo que hago yo: cara propia, y abajo, todo en orden.
-> —¿Y si un día quieres la cara de fábrica?
-> —Por eso elegí capas, no tatuajes: la cara se cambia; los permisos, cuidado.
-
-> La Bandita verifica antes de recomendar: doce casas pisadas el 15 de septiembre de 2026, dos
-mudanzas certificadas por redirección. Las estrellas adornan; las fechas mandan.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 30).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 11
-repos GitHub confirmados y 11 apariciones de URL. La historia no se reescribe; esta nota añade
-el estado medido hoy.
-
-Actividad medida hoy: 1 hoy · 4 en 7 días · 3 en 30 días · 0 en 180 días · 3 dormidos · 0
-archivados.
-
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `kieronquinn/ambientmusicmod` — dormido
-· última actividad 2024-09-07 · ★2.524 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `kieronquinn/taptap` — dormido
-· última actividad 2024-10-26 · ★4.059 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `openboard-team/openboard` — dormido
-· última actividad 2022-12-17 · ★2.754 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `mahmud0808/colorblendr` — ★2.568 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· GPL-3.0.
-
-• `muzei/muzei` — ★4.954 (verificado 29-oct-2026)
-· última actividad 2026-10-26
-· Apache-2.0.
-
-• `lawnchairlauncher/lawnchair` — ★13.809 (verificado 29-oct-2026)
-· última actividad 2026-10-28
-· licencia sin clasificar (NOASSERTION)
-· release Lawnchair Nightly (2026-10-28).
-
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `lawnchairlauncher/lawnchair` —
-Apache-2.0.
-
-Enlaces web: 11 apariciones; 11 respondieron vivas el 29-oct-2026.
-
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 11 repos GitHub (11 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

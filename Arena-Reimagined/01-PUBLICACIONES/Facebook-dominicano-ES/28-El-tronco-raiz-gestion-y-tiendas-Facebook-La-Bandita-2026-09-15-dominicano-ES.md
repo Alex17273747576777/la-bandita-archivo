@@ -1,186 +1,121 @@
 # Publicación 28 — El tronco: raíz, gestión y tiendas — el suelo donde crece todo
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
-## 🗺️ Mapa de esta guía
+## ⚡ En una página
 
-├── ⚡ El tronco, en una página
-├── 🌳 La raíz (los cuatro del kernel)
-├── 🎛️ La ruta sin root: gestionar sin romper
-├── 🏪 Las tiendas fuera de la tienda
-├── 🌫️ Pendientes del corte
-└── 🔗 Enlaces
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 20 repos: 2 empujaron hoy, 10 en
+los últimos 7 días, 3 llevan más de 180 días quietos y 0 están archivados; los que ya no
+responden quedan firmados como caídos, no escondidos. El mayor medido hoy: `Genymobile/scrcpy`
+— ★153.499, Apache-2.0, último empuje 2026-10-26.
 
-## ⚡ El tronco, en una página
+## 🗼 Las placas al pulso (2026-10-29)
 
-Antes del taller (Publicación 24) había que construir el suelo: las herramientas de raíz, las de gestión sin root y las tiendas alternativas son el tronco del que cuelga todo lo demás. Esta puerta no salió del muro — salió del inventario: 173 nombres registrados sin enlace, de los cuales este lote verifica **dieciocho** pisando cada casa HOY, 15 de septiembre.
+• `Genymobile/scrcpy` — ★153.499 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· Apache-2.0
 
-Método honesto del corte: verificación por el buscador de GitHub (estrellas, empuje, estado) +
-canal de versiones propio por casa — dos fuentes por ficha donde la casa la dio.
+• `termux/termux-app` — ★63.673 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-26
+· NOASSERTION
 
-## 🌳 La raíz (los cuatro del kernel)
-
-- **Magisk** — ★62.780 · v31.0 (4-sep) · push 12-sep · https://github.com/topjohnwu/Magisk —
-«The Magic Mask for Android»: la raíz del sistema sin tocar el sistema. El clásico de clásicos,
-moviendo código esta semana.
-- **KernelSU** — ★18.415 · v3.3.0 (28-ago) · push HOY mismo · https://github.com/tiann/KernelSU
-— «A Kernel based root solution»: la raíz viviendo dentro del kernel. La de empuje más fresco
-del lote.
-- **APatch** — ★7.940 · build 11224 (6-ago) · push 14-sep · https://github.com/bmax121/APatch —
-«The patching of Android kernel and Android system»: la tercera vía de raíz, joven y latiendo.
-- **LSPosed** — ★24.704 · 1.9.2 (oct-2023) · push 14-sep · https://github.com/LSPosed/LSPosed —
-el framework de módulos Xposed para raíces modernas. Su versión lleva quieta desde 2023, pero el
-repositorio empujó esta semana: mantenimiento vivo, no abandono. Se registra el matiz, no el
-número.
-
-## 🎛️ La ruta sin root: gestionar sin romper
-
-- **Shizuku** — ★30.154 · v13.6.0 (25-may-2025) · https://github.com/RikkaApps/Shizuku — la
-madre de la ruta: APIs del sistema con privilegios adb/root, desde apps normales. Todo el taller
-de la Publicación 24 cuelga de aquí — hasta Shizuku+ lleva su mismo número de versión, unificado
-con la madre.
-- **Dhizuku** — ★3.820 · v2.12.0 (24-jun) · push 14-sep · https://github.com/iamr0s/Dhizuku — «A
-tool that can share DeviceOwner permissions to other applications»: la segunda ruta sin root.
-Suena a tarjeta lejana: es la casa que habita AxManagerD, la variante más activa de la familia
-del taller.
-- **Sui** — ★4.206 · v13.5.1 (2023) · https://github.com/RikkaApps/Sui — «Modern super user
-interface»: la de los que YA tienen raíz. Quieta desde 2023 — se anota su sueño; la raíz moderna
-se reparte entre Magisk, KernelSU y APatch.
-- **Hail** — ★6.666 · v1.11.0 (26-ago, dos versiones el mismo día) ·
-https://github.com/aistra0528/Hail — «Disable / Hide / Suspend / Uninstall Android apps without
-root»: el congelador de apps. El buscador se lo tragó en la primera pasada y apareció por su
-propia casa — el enlace cierra el caso, lección de casa.
-- **SAI** — ★3.853 · v4.5 (2021) · push jun-2024 · https://github.com/Aefyr/SAI — «Android split
-APKs installer»: el instalador de APKs por partes. Aviso de fábrica honesto: su versión lleva
-años quieta — funciona, pero el tiempo no la certifica.
-- **InstallerX-Revived** — ★6.598 · Preview (31-ago) · push 14-sep ·
-https://github.com/wxxsfxyzm/InstallerX-Revived — «More Expressive InstallerX!»: el instalador
-moderno, en preview declarada.
-- **InstallWithOptions** — ★3.233 · 0.9.2 (mar-2026) · push 9-sep ·
-https://github.com/zacharee/InstallWithOptions — «install APKs on-device with advanced options»,
-vía Shizuku: el instalador con panel de control.
-- **scrcpy** — ★149.679 · 4.1 (12-jul) · push 14-sep · https://github.com/Genymobile/scrcpy —
-«Display and control your Android device»: el teléfono en la pantalla del PC, sin instalar nada
-en el teléfono. El gigante silencioso del lote.
-- **Termux** — ★60.850 · v0.119.0-beta.3 (may-2025) · push 11-sep ·
-https://github.com/termux/termux-app — la terminal de bolsillo: un Linux de verdad dentro de
-Android. Beta declarada y empuje semanal.
-
-## 🏪 Las tiendas fuera de la tienda
-
-- **Obtainium** — ★19.688 · v1.6.17 (13-sep) · https://github.com/ImranR98/Obtainium — «Get
-Android app updates straight from the source»: la tienda que no es tienda — instala y actualiza
-directo del repositorio de cada app. La reina del método de esta casa.
-- **Droid-ify** — ★7.417 · v0.7.8 (12-sep) · https://github.com/Droid-ify/client — «Clutterfree
-F-Droid client»: el cliente F-Droid sin adorno. Casa espeja en Codeberg — se cita la oficial de
-GitHub.
-- **Neo-Store** — ★5.008 · 1.2.6 (abr) · push HOY mismo ·
-https://github.com/NeoApplications/Neo-Store — «An F-Droid client with modern UI and an arsenal
-of extra features»: el cliente arsenal.
-- **Aurora Store** — ★2.985 · 4.8.4 (27-jul) · https://github.com/whyorean/AuroraStore — la
-frente limpia a la Play Store: mismo catálogo, sin la cuenta de nadie.
-- **Accrescent** — ★2.250 · 0.28.1 (nov-2025) · push HOY mismo ·
-https://github.com/accrescent/accrescent — «A novel Android app store focused on security,
-privacy, and usability»: la tienda que firma todo. Su versión lleva meses quieta y empujó hoy:
-cocinando la siguiente.
-- **Appteka** — ★1.173 · v23.0 (9-ago) · https://github.com/solkin/appteka-android — «💊 Appteka
-is an alternative store for Android»: la de la regla de esta casa — antes de fichar cualquier
-app suya, se lee SU ficha de tienda y se entra a SU repositorio. Aquí su casa, verificada.
-- **Github Store** — ★por contar · «Komi Store» 1.9.2 (26-jun) ·
-https://github.com/rainxchzed/Github-Store — *(aporte de la puerta Anime del mismo día, vía
-catálogo Miyomi: 698 mil descargas)* una tienda de apps que se instala directo de GitHub
-releases — y matiz de fábrica: su última release se titula «Komi Store 1.9.2 — Meet Manga…» —
-nombre propio cambiante y catálogo que la trae atrás (1.5.1). El mapa vivo, otra vez, le gana al
-mapa dormido.
-
-## 🌫️ Pendientes del corte
-
-- **Deudas del corte pagadas volando bajo** (leídas de la casa misma, sin API ni cuota, al
-cierre de esta misma tarde): Hail **★6.666** · Iride (Publicación 27) **★15**. Lo que la ventana
-de consulta no dio, la página propia lo dijo.
-- Quedan **~155 candidatas** de la puerta Android en el inventario, ya clasificadas: los
-catálogos (F-Droid, IzzyOnDroid, AniDB, Internet Archive…) van como fuente de listas, no como
-fichas; los nombres de lectura y anime (Mihon, Komikku, Yōkai…) esperan SUS puertas.
-
-## ❓ Preguntas del tronco
-
-**¿Necesito raíz para todo esto?**
-No: Shizuku, Dhizuku, Hail, los instaladores y todas las tiendas viven sin raíz. La raíz
-(Magisk, KernelSU, APatch) es otra potestad — más poder, más responsabilidad, y garantía que se
-firma uno mismo.
-
-**¿Por qué tantas tiendas si F-Droid existe?** Porque cada una responde a una necesidad distinta: Obtainium va a la fuente, Aurora entra a la Play sin cuenta, Accrescent firma todo, Appteka guarda lo que nadie guarda. Una tienda no compite: completa.
-
-## 🔗 Enlaces
-
-- Raíz: topjohnwu/Magisk · tiann/KernelSU · bmax121/APatch · LSPosed/LSPosed
-- Gestión: RikkaApps/Shizuku · iamr0s/Dhizuku · RikkaApps/Sui · aistra0528/Hail · Aefyr/SAI ·
-wxxsfxyzm/InstallerX-Revived · zacharee/InstallWithOptions · Genymobile/scrcpy ·
-termux/termux-app
-- Tiendas: ImranR98/Obtainium · Droid-ify/client · NeoApplications/Neo-Store ·
-whyorean/AuroraStore · accrescent/accrescent · solkin/appteka-android
-- (URLs completas en cada ficha · el inventario del muro: paquete interno, Registro y Protocolo.)
-
-## El meme del tronco
-
-> —Instalé la app del taller, la de la tienda, la del congelador y la del espejo del PC.
-> —¿Y la raíz?
-> —No le tengo miedo… le tengo método: primero leo, después firmo, y al final decido.
-> —Eso es exactamente lo que hace un tronco: sostener sin pedir permiso.
-
-> La Bandita verifica antes de recomendar: cada ficha de esta guía pisó su casa el 15 de
-septiembre de 2026. Las estrellas adornan; las fechas mandan.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 28).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 20
-repos GitHub confirmados y 20 apariciones de URL. La historia no se reescribe; esta nota añade
-el estado medido hoy.
-
-Actividad medida hoy: 2 hoy · 6 en 7 días · 5 en 30 días · 3 en 180 días · 4 dormidos · 0
-archivados.
-
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `rikkaapps/shizuku` — dormido
-· última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `aefyr/sai` — dormido
-· última actividad 2021-02-25 · ★3.950 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `lsposed/lsposed` — dormido
-· última actividad 2024-01-07 · ★25.239 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `rikkaapps/sui` — dormido
-· última actividad 2023-09-30 · ★4.336 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `rainxchzed/github-store` — creado 2025-11-21
-· última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026)
-· Apache-2.0.
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `tiann/kernelsu` — ★19.798 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `topjohnwu/Magisk` — ★63.595 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-27
 · GPL-3.0
-· release v3.3.1 (2026-10-12).
 
-• `iamr0s/dhizuku` — ★4.044 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· GPL-3.0.
+• `RikkaApps/Shizuku` — ★32.382 (verificado 2026-10-29)
+· dormido · última actividad 2025-06-18
+· Apache-2.0
 
-• `topjohnwu/magisk` — ★63.583 (verificado 29-oct-2026)
-· última actividad 2026-10-27
+• `LSPosed/LSPosed` — ★25.240 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-14
 · GPL-3.0
-· release Magisk v31.1 (2026-10-26).
 
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `termux/termux-app` — GPL-3.0.
+• `ImranR98/Obtainium` — ★21.017 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· GPL-3.0
 
-Enlaces web: 20 apariciones; 20 respondieron vivas el 29-oct-2026.
+• `komi-store/komi-store` — ★20.090 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· Apache-2.0
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `tiann/KernelSU` — ★19.809 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `bmax121/APatch` — ★8.104 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· GPL-3.0
+
+• `Droid-ify/client` — ★7.661 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-12
+· GPL-3.0
+
+• `wxxsfxyzm/InstallerX-Revived` — ★7.220 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· GPL-3.0
+
+• `aistra0528/Hail` — ★7.037 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-27
+· GPL-3.0
+
+• `NeoApplications/Neo-Store` — ★5.570 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-23
+· GPL-3.0
+
+• `RikkaApps/Sui` — ★4.337 (verificado 2026-10-29)
+· dormido · última actividad 2024-08-12
+· GPL-3.0
+
+• `iamr0s/Dhizuku` — ★4.049 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `Aefyr/SAI` — ★3.950 (verificado 2026-10-29)
+· dormido · última actividad 2024-06-03
+· GPL-3.0
+
+• `zacharee/InstallWithOptions` — ★3.385 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-24
+· MIT
+
+• `whyorean/AuroraStore` — ★3.198 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-02
+· GPL-3.0
+
+• `accrescent/accrescent` — ★2.306 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· Apache-2.0
+
+• `solkin/appteka-android` — ★1.359 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-21
+· GPL-3.0
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/topjohnwu/Magisk — vivo al verificar hoy (2026-10-29)
+• https://github.com/tiann/KernelSU — vivo al verificar hoy (2026-10-29)
+• https://github.com/bmax121/APatch — vivo al verificar hoy (2026-10-29)
+• https://github.com/LSPosed/LSPosed — vivo al verificar hoy (2026-10-29)
+• https://github.com/RikkaApps/Shizuku — vivo al verificar hoy (2026-10-29)
+• https://github.com/iamr0s/Dhizuku — vivo al verificar hoy (2026-10-29)
+• https://github.com/RikkaApps/Sui — vivo al verificar hoy (2026-10-29)
+• https://github.com/aistra0528/Hail — vivo al verificar hoy (2026-10-29)
+• https://github.com/Aefyr/SAI — vivo al verificar hoy (2026-10-29)
+• https://github.com/wxxsfxyzm/InstallerX-Revived — vivo al verificar hoy (2026-10-29)
+• https://github.com/zacharee/InstallWithOptions — vivo al verificar hoy (2026-10-29)
+• https://github.com/Genymobile/scrcpy — vivo al verificar hoy (2026-10-29)
+• https://github.com/termux/termux-app — vivo al verificar hoy (2026-10-29)
+• https://github.com/ImranR98/Obtainium — vivo al verificar hoy (2026-10-29)
+• https://github.com/Droid-ify/client — vivo al verificar hoy (2026-10-29)
+• https://github.com/NeoApplications/Neo-Store — vivo al verificar hoy (2026-10-29)
+• https://github.com/whyorean/AuroraStore — vivo al verificar hoy (2026-10-29)
+• https://github.com/accrescent/accrescent — vivo al verificar hoy (2026-10-29)
+• https://github.com/solkin/appteka-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/rainxchzed/Github-Store — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 20 repos GitHub (20 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.
