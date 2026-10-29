@@ -42,6 +42,10 @@ with tempfile.TemporaryDirectory(dir='/home/user') as td:  # /tmp se llena con c
     hab=destino/'HABILIDADES'
     if hab.exists(): shutil.rmtree(hab)
     shutil.copytree(PROY/'HABILIDADES',hab)
+    for taller in ['_herramientas','_herramientas-casa']:
+        td2=destino/taller
+        if td2.exists(): shutil.rmtree(td2)
+        if (PROY/taller).exists(): shutil.copytree(PROY/taller,td2)
     run(['git','add','-A'],cwd=clon)
     st=run(['git','status','--porcelain'],cwd=clon).stdout.strip()
     if not st: print('guardar: sin cambios que empujar · remoto ya idéntico en lo sincronizado ·',antes)

@@ -48,22 +48,56 @@ def health(text):
             continue
         cur.append(l)
     if cur: blocks.append("\n".join(cur))
-    real = [b for b in blocks if not (len(b.split("\n")) == 1 and (b.startswith("REV|") or b.startswith("(Las respuestas")))]
+    real = [b for b in blocks if not (b.startswith("REV|") or b.startswith("(Las respuestas"))]
     over = [len(b) for b in real if len(b) > 380]
     return {"over": len(over), "max": max((len(b) for b in real), default=0)}
 
+def titulo_y_tag(d, nombre):
+    """Título real de la pieza, leído de su propio texto (nunca del nombre de archivo):
+    primer bloque; si abre con negrita, el título es el primer tramo en negrita
+    (aunque envuelva varias líneas); si no, el bloque entero. El tag es el segundo
+    tramo en negrita o el siguiente bloque de prosa, sin la línea de fecha de la casa."""
+    bloques = [b.strip() for b in re.split(r"\n\s*\n", d) if b.strip()]
+    def limpia(s):
+        return re.sub(r"\s+", " ", s.replace("*", "")).strip(" ·—")
+    titulo = ""; tag = ""; idx0 = 0
+    def es_sep(s): return bool(s) and set(s) <= set("─━═- ")
+    if bloques:
+        b0 = bloques[0]
+        if es_sep(b0) and len(bloques) > 1:  # separador inicial: el título vive en el bloque siguiente
+            idx0 = 1; b0 = bloques[1]
+        m = re.match(r"^#\s*(?:Publicación\s+\d+\s+—\s*)?(.+)$", b0, re.S)
+        if m:
+            titulo = limpia(m.group(1))
+        else:
+            negritas = re.findall(r"\*([^*]+)\*", b0, re.S)
+            if negritas:
+                titulo = limpia(negritas[0])
+                if len(negritas) > 1: tag = limpia(negritas[1])
+            else:
+                titulo = limpia(b0)
+    if not tag or tag == titulo:
+        tag = ""
+        for b in bloques[idx0+1:idx0+5]:
+            c = limpia(b)
+            if not c or c == titulo or c.startswith("La Bandita ·") or "Lectura total" in c or es_sep(c):
+                continue
+            tag = c; break
+    if not titulo:
+        titulo = re.sub(r"^\d+-", "", nombre).replace("-", " ")[:70]
+    return titulo[:120], tag[:170]
+
+def clave_num(f):
+    m = re.match(r"(\d+)", f)
+    return (int(m.group(1)) if m else 9999, f)
+
 pieces = []
-for f in sorted(os.listdir(WA)):
+for f in sorted(os.listdir(WA), key=clave_num):
     if not f.endswith(".md") or f.startswith("LEEME") or "-2026-10-02" in f:
         continue
     d = open(os.path.join(WA, f), encoding="utf-8").read()
     pid = re.match(r"(\d+)", f).group(1)  # 19-oct: f[:2] rompía las piezas de 3 dígitos (100 -> "10")
-    L = d.split("\n"); title = tag = ""
-    for l in L[:6]:
-        m = re.match(r"^\*(\S? ?[^*\n]+)\*$", l.strip())
-        if m and not title and len(m.group(1)) < 70: title = m.group(1).strip()
-        elif m and title and not tag: tag = m.group(1).strip()
-        if title and tag: break
+    title, tag = titulo_y_tag(d, f)
     stars = []
     for s in re.findall(r"★\s*(\d[\d.,]*)", d):
         s2 = s.rstrip(".,")
@@ -77,13 +111,13 @@ for f in sorted(os.listdir(WA)):
                    "stars": int(max(stars)) if stars else 0, "health": health(d), "text": d})
 
 fb = []
-for f in sorted(os.listdir(FBP)):
+for f in sorted(os.listdir(FBP), key=clave_num):
     if not f.endswith(".md") or f.startswith("LEEME"):
         continue
     d = open(os.path.join(FBP, f), encoding="utf-8").read()
     if "💓" not in d: continue
-    m = re.match(r"^\*(\S? ?[^*\n]+)\*$", d.split("\n")[0].strip())
-    fb.append({"file": f, "title": (m.group(1).strip() if m else f[:40]), "len": len(d), "text": d})
+    ftitle, _ftag = titulo_y_tag(d, f)
+    fb.append({"file": f, "title": ftitle, "len": len(d), "text": d})
 
 data = {"wa": pieces, "fb": fb}
 js = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
@@ -300,7 +334,7 @@ function goHome(){
     "<div class=\"chips\">"+chip("Piezas",D.wa.length)+chip("Muro FB (copia)",D.fb.length)+chip("Vara de arranque",(VARA.ok?"APROBADA ✓":"FALLO ✗"),(VARA.ok?"ok":"warn"))+chip("Quices",VARA.nquiz+" descifrables","ok")+"</div>"+cont+
     "<div class=\"card\" style=\"margin-top:16px\"><h4>🗂 Por familia</h4><div class=\"tilegrid\" style=\"margin-top:8px\">"+
     cats.map(c=>"<div class=\"ctile\" onclick='irCat(\""+c+"\")'><div class=\"ce\">"+(D.wa.find(p=>p.cat===c)||{}).ico+"️</div><div class=\"cn\">"+c+"</div><div class=\"cc\">"+nPor(c)+(nPor(c)===1?" guía":" guías")+"</div></div>").join("")+"</div></div>"+
-    "<div class=\"card\" style=\"margin-top:16px\"><h4>🆕 Recién certificadas (17-20 FINAL + fuera de serie)</h4><div class=\"minirow\" style=\"margin-top:8px\">"+
+    "<div class=\"card\" style=\"margin-top:16px\"><h4>🆕 El cierre del canon (las últimas seis, 103–108)</h4><div class=\"minirow\" style=\"margin-top:8px\">"+
     rec.map(p=>"<div class=\"minicard\" onclick='nav(\"#/guia/"+p.idx+"\")'><div class=\"t\">"+p.ico+" "+esc(p.title)+"</div><div class=\"m\">#"+p.id+" · "+p.len.toLocaleString()+" c · "+(health(p.text).over===0?"respirable ✓":">380")+"</div></div>").join("")+"</div></div>");
 }
 function goGuias(){
@@ -444,6 +478,8 @@ route();
 html = (HEAD.replace("__DATA__", js)
             .replace("__BUILD__", BUILD)
             + NUCLEO_V3 + MOTOR_V3 + VISTAS_V4 + ACCIONES_V3 + EVENTOS_V4)
+html = html.replace("__NWA__", str(len(data["wa"]))).replace("__NFB__", str(len(data["fb"])))
+assert "__NWA__" not in html and "__NFB__" not in html and "__BUILD__" not in html, "token sin reemplazar"
 # sanity del ensamblado
 for token in ("function cps(s)", "function quizRevelado", "function laVara", "function route", "function goAjustes", "function fallbackCopy", "route();"):
     assert token in html, "falta " + token

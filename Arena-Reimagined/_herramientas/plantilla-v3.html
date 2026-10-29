@@ -183,8 +183,12 @@ function laVara(){
   D.wa.forEach(p=>{ extractQuiz(p.text).forEach(qz=>{ out.nquiz++;
     const rv=quizRevelado(qz);
     if(!rv.items.some(d=>/^1\s*[=:]/.test(d))){out.ok=false;out.lineas.push("quiz no descifra en #"+p.id)} }); });
-  if(D.fb.length!==15){out.ok=false;out.lineas.push("FB≠15")}
+  D.wa.forEach(p=>{ if(p.text.indexOf("💓")<0){out.ok=false;out.lineas.push("WA sin 💓: #"+p.id)} });
+  if(D.fb.length!==__NFB__){out.ok=false;out.lineas.push("FB≠__NFB__")}
   D.fb.forEach(p=>{ if(p.text.indexOf("💓")<0){out.ok=false;out.lineas.push("FB sin 💓: "+p.file)} });
+  D.fb.forEach(p=>{ if(cps(p.text)!==p.len){out.ok=false;out.lineas.push("FB cps≠len: "+p.file)} });
+  D.fb.forEach(p=>{ extractQuiz(p.text).forEach(qz=>{ const rv=quizRevelado(qz);
+    if(!rv.items.some(d=>/^1\s*[=:]/.test(d))){out.ok=false;out.lineas.push("quiz FB no descifra: "+p.file)} }); });
   return out;
 }
 function fmtBlock(b){
@@ -201,7 +205,7 @@ function fmtBlock(b){
 }
 function extractQuiz(text){
   const L=text.split("\n"), found=[];
-  L.forEach((l,i)=>{ if(l.startsWith("Respuestas al rev")) found.push(i); });
+  L.forEach((l,i)=>{ if(l.replace(/^[*\s]+/,"").startsWith("Respuestas al rev")) found.push(i); });
   return found.map(i0=>{
     let j=i0+1;
     while(j<L.length && L[j].trim()==="") j++;
@@ -254,7 +258,7 @@ function card(p){
     "<div class=\"m\"><span class=\"badge\">"+p.len.toLocaleString()+" c</span>"+
     (p.stars?"<span class=\"badge st\">★"+p.stars.toLocaleString()+" pico</span>":"")+
     "<span class=\"badge "+(h.over===0?"ok":"wa")+"\">"+(h.over===0?"respirable ✓":h.over+" >380c")+"</span>"+
-    "<span class=\"badge\">censo 15-oct</span></div></div>";
+    "</div></div>";
 }
 /* ═══ VISTAS ═══ */
 function goHome(){
