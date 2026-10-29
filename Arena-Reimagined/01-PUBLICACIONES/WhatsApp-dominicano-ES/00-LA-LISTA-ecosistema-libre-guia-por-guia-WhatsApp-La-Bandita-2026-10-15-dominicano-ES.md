@@ -2,7 +2,7 @@
 
 _viernes 31 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 11 repos, 11 vivos. El mayor es **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **team-spotube/spotube** (★50.458): «🎧 Open source music streaming app! Available for both desktop & mobile!». Con actividad en los últimos 30 días: 2 de 11. Temas que se repiten en el grupo: android, android-client, android-music-player, android-tv.
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 11 repos, 11 vivos. El mayor es **syncthing/syncthing** (★89.873) «Open Source Continuous File Synchronization». Le sigue **team-spotube/spotube** (★50.458) «🎧 Open source music streaming app! Available for both desktop & mobile!». Con actividad en los últimos 30 días: 2 de 11. Temas que se repiten en el grupo: android, android-client, android-music-player, android-tv.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -50,7 +50,7 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 11 repos, 11 vivo
 
 ## Lectura de la medición
 
-Sin sobresaltos: el empuje más cercano es de **team-spotube/spotube** (hace 2 días). **syncthing/syncthing-android** duerme desde el 2024-12-03; 10 repos tienen release y la más reciente es la de **syncthing/syncthing** (v2.1.7 (2026-10-21)); en licencias: GPL-3.0 ×5, MPL-2.0 ×2, GPL-3.0 (según texto de su repo, 29-oct-2026) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivados por su autor: **AsrOfficialDev/ReDantotsu**, **KotatsuApp/Kotatsu**, **oxyroid/M3UAndroid**.
+Sin sobresaltos: el empuje más cercano es de **syncthing/syncthing** (hace 2 días). **syncthing/syncthing-android** duerme desde el 2024-12-03; 10 repos tienen release y la más reciente es la de **syncthing/syncthing** (v2.1.7 (2026-10-21)); en licencias: GPL-3.0 ×5, MPL-2.0 ×2, GPL-3.0 (según texto de su repo, 29-oct-2026) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivados por su autor: **AsrOfficialDev/ReDantotsu**, **KotatsuApp/Kotatsu**, **UsagiApp/core-exts**.
 
 ---
 
@@ -64,6 +64,6 @@ Sin sobresaltos: el empuje más cercano es de **team-spotube/spotube** (hace 2 d
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|92-01-6202 — ebutops/ebutops-maet=1|REV|378.98★ — gnihtcnys/gnihtcnys=2|REV|)12-01-6202( 7.1.2v — gnihtcnys/gnihtcnys=3
+REV|92-01-6202 — gnihtcnys/gnihtcnys=1|REV|378.98★ — gnihtcnys/gnihtcnys=2|REV|)12-01-6202( 7.1.2v — gnihtcnys/gnihtcnys=3
 
 💓 11 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.

@@ -2,12 +2,12 @@
 
 _viernes 31 de octubre de 2026 · La Bandita_
 
-**RikkaApps/Shizuku** encabeza esta entrega con ★32.384 medidos hoy: «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». La pieza cita 15 repos (14 vivos) y 10 empujaron en los últimos 30 días. Le sigue **ImranR98/Obtainium** (★21.019): «Get Android app updates straight from the source.». Temas que se repiten en el grupo: android, android-app, android-application, apk.
+**RikkaApps/Shizuku** encabeza esta entrega con ★32.385 medidos hoy «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». La pieza cita 15 repos (14 vivos) y 10 empujaron en los últimos 30 días. Le sigue **ImranR98/Obtainium** (★21.019) «Get Android app updates straight from the source.». Temas que se repiten en el grupo: android, android-app, android-application, apk.
 
 ## Los repos de esta pieza, medidos hoy
 
 - **RikkaApps/Shizuku** — «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.»
-  ★32.384 · su último empuje fue el 2025-06-18 (hace 500 días) · licencia Apache-2.0 · Kotlin · última release v13.6.0 (2025-05-25) · https://github.com/RikkaApps/Shizuku
+  ★32.385 · su último empuje fue el 2025-06-18 (hace 500 días) · licencia Apache-2.0 · Kotlin · última release v13.6.0 (2025-05-25) · https://github.com/RikkaApps/Shizuku
 
 - **ImranR98/Obtainium** — «Get Android app updates straight from the source.»
   ★21.019 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Dart · última release v1.7.3 (2026-10-25) · https://github.com/ImranR98/Obtainium · Web: https://obtainium.imranr.dev
@@ -72,7 +72,7 @@ _viernes 31 de octubre de 2026 · La Bandita_
 - https://gitlab.com/AuroraOSS/AuroraStore — respondió viva hoy
 - https://keepandroidopen.org — respondió viva hoy
 - https://komistore.app — respondió viva hoy
-- https://reports.exodus-privacy.eu.org — respondió viva hoy
+- https://reports.exodus-privacy.eu.org — sin respuesta de red hoy
 - https://victor-root.github.io/Omnify/ — respondió viva hoy
 - https://www.virustotal.com — respondió viva hoy
 - https://yukistore.org — respondió viva hoy
@@ -84,7 +84,7 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 ## Lectura de la medición
 
-Empieza por las bajas: **droidify/client** (caído (404)) no contestaron hoy. El más quieto es **RikkaApps/Shizuku**, parado desde el 2025-06-18; con releases publicadas hay 13; manda la de **ImranR98/Obtainium** (v1.7.3 (2026-10-25)); el parte legal dice GPL-3.0 ×10, Apache-2.0 ×2, MIT ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es **timschneeb/ShizuStore** (hace 2 días).
+Empieza por las bajas: **droidify/client** (caído (404)) no contestaron hoy. El más quieto es **RikkaApps/Shizuku**, parado desde el 2025-06-18; con releases publicadas hay 13; manda la de **ImranR98/Obtainium** (v1.7.3 (2026-10-25)); el parte legal dice GPL-3.0 ×10, Apache-2.0 ×2, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es **timschneeb/ShizuStore** (hace 2 días).
 
 ---
 

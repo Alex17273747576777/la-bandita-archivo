@@ -2,7 +2,7 @@
 
 _viernes 31 de octubre de 2026 · La Bandita_
 
-**Kototoro-app/Kototoro** encabeza esta entrega con ★653 medidos hoy: «Manga, Novel, and Video reader for Android». La pieza cita 3 repos (3 vivos) y 3 empujaron en los últimos 30 días. Le sigue **skepsun/kototoro-parsers** (★17): «Manga parsers library for Kotlin/JVM and Android».
+**Kototoro-app/Kototoro** encabeza esta entrega con ★653 medidos hoy «Manga, Novel, and Video reader for Android». La pieza cita 3 repos (3 vivos) y 3 empujaron en los últimos 30 días. Le sigue **skepsun/kototoro-parsers** (★17) «Manga parsers library for Kotlin/JVM and Android».
 
 ## Los repos de esta pieza, medidos hoy
 
