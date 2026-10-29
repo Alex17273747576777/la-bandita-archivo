@@ -2,6 +2,8 @@
 
 Todo el proceso de la casa convertido en habilidades que se pueden reusar infinitamente y que **aprenden de cada experiencia**: cada una trae su vara (procedimiento), su herramienta ejecutable y su memoria en la bitácora.
 
+> **Antes que todo: `CORAZON.md`** — los principios dictados por el dueño («no eres un chatbot: eres un asistente personal que crece con tu usuario»). Se lee al arrancar; manda sobre cualquier habilidad de esta lista.
+
 ## Las seis habilidades fundacionales
 1. **Arranque de suelo firme** — `herramientas/arranque.py` · Detecta la mordida, mide proyecto y espejo contra el manifiesto y restaura antes de afirmar nada. *Vara de arranque: inventario → hash → restaurar → recién trabajar.*
 2. **Verificación multinivel** — `herramientas/chequeo-niveles.py` (+ `../_herramientas/verificar-suelo.py`) · L0 hash · L1 lupa (**medición** de aire: cifras, no puerta) · L2 catálogo==disco · L4 paquete íntegro. *Vara de verificación: ningún nivel se salta; el que es puerta y falla detiene la línea; el que mide, publica su cifra.*
