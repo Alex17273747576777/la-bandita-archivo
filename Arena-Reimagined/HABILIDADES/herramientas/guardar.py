@@ -46,15 +46,18 @@ with tempfile.TemporaryDirectory() as td:
         print('guardar: empujado ·',run(['git','log','--oneline','-1'],cwd=clon).stdout.strip())
     remoto=run(['git','-C',str(clon),'ls-remote','origin','main'],env=env).stdout.strip()
     print('remoto verificado:',remoto)
-    clon2=Path(td)/'clon2'
-    for intento in range(3):
-        try:
-            run(['git','clone','-q','https://github.com/Alex17273747576777/la-bandita-archivo.git',str(clon2)],env=env); break
-        except Exception:
-            if intento==2: raise
-            import time; time.sleep(5)
+    # verificación sin segunda clonación: blobs del árbol remoto vs archivos locales
+    run(['git','fetch','-q','origin'],cwd=clon,env=env)
+    tree=run(['git','ls-tree','-r','origin/main'],cwd=clon).stdout
+    blobs={}
+    for ln in tree.splitlines():
+        meta,ruta=ln.split('\t'); blobs[ruta]=meta.split()[2]
+    import hashlib as _h
+    def blobsha(b): return _h.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest()
     pares=[]
     for serie in ['WhatsApp-dominicano-ES','Facebook-dominicano-ES']:
-        for f in (PROY/'01-PUBLICACIONES'/serie).glob('*.md'): pares.append((f,clon2/'Arena-Reimagined/01-PUBLICACIONES'/serie/f.name))
-    dif=[str(a) for a,b in pares if not b.exists() or a.read_bytes()!=b.read_bytes()]
-    print(f'clonación fresca: {len(pares)} archivos · diferencias: {len(dif)}')
+        for f in (PROY/'01-PUBLICACIONES'/serie).glob('*.md'): pares.append((f,f'Arena-Reimagined/01-PUBLICACIONES/{serie}/{f.name}'))
+    for extra in ['02-ARCHIVO/catalogo-la-bandita.html','ENTREGA-La-Bandita-29oct2026.zip','LEEME-ESTRUCTURA.md']:
+        if (PROY/extra).exists(): pares.append((PROY/extra,f'Arena-Reimagined/{extra}'))
+    dif=[str(a) for a,r in pares if blobs.get(r)!=blobsha(a.read_bytes())]
+    print(f'verificación por blobs del remoto: {len(pares)} archivos · diferencias: {len(dif)} {dif[:4]}')

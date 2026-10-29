@@ -1,4 +1,4 @@
-# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.4
+# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.5
 
 Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.py` y la versión sube sola. Una habilidad que no aprende es un papel; esta casa aprende.
 
@@ -11,3 +11,5 @@ Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.
 - **v1.3 (2026-10-29)** · L-09: Todo renombrado de carpeta exige: actualizar las rutas en las herramientas el mismo día, dejar mapa de traducción para las actas históricas (que no se reescriben) y verificar arranque+chequeo tras el cambio
 
 - **v1.4 (2026-10-29)** · L-10: Tras cualquier rescate o reorden: regenerar el manifiesto desde el corpus vigente y correr arranque antes de empujar; una verificación que muere por red se reintenta antes de declarar fallo
+
+- **v1.5 (2026-10-29)** · L-11: Del paquete manda el ZIP verificado: la carpeta se restaura DESDE el ZIP. Y la verificación tras push se hace por blobs del árbol remoto, sin segunda clonación que la red pueda tumbar

@@ -50,3 +50,8 @@ _Cada lección costó tiempo real. Leerla antes de trabajar ahorra el próximo t
 - **Contexto:** Reorden de carpetas + rescate mezclando eras (29-oct)
 - **Fallo/experiencia:** El manifiesto quedó de una era anterior al corpus (135 distintos): cada rescate parcial puede dejar artefactos de eras distintas conviviendo
 - **Regla que queda:** Tras cualquier rescate o reorden: regenerar el manifiesto desde el corpus vigente y correr arranque antes de empujar; una verificación que muere por red se reintenta antes de declarar fallo
+
+## L-11 · 2026-10-29
+- **Contexto:** Reorden + entrega truncada (29-oct)
+- **Fallo/experiencia:** La carpeta gemela de la entrega quedó en 2 archivos por la mordida y el espejo la propagó; el ZIP, en cambio, estaba íntegro
+- **Regla que queda:** Del paquete manda el ZIP verificado: la carpeta se restaura DESDE el ZIP. Y la verificación tras push se hace por blobs del árbol remoto, sin segunda clonación que la red pueda tumbar
