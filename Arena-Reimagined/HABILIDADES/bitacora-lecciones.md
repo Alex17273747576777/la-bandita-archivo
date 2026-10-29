@@ -100,3 +100,8 @@ _Cada lección costó tiempo real. Leerla antes de trabajar ahorra el próximo t
 - **Contexto:** Mordida nocturna del 29-oct-2026: tras el cierre de la rehechura, el snapshot dejó el proyecto con piezas viejas (44/113 WA, 98/148 FB), la ENTREGA vaciada en local y mutilada en el remoto, y borró entera la carpeta evidencia-31oct de proyecto y espejo.
 - **Fallo/experiencia:** La carpeta evidencia-31oct no estaba en la lista de copiado de guardar.py: todo lo que no viaja al remoto, la mordida se lo puede comer sin dejar copia. La carpeta ENTREGA remota además se alimentaba del espejo ya mordido. Lo que salvó el corpus fue el orden de verdad remoto/espejo verificado byte a byte más el ZIP íntegro como fuente de la ENTREGA.
 - **Regla que queda:** Toda carpeta nueva de evidencia o entrega se añade a guardar.py EL MISMO DÍA que nace, antes de su primer uso en producción; la lista de guardar.py se audita contra el árbol del proyecto en cada cierre. Y la verificación por blobs debe seguir pudiendo gritar diferencias: es la alarma, no un trámite.
+
+## L-21 · 2026-10-29
+- **Contexto:** Barrido bit a bit del 29-oct-2026
+- **Fallo/experiencia:** La forja viva del catálogo (forja-catalogo-v4.py, plantilla-v3.html y todo _herramientas) solo existía en el disco local; GitHub guardaba una versión vieja. El corpus estaba respaldado, pero el taller que lo produce, no.
+- **Regla que queda:** Lo que produce lo entregado también es entrega: forja, plantillas y varas viajan con el corpus en guardar.py desde el mismo día en que se detecta que quedaron fuera. Un respaldo que guarda el pan pero no el horno no es respaldo completo.

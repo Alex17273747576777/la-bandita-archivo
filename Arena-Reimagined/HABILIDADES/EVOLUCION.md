@@ -1,4 +1,4 @@
-# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.14
+# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.15
 
 Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.py` y la versión sube sola. Una habilidad que no aprende es un papel; esta casa aprende.
 
@@ -31,3 +31,5 @@ Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.
 - **v1.13 (2026-10-29)** · L-19: Queda la PUERTA ANTI-PLANTILLA como pieza permanente del circuito: normaliza líneas largas y bloquea el push si una línea de prosa supera el 12% del corpus; sus exenciones (dateline, pie de procedencia, fichas, mecanismo del quiz) se declaran por escrito en su código. Antes de escalar cualquier generador: (1) demostrar que la puerta caza el molde viejo, (2) generar muestra chica y LEERLA buscando datos falsos, no solo formato, (3) corregir el generador —nunca las piezas a mano—, (4) re-medir. Frescura de datos y frescura de redacción se auditan por separado.
 
 - **v1.14 (2026-10-29)** · L-20: Toda carpeta nueva de evidencia o entrega se añade a guardar.py EL MISMO DÍA que nace, antes de su primer uso en producción; la lista de guardar.py se audita contra el árbol del proyecto en cada cierre. Y la verificación por blobs debe seguir pudiendo gritar diferencias: es la alarma, no un trámite.
+
+- **v1.15 (2026-10-29)** · L-21: Lo que produce lo entregado también es entrega: forja, plantillas y varas viajan con el corpus en guardar.py desde el mismo día en que se detecta que quedaron fuera. Un respaldo que guarda el pan pero no el horno no es respaldo completo.
