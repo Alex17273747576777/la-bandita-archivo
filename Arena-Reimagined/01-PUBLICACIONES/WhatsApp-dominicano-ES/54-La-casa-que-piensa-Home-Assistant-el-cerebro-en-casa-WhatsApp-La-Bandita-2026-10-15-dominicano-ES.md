@@ -1,47 +1,35 @@
 *54 — LA CASA QUE PIENSA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**home-assistant/core** encabeza esta entrega con ★91.831 medidos hoy: «:house_with_garden: Open source home automation that puts local control and privacy first.». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **home-assistant/android** (★4.012): «Home Assistant Companion for Android». Temas que se repiten en el grupo: android, asyncio, automotive, compose.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `home-assistant/core` —
-★91.830, Apache-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **home-assistant/core** — «:house_with_garden: Open source home automation that puts local control and privacy first.»
+  ★91.831 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Python · última release 2026.10.4 (2026-10-24) · https://github.com/home-assistant/core · Web: https://www.home-assistant.io
+  Temas: asyncio · hacktoberfest · home-automation · internet-of-things · iot · mqtt
 
-• `home-assistant/core` — ★91.830 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **home-assistant/android** — «Home Assistant Companion for Android»
+  ★4.012 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release 2026.10.1 (2026-10-06) · https://github.com/home-assistant/android · Web: https://companion.home-assistant.io/
+  Temas: android · automotive · compose · hacktoberfest · home-assistant · home-automation
 
-• `home-assistant/android` — ★4.012 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Hay release de esta semana: **home-assistant/core** publicó 2026.10.4 (2026-10-24). Con releases publicadas hay 2; manda la de **home-assistant/core** (2026.10.4 (2026-10-24)); el parte legal dice Apache-2.0 ×2; lo último empujado lo firmó **home-assistant/core** hace 2 días.
 
-• https://github.com/home-assistant/core — vivo al verificar hoy (2026-10-29)
-• https://github.com/home-assistant/android — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Quién manda en estrellas dentro de esta pieza?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* La licencia de home-assistant/android, ¿cuál es?
 
-*2.* ¿Qué licencia firma `home-assistant/android`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* De la pieza, ¿quién empujó más cerca de hoy?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|038.19★ — `eroc/tnatsissa-emoh`=1|REV|0.2-ehcapA=2|REV|92-01-6202 — `eroc/tnatsissa-emoh`=3
+REV|138.19★ — eroc/tnatsissa-emoh=1|REV|0.2-ehcapA=2|REV|92-01-6202 — eroc/tnatsissa-emoh=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

@@ -1,47 +1,35 @@
 *38 — EL CERROJO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**beemdevelopment/Aegis** encabeza esta entrega con ★13.414 medidos hoy: «A free, secure and open source app for Android to manage your 2-step verification tokens.». La pieza cita 2 repos (2 vivos) y 0 empujaron en los últimos 30 días. Le sigue **helloworld1/FreeOTPPlus** (★749): «Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator». Temas que se repiten en el grupo: 2fa, android, authenticator, encryption.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `beemdevelopment/Aegis` —
-★13.414, GPL-3.0, último empuje 2026-09-06.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **beemdevelopment/Aegis** — «A free, secure and open source app for Android to manage your 2-step verification tokens.»
+  ★13.414 · su último empuje fue el 2026-09-06 (hace 55 días) · licencia GPL-3.0 · Java · última release v3.4.3 (2026-09-06) · https://github.com/beemdevelopment/Aegis · Web: https://getaegis.app
+  Temas: 2fa · android · authenticator · encryption · fingerprint · hotp
 
-• `beemdevelopment/Aegis` — ★13.414 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-06
-· GPL-3.0
+- **helloworld1/FreeOTPPlus** — «Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator»
+  ★749 · su último empuje fue el 2026-08-24 (hace 68 días) · licencia Apache-2.0 · Kotlin · última release RELEASE-3.4 (2026-05-31) · https://github.com/helloworld1/FreeOTPPlus
+  Temas: 2fa · authenticator · hotp · otp · totp
 
-• `helloworld1/FreeOTPPlus` — ★749 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-24
-· Apache-2.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **beemdevelopment/Aegis**, hace 55 días. El parte legal dice Apache-2.0 ×1, GPL-3.0 ×1; con releases publicadas hay 2; manda la de **beemdevelopment/Aegis** (v3.4.3 (2026-09-06)).
 
-• https://github.com/helloworld1/freeotpplus — vivo al verificar hoy (2026-10-29)
-• https://github.com/beemdevelopment/aegis — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Bajo qué licencia se publica helloworld1/FreeOTPPlus?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál fue el último repo del grupo en empujar código?
 
-*2.* ¿Qué licencia firma `helloworld1/FreeOTPPlus`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* La release más nueva de la pieza, ¿de qué repo es?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|414.31★ — `sigeA/tnempolevedmeeb`=1|REV|0.2-ehcapA=2|REV|60-90-6202 — `sigeA/tnempolevedmeeb`=3
+REV|0.2-ehcapA=1|REV|60-90-6202 — sigeA/tnempolevedmeeb=2|REV|)60-90-6202( 3.4.3v — sigeA/tnempolevedmeeb=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

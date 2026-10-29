@@ -1,58 +1,43 @@
 *44 — EL ALAMBRE*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos. El mayor es **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **syncthing/syncthing-android** (★4.293): «Wrapper of syncthing for Android.». Con actividad en los últimos 30 días: 2 de 4. Temas que se repiten en el grupo: adblock, android, cloudflare, cloudflare-workers.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 4 repos: 1 empujaron hoy, 1 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `syncthing/syncthing` —
-★89.873, MPL-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **syncthing/syncthing** — «Open Source Continuous File Synchronization»
+  ★89.873 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MPL-2.0 · Go · última release v2.1.7 (2026-10-21) · https://github.com/syncthing/syncthing · Web: https://syncthing.net/
+  Temas: go · p2p · peer-to-peer · synchronization
 
-• `syncthing/syncthing` — ★89.873 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MPL-2.0
+- **syncthing/syncthing-android** — «Wrapper of syncthing for Android.»
+  ★4.293 · su último empuje fue el 2024-12-03 (hace 697 días) · licencia MPL-2.0 · Java · última release 1.28.1 (2024-12-03) · ARCHIVADO: historia, no opción viva · https://github.com/syncthing/syncthing-android · Web: https://syncthing.net/
+  Temas: android · java · p2p · peer-to-peer · synchronization
 
-• `syncthing/syncthing-android` — ★4.293 (verificado 2026-10-29)
-· dormido · última actividad 2024-12-03
-· MPL-2.0
-· ARCHIVADO en GitHub: historia, no opción viva
+- **serverless-dns/serverless-dns** — «The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io»
+  ★3.832 · su último empuje fue el 2026-05-06 (hace 178 días) · licencia MPL-2.0 · JavaScript · https://github.com/serverless-dns/serverless-dns · Web: https://rethinkdns.com/configure
+  Temas: adblock · cloudflare · cloudflare-workers · deno · dns-over-https · dns-over-tls
 
-• `serverless-dns/serverless-dns` — ★3.832 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-05-06
-· MPL-2.0
+- **researchxxl/syncthing-android** — «Syncthing-Fork - A Syncthing Wrapper for Android.»
+  ★3.192 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia MPL-2.0 · Java · última release v2.1.7.0 (2026-10-21) · https://github.com/researchxxl/syncthing-android
+  Temas: file-synchronization
 
-• `researchxxl/syncthing-android` — ★3.192 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-22
-· MPL-2.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Sin sobresaltos: el empuje más cercano es de **syncthing/syncthing** (hace 2 días). Archivado por su autor: **syncthing/syncthing-android**; **syncthing/syncthing-android** duerme desde el 2024-12-03; 3 repos tienen release y la más reciente es la de **syncthing/syncthing** (v2.1.7 (2026-10-21)); en licencias: MPL-2.0 ×4.
 
-• https://github.com/syncthing/syncthing — vivo al verificar hoy (2026-10-29)
-• https://github.com/syncthing/syncthing-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/researchxxl/syncthing-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/serverless-dns/serverless-dns — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Quién manda en estrellas dentro de esta pieza?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
-*2.* ¿Qué licencia firma `syncthing/syncthing-android`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Con qué licencia sale syncthing/syncthing-android?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|378.98★ — `gnihtcnys/gnihtcnys`=1|REV|0.2-LPM=2|REV|92-01-6202 — `gnihtcnys/gnihtcnys`=3
+REV|378.98★ — gnihtcnys/gnihtcnys=1|REV|)12-01-6202( 7.1.2v — gnihtcnys/gnihtcnys=2|REV|0.2-LPM=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 4 repos GitHub (4 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

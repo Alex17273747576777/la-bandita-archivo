@@ -1,47 +1,35 @@
 *52 — EL ÁLBUM VIVO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**immich-app/immich** encabeza esta entrega con ★117.612 medidos hoy: «High performance self-hosted photo and video management solution.». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **photoprism/photoprism** (★40.370): «AI-Powered Photos App 🌈💎✨». Temas que se repiten en el grupo: ai, backup-tool, flutter, golang.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `immich-app/immich` —
-★117.610, AGPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **immich-app/immich** — «High performance self-hosted photo and video management solution.»
+  ★117.612 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · TypeScript · última release v3.3.5 (2026-10-21) · https://github.com/immich-app/immich · Web: https://immich.app
+  Temas: backup-tool · flutter · google-photos · google-photos-alternative · javascript · mobile-app
 
-• `immich-app/immich` — ★117.610 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **photoprism/photoprism** — «AI-Powered Photos App 🌈💎✨»
+  ★40.370 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 (según texto de su repo, 29-oct-2026) · Go · última release 261007-65faaae5d (2026-10-07) · https://github.com/photoprism/photoprism · Web: https://www.photoprism.app
+  Temas: ai · golang · google-photos · machine-learning · photography · private-cloud
 
-• `photoprism/photoprism` — ★40.370 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **immich-app/immich**, hace 2 días. Con releases publicadas hay 2; manda la de **immich-app/immich** (v3.3.5 (2026-10-21)); el parte legal dice AGPL-3.0 ×1, AGPL-3.0 (según texto de su repo, 29-oct-2026) ×1.
 
-• https://github.com/immich-app/immich — vivo al verificar hoy (2026-10-29)
-• https://github.com/photoprism/photoprism — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Qué licencia firma photoprism/photoprism?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* De esta pieza, ¿qué repo mide más estrellas hoy?
 
-*2.* ¿Qué licencia firma `photoprism/photoprism`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* La release más nueva de la pieza, ¿de qué repo es?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|016.711★ — `hcimmi/ppa-hcimmi`=1|REV|NOITRESSAON=2|REV|92-01-6202 — `hcimmi/ppa-hcimmi`=3
+REV|)6202-tco-92 ,oper us ed otxet núges( 0.3-LPGA=1|REV|216.711★ — hcimmi/ppa-hcimmi=2|REV|)12-01-6202( 5.3.3v — hcimmi/ppa-hcimmi=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

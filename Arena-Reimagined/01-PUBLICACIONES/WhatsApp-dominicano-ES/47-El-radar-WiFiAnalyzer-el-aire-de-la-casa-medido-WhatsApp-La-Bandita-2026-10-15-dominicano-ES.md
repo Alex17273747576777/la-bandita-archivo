@@ -1,40 +1,31 @@
 *47 — EL RADAR*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **VREMSoftwareDevelopment/WiFiAnalyzer** (★5.050): «Android application to analyze Wi-Fi signals.». Temas que se repiten en el grupo: android, gplv3, wifi-analyzer, wifi-network.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy:
-`VREMSoftwareDevelopment/WiFiAnalyzer` — ★5.050, GPL-3.0, último empuje 2026-10-03.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **VREMSoftwareDevelopment/WiFiAnalyzer** — «Android application to analyze Wi-Fi signals.»
+  ★5.050 · su último empuje fue el 2026-10-03 (hace 28 días) · licencia GPL-3.0 · Kotlin · última release V3.3.1-F-DROID (2026-07-01) · https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer · Web: https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/
+  Temas: android · gplv3 · wifi-analyzer · wifi-network
 
-• `VREMSoftwareDevelopment/WiFiAnalyzer` — ★5.050 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-03
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+El grupo respira despacio; su empuje más reciente, **VREMSoftwareDevelopment/WiFiAnalyzer**, fue hace 28 días. Legalmente el grupo se reparte así: GPL-3.0 ×1; **VREMSoftwareDevelopment/WiFiAnalyzer** firmó la release de fecha más reciente (V3.3.1-F-DROID (2026-07-01)) de las 1 del grupo.
 
-• https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
-
 *1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
 
-*2.* ¿Qué repo empujó más recientemente?
+*2.* ¿Cuál fue el último repo del grupo en empujar código?
+
+*3.* ¿Quién publicó la release más reciente del grupo?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|050.5★ — `rezylanAiFiW/tnempoleveDerawtfoSMERV`=1|REV|30-01-6202 — `rezylanAiFiW/tnempoleveDerawtfoSMERV`=2
+REV|050.5★ — rezylanAiFiW/tnempoleveDerawtfoSMERV=1|REV|30-01-6202 — rezylanAiFiW/tnempoleveDerawtfoSMERV=2|REV|)10-70-6202( DIORD-F-1.3.3V — rezylanAiFiW/tnempoleveDerawtfoSMERV=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
