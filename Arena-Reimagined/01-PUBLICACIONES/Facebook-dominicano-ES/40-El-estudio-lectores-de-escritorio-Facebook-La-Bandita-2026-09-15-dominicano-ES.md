@@ -76,25 +76,40 @@ Actividad medida hoy: 3 hoy · 7 en 7 días · 1 en 30 días · 0 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `ayowel/fork-yomikiru` — dormido · última actividad 2025-11-30 · ★0 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `ayowel/fork-yomikiru` — dormido
+· última actividad 2025-11-30 · ★0 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `dstark5/openlib` — dormido · última actividad 2026-01-18 · ★2.507 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `dstark5/openlib` — dormido
+· última actividad 2026-01-18 · ★2.507 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `koharu-rs/koharu` — creado 2025-04-09 · última actividad 2026-10-28 · ★6.534 (verificado 29-oct-2026) · Apache-2.0.
+• `koharu-rs/koharu` — creado 2025-04-09
+· última actividad 2026-10-28 · ★6.534 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `ireaderorg/ireader` — creado 2021-11-06 · última actividad 2026-10-28 · ★980 (verificado 29-oct-2026) · Apache-2.0.
+• `ireaderorg/ireader` — creado 2021-11-06
+· última actividad 2026-10-28 · ★980 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `mienaiyami/yomikiru` — creado 2021-10-22 · última actividad 2026-10-22 · ★572 (verificado 29-oct-2026) · MIT.
+• `mienaiyami/yomikiru` — creado 2021-10-22
+· última actividad 2026-10-22 · ★572 (verificado 29-oct-2026)
+· MIT.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `edrlab/thorium-reader` — ★2.920 (verificado 29-oct-2026) · última actividad 2026-10-29 · BSD-3-Clause · release latest-windows-intel automated test build (2026-10-29).
+• `edrlab/thorium-reader` — ★2.920 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· BSD-3-Clause
+· release latest-windows-intel automated test build (2026-10-29).
 
-• `paperback-ios/app` — ★787 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `paperback-ios/app` — ★787 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `dazedcat19/fmd2` — ★1.170 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0.
+• `dazedcat19/fmd2` — ★1.170 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-2.0.
 
 Licencias sin resolver hoy (1): `paperback-ios/app`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

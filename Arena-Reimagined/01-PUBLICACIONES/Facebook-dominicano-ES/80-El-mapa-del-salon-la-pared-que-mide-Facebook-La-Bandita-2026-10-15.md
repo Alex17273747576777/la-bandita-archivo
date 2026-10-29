@@ -58,7 +58,10 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `scummvm/scummvm` — ★2.870 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release ScummVM 2026.4.0 "Never-slop" (2026-10-11).
+• `scummvm/scummvm` — ★2.870 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release ScummVM 2026.4.0 "Never-slop" (2026-10-11).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

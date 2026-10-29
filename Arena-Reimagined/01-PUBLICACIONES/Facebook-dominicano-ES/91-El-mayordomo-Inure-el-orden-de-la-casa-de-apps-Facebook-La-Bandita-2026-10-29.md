@@ -8,7 +8,11 @@ Inure ordena la casa de aplicaciones: ver, auditar, desinstalar y entender qué 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `hamza417/inure` — ★1.979 (verificado 29-oct-2026) · actividad esta semana · última actividad 2026-10-28 · GPL-3.0 · release build107.3.0 (2026-10-21)
+• `hamza417/inure` — ★1.979 (verificado 29-oct-2026)
+· actividad esta semana
+· última actividad 2026-10-28
+· GPL-3.0
+· release build107.3.0 (2026-10-21)
 
 ## 📦 Las reglas de la casa
 

@@ -8,9 +8,16 @@ Tres ecosistemas de parches (ReVanced, Morphe y Reseam) bajo un mismo techo, con
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `jman-github/universal-patch-manager` — ★1.388 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2025-10-13 · GPL-3.0 · release v2.0.0 (2026-10-29).
+• `jman-github/universal-patch-manager` — ★1.388 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2025-10-13
+· GPL-3.0
+· release v2.0.0 (2026-10-29).
 
-• `revanced/revanced-manager` — ★29.995 (verificado 29-oct-2026) · última actividad 2026-05-11 · creado 2022-03-18 · GPL-3.0.
+• `revanced/revanced-manager` — ★29.995 (verificado 29-oct-2026)
+· última actividad 2026-05-11
+· creado 2022-03-18
+· GPL-3.0.
 
 ## 📦 Las reglas de la casa
 

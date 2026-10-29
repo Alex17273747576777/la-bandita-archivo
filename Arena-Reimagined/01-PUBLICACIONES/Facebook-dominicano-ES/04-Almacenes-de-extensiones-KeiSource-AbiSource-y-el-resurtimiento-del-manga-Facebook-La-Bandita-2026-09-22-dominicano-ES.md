@@ -219,19 +219,33 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `littlesurvival/copymanga-copy20` — creado 2025-05-11 · última actividad 2026-10-11 · ★2.970 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `littlesurvival/copymanga-copy20` — creado 2025-05-11
+· última actividad 2026-10-11 · ★2.970 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `yuzono/anime-extensions` — creado 2026-02-06 · última actividad 2026-10-29 · ★522 (verificado 29-oct-2026) · Apache-2.0.
+• `yuzono/anime-extensions` — creado 2026-02-06
+· última actividad 2026-10-29 · ★522 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `cuong-tran/manga-repo` — creado 2024-02-22 · última actividad 2026-10-29 · ★462 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `cuong-tran/manga-repo` — creado 2024-02-22
+· última actividad 2026-10-29 · ★462 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `keiyoushi/extensions-source` — ★4.831 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+• `keiyoushi/extensions-source` — ★4.831 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0.
 
-• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
+• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· sin licencia declarada
+· release Repository Update dbf6c05 (2026-10-29).
 
-• `cuong-tran/manga-repo` — ★462 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · release Repository Update c9fd7bc (2026-10-29).
+• `cuong-tran/manga-repo` — ★462 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+· release Repository Update c9fd7bc (2026-10-29).
 
 Licencias sin resolver hoy (3): `cuong-tran/manga-repo`, `keiyoushi/extensions`, `littlesurvival/copymanga-copy20`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

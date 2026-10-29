@@ -53,11 +53,20 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `nextcloud/android` — ★5.656 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release dev-20261029: daily dev 20261029 (2026-10-29).
+• `nextcloud/android` — ★5.656 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-2.0
+· release dev-20261029: daily dev 20261029 (2026-10-29).
 
-• `linwooddev/butterfly` — ★2.080 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v2.6.2 (2026-10-28).
+• `linwooddev/butterfly` — ★2.080 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· AGPL-3.0
+· release v2.6.2 (2026-10-28).
 
-• `t8rin/imageresizer` — ★15.234 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release 4.3.0-beta03 (2026-10-26).
+• `t8rin/imageresizer` — ★15.234 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release 4.3.0-beta03 (2026-10-26).
 
 Enlaces web: 12 apariciones; 12 respondieron vivas el 29-oct-2026.
 

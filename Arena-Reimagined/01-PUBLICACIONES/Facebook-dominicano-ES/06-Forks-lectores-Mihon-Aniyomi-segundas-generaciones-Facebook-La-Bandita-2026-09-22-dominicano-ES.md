@@ -22,7 +22,8 @@ Primero, la regla base por la que ningún fork es «el otro Tachiyomi»: cada un
 
 • Censo del mediodía 22-sep-2026: Mihon ★23.8k, push 22-sep-2026, v0.20.4 del 5-ago y commit de 22-sep-2026 (arreglo de la búsqueda de biblioteca) — el trono en forma; TachiyomiJ2K ★5.4k, push AYER 21-sep, v1.8.1 del 15-ago, commit de ayer («fix global search headers») — vivo aspirante con oficio; Aniyomi (rama oficial anime+manga) ★7.7k, v0.18.2.1 del 14-sep, último empuje 14-sep — la dualidad en horario; Anikku, con la etiqueta nueva anime watcher ★1.0k, v0.2.0 del 11-sep — la apuesta pequeña del sector con el pulso clave de los segundas generaciones. Y el capítulo vivo: Dantotsu del org rebelonion — HTTP 451 desde el retiro — ese número es lo que lees cuando un repositorio desaparece por orden judicial en un país: no abandono de desarrollo, ojo humano en la LLAVE. Distinge, y tu biblioteca se lo agradece cada tarde.
 
-• La regla heredable: NO elijas por el logo; elige por tu forma de leer (manga puro → secuencia manga; anime+manga → secuencia dual; anime puro liviano → segunda generación pequeña). Y NUNCA instales tu casa por captura de grupo — solo por la página de releases del repo con fecha y dueño. Con eso el barrio lleva dos años feliz.
+• La regla heredable: NO elijas por el logo; elige por tu forma de leer (manga puro → secuencia manga; anime+manga
+secuencia dual; anime puro liviano → segunda generación pequeña). Y NUNCA instales tu casa por captura de grupo — solo por la página de releases del repo con fecha y dueño. Con eso el barrio lleva dos años feliz.
 
 ┄┄┄
 
@@ -256,15 +257,25 @@ Actividad medida hoy: 0 hoy · 1 en 7 días · 1 en 30 días · 2 en 180 días �
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `komikku-app/anikku` — creado 2025-01-08 · última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026) · Apache-2.0.
+• `komikku-app/anikku` — creado 2025-01-08
+· última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `mihonapp/mihon` — ★24.829 (verificado 29-oct-2026) · última actividad 2026-10-26 · Apache-2.0 · release Mihon v0.21.3 (2026-10-26).
+• `mihonapp/mihon` — ★24.829 (verificado 29-oct-2026)
+· última actividad 2026-10-26
+· Apache-2.0
+· release Mihon v0.21.3 (2026-10-26).
 
-• `komikku-app/anikku` — ★1.123 (verificado 29-oct-2026) · última actividad 2026-10-05 · Apache-2.0 · release r8944 (2026-10-05).
+• `komikku-app/anikku` — ★1.123 (verificado 29-oct-2026)
+· última actividad 2026-10-05
+· Apache-2.0
+· release r8944 (2026-10-05).
 
-• `jays2kings/tachiyomij2k` — ★5.399 (verificado 29-oct-2026) · última actividad 2026-09-21 · Apache-2.0.
+• `jays2kings/tachiyomij2k` — ★5.399 (verificado 29-oct-2026)
+· última actividad 2026-09-21
+· Apache-2.0.
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

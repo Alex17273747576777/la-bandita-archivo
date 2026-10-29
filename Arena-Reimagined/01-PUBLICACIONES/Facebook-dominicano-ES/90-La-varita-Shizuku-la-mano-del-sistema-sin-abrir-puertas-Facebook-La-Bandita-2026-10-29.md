@@ -8,7 +8,9 @@ Shizuku presta manos de sistema sin abrir la puerta del root: la varita que medi
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `rikkaapps/shizuku` — ★32.357 (verificado 29-oct-2026) · dormido · última actividad 2025-06-18 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
+• `rikkaapps/shizuku` — ★32.357 (verificado 29-oct-2026) · dormido
+· última actividad 2025-06-18
+· licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
 
 ## 📦 Las reglas de la casa
 

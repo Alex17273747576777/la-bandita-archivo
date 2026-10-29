@@ -8,9 +8,14 @@ Dos descargadores hermanas enseñan la lección entera de esta casa: YTDLnis sol
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `deniscerri/ytdlnis` — ★10.839 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release 1.9.1.1 (2026-10-19).
+• `deniscerri/ytdlnis` — ★10.839 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· GPL-3.0
+· release 1.9.1.1 (2026-10-19).
 
-• `junkfood02/seal` — ★30.148 (verificado 29-oct-2026) · última actividad 2026-09-25 · GPL-3.0.
+• `junkfood02/seal` — ★30.148 (verificado 29-oct-2026)
+· última actividad 2026-09-25
+· GPL-3.0.
 
 ## 📦 Las reglas de la casa
 

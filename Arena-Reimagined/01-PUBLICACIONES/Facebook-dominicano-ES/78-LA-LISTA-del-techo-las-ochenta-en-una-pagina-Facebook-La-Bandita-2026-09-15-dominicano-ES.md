@@ -124,7 +124,10 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
+• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· GPL-2.0
+· release 12.4 (2026-10-26).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

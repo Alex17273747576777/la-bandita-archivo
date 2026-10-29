@@ -10,7 +10,10 @@ La estrella es modesta y la licencia que su puerta aún no declara en SPDX qued�
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `kototoro-app/kototoro` — ★650 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026) · release v2.3.4 (2026-10-29).
+• `kototoro-app/kototoro` — ★650 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
+· release v2.3.4 (2026-10-29).
 
 ## 📦 Las reglas de la casa
 

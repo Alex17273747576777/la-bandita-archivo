@@ -8,11 +8,23 @@ La lectura también nació esta semana en tres pantallas a la vez: Epigraph lee 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `johnnylord1/epigraph` — ★— (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-06-29 · Apache-2.0 (LICENSE leído hoy) · release Epigraph Mobile 0.1.0-alpha.23 (2026-10-26).
+• `johnnylord1/epigraph` — ★— (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-06-29
+· Apache-2.0 (LICENSE leído hoy)
+· release Epigraph Mobile 0.1.0-alpha.23 (2026-10-26).
 
-• `demacish/kodex` — ★— (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-28 · MIT · release Kodex 2.2.0 (2026-10-29).
+• `demacish/kodex` — ★— (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-10-28
+· MIT
+· release Kodex 2.2.0 (2026-10-29).
 
-• `devcaspian-hash/bokumi-app` — ★— (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-28 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · release Bokumi 0.1.0 · Developer Preview (2026-10-28).
+• `devcaspian-hash/bokumi-app` — ★— (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-10-28
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+· release Bokumi 0.1.0 · Developer Preview (2026-10-28).
 
 ## 📦 Las reglas de la casa
 

@@ -8,15 +8,35 @@ El dueño llegó con la canasta llena de descargadores recién nacidos y la casa
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `mailo037/hamstr` — ★1 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-26 · GPL-3.0 · release v0.7.4 (2026-10-29).
+• `mailo037/hamstr` — ★1 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-10-26
+· GPL-3.0
+· release v0.7.4 (2026-10-29).
 
-• `sleepless-index/ribbt` — ★1 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-13 · GPL-3.0 · release RibbT 0.1.63 (2026-10-29).
+• `sleepless-index/ribbt` — ★1 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-10-13
+· GPL-3.0
+· release RibbT 0.1.63 (2026-10-29).
 
-• `rajnishone/linklift` — ★11 (verificado 29-oct-2026) · última actividad 2026-10-28 · creado 2026-05-11 · MIT · release LinkLift v2.12 (2026-10-28).
+• `rajnishone/linklift` — ★11 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· creado 2026-05-11
+· MIT
+· release LinkLift v2.12 (2026-10-28).
 
-• `ramik4/ytindir` — ★11 (verificado 29-oct-2026) · última actividad 2026-10-28 · creado 2026-10-14 · GPL-3.0 · release YTindir 2.14.0 (build 65) (2026-10-28).
+• `ramik4/ytindir` — ★11 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· creado 2026-10-14
+· GPL-3.0
+· release YTindir 2.14.0 (build 65) (2026-10-28).
 
-• `rcrandon/gimmiedat` — ★3 (verificado 29-oct-2026) · última actividad 2026-10-08 · creado 2026-10-08 · GPL-3.0 · release Gimmie &#39;Dat 1.0.3 (2026-10-08).
+• `rcrandon/gimmiedat` — ★3 (verificado 29-oct-2026)
+· última actividad 2026-10-08
+· creado 2026-10-08
+· GPL-3.0
+· release Gimmie &#39;Dat 1.0.3 (2026-10-08).
 
 ## 📦 Las reglas de la casa
 

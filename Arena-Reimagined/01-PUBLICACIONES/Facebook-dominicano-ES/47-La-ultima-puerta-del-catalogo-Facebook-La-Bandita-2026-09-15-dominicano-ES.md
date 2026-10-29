@@ -69,9 +69,11 @@ Actividad medida hoy: 0 hoy · 2 en 7 días · 0 en 30 días · 4 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `venera-app/venera` — ARCHIVADO · última actividad 2026-04-05 · ★11.299 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `venera-app/venera` — ARCHIVADO
+· última actividad 2026-04-05 · ★11.299 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
-• `suwatte/suwatte` — dormido · última actividad 2025-09-05 · ★236 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `suwatte/suwatte` — dormido
+· última actividad 2025-09-05 · ★236 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 • `hayase-app/ui` — GitHub respondió HTTP 451 el 29-oct-2026 (no disponible por bloqueo legal). No se cita como repo accesible.
 
@@ -79,15 +81,25 @@ Actividad medida hoy: 0 hoy · 2 en 7 días · 0 en 30 días · 4 en 180 días �
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `yuneko-dev/nekori` — creado 2026-07-26 · última actividad 2026-10-24 · ★37 (verificado 29-oct-2026) · Apache-2.0.
+• `yuneko-dev/nekori` — creado 2026-07-26
+· última actividad 2026-10-24 · ★37 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `stremio/stremio-web` — ★14.935 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release v5.0.0-beta.43 (2026-10-20).
+• `stremio/stremio-web` — ★14.935 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· GPL-2.0
+· release v5.0.0-beta.43 (2026-10-20).
 
-• `yuneko-dev/nekori` — ★37 (verificado 29-oct-2026) · última actividad 2026-10-24 · Apache-2.0 · release Nekori v0.1.3 (2026-10-23).
+• `yuneko-dev/nekori` — ★37 (verificado 29-oct-2026)
+· última actividad 2026-10-24
+· Apache-2.0
+· release Nekori v0.1.3 (2026-10-23).
 
-• `tachimanga/tachidesk-server` — ★44 (verificado 29-oct-2026) · última actividad 2026-07-15 · MPL-2.0.
+• `tachimanga/tachidesk-server` — ★44 (verificado 29-oct-2026)
+· última actividad 2026-07-15
+· MPL-2.0.
 
 Enlaces web: 8 apariciones; 8 respondieron vivas el 29-oct-2026.
 

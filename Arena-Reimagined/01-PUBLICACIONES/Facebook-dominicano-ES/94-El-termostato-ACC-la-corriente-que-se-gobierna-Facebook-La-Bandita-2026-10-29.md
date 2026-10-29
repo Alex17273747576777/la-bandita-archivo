@@ -8,7 +8,9 @@ ACC gobierna la carga para que la batería viva años: la forja madura que empuj
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `vr-25/acc` — ★2.431 (verificado 29-oct-2026) · dormido · última actividad 2025-06-06 · GPL-3.0
+• `vr-25/acc` — ★2.431 (verificado 29-oct-2026) · dormido
+· última actividad 2025-06-06
+· GPL-3.0
 
 ## 📦 Las reglas de la casa
 

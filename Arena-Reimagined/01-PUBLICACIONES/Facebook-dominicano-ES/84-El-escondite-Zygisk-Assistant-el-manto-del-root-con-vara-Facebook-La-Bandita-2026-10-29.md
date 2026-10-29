@@ -8,7 +8,10 @@ Zygisk-Assistant esconde la raíz de las apps que la persiguen, con licencia MIT
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `snake-4/zygisk-assistant` — ★2.660 (verificado 29-oct-2026) · actividad últimos 180 días · última actividad 2026-05-04 · MIT
+• `snake-4/zygisk-assistant` — ★2.660 (verificado 29-oct-2026)
+· actividad últimos 180 días
+· última actividad 2026-05-04
+· MIT
 
 ## 📦 Las reglas de la casa
 

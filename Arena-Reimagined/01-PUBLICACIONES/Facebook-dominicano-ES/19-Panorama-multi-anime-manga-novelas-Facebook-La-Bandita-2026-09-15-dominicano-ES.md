@@ -105,19 +105,34 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `andarcanum/tadami-aniyomi-fork` — creado 2026-01-09 · última actividad 2026-10-29 · ★287 (verificado 29-oct-2026) · Apache-2.0.
+• `andarcanum/tadami-aniyomi-fork` — creado 2026-01-09
+· última actividad 2026-10-29 · ★287 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `kototoro-app/kototoro` — creado 2025-10-28 · última actividad 2026-10-29 · ★650 (verificado 29-oct-2026) · Apache-2.0.
+• `kototoro-app/kototoro` — creado 2025-10-28
+· última actividad 2026-10-29 · ★650 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `chimahon/chimahon` — creado 2026-03-27 · última actividad 2026-10-20 · ★237 (verificado 29-oct-2026) · GPL-3.0.
+• `chimahon/chimahon` — creado 2026-03-27
+· última actividad 2026-10-20 · ★237 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `gotson/komga` — ★6.796 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release Release 1.29.2 (2026-10-28).
+• `gotson/komga` — ★6.796 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· MIT
+· release Release 1.29.2 (2026-10-28).
 
-• `kototoro-app/kototoro` — ★650 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release v2.3.4 (2026-10-29).
+• `kototoro-app/kototoro` — ★650 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release v2.3.4 (2026-10-29).
 
-• `andarcanum/tadami-aniyomi-fork` — ★287 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release Tadami v0.63.2 (2026-10-28).
+• `andarcanum/tadami-aniyomi-fork` — ★287 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release Tadami v0.63.2 (2026-10-28).
 
 Licencias sin resolver hoy (1): `tadamiorg/tadami`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

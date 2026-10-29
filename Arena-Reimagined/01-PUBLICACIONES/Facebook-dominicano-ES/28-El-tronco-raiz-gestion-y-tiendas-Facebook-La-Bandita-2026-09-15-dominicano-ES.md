@@ -83,25 +83,39 @@ Actividad medida hoy: 2 hoy · 6 en 7 días · 5 en 30 días · 3 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `rikkaapps/shizuku` — dormido · última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `rikkaapps/shizuku` — dormido
+· última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `aefyr/sai` — dormido · última actividad 2021-02-25 · ★3.950 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `aefyr/sai` — dormido
+· última actividad 2021-02-25 · ★3.950 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `lsposed/lsposed` — dormido · última actividad 2024-01-07 · ★25.239 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `lsposed/lsposed` — dormido
+· última actividad 2024-01-07 · ★25.239 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `rikkaapps/sui` — dormido · última actividad 2023-09-30 · ★4.336 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `rikkaapps/sui` — dormido
+· última actividad 2023-09-30 · ★4.336 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `rainxchzed/github-store` — creado 2025-11-21 · última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026) · Apache-2.0.
+• `rainxchzed/github-store` — creado 2025-11-21
+· última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `tiann/kernelsu` — ★19.798 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release v3.3.1 (2026-10-12).
+• `tiann/kernelsu` — ★19.798 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release v3.3.1 (2026-10-12).
 
-• `iamr0s/dhizuku` — ★4.044 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
+• `iamr0s/dhizuku` — ★4.044 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0.
 
-• `topjohnwu/magisk` — ★63.583 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0 · release Magisk v31.1 (2026-10-26).
+• `topjohnwu/magisk` — ★63.583 (verificado 29-oct-2026)
+· última actividad 2026-10-27
+· GPL-3.0
+· release Magisk v31.1 (2026-10-26).
 
 Licencias sin resolver hoy (1): `termux/termux-app`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

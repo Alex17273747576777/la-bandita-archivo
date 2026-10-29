@@ -48,23 +48,39 @@ Actividad medida hoy: 0 hoy · 1 en 7 días · 2 en 30 días · 1 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `thiagooo0/ehhelper` — dormido · última actividad 2023-06-27 · ★0 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `thiagooo0/ehhelper` — dormido
+· última actividad 2023-06-27 · ★0 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `helios57/muplay` — creado 2026-08-22 · última actividad 2026-10-14 · ★0 (verificado 29-oct-2026) · MIT.
+• `helios57/muplay` — creado 2026-08-22
+· última actividad 2026-10-14 · ★0 (verificado 29-oct-2026)
+· MIT.
 
-• `ulightm111/boky-fivavahana-ion` — creado 2026-04-07 · última actividad 2026-10-14 · ★0 (verificado 29-oct-2026) · GPL-3.0.
+• `ulightm111/boky-fivavahana-ion` — creado 2026-04-07
+· última actividad 2026-10-14 · ★0 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `vauvenal5/yaga` — creado 2026-09-13 · última actividad 2026-10-28 · ★2 (verificado 29-oct-2026) · AGPL-3.0.
+• `vauvenal5/yaga` — creado 2026-09-13
+· última actividad 2026-10-28 · ★2 (verificado 29-oct-2026)
+· AGPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `vauvenal5/yaga` — ★2 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release v1.0.2 Beta (2026-10-28).
+• `vauvenal5/yaga` — ★2 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· AGPL-3.0
+· release v1.0.2 Beta (2026-10-28).
 
-• `ulightm111/boky-fivavahana-ion` — ★0 (verificado 29-oct-2026) · última actividad 2026-10-14 · GPL-3.0 · release Update - v2.6.1 (2026-10-14).
+• `ulightm111/boky-fivavahana-ion` — ★0 (verificado 29-oct-2026)
+· última actividad 2026-10-14
+· GPL-3.0
+· release Update - v2.6.1 (2026-10-14).
 
-• `helios57/muplay` — ★0 (verificado 29-oct-2026) · última actividad 2026-10-14 · MIT · release MuPlay v0.3.0 (2026-10-11).
+• `helios57/muplay` — ★0 (verificado 29-oct-2026)
+· última actividad 2026-10-14
+· MIT
+· release MuPlay v0.3.0 (2026-10-11).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

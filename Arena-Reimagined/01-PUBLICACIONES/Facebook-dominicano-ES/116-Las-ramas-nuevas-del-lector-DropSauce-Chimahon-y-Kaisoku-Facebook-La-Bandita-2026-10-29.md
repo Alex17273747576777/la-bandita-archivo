@@ -8,11 +8,20 @@ El lector de manga ya no tiene un tronco: tiene un bosque de ramas jóvenes que 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `huzaifakhalid1311/dropsauce` — ★214 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release v1.1.1 (2026-10-29).
+• `huzaifakhalid1311/dropsauce` — ★214 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release v1.1.1 (2026-10-29).
 
-• `sohilsayed/chimahon` — ★237 (verificado 29-oct-2026) · última actividad 2026-10-20 · GPL-3.0 · release Chimahon v2.4.9 (2026-10-20).
+• `sohilsayed/chimahon` — ★237 (verificado 29-oct-2026)
+· última actividad 2026-10-20
+· GPL-3.0
+· release Chimahon v2.4.9 (2026-10-20).
 
-• `glitch-228/kaisoku` — ★54 (verificado 29-oct-2026) · última actividad 2026-10-06 · GPL-3.0 · release Kaisoku v9.8.7-beta5 (2026-10-25).
+• `glitch-228/kaisoku` — ★54 (verificado 29-oct-2026)
+· última actividad 2026-10-06
+· GPL-3.0
+· release Kaisoku v9.8.7-beta5 (2026-10-25).
 
 ## 📦 Las reglas de la casa
 

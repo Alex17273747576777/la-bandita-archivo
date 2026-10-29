@@ -51,23 +51,39 @@ Actividad medida hoy: 2 hoy · 3 en 7 días · 2 en 30 días · 5 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `secuso/privacy-friendly-sketching` — dormido · última actividad 2026-04-26 · ★25 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `secuso/privacy-friendly-sketching` — dormido
+· última actividad 2026-04-26 · ★25 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `materializr-cad/materializr` — creado 2026-05-27 · última actividad 2026-10-29 · ★169 (verificado 29-oct-2026) · GPL-3.0.
+• `materializr-cad/materializr` — creado 2026-05-27
+· última actividad 2026-10-29 · ★169 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `pynicolas/fairscan` — creado 2025-03-30 · última actividad 2026-10-10 · ★995 (verificado 29-oct-2026) · GPL-3.0.
+• `pynicolas/fairscan` — creado 2025-03-30
+· última actividad 2026-10-10 · ★995 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `leonlatsch/photok` — creado 2020-08-12 · última actividad 2026-10-28 · ★994 (verificado 29-oct-2026) · Apache-2.0.
+• `leonlatsch/photok` — creado 2020-08-12
+· última actividad 2026-10-28 · ★994 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release October 7, 2026 (2026-10-07).
+• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION)
+· release October 7, 2026 (2026-10-07).
 
-• `materializr-cad/materializr` — ★169 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release 1.7.6 Beta 1 (2026-10-29).
+• `materializr-cad/materializr` — ★169 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release 1.7.6 Beta 1 (2026-10-29).
 
-• `leonlatsch/photok` — ★994 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release 3.7.0 (2026-10-20).
+• `leonlatsch/photok` — ★994 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· Apache-2.0
+· release 3.7.0 (2026-10-20).
 
 Licencias sin resolver hoy (2): `photoprism/photoprism`, `lukeneedham/videodiary`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

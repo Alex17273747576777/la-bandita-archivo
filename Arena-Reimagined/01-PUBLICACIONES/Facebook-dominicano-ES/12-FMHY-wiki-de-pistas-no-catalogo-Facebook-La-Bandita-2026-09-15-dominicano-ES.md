@@ -212,7 +212,9 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `fmhy/fmhy` — ★15.318 (verificado 29-oct-2026) · última actividad 2026-05-13 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `fmhy/fmhy` — ★15.318 (verificado 29-oct-2026)
+· última actividad 2026-05-13
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Licencias sin resolver hoy (1): `fmhy/fmhy`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

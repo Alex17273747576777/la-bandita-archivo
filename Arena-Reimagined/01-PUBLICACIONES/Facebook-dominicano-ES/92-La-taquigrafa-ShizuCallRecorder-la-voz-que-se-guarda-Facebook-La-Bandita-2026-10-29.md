@@ -8,7 +8,11 @@ La taquígrafa graba llamadas sin root usando la mano que la varita ya prestó: 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `kitsumed/shizucallrecorder` — ★1.927 (verificado 29-oct-2026) · actividad esta semana · última actividad 2026-10-24 · GPL-3.0 · release v2.0.0 (2026-10-24)
+• `kitsumed/shizucallrecorder` — ★1.927 (verificado 29-oct-2026)
+· actividad esta semana
+· última actividad 2026-10-24
+· GPL-3.0
+· release v2.0.0 (2026-10-24)
 
 ## 📦 Las reglas de la casa
 

@@ -8,7 +8,10 @@ Una tienda que vive de los releases de GitHub juntó veinte mil estrellas en onc
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `openhub-store/github-store` — ★20.085 (verificado 29-oct-2026) · última actividad 2026-10-25 · Apache-2.0 (LICENSE leído hoy) · release 🩹 Komi Store 1.9.4 (2026-10-24).
+• `openhub-store/github-store` — ★20.085 (verificado 29-oct-2026)
+· última actividad 2026-10-25
+· Apache-2.0 (LICENSE leído hoy)
+· release 🩹 Komi Store 1.9.4 (2026-10-24).
 
 ## 📦 Las reglas de la casa
 

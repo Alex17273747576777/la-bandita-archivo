@@ -84,17 +84,30 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `pkmetski/riffle` — creado 2026-05-29 · última actividad 2026-10-29 · ★18 (verificado 29-oct-2026) · AGPL-3.0.
+• `pkmetski/riffle` — creado 2026-05-29
+· última actividad 2026-10-29 · ★18 (verificado 29-oct-2026)
+· AGPL-3.0.
 
-• `tadamiorg/tadami` — creado 2024-01-23 · última actividad 2026-10-23 · ★60 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `tadamiorg/tadami` — creado 2024-01-23
+· última actividad 2026-10-23 · ★60 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `kovidgoyal/calibre` — ★26.277 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release version 9.17.0 (2026-10-23).
+• `kovidgoyal/calibre` — ★26.277 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release version 9.17.0 (2026-10-23).
 
-• `foobnix/librerareader` — ★4.976 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release 10.0.19 (2026-10-29).
+• `foobnix/librerareader` — ★4.976 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION)
+· release 10.0.19 (2026-10-29).
 
-• `pkmetski/riffle` — ★18 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v2.45.4 (2026-10-05).
+• `pkmetski/riffle` — ★18 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· AGPL-3.0
+· release v2.45.4 (2026-10-05).
 
 Licencias sin resolver hoy (2): `foobnix/librerareader`, `tadamiorg/tadami`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

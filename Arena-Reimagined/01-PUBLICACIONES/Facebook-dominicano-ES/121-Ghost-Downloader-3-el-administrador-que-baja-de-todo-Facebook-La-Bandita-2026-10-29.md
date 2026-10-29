@@ -8,11 +8,23 @@ El dueño trajo un fantasma serio: un administrador de descargas multiprotocolo 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `xiaoyouchr/ghost-downloader-3` — ★10.497 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2023-08-16 · GPL-3.0 · release v4.4.6 (2026-10-28).
+• `xiaoyouchr/ghost-downloader-3` — ★10.497 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2023-08-16
+· GPL-3.0
+· release v4.4.6 (2026-10-28).
 
-• `gopeedlab/gopeed` — ★27.240 (verificado 29-oct-2026) · última actividad 2026-10-28 · creado 2019-04-21 · GPL-3.0 · release v2.0.0-beta.3 🌈 (2026-09-18).
+• `gopeedlab/gopeed` — ★27.240 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· creado 2019-04-21
+· GPL-3.0
+· release v2.0.0-beta.3 🌈 (2026-09-18).
 
-• `agalwood/motrix` — ★57.546 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2018-12-18 · MIT (histórica; hoy sin SPDX resuelto) · release v2.1.0 (2026-10-28).
+• `agalwood/motrix` — ★57.546 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2018-12-18
+· MIT (histórica; hoy sin SPDX resuelto)
+· release v2.1.0 (2026-10-28).
 
 ## 📦 Las reglas de la casa
 

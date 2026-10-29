@@ -8,11 +8,18 @@ La lectura también vive en tinta electrónica: Rakuyomi lleva el manga al e-rea
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `tachibana-shin/rakuyomi` — ★651 (verificado 29-oct-2026) · última actividad 2026-10-24 · AGPL-3.0 · release v1.44.3 (2026-10-24).
+• `tachibana-shin/rakuyomi` — ★651 (verificado 29-oct-2026)
+· última actividad 2026-10-24
+· AGPL-3.0
+· release v1.44.3 (2026-10-24).
 
-• `ciromattia/kcc` — ★5.927 (verificado 29-oct-2026) · última actividad 2026-10-28 · ISC · release v12.1.3 (2026-10-27).
+• `ciromattia/kcc` — ★5.927 (verificado 29-oct-2026)
+· última actividad 2026-10-28 · ISC
+· release v12.1.3 (2026-10-27).
 
-• `utazukin/ichaival` — ★220 (verificado 29-oct-2026) · última actividad 2026-08-26 · GPL-3.0.
+• `utazukin/ichaival` — ★220 (verificado 29-oct-2026)
+· última actividad 2026-08-26
+· GPL-3.0.
 
 ## 📦 Las reglas de la casa
 

@@ -70,11 +70,19 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `gotson/komga` — ★6.796 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release Release 1.29.2 (2026-10-28).
+• `gotson/komga` — ★6.796 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· MIT
+· release Release 1.29.2 (2026-10-28).
 
-• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
+• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· GPL-2.0
+· release 12.4 (2026-10-26).
 
-• `kareadita/kavita` — ★11.967 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
+• `kareadita/kavita` — ★11.967 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· GPL-3.0.
 
 Enlaces web: 4 apariciones; 4 respondieron vivas el 29-oct-2026.
 

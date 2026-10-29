@@ -81,27 +81,45 @@ Actividad medida hoy: 3 hoy · 5 en 7 días · 1 en 30 días · 1 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `bitplane/microphone` — dormido · última actividad 2026-01-06 · ★55 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `bitplane/microphone` — dormido
+· última actividad 2026-01-06 · ★55 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `brahmkshatriya/echo` — dormido · última actividad 2026-03-16 · ★3.604 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `brahmkshatriya/echo` — dormido
+· última actividad 2026-03-16 · ★3.604 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `futonapp/futon` — dormido · última actividad 2016-04-30 · ★0 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `futonapp/futon` — dormido
+· última actividad 2016-04-30 · ★0 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `23rd/scrib` — creado 2026-07-11 · última actividad 2026-10-29 · ★92 (verificado 29-oct-2026) · GPL-3.0.
+• `23rd/scrib` — creado 2026-07-11
+· última actividad 2026-10-29 · ★92 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `a-edev/flow` — creado 2025-10-19 · última actividad 2026-10-29 · ★3.153 (verificado 29-oct-2026) · GPL-3.0.
+• `a-edev/flow` — creado 2025-10-19
+· última actividad 2026-10-29 · ★3.153 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `alanhuang99/resonance` — creado 2026-03-15 · última actividad 2026-10-27 · ★16 (verificado 29-oct-2026) · GPL-3.0.
+• `alanhuang99/resonance` — creado 2026-03-15
+· última actividad 2026-10-27 · ★16 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `grakovne/lissen-android` — ★749 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release 1.12.16-release (2026-10-27).
+• `grakovne/lissen-android` — ★749 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· MIT
+· release 1.12.16-release (2026-10-27).
 
-• `a-edev/flow` — ★3.153 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release Flow nightly 1789 (2026-10-29).
+• `a-edev/flow` — ★3.153 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release Flow nightly 1789 (2026-10-29).
 
-• `23rd/scrib` — ★92 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release v0.25 (2026-10-29).
+• `23rd/scrib` — ★92 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release v0.25 (2026-10-29).
 
 Licencias sin resolver hoy (3): `bitplane/microphone`, `brahmkshatriya/echo`, `futonapp/futon`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

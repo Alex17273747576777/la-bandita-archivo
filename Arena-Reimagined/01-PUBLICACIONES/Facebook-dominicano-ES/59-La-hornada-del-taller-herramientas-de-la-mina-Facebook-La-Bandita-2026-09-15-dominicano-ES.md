@@ -61,25 +61,41 @@ Actividad medida hoy: 5 hoy · 7 en 7 días · 1 en 30 días · 0 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `vegabobo/dsu-sideloader` — dormido · última actividad 2024-03-13 · ★2.343 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `vegabobo/dsu-sideloader` — dormido
+· última actividad 2024-03-13 · ★2.343 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `carry-rrk/managesensors` — dormido · última actividad 2025-01-18 · ★45 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `carry-rrk/managesensors` — dormido
+· última actividad 2025-01-18 · ★45 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `ahmetcanarslan/shizuwall` — creado 2025-10-27 · última actividad 2026-10-29 · ★2.404 (verificado 29-oct-2026) · GPL-3.0.
+• `ahmetcanarslan/shizuwall` — creado 2025-10-27
+· última actividad 2026-10-29 · ★2.404 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `khh-vu/wifi-password-manager` — creado 2025-07-12 · última actividad 2026-10-29 · ★322 (verificado 29-oct-2026) · MIT.
+• `khh-vu/wifi-password-manager` — creado 2025-07-12
+· última actividad 2026-10-29 · ★322 (verificado 29-oct-2026)
+· MIT.
 
-• `kurikomi-labs/komi-store` — creado 2025-11-21 · última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026) · Apache-2.0.
+• `kurikomi-labs/komi-store` — creado 2025-11-21
+· última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `awesome-selfhosted/awesome-selfhosted` — ★331.648 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
+• `awesome-selfhosted/awesome-selfhosted` — ★331.648 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION).
 
-• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release October 7, 2026 (2026-10-07).
+• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION)
+· release October 7, 2026 (2026-10-07).
 
-• `jellyfin/jellyfin-androidtv` — ★4.672 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release v0.20.0-beta.4 (2026-10-15).
+• `jellyfin/jellyfin-androidtv` — ★4.672 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-2.0
+· release v0.20.0-beta.4 (2026-10-15).
 
 Licencias sin resolver hoy (2): `photoprism/photoprism`, `awesome-selfhosted/awesome-selfhosted`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

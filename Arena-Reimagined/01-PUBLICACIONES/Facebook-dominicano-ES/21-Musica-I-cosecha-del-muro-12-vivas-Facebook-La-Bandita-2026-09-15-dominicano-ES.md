@@ -101,19 +101,32 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `arunnechully/soundpod` — creado 2025-11-02 · última actividad 2026-10-28 · ★122 (verificado 29-oct-2026) · GPL-3.0.
+• `arunnechully/soundpod` — creado 2025-11-02
+· última actividad 2026-10-28 · ★122 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `d0x-dev/airbeats-desktop` — creado 2026-08-23 · última actividad 2026-10-14 · ★4 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `d0x-dev/airbeats-desktop` — creado 2026-08-23
+· última actividad 2026-10-14 · ★4 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `francescograzioso/meld` — creado 2025-12-18 · última actividad 2026-10-29 · ★1.836 (verificado 29-oct-2026) · GPL-3.0.
+• `francescograzioso/meld` — creado 2025-12-18
+· última actividad 2026-10-29 · ★1.836 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `kopuz-org/kopuz` — ★1.958 (verificado 29-oct-2026) · última actividad 2026-10-29 · EUPL-1.2 · release v0.68.0-nightly.20261029.2 (2026-10-29).
+• `kopuz-org/kopuz` — ★1.958 (verificado 29-oct-2026)
+· última actividad 2026-10-29 · EUPL-1.2
+· release v0.68.0-nightly.20261029.2 (2026-10-29).
 
-• `francescograzioso/meld` — ★1.836 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
+• `francescograzioso/meld` — ★1.836 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0.
 
-• `teamauramusic/auramusic` — ★112 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release AuraMusic v3.2.0 (2026-10-17).
+• `teamauramusic/auramusic` — ★112 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release AuraMusic v3.2.0 (2026-10-17).
 
 Licencias sin resolver hoy (1): `d0x-dev/airbeats-desktop`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

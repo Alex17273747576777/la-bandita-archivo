@@ -8,11 +8,20 @@ La privacidad del tránsito viene en tres niveles y hoy los tres empujaron: la a
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `2dust/v2rayng` — ★64.925 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release 2.3.14 (2026-10-28).
+• `2dust/v2rayng` — ★64.925 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· GPL-3.0
+· release 2.3.14 (2026-10-28).
 
-• `metacubex/clashmetaforandroid` — ★48.590 (verificado 29-oct-2026) · última actividad 2026-10-21 · GPL-3.0 · release v2.11.36 (2026-10-21).
+• `metacubex/clashmetaforandroid` — ★48.590 (verificado 29-oct-2026)
+· última actividad 2026-10-21
+· GPL-3.0
+· release v2.11.36 (2026-10-21).
 
-• `guardianproject/orbot` — ★3.659 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia sin clasificar (NOASSERTION) · release Orbot for Android v17.9.7 RC 1 (tor 0.4.9.14) (2026-10-09).
+• `guardianproject/orbot` — ★3.659 (verificado 29-oct-2026)
+· última actividad 2026-10-26
+· licencia sin clasificar (NOASSERTION)
+· release Orbot for Android v17.9.7 RC 1 (tor 0.4.9.14) (2026-10-09).
 
 ## 📦 Las reglas de la casa
 

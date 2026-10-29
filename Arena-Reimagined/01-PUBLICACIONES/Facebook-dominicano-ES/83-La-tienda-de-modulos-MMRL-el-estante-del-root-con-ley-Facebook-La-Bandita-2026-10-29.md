@@ -8,7 +8,10 @@ MMRL es el estante donde los módulos del root se ven, se ordenan y se instalan 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `mmrlapp/mmrl` — ★2.223 (verificado 29-oct-2026) · actividad últimos 180 días · última actividad 2026-08-18 · GPL-3.0
+• `mmrlapp/mmrl` — ★2.223 (verificado 29-oct-2026)
+· actividad últimos 180 días
+· última actividad 2026-08-18
+· GPL-3.0
 
 ## 📦 Las reglas de la casa
 

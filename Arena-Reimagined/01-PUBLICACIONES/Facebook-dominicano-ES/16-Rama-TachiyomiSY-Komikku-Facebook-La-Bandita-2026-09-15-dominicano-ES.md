@@ -321,19 +321,33 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `geograms/bchan` — creado 2026-06-19 · última actividad 2026-10-05 · ★7 (verificado 29-oct-2026) · Apache-2.0.
+• `geograms/bchan` — creado 2026-06-19
+· última actividad 2026-10-05 · ★7 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `harrys-hq/shinku` — creado 2026-02-19 · última actividad 2026-10-26 · ★45 (verificado 29-oct-2026) · Apache-2.0.
+• `harrys-hq/shinku` — creado 2026-02-19
+· última actividad 2026-10-26 · ★45 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `pineappletwilight/houri` — creado 2026-07-26 · última actividad 2026-10-29 · ★39 (verificado 29-oct-2026) · Apache-2.0.
+• `pineappletwilight/houri` — creado 2026-07-26
+· última actividad 2026-10-29 · ★39 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `syncyomi/syncyomi` — ★736 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release v1.7.4 (2026-10-29).
+• `syncyomi/syncyomi` — ★736 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-2.0
+· release v1.7.4 (2026-10-29).
 
-• `yuzono/tachiyomi-extensions` — ★947 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+• `yuzono/tachiyomi-extensions` — ★947 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0.
 
-• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
+• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· sin licencia declarada
+· release Repository Update dbf6c05 (2026-10-29).
 
 Licencias sin resolver hoy (3): `cuong-tran/manga-repo`, `jobobby04/tachiyomisypreview`, `keiyoushi/extensions`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

@@ -8,9 +8,17 @@ El gestor de archivos también tiene hornada nueva: MP Manager ordena en doble p
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `abdurazaaqmohammed/mp-manager` — ★450 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-06-23 · GPL-3.0 · release 1.1.1 (2026-10-15).
+• `abdurazaaqmohammed/mp-manager` — ★450 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-06-23
+· GPL-3.0
+· release 1.1.1 (2026-10-15).
 
-• `cluvexstudio/strata` — ★137 (verificado 29-oct-2026) · última actividad 2026-10-16 · creado 2026-10-16 · AGPL-3.0 · release Strata v1.0.0 (2026-10-16).
+• `cluvexstudio/strata` — ★137 (verificado 29-oct-2026)
+· última actividad 2026-10-16
+· creado 2026-10-16
+· AGPL-3.0
+· release Strata v1.0.0 (2026-10-16).
 
 ## 📦 Las reglas de la casa
 

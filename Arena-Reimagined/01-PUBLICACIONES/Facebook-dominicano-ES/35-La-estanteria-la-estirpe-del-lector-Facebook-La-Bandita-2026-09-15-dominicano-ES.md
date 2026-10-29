@@ -89,23 +89,38 @@ Actividad medida hoy: 2 hoy · 3 en 7 días · 4 en 30 días · 2 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `nubesurrealista/kumo` — ARCHIVADO · última actividad 2026-08-20 · ★59 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `nubesurrealista/kumo` — ARCHIVADO
+· última actividad 2026-08-20 · ★59 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `haoweili97/mihon_img_upscale` — creado 2026-01-18 · última actividad 2026-10-27 · ★242 (verificado 29-oct-2026) · Apache-2.0.
+• `haoweili97/mihon_img_upscale` — creado 2026-01-18
+· última actividad 2026-10-27 · ★242 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `kolbyml/manatan` — creado 2025-12-04 · última actividad 2026-10-29 · ★618 (verificado 29-oct-2026) · MIT.
+• `kolbyml/manatan` — creado 2025-12-04
+· última actividad 2026-10-29 · ★618 (verificado 29-oct-2026)
+· MIT.
 
-• `nardjes5/kumo-surreal` — creado 2026-06-28 · última actividad 2026-10-29 · ★115 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `nardjes5/kumo-surreal` — creado 2026-06-28
+· última actividad 2026-10-29 · ★115 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `kolbyml/manatan` — ★618 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release Blue classroom 9 (2026-10-29).
+• `kolbyml/manatan` — ★618 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· MIT
+· release Blue classroom 9 (2026-10-29).
 
-• `nardjes5/kumo-surreal` — ★115 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `nardjes5/kumo-surreal` — ★115 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `mihonapp/mihon` — ★24.829 (verificado 29-oct-2026) · última actividad 2026-10-26 · Apache-2.0 · release Mihon v0.21.3 (2026-10-26).
+• `mihonapp/mihon` — ★24.829 (verificado 29-oct-2026)
+· última actividad 2026-10-26
+· Apache-2.0
+· release Mihon v0.21.3 (2026-10-26).
 
 Licencias sin resolver hoy (2): `hotaro26/miko`, `nardjes5/kumo-surreal`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

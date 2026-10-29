@@ -8,7 +8,10 @@ Neo-Backup es la póliza de las apps: respaldo completo con datos, nacido en 201
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `neoapplications/neo-backup` — ★3.880 (verificado 29-oct-2026) · actividad este mes · última actividad 2026-10-17 · AGPL-3.0
+• `neoapplications/neo-backup` — ★3.880 (verificado 29-oct-2026)
+· actividad este mes
+· última actividad 2026-10-17
+· AGPL-3.0
 
 ## 📦 Las reglas de la casa
 

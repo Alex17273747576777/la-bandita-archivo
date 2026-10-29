@@ -55,17 +55,29 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `mahlernim/google-timeline-visualizer` — creado 2025-12-16 · última actividad 2026-10-22 · ★3.057 (verificado 29-oct-2026) · MIT.
+• `mahlernim/google-timeline-visualizer` — creado 2025-12-16
+· última actividad 2026-10-22 · ★3.057 (verificado 29-oct-2026)
+· MIT.
 
-• `nuviomedia/nuviotv` — creado 2026-02-01 · última actividad 2026-10-28 · ★3.265 (verificado 29-oct-2026) · GPL-3.0.
+• `nuviomedia/nuviotv` — creado 2026-02-01
+· última actividad 2026-10-28 · ★3.265 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `xbmc/xbmc` — ★21.397 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
+• `xbmc/xbmc` — ★21.397 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION).
 
-• `videolan/vlc-android` — ★4.120 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release remoteaccess-0.26.0 (2026-10-29).
+• `videolan/vlc-android` — ★4.120 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-2.0
+· release remoteaccess-0.26.0 (2026-10-29).
 
-• `immich-app/immich` — ★117.570 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v3.3.5 (2026-10-22).
+• `immich-app/immich` — ★117.570 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· AGPL-3.0
+· release v3.3.5 (2026-10-22).
 
 Licencias sin resolver hoy (1): `xbmc/xbmc`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

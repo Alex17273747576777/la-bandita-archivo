@@ -51,17 +51,28 @@ Actividad medida hoy: 3 hoy · 4 en 7 días · 1 en 30 días · 2 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `astubenbord/paperless-mobile` — dormido · última actividad 2026-04-18 · ★1.491 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `astubenbord/paperless-mobile` — dormido
+· última actividad 2026-04-18 · ★1.491 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `mateusz-bak/openreads` — dormido · última actividad 2026-01-07 · ★1.663 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `mateusz-bak/openreads` — dormido
+· última actividad 2026-01-07 · ★1.663 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `samuelclay/newsblur` — ★7.674 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release Android_16.0.6 (2026-10-27).
+• `samuelclay/newsblur` — ★7.674 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· MIT
+· release Android_16.0.6 (2026-10-27).
 
-• `wikimedia/apps-android-wikipedia` — ★3.050 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release latest (2026-10-29).
+• `wikimedia/apps-android-wikipedia` — ★3.050 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release latest (2026-10-29).
 
-• `simonschubert/linuxcommandlibrary` — ★2.086 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release Release v4.9.1 (2026-10-14).
+• `simonschubert/linuxcommandlibrary` — ★2.086 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release Release v4.9.1 (2026-10-14).
 
 Licencias sin resolver hoy (1): `plateaukao/einkbro`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

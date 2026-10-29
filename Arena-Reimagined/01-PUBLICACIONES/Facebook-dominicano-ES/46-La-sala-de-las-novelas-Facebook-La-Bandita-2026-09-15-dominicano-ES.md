@@ -62,19 +62,33 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `binit06/lncrawler` — creado 2026-08-05 · última actividad 2026-10-29 · ★43 (verificado 29-oct-2026) · GPL-3.0.
+• `binit06/lncrawler` — creado 2026-08-05
+· última actividad 2026-10-29 · ★43 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `ghotato/foxlations` — creado 2026-03-28 · última actividad 2026-10-11 · ★20 (verificado 29-oct-2026) · Apache-2.0.
+• `ghotato/foxlations` — creado 2026-03-28
+· última actividad 2026-10-11 · ★20 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `ranobe-org/ranobe` — creado 2022-12-15 · última actividad 2026-10-26 · ★267 (verificado 29-oct-2026) · Unlicense.
+• `ranobe-org/ranobe` — creado 2022-12-15
+· última actividad 2026-10-26 · ★267 (verificado 29-oct-2026)
+· Unlicense.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `binit06/lncrawler` — ★43 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
+• `binit06/lncrawler` — ★43 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0.
 
-• `ranobe-org/ranobe` — ★267 (verificado 29-oct-2026) · última actividad 2026-10-26 · Unlicense · release v0.0.20 (2026-10-26).
+• `ranobe-org/ranobe` — ★267 (verificado 29-oct-2026)
+· última actividad 2026-10-26
+· Unlicense
+· release v0.0.20 (2026-10-26).
 
-• `dmzz-yyhyy/lightnovelreader` — ★2.303 (verificado 29-oct-2026) · última actividad 2026-10-25 · Apache-2.0 · release 1.2.4 (2026-10-16).
+• `dmzz-yyhyy/lightnovelreader` — ★2.303 (verificado 29-oct-2026)
+· última actividad 2026-10-25
+· Apache-2.0
+· release 1.2.4 (2026-10-16).
 
 Enlaces web: 6 apariciones; 6 respondieron vivas el 29-oct-2026.
 

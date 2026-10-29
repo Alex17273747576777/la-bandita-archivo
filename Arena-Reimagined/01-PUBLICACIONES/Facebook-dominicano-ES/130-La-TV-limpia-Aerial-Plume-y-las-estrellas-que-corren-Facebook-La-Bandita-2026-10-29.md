@@ -8,9 +8,17 @@ Dos lanzadores de Android TV nacieron este mes prometiendo la tele sin anuncios:
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `pengchujin/aerial-tv` — ★7.704 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-20 · MIT · release Aerial 1.69 (2026-10-29).
+• `pengchujin/aerial-tv` — ★7.704 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-10-20
+· MIT
+· release Aerial 1.69 (2026-10-29).
 
-• `aradhyas8/plume_launcher` — ★265 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-18 · GPL-3.0 · release Plume 1.6 (2026-10-26).
+• `aradhyas8/plume_launcher` — ★265 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-10-18
+· GPL-3.0
+· release Plume 1.6 (2026-10-26).
 
 ## 📦 Las reglas de la casa
 

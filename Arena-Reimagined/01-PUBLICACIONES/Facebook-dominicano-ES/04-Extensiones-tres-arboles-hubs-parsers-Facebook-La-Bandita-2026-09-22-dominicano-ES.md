@@ -359,15 +359,24 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `yuzono/anime-extensions` — creado 2026-02-06 · última actividad 2026-10-29 · ★522 (verificado 29-oct-2026) · Apache-2.0.
+• `yuzono/anime-extensions` — creado 2026-02-06
+· última actividad 2026-10-29 · ★522 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `keiyoushi/extensions-source` — ★4.831 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+• `keiyoushi/extensions-source` — ★4.831 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0.
 
-• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
+• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· sin licencia declarada
+· release Repository Update dbf6c05 (2026-10-29).
 
-• `yuzono/anime-extensions` — ★522 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+• `yuzono/anime-extensions` — ★522 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0.
 
 Licencias sin resolver hoy (2): `keiyoushi/extensions`, `yuzono/manga-repo`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

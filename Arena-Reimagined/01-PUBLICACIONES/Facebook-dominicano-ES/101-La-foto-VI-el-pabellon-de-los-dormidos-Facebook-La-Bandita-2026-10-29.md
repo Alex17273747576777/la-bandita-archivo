@@ -8,9 +8,20 @@ El cuadro más honesto de la foto: los que duermen, con su fecha de último empu
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `sang765/usagi` — ★— (verificado 29-oct-2026) · actividad este mes · última actividad 2026-10-14 · GPL-3.0
-• `aniyomiorg/aniyomi` — ★7.853 (verificado 29-oct-2026) · actividad últimos 180 días · última actividad 2026-09-14 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
-• `gekkoushi/plugin-source` — ★93 (verificado 29-oct-2026) · actividad últimos 180 días · última actividad 2026-09-13 · GPL-3.0
+• `sang765/usagi` — ★— (verificado 29-oct-2026)
+· actividad este mes
+· última actividad 2026-10-14
+· GPL-3.0
+
+• `aniyomiorg/aniyomi` — ★7.853 (verificado 29-oct-2026)
+· actividad últimos 180 días
+· última actividad 2026-09-14
+· licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
+
+• `gekkoushi/plugin-source` — ★93 (verificado 29-oct-2026)
+· actividad últimos 180 días
+· última actividad 2026-09-13
+· GPL-3.0
 
 ## 📦 Las reglas de la casa
 

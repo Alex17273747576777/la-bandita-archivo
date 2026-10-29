@@ -23,7 +23,6 @@ Las 54 puertas de servidores y nube personal del censo, con nombre — verificad
 - **seadroid** — ★629 · 2026-09-02 · R1 · https://github.com/haiwen/seadroid — «Android client for Seafile. Contribute to haiwen/seadroid development by creating an account on GitHub.»
 - **android-ir-blaster** — ★549 · 2026-08-31 · R1 · https://github.com/iodn/android-ir-blaster — «Create custom infrared (IR) remotes using hex codes, raw signals, or import Flipper Zero, LIRC, and IRPLUS files - iodn/android-ir-blaster»
 
-
 **Sin estrella visible en esta pasada** (la casa no inventa ceros — fecha y rango sí valen): `helios57/muplay`, `hexadigitall/makaw`, `inaccurate-hotelplan289/HomeLabSetup` — se repasará en el próximo barrido.
 
 ## ❓ La pregunta del sótano
@@ -53,25 +52,40 @@ Actividad medida hoy: 5 hoy · 9 en 7 días · 1 en 30 días · 0 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `syncthing/syncthing-android` — ARCHIVADO · última actividad 2024-12-03 · ★4.293 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `syncthing/syncthing-android` — ARCHIVADO
+· última actividad 2024-12-03 · ★4.293 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
-• `newhinton/round-sync` — dormido · última actividad 2025-09-09 · ★2.411 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `newhinton/round-sync` — dormido
+· última actividad 2025-09-09 · ★2.411 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `researchxxl/syncthing-android` — creado 2025-10-29 · última actividad 2026-10-22 · ★3.189 (verificado 29-oct-2026) · MPL-2.0.
+• `researchxxl/syncthing-android` — creado 2025-10-29
+· última actividad 2026-10-22 · ★3.189 (verificado 29-oct-2026)
+· MPL-2.0.
 
-• `chenxiaolong/basicsync` — creado 2025-11-29 · última actividad 2026-10-25 · ★730 (verificado 29-oct-2026) · GPL-3.0.
+• `chenxiaolong/basicsync` — creado 2025-11-29
+· última actividad 2026-10-25 · ★730 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `iodn/android-ir-blaster` — creado 2025-03-10 · última actividad 2026-10-15 · ★602 (verificado 29-oct-2026) · GPL-3.0.
+• `iodn/android-ir-blaster` — creado 2025-03-10
+· última actividad 2026-10-15 · ★602 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `owncloud/android` — ★4.175 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0.
+• `owncloud/android` — ★4.175 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-2.0.
 
-• `haiwen/seadroid` — ★637 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
+• `haiwen/seadroid` — ★637 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION).
 
-• `nextcloud/server` — ★37.338 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v35.0.2 (2026-10-15).
+• `nextcloud/server` — ★37.338 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· AGPL-3.0
+· release v35.0.2 (2026-10-15).
 
 Licencias sin resolver hoy (2): `photoprism/photoprism`, `haiwen/seadroid`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

@@ -49,19 +49,30 @@ Actividad medida hoy: 3 hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `mafik/echo` — dormido · última actividad 2025-06-05 · ★332 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `mafik/echo` — dormido
+· última actividad 2025-06-05 · ★332 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `kurikomi-labs/komi-store` — creado 2025-11-21 · última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026) · Apache-2.0.
+• `kurikomi-labs/komi-store` — creado 2025-11-21
+· última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `finamp-app/finamp` — ★4.404 (verificado 29-oct-2026) · última actividad 2026-10-29 · MPL-2.0.
+• `finamp-app/finamp` — ★4.404 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· MPL-2.0.
 
-• `ente-io/ente` — ★29.731 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release auth-v4.4.27-beta (2026-10-29).
+• `ente-io/ente` — ★29.731 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· AGPL-3.0
+· release auth-v4.4.27-beta (2026-10-29).
 
-• `ente/ente` — ★29.731 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release auth-v4.4.27-beta (2026-10-29).
+• `ente/ente` — ★29.731 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· AGPL-3.0
+· release auth-v4.4.27-beta (2026-10-29).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

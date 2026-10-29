@@ -188,15 +188,26 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `werdeil/lyrion-dashboard` — creado 2026-04-11 · última actividad 2026-10-28 · ★3 (verificado 29-oct-2026) · MIT.
+• `werdeil/lyrion-dashboard` — creado 2026-04-11
+· última actividad 2026-10-28 · ★3 (verificado 29-oct-2026)
+· MIT.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `paulwoitaschek/voice` — ★3.230 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release 26.10.6 - At home on tablets 📱 (2026-10-25).
+• `paulwoitaschek/voice` — ★3.230 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release 26.10.6 - At home on tablets 📱 (2026-10-25).
 
-• `libre-tube/libretube` — ★12.907 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release LibreTube Nightly 29-10-2026 (2026-10-29).
+• `libre-tube/libretube` — ★12.907 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release LibreTube Nightly 29-10-2026 (2026-10-29).
 
-• `gokadzev/musify` — ★4.379 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release 10.6.0 (2026-10-23).
+• `gokadzev/musify` — ★4.379 (verificado 29-oct-2026)
+· última actividad 2026-10-25
+· GPL-3.0
+· release 10.6.0 (2026-10-23).
 
 Licencias sin resolver hoy (1): `shacharharshuv/open-ear`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

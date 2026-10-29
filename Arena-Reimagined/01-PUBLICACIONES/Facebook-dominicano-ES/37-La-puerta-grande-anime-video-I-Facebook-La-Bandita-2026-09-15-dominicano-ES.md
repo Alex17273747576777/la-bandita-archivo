@@ -79,23 +79,39 @@ Actividad medida hoy: 4 hoy · 4 en 7 días · 3 en 30 días · 1 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `miru-project/miru-app` — dormido · última actividad 2025-12-05 · ★5.783 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `miru-project/miru-app` — dormido
+· última actividad 2025-12-05 · ★5.783 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `itsmechinmoy/dantotsu` — creado 2025-08-07 · última actividad 2026-10-29 · ★92 (verificado 29-oct-2026) · licencia sin clasificar (NOASSERTION).
+• `itsmechinmoy/dantotsu` — creado 2025-08-07
+· última actividad 2026-10-29 · ★92 (verificado 29-oct-2026)
+· licencia sin clasificar (NOASSERTION).
 
-• `itsmechinmoy/dantotsu-updater` — creado 2025-06-10 · última actividad 2026-10-26 · ★154 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `itsmechinmoy/dantotsu-updater` — creado 2025-06-10
+· última actividad 2026-10-26 · ★154 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `kototoro-app/kototoro` — creado 2025-10-28 · última actividad 2026-10-29 · ★650 (verificado 29-oct-2026) · Apache-2.0.
+• `kototoro-app/kototoro` — creado 2025-10-28
+· última actividad 2026-10-29 · ★650 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `kodjodevf/mangayomi` — ★4.270 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release v0.9.9 (2026-10-12).
+• `kodjodevf/mangayomi` — ★4.270 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release v0.9.9 (2026-10-12).
 
-• `aayush2622/dartotsu` — ★545 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v1.1.1 (2026-10-23).
+• `aayush2622/dartotsu` — ★545 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION)
+· release v1.1.1 (2026-10-23).
 
-• `itsmechinmoy/dantotsu` — ★92 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release Dantotsu v3.2.2+74ae756 (2026-10-29).
+• `itsmechinmoy/dantotsu` — ★92 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION)
+· release Dantotsu v3.2.2+74ae756 (2026-10-29).
 
 Licencias sin resolver hoy (4): `aayush2622/dartotsu`, `itsmechinmoy/dantotsu`, `itsmechinmoy/dantotsu-updater`, `anisurge/app`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

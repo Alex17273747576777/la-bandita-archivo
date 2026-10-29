@@ -8,7 +8,11 @@ Convertir un canal privado de Telegram en tu disco personal: esa es la jugada de
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `mahmud0808/teledrive` — ★393 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-08-21 · Apache-2.0 (LICENSE leído hoy) · release TeleDrive v1.5.0 (2026-10-19).
+• `mahmud0808/teledrive` — ★393 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-08-21
+· Apache-2.0 (LICENSE leído hoy)
+· release TeleDrive v1.5.0 (2026-10-19).
 
 ## 📦 Las reglas de la casa
 

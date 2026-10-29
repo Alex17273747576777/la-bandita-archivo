@@ -8,15 +8,27 @@ Archivar no es morir cuando hay heredero en faena, y hoy las sucesiones del barr
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `keiyoushi/extensions` — ★15.365 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · release Repository Update dbf6c05 (2026-10-28).
+• `keiyoushi/extensions` — ★15.365 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+· release Repository Update dbf6c05 (2026-10-28).
 
-• `appfuton/futon` — ★467 (verificado 29-oct-2026) · última actividad 2026-10-21 · GPL-3.0 · release Futon 9.9 (2026-10-21).
+• `appfuton/futon` — ★467 (verificado 29-oct-2026)
+· última actividad 2026-10-21
+· GPL-3.0
+· release Futon 9.9 (2026-10-21).
 
-• `researchxxl/syncthing-android` — ★3.189 (verificado 29-oct-2026) · última actividad 2026-10-21 · MPL-2.0.
+• `researchxxl/syncthing-android` — ★3.189 (verificado 29-oct-2026)
+· última actividad 2026-10-21
+· MPL-2.0.
 
-• `outertune/outertune` — ★5.438 (verificado 29-oct-2026) · última actividad 2026-10-12 · GPL-3.0.
+• `outertune/outertune` — ★5.438 (verificado 29-oct-2026)
+· última actividad 2026-10-12
+· GPL-3.0.
 
-• `yuzono/anime-extensions` — ★522 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026).
+• `yuzono/anime-extensions` — ★522 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026).
 
 ## 📦 Las reglas de la casa
 

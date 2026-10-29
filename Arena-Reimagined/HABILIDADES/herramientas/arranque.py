@@ -10,6 +10,9 @@ MAN=R/'02-ARCHIVO/evidencia-29oct/aseguramiento-29oct/MANIFIESTO-SHA256-PIEZAS.t
 MIR=Path('/home/user/la-bandita-archivo')
 restaurar='--restaurar' in sys.argv
 mani={}
+if not MAN.exists() or MAN.stat().st_size<1000:
+    print('SUELO DESCONOCIDO: falta el manifiesto o está vacío. NO se afirma nada: rescatar evidencia de GitHub primero.')
+    raise SystemExit(2)
 if MAN.exists():
     for ln in MAN.read_text(encoding='utf-8').splitlines()[1:]:
         s,n,b,h=ln.split('\t'); mani[(s,n)]=h

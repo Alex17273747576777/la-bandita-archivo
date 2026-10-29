@@ -55,29 +55,47 @@ Actividad medida hoy: 1 hoy · 1 en 7 días · 5 en 30 días · 3 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `dn0ne/lotus` — dormido · última actividad 2025-01-25 · ★717 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `dn0ne/lotus` — dormido
+· última actividad 2025-01-25 · ★717 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `myzel394/alibi` — dormido · última actividad 2025-01-06 · ★1.723 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `myzel394/alibi` — dormido
+· última actividad 2025-01-06 · ★1.723 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `tuntorius/mightier_amp` — dormido · última actividad 2025-01-21 · ★236 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `tuntorius/mightier_amp` — dormido
+· última actividad 2025-01-21 · ★236 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `zimly/zimly-backup` — dormido · última actividad 2026-02-28 · ★105 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `zimly/zimly-backup` — dormido
+· última actividad 2026-02-28 · ★105 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `likhithpraveenk/storii` — creado 2025-08-16 · última actividad 2026-10-23 · ★85 (verificado 29-oct-2026) · GPL-3.0.
+• `likhithpraveenk/storii` — creado 2025-08-16
+· última actividad 2026-10-23 · ★85 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `retransmit/atrium` — creado 2026-05-15 · última actividad 2026-10-29 · ★285 (verificado 29-oct-2026) · GPL-3.0.
+• `retransmit/atrium` — creado 2026-05-15
+· última actividad 2026-10-29 · ★285 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `rumca-js/offlinewebsearch` — creado 2026-06-13 · última actividad 2026-10-14 · ★37 (verificado 29-oct-2026) · GPL-3.0.
+• `rumca-js/offlinewebsearch` — creado 2026-06-13
+· última actividad 2026-10-14 · ★37 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `retransmit/atrium` — ★285 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release v1.9.1 (2026-10-19).
+• `retransmit/atrium` — ★285 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release v1.9.1 (2026-10-19).
 
-• `likhithpraveenk/storii` — ★85 (verificado 29-oct-2026) · última actividad 2026-10-23 · GPL-3.0 · release v0.13.0 (2026-10-23).
+• `likhithpraveenk/storii` — ★85 (verificado 29-oct-2026)
+· última actividad 2026-10-23
+· GPL-3.0
+· release v0.13.0 (2026-10-23).
 
-• `cvzi/screenshottile` — ★398 (verificado 29-oct-2026) · última actividad 2026-10-08 · GPL-3.0.
+• `cvzi/screenshottile` — ★398 (verificado 29-oct-2026)
+· última actividad 2026-10-08
+· GPL-3.0.
 
 Enlaces web: 14 apariciones; 14 respondieron vivas el 29-oct-2026.
 

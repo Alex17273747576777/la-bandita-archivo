@@ -45,7 +45,10 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `awesome-android-root/awesome-android-root` — ★5.562 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release 6.1 (2026-10-26).
+• `awesome-android-root/awesome-android-root` — ★5.562 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· MIT
+· release 6.1 (2026-10-26).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

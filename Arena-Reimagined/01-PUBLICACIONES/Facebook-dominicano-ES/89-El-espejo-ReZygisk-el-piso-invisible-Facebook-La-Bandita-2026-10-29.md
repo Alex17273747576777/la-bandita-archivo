@@ -8,7 +8,10 @@ ReZygisk es el piso invisible donde la regleta no llega: la implementación que 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `performanc/rezygisk` — ★4.098 (verificado 29-oct-2026) · actividad este mes · última actividad 2026-10-11 · GPL-3.0
+• `performanc/rezygisk` — ★4.098 (verificado 29-oct-2026)
+· actividad este mes
+· última actividad 2026-10-11
+· GPL-3.0
 
 ## 📦 Las reglas de la casa
 

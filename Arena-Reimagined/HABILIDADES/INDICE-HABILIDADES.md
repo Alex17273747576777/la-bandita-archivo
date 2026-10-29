@@ -18,3 +18,6 @@ Todo el proceso de la casa convertido en habilidades que se pueden reusar infini
 
 ## Orden de una jornada cualquiera (el circuito completo)
 `arranque.py` → trabajar (pulso/piezas) → `chequeo-niveles.py --con-lupa` → hornear catálogo si hubo piezas → espejo → `guardar.py "mensaje"` → `aprender.py` si algo enseñó algo. Cada vuelta deja el sistema un poco más sabio que la anterior.
+
+## Habilidad 7 · Formato respirable (Facebook) — `02-ARCHIVO/evidencia-29oct/respirable-29oct/`
+En Facebook el texto respira o muere: mapa mental en dos líneas por familia (quién → qué hace), placas una por bloque con cada dato en su línea, nada de tablas disfrazadas de viñetas. Regla de oro aprendida del dueño: la reorganización se prueba — **la secuencia de palabras debe ser idéntica antes y después**; cualquier edición de palabras va declarada y contada, jamás disfrazada de formato.

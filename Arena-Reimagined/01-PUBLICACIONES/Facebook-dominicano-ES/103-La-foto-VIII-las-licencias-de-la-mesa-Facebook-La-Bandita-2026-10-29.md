@@ -8,9 +8,23 @@ Toda foto esconde un contrato: quién puede mirar, copiar y construir encima. La
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `ollama/ollama` — ★185.204 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-28)
-• `open-webui/open-webui` — ★157.133 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v0.12.5 (2026-10-29)
-• `ggml-org/llama.cpp` — ★132.738 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · MIT · release b11983 (2026-10-29)
+• `ollama/ollama` — ★185.204 (verificado 29-oct-2026)
+· actividad HOY
+· última actividad 2026-10-29
+· MIT
+· release v0.40.13 (2026-10-28)
+
+• `open-webui/open-webui` — ★157.133 (verificado 29-oct-2026)
+· actividad HOY
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION)
+· release v0.12.5 (2026-10-29)
+
+• `ggml-org/llama.cpp` — ★132.738 (verificado 29-oct-2026)
+· actividad HOY
+· última actividad 2026-10-29
+· MIT
+· release b11983 (2026-10-29)
 
 ## 📦 Las reglas de la casa
 

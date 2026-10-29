@@ -214,29 +214,47 @@ Actividad medida hoy: 1 hoy · 5 en 7 días · 3 en 30 días · 1 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `fast4x/rimusic` — ARCHIVADO · última actividad 2025-07-30 · ★3.897 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `fast4x/rimusic` — ARCHIVADO
+· última actividad 2025-07-30 · ★3.897 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
-• `vfsfitvnm/vimusic` — ARCHIVADO · última actividad 2023-09-23 · ★9.467 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `vfsfitvnm/vimusic` — ARCHIVADO
+· última actividad 2023-09-23 · ★9.467 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
-• `z-huang/innertune` — dormido · última actividad 2025-11-13 · ★6.128 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `z-huang/innertune` — dormido
+· última actividad 2025-11-13 · ★6.128 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `anandnet/harmony-music` — dormido · última actividad 2025-12-08 · ★3.091 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `anandnet/harmony-music` — dormido
+· última actividad 2025-12-08 · ★3.091 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `hotaro26/gabi` — creado 2026-04-26 · última actividad 2026-09-30 · ★103 (verificado 29-oct-2026) · MIT.
+• `hotaro26/gabi` — creado 2026-04-26
+· última actividad 2026-09-30 · ★103 (verificado 29-oct-2026)
+· MIT.
 
-• `itzskyeyt/intertune` — creado 2026-08-22 · última actividad 2026-10-28 · ★78 (verificado 29-oct-2026) · GPL-3.0.
+• `itzskyeyt/intertune` — creado 2026-08-22
+· última actividad 2026-10-28 · ★78 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `n-zik-group/n-zik` — creado 2025-05-17 · última actividad 2026-10-29 · ★278 (verificado 29-oct-2026) · GPL-3.0.
+• `n-zik-group/n-zik` — creado 2025-05-17
+· última actividad 2026-10-29 · ★278 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `n-zik-group/n-zik` — ★278 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release v8.5.0-dev-20261029 | 🔨 DEV Build (2026-10-29).
+• `n-zik-group/n-zik` — ★278 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release v8.5.0-dev-20261029 | 🔨 DEV Build (2026-10-29).
 
-• `antennapod/antennapod` — ★8.252 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release 3.12.3 (2026-10-13).
+• `antennapod/antennapod` — ★8.252 (verificado 29-oct-2026)
+· última actividad 2026-10-25
+· GPL-3.0
+· release 3.12.3 (2026-10-13).
 
-• `teamnewpipe/newpipe` — ★40.347 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0.
+• `teamnewpipe/newpipe` — ★40.347 (verificado 29-oct-2026)
+· última actividad 2026-10-27
+· GPL-3.0.
 
 Enlaces web: 30 apariciones; 30 respondieron vivas el 29-oct-2026.
 

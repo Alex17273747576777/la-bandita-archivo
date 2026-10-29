@@ -8,11 +8,21 @@ El dueño trajo la descripción completa de Orvid y esta casa la cotejó contra 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `mankidev/orvid` — ★9 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-16 · GPL-3.0 · release Orvid 0.4.22 (2026-10-29).
+• `mankidev/orvid` — ★9 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-10-16
+· GPL-3.0
+· release Orvid 0.4.22 (2026-10-29).
 
-• `mankidev/orvid-sources` — ★1 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-17 · GPL-3.0.
+• `mankidev/orvid-sources` — ★1 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-10-17
+· GPL-3.0.
 
-• `teamnewpipe/newpipe` — ★40.348 (verificado 29-oct-2026) · última actividad 2026-10-27 · creado 2015-09-03 · GPL-3.0.
+• `teamnewpipe/newpipe` — ★40.348 (verificado 29-oct-2026)
+· última actividad 2026-10-27
+· creado 2015-09-03
+· GPL-3.0.
 
 ## 📦 Las reglas de la casa
 

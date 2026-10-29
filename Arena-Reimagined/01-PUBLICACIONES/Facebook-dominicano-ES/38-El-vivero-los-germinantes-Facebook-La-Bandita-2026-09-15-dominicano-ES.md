@@ -87,25 +87,42 @@ Actividad medida hoy: 2 hoy · 1 en 7 días · 3 en 30 días · 5 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `mannu691/tachiyomiat` — dormido · última actividad 2025-02-24 · ★196 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `mannu691/tachiyomiat` — dormido
+· última actividad 2025-02-24 · ★196 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `petalya/yomiko` — dormido · última actividad 2025-10-03 · ★8 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `petalya/yomiko` — dormido
+· última actividad 2025-10-03 · ★8 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `ero-gamer/kotatsu-next` — creado 2026-03-20 · última actividad 2026-10-17 · ★34 (verificado 29-oct-2026) · GPL-3.0.
+• `ero-gamer/kotatsu-next` — creado 2026-03-20
+· última actividad 2026-10-17 · ★34 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `huzaifakhalid1311/dropsauce` — creado 2026-03-25 · última actividad 2026-10-29 · ★214 (verificado 29-oct-2026) · GPL-3.0.
+• `huzaifakhalid1311/dropsauce` — creado 2026-03-25
+· última actividad 2026-10-29 · ★214 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `pineappletwilight/houri` — creado 2026-07-26 · última actividad 2026-10-29 · ★39 (verificado 29-oct-2026) · Apache-2.0.
+• `pineappletwilight/houri` — creado 2026-07-26
+· última actividad 2026-10-29 · ★39 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `huzaifakhalid1311/dropsauce` — ★214 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release v1.1.0 (2026-10-22).
+• `huzaifakhalid1311/dropsauce` — ★214 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release v1.1.0 (2026-10-22).
 
-• `pineappletwilight/houri` — ★39 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release Houri v1.25.0 (2026-10-29).
+• `pineappletwilight/houri` — ★39 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release Houri v1.25.0 (2026-10-29).
 
-• `jeryjs/tachiyomisy-with-discord-rpc` — ★9 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release TachiyomiSY Dev Build 45 (2026-10-28).
+• `jeryjs/tachiyomisy-with-discord-rpc` — ★9 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· Apache-2.0
+· release TachiyomiSY Dev Build 45 (2026-10-28).
 
 Licencias sin resolver hoy (1): `nyora-manga/nyora-mihon`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

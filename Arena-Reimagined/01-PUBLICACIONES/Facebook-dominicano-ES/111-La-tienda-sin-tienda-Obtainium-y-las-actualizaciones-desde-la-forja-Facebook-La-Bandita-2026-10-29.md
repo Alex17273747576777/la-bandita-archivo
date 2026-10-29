@@ -8,11 +8,20 @@ La tienda sin tienda no vende nada: vigila las forjas de tus apps y te avisa cua
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `imranr98/obtainium` — ★21.004 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v1.7.3 (2026-10-25).
+• `imranr98/obtainium` — ★21.004 (verificado 29-oct-2026)
+· última actividad 2026-10-25
+· GPL-3.0
+· release v1.7.3 (2026-10-25).
 
-• `solkin/appteka-android` — ★1.358 (verificado 29-oct-2026) · última actividad 2026-10-21 · GPL-3.0 · release v24.0 (2026-10-21).
+• `solkin/appteka-android` — ★1.358 (verificado 29-oct-2026)
+· última actividad 2026-10-21
+· GPL-3.0
+· release v24.0 (2026-10-21).
 
-• `droid-ify/client` — ★7.658 (verificado 29-oct-2026) · última actividad 2026-09-12 · GPL-3.0 · release Release v0.7.8 (2026-09-12).
+• `droid-ify/client` — ★7.658 (verificado 29-oct-2026)
+· última actividad 2026-09-12
+· GPL-3.0
+· release Release v0.7.8 (2026-09-12).
 
 ## 📦 Las reglas de la casa
 

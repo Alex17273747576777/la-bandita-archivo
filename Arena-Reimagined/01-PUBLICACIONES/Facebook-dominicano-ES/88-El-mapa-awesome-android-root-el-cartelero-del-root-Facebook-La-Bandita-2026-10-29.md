@@ -8,7 +8,11 @@ Un mapa no instala nada: te ahorra el error de caminar a ciegas. awesome-android
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `awesome-android-root/awesome-android-root` — ★5.563 (verificado 29-oct-2026) · actividad esta semana · última actividad 2026-10-28 · MIT · release 6.1 (2026-10-26)
+• `awesome-android-root/awesome-android-root` — ★5.563 (verificado 29-oct-2026)
+· actividad esta semana
+· última actividad 2026-10-28
+· MIT
+· release 6.1 (2026-10-26)
 
 ## 📦 Las reglas de la casa
 

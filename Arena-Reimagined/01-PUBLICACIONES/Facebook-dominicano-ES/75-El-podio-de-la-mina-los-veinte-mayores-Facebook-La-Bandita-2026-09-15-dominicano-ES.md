@@ -67,15 +67,24 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `kurikomi-labs/komi-store` — creado 2025-11-21 · última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026) · Apache-2.0.
+• `kurikomi-labs/komi-store` — creado 2025-11-21
+· última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `xbmc/xbmc` — ★21.397 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
+• `xbmc/xbmc` — ★21.397 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION).
 
-• `awesome-selfhosted/awesome-selfhosted` — ★331.648 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
+• `awesome-selfhosted/awesome-selfhosted` — ★331.648 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION).
 
-• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release October 7, 2026 (2026-10-07).
+• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION)
+· release October 7, 2026 (2026-10-07).
 
 Licencias sin resolver hoy (4): `photoprism/photoprism`, `awesome-selfhosted/awesome-selfhosted`, `sagernet/sing-box`, `xbmc/xbmc`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

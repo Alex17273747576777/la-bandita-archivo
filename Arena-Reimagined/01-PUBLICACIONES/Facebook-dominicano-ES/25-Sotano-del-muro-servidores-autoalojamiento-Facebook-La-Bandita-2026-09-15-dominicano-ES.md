@@ -75,19 +75,34 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `damontecres/jellyfin-plugin-wholphin` — creado 2026-05-13 · última actividad 2026-10-12 · ★26 (verificado 29-oct-2026) · GPL-3.0.
+• `damontecres/jellyfin-plugin-wholphin` — creado 2026-05-13
+· última actividad 2026-10-12 · ★26 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `moonfin-client/moonfin-core` — creado 2026-03-25 · última actividad 2026-10-29 · ★914 (verificado 29-oct-2026) · GPL-2.0.
+• `moonfin-client/moonfin-core` — creado 2026-03-25
+· última actividad 2026-10-29 · ★914 (verificado 29-oct-2026)
+· GPL-2.0.
 
-• `opencloud-eu/opencloud` — creado 2025-01-10 · última actividad 2026-10-29 · ★6.251 (verificado 29-oct-2026) · Apache-2.0.
+• `opencloud-eu/opencloud` — creado 2025-01-10
+· última actividad 2026-10-29 · ★6.251 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `opencloud-eu/opencloud` — ★6.251 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release 9.0.0 (2026-10-28).
+• `opencloud-eu/opencloud` — ★6.251 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release 9.0.0 (2026-10-28).
 
-• `moonfin-client/moonfin-core` — ★914 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release v2.7.0 (2026-10-10).
+• `moonfin-client/moonfin-core` — ★914 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-2.0
+· release v2.7.0 (2026-10-10).
 
-• `winters27/octo` — ★126 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release Octo 2026.10.28 (2026-10-29).
+• `winters27/octo` — ★126 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release Octo 2026.10.28 (2026-10-29).
 
 Enlaces web: 7 apariciones; 7 respondieron vivas el 29-oct-2026.
 

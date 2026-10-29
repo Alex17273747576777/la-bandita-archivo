@@ -456,23 +456,35 @@ Actividad medida hoy: 0 hoy · 0 en 7 días · 1 en 30 días · 0 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `phhusson/treble_experimentations` — ARCHIVADO · última actividad 2025-01-27 · ★3.556 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `phhusson/treble_experimentations` — ARCHIVADO
+· última actividad 2025-01-27 · ★3.556 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
-• `ponces/treble_aosp` — ARCHIVADO · última actividad 2025-07-25 · ★311 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `ponces/treble_aosp` — ARCHIVADO
+· última actividad 2025-07-25 · ★311 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
-• `vegabobo/dsu-sideloader` — dormido · última actividad 2024-03-13 · ★2.343 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `vegabobo/dsu-sideloader` — dormido
+· última actividad 2024-03-13 · ★2.343 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `r15hi/dsu-multi-sideloader` — creado 2026-10-01 · última actividad 2026-10-15 · ★3 (verificado 29-oct-2026) · Apache-2.0.
+• `r15hi/dsu-multi-sideloader` — creado 2026-10-01
+· última actividad 2026-10-15 · ★3 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `r15hi/dsu-multi-sideloader` — ★3 (verificado 29-oct-2026) · última actividad 2026-10-15 · Apache-2.0 · release DSU Multi-Sideloader v2.20 (2026-10-15).
+• `r15hi/dsu-multi-sideloader` — ★3 (verificado 29-oct-2026)
+· última actividad 2026-10-15
+· Apache-2.0
+· release DSU Multi-Sideloader v2.20 (2026-10-15).
 
-• `vegabobo/dsu-sideloader` — ★2.343 (verificado 29-oct-2026) · última actividad 2024-03-13 · Apache-2.0.
+• `vegabobo/dsu-sideloader` — ★2.343 (verificado 29-oct-2026)
+· última actividad 2024-03-13
+· Apache-2.0.
 
-• `phhusson/treble_experimentations` — ★3.556 (verificado 29-oct-2026) · última actividad 2025-01-27 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · ARCHIVADO.
+• `phhusson/treble_experimentations` — ★3.556 (verificado 29-oct-2026)
+· última actividad 2025-01-27
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · ARCHIVADO.
 
 Licencias sin resolver hoy (1): `phhusson/treble_experimentations`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

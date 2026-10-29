@@ -210,15 +210,21 @@ Actividad medida hoy: 0 hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `darek2015/gltools` — dormido · última actividad 2020-05-05 · ★12 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `darek2015/gltools` — dormido
+· última actividad 2020-05-05 · ★12 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `i-taylo/iunlockergl` — dormido · última actividad 2025-12-29 · ★108 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `i-taylo/iunlockergl` — dormido
+· última actividad 2025-12-29 · ★108 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `i-taylo/iunlockergl` — ★108 (verificado 29-oct-2026) · última actividad 2025-12-29 · licencia sin clasificar (NOASSERTION).
+• `i-taylo/iunlockergl` — ★108 (verificado 29-oct-2026)
+· última actividad 2025-12-29
+· licencia sin clasificar (NOASSERTION).
 
-• `darek2015/gltools` — ★12 (verificado 29-oct-2026) · última actividad 2020-05-05 · GPL-2.0.
+• `darek2015/gltools` — ★12 (verificado 29-oct-2026)
+· última actividad 2020-05-05
+· GPL-2.0.
 
 Licencias sin resolver hoy (1): `i-taylo/iunlockergl`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

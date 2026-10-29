@@ -191,27 +191,43 @@ Actividad medida hoy: 6 hoy · 0 en 7 días · 3 en 30 días · 2 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `stevenyomi/copymanga` — ARCHIVADO · última actividad 2022-07-01 · ★1.915 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `stevenyomi/copymanga` — ARCHIVADO
+· última actividad 2022-07-01 · ★1.915 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
-• `tachiyomiorg/extensions` — ARCHIVADO · última actividad 2024-01-08 · ★553 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `tachiyomiorg/extensions` — ARCHIVADO
+· última actividad 2024-01-08 · ★553 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
-• `zgq-inc/source` — dormido · última actividad 2025-09-06 · ★1.286 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `zgq-inc/source` — dormido
+· última actividad 2025-09-06 · ★1.286 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `littlesurvival/copymanga-copy20` — creado 2025-05-11 · última actividad 2026-10-11 · ★2.970 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `littlesurvival/copymanga-copy20` — creado 2025-05-11
+· última actividad 2026-10-11 · ★2.970 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `mojuru/cursed-manga-repo` — creado 2026-03-24 · última actividad 2026-10-12 · ★174 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `mojuru/cursed-manga-repo` — creado 2026-03-24
+· última actividad 2026-10-12 · ★174 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `yuzono/anime-extensions` — creado 2026-02-06 · última actividad 2026-10-29 · ★522 (verificado 29-oct-2026) · Apache-2.0.
+• `yuzono/anime-extensions` — creado 2026-02-06
+· última actividad 2026-10-29 · ★522 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `yuzono/tachiyomi-extensions` — ★947 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+• `yuzono/tachiyomi-extensions` — ★947 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0.
 
-• `keiyoushi/extensions-source` — ★4.831 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+• `keiyoushi/extensions-source` — ★4.831 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0.
 
-• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
+• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· sin licencia declarada
+· release Repository Update dbf6c05 (2026-10-29).
 
 Licencias sin resolver hoy (6): `cuong-tran/manga-repo`, `keiyoushi/extensions`, `littlesurvival/copymanga-copy20`, `mojuru/cursed-manga-repo`, `zgq-inc/source`, `stevenyomi/copymanga`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

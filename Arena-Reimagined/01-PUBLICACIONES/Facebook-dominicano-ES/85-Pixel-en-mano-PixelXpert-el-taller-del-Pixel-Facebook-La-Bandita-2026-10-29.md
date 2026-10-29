@@ -8,7 +8,9 @@ PixelXpert devolvía al dueño del Pixel el control fino de su sistema. Hoy mand
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `siavash79/pixelxpert` — ★2.440 (verificado 29-oct-2026) · ARCHIVADO · última actividad 2026-06-21 · GPL-3.0
+• `siavash79/pixelxpert` — ★2.440 (verificado 29-oct-2026) · ARCHIVADO
+· última actividad 2026-06-21
+· GPL-3.0
 
 ## 📦 Las reglas de la casa
 

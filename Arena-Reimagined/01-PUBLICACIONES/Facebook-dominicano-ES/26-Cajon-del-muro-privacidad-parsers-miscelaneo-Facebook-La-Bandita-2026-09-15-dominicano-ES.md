@@ -86,19 +86,33 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `mojuru/cursed-manga-repo` — creado 2026-03-24 · última actividad 2026-10-12 · ★174 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `mojuru/cursed-manga-repo` — creado 2026-03-24
+· última actividad 2026-10-12 · ★174 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `alienware377/rootlessjamesdsp-viper4android-edition` — creado 2026-08-02 · última actividad 2026-10-29 · ★101 (verificado 29-oct-2026) · GPL-3.0.
+• `alienware377/rootlessjamesdsp-viper4android-edition` — creado 2026-08-02
+· última actividad 2026-10-29 · ★101 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `awerkori/extensoes` — creado 2026-08-14 · última actividad 2026-10-29 · ★4 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `awerkori/extensoes` — creado 2026-08-14
+· última actividad 2026-10-29 · ★4 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `iptv-org/iptv` — ★142.698 (verificado 29-oct-2026) · última actividad 2026-10-29 · Unlicense.
+• `iptv-org/iptv` — ★142.698 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Unlicense.
 
-• `meshtastic/meshtastic-android` — ★1.895 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release Snapshot 29322852 (7195db25eb0ea685fbef36896a6dac22af5dfa34) (2026-10-29).
+• `meshtastic/meshtastic-android` — ★1.895 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release Snapshot 29322852 (7195db25eb0ea685fbef36896a6dac22af5dfa34) (2026-10-29).
 
-• `openflocon/flocon` — ★378 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release 1.10.0 (2026-10-18).
+• `openflocon/flocon` — ★378 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· MIT
+· release 1.10.0 (2026-10-18).
 
 Licencias sin resolver hoy (4): `mojuru/cursed-manga-repo`, `awerkori/extensoes`, `barbosaglibby41-sys/suicang-eh`, `nikhilkain/vyxel-apps`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

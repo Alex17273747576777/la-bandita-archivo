@@ -8,9 +8,17 @@ La búsqueda por categorías destapó el patrón musical del momento: clientes h
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `muwmx/yumaplayer` — ★1.028 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-07-24 · GPL-3.0 · release v1.2.0-RC.1 (2026-10-17).
+• `muwmx/yumaplayer` — ★1.028 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· creado 2026-07-24
+· GPL-3.0
+· release v1.2.0-RC.1 (2026-10-17).
 
-• `maxrave-dev/simpmusic` — ★12.508 (verificado 29-oct-2026) · última actividad 2026-10-27 · creado 2023-04-15 · GPL-3.0 · release 2.4.0 (2026-10-22).
+• `maxrave-dev/simpmusic` — ★12.508 (verificado 29-oct-2026)
+· última actividad 2026-10-27
+· creado 2023-04-15
+· GPL-3.0
+· release 2.4.0 (2026-10-22).
 
 ## 📦 Las reglas de la casa
 

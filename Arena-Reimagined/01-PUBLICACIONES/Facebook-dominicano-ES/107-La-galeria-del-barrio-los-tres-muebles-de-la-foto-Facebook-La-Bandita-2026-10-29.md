@@ -8,8 +8,17 @@ Del censo al patio: la foto que sí vivimos (las caras, los niños, la sala) mer
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `immich-app/immich` — ★117.571 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · AGPL-3.0 · release v3.3.5 (2026-10-21)
-• `photoprism/photoprism` — ★40.369 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release October 7, 2026 (2026-10-07)
+• `immich-app/immich` — ★117.571 (verificado 29-oct-2026)
+· actividad HOY
+· última actividad 2026-10-29
+· AGPL-3.0
+· release v3.3.5 (2026-10-21)
+
+• `photoprism/photoprism` — ★40.369 (verificado 29-oct-2026)
+· actividad HOY
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION)
+· release October 7, 2026 (2026-10-07)
 
 ## 📦 Las reglas de la casa
 

@@ -117,8 +117,10 @@ La puerta 3 no borra el riesgo de la fuente externa (la casa a la que abre la ll
 ▸ Las dos puertas con cédula propia (por qué conviven)
 
 ▸ Canal / Uso / Application ID
-• `main` (estable) → lectura de diario → `org.noirero.miyorare`
-• `beta` → taller a cielo abierto → `org.noirero.miyorare.beta`
+• `main` (estable) → lectura de diario
+`org.noirero.miyorare`
+• `beta` → taller a cielo abierto
+`org.noirero.miyorare.beta`
 
 Las identidades distintas permiten tener ambas instaladas sin conflicto — lo declara el proyecto —. Uso sensato: la estable guarda la biblioteca y el respaldo; la beta mira lo que está armándose y reporta con datos cuando algo truena. La tentación contraria (usar beta como diario «para ir delante») es la chaqueta que te pones tú mismo: no la compres ni a ti.
 
@@ -504,15 +506,25 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `noirero/miyorare` — creado 2026-09-04 · última actividad 2026-10-29 · ★19 (verificado 29-oct-2026) · GPL-3.0.
+• `noirero/miyorare` — creado 2026-09-04
+· última actividad 2026-10-29 · ★19 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `noirero/miyorare-source-packs` — creado 2026-09-12 · última actividad 2026-10-24 · ★3 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `noirero/miyorare-source-packs` — creado 2026-09-12
+· última actividad 2026-10-24 · ★3 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `noirero/miyorare` — ★19 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release v1.4.16 (2026-10-29).
+• `noirero/miyorare` — ★19 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release v1.4.16 (2026-10-29).
 
-• `noirero/miyorare-source-packs` — ★3 (verificado 29-oct-2026) · última actividad 2026-10-24 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · release Miyorare Source Packs v0.5.15 (2026-10-24).
+• `noirero/miyorare-source-packs` — ★3 (verificado 29-oct-2026)
+· última actividad 2026-10-24
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+· release Miyorare Source Packs v0.5.15 (2026-10-24).
 
 Licencias sin resolver hoy (1): `noirero/miyorare-source-packs`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

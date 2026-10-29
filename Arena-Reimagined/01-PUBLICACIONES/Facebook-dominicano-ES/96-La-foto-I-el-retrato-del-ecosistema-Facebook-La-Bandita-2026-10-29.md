@@ -8,7 +8,11 @@ La foto abre el capítulo del retrato: el ecosistema completo medido en capas, d
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `keiyoushi/extensions` — ★15.365 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · release Repository Update dbf6c05 (2026-10-28)
+• `keiyoushi/extensions` — ★15.365 (verificado 29-oct-2026)
+· actividad HOY
+· última actividad 2026-10-29
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+· release Repository Update dbf6c05 (2026-10-28)
 
 ## 📦 Las reglas de la casa
 

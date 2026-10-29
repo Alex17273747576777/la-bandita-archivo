@@ -75,25 +75,40 @@ Actividad medida hoy: 1 hoy · 6 en 7 días · 1 en 30 días · 5 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `supermarcus/nineanimator` — ARCHIVADO · última actividad 2023-12-13 · ★819 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `supermarcus/nineanimator` — ARCHIVADO
+· última actividad 2023-12-13 · ★819 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
 • `ayman708-ux/playtorriov3` — NO ENCONTRADO en GitHub el 29-oct-2026 (404). El enlace citado ya no resuelve: queda marcado, no recomendado.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `akashdh11/skystream` — creado 2026-01-19 · última actividad 2026-10-17 · ★663 (verificado 29-oct-2026) · GPL-3.0.
+• `akashdh11/skystream` — creado 2026-01-19
+· última actividad 2026-10-17 · ★663 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `spyou/zangetsu` — creado 2026-06-02 · última actividad 2026-10-29 · ★454 (verificado 29-oct-2026) · GPL-3.0.
+• `spyou/zangetsu` — creado 2026-06-02
+· última actividad 2026-10-29 · ★454 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `frostnova721/animestream` — creado 2024-02-15 · última actividad 2026-10-28 · ★444 (verificado 29-oct-2026) · GPL-3.0.
+• `frostnova721/animestream` — creado 2024-02-15
+· última actividad 2026-10-28 · ★444 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `spyou/zangetsu` — ★454 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release Zangetsu v2.3.3 (2026-10-22).
+• `spyou/zangetsu` — ★454 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release Zangetsu v2.3.3 (2026-10-22).
 
-• `jakepurple13/otakuworld` — ★638 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release OtakuWorld Nightly Release 2026-10-21 (2026-10-21).
+• `jakepurple13/otakuworld` — ★638 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· Apache-2.0
+· release OtakuWorld Nightly Release 2026-10-21 (2026-10-21).
 
-• `imashnake0/animite` — ★523 (verificado 29-oct-2026) · última actividad 2026-10-24 · Apache-2.0.
+• `imashnake0/animite` — ★523 (verificado 29-oct-2026)
+· última actividad 2026-10-24
+· Apache-2.0.
 
 Licencias sin resolver hoy (2): `anilabx/anilabx`, `th3-anime/th3-anime`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

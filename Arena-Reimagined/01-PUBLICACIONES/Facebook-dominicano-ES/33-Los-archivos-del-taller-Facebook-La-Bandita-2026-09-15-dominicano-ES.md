@@ -82,31 +82,50 @@ Actividad medida hoy: 2 hoy · 2 en 7 días · 1 en 30 días · 1 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `ankurces/project_mythara` — ARCHIVADO · última actividad 2026-09-28 · ★94 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `ankurces/project_mythara` — ARCHIVADO
+· última actividad 2026-09-28 · ★94 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
-• `mryouki/youkidex-android-desktop` — ARCHIVADO · última actividad 2026-09-15 · ★606 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `mryouki/youkidex-android-desktop` — ARCHIVADO
+· última actividad 2026-09-15 · ★606 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
-• `nullbytepl/carriervanityname` — dormido · última actividad 2024-01-25 · ★696 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `nullbytepl/carriervanityname` — dormido
+· última actividad 2024-01-25 · ★696 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `rednaga/axmlprinter` — dormido · última actividad 2026-03-25 · ★262 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `rednaga/axmlprinter` — dormido
+· última actividad 2026-03-25 · ★262 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `schnitzel5/apkbridge` — dormido · última actividad 2026-02-11 · ★36 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `schnitzel5/apkbridge` — dormido
+· última actividad 2026-02-11 · ★36 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `glassontin/haven` — creado 2026-02-20 · última actividad 2026-10-29 · ★1.384 (verificado 29-oct-2026) · AGPL-3.0.
+• `glassontin/haven` — creado 2026-02-20
+· última actividad 2026-10-29 · ★1.384 (verificado 29-oct-2026)
+· AGPL-3.0.
 
-• `l930203811/zenfile` — creado 2026-06-08 · última actividad 2026-10-28 · ★193 (verificado 29-oct-2026) · GPL-3.0.
+• `l930203811/zenfile` — creado 2026-06-08
+· última actividad 2026-10-28 · ★193 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `openminis/openminis` — creado 2026-04-25 · última actividad 2026-10-26 · ★5.595 (verificado 29-oct-2026) · GPL-3.0.
+• `openminis/openminis` — creado 2026-04-25
+· última actividad 2026-10-26 · ★5.595 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `glassontin/haven` — ★1.384 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v5.90.1 (2026-10-28).
+• `glassontin/haven` — ★1.384 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· AGPL-3.0
+· release v5.90.1 (2026-10-28).
 
-• `rushiranpise/shizuku-modules` — ★86 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `rushiranpise/shizuku-modules` — ★86 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `openminis/openminis` — ★5.595 (verificado 29-oct-2026) · última actividad 2026-10-26 · GPL-3.0 · release Test build for #426 (not a release) (2026-10-28).
+• `openminis/openminis` — ★5.595 (verificado 29-oct-2026)
+· última actividad 2026-10-26
+· GPL-3.0
+· release Test build for #426 (not a release) (2026-10-28).
 
 Licencias sin resolver hoy (4): `ankurces/project_mythara`, `marcosdiez/shareviahttp`, `nullbytepl/carriervanityname`, `rushiranpise/shizuku-modules`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

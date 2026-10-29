@@ -8,13 +8,23 @@ Orvid busca el video en más de 250 sitios a la vez y manda cada petición por T
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `mankidev/orvid` — ★9 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release Orvid 0.4.22 (2026-10-29).
+• `mankidev/orvid` — ★9 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release Orvid 0.4.22 (2026-10-29).
 
-• `mankidev/orvid-sources` — ★1 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
+• `mankidev/orvid-sources` — ★1 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0.
 
-• `teamnewpipe/newpipe` — ★40.348 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0.
+• `teamnewpipe/newpipe` — ★40.348 (verificado 29-oct-2026)
+· última actividad 2026-10-27
+· GPL-3.0.
 
-• `libre-tube/libretube` — ★12.908 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release LibreTube Nightly 29-10-2026 (2026-10-29).
+• `libre-tube/libretube` — ★12.908 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release LibreTube Nightly 29-10-2026 (2026-10-29).
 
 ## 📦 Las reglas de la casa
 

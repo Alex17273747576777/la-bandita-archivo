@@ -86,19 +86,34 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `ahmed-alnassif/androsh` — creado 2025-09-22 · última actividad 2026-10-08 · ★273 (verificado 29-oct-2026) · GPL-3.0.
+• `ahmed-alnassif/androsh` — creado 2025-09-22
+· última actividad 2026-10-08 · ★273 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `arora-sir/darq-reborn` — creado 2026-05-26 · última actividad 2026-10-19 · ★125 (verificado 29-oct-2026) · Apache-2.0.
+• `arora-sir/darq-reborn` — creado 2026-05-26
+· última actividad 2026-10-19 · ★125 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `bufanchen121101/axmanagerd` — creado 2026-08-18 · última actividad 2026-10-10 · ★52 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `bufanchen121101/axmanagerd` — creado 2026-08-18
+· última actividad 2026-10-10 · ★52 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `fahrez182/axmanager` — ★1.528 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release AxManager (v3.0.0) (2026-10-29).
+• `fahrez182/axmanager` — ★1.528 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release AxManager (v3.0.0) (2026-10-29).
 
-• `sameerasw/essentials` — ★3.452 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release A hotfix for statusbar detection, lock screen album art and more in Essentials v20.2 (2026-10-26).
+• `sameerasw/essentials` — ★3.452 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· MIT
+· release A hotfix for statusbar detection, lock screen album art and more in Essentials v20.2 (2026-10-26).
 
-• `thejaustin/shizukuplus` — ★1.610 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release 13.7.0.r3085 (2026-10-27).
+• `thejaustin/shizukuplus` — ★1.610 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release 13.7.0.r3085 (2026-10-27).
 
 Licencias sin resolver hoy (4): `bufanchen121101/axmanagerd`, `linksheet/linksheet`, `shynoiddev/firewall-blocks`, `yyj5201314whj/axmanager-pro`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

@@ -260,23 +260,39 @@ Actividad medida hoy: 2 hoy · 4 en 7 días · 3 en 30 días · 1 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `aniyomiorg/aniyomi-preview` — dormido · última actividad 2025-07-05 · ★644 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `aniyomiorg/aniyomi-preview` — dormido
+· última actividad 2025-07-05 · ★644 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `andarcanum/tadami-aniyomi-fork` — creado 2026-01-09 · última actividad 2026-10-29 · ★287 (verificado 29-oct-2026) · Apache-2.0.
+• `andarcanum/tadami-aniyomi-fork` — creado 2026-01-09
+· última actividad 2026-10-29 · ★287 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `komikku-app/anikku` — creado 2025-01-08 · última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026) · Apache-2.0.
+• `komikku-app/anikku` — creado 2025-01-08
+· última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `jobobby04/tachiyomisypreview` — creado 2020-05-10 · última actividad 2026-10-23 · ★489 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `jobobby04/tachiyomisypreview` — creado 2020-05-10
+· última actividad 2026-10-23 · ★489 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `syncyomi/syncyomi` — ★736 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release v1.7.4 (2026-10-29).
+• `syncyomi/syncyomi` — ★736 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-2.0
+· release v1.7.4 (2026-10-29).
 
-• `andarcanum/tadami-aniyomi-fork` — ★287 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release Tadami v0.63.2 (2026-10-28).
+• `andarcanum/tadami-aniyomi-fork` — ★287 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release Tadami v0.63.2 (2026-10-28).
 
-• `nekomangaorg/neko` — ★2.816 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release 3.8.4 (2026-10-14).
+• `nekomangaorg/neko` — ★2.816 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· Apache-2.0
+· release 3.8.4 (2026-10-14).
 
 Licencias sin resolver hoy (1): `jobobby04/tachiyomisypreview`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

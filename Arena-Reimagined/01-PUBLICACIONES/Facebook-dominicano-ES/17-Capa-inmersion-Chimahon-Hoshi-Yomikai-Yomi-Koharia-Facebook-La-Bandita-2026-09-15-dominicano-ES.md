@@ -173,19 +173,33 @@ Actividad medida hoy: 1 hoy · 6 en 7 días · 4 en 30 días · 1 en 180 días �
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `chimahon/chimahon` — creado 2026-03-27 · última actividad 2026-10-20 · ★237 (verificado 29-oct-2026) · GPL-3.0.
+• `chimahon/chimahon` — creado 2026-03-27
+· última actividad 2026-10-20 · ★237 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `codegeasse1/nekoread` — creado 2026-07-28 · última actividad 2026-09-29 · ★10 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `codegeasse1/nekoread` — creado 2026-07-28
+· última actividad 2026-09-29 · ★10 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `huangantimony/hoshi-reader-android` — creado 2026-04-28 · última actividad 2026-10-27 · ★462 (verificado 29-oct-2026) · GPL-3.0.
+• `huangantimony/hoshi-reader-android` — creado 2026-04-28
+· última actividad 2026-10-27 · ★462 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `gotson/komga` — ★6.796 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release Release 1.29.2 (2026-10-28).
+• `gotson/komga` — ★6.796 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· MIT
+· release Release 1.29.2 (2026-10-28).
 
-• `koreader/koreader` — ★30.726 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release OTA (2026-10-28).
+• `koreader/koreader` — ★30.726 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· AGPL-3.0
+· release OTA (2026-10-28).
 
-• `kareadita/kavita` — ★11.967 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
+• `kareadita/kavita` — ★11.967 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· GPL-3.0.
 
 Licencias sin resolver hoy (1): `codegeasse1/nekoread`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

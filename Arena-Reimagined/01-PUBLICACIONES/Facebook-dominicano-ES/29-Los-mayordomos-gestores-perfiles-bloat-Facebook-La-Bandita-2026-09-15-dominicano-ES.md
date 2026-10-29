@@ -85,27 +85,43 @@ Actividad medida hoy: 0 hoy · 5 en 7 días · 3 en 30 días · 3 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `0x192/universal-android-debloater` — dormido · última actividad 2023-04-10 · ★20.284 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `0x192/universal-android-debloater` — dormido
+· última actividad 2023-04-10 · ★20.284 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `legendsayantan/shizutools` — dormido · última actividad 2025-05-02 · ★2.631 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `legendsayantan/shizutools` — dormido
+· última actividad 2025-05-02 · ★2.631 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `oasisfeng/island` — dormido · última actividad 2021-09-02 · ★3.988 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `oasisfeng/island` — dormido
+· última actividad 2021-09-02 · ★3.988 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 • `risuncode/appcontrol-x` — NO ENCONTRADO en GitHub el 29-oct-2026 (404). El enlace citado ya no resuelve: queda marcado, no recomendado.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `bikram-agarwal/obtainx` — creado 2026-02-25 · última actividad 2026-10-04 · ★1.555 (verificado 29-oct-2026) · GPL-3.0.
+• `bikram-agarwal/obtainx` — creado 2026-02-25
+· última actividad 2026-10-04 · ★1.555 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `bugestudioteam/buge-app-manager` — creado 2026-03-02 · última actividad 2026-10-28 · ★309 (verificado 29-oct-2026) · GPL-3.0.
+• `bugestudioteam/buge-app-manager` — creado 2026-03-02
+· última actividad 2026-10-28 · ★309 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `keymapperorg/keymapper` — ★2.782 (verificado 29-oct-2026) · última actividad 2026-10-26 · GPL-3.0 · release 4.6.2 (2026-10-22).
+• `keymapperorg/keymapper` — ★2.782 (verificado 29-oct-2026)
+· última actividad 2026-10-26
+· GPL-3.0
+· release 4.6.2 (2026-10-22).
 
-• `hamza417/inure` — ★1.979 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release build107.3.0 (2026-10-21).
+• `hamza417/inure` — ★1.979 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· GPL-3.0
+· release build107.3.0 (2026-10-21).
 
-• `d4rken-org/sdmaid-se` — ★7.911 (verificado 29-oct-2026) · última actividad 2026-10-22 · GPL-3.0 · release v2.2.2-rc0 (2026-10-19).
+• `d4rken-org/sdmaid-se` — ★7.911 (verificado 29-oct-2026)
+· última actividad 2026-10-22
+· GPL-3.0
+· release v2.2.2-rc0 (2026-10-19).
 
 Enlaces web: 14 apariciones; 13 respondieron vivas el 29-oct-2026.
 

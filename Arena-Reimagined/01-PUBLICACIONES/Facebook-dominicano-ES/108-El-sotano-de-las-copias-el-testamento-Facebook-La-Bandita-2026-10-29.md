@@ -8,9 +8,20 @@ La última página del muro y el testamento de la serie: cuatro guardianes y un 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `neoapplications/neo-backup` — ★3.880 (verificado 29-oct-2026) · actividad este mes · última actividad 2026-10-17 · AGPL-3.0
-• `immich-app/immich` — ★117.571 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · AGPL-3.0 · release v3.3.5 (2026-10-21)
-• `syncthing/syncthing-android` — ★4.293 (verificado 29-oct-2026) · ARCHIVADO · última actividad 2024-12-03 · MPL-2.0
+• `neoapplications/neo-backup` — ★3.880 (verificado 29-oct-2026)
+· actividad este mes
+· última actividad 2026-10-17
+· AGPL-3.0
+
+• `immich-app/immich` — ★117.571 (verificado 29-oct-2026)
+· actividad HOY
+· última actividad 2026-10-29
+· AGPL-3.0
+· release v3.3.5 (2026-10-21)
+
+• `syncthing/syncthing-android` — ★4.293 (verificado 29-oct-2026) · ARCHIVADO
+· última actividad 2024-12-03
+· MPL-2.0
 
 ## 📦 Las reglas de la casa
 

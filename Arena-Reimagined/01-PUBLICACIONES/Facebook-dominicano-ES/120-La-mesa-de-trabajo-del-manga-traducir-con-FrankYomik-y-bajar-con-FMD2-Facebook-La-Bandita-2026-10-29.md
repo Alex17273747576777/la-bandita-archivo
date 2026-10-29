@@ -8,9 +8,14 @@ Dos oficios finos de la mesa del manga empujaron esta semana: FrankYomik — nac
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `akitaonrails/frankyomik` — ★214 (verificado 29-oct-2026) · última actividad 2026-10-27 · AGPL-3.0 · release Frank Yomik v2.0.4 (2026-10-27).
+• `akitaonrails/frankyomik` — ★214 (verificado 29-oct-2026)
+· última actividad 2026-10-27
+· AGPL-3.0
+· release Frank Yomik v2.0.4 (2026-10-27).
 
-• `dazedcat19/fmd2` — ★1.170 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0.
+• `dazedcat19/fmd2` — ★1.170 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-2.0.
 
 ## 📦 Las reglas de la casa
 

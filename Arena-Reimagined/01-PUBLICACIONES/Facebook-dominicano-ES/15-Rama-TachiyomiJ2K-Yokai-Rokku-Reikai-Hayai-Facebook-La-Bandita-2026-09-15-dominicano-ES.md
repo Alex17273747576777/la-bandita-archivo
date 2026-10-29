@@ -235,25 +235,41 @@ Actividad medida hoy: 1 hoy · 2 en 7 días · 2 en 30 días · 7 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `cuong-tran/tachiyomij2k` — dormido · última actividad 2024-08-15 · ★10 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `cuong-tran/tachiyomij2k` — dormido
+· última actividad 2024-08-15 · ★10 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `hiirbaf/yokai` — dormido · última actividad 2026-04-24 · ★3 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `hiirbaf/yokai` — dormido
+· última actividad 2026-04-24 · ★3 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `hayaiapp/hayai` — creado 2025-03-29 · última actividad 2026-10-03 · ★47 (verificado 29-oct-2026) · Apache-2.0.
+• `hayaiapp/hayai` — creado 2025-03-29
+· última actividad 2026-10-03 · ★47 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `rokku-app/rokku` — creado 2026-07-22 · última actividad 2026-10-29 · ★63 (verificado 29-oct-2026) · Apache-2.0.
+• `rokku-app/rokku` — creado 2026-07-22
+· última actividad 2026-10-29 · ★63 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `theordinaryguy23/tachiyomidnp` — creado 2026-06-07 · última actividad 2026-10-21 · ★6 (verificado 29-oct-2026) · Apache-2.0.
+• `theordinaryguy23/tachiyomidnp` — creado 2026-06-07
+· última actividad 2026-10-21 · ★6 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `rokku-app/rokku` — ★63 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release Rokku v1.8.0 (2026-10-29).
+• `rokku-app/rokku` — ★63 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0
+· release Rokku v1.8.0 (2026-10-29).
 
-• `lnreader/lnreader` — ★2.942 (verificado 29-oct-2026) · última actividad 2026-10-24 · MIT.
+• `lnreader/lnreader` — ★2.942 (verificado 29-oct-2026)
+· última actividad 2026-10-24
+· MIT.
 
-• `unseensnick/reikai` — ★42 (verificado 29-oct-2026) · última actividad 2026-10-27 · Apache-2.0 · release Reikai v0.5.1 (2026-10-26).
+• `unseensnick/reikai` — ★42 (verificado 29-oct-2026)
+· última actividad 2026-10-27
+· Apache-2.0
+· release Reikai v0.5.1 (2026-10-26).
 
 Enlaces web: 19 apariciones; 19 respondieron vivas el 29-oct-2026.
 

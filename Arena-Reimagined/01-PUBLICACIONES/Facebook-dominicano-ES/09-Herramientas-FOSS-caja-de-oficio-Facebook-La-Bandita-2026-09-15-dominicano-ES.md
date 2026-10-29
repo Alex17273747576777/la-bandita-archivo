@@ -200,19 +200,30 @@ Actividad medida hoy: 2 hoy · 8 en 7 días · 2 en 30 días · 2 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `rikkaapps/shizuku` — dormido · última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `rikkaapps/shizuku` — dormido
+· última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `fossifyorg/clock` — creado 2022-06-28 · última actividad 2026-10-27 · ★715 (verificado 29-oct-2026) · GPL-3.0.
+• `fossifyorg/clock` — creado 2022-06-28
+· última actividad 2026-10-27 · ★715 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `organicmaps/organicmaps` — ★15.808 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release 2026.09.29-32-android (2026-09-29).
+• `organicmaps/organicmaps` — ★15.808 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION)
+· release 2026.09.29-32-android (2026-09-29).
 
-• `localsend/localsend` — ★96.416 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+• `localsend/localsend` — ★96.416 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0.
 
-• `guardianproject/orbot` — ★3.659 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia sin clasificar (NOASSERTION) · release Orbot for Android v17.9.7 RC 1 (tor 0.4.9.14) (2026-10-09).
+• `guardianproject/orbot` — ★3.659 (verificado 29-oct-2026)
+· última actividad 2026-10-26
+· licencia sin clasificar (NOASSERTION)
+· release Orbot for Android v17.9.7 RC 1 (tor 0.4.9.14) (2026-10-09).
 
 Licencias sin resolver hoy (4): `muntashirakon/appmanager`, `organicmaps/organicmaps`, `termux/termux-app`, `guardianproject/orbot`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

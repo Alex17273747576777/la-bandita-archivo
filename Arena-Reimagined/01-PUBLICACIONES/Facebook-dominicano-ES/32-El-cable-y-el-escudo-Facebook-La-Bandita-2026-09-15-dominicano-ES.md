@@ -78,23 +78,35 @@ Actividad medida hoy: 1 hoy · 3 en 7 días · 1 en 30 días · 2 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `androidacy/magiskmodulemanager` — dormido · última actividad 2026-03-11 · ★1.241 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `androidacy/magiskmodulemanager` — dormido
+· última actividad 2026-03-11 · ★1.241 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `dupdatesystem/upgradeall` — dormido · última actividad 2026-02-24 · ★1.359 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `dupdatesystem/upgradeall` — dormido
+· última actividad 2026-02-24 · ★1.359 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `teamwin/android_bootable_recovery` — dormido · última actividad 2025-09-02 · ★1.722 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `teamwin/android_bootable_recovery` — dormido
+· última actividad 2025-09-02 · ★1.722 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `yshalsager/shizukushortcuts` — creado 2026-03-08 · última actividad 2026-10-24 · ★77 (verificado 29-oct-2026) · GPL-3.0.
+• `yshalsager/shizukushortcuts` — creado 2026-03-08
+· última actividad 2026-10-24 · ★77 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `emanuele-f/pcapdroid` — ★5.008 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
+• `emanuele-f/pcapdroid` — ★5.008 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0.
 
-• `trackercontrol/tracker-control-android` — ★2.703 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
+• `trackercontrol/tracker-control-android` — ★2.703 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· GPL-3.0.
 
-• `badabing2005/pixelflasher` — ★2.340 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release Release v10.1.1.1 (2026-10-06).
+• `badabing2005/pixelflasher` — ★2.340 (verificado 29-oct-2026)
+· última actividad 2026-10-25
+· GPL-3.0
+· release Release v10.1.1.1 (2026-10-06).
 
 Licencias sin resolver hoy (2): `k3v1991/adb-and-fastbootplusplus`, `teamwin/android_bootable_recovery`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

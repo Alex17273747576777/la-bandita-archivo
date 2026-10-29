@@ -55,3 +55,8 @@ _Cada lección costó tiempo real. Leerla antes de trabajar ahorra el próximo t
 - **Contexto:** Reorden + entrega truncada (29-oct)
 - **Fallo/experiencia:** La carpeta gemela de la entrega quedó en 2 archivos por la mordida y el espejo la propagó; el ZIP, en cambio, estaba íntegro
 - **Regla que queda:** Del paquete manda el ZIP verificado: la carpeta se restaura DESDE el ZIP. Y la verificación tras push se hace por blobs del árbol remoto, sin segunda clonación que la red pueda tumbar
+
+## L-12 · 2026-10-29
+- **Contexto:** Publicación real en el compositor de Facebook (29-oct)
+- **Fallo/experiencia:** El contenido verificado pegado en Facebook se veía como una pared: mapas mentales de una línea por familia y placas con todo en una sola línea nadie las puede leer en el móvil
+- **Regla que queda:** Toda pieza de Facebook pasa el formato respirable (mapa en dos líneas, placa por bloque, licencia en su línea) y la reorganización se prueba con secuencia de palabras idéntica: cero falsos positivos

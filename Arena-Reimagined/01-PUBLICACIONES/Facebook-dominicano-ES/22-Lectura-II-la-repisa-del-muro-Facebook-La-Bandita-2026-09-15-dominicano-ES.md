@@ -85,23 +85,38 @@ Actividad medida hoy: 1 hoy · 1 en 7 días · 3 en 30 días · 3 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `nubesurrealista/kumo` — ARCHIVADO · última actividad 2026-08-20 · ★59 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+• `nubesurrealista/kumo` — ARCHIVADO
+· última actividad 2026-08-20 · ★59 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `k1717/readwide` — creado 2026-06-08 · última actividad 2026-10-24 · ★38 (verificado 29-oct-2026) · licencia sin clasificar (NOASSERTION).
+• `k1717/readwide` — creado 2026-06-08
+· última actividad 2026-10-24 · ★38 (verificado 29-oct-2026)
+· licencia sin clasificar (NOASSERTION).
 
-• `mynamehand/tegaki` — creado 2026-06-24 · última actividad 2026-10-16 · ★4 (verificado 29-oct-2026) · Apache-2.0.
+• `mynamehand/tegaki` — creado 2026-06-24
+· última actividad 2026-10-16 · ★4 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `thehijacker/codexa` — creado 2026-04-27 · última actividad 2026-10-19 · ★79 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `thehijacker/codexa` — creado 2026-04-27
+· última actividad 2026-10-19 · ★79 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `koodo-reader/koodo-reader` — ★28.665 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release 2.4.6 (2026-10-08).
+• `koodo-reader/koodo-reader` — ★28.665 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· AGPL-3.0
+· release 2.4.6 (2026-10-08).
 
-• `k1717/readwide` — ★38 (verificado 29-oct-2026) · última actividad 2026-10-24 · licencia sin clasificar (NOASSERTION) · release Readwide v1.0.21 (2026-10-24).
+• `k1717/readwide` — ★38 (verificado 29-oct-2026)
+· última actividad 2026-10-24
+· licencia sin clasificar (NOASSERTION)
+· release Readwide v1.0.21 (2026-10-24).
 
-• `komikku-app/komikku` — ★4.952 (verificado 29-oct-2026) · última actividad 2026-10-21 · Apache-2.0.
+• `komikku-app/komikku` — ★4.952 (verificado 29-oct-2026)
+· última actividad 2026-10-21
+· Apache-2.0.
 
 Licencias sin resolver hoy (3): `dinkelspiel/komikku-sync`, `k1717/readwide`, `thehijacker/codexa`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

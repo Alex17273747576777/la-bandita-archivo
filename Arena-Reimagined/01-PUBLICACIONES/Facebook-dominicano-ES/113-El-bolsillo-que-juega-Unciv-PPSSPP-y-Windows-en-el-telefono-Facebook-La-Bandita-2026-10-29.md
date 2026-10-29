@@ -8,11 +8,17 @@ Tres generaciones de la misma idea — el teléfono como máquina del tiempo —
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `yairm210/unciv` — ★11.498 (verificado 29-oct-2026) · última actividad 2026-10-29 · MPL-2.0 · release 4.22.15 (2026-10-28).
+• `yairm210/unciv` — ★11.498 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· MPL-2.0
+· release 4.22.15 (2026-10-28).
 
-• `hrydgard/ppsspp` — ★14.780 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
+• `hrydgard/ppsspp` — ★14.780 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia sin clasificar (NOASSERTION).
 
-• `brunodev85/winlator` — ★19.680 (verificado 29-oct-2026) · última actividad 2026-10-17 · LGPL-2.1.
+• `brunodev85/winlator` — ★19.680 (verificado 29-oct-2026)
+· última actividad 2026-10-17 · LGPL-2.1.
 
 ## 📦 Las reglas de la casa
 

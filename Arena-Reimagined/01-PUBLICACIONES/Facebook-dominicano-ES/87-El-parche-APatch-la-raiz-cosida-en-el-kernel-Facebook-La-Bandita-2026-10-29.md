@@ -8,7 +8,11 @@ APatch cose la raíz dentro del kernel: menos capas, otra anatomía. Es la terce
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `bmax121/apatch` — ★8.103 (verificado 29-oct-2026) · actividad este mes · última actividad 2026-10-12 · GPL-3.0 · release 11282 (2026-10-12)
+• `bmax121/apatch` — ★8.103 (verificado 29-oct-2026)
+· actividad este mes
+· última actividad 2026-10-12
+· GPL-3.0
+· release 11282 (2026-10-12)
 
 ## 📦 Las reglas de la casa
 

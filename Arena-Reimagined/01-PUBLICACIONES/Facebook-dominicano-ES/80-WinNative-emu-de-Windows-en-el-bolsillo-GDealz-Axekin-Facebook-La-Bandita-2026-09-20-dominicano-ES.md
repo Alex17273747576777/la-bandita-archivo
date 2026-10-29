@@ -127,13 +127,20 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `winnative-emu/winnative` — creado 2026-03-07 · última actividad 2026-10-25 · ★731 (verificado 29-oct-2026) · GPL-3.0.
+• `winnative-emu/winnative` — creado 2026-03-07
+· última actividad 2026-10-25 · ★731 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `winnative-emu/winnative` — ★731 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v0.8.0-beta (2026-10-12).
+• `winnative-emu/winnative` — ★731 (verificado 29-oct-2026)
+· última actividad 2026-10-25
+· GPL-3.0
+· release v0.8.0-beta (2026-10-12).
 
-• `rajkumarbhakta/gdealz` — ★55 (verificado 29-oct-2026) · última actividad 2026-08-01 · GPL-3.0.
+• `rajkumarbhakta/gdealz` — ★55 (verificado 29-oct-2026)
+· última actividad 2026-08-01
+· GPL-3.0.
 
 Enlaces web: 6 apariciones; 6 respondieron vivas el 29-oct-2026.
 

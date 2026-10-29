@@ -51,27 +51,44 @@ Actividad medida hoy: 2 hoy · 6 en 7 días · 1 en 30 días · 1 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `mkulesh/onpc` — dormido · última actividad 2025-12-08 · ★168 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `mkulesh/onpc` — dormido
+· última actividad 2025-12-08 · ★168 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `self-similarity/megarepo` — dormido · última actividad 2025-10-03 · ★140 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `self-similarity/megarepo` — dormido
+· última actividad 2025-10-03 · ★140 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 • `jpdoshi/dragon-store` — NO ENCONTRADO en GitHub el 29-oct-2026 (404). El enlace citado ya no resuelve: queda marcado, no recomendado.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `bikram-agarwal/filepipe` — creado 2026-03-31 · última actividad 2026-10-02 · ★310 (verificado 29-oct-2026) · GPL-3.0.
+• `bikram-agarwal/filepipe` — creado 2026-03-31
+· última actividad 2026-10-02 · ★310 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `cosmictaserdev-creator/convx` — creado 2026-07-23 · última actividad 2026-10-29 · ★1.058 (verificado 29-oct-2026) · GPL-3.0.
+• `cosmictaserdev-creator/convx` — creado 2026-07-23
+· última actividad 2026-10-29 · ★1.058 (verificado 29-oct-2026)
+· GPL-3.0.
 
-• `renzobeux/dashboarr` — creado 2026-04-05 · última actividad 2026-10-29 · ★377 (verificado 29-oct-2026) · GPL-3.0.
+• `renzobeux/dashboarr` — creado 2026-04-05
+· última actividad 2026-10-29 · ★377 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `renzobeux/dashboarr` — ★377 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release backend-v1.10.0 (2026-10-29).
+• `renzobeux/dashboarr` — ★377 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release backend-v1.10.0 (2026-10-29).
 
-• `cosmictaserdev-creator/convx` — ★1.058 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release Convx 2.0.4 Nightly (2026-10-29).
+• `cosmictaserdev-creator/convx` — ★1.058 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0
+· release Convx 2.0.4 Nightly (2026-10-29).
 
-• `bobrofon/easysshfs` — ★154 (verificado 29-oct-2026) · última actividad 2026-10-25 · MIT · release EasySSHFS 0.5.19 (2026-10-12).
+• `bobrofon/easysshfs` — ★154 (verificado 29-oct-2026)
+· última actividad 2026-10-25
+· MIT
+· release EasySSHFS 0.5.19 (2026-10-12).
 
 Licencias sin resolver hoy (3): `recloudstream/cs-repos`, `self-similarity/megarepo`, `tobexyz/yaacc-code`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

@@ -21,15 +21,24 @@ Y todo eso corre contra un calendario que ya tiene fecha: la verificación de de
 🌐 MAPA MENTAL — LA FAMILIA DE ESTA GUÍA EN UNA FOTO
 
 ▸ Familia / Nombre / Lo que hace por ti
-• La casa → F-Droid → Revisa y compila reproducible; responde con su nombre
-• El anexo → IzzyOnDroid → El repo donde muchas apps se estrenan
-• Los mostradores → Droid-ify · Neo-Store · Omnify → La cara cómoda para los catálogos F-Droid
-• El mensajero → Aurora Store → Entra al catálogo grande sin dar tu cuenta
-• La portería → Accrescent → Firma estricta, cero cuentas, alpha
-• El mercado abierto → Appteka → Catálogo de comunidad; miras bien de quién compras
-• Los vigilantes → Obtainium · ObtainX → Siguen los repos y colocan lo nuevo
-• Las del puente → ShizuStore · yuki · ShizuCoreFetch → Trabajan con el permiso de Shizuku
-• Los letreros (no ir) → Espacio APK · HappyMod · Liteapks → Mods sin dueño: se nombran, no se enlazan
+• La casa → F-Droid
+Revisa y compila reproducible; responde con su nombre
+• El anexo → IzzyOnDroid
+El repo donde muchas apps se estrenan
+• Los mostradores → Droid-ify · Neo-Store · Omnify
+La cara cómoda para los catálogos F-Droid
+• El mensajero → Aurora Store
+Entra al catálogo grande sin dar tu cuenta
+• La portería → Accrescent
+Firma estricta, cero cuentas, alpha
+• El mercado abierto → Appteka
+Catálogo de comunidad; miras bien de quién compras
+• Los vigilantes → Obtainium · ObtainX
+Siguen los repos y colocan lo nuevo
+• Las del puente → ShizuStore · yuki · ShizuCoreFetch
+Trabajan con el permiso de Shizuku
+• Los letreros (no ir) → Espacio APK · HappyMod · Liteapks
+Mods sin dueño: se nombran, no se enlazan
 
 Si te llevas una sola imagen: «F-Droid es la casa y las demás cuelgan de ella o caminan a su alrededor.» Cada ficha de abajo es la puerta de una de esas familias.
 
@@ -102,16 +111,26 @@ Si solo vas a quedarte con una tienda de esta lista, quédate con esta: la más 
 ▸ 📊 Las tiendas, cruzadas en una tabla
 
 ▸ Tienda / ¿Revisa lo que publica? / ¿Cuenta propia? / ¿Código abierto? / Su oficio
-• F-Droid → Sí, y compila reproducible → No → Sí → La casa madre
-• IzzyOnDroid → Es repo revisado por su mantenedor → No → Repos abiertos → El anexo de novedades
-• Droid-ify → Consume repos (no es tienda) → No → Sí → Mostrador moderno
-• Neo-Store → Consume repos (no es tienda) → No → Sí → Mostrador con lupa
-• Aurora Store → Consulta catálogo ajeno → No (anónimo) → Sí → El mensajero
-• Accrescent → Sí, firma estricta desde la entrada → No → Sí → La portería nueva
-• Appteka → Catálogo de comunidad → Opcional → Cliente abierto → El mercado abierto
-• ShizuStore → Instala del upstream de cada app → No → Sí → Tienda del puente
-• yuki → Catálogo curado (no instala) → No → Sí → El mapa del puente
-• ShizuCoreFetch → Plataforma central de apps de núcleo → No → Sí → La central del puente
+• F-Droid → Sí, y compila reproducible
+No → Sí → La casa madre
+• IzzyOnDroid → Es repo revisado por su mantenedor
+No → Repos abiertos → El anexo de novedades
+• Droid-ify → Consume repos (no es tienda)
+No → Sí → Mostrador moderno
+• Neo-Store → Consume repos (no es tienda)
+No → Sí → Mostrador con lupa
+• Aurora Store → Consulta catálogo ajeno
+No (anónimo) → Sí → El mensajero
+• Accrescent → Sí, firma estricta desde la entrada
+No → Sí → La portería nueva
+• Appteka → Catálogo de comunidad
+Opcional → Cliente abierto → El mercado abierto
+• ShizuStore → Instala del upstream de cada app
+No → Sí → Tienda del puente
+• yuki → Catálogo curado (no instala)
+No → Sí → El mapa del puente
+• ShizuCoreFetch → Plataforma central de apps de núcleo
+No → Sí → La central del puente
 
 Lectura rápida de la tabla: «ninguna te pide cuenta» (diferencia clave contra la tienda grande), «todas tienen el código a la vista o la fuente declarada», y solo dos revisan como casa editorial: F-Droid con su compilación y Accrescent con su firma estricta. Las demás son caminos hacia esas dos disciplinas, no atajos para saltárselas.
 
@@ -153,9 +172,12 @@ QUÉ ES SHIZUKU: pieza libre (https://github.com/RikkaApps/Shizuku, ~30,5 mil es
 ▸ 🧩 ¿Cuál de las tres del puente te sirve?
 
 ▸ Si lo tuyo es… / Tu pieza es / Qué hace / Instala ella
-• Catálogo de apps Shizuku instaladas de su casa oficial → ShizuStore → Tienda que baja del upstream → Sí
-• Descubrir qué libres usan el permiso → yuki → Índice curado navegable → No (bajas del repo de cada app)
-• Un punto central con web → ShizuCoreFetch → Plataforma de gestión con front-end → Desde su plataforma
+• Catálogo de apps Shizuku instaladas de su casa oficial → ShizuStore
+Tienda que baja del upstream → Sí
+• Descubrir qué libres usan el permiso → yuki
+Índice curado navegable → No (bajas del repo de cada app)
+• Un punto central con web → ShizuCoreFetch
+Plataforma de gestión con front-end → Desde su plataforma
 
 Las tres se complementan, no compiten: descubres con yuki, instalas con ShizuStore, ordenas con ShizuCoreFetch. Y las tres te dicen lo mismo si el portero no está: ENCIENDE SHIZUKU PRIMERO.
 
@@ -166,11 +188,16 @@ Las tres se complementan, no compiten: descubres con yuki, instalas con ShizuSto
 ❝ SEMILLA: yukistore.org es la galería donde las tiendas del portero ponen su vitrina — «Shizuku-powered Android apps, all in one place». Letrero con dueño y estantería con fechas. 22-sep-2026 abrimos cinco vitrinas de su pasillo: ❞
 
 ▸ Vitrina / Su oficio / Pulso al 22-sep-2026
-• Multistore (FedeFluork) → Agrega tiendas de terceros en un solo catálogo: buscas en todas, comparas e instalas de la que eliges → v0.7.2-beta del 18-sep
-• GStore (sunO2) → «Cosecha las apps abiertas de GitHub» en un solo cesto → v1.0.33 del 21-sep
-• Xenon Store Compose (Dinico414) → Tienda joven escrita en Compose; habla por versiones → hasta 2.2.1, activa en 2026
-• MOD Store (Developer-For-Git) → Tienda libre con interfaz Material; puesto nuevo → ficha de abr-2026
-• Aurora Store Crxmson (ThIsLinked) → Fork modificado de Aurora Store → dormida desde ago-2024: se nombra, no se receta
+• Multistore (FedeFluork) → Agrega tiendas de terceros en un solo catálogo: buscas en todas, comparas e instalas de la que eliges
+v0.7.2-beta del 18-sep
+• GStore (sunO2) → «Cosecha las apps abiertas de GitHub» en un solo cesto
+v1.0.33 del 21-sep
+• Xenon Store Compose (Dinico414) → Tienda joven escrita en Compose; habla por versiones
+hasta 2.2.1, activa en 2026
+• MOD Store (Developer-For-Git) → Tienda libre con interfaz Material; puesto nuevo
+ficha de abr-2026
+• Aurora Store Crxmson (ThIsLinked) → Fork modificado de Aurora Store
+dormida desde ago-2024: se nombra, no se receta
 
 ❝ La galería es vitrina, no auditor: la firma final se mira en el repo de cada app. Y recuerda: vitrina con dueño y fecha ≠ bendición — quiere decir que hay a quién mirarle el pulso. ❞
 
@@ -579,23 +606,33 @@ Actividad medida hoy: 0 hoy · 4 en 7 días · 4 en 30 días · 2 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `rikkaapps/shizuku` — dormido · última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `rikkaapps/shizuku` — dormido
+· última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `bikram-agarwal/obtainx` — creado 2026-02-25 · última actividad 2026-10-04 · ★1.555 (verificado 29-oct-2026) · GPL-3.0.
+• `bikram-agarwal/obtainx` — creado 2026-02-25
+· última actividad 2026-10-04 · ★1.555 (verificado 29-oct-2026) · GPL-3.0.
 
-• `carlelieser/yuki` — creado 2026-09-06 · última actividad 2026-10-12 · ★156 (verificado 29-oct-2026) · MIT.
+• `carlelieser/yuki` — creado 2026-09-06
+· última actividad 2026-10-12 · ★156 (verificado 29-oct-2026) · MIT.
 
-• `komi-store/komi-store` — creado 2025-11-21 · última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026) · Apache-2.0.
+• `komi-store/komi-store` — creado 2025-11-21
+· última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026) · Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `neoapplications/neo-store` — ★5.568 (verificado 29-oct-2026) · última actividad 2026-10-23 · GPL-3.0 · release Release 1.3.3 (2026-10-23).
+• `neoapplications/neo-store` — ★5.568 (verificado 29-oct-2026)
+· última actividad 2026-10-23 · GPL-3.0
+· release Release 1.3.3 (2026-10-23).
 
-• `imranr98/obtainium` — ★21.002 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v1.7.3 (2026-10-25).
+• `imranr98/obtainium` — ★21.002 (verificado 29-oct-2026)
+· última actividad 2026-10-25 · GPL-3.0
+· release v1.7.3 (2026-10-25).
 
-• `komi-store/komi-store` — ★20.082 (verificado 29-oct-2026) · última actividad 2026-10-25 · Apache-2.0 · release 🩹 Komi Store 1.9.4 (2026-10-24).
+• `komi-store/komi-store` — ★20.082 (verificado 29-oct-2026)
+· última actividad 2026-10-25 · Apache-2.0
+· release 🩹 Komi Store 1.9.4 (2026-10-24).
 
 Enlaces web: 47 apariciones; 47 respondieron vivas el 29-oct-2026.
 

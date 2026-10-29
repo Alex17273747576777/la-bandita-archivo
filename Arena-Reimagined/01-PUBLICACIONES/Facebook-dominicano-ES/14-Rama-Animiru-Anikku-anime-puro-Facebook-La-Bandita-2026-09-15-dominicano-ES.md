@@ -180,25 +180,40 @@ Actividad medida hoy: 2 hoy · 1 en 7 días · 1 en 30 días · 0 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `salmanbappi/aniyomi-extensions` — dormido · última actividad 2026-01-12 · ★17 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `salmanbappi/aniyomi-extensions` — dormido
+· última actividad 2026-01-12 · ★17 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `znabil/animirutv` — dormido · última actividad 2023-12-07 · ★0 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `znabil/animirutv` — dormido
+· última actividad 2023-12-07 · ★0 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `komikku-app/anikku` — creado 2025-01-08 · última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026) · Apache-2.0.
+• `komikku-app/anikku` — creado 2025-01-08
+· última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `komikku-app/anikku-preview` — creado 2025-03-16 · última actividad 2026-10-28 · ★118 (verificado 29-oct-2026) · Apache-2.0.
+• `komikku-app/anikku-preview` — creado 2025-03-16
+· última actividad 2026-10-28 · ★118 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `salmanbappi/extensions-repo` — creado 2025-12-24 · última actividad 2026-10-29 · ★51 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `salmanbappi/extensions-repo` — creado 2025-12-24
+· última actividad 2026-10-29 · ★51 (verificado 29-oct-2026)
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `quickdesh/animiru` — ★904 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+• `quickdesh/animiru` — ★904 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· Apache-2.0.
 
-• `salmanbappi/extensions-repo` — ★51 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
+• `salmanbappi/extensions-repo` — ★51 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
-• `komikku-app/anikku-preview` — ★118 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release Anikku Preview r8944 (2026-10-05).
+• `komikku-app/anikku-preview` — ★118 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· Apache-2.0
+· release Anikku Preview r8944 (2026-10-05).
 
 Licencias sin resolver hoy (1): `salmanbappi/extensions-repo`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

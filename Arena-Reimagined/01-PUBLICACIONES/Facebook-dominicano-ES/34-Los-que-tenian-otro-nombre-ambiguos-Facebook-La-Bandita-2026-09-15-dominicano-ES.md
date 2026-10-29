@@ -73,23 +73,37 @@ Actividad medida hoy: 0 hoy · 2 en 7 días · 0 en 30 días · 3 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `preethamkmr3/widgetspro` — dormido · última actividad 2026-01-20 · ★171 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `preethamkmr3/widgetspro` — dormido
+· última actividad 2026-01-20 · ★171 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `vegabobo/language-selector` — dormido · última actividad 2024-12-29 · ★785 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `vegabobo/language-selector` — dormido
+· última actividad 2024-12-29 · ★785 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `eyalm2000/adns` — creado 2026-04-08 · última actividad 2026-10-22 · ★731 (verificado 29-oct-2026) · MIT.
+• `eyalm2000/adns` — creado 2026-04-08
+· última actividad 2026-10-22 · ★731 (verificado 29-oct-2026)
+· MIT.
 
-• `imtiaz-official/smart-edge` — creado 2026-03-11 · última actividad 2026-10-28 · ★442 (verificado 29-oct-2026) · MIT.
+• `imtiaz-official/smart-edge` — creado 2026-03-11
+· última actividad 2026-10-28 · ★442 (verificado 29-oct-2026)
+· MIT.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `imtiaz-official/smart-edge` — ★442 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release v1.3.7 (2026-10-26).
+• `imtiaz-official/smart-edge` — ★442 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· MIT
+· release v1.3.7 (2026-10-26).
 
-• `eyalm2000/adns` — ★731 (verificado 29-oct-2026) · última actividad 2026-10-22 · MIT · release v2.1.8 (2026-10-03).
+• `eyalm2000/adns` — ★731 (verificado 29-oct-2026)
+· última actividad 2026-10-22
+· MIT
+· release v2.1.8 (2026-10-03).
 
-• `exiarepairii/deskcontrol` — ★67 (verificado 29-oct-2026) · última actividad 2026-08-13 · GPL-3.0.
+• `exiarepairii/deskcontrol` — ★67 (verificado 29-oct-2026)
+· última actividad 2026-08-13
+· GPL-3.0.
 
 Licencias sin resolver hoy (1): `preethamkmr3/widgetspro`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

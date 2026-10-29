@@ -193,23 +193,36 @@ Actividad medida hoy: 0 hoy · 0 en 7 días · 3 en 30 días · 0 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `salmanbappi/anizen-preview` — dormido · última actividad 2026-03-10 · ★9 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `salmanbappi/anizen-preview` — dormido
+· última actividad 2026-03-10 · ★9 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 • `gaijin81/anizen` — NO ENCONTRADO en GitHub el 29-oct-2026 (404). El enlace citado ya no resuelve: queda marcado, no recomendado.
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `komikku-app/anikku` — creado 2025-01-08 · última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026) · Apache-2.0.
+• `komikku-app/anikku` — creado 2025-01-08
+· última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026)
+· Apache-2.0.
 
-• `salmanbappi/anizen` — creado 2026-01-23 · última actividad 2026-10-16 · ★200 (verificado 29-oct-2026) · Apache-2.0.
+• `salmanbappi/anizen` — creado 2026-01-23
+· última actividad 2026-10-16 · ★200 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `komikku-app/komikku` — ★4.952 (verificado 29-oct-2026) · última actividad 2026-10-21 · Apache-2.0.
+• `komikku-app/komikku` — ★4.952 (verificado 29-oct-2026)
+· última actividad 2026-10-21
+· Apache-2.0.
 
-• `komikku-app/anikku` — ★1.123 (verificado 29-oct-2026) · última actividad 2026-10-05 · Apache-2.0 · release r8944 (2026-10-05).
+• `komikku-app/anikku` — ★1.123 (verificado 29-oct-2026)
+· última actividad 2026-10-05
+· Apache-2.0
+· release r8944 (2026-10-05).
 
-• `salmanbappi/anizen` — ★200 (verificado 29-oct-2026) · última actividad 2026-10-16 · Apache-2.0 · release AniZen Release v0.5.218 (2026-10-16).
+• `salmanbappi/anizen` — ★200 (verificado 29-oct-2026)
+· última actividad 2026-10-16
+· Apache-2.0
+· release AniZen Release v0.5.218 (2026-10-16).
 
 Licencias sin resolver hoy (1): `salmanbappi/anizen-preview`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

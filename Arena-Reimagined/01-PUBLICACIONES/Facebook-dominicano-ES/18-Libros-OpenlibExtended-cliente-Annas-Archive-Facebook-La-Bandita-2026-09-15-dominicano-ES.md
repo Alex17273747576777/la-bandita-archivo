@@ -104,11 +104,16 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `warreth/openlibextended` — creado 2026-01-07 · última actividad 2026-10-18 · ★555 (verificado 29-oct-2026) · AGPL-3.0.
+• `warreth/openlibextended` — creado 2026-01-07
+· última actividad 2026-10-18 · ★555 (verificado 29-oct-2026)
+· AGPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `warreth/openlibextended` — ★555 (verificado 29-oct-2026) · última actividad 2026-10-18 · AGPL-3.0 · release OpenLibExtended v1.7.2 (2026-10-18).
+• `warreth/openlibextended` — ★555 (verificado 29-oct-2026)
+· última actividad 2026-10-18
+· AGPL-3.0
+· release OpenLibExtended v1.7.2 (2026-10-18).
 
 Enlaces web: 3 apariciones; 3 respondieron vivas el 29-oct-2026.
 

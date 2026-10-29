@@ -8,9 +8,14 @@ Pasar un archivo al aparato de al lado o mirar tu escritorio desde el sofá no d
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `localsend/localsend` — ★96.423 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026).
+• `localsend/localsend` — ★96.423 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026).
 
-• `rustdesk/rustdesk` — ★127.465 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release 1.5.0 (2026-09-30).
+• `rustdesk/rustdesk` — ★127.465 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· AGPL-3.0
+· release 1.5.0 (2026-09-30).
 
 ## 📦 Las reglas de la casa
 

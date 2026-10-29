@@ -442,19 +442,34 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `flectar/mail` — creado 2026-09-03 · última actividad 2026-10-28 · ★1.678 (verificado 29-oct-2026) · AGPL-3.0.
+• `flectar/mail` — creado 2026-09-03
+· última actividad 2026-10-28 · ★1.678 (verificado 29-oct-2026)
+· AGPL-3.0.
 
-• `leviidev/husk` — creado 2026-09-12 · última actividad 2026-10-29 · ★2.831 (verificado 29-oct-2026) · GPL-2.0.
+• `leviidev/husk` — creado 2026-09-12
+· última actividad 2026-10-29 · ★2.831 (verificado 29-oct-2026)
+· GPL-2.0.
 
-• `sysadmindoc/hushfacebook` — creado 2026-09-24 · última actividad 2026-10-28 · ★435 (verificado 29-oct-2026) · GPL-3.0.
+• `sysadmindoc/hushfacebook` — creado 2026-09-24
+· última actividad 2026-10-28 · ★435 (verificado 29-oct-2026)
+· GPL-3.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `leviidev/husk` — ★2.831 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release 3.1 (2026-10-27).
+• `leviidev/husk` — ★2.831 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-2.0
+· release 3.1 (2026-10-27).
 
-• `flectar/mail` — ★1.678 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release 0.1.0-alpha.7 (2026-10-08).
+• `flectar/mail` — ★1.678 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· AGPL-3.0
+· release 0.1.0-alpha.7 (2026-10-08).
 
-• `sysadmindoc/hushfeed` — ★324 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release v0.79.0 (2026-10-24).
+• `sysadmindoc/hushfeed` — ★324 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· GPL-3.0
+· release v0.79.0 (2026-10-24).
 
 Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
 

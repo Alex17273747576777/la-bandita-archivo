@@ -488,11 +488,15 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `woheller69/freedroidwarn` — creado 2025-08-26 · última actividad 2026-10-28 · ★3.716 (verificado 29-oct-2026) · Apache-2.0.
+• `woheller69/freedroidwarn` — creado 2025-08-26
+· última actividad 2026-10-28 · ★3.716 (verificado 29-oct-2026)
+· Apache-2.0.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `woheller69/freedroidwarn` — ★3.716 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0.
+• `woheller69/freedroidwarn` — ★3.716 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· Apache-2.0.
 
 Enlaces web: 14 apariciones; 14 respondieron vivas el 29-oct-2026.
 

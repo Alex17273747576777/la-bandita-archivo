@@ -8,7 +8,11 @@ La fábrica re-cose apps conocidas con molde diario y publica el resultado como 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `j-hc/revanced-magisk-module` — ★7.706 (verificado 29-oct-2026) · actividad este mes · última actividad 2026-10-18 · GPL-3.0 · release Release (2026-10-18)
+• `j-hc/revanced-magisk-module` — ★7.706 (verificado 29-oct-2026)
+· actividad este mes
+· última actividad 2026-10-18
+· GPL-3.0
+· release Release (2026-10-18)
 
 ## 📦 Las reglas de la casa
 

@@ -89,19 +89,29 @@ Actividad medida hoy: 1 hoy · 4 en 7 días · 3 en 30 días · 0 en 180 días �
 
 *Alertas de continuidad (verificadas el 29-oct-2026):*
 
-• `kieronquinn/ambientmusicmod` — dormido · última actividad 2024-09-07 · ★2.524 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `kieronquinn/ambientmusicmod` — dormido
+· última actividad 2024-09-07 · ★2.524 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `kieronquinn/taptap` — dormido · última actividad 2024-10-26 · ★4.059 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `kieronquinn/taptap` — dormido
+· última actividad 2024-10-26 · ★4.059 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
-• `openboard-team/openboard` — dormido · última actividad 2022-12-17 · ★2.754 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+• `openboard-team/openboard` — dormido
+· última actividad 2022-12-17 · ★2.754 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `mahmud0808/colorblendr` — ★2.568 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
+• `mahmud0808/colorblendr` — ★2.568 (verificado 29-oct-2026)
+· última actividad 2026-10-29
+· GPL-3.0.
 
-• `muzei/muzei` — ★4.954 (verificado 29-oct-2026) · última actividad 2026-10-26 · Apache-2.0.
+• `muzei/muzei` — ★4.954 (verificado 29-oct-2026)
+· última actividad 2026-10-26
+· Apache-2.0.
 
-• `lawnchairlauncher/lawnchair` — ★13.809 (verificado 29-oct-2026) · última actividad 2026-10-28 · licencia sin clasificar (NOASSERTION) · release Lawnchair Nightly (2026-10-28).
+• `lawnchairlauncher/lawnchair` — ★13.809 (verificado 29-oct-2026)
+· última actividad 2026-10-28
+· licencia sin clasificar (NOASSERTION)
+· release Lawnchair Nightly (2026-10-28).
 
 Licencias sin resolver hoy (1): `lawnchairlauncher/lawnchair`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 
