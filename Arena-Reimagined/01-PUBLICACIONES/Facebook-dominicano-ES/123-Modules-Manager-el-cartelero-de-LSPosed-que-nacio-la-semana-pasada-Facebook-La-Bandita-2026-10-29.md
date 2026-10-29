@@ -1,36 +1,25 @@
 # Publicación 123 — Modules Manager: el cartelero de LSPosed que nació la semana pasada
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **LSPosed/LSPosed** (★25.240): «LSPosed Framework». Le sigue **rushiranpise/lsposed-modules-manager** (★17): «An Android client for the Xposed modules». Temas que se repiten en el grupo: android, lsposed, lsposed-module, shizuku.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `LSPosed/LSPosed` — ★25.240,
-GPL-3.0, último empuje 2026-10-14.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **LSPosed/LSPosed** — «LSPosed Framework»
+  ★25.240 · su último empuje fue el 2026-10-14 (hace 17 días) · licencia GPL-3.0 · Java · última release v1.9.2 (2023-10-11) · https://github.com/LSPosed/LSPosed · Web: https://lsposed.org
+  Temas: android · xposed
 
-• `LSPosed/LSPosed` — ★25.240 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-14
-· GPL-3.0
+- **rushiranpise/lsposed-modules-manager** — «An Android client for the Xposed modules»
+  ★17 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.1.5 (2026-10-29) · https://github.com/rushiranpise/lsposed-modules-manager · Web: https://buymeacoffee.com/rushiranpise
+  Temas: lsposed · lsposed-module · shizuku · shizuku-api · xposed · xposed-app
 
-• `rushiranpise/lsposed-modules-manager` — ★17 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **rushiranpise/xposed-modules** — su repo no trae descripción oficial
+  ★11 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin SPDX de GitHub: no se inventa · HTML · https://github.com/rushiranpise/xposed-modules · Web: https://rushiranpise.github.io/xposed-modules/
+  Temas: lsposed · lsposed-module · xda-developers · xposed · xposed-framework · xposed-module
 
-• `rushiranpise/xposed-modules` — ★11 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin clasificar por GitHub hoy (sin SPDX): no se inventa
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**rushiranpise/lsposed-modules-manager** trae la novedad del grupo, su release v1.1.5 (2026-10-29). Legalmente el grupo se reparte así: GPL-3.0 ×2, sin SPDX de GitHub: no se inventa ×1; la actividad más fresca es de **rushiranpise/lsposed-modules-manager** (hace 2 días); **rushiranpise/lsposed-modules-manager** firmó la release de fecha más reciente (v1.1.5 (2026-10-29)) de las 2 del grupo.
 
-• https://github.com/rushiranpise/lsposed-modules-manager — vivo al verificar hoy (2026-10-29)
-• https://github.com/rushiranpise/xposed-modules — vivo al verificar hoy (2026-10-29)
-• https://github.com/lsposed/lsposed — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

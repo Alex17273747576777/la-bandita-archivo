@@ -1,26 +1,17 @@
 # Publicación 117 — La tienda sobre las forjas: Komi Store y el fenómeno de las veinte mil
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **komi-store/komi-store** (★20.090): «🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.». Temas que se repiten en el grupo: android, app-store, compose-multiplatform, jetpack-compose.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 1 repos: 0 empujaron hoy, 1 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `komi-store/komi-store` —
-★20.090, Apache-2.0, último empuje 2026-10-25.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **komi-store/komi-store** — «🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.»
+  ★20.090 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia Apache-2.0 · Kotlin · última release v1.9.4 (2026-10-24) · https://github.com/komi-store/komi-store · Web: https://www.komistore.app
+  Temas: android · app-store · compose-multiplatform · jetpack-compose · kotlin · kotlin-multiplatform
 
-• `komi-store/komi-store` — ★20.090 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· Apache-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**komi-store/komi-store** trae la novedad del grupo, su release v1.9.4 (2026-10-24). Legalmente el grupo se reparte así: Apache-2.0 ×1; la actividad más fresca es de **komi-store/komi-store** (hace 6 días); **komi-store/komi-store** firmó la release de fecha más reciente (v1.9.4 (2026-10-24)) de las 1 del grupo.
 
-• https://github.com/openhub-store/github-store — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 1 repos GitHub (1 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

@@ -1,81 +1,59 @@
 # Publicación 112 — La soberanía local: LocalSend y RustDesk sin nube ajena
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda **rustdesk/rustdesk** (★127.495): «An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.». Le sigue **localsend/localsend** (★96.457): «An open-source cross-platform alternative to AirDrop». Temas que se repiten en el grupo: android, anilist, anime, anime-streaming.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 12 repos: 6 empujaron hoy, 3 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `rustdesk/rustdesk` —
-★127.494, AGPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **rustdesk/rustdesk** — «An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.»
+  ★127.495 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Rust · última release 1.5.0 (2026-09-30) · https://github.com/rustdesk/rustdesk · Web: https://rustdesk.com
+  Temas: android · anydesk · dart · flatpak · flutter · flutter-apps
 
-• `rustdesk/rustdesk` — ★127.494 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **localsend/localsend** — «An open-source cross-platform alternative to AirDrop»
+  ★96.457 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Dart · última release v1.18.2 (2026-08-21) · https://github.com/localsend/localsend · Web: https://localsend.org
+  Temas: dart · file-sharing · flutter · flutter-apps
 
-• `localsend/localsend` — ★96.456 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **termux/termux-app** — «Termux - a terminal emulator application for Android OS extendible by variety of packages.»
+  ★63.678 · su último empuje fue el 2026-09-26 (hace 35 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Java · última release v0.118.3 (2025-05-22) · https://github.com/termux/termux-app · Web: https://f-droid.org/en/packages/com.termux
+  Temas: android · hacktoberfest · linux · terminal · termux
 
-• `termux/termux-app` — ★63.673 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-26
-· NOASSERTION
+- **RikkaApps/Shizuku** — «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.»
+  ★32.385 · su último empuje fue el 2025-06-18 (hace 500 días) · licencia Apache-2.0 · Kotlin · última release v13.6.0 (2025-05-25) · https://github.com/RikkaApps/Shizuku
 
-• `RikkaApps/Shizuku` — ★32.382 (verificado 2026-10-29)
-· dormido · última actividad 2025-06-18
-· Apache-2.0
+- **mihonapp/mihon** — «Free and open source manga reader for Android»
+  ★24.839 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release v0.21.3 (2026-10-25) · https://github.com/mihonapp/mihon
+  Temas: android · kotlin · manga · manga-downloader · manga-reader · mangadownloader
 
-• `mihonapp/mihon` — ★24.838 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· Apache-2.0
+- **komi-store/komi-store** — «🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.»
+  ★20.090 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia Apache-2.0 · Kotlin · última release v1.9.4 (2026-10-24) · https://github.com/komi-store/komi-store · Web: https://www.komistore.app
+  Temas: android · app-store · compose-multiplatform · jetpack-compose · kotlin · kotlin-multiplatform
 
-• `komi-store/komi-store` — ★20.090 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· Apache-2.0
+- **keiyoushi/extensions** — «Extension repository for Mihon and variants»
+  ★15.369 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release dbf6c05 (2026-10-29) · https://github.com/keiyoushi/extensions · Web: https://keiyoushi.github.io/
+  Temas: keiyoushi · mihon
 
-• `keiyoushi/extensions` — ★15.369 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **hrydgard/ppsspp** — «A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.»
+  ★14.782 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 (según texto de su repo, 29-oct-2026) · C++ · última release v1.20.4 (2026-05-16) · https://github.com/hrydgard/ppsspp · Web: https://www.ppsspp.org
+  Temas: emulators · ppsspp · psp
 
-• `hrydgard/ppsspp` — ★14.782 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **guardianproject/orbot-android** — «The Github home of Orbot: Tor on Android (Also available on gitlab!)»
+  ★3.661 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia BSD (según texto de su repo, 29-oct-2026) · Kotlin · última release 17.9.7-RC-1-tor-0.4.9.14 (2026-10-09) · https://github.com/guardianproject/orbot-android · Web: https://gitlab.com/guardianproject/orbot
+  Temas: anonymity · anticensorship · censorship-circumvention · security · tor
 
-• `guardianproject/orbot-android` — ★3.661 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· NOASSERTION
+- **itsmechinmoy/dantotsu-updater** — «Automatically Builds Dantotsu Dev Branch»
+  ★154 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · Python · última release v3.2.2+74ae756 (2026-10-29) · https://github.com/itsmechinmoy/dantotsu-updater · Web: https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev
+  Temas: anilist · anime · anime-streaming · dantotsu · discord-rpc · kotlin
 
-• `itsmechinmoy/dantotsu-updater` — ★154 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **itsmechinmoy/Dantotsu** — «Anilist client based on Saikou»
+  ★92 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Kotlin · última release v3.2.2+74ae756 (2026-10-29) · https://github.com/itsmechinmoy/Dantotsu · Web: https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev
+  Temas: anime · anime-streaming · animeapp · aniyomi · aniyomi-extension · downloader
 
-• `itsmechinmoy/Dantotsu` — ★92 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· NOASSERTION
+- **diogorainhalopes/atahon** — «A modern manga reader for Android — Tachiyomi-compatible extensions, powerful reader, offline-first.»
+  ★18 · su último empuje fue el 2026-05-24 (hace 160 días) · licencia sin archivo LICENSE en su repo (verificado) · TypeScript · última release v0.6.0 (2026-05-24) · https://github.com/diogorainhalopes/atahon · Web: https://diogorainhalopes.github.io/atahon/
 
-• `diogorainhalopes/atahon` — ★18 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-05-24
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**keiyoushi/extensions** trae la novedad del grupo, su release dbf6c05 (2026-10-29). **keiyoushi/extensions** firmó la release de fecha más reciente (dbf6c05 (2026-10-29)) de las 12 del grupo; legalmente el grupo se reparte así: Apache-2.0 ×4, sin archivo LICENSE en su repo (verificado) ×3, GPL-3.0 (según texto de su repo, 29-oct-2026) ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; la actividad más fresca es de **localsend/localsend** (hace 2 días); **RikkaApps/Shizuku** no se mueve desde el 2025-06-18.
 
-• https://github.com/localsend/localsend — vivo al verificar hoy (2026-10-29)
-• https://github.com/rustdesk/rustdesk — vivo al verificar hoy (2026-10-29)
-• https://github.com/mihonapp/mihon — vivo al verificar hoy (2026-10-29)
-• https://github.com/OpenHub-Store/GitHub-Store — vivo al verificar hoy (2026-10-29)
-• https://github.com/rikkaapps/shizuku — vivo al verificar hoy (2026-10-29)
-• https://github.com/guardianproject/orbot — vivo al verificar hoy (2026-10-29)
-• https://github.com/termux/termux-app — vivo al verificar hoy (2026-10-29)
-• https://github.com/hrydgard/ppsspp — vivo al verificar hoy (2026-10-29)
-• https://github.com/Keiyoushi/extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/itsmechinmoy/dantotsu-updater — vivo al verificar hoy (2026-10-29)
-• https://github.com/DiogoRainhaLopes/Atahon — vivo al verificar hoy (2026-10-29)
-• https://github.com/itsmechinmoy/dantotsu — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 12 repos GitHub (12 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.

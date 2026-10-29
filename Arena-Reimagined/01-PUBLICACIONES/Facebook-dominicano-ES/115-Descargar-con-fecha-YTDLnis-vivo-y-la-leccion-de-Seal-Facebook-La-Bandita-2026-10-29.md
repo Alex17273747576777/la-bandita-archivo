@@ -1,31 +1,21 @@
 # Publicación 115 — Descargar con fecha: YTDLnis vivo y la lección de Seal
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 1 activos este mes. Manda **JunkFood02/Seal** (★30.159): «🦭 Video/Audio Downloader for Android, based on yt-dlp». Le sigue **deniscerri/ytdlnis** (★10.844): «Full-featured audio/video downloader for Android using yt-dlp». Temas que se repiten en el grupo: android, audio, downloader, f-droid.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 1 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `JunkFood02/Seal` — ★30.159,
-GPL-3.0, último empuje 2026-09-25.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **JunkFood02/Seal** — «🦭 Video/Audio Downloader for Android, based on yt-dlp»
+  ★30.159 · su último empuje fue el 2026-09-25 (hace 36 días) · licencia GPL-3.0 · Kotlin · última release v1.13.1 (2024-10-16) · https://github.com/JunkFood02/Seal
+  Temas: android · f-droid · jetpack-compose · kotlin · material-design · youtube-dl
 
-• `JunkFood02/Seal` — ★30.159 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-25
-· GPL-3.0
+- **deniscerri/ytdlnis** — «Full-featured audio/video downloader for Android using yt-dlp»
+  ★10.844 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.9.1.1 (2026-10-19) · https://github.com/deniscerri/ytdlnis · Web: https://ytdlnis.org
+  Temas: android · audio · downloader · kotlin · material-design · mp3
 
-• `deniscerri/ytdlnis` — ★10.844 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+El grupo respira despacio; su empuje más reciente, **deniscerri/ytdlnis**, fue hace 2 días. Legalmente el grupo se reparte así: GPL-3.0 ×2; **deniscerri/ytdlnis** firmó la release de fecha más reciente (v1.9.1.1 (2026-10-19)) de las 2 del grupo.
 
-• https://github.com/deniscerri/ytdlnis — vivo al verificar hoy (2026-10-29)
-• https://github.com/junkfood02/seal — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

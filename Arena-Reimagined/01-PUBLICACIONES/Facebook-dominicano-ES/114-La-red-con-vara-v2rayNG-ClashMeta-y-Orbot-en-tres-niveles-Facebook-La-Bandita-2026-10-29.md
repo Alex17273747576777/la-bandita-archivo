@@ -1,36 +1,24 @@
 # Publicación 114 — La red con vara: v2rayNG, ClashMeta y Orbot en tres niveles
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **2dust/v2rayNG** (★64.940): «A V2Ray client for Android, support Xray core and v2fly core». Le sigue **MetaCubeX/ClashMetaForAndroid** (★48.607): «A rule-based tunnel for Android.». Temas que se repiten en el grupo: android, anonymity, anticensorship, censorship-circumvention.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 0 empujaron hoy, 3 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `2dust/v2rayNG` — ★64.939,
-GPL-3.0, último empuje 2026-10-28.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **2dust/v2rayNG** — «A V2Ray client for Android, support Xray core and v2fly core»
+  ★64.940 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 2.3.11 (2026-10-11) · https://github.com/2dust/v2rayNG · Web: https://v2rayng.2dust.link
+  Temas: android · proxy · shadowsocks · socks5 · trojan · v2fly
 
-• `2dust/v2rayNG` — ★64.939 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **MetaCubeX/ClashMetaForAndroid** — «A rule-based tunnel for Android.»
+  ★48.607 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v2.11.36 (2026-10-21) · https://github.com/MetaCubeX/ClashMetaForAndroid
 
-• `MetaCubeX/ClashMetaForAndroid` — ★48.607 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **guardianproject/orbot-android** — «The Github home of Orbot: Tor on Android (Also available on gitlab!)»
+  ★3.661 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia BSD (según texto de su repo, 29-oct-2026) · Kotlin · última release 17.9.7-RC-1-tor-0.4.9.14 (2026-10-09) · https://github.com/guardianproject/orbot-android · Web: https://gitlab.com/guardianproject/orbot
+  Temas: anonymity · anticensorship · censorship-circumvention · security · tor
 
-• `guardianproject/orbot-android` — ★3.661 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· NOASSERTION
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+El grupo respira despacio; su empuje más reciente, **2dust/v2rayNG**, fue hace 3 días. **MetaCubeX/ClashMetaForAndroid** firmó la release de fecha más reciente (v2.11.36 (2026-10-21)) de las 3 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×2, BSD (según texto de su repo, 29-oct-2026) ×1.
 
-• https://github.com/2dust/v2rayng — vivo al verificar hoy (2026-10-29)
-• https://github.com/metacubex/clashmetaforandroid — vivo al verificar hoy (2026-10-29)
-• https://github.com/guardianproject/orbot — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
