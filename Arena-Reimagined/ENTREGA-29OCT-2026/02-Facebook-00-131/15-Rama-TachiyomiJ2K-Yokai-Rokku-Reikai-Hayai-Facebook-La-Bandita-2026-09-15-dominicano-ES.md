@@ -1,8 +1,8 @@
 # Publicación 15 — Rama J2K: el abuelo volvió — tachiyomiJ2K, Yōkai, Rokku, Reikai y el fantasma Hayai apareció
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 14 repos, 14 vivos. El mayor es **Jays2Kings/tachiyomiJ2K** (★5.399): «Free and open source manga reader for Android». Le sigue **lnreader/lnreader** (★2.942): «Light novel reader for Android.». Con actividad en los últimos 30 días: 7 de 14. Temas que se repiten en el grupo: android, ebook-reader, fork, hacktoberfest.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 14 repos, 14 vivos. El mayor es **Jays2Kings/tachiyomiJ2K** (★5.399): «Free and open source manga reader for Android». Le sigue **lnreader/lnreader** (★2.942): «Light novel reader for Android.». Con actividad en los últimos 30 días: 7 de 14. Temas que se repiten en el grupo: android, ebook-reader, fork, hacktoberfest.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -61,4 +61,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 14 repos, 14 vivo
 
 La noticia fresca es de **rokku-app/rokku**: release v1.8.0 (2026-10-29). En licencias: Apache-2.0 ×13, MIT ×1; el empuje más reciente es de **rokku-app/rokku** (hace 2 días); **cuong-tran/tachiyomiJ2K** duerme desde el 2024-08-15; 10 repos tienen release y la más reciente es la de **rokku-app/rokku** (v1.8.0 (2026-10-29)).
 
-💓 14 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.
+💓 14 repos y 1 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.

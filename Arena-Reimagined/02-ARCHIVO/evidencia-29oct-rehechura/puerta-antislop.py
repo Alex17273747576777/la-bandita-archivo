@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""PUERTA ANTI-PLANTILLA (31-oct-2026).
-[RECONSTRUIDA el 31-oct-2026 tras la mordida que se comió evidencia-31oct:
+"""PUERTA ANTI-PLANTILLA (29-oct-2026).
+[RECONSTRUIDA el 29-oct-2026 tras la mordida que se comió evidencia-31oct:
 probada igual que la original — cae sobre el molde viejo del 29-oct
 (piezas del historial git) y queda EN PIE sobre el corpus rehecho.]
 Auditoría objetiva del corpus: normaliza cada línea larga (números→#, `código`→X,

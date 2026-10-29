@@ -1,6 +1,6 @@
 *65 — LA COMPAÑERA DEL SOFÁ*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **moeru-ai/airi** (★50.890): «💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of…». Temas que se repiten en el grupo: ai, ai-companion, ai-vtuber, airi.
 
@@ -36,4 +36,4 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — iria/ia-ureom=2|REV|TIM=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

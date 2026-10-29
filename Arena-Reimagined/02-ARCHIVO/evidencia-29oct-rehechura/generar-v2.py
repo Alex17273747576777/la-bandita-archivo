@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""REHECHURA SIN MOLDE · 31-oct-2026 · generador por tandas v2.
-[RECONSTRUIDO el 31-oct-2026 tras la mordida que se comió la carpeta
-evidencia-31oct en proyecto y espejo: la carpeta no viajaba en guardar.py.
+"""REHECHURA SIN MOLDE · 29-oct-2026 · generador por tandas v2.
+[RECONSTRUIDO el 29-oct-2026 tras la mordida que se comió la carpeta
+evidencia-29oct-rehechura en proyecto y espejo: la carpeta no viajaba en guardar.py.
 La reconstrucción se probó igual que la original: la puerta caza el molde
 viejo del 29-oct en piezas extraídas del historial git y queda EN PIE sobre
 el corpus rehecho. Desarrollo en INFORME-REHECHURA-SIN-MOLDE-31oct.md.]
@@ -16,7 +16,7 @@ import concurrent.futures, csv, hashlib, json, os, re, sys, time, urllib.request
 from datetime import date
 from pathlib import Path
 R=Path('/home/user/Arena-Reimagined')
-HOY='2026-10-31'; HOY_D=date(2026,10,31); FECHA_LARGA='viernes 31 de octubre de 2026'
+HOY='2026-10-29'; HOY_D=date(2026,10,29); FECHA_LARGA='jueves 29 de octubre de 2026'
 SERIE={'WhatsApp':'WhatsApp-dominicano-ES','Facebook':'Facebook-dominicano-ES'}[sys.argv[1]]
 DESDE, HASTA = int(sys.argv[2]), int(sys.argv[3])
 INV=json.loads((R/'02-ARCHIVO/evidencia-29oct/reescritura-29oct/inventario-enlaces.json').read_text(encoding='utf-8'))
@@ -91,7 +91,7 @@ print(f'midiendo en tiempo real: {len(slugs)} repos · {len(urls)} URL')
 with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex: _med=list(ex.map(mide_repo,sorted(slugs)))
 repos={s.lower():m for s,m in zip(sorted(slugs),_med)}
 with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex: urlst=dict(ex.map(mide_url,sorted(urls)))
-outdir=R/'02-ARCHIVO/evidencia-31oct'; outdir.mkdir(parents=True,exist_ok=True)
+outdir=R/'02-ARCHIVO/evidencia-29oct-rehechura'; outdir.mkdir(parents=True,exist_ok=True)
 (outdir/f'pulso-{SERIE[:2]}-{DESDE}-{HASTA}.json').write_text(json.dumps({'repos':repos,'urls':urlst},ensure_ascii=False,indent=1),encoding='utf-8')
 
 def desc_corta(m):
@@ -223,7 +223,7 @@ for f in tanda:
     seccion_enlaces=("\n\n## Enlaces externos de la pieza\n\n"+'\n'.join(enlaces)) if enlaces else ''
     lect=lectura(ms,vivos,caidos,sem=int(hashlib.md5(f.name.encode()).hexdigest(),16))
     seccion_lect=("\n\n## Lectura de la medición\n\n"+lect) if lect else ''
-    pie=(f"💓 {len(ms)} repos y {len(v['urls'])} enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); "
+    pie=(f"💓 {len(ms)} repos y {len(v['urls'])} enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); "
          f"{len(vivos)} vivos, {len(caidos)} firmado{'s' if len(caidos)!=1 else ''} arriba con su estado.")
     if SERIE.startswith('WhatsApp'):
         qs=[]; sv=sorted(vivos,key=lambda m:-m['stars']); sem=int(hashlib.md5(f.name.encode()).hexdigest(),16)

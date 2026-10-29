@@ -1,6 +1,6 @@
 # Publicación 49 — Las mil puertas: el barrido de la V25
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Medición de hoy, sin anestesia: de los 1 repos que esta pieza enlaza, ninguno respondió vivo (caído (404) ×1). Abajo queda cada uno firmado con el estado exacto que devolvió.
 
@@ -12,4 +12,4 @@ Medición de hoy, sin anestesia: de los 1 repos que esta pieza enlaza, ninguno r
 
 .
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 0 vivos, 1 firmado arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 0 vivos, 1 firmado arriba con su estado.

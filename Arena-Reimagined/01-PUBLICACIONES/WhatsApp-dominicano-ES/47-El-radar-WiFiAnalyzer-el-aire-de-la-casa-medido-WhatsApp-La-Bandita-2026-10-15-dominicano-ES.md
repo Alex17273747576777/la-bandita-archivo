@@ -1,6 +1,6 @@
 *47 — EL RADAR*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **VREMSoftwareDevelopment/WiFiAnalyzer** (★5.050): «Android application to analyze Wi-Fi signals.». Temas que se repiten en el grupo: android, gplv3, wifi-analyzer, wifi-network.
 
@@ -28,4 +28,4 @@ El grupo respira despacio; su empuje más reciente, **VREMSoftwareDevelopment/Wi
 
 REV|050.5★ — rezylanAiFiW/tnempoleveDerawtfoSMERV=1|REV|30-01-6202 — rezylanAiFiW/tnempoleveDerawtfoSMERV=2|REV|)10-70-6202( DIORD-F-1.3.3V — rezylanAiFiW/tnempoleveDerawtfoSMERV=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

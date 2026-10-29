@@ -1,6 +1,6 @@
 *62 — LA CARA DE LA MENTE*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **open-webui/open-webui** encabeza esta entrega con ★157.172 medidos hoy: «User-friendly AI Interface (Supports Ollama, OpenAI API, ...)». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **ChatGPTNextWeb/NextChat** (★88.918): «✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more.…». Temas que se repiten en el grupo: ai, calclaude, claude, cross-platform.
 
@@ -32,4 +32,4 @@ Hay release de esta semana: **open-webui/open-webui** publicó v0.12.5 (2026-10-
 
 REV|)92-01-6202( 5.21.0v — iubew-nepo/iubew-nepo=1|REV|92-01-6202 — iubew-nepo/iubew-nepo=2|REV|TIM=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

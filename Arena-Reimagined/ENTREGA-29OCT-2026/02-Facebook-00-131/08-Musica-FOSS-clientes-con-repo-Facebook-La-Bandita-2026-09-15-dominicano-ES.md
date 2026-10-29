@@ -1,6 +1,6 @@
 # Publicación 8 — Música FOSS: clientes con repo y fecha de pulso — Spotify crackeado no entra
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 8 activos este mes. Manda **TeamNewPipe/NewPipe** (★40.354): «A libre lightweight streaming front-end for Android.». Le sigue **MetrolistGroup/Metrolist** (★13.889): «YouTube Music client for Android». Temas que se repiten en el grupo: 4k, album, android, android-16.
 
@@ -70,4 +70,4 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 8 activos este mes. Manda
 
 **N-Zik-Group/N-Zik** trae la novedad del grupo, su release v8.5.0 (2026-10-28). Legalmente el grupo se reparte así: GPL-3.0 ×13, MIT ×1; archivados por su autor: **vfsfitvnm/ViMusic**, **fast4x/RiMusic**; la actividad más fresca es de **maxrave-dev/SimpMusic** (hace 2 días); **vfsfitvnm/ViMusic** no se mueve desde el 2024-07-15; **N-Zik-Group/N-Zik** firmó la release de fecha más reciente (v8.5.0 (2026-10-28)) de las 14 del grupo.
 
-💓 14 repos y 2 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.
+💓 14 repos y 2 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 # Publicación 28 — El tronco: raíz, gestión y tiendas — el suelo donde crece todo
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 20 repos de la pieza: 20 vivos, 15 activos este mes. Manda **Genymobile/scrcpy** (★153.501): «Display and control your Android device». Le sigue **termux/termux-app** (★63.678): «Termux - a terminal emulator application for Android OS extendible by variety of packages.». Temas que se repiten en el grupo: android, android-application, apk, apk-update.
 
@@ -84,4 +84,4 @@ Pulso de hoy sobre los 20 repos de la pieza: 20 vivos, 15 activos este mes. Mand
 
 **topjohnwu/Magisk** trae la novedad del grupo, su release v31.1 (2026-10-25). La actividad más fresca es de **tiann/KernelSU** (hace 2 días); **Aefyr/SAI** no se mueve desde el 2024-06-03; **topjohnwu/Magisk** firmó la release de fecha más reciente (v31.1 (2026-10-25)) de las 19 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×14, Apache-2.0 ×4, MIT ×1.
 
-💓 20 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 20 vivos, 0 firmados arriba con su estado.
+💓 20 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 20 vivos, 0 firmados arriba con su estado.

@@ -1,8 +1,8 @@
 # Publicación 22 — Lectura II: la repisa del muro — siete lectores vivos y un legado
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 9 repos, 9 vivos. El mayor es **koodo-reader/koodo-reader** (★28.667): «A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web». Le sigue **komikku-app/komikku** (★4.955): «Free and open source manga reader for Android». Con actividad en los últimos 30 días: 6 de 9. Temas que se repiten en el grupo: android, book, cb7, cbr.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 9 repos, 9 vivos. El mayor es **koodo-reader/koodo-reader** (★28.667): «A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web». Le sigue **komikku-app/komikku** (★4.955): «Free and open source manga reader for Android». Con actividad en los últimos 30 días: 6 de 9. Temas que se repiten en el grupo: android, book, cb7, cbr.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -43,4 +43,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 9 repos, 9 vivos.
 
 La noticia fresca es de **k1717/Readwide**: release v1.0.21 (2026-10-24). En licencias: Apache-2.0 ×4, licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) ×1, AGPL-3.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivado por su autor: **nubesurrealista/Kumo**; el empuje más reciente es de **koodo-reader/koodo-reader** (hace 2 días); 8 repos tienen release y la más reciente es la de **k1717/Readwide** (v1.0.21 (2026-10-24)).
 
-💓 9 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 9 vivos, 0 firmados arriba con su estado.
+💓 9 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 9 vivos, 0 firmados arriba con su estado.

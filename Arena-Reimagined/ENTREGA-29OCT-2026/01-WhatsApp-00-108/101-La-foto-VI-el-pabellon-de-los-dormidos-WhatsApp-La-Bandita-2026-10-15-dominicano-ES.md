@@ -1,8 +1,8 @@
 *La foto también retrata a los que duermen: la mesa tiene un pabellón de calma, y es el cuadro más honesto del*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 17 repos, 17 vivos. El mayor es **justjavac/free-programming-books-zh_CN** (★119.438): «:books: 免费的计算机编程类中文书籍，欢迎投稿». Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Con actividad en los últimos 30 días: 2 de 17. Temas que se repiten en el grupo: 2fa, adblock, adblocking, android.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 17 repos, 17 vivos. El mayor es **justjavac/free-programming-books-zh_CN** (★119.438): «:books: 免费的计算机编程类中文书籍，欢迎投稿». Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Con actividad en los últimos 30 días: 2 de 17. Temas que se repiten en el grupo: 2fa, adblock, adblocking, android.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -87,4 +87,4 @@ Sin sobresaltos: el empuje más cercano es de **syncthing/syncthing** (hace 2 d�
 
 REV|)12-01-6202( 7.1.2v — gnihtcnys/gnihtcnys=1|REV|92-01-6202 — gnihtcnys/gnihtcnys=2|REV|0.2-LPM=3
 
-💓 17 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 17 vivos, 0 firmados arriba con su estado.
+💓 17 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 17 vivos, 0 firmados arriba con su estado.

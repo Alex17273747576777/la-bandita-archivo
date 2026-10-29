@@ -1,8 +1,8 @@
 # Publicación 58 — La hornada del anime: el segundo territorio
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 14 repos, 14 vivos. El mayor es **Myzel394/Alibi** (★1.723): «Use your phone as a dashcam and save the last 30 minutes when you need them.». Le sigue **dn0ne/lotus** (★717): «Music player for Android». Con actividad en los últimos 30 días: 9 de 14. Temas que se repiten en el grupo: abs, amp, android, android-app.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 14 repos, 14 vivos. El mayor es **Myzel394/Alibi** (★1.723): «Use your phone as a dashcam and save the last 30 minutes when you need them.». Le sigue **dn0ne/lotus** (★717): «Music player for Android». Con actividad en los últimos 30 días: 9 de 14. Temas que se repiten en el grupo: abs, amp, android, android-app.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -61,4 +61,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 14 repos, 14 vivo
 
 Sin sobresaltos: el empuje más cercano es de **retransmit/Atrium** (hace 2 días). **tuntorius/mightier_amp** duerme desde el 2025-01-21; 14 repos tienen release y la más reciente es la de **likhithpraveenk/storii** (v0.13.0 (2026-10-23)); en licencias: GPL-3.0 ×9, MIT ×4, LGPL-2.1 ×1.
 
-💓 14 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.
+💓 14 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.

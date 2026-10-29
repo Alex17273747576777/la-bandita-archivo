@@ -1,6 +1,6 @@
 *45 — EL MENSAJERO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 4 repos de la pieza: 4 vivos, 4 activos este mes. Manda **signalapp/Signal-Android** (★29.553): «A private messenger for Android.». Le sigue **simplex-chat/simplex-chat** (★19.613): «SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!». Temas que se repiten en el grupo: chat, double-ratchet, e2ee, encryption.
 
@@ -37,4 +37,4 @@ Pulso de hoy sobre los 4 repos de la pieza: 4 vivos, 4 activos este mes. Manda *
 
 REV|)82-01-6202( 1.601.0v — langisbil/ppalangis=1|REV|92-01-6202 — diordnA-langiS/ppalangis=2|REV|355.92★ — diordnA-langiS/ppalangis=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

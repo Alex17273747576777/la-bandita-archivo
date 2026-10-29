@@ -1,6 +1,6 @@
 # Publicación 29 — Los mayordomos: los que gestionan apps, perfiles y bloat — trabajando abajo, donde está la verdad
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **0x192/universal-android-debloater** encabeza esta entrega con ★20.288 medidos hoy: «Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.». La pieza cita 15 repos (14 vivos) y 9 empujaron en los últimos 30 días. Le sigue **Universal-Debloater-Alliance/universal-android-debloater-next-generation** (★9.638): «Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.». Temas que se repiten en el grupo: accessibilityservice, adb, android, android-accessibility.
 
@@ -66,4 +66,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Empieza por las bajas: **risunCode/AppControl-X** (caído (404)) no contestaron hoy. Del resto, el que más cerca empujó es **BugeStudioTeam/Buge-App-Manager** (hace 2 días); el más quieto es **0x192/universal-android-debloater**, parado desde el 2024-08-02; con releases publicadas hay 13; manda la de **BugeStudioTeam/Buge-App-Manager** (AppManager13.81.142 (2026-10-29)); el parte legal dice GPL-3.0 ×11, Apache-2.0 ×2, LGPL-3.0 ×1.
 
-💓 15 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 1 firmado arriba con su estado.
+💓 15 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 1 firmado arriba con su estado.

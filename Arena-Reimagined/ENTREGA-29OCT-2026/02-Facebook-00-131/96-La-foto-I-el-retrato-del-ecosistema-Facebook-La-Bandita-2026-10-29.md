@@ -1,6 +1,6 @@
 # Publicación 96 — La foto I: el retrato del ecosistema, en una página
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **keiyoushi/extensions** encabeza esta entrega con ★15.369 medidos hoy: «Extension repository for Mihon and variants». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días.
 
@@ -14,4 +14,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-29). Con releases publicadas hay 1; manda la de **keiyoushi/extensions** (dbf6c05 (2026-10-29)); el parte legal dice sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **keiyoushi/extensions** hace 2 días.
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

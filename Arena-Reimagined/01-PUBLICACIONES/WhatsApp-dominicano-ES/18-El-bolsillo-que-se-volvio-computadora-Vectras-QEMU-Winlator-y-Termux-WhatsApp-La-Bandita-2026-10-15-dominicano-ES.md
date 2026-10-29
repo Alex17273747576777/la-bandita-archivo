@@ -1,6 +1,6 @@
 *18 — EL BOLSILLO QUE SE VOLVIÓ COMPUTADORA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **termux/termux-app** encabeza esta entrega con ★63.676 medidos hoy: «Termux - a terminal emulator application for Android OS extendible by variety of packages.». La pieza cita 6 repos (6 vivos) y 5 empujaron en los últimos 30 días. Le sigue **ish-app/ish** (★20.644): «Linux shell for iOS». Temas que se repiten en el grupo: android, arm64, box64, dynarec.
 
@@ -46,4 +46,4 @@ Pulso tranquilo: lo último que se movió fue **ptitSeb/box64**, hace 2 días. E
 
 REV|676.36★ — ppa-xumret/xumret=1|REV|atnevni es on :buHtiG ed XDPS nis=2|REV|92-01-6202 — 46xob/beStitp=3
 
-💓 6 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.
+💓 6 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.

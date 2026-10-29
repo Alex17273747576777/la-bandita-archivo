@@ -1,6 +1,6 @@
 # Publicación 16 — Rama SY/Komikku: el fork clásico y el rehijo con organización — TachiyomiSY y Komikku
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **keiyoushi/extensions** encabeza esta entrega con ★15.369 medidos hoy: «Extension repository for Mihon and variants». La pieza cita 19 repos (18 vivos) y 15 empujaron en los últimos 30 días. Le sigue **komikku-app/komikku** (★4.955): «Free and open source manga reader for Android». Temas que se repiten en el grupo: android, cross-device-sync, extension, hacktoberfest.
 
@@ -73,4 +73,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Empieza por las bajas: **leassapie/houri** (caído (404)) no contestaron hoy. Con releases publicadas hay 15; manda la de **PineappleTwilight/houri** (v1.25.0 (2026-10-29)); el parte legal dice Apache-2.0 ×14, sin archivo LICENSE en su repo (verificado) ×3, GPL-2.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es **PineappleTwilight/houri** (hace 2 días).
 
-💓 19 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 18 vivos, 1 firmado arriba con su estado.
+💓 19 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 18 vivos, 1 firmado arriba con su estado.

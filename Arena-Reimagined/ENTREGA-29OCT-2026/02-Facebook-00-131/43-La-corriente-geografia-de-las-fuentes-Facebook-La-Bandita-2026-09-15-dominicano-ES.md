@@ -1,8 +1,8 @@
 # Publicación 43 — La corriente: la geografía de las fuentes — las extensiones
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 26 repos, 26 vivos. El mayor es **keiyoushi/extensions** (★15.369): «Extension repository for Mihon and variants». Le sigue **Kareadita/Kavita** (★11.971): «Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your…». Con actividad en los últimos 30 días: 16 de 26. Temas que se repiten en el grupo: android, android-tv, anime, animeapp.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 26 repos, 26 vivos. El mayor es **keiyoushi/extensions** (★15.369): «Extension repository for Mihon and variants». Le sigue **Kareadita/Kavita** (★11.971): «Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your…». Con actividad en los últimos 30 días: 16 de 26. Temas que se repiten en el grupo: android, android-tv, anime, animeapp.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -100,4 +100,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 26 repos, 26 vivo
 
 La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). **dannovels/novel-extensions** duerme desde el 2025-01-05; 13 repos tienen release y la más reciente es la de **keiyoushi/extensions** (dbf6c05 (2026-10-29)); en licencias: sin archivo LICENSE en su repo (verificado) ×10, Apache-2.0 ×9, GPL-3.0 ×4; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; el empuje más reciente es de **keiyoushi/extensions** (hace 2 días).
 
-💓 26 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 26 vivos, 0 firmados arriba con su estado.
+💓 26 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 26 vivos, 0 firmados arriba con su estado.

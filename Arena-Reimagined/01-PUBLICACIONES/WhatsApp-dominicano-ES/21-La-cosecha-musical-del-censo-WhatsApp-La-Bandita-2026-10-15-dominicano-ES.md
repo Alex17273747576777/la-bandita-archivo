@@ -1,6 +1,6 @@
 *21 — LA COSECHA MUSICAL DEL CENSO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **team-spotube/spotube** encabeza esta entrega con ★50.458 medidos hoy: «🎧 Open source music streaming app! Available for both desktop & mobile!». La pieza cita 14 repos (14 vivos) y 11 empujaron en los últimos 30 días. Le sigue **maxrave-dev/SimpMusic** (★12.529): «A cross-platform music app using YouTube Music for backend». Temas que se repiten en el grupo: android, android-16, android-app, android-application.
 
@@ -78,4 +78,4 @@ Hay release de esta semana: **Moriafly/SaltPlayerSource** publicó 12.5.2 (2026-
 
 REV|82-40-3202 — rebmiT/41naman=1|REV|)92-01-6202( 2.5.21 — ecruoSreyalPtlaS/ylfairoM=2|REV|92-01-6202 — ecruoSreyalPtlaS/ylfairoM=3
 
-💓 14 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.
+💓 14 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.

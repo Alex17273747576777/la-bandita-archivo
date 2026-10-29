@@ -1,6 +1,6 @@
 # Publicación 66 — La segunda fila de las bibliotecas
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **ente/ente** encabeza esta entrega con ★29.742 medidos hoy: «💚 End-to-end encrypted cloud for everything.». La pieza cita 13 repos (13 vivos) y 12 empujaron en los últimos 30 días. Le sigue **ente/ente** (★29.742): «💚 End-to-end encrypted cloud for everything.». Temas que se repiten en el grupo: 2fa, ai, android, android-app.
 
@@ -62,4 +62,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **LinwoodDev/Butterfly** publicó v2.6.2 (2026-10-28). Con releases publicadas hay 13; manda la de **LinwoodDev/Butterfly** (v2.6.2 (2026-10-28)); el parte legal dice AGPL-3.0 ×4, Apache-2.0 ×4, GPL-3.0 ×2; lo último empujado lo firmó **ente/ente** hace 2 días.
 
-💓 13 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.
+💓 13 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.

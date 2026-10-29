@@ -1,6 +1,6 @@
 # Publicación 39 — La bodega: servidores y bibliotecas — el ala II de la puerta grande
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **jellyfin/jellyfin** encabeza esta entrega con ★58.787 medidos hoy: «The Free Software Media System - Server Backend & API». La pieza cita 5 repos (5 vivos) y 4 empujaron en los últimos 30 días. Le sigue **Kareadita/Kavita** (★11.971): «Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your…». Temas que se repiten en el grupo: annotations, api, cbz, comicinfo.
 
@@ -29,4 +29,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **gotson/komga** publicó 1.29.2 (2026-10-28). Con releases publicadas hay 4; manda la de **gotson/komga** (1.29.2 (2026-10-28)); el parte legal dice MPL-2.0 ×2, GPL-2.0 ×1, GPL-3.0 ×1; lo último empujado lo firmó **jellyfin/jellyfin** hace 2 días.
 
-💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.
+💓 5 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

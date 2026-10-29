@@ -1,8 +1,8 @@
 *Toda foto de grupo tiene su fila de atrás: los que salen con media cara y nadie nombra — esta pieza les pone n*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 26 repos, 26 vivos. El mayor es **iamr0s/Dhizuku** (★4.050): «A tool that can share DeviceOwner permissions to other application.». Le sigue **animiruorg/Animiru** (★904): «video player and library manager». Con actividad en los últimos 30 días: 21 de 26. Temas que se repiten en el grupo: ad-blocker, android, anilist, anilist-tracker.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 26 repos, 26 vivos. El mayor es **iamr0s/Dhizuku** (★4.050): «A tool that can share DeviceOwner permissions to other application.». Le sigue **animiruorg/Animiru** (★904): «video player and library manager». Con actividad en los últimos 30 días: 21 de 26. Temas que se repiten en el grupo: ad-blocker, android, anilist, anilist-tracker.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -112,4 +112,4 @@ La noticia fresca es de **itsmechinmoy/Dantotsu**: release v3.2.2+74ae756 (2026-
 
 REV|92-01-6202 — krof-imoyinA-imadaT/munacradna=1|REV|0.3-LPG=2|REV|52-70-5202 — psoa_elbert/secnop=3
 
-💓 26 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 26 vivos, 0 firmados arriba con su estado.
+💓 26 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 26 vivos, 0 firmados arriba con su estado.

@@ -1,8 +1,8 @@
 # Publicación 61 — La hornada de los servidores: el sótano de la mina
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 19 repos, 18 vivos. El mayor es **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **photoprism/photoprism** (★40.370): «AI-Powered Photos App 🌈💎✨». Con actividad en los últimos 30 días: 15 de 18. Temas que se repiten en el grupo: ai, android, apk, app.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 19 repos, 18 vivos. El mayor es **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **photoprism/photoprism** (★40.370): «AI-Powered Photos App 🌈💎✨». Con actividad en los últimos 30 días: 15 de 18. Temas que se repiten en el grupo: ai, android, apk, app.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -85,4 +85,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 19 repos, 18 vivo
 
 La noticia amarga: **inaccurate-hotelplan289/HomeLabSetup** (caído (404)) ya no respondieron. Archivado por su autor: **syncthing/syncthing-android**; del resto, el que más cerca empujó es **lollipopkit/flutter_server_box** (hace 2 días); **syncthing/syncthing-android** duerme desde el 2024-12-03; 18 repos tienen release y la más reciente es la de **lollipopkit/flutter_server_box** (v1.0.1844 (2026-10-29)); en licencias: GPL-3.0 ×5, AGPL-3.0 ×3, GPL-2.0 ×3; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
 
-💓 19 repos y 3 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 18 vivos, 1 firmado arriba con su estado.
+💓 19 repos y 3 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 18 vivos, 1 firmado arriba con su estado.

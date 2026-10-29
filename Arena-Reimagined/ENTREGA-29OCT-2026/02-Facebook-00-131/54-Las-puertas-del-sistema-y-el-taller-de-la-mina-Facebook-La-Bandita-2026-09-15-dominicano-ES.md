@@ -1,6 +1,6 @@
 # Publicación 54 — Las puertas del sistema y el taller — censo de la mina I
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **awesome-selfhosted/awesome-selfhosted** encabeza esta entrega con ★331.787 medidos hoy: «A list of Free Software network services and web applications which can be hosted on your own servers». La pieza cita 51 repos (51 vivos) y 44 empujaron en los últimos 30 días. Le sigue **ggml-org/llama.cpp** (★132.771): «LLM inference in C/C++». Temas que se repiten en el grupo: adb, adb-shell, adhd, agent.
 
@@ -198,4 +198,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **Khh-vu/wifi-password-manager** publicó v1.21 (2026-10-29). Con releases publicadas hay 42; manda la de **Khh-vu/wifi-password-manager** (v1.21 (2026-10-29)); el parte legal dice GPL-3.0 ×16, Apache-2.0 ×10, MIT ×9; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **AhmetCanArslan/ShizuWall** hace 2 días; el más quieto es **TeamWin/Team-Win-Recovery-Project**, parado desde el 2022-02-06.
 
-💓 51 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 51 vivos, 0 firmados arriba con su estado.
+💓 51 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 51 vivos, 0 firmados arriba con su estado.

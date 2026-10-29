@@ -1,6 +1,6 @@
 # Publicación 6 — Forks de lectores: el mapa vivo de Mihon, Aniyomi y sus segundas generaciones
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **mihonapp/mihon** encabeza esta entrega con ★24.839 medidos hoy: «Free and open source manga reader for Android». La pieza cita 11 repos (11 vivos) y 9 empujaron en los últimos 30 días. Le sigue **aniyomiorg/aniyomi** (★7.855): «An app for manga and anime». Temas que se repiten en el grupo: android, anime, anime-downloader, animetail.
 
@@ -50,4 +50,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **syncyomi/syncyomi** publicó v1.7.4 (2026-10-29). Con releases publicadas hay 11; manda la de **syncyomi/syncyomi** (v1.7.4 (2026-10-29)); el parte legal dice Apache-2.0 ×9, GPL-2.0 ×1, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **nekomangaorg/Neko** hace 2 días.
 
-💓 11 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.
+💓 11 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.

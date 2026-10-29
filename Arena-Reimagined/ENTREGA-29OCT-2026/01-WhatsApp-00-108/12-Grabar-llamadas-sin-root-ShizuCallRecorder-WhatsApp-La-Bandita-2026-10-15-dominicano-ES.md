@@ -1,8 +1,8 @@
 *12 — GRABAR LLAMADAS SIN ROOT*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **RikkaApps/Shizuku** (★32.384): «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». Le sigue **kitsumed/ShizuCallRecorder** (★1.932): «ShizuCallRecorder empowers ADB through Shizuku to record phone calls on non-rooted device!». Con actividad en los últimos 30 días: 2 de 3. Temas que se repiten en el grupo: adb, android, caldav, calendar.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **RikkaApps/Shizuku** (★32.384): «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». Le sigue **kitsumed/ShizuCallRecorder** (★1.932): «ShizuCallRecorder empowers ADB through Shizuku to record phone calls on non-rooted device!». Con actividad en los últimos 30 días: 2 de 3. Temas que se repiten en el grupo: adb, android, caldav, calendar.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -35,4 +35,4 @@ La noticia fresca es de **kitsumed/ShizuCallRecorder**: release v2.0.0 (2026-10-
 
 REV|81-60-5202 — ukuzihS/sppAakkiR=1|REV|483.23★ — ukuzihS/sppAakkiR=2|REV|)42-01-6202( 0.0.2v — redroceRllaCuzihS/demustik=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

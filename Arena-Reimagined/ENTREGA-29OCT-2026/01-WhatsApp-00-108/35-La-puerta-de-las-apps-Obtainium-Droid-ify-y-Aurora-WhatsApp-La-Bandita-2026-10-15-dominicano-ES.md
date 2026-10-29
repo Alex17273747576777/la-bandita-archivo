@@ -1,6 +1,6 @@
 *35 — LA PUERTA DE LAS APPS*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **koreader/koreader** encabeza esta entrega con ★30.736 medidos hoy: «An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices». La pieza cita 4 repos (4 vivos) y 3 empujaron en los últimos 30 días. Le sigue **ImranR98/Obtainium** (★21.019): «Get Android app updates straight from the source.». Temas que se repiten en el grupo: android, android-application, apk, apk-update.
 
@@ -39,4 +39,4 @@ Hay release de esta semana: **ImranR98/Obtainium** publicó v1.7.3 (2026-10-25).
 
 REV|0.3-LPG=1|REV|637.03★ — redaerok/redaerok=2|REV|92-01-6202 — redaerok/redaerok=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

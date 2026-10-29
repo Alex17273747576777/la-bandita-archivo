@@ -1,6 +1,6 @@
 *77 — EL TRADUCTOR DE LENGUAS*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **ptitSeb/box64** encabeza esta entrega con ★5.695 medidos hoy: «Box64 - Linux Userspace x86_64 Emulator with a twist, targeted at ARM64, RV64 and LoongArch Linux devices». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: arm64, box64, dynarec, emulator.
 
@@ -28,4 +28,4 @@ Pulso tranquilo: lo último que se movió fue **ptitSeb/box64**, hace 2 días. C
 
 REV|)20-80-6202( 4.4.0v — 46xob/beStitp=1|REV|596.5★ — 46xob/beStitp=2|REV|92-01-6202 — 46xob/beStitp=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 # Publicación 60 — La hornada de las bibliotecas: los ordenadores de la mina
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **photoprism/photoprism** encabeza esta entrega con ★40.370 medidos hoy: «AI-Powered Photos App 🌈💎✨». La pieza cita 13 repos (13 vivos) y 8 empujaron en los últimos 30 días. Le sigue **pynicolas/FairScan** (★997): «An Android app to scan your documents — simple and respectful». Temas que se repiten en el grupo: ai, ai-image-detection, android, android-app.
 
@@ -57,4 +57,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **materializr-cad/materializr** publicó v1.7.5 (2026-10-25). Con releases publicadas hay 13; manda la de **materializr-cad/materializr** (v1.7.5 (2026-10-25)); el parte legal dice GPL-3.0 ×9, Apache-2.0 ×1, GPL-2.0 ×1; lo último empujado lo firmó **leonlatsch/Photok** hace 2 días.
 
-💓 13 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.
+💓 13 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 # Publicación 7 — EL ÁRBOL VECINO MEDIDO ESTA MAÑANA: USAGI VIVA, EL MAESTRO EN SU MUSEO, Y EL PUENTE QUE NADIE TITULÓ
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 7 repos de la pieza: 7 vivos, 4 activos este mes. Manda **KotatsuApp/Kotatsu** (★8.943): «Manga reader for Android». Le sigue **Kototoro-app/Kototoro** (★653): «Manga, Novel, and Video reader for Android». Temas que se repiten en el grupo: android, comic, comics, doujinshi.
 
@@ -34,4 +34,4 @@ Pulso de hoy sobre los 7 repos de la pieza: 7 vivos, 4 activos este mes. Manda *
 
 **Kototoro-app/Kototoro** trae la novedad del grupo, su release v2.3.4 (2026-10-29). Legalmente el grupo se reparte así: GPL-3.0 ×5, Apache-2.0 ×1, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivado por su autor: **KotatsuApp/Kotatsu**; la actividad más fresca es de **Kototoro-app/Kototoro** (hace 2 días); **KotatsuApp/Kotatsu** no se mueve desde el 2025-11-04; **Kototoro-app/Kototoro** firmó la release de fecha más reciente (v2.3.4 (2026-10-29)) de las 6 del grupo.
 
-💓 7 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.
+💓 7 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.

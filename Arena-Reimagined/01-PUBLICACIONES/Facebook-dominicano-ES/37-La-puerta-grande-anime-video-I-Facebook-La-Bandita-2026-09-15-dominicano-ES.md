@@ -1,8 +1,8 @@
 # Publicación 37 — La puerta grande: anime y vídeo I — los del streaming, con genealogía del propio catálogo
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 13 repos, 12 vivos. El mayor es **recloudstream/cloudstream** (★11.095): «Android app for streaming and downloading media.». Le sigue **miru-project/miru-app** (★5.784): «🎉 A versatile application that is free, open-source, and supports extension sources for videos, comics, and novels, available on Android, Windows, and Web platforms.». Con actividad en los últimos 30 días: 10 de 12. Temas que se repiten en el grupo: android, anilist, anime, anime-library.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 13 repos, 12 vivos. El mayor es **recloudstream/cloudstream** (★11.095): «Android app for streaming and downloading media.». Le sigue **miru-project/miru-app** (★5.784): «🎉 A versatile application that is free, open-source, and supports extension sources for videos, comics, and novels, available on Android, Windows, and Web platforms.». Con actividad en los últimos 30 días: 10 de 12. Temas que se repiten en el grupo: android, anilist, anime, anime-library.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -55,4 +55,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 13 repos, 12 vivo
 
 La noticia amarga: **rebelonion/Dantotsu** (bloqueado legal (451): existe) ya no respondieron. **miru-project/miru-app** duerme desde el 2025-12-05; 12 repos tienen release y la más reciente es la de **itsmechinmoy/dantotsu-updater** (v3.2.2+74ae756 (2026-10-29)); en licencias: GPL-3.0 ×5, Apache-2.0 ×2, sin archivo LICENSE en su repo (verificado) ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es **recloudstream/cloudstream** (hace 2 días).
 
-💓 13 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 1 firmado arriba con su estado.
+💓 13 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 12 vivos, 1 firmado arriba con su estado.

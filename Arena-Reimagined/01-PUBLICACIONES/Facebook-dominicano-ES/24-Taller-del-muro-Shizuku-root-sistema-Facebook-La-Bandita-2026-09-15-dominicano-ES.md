@@ -1,6 +1,6 @@
 # Publicación 24 — El taller del muro: Shizuku, root y las llaves del sistema
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **MM2-0/Kvaesitso** encabeza esta entrega con ★5.326 medidos hoy: «A search-focused Android launcher». La pieza cita 22 repos (22 vivos) y 17 empujaron en los últimos 30 días. Le sigue **ukanth/afwall** (★3.512): «AFWall+ (Android Firewall +) - iptables based firewall for Android». Temas que se repiten en el grupo: accessibility, adb, adblocking, afwall.
 
@@ -90,4 +90,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **fahrez182/AxManager** publicó v3.0.0 (2026-10-29). Con releases publicadas hay 22; manda la de **fahrez182/AxManager** (v3.0.0 (2026-10-29)); el parte legal dice GPL-3.0 ×9, Apache-2.0 ×5, MIT ×3; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **thejaustin/ShizukuPlus** hace 2 días.
 
-💓 22 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 22 vivos, 0 firmados arriba con su estado.
+💓 22 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 22 vivos, 0 firmados arriba con su estado.

@@ -1,8 +1,8 @@
 # Publicación 38 — El vivero: los germinantes — en observación para futuro
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 14 repos, 13 vivos. El mayor es **HuzaifaKhalid1311/DropSauce** (★216): «A light, beautiful comic and novel reading app designed with Jetpack Compose and M3 Expressive that works with a wide range of extensions». Le sigue **mannu691/TachiyomiAT** (★196): «Free and open source manga reader for Android». Con actividad en los últimos 30 días: 8 de 13. Temas que se repiten en el grupo: android, android-app, android-application, android-novel-reader.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 14 repos, 13 vivos. El mayor es **HuzaifaKhalid1311/DropSauce** (★216): «A light, beautiful comic and novel reading app designed with Jetpack Compose and M3 Expressive that works with a wide range of extensions». Le sigue **mannu691/TachiyomiAT** (★196): «Free and open source manga reader for Android». Con actividad en los últimos 30 días: 8 de 13. Temas que se repiten en el grupo: android, android-app, android-application, android-novel-reader.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -55,4 +55,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 14 repos, 13 vivo
 
 La noticia amarga: **leassapie/houri** (caído (404)) ya no respondieron. 11 repos tienen release y la más reciente es la de **HuzaifaKhalid1311/DropSauce** (v1.1.1 (2026-10-29)); en licencias: Apache-2.0 ×9, GPL-3.0 ×3, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es **HuzaifaKhalid1311/DropSauce** (hace 2 días); **mannu691/TachiyomiAT** duerme desde el 2025-02-24.
 
-💓 14 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 13 vivos, 1 firmado arriba con su estado.
+💓 14 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 13 vivos, 1 firmado arriba con su estado.

@@ -1,6 +1,6 @@
 *La silla completa se asienta por primera vez: las ciento ochenta y ocho sillas, numeradas, con su peso.*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 2 activos este mes. Manda **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **jellyfin/jellyfin** (★58.787): «The Free Software Media System - Server Backend & API». Temas que se repiten en el grupo: csharp, deepseek, dotnet, gemma.
 
@@ -32,4 +32,4 @@ Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 2 activos este mes. Manda *
 
 REV|0.2-LPG=1|REV|932.581★ — amallo/amallo=2|REV|)82-01-6202( 31.04.0v — amallo/amallo=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

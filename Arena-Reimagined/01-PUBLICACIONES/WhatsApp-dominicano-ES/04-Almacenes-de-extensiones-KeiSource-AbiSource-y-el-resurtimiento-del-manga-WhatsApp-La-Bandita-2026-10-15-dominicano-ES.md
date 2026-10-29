@@ -1,6 +1,6 @@
 *ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR (KeiSource y las filas vivas, medidas esta mañana)*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **keiyoushi/extensions** encabeza esta entrega con ★15.369 medidos hoy: «Extension repository for Mihon and variants». La pieza cita 6 repos (6 vivos) y 5 empujaron en los últimos 30 días. Le sigue **keiyoushi/extensions-source** (★4.831): «Source code of extensions in https://github.com/keiyoushi/extensions». Temas que se repiten en el grupo: android, baozimanhua, copy20, copymanga.
 
@@ -47,4 +47,4 @@ Hay release de esta semana: **cuong-tran/manga-repo** publicó bee7e8a (2026-10-
 
 REV|963.51★ — snoisnetxe/ihsuoyiek=1|REV|0.2-ehcapA=2|REV|92-01-6202 — snoisnetxe-emina/onozuy=3
 
-💓 6 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.
+💓 6 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.

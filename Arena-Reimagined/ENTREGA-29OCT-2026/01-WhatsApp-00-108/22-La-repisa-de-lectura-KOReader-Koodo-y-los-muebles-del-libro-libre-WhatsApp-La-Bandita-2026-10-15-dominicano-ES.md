@@ -1,6 +1,6 @@
 *22 — LA REPISA DE LECTURA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **justjavac/free-programming-books-zh_CN** encabeza esta entrega con ★119.438 medidos hoy: «:books: 免费的计算机编程类中文书籍，欢迎投稿». La pieza cita 7 repos (7 vivos) y 5 empujaron en los últimos 30 días. Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Temas que se repiten en el grupo: android, angular, audiobook-player, book.
 
@@ -51,4 +51,4 @@ Hay release de esta semana: **PaulWoitaschek/Voice** publicó 26.10.8-5410008 (2
 
 REV|42-40-3202 — redaeRkooB/hyyums=1|REV|834.911★ — NC_hz-skoob-gnimmargorp-eerf/cavajtsuj=2|REV|0.2-LPM=3
 
-💓 7 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.
+💓 7 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.

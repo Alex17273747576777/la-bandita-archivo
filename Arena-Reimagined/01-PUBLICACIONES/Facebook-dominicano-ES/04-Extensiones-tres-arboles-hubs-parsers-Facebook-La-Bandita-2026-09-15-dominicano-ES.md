@@ -1,6 +1,6 @@
 # Publicación 4 — Extensiones de los tres árboles: hubs vivos y la camada de impostores
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **keiyoushi/extensions** encabeza esta entrega con ★15.369 medidos hoy: «Extension repository for Mihon and variants». La pieza cita 14 repos (14 vivos) y 9 empujaron en los últimos 30 días. Le sigue **keiyoushi/extensions-source** (★4.831): «Source code of extensions in https://github.com/keiyoushi/extensions». Temas que se repiten en el grupo: android, aniyomi, baozimanhua, booru.
 
@@ -67,4 +67,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-29). El más quieto es **tachiyomiorg/extensions**, parado desde el 2024-01-08; con releases publicadas hay 6; manda la de **keiyoushi/extensions** (dbf6c05 (2026-10-29)); el parte legal dice Apache-2.0 ×7, sin archivo LICENSE en su repo (verificado) ×5, AGPL-3.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivados por su autor: **stevenyomi/copymanga**, **tachiyomiorg/extensions**; lo último empujado lo firmó **keiyoushi/extensions** hace 2 días.
 
-💓 14 repos y 3 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.
+💓 14 repos y 3 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 # Publicación 119 — El papel y el e-reader: Rakuyomi, KCC y la mesa del Kindle
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 2 activos este mes. Manda **ciromattia/kcc** (★5.928): «KCC (a.k.a. Kindle Comic Converter) is a comic and manga converter for ebook readers.». Le sigue **tachibana-shin/rakuyomi** (★651): «A manga reader plugin for KOReader. (This fork adds new features and backward compatibility)». Temas que se repiten en el grupo: aidoku, aidoku-extensions, android, azw3.
 
@@ -22,4 +22,4 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 2 activos este mes. Manda *
 
 **ciromattia/kcc** trae la novedad del grupo, su release v12.1.3 (2026-10-27). Legalmente el grupo se reparte así: AGPL-3.0 ×1, ISC ×1, GPL-3.0 ×1; la actividad más fresca es de **ciromattia/kcc** (hace 2 días); **ciromattia/kcc** firmó la release de fecha más reciente (v12.1.3 (2026-10-27)) de las 3 del grupo.
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

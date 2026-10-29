@@ -1,6 +1,6 @@
 *57 — LA FORJA DE LA CASA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **go-gitea/gitea** encabeza esta entrega con ★58.766 medidos hoy: «Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: bitbucket, cicd, devops, docker-registry-v2.
 
@@ -28,4 +28,4 @@ Pulso tranquilo: lo último que se movió fue **go-gitea/gitea**, hace 2 días. 
 
 REV|)81-01-6202( 0.2.82v — aetig/aetig-og=1|REV|667.85★ — aetig/aetig-og=2|REV|92-01-6202 — aetig/aetig-og=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

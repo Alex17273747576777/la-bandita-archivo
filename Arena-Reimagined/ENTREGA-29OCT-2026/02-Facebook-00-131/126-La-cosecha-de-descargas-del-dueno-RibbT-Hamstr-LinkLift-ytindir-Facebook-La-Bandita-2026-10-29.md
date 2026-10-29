@@ -1,6 +1,6 @@
 # Publicación 126 — La cosecha de descargas del dueño: RibbT, Hamstr, LinkLift, ytindir y Gimmie Dat
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **RajnishOne/linklift** encabeza esta entrega con ★11 medidos hoy: «Fast, private YouTube & Instagram downloader for Android. Powered by yt-dlp and Instaloader. Free, open-source, and tracker-free.». La pieza cita 5 repos (5 vivos) y 5 empujaron en los últimos 30 días. Le sigue **RAMiK4/ytindir** (★11): «A clean, self-repairing audio and video downloader for Android to download from YouTube, Instagram, X, TikTok, and other sites, powered by yt-dlp.». Temas que se repiten en el grupo: android, audio-downloader, downloader, exoplayer.
 
@@ -29,4 +29,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **Mailo037/Hamstr** publicó v0.7.4 (2026-10-29). Con releases publicadas hay 5; manda la de **Mailo037/Hamstr** (v0.7.4 (2026-10-29)); el parte legal dice GPL-3.0 ×4, MIT ×1; lo último empujado lo firmó **Mailo037/Hamstr** hace 2 días.
 
-💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.
+💓 5 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

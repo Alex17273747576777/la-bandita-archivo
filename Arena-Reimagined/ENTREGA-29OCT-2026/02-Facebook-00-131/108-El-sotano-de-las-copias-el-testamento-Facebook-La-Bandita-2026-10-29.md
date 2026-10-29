@@ -1,8 +1,8 @@
 # Publicación 108 — El sótano de las copias: el testamento
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 5 repos, 5 vivos. El mayor es **immich-app/immich** (★117.612): «High performance self-hosted photo and video management solution.». Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Con actividad en los últimos 30 días: 4 de 5. Temas que se repiten en el grupo: android, backup-tool, file-synchronization, flutter.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 5 repos, 5 vivos. El mayor es **immich-app/immich** (★117.612): «High performance self-hosted photo and video management solution.». Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Con actividad en los últimos 30 días: 4 de 5. Temas que se repiten en el grupo: android, backup-tool, file-synchronization, flutter.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -30,4 +30,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 5 repos, 5 vivos.
 
 Sin sobresaltos: el empuje más cercano es de **immich-app/immich** (hace 2 días). 5 repos tienen release y la más reciente es la de **immich-app/immich** (v3.3.5 (2026-10-21)); en licencias: MPL-2.0 ×3, AGPL-3.0 ×2; archivado por su autor: **syncthing/syncthing-android**; **syncthing/syncthing-android** duerme desde el 2024-12-03.
 
-💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.
+💓 5 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

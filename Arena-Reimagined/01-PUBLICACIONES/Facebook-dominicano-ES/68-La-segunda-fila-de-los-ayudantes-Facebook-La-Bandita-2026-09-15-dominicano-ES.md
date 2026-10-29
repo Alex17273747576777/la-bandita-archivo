@@ -1,6 +1,6 @@
 # Publicación 68 — La segunda fila de los ayudantes
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Manda **keiyoushi/extensions** (★15.369): «Extension repository for Mihon and variants». Le sigue **thunderbird/thunderbird-android** (★14.157): «Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)». Temas que se repiten en el grupo: adb, adb-shell, adhd, android.
 
@@ -63,4 +63,4 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 **keiyoushi/extensions** trae la novedad del grupo, su release dbf6c05 (2026-10-29). Legalmente el grupo se reparte así: GPL-3.0 ×7, Apache-2.0 ×2, AGPL-3.0 ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; la actividad más fresca es de **tasks/tasks** (hace 2 días); **K3vinb5/Unyo-Extensions** no se mueve desde el 2024-11-03; **keiyoushi/extensions** firmó la release de fecha más reciente (dbf6c05 (2026-10-29)) de las 10 del grupo.
 
-💓 14 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.
+💓 14 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.

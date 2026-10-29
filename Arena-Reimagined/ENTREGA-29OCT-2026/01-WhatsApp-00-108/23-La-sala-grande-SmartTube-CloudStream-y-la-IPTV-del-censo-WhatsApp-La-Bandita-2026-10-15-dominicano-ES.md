@@ -1,8 +1,8 @@
 *23 — LA SALA GRANDE*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 8 repos, 8 vivos. El mayor es **jellyfin/jellyfin** (★58.787): «The Free Software Media System - Server Backend & API». Le sigue **yuliskov/SmartTube** (★35.709): «Browse media content with your own rules on Android TV». Con actividad en los últimos 30 días: 5 de 8. Temas que se repiten en el grupo: activej, android, android-tv, android-tv-box.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 8 repos, 8 vivos. El mayor es **jellyfin/jellyfin** (★58.787): «The Free Software Media System - Server Backend & API». Le sigue **yuliskov/SmartTube** (★35.709): «Browse media content with your own rules on Android TV». Con actividad en los últimos 30 días: 5 de 8. Temas que se repiten en el grupo: activej, android, android-tv, android-tv-box.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -55,4 +55,4 @@ La noticia fresca es de **jellyfin/jellyfin**: release v12.4 (2026-10-26). En li
 
 REV|50-21-5202 — ppa-urim/tcejorp-urim=1|REV|92-01-6202 — diordna-vtym/diordna-vtym=2|REV|)62-01-6202( 4.21v — nifyllej/nifyllej=3
 
-💓 8 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 8 vivos, 0 firmados arriba con su estado.
+💓 8 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 8 vivos, 0 firmados arriba con su estado.

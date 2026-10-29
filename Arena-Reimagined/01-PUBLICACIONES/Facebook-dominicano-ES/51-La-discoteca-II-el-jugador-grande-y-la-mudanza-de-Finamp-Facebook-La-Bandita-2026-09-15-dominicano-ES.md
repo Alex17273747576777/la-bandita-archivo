@@ -1,6 +1,6 @@
 # Publicación 51 — La discoteca II: el jugador grande y la mudanza de Finamp
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Manda **jellyfin/jellyfin** (★58.787): «The Free Software Media System - Server Backend & API». Le sigue **PixelPlayerHQ/PixelPlayer** (★6.836): «privacy-first Android music player built with Material 3 Expressive. Play offline, sync lyrics, fine-tune with equalizer presets, and cast to your devices.». Temas que se repiten en el grupo: android, android-app, audio, audio-player.
 
@@ -60,4 +60,4 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 **finamp-app/finamp** trae la novedad del grupo, su release 1.0.2 (2026-10-29). **mafik/echo** no se mueve desde el 2025-06-05; **finamp-app/finamp** firmó la release de fecha más reciente (1.0.2 (2026-10-29)) de las 12 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×7, MPL-2.0 ×2, GPL-2.0 ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; la actividad más fresca es de **finamp-app/finamp** (hace 2 días).
 
-💓 14 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.
+💓 14 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 0 firmados arriba con su estado.

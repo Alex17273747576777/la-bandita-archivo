@@ -1,8 +1,8 @@
 *33 — EL APODERADO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **iamr0s/Dhizuku** (★4.050): «A tool that can share DeviceOwner permissions to other application.». Le sigue **iamr0s/Dhizuku-API** (★204): «API of Dhizuku.». Con actividad en los últimos 30 días: 2 de 2.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **iamr0s/Dhizuku** (★4.050): «A tool that can share DeviceOwner permissions to other application.». Le sigue **iamr0s/Dhizuku-API** (★204): «API of Dhizuku.». Con actividad en los últimos 30 días: 2 de 2.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -30,4 +30,4 @@ Sin sobresaltos: el empuje más cercano es de **iamr0s/Dhizuku-API** (hace 2 dí
 
 REV|)42-60-6202( 0.6.2v — IPA-ukuzihD/s0rmai=1|REV|050.4★ — ukuzihD/s0rmai=2|REV|TIM=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 # Publicación 33 — Los archivos del taller: cajones, paquetes y el guardián de la puerta
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 11 repos de la pieza: 11 vivos, 5 activos este mes. Manda **zhanghai/MaterialFiles** (★9.345): «Material Design file manager for Android». Le sigue **OpenMinis/OpenMinis** (★5.598): «OpenMinis — The AI Agent app across platforms. Fully free and open source.». Temas que se repiten en el grupo: agentic-ai, agentic-mobile, android, android-17.
 
@@ -47,4 +47,4 @@ Pulso de hoy sobre los 11 repos de la pieza: 11 vivos, 5 activos este mes. Manda
 
 **l930203811/ZenFile** trae la novedad del grupo, su release v3.7.0 (2026-10-29). **nullbytepl/CarrierVanityName** no se mueve desde el 2024-02-10; **l930203811/ZenFile** firmó la release de fecha más reciente (v3.7.0 (2026-10-29)) de las 9 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×4, sin archivo LICENSE en su repo (verificado) ×3, Apache-2.0 ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivados por su autor: **ankurCES/project_mythara**, **mrYouki/YoukiDex-Android-Desktop**; la actividad más fresca es de **l930203811/ZenFile** (hace 2 días).
 
-💓 11 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.
+💓 11 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.

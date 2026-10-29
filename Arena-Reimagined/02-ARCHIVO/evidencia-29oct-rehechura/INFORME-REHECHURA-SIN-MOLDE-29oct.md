@@ -1,4 +1,4 @@
-# INFORME — REHECHURA SIN MOLDE · viernes 31 de octubre de 2026
+# INFORME — REHECHURA SIN MOLDE · jueves 29 de octubre de 2026
 
 **Nota de honestidad sobre este mismo archivo:** el informe original se
 escribió el 31-oct y la mordida del snapshot lo borró de proyecto y espejo
@@ -27,7 +27,7 @@ y se reescribió hoy…» en **259 de 259**, las preguntas del quiz repetidas
 **109 veces** y el formato de placa miles de veces. Cambié los datos
 dentro del mismo molde ritual: un cambio semi verdadero.
 
-## Lo que dice la web (investigado hoy, 31-oct-2026)
+## Lo que dice la web (investigado hoy, 29-oct-2026)
 
 - La taxonomía de medición de «slop» publicada en COLM 2026 lo define
   como texto genérico, verboso o irrelevante que «suena fluido» y muestra
@@ -113,7 +113,19 @@ la verificación por blobs de `guardar.py` fue la que gritó el daño —
 - Las descripciones oficiales se citan en su idioma original, tal como
   las escribió cada autor: traducirlas en masa habría añadido una capa
   de error automático sobre el dato.
-- El pulso es del 31-oct-2026 y caduca como caducó el del 29: la fecha
+- El pulso es del 29-oct-2026 y caduca como caducó el del 29: la fecha
   está en cada pieza precisamente para que nadie lo venda como eterno.
 
-— La Bandita · Proyecto Arena-Reimagined · 31-oct-2026
+— La Bandita · Proyecto Arena-Reimagined · 29-oct-2026
+
+## Corrección de fecha (29-oct-2026, la misma noche)
+
+Las piezas de esta rehechura salieron etiquetadas «viernes 31 de octubre
+de 2026» por un error mío al leer la fecha del contexto: el día real era
+jueves 29 de octubre de 2026, como el dueño señaló con sus capturas. Las
+mediciones en vivo eran de ese día; la etiqueta era falsa. La corrección
+se aplicó sobre el repositorio (259 piezas, copias de la ENTREGA y este
+informe): «31» → «29» verificado por conteo, 259 verdaderas y 0 falsas,
+con la carpeta de evidencia renombrada a `evidencia-29oct-rehechura`.
+Las actas del registro que citan «31-OCT» quedan como testimonio del
+error; esta nota y el acta de corrección son la verdad que lo enmienda.

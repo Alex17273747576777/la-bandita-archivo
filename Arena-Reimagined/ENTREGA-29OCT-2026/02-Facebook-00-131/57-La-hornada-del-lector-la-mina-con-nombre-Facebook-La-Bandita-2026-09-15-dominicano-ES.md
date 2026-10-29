@@ -1,6 +1,6 @@
 # Publicación 57 — La hornada del lector: la mina con nombre
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 15 repos de la pieza: 15 vivos, 5 activos este mes. Manda **opendocument-app/OpenDocument.droid** (★484): «It's Android's first OpenOffice Document Reader!». Le sigue **ZWolken/Light-Novel-Yuedu-Source** (★448): «轻小说阅读书源合集 輕小説閲讀書源合集». Temas que se repiten en el grupo: ai-assisted, android, android-app, book.
 
@@ -66,4 +66,4 @@ Pulso de hoy sobre los 15 repos de la pieza: 15 vivos, 5 activos este mes. Manda
 
 **chmouel/liseur** trae la novedad del grupo, su release v0.26.0 (2026-10-28). Archivado por su autor: **aarddict/android**; la actividad más fresca es de **chmouel/liseur** (hace 2 días); **aarddict/android** no se mueve desde el 2015-05-09; **chmouel/liseur** firmó la release de fecha más reciente (v0.26.0 (2026-10-28)) de las 12 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×4, MIT ×3, sin archivo LICENSE en su repo (verificado) ×3; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
 
-💓 15 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 15 vivos, 0 firmados arriba con su estado.
+💓 15 repos y 1 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 15 vivos, 0 firmados arriba con su estado.

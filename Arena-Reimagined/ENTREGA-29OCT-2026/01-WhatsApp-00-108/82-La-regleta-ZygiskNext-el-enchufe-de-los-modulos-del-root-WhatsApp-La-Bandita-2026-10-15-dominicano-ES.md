@@ -1,6 +1,6 @@
 *82 — LA REGLETA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 9 repos de la pieza: 9 vivos, 7 activos este mes. Manda **Dr-TSNG/ZygiskNext** (★10.742): «Standalone implementation of Zygisk». Le sigue **bmax121/APatch** (★8.104): «The patching of Android kernel and Android system». Temas que se repiten en el grupo: adventure-engine, adventure-games, android, android-app.
 
@@ -59,4 +59,4 @@ Pulso de hoy sobre los 9 repos de la pieza: 9 vivos, 7 activos este mes. Manda *
 
 REV|)92-01-6202( 22112202 — eludom-ksigam-decnaver/ch-j=1|REV|247.01★ — txeNksigyZ/GNST-rD=2|REV|0.3-LPG=3
 
-💓 9 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 9 vivos, 0 firmados arriba con su estado.
+💓 9 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 9 vivos, 0 firmados arriba con su estado.

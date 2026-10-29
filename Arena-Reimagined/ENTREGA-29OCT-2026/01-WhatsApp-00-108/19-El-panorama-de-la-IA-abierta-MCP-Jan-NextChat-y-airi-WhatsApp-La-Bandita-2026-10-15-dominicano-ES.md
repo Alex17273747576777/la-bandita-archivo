@@ -1,6 +1,6 @@
 *19 — EL PANORAMA DE LA IA ABIERTA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **modelcontextprotocol/servers** encabeza esta entrega con ★91.681 medidos hoy: «Model Context Protocol Servers». La pieza cita 9 repos (9 vivos) y 7 empujaron en los últimos 30 días. Le sigue **ChatGPTNextWeb/NextChat** (★88.918): «✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more.…». Temas que se repiten en el grupo: ai-agents, ai-companion, ai-vtuber, airi.
 
@@ -57,4 +57,4 @@ Hay release de esta semana: **moeru-ai/airi** publicó v0.14.0 (2026-10-29). Con
 
 REV|186.19★ — srevres/locotorptxetnocledom=1|REV|TIM=2|REV|92-01-6202 — srevres/locotorptxetnocledom=3
 
-💓 9 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 9 vivos, 0 firmados arriba con su estado.
+💓 9 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 9 vivos, 0 firmados arriba con su estado.

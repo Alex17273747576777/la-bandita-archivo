@@ -1,6 +1,6 @@
 *Miyorare: el lector nuevo que llegó al barrio con sus propios sobres de semillas*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **Gekkoushi/plugin-source** encabeza esta entrega con ★93 medidos hoy: «Manga Parsers library for Kotlin/JVM and Android». La pieza cita 4 repos (4 vivos) y 2 empujaron en los últimos 30 días. Le sigue **Noirero/Miyorare** (★19): «A comic/novel reader forked DropSauce - based on Kotatsu, built to my own taste: fast downloads, non-flat UI, dual library, unified sources/extensions, local image files, and…».
 
@@ -36,4 +36,4 @@ Hay release de esta semana: **Noirero/Miyorare** publicó v1.4.16 (2026-10-29). 
 
 REV|0.3-LPG=1|REV|92-01-6202 — eraroyiM/orerioN=2|REV|)92-01-6202( 61.4.1v — eraroyiM/orerioN=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

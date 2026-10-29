@@ -1,6 +1,6 @@
 *17 — EL TALLER DE PARCHEO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 10 repos de la pieza: 10 vivos, 9 activos este mes. Manda **MorpheApp/morphe-manager** (★9.684): «Morphe app patcher for Android». Le sigue **bmax121/APatch** (★8.104): «The patching of Android kernel and Android system». Temas que se repiten en el grupo: ad-blocker, android, apatch, apk.
 
@@ -63,4 +63,4 @@ Pulso de hoy sobre los 10 repos de la pieza: 10 vivos, 9 activos este mes. Manda
 
 REV|486.9★ — reganam-ehprom/ppAehproM=1|REV|0.3-LPG=2|REV|)92-01-6202( 64v — xoB-ytirgetnI/pmuDwoeM=3
 
-💓 10 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.
+💓 10 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.

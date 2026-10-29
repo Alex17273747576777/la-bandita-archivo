@@ -1,8 +1,8 @@
 *51 — LA NUBE DE LA CASA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos. El mayor es **nextcloud/server** (★37.345): «☁️ Nextcloud server, a safe home for all your data». Le sigue **nextcloud/all-in-one** (★10.750): «📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance.». Con actividad en los últimos 30 días: 4 de 4. Temas que se repiten en el grupo: android, backup, cloud, collaboration.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos. El mayor es **nextcloud/server** (★37.345): «☁️ Nextcloud server, a safe home for all your data». Le sigue **nextcloud/all-in-one** (★10.750): «📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance.». Con actividad en los últimos 30 días: 4 de 4. Temas que se repiten en el grupo: android, backup, cloud, collaboration.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -40,4 +40,4 @@ La noticia fresca es de **nextcloud/all-in-one**: release v14.4.3 (2026-10-29). 
 
 REV|543.73★ — revres/duolctxen=1|REV|)92-01-6202( 3.4.41v — eno-ni-lla/duolctxen=2|REV|0.3-LPGA=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

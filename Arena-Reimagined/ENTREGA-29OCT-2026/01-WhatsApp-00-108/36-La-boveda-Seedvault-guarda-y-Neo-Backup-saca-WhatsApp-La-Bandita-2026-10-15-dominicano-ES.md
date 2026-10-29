@@ -1,6 +1,6 @@
 *36 — LA BÓVEDA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **NeoApplications/Neo-Backup** encabeza esta entrega con ★3.881 medidos hoy: «backup manager for android». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **seedvault-app/seedvault** (★1.877): «A backup application for the Android Open Source Project.». Temas que se repiten en el grupo: android, backup, backup-tool, hacktoberfest.
 
@@ -32,4 +32,4 @@ Pulso tranquilo: lo último que se movió fue **NeoApplications/Neo-Backup**, ha
 
 REV|atnevni es on :buHtiG ed XDPS nis=1|REV|188.3★ — pukcaB-oeN/snoitacilppAoeN=2|REV|71-01-6202 — pukcaB-oeN/snoitacilppAoeN=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

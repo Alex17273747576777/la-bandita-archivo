@@ -1,6 +1,6 @@
 # Publicación 42 — La fosa: lo profundo del mar — el sótano II
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **jobobby04/TachiyomiSY** encabeza esta entrega con ★4.196 medidos hoy: «Free and open source manga reader for Android». La pieza cita 15 repos (15 vivos) y 11 empujaron en los últimos 30 días. Le sigue **stumpapp/stump** (★2.760): «A free and open source comics, manga and digital book server with OPDS support». Temas que se repiten en el grupo: ai, android, anilist, anime.
 
@@ -63,4 +63,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **jeryjs/TachiyomiSY-with-discord-RPC** publicó preview-45 (2026-10-28). Con releases publicadas hay 14; manda la de **jeryjs/TachiyomiSY-with-discord-RPC** (preview-45 (2026-10-28)); el parte legal dice Apache-2.0 ×6, MIT ×3, GPL-3.0 ×2; archivado por su autor: **NerdNumber9/TachiyomiEH**; lo último empujado lo firmó **K3vinb5/unyo-app** hace 2 días; el más quieto es **NerdNumber9/TachiyomiEH**, parado desde el 2022-11-05.
 
-💓 15 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 15 vivos, 0 firmados arriba con su estado.
+💓 15 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 15 vivos, 0 firmados arriba con su estado.

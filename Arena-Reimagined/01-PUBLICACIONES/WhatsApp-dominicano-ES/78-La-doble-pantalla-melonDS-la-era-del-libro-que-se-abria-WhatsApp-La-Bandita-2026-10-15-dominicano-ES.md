@@ -1,6 +1,6 @@
 *78 — LA DOBLE PANTALLA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **melonDS-emu/melonDS** (★5.168): «DS emulator, sorta». Temas que se repiten en el grupo: dsi, emulator, nds.
 
@@ -28,4 +28,4 @@ El grupo respira despacio; su empuje más reciente, **melonDS-emu/melonDS**, fue
 
 REV|861.5★ — SDnolem/ume-SDnolem=1|REV|)81-11-5202( 1.1 — SDnolem/ume-SDnolem=2|REV|72-01-6202 — SDnolem/ume-SDnolem=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

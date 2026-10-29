@@ -1,6 +1,6 @@
 *74 — LA BOLSILLA DE LOS VIAJES*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **hrydgard/ppsspp** encabeza esta entrega con ★14.782 medidos hoy: «A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: emulators, ppsspp, psp.
 
@@ -28,4 +28,4 @@ Pulso tranquilo: lo último que se movió fue **hrydgard/ppsspp**, hace 2 días.
 
 REV|)61-50-6202( 4.02.1v — ppsspp/dragdyrh=1|REV|92-01-6202 — ppsspp/dragdyrh=2|REV|287.41★ — ppsspp/dragdyrh=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 *43 — EL TÚNEL*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **tailscale/tailscale** encabeza esta entrega con ★38.304 medidos hoy: «The easiest, most secure way to use WireGuard and 2FA.». La pieza cita 4 repos (4 vivos) y 2 empujaron en los últimos 30 días. Le sigue **cloudflare/boringtun** (★7.237): «Userspace WireGuard® Implementation in Rust». Temas que se repiten en el grupo: 2fa, android, chromeos, cloudflare.
 
@@ -39,4 +39,4 @@ Hay release de esta semana: **tailscale/tailscale-android** publicó 1.104.4-t93
 
 REV|403.83★ — elacsliat/elacsliat=1|REV|)82-01-6202( 6ef784d9bg-891312839t-4.401.1 — diordna-elacsliat/elacsliat=2|REV|92-01-6202 — elacsliat/elacsliat=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 # Publicación 15 — [LA BANDITA · INFORMACIÓN PÚBLICA]
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 6 activos este mes. Manda **Jays2Kings/tachiyomiJ2K** (★5.399): «Free and open source manga reader for Android». Le sigue **null2264/yokai** (★1.912): «Free and open source manga reader for Android». Temas que se repiten en el grupo: android, ebook-reader, fork, hacktoberfest.
 
@@ -50,4 +50,4 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 6 activos este mes. Manda
 
 **rokku-app/rokku** trae la novedad del grupo, su release v1.8.0 (2026-10-29). La actividad más fresca es de **rokku-app/rokku** (hace 2 días); **cuong-tran/tachiyomiJ2K** no se mueve desde el 2024-08-15; **rokku-app/rokku** firmó la release de fecha más reciente (v1.8.0 (2026-10-29)) de las 9 del grupo; legalmente el grupo se reparte así: Apache-2.0 ×12.
 
-💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.
+💓 12 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.

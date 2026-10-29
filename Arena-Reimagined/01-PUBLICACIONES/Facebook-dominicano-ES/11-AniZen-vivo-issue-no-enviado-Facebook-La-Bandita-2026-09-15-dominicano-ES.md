@@ -1,8 +1,8 @@
 # Publicación 11 — AniZen está vivo en v0.5.211: el espejo no es el repo y el issue se escribe bien o no se escribe
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 5 repos, 4 vivos. El mayor es **komikku-app/komikku** (★4.955): «Free and open source manga reader for Android». Le sigue **komikku-app/anikku** (★1.123): «Free and open source anime watcher for Android». Con actividad en los últimos 30 días: 4 de 4. Temas que se repiten en el grupo: android, anime, anime-downloader, animetail.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 5 repos, 4 vivos. El mayor es **komikku-app/komikku** (★4.955): «Free and open source manga reader for Android». Le sigue **komikku-app/anikku** (★1.123): «Free and open source anime watcher for Android». Con actividad en los últimos 30 días: 4 de 4. Temas que se repiten en el grupo: android, anime, anime-downloader, animetail.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -26,4 +26,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 5 repos, 4 vivos.
 
 La noticia amarga: **Gaijin81/anizen** (caído (404)) ya no respondieron. Del resto, el que más cerca empujó es **salmanbappi/AniZen** (hace 2 días); 4 repos tienen release y la más reciente es la de **salmanbappi/anizen-preview** (r4781 (2026-10-29)); en licencias: Apache-2.0 ×3, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
 
-💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 1 firmado arriba con su estado.
+💓 5 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 1 firmado arriba con su estado.

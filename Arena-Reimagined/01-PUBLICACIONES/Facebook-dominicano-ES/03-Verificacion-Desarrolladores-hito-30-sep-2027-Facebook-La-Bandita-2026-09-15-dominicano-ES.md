@@ -1,6 +1,6 @@
 # Publicación 3 — Verificación de Desarrolladores: 15 días para el hito y el reloj hacia 2027
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Medición de hoy, sin anestesia: de los 0 repos que esta pieza enlaza, ninguno respondió vivo (ningún repo enlazado). Abajo queda cada uno firmado con el estado exacto que devolvió.
 
@@ -25,4 +25,4 @@ Medición de hoy, sin anestesia: de los 0 repos que esta pieza enlaza, ninguno r
 
 .
 
-💓 0 repos y 10 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 0 vivos, 0 firmados arriba con su estado.
+💓 0 repos y 10 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 0 vivos, 0 firmados arriba con su estado.

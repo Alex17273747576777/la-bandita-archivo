@@ -1,6 +1,6 @@
 *Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que ya está corriendo*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **RikkaApps/Shizuku** encabeza esta entrega con ★32.384 medidos hoy: «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». La pieza cita 15 repos (14 vivos) y 10 empujaron en los últimos 30 días. Le sigue **ImranR98/Obtainium** (★21.019): «Get Android app updates straight from the source.». Temas que se repiten en el grupo: android, android-app, android-application, apk.
 
@@ -100,4 +100,4 @@ Empieza por las bajas: **droidify/client** (caído (404)) no contestaron hoy. El
 
 REV|)404( odíac — tneilc/yfidiord=1|REV|81-60-5202 — ukuzihS/sppAakkiR=2|REV|)52-01-6202( 3.7.1v — muiniatbO/89RnarmI=3
 
-💓 15 repos y 18 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 1 firmado arriba con su estado.
+💓 15 repos y 18 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 1 firmado arriba con su estado.

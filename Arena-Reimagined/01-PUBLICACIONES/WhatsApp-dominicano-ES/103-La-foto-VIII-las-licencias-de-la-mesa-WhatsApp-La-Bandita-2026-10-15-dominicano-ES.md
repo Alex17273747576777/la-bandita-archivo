@@ -1,8 +1,8 @@
 *Toda foto esconde un contrato: quién puede mirar, quién puede copiar, quién puede construir encima — esta piez*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 19 repos, 19 vivos. El mayor es **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **open-webui/open-webui** (★157.172): «User-friendly AI Interface (Supports Ollama, OpenAI API, ...)». Con actividad en los últimos 30 días: 18 de 19. Temas que se repiten en el grupo: ad-blocker, ai, ai-companion, ai-vtuber.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 19 repos, 19 vivos. El mayor es **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **open-webui/open-webui** (★157.172): «User-friendly AI Interface (Supports Ollama, OpenAI API, ...)». Con actividad en los últimos 30 días: 18 de 19. Temas que se repiten en el grupo: ad-blocker, ai, ai-companion, ai-vtuber.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -99,4 +99,4 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — revres/duolctxen=2|REV|)6202-tco-92 ,oper us ed otxet núges( DSB=3
 
-💓 19 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 19 vivos, 0 firmados arriba con su estado.
+💓 19 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 19 vivos, 0 firmados arriba con su estado.

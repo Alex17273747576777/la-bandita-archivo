@@ -1,6 +1,6 @@
 *42 — EL FARO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **celzero/rethink-app** encabeza esta entrega con ★5.810 medidos hoy: «DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android.». La pieza cita 2 repos (2 vivos) y 1 empujaron en los últimos 30 días. Le sigue **serverless-dns/serverless-dns** (★3.832): «The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io». Temas que se repiten en el grupo: adblock, android, android-app, android-application.
 
@@ -32,4 +32,4 @@ Pulso tranquilo: lo último que se movió fue **celzero/rethink-app**, hace 5 d�
 
 REV|)31-01-6202( 8.5.0v — ppa-knihter/orezlec=1|REV|018.5★ — ppa-knihter/orezlec=2|REV|62-01-6202 — ppa-knihter/orezlec=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

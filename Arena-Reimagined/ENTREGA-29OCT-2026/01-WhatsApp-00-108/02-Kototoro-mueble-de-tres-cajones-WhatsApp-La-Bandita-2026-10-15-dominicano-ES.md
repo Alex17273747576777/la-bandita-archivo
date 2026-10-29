@@ -1,6 +1,6 @@
 *Kototoro: el mueble de tres cajones que hoy volvió a hornear*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **Kototoro-app/Kototoro** encabeza esta entrega con ★653 medidos hoy: «Manga, Novel, and Video reader for Android». La pieza cita 3 repos (3 vivos) y 3 empujaron en los últimos 30 días. Le sigue **skepsun/kototoro-parsers** (★17): «Manga parsers library for Kotlin/JVM and Android».
 
@@ -37,4 +37,4 @@ Hay release de esta semana: **Kototoro-app/Kototoro** publicó v2.3.4 (2026-10-2
 
 REV|0.3-LPG=1|REV|)92-01-6202( 4.3.2v — orototoK/ppa-orototoK=2|REV|356★ — orototoK/ppa-orototoK=3
 
-💓 3 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 1 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

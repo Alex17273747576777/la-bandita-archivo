@@ -1,6 +1,6 @@
 # Publicación 40 — El estudio: lectores de escritorio — la puerta Lectura III
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 11 activos este mes. Manda **Anxcye/anx-reader** (★9.094): «Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused.». Le sigue **koharu-rs/koharu** (★6.539): «ML-powered manga translator, written in Rust.». Temas que se repiten en el grupo: android, annas-archive, books, comic.
 
@@ -61,4 +61,4 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 11 activos este mes. Mand
 
 **LagradOst/QuickNovel** trae la novedad del grupo, su release v3.8.1 (2026-10-26). **LagradOst/QuickNovel** firmó la release de fecha más reciente (v3.8.1 (2026-10-26)) de las 12 del grupo; legalmente el grupo se reparte así: MIT ×4, GPL-3.0 ×4, Apache-2.0 ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; la actividad más fresca es de **edrlab/thorium-reader** (hace 2 días); **dstark5/Openlib** no se mueve desde el 2026-01-18.
 
-💓 13 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.
+💓 13 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.

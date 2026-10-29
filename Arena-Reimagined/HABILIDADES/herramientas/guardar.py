@@ -32,9 +32,9 @@ with tempfile.TemporaryDirectory(dir='/home/user') as td:  # /tmp se llena con c
     ev=destino/'02-ARCHIVO/evidencia-29oct'
     if ev.exists(): shutil.rmtree(ev)
     if (MIR/'02-ARCHIVO/evidencia-29oct').exists(): shutil.copytree(MIR/'02-ARCHIVO/evidencia-29oct',ev)
-    ev31=destino/'02-ARCHIVO/evidencia-31oct'
+    ev31=destino/'02-ARCHIVO/evidencia-29oct-rehechura'
     if ev31.exists(): shutil.rmtree(ev31)
-    if (MIR/'02-ARCHIVO/evidencia-31oct').exists(): shutil.copytree(MIR/'02-ARCHIVO/evidencia-31oct',ev31)
+    if (MIR/'02-ARCHIVO/evidencia-29oct-rehechura').exists(): shutil.copytree(MIR/'02-ARCHIVO/evidencia-29oct-rehechura',ev31)
     viejo=destino/'02-ARCHIVO/_rearm-29oct'
     if viejo.exists(): shutil.rmtree(viejo)
     for doc in ['LEEME-ESTRUCTURA.md']:

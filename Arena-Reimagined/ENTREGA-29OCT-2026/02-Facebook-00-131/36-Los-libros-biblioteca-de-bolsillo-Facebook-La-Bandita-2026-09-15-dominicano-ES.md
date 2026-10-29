@@ -1,6 +1,6 @@
 # Publicación 36 — Los libros: la biblioteca de bolsillo — tinta, puentes y el estante social
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **koreader/koreader** encabeza esta entrega con ★30.737 medidos hoy: «An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices». La pieza cita 10 repos (10 vivos) y 9 empujaron en los últimos 30 días. Le sigue **kovidgoyal/calibre** (★26.283): «The official source code repository for the calibre ebook manager». Temas que se repiten en el grupo: android, android-app, annotations, app.
 
@@ -47,4 +47,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-28). Con releases publicadas hay 10; manda la de **foobnix/LibreraReader** (10.0.19 (2026-10-28)); el parte legal dice AGPL-3.0 ×3, GPL-3.0 ×3, GPL-3.0 (según texto de su repo, 29-oct-2026) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **koreader/koreader** hace 2 días.
 
-💓 10 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.
+💓 10 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.

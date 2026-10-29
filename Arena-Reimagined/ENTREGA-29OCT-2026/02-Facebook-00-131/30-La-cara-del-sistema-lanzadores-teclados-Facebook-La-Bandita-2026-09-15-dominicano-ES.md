@@ -1,6 +1,6 @@
 # Publicación 30 — La cara del sistema: lanzadores, fondos, teclados y personalización
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **LawnchairLauncher/lawnchair** encabeza esta entrega con ★13.817 medidos hoy: «No clever tagline needed.». La pieza cita 11 repos (11 vivos) y 8 empujaron en los últimos 30 días. Le sigue **florisboard/florisboard** (★8.732): «An open-source keyboard for Android which respects your privacy. Currently in beta.». Temas que se repiten en el grupo: accent-color, android, app, color-scheme.
 
@@ -48,4 +48,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **you-apps/WallYou** publicó v17.1 (2026-10-29). El más quieto es **openboard-team/openboard**, parado desde el 2024-05-16; con releases publicadas hay 11; manda la de **you-apps/WallYou** (v17.1 (2026-10-29)); el parte legal dice GPL-3.0 ×8, Apache-2.0 ×2, Apache-2.0 (según texto de su repo, 29-oct-2026) ×1; lo último empujado lo firmó **LawnchairLauncher/lawnchair** hace 2 días.
 
-💓 11 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.
+💓 11 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 # Publicación 7 — Usagi está viva: la cadena Kotatsu → Yukimi → Usagi y los cuatro vivos del árbol
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **KotatsuApp/Kotatsu** encabeza esta entrega con ★8.943 medidos hoy: «Manga reader for Android». La pieza cita 11 repos (11 vivos) y 5 empujaron en los últimos 30 días. Le sigue **Kotatsu-Redo/Kotatsu-Redo** (★973): «Manga reader for Android». Temas que se repiten en el grupo: android, comic, comics, core.
 
@@ -52,4 +52,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **Kototoro-app/Kototoro** publicó v2.3.4 (2026-10-29). El parte legal dice GPL-3.0 ×9, Apache-2.0 ×1, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivados por su autor: **KotatsuApp/Kotatsu**, **UsagiApp/core-exts**, **UsagiApp/core-parsers**; lo último empujado lo firmó **UsagiApp/Usagi** hace 2 días; el más quieto es **KotatsuApp/Kotatsu**, parado desde el 2025-11-04; con releases publicadas hay 9; manda la de **Kototoro-app/Kototoro** (v2.3.4 (2026-10-29)).
 
-💓 11 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.
+💓 11 repos y 1 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.

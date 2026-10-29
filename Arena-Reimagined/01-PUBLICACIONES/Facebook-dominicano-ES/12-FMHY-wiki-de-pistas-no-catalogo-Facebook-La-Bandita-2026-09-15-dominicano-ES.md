@@ -1,6 +1,6 @@
 # Publicación 12 — FMHY es una wiki de pistas, no un catálogo: discovery ≠ verificación
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **mihonapp/mihon** encabeza esta entrega con ★24.839 medidos hoy: «Free and open source manga reader for Android». La pieza cita 2 repos (2 vivos) y 1 empujaron en los últimos 30 días. Le sigue **fmhy/FMHY** (★15.319): «https://fmhy.net/». Temas que se repiten en el grupo: android, freemediaheckyeah, kotlin, manga.
 
@@ -24,4 +24,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **mihonapp/mihon** publicó v0.21.3 (2026-10-25). Con releases publicadas hay 1; manda la de **mihonapp/mihon** (v0.21.3 (2026-10-25)); el parte legal dice Apache-2.0 ×1, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **mihonapp/mihon** hace 5 días.
 
-💓 2 repos y 3 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 3 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

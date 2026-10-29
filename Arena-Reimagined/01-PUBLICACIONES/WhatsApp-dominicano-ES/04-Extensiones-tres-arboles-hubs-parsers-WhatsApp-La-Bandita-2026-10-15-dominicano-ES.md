@@ -1,6 +1,6 @@
 *Los almacenes de las bombillas: extensiones, hubs vivos y la feria donde venden funditas que no encienden*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **keiyoushi/extensions** encabeza esta entrega con ★15.369 medidos hoy: «Extension repository for Mihon and variants». La pieza cita 11 repos (11 vivos) y 8 empujaron en los últimos 30 días. Le sigue **keiyoushi/extensions-source** (★4.831): «Source code of extensions in https://github.com/keiyoushi/extensions». Temas que se repiten en el grupo: android, aniyomi, baozimanhua, booru.
 
@@ -70,4 +70,4 @@ Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-2
 
 REV|)92-01-6202( 50c6fbd — snoisnetxe/ihsuoyiek=1|REV|92-01-6202 — snoisnetxe/ihsuoyiek=2|REV|60-90-5202 — ecruos/cni-QGZ=3
 
-💓 11 repos y 3 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.
+💓 11 repos y 3 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.

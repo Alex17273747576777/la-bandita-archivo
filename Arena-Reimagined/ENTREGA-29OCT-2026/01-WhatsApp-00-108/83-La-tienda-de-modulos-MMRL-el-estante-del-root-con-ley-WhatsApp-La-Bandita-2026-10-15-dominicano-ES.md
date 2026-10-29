@@ -1,6 +1,6 @@
 *83 — LA TIENDA DE MÓDULOS*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **MMRLApp/MMRL** encabeza esta entrega con ★2.223 medidos hoy: «A app for managing, sharing, and exploring Magisk modules across repositories». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: android, apatch, compose, kernelsu.
 
@@ -28,4 +28,4 @@ Pulso tranquilo: lo último que se movió fue **MMRLApp/MMRL**, hace 6 días. El
 
 REV|)80-30-6202( 69243v — LRMM/ppALRMM=1|REV|52-01-6202 — LRMM/ppALRMM=2|REV|322.2★ — LRMM/ppALRMM=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

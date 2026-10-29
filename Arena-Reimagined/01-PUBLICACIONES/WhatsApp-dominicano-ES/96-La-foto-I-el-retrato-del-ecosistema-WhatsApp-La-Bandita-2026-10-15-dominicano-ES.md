@@ -1,6 +1,6 @@
 *La foto del barrio no se pinta: se mide.*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **ollama/ollama** encabeza esta entrega con ★185.239 medidos hoy: «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». La pieza cita 4 repos (4 vivos) y 4 empujaron en los últimos 30 días. Le sigue **localsend/localsend** (★96.457): «An open-source cross-platform alternative to AirDrop». Temas que se repiten en el grupo: adventure-engine, adventure-games, dart, deepseek.
 
@@ -40,4 +40,4 @@ Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-2
 
 REV|92-01-6202 — mvmmucs/mvmmucs=1|REV|0.2-ehcapA=2|REV|932.581★ — amallo/amallo=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

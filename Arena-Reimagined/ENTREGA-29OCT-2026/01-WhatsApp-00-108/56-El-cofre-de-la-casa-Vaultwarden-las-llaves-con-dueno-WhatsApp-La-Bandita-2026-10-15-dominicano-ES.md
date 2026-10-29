@@ -1,6 +1,6 @@
 *56 — EL COFRE DE LA CASA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **dani-garcia/vaultwarden** encabeza esta entrega con ★69.895 medidos hoy: «Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: bitwarden, bitwarden-rs, docker, rocket.
 
@@ -28,4 +28,4 @@ Pulso tranquilo: lo último que se movió fue **dani-garcia/vaultwarden**, hace 
 
 REV|82-01-6202 — nedrawtluav/aicrag-inad=1|REV|)50-01-6202( 4.73.1 — nedrawtluav/aicrag-inad=2|REV|598.96★ — nedrawtluav/aicrag-inad=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

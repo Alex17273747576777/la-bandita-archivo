@@ -1,6 +1,6 @@
 *30 — LA CARA DE LA CASA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 5 repos de la pieza: 5 vivos, 5 activos este mes. Manda **LawnchairLauncher/lawnchair** (★13.817): «No clever tagline needed.». Le sigue **florisboard/florisboard** (★8.732): «An open-source keyboard for Android which respects your privacy. Currently in beta.». Temas que se repiten en el grupo: android, android-ime, android-keyboard, app.
 
@@ -44,4 +44,4 @@ El grupo respira despacio; su empuje más reciente, **LawnchairLauncher/lawnchai
 
 REV|92-01-6202 — riahcnwal/rehcnuaLriahcnwaL=1|REV|0.2-ehcapA=2|REV|718.31★ — riahcnwal/rehcnuaLriahcnwaL=3
 
-💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.
+💓 5 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

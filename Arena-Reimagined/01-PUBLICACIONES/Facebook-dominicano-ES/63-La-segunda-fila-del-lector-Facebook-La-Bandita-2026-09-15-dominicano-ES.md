@@ -1,6 +1,6 @@
 # Publicación 63 — La segunda fila del lector
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **floccusaddon/floccus** encabeza esta entrega con ★8.603 medidos hoy: «:cloud: Sync your bookmarks privately across browsers and devices». La pieza cita 12 repos (12 vivos) y 8 empujaron en los últimos 30 días. Le sigue **samuelclay/NewsBlur** (★7.674): «NewsBlur is a personal news reader that brings people together to talk about the world. A new sound of an old instrument.». Temas que se repiten en el grupo: android, android-app, atom, bookmark.
 
@@ -58,4 +58,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **wikimedia/apps-android-wikipedia** publicó latest (2026-10-29). Con releases publicadas hay 12; manda la de **wikimedia/apps-android-wikipedia** (latest (2026-10-29)); el parte legal dice GPL-3.0 ×6, Apache-2.0 ×2, MPL-2.0 ×1; lo último empujado lo firmó **samuelclay/NewsBlur** hace 2 días.
 
-💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.
+💓 12 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.

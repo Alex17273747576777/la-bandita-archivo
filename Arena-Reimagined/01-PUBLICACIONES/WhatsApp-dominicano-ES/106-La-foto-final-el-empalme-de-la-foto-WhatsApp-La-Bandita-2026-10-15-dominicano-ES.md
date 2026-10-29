@@ -1,6 +1,6 @@
 *Diez cuadros después, la cámara baja: las seis fotos ya son una.*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **localsend/localsend** encabeza esta entrega con ★96.457 medidos hoy: «An open-source cross-platform alternative to AirDrop». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: dart, file-sharing, flutter, flutter-apps.
 
@@ -28,4 +28,4 @@ Pulso tranquilo: lo último que se movió fue **localsend/localsend**, hace 2 d�
 
 REV|92-01-6202 — dneslacol/dneslacol=1|REV|754.69★ — dneslacol/dneslacol=2|REV|)12-80-6202( 2.81.1v — dneslacol/dneslacol=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

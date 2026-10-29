@@ -1,6 +1,6 @@
 *GLTools no se receta: el letrero que sobrevivió a su propia muerte, el spoof de GPU explicado sin teatro y el*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 0 activos este mes. Manda **i-Taylo/iUnlockerGL** (★108): «iUnlocker GLTool is a Magisk module designed to spoof GPU information, allowing users to modify GPU informations for unlocking graphics in games and testing.». Le sigue **darek2015/GLTools** (★12): «Modified version of official GLTools to add support Magisk 20+ compability.». Temas que se repiten en el grupo: android, android-app, android-development, android-gpu.
 
@@ -31,4 +31,4 @@ El grupo respira despacio; su empuje más reciente, **i-Taylo/iUnlockerGL**, fue
 
 REV|0.2-LPG=1|REV|92-21-5202 — LGrekcolnUi/olyaT-i=2|REV|)92-21-5202( 4r-5.1.1v — LGrekcolnUi/olyaT-i=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

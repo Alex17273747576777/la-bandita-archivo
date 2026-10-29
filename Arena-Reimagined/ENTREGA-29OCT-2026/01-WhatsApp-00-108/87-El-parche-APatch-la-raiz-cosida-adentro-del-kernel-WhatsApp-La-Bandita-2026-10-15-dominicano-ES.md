@@ -1,8 +1,8 @@
 *87 — EL PARCHE*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **bmax121/APatch** (★8.104): «The patching of Android kernel and Android system». Le sigue **awesome-android-root/awesome-android-root** (★5.568): «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: android, android-app, android-root, android-tweaks.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **bmax121/APatch** (★8.104): «The patching of Android kernel and Android system». Le sigue **awesome-android-root/awesome-android-root** (★5.568): «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: android, android-app, android-root, android-tweaks.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -32,4 +32,4 @@ La noticia fresca es de **awesome-android-root/awesome-android-root**: release 6
 
 REV|TIM=1|REV|82-01-6202 — hctaPA/121xamb=2|REV|401.8★ — hctaPA/121xamb=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

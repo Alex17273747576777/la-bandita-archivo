@@ -1,6 +1,6 @@
 *La cámara baja del censo y se cuelga del cuello del barrio: ahora toca la foto que sí vivimos.*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **immich-app/immich** (★117.612): «High performance self-hosted photo and video management solution.». Le sigue **photoprism/photoprism** (★40.370): «AI-Powered Photos App 🌈💎✨». Temas que se repiten en el grupo: ai, android, backup-tool, flutter.
 
@@ -36,4 +36,4 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 REV|)42-01-6202( 1.41.1 — yrellaG/grOyfissoF=1|REV|92-01-6202 — msirpotohp/msirpotohp=2|REV|216.711★ — hcimmi/ppa-hcimmi=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

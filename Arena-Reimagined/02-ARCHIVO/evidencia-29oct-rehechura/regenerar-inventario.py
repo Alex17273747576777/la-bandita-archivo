@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenera inventario-enlaces.json desde las piezas actuales (31-oct-2026).
+"""Regenera inventario-enlaces.json desde las piezas actuales (29-oct-2026).
 El inventario original (29-oct) se perdió con la mordida en las tres fuentes
 (proyecto, espejo y remoto). Las piezas rehechas conservan los mismos enlaces
 —solo cambió la redacción—, así que el inventario se reconstruye extrayendo de

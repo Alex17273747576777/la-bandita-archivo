@@ -1,6 +1,6 @@
 # Publicación 109 — El cine sin taquilla: Orvid y el video privado con Tor
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **TeamNewPipe/NewPipe** encabeza esta entrega con ★40.354 medidos hoy: «A libre lightweight streaming front-end for Android.». La pieza cita 4 repos (4 vivos) y 4 empujaron en los últimos 30 días. Le sigue **libre-tube/LibreTube** (★12.913): «An alternative frontend for YouTube, for Android.». Temas que se repiten en el grupo: 4k, android, android-app, anonymity.
 
@@ -25,4 +25,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **mankidev/orvid** publicó v0.4.22 (2026-10-29). Con releases publicadas hay 3; manda la de **mankidev/orvid** (v0.4.22 (2026-10-29)); el parte legal dice GPL-3.0 ×4; lo último empujado lo firmó **mankidev/orvid** hace 2 días.
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

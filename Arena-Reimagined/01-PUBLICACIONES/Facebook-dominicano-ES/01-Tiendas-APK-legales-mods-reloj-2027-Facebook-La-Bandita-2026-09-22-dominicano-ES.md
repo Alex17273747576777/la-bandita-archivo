@@ -1,6 +1,6 @@
 # Publicación 1 — 🟦 TIENDAS DE APK: EL MERCADO CON LETRERO, EL BUHONERO DEL MOD Y EL CALENDARIO QUE NO ESPERA
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **RikkaApps/Shizuku** encabeza esta entrega con ★32.384 medidos hoy: «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». La pieza cita 13 repos (12 vivos) y 9 empujaron en los últimos 30 días. Le sigue **ImranR98/Obtainium** (★21.019): «Get Android app updates straight from the source.». Temas que se repiten en el grupo: android, android-application, apk, apk-installer.
 
@@ -79,4 +79,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Empieza por las bajas: **droidify/client** (caído (404)) no contestaron hoy. Del resto, el que más cerca empujó es **timschneeb/ShizuStore** (hace 2 días); el más quieto es **RikkaApps/Shizuku**, parado desde el 2025-06-18; con releases publicadas hay 11; manda la de **ImranR98/Obtainium** (v1.7.3 (2026-10-25)); el parte legal dice GPL-3.0 ×9, Apache-2.0 ×2, MIT ×1.
 
-💓 13 repos y 18 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 1 firmado arriba con su estado.
+💓 13 repos y 18 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 12 vivos, 1 firmado arriba con su estado.

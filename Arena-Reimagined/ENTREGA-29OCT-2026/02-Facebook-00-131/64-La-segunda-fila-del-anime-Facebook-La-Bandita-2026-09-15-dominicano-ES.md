@@ -1,6 +1,6 @@
 # Publicación 64 — La segunda fila del anime
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 13 activos este mes. Manda **immich-app/immich** (★117.612): «High performance self-hosted photo and video management solution.». Le sigue **yuliskov/SmartTube** (★35.709): «Browse media content with your own rules on Android TV». Temas que se repiten en el grupo: android, android-camera, android-tv, android-tv-box.
 
@@ -57,4 +57,4 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 13 activos este mes. Mand
 
 **markusfisch/BinaryEye** trae la novedad del grupo, su release 1.75.6 (2026-10-27). Legalmente el grupo se reparte así: MIT ×4, GPL-3.0 ×3, Apache-2.0 ×2; la actividad más fresca es de **immich-app/immich** (hace 2 días); **markusfisch/BinaryEye** firmó la release de fecha más reciente (1.75.6 (2026-10-27)) de las 12 del grupo.
 
-💓 13 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.
+💓 13 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.

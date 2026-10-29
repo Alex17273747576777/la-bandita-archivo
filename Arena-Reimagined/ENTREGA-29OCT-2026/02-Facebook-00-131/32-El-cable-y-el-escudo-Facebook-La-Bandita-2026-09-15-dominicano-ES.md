@@ -1,6 +1,6 @@
 # Publicación 32 — El cable y el escudo: los que conectan, actualizan y defienden
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **emanuele-f/PCAPdroid** encabeza esta entrega con ★5.010 medidos hoy: «No-root network monitor, firewall and PCAP dumper for Android». La pieza cita 10 repos (10 vivos) y 6 empujaron en los últimos 30 días. Le sigue **M66B/NetGuard** (★3.949): «A simple way to block access to the internet per app». Temas que se repiten en el grupo: adb, android, android-application, bat.
 
@@ -48,4 +48,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Pulso tranquilo: lo último que se movió fue **emanuele-f/PCAPdroid**, hace 2 días. Con releases publicadas hay 9; manda la de **badabing2005/PixelFlasher** (v10.1.1.1 (2026-10-06)); el parte legal dice GPL-3.0 ×7, sin archivo LICENSE en su repo (verificado) ×2, LGPL-3.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; el más quieto es **Androidacy/MagiskModuleManager**, parado desde el 2026-04-09.
 
-💓 10 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.
+💓 10 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.

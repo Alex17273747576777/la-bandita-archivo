@@ -1,6 +1,6 @@
 # Publicación 26 — El cajón del muro: candados, adaptadores y el misceláneo verificado
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **iptv-org/iptv** encabeza esta entrega con ★142.729 medidos hoy: «Collection of publicly available IPTV channels from all over the world». La pieza cita 22 repos (22 vivos) y 20 empujaron en los últimos 30 días. Le sigue **nexu-io/open-design** (★104.863): «The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your…». Temas que se repiten en el grupo: adb, agent-skills, ai, ai-code-analysis.
 
@@ -95,4 +95,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **Awerkori/manga-extensoes** publicó f4a374c (2026-10-29). Con releases publicadas hay 20; manda la de **Awerkori/manga-extensoes** (f4a374c (2026-10-29)); el parte legal dice GPL-3.0 ×7, MIT ×4, Apache-2.0 ×3; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **iptv-org/iptv** hace 2 días.
 
-💓 22 repos y 2 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 22 vivos, 0 firmados arriba con su estado.
+💓 22 repos y 2 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 22 vivos, 0 firmados arriba con su estado.

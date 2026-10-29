@@ -1,6 +1,6 @@
 *86 — LA FÁBRICA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **j-hc/revanced-magisk-module** (★7.705): «Extensive ReVanced builder. Builds both modules and APKs. Updated daily.». Temas que se repiten en el grupo: magisk, module, morphe, revanced.
 
@@ -28,4 +28,4 @@ Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda *
 
 REV|92-01-6202 — eludom-ksigam-decnaver/ch-j=1|REV|507.7★ — eludom-ksigam-decnaver/ch-j=2|REV|)92-01-6202( 22112202 — eludom-ksigam-decnaver/ch-j=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

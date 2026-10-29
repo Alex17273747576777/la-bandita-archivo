@@ -1,6 +1,6 @@
 # Publicación 44 — Los pequeños: las casas que no hacen ruido
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **Marco-9456/AniSync** encabeza esta entrega con ★158 medidos hoy: «A modern, native Android client for AniList built with Jetpack Compose, Material 3, and Clean Architecture.». La pieza cita 13 repos (13 vivos) y 7 empujaron en los últimos 30 días. Le sigue **AsrOfficialDev/ReDantotsu** (★152): «ReDantotsu is a Remake version of the original Dantotsu app. It is built on a foundation that has been tested and works well. ReDantotsu features a new user interface,…». Temas que se repiten en el grupo: android, android-app, android-application, android-tv.
 
@@ -59,4 +59,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **Paduu29/KomaStream** publicó v3.17 (2026-10-26). Archivado por su autor: **AsrOfficialDev/ReDantotsu**; lo último empujado lo firmó **serene-brew/kaizen-app** hace 2 días; con releases publicadas hay 13; manda la de **Paduu29/KomaStream** (v3.17 (2026-10-26)); el parte legal dice sin archivo LICENSE en su repo (verificado) ×4, GPL-3.0 ×3, AGPL-3.0 ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
 
-💓 13 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.
+💓 13 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.

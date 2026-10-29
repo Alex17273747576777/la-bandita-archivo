@@ -1,6 +1,6 @@
 # Publicación 4 — ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR, MEDIDA CON PLACA Y HORA ESTA MAÑANA
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda **keiyoushi/extensions** (★15.369): «Extension repository for Mihon and variants». Le sigue **keiyoushi/extensions-source** (★4.831): «Source code of extensions in https://github.com/keiyoushi/extensions». Temas que se repiten en el grupo: android, baozimanhua, copy20, copymanga.
 
@@ -33,4 +33,4 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda *
 
 **cuong-tran/manga-repo** trae la novedad del grupo, su release bee7e8a (2026-10-29). Legalmente el grupo se reparte así: sin archivo LICENSE en su repo (verificado) ×3, Apache-2.0 ×3; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; la actividad más fresca es de **yuzono/anime-extensions** (hace 2 días); **cuong-tran/manga-repo** firmó la release de fecha más reciente (bee7e8a (2026-10-29)) de las 3 del grupo.
 
-💓 6 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.
+💓 6 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 *En el taller de La Bandita la vara manda y el compaya sabe.*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **RikkaApps/Shizuku** encabeza esta entrega con ★32.384 medidos hoy: «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». La pieza cita 3 repos (3 vivos) y 2 empujaron en los últimos 30 días. Le sigue **awesome-android-root/awesome-android-root** (★5.568): «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides». Temas que se repiten en el grupo: adb, android, android-app, android-root.
 
@@ -35,4 +35,4 @@ Hay release de esta semana: **awesome-android-root/awesome-android-root** public
 
 REV|483.23★ — ukuzihS/sppAakkiR=1|REV|82-01-6202 — redroceRllaCuzihS/demustik=2|REV|TIM=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

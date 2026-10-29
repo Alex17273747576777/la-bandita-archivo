@@ -1,6 +1,6 @@
 # Publicación 71 — Las puertas calladas: los ceros de verdad
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 8 repos de la pieza: 7 vivos, 3 activos este mes. Manda **KamiYomu/KamiYomu** (★150): «A self-hosted, extensible manga reader and download tool with plug-in support.». Le sigue **vauvenal5/yaga** (★2): «Nextcloud Yaga - A Nextcloud first gallery app for Android.». Temas que se repiten en el grupo: crawler, crawler-agents, csharp, dotnet.
 
@@ -35,4 +35,4 @@ Pulso de hoy sobre los 8 repos de la pieza: 7 vivos, 3 activos este mes. Manda *
 
 Lo primero, lo que se cayó: **inaccurate-hotelplan289/HomeLabSetup** (caído (404)). Del resto, el que más cerca empujó es **vauvenal5/yaga** (hace 3 días); **thiagooo0/EHHelper** no se mueve desde el 2024-01-13; **ulightm111/boky-fivavahana-ion** firmó la release de fecha más reciente (v2.6.1 (2026-10-14)) de las 6 del grupo; legalmente el grupo se reparte así: MIT ×2, AGPL-3.0 ×2, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
 
-💓 8 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 7 vivos, 1 firmado arriba con su estado.
+💓 8 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 7 vivos, 1 firmado arriba con su estado.

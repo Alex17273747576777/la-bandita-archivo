@@ -1,6 +1,6 @@
 *73 — EL SALÓN DEL CUBO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **dolphin-emu/dolphin** encabeza esta entrega con ★15.742 medidos hoy: «Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: cpp, emulation, emulator, gamecube.
 
@@ -26,4 +26,4 @@ Pulso tranquilo: lo último que se movió fue **dolphin-emu/dolphin**, hace 6 d�
 
 REV|247.51★ — nihplod/ume-nihplod=1|REV|52-01-6202 — nihplod/ume-nihplod=2
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

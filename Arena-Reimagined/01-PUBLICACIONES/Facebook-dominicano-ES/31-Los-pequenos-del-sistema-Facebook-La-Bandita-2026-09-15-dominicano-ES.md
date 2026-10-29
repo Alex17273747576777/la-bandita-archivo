@@ -1,8 +1,8 @@
 # Publicación 31 — Los pequeños del sistema: una sola cosa, hecha bien
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 12 vivos. El mayor es **Hamza417/Inure** (★1.980): «An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a…». Le sigue **axel358/smartdock** (★1.458): «A user-friendly desktop mode launcher that offers a modern and customizable user interface». Con actividad en los últimos 30 días: 6 de 12. Temas que se repiten en el grupo: accessibility-service, adaptive-hz, adb, android.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 12 repos, 12 vivos. El mayor es **Hamza417/Inure** (★1.980): «An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a…». Le sigue **axel358/smartdock** (★1.458): «A user-friendly desktop mode launcher that offers a modern and customizable user interface». Con actividad en los últimos 30 días: 6 de 12. Temas que se repiten en el grupo: accessibility-service, adaptive-hz, adb, android.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -55,4 +55,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 12 vivo
 
 La noticia fresca es de **Xitee1/sleep-timer**: release v1.4.0 (2026-10-27). El empuje más reciente es de **mlm-games/BatStats** (hace 2 días); **C10udburst/Grayscaler** duerme desde el 2025-02-18; 12 repos tienen release y la más reciente es la de **Xitee1/sleep-timer** (v1.4.0 (2026-10-27)); en licencias: GPL-3.0 ×8, Apache-2.0 ×3, MIT ×1.
 
-💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.
+💓 12 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.

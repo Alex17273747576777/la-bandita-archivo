@@ -1,6 +1,6 @@
 # Publicación 3 — 🟦 OCHO DÍAS PARA EL CENSO: LA VERIFICACIÓN DE DESARROLLADORES, CONTADA CON CALMA
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **woheller69/FreeDroidWarn** (★3.716).
 
@@ -29,4 +29,4 @@ Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda *
 
 El grupo respira despacio; su empuje más reciente, **woheller69/FreeDroidWarn**, fue hace 3 días. **woheller69/FreeDroidWarn** firmó la release de fecha más reciente (V1.14 (2026-09-09)) de las 1 del grupo; legalmente el grupo se reparte así: Apache-2.0 ×1.
 
-💓 1 repos y 13 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 13 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

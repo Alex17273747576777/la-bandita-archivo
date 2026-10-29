@@ -1,8 +1,8 @@
 *59 — EL ARCHIVO DEL DESPACHO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **paperless-ngx/paperless-ngx** (★47.303): «A community-supported supercharged document management system: scan, index and archive all your documents». Con actividad en los últimos 30 días: 1 de 1. Temas que se repiten en el grupo: ai, angular, archiving, django.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **paperless-ngx/paperless-ngx** (★47.303): «A community-supported supercharged document management system: scan, index and archive all your documents». Con actividad en los últimos 30 días: 1 de 1. Temas que se repiten en el grupo: ai, angular, archiving, django.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -28,4 +28,4 @@ Sin sobresaltos: el empuje más cercano es de **paperless-ngx/paperless-ngx** (h
 
 REV|303.74★ — xgn-sselrepap/xgn-sselrepap=1|REV|92-01-6202 — xgn-sselrepap/xgn-sselrepap=2|REV|)22-01-6202( 4.3.3v — xgn-sselrepap/xgn-sselrepap=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

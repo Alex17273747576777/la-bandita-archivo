@@ -1,6 +1,6 @@
 *66 — EL TALLER DE BOLSILLO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 5 repos de la pieza: 5 vivos, 4 activos este mes. Manda **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Temas que se repiten en el grupo: android, csharp, deepseek, dotnet.
 
@@ -44,4 +44,4 @@ Pulso de hoy sobre los 5 repos de la pieza: 5 vivos, 4 activos este mes. Manda *
 
 REV|0.2-LPM=1|REV|932.581★ — amallo/amallo=2|REV|92-01-6202 — segakcap-xumret/xumret=3
 
-💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.
+💓 5 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

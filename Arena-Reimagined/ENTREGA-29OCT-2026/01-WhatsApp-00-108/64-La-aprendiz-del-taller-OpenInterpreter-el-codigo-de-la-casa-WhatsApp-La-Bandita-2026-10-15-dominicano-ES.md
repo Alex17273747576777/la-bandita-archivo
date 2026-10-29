@@ -1,8 +1,8 @@
 *64 — LA APRENDIZ DEL TALLER*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **openinterpreter/openinterpreter** (★68.723): «A coding agent for open models like Kimi K3 and GLM 5.3». Con actividad en los últimos 30 días: 3 de 3. Temas que se repiten en el grupo: acp, coding-agent, deepseek, gemma.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **openinterpreter/openinterpreter** (★68.723): «A coding agent for open models like Kimi K3 and GLM 5.3». Con actividad en los últimos 30 días: 3 de 3. Temas que se repiten en el grupo: acp, coding-agent, deepseek, gemma.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -36,4 +36,4 @@ La noticia fresca es de **ollama/ollama**: release v0.40.13 (2026-10-28). El emp
 
 REV|932.581★ — amallo/amallo=1|REV|)82-01-6202( 31.04.0v — amallo/amallo=2|REV|92-01-6202 — amallo/amallo=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

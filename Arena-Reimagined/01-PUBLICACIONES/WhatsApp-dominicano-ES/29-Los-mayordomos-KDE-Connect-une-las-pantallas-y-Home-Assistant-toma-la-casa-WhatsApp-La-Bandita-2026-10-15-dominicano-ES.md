@@ -1,6 +1,6 @@
 *29 — LOS MAYORDOMOS*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **home-assistant/android** encabeza esta entrega con ★4.012 medidos hoy: «Home Assistant Companion for Android». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **KDE/kdeconnect-android** (★1.491): «Native Android port of the KDE Connect Qt app». Temas que se repiten en el grupo: android, automotive, compose, hacktoberfest.
 
@@ -31,4 +31,4 @@ Pulso tranquilo: lo último que se movió fue **KDE/kdeconnect-android**, hace 2
 
 REV|210.4★ — diordna/tnatsissa-emoh=1|REV|0.2-LPG=2|REV|92-01-6202 — diordna-tcennocedk/EDK=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

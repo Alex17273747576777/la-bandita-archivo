@@ -1,8 +1,8 @@
 # Publicación 14 — [LA BANDITA · INFORMACIÓN PÚBLICA]
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos. El mayor es **phhusson/treble_experimentations** (★3.556): «Notes about tinkering with Android Project Treble». Le sigue **VegaBobo/DSU-Sideloader** (★2.344): «A simple app made to help users easily install GSIs via DSU's Android feature.». Con actividad en los últimos 30 días: 1 de 4.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos. El mayor es **phhusson/treble_experimentations** (★3.556): «Notes about tinkering with Android Project Treble». Le sigue **VegaBobo/DSU-Sideloader** (★2.344): «A simple app made to help users easily install GSIs via DSU's Android feature.». Con actividad en los últimos 30 días: 1 de 4.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -22,4 +22,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos.
 
 Sin sobresaltos: el empuje más cercano es de **R15Hi/Dsu-Multi-sideloader** (hace 16 días). 4 repos tienen release y la más reciente es la de **R15Hi/Dsu-Multi-sideloader** (v2.20 (2026-10-15)); en licencias: Apache-2.0 ×3, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivados por su autor: **phhusson/treble_experimentations**, **ponces/treble_aosp**; **VegaBobo/DSU-Sideloader** duerme desde el 2024-03-13.
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

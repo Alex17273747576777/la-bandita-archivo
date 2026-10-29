@@ -1,8 +1,8 @@
 *68 — LA CASA DE LOS PENSARES*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **huggingface/transformers** (★168.327): «🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: audio, deep-learning, deepseek, gemma.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **huggingface/transformers** (★168.327): «🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: audio, deep-learning, deepseek, gemma.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -32,4 +32,4 @@ La noticia fresca es de **huggingface/transformers**: release v5.22.0 (2026-10-2
 
 REV|0.2-ehcapA=1|REV|)92-01-6202( 0.22.5v — sremrofsnart/ecafgnigguh=2|REV|92-01-6202 — sremrofsnart/ecafgnigguh=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

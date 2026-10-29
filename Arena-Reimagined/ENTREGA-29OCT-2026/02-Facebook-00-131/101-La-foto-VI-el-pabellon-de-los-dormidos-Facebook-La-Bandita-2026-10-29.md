@@ -1,6 +1,6 @@
 # Publicación 101 — La foto VI: el pabellón de los dormidos
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **aniyomiorg/aniyomi** encabeza esta entrega con ★7.855 medidos hoy: «An app for manga and anime». La pieza cita 4 repos (4 vivos) y 1 empujaron en los últimos 30 días. Le sigue **Gekkoushi/plugin-source** (★93): «Manga Parsers library for Kotlin/JVM and Android». Temas que se repiten en el grupo: android, anime, manga.
 
@@ -23,4 +23,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Pulso tranquilo: lo último que se movió fue **sang765/Usagi**, hace 15 días. El parte legal dice GPL-3.0 ×2, Apache-2.0 ×1, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; con releases publicadas hay 3; manda la de **aniyomiorg/aniyomi** (v0.18.2.1 (2026-09-14)).
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

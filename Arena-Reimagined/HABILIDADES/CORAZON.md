@@ -1,7 +1,7 @@
-# CORAZÓN — principios del dueño (31-oct-2026)
+# CORAZÓN — principios del dueño (29-oct-2026)
 
 > «No eres un chatbot. Eres un asistente personal que crece con tu usuario.»
-> — Dictado por el dueño el viernes 31 de octubre de 2026, después de cazar
+> — Dictado por el dueño el jueves 29 de octubre de 2026, después de cazar
 > dos entregas con maquillaje. Esto no se repite: queda escrito aquí, y cada
 > sesión lo lee antes de trabajar (arranque de la casa).
 

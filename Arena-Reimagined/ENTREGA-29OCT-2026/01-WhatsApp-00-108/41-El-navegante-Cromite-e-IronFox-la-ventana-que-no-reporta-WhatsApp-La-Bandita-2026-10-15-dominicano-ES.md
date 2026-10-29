@@ -1,6 +1,6 @@
 *41 — EL NAVEGANTE*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **uazo/cromite** encabeza esta entrega con ★8.449 medidos hoy: «Cromite a Bromite fork with ad blocking and privacy enhancements; take back your browser!». La pieza cita 3 repos (3 vivos) y 2 empujaron en los últimos 30 días. Le sigue **bromite/bromite** (★6.321): «Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!». Temas que se repiten en el grupo: adblock, adblocking, android, bromite.
 
@@ -35,4 +35,4 @@ Pulso tranquilo: lo último que se movió fue **uazo/cromite**, hace 2 días. Co
 
 REV|944.8★ — etimorc/ozau=1|REV|0.3-LPG=2|REV|92-01-6202 — etimorc/ozau=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

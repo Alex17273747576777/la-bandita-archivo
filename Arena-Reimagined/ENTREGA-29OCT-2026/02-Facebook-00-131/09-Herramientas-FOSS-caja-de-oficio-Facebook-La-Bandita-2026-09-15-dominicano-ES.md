@@ -1,6 +1,6 @@
 # Publicación 9 — Herramientas FOSS: la caja de oficio, cada pieza con su fecha de afilado
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 15 repos de la pieza: 15 vivos, 12 activos este mes. Manda **localsend/localsend** (★96.457): «An open-source cross-platform alternative to AirDrop». Le sigue **termux/termux-app** (★63.678): «Termux - a terminal emulator application for Android OS extendible by variety of packages.». Temas que se repiten en el grupo: 2fa, adb, android, android-application.
 
@@ -69,4 +69,4 @@ Pulso de hoy sobre los 15 repos de la pieza: 15 vivos, 12 activos este mes. Mand
 
 **ImranR98/Obtainium** trae la novedad del grupo, su release v1.7.3 (2026-10-25). Legalmente el grupo se reparte así: GPL-3.0 ×9, Apache-2.0 ×2, GPL-3.0 (según texto de su repo, 29-oct-2026) ×2; la actividad más fresca es de **TeamAmaze/AmazeFileManager** (hace 2 días); **RikkaApps/Shizuku** no se mueve desde el 2025-06-18; **ImranR98/Obtainium** firmó la release de fecha más reciente (v1.7.3 (2026-10-25)) de las 15 del grupo.
 
-💓 15 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 15 vivos, 0 firmados arriba con su estado.
+💓 15 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 15 vivos, 0 firmados arriba con su estado.

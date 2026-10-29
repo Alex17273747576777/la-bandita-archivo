@@ -1,6 +1,6 @@
 *70 — EL CEREBRO DE LOS PAPELES*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **ollama/ollama** encabeza esta entrega con ★185.239 medidos hoy: «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». La pieza cita 4 repos (4 vivos) y 4 empujaron en los últimos 30 días. Le sigue **Mintplex-Labs/anything-llm** (★67.712): «Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience». Temas que se repiten en el grupo: agent-computer, agent-harness, agent-orchestration, agentic-ai.
 
@@ -40,4 +40,4 @@ Hay release de esta semana: **ollama/ollama** publicó v0.40.13 (2026-10-28). Co
 
 REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — mll-gnihtyna/sbaL-xelptniM=2|REV|TIM=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 # Publicación 46 — La sala de las novelas — la puerta Lectura IV
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 4 activos este mes. Manda **dmzz-yyhyy/LightNovelReader** (★2.303): «一款基于Compose的多数据源轻小说阅读器。支持epub导出，自定义背景样式，本地书架和更新提醒等功能。». Le sigue **ranobe-org/ranobe** (★267): «A simple extensible light novel reader». Temas que se repiten en el grupo: andriod-development, android, android-app, books.
 
@@ -33,4 +33,4 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 4 activos este mes. Manda *
 
 **ranobe-org/ranobe** trae la novedad del grupo, su release v0.0.20 (2026-10-26). **1Finn2me/Novery** no se mueve desde el 2026-05-03; **ranobe-org/ranobe** firmó la release de fecha más reciente (v0.0.20 (2026-10-26)) de las 6 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×3, Apache-2.0 ×2, Unlicense ×1; la actividad más fresca es de **bunoriapp/bunori** (hace 2 días).
 
-💓 6 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.
+💓 6 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.

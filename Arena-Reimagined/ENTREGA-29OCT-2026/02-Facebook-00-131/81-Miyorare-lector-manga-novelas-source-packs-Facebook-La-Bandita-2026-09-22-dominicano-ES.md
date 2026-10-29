@@ -1,8 +1,8 @@
 # Publicación 81 — 🟦 MIYORARE: EL VECINO NUEVO QUE HABLA TODOS LOS IDIOMAS Y TRAJO SU PROPIA SEMILLA
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **Noirero/Miyorare** (★19): «A comic/novel reader forked DropSauce - based on Kotatsu, built to my own taste: fast downloads, non-flat UI, dual library, unified sources/extensions, local image files, and…». Le sigue **Noirero/Miyorare-Source-Packs** (★3). Con actividad en los últimos 30 días: 2 de 2.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **Noirero/Miyorare** (★19): «A comic/novel reader forked DropSauce - based on Kotatsu, built to my own taste: fast downloads, non-flat UI, dual library, unified sources/extensions, local image files, and…». Le sigue **Noirero/Miyorare-Source-Packs** (★3). Con actividad en los últimos 30 días: 2 de 2.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -16,4 +16,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos.
 
 La noticia fresca es de **Noirero/Miyorare**: release v1.4.16 (2026-10-29). El empuje más reciente es de **Noirero/Miyorare** (hace 2 días); 2 repos tienen release y la más reciente es la de **Noirero/Miyorare** (v1.4.16 (2026-10-29)); en licencias: GPL-3.0 ×1, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

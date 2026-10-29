@@ -1,8 +1,8 @@
 # Publicación 35 — La estantería: la estirpe del lector — de la tumba sin página al rey vivo
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 12 vivos. El mayor es **mihonapp/mihon** (★24.839): «Free and open source manga reader for Android». Le sigue **zyddnys/manga-image-translator** (★10.550): «Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/ (no longer working)». Con actividad en los últimos 30 días: 10 de 12. Temas que se repiten en el grupo: android, anime, aniyomi, auto-translation.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 12 repos, 12 vivos. El mayor es **mihonapp/mihon** (★24.839): «Free and open source manga reader for Android». Le sigue **zyddnys/manga-image-translator** (★10.550): «Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/ (no longer working)». Con actividad en los últimos 30 días: 10 de 12. Temas que se repiten en el grupo: android, anime, aniyomi, auto-translation.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -56,4 +56,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 12 vivo
 
 La noticia fresca es de **KolbyML/Manatan**: release v6.2.21 (2026-10-29). 11 repos tienen release y la más reciente es la de **KolbyML/Manatan** (v6.2.21 (2026-10-29)); en licencias: Apache-2.0 ×7, sin archivo LICENSE en su repo (verificado) ×2, GPL-3.0 ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivado por su autor: **nubesurrealista/Kumo**; el empuje más reciente es de **KolbyML/Manatan** (hace 2 días).
 
-💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.
+💓 12 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.

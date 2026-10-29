@@ -1,8 +1,8 @@
 # Publicación 74 — Los vivos de la semana: la fila de las fechas
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 15 repos, 15 vivos. El mayor es **ggml-org/llama.cpp** (★132.771): «LLM inference in C/C++». Le sigue **offa/android-foss** (★11.586): «A list of Free and Open Source Software (FOSS) for Android – saving Freedom and Privacy.». Con actividad en los últimos 30 días: 13 de 15. Temas que se repiten en el grupo: adhd, android, android-app, android-apps.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 15 repos, 15 vivos. El mayor es **ggml-org/llama.cpp** (★132.771): «LLM inference in C/C++». Le sigue **offa/android-foss** (★11.586): «A list of Free and Open Source Software (FOSS) for Android – saving Freedom and Privacy.». Con actividad en los últimos 30 días: 13 de 15. Temas que se repiten en el grupo: adhd, android, android-app, android-apps.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -65,4 +65,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 15 repos, 15 vivo
 
 La noticia fresca es de **wikimedia/apps-android-wikipedia**: release latest (2026-10-29). El empuje más reciente es de **ggml-org/llama.cpp** (hace 2 días); **TeamWin/Team-Win-Recovery-Project** duerme desde el 2022-02-06; 10 repos tienen release y la más reciente es la de **wikimedia/apps-android-wikipedia** (latest (2026-10-29)); en licencias: GPL-3.0 ×4, AGPL-3.0 ×3, sin archivo LICENSE en su repo (verificado) ×3; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
 
-💓 15 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 15 vivos, 0 firmados arriba con su estado.
+💓 15 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 15 vivos, 0 firmados arriba con su estado.

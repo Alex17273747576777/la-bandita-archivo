@@ -1,8 +1,8 @@
 *72 — EL WINDOWS DE LA MESA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **brunodev85/winlator** (★19.684): «Android application for running Windows applications with Wine and Box86/Box64». Con actividad en los últimos 30 días: 1 de 1.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **brunodev85/winlator** (★19.684): «Android application for running Windows applications with Wine and Box86/Box64». Con actividad en los últimos 30 días: 1 de 1.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -27,4 +27,4 @@ Sin sobresaltos: el empuje más cercano es de **brunodev85/winlator** (hace 14 d
 
 REV|71-01-6202 — rotalniw/58vedonurb=1|REV|486.91★ — rotalniw/58vedonurb=2|REV|)91-80-6202( 0.2.11v — rotalniw/58vedonurb=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

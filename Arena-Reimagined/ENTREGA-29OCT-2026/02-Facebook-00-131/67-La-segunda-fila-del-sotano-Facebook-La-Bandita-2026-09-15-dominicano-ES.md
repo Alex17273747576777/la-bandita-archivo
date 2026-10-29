@@ -1,8 +1,8 @@
 # Publicación 67 — La segunda fila del sótano
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 11 vivos. El mayor es **cosmictaserdev-creator/Convx** (★1.064): «A free, open-source Android music player for YouTube Music with an iOS-style Liquid Glass interface, synced lyrics, Automix and Listen Together.». Le sigue **recloudstream/cs-repos** (★543): «Cloudstream plugin repositories». Con actividad en los últimos 30 días: 8 de 11. Temas que se repiten en el grupo: andorid, android, android-app, app.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 12 repos, 11 vivos. El mayor es **cosmictaserdev-creator/Convx** (★1.064): «A free, open-source Android music player for YouTube Music with an iOS-style Liquid Glass interface, synced lyrics, Automix and Listen Together.». Le sigue **recloudstream/cs-repos** (★543): «Cloudstream plugin repositories». Con actividad en los últimos 30 días: 8 de 11. Temas que se repiten en el grupo: andorid, android, android-app, app.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -51,4 +51,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 11 vivo
 
 La noticia amarga: **jpdoshi/dragon-store** (caído (404)) ya no respondieron. En licencias: GPL-3.0 ×6, sin archivo LICENSE en su repo (verificado) ×2, MIT ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es **cosmictaserdev-creator/Convx** (hace 2 días); **self-similarity/MegaRepo** duerme desde el 2025-10-03; 9 repos tienen release y la más reciente es la de **RenzoBeux/Dashboarr** (v1.22.0 (2026-10-29)).
 
-💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 1 firmado arriba con su estado.
+💓 12 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 11 vivos, 1 firmado arriba con su estado.

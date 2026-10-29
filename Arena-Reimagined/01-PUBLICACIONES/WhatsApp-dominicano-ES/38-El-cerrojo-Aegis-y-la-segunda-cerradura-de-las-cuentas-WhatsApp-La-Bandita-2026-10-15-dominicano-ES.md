@@ -1,6 +1,6 @@
 *38 — EL CERROJO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **beemdevelopment/Aegis** encabeza esta entrega con ★13.414 medidos hoy: «A free, secure and open source app for Android to manage your 2-step verification tokens.». La pieza cita 2 repos (2 vivos) y 0 empujaron en los últimos 30 días. Le sigue **helloworld1/FreeOTPPlus** (★749): «Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator». Temas que se repiten en el grupo: 2fa, android, authenticator, encryption.
 
@@ -32,4 +32,4 @@ Pulso tranquilo: lo último que se movió fue **beemdevelopment/Aegis**, hace 55
 
 REV|0.2-ehcapA=1|REV|60-90-6202 — sigeA/tnempolevedmeeb=2|REV|)60-90-6202( 3.4.3v — sigeA/tnempolevedmeeb=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

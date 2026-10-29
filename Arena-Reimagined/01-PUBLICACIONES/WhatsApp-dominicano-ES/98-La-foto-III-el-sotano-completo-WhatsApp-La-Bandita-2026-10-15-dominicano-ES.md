@@ -1,8 +1,8 @@
 *Lo que la fiesta muestra arriba se sostiene por lo que trabaja abajo.*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 7 repos, 7 vivos. El mayor es **pi-hole/pi-hole** (★61.559): «A black hole for Internet advertisements». Le sigue **jellyfin/jellyfin** (★58.787): «The Free Software Media System - Server Backend & API». Con actividad en los últimos 30 días: 7 de 7. Temas que se repiten en el grupo: ad-blocker, android, android-tv, automotive.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 7 repos, 7 vivos. El mayor es **pi-hole/pi-hole** (★61.559): «A black hole for Internet advertisements». Le sigue **jellyfin/jellyfin** (★58.787): «The Free Software Media System - Server Backend & API». Con actividad en los últimos 30 días: 7 de 7. Temas que se repiten en el grupo: ad-blocker, android, android-tv, automotive.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -52,4 +52,4 @@ La noticia fresca es de **nextcloud/android**: release stable-35.0.2 (2026-10-28
 
 REV|92-01-6202 — revres/duolctxen=1|REV|)82-01-6202( 2.0.53-elbats — diordna/duolctxen=2|REV|0.2-LPG=3
 
-💓 7 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.
+💓 7 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.

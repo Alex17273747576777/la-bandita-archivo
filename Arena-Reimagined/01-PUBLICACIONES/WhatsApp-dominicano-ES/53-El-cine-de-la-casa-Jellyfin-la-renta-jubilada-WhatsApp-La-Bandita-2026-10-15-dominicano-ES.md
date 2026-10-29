@@ -1,8 +1,8 @@
 *53 — EL CINE DE LA CASA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **jellyfin/jellyfin** (★58.787): «The Free Software Media System - Server Backend & API». Le sigue **jellyfin/jellyfin-androidtv** (★4.675): «Android TV Client for Jellyfin». Con actividad en los últimos 30 días: 3 de 3. Temas que se repiten en el grupo: android, android-tv, csharp, dotnet.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **jellyfin/jellyfin** (★58.787): «The Free Software Media System - Server Backend & API». Le sigue **jellyfin/jellyfin-androidtv** (★4.675): «Android TV Client for Jellyfin». Con actividad en los últimos 30 días: 3 de 3. Temas que se repiten en el grupo: android, android-tv, csharp, dotnet.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -36,4 +36,4 @@ La noticia fresca es de **jellyfin/jellyfin**: release v12.4 (2026-10-26). El em
 
 REV|92-01-6202 — nifyllej/nifyllej=1|REV|0.2-LPG=2|REV|787.85★ — nifyllej/nifyllej=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

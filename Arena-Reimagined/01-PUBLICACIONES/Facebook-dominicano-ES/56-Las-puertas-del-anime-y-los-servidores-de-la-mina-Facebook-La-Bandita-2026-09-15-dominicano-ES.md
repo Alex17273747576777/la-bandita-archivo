@@ -1,8 +1,8 @@
 # Publicación 56 — Las puertas del anime y los servidores — censo de la mina III
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 62 repos, 59 vivos. El mayor es **immich-app/immich** (★117.612): «High performance self-hosted photo and video management solution.». Le sigue **yuliskov/SmartTube** (★35.709): «Browse media content with your own rules on Android TV». Con actividad en los últimos 30 días: 45 de 59. Temas que se repiten en el grupo: abs, amp, andorid, android.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 62 repos, 59 vivos. El mayor es **immich-app/immich** (★117.612): «High performance self-hosted photo and video management solution.». Le sigue **yuliskov/SmartTube** (★35.709): «Browse media content with your own rules on Android TV». Con actividad en los últimos 30 días: 45 de 59. Temas que se repiten en el grupo: abs, amp, andorid, android.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -226,4 +226,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 62 repos, 59 vivo
 
 La noticia amarga: **jpdoshi/dragon-store** (caído (404)), **ycngmn/CuxPlug** (caído (404)), **inaccurate-hotelplan289/HomeLabSetup** (caído (404)) ya no respondieron. En licencias: GPL-3.0 ×25, MIT ×12, sin archivo LICENSE en su repo (verificado) ×7; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es **xbmc/xbmc** (hace 2 días); **thiagooo0/EHHelper** duerme desde el 2024-01-13; 52 repos tienen release y la más reciente es la de **lollipopkit/flutter_server_box** (v1.0.1844 (2026-10-29)).
 
-💓 62 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 59 vivos, 3 firmados arriba con su estado.
+💓 62 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 59 vivos, 3 firmados arriba con su estado.

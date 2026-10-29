@@ -1,6 +1,6 @@
 # Publicación 47 — La última puerta del catálogo: Venera y los veredictos
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 10 repos de la pieza: 8 vivos, 2 activos este mes. Manda **Stremio/stremio-web** (★14.938): «Stremio - Freedom to Stream». Le sigue **venera-app/venera** (★11.301): «A comic app». Temas que se repiten en el grupo: android, android-app, anime4k, book.
 
@@ -44,4 +44,4 @@ Pulso de hoy sobre los 10 repos de la pieza: 8 vivos, 2 activos este mes. Manda 
 
 Lo primero, lo que se cayó: **hayase-app/ui** (bloqueado legal (451): existe), **thaunknown/miru** (bloqueado legal (451): existe). Del resto, el que más cerca empujó es **Stremio/stremio-web** (hace 3 días); **Suwatte/Suwatte** no se mueve desde el 2026-03-11; **Yuneko-dev/Nekori** firmó la release de fecha más reciente (v0.1.3 (2026-10-23)) de las 6 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×4, Apache-2.0 ×2, MPL-2.0 ×1; archivado por su autor: **venera-app/venera**.
 
-💓 10 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 8 vivos, 2 firmados arriba con su estado.
+💓 10 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 8 vivos, 2 firmados arriba con su estado.

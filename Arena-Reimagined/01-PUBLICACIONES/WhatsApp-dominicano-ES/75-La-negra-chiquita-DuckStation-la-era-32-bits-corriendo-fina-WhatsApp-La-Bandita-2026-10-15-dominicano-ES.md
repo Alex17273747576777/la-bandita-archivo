@@ -1,8 +1,8 @@
 *75 — LA NEGRA CHIQUITA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **stenzek/duckstation** (★10.915): «Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64». Con actividad en los últimos 30 días: 1 de 1. Temas que se repiten en el grupo: appimage, emulator, enhancements, fast.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **stenzek/duckstation** (★10.915): «Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64». Con actividad en los últimos 30 días: 1 de 1. Temas que se repiten en el grupo: appimage, emulator, enhancements, fast.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -28,4 +28,4 @@ La noticia fresca es de **stenzek/duckstation**: release latest (2026-10-25). El
 
 REV|)52-01-6202( tsetal — noitatskcud/keznets=1|REV|92-01-6202 — noitatskcud/keznets=2|REV|519.01★ — noitatskcud/keznets=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

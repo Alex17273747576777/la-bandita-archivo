@@ -1,8 +1,8 @@
 *16 — EL MAPA VIDEO/YT DE ANDROID*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 18 repos, 16 vivos. El mayor es **TeamNewPipe/NewPipe** (★40.354): «A libre lightweight streaming front-end for Android.». Le sigue **yuliskov/SmartTube** (★35.709): «Browse media content with your own rules on Android TV». Con actividad en los últimos 30 días: 14 de 16. Temas que se repiten en el grupo: 4k, activej, android, android-app.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 18 repos, 16 vivos. El mayor es **TeamNewPipe/NewPipe** (★40.354): «A libre lightweight streaming front-end for Android.». Le sigue **yuliskov/SmartTube** (★35.709): «Browse media content with your own rules on Android TV». Con actividad en los últimos 30 días: 14 de 16. Temas que se repiten en el grupo: 4k, activej, android, android-app.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -87,4 +87,4 @@ La noticia amarga: **TeamPiped/Piped.** (caído (404)), **open-ani/animeko.** (c
 
 REV|)404( odíac — .depiP/depiPmaeT=1|REV|453.04★ — epiPweN/epiPweNmaeT=2|REV|)92-01-6202( 0.8.1v — ukkor/ppa-ukkor=3
 
-💓 18 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 16 vivos, 2 firmados arriba con su estado.
+💓 18 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 16 vivos, 2 firmados arriba con su estado.

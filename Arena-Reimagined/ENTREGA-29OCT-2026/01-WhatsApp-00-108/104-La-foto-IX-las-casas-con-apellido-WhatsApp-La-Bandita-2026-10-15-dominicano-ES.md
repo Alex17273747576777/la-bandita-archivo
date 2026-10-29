@@ -1,6 +1,6 @@
 *Toda foto de barrio tiene sus casas de apellido: la familia que ocupa tres sillas y nadie las cuenta juntas*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **home-assistant/core** encabeza esta entrega con ★91.831 medidos hoy: «:house_with_garden: Open source home automation that puts local control and privacy first.». La pieza cita 17 repos (17 vivos) y 14 empujaron en los últimos 30 días. Le sigue **nextcloud/server** (★37.345): «☁️ Nextcloud server, a safe home for all your data». Temas que se repiten en el grupo: android, anilist, anilist-tracker, anime.
 
@@ -86,4 +86,4 @@ Hay release de esta semana: **itsmechinmoy/Dantotsu** publicó v3.2.2+74ae756 (2
 
 REV|40-11-5202 — ustatoK/ppAustatoK=1|REV|)92-01-6202( 657ea47+2.2.3v — ustotnaD/yomnihcemsti=2|REV|92-01-6202 — krof-imoyinA-imadaT/munacradna=3
 
-💓 17 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 17 vivos, 0 firmados arriba con su estado.
+💓 17 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 17 vivos, 0 firmados arriba con su estado.

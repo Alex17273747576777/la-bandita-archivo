@@ -1,6 +1,6 @@
 # Publicación 114 — La red con vara: v2rayNG, ClashMeta y Orbot en tres niveles
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **2dust/v2rayNG** (★64.940): «A V2Ray client for Android, support Xray core and v2fly core». Le sigue **MetaCubeX/ClashMetaForAndroid** (★48.607): «A rule-based tunnel for Android.». Temas que se repiten en el grupo: android, anonymity, anticensorship, censorship-circumvention.
 
@@ -21,4 +21,4 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 El grupo respira despacio; su empuje más reciente, **2dust/v2rayNG**, fue hace 3 días. **MetaCubeX/ClashMetaForAndroid** firmó la release de fecha más reciente (v2.11.36 (2026-10-21)) de las 3 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×2, BSD (según texto de su repo, 29-oct-2026) ×1.
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

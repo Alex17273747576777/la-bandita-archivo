@@ -1,8 +1,8 @@
 # Publicación 124 — Orvid, confirmado línea por línea: el re-pulso del hallazgo del dueño
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **TeamNewPipe/NewPipe** (★40.354): «A libre lightweight streaming front-end for Android.». Le sigue **mankidev/orvid** (★9): «Private YouTube and video client for Android. Searches YouTube, PeerTube, TikTok, Instagram and 250+ sites at once, every request over Tor. NewPipe alternative.». Con actividad en los últimos 30 días: 3 de 3. Temas que se repiten en el grupo: 4k, android, android-app, anonymity.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **TeamNewPipe/NewPipe** (★40.354): «A libre lightweight streaming front-end for Android.». Le sigue **mankidev/orvid** (★9): «Private YouTube and video client for Android. Searches YouTube, PeerTube, TikTok, Instagram and 250+ sites at once, every request over Tor. NewPipe alternative.». Con actividad en los últimos 30 días: 3 de 3. Temas que se repiten en el grupo: 4k, android, android-app, anonymity.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -21,4 +21,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos.
 
 La noticia fresca es de **mankidev/orvid**: release v0.4.22 (2026-10-29). El empuje más reciente es de **mankidev/orvid** (hace 2 días); 2 repos tienen release y la más reciente es la de **mankidev/orvid** (v0.4.22 (2026-10-29)); en licencias: GPL-3.0 ×3.
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 # Publicación 112 — La soberanía local: LocalSend y RustDesk sin nube ajena
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda **rustdesk/rustdesk** (★127.495): «An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.». Le sigue **localsend/localsend** (★96.457): «An open-source cross-platform alternative to AirDrop». Temas que se repiten en el grupo: android, anilist, anime, anime-streaming.
 
@@ -56,4 +56,4 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda
 
 **keiyoushi/extensions** trae la novedad del grupo, su release dbf6c05 (2026-10-29). **keiyoushi/extensions** firmó la release de fecha más reciente (dbf6c05 (2026-10-29)) de las 12 del grupo; legalmente el grupo se reparte así: Apache-2.0 ×4, sin archivo LICENSE en su repo (verificado) ×3, GPL-3.0 (según texto de su repo, 29-oct-2026) ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; la actividad más fresca es de **localsend/localsend** (hace 2 días); **RikkaApps/Shizuku** no se mueve desde el 2025-06-18.
 
-💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.
+💓 12 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.

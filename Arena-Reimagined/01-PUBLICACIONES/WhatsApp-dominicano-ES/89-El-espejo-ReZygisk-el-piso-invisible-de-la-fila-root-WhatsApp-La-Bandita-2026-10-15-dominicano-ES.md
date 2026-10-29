@@ -1,6 +1,6 @@
 *89 — EL ESPEJO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **awesome-android-root/awesome-android-root** encabeza esta entrega con ★5.568 medidos hoy: «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **PerformanC/ReZygisk** (★4.099): «Transparent implementation of Zygisk.». Temas que se repiten en el grupo: android, android-app, android-root, android-tweaks.
 
@@ -32,4 +32,4 @@ Hay release de esta semana: **awesome-android-root/awesome-android-root** public
 
 REV|)62-01-6202( 1.6 — toor-diordna-emosewa/toor-diordna-emosewa=1|REV|82-01-6202 — toor-diordna-emosewa/toor-diordna-emosewa=2|REV|865.5★ — toor-diordna-emosewa/toor-diordna-emosewa=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

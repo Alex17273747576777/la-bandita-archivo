@@ -1,8 +1,8 @@
 *63 — EL PROTOCOLO DE LAS MANOS*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **modelcontextprotocol/servers** (★91.681): «Model Context Protocol Servers». Le sigue **modelcontextprotocol/modelcontextprotocol** (★9.562): «Specification and documentation for the Model Context Protocol». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: docs, mcp, specification, standard.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **modelcontextprotocol/servers** (★91.681): «Model Context Protocol Servers». Le sigue **modelcontextprotocol/modelcontextprotocol** (★9.562): «Specification and documentation for the Model Context Protocol». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: docs, mcp, specification, standard.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -31,4 +31,4 @@ La noticia fresca es de **modelcontextprotocol/servers**: release v2.2.0 (2026-1
 
 REV|)6202-tco-92 ,oper us ed otxet núges( 0.2-ehcapA=1|REV|186.19★ — srevres/locotorptxetnocledom=2|REV|92-01-6202 — locotorptxetnocledom/locotorptxetnocledom=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

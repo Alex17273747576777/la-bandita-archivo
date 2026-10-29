@@ -1,8 +1,8 @@
 *25 — EL TALLER DE HERRAMIENTAS*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 7 repos, 7 vivos. El mayor es **RikkaApps/Shizuku** (★32.384): «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». Le sigue **GopeedLab/gopeed** (★27.246): «A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.». Con actividad en los últimos 30 días: 6 de 7. Temas que se repiten en el grupo: accessibility, activity, ad, adb.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 7 repos, 7 vivos. El mayor es **RikkaApps/Shizuku** (★32.384): «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». Le sigue **GopeedLab/gopeed** (★27.246): «A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.». Con actividad en los últimos 30 días: 6 de 7. Temas que se repiten en el grupo: accessibility, activity, ad, adb.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -51,4 +51,4 @@ La noticia fresca es de **gsantner/markor**: release v2026.10.0 (2026-10-25). 7 
 
 REV|)52-01-6202( 0.01.6202v — rokram/rentnasg=1|REV|92-01-6202 — reganaMeliFezamA/ezamAmaeT=2|REV|0.3-LPG=3
 
-💓 7 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.
+💓 7 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.

@@ -1,8 +1,8 @@
 *69 — EL TALLER DEL SAZÓN*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **unslothai/unsloth** (★78.760): «Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: agent, ai, chatgpt, deepseek.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **unslothai/unsloth** (★78.760): «Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: agent, ai, chatgpt, deepseek.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -32,4 +32,4 @@ La noticia fresca es de **unslothai/unsloth**: release v0.1.912-beta (2026-10-28
 
 REV|)82-01-6202( ateb-219.1.0v — htolsnu/iahtolsnu=1|REV|92-01-6202 — htolsnu/iahtolsnu=2|REV|378.98★ — gnihtcnys/gnihtcnys=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

@@ -1,8 +1,8 @@
 *32 — EL ALMACÉN*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **FossifyOrg/File-Manager** (★1.845): «Easy app for managing your files without ads, respecting your privacy & security». Le sigue **SimpleMobileTools/Simple-File-Manager** (★1.584): «Easy app for managing your files without ads, respecting your privacy & security». Con actividad en los últimos 30 días: 1 de 2. Temas que se repiten en el grupo: android, android-development, file-manager, foss.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **FossifyOrg/File-Manager** (★1.845): «Easy app for managing your files without ads, respecting your privacy & security». Le sigue **SimpleMobileTools/Simple-File-Manager** (★1.584): «Easy app for managing your files without ads, respecting your privacy & security». Con actividad en los últimos 30 días: 1 de 2. Temas que se repiten en el grupo: android, android-development, file-manager, foss.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -32,4 +32,4 @@ La noticia fresca es de **FossifyOrg/File-Manager**: release 1.6.3 (2026-10-24).
 
 REV|548.1★ — reganaM-eliF/grOyfissoF=1|REV|0.3-LPG=2|REV|)42-01-6202( 3.6.1 — reganaM-eliF/grOyfissoF=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

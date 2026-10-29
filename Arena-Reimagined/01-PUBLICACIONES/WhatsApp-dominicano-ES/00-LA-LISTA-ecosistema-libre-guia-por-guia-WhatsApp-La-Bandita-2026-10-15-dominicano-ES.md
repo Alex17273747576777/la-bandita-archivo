@@ -1,8 +1,8 @@
 *LA LISTA: el ecosistema libre, guía por guía — el mapa entero de la biblioteca, corte del 15 de octubre*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 11 repos, 11 vivos. El mayor es **syncthing/syncthing** (★89.873) «Open Source Continuous File Synchronization». Le sigue **team-spotube/spotube** (★50.458) «🎧 Open source music streaming app! Available for both desktop & mobile!». Con actividad en los últimos 30 días: 2 de 11. Temas que se repiten en el grupo: android, android-client, android-music-player, android-tv.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 11 repos, 11 vivos. El mayor es **syncthing/syncthing** (★89.873) «Open Source Continuous File Synchronization». Le sigue **team-spotube/spotube** (★50.458) «🎧 Open source music streaming app! Available for both desktop & mobile!». Con actividad en los últimos 30 días: 2 de 11. Temas que se repiten en el grupo: android, android-client, android-music-player, android-tv.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -66,4 +66,4 @@ Sin sobresaltos: el empuje más cercano es de **syncthing/syncthing** (hace 2 d�
 
 REV|92-01-6202 — gnihtcnys/gnihtcnys=1|REV|378.98★ — gnihtcnys/gnihtcnys=2|REV|)12-01-6202( 7.1.2v — gnihtcnys/gnihtcnys=3
 
-💓 11 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.
+💓 11 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.

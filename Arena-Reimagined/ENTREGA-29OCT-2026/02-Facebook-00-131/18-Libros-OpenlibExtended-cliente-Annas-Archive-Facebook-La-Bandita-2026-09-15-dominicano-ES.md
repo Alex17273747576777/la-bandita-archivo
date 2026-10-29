@@ -1,6 +1,6 @@
 # Publicación 18 — Libros libres: OpenlibExtended — la biblioteca entera en el bolsillo
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **warreth/OpenlibExtended** encabeza esta entrega con ★556 medidos hoy: «An Open source app to download and read books from shadow libraries (Anna’s Archive, libgen, zlib)». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: annas-archive, archiving, books, ebook.
 
@@ -18,4 +18,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Pulso tranquilo: lo último que se movió fue **warreth/OpenlibExtended**, hace 13 días. Con releases publicadas hay 1; manda la de **warreth/OpenlibExtended** (v1.7.2 (2026-10-18)); el parte legal dice AGPL-3.0 ×1.
 
-💓 1 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 1 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

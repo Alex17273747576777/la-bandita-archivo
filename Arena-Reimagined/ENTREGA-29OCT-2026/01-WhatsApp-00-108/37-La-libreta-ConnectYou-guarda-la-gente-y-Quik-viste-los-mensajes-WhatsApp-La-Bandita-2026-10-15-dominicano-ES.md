@@ -1,6 +1,6 @@
 *37 — LA LIBRETA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 0 activos este mes. Manda **quik-sms/quik** (★2.877): «The most beautiful SMS messenger for Android - Revived». Le sigue **you-apps/ConnectYou** (★729): «Privacy focused contacts and SMS messenger app built with MD3». Temas que se repiten en el grupo: android, contacts, kotlin.
 
@@ -31,4 +31,4 @@ El grupo respira despacio; su empuje más reciente, **quik-sms/quik**, fue hace 
 
 REV|)32-90-6202( 7.3.4v — kiuq/sms-kiuq=1|REV|72-90-6202 — kiuq/sms-kiuq=2|REV|778.2★ — kiuq/sms-kiuq=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

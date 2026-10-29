@@ -1,6 +1,6 @@
 *67 — LA RAÍZ DEL TELÉFONO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **ollama/ollama** encabeza esta entrega con ★185.239 medidos hoy: «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». La pieza cita 3 repos (3 vivos) y 3 empujaron en los últimos 30 días. Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Temas que se repiten en el grupo: deepseek, gemma, glm, go.
 
@@ -35,4 +35,4 @@ Hay release de esta semana: **ollama/ollama** publicó v0.40.13 (2026-10-28). Co
 
 REV|932.581★ — amallo/amallo=1|REV|)82-01-6202( 31.04.0v — amallo/amallo=2|REV|0.2-LPM=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

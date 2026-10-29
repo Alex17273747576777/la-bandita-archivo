@@ -1,8 +1,8 @@
 # Publicación 41 — Los cazadores: anime y vídeo III — la cosecha del catálogo
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 15 repos, 14 vivos. El mayor es **jiangtian616/JHenTai** (★5.744): «A cross-platform manga app made for e-hentai & exhentai by Flutter». Le sigue **RyanYuuki/AnymeX** (★1.275): «An Open Source app for Tracking Multi Service (AL, MAL, SIMKL)». Con actividad en los últimos 30 días: 8 de 14. Temas que se repiten en el grupo: android, android-leanback, android-tv, anilist.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 15 repos, 14 vivos. El mayor es **jiangtian616/JHenTai** (★5.744): «A cross-platform manga app made for e-hentai & exhentai by Flutter». Le sigue **RyanYuuki/AnymeX** (★1.275): «An Open Source app for Tracking Multi Service (AL, MAL, SIMKL)». Con actividad en los últimos 30 días: 8 de 14. Temas que se repiten en el grupo: android, android-leanback, android-tv, anilist.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -65,4 +65,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 15 repos, 14 vivo
 
 La noticia amarga: **ayman708-UX/PlayTorrioV3** (caído (404)) ya no respondieron. Del resto, el que más cerca empujó es **jakepurple13/OtakuWorld** (hace 2 días); **SuperMarcus/NineAnimator** duerme desde el 2024-11-14; 14 repos tienen release y la más reciente es la de **Spyou/Zangetsu** (v2.3.4 (2026-10-29)); en licencias: GPL-3.0 ×7, Apache-2.0 ×3, MIT ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivado por su autor: **SuperMarcus/NineAnimator**.
 
-💓 15 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 14 vivos, 1 firmado arriba con su estado.
+💓 15 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 1 firmado arriba con su estado.

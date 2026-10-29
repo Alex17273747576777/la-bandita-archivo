@@ -1,6 +1,6 @@
 # Publicación 55 — Las puertas del lector y las bibliotecas — censo de la mina II
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Manda **ente/ente** (★29.742): «💚 End-to-end encrypted cloud for everything.». Le sigue **ente/ente** (★29.742): «💚 End-to-end encrypted cloud for everything.». Temas que se repiten en el grupo: 2fa, ai, ai-assisted, ai-image-detection.
 
@@ -249,4 +249,4 @@ Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Mand
 
 **itsmechinmoy/Dantotsu** trae la novedad del grupo, su release v3.2.2+74ae756 (2026-10-29). **aarddict/android** no se mueve desde el 2015-05-09; **itsmechinmoy/Dantotsu** firmó la release de fecha más reciente (v3.2.2+74ae756 (2026-10-29)) de las 58 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×25, Apache-2.0 ×10, AGPL-3.0 ×8; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivado por su autor: **aarddict/android**; la actividad más fresca es de **itsmechinmoy/Dantotsu** (hace 2 días).
 
-💓 64 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 64 vivos, 0 firmados arriba con su estado.
+💓 64 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 64 vivos, 0 firmados arriba con su estado.

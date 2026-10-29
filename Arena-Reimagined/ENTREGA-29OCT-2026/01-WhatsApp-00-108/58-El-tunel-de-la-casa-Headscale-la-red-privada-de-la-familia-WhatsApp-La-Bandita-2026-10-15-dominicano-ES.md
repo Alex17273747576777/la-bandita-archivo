@@ -1,8 +1,8 @@
 *58 — EL TÚNEL DE LA CASA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **juanfont/headscale** (★45.174): «An open source, self-hosted implementation of the Tailscale control server». Le sigue **tailscale/tailscale** (★38.304): «The easiest, most secure way to use WireGuard and 2FA.». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: 2fa, oauth, sso, tailscale.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **juanfont/headscale** (★45.174): «An open source, self-hosted implementation of the Tailscale control server». Le sigue **tailscale/tailscale** (★38.304): «The easiest, most secure way to use WireGuard and 2FA.». Con actividad en los últimos 30 días: 2 de 2. Temas que se repiten en el grupo: 2fa, oauth, sso, tailscale.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -32,4 +32,4 @@ La noticia fresca es de **tailscale/tailscale**: release v1.104.4 (2026-10-28). 
 
 REV|92-01-6202 — elacsliat/elacsliat=1|REV|)82-01-6202( 4.401.1v — elacsliat/elacsliat=2|REV|esualC-3-DSB=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

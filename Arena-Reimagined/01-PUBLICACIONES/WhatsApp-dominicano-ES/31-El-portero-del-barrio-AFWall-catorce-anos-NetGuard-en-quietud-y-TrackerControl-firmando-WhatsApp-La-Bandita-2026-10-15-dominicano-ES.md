@@ -1,8 +1,8 @@
 *31 — EL PORTERO DEL BARRIO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos. El mayor es **M66B/FairEmail** (★4.738): «Fully featured, open source, privacy friendly email app for Android». Le sigue **M66B/NetGuard** (★3.949): «A simple way to block access to the internet per app». Con actividad en los últimos 30 días: 3 de 4. Temas que se repiten en el grupo: afwall, android, android-firewall, app.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos. El mayor es **M66B/FairEmail** (★4.738): «Fully featured, open source, privacy friendly email app for Android». Le sigue **M66B/NetGuard** (★3.949): «A simple way to block access to the internet per app». Con actividad en los últimos 30 días: 3 de 4. Temas que se repiten en el grupo: afwall, android, android-firewall, app.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -39,4 +39,4 @@ La noticia fresca es de **M66B/FairEmail**: release 1.2339 (2026-10-24). El empu
 
 REV|92-01-6202 — liamEriaF/B66M=1|REV|0.3-LPG=2|REV|)42-01-6202( 9332.1 — liamEriaF/B66M=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

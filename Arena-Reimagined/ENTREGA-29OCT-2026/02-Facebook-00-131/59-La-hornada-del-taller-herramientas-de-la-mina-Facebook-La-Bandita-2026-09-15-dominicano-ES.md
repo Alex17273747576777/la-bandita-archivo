@@ -1,6 +1,6 @@
 # Publicación 59 — La hornada del taller: las herramientas de la mina
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 16 repos de la pieza: 16 vivos, 14 activos este mes. Manda **awesome-selfhosted/awesome-selfhosted** (★331.787): «A list of Free Software network services and web applications which can be hosted on your own servers». Le sigue **jellyfin/jellyfin** (★58.787): «The Free Software Media System - Server Backend & API». Temas que se repiten en el grupo: ai, amnezia-vpn, android, android-apps.
 
@@ -71,4 +71,4 @@ Pulso de hoy sobre los 16 repos de la pieza: 16 vivos, 14 activos este mes. Mand
 
 **Khh-vu/wifi-password-manager** trae la novedad del grupo, su release v1.21 (2026-10-29). Legalmente el grupo se reparte así: GPL-3.0 ×4, Apache-2.0 ×3, GPL-2.0 ×3; la actividad más fresca es de **awesome-selfhosted/awesome-selfhosted** (hace 2 días); **VegaBobo/DSU-Sideloader** no se mueve desde el 2024-03-13; **Khh-vu/wifi-password-manager** firmó la release de fecha más reciente (v1.21 (2026-10-29)) de las 15 del grupo.
 
-💓 16 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 16 vivos, 0 firmados arriba con su estado.
+💓 16 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 16 vivos, 0 firmados arriba con su estado.

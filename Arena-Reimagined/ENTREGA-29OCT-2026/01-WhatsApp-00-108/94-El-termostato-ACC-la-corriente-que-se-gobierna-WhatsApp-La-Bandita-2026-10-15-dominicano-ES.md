@@ -1,6 +1,6 @@
 *La batería que no vive al límite es la batería que vive años.*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 0 activos este mes. Manda **VR-25/acc** (★2.431): «Advanced Charging Controller». Temas que se repiten en el grupo: acca, accapp, accu, accu-battery.
 
@@ -28,4 +28,4 @@ El grupo respira despacio; su empuje más reciente, **VR-25/acc**, fue hace 512 
 
 REV|134.2★ — cca/52-RV=1|REV|60-60-5202 — cca/52-RV=2|REV|60-60-5202 — cca/52-RV=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 # Publicación 86 — La fábrica: revanced-magisk-module, el molde diario
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **j-hc/revanced-magisk-module** encabeza esta entrega con ★7.705 medidos hoy: «Extensive ReVanced builder. Builds both modules and APKs. Updated daily.». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: magisk, module, morphe, revanced.
 
@@ -14,4 +14,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **j-hc/revanced-magisk-module** publicó 20221122 (2026-10-29). Con releases publicadas hay 1; manda la de **j-hc/revanced-magisk-module** (20221122 (2026-10-29)); el parte legal dice GPL-3.0 ×1; lo último empujado lo firmó **j-hc/revanced-magisk-module** hace 2 días.
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

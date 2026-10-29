@@ -1,6 +1,6 @@
 # Publicación 65 — La segunda fila del taller
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **ggml-org/llama.cpp** encabeza esta entrega con ★132.771 medidos hoy: «LLM inference in C/C++». La pieza cita 18 repos (18 vivos) y 15 empujaron en los últimos 30 días. Le sigue **SagerNet/sing-box** (★39.389): «The universal proxy platform». Temas que se repiten en el grupo: agent, ai, android, androidapp.
 
@@ -74,4 +74,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **ggml-org/llama.cpp** publicó v0.8.0 (2026-10-28). El más quieto es **TeamWin/Team-Win-Recovery-Project**, parado desde el 2022-02-06; con releases publicadas hay 15; manda la de **ggml-org/llama.cpp** (v0.8.0 (2026-10-28)); el parte legal dice MIT ×5, Apache-2.0 ×5, GPL-3.0 ×3; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; lo último empujado lo firmó **commons-app/apps-android-commons** hace 2 días.
 
-💓 18 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 18 vivos, 0 firmados arriba con su estado.
+💓 18 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 18 vivos, 0 firmados arriba con su estado.

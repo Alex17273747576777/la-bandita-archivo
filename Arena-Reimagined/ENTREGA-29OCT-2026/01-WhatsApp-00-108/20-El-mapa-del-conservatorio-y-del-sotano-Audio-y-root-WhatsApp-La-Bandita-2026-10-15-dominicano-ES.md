@@ -1,8 +1,8 @@
 *20 — EL MAPA DEL CONSERVATORIO Y DEL SÓTANO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 10 repos, 10 vivos. El mayor es **topjohnwu/Magisk** (★63.595): «The Magic Mask for Android». Le sigue **team-spotube/spotube** (★50.458): «🎧 Open source music streaming app! Available for both desktop & mobile!». Con actividad en los últimos 30 días: 10 de 10. Temas que se repiten en el grupo: adb, android, android-16, android-app.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 10 repos, 10 vivos. El mayor es **topjohnwu/Magisk** (★63.595): «The Magic Mask for Android». Le sigue **team-spotube/spotube** (★50.458): «🎧 Open source music streaming app! Available for both desktop & mobile!». Con actividad en los últimos 30 días: 10 de 10. Temas que se repiten en el grupo: adb, android, android-16, android-app.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -63,4 +63,4 @@ La noticia fresca es de **maxrave-dev/SimpMusic**: release v2.4.0 (2026-10-25). 
 
 REV|0.3-LPGA=1|REV|595.36★ — ksigaM/uwnhojpot=2|REV|92-01-6202 — ebutops/ebutops-maet=3
 
-💓 10 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.
+💓 10 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.

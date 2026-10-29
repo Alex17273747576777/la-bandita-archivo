@@ -1,8 +1,8 @@
 *Del álbum enseñable al álbum salvado: bajar al sótano de las copias.*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 7 repos, 6 vivos. El mayor es **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **restic/restic** (★36.882): «Fast, secure, efficient backup program». Con actividad en los últimos 30 días: 5 de 6. Temas que se repiten en el grupo: android, backup, backup-tool, cloud.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 7 repos, 6 vivos. El mayor es **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **restic/restic** (★36.882): «Fast, secure, efficient backup program». Con actividad en los últimos 30 días: 5 de 6. Temas que se repiten en el grupo: android, backup, backup-tool, cloud.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -50,4 +50,4 @@ La noticia amarga: **neo-launcher/neo-backup** (caído (404)) ya no respondieron
 
 REV|)404( odíac — pukcab-oen/rehcnual-oen=1|REV|30-21-4202 — diordna-gnihtcnys/gnihtcnys=2|REV|92-01-6202 — aipok/aipok=3
 
-💓 7 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 6 vivos, 1 firmado arriba con su estado.
+💓 7 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 6 vivos, 1 firmado arriba con su estado.

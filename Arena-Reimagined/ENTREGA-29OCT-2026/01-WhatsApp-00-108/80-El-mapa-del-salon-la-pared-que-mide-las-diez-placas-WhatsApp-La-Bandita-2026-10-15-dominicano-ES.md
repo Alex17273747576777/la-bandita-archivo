@@ -1,6 +1,6 @@
 *80 — EL MAPA DEL SALÓN*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **scummvm/scummvm** encabeza esta entrega con ★2.870 medidos hoy: «ScummVM main repository». La pieza cita 1 repos (1 vivos) y 1 empujaron en los últimos 30 días. Temas que se repiten en el grupo: adventure-engine, adventure-games, multiplatform, rpg-engine.
 
@@ -28,4 +28,4 @@ Pulso tranquilo: lo último que se movió fue **scummvm/scummvm**, hace 2 días.
 
 REV|078.2★ — mvmmucs/mvmmucs=1|REV|92-01-6202 — mvmmucs/mvmmucs=2|REV|)11-01-6202( 0.4.6202v — mvmmucs/mvmmucs=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

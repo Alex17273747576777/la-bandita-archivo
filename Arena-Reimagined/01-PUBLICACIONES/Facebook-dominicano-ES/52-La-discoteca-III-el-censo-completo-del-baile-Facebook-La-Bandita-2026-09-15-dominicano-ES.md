@@ -1,8 +1,8 @@
 # Publicación 52 — La discoteca III: el censo completo del baile La Bandita · 15 de septiembre de 2026 ## ⚡ En una página Tercera
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 12 vivos. El mayor es **yt-dlp/yt-dlp** (★203.686): «A feature-rich command-line audio/video downloader». Le sigue **Predidit/Kazumi** (★40.104): «基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。». Con actividad en los últimos 30 días: 8 de 12. Temas que se repiten en el grupo: android, android-app, android-application, android-music-player.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 12 repos, 12 vivos. El mayor es **yt-dlp/yt-dlp** (★203.686): «A feature-rich command-line audio/video downloader». Le sigue **Predidit/Kazumi** (★40.104): «基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。». Con actividad en los últimos 30 días: 8 de 12. Temas que se repiten en el grupo: android, android-app, android-application, android-music-player.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -55,4 +55,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 12 vivo
 
 La noticia fresca es de **PaulWoitaschek/Voice**: release 26.10.8-5410008 (2026-10-29). 10 repos tienen release y la más reciente es la de **PaulWoitaschek/Voice** (26.10.8-5410008 (2026-10-29)); en licencias: GPL-3.0 ×7, sin archivo LICENSE en su repo (verificado) ×2, MIT ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; el empuje más reciente es de **werdeil/lyrion-dashboard** (hace 2 días); **futonapp/futon** duerme desde el 2016-04-30.
 
-💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.
+💓 12 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.

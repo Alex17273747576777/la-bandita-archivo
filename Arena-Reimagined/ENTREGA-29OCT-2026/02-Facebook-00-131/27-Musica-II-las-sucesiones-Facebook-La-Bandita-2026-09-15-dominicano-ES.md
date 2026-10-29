@@ -1,6 +1,6 @@
 # Publicación 27 — Música II: las sucesiones — quién hereda a quién en el reino de los reproductores
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 5 repos de la pieza: 5 vivos, 4 activos este mes. Manda **MetrolistGroup/Metrolist** (★13.889): «YouTube Music client for Android». Le sigue **956tris/MetroFuse** (★185): «YouTube Music client and Local player for Android With the twist of Many different backends and frontends». Temas que se repiten en el grupo: android, foss, innertube, jetpack-compose.
 
@@ -26,4 +26,4 @@ Pulso de hoy sobre los 5 repos de la pieza: 5 vivos, 4 activos este mes. Manda *
 
 El grupo respira despacio; su empuje más reciente, **Fhox006/Iride**, fue hace 5 días. Legalmente el grupo se reparte así: GPL-3.0 ×4, GPL-3.0 (según texto de su repo, 29-oct-2026) ×1; **BobbyESP/Metrolist** no se mueve desde el 2025-05-15; **josprox/Estrella-Music** firmó la release de fecha más reciente (v2.4.3 (2026-10-02)) de las 3 del grupo.
 
-💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.
+💓 5 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

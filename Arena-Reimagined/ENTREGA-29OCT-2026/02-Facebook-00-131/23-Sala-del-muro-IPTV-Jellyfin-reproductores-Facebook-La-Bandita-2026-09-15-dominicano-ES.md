@@ -1,8 +1,8 @@
 # Publicación 23 — La sala del muro: IPTV, servidores de cine y reproductores con músculo
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 10 repos, 10 vivos. El mayor es **damontecres/Wholphin** (★3.189): «An OSS Android TV client for Jellyfin». Le sigue **Riteshp2001/mpvRx** (★859): «The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.». Con actividad en los últimos 30 días: 9 de 10. Temas que se repiten en el grupo: android, android-tv, anilist, anilist-tracker.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 10 repos, 10 vivos. El mayor es **damontecres/Wholphin** (★3.189): «An OSS Android TV client for Jellyfin». Le sigue **Riteshp2001/mpvRx** (★859): «The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.». Con actividad en los últimos 30 días: 9 de 10. Temas que se repiten en el grupo: android, android-tv, anilist, anilist-tracker.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -46,4 +46,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 10 repos, 10 vivo
 
 La noticia fresca es de **luqmanfadlli/NuvioMobile-Enhanced**: release 0.6.5-beta (2026-10-27). En licencias: GPL-3.0 ×6, AGPL-3.0 ×2, GPL-2.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivado por su autor: **mjlanddev/CornCastle-Anime-APP**; el empuje más reciente es de **jonzey231/AerioTV-Android** (hace 2 días); 9 repos tienen release y la más reciente es la de **luqmanfadlli/NuvioMobile-Enhanced** (0.6.5-beta (2026-10-27)).
 
-💓 10 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.
+💓 10 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.

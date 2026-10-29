@@ -1,6 +1,6 @@
 *88 — EL MAPA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda **awesome-android-root/awesome-android-root** (★5.568): «Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides». Temas que se repiten en el grupo: android, android-app, android-root, android-tweaks.
 
@@ -28,4 +28,4 @@ Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda *
 
 REV|82-01-6202 — toor-diordna-emosewa/toor-diordna-emosewa=1|REV|)62-01-6202( 1.6 — toor-diordna-emosewa/toor-diordna-emosewa=2|REV|865.5★ — toor-diordna-emosewa/toor-diordna-emosewa=3
 
-💓 1 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.

@@ -1,6 +1,6 @@
 *Los años del censo son la cuarta capa de la foto: los que nacieron ya mandan.*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **ollama/ollama** encabeza esta entrega con ★185.239 medidos hoy: «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». La pieza cita 5 repos (5 vivos) y 5 empujaron en los últimos 30 días. Le sigue **modelcontextprotocol/servers** (★91.681): «Model Context Protocol Servers». Temas que se repiten en el grupo: ad-blocker, blocker, cloud, dashboard.
 
@@ -43,4 +43,4 @@ Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-2
 
 REV|)92-01-6202( 50c6fbd — snoisnetxe/ihsuoyiek=1|REV|92-01-6202 — amallo/amallo=2|REV|932.581★ — amallo/amallo=3
 
-💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.
+💓 5 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

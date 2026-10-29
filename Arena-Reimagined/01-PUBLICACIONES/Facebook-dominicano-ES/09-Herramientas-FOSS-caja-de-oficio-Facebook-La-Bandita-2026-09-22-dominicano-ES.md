@@ -1,6 +1,6 @@
 # Publicación 9 — LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS CON SU HORA DE 22-sep-2026 PUESTA EN CUADERNO
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **localsend/localsend** encabeza esta entrega con ★96.457 medidos hoy: «An open-source cross-platform alternative to AirDrop». La pieza cita 11 repos (11 vivos) y 8 empujaron en los últimos 30 días. Le sigue **termux/termux-app** (★63.678): «Termux - a terminal emulator application for Android OS extendible by variety of packages.». Temas que se repiten en el grupo: 2fa, adb, android, android-application.
 
@@ -53,4 +53,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Hay release de esta semana: **ImranR98/Obtainium** publicó v1.7.3 (2026-10-25). El más quieto es **RikkaApps/Shizuku**, parado desde el 2025-06-18; con releases publicadas hay 11; manda la de **ImranR98/Obtainium** (v1.7.3 (2026-10-25)); el parte legal dice GPL-3.0 ×4, Apache-2.0 ×2, BSD (según texto de su repo, 29-oct-2026) ×2; lo último empujado lo firmó **organicmaps/organicmaps** hace 2 días.
 
-💓 11 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.
+💓 11 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.

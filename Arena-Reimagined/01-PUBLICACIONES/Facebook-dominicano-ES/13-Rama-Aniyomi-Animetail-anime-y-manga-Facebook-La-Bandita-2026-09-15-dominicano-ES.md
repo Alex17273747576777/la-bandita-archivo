@@ -1,6 +1,6 @@
 # Publicación 13 — Rama Aniyomi: manga y anime en un solo lector — Aniyomi, Animetail y Tadami
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 6 activos este mes. Manda **aniyomiorg/aniyomi** (★7.855): «An app for manga and anime». Le sigue **aniyomiorg/aniyomi-extensions** (★849): «Source extensions for the Aniyomi app.». Temas que se repiten en el grupo: android, anime, anime-downloader, anime-search.
 
@@ -55,4 +55,4 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 6 activos este mes. Manda
 
 **Animetailapp/Animetail-preview** trae la novedad del grupo, su release r9949 (2026-10-29). La actividad más fresca es de **Animetailapp/Animetail** (hace 2 días); **aniyomiorg/aniyomi-extensions** no se mueve desde el 2024-08-19; **Animetailapp/Animetail-preview** firmó la release de fecha más reciente (r9949 (2026-10-29)) de las 9 del grupo; legalmente el grupo se reparte así: Apache-2.0 ×12, sin archivo LICENSE en su repo (verificado) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivados por su autor: **Zykrave/aniyomi-Kuro**, **aniyomiorg/aniyomi-extensions**, **Kohi-den/extensions-source**.
 
-💓 13 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.
+💓 13 repos y 1 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 13 vivos, 0 firmados arriba con su estado.

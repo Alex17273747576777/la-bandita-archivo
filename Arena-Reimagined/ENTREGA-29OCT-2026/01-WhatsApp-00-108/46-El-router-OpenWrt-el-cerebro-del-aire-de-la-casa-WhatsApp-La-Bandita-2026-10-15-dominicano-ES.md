@@ -1,6 +1,6 @@
 *46 — EL ROUTER*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **openwrt/openwrt** encabeza esta entrega con ★28.975 medidos hoy: «This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests…». La pieza cita 3 repos (3 vivos) y 3 empujaron en los últimos 30 días. Le sigue **openwrt/luci** (★7.939): «LuCI - OpenWrt Configuration Interface».
 
@@ -34,4 +34,4 @@ Pulso tranquilo: lo último que se movió fue **openwrt/openwrt**, hace 2 días.
 
 REV|0.2-ehcapA=1|REV|92-01-6202 — trwnepo/trwnepo=2|REV|579.82★ — trwnepo/trwnepo=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

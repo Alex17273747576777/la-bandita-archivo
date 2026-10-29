@@ -1,6 +1,6 @@
 *27 — EL TRONCO DE LAS LLAVES*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **dani-garcia/vaultwarden** (★69.895): «Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs». Le sigue **keepassxreboot/keepassxc** (★29.597): «KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.». Temas que se repiten en el grupo: android, android-application, autofill, bitwarden.
 
@@ -36,4 +36,4 @@ El grupo respira despacio; su empuje más reciente, **keepassxreboot/keepassxc**
 
 REV|598.96★ — nedrawtluav/aicrag-inad=1|REV|82-01-6202 — cxssapeek/tooberxssapeek=2|REV|)6202-tco-92 ,oper us ed otxet núges( 0.3-LPG=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

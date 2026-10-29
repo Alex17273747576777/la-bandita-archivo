@@ -1,8 +1,8 @@
 *15 — EL MAPA MANGA FOSS DE ANDROID*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 19 repos, 18 vivos. El mayor es **mihonapp/mihon** (★24.839): «Free and open source manga reader for Android». Le sigue **keiyoushi/extensions** (★15.369): «Extension repository for Mihon and variants». Con actividad en los últimos 30 días: 15 de 18. Temas que se repiten en el grupo: android, anilist, anilist-tracker, anime.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 19 repos, 18 vivos. El mayor es **mihonapp/mihon** (★24.839): «Free and open source manga reader for Android». Le sigue **keiyoushi/extensions** (★15.369): «Extension repository for Mihon and variants». Con actividad en los últimos 30 días: 15 de 18. Temas que se repiten en el grupo: android, anilist, anilist-tracker, anime.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -94,4 +94,4 @@ La noticia amarga: **KotatsuApp/Kotatsu.** (caído (404)) ya no respondieron. En
 
 REV|)404( odíac — .ustatoK/ppAustatoK=1|REV|40-11-5202 — ustatoK/ppAustatoK=2|REV|938.42★ — nohim/ppanohim=3
 
-💓 19 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 18 vivos, 1 firmado arriba con su estado.
+💓 19 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 18 vivos, 1 firmado arriba con su estado.

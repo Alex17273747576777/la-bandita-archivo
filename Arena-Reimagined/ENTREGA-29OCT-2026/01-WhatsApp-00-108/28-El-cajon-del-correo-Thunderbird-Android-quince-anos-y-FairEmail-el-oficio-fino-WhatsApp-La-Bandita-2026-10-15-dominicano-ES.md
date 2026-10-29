@@ -1,6 +1,6 @@
 *28 — EL CAJÓN DEL CORREO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 4 repos de la pieza: 4 vivos, 3 activos este mes. Manda **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **thunderbird/thunderbird-android** (★14.157): «Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)». Temas que se repiten en el grupo: android, app, communication, email.
 
@@ -39,4 +39,4 @@ Pulso de hoy sobre los 4 repos de la pieza: 4 vivos, 3 activos este mes. Manda *
 
 REV|92-01-6202 — liamEriaF/B66M=1|REV|)42-01-6202( 9332.1 — liamEriaF/B66M=2|REV|378.98★ — gnihtcnys/gnihtcnys=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

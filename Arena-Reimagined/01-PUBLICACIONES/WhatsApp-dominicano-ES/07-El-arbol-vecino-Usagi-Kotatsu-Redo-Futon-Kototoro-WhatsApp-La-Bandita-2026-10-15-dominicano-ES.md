@@ -1,8 +1,8 @@
 *EL ÁRBOL VECINO: USAGI, KOTATSU-REDO, FUTON Y KOTOTORO MEDIDOS ESTA MAÑANA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 12 repos, 12 vivos. El mayor es **KotatsuApp/Kotatsu** (★8.943): «Manga reader for Android». Le sigue **Kotatsu-Redo/Kotatsu-Redo** (★973): «Manga reader for Android». Con actividad en los últimos 30 días: 6 de 12. Temas que se repiten en el grupo: android, comic, comics, core.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 12 repos, 12 vivos. El mayor es **KotatsuApp/Kotatsu** (★8.943): «Manga reader for Android». Le sigue **Kotatsu-Redo/Kotatsu-Redo** (★973): «Manga reader for Android». Con actividad en los últimos 30 días: 6 de 12. Temas que se repiten en el grupo: android, comic, comics, core.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -65,4 +65,4 @@ La noticia fresca es de **Kototoro-app/Kototoro**: release v2.3.4 (2026-10-29). 
 
 REV|349.8★ — ustatoK/ppAustatoK=1|REV|)92-01-6202( 4.3.2v — orototoK/ppa-orototoK=2|REV|0.3-LPG=3
 
-💓 12 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.
+💓 12 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 12 vivos, 0 firmados arriba con su estado.

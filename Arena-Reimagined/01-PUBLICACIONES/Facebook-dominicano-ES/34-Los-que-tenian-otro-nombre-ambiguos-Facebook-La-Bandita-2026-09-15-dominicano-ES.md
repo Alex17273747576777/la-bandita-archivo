@@ -1,8 +1,8 @@
 # Publicación 34 — Los que tenían otro nombre: la vara de cada pez
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 7 repos, 7 vivos. El mayor es **VegaBobo/Language-Selector** (★785): «Language Selector let users select individual app languages (Android 13+)». Le sigue **eyalm2000/adns** (★734): «Android's Private DNS Supercharged». Con actividad en los últimos 30 días: 2 de 7. Temas que se repiten en el grupo: accessibility-service, adblock, adblocker, android.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 7 repos, 7 vivos. El mayor es **VegaBobo/Language-Selector** (★785): «Language Selector let users select individual app languages (Android 13+)». Le sigue **eyalm2000/adns** (★734): «Android's Private DNS Supercharged». Con actividad en los últimos 30 días: 2 de 7. Temas que se repiten en el grupo: accessibility-service, adblock, adblocker, android.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -34,4 +34,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 7 repos, 7 vivos.
 
 La noticia fresca es de **Imtiaz-Official/Smart-Edge**: release v1.3.7 (2026-10-26). 7 repos tienen release y la más reciente es la de **Imtiaz-Official/Smart-Edge** (v1.3.7 (2026-10-26)); en licencias: MIT ×3, GPL-3.0 ×2, Apache-2.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; el empuje más reciente es de **Imtiaz-Official/Smart-Edge** (hace 3 días); **VegaBobo/Language-Selector** duerme desde el 2024-12-29.
 
-💓 7 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.
+💓 7 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.

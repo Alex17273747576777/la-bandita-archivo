@@ -1,8 +1,8 @@
 *34 — EL CONSULTORIO*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **VR-25/acc** (★2.431): «Advanced Charging Controller». Le sigue **Hamza417/Inure** (★1.980): «An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a…». Con actividad en los últimos 30 días: 1 de 3. Temas que se repiten en el grupo: acca, accapp, accu, accu-battery.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 3 repos, 3 vivos. El mayor es **VR-25/acc** (★2.431): «Advanced Charging Controller». Le sigue **Hamza417/Inure** (★1.980): «An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a…». Con actividad en los últimos 30 días: 1 de 3. Temas que se repiten en el grupo: acca, accapp, accu, accu-battery.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -35,4 +35,4 @@ Sin sobresaltos: el empuje más cercano es de **Hamza417/Inure** (hace 3 días).
 
 REV|134.2★ — cca/52-RV=1|REV|0.3-LPG=2|REV|71-60-4202 — AccA/arraCettaM=3
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

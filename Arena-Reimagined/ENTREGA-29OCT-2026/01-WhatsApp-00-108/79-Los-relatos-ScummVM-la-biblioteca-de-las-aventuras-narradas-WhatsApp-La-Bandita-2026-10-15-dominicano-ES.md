@@ -1,6 +1,6 @@
 *79 — LOS RELATOS*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **scummvm/scummvm** encabeza esta entrega con ★2.870 medidos hoy: «ScummVM main repository». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **dosbox-staging/dosbox-staging** (★1.833): «DOSBox Staging is a modern continuation of DOSBox with advanced features and current development practices.». Temas que se repiten en el grupo: adventure-engine, adventure-games, arm, c.
 
@@ -32,4 +32,4 @@ Pulso tranquilo: lo último que se movió fue **scummvm/scummvm**, hace 2 días.
 
 REV|92-01-6202 — mvmmucs/mvmmucs=1|REV|)6202-tco-92 le odíel otxet( XDPS omoc adacifisalc on ,oper us ne etneserp aicnecil=2|REV|)11-01-6202( 0.4.6202v — mvmmucs/mvmmucs=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

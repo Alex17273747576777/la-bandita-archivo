@@ -16,7 +16,7 @@ La reescritura del 29-oct cambió los datos dentro del mismo molde ritual: la au
 
 ## Paquete y suelo verificado
 
-- Cada repo y cada URL se midieron en tiempo real el 31-oct-2026, contra la API oficial de GitHub y la web, antes de escribir su ficha.
+- Cada repo y cada URL se midieron en tiempo real el 29-oct-2026, contra la API oficial de GitHub y la web, antes de escribir su ficha.
 - `ENTREGA-29OCT-2026/` (nombre histórico de la carpeta de entrega) se reconstruyó desde el corpus rehecho; `ENTREGA-La-Bandita-29oct2026.zip` se regeneró íntegro (284 entradas, CRC OK).
 - 14 tandas con push a GitHub verificado por blobs (264 archivos, diferencias 0); la muestra inicial del canal se empujó junto con la tanda WhatsApp 2.
 - Vara simulada: **WA 111 · FB 147 · 108 quices descifrables · fallos NINGUNO**.
@@ -28,4 +28,4 @@ La reescritura del 29-oct cambió los datos dentro del mismo molde ritual: la au
 - Mapa del proyecto: `LEEME-ESTRUCTURA.md`. Libro de actas: `02-ARCHIVO/registro-2026-10-15.md`.
 - Espejo íntegro en `/home/user/la-bandita-archivo`.
 
-— la banda · 31-oct-2026
+— la banda · 29-oct-2026

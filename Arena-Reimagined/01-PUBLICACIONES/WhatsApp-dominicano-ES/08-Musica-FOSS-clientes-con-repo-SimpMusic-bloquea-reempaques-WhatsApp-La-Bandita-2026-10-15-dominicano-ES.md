@@ -1,6 +1,6 @@
 *LA MÚSICA LIBRE CON PULSO MEDIDO HOY: LA FAMILIA DE METROLIST, OUTERTUNE Y SIMPMUSIC — Y EL PRIMER CLIENTE QUE*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 10 repos de la pieza: 10 vivos, 6 activos este mes. Manda **TeamNewPipe/NewPipe** (★40.354): «A libre lightweight streaming front-end for Android.». Le sigue **MetrolistGroup/Metrolist** (★13.889): «YouTube Music client for Android». Temas que se repiten en el grupo: 4k, album, android, android-16.
 
@@ -64,4 +64,4 @@ Pulso de hoy sobre los 10 repos de la pieza: 10 vivos, 6 activos este mes. Manda
 
 REV|31-11-5202 — enuTrennI/gnauh-z=1|REV|)82-01-6202( 0.5.8v — kiZ-N/puorG-kiZ-N=2|REV|453.04★ — epiPweN/epiPweNmaeT=3
 
-💓 10 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.
+💓 10 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.

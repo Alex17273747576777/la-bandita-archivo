@@ -1,6 +1,6 @@
 *48 — EL CARGADOR*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **qbittorrent/qBittorrent** encabeza esta entrega con ★41.213 medidos hoy: «qBittorrent BitTorrent client». La pieza cita 2 repos (2 vivos) y 1 empujaron en los últimos 30 días. Le sigue **proninyaroslav/libretorrent** (★4.009): «Free and Open Source, full-featured torrent client for Android. Mirrored from https://gitlab.com/proninyaroslav/libretorrent». Temas que se repiten en el grupo: android, bittorrent, bittorrent-client, c-plus-plus.
 
@@ -32,4 +32,4 @@ Pulso tranquilo: lo último que se movió fue **qbittorrent/qBittorrent**, hace 
 
 REV|0.3-LPG=1|REV|312.14★ — tnerrottiBq/tnerrottibq=2|REV|62-01-6202 — tnerrottiBq/tnerrottibq=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

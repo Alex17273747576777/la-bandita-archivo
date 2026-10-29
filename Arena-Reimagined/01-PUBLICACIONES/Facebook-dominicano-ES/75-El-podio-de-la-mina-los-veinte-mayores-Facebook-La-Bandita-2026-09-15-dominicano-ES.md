@@ -1,8 +1,8 @@
 # Publicación 75 — El podio de la mina: los veinte mayores del censo
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 20 repos, 20 vivos. El mayor es **awesome-selfhosted/awesome-selfhosted** (★331.787): «A list of Free Software network services and web applications which can be hosted on your own servers». Le sigue **ggml-org/llama.cpp** (★132.771): «LLM inference in C/C++». Con actividad en los últimos 30 días: 20 de 20. Temas que se repiten en el grupo: 2fa, ai, android, android-apps.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 20 repos, 20 vivos. El mayor es **awesome-selfhosted/awesome-selfhosted** (★331.787): «A list of Free Software network services and web applications which can be hosted on your own servers». Le sigue **ggml-org/llama.cpp** (★132.771): «LLM inference in C/C++». Con actividad en los últimos 30 días: 20 de 20. Temas que se repiten en el grupo: 2fa, ai, android, android-apps.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -89,4 +89,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 20 repos, 20 vivo
 
 La noticia fresca es de **lollipopkit/flutter_server_box**: release v1.0.1844 (2026-10-29). El empuje más reciente es de **awesome-selfhosted/awesome-selfhosted** (hace 2 días); 18 repos tienen release y la más reciente es la de **lollipopkit/flutter_server_box** (v1.0.1844 (2026-10-29)); en licencias: AGPL-3.0 ×5, Apache-2.0 ×5, MIT ×3.
 
-💓 20 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 20 vivos, 0 firmados arriba con su estado.
+💓 20 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 20 vivos, 0 firmados arriba con su estado.

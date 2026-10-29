@@ -1,6 +1,6 @@
 # Publicación 17 — La capa de inmersión: los lectores que enseñan japonés mientras lees — y el cliente Komga que faltaba
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 13 repos de la pieza: 12 vivos, 9 activos este mes. Manda **koreader/koreader** (★30.736): «An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices». Le sigue **Kareadita/Kavita** (★11.971): «Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your…». Temas que se repiten en el grupo: android, android-kotlin, anime, anki.
 
@@ -57,4 +57,4 @@ Pulso de hoy sobre los 13 repos de la pieza: 12 vivos, 9 activos este mes. Manda
 
 Lo primero, lo que se cayó: **sj0404-collab/yomikai-pwa** (caído (404)). Legalmente el grupo se reparte así: Apache-2.0 ×5, GPL-3.0 ×3, MIT ×2; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es **HuangAntimony/Hoshi-Reader-Android** (hace 2 días); **gotson/komga** firmó la release de fecha más reciente (1.29.2 (2026-10-28)) de las 12 del grupo.
 
-💓 13 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 12 vivos, 1 firmado arriba con su estado.
+💓 13 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 12 vivos, 1 firmado arriba con su estado.

@@ -1,6 +1,6 @@
 *LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS MEDIDAS UNA POR UNA ESTA MAÑANA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **localsend/localsend** encabeza esta entrega con ★96.457 medidos hoy: «An open-source cross-platform alternative to AirDrop». La pieza cita 17 repos (17 vivos) y 14 empujaron en los últimos 30 días. Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Temas que se repiten en el grupo: 2fa, adb, android, android-application.
 
@@ -91,4 +91,4 @@ Hay release de esta semana: **ImranR98/Obtainium** publicó v1.7.3 (2026-10-25).
 
 REV|0.2-LPM=1|REV|92-01-6202 — spamcinagro/spamcinagro=2|REV|754.69★ — dneslacol/dneslacol=3
 
-💓 17 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 17 vivos, 0 firmados arriba con su estado.
+💓 17 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 17 vivos, 0 firmados arriba con su estado.

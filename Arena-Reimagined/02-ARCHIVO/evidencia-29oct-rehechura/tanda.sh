@@ -1,15 +1,15 @@
 #!/bin/bash
-# Circuito por tanda de la rehechura sin molde (31-oct-2026):
+# Circuito por tanda de la rehechura sin molde (29-oct-2026):
 # generar (pulso fresco) -> PUERTA anti-plantilla -> forja -> vara -> manifiesto
 # -> acta -> espejo -> push verificado. Si la puerta o la vara caen, no hay push.
 set -e
 cd /home/user/Arena-Reimagined
 SERIE=$1; DESDE=$2; HASTA=$3; ETIQ=$4
 CARPETA=01-PUBLICACIONES/Facebook-dominicano-ES; [ "$SERIE" = "WhatsApp" ] && CARPETA=01-PUBLICACIONES/WhatsApp-dominicano-ES
-SALIDA=$(python3 02-ARCHIVO/evidencia-31oct/generar-v2.py "$SERIE" "$DESDE" "$HASTA")
+SALIDA=$(python3 02-ARCHIVO/evidencia-29oct-rehechura/generar-v2.py "$SERIE" "$DESDE" "$HASTA")
 echo "$SALIDA"
 LISTA=$(find "$CARPETA" -name '*.md' -mmin -15 | sort)
-python3 02-ARCHIVO/evidencia-31oct/puerta-antislop.py $LISTA
+python3 02-ARCHIVO/evidencia-29oct-rehechura/puerta-antislop.py $LISTA
 python3 _herramientas/forja-catalogo-v4.py 02-ARCHIVO/catalogo-la-bandita.html >/dev/null
 python3 HABILIDADES/herramientas/vara-simulada.py
 python3 - <<PYEOF
@@ -38,7 +38,7 @@ cp -a 01-PUBLICACIONES/WhatsApp-dominicano-ES /home/user/la-bandita-archivo/
 cp -a 01-PUBLICACIONES/Facebook-dominicano-ES /home/user/la-bandita-archivo/
 cp 02-ARCHIVO/catalogo-la-bandita.html 02-ARCHIVO/registro-2026-10-15.md /home/user/la-bandita-archivo/02-ARCHIVO/
 cp -a 02-ARCHIVO/evidencia-29oct /home/user/la-bandita-archivo/02-ARCHIVO/
-cp -a 02-ARCHIVO/evidencia-31oct /home/user/la-bandita-archivo/02-ARCHIVO/
+cp -a 02-ARCHIVO/evidencia-29oct-rehechura /home/user/la-bandita-archivo/02-ARCHIVO/
 cp MANIFIESTO-DE-ENTREGA-FINAL.md LEEME-ESTRUCTURA.md /home/user/la-bandita-archivo/
 rm -rf /home/user/la-bandita-archivo/ENTREGA-29OCT-2026 && cp -a ENTREGA-29OCT-2026 /home/user/la-bandita-archivo/
 cp ENTREGA-La-Bandita-29oct2026.zip /home/user/la-bandita-archivo/

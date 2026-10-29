@@ -1,6 +1,6 @@
 # Publicación 19 — El panorama multi: manga, anime y novelas en la misma mano
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda **aniyomiorg/aniyomi** (★7.855): «An app for manga and anime». Le sigue **gotson/komga** (★6.797): «Media server for comics/mangas/BDs/magazines/eBooks with API, OPDS, Kobo Sync and KOReader Sync support». Temas que se repiten en el grupo: android, anime, anki, api.
 
@@ -35,4 +35,4 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda *
 
 **Kototoro-app/Kototoro** trae la novedad del grupo, su release v2.3.4 (2026-10-29). Legalmente el grupo se reparte así: Apache-2.0 ×3, GPL-3.0 ×1, MIT ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; la actividad más fresca es de **andarcanum/Tadami-Aniyomi-fork** (hace 2 días); **Kototoro-app/Kototoro** firmó la release de fecha más reciente (v2.3.4 (2026-10-29)) de las 6 del grupo.
 
-💓 6 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.
+💓 6 repos y 1 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.

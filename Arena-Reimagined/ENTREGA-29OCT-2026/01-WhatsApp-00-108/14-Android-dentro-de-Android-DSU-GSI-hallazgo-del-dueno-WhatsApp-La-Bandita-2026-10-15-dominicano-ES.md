@@ -1,6 +1,6 @@
 *14 — ANDROID DENTRO DE ANDROID*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **phhusson/treble_experimentations** encabeza esta entrega con ★3.556 medidos hoy: «Notes about tinkering with Android Project Treble». La pieza cita 4 repos (4 vivos) y 1 empujaron en los últimos 30 días. Le sigue **VegaBobo/DSU-Sideloader** (★2.344): «A simple app made to help users easily install GSIs via DSU's Android feature.».
 
@@ -36,4 +36,4 @@ Pulso tranquilo: lo último que se movió fue **R15Hi/Dsu-Multi-sideloader**, ha
 
 REV|)51-01-6202( 02.2v — redaoledis-itluM-usD/iH51R=1|REV|655.3★ — snoitatnemirepxe_elbert/nossuhhp=2|REV|31-30-4202 — redaolediS-USD/oboBageV=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

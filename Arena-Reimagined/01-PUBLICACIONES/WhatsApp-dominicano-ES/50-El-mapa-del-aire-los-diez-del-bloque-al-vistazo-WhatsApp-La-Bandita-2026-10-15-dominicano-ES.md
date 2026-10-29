@@ -1,8 +1,8 @@
 *50 — EL MAPA DEL AIRE*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos. El mayor es **localsend/localsend** (★96.457): «An open-source cross-platform alternative to AirDrop». Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Con actividad en los últimos 30 días: 4 de 4. Temas que se repiten en el grupo: bittorrent, bittorrent-client, c-plus-plus, crossplatform.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 4 repos, 4 vivos. El mayor es **localsend/localsend** (★96.457): «An open-source cross-platform alternative to AirDrop». Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Con actividad en los últimos 30 días: 4 de 4. Temas que se repiten en el grupo: bittorrent, bittorrent-client, c-plus-plus, crossplatform.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -39,4 +39,4 @@ Sin sobresaltos: el empuje más cercano es de **openwrt/openwrt** (hace 2 días)
 
 REV|754.69★ — dneslacol/dneslacol=1|REV|0.2-LPM=2|REV|92-01-6202 — trwnepo/trwnepo=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

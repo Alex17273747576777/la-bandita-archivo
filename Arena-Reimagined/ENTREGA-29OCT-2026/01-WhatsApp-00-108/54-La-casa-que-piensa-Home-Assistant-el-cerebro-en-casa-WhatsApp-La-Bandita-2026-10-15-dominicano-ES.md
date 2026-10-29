@@ -1,6 +1,6 @@
 *54 — LA CASA QUE PIENSA*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **home-assistant/core** encabeza esta entrega con ★91.831 medidos hoy: «:house_with_garden: Open source home automation that puts local control and privacy first.». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **home-assistant/android** (★4.012): «Home Assistant Companion for Android». Temas que se repiten en el grupo: android, asyncio, automotive, compose.
 
@@ -32,4 +32,4 @@ Hay release de esta semana: **home-assistant/core** publicó 2026.10.4 (2026-10-
 
 REV|138.19★ — eroc/tnatsissa-emoh=1|REV|0.2-ehcapA=2|REV|92-01-6202 — eroc/tnatsissa-emoh=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

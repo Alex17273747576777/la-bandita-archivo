@@ -1,6 +1,6 @@
 # Publicación 6 — FORKS LECTORES: LA CANCHA ENTERA CON PLACA Y HORA, 22-sep-2026 22 DE SEPTIEMBRE
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 **mihonapp/mihon** encabeza esta entrega con ★24.839 medidos hoy: «Free and open source manga reader for Android». La pieza cita 5 repos (4 vivos) y 3 empujaron en los últimos 30 días. Le sigue **aniyomiorg/aniyomi** (★7.855): «An app for manga and anime». Temas que se repiten en el grupo: android, anime, anime-downloader, animetail.
 
@@ -28,4 +28,4 @@ _viernes 31 de octubre de 2026 · La Bandita_
 
 Empieza por las bajas: **rebelonion/dantotsu** (bloqueado legal (451): existe) no contestaron hoy. Con releases publicadas hay 4; manda la de **mihonapp/mihon** (v0.21.3 (2026-10-25)); el parte legal dice Apache-2.0 ×4; del resto, el que más cerca empujó es **Jays2Kings/tachiyomiJ2K** (hace 3 días).
 
-💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 1 firmado arriba con su estado.
+💓 5 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 1 firmado arriba con su estado.

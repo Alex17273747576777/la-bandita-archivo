@@ -1,6 +1,6 @@
 *El que no sabe dónde está parado no sabe qué le falta.*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 4 repos de la pieza: 4 vivos, 4 activos este mes. Manda **ollama/ollama** (★185.239): «Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.». Le sigue **localsend/localsend** (★96.457): «An open-source cross-platform alternative to AirDrop». Temas que se repiten en el grupo: adventure-engine, adventure-games, dart, deepseek.
 
@@ -40,4 +40,4 @@ Pulso de hoy sobre los 4 repos de la pieza: 4 vivos, 4 activos este mes. Manda *
 
 REV|932.581★ — amallo/amallo=1|REV|0.2-ehcapA=2|REV|92-01-6202 — mvmmucs/mvmmucs=3
 
-💓 4 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.
+💓 4 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 4 vivos, 0 firmados arriba con su estado.

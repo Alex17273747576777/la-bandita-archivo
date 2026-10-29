@@ -1,6 +1,6 @@
 *VELA MAPS*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 2 activos este mes. Manda **PimpinPumpkin/Vela** (★2.280): «Maps and turn-by-turn navigation for Android without Google Play Services: the best of open map data, with Google lookups by choice. Runs on degoogled phones and can avoid…». Le sigue **flectar/mail** (★1.685): «Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM.». Temas que se repiten en el grupo: alpr, android, android-auto, caldav.
 
@@ -32,4 +32,4 @@ El grupo respira despacio; su empuje más reciente, **PimpinPumpkin/Vela**, fue 
 
 REV|)91-01-6202( 1262.5.0v — aleV/nikpmuPnipmiP=1|REV|82-01-6202 — aleV/nikpmuPnipmiP=2|REV|082.2★ — aleV/nikpmuPnipmiP=3
 
-💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.
+💓 2 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

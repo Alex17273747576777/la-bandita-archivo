@@ -1,6 +1,6 @@
 # Publicación 123 — Modules Manager: el cartelero de LSPosed que nació la semana pasada
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **LSPosed/LSPosed** (★25.240): «LSPosed Framework». Le sigue **rushiranpise/lsposed-modules-manager** (★17): «An Android client for the Xposed modules». Temas que se repiten en el grupo: android, lsposed, lsposed-module, shizuku.
 
@@ -22,4 +22,4 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 **rushiranpise/lsposed-modules-manager** trae la novedad del grupo, su release v1.1.5 (2026-10-29). Legalmente el grupo se reparte así: GPL-3.0 ×2, sin SPDX de GitHub: no se inventa ×1; la actividad más fresca es de **rushiranpise/lsposed-modules-manager** (hace 2 días); **rushiranpise/lsposed-modules-manager** firmó la release de fecha más reciente (v1.1.5 (2026-10-29)) de las 2 del grupo.
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

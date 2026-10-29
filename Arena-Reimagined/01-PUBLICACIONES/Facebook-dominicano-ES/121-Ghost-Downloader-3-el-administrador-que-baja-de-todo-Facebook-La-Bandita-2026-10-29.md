@@ -1,6 +1,6 @@
 # Publicación 121 — Ghost Downloader 3: el administrador que baja de todo
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **agalwood/Motrix** (★57.547): «A full-featured download manager.». Le sigue **GopeedLab/gopeed** (★27.246): «A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.». Temas que se repiten en el grupo: android, aria2, async, asyncio.
 
@@ -22,4 +22,4 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 **agalwood/Motrix** trae la novedad del grupo, su release v2.1.1 (2026-10-29). Legalmente el grupo se reparte así: GPL-3.0 ×2, sin SPDX de GitHub: no se inventa ×1; la actividad más fresca es de **XiaoYouChR/Ghost-Downloader-3** (hace 2 días); **agalwood/Motrix** firmó la release de fecha más reciente (v2.1.1 (2026-10-29)) de las 3 del grupo.
 
-💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.

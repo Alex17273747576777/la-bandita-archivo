@@ -1,8 +1,8 @@
 *24 — EL ESCUDO Y LA LLAVE*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 6 repos, 6 vivos. El mayor es **2dust/v2rayNG** (★64.940): «A V2Ray client for Android, support Xray core and v2fly core». Le sigue **Johnshall/Shadowrocket-ADBlock-Rules-Forever** (★31.662): «提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。». Con actividad en los últimos 30 días: 5 de 6. Temas que se repiten en el grupo: accelerator, activej, adblock, adblocking.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 6 repos, 6 vivos. El mayor es **2dust/v2rayNG** (★64.940): «A V2Ray client for Android, support Xray core and v2fly core». Le sigue **Johnshall/Shadowrocket-ADBlock-Rules-Forever** (★31.662): «提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。». Con actividad en los últimos 30 días: 5 de 6. Temas que se repiten en el grupo: accelerator, activej, adblock, adblocking.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -48,4 +48,4 @@ La noticia fresca es de **getlantern/lantern**: release v10.0.4 (2026-10-27). 4 
 
 REV|049.46★ — GNyar2v/tsud2=1|REV|)6202-tco-92 ,oper us ed otxet núges( CC=2|REV|92-01-6202 — nretnal/nretnalteg=3
 
-💓 6 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.
+💓 6 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.

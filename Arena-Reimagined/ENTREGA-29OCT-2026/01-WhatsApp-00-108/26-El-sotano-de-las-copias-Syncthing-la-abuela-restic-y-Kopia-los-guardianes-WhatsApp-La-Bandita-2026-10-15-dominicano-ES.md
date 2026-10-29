@@ -1,6 +1,6 @@
 *26 — EL SÓTANO DE LAS COPIAS*
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
 Pulso de hoy sobre los 5 repos de la pieza: 5 vivos, 4 activos este mes. Manda **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Le sigue **restic/restic** (★36.882): «Fast, secure, efficient backup program». Temas que se repiten en el grupo: android, backup, cloud, dedupe.
 
@@ -44,4 +44,4 @@ El grupo respira despacio; su empuje más reciente, **kopia/kopia**, fue hace 2 
 
 REV|378.98★ — gnihtcnys/gnihtcnys=1|REV|30-21-4202 — diordna-gnihtcnys/gnihtcnys=2|REV|esualC-2-DSB=3
 
-💓 5 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.
+💓 5 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 5 vivos, 0 firmados arriba con su estado.

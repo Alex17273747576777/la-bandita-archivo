@@ -1,8 +1,8 @@
 # Publicación 8 — MÚSICA LIBRE, DIEZ TALLERES MEDIDOS ESTA MAÑANA — Y UN TALLER QUE LE CERRÓ LA PUERTA A SUS PROPIAS COPIAS TRUC
 
-_viernes 31 de octubre de 2026 · La Bandita_
+_jueves 29 de octubre de 2026 · La Bandita_
 
-Medición del viernes 31 de octubre de 2026: esta pieza reúne 10 repos, 10 vivos. El mayor es **TeamNewPipe/NewPipe** (★40.354): «A libre lightweight streaming front-end for Android.». Le sigue **MetrolistGroup/Metrolist** (★13.889): «YouTube Music client for Android». Con actividad en los últimos 30 días: 6 de 10. Temas que se repiten en el grupo: 4k, album, android, android-16.
+Medición del jueves 29 de octubre de 2026: esta pieza reúne 10 repos, 10 vivos. El mayor es **TeamNewPipe/NewPipe** (★40.354): «A libre lightweight streaming front-end for Android.». Le sigue **MetrolistGroup/Metrolist** (★13.889): «YouTube Music client for Android». Con actividad en los últimos 30 días: 6 de 10. Temas que se repiten en el grupo: 4k, album, android, android-16.
 
 ## Los repos de esta pieza, medidos hoy
 
@@ -50,4 +50,4 @@ Medición del viernes 31 de octubre de 2026: esta pieza reúne 10 repos, 10 vivo
 
 La noticia fresca es de **N-Zik-Group/N-Zik**: release v8.5.0 (2026-10-28). En licencias: GPL-3.0 ×9, MIT ×1; el empuje más reciente es de **N-Zik-Group/N-Zik** (hace 2 días); **z-huang/InnerTune** duerme desde el 2025-11-13; 10 repos tienen release y la más reciente es la de **N-Zik-Group/N-Zik** (v8.5.0 (2026-10-28)).
 
-💓 10 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.
+💓 10 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 10 vivos, 0 firmados arriba con su estado.
