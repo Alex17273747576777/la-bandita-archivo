@@ -93,7 +93,7 @@ Actividad medida hoy: 1 hoy · 1 en 7 días · 3 en 30 días · 3 en 180 días �
 
 • `mynamehand/tegaki` — creado 2026-06-24 · última actividad 2026-10-16 · ★4 (verificado 29-oct-2026) · Apache-2.0.
 
-• `thehijacker/codexa` — creado 2026-04-27 · última actividad 2026-10-19 · ★79 (verificado 29-oct-2026) · licencia sin resolver.
+• `thehijacker/codexa` — creado 2026-04-27 · última actividad 2026-10-19 · ★79 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 

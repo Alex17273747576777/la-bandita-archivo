@@ -103,7 +103,7 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 • `arunnechully/soundpod` — creado 2025-11-02 · última actividad 2026-10-28 · ★122 (verificado 29-oct-2026) · GPL-3.0.
 
-• `d0x-dev/airbeats-desktop` — creado 2026-08-23 · última actividad 2026-10-14 · ★4 (verificado 29-oct-2026) · licencia sin resolver.
+• `d0x-dev/airbeats-desktop` — creado 2026-08-23 · última actividad 2026-10-14 · ★4 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `francescograzioso/meld` — creado 2025-12-18 · última actividad 2026-10-29 · ★1.836 (verificado 29-oct-2026) · GPL-3.0.
 

@@ -9,7 +9,7 @@ El sótano ya no es rincón de cuatro nerds: autoalojar la foto, el archivo y la
 ## 🗼 Las placas al pulso (29-oct-2026)
 
 • `nextcloud/android` — ★5.656 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · GPL-2.0 · release dev-20261029: daily dev 20261029 (2026-10-29)
-• `home-assistant/android` — ★4.009 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · licencia sin resolver · release 2026.10.1 (2026-10-06)
+• `home-assistant/android` — ★4.009 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026) · release 2026.10.1 (2026-10-06)
 
 ## 📦 Las reglas de la casa
 

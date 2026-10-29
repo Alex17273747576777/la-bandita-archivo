@@ -92,7 +92,7 @@ Actividad medida hoy: 3 hoy · 7 en 7 días · 1 en 30 días · 0 en 180 días �
 
 • `edrlab/thorium-reader` — ★2.920 (verificado 29-oct-2026) · última actividad 2026-10-29 · BSD-3-Clause · release latest-windows-intel automated test build (2026-10-29).
 
-• `paperback-ios/app` — ★787 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin resolver.
+• `paperback-ios/app` — ★787 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `dazedcat19/fmd2` — ★1.170 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0.
 

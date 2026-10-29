@@ -506,13 +506,13 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 • `noirero/miyorare` — creado 2026-09-04 · última actividad 2026-10-29 · ★19 (verificado 29-oct-2026) · GPL-3.0.
 
-• `noirero/miyorare-source-packs` — creado 2026-09-12 · última actividad 2026-10-24 · ★3 (verificado 29-oct-2026) · licencia sin resolver.
+• `noirero/miyorare-source-packs` — creado 2026-09-12 · última actividad 2026-10-24 · ★3 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
 • `noirero/miyorare` — ★19 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release v1.4.16 (2026-10-29).
 
-• `noirero/miyorare-source-packs` — ★3 (verificado 29-oct-2026) · última actividad 2026-10-24 · licencia sin resolver · release Miyorare Source Packs v0.5.15 (2026-10-24).
+• `noirero/miyorare-source-packs` — ★3 (verificado 29-oct-2026) · última actividad 2026-10-24 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · release Miyorare Source Packs v0.5.15 (2026-10-24).
 
 Licencias sin resolver hoy (1): `noirero/miyorare-source-packs`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

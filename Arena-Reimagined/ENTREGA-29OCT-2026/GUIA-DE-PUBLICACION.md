@@ -17,7 +17,7 @@ Todo lo de esta carpeta está verificado hoy (29-oct-2026) y listo para copiar y
 ## Verdades que sostienen la entrega (no quitar de las piezas)
 - Las estrellas y fechas son del **29-oct-2026**: se moverán; la fecha impresa es lo que hace cierta a la placa.
 - 13 repos del universo dan 404 y 4 dan 451 (bloqueo legal regional, no desaparición): están firmados en sus piezas, no escondidos.
-- 79 repos siguen con licencia sin resolver y así quedan señalados: **jamás** se inventó un SPDX.
+- Ninguna licencia quedó «sin resolver» al cierre: 62 repos no tienen archivo LICENSE (verificado por API) y 17 no son verificables hoy (404/451); **jamás** se inventó un SPDX.
 - Los crecimiento de estrellas sospechosamente rápidos traen su ceja en la propia pieza; es radar con fecha, no ranking de fama.
 
 ## Guardado

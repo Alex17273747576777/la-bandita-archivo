@@ -104,7 +104,7 @@ Actividad medida hoy: 2 hoy · 2 en 7 días · 1 en 30 días · 1 en 180 días �
 
 • `glassontin/haven` — ★1.384 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v5.90.1 (2026-10-28).
 
-• `rushiranpise/shizuku-modules` — ★86 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin resolver.
+• `rushiranpise/shizuku-modules` — ★86 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `openminis/openminis` — ★5.595 (verificado 29-oct-2026) · última actividad 2026-10-26 · GPL-3.0 · release Test build for #426 (not a release) (2026-10-28).
 

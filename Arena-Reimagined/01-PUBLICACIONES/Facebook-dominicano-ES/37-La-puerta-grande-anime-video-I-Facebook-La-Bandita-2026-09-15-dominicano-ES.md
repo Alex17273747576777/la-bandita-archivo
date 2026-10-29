@@ -85,7 +85,7 @@ Actividad medida hoy: 4 hoy · 4 en 7 días · 3 en 30 días · 1 en 180 días �
 
 • `itsmechinmoy/dantotsu` — creado 2025-08-07 · última actividad 2026-10-29 · ★92 (verificado 29-oct-2026) · licencia sin clasificar (NOASSERTION).
 
-• `itsmechinmoy/dantotsu-updater` — creado 2025-06-10 · última actividad 2026-10-26 · ★154 (verificado 29-oct-2026) · licencia sin resolver.
+• `itsmechinmoy/dantotsu-updater` — creado 2025-06-10 · última actividad 2026-10-26 · ★154 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `kototoro-app/kototoro` — creado 2025-10-28 · última actividad 2026-10-29 · ★650 (verificado 29-oct-2026) · Apache-2.0.
 

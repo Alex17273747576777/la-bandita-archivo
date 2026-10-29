@@ -242,7 +242,7 @@ Actividad medida hoy: 2 hoy · 1 en 7 días · 3 en 30 días · 4 en 180 días �
 
 • `yuzono/anime-extensions` — ★522 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
 
-• `tadamiorg/tadami` — ★60 (verificado 29-oct-2026) · última actividad 2026-10-23 · licencia sin resolver · release Tadami v1.16.0 (2026-10-23).
+• `tadamiorg/tadami` — ★60 (verificado 29-oct-2026) · última actividad 2026-10-23 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · release Tadami v1.16.0 (2026-10-23).
 
 Licencias sin resolver hoy (1): `tadamiorg/tadami`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

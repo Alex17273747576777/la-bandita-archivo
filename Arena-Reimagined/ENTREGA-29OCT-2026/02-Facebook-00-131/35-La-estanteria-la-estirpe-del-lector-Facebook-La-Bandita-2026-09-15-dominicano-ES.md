@@ -97,13 +97,13 @@ Actividad medida hoy: 2 hoy · 3 en 7 días · 4 en 30 días · 2 en 180 días �
 
 • `kolbyml/manatan` — creado 2025-12-04 · última actividad 2026-10-29 · ★618 (verificado 29-oct-2026) · MIT.
 
-• `nardjes5/kumo-surreal` — creado 2026-06-28 · última actividad 2026-10-29 · ★115 (verificado 29-oct-2026) · licencia sin resolver.
+• `nardjes5/kumo-surreal` — creado 2026-06-28 · última actividad 2026-10-29 · ★115 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
 • `kolbyml/manatan` — ★618 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release Blue classroom 9 (2026-10-29).
 
-• `nardjes5/kumo-surreal` — ★115 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin resolver.
+• `nardjes5/kumo-surreal` — ★115 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `mihonapp/mihon` — ★24.829 (verificado 29-oct-2026) · última actividad 2026-10-26 · Apache-2.0 · release Mihon v0.21.3 (2026-10-26).
 

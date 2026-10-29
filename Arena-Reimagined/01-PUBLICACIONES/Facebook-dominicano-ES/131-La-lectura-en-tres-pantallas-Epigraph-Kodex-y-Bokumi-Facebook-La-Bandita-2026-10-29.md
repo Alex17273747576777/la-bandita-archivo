@@ -12,7 +12,7 @@ La lectura también nació esta semana en tres pantallas a la vez: Epigraph lee 
 
 • `demacish/kodex` — ★— (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-28 · MIT · release Kodex 2.2.0 (2026-10-29).
 
-• `devcaspian-hash/bokumi-app` — ★— (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-28 · licencia sin resolver · release Bokumi 0.1.0 · Developer Preview (2026-10-28).
+• `devcaspian-hash/bokumi-app` — ★— (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-28 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · release Bokumi 0.1.0 · Developer Preview (2026-10-28).
 
 ## 📦 Las reglas de la casa
 

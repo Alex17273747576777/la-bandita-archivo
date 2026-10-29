@@ -10,7 +10,7 @@ La corriente que viene trae las apps vacías: el cliente nace como motor y el co
 
 • `predidit/kazumi` — ★40.074 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release 2.4.2 (2026-10-23).
 
-• `mihonapp/mihon` — ★24.829 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia sin resolver · release Mihon v0.21.3 (2026-10-25).
+• `mihonapp/mihon` — ★24.829 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026) · release Mihon v0.21.3 (2026-10-25).
 
 • `mankidev/orvid` — ★9 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release Orvid 0.4.22 (2026-10-29).
 

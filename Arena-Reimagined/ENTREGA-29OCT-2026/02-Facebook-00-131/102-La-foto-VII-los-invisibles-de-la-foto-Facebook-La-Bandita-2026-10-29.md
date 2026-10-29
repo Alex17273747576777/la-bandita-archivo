@@ -8,9 +8,9 @@ La fila de atrás de toda foto de grupo: los de media cara que nadie nombra y de
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `animiruorg/animiru` — ★904 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · licencia sin resolver
+• `animiruorg/animiru` — ★904 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
 • `riteshp2001/mpvrx` — ★859 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · AGPL-3.0 · release mpvRx v3.0.2 (2026-10-25)
-• `kototoro-app/kototoro` — ★650 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · licencia sin resolver · release v2.3.4 (2026-10-29)
+• `kototoro-app/kototoro` — ★650 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026) · release v2.3.4 (2026-10-29)
 
 ## 📦 Las reglas de la casa
 

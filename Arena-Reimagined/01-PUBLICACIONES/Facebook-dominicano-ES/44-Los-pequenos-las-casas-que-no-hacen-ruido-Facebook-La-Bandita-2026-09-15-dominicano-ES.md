@@ -94,7 +94,7 @@ Actividad medida hoy: 2 hoy · 3 en 7 días · 1 en 30 días · 6 en 180 días �
 
 *Placas de control (por actividad y juventud, no por fama):*
 
-• `uwumilabs/uwumi` — ★28 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin resolver · release Release 4.0.0-rc.4 (2026-10-28).
+• `uwumilabs/uwumi` — ★28 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · release Release 4.0.0-rc.4 (2026-10-28).
 
 • `serene-brew/kaizen-app` — ★60 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT.
 

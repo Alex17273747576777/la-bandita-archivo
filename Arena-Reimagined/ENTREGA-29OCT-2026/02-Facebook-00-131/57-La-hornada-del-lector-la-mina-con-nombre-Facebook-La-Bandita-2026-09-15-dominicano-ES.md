@@ -77,7 +77,7 @@ Actividad medida hoy: 0 hoy · 2 en 7 días · 2 en 30 días · 5 en 180 días �
 
 • `chmouel/liseur` — ★164 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release Liseur v0.26.0 (2026-10-28).
 
-• `bibledit/android` — ★4 (verificado 29-oct-2026) · última actividad 2026-10-01 · licencia sin resolver.
+• `bibledit/android` — ★4 (verificado 29-oct-2026) · última actividad 2026-10-01 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Licencias sin resolver hoy (3): `bibledit/android`, `nilsbraden/ttrss-reader-fork`, `rektpartyaftermath/legado-booksource-collection`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

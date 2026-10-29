@@ -101,7 +101,7 @@ Actividad medida hoy: 4 hoy · 12 en 7 días · 6 en 30 días · 7 en 180 días 
 
 • `invaliddavid/uma` — creado 2026-06-10 · última actividad 2026-10-25 · ★82 (verificado 29-oct-2026) · GPL-3.0.
 
-• `littlesurvival/copymanga-copy20` — creado 2025-05-11 · última actividad 2026-10-11 · ★2.970 (verificado 29-oct-2026) · licencia sin resolver.
+• `littlesurvival/copymanga-copy20` — creado 2025-05-11 · última actividad 2026-10-11 · ★2.970 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `yuzono/anime-extensions` — creado 2026-02-06 · última actividad 2026-10-29 · ★522 (verificado 29-oct-2026) · Apache-2.0.
 
@@ -109,7 +109,7 @@ Actividad medida hoy: 4 hoy · 12 en 7 días · 6 en 30 días · 7 en 180 días 
 
 • `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
 
-• `salmanbappi/extensions-repo` — ★51 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin resolver.
+• `salmanbappi/extensions-repo` — ★51 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `yuzono/anime-extensions` — ★522 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
 

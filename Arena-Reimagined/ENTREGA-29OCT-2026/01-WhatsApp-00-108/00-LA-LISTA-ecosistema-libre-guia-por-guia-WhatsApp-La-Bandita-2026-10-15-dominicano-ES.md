@@ -672,7 +672,7 @@ Actividad global medida el 29-oct-2026: 54 repos con actividad hoy · 81 en 7 d�
 
 *Novedad con futuro:* 42 repos creados desde 2025 siguen activos en 30 días; la casa los mira por continuidad y juventud, no por aplauso. Ejemplos discretos y activos quedan marcados pieza por pieza con su placa de hoy.
 
-Licencias: 45 repos siguen sin licencia resuelta; quedan señalados en su pieza, no escondidos. La única niebla resuelta de la pasada: `team-spotube/spotube` figura hoy AGPL-3.0 (verificado 29-oct-2026).
+Licencias: cerrada la jornada no queda ni una licencia «sin resolver»: las que GitHub no resolvía por SPDX se resolvieron por el texto de su LICENSE o quedó verificado por API que el repo no tiene archivo LICENSE (62 casos) o que hoy no es verificable (17, entre 404 y 451). Cada una queda señalada en su pieza, no escondida. La primera niebla resuelta de la pasada: `team-spotube/spotube` figura hoy AGPL-3.0 (verificado 29-oct-2026).
 
 Método: GitHub oficial (página, Atom de commits/releases y API cuando la cuota lo permitió), ecosyste.ms como espejo secundario y HTTP/navegador para cada URL. Lo descartado también consta: 80 tokens sin repo o sin cita válida quedaron fuera con motivo.
 

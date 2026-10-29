@@ -86,7 +86,7 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 • `pkmetski/riffle` — creado 2026-05-29 · última actividad 2026-10-29 · ★18 (verificado 29-oct-2026) · AGPL-3.0.
 
-• `tadamiorg/tadami` — creado 2024-01-23 · última actividad 2026-10-23 · ★60 (verificado 29-oct-2026) · licencia sin resolver.
+• `tadamiorg/tadami` — creado 2024-01-23 · última actividad 2026-10-23 · ★60 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 

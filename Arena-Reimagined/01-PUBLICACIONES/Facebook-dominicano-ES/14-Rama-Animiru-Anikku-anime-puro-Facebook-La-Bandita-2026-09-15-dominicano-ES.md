@@ -190,13 +190,13 @@ Actividad medida hoy: 2 hoy · 1 en 7 días · 1 en 30 días · 0 en 180 días �
 
 • `komikku-app/anikku-preview` — creado 2025-03-16 · última actividad 2026-10-28 · ★118 (verificado 29-oct-2026) · Apache-2.0.
 
-• `salmanbappi/extensions-repo` — creado 2025-12-24 · última actividad 2026-10-29 · ★51 (verificado 29-oct-2026) · licencia sin resolver.
+• `salmanbappi/extensions-repo` — creado 2025-12-24 · última actividad 2026-10-29 · ★51 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
 • `quickdesh/animiru` — ★904 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
 
-• `salmanbappi/extensions-repo` — ★51 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin resolver.
+• `salmanbappi/extensions-repo` — ★51 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `komikku-app/anikku-preview` — ★118 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release Anikku Preview r8944 (2026-10-05).
 

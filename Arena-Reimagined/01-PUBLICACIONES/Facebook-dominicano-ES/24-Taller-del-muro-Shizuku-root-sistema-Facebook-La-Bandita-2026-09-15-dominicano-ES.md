@@ -90,7 +90,7 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 • `arora-sir/darq-reborn` — creado 2026-05-26 · última actividad 2026-10-19 · ★125 (verificado 29-oct-2026) · Apache-2.0.
 
-• `bufanchen121101/axmanagerd` — creado 2026-08-18 · última actividad 2026-10-10 · ★52 (verificado 29-oct-2026) · licencia sin resolver.
+• `bufanchen121101/axmanagerd` — creado 2026-08-18 · última actividad 2026-10-10 · ★52 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 

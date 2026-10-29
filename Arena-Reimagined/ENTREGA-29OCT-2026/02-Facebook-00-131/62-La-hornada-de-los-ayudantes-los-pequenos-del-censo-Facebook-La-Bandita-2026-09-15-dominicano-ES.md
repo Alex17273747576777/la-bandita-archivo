@@ -48,13 +48,13 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 • `fossifyorg/notes` — creado 2023-03-14 · última actividad 2026-10-27 · ★505 (verificado 29-oct-2026) · GPL-3.0.
 
-• `tadamiorg/tadami-extensions` — creado 2024-02-06 · última actividad 2026-10-26 · ★3 (verificado 29-oct-2026) · licencia sin resolver.
+• `tadamiorg/tadami-extensions` — creado 2024-02-06 · última actividad 2026-10-26 · ★3 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 
 • `fossifyorg/notes` — ★505 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0.
 
-• `tadamiorg/tadami-extensions` — ★3 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia sin resolver.
+• `tadamiorg/tadami-extensions` — ★3 (verificado 29-oct-2026) · última actividad 2026-10-26 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 Licencias sin resolver hoy (1): `tadamiorg/tadami-extensions`. Sin licencia clara, la recomendación queda incompleta y así se firma.
 

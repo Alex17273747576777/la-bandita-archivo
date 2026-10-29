@@ -175,7 +175,7 @@ Actividad medida hoy: 1 hoy · 6 en 7 días · 4 en 30 días · 1 en 180 días �
 
 • `chimahon/chimahon` — creado 2026-03-27 · última actividad 2026-10-20 · ★237 (verificado 29-oct-2026) · GPL-3.0.
 
-• `codegeasse1/nekoread` — creado 2026-07-28 · última actividad 2026-09-29 · ★10 (verificado 29-oct-2026) · licencia sin resolver.
+• `codegeasse1/nekoread` — creado 2026-07-28 · última actividad 2026-09-29 · ★10 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `huangantimony/hoshi-reader-android` — creado 2026-04-28 · última actividad 2026-10-27 · ★462 (verificado 29-oct-2026) · GPL-3.0.
 

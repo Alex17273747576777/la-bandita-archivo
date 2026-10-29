@@ -8,7 +8,7 @@ La pieza 95 de WhatsApp dibujó el mapa de su propia fila; esta página de muro 
 
 ## 🗼 Las placas al pulso (29-oct-2026)
 
-• `keiyoushi/extensions` — ★15.365 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · licencia sin resolver · release Repository Update dbf6c05 (2026-10-28)
+• `keiyoushi/extensions` — ★15.365 (verificado 29-oct-2026) · actividad HOY · última actividad 2026-10-29 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026) · release Repository Update dbf6c05 (2026-10-28)
 
 ## 📦 Las reglas de la casa
 

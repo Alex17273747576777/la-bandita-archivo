@@ -86,11 +86,11 @@ Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribui
 
 *Señales de futuro (novedad activa, no ranking por estrellas):*
 
-• `mojuru/cursed-manga-repo` — creado 2026-03-24 · última actividad 2026-10-12 · ★174 (verificado 29-oct-2026) · licencia sin resolver.
+• `mojuru/cursed-manga-repo` — creado 2026-03-24 · última actividad 2026-10-12 · ★174 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `alienware377/rootlessjamesdsp-viper4android-edition` — creado 2026-08-02 · última actividad 2026-10-29 · ★101 (verificado 29-oct-2026) · GPL-3.0.
 
-• `awerkori/extensoes` — creado 2026-08-14 · última actividad 2026-10-29 · ★4 (verificado 29-oct-2026) · licencia sin resolver.
+• `awerkori/extensoes` — creado 2026-08-14 · última actividad 2026-10-29 · ★4 (verificado 29-oct-2026) · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 *Placas de control (por actividad y juventud, no por fama):*
 

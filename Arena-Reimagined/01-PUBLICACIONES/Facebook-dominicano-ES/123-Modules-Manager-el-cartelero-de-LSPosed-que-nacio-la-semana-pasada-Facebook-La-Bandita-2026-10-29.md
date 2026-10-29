@@ -10,7 +10,7 @@ La semilla más fresca que ha pasado por esta mesa: siete días de vida, release
 
 • `rushiranpise/lsposed-modules-manager` — ★17 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-10-22 · GPL-3.0 · release Modules Manager v1.1.5 (2026-10-29).
 
-• `rushiranpise/xposed-modules` — ★11 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-08-08 · licencia sin resolver.
+• `rushiranpise/xposed-modules` — ★11 (verificado 29-oct-2026) · última actividad 2026-10-29 · creado 2026-08-08 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
 
 • `lsposed/lsposed` — ★25.239 (verificado 29-oct-2026) · última actividad 2024-01-07 · creado 2020-12-12 · GPL-3.0.
 
