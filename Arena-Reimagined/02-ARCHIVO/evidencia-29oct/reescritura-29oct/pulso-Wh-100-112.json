@@ -1,0 +1,609 @@
+{
+ "repos": {
+  "chatgptnextweb/nextchat": {
+   "slug": "ChatGPTNextWeb/NextChat",
+   "estado": "vivo",
+   "stars": 88918,
+   "push": "2026-10-20",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "droid-ify/client": {
+   "slug": "Droid-ify/client",
+   "estado": "vivo",
+   "stars": 7661,
+   "push": "2026-09-12",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "med-amine0/aniyomi_plus": {
+   "slug": "Med-amine0/aniyomi_plus",
+   "estado": "vivo",
+   "stars": 9,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "noirero/miyorare": {
+   "slug": "Noirero/Miyorare",
+   "estado": "vivo",
+   "stars": 19,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "r15hi/dsu-multi-sideloader": {
+   "slug": "R15Hi/Dsu-Multi-sideloader",
+   "estado": "vivo",
+   "stars": 3,
+   "push": "2026-10-15",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "riteshp2001/mpvrx": {
+   "slug": "Riteshp2001/mpvRx",
+   "estado": "vivo",
+   "stars": 859,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "suwayomi/tachiyomi-extension": {
+   "slug": "Suwayomi/tachiyomi-extension",
+   "estado": "vivo",
+   "stars": 346,
+   "push": "2026-09-19",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "sysadmindoc/hushfacebook": {
+   "slug": "SysAdminDoc/HushFacebook",
+   "estado": "vivo",
+   "stars": 437,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "sysadmindoc/hushfeed": {
+   "slug": "SysAdminDoc/HushFeed",
+   "estado": "vivo",
+   "stars": 324,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "usagiapp/usagi": {
+   "slug": "UsagiApp/Usagi",
+   "estado": "vivo",
+   "stars": 286,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "aayush2622/dartotsu": {
+   "slug": "aayush2622/Dartotsu",
+   "estado": "vivo",
+   "stars": 545,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "anbui2004/vectras-vm-emu-android": {
+   "slug": "AnBui2004/Vectras-VM-Emu-Android",
+   "estado": "vivo",
+   "stars": 305,
+   "push": "2026-10-14",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "andarcanum/tadami-aniyomi-fork": {
+   "slug": "andarcanum/Tadami-Aniyomi-fork",
+   "estado": "vivo",
+   "stars": 287,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "animiruorg/animiru": {
+   "slug": "animiruorg/Animiru",
+   "estado": "vivo",
+   "stars": 904,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "aniyomiorg/aniyomi": {
+   "slug": "aniyomiorg/aniyomi",
+   "estado": "vivo",
+   "stars": 7855,
+   "push": "2026-09-14",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "appfuton/futon": {
+   "slug": "AppFuton/Futon",
+   "estado": "vivo",
+   "stars": 467,
+   "push": "2026-10-21",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "asrofficialdev/redantotsu": {
+   "slug": "AsrOfficialDev/ReDantotsu",
+   "estado": "vivo",
+   "stars": 152,
+   "push": "2026-08-18",
+   "archivado": true,
+   "licencia": "NOASSERTION"
+  },
+  "beemdevelopment/aegis": {
+   "slug": "beemdevelopment/Aegis",
+   "estado": "vivo",
+   "stars": 13414,
+   "push": "2026-09-06",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "bromite/bromite": {
+   "slug": "bromite/bromite",
+   "estado": "vivo",
+   "stars": 6321,
+   "push": "2024-01-24",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "cloudflare/boringtun": {
+   "slug": "cloudflare/boringtun",
+   "estado": "vivo",
+   "stars": 7237,
+   "push": "2026-06-29",
+   "archivado": false,
+   "licencia": "BSD-3-Clause"
+  },
+  "dr-tsng/zygisknext": {
+   "slug": "Dr-TSNG/ZygiskNext",
+   "estado": "vivo",
+   "stars": 10742,
+   "push": "2026-10-15",
+   "archivado": false,
+   "licencia": ""
+  },
+  "fossifyorg/gallery": {
+   "slug": "FossifyOrg/Gallery",
+   "estado": "vivo",
+   "stars": 3861,
+   "push": "2026-10-24",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "gekkoushi/plugin": {
+   "slug": "Gekkoushi/plugin",
+   "estado": "vivo",
+   "stars": 11,
+   "push": "2026-09-13",
+   "archivado": false,
+   "licencia": ""
+  },
+  "gekkoushi/plugin-source": {
+   "slug": "Gekkoushi/plugin-source",
+   "estado": "vivo",
+   "stars": 93,
+   "push": "2026-09-14",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "ggml-org/llama.cpp": {
+   "slug": "ggml-org/llama.cpp",
+   "estado": "vivo",
+   "stars": 132769,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "go-gitea/gitea": {
+   "slug": "go-gitea/gitea",
+   "estado": "vivo",
+   "stars": 58766,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "home-assistant/android": {
+   "slug": "home-assistant/android",
+   "estado": "vivo",
+   "stars": 4012,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "home-assistant/core": {
+   "slug": "home-assistant/core",
+   "estado": "vivo",
+   "stars": 91830,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "iamr0s/dhizuku": {
+   "slug": "iamr0s/Dhizuku",
+   "estado": "vivo",
+   "stars": 4049,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "iamr0s/dhizuku-api": {
+   "slug": "iamr0s/Dhizuku-API",
+   "estado": "vivo",
+   "stars": 204,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "immich-app/immich": {
+   "slug": "immich-app/immich",
+   "estado": "vivo",
+   "stars": 117610,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "invaliddavid/uma": {
+   "slug": "InvalidDavid/UMA",
+   "estado": "vivo",
+   "stars": 82,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "itsmechinmoy/dantotsu": {
+   "slug": "itsmechinmoy/Dantotsu",
+   "estado": "vivo",
+   "stars": 92,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "jellyfin/jellyfin": {
+   "slug": "jellyfin/jellyfin",
+   "estado": "vivo",
+   "stars": 58784,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "jellyfin/jellyfin-android": {
+   "slug": "jellyfin/jellyfin-android",
+   "estado": "vivo",
+   "stars": 2839,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "jellyfin/jellyfin-androidtv": {
+   "slug": "jellyfin/jellyfin-androidtv",
+   "estado": "vivo",
+   "stars": 4675,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "justjavac/free-programming-books-zh_cn": {
+   "slug": "justjavac/free-programming-books-zh_CN",
+   "estado": "vivo",
+   "stars": 119438,
+   "push": "2026-07-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "kainotch/wammy": {
+   "slug": "Wammy-app/Wammy",
+   "estado": "vivo",
+   "stars": 13,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "keiyoushi/extensions": {
+   "slug": "keiyoushi/extensions",
+   "estado": "vivo",
+   "stars": 15369,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": ""
+  },
+  "koodo-reader/koodo-reader": {
+   "slug": "koodo-reader/koodo-reader",
+   "estado": "vivo",
+   "stars": 28667,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "kopia/kopia": {
+   "slug": "kopia/kopia",
+   "estado": "vivo",
+   "stars": 14523,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "kotatsuapp/kotatsu": {
+   "slug": "KotatsuApp/Kotatsu",
+   "estado": "vivo",
+   "stars": 8943,
+   "push": "2025-11-04",
+   "archivado": true,
+   "licencia": "GPL-3.0"
+  },
+  "kototoro-app/kototoro": {
+   "slug": "Kototoro-app/Kototoro",
+   "estado": "vivo",
+   "stars": 653,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "localsend/localsend": {
+   "slug": "localsend/localsend",
+   "estado": "vivo",
+   "stars": 96455,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "louislam/uptime-kuma": {
+   "slug": "louislam/uptime-kuma",
+   "estado": "vivo",
+   "stars": 93064,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "mattecarra/acca": {
+   "slug": "MatteCarra/AccA",
+   "estado": "vivo",
+   "stars": 1402,
+   "push": "2024-06-17",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "mihonapp/mihon": {
+   "slug": "mihonapp/mihon",
+   "estado": "vivo",
+   "stars": 24838,
+   "push": "2026-10-26",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "miru-project/miru-app": {
+   "slug": "miru-project/miru-app",
+   "estado": "vivo",
+   "stars": 5784,
+   "push": "2025-12-05",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "modelcontextprotocol/modelcontextprotocol": {
+   "slug": "modelcontextprotocol/modelcontextprotocol",
+   "estado": "vivo",
+   "stars": 9562,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "modelcontextprotocol/servers": {
+   "slug": "modelcontextprotocol/servers",
+   "estado": "vivo",
+   "stars": 91681,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "moeru-ai/airi": {
+   "slug": "moeru-ai/airi",
+   "estado": "vivo",
+   "stars": 50890,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "morpheapp/morphe-manager": {
+   "slug": "MorpheApp/morphe-manager",
+   "estado": "vivo",
+   "stars": 9684,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "nahiro18/kiroku": {
+   "slug": "Nahiro18/Kiroku",
+   "estado": "vivo",
+   "stars": 16,
+   "push": "2026-10-16",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "neo-launcher/neo-backup": {
+   "slug": "neo-launcher/neo-backup",
+   "estado": "caído (404)"
+  },
+  "neoapplications/neo-backup": {
+   "slug": "NeoApplications/Neo-Backup",
+   "estado": "vivo",
+   "stars": 3881,
+   "push": "2026-10-17",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "nextcloud/android": {
+   "slug": "nextcloud/android",
+   "estado": "vivo",
+   "stars": 5656,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-2.0"
+  },
+  "nextcloud/server": {
+   "slug": "nextcloud/server",
+   "estado": "vivo",
+   "stars": 37345,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "ollama/ollama": {
+   "slug": "ollama/ollama",
+   "estado": "vivo",
+   "stars": 185238,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT"
+  },
+  "open-webui/open-webui": {
+   "slug": "open-webui/open-webui",
+   "estado": "vivo",
+   "stars": 157168,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "openwrt/openwrt": {
+   "slug": "openwrt/openwrt",
+   "estado": "vivo",
+   "stars": 28975,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "outertune/outertune": {
+   "slug": "OuterTune/OuterTune",
+   "estado": "vivo",
+   "stars": 5437,
+   "push": "2026-10-12",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "photoprism/photoprism": {
+   "slug": "photoprism/photoprism",
+   "estado": "vivo",
+   "stars": 40370,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "pi-hole/pi-hole": {
+   "slug": "pi-hole/pi-hole",
+   "estado": "vivo",
+   "stars": 61558,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "ponces/treble_aosp": {
+   "slug": "ponces/treble_aosp",
+   "estado": "vivo",
+   "stars": 311,
+   "push": "2025-07-25",
+   "archivado": true,
+   "licencia": "Apache-2.0"
+  },
+  "qbittorrent/qbittorrent": {
+   "slug": "qbittorrent/qBittorrent",
+   "estado": "vivo",
+   "stars": 41213,
+   "push": "2026-10-26",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "researchxxl/syncthing-android": {
+   "slug": "researchxxl/syncthing-android",
+   "estado": "vivo",
+   "stars": 3192,
+   "push": "2026-10-22",
+   "archivado": false,
+   "licencia": "MPL-2.0"
+  },
+  "restic/restic": {
+   "slug": "restic/restic",
+   "estado": "vivo",
+   "stars": 36882,
+   "push": "2026-10-18",
+   "archivado": false,
+   "licencia": "BSD-2-Clause"
+  },
+  "rikkaapps/shizuku": {
+   "slug": "RikkaApps/Shizuku",
+   "estado": "vivo",
+   "stars": 32382,
+   "push": "2025-06-18",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "sang765/usagi": {
+   "slug": "sang765/Usagi",
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-16",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  },
+  "smuyyh/bookreader": {
+   "slug": "smuyyh/BookReader",
+   "estado": "vivo",
+   "stars": 6964,
+   "push": "2023-04-24",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "syncthing/syncthing": {
+   "slug": "syncthing/syncthing",
+   "estado": "vivo",
+   "stars": 89873,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MPL-2.0"
+  },
+  "syncthing/syncthing-android": {
+   "slug": "syncthing/syncthing-android",
+   "estado": "vivo",
+   "stars": 4293,
+   "push": "2024-12-03",
+   "archivado": true,
+   "licencia": "MPL-2.0"
+  },
+  "team-spotube/spotube": {
+   "slug": "team-spotube/spotube",
+   "estado": "vivo",
+   "stars": 50458,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0"
+  },
+  "termux/termux-app": {
+   "slug": "termux/termux-app",
+   "estado": "vivo",
+   "stars": 63673,
+   "push": "2026-09-26",
+   "archivado": false,
+   "licencia": "NOASSERTION"
+  },
+  "yuzono/anime-extensions": {
+   "slug": "yuzono/anime-extensions",
+   "estado": "vivo",
+   "stars": 522,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0"
+  },
+  "z-huang/innertune": {
+   "slug": "z-huang/InnerTune",
+   "estado": "vivo",
+   "stars": 6128,
+   "push": "2025-11-13",
+   "archivado": false,
+   "licencia": "GPL-3.0"
+  }
+ },
+ "urls": {}
+}
