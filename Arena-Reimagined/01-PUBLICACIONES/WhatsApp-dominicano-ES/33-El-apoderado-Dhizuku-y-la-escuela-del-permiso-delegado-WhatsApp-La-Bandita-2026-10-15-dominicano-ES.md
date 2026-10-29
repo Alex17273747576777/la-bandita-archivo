@@ -1,47 +1,33 @@
 *33 — EL APODERADO*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 2 repos, 2 vivos. El mayor es **iamr0s/Dhizuku** (★4.050): «A tool that can share DeviceOwner permissions to other application.». Le sigue **iamr0s/Dhizuku-API** (★204): «API of Dhizuku.». Con actividad en los últimos 30 días: 2 de 2.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `iamr0s/Dhizuku` — ★4.049,
-GPL-3.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **iamr0s/Dhizuku** — «A tool that can share DeviceOwner permissions to other application.»
+  ★4.050 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v2.12.0 (2026-06-24) · https://github.com/iamr0s/Dhizuku
 
-• `iamr0s/Dhizuku` — ★4.049 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **iamr0s/Dhizuku-API** — «API of Dhizuku.»
+  ★204 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Java · última release v2.6.0 (2026-06-24) · https://github.com/iamr0s/Dhizuku-API
 
-• `iamr0s/Dhizuku-API` — ★204 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Sin sobresaltos: el empuje más cercano es de **iamr0s/Dhizuku-API** (hace 2 días). En licencias: MIT ×1, GPL-3.0 ×1; 2 repos tienen release y la más reciente es la de **iamr0s/Dhizuku-API** (v2.6.0 (2026-06-24)).
 
-• https://github.com/iamr0s/dhizuku-api — vivo al verificar hoy (2026-10-29)
-• https://github.com/iamr0s/dhizuku — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Qué release es la de fecha más reciente del grupo y de quién?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?
 
-*2.* ¿Qué licencia firma `iamr0s/Dhizuku-API`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Con qué licencia sale iamr0s/Dhizuku-API?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|940.4★ — `ukuzihD/s0rmai`=1|REV|TIM=2|REV|92-01-6202 — `IPA-ukuzihD/s0rmai`=3
+REV|)42-60-6202( 0.6.2v — IPA-ukuzihD/s0rmai=1|REV|050.4★ — ukuzihD/s0rmai=2|REV|TIM=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

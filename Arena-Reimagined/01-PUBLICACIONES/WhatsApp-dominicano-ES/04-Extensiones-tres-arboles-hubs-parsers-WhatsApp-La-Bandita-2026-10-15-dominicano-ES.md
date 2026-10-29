@@ -1,96 +1,73 @@
 *Los almacenes de las bombillas: extensiones, hubs vivos y la feria donde venden funditas que no encienden*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**keiyoushi/extensions** encabeza esta entrega con ★15.369 medidos hoy: «Extension repository for Mihon and variants». La pieza cita 11 repos (11 vivos) y 8 empujaron en los últimos 30 días. Le sigue **keiyoushi/extensions-source** (★4.831): «Source code of extensions in https://github.com/keiyoushi/extensions». Temas que se repiten en el grupo: android, aniyomi, baozimanhua, booru.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 11 repos: 5 empujaron hoy, 1 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `keiyoushi/extensions` —
-★15.369, sin archivo LICENSE en su repo (verificado por API 29-oct-2026), último empuje
-2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **keiyoushi/extensions** — «Extension repository for Mihon and variants»
+  ★15.369 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release dbf6c05 (2026-10-29) · https://github.com/keiyoushi/extensions · Web: https://keiyoushi.github.io/
+  Temas: keiyoushi · mihon
 
-• `keiyoushi/extensions` — ★15.369 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **keiyoushi/extensions-source** — «Source code of extensions in https://github.com/keiyoushi/extensions»
+  ★4.831 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · https://github.com/keiyoushi/extensions-source · Web: https://keiyoushi.github.io/
+  Temas: android · hacktoberfest · kotlin · mihon · tachiyomi
 
-• `keiyoushi/extensions-source` — ★4.831 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **LittleSurvival/copymanga-copy20** — «Mihon/Tachiyomi系列 拷貝漫畫等中文資源的書源 相關社群見readme»
+  ★2.972 · su último empuje fue el 2026-10-11 (hace 20 días) · licencia sin archivo LICENSE en su repo (verificado) · Smali · última release hipmh-v1.4.1 (2026-10-11) · https://github.com/LittleSurvival/copymanga-copy20 · Web: https://discord.gg/kE2VAZk2pd
+  Temas: baozimanhua · copy20 · copymanga · extension · mihon · suwayomi
 
-• `LittleSurvival/copymanga-copy20` — ★2.972 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-11
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **ZGQ-inc/source** — «:package:个人搜集 | 书源、图源、订阅源、规则、直播源、各种源 大型整合»
+  ★1.286 · su último empuje fue el 2025-09-06 (hace 420 días) · licencia CC (según texto de su repo, 29-oct-2026) · JavaScript · última release 23041 (2024-07-10) · https://github.com/ZGQ-inc/source · Web: https://source.zgqinc.gq
+  Temas: booru · booru-image-viewer · flexbooru · hiker · iptv · iptv-m3u
 
-• `ZGQ-inc/source` — ★1.286 (verificado 2026-10-29)
-· dormido · última actividad 2025-09-06
-· NOASSERTION
+- **yuzono/anime-extensions** — su repo no trae descripción oficial
+  ★522 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · https://github.com/yuzono/anime-extensions
 
-• `yuzono/anime-extensions` — ★522 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **cuong-tran/manga-repo** — «Extensions for Komikku / Mihon & forks.»
+  ★462 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release bee7e8a (2026-10-29) · https://github.com/cuong-tran/manga-repo · Web: https://yuzono.github.io
+  Temas: extension · komikku · manga · mihon · tachiyomi
 
-• `cuong-tran/manga-repo` — ★462 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Suwayomi/tachiyomi-extension** — «Suwayomi Extension for Tachiyomi and variants»
+  ★346 · su último empuje fue el 2026-09-19 (hace 42 días) · licencia Apache-2.0 · Kotlin · https://github.com/Suwayomi/tachiyomi-extension
+  Temas: tachiyomi · tachiyomi-extensions
 
-• `Suwayomi/tachiyomi-extension` — ★346 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-19
-· Apache-2.0
+- **yuzono/cursed-manga-extensions** — «Source code of extensions for Komikku / Mihon & forks.»
+  ★214 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia Apache-2.0 · Kotlin · https://github.com/yuzono/cursed-manga-extensions
 
-• `yuzono/cursed-manga-extensions` — ★214 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· Apache-2.0
+- **miyomiorg/Miyomi** — «Your one-stop hub for apps, ext repos and more! 🌟»
+  ★208 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · TypeScript · https://github.com/miyomiorg/Miyomi · Web: https://miyomi.app/
+  Temas: aniyomi · dantotsu · mihoyo · miyomi · tachiyomi
 
-• `miyomiorg/Miyomi` — ★208 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **mojuru/cursed-manga-repo** — «Extensions for Komikku / Mihon & forks.»
+  ★174 · su último empuje fue el 2026-10-12 (hace 19 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release 5dad5cf (2026-10-12) · https://github.com/mojuru/cursed-manga-repo · Web: https://mojuru.github.io/cursed-manga-repo/
 
-• `mojuru/cursed-manga-repo` — ★174 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-12
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **yuzono/manga-repo** — «Extension repository for Mihon and variants»
+  ★12 · su último empuje fue el 2026-08-18 (hace 74 días) · licencia sin archivo LICENSE en su repo (verificado) · https://github.com/yuzono/manga-repo · Web: https://keiyoushi.github.io/
 
-• `yuzono/manga-repo` — ★12 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-18
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+## Enlaces externos de la pieza
 
-*🔗 FUENTES COMPROBADAS HOY*
+- https://keiyoushi.github.io — respondió viva hoy
+- https://miyomi.app — respondió viva hoy
+- https://yuzono.github.io — respondió viva hoy
 
-• https://github.com/keiyoushi/extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/keiyoushi/extensions-source — vivo al verificar hoy (2026-10-29)
-• https://github.com/yuzono/anime-extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/yuzono/cursed-manga-extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/cuong-tran/manga-repo — vivo al verificar hoy (2026-10-29)
-• https://github.com/mojuru/cursed-manga-repo — vivo al verificar hoy (2026-10-29)
-• https://github.com/LittleSurvival/copymanga-copy20 — vivo al verificar hoy (2026-10-29)
-• https://github.com/ZGQ-inc/source — vivo al verificar hoy (2026-10-29)
-• https://github.com/Suwayomi/tachiyomi-extension — vivo al verificar hoy (2026-10-29)
-• https://github.com/miyomiorg/Miyomi — vivo al verificar hoy (2026-10-29)
-• https://github.com/yuzono/manga-repo — vivo al verificar hoy (2026-10-29)
-• https://keiyoushi.github.io — respondió viva hoy (2026-10-29)
-• https://miyomi.app — respondió viva hoy (2026-10-29)
-• https://yuzono.github.io — respondió viva hoy (2026-10-29)
+## Lectura de la medición
+
+Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-29). Lo último empujado lo firmó **keiyoushi/extensions** hace 2 días; el más quieto es **ZGQ-inc/source**, parado desde el 2025-09-06; con releases publicadas hay 5; manda la de **keiyoushi/extensions** (dbf6c05 (2026-10-29)); el parte legal dice sin archivo LICENSE en su repo (verificado) ×5, Apache-2.0 ×4, CC (según texto de su repo, 29-oct-2026) ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
+
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* La release más nueva de la pieza, ¿de qué repo es?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Qué repo empujó más recientemente?
 
-*2.* ¿Qué licencia firma `keiyoushi/extensions-source`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* ¿Quién es el más dormido de la pieza?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|963.51★ — `snoisnetxe/ihsuoyiek`=1|REV|0.2-ehcapA=2|REV|92-01-6202 — `snoisnetxe/ihsuoyiek`=3
+REV|)92-01-6202( 50c6fbd — snoisnetxe/ihsuoyiek=1|REV|92-01-6202 — snoisnetxe/ihsuoyiek=2|REV|60-90-5202 — ecruos/cni-QGZ=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 11 repos GitHub (11 vivos, 0 firmados como caídos/bloqueados) y 3
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 11 repos y 3 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 11 vivos, 0 firmados arriba con su estado.

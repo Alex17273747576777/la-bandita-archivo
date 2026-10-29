@@ -1,47 +1,34 @@
 *29 — LOS MAYORDOMOS*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**home-assistant/android** encabeza esta entrega con ★4.012 medidos hoy: «Home Assistant Companion for Android». La pieza cita 2 repos (2 vivos) y 2 empujaron en los últimos 30 días. Le sigue **KDE/kdeconnect-android** (★1.491): «Native Android port of the KDE Connect Qt app». Temas que se repiten en el grupo: android, automotive, compose, hacktoberfest.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 2 repos: 2 empujaron hoy, 0 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `home-assistant/android` —
-★4.012, Apache-2.0, último empuje 2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **home-assistant/android** — «Home Assistant Companion for Android»
+  ★4.012 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release 2026.10.1 (2026-10-06) · https://github.com/home-assistant/android · Web: https://companion.home-assistant.io/
+  Temas: android · automotive · compose · hacktoberfest · home-assistant · home-automation
 
-• `home-assistant/android` — ★4.012 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **KDE/kdeconnect-android** — «Native Android port of the KDE Connect Qt app»
+  ★1.491 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Kotlin · https://github.com/KDE/kdeconnect-android · Web: https://invent.kde.org/network/kdeconnect-android
 
-• `KDE/kdeconnect-android` — ★1.491 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-2.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Pulso tranquilo: lo último que se movió fue **KDE/kdeconnect-android**, hace 2 días. Con releases publicadas hay 1; manda la de **home-assistant/android** (2026.10.1 (2026-10-06)); el parte legal dice GPL-2.0 ×1, Apache-2.0 ×1.
 
-• https://github.com/kde/kdeconnect-android — vivo al verificar hoy (2026-10-29)
-• https://github.com/home-assistant/android — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
-
-*2.* ¿Qué licencia firma `KDE/kdeconnect-android`?
+*2.* ¿Qué licencia firma KDE/kdeconnect-android?
 
 *3.* ¿Qué repo empujó más recientemente?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|210.4★ — `diordna/tnatsissa-emoh`=1|REV|0.2-LPG=2|REV|92-01-6202 — `diordna-tcennocedk/EDK`=3
+REV|210.4★ — diordna/tnatsissa-emoh=1|REV|0.2-LPG=2|REV|92-01-6202 — diordna-tcennocedk/EDK=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 2 repos GitHub (2 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 2 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 2 vivos, 0 firmados arriba con su estado.

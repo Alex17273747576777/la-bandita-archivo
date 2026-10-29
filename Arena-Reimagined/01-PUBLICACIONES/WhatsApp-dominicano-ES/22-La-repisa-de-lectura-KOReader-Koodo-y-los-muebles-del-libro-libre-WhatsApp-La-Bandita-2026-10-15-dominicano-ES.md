@@ -1,72 +1,54 @@
 *22 — LA REPISA DE LECTURA*
 
-*La Bandita · 29 de octubre de 2026 · edición dominicano-español*
+_viernes 31 de octubre de 2026 · La Bandita_
 
-*⚡ EN UN RESPIRO*
+**justjavac/free-programming-books-zh_CN** encabeza esta entrega con ★119.438 medidos hoy: «:books: 免费的计算机编程类中文书籍，欢迎投稿». La pieza cita 7 repos (7 vivos) y 5 empujaron en los últimos 30 días. Le sigue **syncthing/syncthing** (★89.873): «Open Source Continuous File Synchronization». Temas que se repiten en el grupo: android, angular, audiobook-player, book.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 7 repos: 4 empujaron hoy, 1 en los
-últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy:
-`justjavac/free-programming-books-zh_CN` — ★119.438, GPL-3.0, último empuje 2026-07-29.
+## Los repos de esta pieza, medidos hoy
 
-*🗼 PLACAS AL PULSO (2026-10-29)*
+- **justjavac/free-programming-books-zh_CN** — «:books: 免费的计算机编程类中文书籍，欢迎投稿»
+  ★119.438 · su último empuje fue el 2026-07-29 (hace 94 días) · licencia GPL-3.0 · última release 3.0 (2018-11-05) · https://github.com/justjavac/free-programming-books-zh_CN · Web: http://weibo.com/justjavac
+  Temas: android · angular · books · free · ios · javascript
 
-• `justjavac/free-programming-books-zh_CN` — ★119.438 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-07-29
-· GPL-3.0
+- **syncthing/syncthing** — «Open Source Continuous File Synchronization»
+  ★89.873 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MPL-2.0 · Go · última release v2.1.7 (2026-10-21) · https://github.com/syncthing/syncthing · Web: https://syncthing.net/
+  Temas: go · p2p · peer-to-peer · synchronization
 
-• `syncthing/syncthing` — ★89.873 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MPL-2.0
+- **Crosstalk-Solutions/project-nomad** — «Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no…»
+  ★41.263 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia Apache-2.0 · TypeScript · última release v1.35.1 (2026-10-05) · https://github.com/Crosstalk-Solutions/project-nomad · Web: https://www.projectnomad.us
 
-• `Crosstalk-Solutions/project-nomad` — ★41.263 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-22
-· Apache-2.0
+- **koreader/koreader** — «An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices»
+  ★30.736 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Lua · última release v2026.07.1 (2026-08-01) · https://github.com/koreader/koreader · Web: http://koreader.rocks/
+  Temas: cbz · djvu · djvu-reflow · ebook · ebook-reader · eink
 
-• `koreader/koreader` — ★30.735 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **koodo-reader/koodo-reader** — «A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web»
+  ★28.667 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · JavaScript · última release v2.4.6 (2026-10-07) · https://github.com/koodo-reader/koodo-reader · Web: https://koodoreader.com
+  Temas: book · cb7 · cbr · cbt · cbz · comic
 
-• `koodo-reader/koodo-reader` — ★28.667 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· AGPL-3.0
+- **smuyyh/BookReader** — «:closed_book: "任阅" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~»
+  ★6.964 · su último empuje fue el 2023-04-24 (hace 1286 días) · licencia Apache-2.0 · Java · https://github.com/smuyyh/BookReader
+  Temas: android · book · bookreader · bookshelf · dagger2 · ebook
 
-• `smuyyh/BookReader` — ★6.964 (verificado 2026-10-29)
-· dormido · última actividad 2023-04-24
-· Apache-2.0
+- **PaulWoitaschek/Voice** — «A clean user focused audiobook player for Android»
+  ★3.230 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 26.10.8-5410008 (2026-10-29) · https://github.com/PaulWoitaschek/Voice · Web: https://voice.woitaschek.de
+  Temas: android · audiobook-player · compose · jetpack-compose · kotlin · kotlin-android
 
-• `PaulWoitaschek/Voice` — ★3.230 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+## Lectura de la medición
 
-*🔗 FUENTES COMPROBADAS HOY*
+Hay release de esta semana: **PaulWoitaschek/Voice** publicó 26.10.8-5410008 (2026-10-29). Con releases publicadas hay 6; manda la de **PaulWoitaschek/Voice** (26.10.8-5410008 (2026-10-29)); el parte legal dice Apache-2.0 ×2, GPL-3.0 ×2, AGPL-3.0 ×2; lo último empujado lo firmó **PaulWoitaschek/Voice** hace 2 días; el más quieto es **smuyyh/BookReader**, parado desde el 2023-04-24.
 
-• https://github.com/smuyyh/bookreader — vivo al verificar hoy (2026-10-29)
-• https://github.com/crosstalk-solutions/project-nomad — vivo al verificar hoy (2026-10-29)
-• https://github.com/paulwoitaschek/voice — vivo al verificar hoy (2026-10-29)
-• https://github.com/koodo-reader/koodo-reader — vivo al verificar hoy (2026-10-29)
-• https://github.com/koreader/koreader — vivo al verificar hoy (2026-10-29)
-• https://github.com/syncthing/syncthing — vivo al verificar hoy (2026-10-29)
-• https://github.com/justjavac/free-programming-books-zh_cn — vivo al verificar hoy (2026-10-29)
+---
 
 *🎯 MINI-QUIZ DE HOY*
 
-*LAS PREGUNTAS:*
+*1.* ¿Quién es el más dormido de la pieza?
 
-*1.* ¿Qué repo de esta pieza tiene más estrellas medidas hoy?
+*2.* ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?
 
-*2.* ¿Qué licencia firma `syncthing/syncthing`?
-
-*3.* ¿Qué repo empujó más recientemente?
+*3.* La licencia de syncthing/syncthing, ¿cuál es?
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|834.911★ — `NC_hz-skoob-gnimmargorp-eerf/cavajtsuj`=1|REV|0.2-LPM=2|REV|92-01-6202 — `ecioV/kehcsatioWluaP`=3
+REV|42-40-3202 — redaeRkooB/hyyums=1|REV|834.911★ — NC_hz-skoob-gnimmargorp-eerf/cavajtsuj=2|REV|0.2-LPM=3
 
-(Las respuestas correctas son las líneas descifradas de arriba.)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 7 repos GitHub (7 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 7 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.
