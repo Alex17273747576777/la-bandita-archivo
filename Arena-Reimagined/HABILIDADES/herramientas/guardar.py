@@ -37,7 +37,7 @@ with tempfile.TemporaryDirectory() as td:
     else:
         run(['git','commit','-q','-m',msg],cwd=clon); run(['git','push','-q','origin','HEAD'],cwd=clon,env=env)
         print('guardar: empujado ·',run(['git','log','--oneline','-1'],cwd=clon).stdout.strip())
-    remoto=run(['git','ls-remote','origin','main'],env=env).stdout.strip()
+    remoto=run(['git','-C',str(clon),'ls-remote','origin','main'],env=env).stdout.strip()
     print('remoto verificado:',remoto)
     clon2=Path(td)/'clon2'; run(['git','clone','-q','https://github.com/Alex17273747576777/la-bandita-archivo.git',str(clon2)],env=env)
     pares=[]

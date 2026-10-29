@@ -35,3 +35,8 @@ _Cada lección costó tiempo real. Leerla antes de trabajar ahorra el próximo t
 - **Contexto:** Push final de la entrega (29-oct)
 - **Fallo/experiencia:** La sesión demostró que el conocimiento sin herramienta se pierde entre turnos: cada vara tuvo que re-inventarse al cambiar de contexto
 - **Regla que queda:** Todo procedimiento que se use dos veces se convierte en herramienta ejecutable dentro de HABILIDADES/, con su lección en la bitácora
+
+## L-08 · 2026-10-29
+- **Contexto:** Primera corrida real de guardar.py tras su nacimiento
+- **Fallo/experiencia:** Empujó bien pero su verificación ls-remote corría fuera del clon y murió con 128: la herramienta no se había probado a sí misma entera
+- **Regla que queda:** Toda herramienta de guardado se prueba de punta a punta en su primera corrida, incluida la verificación posterior al push; si una vara no se prueba entera, no está terminada
