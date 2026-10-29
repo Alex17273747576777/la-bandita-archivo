@@ -1,158 +1,67 @@
 # Publicación 22 — Lectura II: la repisa del muro — siete lectores vivos y un legado
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
-## 🗺️ Mapa de esta guía
+## ⚡ En una página
 
-├── ⚡ La repisa, en una página
-├── 🌳 Las ramitas de Komikku
-├── 🦉 El gigante que el muro escondía
-├── 📡 El lector que vive en tu servidor
-├── 🀄 El manga que se autotraduce
-├── 📂 Y una carpeta suelta
-├── 🪦 El que pasó al Registro
-└── 🔗 Enlaces
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 9 repos: 1 empujaron hoy, 1 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `koodo-reader/koodo-reader` —
+★28.667, AGPL-3.0, último empuje 2026-10-29.
 
-## ⚡ La repisa, en una página
+## 🗼 Las placas al pulso (2026-10-29)
 
-La puerta de lectura del muro guardaba 181 fichas. Las verificadas se cuentan con una mano y media — y al abrirlas hoy aparecieron tres sorpresas: varias son **ramitas de Komikku** (la familia que ya tiene guía en la Publicación 16), una es **un gigante de 28 mil estrellas** que el muro tenía escondida entre nombres sin verificar, y otra **vive en tu servidor**, no en tu teléfono.
-
-Siete vivas, verificadas fuente por fuente HOY, 15 de septiembre — y una que se despidió hacia
-el Registro.
-
-## 🌳 Las ramitas de Komikku
-
-La Publicación 16 contó la historia del rehijo organizado de TachiyomiSY. Pues bien: el muro
-guardaba tres proyectos que nacieron de esa misma mata — y hoy abrimos sus casas:
-
-- **Kisara** — ★1 · v1.21.20 (13-ago) · https://github.com/ifritraen/kisara — «A fork of Komikku
-with your desired features», declara de sí. La ramita personal del árbol: pequeña, viva desde
-agosto.
-- **Tegaki** — ★2 · v1.14.6 (29-jul) · https://github.com/MyNameHand/Tegaki — «a personal fork
-of Komikku with a priority-based scanlator filter and a migration hide-behind…». Su función es
-de oficio: te deja priorizar qué grupos de traducción aparecen primero y esconder lo que migró.
-Dos estrellas, una idea que la familia grande no trae de fábrica.
-- **Komikku Sync** — ★0 · sin releases · push 26-ago ·
-https://github.com/dinkelspiel/komikku-sync — «fork que añade sincronización de estado entre
-dispositivos», dice su casa. Sin versiones publicadas todavía: entra como radar con fuente
-abierta — se le echa el ojo, no se le receta.
-
-*Nota de familia:* Komikku itself (komikku-app, ★4.712, v1.14.1) vive en la Publicación 16 —
-aquí solo sus ramitas.
-
-## 🦉 El gigante que el muro escondía
-
-**Koodo Reader** — ★**28.199** · v2.4.4 (2-sep) · push de HOY mismo ·
-https://github.com/koodo-reader/koodo-reader
-
-«A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android», declara de sí. El muro lo tenía en su puerta de lectura como «Observado / activo» — y apenas ahora se ve su tamaño: es de las casas más grandes de todo el compendio.
-
-Multibiblioteca, sincronización y respaldo en los cinco sistemas. Si tu biblioteca de EPUB creció más que tu teléfono, esta es la repisa ancha.
-
-## 📡 El lector que vive en tu servidor
-
-**Codexa** — ★64 · v2.6.2 (11-sep) · push 14-sep · https://github.com/thehijacker/codexa
-
-«A self-hosted EPUB web reader with multi-user support, OPDS browsing, KOReader sync, and a built-in…», declara su casa. Es el vecino natural de la Publicación 17 (Komga y Kavita): otro que vive en tu servidor y sirve libros a toda la casa — con sincronía de progreso para KOReader incluida.
-
-La repisa del muro y el estante del servidor, la misma conversación.
-
-## 🀄 El manga que se autotraduce
-
-**Nyora** — ★34 · 2.7.3 (31-jul) · push 10-ago · https://github.com/Nyora-Manga/nyora-android
-
-«Free, ad-free, open-source manga/manhwa/manhua reader with AI page translation», declara de sí. Y aquí la repisa se cruza con la Publicación 02: Kototoro trae traducción por OCR en el teléfono; Nyora lo pone en un lector de manga puro.
-
-La misma idea, dos cocinas — ambas de código abierto, ambas verificadas.
-
-## 📂 Y una carpeta suelta
-
-**Readwide** — ★28 · v1.0.18 (11-sep) · https://github.com/k1717/Readwide — «File reader /
-manager»: el cuchillo suizo de la repisa. Lee y administra archivos; sin más pretensiones, con
-release de la semana pasada.
-
-## 🪦 El que pasó al Registro
-
-**Kumo** — ★60 · v0.21.0 (20-ago) · **ARCHIVADO** · https://github.com/nubesurrealista/Kumo — era «a fork of Mihon with small custom changes», dice su ficha. Su casa quedó archivada: por doctrina del mapa (§5.4.13), lo muerto no entra al mapa — pasa al Registro con fecha.
-
-Si algún día desarchiva, vuelve con verificación.
-
-## ❓ Dos preguntas de repisa
-
-**¿Por qué tantas ramitas de Komikku juntas?** Porque el muro las guardaba dispersas entre 181 fichas. Contadas en su contexto, cuentan una historia: la familia de la Publicación 16 tiene pequeñas ramas con funciones propias — filtros de scanlator, sincronía entre equipos — que valen más juntas que perdidas.
-
-**¿Las fichas pequeñas (★1, ★2, ★0) merecen guía?**
-La estrella no es la vara — la fuente abierta y la fecha sí. Kisara tiene release de agosto;
-Komikku Sync aún no publica versiones y va como radar. Cada quien su estado, con fecha.
-
-## 🔗 Enlaces
-
-- Los 8 repos: los enlaces de cada ficha, arriba, abiertos HOY.
-- Familias de la casa: Publicación 16 (Komikku) · 17 (Komga/Kavita — el estante del servidor) ·
-02 (Kototoro — el OCR).
-- El inventario del muro: paquete interno (Registro y Protocolo).
-
-## El meme del corte
-
-> —El muro tenía 181 lectores.
-> —¿Y cuántos abriste?
-> —Ocho. Siete respiran, uno se jubiló — y ahora sé cuáles son. Eso hace el oficio.
-
-> La Bandita informa a partir de fuentes fechadas. En la repisa, como en la biblioteca: lo que
-no se abre, no se recomienda.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 22).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 9
-repos GitHub confirmados y 8 apariciones de URL. La historia no se reescribe; esta nota añade el
-estado medido hoy.
-
-Actividad medida hoy: 1 hoy · 1 en 7 días · 3 en 30 días · 3 en 180 días · 0 dormidos · 1
-archivados.
-
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `nubesurrealista/kumo` — ARCHIVADO
-· última actividad 2026-08-20 · ★59 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `k1717/readwide` — creado 2026-06-08
-· última actividad 2026-10-24 · ★38 (verificado 29-oct-2026)
-· licencia sin clasificar (NOASSERTION).
-
-• `mynamehand/tegaki` — creado 2026-06-24
-· última actividad 2026-10-16 · ★4 (verificado 29-oct-2026)
-· Apache-2.0.
-
-• `thehijacker/codexa` — creado 2026-04-27
-· última actividad 2026-10-19 · ★79 (verificado 29-oct-2026)
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `koodo-reader/koodo-reader` — ★28.665 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `koodo-reader/koodo-reader` — ★28.667 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · AGPL-3.0
-· release 2.4.6 (2026-10-08).
 
-• `k1717/readwide` — ★38 (verificado 29-oct-2026)
-· última actividad 2026-10-24
-· licencia sin clasificar (NOASSERTION)
-· release Readwide v1.0.21 (2026-10-24).
+• `komikku-app/komikku` — ★4.955 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-21
+· Apache-2.0
 
-• `komikku-app/komikku` — ★4.952 (verificado 29-oct-2026)
-· última actividad 2026-10-21
-· Apache-2.0.
+• `thehijacker/codexa` — ★79 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-19
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `dinkelspiel/komikku-sync` —
-licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026);
-`k1717/readwide` — Apache-2.0; `thehijacker/codexa` — sin archivo LICENSE en su repo (verificado
-por API 29-oct-2026).
+• `nubesurrealista/Kumo` — ★59 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-08-20
+· Apache-2.0
+· ARCHIVADO en GitHub: historia, no opción viva
 
-Enlaces web: 8 apariciones; 8 respondieron vivas el 29-oct-2026.
+• `Nyora-Manga/nyora-android` — ★58 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-23
+· GPL-3.0
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `k1717/Readwide` — ★38 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-24
+· NOASSERTION
+
+• `MyNameHand/Tegaki` — ★4 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-16
+· Apache-2.0
+
+• `ifritraen/kisara` — ★2 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-01
+· Apache-2.0
+
+• `dinkelspiel/komikku-sync` — ★0 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-08-26
+· NOASSERTION
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/ifritraen/kisara — vivo al verificar hoy (2026-10-29)
+• https://github.com/MyNameHand/Tegaki — vivo al verificar hoy (2026-10-29)
+• https://github.com/dinkelspiel/komikku-sync — vivo al verificar hoy (2026-10-29)
+• https://github.com/koodo-reader/koodo-reader — vivo al verificar hoy (2026-10-29)
+• https://github.com/thehijacker/codexa — vivo al verificar hoy (2026-10-29)
+• https://github.com/Nyora-Manga/nyora-android — vivo al verificar hoy (2026-10-29)
+• https://github.com/k1717/Readwide — vivo al verificar hoy (2026-10-29)
+• https://github.com/nubesurrealista/Kumo — vivo al verificar hoy (2026-10-29)
+• https://github.com/komikku-app/komikku — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 9 repos GitHub (9 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

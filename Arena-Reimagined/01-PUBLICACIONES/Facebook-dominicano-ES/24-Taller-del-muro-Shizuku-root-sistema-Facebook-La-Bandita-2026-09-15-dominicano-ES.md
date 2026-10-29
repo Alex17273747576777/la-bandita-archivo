@@ -1,175 +1,131 @@
 # Publicación 24 — El taller del muro: Shizuku, root y las llaves del sistema
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
-## 🗺️ Mapa de esta guía
+## ⚡ En una página
 
-├── ⚡ El taller, en una página
-├── 🔑 Las llaves del taller
-├── 🔀 Los conmutadores
-├── 🚪 Los porteros
-├── 🗄️ Los estanteros
-├── 🖥️ Los pizarrones y los sorprendentes
-└── 🔗 Enlaces
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 22 repos: 5 empujaron hoy, 5 en los
+últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `MM2-0/Kvaesitso` — ★5.326,
+GPL-3.0, último empuje 2026-10-28.
 
-## ⚡ El taller, en una página
+## 🗼 Las placas al pulso (2026-10-29)
 
-La puerta de «Android, sistema, Root y Shizuku» era la segunda más llena del muro (197 fichas). Sus 18 verificadas se abrieron HOY, 15 de septiembre, y cuentan una sola historia con oficios distintos: **hacer con el teléfono lo que de fábrica no deja** — sin romperlo, y sabiendo qué permiso se pide en cada llave.
+• `MM2-0/Kvaesitso` — ★5.326 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· GPL-3.0
 
-Dieciocho vivas, cero archivadas: el taller está en plena jornada. Regla de la casa, recordada:
-aquí se nombra la herramienta; lo que cada cual haga con root o ADB, lo hace con su riesgo y
-leyendo su casa.
+• `ukanth/afwall` — ★3.512 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-17
+· GPL-3.0
 
-## 🔑 Las llaves del taller
-
-- **ShizukuPlus** — ★992 · **v13.6.0 publicada HOY mismo** ·
-https://github.com/thejaustin/ShizukuPlus — «An enhanced fork of Shizuku — adds Root/ADB/Dhizuku
-unification, a Plus API suite…». La llave maestra, con la casa unificada.
-- **aShell You** — ★2.342 · v7.4.0 · push HOY · https://github.com/DP-Hridayan/aShellYou — «A
-material you designed app for your ADB needs»: la terminal vestida de casa.
-- **AndroSH** — ★247 · v26.08.28 · https://github.com/ahmed-alnassif/AndroSH — «No-Root
-Multi-Distro Linux on Android via Shizuku/ADB — Run Arch, Fedora, Alpine…»: una caja de Linux
-dentro del bolsillo, sin root.
-- **ShizuCoreFetch** — ★419 · v2.4.0 (29-ago) · https://github.com/elhizazi1/ShizuCoreFetch —
-«centralized platform for fetching and managing applications requiring core permissions»: el
-inventario de las llaves ajenas.
-
-## 🔀 Los conmutadores
-
-- **KillMyApps** — ★89 · v1.6 (HOY 15-sep; la v1.5 era del 20-ago) ·
-https://github.com/dedeadend/KillMyApps — «app killer using Root & Shizuku to save battery,
-boost performance and enhance privacy».
-- **DarQ Reborn** — ★98 · v3.1.8 (6-sep) · https://github.com/Arora-Sir/DarQ-Reborn —
-«Selectable per-app Force Dark theme enabler for Android 10+ using Shizuku or Root»: tema oscuro
-por app, a la carta.
-
-## 🚪 Los porteros
-
-- **AFWall+** — ★3.475 · v4.1.0 (6-ago) · https://github.com/ukanth/afwall — «iptables based
-firewall for Android»: el portero veterano del taller.
-- **FireWall Blocks** — ★224 · v1.5 (28-may) · https://github.com/shynoiddev/FireWall-Blocks —
-«firewall app using Shizuku and VPN modes… no root required»: el portero sin obras.
-- **LinkSheet** — ★2.102 · nightly 12-sep · https://github.com/LinkSheet/LinkSheet — «Link
-handling for modern Android»: decide quién abre cada enlace — el portero de los enlaces.
-
-## 🗄️ Los estanteros
-
-- **XFiles** — ★44 · 1.4.0 nightly · https://github.com/Local1stDotApp/XFiles — «Offline,
-open-source Android file manager… No network, n…»: el estante que no habla con nadie.
-- **XArchiver** — ★8 · 2.0 (22-ago) · https://github.com/Xtra-Manager-Software/XArchiver — «Open
-Source File Manager on Android OS».
-- **Thor** — ★556 · Dev Build v1.96.1 HOY · https://github.com/trinadhthatakula/Thor — «Android
-App Manager and App Installer utility»: el capataz de las apps.
-
-## 🖥️ Los pizarrones y los sorprendentes
-
-- **Kvaesitso** — ★5.108 · v1.41.0 (salió HOY, reverificado en la auditoría de la tarde) · push
-HOY · https://github.com/MM2-0/Kvaesitso — «A search-focused Android launcher»: el pizarrón que
-busca por ti.
-- **Dextop** — ★238 · 1.7.0 (14-sep) · https://github.com/NarYuki/Dextop — «Unlock the hidden
-Samsung DeX and desktop capabilities of Android»: el escritorio escondido, destapado.
-- **Essentials** — ★2.985 · v18.1 (14-sep) · https://github.com/sameerasw/essentials —
-«Essential tools and mods for Android nerds»: la caja de herramientas general.
-- **RootlessStore** — ★286 · v2.2.2 (26-ago) · https://github.com/Resilien-Mobile/RootlessStore
-— «rootless plugin management and runtime platform»: las extensiones sin obras.
-- **Harbor** — ★43 · 0.2.0-alpha07 (14-sep) · https://github.com/Stem0794/harbor —
-«Privacy-focused Android work-profile manager… DevicePolicyManager APIs»: el cuarto de trabajo
-separado. (No confundir con el harbor de Stremio de la pieza 23: mismo nombre, distinta casa —
-por eso fichamos URLs, no bautismos.)
-- **Zafiro** — ★168 · 1.2.0 (6-sep) · https://github.com/niki914/zafiro — «Open-source BYOK AI
-agent for Android. Full phone control, native Shell & Python 3…»: el aprendiz de IA del taller —
-entra con su aviso de fábrica: la llave la pones tú.
-
-## 🧬 Los que el muro no tenía — la familia AxManager (exploración del 15-sep)
-
-Regla nueva del proyecto Biblioteca, de palabra del dueño: LA LISTA no se apega solo al archivo del muro — cada puerta también se explora hacia afuera. Primera exploración, el nicho del propio taller: los gestores de sistema que el muro no guardaba. (Shevery, su pariente grande, ya está fichada en la pieza 26 — ★1.049.) La familia que apareció al abrir la puerta:
-
-- **AxManager** — ★1.433 · 128 forks · v1.4.8 (24-may) · https://github.com/fahrez182/AxManager
-— «deeper control over apps and the system», dice su casa. La madre de la familia: lenta en
-releases desde mayo, pero la red respira — un fork del tronco empujó código HOY mismo.
-- **AxManagerD** — ★29 · v1.1.6 (14-sep) · https://github.com/bufanchen121101/AxManagerD —
-«unlocks device-owner abilities on unrooted Android via Dhizuku»: la variante que da poder de
-dueño del dispositivo SIN root, por la ruta Dhizuku — la misma casa que ShizukuPlus (arriba)
-está unificando. La más activa de las variantes.
-- **AxManager-pro** — ★1 · v2.0.3 (30-ago) · https://github.com/yyj5201314whj/AxManager-pro —
-«versión Pro desarrollada sobre AxManager» (según su propia descripción). Minúscula en
-estrellas, adelante en número de versión: entra con su aviso de fábrica — es desarrollo de
-tercero sobre la madre, no la oficial.
-- **Axora** — ★10 · v1.5.0 (27-may) · push 14-sep · https://github.com/corvexis/Axora — el
-«medio fantasma» que nombró el dueño. El enlace cierra el caso: existe — «A fork of AxManager
-aimed at minimalism», fork declarado de la madre — y empujó código ayer. No está muerto: respira
-despacio.
-
-Y de regalo de red: **Axeron-API** (★19 — la API de la familia, con su propio proyecto) y 128
-forks del tronco. La familia viva que el muro no contaba.
-
-## 🔗 Enlaces
-
-- Los 18 repos: enlaces en cada ficha, abiertos HOY vía fuente primaria.
-- Familias de la casa: Publicación 10 (GLTools — por qué NO se receta el root de sofá) · 09
-(herramientas FOSS de oficio).
-- El inventario del muro: paquete interno (Registro y Protocolo).
-
-## El meme del taller
-
-> —¿Cuántas llaves tiene tu teléfono?
-> —Las de fábrica, ninguna extra.
-> —Entonces no es tuyo. Es de visita.
-
-> La Bandita informa a partir de fuentes fechadas. En el taller, como en el tratado: cada
-permiso con nombre, cada llave con su casa.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 24).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 22
-repos GitHub confirmados y 22 apariciones de URL. La historia no se reescribe; esta nota añade
-el estado medido hoy.
-
-Actividad medida hoy: 3 hoy · 6 en 7 días · 8 en 30 días · 5 en 180 días · 0 dormidos · 0
-archivados.
-
-Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta
-publicación (verificado 29-oct-2026).
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `ahmed-alnassif/androsh` — creado 2025-09-22
-· última actividad 2026-10-08 · ★273 (verificado 29-oct-2026)
-· GPL-3.0.
-
-• `arora-sir/darq-reborn` — creado 2026-05-26
-· última actividad 2026-10-19 · ★125 (verificado 29-oct-2026)
-· Apache-2.0.
-
-• `bufanchen121101/axmanagerd` — creado 2026-08-18
-· última actividad 2026-10-10 · ★52 (verificado 29-oct-2026)
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `fahrez182/axmanager` — ★1.528 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· Apache-2.0
-· release AxManager (v3.0.0) (2026-10-29).
-
-• `sameerasw/essentials` — ★3.452 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `sameerasw/essentials` — ★3.457 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · MIT
-· release A hotfix for statusbar detection, lock screen album art and more in Essentials v20.2 (2026-10-26).
 
-• `thejaustin/shizukuplus` — ★1.610 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `DP-Hridayan/aShellYou` — ★2.537 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `LinkSheet/LinkSheet` — ★2.158 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· NOASSERTION
+
+• `thejaustin/ShizukuPlus` — ★1.614 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · Apache-2.0
-· release 13.7.0.r3085 (2026-10-27).
 
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `bufanchen121101/axmanagerd` — sin
-archivo LICENSE en su repo (verificado por API 29-oct-2026); `linksheet/linksheet` — GPL-3.0;
-`shynoiddev/firewall-blocks` — MIT; `yyj5201314whj/axmanager-pro` — sin archivo LICENSE en su
-repo (verificado por API 29-oct-2026).
+• `fahrez182/AxManager` — ★1.528 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
 
-Enlaces web: 22 apariciones; 22 respondieron vivas el 29-oct-2026.
+• `NarYuki/Dextop` — ★1.056 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
+· GPL-3.0
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `trinadhthatakula/Thor` — ★633 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-27
+· GPL-3.0
+
+• `elhizazi1/ShizuCoreFetch` — ★515 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-15
+· GPL-3.0
+
+• `Resilien-Mobile/RootlessStore` — ★328 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· AGPL-3.0
+
+• `niki914/zafiro` — ★312 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· MIT
+
+• `ahmed-alnassif/AndroSH` — ★273 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-08
+· GPL-3.0
+
+• `shynoiddev/FireWall-Blocks` — ★232 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-07-09
+· NOASSERTION
+
+• `dedeadend/KillMyApps` — ★128 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-15
+· GPL-3.0
+
+• `Arora-Sir/DarQ-Reborn` — ★125 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-19
+· Apache-2.0
+
+• `Stem0794/harbor` — ★69 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-14
+· Apache-2.0
+
+• `Local1stDotApp/XFiles` — ★67 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-01
+· GPL-3.0
+
+• `bufanchen121101/AxManagerD` — ★52 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-10
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+• `corvexis/Axora` — ★18 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-21
+· Apache-2.0
+
+• `Xtra-Manager-Software/XArchiver` — ★15 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-04
+· MIT
+
+• `yyj5201314whj/AxManager-pro` — ★4 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-01
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/thejaustin/ShizukuPlus — vivo al verificar hoy (2026-10-29)
+• https://github.com/DP-Hridayan/aShellYou — vivo al verificar hoy (2026-10-29)
+• https://github.com/ahmed-alnassif/AndroSH — vivo al verificar hoy (2026-10-29)
+• https://github.com/elhizazi1/ShizuCoreFetch — vivo al verificar hoy (2026-10-29)
+• https://github.com/dedeadend/KillMyApps — vivo al verificar hoy (2026-10-29)
+• https://github.com/Arora-Sir/DarQ-Reborn — vivo al verificar hoy (2026-10-29)
+• https://github.com/ukanth/afwall — vivo al verificar hoy (2026-10-29)
+• https://github.com/shynoiddev/FireWall-Blocks — vivo al verificar hoy (2026-10-29)
+• https://github.com/LinkSheet/LinkSheet — vivo al verificar hoy (2026-10-29)
+• https://github.com/Local1stDotApp/XFiles — vivo al verificar hoy (2026-10-29)
+• https://github.com/Xtra-Manager-Software/XArchiver — vivo al verificar hoy (2026-10-29)
+• https://github.com/trinadhthatakula/Thor — vivo al verificar hoy (2026-10-29)
+• https://github.com/MM2-0/Kvaesitso — vivo al verificar hoy (2026-10-29)
+• https://github.com/NarYuki/Dextop — vivo al verificar hoy (2026-10-29)
+• https://github.com/sameerasw/essentials — vivo al verificar hoy (2026-10-29)
+• https://github.com/Resilien-Mobile/RootlessStore — vivo al verificar hoy (2026-10-29)
+• https://github.com/Stem0794/harbor — vivo al verificar hoy (2026-10-29)
+• https://github.com/niki914/zafiro — vivo al verificar hoy (2026-10-29)
+• https://github.com/fahrez182/AxManager — vivo al verificar hoy (2026-10-29)
+• https://github.com/bufanchen121101/AxManagerD — vivo al verificar hoy (2026-10-29)
+• https://github.com/yyj5201314whj/AxManager-pro — vivo al verificar hoy (2026-10-29)
+• https://github.com/corvexis/Axora — vivo al verificar hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 22 repos GitHub (22 vivos, 0 firmados como caídos/bloqueados) y 0
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

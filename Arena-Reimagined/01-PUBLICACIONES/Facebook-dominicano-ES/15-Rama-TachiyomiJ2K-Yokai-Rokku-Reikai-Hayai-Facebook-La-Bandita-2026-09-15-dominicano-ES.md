@@ -1,328 +1,92 @@
-# Publicación 15 — Rama J2K: el abuelo volvió — tachiyomiJ2K, Yōkai, Rokku, Reikai y el fantasma
-Hayai apareció
+# Publicación 15 — Rama J2K: el abuelo volvió — tachiyomiJ2K, Yōkai, Rokku, Reikai y el fantasma Hayai apareció
 
-**La Bandita · 15 de septiembre de 2026**
-
-## 🗺️ Mapa de esta guía
-
-├── ⚡ En una página
-├── 🌳 El árbol de esta rama
-├── ⚡ tachiyomiJ2K — el abuelo despertó
-├── 👻 Yōkai — el tronco en pausa activa
-├── 🪇 Rokku — el fork de mantenimiento práctico
-├── ⛩️ Reikai — manga y novelas en una biblioteca
-├── 🐇 Hayai — el fantasma tiene casa (y se puede abrir)
-├── 🌲 La red completa de forks (revisada el 14-sep)
-├── 🧬 Los primos menores de la rama
-├── 📜 La historia que explica esta rama
-├── ❓ Preguntas frecuentes
-└── 🔗 Enlaces
+**La Bandita · 29 de octubre de 2026**
 
 ## ⚡ En una página
 
-Esta es la rama del interfaz querido: la que nació de tachiyomiJ2K — el fork que rediseñó Tachiyomi — y parió una familia entera. Lo primero que hay que decir es la noticia grande: **tachiyomiJ2K volvió a publicar versiones en agosto de 2026 después de dos años y medio de silencio.** Y la segunda: **Hayai — el proyecto que durante meses fue un fantasma sin repo accesible — hoy tiene casa pública y se puede abrir.**
-
-```
-tachiyomiJ2K  ★5.383  v1.8.1 (15-ago-2026)  el abuelo, de vuelta
-Yōkai         ★1.883  v1.10.1 (4-sep)     push de ayer (14-sep) — el tronco
-Rokku         ★51     v1.7.1 (29-ago)     el de mantenimiento
-Reikai        ★27     v0.3.2 (4-sep)      manga + novelas unificadas
-Hayai         ★41     v1.13.0 (10-abr)    el que ya no es fantasma
-```
-
-Todas las fichas se abrieron y verificaron HOY, 14 de septiembre. Donde la vida personal de los
-mantenedores explica los ritmos del proyecto, se cuenta como ellos la contaron: citada, fechada
-y sin chisme.
-
-## 🌳 El árbol de esta rama
-
-```
-tachiyomiJ2K (el interfaz rediseñado)
-         │   v1.7.4 (ene-2024) → dos años de silencio
-         │   → v1.8.0 y v1.8.1 (agosto 2026): VOLVIÓ
-         │
-         ├── Yōkai        el fork personal de null2264
-         │     ├── Rokku    fork de Yōkai: mantenimiento
-         │     ├── Reikai   empezó en Yōkai, rebasado en Mihon
-         │     └── Hayai    J2K-based, manga + novelas
-         │
-         ├── yomu         J2K-based, pequeño
-         └── TachiyomiDNP variante pequeña, activa en agosto
-```
-
-## ⚡ tachiyomiJ2K — el abuelo despertó
-
-https://github.com/Jays2Kings/tachiyomiJ2K
-
-```
-★5.383 · Apache-2.0
-v1.7.4 → enero de 2024 (el cierre de la era vieja)
-v1.8.0 → 9 de agosto de 2026 «Warning: Funny numbers ahead»
-v1.8.1 → 15 de agosto de 2026 «Wait, there's more?»
-```
-
-Su historia en dos actos: fue EL fork de la era dorada — el que inventó el rediseño visual que media familia heredó — y luego calló durante dos años y medio, hasta agosto de 2026, cuando soltó dos versiones en una semana con su humor de siempre en los títulos. La comunidad lo considera el padre de la migración masiva de bibliotecas: fue el primero en mover bibliotecas completas entre lectores.
-
-Su retorno no lo revive como candidato diario — dos versiones no son un ritmo — pero sí lo devuelve al mapa como historia viva: el abuelo no murió, estaba de viaje. Quien quiera la experiencia J2K «pura», su casa está de nuevo abierta y con versiones de este año.
-
-## 👻 Yōkai — el tronco en pausa activa
-
-https://github.com/null2264/yokai
-
-```
-★1.883 · Apache-2.0 · push de ayer (14-sep)
-v1.10.0 y v1.10.1 (ambas el 4 de septiembre)
-Soporte: extension-lib 1.6 · Android 8+ (su nota de versión)
-```
-
-Yōkai es el fork personal de null2264: tomó el interfaz J2K y lo sostiene solo. Su propio mantenedor lo explicó en la nota de la versión de septiembre, con una honestidad que vale citar: dio un paso atrás de sus proyectos por burnout, con la tesis y el trabajo encima, con la esperanza de volver «antes de año nuevo» y revisando contribuciones de vez en cuando.
-
-Llamó a su propia versión «bastante poco pulida». Y la misma nota abre con una advertencia en
-mayúsculas que conviene respetar: «BACKUP YOUR DATA» — copia tus datos antes de actualizar.
-
-Lo que decía el dato del 14: la rama no está abandonada — el repo empujó ayer (14-sep). Lo que
-también dice: es un proyecto de una persona con una vida encima, y su ritmo lo marcará esa vida.
-
-La lección de la rama entera sale de aquí: los mantenedores son personas; el burnout es real; y
-la honestidad de un changelog vale más que un roadmap falso.
-
-## 🪇 Rokku — el fork de mantenimiento práctico
-
-https://github.com/rokku-app/rokku
-
-```
-★51 · Apache-2.0
-v1.6.1 (15-ago) · v1.7.0 (23-ago) · v1.7.1 (29-ago)
-— tres versiones en dos semanas: cadencia firme
-Nace de: Yōkai, para mantenerlo al día con el
-ecosistema de extensiones y dependencias
-```
-
-Rokku existe por la razón más práctica del mundo: cuando Yōkai se pausó, alguien decidió mantener la experiencia viva y al día — extensiones modernas, correcciones de rendimiento, el trabajo sucio y necesario. Sus notas de agosto se concentran en exactamente eso: ajustes de rendimiento y de descargas, compatibilidad con la librería de extensiones moderna y cuidados heredados del interfaz — el trabajo que no sale en capturas pero mantiene una app viva.
-
-Es la ficha más pequeña en estrellas de la rama y la que más se mueve en arreglos. El estrellar
-mide fama; la cadencia mide taller.
-
-Y hay más señal de taller vivo: Rokku tiene canal nocturno propio (rokku-nightly) con builds casi diarios — el último visto era del día de ayer. *(Reverificado el 15-sep: el último nightly es el r7091, del 13-sep — la cadencia sigue; la fecha, actualizada.)* Cuando una casa compila de noche, trabaja de día.
-
-## ⛩️ Reikai — manga y novelas en una biblioteca
-
-https://github.com/unseensnick/Reikai · Sitio: https://reikai.app
-
-```
-★28 · Apache-2.0 · push del 14-sep (día de la verificación) · v0.3.2 (4-sep)
-v0.3.2 (4-sep) · v0.3.1 (9-ago) · v0.3.0 (16-jul)
-Nace de:     empezó como fork de Yōkai — el grafo de
-             GitHub aún lo anota así — y su proyecto
-             cuenta que el código fue rebasado después
-             sobre Mihon
-Tiene: versión FOSS aparte (sin reportes de crash ni
-analítica) — reikai-foss en sus releases
-```
-
-Reikai es la idea más diferenciada de la rama: UNA biblioteca donde la misma serie de manga y de novela ligera viven juntas. Sus funciones declaradas: agrupación multi-fuente (pliega la misma serie de distintos sitios en una entrada), fusión manual cuando los títulos no coinciden, lectura fusionada con lista de capítulos unificada, sincronización de trackers compartida en el grupo, y biblioteca de novelas de primer nivel con soporte del lector de LNReader.
-
-Su filosofía, dicha por su autor: construido primero para su uso diario — el desarrollo es esporádico y las funciones siguen sus gustos. Esa honestidad define lo que es: un proyecto personal muy bien documentado (su sitio web completo lo confirma), no un producto con promesas de equipo.
-
-## 🐇 Hayai — el fantasma tiene casa (y se puede abrir)
-
-https://github.com/HayaiApp/hayai
-
-```
-★41 · Apache-2.0
-v1.13.0 (10 de abril de 2026) · push del 6-sep
-Qué es: «Hayai es un lector Android basado en
-TachiyomiJ2K con manga y novelas ligeras»
-(según su propia descripción)
-```
-
-Aquí está la sorpresa de esta rama: durante meses, Hayai fue el proyecto fantasma — mencionado en listas y en changelogs ajenos, con su repo inaccesible, imposible de evaluar. Hoy el repo abre, se puede leer, y dice lo que es: J2K-based, manga y novelas ligeras, con versión de abril y actividad del mes pasado.
-
-Lo que hoy es verificable: la casa existe, la licencia está declarada, hay release etiquetada. Y su README —leído entero HOY— precisa la receta con una honestidad rara: arquitectura J2K declarada como base y fuente de verdad, soporte de fuentes adult reconstruido sobre los contratos de TachiyomiSY, plugins de novelas al estilo LNReader, e «importación defensiva» de la base de datos del Hayai viejo — el archivo de la era fantasma sigue cuidando a quien lo usó.
-
-Lo que todavía no: si su desarrollo es sostenido — su última versión tiene cinco meses, aunque
-su repo se movió la semana pasada. Ficha nueva, seguimiento abierto: el fantasma se le da un mes
-de vida pública antes de cualquier veredicto.
-
-Es la regla de la casa — el rumor se comprueba en la casa del proyecto, y a veces la casa aparece.
-
-**Y la familia Hayai creció por el lado que nadie miraba:** el mismo org publicó **HayaiTTS** (★39) — un motor de texto-a-voz neuronal OFFLINE para Android: se registra en el sistema entero y trae 186 voces (Piper y Kokoro, vía sherpa-onnx). Última versión: 2.5.1, del 15 de junio.
-
-La pieza que faltaba del rompecabezas: leer la novela… o escucharla.
-
-Para quien lee novelas ligeras en el bus, esto es el cierre del círculo.
-
-## 🌲 La red completa de forks (revisada el 14-sep)
-
-Las redes de los cinco proyectos se abrieron fork por fork hoy en la API de GitHub — incluida la
-de J2K, que esconde al pariente rico que casi nadie nombra:
-
-**En la red de J2K:**
-
-- **TachiyomiS97** (Saud-97, ★125) — el príncipe de esta rama y su fork más seguido: «una
-versión más rápida de Tachiyomi». Sus funciones propias, de su README: actualizaciones globales
-hasta 5× más rápidas, descargas hasta 3× más rápidas, progreso multi-dispositivo vía trackers
-(experimental), auto-descarga del siguiente capítulo mientras lees, y búsqueda por URL en el
-global search. Y la historia se repite: v1.7.5 del 1 de agosto de 2026 tras callar desde enero
-de 2024 — la pareja del abuelo: ambos despertaron este año.
-
-**En la red de Yōkai (100+ forks):**
-
-- **yurei** (NotBlankyu, v1.10.1 del 21-ago) — la variante con ambición: manga + webnovels, modo
-texto que renderiza el capítulo como texto en vez de imágenes, filtro NSFW heredado de SY, y
-lectura local que ahora lee ComicInfo.xml por capítulo.
-- **yokai-T** (KakarottoCake, v1.0.2 del 4-jul) — streaming y descarga por torrent, su apuesta
-propia.
-- Un fork con **carpetas personalizadas** (colecciones multi-seria con orden y backup) empujó el
-14-sep (constancia del día) — sin releases todavía.
-- Red completa con nombres propios: kagura, Mekuri (local-first), Miko, Karasu, y una variante
-Komga+galería. Más las copias ★0 de fábrica, que son la mayoría.
-
-**Y las redes chicas:** Rokku tiene 3 forks (todos ★0, uno empujó el 14-sep — red recién
-nacida); Reikai tiene 5, con **Nekoumy** (Zykrave, el mismo autor de Kuro: «una biblioteca para
-manga y novelas», push del 12-sep); Hayai tiene 4, todas copias ★0. Cuanto más joven es la casa,
-más pequeña es su estela — por ahora.
-
-**La expedición profunda (J2K: 999 miembros · Yōkai: 125 — caminadas el 14-sep hasta las hojas):** en la capa honda de estas redes, lo vivo con propuesta propia: **yurei** tiene ya un hijo activo — el fork para usuarios **MIUI/HyperOS**, que corrige lo que la optimización de fábrica de Xiaomi estorba, y va por v1.11.0. En la línea Yōkai, hojas con nombre y pulso: **Miko**, **Karasu**, **kagura**, **Mekuri** (local-first), **shuo** (novelas) y **MiruKan** (con versión propia, v1.0.1 de mayo). Y el taller Hayai se completa: canal nocturno con builds de esta semana (hayai-nightly) *(reverificado el 15-sep: el último build fechado del canal es el r6674, del 6-sep)* al lado del **HayaiTTS** fichado arriba.
-
-El resto de la capa profunda son copias sin aportes: fuera del mapa.
-
-## 🧬 Los primos menores de la rama
-
-Para completar el mapa, los repos pequeños que la búsqueda de hoy trajo — nombrados con su
-tamaño real:
-
-```
-yomu (HugoFMiranda)          ★3   J2K-based, push jul-2026
-TachiyomiDNP                 ★4   variante, push 16-ago
-Hiirbaf/yokai                ★3   fork de Yōkai, push del 13-sep
-```
-
-Ninguno alcanza la puerta de madurez para recomendarse como alternativa diaria — pero se nombran porque existir también es información, y porque cualquiera de ellos puede ser el próximo Rokku (que hace seis meses era igual de pequeño). Las copias sin dueño activo, ni eso: copias con reloj.
-
-## 📜 La historia que explica esta rama
-
-Esta rama es la mejor clase de historia del ecosistema: la de la herencia que se reparte.
-
-```
-2019–2023   tachiyomiJ2K define el interfaz moderno
-            del lector manga libre. La migración
-            masiva de bibliotecas nace aquí.
-
-ene-2024    Tachiyomi original cierra (presión legal).
-            J2K calla. Los usuarios del interfaz J2K
-            quedan huérfanos.
-
-2024–2025   Yōkai recoge la herencia del interfaz.
-
-2026        La familia se ramifica por necesidad:
-            Rokku mantiene, Reikai une formatos,
-            Hayai sale de la sombra, y el abuelo
-            mismo vuelve en agosto.
-```
-
-Cinco proyectos vivos donde había uno callado. La lección de la rama: cuando un taller cierre,
-no es el fin del oficio — es el reparto de las herramientas.
-
-## ❓ Preguntas frecuentes
-
-**¿tachiyomiJ2K «volvió» de verdad o fue una cosa puntual?**
-Dos versiones en una semana de agosto, con etiquetas y notas — es un regreso real de actividad.
-Si habrá cadencia, lo dirá el otoño; su releases page es el reloj.
-
-**¿Yōkai o Rokku si venía del interfaz J2K?** Yōkai es el tronco con el mantenedor original en pausa activa; Rokku es la rama de mantenimiento con cadencia de agosto. La diferencia práctica está en su ritmo — y ambas se abren el día que se decide.
-
-**¿Reikai reemplaza a mi lector de manga normal?** No viene a reemplazar: trae la función que casi nadie tiene — manga y novelas en UNA biblioteca, con la misma serie agrupada aunque venga de fuentes distintas. Si no lees novelas, es más app de la que necesitas.
-
-**¿Hayai era un mito entonces?**
-Era un proyecto real sin puerta. Hoy la puerta existe, la licencia está declarada y hay versión
-etiquetada. El mito quedó en historia — y esta corrección es exactamente por lo que las guías
-llevan fecha.
-
-**¿Cuál tiene la versión más fresca de la rama?**
-Yōkai y Reikai: 4 de septiembre. Rokku: 29 de agosto. Hayai: 10 de abril. J2K: 15 de agosto. Los
-números caducan — la página de releases de cada uno no.
-
-**¿Y el fork «más rápido» (TachiyomiS97)?** Es el fork más seguido de la red de J2K (★125) y sus promesas están escritas en su README: revive en agosto de 2026 con optimizaciones de actualizaciones y descargas. La regla no cambia: los números de rendimiento de cualquier fork se comprueban en uso propio — y su página de releases, abierta el día que se decide.
-
-**¿Los primos menores (yomu, DNP)?**
-Se nombran, se miden, no se recomiendan: no pasan aún la puerta de madurez. Mañana puede ser
-otro cuento — con fecha, se dirá.
-
-**¿Por qué tanto «su propio mantenedor dice» en esta guía?** Porque en una rama de proyectos personales, la palabra del mantenedor ES la fuente primaria: Yōkai explicó su pausa, Reikai explica su filosofía, J2K firma con humor sus regresos. Citarlos con fecha es verificarlos.
-
-## 🔗 Enlaces
-
-- tachiyomiJ2K: https://github.com/Jays2Kings/tachiyomiJ2K
-- Yōkai: https://github.com/null2264/yokai
-- Rokku: https://github.com/rokku-app/rokku
-- Reikai: https://github.com/unseensnick/Reikai · https://reikai.app
-- Hayai: https://github.com/HayaiApp/hayai
-- Destacados de la red: https://github.com/Saud-97/TachiyomiS97 ·
-https://github.com/NotBlankyu/yurei · https://github.com/KakarottoCake/yokai-T ·
-https://github.com/Zykrave/Nekoumy
-- Primos: https://github.com/HugoFMiranda/yomu ·
-https://github.com/theordinaryguy23/TachiyomiDNP · https://github.com/cuong-tran/tachiyomiJ2K
-
-> La Bandita informa a partir de fuentes fechadas. El abuelo volvió, el fantasma tiene casa — y
-la rama entera se verificó hoy.
-
----
-
-**Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: Yōkai ★1.883 (push del 14), Reikai ★28 (v0.3.2 del 4-sep), redes chicas re-fechadas. El J2K y sus 999 miembros de red, constados a su día (14-sep).
-
-Acta completa: Registro #71.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 15).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 14
-repos GitHub confirmados y 19 apariciones de URL. La historia no se reescribe; esta nota añade
-el estado medido hoy.
-
-Actividad medida hoy: 1 hoy · 2 en 7 días · 2 en 30 días · 7 en 180 días · 2 dormidos · 0
-archivados.
-
-*Alertas de continuidad (verificadas el 29-oct-2026):*
-
-• `cuong-tran/tachiyomij2k` — dormido
-· última actividad 2024-08-15 · ★10 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-• `hiirbaf/yokai` — dormido
-· última actividad 2026-04-24 · ★3 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `hayaiapp/hayai` — creado 2025-03-29
-· última actividad 2026-10-03 · ★47 (verificado 29-oct-2026)
-· Apache-2.0.
-
-• `rokku-app/rokku` — creado 2026-07-22
-· última actividad 2026-10-29 · ★63 (verificado 29-oct-2026)
-· Apache-2.0.
-
-• `theordinaryguy23/tachiyomidnp` — creado 2026-06-07
-· última actividad 2026-10-21 · ★6 (verificado 29-oct-2026)
-· Apache-2.0.
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `rokku-app/rokku` — ★63 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 14 repos: 1 empujaron hoy, 3 en los
+últimos 7 días, 1 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
+quedan firmados como caídos, no escondidos. El mayor medido hoy: `Jays2Kings/tachiyomiJ2K` —
+★5.399, Apache-2.0, último empuje 2026-10-28.
+
+## 🗼 Las placas al pulso (2026-10-29)
+
+• `Jays2Kings/tachiyomiJ2K` — ★5.399 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-28
 · Apache-2.0
-· release Rokku v1.8.0 (2026-10-29).
 
-• `lnreader/lnreader` — ★2.942 (verificado 29-oct-2026)
-· última actividad 2026-10-24
-· MIT.
+• `lnreader/lnreader` — ★2.942 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-26
+· MIT
 
-• `unseensnick/reikai` — ★42 (verificado 29-oct-2026)
-· última actividad 2026-10-27
+• `null2264/yokai` — ★1.912 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-13
 · Apache-2.0
-· release Reikai v0.5.1 (2026-10-26).
 
-Enlaces web: 19 apariciones; 19 respondieron vivas el 29-oct-2026.
+• `Saud-97/TachiyomiS97` — ★125 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-08-01
+· Apache-2.0
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `rokku-app/rokku` — ★63 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
+
+• `HayaiApp/hayai` — ★47 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-03
+· Apache-2.0
+
+• `unseensnick/Reikai` — ★42 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-27
+· Apache-2.0
+
+• `cuong-tran/tachiyomiJ2K` — ★10 (verificado 2026-10-29)
+· dormido · última actividad 2024-08-15
+· Apache-2.0
+
+• `theordinaryguy23/TachiyomiDNP` — ★6 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-21
+· Apache-2.0
+
+• `HugoFMiranda/yomu` — ★5 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-07-30
+· Apache-2.0
+
+• `Hiirbaf/yokai` — ★3 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-13
+· Apache-2.0
+
+• `NotBlankyu/yurei` — ★0 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-08-21
+· Apache-2.0
+
+• `KakarottoCake/yokai-T` — ★0 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-26
+· Apache-2.0
+
+• `Zykrave/Nekoumy` — ★0 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-09-12
+· Apache-2.0
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/Jays2Kings/tachiyomiJ2K — vivo al verificar hoy (2026-10-29)
+• https://github.com/null2264/yokai — vivo al verificar hoy (2026-10-29)
+• https://github.com/rokku-app/rokku — vivo al verificar hoy (2026-10-29)
+• https://github.com/unseensnick/Reikai — vivo al verificar hoy (2026-10-29)
+• https://github.com/HayaiApp/hayai — vivo al verificar hoy (2026-10-29)
+• https://github.com/Saud-97/TachiyomiS97 — vivo al verificar hoy (2026-10-29)
+• https://github.com/NotBlankyu/yurei — vivo al verificar hoy (2026-10-29)
+• https://github.com/KakarottoCake/yokai-T — vivo al verificar hoy (2026-10-29)
+• https://github.com/Zykrave/Nekoumy — vivo al verificar hoy (2026-10-29)
+• https://github.com/HugoFMiranda/yomu — vivo al verificar hoy (2026-10-29)
+• https://github.com/theordinaryguy23/TachiyomiDNP — vivo al verificar hoy (2026-10-29)
+• https://github.com/cuong-tran/tachiyomiJ2K — vivo al verificar hoy (2026-10-29)
+• https://github.com/hiirbaf/yokai — vivo al verificar hoy (2026-10-29)
+• https://github.com/lnreader/lnreader — vivo al verificar hoy (2026-10-29)
+• https://reikai.app — respondió viva hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 14 repos GitHub (14 vivos, 0 firmados como caídos/bloqueados) y 1
+enlace externo de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.

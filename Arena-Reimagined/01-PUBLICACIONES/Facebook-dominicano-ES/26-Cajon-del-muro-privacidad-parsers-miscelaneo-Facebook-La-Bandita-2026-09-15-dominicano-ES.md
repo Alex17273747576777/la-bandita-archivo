@@ -1,177 +1,133 @@
 # Publicación 26 — El cajón del muro: candados, adaptadores y el misceláneo verificado
 
-**La Bandita · 15 de septiembre de 2026**
+**La Bandita · 29 de octubre de 2026**
 
-## 🗺️ Mapa de esta guía
+## ⚡ En una página
 
-├── ⚡ El cajón, en una página
-├── 🔒 Compartimento 1: los candados
-├── 🔌 Compartimento 2: los adaptadores
-├── 🎁 Compartimento 3: el misceláneo, por rubros
-├── 🌫️ Los radares de este corte
-└── 🔗 Enlaces
+Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
+comprobado en tiempo real antes de escribir su placa. Cita 22 repos: 11 empujaron hoy, 3 en
+los últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no
+responden quedan firmados como caídos, no escondidos. El mayor medido hoy: `iptv-org/iptv` —
+★142.728, Unlicense, último empuje 2026-10-29.
 
-## ⚡ El cajón, en una página
+## 🗼 Las placas al pulso (2026-10-29)
 
-Al muro le quedaban tres puertas chicas (Privacidad 12, Extensiones 11, y un grupo que llamaba «El cuidado que conviene traer», 19). Contadas HOY, 15 de septiembre, resultan 24 fuentes vivas con tres naturalezas distintas — y van juntas porque el cajón es honesto: no todo lo que sobra es basura; a veces es orden pendiente.
+• `iptv-org/iptv` — ★142.728 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Unlicense
 
-Aquí está clasificado por compartimentos, con una vara aplicada en vivo: **cuando un número no
-cuadra con la casa, se anota y no se repite**.
+• `nexu-io/open-design` — ★104.861 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
 
-## 🔒 Compartimento 1: los candados
+• `android/nowinandroid` — ★21.983 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
 
-- **Aether** — ★1.912 · v2.0.0 (12-sep) · https://github.com/CluvexStudio/Aether — «A Rust
-userspace WARP core for censored networks, built around MASQUE over HTTP/3…»: navegación para
-redes donde la censura aprieta. Se nombra la herramienta; la configuración, con su casa abierta.
-- **IPTV-org** — ★**138.674** · push HOY · https://github.com/iptv-org/iptv — «Collection of
-publicly available IPTV channels from all over the world». La colección más grande de todo el
-muro. Contexto de la casa: es una **referencia de listas públicas**, no un reproductor — los
-reproductores están en la pieza 23. Se cita como mapa, no como receta.
-- **Gito** — ★430 · v4.5.0 (5-sep) · https://github.com/Nayjest/Gito — «AI-powered GitHub code
-review tool»: revisión de código con IA. El muro lo tenía en privacidad; su oficio real es el
-taller del código — re-ubicada con fecha.
-- **OpenDesign** — ★**96.304** · 0.22.2 (10-sep) · https://github.com/nexu-io/open-design —
-«Best DeepSeek Harness Design Plugin…» según se declara. **Vara de la casa aplicada:** 96 mil
-estrellas para un plugin de diseño es un número desproporcionado para su nicho — se anota el
-dato, se anota la desproporción, y **no se recomienda por estrellas**: la Anti-inflación
-(§5.4.13) no negocia. Si su casa algún día explica ese número, la ficha se corrige.
-
-## 🔌 Compartimento 2: los adaptadores
-
-- **Awerkori/extensoes** — ★3 · push 14-sep · https://github.com/Awerkori/extensoes — «Extension
-repository for Mihon and variants (mainly focus on pt-br updates)»: el almacén brasileño de la
-familia de las piezas 06/16. Nombrado como casa; índices de instalación, nunca.
-- **mojuru/cursed-manga-repo** — ★160 · push 3-ago · https://github.com/mojuru/cursed-manga-repo
-— «Extensions for Komikku / Mihon & forks»: otro almacén de la misma familia.
-
-## 🎁 Compartimento 3: el misceláneo, por rubros
-
-**Para ver anime y manga (los parientes lejanos):**
-- **AnimeFlow** — ★214 · 2.5.1 (12-sep) · https://github.com/openAnimeFlow/AnimeFlow — cliente
-de anime multiplataforma con súper-resolución 4K en vivo, según su casa (en chino: seguimiento
-Bangumi, danmaku vía 弹弹Play).
-- **Suicang EH** — ★1 · 0.2.0 (22-ago) · https://github.com/barbosaglibby41-sys/Suicang-EH —
-lector E-Hentai/ExHentai multiplataforma, según su ficha. Se nombra; el contenido de esas
-galerías es asunto de cada quien y de las leyes de su tierra.
-- **Booru** — ★11 · 4.1 (6-sep) · https://github.com/weekanya/Booru · y **BooruNova** — ★4 ·
-v1.7.0 (30-ago) · https://github.com/qingzhuo-cn/boorunova — «One app, every booru»: dos
-lectores del mismo género de galerías.
-
-**Para oír mejor:**
-- **RootlessViPER4Android** — ★61 · v3.35.0 (25-ago) ·
-https://github.com/alienware377/RootlessJamesDSP-ViPER4Android-Edition — «ViPER4Android effects
-natively ported into a RootlessJamesDSP fork»: el ecualizador de culto, sin root.
-
-**Para conversar sin red:**
-- **Meshtastic Android** — ★1.836 · push HOY · https://github.com/meshtastic/Meshtastic-Android
-— la app oficial de las mallas de radio LoRa: mensajes sin operadora. El proyecto más raro y más
-hermoso del cajón.
-- **SyncDroid-Mesh** — ★1 · 1.2.13 (5-sep) · https://github.com/Fullm3t41/SyncDroid-Mesh —
-«Private, decentralised peer-to-peer folder sync… on local Wi-Fi»: carpetas que viajan sin nube.
-
-**Para gobernar el sistema:**
-- **Vector** — ★**12.413** · Vector v2.2 canary · https://github.com/JingMatrix/Vector — «Modern
-Xposed Framework»: la evolución del framework de módulos. Entra como dato del mapa — los
-módulos, con la vara de la pieza 10.
-- **SU IMD** — ★303 · v3 (4-sep) · https://github.com/soul-99/SU_IMD — «settings/services
-manager and hider»: el conmutador de servicios de fondo.
-- **Shevery** — ★1.049 · 13.9 r38 (14-sep) · https://github.com/HmnDev-Tech/shevery —
-«Modernized Android manager with Jetpack Compose, Material 3…».
-- **Vyxel Apps** — ★841 · v1.1.1 (12-sep) · https://github.com/NikhilKain/vyxel-apps —
-«Open-source GitHub-powered Android app store»: una tienda que se arma desde repos propios.
-
-**Para jugar y para estudiar:**
-- **WinHub** — ★434 · build 18-jul · https://github.com/winhub-emu/winhub — «one-stop place for
-all your games, now on Android» (emulación de juegos de PC, según su casa).
-- **GZDoom-Android-2026** — ★20 · sin releases ·
-https://github.com/manuelsiuro/GZDoom-Android-2026 — el Doom clásico en Android, sin versiones
-publicadas: radar.
-- **Now in Android** — ★**21.808** · https://github.com/android/nowinandroid — «A fully
-functional Android app built entirely with Kotlin…»: atención, contexto real: es **el
-proyecto-escuela oficial de Google** — se estudia, no se instala como app del día. El muro lo
-tenía entre apps de usuario: re-ubicada.
-- **Flocon** — ★373 · 1.9.2 (7-sep) · https://github.com/openflocon/Flocon — «desktop companion
-for Android & kmp apps — inspect, debug, mock»: la lupa del desarrollador.
-- **WizeStream** — ★218 · 1.19.0 (14-sep) · https://github.com/wizdom13/WizeStream — «Material
-3-focused independent fork of NewPipe»: pariente nuevo del NewPipe de la pieza 08.
-- **Greet & Grow** — v1.4.0 **publicada HOY** ·
-https://codeberg.org/Grace-and-Truth/Greet-and-Grow — notas y vida espiritual en organización,
-desde Codeberg: la única del cajón que vive fuera de GitHub, con release del día.
-
-## 🌫️ Los radares de este corte
-
-- **MusicGrabber** — https://gitlab.com/g33kphr33k/musicgrabber — su casa respondió «prohibido»
-al consulta de HOY (GitLab 403). Queda en radar con su enlace citado: cuando abra, se ficha
-(lección III).
-
-## 🔗 Enlaces
-
-- Los 24 repos: enlaces en cada ficha, abiertos HOY (excepto el radar 403, citado sin abrir).
-- Familias de la casa: Publicación 23 (los reproductores IPTV que usan listas) · 08 (NewPipe —
-la familia de WizeStream) · 10 (la vara del root y los módulos).
-- El inventario del muro: paquete interno (Registro y Protocolo).
-
-## El meme del cajón
-
-> —¿Y esto qué es?
-> —El cajón del muro: candados, adaptadores, una radio sin internet, el Doom, y una escuela de
-Google.
-> —¿Y juntos qué hacen?
-> —Nada. Por eso los clasificamos. Eso es el orden: cada cosa, su repisa.
-
-> La Bandita informa a partir de fuentes fechadas. Incluso el número que no cuadra se anota: la
-honestidad no elige números cómodos.
-
-───────────────────
-
-💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 26).*
-
-Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 22
-repos GitHub confirmados y 24 apariciones de URL. La historia no se reescribe; esta nota añade
-el estado medido hoy.
-
-Actividad medida hoy: 8 hoy · 4 en 7 días · 6 en 30 días · 4 en 180 días · 0 dormidos · 0
-archivados.
-
-Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta
-publicación (verificado 29-oct-2026).
-
-*Señales de futuro (novedad activa, no ranking por estrellas):*
-
-• `mojuru/cursed-manga-repo` — creado 2026-03-24
-· última actividad 2026-10-12 · ★174 (verificado 29-oct-2026)
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
-
-• `alienware377/rootlessjamesdsp-viper4android-edition` — creado 2026-08-02
-· última actividad 2026-10-29 · ★101 (verificado 29-oct-2026)
-· GPL-3.0.
-
-• `awerkori/extensoes` — creado 2026-08-14
-· última actividad 2026-10-29 · ★4 (verificado 29-oct-2026)
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026).
-
-*Placas de control (por actividad y juventud, no por fama):*
-
-• `iptv-org/iptv` — ★142.698 (verificado 29-oct-2026)
-· última actividad 2026-10-29
-· Unlicense.
-
-• `meshtastic/meshtastic-android` — ★1.895 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `JingMatrix/Vector` — ★12.967 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
 · GPL-3.0
-· release Snapshot 29322852 (7195db25eb0ea685fbef36896a6dac22af5dfa34) (2026-10-29).
 
-• `openflocon/flocon` — ★378 (verificado 29-oct-2026)
-· última actividad 2026-10-29
+• `CluvexStudio/Aether` — ★2.374 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-24
+· AGPL-3.0
+
+• `meshtastic/Meshtastic-Android` — ★1.896 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `HmnDev-Tech/shevery` — ★1.527 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· Apache-2.0
+
+• `NikhilKain/vyxel-apps` — ★952 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-25
+· NOASSERTION
+
+• `soul-99/SU_IMD` — ★507 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-08
+· GPL-3.0
+
+• `Nayjest/Gito` — ★456 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-01
 · MIT
-· release 1.10.0 (2026-10-18).
 
-Licencias al 29-oct-2026 (resueltas hoy, sin inventar SPDX): `mojuru/cursed-manga-repo` — sin
-archivo LICENSE en su repo (verificado por API 29-oct-2026); `awerkori/extensoes` — sin archivo
-LICENSE en su repo (verificado por API 29-oct-2026); `barbosaglibby41-sys/suicang-eh` — sin
-archivo LICENSE en su repo (verificado por API 29-oct-2026); `nikhilkain/vyxel-apps` — AGPL-3.0.
+• `winhub-emu/winhub` — ★440 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-06
+· MIT
 
-Enlaces web: 24 apariciones; 24 respondieron vivas el 29-oct-2026.
+• `openflocon/Flocon` — ★378 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· MIT
 
-Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha;
-el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
+• `wizdom13/WizeStream` — ★377 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `openAnimeFlow/AnimeFlow` — ★315 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· AGPL-3.0
+
+• `mojuru/cursed-manga-repo` — ★174 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-12
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+• `alienware377/RootlessViPER4Android` — ★102 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· GPL-3.0
+
+• `manuelsiuro/GZDoom-Android-2026` — ★35 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-06-30
+· GPL-2.0
+
+• `weekanya/Booru` — ★20 (verificado 2026-10-29)
+· actividad últimos 7 días · última actividad 2026-10-27
+· GPL-3.0
+
+• `qingzhuo-cn/boorunova` — ★6 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-10
+· MIT
+
+• `Awerkori/manga-extensoes` — ★4 (verificado 2026-10-29)
+· actividad HOY · última actividad 2026-10-29
+· sin clasificar por GitHub hoy (sin SPDX): no se inventa
+
+• `barbosaglibby41-sys/Suicang-EH` — ★1 (verificado 2026-10-29)
+· actividad últimos 180 días · última actividad 2026-08-22
+· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+
+• `Fullm3t41/SyncDroid-Mesh` — ★1 (verificado 2026-10-29)
+· actividad últimos 30 días · última actividad 2026-10-06
+· GPL-3.0
+
+## 🔗 Fuentes comprobadas hoy
+
+• https://github.com/CluvexStudio/Aether — vivo al verificar hoy (2026-10-29)
+• https://github.com/iptv-org/iptv — vivo al verificar hoy (2026-10-29)
+• https://github.com/Nayjest/Gito — vivo al verificar hoy (2026-10-29)
+• https://github.com/nexu-io/open-design — vivo al verificar hoy (2026-10-29)
+• https://github.com/Awerkori/extensoes — vivo al verificar hoy (2026-10-29)
+• https://github.com/mojuru/cursed-manga-repo — vivo al verificar hoy (2026-10-29)
+• https://github.com/openAnimeFlow/AnimeFlow — vivo al verificar hoy (2026-10-29)
+• https://github.com/barbosaglibby41-sys/Suicang-EH — vivo al verificar hoy (2026-10-29)
+• https://github.com/weekanya/Booru — vivo al verificar hoy (2026-10-29)
+• https://github.com/qingzhuo-cn/boorunova — vivo al verificar hoy (2026-10-29)
+• https://github.com/alienware377/RootlessJamesDSP-ViPER4Android-Edition — vivo al verificar hoy (2026-10-29)
+• https://github.com/meshtastic/Meshtastic-Android — vivo al verificar hoy (2026-10-29)
+• https://github.com/Fullm3t41/SyncDroid-Mesh — vivo al verificar hoy (2026-10-29)
+• https://github.com/JingMatrix/Vector — vivo al verificar hoy (2026-10-29)
+• https://github.com/soul-99/SU_IMD — vivo al verificar hoy (2026-10-29)
+• https://github.com/HmnDev-Tech/shevery — vivo al verificar hoy (2026-10-29)
+• https://github.com/NikhilKain/vyxel-apps — vivo al verificar hoy (2026-10-29)
+• https://github.com/winhub-emu/winhub — vivo al verificar hoy (2026-10-29)
+• https://github.com/manuelsiuro/GZDoom-Android-2026 — vivo al verificar hoy (2026-10-29)
+• https://github.com/android/nowinandroid — vivo al verificar hoy (2026-10-29)
+• https://github.com/openflocon/Flocon — vivo al verificar hoy (2026-10-29)
+• https://github.com/wizdom13/WizeStream — vivo al verificar hoy (2026-10-29)
+• https://codeberg.org/Grace-and-Truth/Greet-and-Grow — respondió viva hoy (2026-10-29)
+• https://gitlab.com/g33kphr33k/musicgrabber — respondió viva hoy (2026-10-29)
+
+💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
+comprobaron hoy, uno a uno: 22 repos GitHub (22 vivos, 0 firmados como caídos/bloqueados) y 2
+enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
+memoria.
