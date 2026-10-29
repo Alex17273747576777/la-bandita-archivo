@@ -1,152 +1,103 @@
 # Publicación 43 — La corriente: la geografía de las fuentes — las extensiones
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Medición del viernes 31 de octubre de 2026: esta pieza reúne 26 repos, 26 vivos. El mayor es **keiyoushi/extensions** (★15.369): «Extension repository for Mihon and variants». Le sigue **Kareadita/Kavita** (★11.971): «Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your…». Con actividad en los últimos 30 días: 16 de 26. Temas que se repiten en el grupo: android, android-tv, anime, animeapp.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 26 repos: 7 empujaron hoy, 6 en los
-últimos 7 días, 6 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `keiyoushi/extensions` —
-★15.369, sin archivo LICENSE en su repo (verificado por API 29-oct-2026), último empuje
-2026-10-29.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **keiyoushi/extensions** — «Extension repository for Mihon and variants»
+  ★15.369 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release dbf6c05 (2026-10-29) · https://github.com/keiyoushi/extensions · Web: https://keiyoushi.github.io/
+  Temas: keiyoushi · mihon
 
-• `keiyoushi/extensions` — ★15.369 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Kareadita/Kavita** — «Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your…»
+  ★11.971 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · C# · última release v0.9.1.4 (2026-09-02) · https://github.com/Kareadita/Kavita · Web: http://www.kavitareader.com
+  Temas: annotations · cbz · comicinfo · comics · comics-reader · cross-platform
 
-• `Kareadita/Kavita` — ★11.971 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **LittleSurvival/copymanga-copy20** — «Mihon/Tachiyomi系列 拷貝漫畫等中文資源的書源 相關社群見readme»
+  ★2.972 · su último empuje fue el 2026-10-11 (hace 20 días) · licencia sin archivo LICENSE en su repo (verificado) · Smali · última release hipmh-v1.4.1 (2026-10-11) · https://github.com/LittleSurvival/copymanga-copy20 · Web: https://discord.gg/kE2VAZk2pd
+  Temas: baozimanhua · copy20 · copymanga · extension · mihon · suwayomi
 
-• `LittleSurvival/copymanga-copy20` — ★2.972 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-11
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **lnreader/lnreader** — «Light novel reader for Android.»
+  ★2.942 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia MIT · TypeScript · última release v2.1.4 (2026-09-26) · https://github.com/lnreader/lnreader · Web: https://www.lnreader.app
+  Temas: android · light-novels · react · react-native · webnovels
 
-• `lnreader/lnreader` — ★2.942 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· MIT
+- **IReaderorg/IReader** — «Free and open source novel reader for Android and Desktop.»
+  ★980 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia Apache-2.0 · Kotlin · última release v2.0.26 (2026-09-07) · https://github.com/IReaderorg/IReader · Web: https://ireaderorg.netlify.app/
+  Temas: android · compose · hacktoberfest · ireader · kotlin · light-novels
 
-• `IReaderorg/IReader` — ★980 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· Apache-2.0
+- **Aidoku-Community/sources** — «Community-maintained Aidoku sources»
+  ★609 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Rust · https://github.com/Aidoku-Community/sources · Web: https://aidoku-community.github.io/sources/
 
-• `Aidoku-Community/sources` — ★609 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **yuzono/anime-extensions** — su repo no trae descripción oficial
+  ★522 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · https://github.com/yuzono/anime-extensions
 
-• `yuzono/anime-extensions` — ★522 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **Spyou/Zangetsu** — «Free, open-source app for anime, movies, series, manga and light novels — on Android, Android TV and iOS (beta).»
+  ★455 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Dart · última release v2.3.4 (2026-10-29) · https://github.com/Spyou/Zangetsu · Web: https://zangetsu.online
+  Temas: android-tv · anime · animeapp · ios · light-novel · manga
 
-• `Spyou/Zangetsu` — ★455 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **lnreader/lnreader-plugins** — «Repository to host plugin related issues, and requests for LNReader»
+  ★364 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · TypeScript · última release v2.0.0 (2024-03-21) · https://github.com/lnreader/lnreader-plugins
+  Temas: lightnovels · webnovels
 
-• `lnreader/lnreader-plugins` — ★364 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **Suwayomi/tachiyomi-extension** — «Suwayomi Extension for Tachiyomi and variants»
+  ★346 · su último empuje fue el 2026-09-19 (hace 42 días) · licencia Apache-2.0 · Kotlin · https://github.com/Suwayomi/tachiyomi-extension
+  Temas: tachiyomi · tachiyomi-extensions
 
-• `Suwayomi/tachiyomi-extension` — ★346 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-19
-· Apache-2.0
+- **yuzono/cursed-manga-extensions** — «Source code of extensions for Komikku / Mihon & forks.»
+  ★214 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia Apache-2.0 · Kotlin · https://github.com/yuzono/cursed-manga-extensions
 
-• `yuzono/cursed-manga-extensions` — ★214 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· Apache-2.0
+- **mojuru/cursed-manga-repo** — «Extensions for Komikku / Mihon & forks.»
+  ★174 · su último empuje fue el 2026-10-12 (hace 19 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release 5dad5cf (2026-10-12) · https://github.com/mojuru/cursed-manga-repo · Web: https://mojuru.github.io/cursed-manga-repo/
 
-• `mojuru/cursed-manga-repo` — ★174 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-12
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **self-similarity/MegaRepo** — su repo no trae descripción oficial
+  ★140 · su último empuje fue el 2025-10-03 (hace 393 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · https://github.com/self-similarity/MegaRepo
 
-• `self-similarity/MegaRepo` — ★140 (verificado 2026-10-29)
-· dormido · última actividad 2025-10-03
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Secozzi/aniyomi-extensions** — su repo no trae descripción oficial
+  ★128 · su último empuje fue el 2026-09-20 (hace 41 días) · licencia Apache-2.0 · Kotlin · última release 7717051 (2026-09-20) · https://github.com/Secozzi/aniyomi-extensions
 
-• `Secozzi/aniyomi-extensions` — ★128 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-20
-· Apache-2.0
+- **InvalidDavid/UMA** — «UMA Plugin for the Usagi App or other Kotatsu Forks.»
+  ★82 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 83bcf88 (2026-10-22) · https://github.com/InvalidDavid/UMA · Web: https://yumemi.moe/usagi
 
-• `InvalidDavid/UMA` — ★82 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· GPL-3.0
+- **salmanbappi/extensions-repo** — «Dedicated Anime Extensions Repository for Anikku»
+  ★51 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · https://github.com/salmanbappi/extensions-repo
 
-• `salmanbappi/extensions-repo` — ★51 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Schnitzel5/ApkBridge** — «An Android Proxy Server for invoking APK stub functions.»
+  ★36 · su último empuje fue el 2026-02-11 (hace 262 días) · licencia Apache-2.0 · Kotlin · última release v1.8 (2025-09-11) · https://github.com/Schnitzel5/ApkBridge
 
-• `Schnitzel5/ApkBridge` — ★36 (verificado 2026-10-29)
-· dormido · última actividad 2026-02-11
-· Apache-2.0
+- **inkdex/extensions** — «Paperback extension registry combining all extensions from the Inkdex community into a single repository.»
+  ★32 · su último empuje fue el 2026-10-19 (hace 12 días) · licencia sin archivo LICENSE en su repo (verificado) · https://github.com/inkdex/extensions · Web: https://inkdex.github.io/installation
+  Temas: extensions · paperback · registry
 
-• `inkdex/extensions` — ★32 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-19
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Moomooo95/moomooo95-extensions** — «French sources for the Paperback application»
+  ★20 · su último empuje fue el 2025-05-21 (hace 528 días) · licencia GPL-3.0 · TypeScript · https://github.com/Moomooo95/moomooo95-extensions · Web: https://moomooo95.github.io/moomooo95-extensions/master
+  Temas: paperback · paperback-repo · paperback-source
 
-• `Moomooo95/moomooo95-extensions` — ★20 (verificado 2026-10-29)
-· dormido · última actividad 2025-05-21
-· GPL-3.0
+- **NovelSourcery/extensions** — «Tsundoku format compiled novel extensions»
+  ★20 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release d31198f (2026-10-28) · https://github.com/NovelSourcery/extensions · Web: https://novelsourcery.github.io/
+  Temas: extension · repo · repository · tsundoku
 
-• `NovelSourcery/extensions` — ★20 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-28
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **dannovels/novel-extensions** — su repo no trae descripción oficial
+  ★17 · su último empuje fue el 2025-01-05 (hace 664 días) · licencia sin archivo LICENSE en su repo (verificado) · https://github.com/dannovels/novel-extensions
 
-• `dannovels/novel-extensions` — ★17 (verificado 2026-10-29)
-· dormido · última actividad 2025-01-05
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **gato404/kegareta-sauces** — su repo no trae descripción oficial
+  ★14 · su último empuje fue el 2025-07-22 (hace 466 días) · licencia Apache-2.0 · Dart · https://github.com/gato404/kegareta-sauces
 
-• `gato404/kegareta-sauces` — ★14 (verificado 2026-10-29)
-· dormido · última actividad 2025-07-22
-· Apache-2.0
+- **Nyora-Manga/nyora-mihon** — «A single fully-local Mihon/Tachiyomi extension bundling the kotatsu-parsers engine (~900 on-device sources).»
+  ★14 · su último empuje fue el 2026-07-19 (hace 104 días) · licencia sin archivo LICENSE en su repo (verificado) · https://github.com/Nyora-Manga/nyora-mihon
+  Temas: extension · kotatsu · manga · mihon · nyora · tachiyomi
 
-• `Nyora-Manga/nyora-mihon` — ★14 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-07-19
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Gekkoushi/plugin** — «This repository contains plugin artifacts for Usagi and any apps that use the same structure with Tsuki.»
+  ★11 · su último empuje fue el 2026-09-13 (hace 48 días) · licencia sin archivo LICENSE en su repo (verificado) · última release 75af884 (2026-08-10) · https://github.com/Gekkoushi/plugin
 
-• `Gekkoushi/plugin` — ★11 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-13
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Awerkori/manga-fonte-extensoes** — «Código-fonte em Kotlin e pipeline de compilação das extensões de mangá do Project Nox para Mihon e forks.»
+  ★9 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · https://github.com/Awerkori/manga-fonte-extensoes · Web: https://raw.githubusercontent.com/Awerkori/extensoes/repo/index.pb
 
-• `Awerkori/manga-fonte-extensoes` — ★9 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· Apache-2.0
+- **Schnitzel5/mangayomi-custom-buttons** — «A collection of custom buttons for Mangayomi.»
+  ★6 · su último empuje fue el 2025-10-05 (hace 391 días) · licencia MIT · Dart · https://github.com/Schnitzel5/mangayomi-custom-buttons
 
-• `Schnitzel5/mangayomi-custom-buttons` — ★6 (verificado 2026-10-29)
-· dormido · última actividad 2025-10-05
-· MIT
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). **dannovels/novel-extensions** duerme desde el 2025-01-05; 13 repos tienen release y la más reciente es la de **keiyoushi/extensions** (dbf6c05 (2026-10-29)); en licencias: sin archivo LICENSE en su repo (verificado) ×10, Apache-2.0 ×9, GPL-3.0 ×4; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; el empuje más reciente es de **keiyoushi/extensions** (hace 2 días).
 
-• https://github.com/keiyoushi/extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/yuzono/anime-extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/yuzono/cursed-manga-extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/yuzono/cursed-manga-repo — vivo al verificar hoy (2026-10-29)
-• https://github.com/Secozzi/aniyomi-extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/Suwayomi/tachiyomi-extension — vivo al verificar hoy (2026-10-29)
-• https://github.com/Aidoku-Community/sources — vivo al verificar hoy (2026-10-29)
-• https://github.com/inkdex/extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/LNReader/lnreader-plugins — vivo al verificar hoy (2026-10-29)
-• https://github.com/dannovels/novel-extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/gato404/kegareta-sauces — vivo al verificar hoy (2026-10-29)
-• https://github.com/moomooo95/moomooo95-extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/schnitzel5/apkbridge — vivo al verificar hoy (2026-10-29)
-• https://github.com/schnitzel5/mangayomi-custom-buttons — vivo al verificar hoy (2026-10-29)
-• https://github.com/self-similarity/megarepo — vivo al verificar hoy (2026-10-29)
-• https://github.com/invaliddavid/uma — vivo al verificar hoy (2026-10-29)
-• https://github.com/littlesurvival/copymanga-copy20 — vivo al verificar hoy (2026-10-29)
-• https://github.com/salmanbappi/extensions-repo — vivo al verificar hoy (2026-10-29)
-• https://github.com/gekkoushi/plugin — vivo al verificar hoy (2026-10-29)
-• https://github.com/novelsourcery/extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/lnreader/lnreader — vivo al verificar hoy (2026-10-29)
-• https://github.com/Kareadita/Kavita — vivo al verificar hoy (2026-10-29)
-• https://github.com/Nyora-Manga/nyora-mihon — vivo al verificar hoy (2026-10-29)
-• https://github.com/IReaderorg/IReader — vivo al verificar hoy (2026-10-29)
-• https://github.com/Spyou/Zangetsu — vivo al verificar hoy (2026-10-29)
-• https://github.com/Awerkori/fonte-extensoes — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 26 repos GitHub (26 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 26 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 26 vivos, 0 firmados arriba con su estado.

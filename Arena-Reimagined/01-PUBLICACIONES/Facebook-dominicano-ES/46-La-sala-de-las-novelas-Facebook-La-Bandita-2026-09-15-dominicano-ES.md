@@ -1,51 +1,36 @@
 # Publicación 46 — La sala de las novelas — la puerta Lectura IV
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 4 activos este mes. Manda **dmzz-yyhyy/LightNovelReader** (★2.303): «一款基于Compose的多数据源轻小说阅读器。支持epub导出，自定义背景样式，本地书架和更新提醒等功能。». Le sigue **ranobe-org/ranobe** (★267): «A simple extensible light novel reader». Temas que se repiten en el grupo: andriod-development, android, android-app, books.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 6 repos: 1 empujaron hoy, 2 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `dmzz-yyhyy/LightNovelReader`
-— ★2.303, Apache-2.0, último empuje 2026-10-25.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **dmzz-yyhyy/LightNovelReader** — «一款基于Compose的多数据源轻小说阅读器。支持epub导出，自定义背景样式，本地书架和更新提醒等功能。»
+  ★2.303 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia Apache-2.0 · Kotlin · última release 1.2.4 (2026-10-16) · https://github.com/dmzz-yyhyy/LightNovelReader · Web: https://lnr.nariko.org
+  Temas: andriod-development · android · android-app · compose · compose-material3 · jetpack-compose
 
-• `dmzz-yyhyy/LightNovelReader` — ★2.303 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· Apache-2.0
+- **ranobe-org/ranobe** — «A simple extensible light novel reader»
+  ★267 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Unlicense · Java · última release v0.0.20 (2026-10-26) · https://github.com/ranobe-org/ranobe · Web: https://ranobe.atulpatare.in
+  Temas: android · android-app · comics · epub · epub-reader · fablespace
 
-• `ranobe-org/ranobe` — ★267 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· Unlicense
+- **1Finn2me/Novery** — «A modern Android novel reader with multi-source support, TTS, and offline reading»
+  ★57 · su último empuje fue el 2026-05-03 (hace 181 días) · licencia GPL-3.0 · Kotlin · última release v1.0.2 (2026-05-03) · https://github.com/1Finn2me/Novery
+  Temas: android · jetpack-compose · kotlin · light-novel · material-you · novel-reader
 
-• `1Finn2me/Novery` — ★57 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-05-03
-· GPL-3.0
+- **bunoriapp/bunori** — «Read, Manage, Download & Export Light Novels, all in one Android app.»
+  ★43 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v2.0.4 (2026-09-26) · https://github.com/bunoriapp/bunori
+  Temas: android · c · cmake · jni · kotlin · light-novels
 
-• `bunoriapp/bunori` — ★43 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· GPL-3.0
+- **Nabeelshar/WebnovelReader** — «A webnovel reader app for Android with translation and offline reading features»
+  ★29 · su último empuje fue el 2026-07-25 (hace 98 días) · licencia GPL-3.0 · Python · última release v2.4.1 (2026-05-29) · https://github.com/Nabeelshar/WebnovelReader
+  Temas: books · novel · novels · reading · story · webnovel
 
-• `Nabeelshar/WebnovelReader` — ★29 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-07-25
-· GPL-3.0
+- **ghotato/Foxlations** — «An all in one reading and streaming app for manga, anime and light novels»
+  ★20 · su último empuje fue el 2026-10-11 (hace 20 días) · licencia Apache-2.0 · Dart · última release v1.2.2+188 (2026-10-11) · https://github.com/ghotato/Foxlations
 
-• `ghotato/Foxlations` — ★20 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-11
-· Apache-2.0
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+**ranobe-org/ranobe** trae la novedad del grupo, su release v0.0.20 (2026-10-26). **1Finn2me/Novery** no se mueve desde el 2026-05-03; **ranobe-org/ranobe** firmó la release de fecha más reciente (v0.0.20 (2026-10-26)) de las 6 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×3, Apache-2.0 ×2, Unlicense ×1; la actividad más fresca es de **bunoriapp/bunori** (hace 2 días).
 
-• https://github.com/dmzz-yyhyy/LightNovelReader — vivo al verificar hoy (2026-10-29)
-• https://github.com/ranobe-org/ranobe — vivo al verificar hoy (2026-10-29)
-• https://github.com/1Finn2me/Novery — vivo al verificar hoy (2026-10-29)
-• https://github.com/Nabeelshar/WebnovelReader — vivo al verificar hoy (2026-10-29)
-• https://github.com/Binit06/LNCrawler — vivo al verificar hoy (2026-10-29)
-• https://github.com/ghotato/Foxlations — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 6 repos GitHub (6 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 6 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 6 vivos, 0 firmados arriba con su estado.
