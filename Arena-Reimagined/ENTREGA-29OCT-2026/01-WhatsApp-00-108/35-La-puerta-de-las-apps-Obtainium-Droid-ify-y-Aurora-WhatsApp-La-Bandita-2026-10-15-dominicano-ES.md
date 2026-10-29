@@ -946,8 +946,6 @@ una-fuente-por-app la regla de la arquitectura.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que vive de APKs del grupo.*
 
 Esta pieza te muestra la salida más barata de toda la serie: la ruleta del grupo se jubila en una tarde — el estante, la suscripción y la anónima cubren TODO lo que cubrían los veinte archivos sueltos, con firma y sin lotería. Y el detalle que nadie cuenta: después de la mudanza, las actualizaciones llegan SOLAS — el oficio de las puertas es el que descansa.
@@ -969,27 +967,22 @@ el catálogo de la casa, esperando.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Si estas puertas sirvieron para algo más que leer, fue para esto: dejar escrito que la entrada
-de las apps tiene arquitectura con placa — Obtainium la suscripción directa empujando el 14-oct,
-Droid-ify el estante limpio con su espejo honesto, Aurora la anónima de la tienda grande — y una
-institución de 2010 compilando debajo de todo.
+• `koreader/koreader` — ★30.726 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release OTA (2026-10-28).
 
-La forja lo midió con el censo de la tarde y el pulso de la noche del mismo día en que nace esta pieza, y lo firma: cada app por su puerta, cada puerta con su firma, una fuente por app — y la ruleta fuera. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+• `imranr98/obtainium` — ★21.002 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v1.7.3 (2026-10-25).
 
-Cruza tu primera puerta bien. Suscríbete a tu taller de siempre.
+• `whyorean/aurorastore` — ★3.196 (verificado 29-oct-2026) · última actividad 2026-10-02 · GPL-3.0.
 
-Examina lo que entre por la anónima. Y cuando el teléfono amanezca con las actualizaciones del
-taller solas, recuerda: no cambiaste de apps — cambiaste de puertas.
+• `droid-ify/client` — ★7.658 (verificado 29-oct-2026) · última actividad 2026-09-12 · GPL-3.0.
 
-Eso no lo vende el grupo: se arma con GPL, y dura años.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-───────────────────
-
-#LaBandita #LaPuertaDeLasApps #Obtainium #FDroid #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 35).*
 

@@ -16,22 +16,6 @@ Juventud con pulso vence a vejez con eco.
 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 · release Repository Update dbf6c05 (2026-10-28)
 
-## 📦 Las reglas de la casa
-
-**1.** Joven se juzga por actividad y licencia, no por promesa.
-
-**2.** El nacimiento se fecha como se fecha el empuje: sin fecha no hay futuro que citar.
-
-**3.** Al joven vivo se le visita en su gira: el futuro también se re-verifica.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 99 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 1 con actividad de la semana, 0 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-El futuro sobresaliente se detecta empujando hoy, no trending mañana.
-
 ## El meme de la pieza
 
 > —Eso salió ayer, no sirve. —La torre mayor del censo también “salió ayer”, en 2023.

@@ -974,58 +974,18 @@ REV|.arupa es on aírtseam al ;edeup ON esab le euq ol ap :nózas le — airomem
 
 REV|.oicogen us ap olager ed ,anirtiv al ed olemeg le :najaiv sámaj oicifo led solpmeje sol — AJAC AL NE
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que su pensa contesta como robot de internet.* El que su oficio tiene lengua
-propia (el colmado, la barbería, el taller: la manera de contestar de la casa) cuyo pensa
-contesta como el promedio del mundo (genérico, traducido, sin sazón): la vara de esta pieza es
-tu lengua por dentro.
+• `unslothai/unsloth` — ★78.744 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release Trick or Treat + Optimizations (2026-10-28).
 
-Cien ejemplos limpios, una tarde de clase, un examen serio: el pensa que habla COMO TÚ. La
-maestría de tu fila: espera — y el robot de internet: con los días contados.
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
 
-*SEGUNDA CARTA — al que le ofrecieron el «gemelo gratis».* El que la plataforma de la vitrina le
-prometió su clon por subir las conversaciones (la gaveta entera del oficio: «gratis, sin
-compromiso»): la vara mayor del bloque te para la mano.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Tu data ES tu oficio (los clientes, los secretos, la manera: el activo más fino de tu casa), y
-el gemelo ajeno: tu sazón corriendo en SU producto. El sazón local: cuesta una tarde de tu luz —
-el ajeno: cuesta tu gaveta.
-
-La casa no regala su receta: la cría.
-
-*TERCERA CARTA — al que la maestría le parece muy lejos.* El que la fila entera le parece larga
-(mente, cara, despensa, faenas, compañía, bolsillo, raíz, origen...
-
-¿y AHORA afilar?): la vara honesta te abraza — el sazón es el ÚLTIMO paso de la fila (la
-maestría no se apura: se camina), y la vara fina: puede que tu casa NO lo necesite (el pensa
-base bien elegido + la instrucción buena: el 90% de las vidas digitales — la regla dos te lo
-dice: si el base te sirve de memoria, NO afinas: la pieza que defiende no hacerse, otra vez).
-
-La maestría: pa quien la merece — y saber esperarla: también es maestría.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el pensar de la
-casa también se cría — Unsloth ★78.122 (pulso 16-oct-2026), la placa del sazón, casi tres años
-de forja con su letra Apache: el entrenamiento de mesa, pa el taller del barrio.
-
-La forja lo midió con el pulso de HOY y lo firma: la data local (el oficio, jamás viajero), la
-receta base de memoria ANTES (la maestría, sin apuro), la obra con examen (el debut en ensayo) —
-y la regla cosida: el rótulo no se lava.
-
-Recoge tus cien conversaciones. Limpia tu clase.
-
-Da tu examen. Y cuando la vitrina te ofrezca el gemelo gratis por tu gaveta entera, recuerda: tu
-sazón se cría en casa — porque el oficio es tuyo, y la maestría manda.
-
-Eso no lo firma la vitrina: se firma Apache, y se cría en la casa.
-
-───────────────────
-
-#LaBandita #ElTallerDelSazon #Unsloth #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 69).*
 

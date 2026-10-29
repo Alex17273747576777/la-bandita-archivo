@@ -135,32 +135,6 @@ Eso, en pañales, es cómo nace una rama seria.
 
 El contexto histórico, con fecha: el almacén oficial de anime de Aniyomi archivó en agosto de 2024 y el comunitario (Kohi-den) en mayo de 2026 — el que estos repos nuevos existan es la respuesta del ecosistema a esos vacíos. Los índices de instalación no se pegan aquí: se leen en el README de cada almacén, el día que se use.
 
-## ⚖️ Anime puro o anime+manga: cómo decidir
-
-```
-¿Ves anime y NUNCA tocas el manga?
-   → Animiru o Anikku: la app pesa menos,
-     la interfaz no te estorba con la mitad
-     que no usas.
-
-¿Ves anime y lees manga, con distinto ánimo?
-   → La rama anterior (Aniyomi/Animetail/Tadami):
-     las dos cosas en una mano.
-
-¿Anime en la tele?
-   → AnimiruTv existe — con la advertencia de
-     siempre: fork pequeño, verifícalo el día
-     que lo pruebes.
-
-¿Ya usas Komikku para manga?
-   → Anikku tiene la lógica del mismo equipo:
-     la familia se siente en la interfaz.
-```
-
-Las dos fichas de hoy pasan las puertas de la casa: uso real (comunidades activas), unicidad
-(anime puro es su nicho), madurez (releases de esta semana, estructura de org en un caso) y
-propósito propio (quitar el manga ES el propósito — no es cosmética).
-
 ## ❓ Preguntas frecuentes
 
 **¿Animiru es «Aniyomi sin manga» nada más?** Su base es Aniyomi y su diferencia es esa — pero suma detalles propios (el set de trackers incluye Simkl y Hikka, el reproductor mpv va afinado en cada versión). Dos versiones en una mañana dicen que el «nada más» está siendo trabajado.

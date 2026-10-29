@@ -1009,41 +1009,16 @@ primer sueldo en la factura."
 
 Las escribo directamente en el replace del bash de verificación.
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que reinicia por costumbre.* El de la casa del «apágalo y préndelo» (la reza de las tardes): esta semana se jubila la reza. El radar del censo, la foto del canal, la gira de media hora — y la lentitud de tu casa, con nombre propio (el canal peleao, la pared con impuesto, la caja tapada).
+• `vremsoftwaredevelopment/wifianalyzer` — ★5.049 (verificado 29-oct-2026) · última actividad 2026-10-03 · GPL-3.0.
 
-La casa que mide, administra: la próxima lentitud lleva nombre y salida — jamás reza.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al que paga plan pa nada.* El que compró el plan más caro pa arreglar «el internet» (y sigue lento): la gira del radar antes de pagar otra vez. El caso cinco de la pieza: el aire limpio con plan de 40 — la factura del plan de 200, cobrando aire muerto.
-
-La medida cobra su primer sueldo en la factura: la vara del mostrador, en pesos.
-
-*TERCERA CARTA — al que guarda el radar como secreto.* El que mide su aire y no le firma el expediente a nadie de la casa: la vara que no se comparte, la queja que no se gana. El expediente del aire (la gira, el canal, la fecha) es de la casa: la mamá del meme, los hijos con la vara, la abuela con su serie firme — la casa entera midiendo, la casa entera administrando.
-
-El radar en un solo bolsillo: medio termómetro.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el aire de la casa
-tiene termómetro con placa — WiFiAnalyzer ★5.022 (pulso 16-oct-2026), once años de oficio con la
-ley de la casa: la vara que muestra el aire invisible y firma la verdad del wifi con números.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: el canal del
-vecino a la vista, la gira de los rincones anotada, la hora del barullo firmada — y la queja de
-la casa, con expediente: la vara de la serie, puesta al servicio del aire.
-
-Mide tu casa esta semana. Cambia el canal con la foto delante.
-
-Y cuando el anuncio del «acelerador de wifi» prometa velocidad pa tu aire, recuerda: tu aire ya
-tiene termómetro — porque lo medido, fechado, se administra. Eso no lo descarga la tienda: se
-firma con GPL, y se mide caminando la casa.
-
-───────────────────
-
-#LaBandita #ElRadar #WiFiAnalyzer #Wifi #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 47).*
 

@@ -17,18 +17,6 @@ Dos descargadores hermanas enseñan la lección entera de esta casa: YTDLnis sol
 · última actividad 2026-09-25
 · GPL-3.0.
 
-## 📦 Las reglas de la casa
-
-**1.** Se firman dos fechas siempre: último empuje y última release, en su línea cada una.
-
-**2.** La APK sale de la release de SU forja: el código fresco sin release es cocina, no plato.
-
-**3.** Descargar lo tuyo o lo libre: la herramienta baja, la procedencia la firma el dueño.
-
-## ⚖ La vara
-
-La fecha que no se distingue es la mentira que se repite: empuje y release son dos relojes, no uno.
-
 ## El meme de la pieza
 
 > —Está vivo, mira el código. —Y la última release es de 2024: vivo en la cocina, ausente en la

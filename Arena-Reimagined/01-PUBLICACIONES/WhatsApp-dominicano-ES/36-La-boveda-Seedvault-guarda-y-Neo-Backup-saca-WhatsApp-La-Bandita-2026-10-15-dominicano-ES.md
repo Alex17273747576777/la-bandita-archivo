@@ -999,8 +999,6 @@ diferencia.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que acaba de perder el teléfono.*
 
 Esta pieza llega tarde pa tu pérdida y la forja lo firma — pero la cicatriz es la maestra de la
@@ -1025,27 +1023,21 @@ El teléfono que antes era una apuesta, amaneció institución.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Si esta bóveda sirvió para algo más que leer, fue para esto: dejar escrito que la memoria de la
-casa tiene póliza con placa — Seedvault la bóveda del sistema empujando el 14-oct, Neo-Backup la
-llave quirúrgica del colectivo que heredó el oficio con ley AGPL — y una doctrina más vieja que
-las apps: tres copias, dos medios, una fuera.
+• `seedvault-app/seedvault` — ★1.877 (verificado 29-oct-2026) · última actividad 2026-10-14 · licencia Apache-2.0 (resuelta por el texto de su LICENSE al cierre, 29-oct-2026).
 
-La forja lo midió con el censo de la tarde y el pulso de la noche del mismo día en que nace esta pieza, y lo firma: la cópia que no salió no existe, la póliza sin prueba no cobra, y la llave sin tronco es tumba. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+• `neoapplications/neo-backup` — ★3.880 (verificado 29-oct-2026) · última actividad 2026-10-17 · AGPL-3.0.
 
-Arma el destino. Configura la bóveda.
+Licencias sin resolver hoy (1): `seedvault-app/seedvault`. Sin licencia clara no hay
+recomendación completa: queda la alerta firmada.
 
-Prueba la restauración una vez al año. Y cuando el teléfono del vecino muera y el tuyo amanezca
-copiado como siempre, recuerda: no tuviste suerte — tuviste póliza.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Eso no lo vende la funeraria: se arma con GPL, y dura años.
-
-───────────────────
-
-#LaBandita #LaBoveda #Seedvault #NeoBackup #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 36).*
 

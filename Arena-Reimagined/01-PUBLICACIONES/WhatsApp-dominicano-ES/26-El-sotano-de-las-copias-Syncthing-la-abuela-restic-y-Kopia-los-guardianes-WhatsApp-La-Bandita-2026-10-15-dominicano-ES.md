@@ -980,8 +980,6 @@ y espejo-más-máquina-del-tiempo las dos puertas.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que nunca hizo respaldo en su vida.*
 
 Esta pieza fue escrita pa ti: el miedo a empezar es más grande que el trabajo real. Una tarde:
@@ -1010,28 +1008,30 @@ las casas más nobles que la serie ha medido.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-Si este sótano sirvió para algo más que leer, fue para esto: dejar escrito que la copia de la
-copia que toda la serie repite tiene muebles con placa — Syncthing la abuela de casi trece años
-empujando el 13-oct-2026, restic y Kopia los guardianes cifrados, y el fork Android que mudó de
-casa sin dejar de respirar un mes.
+• `syncthing/syncthing-android` — ARCHIVADO · última actividad 2024-12-03 · ★4.293 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
 
-La forja lo midió con el censo de la tarde y el pulso de la noche del mismo día en que nace esta pieza, y lo firma: sincroniza lo vivo, respalda lo histórico, cifra antes de salir, prueba cada mes, firma con fecha. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+*Señales de futuro (novedad activa, no ranking por estrellas):*
 
-Monta tu espejo. Corre tu máquina del tiempo.
+• `researchxxl/syncthing-android` — creado 2025-10-29 · última actividad 2026-10-22 · ★3.189 (verificado 29-oct-2026) · MPL-2.0.
 
-Borra el archivo de prueba y míralo volver. Y cuando el grupo te ofrezca el respaldo automático
-de un toque, recuerda: tu sótano no se descarga — se construye UNA tarde, y se mantiene TRES
-horas al año.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Eso no lo vende nadie: eso se hereda.
+• `kopia/kopia` — ★14.522 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
 
-───────────────────
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
 
-#LaBandita #ElSotano #Syncthing #restic #Kopia #CopiaDeLaCopia #FOSS #DominicanoES
+• `researchxxl/syncthing-android` — ★3.189 (verificado 29-oct-2026) · última actividad 2026-10-22 · MPL-2.0 · release Syncthing-Fork v2.1.7.0 (2026-10-21).
 
-───────────────────
+• `restic/restic` — ★36.878 (verificado 29-oct-2026) · última actividad 2026-10-18 · BSD-2-Clause.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 26).*
 

@@ -1003,54 +1003,18 @@ REV|.etneilac rellat led amargelet le :onarev led rolac le y — )»ocop odnarip
 
 REV|.1202 ne rodajrof olos NU ed adican — )orberec la ósap — 755.29★( arbo al adot ed royam acalp adnuges aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que el nerviosismo le vive en el paseo.* El que el «¿se habrá caído?» le
-roba el domingo en la playa (la duda eterna: volver a mirar o vivir en la incertidumbre): la
-vara de esta pieza es tu serenidad por dentro.
+• `louislam/uptime-kuma` — ★93.055 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release 2.5.8 (2026-10-27).
 
-El vigía en la caja (una hora), el telegrama al bolsillo (la caída fechada, la resurrección
-avisada), y el domingo de playa: el teléfono quieto, el silencio CONFIRMANDO. La duda: jubilada
-— la serenidad del dueño con vigía.
+• `gethomepage/homepage` — ★33.434 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release v2.7.0 (2026-10-23).
 
-*SEGUNDA CARTA — al que le ofrecieron el monitoreo con cuota.* El que la tienda le ofreció el
-plan del nerviosismo (9.99 al mes pa vigilar TU infraestructura desde SU taller): esta pieza te
-jubila la cuota — el vigía de la fila (la segunda placa mayor de la obra: MIT, libre pa siempre)
-corre EN tu caja, mira desde tu cocina, y avisa a TU bolsillo: 0.00 al mes, para siempre.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-El plan del nerviosismo: de la tienda — la serenidad: de tu caja.
-
-*TERCERA CARTA — al que cierra la fila con esta pieza.* El que llegó hasta aquí (las diez piezas
-del taller propio: la nube, el álbum, el cine, el cerebro, la pared, el cofre, la forja, el
-túnel, el archivo y el tablero): esta es TU casa — el taller completo, con pulso visible y dueño
-firmado.
-
-La obra sigue (la 61 abre la fila de la IA propia), pero tu taller: COMPLETO — el barrio entero,
-con casa que piensa, recuerda, cuida y avisa. La década del taller propio: tuya.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la casa tiene
-tablero con placa — Uptime Kuma ★92.632 (pulso 19-oct-2026), la segunda placa mayor de toda la
-obra, nacida de un solo forjador, y Homepage ★33.188, su mapa: la pareja del cierre.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: los nueve
-latidos (cada faena, su vara), el telegrama con criterio (calla lo que no importa, grita lo que
-sí), el chequeo de profundidad (el aviso antes del ahogo) — y la regla cosida: el telegrama que
-llega, se lee; el tablero, tras el candado de la casa.
-
-Monta tu tablero. Firma tus latidos.
-
-Jubila tu nerviosismo. Y cuando la tienda te ofrezca tu propia serenidad con cuota mensual,
-recuerda: tu casa se vigila sola — porque el taller es tuyo, y su pulso manda.
-
-Eso no lo firma la cuota: se firma con MIT, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #ElTableroDeLaCasa #UptimeKuma #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 60).*
 

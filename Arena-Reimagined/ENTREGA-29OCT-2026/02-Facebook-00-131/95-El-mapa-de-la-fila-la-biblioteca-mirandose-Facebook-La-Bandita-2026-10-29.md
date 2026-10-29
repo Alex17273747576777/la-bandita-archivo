@@ -17,22 +17,6 @@ libros buenos.
 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 · release Repository Update dbf6c05 (2026-10-28)
 
-## 📦 Las reglas de la casa
-
-**1.** Toda fila larga se mapea o se pierde: el índice es parte de la obra.
-
-**2.** El mapa lleva fecha: la biblioteca de mañana no es la de hoy.
-
-**3.** Lo que el mapa revela que falta, se agenda; lo que sobra, se poda sin llanto.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 95 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 1 con actividad de la semana, 0 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-El que no sabe dónde está parado no sabe qué le falta: el mapa es la primera herramienta.
-
 ## El meme de la pieza
 
 > —Yo encuentro todo de memoria. —La memoria es el mapa que se borra el día que más falta hace.

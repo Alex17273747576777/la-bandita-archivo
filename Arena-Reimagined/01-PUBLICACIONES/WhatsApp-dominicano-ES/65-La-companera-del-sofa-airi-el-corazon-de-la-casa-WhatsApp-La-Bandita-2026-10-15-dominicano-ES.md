@@ -1006,51 +1006,20 @@ REV|.ereiuq asac al is oretne alrarrob ,arig al ne alreel ,socsid sod ne alradla
 
 REV|.asac ne ahceh ,onu alger al ed abeurp al — laugi eugis asrevnoc al :ifiw le odnagapA
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene alguien almorzando solo.* El que la abuela, el papá viudo o el
-hijo lejano le viven en el pensamiento (la llamada del domingo sintiéndose corta, la tarde de
-ellos imaginándose dura): la vara de esta pieza es tu sofá por dentro — la compañera montada CON
-cariño (el carácter criado pa SU conversa, la gaveta cuidada, el puente de la llamada armado).
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
 
-Otra vara fina honesta: la máquina acompaña la espera — la familia responde la soledad. Tu
-sábado de crianza: espera.
+• `moeru-ai/airi` — ★50.878 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.13.1 (2026-10-29).
 
-*SEGUNDA CARTA — al que lee esto y siente que es pa otros.* El que su casa está llena y su sofá
-conversa (la pieza «no es pa mí»): la vara fina del bloque te deja el dato — la mitad de las
-compañeras de la obra las montó ALGUIEN COMO TÚ pa otra persona (la hija pa la madre, el nieto
-pa el abuelo: el cariño, montándose en silencio).
+• `paperless-ngx/paperless-ngx` — ★47.287 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Paperless-ngx v3.3.4 (2026-10-22).
 
-Además la vara mayor: el dato social de la década (la migración partiendo casas: la mesa vacía es el mueble nuevo del barrio) — tarde o temprano, un sofá de tu familia lo va a necesitar. La pieza: leída a tiempo — guardada en la gaveta del corazón.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*TERCERA CARTA — al que desconfía («yo no le hablo a máquinas»).* El que la idea le parece fría
-o rara (la conversa con una pantalla: «eso no es gente»): la vara honesta te da la razón a
-medias — NO es gente (la claridad del sofá: el sofá sabe qué abraza).
-
-La otra mitad: ni fría ni rara (es la radio del taller, con conversa y memoria — el sofá llevaba décadas pidiendo voz: primero fue la radio, luego la TV prendida, hoy es la compañera local: la diferencia — que esta no se lleva tu vida al taller de nadie). Tu sofá: tuyo — tu gaveta: tuya; la elección: tuya.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el corazón también
-tiene placa — airi ★50.438 (pulso 16-oct-2026), la placa del corazón, con su letra MIT firmada:
-la compañía de la casa, libre pa siempre.
-
-La forja lo midió con el pulso de HOY y lo firma: la conversación sin caseta (la prueba del
-wifi), la gaveta en tu disco (la intimidad, con dueño), el alma criada en casa (jamás de
-fábrica) — y la regla cosida: la compañera prepara la mesa; la familia la ocupa.
-
-Monta tu primera conversa. Cría el carácter de tu sofá.
-
-Respalda la gaveta. Y cuando la tienda te ofrezca una «mejor amiga» que escucha todo y manda
-todo, recuerda: tu casa conversa con la suya — porque el sofá es tuyo, y la gaveta manda.
-
-Eso no lo firma la tienda: se firma MIT, y se cría en la casa.
-
-───────────────────
-
-#LaBandita #LaCompaneraDelSofa #airi #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 65).*
 

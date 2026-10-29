@@ -18,22 +18,6 @@ Con la mano de la varita o con llave root, su oficio es que ninguna app viva en 
 · GPL-3.0
 · release build107.3.0 (2026-10-21)
 
-## 📦 Las reglas de la casa
-
-**1.** Inventario antes que limpieza: primero se sabe qué hay, después se bota.
-
-**2.** Desinstalar con libreta: lo que salió y cuándo, por si mañana se extraña.
-
-**3.** El permiso raro se pregunta en voz alta antes de perdonarlo.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 91 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 1 con actividad de la semana, 0 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-Una casa con inventario no necesita memoria perfecta: necesita mayordomo y libreta.
-
 ## El meme de la pieza
 
 > —Tengo 200 apps y no sé ni la mitad. —El mayordomo sí sabe: pregúntale antes de la próxima

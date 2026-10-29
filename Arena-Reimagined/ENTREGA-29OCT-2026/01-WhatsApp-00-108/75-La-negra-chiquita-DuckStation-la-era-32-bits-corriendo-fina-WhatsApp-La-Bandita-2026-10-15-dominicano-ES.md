@@ -999,51 +999,19 @@ REV|.amrif UT noc odneirroc :nólas lE .)asac arto ed adabor evall al :aneja SOI
 
 REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq OSI acinú al( amrif US noc aclov es etnatse led DC le :oiporp ocsid led yel al noc — 1SP aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene la PS1 muerta en la gaveta.* El que guarda la consola con el lente cansado (los CDs ya no leen: «los juegos de los muchachos, perdíos»): la vara de esta pieza es tu gaveta — la negra los corre (la tarde del rescate: tus discos, volcándose mientras aún leen — TU BIOS, firmando el salón). Tu gaveta: no es chatarra — es el domingo esperando su tele.
+• `stenzek/duckstation` — ★10.914 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release Latest Preview Build (2026-10-29).
 
-*SEGUNDA CARTA — al que lleva su infancia en la app del tacho.* El que lleva años con el «emulador con todo incluido» (cómodo, al toque — con sus 800 discos de nadie): la vara del bloque no te juzga — te deja el mapa (lo que el tacho trae: la era robada + el regalito que mira tu salón
+Licencias sin resolver hoy (1): `stenzek/duckstation`. Sin licencia clara no hay recomendación
+completa: queda la alerta firmada.
 
-y el remedio: el volcado de TU estante — los 6 discos que de verdad juegas, con tu firma).
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Otra vara fina: la diferencia de salón (la negra honesta: la precisión de relojero, el save
-heredado con cofre, la partida a fluidez — el tacho: no ofrece na de eso). Tu domingo: merece su
-era propia — no 800 desconocidos.
-
-*TERCERA CARTA — al que la partida del 98 le duele de memoria.* El que recuerda la memory card
-del hermano (la que se perdió en una mudanza, en un lente muerto, en un «ya no importa»): esta
-pieza es tu segunda chance — el cofre de la infancia: los saves heredados con respeto (se leen
-sin tocar, se copian ANTES: la partida del 98 — continuando donde el hermano la dejó).
-
-Con vara fina: la lección de la casa (lo que hoy juega tu hermano menor o tu hijo: SU save se
-respalda HOY — la era criando casas que no pierden partidas). El save perdido: no vuelve — el
-próximo: jamás se pierde.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la infancia de una
-casa también se hereda — stenzek/duckstation ★10.857 (pulso 19-oct-2026), la quinta placa del
-salón, siete años de forja resucitando la era 32 bits: los CDs del estante, de vuelta en la
-tele.
-
-La forja lo midió con el pulso de HOY y lo firma: la ley del disco negro (el CD del estante,
-volcado con respeto), la precisión sin changüí (el upscale: lujo — el juego: intacto), la firma
-de TU consola — y la regla cosida: la memory card ajena, sagrada.
-
-Busca la gaveta de mamá. Pide el lector del club.
-
-Pon la mano en el mando. Y cuando el tacho te ofrezca 800 juegos incluidos, recuerda: el salón
-de tu casa son tus 6 discos y la memory card del 98 — porque una infancia no se descarga: se
-rescata, se respalda y se juega en familia.
-
-Eso no lo firma el tacho: lo firman siete años de forja, y empujan HOY.
-
-───────────────────
-
-#LaBandita #LaNegraChiquita #DuckStation #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 75).*
 

@@ -1060,8 +1060,6 @@ regla del default.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que descubrió que su navegador cuenta lo que lee.*
 
 Esta pieza es tu mudanza y la forja la firma con las dos ventanas del censo: la tarde del ritual (día uno al siete) quita el cuaderno de la fábrica de tu vida web — el banco, el trámite, el periódico, ESTA SERIE: las mismas páginas, sin el reporte. Y la placa que queda: la ventana que se actualiza sola por la puerta de la casa — el mueble que se cuida mientras tú vives.
@@ -1080,27 +1078,24 @@ Y la nota del oficio: el navegador es el mueble que más se usa y menos se mira 
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-Si esta ventana sirvió para algo más que leer, fue para esto: dejar escrito que la web de la
-casa tiene ventana con placa — Cromite ★8.360 (pulso 16-oct-2026) y IronFox ★1.056 (pulso
-16-oct-2026), las dos empujando HOY mismo — y una vara que la fábrica nunca firmó: lo que la
-ventana muestra, no lo reporta nadie.
+• `bromite/bromite` — dormido · última actividad 2024-01-24 · ★6.321 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
 
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: la ventana del diario única y propia, el cerraduro semanal, el escudo con la excepción del vecino. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Muda la ventana. Prueba el banco.
+• `ironfox-oss/ironfox` — ★1.087 (verificado 29-oct-2026) · última actividad 2026-10-27 · AGPL-3.0 · release v159.0: 159.0 (2026-10-27).
 
-Calla la lluvia. Y cuando el «navegador seguro» de la tienda pida tu correo pa darte el
-anonimato, recuerda: tu ventana ya no reporta nada — porque nada lleva adentro pa reportar.
+• `uazo/cromite` — ★8.447 (verificado 29-oct-2026) · última actividad 2026-09-19 · GPL-3.0.
 
-Eso no lo promete la tienda: se arma con GPL, y muestra la web como nació.
+• `bromite/bromite` — ★6.321 (verificado 29-oct-2026) · última actividad 2024-01-24 · GPL-3.0.
 
-───────────────────
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-#LaBandita #ElNavegante #Cromite #IronFox #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 41).*
 

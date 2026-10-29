@@ -1005,41 +1005,21 @@ pedazo donde estabas, no desde cero."
 
 "La cortesía de la manada: mientras cargas subes, y después semillas — la sostiene gente que dejó su cuota; tú la pagas igual." 4. "El magnet garantiza la huella (trae exactamente el contenido firmado) — jamás garantiza que la fuente sea honesta." 5. "Lo grande por la manada del cargador, lo chico por el sobre del mensajero (45), lo que vive siempre por el alambre (44)."
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que perdió la descarga del 70%.* El de la luz que se fue a mitad (la descarga muerta, el re-empezar de toda la vida): esta pieza te firma la jubilación del re-empezar. El cargador del censo, la manada oficial de la ISO del taller — el archivo troceado, verificado, continuo.
+• `qbittorrent/qbittorrent` — ★41.207 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia sin clasificar (NOASSERTION) · release qBittorrent v5.3.0 (2026-10-20).
 
-La próxima caída de luz: te encuentra en el pedazo 23 — y la luz vuelve, el pedazo 23 sigue. La
-descarga grande, de la casa.
+• `proninyaroslav/libretorrent` — ★4.008 (verificado 29-oct-2026) · última actividad 2026-07-24 · GPL-3.0.
 
-*SEGUNDA CARTA — al que mantiene el semillero.* El que deja semillar (la cuota pagada, las horas muertas del aire): la manada entera te lo firma — el archivo que cargaste existe porque gente como tú lo guardó vivo. Y la vara del oficio: tu semillero de la casa (los archivos de la familia, la colección del comité) es la manada más honesta del barrio — la que comparte sin cobrar.
+Licencias sin resolver hoy (1): `qbittorrent/qbittorrent`. Sin licencia clara no hay
+recomendación completa: queda la alerta firmada.
 
-El semillero: el mueble más generoso de la fila.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*TERCERA CARTA — al que teme la palabra.* El que escucha «torrent» y lee «problema»: la pieza entera es pa desmontar el rumor. La carretera mueve las ISO oficiales, los archivos públicos, los parches de los juegos y la boda de tu familia — la carga la firmas tú, con la frontera escrita en tu taller.
-
-El miedo con placa y doctrina: se llama criterio — y esta pieza lo deja servido.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el archivo grande
-de la casa tiene cargador con placa — LibreTorrent ★3.958 (pulso 16-oct-2026) en el bolsillo y
-qBittorrent ★40.846 (pulso 16-oct-2026) en la casa: la manada del archivo grande, con ley de la
-casa y sin taller central.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: el pedazo que
-continúa, el hash que verifica, la cuota que sostiene — y la frontera cosida: la carretera
-libre, la carga con derecho.
-
-Carga tu primera manada oficial esta semana. Deja semillar una hora.
-
-Y cuando el impostor de la tienda prometa «acelerar tus torrents», recuerda: tu manada ya usa la manada entera — porque la velocidad la firman los semilleros, jamás el anuncio. Eso no lo vende la tienda: se firma con GPL, y se comparte como gente.
-
-───────────────────
-
-#LaBandita #ElCargador #LibreTorrent #qBittorrent #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 48).*
 

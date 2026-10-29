@@ -33,20 +33,6 @@ se baja es lo tuyo o lo libre.
 · MIT (histórica; hoy sin SPDX resuelto)
 · release v2.1.0 (2026-10-28).
 
-## 📦 Las reglas de la casa
-
-**1.** Administrador multiprotocolo no es permiso multiprotocolo: la procedencia se firma por
-fuente, no por app.
-
-**2.** La extensión del navegador se audita como cualquier mano extra: qué detecta, qué manda y
-a quién.
-
-**3.** Descarga grande duerme en la bodega (108): el archivo sin respaldo es un archivo prestado.
-
-## ⚖ La vara
-
-Bajar de todo no es el oficio: el oficio es bajar cada cosa de SU casa, con su fecha y su recibo.
-
 ## El meme de la pieza
 
 > —Este fantasma baja hasta la luna. —Que baje la luna de su órbita oficial, con licencia y sin

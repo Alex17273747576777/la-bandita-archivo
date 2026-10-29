@@ -44,19 +44,6 @@ Tadami             ★260      v0.62 (12-sep)     push 13-sep  fork (viva)
 
 Ninguna estrella instala nada. Ningún parentesco garantiza nada. La regla va primero.
 
-## ⚖️ La regla: fork no es criterio
-
-Que algo sea fork, variante o rebautizo de un proyecto querido no es, por sí solo, razón para
-usarlo. Las cuatro puertas que sí cuentan:
-
-``` Uso real alguien de carne y hueso lo usa y puede contar qué tal Unicidad ¿hace algo que lo que ya tienes no cubre? «Es fork de X» no es una función Madurez pública docs, versiones firmadas, un autor que responde.
-
-Último push de 2024 no pasa esta puerta sin marca Propósito propio un icono nuevo no es un propósito; un cambio de motor, sí ```
-
-Esta guía nombra repos con URL, licencia, versión y último push — leídos el 14 y re-leídos al
-mudar (15-sep). «El mejor» no aparece: no existe en abstracto. Existe el que cubre lo que lees,
-con taller abierto.
-
 ## 🌳 El árbol completo de hoy
 
 ```

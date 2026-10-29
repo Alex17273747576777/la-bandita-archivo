@@ -21,21 +21,6 @@ La lectura también vive en tinta electrónica: Rakuyomi lleva el manga al e-rea
 · última actividad 2026-08-26
 · GPL-3.0.
 
-## 📦 Las reglas de la casa
-
-**1.** El archivo convertido se guarda en tu bodega: el e-reader lee lo que tu disco custodia.
-
-**2.** Convertidor decano vivo vale por su fecha: release de ayer en un oficio de 2012 es salud
-firmada.
-
-**3.** Lo dormido del estante (el puente que no empuja desde 2024) se firma como calma, no como
-camino.
-
-## ⚖ La vara
-
-El papel electrónico es la biblioteca sin notificaciones: merece la misma verificación que la
-pantalla grande.
-
 ## El meme de la pieza
 
 > —El Kindle es solo para la tienda. —Era: con su convertidor y su lector, la tinta también se

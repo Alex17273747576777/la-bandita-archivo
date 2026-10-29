@@ -31,19 +31,6 @@ se movió en primavera — estable y conocida, con la fecha dicha.
 https://github.com/l930203811/ZenFile — «una file manager moderna, elegante y completa», dice su
 casa: el cajón que se está tallando ahora mismo.
 
-## 📦 Los de los paquetes (APK y su interior)
-
-- **ApkBridge** — ★37 · v1.8 (sep-2025) · https://github.com/Schnitzel5/ApkBridge — «An Android
-Proxy Server for invoking APK stub functions»: el puente para llamar funciones de APKs sin
-instalarlas entera. Nicho puro, oficio fino.
-- **AXMLPrinter** — ★263 · v2.0.1 (mar-2026) · push 25-mar ·
-https://github.com/rednaga/axmlprinter — la librería clásica para leer el manifiesto compilado
-de un APK — la versión viva del nombre viejo, bajo el ala de RedNaga. La herramienta con la que
-los demás miran dentro.
-- **Share Via Http** — ★201 · v2.17 (ene-2026) · push 30-ago ·
-https://github.com/marcosdiez/shareviahttp — comparte archivos levantando un servidorcito HTTP:
-el teléfono sirve lo suyo a la red local sin instalar nada al otro lado.
-
 ## 🤖 El curioso (un agente de IA libre)
 
 - **OpenMinis** — ★4.485 · Android 1.13 (1-sep) · push 1-sep ·

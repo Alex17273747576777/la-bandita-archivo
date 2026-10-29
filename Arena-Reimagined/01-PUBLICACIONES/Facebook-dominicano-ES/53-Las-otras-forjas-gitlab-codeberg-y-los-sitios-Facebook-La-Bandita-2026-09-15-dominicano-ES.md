@@ -34,16 +34,6 @@ La mina no vive solo en GitHub: el archivo del dueño trajo **89 enlaces a otras
 - **git.naxod.com** — 1 enlaces · vivos: 1
 - **git.sr.ht** — 1 enlaces · vivos: 1
 
-## ⚖️ Los veredictos del sondeo
-
-- **Muerta (404):** com.qfs.pagan — https://burnsomni.net/manuals/pagan
-- **403 (la forja cierra la puerta al sondeo; no se declara estado):**
-  - AniDB — https://anidb.net
-  - Openverse — https://openverse.org
-- Los 86 vivos quedan censados en el Clasificador con su forja y su URL — sin versiones
-inventadas: su vara de releases se construirá con método propio (GitLab API, Codeberg releases,
-F-Droid índice).
-
 ## ❓ Preguntas de las forjas
 
 **¿Por qué no barrer GitLab como GitHub?**

@@ -317,43 +317,6 @@ instalar. Quien lo cuente distinto vende pánico, y esta guía no vende pánico.
 
 ━━━━━━━━━━━━━━━
 
-🔍 LA VARA EN TUS MANOS — VERIFICA TÚ MISMO EN SEIS PASOS
-
-❝ SEMILLA: no le creas al que vende la semilla; créele a la etiqueta y al campesino que la
-firma. Y si puedes, mira cómo la empacan. ❞
-
-1. ¿DE DÓNDE SALE? Repo o sitio con historial > enlace de un grupo. Si el proyecto dice «vivo en
-Codeberg», vas a Codeberg.
-
-2. ¿QUIÉN FIRMA? El proyecto declara su firma. Icono igual ≠ app igual: si la firma del archivo
-no cuadra con la declarada, es otra cosa.
-
-3. ¿QUÉ PIDE? Una linterna no lee contactos; un mod de juego no lee tu mensajería. Permiso de
-más = motivo para parar.
-
-4. «¿Está en más de una vía seria?» F-Droid + repo propio + IzzyOnDroid pesa más que un solo
-sitio mudable que cambia de nombre cada mes.
-
-5. «¿Qué dicen los que auditan?» Exodus Privacy (rastreadores declarados), VirusTotal (muchos
-motores a la vez), y los issues reales del repo — que valen más que cualquier reseña de cinco
-estrellas comprada.
-
-6. ¿HAY PRISA? «Últimas 24 horas con este link» es la gramática del cebo. Lo bueno sigue ahí mañana.
-
-━━━━━━━━━━━━━━━
-
-🧭 VERSIÓN CORTA DE LA VARA (CUANDO NO HAY TIEMPO)
-
-  1. Dueño conocido y repo con historial    NO → no instales
-  2. Firma del archivo cuadra con la casa   NO → no instales
-  3. Pide permisos de más                   SÍ → no instales
-  4. Te apuran para YA                      SÍ → no instales
-
-Cuatro respuestas buenas y puedes instalar en paz. Un solo «no» y la puerta espera a que lo
-resuelvas.
-
-━━━━━━━━━━━━━━━
-
 🚩 SEÑALES DE ANZUELO (RÁPIDO)
 
 «Premium desbloqueado / todo ilimitado» = alguien modificó algo y no te dice qué más metió. «Desactiva la protección para terminar de instalar» = ninguna tienda seria pide eso.
@@ -361,71 +324,6 @@ resuelvas.
 Candado verde del navegador = conexión cifrada, no honestidad (el phishing también lo tiene). «Lo probé yo y funciona» = anécdota de un desconocido, no verificación.
 
 Comentarios clonados en diez páginas con las mismas frases = actores pagados, no usuarios: el campesino honesto no contrata a doscientos repetidores.
-
-━━━━━━━━━━━━━━━
-
-🧊 MITOS QUE CAEN CON LA VARA
-
-• «Android se volvió iOS, ya no instalas nada.» Falso: sideloading sigue (ADB, advanced flow, tiendas serias). Cambia el registro del que publica, no el acto de instalar.
-
-• «F-Droid muere el 30 de septiembre.» Impreciso: ese día cae el primer hito en cuatro países; el cierre total no está anunciado. La amenaza del proyecto es real y documentada — y amenaza no es velorio.
-
-• «El mod es la misma app, solo liberada.» Casi nunca: es otra app con el icono ajeno, con permisos de más y sin dueño.
-
-• «Si es código abierto, no trae malware.» Abierto «permite» auditar; no «garantiza» que alguien lo haya hecho. Por eso se verifica, no se bendice.
-
-• «Muchas estrellas en GitHub = segura.» Las estrellas miden popularidad, no inocencia. Un repo de 400 estrellas puede haberse torcido el mes pasado: estrella es foto; firma y commit reciente son examen.
-
-▸ 🧊 Segunda tanda: los mitos del puente
-
-• «Shizuku es root para pobres.» No: root son las llaves maestras de toda la casa; Shizuku es el portero que abre UNA puerta, para UNA tarea, con tu permiso. Menos poder = menos peligro si te equivocas.
-
-• «Shizuku me quita la verificación del 2027.» No toca a Google ni a su registro: es un puente dentro de tu teléfono. Lo que te da es gestión sin root 22-sep-2026, no inmunidad mañana.
-
-• «Si pide Shizuku, ya es rara.» Al revés: la app seria te pide el permiso en tu cara y te explica para qué. La rara es la que se cuela sin pedirte nada o te pide «todos los permisos» sin decir por qué.
-
-• «Estas tiendas son mods disfrazados.» Tienen repo público, historial y descripción declarada de qué son y para qué. El mod escondido no tiene dueño; estas tres lo tienen.
-
-━━━━━━━━━━━━━━━
-
-🧪 CASOS PRÁCTICOS — LA VARA EN MOVIMIENTO
-
-▸ Caso A — Montar la tienda desde cero (camino limpio)
-
-1. Entras a «f-droid.org» escribiéndolo tú en el navegador (no desde un enlace de grupo).
-
-2. Descargas el instalador de la propia página; trae la firma de F-Droid.
-
-3. El sistema compara la firma al instalar; si cuadra, entra — si no, el teléfono mismo te frena.
-
-4. Dentro, buscas Droid-ify o Neo-Store si quieres mostrador más cómodo.
-
-5. Agregas el repo IzzyOnDroid en ajustes → repositorios. Ya tienes triple vía.
-
-«Por qué es limpio:» en ningún paso entregaste tu cuenta, y en cada paso hubo una firma que
-comprobar.
-
-▸ Caso B — Seguir un proyecto con Obtainium (camino del vigilante)
-
-1. Instalas Obtainium (F-Droid o su repo).
-
-2. Le pegas la URL del repo de la app que te importa.
-
-3. Él vigila los lanzamientos; cuando sale versión nueva, te avisa y la baja.
-
-4. ObtainX la coloca; tú solo confirmas.
-
-POR QUÉ IMPORTA: no dependes de que la app esté en una tienda grande — la sigues en su propia casa.
-
-▸ Caso C — Auditar antes de instalar (camino del que duda)
-
-1. Con la app en mente, pasas su nombre por EXODUS PRIVACY y VIRUSTOTAL.
-
-2. Exodus te dice cuántos rastreadores declara; VirusTotal, qué dicen decenas de motores.
-
-3. Linterna con seis rastreadores, ya sabes. Motor marcando algo raro, ya sabes.
-
-4. Recién ahí decides. La duda no es cobardía: es la vara trabajando.
 
 ━━━━━━━━━━━━━━━
 

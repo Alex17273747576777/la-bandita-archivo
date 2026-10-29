@@ -31,22 +31,6 @@ incompleta, y así se firma.
 · MIT
 · release b11983 (2026-10-29)
 
-## 📦 Las reglas de la casa
-
-**1.** Licencia clara o recomendación con asterisco: la letra manda antes que el entusiasmo.
-
-**2.** NOASSERTION no es licencia: es tarea pendiente con nombre técnico.
-
-**3.** El contrato se lee antes de construir encima, no después del aviso.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 103 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 15 repos que esta página cruza con placa propia, hoy cuentan 11 con actividad de la semana, 2 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-La foto que no retrata el contrato esconde la mitad de la foto.
-
 ## El meme de la pieza
 
 > —Es gratis, úsalo como quieras. —Gratis no es “como quieras”: el papelito del repo decide.

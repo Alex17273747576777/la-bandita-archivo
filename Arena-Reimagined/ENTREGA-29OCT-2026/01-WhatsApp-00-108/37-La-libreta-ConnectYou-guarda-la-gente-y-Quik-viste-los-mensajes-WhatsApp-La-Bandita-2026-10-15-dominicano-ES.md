@@ -1006,8 +1006,6 @@ regla de la cuenta.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que le bloquearon la cuenta con la gente adentro.*
 
 Esta pieza es tu salida y la forja la escribe con tu cicatriz: la copia local del teléfono viejo (o el archivo que la familia tenga) muda la gente a casa en una tarde — y la cuenta, si vuelve, vuelve a ser la copia. Y la regla que queda: la gente NUNCA vuelve a vivir arrendada.
@@ -1028,24 +1026,18 @@ Bienvenida al bloque del sistema, que era tuyo.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Si esta libreta sirvió para algo más que leer, fue para esto: dejar escrito que la gente de la
-casa tiene mueble con placa — ConnectYou la ficha del colectivo YouApps empujando desde julio,
-Quik la voz del linaje QKSMS empujando desde septiembre — y un formato más viejo que los
-smartphones que sigue mandando: la gente entera en UN archivo.
+• `you-apps/connectyou` — ★729 (verificado 29-oct-2026) · última actividad 2026-07-30 · GPL-3.0.
 
-La forja lo midió con el censo del mismo día en que nace esta pieza, y lo firma: la gente vive en la casa, el canal de texto es el de emergencia, y la póliza de la gente no se pospone. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+• `quik-sms/quik` — ★2.875 (verificado 29-oct-2026) · última actividad 2026-09-27 · GPL-3.0.
 
-Muda la gente. Pon el mensajero de casa. Pacta el canal antes del temporal. Y cuando la cuenta
-ajena se bloquee por lo que sea, recuerda: la tuya no apela — restaura. Eso no lo da la vitrina:
-se arma con GPL, y dura para los nietos.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-───────────────────
-
-#LaBandita #LaLibreta #ConnectYou #Quik #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 37).*
 

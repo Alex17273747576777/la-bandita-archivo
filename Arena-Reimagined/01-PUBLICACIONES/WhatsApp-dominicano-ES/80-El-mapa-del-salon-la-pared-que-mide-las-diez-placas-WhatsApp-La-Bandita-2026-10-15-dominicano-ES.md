@@ -1019,55 +1019,16 @@ REV|.)najab-er es on sevas sol :etrap ol on aznadum al ,ayasne ol ertsased le( O
 
 REV|.agilbo sámaj :edim apam lE .)erfoc la ,saíd 03 ne ageuj es on euq ol :sem led alger al( sare SUS ed sal alatsni asac ut orep — sadidem sacalp zeid noc arreic alif aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene el teléfono lleno de emuladores dormidos.* El que lleva años «teniéndolos todos» (las dieciséis apps: instaladas; las partidas: en 2023 — el depósito: orgulloso y vacío): la vara de esta pieza es tu teléfono — el mapa lo desnuda con respeto (la tarde de la verdad: las eras que juegas — las apps dormidas: al cofre
+• `scummvm/scummvm` — ★2.870 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release ScummVM 2026.4.0 "Never-slop" (2026-10-11).
 
-el teléfono: respirando de nuevo).
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Tu depósito: no es un salón — pero tu casa sí tiene uno esperando SU pared.
-
-*SEGUNDA CARTA — al que le da miedo «complicarse con tantas eras».* El que ve diez piezas y
-siente palco (el salón: «pa los expertos» — la casa: quedándose sin jugar na): la vara del
-bloque no te juzga — te deja el mapa (UNA era basta: SU placa, SU cofre, SU gira — un mapa de
-una placa: mapa igual).
-
-Su vara fina: la puerta abierta (la era nueva que descubras: SU placa entrando con ley — el
-mapa: creciendo contigo). El salón: mide — jamás obliga; y con una sola era bien armada: ya
-estás jugando con ley.
-
-*TERCERA CARTA — al que la póliza le debe una desgracia.* El que perdió los saves (el teléfono
-que se murió, la consola que se vendió, el disco que se rayó — el oro: partido sin cofre): esta
-pieza es tu segunda chance — el cofre maestro: el oro de TODAS las eras en UN lugar (dos discos,
-junto a la 59 — el desastre: ensayado antes de que vuelva).
-
-Con vara fina: la lección de la prima (el teléfono muerto del caso: sus saves — SALVADOS; la
-póliza: por qué se hace HOY). El oro perdido: no vuelve — el próximo: jamás se pierde.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el salón de una
-casa se mide antes de jugarse — la fila 71-80 completa: 96.285 estrellas (pulso 18-oct-2026),
-diez placas y un cuarto de siglo de forja — la pared del salón: midiendo HOY.
-
-La forja lo midió con el pulso de HOY y lo firma: un núcleo por era (el mapa mide — la casa
-decide), el cofre maestro (el oro de todas las eras: UNO, con póliza), las cuatro leyes en la
-pizarra — y la regla cosida: el censo, siempre HOY.
-
-Haz la tarde de la verdad. Arma el cofre maestro.
-
-Escribe la pizarra. Y cuando presumas tu salón, que sea como la casa: con mapa, con ley y con
-gira — porque un salón no se amontona: se mide, se respalda y se juega en familia.
-
-Eso no lo firma la acumulación: lo firman 96.285 estrellas de forja seria — y la fila 71-80
-entera, empujando HOY.
-
-───────────────────
-
-#LaBandita #ElMapaDelSalon #Emuladores #RetroArch #Winlator #Dolphin #PPSSPP #DuckStation #mGBA
-#box64 #melonDS #ScummVM #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 80).*
 

@@ -27,25 +27,6 @@ calma en la foto de 188, nombradas.
 · última actividad 2026-09-13
 · GPL-3.0
 
-## 📦 Las reglas de la casa
-
-**1.** La fecha del dormido es la de su último empuje, jamás la de su nacimiento.
-
-**2.** La calma se lee antes de juzgarse: changelog primero, sentencia después.
-
-**3.** El pabellón se re-visita: el dormido de octubre puede ser el vivo de enero.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 101 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 14 repos que esta página cruza con placa propia, hoy cuentan 0 con actividad de la semana, 1 del mes y 5 en calma firmada.
-
-Archivados con nombre: `kotatsuapp/kotatsu`, `syncthing/syncthing-android` — historia honesta,
-no recomendación fresca.
-
-## ⚖ La vara
-
-Retratar la calma es la prueba del censo honesto: sin pabellón, la foto miente por omisión.
-
 ## El meme de la pieza
 
 > —Ese repo murió. —Empujó en junio y su oficio es la física: lee su calma antes de enterrarlo.

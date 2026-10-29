@@ -17,23 +17,6 @@ no es receta de esta casa.
 · última actividad 2026-05-04
 · MIT
 
-## 📦 Las reglas de la casa
-
-**1.** El manto cubre TU casa: la cuenta ajena no se toca con herramientas propias.
-
-**2.** El escondite se prueba app por app; la que importa (el banco) se verifica con calma y sin
-trucos de terceros.
-
-**3.** Si una app exige aparato virgen, la decisión es del dueño y se toma con los ojos abiertos.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 84 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 0 con actividad de la semana, 0 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-La discreción legítima se firma; el engaño prestado no entra a esta mesa.
-
 ## El meme de la pieza
 
 > —Mi banco no sabe que tengo root. —Que siga sin saberlo: es TU banco y TU teléfono; la vara es

@@ -242,29 +242,6 @@ los trackers se sirven aparte del núcleo, como extensiones (verificado el 14-se
 familia — útil exactamente para el gesto de esta guía: si pruebas SY y Komikku, tu progreso
 puede acompañarte entre ambos. Su ficha completa, en la colección de herramientas de esta serie.
 
-## ⚖️ SY o Komikku: cómo decidir con criterio
-
-Las cuatro puertas de la casa, aplicadas sin «mejores»:
-
-```
-Continuidad          si venías del SY de toda la vida,
-                     jobobby04 es la misma casa con
-                     las luces encendidas.
-
-Estructura           si valoras org, canal de previews,
-                     proyecto hermano de anime y
-                     cadencia de releases: Komikku.
-
-Compatibilidad los dos leen los mismos almacenes principales (Keiyoushi lo declara para ambos). El criterio de desempate no está en las fuentes: está en el uso que le vayas a dar.
-
-Madurez              los dos empujaron esta semana.
-                     Ninguno pasa la puerta con las
-                     manos en los bolsillos.
-```
-
-El resto es gusto personal — y el uso real: quien lo usa y lo comprueba. Las estrellas (4.717 vs
-4.143) son el dato de fama del día, no una recomendación.
-
 ## ❓ Preguntas frecuentes
 
 **¿SY y Komikku son el mismo código?**

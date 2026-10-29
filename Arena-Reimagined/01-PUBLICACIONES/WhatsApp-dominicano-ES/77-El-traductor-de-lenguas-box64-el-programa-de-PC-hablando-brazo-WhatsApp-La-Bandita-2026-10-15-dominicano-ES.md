@@ -984,55 +984,16 @@ REV|.)ertsop ed emsihc noc sorejuga neic( sámaj :ohcat led »onu ne odot« lE .
 
 REV|.rotcudart led dadicolev al noc ,laer asac UT ne erroc amargorp le :oesum ed nóicalume se on — )amargorp led amoc anu raibmac nis( OLEUV LA MRA → 68x senoiccurtsni ecudarT
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que la pared del idioma le costó un aparato.* El que compró el segundo
-aparato pa correr lo que el primero ya debía (la cuota del cambio de idioma: pagada en
-silencio): la vara de esta pieza es tu pared — el traductor la derriba al vuelo (tu programa de
-PC: corriendo en el brazo de HOY — con SU licencia y SU llave).
+• `ptitseb/box64` — ★5.694 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT.
 
-Tu cuota: jubilada — la planta: de la casa.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al que lleva años con el «todo en uno» del tacho.* El que lleva el taller agujereado (cómodo, al toque — con sus 300 programas de nadie): la vara del bloque no te juzga — te deja el mapa (lo que el tacho trae: la planta agujerada + el regalito que mira tu oficio
-
-y el remedio: el traductor solo — tus programas: legítimos, con SU llave).
-
-La otra vara fina: la diferencia de taller (la planta honesta: la libreta fechada, el respaldo
-en dos discos, la lista sin pena — el tacho: no ofrece na de eso). Tu oficio: merece planta
-seria — no 300 agujeros.
-
-*TERCERA CARTA — al que desprecia «la forja de un solo hombre».* El que cree que lo serio
-requiere corporación (las estrellas contando gigantes y no constancia): esta pieza es tu lección
-— SEIS AÑOS de pushes de una mano seria (la forja de ptitSeb: media casa moviéndose sobre SU
-traducción).
-
-Con la vara fina: la lección del oficio (las infraestructuras: las mantienen constanciosos — el
-apoyo: sabiendo a quién; la estrella de HOY: la vara midiendo la constancia). El desprecio: de
-quien nunca mantuvo na — la constancia: manda.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la casa también
-necesita traductor — ptitSeb/box64 ★5.679 (pulso 18-oct-2026), la séptima placa del salón, seis
-años de forja moviendo media casa: los programas del oficio, de vuelta al trabajo.
-
-La forja lo midió con el pulso de HOY y lo firma: la ley del programa legítimo (la puerta libre
-— la licencia: de cada quien), la llave por programa (el dynarec: afinado, anotado, respaldado),
-la lista honesta — y la regla cosida: la planta honra al que licencia y anota.
-
-Busca el programa que no abría. Lee la letra del traductor.
-
-Afina la llave y anótala. Y cuando el tacho te ofrezca 300 programas incluidos, recuerda: la
-planta de tu casa son tus 5 programas legítimos y SU libreta — porque un taller no se descarga:
-se licencia, se afina y se respalda en dos discos.
-
-Eso no lo firma el tacho: lo firman seis años de constancia, y empujan HOY.
-
-───────────────────
-
-#LaBandita #ElTraductorDeLenguas #box64 #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 77).*
 

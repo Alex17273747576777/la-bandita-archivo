@@ -981,58 +981,20 @@ REV|.natepser es ,naelep es ON :acirbáf ed erawmrif nedip euq sal — )aretrac 
 
 REV|.acnarra on ,revlov ebas on euq le — ertsased led oyasne y socsid sod ne otelpmoc odlapser :azilóp aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que su jaula le vive amarrando el taller.* El que el teléfono le vive
-decidiendo por él (la batería comiéndose por el chisme de fondo, la mente de guagua con pausas
-de burócrata, el proceso de las 3am que no se apaga: la jaula, mandando en SU casa): la vara de
-esta pieza es tu llave por dentro.
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
 
-La raíz con oficio (póliza ANTES, manual de forja, módulos uno por uno, disfraz pa la banca): el
-teléfono, de veras tuyo. Tu primera tarde larga: espera — y la jaula: contestando a su dueño.
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
 
-*SEGUNDA CARTA — al que NO necesita la raíz y se siente fuera de la pieza.* El que su taller chico (66) basta y su banca manda (la garantía pendiente, la vida que no pide poder): la vara mayor del bloque te celebra — la regla tres es TUYA (la pieza más seria de la fila: la que defiende NO montarla
+• `topjohnwu/magisk` — ★63.583 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0 · release Magisk v31.1 (2026-10-26).
 
-el «no» maduro: la firma de la casa seria).
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Además la vara fina: la pieza vale leída (la vara del poder: aprendida sin montarla — como
-aprender a nadar mirando el mar: pa el día que el mar toca). El «todavía no»: firmado en frío —
-la póliza: pa su tiempo.
-
-*TERCERA CARTA — al que ya ladrilleó un teléfono con el video del gurú.* El que la desgracia de
-vitrina le pasó (el teléfono muerto del tutorial mágico: la leyenda del barrio, contada en
-primera persona): la vara honesta del bloque no te juzga — te RECONOCE (la trilogía del
-ladrillo: sin respaldo, con prisa, con módulo de vitrina — la escuela del dolor: la más cara del
-barrio).
-
-La vara fina, además: la raíz con oficio es lo OPUESTO de lo que hiciste (la póliza ANTES, el
-manual al pie, la forja jamás la vitrina). La vara fina, al cierre: el oficio que habría salvado
-tu teléfono — aprendido ahora, pa el próximo.
-
-El ladrillo: cicatriz — la próxima raíz: con póliza.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el poder también
-tiene oficio — Magisk ★63.358 (pulso 19-oct-2026), la placa de la raíz, diez años de una sola
-planta con su letra GPL-3.0: la llave maestra de fuente pura.
-
-La forja lo midió con el pulso de HOY y lo firma: la raíz por encima del sistema (sin cicatriz),
-la póliza ANTES (el que no sabe volver, no arranca), los módulos uno por uno (de la forja, jamás
-de la vitrina), el disfraz fino pa la convivencia — y la regla cosida: si no toca, no se monta.
-
-Respalda tu casa entera. Lee tu manual dos veces.
-
-Monta tu llave con póliza. Y cuando el video del gurú te prometa el poder en un minuto,
-recuerda: tu casa decide con póliza — porque la llave es tuya, y la vara manda.
-
-Eso no lo firma la vitrina: se firma GPL, y se monta con vara.
-
-───────────────────
-
-#LaBandita #LaRaizDelTelefono #Magisk #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 67).*
 

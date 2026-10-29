@@ -16,22 +16,6 @@ La voz que importa se guarda con consentimiento y fecha.
 · GPL-3.0
 · release v2.0.0 (2026-10-24)
 
-## 📦 Las reglas de la casa
-
-**1.** Aviso primero: quien habla contigo sabe que la conversación puede guardarse.
-
-**2.** La grabación se archiva con fecha y contexto, o es ruido con pretensiones.
-
-**3.** Lo grabado es dato íntimo: su carpeta se cuida como se cuida una llave.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 92 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 1 con actividad de la semana, 0 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-La Bandita no receta espías: receta taquígrafas con aviso y dueños responsables.
-
 ## El meme de la pieza
 
 > —Grabo todo por si acaso. —El por si acaso sin aviso te convierte en el problema que querías

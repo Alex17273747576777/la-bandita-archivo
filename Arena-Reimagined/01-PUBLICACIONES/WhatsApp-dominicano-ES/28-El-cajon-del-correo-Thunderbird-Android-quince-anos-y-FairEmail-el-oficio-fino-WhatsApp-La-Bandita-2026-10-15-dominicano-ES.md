@@ -988,8 +988,6 @@ balance del correo; y la bóveda del tronco el lugar de la llave.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al dueño de los 40 mil no leídos.*
 
 Esta pieza no viene a avergonzarte: viene a montarte el cajón. El ritual de siete días es real:
@@ -1019,27 +1017,22 @@ Eso es oficio: primero el mueble, después el terreno.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Si este cajón sirvió para algo más que leer, fue para esto: dejar escrito que el correo tiene
-muebles con placa — Thunderbird Android, la casa de quince años que empujó el día mismo de su
-medición, y FairEmail, el oficio fino del taller que respira igual — sobre un estándar abierto
-de los 80 que ningún dueño tiene.
+• `m66b/fairemail` — ★4.736 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release 1.2339 Elopteryx (2026-10-24).
 
-La forja lo midió con el censo de la tarde y el pulso de la noche del mismo día en que nace esta pieza, y lo firma: mueble libre, llave en la bóveda, cinco carpetas que trabajan solas, lo que vale respaldado en el sótano. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+• `thunderbird/thunderbird-android` — ★14.155 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0 · release Thunderbird Beta 25.0b2 (2026-10-19).
 
-Monta tu cajón una tarde. Deja que las reglas trabajen gratis.
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
 
-Guarda la llave en el tronco y el adjunto en el sótano. Y cuando el buzón amanezca limpio por
-primera vez, recuerda: no cambió tu correo — cambió el mueble.
+• `m66b/netguard` — ★3.949 (verificado 29-oct-2026) · última actividad 2026-08-01 · GPL-3.0.
 
-Eso no se compra con cuota: se arma con placa, y se hereda.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-───────────────────
-
-#LaBandita #CajonDelCorreo #Thunderbird #FairEmail #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 28).*
 

@@ -28,21 +28,6 @@ sabe leer.
 · creado 2020-12-12
 · GPL-3.0.
 
-## 📦 Las reglas de la casa
-
-**1.** Módulo de índice ajeno se instala como zip de canal: primero su README, su repo y su
-fecha (la vara de la 83).
-
-**2.** El framework dormido y el cartelero vivo son dos placas distintas: no confundir el museo
-con la tienda.
-
-**3.** Siete días de vida = laboratorio: la semilla se riega, no se le firma la hipoteca.
-
-## ⚖ La vara
-
-Un índice vivo puede valer más que un framework dormido: el mapa fresco (95) también es
-infraestructura.
-
 ## El meme de la pieza
 
 > —El framework no se mueve desde 2024. —Su cartelero nació la semana pasada: el barrio se mueve

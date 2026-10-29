@@ -996,47 +996,18 @@ REV|.rodarepo led ellac al rop K4 al sámaj :ovlas a ,sem led nalp le — )ajac 
 
 REV|.ralibuj ne atner amitlú al :nóicceloc al avihcra etnatse le ;oviv ev es oidatse le — oviv ne oditrap lE
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que paga las cinco rentas.* El que la escena le quedó en la casa (la factura
-de 3.500 pesos por «casi nada de lo que quiere»): la vara de esta pieza es tu factura por partes
-— las rentas del catálogo que tu familia ve de veras (una o dos), y las que paga por costumbre.
+• `jellyfin/jellyfin-androidtv` — ★4.672 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release v0.20.0-beta.4 (2026-10-15).
 
-El estante firma las otras: una tarde de montaje (la caja de la 51), dos noches de rip (la
-colección del estante de papel), y el cine de la casa: en tu disco. La próxima renovación
-automática: se revisa con la sala ya en pie.
+• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
 
-*SEGUNDA CARTA — al que tiene el estante de papel.* El que compró veinte años de cine en discos
-con carátula (y no los toca porque el televisor nuevo ni los lee): esta pieza es pa ti la más
-directa de la fila — el lector de la caja ripa tu colección en dos noches, y el estante de
-papel: por fin reproducido.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Lo que compraste, vuelve a la vida — sin comprarlo otra vez en la renta.
-
-*TERCERA CARTA — al que teme por el disco de las teras.* El que leyó «teras» y pensó «mi caja muere»: la vara del cine es la del colmado — la selección del mes en la caja, el histórico en la bodega (48), y la colección en dos discos (la póliza del coleccionista). El estante no pide una caja gigante: pide un PLAN — y esta pieza lo deja firmado en la despensa.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la colección de la
-casa tiene sala con placa — Jellyfin ★58.141 (pulso 16-oct-2026) y su mando ★4.625: la
-bifurcación de la decencia (2018), la sala libre del sofá.
-
-La forja lo midió con el pulso de esta noche y lo firma: el estante que se viste solo, el perfil
-con su pared, el Bronx con su llave — y la regla cosida: la colección, en dos discos como
-mínimo; lo público, siempre con pared.
-
-Monta tu sala. Rípa tu colección.
-
-Jubila la renta de a una. Y cuando la película «se vaya del catálogo», recuerda: en TU estante
-jamás se va — porque el cine es tuyo, y la colección manda.
-
-Eso no lo firma la renta: se firma con GPL, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #ElCineDeLaCasa #Jellyfin #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 53).*
 

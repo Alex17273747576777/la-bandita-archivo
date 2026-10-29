@@ -13,21 +13,6 @@ Una tienda que vive de los releases de GitHub juntó veinte mil estrellas en onc
 · Apache-2.0 (LICENSE leído hoy)
 · release 🩹 Komi Store 1.9.4 (2026-10-24).
 
-## 📦 Las reglas de la casa
-
-**1.** Tienda sobre forjas hereda la vara de la 111: la app vigilada nace de SU repo oficial,
-jamás de la vitrina.
-
-**2.** Rebranding frecuente se anota con fecha: el nombre nuevo no borra la historia del viejo.
-
-**3.** Veinte mil estrellas en once meses es un dato, no un aval: el aval es release firmada y
-licencia leída.
-
-## ⚖ La vara
-
-La popularidad veloz es exactamente lo que esta casa aprendió a pulsar dos veces antes de
-recomendar.
-
 ## El meme de la pieza
 
 > —Veinte mil estrellas no pueden estar equivocadas. —Pueden estar apuradas: por eso esta casa

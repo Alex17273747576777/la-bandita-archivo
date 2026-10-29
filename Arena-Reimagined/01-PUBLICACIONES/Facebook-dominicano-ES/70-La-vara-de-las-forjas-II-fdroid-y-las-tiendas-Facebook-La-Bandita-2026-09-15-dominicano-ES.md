@@ -6,12 +6,6 @@
 
 Segunda ronda de la vara propia: **F-Droid tiene API de paquetes** (`/api/v1/packages/<app>`) y contesta versión sugerida al instante; **apt.izzysoft** es el índice hermano que toma las apps que F-Droid aún no; **Flathub, Accrescent y los sitios solos** completan el mapa. En el archivo del dueño hay **18 enlaces de tiendas e índices** fuera de GitHub — todos sondeados HOY: vivos, con su estado anotado.
 
-## 📦 F-Droid — versiones contestadas
-
-- **8.06** ← https://f-droid.org/packages/player.efis.pfd · vivo (200)
-- **1.3.6** ← https://f-droid.org/packages/com.github.soundpod/ · vivo (200)
-- **2.5.7** ← https://f-droid.org/packages/com.luc4n3x.levyra/ · vivo (200)
-
 ## 🏪 Las tiendas del censo (sondeo HOY)
 
 - https://apt.izzysoft.de/fdroid/ · vivo (200)

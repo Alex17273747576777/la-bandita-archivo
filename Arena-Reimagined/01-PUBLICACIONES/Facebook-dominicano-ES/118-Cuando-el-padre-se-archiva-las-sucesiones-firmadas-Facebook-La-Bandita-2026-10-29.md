@@ -30,19 +30,6 @@ Archivar no es morir cuando hay heredero en faena, y hoy las sucesiones del barr
 · última actividad 2026-10-29
 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026).
 
-## 📦 Las reglas de la casa
-
-**1.** Padre archivado = museo honesto: se visita para aprender, no para mudarse.
-
-**2.** El heredero se verifica en SU puerta (su estrella, su fecha, su licencia), no en la
-nostalgia del padre.
-
-**3.** Sucesión sin heredero vivo se declara hueco: mejor hueco confesado que fantasma recomendado.
-
-## ⚖ La vara
-
-La obra que firma sucesiones nunca deja al lector abrazado a un repo cerrado.
-
 ## El meme de la pieza
 
 > —Cerró mi app de siempre. —No cerró tu oficio: tu heredero empujó hoy y ya trae tu biblioteca

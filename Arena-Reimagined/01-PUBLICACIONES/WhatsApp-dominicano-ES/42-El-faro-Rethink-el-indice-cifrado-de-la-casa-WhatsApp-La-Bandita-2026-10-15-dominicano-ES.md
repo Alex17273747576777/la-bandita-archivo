@@ -1076,8 +1076,6 @@ https; la pregunta lo que corta; el resolver quien ve; y la pausa el plan B.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que supo que su operador anota cada página.*
 
 Esta pieza es tu mudanza y la forja la firma con la vara fina: el índice se muda en diez minutos y el mapa del operador queda en blanco (ve tráfico, no destinos). Y la vara completa pa el oficio: el resolver propio (serverless-dns en tu nube) cuando la casa la monte — el índice de la casa, contestado por la casa.
@@ -1100,27 +1098,18 @@ Exacto — y es el don: el mueble invisible que todo lo sabía, mudado sin cambi
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Si este faro sirvió para algo más que leer, fue para esto: dejar escrito que el índice de la
-casa tiene mueble con placa — Rethink ★5.591 (pulso 16-oct-2026) y su resolver ★3.826 (pulso
-16-oct-2026), la pareja del mismo oficio — y una vara que el operador nunca firmó: lo que la
-casa pide, no se grita.
+• `celzero/rethink-app` — ★5.807 (verificado 29-oct-2026) · última actividad 2026-10-24 · Apache-2.0 · release v0.5.8 (2026-10-13).
 
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: la pregunta en sobre cerrado, el guiso ni preguntado, el resolver con placa — y el índice probado antes de confiarle la casa. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+• `serverless-dns/serverless-dns` — ★3.832 (verificado 29-oct-2026) · última actividad 2026-05-05 · MPL-2.0.
 
-Enciende el faro. Prueba el índice una tarde.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Libera la web del vecino. Y cuando el «acelerador de DNS» de la tienda prometa velocidad,
-recuerda: tu índice ya contesta rápido — y no apunta a nadie.
-
-Eso no lo regala el operador: se arma con Apache, y calla años.
-
-───────────────────
-
-#LaBandita #ElFaro #RethinkDNS #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 42).*
 

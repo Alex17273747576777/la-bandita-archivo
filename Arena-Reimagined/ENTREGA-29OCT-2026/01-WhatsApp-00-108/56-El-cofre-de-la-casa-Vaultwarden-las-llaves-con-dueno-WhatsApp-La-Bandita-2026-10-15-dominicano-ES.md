@@ -998,50 +998,16 @@ REV|.erpmeis ap evall al adraug tahc le :tahc le rop sámaj — )aíd nu ed otne
 
 REV|.sadamrif sám sal ,samitní sám saneaf sal — )461.96★( erfoc etse y )265.19★( orberec le ,)804.611★( mublá le :serT
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene las veinte claves en el cuaderno.* El que la escena le quedó en el
-cajón (el banco, el correo, el colegio del niño — a lápiz, sin copia): la vara de esta pieza es
-tu cajón por dentro.
+• `dani-garcia/vaultwarden` — ★69.876 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release 1.37.4 (2026-10-06).
 
-Una hora de faena (el cofre en la caja de la 51), la llave maestra en papel (la frase de cuatro palabras, ANTES de montar), y las veinte claves del cuaderno: dentro del cofre cerrado. El cuaderno: jubilado con honores — la casa con sus llaves, en orden.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al que manda claves por el chat.* El que el grupo de la familia le mueve las
-llaves por WhatsApp (la del banco pa el hijo, la del streaming pa el abuelo): esta pieza firma
-tu hábito con vara — el chat guarda la llave PA SIEMPRE (en el taller del chat, con su copia: la
-escena del barrio que nadie lee).
-
-El compartido del cofre: la llave viaja cerrada, con vencimiento — el hijo la recibe, el chat
-jamás la vio. La llave por el chat: jubilada de tu familia esta semana.
-
-*TERCERA CARTA — al que teme la llave maestra.* El que leyó «sin recuperación» y sintió el frío
-(¿y si la olvido?): la vara honesta de la pieza te abraza — el miedo se firma con TRES pólizas.
-
-La frase de cuatro palabras (la memoria de frases, más firme que la de claves), el papel del cajón (escrito a mano ANTES de montar), y la cuenta de emergencia (la llave accesible pa la persona de confianza que tú firmes). La llave maestra: se cuida con la familia entera — jamás sola.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que las llaves de la
-familia tienen cofre con placa — Vaultwarden ★69.164 (pulso 16-oct-2026), la tercera placa de la
-fila, ocho años abrazando el estándar del mundo.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: el cierre de
-punta a punta (la caja guarda un cofre que jamás puede abrir), la app de siempre (el estándar,
-abrazado), el compartido con vencimiento — y la regla cosida: la llave maestra, UNA y en papel;
-el cofre, en dos discos; jamás una llave por el chat.
-
-Monta tu cofre. Firma tu llave maestra en papel.
-
-Jubila el cuaderno del cajón. Y cuando el taller ajeno te anuncie su cifrado de grado militar,
-recuerda: el tuyo, guardado por tu propio cajón — porque las llaves son tuyas, y tu casa manda.
-
-Eso no lo firma la renta: se firma con AGPL, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #ElCofreDeLaCasa #Vaultwarden #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 56).*
 

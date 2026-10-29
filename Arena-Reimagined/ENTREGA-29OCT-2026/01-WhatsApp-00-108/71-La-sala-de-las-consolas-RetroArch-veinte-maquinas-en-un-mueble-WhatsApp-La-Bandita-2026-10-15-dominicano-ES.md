@@ -972,55 +972,16 @@ REV|.oneja ol rajab sámaj — oyut ol reel :racloV .amrif asac al euq acinú al
 
 REV|.nólas omsim le ne odneirroc )allatnap elbod al ,onrete ohcutrac le ,atiuqihc argen al( aniuqám adac ed oludóm le :oelcún le — salosnoc sal SADOT agleuc euq elbeum lE
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene un cajón de aparatos muertos.* El que guarda la consola del papá,
-el cartucho del 94 y los CD del cubo (la gaveta de los recuerdos: «esto no sirve pa na» — y a la
-vez: jamás lo tira).
+• `libretro/retroarch` — ★14.472 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
 
-La vara de esta pieza es tu cajón — el volcador lee TU cartucho, el mueble corre TU disco, la tele del salón juega TU recuerdo (el aparato muerto: descansando con respeto — su alma, en el archivo de la casa). Tu cajón: no es trasteo — es la sala esperando su noche.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al que juega en la app del tacho desde hace meses.* El que lleva su nostalgia
-en la app de los rincones (los «mil juegos gratis»: cómodos, al toque — y con chisme de postre).
-
-La vara del bloque no te juzga — te deja el mapa (lo que esa app trae: roms robadas de talleres ajenos + tu vida midiendo; y el remedio: el volcado propio — tu cartucho, tu archivo, tu firma). Con vara fina: la diferencia no es moralina de casa (es de CALIDAD de recuerdo: la partida estable, el save con póliza, la ley en la pared — el tacho no ofrece na de eso).
-
-Tu nostalgia: merece mejor casa que un tacho.
-
-*TERCERA CARTA — al que abre la fila del salón y no sabía que había fila.* El que creía que
-«retro» era una cosa de gente rara (el sótano del coleccionista: la trampa del estante lleno).
-
-Esta pieza es tu puerta — la fila 71-80: el salón COMPLETO de la casa (el mueble padre, el
-windows de la mesa, el cubo, la bolsilla, la negra chiquita, el cartucho eterno, el traductor,
-la doble pantalla, los relatos: la década entera de las máquinas, en la caja que ya tienes).
-
-Con vara fina: la ley es UNA para toda la fila (el juego propio: el salón entero — heredable sin
-pleito, como la fila IA: una sola vara). Tu casa: tiene un salón que no sabía — la fila te lo
-arma por pisos.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la memoria de una
-casa también se juega — libretro/RetroArch ★14.382 (pulso 19-oct-2026), la forja madre del
-salón, 16 años (la más vieja de toda la obra) con su letra GPL-3.0: el mueble donde las consolas
-del cajón vuelven a la tele.
-
-La forja lo midió con el pulso de HOY y lo firma: la ley del juego propio (el cartucho de la
-casa, volcado con respeto), el núcleo por faena (la gira del mueble), el oro con póliza — y la
-regla cosida: la dosis del sofá, mandando.
-
-Busca el cartucho del cajón. Pide el volcador.
-
-Haz la primera partida. Y cuando el tacho te ofrezca «mil juegos gratis», recuerda: el recuerdo
-de tu casa se juega de casa — porque la nostalgia con ley es la única que se hereda.
-
-Eso no lo firma el tacho: se firma GPL-3.0 desde 2010, y respira HOY.
-
-───────────────────
-
-#LaBandita #LaSalaDeLasConsolas #RetroArch #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 71).*
 

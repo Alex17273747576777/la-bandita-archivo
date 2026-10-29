@@ -26,25 +26,6 @@ Ningún repo vive solo: vive en una casa (la organización que firma varias herr
 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
 · release Tadami v0.63.2 (2026-10-06)
 
-## 📦 Las reglas de la casa
-
-**1.** El apellido se cuenta con sus sillas: nada de casas sueltas sin sus repos nombrados.
-
-**2.** La sucesión se verifica en la puerta del hijo, no en la nostalgia del padre.
-
-**3.** Fork con pulso propio es casa nueva; fork en calma es apellido prestado.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 104 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 12 repos que esta página cruza con placa propia, hoy cuentan 7 con actividad de la semana, 2 del mes y 0 en calma firmada.
-
-Archivados con nombre: `asrofficialdev/redantotsu`, `kotatsuapp/kotatsu` — historia honesta, no
-recomendación fresca.
-
-## ⚖ La vara
-
-Entender la casa es entender qué pasa el día que una silla se vacíe.
-
 ## El meme de la pieza
 
 > —Cerró el repo, se acabó todo. —La casa tenía hijo en faena: los apellidos también heredan oficio.

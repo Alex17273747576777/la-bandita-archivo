@@ -1016,8 +1016,6 @@ bloqueo civil.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que descubrió que su timbre sube el historial.*
 
 Esta pieza es tu mudanza y la forja la firma con la vara alta: el identificador de fábrica no es función — es el arriendo de tu mapa de gente. La tarde del ritual (día uno al siete) cierra la puerta: timbre propio, lista negra local, historial en la bóveda.
@@ -1042,29 +1040,25 @@ El teléfono del barrio, volviendo a ser de los del barrio.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-Si este timbre sirvió para algo más que leer, fue para esto: dejar escrito que la llamada de la
-casa tiene mueble con placa — Fossify Phone el heredero que respira desde el 13-oct, Koler el
-artesano que descansa desde diciembre — y una vara más vieja que el smartphone: con quién hablas
-no es asunto del buscador.
+• `chooloo/koler` — dormido · última actividad 2024-12-27 · ★1.069 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
 
-La forja lo midió con el censo del mismo día en que nace esta pieza, y lo firma: el historial no
-sube, el default es uno, el bloqueo es de casa. El corte honesto no sabe a todo — sabe a lo que
-sabe, y lo que sabe lo deja con acta.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Muda el timbre. Bautízalo llamando a la mamá.
+• `fossifyorg/phone` — ★1.392 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0.
 
-Arma la lista negra en un toque largo. Y cuando el «identificador» pida tu vida entera pa
-decirte que el número es spam, recuerda: tu lista local lo bloquea igual — sin arrendar el mapa.
+• `chooloo/koler` — ★1.069 (verificado 29-oct-2026) · última actividad 2024-12-27 · licencia sin clasificar (NOASSERTION).
 
-Eso no lo da la fábrica: se arma con GPL, y dura generaciones.
+Licencias sin resolver hoy (1): `chooloo/koler`. Sin licencia clara no hay recomendación
+completa: queda la alerta firmada.
 
-───────────────────
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-#LaBandita #ElTimbre #FossifyPhone #Koler #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 39).*
 

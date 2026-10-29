@@ -35,20 +35,6 @@ te deja firmar lo que entra.
 · Unlicense (texto leído hoy)
 · release yt-dlp 2026.10.26 (2026-10-26).
 
-## 📦 Las reglas de la casa
-
-**1.** Administrador sin fuentes firmadas es una recepción vacía: la cadena motor → fuente →
-firmante manda (la vara de la 110).
-
-**2.** Cada familia tiene su museo y su taller vivo: se recomienda el taller, se honra el museo.
-
-**3.** Lo que el administrador toca (descargas, APK, módulos) duerme después en la bodega con su
-respaldo (108).
-
-## ⚖ La vara
-
-El buen administrador no presume su poder: presenta sus recibos — fuente, fecha, licencia y reversa.
-
 ## El meme de la pieza
 
 > —Tres apps y ninguna trae nada. —Traen el taller entero: el contenido lo firmas tú, que es la

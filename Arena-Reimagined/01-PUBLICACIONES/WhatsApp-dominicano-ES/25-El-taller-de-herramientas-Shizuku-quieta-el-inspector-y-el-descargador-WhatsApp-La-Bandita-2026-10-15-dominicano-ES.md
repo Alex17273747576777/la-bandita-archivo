@@ -1004,8 +1004,6 @@ lupa-trámite-llave el orden de la casa.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que tenía un «limpiador» instalado.*
 
 Esta pieza te lo dice sin juzgar: el limpiador del grupo no limpia nada — desordena. La mudanza al cajón de oficio cuesta una tarde (el ritual completo) y tu teléfono amanece obediente: mueble, descargador, cuaderno, lupa — cuatro herramientas con placa que hacen el trabajo REAL del limpiador anunciado.
@@ -1034,27 +1032,29 @@ grupos — esa siempre fue la meta.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-Si este cajón sirvió para algo más que leer, fue para esto: dejar escrito que las herramientas
-del oficio tienen casas públicas — seis medidas al censo del 15-oct-2026, tres escuelas por
-permiso, dos placas sin testamento marcadas con vara, doce años de Amaze empujando el mismo día,
-y el acta más grande de la serie: Shizuku, la llave maestra, quieta con fecha y con plan.
+• `rikkaapps/shizuku` — dormido · última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
 
-La forja lo midió con el censo de la tarde del mismo día en que nace esta pieza, y lo firma: permisos con receta, notas en archivos, cajón con acta. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con placa y con fecha.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Arma tu cajón por pisos. Mira antes de palomear.
+• `teamamaze/amazefilemanager` — ★6.446 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v3.11.4 (2026-10-15).
 
-Anota en archivos, no en nubes. Y cuando el limpiador del grupo te prometa velocidad, recuerda:
-tu teléfono no está enfermo — tu cajón está desordenado.
+• `gsantner/markor` — ★6.348 (verificado 29-oct-2026) · última actividad 2026-10-27 · licencia sin clasificar (NOASSERTION) · release Markor v2026.10.0 (2026-10-25).
 
-Y eso se arregla con placa, no con promesa.
+• `gopeedlab/gopeed` — ★27.235 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
 
-───────────────────
+• `florisboard/florisboard` — ★8.730 (verificado 29-oct-2026) · última actividad 2026-09-30 · Apache-2.0.
 
-#LaBandita #CajonDelTaller #Shizuku #Gopeed #FOSS #CensoVivo #DominicanoES
+Licencias sin resolver hoy (2): `gsantner/markor`, `muntashirakon/appmanager`. Sin licencia
+clara no hay recomendación completa: queda la alerta firmada.
 
-───────────────────
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 25).*
 

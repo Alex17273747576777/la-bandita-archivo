@@ -194,32 +194,6 @@ Nuevos almacenes dedicados      push del 14-sep
 La regla de la casa: los índices de instalación no se pegan — se leen en el README de cada
 almacén, el día que se usan. Lo que esta guía da es el mapa: quién vive, quién murió, con fecha.
 
-## ⚖️ Cuándo tiene sentido esta rama
-
-Con el criterio de la casa (uso real, unicidad, madurez, propósito propio):
-
-```
-¿Ves anime Y lees manga, y quieres una sola app?
-   → El terreno natural de esta rama: las tres
-     fichas cubren ese caso, con estilos distintos.
-
-¿Solo anime?
-   → Esta rama es más de lo que necesitas:
-     la pieza siguiente (Animiru/Anikku) es la
-     rama de anime puro.
-
-¿Solo manga?
-   → El tronco (Mihon y familia, guía propia)
-     pesa menos y sobra menos.
-
-¿Novelas ligeras además?
-   → Tadami las trae de fábrica; Reikai (rama
-     J2K) es la otra vía manga+novelas.
-```
-
-Ninguna de las tres fichas es «la mejor». La buena es la que cubre tu uso, con repo vivo el día
-que instales — y esa comprobación se hace abriendo su releases ese día.
-
 ## ❓ Preguntas frecuentes
 
 **¿Aniyomi dejó de desarrollarse?** La pregunta quedó respondida el 14 de septiembre: v0.18.2.0 y v0.18.2.1, publicadas el 14 de septiembre tras once meses sin releases — con el código empujándose durante el mes. La organización sigue activa.

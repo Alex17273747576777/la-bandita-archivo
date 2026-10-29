@@ -1,4 +1,4 @@
-# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.9
+# EVOLUCIÓN DEL SISTEMA DE HABILIDADES · v1.10
 
 Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.py` y la versión sube sola. Una habilidad que no aprende es un papel; esta casa aprende.
 
@@ -21,3 +21,5 @@ Sistema vivo: cada sesión puede registrar lecciones con `herramientas/aprender.
 - **v1.8 (2026-10-29)** · L-14: Zonas REV| intocables en toda reorganización; la salud de la forja replica exacta al motor JS; ningún token __X__ llega al HTML (aserción en forja); y la vara se simula offline antes de entregar cualquier catálogo
 
 - **v1.9 (2026-10-29)** · L-15: Ante un 128 de clonación, mirar disco antes que credenciales; las herramientas de guardado trabajan en el disco del workspace, no en /tmp
+
+- **v1.10 (2026-10-29)** · L-16: Toda limpieza por secciones declara sus zonas intocables ANTES de correr (nota 💓, líneas REV, placas) y se verifica contando lo intocable al final: si el conteo cambió, el pase no terminó

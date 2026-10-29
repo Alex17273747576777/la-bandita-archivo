@@ -979,56 +979,22 @@ REV|.selepap sol ed oirosefnoc le :orto led selepap sol ev on oicapse nu ed atnu
 
 REV|.asac al ne sámaj :nóicnevni se sarucso a airomem al — »selepap sut ne átse on« le o ATIC NOC atseupser aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que su despacho está ordenado pero mudo.* El que la 59 le dejó los papeles
-en su lugar (el escaneo, el OCR, el orden: CONSEGUIDOS — y la pregunta de siempre: «bueno, ¿y
-qué dice?»): la vara de esta pieza es tu archivo por dentro — el cerebro conversando con tu
-despacho: pregunta en tu idioma, respuesta con la página enseñada.
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
 
-Tu papel más aburrido: contestando — y el orden de la 59: por fin con voz.
+• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
 
-*SEGUNDA CARTA — al que le subió el contrato al chat de la nube aquella vez.* El que la nube ya
-leyó un papel suyo (el resumen del contrato, la carta, el expediente: en taller ajeno — «fue una
-sola vez»).
+• `paperless-ngx/paperless-ngx` — ★47.287 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Paperless-ngx v3.3.4 (2026-10-22).
 
-La vara fina del bloque no te juzga — te deja el mapa (lo que la nube lee: queda — la memoria ajena no se evapora; y el remedio: el cerebro local, que hace LO MISMO sin el viaje — la próxima lectura: en casa), y la vara mayor: los papeles que faltan por leer (los años vienen llenos de papeles: la próxima vez, con cita y sin byte de viaje).
+• `mintplex-labs/anything-llm` — ★67.698 (verificado 29-oct-2026) · última actividad 2026-10-27 · MIT · release AnythingLLM v1.19.0 (2026-10-26).
 
-La casa no te pide cuenta del pasado: te arma el futuro.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*TERCERA CARTA — al que cierra la fila y no sabe que la cerró.* El que montó piezas de la fila
-sin ver el cuadro (la mente aquí, la cara allá, el despacho allá lejos: las piezas por separado
-— cada una, su tarde).
-
-Esta pieza es tu mapa completo — la fila 61-70: diez piezas, una casa (pensar, mostrar, hacer,
-faenar, acompañar, caminar, decidir, definir, educar, recordar: el círculo entero del vivir
-digital con dueño), y la vara fina: la fila cierra DONDE abre (el pensar de la 61 contestando
-mejor porque el cerebro le da TUS papeles: el círculo, redondo).
-
-Tu casa digital: ya tiene plano completo — la fila, cerrada con cita.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la memoria de la
-casa también tiene escuela — AnythingLLM ★67.208 (pulso 16-oct-2026), la placa de la memoria,
-tres años desde la hornada originaria con su letra MIT: el chat con tus papeles, de la casa.
-
-La forja lo midió con el pulso de HOY y lo firma: la respuesta con cita (el invento, jamás
-confundido con memoria), los espacios con reja (el confesorio de los papeles), el índice al
-servicio del papel — y la regla cosida: todo, tan local como el pensar.
-
-Conecta tu despacho. Haz tu primera pregunta.
-
-Exige tu primera cita. Y cuando la nube te ofrezca leer tu contrato «gratis», recuerda: tus
-papeles contestan en casa — porque la memoria es tuya, y la cita manda.
-
-Eso no lo firma la nube: se firma MIT, y cierra la fila.
-
-───────────────────
-
-#LaBandita #ElCerebroDeLosPapeles #AnythingLLM #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 70).*
 

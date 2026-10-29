@@ -22,20 +22,6 @@ Se cerró la fila de los emuladores: **diez piezas (71-80), 96.285 estrellas med
 La lección del censo: la biblioteca de los relatos (2001) es más vieja que TODAS las consolas
 del mueble — la forja no sigue la moda: sigue la constancia.
 
-## 📦 Las tres leyes del salón armado
-
-**1. Un núcleo por era.** La placa que no se abre en 30 días, al cofre — el teléfono queda con
-lo que se juega. El depósito de dieciséis emuladores dormidos no es un salón: es una bodega con
-fondo de pantalla.
-
-**2. El cofre maestro es UNO.** Los saves de TODAS las eras — cartuchos, UMD, CDs, el capítulo
-12 del hermano — en carpetas por era y por gente, **en dos discos junto a la pieza 59**. Las
-apps se vuelven a bajar; los saves, NO.
-
-**3. La pizarra y la gira.** Las cuatro leyes escritas junto a la tele (juego propio, tandas,
-cofre, gira) y el primer domingo del mes: el salón revisándose entero, con el censo re-pulsado —
-**la pared jamás amanecida**.
-
 ## 🌱 La tarde de la verdad
 
 El mapa se dibuja una sola vez con honestidad: se listan las apps, se nombra lo que se juega de verdad, y lo dormido va al cofre sin drama. Es la tarde más incómoda y la más sanadera del oficio — el teléfono respira, y el salón vuelve a jugarse como se dibujó.

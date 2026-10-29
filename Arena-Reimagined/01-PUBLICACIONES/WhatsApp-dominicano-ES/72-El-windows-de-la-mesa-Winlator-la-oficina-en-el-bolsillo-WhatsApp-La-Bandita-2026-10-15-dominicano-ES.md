@@ -966,55 +966,16 @@ REV|.selanigiro socsid ed ajac ase :osip led erfoc lE .amrif asac al euq evall a
 
 REV|.aipoc es sámaj :ametsis lE .nerroc y swodniW ne ratse neerc samargorp sol — ocilbúp oicifo ed etneibma le ATIMI )eniW( rotcudart le :adan alatsni oN
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene una caja de CD que «no sirven pa na».* El que guarda los discos
-del ciber, el programa del taller, el juego del 2003 (la caja de los CD: «del tiempo de la PC» —
-y a la vez: jamás la tira).
+• `brunodev85/winlator` — ★19.679 (verificado 29-oct-2026) · última actividad 2026-10-17 · LGPL-2.1.
 
-Y la vara de esta pieza es tu caja — el salón mayor lee TU disco, el teléfono corre TU programa
-(la PC vendida: descansando — su alma, en el contenedor de la casa). Tu caja: no es trasteo — es
-el cofre del segundo piso.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al que corre su oficina en el «windows gratis» del rincon.* El que lleva meses
-con la copia crackeada (cómoda, al toque — con su regalito escondido debajo).
-
-Y la vara del bloque no te juzga — te deja el mapa (lo que el tacho trae: la cerradura falsa + el regalito que mira tu vida; y el remedio: el traductor legal + TU disco — la misma comodidad, sin la llave falsa). Otra vara fina: la diferencia de oficio (el tacho: tu taller dentro de su robo; el piso: tus programas en TU espacio con TU póliza).
-
-Tu taller: merece piso propio — no un rincon prestado.
-
-*TERCERA CARTA — al que la era del ciber le duele de nostalgia.* El que no sabe que su sábado
-del ciber tiene segunda parte (el torneo del mostrador, el partido del grupo, el disco quemado
-de la infancia: la era entera — «ya no existe»).
-
-Esta pieza es tu puerta — el salón mayor reconstruye el ciber EN tu casa (el teléfono + el mando + la tele del salón: la sala del ciber, sin cobro por hora). La vara final: la ley viaja contigo (el disco propio, la dosis con hora, el save con póliza: el ciber de la casa — mejor que el del barrio, porque es TUYO).
-
-El ciber cerró: su sábado — no.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la oficina de una
-casa también se hereda — brunodev85/winlator ★19.531 (pulso 19-oct-2026), la placa mayor del
-salón, tres años de forja con su letra LGPL-2.1: los programas de la era del ciber, corriendo en
-el teléfono de la casa.
-
-La forja lo midió con el pulso de la semana y lo firma: el instalador propio (el disco de la
-casa — la única llave que se firma), un espacio por oficio (el confesorio de los programas), la
-escala honesta — y la regla cosida: el oro del piso, mudable y con póliza.
-
-Abre la caja de los CD. Monta tu disco.
-
-Haz correr tu programa. Y cuando el rincon te ofrezca el windows gratis con 500 cracks,
-recuerda: el software de tu casa se corre de casa — porque la llave verdadera se guarda, no se
-finge.
-
-Eso no lo firma el tacho: se firma LGPL-2.1, y traduce HOY.
-
-───────────────────
-
-#LaBandita #ElWindowsDeLaMesa #Winlator #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 72).*
 

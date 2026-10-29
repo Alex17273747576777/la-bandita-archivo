@@ -1010,52 +1010,18 @@ REV|.ailimaf al ed sotunim ocnic ,namrifer es sevall sal :ertsased le sart y —
 
 REV|.4c2xz asac us ne odamrif ,sodot ed rotom le — xuniL ed lenrek le y elacsdaeH ,elacsliaT
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que vive del paseo con la casa lejos.* El que el «no puedo entrar» le quedó
-en el paseo (la clave del cofre, la película del estante, el recibo de la casa): la vara de esta
-pieza es tu paseo por dentro — una hora de túnel (la caja de la 51), la llave en tu teléfono, y
-la casa entera: respondiendo como en tu wifi.
+• `tailscale/tailscale` — ★38.289 (verificado 29-oct-2026) · última actividad 2026-10-29 · BSD-3-Clause · release v1.104.4 (2026-10-28).
 
-La próxima vez que la playa te pida casa: la tienes — en el bolsillo, con sus paredes puestas.
+• `juanfont/headscale` — ★45.166 (verificado 29-oct-2026) · última actividad 2026-10-29 · BSD-3-Clause · release v0.29.6 (2026-10-24).
 
-*SEGUNDA CARTA — al que le ofrecieron «abrir los puertos».* El que el compaya sabihondo le dijo
-«abre el puerto 5000 del router y listo» (la IP pelada de tu casa, en la calle del internet):
-esta pieza te jubila ese consejo — el túnel funciona AL REVÉS (tu aparato pide, tu caja
-contesta: el router, jamás se toca).
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-El consejo del puerto: de otra década — la casa de hoy, con tubo y paredes.
-
-*TERCERA CARTA — al que teme la «VPN».* El que la palabra le suena a oficina o a cosa de
-ingenieros: la vara honesta de la fila te la traduce — la VPN de la casa es TU familia en UNA
-red privada (lo que la empresa hace pa sus empleados, tu caja lo hace pa tus cinco teléfonos):
-tres toques por aparato, una lista con nombres, una hora entera.
-
-La palabra es fea; la faena: la más casera del taller.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la casa viajera
-tiene túnel con placa — Tailscale ★37.644 y Headscale ★44.693 (pulso 16-oct-2026), la pareja del
-mismo año, con el motor WireGuard (el estándar del mundo) por debajo.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: jamás un puerto
-abierto (el router, intacto), la lista con dueño (en tu caja o con ojos abiertos), las llaves
-por persona (la expulsión, al toque) — y la regla cosida: el tubo, pa la casa; la calle,
-directo.
-
-Monta tu túnel. Prueba el paseo.
-
-Expulsa el aparato viejo. Y cuando el paseo te pida casa (la clave, la foto, la película),
-recuerda: tu casa va contigo — porque la red es tuya, y tu lista manda.
-
-Eso no lo firma la nube ajena: se firma con BSD, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #ElTunelDeLaCasa #Headscale #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 58).*
 

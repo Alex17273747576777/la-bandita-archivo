@@ -16,22 +16,6 @@ Su placa de hoy lo mantiene en faena, y su oficio se mide por lo que no se nota.
 · última actividad 2026-10-11
 · GPL-3.0
 
-## 📦 Las reglas de la casa
-
-**1.** La infraestructura se actualiza en su gira, no cuando truena.
-
-**2.** Piso y regleta son familia: se pulsan juntos, se podan juntos.
-
-**3.** Lo invisible también lleva libreta: versión, fecha y motivo de cada cambio.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 89 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 0 con actividad de la semana, 1 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-El mejor piso es el que nadie nota y todos pisan: por eso su mantenimiento no se negocia.
-
 ## El meme de la pieza
 
 > —Nadie sabe qué hace mi ReZygisk. —Perfecto: cuando el piso se nota, ya se rompió.

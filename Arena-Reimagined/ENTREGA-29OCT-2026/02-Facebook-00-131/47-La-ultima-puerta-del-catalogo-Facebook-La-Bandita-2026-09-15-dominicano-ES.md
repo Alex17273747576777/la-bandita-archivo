@@ -50,23 +50,6 @@ novelera.
 hoja del semillero: «Free and open source manga reader». Sin releases sostenidas: observada,
 como mandan los germinantes.
 
-## ⚖️ Los veredictos del día
-
-- **Hentoid — MUERTA POR DMCA CONSTATADO.** La web de su casa responde: *«Repository unavailable
-due to DMCA takedown»* — notice pública del **23 de marzo de 2026 (FAKKU)**. Dos millones y
-medio de descargas y el mismo final que Tachiyomi: la espada del aviso legal. Al Registro de
-muertas, con acta y enlace al notice.
-- **Hayase (antes miru) — MUERTA POR DMCA CONSTATADO.** Doble constatación: github **redirige**
-ThaUnknown/miru → hayase-app/ui — el renombre queda **certificado por la propia plataforma** — y
-la casa nueva responde con el mismo letrero: DMCA de **Crunchyroll, 22 de octubre de 2025**. La
-que iba a ser el futuro del streaming libre de anime, archivada por el dueño del derecho. Acta
-completa.
-- **Los cuatro huecos, confirmados:** Panels, Perfect Viewer, CDisplayEx y MangaPin — sin
-repositorio público: apps cerradas o casas muertas. No se fichan sin casa (la vara de siempre):
-se anotan como huecos.
-- **Shosetsu** — casas probadas (404 por partida doble): sin casa clara. Al radar, no al estante.
-- **Migu** — archivada (Registro, pieza 42). Su acta ya está escrita.
-
 ## ❓ Preguntas de la última puerta
 
 **¿Y ahora qué, si el catálogo se acabó?** El catálogo era candidato, no destino. Ahora empieza lo demás: el clasificador general de la casa — todo lo fichado, etiquetado por rango y clase — y las puertas que no salen de catálogo alguno.

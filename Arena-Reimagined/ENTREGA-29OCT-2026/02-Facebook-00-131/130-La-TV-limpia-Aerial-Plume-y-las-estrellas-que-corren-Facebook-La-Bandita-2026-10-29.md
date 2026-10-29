@@ -24,21 +24,6 @@ del pedestal.
 · GPL-3.0
 · release Plume 1.6 (2026-10-26).
 
-## 📦 Las reglas de la casa
-
-**1.** 7.704 estrellas en nueve días es un dato para investigar, no un aval: la velocidad de la
-fama también se audita.
-
-**2.** El lanzador es la puerta de la casa: se cambia con la salida ensayada (volver al anterior
-en dos toques).
-
-**3.** 0,4 MB y sin anuncios es promesa hermosa: se confirma en el aparato de la sala, con la
-familia mirando.
-
-## ⚖ La vara
-
-La sala no se le entrega a la primera cara bonita: la TV limpia se gana su sofá con fechas.
-
 ## El meme de la pieza
 
 > —Todo el mundo lo está instalando. —Todo el mundo en nueve días es justo lo que esta casa

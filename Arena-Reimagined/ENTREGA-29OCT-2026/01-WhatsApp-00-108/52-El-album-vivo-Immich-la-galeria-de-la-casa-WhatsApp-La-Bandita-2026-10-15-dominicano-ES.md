@@ -977,43 +977,21 @@ REV|.nedro al a »aleubA« — asem ut nalbah erbmon rop sadamrif sanosrep sal :
 
 REV|.osnec led aciróetem sám adibus al :oidem y soña ortauc ne arbo al ed amic al — )6202-tco-61 oslup( 804.611★ hcimmI
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que renta la galería de su familia.* El que paga la mensualidad de las fotos (y firma la póliza de la 45 sin leerla de nuevo): la vara de esta pieza es tu factura al revés — la caja del taller se paga con lo que le pagas a la nube. Una tarde de montaje (la caja de la 51), una noche de respaldo inicial, y tus recuerdos: en tu disco, con tu llave.
+• `photoprism/photoprism` — ★40.370 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release October 7, 2026 (2026-10-07).
 
-La próxima renovación automática: la revisas con el álbum ya en casa.
+• `immich-app/immich` — ★117.570 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v3.3.5 (2026-10-22).
 
-*SEGUNDA CARTA — al que escanea los álbumes de papel.* El que custodia la memoria de papel de la familia (la abuela Maritza del caso dos): el álbum vivo es tu aliado — los escaneos entran a la caja, la IA agrupa las caras de los años 70, y las personas firmadas: «Rafael joven» a la orden. El papel se escanea UNA vez; la memoria, viva pa siempre — con nombre, en tu casa.
+Licencias sin resolver hoy (1): `photoprism/photoprism`. Sin licencia clara no hay recomendación
+completa: queda la alerta firmada.
 
-*TERCERA CARTA — al que teme que la caja se muera con las fotos adentro.* El que leyó «se llena
-la caja» y volvió a la renta: la tríada del álbum es la póliza más firme de la obra — el
-respaldo del taller (fuera de la caja, ensayado), la copia fría de las joyas (el cajón), y la
-manada pa los hitos.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Tu miedo con receta: se llama póliza de dos discos — y esta pieza la deja firmada en la despensa.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la memoria de la
-casa tiene álbum con placa — Immich ★116.408 (pulso 16-oct-2026), la placa mayor de toda la
-obra, y PhotoPrism ★40.305, su pionera: la galería propia con la magia corriendo EN TU CAJA.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: la cámara que
-firma sola, la búsqueda que habla tu mesa (con los tuyos por nombre), la mesa compartida con
-llave — y la regla cosida: la memoria de la casa, en dos discos como mínimo.
-
-Monta tu álbum. Nombra a los tuyos.
-
-Jubila la renta de las fotos. Y cuando la nube ajena anuncie su IA de última generación pa tus
-recuerdos, recuerda: la magia ya corre en tu caja — porque el álbum es tuyo, y la memoria manda.
-
-Eso no lo firma la nube: se firma con AGPL, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #ElAlbumVivo #Immich #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 52).*
 

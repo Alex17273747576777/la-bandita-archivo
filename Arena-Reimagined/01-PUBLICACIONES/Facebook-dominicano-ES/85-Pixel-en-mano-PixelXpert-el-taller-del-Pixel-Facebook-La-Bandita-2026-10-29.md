@@ -16,24 +16,6 @@ cerrado queda sin repuestos, y la mano del dueño se entrena en talleres vivos.
 · última actividad 2026-06-21
 · GPL-3.0
 
-## 📦 Las reglas de la casa
-
-**1.** Antes de montar, la puerta del repo se mira: si dice archivado, es museo, no taller.
-
-**2.** La función que amas hoy necesita mantenedor vivo mañana: busca sucesor antes de enamorarte.
-
-**3.** Lo archivado se lee y se aprende; no se recomienda como camino nuevo.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 85 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 0 con actividad de la semana, 0 del mes y 0 en calma firmada.
-
-Archivados con nombre: `siavash79/pixelxpert` — historia honesta, no recomendación fresca.
-
-## ⚖ La vara
-
-Un taller cerrado enseña mucho y repara poco: la recomendación fresca exige pulso, no nostalgia.
-
 ## El meme de la pieza
 
 > —PixelXpert era perfecto. —Era. El pasado no recibe parches: la mano se muda al taller que

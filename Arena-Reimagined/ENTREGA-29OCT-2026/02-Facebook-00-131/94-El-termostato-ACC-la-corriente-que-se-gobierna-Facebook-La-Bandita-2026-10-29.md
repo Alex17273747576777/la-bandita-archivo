@@ -16,22 +16,6 @@ El dueño fino no compra baterías: entrena la corriente.
 · última actividad 2025-06-06
 · GPL-3.0
 
-## 📦 Las reglas de la casa
-
-**1.** Meta de carga con nombre (80, 85, 90): el número se elige, no se hereda por costumbre.
-
-**2.** La calma de una forja se lee en su changelog antes de declararla muerta.
-
-**3.** Batería cuidada es dinero no gastado: la libreta anota ciclos y costumbres.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 94 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 0 con actividad de la semana, 0 del mes y 1 en calma firmada.
-
-## ⚖ La vara
-
-No todo silencio es muerte: hay termostatos que callan porque la casa ya está a su temperatura.
-
 ## El meme de la pieza
 
 > —Esta app no se actualiza nunca, está muerta. —Está a 80% y feliz: como tu batería debería.

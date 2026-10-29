@@ -1053,55 +1053,29 @@ REV|.zíar al a artne sámaj )»odaekcarc-muimerp« le( ohcat led onafréuh piz 
 
 REV|.)odneiviv soludóm sol nos arbo US :anatnev eneit on( ppa se ON y )ohceh ay toor nu NE eviv( toor se ON .rotpurretni eneit on derap al odnauc neviv soludóm sol ednod efuhcne le :ksigyZ ed enoladnats nóicatnemelpmi aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-*PRIMERA CARTA — al que tiene el teléfono convertido en ruleta.* El que lleva doce módulos de
-una vez (los zips del tacho: amontonados; el reinicio: una lotería diaria — el culpable: siempre
-anónimo): la vara de esta pieza es tu teléfono.
+• `siavash79/pixelxpert` — ARCHIVADO · última actividad 2026-06-21 · ★2.440 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
 
-La limpieza honesta te lo devuelve (los zips huérfanos: fuera; la regleta de SU forja: UNA; una familia: la del dolor real — el día entero de prueba y la libreta: tu teléfono deja de ser laboratorio esta semana). Tu ruleta: no era root — era el desorden con fondo de pantalla.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*SEGUNDA CARTA — al que le da miedo enchufar porque «el teléfono se ladronea».* El que oyó la
-historia del teléfono muerto (el primo del primo: «instaló un módulo y murió pa siempre» — la
-mesa: traumatizada).
+• `scummvm/scummvm` — ★2.870 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release ScummVM 2026.4.0 "Never-slop" (2026-10-11).
 
-La casa quedó sin módulos por miedo: la vara del bloque no te juzga — te deja la salida ensayada
-(el modo seguro: practicado el día dos, ANTES de instalar na; la desinstalación: ensayada con el
-teléfono en la mano).
+• `mmrlapp/mmrl` — ★2.223 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0.
 
-Falta la clave fina: la regla de la una (un módulo probado por día: el pánico — matemáticamente
-imposible). El miedo: respetado — y desarmado con ensayo: esa es la manera de la casa.
+• `j-hc/revanced-magisk-module` — ★7.706 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Release (2026-10-28).
 
-*TERCERA CARTA — al que usa el escondite pa lo que no debe.* El que busca el módulo del
-escondite pa engaño (la app de otro, la cuenta que no es suya, el fraude del banquito: «el root
-escondido y listo»): esta pieza no es tu puerta.
+• `bmax121/apatch` — ★8.103 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release 11282 (2026-10-17).
 
-La línea de la casa es la misma de siempre (el escondite: pa TU banco en TU teléfono con TU cuenta; el engaño a terceros: la puerta del chisme de postre — y el chisme: siempre cobra). La casa te deja la vara derecha: úsala en tu propio teléfono — o quédate fuera del salón.
+Licencias sin resolver hoy (1): `dr-tsng/zygisknext`. Sin licencia clara no hay recomendación
+completa: queda la alerta firmada.
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el root de una
-casa se enchufa con ley — la fila 82-95 abierta con su placa mayor: 10.634 estrellas (pulso
-18-oct-2026), el enchufe standalone y una familia de módulos esperando SU pieza — la pared del
-root: encendida HOY.
-
-La forja lo midió con el pulso de HOY y lo firma: el módulo legítimo (zip de SU forja, jamás del
-tacho), una familia a la vez (el día entero de prueba — la salida ensayada), la letra sin
-letrero bajo vara de la 58 — y la regla cosida: el pulso, siempre HOY.
-
-Identifica tu casa. Monta la regleta de SU forja.
-
-Enchufa UNA familia. Y cuando presumas tu root, que sea como la casa: con libreta, con gira y
-con salida ensayada — porque un root no se amontona: se enchufa, se prueba y se gira en familia.
-
-Eso no lo firma la ruleta: lo firman 10.634 estrellas de forja viva — y una fila 82-95 entera,
-encendiéndose HOY.
-
-───────────────────
-
-#LaBandita #LaRegleta #ZygiskNext #RootLibre #Magisk #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 82).*
 

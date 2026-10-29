@@ -27,25 +27,6 @@ Esta casa los retrata con la misma vara que a las torres: su estrella y SU fecha
 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
 · release v2.3.4 (2026-10-29)
 
-## 📦 Las reglas de la casa
-
-**1.** Invisible no es irrelevante: es joven, fino o de nicho, y se mide igual.
-
-**2.** La recomendación fina nace aquí: pulso discreto antes que fama prestada.
-
-**3.** La fila de atrás se visita en cada gira: el semillero de hoy es la mesa de mañana.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 102 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 24 repos que esta página cruza con placa propia, hoy cuentan 14 con actividad de la semana, 6 del mes y 0 en calma firmada.
-
-Archivados con nombre: `asrofficialdev/redantotsu`, `ponces/treble_aosp` — historia honesta, no
-recomendación fresca.
-
-## ⚖ La vara
-
-La foto institucional que no retrata a sus pequeños es un afiche, no un censo.
-
 ## El meme de la pieza
 
 > —Trece estrellas, eso no existe. —Empujó ayer: existe más que tu favorito de 2019.

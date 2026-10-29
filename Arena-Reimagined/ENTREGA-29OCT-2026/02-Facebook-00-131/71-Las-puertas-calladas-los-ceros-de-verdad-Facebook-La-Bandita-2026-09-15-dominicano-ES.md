@@ -19,14 +19,6 @@ La casa los nombra por lo que son: **germinantes** — y los germinantes NO se u
 - `ulightm111/boky-fivavahana-ion` · 0 estrellas · en el censo (p52-56)
 - `vauvenal5/yaga` · 0 estrellas · en el censo (p52-56)
 
-## ⚖️ El oficio del cero
-
-Un cero no es un veredicto: es una edad. Toda biblioteca del mundo empezó con un estante vacío y
-un nombre que nadie aplaudía.
-
-La casa no los sube al escaparate (el fruto maduro manda mientras se observan germinantes) —
-pero tampoco los borra: **fecha, puerta, y turno de vigilancia**.
-
 ## ❓ La pregunta del cero
 
 **¿Vale la pena fichar a nadie con cero aplausos?** Se ficha con la vara completa — fecha y rango — y etiqueta de germinante. Lo que NO se hace: recomendarlo a diario ni llenarle ficha de adornos.

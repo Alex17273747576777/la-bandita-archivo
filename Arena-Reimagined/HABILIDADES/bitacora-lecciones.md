@@ -75,3 +75,8 @@ _Cada lección costó tiempo real. Leerla antes de trabajar ahorra el próximo t
 - **Contexto:** Clones fallando con 128 (29-oct)
 - **Fallo/experiencia:** Era /tmp al 100% por los clones acumulados del día, no la credencial: el error 128 disfrazaba un disco lleno
 - **Regla que queda:** Ante un 128 de clonación, mirar disco antes que credenciales; las herramientas de guardado trabajan en el disco del workspace, no en /tmp
+
+## L-16 · 2026-10-29
+- **Contexto:** Desmeta del corpus (29-oct)
+- **Fallo/experiencia:** La primera desmeta se comió la nota de 64 piezas porque el barrido de secciones no la reconocía como frontera
+- **Regla que queda:** Toda limpieza por secciones declara sus zonas intocables ANTES de correr (nota 💓, líneas REV, placas) y se verifica contando lo intocable al final: si el conteo cambió, el pase no terminó

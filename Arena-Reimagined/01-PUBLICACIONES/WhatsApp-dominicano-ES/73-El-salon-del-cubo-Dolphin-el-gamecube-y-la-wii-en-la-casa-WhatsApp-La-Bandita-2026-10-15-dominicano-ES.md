@@ -963,58 +963,19 @@ REV|.esodnéivom arnoh es are al :odajepsed odardauc ortem US edip y — )lanigi
 
 REV|.sámaj :senocnir sol ed ohcat le ;)amrif asac al euq mor acinú al( alosnoc o rotcel rop aclov es oiporp ocsid le :otiuqihc led yel al noc — iiw al y obuc lE
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene los discos chiquitos sin máquina que los lea.* El que guarda la
-pila de discos chiquitos del cubo y los DVD de la wii (la era en plástico: «ya no hay nada que
-los lea» — y a la vez: jamás se tiran).
+• `dolphin-emu/dolphin` — ★15.741 (verificado 29-oct-2026) · última actividad 2026-10-25 · licencia sin clasificar (NOASSERTION) · release 2609a (2026-10-08).
 
-La vara de esta pieza es tu pila — el salón del cubo los corre (el lector o la consola propia:
-la tarde del estante; tu era: de vuelta en la tele de HOY). Tu pila: no es plástico muerto — es
-la era esperando su sábado.
+Licencias sin resolver hoy (1): `dolphin-emu/dolphin`. Sin licencia clara no hay recomendación
+completa: queda la alerta firmada.
 
-*SEGUNDA CARTA — al que lleva años jugando la era en el tacho del rincon.* El que lleva su
-torneo en la app de los 4000 juegos (cómoda, al toque — con su BIOS bajado y sus discos de
-nadie).
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Y la vara del bloque no te juzga — te deja el mapa (lo que el tacho trae: la era robada + el
-regalito que mira tu casa; y el remedio: el volcado de TU estante — los 7 discos que de verdad
-juegas, con tu firma).
-
-La otra vara fina: la diferencia de calidad de recuerdo (el salón honesto: la partida estable,
-la memory card rescatada, el torneo con pizarra — el tacho: no ofrece na de eso). Tu era: merece
-salón propio — no 4000 desconocidos.
-
-*TERCERA CARTA — al que la abuela le ganaba en el bowling.* El que recuerda a su campeona
-familiar (la abuela del bowling, el tío del baile, el primo de la carrera: la era en que la casa
-entera jugaba — «eso ya no se puede»).
-
-Esta pieza es tu torneo de vuelta — el salón del cubo en la tele del salón, el control en la mano de la campeona, la pizarra del sábado (el metro cuadrado despejado, la ley en la puerta: la era del movimiento — jugándose de nuevo, con la campeona de 70 años defendiendo título). La era no pasó: se mudó de aparato — y siguió siendo de la familia.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el torneo de una
-familia también se hereda — dolphin-emu/dolphin ★15.687 (pulso 19-oct-2026), la tercera placa
-del salón, trece años de forja puliendo la era del movimiento: el cubo y la wii, de vuelta en la
-tele de la casa.
-
-La forja lo midió con el pulso de HOY y lo firma: la ley del chiquito (el disco propio, volcado
-con respeto), el sofá de pie con su metro (la era honrándose), el cofre del oro (saves + memory
-card, dos discos) — y la regla cosida: el torneo con pizarra y con acta.
-
-Busca la caja de los discos chiquitos. Pide la memory card de la infancia.
-
-Despeja el metro del sofá. Y cuando el tacho te ofrezca 4000 juegos incluidos, recuerda: la era
-de tu casa son los 7 discos de tu estante y la campeona de tu sofá — porque un torneo no se
-descarga: se hereda, se respalda y se juega de pie.
-
-Eso no lo firma el tacho: lo firma trece años de forja, y empuja HOY.
-
-───────────────────
-
-#LaBandita #ElSalonDelCubo #Dolphin #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 73).*
 

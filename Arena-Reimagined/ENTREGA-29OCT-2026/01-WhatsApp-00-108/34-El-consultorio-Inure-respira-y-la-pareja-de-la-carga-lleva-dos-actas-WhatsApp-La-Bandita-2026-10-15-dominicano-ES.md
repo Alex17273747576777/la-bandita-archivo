@@ -1010,8 +1010,6 @@ los muebles el oficio del consultorio.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al dueño del teléfono que «viene cansado».*
 
 Esta pieza te da el espejo que la fábrica no trae: la capa donde vive el cansancio. El informe
@@ -1041,29 +1039,26 @@ El que entendió esto entendió la biblioteca: pocas herramientas, bien conectad
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-Si este consultorio sirvió para algo más que leer, fue para esto: dejar escrito que la salud del
-sistema tiene muebles con placa — Inure el estetoscopio empujando el 13-oct, y la pareja de la
-carga con su acta doble fechada en la estación de las quietudes — con la idea de su escuela viva
-en cada teléfono nuevo del barrio.
+• `mattecarra/acca` — dormido · última actividad 2022-01-03 · ★1.402 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
 
-La forja lo midió con el censo de la tarde y el pulso de la noche del mismo día en que nace esta
-pieza, y lo firma: mirar primero, derivar después, comparar siempre — y el toque serio con plan
-B. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+• `vr-25/acc` — dormido · última actividad 2025-06-06 · ★2.431 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
 
-Abre tu estetoscopio una tarde. Fecha tu primer informe.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Pónle tope al tanque. Y cuando el teléfono amanezca con el pulso firme y el barullo dormido,
-recuerda: no compraste un teléfono nuevo — le montaste consultorio.
+• `hamza417/inure` — ★1.979 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release build107.3.0 (2026-10-21).
 
-Eso no lo vende la tienda: se arma con GPL, y se mantiene con fechas.
+• `mattecarra/acca` — ★1.402 (verificado 29-oct-2026) · última actividad 2022-01-03 · GPL-3.0.
 
-───────────────────
+• `vr-25/acc` — ★2.431 (verificado 29-oct-2026) · última actividad 2025-06-06 · GPL-3.0.
 
-#LaBandita #ElConsultorio #Inure #Bateria #FOSS #DominicanoES
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 34).*
 

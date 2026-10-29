@@ -86,18 +86,6 @@ Y no es: motivo para copiar enlaces codificados en
 La wiki hace su ingeniería para sobrevivir a los indexadores; esta familia de guías hace la suya
 para no pegar recetas. Cada cual protege lo suyo.
 
-## 📦 El repo detrás de la wiki
-
-https://github.com/fmhy/FMHY
-
-★14.592 · último push del 13 de mayo de 2026 · licencia: sin clasificar en su página (se dice
-tal cual — la wiki define su propia política de contenido en su sitio).
-
-La curiosidad que enseña algo: el git lleva meses quieto y la wiki está viva — re-verificado
-HOY, 15-sep: carga con su post de septiembre. ¿Cómo?
-
-La wiki se sirve por vías propias (su web y sus despliegues) y el repo público no refleja cada movimiento. La lección general que ya viste en esta familia: **git quieto ≠ proyecto muerto; proyecto vivo ≠ todo verificado.** Un repo es una capa, no el proyecto entero.
-
 ## 🧭 Discovery ≠ verificación: el embudo completo
 
 La regla de la casa cabe en una línea — encontrar no es verificar. Desplegado, el embudo que

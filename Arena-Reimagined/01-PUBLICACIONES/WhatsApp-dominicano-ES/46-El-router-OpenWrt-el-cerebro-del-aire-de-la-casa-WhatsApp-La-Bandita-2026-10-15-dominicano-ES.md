@@ -994,48 +994,23 @@ del aire."
 5. "Con el respaldo del piso tres: el firmware de fábrica del operador se reinstala desde la web
 del router."
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que nunca volteó la caja del salón.* El que lleva años con el router del
-operador (la clave del sticker, el firmware congelado, la gestión remota encendida): el ritual
-del día uno es tuyo ESTA semana — media hora, sin mudanza: clave nueva de la bóveda, updates
-verificadas, gestión remota apagada.
+• `openwrt/packages` — ★4.659 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0.
 
-La visita de la regla uno: el aire de tu casa, más tuyo desde hoy. La mudanza ya es otra
-historia — la decides con la lista exacta en la mano.
+• `openwrt/openwrt` — ★28.970 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v25.12.6 (2026-10-19).
 
-*SEGUNDA CARTA — al que mantiene el estante.* La gente del estante comunitario (los mil paquetes
-del aire, cada uno con su mantenedor): la forja les firma — su despensa es la razón por la que
-esta pieza existe: el túnel, el faro y la estación del barrio viven ahí porque alguien los
-mantiene gratis.
+• `openwrt/luci` — ★7.939 (verificado 29-oct-2026) · última actividad 2026-10-28 · Apache-2.0.
 
-La placa ★4.629 (pulso 16-oct-2026) con aire de HOY: el barrio empujando su propio aire. El
-estante honesto: la despensa sin dueño que la cobre.
+Licencias sin resolver hoy (1): `openwrt/openwrt`. Sin licencia clara no hay recomendación
+completa: queda la alerta firmada.
 
-*TERCERA CARTA — al que tiene miedo del brick.* El que leyó «brickear» y cerró la pieza: la cicatriz del oficio tiene una sola puerta — el build equivocado. La lista exacta (tu modelo con lupa), el respaldo del cerebro viejo, y la paciencia de veinte minutos: el brick se evita con lectura, no con suerte.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Y si la caja es de las delicadas: la página del modelo lo firma ANTES — y si la casa no quiere el riesgo: el router soportado de la lista cuesta menos que una cena del barrio. El miedo con lista exacta: se llama precaución — y es la vara del oficio.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el aire de la casa
-tiene cerebro con placa — OpenWrt ★28.760 (pulso 16-oct-2026) y su familia (LuCI ★7.910, el
-estante ★4.629): veinte años de la idea que no cambió — la caja del salón, con cerebro de la
-casa.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: el mueble que
-todos usan, visitado; la lista exacta, firmada como póliza; y las piezas del aire (el faro, el
-túnel, la estación) viviendo en la misma caja — la orquesta del salón, afinada.
-
-Visita tu caja esta semana. Si muda el cerebro, que sea con lista exacta.
-
-Y cuando el técnico del operador pregunte por quinta vez «¿apagó y prendió?», recuerda: tu caja ya se administra sola — porque el cerebro es tuyo, y el aire manda. Eso no lo firma la etiqueta del sticker: se firma con GPL, y se administra desde el navegador.
-
-───────────────────
-
-#LaBandita #ElRouter #OpenWrt #LuCI #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 46).*
 

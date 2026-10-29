@@ -1024,55 +1024,16 @@ REV|.)órrec ybme le( nóicacrufib amsim al ómrif enic le ,8102 ne y — azat a
 
 REV|.sám adan ,osiva le noc — alager ,aibmac ,asu :oicifo led evaus sám al — TIM
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que la tesis se le borró dos veces.* El que el susto del borrado le quedó en
-la familia (la tesis del hijo, el ensayo del año, el trabajo del mes): la vara de esta pieza es
-tu susto jubilado.
+• `go-gitea/gitea` — ★58.760 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v28.2.0 (2026-10-18).
 
-El cofre de versiones guarda CADA una (la del martes que el virus comió: recuperada en un
-comando), y el commit de cada capítulo: la memoria del año, escrita mientras se trabaja. La
-tesis: con historia propia — el borrado: jamás otra vez.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al developer del barrio.* El que los proyectos del pan le viven en carpetas de
-pánico (el FINAL_v3 del menú del colmado, el v2_OK del punto de venta): esta pieza es tu taller
-nuevo — la forja en la caja de la 51 (una hora), los cinco proyectos entrando (un comando por
-carpeta), las llaves del despliegue en el cofre (56).
-
-Y la vara seria de tu oficio: lo del cliente, con su propia casa — tu forja, pa lo tuyo y tu
-portafolio. El FINAL_v3: jubilado para siempre.
-
-*TERCERA CARTA — al que cree que esto es pa ingenieros.* El que leyó «Git» y cerró la pieza: vuelve — la vara honesta de la fila: el Git es la memoria del oficio de las manos (la receta de la abuela que se mejora por generaciones: SU caso seis
-
-el plano del artesano: SU caso cinco) — y la web de la forja, la misma de siempre (aprendida en un paseo).
-
-Si guardas archivos que cambian (y los guardas todos), la forja es pa ti: la memoria con botones
-— sin una línea de código de por medio.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el oficio de las
-manos tiene forja con placa — Gitea ★58.533 (pulso 16-oct-2026), la cuarta placa de la fila,
-diez años sirviendo la taza heredada con decencia.
-
-La obra la midió con el pulso del mismo día en que nace esta pieza, y lo firma: cada faena, su
-commit (la memoria escrita mientras se trabaja), la rama del experimento (el proyecto que no
-trabaja con miedo), el espejo probado (el proyecto en tres sitios) — y la regla cosida: privada
-de nacimiento; lo ajeno, con su propia casa.
-
-Monta tu forja. Firma tu primer commit.
-
-Jubila el archivo-final-v2. Y cuando el taller ajeno te ofrezca su historial de alquiler,
-recuerda: la memoria de tu oficio, servida desde tu caja — porque el trabajo es tuyo, y su
-historia manda.
-
-Eso no lo firma la vitrina: se firma con MIT, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #LaForjaDeLaCasa #Gitea #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 57).*
 

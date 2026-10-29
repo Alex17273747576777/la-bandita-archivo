@@ -1001,56 +1001,25 @@ REV|.ajac al edsed odnamoc nu ne adacover evall :onam al adidrep — nip us onof
 
 REV|.)amrif y artel( setna eel es ,ollislob la artne euq ol :sotilager noc saipoc ednev oneja odacrem le — AJROF AL ED
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que vive diciendo «se lo mando cuando llegue».* El que la calle le vive
-cortando el taller (el tablero pendiente, la faena esperando, la casa llamando mientras él está
-en la cola del banco): la vara de esta pieza es tu tarde por fuera.
+• `termux/termux-packages` — ★17.259 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release Bootstrap archives for Termux application (apt.android-7) (2026-10-25).
 
-La terminal en el teléfono, las recetas en la mochila, el puente a la caja por el túnel propio:
-la calle, contestando al momento. Tu primer «ya está, lo acabo de correr desde aquí»: espera — y
-la cola del banco: nunca más perdida.
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
 
-*SEGUNDA CARTA — al que tiene la jaula llena de apps ajenas.* El que el teléfono le vive
-pidiendo cosas (la app de control con su cuenta, el asistente con su ubicación, el juego con sus
-permisos: la jaula, llena de inquilinos): la vara fina del bloque te deja la medida — cada
-inquilino, una puerta pa adentro tuyo (el censo del teléfono: repasado con la vara de la fila).
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
 
-A cambio el taller propio: sin cuenta, sin ubicación, sin novelas (la terminal: sin cuenta, sin
-ubicación, sin novelas — una app, un oficio). El teléfono: tuyo otra vez — la jaula: con menos
-renta.
+• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
 
-*TERCERA CARTA — al que le tiene miedo a la pantalla negra.* El que la terminal le parece de
-otros (la lengua del oficio: «eso es pa técnicos»): la vara honesta del bloque te abre la puerta
-— ya hablas la lengua SIN saberlo (los scripts de la aprendiz 64: escritos en esta lengua; tu
-biblioteca de recetas: PAISAJE NATIVO de la terminal).
+Licencias sin resolver hoy (2): `termux/termux-packages`, `termux/termux-app`. Sin licencia
+clara no hay recomendación completa: queda la alerta firmada.
 
-Pero el bolsillo no exige saber: exige COPIAR (el primer mes: corriendo las recetas de la casa; el segundo: leyéndolas; el tercero: cambiándolas — la escuela del caminante: gratis, en la guagua). La pantalla negra: un cuaderno — el miedo: de película.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la calle también
-tiene taller — Termux ★62.966 (pulso 19-oct-2026), la placa del bolsillo, once años de oficio
-con su despensa en faena de HOY: la forja más constante del censo.
-
-La forja lo midió con el pulso de esta semana y lo firma: la llave con cerrojo (la contraseña en
-la ssh, la revocación en un comando), el puente por el túnel (jamás vitrina), la mochila de la
-forja (instalada de la fuente, leída antes) — y la regla cosida: lo liviano en la mano, lo
-pesado en casa.
-
-Instala tu terminal. Corre tu primera receta de calle.
-
-Cierra tu primer chequeo desde la guagua. Y cuando la tienda te pida tu cuenta entera pa un
-chequeo de tablero, recuerda: tu calle contesta con taller propio — porque la llave es tuya, y
-el túnel manda.
-
-Eso no lo firma la tienda: se firma de la forja, y camina contigo.
-
-───────────────────
-
-#LaBandita #ElTallerDeBolsillo #Termux #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 66).*
 

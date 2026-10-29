@@ -993,8 +993,6 @@ voz.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que le robaron la cuenta con la contraseña «correcta».*
 
 Tu caso es el de la pieza entera: la palabra la adivinaron o la filtraron — y la casa no tenía segunda cerradura. Esta tarde arma el cerrojo (la primera llave, el correo) y desde mañana la palabra robada ya no cobra: el ladrón con tu contraseña se queda en el zaguán.
@@ -1016,27 +1014,18 @@ Enseñala con el meme del zaguán: la palabra se roba; la casa con dos cerradura
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Si este cerrojo sirvió para algo más que leer, fue para esto: dejar escrito que las llaves de la
-casa tienen su propio mueble con placa — Aegis la fortaleza con diez años y la placa más alta
-del bloque, FreeOTP+ la simple del linaje Red Hat — y una regla más vieja que los teléfonos: la
-llave de la casa no se le presta a nadie.
+• `helloworld1/freeotpplus` — ★750 (verificado 29-oct-2026) · última actividad 2026-08-24 · Apache-2.0.
 
-La forja lo midió con el censo del mismo día en que nace esta pieza, y lo firma: la segunda cerradura vive en tu teléfono, la frase en el tronco, y el código no se le dice ni a la voz más amable. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+• `beemdevelopment/aegis` — ★13.412 (verificado 29-oct-2026) · última actividad 2026-09-06 · GPL-3.0.
 
-Arma el cerrojo. Cuelga la llave del correo.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Firma la regla en la cena. Y cuando la filtración del taller ajeno suelte tu contraseña al
-mundo, recuerda: esa palabra ya no abre nada tuyo — el zaguán es hasta donde llega el ladrón.
-
-Eso no lo regala el taller: se arma con GPL, y dura décadas.
-
-───────────────────
-
-#LaBandita #ElCerrojo #Aegis #2FA #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 38).*
 

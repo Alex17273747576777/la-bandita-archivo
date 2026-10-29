@@ -18,22 +18,6 @@ encontrada por las rutas comunes.
 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
 · release v2.3.4 (2026-10-29).
 
-## 📦 Las reglas de la casa
-
-**1.** El hueco se rellena confesándolo: esta 02 nació el 29-oct-2026 para cerrar el número, no
-para fingir que siempre estuvo.
-
-**2.** Mueble de tres cajones se prueba cajón por cajón: biblioteca primero, fuentes firmadas
-después, lectura al final.
-
-**3.** Licencia sin SPDX visible es placa incompleta: se recomienda con el asterisco firmado, no
-con silencio.
-
-## ⚖ La vara
-
-Los números completos importan cuando el lector busca su pieza: el muro sin huecos es un índice
-en el que se puede confiar.
-
 ## El meme de la pieza
 
 > —Falta la 02. —Faltaba: nació hoy, confesada y con fecha, que es como se rellenan los huecos

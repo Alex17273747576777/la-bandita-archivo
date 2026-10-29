@@ -13,22 +13,6 @@ Neo-Backup es la póliza de las apps: respaldo completo con datos, nacido en 201
 · última actividad 2026-10-17
 · AGPL-3.0
 
-## 📦 Las reglas de la casa
-
-**1.** La copia vive fuera del teléfono: la póliza dentro de la casa incendiada no paga.
-
-**2.** Restaurar se ensaya en pequeño antes de la desgracia grande.
-
-**3.** Calendario de bodega: respaldo con fecha, prueba con fecha, libreta con las dos.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 93 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 0 con actividad de la semana, 1 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-Respaldo que nunca se restauró es una promesa, no una póliza.
-
 ## El meme de la pieza
 
 > —Tengo respaldo de todo. —¿Dónde duerme? —En el mismo teléfono… —Entonces tienes una foto de

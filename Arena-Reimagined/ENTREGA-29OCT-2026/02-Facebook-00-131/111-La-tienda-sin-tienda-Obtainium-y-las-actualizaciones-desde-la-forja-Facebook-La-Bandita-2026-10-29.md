@@ -28,20 +28,6 @@ checksum, sin intermediario que decida por ti qué versión mereces.
 · GPL-3.0
 · release Release v0.7.8 (2026-09-12).
 
-## 📦 Las reglas de la casa
-
-**1.** Cada app vigilada nace de SU repo oficial: el enlace se copia de la forja, no de un blog.
-
-**2.** La notificación de release se lee antes de actualizar: fecha, notas y licencia, en ese orden.
-
-**3.** Lo que no está en ninguna forja seria no se persigue por canales: la ausencia también es
-información.
-
-## ⚖ La vara
-
-Quien controla tus actualizaciones controla tu teléfono a plazos: la tienda sin tienda te
-devuelve ese control con recibo.
-
 ## El meme de la pieza
 
 > —Mi tienda no me ofreció la actualización. —La forja la soltó hace tres días: la tienda sin

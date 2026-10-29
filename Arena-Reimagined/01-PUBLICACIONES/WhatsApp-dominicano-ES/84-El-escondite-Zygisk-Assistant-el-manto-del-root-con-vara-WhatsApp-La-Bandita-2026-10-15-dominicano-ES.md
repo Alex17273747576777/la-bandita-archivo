@@ -1094,47 +1094,16 @@ REV|.odalibuj ,noiug nis nólet lE .ollugro noc zíar us ev onofélet led otser 
 
 REV|.aneja al sámaj — atneuc UT noc onofélet UT ne ppa UT :azilóp al azalpmeer on y sorecret a añagne on ,latot dadilibisivni se ON .atsil US ed sppa sal ed zíar al atlucO
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que eligió entre el root y el banco.* El que des-rooteó por el cartel (la
-jaula ganando: el oficio enterrado por una app — «así es la vida»: la rendición jaulada), y la
-vara de esta pieza es tu puerta: el manto con ley la abre (la raíz de vuelta, la lista corta, la
-prueba HOY — tu banco: abriéndose esta semana con tu oficio intacto).
+• `snake-4/zygisk-assistant` — ★2.660 (verificado 29-oct-2026) · última actividad 2026-05-04 · MIT.
 
-Tu elección: no era obligatoria — era falta de manto con vara.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al que usa el escondite pa lo que no es.* El que busca el manto pa la cuenta ajena (la app de otro, el fraude del banquito, el cheat pa pisar al compaya del recreo): esta pieza no es tu puerta — la línea de la casa es la misma de siempre (TU app, TU teléfono, TU cuenta
-
-el engaño a tercero: la puerta del chisme — y el chisme siempre cobra).
-
-La casa te deja la vara derecha: en tu propia puerta — o fuera del salón.
-
-*TERCERA CARTA — al que confía en el video del tacho.* El que monta por fama (el «pasa todo» del video: montado a ciegas — el día del banco: la sorpresa), y la vara del bloque no te juzga: te deja la prueba (TU app abriéndose HOY: la única vara — la cicatriz anotada si no abre; la re-prueba mensual si abre). La fama: no abre puertas — la vara: sí.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la discreción del
-root se prueba antes de presumirse — la fila 82-95 con su familia del bolsillo en pie: 2.643
-estrellas (pulso 18-oct-2026), el manto MIT y la lista corta — la puerta del banco: abriéndose
-con ley HOY.
-
-La forja lo midió con el pulso de HOY y lo firma: lista corta (el manto cubre lo justo), prueba
-HOY (TU app abriendo — jamás la fama), la línea de la casa (TU cuenta, jamás la ajena) — y la
-regla cosida: la gira, siempre HOY.
-
-Monta el manto de SU forja. Prueba TU app.
-
-Escribe tu lista. Y cuando cuentes tu root, que sea como la casa: con lista, con prueba y con
-gira — porque la discreción no se presume: se cose, se prueba y se re-pulsa en familia.
-
-Eso no lo firma el brujerío: lo firman 2.643 estrellas de forja serena — y una app que abre
-TODOS los lunes.
-
-───────────────────
-
-#LaBandita #ElEscondite #ZygiskAssistant #RootLibre #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 84).*
 

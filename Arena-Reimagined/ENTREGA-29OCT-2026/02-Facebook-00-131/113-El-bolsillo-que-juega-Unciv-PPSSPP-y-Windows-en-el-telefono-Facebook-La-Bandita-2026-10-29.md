@@ -23,20 +23,6 @@ ni cuenta: necesita su forja, su release con fecha y un dueño que sepa de dónd
 • `brunodev85/winlator` — ★19.680 (verificado 29-oct-2026)
 · última actividad 2026-10-17 · LGPL-2.1.
 
-## 📦 Las reglas de la casa
-
-**1.** La ROM y el juego, de tu propia copia: el emulador es libre, el contenido tiene dueño.
-
-**2.** Release con fecha antes que “última versión” de un canal: la forja manda.
-
-**3.** El bolsillo se calienta jugando a Windows: pausa, aire y batería cuidada con el
-termostato de la 94.
-
-## ⚖ La vara
-
-Jugar sin pedir permiso a una tienda es un derecho que se ejerce con procedencia: emulador de su
-forja, juego de tu estante.
-
 ## El meme de la pieza
 
 > —En mi teléfono corre Windows, PSP y una civilización entera. —Y ninguna te pidió la tarjeta:

@@ -23,19 +23,6 @@ La privacidad del tránsito viene en tres niveles y hoy los tres empujaron: la a
 · licencia sin clasificar (NOASSERTION)
 · release Orbot for Android v17.9.7 RC 1 (tor 0.4.9.14) (2026-10-09).
 
-## 📦 Las reglas de la casa
-
-**1.** Nivel declarado antes de navegar: qué sale por el túnel y qué no, escrito en la libreta.
-
-**2.** El servidor del túnel tiene dueño conocido: gratis y anónimo es otra forma de entregar el
-dato.
-
-**3.** La vara de siempre: tu red, tu cuenta, tu ley; la herramienta no se presta para casas ajenas.
-
-## ⚖ La vara
-
-El túnel no te hace invisible: te hace responsable de saber por dónde sale tu tráfico.
-
 ## El meme de la pieza
 
 > —Con esto ya nadie me ve. —Te ve el dueño de tu túnel si no lo elegiste tú: la invisibilidad

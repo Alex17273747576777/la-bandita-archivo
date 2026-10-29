@@ -978,56 +978,16 @@ REV|.)odaclov led séupsed aibmac es :alip al y( anames ATSE neel es nójac led 
 
 REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq mor acinú al( onif rotcel US noc eel es nójac led ogeuj le :oiporp ohcutrac led yel al noc — ABG al y yoB emaG aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene los cartuchos en el cajón de los tornillos.* El que guarda los
-juegos de la era de bolsillo (los del papá, los propios: el cajón con celo — «ya no hay na que
-los lea»): la vara de esta pieza es tu cajón — el cartucho los corre (la tarde del rescate: tus
-saves del 99, despertándose ANTES de que la pila muera).
+• `mgba-emu/mgba` — ★7.539 (verificado 29-oct-2026) · última actividad 2026-10-28 · MPL-2.0.
 
-Tu cajón: no es chatarra — es el recreo esperando su campana.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al que lleva su mochila en la app del tacho.* El que lleva años con el «emulador con todo incluido» (cómodo, al toque — con sus 1000 juegos de nadie): la vara del bloque no te juzga — te deja el mapa (lo que el tacho trae: la era robada + el regalito que mira tu mochila
-
-y el remedio: el leído de TU cajón — los 8 cartuchos que de verdad juegas, con tu firma).
-
-Con la vara fina: la diferencia de bolsillo (el cartucho honesto: la precisión de ciclo, el save
-heredado con cofre, el recreo a fluidez — el tacho: no ofrece na de eso). Tu mochila: merece su
-era propia — no 1000 desconocidos.
-
-*TERCERA CARTA — al que la partida del 99 le duele de memoria.* El que recuerda el save perdido
-(el que la pila se llevó en silencio, en un cajón, en un «ya no importa»): esta pieza es tu
-segunda chance — la tarde del rescate: los saves dormidos, despertándose con oficio (se leen
-ANTES de que mueran: la partida del 99 — continuando donde la dejaste).
-
-Con vara fina: la lección de la casa (lo que hoy juega tu hermano menor o tu hijo: SU save se
-respalda HOY — la era criando casas que no pierden partidas). El save perdido: no vuelve — el
-próximo: jamás se pierde.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el recreo de una
-casa también se hereda — mgba-emu/mgba ★7.513 (pulso 19-oct-2026), la sexta placa del salón,
-trece años de forja resucitando la era de bolsillo: los cartuchos del cajón, de vuelta en la
-pantalla.
-
-La forja lo midió con el pulso de HOY y lo firma: la ley del cartucho propio (el juego del
-cajón, leído con respeto), la tarde del rescate (la pila: reloj de arena — el save: al cofre a
-tiempo), el cofre del oro eterno — y la regla cosida: el save del papá, sagrado.
-
-Busca el cajón de los tornillos. Pide el lector del club.
-
-Pon la mano en el control. Y cuando el tacho te ofrezca 1000 juegos incluidos, recuerda: la
-mochila de tu casa son tus 8 cartuchos y el save del 99 — porque un recreo no se descarga: se
-rescata, se respalda y se juega en tandas.
-
-Eso no lo firma el tacho: lo firman trece años de forja, y empujan HOY.
-
-───────────────────
-
-#LaBandita #ElCartuchoEterno #mGBA #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 76).*
 

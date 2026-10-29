@@ -1003,52 +1003,18 @@ REV|.atsinoicceloc led apmart al ,oesum ed etnatse le :lausnem arig noc — anea
 
 REV|.arreic es atreup al ,ahcif nis :ocigólaeneg lobrá le — acilbúp artel y atsenoh atejrat ,latan ajroF
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que corre un pensa sin saber cuál.* El que su 61 conversa desde hace meses y
-jamás preguntó el origen (el modelo: «el que venía» — la casa pensando con un extraño sin
-papeles): la vara de esta pieza es tu pensa por dentro — su ficha encontrada (forja, tarjeta,
-letra: el árbol genealógico en una tarde), la letra verificada pa tu mesa, la nota del
-currículum.
+• `huggingface/transformers` — ★168.334 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release Patch release v5.21.1 (2026-10-29).
 
-Tu pensar: con papeles — y la casa: sabiendo a quién le habla.
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
 
-*SEGUNDA CARTA — al que el mundo de los modelos le abruma.* El que ve las noticias (un pensa
-nuevo cada semana, cada uno «revolucionario»: la marea del hype) y no sabe por dónde: la vara
-fina del bloque te da el timón.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-La regla dos: TÚ no persigues la marea (un pensa por faena: la ficha de TU oficio decide — español, tamaño, letra), y de paso la vara mayor: el pensa estable vale más que el de moda (el que tus mesas ya conocen: contratado). La marea: pa los marketers — tu estante: por faena.
-
-*TERCERA CARTA — al que quiere su pensa propio (el sazón).* El que su oficio merece un pensa que
-hable como él (el barbero, la doctora, el colmadero: el pensa genérico contestando genérico): la
-vara honesta del bloque te abre la puerta LENTAMENTE.
-
-Primero, la receta base de memoria (un mes de uso: los problemas de verdad, anotados), luego cien ejemplos buenos (la data limpia del taller). El afinado fino: con la pareja del sazón (la aprendiz 64 preparando, la forja de entrenar afilando).
-
-La obra final: el pensa de tu oficio — pa el cocinero que ya prueba. El sazón: pa su tiempo.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el pensar también
-tiene fundación — transformers ★167.766 (pulso 16-oct-2026), la segunda placa del censo entero,
-ocho años de oficio con su letra Apache: la casa donde nace lo que tu caja piensa.
-
-La forja lo midió con el pulso de HOY y lo firma: la lengua común del pensar (el idioma del
-estante libre), la ficha antes de la descarga (forja, tarjeta, letra), un pensa por faena (el
-estante: taller, jamás museo) — y la regla cosida: el sazón es faena seria.
-
-Lee la ficha de tu pensa. Examina su currículum.
-
-Gira tu estante. Y cuando la tienda te ofrezca magia sin receta, recuerda: tu casa contrata su
-pensar con papeles — porque lo que piensa pa ti, presenta ficha.
-
-Eso no lo firma el oráculo: se firma Apache, y nace en la casa.
-
-───────────────────
-
-#LaBandita #LaCasaDeLosPensares #Transformers #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 68).*
 

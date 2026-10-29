@@ -17,21 +17,6 @@ Dos oficios finos de la mesa del manga empujaron esta semana: FrankYomik — nac
 · última actividad 2026-10-29
 · GPL-2.0.
 
-## 📦 Las reglas de la casa
-
-**1.** La traducción automática se revisa con ojos humanos: la máquina propone, el lector firma.
-
-**2.** Descargar lo tuyo o lo libre, y archivarlo en tu sótano (108): la mesa y la bodega son la
-misma casa.
-
-**3.** Oficio joven (ocho meses) con release de ayer.
-
-Se prueba en laboratorio antes de tocar la biblioteca buena.
-
-## ⚖ La vara
-
-Las herramientas de taller no presumen: sostienen la biblioteca que las piezas de lectura presumen.
-
 ## El meme de la pieza
 
 > —La IA ya traduce mi manga. —Traduce un borrador: la página final la sigue firmando un lector

@@ -12,22 +12,6 @@ Hoy el pulso por piezas confirma que la mesa sigue viva: no era una foto, era un
 
 • Placas de la pieza contadas en su foto madre (WhatsApp) y re-pulsadas por la gira del 29-oct-2026 de esta casa.
 
-## 📦 Las reglas de la casa
-
-**1.** Cada número citado sale de SU columna y lleva SU fecha en SU línea.
-
-**2.** El número grande encuadra, jamás presume: la mesa no compite.
-
-**3.** La silla pequeña pesa igual en el conteo aunque no en la foto de prensa.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 100 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. Esta página es de lectura agregada: sus números nacen del censo de la casa y se re-pulsan en la gira general, no en una placa única.
-
-## ⚖ La vara
-
-La aritmética citada es la vida de la mesa: sin fecha, el total es decoración.
-
 ## El meme de la pieza
 
 > —Tres millones de estrellas, ¡ganamos! —No ganamos nada: contamos todo, que es más difícil.

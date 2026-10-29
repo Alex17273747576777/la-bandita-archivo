@@ -883,8 +883,6 @@ del canal.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que quería «la de las películas gratis».*
 
 Esta no era tu pieza — y la forja te la recomendó igual, porque la sala libre empieza por entender la vara: muebles públicos, fuentes tuyas, firma legal. SmartTube te cambia la vida del YouTube familiar esta misma noche; el resto de la cuerda floja no te la acompaña nadie de esta casa.
@@ -908,133 +906,32 @@ La sala serena es la mejor pieza de la serie, y no la escribe nadie: se configur
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-Si esta sala sirvió para algo más que leer, fue para esto: dejar escrito que el vídeo grande
-libre tiene muebles de verdad — seis casas medidas al censo del 15-oct-2026, dos campeones
-empujando el mismo día, una quietud con testamento AGPL, y la vara más recta de la serie puesta
-AL FRENTE: mueble público, fuentes tuyas, firma legal.
+• `oxyroid/m3uandroid` — ARCHIVADO · última actividad 2026-09-08 · ★1.284 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
 
-La forja lo midió con el censo de la tarde del mismo día en que nace esta pieza, y lo firma: la
-sala de la familia no se apuesta en grupos. El corte honesto no sabe a todo — sabe a lo que
-sabe, y lo que sabe lo deja con fecha.
+• `miru-project/miru-app` — dormido · última actividad 2025-12-05 · ★5.783 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
 
-Monta la escuela que tu televisor pide. Baja del repo, nunca del grupo. Configura la fila de los
-tuyos. Y cuando el anuncio salte en la sala del vecino, recuerda: el muñeco existe — y tiene
-placa.
+*Señales de futuro (novedad activa, no ranking por estrellas):*
 
-───────────────────
+• `mytv-android/mytv-android` — creado 2025-02-20 · última actividad 2026-10-28 · ★2.927 (verificado 29-oct-2026) · MIT.
 
-#LaBandita #SalaLibre #SmartTube #IPTV #FOSS #CensoVivo #DominicanoES
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Frontend|La puerta alternativa que habla con el servicio de otro por su puerta pública: Piped y
-familia — casa de la pieza 16. La sala los nombra y no repite censo.
-Muñeco|El cliente de TV que cambia al oficial: SmartTube de bandera.
+• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
 
-No trae contenido nuevo — defiende el que ya miras, sin anuncios y con fondo libre. Caja|El aparato Android TV chico que desbloquea la sala: el milagro de la gaveta.
+• `yuliskov/smarttube` — ★35.695 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release 32.68 Stable (2026-10-20).
 
-El televisor cerrado no es pared — es una puerta que se abre con caja. D-pad|Los botones del control: el idioma de la sala.
+• `teampiped/piped` — ★10.296 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0.
 
-La escuela del muñeco se mide en D-pad — todo se alcanza sin levantarse. IPTV|La televisión por internet: TU lista de canales en un mueble mejor.
+• `recloudstream/cloudstream` — ★11.090 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Pre-release Build (2026-10-28).
 
-La tecnología no es delito — la lista robada sí es otra historia. M3U|El archivo de la lista de canales: el que TU proveedor te da.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-M3UAndroid lo lee limpio — tu lista, tu permiso, tu guía. Canal|La escuela del archivo propio: MyTV, YourTV, M3UAndroid.
-
-La lista tuya o del proveedor — lo demás no entra por esta pieza. Fuentes|Lo que conectas al mueble vacío: TU decisión y TU firma legal.
-
-La casa mide el mueble — la vara de las fuentes la firmas tú. Extensión|El módulo que conecta fuentes al mueble vacío: se construye, se comparte con licencia — y la piratería no la nombra esta pieza nunca.
-
-Servicio|El que pone el contenido: YouTube, el proveedor, la plataforma.
-
-El que muda la puerta — y el taller vivo contesta con push. Cuela|Lo que entra sin permiso: el clon con anuncios, la lista ajena, el permiso de más.
-
-La sala serena es la que no cuela nada. Pre-anuncio|El anuncio antes del video: la primera víctima del muñeco.
-
-La prueba del paso dos del ritual — el silencio que se aplaude solo. Banner|El anuncio de la esquina de la pantalla: el segundo despegue del muñeco.
-
-La sala sin banners se nota desde el primer video. Fondo libre|El video que sigue sonando con la pantalla apagada: el derecho que el cliente oficial reserva de paga.
-
-En SmartTube es de fábrica — la placa del censo lo confirma. Fire TV|El aparato de Amazon con Android TV por dentro: la escuela del muñeco corre directo.
-
-Instalación del repo con el permiso de fuentes — el ritual completo sirve. Chromecast|El aparato de Google con TV: también Android TV por dentro — muñeco disponible.
-
-La vara del aparato se mira ANTES de comprar promesas.
-Tizen|El sistema propio de Samsung: cerrado al muñeco. La sala libre pasa por caja — el milagro
-de la gaveta otra vez.
-webOS|El sistema propio de LG: igual de cerrado al muñeco.
-
-Caja y a otra cosa — la vara del aparato no se negocia con marca. Guía|La parrilla de canales del IPTV: donde MyTV y M3UAndroid le ganan al aparato de fábrica.
-
-La guía buena es la que encuentra la misa en dos palomeas. Proveedores|El que te da la lista legítima: tu IPTV pagada, tu antena IP.
-
-La vara del canal empieza ahí — con permiso, no con gato. Material 3|El diseño moderno de Android: MyTV lo trae a la sala (censo 15-oct-2026).
-
-La escuela del canal también se viste de esta década. Constructor|El usuario del mueble vacío que aprende a construir sus extensiones: la escuela GPL de CloudStream.
-
-El oficio más raro de la sala — y el más sano. Fila de asuntos|La lista pública de problemas del taller: donde se pregunta lo que el control no alcanza.
-
-La sala contesta con push y con fila — no con grupo. Multiservicio|El mueble que quiso tres territorios: Miru — vídeo, manga y novelas.
-
-Diez meses de quietud al corte: la lección del taller que se propuso de más.
-Testamento|La licencia que deja la casa quieta: AGPL en Miru, Apache en BookReader. Sin
-testamento no hay heredero con honor — la ley de toda la serie.
-
-D-pad|Los botones del control: el idioma oficial de la sala. El mueble que no se navega con control es un teléfono disfrazado de TV — vara en contra.
-
-Modo barato|El mueble que vuela en aparato humilde: la sala libre también es la del aparato viejo — SmartTube revive cajas, MyTV corre en 1 GB. Sauna|La gaveta cerrada sin aire: el calor que traba la app y culpa al mueble.
-
-Carpintería de una vez — aire detrás del aparato y polvo fuera. Encendido total|El apagón real tras la novela: la vara ecológica de la sala.
-
-El standby eterno factura callado — la sala serena también duerme. Carpintería|El arreglo físico de la sala: aire, cable, polvo.
-
-La mitad de las apps «lentas» son aparatos con calor — la forja reparte sentido común con fecha. Factura|Lo que la sala cobra al mes: la red del video grande se mide en gigas por hora.
-
-Fibra para la sala — datos móviles para el teléfono de la pieza 21. Multisala|El mismo muñeco en varios televisores: el repo instala en cada sala con placas iguales.
-
-El límite de cuentas lo pone Google — no el mueble. m3u8|La lista del proveedor en formato moderno: los muebles del canal la leen sin drama.
-
-Tu proveedor da su formato — el mueble se adapta a él. Fila de favoritos|La primera pantalla de la sala serena: misa, noticias, dibujos.
-
-Se arma una vez — y la familia vive en paz hasta el fin de los tiempos.
-Sucripción|La renta mensual del contenido ajeno: respetada por la casa — tu río con factura. La
-sala libre compite en MUEBLES, no en robar catálogos.
-
-Vitrina|Lo que la pantalla del negocio dice del dueño: la sala comunitaria se mide doble — vara legal y respeto delante del barrio. Subasta ajena|El anuncio del APK de grupo en la pantalla TUYA, cobrando el tiempo de tu clientela.
-
-El muñeco del repo la rompe — con placa. Volumen del vecino|El oído que manda en la sala de espera: el negocio que grita pierde al callado.
-
-La forja mide respeto — no decibeles. Sala de espera|El territorio más visto de la República: colmados, barberías, talleres.
-
-La sala comunitaria bien puesta se maneja sola — oficio del negocio moderno. Cuela doble|Lo que está mal dos veces: ilegal y delante de todos.
-
-La vara del canal en la sala del negocio pesa el doble — la casa lo firma así.
-
-Cinco casas jóvenes|La firma demográfica de la sala: cinco de seis nacieron en esta década. El territorio del vídeo grande sigue fundando — y la vara no pregunta edad: pregunta push.
-
-Volumen del negocio|El oído del vecino manda en la sala de espera: el negocio que grita pierde al callado.
-
-Respecto con fecha — la forja no mide decibeles.
-Palomea ajena|El control que cambia de mano en la sala del negocio: favoritos cerrados y fuera
-de la primera pantalla. La sala comunitaria bien puesta se maneja sola.
-
-Sexta vara|La que solo el dueño de la sala puede firmar: la comodidad de los suyos. El censo mide muebles — la fila de favoritos de la abuela la palomea alguien que la quiere, y eso no lo automatiza ninguna forja.
-
-Letrero viejo|El de la pieza 01, clavado desde siempre: los mods se nombran, no se recetan.
-
-La sala lo cita dos veces — y el grupo de siempre sigue sin entenderlo. Quinta planta|La voz del barrio pa lo que no se ve: la sala tiene su sótano (servidores), su repisa (lectura), su cosecha (música) — cada territorio su piso, y la serie los construye uno por uno.
-
-Milagro de la gaveta|El televisor cerrado + la caja olvidada del cajón + la tienda legal del repo: sala nueva sin gastar un peso. El milagro favorito de la forja — carpintería con placa.
-
-Firma doble|La vara de la sala comunitaria: legal Y delante del barrio. Lo que en casa es privado en el colmado es vitrina — el negocio firma con la clientela mirando.
-
-Rioja|Nada.
-
-La forja no pone vinos en la sala — pone placas: estrellas con fecha, push con fecha, licencia
-con nombre. Si este término llegó a tu glosario, es porque la familia cosecha bromea con el
-colmado de la esquina.
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 23).*
 

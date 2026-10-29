@@ -996,8 +996,6 @@ controlas; y mirar-cortar-probar la secuencia del oficio.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que nunca vio el informe de su teléfono.*
 
 Esta pieza te trae la primera lista honesta de tu vida digital: qué apps intentaron hablar esta
@@ -1023,27 +1021,22 @@ El sistema también es de la casa — y esta noche aprendió a tener portero.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Si este portero sirvió para algo más que leer, fue para esto: dejar escrito que el control del
-flujo tiene casas con placa — AFWall+ el catorceañero del root que cumple este mes, NetGuard el
-cumpleañero de once con su quietud fechada, y TrackerControl el detective que pone nombre y
-apellido a cada firma nocturna.
+• `m66b/fairemail` — ★4.736 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release 1.2339 Elopteryx (2026-10-24).
 
-La forja lo midió con el censo de la tarde y el pulso de la noche del mismo día en que nace esta pieza, y lo firma: mirar antes de cortar, cortar lo que firma, dejar hablar lo que usas. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+• `trackercontrol/tracker-control-android` — ★2.703 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
 
-Monta tu informe una tarde. Corta con la lista delante.
+• `ukanth/afwall` — ★3.512 (verificado 29-oct-2026) · última actividad 2026-10-17 · GPL-3.0 · release Version 5.0.0 (2026-10-12).
 
-Deja hablar a los del barrio firme. Y cuando el informe de la madrugada venga limpio con el
-café, recuerda: no cambiaste tus apps — les pusiste portero.
+• `m66b/netguard` — ★3.949 (verificado 29-oct-2026) · última actividad 2026-08-01 · GPL-3.0.
 
-Eso no lo vende la tienda: se arma con GPL, y se hereda.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-───────────────────
-
-#LaBandita #ElPorteroDelBarrio #AFWall #NetGuard #TrackerControl #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 31).*
 

@@ -22,22 +22,6 @@ Lo que corre en TU disco respeta TU ley.
 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
 · release 2026.10.1 (2026-10-06)
 
-## 📦 Las reglas de la casa
-
-**1.** El servidor de la casa nace pequeño: un servicio, un disco, un respaldo.
-
-**2.** La nube ajena es sala prestada: útil, jamás la única copia.
-
-**3.** El sótano se documenta en su mapa: puerto, servicio y dueño de cada cosa.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 98 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 2 repos que esta página cruza con placa propia, hoy cuentan 2 con actividad de la semana, 0 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-La independencia digital no se declara: se autoaloja, se respalda y se fecha.
-
 ## El meme de la pieza
 
 > —Mis fotos están en la nube, segurísimas. —¿En la nube de quién? El sótano tiene nombre y

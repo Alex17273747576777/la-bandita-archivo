@@ -23,19 +23,6 @@ motor propio, la licencia y el ritmo de release cuando la vitrina se mueva.
 · GPL-3.0
 · release 2.4.0 (2026-10-22).
 
-## 📦 Las reglas de la casa
-
-**1.** Cliente híbrido se juzga por su plan B: qué suena el día que la vitrina ajena cierre la
-puerta.
-
-**2.** Descubrir no es poseer: la biblioteca que amas se respalda también en local (la bodega, 108).
-
-**3.** Tres meses y mil estrellas es promesa con pulso: laboratorio primero, altar después.
-
-## ⚖ La vara
-
-La música sin cuenta es soberanía a medias: la mitad tuya (el motor) es la que esta casa audita.
-
 ## El meme de la pieza
 
 > —Suena todo y no pago nada. —Pagas con dependencia: el día que la vitrina cambie, tu motor

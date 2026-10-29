@@ -999,8 +999,6 @@ y un-mueble-por-vez la regla de la mudanza.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que lleva la cara de fábrica desde que compró el teléfono.*
 
 Esta pieza te propone la mudanza más barata de la serie: el escritorio entra en diez segundos, el teclado en dos días, y la cara nueva se siente desde el primer toque. La casa pide paciencia y un mueble por vez — y a la semana te preguntas por qué esperaste años.
@@ -1027,27 +1025,25 @@ puerta de entrada: tiene diez.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Si esta cara sirvió para algo más que leer, fue para esto: dejar escrito que lo primero que
-tocas al amanecer tiene casas con placa — tres escritorios (uno con su vara marcada), dos
-teclados (uno con la firma y el push del mismo día), y veinticuatro años de escuela del tecleo
-detrás de una de ellas.
+• `lawnchairlauncher/lawnchair` — ★13.809 (verificado 29-oct-2026) · última actividad 2026-10-28 · licencia sin clasificar (NOASSERTION) · release Lawnchair Nightly (2026-10-28).
 
-La forja lo midió con el censo de la tarde del mismo día en que nace esta pieza, y lo firma: buscador local, teclado sin nube, un mueble por vez, cara respaldada. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+• `mm2-0/kvaesitso` — ★5.322 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
 
-Monta tu escritorio una tarde. Entrena el buscador.
+• `florisboard/florisboard` — ★8.730 (verificado 29-oct-2026) · última actividad 2026-09-30 · Apache-2.0.
 
-Dale dos días al teclado. Y cuando el teléfono amanezca mostrando lo tuyo primero, recuerda: no
-cambiaste de teléfono — cambiaste de cara.
+• `fcitx5-android/fcitx5-android` — ★5.808 (verificado 29-oct-2026) · última actividad 2026-10-13 · LGPL-2.1.
 
-Eso no se compra con sugestión: se arma con placa, y se siente para siempre.
+Licencias sin resolver hoy (2): `futo-org/android-keyboard`, `lawnchairlauncher/lawnchair`. Sin
+licencia clara no hay recomendación completa: queda la alerta firmada.
 
-───────────────────
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-#LaBandita #LaCaraDeLaCasa #Lawnchair #FlorisBoard #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 30).*
 

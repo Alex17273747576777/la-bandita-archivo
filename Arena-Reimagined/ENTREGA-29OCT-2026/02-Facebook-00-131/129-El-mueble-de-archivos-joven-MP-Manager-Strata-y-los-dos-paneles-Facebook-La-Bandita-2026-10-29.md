@@ -24,20 +24,6 @@ licencia, pulso y permisos pedidos, no por lo bonito del cajón.
 · AGPL-3.0
 · release Strata v1.0.0 (2026-10-16).
 
-## 📦 Las reglas de la casa
-
-**1.** El gestor lo ve todo: su permiso se lee como se lee un contrato de alquiler completo.
-
-**2.** Nacido hace trece días y en silencio desde entonces (Strata): se vigila un ciclo más
-antes de mudarle la casa.
-
-**3.** Doble panel es oficio de escritorio en el bolsillo: se prueba con la carpeta de
-laboratorio, no con la familiar.
-
-## ⚖ La vara
-
-Quien ordena tus archivos ordena tu memoria: ese mueble se audita el doble.
-
 ## El meme de la pieza
 
 > —Instala el de los dos paneles, se ve pro. —Pro se demuestra con licencia y pulso: el mueble

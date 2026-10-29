@@ -1056,8 +1056,6 @@ del oído.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que solo quería «un lector que no sea feo».*
 
 Si te llevaste KOReader o Koodo del censo, la pieza cumplió por lo bajo. Pero la casa te pide la segunda lectura de la vara de la licencia: en esta familia TODOS firman — y aprender a mirar esa placa te cambia el palomear para siempre, igual que en la cosecha musical.
@@ -1083,25 +1081,30 @@ El censo abierto lee tu sugerencia el día que la traigas: la puerta no tiene ho
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-Si esta repisa sirvió para algo más que leer, fue para esto: dejar escrito que la lectura libre
-tiene muebles de verdad — seis casas medidas al censo del 15-oct-2026, dos gigantes AGPL
-empujando el mismo día, una biblioteca offline de 40 mil aplausos para donde la torre no llega,
-y una quietud con acta que enseña más que mil listas sin fecha.
+• `smuyyh/bookreader` — dormido · última actividad 2022-10-09 · ★6.963 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
 
-La forja lo midió con el censo de la tarde del mismo día en que nace esta pieza, y lo firma:
-sillas públicas, libros honestos, marcador que viaja. El corte honesto no sabe a todo — sabe a
-lo que sabe, y lo que sabe lo deja con fecha.
+*Señales de futuro (novedad activa, no ranking por estrellas):*
 
-Escoge silla, no fama. Baja del censo, no del grupo. Y cuando la señal se vaya en la loma,
-recuerda: NOMAD lleva la biblioteca entera en la maleta — y tu marcador ya aprendió a viajar.
+• `crosstalk-solutions/project-nomad` — creado 2025-06-24 · última actividad 2026-10-05 · ★41.227 (verificado 29-oct-2026) · Apache-2.0.
 
-───────────────────
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-#LaBandita #LecturaLibre #KOReader #Koodo #FOSS #CensoVivo #DominicanoES
+• `paulwoitaschek/voice` — ★3.230 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release 26.10.6 - At home on tablets 📱 (2026-10-25).
 
-───────────────────
+• `koodo-reader/koodo-reader` — ★28.665 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release 2.4.6 (2026-10-08).
+
+• `koreader/koreader` — ★30.726 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release OTA (2026-10-28).
+
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 22).*
 

@@ -962,51 +962,19 @@ REV|.oñeus le arap :adagurdam aL .súbotua le omoc asuap es litátrop are al �
 
 REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq OSI acinú al( amrif US noc aclov es etnatse led ocsid le :oiporp DMU led yel al noc — PSP aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene los UMD en la gaveta de mamá.* El que guarda los discos de la era portátil (los del hermano, los propios: la gaveta con celo — «ya no hay nada que los lea»). La vara de esta pieza es tu gaveta — la bolsilla los corre (la tarde del estante: tu era, de vuelta en la mano de HOY).
+• `hrydgard/ppsspp` — ★14.780 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
 
-Tu gaveta: no es plástico muerto — es el autobús esperando su pasajero.
+Licencias sin resolver hoy (1): `hrydgard/ppsspp`. Sin licencia clara no hay recomendación
+completa: queda la alerta firmada.
 
-*SEGUNDA CARTA — al que lleva su viaje en la app del tacho.* El que lleva años con el «emulador con todo incluido» (cómodo, al toque — con sus 500 discos de nadie). La vara del bloque no te juzga — te deja el mapa (lo que el tacho trae: la era robada + el regalito que mira tu trayecto; y el remedio: el volcado de TU estante — los 5 discos que de verdad juegas, con tu firma).
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Con la vara fina: la diferencia de viaje (la bolsilla honesta: la partida estable, el save
-heredado con cofre, el trayecto a fluidez — el tacho: no ofrece na de eso). Tu trayecto: merece
-su era propia — no 500 desconocidos.
-
-*TERCERA CARTA — al que el save del hermano le duele de memoria.* El que recuerda la partida del
-hermano (la que se perdió en una mudanza, en un formato, en un «ya no importa»).
-
-Esta pieza es tu segunda chance — el cofre del viaje: los saves heredados con respeto (se copian
-ANTES, se cargan con ceremonia: la partida del 2010 — continuando donde el hermano la dejó), con
-la lección de la casa como vara fina (lo que hoy juega tu hermano menor o tu hijo: SU save se
-respalda HOY — la era criando casas que no pierden partidas).
-
-El save perdido: no vuelve — el próximo: jamás se pierde.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el viaje de una
-casa también se hereda — hrydgard/ppsspp ★14.690 (pulso 19-oct-2026), la cuarta placa del salón,
-catorce años de forja resucitando la era portátil: los UMD del estante, de vuelta en la mano.
-
-La forja lo midió con el pulso de HOY y lo firma: la ley del UMD propio (el disco del estante,
-volcado con respeto), las tandas del trayecto (la era pausándose como el autobús), el cofre del
-oro heredado — y la regla cosida: el save ajeno, sagrado.
-
-Busca la gaveta de mamá. Pide el lector del club.
-
-Pon la mano en el control. Y cuando el tacho te ofrezca 500 juegos incluidos, recuerda: el viaje
-de tu casa son tus 5 discos y el save del hermano — porque un trayecto no se descarga: se
-hereda, se respalda y se juega en tandas.
-
-Eso no lo firma el tacho: lo firman catorce años de forja, y empujan HOY.
-
-───────────────────
-
-#LaBandita #LaBolsillaDeLosViajes #PPSSPP #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 74).*
 

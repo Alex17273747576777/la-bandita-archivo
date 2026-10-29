@@ -20,18 +20,6 @@ tu ley.
 · AGPL-3.0
 · release 1.5.0 (2026-09-30).
 
-## 📦 Las reglas de la casa
-
-**1.** La red local primero: si el archivo no sale de la casa, que tampoco salga el dato.
-
-**2.** El servidor propio se monta pequeño y con su respaldo: soberanía sin bodega es discurso.
-
-**3.** Contraseña y permiso por aparato: la confianza local también se firma.
-
-## ⚖ La vara
-
-La nube ajena es sala prestada: útil para visitar, jamás la única casa de tus cosas.
-
 ## El meme de la pieza
 
 > —Subí el archivo a la nube para pasarlo al PC de al lado. —Viajó a otro continente para

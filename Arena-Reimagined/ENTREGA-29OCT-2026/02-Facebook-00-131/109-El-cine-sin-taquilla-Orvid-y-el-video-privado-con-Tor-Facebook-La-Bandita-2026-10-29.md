@@ -28,21 +28,6 @@ Se prueba en el teléfono de laboratorio; el pedestal se gana con meses, no con 
 · GPL-3.0
 · release LibreTube Nightly 29-10-2026 (2026-10-29).
 
-## 📦 Las reglas de la casa
-
-**1.** El teléfono del laboratorio primero: la semilla se prueba donde un fallo no duele.
-
-**2.** El repo de fuentes se añade con nombre y apellido: lo que buscas pasa por las fuentes que
-TU firmaste.
-
-**3.** Tor por defecto es doctrina, no adorno: si lo apagas, la app misma te avisa que tu IP
-queda a la vista.
-
-## ⚖ La vara
-
-La privacidad que depende de un solo desarrollador joven se respeta, se verifica y se vuelve a
-pulsar en la próxima gira: nada de fe ciega, nada de desprecio ciego.
-
 ## El meme de la pieza
 
 > —Nueve estrellas y ya quieres pieza. —Nueve estrellas y release de hoy a los 13 días de

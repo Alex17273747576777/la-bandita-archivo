@@ -18,23 +18,6 @@ zip con corbata.
 · GPL-3.0
 · release Release (2026-10-18)
 
-## 📦 Las reglas de la casa
-
-**1.** Molde con fecha o no se monta: lo diario se verifica a diario.
-
-**2.** La fuente del parche se nombra en voz alta; el que esconde la costura esconde algo más.
-
-**3.** Release de SU forja, checksum cuando exista, y libreta de qué se cosió y cuándo.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 86 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 0 con actividad de la semana, 1 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-Re-coser no es robar cuando la costura es abierta y la fuente se firma: la diferencia es la
-procedencia.
-
 ## El meme de la pieza
 
 > —Este módulo viene “ya listo” de un canal. —Listo pa’ quién: la fábrica de verdad deja ver el

@@ -18,12 +18,6 @@ gemela, byte a byte.
 
 El agua llegó alta — no porque corriera rápido: porque no se detuvo.
 
-## ⚖️ El juramento de la casa
-
-**«Mejor que lo que precedió, nunca perfecto.»** Estas ochenta no son perfectas: son verificables. Cada número tiene fecha; cada acta, motivo; cada corrección, su fechado al pie; cada pendiente, su frontera anotada (pieza 77).
-
-Eso es mejor que perfecto: es **heredable**.
-
 ## 🙏 Al dueño
 
 Gracias por la mina, por la ventana de las tres horas, por «no quiero atrasar esto» — que fue brújula de esta madrugada. La casa entrega: **80 publicaciones × 2 plataformas · gemelas verificadas · corpus con SHA-256 por archivo · LEEME al día · Registro #65**.

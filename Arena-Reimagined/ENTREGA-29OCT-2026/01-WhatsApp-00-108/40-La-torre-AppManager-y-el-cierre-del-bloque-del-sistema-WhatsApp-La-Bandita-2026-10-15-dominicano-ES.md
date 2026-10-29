@@ -1019,8 +1019,6 @@ lo que es.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que leyó el bloque del sistema entero (31-40).*
 
 Esta pieza es tu diploma y la forja lo firma con la fila completa: diez muebles, una ciudad, un mes de domingos. Tu teléfono ya no es el aparato que la fábrica arrendó: es la ciudad interior administrada — y la torre es la foto del final: el sistema que la fábrica nunca mostró, mostrado entero.
@@ -1041,27 +1039,19 @@ El corte honesto sigue su mapa — y el mapa dice: seguir.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Si esta torre sirvió para algo más que leer, fue para esto: dejar escrito que el sistema de la
-casa tiene sala de control con placa — App Manager ★9.244 (pulso 16-oct-2026) empujando HOY
-mismo — y una vara que ninguna fábrica mencionó: el sistema que se mira, se gobierna.
+• `muntashirakon/appmanager` — ★9.365 (verificado 29-oct-2026) · última actividad 2026-10-19 · licencia sin clasificar (NOASSERTION).
 
-La forja lo midió con el censo de la tarde y el pulso del mismo día en que nace esta pieza, y lo firma: quince minutos al mes, tres preguntas, manos graduadas — y la ciudad interior del barrio completa. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+Licencias sin resolver hoy (1): `muntashirakon/appmanager`. Sin licencia clara no hay
+recomendación completa: queda la alerta firmada.
 
-Enciende la torre. Lee la fila de rastreadores.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Corta el servicio nocturno con la mano del apoderado. Y cuando el «optimizador» de la tienda
-pida leer tu pantalla, recuerda: tu sala de control ya miró el sistema entero — sin pedirle nada
-a nadie.
-
-Eso no lo regala la fábrica: se arma con GPL, y gobierna años.
-
-───────────────────
-
-#LaBandita #LaTorre #AppManager #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 40).*
 

@@ -26,20 +26,6 @@ honra sin montarle la casa encima.
 · GPL-3.0
 · release Kaisoku v9.8.7-beta5 (2026-10-25).
 
-## 📦 Las reglas de la casa
-
-**1.** Rama joven se prueba en el teléfono de laboratorio, tronco archivado jamás como base nueva.
-
-**2.** Fork con pulso propio es casa nueva; fork en calma es apellido prestado (la vara de la 104).
-
-**3.** Las extensiones que la rama hereda se re-firman: compatibilidad prometida no es fuente
-auditada.
-
-## ⚖ La vara
-
-El futuro del lector no vendrá de un solo nombre: vendrá de la rama que empuje el día que la
-busques.
-
 ## El meme de la pieza
 
 > —Tantos lectores que no sé cuál bajar. —Baja el que empujó esta semana y declara su licencia:

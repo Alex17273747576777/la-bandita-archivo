@@ -12,22 +12,6 @@ Shizuku presta manos de sistema sin abrir la puerta del root: la varita que medi
 · última actividad 2025-06-18
 · licencia Apache-2.0 (resuelta al cierre de la jornada, 29-oct-2026)
 
-## 📦 Las reglas de la casa
-
-**1.** La varita se levanta por USB o por el propio teléfono, y se sabe qué mano prestó a quién.
-
-**2.** App que pide la varita sin explicar pa’ qué, no recibe la mano.
-
-**3.** Sin root no es sin vara: el alcance prestado también se audita.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 90 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 0 con actividad de la semana, 0 del mes y 1 en calma firmada.
-
-## ⚖ La vara
-
-El poder prestado con recibo vence al poder tomado sin papel: esa es la varita.
-
 ## El meme de la pieza
 
 > —Sin root no se puede nada. —La varita lleva años prestando la mano sin romper la puerta.

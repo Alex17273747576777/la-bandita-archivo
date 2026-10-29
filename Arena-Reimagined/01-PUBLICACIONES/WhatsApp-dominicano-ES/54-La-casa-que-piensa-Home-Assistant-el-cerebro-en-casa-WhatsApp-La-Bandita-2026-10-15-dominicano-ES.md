@@ -1015,51 +1015,18 @@ REV|.rellat led azilóp al noc edrat anu ne odaruatser ,orberec le y — )efuhcn
 
 REV|.alif al ed ajeiv sám ajrof al ,265.19★ — arbo al adot ed royam acalp ª2 al y )3102-pes-71 le adican( soña ecerT
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que paga la fuga del calentador.* El que el recibo de la luz le llega con
-susto (el calentador de 24 horas, el abanico del alba): la vara de esta pieza es tu factura por
-dentro — el enchufe inteligente (mil quinientos pesos) mide tu fuga y la corta con horario.
+• `home-assistant/core` — ★91.812 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release 2026.11.0b0 (2026-10-28).
 
-Una tarde de cerebro (la caja de la 51), la regla del calentador, y el recibo del mes siguiente:
-el rajano de la casa. La fuga no es mala suerte: es falta de horario.
+• `home-assistant/android` — ★4.009 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release 2026.10.1 (2026-10-26).
 
-*SEGUNDA CARTA — al que tiene la abuela sola.* El que la distancia le pesa (la abuela de 82, su
-rutina, el miedo callado de la familia): el cerebro es el nieto electrónico — el sensor de la
-puerta avisando «Abuela levantada», el botón de emergencia sonando TODOS los teléfonos, sin
-cámara en su cuarto (la dignidad, firmada): solo la puerta y el botón.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-La vigilancia con cariño: la regla que esta pieza deja escrita pa tu familia.
-
-*TERCERA CARTA — al que le regalaron tres gadgets de la tienda.* El que tiene los bombillos con
-tres apps y tres cuentas (la escena del inicio, en su sala): no los botes — el cerebro los
-abraza.
-
-La mayoría de los gadgets del barrio tienen su modo local escondido (el cerebro lo encuentra), y la casa de tres nubes se convierte en UNA casa con UN cerebro — la app de la tienda, jubilada; el bombillo, obedeciendo a tu caja. El gadget de la tienda: por fin, inteligente de veras.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la casa tiene
-cerebro con placa — Home Assistant ★91.595 (pulso 19-oct-2026), la 2ª placa mayor de toda la
-obra, trece años de oficio, y su app ★3.972 en el bolsillo.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: las tres reglas
-que ahorran, el tablero por persona, la prueba de la decencia (internet apagado, la casa
-pensando) — y la regla cosida: lo que abre tu casa, con la póliza más firme del taller.
-
-Monta tu cerebro. Firma la regla del calentador.
-
-Abraza los gadgets de la tienda. Y cuando el vendedor te ofrezca la casa inteligente con
-mensualidad, recuerda: el pensamiento de tu casa no se alquila — porque la casa es tuya, y su
-mente manda.
-
-Eso no lo firma la tienda: se firma con Apache, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #LaCasaQuePiensa #HomeAssistant #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 54).*
 

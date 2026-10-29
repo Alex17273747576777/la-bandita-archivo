@@ -113,29 +113,6 @@ La capa se sostiene en infraestructura compartida que conviene nombrar: los **di
 
 y en la observación de esta semana quedó un compañero chico pero vivo: **android-koreader-companion** (★9, MIT, versión del 14-sep) — muestra lo que lees en KOReader y Mihon, el progreso entre los dos mundos.
 
-## ⚖️ ¿Para quién es esta capa?
-
-```
-¿Lees manga en japonés y estudias?
-   → Chimahon (si vienes de Mihon) o
-     Yomikai (si quieres voz y OCR).
-
-¿Lees novelas ligeras en EPUB japonés?
-   → Hoshi Reader: es SU terreno, con
-     e-ink incluido para el lector de tinta.
-
-¿Anime + manga + novela en una sola app
-(y el japonés no es tu foco)?
-   → Yomi Reader — y mira Tadami (pieza 13),
-     el triple del linaje Aniyomi con años encima.
-
-¿Tienes un servidor Komga?
-   → Koharia, la app dedicada.
-```
-
-Ninguna ficha pasa por fama: pasa por cadencia, funciones propias y repo abierto — y las cinco
-viven, re-verificadas a HOY 15-sep.
-
 ## ❓ Preguntas frecuentes
 
 **¿Estos reemplazan a Mihon/Komikku/Aniyomi?** No: son capas encima o al lado. Chimahon ES un fork de Mihon (tu biblioteca migra con las reglas de siempre); Koharia necesita un servidor Komga; Hoshi es para EPUB japonés; Yomikai y Yomi Reader son casas aparte.

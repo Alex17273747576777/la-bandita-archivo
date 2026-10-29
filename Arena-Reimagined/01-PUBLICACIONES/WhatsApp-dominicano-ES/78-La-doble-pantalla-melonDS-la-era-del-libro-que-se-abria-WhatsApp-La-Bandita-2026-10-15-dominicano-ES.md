@@ -979,56 +979,16 @@ REV|.)atcerroc nóicisopsid US :oeram nis aroh anu( ogral otar led abeurp al y �
 
 REV|.sámaj :ohcat led »odiulcni odot« le ;)econocer asac al euq mor acinú al( onif rotcel US noc eel es nójac led ogeuj le :oiporp ohcutrac led yel al noc — SD lE
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene el DS con la bisagra floja en el cajón.* El que guarda la consola
-gastada de jugar (la bisagra floja, la pantalla rayada: «ya no sirve de na»): la vara de esta
-pieza es tu cajón — la doble abre el libro (los cartuchos: leyéndose con respeto; el desgaste de
-tu era: la cicatriz honrada de haber jugado).
+• `melonds-emu/melonds` — ★5.166 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0.
 
-Tu cajón: no es chatarra — es el recreo esperando su sala.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al que lleva su recreo en la app del tacho.* El que lleva años con el «emulador con todo incluido» (cómodo, al toque — con sus 900 juegos de nadie): la vara del bloque no te juzga — te deja el mapa (lo que el tacho trae: la era robada + el regalito que mira tu recreo
-
-y el remedio: el leído de TU cajón — los 7 cartuchos que de verdad juegas, con tu firma).
-
-Con la vara fina: la diferencia de libro (la doble honesta: el wifi local vivo, el save social
-con cofre, la partida a fluidez — el tacho: no ofrece na de eso). Tu recreo: merece su era
-propia — no 900 desconocidos.
-
-*TERCERA CARTA — al que el intercambio del 2006 le duele de memoria.* El que recuerda los juegos
-pasados de mano en mano (los que quedaron atrapados en una consola muerta, en una bisagra rota,
-en un «ya no importa»): esta pieza es tu segunda chance — el wifi local: vivo de nuevo (dos
-jugadores de la casa: intercambiando como entonces).
-
-Otra vara fina: el cofre del oro social (los saves del recreo: respaldados con póliza — lo que
-hoy intercambia tu hijo: se respalda HOY). El intercambio perdido: no vuelve — el próximo: jamás
-se pierde.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el recreo de una
-casa también se hereda — melonDS-emu/melonDS ★5.129 (pulso 19-oct-2026), la octava placa del
-salón, diez años de forja resucitando la era del libro: los cartuchos del cajón, de vuelta en la
-pantalla.
-
-La forja lo midió con el pulso de HOY y lo firma: la ley del cartucho propio (el juego del
-cajón, leído con respeto), el libro acomodado al gusto (las dos pantallas: viviendo en una), el
-wifi local vivo — y la regla cosida: el oro social, sagrado.
-
-Busca el cajón de la bisagra. Pide el lector del club.
-
-Llama a tu primo. Y cuando el tacho te ofrezca 900 juegos incluidos, recuerda: el recreo de tu
-casa son tus 7 cartuchos y el intercambio del 2006 — porque un recreo no se descarga: se lee, se
-respalda y se juega en familia.
-
-Eso no lo firma el tacho: lo firman diez años de forja, y empujan HOY.
-
-───────────────────
-
-#LaBandita #LaDoblePantalla #melonDS #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 78).*
 

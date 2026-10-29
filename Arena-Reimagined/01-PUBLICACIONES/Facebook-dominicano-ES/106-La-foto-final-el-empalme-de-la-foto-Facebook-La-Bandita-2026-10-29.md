@@ -10,22 +10,6 @@ Diez cuadros después, la cámara baja: tamaño, calma, visibilidad, contrato, p
 
 • Placas de la pieza contadas en su foto madre (WhatsApp) y re-pulsadas por la gira del 29-oct-2026 de esta casa.
 
-## 📦 Las reglas de la casa
-
-**1.** Ninguna coordenada se publica sin las otras cinco al lado para cruzar.
-
-**2.** El álbum que solo suma estrellas fabrica torres: el empalme las desarma.
-
-**3.** Cada foto nueva corrige a la anterior con cicatriz fechada, no con olvido.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 106 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. Esta página es de lectura agregada: sus números nacen del censo de la casa y se re-pulsan en la gira general, no en una placa única.
-
-## ⚖ La vara
-
-Seis fotos pegadas no son un empalme: es la misma mesa leída en seis ejes que se vigilan.
-
 ## El meme de la pieza
 
 > —Dame el ranking y ya. —El ranking sin empalme es la foto sin pabellón: bonita y falsa.

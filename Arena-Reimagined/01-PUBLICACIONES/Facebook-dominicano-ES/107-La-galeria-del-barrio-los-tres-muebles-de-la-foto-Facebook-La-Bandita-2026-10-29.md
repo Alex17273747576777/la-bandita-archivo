@@ -23,22 +23,6 @@ toma con los ojos abiertos.
 · licencia sin clasificar (NOASSERTION)
 · release October 7, 2026 (2026-10-07)
 
-## 📦 Las reglas de la casa
-
-**1.** El mueble se elige por vara: quién guarda, quién cifra, quién respalda.
-
-**2.** La galería enseñable y el sótano (108) no se confunden: marco no es caja fuerte.
-
-**3.** La foto familiar también tiene fecha de respaldo: la galería sin bodega es vitrina.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 107 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 2 repos que esta página cruza con placa propia, hoy cuentan 2 con actividad de la semana, 0 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-El dato más íntimo de la casa no se entrega por inercia: se aloja, se mide y se firma.
-
 ## El meme de la pieza
 
 > —Subo todo a la nube gratis. —Gratis la sala; el álbum es de tu familia: léete el contrato del

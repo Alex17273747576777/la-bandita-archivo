@@ -984,8 +984,6 @@ la hija empujando; y el préstamo con acta la regla del poder.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que lleva un impostor administrando su teléfono.*
 
 Esta pieza te da el mapa de salida: el censo del día uno (¿quién administra?), el comando de revocación (que ahora vas a anotar), y el apoderado nuevo con vara si tu oficio lo necesita. El «optimizador» que entró hace tres años no volvió a optimizar nada — pero sí administró todo.
@@ -1013,27 +1011,22 @@ El diseño viejo, las placas nuevas: la serie entera en una frase.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Señales de futuro (novedad activa, no ranking por estrellas):*
 
-Si este apoderado sirvió para algo más que leer, fue para esto: dejar escrito que el poder del
-sistema tiene escuela con placa — Dhizuku y su API, la pareja GPL-MIT del taller que empuja, la
-madre de la escuela descansando con testamento, y el padrón de la comunidad documentando la
-familia.
+• `iamr0s/dhizuku-api` — creado 2023-04-21 · última actividad 2026-10-29 · ★204 (verificado 29-oct-2026) · MIT.
 
-La forja lo midió con el censo de la tarde y el pulso de la noche del mismo día en que nace esta pieza, y lo firma: un apoderado, una app verificada, comando anotado, revocación en dos toques. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Revisa quién administra tu teléfono. Anota el comando en el acta del tronco.
+• `iamr0s/dhizuku` — ★4.044 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
 
-Delega con padrón y revoca sin pena. Y cuando el poder del sistema trabaje pa ti sin que nadie
-lo note, recuerda: no le diste tu teléfono a nadie — le pusiste apoderado.
+• `iamr0s/dhizuku-api` — ★204 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT.
 
-Eso no lo vende la tienda: se firma con ley, y se hereda.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-───────────────────
-
-#LaBandita #ElApoderado #Dhizuku #Shizuku #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 33).*
 

@@ -979,8 +979,6 @@ el censo; y el mayordomo filial que se explica con el tercero al lado.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que pasa fotos por cable desde 2015.*
 
 Esta pieza te lo firma con cariño: el cable se jubila HOY. Una tarde: KDE Connect en las dos
@@ -1012,27 +1010,18 @@ funcionando.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Si este personal sirvió para algo más que leer, fue para esto: dejar escrito que los mayordomos
-de tu casa tienen placas — KDE Connect, once años de puente con GPL de 1991 y push del mismo día
-del censo, y Home Assistant Companion, la mano del tablero más grande del mundo libre, empujando
-después de medianoche.
+• `kde/kdeconnect-android` — ★1.491 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release v1.37.0 (2026-10-25).
 
-La forja lo midió con el censo de la tarde y el pulso de la noche del mismo día en que nace esta pieza, y lo firma: se automatiza lo que ya se hace bien, con contrato y pánico, permisos mínimos y nube propia. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+• `home-assistant/android` — ★4.009 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release 2026.10.1 (2026-10-26).
 
-Monta el puente una tarde. Automatiza UNA cosa y obsérvala una semana.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Audita el personal cada mes. Y cuando la casa amanezca trabajando sola sin que nadie se entere,
-recuerda: esa es exactamente la meta — el mayordomo bueno no da espectáculo: da mañana libre.
-
-Eso no se compra con 47 permisos: se contrata con placa, y se supervisa con vara.
-
-───────────────────
-
-#LaBandita #LosMayordomos #KDEConnect #HomeAssistant #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 29).*
 

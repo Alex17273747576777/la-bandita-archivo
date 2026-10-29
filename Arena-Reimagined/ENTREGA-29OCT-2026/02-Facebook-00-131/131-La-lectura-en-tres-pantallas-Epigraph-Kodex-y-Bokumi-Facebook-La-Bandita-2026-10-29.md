@@ -26,21 +26,6 @@ La lectura también nació esta semana en tres pantallas a la vez: Epigraph lee 
 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 · release Bokumi 0.1.0 · Developer Preview (2026-10-28).
 
-## 📦 Las reglas de la casa
-
-**1.** Servidor de cómics propio se monta con su respaldo: la biblioteca autoalojada sin bodega
-es otra nube con tu nombre.
-
-**2.** Preview de un día (Bokumi) y servidor de dos (Kodex): laboratorio, libreta y re-pulso en
-la próxima gira.
-
-**3.** Licencia leída el mismo día del nacimiento: Apache y MIT firmados; el sin licencia
-(Bokumi) va con asterisco.
-
-## ⚖ La vara
-
-La lectura soberana se construye capa por capa: archivo tuyo, servidor tuyo, lector con licencia.
-
 ## El meme de la pieza
 
 > —Ya leo en tres pantallas. —Y las tres leen de tu disco: eso, y no la pantalla, es la soberanía.

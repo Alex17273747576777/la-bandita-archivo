@@ -1014,41 +1014,16 @@ lo de siempre."
 5. "La idea exacta (pa todos los muebles, sin cuenta) se adopta sin resistencia — la mesa
 esperaba el mueble."
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — a la tía de las fotos borrosas.* La que guarda las fotos del pastel que el chat le llegó borrosas (y las volverá a mirar por años): esta pieza jubila la borrosidad. La app en tu teléfono (la tarde del nieto), la foto nítida empujada de la mesa — tus recuerdos, en la calidad en que pasaron.
+• `localsend/localsend` — ★96.416 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
 
-El momento que importa: jamás otra vez en 0,3 megapíxeles.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al profesor de la sala.* El que imprime treinta hojas (o manda el PDF por el chat a treinta teléfonos, uno por uno): la sala de muchos (el piso 4) es tuya — el envío a las tandas de la fila, cinco minutos pa treinta teléfonos, el PDF original en cada pupitre. La fotocopia, libre de contrato; el papel, pa el examen final.
-
-*TERCERA CARTA — al que firma el empuje con la cuenta del taller.* El que usa el empuje del
-comercio (la cuenta del taller de por medio, los servicios del ecosistema mirando la mesa): la
-casa firma la puerta abierta sin cuenta — el empuje pide la wifi de la sala y NADA más.
-
-Tu mesa no necesita taller: la sala es tuya — y la placa del censo lo firma con la mesa entera
-del barrio.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la mesa de la casa
-tiene empuje con placa — LocalSend ★94.893 (pulso 19-oct-2026), la placa mayor de todo el censo,
-firmada en tres años y medio: la mesa del barrio votando con los pies pa el envío directo, libre
-y de todos los muebles.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: la foto
-original sin compresión, el texto volando, la sala de muchos, la puerta con su sí — y la
-frontera cosida: lo de ahora, por la sala; lo que vive, por el alambre.
-
-Instala el mueble en tu mesa esta semana. Empuja la primera foto nítida.
-
-Y cuando el chat vuelva a entregar la felicidad en 0,3 megapíxeles, recuerda: la sala de tu casa ya empuja nítido — porque la mesa esperaba el mueble, y el mueble es libre. Eso no lo firma la manzana sola: se firma con Apache, y se empuja como gente.
-
-───────────────────
-
-#LaBandita #ElEmpuje #LocalSend #AirDropLibre #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 49).*
 

@@ -969,49 +969,30 @@ REV|lása que elostodo en decarase que tomil lorea summo no aduenzado： una no 
 
 REV|Dalerta lasta esta para asquíberra che derbró che mutodo asquíberra que el entento， en comparado que el susistenas。
 
-*💌 LAS CARTAS AL LECTOR*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-*PRIMERA CARTA — al que paga la renta del álbum.* El que lleva años pagando al mes pa que la nube ajena guarde las fotos de la familia: la casa ya tiene el alambre — el wifi del salón hace el viaje gratis, los muebles se hablan solos, y el álbum vive en TU laptop con copia en TU teléfono. La tarde de la receta, paga la renta pa siempre.
+• `syncthing/syncthing-android` — ARCHIVADO · última actividad 2024-12-03 · ★4.293 (verificado 29-oct-2026). No usar como opción viva sin sucesor.
 
-Y la foto original — la que el chat comprime y la nube redimensiona — viaja completa: la casa
-merece sus megas.
+*Señales de futuro (novedad activa, no ranking por estrellas):*
 
-*SEGUNDA CARTA — al que administra el relevo.* El que tomó la puerta del Android (la placa del censo con aire de víspera): la forja te firma — el relevo es la parte más delicada del oficio: la gente confiaba en el fork viejo y sigue confiando en el nombre. Publica el aire, firma la política, y cuando la faena pese, dilo tú primero.
+• `researchxxl/syncthing-android` — creado 2025-10-29 · última actividad 2026-10-22 · ★3.189 (verificado 29-oct-2026) · MPL-2.0.
 
-La puerta honesta es el mueble más raro del alambre — y el barrio la sabe cuidar.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*TERCERA CARTA — al que cree que el espejo es la bóveda.* El que duerme tranquilo porque «todo
-está sincronizado»: lee la regla uno de la doctrina con el café de la mañana — lo que borras en
-un mueble, se borra en TODOS. El espejo replica el desastre con la misma fidelidad con la que
-replica el cumpleaños.
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
 
-El versionado (el piso 4) y el respaldo (la 36) son los otros dos muebles de la tríada: alambre
-pa vivir, respaldo pa sobrevivir, memoria pa desdecirse. Las tres, o ninguna.
+• `researchxxl/syncthing-android` — ★3.189 (verificado 29-oct-2026) · última actividad 2026-10-22 · MPL-2.0 · release Syncthing-Fork v2.1.7.0 (2026-10-21).
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+• `serverless-dns/serverless-dns` — ★3.832 (verificado 29-oct-2026) · última actividad 2026-05-05 · MPL-2.0.
 
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que los archivos de la
-casa tienen alambre con placa — Syncthing ★89.442 (pulso 16-oct-2026), trece años de oficio con
-una sola ley, y el relevo del bolsillo firmando su primer aire la víspera de esta pieza: la casa
-que se renueva sin cambiar de idea, la historia más pareja de la fila de REDES.
+• `syncthing/syncthing-android` — ★4.293 (verificado 29-oct-2026) · última actividad 2024-12-03 · MPL-2.0 · ARCHIVADO.
 
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: tus muebles se
-hablan solos, la foto viaja completa, la memoria vive debajo del espejo, y la nube ajena queda
-pa lo que la quieras — jamás pa lo que la necesites.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Tiende el alambre. Arma la memoria.
-
-Prueba las tres puertas. Y cuando el anuncio de la almohada prometa recuerdos seguros por una
-renta mensual, recuerda: tu casa ya se habla sola — porque el alambre es tuyo, y los muebles se
-entienden.
-
-Eso no lo cobra la nube: se firma con MPL, y se tiende en una tarde.
-
-───────────────────
-
-#LaBandita #ElAlambre #Syncthing #Sincronizacion #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 44).*
 

@@ -989,51 +989,21 @@ REV|.evall noc ,lenap lE .otneimican ed adarfic ,nóicasrevnoc al :odinetnoc le 
 
 REV|.alif al adot ed aroh rop odatluser sám ed al — aipmil asac al ADOT ,aneaf ed aroh anu :)azeip atse( derap aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que el televisor le interrumpe las películas.* El que la publicidad de los menús le rompe la escena (el televisor «inteligente» con su cartel de la fábrica): esta pieza es la tuya de punta a punta — la pared no instala nada en tu televisor (jamás se podría) y AUN LO protege: la fábrica del cartel, en la lista negra
+• `adguardteam/adguardhome` — ★37.828 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0 · release AdGuardHome v1.0.0-b.1 (2026-09-30).
 
-la publicidad de los menús, sin nacer.
+• `pi-hole/pi-hole` — ★61.549 (verificado 29-oct-2026) · última actividad 2026-10-17 · licencia sin clasificar (NOASSERTION) · release v6.5 (2026-10-17).
 
-El televisor más cerrado del mercado: el aparato más servido de la casa.
+Licencias sin resolver hoy (1): `pi-hole/pi-hole`. Sin licencia clara no hay recomendación
+completa: queda la alerta firmada.
 
-*SEGUNDA CARTA — al que paga la publicidad con sus megas.* El que el plan de datos le llega a la
-mitad (la tercera parte del mes, en anuncios de las webs del paseo): la pared del bolsillo (el
-DNS cifrado por la puerta del taller) para los rastreadores ANTES de que bajen — cada megapíxel
-de publicidad parado, un megapíxel de tu plan que vive.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-El plan de datos: rajanado por la puerta trasera — la faena más barata del oficio.
-
-*TERCERA CARTA — al que le da miedo «romper internet».* El que leyó «DNS» y pensó «eso lo rompe
-todo» (la casa a oscuras): la vara honesta de esta pieza te abraza — la receta entera es una
-hora CON la prueba del desastre incluida, la puerta de gracia arregla cada falso bloqueo en dos
-minutos, y el plano B (los aparatos por datos) jamás deja la casa sin salida.
-
-Una pared bien montada no rompe internet: lo deja respirar — con el registro en la mano, jamás a
-ciegas.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la casa tiene
-pared con placa — Pi-hole ★61.295 (pulso 16-oct-2026), la pionera del agujero negro (2014), y
-AdGuard Home ★37.473, la sirviente de la fila (aire de HOY).
-
-La obra lo midió con el pulso de esta noche y lo firma: la casa entera apuntando a la caja (sin
-instalar nada en ningún aparato), las listas pocas y el registro leído, la puerta de gracia fina
-— y la regla cosida: la pared es el corazón del internet de la casa: la póliza, OBLIGATORIA.
-
-Monta tu pared. Saca el chismeo del televisor.
-
-Cuenta tu silencio en el panel. Y cuando la web te diga «desactiva tu bloqueador», recuerda: tu
-anuncio nunca llegó a nacer — porque la pared es tuya, y el silencio manda.
-
-Eso no lo firma la publicidad: se firma con GPL, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #LaParedDelBarrio #AdGuardHome #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 55).*
 

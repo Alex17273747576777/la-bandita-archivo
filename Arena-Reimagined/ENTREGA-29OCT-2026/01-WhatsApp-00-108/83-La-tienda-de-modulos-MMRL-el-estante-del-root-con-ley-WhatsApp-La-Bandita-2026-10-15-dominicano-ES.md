@@ -1082,54 +1082,16 @@ REV|.ediced oñeud led arav al :artseum anirtiv aL .)aterbil al ne nóisiver ed 
 
 REV|.onegíxo on ,nedro se adneit al :airotagilbo se on y )seroiretna sal :28 y 66( efuhcne in toor se ON .toor led soludóm sol arolpxe y etrapmoc ,anoitseg euq 0.3-LPG ppa aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al arqueólogo de la carpeta de descargas.* El que lleva años cavando (los zips con números raros, las versiones (1) y (2), el «¿cuál era este?» de cada instalación): la vara de esta pieza es tu carpeta — la limpieza honesta te la devuelve (los huérfanos: fuera
+• `mmrlapp/mmrl` — ★2.223 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0.
 
-los módulos de verdad: en el estante con repo, versión y fecha — tu arqueología termina esta semana).
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Tu cajón: no era un taller — era un depósito con recuerdos.
-
-*SEGUNDA CARTA — al que no confía en las «tiendas» de módulos.* El que vio los canales del tacho
-(los APKs re-empaquetados, los «premium» falsos: la desconfianza — ganada a pulso por los
-ladrones).
-
-Por eso ni estante monta: la vara del bloque no te juzga — te deja la vara en la mano (la tienda
-de SU forja oficial: verificable hasta el hueso; los repos: los que TU nombres; cada módulo:
-revisado por ti ANTES — la vitrina muestra: tú decides; y si tu libreta manual ya faena: la
-tienda no es obligatoria).
-
-La desconfianza: bien puesta — es exactamente la vara que este estante te pide.
-
-*TERCERA CARTA — al que aprieta «actualizar todo».* El que confía en el botón fácil (las tandas
-de actualizaciones: la ruleta nueva — «fue este o el otro»: el culpable otra vez anónimo): esta
-pieza es tu espejo — la regla de la una manda igual en el estante (UN módulo, UN día: el
-mostrador te muestra qué tocaste — la tienda facilita el orden: jamás la ruleta).
-
-El botón fácil: pa casas con póliza — la tuya, desde HOY: la tiene.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el taller del root
-se ordena antes de crecer — la fila 82-95 con su primera familia en pie: 2.209 estrellas (pulso
-18-oct-2026), el estante con ley y la libreta encarnada — el mostrador del root: abierto HOY.
-
-La forja lo midió con el pulso de HOY y lo firma: base primero (66 y 82), forja oficial (la
-tienda con SU letra), repo claro o fuera — y la regla cosida: la gira, siempre HOY.
-
-Vació tu cajón. Ordena tu estante.
-
-Prueba el mostrador. Y cuando presumas tu taller, que sea como la casa: con vitrina, con libreta
-y con gira — porque un root no se arqueologa: se lista, se revisa y se poda en familia.
-
-Eso no lo firma el cajón: lo firman 2.209 estrellas de forja viva — y una fila 82-95 entera,
-ordenándose HOY.
-
-───────────────────
-
-#LaBandita #LaTiendaDeModulos #MMRL #RootLibre #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 83).*
 

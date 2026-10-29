@@ -980,54 +980,20 @@ REV|.azitamotua es acnun euq retne ocinú le :»?aúnitnoc¿ :selanigiro sol ÁR
 
 REV|.»it ap ocincét yum se« sámaj :asac ed amoidi ne acilpxe ol zidnerpa al ,edneitne ol eidan is y — rerroc ed SETNA
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene una faena de computadora que ninguna app hace exacta.* El que las
-3.000 fotos, los 200 PDF o la planilla del colmado le viven comiendo la tarde (la app de la
-store: casi; el tutorial: muy largo; el sobrino: siempre ocupado): la vara de esta pieza es tu
-tarde por dentro.
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
 
-Su faena dicha en tu idioma, el código a la vista, el visto tuyo, y la receta guardada pa
-siempre. Tu primera tarde de oficio: espera — y la biblioteca de la casa: empieza contigo.
+• `openinterpreter/open-interpreter` — ★68.720 (verificado 29-oct-2026) · última actividad 2026-10-11 · Apache-2.0 · release Open Interpreter 0.0.56 (2026-10-07).
 
-*SEGUNDA CARTA — al desarrollador que ama su oficio y teme por él.* El que ve la aprendiz y
-piensa «me van a reemplazar» (el miedo honesto de la década): la vara fina del bloque te abraza
-— la aprendiz hace la FAENA de la casa (el renombrado, la conversión, la planilla: el trabajo
-que JAMÁS pagaba un oficio).
+• `openinterpreter/openinterpreter` — ★68.720 (verificado 29-oct-2026) · última actividad 2026-10-11 · Apache-2.0 · release Open Interpreter 0.0.56 (2026-10-07).
 
-El oficio serio (el sistema del banco, el juego, la forja): sigue necesitando años de taller — y ahora con una aprendiz de planta que te faena lo repetitivo. El developers de la casa (el del liceo que lee scripts): no nace de una app — nace de la curiosidad que esta pieza siembra.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-El oficio: más vivo que nunca — con ayudante.
-
-*TERCERA CARTA — al que no le ve la gracia («yo contrato a alguien»).* El que la faena la
-resuelve pagando (el técnico del barrio, el sobrino de visita): la vara honesta te respeta — y
-te deja la medida fina: lo que pagas no es el código (cuatro líneas), es el VIAJE del que las
-escribe (la visita, la espera, la semana).
-
-La aprendiz quita el viaje: el resto de la faena, en tu mesa, al momento, gratis pa siempre — y el técnico del barrio: pa lo que de veras necesita manos (el que quemó la placa: ese sí era para el técnico). Tu tarde: con menos espera — tu dinero: pa los fallos de verdad.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el oficio de
-código tiene dueño con placa — Open Interpreter ★68.589 (pulso 16-oct-2026), la placa del oficio
-fino, con su letra Apache-2.0 firmada: el código de la casa, libre pa siempre.
-
-La forja lo midió con el pulso de esta semana y lo firma: el código se lee antes de encender el
-fuego (la magia sin receta, fuera del taller), el visto es humano (y el borrado, doble), la
-receta queda guardada (la biblioteca de la casa) — y la regla cosida: la aprendiz enseña.
-
-Pide tu primera faena. Lee tu primer script.
-
-Da tu primer visto. Y cuando el tutorial de doce partes te pida una tarde, recuerda: tu casa
-faena con receta propia — porque el código es tuyo, y el visto manda.
-
-Eso no lo firma la tienda: se firma Apache, y se corre en la casa.
-
-───────────────────
-
-#LaBandita #LaAprendizDelTaller #OpenInterpreter #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 64).*
 

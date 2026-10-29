@@ -17,19 +17,6 @@ puedes perder.
 · Apache-2.0 (LICENSE leído hoy)
 · release TeleDrive v1.5.0 (2026-10-19).
 
-## 📦 Las reglas de la casa
-
-**1.** La nube prestada se usa con copia local: lo único que vive solo en Telegram está a un
-baneo de distancia.
-
-**2.** Canal privado no es cifrado propio: lo íntimo viaja cifrado por tu mano antes de subir.
-
-**3.** Inventario de qué vive ahí y su fecha: la soberanía prestada también lleva libreta.
-
-## ⚖ La vara
-
-Toda soberanía prestada se firma como prestada: cómoda hoy, ajena siempre.
-
 ## El meme de la pieza
 
 > —Mi nube es infinita y gratis. —Y tiene casero: guarda la llave de tu casa en tu propio sótano.

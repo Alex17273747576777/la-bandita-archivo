@@ -14,22 +14,6 @@ La foto abre el capítulo del retrato: el ecosistema completo medido en capas, d
 · sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
 · release Repository Update dbf6c05 (2026-10-28)
 
-## 📦 Las reglas de la casa
-
-**1.** Toda foto lleva su fecha en la frente: retrato sin fecha es propaganda.
-
-**2.** Las capas se leen juntas: el techo sin la base miente por omisión.
-
-**3.** El retrato se repite o se archiva: medir una sola vez es coleccionar.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 96 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 1 con actividad de la semana, 0 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-Un ecosistema sin foto es una ciudad sin censo: todos opinan, nadie cuenta.
-
 ## El meme de la pieza
 
 > —Ese ecosistema está muerto, lo leí por ahí. —La foto contó otra cosa, con fecha: contar vence

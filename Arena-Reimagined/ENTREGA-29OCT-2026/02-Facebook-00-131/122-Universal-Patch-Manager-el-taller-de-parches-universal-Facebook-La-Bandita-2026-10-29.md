@@ -19,20 +19,6 @@ Tres ecosistemas de parches (ReVanced, Morphe y Reseam) bajo un mismo techo, con
 · creado 2022-03-18
 · GPL-3.0.
 
-## 📦 Las reglas de la casa
-
-**1.** El bundle manda más que el manager: bundle sin firmante es zip con corbata (la vara de la
-86).
-
-**2.** La app sin parches preinstalados es doctrina sana: tú firmas lo que entra a tu taller.
-
-**3.** El re-parcheo automático se agenda con la misma libreta que el respaldo: fecha, fuente y
-reversa.
-
-## ⚖ La vara
-
-Parchear es cirugía sobre apps: el taller serio muestra el instrumental, el registro y la salida.
-
 ## El meme de la pieza
 
 > —El oficial se durmió. —Y el taller de al lado soltó su 2.0 hoy: la mesa se sienta donde hay

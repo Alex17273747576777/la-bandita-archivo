@@ -171,14 +171,6 @@ completos del planeta, sin cuenta, sin rastreo, datos de OpenStreetMap.
 
 Para viaje, para el barrio sin datos, para el que decidió que Google no necesita saber por dónde camina. Su licencia en la página figura con aviso particular (licencia propia del proyecto, legible en su repo) — se dice tal cual, sin inventar etiquetas.
 
-## 📦 Cómo se gestionan las instalaciones
-
-**Obtainium** — https://github.com/ImranR98/Obtainium — ★19.7k (19.702), commit del 13-sep. La herramienta que vigila los repos de esta caja y te instala las versiones nuevas apenas salen.
-
-Su ficha completa vive en la guía de tiendas de esta familia; aquí basta su frase: el cajón de herramientas también se actualiza solo.
-
-Y el fondo de la caja, para todos los cajones: **F-Droid** — la tienda libre donde buena parte de estas piezas también vive publicada. Tres vías (repo de GitHub, F-Droid, Obtainium) apuntando al mismo software: esa es la redundancia sana del ecosistema libre.
-
 ## 📌 Por qué 20 piezas y no 200
 
 El códice de abril traía 88 herramientas. De esas, muchas estaban en versión vieja vendida como

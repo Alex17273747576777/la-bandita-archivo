@@ -986,49 +986,22 @@ REV|.oicogen us ,sotad sut — OICIVRES le atner acisálc ebun al ;elbisiv rella
 
 REV|.asac al ed edrat al :úrug led otim le ólibuj — bew anu y odnamoc nu ne otelpmoc rellat lE
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — a la casa de las tres rentas.* La que paga fotos, trabajo y respaldo a tres talleres ajenos: la caja del taller se paga sola en un trimestre. El recetario de esta pieza: una tarde de montaje, una semana de mudanza (las fotos primero — las que más duelen), y la factura del cuarto mes, en cero.
+• `nextcloud/server` — ★37.338 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v35.0.2 (2026-10-15).
 
-La póliza de cada renta ajena, leída por última vez.
+• `nextcloud/android` — ★5.656 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release dev-20261029: daily dev 20261029 (2026-10-29).
 
-*SEGUNDA CARTA — al nieto administrador.* El que monta la caja de la abuela (y la de su propia
-casa): tu oficio es el administrador de aires de la 50, ahora con taller — la gira del
-trimestre, el respaldo ensayado, la página del taller firmada.
+• `nextcloud/docker` — ★7.416 (verificado 29-oct-2026) · última actividad 2026-10-23 · AGPL-3.0.
 
-Y la vara de la casa: cada caja que administres, con su dueño único y su gira — el taller que se
-administra, dura; el que se abandona, apaga. Tu firma en la página del taller: la del oficio más
-firme de la década.
+• `nextcloud/all-in-one` — ★10.748 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release helm-chart-14.4.2 (2026-10-28).
 
-*TERCERA CARTA — al que le da miedo la caja.* El que leyó «se va la luz y lo pierdo todo» y
-cerró la pieza: el mito del pánico, desmontado — el taller se cae y VUELVE (el arranque
-automático), el disco no borra por apagones, y el respaldo externo (el piso 5) es la póliza que
-contesta el peor lunes.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-El miedo con receta: se llama preparación — y esta pieza la deja servida en seis pisos.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la nube de la casa
-existe con placa — Nextcloud ★37.144 (pulso 16-oct-2026) y su familia completa con aire de HOY:
-el taller propio que el bloque del aire entero prometió — tus archivos, tu caja, tu puerta.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: el taller
-completo en una tarde, el respaldo fuera de la caja, la puerta con candado — y la doctrina
-cosida: se administra o no se monta.
-
-Decide tu caja. Arma tu taller.
-
-Jubila tu primera renta. Y cuando la nube ajena renueve su suscripción automática, recuerda: tu
-caja ya sirve tu vida — porque el taller es tuyo, y la gira lo cuida.
-
-Eso no lo cobra nadie al mes: se firma con AGPL, y se monta en una tarde.
-
-───────────────────
-
-#LaBandita #LaNubeDeLaCasa #Nextcloud #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 51).*
 

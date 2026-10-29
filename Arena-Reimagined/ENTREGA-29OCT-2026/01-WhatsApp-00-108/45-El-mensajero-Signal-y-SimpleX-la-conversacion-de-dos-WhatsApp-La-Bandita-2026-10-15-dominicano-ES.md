@@ -981,52 +981,22 @@ REV|Quego el liqeus valo que mcho esuerto como el raco,
 
 REV|La alagora pu piónio seu eta abirrado que elpuestico. La seu
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que manda las facturas por el chat del negocio.* El que cierra el negocio por el chat ajeno (los montos, los recibos, la clave del banco): lee el caso uno con el café de la mañana. El candado ajeno sirve pa la calle; el taller ajeno guarda la caja.
+• `signalapp/signal-android` — ★29.553 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release v8.34.0 (2026-10-28).
 
-El sobre de dos con tu socia — con la verificación en persona y el temporizador — es la caja del
-negocio mudada a la casa. La contabilidad íntima, en el sobre.
+• `signalapp/signal-server` — ★10.757 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release v20261028.1.0 (2026-10-28).
 
-*SEGUNDA CARTA — al que mantiene el taller del mensajero.* El que corre el servidor (el de
-Signal que publica, el de SimpleX que elige, el propio que monta): la ley AGPL te firma las
-manos visibles — publícalas con orgullo, porque el taller legible es el mueble más raro del
-aire.
+• `simplex-chat/simplex-chat` — ★19.614 (verificado 29-oct-2026) · última actividad 2026-10-25 · AGPL-3.0 · release v7.1.0-beta.7 (2026-10-21).
 
-Y la forja te deja la vara: cuando la fila 51-60 hornee el taller propio, tu recetario es el
-capítulo primero. El taller honesto: la cocina a la vista — el barrio lo sabe cuidar.
+• `signalapp/libsignal` — ★6.097 (verificado 29-oct-2026) · última actividad 2026-10-27 · AGPL-3.0 · release v0.106.1 (2026-10-28).
 
-*TERCERA CARTA — al que piensa que esto es pa otros.* El que lee «cifrado de punta a punta» y
-piensa «eso es pa los que tienen algo que esconder»: todos tienen algo que esconder — se llama
-la vida privada, y es la de la abuela organizando el cumpleaños, la de la pareja contándose el
-día, la del negocio cerrando la caja.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-El sobre de la casa no es pa el miedo: es pa la dueña de la conversación. La ronda la paga quien
-la conversa — jamás el tercero del taller.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que la conversación de
-la casa tiene sobre con placa — Signal ★29.474 (pulso 16-oct-2026), quince años firmando el
-candado que el mundo entero usa, y SimpleX ★19.571 firmando la casa sin nombre: la familia del
-sobre, con la ley del taller visible y tres placas empujando el mismo día de esta pieza.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: la letra viaja
-cerrada, la meta se administra, el taller se lee — y la conversación de dos vuelve a ser de dos:
-el candado ya lo tenías; la casa, de hoy en adelante.
-
-Invita a la del corazón. Verifica los sesenta dígitos.
-
-Arma el respaldo cifrado. Y cuando el candado dorado del anuncio te prometa privacidad en el
-taller ajeno, recuerda: el candado ya lo tenías — lo que firmaste hoy es la casa.
-
-Eso no lo vende el anuncio: se firma con AGPL, y se muda conversación a conversación.
-
-───────────────────
-
-#LaBandita #ElMensajero #Signal #SimpleX #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 45).*
 

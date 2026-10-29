@@ -972,54 +972,21 @@ REV|.sámaj — ertsop ed emsihc noc sobor neic :ohcat led »sodaekcarc 004« lE
 
 REV|.ojitreca US y zov US noc OTNEUC le adraug :)nóicalume al se ose( aniuqám atimi on — adidem al a otircseer rotom US noc arutneva ed ogeuj adac :SEROTOM ed acetoilbib anU
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que tiene los CDs de aventura en el estante.* El que guarda los cuentos de
-la era narrada (los del pirata, los del detective: el estante con celo — «ya no hay compu que
-los corra»): la vara de esta pieza es tu estante — los relatos los corren (la tarde del estante:
-tu biblioteca, leyéndose en la tele de HOY).
+• `scummvm/scummvm` — ★2.870 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release ScummVM 2026.4.0 "Never-slop" (2026-10-11).
 
-Tu estante: no es plástico viejo — es el cuento esperando su sofá.
+• `dosbox-staging/dosbox-staging` — ★1.832 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release 0.84.0-alpha-23055 (2026-10-29).
 
-*SEGUNDA CARTA — al que lleva su biblioteca en el tacho.* El que lleva años con el «400 crackeados» (cómodo, al toque — con sus cuentos de nadie): la vara del bloque no te juzga — te deja el mapa (lo que el tacho trae: la era robada + el regalito que mira tu biblioteca
+Licencias sin resolver hoy (1): `dosbox-staging/dosbox-staging`. Sin licencia clara no hay
+recomendación completa: queda la alerta firmada.
 
-y el remedio: el CD de TU estante — los 8 cuentos que de verdad lees, con tu firma).
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Con vara fina: la diferencia de biblioteca (los relatos honestos: el motor a la medida, el save
-narrativo con cofre, el horno legítimo — el tacho: no ofrece na de eso). Tu sofá: merece sus
-cuentos propios — no 400 desconocidos.
-
-*TERCERA CARTA — al que el capítulo 12 le duele de memoria.* El que recuerda la aventura a
-medias (la que quedó pausada cuando el hermano se fue, cuando la compu murió, cuando el «ya no
-importa» ganó).
-
-Esta pieza es tu segunda chance: el cofre del relato — las historias pausadas, continuándose con respeto (se copian ANTES, se cargan en familia: el capítulo 12 — terminándose un domingo). Con vara fina: la lección de la casa (lo que hoy juega tu hermano menor o tu hijo: SU save se respalda HOY — la era criando casas que no pierden historias).
-
-La historia perdida: no vuelve — la próxima: jamás se pierde.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que los cuentos de una
-casa también se heredan — scummvm/scummvm ★2.860 (pulso 18-oct-2026), la novena placa del salón,
-veinticinco años de forja guardando la era narrada: los CDs del estante, de vuelta en la tele.
-
-La forja lo midió con el pulso de HOY y lo firma: la ley del cuento legítimo (el CD del estante,
-leído con respeto), la lectura en familia (la letra agrandada, el capítulo por rato), el cofre
-del oro narrativo — y la regla cosida: la historia a medias, sagrada.
-
-Busca el estante de los CDs. Pide el lector del club.
-
-Llama al hermano. Y cuando el tacho te ofrezca 400 clásicos incluidos, recuerda: la biblioteca
-de tu casa son tus 8 CDs y el capítulo 12 — porque un cuento no se descarga: se lee, se respalda
-y se juega en familia.
-
-Eso no lo firma el tacho: lo firman veinticinco años de forja, y empujan HOY.
-
-───────────────────
-
-#LaBandita #LosRelatos #ScummVM #DOSBoxStaging #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 79).*
 

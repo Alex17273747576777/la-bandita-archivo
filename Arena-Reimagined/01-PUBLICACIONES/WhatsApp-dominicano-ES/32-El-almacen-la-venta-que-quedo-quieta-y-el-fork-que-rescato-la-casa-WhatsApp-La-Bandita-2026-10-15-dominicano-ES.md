@@ -984,8 +984,6 @@ con-vara-pa-todo el oficio del borrado.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al usuario de la familia vendida.*
 
 Esta pieza no viene a quitarte tus apps: viene a mudarlas a la casa donde siguen vivas. Fossify
@@ -1014,27 +1012,22 @@ Eso no es política — es el censo completo.
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-Si este almacén sirvió para algo más que leer, fue para esto: dejar escrito que el espacio del
-teléfono tiene muebles con placa — y que la línea más querida del almacén tiene su historia
-entera fechada: la construcción del 2016, la venta y el silencio del 11-jun-2024, y el rescate
-que empuja el 14-oct de esta noche.
+• `simplemobiletools/simple-file-manager` — dormido · última actividad 2024-06-11 · ★1.584 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
 
-La forja lo midió con el censo de la tarde y el pulso de la noche del mismo día en que nace esta pieza, y lo firma: mira el push antes de confiar en el nombre, limpia con vara y respaldo, y guarda el teléfono bajo el 80%. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Revisa el push de tus apps del diario. Muda tu familia al fork vivo.
+• `fossifyorg/file-manager` — ★1.844 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0 · release 1.6.3 (2026-10-24).
 
-Limpia con vara y respaldo. Y cuando el teléfono amanezca bajo el 80% y tu mueble empujando,
-recuerda: lo que se escribe libre no muere — se muda.
+• `simplemobiletools/simple-file-manager` — ★1.584 (verificado 29-oct-2026) · última actividad 2024-06-11 · GPL-3.0.
 
-Eso no lo arregla la tienda: lo firma la ley, y lo ejecuta la comunidad.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-───────────────────
-
-#LaBandita #ElAlmacen #Fossify #SimpleMobileTools #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 32).*
 

@@ -18,22 +18,6 @@ la salida escrita antes de la primera puntada.
 · GPL-3.0
 · release 11282 (2026-10-12)
 
-## 📦 Las reglas de la casa
-
-**1.** Imagen original del kernel guardada FUERA del teléfono antes de coser.
-
-**2.** Una puntada por vez: parche, arranque, un día de vida, libreta.
-
-**3.** Si no sabes deshacerlo, todavía no lo hagas: la reversa se aprende antes que la costura.
-
-## 🧭 La pieza madre
-
-La versión larga vive en WhatsApp 87 con su recorrido completo, y en este muro queda su página: la placa, la regla y la vara. De los 1 repos que esta página cruza con placa propia, hoy cuentan 0 con actividad de la semana, 1 del mes y 0 en calma firmada.
-
-## ⚖ La vara
-
-El kernel es el sótano del sistema: se baja con linterna, mapa y cuerda, o no se baja.
-
 ## El meme de la pieza
 
 > —Parché el kernel sin respaldo y brilla. —Brilla hoy: el sótano sin cuerda cobra la visita

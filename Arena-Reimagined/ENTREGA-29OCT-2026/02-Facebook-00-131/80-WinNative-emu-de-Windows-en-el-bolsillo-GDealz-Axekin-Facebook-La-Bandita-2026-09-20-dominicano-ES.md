@@ -95,16 +95,6 @@ de la Publicación 01.
 Su catálogo, sus términos y su contenido: cuando el dueño de esta casa los pise con enlace en
 mano, entran con fecha. Ni un dato se finge.
 
-## ⚖️ Cómo juega el trío
-
-``` EJECUTAR → WinNative: la biblioteca de Windows (y las consolas retro) en el teléfono. AHORRAR → GDealz: avisa del chollos y de los juegos gratis ANTES de comprar.
-
-PUERTA → Axekin: la tienda del dueño — se abre en navegador, con su cerradura anti-bot. ```
-
-La biblioteca de PC se alimenta barato (GDealz) y se reproduce en el sofá (WinNative). El
-círculo lo cierra cada quien con sus cuentas y sus leyes — la casa ficha herramientas, no
-cuentas ajenas.
-
 ## ❓ Preguntas frecuentes
 
 **¿WinNative es oficial de Valve, Epic o GOG?**

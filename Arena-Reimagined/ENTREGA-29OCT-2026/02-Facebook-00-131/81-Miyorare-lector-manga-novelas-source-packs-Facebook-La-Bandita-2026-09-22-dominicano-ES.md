@@ -204,37 +204,6 @@ ficha manda el método, no la recomendación cerrada.
 
 ━━━━━━━━━━━━━━━
 
-🪜 CÓMO INSTALARLO CON LA VARA EN LA MANO
-
-1. «Puerta oficial y sola:» el repo «Noirero/Miyorare», botón RELEASES. La casa del código es la
-única puerta admitida — el proyecto mismo lo declara.
-
-2. ELIGE PUERTA: estable («main») para leer tranquilo; beta solo si quieres mirar el taller. Al
-22-sep, estable = «v1.4.3».
-
-3. «Confirma la identidad del paquete:» estable «org.noirero.miyorare», beta
-«org.noirero.miyorare.beta». Otra identidad = otra cosa disfrazada: no se instala, se borra el
-enlace, se anota el intento.
-
-4. «Lee el aviso de Play Protect con cerebro:» si aparece, recuerda la explicación del propio
-proyecto (permisos avanzados documentados). Aviso explicado ≠ bandera roja; aviso sin proyecto
-detrás, sí.
-
-5. «Conecta fuentes con dueño:» primero los Source Packs oficiales, luego los ecosistemas
-compatibles con casa pública. Lo suelto y volador queda fuera.
-
-6. «Shizuku solo si lo necesitas y lo entiendes:» la app lo soporta; no te obliga. El puente lo
-concedes tú, consciente.
-
-7. «Respaldo antes del amor:» antes de llenar la biblioteca, ubica el respaldo y la restauración
-en ajustes.
-
-❝ SI FALLA ALGO: la fuente no abre → actualiza el Source Pack (por eso se distribuye aparte); la
-beta se porta rara → reporta con datos y vuelve a la estable (convive sin pelea); el APK
-«alternativo» pide rarezas → fuera: lo que no sale de la casa oficial no es ropa de Miyorare. ❞
-
-━━━━━━━━━━━━━━━
-
 🔍 LAS CINCO MIRADAS (PARA CUALQUIER LECTOR NUEVO, NO SOLO ESTE)
 
 1. ¿CASA VISIBLE? Repo público, dueño con nombre, licencia clara. Sin casa no hay ficha: hay

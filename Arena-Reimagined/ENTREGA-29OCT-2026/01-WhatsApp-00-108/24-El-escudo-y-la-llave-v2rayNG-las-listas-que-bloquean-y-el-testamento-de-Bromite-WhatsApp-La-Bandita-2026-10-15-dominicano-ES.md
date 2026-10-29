@@ -1051,8 +1051,6 @@ del wifi ajeno.)
 
 ───────────────────
 
-*💌 LAS CARTAS AL LECTOR*
-
 *PRIMERA CARTA — al que instaló «la VPN del grupo».*
 
 Esta pieza no te acusa — te da la vara para mirar ese escudo de frente: ¿tiene repo?,
@@ -1077,24 +1075,29 @@ Si entendiste que Bromite no murió — que la GPL es un seguro de vida y los he
 
 ───────────────────
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-Si este escudo sirvió para algo más que leer, fue para esto: dejar escrito que la privacidad del
-bolsillo tiene casas públicas — seis medidas al censo del 15-oct-2026, tres escuelas por capas,
-una estantería famosa sin testamento marcada con la vara, y la genealogía más noble de la serie:
-la línea de Bromite viviendo en su heredero por ley de GPL.
+• `bromite/bromite` — dormido · última actividad 2024-01-24 · ★6.321 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
 
-La forja lo midió con el censo de la tarde del mismo día en que nace esta pieza, y lo firma: capas públicas, orden primero, placa con fecha. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con candado y con fecha.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-Arma tu capa por día. Lee la placa antes de confiar. Respeta el orden del túnel. Y cuando el
-wifi ajeno te abra la mesa, recuerda: primero el túnel, después el dato — y el escudo sin placa,
-ni se palomea.
+• `getlantern/lantern` — ★16.556 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Lantern 10.0.4 (2026-10-27).
 
-───────────────────
+• `2dust/v2rayng` — ★64.922 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release 2.3.14 (2026-10-28).
 
-#LaBandita #EscudoDigital #v2rayNG #Privacidad #FOSS #CensoVivo #DominicanoES
+• `teampiped/piped` — ★10.296 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0.
 
-───────────────────
+• `johnshall/shadowrocket-adblock-rules-forever` — ★31.653 (verificado 29-oct-2026) · última actividad 2026-10-28 · licencia sin clasificar (NOASSERTION).
+
+Licencias sin resolver hoy (1): `johnshall/shadowrocket-adblock-rules-forever`. Sin licencia
+clara no hay recomendación completa: queda la alerta firmada.
+
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 24).*
 

@@ -13,28 +13,6 @@ Abrió la fila del root II (82-95) con su placa mayor: **ZygiskNext, la regleta*
 estrellas**, la fila más joven de la obra (2021-2024) y de las más vivas: media fila con push de
 HOY.
 
-## 📦 Las tres reglas de la casa enchufada
-
-**1. Módulo legítimo.** El zip se baja de SU forja, de SU release con SU fecha. El
-«modulo-premium-crackeado.zip» del canal del tacho es la puerta del chisme de postre — y en la
-raíz, el chisme cobra caro.
-
-**2. Una familia a la vez.** Se enchufa UN módulo, se vive UN día entero (llamadas, datos, madrugada) y la libreta anota. La salida de emergencia se ensaya ANTES de la desgracia: el modo seguro practicado, el pánico jubilado.
-
-El teléfono del laboratorio de cinco zips es una ruleta — el culpable nunca se sabe.
-
-**3. La regleta al día.** El Zygisk cambia su contrato de vez en cuando: la gira mensual
-re-pulsa la regleta y su familia, y poda el módulo que ya no faena.
-
-## ⚖ La puerta sin letrero
-
-La regleta es la única placa de la fila **sin licencia declarada en su puerta** (la API no ve
-SPDX). La vara de la casa se aplica al cuadrado: el árbol se lee ANTES de montar, y el teléfono
-del banco **jamás se juega sobre la duda**.
-
-Las otras siete placas traen letrero claro: GPL-3.0 y MIT — el root nuevo naciendo con la letra
-a la vista.
-
 ## 🏦 El escondite con vara
 
 Zygisk-Assistant (MIT) esconde el root pa las apps que lo exigen — y la línea de la casa es la

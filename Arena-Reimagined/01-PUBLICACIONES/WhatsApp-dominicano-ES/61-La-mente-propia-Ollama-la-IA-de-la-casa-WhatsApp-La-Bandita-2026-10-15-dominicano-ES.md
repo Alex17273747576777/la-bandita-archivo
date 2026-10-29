@@ -983,49 +983,18 @@ REV|.atnugerp el es odnauc olos agrac :adimrod orec y — )sttaw 001-05( odnasne
 
 REV|.)6202-tco-61 oslup ,874.381★( amallO :royam acalp aL .amallO óitsiv euq aigroeG ed ajrof al — )304.131★( ppc.amall :rotom lE
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que paga la cuota de la IA ajena.* El que la mensualidad del asistente le
-vive llegando (el tope del plan, la factura del pensar): la vara de esta pieza es tu factura por
-dentro — la caja de la fila (si es firme: 8-16 gigas), dos comandos, y el pensar del mes:
-comprado de una vez con tu disco.
+• `ggml-org/llama.cpp` — ★132.731 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release b11983 (2026-10-29).
 
-La próxima notificación de tope: la lees desde tu propia mente — que no conoce la palabra tope.
+• `ollama/ollama` — ★185.201 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release v0.40.13 (2026-10-29).
 
-*SEGUNDA CARTA — al que no le manda sus cosas a la tienda ajena.* El que la póliza de la 45 le quedó en el cuerpo (el recibo, el contrato, la historia del negocio: jamás en el chat ajeno): esta pieza es TU faena — la mente que contesta sin leerle a nadie tu vida: la privacidad de la 51, pensada. El negocio, el recibo, la carta de la abuela: en tu caja, contestados en casa.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-Lo que preguntas, jamás viaja.
-
-*TERCERA CARTA — al que cree que esto es pa laboratorios.* El que la palabra «modelo» le suena a
-laboratorio de Silicon Valley: la vara honesta de la fila te lo traduce — un modelo es UN
-ARCHIVO (como una película: se baja, se abre, se borra), Ollama es el reproductor, y tu pregunta
-es la conversación.
-
-Dos comandos y escribir: la IA propia — montada por el barrio entero (183 mil estrellas lo
-firman: la placa mayor del planeta).
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el pensar tiene
-mente con placa — Ollama ★183.478 (pulso 16-oct-2026), la placa mayor de toda la obra, y
-llama.cpp ★131.403, su motor: la pareja más alta del planeta libre.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: la conversación
-en casa (nada sale de la caja), el modelo por oficio (jamás por fama), el pensar sin permiso
-ajeno (la prueba del apagón) — y la regla cosida: la mente conseja; la gente firma.
-
-Monta tu mente. Baja tu modelo.
-
-Pregúntale en criollo. Y cuando la tienda te ofrezca pensar por suscripción, recuerda: tu casa
-ya piensa — porque la mente es tuya, y su sazón manda.
-
-Eso no lo firma la cuota: se firma con MIT, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #LaMentePropia #Ollama #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 61).*
 

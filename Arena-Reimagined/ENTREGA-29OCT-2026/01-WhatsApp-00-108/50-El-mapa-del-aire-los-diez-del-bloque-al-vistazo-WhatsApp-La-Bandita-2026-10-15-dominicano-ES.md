@@ -1012,44 +1012,25 @@ REV|.orberec le ne eviv oraf le ,lenút le rop ajaiv erbmala le :sarto sal aroje
 
 REV|.asac al ed atarab sám aerat al — eria led arig al :ertsemirt rop aroh anU
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que leyó las diez y no montó ninguna.* El de la lectura completa y la casa igual (la pieza que se lee y no se arma): esta pieza es pa ti — el recetario manda empezar por UNA: la del hoyo de tu casa (la del FAQ). Una temporada, una tarde, un mueble — el bloque no pide conversión: pide comienzo.
+• `openwrt/openwrt` — ★28.970 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v25.12.6 (2026-10-19).
 
-La vara de la serie: mejor que lo que precedió — TU teléfono del mes que viene, un mueble mejor
-que el de hoy.
+• `localsend/localsend` — ★96.416 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
 
-*SEGUNDA CARTA — al que montó tres y presume diez.* El que instaló la colección completa (el museo del riesgo dos) y administra a medias: la gira de la temporada es tuya — el aire sin gira es la caja ignorada con mejor ropa. Y la vara de la mesa: las tres bien administradas te sirven; las diez a medias, te lucen — el bloque no es escaparate: es faena.
+• `qbittorrent/qbittorrent` — ★41.207 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia sin clasificar (NOASSERTION) · release qBittorrent v5.3.0 (2026-10-20).
 
-El museo, de visita; la casa, en gira.
+• `syncthing/syncthing` — ★89.859 (verificado 29-oct-2026) · última actividad 2026-10-27 · MPL-2.0 · release v2.1.7 (2026-10-21).
 
-*TERCERA CARTA — al técnico del barrio.* El que cobra por montar (y ya leyó el caso seis): la
-fila entera es tu nuevo oficio — el recetario como catálogo, las placas del censo como garantía,
-la doctrina como contrato.
+Licencias sin resolver hoy (2): `openwrt/openwrt`, `qbittorrent/qbittorrent`. Sin licencia clara
+no hay recomendación completa: queda la alerta firmada.
 
-El técnico honesto: el administrador de aires de la nueva década — y la forja te deja la vara:
-cada casa que montes, con su gira firmada — el oficio que dura es el que visita.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el aire de la casa
-es UN bloque — diez faenas, diez muebles, veintitrés placas vivas, siete leyes en paz y diez
-sellos firmados: la fila de REDES completa, entregada a la mesa del barrio con la vara de la
-serie: placas fechadas, doctrinas con frontera, sellos de 16 hexadecimal.
-
-La forja lo firmó con el pulso del mismo día del cierre, y lo deja dicho: cada mueble, su faena;
-cada temporada, su tarde; el aire se administra, jamás se predica — y lo que viene (el taller
-propio) ya tiene fila en el mapa.
-
-Elige tu primera pieza. Firma tu primera temporada.
-
-Y cuando el vendedor de la pastilla total prometa el aire en una app con renta, recuerda: tu casa ya tiene las diez faenas — con placas públicas, sellos firmados y una gira por trimestre. Eso no se compra HOY: se arma por temporadas — y se administra como gente.
-
-───────────────────
-
-#LaBandita #ElMapaDelAire #BloqueRedes #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 50).*
 

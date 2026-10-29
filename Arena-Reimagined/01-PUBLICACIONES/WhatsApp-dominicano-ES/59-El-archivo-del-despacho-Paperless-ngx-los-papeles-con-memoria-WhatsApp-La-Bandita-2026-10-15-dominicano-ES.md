@@ -989,52 +989,16 @@ REV|.edrat rop nójac NU — )sotartnoc( odibed ol ,)satca y solutít( odimet ol
 
 REV|.)2202 lepap ,6102 ajrof ,8102 enic( alif al ed nóicacrufib ARECRET al — ajrof al ómot dadinumoc al :)sselrepap( oteiuq erdap leD
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que perdió la tarde en el cajón.* El que el trámite del banco le cobró la
-tarde entera (el recibo de marzo: «tiene que estar» — y no estaba): la vara de esta pieza es tu
-tarde por dentro.
+• `paperless-ngx/paperless-ngx` — ★47.287 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release Paperless-ngx v3.3.4 (2026-10-22).
 
-El estante en la caja (una tarde), el primer cajón entrando (los recibos del año: la tanda uno),
-y la próxima carta del banco: dos toques, el PDF nítido, el trámite antes del almuerzo. La tarde
-de cajones: jubilada para siempre.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*SEGUNDA CARTA — al que tiene el título de la moto en la funda del ropero.* El que los papeles
-valiosos le viven en fundas sin memoria (¿dónde quedó la funda de la moto?
-
-¿en cuál de los tres cajones?): esta pieza es tu inventario nuevo — cada papel con sello: escaneado UNA vez (su copia de trabajo en el archivo, con su nota «original en: ropero, funda 2»), y el papel: en su funda, jamás tocado sin saber dónde está. La funda perdida: jubilada — el inventario de la casa, buscable.
-
-*TERCERA CARTA — al que manda los recibos al chat de la familia.* El que la foto del recibo le
-vive en el WhatsApp (el archivo de bolsillo del barrio: enterrado en mil mensajes): la vara
-honesta de la fila te lo firma — el chat GUARDA pero JAMÁS ENCUENTRA (el recibo del marzo: en la
-conversación del cumpleaños, enterrado bajo los memes).
-
-La app del escaneo (a un toque: el papel derecho, entrando al archivo) te jubila la costumbre —
-el chat: pa conversar; el archivo: pa encontrar.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que los papeles de la
-casa tienen archivo con placa — Paperless-ngx ★46.756 (pulso 16-oct-2026), la tercera placa de
-la fila, cuatro años de la comunidad que salvó su herramienta.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: el papel entra
-UNA vez (ordenado solo), el OCR lee tu lengua (lo impreso, buscable), los originales con sello a
-su funda (el digital: la memoria; el papel: la ley) — y la regla cosida: los papeles de la
-familia, en la casa de la familia.
-
-Monta tu archivo. Escanea tu primer cajón.
-
-Inventa tus fundas. Y cuando el próximo trámite pida un papel de hace meses, recuerda: tu
-despacho contesta en dos toques — porque los papeles son tuyos, y su orden manda.
-
-Eso no lo firma la nube ajena: se firma con GPL, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #ElArchivoDelDespacho #PaperlessNGX #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 59).*
 

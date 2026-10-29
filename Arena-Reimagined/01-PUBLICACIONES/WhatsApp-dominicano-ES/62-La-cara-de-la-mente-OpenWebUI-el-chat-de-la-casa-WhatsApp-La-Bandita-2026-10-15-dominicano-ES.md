@@ -1020,52 +1020,21 @@ REV|.néibmat rarrob ,ohcered se radraug :rarrob edeup oñeud le y — )rellat l
 
 REV|.elbisividni se euqolb led ajerap al — )oícav la albah arac al ,alle nis :16( oremirp etnem aL
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que la abuela le pide «esa cosita que contesta».* El que la familia entera
-le pide IA (y la única cara es la de la tienda: su cuenta, su cuota, el tope llegando): la vara
-de esta pieza es tu sofá por dentro — la mente de la 61 detrás, la cara en el tablero (un clic),
-y la abuela preguntando en criollo: sin tope, sin tu cuenta, sin copia ajena.
+• `open-webui/open-webui` — ★157.130 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v0.12.5 (2026-10-29).
 
-La familia entera: con IA propia — tu plan del chat, jubilado.
+• `chatgptnextweb/nextchat` — ★88.912 (verificado 29-oct-2026) · última actividad 2026-10-20 · MIT.
 
-*SEGUNDA CARTA — al que su historial del chat le vive en peligro.* El que la tienda le avisó lo
-del caso ocho (el historial «tuyo»: borrable por ellos — la memoria de tus dudas, rehén del
-plan): esta pieza te la devuelve — el historial del chat propio vive EN tu disco (respaldado por
-la fila, borrable POR TI).
+Licencias sin resolver hoy (1): `open-webui/open-webui`. Sin licencia clara no hay recomendación
+completa: queda la alerta firmada.
 
-Tus conversaciones de dos años: tuyas de veras — la memoria del pensar, con dueño.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*TERCERA CARTA — al que teme darle la cara a la familia.* El que la mente de la 61 la montó pa
-él solo (el comando: su oficio; la familia: mirando de lejos): la vara honesta del bloque — la
-cara existe EXACTAMENTE pa eso: el chat del sofá (la abuela sin comandos, el hijo con su modo
-tarea, la clienta con su pregunta).
-
-Tu mente: pa toda la casa — el comando, jubilado como único camino.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el chat tiene cara
-con placa — Open WebUI ★155.917 (pulso 16-oct-2026), la segunda placa mayor de la obra, y
-NextChat ★88.851, su hermana ligera: la pareja del chat libre.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: la mente
-primero (la pareja indivisible), la cuenta por persona (el confesorio propio), el historial en
-tu disco (con derecho a borrar) — y la regla cosida: la cara bonita no cambia la vara; el que
-firma, es la gente.
-
-Monta tu cara. Abre tu confesorio.
-
-Sienta a la abuela en el sofá. Y cuando el chat ajeno te amenace con borrar tu memoria,
-recuerda: la tuya vive en tu caja — porque la conversación es tuya, y su dueño manda.
-
-Eso no lo firma la tienda: se firma libre, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #LaCaraDeLaMente #OpenWebUI #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 62).*
 

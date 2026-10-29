@@ -38,17 +38,6 @@ la honestidad no admite maquillaje.
 
 La corriente profunda de la pieza 43 tiene ahora 683 afluentes más — y no está sola.
 
-## ⚖️ Veredictos del barrido
-
-- **Dantotsu (`rebelonion/Dantotsu`) — 451: bloqueada.** La casa madre del cazador grande de la
-pieza 37 responde restricción legal al servidor oficial. La ficha de la 37 ya iba por el updater
-(su puerta viva) — HOY la anticipación quedó confirmada, con nota fechada en la pieza. Los que
-avisan antes de la espada no tuvieron suerte: tuvieron método.
-- **OpenTune (`Arturo254/OpenTune`) — 451: bloqueada.** El cliente de música, misma espada. Al
-radar de veredictos; si renace por otra puerta, se anota.
-- **CuxPlug (`ycngmn/CuxPlug`) — muerta.** Al Registro con acta.
-- El *topics* de lectura — no-repo: anotado como lo que es.
-
 ## 🗺️ Lo que esto abre
 
 La cola de futuras puertas, por tamaño: **Música (231 fichas del archivo — la puerta más grande jamás dejada en esta casa)** · Android/sistema (~197) · Lectura (~181, ya rozada por las cuatro puertas propias) · Anime/vídeo (~162, igual) · Bibliotecas/metadatos (~104) · y unas cien entre servidores, privacidad, descarga, desarrollo y directorios. Además, un deber de vara nueva: **GitLab y Codeberg** (64 enlaces) no hablan el idioma de los átomos de GitHub — sus varas de verificación quedan anotadas como pendiente de método.

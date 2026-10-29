@@ -31,19 +31,6 @@ sin nombre.
 · última actividad 2026-10-29
 · GPL-3.0.
 
-## 📦 Las reglas de la casa
-
-**1.** Fuente con firmante conocido o no entra: el contenido también tiene procedencia.
-
-**2.** El motor se actualiza en su gira y las fuentes en la suya: dos calendarios, una libreta.
-
-**3.** Fuente muerta se poda sin nostalgia; la lista limpia es parte de la higiene.
-
-## ⚖ La vara
-
-La confianza ya no vive en la tienda: vive en la cadena motor → fuente → firmante, y cada
-eslabón lleva su fecha.
-
 ## El meme de la pieza
 
 > —La app no trae nada. —Trae el motor: el contenido lo firmas tú, que es exactamente el punto.

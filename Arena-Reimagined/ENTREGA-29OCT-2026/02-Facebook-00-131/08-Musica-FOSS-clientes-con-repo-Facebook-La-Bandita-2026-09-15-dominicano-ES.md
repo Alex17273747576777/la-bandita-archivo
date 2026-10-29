@@ -42,17 +42,6 @@ AntennaPod     ★8.153    3.12.1 (5-sep)    push 12-sep
 ViMusic        ★9.480    el ancestro
 ```
 
-## ⚖️ Qué no es esta guía
-
-YouTube y YouTube Music tienen sus términos de servicio. Un cliente libre que consulta esos
-servidores puede chocar con ellos — esta guía no es un bufete: no dice «es legal» ni «no lo es».
-
-Dice repo, licencia (GPL en todas las fichas de hoy, verificadas en su página), versión y último
-push. La decisión de qué usas es tuya, con sus consecuencias.
-
-Y la frase de siempre: aquí no hay APK de «Spotify premium gratis» ni mods de nada. Esa puerta
-tiene guía propia — la de tiendas — y termina siempre igual.
-
 ## 🧬 La genealogía: de ViMusic a la familia actual
 
 Esta familia tiene árbol genealógico documentado, y conocerlo aclara media docena de nombres:

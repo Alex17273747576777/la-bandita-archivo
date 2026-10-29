@@ -1036,45 +1036,26 @@ REV|.retuor le racot nis ,alos amra es euq asac al ed der al :ejresnoc noc drauG
 
 REV|.oneja se oleus le ednod adnam atneimarreh al :olagápa — adan araP
 
-*💌 LAS CARTAS AL LECTOR*
+*Alertas de continuidad (verificadas el 29-oct-2026):*
 
-*PRIMERA CARTA — al que usa el wifi del café todos los mornings.* El router del café es de la casa del café: la contraseña de la pizarra no compra nada más que la entrada. Tu banco, tu correo y tus fotos pasan por allá.
+• `wireguard/wireguard-android` — dormido · última actividad 2026-03-17 · ★1.656 (verificado 29-oct-2026). Queda como historia/medición, no como recomendación fresca.
 
-El sobre de esta pieza existe exactamente pa esa acera: enciende el «Café», y el extraño ve humo. Diez minutos de interruptor — la acera entera, callada.
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*SEGUNDA CARTA — al taller de la salida.* El que monta salidas pa el barrio (la raspberry del caso uno, el colmado de la abuela del caso cuatro): tu faena es la vara completa de la doctrina — la confianza que la gente te presta, se administra con placa, con fecha y con la política escrita en la pared. El día que la salida dude, dilo tú primero.
+• `tailscale/tailscale` — ★38.289 (verificado 29-oct-2026) · última actividad 2026-10-29 · BSD-3-Clause · release v1.104.4 (2026-10-28).
 
-La forja te firma: el taller honesto es el mueble más raro y más caro del mercado — y el barrio
-lo sabe cuidar.
+• `tailscale/tailscale-android` — ★2.753 (verificado 29-oct-2026) · última actividad 2026-10-28 · BSD-3-Clause · release v1.104.4 (2026-10-28).
 
-*TERCERA CARTA — al que todavía cree en el tigre del anuncio.* La VPN de la estrella que promete invisibilidad: mándale esta pieza. Si su salida tiene política escrita, la usarás con letra chica; si solo tiene tigre, el tigre no firmó el sobre.
+• `cloudflare/boringtun` — ★7.237 (verificado 29-oct-2026) · última actividad 2026-06-15 · BSD-3-Clause.
 
-El anonimato no se vende por suscripción — y la confianza jamás por anuncio.
+• `wireguard/wireguard-android` — ★1.656 (verificado 29-oct-2026) · última actividad 2026-03-17 · Apache-2.0.
 
-La casa manda: placa, ley, y el interruptor que dice «Casa».
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el viaje de la casa tiene sobre con placa — WireGuard ★1.640 (pulso 16-oct-2026) y su familia de cuatro leyes: el candado que el kernel abrazó, los tres motores que lo copiaron, y la doctrina que ningún anuncio va a contar — la confianza se muda, se administra y se firma
-
-jamás se canta.
-
-La forja lo midió con el pulso del mismo día en que nace esta pieza, y lo firma: el café ve
-borrón, el operador ve borrón, y el índice lo contesta tu sala — la tercera mudanza del aire,
-cosida con las cuatro mil líneas más firmes del barrio.
-
-Enciende el interruptor. Arma el seguro.
-
-Prueba las tres puertas. Y cuando el anuncio del tigre prometa invisibilidad por suscripción,
-recuerda: tu sobre ya viaja cerrado — porque la salida es tuya, y la casa manda.
-
-Eso no lo canta la tienda: se firma con Apache, y se administra en el mostrador de tu sala.
-
-───────────────────
-
-#LaBandita #ElTunel #WireGuard #VPN #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 43).*
 

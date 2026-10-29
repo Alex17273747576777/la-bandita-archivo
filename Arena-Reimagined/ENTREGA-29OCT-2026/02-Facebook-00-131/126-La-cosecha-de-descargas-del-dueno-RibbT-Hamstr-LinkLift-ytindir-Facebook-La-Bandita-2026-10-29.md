@@ -38,22 +38,6 @@ El dueño llegó con la canasta llena de descargadores recién nacidos y la casa
 · GPL-3.0
 · release Gimmie &#39;Dat 1.0.3 (2026-10-08).
 
-## 📦 Las reglas de la casa
-
-**1.** Semilla de días se prueba en laboratorio: lo que baja se verifica con checksum y la
-bodega lo recibe con fecha (108).
-
-**2.** Motor yt-dlp compartido no es destino compartido: cada app firma su interfaz, su
-privacidad y su ritmo de release.
-
-**3.** Lo dormido de la canasta (V4AW desde junio, Stash desde agosto) se firma en calma: la
-cosecha también se poda.
-
-## ⚖ La vara
-
-La canasta del dueño se pesa entera el mismo día: lo fresco no espera a la próxima gira para
-tener su placa.
-
 ## El meme de la pieza
 
 > —Todos descargan lo mismo. —Todos usan el mismo motor; la casa, el ritmo y la firma son otra

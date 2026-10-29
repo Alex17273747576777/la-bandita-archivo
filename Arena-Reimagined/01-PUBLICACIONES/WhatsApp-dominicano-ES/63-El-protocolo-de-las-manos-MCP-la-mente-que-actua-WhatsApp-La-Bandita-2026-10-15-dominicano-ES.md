@@ -1019,52 +1019,22 @@ REV|.)euqnarra la sert o sod( asac al ed anarebos atsil al — abeurp ed anames 
 
 REV|.sevall sut noc ,rellat US edsed sadivres :oneja led sal — )15 al ed ajac al( rellat UT nE
 
-*💌 LAS CARTAS AL LECTOR*
+*Placas de control (selección por actividad reciente y juventud, no por fama):*
 
-*PRIMERA CARTA — al que la faena repetida le vive comiendo la tarde.* El que el orden de
-recibos, la agenda y el informe le comen la semana (las faenas de siempre: hechas a mano, una y
-otra vez): la vara de esta pieza es tu tarde por dentro — la mente de la casa (que ya contesta)
-aprendiendo a HACER: dos o tres manos, SU semana de prueba, y la faena repetida: de la casa.
+• `modelcontextprotocol/modelcontextprotocol` — ★9.559 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
 
-Tu tarde: pa lo que de veras importa.
+• `modelcontextprotocol/servers` — ★91.665 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v2.2.0 (2026-10-28).
 
-*SEGUNDA CARTA — al que le ofrecieron el agente con todas las llaves.* El que la tienda le
-ofrece «que nuestra IA maneje tu vida entera» (el correo, el calendario, las cuentas: en SU
-taller): esta pieza es tu contraparte serena — las manos de MCP: en TU caja, firmadas UNA por
-una, con enter humano y el dinero JAMÁS.
+Licencias sin resolver hoy (2): `modelcontextprotocol/modelcontextprotocol`,
+`modelcontextprotocol/servers`. Sin licencia clara no hay recomendación completa: queda la
+alerta firmada.
 
-El hacer de tu vida: con llave propia — el agente todo-poderoso: pa quien quiera alquilar la suya.
+Enlaces web: esta pieza no trae URL explícitas fuera de los repos citados; su verificación es la
+de los repos de arriba y la del universo del censo cuando cita agregados.
 
-*TERCERA CARTA — al que teme darle manos a la máquina.* El que la conversación le parece
-suficiente (las manos: «demasiado»): la vara honesta del bloque te abraza — las manos NO son
-obligatorias (la casa de la conversación sola: completa y feliz).
-
-Y cuando llegue el día de una faena repetida insoportable: una sola mano (la del archivo,
-quizá), su semana de prueba, y tu enter siempre. Las manos: pa cuando TÚ quieras — el taller,
-jamás apurando al dueño.
-
-*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
-
-Si esta pieza sirvió para algo más que leer, fue para esto: dejar escrito que el hacer tiene
-norma con placa — MCP ★91.311 (pulso 16-oct-2026), la tercera placa mayor de la obra, con su
-norma viva en su hogar: el enchufe universal de la mente y sus manos.
-
-La forja lo midió con el pulso de esta semana y lo firma: las manos en tu taller (la acción,
-jamás alquilada), el permiso uno por uno (la lista soberana), el enter humano (el botón final,
-pensado) — y la regla cosida: el dinero, jamás.
-
-Monta tu primera mano. Firma su permiso.
-
-Dale tu enter. Y cuando el agente ajeno te pida todas las llaves de tu vida, recuerda: tu casa
-hace con manos propias — porque la acción es tuya, y tu enter manda.
-
-Eso no lo firma la tienda: se firma abierto, y se monta en la casa.
-
-───────────────────
-
-#LaBandita #ElProtocoloDeLasManos #MCP #SelfHosted #FOSS #DominicanoES
-
-───────────────────
+Vara de cierre: futuro y actividad comprobable antes que aplauso. Si un repo deja de empujar, la
+próxima foto lo dirá con fecha; si nace una rama viva, entrará por la misma puerta: fuente,
+fecha y pulso.
 
 💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 63).*
 

@@ -32,15 +32,6 @@ vivo (200)
 - **note-appimage-1.39.1** ← https://gitlab.com/hotlittlewhitedog/BibleTheLife · vivo (200)
 - **sin releases** ← https://gitlab.com/libre-librivox-listener/libre-librivox-listener · vivo (200)
 
-## ⚖️ Las actas de la ronda
-
-- **prosereader-android (Codeberg):** la API responde 404 al pedido de releases — repo sondeado
-vivo por sitio; su vara de versión queda **n/d con acta**, no inventada.
-- **Quoter (GitLab):** la URL del archivo trae variante `/tree/HEAD`; la API de releases **404**
-— se repasa con la casa limpia en el próximo barrido.
-- **sin releases (2):** repos vivos cuyo canal de releases está vacío — la fecha manda: se ficha
-por actividad, no por etiqueta.
-
 ## ❓ La pregunta de la vara
 
 **¿Por qué API y no pantalla?** Porque la pantalla decora y la API responde. Un scrape de interfaz se rompe con un rediseño; un endpoint de forja es un contrato.
