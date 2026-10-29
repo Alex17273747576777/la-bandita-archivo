@@ -308,3 +308,35 @@ Ninguna de las dos en septiembre: SY 1.13.2 y Komikku 1.14.1 son de julio — co
 ---
 
 **Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: Houri v1.22.1 de HOY, manga-repo ★445, SY/Komikku re-contados. Lo no mencionado queda constado a su día (14-sep). Acta completa: Registro #71.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 16).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 18 repos GitHub confirmados y 20 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 5 hoy · 5 en 7 días · 5 en 30 días · 3 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `geograms/bchan` — creado 2026-06-19 · última actividad 2026-10-05 · ★7 (verificado 29-oct-2026) · Apache-2.0.
+
+• `harrys-hq/shinku` — creado 2026-02-19 · última actividad 2026-10-26 · ★45 (verificado 29-oct-2026) · Apache-2.0.
+
+• `pineappletwilight/houri` — creado 2026-07-26 · última actividad 2026-10-29 · ★39 (verificado 29-oct-2026) · Apache-2.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `syncyomi/syncyomi` — ★736 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release v1.7.4 (2026-10-29).
+
+• `yuzono/tachiyomi-extensions` — ★947 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+
+• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
+
+Licencias sin resolver hoy (3): `cuong-tran/manga-repo`, `jobobby04/tachiyomisypreview`, `keiyoushi/extensions`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 20 apariciones; 20 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

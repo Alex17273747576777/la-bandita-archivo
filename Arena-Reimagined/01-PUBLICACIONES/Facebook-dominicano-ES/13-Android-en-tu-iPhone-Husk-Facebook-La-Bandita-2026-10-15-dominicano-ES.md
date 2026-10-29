@@ -429,3 +429,33 @@ Y la regla que no cambia: tu teléfono — de la Manzana o del huerto — es tuy
 📌 ACTUALIZADO AL 15-OCT-2026 — gemela nacida y verificada HOY con censos de mañana, tarde y cierre; pulso apilado; nada borrado.
 
 #LaBandita #AndroidEnIPhone #Husk #SinJailbreak #GPL #Sideloading #TecnologiaDominicana #LibertadDigital
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 13).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 4 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 1 hoy · 3 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `flectar/mail` — creado 2026-09-03 · última actividad 2026-10-28 · ★1.678 (verificado 29-oct-2026) · AGPL-3.0.
+
+• `leviidev/husk` — creado 2026-09-12 · última actividad 2026-10-29 · ★2.831 (verificado 29-oct-2026) · GPL-2.0.
+
+• `sysadmindoc/hushfacebook` — creado 2026-09-24 · última actividad 2026-10-28 · ★435 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `leviidev/husk` — ★2.831 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release 3.1 (2026-10-27).
+
+• `flectar/mail` — ★1.678 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release 0.1.0-alpha.7 (2026-10-08).
+
+• `sysadmindoc/hushfeed` — ★324 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release v0.79.0 (2026-10-24).
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

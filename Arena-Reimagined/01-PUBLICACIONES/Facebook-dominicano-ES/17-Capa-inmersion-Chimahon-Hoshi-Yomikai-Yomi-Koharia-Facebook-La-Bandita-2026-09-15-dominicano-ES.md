@@ -158,3 +158,39 @@ Chimahon, Hoshi y Yomikai EXISTEN para aprenderlo — el diccionario y la voz so
 ---
 
 **Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: Chimahon v2.4.2, Yomikai 1.9.84, Koharia ★148 (todas de HOY). Lo no mencionado queda constado a su día (14-sep). Acta completa: Registro #71.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 17).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 12 repos GitHub confirmados y 17 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 1 hoy · 6 en 7 días · 4 en 30 días · 1 en 180 días · 0 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `sj0404-collab/yomikai-pwa` — NO ENCONTRADO en GitHub el 29-oct-2026 (404). El enlace citado ya no resuelve: queda marcado, no recomendado.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `chimahon/chimahon` — creado 2026-03-27 · última actividad 2026-10-20 · ★237 (verificado 29-oct-2026) · GPL-3.0.
+
+• `codegeasse1/nekoread` — creado 2026-07-28 · última actividad 2026-09-29 · ★10 (verificado 29-oct-2026) · licencia sin resolver.
+
+• `huangantimony/hoshi-reader-android` — creado 2026-04-28 · última actividad 2026-10-27 · ★462 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `gotson/komga` — ★6.796 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release Release 1.29.2 (2026-10-28).
+
+• `koreader/koreader` — ★30.726 (verificado 29-oct-2026) · última actividad 2026-10-28 · AGPL-3.0 · release OTA (2026-10-28).
+
+• `kareadita/kavita` — ★11.967 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
+
+Licencias sin resolver hoy (1): `codegeasse1/nekoread`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 17 apariciones; 16 respondieron vivas el 29-oct-2026.
+
+• Enlace caído (404 verificado 29-oct-2026): https://github.com/sj0404-collab/yomikai-pwa
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

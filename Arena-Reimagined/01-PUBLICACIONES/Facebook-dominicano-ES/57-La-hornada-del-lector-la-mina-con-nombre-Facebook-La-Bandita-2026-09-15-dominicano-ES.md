@@ -42,3 +42,45 @@ Cada nombre es un repositorio de github.com/ con estrella, fecha y rango del cen
 > —Por la fila de abajo, ordenada por aplausos y verificada por fechas. Y al final, el censo espera su turno — con la paciencia de un estante.
 
 > La Bandita verifica antes de recomendar: estrellas y fechas constadas HOY, 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 57).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 14 repos GitHub confirmados y 15 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 0 hoy · 2 en 7 días · 2 en 30 días · 5 en 180 días · 4 dormidos · 1 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `aarddict/android` — ARCHIVADO · última actividad 2015-05-09 · ★88 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+• `mshdabiola/notepad` — dormido · última actividad 2025-08-25 · ★131 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `rektpartyaftermath/legado-booksource-collection` — dormido · última actividad 2025-11-19 · ★15 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `v4lpt/myc` — dormido · última actividad 2025-11-19 · ★6 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `zwolken/light-novel-yuedu-source` — dormido · última actividad 2025-09-22 · ★449 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `chmouel/liseur` — creado 2026-07-28 · última actividad 2026-10-28 · ★164 (verificado 29-oct-2026) · MIT.
+
+• `volksverpetzer/vvp_app` — creado 2026-01-21 · última actividad 2026-10-16 · ★11 (verificado 29-oct-2026) · MIT.
+
+• `opendocument-app/opendocument.droid` — creado 2010-10-19 · última actividad 2026-10-25 · ★482 (verificado 29-oct-2026) · MPL-2.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `opendocument-app/opendocument.droid` — ★482 (verificado 29-oct-2026) · última actividad 2026-10-25 · MPL-2.0 · release v4.23.0 (2026-10-25).
+
+• `chmouel/liseur` — ★164 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release Liseur v0.26.0 (2026-10-28).
+
+• `bibledit/android` — ★4 (verificado 29-oct-2026) · última actividad 2026-10-01 · licencia sin resolver.
+
+Licencias sin resolver hoy (3): `bibledit/android`, `nilsbraden/ttrss-reader-fork`, `rektpartyaftermath/legado-booksource-collection`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 15 apariciones; 15 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

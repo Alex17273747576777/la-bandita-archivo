@@ -29,3 +29,19 @@ Estados por enlace: ANEXO FORJAS del Clasificador · actas fechadas: Registro de
 > —Al acta. El mapa que solo dibuja flores no es mapa: es postal.
 
 > La Bandita verifica antes de recomendar: actas fechadas el 15 de septiembre de 2026, cada estado constado por sondeo o API. Las estrellas adornan; las fechas mandan; las cortinas legales, se actan.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 72).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0 repos GitHub confirmados y 7 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Enlaces web: 7 apariciones; 4 respondieron vivas el 29-oct-2026; 1 solo bloquean al bot (comprobadas en navegador).
+
+• Enlace caído (404 verificado 29-oct-2026): https://www.libreoffice.org/download/android-and-ios
+
+• Enlace caído (404 verificado 29-oct-2026): https://burnsomni.net/manuals/pagan
+
+Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario compartido; la verificación de esta publicación es la de sus URL y la del universo global de la pasada.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

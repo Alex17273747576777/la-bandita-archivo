@@ -61,3 +61,15 @@ Como siempre: puerta por puerta, fruto maduro primero. El censo dice dónde est�
 > —Con acta y todo. Aquí hasta las paredes levantan acta. La música sola son 231 puertas — pero hoy no hay prisa: hoy es censo, no carrera.
 
 > La Bandita verifica antes de recomendar: 683 repos nuevos barridos sin una sola falla el 15 de septiembre de 2026 — 434 corrientes, 185 crecidas de esta semana y dos veredictos con espada. Las estrellas adornan; las fechas mandan. Y el censo, abre puertas.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 49).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario compartido; la verificación de esta publicación es la de sus URL y la del universo global de la pasada.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

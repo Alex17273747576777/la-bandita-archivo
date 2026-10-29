@@ -31,3 +31,15 @@ El propio repo lo dice: el aviso de Play Protect **no quiere decir malware**, y 
 > —Joven en fama, viejo en oficio: empujó código hoy mismo. La estrella es del vecino; la salud, del taller.
 
 > La Bandita verifica antes de recomendar: ficha contada el 15-oct-2026 (v1.4.9, GPL-3.0, ★13, push del día) y contrastada con la constancia del 22-sep. Las estrellas adornan; las fechas mandan.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 81).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario compartido; la verificación de esta publicación es la de sus URL y la del universo global de la pasada.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

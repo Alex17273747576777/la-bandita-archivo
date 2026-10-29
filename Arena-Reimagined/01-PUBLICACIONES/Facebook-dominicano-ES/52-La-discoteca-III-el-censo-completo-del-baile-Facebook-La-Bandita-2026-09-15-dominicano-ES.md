@@ -175,3 +175,31 @@ Cada nombre es un repositorio de github.com/. El mapa completo vive en el Clasif
 > —¿Y esto es una guía o una guía telefónica?
 > —Es el censo del baile: 163 nombres con su fecha. La guía telefónica no baila — esto sí: mira las fechas.
 > La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el mapa. Corte del 15 de septiembre de 2026.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 52).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 9 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 2 hoy · 2 en 7 días · 2 en 30 días · 3 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `werdeil/lyrion-dashboard` — creado 2026-04-11 · última actividad 2026-10-28 · ★3 (verificado 29-oct-2026) · MIT.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `paulwoitaschek/voice` — ★3.230 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release 26.10.6 - At home on tablets 📱 (2026-10-25).
+
+• `libre-tube/libretube` — ★12.907 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release LibreTube Nightly 29-10-2026 (2026-10-29).
+
+• `gokadzev/musify` — ★4.379 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release 10.6.0 (2026-10-23).
+
+Licencias sin resolver hoy (1): `shacharharshuv/open-ear`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

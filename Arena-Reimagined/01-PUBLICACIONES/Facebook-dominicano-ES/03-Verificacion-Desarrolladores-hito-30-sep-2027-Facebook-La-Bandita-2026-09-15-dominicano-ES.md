@@ -253,3 +253,15 @@ En los enlaces de abajo: hub, guías, FAQ y blogs son de Google; la carta y la F
 ---
 
 **Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: reloj: faltan 15 días; contador 110 constado al 14. Lo no mencionado queda constado a su día (14-sep). Acta completa: Registro #71.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 03).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0 repos GitHub confirmados y 12 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Enlaces web: 12 apariciones; 12 respondieron vivas el 29-oct-2026.
+
+Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario compartido; la verificación de esta publicación es la de sus URL y la del universo global de la pasada.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

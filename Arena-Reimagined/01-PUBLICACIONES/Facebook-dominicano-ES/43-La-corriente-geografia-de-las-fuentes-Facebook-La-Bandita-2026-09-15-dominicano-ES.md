@@ -74,3 +74,47 @@ Porque cada app cavó la suya — y porque el agua es de todos: el mismo sitio f
 > —Hoy pasamos casa por casa: treinta y ocho ríos, treinta y ocho corriendo, veintiséis a caudal pleno esta mañana. La superficie cree que las apps son el agua. Las apps son las boquillas.
 
 > La Bandita verifica antes de recomendar: cuarenta y cinco ríos catalogados, treinta y ocho casas vivas y veintiséis corrientes de HOY, pisados el 15 de septiembre de 2026 — con dos caudaleros sirviendo a dos océanos y una bodega hecha fuente. Las estrellas adornan; las fechas mandan. Y el río, que fluya.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 43).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 35 repos GitHub confirmados y 9 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 4 hoy · 12 en 7 días · 6 en 30 días · 7 en 180 días · 6 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `dannovels/novel-extensions` — dormido · última actividad 2025-01-05 · ★17 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `gato404/kegareta-sauces` — dormido · última actividad 2025-06-14 · ★14 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `moomooo95/moomooo95-extensions` — dormido · última actividad 2025-05-21 · ★20 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `schnitzel5/apkbridge` — dormido · última actividad 2026-02-11 · ★36 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `schnitzel5/mangayomi-custom-buttons` — dormido · última actividad 2025-10-05 · ★6 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `self-similarity/megarepo` — dormido · última actividad 2025-10-03 · ★140 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `invaliddavid/uma` — creado 2026-06-10 · última actividad 2026-10-25 · ★82 (verificado 29-oct-2026) · GPL-3.0.
+
+• `littlesurvival/copymanga-copy20` — creado 2025-05-11 · última actividad 2026-10-11 · ★2.970 (verificado 29-oct-2026) · licencia sin resolver.
+
+• `yuzono/anime-extensions` — creado 2026-02-06 · última actividad 2026-10-29 · ★522 (verificado 29-oct-2026) · Apache-2.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
+
+• `salmanbappi/extensions-repo` — ★51 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin resolver.
+
+• `yuzono/anime-extensions` — ★522 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+
+Licencias sin resolver hoy (12): `gekkoushi/plugin`, `keiyoushi/extensions`, `littlesurvival/copymanga-copy20`, `dannovels/novel-extensions`, `inkdex/extensions`, `novelsourcery/extensions` y 6 más. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 9 apariciones; 9 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

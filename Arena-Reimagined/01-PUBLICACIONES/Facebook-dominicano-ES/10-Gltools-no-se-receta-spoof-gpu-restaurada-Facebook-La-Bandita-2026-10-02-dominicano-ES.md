@@ -124,3 +124,29 @@ Con esas cuatro luces encendidas, cada cifra te llega con su expediente — y la
 *Mito cuatro — «primero hago root, con la app buena después».* La app buena que no vive en su caseta tampoco se receta. Y el orden del camino no se negocia: primero las piezas del nivel uno (04–09 de esta casa), respaldos exportados, hábito de verificación — y si con eso no te alcanza, la respuesta nunca fue el booster: fue otro teléfono, o ajustes legítimos, o paciencia.
 
 ───────────────────
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 10).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 2 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 0 hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 2 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `darek2015/gltools` — dormido · última actividad 2020-05-05 · ★12 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `i-taylo/iunlockergl` — dormido · última actividad 2025-12-29 · ★108 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `i-taylo/iunlockergl` — ★108 (verificado 29-oct-2026) · última actividad 2025-12-29 · licencia sin clasificar (NOASSERTION).
+
+• `darek2015/gltools` — ★12 (verificado 29-oct-2026) · última actividad 2020-05-05 · GPL-2.0.
+
+Licencias sin resolver hoy (1): `i-taylo/iunlockergl`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

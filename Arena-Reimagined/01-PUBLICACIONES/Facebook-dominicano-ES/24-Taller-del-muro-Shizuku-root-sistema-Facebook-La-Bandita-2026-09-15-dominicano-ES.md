@@ -73,3 +73,35 @@ Y de regalo de red: **Axeron-API** (★19 — la API de la familia, con su propi
 > —Entonces no es tuyo. Es de visita.
 
 > La Bandita informa a partir de fuentes fechadas. En el taller, como en el tratado: cada permiso con nombre, cada llave con su casa.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 24).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 22 repos GitHub confirmados y 22 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 3 hoy · 6 en 7 días · 8 en 30 días · 5 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `ahmed-alnassif/androsh` — creado 2025-09-22 · última actividad 2026-10-08 · ★273 (verificado 29-oct-2026) · GPL-3.0.
+
+• `arora-sir/darq-reborn` — creado 2026-05-26 · última actividad 2026-10-19 · ★125 (verificado 29-oct-2026) · Apache-2.0.
+
+• `bufanchen121101/axmanagerd` — creado 2026-08-18 · última actividad 2026-10-10 · ★52 (verificado 29-oct-2026) · licencia sin resolver.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `fahrez182/axmanager` — ★1.528 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release AxManager (v3.0.0) (2026-10-29).
+
+• `sameerasw/essentials` — ★3.452 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release A hotfix for statusbar detection, lock screen album art and more in Essentials v20.2 (2026-10-26).
+
+• `thejaustin/shizukuplus` — ★1.610 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release 13.7.0.r3085 (2026-10-27).
+
+Licencias sin resolver hoy (4): `bufanchen121101/axmanagerd`, `linksheet/linksheet`, `shynoiddev/firewall-blocks`, `yyj5201314whj/axmanager-pro`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 22 apariciones; 22 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

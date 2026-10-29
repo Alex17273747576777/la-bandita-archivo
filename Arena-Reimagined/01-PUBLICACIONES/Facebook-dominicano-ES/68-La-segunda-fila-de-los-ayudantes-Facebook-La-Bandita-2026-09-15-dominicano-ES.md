@@ -43,3 +43,39 @@ Cada nombre es un repositorio de github.com/ con estrella, fecha y rango del cen
 > —La casa sí. Por eso tienen pieza.
 
 > La Bandita verifica antes de recomendar: segunda fila pisada HOY, 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan — y los ceros, se repasan.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 68).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 13 repos GitHub confirmados y 12 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 5 hoy · 5 en 7 días · 0 en 30 días · 1 en 180 días · 2 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `k3vinb5/unyo-extensions` — dormido · última actividad 2024-11-03 · ★10 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `rewelp/hayasexshiru-extensions` — dormido · última actividad 2026-01-26 · ★99 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `awerkori/fonte-extensoes` — creado 2026-08-14 · última actividad 2026-10-29 · ★9 (verificado 29-oct-2026) · Apache-2.0.
+
+• `dragonx943/manga-repo` — creado 2026-05-15 · última actividad 2026-10-23 · ★24 (verificado 29-oct-2026) · GPL-3.0.
+
+• `dongdongbh/mindwtr` — creado 2025-12-08 · última actividad 2026-10-29 · ★2.340 (verificado 29-oct-2026) · AGPL-3.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `etar-group/etar-calendar` — ★2.629 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0.
+
+• `keiyoushi/extensions` — ★15.364 (verificado 29-oct-2026) · última actividad 2026-10-29 · sin licencia declarada · release Repository Update dbf6c05 (2026-10-29).
+
+• `dongdongbh/mindwtr` — ★2.340 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v1.3.7 (2026-10-22).
+
+Licencias sin resolver hoy (1): `keiyoushi/extensions`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 12 apariciones; 12 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

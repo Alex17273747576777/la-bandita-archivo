@@ -44,3 +44,15 @@ Las 136 URLs no-GitHub del archivo, con estados y versiones, viven en el **ANEXO
 > —Se le pregunta en su idioma. Y si calla, se levanta acta del silencio — que también es respuesta.
 
 > La Bandita verifica antes de recomendar: versiones leídas de las APIs públicas de Codeberg y GitLab el 15 de septiembre de 2026, sin claves de nadie. Las estrellas adornan; las fechas mandan; los silencios, se actan.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 69).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0 repos GitHub confirmados y 11 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Enlaces web: 11 apariciones; 11 respondieron vivas el 29-oct-2026.
+
+Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario compartido; la verificación de esta publicación es la de sus URL y la del universo global de la pasada.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

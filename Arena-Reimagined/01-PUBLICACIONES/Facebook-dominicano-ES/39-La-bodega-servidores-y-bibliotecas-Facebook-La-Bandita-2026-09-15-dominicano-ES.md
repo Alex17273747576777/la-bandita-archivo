@@ -57,3 +57,25 @@ La de tu estantería: Kavita para de todo un poco, Komga para colecciones de có
 > —La bodega sirve, el bolsillo pide, y Jellyfin sacó versión hoy. El que cocina aquí abajo hace años que no descansa.
 
 > La Bandita verifica antes de recomendar: cinco casas pisadas el 15 de septiembre de 2026, una versión salida hoy mismo y un linaje cerrado con sus propios forks. Las estrellas adornan; las fechas mandan.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 39).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 5 repos GitHub confirmados y 4 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 1 hoy · 2 en 7 días · 1 en 30 días · 1 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `gotson/komga` — ★6.796 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release Release 1.29.2 (2026-10-28).
+
+• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
+
+• `kareadita/kavita` — ★11.967 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0.
+
+Enlaces web: 4 apariciones; 4 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

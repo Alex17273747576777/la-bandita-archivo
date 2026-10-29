@@ -214,3 +214,35 @@ La esquina musical según el censo de la tarde. Caja apilada; nada borrado (prot
 📌 ACTUALIZADO AL 15-OCT-2026 — censo de API del 22-sep: Metrolist ★13.517 (push 8-oct) · SimpMusic ★12.056 con push de HOY · NewPipe ★40.140. Lo demás viaja fechado 22-sep-2026.
 
 #LaBandita #MusicaFOSS #NewPipe #Metrolist #SimpMusic #OuterTune #Auxio #AntennaPod #InnerTune #NZik #Gabi #LecturaVerificada #FuenteFechada #RepublicaDominicana
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 08).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 10 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 1 hoy · 4 en 7 días · 2 en 30 días · 1 en 180 días · 2 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `z-huang/innertune` — dormido · última actividad 2025-11-13 · ★6.128 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `anandnet/harmony-music` — dormido · última actividad 2025-12-08 · ★3.091 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `hotaro26/gabi` — creado 2026-04-26 · última actividad 2026-09-30 · ★103 (verificado 29-oct-2026) · MIT.
+
+• `n-zik-group/n-zik` — creado 2025-05-17 · última actividad 2026-10-29 · ★278 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `n-zik-group/n-zik` — ★278 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release v8.5.0-dev-20261029 | 🔨 DEV Build (2026-10-29).
+
+• `antennapod/antennapod` — ★8.252 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release 3.12.3 (2026-10-13).
+
+• `teamnewpipe/newpipe` — ★40.347 (verificado 29-oct-2026) · última actividad 2026-10-27 · GPL-3.0.
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

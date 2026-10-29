@@ -229,3 +229,29 @@ mayordomo al día. Caja apilada. Caja apilada; nada borrado (protocolo: mapa-mae
 📌 ACTUALIZADO AL 15-OCT-2026 — censo de API de 22-sep-2026: App Manager ★9.237 (push 14-oct) · Termux ★62.664 · Obtainium ★20.428 (14-oct). Lo demás viaja fechado 22-sep-2026.
 
 #LaBandita #HerramientasFOSS #Fossify #KeePassDX #Aegis #LocalSend #Termux #AppManager #Shizuku #OrganicMaps #Obtainium #Orbot #LecturaVerificada #FuenteFechada #RepublicaDominicana
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 09).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 13 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 2 hoy · 6 en 7 días · 2 en 30 días · 2 en 180 días · 1 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `rikkaapps/shizuku` — dormido · última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `organicmaps/organicmaps` — ★15.808 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release 2026.09.29-32-android (2026-09-29).
+
+• `localsend/localsend` — ★96.416 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+
+• `guardianproject/orbot-android` — ★3.659 (verificado 29-oct-2026) · última actividad 2026-10-26 · licencia sin clasificar (NOASSERTION) · release Orbot for Android v17.9.7 RC 1 (tor 0.4.9.14) (2026-10-09).
+
+Licencias sin resolver hoy (4): `guardianproject/orbot-android`, `muntashirakon/appmanager`, `organicmaps/organicmaps`, `termux/termux-app`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

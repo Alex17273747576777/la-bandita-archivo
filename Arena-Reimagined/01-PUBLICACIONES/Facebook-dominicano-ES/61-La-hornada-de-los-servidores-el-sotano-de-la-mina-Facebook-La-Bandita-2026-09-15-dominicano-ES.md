@@ -42,3 +42,39 @@ Cada nombre es un repositorio de github.com/ con estrella raspada de su propia c
 > —Se anota que no dio. Aquí los ceros no se inventan — y las linternas, se vuelven a encender.
 
 > La Bandita verifica antes de recomendar: cincuenta y cuatro casas del sótano, la API cansada y el raspado honesto — todo pisado el 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan. Y cuando una vara se agota, la casa saca la otra.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 61).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 17 repos GitHub confirmados y 15 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 5 hoy · 9 en 7 días · 1 en 30 días · 0 en 180 días · 1 dormidos · 1 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `syncthing/syncthing-android` — ARCHIVADO · última actividad 2024-12-03 · ★4.293 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+• `newhinton/round-sync` — dormido · última actividad 2025-09-09 · ★2.411 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `researchxxl/syncthing-android` — creado 2025-10-29 · última actividad 2026-10-22 · ★3.189 (verificado 29-oct-2026) · MPL-2.0.
+
+• `chenxiaolong/basicsync` — creado 2025-11-29 · última actividad 2026-10-25 · ★730 (verificado 29-oct-2026) · GPL-3.0.
+
+• `iodn/android-ir-blaster` — creado 2025-03-10 · última actividad 2026-10-15 · ★602 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `owncloud/android` — ★4.175 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0.
+
+• `haiwen/seadroid` — ★637 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
+
+• `nextcloud/server` — ★37.338 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v35.0.2 (2026-10-15).
+
+Licencias sin resolver hoy (2): `photoprism/photoprism`, `haiwen/seadroid`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 15 apariciones; 15 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

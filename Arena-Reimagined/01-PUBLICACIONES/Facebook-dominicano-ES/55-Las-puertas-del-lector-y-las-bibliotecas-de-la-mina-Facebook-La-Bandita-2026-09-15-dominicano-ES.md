@@ -233,3 +233,49 @@ Cada nombre es un repositorio de github.com/. El censo entero vive en el Clasifi
 > —Con fechas. La foto puede esperar: la vida no.
 
 > La Bandita verifica antes de recomendar: las fechas mandan y el censo no recomienda — abre el mapa. Corte del 15 de septiembre de 2026.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 55).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 52 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 12 hoy · 12 en 7 días · 9 en 30 días · 12 en 180 días · 6 dormidos · 1 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `aarddict/android` — ARCHIVADO · última actividad 2015-05-09 · ★88 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+• `astubenbord/paperless-mobile` — dormido · última actividad 2026-04-18 · ★1.491 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `mateusz-bak/openreads` — dormido · última actividad 2026-01-07 · ★1.663 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `mshdabiola/notepad` — dormido · última actividad 2025-08-25 · ★131 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `rektpartyaftermath/legado-booksource-collection` — dormido · última actividad 2025-11-19 · ★15 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `v4lpt/myc` — dormido · última actividad 2025-11-19 · ★6 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `zwolken/light-novel-yuedu-source` — dormido · última actividad 2025-09-22 · ★449 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `itsmechinmoy/dantotsu` — creado 2025-08-07 · última actividad 2026-10-29 · ★92 (verificado 29-oct-2026) · licencia sin clasificar (NOASSERTION).
+
+• `chmouel/liseur` — creado 2026-07-28 · última actividad 2026-10-28 · ★164 (verificado 29-oct-2026) · MIT.
+
+• `materializr-cad/materializr` — creado 2026-05-27 · última actividad 2026-10-29 · ★169 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `samuelclay/newsblur` — ★7.674 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT · release Android_16.0.6 (2026-10-27).
+
+• `wikimedia/apps-android-wikipedia` — ★3.050 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release latest (2026-10-29).
+
+• `simonschubert/linuxcommandlibrary` — ★2.086 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release Release v4.9.1 (2026-10-14).
+
+Licencias sin resolver hoy (6): `itsmechinmoy/dantotsu`, `bibledit/android`, `lukeneedham/videodiary`, `nilsbraden/ttrss-reader-fork`, `plateaukao/einkbro`, `rektpartyaftermath/legado-booksource-collection`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

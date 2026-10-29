@@ -205,3 +205,43 @@ Porque su publicación pasó por el proceso de la tienda: paquete identificado, 
 ---
 
 **Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: Usagi ★257 viva, Kotatsu ★8.855, Redo ★867, Futon ★427, Kototoro v2.1.3. Lo no mencionado queda constado a su día (14-sep). Acta completa: Registro #71.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 07).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 12 repos GitHub confirmados y 17 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 1 hoy · 2 en 7 días · 2 en 30 días · 3 en 180 días · 0 dormidos · 4 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `kotatsuapp/kotatsu` — ARCHIVADO · última actividad 2025-11-04 · ★8.942 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+• `usagiapp/core-exts` — ARCHIVADO · última actividad 2026-06-28 · ★7 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+• `usagiapp/core-parsers` — ARCHIVADO · última actividad 2026-06-28 · ★2 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+• `appfuton/futon-parsers` — ARCHIVADO · última actividad 2026-03-26 · ★5 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `appfuton/futon` — creado 2025-12-07 · última actividad 2026-10-21 · ★467 (verificado 29-oct-2026) · GPL-3.0.
+
+• `invaliddavid/uma` — creado 2026-06-10 · última actividad 2026-10-25 · ★82 (verificado 29-oct-2026) · GPL-3.0.
+
+• `kototoro-app/kototoro` — creado 2025-10-28 · última actividad 2026-10-29 · ★650 (verificado 29-oct-2026) · Apache-2.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `kototoro-app/kototoro` — ★650 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release v2.3.4 (2026-10-29).
+
+• `usagiapp/usagi` — ★286 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release 2.0-beta1 (2026-10-19).
+
+• `invaliddavid/uma` — ★82 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release 83bcf88 (2026-10-22).
+
+Licencias sin resolver hoy (1): `gekkoushi/plugin`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 17 apariciones; 17 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

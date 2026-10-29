@@ -79,3 +79,37 @@ Esa pregunta no la responde esta casa: el reproductor es de código abierto y va
 > —Una sala de cine con proyector propio. Sillón, no incluido.
 
 > La Bandita informa a partir de fuentes fechadas. La sala se verifica como todo: fuente abierta hoy, ficha con fecha.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 23).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 11 repos GitHub confirmados y 10 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 6 hoy · 2 en 7 días · 0 en 30 días · 2 en 180 días · 0 dormidos · 1 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `mjlanddev/corncastle-anime-app` — ARCHIVADO · última actividad 2026-08-22 · ★80 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `riteshp2001/mpvrx` — creado 2026-04-22 · última actividad 2026-10-29 · ★859 (verificado 29-oct-2026) · AGPL-3.0.
+
+• `ahxn00/owntv` — creado 2026-06-11 · última actividad 2026-10-29 · ★698 (verificado 29-oct-2026) · GPL-3.0.
+
+• `damontecres/wholphin` — creado 2025-09-20 · última actividad 2026-10-28 · ★3.185 (verificado 29-oct-2026) · GPL-2.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `fellipitopv/nekovideo` — ★70 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release NekoVideo 1.9.1 - Faster Folder Navigation, Untagged Filter and UI Fixes (2026-10-22).
+
+• `riteshp2001/mpvrx` — ★859 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release mpvRx v3.0.2 (2026-10-25).
+
+• `luqmanfadlli/nuviomobile-enhanced` — ★698 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release 0.6.5-beta (2026-10-27).
+
+Licencias sin resolver hoy (1): `mjlanddev/corncastle-anime-app`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 10 apariciones; 10 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

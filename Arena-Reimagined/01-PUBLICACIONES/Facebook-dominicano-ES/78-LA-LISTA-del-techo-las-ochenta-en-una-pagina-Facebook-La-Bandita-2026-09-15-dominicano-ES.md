@@ -111,3 +111,21 @@ Cada título de esta lista es una pieza con gemela byte a byte en el corpus de l
 > —La lista no es la puerta ochenta y una: es la llave de las ochenta. Guárdala — las casas se heredan con llaves.
 
 > La Bandita verifica antes de recomendar: lista compuesta desde los archivos reales de la casa, 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan; los índices, se sostienen con lo que indexan.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 78).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 1 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 0 hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `jellyfin/jellyfin` — ★58.774 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-2.0 · release 12.4 (2026-10-26).
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

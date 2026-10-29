@@ -235,3 +235,15 @@ También los cajeros falsos expiden billetes. El negocio está en lo que recogen
 ---
 
 **Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta. Su veredicto es de método — el original no está y los clones no se recetan — y no caduca con el día. Acta completa: Registro #71.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 05).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0 repos GitHub confirmados y 13 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Enlaces web: 13 apariciones; 13 respondieron vivas el 29-oct-2026.
+
+Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario compartido; la verificación de esta publicación es la de sus URL y la del universo global de la pasada.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

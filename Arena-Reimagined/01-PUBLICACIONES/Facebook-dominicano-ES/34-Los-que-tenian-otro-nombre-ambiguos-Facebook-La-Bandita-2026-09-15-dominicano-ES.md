@@ -62,3 +62,37 @@ También es resultado: el radar dice «nombre sin casa a esta fecha». Si algún
 > —Lo que con cualquier pez: preguntarle al agua. Al catálogo, a la web, al fork que conoce a su madre. Nadó en cuanto le quitamos el árbol.
 
 > La Bandita verifica antes de recomendar: siete casas pisadas el 15 de septiembre de 2026, dos sucesiones documentadas y cuatro radares con su porqué. Las estrellas adornan; las fechas mandan.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 34).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 7 repos GitHub confirmados y 7 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 0 hoy · 2 en 7 días · 0 en 30 días · 3 en 180 días · 2 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `preethamkmr3/widgetspro` — dormido · última actividad 2026-01-20 · ★171 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+• `vegabobo/language-selector` — dormido · última actividad 2024-12-29 · ★785 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `eyalm2000/adns` — creado 2026-04-08 · última actividad 2026-10-22 · ★731 (verificado 29-oct-2026) · MIT.
+
+• `imtiaz-official/smart-edge` — creado 2026-03-11 · última actividad 2026-10-28 · ★442 (verificado 29-oct-2026) · MIT.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `imtiaz-official/smart-edge` — ★442 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release v1.3.7 (2026-10-26).
+
+• `eyalm2000/adns` — ★731 (verificado 29-oct-2026) · última actividad 2026-10-22 · MIT · release v2.1.8 (2026-10-03).
+
+• `exiarepairii/deskcontrol` — ★67 (verificado 29-oct-2026) · última actividad 2026-08-13 · GPL-3.0.
+
+Licencias sin resolver hoy (1): `preethamkmr3/widgetspro`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 7 apariciones; 7 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

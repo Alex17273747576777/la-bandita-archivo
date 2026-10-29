@@ -65,3 +65,37 @@ Ya pasó dos veces en esta misma guía: Estrella-Music (45) frente a un ancestro
 > —Una dinastía. En código abierto, nadie muere del todo: solo cambia de mantenedor.
 
 > La Bandita informa a partir de fuentes fechadas. Las sucesiones se verifican igual que todo: por el movimiento, no por el apellido.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 27).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 5 repos GitHub confirmados y 7 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 0 hoy · 2 en 7 días · 2 en 30 días · 0 en 180 días · 1 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `bobbyesp/metrolist` — dormido · última actividad 2025-05-13 · ★5 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `956tris/metrofuse` — creado 2026-05-03 · última actividad 2026-10-10 · ★185 (verificado 29-oct-2026) · GPL-3.0.
+
+• `fhox006/iride` — creado 2026-04-07 · última actividad 2026-10-26 · ★17 (verificado 29-oct-2026) · GPL-3.0.
+
+• `josprox/estrella-music` — creado 2025-01-10 · última actividad 2026-10-11 · ★46 (verificado 29-oct-2026) · licencia sin clasificar (NOASSERTION).
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `metrolistgroup/metrolist` — ★13.879 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release Metrolist Nightly (2026-10-25).
+
+• `fhox006/iride` — ★17 (verificado 29-oct-2026) · última actividad 2026-10-26 · GPL-3.0 · release Iride 0.1.0 Alpha 32 (2026-10-24).
+
+• `josprox/estrella-music` — ★46 (verificado 29-oct-2026) · última actividad 2026-10-11 · licencia sin clasificar (NOASSERTION) · release Estrella Music v2.4.4 (2026-10-11).
+
+Licencias sin resolver hoy (1): `josprox/estrella-music`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 7 apariciones; 7 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

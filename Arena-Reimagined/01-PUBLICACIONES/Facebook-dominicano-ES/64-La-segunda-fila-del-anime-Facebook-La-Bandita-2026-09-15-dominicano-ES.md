@@ -42,3 +42,33 @@ Cada nombre es un repositorio de github.com/ con estrella, fecha y rango del cen
 > La Bandita verifica antes de recomendar: segunda fila pisada HOY, 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan — y los ceros, se repasan.
 
 **Nota de la verificación extrema (15-sep, noche):** noticia del corte, constatada en cobertura pública del 8-sep: Nuvio fue suspendido de Google Play tras una queja DMCA de la MPA — seis títulos citados, según contó el propio equipo. La casa GitHub sigue viva HOY (NuvioTV, ★2.667) y circulan apps falsas con su nombre en la tienda: la instalación va por su casa, como siempre dice esta colección.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 64).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 13 repos GitHub confirmados y 12 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 4 hoy · 8 en 7 días · 1 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `mahlernim/google-timeline-visualizer` — creado 2025-12-16 · última actividad 2026-10-22 · ★3.057 (verificado 29-oct-2026) · MIT.
+
+• `nuviomedia/nuviotv` — creado 2026-02-01 · última actividad 2026-10-28 · ★3.265 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `xbmc/xbmc` — ★21.397 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION).
+
+• `videolan/vlc-android` — ★4.120 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-2.0 · release remoteaccess-0.26.0 (2026-10-29).
+
+• `immich-app/immich` — ★117.570 (verificado 29-oct-2026) · última actividad 2026-10-29 · AGPL-3.0 · release v3.3.5 (2026-10-22).
+
+Licencias sin resolver hoy (1): `xbmc/xbmc`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 12 apariciones; 12 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

@@ -241,3 +241,31 @@ Caja apilada; nada borrado. Caja apilada; nada borrado (protocolo: mapa-maestro)
 📌 ACTUALIZADO AL 15-OCT-2026 — censo de API de 22-sep-2026: Mihon ★24.385 (v0.21.2 del 13-oct, push 14-oct) · Aniyomi ★7.799 · Komikku ★4.872 con push de 22-sep-2026. Lo demás viaja fechado 22-sep-2026.
 
 #LaBandita #ForksLectores #Mihon #TachiyomiJ2K #Aniyomi #Anikku #Dantotsu451 #LecturaVerificada #FuenteFechada #RepublicaDominicana
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 06).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 4 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 0 hoy · 1 en 7 días · 1 en 30 días · 2 en 180 días · 0 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `rebelonion/dantotsu` — GitHub respondió HTTP 451 el 29-oct-2026 (no disponible por bloqueo legal). No se cita como repo accesible.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `komikku-app/anikku` — creado 2025-01-08 · última actividad 2026-10-05 · ★1.123 (verificado 29-oct-2026) · Apache-2.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `mihonapp/mihon` — ★24.829 (verificado 29-oct-2026) · última actividad 2026-10-26 · Apache-2.0 · release Mihon v0.21.3 (2026-10-26).
+
+• `komikku-app/anikku` — ★1.123 (verificado 29-oct-2026) · última actividad 2026-10-05 · Apache-2.0 · release r8944 (2026-10-05).
+
+• `jays2kings/tachiyomij2k` — ★5.399 (verificado 29-oct-2026) · última actividad 2026-09-21 · Apache-2.0.
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

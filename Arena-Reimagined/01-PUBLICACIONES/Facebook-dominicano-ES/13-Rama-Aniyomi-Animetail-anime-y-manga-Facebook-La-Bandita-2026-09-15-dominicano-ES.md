@@ -211,3 +211,41 @@ Comparte abuelo, pero su rama tiene pieza propia (la siguiente): allí vive su f
 ---
 
 **Nota de mudanza (15-sep):** guía pasada de la hornada del 14 a esta, con re-verificación contra las casas: Aniyomi ★7.683 + acta y rectificación Tadami. Lo no mencionado queda constado a su día (14-sep). Acta completa: Registro #71.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 13).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 13 repos GitHub confirmados y 16 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 2 hoy · 1 en 7 días · 3 en 30 días · 4 en 180 días · 1 dormidos · 2 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `aniyomiorg/aniyomi-extensions` — ARCHIVADO · última actividad 2024-07-11 · ★849 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+• `kohi-den/extensions-source` — ARCHIVADO · última actividad 2026-05-12 · ★532 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+• `aniyomiorg/aniyomi-preview` — dormido · última actividad 2025-07-05 · ★644 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `andarcanum/tadami-aniyomi-fork` — creado 2026-01-09 · última actividad 2026-10-29 · ★287 (verificado 29-oct-2026) · Apache-2.0.
+
+• `yuzono/anime-extensions` — creado 2026-02-06 · última actividad 2026-10-29 · ★522 (verificado 29-oct-2026) · Apache-2.0.
+
+• `blackyfi/aniyomi-revived` — creado 2026-05-29 · última actividad 2026-10-20 · ★1 (verificado 29-oct-2026) · Apache-2.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `andarcanum/tadami-aniyomi-fork` — ★287 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release Tadami v0.63.2 (2026-10-28).
+
+• `yuzono/anime-extensions` — ★522 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0.
+
+• `tadamiorg/tadami` — ★60 (verificado 29-oct-2026) · última actividad 2026-10-23 · licencia sin resolver · release Tadami v1.16.0 (2026-10-23).
+
+Licencias sin resolver hoy (1): `tadamiorg/tadami`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 16 apariciones; 16 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

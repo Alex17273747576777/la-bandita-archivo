@@ -114,3 +114,27 @@ Abre — para personas, no para máquinas. Su muro anti-bot es legítimo y está
 > —Corrió la biblioteca: Steam, Epic, GOG. Y lo que faltó por pagar, GDealz lo avisó gratis antes de que el bolsillo preguntara.
 
 > La Bandita informa a partir de fuentes fechadas. La emu se verifica como todo: enlace abierto hoy, ficha con fecha — y las puertas ajenas, respetadas.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 80).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 2 repos GitHub confirmados y 6 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 0 hoy · 1 en 7 días · 0 en 30 días · 1 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `winnative-emu/winnative` — creado 2026-03-07 · última actividad 2026-10-25 · ★731 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `winnative-emu/winnative` — ★731 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v0.8.0-beta (2026-10-12).
+
+• `rajkumarbhakta/gdealz` — ★55 (verificado 29-oct-2026) · última actividad 2026-08-01 · GPL-3.0.
+
+Enlaces web: 6 apariciones; 6 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

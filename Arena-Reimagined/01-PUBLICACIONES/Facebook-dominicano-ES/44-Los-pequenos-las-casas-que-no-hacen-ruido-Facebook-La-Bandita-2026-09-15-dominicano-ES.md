@@ -71,3 +71,37 @@ Otra vez la cuenca: cada familia construye la suya para su idioma, su pantalla, 
 > —Para el hueco exacto que las grandes no ven. El sofá, el remake, el taller de uno solo. Los pequeños no compiten con el mar: riegan la orilla.
 
 > La Bandita verifica antes de recomendar: trece casas menudas pisadas el 15 de septiembre de 2026 — una familia de tres, dos casas de un solo autor y tres declarados con su etiqueta. Las estrellas adornan; las fechas mandan. Y el hueco, elige.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 44).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 13 repos GitHub confirmados y 13 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 2 hoy · 3 en 7 días · 1 en 30 días · 6 en 180 días · 0 dormidos · 1 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `asrofficialdev/redantotsu` — ARCHIVADO · última actividad 2026-08-18 · ★152 (verificado 29-oct-2026). No leer como opción viva sin sucesor.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `marco-9456/anisync` — creado 2026-02-20 · última actividad 2026-10-28 · ★158 (verificado 29-oct-2026) · GPL-3.0.
+
+• `paduu29/komastream` — creado 2026-04-19 · última actividad 2026-10-26 · ★15 (verificado 29-oct-2026) · GPL-3.0.
+
+• `professordeveloper/sozo` — creado 2026-04-23 · última actividad 2026-10-23 · ★99 (verificado 29-oct-2026) · GPL-3.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `uwumilabs/uwumi` — ★28 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin resolver · release Release 4.0.0-rc.4 (2026-10-28).
+
+• `serene-brew/kaizen-app` — ★60 (verificado 29-oct-2026) · última actividad 2026-10-29 · MIT.
+
+• `marco-9456/anisync` — ★158 (verificado 29-oct-2026) · última actividad 2026-10-28 · GPL-3.0 · release v3.3.0 (2026-10-20).
+
+Licencias sin resolver hoy (5): `asrofficialdev/redantotsu`, `e18lab/nhapp`, `professordeveloper/sozo-tv`, `spyou/sozo-read`, `uwumilabs/uwumi`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 13 apariciones; 13 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

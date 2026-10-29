@@ -68,3 +68,37 @@ Porque es donde vive: la app se reparte por ahí. Fichar la app por un repo que 
 > La Bandita verifica antes de recomendar: once casas pisadas el 15 de septiembre de 2026, diez confirmadas por la vía oficial en tandas y cada genealogía con su etiqueta de fuente. Las estrellas adornan; las fechas mandan.
 
 **Nota de la verificación extrema (15-sep, noche):** noticia del corte, constatada en cobertura pública del 8-sep: Nuvio fue suspendido de Google Play tras una queja DMCA de la MPA — seis títulos citados, según contó el propio equipo. La casa GitHub sigue viva HOY (NuvioMobile, ★3.425) y circulan apps falsas con su nombre en la tienda: la instalación va por su casa, como siempre dice esta colección.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 37).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 13 repos GitHub confirmados y 10 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 4 hoy · 4 en 7 días · 3 en 30 días · 1 en 180 días · 1 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `miru-project/miru-app` — dormido · última actividad 2025-12-05 · ★5.783 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `itsmechinmoy/dantotsu` — creado 2025-08-07 · última actividad 2026-10-29 · ★92 (verificado 29-oct-2026) · licencia sin clasificar (NOASSERTION).
+
+• `itsmechinmoy/dantotsu-updater` — creado 2025-06-10 · última actividad 2026-10-26 · ★154 (verificado 29-oct-2026) · licencia sin resolver.
+
+• `kototoro-app/kototoro` — creado 2025-10-28 · última actividad 2026-10-29 · ★650 (verificado 29-oct-2026) · Apache-2.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `kodjodevf/mangayomi` — ★4.270 (verificado 29-oct-2026) · última actividad 2026-10-29 · Apache-2.0 · release v0.9.9 (2026-10-12).
+
+• `aayush2622/dartotsu` — ★545 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release v1.1.1 (2026-10-23).
+
+• `itsmechinmoy/dantotsu` — ★92 (verificado 29-oct-2026) · última actividad 2026-10-29 · licencia sin clasificar (NOASSERTION) · release Dantotsu v3.2.2+74ae756 (2026-10-29).
+
+Licencias sin resolver hoy (4): `aayush2622/dartotsu`, `itsmechinmoy/dantotsu`, `itsmechinmoy/dantotsu-updater`, `anisurge/app`. Sin licencia clara, la recomendación queda incompleta y así se firma.
+
+Enlaces web: 10 apariciones; 10 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

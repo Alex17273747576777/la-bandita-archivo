@@ -45,3 +45,21 @@ Y si tu casa juega UNA sola era: **un mapa de una placa es mapa igual**. El mapa
 > —Yo mido — dice la pared —, y tu teléfono es un depósito con cuatro partidas de 2023.
 
 > La Bandita verifica antes de recomendar: censo de la fila 71-80 medido el 18 de octubre de 2026, resta por resta. Las estrellas adornan; las fechas mandan — y el salón se mide antes de jugarse.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 80).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 1 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 1 hoy · 0 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `scummvm/scummvm` — ★2.870 (verificado 29-oct-2026) · última actividad 2026-10-29 · GPL-3.0 · release ScummVM 2026.4.0 "Never-slop" (2026-10-11).
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

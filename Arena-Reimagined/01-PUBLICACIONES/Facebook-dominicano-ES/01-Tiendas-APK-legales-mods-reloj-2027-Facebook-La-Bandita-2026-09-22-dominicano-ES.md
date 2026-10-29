@@ -568,3 +568,35 @@ almacenes con push fresco. Caja apilada. Caja apilada; nada borrado (protocolo: 
 ━━━━━━━━━━━━━━━
 
 #LaBandita #TiendasAPK #AndroidLibre #FDroid #Sideloading #VerificaAntesDeInstalar #EcosistemaLibre #Shizuku #NoAlMod #KeepAndroidOpen #FuenteFechada #RepublicaDominicana
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 01).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 11 repos GitHub confirmados y 47 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 0 hoy · 4 en 7 días · 4 en 30 días · 2 en 180 días · 1 dormidos · 0 archivados.
+
+*Alertas de continuidad (verificadas el 29-oct-2026):*
+
+• `rikkaapps/shizuku` — dormido · última actividad 2025-06-18 · ★32.357 (verificado 29-oct-2026). Queda como historia, no como recomendación fresca.
+
+*Señales de futuro (novedad activa, no ranking por estrellas):*
+
+• `bikram-agarwal/obtainx` — creado 2026-02-25 · última actividad 2026-10-04 · ★1.555 (verificado 29-oct-2026) · GPL-3.0.
+
+• `carlelieser/yuki` — creado 2026-09-06 · última actividad 2026-10-12 · ★156 (verificado 29-oct-2026) · MIT.
+
+• `komi-store/komi-store` — creado 2025-11-21 · última actividad 2026-10-25 · ★20.082 (verificado 29-oct-2026) · Apache-2.0.
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `neoapplications/neo-store` — ★5.568 (verificado 29-oct-2026) · última actividad 2026-10-23 · GPL-3.0 · release Release 1.3.3 (2026-10-23).
+
+• `imranr98/obtainium` — ★21.002 (verificado 29-oct-2026) · última actividad 2026-10-25 · GPL-3.0 · release v1.7.3 (2026-10-25).
+
+• `komi-store/komi-store` — ★20.082 (verificado 29-oct-2026) · última actividad 2026-10-25 · Apache-2.0 · release 🩹 Komi Store 1.9.4 (2026-10-24).
+
+Enlaces web: 47 apariciones; 47 respondieron vivas el 29-oct-2026.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

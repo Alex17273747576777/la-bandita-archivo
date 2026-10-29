@@ -32,3 +32,21 @@ Zygisk-Assistant (MIT) esconde el root pa las apps que lo exigen — y la línea
 > —Yo alimento familias — dice la regleta —, y el tuyo es una ruleta con fondo de pantalla.
 
 > La Bandita verifica antes de recomendar: fila root II pulsada el 18 de octubre de 2026, resta por resta, licencia por licencia. Las estrellas adornan; las fechas mandan — y la raíz se enchufa con ley, nunca con suerte.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 82).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 1 repos GitHub confirmados y 0 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Actividad medida hoy: 0 hoy · 1 en 7 días · 0 en 30 días · 0 en 180 días · 0 dormidos · 0 archivados.
+
+Continuidad: sin archivados, dormidos ni enlaces GitHub caídos entre lo atribuido a esta publicación (verificado 29-oct-2026).
+
+*Placas de control (por actividad y juventud, no por fama):*
+
+• `awesome-android-root/awesome-android-root` — ★5.562 (verificado 29-oct-2026) · última actividad 2026-10-28 · MIT · release 6.1 (2026-10-26).
+
+Enlaces web: esta publicación no trae URL explícitas fuera de los repos citados.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.

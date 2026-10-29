@@ -40,3 +40,15 @@ Mapa completo de tiendas y sitios: **ANEXO FORJAS del Clasificador**.
 > —La forja es la cocina; la tienda, el comedor. El plato puede ser el mismo — la receta, no.
 
 > La Bandita verifica antes de recomendar: F-Droid consultado por su API pública y tiendas sondeadas el 15 de septiembre de 2026. Las estrellas adornan; las fechas mandan.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (Facebook 70).*
+
+Alcance: se re-verificaron el 29-oct-2026 los repos y enlaces atribuidos a esta publicación: 0 repos GitHub confirmados y 9 apariciones de URL. La historia no se reescribe; esta nota añade el estado medido hoy.
+
+Enlaces web: 9 apariciones; 9 respondieron vivas el 29-oct-2026.
+
+Nota de alcance: no se atribuyeron repos GitHub individuales verificables fuera del glosario compartido; la verificación de esta publicación es la de sus URL y la del universo global de la pasada.
+
+Vara de cierre: futuro y actividad comprobable antes que aplauso. La historia conserva su fecha; el pulso de hoy dice qué sigue vivo, qué duerme y qué ya no resuelve.
