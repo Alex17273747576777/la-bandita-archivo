@@ -487,12 +487,6 @@ Su vara fina: el teléfono del viaje (si la casa puede: SU aparato pa el juego �
 
 *Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
-
 *Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
 
 *Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
@@ -529,21 +523,11 @@ Gaveta de mamá|La de los UMD con celo: los discos del hermano guardados «por s
 
 Pila del 2010|La del hermano mayor: la partida que la mudanza interrumpió — continuando en el teléfono del muchacho. La visita del domingo — con partida de vuelta.
 
-Pantalla del asiento de atrás|La del autobús compartido: el juego pasando de mano en mano con celo. El recuerdo del liceo — resucitado por la bolsilla.
-
-Confesorio del oro|El de los saves por dueño: cada partida en SU carpeta, cada era con SU gente. El cofre del viaje — sin mezclas, como toda la casa.
-
-Pila del 2010|La del hermano mayor: la partida que la mudanza interrumpió — continuando en el teléfono del muchacho. La visita del domingo — con partida de vuelta.
-
 Escala honesta|La lista de los discos exigidos: lo que pide más caja, anotado en la gira. El salón — corriendo lo que faena y diciendo lo que no.
 
 Ritual del viajero|El del save en cada parada: la partida guardándose como el agua del trayecto. La batería puede morir — la partida, jamás.
 
 Lector del club|El del barrio prestado y honesto: la tarde del estante colectiva, cada quien con SU disco. El volcado comunitario — con firma de dueño.
-
-Perfil del trayecto|El ajuste de cada disco exigido: probado y anotado con fecha — la gira del viaje. El autobús — a fluidez; los tirones — jubilados.
-
-Gaveta de mamá|La de los UMD con celo: los discos del hermano guardados «por si acaso». El cofre del viaje — esperando su tarde del estante.
 
 Torneo del recreo|El del liceo: los veinte minutos del descanso jugando la era — cada muchacho con SU volcado, la ley en la pizarra. El campeón — con acta en el cuaderno del grupo.
 

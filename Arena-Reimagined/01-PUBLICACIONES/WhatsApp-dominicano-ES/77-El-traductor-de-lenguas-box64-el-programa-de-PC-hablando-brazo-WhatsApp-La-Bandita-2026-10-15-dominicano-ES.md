@@ -503,12 +503,6 @@ Suma la vara fina: la versión anterior guardada (el retroceso: siempre disponib
 
 *Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
-
 *Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
 
 *Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
@@ -549,11 +543,7 @@ Confesorio del oro|El de los saves por dueño: cada partida en SU carpeta, cada 
 
 Puerta del traductor|La que abre sin agujeros: el programa legítimo entra con SU licencia — el tacho con sus 300 agujeros, jamás.
 
-Cofre del taller|El de la planta entera: configuraciones, binarios licenciados y libretas — en dos discos junto a la 59. La reinstalación — de minutos.
-
 Cuota del idioma|La del aparato comprado dos veces: el segundo aparato pa correr lo que el primero ya debía. La cuota — jubilada por el traductor.
-
-Hornada del brazo|La del binario correcto: el traductor compilado pa TU procesador — jamás la hornada ajena. La planta — con SU casa.
 
 Mini del taller|La del papá mecánico: la caja nueva del brazo corriendo la herramienta vieja del oficio. El diagnóstico — vivo; el taller — sin renunciar a na.
 

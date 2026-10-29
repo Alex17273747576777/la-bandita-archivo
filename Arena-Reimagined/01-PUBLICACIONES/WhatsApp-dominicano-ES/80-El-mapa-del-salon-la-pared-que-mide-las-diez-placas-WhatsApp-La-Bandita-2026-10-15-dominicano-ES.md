@@ -499,12 +499,6 @@ Otra vara fina: la puerta del cofre (la placa dormida: esperando SU tarde — el
 
 *Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
-
 *Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
 
 *Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
@@ -556,16 +550,6 @@ Mapa de una placa|El de la casa de una era: SU receta, SU cofre, SU gira — el 
 Censo en la gira|El del repaso mensual: las estrellas re-pulsadas, las edades contadas — la pared siempre HOY. El mapa — vivo como la casa.
 
 Salón en pie|El del día siete: placas con ley, cofre con póliza, pizarra firmada — la casa jugando como se dibujó. La fila 71-80 — cerrada y viva.
-
-Mesa del censo|La del repaso de la gira: las diez placas con su estrella y su edad leyéndose en voz alta — la familia contando el salón como se cuenta la cosecha. La libreta — con su fecha.
-
-Cuota de la verdad|La de la tarde del inventario: nombrar lo que se juega y lo que duerme, sin decorar la lista — la honestidad como primer mueble del salón. La casa — desnudándose en paz.
-
-Llave del cofre maestro|La única: el disco dos fuera de casa, la copia del taller, la prueba del desastre en la gira — el oro del salón con su puerta doble. La mudanza — sin llantos ni milagros.
-
-Rincón de la vitrina|El del fanatismo viejo: las placas por decorado, compradas pa «completar» — jubiladas por la regla de la verdad. El mapa — de la casa, jamás del escaparate.
-
-Acta del campeón|La del torneo del club: el ganador con fecha y era en el cuaderno, junto al cofre del club — el barrio documentando sus salones. La pizarra — firmando la historia.
 
 Mesa del censo|La del repaso de la gira: las diez placas con su estrella y su edad leyéndose en voz alta — la familia contando el salón como se cuenta la cosecha. La libreta — con su fecha.
 

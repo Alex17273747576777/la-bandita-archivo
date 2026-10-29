@@ -40,8 +40,6 @@ El mayordomo promete orden sin filas (promesa de obediencia), y la vara cruza pr
 
 La escalera de protocolos heredada, aplicada aquí con lápiz y sin prisa: cada mueble de esta fila promete una manera de guardar que es un protocolo con ropa de familia. El cajón promete presencia local (promesa de simpleza). El servidor promete soberanía con cortinas (promesa de higiene).
 
-El mayordomo promete orden sin filas (promesa de obediencia), y la vara cruza promesa contra papel: el único protocolo que aquí no se cobró fue el del cuarto oscuro dependiendo de casa ajena, porque su casa es «tu casa con PC». La pieza deja la escalera paralela en tres filas, para el mapa vivo: presencia, soberanía y orden no compiten, se entrenan.
-
 El repaso del examen en voz de la abuela, que esta casa promete repetir en cada pieza del capítulo: «el mueble se prueba en mi mesa, papá». Traducción de taller: las demostraciones de YouTube no comptan como adopción; se prueba en el teléfono real y en la tele real.
 
 La usuaria mayor es el laboratorio de la galería, y su veredicto (dos toques, grandes los botones, no me pide contraseña rara cada vez) pesa más que el ranking del censo. La casa lo deja firmado porque el capítulo que viene (las piezas del día a día) vive con abuelas, tíos y primos en cada página, y a todos se les debe un mueble que puedan abrir sin pedir perdón.
@@ -194,10 +192,6 @@ Los tres muebles de la pieza saben de permisos; el examen de las seis varas ahor
 
 La escalera de la vergüenza de la galería, vista peldaño a peldaño en el taller, conviene declararla: peldaño uno, el álbum viviendo solo en el teléfono «porque nunca pasa nada». Peldaño dos, el «ya lo paso algún día» que ve pasar tres teléfonos. Peldaño tres, la nube ajena abierta por el teléfono sin que nadie firmara nada (el hospedaje inadvertido).
 
-Peldaño cuatro, el llanto (la pantalla negra del jueves). La serie no se burla del peldaño cuatro — lo ha acompañado en vecinas y primos — pero la doctrina de la escalera dice que se baja igual que se sube: paso a paso. Cajón primero, salida exportada después, servidor cuando la casa lo pida.
-
-Y la vergüenza bien administrada es combustible: quien lloró un álbum una vez se convierte en el guardián de fotos más firme del barrio.
-
 *🩹 LOS MALENTENDIDOS DE LA GALERÍA — LA MESA DE LOS ERRORES* · «La nube de siempre ya me guarda, ¿pa qué mueble?»: el malentendido del huésped eterno — vivir de huésped no es pecado, pero el huésped no tiene llaves ni papel: el día que la casa ajena cambie el precio o el candado, tu álbum negocia sin ti.
 
 Y si eliges nube ajena, elígela sabiendo que firmas hospedaje, no propiedad. «El servidor es cosa de ingenieros»: el malentendido del que no contó su tarde — el sexto mueble del censo es un servidor de fotos: millones de casas normales ya lo prendieron, y su vara es una tarde y un PC viejo, no un título en la pared.
@@ -281,8 +275,6 @@ La casa inventarió el kit en plena mudanza de la abuela y promete ensamblarlo c
 La última entrada de la libreta de hoy tiene forma de objeción benévola, y se deja escrita para el lector exigente: «¿y si los tres muebles fallan mañana el papel o el pulso?» — la respuesta de la casa es la segunda foto del capítulo, que volverá a medir esta misma fila antes de que la serie siga a la siguiente sala.
 
 No es promesa de adivino: es calendario, que es lo más que una casa honesta puede firmar sobre el futuro de los demás.
-
-El precedimiento umbral entre esta pieza y la que baja ya enumerado en el acta del taller: la galería deja tres muertos sobre la mesa para que la pieza del sótano los levante — el teléfono que muere, la casa que se muda y heredero que pueda seguir entrando al álbum.
 
 A ese bajo tierra le toca la doctrina de las copias y el testamento; la galería aporta la evidencia: cada mueble medido con placa y papel (la contabilidad de la herencia no se improvisa el día del luto). El umbral queda ocupado por la frase de la 106: si cada parte tiene su vara, la prueba de ensamble empieza con las piezas sobre la mesa y sus nombres escritos.
 
@@ -467,12 +459,6 @@ El compromiso de La Bandita, el de siempre: placa, papel y fecha en la misma lí
 *Muro FB.* La fila de piezas gemelas que la casa publicaba en Facebook. Desde el 15-oct noche: la serie 21+ va sin muro — WhatsApp puro. La ley del dueño, anotada con fecha y sin melcocha.
 
 *Índice.* El mapa de una pieza: el árbol de esta guía. Un árbol único por pieza, con secciones y tiempos — el lector sabe dónde está parado y cuánto falta pa la parada.
-
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
 *Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
 

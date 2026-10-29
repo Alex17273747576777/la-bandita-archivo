@@ -497,12 +497,6 @@ La otra vara fina: el aparato del libro (si la casa puede: SU aparato pa el jueg
 
 *Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
-
 *Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
 
 *Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
@@ -532,18 +526,6 @@ Cerebro de la tarde|El de la mamá: el rompecabezas del DS en SU rato de café �
 Tarde del cajón|La del lector fino en el club: cada quien con SU cartucho, cada rom con SU firma. El leído comunitario — de oficio.
 
 Confesorio del oro|El de los saves por dueño: cada intercambio en SU carpeta, cada era con SU gente. El cofre del libro — sin mezclas.
-
-Domingo del intercambio|El de los primos: dos aparatos, un wifi local, el oro social moviéndose — la era criando el recreo de HOY.
-
-Gira del libro|La mensual de la doble: perfiles revisados, saves respaldados, cartuchos pendientes por tandas. El ritual — como toda la casa seria.
-
-Lápiz de HOY|El del control elegido: el toque en pantalla o el mando de siempre — el lápiz de la infancia, jubilándose con honor.
-
-Confesorio del oro|El de los saves por dueño: cada intercambio en SU carpeta, cada era con SU gente. El cofre del libro — sin mezclas.
-
-Tarde del cajón|La del lector fino en el club: cada quien con SU cartucho, cada rom con SU firma. El leído comunitario — de oficio.
-
-Cerebro de la tarde|El de la mamá: el rompecabezas del DS en SU rato de café — veinte minutos, el save en cada tanda. La pausa — con era.
 
 Domingo del intercambio|El de los primos: dos aparatos, un wifi local, el oro social moviéndose — la era criando el recreo de HOY.
 

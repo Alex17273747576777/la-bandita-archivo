@@ -521,12 +521,6 @@ Llevando vara fina: el plan B con ley (la versión nueva del manto: de SU forja 
 
 *Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
-
 *Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
 
 *Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
@@ -567,29 +561,7 @@ Manto|La pieza ochentacuarta: el módulo MIT (★2.645, pulso 19-oct-2026) que o
 
 Lista corta|La del manto con guion: SOLO las apps exigentes — la transparencia por default. El telón sin guion — jubilado.
 
-Prueba HOY|La única vara del manto: TU app, TU cuenta, TU teléfono — abriendo. La fama del tacho — jubilada; la cicatriz — anotada.
-
-Línea de la casa|La de TU cuenta, jamás la ajena: el engaño a tercero — puerta del chisme. La discreción — fina; la sombra — jamás.
-
-Gira del manto|La mensual del primer domingo: la re-prueba cazando el detector nuevo. La puerta — con gira; el plan B — con ley.
-
 Cicatriz anotada|La de la app que cierra: fecha, versión del manto, decisión — la libreta con datos. La fama — jubilada.
-
-Ensayo de transparencia|El del manto pausado: las forjas de confianza viendo la raíz — diagnósticos claros. La lista — afinada.
-
-Manto de SU forja|El de snake-4 con SU MIT: la letra clara desde el día uno. El zip del tacho — la coherencia de la casa lo jura.
-
-Detector nuevo|El del banco que actualiza: cazado por la re-prueba mensual — la puerta re-abriéndose con gira. La suerte — jubilada.
-
-Cartel del rechazo|El del «teléfono rooteado»: la jaula de la mesa — jubilado por el manto con ley. La casa — sin elegir.
-
-Abrigo con acta|El del hijo de la genealogía: pa las tres paredes, con lista y gira — la discreción completa. El club — con acta.
-
-Peaje del puente|El de la prueba mensual: el puente entre el oficio y la economía — cruzándose con gira. Jamás con suerte.
-
-Lista pública|La del club: leída en voz alta entre los de la mesa — la discreción fina no es secretismo. La vara — compartida.
-
-Forja serena|La del push de mayo (4-may-2026): el módulo que faena sin tambor — el silencio como oficio. La constancia — sin fama.
 
 Manto del colmado|El del compaya cobrando: SU banco abriéndose con la raíz en pie — la prueba con fecha. El negocio — sin jaula.
 

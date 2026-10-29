@@ -499,12 +499,6 @@ La salida fina: la vara de la bodega ANTES (la regla de la fila: los repos grand
 
 *Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
-
 *Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
 
 *Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
@@ -578,8 +572,6 @@ Notas con permiso|Las del liceo: por maestro, SU grupo — jamás en repo públi
 Vitrina con vara|La del proyecto público: el portafolio sale, el tráfico grande espejo. El mundo visitando la cocina — con vara de tráfico.
 
 Tesorero con clon|El del caso siete: la historia entera de la caja, en su bolsillo. El libro del año — en tres sitios.
-
-Gira con memoria|La de la forja: los espejos probados, los commits leídos, el disco revisado. El taller — leyendo su propia historia.
 
 Año del maestro|El del liceo: las planificaciones con SU historia, año por año. El cuaderno del maestro — con memoria de forja.
 

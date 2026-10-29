@@ -545,12 +545,6 @@ Falta la llave fina: la poda honesta (repo muerto: fuera del estante; módulo si
 
 *Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
-
 *Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
 
 *Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
@@ -587,35 +581,17 @@ Póliza del estante|La de la libreta respaldada: módulos y repos también en pa
 
 Orden como raíz|La medida fina de la tienda: la casa que sabe lo que monta — la que nunca se ladronea. El estante — la escuela del orden.
 
-Vitrina con vara|La de mostrar sin montar: la tienda lista, el dueño revisa la forja ANTES. La vara — siempre en mano del dueño.
-
 Estante por familia|El ordenado por faena: audio, batería, sistema, escondite — la búsqueda en segundos. La carpeta de descargas — jubilada.
 
 Mostrador con libreta|El de los módulos montados: estado, versión y fecha a la vista — la libreta del enchufe encarnada. La gira — en minutos.
 
-Repo claro o fuera|La regla del estante: forja revisada ANTES de listar, con fecha en la libreta. La vitrina — sin estantes falsos.
-
-Revisión fechada|La de cada repo del estante: cuándo se revisó la forja y quién — la auditoría siempre posible. La gira — re-revisando.
-
 Cajón jubilado|El de la carpeta de descargas: los zips sin nombre ni dueño — borrados con calma. El cementerio — cerrado pa siempre.
 
-Base primero|La orden de la fila: raíz (66), enchufe (82), estante (83). Sin base — vitrina vacía. El saltó-de-pisos — jubilado.
-
 Regla de la una|La de siempre mandando en la tienda: UN módulo, UN día de prueba — el botón «actualizar todo» jamás manda. La casa impone la ley.
-
-Poda honesta|La de la gira: repo muerto fuera del estante, módulo sin faena fuera del teléfono. El orden — criando el root sano.
-
-Gira del estante|La mensual del primer domingo: repos y versiones re-pulsados, estados revisados. El mostrador — vivo como toda la casa.
-
-Revisión cruzada|La de cuatro ojos: otro compaya leyendo TU estante — las dudas con vara, el acta anotada. El club — criando estantes serios.
-
-Póliza del estante|La de la libreta respaldada: módulos y repos también en papel — la mudanza sin arqueología. El estante — viajando con ley.
 
 Coherencia del mueble|La de la tienda de SU forja: el estante del orden NO puede ser el mueble robado. La vara — pa todo lo de la fila.
 
 Diferencia fina|La de mostrar y montar: la vitrina no firma nada — la casa firma TODO. La vara de la 58 — más viva que nunca.
-
-Orden como raíz|La medida fina de la tienda: la casa que sabe lo que monta — la que nunca se ladronea. El estante — la escuela del orden.
 
 Placa chica|La del cimiento sin ruido: la octava por estrellas (★2.209, pulso 18-oct-2026) y la primera en orden de casa. El colmado — con su balanza mayor.
 

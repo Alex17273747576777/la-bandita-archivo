@@ -503,12 +503,6 @@ Con vara fina: la carpeta limpia (el teléfono del liceo: limpio de tachos — S
 
 *Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
-
 *Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
 
 *Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
@@ -545,17 +539,7 @@ Gira del cajón|La mensual del eterno: perfiles revisados, saves respaldados, ca
 
 Recreo de la campana|El del torneo con ley: veinte minutos, save prohibido, el acta en el cuaderno. El campeón — sin asterisco; la era — criando viajeros honestos.
 
-Confesorio del oro|El de los saves por dueño: cada partida en SU carpeta, cada era con SU gente. El cofre de bolsillo — sin mezclas.
-
-Gira del cajón|La mensual del eterno: perfiles revisados, saves respaldados, cartuchos pendientes por tandas. El ritual — como toda la casa seria.
-
-Cable de link|El del recreo compartido: la partida de dos en la era de bolsillo. El recreo del liceo — resucitado por el cartucho.
-
-Cajón de los tornillos|El de los cartuchos guardados: los juegos del papá «por si acaso». El cofre eterno — esperando su tarde del rescate.
-
 Recreo de la campana|El del torneo con ley: veinte minutos, save prohibido, el acta en el cuaderno. El campeón — sin asterisco.
-
-Precisión de ciclo|La del salón de bolsillo: cada ciclo del procesador, respetado — el juego corriendo como el primer día. La era — sin changüí.
 
 Cirugía de la pila|La del destornillador fino: la CR2032 cambiada con oficio, después del volcado — el cartucho con años de vida. La partida — primero.
 

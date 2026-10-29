@@ -509,12 +509,6 @@ Suma la vara fina: la póliza del disco (cada volcado: a dos discos ANTES de arc
 
 *Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
-
 *Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
 
 *Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
@@ -548,10 +542,6 @@ Lector de memoria|El aparato fino del volcado: la memory card se LEE sin tocarla
 Partida a medias|La del hermano en la memory card: guardada en 1998 y terminada HOY en la tele nueva. La era — pagando su deuda con la familia.
 
 Gaveta de mamá|La de la PS1 con el lente cansado: la consola guardada «por si acaso». El cofre fino — esperando su tarde del rescate.
-
-Torneo del club|El del comité: los sábados con ley en la pizarra, cada jugador con SU volcado. El campeón — con acta en el cuaderno del club.
-
-Lector de memoria|El aparato fino del volcado: la memory card se LEE sin tocarla — el original volviendo a la gaveta intacto. El oro — copiado antes de tocar.
 
 Torneo del club|El del comité: los sábados con ley en la pizarra, cada jugador con SU volcado. El campeón — con acta en el cuaderno del club.
 

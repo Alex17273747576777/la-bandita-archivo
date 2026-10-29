@@ -499,12 +499,6 @@ Otra vara fina: la pizarra del taller (la ley del horno: escrita junto a la del 
 
 *Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
-
 *Colmado.* La bodega del barrio: lo tienes todo cerca, te fiarán la libreta, pero el catálogo es el que cabe en el estante. En esta pieza, la escuela del puente con factura propia — respetada, y ajena al censo.
 
 *Puerta al viento.* Vivir de un solo río sin cajón propio: la casa abierta cuando el provedor muda la puerta. El antídoto cabe en una línea — descarga lo que amas, streamea lo que descubres.
@@ -540,18 +534,6 @@ Confesorio del oro|El de los saves por dueño: cada cuento en SU carpeta, cada c
 Gira de la biblioteca|La mensual de los relatos: perfiles revisados, saves respaldados, CDs pendientes por tandas. El ritual — como toda la casa seria.
 
 Cuento con actores|El del CD con voz: los relatos que se contaban solos — sonando HOY como sonaban. La era dorada — jugándose entera.
-
-Confesorio del oro|El de los saves por dueño: cada cuento en SU carpeta, cada capítulo con SU gente. La biblioteca — sin mezclas.
-
-Cuento con actores|El del CD con voz: los relatos que se contaban solos — sonando HOY como sonaban. La era dorada — jugándose entera.
-
-Tarde del estante|La de la compu leyendo SU disco: los CDs de la era copiándose con respeto. El leído comunitario del club — de oficio.
-
-Lector criado|El muchacho que lee por resolver: el acertijo enseñando a leer — la era bibliotecaria como maestra. El liceo — con milagro.
-
-Cofre del relato|El de la biblioteca entera: CDs leídos, saves narrativos y libretas — en dos discos junto a la 59. La mudanza — sin llantos.
-
-Gira de la biblioteca|La mensual de los relatos: perfiles revisados, saves respaldados, CDs pendientes por tandas. El ritual — como toda la casa seria.
 
 Pirata del 97|El del CD de la casa: el cuento que la familia leyó entera un año — volviendo a la tele con SU voz. El sofá — con su héroe.
 

@@ -50,31 +50,7 @@ La pieza adopta hoy esa traducción como doctrina editorial de este capítulo: c
 
 (El lector que monte servidores puede saltar al examen de seis varas; el que firma testamento en la cocina empieza en los doce pasos.)
 
-El repaso de la sucessión, que es la escena central de esta pieza y merece su mapa: un tronco grande, un descend directo archivado por su casa, una rama laboral que empuja semanalmente y espejos que importan carpetas sin pedantería. No es un drama; es la genealogía adulta del sótano.
-
-Todo ecosistema que no le escribe el relevo llora en el primer velorio técnico, con la familia mirando una pantalla negra. La vara: si tu guardián tiene apellido y rama verificada con empuje fechado, la sucesión está firmada por adelantado, y eso, en un sótano, vale más que otra década de medallas del tronco.
-
 La escalera de cristal del sótano, ordenada desde el peldaño más bajo que se puede pisar este mismo sábado: peldaño uno, una carpeta copiada a mano con fecha y libreta. Peldaño dos, el guardián de carpeta cifrado con su primera restauración firmada. Peldaño tres, el espejo con la casa de la comadre y permisos dichos.
-
-Peldaño cuatro, la copia de fuera y la hoja del testamento firmada en familia. Peldaño cinco, el teléfono entero (con guardián de raíz si toca) y el PC de la casa de al lado con la llave dividida.
-
-Los peldaños se pisan sin saltar porque cada uno verifica el anterior; quien salta del uno al cinco descubre en la primera noche oscura que tiene una bóveda sin contraseña o un espejo sin pareja. La doctrina completa en una frase: sube el sótano como quien sube una escalera con un cubo de agua — un peldaño por vez y sin derramar el pulso.
-
-Los agujeros que el sótano honesto debe decir sobre su propio piso antes de que el lector los pise: el plan de tres casas falla si las tres copias viven en la misma cuadra eléctrica (todo el edificio comparte el mismo apagón glorioso).
-
-El arreglo es de barrio: la copia de fuera de casa tiene que estar fuera del mapa del huracán local (de la prima que vive en otro municipio y no en la casa de al lado). La vara aplicada: la distancia se mide en adversidad (incendio, huracán, apagón), no en metros.
-
-El repaso de la sucessión, que es la escena central de esta pieza y merece su mapa: un tronco grande, un descend directo archivado por su casa, una rama laboral que empuja semanalmente y espejos que importan carpetas sin pedantería. No es un drama; es la genealogía adulta del sótano.
-
-Todo ecosistema que no le escribe el relevo llora en el primer velorio técnico, con la familia mirando una pantalla negra. La vara: si tu guardián tiene apellido y rama verificada con empuje fechado, la sucesión está firmada por adelantado, y eso, en un sótano, vale más que otra década de medallas del tronco.
-
-Los tres pabellones del sótano, ordenados en el mapa de la casa para que nadie confunda de nuevo el marco con la bóveda: el pabellón de la galería (arriba, con luz, donde el álbum se enseña). El pabellón del respaldo (abajo, sin luz, donde duermen las copias fechadas).
-
-Y el corredor de las llaves (entre ambos, con las hojas del testamento, las claves copiadas con método, y el registro de los pulsos de los guardianes.
-
-La mesa del taller convierte hoy está geografía en doctrina de mostrador: cada outil tiene su pabellón; el error grande de los sótanos fallidos no fue la herramienta, fue colgar la bóveda en la pared de la galería con una puntilla de sincronía. Quien firma la casa con los tres pabellones dibujados sabe dónde va cada cosa antes de comprar el primer disco.
-
-La segunda foto del sótano la asume el calendario de esta casa como promesa no retórica. El capítulo intermedio volverá a bajar con el pulso entero: medirá la rama viva (si sigue empujando semanal), el tronco (si su archivo se mueve o sigue cerrado con llave educada) y los tres pabellones por separado.
 
 Porque el guardián de la carpeta no responde por el del teléfono, y la sincronía no puede seguir pagando la fianza del respaldo.
 
@@ -140,16 +116,6 @@ El taller asiste al funeral con la linterna encendida: no llorando al muerto sin
 
 La escalera de la vergüenza del sótano, que la casa ha bajado peldaño a peldaño antes de escribir doctrina: peldaño uno, el «ya yo lo guardé» sin que nadie viera dónde. Peldaño dos, la copia doble en el mismo aparato (carpeta y su prima «final 2»). El peldaño tres, la esperanza de que el teléfono no se dañe nunca más porque «ya gastó la cuota».
 
-Peldaño cuatro: la restauración que se intenta el día del duelo con lágrimas y sin acta, memorizando claves que ya nadie recuerda. La casa baja la vergüenza por los mismos escalones que subió: nombrando a los que cayeron, enseñando el calendario del huracán y poniendo en la mesa el disco de la prima.
-
-La doctrina: la vergüenza bien confesada es combustible para subir la escalera con cubo de agua, mientras que el silencia la convierte en piedra.
-
-La trampa del parecido, que este sótano comparte con toda fila de buenos guardianes: dos respaldos pueden verse idénticos en la pantalla (mismo círculo verde de «sincronizado», mismo porcentaje de la barra) y ser uno una bóveda y otro un espejo.
-
-El parecido engaña al comprador honesto, y la vara lo desarma con un solo gesto publicado en la semana del censo: intenta restaurar la carpeta más vieja con la red desconectada. Quien pasa la prueba es respaldo; quien solo copia el presente en vivo es sincronía, y tiene que sentarse en su pabellón.
-
-La medición se vuelve decisión familiar sin perder la fecha: la denominó la casa «la prueba del ocho», porque quien la corre durante el simulacro nota en ocho minutos si su sótano respira o si solo parpadea.
-
 Queda el umbral entre esta pieza y la que baja, ya enumerado en el acta del taller: el sótano deja tres muertos sobre la mesa para que las piezas del municipio lo levanten — la tienda sin medida, el archivo sin mueble y el vidriecito sin oficio.
 
 La evidencia llega de la galería (el sirviente y el espejo con nombres y fechas) y la disciplina la aporta el sótano (fecha, nombre, papel, pulso con pulso de fecha y heredero). El umbral queda ocupado por la frase del empalme: si cada parte tiene su vara, el punto de ensamble empieza con las piezas sobre la mesa y sus nombres escritos.
@@ -161,12 +127,6 @@ La segunda caja del sótano: el aparejo del lector que nadie recuerda hasta el d
 Dentro: el cable de datos (no el rosa de carga rápido), una libreta de escalera angosta con los nombres de los tres pabellones pintados, la contraseña copiada en dos lugares serios y un espejo de bolsillo — en este oficio, el espejo honesto es una tarjeta grande con la semana fechada en tinta.
 
 La casa inventarió el kit durante el apagón simulado y promete ensamblarlo completo en la pieza del día a día; pero el inventario ya le sirve hoy al lector del sótano para su propio bolsillo de guardia.
-
-La escalera de la vergüenza del sótano, que la casa ha bajado peldaño a peldaño antes de escribir doctrina: peldaño uno, el «ya yo lo guardé» sin que nadie viera dónde. Peldaño dos, la copia doble en el mismo aparato (carpeta y su prima «final 2»). El peldaño tres, la esperanza de que el teléfono no se dañe nunca más porque «ya gastó la cuota».
-
-Peldaño cuatro: la restauración que se intenta el día del duelo con lágrimas y sin acta, memorizando claves que ya nadie recuerda. La casa baja la vergüenza por los mismos escalones que subió: nombrando a los que cayeron, enseñando el calendario del huracán y poniendo en la mesa el disco de la prima.
-
-La doctrina: la vergüenza bien confesada es combustible para subir la escalera con cubo de agua, mientras que el silencia la convierte en piedra.
 
 *⚙ EL OFICIO EN 12 PASOS — EL SÓTANO SE CONSTRUYE UN SÁBADO* · Paso uno, la hoja del testamento: escribe los tres muertos de la historia — teléfono que muere, casa que se muda, herencia que cambia de manos — y nombra quién hereda la llave en cada caso. Paso dos, el inventario con peso: cuánto pesa lo tuyo que vale (fotos, papeles, claves, chats, cuaderno) y dónde vive hoy.
 
@@ -201,8 +161,6 @@ La sentencia: si solo sincronizas, no guardas: copias el presente en vivo, inclu
 «¿Y esta pieza abrió las apps?»: no es malentendido; es la pregunta correcta con su respuesta firmada: no — esta ficha mide censo y papeles con fecha, y la prueba de tu sótano (restaurar a la primera) la firmas en tu casa el primer fin de semana.
 
 Malentendido extra del sótano: «el PC viejo prendido gasta mucho»: la libreta del apagón simulado mide a la semana si es verdad y cuánto; la sospecha sin medición es rumor de sala de estar.
-
-Queda el umbral entre esta pieza y la que baja, ya enumerado en el acta del taller: el sótano deja tres muertos sobre la mesa para que las piezas del municipio lo levanten — la tienda sin medida, el archivo sin mueble y el vidriecito sin oficio.
 
 La evidencia llega de la galería (el sirviente y el espejo con nombres y fechas) y el sótano aporta la disciplina (fecha, nombre, papel, pulso con pulso de fecha y heredero). El umbral queda ocupado por la frase del empalme: si cada parte tiene su vara, el punto de ensamble empieza con las piezas sobre la mesa y sus nombres escritos.
 
@@ -266,29 +224,9 @@ El acta final de la escalera, firmada en esta noche de taller y guardada en la l
 
 Seis líneas con fecha y el nombre de la heredera que ya restaura el álbum sola. La casa guarda estas actas como se guardan las escrituras: porque el día que el primo escéptico pregunte «¿y eso funciona de verdad?», el acta contesta sin memoria ni exageración. La misma casa que levanta el censo de 188 levanta el acta del sótano; el método es el mismo con otro apellido de pila.
 
-El precedimiento umbral entre esta pieza y la que baja ya enumerado en el acta del taller: el sótano deja tres muertos sobre la mesa para que las piezas del municipio lo levanten — la tienda sin medida, el archivo sin mueble y el vidriecito sin oficio.
-
-La galería aporta la evidencia (el sirviente y el espejo con nombres y fechas) y el sótano aporta la disciplina (fecha, nombre, papel, pulso con pulso de fecha y heredero). El umbral queda ocupado por la frase del empalme: si cada parte tiene su vara, el punto de ensamble empieza con las piezas sobre la mesa y sus nombres escritos.
-
 Las piezas del municipio digital abrirán la siguiente sala con esta evidencia y esta disciplina.
 
-El último pedacito, dejado por si el lector se durmió con la linterna en la mano: esta pieza no vendió silencio; enseñó a bajar escaleras. El día que un vecino restaure su año viejito en ocho minutos durante el próximo apagón, el sótano habrá firmado su certificado de utilidad sin necesidad de juramento.
-
-La casa deja la linterna colgada de esta página y promete regresar con la segunda foto, pulso fechado y libreta pesando más sabiduría que polvo.
-
-El precedimiento umbral entre esta pieza y la que baja ya enumerado en el acta del taller: el sótano deja tres muertos sobre la mesa para que las piezas del municipio lo levanten — la tienda sin medida, el archivo sin mueble y el vidriecito sin oficio.
-
-La galería aporta la evidencia (el sirviente y el espejo con nombres y fechas) y el sótano aporta la disciplina (fecha, nombre, papel, pulso con pulso de fecha y heredero). El umbral queda ocupado por la frase del empalme: si cada parte tiene su vara, el punto de ensamble empieza con las piezas sobre la mesa y sus nombres escritos.
-
 Las piezas del municipio digital abrirán la siguiente sala con esta evidencia y esta disciplina.
-
-El acta final de la escalera, firmada en esta noche de taller y guardada en la libreta de los sótanos para cuando el lector baje la suya: mueble elegido con papel, copia primera restaurada con testigo, espejo entre dos casas con llave dividida, hoja del testamento con tres nombres, apagón ensayado con velas y café, y la fecha de la próxima foto de la mesa.
-
-Seis líneas con fecha y el nombre de la heredera que ya restaura el álbum sola. La casa guarda estas actas como se guardan las escrituras: porque el día que el primo escéptico pregunte «¿y eso funciona de verdad?», el acta contesta sin memoria ni exageración. La misma casa que levanta el censo de 188 levanta el acta del sótano; el método es el mismo con otro apellido de pila.
-
-El precedimiento umbral entre esta pieza y la que baja ya enumerado en el acta del taller: el sótano deja tres muertos sobre la mesa para que las piezas del municipio lo levanten — la tienda sin medida, el archivo sin mueble y el vidriecito sin oficio.
-
-La galería aporta la evidencia (el sirviente y el espejo con nombres y fechas) y el sótano aporta la disciplina (fecha, nombre, papel, pulso con pulso de fecha y heredero). El umbral queda ocupado por la frase del empalme: si cada parte tiene su vara, el punto de ensamble empieza con las piezas sobre la mesa y sus nombres escritos.
 
 Las piezas del municipio digital abrirán la siguiente sala con esta evidencia y esta disciplina.
 
@@ -473,12 +411,6 @@ El compromiso de siempre de La Bandita: placa, papel y fecha en la misma línea;
 *Muro FB.* La fila de piezas gemelas que la casa publicaba en Facebook. Desde el 15-oct noche: la serie 21+ va sin muro — WhatsApp puro. La ley del dueño, anotada con fecha y sin melcocha.
 
 *Índice.* El mapa de una pieza: el árbol de esta guía. Un árbol único por pieza, con secciones y tiempos — el lector sabe dónde está parado y cuánto falta pa la parada.
-
-*Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
-
-*Fila viva.* La fila de asuntos que se contesta: la señal de taller respirando sin ambigüedad. Los asuntos de esta cosecha van de 42 (Musify) a 868 (Spotube) al 15-oct-2026 — la vida no es la cantidad, es la contesta.
-
-*Publicar.* El acto de soltar la pieza con acta, pulso y hora. Publicar sin fecha es rumor; publicar con fecha es mapa. Esta cosecha sale el 15-oct-2026 con pulso #10 — y su sello lo cuenta.
 
 *Provedor.* El que sirve el río: la plataforma cuyo catálogo atraviesa el puente. No es socio de nadie y no avisa cuando muda la puerta — por eso el taller que la sigue es la primera vara de esta escuela.
 
