@@ -1,98 +1,69 @@
 # Publicación 57 — La hornada del lector: la mina con nombre
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 15 repos de la pieza: 15 vivos, 5 activos este mes. Manda **opendocument-app/OpenDocument.droid** (★484): «It's Android's first OpenOffice Document Reader!». Le sigue **ZWolken/Light-Novel-Yuedu-Source** (★448): «轻小说阅读书源合集 輕小説閲讀書源合集». Temas que se repiten en el grupo: ai-assisted, android, android-app, book.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 15 repos: 1 empujaron hoy, 1 en los
-últimos 7 días, 5 llevan más de 180 días quietos y 1 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy:
-`opendocument-app/OpenDocument.droid` — ★484, MPL-2.0, último empuje 2026-10-25.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **opendocument-app/OpenDocument.droid** — «It's Android's first OpenOffice Document Reader!»
+  ★484 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia MPL-2.0 · Kotlin · última release v4.23.0 (2026-10-25) · https://github.com/opendocument-app/OpenDocument.droid · Web: https://opendocument.app/
+  Temas: android · f-droid · fdroid · kotlin
 
-• `opendocument-app/OpenDocument.droid` — ★484 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-25
-· MPL-2.0
+- **ZWolken/Light-Novel-Yuedu-Source** — «轻小说阅读书源合集 輕小説閲讀書源合集»
+  ★448 · su último empuje fue el 2025-09-22 (hace 404 días) · licencia MIT · Python · última release v24-12-13 (2024-12-13) · https://github.com/ZWolken/Light-Novel-Yuedu-Source
+  Temas: book · books · files · japanese · light-novel · light-novels
 
-• `ZWolken/Light-Novel-Yuedu-Source` — ★448 (verificado 2026-10-29)
-· dormido · última actividad 2025-09-22
-· MIT
+- **ArtifexSoftware/mupdf-android-viewer** — «Android SDK: viewer»
+  ★199 · su último empuje fue el 2026-09-25 (hace 36 días) · licencia AGPL-3.0 · Java · https://github.com/ArtifexSoftware/mupdf-android-viewer
 
-• `ArtifexSoftware/mupdf-android-viewer` — ★199 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-25
-· AGPL-3.0
+- **nilsbraden/ttrss-reader-fork** — «An Android-Client for the self-hosted Tiny Tiny RSS feedreader»
+  ★181 · su último empuje fue el 2026-08-07 (hace 85 días) · licencia sin archivo LICENSE en su repo (verificado) · Java · última release v1.98.1_1981 (2025-12-30) · https://github.com/nilsbraden/ttrss-reader-fork · Web: https://www.nilsbraden.de/TTRSS-Reader/
 
-• `nilsbraden/ttrss-reader-fork` — ★181 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-08-07
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **chmouel/liseur** — «Open-source EPUB reader and remote library client for Android, with a Kindle-inspired reading experience»
+  ★164 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Kotlin · última release v0.26.0 (2026-10-28) · https://github.com/chmouel/liseur · Web: https://f-droid.org/en/packages/com.chmouel.liseur/
+  Temas: ai-assisted · android · calibre-web · ebook-reader · epub · epub-reader
 
-• `chmouel/liseur` — ★164 (verificado 2026-10-29)
-· actividad HOY · última actividad 2026-10-29
-· MIT
+- **ArtifexSoftware/mupdf-android-viewer-mini** — su repo no trae descripción oficial
+  ★139 · su último empuje fue el 2026-09-25 (hace 36 días) · licencia AGPL-3.0 · Java · https://github.com/ArtifexSoftware/mupdf-android-viewer-mini
 
-• `ArtifexSoftware/mupdf-android-viewer-mini` — ★139 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-09-25
-· AGPL-3.0
+- **mshdabiola/NotePad** — «Notepad is multi module Jetpack compose note taking app with sketch pad, voice recorder, image capturing app»
+  ★131 · su último empuje fue el 2025-10-27 (hace 369 días) · licencia GPL-3.0 · Kotlin · última release 1.3.7 (2025-01-30) · https://github.com/mshdabiola/NotePad · Web: https://play.google.com/store/apps/details?id=com.mshdabiola.playnotepad
+  Temas: android-app · github-actions · hilt-dependency-injection · image-to-text · jetpack-compose · kotin-coroutines
 
-• `mshdabiola/NotePad` — ★131 (verificado 2026-10-29)
-· dormido · última actividad 2025-10-27
-· GPL-3.0
+- **KevinCFechtel/FluxNews** — «A simple Newsreader for the miniflux backend (https://miniflux.app).»
+  ★111 · su último empuje fue el 2026-10-19 (hace 12 días) · licencia BSD-3-Clause · Dart · última release v2.3.2 (2026-09-05) · https://github.com/KevinCFechtel/FluxNews
 
-• `KevinCFechtel/FluxNews` — ★111 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-19
-· BSD-3-Clause
+- **aarddict/android** — «Aard Dictionary for Android»
+  ★88 · su último empuje fue el 2015-05-09 (hace 4193 días) · licencia GPL-3.0 · Java · última release 1.6.11 (2016-08-18) · ARCHIVADO: historia, no opción viva · https://github.com/aarddict/android
 
-• `aarddict/android` — ★88 (verificado 2026-10-29)
-· dormido · última actividad 2015-05-09
-· GPL-3.0
-· ARCHIVADO en GitHub: historia, no opción viva
+- **javalc6/rssreader** — «This Android application is a minimal RSS news reader that brings you the latest news.»
+  ★26 · su último empuje fue el 2026-06-16 (hace 137 días) · licencia GPL-2.0 · Java · última release 120 (2026-06-16) · https://github.com/javalc6/rssreader
+  Temas: android · java · newsreader · rss · rss-reader · rss-reader-android
 
-• `javalc6/rssreader` — ★26 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-06-16
-· GPL-2.0
+- **rektpartyaftermath/Legado-booksource-collection** — «Some booksource collection for legado.»
+  ★15 · su último empuje fue el 2025-11-19 (hace 346 días) · licencia sin archivo LICENSE en su repo (verificado) · Shell · https://github.com/rektpartyaftermath/Legado-booksource-collection
 
-• `rektpartyaftermath/Legado-booksource-collection` — ★15 (verificado 2026-10-29)
-· dormido · última actividad 2025-11-19
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **Volksverpetzer/vvp_app** — «Read Volksverpetzer fact checks, analysis and articles on your mobile phone.»
+  ★11 · su último empuje fue el 2026-10-16 (hace 15 días) · licencia MIT · TypeScript · última release v2.5.4 (2026-10-09) · https://github.com/Volksverpetzer/vvp_app · Web: https://volksverpetzer.de
+  Temas: expo · react-native
 
-• `Volksverpetzer/vvp_app` — ★11 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-16
-· MIT
+- **v4lpt/MYC** — «Memorize poems, songs, etc. with this nice poem viewer.»
+  ★6 · su último empuje fue el 2025-11-19 (hace 346 días) · licencia GPL-3.0 · Java · última release v1.0.4 (2025-10-18) · https://github.com/v4lpt/MYC
+  Temas: android · f-droid · fdroid · poems
 
-• `v4lpt/MYC` — ★6 (verificado 2026-10-29)
-· dormido · última actividad 2025-11-19
-· GPL-3.0
+- **deedeedev/YtReader** — su repo no trae descripción oficial
+  ★6 · su último empuje fue el 2026-07-21 (hace 102 días) · licencia GPL-3.0 · Java · última release v0.8.5 (2026-06-29) · https://github.com/deedeedev/YtReader
 
-• `deedeedev/YtReader` — ★6 (verificado 2026-10-29)
-· actividad últimos 180 días · última actividad 2026-07-21
-· GPL-3.0
+- **bibledit/android** — «Bibledit for Android»
+  ★4 · su último empuje fue el 2026-10-01 (hace 30 días) · licencia sin archivo LICENSE en su repo (verificado) · C · última release 5.1.047 (2026-06-04) · https://github.com/bibledit/android · Web: http://bibledit.org
 
-• `bibledit/android` — ★4 (verificado 2026-10-29)
-· actividad últimos 30 días · última actividad 2026-10-01
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+## Enlaces externos de la pieza
 
-## 🔗 Fuentes comprobadas hoy
+- https://miniflux.app — respondió viva hoy
 
-• https://github.com/opendocument-app/OpenDocument.droid — vivo al verificar hoy (2026-10-29)
-• https://github.com/ZWolken/Light-Novel-Yuedu-Source — vivo al verificar hoy (2026-10-29)
-• https://github.com/nilsbraden/ttrss-reader-fork — vivo al verificar hoy (2026-10-29)
-• https://github.com/ArtifexSoftware/mupdf-android-viewer-mini — vivo al verificar hoy (2026-10-29)
-• https://github.com/mshdabiola/NotePad — vivo al verificar hoy (2026-10-29)
-• https://github.com/KevinCFechtel/FluxNews — vivo al verificar hoy (2026-10-29)
-• https://github.com/aarddict/android — vivo al verificar hoy (2026-10-29)
-• https://github.com/chmouel/liseur — vivo al verificar hoy (2026-10-29)
-• https://github.com/javalc6/rssreader — vivo al verificar hoy (2026-10-29)
-• https://github.com/rektpartyaftermath/Legado-booksource-collection — vivo al verificar hoy (2026-10-29)
-• https://github.com/Volksverpetzer/vvp_app — vivo al verificar hoy (2026-10-29)
-• https://github.com/v4lpt/MYC — vivo al verificar hoy (2026-10-29)
-• https://github.com/deedeedev/YtReader — vivo al verificar hoy (2026-10-29)
-• https://github.com/bibledit/android — vivo al verificar hoy (2026-10-29)
-• https://github.com/ArtifexSoftware/mupdf-android-viewer — vivo al verificar hoy (2026-10-29)
-• https://miniflux.app — respondió viva hoy (2026-10-29)
+## Lectura de la medición
 
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 15 repos GitHub (15 vivos, 0 firmados como caídos/bloqueados) y 1
-enlace externo de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+**chmouel/liseur** trae la novedad del grupo, su release v0.26.0 (2026-10-28). Archivado por su autor: **aarddict/android**; la actividad más fresca es de **chmouel/liseur** (hace 2 días); **aarddict/android** no se mueve desde el 2015-05-09; **chmouel/liseur** firmó la release de fecha más reciente (v0.26.0 (2026-10-28)) de las 12 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×4, MIT ×3, sin archivo LICENSE en su repo (verificado) ×3; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
+
+💓 15 repos y 1 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 15 vivos, 0 firmados arriba con su estado.

@@ -1,36 +1,23 @@
 # Publicación 62 — La hornada de los ayudantes: los pequeños del censo
 
-**La Bandita · 29 de octubre de 2026**
+_viernes 31 de octubre de 2026 · La Bandita_
 
-## ⚡ En una página
+Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **FossifyOrg/Notes** (★506): «A simple text field for adding quick notes without ads.». Le sigue **tadamiorg/tadami** (★61). Temas que se repiten en el grupo: android, foss, kotlin, notes.
 
-Esta pieza se borró y se reescribió hoy, jueves 29 de octubre de 2026, con cada enlace
-comprobado en tiempo real antes de escribir su placa. Cita 3 repos: 0 empujaron hoy, 3 en los
-últimos 7 días, 0 llevan más de 180 días quietos y 0 están archivados; los que ya no responden
-quedan firmados como caídos, no escondidos. El mayor medido hoy: `FossifyOrg/Notes` — ★506,
-GPL-3.0, último empuje 2026-10-27.
+## Los repos de esta pieza, medidos hoy
 
-## 🗼 Las placas al pulso (2026-10-29)
+- **FossifyOrg/Notes** — «A simple text field for adding quick notes without ads.»
+  ★506 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release 1.7.0 (2026-01-30) · https://github.com/FossifyOrg/Notes · Web: https://www.fossify.org
+  Temas: android · foss · kotlin · notes · open-source
 
-• `FossifyOrg/Notes` — ★506 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-27
-· GPL-3.0
+- **tadamiorg/tadami** — su repo no trae descripción oficial
+  ★61 · su último empuje fue el 2026-10-23 (hace 8 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · última release v1.16.0 (2026-10-23) · https://github.com/tadamiorg/tadami
 
-• `tadamiorg/tadami` — ★61 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-23
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+- **tadamiorg/tadami-extensions** — su repo no trae descripción oficial
+  ★3 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia sin archivo LICENSE en su repo (verificado) · https://github.com/tadamiorg/tadami-extensions
 
-• `tadamiorg/tadami-extensions` — ★3 (verificado 2026-10-29)
-· actividad últimos 7 días · última actividad 2026-10-26
-· sin archivo LICENSE en su repo (verificado por API 29-oct-2026)
+## Lectura de la medición
 
-## 🔗 Fuentes comprobadas hoy
+El grupo respira despacio; su empuje más reciente, **FossifyOrg/Notes**, fue hace 4 días. **tadamiorg/tadami** firmó la release de fecha más reciente (v1.16.0 (2026-10-23)) de las 2 del grupo; legalmente el grupo se reparte así: sin archivo LICENSE en su repo (verificado) ×2, GPL-3.0 ×1; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.
 
-• https://github.com/FossifyOrg/Notes — vivo al verificar hoy (2026-10-29)
-• https://github.com/tadamiorg/tadami-extensions — vivo al verificar hoy (2026-10-29)
-• https://github.com/tadamiorg/tadami — vivo al verificar hoy (2026-10-29)
-
-💓 *PULSO 2026-10-29 — pieza reescrita hoy con verificación en tiempo real (La Bandita).* Se
-comprobaron hoy, uno a uno: 3 repos GitHub (3 vivos, 0 firmados como caídos/bloqueados) y 0
-enlaces externos de esta pieza. Las placas de arriba salen de esa medición de hoy, no de
-memoria.
+💓 3 repos y 0 enlaces medidos el 31-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
