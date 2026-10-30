@@ -1,16 +1,30 @@
-# Publicación 2 — Kototoro: el mueble de tres cajones (la dos que faltaba)
+# Publicación 02 — Kototoro: el mueble de tres cajones (la dos que faltaba)
 
-_jueves 29 de octubre de 2026 · La Bandita_
+**La Bandita · 29 de octubre de 2026**
 
-Medición del jueves 29 de octubre de 2026: esta pieza reúne 1 repos, 1 vivos. El mayor es **Kototoro-app/Kototoro** (★653): «Manga, Novel, and Video reader for Android». Con actividad en los últimos 30 días: 1 de 1.
+## ⚡ En una página
 
-## Los repos de esta pieza, medidos hoy
+Esta página cierra el único hueco numérico del muro: la 02 que nunca se había escrito en Facebook. Su pieza madre de WhatsApp presentó a Kototoro como el mueble de tres cajones del lector — biblioteca, fuentes y lectura en un solo cuerpo — nacido para heredar el oficio cuando Kotatsu cerró su taller.
+
+Hoy su placa sigue viva, y esta página lo firma con honestidad doble.
+
+La estrella es modesta y la licencia que su puerta aún no declara en SPDX quedó leída y no
+encontrada por las rutas comunes.
+
+## El meme de la pieza
+
+> —Falta la 02. —Faltaba: nació hoy, confesada y con fecha, que es como se rellenan los huecos
+en esta casa.
+
+> La Bandita verifica antes de recomendar: pieza 02 del muro, nacida el 29 de octubre de 2026
+con placas re-medidas hoy en su fuente primaria. Las estrellas adornan; las fechas mandan.
+
+💓 *Pulso de nacimiento 29-oct-2026:* las placas de esta página se verificaron hoy. El futuro se
+firma con actividad y licencia, no con aplauso.
+
+La ficha de hoy (jueves 29 de octubre de 2026) — la placa vieja ya no manda:
 
 - **Kototoro-app/Kototoro** — «Manga, Novel, and Video reader for Android»
-  ★653 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v2.3.4 (2026-10-29) · https://github.com/Kototoro-app/Kototoro
+  ★653 · empujó hoy · licencia Apache-2.0 · Kotlin · última release v2.3.4 (2026-10-29) · https://github.com/Kototoro-app/Kototoro
 
-## Lectura de la medición
-
-La noticia fresca es de **Kototoro-app/Kototoro**: release v2.3.4 (2026-10-29). El empuje más reciente es de **Kototoro-app/Kototoro** (hace 2 días); 1 repos tienen release y la más reciente es la de **Kototoro-app/Kototoro** (v2.3.4 (2026-10-29)); en licencias: Apache-2.0 ×1.
-
-💓 1 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 1 vivos, 0 firmados arriba con su estado.
+💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 1 repos y 0 enlaces de esta pieza: 1 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.

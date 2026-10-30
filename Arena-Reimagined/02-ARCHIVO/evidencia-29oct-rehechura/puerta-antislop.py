@@ -22,7 +22,7 @@ if len(sys.argv)>1: archivos=[Path(a) for a in sys.argv[1:]]
 else:
     archivos=[f for d in ['WhatsApp-dominicano-ES','Facebook-dominicano-ES']
               for f in sorted((R/'01-PUBLICACIONES'/d).glob('*.md')) if not f.name.startswith('LEEME')]
-frases=Counter(); fallos=[]; sin_nota=[]
+frases=Counter(); fallos=[]; sin_nota=[]; en_bloque=[False]
 for f in archivos:
     t=f.read_text(encoding='utf-8')
     if '💓' not in t: sin_nota.append(f.name)
@@ -30,9 +30,15 @@ for f in archivos:
         if r in t: fallos.append(f'{f.name}: reapareció la frase ritual «{r}»')
     for linea in t.split('\n'):
         s=linea.strip()
+        if s.startswith('```'): en_bloque[0]=not en_bloque[0]; continue
+        if en_bloque[0]: continue  # interior de bloque de código/ticker: dato citado, no prosa
         if len(s)<40 or s.startswith('💓') or s.startswith('#') or 'REV|' in s: continue
         if s.startswith('_') and '· La Bandita_' in s: continue  # dateline: fecha de la medición, una línea
+        if s.startswith('*La Bandita · ') and s.endswith('dominicano-español*'): continue  # dateline del formato WhatsApp
         if s.startswith('*Respuestas al revés'): continue  # instrucción funcional del mini-quiz (mecanismo de la casa)
+        if 'min de lectura' in s and ('estación' in s or s[0] in '├└│'): continue  # índice/marcas de navegación de la guía (árbol de contenido)
+        if s.startswith(('├──','└──','│')): continue  # línea del árbol-índice: navegación, no prosa
+        if re.match(r'^\*[^*]+\*:?$',s): continue  # cabecera de sección en negrita (equivalente WA de ##): título, no prosa; su contenido sí se mide
         if s.startswith('- **') or s.startswith('- http') or s.startswith('• http'): continue  # ficha/fuente = dato
         if linea.startswith('  '): continue  # continuación de ficha (placa/temas/web): dato estructurado
         if re.match(r'^\*\d+\.\* ',s): continue  # pregunta de mini-quiz (empieza por *N.*): vocabulario controlado del mecanismo
