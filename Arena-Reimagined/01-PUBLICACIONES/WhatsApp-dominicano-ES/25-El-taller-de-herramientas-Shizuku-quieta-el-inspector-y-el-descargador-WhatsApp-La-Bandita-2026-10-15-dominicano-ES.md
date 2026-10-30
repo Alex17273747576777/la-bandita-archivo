@@ -1,47 +1,613 @@
 *25 — EL TALLER DE HERRAMIENTAS*
+*Shizuku quieta, el inspector de APKs y el descargador de 27 mil: las herramientas del oficio al
+censo del 15-oct-2026 (WhatsApp · La Bandita · dominicano-ES)*
 
-_jueves 29 de octubre de 2026 · La Bandita_
+───────────────────
 
-Medición del jueves 29 de octubre de 2026: esta pieza reúne 7 repos, 7 vivos. El mayor es **RikkaApps/Shizuku** (★32.384): «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.». Le sigue **GopeedLab/gopeed** (★27.246): «A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.». Con actividad en los últimos 30 días: 6 de 7. Temas que se repiten en el grupo: accessibility, activity, ad, adb.
+*🗺 MAPA DE ESTA GUÍA*
 
-## Los repos de esta pieza, medidos hoy
+⏱ *Lectura total: 56 min* · Todo dato con fecha y placa · Censo del 15-oct-2026 (tarde)
+
+───────────────────
+
+*🌱 LA SEMILLA*
+
+El cajón del taller es el territorio menos glamoroso del censo y el más pegado al oficio: nadie pone una herramienta en la portada de un grupo, y sin herramientas no funciona NADA de lo que las otras piezas enseñan. La pieza 09 ya bautizó la caja de oficio — esta cosecha la mide con placa y hora.
+
+La vara del cajón es la misma del censo entero: repo abierto, licencia escrita, push con fecha. Pero su vara EXTRA es única: las herramientas tocan PERMISOS — ADB, acceso a archivos, automatización de toques — y el permiso mal dado es la puerta del desastre.
+
+Por eso esta pieza repite la vara de la pieza 01 con el doble de peso: en el cajón, el origen no
+es un detalle — es TODO.
+
+El acta de Shizuku manda el tono: la herramienta más importante del ecosistema Android moderno lleva un año sin empuje — y la casa la mide sin pánico y sin maquillaje: quietud con fecha, testamento firmado, y el mapa de qué hacer mientras. Así se escribe la verdad en esta biblioteca.
+
+───────────────────
+
+*🧰 EL CENSO DEL TALLER (censo 15-oct-2026)*
+
+Las placas completas, tal como el censo de la tarde del 15-oct-2026 las contestó:
+
+*Shizuku* — RikkaApps/Shizuku · ★31.786 (censo 19-oct-2026) · push del 18-jun-2025 · Apache-2.0
+· QUIETUD de dieciséis meses anotada. La llave maestra: deja que apps de confianza usen permisos
+de sistema con ADB o root, sin abrir el teléfono entero. Media herramienta moderna del
+ecosistema respira por ella — su acta completa es el corazón de esta pieza.
+
+*Gopeed* — GopeedLab/gopeed · ★27.011 (censo 19-oct-2026) · push del 14-oct · GPL-3.0 · nacida
+el 21-abr-2019. El descargador moderno: multi-plataforma, rápido, con extensiones — el hijo
+legítimo de la escuela de los gestores de descarga, con siete años de taller.
+
+*AppManager* — MuntashirAkon/AppManager · ★9.289 (censo 19-oct-2026) · push del 14-oct · SIN
+LICENCIA DECLARADA en el censo · nacida el 30-may-2020. El inspector: ve qué hay dentro de cada
+APK, qué permisos pide, qué actividades esconde — la lupa del cajón, con su placa legal en
+blanco y su vara marcada.
+
+*Amaze* — TeamAmaze/AmazeFileManager · ★6.432 (censo 19-oct-2026) · push del MISMO día del censo
+· GPL-3.0 · nacida el 14-jul-2014. DOCE AÑOS de taller: el mueble de archivos clásico del
+ecosistema, la casa más vieja de esta cosecha — empujando el mismo 18-oct-2026.
+
+*Markor* — gsantner/markor · ★6.309 (censo 19-oct-2026) · push del 10-oct · SIN LICENCIA DECLARADA en el censo · nacida el 26-ago-2017. El cuaderno: notas y Markdown en archivos PLANO — tus notas son tuyas porque son ARCHIVOS, no rehenes de una nube. Segunda placa sin testamento de la cosecha.
+
+*Touch Helper* — zfdang/Android-Touch-Helper · ★5.327 (censo 18-oct-2026) · push del 10-oct ·
+MIT · nacida el 16-oct-2020. El autómata: palomea, salta y bloquea toques por ti — la
+herramienta del permiso incómodo, con la placa MIT más simple de la cosecha.
+
+───────────────────
+
+Detalle que la forja firma: Amaze empujando el MISMO día del censo con doce años de casa — la prueba de que la longevidad y el pulso no se pelean. Y el contraste del cajón en una línea: la herramienta más importante de la lista (Shizuku) es la única que lleva más de un año callada.
+
+*🏛 LAS ESCUELAS DEL CAJÓN*
+
+Seis casas, tres escuelas — y la escuela la decide QUÉ PERMISO toca la herramienta, porque en el
+cajón el permiso es el oficio entero.
+
+*LA ESCUELA DE LA LLAVE (permisos de sistema, con candado).* Shizuku de bandera, Touch Helper como parienta: herramientas que tocan lo profundo del sistema — con ADB, con root, o con el permiso de accesibilidad. Es la escuela de mayor potencia y mayor riesgo: la vara pide ENTENDER qué se concede y a quién.
+
+La pieza 09 le dedicó su capítulo; aquí se mide su salud.
+
+*LA ESCUELA DE LA LUPA (inspección y archivos).* AppManager y Amaze: las que MIRAN — una mira dentro de los APKs (permisos, actividades, rastreadores), la otra mira los archivos (mueve, limpia, ordena). Es la escuela del conocimiento: el cajón del que QUIERE SABER qué hay en su teléfono antes de decidir.
+
+Su vara: que la lupa no se convierta en cirugía sin estudio — mirar primero, tocar después.
+
+*LA ESCUELA DEL TRÁMITE (descargar y anotar).* Gopeed y Markor: las que hacen el trabajo aburrido del día a día — bajar cosas rápido y anotar cosas para siempre. Es la escuela del gasto invisible: sin descargador, la biblioteca de la pieza 22 no llena su estantería; sin cuaderno, los subrayados de la repisa no tienen dónde vivir.
+
+Herramientas de fondo que sostienen todo lo demás.
+
+*Cómo se arma el cajón sin equivocarse:*
+
+Empiezas en el ecosistema y quieres saber qué instalas → lupa: AppManager (con su vara sin
+testamento leída) o el escáner legal de la pieza 01 — mira antes de palomear.
+
+Trabajas con archivos de verdad (la biblioteca, la música, los respaldos) → trámite: Amaze +
+Gopeed + Markor — el trío de fondo que la serie usa en sus recetas.
+
+Ya sabes lo que haces y necesitas la llave → escuela de la llave: Shizuku con la vara del acta
+al frente — y Touch Helper solo si tu pulgar confirma que odia esa palomea diaria.
+
+Y el orden de la casa: lupa PRIMERO, trámite DESPUÉS, llave AL FINAL. El cajón se arma como se
+arma una casa: los cimientos, luego las paredes, la cerradura al final.
+
+───────────────────
+
+*🕰 LA EDAD DE LAS CASAS DEL CAJÓN (leída del censo, con puntos)*
+
+La edad se lee de la fecha de nacimiento del repo al censo del 15-oct-2026. La cosecha del
+cajón, casa por casa.
+
+Amaze nació el 14-jul-2014. Doce años y tres meses de taller — el abuelo de la cosecha,
+empujando el mismo día del censo.
+
+Gopeed nació el 21-abr-2019. Siete años y cinco meses — la generación moderna del trámite.
+
+AppManager nació el 30-may-2020. Seis años y cuatro meses — la lupa de la escuela nueva.
+
+Touch Helper nació el 16-oct-2020.
+
+Seis años menos un día al corte: la casa cumplió su sexto cumpleaños el día DESPUÉS del censo —
+la forja lo anota con la sonrisa de la casa. Markor nació el 26-ago-2017. Nueve años y un mes —
+el cuaderno de la escuela del Markdown.
+
+Y Shizuku, la llave: el censo no le anota fecha de nacimiento — la casa la cuenta por su acta:
+el taller de la pieza 09 la presentó viva y empujando, y el censo de hoy la firma quieta con
+dieciséis meses.
+
+El promedio de la cosecha, con la llave fuera del cálculo: ocho años y medio por casa. Es la
+cosecha MÁS VIEJA de la serie hasta ahora — y la lección se escribe sola: las herramientas de
+fondo duran.
+
+Nadie aplaude un mueble de archivos ni un descargador — por eso nadie los abandona: el aplauso
+sube y baja, el trámite queda.
+
+Y la regla del cajón que la edad firma: la edad no es riesgo — la edad sin push lo es. Amaze con
+doce años y push del mismo día vale más que la casa de dos años quieta desde enero.
+
+La vara de la serie, otra vez: nunca la edad sola — siempre edad MÁS respiración.
+
+*⚖ LA VARA DE LA LICENCIA*
+
+En el cajón, la licencia pesa más que en cualquier otra cosecha — porque estas herramientas
+piden los permisos más altos del teléfono. La placa legal es el único papel que responde quién
+tiene la llave.
+
+*Con firma completa:* Gopeed y Amaze con **GPL-3.0**; Shizuku con **Apache-2.0** (el testamento que garantiza su heredero); Touch Helper con **MIT**. Cuatro de seis firmadas al censo del 15-oct-2026 — pero las dos que NO firmaron son precisamente las que MIRAN TU TELÉFONO entero:
+
+*AppManager — la lupa sin testamento.* ★9.289 (censo 19-oct-2026), push del 14-oct, oficio de primera — y sin licencia declarada en el censo. La lectura de la forja: úsala como inspector con la vara marcada (mirar, sí; confiarle cirugía con permisos de root, solo entendiendo que nadie firmó nada), y espera a que el taller firme.
+
+La fame no compra el contrato — lección que la serie repite desde la estantería del escudo.
+
+*Markor — el cuaderno sin firma.* ★6.309 (censo 19-oct-2026), push del 10-oct, y el detalle que lo salva: sus notas son ARCHIVOS PLANOS — aunque la app no firmara nada, tus notas no viven presas dentro. La vara sin testamento pesa en la APP, no en tus datos.
+
+Aun así: la forja marca la placa — la cuarta pieza sin firma que la serie encuentra en la noche.
+
+*La vara en cuatro pasos, versión cajón:* uno — licencia con nombre, sigue; sin ella, con permisos de lectura basta, con permisos de mando NO. Dos — push vivo. Tres — fila de asuntos contestada.
+
+Cuatro — instalación del repo o tienda legal — y en la escuela de la llave, la receta EXACTA del taller (pieza 09), nunca el atajo del grupo.
+
+───────────────────
+
+*🕰 EL ACTA DE SHIZUKU (la quietud que la serie esperaba)*
+
+*Shizuku — ★31.786 (censo 19-oct-2026) · push del 18-jun-2025 · Apache-2.0*
+
+Dieciséis meses y doce días de silencio al corte. Para dimensionar: Shizuku es a las herramientas modernas de Android lo que la electricidad al taller — apps de respaldo, de automatización, de gestión avanzada LEEN el teléfono a través de ella.
+
+Su quietud no es un dato más del censo: es un parte de estado del ECOSISTEMA ENTERO.
+
+La lectura completa de la forja, en cuatro capas:
+
+*UNO — el testamento está firmado.* Apache-2.0: el código puede heredarse con honor. Si el taller no vuelve, la línea vive en quien la tome — la lección de Bromite (pieza 24) con otro apellido.
+
+Por eso la quietud de Shizuku NO es el funeral del oficio: es el testamento leído en voz alta.
+
+*DOS — lo instalado no se rompe por magia.* La versión que está instalada FUNCIONA hoy: Android no la borra mañana. Lo que la quietud trae es un RELOJ: cada gran actualización de Android puede romper algo — y sin taller, nadie sube el parche.
+
+La herramienta quieta sirve HASTA el día que sirve menos.
+
+*TRES — el mapa de la casa mientras tanto.* La forja no recomienda abandonar Shizuku —
+recomienda MEDIR: si tu flujo de herramientas depende de ella, anota la fecha del acta, mira la
+fila de asuntos (¿el taller contesta sin empujar?), y ten el plan B identificado (los
+alternativos de la familia del ADB, pieza 09).
+
+El mapa existe para esto: quietud con plan no es crisis — es espera informada.
+
+*CUATRO — y la lección que la serie cosía:* hasta la casa más firmada del taller se queda quieta. La fama de Shizuku (★31.786 al censo 19-oct-2026) no la salva del silencio — solo la ley y los herederos salvan líneas.
+
+El lector que aprendió esto con la música, la repisa y el escudo, ahora lo ve en la llave maestra: la placa con fecha es la ÚNICA vara que no falla.
+
+───────────────────
+
+*🔧 LA RECETA DEL CAJÓN ORDENADO (veinte minutos, por piso)*
+
+*Piso uno — el mueble de archivos.* Del censo del 15-oct-2026: Amaze (doce años de taller, GPL-3.0, push del mismo día del censo) desde la tienda legal. Primer trabajo: encontrar tu carpeta de Descargas y vaciarla de basura — el cajón del teléfono se ordena igual que el de la casa: primero lo que estorba.
+
+*Piso dos — el descargador.* Gopeed (★27.011 al censo 19-oct-2026, GPL-3.0, push del 14-oct) del repo o tienda legal. Prueba con la descarga legal de siempre (el EPUB del Gutenberg de la pieza 22): velocidad, pausa, reanudación.
+
+El descargador que pausa y reanuda es el que aguanta la vida real del campo dominicano.
+
+*Piso tres — el cuaderno.* Markor con su vara marcada: crea tu primera nota en Markdown, mira DÓNDE la guardó (carpeta de archivos — tu nota es TUYA). La vara del piso tres: exporta una nota a texto plano y ábrela en otra app — si vive, el cuaderno sirve.
+
+*Piso cuatro — el inspector, con la vara al frente.* AppManager para MIRAR: abre cualquier app que instalaste esta noche y lee sus permisos, sus actividades, sus rastreadores. La vara de la forja: mirar todo, tocar poco — la cirugía (desactivar, congelar) espera a que la placa sin testamento se firme, o se hace con las varas de la pieza 01 completas.
+
+*Piso cinco — la llave, SOLO con oficio.* Shizuku se instala por la receta de la pieza 09 (ADB desde la PC o wireless) — nunca por el atajo del grupo. Y con el acta al frente: úsala sabiendo su fecha, mira su fila, y ten el plan B anotado.
+
+La llave quieta abre las puertas de hoy — el mapa de la forja mira también las de mañana.
+
+───────────────────
+
+*🧊 MITOS DESMONTADOS*
+
+*Mito uno — «las herramientas del cajón son pa geeks».* El cuaderno y el descargador son pa cualquiera que anote o baje algo — o sea, TODO EL MUNDO. La escuela del trámite no pide oficio técnico: pide lo que ya haces, con mejores muebles. El geek es el que llega a la llave — y ese camino empieza en la pieza 09 con receta, no con talento.
+
+*Mito dos — «AppManager puede romper el teléfono».* Mirar no rompe NADA. La lupa lee; la cirugía (desinstalar sistema, congelar) es la que pesa — y esa pide root y estudio. El teléfono que se rompió «por el inspector» lo rompió el dedo que palomeó sin leer — la vara del oficio no cambia: mirar primero.
+
+*Mito tres — «si Shizuku está quieta, hay que desinstalarla YA».* Mal aprendida la lección del acta: la quieta que funciona sirve — con fecha y plan B. Desinstalar por pánico es la reacción del que no lee placas: la casa enseña a medir, no a asustarse. El día que tu Android la rompa, el mapa de la pieza 09 tiene el plan.
+
+*Mito cuatro — «el autómata de toques es trampa».* Touch Helper palomea lo que TÚ ya decidiste: el permiso del sistema que se pide cada vez que abres la app de siempre. No es trampa de juego — es anti-aburrimiento documentado, con MIT y todo.
+
+La vara: automatiza TUS pasos, jamás los de otra persona.
+
+───────────────────
+
+*❓ PREGUNTAS DE LA FILA*
+
+*¿Cuál instalo primero si solo puedo uno?* Del censo del 15-oct-2026: si bajas cosas, Gopeed; si anotas, Markor; si desconfías de lo que instalas, AppManager; si vives de tus archivos, Amaze. El trío del trámite (Amaze+Gopeed+Markor) es el cajón mínimo de la casa — las tres juntas pesan menos que una red social y trabajan más que ella.
+
+*¿Shizuku sin root vale la pena hoy?* Con el acta al frente: la versión quieta FUNCIONA y el flujo de la pieza 09 sigue en pie (ADB wireless incluido). La forja la firma para el que ya la usa, la marca como espera-informada para el nuevo, y le repite al nuevo el mapa: la llave es el ÚLTIMO piso del cajón — nadie empieza por ahí.
+
+*¿Dónde guarda Markor mis notas?* En ARCHIVOS, en la carpeta que tú elijas — y ese detalle lo salva: aunque la app no firmó testamento, tus notas son texto plano que cualquier mueble del planeta abre. La vara sin licencia pesa en la app; tus datos son de los tuyos.
+
+*¿El autómata gasta batería?* Touch Helper trabaja CUANDO le mandas: no vive en el fondo cazando. La vara práctica de la casa: una tarde con tus dos automatismos de siempre y mira la batería — el dato de TU teléfono, como siempre, vale más que el foro de siempre.
+
+*¿El inspector ve rastreadores de verdad?* Sí: AppManager firma las clases de rastreo que el APK trae dentro — el mismo dato que los servicios de la pieza 01 escanean, en tu bolsillo. La lupa del cajón y la vara de la tienda legal hablan el mismo idioma: el del origen.
+
+───────────────────
+
+*🧪 CASOS DEL BARRIO*
+
+*Caso uno — la bibliotecaria del respaldo.* Mantenía la biblioteca de la pieza 22 a dedo, archivo por archivo, con el mueble del fábrica que le borraba las copias. Receta: Amaze + Gopeed — el archivo que baja directo a su carpeta y el mueble que lo copia sin drama.
+
+Su frase de la semana dos: «el teléfono por fin me obedece». El cajón ordenado es eso: el teléfono que obedece.
+
+*Caso dos — el estudiante de la tesis.* Llevaba tres años de notas en una app de nube que le subió el precio de un mes de mercado. Receta: Markor con sus notas en ARCHIVOS + respaldo en la copia de la copia.
+
+La mudanza le costó una tarde y sus notas ya no tienen dueño que les suba el alquiler. El texto plano es la propiedad más vieja y más firme del mundo.
+
+*Caso tres — el nervioso del permiso.* Odiaba palomear el permiso de instalación cada vez que su taller legal publicaba: diez toques repetidos al mes. Receta: Touch Helper con el automatismo de SUS pasos, MIT del censo al frente.
+
+El muchacho del caso no es vago: es eficiente con fecha — la forja firma la diferencia.
+
+───────────────────
+
+*Caso cuatro — la mamá del mercado.* Su teléfono de trabajo vive de fotos de mercancía y notas de fiado. Receta: Markor con la libreta del fiado en ARCHIVOS (cada letra es suya, la nube no la sube de precio) y Amaze pa encontrar la foto del cliente en dos toques.
+
+La libreta del fiado digital es el caso más dominicano de la pieza: cuaderno plano, respaldo en
+la copia de la copia, y el fiado que se cobra igual — pero sin página mojada.
+
+*Caso cinco — el muchacho de los cursos.* Bajaba cursos en video por pedazos, con la página que le cerraba la descarga a media. Receta: Gopeed con pausa y reanudación — el curso que baja en el wifi de la esquina se pausa cuando el wifi se va, y reanuda cuando vuelve, sin empezar de cero.
+
+Su ahorro del mes: seis gigas de datos que ya no recompra.
+
+El descargador que aguanta la vida real es el que paga la casa.
+
+*Caso seis — el desconfiado de oficio.* Instalaba todo con miedo y por eso no instalaba NADA. Receta: AppManager como primer paso de SIEMPRE — cada app nueva pasa por la lupa (permisos, rastreadores) antes del primer toque. Su frase del mes dos: «ahora instalo sabiendo».
+
+Esa es la paz del cajón: no es instalar más — es instalar SABIENDO.
+
+*🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)*
+
+Las seis placas del censo de la tarde del 15-oct-2026, listas para copiar y verificar:
+
+Shizuku · RikkaApps/Shizuku · ★31.786 · push 18-jun-2025 · Apache-2.0 · quietud de dieciséis
+meses. Gopeed · GopeedLab/gopeed · ★27.011 · nacida 21-abr-2019 · push 14-oct-2026 · GPL-3.0.
+
+AppManager · MuntashirAkon/AppManager · ★9.289 · nacida 30-may-2020 · push 14-oct-2026 · sin
+licencia declarada.
+
+Amaze · TeamAmaze/AmazeFileManager · ★6.432 · nacida 14-jul-2014 · push 18-oct-2026 · GPL-3.0.
+Markor · gsantner/markor · ★6.309 · nacida 26-ago-2017 · push 10-oct-2026 · sin licencia
+declarada.
+
+Touch Helper · zfdang/Android-Touch-Helper · ★5.327 · nacida 16-oct-2020 · push 10-oct-2026 · MIT.
+
+Fuente: censo vivo de la casa (5.684 repos, tarde del 15-oct-2026). Dato viaja FECHADO a esa
+tarde — el pulso nocturno #10 midió la música; el cajón queda para el pulso próximo de la serie.
+
+───────────────────
+
+*💬 LA CONVERSACIÓN HONESTA*
+
+Primera: el cajón es la cosecha con MÁS placas sin testamento de la serie (dos de seis) — y la
+forja las nombra con el nombre completo: AppManager y Markor, con sus estrellas y sus push, sin
+licencia al corte. La casa no borra: marca.
+
+Y espera la firma con la puerta abierta.
+
+Segunda: el acta de Shizuku se escribió con el estómago apretado — la forja usa su flujo todos
+los días. Se eligió la verdad completa (quietud, testamento, reloj, plan) en vez del paréntesis
+cómodo: «sigue funcionando».
+
+Sigue funcionando CON FECHA — esa es la diferencia entera entre mapa y propaganda.
+
+Tercera: el glosario es el de la FAMILIA cosecha más las entradas del cajón. Quinta pieza de la
+noche, misma aguja — el dialecto ya se oye en todo el barrio.
+
+───────────────────
+
+*🎞 LO QUE ESTA PIEZA NO DICE*
+
+No dice que Shizuku esté muerta — dice que lleva dieciséis meses de quietud con testamento
+Apache y plan B fechado. La diferencia es el oficio entero.
+
+No dice que AppManager sea insegura — dice que su placa está en blanco al corte y que la lupa se
+usa para mirar antes que para operar.
+
+No dice que el cajón sea pa expertos — dice que el trío del trámite (archivos, descarga,
+cuaderno) es pa cualquiera que trabaje con su teléfono.
+
+No dice que el autómata sea trampa — dice que automatiza TUS pasos con MIT firmado.
+
+No dice — jamás — que la llave maestra se instala por atajo de grupo: el permiso más alto del
+teléfono se da con receta y con vara.
+
+───────────────────
+
+*🎚 EL CAJÓN EN TU DÍA A DÍA (cuatro rutinas del oficio callado)*
+
+*LA MAÑANA DEL ARCHIVO.* La descarga del diario (el PDF del banco, el recibo del servicio) va directo a SU carpeta por Gopeed, y Amaze la repasa al desayuno: un minuto que evita el cajón de soga de fin de año. El orden no se instala: se rutina.
+
+*LA TARDE DEL CUADERNO.* La nota del día en Markor antes del guapo de la noche: idea, gasto,
+pendiente. El que anota en ARCHIVOS nunca amanece con la app cerrada y las ideas presas — el
+texto plano no hace huelga.
+
+*LA SEMANA DEL INSPECTOR.* Cada app nueva que entra al teléfono pasa por la lupa: permisos,
+rastreadores, actividades. Cinco minutos de lectura que valen más que el antivirus de pago del
+tío — el oficio del que sabe lo que instala.
+
+*EL MES DE LA LLAVE.* El ritual del cajón completo: push de las seis, fecha del acta de Shizuku,
+plan B revisado. El que mide su cajón cada mes no amanece con sorpresas — y si Shizuku
+despierta, tu nota del día seis lo celebra con fecha.
+
+───────────────────
+
+*🧵 GENEALOGÍAS DEL CAJÓN*
+
+La familia del cajón tiene su línea de sangre escrita: Amaze (2014) es el abuelo vivo de los
+muebles de archivos — doce años empujando el mismo día del censo, la prueba de que el oficio
+simple bien hecho no se jubila.
+
+Shizuku (la llave, sin fecha de nacimiento en el censo pero con el apellido Rikka de la casa de las herramientas serias) quedó como el testamento abierto de la serie. Gopeed (2019) hereda la escuela de los gestores clásicos con cara moderna y extensiones.
+
+Y Markor (2017) viene de la escuela del Markdown puro — la misma que la pieza 22 usa en sus
+notas: el ecosistema libre se repite familia a familia porque el oficio es uno.
+
+La cadena del cajón en una línea: lo simple y firmado sobrevive — lo complejo necesita taller
+vivo. Doce años de Amaze contra dieciséis meses de silencio de Shizuku: las dos fechas son el
+mismo consejo escrito dos veces.
+
+───────────────────
+
+*📦 LA DESPENSA DEL CAJÓN (tus herramientas, ordenadas como gente)*
+
+*UNA CARPETA, UN OFICIO.* Descargas, Documentos, Notas, Respaldo: cuatro carpetas con nombre claro y Amaze las defiende. El archivo que entra directo a SU carpeta nunca se pierde — el que entra «a ver dónde cae», se pierde.
+
+La despensa del teléfono es la de la casa: lugar claro pa cada cosa.
+
+*EL RESPALDO DEL CAJÓN.* Las notas (archivos), las configuraciones exportadas, la lista de herramientas instaladas: copia mensual a tu respaldo de la copia de la copia. El cajón completo se reconstruye en una tarde si vive también en archivo — el que pierde el teléfono sin respaldo pierde el taller entero.
+
+*LA NOTA-PLACA.* El documento del día seis del ritual: qué herramienta, qué censo, qué placa, qué fecha. La nota-placa de tu cajón es el mapa personal más valioso que la forja te puede enseñar a mantener — vale más que cualquier app de inventario: la escribes tú, la lees tú, es texto plano.
+
+*EL MINUTO DEL APLAUSO (por qué el ritual se cumple).* Los rituales fallan cuando son puro deber y cumplen cuando tienen su recompensa: el minuto del aplauso semanal es la recompensa del mantenimiento del cajón. Herramienta que salva la semana, aplaude; casa que empuja, anota con fecha; cajón que obedece, se disfruta.
+
+El oficio sin disfrute se abandona — y el cajón abandonado vuelve a ser soga. Por eso la casa
+cose el aplauso al mantenimiento: no es ternura — es ingeniería de hábitos, la misma que hace
+que el cuaderno se escriba y el respaldo se corra.
+
+*EL MANTENIMIENTO MENSUAL DEL CAJÓN (diez minutos, una vez al mes).* Abre la nota-placa del día
+seis y compara contra el censo nuevo de la serie: qué casa empujó, cuál calla, cuál despertó.
+
+Diez minutos con la vara en la mano y el cajón entero al día — el mantenimiento del cajón es el
+más barato de la casa porque las herramientas de fondo avisan despacio: la quietud se ve venir
+con meses de margen, si uno mira.
+
+Y si una casa cambió de placa (licencia firmada, push retomado), la nota se actualiza CON FECHA:
+el cajón también lleva su diario — y el diario del cajón es la historia de tu taller personal.
+
+*LA RESPIRA DEL CAJÓN (el respiro de la semana).* No todo es mantenimiento: una vez por semana,
+un minuto de APLAUSO al cajón — la herramienta que te salvó la semana (el archivo encontrado, la
+nota que te acordó el cobro, la descarga que no se perdió).
+
+El que aplaude su cajón lo cuida mejor: la gratitud es la vara invisible del mantenimiento — el
+mueble que se agradece no se abandona. Así funciona la casa entera: mido, aplaudo, respaldo — y
+vuelvo la próxima semana.
+
+*Y EL ORDEN DE INSTALACIÓN APRENDIDO.* Lupa primero, trámite después, llave al final — la receta del cajón se arma UNA vez y se respeta para siempre: el desorden del cajón empieza siempre con la llave instalada primero pororgullo. Humildad de taller: los cimientos antes de la cerradura.
+
+───────────────────
+
+*🪧 EL CARTEL DEL CAJÓN*
+
+Clávalo en la puerta del taller:
+
+*El permiso que das es la puerta que abres — el cajón lo toma literal.*
+
+*Lo simple y firmado sobrevive: doce años de Amaze lo firman.*
+
+*La nota en archivo es tuya; la nota en nube es inquilina.*
+
+*Quietud con testamento es espera informada — no funeral.*
+
+*Y el permiso más alto del teléfono no se da por atajo de grupo — jamás.*
+
+───────────────────
+
+*😄 EL MEME DE LA CASA*
+
+— El grupo de siempre: *«CLEANER MASTER PRO — tu teléfono 300% más rápido, libera RAM YA»* 💸
+
+— Amaze real: *★6.432 (censo 19-oct-2026), doce años de taller, GPL-3.0, push del mismo día — y
+ni un cartelito de «limpia tu RAM» en ninguna parte* 🧐
+
+— El del cleaner, borrando el respaldo del usuario «para optimizar»: 🪦
+
+— Yo, leyendo la placa antes de dar el permiso: 😌
+
+*Moral del meme, chin chin:* el teléfono no está enfermo — está mal cajoneado. El limpiador de grupo no limpia nada: limpia tu paciencia y tu billetera.
+
+El cajón de oficio (mueble, descargador, cuaderno, lupa) cuesta nada con placa y dura años — y la RAM la maneja Android solo, desde hace una década, chin chin.
+
+*⚠ LOS RIESGOS DEL CAJÓN, CON FECHA*
+
+*RIESGO UNO — el permiso mal dado.* El cajón toca los permisos más altos: ADB, accesibilidad, archivos completos. El riesgo no es la herramienta — es dar el permiso a la herramienta EQUIVOCADA: la del grupo con nombre inflado.
+
+La vara de la pieza 01 (origen, firma, permisos, triple vía, sin prisa) es literal aquí: el permiso que das es la puerta que abres.
+
+*RIESGO DOS — la quietud que se vuelve ruptura.* El acta de Shizuku con reloj incluido: cada gran actualización de Android es un dado contra las herramientas quietas. La defensa: el ritual mensual mira el push de TODO tu cajón, y el plan B de cada pieza clave está anotado ANTES de hacer falta — el mapa que se lee en crisis ya llegó tarde.
+
+*RIESGO TRES — las notas rehén.* El cuaderno que guarda tus notas en su nube propietaria las tiene de rehenes: sube el precio y tus años de escritura valen una exportación torcida. La defensa del censo: cuadernos de ARCHIVOS planos (el camino de Markor) — tus palabras en texto que cualquier mueble abre, con la copia de la copia de la casa.
+
+*Y el riesgo que la casa se auto-impone:* escribir la quietud de la herramienta más querida del ecosistema sin adornarla. La forja lo firmó: Shizuku quieta con fecha — y si mañana empuja, el mapa lo celebra el mismo día.
+
+Las historias fechadas no vuelven; los censos fechados se comparan.
+
+───────────────────
+
+*📖 GLOSARIO DE LA COSECHA*
+
+*Puente.* El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento.
+Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que
+las estrellas.
+
+*Cajón.* La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno.
+Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus
+etiquetas estén peinadas.
+
+*Detective.* La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra
+versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa
+del artista».
+
+*Cosecha.* El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y
+*🗓 EL RITUAL DE LA PRIMERA SEMANA (del cajón de soga al cajón de oficio)*
+
+*DÍA UNO — el inventario de la basura.* Abre tu carpeta de Descargas con lo que tengas instalado y mírala sin miedo: screenshots de 2024, APKs que ya ni existen, PDFs de trámites hechos. Solo MIRAR hoy — el inventario honesto es el primer acto del oficio.
+
+*DÍA DOS — el mueble.* Amaze del censo (GPL-3.0, doce años, push del 15-oct-2026) desde la
+tienda legal. Primer trabajo: la carpeta de ayer, ordenada en tres montones — queda, va a
+respaldo, se borra. El teléfono que obediente empieza aquí.
+
+*DÍA TRES — el descargador.* Gopeed del censo (push del 14-oct) y su bautismo: baja UN EPUB del
+Gutenberg (pieza 22) con pausa y reanudación de por medio. El que sabe esperar es el que baja en
+el campo.
+
+*DÍA CUATRO — el cuaderno.* Markor (vara marcada, tus notas en archivos): la primera nota en Markdown — lista de compras o idea de negocio, da igual. Y el bautismo de propiedad: expórtala a texto plano y ábrela en el mensajero.
+
+Tuya de verdad: así se siente el archivo libre.
+
+*DÍA CINCO — la lupa.* AppManager (vara sin testamento al frente): inspecciona las tres apps que instalaste esta semana. Mira permisos, mira rastreadores, mira actividades.
+
+Toques: CERO — esta semana se mira. El oficio del inspector empieza por la paciencia.
+
+*DÍA SEIS — la fecha de tu cajón.* Toma la nota del día cuatro y anota en ella: qué instalaste, de qué censo, con qué placa legal. La fecha de tu cajón es su acta — el ritual mensual la compara con los push del censo y el desencaje se pesca antes de que muerda.
+
+*DÍA SIETE — la placa, otra vez.* Vuelve al censo de esta pieza con tu cajón montado: ¿Amaze sigue con push vivo? ¿Gopeed respira?
+
+¿Shizuku sigue en su quietud o el taller despertó? El día que lees las seis placas sin ayuda, la casa cumplió: tu cajón es de oficio — y tu teléfono, por fin, de los tuyos.
+
+───────────────────
+
+*Y la regla del oficio que no cambia con el piso del cajón:* la forja mide herramientas públicas, tú das los permisos — y el permiso más alto del teléfono se da con receta, con vara y con fecha. Que tu cajón tenga placa — y que tu nota sea tuya de verdad.
+
+───────────────────
+
+*🩺 LA SALUD DEL CAJÓN AL CORTE (el parte médico de las seis casas)*
+
+La forja firma el parte con la misma vara de respiración de toda la serie: push vivo, fila de
+asuntos con señales, quietud fechada.
+
+Respirando al corte: Amaze, el pulso más fuerte del cajón — push el MISMO día del censo con doce
+años de casa. Gopeed, push del 14-oct: dos días de respiración fresca.
+
+AppManager, push del 14-oct también: el inspector trabaja — y su fila de asuntos muestra taller
+atento. Touch Helper, push del 10-oct: cinco días, ritmo sano de herramienta de fondo.
+
+En espera informada: Markor, push del 10-oct (respira — su placa en blanco es el pendiente legal, no el pulso). Y Shizuku en su quietud fechada: dieciséis meses con testamento Apache y plan B — el único parte GRAVE del cajón, escrito sin pánico y sin maquillaje.
+
+El balance honesto del parte: cuatro casas respirando fuerte, una respirando con placa pendiente, una quieta con testamento. Es el cajón más sano que el rumor del barrio imagina — y el único que le pide vigilia es, precisamente, el más importante.
+
+Así es el oficio: la herramienta crítica no es la que más ruido hace — es la que más puertas abre.
+
+*📐 LA MEDIDA DEL CAJÓN (qué mira la forja que no se ve)*
+
+Además de las placas, el censo deja leer tres medidas finas del cajón que la forja firma en voz
+alta.
+
+La primera: el tamaño de las casas. Ninguna de las seis pasa de ★32.000 al censo del 15-oct-2026 — el cajón es el territorio de las casas MEDIANAS del ecosistema, y esa mediana es buena señal: las herramientas de fondo no necesitan fama de estrella, necesitan oficio de fondo.
+
+La casa gigante del cajón sería sospechosa — la fama en las herramientas suele venir de promesa,
+no de trabajo.
+
+La segunda: la mezcla de licencias. Cuatro firmas distintas al corte (GPL-3.0, Apache-2.0, MIT, y las dos en blanco): el cajón es el territorio más variado de la serie en contratos — y la lectura de la forja es directa: cada escuela elige su ley.
+
+El trámite firma GPL (Gopeed), la llave firma Apache (Shizuku), el autómata firma MIT (Touch
+Helper) — y las lupas pendientes.
+
+El contrato sigue al oficio.
+
+La tercera: el ritmo de nacimiento. Las seis nacieron entre 2014 y 2020 — el cajón no estrena
+casas al corte: es territorio de madurez.
+
+La lectura honesta: en el cajón no hay moda que seguir ni novedad que cazar — hay herramientas
+que se heredan. El barrio que busca estreno mira la música; el que busca oficio, el cajón.
+
+La serie mide los dos — y no los confunde.
+
+*🎯 EL MINIQUIZ DEL CAJÓN*
+
+Cinco preguntas de la pieza. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante),
+para que nadie las palmee sin pensarse el plato.
+
+*LAS PREGUNTAS:*
+
+1) ¿Qué herramienta del cajón lleva dieciséis meses de quietud y cuántas estrellas tiene?
+
+2) ¿Qué casa del cajón cumple DOCE años y empujó el mismo día del censo?
+
+3) ¿Qué dos casas del cajón viajan SIN licencia declarada?
+
+4) ¿Qué escuela atiende Gopeed y qué hace?
+
+5) ¿Cuál es el orden de instalación del cajón de la casa?
+
+*Respuestas al revés (léelas de atrás para adelante):*
+
+(Las respuestas correctas —de arriba abajo— son: Shizuku la quieta con testamento; Amaze la
+doceañera viva; AppManager y Markor las placas en blanco; Gopeed el trámite de la descarga; y
+lupa-trámite-llave el orden de la casa.)
+
+───────────────────
+
+*PRIMERA CARTA — al que tenía un «limpiador» instalado.*
+
+Esta pieza te lo dice sin juzgar: el limpiador del grupo no limpia nada — desordena. La mudanza al cajón de oficio cuesta una tarde (el ritual completo) y tu teléfono amanece obediente: mueble, descargador, cuaderno, lupa — cuatro herramientas con placa que hacen el trabajo REAL del limpiador anunciado.
+
+Y la despedida del impostor se hace con fecha, como toda despedida de la casa.
+
+*SEGUNDA CARTA — al mantenedor de una de las seis casas.*
+
+Tu push está en el acta del cajón — y las dos placas sin testamento no son condena: son varas
+marcadas con la puerta abierta. Una sola línea en el repo (la licencia elegida y firmada) cambia
+el acta del próximo pulso de la serie.
+
+Y a Shizuku: la casa tiene su acta lista para el día del despertar — la forja celebra la línea
+viva el día que ocurre, con fecha.
+
+*TERCERA CARTA — al que nota que esta serie repite la misma vara.*
+
+Sí: licencia con nombre, push con fecha, tienda legal, quietud con acta — pieza tras pieza,
+territorio tras territorio. No es falta de imaginación: es la vara que no se negocia.
+
+La imaginación está en las placas (cada censo cuenta su historia), y la vara es el timbre de la
+casa.
+
+El que ya la aprendió con la música la está aplicando en su trabajo, en sus compras y en sus
+grupos — esa siempre fue la meta.
+
+───────────────────
+
+💓 *PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 25).*
+
+dormidos · 0 archivados.
+
+*📋 LA FICHA DE HOY*
 
 - **RikkaApps/Shizuku** — «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.»
-  ★32.384 · su último empuje fue el 2025-06-18 (hace 500 días) · licencia Apache-2.0 · Kotlin · última release v13.6.0 (2025-05-25) · https://github.com/RikkaApps/Shizuku
+  ★32.392 · su último empuje fue el 2025-06-18 (hace 498 días) · licencia Apache-2.0 · Kotlin · última release v13.6.0 (2025-05-25) · https://github.com/RikkaApps/Shizuku
 
 - **GopeedLab/gopeed** — «A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.»
-  ★27.246 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Dart · última release v1.9.3 (2026-03-18) · https://github.com/GopeedLab/gopeed · Web: https://gopeed.com
+  ★27.246 · empujó hoy · licencia GPL-3.0 · Dart · última release v1.9.3 (2026-03-18) · https://github.com/GopeedLab/gopeed · Web: https://gopeed.com
   Temas: android · bittorrent · cross-platform · debian · downloader · flutter
 
 - **MuntashirAkon/AppManager** — «A full-featured package manager and viewer for Android»
-  ★9.370 · su último empuje fue el 2026-10-19 (hace 12 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Java · última release v4.1.1 (2026-09-04) · https://github.com/MuntashirAkon/AppManager · Web: http://muntashir.dev/AppManager/
+  ★9.371 · su último empuje fue el 2026-10-19 (hace 10 días) · licencia GPL-3.0 · Java · última release v4.1.1 (2026-09-04) · https://github.com/MuntashirAkon/AppManager · Web: http://muntashir.dev/AppManager/
   Temas: adb · android · apks · material-design · package-manager
 
 - **florisboard/florisboard** — «An open-source keyboard for Android which respects your privacy. Currently in beta.»
-  ★8.732 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia Apache-2.0 · Kotlin · última release v0.5.2 (2025-11-28) · https://github.com/florisboard/florisboard · Web: https://florisboard.org
+  ★8.733 · su último empuje fue el 2026-10-25 (hace 4 días) · licencia Apache-2.0 · Kotlin · última release v0.5.2 (2025-11-28) · https://github.com/florisboard/florisboard · Web: https://florisboard.org
   Temas: android · input-method · keyboard · kotlin · kotlin-android
 
 - **TeamAmaze/AmazeFileManager** — «Material design file manager for Android»
-  ★6.447 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v3.11.4 (2026-10-15) · https://github.com/TeamAmaze/AmazeFileManager · Web: https://teamamaze.xyz
+  ★6.448 · empujó hoy · licencia GPL-3.0 · Kotlin · última release v3.11.4 (2026-10-15) · https://github.com/TeamAmaze/AmazeFileManager · Web: https://teamamaze.xyz
   Temas: android · fdroid · filemanager · frontend · java · kotlin
 
 - **gsantner/markor** — «Text editor - Notes, ToDo & Filemanager (for Android) - Markdown, todo.txt, plaintext, math, ..»
-  ★6.348 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 (según texto de su repo, 29-oct-2026) · Java · última release v2026.10.0 (2026-10-25) · https://github.com/gsantner/markor · Web: https://github.com/gsantner/markor/discussions/2269
+  ★6.349 · empujó hoy · licencia Apache-2.0 · Java · última release v2026.10.0 (2026-10-25) · https://github.com/gsantner/markor · Web: https://github.com/gsantner/markor/discussions/2269
   Temas: android-app · asciidoc · clipboard · csv-reader · editor · education
 
 - **zfdang/Android-Touch-Helper** — «AdSkip — an Android assistant for automatically skipping app launch ads»
-  ★5.337 · su último empuje fue el 2026-10-19 (hace 12 días) · licencia MIT · Java · última release tag-278 (2026-10-10) · https://github.com/zfdang/Android-Touch-Helper · Web: https://TouchHelper.zfdang.com
+  ★5.336 · su último empuje fue el 2026-10-19 (hace 10 días) · licencia MIT · Java · última release tag-278 (2026-10-10) · https://github.com/zfdang/Android-Touch-Helper · Web: https://TouchHelper.zfdang.com
   Temas: accessibility · activity · ad · android · auto · click
-
-## Lectura de la medición
-
-La noticia fresca es de **gsantner/markor**: release v2026.10.0 (2026-10-25). 7 repos tienen release y la más reciente es la de **gsantner/markor** (v2026.10.0 (2026-10-25)); en licencias: Apache-2.0 ×2, GPL-3.0 ×2, Apache-2.0 (según texto de su repo, 29-oct-2026) ×1; el empuje más reciente es de **TeamAmaze/AmazeFileManager** (hace 2 días); **RikkaApps/Shizuku** duerme desde el 2025-06-18.
-
----
 
 *🎯 MINI-QUIZ DE HOY*
 
-*1.* ¿Qué release es la de fecha más reciente del grupo y de quién?
+*1.* ¿Qué repo del grupo lleva más tiempo sin empujar?
 
 *2.* De la pieza, ¿quién empujó más cerca de hoy?
 
@@ -49,6 +615,6 @@ La noticia fresca es de **gsantner/markor**: release v2026.10.0 (2026-10-25). 7 
 
 *Respuestas al revés (léelas de atrás para adelante):*
 
-REV|)52-01-6202( 0.01.6202v — rokram/rentnasg=1|REV|92-01-6202 — reganaMeliFezamA/ezamAmaeT=2|REV|0.3-LPG=3
+REV|81-60-5202 — ukuzihS/sppAakkiR=1|REV|92-01-6202 — deepog/baLdeepoG=2|REV|0.3-LPG=3
 
-💓 7 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 7 vivos, 0 firmados arriba con su estado.
+💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 7 repos y 0 enlaces de esta pieza: 7 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.
