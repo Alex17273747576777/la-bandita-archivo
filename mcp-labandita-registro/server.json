@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Alex17273747576777/labandita-registro",
+  "title": "La Bandita · registro verificado",
+  "description": "Registro verificado y fechado de repositorios del ecosistema Android libre (6.826 fichas). Solo lectura. Toda respuesta trae medido_en, fuente y estado_frescura; si el dato está rancio, lo dice con su edad exacta en vez de presentarlo como actual.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Alex17273747576777/la-bandita-archivo",
+    "source": "github",
+    "id": "1230000000"
+  },
+  "websiteUrl": "https://github.com/Alex17273747576777/la-bandita-archivo/tree/main/mcp-labandita-registro",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "labandita-registro",
+      "version": "1.0.0",
+      "runtimeHint": "python",
+      "transport": { "type": "stdio" },
+      "packageArguments": [],
+      "environmentVariables": []
+    }
+  ]
+}

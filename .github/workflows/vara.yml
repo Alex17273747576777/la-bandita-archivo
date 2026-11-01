@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: read
+  id-token: write      # necesario para firmar sin llave con Sigstore (OIDC efímero)
 
 concurrency:
   group: vara-${{ github.ref }}
@@ -58,6 +59,27 @@ jobs:
 
       - name: Servidor MCP responde
         run: python3 mcp-labandita-registro/probar.py | tee /tmp/mcp.txt
+
+      - name: Atestación firmada (Sigstore, sin llave)
+        if: github.event_name != 'pull_request'
+        run: |
+          python3 tools/atestar.py
+          PISTA=$(python3 -c "import sys;sys.path.insert(0,'tools');from fecha_casa import hoy;print(hoy())")
+          curl -sSfL -o cosign https://github.com/sigstore/cosign/releases/latest/download/cosign-linux-amd64
+          chmod +x cosign
+          ./cosign sign-blob --yes \
+            --bundle "attestations/lote-${PISTA}.sigstore.json" \
+            registry/_manifiesto-sha256.tsv
+          echo "firmado: attestations/lote-${PISTA}.sigstore.json"
+          echo "-Firma verificable en attestations/ (certificado efímero de esta corrida)-" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Guardar la atestación firmada
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: atestacion-firmada
+          path: attestations/*.sigstore.json
+          if-no-files-found: warn
 
       - name: Resumen
         run: |

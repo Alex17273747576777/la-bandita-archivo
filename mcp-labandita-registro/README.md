@@ -56,3 +56,36 @@ python3 mcp-labandita-registro/probar.py              # prueba de extremo a extr
 
 No es un buscador de Internet ni un recomendador. Es el registro de la casa servido con contrato.
 Si un dato no está, no está; y si está viejo, lo dice.
+
+## Publicación (31 de octubre de 2026)
+
+El dueño autorizó publicar este servidor en abierto. Lo que eso significa, sin adornos:
+
+- **Licencia:** MIT (ver `LICENSE` en la raíz del repositorio).
+- **Manifiesto:** `server.json` sigue el esquema del registro oficial de MCP
+  (`io.github.Alex17273747576777/labandita-registro`). El registro está en *preview* y verifica la
+  propiedad del espacio de nombres por GitHub: la publicación la dispara el dueño cuando quiera, no
+  un script a sus espaldas.
+- **Versión fijada:** 1.0.0. Nada de rangos flotantes.
+- **Solo lectura, sin red, sin credenciales.** No hay ninguna herramienta que escriba, borre o
+  ejecute comandos.
+- **Instalación desde el repo:**
+
+```bash
+git clone https://github.com/Alex17273747576777/la-bandita-archivo
+cd la-bandita-archivo
+pip install "mcp>=2,<3"
+python3 mcp-labandita-registro/probar.py     # prueba de extremo a extremo
+```
+
+- **Instalación como paquete** (opcional, si prefieres `pip install -e`):
+
+```bash
+pip install -e mcp-labandita-registro
+labandita-registro      # arranca en stdio
+```
+
+### Qué NO promete
+
+No promete que las apps sean seguras. Promete que el dato que devuelve es el que se midió, en la
+fecha que dice, con la evidencia guardada — y que si está viejo, lo va a decir.
