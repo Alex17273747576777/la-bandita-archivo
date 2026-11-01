@@ -61,19 +61,18 @@ El grupo respira despacio; su empuje más reciente, **woheller69/FreeDroidWarn**
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 576 caracteres ═══
+═══ MENSAJE 3 de 4 · 463 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• woheller69/FreeDroidWarn — ★3.728 (+12) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
+• woheller69/FreeDroidWarn — ★3.730 (+14) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 14 enlaces de esta pieza, *13 responden*.
-
-• https://github.com/woheller69/FreeDroidWarn — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 14 enlaces de esta pieza, *14 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

@@ -40,7 +40,7 @@ El técnico del barrio tenía la solución para todo: root, módulo, parche. Hoy
 
 «Porque Shizuku me deja hacer sin tocar el sistema lo que antes me costaba una hora y un riesgo —dijo—. No todas las apps, pero las que de verdad uso».
 
-El cambio de fondo no es la app: es que la comunidad dejó de necesitar root para lo de todos los días. Y para lo que sí necesita mirar el sistema, está `MuntashirAkon/AppManager` — *★9.393 · release v4.1.1 del 4 de septiembre* — que en la ficha de hoy sale con un detalle importante: *no declara licencia en la API*. No es una app mala; es una app que no puedes continuar si su autor desaparece.
+El cambio de fondo no es la app: es que la comunidad dejó de necesitar root para lo de todos los días. Y para lo que sí necesita mirar el sistema, está `MuntashirAkon/AppManager` — *★9.399 · release v4.1.1 del 4 de septiembre* — que en la ficha de hoy sale con un detalle importante: *no declara licencia en la API*. No es una app mala; es una app que no puedes continuar si su autor desaparece.
 
 ───────────────────
 
@@ -48,7 +48,7 @@ El cambio de fondo no es la app: es que la comunidad dejó de necesitar root par
 
 El hijo de la vecina estudia japonés y quiere leer los cómics con el diccionario al lado, como se hace en papel. No lo consiguió con ninguna app popular.
 
-Lo resolvió con `Chimahon/chimahon` — *★239 · GPL-3.0 · creado el 27 de marzo de 2026 · release v2.4.8 del 19 de octubre* — un fork de Mihon hecho específicamente para inmersión: diccionario nativo, reconocimiento de texto en la imagen y la posibilidad de leer sin salir de la página. Es el nicho más específico de todo el censo nuevo y el mejor hecho.
+Lo resolvió con `Chimahon/chimahon` — *★240 · GPL-3.0 · creado el 27 de marzo de 2026 · release v2.4.8 del 19 de octubre* — un fork de Mihon hecho específicamente para inmersión: diccionario nativo, reconocimiento de texto en la imagen y la posibilidad de leer sin salir de la página. Es el nicho más específico de todo el censo nuevo y el mejor hecho.
 
 Me dijo una frase que se me quedó: «no quería una app que tradujera; quería una app que no me sacara del cómic». Eso es lo que hace un buen fork: no añade funciones, resuelve un problema concreto de alguien concreto.
 
@@ -98,13 +98,13 @@ Lector simple para Android 5.0 en adelante. No tiene sincronización, no tiene s
 *Para quién:* para el primer teléfono, para el de la abuela, para el que solo quiere leer.
 
 *2 · Chimahon — la de los que estudian el idioma*
-`Chimahon/chimahon` · *★239 · GPL-3.0 · creado el 27 de marzo de 2026 · release v2.4.8 del 19 de octubre.*
+`Chimahon/chimahon` · *★240 · GPL-3.0 · creado el 27 de marzo de 2026 · release v2.4.8 del 19 de octubre.*
 Fork de Mihon para inmersión: diccionario, reconocimiento de texto en la imagen, lectura sin salir de la página. Es el fork más especializado del censo nuevo.
 *El precio:* es un fork, así que hereda los cimientos de Mihon y su ritmo. Su público es pequeño y su equipo también.
 *Para quién:* para el que lee para aprender un idioma, no para el que lee por gusto y nada más.
 
 *3 · Ciallo Reader — la que abre tres formatos en el mismo estante*
-`roxycon-dev/Ciallo-Reader` · *★261 · MIT · Kotlin · creado el 29 de julio de 2026 · release v1.5.10 del 29 de octubre.*
+`roxycon-dev/Ciallo-Reader` · *★265 · MIT · Kotlin · creado el 29 de julio de 2026 · release v1.5.10 del 29 de octubre.*
 Tres meses de vida y ya lee novela, cómic y libro: TXT, EPUB y CBZ en la misma biblioteca, con búsqueda en varias fuentes y descarga para leer sin conexión.
 *El precio:* tres meses. En tres meses un proyecto puede desaparecer sin dejar rastro, así que respaldo desde el primer día.
 *Para quién:* para el que no quiere tres apps para tres formatos.
@@ -142,10 +142,10 @@ La otra biblioteca grande, con licencia MIT y un ecosistema de clientes que crec
 *`BookHeaven/BookHeaven.Server` — ★197 · GPL-3.0 · creado el 23 de septiembre de 2024 · release v1.0.4 del 30 de octubre.*
 Servidor web para tu biblioteca de libros electrónicos, compatible con los lectores que hablan OPDS, el formato estándar de catálogo. Es el más joven de los cuatro y el que menos gente conoce. *Para quién:* para el que tiene libros además de cómics y no quiere dos servidores.
 
-*`zmz125000/LocalViewer` — ★198 · GPL-3.0 · creado el 18 de julio de 2026 · release 1.13.22 del 31 de octubre.*
+*`zmz125000/LocalViewer` — ★200 · GPL-3.0 · creado el 18 de julio de 2026 · release 1.13.22 del 31 de octubre.*
 No es un servidor: es la app que lee por SMB y WebDAV directo de la carpeta compartida de tu computadora. *Su fuerza:* cero instalación del lado del servidor; si ya compartes una carpeta, ya está. *Su debilidad:* depende de que esa computadora esté encendida y en la misma red.
 
-*Y el cliente que faltaba:* `chmouel/liseur` — *★169 · MIT · creado el 28 de julio de 2026 · release v0.26.0 del 28 de octubre*: lector de EPUB con biblioteca remota para Android. Tres meses y veintiséis versiones menores: publica más que muchos veteranos y conviene decirlo.
+*Y el cliente que faltaba:* `chmouel/liseur` — *★170 · MIT · creado el 28 de julio de 2026 · release v0.26.0 del 28 de octubre*: lector de EPUB con biblioteca remota para Android. Tres meses y veintiséis versiones menores: publica más que muchos veteranos y conviene decirlo.
 
 *LOS QUE TRABAJAN SIN TELÉFONO*
 
@@ -433,35 +433,35 @@ Todo lo demás —servidores, sincronización, terminal, diccionarios— es para
 
 ───────────────────
 
-*LA FICHA DE HOY — 49 repositorios, con fecha de nacimiento*
+*LA FICHA DE HOY — 48 repositorios, con fecha de nacimiento*
 
 Esto no es una lista de recomendaciones: es un acta. Cada línea se consultó hoy con la API de GitHub: estrellas, licencia declarada, fecha de creación, último empuje y última release. La fecha de nacimiento va primera a propósito: es el dato que separa un proyecto de un anuncio.
 
 *Los motores de la familia:*
 
-• `mihonapp/mihon` — ★24.916 · Apache-2.0 · nació el 15-ene-2024 · último empuje 26-oct-2026 · release v0.21.3 del 25-oct-2026
+• `mihonapp/mihon` — ★24.922 · Apache-2.0 · nació el 15-ene-2024 · último empuje 26-oct-2026 · release v0.21.3 del 25-oct-2026
 • `null2264/yokai` — ★1.914 · Apache-2.0 · nació el 6-ene-2024 · último empuje 13-oct-2026 · release v1.10.2 del 23-sep-2026
-• `komikku-app/komikku` — ★4.963 · Apache-2.0 · nació el 14-ene-2024 · último empuje 21-oct-2026 · release v1.14.1 del 17-jul-2026
+• `komikku-app/komikku` — ★4.964 · Apache-2.0 · nació el 14-ene-2024 · último empuje 21-oct-2026 · release v1.14.1 del 17-jul-2026
 • `nekomangaorg/Neko` — ★2.818 · Apache-2.0 · nació el 22-abr-2019 · último empuje 1-nov-2026 · release 3.8.5 del 30-oct-2026
-• `Kototoro-app/Kototoro` — ★657 · Apache-2.0 · nació el 28-oct-2025 · último empuje 31-oct-2026 · release v2.3.4 del 29-oct-2026
-• `aniyomiorg/aniyomi` — ★7.865 · Apache-2.0 · nació el 17-abr-2021 · último empuje 14-sep-2026 · release v0.18.2.1 del 14-sep-2026
+• `Kototoro-app/Kototoro` — ★659 · Apache-2.0 · nació el 28-oct-2025 · último empuje 31-oct-2026 · release v2.3.4 del 29-oct-2026
+• `aniyomiorg/aniyomi` — ★7.864 · Apache-2.0 · nació el 17-abr-2021 · último empuje 14-sep-2026 · release v0.18.2.1 del 14-sep-2026
 • `kodjodevf/mangayomi` — ★4.286 · Apache-2.0 · nació el 3-abr-2023 · último empuje 31-oct-2026 · release v0.9.9 del 12-oct-2026
 • `jakepurple13/OtakuWorld` — ★637 · Apache-2.0 · nació el 30-mar-2021 · último empuje 31-oct-2026 · release v32.1.2 del 29-jun-2026
 
 *Los que nacieron este año:*
 
 • `UsagiApp/Usagi` — ★288 · GPL-3.0 · nació el 20-mar-2026 · último empuje 30-oct-2026 · release v1.2 del 3-oct-2026
-• `Chimahon/chimahon` — ★239 · GPL-3.0 · nació el 27-mar-2026 · último empuje 28-oct-2026 · release v2.4.8 del 19-oct-2026
-• `roxycon-dev/Ciallo-Reader` — ★261 · MIT · nació el 29-jul-2026 · último empuje 29-oct-2026 · release v1.5.10 del 29-oct-2026
+• `Chimahon/chimahon` — ★240 · GPL-3.0 · nació el 27-mar-2026 · último empuje 28-oct-2026 · release v2.4.8 del 19-oct-2026
+• `roxycon-dev/Ciallo-Reader` — ★265 · MIT · nació el 29-jul-2026 · último empuje 29-oct-2026 · release v1.5.10 del 29-oct-2026
 • `yomihon/yomihon` — ★142 · Apache-2.0 · nació el 14-sep-2025 · último empuje 18-oct-2026 · release v0.4.3 del 18-oct-2026
 • `AngeloSha/uchiyomi` — ★98 · MPL-2.0 · nació el 23-jun-2026 · último empuje 31-oct-2026 · release v0.103.1 del 31-oct-2026
 • `Suwayomi/Suwayomi-Tsumiru` — ★107 · MPL-2.0 · nació el 19-jun-2026 · último empuje 30-oct-2026 · release v1.6.3 del 30-oct-2026
-• `Mister-album/Koharia` — ★252 · Apache-2.0 · nació el 28-may-2026 · último empuje 27-oct-2026 · release v0.7.5 del 27-oct-2026
+• `Mister-album/Koharia` — ★254 · Apache-2.0 · nació el 28-may-2026 · último empuje 27-oct-2026 · release v0.7.5 del 27-oct-2026
 • `Nyora-Manga/nyora-android` — ★58 · GPL-3.0 · nació el 12-jun-2026 · último empuje 23-sep-2026 · release v2.7.3 del 31-jul-2026
 • `Utolaris/Kujira-Manga` — ★17 · GPL-3.0 · nació el 19-ago-2026 · último empuje 25-oct-2026 · release v1.5.3 del 25-oct-2026
 • `Wammy-app/Wammy` — ★13 · Apache-2.0 · nació el 27-ago-2026 · último empuje 25-oct-2026 · release v0.1.4 del 25-oct-2026
-• `zmz125000/LocalViewer` — ★198 · GPL-3.0 · nació el 18-jul-2026 · último empuje 1-nov-2026 · release 1.13.22 del 31-oct-2026
-• `chmouel/liseur` — ★169 · MIT · nació el 28-jul-2026 · último empuje 1-nov-2026 · release v0.26.0 del 28-oct-2026
+• `zmz125000/LocalViewer` — ★200 · GPL-3.0 · nació el 18-jul-2026 · último empuje 1-nov-2026 · release 1.13.22 del 31-oct-2026
+• `chmouel/liseur` — ★170 · MIT · nació el 28-jul-2026 · último empuje 1-nov-2026 · release v0.26.0 del 28-oct-2026
 
 *Servidores, bibliotecas y clientes:*
 
@@ -478,11 +478,11 @@ Esto no es una lista de recomendaciones: es un acta. Cada línea se consultó ho
 
 *Catálogos de extensiones:*
 
-• `keiyoushi/extensions-source` — ★4.839 · Apache-2.0 · nació el 8-ene-2024 · último empuje 1-nov-2026 · sin release publicada
+• `keiyoushi/extensions-source` — ★4.843 · Apache-2.0 · nació el 8-ene-2024 · último empuje 1-nov-2026 · sin release publicada
 • `yuzono/tachiyomi-extensions` — ★953 · Apache-2.0 · nació el 18-nov-2023 · último empuje 1-nov-2026 · sin release publicada
 • `m2k3a/mangayomi-extensions` — ★113 · Apache-2.0 · nació el 24-jul-2025 · último empuje 29-oct-2026 · sin release publicada
 • `skepsun/kototoro-parsers` — ★17 · GPL-3.0 · nació el 16-oct-2025 · último empuje 28-oct-2026 · sin release publicada
-• `aidoku-community/sources` — ★613 · Apache-2.0 · nació el 12-jun-2025 · último empuje 30-oct-2026 · sin release publicada
+• `aidoku-community/sources` — ★614 · Apache-2.0 · nació el 12-jun-2025 · último empuje 30-oct-2026 · sin release publicada
 
 *Descargadores y terminal:*
 
@@ -493,7 +493,7 @@ Esto no es una lista de recomendaciones: es un acta. Cada línea se consultó ho
 
 *Archivados y muertos:*
 
-• `KotatsuApp/Kotatsu` — ★8.943 · GPL-3.0 · ARCHIVADO · nació el 30-ene-2020 · último empuje 4-nov-2025 · sin release publicada
+• `KotatsuApp/Kotatsu` — ★8.946 · GPL-3.0 · ARCHIVADO · nació el 30-ene-2020 · último empuje 4-nov-2025 · sin release publicada
 • `Koitharu/OpenManga` — ★182 · NOASSERTION · ARCHIVADO · nació el 5-oct-2015 · último empuje 2-feb-2020 · release v4.7.1 del 20-jul-2019
 • `timschneeb/tachiyomi-extensions-archive` — ★1.802 · Apache-2.0 · ARCHIVADO · nació el 5-ene-2024 · último empuje 23-mar-2026 · sin release publicada
 • `aniyomiorg/aniyomi-extensions` — ★849 · Apache-2.0 · ARCHIVADO · nació el 22-abr-2021 · último empuje 19-ago-2024 · sin release publicada
@@ -571,4 +571,4 @@ La pieza que leas mañana puede llevar otro nombre. Tu carpeta de respaldos no c
 
 ───────────────────
 
-💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy, uno por uno, los repositorios de esta pieza: los vivos con sus estrellas, los archivados marcados como archivados y los tres muertos con su 404 a la vista. Los números llevan fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.
+💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy a las 06:15, uno por uno, los 48 repositorios de esta ficha: 41 vivos, 4 archivados y 3 muertos con su 404 a la vista. Los números llevan la hora, no solo la fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.

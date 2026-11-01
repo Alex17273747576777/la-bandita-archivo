@@ -58,23 +58,21 @@ Pulso de hoy sobre los 4 repos de la pieza: 4 vivos, 4 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1091 caracteres ═══
+═══ MENSAJE 3 de 4 · 850 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 125*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• yt-dlp/yt-dlp — ★204.271 (+585) · empujó el 29-oct-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
-• XiaoYouChR/Ghost-Downloader-3 — ★10.582 (+81) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.4.6 (28-oct-2026)
-• Jman-Github/Universal-Patch-Manager — ★1.397 (+7) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
-• rushiranpise/lsposed-modules-manager — ★21 (+4) · empujó en las últimas horas · GPL-3.0 · última release v2.2.2 (30-oct-2026)
+• yt-dlp/yt-dlp — ★204.336 (+650) · empujó el 29-oct-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• XiaoYouChR/Ghost-Downloader-3 — ★10.587 (+86) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.4.6 (28-oct-2026)
+• Jman-Github/Universal-Patch-Manager — ★1.398 (+8) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• rushiranpise/lsposed-modules-manager — ★21 (+4) · empujó en las últimas horas · GPL-3.0 · última release v2.2.3 (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 7 enlaces de esta pieza, *5 responden*.
-
-• https://github.com/rushiranpise/lsposed-modules-manager — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yt-dlp/yt-dlp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 7 enlaces de esta pieza, *7 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

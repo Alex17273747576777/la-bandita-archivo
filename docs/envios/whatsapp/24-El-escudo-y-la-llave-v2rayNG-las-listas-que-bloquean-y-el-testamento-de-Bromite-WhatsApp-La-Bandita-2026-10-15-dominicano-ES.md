@@ -639,16 +639,16 @@ REV|149.46★ — GNyar2v/tsud2=1|REV|CC=2|REV|03-01-6202 — nretnal/nretnalteg
 
 ⏬ sigue abajo · parte 12 de 14
 
-═══ MENSAJE 14 de 15 · 1030 caracteres ═══
+═══ MENSAJE 14 de 15 · 1022 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 24*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• 2dust/v2rayNG — ★65.088 (+147) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 2.3.14 (28-oct-2026)
-• Johnshall/Shadowrocket-ADBlock-Rules-Forever — ★31.726 (+62) · empujó en las últimas horas · NOASSERTION
-• getlantern/lantern — ★16.601 (+42) · empujó en las últimas horas · GPL-3.0 · última release v10.0.4 (27-oct-2026)
-• TeamPiped/Piped — ★10.299 (+3) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
+• 2dust/v2rayNG — ★65.097 (+156) · empujó en las últimas horas · GPL-3.0 · última release 2.3.14 (28-oct-2026)
+• Johnshall/Shadowrocket-ADBlock-Rules-Forever — ★31.732 (+68) · empujó en las últimas horas · NOASSERTION
+• getlantern/lantern — ★16.604 (+45) · empujó en las últimas horas · GPL-3.0 · última release v10.0.4 (27-oct-2026)
+• TeamPiped/Piped — ★10.298 (+2) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
 • bromite/bromite — ★6.318 (-3) · *dormido*: sin empujar desde el 24-ene-2024 (1012 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
 • libredirect/browser_extension — ★4.104 (+7) · empujó en las últimas horas · GPL-3.0 · última release v3.4.0 (24-jul-2026)
 

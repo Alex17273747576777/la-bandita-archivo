@@ -107,35 +107,31 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 8 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2527 caracteres ═══
+═══ MENSAJE 4 de 5 · 2121 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• TeamNewPipe/NewPipe — ★40.385 (+31) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
-• MetrolistGroup/Metrolist — ★13.922 (+33) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.609 (+80) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
+• TeamNewPipe/NewPipe — ★40.387 (+33) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
+• MetrolistGroup/Metrolist — ★13.925 (+36) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.612 (+83) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • vfsfitvnm/ViMusic — ★9.466 (-1) · *dormido*: sin empujar desde el 15-jul-2024 (839 días) · GPL-3.0 · última release v0.5.4 (4-nov-2022) · *ARCHIVADO*
 • AntennaPod/AntennaPod — ★8.257 (+4) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
-• z-huang/InnerTune — ★6.130 (+2) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• z-huang/InnerTune — ★6.131 (+3) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • OxygenCobalt/Auxio — ★4.411 (+10) · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
-• fast4x/RiMusic — ★3.897 (-1) · *dormido*: sin empujar desde el 30-jul-2025 (459 días) · GPL-3.0 · última release v0.6.76 (21-mar-2025) · *ARCHIVADO*
-• anandnet/Harmony-Music — ★3.090 (-1) · *dormido*: sin empujar desde el 8-dic-2025 (328 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
-• N-Zik-Group/N-Zik — ★279 (+1) · empujó en las últimas horas · GPL-3.0 · última release v8.5.0 (28-oct-2026)
+• fast4x/RiMusic — ★3.896 (-2) · *dormido*: sin empujar desde el 30-jul-2025 (459 días) · GPL-3.0 · última release v0.6.76 (21-mar-2025) · *ARCHIVADO*
+• anandnet/Harmony-Music — ★3.089 (-2) · *dormido*: sin empujar desde el 8-dic-2025 (328 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
+• N-Zik-Group/N-Zik — ★280 (+2) · empujó en las últimas horas · GPL-3.0 · última release v8.5.0 (28-oct-2026)
 • DanielSevillano/music-you — ★225 (+1) · empujó el 17-oct-2026 (hace 15 días) · GPL-3.0 · última release v1.1.3 (17-oct-2026)
 • Hotaro26/gabi — ★104 (+1) · empujó el 30-sep-2026 (hace 32 días) · MIT · última release v4.6.1 (1-sep-2026)
-• ItzSkyeYT/InterTune — ★93 (+13) · empujó en las últimas horas · GPL-3.0 · última release v0.12.6 (31-oct-2026)
+• ItzSkyeYT/InterTune — ★94 (+14) · empujó en las últimas horas · GPL-3.0 · última release v0.12.6 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 23 enlaces de esta pieza, *19 responden*.
-
-• https://appteka.store/app/4abr315772 — 500. Error del servidor; no es culpa del enlace.
-• https://appteka.store/app/b4cr315682 — 500. Error del servidor; no es culpa del enlace.
-• https://github.com/vfsfitvnm/ViMusic — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/z-huang/InnerTune — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 23 enlaces de esta pieza, *23 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

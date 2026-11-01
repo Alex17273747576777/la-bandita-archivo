@@ -50,7 +50,7 @@ Pulso tranquilo: lo último que se movió fue **warreth/OpenlibExtended**, hace 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 659 caracteres ═══
+═══ MENSAJE 3 de 4 · 457 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 18*
 
@@ -60,10 +60,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 2 enlaces de esta pieza, *0 responden*.
-
-• https://appteka.store/app/d18r318069 — 500. Error del servidor; no es culpa del enlace.
-• https://github.com/warreth/OpenlibExtended — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 2 enlaces de esta pieza, *2 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

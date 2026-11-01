@@ -54,21 +54,20 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 2 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 823 caracteres ═══
+═══ MENSAJE 3 de 4 · 711 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 119*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ciromattia/kcc — ★5.942 (+14) · empujó en las últimas horas · ISC · última release v12.1.4 (30-oct-2026)
-• tachibana-shin/rakuyomi — ★654 (+3) · empujó el 24-oct-2026 (hace 8 días) · AGPL-3.0 · última release v1.44.3 (24-oct-2026)
+• ciromattia/kcc — ★5.944 (+16) · empujó en las últimas horas · ISC · última release v12.1.4 (30-oct-2026)
+• tachibana-shin/rakuyomi — ★656 (+5) · empujó el 24-oct-2026 (hace 8 días) · AGPL-3.0 · última release v1.44.3 (24-oct-2026)
 • Utazukin/Ichaival — ★220 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (67 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 4 enlaces de esta pieza, *3 responden*.
-
-• https://github.com/tachibana-shin/rakuyomi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 4 enlaces de esta pieza, *4 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

@@ -58,25 +58,23 @@ La noticia amarga: **Gaijin81/anizen** (caído (404)) ya no respondieron. Del re
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1291 caracteres ═══
+═══ MENSAJE 3 de 4 · 1034 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 11*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• komikku-app/anikku — ★1.127 (+4) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
+• komikku-app/komikku — ★4.964 (+9) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• komikku-app/anikku — ★1.126 (+3) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
 • salmanbappi/AniZen — ★200 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.5.220 (31-oct-2026)
 • salmanbappi/anizen-preview — ★9 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release r4821 (31-oct-2026)
 • Gaijin81/anizen — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 6 enlaces de esta pieza, *3 responden*.
+De los 6 enlaces de esta pieza, *5 responden*.
 
 • https://github.com/Gaijin81/anizen — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/salmanbappi/AniZen — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/salmanbappi/anizen-preview — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

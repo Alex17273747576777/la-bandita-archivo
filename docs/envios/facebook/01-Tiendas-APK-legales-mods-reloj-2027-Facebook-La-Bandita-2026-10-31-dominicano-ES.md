@@ -2,8 +2,8 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `698528b63f8f2e33454089fecd0d82882cbe5852eb44a71e453af84ee9750ea4`
-- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3682 caracteres
+- **sha256 de la pieza:** `44a76a05ac09e1ddabb6aed0520e945fc5cb8080e771c387fbaf7a71bc3dae82`
+- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3681 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 18 · 762 caracteres ═══
@@ -76,8 +76,8 @@ Hay un camino intermedio que casi nadie explica bien y que hoy está maduro: *Sh
 
 Medido hoy, en el mundo que hay alrededor:
 
-• `RikkaApps/Shizuku` — *★32.554 · Apache-2.0 · sin empujar desde el 18 de junio de 2025: 500 días*. Dormido. Y aun así es el estándar de facto. Esto es lo que significa «dormido no es muerto»: una pieza de infraestructura terminada puede estar años quieta y funcionar igual.
-• `iamr0s/Dhizuku` — *★4.069 · GPL-3.0 · empujó ayer · release v2.13.0*. La alternativa, viva y moviéndose.
+• `RikkaApps/Shizuku` — *★32.573 · Apache-2.0 · sin empujar desde el 18 de junio de 2025: 500 días*. Dormido. Y aun así es el estándar de facto. Esto es lo que significa «dormido no es muerto»: una pieza de infraestructura terminada puede estar años quieta y funcionar igual.
+• `iamr0s/Dhizuku` — *★4.071 · GPL-3.0 · empujó ayer · release v2.13.0*. La alternativa, viva y moviéndose.
 • `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy*. La tienda de apps que usan Shizuku.
 • `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy · release 1.5.0 del 5 de octubre*. Tienda e instalador para apps con Shizuku, y catálogo hecho por el mismo autor de `awesome-shizuku`.
 
@@ -209,15 +209,15 @@ Cuando una casa funciona, lo que baja por ella son apps. Medí dieciséis hoy y 
 
 *Las que publicaron hoy o ayer (frescura pura):*
 
-• `samyak2403/RepoStore` — *★1.369 · MIT · release v1.0.22 del 29 de octubre*. Instala desde repositorios de GitHub sin intermediario.
+• `samyak2403/RepoStore` — *★1.371 · MIT · release v1.0.22 del 29 de octubre*. Instala desde repositorios de GitHub sin intermediario.
 • `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy · release 1.5.0 del 5 de octubre*. La tienda de las apps con Shizuku.
-• `wxxsfxyzm/InstallerX-Revived` — *★7.258 · GPL-3.0 · empujó ayer · release 26.09 del 30 de septiembre*.
-• `pass-with-high-score/universal-installer` — *★1.653 · GPL-3.0 · empujó hoy · release v1.20.0 del 25 de octubre*.
-• `GrapheneOS/AppStore` — *★624 · MIT · **release 37 del 31 de octubre***.
+• `wxxsfxyzm/InstallerX-Revived` — *★7.259 · GPL-3.0 · empujó ayer · release 26.09 del 30 de septiembre*.
+• `pass-with-high-score/universal-installer` — *★1.661 · GPL-3.0 · empujó hoy · release v1.20.0 del 25 de octubre*.
+• `GrapheneOS/AppStore` — *★625 · MIT · **release 37 del 31 de octubre***.
 
 *Las que empujan siempre y publican poco (el caso que engaña):*
 
-• `accrescent/accrescent` — *★2.306 · Apache-2.0 · código de ayer · **release 0.28.1 del 10 de noviembre de 2025***. Si mirases solo releases, lo darías por muerto.
+• `accrescent/accrescent` — *★2.305 · Apache-2.0 · código de ayer · **release 0.28.1 del 10 de noviembre de 2025***. Si mirases solo releases, lo darías por muerto.
 • `JonaNorman/WebViewUpgrade` — *★456 · Apache-2.0 · empuje del 7 de septiembre · **sin release**.* Vivo, sin archivo: se compila.
 • `Paving-Base/APK-Installer` — *★1.712 · GPL-3.0 · empuje del 20 de octubre · release v0.1.28 del 11 de agosto de 2025*. Release de hace más de un año y código de este mes: el caso inverso al de siempre.
 
@@ -225,15 +225,15 @@ Cuando una casa funciona, lo que baja por ella son apps. Medí dieciséis hoy y 
 
 • `SysAdminDoc/AppManagerNG` — *★163 · GPL-3.0 · creado el 30 de abril de 2026 · release v0.6.23 del 5 de septiembre*.
 • `djunekz/termux-app-store` — *★124 · MIT · creado el 2 de febrero de 2026 · release v0.9.1 del 20 de octubre*.
-• `Jman-Github/Universal-Patch-Manager` — *★1.397 · GPL-3.0 · creado el 13 de octubre de 2025 · release v2.0.0 del 29 de octubre*. Esta casa no receta parches: dice qué existe y que decidas tú.
+• `Jman-Github/Universal-Patch-Manager` — *★1.398 · GPL-3.0 · creado el 13 de octubre de 2025 · release v2.0.0 del 29 de octubre*. Esta casa no receta parches: dice qué existe y que decidas tú.
 • `solrudev/Ackpine` — *★185 · Apache-2.0 · release 0.25.4 del 30 de julio*. No es una app: es la biblioteca con la que otros hacen instaladores. Explica por qué hay veinte.
 
 *Las de siempre que siguen siendo la respuesta correcta:*
 
-• `MuntashirAkon/AppManager` — *★9.393 · **sin licencia declarada en la API** · release v4.1.1 del 4 de septiembre*. Gobierna lo instalado.
-• `ImranR98/Obtainium` — *★21.097 · GPL-3.0 · empujó hoy · release v1.7.3 del 25 de octubre*. Sigue releases desde donde el desarrollador publica.
-• `NeoApplications/Neo-Store` — *★5.591 · GPL-3.0 · release 1.3.3 del 23 de octubre*. Cliente de F-Droid con brújula de rastreadores.
-• `RikkaApps/Shizuku` — *★32.554 · Apache-2.0 · **último empuje el 18 de junio de 2025 · release v13.6.0 del 25 de mayo de 2025***. Cuatro meses sin moverse y sigue siendo el que presta permisos a media Android moderna. Un proyecto terminado no es un proyecto muerto.
+• `MuntashirAkon/AppManager` — *★9.399 · **sin licencia declarada en la API** · release v4.1.1 del 4 de septiembre*. Gobierna lo instalado.
+• `ImranR98/Obtainium` — *★21.105 · GPL-3.0 · empujó hoy · release v1.7.3 del 25 de octubre*. Sigue releases desde donde el desarrollador publica.
+• `NeoApplications/Neo-Store` — *★5.595 · GPL-3.0 · release 1.3.3 del 23 de octubre*. Cliente de F-Droid con brújula de rastreadores.
+• `RikkaApps/Shizuku` — *★32.573 · Apache-2.0 · **último empuje el 18 de junio de 2025 · release v13.6.0 del 25 de mayo de 2025***. Cuatro meses sin moverse y sigue siendo el que presta permisos a media Android moderna. Un proyecto terminado no es un proyecto muerto.
 
 *Los dos cebos que encontré midiendo (misma fecha, mismo molde, sin licencia):*
 
@@ -384,7 +384,7 @@ Falso como regla general. El software libre es gratis porque su licencia lo perm
 Los APK son el formato de instalación de Android. Todo lo que tienes instalado en el teléfono —WhatsApp, el banco, la calculadora— llegó en un APK. La palabra no es el problema; el origen sí.
 
 *«Más estrellas, más seguro».*
-Hoy mismo medí `RikkaApps/Shizuku` con ★32.554 y 500 días sin empujar, y `GrapheneOS/AppStore` con ★624 y un empuje de ayer. La seguridad se mide en quién firma y qué tan rápido responde, no en popularidad.
+Hoy mismo medí `RikkaApps/Shizuku` con ★32.573 y 500 días sin empujar, y `GrapheneOS/AppStore` con ★625 y un empuje de ayer. La seguridad se mide en quién firma y qué tan rápido responde, no en popularidad.
 
 *«Los teléfonos viejos no aguantan nada».*
 Aguantan casi todo si no les metes veinte apps. Un teléfono de 2018 con seis apps bien elegidas funciona mejor que uno de 2024 con sesenta.
@@ -584,7 +584,7 @@ https://github.com/ubedshah/manga-vault-nexus
 
 ⏬ sigue abajo · parte 14 de 17
 
-═══ MENSAJE 16 de 18 · 844 caracteres ═══
+═══ MENSAJE 16 de 18 · 824 caracteres ═══
 
 *CIERRE*
 
@@ -592,49 +592,43 @@ Si te quedas con una sola frase de todo esto, que sea esta: *el problema nunca f
 
 Y si algún día alguien te manda un APK por WhatsApp y te dice «es el mismo pero mejor», ya sabes lo que hay que preguntar: *¿quién lo firma?* Si la respuesta tarda más de dos segundos, la respuesta es nadie.
 
-💓 *La Bandita · domingo 1 de noviembre de 2026.* Pieza 01 de Facebook. Medí hoy 33 repositorios —12 casas, 14 apps de la ficha y las herramientas— y 39 enlaces: los 33 están vivos y los 39 responden. Los números de esta pieza son de esta mañana y llevan su fecha al lado. Lo que no medí, está dicho arriba como no medido.
+💓 *La Bandita · domingo 1 de noviembre de 2026.* Pieza 01 de Facebook. Medí hoy a las 06:15 los 18 repositorios de la ficha y las 12 casas, con sus 21 enlaces: los 18 vivos y los 21 responden 200. Los números son de esa hora y llevan su fecha al lado. Lo que no medí, está dicho arriba como no medido.
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 3682 caracteres ═══
+═══ MENSAJE 17 de 18 · 2934 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • AuroraOSS/AuroraStore — ★71 · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0
-• RikkaApps/Shizuku — ★32.554 (+169) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• iamr0s/Dhizuku — ★4.069 (+19) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• RikkaApps/Shizuku — ★32.573 (+188) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• iamr0s/Dhizuku — ★4.071 (+21) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 • timschneeb/ShizuStore — ★501 · empujó en las últimas horas · GPL-3.0 · última release 1.5.0 (5-oct-2026)
 • daboynb/developer-verifier-placeholder — ★183 · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)
-• samyak2403/RepoStore — ★1.369 · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.0.22 (29-oct-2026)
-• wxxsfxyzm/InstallerX-Revived — ★7.258 (+38) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
-• pass-with-high-score/universal-installer — ★1.653 (+13) · empujó en las últimas horas · GPL-3.0 · última release v1.20.0 (25-oct-2026)
-• GrapheneOS/AppStore — ★624 · empujó en las últimas horas · MIT · última release 37 (31-oct-2026)
-• accrescent/accrescent — ★2.306 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
+• samyak2403/RepoStore — ★1.371 · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.0.22 (29-oct-2026)
+• wxxsfxyzm/InstallerX-Revived — ★7.259 (+39) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
+• pass-with-high-score/universal-installer — ★1.661 (+21) · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
+• GrapheneOS/AppStore — ★625 · empujó en las últimas horas · MIT · última release 37 (31-oct-2026)
+• accrescent/accrescent — ★2.305 (-1) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
 • JonaNorman/WebViewUpgrade — ★456 · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · Apache-2.0
 • Paving-Base/APK-Installer — ★1.712 · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0 · última release v0.1.28 (11-ago-2025)
 • SysAdminDoc/AppManagerNG — ★163 · empujó el 30-sep-2026 (hace 32 días) · GPL-3.0 · última release v0.6.23 (5-sep-2026)
 • djunekz/termux-app-store — ★124 · empujó en las últimas horas · MIT · última release v0.9.1 (20-oct-2026)
-• Jman-Github/Universal-Patch-Manager — ★1.397 (+7) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• Jman-Github/Universal-Patch-Manager — ★1.398 (+8) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
 • solrudev/Ackpine — ★185 · empujó el 17-oct-2026 (hace 15 días) · Apache-2.0 · última release 0.25.4 (30-jul-2026)
-• MuntashirAkon/AppManager — ★9.393 (+23) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• ImranR98/Obtainium — ★21.097 (+78) · empujó en las últimas horas · GPL-3.0 · última release v1.7.3 (25-oct-2026)
-• NeoApplications/Neo-Store — ★5.591 (+21) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• MuntashirAkon/AppManager — ★9.399 (+29) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• ImranR98/Obtainium — ★21.105 (+86) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• NeoApplications/Neo-Store — ★5.595 (+25) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
 • sri-sivaram/Neko-Manga-Pearl — ★116 · empujó en las últimas horas · sin licencia detectada por la API
 • ubedshah/manga-vault-nexus — ★115 · empujó en las últimas horas · sin licencia detectada por la API
-• Droid-ify/client — ★7.678 (+17) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• Droid-ify/client — ★7.677 (+16) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *15 responden*.
-
-• https://github.com/samyak2403/RepoStore — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/solrudev/Ackpine — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/sri-sivaram/Neko-Manga-Pearl — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/timschneeb/ShizuStore — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/ubedshah/manga-vault-nexus — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/wxxsfxyzm/InstallerX-Revived — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 21 enlaces de esta pieza, *21 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 16 de 17
 

@@ -58,7 +58,7 @@ REV|247.51★ — nihplod/ume-nihplod=1|REV|52-01-6202 — nihplod/ume-nihplod=2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 506 caracteres ═══
+═══ MENSAJE 3 de 4 · 413 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 73*
 
@@ -68,9 +68,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 2 enlaces de esta pieza, *1 responden*.
-
-• https://dolphin-emu.org — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 2 enlaces de esta pieza, *2 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

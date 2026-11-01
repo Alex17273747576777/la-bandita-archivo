@@ -104,17 +104,17 @@ Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-2
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2877 caracteres ═══
+═══ MENSAJE 4 de 5 · 2017 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
-• keiyoushi/extensions-source — ★4.839 (+8) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• keiyoushi/extensions-source — ★4.843 (+12) · empujó en las últimas horas · Apache-2.0
 • LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • stevenyomi/copymanga — ★1.914 (-1) · *dormido*: sin empujar desde el 18-feb-2024 (987 días) · sin licencia detectada por la API · última release v1.4.53 (11-ene-2024) · *ARCHIVADO*
-• ZGQ-inc/source — ★1.286 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2025 (421 días) · NOASSERTION · última release 23041 (10-jul-2024)
+• ZGQ-inc/source — ★1.287 (+1) · *dormido*: sin empujar desde el 6-sep-2025 (421 días) · NOASSERTION · última release 23041 (10-jul-2024)
 • yuzono/tachiyomi-extensions — ★953 (+6) · empujó en las últimas horas · Apache-2.0
 • tachiyomiorg/extensions — ★553 (sin cambio) · *dormido*: sin empujar desde el 8-ene-2024 (1028 días) · Apache-2.0 · *ARCHIVADO*
 • yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
@@ -127,15 +127,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 23 enlaces de esta pieza, *16 responden*.
-
-• https://github.com/stevenyomi/copymanga — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tachiyomiorg/extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuzono/anime-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuzono/cursed-manga-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuzono/kohi-den — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuzono/tachiyomi-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://tachiyomi.org/extensions/ — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 23 enlaces de esta pieza, *23 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

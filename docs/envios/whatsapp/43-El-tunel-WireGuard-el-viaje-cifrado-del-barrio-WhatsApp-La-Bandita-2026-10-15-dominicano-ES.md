@@ -77,7 +77,7 @@ REV|403.83★ — elacsliat/elacsliat=1|REV|)82-01-6202( 6ef784d9bg-891312839t-4
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• tailscale/tailscale — ★38.446 (+142) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
+• tailscale/tailscale — ★38.459 (+155) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
 • cloudflare/boringtun — ★7.245 (+8) · *dormido*: sin empujar desde el 29-jun-2026 (125 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
 • tailscale/tailscale-android — ★2.770 (+14) · empujó el 29-oct-2026 (hace 3 días) · BSD-3-Clause · última release 1.104.4-t938213198-gb9d487fe6 (28-oct-2026)
 • WireGuard/wireguard-android — ★1.657 (sin cambio) · *dormido*: sin empujar desde el 29-jun-2026 (125 días) · Apache-2.0

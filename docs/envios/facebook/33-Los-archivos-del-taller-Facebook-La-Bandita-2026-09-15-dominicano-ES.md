@@ -84,14 +84,14 @@ Pulso de hoy sobre los 11 repos de la pieza: 11 vivos, 5 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2212 caracteres ═══
+═══ MENSAJE 4 de 5 · 1850 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 33*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• zhanghai/MaterialFiles — ★9.370 (+25) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
-• OpenMinis/OpenMinis — ★5.660 (+62) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 1.15 (25-oct-2026)
+• zhanghai/MaterialFiles — ★9.373 (+28) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
+• OpenMinis/OpenMinis — ★5.672 (+74) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 1.15 (25-oct-2026)
 • GlassHaven/Haven — ★1.398 (+11) · empujó en las últimas horas · AGPL-3.0 · última release v5.92.0 (31-oct-2026)
 • nullbytepl/CarrierVanityName — ★698 (+1) · *dormido*: sin empujar desde el 10-feb-2024 (995 días) · sin licencia detectada por la API · última release 1.1 (25-ene-2024)
 • mrYouki/YoukiDex-Android-Desktop — ★606 (sin cambio) · *dormido*: sin empujar desde el 15-sep-2026 (47 días) · GPL-3.0 · última release 3.5 (15-sep-2026) · *ARCHIVADO*
@@ -104,11 +104,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 15 enlaces de esta pieza, *12 responden*.
-
-• https://github.com/rednaga/axmlprinter — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/rushiranpise/shizuku-modules — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/zhanghai/MaterialFiles — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 15 enlaces de esta pieza, *15 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

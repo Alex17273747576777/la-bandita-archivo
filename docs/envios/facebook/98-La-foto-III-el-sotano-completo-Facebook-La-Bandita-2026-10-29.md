@@ -50,14 +50,14 @@ La noticia fresca es de **nextcloud/android**: release stable-35.0.2 (2026-10-28
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 582 caracteres ═══
+═══ MENSAJE 3 de 4 · 574 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 98*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• home-assistant/android — ★4.012 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.1 (6-oct-2026)
+• nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• home-assistant/android — ★4.013 (+1) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.1 (6-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

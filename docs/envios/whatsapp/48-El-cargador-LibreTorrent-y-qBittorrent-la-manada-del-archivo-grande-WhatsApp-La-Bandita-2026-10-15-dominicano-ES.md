@@ -70,8 +70,8 @@ REV|0.3-LPG=1|REV|312.14★ — tnerrottiBq/tnerrottibq=2|REV|62-01-6202 — tne
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• qbittorrent/qBittorrent — ★41.279 (+66) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
-• proninyaroslav/libretorrent — ★4.022 (+13) · *dormido*: sin empujar desde el 24-jul-2026 (100 días) · GPL-3.0 · última release 4.1.1 (24-jul-2026)
+• qbittorrent/qBittorrent — ★41.285 (+72) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
+• proninyaroslav/libretorrent — ★4.023 (+14) · *dormido*: sin empujar desde el 24-jul-2026 (100 días) · GPL-3.0 · última release 4.1.1 (24-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

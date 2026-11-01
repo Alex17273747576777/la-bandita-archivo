@@ -71,22 +71,22 @@ REV|754.69★ — dneslacol/dneslacol=1|REV|0.2-LPM=2|REV|92-01-6202 — trwnepo
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 918 caracteres ═══
+═══ MENSAJE 3 de 4 · 920 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 50*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★96.846 (+389) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• syncthing/syncthing — ★89.957 (+84) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• qbittorrent/qBittorrent — ★41.279 (+66) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
-• openwrt/openwrt — ★28.997 (+22) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
+• localsend/localsend — ★96.883 (+426) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• syncthing/syncthing — ★89.964 (+91) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• qbittorrent/qBittorrent — ★41.285 (+72) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
+• openwrt/openwrt — ★28.999 (+24) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
 De los 9 enlaces de esta pieza, *8 responden*.
 
-• https://git.openwrt.org/openwrt/openwrt.git — 502. Error del servidor; no es culpa del enlace.
+• https://git.openwrt.org/openwrt/openwrt.git — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 2 de 3
 

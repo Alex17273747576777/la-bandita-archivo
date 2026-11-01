@@ -66,13 +66,13 @@ El grupo respira despacio; su empuje más reciente, **animiruorg/Animiru**, fue 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1299 caracteres ═══
+═══ MENSAJE 3 de 4 · 1051 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 14*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• komikku-app/anikku — ★1.127 (+4) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
+• komikku-app/anikku — ★1.126 (+3) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
 • animiruorg/Animiru — ★908 (+4) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0.1 (14-sep-2026)
 • komikku-app/anikku-preview — ★118 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release r8944 (5-oct-2026)
 • salmanbappi/extensions-repo — ★51 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
@@ -81,10 +81,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *7 responden*.
-
-• https://github.com/salmanbappi/aniyomi-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/salmanbappi/extensions-repo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 9 enlaces de esta pieza, *9 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

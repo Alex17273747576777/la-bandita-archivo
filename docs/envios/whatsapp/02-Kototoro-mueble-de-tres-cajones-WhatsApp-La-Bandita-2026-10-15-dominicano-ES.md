@@ -893,7 +893,7 @@ REV|0.3-LPG=1|REV|356★ — orototoK/ppa-orototoK=2|REV|92-01-6202 — orototoK
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Kototoro-app/Kototoro — ★657 (+4) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• Kototoro-app/Kototoro — ★659 (+6) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • Kototoro-app/Kototoro-Nightly — ★12 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 • reference/tvbox-runtime — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.

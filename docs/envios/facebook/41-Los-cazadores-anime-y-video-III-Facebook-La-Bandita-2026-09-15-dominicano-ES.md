@@ -102,7 +102,7 @@ La noticia amarga: **ayman708-UX/PlayTorrioV3** (caído (404)) ya no respondiero
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2652 caracteres ═══
+═══ MENSAJE 4 de 5 · 2532 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 41*
 
@@ -114,10 +114,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pi
 • hitarth-gg/zenshin — ★778 (+4) · *dormido*: sin empujar desde el 24-may-2026 (161 días) · GPL-3.0 · última release v3.0.0 (24-may-2026)
 • akashdh11/skystream — ★666 (+3) · empujó el 17-oct-2026 (hace 15 días) · GPL-3.0 · última release v2.9.0 (17-oct-2026)
 • jakepurple13/OtakuWorld — ★637 (-1) · empujó en las últimas horas · Apache-2.0 · última release v32.1.2 (29-jun-2026)
-• imashnake0/Animite — ★523 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.7.14-alpha02 (20-sep-2026)
-• Spyou/Zangetsu — ★479 (+24) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.3.4 (29-oct-2026)
+• imashnake0/Animite — ★523 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.7.15-alpha01 (1-nov-2026)
+• Spyou/Zangetsu — ★481 (+26) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.3.4 (29-oct-2026)
 • frostnova721/animestream — ★446 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.4.7 (14-sep-2026)
-• cranci1/Sora — ★427 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · GPL-3.0 · última release 1.3.0 (20-ago-2026)
+• cranci1/Sora — ★427 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · GPL-3.0 · última release 1.3.0 (20-ago-2026) · *ARCHIVADO*
 • roshancodespace/ShonenX — ★356 (+1) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v2.1.5 (25-oct-2026)
 • AniLabX/AniLabX — ★286 (sin cambio) · *dormido*: sin empujar desde el 2-sep-2026 (60 días) · sin licencia detectada por la API · última release v5.8_update16 (2-sep-2026)
 • manga-you-know/desktop — ★222 (sin cambio) · *dormido*: sin empujar desde el 11-sep-2026 (51 días) · MIT · última release v0.9.31 (28-sep-2025)
@@ -126,11 +126,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 22 enlaces de esta pieza, *19 responden*.
+De los 22 enlaces de esta pieza, *20 responden*.
 
 • https://9ani.app — 522. Error del servidor; no es culpa del enlace.
 • https://github.com/ayman708-UX/PlayTorrioV3 — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/roshancodespace/ShonenX — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -65,7 +65,7 @@ REV|40-50-6202 — tnatsissA-ksigyZ/4-ekans=1|REV|266.2★ — tnatsissA-ksigyZ/
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• snake-4/Zygisk-Assistant — ★2.661 (-1) · *dormido*: sin empujar desde el 4-may-2026 (181 días) · MIT · última release v2.1.4 (23-feb-2025)
+• snake-4/Zygisk-Assistant — ★2.663 (+1) · *dormido*: sin empujar desde el 4-may-2026 (181 días) · MIT · última release v2.1.4 (23-feb-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

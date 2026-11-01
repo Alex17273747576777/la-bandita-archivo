@@ -96,7 +96,7 @@ Hay release de esta semana: **Paduu29/KomaStream** publicó v3.17 (2026-10-26). 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 3017 caracteres ═══
+═══ MENSAJE 4 de 5 · 2299 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 44*
 
@@ -119,14 +119,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *13 responden*.
-
-• https://github.com/professorDeveloper/sozo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/professorDeveloper/sozo-tv — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/richtunic/Kitsu-X — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/serene-brew/kaizen-app — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/sozo-app/sozo-tv — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/uwumilabs/uwumi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 19 enlaces de esta pieza, *19 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

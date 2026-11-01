@@ -126,44 +126,37 @@ Pulso de hoy sobre los 20 repos de la pieza: 20 vivos, 15 activos este mes. Mand
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3634 caracteres ═══
+═══ MENSAJE 5 de 6 · 2781 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 28*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 20 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Genymobile/scrcpy — ★153.693 (+192) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
-• termux/termux-app — ★63.850 (+172) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• topjohnwu/Magisk — ★63.658 (+63) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
-• RikkaApps/Shizuku — ★32.554 (+169) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• LSPosed/LSPosed — ★25.279 (+39) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
-• ImranR98/Obtainium — ★21.097 (+78) · empujó en las últimas horas · GPL-3.0 · última release v1.7.3 (25-oct-2026)
-• komi-store/komi-store — ★20.180 (+90) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• tiann/KernelSU — ★19.920 (+110) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
-• bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
-• Droid-ify/client — ★7.678 (+17) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• wxxsfxyzm/InstallerX-Revived — ★7.258 (+38) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
-• aistra0528/Hail — ★7.061 (+24) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
-• NeoApplications/Neo-Store — ★5.591 (+21) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• Genymobile/scrcpy — ★153.713 (+212) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
+• termux/termux-app — ★63.866 (+188) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• topjohnwu/Magisk — ★63.660 (+65) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• RikkaApps/Shizuku — ★32.573 (+188) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• LSPosed/LSPosed — ★25.283 (+43) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
+• ImranR98/Obtainium — ★21.105 (+86) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• komi-store/komi-store — ★20.193 (+103) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• tiann/KernelSU — ★19.938 (+128) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
+• bmax121/APatch — ★8.116 (+12) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
+• Droid-ify/client — ★7.677 (+16) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• wxxsfxyzm/InstallerX-Revived — ★7.259 (+39) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
+• aistra0528/Hail — ★7.063 (+26) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
+• NeoApplications/Neo-Store — ★5.595 (+25) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
 • RikkaApps/Sui — ★4.339 (+2) · *dormido*: sin empujar desde el 12-ago-2024 (811 días) · GPL-3.0 · última release v13.5.1 (19-sep-2023)
-• iamr0s/Dhizuku — ★4.069 (+19) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• Aefyr/SAI — ★3.953 (+3) · *dormido*: sin empujar desde el 3-jun-2024 (881 días) · GPL-3.0 · última release 4.5 (25-feb-2021)
-• zacharee/InstallWithOptions — ★3.393 (+8) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release 0.9.2 (14-mar-2026)
-• whyorean/AuroraStore — ★3.212 (+14) · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0
-• accrescent/accrescent — ★2.306 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
+• iamr0s/Dhizuku — ★4.071 (+21) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• Aefyr/SAI — ★3.954 (+4) · *dormido*: sin empujar desde el 3-jun-2024 (881 días) · GPL-3.0 · última release 4.5 (25-feb-2021)
+• zacharee/InstallWithOptions — ★3.394 (+9) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release 0.9.2 (14-mar-2026)
+• whyorean/AuroraStore — ★3.215 (+17) · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0
+• accrescent/accrescent — ★2.305 (-1) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
 • solkin/appteka-android — ★1.367 (+8) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v23.0 (13-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 30 enlaces de esta pieza, *23 responden*.
-
-• https://github.com/solkin/appteka-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/termux/termux-app — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tiann/KernelSU — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/topjohnwu/Magisk — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/whyorean/AuroraStore — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/wxxsfxyzm/InstallerX-Revived — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/zacharee/InstallWithOptions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 30 enlaces de esta pieza, *30 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 4 de 5
 

@@ -95,7 +95,7 @@ Hay release de esta semana: **wikimedia/apps-android-wikipedia** publicó latest
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2216 caracteres ═══
+═══ MENSAJE 4 de 5 · 1734 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 63*
 
@@ -103,7 +103,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pi
 
 • floccusaddon/floccus — ★8.611 (+8) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
-• ReadYouApp/ReadYou — ★7.632 (+8) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
+• ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
 • spacecowboy/Feeder — ★3.101 (+5) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.25.0 (23-oct-2026)
 • wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (31-oct-2026)
 • SimonSchubert/LinuxCommandLibrary — ★2.089 (+3) · empujó en las últimas horas · Apache-2.0 · última release v4.9.1 (14-oct-2026)
@@ -111,16 +111,12 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pi
 • mateusz-bak/openreads — ★1.666 (+2) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-2.0 · última release v2.11.0 (9-sep-2025)
 • Livinglist/Hacki — ★1.638 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.8.2 (11-oct-2026)
 • astubenbord/paperless-mobile — ★1.492 (+1) · *dormido*: sin empujar desde el 1-jun-2026 (153 días) · GPL-3.0 · última release v4.5.0 (16-abr-2026)
-• jocmp/capyreader — ★1.439 (+6) · empujó en las últimas horas · GPL-3.0 · última release 2026.10.1215 (27-oct-2026)
+• jocmp/capyreader — ★1.438 (+5) · empujó en las últimas horas · GPL-3.0 · última release 2026.10.1215 (27-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *14 responden*.
-
-• https://github.com/plateaukao/einkbro — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/samuelclay/NewsBlur — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/spacecowboy/Feeder — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/wikimedia/apps-android-wikipedia — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 18 enlaces de esta pieza, *18 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

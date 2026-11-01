@@ -72,21 +72,22 @@ REV|932.581★ — amallo/amallo=1|REV|0.2-ehcapA=2|REV|92-01-6202 — mvmmucs/m
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 830 caracteres ═══
+═══ MENSAJE 3 de 4 · 923 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 95*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.501 (+262) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• localsend/localsend — ★96.846 (+389) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
-• scummvm/scummvm — ★2.873 (+3) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
+• ollama/ollama — ★185.525 (+286) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• localsend/localsend — ★96.883 (+426) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• scummvm/scummvm — ★2.875 (+5) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 8 enlaces de esta pieza, *8 responden*.
-Ninguno roto.
+De los 8 enlaces de esta pieza, *7 responden*.
+
+• https://www.scummvm.org — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
 
 ⏬ sigue abajo · parte 2 de 3
 

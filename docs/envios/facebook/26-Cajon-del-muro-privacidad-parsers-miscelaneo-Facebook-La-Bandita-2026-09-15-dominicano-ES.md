@@ -137,26 +137,26 @@ Hay release de esta semana: **Awerkori/manga-extensoes** publicó f4a374c (2026-
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3659 caracteres ═══
+═══ MENSAJE 5 de 6 · 3077 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 26*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iptv-org/iptv — ★142.934 (+205) · empujó en las últimas horas · Unlicense
-• nexu-io/open-design — ★105.219 (+356) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
+• iptv-org/iptv — ★142.957 (+228) · empujó en las últimas horas · Unlicense
+• nexu-io/open-design — ★105.248 (+385) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
 • android/nowinandroid — ★21.991 (+8) · empujó en las últimas horas · Apache-2.0 · última release 0.1.1 (13-jul-2023)
-• JingMatrix/Vector — ★12.993 (+26) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
-• CluvexStudio/Aether — ★2.391 (+17) · empujó el 24-oct-2026 (hace 8 días) · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
-• meshtastic/Meshtastic-Android — ★1.901 (+5) · empujó en las últimas horas · GPL-3.0 · última release v2.8.3 (19-oct-2026)
-• HmnDev-Tech/shevery — ★1.552 (+25) · empujó en las últimas horas · Apache-2.0 · última release 14.5.0 (23-oct-2026)
+• JingMatrix/Vector — ★12.992 (+25) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
+• CluvexStudio/Aether — ★2.392 (+18) · empujó el 24-oct-2026 (hace 8 días) · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
+• meshtastic/Meshtastic-Android — ★1.902 (+6) · empujó en las últimas horas · GPL-3.0 · última release v2.8.3 (19-oct-2026)
+• HmnDev-Tech/shevery — ★1.557 (+30) · empujó en las últimas horas · Apache-2.0 · última release 14.5.0 (23-oct-2026)
 • NikhilKain/vyxel-apps — ★957 (+5) · empujó el 25-oct-2026 (hace 7 días) · NOASSERTION · última release v1.1.5 (25-oct-2026)
-• soul-99/SU_IMD — ★523 (+15) · empujó el 8-oct-2026 (hace 24 días) · GPL-3.0 · última release v3 (3-sep-2026)
+• soul-99/SU_IMD — ★525 (+17) · empujó el 8-oct-2026 (hace 24 días) · GPL-3.0 · última release v3 (3-sep-2026)
 • Nayjest/Gito — ★457 (+1) · empujó el 1-oct-2026 (hace 31 días) · MIT · última release v4.5.0 (5-sep-2026)
 • winhub-emu/winhub — ★440 (sin cambio) · empujó el 6-oct-2026 (hace 26 días) · MIT · última release yesysyeysys (6-oct-2026)
 • openflocon/Flocon — ★378 (sin cambio) · empujó en las últimas horas · MIT · última release 1.10.0 (18-oct-2026)
-• wizdom13/WizeStream — ★388 (+10) · empujó en las últimas horas · GPL-3.0 · última release v1.36.0 (30-oct-2026)
-• openAnimeFlow/AnimeFlow — ★338 (+23) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.6 (26-oct-2026)
+• wizdom13/WizeStream — ★390 (+12) · empujó en las últimas horas · GPL-3.0 · última release v1.36.0 (30-oct-2026)
+• openAnimeFlow/AnimeFlow — ★340 (+25) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.6 (26-oct-2026)
 • mojuru/cursed-manga-repo — ★175 (+1) · empujó el 12-oct-2026 (hace 20 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
 • alienware377/RootlessViPER4Android — ★106 (+4) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.4.0 (29-oct-2026)
 • manuelsiuro/GZDoom-Android-2026 — ★35 (sin cambio) · *dormido*: sin empujar desde el 30-jun-2026 (124 días) · GPL-2.0
@@ -168,13 +168,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 37 enlaces de esta pieza, *32 responden*.
-
-• https://github.com/qingzhuo-cn/boorunova — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/soul-99/SU_IMD — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/weekanya/Booru — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/winhub-emu/winhub — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/wizdom13/WizeStream — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 37 enlaces de esta pieza, *37 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 4 de 5
 

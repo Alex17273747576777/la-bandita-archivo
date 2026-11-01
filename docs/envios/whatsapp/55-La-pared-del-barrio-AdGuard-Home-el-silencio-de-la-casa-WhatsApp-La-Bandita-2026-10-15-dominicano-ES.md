@@ -70,8 +70,8 @@ REV|0.3-LPG=1|REV|72-01-6202 — eloh-ip/eloh-ip=2|REV|955.16★ — eloh-ip/elo
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• pi-hole/pi-hole — ★61.614 (+55) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
-• AdguardTeam/AdGuardHome — ★38.020 (+153) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.107.79 (18-ago-2026)
+• pi-hole/pi-hole — ★61.618 (+59) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
+• AdguardTeam/AdGuardHome — ★38.028 (+161) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.107.79 (18-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

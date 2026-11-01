@@ -58,7 +58,7 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Kototoro-app/Kototoro — ★657 (+4) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• Kototoro-app/Kototoro — ★659 (+6) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
 • andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
 

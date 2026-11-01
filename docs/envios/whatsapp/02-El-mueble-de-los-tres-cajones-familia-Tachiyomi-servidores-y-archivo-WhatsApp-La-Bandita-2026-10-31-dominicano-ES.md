@@ -2,8 +2,8 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `9eef2f22798cdb58d00d8337405ebf2db8abcf160e9561a8fa451c853c196a2a`
-- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3932 caracteres
+- **sha256 de la pieza:** `a05f93ef2764a2ce1703781737be37a7bc508f2a757f225e6d70f620f4865c2a`
+- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3916 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 27 · 817 caracteres ═══
@@ -26,7 +26,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 *La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 02 de WhatsApp*
 
-⏱️ *Lectura: 58 min · 53 repositorios medidos hoy, uno por uno*
+⏱️ *Lectura: 58 min · 52 repositorios medidos hoy, uno por uno*
 
 > *Semilla de esta pieza:* un lector de cómics no es una app. Es un *mueble de tres cajones*. En el primero va el motor: el programa que pasa las páginas. En el segundo, el catálogo: las extensiones que le dicen de dónde sacar cada serie. En el tercero, el archivo: tu biblioteca, tu historial, tus categorías, tus descargas. Los tres cajones pueden venir de tres dueños distintos, y cuando uno se rompe, los otros dos no lo arreglan.
 
@@ -98,7 +98,7 @@ Voy a contarlo como me lo explicaría a mí mismo si tuviera el teléfono en la 
 ├── ⚖️ La ley, sin sermón · ~4 min
 ├── 🛠️ Tutorial: de cero a biblioteca con respaldo · ~8 min
 ├── 🧳 Las variables que no puedes perder · ~7 min
-├── 📋 La ficha de hoy (32 repos) · ~5 min
+├── 📋 La ficha de hoy (52 repos) · ~5 min
 ├── 🎯 Mini-quiz · ~1 min
 └── 🔗 Enlaces y firma · ~2 min
 ```
@@ -117,27 +117,27 @@ Esto no es historia por gusto. Es la explicación de por qué tu lector se llama
 
 *Lo que pasó después es la parte que casi nadie cuenta bien.* Un proyecto de este tipo no se muere cuando el repositorio se cierra, porque **el código ya estaba en manos de miles de personas**. Lo que pasa es que se convierte en tronco: cada fork que ya existía —y había varios, porque la gente lleva años haciendo forks— se vuelve una rama independiente con su propio equipo, su propia firma y su propio ritmo.
 
-*El heredero.* `mihonapp/mihon` es hoy el continuador directo: *★24.916 · Apache-2.0 · Kotlin · último empuje el 26 de octubre · release v0.21.3 del 25 de octubre*. Su nombre no es un capricho: «mihon» viene de *mihon*, la palabra japonesa para «cómic leído», y el cambio de nombre fue también un cambio de casa legal para alejarse del ruido del original.
+*El heredero.* `mihonapp/mihon` es hoy el continuador directo: *★24.922 · Apache-2.0 · Kotlin · último empuje el 26 de octubre · release v0.21.3 del 25 de octubre*. Su nombre no es un capricho: «mihon» viene de *mihon*, la palabra japonesa para «cómic leído», y el cambio de nombre fue también un cambio de casa legal para alejarse del ruido del original.
 
 *Los hijos que ya estaban.* Cuando el tronco cayó, las ramas siguieron:
 
-• *komikku-app/komikku* — *★4.963 · Apache-2.0 · empuje 21-oct · release v1.14.1 del 17 de julio*. El fork más popular. Añade funciones que Mihon no tiene, sobre todo en gestión de biblioteca y ajustes de lector. Ojo con la fecha: su última release es de julio y su último empuje de octubre. Eso no es abandono: es un proyecto que trabaja por ramas y publica por tandas.
+• *komikku-app/komikku* — *★4.964 · Apache-2.0 · empuje 21-oct · release v1.14.1 del 17 de julio*. El fork más popular. Añade funciones que Mihon no tiene, sobre todo en gestión de biblioteca y ajustes de lector. Ojo con la fecha: su última release es de julio y su último empuje de octubre. Eso no es abandono: es un proyecto que trabaja por ramas y publica por tandas.
 • *nekomangaorg/Neko* — *★2.818 · Apache-2.0 · empujó hoy · release 3.8.5 del 30 de octubre*. Enfocado en catálogos alternativos y respaldo entre dispositivos.
-• *Kototoro-app/Kototoro* — *★657 · Apache-2.0 · empujó ayer · release v2.3.4 del 29 de octubre*. El más joven y el más rápido del grupo. Tiene su propio sistema de parsers, separado en `skepsun/kototoro-parsers` (*★17 · GPL-3.0 · empuje 28-oct*), lo cual es una decisión interesante: el motor y el catálogo viven en repositorios distintos, con licencias distintas.
+• *Kototoro-app/Kototoro* — *★659 · Apache-2.0 · empujó ayer · release v2.3.4 del 29 de octubre*. El más joven y el más rápido del grupo. Tiene su propio sistema de parsers, separado en `skepsun/kototoro-parsers` (*★17 · GPL-3.0 · empuje 28-oct*), lo cual es una decisión interesante: el motor y el catálogo viven en repositorios distintos, con licencias distintas.
 • *ruzhe85/MihonSY* — *★48 · Apache-2.0 · empuje 28-oct · release v1.2.1 del 7 de octubre*. Fork de fork: toma lo de Mihon y lo de TachiyomiSY. Los forks de forks son la norma, no la excepción.
 • *RecordXenon/Kotatsu-Ultra* — *★117 · sin licencia declarada · empuje 22-oct*. Un fork de Kotatsu que siguió cuando el original se archivó.
 • *Nyora-Manga/nyora-android* — *★58 · GPL-3.0 · empuje 23-sep · release v2.7.3 del 31 de julio*. Lector independiente, no heredero.
 • *Utolaris/Kujira-Manga* — *★17 · GPL-3.0 · release v1.5.3 (25-oct)*. Chiquito y activo.
-• *Mister-album/Koharia* — *★252 · Apache-2.0 · release v0.7.5 (27-oct)*. Otro más, con su público.
+• *Mister-album/Koharia* — *★254 · Apache-2.0 · release v0.7.5 (27-oct)*. Otro más, con su público.
 • *Wammy-app/Wammy* — *★13 · Apache-2.0 · release v0.1.4 (25-oct)*. El más nuevo de todos.
 • *hotaro26/miko* — *★33 · sin licencia declarada · release v3.3 del 3 de agosto*. Dormido.
 
 
 ⏬ sigue abajo · parte 3 de 26
 
-═══ MENSAJE 5 de 27 · 2826 caracteres ═══
+═══ MENSAJE 5 de 27 · 2825 caracteres ═══
 
-*El que se fue de la familia.* `kodjodevf/mangayomi` — *★4.286 · Apache-2.0 · empujó ayer · release v0.9.9* — no es un fork de Tachiyomi: es un motor propio, con extensiones propias (`m2k3a/mangayomi-extensions`, *★113 · Apache-2.0*), y su nombre viejo ya no existe: `Mangayomi-app/Mangayomi` responde **404** hoy. Es el tercer muerto de esta pieza y el ejemplo perfecto de por qué hay que medir: si copias el enlace viejo de un tutorial de hace un año, te estrellas.
+*El que se fue de la familia.* `kodjodevf/mangayomi` — *★4.286 · Apache-2.0 · empujó hoy · release v0.9.9* — no es un fork de Tachiyomi: es un motor propio, con extensiones propias (`m2k3a/mangayomi-extensions`, *★113 · Apache-2.0*), y su nombre viejo ya no existe: `Mangayomi-app/Mangayomi` responde **404** hoy. Es el tercer muerto de esta pieza y el ejemplo perfecto de por qué hay que medir: si copias el enlace viejo de un tutorial de hace un año, te estrellas.
 
 *Lo que enseña el árbol, y es la tesis de la sección:* en este ecosistema, *el nombre de la app no te dice nada*. Lo que te dice algo es la fecha del empuje y quién firma. Una app puede llevar un nombre que suena vivo y estar muerta desde 2025 (Kotatsu), o llevar un nombre que nadie conoce y haber publicado esta mañana (Kujira, Koharia, Wammy).
 
@@ -162,14 +162,14 @@ Ocho mil novecientas cuarenta y tres estrellas y un cartel de «archivado». Ese
 
 ⏬ sigue abajo · parte 4 de 26
 
-═══ MENSAJE 6 de 27 · 3642 caracteres ═══
+═══ MENSAJE 6 de 27 · 3641 caracteres ═══
 
 *📚 Los cinco lectores que valen hoy (y para quién es cada uno)*
 
 No voy a hacer una lista de los treinta. Eso no ayuda a decidir. Van cinco, con el perfil exacto para el que cada uno tiene sentido.
 
 *1 · Mihon — el que no sorprende a nadie*
-`mihonapp/mihon` · ★24.916 · Apache-2.0 · release v0.21.3 (25-oct).
+`mihonapp/mihon` · ★24.922 · Apache-2.0 · release v0.21.3 (25-oct).
 
 *Para quién:* para el que quiere el lector estándar, sin funciones raras, con el mayor ecosistema de extensiones detrás y la comunidad más grande para resolver dudas.
 *Lo bueno:* es el sucesor directo y mantiene compatibilidad con el formato de biblioteca de siempre. Tu respaldo `.tachibk` entra sin conversiones.
@@ -177,7 +177,7 @@ No voy a hacer una lista de los treinta. Eso no ayuda a decidir. Van cinco, con 
 *El detalle:* es el único de esta lista cuya licencia (Apache-2.0) permite que un fork comercial lo use sin publicar cambios. Ninguno lo hace hoy, pero es una puerta abierta que conviene saber que existe.
 
 *2 · Komikku — el que más funciones trae*
-`komikku-app/komikku` · ★4.963 · Apache-2.0 · empuje 21-oct · release v1.14.1 (17-jul).
+`komikku-app/komikku` · ★4.964 · Apache-2.0 · empuje 21-oct · release v1.14.1 (17-jul).
 
 *Para quién:* para el que ya usó Mihon y siente que le falta algo: ajustes de lector más finos, mejores controles de biblioteca, opciones de sincronización.
 *Lo bueno:* añade sin romper. La migración desde Mihon es la más sencilla de todas las de esta pieza.
@@ -192,7 +192,7 @@ No voy a hacer una lista de los treinta. Eso no ayuda a decidir. Van cinco, con 
 *Lo malo:* su enfoque en catálogo propio lo hace menos versátil si dependes de extensiones específicas que no están en su índice.
 
 *4 · Kototoro — el más joven y el más rápido*
-`Kototoro-app/Kototoro` · ★657 · Apache-2.0 · empujó ayer · release v2.3.4 (29-oct) · parsers aparte en `skepsun/kototoro-parsers` (★17, GPL-3.0).
+`Kototoro-app/Kototoro` · ★659 · Apache-2.0 · empujó ayer · release v2.3.4 (29-oct) · parsers aparte en `skepsun/kototoro-parsers` (★17, GPL-3.0).
 
 *Para quién:* para el que quiere probar algo con energía y no le importa que el proyecto tenga seis meses de vida.
 *Lo bueno:* dos empujes en dos días y una release de anteayer. Aquí sí se cumple la promesa de «vivo».
@@ -200,7 +200,7 @@ No voy a hacer una lista de los treinta. Eso no ayuda a decidir. Van cinco, con 
 *El detalle que me gusta:* separar los parsers en otro repositorio con otra licencia es una decisión de ingeniería limpia: puedes auditar el catálogo sin compilar el motor.
 
 *5 · Mangayomi — el primo que se independizó*
-`kodjodevf/mangayomi` · ★4.286 · Apache-2.0 · empujó ayer · release v0.9.9 · extensiones en `m2k3a/mangayomi-extensions` (★113).
+`kodjodevf/mangayomi` · ★4.286 · Apache-2.0 · empujó hoy · release v0.9.9 · extensiones en `m2k3a/mangayomi-extensions` (★113).
 
 *Para quién:* para el que quiere un motor moderno y le da igual no ser compatible con el ecosistema Tachiyomi.
 *Lo bueno:* está muy activo y tiene su propio formato de extensiones, escrito en Dart, que se puede escribir sin saber Kotlin. Para alguien que quiera aportar, es la puerta más baja.
@@ -226,7 +226,7 @@ Aquí está la parte que la gente se salta y que explica el 90 % de los problema
 
 *Los cuatro canales que existen hoy, medidos:*
 
-• *keiyoushi/extensions-source* — **★4.839 · Apache-2.0 · empujó hoy**. Es el catálogo grande que quedó cuando el oficial murió, y hoy es el estándar de facto. Su repositorio es el código de cientos de extensiones; el APK del índice se sirve aparte.
+• *keiyoushi/extensions-source* — **★4.843 · Apache-2.0 · empujó hoy**. Es el catálogo grande que quedó cuando el oficial murió, y hoy es el estándar de facto. Su repositorio es el código de cientos de extensiones; el APK del índice se sirve aparte.
 • *yuzono/tachiyomi-extensions* — **★953 · Apache-2.0 · empujó hoy**. Un canal alternativo con mantenimiento propio, útil cuando una extensión del grande se rompe o desaparece.
 • *timschneeb/tachiyomi-extensions-archive* — **★1.802 · Apache-2.0 · archivado · último empuje 23-mar-2026**. El archivo histórico. Sirve para reconstruir qué existía, no para instalar hoy.
 • *m2k3a/mangayomi-extensions* — **★113 · Apache-2.0 · empuje 29-oct**. El catálogo del primo independiente. No sirve para Mihon ni para sus forks.
@@ -517,9 +517,9 @@ La lista de hace cuatro meses tenía a Tachiyomi, a sus forks y a tres servidore
 • *`null2264/yokai` — ★1.914 · Apache-2.0 · Kotlin · creado el 6 de enero de 2024 · release v1.10.2 del 23 de septiembre.* El fork más activo de la familia después de Mihon, con ★1.914 que no son prestadas. Empujó el 13 de octubre.
 • *`jakepurple13/OtakuWorld` — ★637 · Apache-2.0 · creado el 30 de marzo de 2021 · release v32.1.2 del 29 de junio · empujó ayer.* Tres apps separadas: anime, manga y novelas. El que quiere todo el mueble en un solo ecosistema.
 • *`UsagiApp/Usagi` — ★288 · GPL-3.0 · **creado el 20 de marzo de 2026** · release v1.2 del 3 de octubre.* Lector simple para Android 5.0 en adelante. Simple de verdad: eso es lo que promete y lo que cumple.
-• *`Chimahon/chimahon` — ★239 · GPL-3.0 · **creado el 27 de marzo de 2026** · release v2.4.8 del 19 de octubre.* Fork de inmersión sobre Mihon, con diccionario nativo y OCR para leer en el idioma original. El nicho más específico de esta lista y el mejor hecho.
+• *`Chimahon/chimahon` — ★240 · GPL-3.0 · **creado el 27 de marzo de 2026** · release v2.4.8 del 19 de octubre.* Fork de inmersión sobre Mihon, con diccionario nativo y OCR para leer en el idioma original. El nicho más específico de esta lista y el mejor hecho.
 • *`yomihon/yomihon` — ★142 · Apache-2.0 · creado el 14 de septiembre de 2025 · release v0.4.3 del 18 de octubre.* Lector con reconocimiento de texto: saca el texto de la imagen para traducirlo o buscarlo.
-• *`roxycon-dev/Ciallo-Reader` — ★261 · MIT · **creado el 29 de julio de 2026** · release v1.5.10 del 29 de octubre.* Tres meses de vida y ya lee novela, cómic y libro: TXT, EPUB y CBZ en el mismo estante.
+• *`roxycon-dev/Ciallo-Reader` — ★265 · MIT · **creado el 29 de julio de 2026** · release v1.5.10 del 29 de octubre.* Tres meses de vida y ya lee novela, cómic y libro: TXT, EPUB y CBZ en el mismo estante.
 • *`kmworks/kmreader` — ★116 · MIT · Swift · creado el 15 de noviembre de 2025 · release v7.3 del 22 de octubre.* Cliente nativo de Komga para iPhone, Mac y Apple TV. Existe porque en iOS el mueble se arma distinto.
 
 *Los que no son apps, y también cuentan:*
@@ -533,13 +533,13 @@ La lista de hace cuatro meses tenía a Tachiyomi, a sus forks y a tres servidore
 *Bibliotecas y servidores nuevos:*
 
 • *`BookHeaven/BookHeaven.Server` — ★197 · GPL-3.0 · creado el 23 de septiembre de 2024 · release v1.0.4 del 30 de octubre.* Servidor web para tu biblioteca de libros electrónicos, compatible con los lectores que hablan OPDS.
-• *`chmouel/liseur` — ★169 · MIT · **creado el 28 de julio de 2026** · release v0.26.0 del 28 de octubre.* Lector de EPUB con biblioteca remota para Android. Tres meses y ya en la versión 0.26: publica más que muchos veteranos.
+• *`chmouel/liseur` — ★170 · MIT · **creado el 28 de julio de 2026** · release v0.26.0 del 28 de octubre.* Lector de EPUB con biblioteca remota para Android. Tres meses y ya en la versión 0.26: publica más que muchos veteranos.
 
 ⏬ sigue abajo · parte 15 de 26
 
 ═══ MENSAJE 17 de 27 · 3274 caracteres ═══
 
-• *`zmz125000/LocalViewer` — ★198 · GPL-3.0 · **creado el 18 de julio de 2026** · release 1.13.22 del 31 de octubre.* Lee CBZ y fotos por SMB y WebDAV: el mueble montado sobre la carpeta que ya tienes en la computadora, sin servidor de por medio.
+• *`zmz125000/LocalViewer` — ★200 · GPL-3.0 · **creado el 18 de julio de 2026** · release 1.13.22 del 31 de octubre.* Lee CBZ y fotos por SMB y WebDAV: el mueble montado sobre la carpeta que ya tienes en la computadora, sin servidor de por medio.
 • *`readium/kotlin-toolkit` — ★395 · BSD-3-Clause · release 3.4.0 del 11 de septiembre.* El motor de lectura que hay detrás de media docena de apps que no sabes que lo usan. Si programas, esto te ahorra el trabajo de dibujar un libro.
 • *`koodo-reader/koodo-reader` — ★28.679 · AGPL-3.0 · release v2.4.6 del 7 de octubre.* Gestor y lector de libros con sincronización y respaldo, para computadora. No es manga: es el vecino grande que resolvió el cajón tres antes que nadie.
 • *`Suwayomi/Suwayomi-VUI` — ★54 · MPL-2.0 · empuje del 12 de octubre · release r1417 del 12 de octubre.* Otra interfaz web para el servidor de Suwayomi. Cincuenta y cuatro estrellas y una versión de este mes: chiquita y viva.
@@ -610,7 +610,7 @@ Un servidor en tu casa, en tu red, es tan seguro como tu red. Expuesto a interne
 
 *📺 Anime: el hermano que va por otro camino*
 
-Si el manga tiene su familia, el anime tiene la suya, y comparte abuelo. `aniyomiorg/aniyomi` — **★7.865 · Apache-2.0 · Kotlin · empuje 14-sep · release v0.18.2.1 del 14 de septiembre** — nació como fork de Tachiyomi para video: mismos cajones, otros archivos. Donde el manga carga imágenes, el anime carga flujos de video, y eso cambia todo el oficio.
+Si el manga tiene su familia, el anime tiene la suya, y comparte abuelo. `aniyomiorg/aniyomi` — **★7.864 · Apache-2.0 · Kotlin · empuje 14-sep · release v0.18.2.1 del 14 de septiembre** — nació como fork de Tachiyomi para video: mismos cajones, otros archivos. Donde el manga carga imágenes, el anime carga flujos de video, y eso cambia todo el oficio.
 
 *Por qué es más difícil que el manga:*
 • *El reproductor.* Un lector de cómics dibuja imágenes; un reproductor de video tiene que decodificar formatos, manejar subtítulos y pelear con códecs que tu teléfono quizá no soporta en hardware.
@@ -640,7 +640,7 @@ Por eso el censo nuevo de hoy vale lo que vale la fecha: si lo abres en marzo, l
 
 *🧾 Lo que me costó escribir esto*
 
-Transparencia, que es la casa: esta pieza no la escribí en una tarde. Requirió medir 40 repositorios uno por uno, leer sus licencias, comprobar cuáles estaban archivados, encontrar los tres nombres que ya no existen y separar tres cosas que todo el mundo mezcla: *vivo, archivado y muerto*.
+Transparencia, que es la casa: esta pieza no la escribí en una tarde. Requirió medir 52 repositorios uno por uno, leer sus licencias, comprobar cuáles estaban archivados, encontrar los tres nombres que ya no existen y separar tres cosas que todo el mundo mezcla: *vivo, archivado y muerto*.
 
 *Los errores que corregí en el camino:*
 • Di por hecho que `tachiyomiorg/tachiyomi` respondería con su histórico. Da 404: queda en la lista de muertos con fecha.
@@ -654,26 +654,26 @@ Lo que no medí y por tanto no afirmo: cuánta gente usa cada app de verdad. Las
 
 ═══ MENSAJE 21 de 27 · 3628 caracteres ═══
 
-*📋 LA FICHA DE HOY — 53 repositorios del mueble, medidos uno por uno*
+*📋 LA FICHA DE HOY — 52 repositorios del mueble, medidos uno por uno*
 
 Medido hoy con la API de GitHub: estrellas, licencia que el repositorio declara, último empuje y última release con su fecha. Lo que dice **archivado** o **404** va marcado, no disimulado.
 
 *Los motores y sus forks:*
 
-• `mihonapp/mihon` — ★24.916 · Apache-2.0 · push 26-oct · rel v0.21.3 (25-oct)
-• `komikku-app/komikku` — ★4.963 · Apache-2.0 · push 21-oct · rel v1.14.1 (17-jul)
+• `mihonapp/mihon` — ★24.922 · Apache-2.0 · push 26-oct · rel v0.21.3 (25-oct)
+• `komikku-app/komikku` — ★4.964 · Apache-2.0 · push 21-oct · rel v1.14.1 (17-jul)
 • `null2264/yokai` — ★1.914 · Apache-2.0 · push 13-oct · rel v1.10.2 (23-sep)
 • `nekomangaorg/Neko` — ★2.818 · Apache-2.0 · push 1-nov · rel 3.8.5 (30-oct)
-• `Kototoro-app/Kototoro` — ★657 · Apache-2.0 · push 31-oct · rel v2.3.4 (29-oct)
+• `Kototoro-app/Kototoro` — ★659 · Apache-2.0 · push 31-oct · rel v2.3.4 (29-oct)
 • `kodjodevf/mangayomi` — ★4.286 · Apache-2.0 · push 31-oct · rel v0.9.9 (12-oct)
-• `aniyomiorg/aniyomi` — ★7.865 · Apache-2.0 · push 14-sep · rel v0.18.2.1 (14-sep)
+• `aniyomiorg/aniyomi` — ★7.864 · Apache-2.0 · push 14-sep · rel v0.18.2.1 (14-sep)
 • `jakepurple13/OtakuWorld` — ★637 · Apache-2.0 · push 31-oct · rel v32.1.2 (29-jun)
 • `UsagiApp/Usagi` — ★288 · GPL-3.0 · push 30-oct · rel v1.2 (3-oct)
-• `Chimahon/chimahon` — ★239 · GPL-3.0 · push 28-oct · rel v2.4.8 (19-oct)
+• `Chimahon/chimahon` — ★240 · GPL-3.0 · push 28-oct · rel v2.4.8 (19-oct)
 • `yomihon/yomihon` — ★142 · Apache-2.0 · push 18-oct · rel v0.4.3 (18-oct)
-• `roxycon-dev/Ciallo-Reader` — ★261 · MIT · push 29-oct · rel v1.5.10 (29-oct)
+• `roxycon-dev/Ciallo-Reader` — ★265 · MIT · push 29-oct · rel v1.5.10 (29-oct)
 • `kmworks/kmreader` — ★116 · MIT · push 31-oct · rel v7.3 (22-oct)
-• `Mister-album/Koharia` — ★252 · Apache-2.0 · push 27-oct · rel v0.7.5 (27-oct)
+• `Mister-album/Koharia` — ★254 · Apache-2.0 · push 27-oct · rel v0.7.5 (27-oct)
 • `Nyora-Manga/nyora-android` — ★58 · GPL-3.0 · push 23-sep · rel v2.7.3 (31-jul)
 • `Utolaris/Kujira-Manga` — ★17 · GPL-3.0 · push 25-oct · rel v1.5.3 (25-oct)
 • `Wammy-app/Wammy` — ★13 · Apache-2.0 · push 25-oct · rel v0.1.4 (25-oct)
@@ -684,11 +684,11 @@ Medido hoy con la API de GitHub: estrellas, licencia que el repositorio declara,
 
 *Los catálogos de extensiones:*
 
-• `keiyoushi/extensions-source` — ★4.839 · Apache-2.0 · push 1-nov · sin release
+• `keiyoushi/extensions-source` — ★4.843 · Apache-2.0 · push 1-nov · sin release
 • `yuzono/tachiyomi-extensions` — ★953 · Apache-2.0 · push 1-nov · sin release
 • `m2k3a/mangayomi-extensions` — ★113 · Apache-2.0 · push 29-oct · sin release
 • `skepsun/kototoro-parsers` — ★17 · GPL-3.0 · push 28-oct · sin release
-• `aidoku-community/sources` — ★613 · Apache-2.0 · push 30-oct · sin release
+• `aidoku-community/sources` — ★614 · Apache-2.0 · push 30-oct · sin release
 • `timschneeb/tachiyomi-extensions-archive` — ★1.802 · Apache-2.0 · **archivado** · push 23-mar · sin release
 • `aniyomiorg/aniyomi-extensions` — ★849 · Apache-2.0 · **archivado** · push 19-ago · sin release
 
@@ -705,8 +705,8 @@ Medido hoy con la API de GitHub: estrellas, licencia que el repositorio declara,
 • `Snd-R/Komelia` — ★437 · Apache-2.0 · push 29-oct · rel 0.20.0 (27-sep)
 • `Snd-R/komf` — ★738 · MIT · push 27-sep · rel 2.1.0 (27-sep)
 • `C9Glax/tranga` — ★395 · GPL-3.0 · push 26-oct · rel 1.5 (20-jun)
-• `chmouel/liseur` — ★169 · MIT · push 1-nov · rel v0.26.0 (28-oct)
-• `zmz125000/LocalViewer` — ★198 · GPL-3.0 · push 1-nov · rel 1.13.22 (31-oct)
+• `chmouel/liseur` — ★170 · MIT · push 1-nov · rel v0.26.0 (28-oct)
+• `zmz125000/LocalViewer` — ★200 · GPL-3.0 · push 1-nov · rel 1.13.22 (31-oct)
 
 ⏬ sigue abajo · parte 20 de 26
 
@@ -725,7 +725,7 @@ Medido hoy con la API de GitHub: estrellas, licencia que el repositorio declara,
 
 *Archivados y muertos, para que se sepa:*
 
-• `KotatsuApp/Kotatsu` — ★8.943 · GPL-3.0 · **archivado** · push 4-nov · sin release
+• `KotatsuApp/Kotatsu` — ★8.946 · GPL-3.0 · **archivado** · push 4-nov · sin release
 • `Koitharu/OpenManga` — ★182 · NOASSERTION · **archivado** · push 2-feb · rel v4.7.1 (20-jul)
 • `tachiyomiorg/tachiyomi` — **404 hoy**
 • `Mangayomi-app/Mangayomi` — **404 hoy**
@@ -748,7 +748,7 @@ Medido hoy con la API de GitHub: estrellas, licencia que el repositorio declara,
 
 ⏬ sigue abajo · parte 21 de 26
 
-═══ MENSAJE 23 de 27 · 3645 caracteres ═══
+═══ MENSAJE 23 de 27 · 3643 caracteres ═══
 
 *🔗 Enlaces de esta pieza (canónicos)*
 
@@ -827,37 +827,37 @@ Tachiyomi murió y su ecosistema floreció porque el código estaba en miles de 
 
 La app que uses mañana puede no ser la de hoy. Tu archivo sí puede ser el mismo, si lo cuidas. Ese es el cajón que importa, y es el único que no cuesta nada: ni cuenta, ni nube, ni suscripción.
 
-💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy, uno por uno, los 53 repositorios de esta pieza: 46 vivos, 4 archivados y 3 muertos con su 404 a la vista, 3 archivados marcados como tales. Los números llevan fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.
+💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy a las 06:15, uno por uno, los 52 repositorios de esta pieza: 45 vivos, 4 archivados y 3 muertos con su 404 a la vista. Los números llevan la hora, no solo la fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.
 
 ⏬ sigue abajo · parte 22 de 26
 
-═══ MENSAJE 24 de 27 · 3932 caracteres ═══
+═══ MENSAJE 24 de 27 · 3916 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 56 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions-source — ★4.839 (+8) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions-source — ★4.843 (+12) · empujó en las últimas horas · Apache-2.0
 • yuzono/tachiyomi-extensions — ★953 · empujó en las últimas horas · Apache-2.0
 • timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (223 días) · Apache-2.0 · *ARCHIVADO*
 • m2k3a/mangayomi-extensions — ★113 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 • tachiyomiorg/tachiyomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• mihonapp/mihon — ★24.916 (+76) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• komikku-app/komikku — ★4.963 (+7) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• mihonapp/mihon — ★24.922 (+82) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• komikku-app/komikku — ★4.964 (+8) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • nekomangaorg/Neko — ★2.818 (+1) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
-• Kototoro-app/Kototoro — ★657 (+4) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• Kototoro-app/Kototoro — ★659 (+6) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • ruzhe85/MihonSY — ★48 · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.2.1 (7-oct-2026)
 • RecordXenon/Kotatsu-Ultra — ★117 · empujó el 22-oct-2026 (hace 10 días) · sin licencia detectada por la API
 • Nyora-Manga/nyora-android — ★58 · empujó el 23-sep-2026 (hace 39 días) · GPL-3.0 · última release v2.7.3 (31-jul-2026)
 • Utolaris/Kujira-Manga — ★17 · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.5.3 (25-oct-2026)
-• Mister-album/Koharia — ★252 · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)
+• Mister-album/Koharia — ★254 · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)
 • Wammy-app/Wammy — ★13 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.1.4 (25-oct-2026)
 • hotaro26/miko — ★33 · *dormido*: sin empujar desde el 11-sep-2026 (51 días) · sin licencia detectada por la API · última release v3.3 (3-ago-2026)
 • kodjodevf/mangayomi — ★4.286 · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
 • Mangayomi-app/Mangayomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• KotatsuApp/Kotatsu — ★8.944 (+1) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
-• Suwayomi/Suwayomi-Server — ★7.982 · empujó el 24-oct-2026 (hace 8 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
+• KotatsuApp/Kotatsu — ★8.946 (+3) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
+• Suwayomi/Suwayomi-Server — ★7.982 · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
 • Suwayomi/Suwayomi-Server-docker — ★575 · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0
 • Suwayomi/Suwayomi-JUI — ★498 · empujó el 15-oct-2026 (hace 17 días) · MPL-2.0 · última release v1.3.3 (31-mar-2024)
 • Suwayomi/Suwayomi-Tsumiru — ★107 · empujó en las últimas horas · MPL-2.0 · última release v1.6.3 (30-oct-2026)
@@ -875,29 +875,29 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 56 repositorios que cita esta pi
 
 ═══ MENSAJE 25 de 27 · 2674 caracteres ═══
 
-• Chimahon/chimahon — ★239 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• Chimahon/chimahon — ★240 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
 • yomihon/yomihon — ★142 · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
-• roxycon-dev/Ciallo-Reader — ★261 · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.5.10 (29-oct-2026)
+• roxycon-dev/Ciallo-Reader — ★265 · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.5.10 (29-oct-2026)
 • kmworks/kmreader — ★116 · empujó en las últimas horas · MIT · última release v7.3 (22-oct-2026)
 • josueBarretogit/manga-tui — ★954 · empujó en las últimas horas · MIT · última release v0.10.1 (1-nov-2026)
 • elboletaire/manga-downloader — ★289 · empujó en las últimas horas · AGPL-3.0 · última release v24.1.0 (30-oct-2026)
 • MapoMagpie/comic-looms — ★812 · empujó el 22-oct-2026 (hace 10 días) · MIT · última release 4.16.1 (9-oct-2026)
 • KamiYomu/KamiYomu — ★150 · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
 • Yui007/weebcentral_downloader — ★175 · *dormido*: sin empujar desde el 23-ago-2026 (70 días) · MIT
-• chmouel/liseur — ★169 · empujó en las últimas horas · MIT · última release v0.26.0 (28-oct-2026)
-• zmz125000/LocalViewer — ★198 · empujó en las últimas horas · GPL-3.0 · última release 1.13.22 (31-oct-2026)
+• chmouel/liseur — ★170 · empujó en las últimas horas · MIT · última release v0.26.0 (28-oct-2026)
+• zmz125000/LocalViewer — ★200 · empujó en las últimas horas · GPL-3.0 · última release 1.13.22 (31-oct-2026)
 • readium/kotlin-toolkit — ★395 · empujó el 16-oct-2026 (hace 16 días) · BSD-3-Clause · última release 3.4.0 (11-sep-2026)
 • koodo-reader/koodo-reader — ★28.679 (+11) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
 • Suwayomi/Suwayomi-VUI — ★54 · empujó el 12-oct-2026 (hace 20 días) · MPL-2.0 · última release r1417 (12-oct-2026)
 • sri-sivaram/Neko-Manga-Pearl — ★116 · empujó en las últimas horas · sin licencia detectada por la API
 • khaledmahmud5286-cmd/manga-zen-reader — ★113 · empujó en las últimas horas · sin licencia detectada por la API
-• aniyomiorg/aniyomi — ★7.865 (+9) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• aniyomiorg/aniyomi — ★7.864 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 • aniyomiorg/aniyomi-extensions — ★849 · *dormido*: sin empujar desde el 19-ago-2024 (804 días) · Apache-2.0 · *ARCHIVADO*
 • Paperback-Community/Paperback — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• aidoku-community/sources — ★613 · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
+• aidoku-community/sources — ★614 · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • Koitharu/OpenManga — ★182 · *dormido*: sin empujar desde el 2-feb-2020 (2464 días) · NOASSERTION · última release v4.7.1 (20-jul-2019) · *ARCHIVADO*
-• koreader/koReader — ★30.777 · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• janeczku/calibre-web — ★18.512 · empujó el 10-oct-2026 (hace 22 días) · GPL-3.0 · última release 0.6.27 (8-ago-2026)
+• koreader/koReader — ★30.782 · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• janeczku/calibre-web — ★18.516 · empujó el 10-oct-2026 (hace 22 días) · GPL-3.0 · última release 0.6.27 (8-ago-2026)
 
 ⏬ sigue abajo · parte 24 de 26
 

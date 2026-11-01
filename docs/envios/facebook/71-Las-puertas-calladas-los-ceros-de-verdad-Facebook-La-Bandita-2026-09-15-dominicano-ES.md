@@ -67,7 +67,7 @@ Lo primero, lo que se cayó: **inaccurate-hotelplan289/HomeLabSetup** (caído (4
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1855 caracteres ═══
+═══ MENSAJE 3 de 4 · 1487 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 71*
 
@@ -84,12 +84,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 8 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 10 enlaces de esta pieza, *6 responden*.
+De los 10 enlaces de esta pieza, *9 responden*.
 
 • https://github.com/inaccurate-hotelplan289/HomeLabSetup — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/thiagooo0/EHHelper — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/ulightm111/boky-fivavahana-ion — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/vauvenal5/yaga — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

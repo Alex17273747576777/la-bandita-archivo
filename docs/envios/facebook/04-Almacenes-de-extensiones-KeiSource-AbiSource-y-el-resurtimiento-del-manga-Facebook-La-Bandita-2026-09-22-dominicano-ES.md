@@ -65,14 +65,14 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1162 caracteres ═══
+═══ MENSAJE 3 de 4 · 1051 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
-• keiyoushi/extensions-source — ★4.839 (+8) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• keiyoushi/extensions-source — ★4.843 (+12) · empujó en las últimas horas · Apache-2.0
 • LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
 • cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f3291a9 (31-oct-2026)
@@ -80,9 +80,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *8 responden*.
-
-• https://github.com/yuzono/anime-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 9 enlaces de esta pieza, *9 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

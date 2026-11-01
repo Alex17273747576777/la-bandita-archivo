@@ -87,19 +87,19 @@ Hay release de esta semana: **syncyomi/syncyomi** publicó v1.7.4 (2026-10-29). 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1899 caracteres ═══
+═══ MENSAJE 4 de 5 · 1775 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.916 (+77) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• aniyomiorg/aniyomi — ★7.865 (+10) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• jobobby04/TachiyomiSY — ★4.199 (+3) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
+• mihonapp/mihon — ★24.922 (+83) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• aniyomiorg/aniyomi — ★7.864 (+9) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• komikku-app/komikku — ★4.964 (+9) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• jobobby04/TachiyomiSY — ★4.199 (+3) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • nekomangaorg/Neko — ★2.818 (+1) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
-• komikku-app/anikku — ★1.127 (+4) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
-• syncyomi/syncyomi — ★740 (+3) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
+• komikku-app/anikku — ★1.126 (+3) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
+• syncyomi/syncyomi — ★741 (+4) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
 • aniyomiorg/aniyomi-preview — ★644 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release r8135 (14-sep-2026)
 • Animetailapp/Animetail — ★613 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
 • jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)
@@ -107,9 +107,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 13 enlaces de esta pieza, *12 responden*.
-
-• https://github.com/syncyomi/syncyomi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 13 enlaces de esta pieza, *13 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

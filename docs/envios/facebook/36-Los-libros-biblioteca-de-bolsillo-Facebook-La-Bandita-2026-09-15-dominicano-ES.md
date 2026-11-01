@@ -84,17 +84,17 @@ Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1933 caracteres ═══
+═══ MENSAJE 4 de 5 · 1587 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 36*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.777 (+40) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• kovidgoyal/calibre — ★26.303 (+20) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
-• readest/readest — ★25.796 (+54) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
-• foobnix/LibreraReader — ★4.985 (+9) · empujó en las últimas horas · NOASSERTION · última release 10.0.19 (28-oct-2026)
-• Pool-Of-Tears/Myne — ★1.541 (sin cambio) · empujó el 21-sep-2026 (hace 41 días) · Apache-2.0 · última release v5.1.0 (21-ago-2026)
+• koreader/koreader — ★30.782 (+45) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• kovidgoyal/calibre — ★26.306 (+23) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
+• readest/readest — ★25.806 (+64) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• foobnix/LibreraReader — ★4.987 (+11) · empujó en las últimas horas · NOASSERTION · última release 10.0.19 (28-oct-2026)
+• Pool-Of-Tears/Myne — ★1.542 (+1) · empujó el 21-sep-2026 (hace 41 días) · Apache-2.0 · última release v5.1.0 (21-ago-2026)
 • kiwix/kiwix-android — ★1.521 (+4) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.14.1 (14-may-2026)
 • Acclorite/book-story — ★1.417 (+1) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.8.0 (13-oct-2025)
 • tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
@@ -103,11 +103,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *13 responden*.
-
-• https://github.com/pkmetski/riffle — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/readest/readest — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 16 enlaces de esta pieza, *16 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

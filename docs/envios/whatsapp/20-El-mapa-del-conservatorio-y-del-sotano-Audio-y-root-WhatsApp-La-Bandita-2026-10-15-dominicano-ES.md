@@ -1069,20 +1069,20 @@ REV|0.3-LPGA=1|REV|895.36★ — ksigaM/uwnhojpot=2|REV|92-01-6202 — cisuMpmiS
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1631 caracteres ═══
+═══ MENSAJE 19 de 20 · 1630 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• topjohnwu/Magisk — ★63.658 (+63) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
-• team-spotube/spotube — ★50.523 (+57) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• tiann/KernelSU — ★19.920 (+108) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
-• MetrolistGroup/Metrolist — ★13.922 (+31) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.609 (+75) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
-• Dr-TSNG/ZygiskNext — ★10.768 (+26) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.677 (+38) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.2.0 (12-ene-2026)
-• bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
+• topjohnwu/Magisk — ★63.665 (+70) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• team-spotube/spotube — ★50.526 (+60) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• tiann/KernelSU — ★19.938 (+126) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
+• MetrolistGroup/Metrolist — ★13.925 (+34) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.612 (+78) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• Dr-TSNG/ZygiskNext — ★10.774 (+32) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.679 (+40) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.2.0 (12-ene-2026)
+• bmax121/APatch — ★8.116 (+12) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
 • namidaco/namida — ★6.756 (+18) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 

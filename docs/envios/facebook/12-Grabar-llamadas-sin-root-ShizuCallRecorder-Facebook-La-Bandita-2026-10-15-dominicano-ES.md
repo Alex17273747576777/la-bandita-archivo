@@ -61,18 +61,18 @@ La noticia fresca es de **SysAdminDoc/HushFacebook**: release v0.19.0 (2026-10-2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1180 caracteres ═══
+═══ MENSAJE 3 de 4 · 1178 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 12*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.554 (+169) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• kitsumed/ShizuCallRecorder — ★1.965 (+33) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.0.0 (24-oct-2026)
-• flectar/mail — ★1.710 (+25) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
-• SysAdminDoc/HushFacebook — ★448 (+11) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (28-oct-2026)
+• RikkaApps/Shizuku — ★32.573 (+188) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• kitsumed/ShizuCallRecorder — ★1.968 (+36) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.0.0 (24-oct-2026)
+• flectar/mail — ★1.714 (+29) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
+• SysAdminDoc/HushFacebook — ★449 (+12) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
 • SysAdminDoc/HushFeed — ★342 (+18) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
-• SysAdminDoc/Hushfacebook — ★448 · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (28-oct-2026)
+• SysAdminDoc/Hushfacebook — ★449 · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
 • SysAdminDoc/hushfeed — ★342 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

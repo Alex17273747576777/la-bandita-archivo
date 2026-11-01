@@ -209,7 +209,7 @@ Accrescent es la tienda más joven de las que valen la pena en esta guía, y la 
 
 *🏪 GrapheneOS Apps — la tienda del sistema endurecido*
 
-GrapheneOS es un sistema operativo para teléfonos Pixel que se toma la seguridad en serio. Su tienda de apps —`GrapheneOS/AppStore`, *★624 · MIT · Kotlin · empuje del 31 de octubre · release 37 del mismo día*— es el caso más raro de esta lista: *una tienda hecha por el mismo equipo que hace el sistema*, y que funciona fuera de él.
+GrapheneOS es un sistema operativo para teléfonos Pixel que se toma la seguridad en serio. Su tienda de apps —`GrapheneOS/AppStore`, *★625 · MIT · Kotlin · empuje del 31 de octubre · release 37 del mismo día*— es el caso más raro de esta lista: *una tienda hecha por el mismo equipo que hace el sistema*, y que funciona fuera de él.
 
 *Qué vende:* sus propias apps (Cámara, Visor de PDF, Reloj, Calculadora…), más un catálogo pequeño y verificado. Nada de terceros sin revisar.
 *Por qué importa a quien no tiene GrapheneOS:* porque sus apps están escritas para no depender de los servicios de Google, y varias funcionan perfectamente en un teléfono normal. Su cámara, por ejemplo, es una de las pocas que no te pide la nube para nada.
@@ -332,7 +332,7 @@ Esto reemplaza la caja de herramientas de la lista vieja. Ya no es una caja: son
 
 *El error clásico:* pedirle al escalón uno que resuelva un problema del tres. «La app no me instala» casi nunca es culpa de la tienda; es un paquete partido o una firma distinta. Y «la app me espía» no se arregla cambiando de tienda: se arregla en el escalón cuatro.
 
-*Lo que comprobar antes de bajar un instalador alternativo:* que tenga release con archivo, que declare licencia, que su código se haya movido este mes y que su autor tenga más de un repositorio. Con eso descartas el cebo y te quedas con las herramientas que de verdad hacen el trabajo —en mi medición de hoy, `wxxsfxyzm/InstallerX-Revived` ★7.258, `pass-with-high-score/universal-installer` ★1.653 y `Paving-Base/APK-Installer` ★1.712, todos con release reciente salvo el último, que es de agosto de 2025 y aun así sigue sirviendo.
+*Lo que comprobar antes de bajar un instalador alternativo:* que tenga release con archivo, que declare licencia, que su código se haya movido este mes y que su autor tenga más de un repositorio. Con eso descartas el cebo y te quedas con las herramientas que de verdad hacen el trabajo —en mi medición de hoy, `wxxsfxyzm/InstallerX-Revived` ★7.259, `pass-with-high-score/universal-installer` ★1.661 y `Paving-Base/APK-Installer` ★1.712, todos con release reciente salvo el último, que es de agosto de 2025 y aun así sigue sirviendo.
 
 ───────────────────
 
@@ -393,13 +393,13 @@ Una lista de apps no es un plano: es una fotografía. Y esta guía la escribí h
 
 Una lista curada no es una tienda: es un índice de enlaces. Sirve para descubrir y no garantiza nada. Medí las cuatro grandes hoy y esto es lo que hay.
 
-*`timschneeb/awesome-shizuku` — ★10.667 · sin licencia declarada · empujó **ayer**.*
+*`timschneeb/awesome-shizuku` — ★10.670 · sin licencia declarada · empujó **ayer**.*
 El catálogo de las apps que necesitan Shizuku, mantenido por el mismo autor de ShizuStore y del archivo histórico de extensiones de Tachiyomi. Es la fuente de la que sale medio ecosistema. *Ojo:* es un índice; cada entrada la tienes que verificar tú.
 
-*`offa/android-foss` — ★11.607 · GPL-3.0 · empuje del 26 de octubre.*
+*`offa/android-foss` — ★11.611 · GPL-3.0 · empuje del 26 de octubre.*
 La lista clásica de apps libres para Android, ordenada por categoría y con enlace directo al repositorio. Su valor no son las estrellas: es que cada entrada apunta al código, no a una web de descargas.
 
-*`fmhy/edit` — ★12.666 · sin licencia declarada · empujó ayer.*
+*`fmhy/edit` — ★12.673 · sin licencia declarada · empujó hoy.*
 El repositorio de la lista más grande de internet. Sirve como mapa de descubrimiento y **no** como fuente de confianza: su propio aviso avisa de los nombres falsos y de las copias modificadas. Se usa para saber qué existe; se verifica en otra parte.
 
 *`Psyhackological/AAA` — ★3.141 · CC-BY-4.0 · empuje del 29 de septiembre · última versión de mayo de 2024.*
@@ -496,7 +496,7 @@ Falso y al revés. Play ha distribuido apps con malware más veces de las que su
 Mira la ficha de hoy. Catorce repositorios de tiendas y herramientas, todos con interfaz moderna, todos funcionando, todos con código abierto. La fealdad del software libre es un recuerdo de 2012.
 
 *Mito 3: «Más estrellas = más seguro».*
-`RikkaApps/Shizuku` tiene ★32.554 y lleva 500 días sin empujar. `GrapheneOS/AppStore` tiene ★624 y empujó ayer. La seguridad no se mide en estrellas: se mide en quién firma y qué tan rápido responde.
+`RikkaApps/Shizuku` tiene ★32.573 y lleva 500 días sin empujar. `GrapheneOS/AppStore` tiene ★625 y empujó ayer. La seguridad no se mide en estrellas: se mide en quién firma y qué tan rápido responde.
 
 *Mito 4: «El modo desarrollador y el sideloading son de hackers».*
 Son de cualquiera que quiera instalar algo que no esté en una tienda. El término «hacker» lo puso el marketing. La realidad: es una opción del sistema, con su propio aviso, y usarla con criterio es exactamente lo que esta guía enseña.
@@ -636,26 +636,26 @@ Todo lo de abajo se consultó hoy con la API de GitHub: estrellas, licencia que 
 
 *Las puertas nuevas (nueve meses de diferencia):*
 
-• **samyak2403/RepoStore** — ★1.369 · MIT · creado 13-ene-2026 · release v1.0.22 (29-oct) → explora releases de GitHub e instala
+• **samyak2403/RepoStore** — ★1.371 · MIT · creado 13-ene-2026 · release v1.0.22 (29-oct) → explora releases de GitHub e instala
 • **timschneeb/ShizuStore** — ★501 · GPL-3.0 · creado 17-sep-2026 · release 1.5.0 (5-oct) → la tienda del mundo Shizuku
 • **SysAdminDoc/AppManagerNG** — ★163 · GPL-3.0 · creado 30-abr-2026 · release v0.6.23 (5-sep) → reescritura reciente del gestor
 • **djunekz/termux-app-store** — ★124 · MIT · creado 2-feb-2026 · release v0.9.1 (20-oct) → paquetes de Termux sin internet
-• **pass-with-high-score/universal-installer** — ★1.653 · GPL-3.0 · creado 28-jul-2025 · release v1.20.0 (25-oct)
-• **Jman-Github/Universal-Patch-Manager** — ★1.397 · GPL-3.0 · creado 13-oct-2025 · release v2.0.0 (29-oct)
-• **wxxsfxyzm/InstallerX-Revived** — ★7.258 · GPL-3.0 · creado 6-nov-2024 · release 26.09 (30-sep)
+• **pass-with-high-score/universal-installer** — ★1.661 · GPL-3.0 · creado 28-jul-2025 · release v1.20.0 (25-oct)
+• **Jman-Github/Universal-Patch-Manager** — ★1.398 · GPL-3.0 · creado 13-oct-2025 · release v2.0.0 (29-oct)
+• **wxxsfxyzm/InstallerX-Revived** — ★7.259 · GPL-3.0 · creado 6-nov-2024 · release 26.09 (30-sep)
 • **Paving-Base/APK-Installer** — ★1.712 · GPL-3.0 · creado 21-oct-2021 · release v0.1.28 (11-ago-2025)
 
 *Las que ya eran puerta y siguen de pie:*
 
-• **ImranR98/Obtainium** — ★21.097 · GPL-3.0 · release v1.7.3 (25-oct) → empujó hoy
-• **MuntashirAkon/AppManager** — ★9.393 · **sin licencia declarada en la API** · release v4.1.1 (4-sep)
-• **Droid-ify/client** — ★7.678 · GPL-3.0 · release v0.7.8 (12-sep)
-• **NeoApplications/Neo-Store** — ★5.591 · GPL-3.0 · release 1.3.3 (23-oct)
-• **shmykelsa/AAAD** — ★3.197 · MIT · release v2.8.5 (17-jun)
-• **accrescent/accrescent** — ★2.306 · Apache-2.0 · **release 0.28.1 (10-nov-2025)** y código de ayer
+• **ImranR98/Obtainium** — ★21.105 · GPL-3.0 · release v1.7.3 (25-oct) → empujó hoy
+• **MuntashirAkon/AppManager** — ★9.399 · **sin licencia declarada en la API** · release v4.1.1 (4-sep)
+• **Droid-ify/client** — ★7.677 · GPL-3.0 · release v0.7.8 (12-sep)
+• **NeoApplications/Neo-Store** — ★5.595 · GPL-3.0 · release 1.3.3 (23-oct)
+• **shmykelsa/AAAD** — ★3.198 · MIT · release v2.8.5 (17-jun)
+• **accrescent/accrescent** — ★2.305 · Apache-2.0 · **release 0.28.1 (10-nov-2025)** y código de ayer
 • **solkin/appteka-android** — ★1.367 · GPL-3.0 · release v23.0 (13-ago)
-• **GrapheneOS/AppStore** — ★624 · MIT · release 37 (**31-oct**)
-• **RikkaApps/Shizuku** — ★32.554 · Apache-2.0 · release v13.6.0 (25-may-2025) → el que presta permisos
+• **GrapheneOS/AppStore** — ★625 · MIT · release 37 (**31-oct**)
+• **RikkaApps/Shizuku** — ★32.573 · Apache-2.0 · release v13.6.0 (25-may-2025) → el que presta permisos
 • **JonaNorman/WebViewUpgrade** — ★456 · Apache-2.0 · **sin release** → se compila
 • **solrudev/Ackpine** — ★185 · Apache-2.0 · release 0.25.4 (30-jul) → biblioteca de instaladores
 • **daboynb/developer-verifier-placeholder** — ★183 · GPL-3.0 · release v3000000000000 (16-jul)
@@ -663,9 +663,9 @@ Todo lo de abajo se consultó hoy con la API de GitHub: estrellas, licencia que 
 
 *Las listas curadas (índices, no garantías):*
 
-• **fmhy/edit** — ★12.666 · **sin licencia** · empujó ayer
-• **offa/android-foss** — ★11.607 · GPL-3.0 · empuje 26-oct
-• **timschneeb/awesome-shizuku** — ★10.667 · **sin licencia** · empujó ayer
+• **fmhy/edit** — ★12.673 · **sin licencia** · empujó hoy
+• **offa/android-foss** — ★11.611 · GPL-3.0 · empuje 26-oct
+• **timschneeb/awesome-shizuku** — ★10.670 · **sin licencia** · empujó ayer
 • **Psyhackological/AAA** — ★3.141 · CC-BY-4.0 · release 250 (7-may-2024)
 
 *Los cuatro cebos, medidos como lo que son:*
@@ -821,4 +821,4 @@ https://github.com/AuroraOSS/AuroraStore
 
 ───────────────────
 
-💓 *La Bandita · domingo 1 de noviembre de 2026.* Medí hoy, uno por uno, los 30 repositorios de esta pieza y sus 36 enlaces: 29 vivos, 1 muerto (`droidify/client`, 404), 0 archivados entre los recomendados. El texto es el de la casa; los números, los de hoy. Si mañana cambian, la fecha está aquí para que no te engañen.
+💓 *La Bandita · domingo 1 de noviembre de 2026.* Medí hoy a las 06:15, uno por uno, los 30 repositorios de esta pieza y sus 28 enlaces: 29 vivos, 1 muerto (`droidify/client`, 404) y los 28 enlaces responden 200. Los números son de esa hora; la fecha está aquí para que no te engañen. Si mañana cambian, la fecha está aquí para que no te engañen.

@@ -93,18 +93,18 @@ La noticia fresca es de **KolbyML/Manatan**: release v6.2.21 (2026-10-29). 11 re
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2214 caracteres ═══
+═══ MENSAJE 4 de 5 · 1850 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 35*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.916 (+77) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• zyddnys/manga-image-translator — ★10.559 (+9) · empujó el 11-oct-2026 (hace 21 días) · GPL-3.0 · última release beta-0.3 (23-abr-2022)
-• komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• Aidoku/Aidoku — ★4.682 (+7) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
+• mihonapp/mihon — ★24.922 (+83) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• zyddnys/manga-image-translator — ★10.562 (+12) · empujó el 11-oct-2026 (hace 21 días) · GPL-3.0 · última release beta-0.3 (23-abr-2022)
+• komikku-app/komikku — ★4.964 (+9) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• Aidoku/Aidoku — ★4.681 (+6) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
 • null2264/yokai — ★1.914 (+2) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
-• KolbyML/Manatan — ★620 (+1) · empujó en las últimas horas · MIT · última release v6.2.23 (31-oct-2026)
+• KolbyML/Manatan — ★621 (+2) · empujó en las últimas horas · MIT · última release v6.2.23 (31-oct-2026)
 • HaoweiLi97/mihon_img_upscale — ★244 (+2) · empujó en las últimas horas · Apache-2.0 · última release v1.3.17 (1-nov-2026)
 • yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
 • nardjes5/kumo-surreal — ★115 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
@@ -114,11 +114,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *15 responden*.
-
-• https://github.com/unseensnick/Reikai — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/zyddnys/manga-image-translator — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 18 enlaces de esta pieza, *18 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

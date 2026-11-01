@@ -3,14 +3,14 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/24-Taller-del-muro-Shizuku-root-sistema-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `decdc694133dd9bfb546a58aaa8dc9de02ae44b190c6c0cb25d5ae0210d67ede`
-- **Envío generado:** 2026-11-01 · 7 mensajes · el mayor de 3747 caracteres
+- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3747 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 7 · 911 caracteres ═══
+═══ MENSAJE 1 de 6 · 911 caracteres ═══
 
 *El taller del muro: Shizuku, root y las llaves del sistema*
 
-La Bandita · pieza 24 · guía del 29-oct-2026 · te la mando hoy en 7 mensajes.
+La Bandita · pieza 24 · guía del 29-oct-2026 · te la mando hoy en 6 mensajes.
 
 Antes de mandártela volví a medir lo que afirma: *22 repositorios, 22 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
@@ -22,7 +22,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 7 · 3747 caracteres ═══
+═══ MENSAJE 2 de 6 · 3747 caracteres ═══
 
 [Texto del 29-oct-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
@@ -67,9 +67,9 @@ _jueves 29 de octubre de 2026 · La Bandita_
 - **trinadhthatakula/Thor** — «Thor - Android App Manager and App Installer utility»
   ★633 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release v1.97.1 (2026-10-06) · https://github.com/trinadhthatakula/Thor · Web: https://thor.trinadhthatakula.com
 
-⏬ sigue abajo · parte 1 de 6
+⏬ sigue abajo · parte 1 de 5
 
-═══ MENSAJE 3 de 7 · 3648 caracteres ═══
+═══ MENSAJE 3 de 6 · 3648 caracteres ═══
 
   Temas: android-application · androidappmanager · app-manager · jetpack-compose · kotlin-android · material3-android
 
@@ -105,9 +105,9 @@ _jueves 29 de octubre de 2026 · La Bandita_
   Temas: android · device-policy · dpc · fdroid · isolation · open-source
 
 
-⏬ sigue abajo · parte 2 de 6
+⏬ sigue abajo · parte 2 de 5
 
-═══ MENSAJE 4 de 7 · 2006 caracteres ═══
+═══ MENSAJE 4 de 6 · 2006 caracteres ═══
 
 - **Local1stDotApp/XFiles** — «Offline, open-source Android file manager (X-plore-style, Material 3 Expressive). No network, no telemetry.»
   ★67 · su último empuje fue el 2026-10-01 (hace 30 días) · licencia GPL-3.0 · Kotlin · última release v1.5.0 (2026-10-01) · https://github.com/Local1stDotApp/XFiles
@@ -130,55 +130,44 @@ Hay release de esta semana: **fahrez182/AxManager** publicó v3.0.0 (2026-10-29)
 
 💓 22 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 22 vivos, 0 firmados arriba con su estado.
 
-⏬ sigue abajo · parte 3 de 6
+⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 7 · 3048 caracteres ═══
+═══ MENSAJE 5 de 6 · 3148 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 24*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MM2-0/Kvaesitso — ★5.335 (+9) · empujó en las últimas horas · GPL-3.0 · última release v1.41.0 (15-sep-2026)
+• MM2-0/Kvaesitso — ★5.337 (+11) · empujó en las últimas horas · GPL-3.0 · última release v1.41.0 (15-sep-2026)
 • ukanth/afwall — ★3.515 (+3) · empujó el 17-oct-2026 (hace 15 días) · GPL-3.0 · última release v5.0.0 (12-oct-2026)
-• sameerasw/essentials — ★3.656 (+199) · empujó en las últimas horas · MIT · última release v20.2 (26-oct-2026)
-• DP-Hridayan/aShellYou — ★2.544 (+7) · empujó en las últimas horas · GPL-3.0 · última release v7.4.0 (22-may-2026)
-• LinkSheet/LinkSheet — ★2.161 (+3) · empujó en las últimas horas · NOASSERTION · última release 0.0.33 (30-jul-2023)
-• thejaustin/ShizukuPlus — ★1.651 (+37) · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
-• fahrez182/AxManager — ★1.534 (+6) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release v3.0.0 (29-oct-2026)
-• NarYuki/Dextop — ★1.079 (+23) · empujó en las últimas horas · GPL-3.0 · última release v1.7.0 (14-sep-2026)
+• sameerasw/essentials — ★3.658 (+201) · empujó en las últimas horas · MIT · última release v20.2 (26-oct-2026)
+• DP-Hridayan/aShellYou — ★2.545 (+8) · empujó en las últimas horas · GPL-3.0 · última release v7.4.0 (22-may-2026)
+• LinkSheet/LinkSheet — ★2.162 (+4) · empujó en las últimas horas · NOASSERTION · última release 0.0.33 (30-jul-2023)
+• thejaustin/ShizukuPlus — ★1.652 (+38) · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
+• fahrez182/AxManager — ★1.535 (+7) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release v3.0.0 (29-oct-2026)
+• NarYuki/Dextop — ★1.082 (+26) · empujó en las últimas horas · GPL-3.0 · última release v1.7.0 (14-sep-2026)
 • trinadhthatakula/Thor — ★635 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.97.1 (6-oct-2026)
-• elhizazi1/ShizuCoreFetch — ★519 (+4) · *dormido*: sin empujar desde el 15-sep-2026 (47 días) · GPL-3.0 · última release 2.4.0 (3-sep-2026)
+• elhizazi1/ShizuCoreFetch — ★520 (+5) · *dormido*: sin empujar desde el 15-sep-2026 (47 días) · GPL-3.0 · última release 2.4.0 (3-sep-2026)
 • Resilien-Mobile/RootlessStore — ★329 (+1) · empujó el 26-oct-2026 (hace 6 días) · AGPL-3.0 · última release v2.4.0 (26-oct-2026)
 • niki914/zafiro — ★319 (+7) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v16-1.9.0 (27-oct-2026)
-• ahmed-alnassif/AndroSH — ★273 (sin cambio) · empujó el 8-oct-2026 (hace 24 días) · GPL-3.0 · última release v26.10.08 (8-oct-2026)
-• shynoiddev/FireWall-Blocks — ★234 (+2) · *dormido*: sin empujar desde el 9-jul-2026 (115 días) · NOASSERTION · última release v1.5.shynoid (28-may-2026)
+• ahmed-alnassif/AndroSH — ★274 (+1) · empujó el 8-oct-2026 (hace 24 días) · GPL-3.0 · última release v26.10.08 (8-oct-2026)
+• shynoiddev/FireWall-Blocks — ★235 (+3) · *dormido*: sin empujar desde el 9-jul-2026 (115 días) · NOASSERTION · última release v1.5.shynoid (28-may-2026)
 • dedeadend/KillMyApps — ★128 (sin cambio) · *dormido*: sin empujar desde el 15-sep-2026 (47 días) · GPL-3.0 · última release v1.6 (15-sep-2026)
 • Arora-Sir/DarQ-Reborn — ★127 (+2) · empujó el 19-oct-2026 (hace 13 días) · Apache-2.0 · última release v3.1.10 (29-sep-2026)
 • Stem0794/harbor — ★69 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.2.0-alpha06 (20-ago-2026)
 • Local1stDotApp/XFiles — ★68 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.5.0 (1-oct-2026)
 • bufanchen121101/AxManagerD — ★51 (-1) · empujó en las últimas horas · NOASSERTION · última release v1.4.0 (31-oct-2026)
 • corvexis/Axora — ★18 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release 26.10.21 (21-oct-2026)
-• Xtra-Manager-Software/XArchiver — ★17 (+2) · empujó el 4-oct-2026 (hace 28 días) · MIT · última release release-2.1.3 (4-oct-2026)
+• Xtra-Manager-Software/XArchiver — ★18 (+3) · empujó el 4-oct-2026 (hace 28 días) · MIT · última release release-2.1.3 (4-oct-2026)
 • yyj5201314whj/AxManager-pro — ★4 (sin cambio) · *dormido*: sin empujar desde el 1-sep-2026 (61 días) · sin licencia detectada por la API · última release v2.0.3 (1-sep-2026)
-
-⏬ sigue abajo · parte 4 de 6
-
-═══ MENSAJE 6 de 7 · 992 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 33 enlaces de esta pieza, *26 responden*.
+De los 33 enlaces de esta pieza, *33 responden*.
+Ninguno roto.
 
-• https://github.com/sameerasw/essentials — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/shynoiddev/FireWall-Blocks — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/thejaustin/ShizukuPlus — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/thejaustin/ShizukuPlus/wiki — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/trinadhthatakula/Thor — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/ukanth/afwall — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yyj5201314whj/AxManager-pro — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+⏬ sigue abajo · parte 4 de 5
 
-⏬ sigue abajo · parte 5 de 6
-
-═══ MENSAJE 7 de 7 · 152 caracteres ═══
+═══ MENSAJE 6 de 6 · 152 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.

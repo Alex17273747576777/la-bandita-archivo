@@ -54,22 +54,21 @@ Sin sobresaltos: el empuje más cercano es de **R15Hi/Dsu-Multi-sideloader** (ha
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1072 caracteres ═══
+═══ MENSAJE 3 de 4 · 965 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 14*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • phhusson/treble_experimentations — ★3.553 (-3) · *dormido*: sin empujar desde el 27-ene-2025 (643 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*
-• VegaBobo/DSU-Sideloader — ★2.350 (+6) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
+• VegaBobo/DSU-Sideloader — ★2.351 (+7) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
 • ponces/treble_aosp — ★312 (+1) · *dormido*: sin empujar desde el 25-jul-2025 (464 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
 • R15Hi/Dsu-Multi-sideloader — ★3 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · Apache-2.0 · última release v2.20 (15-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 4 enlaces de esta pieza, *3 responden*.
-
-• https://github.com/ponces/treble_aosp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 4 enlaces de esta pieza, *4 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

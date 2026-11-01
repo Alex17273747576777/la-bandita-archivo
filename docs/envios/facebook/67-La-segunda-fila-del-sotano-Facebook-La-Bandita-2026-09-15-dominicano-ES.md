@@ -88,14 +88,14 @@ La noticia amarga: **jpdoshi/dragon-store** (caído (404)) ya no respondieron. E
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2373 caracteres ═══
+═══ MENSAJE 4 de 5 · 1880 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 67*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• cosmictaserdev-creator/Convx — ★1.100 (+36) · empujó en las últimas horas · GPL-3.0 · última release v1.5.2 (15-ago-2026)
-• recloudstream/cs-repos — ★544 (+1) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API
+• cosmictaserdev-creator/Convx — ★1.104 (+40) · empujó en las últimas horas · GPL-3.0 · última release v1.5.2 (15-ago-2026)
+• recloudstream/cs-repos — ★545 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API
 • RenzoBeux/Dashboarr — ★379 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.22.0 (29-oct-2026)
 • bikram-agarwal/FilePipe — ★315 (+1) · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0 · última release v3.11.3 (26-sep-2026)
 • koofr/vault — ★207 (sin cambio) · *dormido*: sin empujar desde el 13-ago-2026 (80 días) · MIT · última release v0.1.26 (13-ago-2026)
@@ -109,13 +109,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *13 responden*.
+De los 18 enlaces de esta pieza, *17 responden*.
 
 • https://github.com/jpdoshi/dragon-store — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/recloudstream/cs-repos — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/roozbehzarei/filester — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/self-similarity/MegaRepo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tobexyz/yaacc-code — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

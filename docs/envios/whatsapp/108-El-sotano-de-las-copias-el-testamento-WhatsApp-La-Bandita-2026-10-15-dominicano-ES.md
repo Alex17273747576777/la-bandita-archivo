@@ -87,18 +87,18 @@ REV|)404( odíac — pukcab-oen/rehcnual-oen=1|REV|30-21-4202 — diordna-gnihtc
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1321 caracteres ═══
+═══ MENSAJE 4 de 5 · 1312 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 108*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.957 (+84) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• restic/restic — ★36.914 (+32) · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
-• kopia/kopia — ★14.545 (+22) · empujó en las últimas horas · Apache-2.0 · última release v0.23.1 (16-jun-2026)
+• syncthing/syncthing — ★89.964 (+91) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• restic/restic — ★36.921 (+39) · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• kopia/kopia — ★14.547 (+24) · empujó en las últimas horas · Apache-2.0 · última release v0.23.1 (16-jun-2026)
 • syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • NeoApplications/Neo-Backup — ★3.889 (+8) · empujó el 17-oct-2026 (hace 15 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
-• researchxxl/syncthing-android — ★3.216 (+24) · empujó el 22-oct-2026 (hace 10 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.217 (+25) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • neo-launcher/neo-backup — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

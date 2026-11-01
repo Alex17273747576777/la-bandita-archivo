@@ -61,23 +61,22 @@ Hay release de esta semana: **Mailo037/Hamstr** publicó v0.7.4 (2026-10-29). Co
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1026 caracteres ═══
+═══ MENSAJE 3 de 4 · 918 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 126*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • RajnishOne/linklift — ★12 (+1) · empujó en las últimas horas · MIT · última release v2.19 (31-oct-2026)
-• RAMiK4/ytindir — ★16 (+5) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.14.0-build65 (28-oct-2026)
+• RAMiK4/ytindir — ★17 (+6) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.14.0-build65 (28-oct-2026)
 • rcrandon/gimmiedat — ★3 (sin cambio) · empujó el 8-oct-2026 (hace 24 días) · GPL-3.0 · última release v1.0.3 (8-oct-2026)
 • Mailo037/Hamstr — ★1 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v0.7.6 (1-nov-2026)
-• Sleepless-index/RibbT — ★1 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release latest (31-oct-2026)
+• Sleepless-index/RibbT — ★1 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release latest (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 6 enlaces de esta pieza, *5 responden*.
-
-• https://github.com/rcrandon/gimmiedat — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 6 enlaces de esta pieza, *6 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

@@ -94,32 +94,29 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 13 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2053 caracteres ═══
+═══ MENSAJE 4 de 5 · 1706 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 64*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★117.838 (+226) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• yuliskov/SmartTube — ★35.782 (+73) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 32.68s (20-oct-2026)
+• immich-app/immich — ★117.854 (+242) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• yuliskov/SmartTube — ★35.792 (+83) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • xbmc/xbmc — ★21.410 (+11) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• muzei/muzei — ★4.957 (+3) · empujó en las últimas horas · Apache-2.0 · última release api3.4.2 (16-jun-2024)
+• muzei/muzei — ★4.958 (+4) · empujó en las últimas horas · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • anilbeesetti/nextplayer — ★4.652 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (9-oct-2026)
 • videolan/vlc-android — ★4.126 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0
-• NuvioMedia/NuvioTV — ★3.304 (+33) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
-• mahlernim/google-timeline-visualizer — ★3.056 (-1) · empujó el 22-oct-2026 (hace 10 días) · MIT · última release v3.1.0 (5-oct-2026)
-• 10miaomiao/bilimiao2 — ★2.974 (+9) · empujó en las últimas horas · GPL-3.0 · última release 2.5.2.1 (31-oct-2026)
-• moneytoo/Player — ★2.775 (+16) · empujó el 22-oct-2026 (hace 10 días) · Unlicense · última release v0.217 (11-sep-2026)
+• NuvioMedia/NuvioTV — ★3.306 (+35) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• mahlernim/google-timeline-visualizer — ★3.058 (+1) · empujó el 22-oct-2026 (hace 10 días) · MIT · última release v3.1.0 (5-oct-2026)
+• 10miaomiao/bilimiao2 — ★2.976 (+11) · empujó en las últimas horas · GPL-3.0 · última release 2.5.2.1 (31-oct-2026)
+• moneytoo/Player — ★2.776 (+17) · empujó el 22-oct-2026 (hace 10 días) · Unlicense · última release v0.217 (11-sep-2026)
 • dkrivoruchko/ScreenStream — ★2.574 (+5) · empujó en las últimas horas · MIT · última release 4.4.2 (15-jul-2026)
-• markusfisch/BinaryEye — ★2.467 (+7) · empujó en las últimas horas · MIT · última release 1.75.7 (31-oct-2026)
+• markusfisch/BinaryEye — ★2.468 (+8) · empujó en las últimas horas · MIT · última release 1.75.7 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *18 responden*.
-
-• https://github.com/videolan/vlc-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/xbmc/xbmc — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuliskov/SmartTube — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 21 enlaces de esta pieza, *21 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

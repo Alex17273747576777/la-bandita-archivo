@@ -63,7 +63,7 @@ La ficha de hoy (jueves 29 de octubre de 2026) — la placa vieja ya no manda:
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Kototoro-app/Kototoro — ★657 (+4) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• Kototoro-app/Kototoro — ★659 (+6) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `48f8b1c6bd4f8569a5887a7236ecf9c077eb639c1e61596134def8fdb11e1583`
-- **Envío generado:** 2026-11-01 · 13 mensajes · el mayor de 3912 caracteres
+- **Envío generado:** 2026-11-01 · 13 mensajes · el mayor de 3904 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 13 · 929 caracteres ═══
@@ -311,17 +311,17 @@ Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Mand
 
 ⏬ sigue abajo · parte 7 de 12
 
-═══ MENSAJE 9 de 13 · 3912 caracteres ═══
+═══ MENSAJE 9 de 13 · 3904 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 55*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ente/ente — ★29.802 (+60) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
-• T8RIN/ImageToolbox — ★15.280 (+39) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
+• ente/ente — ★29.807 (+65) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
+• T8RIN/ImageToolbox — ★15.284 (+43) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
 • floccusaddon/floccus — ★8.611 (+8) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
-• ReadYouApp/ReadYou — ★7.632 (+8) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
+• ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
 • deckerst/aves — ★5.476 (+8) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
 • burhanrashid52/PhotoEditor — ★4.531 (+1) · empujó el 27-sep-2026 (hace 35 días) · MIT · última release v.3.1.1 (17-sep-2026)
 • pulsejet/memories — ★3.872 (+4) · empujó en las últimas horas · AGPL-3.0 · última release v10.2.0 (23-oct-2026)
@@ -337,14 +337,14 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 • mateusz-bak/openreads — ★1.666 (+2) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-2.0 · última release v2.11.0 (9-sep-2025)
 • Livinglist/Hacki — ★1.638 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.8.2 (11-oct-2026)
 • astubenbord/paperless-mobile — ★1.492 (+1) · *dormido*: sin empujar desde el 1-jun-2026 (153 días) · GPL-3.0 · última release v4.5.0 (16-abr-2026)
-• jocmp/capyreader — ★1.439 (+6) · empujó en las últimas horas · GPL-3.0 · última release 2026.10.1215 (27-oct-2026)
+• jocmp/capyreader — ★1.438 (+5) · empujó en las últimas horas · GPL-3.0 · última release 2026.10.1215 (27-oct-2026)
 • pynicolas/FairScan — ★999 (+2) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.3.0 (20-sep-2026)
 • leonlatsch/Photok — ★998 (+4) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release 3.7.0 (19-oct-2026)
 • IReaderorg/IReader — ★982 (+2) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
 • K3vinb5/unyo-app — ★672 (+3) · empujó en las últimas horas · BSD-3-Clause
 • axiel7/AniHyou-android — ★628 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (26-sep-2026)
 • Radiokot/photoprism-android-client — ★620 (-1) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release 1.47.1(73) (26-sep-2026)
-• Justwen/NGA-CLIENT-VER-OPEN-SOURCE — ★601 (sin cambio) · empujó el 24-oct-2026 (hace 8 días) · GPL-2.0 · última release 5.0.2 (30-ago-2026)
+• Justwen/NGA-CLIENT-VER-OPEN-SOURCE — ★602 (+1) · empujó el 24-oct-2026 (hace 8 días) · GPL-2.0 · última release 5.0.2 (30-ago-2026)
 • opendocument-app/OpenDocument.droid — ★485 (+1) · empujó en las últimas horas · MPL-2.0 · última release v4.24.0 (31-oct-2026)
 • ZWolken/Light-Novel-Yuedu-Source — ★450 (+2) · *dormido*: sin empujar desde el 22-sep-2025 (405 días) · MIT · última release v24-12-13 (13-dic-2024)
 
@@ -352,13 +352,13 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 
 ═══ MENSAJE 10 de 13 · 3627 caracteres ═══
 
-• Chimahon/chimahon — ★239 (+2) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
 • Utazukin/Ichaival — ★220 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (67 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
-• materializr-cad/materializr — ★303 (+101) · empujó en las últimas horas · GPL-3.0 · última release v1.7.7 (1-nov-2026)
+• materializr-cad/materializr — ★305 (+103) · empujó en las últimas horas · GPL-3.0 · última release v1.7.7 (1-nov-2026)
 • ArtifexSoftware/mupdf-android-viewer — ★199 (sin cambio) · empujó el 25-sep-2026 (hace 37 días) · AGPL-3.0
 • magic-cucumber/Pixiv-MultiPlatform — ★196 (sin cambio) · *dormido*: sin empujar desde el 16-sep-2026 (46 días) · GPL-3.0 · última release v1.8.7 (24-jul-2026)
 • nilsbraden/ttrss-reader-fork — ★181 (sin cambio) · *dormido*: sin empujar desde el 7-ago-2026 (86 días) · sin licencia detectada por la API · última release v1.98.1_1981 (30-dic-2025)
-• chmouel/liseur — ★169 (+5) · empujó en las últimas horas · MIT · última release v0.26.0 (28-oct-2026)
+• chmouel/liseur — ★170 (+6) · empujó en las últimas horas · MIT · última release v0.26.0 (28-oct-2026)
 • KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
 • VincentEngel/VES-Image-Compare — ★144 (sin cambio) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · GPL-3.0 · última release fdroid-v2.3.6 (26-may-2026)
 • ArtifexSoftware/mupdf-android-viewer-mini — ★139 (sin cambio) · empujó el 25-sep-2026 (hace 37 días) · AGPL-3.0
@@ -390,24 +390,13 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 10 de 12
 
-═══ MENSAJE 12 de 13 · 1765 caracteres ═══
+═══ MENSAJE 12 de 13 · 396 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 91 enlaces de esta pieza, *78 responden*.
+De los 91 enlaces de esta pieza, *89 responden*.
 
 • https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/plateaukao/einkbro — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/pulsejet/memories — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/pynicolas/FairScan — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/rektpartyaftermath/Legado-booksource-collection — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/samuelclay/NewsBlur — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/spacecowboy/Feeder — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/ulightm111/boky-fivavahana-ion — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/v4lpt/MYC — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/vauvenal5/yaga — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/wikimedia/apps-android-wikipedia — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/zorgluf/souvenirs-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://play.google.com/store/apps/details?id=com.mshdabiola.playnotepad — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 11 de 12

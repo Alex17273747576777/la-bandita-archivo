@@ -41,4 +41,4 @@ LQM infinitamente :3
 
 ───────────────────
 
-💓 *La Bandita · domingo 1 de noviembre de 2026 · Santo Domingo.* Los cuatro enlaces recomendados se midieron hoy y respondieron 200. Las páginas de mods, ROMs y APKs modificados se nombran sin enlace por regla de esta casa: se informan, no se reparten. Lo que no medí está dicho como no medido.
+💓 *La Bandita · domingo 1 de noviembre de 2026 · Santo Domingo.* Los cuatro enlaces recomendados se volvieron a medir a las 06:15 y respondieron 200. Las páginas de mods, ROMs y APKs modificados se nombran sin enlace por regla de esta casa: se informan, no se reparten. Lo que no medí está dicho como no medido.

@@ -81,31 +81,29 @@ Lo primero, lo que se cayó: **hayase-app/ui** (bloqueado legal (451): existe), 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1965 caracteres ═══
+═══ MENSAJE 4 de 5 · 1681 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 47*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Stremio/stremio-web — ★14.948 (+10) · empujó en las últimas horas · GPL-2.0 · última release v5.0.0-beta.43 (20-oct-2026)
-• venera-app/venera — ★11.319 (+18) · *dormido*: sin empujar desde el 5-abr-2026 (210 días) · GPL-3.0 · última release v1.6.3 (8-mar-2026) · *ARCHIVADO*
+• Stremio/stremio-web — ★14.950 (+12) · empujó en las últimas horas · GPL-2.0 · última release v5.0.0-beta.43 (20-oct-2026)
+• venera-app/venera — ★11.325 (+24) · *dormido*: sin empujar desde el 5-abr-2026 (210 días) · GPL-3.0 · última release v1.6.3 (8-mar-2026) · *ARCHIVADO*
 • Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (235 días) · GPL-3.0
 • Shadyteal2/QuickNovel-Enhanced — ★73 (+1) · *dormido*: sin empujar desde el 20-jul-2026 (104 días) · GPL-3.0 · última release v2.2.0 (2-jul-2026)
-• Kiastr/Venera-SSR — ★69 (+3) · *dormido*: sin empujar desde el 2-ago-2026 (91 días) · GPL-3.0 · última release v2.1.5 (1-ago-2026)
+• Kiastr/Venera-SSR — ★70 (+4) · *dormido*: sin empujar desde el 2-ago-2026 (91 días) · GPL-3.0 · última release v2.1.5 (1-ago-2026)
 • tachimanga/Tachidesk-Server — ★45 (+1) · *dormido*: sin empujar desde el 15-jul-2026 (109 días) · MPL-2.0
-• Yuneko-dev/Nekori — ★37 (sin cambio) · empujó el 24-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.1.3 (23-oct-2026)
+• Yuneko-dev/Nekori — ★37 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.1.3 (23-oct-2026)
 • mednasserallah/tankobon — ★4 (sin cambio) · *dormido*: sin empujar desde el 20-jul-2026 (104 días) · Apache-2.0 · última release v0.4.0 (20-jul-2026)
 • hayase-app/ui — sin dato hoy (la API no respondió). No afirmo nada.
 • thaunknown/miru — sin dato hoy (la API no respondió). No afirmo nada.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 13 enlaces de esta pieza, *9 responden*.
+De los 13 enlaces de esta pieza, *11 responden*.
 
 • https://github.com/hayase-app/ui — 451. Error del servidor; no es culpa del enlace.
-• https://github.com/tachimanga/Tachidesk-Server — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/thaunknown/miru — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/venera-app/venera — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/thaunknown/miru — 451. Error del servidor; no es culpa del enlace.
 
 ⏬ sigue abajo · parte 3 de 4
 

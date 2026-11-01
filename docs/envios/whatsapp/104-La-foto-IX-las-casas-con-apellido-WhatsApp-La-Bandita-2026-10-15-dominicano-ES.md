@@ -128,21 +128,21 @@ REV|40-11-5202 — ustatoK/ppAustatoK=1|REV|)92-01-6202( 657ea47+2.2.3v — usto
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2765 caracteres ═══
+═══ MENSAJE 5 de 6 · 2767 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 104*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• home-assistant/core — ★91.880 (+49) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
-• nextcloud/server — ★37.380 (+35) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• openwrt/openwrt — ★28.997 (+22) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
-• mihonapp/mihon — ★24.916 (+76) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• MorpheApp/morphe-manager — ★9.795 (+106) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
-• KotatsuApp/Kotatsu — ★8.944 (+1) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
-• aniyomiorg/aniyomi — ★7.865 (+9) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• Kototoro-app/Kototoro — ★657 (+4) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• home-assistant/core — ★91.885 (+54) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
+• nextcloud/server — ★37.382 (+37) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• openwrt/openwrt — ★28.999 (+24) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
+• mihonapp/mihon — ★24.922 (+82) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• MorpheApp/morphe-manager — ★9.805 (+116) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
+• KotatsuApp/Kotatsu — ★8.946 (+3) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
+• aniyomiorg/aniyomi — ★7.864 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• Kototoro-app/Kototoro — ★659 (+6) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
 • andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
 • UsagiApp/Usagi — ★288 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
@@ -156,7 +156,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 17 repositorios que cita esta pi
 
 De los 28 enlaces de esta pieza, *25 responden*.
 
-• https://git.openwrt.org/openwrt/openwrt.git — 502. Error del servidor; no es culpa del enlace.
+• https://git.openwrt.org/openwrt/openwrt.git — 404. No existe hoy: no lo abras, no lo recomiendo.
 • https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://kotatsu.app — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
 

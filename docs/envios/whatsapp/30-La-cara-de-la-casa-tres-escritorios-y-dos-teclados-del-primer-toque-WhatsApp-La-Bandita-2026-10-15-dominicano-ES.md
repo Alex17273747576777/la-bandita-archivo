@@ -643,10 +643,10 @@ REV|92-01-6202 — riahcnwal/rehcnuaLriahcnwaL=1|REV|0.2-ehcapA=2|REV|718.31★ 
 Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • LawnchairLauncher/lawnchair — ★13.833 (+16) · empujó en las últimas horas · NOASSERTION · última release 1.2.0.1884 (23-jul-2018)
-• florisboard/florisboard — ★8.739 (+6) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
-• fcitx5-android/fcitx5-android — ★5.820 (+10) · empujó el 13-oct-2026 (hace 19 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
-• MM2-0/Kvaesitso — ★5.335 (+7) · empujó en las últimas horas · GPL-3.0 · última release v1.41.0 (15-sep-2026)
-• futo-org/android-keyboard — ★3.417 (+10) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
+• florisboard/florisboard — ★8.740 (+7) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
+• fcitx5-android/fcitx5-android — ★5.822 (+12) · empujó el 13-oct-2026 (hace 19 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
+• MM2-0/Kvaesitso — ★5.337 (+9) · empujó en las últimas horas · GPL-3.0 · última release v1.41.0 (15-sep-2026)
+• futo-org/android-keyboard — ★3.418 (+11) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

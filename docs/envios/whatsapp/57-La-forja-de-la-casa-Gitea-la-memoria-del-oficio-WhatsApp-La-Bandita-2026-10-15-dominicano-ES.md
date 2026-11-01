@@ -60,13 +60,13 @@ REV|)81-01-6202( 0.2.82v — aetig/aetig-og=1|REV|667.85★ — aetig/aetig-og=2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 440 caracteres ═══
+═══ MENSAJE 3 de 4 · 439 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 57*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• go-gitea/gitea — ★58.806 (+40) · empujó en las últimas horas · MIT · última release v28.2.0 (18-oct-2026)
+• go-gitea/gitea — ★58.806 (+40) · empujó en las últimas horas · MIT · última release v28.3.0 (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

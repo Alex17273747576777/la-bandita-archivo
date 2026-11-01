@@ -103,7 +103,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 • Hamza417/Peristyle — ★744 (+4) · empujó el 23-oct-2026 (hace 9 días) · Apache-2.0 · última release v9.8.4 (23-oct-2026)
 • adil192/no_more_background — ★386 (+2) · empujó el 1-oct-2026 (hace 31 días) · GPL-3.0 · última release v2.8.2 (1-ago-2026)
 • Akylas/EnforceDoze — ★366 (sin cambio) · *dormido*: sin empujar desde el 26-jul-2026 (98 días) · GPL-3.0 · última release v1.10.2/86 (18-abr-2026)
-• agupta07505/SmartIsland — ★375 (+27) · empujó el 19-oct-2026 (hace 13 días) · GPL-3.0 · última release v7.6.0 (19-oct-2026)
+• agupta07505/SmartIsland — ★378 (+30) · empujó el 19-oct-2026 (hace 13 días) · GPL-3.0 · última release v7.6.0 (19-oct-2026)
 • daisukiKaffuChino/RebootNya — ★290 (+2) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · Apache-2.0 · última release 1.9.0 (20-ago-2026)
 • mlm-games/BatStats — ★234 (+1) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release 6.2.6 (14-sep-2026)
 • C10udburst/Grayscaler — ★168 (sin cambio) · *dormido*: sin empujar desde el 18-feb-2025 (621 días) · GPL-3.0 · última release 1.0 (18-feb-2025)

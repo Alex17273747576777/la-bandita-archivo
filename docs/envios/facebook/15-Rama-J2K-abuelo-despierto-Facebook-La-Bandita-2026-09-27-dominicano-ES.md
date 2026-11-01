@@ -87,13 +87,13 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 6 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2315 caracteres ═══
+═══ MENSAJE 4 de 5 · 1834 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Jays2Kings/tachiyomiJ2K — ★5.398 (-1) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.8.1 (15-ago-2026)
+• Jays2Kings/tachiyomiJ2K — ★5.399 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
 • null2264/yokai — ★1.914 (+2) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
 • Saud-97/TachiyomiS97 — ★125 (sin cambio) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · Apache-2.0 · última release v1.7.5 (17-jul-2026)
 • rokku-app/rokku — ★64 (+1) · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (30-oct-2026)
@@ -108,12 +108,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 15 enlaces de esta pieza, *11 responden*.
-
-• https://github.com/rokku-app/rokku — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/rokku-app/rokku/releases — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/theordinaryguy23/TachiyomiDNP — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/unseensnick/Reikai — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 15 enlaces de esta pieza, *15 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -46,19 +46,18 @@ Sin sobresaltos: el empuje más cercano es de **scummvm/scummvm** (hace 2 días)
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 549 caracteres ═══
+═══ MENSAJE 3 de 4 · 445 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 80*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• scummvm/scummvm — ★2.873 (+3) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
+• scummvm/scummvm — ★2.875 (+5) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 2 enlaces de esta pieza, *1 responden*.
-
-• https://github.com/scummvm/scummvm — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 2 enlaces de esta pieza, *2 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

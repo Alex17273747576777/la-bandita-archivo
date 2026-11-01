@@ -66,7 +66,7 @@ REV|134.2★ — cca/52-RV=1|REV|60-60-5202 — cca/52-RV=2|REV|60-60-5202 — c
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• VR-25/acc — ★2.432 (+1) · *dormido*: sin empujar desde el 6-jun-2025 (513 días) · GPL-3.0 · última release v2023.10.16 (16-oct-2023)
+• VR-25/acc — ★2.433 (+2) · *dormido*: sin empujar desde el 6-jun-2025 (513 días) · GPL-3.0 · última release v2023.10.16 (16-oct-2023)
 • Magisk-Modules-Repo/acc — ★361 · *dormido*: sin empujar desde el 16-oct-2023 (1112 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

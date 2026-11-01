@@ -66,7 +66,7 @@ REV|861.5★ — SDnolem/ume-SDnolem=1|REV|)81-11-5202( 1.1 — SDnolem/ume-SDno
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• melonDS-emu/melonDS — ★5.175 (+7) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release 1.1 (18-nov-2025)
+• melonDS-emu/melonDS — ★5.176 (+8) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release 1.1 (18-nov-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
