@@ -145,7 +145,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pi
 • LinkSheet/LinkSheet — ★2.162 (+4) · empujó en las últimas horas · NOASSERTION · última release 0.0.33 (30-jul-2023)
 • thejaustin/ShizukuPlus — ★1.652 (+38) · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
 • fahrez182/AxManager — ★1.535 (+7) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release v3.0.0 (29-oct-2026)
-• NarYuki/Dextop — ★1.082 (+26) · empujó en las últimas horas · GPL-3.0 · última release v1.7.0 (14-sep-2026)
+• NarYuki/Dextop — ★1.083 (+27) · empujó en las últimas horas · GPL-3.0 · última release v1.7.0 (14-sep-2026)
 • trinadhthatakula/Thor — ★635 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.97.1 (6-oct-2026)
 • elhizazi1/ShizuCoreFetch — ★520 (+5) · *dormido*: sin empujar desde el 15-sep-2026 (47 días) · GPL-3.0 · última release 2.4.0 (3-sep-2026)
 • Resilien-Mobile/RootlessStore — ★329 (+1) · empujó el 26-oct-2026 (hace 6 días) · AGPL-3.0 · última release v2.4.0 (26-oct-2026)

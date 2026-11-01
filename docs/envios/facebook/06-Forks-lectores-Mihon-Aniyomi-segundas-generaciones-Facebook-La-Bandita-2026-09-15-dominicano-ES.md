@@ -87,7 +87,7 @@ Hay release de esta semana: **syncyomi/syncyomi** publicó v1.7.4 (2026-10-29). 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1775 caracteres ═══
+═══ MENSAJE 4 de 5 · 1767 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
@@ -101,7 +101,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pi
 • komikku-app/anikku — ★1.126 (+3) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
 • syncyomi/syncyomi — ★741 (+4) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
 • aniyomiorg/aniyomi-preview — ★644 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release r8135 (14-sep-2026)
-• Animetailapp/Animetail — ★613 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
+• Animetailapp/Animetail — ★614 (+1) · empujó en las últimas horas · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
 • jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)
 • andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
 

@@ -6,7 +6,7 @@
 
 *La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español*
 
-⏱️ *Lectura total: 56 min · 30 repositorios medidos hoy, uno por uno*
+⏱️ *Lectura total: 56 min · 31 repositorios medidos hoy, uno por uno*
 
 > *Semilla de esta pieza:* una tienda de aplicaciones es un *puesto de mercado*. No importa si es grande o chiquito: importa si el que vende está parado detrás del mostrador. F-Droid está parado ahí, con el delantal puesto y el nombre en el letrero. Los sitios de mods también tienen letrero, pero adentro no hay nadie: hay una caja registradora que cobra en datos tuyos.
 
@@ -130,7 +130,7 @@ Eso tiene un precio que hay que decir en voz alta: **F-Droid publica las cosas m
 
 *Lo que F-Droid no es:* no es una tienda de conveniencia. No tiene el catálogo de Google Play, no tiene las apps de bancos, no tiene las apps que dependen de los servicios de Google. Lo que tiene, lo tiene limpio. Esa es la transacción: menos cosas, más claridad.
 
-*Dato para entender su escala real:* en la ficha de hoy medí 30 repositorios de esta pieza y F-Droid no aparece como repositorio de GitHub porque no vive ahí: su código está en GitLab y su catálogo se publica como un índice firmado que cualquier cliente puede leer. Por eso el ecosistema de clientes —Droid-ify, Neo-Store— existe: el índice es abierto y cualquiera puede dibujarlo mejor.
+*Dato para entender su escala real:* en la ficha de hoy medí 31 repositorios de esta pieza y F-Droid no aparece como repositorio de GitHub porque no vive ahí: su código está en GitLab y su catálogo se publica como un índice firmado que cualquier cliente puede leer. Por eso el ecosistema de clientes —Droid-ify, Neo-Store— existe: el índice es abierto y cualquiera puede dibujarlo mejor.
 
 ───────────────────
 
@@ -155,17 +155,17 @@ Lo que tienes que entender es qué cambia y qué no:
 
 Droid-ify es un cliente de F-Droid: no es una tienda nueva, es otra cara para la misma fuente. Lo que aporta es velocidad, búsqueda decente y una interfaz que no parece de 2014.
 
-Medido hoy: *★7.678 · GPL-3.0 · Kotlin · último empuje el 12 de septiembre de 2026 (hace 49 días) · última release v0.7.8 del 12 de septiembre.* Es decir: está *dormido*, no muerto. La diferencia importa y es una de las cosas que esta guía te quiere enseñar a leer.
+Medido hoy: *★7.677 · GPL-3.0 · Kotlin · último empuje el 12 de septiembre de 2026 (hace 50 días) · última release v0.7.8 del 12 de septiembre.* Es decir: está *dormido*, no muerto. La diferencia importa y es una de las cosas que esta guía te quiere enseñar a leer.
 
 *El detalle que casi nadie nota:* su repositorio de GitHub es un *espejo*. La descripción lo dice con todas sus letras: «Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client». La casa madre está en Codeberg. Esto no es un tecnicismo: significa que si un día el espejo de GitHub desaparece —y pasa— la app no desaparece con él. Y significa que las *issues* de verdad se discuten allá, no acá.
 
-*Por qué esto es la lección:* cuando midas un proyecto, mira si el repositorio que tienes delante es la casa o el escaparate. Un escaparate cerrado no mata al proyecto, pero confunde a quien lo mide desde afuera. En la ficha de hoy hay un caso hermano que sí está muerto de verdad: `droidify/client` en GitHub responde **404**. El nombre se parece tanto que confunde; por eso lo nombro: *`Droid-ify/client` sigue vivo; `droidify/client` no existe.* Copiar el enlace equivocado es el error más común y el más tonto.
+*Por qué esto es la lección:* mira si el repositorio que tienes delante es la casa o el escaparate. En la ficha hay un caso hermano, este sí muerto: `droidify/client` responde **404**. *`Droid-ify/client` vive; `droidify/client` no existe.* Copiar el enlace equivocado es el error más común y el más tonto.
 
 ───────────────────
 
 *🏪 Neo-Store — el cliente con brújula de rastreadores*
 
-Neo-Store es el otro cliente moderno de F-Droid, del mismo equipo que hace Neo-Launcher. Medido hoy: *★5.589 · GPL-3.0 · Kotlin · último empuje el 23 de octubre de 2026 · última release 1.3.3 del mismo día.* Vivo y con actividad reciente.
+Neo-Store es el otro cliente moderno de F-Droid, del mismo equipo que hace Neo-Launcher. Medido hoy: *★5.595 · GPL-3.0 · Kotlin · último empuje el 23 de octubre de 2026 · última release 1.3.3 del mismo día.* Vivo y con actividad reciente.
 
 Su aporte concreto es una cosa que a mí me parece la función más subestimada del ecosistema: *te dice qué rastreadores trae cada app*. No en abstracto, no con una lista de siglas: con nombres —Exodus, Google Analytics, Facebook— y con la fuente de dónde lo sacó. Para eso se apoya en el trabajo de Exodus Privacy, que analiza APKs y publica qué bibliotecas de seguimiento llevan dentro.
 
@@ -223,7 +223,7 @@ GrapheneOS es un sistema operativo para teléfonos Pixel que se toma la segurida
 
 Obtainium no vende nada. No tiene catálogo. No tiene servidor. Lo que hace es una sola cosa, y la hace mejor que cualquier tienda: *le sigue el rastro a una app donde su propio desarrollador la publica* —GitHub, GitLab, Codeberg, Forgejo, un índice de F-Droid, una página web— y te avisa cuando sale versión nueva.
 
-Medido hoy: *★21.097 · GPL-3.0 · Dart · empujó hoy (la API lo fecha el 1 de noviembre, que ya es la fecha de la casa) · última release v1.7.3 del 25 de octubre.*
+Medido hoy: *★21.105 · GPL-3.0 · Dart · empujó hoy, 1 de noviembre · última release v1.7.4 **de hoy mismo**.*
 
 *Por qué esto es mejor que una tienda para ciertas cosas:* porque elimina al intermediario. No hay nadie que compile, nadie que firme, nadie que decida si tu app merece estar en el catálogo. Hay el archivo del desarrollador y tu teléfono. Si el desarrollador publica basura, tú recibes basura: la responsabilidad es tuya y de nadie más.
 
@@ -248,25 +248,25 @@ Medido hoy: *★21.097 · GPL-3.0 · Dart · empujó hoy (la API lo fecha el 1 d
 
 La lista que te mandé hace cuatro meses tenía veinte puertas y hoy la mitad de esas puertas ya no dan a ninguna parte. No porque se hayan roto: porque el oficio se mudó de casa. Esto es lo que hay ahora, medido hoy, con la fecha de nacimiento de cada proyecto al lado —que es el dato que casi nadie pone y el que explica todo.
 
-*⬆️ RepoStore — ★1.369 · MIT · Kotlin · creado el 13 de enero de 2026 · release v1.0.22 del **29 de octubre***
+*⬆️ RepoStore — ★1.371 · MIT · Kotlin · creado el 13 de enero de 2026 · release v1.0.22 del **29 de octubre***
 Explora lo que se publica en GitHub y lo instala sin salir de la app: le das la dirección de un repositorio y te muestra sus releases, sus APKs y sus checksums. Es la idea de Obtainium con otro envoltorio y otra gente. *Mi opinión:* es la puerta nueva más limpia que he medido, y la única con licencia MIT y versión de hace tres días. Para el que quiere ver el código antes de instalar, esto es lo que hay.
 
 *⬆️ ShizuStore — ★501 · GPL-3.0 · Kotlin · creado el **17 de septiembre de 2026** · release 1.5.0 del 5 de octubre*
 La tienda de las apps que necesitan Shizuku para hacer su trabajo. Seis semanas de vida y ya tiene release, licencia y empuje de hoy. Nació, literalmente, después de que se escribiera la lista vieja. Si tu teléfono no tiene Shizuku instalado, esta app no te sirve para nada; si lo tiene, es el catálogo que te faltaba.
 
-*🛠️ AppManager — ★9.393 · licencia en el limbo (el repositorio no la declara en la API, el texto sí) · Java · desde 2020 · release v4.1.1 del 4 de septiembre*
+*🛠️ AppManager — ★9.399 · licencia en el limbo (el repositorio no la declara en la API, el texto sí) · Java · desde 2020 · release v4.1.1 del 4 de septiembre*
 El gestor de paquetes completo de Android: ver qué pide cada app, congelarla, hacerle copia, quitarle permisos, mirar sus receptores. No instala apps: gobierna las que ya tienes. *Para qué te sirve:* para saber qué compró tu teléfono sin preguntarte y para congelar lo que no puedes desinstalar.
 
 *🛠️ AppManagerNG — ★163 · GPL-3.0 · Java · creado el 30 de abril de 2026 · release v0.6.23 del 5 de septiembre*
 El mismo oficio, código nuevo, equipo nuevo. Chiquito y honesto: dice lo que hace (inspeccionar, descongelar, hacer copia, controlar) y no promete magia. Está en su versión 0.6, así que se rompe cosas. Es el ejemplo perfecto de por qué conviene mirar dos: cuando un proyecto grande se pone pesado, aparece alguien que lo rehace más liviano.
 
-*📦 universal-installer — ★1.653 · GPL-3.0 · Kotlin · creado el 28 de julio de 2025 · release v1.20.0 del 25 de octubre*
+*📦 universal-installer — ★1.661 · GPL-3.0 · Kotlin · creado el 28 de julio de 2025 · release v1.21.0 de hoy, 1 de noviembre*
 Instalador moderno para paquetes partidos —los APK divididos por arquitectura y por idioma que las tiendas reparten en varios archivos—. Si alguna vez bajaste una app y te dijo «falta el paquete base», esta es la herramienta que lo resuelve. Empujó ayer.
 
-*📦 InstallerX-Revived — ★7.257 · GPL-3.0 · Kotlin · creado el 6 de noviembre de 2024 · release 26.09 del 30 de septiembre*
+*📦 InstallerX-Revived — ★7.259 · GPL-3.0 · Kotlin · creado el 6 de noviembre de 2024 · release 26.09 del 30 de septiembre*
 El instalador que toma el control del diálogo del sistema y te deja elegir usuario, perfil e idioma antes de instalar. Es el que usan los que instalan lo mismo en el perfil de trabajo y en el personal. Empujó hoy.
 
-*📦 Universal-Patch-Manager — ★1.397 · GPL-3.0 · Kotlin · creado el 13 de octubre de 2025 · release v2.0.0 del 29 de octubre*
+*📦 Universal-Patch-Manager — ★1.398 · GPL-3.0 · Kotlin · creado el 13 de octubre de 2025 · release v2.0.0 del 29 de octubre*
 Gestiona parches de terceros: ReVanced, Morphe, Reseam. *Aviso de la casa:* esta guía no receta parches ni mods; te digo qué existe y que tú decidas. Lo que sí es un dato: dos mil estrellas en un año y una versión mayor hace dos días.
 
 *📦 Ackpine — ★185 · Apache-2.0 · Kotlin · desde 2023 · release 0.25.4 del 30 de julio*
@@ -274,6 +274,9 @@ No es una app: es una biblioteca para que otros programen instaladores. Te la no
 
 *📦 APK-Installer (Windows) — ★1.712 · GPL-3.0 · C# · desde 2021 · release v0.1.28 de agosto de 2025*
 Instala APKs en el teléfono desde la computadora, con doble clic. Su última versión tiene más de un año y su código se movió este mes: es el caso inverso al de siempre —release vieja, código vivo—. Sirve, y sirve sobre todo cuando el teléfono se queda sin espacio para el instalador.
+
+*📦 VInstall — ★105 · GPL-3.0 · Kotlin · creado el 3 de abril de 2026 · release v0.4.5 del 30 de octubre*
+Instala APK, XAPK, APKS, APKM y el formato cifrado APKV, con Shizuku y sin root. Siete meses de vida y ya cubre el paquete que ninguna tienda oficial te entrega hecho: el APKV es el formato cifrado de las tiendas chinas, y sin una herramienta que lo abra no hay nada que hacer. Lo medí hoy por primera vez.
 
 *🧰 termux-app-store — ★124 · MIT · Python · creado el 2 de febrero de 2026 · release v0.9.1 del 20 de octubre*
 Gestor de paquetes para Termux que funciona sin internet: catálogo local, compilación y arreglo de dependencias. Es de nicho y lo digo: si no usas Termux, no te interesa. Si lo usas, esto te ahorra media tarde cada vez que se rompe un repositorio.
@@ -284,10 +287,10 @@ Actualiza el motor WebView sin pasar por el instalador del sistema. Suena a truc
 *🔏 developer-verifier-placeholder — ★183 · GPL-3.0 · creado y publicado el 16 de julio de 2026*
 Un APK vacío que ocupa el lugar del verificador de desarrollador de Android para que el sistema no bloquee instalaciones. *Lo cuento con cuidado:* instalarlo no hace nada por sí solo y no lo recomiendo como primera opción; te lo nombro porque es la respuesta que está circulando y porque, si alguien te lo ofrece en un grupo sin explicarte esto, ya sabes qué es.
 
-*🎮 AAAD — ★3.197 · MIT · Java · desde 2021 · release v2.8.5 del 17 de junio*
+*🎮 AAAD — ★3.198 · MIT · Java · desde 2021 · release v2.8.5 del 17 de junio*
 Descarga apps hechas para Android Auto que no aparecen en la tienda del auto. Nicho puro. Empujó en septiembre, o sea que sigue.
 
-*Lo que estos trece dicen juntos, y es la lección de la pieza:* ninguno de ellos estaba en la lista de hace cuatro meses. Nueve no existían o no tenían una sola release. *El catálogo no envejece por falta de mantenimiento: envejece porque el trabajo se muda.* Y quien lee una lista de hace cuatro meses sin mirar fechas, está leyendo un mapa de una ciudad que ya cambió de sitio.
+*Lo que estos catorce dicen juntos, y es la lección de la pieza:* ninguno estaba en la lista de hace cuatro meses y nueve no existían o no tenían una release. *El catálogo no envejece por falta de mantenimiento: envejece porque el trabajo se muda.*
 
 ───────────────────
 
@@ -332,7 +335,7 @@ Esto reemplaza la caja de herramientas de la lista vieja. Ya no es una caja: son
 
 *El error clásico:* pedirle al escalón uno que resuelva un problema del tres. «La app no me instala» casi nunca es culpa de la tienda; es un paquete partido o una firma distinta. Y «la app me espía» no se arregla cambiando de tienda: se arregla en el escalón cuatro.
 
-*Lo que comprobar antes de bajar un instalador alternativo:* que tenga release con archivo, que declare licencia, que su código se haya movido este mes y que su autor tenga más de un repositorio. Con eso descartas el cebo y te quedas con las herramientas que de verdad hacen el trabajo —en mi medición de hoy, `wxxsfxyzm/InstallerX-Revived` ★7.259, `pass-with-high-score/universal-installer` ★1.661 y `Paving-Base/APK-Installer` ★1.712, todos con release reciente salvo el último, que es de agosto de 2025 y aun así sigue sirviendo.
+*Lo que comprobar antes de bajar un instalador alternativo:* release con archivo, licencia declarada, código movido este mes y un autor con más de un repositorio. Con eso descartas el cebo. Hoy pasan la prueba `wxxsfxyzm/InstallerX-Revived` ★7.259, `pass-with-high-score/universal-installer` ★1.661, `Paving-Base/APK-Installer` ★1.712 y `vinstall/VInstall` ★105.
 
 ───────────────────
 
@@ -375,7 +378,7 @@ Desde el 30 de septiembre de 2026, Google exige verificación de desarrollador p
 
 Una lista de apps no es un plano: es una fotografía. Y esta guía la escribí hoy, así que te sirve hoy; si la abres en marzo, la mitad de los números estarán viejos. Lo que no envejece es el método, y por eso lo dejo escrito aquí antes que cualquier recomendación.
 
-*Regla uno: busca la fecha de nacimiento del proyecto, no las estrellas.* En mi medición de hoy hay proyectos con ★7.257 que nacieron en noviembre de 2024 y proyectos con ★115 que nacieron el 28 de junio de 2026 y no tienen una línea de código. Las estrellas se compran con un README bonito; la fecha de creación no se puede comprar hacia atrás.
+*Regla uno: busca la fecha de nacimiento del proyecto, no las estrellas.* En mi medición de hoy hay proyectos con ★7.259 que nacieron en noviembre de 2024 y proyectos con ★115 que nacieron el 28 de junio de 2026 y no tienen una línea de código. Las estrellas se compran con un README bonito; la fecha de creación no se puede comprar hacia atrás.
 
 *Regla dos: separa «vivo» de «actualizado».* `accrescent/accrescent` empujó ayer y su última release es del 10 de noviembre de 2025. `GrapheneOS/AppStore` publicó la suya el 31 de octubre. Los dos están vivos; uno está afinando y el otro está publicando. Si solo mirases releases, declararías muerto a Accrescent y te perderías un proyecto que trabaja todas las semanas.
 
@@ -383,7 +386,7 @@ Una lista de apps no es un plano: es una fotografía. Y esta guía la escribí h
 
 *Regla cuatro: una app sin release no es una app, es una promesa.* Si el repositorio no tiene una versión con archivo descargable, lo que hay es código para programadores. Puede ser buenísimo —`JonaNorman/WebViewUpgrade` es exactamente eso— pero no es «la descargo y ya», y quien te lo presente así no lo ha instalado.
 
-*Regla cinco: lo que no está medido se dice.* En esta pieza hay **cuarenta y tantos** repositorios con número, fecha y licencia; y hay cosas que **no** medí y por eso no afirmo: cuánta gente usa cada app, si el servidor de tal proyecto está saturado, si tal release funciona en tu teléfono concreto. Un dato que falta, dicho, vale más que un dato inventado.
+*Regla cinco: lo que no está medido se dice.* Los **31** repositorios de la ficha llevan número, fecha y licencia. Lo que no medí, no lo afirmo: cuánta gente usa cada app, si tal release funciona en tu teléfono. Un dato que falta, dicho, vale más que uno inventado.
 
 *Lo práctico, en una frase:* cuando alguien te mande una lista, pregúntale cuándo la midió. Si no lo sabe, no es una lista: es un rumor con viñetas.
 
@@ -496,7 +499,7 @@ Falso y al revés. Play ha distribuido apps con malware más veces de las que su
 Mira la ficha de hoy. Catorce repositorios de tiendas y herramientas, todos con interfaz moderna, todos funcionando, todos con código abierto. La fealdad del software libre es un recuerdo de 2012.
 
 *Mito 3: «Más estrellas = más seguro».*
-`RikkaApps/Shizuku` tiene ★32.573 y lleva 500 días sin empujar. `GrapheneOS/AppStore` tiene ★625 y empujó ayer. La seguridad no se mide en estrellas: se mide en quién firma y qué tan rápido responde.
+`RikkaApps/Shizuku` tiene ★32.573 y lleva 501 días sin empujar. `GrapheneOS/AppStore` tiene ★625 y empujó ayer. La seguridad no se mide en estrellas: se mide en quién firma y qué tan rápido responde.
 
 *Mito 4: «El modo desarrollador y el sideloading son de hackers».*
 Son de cualquiera que quiera instalar algo que no esté en una tienda. El término «hacker» lo puso el marketing. La realidad: es una opción del sistema, con su propio aviso, y usarla con criterio es exactamente lo que esta guía enseña.
@@ -630,7 +633,7 @@ La columna de la izquierda te da verificación; la del medio, frescura; la de la
 
 ───────────────────
 
-*📋 LA FICHA DE HOY — 30 repositorios medidos uno por uno*
+*📋 LA FICHA DE HOY — 31 repositorios medidos uno por uno*
 
 Todo lo de abajo se consultó hoy con la API de GitHub: estrellas, licencia que el repositorio declara, último empuje y última release con su fecha. Lo que no tiene número es porque no es un repositorio de GitHub (F-Droid e IzzyOnDroid viven en otra parte) y lo digo en vez de inventarlo.
 
@@ -640,14 +643,15 @@ Todo lo de abajo se consultó hoy con la API de GitHub: estrellas, licencia que 
 • **timschneeb/ShizuStore** — ★501 · GPL-3.0 · creado 17-sep-2026 · release 1.5.0 (5-oct) → la tienda del mundo Shizuku
 • **SysAdminDoc/AppManagerNG** — ★163 · GPL-3.0 · creado 30-abr-2026 · release v0.6.23 (5-sep) → reescritura reciente del gestor
 • **djunekz/termux-app-store** — ★124 · MIT · creado 2-feb-2026 · release v0.9.1 (20-oct) → paquetes de Termux sin internet
-• **pass-with-high-score/universal-installer** — ★1.661 · GPL-3.0 · creado 28-jul-2025 · release v1.20.0 (25-oct)
+• **pass-with-high-score/universal-installer** — ★1.661 · GPL-3.0 · creado 28-jul-2025 · release v1.21.0 (1-nov)
 • **Jman-Github/Universal-Patch-Manager** — ★1.398 · GPL-3.0 · creado 13-oct-2025 · release v2.0.0 (29-oct)
 • **wxxsfxyzm/InstallerX-Revived** — ★7.259 · GPL-3.0 · creado 6-nov-2024 · release 26.09 (30-sep)
 • **Paving-Base/APK-Installer** — ★1.712 · GPL-3.0 · creado 21-oct-2021 · release v0.1.28 (11-ago-2025)
+• **vinstall/VInstall** — ★105 · GPL-3.0 · creado 3-abr-2026 · release v0.4.5 (30-oct) → APKV cifrado incluido
 
 *Las que ya eran puerta y siguen de pie:*
 
-• **ImranR98/Obtainium** — ★21.105 · GPL-3.0 · release v1.7.3 (25-oct) → empujó hoy
+• **ImranR98/Obtainium** — ★21.105 · GPL-3.0 · release v1.7.4 (1-nov) → empujó y publicó hoy
 • **MuntashirAkon/AppManager** — ★9.399 · **sin licencia declarada en la API** · release v4.1.1 (4-sep)
 • **Droid-ify/client** — ★7.677 · GPL-3.0 · release v0.7.8 (12-sep)
 • **NeoApplications/Neo-Store** — ★5.595 · GPL-3.0 · release 1.3.3 (23-oct)
@@ -679,7 +683,7 @@ Todo lo de abajo se consultó hoy con la API de GitHub: estrellas, licencia que 
 
 • **droidify/client** — **404**. El espejo que medio internet sigue enlazando no existe. El vivo es `Droid-ify/client` con guion.
 
-*Dos que enseñan a mirar dos veces:* Accrescent, con release de hace casi un año y código de ayer; y GrapheneOS AppStore, con release del 31 de octubre y ★624 — menos estrellas que un cebo y mil veces más proyecto.
+*Dos que enseñan a mirar dos veces:* Accrescent, con release de hace casi un año y código de ayer; y GrapheneOS AppStore, con release del 31 de octubre y ★625 — menos estrellas que un cebo y mil veces más proyecto.
 
 ───────────────────
 
@@ -750,7 +754,7 @@ Esta guía se lee distinto según la máquina que tengas en la mano, y eso no se
 
 4. .5202 ed erbmeivon ed 01 led 1.82.0 esaeler ,reya odivom ogidóc :tnecserccA
 
-5. .adiconocer on omoc elas opmac le :IPA al ne adaralced aicnecil anugnin y sallertse 393.9
+5. .adiconocer on omoc elas opmac le :IPA al ne adaralced aicnecil anugnin y sallertse 993.9
 
 ───────────────────
 
@@ -791,6 +795,7 @@ https://github.com/djunekz/termux-app-store
 *Instaladores y gestores:*
 https://github.com/wxxsfxyzm/InstallerX-Revived
 https://github.com/pass-with-high-score/universal-installer
+https://github.com/vinstall/VInstall
 https://github.com/Paving-Base/APK-Installer
 https://github.com/Jman-Github/Universal-Patch-Manager
 https://github.com/solrudev/Ackpine
@@ -821,4 +826,4 @@ https://github.com/AuroraOSS/AuroraStore
 
 ───────────────────
 
-💓 *La Bandita · domingo 1 de noviembre de 2026.* Medí hoy a las 06:15, uno por uno, los 30 repositorios de esta pieza y sus 28 enlaces: 29 vivos, 1 muerto (`droidify/client`, 404) y los 28 enlaces responden 200. Los números son de esa hora; la fecha está aquí para que no te engañen. Si mañana cambian, la fecha está aquí para que no te engañen.
+💓 *La Bandita · domingo 1 de noviembre de 2026.* Medí hoy a las 06:15, uno por uno, los 31 repositorios de esta pieza y sus 29 enlaces: 30 vivos, 1 muerto (`droidify/client`, 404), y los 29 enlaces responden 200. Los números son de esa hora; la fecha está aquí para que no te engañen. Si mañana cambian, la fecha está aquí para que no te engañen.

@@ -57,7 +57,7 @@ Pulso tranquilo: lo último que se movió fue **immich-app/immich**, hace 2 día
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • immich-app/immich — ★117.854 (+242) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

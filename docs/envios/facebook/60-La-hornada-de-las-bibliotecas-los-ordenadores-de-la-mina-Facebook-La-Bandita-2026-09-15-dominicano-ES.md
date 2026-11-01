@@ -100,7 +100,7 @@ Hay release de esta semana: **materializr-cad/materializr** publicó v1.7.5 (202
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • pynicolas/FairScan — ★999 (+2) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.3.0 (20-sep-2026)
 • leonlatsch/Photok — ★998 (+4) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release 3.7.0 (19-oct-2026)
 • Radiokot/photoprism-android-client — ★620 (-1) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release 1.47.1(73) (26-sep-2026)

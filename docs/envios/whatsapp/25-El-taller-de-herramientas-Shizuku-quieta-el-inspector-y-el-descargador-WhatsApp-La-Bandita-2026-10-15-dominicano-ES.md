@@ -660,7 +660,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pie
 • MuntashirAkon/AppManager — ★9.399 (+29) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
 • florisboard/florisboard — ★8.740 (+7) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
 • TeamAmaze/AmazeFileManager — ★6.449 (+1) · empujó en las últimas horas · GPL-3.0 · última release v3.11.4 (15-oct-2026)
-• gsantner/markor — ★6.362 (+13) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v2026.10.0 (25-oct-2026)
+• gsantner/markor — ★6.363 (+14) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v2026.10.0 (25-oct-2026)
 • zfdang/Android-Touch-Helper — ★5.338 (+2) · empujó el 19-oct-2026 (hace 13 días) · MIT · última release tag-278 (10-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

@@ -64,7 +64,7 @@ REV|92-01-6202 — mvmmucs/mvmmucs=1|REV|)6202-tco-92 le odíel otxet( XDPS omoc
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 667 caracteres ═══
+═══ MENSAJE 3 de 4 · 574 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 79*
 
@@ -75,9 +75,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 4 enlaces de esta pieza, *3 responden*.
-
-• https://www.scummvm.org — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
+De los 4 enlaces de esta pieza, *4 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

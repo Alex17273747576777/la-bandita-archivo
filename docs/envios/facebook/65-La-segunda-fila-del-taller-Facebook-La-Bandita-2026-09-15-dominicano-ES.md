@@ -117,7 +117,7 @@ Hay release de esta semana: **ggml-org/llama.cpp** publicó v0.8.0 (2026-10-28).
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.032 (+261) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• ggml-org/llama.cpp — ★133.033 (+262) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
 • SagerNet/sing-box — ★39.499 (+110) · empujó el 28-oct-2026 (hace 4 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.289 (+4) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • FlareSolverr/FlareSolverr — ★16.101 (+30) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release v3.5.2 (12-sep-2026)

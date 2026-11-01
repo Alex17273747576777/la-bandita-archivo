@@ -81,7 +81,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pie
 • nextcloud/server — ★37.382 (+37) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • nextcloud/all-in-one — ★10.772 (+22) · empujó en las últimas horas · AGPL-3.0 · última release v14.4.3 (29-oct-2026)
 • nextcloud/docker — ★7.417 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · AGPL-3.0 · última release v2026.6.2 (11-jun-2026)
-• nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• nextcloud/android — ★5.673 (+17) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

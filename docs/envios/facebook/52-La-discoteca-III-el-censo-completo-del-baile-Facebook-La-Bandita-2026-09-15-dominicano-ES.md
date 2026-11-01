@@ -99,7 +99,7 @@ La noticia fresca es de **PaulWoitaschek/Voice**: release 26.10.8-5410008 (2026-
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • yt-dlp/yt-dlp — ★204.336 (+650) · empujó el 29-oct-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
-• Predidit/Kazumi — ★40.501 (+397) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
+• Predidit/Kazumi — ★40.507 (+403) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
 • JunkFood02/Seal — ★30.240 (+81) · empujó el 25-sep-2026 (hace 37 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
 • libre-tube/LibreTube — ★12.927 (+14) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
 • deniscerri/ytdlnis — ★10.895 (+51) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)

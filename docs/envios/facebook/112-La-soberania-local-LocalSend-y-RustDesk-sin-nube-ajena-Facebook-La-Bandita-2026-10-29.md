@@ -99,12 +99,12 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• rustdesk/rustdesk — ★127.758 (+263) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.0 (30-sep-2026)
-• localsend/localsend — ★96.883 (+426) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• termux/termux-app — ★63.866 (+188) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• rustdesk/rustdesk — ★127.760 (+265) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.0 (30-sep-2026)
+• localsend/localsend — ★96.889 (+432) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• termux/termux-app — ★63.867 (+189) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • RikkaApps/Shizuku — ★32.573 (+188) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • mihonapp/mihon — ★24.922 (+83) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• komi-store/komi-store — ★20.193 (+103) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• komi-store/komi-store — ★20.194 (+104) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
 • hrydgard/ppsspp — ★14.798 (+16) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
 • guardianproject/orbot-android — ★3.664 (+3) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)

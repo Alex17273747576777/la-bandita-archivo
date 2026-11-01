@@ -96,7 +96,7 @@ REV|)92-01-6202( 22112202 — eludom-ksigam-decnaver/ch-j=1|REV|247.01★ — tx
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1603 caracteres ═══
+═══ MENSAJE 4 de 5 · 1510 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 82*
 
@@ -114,9 +114,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 13 enlaces de esta pieza, *12 responden*.
-
-• https://www.scummvm.org — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
+De los 13 enlaces de esta pieza, *13 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

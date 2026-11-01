@@ -1,11 +1,11 @@
 {
  "medido_en": "2026-11-01",
- "medido_en_utc": "2026-11-01T10:11:41+00:00",
+ "medido_en_utc": "2026-11-01T10:32:09+00:00",
  "repos": {
   "AuroraOSS/AuroraStore": {
    "estado": "vivo",
    "stars": 71,
-   "push": "2026-10-02",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -52,7 +52,7 @@
   },
   "daboynb/developer-verifier-placeholder": {
    "estado": "vivo",
-   "stars": 183,
+   "stars": 184,
    "push": "2026-10-12",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -76,7 +76,7 @@
   },
   "wxxsfxyzm/InstallerX-Revived": {
    "estado": "vivo",
-   "stars": 7259,
+   "stars": 7260,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -132,6 +132,18 @@
    "desc": "upgrade webview directly does not require install WebView Apk In Android. Android免安装升级WebView内核",
    "release": null,
    "release_fecha": "",
+   "stars_pieza": null
+  },
+  "vinstall/VInstall": {
+   "estado": "vivo",
+   "stars": 105,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Android package installer supporting APK, XAPK, APKS, APKM, and the custom APKV encrypted format — with built-in app manager, backup, and silent install via root or Shizuku.",
+   "release": "v0.4.5",
+   "release_fecha": "2026-10-30",
    "stars_pieza": null
   },
   "Paving-Base/APK-Installer": {
@@ -208,7 +220,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21105,
+   "stars": 21106,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -304,7 +316,7 @@
   },
   "roxycon-dev/Ciallo-Reader": {
    "estado": "vivo",
-   "stars": 265,
+   "stars": 266,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "MIT",
@@ -386,9 +398,21 @@
    "release_fecha": "2026-10-22",
    "stars_pieza": null
   },
+  "ruzhe85/Komiho": {
+   "estado": "vivo",
+   "stars": 79,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Komiho: a native Android comic reader with multi-source support and built-in AI image enhancement.",
+   "release": "v1.6.0",
+   "release_fecha": "2026-10-28",
+   "stars_pieza": null
+  },
   "zmz125000/LocalViewer": {
    "estado": "vivo",
-   "stars": 200,
+   "stars": 201,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -472,7 +496,7 @@
   },
   "koodo-reader/koodo-reader": {
    "estado": "vivo",
-   "stars": 28679,
+   "stars": 28680,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -607,7 +631,7 @@
   },
   "kodjodevf/mangayomi": {
    "estado": "vivo",
-   "stars": 4286,
+   "stars": 4287,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -845,6 +869,18 @@
    "release_fecha": "",
    "stars_pieza": 849
   },
+  "Boomckman/usagi-nightly": {
+   "estado": "vivo",
+   "stars": 114,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "HTML",
+   "desc": "Best Open Source Manga Reader App Android 2026",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
   "woheller69/FreeDroidWarn": {
    "estado": "vivo",
    "stars": 3730,
@@ -1063,7 +1099,7 @@
   },
   "Animetailapp/Animetail": {
    "estado": "vivo",
-   "stars": 613,
+   "stars": 614,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1164,7 +1200,7 @@
   },
   "Kotatsu-Redo/Kotatsu-Redo": {
    "estado": "vivo",
-   "stars": 982,
+   "stars": 983,
    "push": "2026-10-16",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1224,7 +1260,7 @@
   },
   "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 13925,
+   "stars": 13926,
    "push": "2026-10-25",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1236,7 +1272,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12612,
+   "stars": 12611,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1380,7 +1416,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 96883,
+   "stars": 96889,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1392,7 +1428,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 63866,
+   "stars": 63867,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1476,7 +1512,7 @@
   },
   "FossifyOrg/Calendar": {
    "estado": "vivo",
-   "stars": 2263,
+   "stars": 2264,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1584,7 +1620,7 @@
   },
   "ollama/ollama": {
    "estado": "vivo",
-   "stars": 185525,
+   "stars": 185527,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "MIT",
@@ -1596,7 +1632,7 @@
   },
   "open-webui/open-webui": {
    "estado": "vivo",
-   "stars": 157440,
+   "stars": 157439,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1608,7 +1644,7 @@
   },
   "ggml-org/llama.cpp": {
    "estado": "vivo",
-   "stars": 133032,
+   "stars": 133033,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -1644,7 +1680,7 @@
   },
   "photoprism/photoprism": {
    "estado": "vivo",
-   "stars": 40382,
+   "stars": 40381,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1769,7 +1805,7 @@
   },
   "Predidit/Kazumi": {
    "estado": "vivo",
-   "stars": 40501,
+   "stars": 40507,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1793,7 +1829,7 @@
   },
   "rustdesk/rustdesk": {
    "estado": "vivo",
-   "stars": 127758,
+   "stars": 127760,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1805,7 +1841,7 @@
   },
   "komi-store/komi-store": {
    "estado": "vivo",
-   "stars": 20193,
+   "stars": 20194,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1889,7 +1925,7 @@
   },
   "2dust/v2rayNG": {
    "estado": "vivo",
-   "stars": 65097,
+   "stars": 65098,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1901,7 +1937,7 @@
   },
   "MetaCubeX/ClashMetaForAndroid": {
    "estado": "vivo",
-   "stars": 48741,
+   "stars": 48742,
    "push": "2026-10-30",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2393,7 +2429,7 @@
   },
   "pengchujin/aerial-tv": {
    "estado": "vivo",
-   "stars": 8495,
+   "stars": 8499,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -2405,7 +2441,7 @@
   },
   "aradhyas8/Plume_Launcher": {
    "estado": "vivo",
-   "stars": 300,
+   "stars": 302,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2842,7 +2878,7 @@
   },
   "HuangAntimony/Hoshi-Reader-Android": {
    "estado": "vivo",
-   "stars": 467,
+   "stars": 468,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2943,7 +2979,7 @@
   },
   "LUC4N3X/Levyra-deepsound": {
    "estado": "vivo",
-   "stars": 1827,
+   "stars": 1829,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3009,8 +3045,8 @@
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
    "desc": "An Android application for streaming music from YouTube Music.",
-   "release": "v1.3.6",
-   "release_fecha": "2026-08-26",
+   "release": "v1.3.7",
+   "release_fecha": "2026-11-01",
    "stars_pieza": 122
   },
   "TeamAuraMusic/AuraMusic": {
@@ -3327,7 +3363,7 @@
   },
   "NarYuki/Dextop": {
    "estado": "vivo",
-   "stars": 1082,
+   "stars": 1083,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3591,7 +3627,7 @@
   },
   "iptv-org/iptv": {
    "estado": "vivo",
-   "stars": 142957,
+   "stars": 142959,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Unlicense",
@@ -3603,7 +3639,7 @@
   },
   "nexu-io/open-design": {
    "estado": "vivo",
-   "stars": 105248,
+   "stars": 105251,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3627,7 +3663,7 @@
   },
   "JingMatrix/Vector": {
    "estado": "vivo",
-   "stars": 12992,
+   "stars": 12993,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3639,7 +3675,7 @@
   },
   "CluvexStudio/Aether": {
    "estado": "vivo",
-   "stars": 2392,
+   "stars": 2393,
    "push": "2026-10-24",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3699,7 +3735,7 @@
   },
   "Nayjest/Gito": {
    "estado": "vivo",
-   "stars": 457,
+   "stars": 458,
    "push": "2026-10-01",
    "archivado": false,
    "licencia": "MIT",
@@ -3891,7 +3927,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 153713,
+   "stars": 153715,
    "push": "2026-10-26",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3988,7 +4024,7 @@
   "whyorean/AuroraStore": {
    "estado": "vivo",
    "stars": 3215,
-   "push": "2026-10-02",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -4047,7 +4083,7 @@
   },
   "oasisfeng/island": {
    "estado": "vivo",
-   "stars": 3993,
+   "stars": 3992,
    "push": "2025-04-24",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -4940,7 +4976,7 @@
   },
   "miru-project/miru-app": {
    "estado": "vivo",
-   "stars": 5790,
+   "stars": 5791,
    "push": "2025-12-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -4964,7 +5000,7 @@
   },
   "NuvioMedia/NuvioMobile": {
    "estado": "vivo",
-   "stars": 4340,
+   "stars": 4342,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5113,7 +5149,7 @@
   },
   "jellyfin/jellyfin": {
    "estado": "vivo",
-   "stars": 58885,
+   "stars": 58886,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -5922,7 +5958,7 @@
   },
   "Stremio/stremio-web": {
    "estado": "vivo",
-   "stars": 14950,
+   "stars": 14951,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -6021,7 +6057,7 @@
   },
   "kushagrasinghx/BitChord": {
    "estado": "vivo",
-   "stars": 5083,
+   "stars": 5084,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -6201,7 +6237,7 @@
   },
   "finamp-app/finamp": {
    "estado": "vivo",
-   "stars": 4461,
+   "stars": 4462,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -6238,7 +6274,7 @@
   "PixelPlayerHQ/PixelPlayerOSS": {
    "estado": "vivo",
    "stars": 304,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -6381,7 +6417,7 @@
   },
   "awesome-selfhosted/awesome-selfhosted": {
    "estado": "vivo",
-   "stars": 332560,
+   "stars": 332569,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -6861,7 +6897,7 @@
   },
   "floccusaddon/floccus": {
    "estado": "vivo",
-   "stars": 8611,
+   "stars": 8610,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -7437,7 +7473,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 35792,
+   "stars": 35793,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -7485,7 +7521,7 @@
   },
   "nextcloud/android": {
    "estado": "vivo",
-   "stars": 5674,
+   "stars": 5673,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -8632,8 +8668,8 @@
    "veredicto": "responde"
   },
   "https://elpais.com/cultura/2026-04-22/cae-tumangaonline-la-policia-nacional-desmantela-la-mayor-plataforma-de-pirateria-de-manga-en-espanol.html": {
-   "codigo": "403",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://emanuele-f.github.io/PCAPdroid": {
    "codigo": "200",
@@ -11107,6 +11143,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/ruzhe85/Komiho": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/ruzhe85/MihonSY": {
    "codigo": "200",
    "veredicto": "responde"
@@ -11384,6 +11424,10 @@
    "veredicto": "responde"
   },
   "https://github.com/videolan/vlc-android": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/vinstall/VInstall": {
    "codigo": "200",
    "veredicto": "responde"
   },

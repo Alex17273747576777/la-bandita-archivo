@@ -87,7 +87,7 @@ Lo primero, lo que se cayó: **hayase-app/ui** (bloqueado legal (451): existe), 
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Stremio/stremio-web — ★14.950 (+12) · empujó en las últimas horas · GPL-2.0 · última release v5.0.0-beta.43 (20-oct-2026)
+• Stremio/stremio-web — ★14.951 (+13) · empujó en las últimas horas · GPL-2.0 · última release v5.0.0-beta.43 (20-oct-2026)
 • venera-app/venera — ★11.325 (+24) · *dormido*: sin empujar desde el 5-abr-2026 (210 días) · GPL-3.0 · última release v1.6.3 (8-mar-2026) · *ARCHIVADO*
 • Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (235 días) · GPL-3.0
 • Shadyteal2/QuickNovel-Enhanced — ★73 (+1) · *dormido*: sin empujar desde el 20-jul-2026 (104 días) · GPL-3.0 · última release v2.2.0 (2-jul-2026)

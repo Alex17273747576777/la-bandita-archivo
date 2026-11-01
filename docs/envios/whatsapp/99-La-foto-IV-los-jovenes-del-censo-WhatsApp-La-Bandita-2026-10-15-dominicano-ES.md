@@ -81,7 +81,7 @@ REV|)92-01-6202( 50c6fbd — snoisnetxe/ihsuoyiek=1|REV|92-01-6202 — amallo/am
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.525 (+286) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• ollama/ollama — ★185.527 (+288) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
 • modelcontextprotocol/servers — ★91.726 (+45) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
 • pi-hole/pi-hole — ★61.618 (+59) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
 • keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)

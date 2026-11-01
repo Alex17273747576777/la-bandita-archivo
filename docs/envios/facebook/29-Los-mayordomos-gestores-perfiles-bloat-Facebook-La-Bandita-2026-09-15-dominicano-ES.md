@@ -113,7 +113,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pi
 • Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.679 (+41) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.2.0 (12-ene-2026)
 • d4rken-org/sdmaid-se — ★7.947 (+25) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.2.2-rc0 (19-oct-2026)
 • samolego/Canta — ★6.398 (+43) · empujó en las últimas horas · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
-• oasisfeng/island — ★3.993 (+5) · *dormido*: sin empujar desde el 24-abr-2025 (556 días) · Apache-2.0 · última release v6.2.1 (19-oct-2023)
+• oasisfeng/island — ★3.992 (+4) · *dormido*: sin empujar desde el 24-abr-2025 (556 días) · Apache-2.0 · última release v6.2.1 (19-oct-2023)
 • PeterCxy/Shelter — ★3.684 (+4) · empujó el 27-sep-2026 (hace 35 días) · GPL-3.0 · última release 1.6 (29-sep-2020)
 • keymapperorg/KeyMapper — ★2.786 (+3) · empujó en las últimas horas · GPL-3.0 · última release v4.6.2 (22-oct-2026)
 • legendsayantan/ShizuTools — ★2.642 (+11) · empujó el 29-sep-2026 (hace 33 días) · GPL-3.0 · última release v1.4.6 (25-oct-2024)

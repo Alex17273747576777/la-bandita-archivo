@@ -60,7 +60,7 @@ REV|078.2★ — mvmmucs/mvmmucs=1|REV|92-01-6202 — mvmmucs/mvmmucs=2|REV|)11-
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 538 caracteres ═══
+═══ MENSAJE 3 de 4 · 445 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 80*
 
@@ -70,9 +70,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 2 enlaces de esta pieza, *1 responden*.
-
-• https://www.scummvm.org — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
+De los 2 enlaces de esta pieza, *2 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

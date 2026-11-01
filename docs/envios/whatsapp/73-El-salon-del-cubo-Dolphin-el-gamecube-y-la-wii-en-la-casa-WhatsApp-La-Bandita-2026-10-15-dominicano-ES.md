@@ -64,7 +64,7 @@ REV|247.51★ — nihplod/ume-nihplod=1|REV|52-01-6202 — nihplod/ume-nihplod=2
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dolphin-emu/dolphin — ★15.750 (+8) · empujó en las últimas horas · NOASSERTION
+• dolphin-emu/dolphin — ★15.749 (+7) · empujó en las últimas horas · NOASSERTION
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

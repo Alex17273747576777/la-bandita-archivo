@@ -141,7 +141,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 17 repositorios que cita esta pi
 • smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1287 días) · Apache-2.0
 • bromite/bromite — ★6.318 (-3) · *dormido*: sin empujar desde el 24-ene-2024 (1012 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
 • z-huang/InnerTune — ★6.131 (+2) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• miru-project/miru-app — ★5.790 (+6) · *dormido*: sin empujar desde el 5-dic-2025 (331 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
+• miru-project/miru-app — ★5.791 (+7) · *dormido*: sin empujar desde el 5-dic-2025 (331 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
 • syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • MatteCarra/AccA — ★1.403 (+1) · *dormido*: sin empujar desde el 17-jun-2024 (867 días) · GPL-3.0 · última release v1.0.35 (31-ago-2021)
 • Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)

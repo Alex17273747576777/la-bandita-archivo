@@ -103,7 +103,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 • koreader/koreader — ★30.782 (+45) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
 • Kareadita/Kavita — ★11.987 (+16) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
 • gotson/komga — ★6.805 (+8) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
-• HuangAntimony/Hoshi-Reader-Android — ★467 (+5) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.4.0 (23-sep-2026)
+• HuangAntimony/Hoshi-Reader-Android — ★468 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.4.0 (23-sep-2026)
 • Mister-album/Koharia — ★254 (+4) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)
 • Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
 • yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)

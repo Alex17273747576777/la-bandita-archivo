@@ -171,7 +171,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 28 repositorios que cita esta pi
 • Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
 • SysAdminDoc/HushFeed — ★342 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 • ponces/treble_aosp — ★312 (+1) · *dormido*: sin empujar desde el 25-jul-2025 (464 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
-• AnBui2004/Vectras-VM-Emu-Android — ★306 (+1) · empujó el 14-oct-2026 (hace 18 días) · GPL-2.0 · última release 4.7.4 (14-oct-2026)
+• AnBui2004/Vectras-VM-Emu-Android — ★304 (-1) · empujó el 14-oct-2026 (hace 18 días) · GPL-2.0 · última release 4.7.4 (14-oct-2026)
 • andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
 • UsagiApp/Usagi — ★288 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
 • iamr0s/Dhizuku-API — ★206 (+2) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v2.7.0 (30-oct-2026)

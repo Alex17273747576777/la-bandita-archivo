@@ -261,13 +261,13 @@ Hay release de esta semana: **Khh-vu/wifi-password-manager** publicó v1.21 (202
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 52 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★332.560 (+773) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
-• ggml-org/llama.cpp — ★133.032 (+261) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• jellyfin/jellyfin — ★58.885 (+98) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• awesome-selfhosted/awesome-selfhosted — ★332.569 (+782) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• ggml-org/llama.cpp — ★133.033 (+262) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• jellyfin/jellyfin — ★58.886 (+99) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • SagerNet/sing-box — ★39.499 (+110) · empujó el 28-oct-2026 (hace 4 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.289 (+4) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
-• komi-store/komi-store — ★20.193 (+103) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• komi-store/komi-store — ★20.194 (+104) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • FreshRSS/FreshRSS — ★16.472 (+26) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
 • FlareSolverr/FlareSolverr — ★16.101 (+30) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release v3.5.2 (12-sep-2026)
 • thunderbird/thunderbird-android — ★14.167 (+10) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)

@@ -626,7 +626,7 @@ REV|92-01-6202 — liamEriaF/B66M=1|REV|0.3-LPG=2|REV|937.4★ — liamEriaF/B66
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• M66B/FairEmail — ★4.743 (+4) · empujó en las últimas horas · GPL-3.0 · última release 1.2339 (24-oct-2026)
+• M66B/FairEmail — ★4.744 (+5) · empujó en las últimas horas · GPL-3.0 · última release 1.2339 (24-oct-2026)
 • M66B/NetGuard — ★3.954 (+5) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
 • ukanth/afwall — ★3.515 (+2) · empujó el 17-oct-2026 (hace 15 días) · GPL-3.0 · última release v5.0.0 (12-oct-2026)
 • TrackerControl/tracker-control-android — ★2.716 (+12) · empujó en las últimas horas · GPL-3.0 · última release 2026102901 (29-oct-2026)

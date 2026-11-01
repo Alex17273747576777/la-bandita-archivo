@@ -74,7 +74,7 @@ REV|)82-01-6202( 31.04.0v — amallo/amallo=1|REV|932.581★ — amallo/amallo=2
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.525 (+286) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• ollama/ollama — ★185.527 (+288) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
 • awesome-android-root/awesome-android-root — ★5.592 (+24) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 6.1 (26-oct-2026)
 • NeoApplications/Neo-Backup — ★3.889 (+8) · empujó el 17-oct-2026 (hace 15 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
 

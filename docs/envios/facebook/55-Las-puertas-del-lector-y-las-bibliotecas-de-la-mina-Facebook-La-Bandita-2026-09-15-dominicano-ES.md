@@ -319,7 +319,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 
 • ente/ente — ★29.807 (+65) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
 • T8RIN/ImageToolbox — ★15.284 (+43) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
-• floccusaddon/floccus — ★8.611 (+8) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
+• floccusaddon/floccus — ★8.610 (+7) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
 • ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
 • deckerst/aves — ★5.476 (+8) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)

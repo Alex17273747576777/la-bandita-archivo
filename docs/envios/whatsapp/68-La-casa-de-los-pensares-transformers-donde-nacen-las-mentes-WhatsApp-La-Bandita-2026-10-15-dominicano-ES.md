@@ -70,7 +70,7 @@ REV|0.2-ehcapA=1|REV|)92-01-6202( 0.22.5v — sremrofsnart/ecafgnigguh=2|REV|92-
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.525 (+286) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• ollama/ollama — ★185.527 (+288) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
 • huggingface/transformers — ★168.403 (+76) · empujó en las últimas horas · Apache-2.0 · última release v5.22.1 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

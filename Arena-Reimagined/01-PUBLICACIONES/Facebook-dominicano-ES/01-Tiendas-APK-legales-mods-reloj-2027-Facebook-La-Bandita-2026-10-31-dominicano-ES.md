@@ -60,7 +60,7 @@ Hay un camino intermedio que casi nadie explica bien y que hoy está maduro: *Sh
 
 Medido hoy, en el mundo que hay alrededor:
 
-• `RikkaApps/Shizuku` — *★32.573 · Apache-2.0 · sin empujar desde el 18 de junio de 2025: 500 días*. Dormido. Y aun así es el estándar de facto. Esto es lo que significa «dormido no es muerto»: una pieza de infraestructura terminada puede estar años quieta y funcionar igual.
+• `RikkaApps/Shizuku` — *★32.573 · Apache-2.0 · sin empujar desde el 18 de junio de 2025: 501 días*. Dormido. Y aun así es el estándar de facto. Esto es lo que significa «dormido no es muerto»: una pieza de infraestructura terminada puede estar años quieta y funcionar igual.
 • `iamr0s/Dhizuku` — *★4.071 · GPL-3.0 · empujó ayer · release v2.13.0*. La alternativa, viva y moviéndose.
 • `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy*. La tienda de apps que usan Shizuku.
 • `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy · release 1.5.0 del 5 de octubre*. Tienda e instalador para apps con Shizuku, y catálogo hecho por el mismo autor de `awesome-shizuku`.
@@ -110,21 +110,21 @@ La tienda libre de referencia desde 2010. Compila cada app desde su código y la
 El anexo de F-Droid. Muchas veces *no compila*: firma el APK que publica el desarrollador. Estándar más flojo, no estándar malo.
 
 *3 · Droid-ify — te cuesta nada*
-Cliente de F-Droid, más rápido que el original. *★7.678 · GPL-3.0 · empuje del 12 de septiembre · release v0.7.8*. Lleva 49 días quieto: dormido, no muerto. Su GitHub es *espejo*; su casa es Codeberg.
+Cliente de F-Droid, más rápido que el original. *★7.677 · GPL-3.0 · empuje del 12 de septiembre · release v0.7.8*. Lleva 50 días quieto: dormido, no muerto. Su GitHub es *espejo*; su casa es Codeberg.
 
 *4 · Neo-Store — te cuesta nada y te da una brújula*
-*★5.591 · GPL-3.0 · empuje del 23 de octubre · release 1.3.3*. Su aporte es la sección de rastreadores: te dice qué bibliotecas de seguimiento trae cada app, con nombre y apellido.
+*★5.595 · GPL-3.0 · empuje del 23 de octubre · release 1.3.3*. Su aporte es la sección de rastreadores: te dice qué bibliotecas de seguimiento trae cada app, con nombre y apellido.
 
 *5 · Aurora Store — te cuesta identidad o paciencia*
 El mensajero de Google Play. Cuenta anónima compartida —y esperas cuando se cae— o tu cuenta y aceptas el trato. *★71 en el espejo de GitHub; la casa está en GitLab.* Otro caso de espejo que no es casa.
 
 *6 · Accrescent — te cuesta catálogo*
-Joven, exigente, con verificación por DNS y firmas modernas. Pide Android 12 o más. *★2.306 · Apache-2.0 · código de hoy · release 0.28.1 del 10 de noviembre de 2025.* El proyecto trabaja todas las semanas y publica cada año: si solo mirases releases, lo declararías muerto.
+Joven, exigente, con verificación por DNS y firmas modernas. Pide Android 12 o más. *★2.305 · Apache-2.0 · código de hoy · release 0.28.1 del 10 de noviembre de 2025.* El proyecto trabaja todas las semanas y publica cada año: si solo mirases releases, lo declararías muerto.
 
 *LAS QUE NACIERON DESPUÉS*
 
 *7 · RepoStore — te cuesta aprender un gesto nuevo*
-*★1.369 · MIT · creado el 13 de enero de 2026 · release v1.0.22 publicada el 29 de octubre.* Explora lo que se publica en GitHub, te muestra las releases con sus APK y sus checksums, y lo instala. Es la puerta nueva más limpia que medí: licencia clara, equipo real y una versión publicada el mismo día en que la miré.
+*★1.371 · MIT · creado el 13 de enero de 2026 · release v1.0.22 publicada el 29 de octubre.* Explora lo que se publica en GitHub, te muestra las releases con sus APK y sus checksums, y lo instala. Es la puerta nueva más limpia que medí: licencia clara, equipo real y una versión publicada el mismo día en que la miré.
 
 *8 · ShizuStore — te cuesta tener Shizuku*
 *★501 · GPL-3.0 · creado el 17 de septiembre de 2026 · release 1.5.0 del 5 de octubre.* Seis semanas de vida. La tienda de las apps que necesitan Shizuku para hacer su trabajo, hecha por el mismo autor del catálogo `awesome-shizuku`. Si no tienes Shizuku, no te sirve para nada: esa es la parte honesta.
@@ -136,14 +136,17 @@ Joven, exigente, con verificación por DNS y firmas modernas. Pide Android 12 o 
 *★124 · MIT · creado el 2 de febrero de 2026 · release v0.9.1 del 20 de octubre.* Gestor de paquetes para Termux que funciona sin internet: catálogo local, compilación y arreglo de dependencias. Nicho puro y lo digo como nicho: si no usas Termux, no te interesa.
 
 *11 · universal-installer — te cuesta entender qué es un paquete partido*
-*★1.653 · GPL-3.0 · creado el 28 de julio de 2025 · release v1.20.0 del 25 de octubre · empujó hoy.* Los APK divididos por arquitectura e idioma son la causa número uno del «la app no se instala». Esta es la herramienta que lo resuelve sin que tengas que saber qué es un ABI.
+*★1.661 · GPL-3.0 · creado el 28 de julio de 2025 · release v1.21.0 de hoy mismo · empujó y publicó hoy.* Los APK divididos por arquitectura e idioma son la causa número uno del «la app no se instala». Esta es la herramienta que lo resuelve sin que tengas que saber qué es un ABI.
 
 *12 · InstallerX-Revived — te cuesta el diálogo de siempre*
-*★7.258 · GPL-3.0 · creado el 6 de noviembre de 2024 · release 26.09 del 30 de septiembre · empujó ayer.* Toma el control del instalador del sistema y te deja elegir perfil, usuario e idioma antes de instalar. Para el que instala lo mismo en el trabajo y en lo personal, esto no es un lujo.
+*★7.259 · GPL-3.0 · creado el 6 de noviembre de 2024 · release 26.09 del 30 de septiembre · empujó ayer.* Toma el control del instalador del sistema y te deja elegir perfil, usuario e idioma antes de instalar. Para el que instala lo mismo en el trabajo y en lo personal, esto no es un lujo.
+
+*13 · VInstall — te cuesta un paquete que no abre*
+*★105 · GPL-3.0 · creado el 3 de abril de 2026 · release v0.4.5 del 30 de octubre.* Abre APK, XAPK, APKS, APKM y el APKV cifrado de las tiendas chinas, con Shizuku y sin root. Siete meses de vida y es la única de esta lista que se midió por primera vez hoy: no venía de ninguna lista vieja, la encontré buscando.
 
 *LAS DOS QUE GOBIERNAN LO YA INSTALADO*
 
-*AppManager — ★9.393 · sin licencia declarada en la API · release v4.1.1 del 4 de septiembre.* Ver qué pide cada app, congelarla, copiarla, quitarle permisos. No instala: gobierna.
+*AppManager — ★9.399 · sin licencia declarada en la API · release v4.1.1 del 4 de septiembre.* Ver qué pide cada app, congelarla, copiarla, quitarle permisos. No instala: gobierna.
 *WebViewUpgrade — ★456 · Apache-2.0 · sin release publicada.* Actualiza el motor WebView sin pasar por el instalador del sistema. Se compila. Un teléfono de 2019 puede seguir abriendo páginas modernas por esto.
 
 *Y la que no es una casa sino un aviso:* `daboynb/developer-verifier-placeholder` (*★183 · GPL-3.0 · publicado el 16 de julio de 2026*) es un APK vacío que ocupa el lugar del verificador de desarrollador para que el sistema no bloquee. No lo recomiendo como primera opción; lo nombro porque circula por los grupos sin explicación, y una herramienta que nadie explica es una herramienta que alguien usa mal.
@@ -173,7 +176,7 @@ Si necesitas una app que solo vive en Google Play, instala *Aurora Store*. Si no
 Revisa qué apps tienen permiso de instalación. En Android moderno es Ajustes → Aplicaciones → Acceso especial → Instalar apps desconocidas. Deja ahí solo las tiendas que reconozcas. Todo lo demás, fuera.
 
 *Paso 7 — La prueba de fuego (10 minutos)*
-Abre las tres apps que instalaste desde F-Droid y comprueba que funcionan. Si alguna no arranca, no es la tienda: casi siempre es una versión que pide más Android del que tienes, o un APK dividido que hay que unir con *universal-installer* (*★1.653 · GPL-3.0 · release v1.20.0 del 25 de octubre*).
+Abre las tres apps que instalaste desde F-Droid y comprueba que funcionan. Si alguna no arranca, no es la tienda: casi siempre es una versión que pide más Android del que tienes, o un APK dividido que hay que unir con *universal-installer* (*★1.661 · GPL-3.0 · release v1.21.0 de hoy*).
 
 *Paso 8 — La regla escrita (1 minuto)*
 Pega esto en una nota del teléfono: «No instalo nada cuyo origen no pueda nombrar». Suena tonto. Es lo único que de verdad importa de toda esta pieza.
@@ -189,13 +192,14 @@ Cuando una casa funciona, lo que baja por ella son apps. Medí dieciséis hoy y 
 • `samyak2403/RepoStore` — *★1.371 · MIT · release v1.0.22 del 29 de octubre*. Instala desde repositorios de GitHub sin intermediario.
 • `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy · release 1.5.0 del 5 de octubre*. La tienda de las apps con Shizuku.
 • `wxxsfxyzm/InstallerX-Revived` — *★7.259 · GPL-3.0 · empujó ayer · release 26.09 del 30 de septiembre*.
-• `pass-with-high-score/universal-installer` — *★1.661 · GPL-3.0 · empujó hoy · release v1.20.0 del 25 de octubre*.
+• `pass-with-high-score/universal-installer` — *★1.661 · GPL-3.0 · empujó hoy · release v1.21.0 de hoy*.
 • `GrapheneOS/AppStore` — *★625 · MIT · **release 37 del 31 de octubre***.
 
 *Las que empujan siempre y publican poco (el caso que engaña):*
 
 • `accrescent/accrescent` — *★2.305 · Apache-2.0 · código de ayer · **release 0.28.1 del 10 de noviembre de 2025***. Si mirases solo releases, lo darías por muerto.
 • `JonaNorman/WebViewUpgrade` — *★456 · Apache-2.0 · empuje del 7 de septiembre · **sin release**.* Vivo, sin archivo: se compila.
+• `vinstall/VInstall` — *★105 · GPL-3.0 · creado el 3 de abril de 2026 · release v0.4.5 del 30 de octubre*.
 • `Paving-Base/APK-Installer` — *★1.712 · GPL-3.0 · empuje del 20 de octubre · release v0.1.28 del 11 de agosto de 2025*. Release de hace más de un año y código de este mes: el caso inverso al de siempre.
 
 *Las que acaban de nacer (y por eso hay que mirarlas con lupa y con cariño):*
@@ -208,7 +212,7 @@ Cuando una casa funciona, lo que baja por ella son apps. Medí dieciséis hoy y 
 *Las de siempre que siguen siendo la respuesta correcta:*
 
 • `MuntashirAkon/AppManager` — *★9.399 · **sin licencia declarada en la API** · release v4.1.1 del 4 de septiembre*. Gobierna lo instalado.
-• `ImranR98/Obtainium` — *★21.105 · GPL-3.0 · empujó hoy · release v1.7.3 del 25 de octubre*. Sigue releases desde donde el desarrollador publica.
+• `ImranR98/Obtainium` — *★21.105 · GPL-3.0 · empujó hoy · release v1.7.4 de hoy*. Sigue releases desde donde el desarrollador publica.
 • `NeoApplications/Neo-Store` — *★5.595 · GPL-3.0 · release 1.3.3 del 23 de octubre*. Cliente de F-Droid con brújula de rastreadores.
 • `RikkaApps/Shizuku` — *★32.573 · Apache-2.0 · **último empuje el 18 de junio de 2025 · release v13.6.0 del 25 de mayo de 2025***. Cuatro meses sin moverse y sigue siendo el que presta permisos a media Android moderna. Un proyecto terminado no es un proyecto muerto.
 
@@ -357,7 +361,7 @@ Falso como regla general. El software libre es gratis porque su licencia lo perm
 Los APK son el formato de instalación de Android. Todo lo que tienes instalado en el teléfono —WhatsApp, el banco, la calculadora— llegó en un APK. La palabra no es el problema; el origen sí.
 
 *«Más estrellas, más seguro».*
-Hoy mismo medí `RikkaApps/Shizuku` con ★32.573 y 500 días sin empujar, y `GrapheneOS/AppStore` con ★625 y un empuje de ayer. La seguridad se mide en quién firma y qué tan rápido responde, no en popularidad.
+Hoy mismo medí `RikkaApps/Shizuku` con ★32.573 y 501 días sin empujar, y `GrapheneOS/AppStore` con ★625 y un empuje de ayer. La seguridad se mide en quién firma y qué tan rápido responde, no en popularidad.
 
 *«Los teléfonos viejos no aguantan nada».*
 Aguantan casi todo si no les metes veinte apps. Un teléfono de 2018 con seis apps bien elegidas funciona mejor que uno de 2024 con sesenta.
@@ -514,7 +518,7 @@ Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha 
 
 *2.* ¿Cuál es la diferencia entre *dormido* y *abandonado* según la vara de esta casa?
 
-*3.* ¿Qué app de las medidas hoy tiene ★13.832 y una «última release» de 2018 sin estar muerta?
+*3.* ¿Qué dos apps de las medidas hoy empujaron código **y** publicaron versión el mismo 1 de noviembre?
 
 *4.* ¿Qué significa que una licencia sea NOASSERTION?
 
@@ -524,9 +528,9 @@ Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha 
 
 1. REV|grebedoC se erdam asac us y oviv átse tneilc/yfi-diorD ;404 noc otreum átse tneilc/yfidiord
 2. REV|ajocer ol neiuq yah on ay sámeda odnauc se odanodnaba ;oviv orep setneicer sejupme nis se odimrod
-3. REV|8102 ed se buHtiG artseum euq esaeler al y sonrutcon selanac rop acilbup :riahcnwal/rehcnuaLriahcnwaL
+3. REV|6202 ed erbmeivon ed 1 omsim le noracilbup y norajupme sod sal :0.12.1v rellatsni-lasrevinu y 4.7.1v muiniatbO
 4. REV|etimrep éuq ebas es on orep ,rasu edeup es ppa al :oirotisoper le ne aralc aicnecil anu econocer on buHtiG euq
-5. REV|nedneped sodot euq led radnátse le se ísa nua y ,5202 ed oinuj ed 81 le edsed ,saíd 005
+5. REV|nedneped sodot euq led radnátse le se ísa nua y ,5202 ed oinuj ed 81 le edsed ,saíd 105
 
 ───────────────────
 
@@ -538,6 +542,7 @@ https://github.com/timschneeb/ShizuStore
 https://github.com/SysAdminDoc/AppManagerNG
 https://github.com/djunekz/termux-app-store
 https://github.com/pass-with-high-score/universal-installer
+https://github.com/vinstall/VInstall
 https://github.com/wxxsfxyzm/InstallerX-Revived
 https://github.com/Jman-Github/Universal-Patch-Manager
 https://github.com/solrudev/Ackpine
@@ -567,4 +572,4 @@ Si te quedas con una sola frase de todo esto, que sea esta: *el problema nunca f
 
 Y si algún día alguien te manda un APK por WhatsApp y te dice «es el mismo pero mejor», ya sabes lo que hay que preguntar: *¿quién lo firma?* Si la respuesta tarda más de dos segundos, la respuesta es nadie.
 
-💓 *La Bandita · domingo 1 de noviembre de 2026.* Pieza 01 de Facebook. Medí hoy a las 06:15 los 18 repositorios de la ficha y las 12 casas, con sus 21 enlaces: los 18 vivos y los 21 responden 200. Los números son de esa hora y llevan su fecha al lado. Lo que no medí, está dicho arriba como no medido.
+💓 *La Bandita · domingo 1 de noviembre de 2026.* Pieza 01 de Facebook. Medí hoy a las 06:15 los 19 repositorios de la ficha y las 12 casas, con sus 22 enlaces: los 19 vivos y los 22 responden 200. Los números son de esa hora y llevan su fecha al lado. Lo que no medí, está dicho arriba como no medido.

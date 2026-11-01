@@ -92,7 +92,7 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 6 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2101 caracteres ═══
+═══ MENSAJE 4 de 5 · 2093 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 13*
 
@@ -101,7 +101,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pi
 • aniyomiorg/aniyomi — ★7.864 (+9) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 • aniyomiorg/aniyomi-extensions — ★849 (sin cambio) · *dormido*: sin empujar desde el 19-ago-2024 (804 días) · Apache-2.0 · *ARCHIVADO*
 • aniyomiorg/aniyomi-preview — ★644 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release r8135 (14-sep-2026)
-• Animetailapp/Animetail — ★613 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
+• Animetailapp/Animetail — ★614 (+1) · empujó en las últimas horas · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
 • Kohi-den/extensions-source — ★532 (sin cambio) · *dormido*: sin empujar desde el 12-may-2026 (173 días) · Apache-2.0 · *ARCHIVADO*
 • yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
 • andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)

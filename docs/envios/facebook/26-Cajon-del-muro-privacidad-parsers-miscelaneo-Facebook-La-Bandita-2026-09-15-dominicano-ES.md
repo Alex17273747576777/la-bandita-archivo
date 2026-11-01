@@ -143,16 +143,16 @@ Hay release de esta semana: **Awerkori/manga-extensoes** publicó f4a374c (2026-
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iptv-org/iptv — ★142.957 (+228) · empujó en las últimas horas · Unlicense
-• nexu-io/open-design — ★105.248 (+385) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
+• iptv-org/iptv — ★142.959 (+230) · empujó en las últimas horas · Unlicense
+• nexu-io/open-design — ★105.251 (+388) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
 • android/nowinandroid — ★21.991 (+8) · empujó en las últimas horas · Apache-2.0 · última release 0.1.1 (13-jul-2023)
-• JingMatrix/Vector — ★12.992 (+25) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
-• CluvexStudio/Aether — ★2.392 (+18) · empujó el 24-oct-2026 (hace 8 días) · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
+• JingMatrix/Vector — ★12.993 (+26) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
+• CluvexStudio/Aether — ★2.393 (+19) · empujó el 24-oct-2026 (hace 8 días) · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
 • meshtastic/Meshtastic-Android — ★1.902 (+6) · empujó en las últimas horas · GPL-3.0 · última release v2.8.3 (19-oct-2026)
 • HmnDev-Tech/shevery — ★1.557 (+30) · empujó en las últimas horas · Apache-2.0 · última release 14.5.0 (23-oct-2026)
 • NikhilKain/vyxel-apps — ★957 (+5) · empujó el 25-oct-2026 (hace 7 días) · NOASSERTION · última release v1.1.5 (25-oct-2026)
 • soul-99/SU_IMD — ★525 (+17) · empujó el 8-oct-2026 (hace 24 días) · GPL-3.0 · última release v3 (3-sep-2026)
-• Nayjest/Gito — ★457 (+1) · empujó el 1-oct-2026 (hace 31 días) · MIT · última release v4.5.0 (5-sep-2026)
+• Nayjest/Gito — ★458 (+2) · empujó el 1-oct-2026 (hace 31 días) · MIT · última release v4.5.0 (5-sep-2026)
 • winhub-emu/winhub — ★440 (sin cambio) · empujó el 6-oct-2026 (hace 26 días) · MIT · última release yesysyeysys (6-oct-2026)
 • openflocon/Flocon — ★378 (sin cambio) · empujó en las últimas horas · MIT · última release 1.10.0 (18-oct-2026)
 • wizdom13/WizeStream — ★390 (+12) · empujó en las últimas horas · GPL-3.0 · última release v1.36.0 (30-oct-2026)

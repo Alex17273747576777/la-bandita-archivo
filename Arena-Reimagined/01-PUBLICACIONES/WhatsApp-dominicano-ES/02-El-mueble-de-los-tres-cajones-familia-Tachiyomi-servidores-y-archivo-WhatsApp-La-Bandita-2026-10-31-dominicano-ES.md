@@ -6,7 +6,7 @@
 
 *La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 02 de WhatsApp*
 
-⏱️ *Lectura: 58 min · 52 repositorios medidos hoy, uno por uno*
+⏱️ *Lectura: 58 min · 53 repositorios medidos hoy, uno por uno*
 
 > *Semilla de esta pieza:* un lector de cómics no es una app. Es un *mueble de tres cajones*. En el primero va el motor: el programa que pasa las páginas. En el segundo, el catálogo: las extensiones que le dicen de dónde sacar cada serie. En el tercero, el archivo: tu biblioteca, tu historial, tus categorías, tus descargas. Los tres cajones pueden venir de tres dueños distintos, y cuando uno se rompe, los otros dos no lo arreglan.
 
@@ -32,11 +32,11 @@ Voy a contarlo como me lo explicaría a mí mismo si tuviera el teléfono en la 
 
 *🎯 ¿Adivina la casa? (cuatro pistas, respuestas al revés)*
 
-*1.* Nació como un lector llamado MangaWindow, cambió de nombre dos veces y en 2024 se mudó de casa entera: hoy su repositorio viejo responde 404 y el nuevo tiene ★24.913.
+*1.* Nació como un lector llamado MangaWindow, cambió de nombre dos veces y en 2024 se mudó de casa entera: hoy su repositorio viejo responde 404 y el nuevo tiene ★24.922.
 
 *2.* Un lector con nombre de animal, fork del anterior, que publica casi todas las noches y tiene más estrellas que su casa madre en su mejor época.
 
-*3.* El que se archivó en noviembre de 2025 con ★8.943 y dejó a miles de personas buscando dónde meter su biblioteca.
+*3.* El que se archivó en noviembre de 2025 con ★8.946 y dejó a miles de personas buscando dónde meter su biblioteca.
 
 *4.* El que corre en un servidor y te sirve las páginas a ti y a tres amigos más, desde una Raspberry Pi.
 
@@ -82,7 +82,7 @@ Voy a contarlo como me lo explicaría a mí mismo si tuviera el teléfono en la 
 ├── ⚖️ La ley, sin sermón · ~4 min
 ├── 🛠️ Tutorial: de cero a biblioteca con respaldo · ~8 min
 ├── 🧳 Las variables que no puedes perder · ~7 min
-├── 📋 La ficha de hoy (52 repos) · ~5 min
+├── 📋 La ficha de hoy (53 repos) · ~5 min
 ├── 🎯 Mini-quiz · ~1 min
 └── 🔗 Enlaces y firma · ~2 min
 ```
@@ -103,7 +103,7 @@ Esto no es historia por gusto. Es la explicación de por qué tu lector se llama
 
 *Los hijos que ya estaban.* Cuando el tronco cayó, las ramas siguieron:
 
-• *komikku-app/komikku* — *★4.964 · Apache-2.0 · empuje 21-oct · release v1.14.1 del 17 de julio*. El fork más popular. Añade funciones que Mihon no tiene, sobre todo en gestión de biblioteca y ajustes de lector. Ojo con la fecha: su última release es de julio y su último empuje de octubre. Eso no es abandono: es un proyecto que trabaja por ramas y publica por tandas.
+• *komikku-app/komikku* — *★4.964 · Apache-2.0 · empujó hoy · release v1.14.1 del 17 de julio*. El fork más popular. Añade funciones que Mihon no tiene, sobre todo en gestión de biblioteca y ajustes de lector. Ojo con la fecha: su última release es de julio y su último empuje es de hoy mismo. Eso no es abandono: es un proyecto que trabaja por ramas y publica por tandas.
 • *nekomangaorg/Neko* — *★2.818 · Apache-2.0 · empujó hoy · release 3.8.5 del 30 de octubre*. Enfocado en catálogos alternativos y respaldo entre dispositivos.
 • *Kototoro-app/Kototoro* — *★659 · Apache-2.0 · empujó ayer · release v2.3.4 del 29 de octubre*. El más joven y el más rápido del grupo. Tiene su propio sistema de parsers, separado en `skepsun/kototoro-parsers` (*★17 · GPL-3.0 · empuje 28-oct*), lo cual es una decisión interesante: el motor y el catálogo viven en repositorios distintos, con licencias distintas.
 • *ruzhe85/MihonSY* — *★48 · Apache-2.0 · empuje 28-oct · release v1.2.1 del 7 de octubre*. Fork de fork: toma lo de Mihon y lo de TachiyomiSY. Los forks de forks son la norma, no la excepción.
@@ -122,7 +122,7 @@ Esto no es historia por gusto. Es la explicación de por qué tu lector se llama
 
 *🐈 Kotatsu: el archivo que se cerró (y cómo se sale de uno)*
 
-`KotatsuApp/Kotatsu` fue durante años la alternativa «fácil» al mundo Tachiyomi: catálogo propio integrado, sin extensiones que instalar, con una interfaz que no asustaba a nadie. Medido hoy: *★8.943 · GPL-3.0 · Kotlin · **archivado** · último empuje el 4 de noviembre de 2025 · sin release reciente*.
+`KotatsuApp/Kotatsu` fue durante años la alternativa «fácil» al mundo Tachiyomi: catálogo propio integrado, sin extensiones que instalar, con una interfaz que no asustaba a nadie. Medido hoy: *★8.946 · GPL-3.0 · Kotlin · **archivado** · último empuje el 4 de noviembre de 2025 · sin release reciente*.
 
 Ocho mil novecientas cuarenta y tres estrellas y un cartel de «archivado». Ese contraste es la lección más útil de esta pieza.
 
@@ -154,7 +154,7 @@ No voy a hacer una lista de los treinta. Eso no ayuda a decidir. Van cinco, con 
 *El detalle:* es el único de esta lista cuya licencia (Apache-2.0) permite que un fork comercial lo use sin publicar cambios. Ninguno lo hace hoy, pero es una puerta abierta que conviene saber que existe.
 
 *2 · Komikku — el que más funciones trae*
-`komikku-app/komikku` · ★4.964 · Apache-2.0 · empuje 21-oct · release v1.14.1 (17-jul).
+`komikku-app/komikku` · ★4.964 · Apache-2.0 · empujó hoy · release v1.14.1 (17-jul).
 
 *Para quién:* para el que ya usó Mihon y siente que le falta algo: ajustes de lector más finos, mejores controles de biblioteca, opciones de sincronización.
 *Lo bueno:* añade sin romper. La migración desde Mihon es la más sencilla de todas las de esta pieza.
@@ -173,7 +173,7 @@ No voy a hacer una lista de los treinta. Eso no ayuda a decidir. Van cinco, con 
 
 *Para quién:* para el que quiere probar algo con energía y no le importa que el proyecto tenga seis meses de vida.
 *Lo bueno:* dos empujes en dos días y una release de anteayer. Aquí sí se cumple la promesa de «vivo».
-*Lo malo:* con ★656 y un equipo chiquito, la continuidad depende de muy pocas manos. Si el mantenedor se enferma, se para. Es el riesgo de todo proyecto joven y hay que decirlo sin dramatismo.
+*Lo malo:* con ★659 y un equipo chiquito, la continuidad depende de muy pocas manos. Si el mantenedor se enferma, se para. Es el riesgo de todo proyecto joven y hay que decirlo sin dramatismo.
 *El detalle que me gusta:* separar los parsers en otro repositorio con otra licencia es una decisión de ingeniería limpia: puedes auditar el catálogo sin compilar el motor.
 
 *5 · Mangayomi — el primo que se independizó*
@@ -219,7 +219,7 @@ Hay una tercera forma de usar todo esto que casi nadie explica y que a mí me pa
 
 *Suwayomi — el motor en un servidor.*
 Cuatro repositorios, todos medidos hoy:
-• `Suwayomi/Suwayomi-Server` — **★7.982 · MPL-2.0 · empuje 24-oct · release v2.4.2366 del 30 de septiembre**. El servidor: corre las extensiones y sirve las páginas por la red local.
+• `Suwayomi/Suwayomi-Server` — **★7.982 · MPL-2.0 · empujó hoy · release v2.4.2366 del 30 de septiembre**. El servidor: corre las extensiones y sirve las páginas por la red local.
 • `Suwayomi/Suwayomi-Server-docker` — **★575 · MPL-2.0 · empuje 29-oct**. La misma cosa, empaquetada para levantar con un comando.
 • `Suwayomi/Suwayomi-JUI` — **★498 · MPL-2.0 · empuje 15-oct · release v1.3.3 de marzo de 2024**. La interfaz web. Aquí hay un dato para pensar: el código se mueve y la release es de hace 19 meses. No está abandonado, pero tampoco tiene prisa.
 • `Suwayomi/Suwayomi-Tsumiru` — **★107 · MPL-2.0 · release v1.6.3 de ayer**. Un cliente pequeño para el servidor.
@@ -235,6 +235,7 @@ Estas dos no buscan nada en internet: ordenan *tus* archivos. Son la respuesta a
 • `gotson/komga` — **★6.805 · MIT · empujó hoy · release 1.29.2 del 28 de octubre**. Servidor de biblioteca de cómics y revistas. Lee metadatos de los archivos, arma series y volúmenes, y sirve todo por web con un cliente decente.
 • `Kareadita/Kavita` — **★11.987 · GPL-3.0 · empujó hoy · release v0.9.1.4 del 2 de septiembre**. El mismo concepto, más orientado a colecciones grandes con lectores de todo tipo (cómic, libro, manga). Es el más popular de los dos.
 • `Snd-R/Komelia` — **★437 · Apache-2.0 · empuje 29-oct · release 0.20.0 del 27 de septiembre**. Cliente de Komga para Android, escrito en Compose.
+• `ruzhe85/Komiho` — **★79 · Apache-2.0 · creado 19-ago-2026 · release v1.6.0 (28-oct)**. El cliente de Komga más nuevo que medí: nativo, con escalado de imagen para escaneos flojos.
 • `Snd-R/komf` — **★738 · MIT · empuje 27-sep · release 2.1.0 del 27 de septiembre**. Metadatos automáticos: busca portada, autor y sinopsis y se los pone a tus archivos.
 • `C9Glax/tranga` — **★395 · GPL-3.0 · empuje 26-oct · release 1.5 del 20 de junio de 2023**. Descarga capítulos nuevos de forma automática. Ojo: la release es vieja y el código está vivo; es otro caso de «mira el empuje, no la release».
 
@@ -371,13 +372,13 @@ Arreglo: desinstala el viejo del todo, reinicia y vuelve a instalar. Y la próxi
 *🧊 Mitos de este ecosistema*
 
 *«Si Tachiyomi murió, todo esto está muerto».*
-Al contrario: el tronco cayó y las ramas crecieron. Hoy hay un sucesor con ★24.913 y al menos seis forks activos. La muerte del repositorio original no mató el software, porque el software ya estaba en miles de teléfonos.
+Al contrario: el tronco cayó y las ramas crecieron. Hoy hay un sucesor con ★24.922 y al menos seis forks activos. La muerte del repositorio original no mató el software, porque el software ya estaba en miles de teléfonos.
 
 *«Los forks son copias con el nombre cambiado».*
-No. Komikku añade funciones, Neko añade sincronización, Kototoro reescribió el sistema de parsers, MihonSY mezcla dos linajes. Un fork es otro equipo con sus propias decisiones, y su ritmo de publicación lo demuestra.
+No. Komikku añade funciones, Neko sincronización, Kototoro reescribió los parsers, MihonSY mezcla dos linajes. Un fork es otro equipo, y su ritmo de publicación lo demuestra.
 
 *«Más estrellas significa mejor».*
-Kotatsu tiene ★8.943 y está archivado. Kujira tiene ★17 y publicó una release hoy. Las estrellas miden cuánta gente pasó por ahí, no quién sigue barriendo.
+Kotatsu tiene ★8.946 y está archivado. Kujira tiene ★17 y publicó una release hoy. Las estrellas miden cuánta gente pasó por ahí, no quién sigue barriendo.
 
 *«Las extensiones son parte de la app».*
 No. Son programas aparte, con su autor y su firma. Tu motor puede ser impecable y tu catálogo un desastre. Los dos cajones se juzgan por separado.
@@ -416,9 +417,9 @@ Los respaldos son para gente que no quiere perder tres años de historial. Es un
 
 Esto explica por qué tu extensión favorita deja de funcionar un martes cualquiera sin que nadie haya tocado tu teléfono.
 
-*La anatomía mínima.* Una extensión de la familia Tachiyomi es un APK pequeño con tres o cuatro piezas: un *parser* que sabe leer el HTML del sitio, un catálogo que dice qué series hay y cómo se paginan los resultados, un lector de capítulos que extrae las imágenes, y un manifiesto que declara el nombre, la versión y qué sitios cubre.
+*La anatomía mínima.* Una extensión es un APK pequeño con tres o cuatro piezas: un *parser* que lee el HTML del sitio, un catálogo que dice qué series hay, un lector que extrae las imágenes y un manifiesto con el nombre, la versión y los sitios que cubre.
 
-*Por qué se rompe.* Porque el sitio cambia. Un día el administrador decide que las imágenes se sirven desde otro dominio, o mete una protección contra descargas automáticas, o cambia el nombre de una clase en su HTML. La extensión sigue pidiendo lo de antes y el sitio le contesta con un error o con una página vacía. *El lector no se rompió: el mundo cambió debajo de él.*
+*Por qué se rompe.* Porque el sitio cambia: otra ruta para las imágenes, una protección contra descargas, una clase renombrada en el HTML. La extensión pide lo de antes y recibe un error. *El lector no se rompió: el mundo cambió debajo de él.*
 
 *Por qué hay tantas y tan pocas a la vez.* Hay cientos de extensiones escritas y solo unas decenas mantenidas de verdad. La diferencia no es la calidad del código inicial: es *quién sigue ahí seis meses después*. Mantener una extensión es un trabajo de jardinería: hay que volver cada vez que el sitio se mueve. Por eso la comunidad se organiza en repositorios compartidos: muchas manos reparten el peso.
 
@@ -470,7 +471,7 @@ En un teléfono de 64 GB esto no es un detalle: es la diferencia entre tener lec
 
 *🆕 Lo que no existía hace nueve meses (el censo nuevo del mueble)*
 
-La lista de hace cuatro meses tenía a Tachiyomi, a sus forks y a tres servidores. Hoy, midiendo uno por uno, encontré **dieciséis proyectos que entonces no existían o no tenían una sola versión publicada**, y dos cebos que se hacen pasar por ellos. Esto es el censo nuevo, con fecha de nacimiento al lado —el dato que casi nadie pone y el que explica todo.
+La lista de hace cuatro meses tenía a Tachiyomi, sus forks y tres servidores. Hoy medí uno por uno: **catorce repositorios de este censo nacieron en 2026**, y hay cebos que se hacen pasar por lectores reales. Este es el censo nuevo, con fecha de nacimiento al lado —el dato que casi nadie pone.
 
 *Forks y lectores que nacieron en 2025 y 2026:*
 
@@ -504,9 +505,11 @@ La lista de hace cuatro meses tenía a Tachiyomi, a sus forks y a tres servidore
 • *`sri-sivaram/Neko-Manga-Pearl` — ★116 · HTML · sin licencia · creado el 28 de junio de 2026.*
 • *`khaledmahmud5286-cmd/manga-zen-reader` — ★113 · HTML · sin licencia · creado el 28 de junio de 2026.*
 
-Los dos se describen como «la mejor alternativa open source 2026» de apps que ya existen, usan el nombre de otro proyecto en el título para salir en la búsqueda, no tienen una línea de código de aplicación y **no declaran licencia**. Un lector de cómics no se escribe en HTML. Si mañana te aparece uno de estos en un grupo, ya sabes qué es: un anuncio que espera su clic.
+Los dos se describen como «la mejor alternativa open source 2026» de apps que ya existen, usan el nombre de otro proyecto en el título para salir en la búsqueda y **no declaran licencia**. Un lector de cómics no se escribe en HTML.
 
-*Lo que este censo no dice:* cuánta gente usa cada uno. Las estrellas miden curiosidad, no adopción: un proyecto con ★116 puede tener más usuarios reales que uno con ★1.900 que todos miraron y nadie instaló.
+*Y al cerrar la revisión apareció un quinto del mismo molde:* `Boomckman/usagi-nightly` — ★114 · HTML · sin licencia · creado el 28 de junio de 2026 y empujado hoy. Misma página, mismo truco: la fábrica sigue abierta.
+
+*Lo que este censo no dice:* cuánta gente usa cada uno. Las estrellas miden curiosidad: ★116 puede tener más usuarios reales que ★1.900 que todos miraron y nadie instaló.
 
 ───────────────────
 
@@ -530,7 +533,7 @@ Los dos se describen como «la mejor alternativa open source 2026» de apps que 
 Si vienes de Tachiyomi y quieres continuidad sin sorpresas: Mihon. Si ya lo usaste y quieres más control: Komikku. No instales los dos el mismo día; elige uno, haz respaldo y vive con él un mes.
 
 *«¿Y Kototoro, que todo el mundo menciona?»*
-Es el que más se mueve ahora mismo (dos empujes en dos días y release de anteayer). Con ★656 y un equipo pequeño, es una apuesta razonable pero es una apuesta: si el mantenedor para, para. Si te gusta probar, adelante; si necesitas estabilidad para tu biblioteca, quédate en Mihon.
+Es el que más se mueve ahora mismo (dos empujes en dos días y release de anteayer). Con ★659 y un equipo pequeño, es una apuesta razonable pero es una apuesta: si el mantenedor para, para. Si te gusta probar, adelante; si necesitas estabilidad para tu biblioteca, quédate en Mihon.
 
 *«¿Puedo tener dos lectores a la vez con la misma biblioteca?»*
 Sí, pero no leyendo en los dos. Instala el segundo, restaura el respaldo y úsalo para lo que el primero hace mal. En cuanto leas en los dos sin servidor, el historial se pisa.
@@ -597,30 +600,30 @@ Por eso el censo nuevo de hoy vale lo que vale la fecha: si lo abres en marzo, l
 
 *🧾 Lo que me costó escribir esto*
 
-Transparencia, que es la casa: esta pieza no la escribí en una tarde. Requirió medir 52 repositorios uno por uno, leer sus licencias, comprobar cuáles estaban archivados, encontrar los tres nombres que ya no existen y separar tres cosas que todo el mundo mezcla: *vivo, archivado y muerto*.
+Transparencia, que es la casa: esta pieza no la escribí en una tarde. Requirió medir 53 repositorios uno por uno, leer sus licencias, comprobar cuáles estaban archivados, encontrar los tres nombres que ya no existen y separar tres cosas que todo el mundo mezcla: *vivo, archivado y muerto*.
 
 *Los errores que corregí en el camino:*
 • Di por hecho que `tachiyomiorg/tachiyomi` respondería con su histórico. Da 404: queda en la lista de muertos con fecha.
 • Escribí `Paperback-Community/Paperback` de memoria: también 404.
-• Casi declaro abandonado a Suwayomi-JUI por su release de marzo de 2024; su código se empujó hace 16 días.
+• Casi declaro abandonado a Suwayomi-JUI por su release de marzo de 2024; su código se empujó hace 17 días.
 • Casi cuento `Mangayomi` como muerto por el nombre; el vivo es `kodjodevf/mangayomi`.
 
 Lo que no medí y por tanto no afirmo: cuánta gente usa cada app de verdad. Las estrellas no son usuarios y no las uso como si lo fueran. Tampoco afirmo qué sitio de cómics está disponible hoy en tu país: eso cambia por red, por hora y por proveedor, y cualquier lista que te dé eso como verdad eterna te está vendiendo humo.
 
 ───────────────────
 
-*📋 LA FICHA DE HOY — 52 repositorios del mueble, medidos uno por uno*
+*📋 LA FICHA DE HOY — 53 repositorios del mueble, medidos uno por uno*
 
 Medido hoy con la API de GitHub: estrellas, licencia que el repositorio declara, último empuje y última release con su fecha. Lo que dice **archivado** o **404** va marcado, no disimulado.
 
 *Los motores y sus forks:*
 
 • `mihonapp/mihon` — ★24.922 · Apache-2.0 · push 26-oct · rel v0.21.3 (25-oct)
-• `komikku-app/komikku` — ★4.964 · Apache-2.0 · push 21-oct · rel v1.14.1 (17-jul)
+• `komikku-app/komikku` — ★4.964 · Apache-2.0 · push 1-nov · rel v1.14.1 (17-jul)
 • `null2264/yokai` — ★1.914 · Apache-2.0 · push 13-oct · rel v1.10.2 (23-sep)
 • `nekomangaorg/Neko` — ★2.818 · Apache-2.0 · push 1-nov · rel 3.8.5 (30-oct)
 • `Kototoro-app/Kototoro` — ★659 · Apache-2.0 · push 31-oct · rel v2.3.4 (29-oct)
-• `kodjodevf/mangayomi` — ★4.286 · Apache-2.0 · push 31-oct · rel v0.9.9 (12-oct)
+• `kodjodevf/mangayomi` — ★4.286 · Apache-2.0 · push 1-nov · rel v0.9.9 (12-oct)
 • `aniyomiorg/aniyomi` — ★7.864 · Apache-2.0 · push 14-sep · rel v0.18.2.1 (14-sep)
 • `jakepurple13/OtakuWorld` — ★637 · Apache-2.0 · push 31-oct · rel v32.1.2 (29-jun)
 • `UsagiApp/Usagi` — ★288 · GPL-3.0 · push 30-oct · rel v1.2 (3-oct)
@@ -649,15 +652,16 @@ Medido hoy con la API de GitHub: estrellas, licencia que el repositorio declara,
 
 *Servidores y bibliotecas:*
 
-• `Suwayomi/Suwayomi-Server` — ★7.982 · MPL-2.0 · push 24-oct · rel v2.4.2366 (30-sep)
+• `Suwayomi/Suwayomi-Server` — ★7.982 · MPL-2.0 · push 1-nov · rel v2.4.2366 (30-sep)
 • `Suwayomi/Suwayomi-JUI` — ★498 · MPL-2.0 · push 15-oct · rel v1.3.3 (31-mar)
-• `Suwayomi/Suwayomi-Tsumiru` — ★107 · MPL-2.0 · push 30-oct · rel v1.6.3 (30-oct)
+• `Suwayomi/Suwayomi-Tsumiru` — ★107 · MPL-2.0 · push 1-nov · rel v1.6.3 (30-oct)
 • `Suwayomi/Suwayomi-VUI` — ★54 · MPL-2.0 · push 12-oct · rel r1417 (12-oct)
 • `Suwayomi/Suwayomi-Server-docker` — ★575 · MPL-2.0 · push 29-oct · sin release
 • `Kareadita/Kavita` — ★11.987 · GPL-3.0 · push 1-nov · rel v0.9.1.4 (2-sep)
 • `gotson/komga` — ★6.805 · MIT · push 1-nov · rel 1.29.2 (28-oct)
 • `BookHeaven/BookHeaven.Server` — ★197 · GPL-3.0 · push 30-oct · rel v1.0.4 (30-oct)
 • `Snd-R/Komelia` — ★437 · Apache-2.0 · push 29-oct · rel 0.20.0 (27-sep)
+• `ruzhe85/Komiho` — ★79 · Apache-2.0 · push 28-oct · rel v1.6.0 (28-oct)
 • `Snd-R/komf` — ★738 · MIT · push 27-sep · rel 2.1.0 (27-sep)
 • `C9Glax/tranga` — ★395 · GPL-3.0 · push 26-oct · rel 1.5 (20-jun)
 • `chmouel/liseur` — ★170 · MIT · push 1-nov · rel v0.26.0 (28-oct)
@@ -745,6 +749,7 @@ https://github.com/gotson/komga
 https://github.com/BookHeaven/BookHeaven.Server
 https://github.com/Snd-R/Komelia
 https://github.com/Snd-R/komf
+https://github.com/ruzhe85/Komiho
 https://github.com/C9Glax/tranga
 https://github.com/chmouel/liseur
 https://github.com/zmz125000/LocalViewer
@@ -781,4 +786,4 @@ La app que uses mañana puede no ser la de hoy. Tu archivo sí puede ser el mism
 
 ───────────────────
 
-💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy a las 06:15, uno por uno, los 52 repositorios de esta pieza: 45 vivos, 4 archivados y 3 muertos con su 404 a la vista. Los números llevan la hora, no solo la fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.
+💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy a las 06:15, uno por uno, los 53 repositorios de esta pieza: 46 vivos, 4 archivados y 3 muertos con su 404 a la vista. Los números llevan la hora, no solo la fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.

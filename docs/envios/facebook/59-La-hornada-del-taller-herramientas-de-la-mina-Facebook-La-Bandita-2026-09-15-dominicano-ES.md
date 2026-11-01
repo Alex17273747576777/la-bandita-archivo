@@ -114,10 +114,10 @@ Pulso de hoy sobre los 16 repos de la pieza: 16 vivos, 14 activos este mes. Mand
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★332.560 (+773) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
-• jellyfin/jellyfin — ★58.885 (+98) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• komi-store/komi-store — ★20.193 (+103) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• awesome-selfhosted/awesome-selfhosted — ★332.569 (+782) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• jellyfin/jellyfin — ★58.886 (+99) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• komi-store/komi-store — ★20.194 (+104) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • FreshRSS/FreshRSS — ★16.472 (+26) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
 • offa/android-foss — ★11.611 (+25) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
 • jellyfin/jellyfin-androidtv — ★4.690 (+15) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)

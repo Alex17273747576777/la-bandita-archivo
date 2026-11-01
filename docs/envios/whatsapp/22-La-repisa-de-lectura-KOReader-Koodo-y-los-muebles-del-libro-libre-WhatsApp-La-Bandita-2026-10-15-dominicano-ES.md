@@ -635,7 +635,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pie
 • syncthing/syncthing — ★89.964 (+91) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • Crosstalk-Solutions/project-nomad — ★41.508 (+220) · empujó en las últimas horas · Apache-2.0 · última release v1.35.1 (5-oct-2026)
 • koreader/koreader — ★30.782 (+43) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• koodo-reader/koodo-reader — ★28.679 (+11) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• koodo-reader/koodo-reader — ★28.680 (+12) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
 • smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1287 días) · Apache-2.0
 • PaulWoitaschek/Voice — ★3.239 (+9) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
 

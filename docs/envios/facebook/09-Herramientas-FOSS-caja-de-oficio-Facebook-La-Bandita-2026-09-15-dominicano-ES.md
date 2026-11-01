@@ -112,10 +112,10 @@ Pulso de hoy sobre los 15 repos de la pieza: 15 vivos, 12 activos este mes. Mand
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★96.883 (+426) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• termux/termux-app — ★63.866 (+188) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• localsend/localsend — ★96.889 (+432) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• termux/termux-app — ★63.867 (+189) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • RikkaApps/Shizuku — ★32.573 (+188) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• ImranR98/Obtainium — ★21.105 (+86) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• ImranR98/Obtainium — ★21.106 (+87) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • organicmaps/organicmaps — ★15.841 (+26) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
 • beemdevelopment/Aegis — ★13.438 (+24) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • MuntashirAkon/AppManager — ★9.399 (+29) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
@@ -123,7 +123,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pi
 • TeamAmaze/AmazeFileManager — ★6.449 (+2) · empujó en las últimas horas · GPL-3.0 · última release v3.11.4 (15-oct-2026)
 • FossifyOrg/Gallery — ★3.871 (+10) · empujó en las últimas horas · GPL-3.0 · última release 1.14.1 (24-oct-2026)
 • guardianproject/orbot-android — ★3.664 (+3) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
-• FossifyOrg/Calendar — ★2.263 (+8) · empujó en las últimas horas · GPL-3.0 · última release 1.12.1 (24-oct-2026)
+• FossifyOrg/Calendar — ★2.264 (+9) · empujó en las últimas horas · GPL-3.0 · última release 1.12.1 (24-oct-2026)
 • FossifyOrg/File-Manager — ★1.846 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (24-oct-2026)
 • FossifyOrg/Phone — ★1.397 (+3) · empujó en las últimas horas · GPL-3.0 · última release 1.11.1 (3-feb-2026)
 • FossifyOrg/Clock — ★718 (+3) · empujó en las últimas horas · GPL-3.0 · última release 1.6.0 (30-ene-2026)
