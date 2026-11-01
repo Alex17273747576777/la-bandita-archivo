@@ -1,0 +1,19 @@
+{
+  "_nota": "Banda de longitud de cada pieza reescrita. Obliga a la vara (G10): una pieza que no cae dentro de su banda no pasa. Las piezas que aún no se han reescrito no están aquí y no se les exige.",
+  "whatsapp": {
+    "min": 63000,
+    "max": 63099,
+    "_motivo": "el dueño pidió 63.000 como mínimo y máximo a la vez; se admite até 63.099 para no forzar recortes cosméticos de última hora",
+    "piezas": {
+      "01": {"archivo": "01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md", "caracteres": 63075}
+    }
+  },
+  "facebook": {
+    "min": 40000,
+    "max": 45000,
+    "_motivo": "banda pedida por el dueño para la 01 de Facebook; se aplica igual a las siguientes",
+    "piezas": {
+      "01": {"archivo": "01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES.md", "caracteres": 42383}
+    }
+  }
+}

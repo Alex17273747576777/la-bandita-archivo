@@ -62,7 +62,7 @@ Hay release de esta semana: **mihonapp/mihon** publicó v0.21.3 (2026-10-25). Co
 
 Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.909 (+70) · empujó el 26-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★24.913 (+74) · empujó el 26-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • fmhy/FMHY — ★15.350 (+31) · *dormido*: sin empujar desde el 13-may-2026 (171 días) · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

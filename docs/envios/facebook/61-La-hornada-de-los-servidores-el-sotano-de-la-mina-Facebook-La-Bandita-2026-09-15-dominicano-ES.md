@@ -133,10 +133,10 @@ La noticia amarga: **inaccurate-hotelplan289/HomeLabSetup** (caído (404)) ya no
 
 Medí otra vez, hoy 31 de octubre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.953 (+80) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 2 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• nextcloud/server — ★37.378 (+33) · sin fecha de empuje · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• lollipopkit/flutter_server_box — ★8.921 (+24) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1844 (29-oct-2026)
+• nextcloud/server — ★37.379 (+34) · sin fecha de empuje · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• lollipopkit/flutter_server_box — ★8.922 (+25) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1844 (29-oct-2026)
 • standardnotes/app — ★6.691 (+3) · empujó en las últimas horas · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (697 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*

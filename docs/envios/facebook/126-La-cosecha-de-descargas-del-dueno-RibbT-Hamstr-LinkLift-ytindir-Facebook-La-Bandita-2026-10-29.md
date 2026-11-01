@@ -61,16 +61,16 @@ Hay release de esta semana: **Mailo037/Hamstr** publicó v0.7.4 (2026-10-29). Co
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 910 caracteres ═══
+═══ MENSAJE 3 de 4 · 902 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 126*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RajnishOne/linklift — ★12 (+1) · empujó en las últimas horas · MIT · última release v2.19 (31-oct-2026)
+• RajnishOne/linklift — ★12 (+1) · sin fecha de empuje · MIT · última release v2.19 (31-oct-2026)
 • RAMiK4/ytindir — ★16 (+5) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release v2.14.0-build65 (28-oct-2026)
 • rcrandon/gimmiedat — ★3 (sin cambio) · empujó el 8-oct-2026 (hace 23 días) · GPL-3.0 · última release v1.0.3 (8-oct-2026)
-• Mailo037/Hamstr — ★1 (sin cambio) · sin fecha de empuje · GPL-3.0 · última release v0.8.0 (1-nov-2026)
+• Mailo037/Hamstr — ★1 (sin cambio) · sin fecha de empuje · GPL-3.0 · última release v0.7.5 (1-nov-2026)
 • Sleepless-index/RibbT — ★1 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release latest (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

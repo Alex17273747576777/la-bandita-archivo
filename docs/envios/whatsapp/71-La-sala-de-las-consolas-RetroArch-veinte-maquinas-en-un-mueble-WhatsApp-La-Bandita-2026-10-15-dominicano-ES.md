@@ -66,7 +66,7 @@ REV|674.41★ — hcrAorteR/orterbil=1|REV|92-01-6202 — hcrAorteR/orterbil=2|R
 
 Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• libretro/RetroArch — ★14.500 (+24) · sin fecha de empuje · GPL-3.0 · última release v1.22.2 (20-nov-2025)
+• libretro/RetroArch — ★14.501 (+25) · sin fecha de empuje · GPL-3.0 · última release v1.22.2 (20-nov-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

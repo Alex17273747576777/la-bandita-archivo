@@ -81,7 +81,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 7 repositorios que cita esta piez
 
 • plainhub/plain-app — ★7.111 (+10) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.25 (11-sep-2026)
 • opencloud-eu/opencloud — ★6.265 (+14) · empujó en las últimas horas · Apache-2.0 · última release v9.0.0 (27-oct-2026)
-• Moonfin-Client/Moonfin-Core — ★931 (+16) · sin fecha de empuje · GPL-2.0 · última release 3.0.0 (30-oct-2026)
+• Moonfin-Client/Moonfin-Core — ★932 (+17) · sin fecha de empuje · GPL-2.0 · última release 3.0.0 (30-oct-2026)
 • PelagicaApp/pelagica — ★384 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release 4.14.0 (18-oct-2026)
 • ParsonLabs/parson — ★135 (sin cambio) · empujó el 26-oct-2026 (hace 5 días) · GPL-3.0 · última release v1.0.1 (10-oct-2026)
 • winters27/octo — ★152 (+20) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release 2026.10.28 (29-oct-2026)

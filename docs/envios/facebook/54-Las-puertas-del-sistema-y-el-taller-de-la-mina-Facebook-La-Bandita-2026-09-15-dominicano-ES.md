@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
 - **sha256 de la pieza:** `a61e2cc71309ca2c3a38112bc8d1dd09526312b7b6d70fd97eefbef536e16595`
-- **Envío generado:** 2026-10-31 · 11 mensajes · el mayor de 3836 caracteres
+- **Envío generado:** 2026-10-31 · 11 mensajes · el mayor de 3943 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 11 · 922 caracteres ═══
@@ -255,35 +255,35 @@ Hay release de esta semana: **Khh-vu/wifi-password-manager** publicó v1.21 (202
 
 ⏬ sigue abajo · parte 6 de 10
 
-═══ MENSAJE 8 de 11 · 3836 caracteres ═══
+═══ MENSAJE 8 de 11 · 3943 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 54*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 52 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★332.464 (+677) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
-• ggml-org/llama.cpp — ★132.996 (+225) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
+• awesome-selfhosted/awesome-selfhosted — ★332.468 (+681) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• ggml-org/llama.cpp — ★133.001 (+230) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
 • jellyfin/jellyfin — ★58.875 (+88) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 2 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• SagerNet/sing-box — ★39.493 (+104) · empujó el 28-oct-2026 (hace 3 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• SagerNet/sing-box — ★39.494 (+105) · empujó el 28-oct-2026 (hace 3 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.288 (+3) · empujó en las últimas horas · Apache-2.0
-• komi-store/komi-store — ★20.174 (+84) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• komi-store/komi-store — ★20.176 (+86) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • FreshRSS/FreshRSS — ★16.470 (+24) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
-• FlareSolverr/FlareSolverr — ★16.097 (+26) · empujó el 24-oct-2026 (hace 7 días) · MIT · última release v3.5.2 (12-sep-2026)
+• FlareSolverr/FlareSolverr — ★16.098 (+27) · empujó el 24-oct-2026 (hace 7 días) · MIT · última release v3.5.2 (12-sep-2026)
 • thunderbird/thunderbird-android — ★14.168 (+11) · empujó en las últimas horas · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
 • offa/android-foss — ★11.607 (+21) · empujó el 26-oct-2026 (hace 5 días) · GPL-3.0
 • iSoron/uhabits — ★10.380 (+8) · empujó el 22-oct-2026 (hace 9 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
 • AAswordman/Operit — ★9.142 (+57) · empujó el 5-oct-2026 (hace 26 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
 • LibChecker/LibChecker — ★7.296 (+5) · sin fecha de empuje · Apache-2.0 · última release 2.5.4 (17-jun-2026)
 • tasks/tasks — ★5.705 (+7) · empujó en las últimas horas · GPL-3.0 · última release 15.13 (14-oct-2026)
-• jellyfin/jellyfin-androidtv — ★4.688 (+13) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
+• jellyfin/jellyfin-androidtv — ★4.689 (+14) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
 • KieronQuinn/Smartspacer — ★3.583 (+5) · empujó el 23-oct-2026 (hace 8 días) · GPL-3.0 · última release 1.11.4 (2-oct-2026)
 • wgtunnel/android — ★3.320 (+4) · sin fecha de empuje · MIT · última release 5.8.2 (19-oct-2026)
 • f-droid/fdroidclient — ★3.253 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release 1.18.0 (24-ene-2024)
 • jellyfin/jellyfin-android — ★2.845 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v2.7.3 (14-sep-2026)
-• Etar-Group/Etar-Calendar — ★2.630 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.0.57 (27-jul-2026)
+• Etar-Group/Etar-Calendar — ★2.630 (+2) · sin fecha de empuje · GPL-3.0 · última release v1.0.57 (27-jul-2026)
 • lihenggui/blocker — ★2.476 (+10) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v2.0.6447 (22-oct-2026)
-• AhmetCanArslan/ShizuWall — ★2.418 (+9) · empujó en las últimas horas · GPL-3.0 · última release v4.6.8 (24-oct-2026)
+• AhmetCanArslan/ShizuWall — ★2.419 (+10) · empujó en las últimas horas · GPL-3.0 · última release v4.6.8 (24-oct-2026)
 • VegaBobo/DSU-Sideloader — ★2.350 (+6) · *dormido*: sin empujar desde el 13-mar-2024 (962 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
 • dongdongbh/Mindwtr — ★2.357 (+16) · sin fecha de empuje · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.069 (+1) · *dormido*: sin empujar desde el 6-feb-2022 (1728 días) · sin licencia detectada por la API
@@ -291,12 +291,12 @@ Medí otra vez, hoy 31 de octubre de 2026, los 52 repositorios que cita esta pie
 • freeotp/freeotp-android — ★1.681 (sin cambio) · empujó el 27-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)
 • pass-with-high-score/universal-installer — ★1.653 (+13) · sin fecha de empuje · GPL-3.0 · última release v1.20.0 (25-oct-2026)
 • curbox-app/curbox-android — ★1.481 (+7) · empujó en las últimas horas · GPL-3.0 · última release 6 (15-oct-2026)
+• GlassHaven/Haven — ★1.398 (+11) · empujó en las últimas horas · AGPL-3.0 · última release v5.92.0 (31-oct-2026)
 
 ⏬ sigue abajo · parte 7 de 10
 
-═══ MENSAJE 9 de 11 · 2676 caracteres ═══
+═══ MENSAJE 9 de 11 · 2562 caracteres ═══
 
-• GlassHaven/Haven — ★1.398 (+11) · empujó en las últimas horas · AGPL-3.0 · última release v5.92.0 (31-oct-2026)
 • F0x1d/LogFox — ★1.377 (+4) · empujó el 15-oct-2026 (hace 16 días) · GPL-3.0 · última release v2.1.10-79 (1-mar-2026)
 • sdex/ActivityManager — ★1.372 (+6) · empujó el 27-oct-2026 (hace 4 días) · Apache-2.0 · última release 5.5.3 (10-oct-2026)
 • Anthonyy232/Paperize — ★1.258 (+1) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.2.1 (13-oct-2026)

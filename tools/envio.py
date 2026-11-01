@@ -125,6 +125,15 @@ def repos_citados(texto: str) -> dict[str, dict]:
             continue
         if "stars_pieza" not in salida.setdefault(repo, {}):
             salida[repo]["stars_pieza"] = int(m.group(3).replace(".", ""))
+    # repos citados en `backticks` o en **negrita** sin estrella al lado
+    for m in re.finditer(r"[`*]{1,2}([A-Za-z0-9_.\-]+)/([A-Za-z0-9_.\-]+)[`*]{1,2}", texto):
+        repo = limpiar_repo(m.group(1), m.group(2))
+        nombre = repo.split("/")[1]
+        if "." in nombre or not nombre:
+            continue
+        if m.group(1) in ("orgs", "sponsors", "topics", "search", "features", "apps"):
+            continue
+        salida.setdefault(repo, {})
     for m in REPO_URL.finditer(texto):
         owner, name = m.group(1), m.group(2)
         repo = limpiar_repo(owner, name)
@@ -581,19 +590,20 @@ def una(p: Path, med: dict, escribir: bool = True) -> dict:
     return datos
 
 
-def generar(solo: str | None = None, canal: str = "whatsapp") -> int:
+def generar(solo: str | None = None, canal: str = "whatsapp", permitir_huecos: bool = False) -> int:
     if not medicion(canal).exists():
         print("falta la medición: correr --medir primero")
         return 1
     datos = json.loads(medicion(canal).read_text(encoding="utf-8"))
     med = {**datos.get("enlaces", {}), **datos["repos"]}  # repos por «owner/nombre», enlaces por URL
-    filas = []
+    filas, huecos = [], []
     for p in piezas(canal):
         if solo and numero(p) != solo:
             continue
-        if canal == "whatsapp" and numero(p) == "01" and not solo:
-            # la 01 se entregó a mano, con su plan y su evidencia; no se pisa
-            continue
+        cuerpo, _ = cierre_viejo(p.read_text(encoding="utf-8", errors="replace"))
+        faltan = [r for r in repos_citados(cuerpo) if r not in med]
+        if faltan:
+            huecos.append((p.name, faltan))
         filas.append(una(p, med))
     indice = [f"# ENVÍOS DE {'WHATSAPP' if canal == 'whatsapp' else 'FACEBOOK'} · índice", "",
               f"Generado el {fecha_casa_hoy()} a partir de la medición del mismo día "
@@ -612,14 +622,20 @@ def generar(solo: str | None = None, canal: str = "whatsapp") -> int:
     tot = sum(f["mensajes"] for f in filas)
     indice += ["", f"**{len(filas)} piezas · {tot} mensajes** · el mayor de todos: "
                    f"{max((f['mayor'] for f in filas), default=0)} caracteres.", "",
-               ("La pieza 01 de WhatsApp tiene su propio paquete en `docs/envios/01-2026-10-31/` "
-                "(con el plan de envío y la evidencia en JSON) y no se regenera aquí."
-                if canal == "whatsapp" else "")]
+               ""]
     d = dir_salida(canal)
     d.mkdir(parents=True, exist_ok=True)
     (d / "_INDICE.md").write_text("\n".join(indice) + "\n", encoding="utf-8")
     json.dump(filas, (SALIDA / f"_envios-{canal}.json").open("w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"generados {len(filas)} envíos · {tot} mensajes · mayor {max((f['mayor'] for f in filas), default=0)}")
+    if huecos:
+        # un cierre que dice «medí N repos» cuando la mitad no tienen dato es una mentira con fecha.
+        print(f"AVISO: {len(huecos)} piezas citan repositorios sin medición de hoy:")
+        for nombre, faltan in huecos[:6]:
+            print(f"  · {nombre[:60]}: {', '.join(faltan[:4])}{'…' if len(faltan) > 4 else ''}")
+        print("  vuelve a medir con --medir antes de publicar estos envíos")
+        if not permitir_huecos:
+            return 1
     return 0
 
 
@@ -696,6 +712,8 @@ def main() -> int:
     ap.add_argument("--pieza", default=None)
     ap.add_argument("--canal", default="ambos", choices=("whatsapp", "facebook", "ambos"))
     ap.add_argument("--raiz", default=None, help="árbol alternativo (solo para la autoprueba)")
+    ap.add_argument("--permitir-huecos", action="store_true",
+                    help="genera aunque haya repos citados sin medición (no publicar así)")
     a = ap.parse_args()
     global RAIZ
     if a.raiz:
@@ -718,7 +736,7 @@ def main() -> int:
     if a.generar:
         for c in canales:
             CANAL = c
-            r = generar(a.pieza, c)
+            r = generar(a.pieza, c, a.permitir_huecos)
             if r:
                 return r
         return 0

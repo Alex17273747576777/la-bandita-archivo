@@ -100,13 +100,13 @@ Hay release de esta semana: **jeryjs/TachiyomiSY-with-discord-RPC** publicó pre
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2211 caracteres ═══
+═══ MENSAJE 4 de 5 · 2282 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 42*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jobobby04/TachiyomiSY — ★4.198 (+2) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
+• jobobby04/TachiyomiSY — ★4.199 (+3) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • stumpapp/stump — ★2.763 (+3) · sin fecha de empuje · MIT · última release v0.1.11 (20-oct-2026)
 • xgi/houdoku — ★1.119 (sin cambio) · *dormido*: sin empujar desde el 17-ene-2025 (652 días) · MIT · última release v2.16.0 (17-dic-2024)
 • maforget/ComicRackCE — ★758 (+2) · empujó el 23-oct-2026 (hace 8 días) · GPL-2.0 · última release nightly (17-ene-2024)
@@ -124,8 +124,9 @@ Medí otra vez, hoy 31 de octubre de 2026, los 15 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *19 responden*.
-Ninguno roto.
+De los 19 enlaces de esta pieza, *18 responden*.
+
+• https://crafty.moe/tachiAZ.htm — 523. Error del servidor; no es culpa del enlace.
 
 ⏬ sigue abajo · parte 3 de 4
 

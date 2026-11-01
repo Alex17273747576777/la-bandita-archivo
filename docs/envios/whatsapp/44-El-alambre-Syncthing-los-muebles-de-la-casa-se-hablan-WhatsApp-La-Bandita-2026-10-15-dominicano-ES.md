@@ -78,7 +78,7 @@ REV|378.98★ — gnihtcnys/gnihtcnys=1|REV|)12-01-6202( 7.1.2v — gnihtcnys/gn
 
 Medí otra vez, hoy 31 de octubre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.953 (+80) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (697 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • serverless-dns/serverless-dns — ★3.835 (+3) · *dormido*: sin empujar desde el 6-may-2026 (178 días) · MPL-2.0
 • researchxxl/syncthing-android — ★3.213 (+21) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)

@@ -56,8 +56,8 @@ El grupo respira despacio; su empuje más reciente, **deniscerri/ytdlnis**, fue 
 
 Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• JunkFood02/Seal — ★30.226 (+67) · empujó el 25-sep-2026 (hace 36 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
-• deniscerri/ytdlnis — ★10.890 (+46) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
+• JunkFood02/Seal — ★30.230 (+71) · empujó el 25-sep-2026 (hace 36 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
+• deniscerri/ytdlnis — ★10.891 (+47) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

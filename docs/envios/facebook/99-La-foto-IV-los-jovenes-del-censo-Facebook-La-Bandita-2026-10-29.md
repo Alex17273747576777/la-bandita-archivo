@@ -52,7 +52,7 @@ Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-2
 
 Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.396 (+27) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

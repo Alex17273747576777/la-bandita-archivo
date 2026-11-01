@@ -84,13 +84,13 @@ Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1569 caracteres ═══
+═══ MENSAJE 4 de 5 · 1561 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 36*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.776 (+39) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• koreader/koreader — ★30.777 (+40) · sin fecha de empuje · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
 • kovidgoyal/calibre — ★26.303 (+20) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
 • readest/readest — ★25.795 (+53) · sin fecha de empuje · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
 • foobnix/LibreraReader — ★4.985 (+9) · empujó en las últimas horas · NOASSERTION · última release 10.0.19 (28-oct-2026)

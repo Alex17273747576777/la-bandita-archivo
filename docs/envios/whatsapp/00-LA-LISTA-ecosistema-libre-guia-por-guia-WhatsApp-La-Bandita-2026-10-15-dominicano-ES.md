@@ -1149,8 +1149,8 @@ REV|92-01-6202 — gnihtcnys/gnihtcnys=1|REV|978.98★ — gnihtcnys/gnihtcnys=2
 
 Medí otra vez, hoy 31 de octubre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.953 (+80) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• team-spotube/spotube — ★50.524 (+58) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• team-spotube/spotube — ★50.523 (+57) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
 • KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (361 días) · GPL-3.0 · *ARCHIVADO*
 • syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (697 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • phhusson/treble_experimentations — ★3.553 (-3) · *dormido*: sin empujar desde el 27-ene-2025 (642 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*

@@ -148,7 +148,7 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 Medí otra vez, hoy 31 de octubre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.396 (+27) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
 • Kareadita/Kavita — ★11.987 (+16) · sin fecha de empuje · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
 • LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 20 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • lnreader/lnreader — ★2.944 (+2) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)

@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
 - **sha256 de la pieza:** `0eb7ff0795164a73ab025554b59fbd96e819d7414deeb2b5c4d53b61e9a75301`
-- **Envío generado:** 2026-10-31 · 6 mensajes · el mayor de 3835 caracteres
+- **Envío generado:** 2026-10-31 · 6 mensajes · el mayor de 3827 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 6 · 898 caracteres ═══
@@ -154,7 +154,7 @@ REV|92-01-6202 — krof-imoyinA-imadaT/munacradna=1|REV|0.3-LPG=2|REV|52-70-5202
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3835 caracteres ═══
+═══ MENSAJE 5 de 6 · 3827 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 102*
 
@@ -162,7 +162,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 28 repositorios que cita esta pie
 
 • iamr0s/Dhizuku — ★4.067 (+17) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 • animiruorg/Animiru — ★908 (+4) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0.1 (14-sep-2026)
-• Riteshp2001/mpvRx — ★868 (+9) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
+• Riteshp2001/mpvRx — ★868 (+9) · sin fecha de empuje · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
 • yuzono/anime-extensions — ★525 (+3) · sin fecha de empuje · Apache-2.0

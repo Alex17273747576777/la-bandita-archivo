@@ -633,9 +633,9 @@ REV|978.98★ — gnihtcnys/gnihtcnys=1|REV|esualC-2-DSB=2|REV|92-01-6202 — ai
 
 Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.953 (+80) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • restic/restic — ★36.913 (+31) · sin fecha de empuje · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
-• kopia/kopia — ★14.544 (+21) · empujó en las últimas horas · Apache-2.0 · última release v0.23.1 (16-jun-2026)
+• kopia/kopia — ★14.545 (+22) · empujó en las últimas horas · Apache-2.0 · última release v0.23.1 (16-jun-2026)
 • syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (697 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • researchxxl/syncthing-android — ★3.213 (+21) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 

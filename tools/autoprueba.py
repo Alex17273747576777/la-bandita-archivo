@@ -93,6 +93,16 @@ def _(raiz):
     (d / "colado.md").write_text("Esto entró al archivo después de firmarse y nadie lo selló.\n", encoding="utf-8")
 
 
+@caso("G10 bandas: pieza fuera de su banda declarada")
+def _(raiz):
+    d = raiz / "docs"
+    d.mkdir(exist_ok=True)
+    pieza = sorted((raiz / "Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES").glob("*.md"))[0]
+    (d / "bandas.json").write_text(
+        '{"whatsapp": {"min": 63000, "max": 63099, "piezas": {"01": '
+        '{"archivo": "' + pieza.name + '", "caracteres": 0}}}}', encoding="utf-8")
+
+
 @caso("G9 envíos: mensaje que no coincide con su cabecera")
 def _(raiz):
     d = raiz / "docs/envios/whatsapp"

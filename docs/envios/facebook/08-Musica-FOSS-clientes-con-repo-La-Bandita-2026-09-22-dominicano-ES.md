@@ -95,7 +95,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 10 repositorios que cita esta pie
 
 • TeamNewPipe/NewPipe — ★40.384 (+30) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
 • MetrolistGroup/Metrolist — ★13.921 (+32) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.605 (+76) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
+• maxrave-dev/SimpMusic — ★12.607 (+78) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
 • AntennaPod/AntennaPod — ★8.257 (+4) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • z-huang/InnerTune — ★6.130 (+2) · *dormido*: sin empujar desde el 13-nov-2025 (352 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 19 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)

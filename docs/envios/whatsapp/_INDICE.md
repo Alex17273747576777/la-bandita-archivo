@@ -7,7 +7,8 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | Pieza | Título | Mensajes | Mayor | Repos | Muertos | Apéndice | Archivo |
 |---|---|---|---|---|---|---|---|
 | 00 | LA LISTA: el ecosistema libre, guía por guía — el mapa entero de la bi | 26 | 3675 | 11 | 0 | sí | `00-LA-LISTA-ecosistema-libre-guia-por-guia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 02 | Kototoro: el mueble de tres cajones que hoy volvió a hornear | 25 | 3684 | 3 | 0 | sí | `02-Kototoro-mueble-de-tres-cajones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
+| 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 26 | 3860 | 30 | 1 | no | `01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
+| 02 | Kototoro: el mueble de tres cajones que hoy volvió a hornear | 25 | 3684 | 5 | 2 | sí | `02-Kototoro-mueble-de-tres-cajones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 03 | El censo ya sonó en cuatro países: la verificación de desarrolladores, | 26 | 3514 | 1 | 0 | sí | `03-Verificacion-Desarrolladores-hito-30-sep-2026-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 04 | Almacenes de extensiones KeiSource AbiSource y el resurtimiento del ma | 28 | 3638 | 6 | 0 | sí | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 04 | Los almacenes de las bombillas: extensiones, hubs vivos y la feria don | 26 | 3658 | 11 | 0 | sí | `04-Extensiones-tres-arboles-hubs-parsers-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -18,10 +19,10 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 08 | Musica FOSS clientes con repo SimpMusic bloquea reempaques | 25 | 3681 | 10 | 0 | sí | `08-Musica-FOSS-clientes-con-repo-SimpMusic-bloquea-reempaques-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 09 | Herramientas FOSS caja de oficio | 23 | 3716 | 16 | 0 | sí | `09-Herramientas-FOSS-caja-de-oficio-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 10 | GLTools no se receta spoof GPU | 21 | 3697 | 2 | 0 | sí | `10-GLTools-no-se-receta-spoof-GPU-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 10 | GLTools no se receta: el letrero que sobrevivió a su propia muerte, el | 8 | 3536 | 2 | 0 | sí | `10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES` |
+| 10 | GLTools no se receta: el letrero que sobrevivió a su propia muerte, el | 8 | 3536 | 3 | 1 | sí | `10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES` |
 | 100 | La foto V la mesa redonda del censo | 4 | 2158 | 2 | 0 | no | `100-La-foto-V-la-mesa-redonda-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 101 | La foto VI el pabellon de los dormidos | 5 | 3662 | 17 | 0 | no | `101-La-foto-VI-el-pabellon-de-los-dormidos-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 102 | La foto VII los invisibles de la foto | 6 | 3835 | 28 | 0 | no | `102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
+| 102 | La foto VII los invisibles de la foto | 6 | 3827 | 28 | 0 | no | `102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 103 | La foto VIII las licencias de la mesa | 6 | 3746 | 19 | 0 | no | `103-La-foto-VIII-las-licencias-de-la-mesa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 104 | La foto IX las casas con apellido | 6 | 3680 | 17 | 0 | no | `104-La-foto-IX-las-casas-con-apellido-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 105 | La foto X el dia de la foto | 2 | 787 | 0 | 0 | no | `105-La-foto-X-el-dia-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -119,6 +120,6 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 98 | La foto III el sotano completo | 5 | 3742 | 7 | 0 | no | `98-La-foto-III-el-sotano-completo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 99 | La foto IV los jovenes del censo | 4 | 3492 | 5 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 
-**112 piezas · 1056 mensajes** · el mayor de todos: 3835 caracteres.
+**113 piezas · 1082 mensajes** · el mayor de todos: 3860 caracteres.
 
-La pieza 01 de WhatsApp tiene su propio paquete en `docs/envios/01-2026-10-31/` (con el plan de envío y la evidencia en JSON) y no se regenera aquí.
+

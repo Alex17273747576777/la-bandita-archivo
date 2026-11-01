@@ -64,19 +64,20 @@ REV|0.3-LPG=1|REV|72-01-6202 — eloh-ip/eloh-ip=2|REV|955.16★ — eloh-ip/elo
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 569 caracteres ═══
+═══ MENSAJE 3 de 4 · 629 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 55*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• pi-hole/pi-hole — ★61.611 (+52) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
+• pi-hole/pi-hole — ★61.612 (+53) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
 • AdguardTeam/AdGuardHome — ★38.020 (+153) · empujó en las últimas horas · GPL-3.0 · última release v0.107.79 (18-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 4 enlaces de esta pieza, *4 responden*.
-Ninguno roto.
+De los 4 enlaces de esta pieza, *3 responden*.
+
+• https://pi-hole.net — 500. Error del servidor; no es culpa del enlace.
 
 ⏬ sigue abajo · parte 2 de 3
 

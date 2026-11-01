@@ -67,7 +67,7 @@ La noticia fresca es de **SysAdminDoc/HushFacebook**: release v0.19.0 (2026-10-2
 
 Medí otra vez, hoy 31 de octubre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.550 (+165) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.552 (+167) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • kitsumed/ShizuCallRecorder — ★1.965 (+33) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (24-oct-2026)
 • flectar/mail — ★1.710 (+25) · sin fecha de empuje · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
 • SysAdminDoc/HushFacebook — ★447 (+10) · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)

@@ -115,7 +115,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 14 repositorios que cita esta pie
 
 • TeamNewPipe/NewPipe — ★40.384 (+30) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
 • MetrolistGroup/Metrolist — ★13.921 (+32) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.605 (+76) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
+• maxrave-dev/SimpMusic — ★12.607 (+78) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
 • vfsfitvnm/ViMusic — ★9.466 (-1) · *dormido*: sin empujar desde el 15-jul-2024 (838 días) · GPL-3.0 · última release v0.5.4 (4-nov-2022) · *ARCHIVADO*
 • AntennaPod/AntennaPod — ★8.257 (+4) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • z-huang/InnerTune — ★6.130 (+2) · *dormido*: sin empujar desde el 13-nov-2025 (352 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
@@ -126,7 +126,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 14 repositorios que cita esta pie
 • N-Zik-Group/N-Zik — ★279 (+1) · sin fecha de empuje · GPL-3.0 · última release v8.5.0 (28-oct-2026)
 • DanielSevillano/music-you — ★225 (+1) · empujó el 17-oct-2026 (hace 14 días) · GPL-3.0 · última release v1.1.3 (17-oct-2026)
 • Hotaro26/gabi — ★104 (+1) · empujó el 30-sep-2026 (hace 31 días) · MIT · última release v4.6.1 (1-sep-2026)
-• ItzSkyeYT/InterTune — ★91 (+11) · empujó en las últimas horas · GPL-3.0 · última release v0.12.6 (31-oct-2026)
+• ItzSkyeYT/InterTune — ★92 (+12) · empujó en las últimas horas · GPL-3.0 · última release v0.12.6 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

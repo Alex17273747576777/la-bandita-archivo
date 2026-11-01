@@ -117,10 +117,10 @@ Hay release de esta semana: **ggml-org/llama.cpp** publicó v0.8.0 (2026-10-28).
 
 Medí otra vez, hoy 31 de octubre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★132.996 (+225) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
-• SagerNet/sing-box — ★39.493 (+104) · empujó el 28-oct-2026 (hace 3 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• ggml-org/llama.cpp — ★133.001 (+230) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
+• SagerNet/sing-box — ★39.494 (+105) · empujó el 28-oct-2026 (hace 3 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.288 (+3) · empujó en las últimas horas · Apache-2.0
-• FlareSolverr/FlareSolverr — ★16.097 (+26) · empujó el 24-oct-2026 (hace 7 días) · MIT · última release v3.5.2 (12-sep-2026)
+• FlareSolverr/FlareSolverr — ★16.098 (+27) · empujó el 24-oct-2026 (hace 7 días) · MIT · última release v3.5.2 (12-sep-2026)
 • AAswordman/Operit — ★9.142 (+57) · empujó el 5-oct-2026 (hace 26 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
 • LibChecker/LibChecker — ★7.296 (+5) · sin fecha de empuje · Apache-2.0 · última release 2.5.4 (17-jun-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.069 (+1) · *dormido*: sin empujar desde el 6-feb-2022 (1728 días) · sin licencia detectada por la API

@@ -105,9 +105,9 @@ Medí otra vez, hoy 31 de octubre de 2026, los 9 repositorios que cita esta piez
 • Dr-TSNG/ZygiskNext — ★10.768 (+26) · empujó el 15-oct-2026 (hace 16 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
 • bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release 11282 (15-oct-2026)
 • j-hc/revanced-magisk-module — ★7.710 (+5) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
-• awesome-android-root/awesome-android-root — ★5.584 (+16) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
-• PerformanC/ReZygisk — ★4.107 (+8) · empujó el 11-oct-2026 (hace 20 días) · GPL-3.0 · última release v1.0.0 (10-may-2026)
-• scummvm/scummvm — ★2.872 (+2) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
+• awesome-android-root/awesome-android-root — ★5.585 (+17) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
+• PerformanC/ReZygisk — ★4.108 (+9) · empujó el 11-oct-2026 (hace 20 días) · GPL-3.0 · última release v1.0.0 (10-may-2026)
+• scummvm/scummvm — ★2.873 (+3) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
 • snake-4/Zygisk-Assistant — ★2.661 (-1) · *dormido*: sin empujar desde el 4-may-2026 (180 días) · MIT · última release v2.1.4 (23-feb-2025)
 • siavash79/PixelXpert — ★2.441 (+1) · *dormido*: sin empujar desde el 21-jun-2026 (132 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
 • MMRLApp/MMRL — ★2.225 (+2) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v34296 (8-mar-2026)

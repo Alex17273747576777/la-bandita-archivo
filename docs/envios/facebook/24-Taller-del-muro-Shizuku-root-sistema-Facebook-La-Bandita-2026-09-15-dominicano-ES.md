@@ -143,9 +143,9 @@ Medí otra vez, hoy 31 de octubre de 2026, los 22 repositorios que cita esta pie
 • sameerasw/essentials — ★3.656 (+199) · empujó en las últimas horas · MIT · última release v20.2 (26-oct-2026)
 • DP-Hridayan/aShellYou — ★2.544 (+7) · sin fecha de empuje · GPL-3.0 · última release v7.4.0 (22-may-2026)
 • LinkSheet/LinkSheet — ★2.161 (+3) · empujó en las últimas horas · NOASSERTION · última release 0.0.33 (30-jul-2023)
-• thejaustin/ShizukuPlus — ★1.650 (+36) · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
+• thejaustin/ShizukuPlus — ★1.651 (+37) · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
 • fahrez182/AxManager — ★1.534 (+6) · empujó en las últimas horas · Apache-2.0 · última release v3.0.0 (29-oct-2026)
-• NarYuki/Dextop — ★1.078 (+22) · empujó en las últimas horas · GPL-3.0 · última release v1.7.0 (14-sep-2026)
+• NarYuki/Dextop — ★1.079 (+23) · empujó en las últimas horas · GPL-3.0 · última release v1.7.0 (14-sep-2026)
 • trinadhthatakula/Thor — ★635 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.97.1 (6-oct-2026)
 • elhizazi1/ShizuCoreFetch — ★519 (+4) · *dormido*: sin empujar desde el 15-sep-2026 (46 días) · GPL-3.0 · última release 2.4.0 (3-sep-2026)
 • Resilien-Mobile/RootlessStore — ★329 (+1) · empujó el 26-oct-2026 (hace 5 días) · AGPL-3.0 · última release v2.4.0 (26-oct-2026)
@@ -158,7 +158,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 22 repositorios que cita esta pie
 • Local1stDotApp/XFiles — ★68 (+1) · empujó el 1-oct-2026 (hace 30 días) · GPL-3.0 · última release v1.5.0 (1-oct-2026)
 • bufanchen121101/AxManagerD — ★51 (-1) · empujó en las últimas horas · NOASSERTION · última release v1.4.0 (31-oct-2026)
 • corvexis/Axora — ★18 (sin cambio) · empujó el 21-oct-2026 (hace 10 días) · Apache-2.0 · última release 26.10.21 (21-oct-2026)
-• Xtra-Manager-Software/XArchiver — ★16 (+1) · empujó el 4-oct-2026 (hace 27 días) · MIT · última release release-2.1.3 (4-oct-2026)
+• Xtra-Manager-Software/XArchiver — ★17 (+2) · empujó el 4-oct-2026 (hace 27 días) · MIT · última release release-2.1.3 (4-oct-2026)
 • yyj5201314whj/AxManager-pro — ★4 (sin cambio) · *dormido*: sin empujar desde el 1-sep-2026 (60 días) · sin licencia detectada por la API · última release v2.0.3 (1-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

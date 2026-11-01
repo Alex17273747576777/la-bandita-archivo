@@ -640,15 +640,15 @@ REV|134.2★ — cca/52-RV=1|REV|0.3-LPG=2|REV|61-01-3202 — cca/opeR-seludoM-k
 
 ⏬ sigue abajo · parte 12 de 14
 
-═══ MENSAJE 14 de 15 · 830 caracteres ═══
+═══ MENSAJE 14 de 15 · 814 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 34*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • VR-25/acc — ★2.432 (+1) · *dormido*: sin empujar desde el 6-jun-2025 (512 días) · GPL-3.0 · última release v2023.10.16 (16-oct-2023)
-• Hamza417/Inure — ★1.984 (+4) · empujó en las últimas horas · GPL-3.0 · última release build107.3.0 (21-oct-2026)
-• MatteCarra/AccA — ★1.402 (sin cambio) · *dormido*: sin empujar desde el 17-jun-2024 (866 días) · GPL-3.0 · última release v1.0.35 (31-ago-2021)
+• Hamza417/Inure — ★1.984 (+4) · sin fecha de empuje · GPL-3.0 · última release build107.3.0 (21-oct-2026)
+• MatteCarra/AccA — ★1.403 (+1) · *dormido*: sin empujar desde el 17-jun-2024 (866 días) · GPL-3.0 · última release v1.0.35 (31-ago-2021)
 • Magisk-Modules-Repo/acc — ★361 · *dormido*: sin empujar desde el 16-oct-2023 (1111 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

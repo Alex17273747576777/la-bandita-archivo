@@ -189,6 +189,40 @@ def g5_integridad() -> tuple[list[str], str]:
     return fallos, f"{n} archivos sellados" + (f" · {len(sin_sellar)} sin sellar" if sin_sellar else "")
 
 
+def g10_bandas() -> tuple[list[str], str]:
+    """Cada pieza reescrita tiene una banda de longitud declarada en docs/bandas.json. Ni menos
+    (relleno barato) ni más (palabrería): si se sale, no pasa. Y la cifra declarada en el JSON
+    tiene que coincidir con el archivo, para que nadie maquille el registro."""
+    f = RAIZ / "docs" / "bandas.json"
+    if not f.exists():
+        return [], "sin bandas declaradas"
+    try:
+        datos = json.loads(f.read_text(encoding="utf-8"))
+    except Exception as e:
+        return [f"bandas.json ilegible: {e}"], "ilegible"
+    fallos, dentro = [], 0
+    for canal, cfg in datos.items():
+        if not isinstance(cfg, dict) or "piezas" not in cfg:
+            continue
+        carpeta = {"whatsapp": "WhatsApp-dominicano-ES", "facebook": "Facebook-dominicano-ES"}.get(canal)
+        if not carpeta:
+            continue
+        for num, info in cfg["piezas"].items():
+            p = PUBLICACIONES / carpeta / info["archivo"]
+            if not p.exists():
+                fallos.append(f"{canal} {num}: falta {info['archivo']}")
+                continue
+            n = len(p.read_text(encoding="utf-8"))
+            if not (cfg["min"] <= n <= cfg["max"]):
+                fallos.append(f"{canal} {num}: {n} caracteres, fuera de la banda "
+                              f"{cfg['min']}-{cfg['max']}")
+            if info.get("caracteres") != n:
+                fallos.append(f"{canal} {num}: bandas.json declara {info.get('caracteres')} y el "
+                              f"archivo tiene {n}")
+            dentro += 1
+    return fallos, f"{dentro} piezas dentro de su banda"
+
+
 def g9_envios() -> tuple[list[str], str]:
     """Los envíos de WhatsApp/Facebook: que quepan en un mensaje, que el cuerpo esté entero y que
     el archivo sea exactamente lo que genera `tools/envio.py`. Si alguien edita un envío a mano, canta."""
@@ -304,6 +338,7 @@ def main() -> int:
         ("G7 enlaces", "puerta", g7_enlaces(ps)),
         ("G8 presupuesto", "medidor", g8_presupuesto(ps)),
         ("G9 envíos", "puerta", g9_envios()),
+        ("G10 bandas", "puerta", g10_bandas()),
     ]
     congelados = deuda_congelada()
     total_fallos = 0

@@ -100,17 +100,17 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1947 caracteres ═══
+═══ MENSAJE 4 de 5 · 1939 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 68*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.396 (+27) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
 • thunderbird/thunderbird-android — ★14.168 (+11) · empujó en las últimas horas · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
 • iSoron/uhabits — ★10.380 (+8) · empujó el 22-oct-2026 (hace 9 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
 • tasks/tasks — ★5.705 (+7) · empujó en las últimas horas · GPL-3.0 · última release 15.13 (14-oct-2026)
-• Etar-Group/Etar-Calendar — ★2.630 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.0.57 (27-jul-2026)
+• Etar-Group/Etar-Calendar — ★2.630 (+2) · sin fecha de empuje · GPL-3.0 · última release v1.0.57 (27-jul-2026)
 • dongdongbh/Mindwtr — ★2.357 (+16) · sin fecha de empuje · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
 • curbox-app/curbox-android — ★1.481 (+7) · empujó en las últimas horas · GPL-3.0 · última release 6 (15-oct-2026)
 • GlassHaven/Haven — ★1.398 (+11) · empujó en las últimas horas · AGPL-3.0 · última release v5.92.0 (31-oct-2026)

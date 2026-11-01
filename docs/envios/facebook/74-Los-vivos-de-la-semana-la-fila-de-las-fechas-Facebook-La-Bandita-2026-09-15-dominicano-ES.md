@@ -102,13 +102,13 @@ La noticia fresca es de **wikimedia/apps-android-wikipedia**: release latest (20
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2229 caracteres ═══
+═══ MENSAJE 4 de 5 · 2221 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 74*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★132.996 (+225) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
+• ggml-org/llama.cpp — ★133.001 (+230) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
 • offa/android-foss — ★11.607 (+21) · empujó el 26-oct-2026 (hace 5 días) · GPL-3.0
 • standardnotes/app — ★6.691 (+3) · empujó en las últimas horas · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
@@ -118,7 +118,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 16 repositorios que cita esta pie
 • dongdongbh/Mindwtr — ★2.357 (+16) · sin fecha de empuje · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.069 (+1) · *dormido*: sin empujar desde el 6-feb-2022 (1728 días) · sin licencia detectada por la API
 • plateaukao/einkbro — ★2.049 (+1) · empujó en las últimas horas · NOASSERTION · última release v16.7.1 (11-oct-2026)
-• axiel7/AniHyou-android — ★627 (sin cambio) · sin fecha de empuje · GPL-3.0 · última release 1.6.3 (26-sep-2026)
+• axiel7/AniHyou-android — ★628 (+1) · sin fecha de empuje · GPL-3.0 · última release 1.6.3 (26-sep-2026)
 • recloudstream/cs-repos — ★544 (+1) · empujó el 28-oct-2026 (hace 3 días) · sin licencia detectada por la API
 • phisher98/cloudstream-extensions-phisher — ★527 (+1) · empujó en las últimas horas · sin licencia detectada por la API
 • Chimahon/chimahon — ★239 (+2) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)

@@ -116,9 +116,9 @@ Empieza por las bajas: **leassapie/houri** (caído (404)) no contestaron hoy. Co
 
 Medí otra vez, hoy 31 de octubre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.396 (+27) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
 • komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 10 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• jobobby04/TachiyomiSY — ★4.198 (+2) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
+• jobobby04/TachiyomiSY — ★4.199 (+3) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • yuzono/tachiyomi-extensions — ★953 (+6) · sin fecha de empuje · Apache-2.0
 • syncyomi/syncyomi — ★740 (+3) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
 • jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)

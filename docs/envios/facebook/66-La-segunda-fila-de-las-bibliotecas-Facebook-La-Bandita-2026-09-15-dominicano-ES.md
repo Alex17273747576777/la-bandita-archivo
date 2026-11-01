@@ -108,7 +108,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 10 repositorios que cita esta pie
 • ente/ente — ★29.799 (+57) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
 • T8RIN/ImageToolbox — ★15.278 (+37) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
 • nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• deckerst/aves — ★5.476 (+8) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
+• deckerst/aves — ★5.475 (+7) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
 • burhanrashid52/PhotoEditor — ★4.531 (+1) · empujó el 27-sep-2026 (hace 34 días) · MIT · última release v.3.1.1 (17-sep-2026)
 • pulsejet/memories — ★3.872 (+4) · empujó en las últimas horas · AGPL-3.0 · última release v10.2.0 (23-oct-2026)
 • IacobIonut01/ReFra — ★2.970 (+11) · empujó el 27-oct-2026 (hace 4 días) · Apache-2.0 · última release 5.2.2 (4-oct-2026)

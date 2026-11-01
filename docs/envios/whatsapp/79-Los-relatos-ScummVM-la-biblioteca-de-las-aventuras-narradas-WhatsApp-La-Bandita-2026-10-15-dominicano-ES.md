@@ -64,14 +64,14 @@ REV|92-01-6202 — mvmmucs/mvmmucs=1|REV|)6202-tco-92 le odíel otxet( XDPS omoc
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 581 caracteres ═══
+═══ MENSAJE 3 de 4 · 573 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 79*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• scummvm/scummvm — ★2.872 (+2) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
-• dosbox-staging/dosbox-staging — ★1.833 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v0.83.0 (27-ago-2026)
+• scummvm/scummvm — ★2.873 (+3) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
+• dosbox-staging/dosbox-staging — ★1.833 (sin cambio) · sin fecha de empuje · NOASSERTION · última release v0.83.0 (27-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

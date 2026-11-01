@@ -645,9 +645,9 @@ REV|149.46★ — GNyar2v/tsud2=1|REV|CC=2|REV|03-01-6202 — nretnal/nretnalteg
 
 Medí otra vez, hoy 31 de octubre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• 2dust/v2rayNG — ★65.081 (+140) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release 2.3.14 (28-oct-2026)
-• Johnshall/Shadowrocket-ADBlock-Rules-Forever — ★31.721 (+57) · empujó en las últimas horas · NOASSERTION
-• getlantern/lantern — ★16.599 (+40) · empujó en las últimas horas · GPL-3.0 · última release v10.0.4 (27-oct-2026)
+• 2dust/v2rayNG — ★65.083 (+142) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release 2.3.14 (28-oct-2026)
+• Johnshall/Shadowrocket-ADBlock-Rules-Forever — ★31.722 (+58) · empujó en las últimas horas · NOASSERTION
+• getlantern/lantern — ★16.600 (+41) · empujó en las últimas horas · GPL-3.0 · última release v10.0.4 (27-oct-2026)
 • TeamPiped/Piped — ★10.300 (+4) · empujó en las últimas horas · AGPL-3.0
 • bromite/bromite — ★6.318 (-3) · *dormido*: sin empujar desde el 24-ene-2024 (1011 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
 • libredirect/browser_extension — ★4.104 (+7) · empujó en las últimas horas · GPL-3.0 · última release v3.4.0 (24-jul-2026)

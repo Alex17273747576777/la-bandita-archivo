@@ -110,7 +110,7 @@ Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-2
 
 Medí otra vez, hoy 31 de octubre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.396 (+27) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
 • keiyoushi/extensions-source — ★4.839 (+8) · sin fecha de empuje · Apache-2.0
 • LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 20 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • stevenyomi/copymanga — ★1.914 (-1) · *dormido*: sin empujar desde el 18-feb-2024 (986 días) · sin licencia detectada por la API · última release v1.4.53 (11-ene-2024) · *ARCHIVADO*

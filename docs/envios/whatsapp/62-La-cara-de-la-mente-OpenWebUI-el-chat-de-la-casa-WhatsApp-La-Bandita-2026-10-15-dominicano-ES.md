@@ -70,7 +70,7 @@ REV|)92-01-6202( 5.21.0v — iubew-nepo/iubew-nepo=1|REV|92-01-6202 — iubew-ne
 
 Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• open-webui/open-webui — ★157.416 (+244) · sin fecha de empuje · NOASSERTION · última release v0.12.5 (29-oct-2026)
+• open-webui/open-webui — ★157.418 (+246) · sin fecha de empuje · NOASSERTION · última release v0.12.5 (29-oct-2026)
 • ChatGPTNextWeb/NextChat — ★88.930 (+12) · empujó el 20-oct-2026 (hace 11 días) · MIT · última release v2.16.1 (29-jul-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

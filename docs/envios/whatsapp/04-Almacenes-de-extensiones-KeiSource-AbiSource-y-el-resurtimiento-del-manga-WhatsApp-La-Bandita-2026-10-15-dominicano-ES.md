@@ -791,7 +791,7 @@ REV|273.51★ — snoisnetxe/ihsuoyiek=1|REV|0.2-ehcapA=2|REV|92-01-6202 — ope
 
 Medí otra vez, hoy 31 de octubre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.396 (+27) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
 • keiyoushi/extensions-source — ★4.839 (+8) · sin fecha de empuje · Apache-2.0
 • LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 20 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • yuzono/anime-extensions — ★525 (+3) · sin fecha de empuje · Apache-2.0

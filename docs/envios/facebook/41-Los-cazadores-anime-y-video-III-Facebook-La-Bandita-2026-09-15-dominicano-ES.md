@@ -108,7 +108,7 @@ La noticia amarga: **ayman708-UX/PlayTorrioV3** (caído (404)) ya no respondiero
 
 Medí otra vez, hoy 31 de octubre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jiangtian616/JHenTai — ★5.756 (+12) · empujó en las últimas horas · Apache-2.0 · última release v8.0.18 (23-oct-2026)
+• jiangtian616/JHenTai — ★5.757 (+13) · empujó en las últimas horas · Apache-2.0 · última release v8.0.18 (23-oct-2026)
 • RyanYuuki/AnymeX — ★1.275 (sin cambio) · empujó el 28-oct-2026 (hace 3 días) · MIT · última release v3.2.0 (27-oct-2026)
 • SuperMarcus/NineAnimator — ★819 (sin cambio) · *dormido*: sin empujar desde el 14-nov-2024 (716 días) · GPL-3.0 · última release 1.2.7-6 (26-abr-2021) · *ARCHIVADO*
 • hitarth-gg/zenshin — ★778 (+4) · *dormido*: sin empujar desde el 24-may-2026 (160 días) · GPL-3.0 · última release v3.0.0 (24-may-2026)

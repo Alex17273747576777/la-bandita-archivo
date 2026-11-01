@@ -104,7 +104,7 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 11 activos este mes. Mand
 
 Medí otra vez, hoy 31 de octubre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Anxcye/anx-reader — ★9.142 (+48) · empujó el 17-oct-2026 (hace 14 días) · MIT · última release v1.14.0 (19-mar-2026)
+• Anxcye/anx-reader — ★9.147 (+53) · empujó el 17-oct-2026 (hace 14 días) · MIT · última release v1.14.0 (19-mar-2026)
 • koharu-rs/koharu — ★6.555 (+16) · empujó en las últimas horas · Apache-2.0 · última release 0.83.5 (22-sep-2026)
 • lnreader/lnreader — ★2.944 (+2) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
 • edrlab/thorium-reader — ★2.925 (+3) · empujó en las últimas horas · BSD-3-Clause · última release v3.5.1 (2-sep-2026)

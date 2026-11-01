@@ -1125,13 +1125,13 @@ Medí otra vez, hoy 31 de octubre de 2026, los 9 repositorios que cita esta piez
 
 • modelcontextprotocol/servers — ★91.722 (+41) · empujó el 29-oct-2026 (hace 2 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
 • ChatGPTNextWeb/NextChat — ★88.930 (+12) · empujó el 20-oct-2026 (hace 11 días) · MIT · última release v2.16.1 (29-jul-2025)
-• Ebony-Vinyl/dsh-our-free-model — ★54.474 (+3531) · empujó en las últimas horas · MIT · última release v2.7.4-macos-unofficial (31-oct-2026)
+• Ebony-Vinyl/dsh-our-free-model — ★54.533 (+3590) · empujó en las últimas horas · MIT · última release v2.7.4-macos-unofficial (31-oct-2026)
 • moeru-ai/airi — ★50.965 (+75) · sin fecha de empuje · MIT · última release v0.14.1 (30-oct-2026)
-• janhq/jan — ★45.206 (+53) · empujó en las últimas horas · NOASSERTION · última release v0.8.8 (28-oct-2026)
+• janhq/jan — ★45.207 (+54) · empujó en las últimas horas · NOASSERTION · última release v0.8.8 (28-oct-2026)
 • xai-org/grok-build — ★27.634 (+32) · empujó el 29-sep-2026 (hace 32 días) · Apache-2.0
-• yetone/magpie — ★27.000 (+1578) · sin fecha de empuje · MIT · última release v0.1.2519 (1-nov-2026)
-• browser-use/jev-ultrafast — ★23.994 (+101) · empujó en las últimas horas · MIT
-• modelcontextprotocol/modelcontextprotocol — ★9.577 (+15) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
+• yetone/magpie — ★27.027 (+1605) · sin fecha de empuje · MIT · última release v0.1.2523 (1-nov-2026)
+• browser-use/jev-ultrafast — ★23.996 (+103) · empujó en las últimas horas · MIT
+• modelcontextprotocol/modelcontextprotocol — ★9.578 (+16) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

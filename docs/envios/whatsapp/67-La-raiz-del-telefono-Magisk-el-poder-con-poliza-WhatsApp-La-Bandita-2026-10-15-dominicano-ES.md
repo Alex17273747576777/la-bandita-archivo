@@ -73,8 +73,8 @@ REV|932.581★ — amallo/amallo=1|REV|)82-01-6202( 31.04.0v — amallo/amallo=2
 
 Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.490 (+251) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• syncthing/syncthing — ★89.953 (+80) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• ollama/ollama — ★185.495 (+256) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • topjohnwu/Magisk — ★63.657 (+62) · empujó el 27-oct-2026 (hace 4 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

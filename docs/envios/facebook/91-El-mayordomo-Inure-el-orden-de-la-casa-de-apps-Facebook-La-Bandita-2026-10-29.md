@@ -46,13 +46,13 @@ El grupo respira despacio; su empuje más reciente, **Hamza417/Inure**, fue hace
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 446 caracteres ═══
+═══ MENSAJE 3 de 4 · 438 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 91*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Hamza417/Inure — ★1.984 (+4) · empujó en las últimas horas · GPL-3.0 · última release build107.3.0 (21-oct-2026)
+• Hamza417/Inure — ★1.984 (+4) · sin fecha de empuje · GPL-3.0 · última release build107.3.0 (21-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

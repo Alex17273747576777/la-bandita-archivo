@@ -6,13 +6,13 @@
 - **Envío generado:** 2026-10-31 · 25 mensajes · el mayor de 3684 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 25 · 899 caracteres ═══
+═══ MENSAJE 1 de 25 · 911 caracteres ═══
 
 *Kototoro: el mueble de tres cajones que hoy volvió a hornear*
 
 La Bandita · pieza 02 · guía del 29-oct-2026 · te la mando hoy en 25 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *3 repositorios, 3 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *5 repositorios, 3 vivos y 2 muertos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
 Licencias de lo que recomienda: Apache-2.0 1 · GPL-3.0 1 · sin licencia 1.
 
@@ -887,15 +887,17 @@ REV|0.3-LPG=1|REV|356★ — orototoK/ppa-orototoK=2|REV|92-01-6202 — orototoK
 
 ⏬ sigue abajo · parte 22 de 24
 
-═══ MENSAJE 24 de 25 · 661 caracteres ═══
+═══ MENSAJE 24 de 25 · 901 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0
 • Kototoro-app/Kototoro-Nightly — ★12 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
+• reference/tvbox-runtime — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
+• kototoro-app.github.io/Kototoro — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

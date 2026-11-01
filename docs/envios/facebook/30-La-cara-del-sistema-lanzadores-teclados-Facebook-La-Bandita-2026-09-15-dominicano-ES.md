@@ -101,7 +101,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 11 repositorios que cita esta pie
 • Mahmud0808/ColorBlendr — ★2.574 (+5) · empujó en las últimas horas · GPL-3.0 · última release v3.1.2 (31-oct-2026)
 • KieronQuinn/AmbientMusicMod — ★2.525 (+1) · *dormido*: sin empujar desde el 7-sep-2024 (784 días) · GPL-3.0 · última release 2.4 (7-sep-2024)
 • NeoApplications/Neo-Launcher — ★2.153 (+2) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release 0.9.3 (18-dic-2023)
-• you-apps/WallYou — ★1.446 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release v17.1 (29-oct-2026)
+• you-apps/WallYou — ★1.447 (+7) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release v17.1 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
