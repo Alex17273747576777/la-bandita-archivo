@@ -108,7 +108,7 @@ Pulso de hoy sobre los 16 repos de la pieza: 16 vivos, 14 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2320 caracteres ═══
+═══ MENSAJE 4 de 5 · 2296 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 59*
 
@@ -118,8 +118,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pi
 • jellyfin/jellyfin — ★58.893 (+106) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • komi-store/komi-store — ★20.202 (+112) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• FreshRSS/FreshRSS — ★16.473 (+27) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
-• offa/android-foss — ★11.610 (+24) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
+• FreshRSS/FreshRSS — ★16.474 (sin cambio) · empujó en las últimas horas · AGPL-3.0
+• offa/android-foss — ★11.611 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
 • jellyfin/jellyfin-androidtv — ★4.693 (+18) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
 • wgtunnel/android — ★3.320 (+4) · empujó en las últimas horas · MIT · última release 5.8.2 (19-oct-2026)
 • f-droid/fdroidclient — ★3.255 (+8) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release 1.18.0 (24-ene-2024)

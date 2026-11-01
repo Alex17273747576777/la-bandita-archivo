@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `b2138ea760f99257997b8af7aa202bf37af0bf69b1f87c4ed5bdc52132e03c03`
-- **Envío generado:** 2026-11-01 · 26 mensajes · el mayor de 3924 caracteres
+- **Envío generado:** 2026-11-01 · 26 mensajes · el mayor de 3869 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 26 · 773 caracteres ═══
@@ -843,7 +843,7 @@ Y una cosa más, que es la razón por la que el archivo existe: *todo lo que aqu
 
 ⏬ sigue abajo · parte 22 de 25
 
-═══ MENSAJE 24 de 26 · 3924 caracteres ═══
+═══ MENSAJE 24 de 26 · 3869 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
@@ -864,7 +864,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 32 repositorios que cita esta pi
 • NeoApplications/Neo-Store — ★5.596 (+1) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
 • shmykelsa/AAAD — ★3.199 (+1) · empujó el 27-sep-2026 (hace 35 días) · MIT · última release v2.8.5 (17-jun-2026)
 • accrescent/accrescent — ★2.305 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
-• solkin/appteka-android — ★1.368 (+1) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v23.0 (13-ago-2026)
+• solkin/appteka-android — ★1.368 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0
 • GrapheneOS/AppStore — ★625 (sin cambio) · empujó en las últimas horas · MIT · última release 37 (31-oct-2026)
 • RikkaApps/Shizuku — ★32.585 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • JonaNorman/WebViewUpgrade — ★456 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · Apache-2.0
@@ -872,9 +872,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 32 repositorios que cita esta pi
 • daboynb/developer-verifier-placeholder — ★184 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)
 • AuroraOSS/AuroraStore — ★71 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • fmhy/edit — ★12.677 (+4) · empujó en las últimas horas · sin licencia detectada por la API
-• offa/android-foss — ★11.610 (-1) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
+• offa/android-foss — ★11.611 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
 • timschneeb/awesome-shizuku — ★10.672 (+2) · empujó en las últimas horas · NOASSERTION
-• Psyhackological/AAA — ★3.141 (sin cambio) · empujó el 29-sep-2026 (hace 33 días) · CC-BY-4.0 · última release 250 (7-may-2024)
+• Psyhackological/AAA — ★3.141 (sin cambio) · empujó el 29-sep-2026 (hace 33 días) · CC-BY-4.0
 • sri-sivaram/Neko-Manga-Pearl — ★116 · empujó en las últimas horas · sin licencia detectada por la API
 • ubedshah/manga-vault-nexus — ★115 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 • meyamane37923-hash/komikku-scans — ★114 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API

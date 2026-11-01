@@ -1069,7 +1069,7 @@ REV|0.3-LPGA=1|REV|895.36★ — ksigaM/uwnhojpot=2|REV|92-01-6202 — cisuMpmiS
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1439 caracteres ═══
+═══ MENSAJE 19 de 20 · 1408 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
@@ -1081,7 +1081,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pi
 • MetrolistGroup/Metrolist — ★13.933 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0
 • maxrave-dev/SimpMusic — ★12.619 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • Dr-TSNG/ZygiskNext — ★10.776 (+34) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.682 (+43) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.2.0 (12-ene-2026)
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.682 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
 • bmax121/APatch — ★8.116 (+12) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
 • namidaco/namida — ★6.756 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION
 • OuterTune/OuterTune — ★5.441 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0

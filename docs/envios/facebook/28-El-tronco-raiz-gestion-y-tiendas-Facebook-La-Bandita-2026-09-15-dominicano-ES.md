@@ -126,13 +126,13 @@ Pulso de hoy sobre los 20 repos de la pieza: 20 vivos, 15 activos este mes. Mand
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2564 caracteres ═══
+═══ MENSAJE 5 de 6 · 2504 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 28*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 20 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Genymobile/scrcpy — ★153.733 (+232) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
+• Genymobile/scrcpy — ★153.736 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
 • termux/termux-app — ★63.878 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION
 • topjohnwu/Magisk — ★63.671 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0
 • RikkaApps/Shizuku — ★32.585 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
@@ -151,7 +151,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 20 repositorios que cita esta pi
 • zacharee/InstallWithOptions — ★3.394 (+9) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release 0.9.2 (14-mar-2026)
 • whyorean/AuroraStore — ★3.216 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • accrescent/accrescent — ★2.305 (-1) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
-• solkin/appteka-android — ★1.368 (+9) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v23.0 (13-ago-2026)
+• solkin/appteka-android — ★1.368 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

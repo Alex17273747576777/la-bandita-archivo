@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `48f8b1c6bd4f8569a5887a7236ecf9c077eb639c1e61596134def8fdb11e1583`
-- **Envío generado:** 2026-11-01 · 13 mensajes · el mayor de 3884 caracteres
+- **Envío generado:** 2026-11-01 · 13 mensajes · el mayor de 3943 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 13 · 929 caracteres ═══
@@ -311,14 +311,14 @@ Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Mand
 
 ⏬ sigue abajo · parte 7 de 12
 
-═══ MENSAJE 9 de 13 · 3884 caracteres ═══
+═══ MENSAJE 9 de 13 · 3943 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 55*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • ente/ente — ★29.809 (+67) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
-• T8RIN/ImageToolbox — ★15.285 (+44) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
+• T8RIN/ImageToolbox — ★15.285 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • floccusaddon/floccus — ★8.610 (+7) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
 • ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
@@ -347,12 +347,12 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 • Justwen/NGA-CLIENT-VER-OPEN-SOURCE — ★601 (sin cambio) · empujó el 24-oct-2026 (hace 8 días) · GPL-2.0 · última release 5.0.2 (30-ago-2026)
 • opendocument-app/OpenDocument.droid — ★485 (+1) · empujó en las últimas horas · MPL-2.0 · última release v4.24.0 (31-oct-2026)
 • ZWolken/Light-Novel-Yuedu-Source — ★450 (+2) · *dormido*: sin empujar desde el 22-sep-2025 (405 días) · MIT · última release v24-12-13 (13-dic-2024)
+• Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 
 ⏬ sigue abajo · parte 8 de 12
 
-═══ MENSAJE 10 de 13 · 3597 caracteres ═══
+═══ MENSAJE 10 de 13 · 3742 caracteres ═══
 
-• Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • Utazukin/Ichaival — ★220 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (67 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
 • materializr-cad/materializr — ★305 (+103) · empujó en las últimas horas · GPL-3.0 · última release v1.7.7 (1-nov-2026)
 • ArtifexSoftware/mupdf-android-viewer — ★199 (sin cambio) · empujó el 25-sep-2026 (hace 37 días) · AGPL-3.0
@@ -378,13 +378,13 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 • Volksverpetzer/vvp_app — ★11 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · MIT · última release v2.5.4 (9-oct-2026)
 • v4lpt/MYC — ★6 (sin cambio) · *dormido*: sin empujar desde el 19-nov-2025 (347 días) · GPL-3.0 · última release v1.0.4 (18-oct-2025)
 • deedeedev/YtReader — ★6 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v0.8.7 (31-oct-2026)
+• bibledit/android — ★4 (sin cambio) · empujó el 1-oct-2026 (hace 31 días) · sin licencia detectada por la API · última release 5.1.047 (4-jun-2026)
+• vauvenal5/yaga — ★2 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0
 
 ⏬ sigue abajo · parte 9 de 12
 
-═══ MENSAJE 11 de 13 · 558 caracteres ═══
+═══ MENSAJE 11 de 13 · 325 caracteres ═══
 
-• bibledit/android — ★4 (sin cambio) · empujó el 1-oct-2026 (hace 31 días) · sin licencia detectada por la API · última release 5.1.047 (4-jun-2026)
-• vauvenal5/yaga — ★2 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0
 • KamiYomu/KamiYomu.CrawlerAgents.Core — ★0 (sin cambio) · *dormido*: sin empujar desde el 30-ago-2026 (63 días) · MIT · última release 1.2.3 (27-ago-2026)
 • ulightm111/boky-fivavahana-ion — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v2.6.1 (14-oct-2026)
 

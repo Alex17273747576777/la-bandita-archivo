@@ -890,7 +890,7 @@ REV|0.2-LPM=1|REV|03-01-6202 — spamcinagro/spamcinagro=2|REV|984.69★ — dne
 
 ⏬ sigue abajo · parte 20 de 22
 
-═══ MENSAJE 22 de 23 · 2063 caracteres ═══
+═══ MENSAJE 22 de 23 · 1973 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
@@ -906,12 +906,12 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pi
 • MuntashirAkon/AppManager — ★9.399 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
 • Kunzisoft/KeePassDX — ★7.581 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • TeamAmaze/AmazeFileManager — ★6.450 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• FossifyOrg/Gallery — ★3.874 (+13) · empujó en las últimas horas · GPL-3.0 · última release 1.14.1 (24-oct-2026)
+• FossifyOrg/Gallery — ★3.873 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • guardianproject/orbot-android — ★3.666 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION
-• FossifyOrg/Calendar — ★2.264 (+9) · empujó en las últimas horas · GPL-3.0 · última release 1.12.1 (24-oct-2026)
+• FossifyOrg/Calendar — ★2.264 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • FossifyOrg/File-Manager — ★1.846 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • FossifyOrg/Phone — ★1.397 (+3) · empujó en las últimas horas · GPL-3.0 · última release 1.11.1 (3-feb-2026)
-• FossifyOrg/Clock — ★718 (+3) · empujó en las últimas horas · GPL-3.0 · última release 1.6.0 (30-ene-2026)
+• FossifyOrg/Clock — ★718 (sin cambio) · empujó en las últimas horas · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

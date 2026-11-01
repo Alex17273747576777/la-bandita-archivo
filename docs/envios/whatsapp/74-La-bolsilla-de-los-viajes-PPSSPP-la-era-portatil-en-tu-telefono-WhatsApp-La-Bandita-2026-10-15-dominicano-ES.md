@@ -60,13 +60,13 @@ REV|)61-50-6202( 4.02.1v — ppsspp/dragdyrh=1|REV|92-01-6202 — ppsspp/dragdyr
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 449 caracteres ═══
+═══ MENSAJE 3 de 4 · 417 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 74*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• hrydgard/ppsspp — ★14.799 (+17) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
+• hrydgard/ppsspp — ★14.799 (sin cambio) · empujó en las últimas horas · NOASSERTION
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

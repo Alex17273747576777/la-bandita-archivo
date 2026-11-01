@@ -131,7 +131,7 @@ La noticia fresca es de **lollipopkit/flutter_server_box**: release v1.0.1844 (2
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2434 caracteres ═══
+═══ MENSAJE 5 de 6 · 2381 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 75*
 
@@ -147,11 +147,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pi
 • mlc-ai/mlc-llm — ★23.289 (+4) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • xbmc/xbmc — ★21.410 (+11) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
 • komi-store/komi-store — ★20.202 (+112) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• FreshRSS/FreshRSS — ★16.473 (+27) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
+• FreshRSS/FreshRSS — ★16.474 (sin cambio) · empujó en las últimas horas · AGPL-3.0
 • FlareSolverr/FlareSolverr — ★16.103 (+32) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release v3.5.2 (12-sep-2026)
-• T8RIN/ImageToolbox — ★15.285 (+44) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
+• T8RIN/ImageToolbox — ★15.285 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • thunderbird/thunderbird-android — ★14.169 (+12) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
-• offa/android-foss — ★11.610 (+24) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
+• offa/android-foss — ★11.611 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
 • iSoron/uhabits — ★10.381 (+9) · empujó el 22-oct-2026 (hace 10 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
 • lollipopkit/flutter_server_box — ★8.926 (+29) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
 • floccusaddon/floccus — ★8.610 (+7) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)

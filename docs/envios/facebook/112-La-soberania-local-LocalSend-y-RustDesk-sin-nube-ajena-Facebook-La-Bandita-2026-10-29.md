@@ -93,20 +93,20 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1932 caracteres ═══
+═══ MENSAJE 4 de 5 · 1869 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 112*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• rustdesk/rustdesk — ★127.778 (+283) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.0 (30-sep-2026)
+• rustdesk/rustdesk — ★127.779 (sin cambio) · empujó en las últimas horas · AGPL-3.0
 • localsend/localsend — ★96.921 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 • termux/termux-app — ★63.878 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION
 • RikkaApps/Shizuku — ★32.585 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • mihonapp/mihon — ★24.930 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
 • komi-store/komi-store — ★20.202 (+112) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • keiyoushi/extensions — ★15.405 (+36) · empujó en las últimas horas · sin licencia detectada por la API · última release 2d50f67 (1-nov-2026)
-• hrydgard/ppsspp — ★14.799 (+17) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
+• hrydgard/ppsspp — ★14.799 (sin cambio) · empujó en las últimas horas · NOASSERTION
 • guardianproject/orbot-android — ★3.666 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION
 • itsmechinmoy/dantotsu-updater — ★155 (+1) · empujó en las últimas horas · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
 • itsmechinmoy/Dantotsu — ★92 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)

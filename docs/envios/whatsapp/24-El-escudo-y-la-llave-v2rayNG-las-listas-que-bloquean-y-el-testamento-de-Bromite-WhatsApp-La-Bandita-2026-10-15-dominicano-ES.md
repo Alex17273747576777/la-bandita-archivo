@@ -639,13 +639,13 @@ REV|149.46★ — GNyar2v/tsud2=1|REV|CC=2|REV|03-01-6202 — nretnal/nretnalteg
 
 ⏬ sigue abajo · parte 12 de 14
 
-═══ MENSAJE 14 de 15 · 1022 caracteres ═══
+═══ MENSAJE 14 de 15 · 990 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 24*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• 2dust/v2rayNG — ★65.112 (+171) · empujó en las últimas horas · GPL-3.0 · última release 2.3.14 (28-oct-2026)
+• 2dust/v2rayNG — ★65.115 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • Johnshall/Shadowrocket-ADBlock-Rules-Forever — ★31.738 (+74) · empujó en las últimas horas · NOASSERTION
 • getlantern/lantern — ★16.607 (+48) · empujó en las últimas horas · GPL-3.0 · última release v10.0.4 (27-oct-2026)
 • TeamPiped/Piped — ★10.299 (+3) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0

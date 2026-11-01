@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a61e2cc71309ca2c3a38112bc8d1dd09526312b7b6d70fd97eefbef536e16595`
-- **Envío generado:** 2026-11-01 · 11 mensajes · el mayor de 3888 caracteres
+- **Envío generado:** 2026-11-01 · 11 mensajes · el mayor de 3864 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 11 · 923 caracteres ═══
@@ -255,7 +255,7 @@ Hay release de esta semana: **Khh-vu/wifi-password-manager** publicó v1.21 (202
 
 ⏬ sigue abajo · parte 6 de 10
 
-═══ MENSAJE 8 de 11 · 3888 caracteres ═══
+═══ MENSAJE 8 de 11 · 3864 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 54*
 
@@ -268,10 +268,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 52 repositorios que cita esta pi
 • SagerNet/sing-box — ★39.502 (+113) · empujó el 28-oct-2026 (hace 4 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.289 (+4) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • komi-store/komi-store — ★20.202 (+112) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• FreshRSS/FreshRSS — ★16.473 (+27) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
+• FreshRSS/FreshRSS — ★16.474 (sin cambio) · empujó en las últimas horas · AGPL-3.0
 • FlareSolverr/FlareSolverr — ★16.103 (+32) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release v3.5.2 (12-sep-2026)
 • thunderbird/thunderbird-android — ★14.169 (+12) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
-• offa/android-foss — ★11.610 (+24) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
+• offa/android-foss — ★11.611 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
 • iSoron/uhabits — ★10.381 (+9) · empujó el 22-oct-2026 (hace 10 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
 • AAswordman/Operit — ★9.158 (+73) · empujó el 5-oct-2026 (hace 27 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
 • LibChecker/LibChecker — ★7.295 (+4) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
@@ -294,7 +294,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 52 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 7 de 10
 
-═══ MENSAJE 9 de 11 · 2652 caracteres ═══
+═══ MENSAJE 9 de 11 · 2623 caracteres ═══
 
 • GlassHaven/Haven — ★1.400 (+13) · empujó en las últimas horas · AGPL-3.0 · última release v5.93.0 (1-nov-2026)
 • F0x1d/LogFox — ★1.379 (+6) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v2.1.10-79 (1-mar-2026)
@@ -305,7 +305,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 52 repositorios que cita esta pi
 • K3vinb5/unyo-app — ★672 (+3) · empujó en las últimas horas · BSD-3-Clause
 • RohitKushvaha01/ReTerminal — ★661 (+1) · empujó el 26-sep-2026 (hace 36 días) · MIT · última release v1.2.0 (10-jun-2025)
 • supershadoe/delta — ★586 (+2) · empujó en las últimas horas · BSD-3-Clause · última release 2025.08+0 (24-ago-2025)
-• FossifyOrg/Notes — ★510 (+4) · empujó en las últimas horas · GPL-3.0 · última release 1.7.0 (30-ene-2026)
+• FossifyOrg/Notes — ★510 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • dorumrr/de1984 — ★471 (+3) · empujó el 27-oct-2026 (hace 5 días) · MIT · última release v2.8.4 (27-oct-2026)
 • Khh-vu/wifi-password-manager — ★325 (+3) · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.21 (29-oct-2026)
 • nardjes5/kumo-surreal — ★115 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API

@@ -7,7 +7,7 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | Pieza | Título | Mensajes | Mayor | Repos | Muertos | Apéndice | Archivo |
 |---|---|---|---|---|---|---|---|
 | 00 | LA LISTA: el ecosistema libre, guía por guía — el mapa entero de la bi | 26 | 3675 | 11 | 0 | sí | `00-LA-LISTA-ecosistema-libre-guia-por-guia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 26 | 3924 | 32 | 1 | no | `01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
+| 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 26 | 3869 | 32 | 1 | no | `01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
 | 02 | El mueble de los tres cajones: la familia Tachiyomi, sus servidores y  | 27 | 3895 | 58 | 3 | no | `02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
 | 03 | La cerradura que cambió de dueño: la verificación de desarrolladores,  | 28 | 3930 | 33 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES` |
 | 04 | Almacenes de extensiones KeiSource AbiSource y el resurtimiento del ma | 28 | 3638 | 6 | 0 | sí | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
