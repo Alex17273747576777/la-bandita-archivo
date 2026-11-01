@@ -141,7 +141,7 @@ REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — revres/duolctxen=2|REV|)62
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2694 caracteres ═══
+═══ MENSAJE 5 de 6 · 2612 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 103*
 
@@ -162,8 +162,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pi
 • qbittorrent/qBittorrent — ★41.295 (+82) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
 • photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • nextcloud/server — ★37.382 (+37) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• koodo-reader/koodo-reader — ★28.688 (+20) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
-• keiyoushi/extensions — ★15.405 (+36) · empujó en las últimas horas · sin licencia detectada por la API · última release 2d50f67 (1-nov-2026)
+• koodo-reader/koodo-reader — ★28.688 (sin cambio) · empujó en las últimas horas · AGPL-3.0
+• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
 • Dr-TSNG/ZygiskNext — ★10.776 (+34) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
 • modelcontextprotocol/modelcontextprotocol — ★9.580 (+18) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 

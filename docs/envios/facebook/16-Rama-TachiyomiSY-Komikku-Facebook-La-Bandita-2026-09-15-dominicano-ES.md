@@ -110,16 +110,16 @@ Empieza por las bajas: **leassapie/houri** (caído (404)) no contestaron hoy. Co
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2653 caracteres ═══
+═══ MENSAJE 4 de 5 · 2609 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 16*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.405 (+36) · empujó en las últimas horas · sin licencia detectada por la API · última release 2d50f67 (1-nov-2026)
-• komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• jobobby04/TachiyomiSY — ★4.199 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• yuzono/tachiyomi-extensions — ★953 (+6) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
+• komikku-app/komikku — ★4.965 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• jobobby04/TachiyomiSY — ★4.200 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• yuzono/tachiyomi-extensions — ★953 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • syncyomi/syncyomi — ★741 (+4) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
 • jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)
 • cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f3291a9 (31-oct-2026)

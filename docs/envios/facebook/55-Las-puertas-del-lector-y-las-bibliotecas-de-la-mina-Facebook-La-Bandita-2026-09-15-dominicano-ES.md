@@ -351,7 +351,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 8 de 12
 
-═══ MENSAJE 10 de 13 · 3742 caracteres ═══
+═══ MENSAJE 10 de 13 · 3706 caracteres ═══
 
 • Utazukin/Ichaival — ★220 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (67 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
 • materializr-cad/materializr — ★305 (+103) · empujó en las últimas horas · GPL-3.0 · última release v1.7.7 (1-nov-2026)
@@ -359,7 +359,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 • magic-cucumber/Pixiv-MultiPlatform — ★196 (sin cambio) · *dormido*: sin empujar desde el 16-sep-2026 (46 días) · GPL-3.0 · última release v1.8.7 (24-jul-2026)
 • nilsbraden/ttrss-reader-fork — ★181 (sin cambio) · *dormido*: sin empujar desde el 7-ago-2026 (86 días) · sin licencia detectada por la API · última release v1.98.1_1981 (30-dic-2025)
 • chmouel/liseur — ★170 (+6) · empujó en las últimas horas · MIT · última release v0.26.0 (28-oct-2026)
-• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
+• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0
 • VincentEngel/VES-Image-Compare — ★144 (sin cambio) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · GPL-3.0 · última release fdroid-v2.3.6 (26-may-2026)
 • ArtifexSoftware/mupdf-android-viewer-mini — ★139 (sin cambio) · empujó el 25-sep-2026 (hace 37 días) · AGPL-3.0
 • mshdabiola/NotePad — ★131 (sin cambio) · *dormido*: sin empujar desde el 27-oct-2025 (370 días) · GPL-3.0 · última release 1.3.7 (30-ene-2025)

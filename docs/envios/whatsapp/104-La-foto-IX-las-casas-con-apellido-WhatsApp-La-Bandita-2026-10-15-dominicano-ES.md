@@ -137,10 +137,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 17 repositorios que cita esta pi
 • home-assistant/core — ★91.891 (+60) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
 • nextcloud/server — ★37.382 (+37) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • openwrt/openwrt — ★29.005 (+30) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
-• mihonapp/mihon — ★24.930 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
 • MorpheApp/morphe-manager — ★9.812 (+123) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
 • KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
-• aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
+• aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
 • nextcloud/android — ★5.673 (+17) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)

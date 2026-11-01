@@ -881,7 +881,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 17 repositorios que cita esta pi
 • signalapp/Signal-Android — ★29.565 (+12) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release v8.33.2 (26-oct-2026)
 • mvt-project/mvt — ★15.667 · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2026.10.26 (26-oct-2026)
 • tailscale/tailscale — ★38.468 (sin cambio) · empujó en las últimas horas · BSD-3-Clause
-• ImranR98/Obtainium — ★21.115 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• ImranR98/Obtainium — ★21.116 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • threema-ch/threema-android — ★1.003 · empujó el 23-sep-2026 (hace 39 días) · AGPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

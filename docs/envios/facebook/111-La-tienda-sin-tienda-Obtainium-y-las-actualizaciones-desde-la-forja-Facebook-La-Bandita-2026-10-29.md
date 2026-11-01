@@ -60,7 +60,7 @@ La noticia fresca es de **ImranR98/Obtainium**: release v1.7.3 (2026-10-25). El 
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ImranR98/Obtainium — ★21.115 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• ImranR98/Obtainium — ★21.116 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • Droid-ify/client — ★7.678 (sin cambio) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0
 • solkin/appteka-android — ★1.368 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0
 

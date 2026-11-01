@@ -646,24 +646,24 @@ Y si lo que falla es el catálogo, no es el lector. Son dos relojes distintos y 
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.930 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
-• jobobby04/TachiyomiSY — ★4.199 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• jobobby04/TachiyomiSY — ★4.200 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Jays2Kings/tachiyomiJ2K — ★5.399 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• komikku-app/komikku — ★4.965 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • null2264/yokai — ★1.914 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0
 • Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
+• aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
 • aniyomiorg/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
-• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• kodjodevf/mangayomi — ★4.288 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
 • KotatsuApp/kotatsu-parsers — sin dato hoy (la API no respondió). No afirmo nada.
 • UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
 • yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0
 • Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• Aidoku/Aidoku — ★4.683 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• Aidoku/Aidoku — ★4.685 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (235 días) · GPL-3.0
-• Suwayomi/Suwayomi-Server — ★7.986 (sin cambio) · empujó en las últimas horas · MPL-2.0
+• Suwayomi/Suwayomi-Server — ★7.987 (sin cambio) · empujó en las últimas horas · MPL-2.0
 • Suwayomi/Tachidesk-Sorayomi — sin dato hoy (la API no respondió). No afirmo nada.
 • gotson/komga — ★6.806 (sin cambio) · empujó en las últimas horas · MIT
 • Kareadita/Kavita — ★11.988 (sin cambio) · empujó en las últimas horas · GPL-3.0

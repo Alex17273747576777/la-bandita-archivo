@@ -617,11 +617,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 21 repositorios que cita esta pi
 
 • UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
 • Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• kodjodevf/mangayomi — ★4.288 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0
-• roxycon-dev/Ciallo-Reader — ★270 (sin cambio) · empujó en las últimas horas · MIT
-• Aidoku/Aidoku — ★4.683 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• roxycon-dev/Ciallo-Reader — ★271 (sin cambio) · empujó en las últimas horas · MIT
+• Aidoku/Aidoku — ★4.685 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (235 días) · GPL-3.0
 • eguojz/usagi-sora-vn-sources — ★119 (sin cambio) · empujó en las últimas horas · sin licencia
 • Boomckman/usagi-nightly — ★114 (sin cambio) · empujó en las últimas horas · sin licencia

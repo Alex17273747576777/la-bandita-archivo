@@ -69,7 +69,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pie
 
 • jellyfin/jellyfin — ★58.893 (+106) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • Kareadita/Kavita — ★11.988 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• Suwayomi/Suwayomi-Server — ★7.986 (sin cambio) · empujó en las últimas horas · MPL-2.0
+• Suwayomi/Suwayomi-Server — ★7.987 (sin cambio) · empujó en las últimas horas · MPL-2.0
 • gotson/komga — ★6.806 (sin cambio) · empujó en las últimas horas · MIT
 • tachimanga/Tachidesk-Server — ★45 (+1) · *dormido*: sin empujar desde el 15-jul-2026 (109 días) · MPL-2.0
 

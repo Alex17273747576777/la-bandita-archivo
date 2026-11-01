@@ -437,7 +437,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pi
 • topjohnwu/Magisk — ★63.671 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0
 • LSPosed/LSPosed — ★25.288 (sin cambio) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0
 • LSPosed/LSPatch — sin dato hoy (la API no respondió). No afirmo nada.
-• RikkaApps/Shizuku — ★32.585 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• RikkaApps/Shizuku — ★32.590 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • skylot/jadx — ★51.442 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • iBotPeaches/Apktool — ★26.891 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0
 • microg/GmsCore — ★15.152 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0

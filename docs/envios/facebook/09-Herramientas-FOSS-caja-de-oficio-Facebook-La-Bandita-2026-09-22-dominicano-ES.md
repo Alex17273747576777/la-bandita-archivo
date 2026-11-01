@@ -98,11 +98,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 • localsend/localsend — ★96.921 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 • termux/termux-app — ★63.878 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION
-• RikkaApps/Shizuku — ★32.585 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
-• ImranR98/Obtainium — ★21.115 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• RikkaApps/Shizuku — ★32.590 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• ImranR98/Obtainium — ★21.116 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • organicmaps/organicmaps — ★15.843 (sin cambio) · empujó en las últimas horas · NOASSERTION
 • beemdevelopment/Aegis — ★13.442 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0
-• MuntashirAkon/AppManager — ★9.399 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
+• MuntashirAkon/AppManager — ★9.398 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
 • Kunzisoft/KeePassDX — ★7.581 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • TeamAmaze/AmazeFileManager — ★6.450 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • guardianproject/orbot-android — ★3.666 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION

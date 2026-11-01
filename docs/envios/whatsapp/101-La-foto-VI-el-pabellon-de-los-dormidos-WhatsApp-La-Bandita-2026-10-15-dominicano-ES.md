@@ -132,10 +132,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 17 repositorios que cita esta pi
 
 • justjavac/free-programming-books-zh_CN — ★119.469 (+31) · *dormido*: sin empujar desde el 29-jul-2026 (95 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
 • syncthing/syncthing — ★89.976 (+103) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• RikkaApps/Shizuku — ★32.585 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• RikkaApps/Shizuku — ★32.590 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • beemdevelopment/Aegis — ★13.442 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0
 • KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
-• aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
+• aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
 • Droid-ify/client — ★7.678 (sin cambio) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0
 • cloudflare/boringtun — ★7.245 (+8) · *dormido*: sin empujar desde el 29-jun-2026 (125 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
 • smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1287 días) · Apache-2.0

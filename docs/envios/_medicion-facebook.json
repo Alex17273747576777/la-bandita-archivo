@@ -15,7 +15,7 @@
    "stars_pieza": null
   },
   "RikkaApps/Shizuku": {
-   "stars": 32585,
+   "stars": 32590,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
    "push": "2025-06-18",
@@ -24,7 +24,7 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 32585
+   "stars_pieza": 32590
   },
   "iamr0s/Dhizuku": {
    "estado": "vivo",
@@ -39,16 +39,16 @@
    "stars_pieza": 4050
   },
   "timschneeb/ShizuStore": {
-   "estado": "vivo",
    "stars": 502,
-   "push": "2026-11-01",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-01",
    "desc": "App store for Shizuku apps. Based on my awesome-shizuku list and installs APKs straight from their upstream sources",
-   "release": "1.5.0",
-   "release_fecha": "2026-10-05",
-   "stars_pieza": null
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 502
   },
   "daboynb/developer-verifier-placeholder": {
    "estado": "vivo",
@@ -63,16 +63,16 @@
    "stars_pieza": null
   },
   "samyak2403/RepoStore": {
-   "estado": "vivo",
    "stars": 1372,
-   "push": "2026-10-29",
-   "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Kotlin",
+   "push": "2026-10-29",
    "desc": "Explore apps published on GitHub, view release details, and install APKs instantly — all in one place. Developed using pure Kotlin, optimized for modern Android devices.",
-   "release": "v1.0.22",
-   "release_fecha": "2026-10-29",
-   "stars_pieza": null
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 1372
   },
   "wxxsfxyzm/InstallerX-Revived": {
    "estado": "vivo",
@@ -111,16 +111,16 @@
    "stars_pieza": null
   },
   "accrescent/accrescent": {
-   "estado": "vivo",
    "stars": 2305,
-   "push": "2026-10-31",
-   "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-31",
    "desc": "A novel Android app store focused on security, privacy, and usability",
-   "release": "0.28.1",
-   "release_fecha": "2025-11-10",
-   "stars_pieza": 2306
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 2305
   },
   "JonaNorman/WebViewUpgrade": {
    "estado": "vivo",
@@ -135,28 +135,28 @@
    "stars_pieza": null
   },
   "vinstall/VInstall": {
-   "estado": "vivo",
    "stars": 105,
-   "push": "2026-10-30",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-30",
    "desc": "Android package installer supporting APK, XAPK, APKS, APKM, and the custom APKV encrypted format — with built-in app manager, backup, and silent install via root or Shizuku.",
-   "release": "v0.4.5",
-   "release_fecha": "2026-10-30",
-   "stars_pieza": null
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 105
   },
   "Paving-Base/APK-Installer": {
-   "estado": "vivo",
    "stars": 1712,
-   "push": "2026-10-20",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "C#",
+   "push": "2026-10-20",
    "desc": "An Android Application Installer for Windows",
-   "release": "v0.1.28",
-   "release_fecha": "2025-08-11",
-   "stars_pieza": null
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 1712
   },
   "SysAdminDoc/AppManagerNG": {
    "estado": "vivo",
@@ -207,7 +207,7 @@
    "stars_pieza": null
   },
   "MuntashirAkon/AppManager": {
-   "stars": 9399,
+   "stars": 9398,
    "licencia": "NOASSERTION",
    "lenguaje": "Java",
    "push": "2026-10-30",
@@ -216,10 +216,10 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 9399
+   "stars_pieza": 9398
   },
   "ImranR98/Obtainium": {
-   "stars": 21115,
+   "stars": 21116,
    "licencia": "GPL-3.0",
    "lenguaje": "Dart",
    "push": "2026-11-01",
@@ -228,19 +228,19 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 21115
+   "stars_pieza": 21116
   },
   "NeoApplications/Neo-Store": {
-   "estado": "vivo",
    "stars": 5596,
-   "push": "2026-10-23",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-23",
    "desc": "An F-Droid client with modern UI and an arsenal of extra features.",
-   "release": "1.3.3",
-   "release_fecha": "2026-10-23",
-   "stars_pieza": 5570
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 5596
   },
   "sri-sivaram/Neko-Manga-Pearl": {
    "estado": "vivo",
@@ -315,7 +315,7 @@
    "stars_pieza": 11988
   },
   "roxycon-dev/Ciallo-Reader": {
-   "stars": 270,
+   "stars": 271,
    "licencia": "MIT",
    "lenguaje": "Kotlin",
    "push": "2026-11-01",
@@ -324,7 +324,7 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 270
+   "stars_pieza": 271
   },
   "yomihon/yomihon": {
    "stars": 142,
@@ -375,16 +375,16 @@
    "stars_pieza": 6806
   },
   "Snd-R/Komelia": {
-   "estado": "vivo",
    "stars": 437,
-   "push": "2026-10-29",
-   "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-29",
    "desc": "Komga media client",
-   "release": "0.20.0",
-   "release_fecha": "2026-09-27",
-   "stars_pieza": null
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 437
   },
   "kmworks/kmreader": {
    "estado": "vivo",
@@ -435,16 +435,16 @@
    "stars_pieza": 164
   },
   "josueBarretogit/manga-tui": {
-   "estado": "vivo",
    "stars": 954,
-   "push": "2026-11-01",
-   "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Rust",
-   "desc": "Terminal-based manga reader and downloader with image rendering support",
-   "release": "v0.10.1",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": null
+   "push": "2026-11-01",
+   "desc": "Terminal-based manga reader and downloader with image rendering support ",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 954
   },
   "elboletaire/manga-downloader": {
    "estado": "vivo",
@@ -459,27 +459,27 @@
    "stars_pieza": null
   },
   "MapoMagpie/comic-looms": {
-   "estado": "vivo",
    "stars": 813,
-   "push": "2026-10-22",
-   "archivado": false,
    "licencia": "MIT",
    "lenguaje": "TypeScript",
+   "push": "2026-10-22",
    "desc": "Manga reader and downloader, Focus on experience and low load on the site. support site like e-hentai.org | x.com | pixiv.net.",
-   "release": "4.16.1",
-   "release_fecha": "2026-10-09",
-   "stars_pieza": null
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 813
   },
   "KamiYomu/KamiYomu": {
-   "estado": "vivo",
    "stars": 150,
-   "push": "2026-09-20",
-   "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "C#",
+   "push": "2026-09-20",
    "desc": "A self-hosted, extensible manga reader and download tool with plug-in support.",
-   "release": "1.4.0",
-   "release_fecha": "2026-09-01",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
    "stars_pieza": 150
   },
   "Yui007/weebcentral_downloader": {
@@ -495,16 +495,16 @@
    "stars_pieza": null
   },
   "koodo-reader/koodo-reader": {
-   "estado": "vivo",
    "stars": 28688,
-   "push": "2026-11-01",
-   "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "JavaScript",
+   "push": "2026-11-01",
    "desc": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
-   "release": "v2.4.6",
-   "release_fecha": "2026-10-07",
-   "stars_pieza": 28667
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 28688
   },
   "meyamane37923-hash/komikku-scans": {
    "estado": "vivo",
@@ -543,7 +543,7 @@
    "stars_pieza": null
   },
   "Suwayomi/Suwayomi-Server": {
-   "stars": 7986,
+   "stars": 7987,
    "licencia": "MPL-2.0",
    "lenguaje": "Java",
    "push": "2026-11-01",
@@ -552,7 +552,7 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 7986
+   "stars_pieza": 7987
   },
   "nekomangaorg/Neko": {
    "stars": 2818,
@@ -582,7 +582,7 @@
    "stars_pieza": null
   },
   "mihonapp/mihon": {
-   "stars": 24930,
+   "stars": 24932,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
    "push": "2026-10-26",
@@ -591,10 +591,10 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 24930
+   "stars_pieza": 24932
   },
   "komikku-app/komikku": {
-   "stars": 4964,
+   "stars": 4965,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
    "push": "2026-11-01",
@@ -603,13 +603,13 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 4964
+   "stars_pieza": 4965
   },
   "Kototoro-app/Kototoro": {
    "stars": 660,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "desc": "Manga, Novel, and Video reader for Android",
    "archivado": false,
    "estado": "vivo",
@@ -618,7 +618,7 @@
    "stars_pieza": 660
   },
   "aniyomiorg/aniyomi": {
-   "stars": 7865,
+   "stars": 7866,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
    "push": "2026-09-14",
@@ -627,10 +627,10 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 7865
+   "stars_pieza": 7866
   },
   "kodjodevf/mangayomi": {
-   "stars": 4287,
+   "stars": 4288,
    "licencia": "Apache-2.0",
    "lenguaje": "Dart",
    "push": "2026-11-01",
@@ -639,7 +639,7 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 4287
+   "stars_pieza": 4288
   },
   "AngeloSha/uchiyomi": {
    "estado": "vivo",
@@ -774,16 +774,16 @@
    "stars_pieza": null
   },
   "yuzono/tachiyomi-extensions": {
-   "estado": "vivo",
    "stars": 953,
-   "push": "2026-11-01",
-   "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-01",
    "desc": "Source code of extensions for Komikku / Mihon & forks.",
-   "release": null,
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
    "release_fecha": "",
-   "stars_pieza": 947
+   "stars_pieza": 953
   },
   "m2k3a/mangayomi-extensions": {
    "stars": 113,
@@ -1242,16 +1242,16 @@
    "stars_pieza": null
   },
   "keiyoushi/extensions": {
-   "estado": "vivo",
-   "stars": 15405,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": null,
+   "stars": 15406,
+   "licencia": "sin licencia",
    "lenguaje": "HTML",
+   "push": "2026-11-01",
    "desc": "Extension repository for Mihon and variants",
-   "release": "2d50f67",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": 15369
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 15406
   },
   "LittleSurvival/copymanga-copy20": {
    "estado": "vivo",
@@ -1756,7 +1756,7 @@
    "stars_pieza": null
   },
   "jobobby04/TachiyomiSY": {
-   "stars": 4199,
+   "stars": 4200,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
    "push": "2026-11-01",
@@ -1765,7 +1765,7 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 4199
+   "stars_pieza": 4200
   },
   "KotatsuApp/kotatsu-parsers": {
    "stars": 323,
@@ -1780,7 +1780,7 @@
    "stars_pieza": 323
   },
   "Aidoku/Aidoku": {
-   "stars": 4683,
+   "stars": 4685,
    "licencia": "GPL-3.0",
    "lenguaje": "Swift",
    "push": "2026-10-31",
@@ -1789,7 +1789,7 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 4683
+   "stars_pieza": 4685
   },
   "Suwatte/Suwatte": {
    "stars": 237,
@@ -2769,7 +2769,7 @@
    "stars_pieza": 3192
   },
   "libre-tube/LibreTube": {
-   "stars": 12928,
+   "stars": 12930,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
    "push": "2026-10-30",
@@ -2778,7 +2778,7 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 12928
+   "stars_pieza": 12930
   },
   "mankidev/orvid": {
    "estado": "vivo",
@@ -2834,7 +2834,7 @@
    "stars_pieza": null
   },
   "Predidit/Kazumi": {
-   "stars": 40565,
+   "stars": 40576,
    "licencia": "GPL-3.0",
    "lenguaje": "Dart",
    "push": "2026-10-31",
@@ -2843,7 +2843,7 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 40565
+   "stars_pieza": 40576
   },
   "solkin/appteka-android": {
    "stars": 1368,
@@ -9292,7 +9292,7 @@
    "stars_pieza": 3141
   },
   "kurikomi-labs/komi-store": {
-   "stars": 20203,
+   "stars": 20206,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
    "push": "2026-11-01",
@@ -9301,10 +9301,10 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 20203
+   "stars_pieza": 20206
   },
   "rehmatworks/gplaydl": {
-   "stars": 690,
+   "stars": 691,
    "licencia": "MIT",
    "lenguaje": "Python",
    "push": "2026-09-30",
@@ -9313,7 +9313,7 @@
    "estado": "vivo",
    "release": "",
    "release_fecha": "",
-   "stars_pieza": 690
+   "stars_pieza": 691
   },
   "dbeley/fdroid-insights": {
    "stars": 27,

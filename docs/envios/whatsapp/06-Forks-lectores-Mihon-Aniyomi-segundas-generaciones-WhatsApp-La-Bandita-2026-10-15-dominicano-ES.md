@@ -1035,10 +1035,10 @@ REV|048.42★ — nohim/ppanohim=1|REV|0.2-ehcapA=2|REV|92-01-6202 — liateminA
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.930 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
-• aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
-• komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• jobobby04/TachiyomiSY — ★4.199 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
+• komikku-app/komikku — ★4.965 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• jobobby04/TachiyomiSY — ★4.200 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • komikku-app/anikku — ★1.127 (sin cambio) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0
 • syncyomi/syncyomi — ★741 (+4) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)

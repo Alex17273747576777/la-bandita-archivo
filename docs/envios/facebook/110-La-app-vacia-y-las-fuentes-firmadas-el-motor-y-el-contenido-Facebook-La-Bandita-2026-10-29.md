@@ -63,8 +63,8 @@ La noticia fresca es de **mankidev/orvid**: release v0.4.22 (2026-10-29). El emp
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Predidit/Kazumi — ★40.565 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• mihonapp/mihon — ★24.930 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• Predidit/Kazumi — ★40.576 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
 • mankidev/orvid — ★10 (+1) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v0.4.22 (29-oct-2026)
 • mankidev/orvid-sources — ★1 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0
 

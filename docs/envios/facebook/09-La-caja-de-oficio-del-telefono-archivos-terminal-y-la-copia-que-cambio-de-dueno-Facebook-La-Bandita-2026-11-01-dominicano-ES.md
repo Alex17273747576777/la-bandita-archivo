@@ -434,7 +434,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pi
 • GrapheneOS/PdfViewer — ★1.062 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT
 • FedericoIOSue/Omni-Notes — ★2.807 (sin cambio) · empujó el 22-oct-2026 (hace 10 días) · GPL-3.0
 • Darkempire78/OpenCalc — ★1.544 (sin cambio) · *dormido*: sin empujar desde el 10-jul-2026 (114 días) · GPL-3.0
-• MuntashirAkon/AppManager — ★9.399 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
+• MuntashirAkon/AppManager — ★9.398 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
 • MuntashirAkon/libadb-android — ★415 (sin cambio) · *dormido*: sin empujar desde el 3-jun-2026 (151 días) · NOASSERTION
 • KDE/kdeconnect-android — ★1.494 (sin cambio) · empujó en las últimas horas · GPL-2.0
 

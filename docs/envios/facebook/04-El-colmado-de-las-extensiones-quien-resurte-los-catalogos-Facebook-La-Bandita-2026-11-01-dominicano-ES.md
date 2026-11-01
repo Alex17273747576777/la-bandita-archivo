@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/04-El-colmado-de-las-extensiones-quien-resurte-los-catalogos-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `1cee5ddcad5944217c751afda2288cfec39bb72528638e5a5ec861a8c8c5c4b8`
-- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3763 caracteres
+- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3719 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 18 · 780 caracteres ═══
@@ -576,7 +576,7 @@ Ninguno de esos datos te dice qué instalar. Te dicen cómo preguntar, que es m�
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 3763 caracteres ═══
+═══ MENSAJE 17 de 18 · 3719 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
@@ -585,8 +585,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pi
 • Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
 • Aidoku-Community/sources — ★614 (+5) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • keiyoushi/extensions-source — ★4.845 · empujó en las últimas horas · Apache-2.0
-• keiyoushi/extensions — ★15.405 (+36) · empujó en las últimas horas · sin licencia detectada por la API · última release 2d50f67 (1-nov-2026)
-• yuzono/tachiyomi-extensions — ★953 (+6) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
+• yuzono/tachiyomi-extensions — ★953 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • beer-psi/tachiyomi-unofficial-extensions — ★53 · *dormido*: sin empujar desde el 29-ago-2026 (64 días) · Apache-2.0 · última release cuutruyen-1.4.8 (31-jul-2023)
 • everfio/tachiyomi-extensions — ★41 · empujó en las últimas horas · sin licencia detectada por la API
 • marbou92/MHExtensions — ★7 · empujó en las últimas horas · Apache-2.0
@@ -595,7 +595,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pi
 • timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (223 días) · Apache-2.0 · *ARCHIVADO*
 • m2k3a/mangayomi-extensions — ★113 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 • skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• kodjodevf/mangayomi — ★4.288 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Aidoku-Community/legacy-sources — ★705 · *dormido*: sin empujar desde el 9-sep-2026 (53 días) · Apache-2.0
 • Aidoku/aidoku-rs — ★55 · empujó el 6-oct-2026 (hace 26 días) · MIT
 • suiyuran/aidoku-zh-sources — ★906 · *dormido*: sin empujar desde el 30-mar-2026 (216 días) · sin licencia detectada por la API
@@ -610,11 +610,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pi
 • nickEatsBread/izumi-extension-repo — ★0 · *dormido*: sin empujar desde el 3-sep-2026 (59 días) · sin licencia detectada por la API
 • mrtear/Extension-Source-Builder — ★31 · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · sin licencia detectada por la API
 • SeoMavares/miwayomi — ★31 · *dormido*: sin empujar desde el 14-ago-2026 (79 días) · Apache-2.0 · última release v0.2.9 (13-ago-2026)
-• mihonapp/mihon — ★24.930 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
-• komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• komikku-app/komikku — ★4.965 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
+• aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -67,13 +67,13 @@ Lo primero, lo que se cayó: **inaccurate-hotelplan289/HomeLabSetup** (caído (4
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1487 caracteres ═══
+═══ MENSAJE 3 de 4 · 1451 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 71*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 8 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
+• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0
 • vauvenal5/yaga — ★2 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0
 • KamiYomu/KamiYomu.CrawlerAgents.Core — ★0 (sin cambio) · *dormido*: sin empujar desde el 30-ago-2026 (63 días) · MIT · última release 1.2.3 (27-ago-2026)
 • helios57/muplay — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 18 días) · MIT · última release v0.3.0 (11-oct-2026)

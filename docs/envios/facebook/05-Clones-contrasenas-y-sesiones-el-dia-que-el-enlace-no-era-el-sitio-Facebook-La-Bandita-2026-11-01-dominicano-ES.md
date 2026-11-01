@@ -457,7 +457,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pi
 • celzero/rethink-app — ★5.828 · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
 • tailscale/tailscale — ★38.468 (sin cambio) · empujó en las últimas horas · BSD-3-Clause
 • mvt-project/mvt — ★15.667 · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2026.10.26 (26-oct-2026)
-• ImranR98/Obtainium — ★21.115 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• ImranR98/Obtainium — ★21.116 (sin cambio) · empujó en las últimas horas · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
