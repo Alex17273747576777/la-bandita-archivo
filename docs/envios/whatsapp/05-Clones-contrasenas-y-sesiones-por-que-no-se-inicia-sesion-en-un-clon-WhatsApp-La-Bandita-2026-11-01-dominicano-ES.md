@@ -860,16 +860,16 @@ No es un sistema elegante, ni moderno, ni divertido. Es el que aguanta un doming
 
 ⏬ sigue abajo · parte 21 de 23
 
-═══ MENSAJE 23 de 24 · 2442 caracteres ═══
+═══ MENSAJE 23 de 24 · 2318 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 05*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Kunzisoft/KeePassDX — ★7.581 (+16) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• Kunzisoft/KeePassDX — ★7.581 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • PhilippC/keepass2android — ★6.352 · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
 • bitwarden/android — ★9.570 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
-• beemdevelopment/Aegis — ★13.442 (+28) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• beemdevelopment/Aegis — ★13.442 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0
 • twofas/2fas-android — ★1.562 · empujó en las últimas horas · GPL-3.0 · última release 6.1.0 (19-oct-2026)
 • uazo/cromite — ★8.455 (+6) · empujó en las últimas horas · GPL-3.0 · última release v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a (15-sep-2026)
 • gorhill/uBlock — ★68.997 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 1.75.0 (16-sep-2026)
@@ -880,8 +880,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 17 repositorios que cita esta pi
 • AdguardTeam/AdGuardHome — ★38.033 (+166) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.107.79 (18-ago-2026)
 • signalapp/Signal-Android — ★29.565 (+12) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release v8.33.2 (26-oct-2026)
 • mvt-project/mvt — ★15.667 · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2026.10.26 (26-oct-2026)
-• tailscale/tailscale — ★38.467 (+163) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
-• ImranR98/Obtainium — ★21.115 (+90) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• tailscale/tailscale — ★38.468 (sin cambio) · empujó en las últimas horas · BSD-3-Clause
+• ImranR98/Obtainium — ★21.115 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • threema-ch/threema-android — ★1.003 · empujó el 23-sep-2026 (hace 39 días) · AGPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `48f8b1c6bd4f8569a5887a7236ecf9c077eb639c1e61596134def8fdb11e1583`
-- **Envío generado:** 2026-11-01 · 13 mensajes · el mayor de 3915 caracteres
+- **Envío generado:** 2026-11-01 · 13 mensajes · el mayor de 3884 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 13 · 929 caracteres ═══
@@ -311,7 +311,7 @@ Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Mand
 
 ⏬ sigue abajo · parte 7 de 12
 
-═══ MENSAJE 9 de 13 · 3915 caracteres ═══
+═══ MENSAJE 9 de 13 · 3884 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 55*
 
@@ -333,7 +333,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 • SimonSchubert/LinuxCommandLibrary — ★2.089 (+3) · empujó en las últimas horas · Apache-2.0 · última release v4.9.1 (14-oct-2026)
 • LinwoodDev/Butterfly — ★2.085 (+3) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.2 (28-oct-2026)
 • plateaukao/einkbro — ★2.049 (+1) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
-• null2264/yokai — ★1.914 (+2) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
+• null2264/yokai — ★1.914 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0
 • mateusz-bak/openreads — ★1.666 (+2) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-2.0 · última release v2.11.0 (9-sep-2025)
 • Livinglist/Hacki — ★1.638 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.8.2 (11-oct-2026)
 • astubenbord/paperless-mobile — ★1.493 (+2) · *dormido*: sin empujar desde el 1-jun-2026 (153 días) · GPL-3.0 · última release v4.5.0 (16-abr-2026)
@@ -350,9 +350,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 8 de 12
 
-═══ MENSAJE 10 de 13 · 3627 caracteres ═══
+═══ MENSAJE 10 de 13 · 3597 caracteres ═══
 
-• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • Utazukin/Ichaival — ★220 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (67 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
 • materializr-cad/materializr — ★305 (+103) · empujó en las últimas horas · GPL-3.0 · última release v1.7.7 (1-nov-2026)
 • ArtifexSoftware/mupdf-android-viewer — ★199 (sin cambio) · empujó el 25-sep-2026 (hace 37 días) · AGPL-3.0

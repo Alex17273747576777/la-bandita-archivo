@@ -294,7 +294,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 52 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 7 de 10
 
-═══ MENSAJE 9 de 11 · 2691 caracteres ═══
+═══ MENSAJE 9 de 11 · 2652 caracteres ═══
 
 • GlassHaven/Haven — ★1.400 (+13) · empujó en las últimas horas · AGPL-3.0 · última release v5.93.0 (1-nov-2026)
 • F0x1d/LogFox — ★1.379 (+6) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v2.1.10-79 (1-mar-2026)
@@ -313,7 +313,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 52 repositorios que cita esta pi
 • tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
 • LinZong/Hostman — ★58 (sin cambio) · *dormido*: sin empujar desde el 31-dic-2025 (305 días) · MIT · última release 1.1.1 (31-dic-2025)
 • Carry-rrk/ManageSensors — ★46 (sin cambio) · *dormido*: sin empujar desde el 18-ene-2025 (652 días) · MIT · última release debug (18-ene-2025)
-• dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release d605625 (23-oct-2026)
+• dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0
 • K3vinb5/Unyo-Extensions — ★10 (sin cambio) · *dormido*: sin empujar desde el 3-nov-2024 (728 días) · GPL-3.0
 • Awerkori/manga-fonte-extensoes — ★9 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • tadamiorg/tadami-extensions — ★3 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · sin licencia detectada por la API

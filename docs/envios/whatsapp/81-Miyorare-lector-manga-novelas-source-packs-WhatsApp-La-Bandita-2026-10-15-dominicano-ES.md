@@ -68,15 +68,15 @@ REV|0.3-LPG=1|REV|92-01-6202 — eraroyiM/orerioN=2|REV|)92-01-6202( 61.4.1v —
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 930 caracteres ═══
+═══ MENSAJE 3 de 4 · 833 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 81*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
+• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0
 • Noirero/Miyorare — ★20 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.4.16 (29-oct-2026)
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia
 • Noirero/Miyorare-Source-Packs — ★3 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release miyorare-sources-v0.5.15 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

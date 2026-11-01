@@ -88,11 +88,11 @@ Cada fila está leída tres veces: buscador, página y archivo crudo. Donde las 
 *Los lectores*
 
 - **Usagi** — lector pequeño con ecosistema propio de fuentes ★288 · licencia GPL-3.0 · Kotlin · empujó el 30-oct · https://github.com/UsagiApp/Usagi
-- **Kototoro** — joven, con motor de parsers aparte ★659 · licencia Apache-2.0 · Kotlin · empujó el 31-oct · release v2.3.4 (29-oct) · https://github.com/Kototoro-app/Kototoro
+- **Kototoro** — joven, con motor de parsers aparte ★660 · licencia Apache-2.0 · Kotlin · empujó el 31-oct · release v2.3.4 (29-oct) · https://github.com/Kototoro-app/Kototoro
 - **Mangayomi** — en Dart, con fuentes en JavaScript ★4.287 · licencia Apache-2.0 · Dart · empujó hoy · release v0.9.9 (12-oct) · https://github.com/kodjodevf/mangayomi
 - **Chimahon** — nicho con releases regulares ★240 · licencia GPL-3.0 · Kotlin · empujó el 28-oct · release v2.4.8 (19-oct) · https://github.com/Chimahon/chimahon
 - **Yomihon** — de la misma camada chica ★142 · licencia Apache-2.0 · Kotlin · empujó el 18-oct · release v0.4.3 (18-oct) · https://github.com/yomihon/yomihon
-- **Ciallo-Reader** — el recién llegado con licencia MIT ★267 · licencia MIT · Kotlin · empujó hoy · https://github.com/roxycon-dev/Ciallo-Reader
+- **Ciallo-Reader** — el recién llegado con licencia MIT ★270 · licencia MIT · Kotlin · empujó hoy · https://github.com/roxycon-dev/Ciallo-Reader
 - **Aidoku** — el vecino de la orilla de Apple ★4.683 · licencia GPL-3.0 · Swift · empujó el 31-oct · release v0.9-4 (16-oct) · https://github.com/Aidoku/Aidoku
 - **Suwatte** — la otra casa de esa orilla, quieta desde marzo ★237 · licencia GPL-3.0 · Swift · último empujón 11-mar-2026 · https://github.com/Suwatte/Suwatte
 
@@ -572,7 +572,7 @@ Y hay una advertencia que se repite en las fichas: casi la mitad de estos proyec
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Un vecino no se cae cuando lo abandonan: se cae cuando se paran sus fuentes y nadie lo nota.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 09:40 y las 12:20 de Santo Domingo · dieciséis repositorios leídos tres veces cada uno (buscador, página y archivo crudo) y cinco más tomados del censo del mismo día · una discrepancia de licencia queda dicha en su ficha · lo que no se midió está señalado arriba como no medido.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 07:05 y las 07:55 de Santo Domingo, y repasada a las 10:52· dieciséis repositorios leídos tres veces cada uno (buscador, página y archivo crudo) y cinco más tomados del censo del mismo día · una discrepancia de licencia queda dicha en su ficha · lo que no se midió está señalado arriba como no medido.
 
 *Licencia de esta guía:* contenido CC BY-SA 4.0, datos CC BY 4.0, código MIT; marca y nombre de la casa reservados para «Alexis (La Bandita)».
 
@@ -583,3 +583,5 @@ Y hay una advertencia que se repite en las fichas: casi la mitad de estos proyec
 **Nota de alcance (1-nov):** esta guía habla de lectores y de sus fuentes, no de sitios de contenido. No reparte enlaces de series ni recomienda dónde leer: mide proyectos y enseña a leer sus fechas.
 
 **Nota de corrección (1-nov):** dos repositorios de fuentes de este censo no declaran licencia y aun así se citan, porque son las fuentes más movidas del vecindario y esconderlas sería contar medio mapa. La ficha lo dice con esas palabras en vez de callarlo.
+
+**Nota de repaso (1-nov, 10:52):** segunda pasada del vecindario a las 10:52: veintiuno de los repositorios citados, cuatro empujaron hoy y cinco están archivados, entre ellos la casa de Kotatsu con sus tres satélites. Las cifras de la tabla son las de esta pasada, no las de la madrugada.

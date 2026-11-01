@@ -2,15 +2,15 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/08-Musica-libre-en-el-telefono-los-clientes-con-repositorio-y-los-reempaques-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `44be24c5283e7b35d00d16ed7d8e50b489c06d9b46c5c86f94cb13702489685a`
-- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3667 caracteres
+- **sha256 de la pieza:** `663d8b5697e7cfdfe7458238d82ca193fa7cf1ac70b7d349200e141222d64fdb`
+- **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3667 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 783 caracteres ═══
+═══ MENSAJE 1 de 17 · 783 caracteres ═══
 
 *Música libre en el teléfono: los clientes con repositorio y los reempaques*
 
-La Bandita · pieza 08 · guía del 1-nov-2026 · te la mando hoy en 16 mensajes.
+La Bandita · pieza 08 · guía del 1-nov-2026 · te la mando hoy en 17 mensajes.
 
 Antes de mandártela volví a medir lo que afirma: *16 repositorios, 16 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
@@ -20,7 +20,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 16 · 3640 caracteres ═══
+═══ MENSAJE 2 de 17 · 3640 caracteres ═══
 
 *Música libre en el teléfono: los clientes con repositorio y los reempaques*
 
@@ -68,9 +68,9 @@ Antes de comparar nada, conviene separar los dos mundos, porque las promesas de 
 
 *Por qué conviene tener los dos.* Porque el local sigue sonando cuando el otro no puede. Cualquiera que haya perdido su lista una tarde de lluvia entiende la ventaja en un segundo.
 
-⏬ sigue abajo · parte 1 de 15
+⏬ sigue abajo · parte 1 de 16
 
-═══ MENSAJE 3 de 16 · 1939 caracteres ═══
+═══ MENSAJE 3 de 17 · 1939 caracteres ═══
 
 *🎬 Seis escenas del barrio*
 
@@ -86,9 +86,9 @@ Antes de comparar nada, conviene separar los dos mundos, porque las promesas de 
 
 *Escena seis: el que escucha en la guagua.* Un motorista llena la tarjeta cada domingo y no gasta datos. Su reproductor local no le pide cuenta, no le muestra anuncios y no le avisa de nada. Para él, la discusión entre clientes de streaming no existe, y ese es un dato del barrio que ningún censo mide.
 
-⏬ sigue abajo · parte 2 de 15
+⏬ sigue abajo · parte 2 de 16
 
-═══ MENSAJE 4 de 16 · 3352 caracteres ═══
+═══ MENSAJE 4 de 17 · 3382 caracteres ═══
 
 *🧾 El censo de hoy*
 
@@ -96,18 +96,18 @@ Dieciséis proyectos leídos tres veces: buscador, página del repositorio y arc
 
 *Los que leen de una API*
 
-- **Spotube** — el más grande de todos, con cliente de escritorio y de teléfono ★50.530 · licencia AGPL-3.0 en la ficha y MIT en su README · Kotlin · empujó el 31-oct · release v6.0.0-beta.0 (30-oct) · https://github.com/team-spotube/spotube
-- **Metrolist** — cliente de catálogo con descargas ★13.930 · licencia GPL-3.0 · Kotlin · empujó el 25-oct · https://github.com/MetrolistGroup/Metrolist
-- **SimpMusic** — cliente con letras y listas sincronizadas ★12.614 · licencia GPL-3.0 · Kotlin · empujó hoy · https://github.com/maxrave-dev/SimpMusic
+- **Spotube** — el más grande de todos, con cliente de escritorio y de teléfono ★50.531 · licencia AGPL-3.0 en la ficha y MIT en su README · Kotlin · empujó el 31-oct · release v6.0.0-beta.0 (30-oct) · https://github.com/team-spotube/spotube
+- **Metrolist** — cliente de catálogo con descargas ★13.933 · licencia GPL-3.0 · Kotlin · empujó el 25-oct · https://github.com/MetrolistGroup/Metrolist
+- **SimpMusic** — cliente con letras y listas sincronizadas ★12.619 · licencia GPL-3.0 · Kotlin · empujó hoy y publicó la v2.5.0 hoy mismo · https://github.com/maxrave-dev/SimpMusic
 - **Núcleo de SimpMusic** — la parte que se separó del cliente ★22 · licencia GPL-3.0 · Kotlin · empujó el 30-oct · https://github.com/maxrave-dev/core
-- **OuterTune** — la rama viva de la familia InnerTune ★5.440 · licencia GPL-3.0 · Kotlin · empujó el 12-oct · https://github.com/OuterTune/OuterTune
+- **OuterTune** — la rama viva de la familia InnerTune ★5.441 · licencia GPL-3.0 · Kotlin · empujó el 12-oct · https://github.com/OuterTune/OuterTune
 - **InnerTune** — el original de esa familia, quieto desde hace un año ★6.131 · licencia GPL-3.0 · Kotlin · último empujón 13-nov-2025 · https://github.com/z-huang/InnerTune
-- **OpenSpot** — cliente en TypeScript, se instala como aplicación web ★2.972 · licencia MIT · TypeScript · empujó el 03-ago · https://github.com/BlackHatDevX/openspot-music-app
+- **OpenSpot** — cliente en TypeScript, se instala como aplicación web ★2.973 · licencia MIT · TypeScript · empujó el 03-ago · https://github.com/BlackHatDevX/openspot-music-app
 - **Youamp** — cliente pequeño y reciente ★273 · licencia MIT · Kotlin · empujó el 07-sep · https://github.com/siper/Youamp
 
 *Los que separaron el código*
 
-- **PixelPlayer** — cliente completo, con una licencia que GitHub no identifica ★6.863 · licencia NOASSERTION en la ficha y MIT en su README · Kotlin · empujó el 21-sep · https://github.com/PixelPlayerHQ/PixelPlayer
+- **PixelPlayer** — cliente completo, con una licencia que GitHub no identifica ★6.864 · licencia NOASSERTION en la ficha y MIT en su README · Kotlin · empujó el 21-sep · https://github.com/PixelPlayerHQ/PixelPlayer
 - **PixelPlayer OSS** — la versión con licencia limpia del mismo proyecto ★304 · licencia GPL-3.0 · Kotlin · empujó hoy · https://github.com/PixelPlayerHQ/PixelPlayerOSS
 
 *Los que leen tus archivos*
@@ -124,9 +124,9 @@ Dieciséis proyectos leídos tres veces: buscador, página del repositorio y arc
 
 *Lo que el censo dice en tres líneas.* Nueve de los dieciséis empujaron este mes. Tres fichas no cuadran con su propio README en el campo de licencia —una dice NOASSERTION y su README habla de MIT, otra al revés— y eso se publica tal cual, sin elegir la versión que queda mejor. Y el original de una familia entera de clientes lleva un año sin moverse mientras su rama sigue publicando.
 
-⏬ sigue abajo · parte 3 de 15
+⏬ sigue abajo · parte 3 de 16
 
-═══ MENSAJE 5 de 16 · 3512 caracteres ═══
+═══ MENSAJE 5 de 17 · 3512 caracteres ═══
 
 *🔀 El código que se separa en dos*
 
@@ -160,9 +160,9 @@ Este es el asunto que más mensajes genera y el que peor se explica en los grupo
 
 *Lo que no hay que hacer.* Buscar una «versión sin bloqueo». Eso no existe: lo que existe es un paquete modificado por alguien más, y ahí es donde la gente acaba con publicidad dentro de un reproductor que no tenía.
 
-⏬ sigue abajo · parte 4 de 15
+⏬ sigue abajo · parte 4 de 16
 
-═══ MENSAJE 6 de 16 · 2648 caracteres ═══
+═══ MENSAJE 6 de 17 · 2648 caracteres ═══
 
 *🛠️ Elegir y probar en seis pasos*
 
@@ -194,9 +194,9 @@ Aquí hay tres capas legales y se confunden siempre. Las separo.
 
 *Lo que no es delito.* Instalar una app libre desde su repositorio, escuchar tu música, descargar para uso personal dentro de lo que cada servicio permita. Eso es uso normal y esta guía no va a decir lo contrario.
 
-⏬ sigue abajo · parte 5 de 15
+⏬ sigue abajo · parte 5 de 16
 
-═══ MENSAJE 7 de 16 · 2210 caracteres ═══
+═══ MENSAJE 7 de 17 · 2210 caracteres ═══
 
 *❓ Preguntas que me hacen*
 
@@ -240,9 +240,9 @@ Que venga del repositorio del autor, que la release tenga fecha y que el número
 
 Exporta lo que puedas —listas, archivos— y busca otro cliente. En el mundo de la música libre, los abandonos son frecuentes y las ramas vivas también.
 
-⏬ sigue abajo · parte 6 de 15
+⏬ sigue abajo · parte 6 de 16
 
-═══ MENSAJE 8 de 16 · 3086 caracteres ═══
+═══ MENSAJE 8 de 17 · 3086 caracteres ═══
 
 *📊 Tabla, mitos y glosario*
 
@@ -295,9 +295,9 @@ Power-Ampache   245     cliente de servidor GPL-3.0   31-oct-2026
 • *Caché* — los archivos temporales que la app guarda para no volver a bajar todo.
 • *Servidor propio* — programa en tu casa que sirve tu música a varios aparatos.
 
-⏬ sigue abajo · parte 7 de 15
+⏬ sigue abajo · parte 7 de 16
 
-═══ MENSAJE 9 de 16 · 3474 caracteres ═══
+═══ MENSAJE 9 de 17 · 3474 caracteres ═══
 
 *🎼 El servidor de música de la casa*
 
@@ -343,9 +343,9 @@ Y nada más. Ni cinco reproductores de prueba, ni reempaques con nombre cambiado
 
 *Lo que me costó llegar aquí.* Dos reproductores probados de más, una tarde reconstruyendo listas y un teléfono lleno dos veces. Nada de eso era necesario: bastaba con leer la fecha del repositorio y activar la casilla de descargas solo por wifi el primer día.
 
-⏬ sigue abajo · parte 8 de 15
+⏬ sigue abajo · parte 8 de 16
 
-═══ MENSAJE 10 de 16 · 3667 caracteres ═══
+═══ MENSAJE 10 de 17 · 3667 caracteres ═══
 
 *📌 Cinco líneas para el grupo*
 
@@ -397,9 +397,9 @@ Entender cómo se hace un reempaque explica por qué los autores se defienden co
 
 *El del paquete raro.* Un muchacho instaló una «versión mejorada» que le llegó por chat. La app abría, tenía publicidad y cerraba cada dos canciones. Desinstaló, instaló la del repositorio y santo remedio. Le costó una tarde entender que el problema era el paquete y no el teléfono.
 
-⏬ sigue abajo · parte 9 de 15
+⏬ sigue abajo · parte 9 de 16
 
-═══ MENSAJE 11 de 16 · 3171 caracteres ═══
+═══ MENSAJE 11 de 17 · 3171 caracteres ═══
 
 *🧒 Cómo explicarlo sin dar una clase*
 
@@ -441,9 +441,9 @@ Sin adivinar: lo que ya está pasando en los repositorios y hacia dónde apunta.
 
 *Lo que no se puede prever.* Qué servicio cambiará su API el mes que viene, ni qué cliente dejará de actualizarse de un día para otro. Eso no lo dice ningún censo, ni este ni ninguno.
 
-⏬ sigue abajo · parte 10 de 15
+⏬ sigue abajo · parte 10 de 16
 
-═══ MENSAJE 12 de 16 · 3169 caracteres ═══
+═══ MENSAJE 12 de 17 · 3169 caracteres ═══
 
 *🏁 Para quien llega con prisa*
 
@@ -487,9 +487,9 @@ El manejo del espacio es lo que separa un teléfono usable de uno que avisa cada
 
 *El truco del reproductor local.* Si tienes tu música en archivos, apunta el reproductor a una sola carpeta y mantén el orden ahí. Es más aburrido que una biblioteca automática, y a la larga se encuentra todo mucho más rápido.
 
-⏬ sigue abajo · parte 11 de 15
+⏬ sigue abajo · parte 11 de 16
 
-═══ MENSAJE 13 de 16 · 3114 caracteres ═══
+═══ MENSAJE 13 de 17 · 3114 caracteres ═══
 
 *🕰️ La cronología de la música libre*
 
@@ -529,9 +529,9 @@ Cuando alguien instala un reempaque, lo que pierde no es la app: es lo que habí
 
 *Y una costumbre que sirve para todo.* Cuando llegue un aviso de actualización con un nombre distinto al que tienes, no toques instalar: mira el repositorio del autor y compara. Nueve de cada diez veces ese aviso no viene de donde dice venir.
 
-⏬ sigue abajo · parte 12 de 15
+⏬ sigue abajo · parte 12 de 16
 
-═══ MENSAJE 14 de 16 · 3657 caracteres ═══
+═══ MENSAJE 14 de 17 · 1228 caracteres ═══
 
 *🔗 Enlaces*
 
@@ -571,6 +571,10 @@ Cada proyecto con su dirección, para que nadie tenga que buscarla.
 > —¿Y quién la firmó?
 > —¿Firmar qué, si era gratis?
 
+⏬ sigue abajo · parte 13 de 16
+
+═══ MENSAJE 15 de 17 · 2821 caracteres ═══
+
 *🌅 Cierre — dos llaves y una discoteca*
 
 Lo que esta guía enseña, en plata: en la música libre del teléfono hay dos formas de tener lo mismo y muy poca gente las distingue. La que lee tus archivos no se cae nunca; la que lee de una API te da el mundo y depende de que el mundo no cambie.
@@ -584,7 +588,7 @@ Y el tercero es el de siempre, con música: los reempaques. Un paquete que no fi
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Una app de música puede morir sin un solo cambio en su código: basta con que el otro lado de la línea cambie de idea.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 10:05 y las 12:40 de Santo Domingo · dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · dos fichas con licencia que el propio GitHub no identifica quedan dichas con esas palabras · lo que no se midió está señalado arriba como no medido.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 10:05 y las 12:40 de Santo Domingo, y repasada a las 10:52· dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · dos fichas con licencia que el propio GitHub no identifica quedan dichas con esas palabras · lo que no se midió está señalado arriba como no medido.
 
 *Licencia:* contenido CC BY-SA 4.0, datos CC BY 4.0, código MIT; marca y nombre de la casa reservados para «Alexis (La Bandita)».
 
@@ -596,38 +600,40 @@ Y el tercero es el de siempre, con música: los reempaques. Un paquete que no fi
 
 **Nota de corrección (1-nov):** uno de los proyectos de este censo no pudo leerse por su nombre de usuario exacto y se midió con el que aparece en el buscador; se anota aquí porque una ficha que se calla sus huecos no sirve para decidir nada.
 
-⏬ sigue abajo · parte 13 de 15
+**Nota de repaso (1-nov, 10:52):** el catálogo se volvió a leer después del mediodía temprano y trajo una novedad de peso: SimpMusic publicó su v2.5.0 hoy mismo, además de empujar. Dieciséis repositorios en la lista, dos con empujón de hoy y ninguno archivado; seis estrellas se movieron desde la primera pasada y se publican las nuevas.
 
-═══ MENSAJE 15 de 16 · 2268 caracteres ═══
+⏬ sigue abajo · parte 14 de 16
+
+═══ MENSAJE 16 de 17 · 1867 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• team-spotube/spotube — ★50.531 · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• MetrolistGroup/Metrolist — ★13.933 (+44) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.618 (+89) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• maxrave-dev/core — ★22 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• OuterTune/OuterTune — ★5.441 (+4) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• z-huang/InnerTune — ★6.131 · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• BlackHatDevX/openspot-music-app — ★2.973 · *dormido*: sin empujar desde el 3-ago-2026 (90 días) · MIT · última release v3.1.5 (2-jun-2026)
-• siper/Youamp — ★273 · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · MIT · última release v2.1.5 (22-feb-2026)
-• PixelPlayerHQ/PixelPlayer — ★6.864 (+28) · empujó el 21-sep-2026 (hace 41 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
-• PixelPlayerHQ/PixelPlayerOSS — ★304 (+7) · empujó en las últimas horas · GPL-3.0 · última release v0.4.0 (17-oct-2026)
-• namidaco/namida — ★6.756 · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• OxygenCobalt/Auxio — ★4.411 · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
-• FoedusProgramme/Gramophone — ★2.376 · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release 1.1.2 (20-ago-2026)
-• sosauce/Chocola — ★1.124 · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v4.4.6 (15-oct-2026)
-• sheikhhaziq/gyawun_music — ★808 · empujó en las últimas horas · GPL-3.0 · última release v2.0.18 (22-mar-2026)
-• icefields/Power-Ampache-2 — ★245 · empujó en las últimas horas · GPL-3.0 · última release v1.01-89 (16-ago-2026)
+• team-spotube/spotube — ★50.531 (sin cambio) · empujó en las últimas horas · AGPL-3.0
+• MetrolistGroup/Metrolist — ★13.933 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0
+• maxrave-dev/SimpMusic — ★12.619 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• maxrave-dev/core — ★22 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
+• OuterTune/OuterTune — ★5.441 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0
+• z-huang/InnerTune — ★6.131 (sin cambio) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0
+• BlackHatDevX/openspot-music-app — ★2.973 (sin cambio) · *dormido*: sin empujar desde el 3-ago-2026 (90 días) · MIT
+• siper/Youamp — ★273 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · MIT
+• PixelPlayerHQ/PixelPlayer — ★6.864 (sin cambio) · empujó el 21-sep-2026 (hace 41 días) · NOASSERTION
+• PixelPlayerHQ/PixelPlayerOSS — ★304 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• namidaco/namida — ★6.756 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION
+• OxygenCobalt/Auxio — ★4.411 (sin cambio) · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · GPL-3.0
+• FoedusProgramme/Gramophone — ★2.376 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0
+• sosauce/Chocola — ★1.124 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0
+• sheikhhaziq/gyawun_music — ★808 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• icefields/Power-Ampache-2 — ★245 (sin cambio) · empujó en las últimas horas · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
 De los 16 enlaces de esta pieza, *16 responden*.
 Ninguno roto.
 
-⏬ sigue abajo · parte 14 de 15
+⏬ sigue abajo · parte 15 de 16
 
-═══ MENSAJE 16 de 16 · 152 caracteres ═══
+═══ MENSAJE 17 de 17 · 152 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.

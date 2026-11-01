@@ -72,18 +72,18 @@ Dieciséis proyectos leídos tres veces: buscador, página del repositorio y arc
 
 *Los que leen de una API*
 
-- **Spotube** — el más grande de todos, con cliente de escritorio y de teléfono ★50.530 · licencia AGPL-3.0 en la ficha y MIT en su README · Kotlin · empujó el 31-oct · release v6.0.0-beta.0 (30-oct) · https://github.com/team-spotube/spotube
-- **Metrolist** — cliente de catálogo con descargas ★13.930 · licencia GPL-3.0 · Kotlin · empujó el 25-oct · https://github.com/MetrolistGroup/Metrolist
-- **SimpMusic** — cliente con letras y listas sincronizadas ★12.614 · licencia GPL-3.0 · Kotlin · empujó hoy · https://github.com/maxrave-dev/SimpMusic
+- **Spotube** — el más grande de todos, con cliente de escritorio y de teléfono ★50.531 · licencia AGPL-3.0 en la ficha y MIT en su README · Kotlin · empujó el 31-oct · release v6.0.0-beta.0 (30-oct) · https://github.com/team-spotube/spotube
+- **Metrolist** — cliente de catálogo con descargas ★13.933 · licencia GPL-3.0 · Kotlin · empujó el 25-oct · https://github.com/MetrolistGroup/Metrolist
+- **SimpMusic** — cliente con letras y listas sincronizadas ★12.619 · licencia GPL-3.0 · Kotlin · empujó hoy y publicó la v2.5.0 hoy mismo · https://github.com/maxrave-dev/SimpMusic
 - **Núcleo de SimpMusic** — la parte que se separó del cliente ★22 · licencia GPL-3.0 · Kotlin · empujó el 30-oct · https://github.com/maxrave-dev/core
-- **OuterTune** — la rama viva de la familia InnerTune ★5.440 · licencia GPL-3.0 · Kotlin · empujó el 12-oct · https://github.com/OuterTune/OuterTune
+- **OuterTune** — la rama viva de la familia InnerTune ★5.441 · licencia GPL-3.0 · Kotlin · empujó el 12-oct · https://github.com/OuterTune/OuterTune
 - **InnerTune** — el original de esa familia, quieto desde hace un año ★6.131 · licencia GPL-3.0 · Kotlin · último empujón 13-nov-2025 · https://github.com/z-huang/InnerTune
-- **OpenSpot** — cliente en TypeScript, se instala como aplicación web ★2.972 · licencia MIT · TypeScript · empujó el 03-ago · https://github.com/BlackHatDevX/openspot-music-app
+- **OpenSpot** — cliente en TypeScript, se instala como aplicación web ★2.973 · licencia MIT · TypeScript · empujó el 03-ago · https://github.com/BlackHatDevX/openspot-music-app
 - **Youamp** — cliente pequeño y reciente ★273 · licencia MIT · Kotlin · empujó el 07-sep · https://github.com/siper/Youamp
 
 *Los que separaron el código*
 
-- **PixelPlayer** — cliente completo, con una licencia que GitHub no identifica ★6.863 · licencia NOASSERTION en la ficha y MIT en su README · Kotlin · empujó el 21-sep · https://github.com/PixelPlayerHQ/PixelPlayer
+- **PixelPlayer** — cliente completo, con una licencia que GitHub no identifica ★6.864 · licencia NOASSERTION en la ficha y MIT en su README · Kotlin · empujó el 21-sep · https://github.com/PixelPlayerHQ/PixelPlayer
 - **PixelPlayer OSS** — la versión con licencia limpia del mismo proyecto ★304 · licencia GPL-3.0 · Kotlin · empujó hoy · https://github.com/PixelPlayerHQ/PixelPlayerOSS
 
 *Los que leen tus archivos*
@@ -570,7 +570,7 @@ Y el tercero es el de siempre, con música: los reempaques. Un paquete que no fi
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Una app de música puede morir sin un solo cambio en su código: basta con que el otro lado de la línea cambie de idea.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 10:05 y las 12:40 de Santo Domingo · dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · dos fichas con licencia que el propio GitHub no identifica quedan dichas con esas palabras · lo que no se midió está señalado arriba como no medido.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 10:05 y las 12:40 de Santo Domingo, y repasada a las 10:52· dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · dos fichas con licencia que el propio GitHub no identifica quedan dichas con esas palabras · lo que no se midió está señalado arriba como no medido.
 
 *Licencia:* contenido CC BY-SA 4.0, datos CC BY 4.0, código MIT; marca y nombre de la casa reservados para «Alexis (La Bandita)».
 
@@ -581,3 +581,5 @@ Y el tercero es el de siempre, con música: los reempaques. Un paquete que no fi
 **Nota de alcance (1-nov):** esta guía habla de programas, no de catálogos. No reparte enlaces de música ni recomienda servicios: mide proyectos, enseña a distinguir un reproductor local de un cliente de API y explica por qué los autores bloquean los reempaques.
 
 **Nota de corrección (1-nov):** uno de los proyectos de este censo no pudo leerse por su nombre de usuario exacto y se midió con el que aparece en el buscador; se anota aquí porque una ficha que se calla sus huecos no sirve para decidir nada.
+
+**Nota de repaso (1-nov, 10:52):** el catálogo se volvió a leer después del mediodía temprano y trajo una novedad de peso: SimpMusic publicó su v2.5.0 hoy mismo, además de empujar. Dieciséis repositorios en la lista, dos con empujón de hoy y ninguno archivado; seis estrellas se movieron desde la primera pasada y se publican las nuevas.

@@ -815,22 +815,22 @@ REV|31-11-5202 — enuTrennI/gnauh-z=1|REV|753.04★ — epiPweN/epiPweNmaeT=2|R
 
 ⏬ sigue abajo · parte 22 de 24
 
-═══ MENSAJE 24 de 25 · 1579 caracteres ═══
+═══ MENSAJE 24 de 25 · 1277 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• TeamNewPipe/NewPipe — ★40.388 (+31) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
-• MetrolistGroup/Metrolist — ★13.933 (+42) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.618 (+84) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• AntennaPod/AntennaPod — ★8.257 (+3) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
-• z-huang/InnerTune — ★6.131 (+2) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• OuterTune/OuterTune — ★5.441 (+4) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• OxygenCobalt/Auxio — ★4.411 (+9) · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
-• anandnet/Harmony-Music — ★3.089 (-3) · *dormido*: sin empujar desde el 8-dic-2025 (328 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
-• N-Zik-Group/N-Zik — ★280 (+2) · empujó en las últimas horas · GPL-3.0 · última release v8.5.0 (28-oct-2026)
-• Hotaro26/gabi — ★104 (+1) · empujó el 30-sep-2026 (hace 32 días) · MIT · última release v4.6.1 (1-sep-2026)
+• TeamNewPipe/NewPipe — ★40.389 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• MetrolistGroup/Metrolist — ★13.933 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0
+• maxrave-dev/SimpMusic — ★12.619 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• AntennaPod/AntennaPod — ★8.257 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• z-huang/InnerTune — ★6.131 (sin cambio) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0
+• OuterTune/OuterTune — ★5.441 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0
+• OxygenCobalt/Auxio — ★4.411 (sin cambio) · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · GPL-3.0
+• anandnet/Harmony-Music — ★3.089 (sin cambio) · *dormido*: sin empujar desde el 8-dic-2025 (328 días) · GPL-3.0
+• N-Zik-Group/N-Zik — ★280 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• Hotaro26/gabi — ★104 (sin cambio) · empujó el 30-sep-2026 (hace 32 días) · MIT
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -93,20 +93,20 @@ La noticia fresca es de **KolbyML/Manatan**: release v6.2.21 (2026-10-29). 11 re
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1848 caracteres ═══
+═══ MENSAJE 4 de 5 · 1694 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 35*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.929 (+90) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★24.930 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
 • zyddnys/manga-image-translator — ★10.561 (+11) · empujó el 11-oct-2026 (hace 21 días) · GPL-3.0 · última release beta-0.3 (23-abr-2022)
-• komikku-app/komikku — ★4.964 (+9) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• Aidoku/Aidoku — ★4.683 (+8) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
-• null2264/yokai — ★1.914 (+2) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
+• komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• Aidoku/Aidoku — ★4.683 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• null2264/yokai — ★1.914 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0
 • KolbyML/Manatan — ★621 (+2) · empujó en las últimas horas · MIT · última release v6.3.0 (1-nov-2026)
 • HaoweiLi97/mihon_img_upscale — ★244 (+2) · empujó en las últimas horas · Apache-2.0 · última release v1.3.17 (1-nov-2026)
-• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
+• yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0
 • nardjes5/kumo-surreal — ★115 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 • nubesurrealista/Kumo — ★59 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · Apache-2.0 · última release v0.21.0 (20-ago-2026) · *ARCHIVADO*
 • unseensnick/Reikai — ★42 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.5.1 (26-oct-2026)

@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-22-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
-- **sha256 de la pieza:** `0409b28ab07708d6ded84e06dc2dbb807d4c1469b7610831330d1aa2fec6b3fa`
+- **sha256 de la pieza:** `d8e8aead9ad9e3e83a839a8d783fa17af4f735295b01dc3a816ab783ef6e6791`
 - **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2512 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -35,11 +35,11 @@ _jueves 29 de octubre de 2026 · La Bandita_
 ## Los repos de esta pieza, medidos hoy
 
 - **mihonapp/mihon** — «Free and open source manga reader for Android»
-  ★24.839 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release v0.21.3 (2026-10-25) · https://github.com/mihonapp/mihon
+  ★24.930 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release v0.21.3 (2026-10-25) · https://github.com/mihonapp/mihon
   Temas: android · kotlin · manga · manga-downloader · manga-reader · mangadownloader
 
 - **aniyomiorg/aniyomi** — «An app for manga and anime»
-  ★7.855 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia Apache-2.0 · Kotlin · última release v0.18.2.1 (2026-09-14) · https://github.com/aniyomiorg/aniyomi · Web: https://aniyomi.org
+  ★7.865 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia Apache-2.0 · Kotlin · última release v0.18.2.1 (2026-09-14) · https://github.com/aniyomiorg/aniyomi · Web: https://aniyomi.org
   Temas: android · anime · manga
 
 - **Jays2Kings/tachiyomiJ2K** — «Free and open source manga reader for Android»
@@ -47,7 +47,7 @@ _jueves 29 de octubre de 2026 · La Bandita_
   Temas: android · fork · hacktoberfest · kotlin · manga
 
 - **komikku-app/anikku** — «Free and open source anime watcher for Android»
-  ★1.123 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia Apache-2.0 · Kotlin · última release v0.2.0 (2026-09-11) · https://github.com/komikku-app/anikku · Web: https://anikku-app.github.io
+  ★1.127 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia Apache-2.0 · Kotlin · última release v0.2.0 (2026-09-11) · https://github.com/komikku-app/anikku · Web: https://anikku-app.github.io
   Temas: android · anime · anime-downloader · animetail · animiru · aniyomi
 
 - **rebelonion/dantotsu** — bloqueado legal (451): existe al medir hoy: queda firmado, no recomendado. https://github.com/rebelonion/dantotsu
@@ -60,16 +60,16 @@ Empieza por las bajas: **rebelonion/dantotsu** (bloqueado legal (451): existe) n
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1010 caracteres ═══
+═══ MENSAJE 3 de 4 · 876 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.929 (+90) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• aniyomiorg/aniyomi — ★7.865 (+10) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• Jays2Kings/tachiyomiJ2K — ★5.399 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
-• komikku-app/anikku — ★1.127 (+4) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
+• mihonapp/mihon — ★24.930 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
+• Jays2Kings/tachiyomiJ2K — ★5.399 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• komikku-app/anikku — ★1.127 (sin cambio) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0
 • rebelonion/dantotsu — sin dato hoy (la API no respondió). No afirmo nada.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

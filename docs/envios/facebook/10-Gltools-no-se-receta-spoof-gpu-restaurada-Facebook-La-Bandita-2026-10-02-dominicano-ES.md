@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
-- **sha256 de la pieza:** `c7827b88e07a8f0b771d2fde4ec6fc1ffaf595bdcdf8a143a7590c6d618bca2f`
+- **sha256 de la pieza:** `f2711d941cc71e1edb33869c8319f2933ef9914a796f14b26980880860510149`
 - **Envío generado:** 2026-11-01 · 8 mensajes · el mayor de 3536 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -210,7 +210,7 @@ La vara no se queda con el «no les pasó»: se queda con la arquitectura del ri
 *📋 LA FICHA DE HOY*
 
 - **i-Taylo/iUnlockerGL** — «iUnlocker GLTool is a Magisk module designed to spoof GPU information, allowing users to modify GPU informations for unlocking graphics in games and testing.»
-  ★108 · su último empuje fue el 2025-12-29 (hace 304 días) · licencia licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) · Shell · última release v1.1.5-r4 (2025-12-29) · https://github.com/i-Taylo/iUnlockerGL
+  ★110 · su último empuje fue el 2025-12-29 (hace 304 días) · licencia licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) · Shell · última release v1.1.5-r4 (2025-12-29) · https://github.com/i-Taylo/iUnlockerGL
   Temas: android · android-app · android-development · android-gpu · device-spoofing · game-unlock
 
 - **darek2015/GLTools** — «Modified version of official GLTools to add support Magisk 20+ compability.»
@@ -230,13 +230,13 @@ REV|0.2-LPG=1|REV|92-21-5202 — LGrekcolnUi/olyaT-i=2|REV|50-50-0202 — slooTL
 
 ⏬ sigue abajo · parte 5 de 7
 
-═══ MENSAJE 7 de 8 · 692 caracteres ═══
+═══ MENSAJE 7 de 8 · 659 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• i-Taylo/iUnlockerGL — ★110 (+2) · *dormido*: sin empujar desde el 29-dic-2025 (307 días) · NOASSERTION · última release v1.1.5-r4 (29-dic-2025)
+• i-Taylo/iUnlockerGL — ★110 (sin cambio) · *dormido*: sin empujar desde el 29-dic-2025 (307 días) · NOASSERTION
 • darek2015/GLTools — ★12 (sin cambio) · *dormido*: sin empujar desde el 5-may-2020 (2371 días) · GPL-2.0
 • Ahsan40/GLTools — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 

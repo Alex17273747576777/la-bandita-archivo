@@ -57,7 +57,7 @@ Dieciséis proyectos medidos tres veces cada uno, más un hueco declarado. Estre
 
 *El parche y su motor*
 
-- **ReVanced Manager** — la aplicación que aplica parches a un APK que el usuario ya tiene ★30.029 · licencia GPL-3.0 · Kotlin · empujó el 29-jul (hace 95 días) · release v2.6.0 (26-abr) · https://github.com/ReVanced/revanced-manager
+- **ReVanced Manager** — la aplicación que aplica parches a un APK que el usuario ya tiene ★30.028 · licencia GPL-3.0 · Kotlin · empujó el 29-jul (hace 95 días) · release v2.6.0 (26-abr) · https://github.com/ReVanced/revanced-manager
 - **ReVanced CLI** — la misma tarea desde la línea de órdenes, sin interfaz ★1.600 · licencia GPL-3.0 · Kotlin · empujó el 02-jun (hace 152 días) · release v6.0.0 (14-mar) · https://github.com/ReVanced/revanced-cli
 - **ReVanced Patcher** — el motor que aplica y revierte los parches ★3.550 · licencia GPL-3.0 · Kotlin · empujó el 09-jun (hace 145 días) · release v22.0.1 (13-mar) · https://github.com/ReVanced/revanced-patcher
 - **Parches de una rama alternativa** — el conjunto de parches del proyecto de inotia00, con sus propias reglas ★2.260 · licencia GPL-3.0 · Java · empujó el 10-mar (hace 236 días) · release v5.14.1 (31-dic-2025) · https://github.com/inotia00/revanced-patches
@@ -65,18 +65,18 @@ Dieciséis proyectos medidos tres veces cada uno, más un hueco declarado. Estre
 
 *El permiso del sistema*
 
-- **Magisk** — el sistema de root que trabaja por encima del arranque y reparte permisos por módulos ★63.665 · licencia GPL-3.0 · Kotlin · empujó el 27-oct (hace 5 días) · release v31.1 (25-oct) · https://github.com/topjohnwu/Magisk
-- **LSPosed** — el marco que inyecta cambios en el proceso de una app concreta, sin tocar las demás ★25.287 · licencia GPL-3.0 · Java · empujó el 14-oct (hace 18 días) · su release público es v1.9.2 (11-oct-2023) y las compilaciones nuevas salen por integración continua · https://github.com/LSPosed/LSPosed
+- **Magisk** — el sistema de root que trabaja por encima del arranque y reparte permisos por módulos ★63.671 · licencia GPL-3.0 · Kotlin · empujó el 27-oct (hace 5 días) · release v31.1 (25-oct) · https://github.com/topjohnwu/Magisk
+- **LSPosed** — el marco que inyecta cambios en el proceso de una app concreta, sin tocar las demás ★25.288 · licencia GPL-3.0 · Java · empujó el 14-oct (hace 18 días) · su release público es v1.9.2 (11-oct-2023) y las compilaciones nuevas salen por integración continua · https://github.com/LSPosed/LSPosed
 - **LSPatch** — la variante que aplica esos cambios sin root, metiéndolos en el paquete ★9.453 · licencia GPL-3.0 · Java · último empujón 13-dic-2023 (hace 1.054 días) · release v0.6 (23-nov-2023) · https://github.com/LSPosed/LSPatch
 
 *El permiso sin rootear*
 
-- **Shizuku** — abre la depuración del sistema a las apps que la piden, sin tocar el arranque ★32.577 · licencia Apache-2.0 · Kotlin · empujó el 18-jun-2025 (hace 501 días) · release v13.6.0 (25-may-2025) · https://github.com/RikkaApps/Shizuku
+- **Shizuku** — abre la depuración del sistema a las apps que la piden, sin tocar el arranque ★32.585 · licencia Apache-2.0 · Kotlin · empujó el 18-jun-2025 (hace 501 días) · release v13.6.0 (25-may-2025) · https://github.com/RikkaApps/Shizuku
 
 *El destornillador*
 
-- **jadx** — descompilador que convierte un APK en código legible para revisarlo ★51.439 · licencia Apache-2.0 · Java · empujó el 30-oct (hace 2 días) · release v1.5.6 (10-jul) · https://github.com/skylot/jadx
-- **Apktool** — abre el paquete, separa recursos y volver a cerrarlo ★26.888 · licencia Apache-2.0 · Java · empujó el 28-oct (hace 4 días) · release v3.0.3 (20-jul) · https://github.com/iBotPeaches/Apktool
+- **jadx** — descompilador que convierte un APK en código legible para revisarlo ★51.442 · licencia Apache-2.0 · Java · empujó el 30-oct (hace 2 días) · release v1.5.6 (10-jul) · https://github.com/skylot/jadx
+- **Apktool** — abre el paquete, separa recursos y volver a cerrarlo ★26.891 · licencia Apache-2.0 · Java · empujó el 28-oct (hace 4 días) · release v3.0.3 (20-jul) · https://github.com/iBotPeaches/Apktool
 
 *El puente de los servicios*
 
@@ -84,13 +84,13 @@ Dieciséis proyectos medidos tres veces cada uno, más un hueco declarado. Estre
 
 *Las tiendas que no son la tienda*
 
-- **Aurora Store** — cliente de la tienda de Google sin cuenta de Google ★3.215 · licencia GPL-3.0 · Kotlin · empujó hoy · release v2.0.5-β sin fecha publicada en la ficha · https://github.com/whyorean/AuroraStore
+- **Aurora Store** — cliente de la tienda de Google sin cuenta de Google ★3.216 · licencia GPL-3.0 · Kotlin · empujó hoy · release v2.0.5-β sin fecha publicada en la ficha · https://github.com/whyorean/AuroraStore
 - **Droid-ify** — cliente de F-Droid con búsqueda rápida y firma verificada ★7.678 · licencia GPL-3.0 · Kotlin · empujó el 12-sep (hace 50 días) · release v0.7.8 (12-sep) · https://github.com/Droid-ify/client
 
 *El cliente aparte y el instalador*
 
-- **SmartTube** — reproductor de video para televisores y cajas, con su propio control de lo que se ve ★35.801 · licencia MIT · Java · empujó hoy · release 32.68s (20-oct) · https://github.com/yuliskov/SmartTube
-- **SAI (Split APKs Installer)** — instala paquetes divididos en varias partes ★3.955 · licencia GPL-3.0 · Java · último empujón 03-jun-2024 (hace 881 días) · release 4.5 (25-feb-2021) · https://github.com/Aefyr/SAI
+- **SmartTube** — reproductor de video para televisores y cajas, con su propio control de lo que se ve ★35.806 · licencia MIT · Java · empujó hoy · release 32.68s (20-oct) · https://github.com/yuliskov/SmartTube
+- **SAI (Split APKs Installer)** — instala paquetes divididos en varias partes ★3.956 · licencia GPL-3.0 · Java · último empujón 03-jun-2024 (hace 881 días) · release 4.5 (25-feb-2021) · https://github.com/Aefyr/SAI
 
 *Lo que el censo dice en cuatro líneas.* Cinco de los dieciséis empujaron esta semana y dos empujaron hoy, pero el grupo del parche lleva meses de calma: el Manager no publica versión desde abril y el motor desde marzo. Dos proyectos están claramente parados —LSPatch desde diciembre de 2023 y SAI desde junio de 2024— y siguen teniendo miles de estrellas, lo que dice mucho de cuánto tarda el vecindario en enterarse. Y hay un hueco declarado: el repositorio de parches del proyecto grande responde 451 hoy, y sin lectura no hay ficha.
 
@@ -349,7 +349,7 @@ Y el otro hallazgo es de calendario: LSPatch sin empujones desde diciembre de 20
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Un parche cambia el paquete; no cambia de dueño la firma.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 09:20 y las 09:58 de Santo Domingo · dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · un repositorio con respuesta 451 y dos sin README legible quedan fuera de la tabla, con el motivo escrito · una release sin fecha publicada se anota como tal
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 09:20 y las 09:58 de Santo Domingo, y repasada a las 10:52· dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · un repositorio con respuesta 451 y dos sin README legible quedan fuera de la tabla, con el motivo escrito · una release sin fecha publicada se anota como tal
 
 *Licencia:* el contenido va con CC BY-SA 4.0, los datos medidos con CC BY 4.0 y el código con MIT; el nombre de la casa y su marca quedan reservados para «Alexis (La Bandita)».
 
@@ -362,3 +362,5 @@ Y el otro hallazgo es de calendario: LSPatch sin empujones desde diciembre de 20
 **Nota de hueco (1-nov):** el conjunto de parches del proyecto más conocido respondió con código 451 y no se pudo medir. Se anota el hueco en la tabla y en el texto, sin completar los números a mano y sin citar de memoria lo que decía la última vez que se leyó.
 
 **Nota de sucesión (1-nov):** LSPatch y SAI siguen descargables y siguen funcionando en lo que funcionaban, pero no reciben empujones desde 2023 y 2024. Quien los use debe saber que no habrá arreglos, y que el reemplazo hay que buscarlo antes de que haga falta, no después.
+
+**Nota de repaso (1-nov, 10:52):** el taller se repasó a las 10:52: quince repositorios citados, dos con empujón de hoy y dos archivados —LSPatch e inotia00— además del hueco del 451 que sigue sin abrirse. Nueve cifras se movieron desde la primera lectura.

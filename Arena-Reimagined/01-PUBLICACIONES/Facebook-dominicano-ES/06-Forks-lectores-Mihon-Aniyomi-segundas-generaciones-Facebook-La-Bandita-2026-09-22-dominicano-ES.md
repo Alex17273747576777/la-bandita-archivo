@@ -7,11 +7,11 @@ _jueves 29 de octubre de 2026 · La Bandita_
 ## Los repos de esta pieza, medidos hoy
 
 - **mihonapp/mihon** — «Free and open source manga reader for Android»
-  ★24.839 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release v0.21.3 (2026-10-25) · https://github.com/mihonapp/mihon
+  ★24.930 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release v0.21.3 (2026-10-25) · https://github.com/mihonapp/mihon
   Temas: android · kotlin · manga · manga-downloader · manga-reader · mangadownloader
 
 - **aniyomiorg/aniyomi** — «An app for manga and anime»
-  ★7.855 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia Apache-2.0 · Kotlin · última release v0.18.2.1 (2026-09-14) · https://github.com/aniyomiorg/aniyomi · Web: https://aniyomi.org
+  ★7.865 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia Apache-2.0 · Kotlin · última release v0.18.2.1 (2026-09-14) · https://github.com/aniyomiorg/aniyomi · Web: https://aniyomi.org
   Temas: android · anime · manga
 
 - **Jays2Kings/tachiyomiJ2K** — «Free and open source manga reader for Android»
@@ -19,7 +19,7 @@ _jueves 29 de octubre de 2026 · La Bandita_
   Temas: android · fork · hacktoberfest · kotlin · manga
 
 - **komikku-app/anikku** — «Free and open source anime watcher for Android»
-  ★1.123 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia Apache-2.0 · Kotlin · última release v0.2.0 (2026-09-11) · https://github.com/komikku-app/anikku · Web: https://anikku-app.github.io
+  ★1.127 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia Apache-2.0 · Kotlin · última release v0.2.0 (2026-09-11) · https://github.com/komikku-app/anikku · Web: https://anikku-app.github.io
   Temas: android · anime · anime-downloader · animetail · animiru · aniyomi
 
 - **rebelonion/dantotsu** — bloqueado legal (451): existe al medir hoy: queda firmado, no recomendado. https://github.com/rebelonion/dantotsu

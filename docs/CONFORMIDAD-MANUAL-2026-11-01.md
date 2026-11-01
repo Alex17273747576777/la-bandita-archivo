@@ -1,6 +1,6 @@
 # CONFORMIDAD CON EL MANUAL DE ESTILO Y OPERACIONES V3.0
 
-**Fecha del corte:** Sunday 2026-11-01, 14:21 de Santo Domingo (UTC-4).
+**Fecha del corte:** Sunday 2026-11-01, 14:55 de Santo Domingo (UTC-4).
 **Documento puente:** `corpus-la-bandita/CIMIENTOS — criterios obligatorios y precedencia (1-nov-2026).md` (§5 remite aquí).
 **Compuerta:** `tools/manual_gate.py` (M01–M16, M23), enchufada a `tools/vara.py` como **G11**.
 
@@ -23,11 +23,11 @@ python3 tools/vara.py                      →   fallos: NINGUNO (G11: 16/16 pie
 | FA 03 | 44.661 | dentro | 10 | 4 | 6 | 33/33 | 30 | VERDE |
 | FA 04 | 40.033 | dentro | 12 | 5 | 10 | 33/33 | 58 | VERDE |
 | FA 05 | 40.139 | dentro | 12 | 5 | 12 | 17/17 | 42 | VERDE |
-| FA 06 | 43.837 | dentro | 12 | 5 | 12 | 26/26 | 43 | VERDE |
-| FA 07 | 41.591 | dentro | 12 | 5 | 11 | 21/21 | 43 | VERDE |
-| FA 08 | 40.866 | dentro | 11 | 5 | 12 | 16/16 | 40 | VERDE |
-| FA 09 | 41.328 | dentro | 12 | 5 | 12 | 18/18 | 60 | VERDE |
-| FA 10 | 40.045 | dentro | 12 | 5 | 12 | 15/15 | 47 | VERDE |
+| FA 06 | 44.158 | dentro | 12 | 5 | 12 | 26/26 | 43 | VERDE |
+| FA 07 | 41.905 | dentro | 12 | 5 | 11 | 21/21 | 43 | VERDE |
+| FA 08 | 41.258 | dentro | 11 | 5 | 12 | 16/16 | 40 | VERDE |
+| FA 09 | 41.590 | dentro | 12 | 5 | 12 | 18/18 | 60 | VERDE |
+| FA 10 | 40.326 | dentro | 12 | 5 | 12 | 15/15 | 47 | VERDE |
 | WH 01 | 63.094 | dentro | 8 | 3 | 9 | 29/29 | 67 | VERDE |
 | WH 02 | 63.084 | dentro | 12 | 3 | 11 | 56/56 | 123 | VERDE |
 | WH 03 | 63.007 | dentro | 12 | 4 | 8 | 33/33 | 64 | VERDE |

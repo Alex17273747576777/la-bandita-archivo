@@ -100,13 +100,13 @@ Medido esta mañana contra la API de GitHub, con credencial propia. Estrellas, l
 
 *La familia del tronco*
 
-- **Mihon** — el heredero directo y el más usado ★24.927 · licencia Apache-2.0 · Kotlin · empujó el 26-oct · release v0.21.3 (25-oct) · https://github.com/mihonapp/mihon
+- **Mihon** — el heredero directo y el más usado ★24.930 · licencia Apache-2.0 · Kotlin · empujó el 26-oct · release v0.21.3 (25-oct) · https://github.com/mihonapp/mihon
 - **TachiyomiSY** — la rama con más funciones, sigue moviéndose ★4.199 · licencia Apache-2.0 · Kotlin · empujó hoy · release 1.13.2 (13-jul) · https://github.com/jobobby04/TachiyomiSY
 - **J2K** — la veterana de los ajustes finos ★5.399 · licencia Apache-2.0 · Kotlin · empujó hoy · release v1.8.1 (15-ago) · https://github.com/Jays2Kings/tachiyomiJ2K
 - **Neko** — nació del J2K y se quedó con su público ★2.818 · licencia Apache-2.0 · Kotlin · empujó hoy · release 3.8.5 (30-oct) · https://github.com/nekomangaorg/Neko
 - **Komikku** — la de los ajustes por serie ★4.964 · licencia Apache-2.0 · Kotlin · empujó hoy · release v1.14.1 (17-jul) · https://github.com/komikku-app/komikku
 - **Yokai** — ligera y sin adornos ★1.914 · licencia Apache-2.0 · Kotlin · empujó el 13-oct · release v1.10.2 (23-sep) · https://github.com/null2264/yokai
-- **Kototoro** — joven, con catálogo propio ★659 · licencia Apache-2.0 · Kotlin · empujó el 31-oct · release v2.3.4 (29-oct) · https://github.com/Kototoro-app/Kototoro
+- **Kototoro** — joven, con catálogo propio ★660 · licencia Apache-2.0 · Kotlin · empujó el 31-oct · release v2.3.4 (29-oct) · https://github.com/Kototoro-app/Kototoro
 
 *La rama del anime*
 
@@ -126,9 +126,9 @@ Medido esta mañana contra la API de GitHub, con credencial propia. Estrellas, l
 
 - **Aidoku** — el lector libre de iOS que más se mueve ★4.683 · licencia GPL-3.0 · Swift · empujó el 31-oct · release v0.9-4 (16-oct) · https://github.com/Aidoku/Aidoku
 - **Suwatte** — la otra opción de iOS, quieta desde marzo ★237 · licencia GPL-3.0 · Swift · último empujón 11-mar-2026 · sin release anotada · https://github.com/Suwatte/Suwatte
-- **Suwayomi Server** — el lector que corre en la computadora y sirve al teléfono ★7.984 · licencia MPL-2.0 · Java · empujó hoy · release v2.4.2366 (30-sep) · https://github.com/Suwayomi/Suwayomi-Server
+- **Suwayomi Server** — el lector que corre en la computadora y sirve al teléfono ★7.986 · licencia MPL-2.0 · Java · empujó hoy · release v2.4.2366 (30-sep) · https://github.com/Suwayomi/Suwayomi-Server
 - **Sorayomi** — cliente de escritorio para ese servidor, parado desde julio ★1.574 · licencia MPL-2.0 · Dart · último empujón 9-jul-2025 · release 0.6.3 (22-feb-2025) · https://github.com/Suwayomi/Tachidesk-Sorayomi
-- **Komga** — servidor de biblioteca propia ★6.805 · licencia MIT · Kotlin · empujó hoy · release 1.29.2 (28-oct) · https://github.com/gotson/komga
+- **Komga** — servidor de biblioteca propia ★6.806 · licencia MIT · Kotlin · empujó hoy · release 1.29.2 (28-oct) · https://github.com/gotson/komga
 - **Kavita** — el otro servidor, con lector web ★11.988 · licencia GPL-3.0 · C# · empujó hoy · release v0.9.1.4 (02-sep) · https://github.com/Kareadita/Kavita
 
 *Los catálogos, para no confundirlos con lectores*
@@ -597,7 +597,7 @@ Y si lo que falla es el catálogo, no es el lector. Son dos relojes distintos y 
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Una app no envejece por los años que tiene: envejece el día que su repositorio deja de moverse.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:15 y las 10:05 de Santo Domingo · veinticinco repositorios medidos uno por uno contra la API autenticada de GitHub · las rutas que devolvieron 404 durante la búsqueda de candidatos no se citan en ninguna parte · lo que no se midió está dicho arriba como no medido.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:20 y las 07:10 de Santo Domingo, y repasada a las 10:52· veinticinco repositorios medidos uno por uno contra la API autenticada de GitHub · las rutas que devolvieron 404 durante la búsqueda de candidatos no se citan en ninguna parte · lo que no se midió está dicho arriba como no medido.
 
 *Licencia:* texto CC BY-SA 4.0 · datos CC BY 4.0 · código MIT · la marca y el nombre de la casa, reservados («Alexis (La Bandita)»).
 
@@ -608,3 +608,5 @@ Y si lo que falla es el catálogo, no es el lector. Son dos relojes distintos y 
 **Nota de alcance (1-nov):** esta guía compara proyectos y enseña a leer sus fechas; no reparte enlaces de contenido ni recomienda sitios de lectura. Los dos servidores de biblioteca se nombran porque sirven archivos propios, que es un caso distinto al de un catálogo.
 
 **Nota de corrección (1-nov):** durante la búsqueda de candidatos varias rutas devolvieron 404 —entre ellas la del tronco original— y no se citan para no mandar a nadie a una dirección vacía. También se midió un catálogo archivado desde agosto de 2024, porque un censo que solo cuenta lo que funciona no avisa de lo que ya no se surte.
+
+**Nota de repaso (1-nov, 10:52):** vuelta a leer la lista entera con las tres lecturas rotadas: veintiséis repositorios citados, nueve con empujón de hoy y cuatro ya archivados. Ninguna ficha cambió de dueño; sí cambió el número de estrellas en cuatro de ellas y en la tabla van las de esta hora.

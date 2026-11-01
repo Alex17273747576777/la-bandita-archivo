@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `52fe26885edf4fefa4993d38ae5780acdb9eae81a2e987804a19a74d19441e8c`
-- **Envío generado:** 2026-11-01 · 28 mensajes · el mayor de 3880 caracteres
+- **Envío generado:** 2026-11-01 · 28 mensajes · el mayor de 3930 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 28 · 822 caracteres ═══
@@ -716,7 +716,7 @@ Puedes mandarlo tal cual a tu grupo: no promete nada falso ni asusta a nadie.
 
 ⏬ sigue abajo · parte 23 de 27
 
-═══ MENSAJE 25 de 28 · 3880 caracteres ═══
+═══ MENSAJE 25 de 28 · 3930 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
@@ -734,7 +734,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pi
 • GrapheneOS/Auditor — ★729 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 92 (30-may-2026)
 • GrapheneOS/grapheneos.org — ★783 (sin cambio) · empujó en las últimas horas · MIT
 • GrapheneOS/Camera — ★1.423 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 93 (1-ago-2026)
-• GrapheneOS/PdfViewer — ★1.062 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 33 (30-jul-2026)
+• GrapheneOS/PdfViewer — ★1.062 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT
 • GrapheneOS/hardened_malloc — ★2.048 (sin cambio) · empujó en las últimas horas · MIT · última release 14 (22-feb-2026)
 • degoog-org/degoog — ★2.506 (+1) · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release 1.1.1 (25-oct-2026)
 • PimpinPumpkin/Vela — ★2.300 (+18) · empujó en las últimas horas · GPL-3.0 · última release v0.5.2621 (19-oct-2026)
@@ -751,12 +751,12 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pi
 • LooseWireDev/unclouded — ★27 (sin cambio) · *dormido*: sin empujar desde el 15-jul-2026 (109 días) · AGPL-3.0
 • bl3xand/APK-Toolbox — ★99 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
 • richardkfm/los-bootstrap — ★6 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0 · última release v0.14.0 (15-oct-2026)
+• Ha2mad/package-pass — ★0 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT
 
 ⏬ sigue abajo · parte 24 de 27
 
-═══ MENSAJE 26 de 28 · 526 caracteres ═══
+═══ MENSAJE 26 de 28 · 442 caracteres ═══
 
-• Ha2mad/package-pass — ★0 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT
 • Meirwolf1289/fdroid-census — ★0 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 • FoedusProgramme/Checker — ★83 (sin cambio) · *dormido*: sin empujar desde el 18-ene-2024 (1018 días) · GPL-3.0 · última release 1.0.9 (18-ene-2024)
 • HydraDragonAntivirus/HydraDragonAV-Mobile — ★23 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-2.0 · última release v1.4.2 (6-ago-2026)

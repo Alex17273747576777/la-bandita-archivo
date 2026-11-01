@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `be0d3da10e176ee3092fbc5b01cbfc35664129a9ce32253d2f898a0041d9a534`
-- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3945 caracteres
+- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3924 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 731 caracteres ═══
@@ -489,7 +489,7 @@ El señor del colmado de Villa Mella va a volver a ver ese aviso. Cuando lo vea,
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 3945 caracteres ═══
+═══ MENSAJE 19 de 20 · 3924 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
@@ -505,7 +505,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 31 repositorios que cita esta pi
 • GrapheneOS/Vanadium — ★2.269 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release 156.0.8078.79.0 (30-oct-2026)
 • GrapheneOS/Auditor — ★729 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 92 (30-may-2026)
 • GrapheneOS/Camera — ★1.423 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 93 (1-ago-2026)
-• GrapheneOS/PdfViewer — ★1.062 · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 33 (30-jul-2026)
+• GrapheneOS/PdfViewer — ★1.062 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT
 • GrapheneOS/hardened_malloc — ★2.048 · empujó en las últimas horas · MIT · última release 14 (22-feb-2026)
 • degoog-org/degoog — ★2.506 · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release 1.1.1 (25-oct-2026)
 • PimpinPumpkin/Vela — ★2.300 · empujó en las últimas horas · GPL-3.0 · última release v0.5.2621 (19-oct-2026)

@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-Las-segundas-generaciones-quien-sigue-leyendo-cuando-el-tronco-se-seca-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `59822057b3630e3e1712d846720b65fb22fccbb113d0538338b71e206ec3cb22`
+- **sha256 de la pieza:** `53009ef5c569faaf54dd165bfe3aa6288dadc7586b64bcfc9e6211e48ecfacbf`
 - **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3565 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -12,9 +12,9 @@
 
 La Bandita · pieza 06 · guía del 1-nov-2026 · te la mando hoy en 18 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *26 repositorios, 25 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *26 repositorios, 22 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: Apache-2.0 13 · GPL-3.0 8 · MPL-2.0 2 · MIT 1.
+Licencias de lo que recomienda: Apache-2.0 13 · GPL-3.0 6 · MPL-2.0 1 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-Las-segundas-generaciones-quien-sigue-leyendo-cuando-el-tronco-se-seca-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
@@ -122,13 +122,13 @@ Medido esta mañana contra la API de GitHub, con credencial propia. Estrellas, l
 
 *La familia del tronco*
 
-- **Mihon** — el heredero directo y el más usado ★24.927 · licencia Apache-2.0 · Kotlin · empujó el 26-oct · release v0.21.3 (25-oct) · https://github.com/mihonapp/mihon
+- **Mihon** — el heredero directo y el más usado ★24.930 · licencia Apache-2.0 · Kotlin · empujó el 26-oct · release v0.21.3 (25-oct) · https://github.com/mihonapp/mihon
 - **TachiyomiSY** — la rama con más funciones, sigue moviéndose ★4.199 · licencia Apache-2.0 · Kotlin · empujó hoy · release 1.13.2 (13-jul) · https://github.com/jobobby04/TachiyomiSY
 - **J2K** — la veterana de los ajustes finos ★5.399 · licencia Apache-2.0 · Kotlin · empujó hoy · release v1.8.1 (15-ago) · https://github.com/Jays2Kings/tachiyomiJ2K
 - **Neko** — nació del J2K y se quedó con su público ★2.818 · licencia Apache-2.0 · Kotlin · empujó hoy · release 3.8.5 (30-oct) · https://github.com/nekomangaorg/Neko
 - **Komikku** — la de los ajustes por serie ★4.964 · licencia Apache-2.0 · Kotlin · empujó hoy · release v1.14.1 (17-jul) · https://github.com/komikku-app/komikku
 - **Yokai** — ligera y sin adornos ★1.914 · licencia Apache-2.0 · Kotlin · empujó el 13-oct · release v1.10.2 (23-sep) · https://github.com/null2264/yokai
-- **Kototoro** — joven, con catálogo propio ★659 · licencia Apache-2.0 · Kotlin · empujó el 31-oct · release v2.3.4 (29-oct) · https://github.com/Kototoro-app/Kototoro
+- **Kototoro** — joven, con catálogo propio ★660 · licencia Apache-2.0 · Kotlin · empujó el 31-oct · release v2.3.4 (29-oct) · https://github.com/Kototoro-app/Kototoro
 
 *La rama del anime*
 
@@ -148,14 +148,14 @@ Medido esta mañana contra la API de GitHub, con credencial propia. Estrellas, l
 
 - **Aidoku** — el lector libre de iOS que más se mueve ★4.683 · licencia GPL-3.0 · Swift · empujó el 31-oct · release v0.9-4 (16-oct) · https://github.com/Aidoku/Aidoku
 - **Suwatte** — la otra opción de iOS, quieta desde marzo ★237 · licencia GPL-3.0 · Swift · último empujón 11-mar-2026 · sin release anotada · https://github.com/Suwatte/Suwatte
-- **Suwayomi Server** — el lector que corre en la computadora y sirve al teléfono ★7.984 · licencia MPL-2.0 · Java · empujó hoy · release v2.4.2366 (30-sep) · https://github.com/Suwayomi/Suwayomi-Server
+- **Suwayomi Server** — el lector que corre en la computadora y sirve al teléfono ★7.986 · licencia MPL-2.0 · Java · empujó hoy · release v2.4.2366 (30-sep) · https://github.com/Suwayomi/Suwayomi-Server
 
 ⏬ sigue abajo · parte 3 de 17
 
 ═══ MENSAJE 5 de 18 · 3336 caracteres ═══
 
 - **Sorayomi** — cliente de escritorio para ese servidor, parado desde julio ★1.574 · licencia MPL-2.0 · Dart · último empujón 9-jul-2025 · release 0.6.3 (22-feb-2025) · https://github.com/Suwayomi/Tachidesk-Sorayomi
-- **Komga** — servidor de biblioteca propia ★6.805 · licencia MIT · Kotlin · empujó hoy · release 1.29.2 (28-oct) · https://github.com/gotson/komga
+- **Komga** — servidor de biblioteca propia ★6.806 · licencia MIT · Kotlin · empujó hoy · release 1.29.2 (28-oct) · https://github.com/gotson/komga
 - **Kavita** — el otro servidor, con lector web ★11.988 · licencia GPL-3.0 · C# · empujó hoy · release v0.9.1.4 (02-sep) · https://github.com/Kareadita/Kavita
 
 *Los catálogos, para no confundirlos con lectores*
@@ -609,7 +609,7 @@ Cada dirección con su nombre, para que nadie tenga que buscarla.
 
 ⏬ sigue abajo · parte 14 de 17
 
-═══ MENSAJE 16 de 18 · 2564 caracteres ═══
+═══ MENSAJE 16 de 18 · 2885 caracteres ═══
 
 *🌅 Cierre — el árbol que sigue dando*
 
@@ -624,7 +624,7 @@ Y si lo que falla es el catálogo, no es el lector. Son dos relojes distintos y 
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Una app no envejece por los años que tiene: envejece el día que su repositorio deja de moverse.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:15 y las 10:05 de Santo Domingo · veinticinco repositorios medidos uno por uno contra la API autenticada de GitHub · las rutas que devolvieron 404 durante la búsqueda de candidatos no se citan en ninguna parte · lo que no se midió está dicho arriba como no medido.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:20 y las 07:10 de Santo Domingo, y repasada a las 10:52· veinticinco repositorios medidos uno por uno contra la API autenticada de GitHub · las rutas que devolvieron 404 durante la búsqueda de candidatos no se citan en ninguna parte · lo que no se midió está dicho arriba como no medido.
 
 *Licencia:* texto CC BY-SA 4.0 · datos CC BY 4.0 · código MIT · la marca y el nombre de la casa, reservados («Alexis (La Bandita)»).
 
@@ -636,40 +636,42 @@ Y si lo que falla es el catálogo, no es el lector. Son dos relojes distintos y 
 
 **Nota de corrección (1-nov):** durante la búsqueda de candidatos varias rutas devolvieron 404 —entre ellas la del tronco original— y no se citan para no mandar a nadie a una dirección vacía. También se midió un catálogo archivado desde agosto de 2024, porque un censo que solo cuenta lo que funciona no avisa de lo que ya no se surte.
 
+**Nota de repaso (1-nov, 10:52):** vuelta a leer la lista entera con las tres lecturas rotadas: veintiséis repositorios citados, nueve con empujón de hoy y cuatro ya archivados. Ninguna ficha cambió de dueño; sí cambió el número de estrellas en cuatro de ellas y en la tabla van las de esta hora.
+
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 3343 caracteres ═══
+═══ MENSAJE 17 de 18 · 2658 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.929 (+90) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• jobobby04/TachiyomiSY — ★4.199 (+3) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• Jays2Kings/tachiyomiJ2K — ★5.399 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
-• nekomangaorg/Neko — ★2.818 · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
-• komikku-app/komikku — ★4.964 (+9) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• null2264/yokai — ★1.914 (+2) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
-• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• aniyomiorg/aniyomi — ★7.865 (+10) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• aniyomiorg/aniyomi-extensions — ★849 · *dormido*: sin empujar desde el 19-ago-2024 (804 días) · Apache-2.0 · *ARCHIVADO*
-• kodjodevf/mangayomi — ★4.287 (+15) · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
-• KotatsuApp/Kotatsu — ★8.946 · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
-• KotatsuApp/kotatsu-parsers — ★323 · *dormido*: sin empujar desde el 3-nov-2025 (363 días) · GPL-3.0 · última release 1.7 (15-mar-2025) · *ARCHIVADO*
-• UsagiApp/Usagi — ★288 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
-• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
-• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
-• Aidoku/Aidoku — ★4.683 (+8) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
+• mihonapp/mihon — ★24.930 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• jobobby04/TachiyomiSY — ★4.199 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• Jays2Kings/tachiyomiJ2K — ★5.399 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• null2264/yokai — ★1.914 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0
+• Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
+• aniyomiorg/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
+• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
+• KotatsuApp/kotatsu-parsers — sin dato hoy (la API no respondió). No afirmo nada.
+• UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
+• yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0
+• Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
+• Aidoku/Aidoku — ★4.683 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (235 días) · GPL-3.0
-• Suwayomi/Suwayomi-Server — ★7.985 (+17) · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
-• Suwayomi/Tachidesk-Sorayomi — ★1.574 · *dormido*: sin empujar desde el 9-jul-2025 (480 días) · MPL-2.0 · última release 0.6.3 (22-feb-2025) · *ARCHIVADO*
-• gotson/komga — ★6.806 (+9) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
-• Kareadita/Kavita — ★11.988 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
-• Komikku-app/komikku-extensions — sin dato hoy (la API no respondió). No afirmo nada.
-• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
-• m2k3a/mangayomi-extensions — ★113 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
-• skepsun/kototoro-parsers — ★17 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• tailscale/tailscale — ★38.467 · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
+• Suwayomi/Suwayomi-Server — ★7.986 (sin cambio) · empujó en las últimas horas · MPL-2.0
+• Suwayomi/Tachidesk-Sorayomi — sin dato hoy (la API no respondió). No afirmo nada.
+• gotson/komga — ★6.806 (sin cambio) · empujó en las últimas horas · MIT
+• Kareadita/Kavita — ★11.988 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• Komikku-app/komikku-extensions — ★953 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
+• m2k3a/mangayomi-extensions — ★113 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
+• skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
+• tailscale/tailscale — ★38.468 (sin cambio) · empujó en las últimas horas · BSD-3-Clause
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -64,14 +64,14 @@ REV|92-01-6202 — elacsliat/elacsliat=1|REV|)82-01-6202( 4.401.1v — elacsliat
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 577 caracteres ═══
+═══ MENSAJE 3 de 4 · 543 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 58*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • juanfont/headscale — ★45.253 (+79) · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
-• tailscale/tailscale — ★38.467 (+163) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
+• tailscale/tailscale — ★38.468 (sin cambio) · empujó en las últimas horas · BSD-3-Clause
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -63,21 +63,21 @@ Dieciocho proyectos, leídos tres veces cada uno: por el buscador de la forja, p
 
 *Los del terminal*
 
-- **Termux** — emulador de terminal con su propio gestor de paquetes ★63.872 · licencia NOASSERTION en la ficha · Java · empujó el 26-sep (hace 36 días) · release v0.118.3 (22-may-2025) · https://github.com/termux/termux-app
-- **Termux packages** — el sistema que construye y firma los paquetes del terminal ★17.282 · licencia NOASSERTION en la ficha · Shell · empujó hoy · release bootstrap de hoy mismo · https://github.com/termux/termux-packages
+- **Termux** — emulador de terminal con su propio gestor de paquetes ★63.878 · licencia NOASSERTION en la ficha · Java · empujó el 26-sep (hace 36 días) · release v0.118.3 (22-may-2025) · https://github.com/termux/termux-app
+- **Termux packages** — el sistema que construye y firma los paquetes del terminal ★17.283 · licencia NOASSERTION en la ficha · Shell · empujó hoy · release bootstrap de hoy mismo · https://github.com/termux/termux-packages
 - **Termux API** — el puente entre el terminal y el aparato: cámara, batería, portapapeles, sensores ★4.567 · sin licencia declarada en la ficha · Java · empujó el 17-sep (hace 45 días) · release v0.53.0 (01-sep-2025) · https://github.com/termux/termux-api
-- **Termux X11** — servidor gráfico para correr programas de escritorio dentro del terminal ★5.066 · licencia GPL-3.0 · C · empujó el 27-oct (hace 5 días) · última compilación nightly del 27-oct · https://github.com/termux/termux-x11
+- **Termux X11** — servidor gráfico para correr programas de escritorio dentro del terminal ★5.068 · licencia GPL-3.0 · C · empujó el 27-oct (hace 5 días) · última compilación nightly del 27-oct · https://github.com/termux/termux-x11
 
 *Los que mueven archivos entre aparatos*
 
-- **LocalSend** — el que pasa archivos por la red de la casa, sin cuenta ni nube ★96.908 · licencia Apache-2.0 · Dart · empujó el 29-oct (hace 3 días) · release v1.18.2 (21-ago) · https://github.com/localsend/localsend
+- **LocalSend** — el que pasa archivos por la red de la casa, sin cuenta ni nube ★96.921 · licencia Apache-2.0 · Dart · empujó el 29-oct (hace 3 días) · release v1.18.2 (21-ago) · https://github.com/localsend/localsend
 - **Syncthing (oficial)** — la aplicación oficial, **archivada** desde el 3 de diciembre de 2024 ★4.293 · licencia MPL-2.0 · Java · último empujón 03-dic-2024 (hace 698 días) · última release 1.28.1 (03-dic-2024) · https://github.com/syncthing/syncthing-android
 - **Syncthing-Fork** — la bifurcación que siguió cuando la oficial se archivó, con su propio nombre y su propio ciclo de versiones ★3.220 · licencia MPL-2.0 · Java · empujó hoy · release v2.1.7.0 (21-oct) · https://github.com/Catfriend1/syncthing-android
 
 *Los de texto, papeles y cuentas*
 
 - **Markor** — editor de texto y de Markdown que guarda en carpetas normales del teléfono ★6.363 · licencia NOASSERTION en la ficha · Java · empujó el 30-oct (hace 2 días) · release v2026.10.0 (25-oct) · https://github.com/gsantner/markor
-- **Acode** — editor de código en el teléfono, con resaltado y extensiones ★7.612 · licencia MIT · JavaScript · empujó el 30-oct (hace 2 días) · release v1.13.5 (13-sep) · https://github.com/Acode-Foundation/Acode
+- **Acode** — editor de código en el teléfono, con resaltado y extensiones ★7.615 · licencia MIT · JavaScript · empujó el 30-oct (hace 2 días) · release v1.13.5 (13-sep) · https://github.com/Acode-Foundation/Acode
 - **PdfViewer** — lector de PDF del proyecto GrapheneOS, construido sobre pdf.js y sin pedir un solo permiso ★1.062 · licencia MIT · Kotlin · empujó el 28-oct (hace 4 días) · release 33 (30-jul) · https://github.com/GrapheneOS/PdfViewer
 - **Omni-Notes** — bloc de notas con recordatorios y búsqueda, de los que ya tienen años ★2.807 · licencia GPL-3.0 · Java · empujó el 22-oct (hace 10 días) · release 6.5.1 (22-oct) · https://github.com/FedericoIOSue/Omni-Notes
 - **OpenCalc** — calculadora con historial, sin anuncios ★1.544 · licencia GPL-3.0 · Kotlin · empujó el 10-jul (hace 114 días) · release v3.2.1 (21-sep-2025) · https://github.com/Darkempire78/OpenCalc
@@ -338,7 +338,7 @@ El otro hallazgo es de forma, no de fondo: cuatro de las dieciocho fichas no ide
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Una herramienta de oficio vale por lo que aguanta el día que la red se cae.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 08:20 y las 09:30 de Santo Domingo · dieciocho proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · cuatro fichas sin licencia identificada quedan dichas con esas palabras · dos releases sin fecha publicada se anotan como tales · lo que no se pudo leer no aparece en la lista.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 08:20 y las 09:30 de Santo Domingo, y repasada a las 10:52· dieciocho proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · cuatro fichas sin licencia identificada quedan dichas con esas palabras · dos releases sin fecha publicada se anotan como tales · lo que no se pudo leer no aparece en la lista.
 
 *Licencia:* el texto queda en CC BY-SA 4.0, los datos medidos en CC BY 4.0 y el código en MIT; el nombre y la marca de la casa siguen siendo de «Alexis (La Bandita)».
 
@@ -351,3 +351,5 @@ El otro hallazgo es de forma, no de fondo: cuatro de las dieciocho fichas no ide
 **Nota de alcance (1-nov):** esta guía habla de programas de uso general, no de catálogos ni de contenido. No reparte enlaces de descarga directa, no recomienda mods y no promete nada sobre el futuro de ningún proyecto: mide lo que hay hoy y explica qué mirar cuando algo cambia de dueño.
 
 **Nota de corrección (1-nov):** un repositorio de la lista de candidatos no pudo leerse por su nombre exacto y quedó fuera del censo en vez de completarse a mano. Se anota porque una ficha que se calla sus huecos no sirve para decidir nada.
+
+**Nota de repaso (1-nov, 10:52):** revisión de la caja con la hora en la mano: dieciocho proyectos, tres empujaron hoy y uno está archivado. Cinco fichas sumaron estrellas desde la madrugada y la tabla muestra ese número, no el anterior.

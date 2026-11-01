@@ -185,7 +185,7 @@ La vara no se queda con el «no les pasó»: se queda con la arquitectura del ri
 *📋 LA FICHA DE HOY*
 
 - **i-Taylo/iUnlockerGL** — «iUnlocker GLTool is a Magisk module designed to spoof GPU information, allowing users to modify GPU informations for unlocking graphics in games and testing.»
-  ★108 · su último empuje fue el 2025-12-29 (hace 304 días) · licencia licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) · Shell · última release v1.1.5-r4 (2025-12-29) · https://github.com/i-Taylo/iUnlockerGL
+  ★110 · su último empuje fue el 2025-12-29 (hace 304 días) · licencia licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) · Shell · última release v1.1.5-r4 (2025-12-29) · https://github.com/i-Taylo/iUnlockerGL
   Temas: android · android-app · android-development · android-gpu · device-spoofing · game-unlock
 
 - **darek2015/GLTools** — «Modified version of official GLTools to add support Magisk 20+ compability.»

@@ -142,14 +142,14 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3536 caracteres ═══
+═══ MENSAJE 5 de 6 · 3413 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 43*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • keiyoushi/extensions — ★15.405 (+36) · empujó en las últimas horas · sin licencia detectada por la API · última release 2d50f67 (1-nov-2026)
-• Kareadita/Kavita — ★11.988 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
+• Kareadita/Kavita — ★11.988 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • LittleSurvival/copymanga-copy20 — ★2.985 (+13) · empujó el 11-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • lnreader/lnreader — ★2.947 (+5) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
 • IReaderorg/IReader — ★982 (+2) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
@@ -157,12 +157,12 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 26 repositorios que cita esta pi
 • yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
 • Spyou/Zangetsu — ★484 (+29) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.3.4 (29-oct-2026)
 • lnreader/lnreader-plugins — ★365 (+1) · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
-• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
+• Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
 • yuzono/cursed-manga-extensions — ★217 (+3) · empujó en las últimas horas · Apache-2.0
 • mojuru/cursed-manga-repo — ★175 (+1) · empujó el 12-oct-2026 (hace 20 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
 • self-similarity/MegaRepo — ★142 (+2) · *dormido*: sin empujar desde el 3-oct-2025 (394 días) · sin licencia detectada por la API
 • Secozzi/aniyomi-extensions — ★129 (+1) · empujó el 20-sep-2026 (hace 42 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
-• InvalidDavid/UMA — ★83 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release f607156 (30-oct-2026)
+• InvalidDavid/UMA — ★83 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • salmanbappi/extensions-repo — ★51 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 • Schnitzel5/ApkBridge — ★36 (sin cambio) · *dormido*: sin empujar desde el 11-feb-2026 (263 días) · Apache-2.0 · última release v1.8 (11-sep-2025)
 • inkdex/extensions — ★32 (sin cambio) · empujó el 19-oct-2026 (hace 13 días) · sin licencia detectada por la API
@@ -171,7 +171,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 26 repositorios que cita esta pi
 • dannovels/novel-extensions — ★17 (sin cambio) · *dormido*: sin empujar desde el 5-ene-2025 (665 días) · sin licencia detectada por la API
 • gato404/kegareta-sauces — ★14 (sin cambio) · *dormido*: sin empujar desde el 22-jul-2025 (467 días) · Apache-2.0
 • Nyora-Manga/nyora-mihon — ★14 (sin cambio) · *dormido*: sin empujar desde el 19-jul-2026 (105 días) · sin licencia detectada por la API
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia
 • Awerkori/manga-fonte-extensoes — ★9 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Schnitzel5/mangayomi-custom-buttons — ★6 (sin cambio) · *dormido*: sin empujar desde el 5-oct-2025 (392 días) · MIT
 

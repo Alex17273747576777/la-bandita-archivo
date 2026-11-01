@@ -12,9 +12,9 @@
 
 La Bandita · pieza 61 · guía del 29-oct-2026 · te la mando hoy en 6 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *19 repositorios, 18 vivos y 1 muerto*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *19 repositorios, 17 vivos y 1 muerto*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 5 · MPL-2.0 3 · AGPL-3.0 3 · GPL-2.0 3.
+Licencias de lo que recomienda: GPL-3.0 5 · AGPL-3.0 3 · GPL-2.0 3 · MPL-2.0 2.
 
 ⚠️ *Aviso de fecha:* este texto se escribió el 29-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
@@ -127,7 +127,7 @@ La noticia amarga: **inaccurate-hotelplan289/HomeLabSetup** (caído (404)) ya no
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3005 caracteres ═══
+═══ MENSAJE 5 de 6 · 2920 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 61*
 
@@ -139,7 +139,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pi
 • lollipopkit/flutter_server_box — ★8.926 (+29) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
 • standardnotes/app — ★6.693 (+5) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.673 (+17) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
+• syncthing/syncthing-android — sin dato hoy (la API no respondió). No afirmo nada.
 • jarnedemeulemeester/findroid — ★4.286 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.2.0 (25-oct-2026)
 • owncloud/android — ★4.174 (-1) · empujó en las últimas horas · GPL-2.0 · última release v4.8.4 (31-ago-2026)
 • researchxxl/syncthing-android — ★3.220 (+28) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)

@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-Facebook-La-Bandita-2026-09-22-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
-- **sha256 de la pieza:** `a129f2461432b1e434b37c3c423201340a0f414f92d705011830188153e9f0ec`
+- **sha256 de la pieza:** `84b6d4d1c14324c5cce566ee75c595f141f5fd6788ab160b4aadae81267f59a1`
 - **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 3372 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -12,9 +12,9 @@
 
 La Bandita · pieza 07 · guía del 29-oct-2026 · te la mando hoy en 4 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *7 repositorios, 7 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *7 repositorios, 6 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 5 · Apache-2.0 1 · sin licencia 1.
+Licencias de lo que recomienda: GPL-3.0 4 · Apache-2.0 1 · sin licencia 1.
 
 ⚠️ *Aviso de fecha:* este texto se escribió el 29-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
@@ -35,25 +35,25 @@ Pulso de hoy sobre los 7 repos de la pieza: 7 vivos, 4 activos este mes. Manda *
 ## Los repos de esta pieza, medidos hoy
 
 - **KotatsuApp/Kotatsu** — «Manga reader for Android»
-  ★8.943 · su último empuje fue el 2025-11-04 (hace 361 días) · licencia GPL-3.0 · Kotlin · ARCHIVADO: historia, no opción viva · https://github.com/KotatsuApp/Kotatsu · Web: https://kotatsu.app
+  ★8.946 · su último empuje fue el 2025-11-04 (hace 361 días) · licencia GPL-3.0 · Kotlin · ARCHIVADO: historia, no opción viva · https://github.com/KotatsuApp/Kotatsu · Web: https://kotatsu.app
   Temas: android · comics · manga · manga-reader · mangareader · webtoon
 
 - **Kototoro-app/Kototoro** — «Manga, Novel, and Video reader for Android»
-  ★653 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v2.3.4 (2026-10-29) · https://github.com/Kototoro-app/Kototoro
+  ★660 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v2.3.4 (2026-10-29) · https://github.com/Kototoro-app/Kototoro
 
 - **AppFuton/Futon** — «Manga reader for Android»
-  ★467 · su último empuje fue el 2026-10-21 (hace 10 días) · licencia GPL-3.0 · Kotlin · última release v9.9 (2026-10-21) · https://github.com/AppFuton/Futon · Web: https://futon.wtf
+  ★470 · su último empuje fue el 2026-10-21 (hace 10 días) · licencia GPL-3.0 · Kotlin · última release v9.9 (2026-10-21) · https://github.com/AppFuton/Futon · Web: https://futon.wtf
   Temas: android · comics · kotatsu · manga · manga-reader · mangareader
 
 - **UsagiApp/Usagi** — «Just a simple, free and open-source manga reader for Android 5.0+»
-  ★286 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.2 (2026-10-03) · https://github.com/UsagiApp/Usagi · Web: https://yumemi.moe/usagi
+  ★288 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.2 (2026-10-03) · https://github.com/UsagiApp/Usagi · Web: https://yumemi.moe/usagi
   Temas: android · comic · doujinshi · hentai · manga · material
 
 - **Gekkoushi/plugin-source** — «Manga Parsers library for Kotlin/JVM and Android»
   ★93 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia GPL-3.0 · Kotlin · última release 1.2.6 (2026-08-10) · https://github.com/Gekkoushi/plugin-source
 
 - **InvalidDavid/UMA** — «UMA Plugin for the Usagi App or other Kotatsu Forks.»
-  ★82 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 83bcf88 (2026-10-22) · https://github.com/InvalidDavid/UMA · Web: https://yumemi.moe/usagi
+  ★83 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 83bcf88 (2026-10-22) · https://github.com/InvalidDavid/UMA · Web: https://yumemi.moe/usagi
 
 - **Gekkoushi/plugin** — «This repository contains plugin artifacts for Usagi and any apps that use the same structure with Tsuki.»
   ★11 · su último empuje fue el 2026-09-13 (hace 48 días) · licencia sin archivo LICENSE en su repo (verificado) · última release 75af884 (2026-08-10) · https://github.com/Gekkoushi/plugin
@@ -66,19 +66,19 @@ Pulso de hoy sobre los 7 repos de la pieza: 7 vivos, 4 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1304 caracteres ═══
+═══ MENSAJE 3 de 4 · 1053 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• KotatsuApp/Kotatsu — ★8.946 · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
-• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• AppFuton/Futon — ★470 (+3) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
-• UsagiApp/Usagi — ★288 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
-• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
-• InvalidDavid/UMA — ★83 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release f607156 (30-oct-2026)
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
+• KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
+• Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• AppFuton/Futon — ★470 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0
+• UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
+• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0
+• InvalidDavid/UMA — ★83 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
