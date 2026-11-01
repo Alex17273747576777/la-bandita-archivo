@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-11-20"
+ },
+ "descripcion": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#hiroi-sora/Umi-OCR",
+  "sha256": "854e57aaf904febdf36461aeef90f31e98ee85a8b18997b7db1f04478d1964c5"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hiroi-sora--umi-ocr",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 47930,
+  "stars_por_mes": 876.7
+ },
+ "nombre": "Umi-OCR",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "hiroi-sora/Umi-OCR"
+}

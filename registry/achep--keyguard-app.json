@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "A password manager that supports Bitwarden platform and KeePass (KDBX) files. It autofills your logi",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#AChep/keyguard-app",
+  "sha256": "6db5ae5de4af18da602cf1fd8a3863b3f8a12196507733a391365c027c89422b"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "achep--keyguard-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "endpoint-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3518,
+  "stars_por_mes": 90.6
+ },
+ "nombre": "keyguard-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "AChep/keyguard-app"
+}

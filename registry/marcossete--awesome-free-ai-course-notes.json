@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-18"
+ },
+ "descripcion": "A curated collection of machine learning and AI lecture notes from the world's leading universities.",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#MarcosSete/awesome-free-ai-course-notes",
+  "sha256": "e79c7defe2ccaafa4850e4c87cdd99655738c569915c01ae663cd626b6f993bc"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "marcossete--awesome-free-ai-course-notes",
+ "licencia": {
+  "archivo": null,
+  "metodo": "endpoint-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 664,
+  "stars_por_mes": 276.5
+ },
+ "nombre": "awesome-free-ai-course-notes",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "MarcosSete/awesome-free-ai-course-notes"
+}

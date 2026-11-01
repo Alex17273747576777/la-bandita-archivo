@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2018-07-04"
+ },
+ "descripcion": "Cross browser audio/video/screen recording. It supports Chrome, Firefox, Opera and Microsoft Edge. I",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#streamproc/MediaStreamRecorder",
+  "sha256": "7a984540525f25d4420666b38f19e25272ee1c267a0c46a698df0003c94af13d"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "streamproc--mediastreamrecorder",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2675,
+  "stars_por_mes": 16.8
+ },
+ "nombre": "MediaStreamRecorder",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "streamproc/MediaStreamRecorder"
+}

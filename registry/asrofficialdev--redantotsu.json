@@ -1,0 +1,47 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-18"
+ },
+ "descripcion": "ReDantotsu is a Remake version of the original Dantotsu app. It is built on a foundation that has be",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#AsrOfficialDev/ReDantotsu",
+  "sha256": "a2891c73bac2379794f7265767e1be131654b980283451d4b7cbbce6fef89541"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "asrofficialdev--redantotsu",
+ "licencia": {
+  "archivo": null,
+  "metodo": "endpoint-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 153,
+  "stars_por_mes": 17.2
+ },
+ "nombre": "ReDantotsu",
+ "piezas": [
+  "102",
+  "104",
+  "44-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "AsrOfficialDev/ReDantotsu"
+}

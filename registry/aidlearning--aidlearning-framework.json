@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-02"
+ },
+ "descripcion": "🔥🔥🔥AidLearning is a powerful AIOT development platform, AidLearning builds a linux env supporting GU",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#aidlearning/AidLearning-FrameWork",
+  "sha256": "bb9b75dab5ccdaabc8e4011e6e642fe417f553939e71d3bc288e0a862095d5e0"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aidlearning--aidlearning-framework",
+ "licencia": {
+  "archivo": null,
+  "metodo": "endpoint-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5813,
+  "stars_por_mes": 64.6
+ },
+ "nombre": "AidLearning-FrameWork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "aidlearning/AidLearning-FrameWork"
+}

@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-17"
+ },
+ "descripcion": "An open-source, automated script to disable Android Verified Boot (AVB) on modern MediaTek (MTK) dev",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#nach0-bit/universal-mtk-vbmeta-patcher",
+  "sha256": "eada5d0e298eefa0995bd0e318596e009a176ce1d39b4e51b1a0478d2dc67a86"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nach0-bit--universal-mtk-vbmeta-patcher",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 19,
+  "stars_por_mes": 5.8
+ },
+ "nombre": "universal-mtk-vbmeta-patcher",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "nach0-bit/universal-mtk-vbmeta-patcher"
+}

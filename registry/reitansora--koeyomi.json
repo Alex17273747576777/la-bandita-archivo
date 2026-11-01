@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-11"
+ },
+ "descripcion": "KoeYomi is a mobile manga reader built with Expo, React Native, and SQLite. Designed for performance",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ReitanSora/koeyomi",
+  "sha256": "3c0267cafeafac13dcffe80afd373dcbec5ef4fcaedeeed64db1f12e563f2e1d"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "reitansora--koeyomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "endpoint-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 11,
+  "stars_por_mes": 0.5
+ },
+ "nombre": "koeyomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "ReitanSora/koeyomi"
+}

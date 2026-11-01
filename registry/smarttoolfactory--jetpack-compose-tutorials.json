@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-10"
+ },
+ "descripcion": "🚀🧨📝 Series of Tutorials to learn about Jetpack Compose with subjects Material Widgets, Layout, Subco",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SmartToolFactory/Jetpack-Compose-Tutorials",
+  "sha256": "0e30814cb665f07c4fa643ab774f2041e05d451c6ed4dc5d08b5e6b9617c3c13"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "smarttoolfactory--jetpack-compose-tutorials",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3666,
+  "stars_por_mes": 52.8
+ },
+ "nombre": "Jetpack-Compose-Tutorials",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "SmartToolFactory/Jetpack-Compose-Tutorials"
+}

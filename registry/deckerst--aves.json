@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-14"
+ },
+ "descripcion": "Aves is a gallery and metadata explorer app, built for Android with Flutter.",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#deckerst/aves",
+  "sha256": "d722ac78130a044b3f990026f6903d5bca8979b4c72a368508bd2dd9c6b90901"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "deckerst--aves",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "BSD-3-Clause",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5378,
+  "stars_por_mes": 62.2
+ },
+ "nombre": "aves",
+ "piezas": [
+  "66-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "deckerst/aves"
+}

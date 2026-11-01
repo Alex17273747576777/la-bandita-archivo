@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-05"
+ },
+ "descripcion": "Awesome RSS feeds - A curated list of RSS feeds (and OPML files) used in Recommended Feeds and local",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#plenaryapp/awesome-rss-feeds",
+  "sha256": "2cb8304fd36023865965d4383fc2c002ca97491c0a6ada500f60e9749a2091d8"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "plenaryapp--awesome-rss-feeds",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "CC0-1.0",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2838,
+  "stars_por_mes": 44.7
+ },
+ "nombre": "awesome-rss-feeds",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "plenaryapp/awesome-rss-feeds"
+}

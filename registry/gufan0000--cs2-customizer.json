@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-03"
+ },
+ "descripcion": "CS2 本地个性化工具：准心、击杀音效与图标、HUD 配色、局内视角、道具瞄点。只走 Valve 官方 GSI 接口与 cfg 文件，不碰游戏进程。",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#gufan0000/cs2-customizer",
+  "sha256": "a589199ba2c99b64298dc0737d52ea90e96d0560298f19937aa2cd208e04251a"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gufan0000--cs2-customizer",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 20,
+  "stars_por_mes": 9.4
+ },
+ "nombre": "cs2-customizer",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "gufan0000/cs2-customizer"
+}

@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-04-12"
+ },
+ "descripcion": "NOTICE This repository contains the public FTC SDK for the SKYSTONE (2019-2020) competition season.",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020",
+  "sha256": "66f4043a0905b8ea8eddc6e5222de8520fafc033daed5143ebc47b2f66752cff"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "chrisneagu--ftc-skystone-dark-angels-romania-2020",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 316,
+  "stars_por_mes": 4.7
+ },
+ "nombre": "FTC-Skystone-Dark-Angels-Romania-2020",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020"
+}

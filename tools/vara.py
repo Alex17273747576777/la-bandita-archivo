@@ -1,0 +1,298 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""LA VARA · las ocho compuertas de la casa, ejecutables en un solo comando.
+
+Doctrina (HABILIDADES/INDICE-HABILIDADES.md): hay compuertas que DETIENEN la línea y
+medidores que solo PUBLICAN su cifra. Nunca se confunden, y ninguna se aprueba por
+salida en cero: se aprueba cuando este informe dice «fallos: NINGUNO».
+
+Uso:
+  python3 tools/vara.py            # informe completo
+  python3 tools/vara.py --json     # informe legible por máquina
+Salida: código 0 si ninguna compuerta falló, 1 si alguna falló.
+"""
+from __future__ import annotations
+import argparse, hashlib, json, re, statistics, sys
+from collections import Counter
+from datetime import date
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parents[1]
+PUBLICACIONES = RAIZ / "Arena-Reimagined/01-PUBLICACIONES"
+REGISTRO = RAIZ / "registry"
+ESQUEMA = RAIZ / "schemas/ficha.schema.json"
+MANIFIESTO = RAIZ / "registry" / "_manifiesto-sha256.tsv"
+BASELINE = RAIZ / "tools/baseline.json"
+UMBRAL_FRESCURA = 180          # días que un dato puede presentarse como vigente
+
+
+def fijar_raiz(nueva: Path) -> None:
+    """Permite apuntar la vara a un árbol de prueba (lo usa tools/autoprueba.py)."""
+    global RAIZ, PUBLICACIONES, REGISTRO, ESQUEMA, MANIFIESTO, BASELINE
+    RAIZ = nueva.resolve()
+    PUBLICACIONES = RAIZ / "Arena-Reimagined/01-PUBLICACIONES"
+    REGISTRO = RAIZ / "registry"
+    ESQUEMA = RAIZ / "schemas/ficha.schema.json"
+    MANIFIESTO = RAIZ / "registry" / "_manifiesto-sha256.tsv"
+    BASELINE = RAIZ / "tools/baseline.json"
+ZW = re.compile("[\u200b\u200c\u200d\u2060\ufeff]")
+APK = re.compile(r"https?://[^\s)]+\.(apk|apks|xapk|apkm)\b", re.I)
+DATELINE = re.compile(r"\d{1,2} de (enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre) de 20\d\d")
+
+
+def fichas() -> list[dict]:
+    salida = []
+    for p in sorted(REGISTRO.glob("*.json")):
+        if p.name.startswith("_"):
+            continue
+        try:
+            salida.append(json.loads(p.read_text(encoding="utf-8")))
+        except json.JSONDecodeError as e:
+            salida.append({"_archivo": p.name, "_ilegible": str(e)})
+    return salida
+
+
+def piezas() -> list[Path]:
+    """Solo piezas: los LEEME/README de carpeta no son publicaciones y no llevan firma."""
+    return sorted(p for p in PUBLICACIONES.rglob("*.md")
+                  if not p.name.lower().startswith(("leeme", "readme")))
+
+
+def g1_esquema(datos: list[dict]) -> tuple[list[str], str]:
+    fallos = []
+    if any("_ilegible" in d for d in datos):
+        fallos += [f"{d['_archivo']}: JSON ilegible" for d in datos if "_ilegible" in d]
+    try:
+        import jsonschema
+        esquema = json.loads(ESQUEMA.read_text(encoding="utf-8"))
+        for d in datos:
+            if "_ilegible" in d:
+                continue
+            try:
+                jsonschema.validate(d, esquema)
+            except jsonschema.ValidationError as e:
+                fallos.append(f"{d.get('id', '?')}: {e.message[:110]}")
+    except ImportError:
+        obligatorios = {"id", "repo", "medido_en", "fuente", "licencia", "actividad", "evidencia"}
+        for d in datos:
+            if "_ilegible" in d:
+                continue
+            faltan = obligatorios - set(d)
+            if faltan:
+                fallos.append(f"{d.get('id', '?')}: faltan {sorted(faltan)}")
+        fallos.append("aviso: jsonschema no instalado, validación mínima por campos")
+    return fallos, f"{len(datos)} fichas"
+
+
+def g2_frescura(datos: list[dict]) -> tuple[list[str], str]:
+    hoy = date.today()
+    edades = []
+    fallos = []
+    for d in datos:
+        if "_ilegible" in d:
+            continue
+        try:
+            edad = (hoy - date.fromisoformat(d["medido_en"])).days
+        except Exception:
+            fallos.append(f"{d.get('id', '?')}: medido_en inválido")
+            continue
+        edades.append(edad)
+        if edad > UMBRAL_FRESCURA:
+            fallos.append(f"{d.get('id', '?')}: {edad} días (umbral {UMBRAL_FRESCURA})")
+    if not edades:
+        return ["registro vacío: no hay frescura que medir"], "0 fichas"
+    return fallos, (f"edad máxima {max(edades)} d · mediana {int(statistics.median(edades))} d · "
+                    f"umbral {UMBRAL_FRESCURA} d")
+
+
+def g3_licencia(datos: list[dict]) -> tuple[list[str], str]:
+    orden = {"spdx-api", "endpoint-license", "texto-license", "ausencia-firmada"}
+    fallos = []
+    metodos = Counter()
+    for d in datos:
+        if "_ilegible" in d:
+            continue
+        lic = d.get("licencia") or {}
+        metodos[lic.get("metodo")] += 1
+        if lic.get("metodo") not in orden:
+            fallos.append(f"{d.get('id', '?')}: método fuera del orden de la casa")
+        if lic.get("spdx") is None and lic.get("metodo") != "ausencia-firmada":
+            fallos.append(f"{d.get('id', '?')}: sin SPDX y sin ausencia firmada")
+        if not lic.get("verificado_en"):
+            fallos.append(f"{d.get('id', '?')}: licencia sin fecha de verificación")
+    resumen = " · ".join(f"{k} {v}" for k, v in metodos.most_common())
+    return fallos, resumen
+
+
+def g4_actividad(datos: list[dict]) -> tuple[list[str], str]:
+    fallos = []
+    estados = Counter()
+    for d in datos:
+        if "_ilegible" in d:
+            continue
+        act = d.get("actividad") or {}
+        estado = act.get("estado")
+        estados[estado] += 1
+        if estado == "muerto" and act.get("semantica_http") in (403, 429):
+            fallos.append(f"{d.get('id', '?')}: declarado muerto por HTTP {act.get('semantica_http')}")
+        if estado in {"vivo", "dormido"} and not act.get("ultimo_push"):
+            fallos.append(f"{d.get('id', '?')}: {estado} sin último push medido")
+        if estado == "vivo" and act.get("ultimo_push"):
+            dias = (date.fromisoformat(d["medido_en"]) - date.fromisoformat(act["ultimo_push"])).days
+            if dias > UMBRAL_FRESCURA:
+                fallos.append(f"{d.get('id', '?')}: vivo con último push de hace {dias} días")
+    resumen = " · ".join(f"{k} {v}" for k, v in estados.most_common())
+    return fallos, resumen
+
+
+def g5_integridad() -> tuple[list[str], str]:
+    if not MANIFIESTO.exists():
+        return ["sin manifiesto de integridad: correr tools/atestar.py"], "manifiesto ausente"
+    fallos, n = [], 0
+    for linea in MANIFIESTO.read_text(encoding="utf-8").splitlines():
+        if not linea.strip():
+            continue
+        sha, _, ruta = linea.partition("  ")
+        p = RAIZ / ruta
+        n += 1
+        if not p.exists():
+            fallos.append(f"falta {ruta}")
+            continue
+        real = hashlib.sha256(p.read_bytes()).hexdigest()
+        if real != sha:
+            fallos.append(f"alterado {ruta}")
+    return fallos, f"{n} archivos sellados"
+
+
+def g6_antiplantilla(ps: list[Path]) -> tuple[list[str], str]:
+    """MEDIDOR: publica la cifra de repetición sin detener la línea.
+    La casa exime el eco doctrinal a propósito (doctrina-lupa.json), así que esto mide, no juzga."""
+    peor = ("", 0)
+    total_parrafos = 0
+    for p in ps:
+        texto = p.read_text(encoding="utf-8", errors="replace")
+        parrafos = [x.strip() for x in re.split(r"\n\s*\n", texto) if len(x.strip()) >= 200]
+        total_parrafos += len(parrafos)
+        rep = Counter(parrafos)
+        if rep:
+            frase, veces = rep.most_common(1)[0]
+            if veces > peor[1]:
+                peor = (f"{p.name[:52]} ({veces}×)", veces)
+    return [], f"{total_parrafos} párrafos largos · máxima repetición interna {peor[1]}× en {peor[0] or '—'}"
+
+
+def g7_enlaces(ps: list[Path]) -> tuple[list[str], str]:
+    fallos = []
+    medidos = 0
+    for p in ps:
+        texto = p.read_text(encoding="utf-8", errors="replace")
+        for m in APK.finditer(texto):
+            fallos.append(f"{p.name}: enlace de binario {m.group(0)[:60]}")
+        medidos += len(re.findall(r"https?://", texto))
+    return fallos, f"{medidos} enlaces revisados · 0 binarios recetados"
+
+
+def g8_presupuesto(ps: list[Path]) -> tuple[list[str], str]:
+    """MEDIDOR: la distribución real del corpus, por plataforma."""
+    grupos = {"whatsapp": [], "facebook": [], "otras": []}
+    for p in ps:
+        n = len(p.read_text(encoding="utf-8", errors="replace"))
+        clave = "whatsapp" if "whatsapp" in p.parent.name.lower() else "facebook" if "facebook" in p.parent.name.lower() else "otras"
+        grupos[clave].append(n)
+    partes = []
+    for k, v in grupos.items():
+        if v:
+            partes.append(f"{k} n={len(v)} min={min(v)} mediana={int(statistics.median(v))} max={max(v)}")
+    return [], " · ".join(partes)
+
+
+def g0_piezas(ps: list[Path]) -> tuple[list[str], str]:
+    fallos, con_latido, con_fecha = [], 0, 0
+    for p in ps:
+        texto = p.read_text(encoding="utf-8", errors="replace")
+        if "💓" in texto:
+            con_latido += 1
+        else:
+            fallos.append(f"{p.name}: sin 💓 (firma de la casa)")
+        if DATELINE.search(texto):
+            con_fecha += 1
+        else:
+            fallos.append(f"{p.name}: sin fecha verificable en ninguna parte de la pieza")
+        if ZW.search(texto):
+            fallos.append(f"{p.name}: carácter de ancho cero")
+    return fallos, f"{len(ps)} piezas · {con_latido} con 💓 · {con_fecha} con dateline"
+
+
+def deuda_congelada() -> dict[str, set[str]]:
+    """Deuda conocida y declarada: fallos que ya existían cuando se activó la compuerta.
+    No se ocultan (siguen apareciendo en el informe); solo dejan de bloquear y no pueden crecer."""
+    if not BASELINE.exists():
+        return {}
+    crudo = json.loads(BASELINE.read_text(encoding="utf-8"))
+    return {k: set(v) for k, v in crudo.get("congelados", {}).items()}
+
+
+COMPUERTAS = [
+    ("G0 piezas", "puerta", None),
+    ("G1 esquema", "puerta", None),
+    ("G2 frescura", "puerta", None),
+    ("G3 licencia", "puerta", None),
+    ("G4 actividad", "puerta", None),
+    ("G5 integridad", "puerta", None),
+    ("G6 anti-plantilla", "medidor", None),
+    ("G7 enlaces", "puerta", None),
+    ("G8 presupuesto", "medidor", None),
+]
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--json", action="store_true")
+    ap.add_argument("--raiz", default=None, help="árbol alternativo (solo para autoprueba)")
+    args = ap.parse_args()
+    if args.raiz:
+        fijar_raiz(Path(args.raiz))
+    datos, ps = fichas(), piezas()
+    corridas = [
+        ("G0 piezas", "puerta", g0_piezas(ps)),
+        ("G1 esquema", "puerta", g1_esquema(datos)),
+        ("G2 frescura", "puerta", g2_frescura(datos)),
+        ("G3 licencia", "puerta", g3_licencia(datos)),
+        ("G4 actividad", "puerta", g4_actividad(datos)),
+        ("G5 integridad", "puerta", g5_integridad()),
+        ("G6 anti-plantilla", "medidor", g6_antiplantilla(ps)),
+        ("G7 enlaces", "puerta", g7_enlaces(ps)),
+        ("G8 presupuesto", "medidor", g8_presupuesto(ps)),
+    ]
+    congelados = deuda_congelada()
+    total_fallos = 0
+    informe = []
+    for nombre, clase, (fallos, resumen) in corridas:
+        deuda = [f for f in fallos if f in congelados.get(nombre, set())]
+        nuevos = [f for f in fallos if f not in congelados.get(nombre, set())]
+        if clase == "puerta":
+            total_fallos += len(nuevos)
+        informe.append({"compuerta": nombre, "clase": clase, "resumen": resumen,
+                        "fallos": nuevos if clase == "puerta" else [],
+                        "deuda_congelada": deuda, "medido": len(fallos)})
+    if args.json:
+        print(json.dumps({"compuertas": informe, "fallos_totales": total_fallos}, ensure_ascii=False, indent=1))
+    else:
+        print("LA VARA · informe de compuertas")
+        print(f"fecha de corrida: {date.today().isoformat()} · registro: {len(datos)} fichas · piezas: {len(ps)}\n")
+        for c in informe:
+            marca = "✓" if (c["clase"] == "medidor" or not c["fallos"]) else "✗"
+            print(f"{marca} {c['compuerta']:<18} [{c['clase']:<8}] {c['resumen']}")
+            if c.get("deuda_congelada"):
+                print(f"     · deuda congelada: {len(c['deuda_congelada'])} (declarada en tools/baseline.json, no oculta)")
+            for f in c["fallos"][:12]:
+                print(f"     · {f}")
+            if len(c["fallos"]) > 12:
+                print(f"     · … y {len(c['fallos']) - 12} más")
+        print()
+        print(f"fallos: {'NINGUNO' if total_fallos == 0 else total_fallos}")
+    return 0 if total_fallos == 0 else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,0 +1,50 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-06-18"
+ },
+ "descripcion": "v13.6.0",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RikkaApps/Shizuku",
+  "sha256": "f52b9c523b9cd46b2af80df95ee09beac2a53abaf2c0050cd41ced142dea8c7b"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rikkaapps--shizuku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 31555,
+  "stars_por_mes": 318.7
+ },
+ "nombre": "Shizuku",
+ "piezas": [
+  "01-",
+  "09-",
+  "101",
+  "12-",
+  "28-",
+  "90-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "RikkaApps/Shizuku"
+}

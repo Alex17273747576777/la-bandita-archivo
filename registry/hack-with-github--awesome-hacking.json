@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-26"
+ },
+ "descripcion": "A collection of various awesome lists for hackers, pentesters and security researchers",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Hack-with-Github/Awesome-Hacking",
+  "sha256": "ada652cb111ed234634bffd6100d32e8df9d8c069a9fdc628d7081a8cb2ee95b"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hack-with-github--awesome-hacking",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "CC0-1.0",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 122670,
+  "stars_por_mes": 968.4
+ },
+ "nombre": "Awesome-Hacking",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "Hack-with-Github/Awesome-Hacking"
+}

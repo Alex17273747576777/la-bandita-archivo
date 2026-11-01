@@ -1,0 +1,14 @@
+{
+ "censo": "Arena-Reimagined/02-ARCHIVO/censo-ecosistema-2026-10-15.tsv",
+ "filas_leidas": 5684,
+ "avisos": [
+  "línea 537: comilla suelta en descripcion de potechitakusan/MangaAgentsStudio-A",
+  "línea 574: comilla suelta en descripcion de Lovelakshya1/himmy-releases"
+ ],
+ "licencias": {
+  "spdx_api": 486,
+  "noassertion_endpoint": 57,
+  "ausencia_firmada": 5141
+ },
+ "nota": "Los avisos no se borran: el censo se conserva tal como se midió y el defecto queda a la vista."
+}

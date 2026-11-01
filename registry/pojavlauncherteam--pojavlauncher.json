@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-09-23"
+ },
+ "descripcion": "A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. Succeeded by https://gith",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#PojavLauncherTeam/PojavLauncher",
+  "sha256": "8fc1040f4487f7ea9b2d72c4289aa691b3466d621bfc3dab1156fc56417aefca"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "pojavlauncherteam--pojavlauncher",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "LGPL-3.0",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9430,
+  "stars_por_mes": 119.0
+ },
+ "nombre": "PojavLauncher",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "PojavLauncherTeam/PojavLauncher"
+}

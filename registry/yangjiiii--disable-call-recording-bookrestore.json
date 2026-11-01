@@ -1,0 +1,43 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-12-15"
+ },
+ "descripcion": "Use the bl_sbx exploit to hide the call-recording notification sound on iOS",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#YangJiiii/Disable-Call-Recording-BookRestore-",
+  "sha256": "d7b885c3ebdb2a1a022c7772e621a02bf8dc784b3a85e246235b512ce88036e8"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yangjiiii--disable-call-recording-bookrestore",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 322,
+  "stars_por_mes": 31.8
+ },
+ "nombre": "Disable-Call-Recording-BookRestore-",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "YangJiiii/Disable-Call-Recording-BookRestore-"
+}

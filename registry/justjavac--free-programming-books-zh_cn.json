@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-29"
+ },
+ "descripcion": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#justjavac/free-programming-books-zh_CN",
+  "sha256": "382651f54c383f69189b3540d9d267fed08a4861ca341b52eb74b7ddf20db0d8"
+ },
+ "frescura_dias": 17,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "justjavac--free-programming-books-zh_cn",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-10-15",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 119215,
+  "stars_por_mes": 766.5
+ },
+ "nombre": "free-programming-books-zh_CN",
+ "piezas": [
+  "101"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "justjavac/free-programming-books-zh_CN"
+}
