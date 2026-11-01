@@ -1,0 +1,70 @@
+# LA VARA EN INTEGRACIÓN CONTINUA
+# Doctrina de la casa: ninguna compuerta se aprueba por salida en cero.
+# Se aprueba cuando el informe dice "fallos: NINGUNO" y ese texto queda en el registro del job.
+name: vara
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vara-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compuertas:
+    name: ocho compuertas + integridad + autoprueba
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencias
+        run: pip install --quiet jsonschema "mcp>=2,<3"
+
+      - name: Registro al día
+        run: python3 tools/registro_construir.py --verificar
+
+      - name: Integridad del sello SHA-256
+        run: python3 tools/atestar.py --verificar
+
+      - name: La vara (informe)
+        run: python3 tools/vara.py | tee /tmp/vara.txt
+
+      - name: La vara (veredicto explícito)
+        run: |
+          if ! grep -q '^fallos: NINGUNO$' /tmp/vara.txt; then
+            echo "::error::la vara no dice 'fallos: NINGUNO' — la línea se detiene"
+            exit 1
+          fi
+          echo "vara aprobada: fallos NINGUNO verificado en el texto del informe"
+
+      - name: Autoprueba de compuertas
+        run: python3 tools/autoprueba.py | tee /tmp/autoprueba.txt
+
+      - name: Autoprueba (veredicto explícito)
+        run: |
+          grep -q 'fallos: NINGUNO$' /tmp/autoprueba.txt
+
+      - name: Servidor MCP responde
+        run: python3 mcp-labandita-registro/probar.py | tee /tmp/mcp.txt
+
+      - name: Resumen
+        run: |
+          {
+            echo "### La Bandita · vara"
+            echo '```'
+            tail -14 /tmp/vara.txt
+            echo '```'
+            echo "Sello: $(wc -l < registry/_manifiesto-sha256.tsv) archivos · commit ${GITHUB_SHA:0:8}"
+          } >> "$GITHUB_STEP_SUMMARY"
