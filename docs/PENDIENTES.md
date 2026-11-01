@@ -80,3 +80,17 @@ trabajo técnico que sí puedo hacer).
 `tools/baseline.json` contiene **un** fallo conocido que la vara no bloquea pero sí publica en cada
 informe: la pieza `01-Tiendas-APK ... Facebook ... 2026-09-15` no lleva la firma 💓 de la casa.
 No la edité: es una pieza publicada y su corrección es una decisión editorial, no técnica.
+
+## Reinicio ordenado el 1-nov-2026 (orden del dueño)
+
+- **Hecho hoy:** piezas **09** (41.328 car.) y **10** (40.045 car.) VERDE; 16/16 VERDE en el
+  manual v3.0; `vara.py` sin fallos; sello 10.030 archivos `5164e0a1…`; CI **success** en
+  `a4aaa37`; `cosign verify-blob` → **Verified OK** contra `registry/_manifiesto-sha256.tsv`.
+- **Cambio de método:** tres lecturas por recurso **en orden rotado** y con llave local
+  (`tools/tres_lecturas.py`, 5.000 peticiones/hora, sin esperas). Sección 451/422 sin README
+  se declara hueco, nunca se rellena.
+- **TMO re-medido en vivo** (`docs/TMO-2026-11-01.md`): cinco dominios, tres lecturas cada
+  uno; solo dos entregan catálogo hoy. La pieza **05 FB** parte de material viejo y es la
+  primera que hay que reescribir con este censo.
+- **Siguiente lote del reinicio:** 01 → 05 de Facebook, con fecha y hora vivas, censo TMO
+  nuevo y revisión pieza contra pieza para que no quede párrafo compartido (M23).
