@@ -1,0 +1,69 @@
+*Caso D — leer el pulso de una vitrina (el camino del que vigila)*
+
+1. Abre la página de releases de la app que vigilas. 2. Compara dos relojes: el último push de código y la última versión firmada.
+
+3. Push fresco con vitrina vieja — como Accrescent HOY 15-oct: código del 13-oct, versión del año pasado — taller trabajando, reparto pendiente. Vigilancia sí; alarma no.
+
+4. Los dos relojes congelados desde hace meses: proyecto dormido. Firma y versión guardadas, y a esperar — o a mudarte de casa.
+
+*Por qué importa:* empuje y versión son relojes distintos. Esta guía midió los dos en cinco
+tiendas HOY y casi nunca coincidieron. Quien lee los dos relojes no se deja sorprender.
+
+```
+Los cuatro caminos en una línea
+A: instala desde la casa (F-Droid)
+B: vigila el repo tú mismo (Obtainium)
+C: audita antes de confiar (Exodus + VirusTotal)
+D: lee el pulso (push ≠ release)
+Los cuatro terminan en lo mismo: dueño a la vista.
+```
+
+*🌍 El ecosistema en una sola imagen*
+
+Imagina un mercado al aire libre:
+
+• *F-Droid* es la biblioteca pública con sello de calidad y catálogo abierto.
+
+• *IzzyOnDroid* es la sala de novedades donde se estrenan los libros.
+
+• *Droid-ify y Neo-Store* son los mostradores cómodos para leer esos catálogos.
+
+• *Aurora Store* es tu mensajero anónimo a la tienda grande.
+
+• *Accrescent* es la portería nueva que registra huellas.
+
+• *Appteka* es el mercado comunitario, grande y bullicioso, donde miras bien de quién compras.
+
+• *Obtainium / ObtainX / Omnify* son tus ayudantes personales que vigilan talleres y te traen lo nuevo.
+
+• *Los sitios de mods* son los puestos sin dueño, donde el precio de «gratis» se paga con lo que no ves.
+
+Todas las casas de arriba tienen algo en común: *una dirección, un historial y una firma*. El
+puesto sin dueño no tiene ninguna de las tres. Esa es la diferencia que esta guía te pide que
+nunca olvides.
+
+> *La Bandita informa a partir de fuentes fechadas. La tienda legal te da algo que el mod nunca:
+un dueño al que exigirle.*
+
+*🔭 El ecosistema fuera de Google (lo que el reloj no alcanza)*
+
+> *Semilla:* el reloj de Google apunta a las casas con el candado de Google. Las casas sin ese
+candado — las que construyó otro albañil — no están en su lista. Eso no las hace mágicas; las
+hace distintas.
+
+La verificación de desarrolladores de la que habla el reloj (sección 🕐) apunta a los *dispositivos certificados*: los que traen los servicios de Google (GMS). Hay todo un mundo de Android que no los trae, y ese mundo es precisamente donde muchas de las tiendas de esta guía viven mejor.
+
+• *ROMs alternativas / des-Googleadas:* construcciones como LineageOS, CalyxOS o GrapheneOS reemplazan o quitan los servicios de Google. Al no llevar el candado GMS, quedan fuera de la lista donde el reloj mira.
+
+No es que sean «libres de reglas»: el riesgo de malware existe en cualquier lado. Es otra
+puerta, con otra vara — y esa vara ya la conoces.
+• *GrapheneOS y Accrescent:* ya viste arriba que Accrescent vive dentro de la tienda de GrapheneOS. Ese es el bucle natural: la tienda de seguridad vive en el sistema de seguridad.
+
+• *Por qué importa para ti:* si tu teléfono es de los certificados (la inmensa mayoría fuera de China), el reloj te toca en 2027. Si corres un build des-Googleado, tu camino es otro — pero tu responsabilidad de verificar sigue igual: dueño a la vista, firma que cuadre, permisos que tengan sentido.
+
+> La Bandita no recomienda cambiar de sistema operativo a la ligera: instalar una ROM es más
+allá de lo que este documento cubre, y mal hecho deja el teléfono inútil. Lo que sí dice: el
+ecosistema libre no depende de una sola puerta, y por eso sobrevive a los cambios de una
+empresa.
+
+⏬ sigue abajo · parte 14 de 20

@@ -160,22 +160,33 @@ def g4_actividad(datos: list[dict]) -> tuple[list[str], str]:
 
 
 def g5_integridad() -> tuple[list[str], str]:
+    """Comprueba lo firmado Y lo que no llegó a firmarse: un archivo nuevo sin sello era invisible."""
     if not MANIFIESTO.exists():
         return ["sin manifiesto de integridad: correr tools/atestar.py"], "manifiesto ausente"
     fallos, n = [], 0
+    sellados = set()
     for linea in MANIFIESTO.read_text(encoding="utf-8").splitlines():
         if not linea.strip():
             continue
         sha, _, ruta = linea.partition("  ")
         p = RAIZ / ruta
         n += 1
+        sellados.add(ruta)
         if not p.exists():
             fallos.append(f"falta {ruta}")
             continue
         real = hashlib.sha256(p.read_bytes()).hexdigest()
         if real != sha:
             fallos.append(f"alterado {ruta}")
-    return fallos, f"{n} archivos sellados"
+    try:
+        from sello_reglas import archivos as archivos_sellables
+    except ImportError:  # árbol de prueba sin tools completos
+        return fallos, f"{n} archivos sellados"
+    sin_sellar = sorted(p.relative_to(RAIZ).as_posix() for p in archivos_sellables(RAIZ, MANIFIESTO))
+    sin_sellar = [r for r in sin_sellar if r not in sellados]
+    for ruta in sin_sellar:
+        fallos.append(f"sin sellar {ruta}")
+    return fallos, f"{n} archivos sellados" + (f" · {len(sin_sellar)} sin sellar" if sin_sellar else "")
 
 
 def g6_antiplantilla(ps: list[Path]) -> tuple[list[str], str]:

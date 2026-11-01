@@ -1,0 +1,63 @@
+*yuki — el catálogo de las apps libres de Shizuku*
+
+> *Semilla:* yuki es el mapa del barrio donde todas las casas usan la misma cerradura: te enseña
+qué apps libres abren con la llave de Shizuku, para que no andes a ciegas.
+
+• Repo: https://github.com/carlelieser/yuki
+• Qué es (descripción oficial): _«Catalog of open-source Android applications that use the Shizuku permission framework»_.
+• Estado constado el 22-sep-2026: ~*120 estrellas*, *extremadamente activo* — su commit más reciente es de horas antes de esta verificación (22-sep-2026), con 412 commits de historia.
+
+• Qué aporta: un *catálogo curado* (con su app para navegarlo) de aplicaciones de código abierto que usan el marco de permisos de Shizuku. No es una tienda que instala por ti; es el índice donde descubres qué existe y de dónde bajarlo.
+
+• Para quién: quien quiere descubrir el ecosistema Shizuku sin depender de listas de grupo.
+
+```
+yuki en una caja
+Qué es:      catálogo de apps libres que usan Shizuku
+Estado:      ~120 ★, muy activo (22-sep-2026)
+Forma:       catálogo navegable + app
+Requiere:    ver el catálogo no; usar las apps sí (Shizuku)
+```
+
+*ShizuCoreFetch — la plataforma centralizada*
+
+> *Semilla:* ShizuCoreFetch es el almacén grande con su propia web, donde se juntan las apps que
+necesitan el *permiso de núcleo* y se manejan desde un solo lugar.
+
+• Repo: https://github.com/elhizazi1/ShizuCoreFetch
+• Qué es (descripción oficial): _«An advanced centralized platform for fetching and managing applications requiring core permissions»_.
+• Estado constado el 22-sep-2026: ~*451 estrellas* (la más popular de las tres), con front-end web propio (su repo incluye sitio, política de privacidad y página de colaboradores) y un botón de patrocinio.
+
+• Qué aporta: una *plataforma centralizada* para buscar y gestionar aplicaciones que exigen permisos de núcleo (los que da Shizuku). El nombre mismo lo dice: _Shizu_ + _Core_ + _Fetch_.
+
+• Para quién: quien prefiere un punto único para ver y traer este tipo de apps, con interfaz web de por medio.
+
+```
+ShizuCoreFetch en una caja
+Qué es:     plataforma central de apps de núcleo
+Estado:      ~451 ★ (la más popular de las tres)
+Extra:       front-end web propio + patrocinio
+Requiere:    permiso de núcleo (Shizuku)
+```
+
+*Cómo arrancar Shizuku (la vara práctica)*
+
+1. Instala Shizuku desde su repo o F-Droid. 2. Enciéndelo por *depuración inalámbrica*: activa Opciones de desarrollador, empareja una vez con el código que te da, y listo. (También puede arrancarse con `adb` desde la computadora, o con root si lo tienes.) 3. Abre la tienda (ShizuStore, por ejemplo).
+
+Si Shizuku no está activo, la app te pide encenderlo; le das permiso y continúa. 4. Instala desde la fuente.
+
+La tienda usa el puente; tú no tocas nada raro.
+
+> *Nota del reloj:* esto es un puente *local*. La verificación de desarrolladores de Google (el
+hito del 30-sep-2026) no lo toca: Shizuku vive en tu teléfono, no en la tienda de Google. Lo que
+sí sigue mandando es la regla de la casa: solo le das el puente a la app que verificaste.
+
+*Advertencia — Shizuku no es root, y el permiso es poder*
+
+• Shizuku da acceso elevado a las APIs del sistema. Concedérselo a una app que no verificaste es como entregarle la credencial del portero a un desconocido: puede hacer más de lo que prometió.
+
+• Estas tres tiendas *requieren Shizuku activo para funcionar*. Si no quieres correr Shizuku, sencillamente no te instalarán nada — y está bien: la vía F-Droid de esta guía no las necesita.
+
+• Ninguna de las tres es una tienda de mods. Las tres trabajan con fuentes declaradas y repos con historial. Eso las separa del anzuelo por donde las miras.
+
+⏬ sigue abajo · parte 7 de 20

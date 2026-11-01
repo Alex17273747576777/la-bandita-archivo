@@ -1,0 +1,42 @@
+*🪴 Qué hacer si una app desaparece o cambia de dueño*
+
+> *Semilla:* las apps son como los vecinos: a veces se mudan, a veces se las lleva otro que pone
+el mismo nombre en la puerta. La vara te dice cuál es cuál.
+
+Tres situaciones reales y qué hacer en cada una, sin pánico:
+
+*1. La app deja de publicar (el vecino se mudó).* El repositorio se queda quieto meses. No es necesariamente muerte: muchos proyectos voluntarios duermen y despiertan.
+
+Qué hacer: anota la última versión conocida y su firma; si la necesitas, búscala en un espejo serio (F-Droid la conserva). No instales «la versión nueva» que te llega por grupo: esa no es tu vecino, es alguien con su chaqueta.
+
+*2. La app cambia de dueño (otro puso el mismo nombre).*
+Pasó con tiendas y clientes antes; pasará otra vez.
+
+Señales de cambio de dueño real: el repo cambia de organización, el dominio nuevo, y la firma
+del archivo ya no cuadra con la de antes.
+
+Qué hacer: compara la firma nueva con la vieja. Si no coinciden, es otra app con el mismo cartel.
+
+La regla de Komi Store de arriba aplica al revés: la mudanza que anuncia el dueño es legítima;
+la que aparece de la nada, no.
+
+*3. La app se vuelve dañina (el vecino se volvió raro).* Un proyecto honesto puede ser tomado o roto. Qué hacer: si Exodus o VirusTotal marcan algo nuevo y raro, o si la app empieza a pedir permisos que nunca pidió, déjala.
+
+Lo archivado en el acta de La Bandita queda como historia; lo que está vivo se vuelve a comprobar antes de recomendar.
+
+```
+Si pasa esto → haz esto
+Se queda quieta     → anota versión+firma; busca en espejo serio
+Cambia de dueño    → compara firma nueva vs vieja
+Huele raro         → no instales; vuelve a verificar
+```
+
+*📚 Glosario ampliado (más semillas de vocabulario)*
+
+``` Sideloading instalar un APK fuera de la tienda del sistema Repositorio la casa del código; la verdad de la app Fork copia de un proyecto, por otro camino Espejo copia del repo en otro sitio (GitHub espejo de Codeberg, por ejemplo) Compilación el archivo sale idéntico al reproducible recompilarlo desde el código Firma / huella la identidad criptográfica del firmante Key pinning la firma queda atada de antemano
+
+no cambia Shizuku puente local: APIs del sistema sin root Permiso núcleo lo que Shizuku concede: ciertas APIs ADB Android Debug Bridge: instalar vía PC GMS servicios de Google: hacen «certificado» EMM / MDM gestión de flotas (empresa, escuela) Advanced flow camino de alto roce: 24h + biométrica Cuenta limitada hasta 20 dispositivos (estudiantes) Exodus auditoría pública de rastreadores VirusTotal análisis por decenas de motores a la vez ROM el sistema Android del teléfono
+
+el «suelo» Des-Googleado Android sin GMS (GrapheneOS, LineageOS…) Acta el registro fechado de lo constatado ```
+
+⏬ sigue abajo · parte 15 de 20

@@ -1,0 +1,66 @@
+*🧊 Mitos que esta guía desmonta (con la vara, no con grito)*
+
+> *Semilla:* el miedo vende; la verdad, a veces, aburre. Por eso aquí se desmonta el mito con el
+dato, no con el grito.
+
+• *Mito: «Android se volvió iOS y ya no puedes instalar nada.»* Falso. Sideloading sigue existiendo: por ADB, por el advanced flow, y las tiendas serias siguen publicando. Lo que cambia es el _registro del que publica_, no el _acto de instalar_.
+
+• *Mito: «F-Droid va a morir el 30 de septiembre.»* Impreciso. El 30 de sep cae el primer hito en cuatro países; F-Droid ha dicho que, si la verificación se aplica tal como está escrita, su forma actual se complica gravemente. Eso es una amenaza real y documentada, no una muerte anunciada para mañana.
+
+• *Mito: «Los mods son la misma app, solo con todo libre.»* Casi nunca. Son otra app disfrazada con el icono, con permisos de más y sin dueño. La «misma app» es la mentira que justifica el riesgo.
+
+• *Mito: «Si tiene candado verde en el navegador, es seguro.»* El candado solo dice que la conexión está cifrada; el phishing también lo tiene. El candado no certifica la honestidad del otro lado.
+
+• *Mito: «Un desconocido en un grupo que dice ‘lo probé y funciona’ es prueba.»* No. La anécdota no es verificación. Aquí se cuenta con enlaces y fechas, no con testimonios de grupo.
+
+```
+Mito vs Dato
+«Se volvió iOS»      → sideloading vive (ADB + advanced flow)
+«F-Droid muere hoy» → hito 30-sep: 4 países, no cierre
+«El mod es la misma» → es otra app con el icono ajeno
+«Candado = seguro»   → candado = cifrado, no honestidad
+«Lo probé yo»        → anécdota ≠ verificación
+```
+
+*🧪 Casos prácticos — la vara en movimiento*
+
+Tres caminos reales, contados paso a paso, para que la teoría se vuelva músculo.
+
+*Caso A — Instalar F-Droid desde cero (el camino limpio)*
+
+1. Entra a `f-droid.org` desde el navegador (no desde un enlace de grupo). 2. Descarga el instalador de la propia página.
+
+El archivo trae la firma de F-Droid. 3. Al instalar, el sistema compara la firma.
+
+Si coincide, entra. Si no, el teléfono te avisa: ahí paras.
+
+4. Abre F-Droid, busca Droid-ify o Neo-Store si quieres un mostrador más bonito, e instálalo desde adentro. 5. Agrega el repo IzzyOnDroid en ajustes → repositorios.
+
+Ya tienes triple vía.
+
+*Por qué esto es el camino limpio:* en ningún paso le diste tu cuenta a nadie, y en cada paso
+hubo una firma que comprobar. El dueño está a la vista.
+
+*Caso B — Seguir un proyecto con Obtainium (el camino del que vigila)*
+
+1. Instala Obtainium (desde F-Droid o su repo). 2. Pégale la URL del repo de la app que te interesa (GitHub/GitLab/Codeberg).
+
+3. Obtainium vigila los lanzamientos. Cuando sale versión nueva, te avisa y la baja.
+
+4. ObtainX se encarga de colocarla. Tú solo confirmas.
+
+*Por qué importa:* no dependes de que la app esté en una tienda grande. Si el proyecto vive en
+su repo, tú lo sigues desde el repo. Es la tienda hecha a tu medida, con la casa del código como
+única autoridad.
+
+*Caso C — Auditar antes de instalar (el camino del que duda)*
+
+1. Tienes una app en mente. Antes de instalar, cópiale el nombre a *Exodus Privacy* y a *VirusTotal*.
+
+2. Exodus te dice cuántos rastreadores declara. VirusTotal te da la opinión de decenas de motores.
+
+3. Si Exodus marca 6 rastreadores y la app es una linterna, ya sabes. Si VirusTotal marca algo raro, ya sabes.
+
+4. Recién ahí decides. La duda no es cobardía; es la vara en acción.
+
+⏬ sigue abajo · parte 13 de 20

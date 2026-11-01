@@ -86,6 +86,13 @@ def _(raiz): editar_json(raiz / "registry/ficha.json", lambda d: d["actividad"].
 def _(raiz): editar_json(raiz / "registry/ficha.json", lambda d: d.update(descripcion="alterada a mano"))
 
 
+@caso("G5 integridad: archivo nuevo después del sello")
+def _(raiz):
+    d = raiz / "docs"
+    d.mkdir(exist_ok=True)
+    (d / "colado.md").write_text("Esto entró al archivo después de firmarse y nadie lo selló.\n", encoding="utf-8")
+
+
 @caso("G7 enlaces: binario recetado")
 def _(raiz):
     p = sorted((raiz / "Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES").glob("*.md"))[0]

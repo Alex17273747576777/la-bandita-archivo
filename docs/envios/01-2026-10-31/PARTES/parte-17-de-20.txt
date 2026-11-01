@@ -1,0 +1,46 @@
+*🌅 Cierre — el mapa vivo*
+
+> *Semilla final:* un mapa no es una pared. Un mapa se camina, se rehace y se le siembran casas
+nuevas. Esta guía es el mapa del ecosistema libre de tiendas; tú eres quien lo recorre.
+
+De principio a fin, esta pieza dijo una sola idea con muchas caras: hay tiendas con dueño que
+revisan, firman y responden (F-Droid y su familia);
+
+hay vigilantes que te traen la tienda a ti (Obtainium y sus hermanos);
+
+hay tiendas del portero Shizuku (ShizuStore, yuki, ShizuCoreFetch) y todo un escaparate que las
+vitrina (Yuki Store, con Multistore, GStore, Xenon y compañía);
+
+hay letreros de mods que se nombran para que los evites;
+
+y hay un calendario que ya corre (30-sep-2026; expansión global en 2027).
+
+Nada de eso es un veredicto sobre el futuro: es el estado del mundo a *15 de octubre de 2026* —
+con las verificaciones del 22-sep conservando su fecha donde las hay.
+
+El mundo se mueve; la vara no. Por eso cada guía de la casa se reabre el día que la usas.
+
+La siguiente guía toca otro rincón del ecosistema. Aquí quedó la casa de las tiendas: quién es
+quién, cómo verificar tú mismo, y por qué la tienda legal siempre te deja algo que el mod no
+puede — *un dueño al que exigirle*.
+
+*🪧 Cartel de la casa (léelo antes de instalar)*
+
+> *Semilla:* en la puerta de la tienda honesta hay un cartel que dice las reglas. En la del
+anzuelo, no hay cartel: te hablan al oído para que no mires.
+
+1. *Dueño conocido.* Toda app que instales tiene un repositorio o sitio con historial. Sin eso, no.
+
+2. *Firma que cuadra.* El archivo debe coincidir con la firma que declara el proyecto. Icono igual ≠ app igual.
+
+3. *Permisos con sentido.* Linterna no lee contactos. Mod de juego no lee mensajería.
+
+4. *Triple vía.* F-Droid + repo propio + IzzyOnDroid pesa más que un solo sitio de mods. 5. *Audita.* Exodus para rastreadores, VirusTotal para el archivo, el repo para los _issues_ reales.
+
+6. *Sin prisa.* Lo que apura para «ahora o nunca» es cebo. Lo bueno espera.
+
+7. *Shizuku solo a quien verificaste.* El puente lo concedes tú, no viene regalado. 8. *Sin mods recetados.* Esta guía nombra los letreros para que los evites, no para que los visites.
+
+9. *ADB vive.* Si tu camino es la computadora, `adb install` sigue funcionando tras el reloj de 2027. 10. *La vara es tuya.* La regla de La Bandita es un método que cualquiera repite. Pásala.
+
+⏬ sigue abajo · parte 17 de 20

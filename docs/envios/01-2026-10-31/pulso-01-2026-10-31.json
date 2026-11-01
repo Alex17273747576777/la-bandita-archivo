@@ -1,0 +1,240 @@
+{
+ "AuroraOSS/AuroraStore": {
+  "estado": "vivo",
+  "stars": 71,
+  "push": "2026-10-02",
+  "archivado": false,
+  "licencia": "GPL-3.0",
+  "lenguaje": "Kotlin",
+  "desc": "Mirror of Gitlab AuroraOSS/AuroraStore",
+  "release": null,
+  "release_fecha": "",
+  "previo": {
+   "stars": 68,
+   "push": "2026-10-02"
+  },
+  "delta_estrellas": 3,
+  "push_nuevo": false
+ },
+ "Developer-For-Git/MOD-STORE": {
+  "estado": "vivo",
+  "stars": 6,
+  "push": "2026-04-17",
+  "archivado": false,
+  "licencia": null,
+  "lenguaje": "Kotlin",
+  "desc": "📱 Open-source Android app store — Discover, download, and manage free apps with a clean Material Design interface",
+  "release": "New",
+  "release_fecha": "2026-04-07",
+  "previo": {
+   "stars": 6,
+   "push": "2026-04-17"
+  },
+  "delta_estrellas": 0,
+  "push_nuevo": false
+ },
+ "Droid-ify/client": {
+  "estado": "vivo",
+  "stars": 7677,
+  "push": "2026-09-12",
+  "archivado": false,
+  "licencia": "GPL-3.0",
+  "lenguaje": "Kotlin",
+  "desc": "Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client",
+  "release": "v0.7.8",
+  "release_fecha": "2026-09-12",
+  "previo": {
+   "stars": 7663,
+   "push": "2026-09-12"
+  },
+  "delta_estrellas": 14,
+  "push_nuevo": false
+ },
+ "ImranR98/Obtainium": {
+  "estado": "vivo",
+  "stars": 21092,
+  "push": "2026-11-01",
+  "archivado": false,
+  "licencia": "GPL-3.0",
+  "lenguaje": "Dart",
+  "desc": "Get Android app updates straight from the source.",
+  "release": "v1.7.3",
+  "release_fecha": "2026-10-25",
+  "previo": {
+   "stars": 21025,
+   "push": "2026-10-25"
+  },
+  "delta_estrellas": 67,
+  "push_nuevo": true
+ },
+ "NeoApplications/Neo-Store": {
+  "estado": "vivo",
+  "stars": 5588,
+  "push": "2026-10-23",
+  "archivado": false,
+  "licencia": "GPL-3.0",
+  "lenguaje": "Kotlin",
+  "desc": "An F-Droid client with modern UI and an arsenal of extra features.",
+  "release": "1.3.3",
+  "release_fecha": "2026-10-23",
+  "previo": {
+   "stars": 5570,
+   "push": "2026-10-23"
+  },
+  "delta_estrellas": 18,
+  "push_nuevo": false
+ },
+ "RikkaApps/Shizuku": {
+  "estado": "vivo",
+  "stars": 32549,
+  "push": "2025-06-18",
+  "archivado": false,
+  "licencia": "Apache-2.0",
+  "lenguaje": "Kotlin",
+  "desc": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+  "release": "v13.6.0",
+  "release_fecha": "2025-05-25",
+  "previo": {
+   "stars": 32392,
+   "push": "2025-06-18"
+  },
+  "delta_estrellas": 157,
+  "push_nuevo": false
+ },
+ "Victor-root/Omnify": {
+  "estado": "vivo",
+  "stars": 95,
+  "push": "2026-10-31",
+  "archivado": false,
+  "licencia": "GPL-3.0",
+  "lenguaje": "Kotlin",
+  "desc": "Beyond F-Droid: install and auto-update apps straight from GitHub, GitLab, Codeberg and self-hosted forges.",
+  "release": "1.0.7-beta.8",
+  "release_fecha": "2026-10-25",
+  "previo": {
+   "stars": 92,
+   "push": "2026-10-25"
+  },
+  "delta_estrellas": 3,
+  "push_nuevo": true
+ },
+ "bikram-agarwal/ObtainX": {
+  "estado": "vivo",
+  "stars": 1567,
+  "push": "2026-10-05",
+  "archivado": false,
+  "licencia": "GPL-3.0",
+  "lenguaje": "Dart",
+  "desc": "Get Android app updates straight from the source. And install it any way you want. ",
+  "release": "v2.21.0",
+  "release_fecha": "2026-10-04",
+  "previo": {
+   "stars": 1555,
+   "push": "2026-10-05"
+  },
+  "delta_estrellas": 12,
+  "push_nuevo": false
+ },
+ "carlelieser/yuki": {
+  "estado": "vivo",
+  "stars": 157,
+  "push": "2026-10-12",
+  "archivado": false,
+  "licencia": "MIT",
+  "lenguaje": "Kotlin",
+  "desc": "Catalog of open-source Android applications that use the Shizuku permission framework.",
+  "release": "android-v1.11.1",
+  "release_fecha": "2026-10-12",
+  "previo": {
+   "stars": 156,
+   "push": "2026-10-12"
+  },
+  "delta_estrellas": 1,
+  "push_nuevo": false
+ },
+ "elhizazi1/ShizuCoreFetch": {
+  "estado": "vivo",
+  "stars": 519,
+  "push": "2026-09-15",
+  "archivado": false,
+  "licencia": "GPL-3.0",
+  "lenguaje": "Kotlin",
+  "desc": "An advanced centralized platform for fetching and managing applications requiring core permissions.",
+  "release": "2.4.0",
+  "release_fecha": "2026-09-03",
+  "previo": {
+   "stars": 515,
+   "push": "2026-09-15"
+  },
+  "delta_estrellas": 4,
+  "push_nuevo": false
+ },
+ "komi-store/komi-store": {
+  "estado": "vivo",
+  "stars": 20174,
+  "push": "2026-10-25",
+  "archivado": false,
+  "licencia": "Apache-2.0",
+  "lenguaje": "Kotlin",
+  "desc": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install a",
+  "release": "v1.9.4",
+  "release_fecha": "2026-10-24",
+  "previo": {
+   "stars": 20092,
+   "push": "2026-10-25"
+  },
+  "delta_estrellas": 82,
+  "push_nuevo": false
+ },
+ "solkin/appteka-android": {
+  "estado": "vivo",
+  "stars": 1367,
+  "push": "2026-10-21",
+  "archivado": false,
+  "licencia": "GPL-3.0",
+  "lenguaje": "Kotlin",
+  "desc": "💊 Appteka is an alternative store for Android",
+  "release": "v23.0",
+  "release_fecha": "2026-08-13",
+  "previo": {
+   "stars": 1359,
+   "push": "2026-10-21"
+  },
+  "delta_estrellas": 8,
+  "push_nuevo": false
+ },
+ "sunO2/GStore": {
+  "estado": "vivo",
+  "stars": 4,
+  "push": "2026-10-17",
+  "archivado": false,
+  "licencia": "GPL-3.0",
+  "lenguaje": "Dart",
+  "desc": "收集github 开源app",
+  "release": "v1.0.34",
+  "release_fecha": "2026-10-14",
+  "previo": {
+   "stars": 4,
+   "push": "2026-10-17"
+  },
+  "delta_estrellas": 0,
+  "push_nuevo": false
+ },
+ "timschneeb/ShizuStore": {
+  "estado": "vivo",
+  "stars": 501,
+  "push": "2026-11-01",
+  "archivado": false,
+  "licencia": "GPL-3.0",
+  "lenguaje": "Kotlin",
+  "desc": "App store for Shizuku apps. Based on my awesome-shizuku list and installs APKs straight from their upstream sources",
+  "release": "1.5.0",
+  "release_fecha": "2026-10-05",
+  "previo": {
+   "stars": 478,
+   "push": "2026-10-05"
+  },
+  "delta_estrellas": 23,
+  "push_nuevo": true
+ }
+}

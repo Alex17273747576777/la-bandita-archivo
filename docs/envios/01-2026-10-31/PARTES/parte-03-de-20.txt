@@ -1,0 +1,41 @@
+*F-Droid — la casa madre*
+
+> *Semilla:* F-Droid es el abuelo que te entrega la semilla en sobresito transparente, y te deja
+ver cómo la empacó. Si el sobresito llega sellado distinto, no te lo da.
+
+• Sitio: https://f-droid.org
+• Qué es: la tienda y el repositorio histórico del software libre en Android.
+
+Todo lo que publica pasa por *compilación reproducible*: el archivo que descargas se puede reconstruir desde el código público, y si el resultado no coincide exactamente, no sale. Esa es la promesa de fondo, y es la que ninguna tienda de mods puede igualar, porque los mods no publican su código.
+
+*Lo comprobado el 22-sep-2026:* el sitio mantiene su campaña «F-Droid is under threat» en el marco del programa de verificación de desarrolladores de Google que esta misma guía cronometra más abajo. El instalador de la propia tienda se descarga directo de su dominio.
+
+El proyecto ha dicho, en voz alta y documentada, que bajo las reglas de verificación tal como están escritas, *F-Droid en su forma actual cesaría de funcionar*: su catálogo sale de voluntarios, seudónimos y pequeños equipos que no van a registrarse con Google para compartir software. Eso no es alarmismo de esta guía; es el diagnóstico del propio proyecto.
+
+Si solo vas a elegir una tienda de esta lista, elige esta. Es la más vieja, la más revisada y la
+que tiene el estándar de publicación más exigente del ecosistema libre.
+
+```
+F-Droid en una caja
+Qué es:      tienda y repositorio de apps libres
+Promesa:    compilación reproducible, sin rastreadores
+Estado (22-sep-2026):  viva; campaña «under threat» activa
+Para quién:  todo el mundo; punto de entrada natural
+Riesgo real: el reloj de Google, no un fallo suyo
+```
+
+*IzzyOnDroid — el anexo respetado*
+
+> *Semilla:* si F-Droid es la biblioteca principal, IzzyOnDroid es la sala de novedades donde
+muchos libros se estrenan antes de pasar al estante grande.
+
+• Sitio: https://apt.izzysoft.de/fdroid
+• Qué es: el repositorio complementario más conocido del ecosistema F-Droid.
+
+Muchas apps que aún no entran al canal principal se publican primero aquí. Es un almacén de confianza dentro de la comunidad, mantenido desde hace años, y se consume como un repositorio más dentro de cualquier cliente F-Droid (Droid-ify, Neo-Store, el cliente oficial).
+
+*Lo comprobado el 22-sep-2026 (noche):* el sitio responde y sirve *1.397 apps*, con su última actualización fechada ese mismo 22-sep (18:01 UTC). Es el mismo sitio de siempre.
+
+No es una tienda separada con escaparate propio, sino un *repositorio* que se suma al de F-Droid. La diferencia importa: tú no «instalas IzzyOnDroid», sino que le dices a tu cliente «agrega este repo» y listo.
+
+⏬ sigue abajo · parte 3 de 20

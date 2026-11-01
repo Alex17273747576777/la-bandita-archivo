@@ -1,0 +1,61 @@
+*🛠️ Si algo falla (solución de problemas reales)*
+
+> *Semilla:* cuando la puerta no abre, no le das una patada: miras si es la llave, la cerradura
+o el portero.
+
+*Shizuku no arranca.* Revisa que la depuración inalámbrica esté activa y que el emparejamiento no haya caducado (el código de emparejamiento expira). Vuelve a emparejar una vez.
+
+Si usas `adb`, confirma que el teléfono esté conectado y que `adb devices` lo liste.
+
+*La tienda de Shizuku pide permiso y no pasa.*
+Concédeselo en la ventana de Shizuku. Si la negaste antes, búscala en la lista de permisos de
+Shizuku y quítala para volver a pedirla. Sin ese permiso, la tienda no instala.
+
+*Una app se instala pero no abre.* Casi siempre es incompatibilidad de versión de Android o de arquitectura (APK dividido mal unido). Baja la versión indicada para tu Android o usa un instalador que una los _split APKs_.
+
+No bajes «la versión mágica» de un sitio de mods: es la semilla pintada.
+
+*F-Droid dice que el archivo no coincide (firma).* No lo instales. Ese mensaje es la casa avisándote de que alguien tocó el paquete.
+
+Búscalo en el repo oficial; si allí también falla, el proyecto lo arregla. Tu trabajo fue el correcto: paraste.
+
+*El navegador me avisa de «sitio no seguro» en un repo.* Eso es el candado del navegador, no el veredicto sobre la app. Los repos de GitHub/Codeberg/GitLab usan HTTPS y el navegador confía en ellos; si sale esa advertencia en un dominio raro, no entres.
+
+El candado verde no es certificado de honestidad, pero el candado rojo sí es bandera roja.
+
+> La Bandita informa a partir de fuentes fechadas. El error no es vergüenza: es la prueba de que
+el acta vive. Lo que se corrige, se anota; lo que se anota, se ve.
+
+*Respuestas (gíralas para leer):*
+
+*🗣️ El reto:* cuéntale a alguien en tres líneas por qué el mod no
+tiene dueño y la tienda sí. Si puedes sin mirar, es tuyo.
+
+*🌱 Semilla de despedida*
+
+> Una semilla buena crece en lo que dice ser. Una semilla pintada crece en otra cosa. La tienda
+legal te entrega la semilla con su etiqueta y el nombre del campesino; el mod te entrega una
+semilla pintada y una mano cerrada.
+
+Aprendiste en esta pieza a leer la etiqueta, a buscar al campesino y a no creerle al que pinta
+semillas.
+
+Eso no se olvida: camina contigo a todas las demás guías.
+
+*Lo que se lleva de aquí, en una sola bocanada:* dueño conocido, firma que cuadra, permisos con sentido, sin prisa, y la vara en tu mano. El reloj de 2027 corre, pero la vara no depende del reloj.
+
+Quien verifica hoy, verifica mañana, con o sin fecha de cumplimiento.
+
+#LaBandita #TiendasAPK #AndroidLibre #FDroid #Sideloading #VerificaAntesDeInstalar
+#EcosistemaLibre #Shizuku #NoAlMod #KeepAndroidOpen #FuenteFechada
+
+📝 *RE-CORTE 15-oct-2026.* Re-abiertos hoy: portada de la campaña y estado del programa (hito
+cumplido el 30-sep; 2027 sin día ni mes).
+
+Casas de tiendas re-pisadas hoy 15-oct por censo de API: Droid-ify (push 12-sep), Neo-Store
+(1-oct), Accrescent (13-oct), Obtainium (14-oct), y el hallazgo de oficio: el GitHub de Aurora
+Store se declara ESPEJO del GitLab (casa madre allá; el espejo no es el repo).
+
+Las tiendas Shizuku y Appteka conservan su verificación del 22-sep.
+
+⏬ sigue abajo · parte 18 de 20

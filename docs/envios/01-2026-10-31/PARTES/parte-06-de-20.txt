@@ -1,0 +1,62 @@
+*Omnify — el cliente F-Droid sin ruido*
+
+> *Semilla:* Omnify es la versión silenciosa del mostrador: lo mismo que Droid-ify, pero sin
+tanto brillo, para quien quiere lo justo.
+
+• Sitio: https://victor-root.github.io/Omnify/
+
+Vivo a 22-sep-2026, con su landing cargando: se presenta como «un cliente F-Droid sin desorden que instala aplicaciones desde cualquier parte». De las apuestas nuevas por hacer el consumo de catálogos libres más amable. _(en la verificación del 15-sep el sitio propio dio 404; al 22-sep la casa vive — los enlaces se reabren el día que se usan.)_
+
+```
+Los tres en una frase
+Obtainium:  vigila releases y te avisa
+ObtainX:    ejecuta la instalación
+Omnify:     cliente F-Droid ligero
+Ninguna de las tres te pide salir de la vía legal.
+```
+
+*🧩 Las tiendas que piden permiso de Shizuku (novedad, verificadas 22-sep-2026)*
+
+> *Semilla de esta sección:* imagina que tu teléfono es una casa con una sala de máquinas. El
+_root_ te da la llave maestra de toda la casa (peligroso si la pierdes). *Shizuku* es un portero
+de confianza: deja entrar a una app concreta a la sala de máquinas para una tarea, sin
+entregarle la llave maestra.
+
+Estas tres tiendas le piden al portero que las deje pasar. Si el portero no está en su puesto,
+no entran — y te lo dicen, en vez de colarse.
+
+*Qué es Shizuku (y por qué estas tiendas lo necesitan)*
+
+• Repo canónico: https://github.com/RikkaApps/Shizuku
+• Qué es: una herramienta que permite a una app normal *usar APIs del sistema con privilegios* (vía `adb` o `root`) a través de un pequeño proceso Java que arranca con `app_process`. No es root: es un puente.
+
+• Estado constado el 22-sep-2026: ~*30.5k estrellas*, versión *13.6.0* (la más reciente etiquetada, mayo 2025), código abierto. (Hoy 15-oct: ★31.558 — el pulso de arriba.)
+• Para qué sirve aquí: instalar, quitar o leer apps *sin root* y sin que tú le des permisos a la app uno por uno. La tienda le pide a Shizuku un acceso acotado; si Shizuku no está corriendo, la tienda te avisa y te pide encenderlo.
+
+*Lo que esto NO es:* Shizuku no te convierte el teléfono en root, ni te salta la verificación de Google del 2027, ni instala nada por ti. Es un puente local entre tú y las APIs del sistema.
+
+La regla de siempre sigue mandando: el puente lo concedes tú, a la app que verificaste.
+
+*ShizuStore — la tienda de las apps de Shizuku*
+
+> *Semilla:* ShizuStore es el tendero que solo vende lo que el portero conoce, y te lo trae
+*directo de la fuente*, no de un barril rellenado por nadie.
+
+• Repo: https://github.com/timschneeb/ShizuStore
+• Qué es (descripción oficial): _«App store for Shizuku apps. Based on my awesome-shizuku list and installs APKs straight from their upstream sources»_.
+• Estado constado el 22-sep-2026: ~*64 estrellas*, con actividad reciente (commit del 20-sep-2026, dos días antes de esta verificación). Nació sobre la base de *AuroraDroid* y de la lista _awesome-shizuku_ del mismo autor.
+
+• Cómo trabaja: instala los APK *directo desde las fuentes de cada proyecto* (el release oficial del desarrollador), no de un espejo sin dueño. Si Shizuku no está activo, la app te pide encenderlo.
+
+• Para quién: quien ya corre Shizuku y quiere un catálogo limpio de apps que lo usan, instaladas desde su origen.
+
+```
+ShizuStore en una caja
+Qué es:      tienda de apps de Shizuku
+Fuente:      upstream de cada proyecto (no espejo)
+Estado:      ~64 ★, activa (20-sep-2026)
+Base:        AuroraDroid + lista awesome-shizuku
+Requiere:    Shizuku activo
+```
+
+⏬ sigue abajo · parte 6 de 20
