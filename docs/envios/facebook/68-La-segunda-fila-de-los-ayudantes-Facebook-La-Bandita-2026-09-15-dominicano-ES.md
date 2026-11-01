@@ -106,7 +106,7 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
+• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
 • thunderbird/thunderbird-android — ★14.169 (+12) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
 • iSoron/uhabits — ★10.381 (+9) · empujó el 22-oct-2026 (hace 10 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
 • tasks/tasks — ★5.707 (+9) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 15.13 (14-oct-2026)

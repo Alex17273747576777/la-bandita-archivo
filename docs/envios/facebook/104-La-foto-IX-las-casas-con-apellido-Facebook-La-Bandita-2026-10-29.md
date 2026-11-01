@@ -52,7 +52,7 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 679 caracteres ═══
+═══ MENSAJE 3 de 4 · 640 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 104*
 
@@ -60,7 +60,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 • Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
-• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
+• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

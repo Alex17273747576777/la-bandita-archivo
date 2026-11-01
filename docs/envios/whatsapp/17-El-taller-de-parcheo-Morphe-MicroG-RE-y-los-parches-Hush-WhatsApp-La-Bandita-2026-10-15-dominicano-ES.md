@@ -1122,7 +1122,7 @@ REV|986.9★ — reganam-ehprom/ppAehproM=1|REV|0.3-LPG=2|REV|03-01-6202 — reg
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1767 caracteres ═══
+═══ MENSAJE 19 de 20 · 1704 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 17*
 
@@ -1136,8 +1136,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 • MeowDump/Integrity-Box — ★2.807 (+10) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v46 (29-oct-2026)
 • snake-4/Zygisk-Assistant — ★2.663 (+1) · *dormido*: sin empujar desde el 4-may-2026 (181 días) · MIT · última release v2.1.4 (23-feb-2025)
 • MMRLApp/MMRL — ★2.226 (+3) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v34296 (8-mar-2026)
-• SysAdminDoc/HushFacebook — ★449 (+11) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
-• SysAdminDoc/HushFeed — ★342 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
+• SysAdminDoc/HushFacebook — ★449 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• SysAdminDoc/HushFeed — ★342 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • SysAdminDoc/Hushfacebook — ★449 · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
 • SysAdminDoc/hushfeed — ★342 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 

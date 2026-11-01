@@ -899,7 +899,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pi
 • localsend/localsend — ★96.921 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 • syncthing/syncthing — ★89.976 (+103) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • termux/termux-app — ★63.878 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION
-• RikkaApps/Shizuku — ★32.590 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• RikkaApps/Shizuku — ★32.594 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • ImranR98/Obtainium — ★21.116 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • organicmaps/organicmaps — ★15.843 (sin cambio) · empujó en las últimas horas · NOASSERTION
 • beemdevelopment/Aegis — ★13.442 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0

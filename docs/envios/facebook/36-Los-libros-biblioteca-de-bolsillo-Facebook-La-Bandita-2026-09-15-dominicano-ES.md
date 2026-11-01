@@ -84,7 +84,7 @@ Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1587 caracteres ═══
+═══ MENSAJE 4 de 5 · 1527 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 36*
 
@@ -97,7 +97,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pi
 • Pool-Of-Tears/Myne — ★1.542 (+1) · empujó el 21-sep-2026 (hace 41 días) · Apache-2.0 · última release v5.1.0 (21-ago-2026)
 • kiwix/kiwix-android — ★1.521 (+4) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.14.1 (14-may-2026)
 • Acclorite/book-story — ★1.417 (+1) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.8.0 (13-oct-2025)
-• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
+• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia
 • PrivacyDragon/Bookwyrm_Android — ★38 (sin cambio) · empujó el 4-oct-2026 (hace 28 días) · BSD-3-Clause · última release v1.3.9 (13-may-2026)
 • pkmetski/riffle — ★18 (sin cambio) · empujó en las últimas horas · AGPL-3.0 · última release v2.45.4 (5-oct-2026)
 

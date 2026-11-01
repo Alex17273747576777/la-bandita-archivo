@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `833f5b57b98347749615b692e48e0f0a94c3261a173fd29b8c3ed89758a97ebc`
-- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3883 caracteres
+- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3925 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 27 · 816 caracteres ═══
@@ -838,27 +838,27 @@ La app que uses mañana puede no ser la de hoy. Tu archivo sí puede ser el mism
 
 ⏬ sigue abajo · parte 22 de 26
 
-═══ MENSAJE 24 de 27 · 3883 caracteres ═══
+═══ MENSAJE 24 de 27 · 3925 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 58 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions-source — ★4.845 (+14) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions-source — ★4.850 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • yuzono/tachiyomi-extensions — ★953 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (223 días) · Apache-2.0 · *ARCHIVADO*
 • m2k3a/mangayomi-extensions — ★113 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 • tachiyomiorg/tachiyomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
-• komikku-app/komikku — ★4.965 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• mihonapp/mihon — ★24.939 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• komikku-app/komikku — ★4.966 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• ruzhe85/MihonSY — ★48 · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.2.1 (7-oct-2026)
+• ruzhe85/MihonSY — ★48 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0
 • RecordXenon/Kotatsu-Ultra — ★117 · empujó el 22-oct-2026 (hace 10 días) · sin licencia detectada por la API
 • Nyora-Manga/nyora-android — ★58 · empujó el 23-sep-2026 (hace 39 días) · GPL-3.0 · última release v2.7.3 (31-jul-2026)
 • Utolaris/Kujira-Manga — ★17 · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.5.3 (25-oct-2026)
-• Mister-album/Koharia — ★254 · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)
+• Mister-album/Koharia — ★255 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0
 • Wammy-app/Wammy — ★13 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.1.4 (25-oct-2026)
 • hotaro26/miko — ★33 · *dormido*: sin empujar desde el 11-sep-2026 (51 días) · sin licencia detectada por la API · última release v3.3 (3-ago-2026)
 • kodjodevf/mangayomi — ★4.288 (sin cambio) · empujó en las últimas horas · Apache-2.0
@@ -880,12 +880,12 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 58 repositorios que cita esta pi
 • UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
 • Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0
+• roxycon-dev/Ciallo-Reader — ★271 (sin cambio) · empujó en las últimas horas · MIT
 
 ⏬ sigue abajo · parte 23 de 26
 
-═══ MENSAJE 25 de 27 · 2254 caracteres ═══
+═══ MENSAJE 25 de 27 · 2170 caracteres ═══
 
-• roxycon-dev/Ciallo-Reader — ★271 (sin cambio) · empujó en las últimas horas · MIT
 • kmworks/kmreader — ★116 · empujó en las últimas horas · MIT · última release v7.3 (22-oct-2026)
 • josueBarretogit/manga-tui — ★954 (sin cambio) · empujó en las últimas horas · MIT
 • elboletaire/manga-downloader — ★289 · empujó en las últimas horas · AGPL-3.0 · última release v24.1.0 (30-oct-2026)

@@ -1024,18 +1024,18 @@ REV|048.42★ — nohim/ppanohim=1|REV|)odacifirev( oper us ne ESNECIL ovihcra n
 
 ⏬ sigue abajo · parte 18 de 20
 
-═══ MENSAJE 20 de 21 · 2505 caracteres ═══
+═══ MENSAJE 20 de 21 · 2512 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
-• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
+• mihonapp/mihon — ★24.939 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
 • KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
 • aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
-• komikku-app/komikku — ★4.965 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• keiyoushi/extensions-source — ★4.845 (+14) · empujó en las últimas horas · Apache-2.0
+• komikku-app/komikku — ★4.966 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions-source — ★4.850 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • jobobby04/TachiyomiSY — ★4.200 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • lnreader/lnreader — ★2.947 (+5) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
 • nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0

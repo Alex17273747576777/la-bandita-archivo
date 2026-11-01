@@ -866,7 +866,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 32 repositorios que cita esta pi
 • accrescent/accrescent — ★2.305 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • solkin/appteka-android — ★1.368 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0
 • GrapheneOS/AppStore — ★625 (sin cambio) · empujó en las últimas horas · MIT · última release 37 (31-oct-2026)
-• RikkaApps/Shizuku — ★32.590 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• RikkaApps/Shizuku — ★32.594 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • JonaNorman/WebViewUpgrade — ★456 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · Apache-2.0
 • solrudev/Ackpine — ★185 (sin cambio) · empujó el 17-oct-2026 (hace 15 días) · Apache-2.0 · última release 0.25.4 (30-jul-2026)
 • daboynb/developer-verifier-placeholder — ★184 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)

@@ -87,7 +87,7 @@ La noticia fresca es de **k1717/Readwide**: release v1.0.21 (2026-10-24). En lic
 Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • koodo-reader/koodo-reader — ★28.688 (sin cambio) · empujó en las últimas horas · AGPL-3.0
-• komikku-app/komikku — ★4.965 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• komikku-app/komikku — ★4.966 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • thehijacker/codexa — ★79 (sin cambio) · empujó el 19-oct-2026 (hace 13 días) · sin licencia detectada por la API · última release v2.6.7 (19-oct-2026)
 • nubesurrealista/Kumo — ★59 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · Apache-2.0 · última release v0.21.0 (20-ago-2026) · *ARCHIVADO*
 • Nyora-Manga/nyora-android — ★58 (sin cambio) · empujó el 23-sep-2026 (hace 39 días) · GPL-3.0 · última release v2.7.3 (31-jul-2026)

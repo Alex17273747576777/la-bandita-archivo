@@ -163,7 +163,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pi
 • photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • nextcloud/server — ★37.382 (+37) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • koodo-reader/koodo-reader — ★28.688 (sin cambio) · empujó en las últimas horas · AGPL-3.0
-• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
+• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
 • Dr-TSNG/ZygiskNext — ★10.776 (+34) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
 • modelcontextprotocol/modelcontextprotocol — ★9.580 (+18) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 

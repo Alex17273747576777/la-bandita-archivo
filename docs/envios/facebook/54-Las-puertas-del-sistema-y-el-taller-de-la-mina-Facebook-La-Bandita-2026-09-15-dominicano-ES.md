@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a61e2cc71309ca2c3a38112bc8d1dd09526312b7b6d70fd97eefbef536e16595`
-- **Envío generado:** 2026-11-01 · 11 mensajes · el mayor de 3864 caracteres
+- **Envío generado:** 2026-11-01 · 11 mensajes · el mayor de 3836 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 11 · 923 caracteres ═══
@@ -255,7 +255,7 @@ Hay release de esta semana: **Khh-vu/wifi-password-manager** publicó v1.21 (202
 
 ⏬ sigue abajo · parte 6 de 10
 
-═══ MENSAJE 8 de 11 · 3864 caracteres ═══
+═══ MENSAJE 8 de 11 · 3836 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 54*
 
@@ -284,7 +284,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 52 repositorios que cita esta pi
 • Etar-Group/Etar-Calendar — ★2.630 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.0.57 (27-jul-2026)
 • lihenggui/blocker — ★2.476 (+10) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v2.0.6447 (22-oct-2026)
 • AhmetCanArslan/ShizuWall — ★2.422 (+13) · empujó en las últimas horas · GPL-3.0 · última release v4.6.8 (24-oct-2026)
-• VegaBobo/DSU-Sideloader — ★2.352 (+8) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
+• VegaBobo/DSU-Sideloader — ★2.353 (sin cambio) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0
 • dongdongbh/Mindwtr — ★2.360 (+19) · empujó en las últimas horas · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.069 (+1) · *dormido*: sin empujar desde el 6-feb-2022 (1729 días) · sin licencia detectada por la API
 • zacharee/Tweaker — ★1.760 (+3) · empujó el 21-oct-2026 (hace 11 días) · MIT · última release 362 (17-feb-2024)
@@ -294,7 +294,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 52 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 7 de 10
 
-═══ MENSAJE 9 de 11 · 2623 caracteres ═══
+═══ MENSAJE 9 de 11 · 2563 caracteres ═══
 
 • GlassHaven/Haven — ★1.400 (+13) · empujó en las últimas horas · AGPL-3.0 · última release v5.93.0 (1-nov-2026)
 • F0x1d/LogFox — ★1.379 (+6) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v2.1.10-79 (1-mar-2026)
@@ -310,7 +310,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 52 repositorios que cita esta pi
 • Khh-vu/wifi-password-manager — ★325 (+3) · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.21 (29-oct-2026)
 • nardjes5/kumo-surreal — ★115 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 • ReWelp/HayasexShiru-Extensions — ★99 (sin cambio) · *dormido*: sin empujar desde el 2-feb-2026 (272 días) · GPL-3.0
-• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
+• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia
 • LinZong/Hostman — ★58 (sin cambio) · *dormido*: sin empujar desde el 31-dic-2025 (305 días) · MIT · última release 1.1.1 (31-dic-2025)
 • Carry-rrk/ManageSensors — ★46 (sin cambio) · *dormido*: sin empujar desde el 18-ene-2025 (652 días) · MIT · última release debug (18-ene-2025)
 • dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0

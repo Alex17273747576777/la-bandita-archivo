@@ -785,17 +785,17 @@ REV|273.51★ — snoisnetxe/ihsuoyiek=1|REV|0.2-ehcapA=2|REV|92-01-6202 — ope
 
 ⏬ sigue abajo · parte 25 de 27
 
-═══ MENSAJE 27 de 28 · 1006 caracteres ═══
+═══ MENSAJE 27 de 28 · 969 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
-• keiyoushi/extensions-source — ★4.845 (+14) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
+• keiyoushi/extensions-source — ★4.850 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • LittleSurvival/copymanga-copy20 — ★2.985 (+13) · empujó el 11-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
-• yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
-• cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f3291a9 (31-oct-2026)
+• yuzono/anime-extensions — ★527 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• cuong-tran/manga-repo — ★465 (sin cambio) · empujó en las últimas horas · sin licencia
 • Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

@@ -51,7 +51,7 @@ El grupo respira despacio; su empuje más reciente, **RikkaApps/Shizuku**, fue h
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.590 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• RikkaApps/Shizuku — ★32.594 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

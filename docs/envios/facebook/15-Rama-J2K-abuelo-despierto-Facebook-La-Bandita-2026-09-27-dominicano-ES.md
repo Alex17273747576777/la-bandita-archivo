@@ -87,7 +87,7 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 6 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1765 caracteres ═══
+═══ MENSAJE 4 de 5 · 1728 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
@@ -103,7 +103,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 • theordinaryguy23/TachiyomiDNP — ★6 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.9.4 (21-oct-2026)
 • HugoFMiranda/yomu — ★5 (sin cambio) · *dormido*: sin empujar desde el 30-jul-2026 (94 días) · Apache-2.0 · última release 1.7.21 (30-jul-2026)
 • NotBlankyu/yurei — ★0 (sin cambio) · *dormido*: sin empujar desde el 21-ago-2026 (72 días) · Apache-2.0 · última release v1.10.1 (21-ago-2026)
-• KakarottoCake/yokai-T — ★0 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · Apache-2.0 · última release v1.0.2 (4-jul-2026)
+• KakarottoCake/yokai-T — ★0 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · Apache-2.0
 • Zykrave/Nekoumy — ★0 (sin cambio) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

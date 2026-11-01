@@ -135,7 +135,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 20 repositorios que cita esta pi
 • Genymobile/scrcpy — ★153.736 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
 • termux/termux-app — ★63.878 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION
 • topjohnwu/Magisk — ★63.671 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0
-• RikkaApps/Shizuku — ★32.590 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• RikkaApps/Shizuku — ★32.594 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • LSPosed/LSPosed — ★25.288 (sin cambio) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0
 • ImranR98/Obtainium — ★21.116 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • komi-store/komi-store — ★20.202 (+112) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)

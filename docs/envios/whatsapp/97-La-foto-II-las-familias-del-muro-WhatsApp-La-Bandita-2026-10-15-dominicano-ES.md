@@ -75,7 +75,7 @@ REV|92-01-6202 — snoisnetxe/ihsuoyiek=1|REV|787.85★ — nifyllej/nifyllej=2|
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • jellyfin/jellyfin — ★58.893 (+106) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
+• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
 • OuterTune/OuterTune — ★5.441 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

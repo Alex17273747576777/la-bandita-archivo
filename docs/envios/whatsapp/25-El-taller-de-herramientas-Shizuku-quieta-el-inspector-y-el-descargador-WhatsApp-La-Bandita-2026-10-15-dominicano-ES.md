@@ -655,7 +655,7 @@ REV|81-60-5202 — ukuzihS/sppAakkiR=1|REV|92-01-6202 — deepog/baLdeepoG=2|REV
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.590 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• RikkaApps/Shizuku — ★32.594 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • GopeedLab/gopeed — ★27.308 (+62) · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
 • MuntashirAkon/AppManager — ★9.398 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
 • florisboard/florisboard — ★8.740 (+7) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)

@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Almacenes-de-extensiones-Keiyoushi-Yuzono-y-el-resurtido-del-manga-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `f481c50506cd9cfef858829a3a50bc4bef15a6885bce75fe65c665bc676d47e3`
-- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3720 caracteres
+- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3740 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 27 · 777 caracteres ═══
@@ -747,16 +747,16 @@ La pregunta útil no es «cuál es el mejor catálogo». Es «quién lo está ll
 
 ⏬ sigue abajo · parte 24 de 26
 
-═══ MENSAJE 26 de 27 · 3720 caracteres ═══
+═══ MENSAJE 26 de 27 · 3740 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Aidoku-Community/sources — ★614 · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
+• Aidoku-Community/sources — ★615 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • m2k3a/mangayomi-extensions — ★113 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 • skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• keiyoushi/extensions-source — ★4.845 (+14) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions-source — ★4.850 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • yuzono/tachiyomi-extensions — ★953 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • aniyomiorg/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
 • Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
@@ -779,10 +779,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pi
 • mrtear/Extension-Source-Builder — ★31 · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · sin licencia detectada por la API
 • SeoMavares/miwayomi — ★31 · *dormido*: sin empujar desde el 14-ago-2026 (79 días) · Apache-2.0 · última release v0.2.9 (13-ago-2026)
 • timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (223 días) · Apache-2.0 · *ARCHIVADO*
-• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
+• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
 • kodjodevf/mangayomi — ★4.288 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
-• komikku-app/komikku — ★4.965 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• mihonapp/mihon — ★24.939 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• komikku-app/komikku — ★4.966 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0

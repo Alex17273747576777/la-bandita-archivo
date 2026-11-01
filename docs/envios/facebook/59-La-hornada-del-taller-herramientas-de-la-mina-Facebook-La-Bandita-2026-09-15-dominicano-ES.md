@@ -108,7 +108,7 @@ Pulso de hoy sobre los 16 repos de la pieza: 16 vivos, 14 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2296 caracteres ═══
+═══ MENSAJE 4 de 5 · 2268 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 59*
 
@@ -126,7 +126,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pi
 • jellyfin/jellyfin-android — ★2.847 (+8) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 • lihenggui/blocker — ★2.476 (+10) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v2.0.6447 (22-oct-2026)
 • AhmetCanArslan/ShizuWall — ★2.422 (+13) · empujó en las últimas horas · GPL-3.0 · última release v4.6.8 (24-oct-2026)
-• VegaBobo/DSU-Sideloader — ★2.352 (+8) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
+• VegaBobo/DSU-Sideloader — ★2.353 (sin cambio) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0
 • F0x1d/LogFox — ★1.379 (+6) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v2.1.10-79 (1-mar-2026)
 • Khh-vu/wifi-password-manager — ★325 (+3) · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.21 (29-oct-2026)
 • Carry-rrk/ManageSensors — ★46 (sin cambio) · *dormido*: sin empujar desde el 18-ene-2025 (652 días) · MIT · última release debug (18-ene-2025)

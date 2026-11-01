@@ -110,22 +110,22 @@ Empieza por las bajas: **leassapie/houri** (caído (404)) no contestaron hoy. Co
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2609 caracteres ═══
+═══ MENSAJE 4 de 5 · 2461 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 16*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
-• komikku-app/komikku — ★4.965 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
+• komikku-app/komikku — ★4.966 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • jobobby04/TachiyomiSY — ★4.200 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • yuzono/tachiyomi-extensions — ★953 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• syncyomi/syncyomi — ★741 (+4) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
+• syncyomi/syncyomi — ★741 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0
 • jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)
-• cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f3291a9 (31-oct-2026)
+• cuong-tran/manga-repo — ★465 (sin cambio) · empujó en las últimas horas · sin licencia
 • komikku-app/komikku-preview — ★257 (+1) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release r10617 (17-jul-2026)
-• ruzhe85/MihonSY — ★48 (+1) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.2.1 (7-oct-2026)
-• Harrys-HQ/ShinKu — ★45 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v2.8.0 (1-nov-2026)
+• ruzhe85/MihonSY — ★48 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0
+• Harrys-HQ/ShinKu — ★45 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • PineappleTwilight/houri — ★39 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.25.1 (1-nov-2026)
 • Smol-Ame/Chai — ★13 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (71 días) · Apache-2.0
 • pokedo0/Pokomi — ★12 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0 · última release v1.0.9 (16-ago-2026)

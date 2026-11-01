@@ -102,10 +102,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 • rustdesk/rustdesk — ★127.779 (sin cambio) · empujó en las últimas horas · AGPL-3.0
 • localsend/localsend — ★96.921 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 • termux/termux-app — ★63.878 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION
-• RikkaApps/Shizuku — ★32.590 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
-• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• RikkaApps/Shizuku — ★32.594 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• mihonapp/mihon — ★24.939 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
 • komi-store/komi-store — ★20.202 (+112) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
+• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
 • hrydgard/ppsspp — ★14.799 (sin cambio) · empujó en las últimas horas · NOASSERTION
 • guardianproject/orbot-android — ★3.666 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION
 • itsmechinmoy/dantotsu-updater — ★155 (+1) · empujó en las últimas horas · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)

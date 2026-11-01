@@ -457,7 +457,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pi
 • AbdurazaaqMohammed/AntiSplit-M — ★4.941 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • vinstall/VInstall — ★105 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
 • Paving-Base/APK-Installer — ★1.712 (sin cambio) · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0
-• RikkaApps/Shizuku — ★32.590 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• RikkaApps/Shizuku — ★32.594 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • MuntashirAkon/AppManager — ★9.398 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
 • offa/android-foss — ★11.611 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
 • Psyhackological/AAA — ★3.141 (sin cambio) · empujó el 29-sep-2026 (hace 33 días) · CC-BY-4.0

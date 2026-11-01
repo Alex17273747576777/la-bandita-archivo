@@ -1445,14 +1445,14 @@ REV|82-01-6202 — aleV/nikpmuPnipmiP=1|REV|282.2★ — aleV/nikpmuPnipmiP=2|RE
 
 ⏬ sigue abajo · parte 20 de 22
 
-═══ MENSAJE 22 de 23 · 567 caracteres ═══
+═══ MENSAJE 22 de 23 · 529 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 11*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • PimpinPumpkin/Vela — ★2.300 (+18) · empujó en las últimas horas · GPL-3.0 · última release v0.5.2621 (19-oct-2026)
-• flectar/mail — ★1.715 (+29) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
+• flectar/mail — ★1.721 (sin cambio) · empujó en las últimas horas · AGPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

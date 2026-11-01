@@ -46,13 +46,13 @@ La noticia fresca es de **kitsumed/ShizuCallRecorder**: release v2.0.0 (2026-10-
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 462 caracteres ═══
+═══ MENSAJE 3 de 4 · 431 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 92*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• kitsumed/ShizuCallRecorder — ★1.969 (+37) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.0.0 (24-oct-2026)
+• kitsumed/ShizuCallRecorder — ★1.970 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

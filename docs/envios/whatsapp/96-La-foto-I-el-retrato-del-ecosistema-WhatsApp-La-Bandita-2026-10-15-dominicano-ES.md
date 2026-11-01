@@ -80,7 +80,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pie
 
 • ollama/ollama — ★185.541 (+302) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
 • localsend/localsend — ★96.921 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
-• keiyoushi/extensions — ★15.406 (sin cambio) · empujó en las últimas horas · sin licencia
+• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
 • scummvm/scummvm — ★2.875 (+5) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

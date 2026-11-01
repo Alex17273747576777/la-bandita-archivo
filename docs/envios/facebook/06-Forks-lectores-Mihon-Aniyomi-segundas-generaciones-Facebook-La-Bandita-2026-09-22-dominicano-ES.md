@@ -66,7 +66,7 @@ Empieza por las bajas: **rebelonion/dantotsu** (bloqueado legal (451): existe) n
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• mihonapp/mihon — ★24.939 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
 • aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
 • Jays2Kings/tachiyomiJ2K — ★5.399 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • komikku-app/anikku — ★1.127 (sin cambio) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0

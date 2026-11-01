@@ -99,9 +99,9 @@ La noticia fresca es de **KolbyML/Manatan**: release v6.2.21 (2026-10-29). 11 re
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.932 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• mihonapp/mihon — ★24.939 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
 • zyddnys/manga-image-translator — ★10.561 (+11) · empujó el 11-oct-2026 (hace 21 días) · GPL-3.0 · última release beta-0.3 (23-abr-2022)
-• komikku-app/komikku — ★4.965 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• komikku-app/komikku — ★4.966 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Aidoku/Aidoku — ★4.685 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • null2264/yokai — ★1.914 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0
 • KolbyML/Manatan — ★621 (+2) · empujó en las últimas horas · MIT · última release v6.3.0 (1-nov-2026)
