@@ -614,7 +614,7 @@ REV|809.96★ — nedrawtluav/aicrag-inad=1|REV|92-01-6202 — nedrawtluav/aicra
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 695 caracteres ═══
+═══ MENSAJE 16 de 17 · 671 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 27*
 
@@ -622,7 +622,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 • dani-garcia/vaultwarden — ★70.031 (+136) · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release 1.37.4 (5-oct-2026)
 • keepassxreboot/keepassxc — ★29.663 (+59) · empujó en las últimas horas · NOASSERTION · última release 2.8.0 (21-oct-2026)
-• Kunzisoft/KeePassDX — ★7.581 · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• Kunzisoft/KeePassDX — ★7.581 (sin cambio) · empujó en las últimas horas · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

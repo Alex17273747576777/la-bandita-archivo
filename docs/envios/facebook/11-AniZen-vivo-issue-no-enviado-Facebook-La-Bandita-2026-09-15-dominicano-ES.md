@@ -58,13 +58,13 @@ La noticia amarga: **Gaijin81/anizen** (caído (404)) ya no respondieron. Del re
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1042 caracteres ═══
+═══ MENSAJE 3 de 4 · 1003 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 11*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • komikku-app/anikku — ★1.126 (+3) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
 • salmanbappi/AniZen — ★200 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.5.220 (31-oct-2026)
 • salmanbappi/anizen-preview — ★9 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release r4821 (31-oct-2026)

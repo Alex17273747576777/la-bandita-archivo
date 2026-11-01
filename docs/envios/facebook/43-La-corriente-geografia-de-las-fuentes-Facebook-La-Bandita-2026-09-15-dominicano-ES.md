@@ -142,19 +142,19 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3553 caracteres ═══
+═══ MENSAJE 5 de 6 · 3418 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 43*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release fc7a827-2 (1-nov-2026)
-• Kareadita/Kavita — ★11.988 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
-• LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
+• keiyoushi/extensions — ★15.405 (sin cambio) · empujó en las últimas horas · sin licencia
+• Kareadita/Kavita — ★11.988 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• LittleSurvival/copymanga-copy20 — ★2.985 (sin cambio) · empujó el 11-oct-2026 (hace 21 días) · sin licencia
 • lnreader/lnreader — ★2.945 (+3) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
 • IReaderorg/IReader — ★982 (+2) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
-• Aidoku-Community/sources — ★614 (+5) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
-• yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
+• Aidoku-Community/sources — ★614 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
+• yuzono/anime-extensions — ★525 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Spyou/Zangetsu — ★481 (+26) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.3.4 (29-oct-2026)
 • lnreader/lnreader-plugins — ★365 (+1) · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
 • Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0

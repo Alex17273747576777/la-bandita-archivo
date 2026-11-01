@@ -87,14 +87,14 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 6 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1842 caracteres ═══
+═══ MENSAJE 4 de 5 · 1803 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Jays2Kings/tachiyomiJ2K — ★5.399 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
-• null2264/yokai — ★1.914 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
+• null2264/yokai — ★1.914 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0
 • Saud-97/TachiyomiS97 — ★125 (sin cambio) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · Apache-2.0 · última release v1.7.5 (17-jul-2026)
 • rokku-app/rokku — ★64 (+1) · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (30-oct-2026)
 • HayaiApp/hayai — ★49 (+2) · empujó el 3-oct-2026 (hace 29 días) · Apache-2.0

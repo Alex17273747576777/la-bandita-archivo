@@ -338,7 +338,7 @@ El otro hallazgo es de forma, no de fondo: cuatro de las dieciocho fichas no ide
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Una herramienta de oficio vale por lo que aguanta el día que la red se cae.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 08:20 y las 11:55 de Santo Domingo · dieciocho proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · cuatro fichas sin licencia identificada quedan dichas con esas palabras · dos releases sin fecha publicada se anotan como tales · lo que no se pudo leer no aparece en la lista.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 08:20 y las 09:30 de Santo Domingo · dieciocho proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · cuatro fichas sin licencia identificada quedan dichas con esas palabras · dos releases sin fecha publicada se anotan como tales · lo que no se pudo leer no aparece en la lista.
 
 *Licencia:* el texto queda en CC BY-SA 4.0, los datos medidos en CC BY 4.0 y el código en MIT; el nombre y la marca de la casa siguen siendo de «Alexis (La Bandita)».
 

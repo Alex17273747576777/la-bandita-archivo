@@ -443,7 +443,7 @@ El señor del colmado de Villa Mella va a volver a ver ese aviso. Cuando lo vea,
 
 💓 *La Bandita informa a partir de fuentes fechadas.* El aparato ya está pagado; la puerta, todavía no. Mientras la cerradura viaja, guarda tus archivos y aprende el cable.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:40 y las 07:20 de Santo Domingo · treinta y tres repositorios medidos uno por uno contra la API pública de GitHub, sin caché · treinta y tres enlaces abiertos con `curl -L`, todos con respuesta 200 · cuatro de esos repositorios nacieron en las últimas dos semanas. Lo no medido está dicho arriba como no medido.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:40 y las 07:20 de Santo Domingo · re-medida a las 10:09 con el orden de las tres lecturas cambiado recurso por recurso · lo no medido se dice.
 
 ## 🗒️ Notas al pie
 

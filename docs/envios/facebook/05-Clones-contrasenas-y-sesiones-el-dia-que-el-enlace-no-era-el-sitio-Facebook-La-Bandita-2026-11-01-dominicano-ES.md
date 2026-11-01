@@ -2,19 +2,19 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/05-Clones-contrasenas-y-sesiones-el-dia-que-el-enlace-no-era-el-sitio-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `499f5e0551555ac46e3c376ff38441cf0f0db968f7264461fa0618784a5ff055`
+- **sha256 de la pieza:** `028d5179373c3cc959abcf1146499f654ca918715616e5a33ffe888304f0f055`
 - **Envío generado:** 2026-11-01 · 19 mensajes · el mayor de 3598 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 19 · 775 caracteres ═══
+═══ MENSAJE 1 de 19 · 771 caracteres ═══
 
 *Clones, contraseñas y sesiones: el día en que el enlace no era el sitio*
 
 La Bandita · pieza 05 · guía del 1-nov-2026 · te la mando hoy en 19 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *17 repositorios, 17 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *17 repositorios, 15 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 9 · AGPL-3.0 3 · MPL-2.0 1 · Apache-2.0 1.
+Licencias de lo que recomienda: GPL-3.0 9 · AGPL-3.0 2 · Apache-2.0 1 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/05-Clones-contrasenas-y-sesiones-el-dia-que-el-enlace-no-era-el-sitio-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
@@ -107,21 +107,21 @@ Estas son las herramientas que resuelven el problema, medidas una por una esta m
 *Las segundas cerraduras*
 
 - **beemdevelopment/Aegis** — los códigos de seis cifras, con exportación firmada ★13.443 · licencia GPL-3.0 · Java · empujó el 06-sep · release v3.4.3 (06-sep) · https://github.com/beemdevelopment/Aegis
-- **twofas/2fas-android** — alternativa con respaldo y extensión de navegador ★1.561 · licencia GPL-3.0 · Kotlin · empujó el 31-oct · release 6.1.0 (19-oct) · https://github.com/twofas/2fas-android
+- **twofas/2fas-android** — alternativa con respaldo y extensión de navegador ★1.562 · licencia GPL-3.0 · Kotlin · empujó el 31-oct · release 6.1.0 (19-oct) · https://github.com/twofas/2fas-android
 
 *El navegador y las listas que bloquean*
 
-- **uazo/cromite** — navegador con bloqueo de serie, sin telemetría ★8.453 · licencia GPL-3.0 · C++ · empujó hoy · release 15-sep · https://github.com/uazo/cromite
-- **gorhill/uBlock** — la lista de bloqueo que sostiene media internet ★68.993 · licencia GPL-3.0 · empujó el 30-oct · release 1.75.0 (16-sep) · https://github.com/gorhill/uBlock
+- **uazo/cromite** — navegador con bloqueo de serie, sin telemetría ★8.455 · licencia GPL-3.0 · C++ · empujó hoy · release 15-sep · https://github.com/uazo/cromite
+- **gorhill/uBlock** — la lista de bloqueo que sostiene media internet ★68.996 · licencia GPL-3.0 · empujó el 30-oct · release 1.75.0 (16-sep) · https://github.com/gorhill/uBlock
 - **divested-mobile/mull-fenix** — navegador endurecido, sin release anotada ★592 · licencia AGPL-3.0 · último empuje 10-dic-2024 · https://github.com/divested-mobile/mull-fenix
 - **mozilla-mobile/firefox-android** — el código de Firefox para Android, hoy en otro repositorio ★1.842 · licencia MPL-2.0 · empujó el 17-jun-2024 · release components-v125.3.0 · https://github.com/mozilla-mobile/firefox-android
 
 *La red de la casa y del bolsillo*
 
-- **AdguardTeam/AdGuardHome** — bloqueo para todos los aparatos de la casa ★38.032 · licencia GPL-3.0 · TypeScript · empujó el 30-oct · release v0.107.79 (18-ago) · https://github.com/AdguardTeam/AdGuardHome
+- **AdguardTeam/AdGuardHome** — bloqueo para todos los aparatos de la casa ★38.033 · licencia GPL-3.0 · TypeScript · empujó el 30-oct · release v0.107.79 (18-ago) · https://github.com/AdguardTeam/AdGuardHome
 - **celzero/rethink-app** — cortafuegos y bloqueo por app en el teléfono ★5.828 · licencia Apache-2.0 · Kotlin · empujó el 26-oct · release v0.5.8 (13-oct) · https://github.com/celzero/rethink-app
 - **nextdns/nextdns** — filtrado desde el router, sin instalar nada en cada aparato ★4.237 · licencia MIT · Go · empujó el 31-oct · release v1.49.0 (29-oct) · https://github.com/nextdns/nextdns
-- **tailscale/tailscale** — entrar a tu red desde fuera sin abrir puertos ★38.461 · licencia BSD-3-Clause · Go · empujó el 31-oct · release v1.104.4 (28-oct) · https://github.com/tailscale/tailscale
+- **tailscale/tailscale** — entrar a tu red desde fuera sin abrir puertos ★38.466 · licencia BSD-3-Clause · Go · empujó el 31-oct · release v1.104.4 (28-oct) · https://github.com/tailscale/tailscale
 
 *Los mensajes, la revisión y la puerta de las apps*
 
@@ -133,7 +133,7 @@ Estas son las herramientas que resuelven el problema, medidas una por una esta m
 
 ═══ MENSAJE 5 de 19 · 2795 caracteres ═══
 
-- **ImranR98/Obtainium** — instala directo del autor, sin tiendas de por medio ★21.112 · licencia GPL-3.0 · Dart · release v1.7.4 (01-nov) · https://github.com/ImranR98/Obtainium
+- **ImranR98/Obtainium** — instala directo del autor, sin tiendas de por medio ★21.115 · licencia GPL-3.0 · Dart · release v1.7.4 (01-nov) · https://github.com/ImranR98/Obtainium
 
 *Lo que el censo dice en una línea.* Diecisiete repos, de los cuales quince se movieron este mes. Los dos que no: uno está congelado desde diciembre de 2024 y el otro cambió de casa. Un censo que solo cuenta lo que brilla no avisa de lo que ya no se toca.
 
@@ -612,29 +612,29 @@ Y si ya cayó, el orden no se salta: cambiar desde la dirección oficial, cerrar
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 2391 caracteres ═══
+═══ MENSAJE 18 de 19 · 1891 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 05*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Kunzisoft/KeePassDX — ★7.581 · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
-• bitwarden/android — ★9.570 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
+• Kunzisoft/KeePassDX — ★7.581 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• bitwarden/android — ★9.570 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • PhilippC/keepass2android — ★6.351 · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
-• beemdevelopment/Aegis — ★13.443 · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• twofas/2fas-android — ★1.561 · empujó en las últimas horas · GPL-3.0 · última release 6.1.0 (19-oct-2026)
-• uazo/cromite — ★8.453 · empujó en las últimas horas · GPL-3.0 · última release v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a (15-sep-2026)
-• gorhill/uBlock — ★68.993 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 1.75.0 (16-sep-2026)
-• divested-mobile/mull-fenix — ★592 · *dormido*: sin empujar desde el 10-dic-2024 (691 días) · AGPL-3.0 · *ARCHIVADO*
-• mozilla-mobile/firefox-android — ★1.842 · *dormido*: sin empujar desde el 17-jun-2024 (867 días) · MPL-2.0 · última release components-v125.3.0 (29-abr-2024) · *ARCHIVADO*
-• AdguardTeam/AdGuardHome — ★38.032 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.107.79 (18-ago-2026)
-• celzero/rethink-app — ★5.828 · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
-• nextdns/nextdns — ★4.237 · empujó en las últimas horas · MIT · última release v1.49.0 (29-oct-2026)
-• tailscale/tailscale — ★38.461 · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
-• signalapp/Signal-Android — ★29.565 · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release v8.33.2 (26-oct-2026)
-• threema-ch/threema-android — ★1.003 · empujó el 23-sep-2026 (hace 39 días) · AGPL-3.0
-• mvt-project/mvt — ★15.667 · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2026.10.26 (26-oct-2026)
-• ImranR98/Obtainium — ★21.112 · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• beemdevelopment/Aegis — ★13.443 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0
+• twofas/2fas-android — ★1.562 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• uazo/cromite — ★8.455 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• gorhill/uBlock — ★68.996 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
+• divested-mobile/mull-fenix — sin dato hoy (la API no respondió). No afirmo nada.
+• mozilla-mobile/firefox-android — sin dato hoy (la API no respondió). No afirmo nada.
+• AdguardTeam/AdGuardHome — ★38.033 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
+• celzero/rethink-app — ★5.828 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• nextdns/nextdns — ★4.237 (sin cambio) · empujó en las últimas horas · MIT
+• tailscale/tailscale — ★38.466 (sin cambio) · empujó en las últimas horas · BSD-3-Clause
+• signalapp/Signal-Android — ★29.565 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
+• threema-ch/threema-android — ★1.003 (sin cambio) · empujó el 23-sep-2026 (hace 39 días) · AGPL-3.0
+• mvt-project/mvt — ★15.667 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION
+• ImranR98/Obtainium — ★21.115 (sin cambio) · empujó en las últimas horas · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -3,24 +3,24 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Almacenes-de-extensiones-Keiyoushi-Yuzono-y-el-resurtido-del-manga-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `f481c50506cd9cfef858829a3a50bc4bef15a6885bce75fe65c665bc676d47e3`
-- **Envío generado:** 2026-11-01 · 28 mensajes · el mayor de 3885 caracteres
+- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3679 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 28 · 777 caracteres ═══
+═══ MENSAJE 1 de 27 · 777 caracteres ═══
 
 *Los almacenes de extensiones: Keiyoushi, Yuzono y el resurtido del manga*
 
-La Bandita · pieza 04 · guía del 1-nov-2026 · te la mando hoy en 28 mensajes.
+La Bandita · pieza 04 · guía del 1-nov-2026 · te la mando hoy en 27 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *33 repositorios, 33 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *33 repositorios, 31 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: Apache-2.0 20 · sin licencia 8 · GPL-3.0 2 · MIT 2.
+Licencias de lo que recomienda: Apache-2.0 18 · sin licencia 8 · GPL-3.0 2 · MIT 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Almacenes-de-extensiones-Keiyoushi-Yuzono-y-el-resurtido-del-manga-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md
 
 💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 28 · 2311 caracteres ═══
+═══ MENSAJE 2 de 27 · 2311 caracteres ═══
 
 *Los almacenes de extensiones: Keiyoushi, Yuzono y el resurtido del manga*
 
@@ -53,9 +53,9 @@ La noticia del año pasado sigue viva y hay que decirla: el catálogo oficial de
 
 Si te llevas una sola idea, que sea esta: *el índice es la fuente de verdad, no la extensión*. La extensión es un programa; el índice es la lista que dice cuál de esas extensiones es la buena hoy. Y la lista se puede leer, abrir y comprobar antes de confiar en ella.
 
-⏬ sigue abajo · parte 1 de 27
+⏬ sigue abajo · parte 1 de 26
 
-═══ MENSAJE 3 de 28 · 2574 caracteres ═══
+═══ MENSAJE 3 de 27 · 2574 caracteres ═══
 
 *🌱 Semilla: qué es un índice y por qué se rompe*
 
@@ -71,9 +71,9 @@ Ninguna de las cuatro se arregla desde el teléfono. Se evitan leyendo la direcc
 
 *Volver a la ausencia de revistas.* Hay un detalle que casi nadie cuenta y que explica por qué hay tantos catálogos pequeños: escribir una extensión no requiere permiso de nadie. El motor expone una interfaz —una serie de funciones con nombres fijos— y cualquiera que sepa leer una página web puede escribir una extensión que devuelva el título, la portada, los capítulos y las páginas. Eso hace que el catálogo sea un mercado libre de verdad: no hay cuota de entrada, no hay revisión central, no hay nadie que te diga que no. Y de ahí viene tanto lo bueno como lo malo.
 
-⏬ sigue abajo · parte 2 de 27
+⏬ sigue abajo · parte 2 de 26
 
-═══ MENSAJE 4 de 28 · 1880 caracteres ═══
+═══ MENSAJE 4 de 27 · 1880 caracteres ═══
 
 *🏚️ Las tres familias de catálogo*
 
@@ -87,9 +87,9 @@ No todos los catálogos hablan el mismo idioma, y esa es la primera clasificaci�
 
 Entender la familia te ahorra el error más común de todos: instalar una extensión de Tachiyomi en un lector que no es de Tachiyomi. No se instala, no aparece, o aparece y no hace nada. No es un virus: es una dirección para otra casa.
 
-⏬ sigue abajo · parte 3 de 27
+⏬ sigue abajo · parte 3 de 26
 
-═══ MENSAJE 5 de 28 · 2932 caracteres ═══
+═══ MENSAJE 5 de 27 · 2932 caracteres ═══
 
 *🎬 Cinco escenas del barrio*
 
@@ -107,9 +107,9 @@ La lección no es «no añadas repositorios». Es que un índice tiene un nombre
 
 *Escena 5 — El que quería su propio catálogo.* Un estudiante preguntó cómo se hace un catálogo propio. La respuesta corta: se escribe una extensión, se firma y se publica un índice; hay un cuaderno de Colab que compila extensiones de Keiyoushi y de Aniyomi con dos toques, y hay un proyecto que corre extensiones en la computadora sin emulador. La respuesta larga está más abajo, en la sección de herramientas, porque hacer un catálogo es fácil y mantenerlo es otra cosa.
 
-⏬ sigue abajo · parte 4 de 27
+⏬ sigue abajo · parte 4 de 26
 
-═══ MENSAJE 6 de 28 · 3652 caracteres ═══
+═══ MENSAJE 6 de 27 · 3652 caracteres ═══
 
 *🧾 El censo de hoy, uno por uno*
 
@@ -148,9 +148,9 @@ Estos son los veintinueve repositorios que medí para esta pieza. Van con estrel
 • *`Aidoku-Community/sources`* — ★614 · Apache-2.0 · Rust · empujó el 30 de octubre. El catálogo comunitario de fuentes de Aidoku. Si vienes de Android, cambia el idioma mental: aquí las fuentes se escriben en Rust y se empaquetan para Apple.
 
 
-⏬ sigue abajo · parte 5 de 27
+⏬ sigue abajo · parte 5 de 26
 
-═══ MENSAJE 7 de 28 · 3679 caracteres ═══
+═══ MENSAJE 7 de 27 · 3679 caracteres ═══
 
 • *`Aidoku-Community/legacy-sources`* — ★705 · Apache-2.0 · Rust · empujó el 9 de septiembre. Las fuentes viejas que se retiraron del catálogo principal y se guardaron aparte. Más estrellas que el catálogo vivo, lo cual dice mucho de lo que la gente conserva.
 
@@ -185,17 +185,17 @@ Estos son los veintinueve repositorios que medí para esta pieza. Van con estrel
 • *`SeoMavares/miwayomi`* — ★31 · Apache-2.0 · Kotlin · empujó el 14 de agosto. Corre extensiones de Tachiyomi y Aniyomi en computadora, sin Android y sin emulador. La pieza que le faltaba a quien lee en el monitor.
 
 
-⏬ sigue abajo · parte 6 de 27
+⏬ sigue abajo · parte 6 de 26
 
-═══ MENSAJE 8 de 28 · 489 caracteres ═══
+═══ MENSAJE 8 de 27 · 489 caracteres ═══
 
 • *`timschneeb/tachiyomi-extensions-archive`* — ★1.802 · Apache-2.0 · **archivado** · último empuje el 23 de marzo de 2026. El cementerio histórico: las extensiones que se retiraron, guardadas para saber qué existió. Mil ochocientas estrellas de memoria.
 
 Eso es el censo: veintinueve repositorios, cuatro sin licencia declarada, tres archivados, dos con más de un año sin empujar y tres nacidos este año con cero estrellas. Ninguno está aquí por sonar bien.
 
-⏬ sigue abajo · parte 7 de 27
+⏬ sigue abajo · parte 7 de 26
 
-═══ MENSAJE 9 de 28 · 3276 caracteres ═══
+═══ MENSAJE 9 de 27 · 3276 caracteres ═══
 
 *🛠️ El tutorial: añadir un índice sin romper nada*
 
@@ -219,9 +219,9 @@ Esto se hace en diez minutos y se hace una vez. Lo escribo en el orden exacto en
 
 *Lo que NO hay que hacer, aunque salga en un tutorial:* añadir un índice que te pasaron por WhatsApp sin mirar la dirección; añadir cinco índices «por si acaso» (cada uno es una fuente de verdad más que puede contradecir a las otras); instalar la extensión suelta que alguien subió a un foro; y aceptar un catálogo que pide permisos raros, porque un índice es un archivo y no necesita permisos de nada.
 
-⏬ sigue abajo · parte 8 de 27
+⏬ sigue abajo · parte 8 de 26
 
-═══ MENSAJE 10 de 28 · 3525 caracteres ═══
+═══ MENSAJE 10 de 27 · 3525 caracteres ═══
 
 *⚠️ Los seis fallos que llegan por WhatsApp*
 
@@ -249,9 +249,9 @@ Hay tres caminos y conviene saber cuál es el tuyo antes de empezar.
 
 *Lo que nadie te dice del camino tres.* Mantener una extensión es más trabajo que escribirla. El sitio cambia el diseño, la extensión devuelve vacío, alguien abre un issue, y tú tienes que volver. Por eso los catálogos sanos tienen varias personas y los que mueren tienen una. Si vas a escribir la tuya, escríbela para un sitio que te importe y no para diez que no conoces.
 
-⏬ sigue abajo · parte 9 de 27
+⏬ sigue abajo · parte 9 de 26
 
-═══ MENSAJE 11 de 28 · 2928 caracteres ═══
+═══ MENSAJE 11 de 27 · 2928 caracteres ═══
 
 *🚩 El índice falso: cómo se reconoce sin abrirlo*
 
@@ -279,9 +279,9 @@ Lo que sí cambia con las extensiones es la responsabilidad de quien las escribe
 
 Y una nota que la casa repite porque hace falta: esta pieza no receta sitios ni extensiones concretas de contenido. Nombra catálogos, da sus números y explica cómo se comprueba uno. Lo demás lo decides tú, con tu criterio y tu ley.
 
-⏬ sigue abajo · parte 10 de 27
+⏬ sigue abajo · parte 10 de 26
 
-═══ MENSAJE 12 de 28 · 2919 caracteres ═══
+═══ MENSAJE 12 de 27 · 2919 caracteres ═══
 
 *🩺 El resurtido: por qué se caen los catálogos (y por qué vuelven)*
 
@@ -309,9 +309,9 @@ Hay dos formas de tener catálogo y no compiten: se complementan.
 
 *Lo que no cambia en ninguna de las tres:* el índice sigue siendo una lista de direcciones y sigue siendo tuyo el trabajo de mirar quién la publica.
 
-⏬ sigue abajo · parte 11 de 27
+⏬ sigue abajo · parte 11 de 26
 
-═══ MENSAJE 13 de 28 · 2305 caracteres ═══
+═══ MENSAJE 13 de 27 · 2305 caracteres ═══
 
 *🔍 Las cuatro preguntas, aplicadas a un catálogo*
 
@@ -337,9 +337,9 @@ Pasa más de lo que parece: la gente se muda de Mihon a Mangayomi, o de Android 
 
 *La regla que vale para las tres:* antes de mudarte, exporta. Después de mudarte, no borres el original hasta que la biblioteca nueva abra las series que te importan.
 
-⏬ sigue abajo · parte 12 de 27
+⏬ sigue abajo · parte 12 de 26
 
-═══ MENSAJE 14 de 28 · 3038 caracteres ═══
+═══ MENSAJE 14 de 27 · 3038 caracteres ═══
 
 *🕰️ Ocho años de resurtido: la línea que casi nadie tiene clara*
 
@@ -365,9 +365,9 @@ La mayoría de la gente nunca ha visto un índice. Se lo imagino así: un archiv
 
 *Un ejercicio que recomiendo una vez al año:* abre el índice de tu catálogo en el navegador, cuenta cuántas extensiones trae y compara con lo que ves en el lector. Si los números no se parecen, tu lector está leyendo un índice viejo y no lo sabes.
 
-⏬ sigue abajo · parte 13 de 27
+⏬ sigue abajo · parte 13 de 26
 
-═══ MENSAJE 15 de 28 · 2520 caracteres ═══
+═══ MENSAJE 15 de 27 · 2520 caracteres ═══
 
 *🔬 Cómo se revisa una extensión antes de instalarla*
 
@@ -395,9 +395,9 @@ Cuando alguien me pregunta cómo sé si un catálogo es serio, la respuesta no e
 
 *Y uno que no está en la lista pero pesa:* las personas. Un catálogo con tres mantenedores aguanta lo que uno solo no aguanta. No se ve en la API; se ve en los issues, en los commits y en quién contesta.
 
-⏬ sigue abajo · parte 14 de 27
+⏬ sigue abajo · parte 14 de 26
 
-═══ MENSAJE 16 de 28 · 1995 caracteres ═══
+═══ MENSAJE 16 de 27 · 1995 caracteres ═══
 
 *🧮 Los números de hoy, con su hora*
 
@@ -411,9 +411,9 @@ La extensión más grande por estrellas del censo no es un catálogo: es `keiyou
 
 *Lo que no se midió, y se dice.* No medí cuánta gente usa cada catálogo. Las estrellas son curiosidad acumulada, no usuarios, y no las uso como si lo fueran. No medí qué sitios funcionan desde la República Dominicana hoy: eso cambia por red, por hora y por proveedor. Y no medí las releases de los repositorios nuevos porque la cuota pública de la API se agotó a mitad de la mañana; lo digo aquí en vez de rellenarlo con un número inventado.
 
-⏬ sigue abajo · parte 15 de 27
+⏬ sigue abajo · parte 15 de 26
 
-═══ MENSAJE 17 de 28 · 2989 caracteres ═══
+═══ MENSAJE 17 de 27 · 2989 caracteres ═══
 
 *❓ Preguntas que me llegan*
 
@@ -461,9 +461,9 @@ Se puede leer con archivos propios: CBZ, EPUB, carpetas. Es más aburrido de arm
 
 Si el sitio que te importa no está en ningún catálogo, sí, y hay cimientos para hacerlo: Kotlin en la familia Tachiyomi, Rust con `Aidoku/aidoku-rs`, JavaScript en Mangayomi. Si el sitio ya está en un catálogo vivo, no: úsalo y ahorra el mantenimiento.
 
-⏬ sigue abajo · parte 16 de 27
+⏬ sigue abajo · parte 16 de 26
 
-═══ MENSAJE 18 de 28 · 2465 caracteres ═══
+═══ MENSAJE 18 de 27 · 2465 caracteres ═══
 
 *📊 Tabla de decisión*
 
@@ -497,9 +497,9 @@ Compilar sin entorno              | Extension-Source-Builder ★31   | sin licen
 • *NOASSERTION* — la licencia existe pero la API no la reconoce. Hay que ir al archivo a leerla.
 • *Formato remoto* — catálogo pensado para un reproductor nuevo, sin lector de Android detrás.
 
-⏬ sigue abajo · parte 17 de 27
+⏬ sigue abajo · parte 17 de 26
 
-═══ MENSAJE 19 de 28 · 3186 caracteres ═══
+═══ MENSAJE 19 de 27 · 3186 caracteres ═══
 
 *🎯 Mini-quiz de hoy*
 
@@ -549,9 +549,9 @@ Y una cosa que he aprendido a la fuerza: el respaldo que nunca se ha restaurado 
 
 *El detalle que salva una biblioteca:* los nombres de los archivos. Cuando exportas, el lector guarda la serie con el nombre de la extensión que la trajo. Si esa extensión desaparece, los archivos siguen abriéndose por carpeta, pero la biblioteca deja de reconocerlos como series. Por eso conviene exportar también la lista de series en texto: es la única copia que sobrevive a cualquier mudanza de catálogo.
 
-⏬ sigue abajo · parte 18 de 27
+⏬ sigue abajo · parte 18 de 26
 
-═══ MENSAJE 20 de 28 · 2626 caracteres ═══
+═══ MENSAJE 20 de 27 · 2626 caracteres ═══
 
 *🎬 Anime: el hermano que se quedó sin catálogo oficial*
 
@@ -575,9 +575,9 @@ Hoy el anime se sirve por tres caminos, y conviene saber cuál es cuál. *Uno:* 
 
 *Lo que comparten las cuatro:* ninguna es gratis del todo, y ninguna es un error. Lo que sí es un error es escoger una sin saber qué cuesta.
 
-⏬ sigue abajo · parte 19 de 27
+⏬ sigue abajo · parte 19 de 26
 
-═══ MENSAJE 21 de 28 · 3289 caracteres ═══
+═══ MENSAJE 21 de 27 · 3289 caracteres ═══
 
 *🔧 Cómo se midió esta pieza*
 
@@ -613,9 +613,9 @@ Lo que hoy se puede prever, dicho como se prevé en esta casa: con fecha y sin p
 
 *Lo que la vara no hace:* no dice si el sitio de detrás tiene derecho a publicar lo que publica. Eso es otra conversación, la de la ley, y se contesta caso por caso.
 
-⏬ sigue abajo · parte 20 de 27
+⏬ sigue abajo · parte 20 de 26
 
-═══ MENSAJE 22 de 28 · 2353 caracteres ═══
+═══ MENSAJE 22 de 27 · 2353 caracteres ═══
 
 *🪞 Seis mitos que se caen con el censo de hoy*
 
@@ -643,9 +643,9 @@ Un catálogo no pesa, pero sus extensiones sí. Cada extensión es un programa p
 
 *Y un detalle que casi nadie mira:* el índice se descarga cada vez que abres la sección de extensiones. En un teléfono con poca memoria y una conexión mala, esa descarga es la que se cuelga, no la lectura. Si te pasa, abre la sección con wifi una vez y cierra el lector después.
 
-⏬ sigue abajo · parte 21 de 27
+⏬ sigue abajo · parte 21 de 26
 
-═══ MENSAJE 23 de 28 · 1429 caracteres ═══
+═══ MENSAJE 23 de 27 · 1429 caracteres ═══
 
 *🏷️ Los nombres casi iguales: el mapa de los homónimos*
 
@@ -661,9 +661,9 @@ Aquí hay más nombres parecidos que en una lista de clases, y copiar el equivoc
 
 *La regla de oro, que ya está en otras piezas de esta casa:* antes de pegar un enlace, mira si lo que tienes delante es la casa o el escaparate. Un espejo se cae y la casa sigue; un homónimo se cae y no hay nada detrás.
 
-⏬ sigue abajo · parte 22 de 27
+⏬ sigue abajo · parte 22 de 26
 
-═══ MENSAJE 24 de 28 · 2860 caracteres ═══
+═══ MENSAJE 24 de 27 · 2860 caracteres ═══
 
 *🔗 Enlaces de esta pieza*
 
@@ -720,9 +720,9 @@ Todos los que se citan arriba, con su casa exacta. Ninguno es un espejo y ningun
 - Kototoro: https://github.com/Kototoro-app/Kototoro
 - Aniyomi: https://github.com/aniyomiorg/aniyomi
 
-⏬ sigue abajo · parte 23 de 27
+⏬ sigue abajo · parte 23 de 26
 
-═══ MENSAJE 25 de 28 · 1887 caracteres ═══
+═══ MENSAJE 25 de 27 · 1887 caracteres ═══
 
 *🌅 Cierre — la nevera y el que la llena*
 
@@ -745,59 +745,55 @@ La pregunta útil no es «cuál es el mejor catálogo». Es «quién lo está ll
 
 **Nota de corrección (1-nov):** se midieron también los tres catálogos de formato remoto con cero estrellas, porque un censo que solo cuenta a los grandes no muestra hacia dónde se mueve el ecosistema.
 
-⏬ sigue abajo · parte 24 de 27
+⏬ sigue abajo · parte 24 de 26
 
-═══ MENSAJE 26 de 28 · 3885 caracteres ═══
+═══ MENSAJE 26 de 27 · 3669 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Aidoku-Community/sources — ★614 · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
+• Aidoku-Community/sources — ★614 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • m2k3a/mangayomi-extensions — ★113 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 • skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• keiyoushi/extensions-source — ★4.843 (+12) · empujó en las últimas horas · Apache-2.0
-• yuzono/tachiyomi-extensions — ★953 · empujó en las últimas horas · Apache-2.0
-• aniyomiorg/aniyomi-extensions — ★849 · *dormido*: sin empujar desde el 19-ago-2024 (804 días) · Apache-2.0 · *ARCHIVADO*
+• keiyoushi/extensions-source — ★4.845 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• yuzono/tachiyomi-extensions — ★953 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• aniyomiorg/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
 • Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
-• beer-psi/tachiyomi-unofficial-extensions — ★53 · *dormido*: sin empujar desde el 29-ago-2026 (64 días) · Apache-2.0 · última release cuutruyen-1.4.8 (31-jul-2023)
-• everfio/tachiyomi-extensions — ★41 · empujó en las últimas horas · sin licencia detectada por la API
-• marbou92/MHExtensions — ★7 · empujó en las últimas horas · Apache-2.0
-• marbou92/MHRepo — ★8 · empujó en las últimas horas · Apache-2.0
-• Aidoku-Community/legacy-sources — ★705 · *dormido*: sin empujar desde el 9-sep-2026 (53 días) · Apache-2.0
-• Aidoku/aidoku-rs — ★55 · empujó el 6-oct-2026 (hace 26 días) · MIT
-• suiyuran/aidoku-zh-sources — ★906 · *dormido*: sin empujar desde el 30-mar-2026 (216 días) · sin licencia detectada por la API
-• 0BlueYan0/aidoku-new-zh-sources — ★28 · empujó en las últimas horas · Apache-2.0
-• Smexhy/yomu-aidoku-sources — ★18 · empujó en las últimas horas · NOASSERTION
-• Moomooo95/aidoku-french-sources — ★20 · *dormido*: sin empujar desde el 14-may-2025 (536 días) · sin licencia detectada por la API
-• AlanLang/aidoku-sources — ★13 · *dormido*: sin empujar desde el 1-abr-2025 (579 días) · MIT
+• beer-psi/tachiyomi-unofficial-extensions — ★53 (sin cambio) · *dormido*: sin empujar desde el 29-ago-2026 (64 días) · Apache-2.0
+• everfio/tachiyomi-extensions — ★41 (sin cambio) · empujó en las últimas horas · sin licencia
+• marbou92/MHExtensions — ★7 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• marbou92/MHRepo — ★8 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• Aidoku-Community/legacy-sources — ★705 (sin cambio) · *dormido*: sin empujar desde el 9-sep-2026 (53 días) · Apache-2.0
+• Aidoku/aidoku-rs — ★55 (sin cambio) · empujó el 6-oct-2026 (hace 26 días) · MIT
+• suiyuran/aidoku-zh-sources — ★906 (sin cambio) · *dormido*: sin empujar desde el 30-mar-2026 (216 días) · sin licencia
+• 0BlueYan0/aidoku-new-zh-sources — ★28 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• Smexhy/yomu-aidoku-sources — ★18 (sin cambio) · empujó en las últimas horas · NOASSERTION
+• Moomooo95/aidoku-french-sources — ★20 (sin cambio) · *dormido*: sin empujar desde el 14-may-2025 (536 días) · sin licencia
+• AlanLang/aidoku-sources — ★13 (sin cambio) · *dormido*: sin empujar desde el 1-abr-2025 (579 días) · MIT
 • beer-psi/aidoku-ln-sources — ★11 · *dormido*: sin empujar desde el 4-ago-2022 (1550 días) · Apache-2.0
-• Nyora-Manga/nyora-ios — ★17 · *dormido*: sin empujar desde el 8-ago-2026 (85 días) · GPL-3.0 · última release v2.7.3 (5-ago-2026)
-• Torch121/yomiru-extensions — ★0 · empujó el 29-oct-2026 (hace 3 días) · sin licencia detectada por la API
+• Nyora-Manga/nyora-ios — ★17 (sin cambio) · *dormido*: sin empujar desde el 8-ago-2026 (85 días) · GPL-3.0
+• Torch121/yomiru-extensions — ★0 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · sin licencia
 • sofikuw/anImestream-extensions — ★0 · empujó el 24-oct-2026 (hace 8 días) · sin licencia detectada por la API
 • nickEatsBread/izumi-extension-repo — ★0 · *dormido*: sin empujar desde el 3-sep-2026 (59 días) · sin licencia detectada por la API
-• mrtear/Extension-Source-Builder — ★31 · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · sin licencia detectada por la API
-• SeoMavares/miwayomi — ★31 · *dormido*: sin empujar desde el 14-ago-2026 (79 días) · Apache-2.0 · última release v0.2.9 (13-ago-2026)
-• timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (223 días) · Apache-2.0 · *ARCHIVADO*
-• keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release fc7a827-2 (1-nov-2026)
-• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
-• mihonapp/mihon — ★24.927 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• mrtear/Extension-Source-Builder — ★31 (sin cambio) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · sin licencia
+• SeoMavares/miwayomi — ★31 (sin cambio) · *dormido*: sin empujar desde el 14-ago-2026 (79 días) · Apache-2.0
+• timschneeb/tachiyomi-extensions-archive — sin dato hoy (la API no respondió). No afirmo nada.
+• keiyoushi/extensions — ★15.405 (sin cambio) · empujó en las últimas horas · sin licencia
+• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• mihonapp/mihon — ★24.928 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-
-⏬ sigue abajo · parte 25 de 27
-
-═══ MENSAJE 27 de 28 · 137 caracteres ═══
+• aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
 De los 33 enlaces de esta pieza, *33 responden*.
 Ninguno roto.
 
-⏬ sigue abajo · parte 26 de 27
+⏬ sigue abajo · parte 25 de 26
 
-═══ MENSAJE 28 de 28 · 152 caracteres ═══
+═══ MENSAJE 27 de 27 · 152 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.

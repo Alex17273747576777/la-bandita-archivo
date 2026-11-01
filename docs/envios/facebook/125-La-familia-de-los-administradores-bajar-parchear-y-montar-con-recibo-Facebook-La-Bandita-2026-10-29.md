@@ -58,7 +58,7 @@ Pulso de hoy sobre los 4 repos de la pieza: 4 vivos, 4 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 850 caracteres ═══
+═══ MENSAJE 3 de 4 · 820 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 125*
 
@@ -66,7 +66,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pie
 
 • yt-dlp/yt-dlp — ★204.372 (+686) · empujó el 29-oct-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
 • XiaoYouChR/Ghost-Downloader-3 — ★10.592 (+91) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.4.6 (28-oct-2026)
-• Jman-Github/Universal-Patch-Manager — ★1.399 (+9) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• Jman-Github/Universal-Patch-Manager — ★1.399 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • rushiranpise/lsposed-modules-manager — ★21 (+4) · empujó en las últimas horas · GPL-3.0 · última release v2.2.3 (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

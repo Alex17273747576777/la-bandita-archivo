@@ -625,7 +625,7 @@ REV|834.911★ — NC_hz-skoob-gnimmargorp-eerf/cavajtsuj=1|REV|0.2-LPM=2|REV|92
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1222 caracteres ═══
+═══ MENSAJE 15 de 16 · 1192 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 22*
 
@@ -635,7 +635,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pie
 • syncthing/syncthing — ★89.970 (+97) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • Crosstalk-Solutions/project-nomad — ★41.513 (+225) · empujó en las últimas horas · Apache-2.0 · última release v1.35.1 (5-oct-2026)
 • koreader/koreader — ★30.786 (+47) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• koodo-reader/koodo-reader — ★28.686 (+18) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• koodo-reader/koodo-reader — ★28.688 (sin cambio) · empujó en las últimas horas · AGPL-3.0
 • smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1287 días) · Apache-2.0
 • PaulWoitaschek/Voice — ★3.240 (+10) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
 

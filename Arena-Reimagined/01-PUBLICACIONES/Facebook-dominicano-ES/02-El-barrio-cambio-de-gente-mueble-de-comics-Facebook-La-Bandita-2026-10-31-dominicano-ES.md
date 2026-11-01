@@ -598,7 +598,7 @@ Lo que estas cuarenta y nueve fichas enseñan, dicho en plata: *un proyecto pued
 
 💓 *La Bandita informa a partir de fuentes fechadas.* La app es la puerta; el archivo es la casa, y la casa se muda con cajas, no con promesas.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · 49 repositorios consultados uno por uno en la API de GitHub · 33 enlaces abiertos con `curl -L`, cada uno con su respuesta.
+*Medición del corte:* domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · segunda pasada a las 10:09 con tres lecturas por recurso, cada una con método distinto · lo que no se midió queda señalado como no medido.
 
 ## 🗒️ Notas al pie
 

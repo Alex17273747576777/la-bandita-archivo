@@ -607,7 +607,7 @@ Y hay una advertencia que se repite en las fichas: casi la mitad de estos proyec
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 2373 caracteres ═══
+═══ MENSAJE 16 de 17 · 2335 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
@@ -615,10 +615,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 21 repositorios que cita esta pi
 
 • UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
 • Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
+• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0
-• roxycon-dev/Ciallo-Reader — ★267 (sin cambio) · empujó en las últimas horas · MIT
+• roxycon-dev/Ciallo-Reader — ★269 (sin cambio) · empujó en las últimas horas · MIT
 • Aidoku/Aidoku — ★4.683 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
 • Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (235 días) · GPL-3.0
 • eguojz/usagi-sora-vn-sources — ★119 (sin cambio) · empujó en las últimas horas · sin licencia

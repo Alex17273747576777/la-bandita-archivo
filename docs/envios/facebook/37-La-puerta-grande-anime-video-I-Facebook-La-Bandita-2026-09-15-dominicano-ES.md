@@ -92,7 +92,7 @@ La noticia amarga: **rebelonion/Dantotsu** (bloqueado legal (451): existe) ya no
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2146 caracteres ═══
+═══ MENSAJE 4 de 5 · 2108 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 37*
 
@@ -102,7 +102,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pi
 • miru-project/miru-app — ★5.791 (+7) · *dormido*: sin empujar desde el 5-dic-2025 (331 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
 • 5rahim/seanime — ★4.294 (+9) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
 • NuvioMedia/NuvioMobile — ★4.343 (+59) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (31-oct-2026)
-• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
+• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • RockinChaos/Shiru — ★652 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v6.9.1 (13-oct-2026)
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)

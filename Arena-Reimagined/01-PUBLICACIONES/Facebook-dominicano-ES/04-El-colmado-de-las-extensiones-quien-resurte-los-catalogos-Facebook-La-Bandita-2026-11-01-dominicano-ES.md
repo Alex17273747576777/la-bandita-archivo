@@ -540,7 +540,7 @@ Ninguno de esos datos te dice qué instalar. Te dicen cómo preguntar, que es m�
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Un catálogo no es lo que tiene: es quién lo llena esta semana.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:15 y las 07:40 de Santo Domingo · 29 repositorios de catálogo medidos uno por uno contra la API pública de GitHub · los enlaces de esta guía abiertos uno por uno · lo no medido, dicho arriba.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:15 y las 07:40 de Santo Domingo · repasada a las 10:09: cuatro repositorios de extensiones habían sumado estrellas desde la mañana y en la tabla van las de esa hora, no las de las siete; el resto no se movió.
 
 ## 🗒️ Notas al pie
 

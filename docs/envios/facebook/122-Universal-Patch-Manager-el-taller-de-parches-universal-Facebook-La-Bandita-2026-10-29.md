@@ -50,14 +50,14 @@ La noticia fresca es de **Jman-Github/Universal-Patch-Manager**: release v2.0.0 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 618 caracteres ═══
+═══ MENSAJE 3 de 4 · 588 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 122*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • ReVanced/revanced-manager — ★30.029 (sin cambio) · *dormido*: sin empujar desde el 29-jul-2026 (95 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
-• Jman-Github/Universal-Patch-Manager — ★1.399 (+9) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• Jman-Github/Universal-Patch-Manager — ★1.399 (sin cambio) · empujó en las últimas horas · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

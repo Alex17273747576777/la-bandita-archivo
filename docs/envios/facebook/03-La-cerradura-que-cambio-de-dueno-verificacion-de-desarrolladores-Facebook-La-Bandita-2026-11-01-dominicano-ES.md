@@ -2,15 +2,15 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `ee5ddd6789a0c9f2986a4b9ba5c128b0b1142689907fb1938eccb6d1d17145fb`
-- **Envío generado:** 2026-11-01 · 21 mensajes · el mayor de 3851 caracteres
+- **sha256 de la pieza:** `be0d3da10e176ee3092fbc5b01cbfc35664129a9ce32253d2f898a0041d9a534`
+- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3543 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 21 · 731 caracteres ═══
+═══ MENSAJE 1 de 20 · 731 caracteres ═══
 
 *La cerradura que cambió de dueño*
 
-La Bandita · pieza 03 · guía del 1-nov-2026 · te la mando hoy en 21 mensajes.
+La Bandita · pieza 03 · guía del 1-nov-2026 · te la mando hoy en 20 mensajes.
 
 Antes de mandártela volví a medir lo que afirma: *31 repositorios, 31 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
@@ -20,7 +20,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 21 · 3103 caracteres ═══
+═══ MENSAJE 2 de 20 · 3103 caracteres ═══
 
 *La cerradura que cambió de dueño*
 
@@ -59,9 +59,9 @@ Ahí está todo el problema, en una pregunta de cocina. La regla no prohíbe ins
 
 Esto se cuenta sin sustos y sin épica, porque el tema se presta para las dos. Los que quieren que te asustes te van a decir que te van a espiar el teléfono. Los que quieren que te duermas te van a decir que en 2027 falta mucho. Ninguna de las dos frases te sirve el lunes por la mañana.
 
-⏬ sigue abajo · parte 1 de 20
+⏬ sigue abajo · parte 1 de 19
 
-═══ MENSAJE 3 de 21 · 2953 caracteres ═══
+═══ MENSAJE 3 de 20 · 2953 caracteres ═══
 
 *ESCENA 1 — El técnico que recibió tres teléfonos la misma semana*
 
@@ -87,9 +87,9 @@ El nombre técnico del mecanismo es *Android Developer Verifier*. Se llama verif
 
 Y aquí llega la parte que me hace escribir todo esto con cuidado: **la lista no existe todavía para todo el mundo, pero el componente sí**. Ese desfase —el aparato tiene el que pregunta, el mundo aún no tiene la respuesta— es exactamente lo que produce confusión, videos alarmistas y gente vendiendo «soluciones».
 
-⏬ sigue abajo · parte 2 de 20
+⏬ sigue abajo · parte 2 de 19
 
-═══ MENSAJE 4 de 21 · 2524 caracteres ═══
+═══ MENSAJE 4 de 20 · 2524 caracteres ═══
 
 *Qué pasó el 30 de septiembre, y qué no pasó*
 
@@ -111,9 +111,9 @@ Y en septiembre se juntaron tres cosas en cuatro días: el día 24, F-Droid 2.0;
 
 Ese apretujón de fechas no es casualidad: es lo que pasa cuando un ecosistema completo se prepara para una fecha que no eligió. F-Droid sacó su versión nueva, la campaña contó sus días, los desarrolladores abrieron cuentas limitadas, y el mundo de los que instalamos cosas por fuera nos enteramos en un video de TikTok.
 
-⏬ sigue abajo · parte 3 de 20
+⏬ sigue abajo · parte 3 de 19
 
-═══ MENSAJE 5 de 21 · 3290 caracteres ═══
+═══ MENSAJE 5 de 20 · 3290 caracteres ═══
 
 *Las tres puertas, contadas como se cuentan tres caminos*
 
@@ -137,9 +137,9 @@ La propia F-Droid llamó a esto «existencial», y no es una palabra que se usa 
 
 Yo no sé si F-Droid va a sobrevivir a esto, y quien te diga que lo sabe te está vendiendo algo. Lo que sí sé es que su situación es la más honesta de todo el debate: no tiene ejército de abogados, no tiene tienda que negociar, y su único argumento es técnico. Cuando el argumento técnico choca con una regla de negocio, el que pierde casi siempre es el técnico.
 
-⏬ sigue abajo · parte 4 de 20
+⏬ sigue abajo · parte 4 de 19
 
-═══ MENSAJE 6 de 21 · 2386 caracteres ═══
+═══ MENSAJE 6 de 20 · 2386 caracteres ═══
 
 *La campaña: lo que firmaron setenta y una organizaciones*
 
@@ -159,9 +159,9 @@ Y ahí está mi objeción, que es de fondo y no de forma: si el problema es el m
 
 Lo digo con todas las letras: puedo creer que Google quiera menos malware **y** creer que esta regla le conviene comercialmente. Las dos cosas caben en la misma cabeza. El problema del debate público es que exige escoger una.
 
-⏬ sigue abajo · parte 5 de 20
+⏬ sigue abajo · parte 5 de 19
 
-═══ MENSAJE 7 de 21 · 1747 caracteres ═══
+═══ MENSAJE 7 de 20 · 1747 caracteres ═══
 
 *Lo que sí puedes hacer, esta semana, sin permiso de nadie*
 
@@ -177,9 +177,9 @@ Cuatro cosas, en orden de utilidad real y no de dificultad.
 
 Lo que no está en esta lista, y lo digo a propósito: ningún archivo que prometa saltarse la verificación. No porque no exista —existe, y circula— sino porque un parche que ocupa el lugar de un servicio del sistema es exactamente el tipo de cosa que rompe el teléfono donde menos lo esperas.
 
-⏬ sigue abajo · parte 6 de 20
+⏬ sigue abajo · parte 6 de 19
 
-═══ MENSAJE 8 de 21 · 2187 caracteres ═══
+═══ MENSAJE 8 de 20 · 2187 caracteres ═══
 
 *Los treinta y tres, uno por uno*
 
@@ -192,9 +192,9 @@ Todo lo que sigue lo consulté hoy con la API de GitHub: estrellas, licencia, fe
 *El sistema sin servicios de Google.* `GrapheneOS/Vanadium`, ★2.267, nació en noviembre de 2016 y publicó la 156.0.8078.79.0 el 30 de octubre: el navegador endurecido. `GrapheneOS/Auditor`, ★729 y MIT, hace atestación y detección de intrusos, con release 92 del 30 de mayo. `GrapheneOS/grapheneos.org`, ★783 y MIT, es la casa y sus notas, con empuje de hoy. `GrapheneOS/Camera`, ★1.423 y MIT, sacó la 93 el 1 de agosto. `GrapheneOS/PdfViewer`, ★1.062 y MIT, la 33 el 30 de julio. Y `GrapheneOS/hardened_malloc`, ★2.048 y MIT, con release 14 del 22 de febrero y empuje de hoy: el asignador de memoria que explica buena parte de su fama.
 
 
-⏬ sigue abajo · parte 7 de 20
+⏬ sigue abajo · parte 7 de 19
 
-═══ MENSAJE 9 de 21 · 3187 caracteres ═══
+═══ MENSAJE 9 de 20 · 3187 caracteres ═══
 
 *Los reemplazos, uno por uno.* `degoog-org/degoog`, ★2.505, AGPL-3.0, nació el 4 de marzo y publicó la 1.1.1 el 25 de octubre. `PimpinPumpkin/Vela`, ★2.299, GPL-3.0, nació el 15 de junio, sacó la 0.5.2621 el 19 de octubre y empujó hoy: mapas y navegación paso a paso sin los servicios de Play. `Pelski/ytzero`, ★670, Unlicense, nació el 13 de junio y publicó la 2026.09.9 el 28 de septiembre. `hakerdefo/Robota-Liberated`, ★231 y CC0, es una guía escrita —no una app— sobre cómo quedarse con el Android que compraste. `twinksoftware/Gearslip`, ★229 y AGPL-3.0, alternativa de Android Auto, con release de prueba el 25 de octubre. `biolend83/tubehaus`, ★187 y AGPL-3.0, nació el 18 de octubre y ya publicó hoy mismo: cliente privado de video con versión web autoalojada. `GitMag/UnknownAuto`, ★145 y MIT, nació el 29 de octubre y publicó el 30: instala apps de Android Auto por la vía lateral, con tres días de vida y toda la cara de proyecto joven. `steven-ahfu/Android-TV-Desktop-Toolkit`, ★94 y AGPL-3.0, sacó la 4.1.10 el 20 de julio. `m-salehi-v/mrowser`, ★64 y MIT, navegador para televisores que ya no reciben apps, con release del 16 de octubre. `Miniontoby/RokidApkUploader`, ★60 y GPL-3.0, sube APK a unas gafas, con release del 9 de abril. `andronedev/openportal`, ★45 y MIT, resucita el Portal de Meta instalando apps, con empuje del 27 de octubre. `itsmelissadev/SwiftSense`, ★42 y GPL-3.0, suite de optimización sin root, con release del 15 de octubre. `LooseWireDev/unclouded`, ★27 y AGPL-3.0, catálogo para descubrir apps desde Obtainium, dormido desde julio.
 
@@ -208,9 +208,9 @@ Busqué hoy mismo, sin usar ninguna lista guardada: filtré por fecha de creaci�
 
 Hay algo en estos cuatro que dice más que cualquier editorial: nacieron porque alguien buscó una herramienta, no la encontró y la escribió. Eso es lo que produce una cerradura nueva. No manifiestos: gente programando a las dos de la mañana.
 
-⏬ sigue abajo · parte 8 de 20
+⏬ sigue abajo · parte 8 de 19
 
-═══ MENSAJE 10 de 21 · 2916 caracteres ═══
+═══ MENSAJE 10 de 20 · 2916 caracteres ═══
 
 *ESCENA 2 — La señora que solo quiere su banco y su cámara*
 
@@ -236,9 +236,9 @@ La EFF lo escribió mejor de lo que yo podría: la regla crea un camino cada vez
 
 Es ahí donde esta historia deja de ser técnica y se vuelve política, en el sentido más simple de la palabra: quién puede hablar, y con qué.
 
-⏬ sigue abajo · parte 9 de 20
+⏬ sigue abajo · parte 9 de 19
 
-═══ MENSAJE 11 de 21 · 2842 caracteres ═══
+═══ MENSAJE 11 de 20 · 2842 caracteres ═══
 
 *ESCENA 4 — El del teléfono de 2019*
 
@@ -264,9 +264,9 @@ Mi lectura, y la marco como lectura: cada vuelta fue más lejos en la cadena. De
 
 Los hechos de las tres vueltas están documentados. La interpretación de que forman un plan es mía, y la pongo aquí para que la discutas, no para que la creas.
 
-⏬ sigue abajo · parte 10 de 20
+⏬ sigue abajo · parte 10 de 19
 
-═══ MENSAJE 12 de 21 · 2772 caracteres ═══
+═══ MENSAJE 12 de 20 · 2772 caracteres ═══
 
 *Las siete tiendas, una por una, y por qué su número importa*
 
@@ -290,9 +290,9 @@ Ahí está el choque con F-Droid en una sola frase: su modelo compila y firma po
 
 Y de ahí sale el detalle más incómodo de todos: la regla no distingue entre el que falsifica una app y el que la escribe de buena fe sin cuenta. Para el sistema, los dos son «no registrados». Esa falta de matiz es lo que hace que una medida de seguridad razonable produzca un daño colateral enorme.
 
-⏬ sigue abajo · parte 11 de 20
+⏬ sigue abajo · parte 11 de 19
 
-═══ MENSAJE 13 de 21 · 3079 caracteres ═══
+═══ MENSAJE 13 de 20 · 3079 caracteres ═══
 
 *Los nueve pasos, narrados como se vive un trámite*
 
@@ -320,9 +320,9 @@ Lo tercero es la prueba de verdad, y es la única que no depende de interpretaci
 
 Y lo cuarto es para el que quiera precisión absoluta: con el cable y la depuración activa, una orden de texto lista los paquetes instalados y otra te da la versión y la fecha de instalación del verificador. Eso es lo que hay que hacer si de verdad quieres saber, en vez de repetir lo que dice un video.
 
-⏬ sigue abajo · parte 12 de 20
+⏬ sigue abajo · parte 12 de 19
 
-═══ MENSAJE 14 de 21 · 2610 caracteres ═══
+═══ MENSAJE 14 de 20 · 2610 caracteres ═══
 
 *Las preguntas que me llegan por mensaje, contestadas sin rodeos*
 
@@ -364,9 +364,9 @@ Cuarto, medí los treinta y tres repositorios con la interfaz pública de GitHub
 
 Quinto, desconfié de mi propio entusiasmo: con villano claro se escribe mejor y se verifica menos. La prueba es que hay una sección entera dedicada al argumento de Google, en serio y sin caricatura.
 
-⏬ sigue abajo · parte 13 de 20
+⏬ sigue abajo · parte 13 de 19
 
-═══ MENSAJE 15 de 21 · 2524 caracteres ═══
+═══ MENSAJE 15 de 20 · 2524 caracteres ═══
 
 *Qué mirar en los próximos sesenta días*
 
@@ -394,9 +394,9 @@ No dice que la campaña tenga razón en todo. Tiene una posición y la defiende;
 
 Y no dice que esto sea el fin de Android. Dice que es la tercera vuelta de una cerradura, y que las tres se dieron sin que casi nadie mirara.
 
-⏬ sigue abajo · parte 14 de 20
+⏬ sigue abajo · parte 14 de 19
 
-═══ MENSAJE 16 de 21 · 1423 caracteres ═══
+═══ MENSAJE 16 de 20 · 1423 caracteres ═══
 
 *Los números, para que los cites sin releer*
 
@@ -410,9 +410,9 @@ En esta pieza medí treinta y tres repositorios y publiqué treinta y tres enlac
 
 Y los dos números de Google que hay que citar con nombre y apellido: doscientas veinticuatro apps maliciosas retiradas de Play en 2025, con más de diecinueve millones de descargas acumuladas, y su afirmación de que fuera de su tienda hay cincuenta veces más malware. El primero está en su informe y se puede verificar; el segundo es una afirmación suya que yo no pude comprobar, y así lo digo.
 
-⏬ sigue abajo · parte 15 de 20
+⏬ sigue abajo · parte 15 de 19
 
-═══ MENSAJE 17 de 21 · 3543 caracteres ═══
+═══ MENSAJE 17 de 20 · 3543 caracteres ═══
 
 *Los enlaces de esta pieza*
 
@@ -466,9 +466,9 @@ Un requisito se cumple una vez y se olvida. Una llave se usa todos los días. Lo
 Mi posición, dicha sin esconderla: puede pedir identidad a quien vende en su mostrador, y no debería poder exigirla en mi puerta. Y como esa posición no va a decidir nada por sí sola, lo que queda es lo de siempre en esta casa: medir, anotar la fecha, guardar los archivos, aprender el cable y contárselo a una persona concreta —a una, no a diez—.
 
 
-⏬ sigue abajo · parte 16 de 20
+⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 21 · 1679 caracteres ═══
+═══ MENSAJE 18 de 20 · 1510 caracteres ═══
 
 El señor del colmado de Villa Mella va a volver a ver ese aviso. Cuando lo vea, la diferencia entre un mal día y un desastre va a ser si tenía sus copias guardadas y si sabía que el cable existe. Eso es lo único que esta pieza puede cambiar, y no es poco.
 
@@ -477,7 +477,7 @@ El señor del colmado de Villa Mella va a volver a ver ese aviso. Cuando lo vea,
 
 💓 *La Bandita informa a partir de fuentes fechadas.* El aparato ya está pagado; la puerta, todavía no. Mientras la cerradura viaja, guarda tus archivos y aprende el cable.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:40 y las 07:20 de Santo Domingo · treinta y tres repositorios medidos uno por uno contra la API pública de GitHub, sin caché · treinta y tres enlaces abiertos con `curl -L`, todos con respuesta 200 · cuatro de esos repositorios nacieron en las últimas dos semanas. Lo no medido está dicho arriba como no medido.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:40 y las 07:20 de Santo Domingo · re-medida a las 10:09 con el orden de las tres lecturas cambiado recurso por recurso · lo no medido se dice.
 
 ## 🗒️ Notas al pie
 
@@ -487,57 +487,53 @@ El señor del colmado de Villa Mella va a volver a ver ese aviso. Cuando lo vea,
 
 **Nota del corte (1-nov):** corte real de la pieza. El sweep del día se hizo completo sobre los treinta y tres repositorios y no quedó ningún dato estimado. Pendiente declarado: la medición del archivo completo de envíos necesita el token de GitHub.
 
-⏬ sigue abajo · parte 17 de 20
+⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 21 · 3851 caracteres ═══
+═══ MENSAJE 19 de 20 · 3323 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 31 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• woheller69/FreeDroidWarn — ★3.730 · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
-• tsunderswapElnina/Keep-Android-Open-UI — ★1 · empujó el 13-oct-2026 (hace 19 días) · MIT · última release v1.0.1-patch1 (13-oct-2026)
-• daboynb/developer-verifier-placeholder — ★184 · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)
-• zechuan-start/adb-gui — ★72 · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release v0.1.12 (27-oct-2026)
-• Ruraam/Uraam — ★50 · empujó en las últimas horas · GPL-3.0 · última release v4.4.6 (31-oct-2026)
-• audioeng89/tiny_apk_installer — ★50 · *dormido*: sin empujar desde el 26-mar-2026 (220 días) · MIT · última release 0.1.0 (26-mar-2026)
-• austinsager/adv-install — ★27 · *dormido*: sin empujar desde el 19-jul-2026 (105 días) · MIT · última release v0.1.1 (19-jul-2026)
-• GrapheneOS/Vanadium — ★2.268 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release 156.0.8078.79.0 (30-oct-2026)
-• GrapheneOS/Auditor — ★729 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 92 (30-may-2026)
-• GrapheneOS/Camera — ★1.423 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 93 (1-ago-2026)
-• GrapheneOS/PdfViewer — ★1.062 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 33 (30-jul-2026)
-• GrapheneOS/hardened_malloc — ★2.048 · empujó en las últimas horas · MIT · última release 14 (22-feb-2026)
-• degoog-org/degoog — ★2.505 · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release 1.1.1 (25-oct-2026)
-• PimpinPumpkin/Vela — ★2.300 · empujó en las últimas horas · GPL-3.0 · última release v0.5.2621 (19-oct-2026)
-• Pelski/ytzero — ★671 · empujó el 28-sep-2026 (hace 34 días) · Unlicense · última release 2026.09.9 (28-sep-2026)
-• hakerdefo/Robota-Liberated — ★231 · *dormido*: sin empujar desde el 3-jun-2026 (151 días) · CC0-1.0
-• twinksoftware/Gearslip — ★230 · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v0.3.12-alpha (25-oct-2026)
-• biolend83/tubehaus — ★191 · empujó en las últimas horas · AGPL-3.0 · última release app-v0.5.10 (1-nov-2026)
-• GitMag/UnknownAuto — ★150 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v1.1 (30-oct-2026)
-• steven-ahfu/Android-TV-Desktop-Toolkit — ★94 · *dormido*: sin empujar desde el 20-jul-2026 (104 días) · AGPL-3.0 · última release v4.1.10 (20-jul-2026)
-• m-salehi-v/mrowser — ★64 · empujó el 26-oct-2026 (hace 6 días) · MIT · última release v1.4.0 (16-oct-2026)
-• Miniontoby/RokidApkUploader — ★59 · *dormido*: sin empujar desde el 9-abr-2026 (206 días) · GPL-3.0 · última release v1.0.3 (9-abr-2026)
-• andronedev/openportal — ★45 · empujó el 27-oct-2026 (hace 5 días) · MIT
-• itsmelissadev/SwiftSense — ★42 · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v1.3 (15-oct-2026)
-• LooseWireDev/unclouded — ★27 · *dormido*: sin empujar desde el 15-jul-2026 (109 días) · AGPL-3.0
-• FoedusProgramme/Checker — ★83 · *dormido*: sin empujar desde el 18-ene-2024 (1018 días) · GPL-3.0 · última release 1.0.9 (18-ene-2024)
-• HydraDragonAntivirus/HydraDragonAV-Mobile — ★23 · empujó el 25-oct-2026 (hace 7 días) · GPL-2.0 · última release v1.4.2 (6-ago-2026)
-• bl3xand/APK-Toolbox — ★99 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
-• richardkfm/los-bootstrap — ★6 · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0 · última release v0.14.0 (15-oct-2026)
-• Ha2mad/package-pass — ★0 · empujó el 28-oct-2026 (hace 4 días) · MIT
-• Meirwolf1289/fdroid-census — ★0 · empujó en las últimas horas · sin licencia detectada por la API
-
-⏬ sigue abajo · parte 18 de 20
-
-═══ MENSAJE 20 de 21 · 137 caracteres ═══
+• woheller69/FreeDroidWarn — ★3.730 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0
+• tsunderswapElnina/Keep-Android-Open-UI — ★1 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · MIT
+• daboynb/developer-verifier-placeholder — ★184 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0
+• zechuan-start/adb-gui — ★72 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0
+• Ruraam/Uraam — ★50 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• audioeng89/tiny_apk_installer — ★50 (sin cambio) · *dormido*: sin empujar desde el 26-mar-2026 (220 días) · MIT
+• austinsager/adv-install — ★27 (sin cambio) · *dormido*: sin empujar desde el 19-jul-2026 (105 días) · MIT
+• GrapheneOS/Vanadium — ★2.269 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
+• GrapheneOS/Auditor — ★729 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT
+• GrapheneOS/Camera — ★1.423 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT
+• GrapheneOS/PdfViewer — ★1.062 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT
+• GrapheneOS/hardened_malloc — ★2.048 (sin cambio) · empujó en las últimas horas · MIT
+• degoog-org/degoog — ★2.506 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0
+• PimpinPumpkin/Vela — ★2.300 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• Pelski/ytzero — ★671 (sin cambio) · empujó el 28-sep-2026 (hace 34 días) · Unlicense
+• hakerdefo/Robota-Liberated — ★231 (sin cambio) · *dormido*: sin empujar desde el 3-jun-2026 (151 días) · CC0-1.0
+• twinksoftware/Gearslip — ★231 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0
+• biolend83/tubehaus — ★196 (sin cambio) · empujó en las últimas horas · AGPL-3.0
+• GitMag/UnknownAuto — ★153 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT
+• steven-ahfu/Android-TV-Desktop-Toolkit — ★94 (sin cambio) · *dormido*: sin empujar desde el 20-jul-2026 (104 días) · AGPL-3.0
+• m-salehi-v/mrowser — ★64 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · MIT
+• Miniontoby/RokidApkUploader — ★59 (sin cambio) · *dormido*: sin empujar desde el 9-abr-2026 (206 días) · GPL-3.0
+• andronedev/openportal — ★45 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · MIT
+• itsmelissadev/SwiftSense — ★42 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0
+• LooseWireDev/unclouded — ★27 (sin cambio) · *dormido*: sin empujar desde el 15-jul-2026 (109 días) · AGPL-3.0
+• FoedusProgramme/Checker — ★83 (sin cambio) · *dormido*: sin empujar desde el 18-ene-2024 (1018 días) · GPL-3.0
+• HydraDragonAntivirus/HydraDragonAV-Mobile — ★23 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-2.0
+• bl3xand/APK-Toolbox — ★99 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
+• richardkfm/los-bootstrap — ★6 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0
+• Ha2mad/package-pass — ★0 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT
+• Meirwolf1289/fdroid-census — ★0 (sin cambio) · empujó en las últimas horas · sin licencia
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
 De los 33 enlaces de esta pieza, *33 responden*.
 Ninguno roto.
 
-⏬ sigue abajo · parte 19 de 20
+⏬ sigue abajo · parte 18 de 19
 
-═══ MENSAJE 21 de 21 · 152 caracteres ═══
+═══ MENSAJE 20 de 20 · 152 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.

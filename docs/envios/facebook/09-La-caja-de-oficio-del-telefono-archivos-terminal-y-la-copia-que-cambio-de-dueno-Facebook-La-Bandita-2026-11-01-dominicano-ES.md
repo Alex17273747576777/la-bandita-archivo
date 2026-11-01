@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/09-La-caja-de-oficio-del-telefono-archivos-terminal-y-la-copia-que-cambio-de-dueno-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `ef66f0146d080274e93ef36bc45ae6acb365a1a5d6f9377982c9d801566115f6`
+- **sha256 de la pieza:** `77b0e8ec902cec6c8c72b9f61cc3ed6ed9e7a04c4cd78c9870f76e3ddd7f26dd`
 - **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3646 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -395,7 +395,7 @@ El otro hallazgo es de forma, no de fondo: cuatro de las dieciocho fichas no ide
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Una herramienta de oficio vale por lo que aguanta el día que la red se cae.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 08:20 y las 11:55 de Santo Domingo · dieciocho proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · cuatro fichas sin licencia identificada quedan dichas con esas palabras · dos releases sin fecha publicada se anotan como tales · lo que no se pudo leer no aparece en la lista.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 08:20 y las 09:30 de Santo Domingo · dieciocho proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · cuatro fichas sin licencia identificada quedan dichas con esas palabras · dos releases sin fecha publicada se anotan como tales · lo que no se pudo leer no aparece en la lista.
 
 *Licencia:* el texto queda en CC BY-SA 4.0, los datos medidos en CC BY 4.0 y el código en MIT; el nombre y la marca de la casa siguen siendo de «Alexis (La Bandita)».
 
@@ -411,7 +411,7 @@ El otro hallazgo es de forma, no de fondo: cuatro de las dieciocho fichas no ide
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 2702 caracteres ═══
+═══ MENSAJE 17 de 18 · 2631 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
@@ -429,10 +429,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pi
 • Catfriend1/syncthing-android — ★3.220 (sin cambio) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • gsantner/markor — ★6.363 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v2026.10.0 (25-oct-2026)
 • Acode-Foundation/Acode — ★7.612 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v1.13.5 (13-sep-2026)
-• GrapheneOS/PdfViewer — ★1.062 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 33 (30-jul-2026)
+• GrapheneOS/PdfViewer — ★1.062 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT
 • FedericoIOSue/Omni-Notes — ★2.807 (sin cambio) · empujó el 22-oct-2026 (hace 10 días) · GPL-3.0 · última release 6.5.1 (22-oct-2026)
 • Darkempire78/OpenCalc — ★1.544 (sin cambio) · *dormido*: sin empujar desde el 10-jul-2026 (114 días) · GPL-3.0 · última release v3.2.1 (21-sep-2025)
-• MuntashirAkon/AppManager — ★9.399 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• MuntashirAkon/AppManager — ★9.399 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
 • MuntashirAkon/libadb-android — ★415 (sin cambio) · *dormido*: sin empujar desde el 3-jun-2026 (151 días) · NOASSERTION · última release 3.1.1
 • KDE/kdeconnect-android — ★1.494 (sin cambio) · empujó en las últimas horas · GPL-2.0 · última release v1.37.0
 

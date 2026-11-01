@@ -83,28 +83,28 @@ Estas son las herramientas que resuelven el problema, medidas una por una esta m
 *Las segundas cerraduras*
 
 - **beemdevelopment/Aegis** — los códigos de seis cifras, con exportación firmada ★13.443 · licencia GPL-3.0 · Java · empujó el 06-sep · release v3.4.3 (06-sep) · https://github.com/beemdevelopment/Aegis
-- **twofas/2fas-android** — alternativa con respaldo y extensión de navegador ★1.561 · licencia GPL-3.0 · Kotlin · empujó el 31-oct · release 6.1.0 (19-oct) · https://github.com/twofas/2fas-android
+- **twofas/2fas-android** — alternativa con respaldo y extensión de navegador ★1.562 · licencia GPL-3.0 · Kotlin · empujó el 31-oct · release 6.1.0 (19-oct) · https://github.com/twofas/2fas-android
 
 *El navegador y las listas que bloquean*
 
-- **uazo/cromite** — navegador con bloqueo de serie, sin telemetría ★8.453 · licencia GPL-3.0 · C++ · empujó hoy · release 15-sep · https://github.com/uazo/cromite
-- **gorhill/uBlock** — la lista de bloqueo que sostiene media internet ★68.993 · licencia GPL-3.0 · empujó el 30-oct · release 1.75.0 (16-sep) · https://github.com/gorhill/uBlock
+- **uazo/cromite** — navegador con bloqueo de serie, sin telemetría ★8.455 · licencia GPL-3.0 · C++ · empujó hoy · release 15-sep · https://github.com/uazo/cromite
+- **gorhill/uBlock** — la lista de bloqueo que sostiene media internet ★68.996 · licencia GPL-3.0 · empujó el 30-oct · release 1.75.0 (16-sep) · https://github.com/gorhill/uBlock
 - **divested-mobile/mull-fenix** — navegador endurecido, sin release anotada ★592 · licencia AGPL-3.0 · último empuje 10-dic-2024 · https://github.com/divested-mobile/mull-fenix
 - **mozilla-mobile/firefox-android** — el código de Firefox para Android, hoy en otro repositorio ★1.842 · licencia MPL-2.0 · empujó el 17-jun-2024 · release components-v125.3.0 · https://github.com/mozilla-mobile/firefox-android
 
 *La red de la casa y del bolsillo*
 
-- **AdguardTeam/AdGuardHome** — bloqueo para todos los aparatos de la casa ★38.032 · licencia GPL-3.0 · TypeScript · empujó el 30-oct · release v0.107.79 (18-ago) · https://github.com/AdguardTeam/AdGuardHome
+- **AdguardTeam/AdGuardHome** — bloqueo para todos los aparatos de la casa ★38.033 · licencia GPL-3.0 · TypeScript · empujó el 30-oct · release v0.107.79 (18-ago) · https://github.com/AdguardTeam/AdGuardHome
 - **celzero/rethink-app** — cortafuegos y bloqueo por app en el teléfono ★5.828 · licencia Apache-2.0 · Kotlin · empujó el 26-oct · release v0.5.8 (13-oct) · https://github.com/celzero/rethink-app
 - **nextdns/nextdns** — filtrado desde el router, sin instalar nada en cada aparato ★4.237 · licencia MIT · Go · empujó el 31-oct · release v1.49.0 (29-oct) · https://github.com/nextdns/nextdns
-- **tailscale/tailscale** — entrar a tu red desde fuera sin abrir puertos ★38.461 · licencia BSD-3-Clause · Go · empujó el 31-oct · release v1.104.4 (28-oct) · https://github.com/tailscale/tailscale
+- **tailscale/tailscale** — entrar a tu red desde fuera sin abrir puertos ★38.466 · licencia BSD-3-Clause · Go · empujó el 31-oct · release v1.104.4 (28-oct) · https://github.com/tailscale/tailscale
 
 *Los mensajes, la revisión y la puerta de las apps*
 
 - **signalapp/Signal-Android** — mensajería con cifrado de extremo a extremo ★29.565 · licencia AGPL-3.0 · Kotlin · empujó el 30-oct · release v8.33.2 (26-oct) · https://github.com/signalapp/Signal-Android
 - **threema-ch/threema-android** — la que se puede usar sin número de teléfono ★1.003 · licencia AGPL-3.0 · empujó el 23-sep · sin release anotada · https://github.com/threema-ch/threema-android
 - **mvt-project/mvt** — busca rastros de espionaje en el teléfono ★15.667 · licencia NOASSERTION · Python · empujó el 29-oct · release v2026.10.26 · https://github.com/mvt-project/mvt
-- **ImranR98/Obtainium** — instala directo del autor, sin tiendas de por medio ★21.112 · licencia GPL-3.0 · Dart · release v1.7.4 (01-nov) · https://github.com/ImranR98/Obtainium
+- **ImranR98/Obtainium** — instala directo del autor, sin tiendas de por medio ★21.115 · licencia GPL-3.0 · Dart · release v1.7.4 (01-nov) · https://github.com/ImranR98/Obtainium
 
 *Lo que el censo dice en una línea.* Diecisiete repos, de los cuales quince se movieron este mes. Los dos que no: uno está congelado desde diciembre de 2024 y el otro cambió de casa. Un censo que solo cuenta lo que brilla no avisa de lo que ya no se toca.
 

@@ -67,13 +67,13 @@ REV|483.23★ — ukuzihS/sppAakkiR=1|REV|82-01-6202 — redroceRllaCuzihS/demus
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 752 caracteres ═══
+═══ MENSAJE 3 de 4 · 713 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 92*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.577 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.581 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • awesome-android-root/awesome-android-root — ★5.594 (+26) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 6.1 (26-oct-2026)
 • kitsumed/ShizuCallRecorder — ★1.968 (+36) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.0.0 (24-oct-2026)
 

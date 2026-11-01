@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `0eb7ff0795164a73ab025554b59fbd96e819d7414deeb2b5c4d53b61e9a75301`
-- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3842 caracteres
+- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3850 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 6 · 899 caracteres ═══
@@ -154,7 +154,7 @@ REV|92-01-6202 — krof-imoyinA-imadaT/munacradna=1|REV|0.3-LPG=2|REV|52-70-5202
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3842 caracteres ═══
+═══ MENSAJE 5 de 6 · 3850 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 102*
 
@@ -165,7 +165,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 28 repositorios que cita esta pi
 • Riteshp2001/mpvRx — ★868 (+9) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
 • Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
-• yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
+• yuzono/anime-extensions — ★525 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • AppFuton/Futon — ★470 (+3) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
 • SysAdminDoc/HushFacebook — ★449 (+11) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
 • Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0

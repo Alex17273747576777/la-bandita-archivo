@@ -349,7 +349,7 @@ Y el otro hallazgo es de calendario: LSPatch sin empujones desde diciembre de 20
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Un parche cambia el paquete; no cambia de dueño la firma.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 09:10 y las 12:25 de Santo Domingo · dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · un repositorio con respuesta 451 y dos sin README legible quedan fuera de la tabla, con el motivo escrito · una release sin fecha publicada se anota como tal
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 09:20 y las 09:58 de Santo Domingo · dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · un repositorio con respuesta 451 y dos sin README legible quedan fuera de la tabla, con el motivo escrito · una release sin fecha publicada se anota como tal
 
 *Licencia:* el contenido va con CC BY-SA 4.0, los datos medidos con CC BY 4.0 y el código con MIT; el nombre de la casa y su marca quedan reservados para «Alexis (La Bandita)».
 

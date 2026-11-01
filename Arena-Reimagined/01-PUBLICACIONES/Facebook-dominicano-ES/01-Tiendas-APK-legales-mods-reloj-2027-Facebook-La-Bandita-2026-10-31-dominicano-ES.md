@@ -590,7 +590,7 @@ Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha 
 
 💓 *La Bandita informa a partir de fuentes fechadas.* El origen manda; la tienda solo te presta el mostrador, y el mostrador se puede cambiar de sitio mañana.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · 19 repositorios y 12 casas medidos uno por uno contra la API de GitHub · 22 enlaces abiertos con `curl -L`, todos con 200.
+*Medición del corte:* domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · re-verificada a las 10:09 con las tres lecturas rotadas · doce casas medidas una por una · lo no medido se dice arriba.
 
 ## 🗒️ Notas al pie
 

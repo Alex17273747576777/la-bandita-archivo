@@ -72,7 +72,7 @@ REV|932.581★ — amallo/amallo=1|REV|0.2-ehcapA=2|REV|92-01-6202 — mvmmucs/m
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 835 caracteres ═══
+═══ MENSAJE 3 de 4 · 781 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 95*
 
@@ -80,7 +80,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pie
 
 • ollama/ollama — ★185.538 (+299) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
 • localsend/localsend — ★96.908 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release fc7a827-2 (1-nov-2026)
+• keiyoushi/extensions — ★15.405 (sin cambio) · empujó en las últimas horas · sin licencia
 • scummvm/scummvm — ★2.875 (+5) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

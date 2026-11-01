@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a61e2cc71309ca2c3a38112bc8d1dd09526312b7b6d70fd97eefbef536e16595`
-- **Envío generado:** 2026-11-01 · 11 mensajes · el mayor de 3888 caracteres
+- **Envío generado:** 2026-11-01 · 11 mensajes · el mayor de 3857 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 11 · 923 caracteres ═══
@@ -255,7 +255,7 @@ Hay release de esta semana: **Khh-vu/wifi-password-manager** publicó v1.21 (202
 
 ⏬ sigue abajo · parte 6 de 10
 
-═══ MENSAJE 8 de 11 · 3888 caracteres ═══
+═══ MENSAJE 8 de 11 · 3857 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 54*
 
@@ -289,7 +289,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 52 repositorios que cita esta pi
 • TeamWin/Team-Win-Recovery-Project — ★2.069 (+1) · *dormido*: sin empujar desde el 6-feb-2022 (1729 días) · sin licencia detectada por la API
 • zacharee/Tweaker — ★1.760 (+3) · empujó el 21-oct-2026 (hace 11 días) · MIT · última release 362 (17-feb-2024)
 • freeotp/freeotp-android — ★1.683 (+2) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)
-• pass-with-high-score/universal-installer — ★1.660 (+20) · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
+• pass-with-high-score/universal-installer — ★1.660 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • curbox-app/curbox-android — ★1.482 (+8) · empujó en las últimas horas · GPL-3.0 · última release 6 (15-oct-2026)
 
 ⏬ sigue abajo · parte 7 de 10

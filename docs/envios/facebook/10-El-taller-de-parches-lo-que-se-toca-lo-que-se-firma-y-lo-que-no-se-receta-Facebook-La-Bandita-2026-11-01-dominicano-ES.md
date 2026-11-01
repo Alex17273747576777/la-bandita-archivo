@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-El-taller-de-parches-lo-que-se-toca-lo-que-se-firma-y-lo-que-no-se-receta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `c4f694161a7b2855d5a0172221411eda9cd1cf6983fbab9eb70e41d3962e9c3f`
+- **sha256 de la pieza:** `cb788f6da792bace898982f7aa4164ab809a4bd66e6e175a6a703e888511525a`
 - **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3604 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -406,7 +406,7 @@ Y el otro hallazgo es de calendario: LSPatch sin empujones desde diciembre de 20
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Un parche cambia el paquete; no cambia de dueño la firma.
 
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 09:10 y las 12:25 de Santo Domingo · dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · un repositorio con respuesta 451 y dos sin README legible quedan fuera de la tabla, con el motivo escrito · una release sin fecha publicada se anota como tal
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 09:20 y las 09:58 de Santo Domingo · dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · un repositorio con respuesta 451 y dos sin README legible quedan fuera de la tabla, con el motivo escrito · una release sin fecha publicada se anota como tal
 
 *Licencia:* el contenido va con CC BY-SA 4.0, los datos medidos con CC BY 4.0 y el código con MIT; el nombre de la casa y su marca quedan reservados para «Alexis (La Bandita)».
 
@@ -422,7 +422,7 @@ Y el otro hallazgo es de calendario: LSPatch sin empujones desde diciembre de 20
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 2262 caracteres ═══
+═══ MENSAJE 17 de 18 · 2185 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
@@ -435,12 +435,12 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pi
 • topjohnwu/Magisk — ★63.665 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
 • LSPosed/LSPosed — ★25.287 (sin cambio) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
 • LSPosed/LSPatch — sin dato hoy (la API no respondió). No afirmo nada.
-• RikkaApps/Shizuku — ★32.577 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.581 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
 • skylot/jadx — ★51.439 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release v1.5.6 (10-jul-2026)
 • iBotPeaches/Apktool — ★26.888 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v3.0.3 (20-jul-2026)
 • microg/GmsCore — ★15.152 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.3.17.252432 (29-sep-2026)
 • whyorean/AuroraStore — ★3.215 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v2.0.5-β
-• Droid-ify/client — ★7.678 (sin cambio) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• Droid-ify/client — ★7.678 (sin cambio) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0
 • yuliskov/SmartTube — ★35.801 (sin cambio) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • Aefyr/SAI — ★3.955 (sin cambio) · *dormido*: sin empujar desde el 3-jun-2024 (881 días) · GPL-3.0 · última release 4.5 (25-feb-2021)
 
