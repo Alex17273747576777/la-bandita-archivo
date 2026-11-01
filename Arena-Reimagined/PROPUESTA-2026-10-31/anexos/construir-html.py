@@ -64,15 +64,15 @@ portada = """
   <p class="eyebrow">Propuesta ejecutiva · corte medido el 31 de octubre de 2026</p>
   <h1>La Bandita<br><span class="grad">de archivo verificado<br>a empresa de verificación</span></h1>
   <p class="lead">El repositorio ya tiene lo que casi nadie tiene: 261 publicaciones con fecha,
-  un registro de 5.684 repositorios medidos y un método que detecta sus propios errores.
+  un registro de 6.826 repositorios medidos y un método que detecta sus propios errores.
   Lo que no tiene es empresa. Esta es la propuesta para construirla sin traicionar el método.</p>
   <div class="kpis">
     <div class="kpi"><b>259</b><span>publicaciones vivas</span></div>
-    <div class="kpi"><b>5.684</b><span>repos medidos</span></div>
+    <div class="kpi"><b>6.826</b><span>repos medidos</span></div>
     <div class="kpi"><b>701</b><span>recursos mapeados</span></div>
     <div class="kpi"><b>53.886</b><span>servidores MCP</span></div>
     <div class="kpi"><b>9</b><span>compuertas</span></div>
-    <div class="kpi"><b>90,4 %</b><span>sin licencia declarada</span></div>
+    <div class="kpi"><b>78,8 %</b><span>sin licencia declarada</span></div>
   </div>
   <div class="aviso">
     <svg class="ico" viewBox="0 0 24 24"><path d="M12 3 3 20h18L12 3zm0 5v6m0 3v.5"/></svg>

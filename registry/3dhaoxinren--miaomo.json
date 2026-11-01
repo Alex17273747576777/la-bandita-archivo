@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-24"
+ },
+ "descripcion": "喵墨 Miaomo｜华为墨水屏 / 华为墨水瓶（常见误写）：3.98英寸四色 NFC 电子纸照片编辑与刷屏 App，手机内置 NFC + Shizuku，无需 root；支持裁剪、文字、相框、InkSight 四色预览。PolyForm 非商用许可。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/3dhaoxinren--miaomo.json",
+  "sha256": "f301e6cb9db6debd14eb9490c6771d67614fcc8cfd1222bfb75f39e9b5638f68"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "3dhaoxinren--miaomo",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6,
+  "stars_por_mes": null
+ },
+ "nombre": "miaomo",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "3dhaoxinren/miaomo"
+}

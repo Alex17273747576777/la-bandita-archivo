@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-02-18"
+ },
+ "descripcion": "Keep your phone mostly monochrome, but allow apps like camera to be in color.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/c10udburst--grayscaler.json",
+  "sha256": "d910c0186ae5b2b88d228c2a36153e352debcfd5d4b966dc5845014d81b26fbf"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "c10udburst--grayscaler",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 168,
+  "stars_por_mes": null
+ },
+ "nombre": "Grayscaler",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "C10udburst/Grayscaler"
+}

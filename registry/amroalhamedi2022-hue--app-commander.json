@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "Private Android app manager and task controller with Shizuku support",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/amroalhamedi2022-hue--app-commander.json",
+  "sha256": "546fe14a1a7d10df7e75afd71bb4d058fa0c4f1d83ed0212ebe46411654d0fa1"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "amroalhamedi2022-hue--app-commander",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "app-commander",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "amroalhamedi2022-hue/app-commander"
+}

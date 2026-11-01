@@ -4,7 +4,7 @@ La duplicación es el mayor pasivo técnico del archivo y el más fácil de dete
 el siguiente. Esta política no borra nada — esa decisión es del dueño — pero deja la cifra a la vista
 y fija la regla para lo que viene.
 
-## Lo que midió `tools/duplicados.py` (1 de noviembre de 2026)
+## Lo que midió `tools/duplicados.py` (31 de octubre de 2026)
 
 | Medida | Valor |
 |---|---|

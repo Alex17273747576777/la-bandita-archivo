@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "ShizukuX 是 Shizuku 的增强分支：让普通应用借助 ADB / Root 特权进程直接调用系统级 API，并内置 Dhizuku、Extra API、Root 兼容桥等高级能力。继承自 ShizukuPlus（Apache 2.0）。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/qianyumeng0228--shizukux.json",
+  "sha256": "ff2a6d3a556ba3b1ca55f51bec05a7f72a4a4cd9be0b498aa804c00f5f17ae97"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "qianyumeng0228--shizukux",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 174,
+  "stars_por_mes": null
+ },
+ "nombre": "ShizukuX",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "qianyumeng0228/ShizukuX",
+ "web": "https://shizukux.xyz"
+}

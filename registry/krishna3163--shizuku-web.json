@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-29"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/krishna3163--shizuku-web.json",
+  "sha256": "5a587ba2cfe7b18061e1b7281ba92a114dd93d7fe674db4540f9c80857fd3716"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "krishna3163--shizuku-web",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "shizuku-web",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "krishna3163/shizuku-web"
+}

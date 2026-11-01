@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Pauses the Pixel comfort view (eye comfort) in camera & photos, switches private DNS by Wi-Fi – via Shizuku",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/weiterfunken-thomas--pixelcomfort.json",
+  "sha256": "f238183be1ded116a5537e9113375c50034f562cf65f60350f5e0d28761b29fd"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "weiterfunken-thomas--pixelcomfort",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "pixelcomfort",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "WEITERFUNKEN-Thomas/pixelcomfort"
+}

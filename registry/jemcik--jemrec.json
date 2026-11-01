@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Call recorder for unrooted Android: phone, WhatsApp, Telegram, Viber and Google Meet calls, both sides, and an answering machine that takes a message when you can’t answer a phone call. No root, no Shizuku, no computer.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jemcik--jemrec.json",
+  "sha256": "c89ecdd590c29b8cbe0fb5519447a947e44094d7715abd6e9511b0e1ab637f84"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jemcik--jemrec",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 50,
+  "stars_por_mes": null
+ },
+ "nombre": "JemRec",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "jemcik/JemRec",
+ "web": "https://jemcik.github.io/JemRec/"
+}

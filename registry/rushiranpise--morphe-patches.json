@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "New mask, same task.                                                                 All patches answer to Doom.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rushiranpise--morphe-patches.json",
+  "sha256": "913643587731d0e70a2b7a8cecf14cef6a84c6726042441107bcf9b96f5a2b06"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rushiranpise--morphe-patches",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 987,
+  "stars_por_mes": null
+ },
+ "nombre": "morphe-patches",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "rushiranpise/morphe-patches",
+ "web": "https://buymeacoffee.com/rushiranpise"
+}

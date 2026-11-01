@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-31",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.7",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ccch1mneyyy--dsh-go.json",
+  "sha256": "9ae3711b34c9f9747da004e7cc313e8ca5a9ddf4b7282758fd29819a97eb7eb1"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ccch1mneyyy--dsh-go",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3605,
+  "stars_por_mes": null
+ },
+ "nombre": "dsh-Go",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "08d76f52f347823dca34161b7f1dd4138b5925d4",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "ccch1mneyyy/dsh-Go"
+}

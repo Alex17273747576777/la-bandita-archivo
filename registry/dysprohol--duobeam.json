@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-23",
+  "semantica_http": 200,
+  "ultima_release": "v0.8.9",
+  "ultimo_push": "2026-10-23"
+ },
+ "descripcion": "Stream both screens of a dual-screen Android handheld (AYN Thor) to a Samsung Tizen or Android TV over Wi-Fi",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dysprohol--duobeam.json",
+  "sha256": "2bdb72fe4afaa49dd47d13c8611bbcc514929ad28d828804d2398fe1821f5abd"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dysprohol--duobeam",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 8,
+  "stars_por_mes": null
+ },
+ "nombre": "duobeam",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c816ef9fd89973e22611e98d30f15e0260089d7c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "Dysprohol/duobeam"
+}

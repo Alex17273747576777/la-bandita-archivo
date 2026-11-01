@@ -1,20 +1,20 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-24",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-10"
+  "ultima_release": "v1.9.4",
+  "ultimo_push": "2026-10-25"
  },
- "descripcion": "v1.9.2",
+ "descripcion": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#komi-store/komi-store",
-  "sha256": "6d56a265bb53bf5935164a904ac16dbf11467dcdc8d810315f3fe90674817a74"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/komi-store--komi-store.json",
+  "sha256": "95eafc5de915855d5c3c33791deb96157f7e5649232285827b28610c39c5e58f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 19465,
-  "stars_por_mes": 196.6
+  "stars": 20171,
+  "stars_por_mes": null
  },
  "nombre": "komi-store",
  "piezas": [
@@ -38,8 +38,11 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "19eb74474f5f45a63cca45fc1dc9b8f7314687f0",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "komi-store/komi-store"
+ "repo": "komi-store/komi-store",
+ "web": "https://www.komistore.app"
 }

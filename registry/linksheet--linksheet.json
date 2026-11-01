@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-07-30",
+  "semantica_http": 200,
+  "ultima_release": "0.0.33",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Link handling for modern Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/linksheet--linksheet.json",
+  "sha256": "40082693e1ec50cdcc93735e75bcd62d295d3988045ee01b89cbb330d5bb17fc"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "linksheet--linksheet",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2161,
+  "stars_por_mes": null
+ },
+ "nombre": "LinkSheet",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "028cbee6b221df39e74bee9a9565d5d97c66a582",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "LinkSheet/LinkSheet"
+}

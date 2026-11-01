@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-10-24"
+ },
+ "descripcion": "Root-free one-click configuration for Mix Flip's outer screen: Add and use any apps & Restore system apps to default style",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/parallelcc--mixfliptool.json",
+  "sha256": "0fc3e447407bc3fc8766f7188108b08ffbf128b7f2f6ee601539d10a8f485b21"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "parallelcc--mixfliptool",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 73,
+  "stars_por_mes": null
+ },
+ "nombre": "MixFlipTool",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "parallelcc/MixFlipTool"
+}

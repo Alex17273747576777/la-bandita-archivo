@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-24",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.24",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "Nintendo-, PlayStation- und Xbox-Controller unter Windows, Android und Kodi/LibreELEC – virtuelle Xbox/DS4-Controller, Gyro, Rumble, Profile. 12 Sprachen. | Use Nintendo, PlayStation & Xbox controllers on Windows, Android and Kodi.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/devcatskz--skz-connect.json",
+  "sha256": "e44e57e30ab82018e0acc5dab022c9da35928e9169cf4a0910c23e4e1617bffd"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "devcatskz--skz-connect",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "SKZ-Connect",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ed9c2d8a8d12151f95fb317035766a8bc77a531f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "DevCatSKZ/SKZ-Connect",
+ "web": "https://devcatskz.github.io/SKZ-Connect/"
+}

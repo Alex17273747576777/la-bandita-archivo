@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2023-10-11"
+ },
+ "descripcion": "Some Android app widgets and live wallpapers. 包括新冠肺炎和一言桌面微件, 勿扰模式锁屏快捷开关, live2d动态壁纸(WIP)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dawncraft--dawn-desktop-addons.json",
+  "sha256": "fd994c3cef21ec2b50b709b3ac1aa6e044fd3b6aaafe752958f1e99606e4151e"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dawncraft--dawn-desktop-addons",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 43,
+  "stars_por_mes": null
+ },
+ "nombre": "Dawn-Desktop-Addons",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "Dawncraft/Dawn-Desktop-Addons"
+}

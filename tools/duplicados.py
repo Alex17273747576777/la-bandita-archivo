@@ -10,6 +10,10 @@ Uso: python3 tools/duplicados.py [--json]
 """
 from __future__ import annotations
 import argparse, hashlib, json, re, sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from fecha_casa import hoy as fecha_casa_hoy  # noqa: E402
 from collections import defaultdict
 from pathlib import Path
 

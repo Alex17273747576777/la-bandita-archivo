@@ -1,0 +1,47 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-24",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.65",
+  "ultimo_push": "2026-09-03"
+ },
+ "descripcion": "KSU installer for supported Samsung Galaxy firmware with CVE-2026-43499",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/busung-dev--root-my-galaxy.json",
+  "sha256": "5bf28df10538d37e90338fdc7fef43556a6c018ae385f5a19159e8706a0bf69c"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "busung-dev--root-my-galaxy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1514,
+  "stars_por_mes": null
+ },
+ "nombre": "Root-My-Galaxy",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "23adf39fcd4f1be4e73184ee960a6d5399baf147",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:23adf39fcd4f1be4e73184ee960a6d5399baf147"
+ },
+ "repo": "BuSung-dev/Root-My-Galaxy"
+}

@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "Elder phone takeover guard: accessibility-service guard + rescue button + encrypted relay. 長輩手機接管守門哨",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/monarchsofchaos004-gif--phoneguard.json",
+  "sha256": "0e2f52d2f7c3822cc1a2c78c568f2b7f81959817d8ce5d7eb17fd9f517c4358f"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "monarchsofchaos004-gif--phoneguard",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "phoneguard",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "monarchsofchaos004-gif/phoneguard"
+}

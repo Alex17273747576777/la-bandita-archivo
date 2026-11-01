@@ -1,0 +1,47 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2025-12-18",
+  "semantica_http": 200,
+  "ultima_release": "V1.4.2",
+  "ultimo_push": "2026-01-08"
+ },
+ "descripcion": "Android Automation Tool Based on Vision-Language Models",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/turbo1123--roubao.json",
+  "sha256": "e7cc5b393f3c45a9e4a55cad1dc49090e85f9ff455def6839c93fefb222ab6eb"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "turbo1123--roubao",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2410,
+  "stars_por_mes": null
+ },
+ "nombre": "roubao",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c8a6d7f03422eb01744b01f3ee77bf7757741f7e",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c8a6d7f03422eb01744b01f3ee77bf7757741f7e"
+ },
+ "repo": "Turbo1123/roubao"
+}

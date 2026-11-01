@@ -16,6 +16,11 @@ import argparse, html, json, re, shutil, unicodedata
 from datetime import date
 from pathlib import Path
 
+sys_path = Path(__file__).resolve().parent
+import sys as _sys
+_sys.path.insert(0, str(sys_path))
+from fecha_casa import hoy as fecha_casa_hoy  # noqa: E402
+
 RAIZ = Path(__file__).resolve().parents[1]
 PUBLICACIONES = RAIZ / "Arena-Reimagined/01-PUBLICACIONES"
 REGISTRO = RAIZ / "registry"
@@ -221,7 +226,7 @@ def main() -> int:
     (destino / "ficha").mkdir()
     (destino / "datos").mkdir()
 
-    hoy = date.today()
+    hoy = date.fromisoformat(fecha_casa_hoy())
     fichas = cargar_fichas()
     piezas = sorted(p for p in PUBLICACIONES.rglob("*.md")
                     if not p.name.lower().startswith(("leeme", "readme")))

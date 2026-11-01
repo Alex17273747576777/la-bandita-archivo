@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "TensorIMS（原 Mystery00/TurboIMS）：由 Mystery00 维护的 Pixel Tensor IMS 配置工具，聚焦中国大陆的中国移动、中国联通、中国电信网络；其他运营商因缺少测试条件，不作为主要适配和维护对象。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/pixel-tailor-cn--tensorims.json",
+  "sha256": "5b359becda65ae2ab2da776dd90d2b81800b1b0db78152a84395b51bfa7a546a"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "pixel-tailor-cn--tensorims",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 686,
+  "stars_por_mes": null
+ },
+ "nombre": "TensorIMS",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "Pixel-Tailor-CN/TensorIMS",
+ "web": "https://pixel.mystery0.app"
+}

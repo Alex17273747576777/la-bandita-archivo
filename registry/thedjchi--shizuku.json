@@ -1,0 +1,47 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-02",
+  "semantica_http": 200,
+  "ultima_release": "v13.7.0-thedjchi",
+  "ultimo_push": "2026-07-15"
+ },
+ "descripcion": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/thedjchi--shizuku.json",
+  "sha256": "12e6f235029e86600db99071baa22b636dc86558d81745e3a872dd65c8f14b43"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "thedjchi--shizuku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6642,
+  "stars_por_mes": null
+ },
+ "nombre": "Shizuku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "15ade0e40042dc72f0e502d50b4cb16e3a19095e",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:15ade0e40042dc72f0e502d50b4cb16e3a19095e"
+ },
+ "repo": "thedjchi/Shizuku"
+}

@@ -24,6 +24,10 @@ UMBRAL_DORMIDO = 180
 
 
 
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+from fecha_casa import hoy as fecha_casa_hoy  # noqa: E402
+
 MEDIDO_EN = "2026-10-15"
 
 
@@ -152,7 +156,7 @@ def construir(medido_en: str) -> int:
                 "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
             },
             "piezas": indice.get(repo.lower(), []),
-            "frescura_dias": max(0, (date.today() - corte).days),
+            "frescura_dias": max(0, (date.fromisoformat(fecha_casa_hoy()) - corte).days),
         }
         (SALIDA / f"{fid}.json").write_text(json.dumps(ficha, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
                                             encoding="utf-8")

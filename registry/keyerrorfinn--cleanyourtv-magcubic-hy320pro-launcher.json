@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "MAIN PROJECT: CleanYourTV-based Magcubic HY320 Pro launcher. Basic and Advanced editions, integrated settings, optional helper, source, APK releases and setup/recovery guides.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/keyerrorfinn--cleanyourtv-magcubic-hy320pro-launcher.json",
+  "sha256": "ff8e57f2c3de7729f58c13280b81286224f582593efd76b8950710e71bbce94d"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "keyerrorfinn--cleanyourtv-magcubic-hy320pro-launcher",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "cleanyourtv-magcubic-hy320pro-launcher",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "KeyErrorFinn/cleanyourtv-magcubic-hy320pro-launcher",
+ "web": "https://github.com/KeyErrorFinn/cleanyourtv-magcubic-hy320pro-launcher/releases"
+}

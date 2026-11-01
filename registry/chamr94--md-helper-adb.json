@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-04"
+ },
+ "descripcion": "Grant MacroDroid adb permissions & install the official Helper on the phone via Wireless debugging - no PC. / 무선 디버깅으로 PC 없이 MacroDroid adb 권한 주기",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/chamr94--md-helper-adb.json",
+  "sha256": "c54d255a2314af07f1b84ac0fb1f60ee78d12a74a8503b26a85ea7c321df614e"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "chamr94--md-helper-adb",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "md-helper-adb",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "chamr94/md-helper-adb"
+}

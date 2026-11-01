@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-31",
+  "semantica_http": 200,
+  "ultima_release": "mlog-scanner-bridge-v3.6.3",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Curated Shizuku and no-root Android apps, wireless ADB tools, debloat utilities, privacy tools, and root alternatives.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/krishna3163--best_shizuku_apps_for_android_no_root.json",
+  "sha256": "733e95dfebfc047fdc275800179444a8aad635612f741c9f1c268acbd4cb8b42"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "krishna3163--best_shizuku_apps_for_android_no_root",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 158,
+  "stars_por_mes": null
+ },
+ "nombre": "best_shizuku_apps_for_android_no_root",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "50562b662fadbb426e9f12c212752bfcb3400e90",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "krishna3163/best_shizuku_apps_for_android_no_root",
+ "web": "https://krishna3163.github.io/best_shizuku_apps_for_android_no_root/"
+}

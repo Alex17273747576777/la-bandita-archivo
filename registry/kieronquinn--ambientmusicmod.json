@@ -1,0 +1,47 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2024-09-07",
+  "semantica_http": 200,
+  "ultima_release": "2.4",
+  "ultimo_push": "2024-09-07"
+ },
+ "descripcion": "Port of Now Playing from Pixels to other Android devices",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kieronquinn--ambientmusicmod.json",
+  "sha256": "b6c2f54189903470501f5b6f9f0557609e09d87dc5c5e12b562ff66d6883e232"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "kieronquinn--ambientmusicmod",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2525,
+  "stars_por_mes": null
+ },
+ "nombre": "AmbientMusicMod",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "061cc6458f1731108fd2e16605d13e57207dc64f",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:061cc6458f1731108fd2e16605d13e57207dc64f"
+ },
+ "repo": "KieronQuinn/AmbientMusicMod"
+}

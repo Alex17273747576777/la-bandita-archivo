@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-11"
+ },
+ "descripcion": "Hikari AdBlock — free, open-source, no-root Android ad blocker. Blocks ads, trackers and malware system-wide via a local VPN DNS filter. Built with Kotlin & Jetpack Compose.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/codegeasse1--hikari-adblock.json",
+  "sha256": "2d5b238ac3569e45a8954f532537c22e6bcd30d0300c48ce786f012281eecf75"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "codegeasse1--hikari-adblock",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 37,
+  "stars_por_mes": null
+ },
+ "nombre": "hikari-adblock",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "codegeasse1/hikari-adblock"
+}

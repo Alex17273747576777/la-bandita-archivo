@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Your Android phone and your Mac, kept in sync over Wi-Fi: notifications, SMS, calls, clipboard, files, battery, media and screen mirroring. End-to-end encrypted, no cloud, no account.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/anilmetin0--andromac.json",
+  "sha256": "ff670d0d4f1952f9626cb116ccc2e10aa27759cd8e7f269aad9e4ab6b7a2dc6d"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "anilmetin0--andromac",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5,
+  "stars_por_mes": null
+ },
+ "nombre": "AndroMac",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "anilmetin0/AndroMac",
+ "web": "https://anilmetin0.github.io/AndroMac/"
+}

@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-04",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.7",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Your Open Autonomous Android Agent — A production-ready, self-planning AI assistant powered by local/remote LLMs and accessibility-driven screen automation.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jman730--opendroid.json",
+  "sha256": "4cde5a059e3f987ebd1994b640f3e382264b08ad2a60b13a611d3698b4ff2f49"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jman730--opendroid",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1227,
+  "stars_por_mes": null
+ },
+ "nombre": "opendroid",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c08175cb815344da038f92c80e301929b28d79e8",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "JMAN730/opendroid",
+ "web": "https://jman730.github.io/opendroid/"
+}

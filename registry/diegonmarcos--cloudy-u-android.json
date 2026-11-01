@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-26",
+  "semantica_http": 200,
+  "ultima_release": "latest",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Android Parallel Space / Virtual Engine — data-ownership workspace built on the cloud/ declarative framework",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/diegonmarcos--cloudy-u-android.json",
+  "sha256": "4546cc80b8007a214fe9b4d53f6189683749713b8080e9434f21698c03d04aa7"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "diegonmarcos--cloudy-u-android",
+ "licencia": {
+  "archivo": "licenses",
+  "metodo": "texto-license",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 10,
+  "stars_por_mes": null
+ },
+ "nombre": "cloudy-u-android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5983affbbe706675ff03ff3f1b9e84ba0f49f246",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "diegonmarcos/cloudy-u-android"
+}

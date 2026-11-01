@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-13",
+  "semantica_http": 200,
+  "ultima_release": "v13.6.0.r2551",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Shizuku+ brings Root/ADB/Dhizuku unification, a Plus API suite, OneUI/Android 16+ support, M3E theming, TCP connectivity, improved customization, & more.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/thejaustin--shizukuplus.json",
+  "sha256": "54f09914a15a2e229f07b617dc814caf9ab9a5467ffdeb1e54f800ffa73593b9"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "thejaustin--shizukuplus",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1649,
+  "stars_por_mes": null
+ },
+ "nombre": "ShizukuPlus",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "171cf887e3caca15c9405d22644db5575eee9586",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "thejaustin/ShizukuPlus",
+ "web": "https://github.com/thejaustin/ShizukuPlus/wiki"
+}

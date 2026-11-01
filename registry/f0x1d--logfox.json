@@ -1,0 +1,47 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-03-01",
+  "semantica_http": 200,
+  "ultima_release": "v2.1.10-79",
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "Yet another LogCat reader for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/f0x1d--logfox.json",
+  "sha256": "1db8e763d34b0d7c82069bf0ff5a25f1197251d6173ddba79fc9f59794f22ca3"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "f0x1d--logfox",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1375,
+  "stars_por_mes": null
+ },
+ "nombre": "LogFox",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8d0cf730bc0a875f23477dc9015294bb6e024eb9",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8d0cf730bc0a875f23477dc9015294bb6e024eb9"
+ },
+ "repo": "F0x1d/LogFox"
+}

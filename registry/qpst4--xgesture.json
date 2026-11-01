@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-31",
+  "semantica_http": 200,
+  "ultima_release": "v1.55.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "The ultimate open-source Android gesture & one-hand navigation suite. An all-in-one OHO+ (One Hand Operation+), FooView & Quick Cursor alternative with offline OCR and Shizuku.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/qpst4--xgesture.json",
+  "sha256": "7467c647a8464239d1050e2ec67d6f2e0f1de05629afaf1fabc3a4c749030305"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "qpst4--xgesture",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 258,
+  "stars_por_mes": null
+ },
+ "nombre": "XGesture",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "234771d9195bc00480a426555ade1e73792982b0",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "qpst4/XGesture",
+ "web": "https://github.com/qpst4/XGesture/releases"
+}

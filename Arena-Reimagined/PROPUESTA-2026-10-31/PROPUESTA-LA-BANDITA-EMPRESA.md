@@ -6,13 +6,13 @@
 **Fuente de verdad:** `github.com/Alex17273747576777/la-bandita-archivo`, commit `3f04b89`, clonado y medido hoy
 **Naturaleza del documento:** propuesta de negocio, arquitectura e integración — no un adorno. Cada cifra dice de dónde sale y cuándo se midió; lo que no se pudo medir está firmado como ausencia.
 
-> **Fe de erratas vigente (1 de noviembre de 2026).** Las cifras del censo que aparecían en la primera versión de este documento estaban mal medidas: el censo real tiene **5.684 repositorios**, no 573, y de ellos solo **486 declaran licencia SPDX**. El detalle, la causa del error y lo que se corrigió están en `docs/ERRATA-2026-11-01.md`. Las cifras de abajo ya están corregidas; la tesis no cambió.
+> **Fe de erratas vigente (31 de octubre de 2026).** Las cifras del censo que aparecían en la primera versión de este documento estaban mal medidas: el censo real tiene **5.684 repositorios**, no 573, y de ellos solo **486 declaran licencia SPDX**. El detalle, la causa del error y lo que se corrigió están en `docs/ERRATA-2026-10-31.md`. Las cifras de abajo ya están corregidas; la tesis no cambió. El registro volvió a crecer el mismo día con 1.144 fichas nuevas medidas: ver `docs/DESCUBRIMIENTOS-2026-10-31.md`.
 
 ---
 
 ## 0. Resumen ejecutivo
 
-La Bandita no es un blog. Es un **registro verificado del ecosistema Android libre, escrito en español dominicano, con fecha y evidencia en cada dato**. Hoy tiene 259 publicaciones activas más una archivada, 5.684 repositorios censados con actividad medida y 701 recursos mapeados y un método de verificación propio que ya demostró que sabe detectar sus propios errores.
+La Bandita no es un blog. Es un **registro verificado del ecosistema Android libre, escrito en español dominicano, con fecha y evidencia en cada dato**. Hoy tiene 259 publicaciones activas más una archivada, **6.826 fichas de repositorio medidas** y 701 recursos mapeados y un método de verificación propio que ya demostró que sabe detectar sus propios errores.
 
 Lo que no tiene —y esto es el diagnóstico central— es **estructura de empresa**: no tiene licencia, no tiene integración continua, no tiene contrato de datos, no tiene canal propio, no tiene precio, no tiene un solo ingreso. Todo el valor está concentrado en la cabeza y la disciplina de una persona.
 
@@ -40,20 +40,20 @@ La infraestructura que lo sostiene es un repositorio convertido en sistema: cont
 | Palabras en Markdown | 6.067.493 | conteo de `split()` sobre los 3.005 archivos |
 | Publicaciones WhatsApp | 112 piezas · 367.597 palabras | carpeta `01-PUBLICACIONES/WhatsApp-dominicano-ES` (sin contar el LEEME) |
 | Publicaciones Facebook | 147 piezas · 82.177 palabras | carpeta `01-PUBLICACIONES/Facebook-dominicano-ES` (sin contar el LEEME) |
-| Repositorios censados | 5.684 con actividad medida | `censo-ecosistema-2026-10-15.tsv` leído por columnas (el lector CSV truncaba el archivo) |
+| Repositorios medidos | **6.826 fichas**: 5.682 del censo del 15-oct + 1.144 medidas el 31-oct | censo leído por columnas + `tools/pulso.py` con payload sellado |
 | Vivos (push ≤180 días al corte) | 3.438 (60,5 %) | cálculo de fechas contra 2026-10-15 |
 | Dormidos | 2.246 (39,5 %) | ídem |
 | Estrellas totales censadas | 4.205.993 · mediana 0 | suma y mediana del campo `stars` (la mayoría de los repos censados no tiene estrellas) |
 | Velocidad mediana | 0,0 ★/mes | campo `stars_por_mes` |
 | Recursos mapeados | 701 en 108 piezas | `mapa-recursos-29oct.json` |
 | Herramientas propias | 25 scripts Python | `HABILIDADES/herramientas` + `_herramientas` + `tools/` |
-| Licencias declaradas | 486 SPDX (8,6 %) · 57 NOASSERTION · **5.141 sin licencia declarada (90,4 %)** | `registry/*.json` |
+| Licencias declaradas | 1.306 con SPDX identificado (19,1 %) · 57 NOASSERTION · **5.381 sin licencia declarada (78,8 %)** | `registry/*.json` |
 
 ### 1.2 Los cuatro activos reales
 
 **A. Corpus editorial.** 449.914 palabras publicadas en dos plataformas con voz propia, anatomía fija (semilla, mapa mental, fichas, meme, método, glosario, nota de verificación fechada) y un registro lingüístico que ningún generador reproduce por accidente: el barrio, el mueble, el portero, la casa. Eso es marca, no texto.
 
-**B. Registro verificado.** 5.684 fichas con actividad medida y licencia clasificada por el orden de la casa; 701 recursos mapeados a piezas. Y un hallazgo que vale más que el registro entero: **el 90,4 % de los repositorios censados no declara ninguna licencia**. La materia prima de la línea L1 no hay que buscarla: está en casa. Sin registro no hay informe, no hay API, no hay MCP.
+**B. Registro verificado.** 6.826 fichas con actividad medida y licencia clasificada por el orden de la casa; 701 recursos mapeados a piezas. Y un hallazgo que vale más que el registro entero: **el 78,8 % de los repositorios medidos no declara ninguna licencia** (90,4 % dentro del censo original). La materia prima de la línea L1 no hay que buscarla: está en casa. Sin registro no hay informe, no hay API, no hay MCP.
 
 **C. Método.** Siete habilidades ejecutables (arranque, verificación multinivel, pulso, licencias sin inventar, pieza editorial, guardado con verificación por blobs, formato respirable) más la puerta anti-plantilla y la doctrina de la casa. Este es el activo más difícil de copiar y el único que se puede vender tal cual.
 
@@ -319,7 +319,7 @@ Aquí está el movimiento estratégico que esta propuesta recomienda: **no solo 
 
 **Por qué esto vale dinero y no es un juguete:**
 
-- Convierte 5.684 fichas y 701 recursos en **infraestructura consultable por agentes**, que es el formato en el que se va a consumir información técnica en los próximos años.
+- Convierte 6.826 fichas y 701 recursos en **infraestructura consultable por agentes**, que es el formato en el que se va a consumir información técnica en los próximos años.
 - Obliga a tener el contrato de datos limpio: no se puede servir lo que no está esquematizado. La jugada MCP **fuerza** la deuda técnica buena.
 - Es defendible: nadie más tiene este corpus en español con fecha y evidencia.
 - Es el entregable natural para L3 y para una subvención de infraestructura abierta.
@@ -428,11 +428,11 @@ No se declara sano lo que no se mide. Estos son los números que el dueño debe 
 | `anexos/vara-ci.yml` | plantilla de integración continua con las ocho compuertas |
 | `propuesta-la-bandita.html` | esta propuesta como presentación web autocontenida |
 
-**Ya construido en este mismo repositorio** (1 de noviembre de 2026, después de entregar la propuesta):
+**Ya construido en este mismo repositorio** (31 de octubre de 2026, después de entregar la propuesta):
 
 | Ruta | Qué es |
 |---|---|
-| `registry/` | 5.684 fichas conformes al contrato, más el índice y el informe de calidad del censo |
+| `registry/` | 6.826 fichas conformes al contrato, con payload sellado por ficha, índice y calidad del censo |
 | `schemas/ficha.schema.json` | el contrato de datos v1 |
 | `tools/vara.py` | las ocho compuertas en un comando, con informe que exige «fallos: NINGUNO» |
 | `tools/autoprueba.py` | prueba que cada compuerta detecta su violación sintética (7/7) |
@@ -441,7 +441,8 @@ No se declara sano lo que no se mide. Estos son los números que el dueño debe 
 | `tools/duplicados.py` · `tools/idioma_mojibake.py` | medidores de duplicación y de salud de codificación |
 | `mcp-labandita-registro/` | el servidor MCP propio, seis herramientas, con prueba de extremo a extremo |
 | `.github/workflows/vara.yml` | la vara activada en integración continua |
-| `docs/` | errata, política de duplicados y matriz de pendientes |
+| `tools/pulso.py` · `tools/descubrir.py` · `tools/fecha_casa.py` | medición con payload sellado, descubrimiento cruzado y la fecha de la casa |
+| `docs/` | errata, descubrimientos, políticas y matriz de pendientes |
 
 **Lo que este documento no es.** No es una promesa de ingresos: los números de la sección 4 son supuestos declarados. No es un plan aprobado: es una propuesta con decisiones abiertas. No es una medición de mercado dominicano: la única cifra nacional citada viene de la ONE a través de su difusión pública de julio de 2026, y el resto del contexto competitivo queda pendiente de medición primaria. Y no sustituye al dueño en la decisión editorial, que es la única cosa de este proyecto que no se delega ni se automatiza.
 

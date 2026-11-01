@@ -1,0 +1,47 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-18",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.16",
+  "ultimo_push": "2026-10-19"
+ },
+ "descripcion": "Install any apk on the device you own. ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sam1am--anyapk.json",
+  "sha256": "807dad17877616f9ad530bb09a04c7ea53ce3dad195d74e59bc505875c3c1ec3"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "sam1am--anyapk",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2938,
+  "stars_por_mes": null
+ },
+ "nombre": "anyapk",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a88676659ebcf38066d88fb94281547b47a1528f",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a88676659ebcf38066d88fb94281547b47a1528f"
+ },
+ "repo": "sam1am/anyapk"
+}

@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-30"
+ },
+ "descripcion": "Advanced system monitor and process killer for Android, optimized for desktop mode.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/troikoss--pensum.json",
+  "sha256": "197c77fa94a9b9ae17940c7ad47f1aa59e1f71f11a704e4648bc56ca89ce0057"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "troikoss--pensum",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 228,
+  "stars_por_mes": null
+ },
+ "nombre": "Pensum",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "troikoss/Pensum"
+}

@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "LunaMacro — Local-first Android automation assistant: voice wake-up, offline ASR & vision (Qwen2-VL), Shizuku injection, game automation.    宏月 LunaMacro —— Android 全能自动化助手：本地语音唤醒 · 离线视觉识别 · Shizuku 注入 · 游戏托管",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/2581414411-blip--lunamacro.json",
+  "sha256": "af04f2000d4226b2aee0f64930298fd63a67bd2a4440b02f583ae874656aaf6d"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "2581414411-blip--lunamacro",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "LunaMacro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "2581414411-blip/LunaMacro"
+}

@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "PriceLens — 极简全网比价助手 | Minimalist all-site price tracker. Android 无障碍增强版 + Windows Electron 便携版 | Free forever, local-first, MIT. 支持京东/淘宝/拼多多/B站/什么值得买/慢慢买/咕咚/Keep 等平台比价、盯价、找券",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wuliao00--pricelens.json",
+  "sha256": "c7d33c29f1305b8779f0f3a26a16cd0d1990f1d0340c312572c157c53457ae79"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wuliao00--pricelens",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 14,
+  "stars_por_mes": null
+ },
+ "nombre": "PriceLens",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "wuliao00/PriceLens",
+ "web": "https://wuliao00.github.io/PriceLens/"
+}

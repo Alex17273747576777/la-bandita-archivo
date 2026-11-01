@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-09"
+ },
+ "descripcion": "An Android process observatory that never fabricates a reading — live CPU, memory, processes, threads, wake locks and battery, with every restricted metric labelled instead of guessed. Kotlin, Compose, no network permission.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dreamucxe--processlens.json",
+  "sha256": "bccd3ad80829058999a74aa2cbde24e00a3e6a2f6f38178304860c64688b5a58"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dreamucxe--processlens",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 24,
+  "stars_por_mes": null
+ },
+ "nombre": "ProcessLens",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "Dreamucxe/ProcessLens",
+ "web": "https://github.com/Dreamucxe/ProcessLens/releases/latest"
+}

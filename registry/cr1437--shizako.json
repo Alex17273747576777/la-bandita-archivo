@@ -1,20 +1,20 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-31",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultima_release": "zako3.17",
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "猫耳看板娘的系统权限助手：不 Root 也能用特权 API，兼容 Shizuku-API 生态（官方 SDK 应用零改动直连）| A catgirl-mascot privileged-API ass",
+ "descripcion": "猫耳看板娘的系统权限助手：不 Root 也能用特权 API，兼容 Shizuku-API 生态（官方 SDK 应用零改动直连）| A catgirl-mascot privileged-API assistant for Android. Shizuku-API compatible — apps built on the official SDK connect unchanged. Apache-2.0",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#cr1437/Shizako",
-  "sha256": "6e3629f4e6b82d2cb7052cae8e949177621461fcea787ac44ea92b595faa9bbe"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/cr1437--shizako.json",
+  "sha256": "2082151578acd2cacd4de13b845b3563921b33fe7a8e864404cf68b8ace0ea8f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 67,
-  "stars_por_mes": 33.9
+  "stars": 93,
+  "stars_por_mes": null
  },
  "nombre": "Shizako",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ba402f5879585da149c5bcd867d4cc1c32c45cd9",
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "cr1437/Shizako"
+ "repo": "cr1437/Shizako",
+ "web": "https://cr1437.github.io/Shizako/"
 }

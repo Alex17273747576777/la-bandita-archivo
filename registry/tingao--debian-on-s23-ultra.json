@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-14"
+ },
+ "descripcion": "A Samsung Galaxy S23 Ultra running Debian 13 as a server. The bootloader is locked, so an app re-establishes root after every reboot: Shizuku, CVE-2026-43499, KernelSU Next late-load, then a Debian chroot with sshd. One APK, quickstart, chroot bootstrap, and notes on everything that did not work.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tingao--debian-on-s23-ultra.json",
+  "sha256": "bc6fd3231322dbe17e9c7ccbc5aab55301ddee5a7350e0bffc70eadbff89ce6c"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tingao--debian-on-s23-ultra",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "debian-on-s23-ultra",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "tingao/debian-on-s23-ultra"
+}

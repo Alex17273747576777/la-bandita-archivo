@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-16"
+ },
+ "descripcion": "查看 Android 应用的实时内存占用，记录快照，并对比不同时间点的内存变化。 / Monitor Android app memory, capture snapshots, and compare memory usage across points in time.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ryensx--memorysnapshot.json",
+  "sha256": "9b2d03936bb4c4f0262262fc95471bf5cf96fca7c3fe43057a8b339d1b8c9fc8"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ryensx--memorysnapshot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9,
+  "stars_por_mes": null
+ },
+ "nombre": "MemorySnapshot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "RyensX/MemorySnapshot"
+}

@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "Android SDK and MCP server: 157 tools for calendar, contacts, SMS, files, camera, sensors, notifications and UI automation, for on-device LLMs and MCP clients such as Claude Code and Cursor.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/stixez--droid-mcp.json",
+  "sha256": "df5b54b7f0567c2ab8a7a82f7fac3541a231ecac49027293499ac2a18d181976"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "stixez--droid-mcp",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 40,
+  "stars_por_mes": null
+ },
+ "nombre": "droid-mcp",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "stixez/droid-mcp",
+ "web": "https://stixez.github.io/droid-mcp/"
+}

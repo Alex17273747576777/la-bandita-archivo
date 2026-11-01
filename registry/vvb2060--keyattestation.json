@@ -1,0 +1,47 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2025-01-16",
+  "semantica_http": 200,
+  "ultima_release": "v1.8.4",
+  "ultimo_push": "2025-09-30"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/vvb2060--keyattestation.json",
+  "sha256": "e5e95600e99b5445af6450ecbea53a63f7ed7cd65245872e57b83f55a22b908b"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "vvb2060--keyattestation",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2180,
+  "stars_por_mes": null
+ },
+ "nombre": "KeyAttestation",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b223a9be86cb2a747625d8e47f3456646d55bd7a",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b223a9be86cb2a747625d8e47f3456646d55bd7a"
+ },
+ "repo": "vvb2060/KeyAttestation"
+}

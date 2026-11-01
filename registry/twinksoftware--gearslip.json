@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-25",
+  "semantica_http": 200,
+  "ultima_release": "v0.3.12-alpha",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "An Android Auto alternative built for everyone",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/twinksoftware--gearslip.json",
+  "sha256": "4fe3a5294700a0fa53e747c9b1ec557c117ace7a8dee161cd2698067030f6e2d"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "twinksoftware--gearslip",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 225,
+  "stars_por_mes": null
+ },
+ "nombre": "Gearslip",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a00f5c489611f4a3a2e2a07d355cb36b298542a6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "twinksoftware/Gearslip"
+}

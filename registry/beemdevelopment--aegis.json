@@ -1,0 +1,48 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-06",
+  "semantica_http": 200,
+  "ultima_release": "v3.4.3",
+  "ultimo_push": "2026-09-06"
+ },
+ "descripcion": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/beemdevelopment--aegis.json",
+  "sha256": "b9ac3e1d55c3f6c1a02ec2caf63e357c1d0325dac1169c3fd99428bbafeabc97"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "beemdevelopment--aegis",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 13430,
+  "stars_por_mes": null
+ },
+ "nombre": "Aegis",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d6f4e5925a97e4e91593f1542085eae03432a759",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d6f4e5925a97e4e91593f1542085eae03432a759"
+ },
+ "repo": "beemdevelopment/Aegis",
+ "web": "https://getaegis.app"
+}

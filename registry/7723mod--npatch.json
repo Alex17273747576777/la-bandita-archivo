@@ -1,0 +1,48 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-12",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.9",
+  "ultimo_push": "2026-10-18"
+ },
+ "descripcion": "NPatch是一个复刻自LSPatch，以LSPosed为基础的免root的Xposed框架",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/7723mod--npatch.json",
+  "sha256": "7463cf8dc3fb85ebf0aa4b092dc8aa68fa7e0084c7f79db79aa3c9d7e68283f6"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "7723mod--npatch",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2654,
+  "stars_por_mes": null
+ },
+ "nombre": "NPatch",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e6a1fd21c15e6def1f55ded69df36dbdfbb440d0",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e6a1fd21c15e6def1f55ded69df36dbdfbb440d0"
+ },
+ "repo": "7723mod/NPatch",
+ "web": "https://t.me/NPatch"
+}

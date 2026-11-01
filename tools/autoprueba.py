@@ -64,6 +64,12 @@ def caso(nombre):
 def _(raiz): editar_json(raiz / "registry/ficha.json", lambda d: d.pop("medido_en"))
 
 
+@caso("G1 esquema: SWHID sin forma canónica")
+def _(raiz):
+    editar_json(raiz / "registry/ficha.json",
+                lambda d: d["procedencia"].update(swhid="8d0cf730bc0a875f23477dc9015294bb6e024eb9"))
+
+
 @caso("G2 frescura: medición de hace 400 días")
 def _(raiz): editar_json(raiz / "registry/ficha.json", lambda d: d.update(medido_en="2025-01-01"))
 

@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-22"
+ },
+ "descripcion": "GFX Tool: AI Lag Fix 120FPS is an Android game optimizer built with Java, Android SDK, Java NIO, DocumentFile, DocumentsContract, and Shizuku API. It uses AI-assisted settings selection, device-specific optimization, and OpenGL/Vulkan extensions to customize graphics, enable supported 120 FPS, and improve gaming smoothness across Android 6–16.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/farhxd--gfx-tool.json",
+  "sha256": "c84ffd54430dbaf78b7f8ca8fd97c004218234acddaaddd81ae06f4c45204bdb"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "farhxd--gfx-tool",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "GFX-TOOL",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "farhxd/GFX-TOOL"
+}

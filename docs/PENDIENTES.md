@@ -1,4 +1,4 @@
-# MATRIZ DE PENDIENTES · estado al 1 de noviembre de 2026
+# MATRIZ DE PENDIENTES · estado al 31 de octubre de 2026
 
 Cada pendiente con su estado real: **hecho** (existe, corre y está probado), **medido** (hay cifra
 publicada, no decisión), **bloqueado por el dueño** (no lo puedo decidir yo) o **pendiente** (falta
@@ -45,8 +45,20 @@ trabajo técnico que sí puedo hacer).
 4. **Línea de arranque:** L1 (B2B) o L2 (suscripción).
 5. **Política de patrocinio.**
 6. **Publicar `labandita-registro` en abierto** (el servidor ya existe y funciona).
-7. **NLnet:** la ventana cerró el 3 de noviembre de 2026; su política exige propuesta escrita por
-   humanos. Queda para la siguiente convocatoria, con este material como base y la voz del dueño.
+7. **NLnet:** la convocatoria **cierra el 3 de noviembre de 2026 a las 12:00 CET** — quedan tres días.
+   Su política exige propuesta escrita por humanos y, si se usó IA, los registros de los prompts.
+   La decisión de presentarla es del dueño; este material sirve de base, no de sustituto de su voz.
+
+## Cerrado en la jornada del 31 de octubre
+
+| Pendiente | Resultado |
+|---|---|
+| Registro ampliado por descubrimiento | **+1.142 fichas nuevas** medidas hoy (total 6.826) desde una lista curada ajena |
+| Procedencia inmutable (SWHID) | **32 fichas** con revisión archivada en Software Heritage y citable |
+| Licencias por texto | **84 fichas** resueltas por texto (README o archivo) donde el endpoint no concluía |
+| Frescura del registro | el corte ya no es del 15-oct: 1.144 fichas medidas hoy |
+| Fecha de la casa | corregida a `America/Santo_Domingo` en las seis herramientas; el 1 de noviembre de UTC no es el 31 de octubre del barrio |
+| Plazo de NLnet | corregido: **no cerró**, vence el 3 de noviembre de 2026 a las 12:00 CET |
 
 ## Deuda declarada y congelada
 

@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-21",
+  "semantica_http": 200,
+  "ultima_release": "build107.3.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a custom theme engine, developed with purely custom UI design and reproducible build.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hamza417--inure.json",
+  "sha256": "6a184a03b600ebd0857b75a8d9054e8ebea8a2c5189c5083d14d42528d0b1ac8"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hamza417--inure",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1984,
+  "stars_por_mes": null
+ },
+ "nombre": "Inure",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d88dff24a9520f3f9a43e71cc5ad3cf916f67ac0",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "Hamza417/Inure"
+}

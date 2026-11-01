@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2023-09-17"
+ },
+ "descripcion": "Return of the manufacturer-deleted SensorsOff tile. If your phone manufacturer absolutely wants to spy on you (Hi Xiaomi :)) and you can't do anything about it, just use this application. Requires Shizuku!",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/linersrt--sensorsoff.json",
+  "sha256": "b39c02c3dd022d344d3593e42053a2867937916f59b98dd6fcb4c68a53909d5d"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "linersrt--sensorsoff",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 108,
+  "stars_por_mes": null
+ },
+ "nombre": "SensorsOff",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "LinerSRT/SensorsOff"
+}

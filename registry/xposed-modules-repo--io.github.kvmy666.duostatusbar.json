@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-10"
+ },
+ "descripcion": " Duo Status Bar",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xposed-modules-repo--io.github.kvmy666.duostatusbar.json",
+  "sha256": "f2afdcd4490a152283c584548457fd88fe46ecd1afc19de17d6dd9ea8ab403aa"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xposed-modules-repo--io.github.kvmy666.duostatusbar",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 27,
+  "stars_por_mes": null
+ },
+ "nombre": "io.github.kvmy666.duostatusbar",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "Xposed-Modules-Repo/io.github.kvmy666.duostatusbar"
+}

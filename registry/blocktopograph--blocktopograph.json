@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-01-11"
+ },
+ "descripcion": "A world editor for Minecraft, cross-platform.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/blocktopograph--blocktopograph.json",
+  "sha256": "84d260960b4250fb93614ee6568b950bc5812c51278e1bbc900209630628a4cd"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "blocktopograph--blocktopograph",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 182,
+  "stars_por_mes": null
+ },
+ "nombre": "Blocktopograph",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8c01b0b45d20ce4870ee5ef5736560f810ff6915",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "Blocktopograph/Blocktopograph"
+}

@@ -1,6 +1,6 @@
 # POLÍTICA MCP · lista blanca, permisos mínimos, solo lectura
 
-Decidido el 1 de noviembre de 2026, antes de conectar nada. Se aplica a todo servidor MCP que use
+Decidido el 31 de octubre de 2026, antes de conectar nada. Se aplica a todo servidor MCP que use
 esta casa, propio o ajeno.
 
 ## Lista blanca

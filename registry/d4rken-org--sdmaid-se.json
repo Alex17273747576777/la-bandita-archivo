@@ -1,0 +1,48 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-19",
+  "semantica_http": 200,
+  "ultima_release": "v2.2.2-rc0",
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "SD Maid 2/SE is Android's most thorough cleaning tool.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/d4rken-org--sdmaid-se.json",
+  "sha256": "eeb4c8b498e157661b9d03171fbcf63c76cf4d0c1815fadeb85a9442af4e821e"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "d4rken-org--sdmaid-se",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7942,
+  "stars_por_mes": null
+ },
+ "nombre": "sdmaid-se",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "95a673f4c1c5c746a622aa842c066782475c8577",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:95a673f4c1c5c746a622aa842c066782475c8577"
+ },
+ "repo": "d4rken-org/sdmaid-se",
+ "web": "https://play.google.com/store/apps/details?id=eu.darken.sdmse"
+}

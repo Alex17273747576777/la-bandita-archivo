@@ -1,0 +1,47 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-04",
+  "semantica_http": 200,
+  "ultima_release": "4.2.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/t8rin--imagetoolbox.json",
+  "sha256": "5209736aba66ea43c45ef2227b9148d2a44dbac139603c78829a869f993086f0"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "t8rin--imagetoolbox",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 15277,
+  "stars_por_mes": null
+ },
+ "nombre": "ImageToolbox",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ff469c192469f8ac165960d2a79f0be8f5d73fb0",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ff469c192469f8ac165960d2a79f0be8f5d73fb0"
+ },
+ "repo": "T8RIN/ImageToolbox"
+}

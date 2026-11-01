@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-13"
+ },
+ "descripcion": "Use an Android phone as a wireless microphone for any Linux PC (PipeWire). Phone app with one-time pairing, no cable or USB debugging, reconnects by itself after reboots. GNOME Quick Settings tile.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sharjeelmazhar--phone-mic.json",
+  "sha256": "dab8ec1c6ee17548eb1598ee8ad5ebf10b57f4505f649eaf7dd8692288174539"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sharjeelmazhar--phone-mic",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "phone-mic",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "sharjeelmazhar/phone-mic"
+}

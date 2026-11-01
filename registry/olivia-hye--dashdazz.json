@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-20"
+ },
+ "descripcion": "Hardware camera-ring light controller for Xiaomi HyperOS devices (POCO X8 Pro Max / Dash). Drives the RGB LED ring around the rear camera - smooth animations, music reaction, and notification alerts.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/olivia-hye--dashdazz.json",
+  "sha256": "086aef4493fb47706ebc7eca6805f8bdd0bead276089e64fb8c67dc7a6820e40"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "olivia-hye--dashdazz",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": null
+ },
+ "nombre": "DashDazz",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "olivia-hye/DashDazz",
+ "web": "https://olivia-hye.github.io/DashDazz/"
+}

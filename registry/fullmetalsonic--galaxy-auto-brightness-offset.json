@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-27"
+ },
+ "descripcion": "Samsung Galaxy adaptive brightness offset for screens that feel too dark or bright, including privacy screen protectors | 갤럭시 자동 밝기 보정",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fullmetalsonic--galaxy-auto-brightness-offset.json",
+  "sha256": "fe09ce214d04de329ee2796248fab0898600db2842722ba5092e8cf0770a433e"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "fullmetalsonic--galaxy-auto-brightness-offset",
+ "licencia": {
+  "archivo": "README",
+  "metodo": "texto-license",
+  "spdx": "mIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "galaxy-auto-brightness-offset",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "fullmetalsonic/galaxy-auto-brightness-offset"
+}

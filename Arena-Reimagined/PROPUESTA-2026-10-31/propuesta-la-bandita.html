@@ -300,15 +300,15 @@ tbody td:first-child{color:var(--texto);font-weight:560}
   <p class="eyebrow">Propuesta ejecutiva · corte medido el 31 de octubre de 2026</p>
   <h1>La Bandita<br><span class="grad">de archivo verificado<br>a empresa de verificación</span></h1>
   <p class="lead">El repositorio ya tiene lo que casi nadie tiene: 261 publicaciones con fecha,
-  un registro de 5.684 repositorios medidos y un método que detecta sus propios errores.
+  un registro de 6.826 repositorios medidos y un método que detecta sus propios errores.
   Lo que no tiene es empresa. Esta es la propuesta para construirla sin traicionar el método.</p>
   <div class="kpis">
     <div class="kpi"><b>259</b><span>publicaciones vivas</span></div>
-    <div class="kpi"><b>5.684</b><span>repos medidos</span></div>
+    <div class="kpi"><b>6.826</b><span>repos medidos</span></div>
     <div class="kpi"><b>701</b><span>recursos mapeados</span></div>
     <div class="kpi"><b>53.886</b><span>servidores MCP</span></div>
     <div class="kpi"><b>9</b><span>compuertas</span></div>
-    <div class="kpi"><b>90,4 %</b><span>sin licencia declarada</span></div>
+    <div class="kpi"><b>78,8 %</b><span>sin licencia declarada</span></div>
   </div>
   <div class="aviso">
     <svg class="ico" viewBox="0 0 24 24"><path d="M12 3 3 20h18L12 3zm0 5v6m0 3v.5"/></svg>
@@ -321,7 +321,7 @@ tbody td:first-child{color:var(--texto);font-weight:560}
   </nav>
 </header>
 
-    <section class="tarjeta" id="s-0"><h2><span class="num">00</span>Resumen ejecutivo</h2><p>La Bandita no es un blog. Es un <strong>registro verificado del ecosistema Android libre, escrito en español dominicano, con fecha y evidencia en cada dato</strong>. Hoy tiene 259 publicaciones activas más una archivada, 5.684 repositorios censados con actividad medida y 701 recursos mapeados y un método de verificación propio que ya demostró que sabe detectar sus propios errores.</p>
+    <section class="tarjeta" id="s-0"><h2><span class="num">00</span>Resumen ejecutivo</h2><p>La Bandita no es un blog. Es un <strong>registro verificado del ecosistema Android libre, escrito en español dominicano, con fecha y evidencia en cada dato</strong>. Hoy tiene 259 publicaciones activas más una archivada, <strong>6.826 fichas de repositorio medidas</strong> y 701 recursos mapeados y un método de verificación propio que ya demostró que sabe detectar sus propios errores.</p>
 <p>Lo que no tiene —y esto es el diagnóstico central— es <strong>estructura de empresa</strong>: no tiene licencia, no tiene integración continua, no tiene contrato de datos, no tiene canal propio, no tiene precio, no tiene un solo ingreso. Todo el valor está concentrado en la cabeza y la disciplina de una persona.</p>
 <p>La propuesta es convertir ese método en tres cosas vendibles y una infraestructura:</p>
 <ol>
@@ -373,9 +373,9 @@ tbody td:first-child{color:var(--texto);font-weight:560}
   <td>carpeta <code>01-PUBLICACIONES/Facebook-dominicano-ES</code> (sin contar el LEEME)</td>
 </tr>
 <tr>
-  <td>Repositorios censados</td>
-  <td>5.684 con actividad medida</td>
-  <td><code>censo-ecosistema-2026-10-15.tsv</code> leído por columnas (el lector CSV truncaba el archivo)</td>
+  <td>Repositorios medidos</td>
+  <td><strong>6.826 fichas</strong>: 5.682 del censo del 15-oct + 1.144 medidas el 31-oct</td>
+  <td>censo leído por columnas + <code>tools/pulso.py</code> con payload sellado</td>
 </tr>
 <tr>
   <td>Vivos (push ≤180 días al corte)</td>
@@ -409,14 +409,14 @@ tbody td:first-child{color:var(--texto);font-weight:560}
 </tr>
 <tr>
   <td>Licencias declaradas</td>
-  <td>486 SPDX (8,6 %) · 57 NOASSERTION · <strong>5.141 sin licencia declarada (90,4 %)</strong></td>
+  <td>1.306 con SPDX identificado (19,1 %) · 57 NOASSERTION · <strong>5.381 sin licencia declarada (78,8 %)</strong></td>
   <td><code>registry/*.json</code></td>
 </tr>
 </tbody>
 </table></div>
 <h3>1.2 Los cuatro activos reales</h3>
 <p><strong>A. Corpus editorial.</strong> 449.914 palabras publicadas en dos plataformas con voz propia, anatomía fija (semilla, mapa mental, fichas, meme, método, glosario, nota de verificación fechada) y un registro lingüístico que ningún generador reproduce por accidente: el barrio, el mueble, el portero, la casa. Eso es marca, no texto.</p>
-<p><strong>B. Registro verificado.</strong> 5.684 fichas con actividad medida y licencia clasificada por el orden de la casa; 701 recursos mapeados a piezas. Y un hallazgo que vale más que el registro entero: <strong>el 90,4 % de los repositorios censados no declara ninguna licencia</strong>. La materia prima de la línea L1 no hay que buscarla: está en casa. Sin registro no hay informe, no hay API, no hay MCP.</p>
+<p><strong>B. Registro verificado.</strong> 6.826 fichas con actividad medida y licencia clasificada por el orden de la casa; 701 recursos mapeados a piezas. Y un hallazgo que vale más que el registro entero: <strong>el 78,8 % de los repositorios medidos no declara ninguna licencia</strong> (90,4 % dentro del censo original). La materia prima de la línea L1 no hay que buscarla: está en casa. Sin registro no hay informe, no hay API, no hay MCP.</p>
 <p><strong>C. Método.</strong> Siete habilidades ejecutables (arranque, verificación multinivel, pulso, licencias sin inventar, pieza editorial, guardado con verificación por blobs, formato respirable) más la puerta anti-plantilla y la doctrina de la casa. Este es el activo más difícil de copiar y el único que se puede vender tal cual.</p>
 <p><strong>D. Herramientas.</strong> <code>arranque.py</code>, <code>chequeo-niveles.py</code>, <code>pulso.py</code>, <code>vara-simulada.py</code>, <code>guardar.py</code>, <code>aprender.py</code>, las cinco lupas, la forja del catálogo. Funcionan, están probadas en producción y son pequeñas (22 a 489 líneas): se pueden endurecer y publicar en semanas, no en años.</p>
 <h3>1.3 Las siete deudas estructurales (con nombre y consecuencia)</h3>
@@ -844,7 +844,7 @@ tbody td:first-child{color:var(--texto);font-weight:560}
 </table></div>
 <p><strong>Por qué esto vale dinero y no es un juguete:</strong></p>
 <ul>
-<li>Convierte 5.684 fichas y 701 recursos en <strong>infraestructura consultable por agentes</strong>, que es el formato en el que se va a consumir información técnica en los próximos años.</li>
+<li>Convierte 6.826 fichas y 701 recursos en <strong>infraestructura consultable por agentes</strong>, que es el formato en el que se va a consumir información técnica en los próximos años.</li>
 <li>Obliga a tener el contrato de datos limpio: no se puede servir lo que no está esquematizado. La jugada MCP <strong>fuerza</strong> la deuda técnica buena.</li>
 <li>Es defendible: nadie más tiene este corpus en español con fecha y evidencia.</li>
 <li>Es el entregable natural para L3 y para una subvención de infraestructura abierta.</li>
@@ -1080,7 +1080,7 @@ Atestaciones públicas verificables por terceros · endpoint remoto solo si hay 
 </tr>
 </tbody>
 </table></div>
-<p><strong>Ya construido en este mismo repositorio</strong> (1 de noviembre de 2026, después de entregar la propuesta):</p>
+<p><strong>Ya construido en este mismo repositorio</strong> (31 de octubre de 2026, después de entregar la propuesta):</p>
 <div class="tabla-wrap"><table>
 <thead>
 <tr>
@@ -1091,7 +1091,7 @@ Atestaciones públicas verificables por terceros · endpoint remoto solo si hay 
 <tbody>
 <tr>
   <td><code>registry/</code></td>
-  <td>5.684 fichas conformes al contrato, más el índice y el informe de calidad del censo</td>
+  <td>6.826 fichas conformes al contrato, con payload sellado por ficha, índice y calidad del censo</td>
 </tr>
 <tr>
   <td><code>schemas/ficha.schema.json</code></td>
@@ -1126,8 +1126,12 @@ Atestaciones públicas verificables por terceros · endpoint remoto solo si hay 
   <td>la vara activada en integración continua</td>
 </tr>
 <tr>
+  <td><code>tools/pulso.py</code> · <code>tools/descubrir.py</code> · <code>tools/fecha_casa.py</code></td>
+  <td>medición con payload sellado, descubrimiento cruzado y la fecha de la casa</td>
+</tr>
+<tr>
   <td><code>docs/</code></td>
-  <td>errata, política de duplicados y matriz de pendientes</td>
+  <td>errata, descubrimientos, políticas y matriz de pendientes</td>
 </tr>
 </tbody>
 </table></div>

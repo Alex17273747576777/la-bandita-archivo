@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-29",
+  "semantica_http": 200,
+  "ultima_release": "V5.6.4",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "一个极简体积（<12MB）的 Android 原生 Python IDE。底层 C++ 自绘渲染，内置完整 CPython 3.12 环境与 C 扩展编译能力。支持智能代码折叠、正则替换、代码透镜（CodeLens）等现代编辑器特性。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/cyx-pyeditor--eternal-garden-py.json",
+  "sha256": "749d820e9abb5ee5f0b7f2266a9c91cdf1e8b67f3732a917012107d1ca843700"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "cyx-pyeditor--eternal-garden-py",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "Eternal-Garden-Py",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5e0e3ae66c56d43bf7f0642ec3b2a3276cbe004b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "CYX-PyEditor/Eternal-Garden-Py"
+}

@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-25",
+  "semantica_http": 200,
+  "ultima_release": "v1.8.1",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "安卓我的世界JAVA版服务器启动器",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wludy1012--rolithaxlauncher.json",
+  "sha256": "42e5505f859c6f6ec183a3a1edc686192d34ce892cc47e4ace0ed1494b122ac9"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wludy1012--rolithaxlauncher",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "RolithaxLauncher",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5834b72df1609423600a550223df929132b1ac47",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "WLudy1012/RolithaxLauncher"
+}

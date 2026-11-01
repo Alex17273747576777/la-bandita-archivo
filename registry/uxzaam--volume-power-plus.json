@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-25",
+  "semantica_http": 200,
+  "ultima_release": "VolumePowerPlus-v4",
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "Android app that remaps Volume Up/Down to act as the Power button. For phones with a broken or unresponsive power key.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/uxzaam--volume-power-plus.json",
+  "sha256": "610c2772bde12ce894b85c25a438904a28b3cc0b87eedbaf3cf3a999842d3156"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "uxzaam--volume-power-plus",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "Volume-Power-Plus",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f8a08afbfb7d51d83ee31a4378ffb45170681d07",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "Uxzaam/Volume-Power-Plus"
+}

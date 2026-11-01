@@ -1,0 +1,48 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-23",
+  "semantica_http": 200,
+  "ultima_release": "v1.2",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "A rootless Xposed framework that embeds Vector into an app by patching its APK — no root, no Zygisk.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jingmatrix--lspatch.json",
+  "sha256": "0546d73db4ddf70a1072f26e03ad3c8097faf8fe632add076505349d49c13653"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "jingmatrix--lspatch",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4289,
+  "stars_por_mes": null
+ },
+ "nombre": "LSPatch",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4d573639e4192c33afb3f1b76b16fc248dbeb830",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4d573639e4192c33afb3f1b76b16fc248dbeb830"
+ },
+ "repo": "JingMatrix/LSPatch",
+ "web": "https://github.com/JingMatrix/Vector"
+}

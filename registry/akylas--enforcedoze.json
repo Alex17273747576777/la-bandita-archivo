@@ -1,0 +1,46 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-04-18",
+  "semantica_http": 200,
+  "ultima_release": "v1.10.2/86",
+  "ultimo_push": "2026-07-26"
+ },
+ "descripcion": "Enable Doze mode immediately after screen off and turn off motion sensing to get best battery life",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/akylas--enforcedoze.json",
+  "sha256": "6b98f5813316d994bf4963585022dfe50ea84073a549ba92115378bb43a598e1"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "akylas--enforcedoze",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 366,
+  "stars_por_mes": null
+ },
+ "nombre": "EnforceDoze",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a5b7c4acc7a9d8b9f48b906be66c4792dd2cd77b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "Akylas/EnforceDoze",
+ "web": "https://www.akylas.fr/EnforceDoze/"
+}

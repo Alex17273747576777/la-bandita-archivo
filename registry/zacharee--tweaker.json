@@ -1,0 +1,47 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-02-17",
+  "semantica_http": 200,
+  "ultima_release": "362",
+  "ultimo_push": "2026-10-21"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zacharee--tweaker.json",
+  "sha256": "abdb14eee133c0130e5ef7a47b3934e143b9031a2bab42b95d8f76aeceada1cd"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "zacharee--tweaker",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1760,
+  "stars_por_mes": null
+ },
+ "nombre": "Tweaker",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fedf95d3960636a83bb91ff833da381c276b2ef5",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:fedf95d3960636a83bb91ff833da381c276b2ef5"
+ },
+ "repo": "zacharee/Tweaker"
+}

@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-09",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.5",
+  "ultimo_push": "2026-09-24"
+ },
+ "descripcion": "Android app that monitors and automatically restarts background services, accessibility services, and notification listeners killed by the system, using Shizuku for privileged access.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sklndev--service-keeper.json",
+  "sha256": "99b210cdfde6ea31f9178677bbf88ea9b9614d798e4c2a558a6e6f695d1fa669"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sklndev--service-keeper",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 42,
+  "stars_por_mes": null
+ },
+ "nombre": "Service-Keeper",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "356b3d987a8b4ff1a6e7183fbb8313b0a653d105",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "sklndev/Service-Keeper"
+}

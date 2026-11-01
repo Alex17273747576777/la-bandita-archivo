@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-17",
+  "semantica_http": 200,
+  "ultima_release": "tiedun",
+  "ultimo_push": "2026-10-17"
+ },
+ "descripcion": "Android 应急逃生工具：被锁机病毒/无障碍恶意锁屏控制时，物理按键触发全屏拦截，经 Shizuku/root 删除锁机组件GPL-3.0",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lilining308-prog--tiedun.json",
+  "sha256": "a3f727b892b7a931d526802c229a76d547a0fa2ed96f4b22aaf1bd876f88f085"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lilining308-prog--tiedun",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "tiedun",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3ff6e945609ac25d1e97f5d6c6cb78f019817938",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "lilining308-prog/tiedun"
+}

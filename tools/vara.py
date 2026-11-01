@@ -17,6 +17,9 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from fecha_casa import hoy as fecha_casa_hoy, larga as fecha_casa_larga  # noqa: E402
+
 RAIZ = Path(__file__).resolve().parents[1]
 PUBLICACIONES = RAIZ / "Arena-Reimagined/01-PUBLICACIONES"
 REGISTRO = RAIZ / "registry"
@@ -85,7 +88,7 @@ def g1_esquema(datos: list[dict]) -> tuple[list[str], str]:
 
 
 def g2_frescura(datos: list[dict]) -> tuple[list[str], str]:
-    hoy = date.today()
+    hoy = date.fromisoformat(fecha_casa_hoy())
     edades = []
     fallos = []
     for d in datos:
@@ -116,8 +119,19 @@ def g3_licencia(datos: list[dict]) -> tuple[list[str], str]:
         metodos[lic.get("metodo")] += 1
         if lic.get("metodo") not in orden:
             fallos.append(f"{d.get('id', '?')}: método fuera del orden de la casa")
-        if lic.get("spdx") is None and lic.get("metodo") != "ausencia-firmada":
-            fallos.append(f"{d.get('id', '?')}: sin SPDX y sin ausencia firmada")
+        # Sin SPDX se admite en dos casos, y solo dos:
+        #   · ausencia-firmada: no hay archivo de licencia en el árbol (se firma la ausencia);
+        #   · texto-license con archivo identificado: hay licencia escrita que el endpoint no
+        #     supo clasificar (p. ej. LICENSE-APACHE-2.0.txt o una carpeta `licenses`). No es
+        #     una ausencia y no se puede declarar como tal; se cita el archivo y queda pendiente
+        #     de lectura humana, que es lo honesto.
+        if lic.get("spdx") is None:
+            if lic.get("metodo") == "ausencia-firmada":
+                pass
+            elif lic.get("metodo") == "texto-license" and lic.get("archivo"):
+                pass
+            else:
+                fallos.append(f"{d.get('id', '?')}: sin SPDX y sin ausencia firmada")
         if not lic.get("verificado_en"):
             fallos.append(f"{d.get('id', '?')}: licencia sin fecha de verificación")
     resumen = " · ".join(f"{k} {v}" for k, v in metodos.most_common())
@@ -279,7 +293,7 @@ def main() -> int:
         print(json.dumps({"compuertas": informe, "fallos_totales": total_fallos}, ensure_ascii=False, indent=1))
     else:
         print("LA VARA · informe de compuertas")
-        print(f"fecha de corrida: {date.today().isoformat()} · registro: {len(datos)} fichas · piezas: {len(ps)}\n")
+        print(f"fecha de corrida: {fecha_casa_larga()} ({fecha_casa_hoy()}) · registro: {len(datos)} fichas · piezas: {len(ps)}\n")
         for c in informe:
             marca = "✓" if (c["clase"] == "medidor" or not c["fallos"]) else "✗"
             print(f"{marca} {c['compuerta']:<18} [{c['clase']:<8}] {c['resumen']}")

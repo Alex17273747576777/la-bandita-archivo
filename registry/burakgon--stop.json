@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "Background app blocker for Android. The apps you pick run only while you use them: leave one and it's force-stopped, with no background sync, alarms or push wake-ups. No root, works through Shizuku. Asks about every new install, and Play Store updates keep working.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/burakgon--stop.json",
+  "sha256": "4a1516ea2bba809190b957b41073fd38ba3355b1808fd3b1a8c99db8dcb02471"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "burakgon--stop",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7,
+  "stars_por_mes": null
+ },
+ "nombre": "stop",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "burakgon/stop"
+}

@@ -13,6 +13,9 @@ Uso:
 from __future__ import annotations
 import argparse, hashlib, json, sys
 from datetime import date, datetime, timezone
+import sys as _sys
+_sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
+from fecha_casa import hoy as fecha_casa_hoy  # noqa: E402
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -84,7 +87,7 @@ def main() -> int:
     anteriores = sorted(LOTES.glob("lote-*.json"))
     anterior = json.loads(anteriores[-1].read_text(encoding="utf-8"))["huella"] if anteriores else None
     ficha = {
-        "lote": f"lote-{date.today().isoformat()}",
+        "lote": f"lote-{fecha_casa_hoy()}",
         "sellado_en": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "huella": huella_sello,
         "huella_lote_anterior": anterior,

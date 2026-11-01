@@ -1,0 +1,45 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-17",
+  "semantica_http": 200,
+  "ultima_release": "4.2",
+  "ultimo_push": "2026-10-17"
+ },
+ "descripcion": "Easily select, start, and manage your preferred AI digital assistants on Android.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wstxda--switchai.json",
+  "sha256": "170b3f3d517650afb150f92a49872fbcd9596d175959a1ed12764b5255b8fd03"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wstxda--switchai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-10-31",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1470,
+  "stars_por_mes": null
+ },
+ "nombre": "SwitchAI",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "56f48edf59924159e1c9be13119c8fb8b6ecb4d4",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "WSTxda/SwitchAI"
+}
