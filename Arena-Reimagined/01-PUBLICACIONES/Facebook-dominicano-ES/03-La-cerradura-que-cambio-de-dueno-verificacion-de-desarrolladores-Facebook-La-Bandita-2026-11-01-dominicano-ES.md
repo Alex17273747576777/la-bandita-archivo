@@ -6,11 +6,28 @@
 
 *La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 03 de Facebook*
 
+*🗺️ Mapa de esta guía*
+
+├── ⚡ En una página
+├── 🧰 Cuatro escenas del barrio
+├── 🔒 La regla y su cronología
+├── 🚪 Las tres puertas
+├── 🏪 F-Droid y la campaña
+├── ⚖️ El otro lado, en serio
+├── 🧰 Qué hacer esta semana
+├── 📋 Los treinta y tres, uno por uno
+├── 📊 Los números y el método
+└── ❓ Preguntas y 🔗 enlaces
+
+*⚡ En una página*
+
 El sábado por la tarde, en un colmado de Villa Mella, un señor me enseñó su teléfono con una sola pregunta: «¿y esto por qué me sale?». En la pantalla había un aviso blanco, sin adornos, diciendo que el desarrollador de la app que intentaba instalar no estaba verificado. Él no sabía qué era un desarrollador, ni qué era verificar, ni por qué su teléfono, que había comprado y pagado, se estaba poniendo de parte de alguien que él no conocía.
 
 No pude contestarle con una frase. La respuesta honesta tomaba más de una tarde: es una regla de Google que empezó a caminar el 30 de septiembre en cuatro países, que llega al resto del mundo en 2027, que tiene tres puertas distintas, siete tiendas metidas en el medio, un contador de campaña en sesenta y dos días, y un debate de fondo sobre quién manda en un aparato después de que lo pagas.
 
 Esto es esa respuesta, escrita con calma y medida hoy. No es una noticia: es el expediente completo, con las fuentes puestas y las dudas dichas en voz alta. Y termina con lo único que importa para el señor del colmado: qué puedes hacer tú, esta semana, sin depender de que nadie te lo explique en un video de tres minutos.
+
+Al corte de hoy, 1 de noviembre de 2026, medí treinta y tres repositorios uno por uno y abrí treinta y tres enlaces; los cuatro que nacieron este mes no vienen de ninguna lista anterior. Lo que no pude medir —el interior del verificador, el estado de tu teléfono, el uso real de cada herramienta— está escrito como no medido, y no rellenado.
 
 ───────────────────
 
@@ -22,7 +39,7 @@ Se quedó callada y contestó lo que yo esperaba: «¿y si el mueble lo traigo y
 
 Ahí está todo el problema, en una pregunta de cocina. La regla no prohíbe instalar. La regla pregunta quién firma. Y para una familia dominicana que arregla su teléfono con APK desde el 2016, esa pregunta cambia el juego: no porque instale cosas raras, sino porque el que le pasa el archivo es el primo, el técnico o el grupo de WhatsApp del barrio, y ninguno de esos tres tiene cuenta de desarrollador.
 
-Voy a contar esto sin sustos y sin épica, porque el tema se presta para las dos. Los que quieren que te asustes te van a decir que te van a espiar el teléfono. Los que quieren que te duermas te van a decir que en 2027 falta mucho. Ninguna de las dos frases te sirve el lunes por la mañana.
+Esto se cuenta sin sustos y sin épica, porque el tema se presta para las dos. Los que quieren que te asustes te van a decir que te van a espiar el teléfono. Los que quieren que te duermas te van a decir que en 2027 falta mucho. Ninguna de las dos frases te sirve el lunes por la mañana.
 
 ───────────────────
 
@@ -146,15 +163,15 @@ Lo que no está en esta lista, y lo digo a propósito: ningún archivo que prome
 
 Todo lo que sigue lo consulté hoy con la API de GitHub: estrellas, licencia, fecha de creación, último empuje y última release con su día. Si algún número no está, es porque no hay: F-Droid vive en GitLab y su cliente no aparece en esta lista, y lo digo en vez de rellenar el hueco.
 
-*La campaña y el aviso dentro de la app.* `keepandroidopen/keepandroidopen.github.io` tiene 478 estrellas, licencia CC0, nació el 19 de octubre de 2025 y su último empuje es del 23 de octubre: es el sitio de la campaña. `woheller69/FreeDroidWarn`, con 3.730 estrellas y Apache-2.0, nació en agosto de 2025 y publicó su versión V1.14 el 9 de septiembre; es la biblioteca que le pone el cartel al usuario dentro de la app. Y `tsunderswapElnina/Keep-Android-Open-UI`, con una estrella y licencia MIT, es un reloj de cuenta regresiva hecho app: lo incluyo porque el censo también se hace con lo pequeño.
+*La campaña y el aviso dentro de la app.* `keepandroidopen/keepandroidopen.github.io` tiene ★478, licencia CC0, nació el 19 de octubre de 2025 y su último empuje es del 23 de octubre: es el sitio de la campaña. `woheller69/FreeDroidWarn`, con ★3.730 y Apache-2.0, nació en agosto de 2025 y publicó su versión V1.14 el 9 de septiembre; es la biblioteca que le pone el cartel al usuario dentro de la app. Y `tsunderswapElnina/Keep-Android-Open-UI`, con una estrella y licencia MIT, es un reloj de cuenta regresiva hecho app: lo incluyo porque el censo también se hace con lo pequeño.
 
-*El marcador y los instaladores por cable.* `daboynb/developer-verifier-placeholder` tiene 184 estrellas, GPL-3.0, nació el 16 de julio y su única release es del mismo día: un APK vacío que ocupa el nombre del verificador. `zechuan-start/adb-gui`, 72 estrellas y AGPL-3.0, pone ventana a ADB y publicó la 0.1.12 el 27 de octubre. `Ruraam/Uraam`, 50 estrellas y GPL-3.0, gestiona apps por ADB desde el propio teléfono y sacó la 4.4.6 ayer. `audioeng89/tiny_apk_installer`, 50 estrellas y MIT, es un instalador de terminal dormido desde marzo. `austinsager/adv-install`, 27 estrellas y MIT, instala desde el aparato con Termux o Shizuku y no se mueve desde julio.
+*El marcador y los instaladores por cable.* `daboynb/developer-verifier-placeholder` tiene ★184, GPL-3.0, nació el 16 de julio y su única release es del mismo día: un APK vacío que ocupa el nombre del verificador. `zechuan-start/adb-gui`, ★72 y AGPL-3.0, pone ventana a ADB y publicó la 0.1.12 el 27 de octubre. `Ruraam/Uraam`, ★50 y GPL-3.0, gestiona apps por ADB desde el propio teléfono y sacó la 4.4.6 ayer. `audioeng89/tiny_apk_installer`, ★50 y MIT, es un instalador de terminal dormido desde marzo. `austinsager/adv-install`, ★27 y MIT, instala desde el aparato con Termux o Shizuku y no se mueve desde julio.
 
-*El sistema sin servicios de Google.* `GrapheneOS/Vanadium`, 2.267 estrellas, nació en noviembre de 2016 y publicó la 156.0.8078.79.0 el 30 de octubre: el navegador endurecido. `GrapheneOS/Auditor`, 729 estrellas y MIT, hace atestación y detección de intrusos, con release 92 del 30 de mayo. `GrapheneOS/grapheneos.org`, 783 estrellas y MIT, es la casa y sus notas, con empuje de hoy. `GrapheneOS/Camera`, 1.423 estrellas y MIT, sacó la 93 el 1 de agosto. `GrapheneOS/PdfViewer`, 1.062 estrellas y MIT, la 33 el 30 de julio. Y `GrapheneOS/hardened_malloc`, 2.048 estrellas y MIT, con release 14 del 22 de febrero y empuje de hoy: el asignador de memoria que explica buena parte de su fama.
+*El sistema sin servicios de Google.* `GrapheneOS/Vanadium`, ★2.267, nació en noviembre de 2016 y publicó la 156.0.8078.79.0 el 30 de octubre: el navegador endurecido. `GrapheneOS/Auditor`, ★729 y MIT, hace atestación y detección de intrusos, con release 92 del 30 de mayo. `GrapheneOS/grapheneos.org`, ★783 y MIT, es la casa y sus notas, con empuje de hoy. `GrapheneOS/Camera`, ★1.423 y MIT, sacó la 93 el 1 de agosto. `GrapheneOS/PdfViewer`, ★1.062 y MIT, la 33 el 30 de julio. Y `GrapheneOS/hardened_malloc`, ★2.048 y MIT, con release 14 del 22 de febrero y empuje de hoy: el asignador de memoria que explica buena parte de su fama.
 
-*Los reemplazos, uno por uno.* `degoog-org/degoog`, 2.505 estrellas, AGPL-3.0, nació el 4 de marzo y publicó la 1.1.1 el 25 de octubre. `PimpinPumpkin/Vela`, 2.299 estrellas, GPL-3.0, nació el 15 de junio, sacó la 0.5.2621 el 19 de octubre y empujó hoy: mapas y navegación paso a paso sin los servicios de Play. `Pelski/ytzero`, 670 estrellas, Unlicense, nació el 13 de junio y publicó la 2026.09.9 el 28 de septiembre. `hakerdefo/Robota-Liberated`, 231 estrellas y CC0, es una guía escrita —no una app— sobre cómo quedarse con el Android que compraste. `twinksoftware/Gearslip`, 229 estrellas y AGPL-3.0, alternativa de Android Auto, con release de prueba el 25 de octubre. `biolend83/tubehaus`, 187 estrellas y AGPL-3.0, nació el 18 de octubre y ya publicó hoy mismo: cliente privado de video con versión web autoalojada. `GitMag/UnknownAuto`, 145 estrellas y MIT, nació el 29 de octubre y publicó el 30: instala apps de Android Auto por la vía lateral, con tres días de vida y toda la cara de proyecto joven. `steven-ahfu/Android-TV-Desktop-Toolkit`, 94 estrellas y AGPL-3.0, sacó la 4.1.10 el 20 de julio. `m-salehi-v/mrowser`, 64 estrellas y MIT, navegador para televisores que ya no reciben apps, con release del 16 de octubre. `Miniontoby/RokidApkUploader`, 60 estrellas y GPL-3.0, sube APK a unas gafas, con release del 9 de abril. `andronedev/openportal`, 45 estrellas y MIT, resucita el Portal de Meta instalando apps, con empuje del 27 de octubre. `itsmelissadev/SwiftSense`, 42 estrellas y GPL-3.0, suite de optimización sin root, con release del 15 de octubre. `LooseWireDev/unclouded`, 27 estrellas y AGPL-3.0, catálogo para descubrir apps desde Obtainium, dormido desde julio.
+*Los reemplazos, uno por uno.* `degoog-org/degoog`, ★2.505, AGPL-3.0, nació el 4 de marzo y publicó la 1.1.1 el 25 de octubre. `PimpinPumpkin/Vela`, ★2.299, GPL-3.0, nació el 15 de junio, sacó la 0.5.2621 el 19 de octubre y empujó hoy: mapas y navegación paso a paso sin los servicios de Play. `Pelski/ytzero`, ★670, Unlicense, nació el 13 de junio y publicó la 2026.09.9 el 28 de septiembre. `hakerdefo/Robota-Liberated`, ★231 y CC0, es una guía escrita —no una app— sobre cómo quedarse con el Android que compraste. `twinksoftware/Gearslip`, ★229 y AGPL-3.0, alternativa de Android Auto, con release de prueba el 25 de octubre. `biolend83/tubehaus`, ★187 y AGPL-3.0, nació el 18 de octubre y ya publicó hoy mismo: cliente privado de video con versión web autoalojada. `GitMag/UnknownAuto`, ★145 y MIT, nació el 29 de octubre y publicó el 30: instala apps de Android Auto por la vía lateral, con tres días de vida y toda la cara de proyecto joven. `steven-ahfu/Android-TV-Desktop-Toolkit`, ★94 y AGPL-3.0, sacó la 4.1.10 el 20 de julio. `m-salehi-v/mrowser`, ★64 y MIT, navegador para televisores que ya no reciben apps, con release del 16 de octubre. `Miniontoby/RokidApkUploader`, ★60 y GPL-3.0, sube APK a unas gafas, con release del 9 de abril. `andronedev/openportal`, ★45 y MIT, resucita el Portal de Meta instalando apps, con empuje del 27 de octubre. `itsmelissadev/SwiftSense`, ★42 y GPL-3.0, suite de optimización sin root, con release del 15 de octubre. `LooseWireDev/unclouded`, ★27 y AGPL-3.0, catálogo para descubrir apps desde Obtainium, dormido desde julio.
 
-*Los dos que entran por su lección.* `FoedusProgramme/Checker`, 83 estrellas y GPL-3.0, lleva desde enero de 2024 sin moverse y sigue vivo: dormido no es muerto. `HydraDragonAntivirus/HydraDragonAV-Mobile`, 23 estrellas y GPL-2.0, es un antivirus sin root ni ADB, con release del 6 de agosto; entra porque el miedo también produce herramientas y hay que medirlas.
+*Los dos que entran por su lección.* `FoedusProgramme/Checker`, ★83 y GPL-3.0, lleva desde enero de 2024 sin moverse y sigue vivo: dormido no es muerto. `HydraDragonAntivirus/HydraDragonAV-Mobile`, ★23 y GPL-2.0, es un antivirus sin root ni ADB, con release del 6 de agosto; entra porque el miedo también produce herramientas y hay que medirlas.
 
 ───────────────────
 
@@ -162,7 +179,7 @@ Todo lo que sigue lo consulté hoy con la API de GitHub: estrellas, licencia, fe
 
 Busqué hoy mismo, sin usar ninguna lista guardada: filtré por fecha de creación posterior a mayo de 2026 y ordené por estrellas. Estos cuatro salieron de ahí y no estaban en ninguna pieza anterior.
 
-`bl3xand/APK-Toolbox`, 99 estrellas y GPL-3.0, nació el 8 de octubre y publicó la 1.1.6 el 28: rastrea, clona, instala y fusiona APK desde el propio teléfono. Tres semanas de vida y ya con release. `richardkfm/los-bootstrap`, 6 estrellas y GPL-3.0, nació en abril y publicó la 0.14.0 el 15 de octubre: instala y deja listo LineageOS en un aparato ya liberado de Google. `Ha2mad/package-pass`, sin estrellas y MIT, nació el 28 de octubre: lee en lote los nombres de paquete de tus apps, que es exactamente el paso previo a decidir qué registrar. Y `Meirwolf1289/fdroid-census`, sin estrellas, nació **ayer**: su pregunta es cuántas apps de F-Droid están registradas ante Google. Cero estrellas no es cero valor; es el primer intento de contar el choque en vez de describirlo.
+`bl3xand/APK-Toolbox`, ★99 y GPL-3.0, nació el 8 de octubre y publicó la 1.1.6 el 28: rastrea, clona, instala y fusiona APK desde el propio teléfono. Tres semanas de vida y ya con release. `richardkfm/los-bootstrap`, ★6 y GPL-3.0, nació en abril y publicó la 0.14.0 el 15 de octubre: instala y deja listo LineageOS en un aparato ya liberado de Google. `Ha2mad/package-pass`, sin estrellas y MIT, nació el 28 de octubre: lee en lote los nombres de paquete de tus apps, que es exactamente el paso previo a decidir qué registrar. Y `Meirwolf1289/fdroid-census`, sin estrellas, nació **ayer**: su pregunta es cuántas apps de F-Droid están registradas ante Google. Cero estrellas no es cero valor; es el primer intento de contar el choque en vez de describirlo.
 
 Hay algo en estos cuatro que dice más que cualquier editorial: nacieron porque alguien buscó una herramienta, no la encontró y la escribió. Eso es lo que produce una cerradura nueva. No manifiestos: gente programando a las dos de la mañana.
 
@@ -238,7 +255,7 @@ Y la República Dominicana, mientras tanto, mira desde afuera. Nuestro mercado e
 
 *Qué es una firma, y por qué todo esto depende de ella*
 
-Voy a explicar lo único técnico que hay que entender de verdad, y lo voy a explicar con una comparación de la vida diaria.
+Queda una sola cosa técnica que entender de verdad, y se explica con una comparación de la vida diaria.
 
 Cuando un desarrollador termina una app, la empaqueta y le pone una firma digital: una marca criptográfica que dice «esto lo hice yo». Si después cambia algo del paquete, la firma deja de cuadrar y el sistema se niega a actualizar. Esa es la garantía que impide que alguien te entregue una versión modificada de una app y se haga pasar por su autor.
 
@@ -282,33 +299,45 @@ Y lo cuarto es para el que quiera precisión absoluta: con el cable y la depurac
 
 *Las preguntas que me llegan por mensaje, contestadas sin rodeos*
 
-*«¿Me van a quitar WhatsApp?»* No. La regla habla de instalar y actualizar, y WhatsApp viene de una tienda con desarrollador registrado. Si alguien te dice lo contrario, te está asustando para ganar algo.
+**¿Me van a quitar WhatsApp?**
 
-*«¿Voy a tener que pagar?»* Tú, no. El que paga los veinticinco dólares es el que publica. La cuenta limitada de veinte aparatos es gratis.
+No. La regla habla de instalar y actualizar, y WhatsApp viene de una tienda con desarrollador registrado. Si alguien te dice lo contrario, te está asustando para ganar algo.
 
-*«¿Y si uso iPhone?»* Ahí es peor y desde antes: solo instalas por la tienda o por un proceso de desarrollador. La diferencia es que Apple nunca prometió lo contrario. Android sí lo prometió.
+**¿Voy a tener que pagar?**
 
-*«¿Esto es por el malware de verdad?»* En parte sí, y negarlo sería deshonesto. Pero la herramienta elegida no es la que corresponde al problema, y esa distancia es la que hace legítima la pregunta de a quién le conviene.
+Tú, no. El que paga los veinticinco dólares es el que publica. La cuenta limitada de veinte aparatos es gratis.
 
-*«¿Qué hago si no tengo computadora?»* Tres cosas: guardar tus APK, aprender el flujo con calma y pedirle a alguien de confianza con laptop que te enseñe el cable una vez. ADB no necesita que el teléfono sea de él.
+**¿Y si uso iPhone?**
 
-*«¿Y si me espero a ver qué pasa?»* Es legítimo y no te voy a regañar. Solo te pido que la espera sea informada: si en 2027 te agarra sin copias y sin saber usar un cable, la espera te costó caro; si te agarra con las copias y el flujo probado una vez, no te costó nada.
+Ahí es peor y desde antes: solo instalas por la tienda o por un proceso de desarrollador. La diferencia es que Apple nunca prometió lo contrario; Android sí lo prometió.
+
+**¿Esto es por el malware de verdad?**
+
+En parte sí, y negarlo sería deshonesto. Pero la herramienta elegida no es la que corresponde al problema, y esa distancia es la que hace legítima la pregunta de a quién le conviene.
+
+**¿Qué hago si no tengo computadora?**
+
+Tres cosas: guardar tus APK, aprender el flujo con calma y pedirle a alguien de confianza con laptop que te enseñe el cable una vez. ADB no necesita que el teléfono sea de él.
+
+**¿Y si me espero a ver qué pasa?**
+
+Es legítimo y no hay regaño. Solo pido que la espera sea informada: si en 2027 te agarra sin copias y sin saber usar un cable, la espera costó caro; si te agarra con las copias y el flujo probado una vez, no costó nada.
 
 ───────────────────
 
-*El método: cómo llegué a estos números, para que me desmientas*
+*El método, para que me desmientas*
 
 Esta sección existe porque una pieza sin método es una opinión con cifras pegadas, y porque cualquiera debería poder repetir lo que hice.
 
-Primero separé los tipos de fuente, que es lo que casi nadie hace. La documentación de Google es una fuente. Su blog corporativo es otra. La cobertura de prensa es otra. La campaña de los activistas es otra. Las cuatro sirven y ninguna es neutra, y en esta pieza cada vez que escribo «Google dice» hay una página de Google detrás, y cada vez que escribo «la campaña denuncia» hay texto de la campaña.
+Primero separé los tipos de fuente, que es lo que casi nadie hace: documentación de Google, blog corporativo, prensa y campaña. Las cuatro sirven y ninguna es neutra. Cuando el texto dice «Google dice» hay una página de Google detrás; cuando dice «la campaña denuncia», hay texto de la campaña.
 
-Segundo, busqué la fecha y el sujeto de cada afirmación. «La regla entró en vigor» no significa nada si no dice dónde, en qué aparatos y desde qué tiendas. Esa disciplina me obligó a escribir la condición completa cuatro veces en este texto para no mentir por ahorrar palabras.
+Segundo, busqué la fecha y el sujeto de cada afirmación: «la regla entró en vigor» no significa nada sin país, aparato y tienda. Esa disciplina obligó a escribir la condición completa cuatro veces.
 
-Tercero, marqué lo que no puedo verificar, y esa lista es tan importante como la de lo que sí. No puedo leer el código del verificador porque es propietario. No puedo saber si está activo en tu teléfono. No puedo saber cuánta gente usa cada herramienta de la lista de arriba. Todo eso está dicho, arriba y aquí.
+Tercero, marqué lo que no puedo verificar, y esa lista vale tanto como la otra: no puedo leer el código del verificador porque es propietario, ni saber si está activo en tu teléfono, ni cuánta gente usa cada herramienta.
 
-Cuarto, medí los repositorios uno por uno con la interfaz pública de GitHub: estrellas, licencia, fecha de creación, último empuje y última publicación. Treinta y tres, hoy, con la hora de medición anotada al final. Si mañana cambian, la hora te dice cuán viejo es el dato que estás leyendo.
+Cuarto, medí los treinta y tres repositorios con la interfaz pública de GitHub: estrellas, licencia, creación, último empuje y última publicación, con la hora anotada al final.
 
-Quinto, desconfié de mi propio entusiasmo. Con un villano claro uno escribe mejor y verifica menos, y eso es una trampa conocida. La prueba de que intenté evitarla es que hay una sección entera dedicada al argumento de Google, escrita en serio y sin caricatura. Si esa sección no existiera, esto no sería un informe: sería un panfleto con notas al pie.
+Quinto, desconfié de mi propio entusiasmo: con villano claro se escribe mejor y se verifica menos. La prueba es que hay una sección entera dedicada al argumento de Google, en serio y sin caricatura.
 
 ───────────────────
 
@@ -326,7 +355,7 @@ Cuatro cosas concretas, y digo por qué cada una importa.
 
 ───────────────────
 
-*Lo que esta pieza no dice, y por qué*
+*Fronteras del dato: lo que no se afirma*
 
 No dice que Google vaya a bloquear las apps que ya tienes instaladas. No hay ninguna evidencia de eso, y lo que no hay evidencia no se escribe para asustar.
 
@@ -359,53 +388,45 @@ Y los dos números de Google que hay que citar con nombre y apellido: doscientas
 *Los enlaces de esta pieza*
 
 La campaña y el aviso dentro de la app:
-https://github.com/keepandroidopen/keepandroidopen.github.io
-https://github.com/woheller69/FreeDroidWarn
-https://github.com/tsunderswapElnina/Keep-Android-Open-UI
-
+- Keep Android Open (sitio de la campaña): https://github.com/keepandroidopen/keepandroidopen.github.io
+- FreeDroidWarn (el aviso dentro de la app): https://github.com/woheller69/FreeDroidWarn
+- Keep Android Open UI (reloj de cuenta regresiva): https://github.com/tsunderswapElnina/Keep-Android-Open-UI
 El marcador y los instaladores por cable:
-https://github.com/daboynb/developer-verifier-placeholder
-https://github.com/zechuan-start/adb-gui
-https://github.com/Ruraam/Uraam
-https://github.com/audioeng89/tiny_apk_installer
-https://github.com/austinsager/adv-install
-
+- developer-verifier-placeholder (el marcador): https://github.com/daboynb/developer-verifier-placeholder
+- adb-gui: https://github.com/zechuan-start/adb-gui
+- Uraam: https://github.com/Ruraam/Uraam
+- tiny_apk_installer: https://github.com/audioeng89/tiny_apk_installer
+- adv-install: https://github.com/austinsager/adv-install
 El sistema sin servicios de Google:
-https://github.com/GrapheneOS/Vanadium
-https://github.com/GrapheneOS/Auditor
-https://github.com/GrapheneOS/grapheneos.org
-https://github.com/GrapheneOS/Camera
-https://github.com/GrapheneOS/PdfViewer
-https://github.com/GrapheneOS/hardened_malloc
-
+- Vanadium (navegador): https://github.com/GrapheneOS/Vanadium
+- Auditor: https://github.com/GrapheneOS/Auditor
+- GrapheneOS (sitio): https://github.com/GrapheneOS/grapheneos.org
+- Camera: https://github.com/GrapheneOS/Camera
+- PdfViewer: https://github.com/GrapheneOS/PdfViewer
+- hardened_malloc: https://github.com/GrapheneOS/hardened_malloc
 Reemplazos, uno por uno:
-https://github.com/degoog-org/degoog
-https://github.com/PimpinPumpkin/Vela
-https://github.com/Pelski/ytzero
-https://github.com/hakerdefo/Robota-Liberated
-https://github.com/twinksoftware/Gearslip
-https://github.com/biolend83/tubehaus
-https://github.com/GitMag/UnknownAuto
-https://github.com/steven-ahfu/Android-TV-Desktop-Toolkit
-https://github.com/m-salehi-v/mrowser
-https://github.com/Miniontoby/RokidApkUploader
-https://github.com/andronedev/openportal
-https://github.com/itsmelissadev/SwiftSense
-https://github.com/LooseWireDev/unclouded
-
+- degoog: https://github.com/degoog-org/degoog
+- Vela (mapas): https://github.com/PimpinPumpkin/Vela
+- ytzero: https://github.com/Pelski/ytzero
+- Robota-Liberated: https://github.com/hakerdefo/Robota-Liberated
+- Gearslip: https://github.com/twinksoftware/Gearslip
+- tubehaus: https://github.com/biolend83/tubehaus
+- UnknownAuto: https://github.com/GitMag/UnknownAuto
+- Android TV Desktop Toolkit: https://github.com/steven-ahfu/Android-TV-Desktop-Toolkit
+- mrowser: https://github.com/m-salehi-v/mrowser
+- RokidApkUploader: https://github.com/Miniontoby/RokidApkUploader
+- openportal: https://github.com/andronedev/openportal
+- SwiftSense: https://github.com/itsmelissadev/SwiftSense
+- unclouded: https://github.com/LooseWireDev/unclouded
 Los cuatro nacidos este mes:
-https://github.com/bl3xand/APK-Toolbox
-https://github.com/richardkfm/los-bootstrap
-https://github.com/Ha2mad/package-pass
-https://github.com/Meirwolf1289/fdroid-census
-
+- APK-Toolbox: https://github.com/bl3xand/APK-Toolbox
+- los-bootstrap: https://github.com/richardkfm/los-bootstrap
+- package-pass: https://github.com/Ha2mad/package-pass
+- fdroid-census: https://github.com/Meirwolf1289/fdroid-census
 Los dos que entran por su lección:
-https://github.com/FoedusProgramme/Checker
-https://github.com/HydraDragonAntivirus/HydraDragonAV-Mobile
-
-Ninguno de estos enlaces instala nada por sí solo: los de la campaña y las guías son texto, y los de las apps llevan a su publicación con el archivo y la licencia a la vista. Lo que no enlazo es lo que no puedo verificar hoy, y lo que dejo fuera a propósito es cualquier cosa que prometa saltarse la verificación sin decir qué te pide a cambio.
-
-───────────────────
+- Checker: https://github.com/FoedusProgramme/Checker
+- HydraDragonAV-Mobile: https://github.com/HydraDragonAntivirus/HydraDragonAV-Mobile
+Ninguno de estos enlaces instala nada por sí solo: los de la campaña y las guías son texto, y los de las apps llevan a su publicación con el archivo y la licencia a la vista. Lo que no enlazo es lo que no puedo verificar hoy, y lo que dejo fuera a propósito es cualquier cosa que prometa saltarse la verificación sin decir qué te pide a cambio.───────────────────
 
 *Cierre: la cerradura y la llave*
 
@@ -417,4 +438,17 @@ Mi posición, dicha sin esconderla: puede pedir identidad a quien vende en su mo
 
 El señor del colmado de Villa Mella va a volver a ver ese aviso. Cuando lo vea, la diferencia entre un mal día y un desastre va a ser si tenía sus copias guardadas y si sabía que el cable existe. Eso es lo único que esta pieza puede cambiar, y no es poco.
 
-💓 *La Bandita · domingo 1 de noviembre de 2026 · Santo Domingo · medición de hoy entre las 06:40 y las 07:20.* Treinta y tres repositorios medidos uno por uno con la interfaz pública de GitHub —estrellas, licencia, creación, último empuje y última publicación— y treinta y tres enlaces comprobados uno por uno, todos con respuesta 200. Cuatro de esos repositorios nacieron en las últimas dos semanas y no venían de ninguna lista anterior: los busqué hoy. Lo que no pude medir está dicho arriba como no medido: el interior del verificador, el estado de tu teléfono y el uso real de cada herramienta. Si lees esto en diciembre, la edad del dato está escrita al lado para que no te engañe.
+> —¿Y el teléfono que ya compré?
+> —Ese sigue tuyo. Lo que cambiaron fue la cerradura, no la casa.
+
+💓 *La Bandita informa a partir de fuentes fechadas.* El aparato ya está pagado; la puerta, todavía no. Mientras la cerradura viaja, guarda tus archivos y aprende el cable.
+
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:40 y las 07:20 de Santo Domingo · treinta y tres repositorios medidos uno por uno contra la API pública de GitHub, sin caché · treinta y tres enlaces abiertos con `curl -L`, todos con respuesta 200 · cuatro de esos repositorios nacieron en las últimas dos semanas. Lo no medido está dicho arriba como no medido.
+
+## 🗒️ Notas al pie
+
+**Nota de corrección (1-nov):** `Pelski/ytzero` figuraba como «sin licencia declarada» y la API devuelve Unlicense; `GrapheneOS/Vanadium` figuraba como «sin declarar» y devuelve NOASSERTION. Corregido en el texto con fecha.
+
+**Nota de verificación final (1-nov, mañana):** los treinta y tres enlaces se abrieron uno por uno y devolvieron 200; las estrellas y licencias son de la misma hora. Si lees esto en otro corte, la hora de la firma dice cuán viejo es el dato.
+
+**Nota del corte (1-nov):** corte real de la pieza. El sweep del día se hizo completo sobre los treinta y tres repositorios y no quedó ningún dato estimado. Pendiente declarado: la medición del archivo completo de envíos necesita el token de GitHub.

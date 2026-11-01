@@ -2768,3 +2768,17 @@ Fichas G01 a G07. Los fallos propios de sistemas que planifican y ejecutan con h
 **Verificación automática del 2026-09-10:** fichas de fallo presentes en la Sección 4: **75 de 75**. Artículos verbatim presentes: 63, 64, 118, 119, 120, 121, 191, 192, 205 y 243–247. Checklists C1–C8 íntegros. El archivo fuente no fue modificado.
 
 *Edición Completa V1.0 — 2026-09-10. Próxima revisión: solo si algo muerde.*
+
+---
+
+## ENMIENDA 2026-11-01 · fusión con el Manual de Estilo y Operaciones V3.0
+
+**Registrada por:** orden del dueño del 1 de noviembre de 2026 («guarda esto y fusiónalo con los archivos principales de los cimientos… criterios obligatorios de éxito»).
+
+**Qué entra:** el `Manual de Estilo y Operaciones La Bandita — V3.0 (1-nov-2026)` y la lista de criterios obligatorios `CIMIENTOS — criterios obligatorios y precedencia (1-nov-2026)`, ambos en `corpus-la-bandita/`.
+
+**Qué cambia aquí:** el oficio diario gana molde cerrado: cabecera de seis campos, mapa de 5 a 12 entradas, «en una página» de 3 a 5 párrafos, fichas de ocho campos, FAQ de 6 a 12 preguntas, enlaces con formato `- Nombre: URL`, cierre de cuatro piezas (meme, firma textual, remate propio, medición con hora) y notas al pie fechadas. Lo que el Manual de Campo explicaba como criterio, el Manual V3.0 lo fija como plantilla.
+
+**Precedencia:** este documento conserva su rango; el Manual V3.0 queda **subordinado** y manda sobre la **forma** de cada pieza (molde, fichas, FAQ, enlaces, firma, meme, notas, prohibiciones). Donde el dueño dio una orden posterior, manda el dueño; las tensiones están registradas, con su resolución, en `CIMIENTOS` §3.
+
+**Comprobación:** `tools/manual_gate.py` ejecuta los criterios C-01 a C-24 y `tools/vara.py` los vuelve compuerta (G11). Un criterio que solo vive en prosa no se cumple: este se mide.

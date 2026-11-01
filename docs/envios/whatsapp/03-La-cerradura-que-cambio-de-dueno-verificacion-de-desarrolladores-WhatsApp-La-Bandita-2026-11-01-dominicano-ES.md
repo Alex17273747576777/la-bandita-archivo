@@ -2,25 +2,25 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `26124a756d38260313da184132622482d728ecf31a1d370b5b674eda7735a663`
-- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3681 caracteres
+- **sha256 de la pieza:** `52fe26885edf4fefa4993d38ae5780acdb9eae81a2e987804a19a74d19441e8c`
+- **Envío generado:** 2026-11-01 · 28 mensajes · el mayor de 3896 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 27 · 802 caracteres ═══
+═══ MENSAJE 1 de 28 · 822 caracteres ═══
 
 *La cerradura que cambió de dueño: la verificación de desarrolladores, medida desde un teléfono que todavía no está en la lista*
 
-La Bandita · pieza 03 · guía del 1-nov-2026 · te la mando hoy en 27 mensajes.
+La Bandita · pieza 03 · guía del 1-nov-2026 · te la mando hoy en 28 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *33 repositorios, 3 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *33 repositorios, 33 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 2 · Apache-2.0 1.
+Licencias de lo que recomienda: MIT 12 · GPL-3.0 8 · AGPL-3.0 6 · CC0-1.0 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md
 
 💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 27 · 3359 caracteres ═══
+═══ MENSAJE 2 de 28 · 3341 caracteres ═══
 
 *La cerradura que cambió de dueño: la verificación de desarrolladores, medida desde un teléfono que todavía no está en la lista*
 
@@ -42,7 +42,7 @@ La frase que lo resume, y que uso como vara en toda la pieza: *un requisito se c
 
 Y ojo con la trampa del idioma: a esto le dicen *verificación de desarrolladores*, que suena a trámite de banco. No es un trámite: es una condición de instalación. El nombre técnico del mecanismo —*Android Developer Verifier*— es literal: un verificador que se instala en tu aparato y decide.
 
-*🎯 ¿Adivina la casa? (antes de seguir)*
+*🎯 ¿Adivina la casa?*
 
 Cuatro pistas, cuatro respuestas. Van al revés más abajo, como siempre.
 
@@ -58,9 +58,9 @@ Cuatro pistas, cuatro respuestas. Van al revés más abajo, como siempre.
 
 Tres de cuatro y ya estás pensando con la vara de la casa.
 
-⏬ sigue abajo · parte 1 de 26
+⏬ sigue abajo · parte 1 de 27
 
-═══ MENSAJE 3 de 27 · 2915 caracteres ═══
+═══ MENSAJE 3 de 28 · 2786 caracteres ═══
 
 *⚡ En una página (lo que cabe en un vistazo)*
 
@@ -78,24 +78,24 @@ Tres de cuatro y ya estás pensando con la vara de la casa.
 
 *Lo que viene:* 2027, todos los aparatos certificados, todas las apps. El contador de la campaña, cuando lo abrí hoy, marcaba **62 días**.
 
-*🧭 Cómo se lee esta pieza (mapa de 55 minutos)*
+*🗺️ Mapa de esta guía*
 
-├── 🌱 La semilla + 🎯 el acertijo + ⚡ en una página · ~4 min
-├── 📅 Qué pasó el 30 de septiembre + 🔒 el servicio que ya está adentro · ~4 min
-├── 🚪 Las tres puertas + 🇩🇴 qué te toca en RD · ~4 min
-├── 🏪 F-Droid + 📣 la campaña + 📰 las cuatro contradicciones · ~6 min
-├── 🧰 Vivir sin Google + 🔧 el marcador y el cable + 🥇 el aviso · ~8 min
-├── 🕰️ Las tres vueltas de cerradura + 👥 cinco casos · ~4 min
-├── 📋 La ficha de hoy: los 29 repos, uno por uno · ~4 min
-├── 🛠️ Si algo falla + 🧠 decisiones de la prensa + ❓ preguntas + 📖 glosario · ~5 min
-├── 🕒 La línea del tiempo + 🔍 el método + 👀 qué vigilar + 🚫 lo que NO dice · ~5 min
-├── 📆 Qué hacer este mes + 🧪 cómo comprobarlo en tu teléfono + 📊 los números · ~4 min
-├── 🧩 El mini-quiz + 🧾 la vara + 🔗 enlaces + 🤝 lo que le pediría a Google · ~5 min
-└── 💬 Nota final + 🎁 el párrafo para copiar · ~2 min
+├── 🌱 La semilla + 🎯 el acertijo + ⚡ en una página
+├── 📅 Qué pasó el 30 de septiembre + 🔒 el servicio que ya está adentro
+├── 🚪 Las tres puertas + 🇩🇴 qué te toca en RD
+├── 🏪 F-Droid + 📣 la campaña + 📰 las cuatro contradicciones
+├── 🧰 Vivir sin Google + 🔧 el marcador y el cable + 🥇 el aviso
+├── 🕰️ Las tres vueltas de cerradura + 👥 cinco casos
+├── 📋 La ficha de hoy: los 29 repos, uno por uno
+├── 🛠️ Si algo falla + 🧠 decisiones de la prensa + ❓ preguntas + 📖 glosario
+├── 🕒 La línea del tiempo + 🔍 el método + 👀 qué vigilar + 🚫 fronteras del dato
+├── 📆 Qué hacer este mes + 🧪 cómo comprobarlo en tu teléfono + 📊 los números
+├── 🧩 El mini-quiz + 🧾 la vara + 🔗 enlaces + 🤝 lo que le pediría a Google
+└── 💬 Nota final + 🎁 el párrafo para copiar
 
-⏬ sigue abajo · parte 2 de 26
+⏬ sigue abajo · parte 2 de 27
 
-═══ MENSAJE 4 de 27 · 2413 caracteres ═══
+═══ MENSAJE 4 de 28 · 2413 caracteres ═══
 
 *📅 Qué pasó el 30 de septiembre (y qué no)*
 
@@ -116,9 +116,9 @@ Empecemos por lo que se puede sostener con una fuente y una fecha, porque en est
 
 *Aviso de la casa:* yo no voy a decirte que esto es el fin de Android, porque no lo es, ni que no pasa nada, porque sí pasa. Lo que voy a hacer es darte el mapa con las fechas y enseñarte a medir el miedo con la misma vara con que medimos las estrellas.
 
-⏬ sigue abajo · parte 3 de 26
+⏬ sigue abajo · parte 3 de 27
 
-═══ MENSAJE 5 de 27 · 2262 caracteres ═══
+═══ MENSAJE 5 de 28 · 2262 caracteres ═══
 
 *🔒 El servicio que ya está adentro*
 
@@ -134,9 +134,9 @@ Ese detalle cambia todo el análisis. Si el mecanismo viviera en el sistema oper
 
 *Lo que sí puedes comprobar tú, en dos minutos:* Ajustes → Aplicaciones → Mostrar aplicaciones del sistema → busca «Android Developer Verifier» o `com.google.android.verifier`. Si aparece, está. Si no aparece, puede que llegue después o que tu aparato no lo reciba. Lo que veas, anótalo con fecha: dentro de un año ese dato te va a servir para comparar, y para no discutir con rumores.
 
-⏬ sigue abajo · parte 4 de 26
+⏬ sigue abajo · parte 4 de 27
 
-═══ MENSAJE 6 de 27 · 2525 caracteres ═══
+═══ MENSAJE 6 de 28 · 2525 caracteres ═══
 
 *🚪 Las tres puertas, paso por paso*
 
@@ -162,9 +162,9 @@ Nueve pasos y un día de espera para instalar un archivo en un aparato que pagas
 
 *Aviso honesto sobre el flujo:* las capturas y los pasos son de agosto y septiembre de 2026, y Google puede cambiarlos sin avisar —es justo el problema de fondo—. Si al leer esto los pasos no son nueve, no te sorprendas: anota cuántos fueron y con qué fecha, que es lo que hace un archivo y no un rumor.
 
-⏬ sigue abajo · parte 5 de 26
+⏬ sigue abajo · parte 5 de 27
 
-═══ MENSAJE 7 de 27 · 1881 caracteres ═══
+═══ MENSAJE 7 de 28 · 1881 caracteres ═══
 
 *🇩🇴 República Dominicana: qué te toca y qué no*
 
@@ -182,9 +182,9 @@ Voy a ser exacto, porque aquí es donde la gente se asusta de gratis.
 
 *Aviso de la casa sobre el otro extremo:* tampoco te dejes vender calma. «Eso es en 2027, falta mucho» es cierto y es una manera de no hacer nada. La preparación que sirve —guardar tus archivos, conocer tus fuentes, aprender ADB— se hace mejor con un año de calma que con una semana de pánico.
 
-⏬ sigue abajo · parte 6 de 26
+⏬ sigue abajo · parte 6 de 27
 
-═══ MENSAJE 8 de 27 · 2222 caracteres ═══
+═══ MENSAJE 8 de 28 · 2222 caracteres ═══
 
 *🏪 El lado de F-Droid, contado sin épica*
 
@@ -200,9 +200,9 @@ F-Droid es la tienda de apps libres de Android: compila desde el código públic
 
 *Lo que un usuario dominicano debe sacar en limpio:* si usas F-Droid, actualízala —la 2.0 mejora mucho la experiencia y la búsqueda—, y entiende que su continuidad no depende de tu teléfono sino de una discusión legal que no se gana con tu voto en una encuesta.
 
-⏬ sigue abajo · parte 7 de 26
+⏬ sigue abajo · parte 7 de 27
 
-═══ MENSAJE 9 de 27 · 2220 caracteres ═══
+═══ MENSAJE 9 de 28 · 2220 caracteres ═══
 
 *📣 La campaña que firmaron setenta y una organizaciones*
 
@@ -221,9 +221,9 @@ La pelea tiene nombre propio y una casa: *Keep Android Open*, en `keepandroidope
 
 *Mi opinión, que es la de esta casa y no la de la campaña:* una petición no cambia una arquitectura. Lo que cambia una arquitectura es que un regulador con dientes —la Comisión Europea, una autoridad de competencia, un tribunal— diga que no se puede. La campaña lo sabe: por eso su página te manda a escribirle a reguladores de más de veinte jurisdicciones y no solo a firmar.
 
-⏬ sigue abajo · parte 8 de 26
+⏬ sigue abajo · parte 8 de 27
 
-═══ MENSAJE 10 de 27 · 2272 caracteres ═══
+═══ MENSAJE 10 de 28 · 2272 caracteres ═══
 
 *📰 Las cuatro contradicciones de la prensa (y cómo se resuelven)*
 
@@ -239,9 +239,9 @@ Esta sección existe porque me tocó leer la misma noticia contada de tres maner
 
 *Regla de la casa para leer este tema:* cada vez que veas una fecha, pregúntate qué se aplica ese día, en qué país y a qué aparato. Y cada vez que veas «Google dijo», busca si es una página de soporte, un blog o un vocero. Las tres no pesan igual.
 
-⏬ sigue abajo · parte 9 de 26
+⏬ sigue abajo · parte 9 de 27
 
-═══ MENSAJE 11 de 27 · 3615 caracteres ═══
+═══ MENSAJE 11 de 28 · 3615 caracteres ═══
 
 *🧰 Vivir sin los servicios de Google (sin sermón y sin promesas)*
 
@@ -263,9 +263,9 @@ Esta sección no es una invitación a nada. Es un inventario, medido hoy, de lo 
 • `andronedev/openportal` — ★45 · MIT · creado el 10 de junio de 2026 · sin release, empujado el 27 de octubre. Resucitar un aparato abandonado —el Portal de Meta— instalando apps. No es una cerradura, pero es la misma pelea: que el dueño del aparato decida.
 • `twinksoftware/Gearslip` — ★229 · AGPL-3.0 · creado el 20 de septiembre de 2026 · release v0.3.12-alpha del 25 de octubre. Alternativa de Android Auto. Seis semanas de vida; lo digo como lo que es: un proyecto joven.
 
-⏬ sigue abajo · parte 10 de 26
+⏬ sigue abajo · parte 10 de 27
 
-═══ MENSAJE 12 de 27 · 1502 caracteres ═══
+═══ MENSAJE 12 de 28 · 1395 caracteres ═══
 
 • `GitMag/UnknownAuto` — ★145 · MIT · creado el **29 de octubre de 2026** · release v1.1 del 30 de octubre. Instala apps de Android Auto por la vía lateral. Tres días de vida. No lo recomiendo todavía; lo apunto porque marca hacia dónde va la necesidad.
 • `itsmelissadev/SwiftSense` — ★42 · GPL-3.0 · creado el 13 de marzo de 2026 · release v1.3 del 15 de octubre. Suite de optimización sin root: el tipo de herramienta que en 2027 va a depender del flujo avanzado para instalarse.
@@ -273,11 +273,11 @@ Esta sección no es una invitación a nada. Es un inventario, medido hoy, de lo 
 • `Miniontoby/RokidApkUploader` — ★60 · GPL-3.0 · creado el 15 de enero de 2026 · release v1.0.3 del 9 de abril. Hardware de nicho; entra en la ficha como ejemplo de que «Android» también son las gafas.
 • `GrapheneOS/PdfViewer` — ★1.062 · MIT · release 33 del 30 de julio · empujado el 28 de octubre; y `GrapheneOS/Camera` — ★1.423 · MIT · release 93 del 1 de agosto · empujado el 30 de octubre. Las apps de casa hechas para no depender de las de Google.
 
-*Lo que este inventario NO es:* no es una lista de reemplazos uno a uno. No hay YouTube libre con el mismo catálogo ni mapa libre con el mismo tráfico. Quien te venda equivalencia te vende entusiasmo. Lo que existe es *suficiencia*: para buena parte de lo que haces con el teléfono, hay algo que funciona sin pedirle permiso a nadie.
+*Lo que este inventario NO es:* una lista de reemplazos uno a uno. No hay YouTube libre con el mismo catálogo ni mapa libre con el mismo tráfico: quien te venda equivalencia te vende entusiasmo. Lo que existe es *suficiencia*.
 
-⏬ sigue abajo · parte 11 de 26
+⏬ sigue abajo · parte 11 de 27
 
-═══ MENSAJE 13 de 27 · 3001 caracteres ═══
+═══ MENSAJE 13 de 28 · 3686 caracteres ═══
 
 *🔧 El truco del marcador, y el cable que nadie menciona*
 
@@ -285,34 +285,34 @@ Dos caminos concretos que la gente está usando hoy, con sus riesgos escritos al
 
 *El marcador.* `daboynb/developer-verifier-placeholder` — ★184 · GPL-3.0 · creado el 16 de julio de 2026 · release `v3000000000000` del mismo día, último empuje el 12 de octubre. Es lo que dice: un APK **vacío** que ocupa el nombre del verificador para que el sistema no lo actualice ni lo active. Un nombre de paquete usado de escudo.
 
-*Mi opinión, sin adorno:* es un truco listo y es frágil. Vive de una carrera —que el marcador quede antes que el servicio real— y esa carrera se pierde el día que Google cambie el nombre o el orden. Además, un APK que ocupa el lugar de un servicio del sistema es, por definición, un parche de sistema: si algo se rompe, se rompe en el sitio donde menos quieres que se rompa. Yo no lo instalaría como primera medida. Lo nombro porque circula, y porque en esta casa la regla es *informar sin repartir*: no te pongo el enlace, te pongo lo que hace, lo que mide y lo que arriesga.
+*Mi opinión, sin adorno:* es un truco listo y frágil. Vive de una carrera —que el marcador llegue antes que el servicio real— y esa carrera se pierde el día que Google cambie el nombre o el orden. Un APK que ocupa el lugar de un servicio del sistema es un parche de sistema: si algo se rompe, se rompe donde menos quieres. No lo instalaría como primera medida.
 
 *El cable.* ADB —Android Debug Bridge— quedó explícitamente fuera de la regla. Es la instalación desde una computadora por USB: `adb install app.apk`. No es magia ni es un truco: es la herramienta oficial de desarrollo de Google, la misma que usan los que programan apps. Para el usuario común es incómoda porque necesita una computadora, un cable y aprender tres comandos.
 
 *Y aquí está la parte que no se dice:* para quien lee esto desde Santo Domingo, ADB no es un plan B; es *el* plan que no depende de nadie. Un teléfono, una laptop vieja y un cable: una puerta que sigue abierta porque no pasa por los servicios de Google.
 
-*Herramientas medidas hoy para ese camino:*
+*Herramientas medidas hoy:*
 
 • `Ruraam/Uraam` — ★50 · GPL-3.0 · creado el 5 de junio de 2026 · release v4.4.6 **de ayer**. Gestor de apps por ADB en el teléfono: lista, instala, desinstala, congela. Empujado el 31 de octubre.
 • `zechuan-start/adb-gui` — ★72 · AGPL-3.0 · creado el 28 de junio de 2026 · release v0.1.12 del 27 de octubre. Ventana gráfica sobre ADB: dispositivos, capturas, grabación de pantalla e instalación de APK. Para el que no quiere teclear.
 • `austinsager/adv-install` — ★27 · MIT · creado el 18 de julio de 2026 · release v0.1.1 del 19 de julio, dormido desde entonces. Instalación estilo ADB desde el propio teléfono con Termux o Shizuku.
 • `audioeng89/tiny_apk_installer` — ★50 · MIT · creado y publicado el 26 de marzo de 2026, sin movimiento desde entonces. Un instalador de terminal, mínimo. Lo incluyo como lo que es: una idea buena que nadie siguió.
 
-*La verdad sobre ADB, dicha completa:* sirve para instalar, y no arregla el problema de fondo. Si en 2027 el sistema exige identidad en el momento de instalar, no hay certeza de que ADB siga siendo la excepción —hoy lo es, y lo fue en la primera ola—. Por eso la regla de la casa: **lo que hoy es una puerta, mañana puede ser una ventana**. Aprende el camino y no le jures lealtad.
+*La verdad sobre ADB, completa:* sirve para instalar y no arregla el fondo. Si en 2027 el sistema exige identidad al instalar, no hay certeza de que ADB siga siendo la excepción —hoy lo es—. **Lo que hoy es una puerta, mañana puede ser una ventana**: aprende el camino y no le jures lealtad.
 
-⏬ sigue abajo · parte 12 de 26
+*🥇 El aviso dentro de la app*
 
-═══ MENSAJE 14 de 27 · 2951 caracteres ═══
-
-*🥇 El aviso en tu propia app: FreeDroidWarn*
-
-Hay una pieza que me gusta más que cualquier campaña, y es la más callada: una biblioteca de aviso.
+Hay una pieza más callada que cualquier campaña: una biblioteca de aviso.
 
 `woheller69/FreeDroidWarn` — ★3.730 · Apache-2.0 · creado el 26 de agosto de 2025 · release **V1.14 del 9 de septiembre de 2026** · último empuje el 28 de octubre. Cualquier desarrollador puede meterla en su app para que, cuando el usuario la abra, vea un aviso: *esta app podría dejar de instalarse en el futuro por la regla tal*. No hay campaña, no hay cuenta, no hay petición: hay un cartel dentro del producto.
 
-*Por qué me parece la mejor herramienta de todas:* porque informa en el único sitio donde el usuario está mirando. Una carta abierta la lee quien ya está de acuerdo con la carta. Un aviso dentro de la app lo lee el que la usa, aunque no sepa que existe una discusión.
+*Por qué me parece la más útil de la ficha:* porque informa donde el usuario está mirando. Una carta abierta la lee quien ya está de acuerdo con ella; un aviso dentro de la app lo lee el que la usa, aunque no sepa que hay una discusión.
 
-*Su costo, dicho sin adornos:* el aviso ocupa pantalla y asusta. Y una app que asusta a su usuario puede perderlo. Que 3.730 personas le hayan dado estrella a una biblioteca que hace eso me dice que el miedo está más repartido de lo que la prensa cuenta.
+*Su costo, sin adornos:* el aviso ocupa pantalla y asusta, y una app que asusta a su usuario puede perderlo. Que 3.730 personas le hayan dado estrella a una biblioteca que hace eso dice que el miedo está más repartido de lo que la prensa cuenta.
+
+⏬ sigue abajo · parte 12 de 27
+
+═══ MENSAJE 14 de 28 · 3577 caracteres ═══
 
 *🕰️ Esto no nació ayer: las tres veces que Android cambió de cerrajero*
 
@@ -327,10 +327,6 @@ Para entender por qué hay gente que no se sorprende, conviene ver el patrón. N
 *Lo que dice el patrón, y es mi lectura:* cada paso fue más lejos en la cadena, del contenido al aparato y del aparato al autor. Nada de esto llegó con una sola actualización escandalosa; llegó en tres tramos, cada uno con su justificación razonable. Esa es la manera en que se mueve una cerradura: no de un golpe, sino de una vuelta por año.
 
 *Aviso de honestidad:* las tres veces que acabo de describir son historia bien documentada, no opinión. Mi lectura del patrón sí es opinión, y la marco como tal para que puedas discutirla.
-
-⏬ sigue abajo · parte 13 de 26
-
-═══ MENSAJE 15 de 27 · 1744 caracteres ═══
 
 *👥 Cinco casos, cinco respuestas (para que lo lleves a tu vida)*
 
@@ -349,9 +345,9 @@ Es el caso que la regla castiga de verdad, y la EFF lo dice sin rodeos: registra
 *Caso E — El del teléfono de 2019 sin actualizaciones.*
 Su problema no es el verificador: es que las apps nuevas piden versiones que su aparato no tiene. La regla no lo empeora de inmediato, pero le quita el consuelo de «al menos instalo lo que sea». *Consejo:* guardar las últimas versiones compatibles y no borrarlas al actualizar.
 
-⏬ sigue abajo · parte 14 de 26
+⏬ sigue abajo · parte 13 de 27
 
-═══ MENSAJE 16 de 27 · 3661 caracteres ═══
+═══ MENSAJE 15 de 28 · 3661 caracteres ═══
 
 *📋 LA FICHA DE HOY — 33 repositorios medidos uno por uno*
 
@@ -395,9 +391,9 @@ Todo lo de abajo lo consulté hoy con la API de GitHub: estrellas, licencia decl
 • **andronedev/openportal** — ★45 · MIT · creado 10-jun-2026 · sin release · empuje 27-oct
 • **itsmelissadev/SwiftSense** — ★42 · GPL-3.0 · creado 13-mar-2026 · release v1.3 (15-oct)
 
-⏬ sigue abajo · parte 15 de 26
+⏬ sigue abajo · parte 14 de 27
 
-═══ MENSAJE 17 de 27 · 2891 caracteres ═══
+═══ MENSAJE 16 de 28 · 2884 caracteres ═══
 
 • **LooseWireDev/unclouded** — ★27 · AGPL-3.0 · creado 10-mar-2026 · sin release · empuje 15-jul
 • **bl3xand/APK-Toolbox** — ★99 · GPL-3.0 · creado 8-oct-2026 · release v1.1.6 (28-oct) → rastrear, clonar, instalar y fusionar APK en el propio teléfono
@@ -423,11 +419,11 @@ Los cuatro los encontré hoy buscando por tema en la API de GitHub, filtrando po
 
 Y nacieron porque alguien no encontró la herramienta que necesitaba. Eso es lo que produce una cerradura nueva: gente escribiendo lo que falta a las dos de la mañana, sin pedirle permiso a nadie.
 
-*Lo que este censo no dice:* cuánta gente usa cada cosa. Las estrellas miden curiosidad, no adopción: `UnknownAuto` con ★145 en tres días puede tener cero usuarios reales, y `unclouded` con ★27 y dormido puede estar funcionando en la casa de alguien.
+*Lo que este censo no dice:* cuánta gente usa cada cosa. Las estrellas miden curiosidad, no adopción: `UnknownAuto` con ★145 en tres días puede tener cero usuarios, y `unclouded` con ★27 y dormido puede estar funcionando en la casa de alguien.
 
-⏬ sigue abajo · parte 16 de 26
+⏬ sigue abajo · parte 15 de 27
 
-═══ MENSAJE 18 de 27 · 2255 caracteres ═══
+═══ MENSAJE 17 de 28 · 2255 caracteres ═══
 
 *🛠️ Si algo falla (soluciones reales, no genéricas)*
 
@@ -449,9 +445,9 @@ Las dos cosas son verdad: hoy no pasa nada en la República Dominicana, y la reg
 *«¿Y si me espero a ver qué pasa?»*
 Es una decisión legítima y no te voy a regañar por ella. Lo único que te pido es que la espera sea informada: si en 2027 te agarra sin copias y sin saber usar un cable, la espera te costó caro. Si te agarra con las apps guardadas y el flujo probado una vez, la espera no te costó nada.
 
-⏬ sigue abajo · parte 17 de 26
+⏬ sigue abajo · parte 16 de 27
 
-═══ MENSAJE 19 de 27 · 3221 caracteres ═══
+═══ MENSAJE 18 de 28 · 3188 caracteres ═══
 
 *🧠 Cinco decisiones que la prensa toma por ti*
 
@@ -479,24 +475,19 @@ Es una decisión legítima y no te voy a regañar por ella. Lo único que te pid
 
 *«¿Es culpa de los usuarios que instalan basura?»* En parte, y decirlo no absuelve a nadie. La pregunta que decide es otra: si el problema es el malware, ¿por qué la solución es una identidad y no un antivirus? Cuando la herramienta no corresponde al problema, vale preguntar a quién le sirve.
 
-*«¿Tú qué harías?»* Guardar mis APK con fecha, aprender ADB este año, enseñarle a dos personas de mi familia lo del flujo avanzado, y no firmar nada que no haya leído. Eso es todo. No hay revolución en esa lista, y por eso mismo se puede hacer un domingo.
+*«¿Tú qué harías?»* Guardar mis APK con fecha, aprender ADB este año, enseñarle el flujo a dos personas de mi familia y no firmar nada que no haya leído. No hay revolución en esa lista, y por eso se puede hacer un domingo.
 
-⏬ sigue abajo · parte 18 de 26
+⏬ sigue abajo · parte 17 de 27
 
-═══ MENSAJE 20 de 27 · 2715 caracteres ═══
+═══ MENSAJE 19 de 28 · 3486 caracteres ═══
 
-*📖 Glosario (para no perderse)*
+*📖 Glosario mínimo*
 
 • *APK* — el archivo instalable de una app; a veces viene partido por arquitectura o idioma.
 • *ADB* — puente de depuración: la herramienta oficial para hablar con el teléfono por cable.
 • *Aparato certificado* — el que pasó la certificación de Google y trae sus servicios.
-• *Atestación* — prueba criptográfica de que el aparato corre el sistema que dice correr.
 • *Cuenta limitada* — registro gratis, sin documento, con tope de veinte aparatos.
-• *Flujo avanzado* — los nueve pasos y las veinticuatro horas para instalar sin registro.
 • *Firma* — la huella que dice quién empaquetó la app; si cambia, el sistema no actualiza.
-• *Identificador de paquete* — el nombre único de la app (`com.algo.app`). Es lo que se registra.
-• *Play Integrity* — el sistema que responde si un aparato es «de confianza» para ciertas apps.
-• *Play Services* — la capa de servicios de Google; por ahí viaja el verificador.
 • *Sideload* — instalar por fuera de la tienda. No es ilegal ni es sinónimo de mod.
 
 *🕒 La línea del tiempo, con las fechas que sí sostienen*
@@ -516,37 +507,37 @@ Es una decisión legítima y no te voy a regañar por ella. Lo único que te pid
 
 *Aviso:* la armé con fuentes públicas que se contradicen en dos puntos —la fecha exacta de llegada del verificador y la versión de Android cubierta—. Donde hay contradicción lo digo; donde hay consenso, lo afirmo.
 
-⏬ sigue abajo · parte 19 de 26
-
-═══ MENSAJE 21 de 27 · 3518 caracteres ═══
-
 *🔍 Cómo se mide una noticia así (el método, para que me desmientas)*
 
 Esta sección es la que hace que la pieza sea de esta casa y no un resumen más.
 
 *Primero: separo tipos de fuente.* Documentación oficial de Google (una cosa), blog corporativo (otra), cobertura de prensa (otra), campaña de activistas (otra). Las cuatro sirven y ninguna es neutra. Cuando escribo «Google dice», debe haber una página de Google; cuando escribo «la campaña denuncia», debe estar en su sitio.
 
-*Segundo: busco la fecha y el sujeto de cada afirmación.* «La regla entró en vigor» no significa nada sin país, aparato y tienda. Eso me obligó a escribir la frase completa cuatro veces para no mentir por brevedad.
+*Segundo: busco la fecha y el sujeto de cada afirmación.* «La regla entró en vigor» no significa nada sin país, aparato y tienda: eso obligó a escribir la condición completa cuatro veces.
 
-*Tercero: marco lo que no puedo verificar.* No puedo leer el verificador porque es propietario. No puedo saber si está activo en tu teléfono. No puedo saber cuánta gente usa cada herramienta de la ficha. Todo eso está dicho arriba como no medido, y esa lista es tan importante como la de lo medido.
+*Tercero: marco lo que no puedo verificar.* No puedo leer el verificador porque es propietario, ni saber si está activo en tu teléfono, ni cuánta gente usa cada herramienta. Esa lista es tan importante como la de lo medido.
 
 *Cuarto: mido los repos con la API y les pongo la hora.* Los 33 de la ficha llevan estrellas, licencia, creación, empuje y release; y la hora de la medición está en la firma.
 
 *Quinto: desconfío de mi entusiasmo.* Con villano claro se escribe mejor y se verifica menos. La prueba: aquí hay una sección entera con el argumento de Google, en serio.
 
+⏬ sigue abajo · parte 18 de 27
+
+═══ MENSAJE 20 de 28 · 2913 caracteres ═══
+
 *👀 Qué vigilar en los próximos sesenta días*
 
 Cuatro cosas concretas, con nombre y con qué significa cada una:
 
-*1. El contador de la campaña.* Su página marcaba 62 días al abrirla hoy. Si el contador se reinicia o cambia de fecha, es noticia: significa que algo se movió en el calendario oficial o en la estrategia de la campaña.
+*1. El contador de la campaña.* Marcaba 62 días al abrirla hoy. Si se reinicia o cambia de fecha, es noticia: algo se movió en el calendario oficial o en la campaña.
 
-*2. La respuesta de los reguladores.* Hay una pregunta escrita de una eurodiputada a la Comisión Europea sobre si esto cabe en la ley de mercados digitales. Si esa pregunta se convierte en expediente, el tema cambia de escenario: deja de ser una discusión de blogueros y pasa a ser un problema legal para Google.
+*2. La respuesta de los reguladores.* Hay una pregunta escrita de una eurodiputada a la Comisión Europea sobre si esto cabe en la ley de mercados digitales. Si se vuelve expediente, pasa de discusión de blogueros a problema legal para Google.
 
-*3. La primera ola, en la práctica.* Brasil, Indonesia, Singapur y Tailandia son el laboratorio. Lo que hay que mirar no son los titulares sino tres datos: cuánta gente completa el flujo avanzado, si las tiendas pequeñas pierden instalaciones, y si aparece una alternativa técnica que nadie había previsto. Ese último dato es el que siempre subestimo.
+*3. La primera ola, en la práctica.* Brasil, Indonesia, Singapur y Tailandia son el laboratorio. Lo que hay que mirar son tres datos: cuánta gente completa el flujo, si las tiendas pequeñas pierden instalaciones y si aparece una alternativa técnica que nadie previó.
 
-*4. Los proyectos de la ficha que se muevan.* `Uraam` publicó ayer; `tubehaus`, `Vela` y `grapheneos.org`, hoy. Si en dos meses siguen publicando es una señal; si se paran, también.
+*4. Los proyectos de la ficha que se muevan.* `Uraam` publicó ayer; `tubehaus`, `Vela` y `grapheneos.org`, hoy. Si en dos meses siguen publicando es señal; si paran, también.
 
-*🚫 Lo que esta pieza NO dice (y por qué)*
+*🚫 Fronteras del dato: lo que no se afirma*
 
 • *No dice que Google vaya a bloquear apps ya instaladas.* No hay evidencia de eso y no lo voy a inventar para asustar.
 • *No dice que el flujo avanzado no exista.* Existe, y lo describí con sus nueve pasos. Lo que digo es que está diseñado para que casi nadie lo use, y eso es una opinión fundada, no un hecho medido.
@@ -554,10 +545,6 @@ Cuatro cosas concretas, con nombre y con qué significa cada una:
 • *No dice que un Android sin servicios de Google sea la solución.* Dice que es un camino con precio, y nombra el precio: apps que no funcionan.
 • *No dice que la campaña tenga razón en todo.* Tiene una posición y la defiende; yo defiendo que la leas y verifiques sus fechas contra las de Google.
 • *No dice que esto sea el fin de Android.* Dice que es la tercera vuelta de cerradura, y que las tres primeras se dieron sin que casi nadie mirara.
-
-⏬ sigue abajo · parte 20 de 26
-
-═══ MENSAJE 22 de 27 · 3681 caracteres ═══
 
 *📆 Qué hacer este mes (sin dramatismo y sin dejarlo para 2027)*
 
@@ -567,9 +554,13 @@ Cuatro cosas concretas, con nombre y con qué significa cada una:
 
 *Semana tres — el cable.* Con una computadora y un cable, activa la depuración por USB e instala algo por ADB que no te importe. La primera vez da respeto; la segunda es rutina.
 
-*Semana cuatro — el flujo.* Si estás en un país de la primera ola, pruébalo una vez. Si no —el caso dominicano—, léelo y guárdalo: toca en 2027 y es mejor aprenderlo con calma.
+*Semana cuatro — el flujo.* Si estás en un país de la primera ola, pruébalo una vez; si no —el caso dominicano—, léelo y guárdalo: toca en 2027.
 
 *Y una cosa que no es tarea y sí importa:* cuéntaselo a una persona. No a diez: a una. La tía que le instala cosas el vecino, el primo del taller. La información que no se comparte con alguien concreto se queda en el hilo.
+
+⏬ sigue abajo · parte 19 de 27
+
+═══ MENSAJE 21 de 28 · 3368 caracteres ═══
 
 *🧪 Cómo comprobar tú mismo si tu teléfono lo tiene*
 
@@ -585,25 +576,13 @@ No hay que creerme: hay que mirar. Estas son las comprobaciones que cualquiera p
 
 *Lo que no te da:* certeza sobre 2027. Puede no tener el módulo hoy y recibirlo en marzo. La comprobación mide el presente.
 
-*📊 Todos los números de la pieza, juntos*
+*📊 Los números de la pieza, juntos*
 
-• *62* — días del contador de la campaña al abrirla hoy (3 de enero de 2027)
-• *4* — países de la primera ola: Brasil, Indonesia, Singapur y Tailandia, el 30 de septiembre de 2026
-• *2027* — expansión global, sin día anunciado · *7* — tiendas participantes
-• *24 de febrero de 2026* — carta abierta · *71* — organizaciones de *23* países · *+100.000* firmas
-• *9* — pasos del flujo · *24* — horas de espera · *7* — días de permiso temporal
-• *20* — aparatos de la cuenta limitada · *0* — dólares · *25* — dólares de la cuenta completa
-• *33* — repositorios medidos hoy · *33* — enlaces publicados, todos con respuesta 200
-• *9 de septiembre* — FreeDroidWarn V1.14 · *24 y 27 de septiembre* — F-Droid 2.0 y 2.0.1
-• *224* — apps que Play retiró en 2025 · *19 millones* — descargas que sumaban
-• *50 veces* — cuánto más malware dice Google que hay fuera de su tienda
-• *3* — veces que cambió el cerrajero, contadas en esta pieza
-
-*El «50 veces» no lo he podido verificar y no lo presento como medido:* es lo que Google afirma. El «224 apps» y los «19 millones» sí están en su informe anual. Esa distancia es justo lo que una pieza honesta señala.
-
-⏬ sigue abajo · parte 21 de 26
-
-═══ MENSAJE 23 de 27 · 1825 caracteres ═══
+• *62* — días del contador al abrirla hoy (3 de enero de 2027) · *4* — países de la primera ola, el 30 de septiembre de 2026 · *7* — tiendas
+• *2027* — expansión global, sin día anunciado · *9* — pasos del flujo · *24* — horas de espera · *7* — días de permiso temporal
+• *20* — aparatos de la cuenta limitada · *0* — dólares · *25* — dólares de la cuenta completa · *71* — organizaciones de *23* países · *+100.000* firmas
+• *33* — repositorios medidos hoy · *33* — enlaces comprobados, todos 200 · *224* — apps que Play retiró en 2025 · *19 millones* — descargas que sumaban
+• *50 veces* — más malware fuera de su tienda, según Google, y sin verificar por mi parte · *3* — veces que cambió el cerrajero
 
 *🧩 Mini-quiz (para saber si te quedó algo)*
 
@@ -629,66 +608,70 @@ No hay que creerme: hay que mirar. Estas son las comprobaciones que cualquiera p
 
 5. .odacifirev rodallorrased le rop odamrif y odartsiger étse eteuqap le euq edip alger al y ,evall aiporp us noc amrif y alipmoc diorD-F euqroP
 
+⏬ sigue abajo · parte 20 de 27
+
+═══ MENSAJE 22 de 28 · 3154 caracteres ═══
+
 *🧾 La vara aplicada, en cuatro frases*
 
 *Primera:* el problema no es que Google tenga una tienda con reglas, sino que la regla salió de la tienda y se paró en la puerta del aparato.
 
-*Segunda:* el argumento de seguridad es real e insuficiente. Un documento no hace seguro el código; hace rastreable al autor. Sirven las dos cosas, y no son la misma.
+*Segunda:* el argumento de seguridad es real e insuficiente. Un documento no hace seguro el código; hace rastreable al autor.
 
-*Tercera:* los veinte aparatos y el flujo de nueve pasos son reales y no resuelven el fondo. Una puerta que casi nadie cruza es una puerta cerrada con letrero amable.
+*Tercera:* los veinte aparatos y el flujo de nueve pasos son reales y no resuelven el fondo: una puerta que casi nadie cruza es una puerta cerrada con letrero amable.
 
-*Cuarta:* lo único que puedes hacer sin permiso de nadie es guardar tus archivos, saber tus fuentes y aprender el cable. Eso no detiene a Google; te deja en pie.
+*Cuarta:* lo único que puedes hacer sin permiso de nadie es guardar tus archivos, saber tus fuentes y aprender el cable.
 
-⏬ sigue abajo · parte 22 de 26
-
-═══ MENSAJE 24 de 27 · 3457 caracteres ═══
-
-*🔗 ENLACES DE ESTA PIEZA (todos canónicos, ninguno es un espejo)*
+*🔗 Enlaces de esta pieza*
 
 *La campaña y el aviso:*
-https://github.com/keepandroidopen/keepandroidopen.github.io
-https://github.com/woheller69/FreeDroidWarn
-https://github.com/tsunderswapElnina/Keep-Android-Open-UI
+- Keep Android Open (sitio de la campaña): https://github.com/keepandroidopen/keepandroidopen.github.io
+- FreeDroidWarn (el aviso dentro de la app): https://github.com/woheller69/FreeDroidWarn
+- Keep Android Open UI (reloj de cuenta regresiva): https://github.com/tsunderswapElnina/Keep-Android-Open-UI
 
 *El marcador y los instaladores por cable:*
-https://github.com/daboynb/developer-verifier-placeholder
-https://github.com/zechuan-start/adb-gui
-https://github.com/Ruraam/Uraam
-https://github.com/audioeng89/tiny_apk_installer
-https://github.com/austinsager/adv-install
+- developer-verifier-placeholder (el marcador): https://github.com/daboynb/developer-verifier-placeholder
+- adb-gui: https://github.com/zechuan-start/adb-gui
+- Uraam: https://github.com/Ruraam/Uraam
+- tiny_apk_installer: https://github.com/audioeng89/tiny_apk_installer
+- adv-install: https://github.com/austinsager/adv-install
 
 *El sistema sin servicios de Google:*
-https://github.com/GrapheneOS/Vanadium
-https://github.com/GrapheneOS/Auditor
-https://github.com/GrapheneOS/grapheneos.org
-https://github.com/GrapheneOS/Camera
-https://github.com/GrapheneOS/PdfViewer
-https://github.com/GrapheneOS/hardened_malloc
+- Vanadium (navegador): https://github.com/GrapheneOS/Vanadium
+- Auditor: https://github.com/GrapheneOS/Auditor
+- GrapheneOS (sitio): https://github.com/GrapheneOS/grapheneos.org
+- Camera: https://github.com/GrapheneOS/Camera
+- PdfViewer: https://github.com/GrapheneOS/PdfViewer
+- hardened_malloc: https://github.com/GrapheneOS/hardened_malloc
 
 *Reemplazos, uno por uno:*
-https://github.com/degoog-org/degoog
-https://github.com/PimpinPumpkin/Vela
-https://github.com/Pelski/ytzero
-https://github.com/hakerdefo/Robota-Liberated
-https://github.com/twinksoftware/Gearslip
-https://github.com/biolend83/tubehaus
-https://github.com/GitMag/UnknownAuto
-https://github.com/steven-ahfu/Android-TV-Desktop-Toolkit
-https://github.com/m-salehi-v/mrowser
-https://github.com/Miniontoby/RokidApkUploader
-https://github.com/andronedev/openportal
-https://github.com/itsmelissadev/SwiftSense
-https://github.com/LooseWireDev/unclouded
-https://github.com/bl3xand/APK-Toolbox
-https://github.com/richardkfm/los-bootstrap
-https://github.com/Ha2mad/package-pass
-https://github.com/Meirwolf1289/fdroid-census
+- degoog: https://github.com/degoog-org/degoog
+- Vela (mapas): https://github.com/PimpinPumpkin/Vela
+- ytzero: https://github.com/Pelski/ytzero
+- Robota-Liberated: https://github.com/hakerdefo/Robota-Liberated
+- Gearslip: https://github.com/twinksoftware/Gearslip
+- tubehaus: https://github.com/biolend83/tubehaus
+- UnknownAuto: https://github.com/GitMag/UnknownAuto
+- Android TV Desktop Toolkit: https://github.com/steven-ahfu/Android-TV-Desktop-Toolkit
+- mrowser: https://github.com/m-salehi-v/mrowser
+- RokidApkUploader: https://github.com/Miniontoby/RokidApkUploader
+- openportal: https://github.com/andronedev/openportal
+- SwiftSense: https://github.com/itsmelissadev/SwiftSense
+- unclouded: https://github.com/LooseWireDev/unclouded
+- APK-Toolbox: https://github.com/bl3xand/APK-Toolbox
+- los-bootstrap: https://github.com/richardkfm/los-bootstrap
+- package-pass: https://github.com/Ha2mad/package-pass
+- fdroid-census: https://github.com/Meirwolf1289/fdroid-census
 
 *Los dos que entran por su lección:*
-https://github.com/FoedusProgramme/Checker
-https://github.com/HydraDragonAntivirus/HydraDragonAV-Mobile
+- Checker: https://github.com/FoedusProgramme/Checker
+- HydraDragonAV-Mobile: https://github.com/HydraDragonAntivirus/HydraDragonAV-Mobile
 
-*Aviso de enlaces:* ninguno instala nada solo. Los de la campaña y la guía son texto; los de apps traen su release y su licencia a la vista. Lo que no enlazo a propósito es cualquier cosa que prometa saltarse la verificación sin decir qué te pide a cambio.
+*Aviso:* ninguno instala nada solo. Los de la campaña y la guía son texto; los de apps traen su release y su licencia a la vista. Lo que no enlazo es cualquier cosa que prometa saltarse la verificación sin decir qué te pide a cambio.
+
+⏬ sigue abajo · parte 21 de 27
+
+═══ MENSAJE 23 de 28 · 1511 caracteres ═══
 
 *🤝 Lo que le pediría a Google, y lo que le pediría a F-Droid*
 
@@ -706,39 +689,89 @@ Intenté lo de siempre: qué pasó con fecha y fuente, qué no pasó aunque no d
 
 La cerradura cambió de dueño y todavía no llegó a tu puerta. Es una ventaja, no una excusa: es el tiempo exacto para tener tus copias, saber tus fuentes y conocer el cable.
 
-⏬ sigue abajo · parte 23 de 26
+⏬ sigue abajo · parte 22 de 27
 
-═══ MENSAJE 25 de 27 · 882 caracteres ═══
+═══ MENSAJE 24 de 28 · 2319 caracteres ═══
 
-*🎁 Para copiar y pegar (si solo te llevas una cosa)*
+*🎁 Para copiar y pegar*
 
 > «En 2027, instalar una app que no esté en una tienda grande va a pedir que su autor se haya identificado con Google, salvo que uses el flujo de nueve pasos y veinticuatro horas. Hoy no aplica en RD. Guardo mis APK con fecha, sé de dónde salen y estoy aprendiendo ADB. Eso es todo lo que puedo controlar.»
 
 Puedes mandarlo tal cual a tu grupo: no promete nada falso ni asusta a nadie.
 
-💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy los 29 repositorios de esta pieza con la API y sus 33 enlaces: 33 vivos, ninguno archivado, y los 33 enlaces responden 200 a las 06:55. Los números llevan la hora, no solo la fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.
+> —¿Y si Google cambia la cerradura otra vez?
+> —Entonces el cable y tus copias ya te conocen la puerta.
 
-⏬ sigue abajo · parte 24 de 26
+💓 *La Bandita informa a partir de fuentes fechadas.* La cerradura cambió de dueño y todavía no llegó a tu puerta: ese es el tiempo exacto para tener las copias guardadas y el cable aprendido.
 
-═══ MENSAJE 26 de 27 · 947 caracteres ═══
+*Medición del corte:* domingo 1 de noviembre de 2026, 06:55 de Santo Domingo · treinta y tres repositorios medidos uno por uno, sin caché, contra la API pública de GitHub (estrellas, licencia, creación, último empuje, última publicación) · treinta y tres enlaces comprobados uno por uno, todos con respuesta 200 · cuatro de esos repositorios nacieron en las últimas dos semanas y no venían de ninguna lista anterior. Lo que no se pudo medir está escrito arriba como no medido: el interior del verificador, el estado de tu teléfono y el uso real de cada herramienta.
+
+## 🗒️ Notas al pie
+
+**Nota de corrección (1-nov):** cuatro cadenas del acertijo estaban invertidas de forma incorrecta y no descifraban nada; se rehicieron una por una y se comprobaron al revés. También se corrigieron `Pelski/ytzero` (decía «sin licencia declarada» y la API devuelve Unlicense) y `GrapheneOS/Vanadium` (decía «sin declarar» y la API devuelve NOASSERTION).
+
+**Nota de verificación final (1-nov, mañana):** los treinta y tres enlaces se abrieron uno por uno y devolvieron 200 a las 06:55, con `curl -L`. Las estrellas y licencias son de la misma hora; si las lees en otro corte, la hora de la firma te dice cuán viejo es el dato.
+
+**Nota del corte (1-nov):** corte real de la pieza, no heredado de ningún borrador. El sweep del día se hizo completo sobre los treinta y tres repositorios y no quedó ningún dato estimado. Pendiente declarado: la medición del archivo completo de envíos (unos setecientos repositorios) necesita el token de GitHub; sin él la cuota es de sesenta consultas por hora.
+
+⏬ sigue abajo · parte 23 de 27
+
+═══ MENSAJE 25 de 28 · 3896 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-(De 30 no tengo dato de hoy y lo digo: keepandroidopen/keepandroidopen.github.io, tsunderswapElnina/Keep-Android-Open-UI, zechuan-start/adb-gui, Ruraam/Uraam, audioeng89/tiny_apk_installer, austinsager/adv-install….)
-
+• keepandroidopen/keepandroidopen.github.io — ★478 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · CC0-1.0
 • woheller69/FreeDroidWarn — ★3.730 (+13) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
+• tsunderswapElnina/Keep-Android-Open-UI — ★1 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · MIT · última release v1.0.1-patch1 (13-oct-2026)
 • daboynb/developer-verifier-placeholder — ★184 (+1) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)
+• zechuan-start/adb-gui — ★72 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release v0.1.12 (27-oct-2026)
+• Ruraam/Uraam — ★50 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v4.4.6 (31-oct-2026)
+• audioeng89/tiny_apk_installer — ★50 (sin cambio) · *dormido*: sin empujar desde el 26-mar-2026 (220 días) · MIT · última release 0.1.0 (26-mar-2026)
+• austinsager/adv-install — ★27 (sin cambio) · *dormido*: sin empujar desde el 19-jul-2026 (105 días) · MIT · última release v0.1.1 (19-jul-2026)
+• GrapheneOS/Vanadium — ★2.267 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release 156.0.8078.79.0 (30-oct-2026)
+• GrapheneOS/Auditor — ★729 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 92 (30-may-2026)
+• GrapheneOS/grapheneos.org — ★783 (sin cambio) · empujó en las últimas horas · MIT
+• GrapheneOS/Camera — ★1.423 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 93 (1-ago-2026)
+• GrapheneOS/PdfViewer — ★1.062 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 33 (30-jul-2026)
+• GrapheneOS/hardened_malloc — ★2.048 (sin cambio) · empujó en las últimas horas · MIT · última release 14 (22-feb-2026)
+• degoog-org/degoog — ★2.505 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release 1.1.1 (25-oct-2026)
 • PimpinPumpkin/Vela — ★2.298 (+16) · empujó en las últimas horas · GPL-3.0 · última release v0.5.2621 (19-oct-2026)
+• Pelski/ytzero — ★670 (sin cambio) · empujó el 28-sep-2026 (hace 34 días) · Unlicense · última release 2026.09.9 (28-sep-2026)
+• hakerdefo/Robota-Liberated — ★231 (sin cambio) · *dormido*: sin empujar desde el 3-jun-2026 (151 días) · CC0-1.0
+• twinksoftware/Gearslip — ★230 (+1) · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v0.3.12-alpha (25-oct-2026)
+• biolend83/tubehaus — ★188 (+1) · empujó en las últimas horas · AGPL-3.0 · última release app-v0.5.10 (1-nov-2026)
+• GitMag/UnknownAuto — ★147 (+2) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v1.1 (30-oct-2026)
+• steven-ahfu/Android-TV-Desktop-Toolkit — ★94 (sin cambio) · *dormido*: sin empujar desde el 20-jul-2026 (104 días) · AGPL-3.0 · última release v4.1.10 (20-jul-2026)
+• m-salehi-v/mrowser — ★64 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · MIT · última release v1.4.0 (16-oct-2026)
+• Miniontoby/RokidApkUploader — ★60 (sin cambio) · *dormido*: sin empujar desde el 9-abr-2026 (206 días) · GPL-3.0 · última release v1.0.3 (9-abr-2026)
+• andronedev/openportal — ★45 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · MIT
+• itsmelissadev/SwiftSense — ★42 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v1.3 (15-oct-2026)
+• LooseWireDev/unclouded — ★27 (sin cambio) · *dormido*: sin empujar desde el 15-jul-2026 (109 días) · AGPL-3.0
+• bl3xand/APK-Toolbox — ★99 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
+• richardkfm/los-bootstrap — ★6 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0 · última release v0.14.0 (15-oct-2026)
+
+⏬ sigue abajo · parte 24 de 27
+
+═══ MENSAJE 26 de 28 · 526 caracteres ═══
+
+• Ha2mad/package-pass — ★0 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT
+• Meirwolf1289/fdroid-census — ★0 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
+• FoedusProgramme/Checker — ★83 (sin cambio) · *dormido*: sin empujar desde el 18-ene-2024 (1018 días) · GPL-3.0 · última release 1.0.9 (18-ene-2024)
+• HydraDragonAntivirus/HydraDragonAV-Mobile — ★23 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-2.0 · última release v1.4.2 (6-ago-2026)
+
+⏬ sigue abajo · parte 25 de 27
+
+═══ MENSAJE 27 de 28 · 137 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 3 enlaces de esta pieza, *3 responden*.
+De los 33 enlaces de esta pieza, *33 responden*.
 Ninguno roto.
 
-⏬ sigue abajo · parte 25 de 26
+⏬ sigue abajo · parte 26 de 27
 
-═══ MENSAJE 27 de 27 · 152 caracteres ═══
+═══ MENSAJE 28 de 28 · 152 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.

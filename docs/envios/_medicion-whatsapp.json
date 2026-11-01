@@ -3761,6 +3761,366 @@
    "release": "v1.0.0",
    "release_fecha": "2026-05-10",
    "stars_pieza": 4099
+  },
+  "keepandroidopen/keepandroidopen.github.io": {
+   "estado": "vivo",
+   "stars": 478,
+   "push": "2026-10-23",
+   "archivado": false,
+   "licencia": "CC0-1.0",
+   "lenguaje": "HTML",
+   "desc": "Resisting Google's Android developer verification mandate",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 478
+  },
+  "tsunderswapElnina/Keep-Android-Open-UI": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-10-13",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Keep Android Open campaign app: real-time countdown to the 2027 Android lockdown, Developer Verification explainer, and Act Now tools. Material 3 Expressive.",
+   "release": "v1.0.1-patch1",
+   "release_fecha": "2026-10-13",
+   "stars_pieza": 1
+  },
+  "zechuan-start/adb-gui": {
+   "estado": "vivo",
+   "stars": 72,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "TypeScript",
+   "desc": "跨平台 Android ADB 桌面 GUI（Tauri + React）：设备管理/无线连接、截图、录屏、APK 安装、应用管理、DeepLink、端口转发、Bug 报告、Logcat 查看等 | Cross-platform Tauri desktop GUI for Android ADB: device management, Wi-Fi connect, screenshots, screen recording, APK install, app manager, deep links, port forwarding, bug reports, and logcat viewer.",
+   "release": "v0.1.12",
+   "release_fecha": "2026-10-27",
+   "stars_pieza": 72
+  },
+  "Ruraam/Uraam": {
+   "estado": "vivo",
+   "stars": 50,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Shell",
+   "desc": "Universal Ruvomain ADB App Manager [URAAM]: An all-in-one shell toolkit for Android debloating. Uninstall/disable your apps, backup your debloat apps JSON file & revert/restore, install apk. Works with \"Termux  `WirelessADB, Shizuku, Root', Linux `Debian, Arch, Fedora, macOS & WSL '. Compatible with Canta/UAD JSON lists.",
+   "release": "v4.4.6",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": 50
+  },
+  "audioeng89/tiny_apk_installer": {
+   "estado": "vivo",
+   "stars": 50,
+   "push": "2026-03-26",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Go",
+   "desc": "A simple TUI for installing APKs and bundles on Android via ADB. Written in Go.",
+   "release": "0.1.0",
+   "release_fecha": "2026-03-26",
+   "stars_pieza": 50
+  },
+  "austinsager/adv-install": {
+   "estado": "vivo",
+   "stars": 27,
+   "push": "2026-07-19",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Shell",
+   "desc": "On-device ADB-style APK installation using Termux, Shizuku, rish, and Android shell identity for Developer Verification-era workflows.",
+   "release": "v0.1.1",
+   "release_fecha": "2026-07-19",
+   "stars_pieza": 27
+  },
+  "GrapheneOS/Vanadium": {
+   "estado": "vivo",
+   "stars": 2267,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Python",
+   "desc": "Privacy and security enhanced releases of Chromium for GrapheneOS. Vanadium provides the WebView and standard user-facing browser on GrapheneOS. It depends on hardening in other GrapheneOS repositories and doesn't include patches not relevant to the build targets used on GrapheneOS.",
+   "release": "156.0.8078.79.0",
+   "release_fecha": "2026-10-30",
+   "stars_pieza": 2267
+  },
+  "GrapheneOS/Auditor": {
+   "estado": "vivo",
+   "stars": 729,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Java",
+   "desc": "Hardware-based attestation and intrusion detection app for Android. It provides both local verification with another Android device via QR codes and optional scheduled server-based verification with support for alert emails. It uses hardware-backed keys and attestation support as the foundation and chains trust to the app for software checks.",
+   "release": "92",
+   "release_fecha": "2026-05-30",
+   "stars_pieza": 729
+  },
+  "GrapheneOS/grapheneos.org": {
+   "estado": "vivo",
+   "stars": 783,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "HTML",
+   "desc": "Servers for our website, HTTP/HTTPS connectivity checks, HTTPS network time, NTP (for Qualcomm XTRA), Broadcom PSDS cache, Samsung PSDS cache, Qualcomm PSDS (XTRA) cache, SUPL proxy, attestation key provisioning proxy, Vanadium component update check/download proxy, network location proxy and geocoding proxy. Also app and OS updates via an include.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 783
+  },
+  "GrapheneOS/Camera": {
+   "estado": "vivo",
+   "stars": 1423,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Modern camera app focused on privacy and security with QR & barcode scanning.",
+   "release": "93",
+   "release_fecha": "2026-08-01",
+   "stars_pieza": 1423
+  },
+  "GrapheneOS/PdfViewer": {
+   "estado": "vivo",
+   "stars": 1062,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Simple Android PDF viewer based on pdf.js and content providers. The app doesn't require any permissions. The PDF stream is fed into the sandboxed WebView without giving it access to content or files. CSP is used to enforce that the JavaScript and styling properties within the WebView are entirely static.",
+   "release": "33",
+   "release_fecha": "2026-07-30",
+   "stars_pieza": 1062
+  },
+  "GrapheneOS/hardened_malloc": {
+   "estado": "vivo",
+   "stars": 2048,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "C",
+   "desc": "Hardened allocator designed for modern systems. It has integration into Android's Bionic libc and can be used externally with musl and glibc as a dynamic library for use on other Linux-based platforms. It will gain more portability/integration over time.",
+   "release": "14",
+   "release_fecha": "2026-02-22",
+   "stars_pieza": 2048
+  },
+  "degoog-org/degoog": {
+   "estado": "vivo",
+   "stars": 2505,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "TypeScript",
+   "desc": "Search engine aggregator with a comprehensive plugin/extension system",
+   "release": "1.1.1",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": 2505
+  },
+  "Pelski/ytzero": {
+   "estado": "vivo",
+   "stars": 670,
+   "push": "2026-09-28",
+   "archivado": false,
+   "licencia": "Unlicense",
+   "lenguaje": "TypeScript",
+   "desc": "YT Zero - own rules, own algorithm, no login required. Every video from every channel you follow, and nothing else",
+   "release": "2026.09.9",
+   "release_fecha": "2026-09-28",
+   "stars_pieza": 670
+  },
+  "hakerdefo/Robota-Liberated": {
+   "estado": "vivo",
+   "stars": 231,
+   "push": "2026-06-03",
+   "archivado": false,
+   "licencia": "CC0-1.0",
+   "lenguaje": null,
+   "desc": "The Android you own, not the one that owns you.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 231
+  },
+  "twinksoftware/Gearslip": {
+   "estado": "vivo",
+   "stars": 230,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "An Android Auto alternative built for everyone",
+   "release": "v0.3.12-alpha",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": 229
+  },
+  "biolend83/tubehaus": {
+   "estado": "vivo",
+   "stars": 188,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "JavaScript",
+   "desc": "A private YouTube client: self-hosted web version (one docker compose) and native apps for Android, Windows, macOS, Linux and iPad/iPhone. No Google account, no tracking. Not affiliated with YouTube or Google.",
+   "release": "app-v0.5.10",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": 187
+  },
+  "GitMag/UnknownAuto": {
+   "estado": "vivo",
+   "stars": 147,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Java",
+   "desc": "Sideload and install your favourite Android Auto applications from unknown souces using UnknownAuto with just your phone.",
+   "release": "v1.1",
+   "release_fecha": "2026-10-30",
+   "stars_pieza": 145
+  },
+  "steven-ahfu/Android-TV-Desktop-Toolkit": {
+   "estado": "vivo",
+   "stars": 94,
+   "push": "2026-07-20",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Python",
+   "desc": "All-in-one Windows and MacOS app for managing Android TV devices over ADB. Scan your network, sideload APKs, manage packages, tweak performance, control settings,   mirror your screen with ScrCpy, use a virtual remote, and more",
+   "release": "v4.1.10",
+   "release_fecha": "2026-07-20",
+   "stars_pieza": 94
+  },
+  "m-salehi-v/mrowser": {
+   "estado": "vivo",
+   "stars": 64,
+   "push": "2026-10-26",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Android TV browser for watching video from sites your TV has no app for — detects the page's HLS stream and plays it in a real native player, in sync. D-pad mouse cursor, live subtitle retiming, no Play Services.",
+   "release": "v1.4.0",
+   "release_fecha": "2026-10-16",
+   "stars_pieza": 64
+  },
+  "Miniontoby/RokidApkUploader": {
+   "estado": "vivo",
+   "stars": 60,
+   "push": "2026-04-09",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Just a simple Android app that uses Rokid's CXR-M SDK to upload/sideload an APK onto your Rokid glasses over Wi-Fi. It might be hard to get connected or to get it to upload, be warned!",
+   "release": "v1.0.3",
+   "release_fecha": "2026-04-09",
+   "stars_pieza": 60
+  },
+  "andronedev/openportal": {
+   "estado": "vivo",
+   "stars": 45,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "desc": "Bring your Meta Portal back to life | install apps, mirror its screen, and manage it all from your browser. No app, no drivers, no backend.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 45
+  },
+  "itsmelissadev/SwiftSense": {
+   "estado": "vivo",
+   "stars": 42,
+   "push": "2026-10-15",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "SwiftSense is a rootless Android optimization suite: built-in wireless ADB, APK/XAPK installer, 200Hz+ sensor boost, AMOLED display protection, background app stopper, and system macros in a modern Material 3 UI.",
+   "release": "v1.3",
+   "release_fecha": "2026-10-15",
+   "stars_pieza": 42
+  },
+  "LooseWireDev/unclouded": {
+   "estado": "vivo",
+   "stars": 27,
+   "push": "2026-07-15",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "TypeScript",
+   "desc": "App discover for obtainium",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 27
+  },
+  "bl3xand/APK-Toolbox": {
+   "estado": "vivo",
+   "stars": 99,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Track, clone, install and merge Android apps right on the phone: updates straight from GitHub, F-Droid and other sources, second copies of apps, split APK installer, APKS export and split merging. No root.",
+   "release": "v1.1.6",
+   "release_fecha": "2026-10-28",
+   "stars_pieza": 99
+  },
+  "richardkfm/los-bootstrap": {
+   "estado": "vivo",
+   "stars": 6,
+   "push": "2026-10-16",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Python",
+   "desc": "CLI for installing and post-install setup lineageOS on degoogled android phones.",
+   "release": "v0.14.0",
+   "release_fecha": "2026-10-15",
+   "stars_pieza": 6
+  },
+  "Ha2mad/package-pass": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "desc": "Get Android apps through developer verification: batch-read package names and signing-key SHA-256s from APK/AAB in the browser, plan registrations, preflight proof APKs.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 0
+  },
+  "Meirwolf1289/fdroid-census": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "Python",
+   "desc": "How many F-Droid apps are registered for Google's Android developer verification? A census via Google's status API.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 0
+  },
+  "FoedusProgramme/Checker": {
+   "estado": "vivo",
+   "stars": 83,
+   "push": "2024-01-18",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A tool for ROM developers to verify the sanity of their builds.",
+   "release": "1.0.9",
+   "release_fecha": "2024-01-18",
+   "stars_pieza": 83
+  },
+  "HydraDragonAntivirus/HydraDragonAV-Mobile": {
+   "estado": "vivo",
+   "stars": 23,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "GPL-2.0",
+   "lenguaje": "YARA",
+   "desc": "Android Antivirus which doesn't require root, adb, ca install and cloud with many features and ways to detect more zero-day malware",
+   "release": "v1.4.2",
+   "release_fecha": "2026-08-06",
+   "stars_pieza": 23
   }
  },
  "enlaces": {
@@ -5729,6 +6089,126 @@
    "veredicto": "responde"
   },
   "https://yuzono.github.io": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/FoedusProgramme/Checker": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GitMag/UnknownAuto": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/Auditor": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/Camera": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/PdfViewer": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/Vanadium": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/grapheneos.org": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/hardened_malloc": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Ha2mad/package-pass": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/HydraDragonAntivirus/HydraDragonAV-Mobile": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/LooseWireDev/unclouded": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Meirwolf1289/fdroid-census": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Miniontoby/RokidApkUploader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Pelski/ytzero": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Ruraam/Uraam": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/andronedev/openportal": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/audioeng89/tiny_apk_installer": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/austinsager/adv-install": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/biolend83/tubehaus": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/bl3xand/APK-Toolbox": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/degoog-org/degoog": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/hakerdefo/Robota-Liberated": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/itsmelissadev/SwiftSense": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/keepandroidopen/keepandroidopen.github.io": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/m-salehi-v/mrowser": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/richardkfm/los-bootstrap": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/steven-ahfu/Android-TV-Desktop-Toolkit": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/tsunderswapElnina/Keep-Android-Open-UI": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/twinksoftware/Gearslip": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/zechuan-start/adb-gui": {
    "codigo": "200",
    "veredicto": "responde"
   }

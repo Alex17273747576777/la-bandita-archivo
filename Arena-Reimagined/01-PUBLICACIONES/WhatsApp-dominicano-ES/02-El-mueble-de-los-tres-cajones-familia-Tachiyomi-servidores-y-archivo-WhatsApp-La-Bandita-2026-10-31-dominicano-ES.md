@@ -16,7 +16,7 @@ Casi todo el mundo habla del primer cajón. Esta guía habla de los tres, porque
 
 *🌱 Semilla principal — por qué este mueble tiene tres puertas*
 
-Voy a contarlo como me lo explicaría a mí mismo si tuviera el teléfono en la mano y cero paciencia.
+El orden en que se rompe es el orden en que conviene aprenderlo.
 
 *Cajón 1 · El motor.* Es la aplicación. Abre archivos, ordena imágenes, guarda la posición de lectura, gestiona descargas. Da igual de dónde vengan las páginas: el motor solo las dibuja. Un buen motor se nota en dos cosas tontas que valen oro: que no se trabe al pasar páginas grandes y que no pierda el sitio donde ibas.
 
@@ -70,21 +70,18 @@ Voy a contarlo como me lo explicaría a mí mismo si tuviera el teléfono en la 
 *🗺️ Mapa de esta pieza*
 
 ```
-├── 🌱 Semilla: los tres cajones · ~2 min
-├── 🎯 Adivina la casa · ~1 min
-├── ⚡ En una página · ~1 min
+├── 🌱 Semilla, adivina la casa y página de un vistazo · ~4 min
 ├── 🗺️ Este mapa · ~1 min
-├── 🌳 El árbol: de Tachiyomi a Mihon y sus ocho hijos · ~8 min
+├── 🌳 El árbol: de Tachiyomi a Mihon · ~8 min
 ├── 🐈 Kotatsu: el archivo que se cerró · ~5 min
 ├── 📚 Los cinco lectores que valen hoy · ~8 min
-├── 🧩 Las extensiones, el cajón que nadie mira · ~8 min
-├── 🖥️ El servidor en casa: Suwayomi, Komga, Kavita · ~7 min
+├── 🧩 Extensiones y el cajón dos a fondo · ~16 min
+├── 🖥️ El servidor en casa y la sincronización · ~12 min
 ├── ⚖️ La ley, sin sermón · ~4 min
-├── 🛠️ Tutorial: de cero a biblioteca con respaldo · ~8 min
-├── 🧳 Las variables que no puedes perder · ~7 min
-├── 📋 La ficha de hoy (53 repos) · ~5 min
-├── 🎯 Mini-quiz · ~1 min
-└── 🔗 Enlaces y firma · ~2 min
+├── 🛠️ Tutorial, variables y ocho fallos · ~23 min
+├── 🆕 El censo nuevo y las migraciones · ~12 min
+├── 📋 La ficha de hoy, el anime y el glosario · ~12 min
+└── 🔗 Enlaces, notas del corte y firma · ~3 min
 ```
 
 ───────────────────
@@ -93,7 +90,7 @@ Voy a contarlo como me lo explicaría a mí mismo si tuviera el teléfono en la 
 
 Esto no es historia por gusto. Es la explicación de por qué tu lector se llama de una forma y las extensiones de otra.
 
-*La raíz.* Tachiyomi empezó siendo un proyecto chiquito —se llamó MangaWindow antes de tener el nombre que casi todos conocen— y creció durante años hasta ser el lector de cómics más usado de Android, con decenas de miles de estrellas. Su modelo era raro y brillante: *el motor no sabía nada del contenido*. Todo el contenido venía de extensiones que cualquiera podía escribir, revisar y publicar. El motor quedaba limpio por diseño; el catálogo era un ecosistema aparte.
+*La raíz.* Tachiyomi empezó siendo un proyecto chiquito —se llamó MangaWindow antes de tener el nombre que casi todos conocen— y creció durante años hasta ser el lector de cómics más usado de Android, con decenas de miles de estrellas. Su modelo era raro y brillante: *el motor no sabía nada del contenido*. Todo el contenido venía de extensiones que cualquiera podía escribir, revisar y publicar. El motor quedaba limpio por diseño y el catálogo era un ecosistema aparte.
 
 *El terremoto.* A principios de 2024 el proyecto anunció su cierre. No fue un cuelgue: fue una decisión, con su comunicado y su fecha. El repositorio desapareció del mapa público y, medido hoy, `tachiyomiorg/tachiyomi` responde **404**. En este archivo un 404 se registra como muerto, con fecha, y así queda.
 
@@ -103,9 +100,9 @@ Esto no es historia por gusto. Es la explicación de por qué tu lector se llama
 
 *Los hijos que ya estaban.* Cuando el tronco cayó, las ramas siguieron:
 
-• *komikku-app/komikku* — *★4.964 · Apache-2.0 · empujó hoy · release v1.14.1 del 17 de julio*. El fork más popular. Añade funciones que Mihon no tiene, sobre todo en gestión de biblioteca y ajustes de lector. Ojo con la fecha: su última release es de julio y su último empuje es de hoy mismo. Eso no es abandono: es un proyecto que trabaja por ramas y publica por tandas.
+• *komikku-app/komikku* — *★4.964 · Apache-2.0 · empujó hoy · release v1.14.1 del 17 de julio*. El fork más popular: añade funciones que Mihon no tiene, sobre todo en biblioteca y ajustes de lector. Ojo con la fecha: su última release es de julio y su empuje es de hoy. No es abandono: trabaja por ramas y publica por tandas.
 • *nekomangaorg/Neko* — *★2.818 · Apache-2.0 · empujó hoy · release 3.8.5 del 30 de octubre*. Enfocado en catálogos alternativos y respaldo entre dispositivos.
-• *Kototoro-app/Kototoro* — *★659 · Apache-2.0 · empujó ayer · release v2.3.4 del 29 de octubre*. El más joven y el más rápido del grupo. Tiene su propio sistema de parsers, separado en `skepsun/kototoro-parsers` (*★17 · GPL-3.0 · empuje 28-oct*), lo cual es una decisión interesante: el motor y el catálogo viven en repositorios distintos, con licencias distintas.
+• *Kototoro-app/Kototoro* — *★659 · Apache-2.0 · empujó ayer · release v2.3.4 del 29 de octubre*. El más joven y el más rápido del grupo. Tiene su propio sistema de parsers, separado en `skepsun/kototoro-parsers` (*★17 · GPL-3.0 · empuje 28-oct*): el motor y el catálogo viven en repositorios distintos, con licencias distintas.
 • *ruzhe85/MihonSY* — *★48 · Apache-2.0 · empuje 28-oct · release v1.2.1 del 7 de octubre*. Fork de fork: toma lo de Mihon y lo de TachiyomiSY. Los forks de forks son la norma, no la excepción.
 • *RecordXenon/Kotatsu-Ultra* — *★117 · sin licencia declarada · empuje 22-oct*. Un fork de Kotatsu que siguió cuando el original se archivó.
 • *Nyora-Manga/nyora-android* — *★58 · GPL-3.0 · empuje 23-sep · release v2.7.3 del 31 de julio*. Lector independiente, no heredero.
@@ -205,7 +202,7 @@ Aquí está la parte que la gente se salta y que explica el 90 % de los problema
 • *timschneeb/tachiyomi-extensions-archive* — **★1.802 · Apache-2.0 · archivado · último empuje 23-mar-2026**. El archivo histórico. Sirve para reconstruir qué existía, no para instalar hoy.
 • *m2k3a/mangayomi-extensions* — **★113 · Apache-2.0 · empuje 29-oct**. El catálogo del primo independiente. No sirve para Mihon ni para sus forks.
 
-*El detalle técnico que explica los sustos.* Cuando añades un repositorio de extensiones a tu lector, estás añadiendo un índice: un archivo que dice «estas son las extensiones, estas son sus versiones, estos son sus hashes». Si el índice cambia de dueño o de dirección, tu lector empieza a fallar en cosas raras: extensiones que «no existen», actualizaciones que no llegan, series que se quedan en el último capítulo descargado. Casi nunca es un virus: es un índice que apunta a donde ya no hay nada.
+*El detalle técnico que explica los sustos.* Cuando añades un repositorio de extensiones a tu lector estás añadiendo un índice: un archivo que dice qué extensiones hay, con qué versión y con qué hash. Si el índice cambia de dueño o de dirección, el lector falla en cosas raras: extensiones que «no existen», actualizaciones que no llegan, series que se quedan en el último capítulo. Casi nunca es un virus: es un índice que apunta a donde ya no hay nada.
 
 *Lo que yo hago, y lo cuento porque es la parte práctica:* tengo dos repositorios añadidos y ni uno más. El grande para lo de siempre, el alternativo para lo que se rompe. Cuando una extensión falla, antes de culpar al motor miro si su repositorio sigue publicando. Nueve de cada diez veces, el problema está ahí.
 
@@ -232,12 +229,12 @@ Cuatro repositorios, todos medidos hoy:
 *Komga y Kavita — las bibliotecas de lo que ya tienes.*
 Estas dos no buscan nada en internet: ordenan *tus* archivos. Son la respuesta al que tiene 300 GB de cómics en carpetas con nombres imposibles.
 
-• `gotson/komga` — **★6.805 · MIT · empujó hoy · release 1.29.2 del 28 de octubre**. Servidor de biblioteca de cómics y revistas. Lee metadatos de los archivos, arma series y volúmenes, y sirve todo por web con un cliente decente.
-• `Kareadita/Kavita` — **★11.987 · GPL-3.0 · empujó hoy · release v0.9.1.4 del 2 de septiembre**. El mismo concepto, más orientado a colecciones grandes con lectores de todo tipo (cómic, libro, manga). Es el más popular de los dos.
+• `gotson/komga` — **★6.805 · MIT · empujó hoy · release 1.29.2 del 28 de octubre**. Servidor de cómics y revistas: lee metadatos de los archivos, arma series y volúmenes y lo sirve todo por web.
+• `Kareadita/Kavita` — **★11.987 · GPL-3.0 · empujó hoy · release v0.9.1.4 del 2 de septiembre**. El mismo concepto, orientado a colecciones grandes de cómic, libro y manga. Es el más popular de los dos.
 • `Snd-R/Komelia` — **★437 · Apache-2.0 · empuje 29-oct · release 0.20.0 del 27 de septiembre**. Cliente de Komga para Android, escrito en Compose.
-• `ruzhe85/Komiho` — **★79 · Apache-2.0 · creado 19-ago-2026 · release v1.6.0 (28-oct)**. El cliente de Komga más nuevo que medí: nativo, con escalado de imagen para escaneos flojos.
-• `Snd-R/komf` — **★738 · MIT · empuje 27-sep · release 2.1.0 del 27 de septiembre**. Metadatos automáticos: busca portada, autor y sinopsis y se los pone a tus archivos.
-• `C9Glax/tranga` — **★395 · GPL-3.0 · empuje 26-oct · release 1.5 del 20 de junio de 2023**. Descarga capítulos nuevos de forma automática. Ojo: la release es vieja y el código está vivo; es otro caso de «mira el empuje, no la release».
+• `ruzhe85/Komiho` — **★79 · Apache-2.0 · creado 19-ago-2026 · release v1.6.0 (28-oct)**. El cliente de Komga más nuevo que medí: nativo, con escalado para escaneos flojos.
+• `Snd-R/komf` — **★738 · MIT · empuje 27-sep · release 2.1.0 del 27 de septiembre**. Metadatos automáticos: busca portada, autor y sinopsis y los pone en tus archivos.
+• `C9Glax/tranga` — **★395 · GPL-3.0 · empuje 26-oct · release 1.5 del 20 de junio de 2023**. Descarga capítulos nuevos solo. Ojo: la release es vieja y el código está vivo, otro caso de «mira el empuje, no la release».
 
 *La combinación que yo montaría, si tuviera tiempo:* Komga o Kavita para lo que ya tengo en disco, Suwayomi para lo que quiero seguir al día, y el teléfono solo como ventana. Dos servidores suena a mucho hasta que se entiende que uno sirve archivos y el otro busca: son oficios distintos.
 
@@ -586,29 +583,11 @@ Si el manga tiene su familia, el anime tiene la suya, y comparte abuelo. `aniyom
 
 *🕰️ La edad de este censo, y por qué se mide dos veces*
 
-Esta es la segunda vez que mido el mueble en el mismo día, y las dos mediciones no coinciden exactamente. No es un error: es el tema de la pieza. `kodjodevf/mangayomi` tenía ★4.286 en la primera pasada y ★4.286 unas horas después. Un repositorio que ganó una estrella mientras yo escribía.
-
-Por eso el censo nuevo de hoy vale lo que vale la fecha: si lo abres en marzo, la mitad de los números serán viejos y los que hoy nacieron tendrán meses. Lo que no envejece es lo que aprendiste a mirar: *fecha de creación, licencia declarada, lenguaje, release con archivo y quién responde.*
+Esta es la segunda vez que mido el mueble en el mismo día. El censo vale lo que vale su fecha: si lo abres en marzo, la mitad de los números serán viejos. Lo que no envejece es lo que aprendiste a mirar: *fecha de creación, licencia declarada, lenguaje, release con archivo y quién responde.*
 
 *Qué envejece rápido:* las estrellas (a diario), los empujes (a horas), las releases (a semanas), los enlaces de descarga.
 *Qué envejece lento:* las licencias, la arquitectura de tres cajones, los nombres canónicos, el formato del respaldo.
 *Qué no envejece:* que Tachiyomi cerró y el ecosistema siguió; que Kotatsu se archivó con su aviso; que el único cajón que no se puede volver a descargar es el tuyo.
-
-*Y lo que no medí, dicho sin adornos:* no sé cuánta gente usa cada app de estos cincuenta y tres repositorios. Las estrellas son curiosidad acumulada, no usuarios. No sé si tu teléfono concreto soporta tal versión mínima. No sé si tal sitio funciona en tu red hoy. Cualquiera que te dé esos tres datos como certezas te vende una foto por un plano.
-
-───────────────────
-
-*🧾 Lo que me costó escribir esto*
-
-Transparencia, que es la casa: esta pieza no la escribí en una tarde. Requirió medir 53 repositorios uno por uno, leer sus licencias, comprobar cuáles estaban archivados, encontrar los tres nombres que ya no existen y separar tres cosas que todo el mundo mezcla: *vivo, archivado y muerto*.
-
-*Los errores que corregí en el camino:*
-• Di por hecho que `tachiyomiorg/tachiyomi` respondería con su histórico. Da 404: queda en la lista de muertos con fecha.
-• Escribí `Paperback-Community/Paperback` de memoria: también 404.
-• Casi declaro abandonado a Suwayomi-JUI por su release de marzo de 2024; su código se empujó hace 17 días.
-• Casi cuento `Mangayomi` como muerto por el nombre; el vivo es `kodjodevf/mangayomi`.
-
-Lo que no medí y por tanto no afirmo: cuánta gente usa cada app de verdad. Las estrellas no son usuarios y no las uso como si lo fueran. Tampoco afirmo qué sitio de cómics está disponible hoy en tu país: eso cambia por red, por hora y por proveedor, y cualquier lista que te dé eso como verdad eterna te está vendiendo humo.
 
 ───────────────────
 
@@ -704,75 +683,81 @@ Medido hoy con la API de GitHub: estrellas, licencia que el repositorio declara,
 
 ───────────────────
 
-*🔗 Enlaces de esta pieza (canónicos)*
+*🔗 Enlaces de esta pieza (canónicos, sin espejos)*
 
 *Los motores y sus forks:*
-https://github.com/mihonapp/mihon
-https://github.com/komikku-app/komikku
-https://github.com/null2264/yokai
-https://github.com/nekomangaorg/Neko
-https://github.com/Kototoro-app/Kototoro
-https://github.com/kodjodevf/mangayomi
-https://github.com/aniyomiorg/aniyomi
-https://github.com/jakepurple13/OtakuWorld
-https://github.com/UsagiApp/Usagi
-https://github.com/Chimahon/chimahon
-https://github.com/yomihon/yomihon
-https://github.com/roxycon-dev/Ciallo-Reader
-https://github.com/kmworks/kmreader
-https://github.com/Mister-album/Koharia
-https://github.com/Nyora-Manga/nyora-android
-https://github.com/Utolaris/Kujira-Manga
-https://github.com/Wammy-app/Wammy
-https://github.com/ruzhe85/MihonSY
-https://github.com/RecordXenon/Kotatsu-Ultra
-https://github.com/hotaro26/miko
-https://github.com/AngeloSha/uchiyomi
+
+- Mihon (el motor): https://github.com/mihonapp/mihon
+- Komikku: https://github.com/komikku-app/komikku
+- Yokai: https://github.com/null2264/yokai
+- Neko: https://github.com/nekomangaorg/Neko
+- Kototoro: https://github.com/Kototoro-app/Kototoro
+- Mangayomi: https://github.com/kodjodevf/mangayomi
+- Aniyomi (anime): https://github.com/aniyomiorg/aniyomi
+- OtakuWorld: https://github.com/jakepurple13/OtakuWorld
+- Usagi: https://github.com/UsagiApp/Usagi
+- Chimahon: https://github.com/Chimahon/chimahon
+- Yomihon: https://github.com/yomihon/yomihon
+- Ciallo Reader: https://github.com/roxycon-dev/Ciallo-Reader
+- KMReader: https://github.com/kmworks/kmreader
+- Koharia: https://github.com/Mister-album/Koharia
+- Nyora: https://github.com/Nyora-Manga/nyora-android
+- Kujira: https://github.com/Utolaris/Kujira-Manga
+- Wammy: https://github.com/Wammy-app/Wammy
+- MihonSY: https://github.com/ruzhe85/MihonSY
+- Kotatsu Ultra: https://github.com/RecordXenon/Kotatsu-Ultra
+- miko: https://github.com/hotaro26/miko
+- uchiyomi: https://github.com/AngeloSha/uchiyomi
 
 *Los catálogos de extensiones:*
-https://github.com/keiyoushi/extensions-source
-https://github.com/yuzono/tachiyomi-extensions
-https://github.com/m2k3a/mangayomi-extensions
-https://github.com/skepsun/kototoro-parsers
-https://github.com/aidoku-community/sources
-https://github.com/timschneeb/tachiyomi-extensions-archive
-https://github.com/aniyomiorg/aniyomi-extensions
+
+- Keiyoushi (extensiones): https://github.com/keiyoushi/extensions-source
+- Yuzono (extensiones Tachiyomi): https://github.com/yuzono/tachiyomi-extensions
+- extensiones de Mangayomi: https://github.com/m2k3a/mangayomi-extensions
+- parsers de Kototoro: https://github.com/skepsun/kototoro-parsers
+- fuentes de Aidoku: https://github.com/aidoku-community/sources
+- archivo de extensiones de Tachiyomi: https://github.com/timschneeb/tachiyomi-extensions-archive
+- extensiones de Aniyomi: https://github.com/aniyomiorg/aniyomi-extensions
 
 *Servidores y bibliotecas:*
-https://github.com/Suwayomi/Suwayomi-Server
-https://github.com/Suwayomi/Suwayomi-JUI
-https://github.com/Suwayomi/Suwayomi-Tsumiru
-https://github.com/Suwayomi/Suwayomi-VUI
-https://github.com/Suwayomi/Suwayomi-Server-docker
-https://github.com/Kareadita/Kavita
-https://github.com/gotson/komga
-https://github.com/BookHeaven/BookHeaven.Server
-https://github.com/Snd-R/Komelia
-https://github.com/Snd-R/komf
-https://github.com/ruzhe85/Komiho
-https://github.com/C9Glax/tranga
-https://github.com/chmouel/liseur
-https://github.com/zmz125000/LocalViewer
-https://github.com/readium/kotlin-toolkit
-https://github.com/koodo-reader/koodo-reader
+
+- Suwayomi Server: https://github.com/Suwayomi/Suwayomi-Server
+- Suwayomi JUI: https://github.com/Suwayomi/Suwayomi-JUI
+- Suwayomi Tsumiru: https://github.com/Suwayomi/Suwayomi-Tsumiru
+- Suwayomi VUI: https://github.com/Suwayomi/Suwayomi-VUI
+- Suwayomi en Docker: https://github.com/Suwayomi/Suwayomi-Server-docker
+- Kavita: https://github.com/Kareadita/Kavita
+- Komga: https://github.com/gotson/komga
+- BookHeaven Server: https://github.com/BookHeaven/BookHeaven.Server
+- Komelia: https://github.com/Snd-R/Komelia
+- komf (metadatos): https://github.com/Snd-R/komf
+- Komiho: https://github.com/ruzhe85/Komiho
+- Tranga (descarga en servidor): https://github.com/C9Glax/tranga
+- Liseur: https://github.com/chmouel/liseur
+- LocalViewer: https://github.com/zmz125000/LocalViewer
+- Readium Kotlin Toolkit: https://github.com/readium/kotlin-toolkit
+- Koodo Reader: https://github.com/koodo-reader/koodo-reader
 
 *Descargadores y lectores de terminal:*
-https://github.com/josueBarretogit/manga-tui
-https://github.com/elboletaire/manga-downloader
-https://github.com/MapoMagpie/comic-looms
-https://github.com/KamiYomu/KamiYomu
-https://github.com/Yui007/weebcentral_downloader
+
+- manga-tui: https://github.com/josueBarretogit/manga-tui
+- manga-downloader: https://github.com/elboletaire/manga-downloader
+- Comic Looms: https://github.com/MapoMagpie/comic-looms
+- KamiYomu: https://github.com/KamiYomu/KamiYomu
+- weebcentral_downloader: https://github.com/Yui007/weebcentral_downloader
 
 *Archivados y muertos, para que se sepa:*
-https://github.com/KotatsuApp/Kotatsu
-https://github.com/Koitharu/OpenManga
-https://github.com/tachiyomiorg/tachiyomi
-https://github.com/Mangayomi-app/Mangayomi
-https://github.com/Paperback-Community/Paperback
+
+- Kotatsu (archivado): https://github.com/KotatsuApp/Kotatsu
+- OpenManga (archivado): https://github.com/Koitharu/OpenManga
+- tachiyomi (muerto, 404): https://github.com/tachiyomiorg/tachiyomi
+- Mangayomi-app (muerto, 404): https://github.com/Mangayomi-app/Mangayomi
+- Paperback-Community (muerto, 404): https://github.com/Paperback-Community/Paperback
 
 *El vecino grande que no es de la familia:*
-https://github.com/koreader/koReader
-https://github.com/janeczku/calibre-web
+
+- KOReader (el vecino): https://github.com/koreader/koReader
+- Calibre-Web (el vecino): https://github.com/janeczku/calibre-web
 
 ───────────────────
 
@@ -786,4 +771,19 @@ La app que uses mañana puede no ser la de hoy. Tu archivo sí puede ser el mism
 
 ───────────────────
 
-💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy a las 06:15, uno por uno, los 53 repositorios de esta pieza: 46 vivos, 4 archivados y 3 muertos con su 404 a la vista. Los números llevan la hora, no solo la fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.
+> —¿Y si el proyecto cierra el mes que viene?
+> —Cierras la app, no la biblioteca. Eso es todo el truco.
+
+💓 *La Bandita informa a partir de fuentes fechadas.* El mueble se muda con cajas, no con promesas: si el archivo está en tu carpeta, el proyecto puede cerrar tranquilo.
+
+*Medición del corte:* domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · 53 repositorios medidos uno por uno: 46 vivos, 4 archivados y 3 muertos con su 404 a la vista · 53 enlaces abiertos uno por uno, todos con respuesta.
+
+## 🗒️ Notas al pie
+
+**Nota de corrección (1-nov):** el cierre se rehízo con la firma textual de la casa y su remate propio; la lista de enlaces pasó al formato `- Nombre: URL`, y se retiró el apartado que contaba el trabajo de escribir en vez del de medir.
+
+**Errata del censo (1-nov):** di por hecho que `tachiyomiorg/tachiyomi` conservaría su histórico (da 404) y escribí `Paperback-Community/Paperback` de memoria (también 404); además casi di por abandonado a Suwayomi-JUI por su release de marzo de 2024, cuando su código se empujó 17 días antes del corte.
+
+**Nota de verificación final (1-nov):** los 53 enlaces se abrieron uno por uno y devolvieron respuesta; estrellas, licencias, archivos y fechas de empuje son de las 06:15.
+
+**Nota del corte (1-nov):** corte real de la pieza. Lo no medido no se afirma: cuánta gente usa cada app, qué sitio de cómics responde en tu red hoy y si tal versión corre en tu teléfono.

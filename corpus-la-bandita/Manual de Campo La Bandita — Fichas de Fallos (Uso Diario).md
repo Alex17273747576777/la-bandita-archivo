@@ -1907,3 +1907,17 @@ Fichas G01 a G07. Los fallos propios de sistemas que planifican y ejecutan con h
 **Profilaxis:** al recibir cualquier orden con «todas», «cada», «etc» o «masivo»: contar primero el universo completo, decirlo, y después trabajar por hornadas visibles.
 
 *Edición de Uso Diario V1.0 — 2026-09-10. La Edición Completa y el tratado madre quedan intactos como garantía de no pérdida. Próxima revisión: solo si algo muerde.*
+
+---
+
+## ENMIENDA 2026-11-01 · fusión con el Manual de Estilo y Operaciones V3.0
+
+**Registrada por:** orden del dueño del 1 de noviembre de 2026 («guarda esto y fusiónalo con los archivos principales de los cimientos… criterios obligatorios de éxito»).
+
+**Qué entra:** el `Manual de Estilo y Operaciones La Bandita — V3.0 (1-nov-2026)` y la lista de criterios obligatorios `CIMIENTOS — criterios obligatorios y precedencia (1-nov-2026)`, ambos en `corpus-la-bandita/`.
+
+**Qué cambia aquí:** la taxonomía no cambia: los fallos A, B, C, D y F se quedan como están. Se añade el uso operativo: cada criterio C-01 a C-24 de `CIMIENTOS` cita el fallo que comete quien lo incumple, y el gate nuevo devuelve ROJO en los críticos (F05 verificación fingida, A01 dato inventado, A02 dirección inventada, D03 secreto, F06 promesa, C05 relleno).
+
+**Precedencia:** este documento conserva su rango; el Manual V3.0 queda **subordinado** y manda sobre la **forma** de cada pieza (molde, fichas, FAQ, enlaces, firma, meme, notas, prohibiciones). Donde el dueño dio una orden posterior, manda el dueño; las tensiones están registradas, con su resolución, en `CIMIENTOS` §3.
+
+**Comprobación:** `tools/manual_gate.py` ejecuta los criterios C-01 a C-24 y `tools/vara.py` los vuelve compuerta (G11). Un criterio que solo vive en prosa no se cumple: este se mide.

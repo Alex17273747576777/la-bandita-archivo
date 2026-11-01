@@ -6,9 +6,25 @@
 
 *La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 01 de Facebook*
 
+*🗺️ Mapa de esta guía*
+
+├── ⚡ En una página
+├── 🏪 La tienda con dueño y la tienda sin él
+├── 🧰 Los instaladores que traen el catálogo a ti
+├── ⚠️ Los letreros de mods (se nombran, no se recetan)
+├── 🕐 El reloj de 2027 y la puerta chica
+├── 🧭 Cuatro pasos para auditar cualquier APK
+├── 🚩 Señales de cebo
+├── 🔗 Enlaces
+└── 🗒️ Notas del corte
+
+*⚡ En una página*
+
 Una vez me preguntaron en un grupo: «¿y cuál es la tienda buena?». Contesté con otra pregunta: «¿quién te la recomienda?». Porque el problema nunca fue la tienda. El problema es que la mayoría de la gente instala lo que le llegó, no lo que buscó.
 
 Esto no es una guía de tiendas. Es una guía de *decisiones*. Cinco escenas reales, doce casas medidas hoy, un tutorial y una vara para que la uses sin mí.
+
+Y hay una fecha encima de todo esto: el reloj de la verificación de desarrolladores ya corre, y lo que hoy se instala con un toque en 2027 va a pedir papeles. Por eso la pieza no termina en una lista de tiendas, sino en cuatro pasos que puedes repetir tú.
 
 ───────────────────
 
@@ -534,42 +550,52 @@ Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha 
 
 ───────────────────
 
-*ENLACES DE ESTA PIEZA*
+*🔗 Enlaces*
 
-*Las nuevas, una por una:*
-https://github.com/samyak2403/RepoStore
-https://github.com/timschneeb/ShizuStore
-https://github.com/SysAdminDoc/AppManagerNG
-https://github.com/djunekz/termux-app-store
-https://github.com/pass-with-high-score/universal-installer
-https://github.com/vinstall/VInstall
-https://github.com/wxxsfxyzm/InstallerX-Revived
-https://github.com/Jman-Github/Universal-Patch-Manager
-https://github.com/solrudev/Ackpine
-https://github.com/JonaNorman/WebViewUpgrade
-https://github.com/daboynb/developer-verifier-placeholder
-https://github.com/Paving-Base/APK-Installer
+*Las nuevas de esta ronda, medidas hoy:*
+
+- RepoStore (repositorios como catálogo): https://github.com/samyak2403/RepoStore
+- ShizuStore (apps de Shizuku): https://github.com/timschneeb/ShizuStore
+- AppManagerNG (el relevo de App Manager): https://github.com/SysAdminDoc/AppManagerNG
+- termux-app-store (tienda para Termux): https://github.com/djunekz/termux-app-store
+- universal-installer (instalador universal): https://github.com/pass-with-high-score/universal-installer
+- VInstall (instalador ligero): https://github.com/vinstall/VInstall
+- InstallerX-Revived (el relevo de InstallerX): https://github.com/wxxsfxyzm/InstallerX-Revived
+- Universal-Patch-Manager (avisos de versión): https://github.com/Jman-Github/Universal-Patch-Manager
+- Ackpine (sesiones de instalación): https://github.com/solrudev/Ackpine
+- WebViewUpgrade (subir el WebView a mano): https://github.com/JonaNorman/WebViewUpgrade
+- verificador de desarrolladores, prueba (daboynb): https://github.com/daboynb/developer-verifier-placeholder
+- APK-Installer (instalador de Paving-Base): https://github.com/Paving-Base/APK-Installer
 
 *Las de siempre:*
-https://github.com/MuntashirAkon/AppManager
-https://github.com/ImranR98/Obtainium
-https://github.com/NeoApplications/Neo-Store
-https://github.com/Droid-ify/client
-https://github.com/accrescent/accrescent
-https://github.com/GrapheneOS/AppStore
-https://github.com/RikkaApps/Shizuku
-https://gitlab.com/fdroid/fdroidclient
 
-*Los cebos, para que los conozcas de vista:*
-https://github.com/sri-sivaram/Neko-Manga-Pearl
-https://github.com/ubedshah/manga-vault-nexus
+- App Manager (MuntashirAkon): https://github.com/MuntashirAkon/AppManager
+- Obtainium (instala desde el repositorio del autor): https://github.com/ImranR98/Obtainium
+- Neo-Store (catálogo con rastreadores a la vista): https://github.com/NeoApplications/Neo-Store
+- Droid-ify (cliente de F-Droid): https://github.com/Droid-ify/client
+- Accrescent (tienda con firma verificada): https://github.com/accrescent/accrescent
+- App Store de GrapheneOS: https://github.com/GrapheneOS/AppStore
+- Shizuku (permisos prestados sin root): https://github.com/RikkaApps/Shizuku
+- cliente de F-Droid (casa real en GitLab): https://gitlab.com/fdroid/fdroidclient
+
+*Los cebos, para que los reconozcas de vista:*
+
+- Neko-Manga-Pearl (cebo de manga, sin casa detrás): https://github.com/sri-sivaram/Neko-Manga-Pearl
+- manga-vault-nexus (el mismo patrón, otro nombre): https://github.com/ubedshah/manga-vault-nexus
 
 ───────────────────
 
-*CIERRE*
+> —¿Y la tienda que no me miente?
+> —La que te dice quién firma antes de que preguntes.
 
-Si te quedas con una sola frase de todo esto, que sea esta: *el problema nunca fue la tienda, fue el origen*. Cualquier tienda de esta lista puede fallar mañana; lo que no puede es sorprenderte mintiendo sobre lo que es, porque todo lo que dicen se puede ir a comprobar.
+💓 *La Bandita informa a partir de fuentes fechadas.* El origen manda; la tienda solo te presta el mostrador, y el mostrador se puede cambiar de sitio mañana.
 
-Y si algún día alguien te manda un APK por WhatsApp y te dice «es el mismo pero mejor», ya sabes lo que hay que preguntar: *¿quién lo firma?* Si la respuesta tarda más de dos segundos, la respuesta es nadie.
+*Medición del corte:* domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · 19 repositorios y 12 casas medidos uno por uno contra la API de GitHub · 22 enlaces abiertos con `curl -L`, todos con 200.
 
-💓 *La Bandita · domingo 1 de noviembre de 2026.* Pieza 01 de Facebook. Medí hoy a las 06:15 los 19 repositorios de la ficha y las 12 casas, con sus 22 enlaces: los 19 vivos y los 22 responden 200. Los números son de esa hora y llevan su fecha al lado. Lo que no medí, está dicho arriba como no medido.
+## 🗒️ Notas al pie
+
+**Nota de corrección (1-nov):** el cierre se rehízo con la firma textual de la casa y su remate propio; la lista de enlaces pasó al formato `- Nombre: URL`, agrupada por origen.
+
+**Nota de verificación final (1-nov):** los 22 enlaces se abrieron uno por uno y devolvieron 200 a las 06:15 de Santo Domingo; estrellas y licencias son de esa hora.
+
+**Nota del corte (1-nov):** corte real. Pendiente declarado: medir el archivo completo de envíos exige token de GitHub; sin él la cuota pública es de 60 consultas por hora.

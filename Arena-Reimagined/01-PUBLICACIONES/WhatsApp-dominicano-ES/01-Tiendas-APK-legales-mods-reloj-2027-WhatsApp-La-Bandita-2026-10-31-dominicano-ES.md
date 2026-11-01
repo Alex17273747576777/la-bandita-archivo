@@ -26,9 +26,9 @@ Una tienda de verdad responde. Y responde porque puede:
 
 • *Tiene un dueño con nombre y un historial.* Si la app hace algo raro, hay a quién señalar, y hay un registro público de qué pasó y cuándo.
 
-Una vitrina de mods no hace ninguna de las tres. Vive de una promesa que suena generosa —*«lo de pago, gratis»*— y se sostiene porque tú nunca ves la letra menuda. El «premium desbloqueado» casi nunca viene solo: viene con un rastreador, con anuncios que no pediste, o con un archivo que dice llamarse como la app original y no lo es.
+Una vitrina de mods no hace ninguna de las tres. Vive de una promesa generosa —*«lo de pago, gratis»*— y se sostiene porque tú nunca ves la letra menuda. El «premium desbloqueado» casi nunca viene solo: viene con un rastreador, con anuncios que no pediste, o con un archivo que dice llamarse como la app original.
 
-*Aviso de la casa:* hay mods que sí son trabajo serio —un parche que quita anuncios de una app libre, hecho en público, con el código a la vista—. Lo que esta guía no recomienda es el mod anónimo de vitrina: el que no dice quién lo hizo ni de dónde salió. La diferencia no es «mod sí o no»: es *quién firma*.
+*Aviso de la casa:* hay mods que son trabajo serio —un parche que quita anuncios de una app libre, hecho en público, con el código a la vista—. Lo que esta guía no recomienda es el mod anónimo de vitrina: el que no dice quién lo hizo ni de dónde salió. La diferencia no es «mod sí o no»: es *quién firma*.
 
 ───────────────────
 
@@ -79,39 +79,24 @@ Tres de cuatro y ya piensas con la vara.
 
 *Las vitrinas de mods:* se nombran para esquivarlas. Ninguna va con enlace de descarga en esta pieza.
 
+Si te llevas una sola idea de esta página, que sea esta: la tienda no es el producto, la firma sí. Todo lo demás —estrellas, capturas, reseñas, el nombre pegado en el título— se puede fabricar en una tarde; quién firma el archivo, no.
+
 ───────────────────
 
 *🗺️ Mapa de esta guía*
 
 ```
-├── 🌱 Semilla principal · ~1 min
-├── 🎯 Adivina la casa · ~1 min
-├── ⚡ En una página · ~1 min
-├── 🗺️ Este mapa · ~1 min
-├── 🏪 F-Droid, IzzyOnDroid · ~7 min
-├── 🏪 Droid-ify, Neo-Store · ~6 min
-├── 🏪 Aurora Store, Accrescent · ~6 min
-├── 🏪 GrapheneOS Apps · ~3 min
-├── 🔁 Obtainium · ~5 min
-├── 🆕 Las trece puertas nuevas · ~9 min
-├── 🪦 Cementerio y cebos · ~5 min
-├── 🧰 Instalar en 2026 · ~4 min
-├── 🚫 Los letreros de mods · ~3 min
-├── 🕐 El reloj del registro (2027) · ~2 min
-├── 🕒 Cómo se lee una lista vieja · ~4 min
-├── 📚 Las listas curadas vivas · ~4 min
-├── 🔍 Cómo verificar tú mismo · ~5 min
-├── 📊 Tabla de decisión · ~2 min
-├── ❓ Preguntas frecuentes · ~4 min
-├── 🧊 Mitos y 🧪 casos · ~4 min
-├── 🪴 Si una app desaparece · ~2 min
-├── 🌍 El ecosistema en una imagen · ~2 min
-├── 📋 La ficha de hoy · ~5 min
-├── 🎯 Mini-quiz · ~1 min
-└── 🔗 Enlaces y firma · ~1 min
+├── 🌱 Semilla, adivina y página de un vistazo · ~4 min
+├── 🏪 Las siete casas, una por una · ~22 min
+├── 🆕 Puertas nuevas, cebos y cementerios · ~14 min
+├── 🧰 Instalar, letreros de mods y el reloj de 2027 · ~11 min
+├── 🕒 Listas viejas, listas curadas y la vara en tu mano · ~13 min
+├── 📊 Tabla, preguntas, mitos y casos · ~12 min
+├── 📋 Ficha de hoy, glosario y quién responde · ~13 min
+└── 🎯 Mini-quiz, cinco decisiones, enlaces y firma · ~5 min
 ```
 
-Si solo tienes cinco minutos: lee *En una página*, mira la *Tabla de decisión* y baja a *Los letreros de mods*. Con eso ya no te roban.
+Si solo tienes cinco minutos: lee *En una página*, mira la *Tabla de decisión* y baja a *Los letreros de mods*.
 
 ───────────────────
 
@@ -128,7 +113,7 @@ Eso tiene un precio que hay que decir en voz alta: **F-Droid publica las cosas m
 • *Las capturas y la descripción: no prueban nada.* Sirven para decidir si te interesa. La prueba está en la firma y en la receta.
 • *El aviso de «esta app tiene características anti-características»*. Cuando aparece, es la casa diciéndote, con todas sus letras, que esa app hace algo que la comunidad considera malo (dependencias de servicios de Google, rastreadores, promoción de software privativo). No la esconde: la marca.
 
-*Lo que F-Droid no es:* no es una tienda de conveniencia. No tiene el catálogo de Google Play, no tiene las apps de bancos, no tiene las apps que dependen de los servicios de Google. Lo que tiene, lo tiene limpio. Esa es la transacción: menos cosas, más claridad.
+*Lo que F-Droid no es:* una tienda de conveniencia. No tiene el catálogo de Google Play, ni las apps de bancos, ni las que dependen de los servicios de Google. Lo que tiene, lo tiene limpio. Esa es la transacción: menos cosas, más claridad.
 
 *Dato para entender su escala real:* en la ficha de hoy medí 31 repositorios de esta pieza y F-Droid no aparece como repositorio de GitHub porque no vive ahí: su código está en GitLab y su catálogo se publica como un índice firmado que cualquier cliente puede leer. Por eso el ecosistema de clientes —Droid-ify, Neo-Store— existe: el índice es abierto y cualquiera puede dibujarlo mejor.
 
@@ -143,11 +128,11 @@ Lo que tienes que entender es qué cambia y qué no:
 • *Cambia quién firma.* IzzyOnDroid no compila desde el código en todos los casos: muchas veces toma el APK que el propio desarrollador publica y lo firma con su llave. Eso no es lo mismo que reconstruir, y hay que decirlo.
 • *No cambia la transparencia.* Izzy publica qué apps entran, con qué licencia y con qué permisos. Su catálogo es público y se puede auditar.
 • *Lo bueno:* encuentras cosas que F-Droid tarda meses en aceptar, o que nunca aceptará por detalles de empaquetado.
-• *Lo malo:* el estándar es más flojo que el de la casa madre. Más flojo no significa malo; significa que tú tienes que mirar un poco más.
+• *Lo malo:* el estándar es más flojo que el de la casa madre. Flojo no significa malo: significa que tú miras un poco más.
 
-*Cuándo usarlo:* cuando la app que quieres está ahí y no en F-Droid, y su repositorio es público y su licencia es libre. *Cuándo no:* cuando es tu única fuente para algo que toca tus datos personales y no hay código a la vista.
+*Cuándo usarlo:* cuando la app que quieres está ahí y no en F-Droid, con repositorio público y licencia libre. *Cuándo no:* cuando es tu única fuente para algo que toca tus datos personales y no hay código a la vista.
 
-*Cómo se añade (y por qué importa hacerlo bien):* en F-Droid o en Neo-Store, sección de repositorios, se pega la dirección del índice de Izzy. Desde ese momento tu cliente muestra las dos casas en la misma lista. El riesgo de hacer esto mal es real: añadir cualquier índice que te pase un desconocido es exactamente lo que hace la gente que termina con un teléfono lleno de basura. Un índice es una fuente de verdad; trátalo como tal.
+*Cómo se añade (y por qué importa hacerlo bien):* en F-Droid o en Neo-Store, sección de repositorios, se pega la dirección del índice de Izzy y tu cliente muestra las dos casas en la misma lista. El riesgo es real: un índice que te pasa un desconocido es exactamente cómo termina la gente con el teléfono lleno de basura. Un índice es una fuente de verdad; trátalo como tal.
 
 ───────────────────
 
@@ -157,7 +142,7 @@ Droid-ify es un cliente de F-Droid: no es una tienda nueva, es otra cara para la
 
 Medido hoy: *★7.677 · GPL-3.0 · Kotlin · último empuje el 12 de septiembre de 2026 (hace 50 días) · última release v0.7.8 del 12 de septiembre.* Es decir: está *dormido*, no muerto. La diferencia importa y es una de las cosas que esta guía te quiere enseñar a leer.
 
-*El detalle que casi nadie nota:* su repositorio de GitHub es un *espejo*. La descripción lo dice con todas sus letras: «Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client». La casa madre está en Codeberg. Esto no es un tecnicismo: significa que si un día el espejo de GitHub desaparece —y pasa— la app no desaparece con él. Y significa que las *issues* de verdad se discuten allá, no acá.
+*El detalle que casi nadie nota:* su repositorio de GitHub es un *espejo*. La descripción lo dice con todas sus letras: «Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client». La casa madre está en Codeberg: si un día el espejo desaparece —y pasa— la app no desaparece con él, y las *issues* de verdad se discuten allá, no acá.
 
 *Por qué esto es la lección:* mira si el repositorio que tienes delante es la casa o el escaparate. En la ficha hay un caso hermano, este sí muerto: `droidify/client` responde **404**. *`Droid-ify/client` vive; `droidify/client` no existe.* Copiar el enlace equivocado es el error más común y el más tonto.
 
@@ -173,7 +158,7 @@ Su aporte concreto es una cosa que a mí me parece la función más subestimada 
 
 *Lo que no hace:* no compila nada. Neo-Store es una ventana; la mercancía la pone F-Droid. Si la app no está en el índice, Neo-Store no la inventa.
 
-*Por qué conviene tenerlo aunque tengas F-Droid:* porque la brújula de rastreadores y la búsqueda por repositorios añadidos son dos cosas que el cliente original hace peor. Y porque elegir cliente no cambia la fuente: *eso* es lo importante. Cambiar de cliente no es cambiar de tienda.
+*Por qué conviene tenerlo aunque tengas F-Droid:* la brújula de rastreadores y la búsqueda por repositorios añadidos son dos cosas que el cliente original hace peor. Y elegir cliente no cambia la fuente: eso es lo importante. Cambiar de cliente no es cambiar de tienda.
 
 ───────────────────
 
@@ -186,7 +171,7 @@ Medido hoy: el repositorio de GitHub que todos enlazan —`AuroraOSS/AuroraStore
 *Cómo funciona, en corto:* Aurora se hace pasar por un teléfono normal y le pide a Google Play el archivo que tú quieres. Puedes usar una cuenta anónima —que en realidad es una cuenta compartida por mucha gente, y por eso a veces «se cae»— o poner tu cuenta, con el riesgo que eso tiene.
 
 *Lo que ganas:* apps que solo existen en Google Play, sin instalar los servicios de Google, sin darle tu identidad a Google.
-*Lo que pierdes:* el anonimato no es perfecto, y las apps que dependen de los servicios de Google pueden no funcionar sin ellos. Aurora te da el archivo, no el ecosistema.
+*Lo que pierdes:* el anonimato no es perfecto, y las apps que dependen de los servicios de Google pueden no funcionar sin ellos. Aurora te da el archivo, no el ecosistema que las hace arrancar.
 *Lo que nunca debes hacer:* instalar apps de pago «gratis» desde Aurora. No es una función. Si alguien te dice que lo es, está hablando de otra cosa.
 
 *Para quién es:* para quien tiene un teléfono sin Google y necesita una app de un banco, una aerolínea o una escuela que solo vive en Play. Para el resto, la respuesta honesta es que F-Droid casi siempre tiene un equivalente libre y mejor.
@@ -195,9 +180,9 @@ Medido hoy: el repositorio de GitHub que todos enlazan —`AuroraOSS/AuroraStore
 
 *🏪 Accrescent — la joven con estándares altos*
 
-Accrescent es la tienda más joven de las que valen la pena en esta guía, y la que más se parece a lo que yo querría que fueran todas: exige que las apps se firmen con llaves modernas, que el desarrollador demuestre que es el dueño del paquete, y no acepta cualquier cosa que se le parezca.
+Accrescent es la más joven de las que valen la pena aquí, y la que más se parece a lo que yo querría que fueran todas: exige llaves de firma modernas, que el desarrollador demuestre que es el dueño del paquete, y no acepta cualquier cosa.
 
-*Lo que la hace distinta:* su política de firma. No es que "cualquiera suba": es que el desarrollador tiene que probar que el identificador de su app es suyo, con una llave que se verifica contra el DNS de su dominio. Eso cierra la puerta al ataque más viejo del ecosistema Android: el que publica una app con el mismo nombre de paquete que la tuya y se queda con tus actualizaciones.
+*Lo que la hace distinta:* su política de firma. No es que "cualquiera suba": el desarrollador tiene que probar que el identificador de su app es suyo, con una llave que se verifica contra el DNS de su dominio. Eso cierra el ataque más viejo de Android: el que publica una app con el mismo nombre de paquete que la tuya y se queda con tus actualizaciones.
 
 *Lo que cuesta:* catálogo pequeño. Muy pequeño. No vas a encontrar tus diez apps ahí. Vas a encontrar unas pocas, bien hechas, sin discusión.
 
@@ -212,20 +197,20 @@ Accrescent es la tienda más joven de las que valen la pena en esta guía, y la 
 GrapheneOS es un sistema operativo para teléfonos Pixel que se toma la seguridad en serio. Su tienda de apps —`GrapheneOS/AppStore`, *★625 · MIT · Kotlin · empuje del 31 de octubre · release 37 del mismo día*— es el caso más raro de esta lista: *una tienda hecha por el mismo equipo que hace el sistema*, y que funciona fuera de él.
 
 *Qué vende:* sus propias apps (Cámara, Visor de PDF, Reloj, Calculadora…), más un catálogo pequeño y verificado. Nada de terceros sin revisar.
-*Por qué importa a quien no tiene GrapheneOS:* porque sus apps están escritas para no depender de los servicios de Google, y varias funcionan perfectamente en un teléfono normal. Su cámara, por ejemplo, es una de las pocas que no te pide la nube para nada.
-*Lo que no es:* no es una tienda general. No vas a llenar el teléfono desde ahí. Es una despensa de barrio, no un supermercado.
+*Por qué importa a quien no tiene GrapheneOS:* sus apps están escritas para no depender de los servicios de Google, y varias funcionan en un teléfono normal. Su cámara es de las pocas que no te pide la nube para nada.
+*Lo que no es:* una tienda general. No vas a llenar el teléfono desde ahí: es una despensa de barrio, no un supermercado.
 
 *El detalle que la hace confiable:* la misma gente que publica el sistema publica la tienda, con la misma llave y la misma política. Cuando el que hace el suelo también hace los muebles, la casa se cae o se sostiene entera.
 
 ───────────────────
 
-*🔁 Obtainium — el que no es una tienda y es la mejor de todas*
+*🔁 Obtainium — el que no es una tienda y sigue el rastro de todas*
 
 Obtainium no vende nada. No tiene catálogo. No tiene servidor. Lo que hace es una sola cosa, y la hace mejor que cualquier tienda: *le sigue el rastro a una app donde su propio desarrollador la publica* —GitHub, GitLab, Codeberg, Forgejo, un índice de F-Droid, una página web— y te avisa cuando sale versión nueva.
 
 Medido hoy: *★21.105 · GPL-3.0 · Dart · empujó hoy, 1 de noviembre · última release v1.7.4 **de hoy mismo**.*
 
-*Por qué esto es mejor que una tienda para ciertas cosas:* porque elimina al intermediario. No hay nadie que compile, nadie que firme, nadie que decida si tu app merece estar en el catálogo. Hay el archivo del desarrollador y tu teléfono. Si el desarrollador publica basura, tú recibes basura: la responsabilidad es tuya y de nadie más.
+*Por qué esto es mejor que una tienda para ciertas cosas:* porque elimina al intermediario. No hay nadie que compile, nadie que firme, nadie que decida si tu app merece estar en el catálogo: hay el archivo del desarrollador y tu teléfono. Si él publica basura, recibes basura, y la responsabilidad es tuya.
 
 *Cómo se usa de verdad:*
 
@@ -237,7 +222,7 @@ Medido hoy: *★21.105 · GPL-3.0 · Dart · empujó hoy, 1 de noviembre · últ
 *Lo que hay que saber para no romper nada:*
 
 • *El patrón de los APK.* Muchos proyectos publican varios archivos por release (arm64, armeabi, universal). Si eliges el equivocado, la app instala y no arranca, o arranca lenta. La regla práctica: si tu teléfono es de los últimos cinco años, es arm64-v8a.
-• *Los APK divididos.* Algunos proyectos publican `.apkm` o `.apks`, que no son un APK normal: son varias piezas. Obtainium puede con algunos; para el resto hay herramientas (abajo están, en la sección de empaquetado).
+• *Los APK divididos.* Algunos proyectos publican `.apkm` o `.apks`: no son un APK normal, son varias piezas. Obtainium puede con algunos; para el resto hay herramientas en la ficha de abajo.
 • *Las apps que firman distinto.* Si tenías la app instalada desde Play y ahora la instalas desde el release del desarrollador, puede que las firmas no coincidan y Android te obligue a desinstalar. Eso no es un virus: es la huella funcionando.
 
 *Para quién es:* para quien tiene cinco o diez apps que ama y quiere actualizarlas sin pasar por una tienda. No es para quien quiere «un catálogo bonito donde picar». Es una libreta de direcciones, no un centro comercial.
@@ -380,13 +365,13 @@ Una lista de apps no es un plano: es una fotografía. Y esta guía la escribí h
 
 *Regla uno: busca la fecha de nacimiento del proyecto, no las estrellas.* En mi medición de hoy hay proyectos con ★7.259 que nacieron en noviembre de 2024 y proyectos con ★115 que nacieron el 28 de junio de 2026 y no tienen una línea de código. Las estrellas se compran con un README bonito; la fecha de creación no se puede comprar hacia atrás.
 
-*Regla dos: separa «vivo» de «actualizado».* `accrescent/accrescent` empujó ayer y su última release es del 10 de noviembre de 2025. `GrapheneOS/AppStore` publicó la suya el 31 de octubre. Los dos están vivos; uno está afinando y el otro está publicando. Si solo mirases releases, declararías muerto a Accrescent y te perderías un proyecto que trabaja todas las semanas.
+*Regla dos: separa «vivo» de «actualizado».* `accrescent/accrescent` empujó ayer y su última release es del 10 de noviembre de 2025; `GrapheneOS/AppStore` publicó la suya el 31 de octubre. Los dos están vivos: uno afina y el otro publica. Si solo mirases releases, darías por muerto a Accrescent y te perderías un proyecto que trabaja todas las semanas.
 
 *Regla tres: el que copia la lista también copia los cadáveres.* Cuando veas tres listas que recomiendan exactamente las mismas diez apps con los mismos adjetivos, no estás ante tres revisiones: estás ante una copia con tres fechas. El síntoma es siempre el mismo: enlaces a repositorios que ya no existen, y ningún dato nuevo.
 
 *Regla cuatro: una app sin release no es una app, es una promesa.* Si el repositorio no tiene una versión con archivo descargable, lo que hay es código para programadores. Puede ser buenísimo —`JonaNorman/WebViewUpgrade` es exactamente eso— pero no es «la descargo y ya», y quien te lo presente así no lo ha instalado.
 
-*Regla cinco: lo que no está medido se dice.* Los **31** repositorios de la ficha llevan número, fecha y licencia. Lo que no medí, no lo afirmo: cuánta gente usa cada app, si tal release funciona en tu teléfono. Un dato que falta, dicho, vale más que uno inventado.
+*Regla cinco: lo que no está medido se dice.* Los **31** repositorios de la ficha llevan número, fecha y licencia. Lo que no medí no lo afirmo: cuánta gente usa cada app, si tal release corre en tu teléfono. Un dato que falta, dicho, vale más que uno inventado.
 
 *Lo práctico, en una frase:* cuando alguien te mande una lista, pregúntale cuándo la midió. Si no lo sabe, no es una lista: es un rumor con viñetas.
 
@@ -426,10 +411,10 @@ En el repositorio, busca el archivo `LICENSE`. Si no hay archivo, mira la secci�
 Mira la fecha del último empuje y la de la última release. Regla de la casa: menos de 45 días, vivo; entre 45 y 180, dormido; más de 180 sin nada, probablemente abandonado. Pero *dormido no es muerto*: hay apps perfectas que no necesitan cambios.
 
 *Paso 4 — ¿Qué pide?*
-Los permisos. En F-Droid los ves en lenguaje humano; en el teléfono, en Ajustes → Aplicaciones → Permisos. La pregunta no es «¿son muchos?»: es «¿tienen sentido para lo que la app hace?».
+Los permisos. En F-Droid los ves en lenguaje humano; en el teléfono, en Ajustes → Aplicaciones → Permisos. La pregunta no es «¿son muchos?»: es «¿tienen sentido para lo que hace?».
 
 *Paso 5 — ¿Se puede reconstruir?*
-Si la app está en F-Droid, sí, y eso ya lo hizo otro por ti. Si está solo en un release de GitHub, no: estás confiando en el archivo del desarrollador. No es pecado, pero es una confianza distinta, y hay que saber cuál de las dos estás dando.
+Si la app está en F-Droid, sí, y eso ya lo hizo otro por ti. Si solo está en un release de GitHub, no: confías en el archivo del desarrollador. No es pecado, pero es otra confianza, y hay que saber cuál estás dando.
 
 *Los cinco juntos tardan cuatro minutos.* Cuatro minutos por app es el precio de no terminar con un teléfono que llama solo a números premium.
 
@@ -562,7 +547,7 @@ Pasa mucho: el mantenedor original deja el proyecto, un fork sigue vivo y el ori
 
 *Para el que llega por primera vez:* instala Neo-Store, añade IzzyOnDroid, y no instales nada más durante una semana. Mira el catálogo, entiende qué hay. La prisa es lo que llena el teléfono de basura.
 
-*Para el que ya tiene todo rooteado:* tu riesgo no es el root: es la cantidad de módulos de fuentes distintas. Cada módulo que instalas es código con permisos de sistema. Aplica la misma vara que a las apps, y con más razón.
+*Para el que ya tiene todo rooteado:* tu riesgo no es el root, es la cantidad de módulos de fuentes distintas. Cada módulo que instalas es código con permisos de sistema. Aplica la misma vara que a las apps, y con más razón.
 
 *Para el que mantiene el teléfono de la familia:* no les instales veinte cosas. Instala tres, y explícales una sola regla. La regla que se recuerda es la que se puede repetir en una frase.
 
@@ -592,41 +577,20 @@ Casi siempre es que Shizuku no está corriendo: hay que activarlo después de ca
 *🌍 El ecosistema en una sola imagen*
 
 ```
-              ┌
-
-───────────────────
-
-──────────┐
-              │   El desarrollador publica  │
-              │   código + release firmado  │
-              └───────────┬─────────────────┘
-                          │
-        ┌─────────────────┼──────────────────┐
-        │                 │                  │
-   ┌────▼─────┐    ┌──────▼──────┐    ┌──────▼───────┐
-   │ F-Droid  │    │  Release    │    │  Mercado     │
-   │ compila  │    │  directo    │    │  abierto     │
-   │ y firma  │    │ (GitHub…)   │    │ (Appteka…)   │
-   └────┬─────┘    └──────┬──────┘    └──────┬───────┘
-        │                 │                  │
-   Droid-ify          Obtainium          Sin revisión
-   Neo-Store          RepoStore          de nadie
-   IzzyOnDroid        ShizuStore
-        │                 │                  │
-        └────────┬────────┴──────────────────┘
+       El desarrollador publica
+       código + release firmado
+                  │
+   ┌──────────┬───┴───────┬──────────┐
+ F-Droid     Release    Mercado
+ compila     directo    abierto
+ y firma     (GitHub)   (Appteka)
+   │            │           │
+ Droid-ify   Obtainium   sin revisión
+ Neo-Store   RepoStore   de nadie
+        └────────┬──────────┘
+           Instalar bien
                  │
-         ┌───────▼────────┐
-         │ Instalar bien  │
-         │ InstallerX ·   │
-         │ universal-     │
-         │ installer      │
-         └───────┬────────┘
-                 │
-          ┌──────▼───────┐
-          │  TU TELÉFONO │
-          │  ¿quién      │
-          │  responde?   │
-          └──────────────┘
+           TU TELÉFONO
 ```
 
 La columna de la izquierda te da verificación; la del medio, frescura; la de la derecha, cantidad. La fila de abajo es la que casi nadie mira y la que decide si el paquete entra o no. Ninguna columna te da las tres cosas: esa es la decisión de esta guía, resumida en un dibujo.
@@ -712,7 +676,7 @@ Esta guía se lee distinto según la máquina que tengas en la mano, y eso no se
 
 *Android 13 en adelante.* Aquí aparece el aviso de apps restringidas y el requisito de verificación de desarrollador en algunas regiones. No rompe nada de lo que recomiendo, pero sí añade pasos: hay que permitir la instalación por app, app por app, y a veces confirmar dos veces. No es un virus del sistema: es la política nueva.
 
-*Lo que cambia de verdad con un teléfono viejo:* el tiempo. Una app que en un gama alta abre en un segundo, en un teléfono de 2017 abre en cinco, y la tentación es culpar a la app. Antes de desinstalar algo porque va lento: mira si tu teléfono tiene menos de 3 GB de RAM, y si es así, prefiere clientes ligeros (F-Droid original, no Neo-Store) y apps con menos gráficos.
+*Lo que cambia de verdad con un teléfono viejo:* el tiempo. Una app que en un gama alta abre en un segundo, en un teléfono de 2017 abre en cinco, y la tentación es culpar a la app. Antes de desinstalar porque va lento: si tienes menos de 3 GB de RAM, prefiere clientes ligeros (F-Droid original, no Neo-Store) y apps con menos gráficos.
 
 *Y lo que no cambia nunca:* la regla. Un teléfono viejo no perdona un mod anónimo mejor que uno nuevo; al contrario, tiene menos margen para defenderse.
 
@@ -766,7 +730,7 @@ Una lista de apps decide por ti aunque no lo parezca: al poner unas y no otras, 
 
 *Dos: la app que sirve para todo no existe.* Cada escalón de esta guía hace un oficio. Cuando una app te promete descubrir, descargar, instalar, actualizar y limpiar, está prometiendo cinco cosas y haciendo dos. Es el patrón del cebo, y ahora sabes reconocerlo.
 
-*Tres: el teléfono manda.* Una app de 2026 que pide Android 13 en un teléfono de 2019 no es una opción, aunque tenga ★20.000. Antes de mirar estrellas, mira la versión mínima y el tamaño del APK: si el archivo pesa el triple que su competidor, o trae mucho código de más o trae mucho relleno.
+*Tres: el teléfono manda.* Una app de 2026 que pide Android 13 en un teléfono de 2019 no es una opción, aunque tenga ★20.000. Antes de mirar estrellas, mira la versión mínima y el peso del APK: si pesa el triple que su competidor, trae mucho código de más o mucho relleno.
 
 *Cuatro: la licencia es información, no papeleo.* Dos de los proyectos de la ficha de hoy no declaran licencia. Eso no los hace malos —`MuntashirAkon/AppManager` es una pieza central de Android libre— pero significa que no puedes reutilizar su código con tranquilidad. Un proyecto sin licencia es un proyecto que no puedes continuar si su autor desaparece.
 
@@ -778,7 +742,7 @@ Una lista de apps decide por ti aunque no lo parezca: al poner unas y no otras, 
 
 *🌅 Cierre — el mapa vivo*
 
-Lo que esta guía te da no es una lista de tiendas: es una forma de mirar. Las tiendas cambian de nombre, se archivan, se venden, se mueren. La vara no. Si mañana `droidify/client` resucita y `Droid-ify/client` se muere, tú no tienes que volver a leer esto: te basta con mirar la fecha del último empuje y quién firma.
+Lo que esta guía te da no es una lista de tiendas: es una forma de mirar. Las tiendas cambian de nombre, se archivan, se venden, se mueren. La vara no. Si mañana `droidify/client` resucita y `Droid-ify/client` se muere, no tienes que releer esto: te basta mirar la fecha del último empuje y quién firma.
 
 Y una cosa más, que es la razón por la que el archivo existe: *todo lo que aquí se afirma se puede comprobar*. Los números tienen fecha, los enlaces se pueden abrir, las licencias se pueden leer en su repositorio. Nada está aquí porque suena bien.
 
@@ -787,43 +751,63 @@ Y una cosa más, que es la razón por la que el archivo existe: *todo lo que aqu
 *🔗 Enlaces de esta pieza (canónicos, sin espejos)*
 
 *Puertas nuevas:*
-https://github.com/samyak2403/RepoStore
-https://github.com/timschneeb/ShizuStore
-https://github.com/SysAdminDoc/AppManagerNG
-https://github.com/djunekz/termux-app-store
+
+- RepoStore (catálogo de repositorios): https://github.com/samyak2403/RepoStore
+- ShizuStore (apps de Shizuku): https://github.com/timschneeb/ShizuStore
+- AppManagerNG (relevo de App Manager): https://github.com/SysAdminDoc/AppManagerNG
+- termux-app-store: https://github.com/djunekz/termux-app-store
 
 *Instaladores y gestores:*
-https://github.com/wxxsfxyzm/InstallerX-Revived
-https://github.com/pass-with-high-score/universal-installer
-https://github.com/vinstall/VInstall
-https://github.com/Paving-Base/APK-Installer
-https://github.com/Jman-Github/Universal-Patch-Manager
-https://github.com/solrudev/Ackpine
-https://github.com/MuntashirAkon/AppManager
-https://github.com/JonaNorman/WebViewUpgrade
-https://github.com/daboynb/developer-verifier-placeholder
+
+- InstallerX-Revived: https://github.com/wxxsfxyzm/InstallerX-Revived
+- universal-installer: https://github.com/pass-with-high-score/universal-installer
+- VInstall: https://github.com/vinstall/VInstall
+- APK-Installer: https://github.com/Paving-Base/APK-Installer
+- Universal-Patch-Manager: https://github.com/Jman-Github/Universal-Patch-Manager
+- Ackpine (sesiones de instalación): https://github.com/solrudev/Ackpine
+- AppManager: https://github.com/MuntashirAkon/AppManager
+- WebViewUpgrade: https://github.com/JonaNorman/WebViewUpgrade
+- verificador de desarrolladores, prueba: https://github.com/daboynb/developer-verifier-placeholder
 
 *Tiendas y clientes:*
-https://github.com/ImranR98/Obtainium
-https://github.com/Droid-ify/client
-https://github.com/NeoApplications/Neo-Store
-https://github.com/accrescent/accrescent
-https://github.com/GrapheneOS/AppStore
-https://github.com/solkin/appteka-android
-https://github.com/shmykelsa/AAAD
-https://github.com/RikkaApps/Shizuku
+
+- Obtainium: https://github.com/ImranR98/Obtainium
+- Droid-ify (casa en Codeberg): https://github.com/Droid-ify/client
+- Droid-ify, casa madre: https://codeberg.org/droidify/client
+- Neo-Store: https://github.com/NeoApplications/Neo-Store
+- Accrescent: https://github.com/accrescent/accrescent
+- App Store de GrapheneOS: https://github.com/GrapheneOS/AppStore
+- Appteka: https://github.com/solkin/appteka-android
+- AAAD (APK de Aurora en escritorio): https://github.com/shmykelsa/AAAD
+- Shizuku: https://github.com/RikkaApps/Shizuku
 
 *Listas curadas:*
-https://github.com/timschneeb/awesome-shizuku
-https://github.com/offa/android-foss
-https://github.com/fmhy/edit
-https://github.com/Psyhackological/AAA
+
+- awesome-shizuku (lista curada): https://github.com/timschneeb/awesome-shizuku
+- android-foss (lista curada): https://github.com/offa/android-foss
+- fmhy/edit (lista curada): https://github.com/fmhy/edit
+- AAA (lista curada): https://github.com/Psyhackological/AAA
 
 *Para verificar por tu cuenta:*
-https://gitlab.com/fdroid/fdroidclient
-https://gitlab.com/IzzyOnDroid/repo
-https://github.com/AuroraOSS/AuroraStore
+
+- cliente de F-Droid (GitLab): https://gitlab.com/fdroid/fdroidclient
+- índice de IzzyOnDroid (GitLab): https://gitlab.com/IzzyOnDroid/repo
+- Aurora Store (espejo): https://github.com/AuroraOSS/AuroraStore
+
 
 ───────────────────
 
-💓 *La Bandita · domingo 1 de noviembre de 2026.* Medí hoy a las 06:15, uno por uno, los 31 repositorios de esta pieza y sus 29 enlaces: 30 vivos, 1 muerto (`droidify/client`, 404), y los 29 enlaces responden 200. Los números son de esa hora; la fecha está aquí para que no te engañen. Si mañana cambian, la fecha está aquí para que no te engañen.
+> —¿Y cuál de todas me sirve?
+> —La que te puede decir quién firma, sin buscarlo en Google.
+
+💓 *La Bandita informa a partir de fuentes fechadas.* La tienda es el mostrador; el origen es el dueño de la mercancía, y el dueño se comprueba en un minuto.
+
+*Medición del corte:* domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · 31 repositorios y 29 enlaces medidos uno por uno: 30 vivos, 1 muerto con su 404 a la vista (`droidify/client`) y los 29 enlaces respondiendo 200.
+
+## 🗒️ Notas al pie
+
+**Nota de corrección (1-nov):** el cierre se rehízo con la firma textual de la casa y su remate propio; la lista de enlaces pasó al formato `- Nombre: URL` con nombres en español, y se añadió el dominio real de Droid-ify en Codeberg, que antes solo aparecía citado dentro de una descripción.
+
+**Nota de verificación final (1-nov):** los 29 enlaces se abrieron uno por uno y devolvieron 200 a las 06:15; estrellas, licencias y empujes son de esa hora.
+
+**Nota del corte (1-nov):** corte real de la pieza. Lo no medido se dice arriba: no hay medición del catálogo completo de ninguna tienda, solo de los repositorios nombrados.

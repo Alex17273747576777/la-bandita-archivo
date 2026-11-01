@@ -10730,3 +10730,17 @@ autoridad, derechos ni jerarquía.
 Edición ensamblada por script reproducible con aserciones de identidad, tamaño y cobertura el 2026-09-10. Tres fuentes, dos módulos, un solo orden de lectura. Lo universal gobierna, lo histórico fundamenta, lo específico instancia. Pendiente de doble lectura humana.
 
 > *Que tenga vida no significa que cambie por capricho. Significa que puede escuchar, aprender, corregirse, descansar y seguir siendo reconocible.*
+
+---
+
+## ENMIENDA 2026-11-01 · fusión con el Manual de Estilo y Operaciones V3.0
+
+**Registrada por:** orden del dueño del 1 de noviembre de 2026 («guarda esto y fusiónalo con los archivos principales de los cimientos… criterios obligatorios de éxito»).
+
+**Qué entra:** el `Manual de Estilo y Operaciones La Bandita — V3.0 (1-nov-2026)` y la lista de criterios obligatorios `CIMIENTOS — criterios obligatorios y precedencia (1-nov-2026)`, ambos en `corpus-la-bandita/`.
+
+**Qué cambia aquí:** nada del articulado. El Tratado sigue siendo la norma madre y esta enmienda no lo reinterpreta: solo deja constancia de que el oficio pasa a tener una vara de forma medible por máquina, y de que ninguna regla de forma puede contradecir un artículo del Tratado.
+
+**Precedencia:** este documento conserva su rango; el Manual V3.0 queda **subordinado** y manda sobre la **forma** de cada pieza (molde, fichas, FAQ, enlaces, firma, meme, notas, prohibiciones). Donde el dueño dio una orden posterior, manda el dueño; las tensiones están registradas, con su resolución, en `CIMIENTOS` §3.
+
+**Comprobación:** `tools/manual_gate.py` ejecuta los criterios C-01 a C-24 y `tools/vara.py` los vuelve compuerta (G11). Un criterio que solo vive en prosa no se cumple: este se mide.

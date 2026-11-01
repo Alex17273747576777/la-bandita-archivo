@@ -112,3 +112,17 @@ Dicho por Alexis al mandar máxima capacidad con la doctrina del maestro Yoda: [
 - **La meta FR se COPIA de la sonda, nunca se redacta a mano.** El desliz «edición francesa (adaptada del original español…)» en ES ocurrió 3 veces (02, 03, 09 FB·FR) antes de la regla. Fórmula exacta: `**La Bandita · 15 de septiembre de 2026 · édition française (adaptée de l'original espagnol, pièce NN)**`.
 - **Houri = PineappleTwilight/houri**, fork=True con padre komikku-app/komikku (API). Fue el «fork de Komikku» del dueño; 4 releases en 3 días (v1.22.2→v1.22.5, 16-17 sep). Dato del dueño mal escrito = preguntar el nombre propio ANTES de verificar de oído.
 - **Madres con ★ dobles por doble medición (p09 FB):** caja vs ficha pueden traer números distintos (Calendar 2.156/2.155, Clock 698/699, AppManager 8.972/8.985, OrganicMaps 15.415/15.427). La gemela reproduce cada ★ en su posición; el GEM por sets lo acepta.
+
+---
+
+## ENMIENDA 2026-11-01 · fusión con el Manual de Estilo y Operaciones V3.0
+
+**Registrada por:** orden del dueño del 1 de noviembre de 2026 («guarda esto y fusiónalo con los archivos principales de los cimientos… criterios obligatorios de éxito»).
+
+**Qué entra:** el `Manual de Estilo y Operaciones La Bandita — V3.0 (1-nov-2026)` y la lista de criterios obligatorios `CIMIENTOS — criterios obligatorios y precedencia (1-nov-2026)`, ambos en `corpus-la-bandita/`.
+
+**Qué cambia aquí:** se incorporan como registro fechado las quince lecciones del §1.2 del Manual V3.0, con su frase textual y su lección operativa. La nº 8 («las versiones mil idiomas están vacías… repasa cada orden y saca una interpretación más completa») queda además como regla de arranque: toda orden con «todas», «cada» o «masivo» se cuenta en números antes de ejecutar.
+
+**Precedencia:** este documento conserva su rango; el Manual V3.0 queda **subordinado** y manda sobre la **forma** de cada pieza (molde, fichas, FAQ, enlaces, firma, meme, notas, prohibiciones). Donde el dueño dio una orden posterior, manda el dueño; las tensiones están registradas, con su resolución, en `CIMIENTOS` §3.
+
+**Comprobación:** `tools/manual_gate.py` ejecuta los criterios C-01 a C-24 y `tools/vara.py` los vuelve compuerta (G11). Un criterio que solo vive en prosa no se cumple: este se mide.

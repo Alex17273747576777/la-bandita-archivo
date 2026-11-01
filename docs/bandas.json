@@ -1,52 +1,52 @@
 {
-  "_nota": "Banda de longitud de cada pieza reescrita. Obliga a la vara (G10): una pieza que no cae dentro de su banda no pasa. Las piezas que aún no se han reescrito no están aquí y no se les exige.",
-  "whatsapp": {
-    "min": 63000,
-    "max": 63099,
-    "_motivo": "el dueño pidió 63.000 como mínimo y máximo a la vez; se admite até 63.099 para no forzar recortes cosméticos de última hora",
-    "piezas": {
-      "01": {
-        "archivo": "01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md",
-        "caracteres": 63021
-      },
-      "02": {
-        "archivo": "02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md",
-        "caracteres": 63084
-      },
-      "03": {
-        "archivo": "03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md",
-        "caracteres": 63032
-      }
-    }
-  },
-  "facebook": {
-    "min": 40000,
-    "max": 45000,
-    "_motivo": "banda pedida por el dueño para la 01 de Facebook; se aplica igual a las siguientes",
-    "piezas": {
-      "01": {
-        "archivo": "01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES.md",
-        "caracteres": 43226
-      },
-      "02": {
-        "archivo": "02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES.md",
-        "caracteres": 43056
-      },
-      "03": {
-        "archivo": "03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-        "caracteres": 43692
-      }
-    }
-  },
-  "posts": {
-    "min": 4152,
-    "max": 4152,
-    "_motivo": "post de comunidad, no pieza de la serie: se le exige caer exactamente en su longitud declarada, sin banda ancha, porque no admite ni relleno ni recorte",
-    "piezas": {
-      "01": {
-        "archivo": "post-2026-11-01-mama-hueso-WhatsApp-La-Bandita-dominicano-ES.md",
-        "caracteres": 4152
-      }
-    }
+ "_nota": "Banda de longitud de cada pieza reescrita. Obliga a la vara (G10): una pieza que no cae dentro de su banda no pasa. Las piezas que aún no se han reescrito no están aquí y no se les exige.",
+ "whatsapp": {
+  "min": 63000,
+  "max": 63099,
+  "_motivo": "el dueño pidió 63.000 como mínimo y máximo a la vez; se admite até 63.099 para no forzar recortes cosméticos de última hora",
+  "piezas": {
+   "01": {
+    "archivo": "01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md",
+    "caracteres": 63094
+   },
+   "02": {
+    "archivo": "02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md",
+    "caracteres": 63084
+   },
+   "03": {
+    "archivo": "03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md",
+    "caracteres": 63007
+   }
   }
+ },
+ "facebook": {
+  "min": 40000,
+  "max": 45000,
+  "_motivo": "banda pedida por el dueño para la 01 de Facebook; se aplica igual a las siguientes",
+  "piezas": {
+   "01": {
+    "archivo": "01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES.md",
+    "caracteres": 44990
+   },
+   "02": {
+    "archivo": "02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES.md",
+    "caracteres": 44353
+   },
+   "03": {
+    "archivo": "03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
+    "caracteres": 44830
+   }
+  }
+ },
+ "posts": {
+  "min": 4152,
+  "max": 4152,
+  "_motivo": "post de comunidad, no pieza de la serie: se le exige caer exactamente en su longitud declarada, sin banda ancha, porque no admite ni relleno ni recorte",
+  "piezas": {
+   "01": {
+    "archivo": "post-2026-11-01-mama-hueso-WhatsApp-La-Bandita-dominicano-ES.md",
+    "caracteres": 4152
+   }
+  }
+ }
 }

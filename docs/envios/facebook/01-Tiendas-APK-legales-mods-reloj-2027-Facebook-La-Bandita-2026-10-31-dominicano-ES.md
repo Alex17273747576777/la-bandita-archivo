@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `ba70b04db20f0f455aec9010d915fb7925f05d62d8fa7b1f57c46ad39de5a80b`
+- **sha256 de la pieza:** `31caa293c7e3531dce4b2857e2ef16d83077921a745cf86c82c82aa1ff3668bb`
 - **Envío generado:** 2026-11-01 · 19 mensajes · el mayor de 3640 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -20,15 +20,31 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 19 · 2871 caracteres ═══
+═══ MENSAJE 2 de 19 · 3489 caracteres ═══
 
 *Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que ya está corriendo*
 
 *La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 01 de Facebook*
 
+*🗺️ Mapa de esta guía*
+
+├── ⚡ En una página
+├── 🏪 La tienda con dueño y la tienda sin él
+├── 🧰 Los instaladores que traen el catálogo a ti
+├── ⚠️ Los letreros de mods (se nombran, no se recetan)
+├── 🕐 El reloj de 2027 y la puerta chica
+├── 🧭 Cuatro pasos para auditar cualquier APK
+├── 🚩 Señales de cebo
+├── 🔗 Enlaces
+└── 🗒️ Notas del corte
+
+*⚡ En una página*
+
 Una vez me preguntaron en un grupo: «¿y cuál es la tienda buena?». Contesté con otra pregunta: «¿quién te la recomienda?». Porque el problema nunca fue la tienda. El problema es que la mayoría de la gente instala lo que le llegó, no lo que buscó.
 
 Esto no es una guía de tiendas. Es una guía de *decisiones*. Cinco escenas reales, doce casas medidas hoy, un tutorial y una vara para que la uses sin mí.
+
+Y hay una fecha encima de todo esto: el reloj de la verificación de desarrolladores ya corre, y lo que hoy se instala con un toque en 2027 va a pedir papeles. Por eso la pieza no termina en una lista de tiendas, sino en cuatro pasos que puedes repetir tú.
 
 *ESCENA 1 — La tía que tiene el teléfono lleno*
 
@@ -524,7 +540,7 @@ Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha 
 
 ⏬ sigue abajo · parte 14 de 18
 
-═══ MENSAJE 16 de 19 · 3300 caracteres ═══
+═══ MENSAJE 16 de 19 · 2216 caracteres ═══
 
 *GLOSARIO PARA EL QUE LLEGA NUEVO*
 
@@ -561,47 +577,57 @@ Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha 
 4. REV|etimrep éuq ebas es on orep ,rasu edeup es ppa al :oirotisoper le ne aralc aicnecil anu econocer on buHtiG euq
 5. REV|nedneped sodot euq led radnátse le se ísa nua y ,5202 ed oinuj ed 81 le edsed ,saíd 105
 
-*ENLACES DE ESTA PIEZA*
-
-*Las nuevas, una por una:*
-https://github.com/samyak2403/RepoStore
-https://github.com/timschneeb/ShizuStore
-https://github.com/SysAdminDoc/AppManagerNG
-https://github.com/djunekz/termux-app-store
-https://github.com/pass-with-high-score/universal-installer
-https://github.com/vinstall/VInstall
-https://github.com/wxxsfxyzm/InstallerX-Revived
-https://github.com/Jman-Github/Universal-Patch-Manager
-https://github.com/solrudev/Ackpine
-https://github.com/JonaNorman/WebViewUpgrade
-https://github.com/daboynb/developer-verifier-placeholder
-https://github.com/Paving-Base/APK-Installer
-
-*Las de siempre:*
-https://github.com/MuntashirAkon/AppManager
-https://github.com/ImranR98/Obtainium
-https://github.com/NeoApplications/Neo-Store
-https://github.com/Droid-ify/client
-https://github.com/accrescent/accrescent
-https://github.com/GrapheneOS/AppStore
-https://github.com/RikkaApps/Shizuku
-https://gitlab.com/fdroid/fdroidclient
-
-*Los cebos, para que los conozcas de vista:*
-https://github.com/sri-sivaram/Neko-Manga-Pearl
-https://github.com/ubedshah/manga-vault-nexus
-
 ⏬ sigue abajo · parte 15 de 18
 
-═══ MENSAJE 17 de 19 · 824 caracteres ═══
+═══ MENSAJE 17 de 19 · 3053 caracteres ═══
 
-*CIERRE*
+*🔗 Enlaces*
 
-Si te quedas con una sola frase de todo esto, que sea esta: *el problema nunca fue la tienda, fue el origen*. Cualquier tienda de esta lista puede fallar mañana; lo que no puede es sorprenderte mintiendo sobre lo que es, porque todo lo que dicen se puede ir a comprobar.
+*Las nuevas de esta ronda, medidas hoy:*
 
-Y si algún día alguien te manda un APK por WhatsApp y te dice «es el mismo pero mejor», ya sabes lo que hay que preguntar: *¿quién lo firma?* Si la respuesta tarda más de dos segundos, la respuesta es nadie.
+- RepoStore (repositorios como catálogo): https://github.com/samyak2403/RepoStore
+- ShizuStore (apps de Shizuku): https://github.com/timschneeb/ShizuStore
+- AppManagerNG (el relevo de App Manager): https://github.com/SysAdminDoc/AppManagerNG
+- termux-app-store (tienda para Termux): https://github.com/djunekz/termux-app-store
+- universal-installer (instalador universal): https://github.com/pass-with-high-score/universal-installer
+- VInstall (instalador ligero): https://github.com/vinstall/VInstall
+- InstallerX-Revived (el relevo de InstallerX): https://github.com/wxxsfxyzm/InstallerX-Revived
+- Universal-Patch-Manager (avisos de versión): https://github.com/Jman-Github/Universal-Patch-Manager
+- Ackpine (sesiones de instalación): https://github.com/solrudev/Ackpine
+- WebViewUpgrade (subir el WebView a mano): https://github.com/JonaNorman/WebViewUpgrade
+- verificador de desarrolladores, prueba (daboynb): https://github.com/daboynb/developer-verifier-placeholder
+- APK-Installer (instalador de Paving-Base): https://github.com/Paving-Base/APK-Installer
 
-💓 *La Bandita · domingo 1 de noviembre de 2026.* Pieza 01 de Facebook. Medí hoy a las 06:15 los 19 repositorios de la ficha y las 12 casas, con sus 22 enlaces: los 19 vivos y los 22 responden 200. Los números son de esa hora y llevan su fecha al lado. Lo que no medí, está dicho arriba como no medido.
+*Las de siempre:*
+
+- App Manager (MuntashirAkon): https://github.com/MuntashirAkon/AppManager
+- Obtainium (instala desde el repositorio del autor): https://github.com/ImranR98/Obtainium
+- Neo-Store (catálogo con rastreadores a la vista): https://github.com/NeoApplications/Neo-Store
+- Droid-ify (cliente de F-Droid): https://github.com/Droid-ify/client
+- Accrescent (tienda con firma verificada): https://github.com/accrescent/accrescent
+- App Store de GrapheneOS: https://github.com/GrapheneOS/AppStore
+- Shizuku (permisos prestados sin root): https://github.com/RikkaApps/Shizuku
+- cliente de F-Droid (casa real en GitLab): https://gitlab.com/fdroid/fdroidclient
+
+*Los cebos, para que los reconozcas de vista:*
+
+- Neko-Manga-Pearl (cebo de manga, sin casa detrás): https://github.com/sri-sivaram/Neko-Manga-Pearl
+- manga-vault-nexus (el mismo patrón, otro nombre): https://github.com/ubedshah/manga-vault-nexus
+
+> —¿Y la tienda que no me miente?
+> —La que te dice quién firma antes de que preguntes.
+
+💓 *La Bandita informa a partir de fuentes fechadas.* El origen manda; la tienda solo te presta el mostrador, y el mostrador se puede cambiar de sitio mañana.
+
+*Medición del corte:* domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · 19 repositorios y 12 casas medidos uno por uno contra la API de GitHub · 22 enlaces abiertos con `curl -L`, todos con 200.
+
+## 🗒️ Notas al pie
+
+**Nota de corrección (1-nov):** el cierre se rehízo con la firma textual de la casa y su remate propio; la lista de enlaces pasó al formato `- Nombre: URL`, agrupada por origen.
+
+**Nota de verificación final (1-nov):** los 22 enlaces se abrieron uno por uno y devolvieron 200 a las 06:15 de Santo Domingo; estrellas y licencias son de esa hora.
+
+**Nota del corte (1-nov):** corte real. Pendiente declarado: medir el archivo completo de envíos exige token de GitHub; sin él la cuota pública es de 60 consultas por hora.
 
 ⏬ sigue abajo · parte 16 de 18
 

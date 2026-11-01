@@ -230,16 +230,15 @@ REV|0.2-LPG=1|REV|92-21-5202 — LGrekcolnUi/olyaT-i=2|REV|50-50-0202 — slooTL
 
 ⏬ sigue abajo · parte 5 de 7
 
-═══ MENSAJE 7 de 8 · 641 caracteres ═══
+═══ MENSAJE 7 de 8 · 656 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-(De 1 no tengo dato de hoy y lo digo: Ahsan40/GLTools.)
-
 • i-Taylo/iUnlockerGL — ★110 (+2) · *dormido*: sin empujar desde el 29-dic-2025 (307 días) · NOASSERTION · última release v1.1.5-r4 (29-dic-2025)
 • darek2015/GLTools — ★12 (sin cambio) · *dormido*: sin empujar desde el 5-may-2020 (2371 días) · GPL-2.0
+• Ahsan40/GLTools — sin dato hoy (la API no respondió). No afirmo nada.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

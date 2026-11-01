@@ -320,6 +320,37 @@ COMPUERTAS = [
 ]
 
 
+def g11_manual() -> tuple[list[str], str]:
+    """MANUAL DE ESTILO Y OPERACIONES V3.0 como compuerta (1-nov-2026).
+
+    Corre M01-M16 y M23 sobre las piezas que tienen banda declarada. Un ROJO (fallo crítico)
+    o un VENTANA (fallo de forma) cuenta como fallo: el manual no tiene categoría "opcional".
+    """
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import manual_gate as mg
+
+    bk = mg.bandas()
+    con_banda = set()
+    for canal in ("whatsapp", "facebook"):
+        for ent in (bk.get(canal, {}).get("piezas", {}) or {}).values():
+            if isinstance(ent, dict) and ent.get("archivo"):
+                con_banda.add(ent["archivo"])
+    ps = [p for p in mg.piezas() if p.name in con_banda]
+    if not ps:
+        return [], "sin piezas con banda"
+    todos = {p.name: mg.parrafos(p.read_text(encoding="utf-8", errors="replace")) for p in mg.piezas()}
+    firmas: dict[str, str] = {}
+    fallos, verdes = [], 0
+    for p in ps:
+        r = mg.check(p, bk, firmas, todos)
+        if r["veredicto"] == "VERDE":
+            verdes += 1
+            continue
+        for cod, sev, det in r["fallos"]:
+            fallos.append(f"{r['veredicto']} {p.name[:52]} · {cod}: {det}")
+    return fallos, f"{verdes}/{len(ps)} piezas VERDE en el manual v3.0"
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", action="store_true")
@@ -340,6 +371,7 @@ def main() -> int:
         ("G8 presupuesto", "medidor", g8_presupuesto(ps)),
         ("G9 envíos", "puerta", g9_envios()),
         ("G10 bandas", "puerta", g10_bandas()),
+        ("G11 manual v3.0", "puerta", g11_manual()),
     ]
     congelados = deuda_congelada()
     total_fallos = 0

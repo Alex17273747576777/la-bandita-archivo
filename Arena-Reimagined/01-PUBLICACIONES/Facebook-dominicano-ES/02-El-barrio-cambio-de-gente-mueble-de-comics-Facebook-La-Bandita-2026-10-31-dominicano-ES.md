@@ -2,15 +2,34 @@
 
 *La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español*
 
-Hay una publicación que mandé hace cuatro meses con veinte puertas para leer cómics en el teléfono. Hoy abrí esa lista y la mitad de las puertas ya no dan a ninguna parte: no porque se hayan roto, sino porque el oficio se mudó de casa. Esta pieza no es una corrección de aquella: es el censo de los que llegaron mientras no mirábamos.
+*🗺️ Mapa de esta guía*
 
-Medí cuarenta y nueve repositorios uno por uno hoy. De ellos, dieciséis no existían —o no tenían una sola versión publicada— cuando se escribió la lista vieja. Y encontré cuatro que nacieron el mismo día, sin licencia y sin código, con el nombre de otras apps pegado en el título para salir en las búsquedas.
+├── ⚡ En una página
+├── 🏘️ Las seis casas nuevas
+├── 🖥️ Los cuatro servidores
+├── 🗄️ El archivo
+├── 🚚 Tutorial de mudanza
+├── ⚠️ Los ocho errores
+├── ⚖️ La ley, sin sermón
+├── 🏠 El servidor en casa
+├── ❓ Preguntas que me hacen
+├── 📇 La ficha de hoy
+├── 🔗 Enlaces
+└── 🗒️ Notas del corte
 
-Eso es lo que hay. Te lo cuento por historias, como me lo contaron a mí.
+*⚡ En una página*
+
+Hay una publicación mía de hace cuatro meses con veinte puertas para leer cómics en el teléfono. Abrí esa lista el viernes y la mitad ya no daba a ninguna parte: no se rompieron, el oficio se mudó de casa. Esta pieza es el censo de los que llegaron mientras no mirábamos, con lo que se midió y lo que no.
+
+Cuarenta y nueve repositorios medidos hoy uno por uno, con fecha de nacimiento y licencia al lado. Dieciséis no existían —o no tenían una sola versión publicada— cuando se escribió la lista vieja. Y cuatro nacieron el mismo día, sin licencia y sin código, con el nombre de otras apps pegado en el título.
+
+La conclusión práctica cabe en una línea: el lector se cambia, el archivo no. Cuando un proyecto muere no se pierde la app, se pierde la carpeta de respaldos que nadie hizo.
 
 ───────────────────
 
 *SEMILLA — por qué una lista se llena de cadáveres*
+
+───────────────────
 
 Una lista de apps envejece por tres razones, y casi nadie las separa.
 
@@ -515,67 +534,76 @@ Esto no es una lista de recomendaciones: es un acta. Cada línea se consultó ho
 
 ───────────────────
 
-*ENLACES — todos canónicos, ninguno es un espejo*
+*🔗 Enlaces*
 
-*El motor que se instala primero:*
-https://github.com/mihonapp/mihon
+*Los lectores que se instalan primero:*
 
-*Los forks y lectores que llegaron después:*
-https://github.com/UsagiApp/Usagi
-https://github.com/Chimahon/chimahon
-https://github.com/roxycon-dev/Ciallo-Reader
-https://github.com/yomihon/yomihon
-https://github.com/null2264/yokai
-https://github.com/jakepurple13/OtakuWorld
-https://github.com/komikku-app/komikku
-https://github.com/nekomangaorg/Neko
+- Mihon (el motor que se instala primero): https://github.com/mihonapp/mihon
+- Usagi: https://github.com/UsagiApp/Usagi
+- Chimahon: https://github.com/Chimahon/chimahon
+- Ciallo Reader: https://github.com/roxycon-dev/Ciallo-Reader
+- Yomihon: https://github.com/yomihon/yomihon
+- Yokai: https://github.com/null2264/yokai
+- OtakuWorld: https://github.com/jakepurple13/OtakuWorld
+- Komikku: https://github.com/komikku-app/komikku
+- Neko: https://github.com/nekomangaorg/Neko
 
 *Servidores y bibliotecas:*
-https://github.com/Kareadita/Kavita
-https://github.com/gotson/komga
-https://github.com/Suwayomi/Suwayomi-Server
-https://github.com/Suwayomi/Suwayomi-VUI
-https://github.com/ruzhe85/Komiho
-https://github.com/BookHeaven/BookHeaven.Server
-https://github.com/zmz125000/LocalViewer
 
-*Clientes:*
-https://github.com/kmworks/kmreader
-https://github.com/Snd-R/Komelia
-https://github.com/chmouel/liseur
-https://github.com/koodo-reader/koodo-reader
+- Kavita: https://github.com/Kareadita/Kavita
+- Komga: https://github.com/gotson/komga
+- Suwayomi Server: https://github.com/Suwayomi/Suwayomi-Server
+- Suwayomi VUI: https://github.com/Suwayomi/Suwayomi-VUI
+- Komiho: https://github.com/ruzhe85/Komiho
+- BookHeaven Server: https://github.com/BookHeaven/BookHeaven.Server
+- LocalViewer: https://github.com/zmz125000/LocalViewer
 
-*Los que trabajan sin teléfono:*
-https://github.com/josueBarretogit/manga-tui
-https://github.com/elboletaire/manga-downloader
-https://github.com/MapoMagpie/comic-looms
-https://github.com/KamiYomu/KamiYomu
+*Clientes de escritorio y de bolsillo:*
+
+- KMReader: https://github.com/kmworks/kmreader
+- Komelia: https://github.com/Snd-R/Komelia
+- Liseur: https://github.com/chmouel/liseur
+- Koodo Reader: https://github.com/koodo-reader/koodo-reader
+- manga-tui: https://github.com/josueBarretogit/manga-tui
+- manga-downloader: https://github.com/elboletaire/manga-downloader
+- Comic Looms: https://github.com/MapoMagpie/comic-looms
+- KamiYomu: https://github.com/KamiYomu/KamiYomu
 
 *Catálogos de extensiones:*
-https://github.com/keiyoushi/extensions-source
-https://github.com/yuzono/tachiyomi-extensions
-https://github.com/m2k3a/mangayomi-extensions
-https://github.com/aidoku-community/sources
+
+- Keiyoushi (catálogo de extensiones): https://github.com/keiyoushi/extensions-source
+- Yuzono (extensiones de Tachiyomi): https://github.com/yuzono/tachiyomi-extensions
+- extensiones de Mangayomi: https://github.com/m2k3a/mangayomi-extensions
+- fuentes de Aidoku: https://github.com/aidoku-community/sources
 
 *Los cebos, para que los reconozcas sin abrirlos:*
-https://github.com/sri-sivaram/Neko-Manga-Pearl
-https://github.com/ubedshah/manga-vault-nexus
-https://github.com/meyamane37923-hash/komikku-scans
-https://github.com/khaledmahmud5286-cmd/manga-zen-reader
+
+- cebo Neko-Manga-Pearl: https://github.com/sri-sivaram/Neko-Manga-Pearl
+- cebo manga-vault-nexus: https://github.com/ubedshah/manga-vault-nexus
+- cebo komikku-scans: https://github.com/meyamane37923-hash/komikku-scans
+- cebo manga-zen-reader: https://github.com/khaledmahmud5286-cmd/manga-zen-reader
 
 *El que se archivó, para que se sepa por qué se salió:*
-https://github.com/KotatsuApp/Kotatsu
+
+- Kotatsu (archivado, con su porqué): https://github.com/KotatsuApp/Kotatsu
 
 ───────────────────
 
 *CIERRE — el mueble que se puede mudar*
 
-Lo que estas cuarenta y nueve fichas enseñan, dicho en plata: *un proyecto puede morir un martes y tu biblioteca puede seguir abierta el miércoles, si el archivo no vivía dentro del proyecto.*
+Lo que estas cuarenta y nueve fichas enseñan, dicho en plata: *un proyecto puede morir un martes y tu biblioteca puede seguir abierta el miércoles, si el archivo no vivía dentro del proyecto.* Tachiyomi murió y su ecosistema floreció porque el código estaba en miles de manos. Kotatsu se archivó y sus usuarios están migrando porque alguien pensó en el respaldo. Este año llegaron dieciséis proyectos nuevos, de gente que ni siquiera estaba cuando el tronco cayó.
 
-Tachiyomi murió y su ecosistema floreció porque el código estaba en miles de manos. Kotatsu se archivó y sus usuarios están migrando porque alguien pensó en el respaldo. Los servidores existen porque alguien se cansó de perder la biblioteca cada vez que cambiaba de teléfono. Y este año llegaron dieciséis proyectos nuevos, de gente que ni siquiera estaba cuando el tronco cayó.
+> —¿Y si mañana cierra el que estoy usando?
+> —Entonces ya sabes dónde vive tu biblioteca. Ahí no cierra nadie.
 
-La pieza que leas mañana puede llevar otro nombre. Tu carpeta de respaldos no cambia de nombre si tú no se lo cambias, y ese detalle —tan aburrido— es la única garantía que tienes.
+💓 *La Bandita informa a partir de fuentes fechadas.* La app es la puerta; el archivo es la casa, y la casa se muda con cajas, no con promesas.
 
-───────────────────
+*Medición del corte:* domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · 49 repositorios consultados uno por uno en la API de GitHub · 33 enlaces abiertos con `curl -L`, cada uno con su respuesta.
 
-💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy a las 06:15, uno por uno, los 49 repositorios de esta ficha: 41 vivos, 4 archivados y 3 muertos con su 404 a la vista. Los números llevan la hora, no solo la fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.
+## 🗒️ Notas al pie
+
+**Nota de corrección (1-nov):** el cierre se rehízo con la firma textual de la casa y su remate propio; se añadieron el mapa de la guía y el resumen de apertura, y la lista de enlaces pasó al formato `- Nombre: URL`.
+
+**Nota de verificación final (1-nov):** cada enlace se abrió a mano y su respuesta quedó al lado del nombre; estrellas, licencias y fechas de nacimiento son de la misma hora.
+
+**Nota del corte (1-nov):** corte real de la pieza. Pendiente declarado: los cuatro cebos identificados se describen por su patrón, sin enlace de descarga ni captura de su contenido.

@@ -8296,6 +8296,219 @@
    "release": "2026.10.1",
    "release_fecha": "2026-10-06",
    "stars_pieza": 4012
+  },
+  "tsunderswapElnina/Keep-Android-Open-UI": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-10-13",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Keep Android Open campaign app: real-time countdown to the 2027 Android lockdown, Developer Verification explainer, and Act Now tools. Material 3 Expressive.",
+   "release": "v1.0.1-patch1",
+   "release_fecha": "2026-10-13",
+   "stars_pieza": null
+  },
+  "zechuan-start/adb-gui": {
+   "estado": "vivo",
+   "stars": 72,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "TypeScript",
+   "desc": "跨平台 Android ADB 桌面 GUI（Tauri + React）：设备管理/无线连接、截图、录屏、APK 安装、应用管理、DeepLink、端口转发、Bug 报告、Logcat 查看等 | Cross-platform Tauri desktop GUI for Android ADB: device management, Wi-Fi connect, screenshots, screen recording, APK install, app manager, deep links, port forwarding, bug reports, and logcat viewer.",
+   "release": "v0.1.12",
+   "release_fecha": "2026-10-27",
+   "stars_pieza": null
+  },
+  "Ruraam/Uraam": {
+   "estado": "vivo",
+   "stars": 50,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Shell",
+   "desc": "Universal Ruvomain ADB App Manager [URAAM]: An all-in-one shell toolkit for Android debloating. Uninstall/disable your apps, backup your debloat apps JSON file & revert/restore, install apk. Works with \"Termux  `WirelessADB, Shizuku, Root', Linux `Debian, Arch, Fedora, macOS & WSL '. Compatible with Canta/UAD JSON lists.",
+   "release": "v4.4.6",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "audioeng89/tiny_apk_installer": {
+   "estado": "vivo",
+   "stars": 50,
+   "push": "2026-03-26",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Go",
+   "desc": "A simple TUI for installing APKs and bundles on Android via ADB. Written in Go.",
+   "release": "0.1.0",
+   "release_fecha": "2026-03-26",
+   "stars_pieza": null
+  },
+  "austinsager/adv-install": {
+   "estado": "vivo",
+   "stars": 27,
+   "push": "2026-07-19",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Shell",
+   "desc": "On-device ADB-style APK installation using Termux, Shizuku, rish, and Android shell identity for Developer Verification-era workflows.",
+   "release": "v0.1.1",
+   "release_fecha": "2026-07-19",
+   "stars_pieza": null
+  },
+  "GrapheneOS/Vanadium": {
+   "estado": "vivo",
+   "stars": 2267,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Python",
+   "desc": "Privacy and security enhanced releases of Chromium for GrapheneOS. Vanadium provides the WebView and standard user-facing browser on GrapheneOS. It depends on hardening in other GrapheneOS repositories and doesn't include patches not relevant to the build targets used on GrapheneOS.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "GrapheneOS/Auditor": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "GrapheneOS/Camera": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "GrapheneOS/PdfViewer": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "GrapheneOS/hardened_malloc": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "degoog-org/degoog": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "PimpinPumpkin/Vela": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "Pelski/ytzero": {
+   "estado": "vivo",
+   "stars": 670,
+   "push": "2026-09-28",
+   "archivado": false,
+   "licencia": "Unlicense",
+   "lenguaje": "TypeScript",
+   "desc": "YT Zero - own rules, own algorithm, no login required. Every video from every channel you follow, and nothing else",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "hakerdefo/Robota-Liberated": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "twinksoftware/Gearslip": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "biolend83/tubehaus": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "GitMag/UnknownAuto": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "steven-ahfu/Android-TV-Desktop-Toolkit": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "m-salehi-v/mrowser": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "Miniontoby/RokidApkUploader": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "andronedev/openportal": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "itsmelissadev/SwiftSense": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "LooseWireDev/unclouded": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "FoedusProgramme/Checker": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "HydraDragonAntivirus/HydraDragonAV-Mobile": {
+   "estado": "vivo",
+   "stars": 23,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "GPL-2.0",
+   "lenguaje": "YARA",
+   "desc": "Android Antivirus which doesn't require root, adb, ca install and cloud with many features and ways to detect more zero-day malware",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "bl3xand/APK-Toolbox": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "richardkfm/los-bootstrap": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "Ha2mad/package-pass": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "desc": "Get Android apps through developer verification: batch-read package names and signing-key SHA-256s from APK/AAB in the browser, plan registrations, preflight proof APKs.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Meirwolf1289/fdroid-census": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
+  },
+  "Ahsan40/GLTools": {
+   "estado": "error",
+   "motivo": "API rate limit exceeded for 136.87.90.78. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+   "stars_pieza": null
   }
  },
  "enlaces": {
@@ -12512,6 +12725,130 @@
    "veredicto": "responde"
   },
   "https://zangetsu.online": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/FoedusProgramme/Checker": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GitMag/UnknownAuto": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/Auditor": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/Camera": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/PdfViewer": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/Vanadium": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/grapheneos.org": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GrapheneOS/hardened_malloc": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Ha2mad/package-pass": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/HydraDragonAntivirus/HydraDragonAV-Mobile": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/LooseWireDev/unclouded": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Meirwolf1289/fdroid-census": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Miniontoby/RokidApkUploader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Pelski/ytzero": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/PimpinPumpkin/Vela": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Ruraam/Uraam": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/andronedev/openportal": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/audioeng89/tiny_apk_installer": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/austinsager/adv-install": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/biolend83/tubehaus": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/bl3xand/APK-Toolbox": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/degoog-org/degoog": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/hakerdefo/Robota-Liberated": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/itsmelissadev/SwiftSense": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/keepandroidopen/keepandroidopen.github.io": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/m-salehi-v/mrowser": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/richardkfm/los-bootstrap": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/steven-ahfu/Android-TV-Desktop-Toolkit": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/tsunderswapElnina/Keep-Android-Open-UI": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/twinksoftware/Gearslip": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/zechuan-start/adb-gui": {
    "codigo": "200",
    "veredicto": "responde"
   }

@@ -2,15 +2,15 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `02484586e42638c635649c642e2d19b084b762b8a60403933e51a117fa210ae8`
-- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3863 caracteres
+- **sha256 de la pieza:** `1b86026db9ce7379514b3521b5973234217cc1051e26a4a0966f06a265c152fe`
+- **Envío generado:** 2026-11-01 · 21 mensajes · el mayor de 3863 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 782 caracteres ═══
+═══ MENSAJE 1 de 21 · 782 caracteres ═══
 
 *EL BARRIO CAMBIÓ DE GENTE — el mueble de los cómics, contado por los que llegaron después*
 
-La Bandita · pieza 02 · guía del 1-nov-2026 · te la mando hoy en 20 mensajes.
+La Bandita · pieza 02 · guía del 1-nov-2026 · te la mando hoy en 21 mensajes.
 
 Antes de mandártela volví a medir lo que afirma: *58 repositorios, 55 vivos y 3 muertos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
@@ -20,17 +20,34 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 2959 caracteres ═══
+═══ MENSAJE 2 de 21 · 3356 caracteres ═══
 
 *EL BARRIO CAMBIÓ DE GENTE — el mueble de los cómics, contado por los que llegaron después*
 
 *La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español*
 
-Hay una publicación que mandé hace cuatro meses con veinte puertas para leer cómics en el teléfono. Hoy abrí esa lista y la mitad de las puertas ya no dan a ninguna parte: no porque se hayan roto, sino porque el oficio se mudó de casa. Esta pieza no es una corrección de aquella: es el censo de los que llegaron mientras no mirábamos.
+*🗺️ Mapa de esta guía*
 
-Medí cuarenta y nueve repositorios uno por uno hoy. De ellos, dieciséis no existían —o no tenían una sola versión publicada— cuando se escribió la lista vieja. Y encontré cuatro que nacieron el mismo día, sin licencia y sin código, con el nombre de otras apps pegado en el título para salir en las búsquedas.
+├── ⚡ En una página
+├── 🏘️ Las seis casas nuevas
+├── 🖥️ Los cuatro servidores
+├── 🗄️ El archivo
+├── 🚚 Tutorial de mudanza
+├── ⚠️ Los ocho errores
+├── ⚖️ La ley, sin sermón
+├── 🏠 El servidor en casa
+├── ❓ Preguntas que me hacen
+├── 📇 La ficha de hoy
+├── 🔗 Enlaces
+└── 🗒️ Notas del corte
 
-Eso es lo que hay. Te lo cuento por historias, como me lo contaron a mí.
+*⚡ En una página*
+
+Hay una publicación mía de hace cuatro meses con veinte puertas para leer cómics en el teléfono. Abrí esa lista el viernes y la mitad ya no daba a ninguna parte: no se rompieron, el oficio se mudó de casa. Esta pieza es el censo de los que llegaron mientras no mirábamos, con lo que se midió y lo que no.
+
+Cuarenta y nueve repositorios medidos hoy uno por uno, con fecha de nacimiento y licencia al lado. Dieciséis no existían —o no tenían una sola versión publicada— cuando se escribió la lista vieja. Y cuatro nacieron el mismo día, sin licencia y sin código, con el nombre de otras apps pegado en el título.
+
+La conclusión práctica cabe en una línea: el lector se cambia, el archivo no. Cuando un proyecto muere no se pierde la app, se pierde la carpeta de respaldos que nadie hizo.
 
 *SEMILLA — por qué una lista se llena de cadáveres*
 
@@ -52,9 +69,9 @@ Tenía razón a medias. Mihon corre, pero pesa en un teléfono así. Lo que le i
 
 *Lo que aprendí en su casa:* la app más recomendada del mundo no es la más recomendada para el teléfono que tienes. Antes de mirar estrellas, mira la versión mínima de Android y los requisitos. Yomaira no necesitaba el mejor lector: necesitaba el que le cupiera.
 
-⏬ sigue abajo · parte 1 de 19
+⏬ sigue abajo · parte 1 de 20
 
-═══ MENSAJE 3 de 20 · 3396 caracteres ═══
+═══ MENSAJE 3 de 21 · 3396 caracteres ═══
 
 *ESCENA 2 — El técnico que ya no dice «eso se arregla con root»*
 
@@ -93,9 +110,9 @@ Era una página HTML. Sin licencia. Creada el 28 de junio de 2026, el mismo día
 
 *La regla, corta:* antes de instalar cualquier cosa que te recomiende un grupo, abre su repositorio y mira tres cosas: el lenguaje, la licencia y la fecha de creación. Treinta segundos. Los mismos treinta segundos que doña Carmen no gastó y que le costaron dos semanas.
 
-⏬ sigue abajo · parte 2 de 19
+⏬ sigue abajo · parte 2 de 20
 
-═══ MENSAJE 4 de 20 · 656 caracteres ═══
+═══ MENSAJE 4 de 21 · 656 caracteres ═══
 
 *ESCENA 6 — El que quiere leer en la tele*
 
@@ -105,9 +122,9 @@ Su solución no fue una app: fue un servidor. Instaló `Kareadita/Kavita` — *�
 
 Me dijo: «ahora cuando se me rompe el teléfono no pierdo nada». Es la frase más importante de esta pieza y no tiene nada que ver con cómics.
 
-⏬ sigue abajo · parte 3 de 19
+⏬ sigue abajo · parte 3 de 20
 
-═══ MENSAJE 5 de 20 · 3380 caracteres ═══
+═══ MENSAJE 5 de 21 · 3380 caracteres ═══
 
 *LAS SEIS CASAS NUEVAS — lo que nació mientras no mirábamos*
 
@@ -149,9 +166,9 @@ Anime, manga y novelas en tres aplicaciones separadas, del mismo autor. La decis
 *El precio:* tres apps instaladas, tres respaldos, tres formas de recordar dónde ibas.
 *Para quién:* para el que consume los tres formatos y no le molesta tener tres iconos.
 
-⏬ sigue abajo · parte 4 de 19
+⏬ sigue abajo · parte 4 de 20
 
-═══ MENSAJE 6 de 20 · 3667 caracteres ═══
+═══ MENSAJE 6 de 21 · 3667 caracteres ═══
 
 *LOS CUATRO SERVIDORES QUE NO SON SUWAYOMI*
 
@@ -190,9 +207,9 @@ Lector y descargador con una decisión que hoy es ética además de técnica: es
 Autoalojado y con complementos: tú eliges las fuentes, tú mantienes el servidor. Es la versión «hazlo tú» del mueble.
 
 
-⏬ sigue abajo · parte 5 de 19
+⏬ sigue abajo · parte 5 de 20
 
-═══ MENSAJE 7 de 20 · 3592 caracteres ═══
+═══ MENSAJE 7 de 21 · 3592 caracteres ═══
 
 *`Yui007/weebcentral_downloader` — ★175 · MIT · Python · **sin release publicada**.*
 Un solo sitio, con interfaz y línea de comandos. Sin release significa que se instala con Python y se actualiza a mano. Lo digo porque es exactamente el tipo de proyecto que la gente intenta instalar como APK y luego se queja.
@@ -235,9 +252,9 @@ Esto es para el que ya tiene una biblioteca y quiere cambiar de app, de teléfon
 
 *Si vienes de otra familia* —por ejemplo de una app de catálogo a una de biblioteca—, no hay respaldo que valga: se exporta la lista de series en texto y se vuelve a añadir una por una, perdiendo el historial. Eso se paga una vez; se paga menos si la lista la tienes escrita en algún lado.
 
-⏬ sigue abajo · parte 6 de 19
+⏬ sigue abajo · parte 6 de 20
 
-═══ MENSAJE 8 de 20 · 3577 caracteres ═══
+═══ MENSAJE 8 de 21 · 3577 caracteres ═══
 
 *LOS OCHO ERRORES QUE TE VAN A PASAR*
 
@@ -281,9 +298,9 @@ Se llaman `sri-sivaram/Neko-Manga-Pearl` (★116), `ubedshah/manga-vault-nexus` 
 
 *Un caso que parece lo mismo y no lo es:* `RecordXenon/Kotatsu-Ultra` — *★117 · **sin licencia declarada** · creado el 28 de junio de 2026 · empuje del 22 de octubre*. Misma fecha, misma ausencia de licencia, y aun así es un fork real: es Kotlin, tiene código de aplicación, tiene releases y su autor trabaja en él. *Sin licencia sigue siendo un problema serio* —no puedes reutilizarlo— pero no es un anuncio. La diferencia entre un cebo y un proyecto descuidado está en el lenguaje y en el código, no en las estrellas.
 
-⏬ sigue abajo · parte 7 de 19
+⏬ sigue abajo · parte 7 de 20
 
-═══ MENSAJE 9 de 20 · 2603 caracteres ═══
+═══ MENSAJE 9 de 21 · 2603 caracteres ═══
 
 *LA LEY, SIN SERMÓN*
 
@@ -312,9 +329,9 @@ Esto es para el que tiene computadora vieja y quiere dejar de depender del telé
 *Lo que el servidor te da:* una biblioteca que sobrevive al cambio de teléfono, lectura en varias pantallas a la vez y un solo lugar donde respaldar.
 *Lo que el servidor te cobra:* una máquina encendida, un disco que puede fallar y la responsabilidad de mantenerlo. Un servidor sin respaldo es un teléfono más grande con las mismas ganas de fallar.
 
-⏬ sigue abajo · parte 8 de 19
+⏬ sigue abajo · parte 8 de 20
 
-═══ MENSAJE 10 de 20 · 1494 caracteres ═══
+═══ MENSAJE 10 de 21 · 1494 caracteres ═══
 
 *SINCRONIZACIÓN — lo que existe, lo que no y lo que te van a vender*
 
@@ -330,9 +347,9 @@ Esto es para el que tiene computadora vieja y quiere dejar de depender del telé
 
 *Y lo que hay que entender antes de intentarlo:* dos aparatos leyendo la misma serie sin avisarse producen un conflicto. En el teléfono se llama «se me borró el historial»; en los papeles se llama «el último que escribe gana». Si vas a leer en dos aparatos, o montas servidor, o aceptas que uno es el principal y el otro es de consulta.
 
-⏬ sigue abajo · parte 9 de 19
+⏬ sigue abajo · parte 9 de 20
 
-═══ MENSAJE 11 de 20 · 3298 caracteres ═══
+═══ MENSAJE 11 de 21 · 3298 caracteres ═══
 
 *CÓMO SE MIDIÓ ESTO (y qué no promete)*
 
@@ -382,9 +399,9 @@ Uno en tu casa, en tu red, es tan seguro como tu red. Expuesto a internet sin pr
 
 *«Si no hay versión nueva, está abandonado».* `RikkaApps/Shizuku` lleva desde el 25 de mayo de 2025 sin release y sigue siendo el que presta permisos a media Android moderna. Un proyecto terminado no es un proyecto muerto; un proyecto dormido no es un proyecto abandonado. Son tres cosas distintas y casi nadie las separa.
 
-⏬ sigue abajo · parte 10 de 19
+⏬ sigue abajo · parte 10 de 20
 
-═══ MENSAJE 12 de 20 · 3187 caracteres ═══
+═══ MENSAJE 12 de 21 · 3187 caracteres ═══
 
 *TABLA DE DECISIÓN*
 
@@ -434,9 +451,9 @@ Todo lo demás —servidores, sincronización, terminal, diccionarios— es para
 *CBZ* — un cómic empaquetado en un archivo comprimido de imágenes.
 *Cebo* — repositorio que se anuncia como app y no tiene app. Nace con otros tres iguales y sin licencia.
 
-⏬ sigue abajo · parte 11 de 19
+⏬ sigue abajo · parte 11 de 20
 
-═══ MENSAJE 13 de 20 · 1005 caracteres ═══
+═══ MENSAJE 13 de 21 · 1005 caracteres ═══
 
 *MINI-QUIZ*
 
@@ -462,9 +479,9 @@ Todo lo demás —servidores, sincronización, terminal, diccionarios— es para
 
 5. .setrapmoc ay euq ateprac al VADbeW y BMS rop eel euq ,reweiVlacoL
 
-⏬ sigue abajo · parte 12 de 19
+⏬ sigue abajo · parte 12 de 20
 
-═══ MENSAJE 14 de 20 · 3629 caracteres ═══
+═══ MENSAJE 14 de 21 · 3629 caracteres ═══
 
 *LA FICHA DE HOY — 49 repositorios, con fecha de nacimiento*
 
@@ -504,9 +521,9 @@ Esto no es una lista de recomendaciones: es un acta. Cada línea se consultó ho
 • `Suwayomi/Suwayomi-JUI` — ★498 · MPL-2.0 · nació el 23-mar-2021 · último empuje 15-oct-2026 · release v1.3.3 del 31-mar-2024
 • `Suwayomi/Suwayomi-VUI` — ★54 · MPL-2.0 · nació el 26-oct-2022 · último empuje 12-oct-2026 · release r1417 del 12-oct-2026
 
-⏬ sigue abajo · parte 13 de 19
+⏬ sigue abajo · parte 13 de 20
 
-═══ MENSAJE 15 de 20 · 3627 caracteres ═══
+═══ MENSAJE 15 de 21 · 3627 caracteres ═══
 
 • `Snd-R/Komelia` — ★437 · Apache-2.0 · nació el 20-mar-2024 · último empuje 29-oct-2026 · release 0.20.0 del 27-sep-2026
 • `Snd-R/komf` — ★738 · MIT · nació el 26-feb-2022 · último empuje 27-sep-2026 · release 2.1.0 del 27-sep-2026
@@ -549,74 +566,89 @@ Esto no es una lista de recomendaciones: es un acta. Cada línea se consultó ho
 
 *Ese último es el quinto del molde: apareció mientras cerraba esta revisión, con el mismo día de nacimiento que los otros cuatro y el nombre de un lector real en el título. La fábrica sigue abierta.*
 
-⏬ sigue abajo · parte 14 de 19
+⏬ sigue abajo · parte 14 de 20
 
-═══ MENSAJE 16 de 20 · 2927 caracteres ═══
+═══ MENSAJE 16 de 21 · 2261 caracteres ═══
 
-*ENLACES — todos canónicos, ninguno es un espejo*
+*🔗 Enlaces*
 
-*El motor que se instala primero:*
-https://github.com/mihonapp/mihon
+*Los lectores que se instalan primero:*
 
-*Los forks y lectores que llegaron después:*
-https://github.com/UsagiApp/Usagi
-https://github.com/Chimahon/chimahon
-https://github.com/roxycon-dev/Ciallo-Reader
-https://github.com/yomihon/yomihon
-https://github.com/null2264/yokai
-https://github.com/jakepurple13/OtakuWorld
-https://github.com/komikku-app/komikku
-https://github.com/nekomangaorg/Neko
+- Mihon (el motor que se instala primero): https://github.com/mihonapp/mihon
+- Usagi: https://github.com/UsagiApp/Usagi
+- Chimahon: https://github.com/Chimahon/chimahon
+- Ciallo Reader: https://github.com/roxycon-dev/Ciallo-Reader
+- Yomihon: https://github.com/yomihon/yomihon
+- Yokai: https://github.com/null2264/yokai
+- OtakuWorld: https://github.com/jakepurple13/OtakuWorld
+- Komikku: https://github.com/komikku-app/komikku
+- Neko: https://github.com/nekomangaorg/Neko
 
 *Servidores y bibliotecas:*
-https://github.com/Kareadita/Kavita
-https://github.com/gotson/komga
-https://github.com/Suwayomi/Suwayomi-Server
-https://github.com/Suwayomi/Suwayomi-VUI
-https://github.com/ruzhe85/Komiho
-https://github.com/BookHeaven/BookHeaven.Server
-https://github.com/zmz125000/LocalViewer
 
-*Clientes:*
-https://github.com/kmworks/kmreader
-https://github.com/Snd-R/Komelia
-https://github.com/chmouel/liseur
-https://github.com/koodo-reader/koodo-reader
+- Kavita: https://github.com/Kareadita/Kavita
+- Komga: https://github.com/gotson/komga
+- Suwayomi Server: https://github.com/Suwayomi/Suwayomi-Server
+- Suwayomi VUI: https://github.com/Suwayomi/Suwayomi-VUI
+- Komiho: https://github.com/ruzhe85/Komiho
+- BookHeaven Server: https://github.com/BookHeaven/BookHeaven.Server
+- LocalViewer: https://github.com/zmz125000/LocalViewer
 
-*Los que trabajan sin teléfono:*
-https://github.com/josueBarretogit/manga-tui
-https://github.com/elboletaire/manga-downloader
-https://github.com/MapoMagpie/comic-looms
-https://github.com/KamiYomu/KamiYomu
+*Clientes de escritorio y de bolsillo:*
+
+- KMReader: https://github.com/kmworks/kmreader
+- Komelia: https://github.com/Snd-R/Komelia
+- Liseur: https://github.com/chmouel/liseur
+- Koodo Reader: https://github.com/koodo-reader/koodo-reader
+- manga-tui: https://github.com/josueBarretogit/manga-tui
+- manga-downloader: https://github.com/elboletaire/manga-downloader
+- Comic Looms: https://github.com/MapoMagpie/comic-looms
+- KamiYomu: https://github.com/KamiYomu/KamiYomu
 
 *Catálogos de extensiones:*
-https://github.com/keiyoushi/extensions-source
-https://github.com/yuzono/tachiyomi-extensions
-https://github.com/m2k3a/mangayomi-extensions
-https://github.com/aidoku-community/sources
+
+- Keiyoushi (catálogo de extensiones): https://github.com/keiyoushi/extensions-source
+- Yuzono (extensiones de Tachiyomi): https://github.com/yuzono/tachiyomi-extensions
+- extensiones de Mangayomi: https://github.com/m2k3a/mangayomi-extensions
+- fuentes de Aidoku: https://github.com/aidoku-community/sources
 
 *Los cebos, para que los reconozcas sin abrirlos:*
-https://github.com/sri-sivaram/Neko-Manga-Pearl
-https://github.com/ubedshah/manga-vault-nexus
-https://github.com/meyamane37923-hash/komikku-scans
-https://github.com/khaledmahmud5286-cmd/manga-zen-reader
+
+- cebo Neko-Manga-Pearl: https://github.com/sri-sivaram/Neko-Manga-Pearl
+- cebo manga-vault-nexus: https://github.com/ubedshah/manga-vault-nexus
+- cebo komikku-scans: https://github.com/meyamane37923-hash/komikku-scans
+- cebo manga-zen-reader: https://github.com/khaledmahmud5286-cmd/manga-zen-reader
 
 *El que se archivó, para que se sepa por qué se salió:*
-https://github.com/KotatsuApp/Kotatsu
+
+- Kotatsu (archivado, con su porqué): https://github.com/KotatsuApp/Kotatsu
+
+⏬ sigue abajo · parte 15 de 20
+
+═══ MENSAJE 17 de 21 · 1595 caracteres ═══
 
 *CIERRE — el mueble que se puede mudar*
 
-Lo que estas cuarenta y nueve fichas enseñan, dicho en plata: *un proyecto puede morir un martes y tu biblioteca puede seguir abierta el miércoles, si el archivo no vivía dentro del proyecto.*
+Lo que estas cuarenta y nueve fichas enseñan, dicho en plata: *un proyecto puede morir un martes y tu biblioteca puede seguir abierta el miércoles, si el archivo no vivía dentro del proyecto.* Tachiyomi murió y su ecosistema floreció porque el código estaba en miles de manos. Kotatsu se archivó y sus usuarios están migrando porque alguien pensó en el respaldo. Este año llegaron dieciséis proyectos nuevos, de gente que ni siquiera estaba cuando el tronco cayó.
 
-Tachiyomi murió y su ecosistema floreció porque el código estaba en miles de manos. Kotatsu se archivó y sus usuarios están migrando porque alguien pensó en el respaldo. Los servidores existen porque alguien se cansó de perder la biblioteca cada vez que cambiaba de teléfono. Y este año llegaron dieciséis proyectos nuevos, de gente que ni siquiera estaba cuando el tronco cayó.
+> —¿Y si mañana cierra el que estoy usando?
+> —Entonces ya sabes dónde vive tu biblioteca. Ahí no cierra nadie.
 
-La pieza que leas mañana puede llevar otro nombre. Tu carpeta de respaldos no cambia de nombre si tú no se lo cambias, y ese detalle —tan aburrido— es la única garantía que tienes.
+💓 *La Bandita informa a partir de fuentes fechadas.* La app es la puerta; el archivo es la casa, y la casa se muda con cajas, no con promesas.
 
-💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy a las 06:15, uno por uno, los 49 repositorios de esta ficha: 41 vivos, 4 archivados y 3 muertos con su 404 a la vista. Los números llevan la hora, no solo la fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.
+*Medición del corte:* domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · 49 repositorios consultados uno por uno en la API de GitHub · 33 enlaces abiertos con `curl -L`, cada uno con su respuesta.
 
-⏬ sigue abajo · parte 15 de 19
+## 🗒️ Notas al pie
 
-═══ MENSAJE 17 de 20 · 3863 caracteres ═══
+**Nota de corrección (1-nov):** el cierre se rehízo con la firma textual de la casa y su remate propio; se añadieron el mapa de la guía y el resumen de apertura, y la lista de enlaces pasó al formato `- Nombre: URL`.
+
+**Nota de verificación final (1-nov):** cada enlace se abrió a mano y su respuesta quedó al lado del nombre; estrellas, licencias y fechas de nacimiento son de la misma hora.
+
+**Nota del corte (1-nov):** corte real de la pieza. Pendiente declarado: los cuatro cebos identificados se describen por su patrón, sin enlace de descarga ni captura de su contenido.
+
+⏬ sigue abajo · parte 16 de 20
+
+═══ MENSAJE 18 de 21 · 3863 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
@@ -655,9 +687,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 58 repositorios que cita esta pi
 • Mangayomi-app/Mangayomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • Paperback-Community/Paperback — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
-⏬ sigue abajo · parte 16 de 19
+⏬ sigue abajo · parte 17 de 20
 
-═══ MENSAJE 18 de 20 · 3026 caracteres ═══
+═══ MENSAJE 19 de 21 · 3026 caracteres ═══
 
 • RikkaApps/Shizuku — ★32.573 (+188) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • mihonapp/mihon — ★24.922 (+83) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
@@ -686,17 +718,17 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 58 repositorios que cita esta pi
 • aniyomiorg/aniyomi-extensions — ★849 (sin cambio) · *dormido*: sin empujar desde el 19-ago-2024 (804 días) · Apache-2.0 · *ARCHIVADO*
 • Boomckman/usagi-nightly — ★114 · empujó en las últimas horas · sin licencia detectada por la API
 
-⏬ sigue abajo · parte 17 de 19
+⏬ sigue abajo · parte 18 de 20
 
-═══ MENSAJE 19 de 20 · 137 caracteres ═══
+═══ MENSAJE 20 de 21 · 137 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
 De los 33 enlaces de esta pieza, *33 responden*.
 Ninguno roto.
 
-⏬ sigue abajo · parte 18 de 19
+⏬ sigue abajo · parte 19 de 20
 
-═══ MENSAJE 20 de 20 · 152 caracteres ═══
+═══ MENSAJE 21 de 21 · 152 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.

@@ -23,3 +23,17 @@ Todo el proceso de la casa convertido en habilidades que se pueden reusar infini
 
 ## Habilidad 7 · Formato respirable (Facebook) — `02-ARCHIVO/evidencia-29oct/respirable-29oct/`
 En Facebook el texto respira o muere: mapa mental en dos líneas por familia (quién → qué hace), placas una por bloque con cada dato en su línea, nada de tablas disfrazadas de viñetas. Regla de oro aprendida del dueño: la reorganización se prueba — **la secuencia de palabras debe ser idéntica antes y después**; cualquier edición de palabras va declarada y contada, jamás disfrazada de formato.
+
+---
+
+## ENMIENDA 2026-11-01 · fusión con el Manual de Estilo y Operaciones V3.0
+
+**Registrada por:** orden del dueño del 1 de noviembre de 2026 («guarda esto y fusiónalo con los archivos principales de los cimientos… criterios obligatorios de éxito»).
+
+**Qué entra:** el `Manual de Estilo y Operaciones La Bandita — V3.0 (1-nov-2026)` y la lista de criterios obligatorios `CIMIENTOS — criterios obligatorios y precedencia (1-nov-2026)`, ambos en `corpus-la-bandita/`.
+
+**Qué cambia aquí:** el índice gana una entrada nueva, la habilidad «cumplir el manual»: saber de memoria el cierre de cuatro piezas (meme, firma textual, remate propio, medición con hora), el molde de la ficha de ocho campos y la lista de frases prohibidas. Es habilidad de oficio, no adorno: se evalúa con `tools/manual_gate.py`.
+
+**Precedencia:** este documento conserva su rango; el Manual V3.0 queda **subordinado** y manda sobre la **forma** de cada pieza (molde, fichas, FAQ, enlaces, firma, meme, notas, prohibiciones). Donde el dueño dio una orden posterior, manda el dueño; las tensiones están registradas, con su resolución, en `CIMIENTOS` §3.
+
+**Comprobación:** `tools/manual_gate.py` ejecuta los criterios C-01 a C-24 y `tools/vara.py` los vuelve compuerta (G11). Un criterio que solo vive en prosa no se cumple: este se mide.

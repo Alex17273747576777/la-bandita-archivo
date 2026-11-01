@@ -8,8 +8,8 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 |---|---|---|---|---|---|---|---|
 | 00 | LA LISTA — El ecosistema libre en 79 guías (fundada el 14 · corte 18 d | 4 | 3764 | 0 | 0 | sí | `00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 19 | 3640 | 23 | 0 | no | `01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
-| 02 | EL BARRIO CAMBIÓ DE GENTE — el mueble de los cómics, contado por los q | 20 | 3863 | 58 | 3 | no | `02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
-| 03 | La cerradura que cambió de dueño | 19 | 3456 | 31 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
+| 02 | EL BARRIO CAMBIÓ DE GENTE — el mueble de los cómics, contado por los q | 21 | 3863 | 58 | 3 | no | `02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
+| 03 | La cerradura que cambió de dueño | 20 | 3543 | 31 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 04 | ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR, MEDIDA CON | 4 | 3187 | 6 | 0 | no | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 05 | TMO CAYÓ. LOS CLONES COSECHAN CLAVES. TU LISTA NO SE RESTAURA. TODO CO | 2 | 857 | 0 | 0 | no | `05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 06 | FORKS LECTORES: LA CANCHA ENTERA CON PLACA Y HORA, 22-sep-2026 22 DE S | 4 | 2512 | 5 | 0 | no | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
@@ -139,6 +139,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 98 | La foto III: el sótano completo | 4 | 1825 | 2 | 0 | no | `98-La-foto-III-el-sotano-completo-Facebook-La-Bandita-2026-10-29` |
 | 99 | La foto IV: los jóvenes del censo | 4 | 1302 | 1 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29` |
 
-**132 piezas · 622 mensajes** · el mayor de todos: 3925 caracteres.
+**132 piezas · 624 mensajes** · el mayor de todos: 3925 caracteres.
 
 
