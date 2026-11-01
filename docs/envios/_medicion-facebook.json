@@ -2769,16 +2769,16 @@
    "stars_pieza": 3192
   },
   "libre-tube/LibreTube": {
-   "estado": "vivo",
    "stars": 12928,
-   "push": "2026-10-30",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-30",
    "desc": "An alternative frontend for YouTube, for Android.",
-   "release": "v32.1",
-   "release_fecha": "2026-08-20",
-   "stars_pieza": 12913
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 12928
   },
   "mankidev/orvid": {
    "estado": "vivo",
@@ -2834,40 +2834,40 @@
    "stars_pieza": null
   },
   "Predidit/Kazumi": {
-   "estado": "vivo",
-   "stars": 40551,
-   "push": "2026-10-31",
-   "archivado": false,
+   "stars": 40565,
    "licencia": "GPL-3.0",
    "lenguaje": "Dart",
+   "push": "2026-10-31",
    "desc": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
-   "release": "2.4.2",
-   "release_fecha": "2026-10-23",
-   "stars_pieza": 40104
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 40565
   },
   "solkin/appteka-android": {
-   "estado": "vivo",
    "stars": 1368,
-   "push": "2026-10-21",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-21",
    "desc": "💊 Appteka is an alternative store for Android",
-   "release": "v23.0",
-   "release_fecha": "2026-08-13",
-   "stars_pieza": 1359
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 1368
   },
   "rustdesk/rustdesk": {
-   "estado": "vivo",
-   "stars": 127778,
-   "push": "2026-11-01",
-   "archivado": false,
+   "stars": 127779,
    "licencia": "AGPL-3.0",
    "lenguaje": "Rust",
+   "push": "2026-11-01",
    "desc": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-   "release": "1.5.0",
-   "release_fecha": "2026-09-30",
-   "stars_pieza": 127495
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 127779
   },
   "komi-store/komi-store": {
    "estado": "vivo",
@@ -2882,16 +2882,16 @@
    "stars_pieza": 20090
   },
   "hrydgard/ppsspp": {
-   "estado": "vivo",
    "stars": 14799,
-   "push": "2026-11-01",
-   "archivado": false,
    "licencia": "NOASSERTION",
    "lenguaje": "C++",
+   "push": "2026-11-01",
    "desc": "A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.",
-   "release": "v1.20.4",
-   "release_fecha": "2026-05-16",
-   "stars_pieza": 14782
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 14799
   },
   "itsmechinmoy/dantotsu-updater": {
    "estado": "vivo",
@@ -2954,16 +2954,16 @@
    "stars_pieza": 11499
   },
   "2dust/v2rayNG": {
-   "estado": "vivo",
-   "stars": 65112,
-   "push": "2026-11-01",
-   "archivado": false,
+   "stars": 65115,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-01",
    "desc": "A V2Ray client for Android, support Xray core and v2fly core",
-   "release": "2.3.14",
-   "release_fecha": "2026-10-28",
-   "stars_pieza": 64940
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 65115
   },
   "MetaCubeX/ClashMetaForAndroid": {
    "estado": "vivo",
@@ -4824,16 +4824,16 @@
    "stars_pieza": 5
   },
   "Genymobile/scrcpy": {
-   "estado": "vivo",
-   "stars": 153733,
-   "push": "2026-10-26",
-   "archivado": false,
+   "stars": 153736,
    "licencia": "Apache-2.0",
    "lenguaje": "C",
+   "push": "2026-10-26",
    "desc": "Display and control your Android device",
-   "release": "v5.0.1",
-   "release_fecha": "2026-10-08",
-   "stars_pieza": 153501
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 153736
   },
   "tiann/KernelSU": {
    "estado": "vivo",
@@ -4908,16 +4908,16 @@
    "stars_pieza": 20288
   },
   "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
-   "estado": "vivo",
    "stars": 9682,
-   "push": "2026-10-26",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Rust",
+   "push": "2026-10-26",
    "desc": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
-   "release": "v1.2.0",
-   "release_fecha": "2026-01-12",
-   "stars_pieza": 9638
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 9682
   },
   "d4rken-org/sdmaid-se": {
    "estado": "vivo",
@@ -5069,16 +5069,16 @@
    "stars_pieza": null
   },
   "LawnchairLauncher/lawnchair": {
-   "estado": "vivo",
    "stars": 13836,
-   "push": "2026-11-01",
-   "archivado": false,
    "licencia": "NOASSERTION",
    "lenguaje": "Java",
+   "push": "2026-11-01",
    "desc": "No clever tagline needed.",
-   "release": "1.2.0.1884",
-   "release_fecha": "2018-07-23",
-   "stars_pieza": 13817
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 13836
   },
   "florisboard/florisboard": {
    "estado": "vivo",
@@ -5177,16 +5177,16 @@
    "stars_pieza": 2524
   },
   "NeoApplications/Neo-Launcher": {
-   "estado": "vivo",
    "stars": 2153,
-   "push": "2026-10-25",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
+   "push": "2026-10-25",
    "desc": "Neo-Launcher",
-   "release": "0.9.3",
-   "release_fecha": "2023-12-18",
-   "stars_pieza": 2151
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 2153
   },
   "you-apps/WallYou": {
    "estado": "vivo",
@@ -7278,16 +7278,16 @@
    "stars_pieza": 23285
   },
   "FreshRSS/FreshRSS": {
-   "estado": "vivo",
-   "stars": 16473,
-   "push": "2026-10-31",
-   "archivado": false,
+   "stars": 16474,
    "licencia": "AGPL-3.0",
    "lenguaje": "PHP",
+   "push": "2026-11-01",
    "desc": "A free, self-hostable news aggregator…",
-   "release": "1.30.4",
-   "release_fecha": "2026-10-21",
-   "stars_pieza": 16446
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 16474
   },
   "FlareSolverr/FlareSolverr": {
    "estado": "vivo",
@@ -7314,16 +7314,16 @@
    "stars_pieza": 14157
   },
   "offa/android-foss": {
-   "estado": "vivo",
-   "stars": 11610,
-   "push": "2026-10-26",
-   "archivado": false,
+   "stars": 11611,
    "licencia": "GPL-3.0",
    "lenguaje": "Python",
+   "push": "2026-10-26",
    "desc": "A list of Free and Open Source Software (FOSS) for Android – saving Freedom and Privacy.",
-   "release": null,
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
    "release_fecha": "",
-   "stars_pieza": 11586
+   "stars_pieza": 11611
   },
   "iSoron/uhabits": {
    "estado": "vivo",
@@ -7590,16 +7590,16 @@
    "stars_pieza": 584
   },
   "FossifyOrg/Notes": {
-   "estado": "vivo",
    "stars": 510,
-   "push": "2026-11-01",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-01",
    "desc": "A simple text field for adding quick notes without ads.",
-   "release": "1.7.0",
-   "release_fecha": "2026-01-30",
-   "stars_pieza": 506
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 510
   },
   "dorumrr/de1984": {
    "estado": "vivo",
@@ -7698,16 +7698,16 @@
    "stars_pieza": 29742
   },
   "T8RIN/ImageToolbox": {
-   "estado": "vivo",
    "stars": 15285,
-   "push": "2026-11-01",
-   "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-01",
    "desc": "🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options",
-   "release": "4.2.0",
-   "release_fecha": "2026-09-04",
-   "stars_pieza": 15241
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 15285
   },
   "floccusaddon/floccus": {
    "estado": "vivo",
@@ -9050,6 +9050,366 @@
    "release": "2026.10.1",
    "release_fecha": "2026-10-06",
    "stars_pieza": 4012
+  },
+  "Gathin23/cleanyourtv": {
+   "stars": 48641,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Python",
+   "push": "2026-11-01",
+   "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 48641
+  },
+  "Droid-Deck/DroidDeck": {
+   "stars": 17078,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "DroidDeck brings the SteamOS experience to Android",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 17078
+  },
+  "shihabal3amri/DiPlay": {
+   "stars": 13010,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-28",
+   "desc": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 13010
+  },
+  "gkd-kit/gkd": {
+   "stars": 43839,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 43839
+  },
+  "niedev/RTranslator": {
+   "stars": 10600,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Java",
+   "push": "2026-10-30",
+   "desc": "Open source real-time translation app for Android that runs locally",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 10600
+  },
+  "laurent22/joplin": {
+   "stars": 56974,
+   "licencia": "NOASSERTION",
+   "lenguaje": "TypeScript",
+   "push": "2026-11-01",
+   "desc": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 56974
+  },
+  "libnyanpasu/clash-nyanpasu": {
+   "stars": 13271,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Rust",
+   "push": "2026-11-01",
+   "desc": "Clash Nyanpasu～(∠・ω< )⌒☆​",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 13271
+  },
+  "miniflux/v2": {
+   "stars": 9866,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Go",
+   "push": "2026-11-01",
+   "desc": "Minimalist and opinionated feed reader",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 9866
+  },
+  "youhunwl/TVAPP": {
+   "stars": 27026,
+   "licencia": "Apache-2.0",
+   "lenguaje": "JavaScript",
+   "push": "2026-10-28",
+   "desc": " 收集全网 Android TV电视盒子应用，涵盖影视、直播、K歌、工具、游戏等类型，整理优质APK资源，支持便捷下载与自动更新。提供安全验证、分类索引与兼容性标注，助力用户打造家庭影音娱乐中心！              ✅ TVBox/影视仓等影音壳接口配置源。",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 27026
+  },
+  "nexmoe/VidBee": {
+   "stars": 11040,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "push": "2026-11-01",
+   "desc": "Download video and audio from 1000+ sites, transcribe locally with speaker labels, and summarize, translate, or chat with your media using your preferred AI provider.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 11040
+  },
+  "morluto/rea": {
+   "stars": 417584,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "push": "2026-11-01",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 417584
+  },
+  "DuarteSantos8/openGym": {
+   "stars": 18494,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "JavaScript",
+   "push": "2026-11-01",
+   "desc": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 18494
+  },
+  "RSSNext/Folo": {
+   "stars": 39208,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "TypeScript",
+   "push": "2026-10-30",
+   "desc": "🧡 Folo is the AI RSS Reader",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 39208
+  },
+  "glanceapp/glance": {
+   "stars": 37942,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Go",
+   "push": "2026-10-20",
+   "desc": "A self-hosted dashboard that puts all your feeds in one place",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 37942
+  },
+  "ArchiveBox/ArchiveBox": {
+   "stars": 28917,
+   "licencia": "MIT",
+   "lenguaje": "Python",
+   "push": "2026-11-01",
+   "desc": "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 28917
+  },
+  "Neamar/KISS": {
+   "stars": 3528,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "push": "2026-11-01",
+   "desc": "Lightning fast, open-source, < 250kb Android launcher",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 3528
+  },
+  "jkuester/unlauncher": {
+   "stars": 402,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "push": "2026-01-24",
+   "desc": "Android minimalistic launcher",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 402
+  },
+  "DroidWorksStudio/mLauncher": {
+   "stars": 309,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "Minimal Launcher app for Android. Customized olauncher as I just started learning kotlin . ",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 309
+  },
+  "AbdurazaaqMohammed/AntiSplit-M": {
+   "stars": 4941,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Java",
+   "push": "2026-10-31",
+   "desc": "App to AntiSplit (merge) split APKs (APKS/XAPK/APKM) to regular .APK file on Android",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 4941
+  },
+  "Psyhackological/AAA": {
+   "stars": 3141,
+   "licencia": "CC-BY-4.0",
+   "lenguaje": "—",
+   "push": "2026-09-29",
+   "desc": ":iphone: Curated list of THE BEST FOSS Android apps to maximize your freedom & privacy!",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 3141
+  },
+  "kurikomi-labs/komi-store": {
+   "stars": 20203,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 20203
+  },
+  "rehmatworks/gplaydl": {
+   "stars": 690,
+   "licencia": "MIT",
+   "lenguaje": "Python",
+   "push": "2026-09-30",
+   "desc": "Command Line Google Play APK downloader. Download APK files to your PC directly from Google Play Store.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 690
+  },
+  "dbeley/fdroid-insights": {
+   "stars": 27,
+   "licencia": "MIT",
+   "lenguaje": "Python",
+   "push": "2026-10-19",
+   "desc": "A website to simplify searching for popular and well-maintained F-Droid apps.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 27
+  },
+  "LawnchairLauncher/lawnicons": {
+   "stars": 2141,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "Monochrome outlined brand icons for Android launchers.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 2141
+  },
+  "FossifyOrg/Gallery": {
+   "stars": 3873,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "Browse your memories without any interruptions with this photo and video gallery",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 3873
+  },
+  "FossifyOrg/Messages": {
+   "stars": 1627,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "An easy and quick way of managing SMS and MMS messages without ads.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 1627
+  },
+  "FossifyOrg/Calendar": {
+   "stars": 2264,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "A simple calendar with events, customizable widgets and no ads.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 2264
+  },
+  "FossifyOrg/Clock": {
+   "stars": 718,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "Combination of a beautiful clock with widget, alarm, stopwatch & timer, no ads",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 718
+  },
+  "FossifyOrg/Keyboard": {
+   "stars": 700,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "Easy keyboard for inserting all kinds of texts, special characters and numbers.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 700
+  },
+  "FossifyOrg/Camera": {
+   "stars": 486,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "Quick photo and video camera with a flash, customizable aspect ratio.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 486
   }
  },
  "enlaces": {
