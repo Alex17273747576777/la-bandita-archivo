@@ -62,10 +62,14 @@ Si un dato no está, no está; y si está viejo, lo dice.
 El dueño autorizó publicar este servidor en abierto. Lo que eso significa, sin adornos:
 
 - **Licencia:** MIT (ver `LICENSE` en la raíz del repositorio).
-- **Manifiesto:** `server.json` sigue el esquema del registro oficial de MCP
-  (`io.github.Alex17273747576777/labandita-registro`). El registro está en *preview* y verifica la
-  propiedad del espacio de nombres por GitHub: la publicación la dispara el dueño cuando quiera, no
-  un script a sus espaldas.
+- **Manifiesto:** `server.json` validado contra el esquema oficial `2025-12-11`
+  (`io.github.Alex17273747576777/labandita-registro`), con el `repository.id` real del repositorio
+  (`1438391702`), no un relleno. El registro está en *preview* y verifica la propiedad del espacio de
+  nombres por GitHub: la publicación la dispara el dueño cuando quiera, no un script a sus espaldas.
+- **Sin paquete en PyPI, y se dice:** el manifiesto **no** declara un paquete `pypi` porque no existe
+  `labandita-registro` publicado en PyPI (comprobado: 404). Declararlo sería una promesa falsa y el
+  propio registro la rechazaría. La instalación honesta hoy es desde el repositorio; el registro
+  admite servidores sin paquete ni remoto, solo con `repository`.
 - **Versión fijada:** 1.0.0. Nada de rangos flotantes.
 - **Solo lectura, sin red, sin credenciales.** No hay ninguna herramienta que escriba, borre o
   ejecute comandos.

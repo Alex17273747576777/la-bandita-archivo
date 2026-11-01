@@ -58,7 +58,7 @@ trabajo técnico que sí puedo hacer).
 | 3 · Canal | **WhatsApp como principal**; plan en `docs/CANAL-WHATSAPP.md` |
 | 4 · Inteligencia | **decidida**: agente con MCP al registro + Ollama local + código para medir (`docs/INTELIGENCIA.md`) |
 | 5 · Dinero | **no se acepta**, en ninguna forma; escrito en `NOTICE` |
-| 6 · MCP | **publicado**: manifiesto `server.json`, paquete instalable, guía, licencia MIT |
+| 6 · MCP | **listo para publicar**: `server.json` validado contra el esquema oficial `2025-12-11` con el `repository.id` real; sin paquete PyPI porque no existe (404 verificado); lo dispara el dueño |
 | 7 · NLnet | **borrador listo** para que lo presente el dueño, con registro de prompts; plazo 3-nov-2026 12:00 CET |
 | 8 · Sigstore | **firmado y verificado**: corrida de CI en verde y `cosign verify-blob` → `Verified OK` |
 | Pieza nueva | **109 publicada**: OmniShizuku y el taller sin root, con tutorial, meme, Q&A, lectura por edad y consejos por usuario |

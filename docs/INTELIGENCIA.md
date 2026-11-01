@@ -1,7 +1,7 @@
 # QUÉ INTELIGENCIA USAR · decisión, no menú
 
 Pedido: elegir la mejor inteligencia disponible para este caso. Este es el caso: **una persona sola,
-enferma, con 112 piezas escritas y 6.826 fichas medidas, publicando por WhatsApp, sin dinero y sin
+enferma, con 261 piezas escritas (113 de ellas de WhatsApp) y 6.830 fichas medidas, publicando por WhatsApp, sin dinero y sin
 equipo**. La mejor inteligencia no es la que escribe más bonito: es la que **no inventa y no la
 obliga a supervisar**.
 

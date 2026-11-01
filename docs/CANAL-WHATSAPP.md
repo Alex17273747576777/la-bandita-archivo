@@ -6,10 +6,10 @@ porque el dueño está enfermo y su energía es el recurso más escaso del proye
 
 ## Lo que ya está listo
 
-- **112 piezas** en `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/`, con 💓 y fecha.
+- **113 piezas** en `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/`, con 💓 y fecha.
 - Cada pieza se sostiene sola: semilla, mapa, fichas medidas, meme, método, glosa, nota de
   verificación y firma. No depende de una web para entenderse.
-- El registro tiene **6.826 fichas** con payload sellado: cualquier recomendación se puede respaldar
+- El registro tiene **6.830 fichas** con payload sellado: cualquier recomendación se puede respaldar
   con un dato que existe.
 
 ## La regla de oro del canal
