@@ -12,9 +12,9 @@
 
 La Bandita · pieza 09 · guía del 1-nov-2026 · te la mando hoy en 18 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *18 repositorios, 17 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *18 repositorios, 16 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 6 · NOASSERTION 5 · MIT 2 · sin licencia 1.
+Licencias de lo que recomienda: GPL-3.0 5 · NOASSERTION 5 · MIT 2 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/09-La-caja-de-oficio-del-telefono-archivos-terminal-y-la-copia-que-cambio-de-dueno-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
@@ -411,34 +411,34 @@ El otro hallazgo es de forma, no de fondo: cuatro de las dieciocho fichas no ide
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 2631 caracteres ═══
+═══ MENSAJE 17 de 18 · 2466 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• zhanghai/MaterialFiles — ★9.370 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
-• TeamAmaze/AmazeFileManager — ★6.450 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v3.11.4 (15-oct-2026)
-• FossifyOrg/File-Manager — ★1.846 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (24-oct-2026)
-• termux/termux-app — ★63.872 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• termux/termux-packages — ★17.282 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
-• termux/termux-api — ★4.567 (sin cambio) · empujó el 17-sep-2026 (hace 45 días) · sin licencia · última release v0.53.0 (1-sep-2025)
-• termux/termux-x11 — ★5.066 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release nightly (27-oct-2026)
-• localsend/localsend — ★96.908 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• syncthing/syncthing-android — sin dato hoy (la API no respondió). No afirmo nada.
-• Catfriend1/syncthing-android — ★3.220 (sin cambio) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
-• gsantner/markor — ★6.363 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v2026.10.0 (25-oct-2026)
-• Acode-Foundation/Acode — ★7.612 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v1.13.5 (13-sep-2026)
-• GrapheneOS/PdfViewer — ★1.062 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · MIT
-• FedericoIOSue/Omni-Notes — ★2.807 (sin cambio) · empujó el 22-oct-2026 (hace 10 días) · GPL-3.0 · última release 6.5.1 (22-oct-2026)
-• Darkempire78/OpenCalc — ★1.544 (sin cambio) · *dormido*: sin empujar desde el 10-jul-2026 (114 días) · GPL-3.0 · última release v3.2.1 (21-sep-2025)
-• MuntashirAkon/AppManager — ★9.399 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
-• MuntashirAkon/libadb-android — ★415 (sin cambio) · *dormido*: sin empujar desde el 3-jun-2026 (151 días) · NOASSERTION · última release 3.1.1
-• KDE/kdeconnect-android — ★1.494 (sin cambio) · empujó en las últimas horas · GPL-2.0 · última release v1.37.0
+• zhanghai/MaterialFiles — ★9.370 (+25) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
+• TeamAmaze/AmazeFileManager — ★6.450 · empujó en las últimas horas · GPL-3.0 · última release v3.11.4 (15-oct-2026)
+• FossifyOrg/File-Manager — ★1.846 · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (24-oct-2026)
+• termux/termux-app — ★63.873 (+195) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• termux/termux-packages — ★17.283 · empujó en las últimas horas · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
+• termux/termux-api — ★4.567 · empujó el 17-sep-2026 (hace 45 días) · sin licencia detectada por la API · última release v0.53.0 (1-sep-2025)
+• termux/termux-x11 — ★5.068 · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release nightly (27-oct-2026)
+• localsend/localsend — ★96.915 (+458) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
+• Catfriend1/syncthing-android — sin dato hoy (la API no respondió). No afirmo nada.
+• gsantner/markor — ★6.363 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v2026.10.0 (25-oct-2026)
+• Acode-Foundation/Acode — ★7.615 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v1.13.5 (13-sep-2026)
+• GrapheneOS/PdfViewer — ★1.062 · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 33 (30-jul-2026)
+• FedericoIOSue/Omni-Notes — ★2.807 · empujó el 22-oct-2026 (hace 10 días) · GPL-3.0 · última release 6.5.1 (22-oct-2026)
+• Darkempire78/OpenCalc — sin dato hoy (la API no respondió). No afirmo nada.
+• MuntashirAkon/AppManager — ★9.399 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• MuntashirAkon/libadb-android — ★415 · *dormido*: sin empujar desde el 3-jun-2026 (151 días) · NOASSERTION
+• KDE/kdeconnect-android — ★1.494 · empujó en las últimas horas · GPL-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 7 enlaces de esta pieza, *7 responden*.
+De los 18 enlaces de esta pieza, *18 responden*.
 Ninguno roto.
 
 ⏬ sigue abajo · parte 16 de 17

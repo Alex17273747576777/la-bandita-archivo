@@ -630,14 +630,14 @@ REV|92-01-6202 — liamEriaF/B66M=1|REV|978.98★ — gnihtcnys/gnihtcnys=2|REV|
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 841 caracteres ═══
+═══ MENSAJE 15 de 16 · 842 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 28*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.970 (+97) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• thunderbird/thunderbird-android — ★14.167 (+11) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
+• syncthing/syncthing — ★89.976 (+103) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• thunderbird/thunderbird-android — ★14.169 (+13) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
 • M66B/FairEmail — ★4.744 (+5) · empujó en las últimas horas · GPL-3.0 · última release 1.2339 (24-oct-2026)
 • M66B/NetGuard — ★3.954 (+5) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
 

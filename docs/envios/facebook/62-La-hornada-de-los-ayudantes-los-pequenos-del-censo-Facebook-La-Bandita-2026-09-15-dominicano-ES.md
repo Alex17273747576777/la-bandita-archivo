@@ -58,7 +58,7 @@ El grupo respira despacio; su empuje más reciente, **FossifyOrg/Notes**, fue ha
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• FossifyOrg/Notes — ★509 (+3) · empujó en las últimas horas · GPL-3.0 · última release 1.7.0 (30-ene-2026)
+• FossifyOrg/Notes — ★510 (+4) · empujó en las últimas horas · GPL-3.0 · última release 1.7.0 (30-ene-2026)
 • tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
 • tadamiorg/tadami-extensions — ★3 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · sin licencia detectada por la API
 

@@ -96,22 +96,22 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2097 caracteres ═══
+═══ MENSAJE 4 de 5 · 2081 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 50*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• kushagrasinghx/BitChord — ★5.097 (+243) · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
+• kushagrasinghx/BitChord — ★5.107 (+253) · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
 • brahmkshatriya/echo — ★3.607 (+3) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
-• Flow-Tube/Flow — ★3.232 (+69) · empujó en las últimas horas · GPL-3.0 · última release v3.0.0 (17-oct-2026)
+• Flow-Tube/Flow — ★3.236 (+73) · empujó en las últimas horas · GPL-3.0 · última release v3.0.0 (17-oct-2026)
 • lovegaoshi/azusa-player-mobile — ★1.389 (+1) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0 · última release v4.4.0 (28-oct-2026)
 • AudileTeam/Audile — ★1.388 (+7) · empujó en las últimas horas · GPL-3.0 · última release v1.19.0 (5-oct-2026)
 • shub39/Rush — ★1.045 (+1) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 7.2.0 (28-oct-2026)
-• GrakovNe/lissen-android — ★749 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · MIT · última release 1.12.16-release (27-oct-2026)
+• GrakovNe/lissen-android — ★749 (sin cambio) · empujó en las últimas horas · MIT · última release 1.12.16-release (27-oct-2026)
 • Leonidius20/RecordingStudio — ★175 (+1) · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0 · última release v0.2.1 (15-sep-2026)
 • recloudstream/extensions — ★143 (+1) · *dormido*: sin empujar desde el 22-may-2026 (163 días) · sin licencia detectada por la API
-• 23rd/Scrib — ★94 (+2) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release latest (21-jul-2026)
+• 23rd/Scrib — ★94 (+2) · empujó en las últimas horas · GPL-3.0 · última release latest (21-jul-2026)
 • bitplane/Microphone — ★55 (sin cambio) · *dormido*: sin empujar desde el 6-ene-2026 (299 días) · sin licencia detectada por la API
 • Diffechento/MetroMusic — ★25 (+2) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.6 (26-oct-2026)
 • AlanHuang99/resonance — ★17 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v0.8.1 (27-oct-2026)

@@ -114,18 +114,18 @@ Pulso de hoy sobre los 16 repos de la pieza: 16 vivos, 14 activos este mes. Mand
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★332.600 (+813) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
-• jellyfin/jellyfin — ★58.888 (+101) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• awesome-selfhosted/awesome-selfhosted — ★332.629 (+842) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• jellyfin/jellyfin — ★58.893 (+106) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• komi-store/komi-store — ★20.198 (+108) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• komi-store/komi-store — ★20.202 (+112) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • FreshRSS/FreshRSS — ★16.473 (+27) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
-• offa/android-foss — ★11.609 (+23) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
-• jellyfin/jellyfin-androidtv — ★4.691 (+16) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
+• offa/android-foss — ★11.610 (+24) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
+• jellyfin/jellyfin-androidtv — ★4.693 (+18) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
 • wgtunnel/android — ★3.320 (+4) · empujó en las últimas horas · MIT · última release 5.8.2 (19-oct-2026)
 • f-droid/fdroidclient — ★3.255 (+8) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release 1.18.0 (24-ene-2024)
-• jellyfin/jellyfin-android — ★2.846 (+7) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• jellyfin/jellyfin-android — ★2.847 (+8) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 • lihenggui/blocker — ★2.476 (+10) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v2.0.6447 (22-oct-2026)
-• AhmetCanArslan/ShizuWall — ★2.421 (+12) · empujó en las últimas horas · GPL-3.0 · última release v4.6.8 (24-oct-2026)
+• AhmetCanArslan/ShizuWall — ★2.422 (+13) · empujó en las últimas horas · GPL-3.0 · última release v4.6.8 (24-oct-2026)
 • VegaBobo/DSU-Sideloader — ★2.352 (+8) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
 • F0x1d/LogFox — ★1.379 (+6) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v2.1.10-79 (1-mar-2026)
 • Khh-vu/wifi-password-manager — ★325 (+3) · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.21 (29-oct-2026)

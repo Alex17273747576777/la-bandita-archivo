@@ -141,30 +141,30 @@ REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — revres/duolctxen=2|REV|)62
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2652 caracteres ═══
+═══ MENSAJE 5 de 6 · 2766 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 103*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.538 (+299) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• open-webui/open-webui — ★157.447 (+275) · empujó en las últimas horas · NOASSERTION · última release v0.12.5 (29-oct-2026)
-• ggml-org/llama.cpp — ★133.040 (+269) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• immich-app/immich — ★117.862 (+250) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• louislam/uptime-kuma — ★93.139 (+74) · empujó en las últimas horas · MIT · última release 2.5.9 (31-oct-2026)
-• modelcontextprotocol/servers — ★91.730 (+49) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
+• ollama/ollama — ★185.541 (+302) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• open-webui/open-webui — ★157.455 (+283) · empujó en las últimas horas · NOASSERTION · última release v0.12.5 (29-oct-2026)
+• ggml-org/llama.cpp — ★133.047 (+276) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• immich-app/immich — ★117.867 (+255) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• louislam/uptime-kuma — ★93.138 (+73) · empujó en las últimas horas · MIT · última release 2.5.9 (31-oct-2026)
+• modelcontextprotocol/servers — ★91.732 (+51) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
 • ChatGPTNextWeb/NextChat — ★88.933 (+15) · empujó el 20-oct-2026 (hace 12 días) · MIT · última release v2.16.1 (29-jul-2025)
-• termux/termux-app — ★63.872 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• termux/termux-app — ★63.872 (+196) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • pi-hole/pi-hole — ★61.620 (+61) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
 • go-gitea/gitea — ★58.803 (+37) · empujó en las últimas horas · MIT · última release v28.3.0 (1-nov-2026)
-• moeru-ai/airi — ★50.980 (+90) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
-• team-spotube/spotube — ★50.530 (sin cambio) · empujó en las últimas horas · AGPL-3.0
-• qbittorrent/qBittorrent — ★41.290 (+77) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
+• moeru-ai/airi — ★50.981 (+91) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
+• team-spotube/spotube — ★50.531 (+65) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• qbittorrent/qBittorrent — ★41.295 (+82) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
 • photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• nextcloud/server — ★37.381 (+36) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• koodo-reader/koodo-reader — ★28.688 (sin cambio) · empujó en las últimas horas · AGPL-3.0
-• keiyoushi/extensions — ★15.405 (sin cambio) · empujó en las últimas horas · sin licencia
-• Dr-TSNG/ZygiskNext — ★10.774 (+32) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• nextcloud/server — ★37.382 (+37) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• koodo-reader/koodo-reader — ★28.688 (+20) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• keiyoushi/extensions — ★15.405 (+36) · empujó en las últimas horas · sin licencia detectada por la API · última release 2d50f67 (1-nov-2026)
+• Dr-TSNG/ZygiskNext — ★10.776 (+34) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
 • modelcontextprotocol/modelcontextprotocol — ★9.580 (+18) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

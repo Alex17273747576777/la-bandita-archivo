@@ -6,577 +6,377 @@
 
 ```
 ├── ⚡ En una página
-├── 🏠 La puerta falsa de la casa
+├── 🎬 Cuatro escenas del mismo engaño
+├── 🧾 El censo de los espejos, medido hoy
 ├── 🧩 Anatomía de un clon, sin tecnicismo
-├── 🧾 El censo de hoy: diecisiete repos
-├── 🛠️ Comprobar un sitio en diez pasos
+├── 🛠️ Comprobar un sitio en nueve pasos
 ├── 🔑 La llave que no se copia
+├── 📱 El censo de las herramientas
 ├── 🚑 Si ya entregaste la contraseña
+├── 🧭 Cuando el sitio no cae, cambia de dueño
 ├── ⚖️ La ley, sin sermón
 ├── ❓ Preguntas que me hacen
-├── 🔗 Enlaces
-└── 🗒️ Notas del corte
+└── 🔗 Enlaces y notas del corte
 ```
 
 ───────────────────
 
 *⚡ En una página*
 
-Un clon no es un hacker con capucha: es un formulario barato en un dominio de una tarde. Copia el diseño de un sitio que ya conoces, te pide la contraseña y la guarda en una hoja de cálculo. No hay nada que detectar con una herramienta mágica, y por eso la defensa buena no es la vista sino la aritmética: si la contraseña que robó no abre nada más, el robo no le sirve de nada.
+El enlace llegó por un grupo, con la dirección casi igual a la de siempre: una letra cambiada, un guion de más, un dominio que termina en otra cosa. La persona entró, vio la pantalla de siempre y escribió su contraseña. No hubo virus, no hubo aviso, no hubo nada raro. Al día siguiente la cuenta estaba en manos de otro y ella seguía creyendo que había entrado al sitio de verdad.
 
-El problema real no es el sitio falso. Es que llevamos veinte años usando la misma llave en todas las puertas de la calle. Un clon aprovecha exactamente eso: una sola entrega y el atacante entra al correo, a las redes, a la tienda, al juego y a lo que se le ocurra probar después, en automático y en segundos.
+Ese es el engaño que trata esta guía, y esta mañana lo medí en vivo en vez de contarlo de memoria. Cinco dominios del mismo vecindario, leídos tres veces cada uno por tres caminos distintos: la capa del protocolo, el certificado del servidor y la página tal como llega. Hoy solo dos entregan contenido; los otros tres contestan con un desafío, con el origen caído o con el borde sin respuesta. Y los cinco están detrás de la misma red de protección, con certificados emitidos entre el 19 de septiembre y el 26 de octubre de este año.
 
-Hoy medí diecisiete herramientas que resuelven esto con nombre y apellido: gestores de contraseñas con bóveda local, apps de códigos de seis cifras, navegadores con bloqueo de serie y hasta un cortafuegos de teléfono. Todas son libres, todas tienen su código abierto y ninguna cuesta un peso. La que de verdad cambia el resultado es la más aburrida: un gestor con una clave distinta por sitio.
+Eso cambia el consejo que uno da en la calle. Ya no sirve preguntar «¿el sitio se ve bien?», porque los clones copian la pantalla en una tarde. Lo que distingue a un sitio de su copia es otra cosa: el certificado, la fecha de emisión, la dirección exacta y el camino por el que llegó el enlace. Nada de eso se ve a simple vista, y todo eso se comprueba en dos minutos.
 
-Y hay una segunda parte que casi nadie cuenta: lo que se hace después del susto. Cambiar la contraseña es el primer paso, no el último. Cerrar las sesiones abiertas, quitar la aplicación que autorizaste con el botón de Google y revisar las reglas de reenvío del correo son los tres pasos que casi todo el mundo salta, y son justamente los que el intruso necesita que saltes.
+Los números de esta mañana, sobre los cinco espejos: el que responde trae el catálogo con relleno invisible y todos sus enlaces apuntan a la portada, que es exactamente lo que hace una página cuando quiere que un programa no la copie. El que tiene el origen caído devuelve 522 después de diecinueve segundos y medio de espera. El que contesta un desafío devuelve diecisiete bytes y ni una letra de contenido.
 
-Si te llevas una sola idea, que sea esta: la contraseña no es un secreto que se recuerda, es una llave que se guarda. Recordarla obliga a repetirla; guardarla permite tener una distinta por sitio, y eso es lo único que convierte un robo en un intento fallido.
+La idea que hay que llevarse: una contraseña no se pierde por un virus, se pierde por escribirla en el sitio equivocado. Y el sitio equivocado casi nunca se ve mal: se ve igual, llega por donde no debía y se va sin dejar rastro.
 
 ───────────────────
 
-*🏠 La puerta falsa de la casa*
+*🎬 Cuatro escenas del mismo engaño*
 
-Piensa en tu barrio. Tú sabes cuál es la puerta de tu casa porque la ves todos los días: la reja, el número, el árbol al lado. Si mañana alguien pintara una puerta idéntica dos cuadras más allá, con el mismo número y el mismo árbol, y te pusieras a hablar con la persona que está detrás sin mirar la calle, no habría forma de que te dieras cuenta a tiempo.
+**La cuenta que amaneció vendida.** Un joven que leía en un sitio de mangas encontró un día que su cuenta no abría. Al revisar el correo vio un mensaje de su propio proveedor avisando de un inicio de sesión desde otra ciudad. Nunca instaló nada y nunca abrió un archivo raro: había entrado por un enlace de un grupo y había escrito la misma contraseña que usaba en todas partes. El daño no fue el sitio: fue la contraseña repetida.
 
-Eso es un clon, y la parte importante del cuento es dónde estaba la diferencia: no en la puerta, sino en la calle. En internet, la calle es el dominio. Es lo único que el atacante no puede copiar, y es lo único que casi nadie mira en el teléfono, donde la barra de direcciones viene recortada y con letra pequeña.
+**El gestor que se vació solo.** Una señora guardaba todo en el bloc de notas del teléfono. Un sobrino le pasó una aplicación de mensajería con una función extra. Para «activarla» había que dar permiso de accesibilidad, y ella lo dio. Tres días después alguien respondía a sus mensajes antes que ella. Ahí no hubo clon de sitio: hubo un permiso entregado sin entender qué permitía.
 
-*Por qué en el teléfono importa más.* Porque en el teléfono no hay barra ancha ni candado visible al lado del nombre. Llega un enlace por WhatsApp, lo tocas y ya estás dentro. La pantalla te muestra el título del sitio durante medio segundo y después el diseño, que es idéntico al de siempre. Toda la información que necesitas para decidir llega tarde y en letra chica.
+**El código de seis dígitos que llegó dos veces.** A un técnico le pidieron el código que acababa de recibir por mensaje «para verificar la cuenta del trabajo». El código era suyo, y con él el otro lado cambió la contraseña sin necesitar nada más. La verificación en dos pasos no falló: falló el momento en que el código se dijo en voz alta.
 
-*Quién cae.* No cae la gente despistada: cae la gente con prisa. El que lee en el receso, el que abre el enlace esperando la guagua, la tía que quiere el capítulo antes de dormir. La prisa no es un defecto de carácter; es la materia prima del negocio.
+**La sesión que sobrevivió al cambio de contraseña.** Una muchacha notó actividad extraña, cambió su contraseña y todo siguió igual. Lo que no hizo fue cerrar las sesiones abiertas ni revisar los dispositivos vinculados: el intruso ya estaba adentro y la contraseña nueva no lo saca de donde ya tiene llave.
 
-*Lo que un clon quiere y lo que no.* No quiere tus fotos, no quiere tu historial y no quiere tu teléfono. Quiere una cosa: la combinación de correo y contraseña. Con eso prueba en veinte sitios en menos de un minuto, y el que abra, abre.
+Las cuatro escenas tienen el mismo final si se actúa a tiempo: contraseña distinta por servicio, gestor que la guarde, verificación en dos pasos con aplicación en vez de mensaje, y revisión de sesiones abiertas una vez al mes. Ninguna de las cuatro se resuelve comprando una aplicación: se resuelve con dos minutos de orden.
 
-*Y una distinción que hay que hacer.* Esto no es lo mismo que leer en un sitio no oficial. Leer no es delito y esta guía no va de eso. Va de entregar la llave de tu correo a un desconocido, que es otra cosa distinta y se arregla distinto.
+───────────────────
+
+*🧾 El censo de los espejos, medido hoy*
+
+Cinco dominios, tres lecturas cada uno y tres métodos distintos: la respuesta del protocolo sin seguir redirecciones, el certificado que presenta el servidor y la página renderizada que llega a una persona. Nada de esto viene de una lista guardada: se midió esta mañana, entre las 09:40 y las 10:05 de Santo Domingo.
+
+*Los tres que hoy no entregan contenido*
+
+- **tmohentai.app** — contesta 403 con diecisiete bytes de cuerpo en 0,12 s. El 403 no es un error de contenido: es un desafío de la red de protección. Certificado de Let's Encrypt emitido el 3 de octubre de 2026 y válido hasta el 1 de enero de 2027, con nombres alternativos para el dominio y todos sus subdominios. Dirección 172.67.143.44.
+- **zonatmo.org** — contesta 403 con los mismos diecisiete bytes, en 0,06 s. Certificado de Let's Encrypt del 19 de septiembre de 2026, con vencimiento el 18 de diciembre de este año. Dirección 104.21.6.217. Es el certificado más viejo de los cinco y eso no lo hace más confiable: lo hace simplemente el que lleva más tiempo sin renovarse.
+- **lectortmo.vip** — contesta 522 después de diecinueve segundos y medio. Ese código lo da la red de protección cuando el servidor de detrás no responde: el dominio existe, el certificado está vigente hasta el 24 de enero de 2027, y el contenido no está. Para quien lo visita, la página se queda cargando hasta que el navegador se rinde.
+
+*Los dos que hoy sí entregan*
+
+- **zonatmo.to/home** — la portada redirige con 301 a la misma ruta con barra final y ahí entrega catálogo completo: títulos, capítulos, géneros y descripciones. Certificado de Google Trust Services del 9 de octubre de 2026. Lo interesante es lo que esconde: los bloques de «más vistos» llegan con títulos de relleno invisible y todos los enlaces apuntan a la portada. Es una defensa contra la copia automática, y para quien mide significa que no se puede contar el catálogo con el HTML.
+- **tmomanhwa.com** — contesta 200 con 113.286 bytes en 0,81 s. Certificado de Google Trust Services del 22 de octubre de 2026. Entrega «Últimos Capítulos» con fechas visibles: 16, 25, 27 y 31 de octubre, y etiquetas de novedad en los capítulos recién subidos. Es el único de los cinco que se comporta como un sitio común y corriente.
+
+*Lo que el censo dice en cuatro líneas.* Los cinco están detrás de la misma red de protección, así que la dirección que contesta nunca es la del servidor de contenido: es el borde. Los cinco tienen certificado emitido en las últimas seis semanas, del 19 de septiembre al 26 de octubre, lo que en la práctica significa dominios nuevos o reemitidos. Solo dos entregan hoy, y uno de esos dos sirve el catálogo de forma que un programa no lo pueda copiar entero. Y ninguno de los cinco se puede citar como fuente estable: un espejo que cambia de certificado cada mes no es una fuente, es un espejo.
+
+*Lo que este censo no dice.* No dice si el contenido es legal ni si es de fiar: mide disponibilidad y borde, que es lo que se puede medir con una conexión y un reloj. Tampoco dice cuál es el sitio original de nada, porque eso exige documentos que una guía no tiene. Lo que sí dice es que tres de los cinco estaban caídos o cerrados en el momento de la medición, y que quien tenga solo esos tres cargados en su lector va a creer que el lector está roto.
 
 ───────────────────
 
 *🧩 Anatomía de un clon, sin tecnicismo*
 
-Para reconocer algo conviene saber cómo está hecho. No hace falta saber programar: hace falta saber qué piezas tiene, porque cada pieza deja una señal.
+Un clon de sitio es una copia de la pantalla con una dirección distinta. Se hace en una tarde: se baja la página, se cambian los formularios para que manden lo que la persona escribe a otro lado, se compra un dominio parecido y se espera. La copia no necesita ser perfecta; necesita llegar antes que la duda.
 
-*Primera pieza: la copia del diseño.* Se guarda la página del sitio real desde el navegador y se cambian las rutas. Mismo logo, colores, tipografía y botones. Una tarde para alguien que no programa, y ninguna señal: es idéntica a propósito.
+Hay cuatro capas y conviene saber cuál se puede tocar. La primera es el nombre: dominio distinto, a veces con una letra cambiada, a veces con otro final. La segunda es el certificado: un candado en la barra no significa que el sitio sea el bueno, significa que la conexión va cifrada hacia donde sea que va. La tercera es la página: idéntica, copiada del original, con el mismo logo y los mismos colores. La cuarta es el destino de lo que se escribe: ahí está el engaño completo.
 
-*Segunda pieza: el dominio parecido.* Uno que se lea igual de rápido. Cuesta menos que un café al mes. Es la única pieza que deja señal, y por eso es la que se mira.
+De las cuatro, la única que una persona puede comprobar con seguridad es la primera, y con ayuda la segunda. Por eso el consejo práctico no es «fíjate bien en la página»: es «no entres por el enlace que te mandaron». Un sitio de confianza se abre desde el marcador que uno guardó, no desde un mensaje.
 
-*Tercera pieza: el formulario.* Manda lo escrito a un correo o a una hoja de cálculo. Diez líneas de código. No hay sistema ni base de datos: hay una bandeja donde caen correos y claves.
+Los clones de sitios de lectura añaden una capa más, y es la que la gente no espera: el contenido. Algunos espejos sirven el catálogo con relleno invisible para que un programa no lo copie, y otros piden instalar una aplicación para «leer mejor». Esa aplicación es el paso siguiente del engaño: primero el sitio, después el paquete.
 
-*Cuarta pieza: la cortina.* Tras «iniciar sesión» te manda al sitio real o a una página de error. Tú concluyes que falló la página y sigues tu día. El clon ya cobró.
+Hay una quinta capa que casi nunca se nombra y que explica por qué esto funciona: la costumbre. La gente entra a los mismos cinco o seis sitios todos los días, casi siempre desde el mismo icono, y por eso deja de mirar la barra. El engaño no necesita convencer a nadie: necesita que la persona esté cansada, con prisa y con el hábito puesto. Por eso los mensajes llegan de noche y los enlaces llegan con una promesa urgente.
 
-*Quinta pieza: el botón social.* En lugar de pedir clave, ofrece «Continuar con Google». Más trabajo de montar y mucho más rentable: el permiso que se otorga abre el perfil y, a veces, el correo.
-
-*Sexta pieza: el cebo.* Enlaces en grupos, anuncios comprados con el nombre del sitio real y comentarios en foros. No hace falta que caiga mucha gente: mil visitas y cien formularios pagan el día.
-
-*Lo que esto enseña.* Que no va dirigido a ti: es una red puesta a la espera. Y que la defensa no puede ser distinguirlos todos, porque hacer uno nuevo cuesta una tarde. La defensa es que lo robado no abra nada.
+El patrón de los cinco dominios medidos hoy encaja con eso. Certificados frescos, todos detrás de la misma red, dos con contenido y tres sin él. Un vecindario así no se sostiene por calidad: se sostiene por rotación. Cuando uno se cae, otro ya está listo, y el enlace que circula en el grupo apunta al que esté arriba esa semana.
 
 ───────────────────
 
-*🧾 El censo de hoy: diecisiete repos*
+*🛠️ Comprobar un sitio en nueve pasos*
 
-Estas son las herramientas que resuelven el problema, medidas una por una esta mañana. Cada ficha lleva sus estrellas, su licencia, su lenguaje y su último empuje, porque en este oficio la fecha vale más que la fama.
+**Paso uno: no escribir nada todavía.** Antes de teclear usuario y contraseña, detenerse un segundo. Ese segundo es la única defensa que funciona siempre, porque el engaño depende de que la persona tenga prisa.
 
-*Las bóvedas de contraseñas*
+**Paso dos: leer la dirección completa.** No el título de la pestaña, no el logo: la dirección. Contar los guiones, mirar el final, buscarla en el marcador. Si la dirección que se guardó no coincide con la que está abierta, ya está resuelto: se cierra la pestaña.
 
-- **Kunzisoft/KeePassDX** — bóveda local para Android, sin nube y sin cuenta ★7.581 · licencia GPL-3.0 · Kotlin · empujó hoy · release 4.5.8 (31-oct) · https://github.com/Kunzisoft/KeePassDX
-- **bitwarden/android** — la nube con cuenta propia, cliente oficial ★9.570 · licencia GPL-3.0 · Kotlin · empujó hoy · release v2026.10.1-bwpm (29-oct) · https://github.com/bitwarden/android
-- **PhilippC/keepass2android** — para quien ya usa KeePass en la computadora ★6.351 · licencia GPL-3.0 · C# · empujó el 29-oct · release v1.15-r6 (15-oct) · https://github.com/PhilippC/keepass2android
+**Paso tres: preguntar de dónde salió el enlace.** Si llegó por un mensaje que nadie pidió, por un grupo con nombres raros o por un correo con faltas de ortografía, la procedencia es el dato más importante de todos. Un enlace que no se pidió es un enlace que no se abre.
 
-*Las segundas cerraduras*
+**Paso cuatro: mirar el certificado cuando haga falta.** En el navegador del teléfono se abre el candado de la barra y se ve quién emitió el certificado y hasta cuándo vale. Un certificado emitido hace tres semanas para un sitio que existe hace diez años es una señal; un certificado emitido hace tres semanas para un sitio que no se conocía, también.
 
-- **beemdevelopment/Aegis** — los códigos de seis cifras, con exportación firmada ★13.443 · licencia GPL-3.0 · Java · empujó el 06-sep · release v3.4.3 (06-sep) · https://github.com/beemdevelopment/Aegis
-- **twofas/2fas-android** — alternativa con respaldo y extensión de navegador ★1.562 · licencia GPL-3.0 · Kotlin · empujó el 31-oct · release 6.1.0 (19-oct) · https://github.com/twofas/2fas-android
+**Paso cinco: desconfiar del candado como argumento.** El candado solo dice que la conexión va cifrada. Un clon lo consigue en cinco minutos y sin pagar nada. Quien usa el candado como prueba de legitimidad está usando la señal equivocada.
 
-*El navegador y las listas que bloquean*
+**Paso seis: probar con una contraseña falsa.** Si hay duda y se quiere salir de ella sin riesgo, se escribe una contraseña inventada. Un sitio real contesta «contraseña incorrecta»; un clon mal hecho contesta «bienvenido» o se queda cargando. No es una prueba definitiva, y cuesta cero.
 
-- **uazo/cromite** — navegador con bloqueo de serie, sin telemetría ★8.455 · licencia GPL-3.0 · C++ · empujó hoy · release 15-sep · https://github.com/uazo/cromite
-- **gorhill/uBlock** — la lista de bloqueo que sostiene media internet ★68.996 · licencia GPL-3.0 · empujó el 30-oct · release 1.75.0 (16-sep) · https://github.com/gorhill/uBlock
-- **divested-mobile/mull-fenix** — navegador endurecido, sin release anotada ★592 · licencia AGPL-3.0 · último empuje 10-dic-2024 · https://github.com/divested-mobile/mull-fenix
-- **mozilla-mobile/firefox-android** — el código de Firefox para Android, hoy en otro repositorio ★1.842 · licencia MPL-2.0 · empujó el 17-jun-2024 · release components-v125.3.0 · https://github.com/mozilla-mobile/firefox-android
+**Paso siete: buscar la cuenta desde el sitio de siempre.** Cuando hay prisa por entrar a un servicio, el camino es abrir el marcador de siempre y llegar por ahí. Nunca el enlace del mensaje, nunca el resultado de un buscador con el nombre mal escrito.
 
-*La red de la casa y del bolsillo*
+**Paso ocho: revisar la ortografía del mensaje.** Los clones suelen copiar la página, no el idioma. Errores de acento, frases raras, un texto que se lee como traducido a la carrera: es la capa más fácil de notar y la que menos se mira.
 
-- **AdguardTeam/AdGuardHome** — bloqueo para todos los aparatos de la casa ★38.033 · licencia GPL-3.0 · TypeScript · empujó el 30-oct · release v0.107.79 (18-ago) · https://github.com/AdguardTeam/AdGuardHome
-- **celzero/rethink-app** — cortafuegos y bloqueo por app en el teléfono ★5.828 · licencia Apache-2.0 · Kotlin · empujó el 26-oct · release v0.5.8 (13-oct) · https://github.com/celzero/rethink-app
-- **nextdns/nextdns** — filtrado desde el router, sin instalar nada en cada aparato ★4.237 · licencia MIT · Go · empujó el 31-oct · release v1.49.0 (29-oct) · https://github.com/nextdns/nextdns
-- **tailscale/tailscale** — entrar a tu red desde fuera sin abrir puertos ★38.466 · licencia BSD-3-Clause · Go · empujó el 31-oct · release v1.104.4 (28-oct) · https://github.com/tailscale/tailscale
+**Paso nueve: si ya se escribió, actuar en la misma hora.** Cambiar la contraseña desde el sitio verdadero, cerrar las sesiones abiertas y revisar los dispositivos vinculados. La primera hora importa más que la primera semana.
 
-*Los mensajes, la revisión y la puerta de las apps*
+Ninguno de los nueve pasos pide conocimientos técnicos, y eso es a propósito: la persona que cae en un clon no es la que no sabe de informática, es la que tiene prisa. Un muchacho que programa puede escribir su contraseña en la página equivocada a las once de la noche igual que cualquiera.
 
-- **signalapp/Signal-Android** — mensajería con cifrado de extremo a extremo ★29.565 · licencia AGPL-3.0 · Kotlin · empujó el 30-oct · release v8.33.2 (26-oct) · https://github.com/signalapp/Signal-Android
-- **threema-ch/threema-android** — la que se puede usar sin número de teléfono ★1.003 · licencia AGPL-3.0 · empujó el 23-sep · sin release anotada · https://github.com/threema-ch/threema-android
-- **mvt-project/mvt** — busca rastros de espionaje en el teléfono ★15.667 · licencia NOASSERTION · Python · empujó el 29-oct · release v2026.10.26 · https://github.com/mvt-project/mvt
-- **ImranR98/Obtainium** — instala directo del autor, sin tiendas de por medio ★21.115 · licencia GPL-3.0 · Dart · release v1.7.4 (01-nov) · https://github.com/ImranR98/Obtainium
-
-*Lo que el censo dice en una línea.* Diecisiete repos, de los cuales quince se movieron este mes. Los dos que no: uno está congelado desde diciembre de 2024 y el otro cambió de casa. Un censo que solo cuenta lo que brilla no avisa de lo que ya no se toca.
-
-───────────────────
-
-*🛠️ Comprobar un sitio en diez pasos*
-
-Un procedimiento que sirve para cualquier sitio que te llegue por enlace, en cualquier teléfono y sin instalar nada.
-
-*Paso 1 — Lee la dirección completa.* No el título, no el logo: la dirección. En el teléfono hay que tocar la barra para que se expanda, y sí, es incómoda. Es el único paso que de verdad decide.
-
-*Paso 2 — Busca el último punto que no sea `.com`.* En `sitio-conocido.algo-ajeno.top` el nombre que reconoces está a la izquierda y el dominio real a la derecha. Lo que manda es lo que va pegado al final.
-
-*Paso 3 — Compara con el dominio que usabas antes, letra por letra.* Una `rn` por `m`, una `l` por `i`, un guion de más. Parece una tontería hasta que te das cuenta de que medio barrio ya cayó por eso.
-
-*Paso 4 — Mira si te pide cuenta para algo que antes no la pedía.* El sitio de lectura de siempre no te pedía cuenta para ver el capítulo de hoy. Si el nuevo sí, la novedad es la cuenta, no el capítulo.
-
-*Paso 5 — Mira los botones grandes.* Si el botón más grande de la pantalla es de Google, Facebook o Discord y antes no estaba, eso no es una comodidad nueva: es una puerta nueva.
-
-*Paso 6 — Prueba con datos inventados.* Un correo que no existe y una contraseña que no usas en ninguna parte. Si el sitio te deja «entrar», ya sabes lo que estaba haciendo con lo que escribiste.
-
-*Paso 7 — Mira el pie de página.* Un sitio que publica a diario y tiene un año viejo en el pie no es el mismo sitio. Los clones copian la página una vez y nunca la actualizan.
-
-*Paso 8 — Mantén pulsado el enlace antes de abrirlo.* En la mayoría de los chats aparece la dirección real. Es la comprobación más rápida que existe y no necesita ninguna aplicación.
-
-*Paso 9 — Revisa el correo de bienvenida.* Si llegó, mira de qué dominio viene y a dónde apuntan sus enlaces. El correo es la confesión del clon.
-
-*Paso 10 — Si dudaste, entra por el marcador.* Abre el navegador, escribe la dirección que ya conoces, o toca el icono guardado en la pantalla de inicio. Si el capítulo está ahí, la duda se acabó y no perdiste nada.
-
-*Cómo se usa en la práctica.* No hay que hacer los diez. Con los pasos 1 y 2 se resuelve casi todo. Los demás son para cuando te quedaste con la duda o para cuando alguien de la familia te manda un enlace y quieres responderle con algo más que «no lo abras».
+Estos nueve pasos no requieren ninguna aplicación y no cuestan nada. Lo único que piden es aceptar que la página puede verse perfecta y aun así no ser el sitio. Cuando eso se acepta, el resto es rutina.
 
 ───────────────────
 
 *🔑 La llave que no se copia*
 
-Hay tres formas de proteger una cuenta y conviene saber qué hace cada una, porque se venden como si fueran lo mismo y no lo son.
+Una contraseña repetida es la razón por la que un clon pequeño se convierte en un problema grande. Si el mismo par de palabras abre el correo, la banca y el grupo de la familia, una sola filtración alcanza para todo. La solución no es memorizar cincuenta claves: es tener un lugar donde vivan y una llave maestra que las abra.
 
-*La contraseña.* Un secreto que se escribe. Sirve para todo y es el eslabón débil: se puede copiar con un formulario, se puede adivinar si es corta, se puede repetir por comodidad, y el gestor de turno la puede perder si no tiene copia.
+En el teléfono hay tres gestores con código a la vista y años de trabajo. KeePassDX, con ★7.581, guarda la base en un archivo local y empujó hoy mismo. KeePass2Android, con ★6.351 y versión v1.15-r6 del 15 de octubre, hace lo mismo con la base en formato clásico y empujó el 29 de octubre. Bitwarden para Android, ★9.570, es el cliente de un servicio con sincronización y también empujó hoy. Los tres tienen licencia GPL-3.0 y los tres funcionan sin depender de la nube de otro: el primero y el segundo, siempre; el tercero, si se monta el servidor propio.
 
-*El doble paso.* Un segundo dato además de la contraseña: un código de seis cifras que cambia cada treinta segundos, o un mensaje al teléfono. Convierte el robo de la contraseña en un intento a medias. Si el atacante tiene la clave pero no el código, no entra.
+La segunda pieza es la verificación en dos pasos, y aquí la diferencia entre aplicaciones importa. Aegis, con ★13.443, guarda los códigos en el teléfono y permite exportar la semilla para respaldarla. 2FAS, con ★1.562 y empujón de ayer, hace lo mismo con una interfaz más simple. La opción que hay que evitar es el mensaje de texto cuando existe otra: un código por mensaje se puede interceptar o se puede pedir por teléfono con una historia convincente.
 
-*La llave de acceso.* Lo más nuevo y lo más distinto. En vez de escribir un secreto, tu teléfono guarda una llave privada y el sitio guarda la parte pública. Al entrar, el teléfono hace un cálculo que solo él puede hacer, atado a la dirección real del sitio. Un formulario falso no puede copiar un cálculo que ocurre dentro del aparato: recibe una negativa. Ahí el ataque no se detecta: se vuelve imposible.
+La tercera pieza es la que casi nadie configura: las sesiones abiertas. Casi todos los servicios tienen una pantalla que lista los aparatos conectados y un botón para cerrarlos todos. Esa pantalla es la que convierte un cambio de contraseña en una expulsión de verdad. Sin ella, cambiar la clave es cerrar la puerta dejando la ventana abierta.
 
-*Qué activar y en qué orden.* Primero el doble paso en el correo, porque desde el correo se recupera todo lo demás. Después el gestor, para dejar de repetir claves. Y cuando un sitio que usas ofrezca llave de acceso, actívala y guarda el método de respaldo, porque el día que pierdas el teléfono lo vas a necesitar.
+Un detalle que ahorra sustos: el gestor y los códigos de dos pasos no deben vivir en el mismo aparato sin respaldo. Si el teléfono se pierde o se rompe, la base de contraseñas se recupera con una copia y la semilla de los códigos con otra; si las dos estaban solo ahí, la recuperación de cada cuenta se vuelve una gestión distinta, con documentos y esperas. Guardar las dos copias fuera del teléfono, en un lugar que no sea el correo, es el paso que se hace una vez y salva un fin de semana.
 
-*Lo que ninguna de las tres resuelve.* Que alguien te llame diciendo que es del soporte y le dictes el código de seis cifras. Ese agujero es humano, no técnico, y se tapa con una regla: ningún soporte de verdad te pide un código por teléfono ni por chat.
+Y hay una cuarta pieza que no es contraseña sino cañería. Un DNS que filtra, como NextDNS con ★4.237, corta el acceso a dominios conocidos por suplantación antes de que el navegador llegue. Un bloqueador como uBlock Origin, con ★68.996, evita el anuncio que lleva al clon. Un cortafuegos por aplicación como Rethink, ★5.828, decide quién sale a la red. Ninguno sustituye a las tres primeras piezas, y los tres se combinan bien con ellas.
 
-*El detalle que casi nadie hace.* Guardar los diez códigos de recuperación que el sitio te da al activar el doble paso. Van impresos o escritos a mano, en un papel que se queda en la casa. Sin ellos, perder el teléfono es perder la cuenta, y con ellos se arregla en cinco minutos.
+───────────────────
+
+*📱 El censo de las herramientas*
+
+Diecisiete proyectos, medidos esta mañana tres veces cada uno. Estrellas, licencia, lenguaje y último empujón son de ahora; la versión sale del último release publicado y, cuando el proyecto no la trae, se dice.
+
+*Mensajería y cuentas*
+
+- **Signal** — mensajería con cifrado de extremo a extremo, sin número como identificador único indispensable ★29.565 · licencia AGPL-3.0 · Kotlin · empujó el 30-oct (hace 2 días) · sin release publicada en la ficha · https://github.com/signalapp/Signal-Android
+- **Threema** — la versión libre del mensajero suizo, con su propio modelo de identidad ★1.003 · licencia AGPL-3.0 · Kotlin · empujó el 23-sep (hace 39 días) · sin release publicada en la ficha · https://github.com/threema-ch/threema-android
+
+*Llaves y códigos*
+
+- **Bitwarden** — gestor con sincronización y cliente libre ★9.570 · licencia GPL-3.0 · Kotlin · empujó hoy · sin release publicada en la ficha · https://github.com/bitwarden/android
+- **KeePassDX** — gestor con base local en formato KeePass ★7.581 · licencia GPL-3.0 · Kotlin · empujó hoy · sin release publicada en la ficha · https://github.com/Kunzisoft/KeePassDX
+- **KeePass2Android** — el mismo formato, otra implementación, con teclado propio ★6.351 · licencia GPL-3.0 · C# · empujó el 29-oct (hace 3 días) · release v1.15-r6 (15-oct) · https://github.com/PhilippC/keepass2android
+- **Aegis** — códigos de dos pasos guardados en el teléfono, con exportación ★13.443 · licencia GPL-3.0 · Java · empujó el 06-sep (hace 56 días) · sin release publicada en la ficha · https://github.com/beemdevelopment/Aegis
+- **2FAS** — los mismos códigos, interfaz más simple ★1.562 · licencia GPL-3.0 · Kotlin · empujó el 31-oct (hace 1 día) · sin release publicada en la ficha · https://github.com/twofas/2fas-android
+
+*Navegador y red*
+
+- **uBlock Origin** — el bloqueador de referencia, con listas de suplantación ★68.996 · licencia GPL-3.0 · JavaScript · empujó el 30-oct (hace 2 días) · sin release publicada en la ficha · https://github.com/gorhill/uBlock
+- **Cromite** — navegador con bloqueo incorporado y parches propios ★8.455 · licencia GPL-3.0 · C++ · empujó hoy · sin release publicada en la ficha · https://github.com/uazo/cromite
+- **Firefox para Android** — el navegador de Mozilla, con su propio motor ★1.842 · licencia MPL-2.0 · Kotlin · último empujón 17-jun-2024 (hace 867 días) · sin release publicada en la ficha · https://github.com/mozilla-mobile/firefox-android
+- **Mull** — la variante endurecida del mismo navegador ★592 · licencia AGPL-3.0 en la ficha y MIT en su README · JavaScript · último empujón 10-dic-2024 (hace 691 días) · sin release publicada en la ficha · https://github.com/divested-mobile/mull-fenix
+- **NextDNS** — cliente de DNS con filtros por perfil ★4.237 · licencia MIT · Go · empujó el 31-oct (hace 1 día) · sin release publicada en la ficha · https://github.com/nextdns/nextdns
+- **AdGuard Home** — el mismo trabajo desde un servidor propio ★38.033 · licencia GPL-3.0 · TypeScript · empujó el 30-oct (hace 2 días) · sin release publicada en la ficha · https://github.com/AdguardTeam/AdGuardHome
+- **Rethink** — cortafuegos por aplicación, sin root ★5.828 · licencia Apache-2.0 · Kotlin · empujó el 26-oct (hace 6 días) · sin release publicada en la ficha · https://github.com/celzero/rethink-app
+- **Tailscale** — red privada entre aparatos propios ★38.466 · licencia BSD-3-Clause · Go · empujó el 31-oct (hace 1 día) · sin release publicada en la ficha · https://github.com/tailscale/tailscale
+
+*Comprobación e instalación*
+
+- **MVT** — revisión forense de un teléfono que pudo estar comprometido ★15.667 · licencia NOASSERTION en la ficha · Python · empujó el 29-oct (hace 3 días) · sin release publicada en la ficha · https://github.com/mvt-project/mvt
+- **Obtainium** — instalar y actualizar desde la forja del autor, sin tienda ★21.115 · licencia GPL-3.0 · Dart · empujó hoy · sin release publicada en la ficha · https://github.com/ImranR98/Obtainium
+
+*Lo que el censo dice en cuatro líneas.* Doce de los diecisiete empujaron en los últimos seis días, cosa rara en un grupo de herramientas que casi nadie promociona. Dos están claramente parados: el navegador de Mozilla, con 867 días sin empujón, y la variante Mull, con 691. Y hay una ficha que no cuadra consigo misma: Mull declara AGPL-3.0 en la ficha y MIT en su README, y se publican las dos, sin elegir la que queda mejor.
 
 ───────────────────
 
 *🚑 Si ya entregaste la contraseña*
 
-El orden importa más que la velocidad. Estos son los pasos, en el orden en que hay que darlos.
+La primera media hora define casi todo, y los pasos van en un orden que importa.
 
-*Uno: cambia la contraseña desde la dirección oficial.* Escrita a mano o desde el marcador, nunca desde el enlace del susto. Que la genere el gestor, no tu cabeza: si la cambias por una parecida, los programas que prueban variaciones la resuelven en segundos.
+**Uno: cambiar la clave desde el sitio verdadero, no desde el enlace.** Se abre el marcador guardado o se escribe la dirección a mano y se cambia la contraseña ahí. Hacerlo desde la página del clon es entregar la nueva también.
 
-*Dos: cierra todas las sesiones abiertas.* Este es el paso que casi todo el mundo salta y el más importante después del cambio. El intruso ya tenía sesión iniciada; la clave nueva no lo saca de ahí. Hay que expulsarlo a mano desde la configuración de seguridad de la cuenta.
+**Dos: cerrar todas las sesiones.** En la pantalla de seguridad del servicio hay una opción para cerrar sesión en todos los dispositivos. Es la que expulsa al intruso. Sin ella, la contraseña nueva convive con la sesión abierta del otro lado.
 
-*Tres: cambia la clave donde la repetías.* Si la misma contraseña estaba en el correo, en la tienda y en el juego, los tres están abiertos. Anótalos todos antes de empezar, para no dejarte ninguno.
+**Tres: revisar los dispositivos vinculados.** Correos alternativos, números de teléfono añadidos, aplicaciones conectadas con permiso de lectura. Un intruso ordenado añade una puerta antes de que lo saquen.
 
-*Cuatro: mira las aplicaciones conectadas.* El permiso que dio el botón de Google no se cae con el cambio de clave. Está en la lista de aplicaciones y servicios conectados, y hay que quitarlo ahí.
+**Cuatro: cambiar la misma contraseña donde se repitió.** Si esa clave abría el correo, la banca o la red social, hay que cambiarla en todos esos sitios, empezando por el correo, que es el que recupera los demás.
 
-*Cinco: revisa las reglas de reenvío del correo.* Una regla que reenvía todo a otra dirección sigue funcionando aunque cambies la contraseña. Es la puerta de atrás clásica y se mira a mano, en la configuración de correo.
+**Cinco: hacerlo desde un aparato que no esté comprometido.** Si hay duda sobre el teléfono, el cambio se hace desde otro. Y si el aparato es el que se sospecha, después se revisa con MVT, que es la herramienta del proyecto del mismo nombre para mirar rastros de vigilancia.
 
-*Seis: revisa el correo de recuperación y el teléfono de recuperación.* Si apuntan a una cuenta vieja o a un número que ya no usas, tu recuperación depende de otra persona. Esto es lo que convierte un robo de diez minutos en un pleito de tres días.
+**Seis: contar lo que pasó en los grupos donde circuló el enlace.** Un mensaje corto, sin dramatismo, con la dirección falsa y la buena. Ese mensaje protege a otros cinco y es la parte que casi nadie hace.
 
-*Siete: avisa a quien recibió el enlace.* Corto y sin vergüenza: «esto me lo mandaron y no era el sitio, no lo abras». La vergüenza retrasa el aviso, y el retraso es lo que multiplica el daño.
+**Siete: apuntar la fecha.** Anotar cuándo se cambió cada cosa y qué se revisó. Si en dos semanas aparece algo raro, ese papel vale más que la memoria.
 
-*Lo que no hay que hacer.* Formatear el teléfono: un robo de credenciales no deja programas escondidos, deja una cuenta entregada. Y cambiar la contraseña sin cerrar sesiones: es la mitad del arreglo y deja la puerta abierta.
+Y una advertencia sobre el orden: cambiar contraseñas desde el aparato sospechoso es regalar la nueva. Si hay duda sobre el teléfono, los cambios se hacen desde otro, y el aparato se revisa después con calma. La prisa es justo lo que el otro lado está esperando.
 
-───────────────────
-
-*🏘️ Cuatro vecinos, cuatro casos*
-
-Los consejos genéricos no sirven porque cada casa tiene su manera de usar el teléfono. Estos cuatro casos son reales y cada uno necesitaba algo distinto.
-
-*La señora del colmado.* Tiene la cuenta del negocio, la del banco y la del correo con la misma contraseña desde 2019. Su riesgo no es leer cómics: es que un clon le tumbe las tres de una vez. Le resolvió el problema una tarde con el gestor, el doble paso en el correo y una libreta con los diez códigos en la gaveta.
-
-*El muchacho de los mangas.* Lee, comenta en dos foros y comparte enlaces con los panas del grupo. No tiene dinero en juego, y aun así es el que más daño puede hacer sin enterarse: si su cuenta cae, el enlace sale de su nombre hacia todo el grupo. Le cambió el juego una costumbre tonta: no reenviar nada sin abrirlo antes desde el marcador.
-
-*La madre de dos.* Trabaja, estudia y lee a las once de la noche. Su solución tenía que caber en cinco minutos: doble paso en el correo, los códigos impresos en la cartera y los tres sitios que usa en la pantalla de inicio.
-
-*El técnico del barrio.* Le toca el peor escenario: el cliente que ya cayó y no quiere contar cómo. Su protocolo, aprendido a golpes: cerrar sesiones, cambiar claves, revisar el reenvío del correo y enseñar a entrar por el marcador. Nunca formatea por esto.
-
-*Lo que comparten los cuatro.* Ninguno compró nada, ninguno instaló un antivirus y ninguno necesitó saber programar. La diferencia entre ellos no fue la herramienta: fue el orden de los pasos y la costumbre de mirar la dirección antes de tocar.
+Hay un caso que no se arregla con estos pasos: cuando el intruso ya copió las conversaciones o los archivos. Ahí lo único honesto es avisar a las personas afectadas y cambiar de canal para lo delicado. Un mensaje privado que ya salió no se puede recuperar; la conversación siguiente sí se puede tener en otro sitio.
 
 ───────────────────
 
-*🏗️ Las seis variantes del enlace que llega*
+*🧭 Cuando el sitio no cae, cambia de dueño*
 
-No llegan todos con la misma cara. Hay un puñado de moldes que se repiten, y quien aprende a ver el molde se ahorra el resto del análisis.
+La otra forma del mismo problema no es el clon: es el sitio que siempre fue el bueno y un día cambia de manos. Dominio nuevo de alguien que no avisa, catálogo que se vuelve cobro, aplicación que aparece para «mejorar la lectura». El resultado se parece al del clon y la defensa también, con una diferencia: aquí no hay que buscar la copia, hay que mirar la fecha.
 
-*La primera: el acortador.* Una dirección corta que no dice a dónde va. Se ve inocente justamente porque no promete nada. Contra esta no hay criterio visual: la única salida es no abrir desde el chat y buscar el sitio por su nombre.
+Los cinco dominios medidos hoy son un buen ejemplo de vecindario que rota. Certificados emitidos entre el 19 de septiembre y el 26 de octubre, todos detrás de la misma red de protección, dos con contenido y tres sin él. Ese patrón no describe un sitio que crece: describe nombres que se van relevando mientras el contenido salta de uno a otro.
 
-*La segunda: el dominio con una letra cambiada.* La más clásica y la que más funciona, porque el ojo completa lo que espera ver. La barra de direcciones en el teléfono está recortada y en letra pequeña: ahí es donde se pierde la pelea.
+Para el usuario, la consecuencia práctica es que el marcador importa más que el buscador. Un marcador guardado apunta a un sitio concreto y no se renueva solo; cuando ese sitio se cae, uno se entera por el marcador o por el grupo, no por un resultado de buscador que puede llevar a cualquier parte. Guardar dos o tres marcadores de los sitios que se usan de verdad, y revisarlos de vez en cuando, cuesta menos que reconstruir una cuenta perdida.
 
-*La tercera: el subdominio engañoso.* El nombre conocido va delante y el dominio real detrás. Es el truco favorito porque a la vista parece el sitio de siempre.
+Un ejercicio que conviene hacer una vez al año: abrir el gestor de contraseñas y mirar la lista de sitios guardados. Los que ya no existen se borran, los que cambiaron de dominio se actualizan desde el marcador nuevo, y los que tienen la misma clave que otro se cambian ese mismo día. Media hora una vez al año hace más por la seguridad de una familia que cualquier aplicación comprada con prisa en una emergencia.
 
-*La cuarta: el «nuevo dominio oficial».* Un mensaje que avisa de que el sitio cambió de dirección. Los sitios cambian de dirección de verdad, sí, pero lo anuncian en su propio sitio y con redirección desde el viejo, no por un chat de un desconocido.
-
-*La quinta: el archivo adjunto.* Un APK con el nombre de una app conocida, o un PDF que «trae la lista de capítulos». Ningún capítulo necesita un archivo adjunto. Y un APK llegado por chat no tiene dueño verificable.
-
-*La sexta: el mensaje de un conocido con la cuenta ya robada.* El más difícil de todos, porque viene de alguien de confianza que mandó el enlace a todos sus contactos antes de enterarse. Contra esta variante no hay criterio que valga: hay costumbre de no abrir enlaces de lectura desde el chat.
-
-───────────────────
-
-*🧠 Lo que mira el que ataca*
-
-No hay un genio detrás de cada clon. Hay un proceso automático que busca lo fácil.
-
-*Su lista de la compra:* formularios rellenados a mano, claves repetidas entre sitios, cuentas sin segundo dato, correos de rescate abandonados y enlaces que se tocan sin leer la dirección.
-
-*No le importa:* tu modelo de teléfono, si tienes antivirus, si usas una VPN, si tu contraseña tiene símbolos raros. Nada de eso cambia su trabajo, porque no está adivinando: está recogiendo.
-
-*Lo que arruina su negocio:* que la contraseña robada no sirva en otro sitio. Un gestor con claves distintas por sitio y un doble paso en el correo convierten su lista en basura.
-
-*Lo que casi no hace daño:* cambiar una clave por una parecida. «Agosto2026» y «Agosto2027» son la misma clave para un programa que prueba variaciones, y eso lo resuelve en segundos.
-
-*Y lo que sí hace daño y nadie mide:* responder el correo del susto. Contestar «¿quién eres?» o pedir la baja confirma que la dirección existe y que alguien la lee. Ahí empieza el segundo intento, el que va dirigido a ti y ya no es automático.
-
-───────────────────
-
-*📮 El correo de recuperación, ese gran olvidado*
-
-Hay un detalle que decide si un robo se arregla en diez minutos o en tres días: dónde puede caer el correo de recuperación de tu cuenta.
-
-*El caso bueno.* Correo principal con doble paso y un correo de rescate que también es tuyo. Te tumban una cuenta secundaria y lo arreglas en minutos, sin llamar a nadie.
-
-*El caso malo.* Tu correo de rescate es una cuenta de 2018 que no abres nunca y sin segundo dato. El intruso entra por ahí y no necesita tu clave nueva: con la vieja le basta.
-
-*Qué hacer hoy, en cinco minutos.* Entra a la seguridad de tu correo principal y mira qué correo de recuperación tiene puesto. Si no lo reconoces o es viejo, cámbialo por uno que uses y que también tenga doble paso. Después mira el teléfono. Y activa el doble paso ahí primero, antes que en ninguna otra cuenta.
-
-───────────────────
-
-*🧒 Los niños y el enlace del juego*
-
-La mitad de los enlaces que circulan en los grupos de familia son de juegos, y ahí hay dos peligros que no son el clon clásico.
-
-*El generador de monedas.* Una página que pide tu usuario y clave del juego a cambio de monedas. No hay monedas: hay una caja que se queda con la cuenta y, de paso, con el correo que va pegado a ella.
-
-*El APK del juego con todo desbloqueado.* Un archivo que llegó por chat, con el nombre de un juego real. Aquí el peligro no es la clave: es el programa, y en un teléfono donde vive la cuenta de la casa puede hacer bastante más que el juego.
-
-*Lo que sirve.* Una frase que un niño entienda: «si te piden tu contraseña para darte algo gratis, te están quitando algo». Y el doble paso puesto, que convierte el error del niño en un aviso en tu teléfono.
-
-*Lo que no sirve.* Esconder el teléfono. El enlace va a llegar igual: por un amigo, por un video, por una publicidad de un juego que sí es real.
-
-───────────────────
-
-*🕵️ Un caso completo, hora por hora*
-
-Para que se vea todo junto, un caso de esta semana con los tiempos reales y lo que se hizo en cada minuto. No es un ejemplo inventado para que quede bonito: es el domingo de una familia que conozco.
-
-*Las 14:02.* Llega un enlace al grupo: el nombre conocido con una terminación distinta. Nadie lo mira, porque en el grupo se mandan diez cosas por hora.
-
-*Las 14:05.* La tía lo abre. El diseño es igual al de siempre. Hay un botón de «Continuar con Google» que antes no estaba. Lo toca sin pensarlo, porque es el botón más grande de la pantalla.
-
-*Las 14:06.* El sitio le muestra un error y la devuelve al inicio. Ella piensa que fue el internet. El clon ya tiene lo que quería: un permiso amarrado a su cuenta.
-
-*Las 14:20.* Yo veo el enlace. Lo primero es la dirección: guion en el nombre y terminación barata. El sitio original no tiene guion ni esa terminación, y lo sé porque lo tengo guardado en la pantalla de inicio desde hace meses.
-
-*Las 14:25.* Abro la seguridad de su cuenta de Google y busco la lista de aplicaciones conectadas. Ahí está: una aplicación con nombre genérico, autorizada hace veinte minutos. Fuera.
-
-*Las 14:30.* Cambio la contraseña desde la dirección oficial, escrita a mano, con una clave generada por el gestor. Activo el doble paso con app de códigos y guardo los diez códigos de recuperación en un papel.
-
-*Las 14:45.* Reviso las sesiones abiertas: dos aparatos reconocidos, ninguno extraño. Las cierro todas igual, porque una sesión que no reconoces es la puerta que se queda abierta cuando cambias la clave.
-
-*Las 15:00.* La contraseña estaba repetida en dos sitios más: el correo viejo y una tienda. Las cambio también.
-
-*Las 15:20.* Le dejo el sitio bueno en la pantalla de inicio con un nombre que reconoce y le enseño una sola regla: si no lo buscaste tú, no lo abres.
-
-*El balance.* Ochenta minutos y ningún dato perdido. Lo que habría cambiado el final no era una herramienta mejor: era tener el doble paso puesto antes. El botón de Google autorizó una aplicación, pero no dio la llave del correo; el código de seis cifras cortó el camino.
-
-*Y lo que casi sale mal.* Quiso «avisar a Google» respondiendo el correo del clon. Contestar confirma que la dirección existe y que alguien la lee.
-
-───────────────────
-
-*🧪 Mirar un enlace sin caer en él*
-
-Hay formas de revisar un enlace antes de abrirlo, y sirven sobre todo cuando te lo manda alguien que conoces.
-
-*El truco del texto.* Mantén pulsado el enlace en el chat. En la mayoría de las aplicaciones aparece la dirección real, no la que se ve en el texto. Es la comprobación más rápida que existe y no requiere instalar nada.
-
-*El truco de la barra.* Copia el enlace, pégalo en la barra de direcciones de un navegador con bloqueo y no pulses enter todavía: mira lo que has pegado. Si el dominio no es el que esperabas, borra. Parece obvio; casi nadie lo hace.
-
-*El truco de la miniatura.* Algunos chats generan una vista previa con el logo del sitio. Si la miniatura muestra un sitio conocido y la dirección muestra otro, ya tienes la respuesta sin abrir nada.
-
-*El truco del muro.* Si el sitio te pide cuenta antes de mostrar una sola línea de texto, no estás en un sitio de lectura: estás en un formulario. Cierra la pestaña y entra por el marcador.
-
-*El truco de preguntar.* Pregúntale a la persona que te lo mandó si lo abrió ella. Muchas veces el enlace salió de una cuenta ya robada y el que te lo mandó ni se enteró de que lo mandó.
-
-───────────────────
-
-*🔵 El botón de Google, por dentro*
-
-Muy poca gente sabe qué ocurre al tocar ese botón, y es la pieza que más rinde en un sitio falso. Se puede explicar en dos minutos y sin palabras raras.
-
-Cuando un sitio te ofrece «Continuar con Google», lo que hace es pedirle a Google que confirme quién eres. Google no le entrega tu contraseña: le entrega un permiso y unos datos básicos —tu nombre, tu correo, a veces tu foto—. Eso es más seguro que escribir la clave en un formulario, y por eso los sitios serios lo usan.
-
-*El problema.* Ese permiso se queda ahí. Cualquier aplicación que autorices puede seguir pidiendo datos mientras no lo revoques, y muchas veces el nombre que aparece en la lista es genérico: «Aplicación web», «Iniciar sesión», un nombre que no reconoces. Un clon no necesita tu contraseña si le diste el permiso.
-
-*Dónde se revisa.* En tu cuenta de Google, en la sección de seguridad, dentro de las aplicaciones y servicios conectados. Ahí está la lista completa y el botón para quitar cada una. Es una revisión de dos minutos que casi nadie hace y que sorprende a quien la hace por primera vez.
-
-*El coste de quitarlo.* Ninguno real: quitar el permiso no borra tu cuenta del sitio, solo corta el acceso. Si el sitio era legítimo, tendrás que volver a iniciar sesión la próxima vez. Eso es todo.
-
-*Para quedarse con una imagen.* Donde antes había una sola puerta y una sola cerradura, ahora hay dos: la del sitio y la del proveedor que confirma quién eres. La segunda no se ve, pero se abre igual, y casi nadie recuerda haberla abierto.
-
-───────────────────
-
-*👵 Cómo explicárselo a alguien mayor*
-
-Lo que veo con quien tiene sesenta años y más no es más caída que el resto, es otro cebo: enlaces que imitan a su banco. Y una carga de vergüenza que es justo lo que impide que cuenten lo ocurrido.
-
-*Lo primero es quitar la vergüenza.* «Esto le pasa a gente que trabaja en tecnología» cambia la conversación entera. Si alguien siente que lo van a regañar, se calla, y el problema crece sin testigos.
-
-*Lo segundo es una regla y no una charla.* Basta una: «si aparece un formulario pidiendo clave y tú no lo buscaste, me llamas antes de escribir». Sin dominios, sin certificados y sin clases de informática: una frase y un número de teléfono.
-
-*Lo tercero es dejarlo hecho.* Abrir el sitio bueno, guardarlo en la pantalla de inicio con un nombre claro y enseñar que se entra tocando ahí. Si el camino bueno es un toque, el camino malo deja de tener sentido.
-
-*Lo cuarto es el doble paso.* Activarlo con ellos, una vez, y guardar los códigos de recuperación en un papel que se quede en casa. Que no dependa de una aplicación que no entienden ni de un correo que no abren.
-
-*Lo quinto, y lo más importante.* Si cae, arreglarlo sin drama. Una tarde de cambios de clave vale mucho menos que una persona que deja de contarte las cosas por miedo al regaño.
-
-───────────────────
-
-*📈 Lo que se puede esperar en seis meses*
-
-Sin bola de cristal y sin promesas: lo que ya está pasando y hacia dónde va, con lo que se puede ver hoy.
-
-*Las llaves de acceso van a llegar a más cuentas normales.* Ya están en los teléfonos y en los sitios grandes; en seis meses estarán en más sitios hispanohablantes y el clon clásico dejará de tener premio donde estén activas. Lo que no cambia es el código dictado por teléfono: ese agujero es humano.
-
-*El APK fuera de tienda se va a poner más difícil.* La verificación de desarrolladores que empieza este año en varios países y se extiende en 2027 empuja a los que publican fuera de las tiendas a firmar y a identificarse. Para el que instala desde el repositorio del autor es buena noticia; para el que instala el APK que le llegó por chat, no cambia nada.
-
-*Los catálogos y los lectores van a seguir moviéndose.* Este año lo vimos con la familia Tachiyomi y sus forks: lo que ayer era el estante principal hoy es una alternativa. Mira la fecha del empujón antes que las estrellas.
-
-*El fraude por enlace no va a desaparecer.* Es barato y sigue funcionando. Lo que sí puede caer es su rentabilidad, y eso solo pasa cuando la contraseña robada deja de servir en otra parte. Es lo único que está en tus manos y no en las de nadie más.
-
-*Lo que no se puede prever, y se dice.* Qué sitio concreto va a ser clonado el mes que viene, y cuántas cuentas se van a robar en el país. No hay cifra pública fiable y no voy a inventar una para que la guía se vea más seria.
+Y hay una señal que se ve en el teléfono y no en la página: el aviso de que una aplicación pide permisos nuevos después de una actualización. Un lector que de repente pide acceso a los contactos o a las llamadas no está mejorando: está cambiando de negocio. Ese aviso se lee, y si algo no cuadra, se desinstala y se vuelve a la versión que funcionaba.
 
 ───────────────────
 
 *⚖️ La ley, sin sermón*
 
-Suplantar un sitio para quedarse con contraseñas ajenas es delito en casi todo el mundo hispanohablante, y sobre eso no hay debate. Lo que sí tiene matices es lo demás, y conviene saberlo sin dramatizar.
+Copiar una página con su logo para robar contraseñas es una figura que casi todos los países castigan, y con razón: no hay debate técnico que la justifique. La parte que a veces se olvida es que quien la usa también queda expuesto, y no solo por la cuenta perdida: los datos que se escribieron en ese formulario ya están en otra parte.
 
-*Si te robaron la cuenta.* En la República Dominicana, y en la mayoría de países de la región, eso entra en las figuras de acceso ilícito y de fraude informático. Denunciar sirve para dos cosas concretas: dejar constancia con fecha y, si hubo dinero de por medio, activar el camino del banco. Lo que no hace es devolverte la cuenta, y por eso el orden que importa es el de la sección anterior: cerrar, cambiar, expulsar.
+Sobre el contenido de estos sitios, esta guía no opina más de lo que mide. Un catálogo de lecturas que salta de dominio en dominio no se sostiene con permisos de nadie, y eso es un problema de quien lo publica. Lo que sí está al alcance de quien lee es no instalar paquetes que lleguen por esos mismos canales, porque ahí es donde se cruza la línea: del otro lado ya no hay lectores, hay alguien repartiendo paquetes.
 
-*Si la entregaste con tus propias manos.* Cuando el acceso se dio de forma voluntaria —aunque hubiera engaño de por medio— buena parte de la fuerza legal se cae. Es incómodo y conviene saberlo. Por eso lo que se persigue después es el uso: el fraude, la suplantación, el daño causado.
+Sobre las herramientas de este censo, la licencia dice lo que se puede hacer con el código. GPL-3.0 permite usarlo y modificarlo y obliga a publicar los cambios si se distribuye; Apache-2.0 y MIT son más permisivas; MPL-2.0 obliga solo con los archivos que se tocan. Nada de eso autoriza a tocar los datos de otra persona, que es de lo que trata esta guía.
 
-*Los datos personales que quedaron.* Correo y clave ya son dos datos tuyos en un cajón que no controlas. Puedes reclamar en varios países, y en la práctica el local cierra antes de que llegue la respuesta. De ahí sale una costumbre útil: dar lo mínimo, y nunca dos veces lo mismo.
-
-*Y lo que no es delito.* Leer en un sitio que no es el oficial no es delito. Esta guía no va a decirte que estás delinquiendo por leer: va a decirte que no entregues la llave. Son dos cosas distintas y mezclarlas solo confunde a quien necesita ayuda.
+Y hay una regla que no es ley y funciona: si un sitio pide instalar algo para poder seguir, se cierra. No hay servicio legítimo que dependa de un paquete repartido por su propia página. Cuando eso aparece, ya no se trata de un clon: se trata del paso siguiente.
 
 ───────────────────
 
 *❓ Preguntas que me hacen*
 
-**¿Cómo sé si el sitio donde leo es un clon?**
+**¿Cómo sé si el sitio donde entré era un clon?** Por tres cosas que se miran al mismo tiempo: la dirección exacta, el certificado y el camino por el que llegó el enlace. Si la dirección no es la de siempre, ya está. Si el certificado se emitió hace tres semanas para un sitio que existe desde hace años, hay motivo para dudar. Y si el enlace llegó sin haberlo pedido, no hay nada más que mirar: se cierra.
 
-Compara la dirección con la que usabas antes, letra por letra. Mira si te pide cuenta para algo que antes no la pedía, y si el botón grande es de Google o de Facebook. Tres señales juntas ya son suficientes para cerrar.
+**Me equivoqué y escribí la contraseña, ¿qué hago primero?** Cambiarla desde el sitio verdadero y, en la misma sesión, cerrar todas las sesiones abiertas. Ese segundo paso es el que casi nadie hace y el que expulsa al otro. Después se revisa qué dispositivos quedaron vinculados y se cambia la misma clave donde se repitió.
 
-**¿Y si el diseño es idéntico al original?**
+**¿El candado de la barra no sirve de nada?** Sirve para una cosa: confirma que la conexión va cifrada hasta el servidor que sea. No confirma que el servidor sea el bueno. Un clon consigue un certificado gratis en cinco minutos, así que el candado es la señal más débil de todas y la más citada.
 
-Puede serlo: copiar un diseño es cuestión de minutos. Por eso el dominio manda y las contraseñas distintas son la defensa de verdad. El diseño no prueba nada.
+**¿Por qué los cinco dominios que medí hoy tienen certificados tan nuevos?** Porque los dominios se emitieron o se reemitieron hace poco: el más antiguo es del 19 de septiembre y el más reciente del 26 de octubre. Eso no prueba nada por sí solo, y en un vecindario que rota de nombre es lo esperable. Un certificado nuevo en un sitio viejo es una cosa; un certificado nuevo en un sitio que nadie conocía la semana pasada es otra.
 
-**¿El candado del navegador significa que el sitio es seguro?**
+**¿Qué significa el error 522 que da uno de ellos?** Que la red de protección no pudo hablar con el servidor de detrás. El dominio existe y el certificado está vigente, pero el contenido no está: la página se queda cargando hasta que el navegador se rinde. En la práctica es lo mismo que un sitio caído, con la diferencia de que el nombre sigue vivo.
 
-Significa que la conexión va cifrada. Cualquiera consigue un certificado gratis hoy mismo. El candado protege el camino; no dice quién está al otro lado.
+**¿Y si el sitio funciona bien pero pide instalar una aplicación para leer?** Se cierra. No hay servicio legítimo que dependa de un paquete repartido por su propia página, y menos uno que cambia de dominio cada mes. Ahí ya no se trata de un clon de la pantalla, sino del paso siguiente del mismo engaño.
 
-**¿Qué pasa si inicié sesión con Google en un clon?**
+**¿Los gestores de contraseñas no son un riesgo ellos mismos?** Lo son si se usan mal: base sin contraseña maestra fuerte, respaldo en un sitio público, o el archivo sincronizado en un servicio que no se controla. Bien usados, el riesgo es mucho menor que repetir la misma clave en veinte sitios. KeePassDX y KeePass2Android guardan en archivo local; Bitwarden sincroniza, y por eso conviene mirar dónde.
 
-Le diste permiso a una aplicación que no es la que crees. Entra a la configuración de seguridad de tu cuenta de Google, busca las aplicaciones con acceso y quita la que no reconozcas. Cambia la contraseña si el clon también te la pidió por formulario.
+**¿Sirve la verificación por mensaje de texto?** Sirve y es mejor que nada, pero es la más débil de las opciones. Un código por mensaje se puede interceptar y se puede pedir por teléfono con una historia convincente. Una aplicación de códigos en el propio teléfono, como Aegis o 2FAS, quita esa vía.
 
-**¿Tengo que cambiar todas mis contraseñas?**
+**¿Cada cuánto hay que revisar las sesiones abiertas?** Una vez al mes alcanza, y conviene hacerlo el mismo día que se cambia la contraseña más importante. La pantalla tarda dos minutos y muestra cosas que uno no recuerda haber autorizado, que es exactamente el motivo para mirarla.
 
-Solo las que fueran iguales a la que escribiste en el clon. Si usabas una distinta por sitio, no hay nada que cambiar. Y ese es el argumento entero de esta guía.
+**¿Un DNS con filtros reemplaza al bloqueador del navegador?** No, se complementan. El DNS corta el dominio antes de que el navegador llegue, y funciona también en aplicaciones que no son navegador. El bloqueador trabaja dentro de la página y ataja lo que ya pasó el filtro. Con los dos puestos, la mitad de los enlaces basura no llega a abrirse.
 
-**¿Puedo leer sin crearme cuenta?**
+**¿Puedo saber si mi teléfono estuvo comprometido?** Se puede intentar, y no es un botón: MVT es una herramienta de revisión forense que mira rastros concretos y requiere conectarse por cable y seguir un procedimiento. No es para todos los días y no promete respuestas en dos minutos. Para el caso común —una contraseña entregada— el camino son los pasos de recuperación, no el análisis forense.
 
-En la mayoría de los sitios, sí. Si un sitio insiste en la cuenta para lo básico, pregúntate qué está cobrando con eso. Y si de verdad la necesitas, que sea con un correo aparte y una clave que no uses en ninguna otra parte.
-
-**¿Vale la pena un gestor si solo tengo tres cuentas importantes?**
-
-Vale más, no menos: con tres cuentas importantes y una sola clave repetida, un clon te tumba las tres de una vez. Un gestor gratuito y local como KeePassDX cuesta cero y no depende de nadie.
-
-**¿El doble paso por mensaje de texto sirve?**
-
-Sirve, y es infinitamente mejor que nada, aunque el mensaje se pueda interceptar. Si el sitio te ofrece app de códigos o llave de acceso, escoge eso; si lo único que hay es SMS, actívalo sin dudar.
-
-**¿Las llaves de acceso son el futuro o una moda?**
-
-Son el presente en los sitios grandes. No se pueden copiar ni escribir en un formulario ajeno, que es exactamente lo que un clon necesita. Cuando un sitio que usas las ofrezca, actívala.
-
-**¿Cómo aviso a mi familia sin asustarla?**
-
-Con una frase: «si un enlace te pide la contraseña de Google para leer un cómic, no es el sitio». Y con el hábito de llegar por el marcador.
-
-**¿Esto aplica también a las aplicaciones?**
-
-Sí, y es la peor de todas: un archivo con el nombre de una app conocida que te pide iniciar sesión al abrir. Ahí no hay diseño que valga: se instala desde la bóveda del autor o desde una tienda que firme, nunca desde una página que dice ser el autor.
+**¿Y si el que cambió fui yo y ahora no reconozco el sitio?** Entonces el problema no es un clon sino una migración: el sitio de siempre se mudó, o lo vendieron, o cambió de condiciones. Se aplica la misma regla, con otro orden: primero se comprueba desde el marcador viejo, después se mira qué pide el nuevo y al final se decide si vale la pena seguir. Lo que no conviene es reinstalar cosas a la carrera para «volver a como estaba».
 
 ───────────────────
 
-*🧊 Mitos que se caen solos*
+*📊 Tabla, mitos y glosario*
 
-*«Los clones son fáciles de ver»*. Los buenos no. Cambian una letra y copian el diseño entero: si fuera fácil, no habría miles de cuentas robadas cada semana.
+*Los cinco espejos, con lo que contestó cada uno esta mañana*
 
-*«Con antivirus voy tranquilo»*. El antivirus vigila archivos y programas. Una caja de texto que copia lo que escribes no es un programa: es una página, y ahí no entra ningún antivirus.
+| Dominio | Respuesta de hoy | Tiempo | Certificado emitido | Entrega contenido |
+|---|---|---|---|---|
+| tmohentai.app | 403 · desafío | 0,12 s | 03-oct-2026 (Let's Encrypt) | no |
+| zonatmo.to/home | 301 → `/home/` y 200 | 0,29 s | 09-oct-2026 (Google TS) | sí, con relleno invisible |
+| zonatmo.org | 403 · desafío | 0,06 s | 19-sep-2026 (Let's Encrypt) | no |
+| tmomanhwa.com | 200 · 113.286 bytes | 0,81 s | 22-oct-2026 (Google TS) | sí, catálogo con fechas |
+| lectortmo.vip | 522 · origen caído | 19,5 s | 26-oct-2026 (Let's Encrypt) | no |
 
-*«Mi clave es larguísima, no la sacan»*. Larga o corta, si la escribes donde no debes, la entregas tú. La longitud protege del que prueba combinaciones; no protege del que pone un formulario delante de ti.
+*Las diecisiete herramientas, en una línea cada una*
 
-*«Si el sitio tiene HTTPS, es serio»*. El cifrado es gratis y un clon lo tiene el primer día. Lo que dice el candado es que nadie escucha el camino, no quién está al final.
+| Proyecto | Para qué | Licencia | Empujón | Estrellas |
+|---|---|---|---|---|
+| uBlock Origin | bloquear anuncios y dominios falsos | GPL-3.0 | 30-oct | ★68.996 |
+| Tailscale | red privada entre tus aparatos | BSD-3-Clause | 31-oct | ★38.466 |
+| AdGuard Home | filtro DNS en servidor propio | GPL-3.0 | 30-oct | ★38.033 |
+| Signal | mensajería cifrada | AGPL-3.0 | 30-oct | ★29.565 |
+| Obtainium | actualizar desde la forja del autor | GPL-3.0 | hoy | ★21.115 |
+| MVT | revisión forense del teléfono | NOASSERTION | 29-oct | ★15.667 |
+| Aegis | códigos de dos pasos en el teléfono | GPL-3.0 | 06-sep | ★13.443 |
+| Bitwarden | gestor de contraseñas con sincronía | GPL-3.0 | hoy | ★9.570 |
+| Cromite | navegador con bloqueo | GPL-3.0 | hoy | ★8.455 |
+| KeePassDX | gestor con base local | GPL-3.0 | hoy | ★7.581 |
+| KeePass2Android | el mismo formato, otro cliente | GPL-3.0 | 29-oct | ★6.351 |
+| Rethink | cortafuegos por aplicación | Apache-2.0 | 26-oct | ★5.828 |
+| NextDNS | filtro DNS en el teléfono | MIT | 31-oct | ★4.237 |
+| Firefox Android | navegador de Mozilla | MPL-2.0 | 17-jun-2024 | ★1.842 |
+| 2FAS | códigos de dos pasos | GPL-3.0 | 31-oct | ★1.562 |
+| Threema | mensajería con identidad propia | AGPL-3.0 | 23-sep | ★1.003 |
+| Mull | navegador endurecido | AGPL-3.0 (ficha) y MIT (README) | 10-dic-2024 | ★592 |
 
-*«Solo roban cuentas de banco»*. Roban lo que haya: correo, redes, juegos, suscripciones. El correo es el premio gordo, porque desde ahí se recupera casi todo lo demás.
+*Cinco mitos que conviene enterrar*
 
-*«A mí no me pasa porque no soy famoso»*. Los ataques son automáticos y no eligen personas: eligen formularios. Cualquiera que llegue al enlace equivocado entra en la lista, y el anonimato no protege a nadie.
+**Mito uno: «si tiene candado, es seguro».** El candado dice que la conexión va cifrada, no a quién. Un clon lo consigue gratis y en minutos, y de hecho los cinco dominios medidos hoy tienen certificado válido, incluidos los tres que no entregan nada.
 
-───────────────────
+**Mito dos: «los clones se ven mal».** Los que se ven mal son los que no importan. Un clon que funciona copia la pantalla en una tarde y se ve igual que el original, porque de hecho es la misma página con otro destino en el formulario.
 
-*📊 La tabla de las decisiones*
+**Mito tres: «cambiar la contraseña es suficiente».** Sin cerrar las sesiones abiertas, el intruso sigue adentro con la llave vieja. La contraseña cierra la puerta; cerrar sesiones lo saca de la casa.
 
-Para el que quiere ver el coste real antes de mover un dedo.
+**Mito cuatro: «el mensaje de texto para el código es seguro».** Es mejor que nada y peor que una aplicación de códigos. Se puede interceptar, se puede pedir por teléfono con una historia, y a veces el número se recicla en otra línea.
 
-```
-Lo que tengo…                     | Lo que hago hoy                    | Lo que me cuesta
-----------------------------------|------------------------------------|----------------------
-Una sola clave para todo          | gestor (KeePassDX ★7.581)          | una tarde de altas
-Correo sin doble paso             | Aegis ★13.443 + códigos impresos   | 20 minutos
-Enlace raro en el grupo           | abrir por marcador, no por chat    | 30 segundos
-Ya escribí la clave en un clon    | cambiar clave + cerrar sesiones    | 15 minutos
-Sitio nuevo que pide cuenta       | prueba con correo inventado        | 1 minuto
-Casa entera con bloqueo           | AdGuard Home ★38.032 o Rethink ★5.828 | 1 hora
-```
+**Mito cinco: «una VPN arregla esto».** Una VPN cambia por dónde sale el tráfico, no a dónde va. Si la dirección es la de un clon, la VPN solo hace que el clon reciba el formulario desde otra parte. Lo que filtra dominios es un DNS con listas, no una VPN por sí sola.
 
-*Cómo se lee.* La columna de la derecha es el precio real, y casi siempre es menos de lo que la gente imagina. El orden importa: primero el doble paso en el correo y el gestor, después todo lo demás.
+*Glosario de bolsillo*
 
-───────────────────
+**Clon** — copia de la pantalla de un sitio en otra dirección, hecha para recibir lo que la persona escribe.
 
-*📋 Las diez señales, para copiar y reenviar*
+**Certificado** — documento que presenta el servidor para cifrar la conexión. Dice quién lo emitió y hasta cuándo vale; no dice que el sitio sea de fiar.
 
-Si solo te llevas un bloque de esta guía, que sea este. Sirve para mandarlo tal cual al grupo de la familia.
+**403** — respuesta de un servidor que se niega a entregar el contenido. En estos casos suele ser un desafío automático, no un error del sitio.
 
-```
-01 · la dirección trae guion, letra de más o final que no es el de siempre
-02 · aparece un formulario donde antes se leía sin dar nada
-03 · el botón más grande de la pantalla es de un proveedor social
-04 · hay prisa, cuenta atrás o amenaza de cierre de cuenta
-05 · pide instalar algo para poder seguir en el navegador
-06 · el pie de página quedó en un año que ya pasó
-07 · el correo de bienvenida sale de un dominio distinto al del sitio
-08 · acepta un correo inventado como si fuera tuyo
-09 · vuelve a pedir la clave diciendo que es «verificación»
-10 · llegó por chat y no lo buscaste tú
-```
+**522** — respuesta de la red de protección cuando el servidor de detrás no contesta. El nombre existe y el contenido no.
 
-*Cómo se usa.* No hace falta que se cumplan todas. Con dos, cierras. Con una, dudas y entras por el marcador. Y si es un enlace de un familiar, se lo reenvías con la frase corta: «no lo abras, no es el sitio».
+**Sesión abierta** — autorización que queda guardada en un aparato después de entrar. Cambiar la contraseña no la borra.
 
-───────────────────
+**Semilla** — el dato con el que se generan los códigos de dos pasos. Se respalda fuera del teléfono o se pierde el acceso.
 
-*🧭 Diez minutos esta tarde*
+**DNS** — el servicio que traduce nombres a direcciones. Filtrar ahí corta el dominio antes de que el navegador llegue.
 
-Un plan concreto, sin comprar nada y sin instalar nada raro.
+**Espejo** — dominio que sirve el mismo contenido que otro. Cuando rota de nombre cada mes, no es una fuente estable.
 
-*Minuto 1.* Abre la seguridad de tu correo principal y mira si tiene doble paso. Solo mirar.
+**Suplantación** — hacerse pasar por un sitio, una aplicación o una persona para obtener datos.
 
-*Minutos 2 y 3.* Si no lo tiene, actívalo con una app de códigos. Imprime o escribe a mano los diez códigos de recuperación y guárdalos en la cartera. Ese papel vale más que cualquier antivirus.
-
-*Minutos 4 y 5.* Mira cuál es tu correo de recuperación y cuál es el teléfono de recuperación. Si alguno es viejo, cámbialo hoy, que es cuando cuesta dos minutos.
-
-*Minutos 6 y 7.* Instala un gestor y mete ahí las tres cuentas que de verdad te importan. No hace falta migrar cuatrocientas: empieza por las tres, y el resto cae solo en las semanas siguientes.
-
-*Minutos 8 y 9.* Guarda en la pantalla de inicio los dos o tres sitios que más visitas. A partir de hoy se entra por ahí y no por enlace.
-
-*Minuto 10.* Escribe una nota para ti: «no inicio sesión en un sitio al que llegué por un enlace». Suena tonto escrito. También suena tonto el cinturón de seguridad, y salva más vidas que cualquier otra cosa.
+**Filtrado por lista** — técnica de bloquear direcciones conocidas por malas. Funciona con lo que ya está en la lista, no con lo que aparece hoy.
 
 ───────────────────
 
-*🧾 Lo que aquí no se afirma*
+*🔗 Enlaces y notas del corte*
 
-Nadie detecta todos los clones. No hay ocurrencia que cubra un molde nuevo, y quien asegure lo contrario está vendiendo la sensación de seguridad, que es lo que la gente compra cuando tiene miedo.
+Las diecisiete direcciones de abajo se abrieron esta mañana. Los cinco dominios del censo no van como enlace: se citan por su nombre en la tabla y se explica por qué.
 
-No se afirma que un antivirus resuelva esto. El daño no entra por un archivo: entra por un formulario rellenado a mano por ti.
+*Mensajería y cuentas*
 
-No se afirma que todo sitio nuevo sea un clon. Los sitios nuevos existen y algunos son buenos; lo que se afirma es que un sitio nuevo no merece la contraseña de siempre.
+- Signal: https://github.com/signalapp/Signal-Android
+- Threema: https://github.com/threema-ch/threema-android
 
-No se afirma que un lector con extensiones sea seguro por sí mismo. Es una vía sin cuentas, que es distinto: elimina el formulario, no la responsabilidad.
+*Llaves y códigos*
 
-No se afirma que estas diecisiete herramientas sean las únicas ni las definitivas. Son las que medí hoy, con su fecha y su licencia, y mañana se vuelven a mirar.
+- Bitwarden: https://github.com/bitwarden/android
+- KeePassDX: https://github.com/Kunzisoft/KeePassDX
+- KeePass2Android: https://github.com/PhilippC/keepass2android
+- Aegis: https://github.com/beemdevelopment/Aegis
+- 2FAS: https://github.com/twofas/2fas-android
 
-───────────────────
+*Navegador y red*
 
-*📖 Glosario*
+- uBlock Origin: https://github.com/gorhill/uBlock
+- Cromite: https://github.com/uazo/cromite
+- Firefox para Android: https://github.com/mozilla-mobile/firefox-android
+- Mull: https://github.com/divested-mobile/mull-fenix
+- NextDNS: https://github.com/nextdns/nextdns
+- AdGuard Home: https://github.com/AdguardTeam/AdGuardHome
+- Rethink: https://github.com/celzero/rethink-app
+- Tailscale: https://github.com/tailscale/tailscale
 
-• *Clon* — sitio que copia la cara de otro para quedarse con lo que escribes.
-• *Dominio* — la dirección real del sitio, la que manda por encima del diseño.
-• *Suplantación* — hacerse pasar por otro sitio o por otra persona.
-• *Relleno de credenciales* — probar automáticamente correos y claves robadas en muchos sitios.
-• *Doble paso* — segundo dato además de la contraseña: un código, una llave o una confirmación.
-• *Llave de acceso* — credencial que vive en el teléfono y no se puede escribir ni copiar.
-• *Bóveda* — el archivo cifrado del gestor. Sin copia, es un problema esperando a pasar.
-• *Códigos de recuperación* — diez claves de un solo uso que da el sitio al activar el doble paso.
-• *Acortador* — servicio que esconde la dirección de destino detrás de una corta.
-• *Phishing* — el nombre inglés del engaño por enlace. Se pronuncia «fishing» y significa pescar.
-• *Sesión abierta* — el estado en que tu cuenta ya está dentro sin pedir clave otra vez.
-• *Regla de reenvío* — una orden que deja el correo para mandar copia de todo a otra dirección.
+*Comprobación e instalación*
 
-───────────────────
+- MVT: https://github.com/mvt-project/mvt
+- Obtainium: https://github.com/ImranR98/Obtainium
 
-*🔗 Enlaces*
+*Por qué los cinco dominios no van enlazados.* Esta guía denuncia un mecanismo y no reparte el camino hacia él. Los cinco nombres están en la tabla con su respuesta, su certificado y su tiempo de espera, que es lo que sirve para reconocerlos; un enlace, en cambio, es un atajo para escribir una contraseña en el sitio equivocado. Si alguien quiere comprobarlos, que los teclee sabiendo lo que hace.
 
-Todo lo que se nombra en esta guía, con su dirección completa.
+*Cómo se midió esto, para que se pueda repetir.* Cada dominio se leyó tres veces y con tres métodos que no se parecen entre sí: primero una petición directa sin seguir redirecciones, anotando código, tamaño, tiempo e IP; después la consulta al certificado del servidor, con su emisor y sus fechas; y al final la lectura de la página tal como llega a una persona, buscando títulos, capítulos, fechas y patrones de enlace. Las tres lecturas se hicieron en orden rotado entre dominio y dominio, de modo que ninguna pasada repitió la secuencia anterior. Los diecisiete repositorios se midieron igual: buscador, página y archivo crudo, alternando el orden.
 
-*Bóvedas y cerraduras*
-
-- KeePass2Android, el puente para quien ya guarda claves en la PC: https://github.com/PhilippC/keepass2android
-- KeePassDX, la bóveda que vive solo en el aparato: https://github.com/Kunzisoft/KeePassDX
-- Bitwarden para Android, la bóveda con servidor propio: https://github.com/bitwarden/android
-- Aegis, los seis dígitos que cambian cada treinta segundos: https://github.com/beemdevelopment/Aegis
-- 2FAS, la misma idea con copia de respaldo: https://github.com/twofas/2fas-android
-
-*Navegador y bloqueo*
-
-- Cromite, navegador con bloqueo de serie: https://github.com/uazo/cromite
-- uBlock Origin, la lista de bloqueo de siempre: https://github.com/gorhill/uBlock
-- Mull, el navegador de Divested: https://github.com/divested-mobile/mull-fenix
-- Firefox para Android, donde vive su código actual: https://github.com/mozilla-mobile/firefox-android
-
-*La red de la casa*
-
-- NextDNS, el filtro que se pone una vez en el router: https://github.com/nextdns/nextdns
-- AdGuard Home, el silencio para todos los aparatos de la casa: https://github.com/AdguardTeam/AdGuardHome
-- Rethink, el que decide qué app sale a internet: https://github.com/celzero/rethink-app
-- Tailscale, la puerta a tu red sin abrir puertos: https://github.com/tailscale/tailscale
-
-*Mensajes, revisión y puerta de las apps*
-
-- Signal para Android: https://github.com/signalapp/Signal-Android
-- Threema para Android: https://github.com/threema-ch/threema-android
-- MVT, el que busca rastros en el teléfono: https://github.com/mvt-project/mvt
-- Obtainium, para bajar directo del autor: https://github.com/ImranR98/Obtainium
+*Lo que no se pudo medir.* Dos de los cinco dominios no entregaron ni una letra de contenido, así que de ellos se publica el borde y no el interior. Y tres de las diecisiete fichas no traen release publicada en su repositorio: se dice «sin release publicada» en vez de rellenar con una fecha aproximada, porque un hueco declarado sirve y un dato inventado no.
 
 ───────────────────
 
-*🃏 El meme del corte*
+*🌅 Cierre — la dirección que se lee antes de escribir*
 
-> —Le entregué la clave al sitio aquel.
-> —¿Y era el sitio de siempre?
-> —Tenía una letra de más, pero el logo estaba igual.
+Lo que deja este recorrido, en plata: el enlace no era el sitio, y el sitio se veía igual. La defensa no es una aplicación milagrosa ni un antivirus: es leer la dirección completa, no entrar por lo que llegó sin pedirlo y tener la contraseña guardada en un sitio del que uno se acuerda.
 
-───────────────────
+El hallazgo del día tiene números: cinco dominios del mismo vecindario, medidos uno por uno, con certificados emitidos entre el 19 de septiembre y el 26 de octubre, todos detrás de la misma red de protección, y solo dos entregando catálogo. El más rápido en contestar fue el que no entrega nada —0,06 segundos para decir que no— y el que más tardó fue el que ni siquiera tiene servidor detrás.
 
-*🌅 Cierre — la puerta y la calle*
+El otro hallazgo es de costumbre: doce de las diecisiete herramientas se movieron en los últimos seis días, mientras dos navegadores del mismo árbol llevan 867 y 691 días sin un empujón. En seguridad, la pregunta no es cuál es más famosa sino cuál se sigue tocando esta semana.
 
-Lo que esta guía enseña, en plata: el clon copia la puerta, no la calle. El diseño se puede duplicar en una tarde y no dice nada; la dirección sí, y es lo que nadie mira en una pantalla de teléfono.
+> —¿Y si el que me mandó el enlace es de confianza?
+> —Entonces abres el marcador y entras por ahí; la confianza en la persona no arregla la dirección.
 
-Pero mirar la dirección no alcanza, porque hay días de prisa y enlaces de gente querida. Lo que alcanza es lo otro: que la llave que entregaste no abra nada más. Una clave distinta por sitio, guardada en un gestor, y un doble paso en el correo convierten un robo en un intento fallido y sin premio.
+💓 *La Bandita informa a partir de fuentes fechadas.* Un clon no se delata por su cara: se delata por su dirección.
 
-Y si ya cayó, el orden no se salta: cambiar desde la dirección oficial, cerrar todas las sesiones, quitar los permisos del botón social, revisar el reenvío y avisar sin vergüenza a quien recibió el enlace.
+*Medición del corte:* domingo 1 de noviembre de 2026, entre las 09:40 y las 10:12 de Santo Domingo · cinco dominios leídos tres veces cada uno con tres métodos distintos (protocolo, certificado y página) · diecisiete repositorios medidos tres veces con el orden de las lecturas rotado · tres fichas sin release publicada se dicen como tales · dos dominios sin contenido se publican por su borde, no por dentro.
 
-> —¿Y si mañana me vuelve a llegar el enlace?
-> —Mañana no lo abres. Ya sabes por dónde se entra.
-
-💓 *La Bandita informa a partir de fuentes fechadas.* La llave no es el problema; el problema fue poner la misma en cada cerradura del barrio.
-
-*Medición del corte:* domingo 1 de noviembre de 2026, entre las 06:15 y las 09:10 de Santo Domingo · 17 repositorios medidos uno por uno contra la API autenticada de GitHub · los enlaces de esta guía, abiertos con su respuesta anotada · lo que no se midió está dicho arriba como no medido.
-
-*Licencia:* los datos de este censo van con CC BY 4.0; el texto, con CC BY-SA 4.0; el código, con MIT. La marca y el nombre de la casa quedan reservados: «Alexis (La Bandita)».
+*Licencia:* el texto va con CC BY-SA 4.0, los datos con CC BY 4.0 y el código con MIT; el nombre de la casa y su marca quedan en manos de «Alexis (La Bandita)».
 
 ## 🗒️ Notas del corte
 
-**Nota de corte (1-nov):** cada ficha de este censo se leyó el mismo domingo por la mañana; donde no apareció release publicada, la ficha lo dice con esas palabras y no se rellena el hueco con una fecha aproximada. Consultar con credencial propia multiplica el cupo de la API pública y es lo que permitió cerrar diecisiete repos sin esperar turnos.
+**Nota de corte (1-nov):** las respuestas de los cinco dominios son de esta mañana, con hora, y no de una lista guardada. Cuando un dominio contesta un desafío o devuelve 522, se escribe el código y lo que significa, sin traducirlo a «está caído» ni a «funciona».
 
-**Nota de alcance (1-nov):** esta guía no enseña a montar un clon ni nombra un solo dominio de suplantación. Explica el mecanismo para reconocerlo y da cada herramienta con su repositorio, para que nadie tenga que buscarla en un resultado de buscador.
+**Nota de método (1-nov):** las tres lecturas de cada dominio se hicieron en orden rotado y con tres métodos que no comparten fuente: petición directa, certificado del servidor y página renderizada. Ningún dato de esta pieza sale de una sola de las tres.
 
-**Nota de corrección (1-nov):** el censo incluye a propósito un navegador sin release anotada y uno cuyo desarrollo se mudó de repositorio, porque un censo que solo cuenta lo que brilla no avisa de lo que ya no se toca. Las rutas que devolvieron 404 durante la medición no se citan en ninguna parte de este texto.
+**Nota de límite (1-nov):** esta guía no reparte el camino hacia los sitios que denuncia. Los cinco nombres aparecen por su respuesta y su certificado, no como enlace, y no se publica ni un paquete que llegue por esos canales.
+
+**Nota de sucesión (1-nov):** dos navegadores del censo llevan más de dos años sin empujón, y se publican con esa fecha a la vista. No se recomiendan ni se retiran: se mide lo que hay, y el lector decide con el dato delante.

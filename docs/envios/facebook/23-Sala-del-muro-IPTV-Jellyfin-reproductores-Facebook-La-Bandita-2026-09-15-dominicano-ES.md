@@ -89,9 +89,9 @@ La noticia fresca es de **luqmanfadlli/NuvioMobile-Enhanced**: release 0.6.5-bet
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• damontecres/Wholphin — ★3.208 (+19) · empujó en las últimas horas · GPL-2.0 · última release v1.0.9 (11-oct-2026)
+• damontecres/Wholphin — ★3.210 (+21) · empujó en las últimas horas · GPL-2.0 · última release v1.0.9 (11-oct-2026)
 • Riteshp2001/mpvRx — ★868 (+9) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
-• luqmanfadlli/NuvioMobile-Enhanced — ★719 (+17) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (30-oct-2026)
+• luqmanfadlli/NuvioMobile-Enhanced — ★721 (+19) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (30-oct-2026)
 • ahXN00/OwnTV — ★711 (+11) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v5.2.1 (21-oct-2026)
 • varunsalian/debrify — ★636 (+4) · empujó en las últimas horas · AGPL-3.0 · última release v0.10.0-beta.1 (25-sep-2026)
 • mjlanddev/CornCastle-Anime-APP — ★79 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (71 días) · sin licencia detectada por la API · *ARCHIVADO*

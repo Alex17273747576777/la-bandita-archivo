@@ -1123,14 +1123,14 @@ REV|386.19★ — srevres/locotorptxetnocledom=1|REV|TIM=2|REV|03-01-6202 — na
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• modelcontextprotocol/servers — ★91.730 (+49) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
+• modelcontextprotocol/servers — ★91.732 (+51) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
 • ChatGPTNextWeb/NextChat — ★88.933 (+15) · empujó el 20-oct-2026 (hace 12 días) · MIT · última release v2.16.1 (29-jul-2025)
-• Ebony-Vinyl/dsh-our-free-model — ★55.260 (+4317) · empujó en las últimas horas · MIT · última release v2.8.0-macos-unofficial (1-nov-2026)
-• moeru-ai/airi — ★50.980 (+90) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
-• janhq/jan — ★45.212 (+59) · empujó en las últimas horas · NOASSERTION · última release v0.8.8 (28-oct-2026)
-• xai-org/grok-build — ★27.645 (+43) · empujó el 29-sep-2026 (hace 33 días) · Apache-2.0
-• yetone/magpie — ★27.348 (+1926) · empujó en las últimas horas · MIT · última release v0.1.2606 (1-nov-2026)
-• browser-use/jev-ultrafast — ★24.014 (+121) · empujó en las últimas horas · MIT
+• Ebony-Vinyl/dsh-our-free-model — ★55.418 (+4475) · empujó en las últimas horas · MIT · última release v2.8.0-macos-unofficial (1-nov-2026)
+• moeru-ai/airi — ★50.981 (+91) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
+• janhq/jan — ★45.215 (+62) · empujó en las últimas horas · NOASSERTION · última release v0.8.8 (28-oct-2026)
+• xai-org/grok-build — ★27.646 (+44) · empujó el 29-sep-2026 (hace 33 días) · Apache-2.0
+• yetone/magpie — ★27.403 (+1981) · empujó en las últimas horas · MIT · última release v0.1.2616 (1-nov-2026)
+• browser-use/jev-ultrafast — ★24.018 (+125) · empujó en las últimas horas · MIT
 • modelcontextprotocol/modelcontextprotocol — ★9.580 (+18) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

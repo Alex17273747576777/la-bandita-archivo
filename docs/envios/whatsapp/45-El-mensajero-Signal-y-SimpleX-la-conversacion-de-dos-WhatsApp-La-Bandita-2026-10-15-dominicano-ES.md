@@ -69,14 +69,14 @@ REV|)82-01-6202( 1.601.0v — langisbil/ppalangis=1|REV|92-01-6202 — diordnA-l
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 769 caracteres ═══
+═══ MENSAJE 3 de 4 · 801 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 45*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• signalapp/Signal-Android — ★29.565 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
-• simplex-chat/simplex-chat — ★19.619 (+6) · empujó en las últimas horas · AGPL-3.0 · última release v7.0.3 (26-sep-2026)
+• signalapp/Signal-Android — ★29.565 (+12) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release v8.33.2 (26-oct-2026)
+• simplex-chat/simplex-chat — ★19.620 (+7) · empujó en las últimas horas · AGPL-3.0 · última release v7.0.3 (26-sep-2026)
 • signalapp/Signal-Server — ★10.763 (+6) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0
 • signalapp/libsignal — ★6.108 (+10) · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v0.106.1 (28-oct-2026)
 

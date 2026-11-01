@@ -6,15 +6,15 @@
 - **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3667 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 745 caracteres ═══
+═══ MENSAJE 1 de 17 · 746 caracteres ═══
 
 *El árbol vecino: los lectores que nunca heredaron nada*
 
 La Bandita · pieza 07 · guía del 1-nov-2026 · te la mando hoy en 17 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *21 repositorios, 17 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *21 repositorios, 21 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 8 · Apache-2.0 4 · MIT 2 · sin licencia 2.
+Licencias de lo que recomienda: GPL-3.0 12 · Apache-2.0 4 · MIT 2 · sin licencia 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-El-arbol-vecino-los-lectores-que-nunca-heredaron-nada-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
@@ -607,37 +607,37 @@ Y hay una advertencia que se repite en las fichas: casi la mitad de estos proyec
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 2335 caracteres ═══
+═══ MENSAJE 16 de 17 · 2840 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 21 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0
-• roxycon-dev/Ciallo-Reader — ★269 (sin cambio) · empujó en las últimas horas · MIT
-• Aidoku/Aidoku — ★4.683 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
+• UsagiApp/Usagi — ★288 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
+• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• kodjodevf/mangayomi — ★4.287 (+15) · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
+• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
+• roxycon-dev/Ciallo-Reader — ★270 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
+• Aidoku/Aidoku — ★4.683 (+8) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
 • Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (235 días) · GPL-3.0
-• eguojz/usagi-sora-vn-sources — ★119 (sin cambio) · empujó en las últimas horas · sin licencia
-• Boomckman/usagi-nightly — ★114 (sin cambio) · empujó en las últimas horas · sin licencia
-• dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0
-• UsagiApp/TsukiMix — ★6 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · GPL-3.0
-• Swan-Chris/usagi-mangadex-plugin — ★0 (sin cambio) · *dormido*: sin empujar desde el 13-ago-2026 (80 días) · GPL-3.0
-• skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• m2k3a/mangayomi-extensions — ★113 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
-• KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
-• KotatsuApp/kotatsu-parsers — sin dato hoy (la API no respondió). No afirmo nada.
-• KotatsuApp/kotatsu-dl — sin dato hoy (la API no respondió). No afirmo nada.
-• KotatsuApp/kotatsu-dl-gui — sin dato hoy (la API no respondió). No afirmo nada.
-• youniaogu/MangaReader — ★2.843 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2025 (436 días) · MIT
+• eguojz/usagi-sora-vn-sources — ★119 · empujó en las últimas horas · sin licencia detectada por la API
+• Boomckman/usagi-nightly — ★114 · empujó en las últimas horas · sin licencia detectada por la API
+• dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release d605625 (23-oct-2026)
+• UsagiApp/TsukiMix — ★6 · empujó el 18-oct-2026 (hace 14 días) · GPL-3.0 · última release 1.0.9 (18-oct-2026)
+• Swan-Chris/usagi-mangadex-plugin — ★0 · *dormido*: sin empujar desde el 13-ago-2026 (80 días) · GPL-3.0 · última release v1.1.0 (6-ago-2026)
+• skepsun/kototoro-parsers — ★17 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
+• m2k3a/mangayomi-extensions — ★113 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
+• KotatsuApp/Kotatsu — ★8.946 · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
+• KotatsuApp/kotatsu-parsers — ★323 · *dormido*: sin empujar desde el 3-nov-2025 (363 días) · GPL-3.0 · última release 1.7 (15-mar-2025) · *ARCHIVADO*
+• KotatsuApp/kotatsu-dl — ★141 · *dormido*: sin empujar desde el 31-jul-2025 (458 días) · GPL-3.0 · última release v0.8 (31-jul-2025) · *ARCHIVADO*
+• KotatsuApp/kotatsu-dl-gui — ★158 · *dormido*: sin empujar desde el 8-ago-2024 (815 días) · GPL-3.0 · última release v1.0 (27-oct-2023) · *ARCHIVADO*
+• youniaogu/MangaReader — ★2.843 · *dormido*: sin empujar desde el 22-ago-2025 (436 días) · MIT · última release v0.7.10 (19-jul-2025)
 • Koitharu/OpenManga — ★182 · *dormido*: sin empujar desde el 2-feb-2020 (2464 días) · NOASSERTION · última release v4.7.1 (20-jul-2019) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 12 enlaces de esta pieza, *12 responden*.
+De los 21 enlaces de esta pieza, *21 responden*.
 Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16

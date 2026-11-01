@@ -80,11 +80,11 @@ La noticia fresca es de **winters27/octo**: release 2026.10.28 (2026-10-29). El 
 Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • plainhub/plain-app — ★7.114 (+13) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.25 (11-sep-2026)
-• opencloud-eu/opencloud — ★6.266 (+15) · empujó en las últimas horas · Apache-2.0 · última release v9.0.0 (27-oct-2026)
-• Moonfin-Client/Moonfin-Core — ★933 (+18) · empujó en las últimas horas · GPL-2.0 · última release 3.0.0 (30-oct-2026)
+• opencloud-eu/opencloud — ★6.267 (+16) · empujó en las últimas horas · Apache-2.0 · última release v9.0.0 (27-oct-2026)
+• Moonfin-Client/Moonfin-Core — ★935 (+20) · empujó en las últimas horas · GPL-2.0 · última release 3.0.0 (30-oct-2026)
 • PelagicaApp/pelagica — ★384 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release 4.14.0 (18-oct-2026)
 • ParsonLabs/parson — ★135 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.0.1 (10-oct-2026)
-• winters27/octo — ★153 (+21) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release 2026.10.28 (29-oct-2026)
+• winters27/octo — ★155 (+23) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release 2026.10.28 (29-oct-2026)
 • damontecres/jellyfin-plugin-wholphin — ★26 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.1.0.0 (2-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

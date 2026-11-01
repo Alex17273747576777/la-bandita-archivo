@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `0eb7ff0795164a73ab025554b59fbd96e819d7414deeb2b5c4d53b61e9a75301`
-- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3850 caracteres
+- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3891 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 6 · 899 caracteres ═══
@@ -154,26 +154,26 @@ REV|92-01-6202 — krof-imoyinA-imadaT/munacradna=1|REV|0.3-LPG=2|REV|52-70-5202
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3850 caracteres ═══
+═══ MENSAJE 5 de 6 · 3891 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 102*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 28 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iamr0s/Dhizuku — ★4.072 (+22) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• iamr0s/Dhizuku — ★4.075 (+25) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 • animiruorg/Animiru — ★908 (+4) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0.1 (14-sep-2026)
 • Riteshp2001/mpvRx — ★868 (+9) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
-• Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
-• yuzono/anime-extensions — ★525 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
 • AppFuton/Futon — ★470 (+3) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
 • SysAdminDoc/HushFacebook — ★449 (+11) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
-• Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
+• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
 • SysAdminDoc/HushFeed — ★342 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 • ponces/treble_aosp — ★312 (+1) · *dormido*: sin empujar desde el 25-jul-2025 (464 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
 • AnBui2004/Vectras-VM-Emu-Android — ★304 (-1) · empujó el 14-oct-2026 (hace 18 días) · GPL-2.0 · última release 4.7.4 (14-oct-2026)
 • andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
-• UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
+• UsagiApp/Usagi — ★288 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
 • iamr0s/Dhizuku-API — ★206 (+2) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v2.7.0 (30-oct-2026)
 • AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
 • Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)

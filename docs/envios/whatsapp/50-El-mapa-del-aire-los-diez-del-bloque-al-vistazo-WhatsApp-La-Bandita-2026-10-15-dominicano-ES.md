@@ -71,16 +71,16 @@ REV|754.69★ — dneslacol/dneslacol=1|REV|0.2-LPM=2|REV|92-01-6202 — trwnepo
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 926 caracteres ═══
+═══ MENSAJE 3 de 4 · 921 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 50*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★96.908 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• syncthing/syncthing — ★89.970 (+97) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• qbittorrent/qBittorrent — ★41.290 (+77) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
-• openwrt/openwrt — ★29.003 (+28) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
+• localsend/localsend — ★96.915 (+458) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• syncthing/syncthing — ★89.976 (+103) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• qbittorrent/qBittorrent — ★41.295 (+82) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
+• openwrt/openwrt — ★29.005 (+30) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -94,14 +94,14 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 13 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1713 caracteres ═══
+═══ MENSAJE 4 de 5 · 1706 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 64*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★117.862 (+250) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• yuliskov/SmartTube — ★35.801 (sin cambio) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• immich-app/immich — ★117.867 (+255) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• yuliskov/SmartTube — ★35.804 (+95) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • xbmc/xbmc — ★21.410 (+11) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
 • muzei/muzei — ★4.958 (+4) · empujó en las últimas horas · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • anilbeesetti/nextplayer — ★4.653 (+18) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (9-oct-2026)
@@ -111,7 +111,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 • 10miaomiao/bilimiao2 — ★2.976 (+11) · empujó en las últimas horas · GPL-3.0 · última release 2.5.2.1 (31-oct-2026)
 • moneytoo/Player — ★2.776 (+17) · empujó el 22-oct-2026 (hace 10 días) · Unlicense · última release v0.217 (11-sep-2026)
 • dkrivoruchko/ScreenStream — ★2.574 (+5) · empujó en las últimas horas · MIT · última release 4.4.2 (15-jul-2026)
-• markusfisch/BinaryEye — ★2.468 (+8) · empujó en las últimas horas · MIT · última release 1.75.7 (31-oct-2026)
+• markusfisch/BinaryEye — ★2.469 (+9) · empujó en las últimas horas · MIT · última release 1.75.7 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

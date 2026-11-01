@@ -104,7 +104,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pi
 • floccusaddon/floccus — ★8.610 (+7) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
 • ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
-• spacecowboy/Feeder — ★3.101 (+5) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.25.0 (23-oct-2026)
+• spacecowboy/Feeder — ★3.103 (+7) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.25.0 (23-oct-2026)
 • wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (31-oct-2026)
 • SimonSchubert/LinuxCommandLibrary — ★2.089 (+3) · empujó en las últimas horas · Apache-2.0 · última release v4.9.1 (14-oct-2026)
 • plateaukao/einkbro — ★2.049 (+1) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)

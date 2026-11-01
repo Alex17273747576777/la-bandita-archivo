@@ -74,7 +74,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pie
 
 • VegaBobo/Language-Selector — ★786 (+1) · *dormido*: sin empujar desde el 29-dic-2024 (672 días) · Apache-2.0 · última release 1.04 (16-may-2023)
 • eyalm2000/adns — ★740 (+6) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v2.1.8 (3-oct-2026)
-• Imtiaz-Official/Smart-Edge — ★442 (+1) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release v1.3.7 (26-oct-2026)
+• Imtiaz-Official/Smart-Edge — ★443 (+2) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release v1.3.7 (26-oct-2026)
 • Senzme/NFile — ★435 (sin cambio) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release v1.0.43 (4-jul-2026)
 • preethamkmr3/WidgetsPro — ★171 (sin cambio) · *dormido*: sin empujar desde el 20-ene-2026 (285 días) · sin licencia detectada por la API · última release 1.2.7 (20-ene-2026)
 • exiarepairii/deskcontrol — ★67 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · GPL-3.0 · última release v1.3.13 (8-ago-2026)

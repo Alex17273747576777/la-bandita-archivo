@@ -111,23 +111,23 @@ Hay release de esta semana: **ggml-org/llama.cpp** publicó v0.8.0 (2026-10-28).
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2614 caracteres ═══
+═══ MENSAJE 4 de 5 · 2645 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 65*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.040 (+269) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• SagerNet/sing-box — ★39.498 (+109) · empujó el 28-oct-2026 (hace 4 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• ggml-org/llama.cpp — ★133.047 (+276) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• SagerNet/sing-box — ★39.502 (+113) · empujó el 28-oct-2026 (hace 4 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.289 (+4) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
-• FlareSolverr/FlareSolverr — ★16.102 (+31) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release v3.5.2 (12-sep-2026)
+• FlareSolverr/FlareSolverr — ★16.103 (+32) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release v3.5.2 (12-sep-2026)
 • AAswordman/Operit — ★9.158 (+73) · empujó el 5-oct-2026 (hace 27 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
 • LibChecker/LibChecker — ★7.295 (+4) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.069 (+1) · *dormido*: sin empujar desde el 6-feb-2022 (1729 días) · sin licencia detectada por la API
 • zacharee/Tweaker — ★1.760 (+3) · empujó el 21-oct-2026 (hace 11 días) · MIT · última release 362 (17-feb-2024)
 • TeamWin/android_bootable_recovery — ★1.724 · *dormido*: sin empujar desde el 24-ago-2026 (69 días) · sin licencia detectada por la API
 • freeotp/freeotp-android — ★1.683 (+2) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)
-• pass-with-high-score/universal-installer — ★1.660 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• pass-with-high-score/universal-installer — ★1.660 (+20) · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
 • sdex/ActivityManager — ★1.372 (+6) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release 5.5.3 (10-oct-2026)
 • Anthonyy232/Paperize — ★1.258 (+1) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v4.2.1 (13-oct-2026)
 • commons-app/apps-android-commons — ★1.192 (+1) · empujó en las últimas horas · Apache-2.0 · última release v6.8.0 (14-oct-2026)

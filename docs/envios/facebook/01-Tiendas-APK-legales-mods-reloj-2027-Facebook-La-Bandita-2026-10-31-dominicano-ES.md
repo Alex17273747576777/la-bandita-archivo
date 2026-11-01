@@ -631,35 +631,35 @@ Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha 
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 2583 caracteres ═══
+═══ MENSAJE 18 de 19 · 3033 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 23 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • AuroraOSS/AuroraStore — ★71 · empujó en las últimas horas · GPL-3.0
-• RikkaApps/Shizuku — ★32.581 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
-• iamr0s/Dhizuku — ★4.072 (+22) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• timschneeb/ShizuStore — ★502 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• daboynb/developer-verifier-placeholder — ★184 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0
-• samyak2403/RepoStore — ★1.372 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · MIT
+• RikkaApps/Shizuku — ★32.581 (+196) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• iamr0s/Dhizuku — ★4.075 (+25) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• timschneeb/ShizuStore — ★502 · empujó en las últimas horas · GPL-3.0 · última release 1.5.0 (5-oct-2026)
+• daboynb/developer-verifier-placeholder — ★184 · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)
+• samyak2403/RepoStore — ★1.372 · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.0.22 (29-oct-2026)
 • wxxsfxyzm/InstallerX-Revived — ★7.262 (+42) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
-• pass-with-high-score/universal-installer — ★1.660 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• pass-with-high-score/universal-installer — ★1.660 (+20) · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
 • GrapheneOS/AppStore — ★625 · empujó en las últimas horas · MIT · última release 37 (31-oct-2026)
-• accrescent/accrescent — ★2.305 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• JonaNorman/WebViewUpgrade — ★456 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · Apache-2.0
-• vinstall/VInstall — ★105 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• Paving-Base/APK-Installer — ★1.712 (sin cambio) · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0
-• SysAdminDoc/AppManagerNG — ★163 (sin cambio) · empujó el 30-sep-2026 (hace 32 días) · GPL-3.0
-• djunekz/termux-app-store — ★124 (sin cambio) · empujó en las últimas horas · MIT
-• Jman-Github/Universal-Patch-Manager — ★1.399 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• solrudev/Ackpine — ★185 (sin cambio) · empujó el 17-oct-2026 (hace 15 días) · Apache-2.0
-• MuntashirAkon/AppManager — ★9.399 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
-• ImranR98/Obtainium — ★21.115 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• NeoApplications/Neo-Store — ★5.596 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0
-• sri-sivaram/Neko-Manga-Pearl — ★116 (sin cambio) · empujó en las últimas horas · sin licencia
-• ubedshah/manga-vault-nexus — ★115 (sin cambio) · empujó en las últimas horas · sin licencia
-• Droid-ify/client — ★7.678 (sin cambio) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0
+• accrescent/accrescent — ★2.305 (-1) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
+• JonaNorman/WebViewUpgrade — ★456 · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · Apache-2.0
+• vinstall/VInstall — ★105 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.4.5 (30-oct-2026)
+• Paving-Base/APK-Installer — ★1.712 · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0 · última release v0.1.28 (11-ago-2025)
+• SysAdminDoc/AppManagerNG — ★163 · empujó el 30-sep-2026 (hace 32 días) · GPL-3.0 · última release v0.6.23 (5-sep-2026)
+• djunekz/termux-app-store — ★124 · empujó en las últimas horas · MIT · última release v0.9.1 (20-oct-2026)
+• Jman-Github/Universal-Patch-Manager — ★1.399 (+9) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• solrudev/Ackpine — ★185 · empujó el 17-oct-2026 (hace 15 días) · Apache-2.0 · última release 0.25.4 (30-jul-2026)
+• MuntashirAkon/AppManager — ★9.399 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• ImranR98/Obtainium — ★21.115 (+96) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• NeoApplications/Neo-Store — ★5.596 (+26) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• sri-sivaram/Neko-Manga-Pearl — ★116 · empujó en las últimas horas · sin licencia detectada por la API
+• ubedshah/manga-vault-nexus — ★115 · empujó en las últimas horas · sin licencia detectada por la API
+• Droid-ify/client — ★7.678 (+17) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

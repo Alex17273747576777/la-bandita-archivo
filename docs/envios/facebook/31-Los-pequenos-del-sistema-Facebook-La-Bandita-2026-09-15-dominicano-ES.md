@@ -92,18 +92,18 @@ La noticia fresca es de **Xitee1/sleep-timer**: release v1.4.0 (2026-10-27). El 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1923 caracteres ═══
+═══ MENSAJE 4 de 5 · 1915 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 31*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Hamza417/Inure — ★1.984 (+4) · empujó en las últimas horas · GPL-3.0 · última release build107.3.0 (21-oct-2026)
-• axel358/smartdock — ★1.459 (+1) · *dormido*: sin empujar desde el 21-may-2026 (164 días) · GPL-3.0 · última release 1.15.0 (21-may-2026)
+• axel358/smartdock — ★1.460 (+2) · *dormido*: sin empujar desde el 21-may-2026 (164 días) · GPL-3.0 · última release 1.15.0 (21-may-2026)
 • Hamza417/Peristyle — ★744 (+4) · empujó el 23-oct-2026 (hace 9 días) · Apache-2.0 · última release v9.8.4 (23-oct-2026)
-• adil192/no_more_background — ★385 (+1) · empujó el 1-oct-2026 (hace 31 días) · GPL-3.0 · última release v2.8.2 (1-ago-2026)
+• adil192/no_more_background — ★385 (+1) · empujó en las últimas horas · GPL-3.0 · última release v2.8.2 (1-ago-2026)
 • Akylas/EnforceDoze — ★367 (+1) · *dormido*: sin empujar desde el 26-jul-2026 (98 días) · GPL-3.0 · última release v1.10.2/86 (18-abr-2026)
-• agupta07505/SmartIsland — ★379 (+31) · empujó el 19-oct-2026 (hace 13 días) · GPL-3.0 · última release v7.6.0 (19-oct-2026)
+• agupta07505/SmartIsland — ★381 (+33) · empujó el 19-oct-2026 (hace 13 días) · GPL-3.0 · última release v7.6.0 (19-oct-2026)
 • daisukiKaffuChino/RebootNya — ★290 (+2) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · Apache-2.0 · última release 1.9.0 (20-ago-2026)
 • mlm-games/BatStats — ★234 (+1) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release 6.2.6 (14-sep-2026)
 • C10udburst/Grayscaler — ★168 (sin cambio) · *dormido*: sin empujar desde el 18-feb-2025 (621 días) · GPL-3.0 · última release 1.0 (18-feb-2025)

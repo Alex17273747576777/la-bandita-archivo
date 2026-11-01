@@ -52,7 +52,7 @@ La noticia fresca es de **Kototoro-app/Kototoro**: release v2.3.4 (2026-10-29). 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 645 caracteres ═══
+═══ MENSAJE 3 de 4 · 675 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 102*
 
@@ -60,7 +60,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 • animiruorg/Animiru — ★908 (+4) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0.1 (14-sep-2026)
 • Riteshp2001/mpvRx — ★868 (+9) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
-• Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

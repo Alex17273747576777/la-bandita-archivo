@@ -64,14 +64,14 @@ REV|TIM=1|REV|82-01-6202 — hctaPA/121xamb=2|REV|401.8★ — hctaPA/121xamb=3
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 587 caracteres ═══
+═══ MENSAJE 3 de 4 · 579 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 87*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • bmax121/APatch — ★8.116 (+12) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
-• awesome-android-root/awesome-android-root — ★5.594 (+26) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 6.1 (26-oct-2026)
+• awesome-android-root/awesome-android-root — ★5.595 (+27) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

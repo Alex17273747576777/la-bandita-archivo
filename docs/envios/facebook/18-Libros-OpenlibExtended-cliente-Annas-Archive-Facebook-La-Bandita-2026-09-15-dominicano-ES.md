@@ -56,7 +56,7 @@ Pulso tranquilo: lo último que se movió fue **warreth/OpenlibExtended**, hace 
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• warreth/OpenlibExtended — ★563 (+7) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release v1.7.2 (18-oct-2026)
+• warreth/OpenlibExtended — ★564 (+8) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release v1.7.2 (18-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
