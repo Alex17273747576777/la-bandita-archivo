@@ -4,7 +4,7 @@
 import json, pathlib, re, html
 
 RAIZ = pathlib.Path(__file__).resolve().parents[1] / 'Arena-Reimagined' / '01-PUBLICACIONES'
-SALIDA = pathlib.Path(__file__).resolve().parents[1] / 'Arena-Reimagined' / 'LAS-262-PUBLICACIONES-2026-11-01.html'
+SALIDA = RAIZ / 'LAS-262-PUBLICACIONES-2026-11-01.html'
 CANALES = [("whatsapp", "WhatsApp", "WhatsApp-dominicano-ES"), ("facebook", "Facebook", "Facebook-dominicano-ES")]
 HOY = {"whatsapp": {"01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md",
                    "02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md"},
