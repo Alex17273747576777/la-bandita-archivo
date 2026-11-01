@@ -111,22 +111,22 @@ Hay release de esta semana: **ggml-org/llama.cpp** publicó v0.8.0 (2026-10-28).
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2621 caracteres ═══
+═══ MENSAJE 4 de 5 · 2613 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 65*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.001 (+230) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
+• ggml-org/llama.cpp — ★133.003 (+232) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
 • SagerNet/sing-box — ★39.494 (+105) · empujó el 28-oct-2026 (hace 3 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.288 (+3) · empujó en las últimas horas · Apache-2.0
-• FlareSolverr/FlareSolverr — ★16.098 (+27) · empujó el 24-oct-2026 (hace 7 días) · MIT · última release v3.5.2 (12-sep-2026)
+• FlareSolverr/FlareSolverr — ★16.099 (+28) · empujó el 24-oct-2026 (hace 7 días) · MIT · última release v3.5.2 (12-sep-2026)
 • AAswordman/Operit — ★9.142 (+57) · empujó el 5-oct-2026 (hace 26 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
 • LibChecker/LibChecker — ★7.296 (+5) · sin fecha de empuje · Apache-2.0 · última release 2.5.4 (17-jun-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.069 (+1) · *dormido*: sin empujar desde el 6-feb-2022 (1728 días) · sin licencia detectada por la API
 • zacharee/Tweaker — ★1.760 (+3) · empujó el 21-oct-2026 (hace 10 días) · MIT · última release 362 (17-feb-2024)
 • TeamWin/android_bootable_recovery — ★1.723 · *dormido*: sin empujar desde el 24-ago-2026 (68 días) · sin licencia detectada por la API
-• freeotp/freeotp-android — ★1.681 (sin cambio) · empujó el 27-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)
+• freeotp/freeotp-android — ★1.682 (+1) · empujó el 27-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)
 • pass-with-high-score/universal-installer — ★1.653 (+13) · sin fecha de empuje · GPL-3.0 · última release v1.20.0 (25-oct-2026)
 • sdex/ActivityManager — ★1.372 (+6) · empujó el 27-oct-2026 (hace 4 días) · Apache-2.0 · última release 5.5.3 (10-oct-2026)
 • Anthonyy232/Paperize — ★1.258 (+1) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.2.1 (13-oct-2026)

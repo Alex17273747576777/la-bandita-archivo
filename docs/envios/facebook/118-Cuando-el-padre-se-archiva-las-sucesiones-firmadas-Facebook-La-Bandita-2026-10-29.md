@@ -69,7 +69,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta piez
 
 • keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
 • OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 19 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• researchxxl/syncthing-android — ★3.213 (+21) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.214 (+22) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • yuzono/anime-extensions — ★525 (+3) · sin fecha de empuje · Apache-2.0
 • AppFuton/Futon — ★469 (+2) · empujó el 21-oct-2026 (hace 10 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
 

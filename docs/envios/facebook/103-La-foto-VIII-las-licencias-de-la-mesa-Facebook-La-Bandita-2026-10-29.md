@@ -60,9 +60,9 @@ Hay release de esta semana: **open-webui/open-webui** publicó v0.12.5 (2026-10-
 
 Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.495 (+256) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• open-webui/open-webui — ★157.418 (+246) · sin fecha de empuje · NOASSERTION · última release v0.12.5 (29-oct-2026)
-• ggml-org/llama.cpp — ★133.001 (+230) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
+• ollama/ollama — ★185.496 (+257) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• open-webui/open-webui — ★157.419 (+247) · sin fecha de empuje · NOASSERTION · última release v0.12.5 (29-oct-2026)
+• ggml-org/llama.cpp — ★133.003 (+232) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

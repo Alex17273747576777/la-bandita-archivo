@@ -102,10 +102,10 @@ REV|)92-01-6202( 22112202 — eludom-ksigam-decnaver/ch-j=1|REV|247.01★ — tx
 
 Medí otra vez, hoy 31 de octubre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Dr-TSNG/ZygiskNext — ★10.768 (+26) · empujó el 15-oct-2026 (hace 16 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• Dr-TSNG/ZygiskNext — ★10.769 (+27) · empujó el 15-oct-2026 (hace 16 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
 • bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release 11282 (15-oct-2026)
-• j-hc/revanced-magisk-module — ★7.710 (+5) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
-• awesome-android-root/awesome-android-root — ★5.585 (+17) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
+• j-hc/revanced-magisk-module — ★7.709 (+4) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
+• awesome-android-root/awesome-android-root — ★5.586 (+18) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
 • PerformanC/ReZygisk — ★4.108 (+9) · empujó el 11-oct-2026 (hace 20 días) · GPL-3.0 · última release v1.0.0 (10-may-2026)
 • scummvm/scummvm — ★2.873 (+3) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
 • snake-4/Zygisk-Assistant — ★2.661 (-1) · *dormido*: sin empujar desde el 4-may-2026 (180 días) · MIT · última release v2.1.4 (23-feb-2025)

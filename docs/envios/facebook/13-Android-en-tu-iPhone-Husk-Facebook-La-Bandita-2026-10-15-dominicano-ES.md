@@ -64,12 +64,12 @@ Hay release de esta semana: **SysAdminDoc/HushFacebook** publicó v0.19.0 (2026-
 
 Medí otra vez, hoy 31 de octubre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Leviidev/Husk — ★2.904 (+60) · sin fecha de empuje · GPL-2.0 · última release 3.3 (1-nov-2026)
+• Leviidev/Husk — ★2.905 (+61) · sin fecha de empuje · GPL-2.0 · última release 3.3 (1-nov-2026)
 • flectar/mail — ★1.710 (+25) · sin fecha de empuje · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
 • SysAdminDoc/HushFacebook — ★447 (+10) · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
-• SysAdminDoc/HushFeed — ★341 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
+• SysAdminDoc/HushFeed — ★342 (+18) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 • SysAdminDoc/Hushfacebook — ★447 · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
-• SysAdminDoc/hushfeed — ★341 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
+• SysAdminDoc/hushfeed — ★342 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

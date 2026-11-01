@@ -98,7 +98,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 12 repositorios que cita esta pie
 
 • Kopuz-org/kopuz — ★1.960 (+1) · empujó en las últimas horas · EUPL-1.2 · última release v0.67.0 (26-oct-2026)
 • FrancescoGrazioso/Meld — ★1.853 (+15) · empujó en las últimas horas · GPL-3.0 · última release v0.9.2 (28-sep-2026)
-• LUC4N3X/Levyra-deepsound — ★1.804 (+161) · sin fecha de empuje · GPL-3.0 · última release v3.0.5 (28-oct-2026)
+• LUC4N3X/Levyra-deepsound — ★1.805 (+162) · sin fecha de empuje · GPL-3.0 · última release v3.0.5 (28-oct-2026)
 • involvex/youtube-music-cli — ★466 (-1) · empujó en las últimas horas · MIT · última release v0.3.6 (28-oct-2026)
 • suvojeet-sengupta/SuvMusic — ★314 (sin cambio) · empujó el 15-oct-2026 (hace 16 días) · GPL-3.0 · última release v2.6.8.0 (13-oct-2026)
 • MrDemonc/Lune — ★263 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.5.5 (28-oct-2026)

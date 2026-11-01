@@ -64,14 +64,14 @@ REV|138.19★ — eroc/tnatsissa-emoh=1|REV|0.2-ehcapA=2|REV|92-01-6202 — eroc
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 583 caracteres ═══
+═══ MENSAJE 3 de 4 · 575 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 54*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• home-assistant/core — ★91.877 (+46) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
-• home-assistant/android — ★4.012 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.1 (6-oct-2026)
+• home-assistant/core — ★91.879 (+48) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
+• home-assistant/android — ★4.012 (sin cambio) · sin fecha de empuje · Apache-2.0 · última release 2026.10.1 (6-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

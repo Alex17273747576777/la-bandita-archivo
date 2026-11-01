@@ -1024,7 +1024,7 @@ REV|048.42★ — nohim/ppanohim=1|REV|)odacifirev( oper us ne ESNECIL ovihcra n
 
 ⏬ sigue abajo · parte 18 de 20
 
-═══ MENSAJE 20 de 21 · 2831 caracteres ═══
+═══ MENSAJE 20 de 21 · 2823 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
@@ -1038,7 +1038,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 18 repositorios que cita esta pie
 • keiyoushi/extensions-source — ★4.839 (+8) · sin fecha de empuje · Apache-2.0
 • jobobby04/TachiyomiSY — ★4.199 (+3) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • lnreader/lnreader — ★2.944 (+2) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
-• nekomangaorg/Neko — ★2.818 (+1) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• nekomangaorg/Neko — ★2.818 (+1) · sin fecha de empuje · Apache-2.0 · última release 3.8.5 (30-oct-2026)
 • null2264/yokai — ★1.914 (+1) · empujó el 13-oct-2026 (hace 18 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)

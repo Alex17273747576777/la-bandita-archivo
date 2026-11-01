@@ -74,7 +74,7 @@ REV|483.23★ — ukuzihS/sppAakkiR=1|REV|82-01-6202 — redroceRllaCuzihS/demus
 Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • RikkaApps/Shizuku — ★32.552 (+168) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• awesome-android-root/awesome-android-root — ★5.585 (+17) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
+• awesome-android-root/awesome-android-root — ★5.586 (+18) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
 • kitsumed/ShizuCallRecorder — ★1.965 (+33) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

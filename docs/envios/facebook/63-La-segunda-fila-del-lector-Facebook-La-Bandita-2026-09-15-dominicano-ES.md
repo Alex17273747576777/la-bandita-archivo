@@ -101,7 +101,7 @@ Hay release de esta semana: **wikimedia/apps-android-wikipedia** publicó latest
 
 Medí otra vez, hoy 31 de octubre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• floccusaddon/floccus — ★8.609 (+6) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
+• floccusaddon/floccus — ★8.610 (+7) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
 • ReadYouApp/ReadYou — ★7.632 (+8) · *dormido*: sin empujar desde el 11-ago-2026 (81 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
 • spacecowboy/Feeder — ★3.100 (+4) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)

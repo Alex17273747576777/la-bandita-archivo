@@ -100,7 +100,7 @@ Hay release de esta semana: **jeryjs/TachiyomiSY-with-discord-RPC** publicó pre
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2282 caracteres ═══
+═══ MENSAJE 4 de 5 · 2211 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 42*
 
@@ -124,9 +124,8 @@ Medí otra vez, hoy 31 de octubre de 2026, los 15 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *18 responden*.
-
-• https://crafty.moe/tachiAZ.htm — 523. Error del servidor; no es culpa del enlace.
+De los 19 enlaces de esta pieza, *19 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

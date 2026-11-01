@@ -1128,18 +1128,18 @@ REV|986.9★ — reganam-ehprom/ppAehproM=1|REV|0.3-LPG=2|REV|03-01-6202 — reg
 
 Medí otra vez, hoy 31 de octubre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MorpheApp/morphe-manager — ★9.793 (+104) · sin fecha de empuje · GPL-3.0 · última release v2.3.0 (30-oct-2026)
+• MorpheApp/morphe-manager — ★9.794 (+105) · sin fecha de empuje · GPL-3.0 · última release v2.3.0 (30-oct-2026)
 • bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release 11282 (15-oct-2026)
-• j-hc/revanced-magisk-module — ★7.710 (+5) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
+• j-hc/revanced-magisk-module — ★7.709 (+4) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
 • shiaho777/web-to-app — ★7.152 (+25) · empujó en las últimas horas · Unlicense · última release v2.8.3 (28-oct-2026)
-• MorpheApp/MicroG-RE — ★6.102 (+93) · empujó en las últimas horas · Apache-2.0 · última release 7.3.0 (31-oct-2026)
+• MorpheApp/MicroG-RE — ★6.104 (+95) · empujó en las últimas horas · Apache-2.0 · última release 7.3.0 (31-oct-2026)
 • MeowDump/Integrity-Box — ★2.806 (+9) · empujó en las últimas horas · GPL-3.0 · última release v46 (29-oct-2026)
 • snake-4/Zygisk-Assistant — ★2.661 (-1) · *dormido*: sin empujar desde el 4-may-2026 (180 días) · MIT · última release v2.1.4 (23-feb-2025)
 • MMRLApp/MMRL — ★2.225 (+2) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v34296 (8-mar-2026)
 • SysAdminDoc/HushFacebook — ★447 (+9) · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
-• SysAdminDoc/HushFeed — ★341 (+16) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
+• SysAdminDoc/HushFeed — ★342 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 • SysAdminDoc/Hushfacebook — ★447 · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
-• SysAdminDoc/hushfeed — ★341 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
+• SysAdminDoc/hushfeed — ★342 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

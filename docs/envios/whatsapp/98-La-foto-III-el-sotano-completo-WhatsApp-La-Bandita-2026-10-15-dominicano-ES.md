@@ -89,7 +89,7 @@ REV|92-01-6202 — revres/duolctxen=1|REV|)82-01-6202( 2.0.53-elbats — diordna
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1239 caracteres ═══
+═══ MENSAJE 4 de 5 · 1231 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 98*
 
@@ -100,7 +100,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 7 repositorios que cita esta piez
 • nextcloud/server — ★37.379 (+34) · sin fecha de empuje · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • jellyfin/jellyfin-androidtv — ★4.689 (+14) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
-• home-assistant/android — ★4.012 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.1 (6-oct-2026)
+• home-assistant/android — ★4.012 (sin cambio) · sin fecha de empuje · Apache-2.0 · última release 2026.10.1 (6-oct-2026)
 • jellyfin/jellyfin-android — ★2.845 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

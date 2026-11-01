@@ -169,7 +169,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 28 repositorios que cita esta pie
 • AppFuton/Futon — ★469 (+2) · empujó el 21-oct-2026 (hace 10 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
 • SysAdminDoc/HushFacebook — ★447 (+9) · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
 • Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 42 días) · Apache-2.0
-• SysAdminDoc/HushFeed — ★341 (+16) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
+• SysAdminDoc/HushFeed — ★342 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 • ponces/treble_aosp — ★312 (+1) · *dormido*: sin empujar desde el 25-jul-2025 (463 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
 • AnBui2004/Vectras-VM-Emu-Android — ★306 (+1) · empujó el 14-oct-2026 (hace 17 días) · GPL-2.0 · última release 4.7.4 (14-oct-2026)
 • andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
@@ -187,7 +187,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 28 repositorios que cita esta pie
 • R15Hi/Dsu-Multi-sideloader — ★3 (sin cambio) · empujó el 15-oct-2026 (hace 16 días) · Apache-2.0 · última release v2.20 (15-oct-2026)
 • sang765/Usagi — ★0 (sin cambio) · empujó el 16-oct-2026 (hace 15 días) · GPL-3.0
 • SysAdminDoc/Hushfacebook — ★447 · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
-• SysAdminDoc/hushfeed — ★341 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
+• SysAdminDoc/hushfeed — ★342 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

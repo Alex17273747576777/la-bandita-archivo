@@ -98,7 +98,7 @@ La noticia amarga: **leassapie/houri** (caído (404)) ya no respondieron. 11 rep
 
 Medí otra vez, hoy 31 de octubre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• HuzaifaKhalid1311/DropSauce — ★220 (+4) · empujó en las últimas horas · GPL-3.0 · última release v1.1.1 (29-oct-2026)
+• HuzaifaKhalid1311/DropSauce — ★221 (+5) · empujó en las últimas horas · GPL-3.0 · última release v1.1.1 (29-oct-2026)
 • mannu691/TachiyomiAT — ★196 (sin cambio) · *dormido*: sin empujar desde el 24-feb-2025 (614 días) · Apache-2.0 · última release 1.16.7 (12-jul-2024)
 • tsundoku-otaku/tsundoku — ★118 (sin cambio) · empujó el 16-oct-2026 (hace 15 días) · Apache-2.0 · última release v0.3.4 (16-oct-2026)
 • Gent8/Taison — ★116 (sin cambio) · *dormido*: sin empujar desde el 2-ago-2026 (90 días) · Apache-2.0 · última release v1.3.0 (2-ago-2026)

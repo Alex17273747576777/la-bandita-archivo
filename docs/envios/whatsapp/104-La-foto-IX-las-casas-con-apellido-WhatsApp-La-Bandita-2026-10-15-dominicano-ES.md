@@ -134,11 +134,11 @@ REV|40-11-5202 — ustatoK/ppAustatoK=1|REV|)92-01-6202( 657ea47+2.2.3v — usto
 
 Medí otra vez, hoy 31 de octubre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• home-assistant/core — ★91.877 (+46) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
+• home-assistant/core — ★91.879 (+48) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
 • nextcloud/server — ★37.379 (+34) · sin fecha de empuje · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • openwrt/openwrt — ★28.997 (+22) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
 • mihonapp/mihon — ★24.913 (+73) · empujó el 26-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• MorpheApp/morphe-manager — ★9.793 (+104) · sin fecha de empuje · GPL-3.0 · última release v2.3.0 (30-oct-2026)
+• MorpheApp/morphe-manager — ★9.794 (+105) · sin fecha de empuje · GPL-3.0 · última release v2.3.0 (30-oct-2026)
 • KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (361 días) · GPL-3.0 · *ARCHIVADO*
 • aniyomiorg/aniyomi — ★7.863 (+7) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 • nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)

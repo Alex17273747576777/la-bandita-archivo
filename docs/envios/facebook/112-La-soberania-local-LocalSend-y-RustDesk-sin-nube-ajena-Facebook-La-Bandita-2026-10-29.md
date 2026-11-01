@@ -99,14 +99,14 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda
 
 Medí otra vez, hoy 31 de octubre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• rustdesk/rustdesk — ★127.738 (+243) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.0 (30-sep-2026)
-• localsend/localsend — ★96.840 (+383) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• rustdesk/rustdesk — ★127.740 (+245) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.0 (30-sep-2026)
+• localsend/localsend — ★96.844 (+387) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
 • termux/termux-app — ★63.845 (+167) · empujó el 26-sep-2026 (hace 35 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • RikkaApps/Shizuku — ★32.552 (+167) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • mihonapp/mihon — ★24.913 (+74) · empujó el 26-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• komi-store/komi-store — ★20.176 (+86) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• komi-store/komi-store — ★20.177 (+87) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
-• hrydgard/ppsspp — ★14.798 (+16) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
+• hrydgard/ppsspp — ★14.799 (+17) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
 • guardianproject/orbot-android — ★3.664 (+3) · empujó el 26-oct-2026 (hace 5 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
 • itsmechinmoy/dantotsu-updater — ★154 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
 • itsmechinmoy/Dantotsu — ★92 (sin cambio) · sin fecha de empuje · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)

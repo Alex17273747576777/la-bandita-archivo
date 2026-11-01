@@ -371,7 +371,7 @@ escondido.
 
 ⏬ sigue abajo · parte 5 de 7
 
-═══ MENSAJE 7 de 8 · 949 caracteres ═══
+═══ MENSAJE 7 de 8 · 948 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 109*
 
@@ -380,7 +380,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta piez
 • krishna3163/OmniShizuku — ★10 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
 • thedjchi/Shizuku — ★6.645 · *dormido*: sin empujar desde el 15-jul-2026 (108 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
 • iamr0s/Dhizuku — ★4.067 (+17) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• krishna3163/best_shizuku_apps_for_android_no_root — ★158 · sin fecha de empuje · sin licencia detectada por la API · última release mlog-scanner-bridge-v3.6.3 (31-oct-2026)
+• krishna3163/best_shizuku_apps_for_android_no_root — ★158 · sin fecha de empuje · sin licencia detectada por la API · última release mlog-scanner-bridge-v3.6.6 (1-nov-2026)
 • Alex17273747576777/la-bandita-archivo — ★1 · sin fecha de empuje · MIT
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

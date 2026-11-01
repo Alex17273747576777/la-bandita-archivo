@@ -625,10 +625,10 @@ Medí otra vez, hoy 31 de octubre de 2026, los 33 repositorios que cita esta pie
 • RookieEnough/Orion-Store — ★3.883 · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.6.5 (27-oct-2026)
 • NeoApplications/Neo-Store — ★5.589 (+19) · empujó el 23-oct-2026 (hace 8 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
 • Droid-ify/client — ★7.678 (+17) · *dormido*: sin empujar desde el 12-sep-2026 (49 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• ImranR98/Obtainium — ★21.095 (+76) · sin fecha de empuje · GPL-3.0 · última release v1.7.3 (25-oct-2026)
-• komi-store/komi-store — ★20.176 (+86) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• ImranR98/Obtainium — ★21.096 (+77) · sin fecha de empuje · GPL-3.0 · última release v1.7.3 (25-oct-2026)
+• komi-store/komi-store — ★20.177 (+87) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • AbdurazaaqMohammed/AntiSplit-M — ★4.938 · empujó en las últimas horas · Apache-2.0 · última release 2.3.3 (31-oct-2026)
-• wxxsfxyzm/InstallerX-Revived — ★7.255 (+35) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
+• wxxsfxyzm/InstallerX-Revived — ★7.256 (+36) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
 • EFForg/apkeep — ★2.148 · empujó el 1-oct-2026 (hace 30 días) · MIT · última release 1.1.0 (1-oct-2026)
 • timschneeb/awesome-shizuku — ★10.667 · empujó en las últimas horas · NOASSERTION
 • Psyhackological/AAA — ★3.141 · empujó el 29-sep-2026 (hace 32 días) · CC-BY-4.0 · última release 250 (7-may-2024)

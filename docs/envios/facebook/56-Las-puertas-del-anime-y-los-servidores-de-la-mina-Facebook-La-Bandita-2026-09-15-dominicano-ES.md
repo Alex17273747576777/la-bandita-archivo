@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
 - **sha256 de la pieza:** `d48100022cd4f669aca6eefbda402d8390d2960b9863132a10e2c09dc59146dc`
-- **Envío generado:** 2026-10-31 · 12 mensajes · el mayor de 3914 caracteres
+- **Envío generado:** 2026-10-31 · 12 mensajes · el mayor de 3898 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 12 · 939 caracteres ═══
@@ -283,7 +283,7 @@ La noticia amarga: **jpdoshi/dragon-store** (caído (404)), **ycngmn/CuxPlug** (
 
 ⏬ sigue abajo · parte 6 de 11
 
-═══ MENSAJE 8 de 12 · 3914 caracteres ═══
+═══ MENSAJE 8 de 12 · 3898 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 56*
 
@@ -295,17 +295,17 @@ Medí otra vez, hoy 31 de octubre de 2026, los 62 repositorios que cita esta pie
 • lollipopkit/flutter_server_box — ★8.922 (+25) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1844 (29-oct-2026)
 • standardnotes/app — ★6.691 (+3) · empujó en las últimas horas · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• muzei/muzei — ★4.957 (+3) · empujó el 26-oct-2026 (hace 5 días) · Apache-2.0 · última release api3.4.2 (16-jun-2024)
+• muzei/muzei — ★4.957 (+3) · sin fecha de empuje · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • anilbeesetti/nextplayer — ★4.652 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (9-oct-2026)
 • 5rahim/seanime — ★4.291 (+6) · empujó el 14-oct-2026 (hace 17 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
 • jarnedemeulemeester/findroid — ★4.286 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2.0 (25-oct-2026)
 • owncloud/android — ★4.174 (-1) · empujó en las últimas horas · GPL-2.0 · última release v4.8.4 (31-ago-2026)
 • videolan/vlc-android — ★4.126 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0
 • NuvioMedia/NuvioTV — ★3.305 (+34) · sin fecha de empuje · GPL-3.0 · última release 1.0.0 (19-sep-2026)
-• researchxxl/syncthing-android — ★3.213 (+21) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.214 (+22) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • mahlernim/google-timeline-visualizer — ★3.056 (-1) · empujó el 22-oct-2026 (hace 9 días) · MIT · última release v3.1.0 (5-oct-2026)
 • 10miaomiao/bilimiao2 — ★2.974 (+9) · empujó en las últimas horas · GPL-3.0 · última release 2.5.2.1 (31-oct-2026)
-• moneytoo/Player — ★2.774 (+15) · empujó el 22-oct-2026 (hace 9 días) · Unlicense · última release v0.217 (11-sep-2026)
+• moneytoo/Player — ★2.775 (+16) · empujó el 22-oct-2026 (hace 9 días) · Unlicense · última release v0.217 (11-sep-2026)
 • dkrivoruchko/ScreenStream — ★2.574 (+5) · empujó en las últimas horas · MIT · última release 4.4.2 (15-jul-2026)
 • markusfisch/BinaryEye — ★2.467 (+7) · empujó en las últimas horas · MIT · última release 1.75.7 (31-oct-2026)
 • bk138/droidVNC-NG — ★2.422 (+3) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v2.22.2 (29-oct-2026)

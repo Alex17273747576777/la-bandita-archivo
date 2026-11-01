@@ -896,13 +896,13 @@ REV|0.2-LPM=1|REV|03-01-6202 — spamcinagro/spamcinagro=2|REV|984.69★ — dne
 
 Medí otra vez, hoy 31 de octubre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★96.840 (+383) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• localsend/localsend — ★96.844 (+387) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
 • syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • termux/termux-app — ★63.845 (+169) · empujó el 26-sep-2026 (hace 35 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • RikkaApps/Shizuku — ★32.552 (+168) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• ImranR98/Obtainium — ★21.095 (+70) · sin fecha de empuje · GPL-3.0 · última release v1.7.3 (25-oct-2026)
-• organicmaps/organicmaps — ★15.836 (+20) · sin fecha de empuje · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
-• beemdevelopment/Aegis — ★13.431 (+17) · *dormido*: sin empujar desde el 6-sep-2026 (55 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• ImranR98/Obtainium — ★21.096 (+71) · sin fecha de empuje · GPL-3.0 · última release v1.7.3 (25-oct-2026)
+• organicmaps/organicmaps — ★15.838 (+22) · sin fecha de empuje · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
+• beemdevelopment/Aegis — ★13.433 (+19) · *dormido*: sin empujar desde el 6-sep-2026 (55 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • MuntashirAkon/AppManager — ★9.393 (+23) · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
 • Kunzisoft/KeePassDX — ★7.579 (+14) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
 • TeamAmaze/AmazeFileManager — ★6.449 (+1) · empujó en las últimas horas · GPL-3.0 · última release v3.11.4 (15-oct-2026)

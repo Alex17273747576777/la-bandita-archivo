@@ -71,7 +71,7 @@ REV|)82-01-6202( ateb-219.1.0v — htolsnu/iahtolsnu=1|REV|92-01-6202 — htolsn
 Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• unslothai/unsloth — ★78.885 (+125) · sin fecha de empuje · Apache-2.0 · última release v0.1.913-beta (30-oct-2026)
+• unslothai/unsloth — ★78.887 (+127) · sin fecha de empuje · Apache-2.0 · última release v0.1.913-beta (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

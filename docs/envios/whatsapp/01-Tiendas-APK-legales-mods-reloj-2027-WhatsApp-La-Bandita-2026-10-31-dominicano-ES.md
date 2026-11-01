@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md`
 - **Fecha de la pieza:** 31-oct-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `4b2bf9d1863540d46c24ba1e4d7dea9f3152f4e5187183b68a641e2286156ea6`
-- **Envío generado:** 2026-10-31 · 26 mensajes · el mayor de 3860 caracteres
+- **Envío generado:** 2026-10-31 · 26 mensajes · el mayor de 3859 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 26 · 773 caracteres ═══
@@ -836,7 +836,7 @@ https://developer.android.com/developer-verification
 
 ⏬ sigue abajo · parte 23 de 25
 
-═══ MENSAJE 25 de 26 · 3860 caracteres ═══
+═══ MENSAJE 25 de 26 · 3859 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
@@ -855,17 +855,17 @@ Medí otra vez, hoy 31 de octubre de 2026, los 30 repositorios que cita esta pie
 • Psyhackological/AAA — ★3.141 · empujó el 29-sep-2026 (hace 32 días) · CC-BY-4.0 · última release 250 (7-may-2024)
 • moneytoo/awesome-fdroid — ★200 · empujó en las últimas horas · Unlicense
 • timschneeb/awesome-shizuku — ★10.667 · empujó en las últimas horas · NOASSERTION
-• krishna3163/best_shizuku_apps_for_android_no_root — ★158 · sin fecha de empuje · sin licencia detectada por la API · última release mlog-scanner-bridge-v3.6.3 (31-oct-2026)
+• krishna3163/best_shizuku_apps_for_android_no_root — ★158 · sin fecha de empuje · sin licencia detectada por la API · última release mlog-scanner-bridge-v3.6.6 (1-nov-2026)
 • krishna3163/best-root-apps-for-android — ★50 · empujó en las últimas horas · MIT · última release brene-v0.0.74 (31-oct-2026)
 • krishna3163/OmniShizuku — ★10 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
 • AbdurazaaqMohammed/AntiSplit-M — ★4.938 · empujó en las últimas horas · Apache-2.0 · última release 2.3.3 (31-oct-2026)
-• wxxsfxyzm/InstallerX-Revived — ★7.255 · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
+• wxxsfxyzm/InstallerX-Revived — ★7.256 · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
 • zacharee/InstallWithOptions — ★3.393 · empujó el 24-oct-2026 (hace 7 días) · MIT · última release 0.9.2 (14-mar-2026)
 • EFForg/apkeep — ★2.148 · empujó el 1-oct-2026 (hace 30 días) · MIT · última release 1.1.0 (1-oct-2026)
 • sunO2/GStore — ★4 · empujó el 17-oct-2026 (hace 14 días) · GPL-3.0 · última release v1.0.34 (14-oct-2026)
 • RikkaApps/Shizuku — ★32.552 (+168) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• ImranR98/Obtainium — ★21.095 (+70) · sin fecha de empuje · GPL-3.0 · última release v1.7.3 (25-oct-2026)
-• komi-store/komi-store — ★20.176 · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• ImranR98/Obtainium — ★21.096 (+71) · sin fecha de empuje · GPL-3.0 · última release v1.7.3 (25-oct-2026)
+• komi-store/komi-store — ★20.177 · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • NeoApplications/Neo-Store — ★5.589 · empujó el 23-oct-2026 (hace 8 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
 • bikram-agarwal/ObtainX — ★1.567 · empujó el 5-oct-2026 (hace 26 días) · GPL-3.0 · última release v2.21.0 (4-oct-2026)
 • Victor-root/Omnify — ★95 · empujó en las últimas horas · GPL-3.0 · última release 1.0.7-beta.8 (25-oct-2026)

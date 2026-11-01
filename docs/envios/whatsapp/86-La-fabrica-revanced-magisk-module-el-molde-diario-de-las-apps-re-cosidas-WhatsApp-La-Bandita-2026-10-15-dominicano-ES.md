@@ -66,7 +66,7 @@ REV|92-01-6202 — eludom-ksigam-decnaver/ch-j=1|REV|507.7★ — eludom-ksigam-
 
 Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• j-hc/revanced-magisk-module — ★7.710 (+5) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
+• j-hc/revanced-magisk-module — ★7.709 (+4) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

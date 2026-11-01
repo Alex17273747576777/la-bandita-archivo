@@ -637,7 +637,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 7 repositorios que cita esta piez
 • koreader/koreader — ★30.777 (+38) · sin fecha de empuje · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
 • koodo-reader/koodo-reader — ★28.680 (+12) · sin fecha de empuje · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
 • smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1286 días) · Apache-2.0
-• PaulWoitaschek/Voice — ★3.238 (+8) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
+• PaulWoitaschek/Voice — ★3.239 (+9) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

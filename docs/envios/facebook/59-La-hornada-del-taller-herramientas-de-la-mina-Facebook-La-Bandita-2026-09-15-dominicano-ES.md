@@ -114,11 +114,11 @@ Pulso de hoy sobre los 16 repos de la pieza: 16 vivos, 14 activos este mes. Mand
 
 Medí otra vez, hoy 31 de octubre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★332.468 (+681) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• awesome-selfhosted/awesome-selfhosted — ★332.473 (+686) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
 • jellyfin/jellyfin — ★58.875 (+88) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 2 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• komi-store/komi-store — ★20.176 (+86) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• FreshRSS/FreshRSS — ★16.470 (+24) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
+• komi-store/komi-store — ★20.177 (+87) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• FreshRSS/FreshRSS — ★16.471 (+25) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
 • offa/android-foss — ★11.607 (+21) · empujó el 26-oct-2026 (hace 5 días) · GPL-3.0
 • jellyfin/jellyfin-androidtv — ★4.689 (+14) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
 • wgtunnel/android — ★3.320 (+4) · sin fecha de empuje · MIT · última release 5.8.2 (19-oct-2026)

@@ -785,7 +785,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 14 repositorios que cita esta pie
 • rukamori/ArchiveTune — ★7.834 (+59) · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
 • Moriafly/SaltPlayerSource — ★7.582 (+7) · empujó el 29-oct-2026 (hace 2 días) · MIT · última release 12.5.2 (29-oct-2026)
 • naman14/Timber — ★7.033 (sin cambio) · *dormido*: sin empujar desde el 28-abr-2023 (1282 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
-• PixelPlayerHQ/PixelPlayer — ★6.855 (+18) · empujó el 21-sep-2026 (hace 40 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
+• PixelPlayerHQ/PixelPlayer — ★6.856 (+19) · empujó el 21-sep-2026 (hace 40 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
 • namidaco/namida — ★6.756 (+18) · empujó el 26-oct-2026 (hace 5 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • z-huang/InnerTune — ★6.130 (+1) · *dormido*: sin empujar desde el 13-nov-2025 (352 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 19 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)

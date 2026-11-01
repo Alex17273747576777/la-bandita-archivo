@@ -97,17 +97,17 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1936 caracteres ═══
+═══ MENSAJE 4 de 5 · 1928 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 51*
 
 Medí otra vez, hoy 31 de octubre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • jellyfin/jellyfin — ★58.875 (+88) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• PixelPlayerHQ/PixelPlayer — ★6.855 (+19) · empujó el 21-sep-2026 (hace 40 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
+• PixelPlayerHQ/PixelPlayer — ★6.856 (+20) · empujó el 21-sep-2026 (hace 40 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
 • finamp-app/finamp — ★4.460 (+53) · empujó en las últimas horas · MPL-2.0 · última release 1.0.2 (29-oct-2026)
 • jellyfin/jellyfin-android — ★2.845 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v2.7.3 (14-sep-2026)
-• mafik/echo — ★332 (sin cambio) · *dormido*: sin empujar desde el 5-jun-2025 (513 días) · GPL-3.0
+• mafik/echo — ★333 (+1) · *dormido*: sin empujar desde el 5-jun-2025 (513 días) · GPL-3.0
 • PixelPlayerHQ/PixelPlayerOSS — ★301 (+4) · empujó en las últimas horas · GPL-3.0 · última release v0.4.0 (17-oct-2026)
 • armanmaurya/InternetRadio — ★177 (+3) · empujó en las últimas horas · GPL-3.0 · última release v0.9.0 (22-oct-2026)
 • recloudstream/extensions — ★142 (sin cambio) · *dormido*: sin empujar desde el 22-may-2026 (162 días) · sin licencia detectada por la API

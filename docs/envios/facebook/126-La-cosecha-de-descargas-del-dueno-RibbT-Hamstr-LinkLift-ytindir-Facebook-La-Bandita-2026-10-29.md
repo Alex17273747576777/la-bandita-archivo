@@ -70,7 +70,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta piez
 • RajnishOne/linklift — ★12 (+1) · sin fecha de empuje · MIT · última release v2.19 (31-oct-2026)
 • RAMiK4/ytindir — ★16 (+5) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release v2.14.0-build65 (28-oct-2026)
 • rcrandon/gimmiedat — ★3 (sin cambio) · empujó el 8-oct-2026 (hace 23 días) · GPL-3.0 · última release v1.0.3 (8-oct-2026)
-• Mailo037/Hamstr — ★1 (sin cambio) · sin fecha de empuje · GPL-3.0 · última release v0.7.5 (1-nov-2026)
+• Mailo037/Hamstr — ★1 (sin cambio) · sin fecha de empuje · GPL-3.0 · última release v0.7.6 (1-nov-2026)
 • Sleepless-index/RibbT — ★1 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release latest (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

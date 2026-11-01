@@ -59,7 +59,7 @@ La noticia fresca es de **HuzaifaKhalid1311/DropSauce**: release v1.1.1 (2026-10
 Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Chimahon/chimahon — ★239 (+2) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
-• HuzaifaKhalid1311/DropSauce — ★220 (+4) · empujó en las últimas horas · GPL-3.0 · última release v1.1.1 (29-oct-2026)
+• HuzaifaKhalid1311/DropSauce — ★221 (+5) · empujó en las últimas horas · GPL-3.0 · última release v1.1.1 (29-oct-2026)
 • glitch-228/Kaisoku — ★54 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v9.8.6 (6-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

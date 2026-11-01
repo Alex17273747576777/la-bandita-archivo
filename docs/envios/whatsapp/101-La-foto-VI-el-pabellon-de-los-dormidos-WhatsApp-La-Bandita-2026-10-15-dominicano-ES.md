@@ -133,7 +133,7 @@ Medí otra vez, hoy 31 de octubre de 2026, los 17 repositorios que cita esta pie
 • justjavac/free-programming-books-zh_CN — ★119.462 (+24) · *dormido*: sin empujar desde el 29-jul-2026 (94 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
 • syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • RikkaApps/Shizuku — ★32.552 (+168) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• beemdevelopment/Aegis — ★13.431 (+17) · *dormido*: sin empujar desde el 6-sep-2026 (55 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• beemdevelopment/Aegis — ★13.433 (+19) · *dormido*: sin empujar desde el 6-sep-2026 (55 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (361 días) · GPL-3.0 · *ARCHIVADO*
 • aniyomiorg/aniyomi — ★7.863 (+7) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 • Droid-ify/client — ★7.678 (+15) · *dormido*: sin empujar desde el 12-sep-2026 (49 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
