@@ -93,6 +93,15 @@ def _(raiz):
     (d / "colado.md").write_text("Esto entró al archivo después de firmarse y nadie lo selló.\n", encoding="utf-8")
 
 
+@caso("G9 envíos: mensaje que no coincide con su cabecera")
+def _(raiz):
+    d = raiz / "docs/envios/whatsapp"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "envio-falso.md").write_text(
+        "# PIEZA 99 · envío falso\n\n═══ MENSAJE 1 de 3 · 900 caracteres ═══\n\n"
+        "Esto dice 900 y tiene treinta.\n", encoding="utf-8")
+
+
 @caso("G7 enlaces: binario recetado")
 def _(raiz):
     p = sorted((raiz / "Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES").glob("*.md"))[0]

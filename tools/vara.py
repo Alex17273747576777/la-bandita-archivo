@@ -12,7 +12,7 @@ Uso:
 Salida: código 0 si ninguna compuerta falló, 1 si alguna falló.
 """
 from __future__ import annotations
-import argparse, hashlib, json, re, statistics, sys
+import argparse, hashlib, json, re, statistics, subprocess, sys
 from collections import Counter
 from datetime import date
 from pathlib import Path
@@ -189,6 +189,21 @@ def g5_integridad() -> tuple[list[str], str]:
     return fallos, f"{n} archivos sellados" + (f" · {len(sin_sellar)} sin sellar" if sin_sellar else "")
 
 
+def g9_envios() -> tuple[list[str], str]:
+    """Los envíos de WhatsApp/Facebook: que quepan en un mensaje, que el cuerpo esté entero y que
+    el archivo sea exactamente lo que genera `tools/envio.py`. Si alguien edita un envío a mano, canta."""
+    herramienta = RAIZ / "tools" / "envio.py"
+    if not herramienta.exists() or not (RAIZ / "docs" / "envios").exists():
+        return [], "sin envíos en este árbol"
+    r = subprocess.run([sys.executable, str(herramienta), "--verificar", "--raiz", str(RAIZ)],
+                       capture_output=True, text=True)
+    salida = (r.stdout or "") + (r.stderr or "")
+    fallos = [ln.strip("  ·") for ln in salida.splitlines() if ln.strip().startswith("·")]
+    resumen = [ln.replace("envíos revisados:", "").strip() for ln in salida.splitlines()
+               if ln.startswith("envíos revisados")]
+    return fallos, (" · ".join(resumen) if resumen else "sin salida")
+
+
 def g6_antiplantilla(ps: list[Path]) -> tuple[list[str], str]:
     """MEDIDOR: publica la cifra de repetición sin detener la línea.
     La casa exime el eco doctrinal a propósito (doctrina-lupa.json), así que esto mide, no juzga."""
@@ -288,6 +303,7 @@ def main() -> int:
         ("G6 anti-plantilla", "medidor", g6_antiplantilla(ps)),
         ("G7 enlaces", "puerta", g7_enlaces(ps)),
         ("G8 presupuesto", "medidor", g8_presupuesto(ps)),
+        ("G9 envíos", "puerta", g9_envios()),
     ]
     congelados = deuda_congelada()
     total_fallos = 0

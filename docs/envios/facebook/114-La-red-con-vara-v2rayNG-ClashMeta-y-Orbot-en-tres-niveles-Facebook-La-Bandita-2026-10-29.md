@@ -1,0 +1,75 @@
+# PIEZA 114 · envío para Facebook
+
+- **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/114-La-red-con-vara-v2rayNG-ClashMeta-y-Orbot-en-tres-niveles-Facebook-La-Bandita-2026-10-29.md`
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **sha256 de la pieza:** `c7339fcbceb2bf1642581e77f39d5f6a78c6e4e7e5baff31b86d11fbe0324b94`
+- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2155 caracteres
+- **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
+
+═══ MENSAJE 1 de 4 · 895 caracteres ═══
+
+*La red con vara: v2rayNG, ClashMeta y Orbot en tres niveles*
+
+La Bandita · pieza 114 · guía del 29-oct-2026 · te la mando hoy en 4 mensajes.
+
+Antes de mandártela volví a medir lo que afirma: *3 repositorios, 3 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+
+Licencias de lo que recomienda: GPL-3.0 2 · NOASSERTION 1.
+
+⚠️ *Aviso de fecha:* este texto se escribió el 29-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
+La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/114-La-red-con-vara-v2rayNG-ClashMeta-y-Orbot-en-tres-niveles-Facebook-La-Bandita-2026-10-29.md
+
+💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+
+═══ MENSAJE 2 de 4 · 2155 caracteres ═══
+
+[Texto del 29-oct-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
+
+# Publicación 114 — La red con vara: v2rayNG, ClashMeta y Orbot en tres niveles
+
+_jueves 29 de octubre de 2026 · La Bandita_
+
+Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda **2dust/v2rayNG** (★64.940): «A V2Ray client for Android, support Xray core and v2fly core». Le sigue **MetaCubeX/ClashMetaForAndroid** (★48.607): «A rule-based tunnel for Android.». Temas que se repiten en el grupo: android, anonymity, anticensorship, censorship-circumvention.
+
+## Los repos de esta pieza, medidos hoy
+
+- **2dust/v2rayNG** — «A V2Ray client for Android, support Xray core and v2fly core»
+  ★64.940 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 2.3.11 (2026-10-11) · https://github.com/2dust/v2rayNG · Web: https://v2rayng.2dust.link
+  Temas: android · proxy · shadowsocks · socks5 · trojan · v2fly
+
+- **MetaCubeX/ClashMetaForAndroid** — «A rule-based tunnel for Android.»
+  ★48.607 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v2.11.36 (2026-10-21) · https://github.com/MetaCubeX/ClashMetaForAndroid
+
+- **guardianproject/orbot-android** — «The Github home of Orbot: Tor on Android (Also available on gitlab!)»
+  ★3.661 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia BSD (según texto de su repo, 29-oct-2026) · Kotlin · última release 17.9.7-RC-1-tor-0.4.9.14 (2026-10-09) · https://github.com/guardianproject/orbot-android · Web: https://gitlab.com/guardianproject/orbot
+  Temas: anonymity · anticensorship · censorship-circumvention · security · tor
+
+## Lectura de la medición
+
+El grupo respira despacio; su empuje más reciente, **2dust/v2rayNG**, fue hace 3 días. **MetaCubeX/ClashMetaForAndroid** firmó la release de fecha más reciente (v2.11.36 (2026-10-21)) de las 3 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×2, BSD (según texto de su repo, 29-oct-2026) ×1.
+
+💓 3 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 3 vivos, 0 firmados arriba con su estado.
+
+⏬ sigue abajo · parte 1 de 3
+
+═══ MENSAJE 3 de 4 · 733 caracteres ═══
+
+💓 *EL ESTADO DE HOY · pieza 114*
+
+Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+
+• 2dust/v2rayNG — ★65.081 (+141) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release 2.3.14 (28-oct-2026)
+• MetaCubeX/ClashMetaForAndroid — ★48.719 (+112) · empujó en las últimas horas · GPL-3.0 · última release v2.11.36 (21-oct-2026)
+• guardianproject/orbot-android — ★3.664 (+3) · empujó el 26-oct-2026 (hace 5 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
+
+💓 *LOS ENLACES · medidos hoy uno por uno*
+
+De los 5 enlaces de esta pieza, *5 responden*.
+Ninguno roto.
+
+⏬ sigue abajo · parte 2 de 3
+
+═══ MENSAJE 4 de 4 · 152 caracteres ═══
+
+💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
