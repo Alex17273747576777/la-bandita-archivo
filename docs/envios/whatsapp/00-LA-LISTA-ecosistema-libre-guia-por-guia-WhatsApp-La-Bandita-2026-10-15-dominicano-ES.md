@@ -12,9 +12,9 @@
 
 La Bandita · pieza 00 · guía del 29-oct-2026 · te la mando hoy en 26 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *11 repositorios, 11 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *11 repositorios, 10 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 5 · MPL-2.0 2 · AGPL-3.0 1 · sin licencia 1.
+Licencias de lo que recomienda: GPL-3.0 4 · MPL-2.0 2 · AGPL-3.0 1 · sin licencia 1.
 
 ⚠️ *Aviso de fecha:* este texto se escribió el 29-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
@@ -1143,7 +1143,7 @@ REV|92-01-6202 — gnihtcnys/gnihtcnys=1|REV|978.98★ — gnihtcnys/gnihtcnys=2
 
 ⏬ sigue abajo · parte 23 de 25
 
-═══ MENSAJE 25 de 26 · 2082 caracteres ═══
+═══ MENSAJE 25 de 26 · 2042 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 00*
 
@@ -1151,7 +1151,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pi
 
 • syncthing/syncthing — ★89.970 (+97) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • team-spotube/spotube — ★50.530 (+64) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• KotatsuApp/Kotatsu — ★8.946 (+3) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
+• KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
 • syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • phhusson/treble_experimentations — ★3.553 (-3) · *dormido*: sin empujar desde el 27-ene-2025 (643 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*
 • siavash79/PixelXpert — ★2.441 (+1) · *dormido*: sin empujar desde el 21-jun-2026 (133 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*

@@ -189,6 +189,26 @@ def g5_integridad() -> tuple[list[str], str]:
     return fallos, f"{n} archivos sellados" + (f" · {len(sin_sellar)} sin sellar" if sin_sellar else "")
 
 
+def g12_firma_literal() -> tuple[list[str], str]:
+    """Testigo de firma: la frase de la casa, letra por letra, en el cierre.
+
+    M01 comprueba que la frase exista; este guardián comprueba además que esté al
+    final del cuerpo (antes de las notas) y que el bloque de medición diga la hora.
+    """
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import firma_literal as fl
+
+    vivas, viejas = fl.piezas()
+    fallos = []
+    for p in vivas:
+        for x in fl.revisar(p):
+            fallos.append(f"{p.name[:60]}: {x}")
+    nota = f"{len(vivas) - len({f.split(':')[0] for f in fallos})} de {len(vivas)} en regla"
+    if viejas:
+        nota += f" · {viejas} del archivo viejo sin exigencia"
+    return fallos, nota
+
+
 def g10_bandas() -> tuple[list[str], str]:
     """Cada pieza reescrita tiene una banda de longitud declarada en docs/bandas.json. Ni menos
     (relleno barato) ni más (palabrería): si se sale, no pasa. Y la cifra declarada en el JSON
@@ -372,6 +392,7 @@ def main() -> int:
         ("G9 envíos", "puerta", g9_envios()),
         ("G10 bandas", "puerta", g10_bandas()),
         ("G11 manual v3.0", "puerta", g11_manual()),
+        ("G12 firma literal", "puerta", g12_firma_literal()),
     ]
     congelados = deuda_congelada()
     total_fallos = 0

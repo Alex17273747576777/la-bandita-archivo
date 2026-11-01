@@ -1015,7 +1015,7 @@ REV|753.04★ — epiPweN/epiPweNmaeT=1|REV|TIM=2|REV|92-01-6202 — liateminA/p
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 2272 caracteres ═══
+═══ MENSAJE 19 de 20 · 2280 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 16*
 
@@ -1027,7 +1027,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pi
 • libre-tube/LibreTube — ★12.928 (+15) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
 • recloudstream/cloudstream — ★11.117 (+21) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • TeamPiped/Piped — ★10.299 (+3) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
-• aniyomiorg/aniyomi — ★7.865 (+9) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 • mytv-android/mytv-android — ★2.978 (+48) · empujó en las últimas horas · MIT · última release V2.2.0.219 (21-ago-2026)
 • oxyroid/M3UAndroid — ★1.286 (+2) · empujó el 20-sep-2026 (hace 42 días) · GPL-3.0 · última release v1.15.0 (29-mar-2025) · *ARCHIVADO*
 • animiruorg/Animiru — ★908 (+4) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0.1 (14-sep-2026)

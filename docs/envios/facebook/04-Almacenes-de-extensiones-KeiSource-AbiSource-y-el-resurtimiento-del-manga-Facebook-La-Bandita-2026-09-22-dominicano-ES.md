@@ -65,7 +65,7 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1044 caracteres ═══
+═══ MENSAJE 3 de 4 · 1052 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
@@ -76,7 +76,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pie
 • LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
 • cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f3291a9 (31-oct-2026)
-• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
+• Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

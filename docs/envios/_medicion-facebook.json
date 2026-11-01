@@ -278,40 +278,40 @@
    "stars_pieza": 7661
   },
   "UsagiApp/Usagi": {
-   "estado": "vivo",
-   "stars": 288,
-   "push": "2026-10-30",
    "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
    "desc": "Just a simple, free and open-source manga reader for Android 5.0+",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "GPL-3.0",
+   "push": "2026-10-30",
+   "stars": 288,
+   "stars_pieza": 288,
    "release": "v1.2",
-   "release_fecha": "2026-10-03",
-   "stars_pieza": 286
+   "release_fecha": "2026-10-03"
   },
   "Chimahon/chimahon": {
-   "estado": "vivo",
-   "stars": 240,
-   "push": "2026-10-28",
    "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
    "desc": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and anime support, Novel EPUB reader, and instant Anki card mining.",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "GPL-3.0",
+   "push": "2026-10-28",
+   "stars": 240,
+   "stars_pieza": 240,
    "release": "v2.4.8",
-   "release_fecha": "2026-10-19",
-   "stars_pieza": 237
+   "release_fecha": "2026-10-19"
   },
   "Kareadita/Kavita": {
-   "estado": "vivo",
-   "stars": 11988,
-   "push": "2026-11-01",
    "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "C#",
    "desc": "Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.",
+   "estado": "vivo",
+   "lenguaje": "C#",
+   "licencia": "GPL-3.0",
+   "push": "2026-11-01",
+   "stars": 11988,
+   "stars_pieza": 11988,
    "release": "v0.9.1.4",
-   "release_fecha": "2026-09-02",
-   "stars_pieza": 11971
+   "release_fecha": "2026-09-02"
   },
   "roxycon-dev/Ciallo-Reader": {
    "estado": "vivo",
@@ -326,28 +326,28 @@
    "stars_pieza": null
   },
   "yomihon/yomihon": {
-   "estado": "vivo",
-   "stars": 142,
-   "push": "2026-10-18",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
    "desc": "Free and open source manga reader for Android - now with OCR (text recognition)",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-10-18",
+   "stars": 142,
+   "stars_pieza": 142,
    "release": "v0.4.3",
-   "release_fecha": "2026-10-18",
-   "stars_pieza": 140
+   "release_fecha": "2026-10-18"
   },
   "null2264/yokai": {
-   "estado": "vivo",
-   "stars": 1914,
-   "push": "2026-10-13",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
    "desc": "Free and open source manga reader for Android",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-10-13",
+   "stars": 1914,
+   "stars_pieza": 1914,
    "release": "v1.10.2",
-   "release_fecha": "2026-09-23",
-   "stars_pieza": 1912
+   "release_fecha": "2026-09-23"
   },
   "jakepurple13/OtakuWorld": {
    "estado": "vivo",
@@ -362,16 +362,16 @@
    "stars_pieza": 638
   },
   "gotson/komga": {
-   "estado": "vivo",
-   "stars": 6805,
-   "push": "2026-11-01",
    "archivado": false,
-   "licencia": "MIT",
-   "lenguaje": "Kotlin",
    "desc": "Media server for comics/mangas/BDs/magazines/eBooks with API, OPDS, Kobo Sync and KOReader Sync support",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "MIT",
+   "push": "2026-11-01",
+   "stars": 6805,
+   "stars_pieza": 6805,
    "release": "1.29.2",
-   "release_fecha": "2026-10-28",
-   "stars_pieza": 6797
+   "release_fecha": "2026-10-28"
   },
   "Snd-R/Komelia": {
    "estado": "vivo",
@@ -554,16 +554,16 @@
    "stars_pieza": 7968
   },
   "nekomangaorg/Neko": {
-   "estado": "vivo",
-   "stars": 2818,
-   "push": "2026-11-01",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
    "desc": "Unofficial MangaDex Reader for Android 8+",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-11-01",
+   "stars": 2818,
+   "stars_pieza": 2818,
    "release": "3.8.5",
-   "release_fecha": "2026-10-30",
-   "stars_pieza": null
+   "release_fecha": "2026-10-30"
   },
   "tachiyomiorg/tachiyomi": {
    "estado": "muerto",
@@ -581,64 +581,64 @@
    "stars_pieza": null
   },
   "mihonapp/mihon": {
-   "estado": "vivo",
-   "stars": 24926,
-   "push": "2026-10-26",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
    "desc": "Free and open source manga reader for Android",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-10-26",
+   "stars": 24927,
+   "stars_pieza": 24927,
    "release": "v0.21.3",
-   "release_fecha": "2026-10-25",
-   "stars_pieza": 24839
+   "release_fecha": "2026-10-25"
   },
   "komikku-app/komikku": {
-   "estado": "vivo",
-   "stars": 4964,
-   "push": "2026-11-01",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
    "desc": "Free and open source manga reader for Android",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-11-01",
+   "stars": 4964,
+   "stars_pieza": 4964,
    "release": "v1.14.1",
-   "release_fecha": "2026-07-17",
-   "stars_pieza": 4955
+   "release_fecha": "2026-07-17"
   },
   "Kototoro-app/Kototoro": {
-   "estado": "vivo",
-   "stars": 659,
-   "push": "2026-10-31",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
    "desc": "Manga, Novel, and Video reader for Android",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-10-31",
+   "stars": 659,
+   "stars_pieza": 659,
    "release": "v2.3.4",
-   "release_fecha": "2026-10-29",
-   "stars_pieza": 653
+   "release_fecha": "2026-10-29"
   },
   "aniyomiorg/aniyomi": {
-   "estado": "vivo",
-   "stars": 7865,
-   "push": "2026-09-14",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
    "desc": "An app for manga and anime",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-09-14",
+   "stars": 7865,
+   "stars_pieza": 7865,
    "release": "v0.18.2.1",
-   "release_fecha": "2026-09-14",
-   "stars_pieza": 7855
+   "release_fecha": "2026-09-14"
   },
   "kodjodevf/mangayomi": {
-   "estado": "vivo",
-   "stars": 4287,
-   "push": "2026-11-01",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Dart",
    "desc": "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows",
+   "estado": "vivo",
+   "lenguaje": "Dart",
+   "licencia": "Apache-2.0",
+   "push": "2026-11-01",
+   "stars": 4287,
+   "stars_pieza": 4287,
    "release": "v0.9.9",
-   "release_fecha": "2026-10-12",
-   "stars_pieza": 4272
+   "release_fecha": "2026-10-12"
   },
   "AngeloSha/uchiyomi": {
    "estado": "vivo",
@@ -785,28 +785,28 @@
    "stars_pieza": 947
   },
   "m2k3a/mangayomi-extensions": {
-   "estado": "vivo",
-   "stars": 113,
-   "push": "2026-10-29",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "JavaScript",
    "desc": "Public source extensions for the Mangayomi app.",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": null
+   "estado": "vivo",
+   "lenguaje": "JavaScript",
+   "licencia": "Apache-2.0",
+   "push": "2026-10-29",
+   "stars": 113,
+   "stars_pieza": 113,
+   "release": "",
+   "release_fecha": ""
   },
   "skepsun/kototoro-parsers": {
-   "estado": "vivo",
-   "stars": 17,
-   "push": "2026-10-28",
    "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
    "desc": "Manga parsers library for Kotlin/JVM and Android",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": null
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "GPL-3.0",
+   "push": "2026-10-28",
+   "stars": 17,
+   "stars_pieza": 17,
+   "release": "",
+   "release_fecha": ""
   },
   "aidoku-community/sources": {
    "estado": "vivo",
@@ -821,16 +821,16 @@
    "stars_pieza": null
   },
   "KotatsuApp/Kotatsu": {
-   "estado": "vivo",
-   "stars": 8946,
-   "push": "2025-11-04",
    "archivado": true,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
    "desc": "Manga reader for Android",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": 8943
+   "estado": "archivado",
+   "lenguaje": "Kotlin",
+   "licencia": "GPL-3.0",
+   "push": "2025-11-04",
+   "stars": 8946,
+   "stars_pieza": 8946,
+   "release": "",
+   "release_fecha": ""
   },
   "Koitharu/OpenManga": {
    "estado": "vivo",
@@ -1289,16 +1289,16 @@
    "stars_pieza": 462
   },
   "Suwayomi/tachiyomi-extension": {
-   "estado": "vivo",
-   "stars": 345,
-   "push": "2026-09-19",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
    "desc": "Suwayomi Extension for Tachiyomi and variants",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": 346
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-09-19",
+   "stars": 345,
+   "stars_pieza": 345,
+   "release": "",
+   "release_fecha": ""
   },
   "Aidoku-Community/sources": {
    "estado": "vivo",
@@ -1529,16 +1529,16 @@
    "stars_pieza": null
   },
   "Jays2Kings/tachiyomiJ2K": {
-   "estado": "vivo",
-   "stars": 5399,
-   "push": "2026-11-01",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
    "desc": "Free and open source manga reader for Android",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-11-01",
+   "stars": 5399,
+   "stars_pieza": 5399,
    "release": "v1.8.1",
-   "release_fecha": "2026-08-15",
-   "stars_pieza": 5399
+   "release_fecha": "2026-08-15"
   },
   "komikku-app/anikku": {
    "estado": "vivo",
@@ -2838,16 +2838,16 @@
    "stars_pieza": 0
   },
   "jobobby04/TachiyomiSY": {
-   "estado": "vivo",
-   "stars": 4199,
-   "push": "2026-11-01",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
    "desc": "Free and open source manga reader for Android",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-11-01",
+   "stars": 4199,
+   "stars_pieza": 4199,
    "release": "1.13.2",
-   "release_fecha": "2026-07-13",
-   "stars_pieza": 4196
+   "release_fecha": "2026-07-13"
   },
   "syncyomi/syncyomi": {
    "estado": "vivo",
@@ -4977,16 +4977,16 @@
    "stars_pieza": 10550
   },
   "Aidoku/Aidoku": {
-   "estado": "vivo",
-   "stars": 4682,
-   "push": "2026-10-31",
    "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Swift",
    "desc": "Manga reading app for iOS, iPadOS, and macOS",
+   "estado": "vivo",
+   "lenguaje": "Swift",
+   "licencia": "GPL-3.0",
+   "push": "2026-10-31",
+   "stars": 4683,
+   "stars_pieza": 4683,
    "release": "v0.9-4",
-   "release_fecha": "2026-10-16",
-   "stars_pieza": 4675
+   "release_fecha": "2026-10-16"
   },
   "KolbyML/Manatan": {
    "estado": "vivo",
@@ -6175,16 +6175,16 @@
    "stars_pieza": 11301
   },
   "Suwatte/Suwatte": {
-   "estado": "vivo",
-   "stars": 237,
-   "push": "2026-03-11",
    "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Swift",
    "desc": "Manga/Comic Reading App for iOS",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": 237
+   "estado": "vivo",
+   "lenguaje": "Swift",
+   "licencia": "GPL-3.0",
+   "push": "2026-03-11",
+   "stars": 237,
+   "stars_pieza": 237,
+   "release": "",
+   "release_fecha": ""
   },
   "Shadyteal2/QuickNovel-Enhanced": {
    "estado": "vivo",
@@ -8596,6 +8596,66 @@
    "desc": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
    "release": "v2026.10.26",
    "release_fecha": "2026-10-26"
+  },
+  "suwayomi/Suwayomi-Server": {
+   "archivado": false,
+   "desc": "A rewrite of Tachiyomi for the Desktop",
+   "estado": "vivo",
+   "lenguaje": "Java",
+   "licencia": "MPL-2.0",
+   "push": "2026-11-01",
+   "stars": 7984,
+   "stars_pieza": 7984,
+   "release": "v2.4.2366",
+   "release_fecha": "2026-09-30"
+  },
+  "KotatsuApp/kotatsu-parsers": {
+   "archivado": true,
+   "desc": "Manga parsers library for Kotlin/JVM and Android",
+   "estado": "archivado",
+   "lenguaje": "Kotlin",
+   "licencia": "GPL-3.0",
+   "push": "2025-11-03",
+   "stars": 323,
+   "stars_pieza": 323,
+   "release": "1.7",
+   "release_fecha": "2025-03-15"
+  },
+  "Suwayomi/Tachidesk-Sorayomi": {
+   "archivado": true,
+   "desc": "A free and open source manga reader app to read manga from a Tachidesk-Server instance.",
+   "estado": "archivado",
+   "lenguaje": "Dart",
+   "licencia": "MPL-2.0",
+   "push": "2025-07-09",
+   "stars": 1574,
+   "stars_pieza": 1574,
+   "release": "0.6.3",
+   "release_fecha": "2025-02-22"
+  },
+  "Suwayomi/Tachidesk-Server": {
+   "archivado": false,
+   "desc": "A rewrite of Tachiyomi for the Desktop",
+   "estado": "vivo",
+   "lenguaje": "Java",
+   "licencia": "MPL-2.0",
+   "push": "2026-11-01",
+   "stars": 7984,
+   "stars_pieza": 7984,
+   "release": "v2.4.2366",
+   "release_fecha": "2026-09-30"
+  },
+  "Komikku-app/komikku-extensions": {
+   "archivado": false,
+   "desc": "Source code of extensions for Komikku / Mihon & forks.",
+   "estado": "vivo",
+   "lenguaje": "Kotlin",
+   "licencia": "Apache-2.0",
+   "push": "2026-11-01",
+   "stars": 953,
+   "stars_pieza": 953,
+   "release": "",
+   "release_fecha": ""
   }
  },
  "enlaces": {
