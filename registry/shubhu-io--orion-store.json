@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-07-16"
  },
- "descripcion": "The ultimate home for modded apps. OrionStore offers instant access to YouTube M",
+ "descripcion": "The ultimate home for modded apps. OrionStore offers instant access to YouTube Morphe, YT Music Morphe, and essential open-source tools without the clutter. No servers, no tracking, just a beautiful, modern gateway to the apps you love.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#shubhu-io/Orion-Store",
-  "sha256": "4c36719560b25ad9a0f0830a917b4f7a23c1486a9e76d510de4f205b215f5fce"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/shubhu-io--orion-store.json",
+  "sha256": "670e122b1903b7cca19c629b1534e1afe82b72bec173816338bcc3a6a16b073c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "shubhu-io--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "Orion-Store",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "shubhu-io/Orion-Store"
+ "repo": "shubhu-io/Orion-Store",
+ "web": "https://rookieenough.github.io/Orion-Docs"
 }

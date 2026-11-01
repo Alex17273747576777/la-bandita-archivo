@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2026-05-06"
  },
- "descripcion": "The first AI-powered manga reader for Android. Features semantic search (RAG), l",
+ "descripcion": "The first AI-powered manga reader for Android. Features semantic search (RAG), library intelligence, and contextual AI chat. Built on Mihon/Tachiyomi.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Ramsesdb/gexu-legacy-fork",
-  "sha256": "f9d592ea04b851e755d333ac7a0cfdd0639d3170574931e361f2a06c658e4b74"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ramsesdb--gexu-legacy-fork.json",
+  "sha256": "ef31837b720b934459627d64260a4d4dcecbf3b89b9a6384f055522301e145f0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "ramsesdb--gexu-legacy-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 5,
-  "stars_por_mes": 0.1
+  "stars_por_mes": null
  },
  "nombre": "gexu-legacy-fork",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "Ramsesdb/gexu-legacy-fork"

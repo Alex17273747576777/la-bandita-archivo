@@ -8,36 +8,39 @@
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#renuac85/Vectras-VM-Android",
-  "sha256": "ff03aa7fec8bb3448188b0ba755b39afd3836457360d7aac9510f764a5081311"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/renuac85--vectras-vm-android.json",
+  "sha256": "f0138d258279b2cb2025593d88ea3dfbfc60f6410bb1cb748a787fe850a2fc13"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "renuac85--vectras-vm-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "Vectras-VM-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "renuac85/Vectras-VM-Android"
+ "repo": "renuac85/Vectras-VM-Android",
+ "web": "https://vectras.vercel.app"
 }

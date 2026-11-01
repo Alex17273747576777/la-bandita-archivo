@@ -8,13 +8,13 @@
  },
  "descripcion": "一款用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#crazycodeboy/TakePhoto",
-  "sha256": "a2fcfd790e8f2f921f7b8b4005512baa69efc94ead2a1b785d1d9a4c852bbba3"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/crazycodeboy--takephoto.json",
+  "sha256": "ae97ba89e27c21a63dd519461e6ff8dbf17ed064022add183f7f2848aa2959e9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7210,
-  "stars_por_mes": 53.6
+  "stars": 7209,
+  "stars_por_mes": null
  },
  "nombre": "TakePhoto",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "crazycodeboy/TakePhoto"
+ "repo": "crazycodeboy/TakePhoto",
+ "web": "http://www.devio.org/tags/#TakePhoto"
 }

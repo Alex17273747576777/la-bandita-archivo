@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
@@ -8,13 +8,13 @@
  },
  "descripcion": "Simple, easy to use Podcast player app written in Flutter and Dart.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#amugofjava/anytime_podcast_player",
-  "sha256": "12e9a3c29e8db09e49ee3979ae1315327fecf2606aab876a753388127e5f26c9"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/amugofjava--anytime_podcast_player.json",
+  "sha256": "8ddf4986648c187597e5a38bb3282401205c12ed680558cfe484a718a063b6e1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 623,
-  "stars_por_mes": 8.2
+  "stars": 626,
+  "stars_por_mes": null
  },
  "nombre": "anytime_podcast_player",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "amugofjava/anytime_podcast_player"

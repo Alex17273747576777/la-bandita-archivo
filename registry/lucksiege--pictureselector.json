@@ -8,13 +8,13 @@
  },
  "descripcion": "Picture Selector Library for Android or 图片选择器",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#LuckSiege/PictureSelector",
-  "sha256": "cab7c589a3c75ea67d4d2892bcd5c8338111b09332682e549a5fe629d5bf4253"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lucksiege--pictureselector.json",
+  "sha256": "cad065002d54a3c7fc3cbe7df46d25659653241d3df120cb485a0d8281a82bc7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13587,
-  "stars_por_mes": 115.7
+  "stars": 13582,
+  "stars_por_mes": null
  },
  "nombre": "PictureSelector",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "LuckSiege/PictureSelector"

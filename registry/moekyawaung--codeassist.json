@@ -1,20 +1,20 @@
 {
  "actividad": {
-  "estado": "dormido",
+  "estado": "muerto",
   "release_en": null,
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": null,
-  "ultimo_push": "2023-11-09"
+  "ultimo_push": null
  },
- "descripcion": "Experimental IDE for building Android applicatons on Android.",
+ "descripcion": "repositorio no encontrado al medir (HTTP 404)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Moekyawaung/CodeAssist",
-  "sha256": "af25bf7fe53ebae6814a26dc07c8e54be1d13343955c83fa0d244167cff2ab61"
+  "nota": "no hay payload que guardar: la ausencia es el dato",
+  "payload_ref": "respuesta 404 de la API",
+  "sha256": "5edf3684da83923c664ca51de7e0c319f22158f3eab0235f3ffb0859a036b00a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos devolvió 404: el repositorio no existe o fue retirado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8,
-  "stars_por_mes": 0.1
+  "stars": null,
+  "stars_por_mes": null
  },
  "nombre": "CodeAssist",
  "piezas": [],

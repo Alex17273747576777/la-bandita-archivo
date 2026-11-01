@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-08-17"
  },
- "descripcion": "GPS-denied drone navigation layer: optical flow + offline map geo-match + EKF → MAVLink (sim-validat",
+ "descripcion": "GPS-denied drone navigation layer: optical flow + offline map geo-match + EKF → MAVLink (sim-validated).",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Fratres-X-AI/JamBoy",
-  "sha256": "b162577550ac9dabd16b1e5abfb5420b61690e1857257c38156426ee5611e2be"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fratres-x-ai--jamboy.json",
+  "sha256": "b36774883b3cd89adb71274809cec4d9095cfa52307341c69242f3dba3f88fe5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 135,
-  "stars_por_mes": 46.1
+  "stars": 136,
+  "stars_por_mes": null
  },
  "nombre": "JamBoy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Fratres-X-AI/JamBoy"
+ "repo": "Fratres-X-AI/JamBoy",
+ "web": "--disable-wiki"
 }

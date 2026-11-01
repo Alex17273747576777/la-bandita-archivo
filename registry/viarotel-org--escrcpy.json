@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-10"
+  "ultimo_push": "2026-10-26"
  },
  "descripcion": "📱 Display and control your Android device graphically with scrcpy.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#viarotel-org/escrcpy",
-  "sha256": "98d630932b7aa6ca7b6bb7c3504110bb497ba5702a9f1aac1270efa49d2e4dcb"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/viarotel-org--escrcpy.json",
+  "sha256": "cceb649c2d87d1d19c199a9e4d1a66c02ddc26adba11e4d79bd08981f16be4e5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12075,
-  "stars_por_mes": 326.0
+  "stars": 12251,
+  "stars_por_mes": null
  },
  "nombre": "escrcpy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "viarotel-org/escrcpy"
+ "repo": "viarotel-org/escrcpy",
+ "web": "https://viarotel.eu.org/"
 }

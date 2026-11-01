@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-06"
+  "ultimo_push": "2026-10-18"
  },
- "descripcion": "KitsuX is a modern open-source anime and manga platform based on Aniyomi, featuring a Netflix-inspir",
+ "descripcion": "KitsuX is a modern open-source anime and manga platform based on Aniyomi, featuring a Netflix-inspired UI, smart recommendations powered by Jikan, dynamic easter eggs, and full extension ecosystem compatibility. Ad-free, privacy-focused, and designed for a seamless user experience.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#richtunic/Kitsu-X",
-  "sha256": "4d768389982f78ea9d94e30607c2d1cb5c6b22beae440b8c9633e54efe02050e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/richtunic--kitsu-x.json",
+  "sha256": "ea6b2d9a298fb598d7eeeb717cab907f171d34cf4b4fb67cab12ec37c86db64a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
-  "stars_por_mes": 3.9
+  "stars": 17,
+  "stars_por_mes": null
  },
  "nombre": "Kitsu-X",
  "piezas": [
@@ -39,6 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "richtunic/Kitsu-X"

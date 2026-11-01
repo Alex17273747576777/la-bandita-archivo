@@ -8,36 +8,39 @@
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#fahimfazledev-glitch/vectras-vm-android",
-  "sha256": "32573800c6c52fcb2f8f3a9f22f242d9311bf2eaa0c570ba3c0619b4375d3642"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fahimfazledev-glitch--vectras-vm-android.json",
+  "sha256": "11373df401be94f1b430c11e3f72af316616550d40a4f08ef8e48d4e07ff5901"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "fahimfazledev-glitch--vectras-vm-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "vectras-vm-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "fahimfazledev-glitch/vectras-vm-android"
+ "repo": "fahimfazledev-glitch/vectras-vm-android",
+ "web": "https://vectras.vercel.app"
 }

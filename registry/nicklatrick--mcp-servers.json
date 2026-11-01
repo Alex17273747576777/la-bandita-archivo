@@ -8,36 +8,39 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#nicklatrick/mcp-servers",
-  "sha256": "857a717189d2e6d5511f0c883e467f3ca16dab125ec225f6934256f674a99f4c"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nicklatrick--mcp-servers.json",
+  "sha256": "349de4ce6ed8f2576d5d6c83e31aac80734e2171296440666b1d9a7b1d43c3ea"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "nicklatrick--mcp-servers",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "mcp-servers",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "nicklatrick/mcp-servers"
+ "repo": "nicklatrick/mcp-servers",
+ "web": "https://modelcontextprotocol.io"
 }

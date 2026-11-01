@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-08-31"
  },
- "descripcion": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber l",
+ "descripcion": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#insxnsive/airi",
-  "sha256": "777e81a4ad8446b6d5bc00bdbd4fd811cdeb13f6a0e2fd050889ab4ebae5c3c2"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/insxnsive--airi.json",
+  "sha256": "9d1882c708ae766b80a152541ff4c6d149ad799c85de4b889aeac5f92de53553"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "insxnsive--airi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "airi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "insxnsive/airi"
+ "repo": "insxnsive/airi",
+ "web": "https://airi.moeru.ai/docs/"
 }

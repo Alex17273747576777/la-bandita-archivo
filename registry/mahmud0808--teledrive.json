@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-14"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "Turn a private Telegram channel into your personal cloud drive. Android, Windows, Linux and macOS, a",
+ "descripcion": "Turn a private Telegram channel into your personal cloud drive. Android, Windows, Linux and macOS, auto backup, optional E2E encryption, built-in file manager and player.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Mahmud0808/TeleDrive",
-  "sha256": "7ae4d0647329f8fa72ab2d043b03c02ba5b614004eab9d716e84a318a80ca204"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mahmud0808--teledrive.json",
+  "sha256": "7379ef8c20a503a51e23733f86e5663f1756ad9a7637d7ce1c6c6497bce2d124"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 283,
-  "stars_por_mes": 156.4
+  "stars": 410,
+  "stars_por_mes": null
  },
  "nombre": "TeleDrive",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Mahmud0808/TeleDrive"
+ "repo": "Mahmud0808/TeleDrive",
+ "web": "https://mahmud0808.github.io/TeleDrive/"
 }

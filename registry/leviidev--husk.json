@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-14"
+  "ultimo_push": "2026-11-01"
  },
- "descripcion": "2.0",
+ "descripcion": "Run Android on iOS. Natively or Emulated.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Leviidev/Husk",
-  "sha256": "29c9dadbaa3e42558d5a181ab1d4e945eb82be0149b2ba390bb8bf3f0d25e204"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/leviidev--husk.json",
+  "sha256": "9ebcabdd538d7e655e765b7e2175bf9ebf888a9f1fb4113e63b0d04b031657c0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1974,
-  "stars_por_mes": 19.9
+  "stars": 2903,
+  "stars_por_mes": null
  },
  "nombre": "Husk",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Leviidev/Husk"
+ "repo": "Leviidev/Husk",
+ "web": "https://itslevii.dev"
 }

@@ -8,13 +8,13 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Jacekun/CloudStream-3XXX",
-  "sha256": "e42d09f8e2c1f3d94af177910453b17ab60ddf6721e5251bb040dd2439e5f9ed"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jacekun--cloudstream-3xxx.json",
+  "sha256": "280964e24e6562b3a1c619784bba65729f3b9a4541b27116edbc3fe4d0e2efb3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 193,
-  "stars_por_mes": 3.3
+  "stars": 196,
+  "stars_por_mes": null
  },
  "nombre": "CloudStream-3XXX",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "Jacekun/CloudStream-3XXX"

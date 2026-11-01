@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-30"
  },
- "descripcion": "Adaptive native Nextcloud client for mobile and desktop, with dynamic support for the wider Nextclou",
+ "descripcion": "Adaptive native Nextcloud client for mobile and desktop, with dynamic support for the wider Nextcloud app ecosystem.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Obiente/native",
-  "sha256": "f2f2318534aeb9fb95961c23a5181840c545e4ac1603d3b0460abd08f9849b5e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/obiente--native.json",
+  "sha256": "91762aca3ccfb4d7c5c267c2691f1ee6971f473bea2c37b42c1a5a9d7b13fd28"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 714,
-  "stars_por_mes": 261.5
+  "stars": 726,
+  "stars_por_mes": null
  },
  "nombre": "native",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Obiente/native"
+ "repo": "Obiente/native",
+ "web": "https://nati.ve"
 }

@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-09"
+  "ultimo_push": "2026-10-30"
  },
  "descripcion": "ADB in your browser",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#yume-chan/ya-webadb",
-  "sha256": "7d11fb61bbfe11c68b3b9f35cab465f90ceb9714c8ea62ae48f5750dd9267131"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yume-chan--ya-webadb.json",
+  "sha256": "ccfb1a7444ab9fb0a150b1d2c1e4ef99100c10638ce89e46c0cf44756e90e6fa"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3248,
-  "stars_por_mes": 40.3
+  "stars": 3261,
+  "stars_por_mes": null
  },
  "nombre": "ya-webadb",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "yume-chan/ya-webadb"
+ "repo": "yume-chan/ya-webadb",
+ "web": "https://tangoadb.dev/"
 }

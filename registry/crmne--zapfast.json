@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "ZapFast: a fast, native WhatsApp client in Rust and egui",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#crmne/zapfast",
-  "sha256": "42dd38544c9b1b573ce3eecddeac88416e8e736d97b30745eef790d66fb0ee71"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/crmne--zapfast.json",
+  "sha256": "35ec40c2da410f1aa613f6381a123902f3348583a2c4e39be1ecdf2b7138fada"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1912,
-  "stars_por_mes": 1236.7
+  "stars": 2332,
+  "stars_por_mes": null
  },
  "nombre": "zapfast",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "crmne/zapfast"
+ "repo": "crmne/zapfast",
+ "web": "https://zapfast.rocks/"
 }

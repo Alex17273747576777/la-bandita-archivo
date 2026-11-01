@@ -8,29 +8,30 @@
  },
  "descripcion": "Standalone implementation of Zygisk",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Dr-TSNG/ZygiskNext",
-  "sha256": "40f10bf17a32517aea957a6972581d0c002f2d60a9d4ceacf36e64c3d9b0ef9f"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dr-tsng--zygisknext.json",
+  "sha256": "a78e38d9bae025c20678cba8142151dcd7e106b88522e8a4cc5dccc8350e265b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "dr-tsng--zygisknext",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
+  "archivo": "README (varias licencias)",
+  "metodo": "texto-license",
+  "nota": "ambiguo: el README menciona GPL-3.0, mit; requiere lectura humana",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10606,
-  "stars_por_mes": 237.8
+  "stars": 10770,
+  "stars_por_mes": null
  },
  "nombre": "ZygiskNext",
  "piezas": [
@@ -39,6 +40,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "Dr-TSNG/ZygiskNext"

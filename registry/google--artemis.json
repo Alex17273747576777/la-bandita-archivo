@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-10-01"
  },
- "descripcion": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-en",
+ "descripcion": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#google/artemis",
-  "sha256": "1f06c31a4d3d764635344e4388d30342c9f084384a6854392ffd4809c64ca973"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/google--artemis.json",
+  "sha256": "ae449d15d7f3c6dfdfb6ea924e52f25677a248b5dfeca5136d358abc6d0c76e4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 11807,
-  "stars_por_mes": 5697.3
+  "stars": 15950,
+  "stars_por_mes": null
  },
  "nombre": "artemis",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "google/artemis"

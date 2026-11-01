@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-07-30"
  },
- "descripcion": "html5 js 录音 mp3 wav ogg webm amr g711a g711u 格式，支持pc和Android、iOS部分Web浏览器、Hybrid App（提供Android iOS Ap",
+ "descripcion": "html5 js 录音 mp3 wav ogg webm amr g711a g711u 格式，支持pc和Android、iOS部分Web浏览器、Hybrid App（提供Android iOS App源码）、微信，提供ASR语音识别转文字 H5版语音通话聊天示例 DTMF编码解码",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#xiangyuecn/Recorder",
-  "sha256": "75b9ffd2794762d8e019ed6406b3c0474c3a4ce8967cd3b43a0bb61d8f27c430"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xiangyuecn--recorder.json",
+  "sha256": "3c3739b04e75f08d27f0ad020b99638d945b87e491fc5902226ce68ab0fa59c8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5638,
-  "stars_por_mes": 55.8
+  "stars": 5643,
+  "stars_por_mes": null
  },
  "nombre": "Recorder",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "xiangyuecn/Recorder"
+ "repo": "xiangyuecn/Recorder",
+ "web": "https://xiangyuecn.github.io/Recorder/"
 }

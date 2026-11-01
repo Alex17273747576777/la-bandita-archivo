@@ -8,13 +8,13 @@
  },
  "descripcion": "A free and open source manga reader app to read manga from a Tachidesk-Server instance.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Suwayomi/Tachidesk-Sorayomi",
-  "sha256": "03d5e6191c8597cfc3690e848ef3460882521152a4609083e2401bc3c43b225d"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/suwayomi--tachidesk-sorayomi.json",
+  "sha256": "2cc753e64dee3c3167fca0763ed230549f8d26bdbd611b836c263fa698092775"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1574,
-  "stars_por_mes": 27.6
+  "stars_por_mes": null
  },
  "nombre": "Tachidesk-Sorayomi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Suwayomi/Tachidesk-Sorayomi"
+ "repo": "Suwayomi/Tachidesk-Sorayomi",
+ "web": "https://suwayomi.github.io/Tachidesk-Sorayomi/"
 }

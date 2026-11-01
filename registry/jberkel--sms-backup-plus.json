@@ -8,13 +8,13 @@
  },
  "descripcion": "Backup Android SMS, MMS and call log to Gmail / Gcal / IMAP",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#jberkel/sms-backup-plus",
-  "sha256": "3f61e6ca6082060e8b8f0a3b4633352440ebdca78608c5508d255d1f268d43c6"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jberkel--sms-backup-plus.json",
+  "sha256": "4ea6ccdb3806311603c6079a38461026543b25f35d142eb3e9c9ea8e83a36743"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1898,
-  "stars_por_mes": 9.4
+  "stars": 1899,
+  "stars_por_mes": null
  },
  "nombre": "sms-backup-plus",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "jberkel/sms-backup-plus"
+ "repo": "jberkel/sms-backup-plus",
+ "web": "https://play.google.com/store/apps/details?id=com.zegoggles.smssync"
 }

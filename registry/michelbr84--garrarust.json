@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-11-01"
  },
- "descripcion": "All state — conversations, memory, config, credentials — is stored on your machine, and there is no",
+ "descripcion": "All state — conversations, memory, config, credentials — is stored on your machine, and there is no telemetry or analytics phone-home. Your prompts go only to the LLM provider you configure; run Ollama for a fully offline, zero-egress setup.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#michelbr84/GarraRUST",
-  "sha256": "97e94b73b50e76265b727f452536b4708b1772051dfca97efd09478b7e3790e6"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/michelbr84--garrarust.json",
+  "sha256": "447d37fdc86ec85f8976e485053cf852b8c07b393f3c087525e9cc1abc15209a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 18,
-  "stars_por_mes": 2.3
+  "stars_por_mes": null
  },
  "nombre": "GarraRUST",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "michelbr84/GarraRUST"
+ "repo": "michelbr84/GarraRUST",
+ "web": "https://garraia.org"
 }

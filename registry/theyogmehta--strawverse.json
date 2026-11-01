@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-14"
+  "ultimo_push": "2026-10-25"
  },
- "descripcion": "A fast, open-source anime and manga downloader for Windows, Linux, and Android with batch downloads,",
+ "descripcion": "A fast, open-source anime and manga downloader for Windows, Linux, and Android with batch downloads, subtitles, multiple sources, quality selection, and MyAnimeList integration.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#TheYogMehta/StrawVerse",
-  "sha256": "73d9e9d373ddbffcf3d51334332f90d7c4e67887b948a686e589c86fecb51010"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/theyogmehta--strawverse.json",
+  "sha256": "64ff58e7a89fa5b6275c03358e0bca4be5dcf39d7ac9c13b313c5f1b89999dbe"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 83,
-  "stars_por_mes": 2.7
+  "stars": 86,
+  "stars_por_mes": null
  },
  "nombre": "StrawVerse",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "TheYogMehta/StrawVerse"
+ "repo": "TheYogMehta/StrawVerse",
+ "web": "https://strawverse.theyogmehta.online/"
 }

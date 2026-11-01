@@ -8,36 +8,40 @@
  },
  "descripcion": "安卓学习笔记",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#GcsSloop/AndroidNote",
-  "sha256": "f861929d0a601a1f5c427cde262f4ada7bc17ea556ded268a473a8ba563f0245"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/gcssloop--androidnote.json",
+  "sha256": "0876a6eae5cfbef1060cafcac8ec9971bae3e4242573b46496c9d79d1e09ef8e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "gcssloop--androidnote",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "archivo": "README (texto completo)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "Creative Commons BY-NC-ND 4.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9340,
-  "stars_por_mes": 72.1
+  "stars": 9345,
+  "stars_por_mes": null
  },
  "nombre": "AndroidNote",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "GcsSloop/AndroidNote"
+ "repo": "GcsSloop/AndroidNote",
+ "web": "http://www.gcssloop.com/#blog"
 }

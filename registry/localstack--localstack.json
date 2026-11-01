@@ -8,36 +8,39 @@
  },
  "descripcion": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#localstack/localstack",
-  "sha256": "4687251440cf8158f30beff5edaf9efb166219fc58f93acbdbce762b3d46c267"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/localstack--localstack.json",
+  "sha256": "0b7753a3b9869134db0554ebe031d69eaee24157fc201197313c6d691a19664c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "localstack--localstack",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE.txt",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 65137,
-  "stars_por_mes": 543.7
+  "stars": 65127,
+  "stars_por_mes": null
  },
  "nombre": "localstack",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "localstack/localstack"
+ "repo": "localstack/localstack",
+ "web": "https://localstack.cloud"
 }

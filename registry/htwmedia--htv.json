@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-12"
+  "ultimo_push": "2026-10-30"
  },
- "descripcion": "A live media player app（电视直播软件）",
+ "descripcion": "📺 免费无广告的电视直播 App｜央视/卫视/地方台｜手机与电视盒子通用｜Free IPTV live TV player for Android & Android TV",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HTWMedia/HTV",
-  "sha256": "c04b23dc1ab738f733a1a48684e9c205ca64f601750f4c58ccf323d3b8283947"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/htwmedia--htv.json",
+  "sha256": "9285f9aa168c72a7edfcd0a22bd4c841f92e0c5f6b4be5290fab61c933a45cf6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 786,
-  "stars_por_mes": 26.8
+  "stars": 811,
+  "stars_por_mes": null
  },
  "nombre": "HTV",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "HTWMedia/HTV"
+ "repo": "HTWMedia/HTV",
+ "web": "https://htwmedia.dpdns.org/Home/Download"
 }

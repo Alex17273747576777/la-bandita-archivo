@@ -8,13 +8,13 @@
  },
  "descripcion": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#justjavac/free-programming-books-zh_CN",
-  "sha256": "382651f54c383f69189b3540d9d267fed08a4861ca341b52eb74b7ddf20db0d8"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/justjavac--free-programming-books-zh_cn.json",
+  "sha256": "eb513e722cf05143b8a256a2eb9f89c31f40950b782a99d996a0fd270441d398"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 119215,
-  "stars_por_mes": 766.5
+  "stars": 119462,
+  "stars_por_mes": null
  },
  "nombre": "free-programming-books-zh_CN",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "justjavac/free-programming-books-zh_CN"
+ "repo": "justjavac/free-programming-books-zh_CN",
+ "web": "http://weibo.com/justjavac"
 }

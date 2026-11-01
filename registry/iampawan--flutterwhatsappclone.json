@@ -8,35 +8,38 @@
  },
  "descripcion": "Building a WhatsApp Clone in Flutter.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#iampawan/FlutterWhatsAppClone",
-  "sha256": "65b59f3f62782c3897eb3752abf57b399268af26f30f9bfb79e3fbba4c543cda"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/iampawan--flutterwhatsappclone.json",
+  "sha256": "ddabcf6b52a172fcd9cf45f14083452c45ba38cc5588b824d712e3f4f098d09b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "iampawan--flutterwhatsappclone",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "archivo": "README (sección License)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "mit",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1760,
-  "stars_por_mes": 17.2
+  "stars": 1761,
+  "stars_por_mes": null
  },
  "nombre": "FlutterWhatsAppClone",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "iampawan/FlutterWhatsAppClone"

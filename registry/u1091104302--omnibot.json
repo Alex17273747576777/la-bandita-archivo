@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-09-30"
  },
- "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
+ "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务 ",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#u1091104302/OmniBot",
-  "sha256": "a95a9ded37e480d95fd810fa4c604dbb6d4756d561afc1d57aa29182b4ddc91e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/u1091104302--omnibot.json",
+  "sha256": "e38457b22d06fa01967f6eba349b74fb8e5590166b04bbca7b4c6b530a0cd666"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "u1091104302--omnibot",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "OmniBot",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "u1091104302/OmniBot"
+ "repo": "u1091104302/OmniBot",
+ "web": "https://omnibot.omnimind.com.cn"
 }

@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-14"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with",
+ "descripcion": "  A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#GopeedLab/gopeed",
-  "sha256": "551fd52da69ae8fd01c48cc3300e79300a1f16be2c7f1ad42f20d641b9bcbb14"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/gopeedlab--gopeed.json",
+  "sha256": "1c2cb3e4c96124bc7213117d302746dab936c93955f5d8f6d3cd503e8a448ef7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 26936,
-  "stars_por_mes": 299.5
+  "stars": 27295,
+  "stars_por_mes": null
  },
  "nombre": "gopeed",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "GopeedLab/gopeed"
+ "repo": "GopeedLab/gopeed",
+ "web": "https://gopeed.com"
 }

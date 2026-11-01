@@ -8,13 +8,13 @@
  },
  "descripcion": "Mario Builder 64 is a Super Mario 64 ROM hack that allows you to create custom levels in-game.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#arthurtilly/Mario-Builder-64",
-  "sha256": "8f452b45f177386d59dbeef7302a951f1a10f240753d02dcfa948745524a9e6e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/arthurtilly--mario-builder-64.json",
+  "sha256": "b55ddf680ef4fa8506a7d18d17da02e92d9b551f1fd5ff51f7bccbf53f4ae625"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 419,
-  "stars_por_mes": 14.5
+  "stars": 420,
+  "stars_por_mes": null
  },
  "nombre": "Mario-Builder-64",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "arthurtilly/Mario-Builder-64"

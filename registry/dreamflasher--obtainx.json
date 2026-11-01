@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-03-31"
  },
- "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
+ "descripcion": "Get Android app updates straight from the source. And install it any way you want. ",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dreamflasher/ObtainX",
-  "sha256": "e28d22d3116625efd9d2b07a9fa2e6688a663106b6829ab45b6c42c3d0f8f1ad"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dreamflasher--obtainx.json",
+  "sha256": "6e07b313662a4d1fcfced5a016acdaa88503b076ade1802d11d2ca7911d80c01"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "dreamflasher--obtainx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 6,
-  "stars_por_mes": 0.1
+  "stars_por_mes": null
  },
  "nombre": "ObtainX",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "dreamflasher/ObtainX"
+ "repo": "dreamflasher/ObtainX",
+ "web": "https://obtainium.imranr.dev"
 }

@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-09-28"
  },
- "descripcion": "🌌 Obsidian Music: A premium, beautifully crafted local music player for Android. Built with Jetpack",
+ "descripcion": "🌌 Obsidian Music: A premium, beautifully crafted local music player for Android. Built with Jetpack Compose, ExoPlayer, and stunning modern aesthetics🎧✨",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Varun7009/Obsidian-Music",
-  "sha256": "993c408b10cfbe05527a35960c652eff271af346bfdb6eafae1f05500fe58ab7"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/varun7009--obsidian-music.json",
+  "sha256": "895ed449318dbd333d173018c690973618c0adc5cfbc6991d2b40137ce82f522"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 287,
-  "stars_por_mes": 111.9
+  "stars": 310,
+  "stars_por_mes": null
  },
  "nombre": "Obsidian-Music",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "Varun7009/Obsidian-Music"

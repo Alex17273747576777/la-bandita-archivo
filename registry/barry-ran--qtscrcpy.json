@@ -8,13 +8,13 @@
  },
  "descripcion": "Android real-time display control software",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#barry-ran/QtScrcpy",
-  "sha256": "f6b7a7d6db95322bab158804d79279eb4625e211f9eb38f03771a6fec106b58a"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/barry-ran--qtscrcpy.json",
+  "sha256": "c7f97bf5292a773b15d6ef00aa99e503a5f4fcbfafce0137ee763cc41aeb690c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 32417,
-  "stars_por_mes": 369.0
+  "stars": 32659,
+  "stars_por_mes": null
  },
  "nombre": "QtScrcpy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "barry-ran/QtScrcpy"
+ "repo": "barry-ran/QtScrcpy",
+ "web": "https://blog.csdn.net/rankun1/article/details/87970523"
 }

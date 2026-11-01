@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-10"
+  "ultimo_push": "2026-10-27"
  },
- "descripcion": "Watch tv shows, movies, anime and read manga in singe app. On android (with android tv), windows and",
+ "descripcion": "Watch tv shows, movies, anime and read manga in singe app. On android (with android tv), windows and linux.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#strumok-app/strumok",
-  "sha256": "6a18712c67d620e479497481687f2ccaed6f6446d3f153c6d7749e6be8f5e9ef"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/strumok-app--strumok.json",
+  "sha256": "1e964f35656f00b24647b973de0aefa66b5d1873f56dc8bb8da14a31592b96e8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 75,
-  "stars_por_mes": 3.3
+  "stars": 77,
+  "stars_por_mes": null
  },
  "nombre": "strumok",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "strumok-app/strumok"

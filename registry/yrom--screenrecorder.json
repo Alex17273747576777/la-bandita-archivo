@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2022-09-07"
  },
- "descripcion": "Implement screen capture without root on Android 5.0+ by using MediaProjectionManager, VirtualDispla",
+ "descripcion": "Implement screen capture without root on Android 5.0+ by using MediaProjectionManager, VirtualDisplay, AudioRecord, MediaCodec and MediaMuxer APIs",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#yrom/ScreenRecorder",
-  "sha256": "468c48c1daa69db4931439948f267a816272b20eb6f65c795c7fb4e8fa5fc17c"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yrom--screenrecorder.json",
+  "sha256": "89dfc480b013fe5bebd4688889a3e6952b468ae0ed8266ee6cf4b0cc172543e8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1906,
-  "stars_por_mes": 13.3
+  "stars": 1908,
+  "stars_por_mes": null
  },
  "nombre": "ScreenRecorder",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "yrom/ScreenRecorder"

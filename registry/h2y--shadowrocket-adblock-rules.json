@@ -8,36 +8,39 @@
  },
  "descripcion": "提供多款 Shadowrocket 规则，带广告过滤功能。用于 iOS 未越狱设备选择性地自动翻墙。",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#h2y/Shadowrocket-ADBlock-Rules",
-  "sha256": "8faa1a6042b1348c26085951acae2bc424e9ac20c371f7495367edfc0b278c95"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/h2y--shadowrocket-adblock-rules.json",
+  "sha256": "71dc720055e13c0fe128dfd9604c8ae8d8a3aa161f7b902616c31a823dbe8c6f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "h2y--shadowrocket-adblock-rules",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 16714,
-  "stars_por_mes": 136.8
+  "stars": 16726,
+  "stars_por_mes": null
  },
  "nombre": "Shadowrocket-ADBlock-Rules",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "h2y/Shadowrocket-ADBlock-Rules"
+ "repo": "h2y/Shadowrocket-ADBlock-Rules",
+ "web": "https://github.com/h2y/Shadowrocket-ADBlock-Rules/blob/master/readme.md"
 }

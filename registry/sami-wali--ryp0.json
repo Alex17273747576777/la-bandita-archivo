@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-24"
  },
- "descripcion": "",
+ "descripcion": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Sami-Wali/ryP0",
-  "sha256": "f71a6b1e8a7d7ceb281aa9fb236ac35bc73f4f72e39dc022b6368ace7f1d9057"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sami-wali--ryp0.json",
+  "sha256": "eb343079a32e26aac3fff5404f6e70458d34d3d9ef71ddf408beba8ca9c6c5f2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 62,
-  "stars_por_mes": 50.9
+  "stars": 131,
+  "stars_por_mes": null
  },
  "nombre": "ryP0",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "Sami-Wali/ryP0"

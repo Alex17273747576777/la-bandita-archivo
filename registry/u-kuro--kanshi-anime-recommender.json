@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-10-28"
  },
- "descripcion": "Anime, Manga, & Novel Recommender (Website and Android Application). Also includes Manhwa, Light Nov",
+ "descripcion": "Anime, Manga, & Novel Recommender (Website and Android Application). Also includes Manhwa, Light Novel (LN), Manhua, & One Shot.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#u-Kuro/Kanshi-Anime-Recommender",
-  "sha256": "2932768df014dea1a2b5bc97edbcf3bcb894765e1cad23c62447049b059a9dad"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/u-kuro--kanshi-anime-recommender.json",
+  "sha256": "6539741ea59adeba859c56f23353bcba674ed76a163c66b5dbf03b8eb9e40eb5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 38,
-  "stars_por_mes": 0.8
+  "stars": 40,
+  "stars_por_mes": null
  },
  "nombre": "Kanshi-Anime-Recommender",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "u-Kuro/Kanshi-Anime-Recommender"
+ "repo": "u-Kuro/Kanshi-Anime-Recommender",
+ "web": "https://kanshi.vercel.app"
 }

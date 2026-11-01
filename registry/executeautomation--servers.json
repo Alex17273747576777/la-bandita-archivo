@@ -8,36 +8,39 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#executeautomation/servers",
-  "sha256": "6cfc593531ede38a235e263ce159bfafd8e536ee54d5c20f92ac527e4caa47e5"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/executeautomation--servers.json",
+  "sha256": "78f7a5b99bbaf6fac9e5621daa668389749b2407e8318dbb9f0140fc8cd84caf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "executeautomation--servers",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 2,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "servers",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "executeautomation/servers"
+ "repo": "executeautomation/servers",
+ "web": "https://modelcontextprotocol.io"
 }

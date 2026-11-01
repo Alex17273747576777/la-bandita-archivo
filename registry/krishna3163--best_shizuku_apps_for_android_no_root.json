@@ -20,9 +20,10 @@
  },
  "id": "krishna3163--best_shizuku_apps_for_android_no_root",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
+  "archivo": "README (sección License)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "CC BY-SA 3.0",
   "verificado_en": "2026-10-31"
  },
  "medido_en": "2026-10-31",

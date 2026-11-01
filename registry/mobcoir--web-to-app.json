@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-08-16"
  },
- "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
+ "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#mobcoir/web-to-app",
-  "sha256": "352073aa0206fabca34178bbd0a41843fbf7cba5b9c0d2545d237baec7ef21c9"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mobcoir--web-to-app.json",
+  "sha256": "a1f75f990bcb2d4ce4236d34c1619dde4689e3f67c4e21a0727ffbee16896e48"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "mobcoir--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "web-to-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "mobcoir/web-to-app"
+ "repo": "mobcoir/web-to-app",
+ "web": "https://shiaho777.github.io/web-to-app/"
 }

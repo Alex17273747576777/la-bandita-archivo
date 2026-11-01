@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-10"
+  "ultimo_push": "2026-10-31"
  },
  "descripcion": "An Android app to remap the buttons on your devices",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#keymapperorg/KeyMapper",
-  "sha256": "630c7c3585ecd78da27341c0bc54acdbe3c217e40f437f1c3c63c383d5998281"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/keymapperorg--keymapper.json",
+  "sha256": "55126502c54d6a6dbf07d3db3fbe24fafa5d2e5edd597e5ba03c153fff65e058"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2741,
-  "stars_por_mes": 27.7
+  "stars": 2785,
+  "stars_por_mes": null
  },
  "nombre": "KeyMapper",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "keymapperorg/KeyMapper"
+ "repo": "keymapperorg/KeyMapper",
+ "web": "https://keymapper.app"
 }

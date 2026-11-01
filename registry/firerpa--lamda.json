@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-09-27"
  },
- "descripcion": "Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/image-matching autom",
+ "descripcion": "Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/image-matching automation, one-click MITM, built-in Frida, proxy/VPN/frp/P2P networking, MCP/Agent, 160+ APIs, designed for multi-device clusters and engineered deployments.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#firerpa/lamda",
-  "sha256": "62aa2c839831ab5ebf26d18a40fdb9591bf0c9503a406d8ff03bb90aff516067"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/firerpa--lamda.json",
+  "sha256": "445f75d0ac7021c9bd0b4daff80b2935c51de3254e64a094d311031739b1eb8b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8609,
-  "stars_por_mes": 168.0
+  "stars": 8697,
+  "stars_por_mes": null
  },
  "nombre": "lamda",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "firerpa/lamda"
+ "repo": "firerpa/lamda",
+ "web": "https://device-farm.com/"
 }

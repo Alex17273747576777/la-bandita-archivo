@@ -108,6 +108,11 @@
             "string",
             "null"
           ]
+        },
+        "nota": {
+          "type": "string",
+          "maxLength": 400,
+          "description": "por qué se resolvió así: útil cuando el texto es ambiguo o la ausencia se firma"
         }
       }
     },

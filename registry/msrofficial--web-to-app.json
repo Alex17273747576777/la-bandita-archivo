@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2026-02-04"
  },
- "descripcion": "A native Android application that converts any website URL into a standalone And",
+ "descripcion": "A native Android application that converts any website URL into a standalone Android App.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#msrofficial/web-to-app",
-  "sha256": "2bdd0e78dccf2b7b6e2cee3417d23d63e75d7dfa7b992fd6a9a0c8e7593667cd"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/msrofficial--web-to-app.json",
+  "sha256": "6f1ff283125e854984add526a4d15a68dc482ae5aa857ee4060261b1845e4228"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "msrofficial--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 3,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "web-to-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "msrofficial/web-to-app"

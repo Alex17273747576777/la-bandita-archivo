@@ -1,20 +1,20 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": null,
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": null,
-  "ultimo_push": "2026-06-22"
+  "ultimo_push": null
  },
- "descripcion": "A native Android application that converts any website URL into a standalone And",
+ "descripcion": "repositorio no encontrado al medir (HTTP 404)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#EthanThePhoenix38/web-to-app",
-  "sha256": "c8d04643c6eef2db489a59130f81113d736740d037a96da07860541e34b4d7d6"
+  "nota": "no hay payload que guardar: la ausencia es el dato",
+  "payload_ref": "respuesta 404 de la API",
+  "sha256": "87f9cbe152a9ac5ffc2665a6276a8559887fc2891a75b14b1ca24171bf43dab8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos devolvió 404: el repositorio no existe o fue retirado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
-  "stars_por_mes": 0.0
+  "stars": null,
+  "stars_por_mes": null
  },
  "nombre": "web-to-app",
  "piezas": [],

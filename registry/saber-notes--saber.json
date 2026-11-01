@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-02"
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "The cross-platform open-source app built for handwriting",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#saber-notes/saber",
-  "sha256": "9c1d129b451bbf424c72dc068944e4abea43df2f039846df8a77ace3122d2ef0"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/saber-notes--saber.json",
+  "sha256": "fea6064b7e697f0d46a45a7feb8739465ab8d14036c0331d0fc0d501e7a79e39"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4921,
-  "stars_por_mes": 96.8
+  "stars": 4992,
+  "stars_por_mes": null
  },
  "nombre": "saber",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "saber-notes/saber"
+ "repo": "saber-notes/saber",
+ "web": "https://saber.adil.hanney.org"
 }

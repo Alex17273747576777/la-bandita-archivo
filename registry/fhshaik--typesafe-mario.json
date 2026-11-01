@@ -8,35 +8,38 @@
  },
  "descripcion": "A TypeSafe/Jev agent that plays Super Mario Bros. from structured emulator state.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#fhshaik/typesafe-mario",
-  "sha256": "98b003ccd9003de10c9d618ff15b796a47080ba527c50b2bf46cb0488c88b602"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fhshaik--typesafe-mario.json",
+  "sha256": "3fe2340f398d88920243faa79b407638535a47b581bcbf891767f68f45f0dd04"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "fhshaik--typesafe-mario",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "archivo": "README (texto completo)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "mit",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 449,
-  "stars_por_mes": 470.7
+  "stars": 457,
+  "stars_por_mes": null
  },
  "nombre": "typesafe-mario",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "fhshaik/typesafe-mario"

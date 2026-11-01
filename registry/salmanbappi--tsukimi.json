@@ -8,13 +8,13 @@
  },
  "descripcion": "A high-performance, feature-rich manga reader for Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#salmanbappi/Tsukimi",
-  "sha256": "16336c1d0a7d6b9a5b0b448b9b92af5349616d6ff9300b5b11354fd6571c409b"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/salmanbappi--tsukimi.json",
+  "sha256": "bae02983cbbdf6cf94614b65f5c6b80e2b7574e32305150d7516e85862764ebb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 47,
-  "stars_por_mes": 5.5
+  "stars_por_mes": null
  },
  "nombre": "Tsukimi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "salmanbappi/Tsukimi"

@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-11"
+  "ultimo_push": "2026-10-31"
  },
  "descripcion": "Unlock the full potential of music: Stream effortlessly with one app!",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#gokadzev/Musify",
-  "sha256": "49567cf80411e48ee7f28a1c98380cf434e76a3ec7fbcfb858a7be278c6f4d02"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/gokadzev--musify.json",
+  "sha256": "dc47904be0dc914df92c5763e82c977ddc1c0df6f374420fe2d16e1575243a58"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4330,
-  "stars_por_mes": 74.2
+  "stars": 4389,
+  "stars_por_mes": null
  },
  "nombre": "Musify",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "gokadzev/Musify"
+ "repo": "gokadzev/Musify",
+ "web": "https://gokadzev.github.io/Musify"
 }

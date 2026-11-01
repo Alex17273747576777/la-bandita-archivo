@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-08-25"
  },
- "descripcion": "安卓电视直播APK：IPTV/網頁視頻支持X5，可自定義源(支持webview://格式)，IPTV支持畫中畫和熄屏播放。 Android TV Live APK: IPTV/web video su",
+ "descripcion": "安卓电视直播APK：IPTV/網頁視頻支持X5，可自定義源(支持webview://格式)，IPTV支持畫中畫和熄屏播放。 Android TV Live APK: IPTV/web video supports X5, customizable sources (support webview:// format), IPTV supports picture-in-picture and off-screen playback.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#horsemail/yourtv",
-  "sha256": "52540e449c0138e67aa6ab7f29a09b26f8cdea81cc24de6fd48e328d9a4d4649"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/horsemail--yourtv.json",
+  "sha256": "3f9a39bb46e42ddfc2995d3222848ea4af123302a4be1265c4fa46ecb991596a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1355,
-  "stars_por_mes": 74.6
+  "stars": 1358,
+  "stars_por_mes": null
  },
  "nombre": "yourtv",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "horsemail/yourtv"
+ "repo": "horsemail/yourtv",
+ "web": "https://github.com/horsemail/yourtv"
 }

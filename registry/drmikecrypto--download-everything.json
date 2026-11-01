@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-12"
+  "ultimo_push": "2026-10-26"
  },
- "descripcion": "Free ad-free video downloader for Windows/macOS/Linux/Android — Instagram Reels & Stories, TikTok, Y",
+ "descripcion": "Free ad-free video downloader for Windows/macOS/Linux/Android — Instagram Reels & Stories, TikTok, YouTube, X/Twitter, 1800+ sites via yt-dlp. Open source by drmikecrypto.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#drmikecrypto/download-everything",
-  "sha256": "eb4b9bb85d2207de26e12edeced229999585745a279f92b30f20140e97a1695a"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/drmikecrypto--download-everything.json",
+  "sha256": "22fd5c9669e132494f42d9294136bb489185a00e9df9c00702a1dae5c56755d9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 8,
-  "stars_por_mes": 2.2
+  "stars_por_mes": null
  },
  "nombre": "download-everything",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "drmikecrypto/download-everything"
+ "repo": "drmikecrypto/download-everything",
+ "web": "https://github.com/drmikecrypto/download-everything/releases"
 }

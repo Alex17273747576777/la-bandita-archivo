@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-11-01"
  },
- "descripcion": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android",
+ "descripcion": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#koodo-reader/koodo-reader",
-  "sha256": "50c33de2b8c7c6026c7bd0d4cc95b40ccf60572accd5e8ee31317f19ea5c5d45"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/koodo-reader--koodo-reader.json",
+  "sha256": "f88ae4f6089d02b37bdeee971c9ddfc406cf8b495f05b4b058f57d7b84cbac5d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28513,
-  "stars_por_mes": 358.9
+  "stars": 28679,
+  "stars_por_mes": null
  },
  "nombre": "koodo-reader",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "koodo-reader/koodo-reader"
+ "repo": "koodo-reader/koodo-reader",
+ "web": "https://koodoreader.com"
 }

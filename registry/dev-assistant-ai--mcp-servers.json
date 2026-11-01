@@ -8,36 +8,39 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dev-assistant-ai/mcp-servers",
-  "sha256": "62be2ff2d4cca76e8707699765474992278cf34c556c7076c28e8a1929fe41f3"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dev-assistant-ai--mcp-servers.json",
+  "sha256": "80d0c99ea0e5406416429f79c53030b2a8b543797732a646a793b024ce33dae6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "dev-assistant-ai--mcp-servers",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 5,
-  "stars_por_mes": 0.1
+  "stars_por_mes": null
  },
  "nombre": "mcp-servers",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "dev-assistant-ai/mcp-servers"
+ "repo": "dev-assistant-ai/mcp-servers",
+ "web": "https://modelcontextprotocol.io"
 }

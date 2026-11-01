@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-11"
+  "ultimo_push": "2026-10-17"
  },
- "descripcion": "WhatsApp Desk is a fast, ultra-lightweight, privacy-respecting desktop client for WhatsApp Web. Buil",
+ "descripcion": "WhatsApp Desk is a fast, ultra-lightweight, privacy-respecting desktop client for WhatsApp Web. Built with native operating system web engines — WebKit on macOS, WebView2 on Windows, and WebKitGTK on Linux. Zero Electron bloat • Zero telemetry • Zero message relay servers • Complete local privacy.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#vianziro/Whatsapp-Dekstop",
-  "sha256": "90aeaef9ae813cc052dc0d207be2eb3c916f91cd74bf68ec3eacf7c7976b3bbd"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/vianziro--whatsapp-dekstop.json",
+  "sha256": "cd07ec8132d98e71ef3829ac562547d44b506686726cca72cf8af70e57edbd96"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 224,
-  "stars_por_mes": 179.2
+  "stars": 226,
+  "stars_por_mes": null
  },
  "nombre": "Whatsapp-Dekstop",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "vianziro/Whatsapp-Dekstop"
+ "repo": "vianziro/Whatsapp-Dekstop",
+ "web": "https://vianziro.github.io/Whatsapp-Dekstop/"
 }

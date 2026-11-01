@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
@@ -8,35 +8,37 @@
  },
  "descripcion": "Use your tablet as graphic tablet/touch screen on your computer.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#H-M-H/Weylus",
-  "sha256": "d5864d9e046563f1a5d4dd26e3b3ae1b26040130fc1bb0a837a43fd8f709df9b"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/h-m-h--weylus.json",
+  "sha256": "a50f40fbaf060dea11f0887d8f9ba6f37073413cce623137bc1ee717d80ab99d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "h-m-h--weylus",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9669,
-  "stars_por_mes": 124.7
+  "stars": 9735,
+  "stars_por_mes": null
  },
  "nombre": "Weylus",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "H-M-H/Weylus"

@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-30"
  },
- "descripcion": "v1.3.3",
+ "descripcion": "ShizuCallRecorder empowers ADB through Shizuku to record phone calls on non-rooted device!",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kitsumed/ShizuCallRecorder",
-  "sha256": "1aa9a70f8c520aafa06547865995ad44b45d76a9c89cb30ec2ad3e82d4e74261"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kitsumed--shizucallrecorder.json",
+  "sha256": "7c55a739394d24e2ec8299dd1a8e74a4927d79e22f2c15335657ea3d8519ec48"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1755,
-  "stars_por_mes": 17.7
+  "stars": 1964,
+  "stars_por_mes": null
  },
  "nombre": "ShizuCallRecorder",
  "piezas": [
@@ -40,6 +40,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "kitsumed/ShizuCallRecorder"

@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-27"
  },
  "descripcion": "👻 A simple & beautiful GUI application for scrcpy.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SimonAKing/scrcpy-gui",
-  "sha256": "bb09dbae3eda94e27a856363a4a9df10615cfb6b77f6509bca345955b4e563ee"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/simonaking--scrcpy-gui.json",
+  "sha256": "e54c62611dfbe8efb207e81d3b7099ee3d37d02cc3b2e7cd35d0b86284007faf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4127,
-  "stars_por_mes": 48.1
+  "stars": 4160,
+  "stars_por_mes": null
  },
  "nombre": "scrcpy-gui",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "SimonAKing/scrcpy-gui"
+ "repo": "SimonAKing/scrcpy-gui",
+ "web": "http://simonaking.com/scrcpy-gui/"
 }

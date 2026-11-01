@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-09-30"
  },
- "descripcion": "v4.6.1",
+ "descripcion": "All in one media/image downloader app for android based on yt-dlp, gallery-dl python library and newpipe extractor along with cobalt api instance, following material 3 expressive  ui ",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Hotaro26/gabi",
-  "sha256": "d7963b33b7cf6a8be2102a9d96220470a6dd5cb257c35f7a0ce0828079144aec"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hotaro26--gabi.json",
+  "sha256": "56227bf92ddcfea1a8e2910a9c150b511b429b4671276d4828f80bc97429fd35"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 97,
-  "stars_por_mes": 1.0
+  "stars": 104,
+  "stars_por_mes": null
  },
  "nombre": "gabi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Hotaro26/gabi"
+ "repo": "Hotaro26/gabi",
+ "web": "https://hotaro26.github.io/gabi/"
 }

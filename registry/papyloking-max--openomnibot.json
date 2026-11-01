@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-06-30"
  },
- "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
+ "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务 ",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#papyloking-max/OpenOmniBot",
-  "sha256": "a060e49f244c0f96dccda9359e04893ab897fa41353c35f2283e6f2a15bee1b1"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/papyloking-max--openomnibot.json",
+  "sha256": "361820e61bb73d250a2ae8da1ff74de5af38b691040850700400a804c9571315"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "papyloking-max--openomnibot",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "OpenOmniBot",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "papyloking-max/OpenOmniBot"
+ "repo": "papyloking-max/OpenOmniBot",
+ "web": "https://omnimind-ai.github.io/OmniBot-Docs/"
 }

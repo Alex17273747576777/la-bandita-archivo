@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-21"
+  "ultimo_push": "2026-10-26"
  },
- "descripcion": "The Open Source Alternative to Cluely - A lightning-fast, privacy-first AI assistant that works seam",
+ "descripcion": "The Open Source Alternative to Cluely - A lightning-fast, privacy-first AI assistant that works seamlessly during meetings, interviews, and conversations without anyone knowing. Built with Tauri for native performance, just 10MB. Completely undetectable in video calls, screen shares, and recordings.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#iamsrikanthnani/pluely",
-  "sha256": "2d14bf9f9b29cced083c505310f71bce85da05b4e778373e056de72d4fe828b7"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/iamsrikanthnani--pluely.json",
+  "sha256": "d4f6d121764aa209ab954f51982df3723084e68e376d607cf9eeb5ab511c9f03"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2745,
-  "stars_por_mes": 196.3
+  "stars": 2770,
+  "stars_por_mes": null
  },
  "nombre": "pluely",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "iamsrikanthnani/pluely"
+ "repo": "iamsrikanthnani/pluely",
+ "web": "https://pluely.com"
 }

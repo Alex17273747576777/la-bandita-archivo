@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "Enjoy podcasts with Tsacdop!  A podcast player built with flutter.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#tsacdop/tsacdop",
-  "sha256": "63eb7c530d7459520c7c69ec99d651f529181f9076852f4514652cfa9a4c650e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tsacdop--tsacdop.json",
+  "sha256": "147d541f172527e03b6a57bad0c96f3f268cffa130648eae2566ee73d7692a49"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 527,
-  "stars_por_mes": 6.6
+  "stars": 530,
+  "stars_por_mes": null
  },
  "nombre": "tsacdop",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "tsacdop/tsacdop"
+ "repo": "tsacdop/tsacdop",
+ "web": "https://www.tsacdop.app"
 }

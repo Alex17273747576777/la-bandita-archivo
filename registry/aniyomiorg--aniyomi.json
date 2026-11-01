@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-09-14"
  },
- "descripcion": "v0.18.2.1",
+ "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#aniyomiorg/aniyomi",
-  "sha256": "673719063e71ecce21a36a8b639ff6d308f08db9660256e07c1da9b6705ef7b0"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/aniyomiorg--aniyomi.json",
+  "sha256": "f25b7d4e4ce567fd817e14791cd384e4e0e44762893d7f396c8c72a05855761a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7801,
-  "stars_por_mes": 78.8
+  "stars": 7863,
+  "stars_por_mes": null
  },
  "nombre": "aniyomi",
  "piezas": [
@@ -41,7 +41,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "aniyomiorg/aniyomi"
+ "repo": "aniyomiorg/aniyomi",
+ "web": "https://aniyomi.org"
 }

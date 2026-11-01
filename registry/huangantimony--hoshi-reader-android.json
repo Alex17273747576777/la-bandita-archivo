@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-23"
+  "ultimo_push": "2026-10-29"
  },
- "descripcion": "Hoshi Reader Android: Japanese EPUB reader with Yomitan lookup, Anki mining, audiobook read-along, a",
+ "descripcion": "Hoshi Reader Android: Japanese EPUB reader with Yomitan lookup, Anki mining, audiobook read-along, and e-ink support.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HuangAntimony/Hoshi-Reader-Android",
-  "sha256": "9eb794f0c70f15222d0682fd39a99fff7631b9b8bcf094fcef2741172b31e6a7"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/huangantimony--hoshi-reader-android.json",
+  "sha256": "48f641c6432de241d5799dd1b490151cf11f3f8bb8e069b44448445d75ec2543"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 439,
-  "stars_por_mes": 78.5
+  "stars": 466,
+  "stars_por_mes": null
  },
  "nombre": "Hoshi-Reader-Android",
  "piezas": [
@@ -39,6 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "HuangAntimony/Hoshi-Reader-Android"

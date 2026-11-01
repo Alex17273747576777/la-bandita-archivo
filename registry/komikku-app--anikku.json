@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-10-22"
  },
- "descripcion": "v0.2.0",
+ "descripcion": "Free and open source anime watcher for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#komikku-app/anikku",
-  "sha256": "84d14801d6e5d5b282f2f35432e829bda1ff2c1849ed05efebb5e5045a01498e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/komikku-app--anikku.json",
+  "sha256": "25a951049b1a1a5d4e90985c61d5d7333ac952dd5e7ef8f3a4d9c3a62fc36276"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1095,
-  "stars_por_mes": 11.1
+  "stars": 1127,
+  "stars_por_mes": null
  },
  "nombre": "anikku",
  "piezas": [
@@ -40,7 +40,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "komikku-app/anikku"
+ "repo": "komikku-app/anikku",
+ "web": "https://anikku-app.github.io"
 }

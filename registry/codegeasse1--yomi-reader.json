@@ -8,13 +8,13 @@
  },
  "descripcion": "Yomi — an open-source anime, manga, and novel reader for Android (Tadami/Aniyomi-compatible).",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#codegeasse1/yomi-reader",
-  "sha256": "0f29d3be9ba62662c3b2f5cb18373fb899c5568b745c593f9542408ba930738c"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/codegeasse1--yomi-reader.json",
+  "sha256": "5537bb7cd8a379e1291caed6de29ddc7f152ad08adb7ceb874762530681ab95c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 14,
-  "stars_por_mes": 7.1
+  "stars": 16,
+  "stars_por_mes": null
  },
  "nombre": "yomi-reader",
  "piezas": [
@@ -39,6 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "codegeasse1/yomi-reader"

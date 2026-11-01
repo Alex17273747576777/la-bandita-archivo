@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-08-09"
  },
- "descripcion": "易能签 EnSIgn —— iPhone/iPad 上的一体化签名工具，支持一键自动更新、插件注入、软件源与文件管理，无需电脑与越狱 | All-in-one on-device iOS signin",
+ "descripcion": "易能签 EnSIgn —— iPhone/iPad 上的一体化签名工具，支持一键自动更新、插件注入、软件源与文件管理，无需电脑与越狱 | All-in-one on-device iOS signing app with one-tap auto update",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#cc158999/EnSign",
-  "sha256": "839aecb8977f9989b4b4ffe21fbe4cc5fd3cf3db9c60a8b33598023c8771833d"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/cc158999--ensign.json",
+  "sha256": "04b75572d9353e8b895fe008b7a15f0a104c2539e06305ff77c5ae315995d45a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 91,
-  "stars_por_mes": 38.4
+  "stars": 97,
+  "stars_por_mes": null
  },
  "nombre": "EnSign",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "cc158999/EnSign"
+ "repo": "cc158999/EnSign",
+ "web": "https://www.enqapp.com"
 }

@@ -6,37 +6,40 @@
   "ultima_release": null,
   "ultimo_push": "2026-10-10"
  },
- "descripcion": "Automated archive of TikTok Mod and Plugin APK files from TikTokModCloud. This repository includes a",
+ "descripcion": "Automated archive of TikTok Mod and Plugin APK files from TikTokModCloud. This repository includes a CLI tool for downloading the latest versions and automated workflows to maintain an up-to-date archive of all APK files.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#namecallfilter/tiktokmodcloud",
-  "sha256": "c007bdfe1c163903871456be099ac6726521a0f9af5de88ec326ef2ae7afd1e1"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/namecallfilter--tiktokmodcloud.json",
+  "sha256": "bf471ea6d33109371a74a6e15e854f9d3452ba2dc018528e4f51a5b4f25ab461"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "namecallfilter--tiktokmodcloud",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "archivo": "README (sección License)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 452,
-  "stars_por_mes": 31.8
+  "stars": 471,
+  "stars_por_mes": null
  },
  "nombre": "tiktokmodcloud",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "namecallfilter/tiktokmodcloud"

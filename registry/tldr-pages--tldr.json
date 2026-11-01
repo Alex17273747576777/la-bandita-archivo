@@ -4,40 +4,43 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Collaborative cheatsheets for console commands 📚.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#tldr-pages/tldr",
-  "sha256": "53e4f430c644f66d4be6820d3624dff85a706f021fde5251d1cdd5d16082c538"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tldr-pages--tldr.json",
+  "sha256": "92eb1e8e345eea6d219d6ab52144f7759bfb6c462b400dee96e883d91c3bcb85"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "tldr-pages--tldr",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE.md",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 63952,
-  "stars_por_mes": 414.2
+  "stars": 64093,
+  "stars_por_mes": null
  },
  "nombre": "tldr",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "tldr-pages/tldr"
+ "repo": "tldr-pages/tldr",
+ "web": "https://tldr.sh"
 }

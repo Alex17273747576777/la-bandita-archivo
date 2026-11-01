@@ -8,13 +8,13 @@
  },
  "descripcion": "Unlock Premium features for GLTools. With Xposed or without Xposed",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#KhanhNguyen9872/GLTools_mod_Xposed",
-  "sha256": "22517b74627000d0ef3755a3443ff3e71196603af82a208dfa8d4c0af4ed3954"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/khanhnguyen9872--gltools_mod_xposed.json",
+  "sha256": "a94b2c52e6b5c59bd7a680688d7038d58fb48324949de18024e0c2af6b3e8f53"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 17,
-  "stars_por_mes": 2.7
+  "stars": 21,
+  "stars_por_mes": null
  },
  "nombre": "GLTools_mod_Xposed",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "KhanhNguyen9872/GLTools_mod_Xposed"

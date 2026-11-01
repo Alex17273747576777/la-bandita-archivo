@@ -8,13 +8,13 @@
  },
  "descripcion": "DNS-based Host Blocker (and lightweight ad blocker) for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#julian-klode/dns66",
-  "sha256": "2fe0ebbfc1365f8528280761215d397603dd886bbf88bd502fe7169356ec7d7f"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/julian-klode--dns66.json",
+  "sha256": "65fa5867a57f42dc4c677d4e33255719c294e21b17920b823fe8bdaee30bc015"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2246,
-  "stars_por_mes": 18.7
+  "stars": 2245,
+  "stars_por_mes": null
  },
  "nombre": "dns66",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "julian-klode/dns66"
+ "repo": "julian-klode/dns66",
+ "web": "https://jak-linux.org/projects/dns66/"
 }

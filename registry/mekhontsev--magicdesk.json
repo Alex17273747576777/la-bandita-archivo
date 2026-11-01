@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "Open-source Android workstation: native multi-window desktops, X11/Wayland, Termux and MCP automatio",
+ "descripcion": "Open-source Android workstation: native multi-window desktops, X11/Wayland, Termux and MCP automation. Shroot runs Linux, systemd, Docker and Podman via Shizuku/Shevery without root. Android 14+; managed Desktop 15+.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#mekhontsev/magicdesk",
-  "sha256": "f91137d39323f5dcaa219b4f71c79104664cae62d49f5701bce33253980cf620"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mekhontsev--magicdesk.json",
+  "sha256": "89300bf7e4e231cccffa5452b30eeb00bc5db3d52901fa13479572474b13869d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 153,
-  "stars_por_mes": 47.5
+  "stars": 190,
+  "stars_por_mes": null
  },
  "nombre": "magicdesk",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "mekhontsev/magicdesk"

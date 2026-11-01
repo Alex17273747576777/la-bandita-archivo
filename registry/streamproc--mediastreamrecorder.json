@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2018-07-04"
  },
- "descripcion": "Cross browser audio/video/screen recording. It supports Chrome, Firefox, Opera and Microsoft Edge. I",
+ "descripcion": "Cross browser audio/video/screen recording. It supports Chrome, Firefox, Opera and Microsoft Edge. It even works on Android browsers. It follows latest MediaRecorder API standards and provides similar APIs.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#streamproc/MediaStreamRecorder",
-  "sha256": "7a984540525f25d4420666b38f19e25272ee1c267a0c46a698df0003c94af13d"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/streamproc--mediastreamrecorder.json",
+  "sha256": "44cb38ceb3b70c7c93b845452d6c5b68e46482d59019247d8a37504202bed7c5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2675,
-  "stars_por_mes": 16.8
+  "stars": 2677,
+  "stars_por_mes": null
  },
  "nombre": "MediaStreamRecorder",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "streamproc/MediaStreamRecorder"
+ "repo": "streamproc/MediaStreamRecorder",
+ "web": "https://www.webrtc-experiment.com/msr/"
 }

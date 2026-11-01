@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-09-01"
  },
- "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
+ "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ProfessorAbraham/web-to-app",
-  "sha256": "836faf9c5d9f50791f9204c2f2c763d5b66a9ca8c990629eed1259767638c10a"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/professorabraham--web-to-app.json",
+  "sha256": "b3a92d0a2f1b504c5bc3cef28e46c246ba8886cee74329986e8fbdc6a6613347"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "professorabraham--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "web-to-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "ProfessorAbraham/web-to-app"
+ "repo": "ProfessorAbraham/web-to-app",
+ "web": "https://shiaho777.github.io/web-to-app/"
 }

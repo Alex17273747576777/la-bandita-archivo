@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-12"
+  "ultimo_push": "2026-10-31"
  },
  "descripcion": "A browser extension that redirects popular sites to alternative privacy friendly frontends",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#libredirect/browser_extension",
-  "sha256": "2c347ba544329da5941d9191dd2c5cdc8e9b8b5acb52fd4079f362217366b073"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/libredirect--browser_extension.json",
+  "sha256": "4e4b9a2adfd687ea0c2e7ae1dfef9ea5f8198c65d91a57a0e8177e092de1a71d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4079,
-  "stars_por_mes": 69.8
+  "stars": 4104,
+  "stars_por_mes": null
  },
  "nombre": "browser_extension",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "libredirect/browser_extension"
+ "repo": "libredirect/browser_extension",
+ "web": "https://libredirect.manerakai.com"
 }

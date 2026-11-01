@@ -4,33 +4,33 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-10"
+  "ultimo_push": "2026-11-01"
  },
- "descripcion": "A high-performance Mihon fork featuring integrated AI upscaling (Real-CUGAN, Rea",
+ "descripcion": "A high-performance Mihon fork featuring integrated AI upscaling (Real-CUGAN, Real-ESRGAN, Waifu2x) to enhance low-resolution manga in real-time.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HaoweiLi97/mihon_img_upscale",
-  "sha256": "9b533788e6f2e415888b7a030f421ce18a9d691224a4f3a0e482bc69c8872d65"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/haoweili97--mihon_img_upscale.json",
+  "sha256": "0f87b56481271414c710338f122c01868ad132832c55e74a47b52bc892e49f0c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "haoweili97--mihon_img_upscale",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 225,
-  "stars_por_mes": 2.3
+  "stars": 244,
+  "stars_por_mes": null
  },
  "nombre": "mihon_img_upscale",
  "piezas": [
@@ -39,6 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "HaoweiLi97/mihon_img_upscale"

@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-30"
+  "ultimo_push": "2026-10-31"
  },
  "descripcion": "Fastest and cheapest web agent",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#browser-use/jev-ultrafast",
-  "sha256": "1c8e4d00357e1159bf2012984bef709f513f003b5e7114bd4bbb1f123533da51"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/browser-use--jev-ultrafast.json",
+  "sha256": "b15284073e72f302912783fb621c15179ace9b468307c953f7eab923a608e591"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 22990,
-  "stars_por_mes": 24099.9
+  "stars": 23992,
+  "stars_por_mes": null
  },
  "nombre": "jev-ultrafast",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "browser-use/jev-ultrafast"
+ "repo": "browser-use/jev-ultrafast",
+ "web": "https://browser-use.com"
 }

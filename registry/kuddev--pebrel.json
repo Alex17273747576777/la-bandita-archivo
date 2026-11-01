@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes,",
+ "descripcion": "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kuddev/pebrel",
-  "sha256": "e94d777303665c4260cf6db995600152c62bd89d667a491278970a9843fab319"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kuddev--pebrel.json",
+  "sha256": "7f098f8684e5cee1ca114f5a8f062fc111293caa47aa19083341246b6b23062c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3387,
-  "stars_por_mes": 1009.5
+  "stars": 3664,
+  "stars_por_mes": null
  },
  "nombre": "pebrel",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Kuddev/pebrel"
+ "repo": "Kuddev/pebrel",
+ "web": "https://github.com/Kuddev/nebula/releases/latest"
 }

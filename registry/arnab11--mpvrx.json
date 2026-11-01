@@ -4,39 +4,41 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-11"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
+ "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Arnab11/mpvRx",
-  "sha256": "e34c01bf4bb9435fa2389779c17bf22c65b515ef196844f7498e9b27de8c1908"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/arnab11--mpvrx.json",
+  "sha256": "83fb50cebd38daeeda0a77a99cd435874f6cbbd02e62a96cc671e04f9682e46a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "arnab11--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 2,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "mpvRx",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "Arnab11/mpvRx"

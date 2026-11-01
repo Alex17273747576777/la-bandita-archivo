@@ -4,40 +4,43 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-14"
+  "ultimo_push": "2026-10-27"
  },
- "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
+ "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Utsavrajputt/Replay",
-  "sha256": "68c5e921381e095f2504cda9a23620d310689702e3c39fee3413476af83e147c"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/utsavrajputt--replay.json",
+  "sha256": "6ef6a3c07b17608cdd2702588ea7a51ec785adbee269b08495151e2691aab0c5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "utsavrajputt--replay",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 25,
-  "stars_por_mes": 0.3
+  "stars": 29,
+  "stars_por_mes": null
  },
  "nombre": "Replay",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Utsavrajputt/Replay"
+ "repo": "Utsavrajputt/Replay",
+ "web": "https://utsavrajputt.github.io/Replay/"
 }

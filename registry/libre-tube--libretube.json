@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-30"
  },
  "descripcion": "An alternative frontend for YouTube, for Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#libre-tube/LibreTube",
-  "sha256": "64507fc4a8f78903e6c3ba40b1bddff466579cac6f4e749f73250e100de9b636"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/libre-tube--libretube.json",
+  "sha256": "d8ef318aa0882dc82fd9bc282213f694f705932bfe5be36a2fa8a36deac30368"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12823,
-  "stars_por_mes": 220.1
+  "stars": 12926,
+  "stars_por_mes": null
  },
  "nombre": "LibreTube",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "libre-tube/LibreTube"
+ "repo": "libre-tube/LibreTube",
+ "web": "https://libretube.dev"
 }

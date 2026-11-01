@@ -8,35 +8,37 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#AntsyLich/mihon-preview",
-  "sha256": "5ec0b45ad4169135ac673c840f0c6ebe097fe451c1c4cb75ee09531da0b7ecd9"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/antsylich--mihon-preview.json",
+  "sha256": "e6783bdda46e45ee4a8bc6bf9f87da2e3579d487a1a83c57b1a45cd049a0d991"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "antsylich--mihon-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 2,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "mihon-preview",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "AntsyLich/mihon-preview"

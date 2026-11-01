@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2026-02-02"
  },
- "descripcion": "An Open source app to download and read books from shadow library (Anna’s Archiv",
+ "descripcion": "An Open source app to download and read books from shadow library (Anna’s Archive)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#liuyingsama/OpenlibExtended",
-  "sha256": "4a57c172bba253efbbdb2af1b83d3cb3ee838a2b178af829752bab7068acea5e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/liuyingsama--openlibextended.json",
+  "sha256": "3c9955fe00ac51baf635513d57668e067c76afe58b27a721a6af6c80aea71c7c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "liuyingsama--openlibextended",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "OpenlibExtended",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "liuyingsama/OpenlibExtended"

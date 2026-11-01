@@ -8,13 +8,13 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#androidexpert35/AppBooster",
-  "sha256": "73ffb91eb6e75ba1e12b492396e84976362cab2b00f29bc632eb72561e52ddd9"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/androidexpert35--appbooster.json",
+  "sha256": "fc8dd3ef4f5fe7453cdbead3641a6f2237b0aa794c0fdad98d14e6894610607e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 122,
-  "stars_por_mes": 14.0
+  "stars": 126,
+  "stars_por_mes": null
  },
  "nombre": "AppBooster",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "androidexpert35/AppBooster"

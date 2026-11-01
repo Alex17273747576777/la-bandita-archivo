@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "Open Source Continuous File Synchronization",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#syncthing/syncthing",
-  "sha256": "129fa8e8a4dc637b74bdfc0b1f7bf54546916aa3d1fcaa68f9dcaf193a45372f"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/syncthing--syncthing.json",
+  "sha256": "4f29d5ad1d06a5dd3bbc893079cdafa523dd9aab460d2ff9a634f4f90476c2ac"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 89412,
-  "stars_por_mes": 577.6
+  "stars": 89952,
+  "stars_por_mes": null
  },
  "nombre": "syncthing",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "syncthing/syncthing"
+ "repo": "syncthing/syncthing",
+ "web": "https://syncthing.net/"
 }

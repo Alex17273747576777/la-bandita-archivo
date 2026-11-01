@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2026-10-09"
  },
- "descripcion": "Easy TV Live App, a lightweight IPTV player, supports all platforms and Android TV big screens. Welc",
+ "descripcion": "Easy TV Live App, a lightweight IPTV player, supports all platforms and Android TV big screens. Welcome to download and experience!  极简TV App，一款轻量级IPTV播放器，支持全平台以及安卓电视大屏欢迎下载体验!",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#aiyakuaile/easy_tv_live",
-  "sha256": "4d9e1c6e5b8ece127e423c981cac0e713b26e254af7a197058a4ac970a2ef2a7"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/aiyakuaile--easy_tv_live.json",
+  "sha256": "569c96f2765d5756236bf14b1c634581b19e7586f010d598d45f65ddfa391162"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "aiyakuaile--easy_tv_live",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1152,
-  "stars_por_mes": 20.8
+  "stars": 1161,
+  "stars_por_mes": null
  },
  "nombre": "easy_tv_live",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "aiyakuaile/easy_tv_live"

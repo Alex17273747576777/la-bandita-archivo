@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-16"
+  "ultimo_push": "2026-10-27"
  },
- "descripcion": "TVBox 类空壳聚合播放器 | Flutter 跨平台：Android TV / 电视盒子 / iOS / iPadOS / macOS | 支持羊壳(PeekPro)订阅、M3U/TXT/JSON",
+ "descripcion": "TVBox 类空壳聚合播放器 | Flutter 跨平台：Android TV / 电视盒子 / iOS / iPadOS / macOS | 支持羊壳(PeekPro)订阅、M3U/TXT/JSON 直播源、遥控器 D-pad 适配 | 提供 APK / IPA / DMG 下载",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#yuluoos/TVBox-tvs",
-  "sha256": "a3e3371a8644f596052e7f6d5be68a06142adb4160e073953aae96c6b18688c9"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yuluoos--tvbox-tvs.json",
+  "sha256": "b49ad7e37f6684a777aa1893275bb07fcdacfa022c6ef70d7f9b26f2d514b6b5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 179,
-  "stars_por_mes": 82.4
+  "stars": 226,
+  "stars_por_mes": null
  },
  "nombre": "TVBox-tvs",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "yuluoos/TVBox-tvs"
+ "repo": "yuluoos/TVBox-tvs",
+ "web": "https://yuluoos.github.io/TVBox-tvs/"
 }

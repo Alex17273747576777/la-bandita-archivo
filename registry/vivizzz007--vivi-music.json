@@ -4,40 +4,43 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-19"
  },
  "descripcion": "Vivi-Music is an expressive Material 3–based YouTube Music client for Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#vivizzz007/vivi-music",
-  "sha256": "9cf9825bc866c4b615cf858f8289ce98173569a0378bb87f379e7422bf8c8db9"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/vivizzz007--vivi-music.json",
+  "sha256": "819f796c0548188c3edfa665e8d5d2004878dc4ea958dac25c57d8424a610e84"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "vivizzz007--vivi-music",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3663,
-  "stars_por_mes": 205.8
+  "stars": 3937,
+  "stars_por_mes": null
  },
  "nombre": "vivi-music",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "vivizzz007/vivi-music"
+ "repo": "vivizzz007/vivi-music",
+ "web": "https://vivimusic.mkmdevilmi.workers.dev/"
 }

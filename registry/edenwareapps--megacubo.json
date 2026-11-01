@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-06"
+  "ultimo_push": "2026-10-30"
  },
- "descripcion": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Avail",
+ "descripcion": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#EdenwareApps/Megacubo",
-  "sha256": "6c7bb566e5576ad5212674a713d572ac63162660aa650dbe028f5ea50c0e36cc"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/edenwareapps--megacubo.json",
+  "sha256": "11c93eaac9a45a77120ff87cce11522c76e3cbb178126020d66b44128c92e478"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 607,
-  "stars_por_mes": 5.7
+  "stars": 614,
+  "stars_por_mes": null
  },
  "nombre": "Megacubo",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "EdenwareApps/Megacubo"
+ "repo": "EdenwareApps/Megacubo",
+ "web": "https://megacubo.tv"
 }

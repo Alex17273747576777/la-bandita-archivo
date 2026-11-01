@@ -8,13 +8,13 @@
  },
  "descripcion": "Dexxicon Reader for audiobooks, eBooks, and Comics (including Manga)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dexxfm/dexxicon-reader",
-  "sha256": "96af9bcba9a23edb084d154f7a877537ec8573c49df1dd65ce032f60c0bbeb64"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dexxfm--dexxicon-reader.json",
+  "sha256": "2ea9e19e390e5e52c65798db5e8a4d5dbd716a036b39c781117636c6a92895e5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12,
-  "stars_por_mes": 9.4
+  "stars": 15,
+  "stars_por_mes": null
  },
  "nombre": "dexxicon-reader",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "dexxfm/dexxicon-reader"

@@ -8,36 +8,39 @@
  },
  "descripcion": "GmsCore fork for Morphe patched apps",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ek0ajahy0/MicroG-RE",
-  "sha256": "6d7eefd24aa7bff45c05ca27d9c034c0db8b1389d5119224c5aaff748241fd21"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ek0ajahy0--microg-re.json",
+  "sha256": "d156c83d5fa0f66a0f600a1c2f80e0c3c6c68c1d59045e8d1b78850dcc3a7c0c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "ek0ajahy0--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "MicroG-RE",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "ek0ajahy0/MicroG-RE"
+ "repo": "ek0ajahy0/MicroG-RE",
+ "web": "https://Morphe.software"
 }

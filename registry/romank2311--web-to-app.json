@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2026-01-22"
  },
- "descripcion": "A native Android application that converts any website URL into a standalone And",
+ "descripcion": "A native Android application that converts any website URL into a standalone Android App.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RomanK2311/web-to-app",
-  "sha256": "d9dd2a7c0391dce7e15ced87217c6efa967c7cdd3fa0db26192cc1f999dd6451"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/romank2311--web-to-app.json",
+  "sha256": "d1bb385ff0fa0c6b972039dfcf4b3f952e3cbcd9d95ccefb1824f09f90a928ed"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "romank2311--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "web-to-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "RomanK2311/web-to-app"

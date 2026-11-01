@@ -8,36 +8,39 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#skydeckai/rememberizer-mcp-servers",
-  "sha256": "c1574d94a45668e597fea8dd20037e52443c4063e12cb36868742dea22dd13b4"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/skydeckai--rememberizer-mcp-servers.json",
+  "sha256": "58d5ddcf46e4175858b2ac56e09ac0cbb24e07de17d4404f4019c85d3be642f2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "skydeckai--rememberizer-mcp-servers",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 4,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "rememberizer-mcp-servers",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "skydeckai/rememberizer-mcp-servers"
+ "repo": "skydeckai/rememberizer-mcp-servers",
+ "web": "https://modelcontextprotocol.io"
 }

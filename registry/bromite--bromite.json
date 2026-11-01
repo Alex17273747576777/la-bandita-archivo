@@ -8,13 +8,13 @@
  },
  "descripcion": "Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#bromite/bromite",
-  "sha256": "706b13cd0efd08558c32d79704bbddf103abbdf5460f406e823c48c181df77d5"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bromite--bromite.json",
+  "sha256": "4dbcbc350c76093bce2d37d505566d93b054a29e994d4fad9294eb0a0f836dbf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6324,
-  "stars_por_mes": 58.4
+  "stars": 6318,
+  "stars_por_mes": null
  },
  "nombre": "bromite",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "bromite/bromite"
+ "repo": "bromite/bromite",
+ "web": "https://www.bromite.org/"
 }

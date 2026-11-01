@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-01"
+  "ultimo_push": "2026-10-23"
  },
- "descripcion": "1.3.2",
+ "descripcion": "An F-Droid client with modern UI and an arsenal of extra features.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#NeoApplications/Neo-Store",
-  "sha256": "cb2b223675ade04b6b4a1db449f50463aebefdea27ec1160f2605ad45dd4a693"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/neoapplications--neo-store.json",
+  "sha256": "4856d170b96aade675cf845cbd77885f17b8c284b20a63ec8444dad61f9b43e8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5449,
-  "stars_por_mes": 55.0
+  "stars": 5588,
+  "stars_por_mes": null
  },
  "nombre": "Neo-Store",
  "piezas": [
@@ -40,6 +40,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "NeoApplications/Neo-Store"

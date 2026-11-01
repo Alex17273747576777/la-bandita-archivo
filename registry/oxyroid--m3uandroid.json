@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
@@ -8,13 +8,13 @@
  },
  "descripcion": "a clean, practical, ad-free IPTV app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#oxyroid/M3UAndroid",
-  "sha256": "d81b7527e790a5a381f4fe49785938b835a4796378b8fdce60d0da905c2f3c94"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/oxyroid--m3uandroid.json",
+  "sha256": "fe952556aa48f253056362c92142b8cd59beff696c2bfc241c5b904e058a6c0f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1281,
-  "stars_por_mes": 28.6
+  "stars": 1287,
+  "stars_por_mes": null
  },
  "nombre": "M3UAndroid",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "oxyroid/M3UAndroid"
+ "repo": "oxyroid/M3UAndroid",
+ "web": "https://t.me/m3u_android"
 }

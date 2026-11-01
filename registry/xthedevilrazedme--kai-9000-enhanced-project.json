@@ -8,36 +8,39 @@
  },
  "descripcion": "OpenClaw alternative in your pocket",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#xTheDevilRazedMe/Kai-9000-enhanced-project",
-  "sha256": "786ad297afbb461d30b63d02bbab2940f62720a01567101899db15df2c3f0535"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xthedevilrazedme--kai-9000-enhanced-project.json",
+  "sha256": "7155909517c9747b646d5583c124ace1b51396852802ebba2815668aa7ef3d31"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "xthedevilrazedme--kai-9000-enhanced-project",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "Kai-9000-enhanced-project",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "xTheDevilRazedMe/Kai-9000-enhanced-project"
+ "repo": "xTheDevilRazedMe/Kai-9000-enhanced-project",
+ "web": "https://kai9000.com/"
 }

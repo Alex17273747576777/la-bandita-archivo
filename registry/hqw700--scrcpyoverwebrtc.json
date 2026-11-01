@@ -4,13 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "A high-performance, web-based Android remote control solution powered by scrcpy and WebRTC. Control your devices with ultra-low latency directly from your browser.",
  "evidencia": {
   "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
   "payload_ref": "registry/_evidencia/hqw700--scrcpyoverwebrtc.json",
-  "sha256": "e347fef0ddd68c5fe33481adf892a6757b547bf9819070c5c6b1d17f5722cc97"
+  "sha256": "45e02fbaadc0581e34191c76974017511b40ba3519e1b90a3e13d7d31d81b8ec"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -20,8 +20,9 @@
  },
  "id": "hqw700--scrcpyoverwebrtc",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
+  "archivo": "README (varias licencias)",
+  "metodo": "texto-license",
+  "nota": "ambiguo: el README menciona Apache-2.0, MIT; requiere lectura humana",
   "spdx": null,
   "verificado_en": "2026-10-31"
  },

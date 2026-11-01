@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2026-07-22"
  },
- "descripcion": "The most full-featured web-to-app toolkit on Android, a complete APK workshop th",
+ "descripcion": "The most full-featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#trenchfather/web-to-app",
-  "sha256": "640cc3b97e65607c4f04b09a1b60925873478dbd2b0cf8878d93c7b912f52412"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/trenchfather--web-to-app.json",
+  "sha256": "65c3a34a52478d6d53674f9d9f3cb010a8477cf399297deda811f39f432d1a0f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "trenchfather--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "web-to-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "trenchfather/web-to-app"

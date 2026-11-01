@@ -8,13 +8,13 @@
  },
  "descripcion": "Material Design Music Player",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#naman14/Timber",
-  "sha256": "e165980f0e7c943fcd5e5b06d7343e6212dbcb8225f11ec3d307595cecbc28c2"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/naman14--timber.json",
+  "sha256": "b67dfffec6d7c01031e88777522b1fa1b29d7327f327e0d62b9011edab7f2cd1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7039,
-  "stars_por_mes": 51.6
+  "stars": 7033,
+  "stars_por_mes": null
  },
  "nombre": "Timber",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "naman14/Timber"

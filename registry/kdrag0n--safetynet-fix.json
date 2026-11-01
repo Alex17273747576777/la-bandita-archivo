@@ -8,13 +8,13 @@
  },
  "descripcion": "Google SafetyNet attestation workarounds for Magisk",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kdrag0n/safetynet-fix",
-  "sha256": "e15581fd6512b109e4df61d33a90412a308b21c5a0a82d0cf85051afa5120c26"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kdrag0n--safetynet-fix.json",
+  "sha256": "fee800ea1546d231a390a78c5ec7d35ed1812ae7a607fa725edbf360dd8ee30e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6391,
-  "stars_por_mes": 92.5
+  "stars": 6379,
+  "stars_por_mes": null
  },
  "nombre": "safetynet-fix",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "kdrag0n/safetynet-fix"

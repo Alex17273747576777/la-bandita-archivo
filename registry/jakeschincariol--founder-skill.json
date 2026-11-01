@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-10-07"
  },
- "descripcion": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thi",
+ "descripcion": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Jakeschincariol/founder-skill",
-  "sha256": "8e5821b553bd1972cb71145348a208420b59d95df5efa31b79acbfa4be554b04"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jakeschincariol--founder-skill.json",
+  "sha256": "8532c74e9c5b02dc21aad9f95e9296b131b6e8dd29e5e5604dd98e606a8c1dc3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 766,
-  "stars_por_mes": 2910.8
+  "stars": 2283,
+  "stars_por_mes": null
  },
  "nombre": "founder-skill",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "Jakeschincariol/founder-skill"

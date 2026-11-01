@@ -8,35 +8,37 @@
  },
  "descripcion": "A mobile app for watching Anime, Movies and TV series based on Dantotsu, which is based on Saikou.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#MrBoomDeveloper/Awery",
-  "sha256": "17569e64c6db0bb3ba41809beacaced391fde7bc00f98ecc69ab13eac56a1eb0"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mrboomdeveloper--awery.json",
+  "sha256": "413941b046497ed389e1ce953a05bdb0614982c50b125e7474b26d6ef1e0009e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "mrboomdeveloper--awery",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE.md",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 463,
-  "stars_por_mes": 14.0
+  "stars": 467,
+  "stars_por_mes": null
  },
  "nombre": "Awery",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "MrBoomDeveloper/Awery"

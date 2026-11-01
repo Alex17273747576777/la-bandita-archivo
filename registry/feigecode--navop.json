@@ -4,40 +4,43 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-11-01"
  },
- "descripcion": "A native, all-in-one workspace for databases, SSH, SFTP, terminals, remote desktop, monitoring, and",
+ "descripcion": "A native, all-in-one workspace for databases, SSH, SFTP, terminals, remote desktop, monitoring, and AI.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#feigeCode/navop",
-  "sha256": "25d004c807acf668993564dbf77f38b38e11b8dd4ddbdab4c8fe18228b33a41e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/feigecode--navop.json",
+  "sha256": "fcddb194dfe26bef1e5374d588064e6077b1706addc95ed6f67d879df4142d27"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "feigecode--navop",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE-APACHE",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1864,
-  "stars_por_mes": 584.2
+  "stars": 2050,
+  "stars_por_mes": null
  },
  "nombre": "navop",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "feigeCode/navop"
+ "repo": "feigeCode/navop",
+ "web": "https://navop.dev"
 }

@@ -8,13 +8,13 @@
  },
  "descripcion": "超级速查表 - 编程语言、框架和开发工具的速查表，单个文件包含一切你需要知道的东西 :zap:",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#skywind3000/awesome-cheatsheets",
-  "sha256": "821c0e12424403ccadc2e5914ca2d06776ba97facde2aa35b8b4b18a93ea200b"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/skywind3000--awesome-cheatsheets.json",
+  "sha256": "e60bf555c68b7385d8a698b7e4b2bb0212d3cfd61f1e102c45f52a876502c4d9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12597,
-  "stars_por_mes": 120.8
+  "stars": 12619,
+  "stars_por_mes": null
  },
  "nombre": "awesome-cheatsheets",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "skywind3000/awesome-cheatsheets"

@@ -4,6 +4,13 @@
 
 **Autor del análisis:** asistente de La Bandita, por orden del dueño
 **Fuente de verdad:** `github.com/Alex17273747576777/la-bandita-archivo`, commit `3f04b89`, clonado y medido hoy
+> **Decisión del titular (31 de octubre de 2026): este es un proyecto personal, sin dinero.**
+> No habrá página web propia, ni marca registrada, ni venta de servicios, ni patrocinio. La propuesta
+> comercial que sigue se conserva como **anexo de opciones**, no como plan: sirve para saber qué se
+> podría hacer si algún día cambiara de idea, no para ejecutarlo. Lo que sí se ejecuta está en
+> `docs/DECISIONES-2026-10-31.md`, y es: licencia abierta, canal WhatsApp, registro publicado por MCP,
+> y ninguna fuente de ingreso.
+
 **Naturaleza del documento:** propuesta de negocio, arquitectura e integración — no un adorno. Cada cifra dice de dónde sale y cuándo se midió; lo que no se pudo medir está firmado como ausencia.
 
 > **Fe de erratas vigente (31 de octubre de 2026).** Las cifras del censo que aparecían en la primera versión de este documento estaban mal medidas: el censo real tiene **5.684 repositorios**, no 573, y de ellos solo **486 declaran licencia SPDX**. El detalle, la causa del error y lo que se corrigió están en `docs/ERRATA-2026-10-31.md`. Las cifras de abajo ya están corregidas; la tesis no cambió. El registro volvió a crecer el mismo día con 1.144 fichas nuevas medidas: ver `docs/DESCUBRIMIENTOS-2026-10-31.md`.
@@ -108,7 +115,7 @@ No se compite por tráfico con medios de tecnología. No se vende publicidad pro
 
 ---
 
-## 3. Portafolio de ofertas
+## 3. Portafolio de ofertas (archivado como opción, no como plan)
 
 Cinco líneas. Dos de arranque, una apuesta, una subvención, una diferida. El orden importa: la línea de arranque financia la apuesta, no al revés.
 
@@ -154,7 +161,7 @@ Esto tiene dos consecuencias que el dueño debe saber antes de decidir:
 
 ---
 
-## 4. Economía: supuestos explícitos, no pronósticos
+## 4. Economía (archivada): supuestos explícitos, no pronósticos
 
 Todo lo que sigue son **supuestos de trabajo** declarados como tales, no datos de mercado medidos. Se presentan para que el dueño pueda discutir la aritmética, no para prometer resultados.
 

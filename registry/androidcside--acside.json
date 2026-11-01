@@ -20,9 +20,10 @@
  },
  "id": "androidcside--acside",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
+  "archivo": "README (texto completo)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
  "medido_en": "2026-10-31",

@@ -8,36 +8,39 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#shahnoosh/InstallerX-Revived",
-  "sha256": "8ff271e95c4d7c02c2509cf6c050a4c47a0590644c35191dea936a320cad9344"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/shahnoosh--installerx-revived.json",
+  "sha256": "45525378d849bf2d6209f0eef99e5d378d9a0579b28fc9388e564a123c231535"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "shahnoosh--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "InstallerX-Revived",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "shahnoosh/InstallerX-Revived"
+ "repo": "shahnoosh/InstallerX-Revived",
+ "web": "http://wxxsfxyzm.github.io/InstallerX-Revived/"
 }

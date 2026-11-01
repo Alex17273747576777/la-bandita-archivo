@@ -8,13 +8,13 @@
  },
  "descripcion": "亦搜，亦看，亦闻  manga&novel reader, audio&video player in one app developed by flutter",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#mabDc/eso",
-  "sha256": "7b37ac513fb5c1aacaa3bf19bce30addb122054705cd943af953231015aaa00d"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mabdc--eso.json",
+  "sha256": "286a497f3b2171127320bcf0a1a024f8fe866747091cba64574b2c0bdc8d3708"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1775,
-  "stars_por_mes": 21.0
+  "stars": 1773,
+  "stars_por_mes": null
  },
  "nombre": "eso",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "mabDc/eso"
+ "repo": "mabDc/eso",
+ "web": "https://github.com/mabDc/eso_source"
 }

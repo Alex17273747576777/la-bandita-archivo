@@ -8,13 +8,13 @@
  },
  "descripcion": "A premium app for managing and editing your photos, videos, GIFs without ads",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SimpleMobileTools/Simple-Gallery",
-  "sha256": "c626cdd0b72a6dea99be8d39662008efc452ebe7c9c75dbae9ed4fea1735b0b1"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/simplemobiletools--simple-gallery.json",
+  "sha256": "c9972bf691caa0bfd840b4ad6189c64142d4e79b28344d2fc87592efc9d1d8d3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4028,
-  "stars_por_mes": 31.4
+  "stars": 4032,
+  "stars_por_mes": null
  },
  "nombre": "Simple-Gallery",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "SimpleMobileTools/Simple-Gallery"
+ "repo": "SimpleMobileTools/Simple-Gallery",
+ "web": "https://www.simplemobiletools.com"
 }

@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-12"
+  "ultimo_push": "2026-10-26"
  },
- "descripcion": "A manga reader with on-device AI translation — a mihon fork powered by yakuyomi-engine: detection, O",
+ "descripcion": "A manga reader with on-device AI translation — a mihon fork powered by yakuyomi-engine: detection, OCR and text removal run on device (all NCNN, CPU), translation via cloud LLM. Any source/target language pair, bring your own key.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#joyeli/Yakuyomi",
-  "sha256": "2306f5dc9c344a50b1ca2e0c36629de7c4d7134368d41aa6d1de303492dae587"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/joyeli--yakuyomi.json",
+  "sha256": "a82cb48c8140cb6965d7423a568da48fd5a0fd1cb5b3ce78c951081987eeb3ba"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 26,
-  "stars_por_mes": 5.9
+  "stars": 33,
+  "stars_por_mes": null
  },
  "nombre": "Yakuyomi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "joyeli/Yakuyomi"

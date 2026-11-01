@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-10-10"
  },
- "descripcion": "Agent skill for AI trip planning (Claude Code · Codex · Gemini CLI · Cursor · Copilot · any SKILL.md",
+ "descripcion": "Agent skill for AI trip planning (Claude Code · Codex · Gemini CLI · Cursor · Copilot · any SKILL.md agent) — verified, bookable itineraries: hour-by-hour days, real flight prices, offline KML maps, eight themed page designs · 旅行规划 / 行程 / 机票比价",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#skywain/trip-planner-skill",
-  "sha256": "d57dc4039ba4f6f500f6aafedb45d6b7d30ec82af701262eaaf41b455188369c"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/skywain--trip-planner-skill.json",
+  "sha256": "b854666d489f0070d168d65640bf513c013b123b06b06902427e73f7cc10520d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 43,
-  "stars_por_mes": 21.4
+  "stars": 47,
+  "stars_por_mes": null
  },
  "nombre": "trip-planner-skill",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "skywain/trip-planner-skill"

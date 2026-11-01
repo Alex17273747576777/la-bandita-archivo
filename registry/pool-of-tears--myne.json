@@ -8,13 +8,13 @@
  },
  "descripcion": "An android app to download & read ebooks from Project Gutenberg, built with  Jetpack Compose.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Pool-Of-Tears/Myne",
-  "sha256": "7fa2a6cd0faef4cd656c518d745cc2cbec27cc36667db04c601d34512b903abe"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/pool-of-tears--myne.json",
+  "sha256": "c259ff1879ee5afa3c58c69d5618b7569d7691916810da0ec92f55baa4a1355f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1536,
-  "stars_por_mes": 32.8
+  "stars": 1541,
+  "stars_por_mes": null
  },
  "nombre": "Myne",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Pool-Of-Tears/Myne"
+ "repo": "Pool-Of-Tears/Myne",
+ "web": "https://pool-of-tears.github.io"
 }

@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-09-30"
  },
- "descripcion": "Turn ChatGPT web into a local coding agent via MCP — read/write files, run shell",
+ "descripcion": "Turn ChatGPT web into a local coding agent via MCP — read/write files, run shell, git, apply_patch. Works with Developer Mode + OpenAI Secure Tunnel.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#hoangcoderr/chatgpt-local-coder",
-  "sha256": "641710e043e85dcfc59819066bb6315ae9957e180afb79c187d8d9386159bbac"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hoangcoderr--chatgpt-local-coder.json",
+  "sha256": "67f5004186fdec953477148f1e1ed827deaa5e288a608a2391ba0495ed767937"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "hoangcoderr--chatgpt-local-coder",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 104,
-  "stars_por_mes": 1.1
+  "stars": 109,
+  "stars_por_mes": null
  },
  "nombre": "chatgpt-local-coder",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "hoangcoderr/chatgpt-local-coder"
+ "repo": "hoangcoderr/chatgpt-local-coder",
+ "web": "https://modelcontextprotocol.io"
 }

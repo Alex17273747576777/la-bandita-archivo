@@ -8,13 +8,13 @@
  },
  "descripcion": "Mobile application for Audiobookshelf",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#advplyr/audiobookshelf-app",
-  "sha256": "a59afdbaab7dfdd3d3e702167abab789ca2e04b386fe71a1a441b23340ac6196"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/advplyr--audiobookshelf-app.json",
+  "sha256": "117602df339d936c1154978a6994f479b64c60497441bdc40ce7a6c7f2a95786"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2776,
-  "stars_por_mes": 45.2
+  "stars": 2811,
+  "stars_por_mes": null
  },
  "nombre": "audiobookshelf-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "advplyr/audiobookshelf-app"
+ "repo": "advplyr/audiobookshelf-app",
+ "web": "https://audiobookshelf.org"
 }

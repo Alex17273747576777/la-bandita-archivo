@@ -1,37 +1,36 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-09-18",
+  "release_en": null,
   "semantica_http": 200,
-  "ultima_release": "v0.0.16",
+  "ultima_release": null,
   "ultimo_push": "2026-10-19"
  },
  "descripcion": "Install any apk on the device you own. ",
  "evidencia": {
   "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
   "payload_ref": "registry/_evidencia/sam1am--anyapk.json",
-  "sha256": "807dad17877616f9ad530bb09a04c7ea53ce3dad195d74e59bc505875c3c1ec3"
+  "sha256": "7d663b5165fa8e9becf5fbe298dab1d737b5f8d561839396e99f2d3f134b386f"
  },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
-  "secundarias": [
-   "software-heritage"
-  ]
+  "secundarias": []
  },
  "id": "sam1am--anyapk",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
+  "archivo": "README (sección License)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "Apache 2.0",
   "verificado_en": "2026-10-31"
  },
  "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2938,
+  "stars": 2939,
   "stars_por_mes": null
  },
  "nombre": "anyapk",

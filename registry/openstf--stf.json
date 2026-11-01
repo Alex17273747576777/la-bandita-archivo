@@ -8,36 +8,39 @@
  },
  "descripcion": "Control and manage Android devices from your browser.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#openstf/stf",
-  "sha256": "e178e29067b81c79f94ab4c55824074e312baad2e3572747d68c7bf4d2e693aa"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/openstf--stf.json",
+  "sha256": "507ebe7c9368d447da61bca9f5fd4bd406d4540b756042fd467b511fc7e1967c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "openstf--stf",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13961,
-  "stars_por_mes": 102.7
+  "stars": 13962,
+  "stars_por_mes": null
  },
  "nombre": "stf",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "openstf/stf"
+ "repo": "openstf/stf",
+ "web": "https://openstf.io"
 }

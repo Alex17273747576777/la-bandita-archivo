@@ -4,40 +4,43 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-29"
+  "ultimo_push": "2026-10-29"
  },
- "descripcion": "Read Japanese manga and light novels on Android: tap any word for a Yomitan look",
+ "descripcion": "Read Japanese manga and light novels on Android: tap any word for a Yomitan lookup, add it to Anki in one tap, and read novels in vertical text with furigana. A fork of Reikai.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Zatsuy/Reikai-JP",
-  "sha256": "7ee341e69572bfd53492dc3ef8d5d297aea4170e9dcae3881494fb8c6c94670e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zatsuy--reikai-jp.json",
+  "sha256": "2b66c00f60a7e5e124d5bcac09301eeb33643e2a0c4745531836e515e606b350"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "zatsuy--reikai-jp",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "Reikai-JP",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Zatsuy/Reikai-JP"
+ "repo": "Zatsuy/Reikai-JP",
+ "web": "https://github.com/Zatsuy/Reikai-JP/releases/latest"
 }

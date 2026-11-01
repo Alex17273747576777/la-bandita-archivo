@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-25"
  },
- "descripcion": "Yomikai — читалка манги с OCR и озвучкой (роли/голоса), словарями и плавающим мини-плеером поверх вс",
+ "descripcion": "Yomikai — читалка манги с OCR и озвучкой (роли/голоса), словарями и плавающим мини-плеером поверх всех приложений",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#sj0404-collab/yomikai",
-  "sha256": "73f01573f8a91a21feac09da08c0e69a8871dfe773366a7b34a7f8537632fb4d"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sj0404-collab--yomikai.json",
+  "sha256": "0875eb0e70b3c7411938bfa23566c905294424e0cf855d9610a1e4c154b184ca"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 2,
-  "stars_por_mes": 1.0
+  "stars_por_mes": null
  },
  "nombre": "yomikai",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "sj0404-collab/yomikai"
+ "repo": "sj0404-collab/yomikai",
+ "web": "https://sj0404-collab.github.io/yomikai/"
 }

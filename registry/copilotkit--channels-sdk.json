@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-08-14"
  },
- "descripcion": "The open-source SDK for bringing any agent into any chat platform: Slack, Microsoft Teams, Discord,",
+ "descripcion": "The open-source SDK for bringing any agent into any chat platform: Slack, Microsoft Teams, Discord, Telegram - with native, Interactive UI.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#CopilotKit/channels-sdk",
-  "sha256": "5cf975c65f90ec777f87e892b077ce0b3e321a35dca044fac998473925601010"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/copilotkit--channels-sdk.json",
+  "sha256": "d4147a3a5d1a2822409fafaeb2683e68b9fdceda4f2495243f050a4d35d34084"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 941,
-  "stars_por_mes": 314.4
+  "stars": 950,
+  "stars_por_mes": null
  },
  "nombre": "channels-sdk",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "CopilotKit/channels-sdk"
+ "repo": "CopilotKit/channels-sdk",
+ "web": "copilotkit.ai/try-channels"
 }

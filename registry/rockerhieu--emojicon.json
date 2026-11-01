@@ -8,13 +8,13 @@
  },
  "descripcion": "A library to show emoji in TextView, EditText (like WhatsApp) for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#rockerhieu/emojicon",
-  "sha256": "2ede974c144c07033ec308cd16eefef19e5e1e8dfaadf44f807eda48b8b4cadc"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rockerhieu--emojicon.json",
+  "sha256": "56ed19a0774b7980ea6f51f510b27394a2e70f754811fb823f5cd468b8a2dc14"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3589,
-  "stars_por_mes": 23.4
+  "stars": 3587,
+  "stars_por_mes": null
  },
  "nombre": "emojicon",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "rockerhieu/emojicon"

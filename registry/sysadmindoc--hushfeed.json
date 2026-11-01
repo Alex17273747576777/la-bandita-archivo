@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-31"
  },
  "descripcion": "Hushfeed Morphe patches for TikTok.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SysAdminDoc/HushFeed",
-  "sha256": "ea3a29246e1009912767f08150e63225b190a60f3146e9d575515b3682c80c04"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sysadmindoc--hushfeed.json",
+  "sha256": "452905bcbe1074a9f682d54bf46d627e8ed3f1aee371e7a99cac7f54750a32db"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 226,
-  "stars_por_mes": 171.8
+  "stars": 341,
+  "stars_por_mes": null
  },
  "nombre": "HushFeed",
  "piezas": [
@@ -40,7 +40,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "SysAdminDoc/HushFeed"
+ "repo": "SysAdminDoc/HushFeed",
+ "web": "https://github.com/SysAdminDoc/hushfeed/releases/latest"
 }

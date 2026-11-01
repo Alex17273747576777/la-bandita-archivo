@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "An Open Source app for anime, reading mangas and novels",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Shebyyy/AnymeX-Preview",
-  "sha256": "929921f105a1797b92c67d66b883d596449b4339390231686ff483cf50834e73"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/shebyyy--anymex-preview.json",
+  "sha256": "8a61e6018af8d498e084c088290ac052bc8afc929065c8e8346a12b5f1f2a1a4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 53,
-  "stars_por_mes": 2.4
+  "stars_por_mes": null
  },
  "nombre": "AnymeX-Preview",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Shebyyy/AnymeX-Preview"
+ "repo": "Shebyyy/AnymeX-Preview",
+ "web": "https://anymex.vercel.app/"
 }

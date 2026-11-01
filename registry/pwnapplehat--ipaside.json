@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-14"
+  "ultimo_push": "2026-10-29"
  },
- "descripcion": "Free, open-source iOS sideloading for Windows. Install any .ipa with just your Apple ID - no jailbre",
+ "descripcion": "Free, open-source iOS sideloading for Windows. Install any .ipa with just your Apple ID - no jailbreak, no paid developer account.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#pwnapplehat/iPASide",
-  "sha256": "a51fe7accf3b307d21088ddc7bdc4d74cdf554f1b97a51926e1947e5de612a26"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/pwnapplehat--ipaside.json",
+  "sha256": "c707312ecbc11366a2461fe01e092a16a545944ae6da0bed2a046bb326e83145"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 87,
-  "stars_por_mes": 31.9
+  "stars": 165,
+  "stars_por_mes": null
  },
  "nombre": "iPASide",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "pwnapplehat/iPASide"
+ "repo": "pwnapplehat/iPASide",
+ "web": "https://ipaside.com"
 }

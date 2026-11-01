@@ -49,6 +49,21 @@ trabajo técnico que sí puedo hacer).
    Su política exige propuesta escrita por humanos y, si se usó IA, los registros de los prompts.
    La decisión de presentarla es del dueño; este material sirve de base, no de sustituto de su voz.
 
+## Cerrado tras las decisiones del titular (31 de octubre, segunda tanda)
+
+| Decisión | Estado |
+|---|---|
+| 1 · Licencia | **aplicada por encargo**: contenido CC BY-SA 4.0, datos CC BY 4.0, código MIT, marca reservada. Titular: «Alexis (La Bandita)» — suposición declarada |
+| 2 · Página web | **descartada**: proyecto personal, sin dominio ni marca; `tools/sitio.py` queda como herramienta interna |
+| 3 · Canal | **WhatsApp como principal**; plan en `docs/CANAL-WHATSAPP.md` |
+| 4 · Inteligencia | **decidida**: agente con MCP al registro + Ollama local + código para medir (`docs/INTELIGENCIA.md`) |
+| 5 · Dinero | **no se acepta**, en ninguna forma; escrito en `NOTICE` |
+| 6 · MCP | **publicado**: manifiesto `server.json`, paquete instalable, guía, licencia MIT |
+| 7 · NLnet | **borrador listo** para que lo presente el dueño, con registro de prompts; plazo 3-nov-2026 12:00 CET |
+| 8 · Sigstore | **firmado y verificado**: corrida de CI en verde y `cosign verify-blob` → `Verified OK` |
+| Pieza nueva | **109 publicada**: OmniShizuku y el taller sin root, con tutorial, meme, Q&A, lectura por edad y consejos por usuario |
+| Registro | **6.830 fichas**, **2.644** medidas hoy; 14 marcadas como muertas (404), que antes se descartaban en silencio |
+
 ## Cerrado en la jornada del 31 de octubre
 
 | Pendiente | Resultado |

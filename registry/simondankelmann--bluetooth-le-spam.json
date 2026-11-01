@@ -8,13 +8,13 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#simondankelmann/Bluetooth-LE-Spam",
-  "sha256": "be4c39d0ae0b2ef7b438da5936487c0aa706db02687b21ada5cf1dfe1bb8a860"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/simondankelmann--bluetooth-le-spam.json",
+  "sha256": "b7be5e371a1680f464ae6f3133117d765a3ad1f9bb5be9433eeb78ee7b4d15eb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4952,
-  "stars_por_mes": 138.0
+  "stars": 4966,
+  "stars_por_mes": null
  },
  "nombre": "Bluetooth-LE-Spam",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "simondankelmann/Bluetooth-LE-Spam"

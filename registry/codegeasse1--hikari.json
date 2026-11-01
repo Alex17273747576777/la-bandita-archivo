@@ -4,39 +4,41 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "Hikari — a universal streaming app: Stremio addons, universal scrapers, CloudStream .cs3 plugins and",
+ "descripcion": "Hikari — a universal streaming app: Stremio addons, universal scrapers, CloudStream .cs3 plugins and more. Modern Material 3 UI.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#codegeasse1/hikari",
-  "sha256": "a5468852002edf9354199881b987f52afb18b4c4e64b85b1a57282a8c6cb83cc"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/codegeasse1--hikari.json",
+  "sha256": "7c3e83d6893b56e1c988606854e28887d73c086c86f3cab1155c5d16627797d1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "codegeasse1--hikari",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 153,
-  "stars_por_mes": 77.5
+  "stars": 177,
+  "stars_por_mes": null
  },
  "nombre": "hikari",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "codegeasse1/hikari"

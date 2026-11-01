@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-04"
+  "ultimo_push": "2026-10-28"
  },
  "descripcion": "A modern manga reader for discovering and reading your favourite manga. Made by Anya.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Itz-Anya/Manga-Hub",
-  "sha256": "b5d31a74bf8bc9b9836c9ed5f7211b3e9f6b77245aa4e2c3ecf21319ef7557d8"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/itz-anya--manga-hub.json",
+  "sha256": "55895b8dd5780beec25bd1589424407f3f079e48b2d99a2efdd577c76c0819ea"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 57,
-  "stars_por_mes": 19.7
+  "stars": 58,
+  "stars_por_mes": null
  },
  "nombre": "Manga-Hub",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Itz-Anya/Manga-Hub"
+ "repo": "Itz-Anya/Manga-Hub",
+ "web": "https://anya-manga-hub.vercel.app/"
 }

@@ -8,35 +8,38 @@
  },
  "descripcion": "Proof-of-concept WEB proxy server for Telegram",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#telegramdesktop/tproxy-server",
-  "sha256": "2fd5ef565264590ee4c3b43a1d8554b63752069cec806be321fd7eb253bbe0cf"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/telegramdesktop--tproxy-server.json",
+  "sha256": "79e45c793f78501e4636bc268503e7762778ae6676f8a8b423c3428db7010d7f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "telegramdesktop--tproxy-server",
  "licencia": {
-  "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "archivo": "README (texto completo)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "mit",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 406,
-  "stars_por_mes": 187.0
+  "stars": 433,
+  "stars_por_mes": null
  },
  "nombre": "tproxy-server",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "telegramdesktop/tproxy-server"

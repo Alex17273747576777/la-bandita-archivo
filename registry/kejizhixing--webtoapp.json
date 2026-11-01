@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2025-11-30"
  },
- "descripcion": "一款Android原生应用，可将任意网站URL转换为独立的Android App。   -------------A native Android applic",
+ "descripcion": "一款Android原生应用，可将任意网站URL转换为独立的Android App。   -------------A native Android application that converts any website URL into a standalone Android App.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kejizhixing/webtoapp",
-  "sha256": "a193d07a9d380e4b9ee977c08f22a78d4274ad4aef22ec6414e999e6e033dfb8"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kejizhixing--webtoapp.json",
+  "sha256": "96e38f50a00347e799f9548dbe90e684cc0651e87f068d43a91487e76d391f26"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "kejizhixing--webtoapp",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 17,
-  "stars_por_mes": 0.2
+  "stars": 18,
+  "stars_por_mes": null
  },
  "nombre": "webtoapp",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "kejizhixing/webtoapp"

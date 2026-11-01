@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-09"
+  "ultimo_push": "2026-10-24"
  },
  "descripcion": "Simple-ish app using Shizuku to install APKs on-device with advanced options",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#zacharee/InstallWithOptions",
-  "sha256": "0a30565f631703d9a64f8c859e37a8a2b8a3bb5083ce5388f86c16da796b9eae"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zacharee--installwithoptions.json",
+  "sha256": "ee3e53d95fa079e474aa061b51bf1139603b497af001a7d4632d8b4b851f7a24"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3341,
-  "stars_por_mes": 101.1
+  "stars": 3393,
+  "stars_por_mes": null
  },
  "nombre": "InstallWithOptions",
  "piezas": [
@@ -39,6 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "zacharee/InstallWithOptions"

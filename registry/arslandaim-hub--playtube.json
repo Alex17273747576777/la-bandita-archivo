@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-09-23"
  },
- "descripcion": "Stream and download YouTube videos without intrusive ads. Fast and lightweight at just ~8MB, with a",
+ "descripcion": "Stream and download YouTube videos without intrusive ads. Fast and lightweight at just ~8MB, with a clean, modern UI.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#arslandaim-hub/PlayTube",
-  "sha256": "e433551297dd0e27ce0f7986dedf51c22302d158e7e70033f35df3a711db63ca"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/arslandaim-hub--playtube.json",
+  "sha256": "03d0bbe0af6b6c8717fef2e4ca046cdcfc1fe0010b9a1e395f3b03471f5a8b08"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 143,
-  "stars_por_mes": 41.8
+  "stars": 148,
+  "stars_por_mes": null
  },
  "nombre": "PlayTube",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "arslandaim-hub/PlayTube"

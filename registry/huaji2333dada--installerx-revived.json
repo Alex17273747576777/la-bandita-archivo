@@ -4,40 +4,43 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-05"
+  "ultimo_push": "2026-10-17"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HuaJi2333DaDa/InstallerX-Revived",
-  "sha256": "65cbbfc9e50e871621b3b42abdfbf6a320df4b5c6376af206d41bc9dd914fc9e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/huaji2333dada--installerx-revived.json",
+  "sha256": "4303592576d890c12001a64abe8c926f39b8d67045fa4c57ea8e7418e41acba1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "huaji2333dada--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "InstallerX-Revived",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "HuaJi2333DaDa/InstallerX-Revived"
+ "repo": "HuaJi2333DaDa/InstallerX-Revived",
+ "web": "http://wxxsfxyzm.github.io/InstallerX-Revived/"
 }

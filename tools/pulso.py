@@ -65,6 +65,27 @@ def pedir(url: str, crudo: bool = False, intentos: int = 3):
     return 0, b""
 
 
+def pedir_crudo(url: str, intentos: int = 2):
+    h = cabeceras()
+    h["Accept"] = "application/vnd.github.raw"
+    for n in range(intentos):
+        try:
+            req = urllib.request.Request(url, headers=h)
+            with urllib.request.urlopen(req, timeout=40) as r:
+                return r.status, r.read()
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 429) and n < intentos - 1:
+                time.sleep(3)
+                continue
+            return e.code, b""
+        except Exception:
+            if n < intentos - 1:
+                time.sleep(2)
+                continue
+            return 0, b""
+    return 0, b""
+
+
 def pedir_swh(url: str, metodo: str = "GET", intentos: int = 3):
     """Software Heritage rechaza las cabeceras de GitHub (406). Se le habla con las suyas."""
     for n in range(intentos):
@@ -140,19 +161,66 @@ def verificar_licencia(repo: str, datos: dict) -> dict:
             if re.fullmatch(r"(LICEN[CS]E|COPYING|LICENCE)[A-Za-z0-9._-]*", x.get("name", ""), re.I):
                 return {"spdx": spdx if spdx != "NOASSERTION" else None, "metodo": "texto-license",
                         "verificado_en": hoy(), "archivo": x["name"]}
-    cod_r, readme = pedir(f"{API}/repos/{repo}/readme", crudo=True)
+    # el README se pide en crudo: sin esta cabecera GitHub devuelve JSON y el texto de la licencia
+    # declarada por el proyecto se pierde (bug encontrado el 31-oct: una lista con CC BY-SA 3.0
+    # quedó mal firmada como ausencia, y luego un "MIT" de una tabla se leyó como licencia propia).
+    cod_r, readme = pedir_crudo(f"{API}/repos/{repo}/readme")
     if cod_r == 200 and isinstance(readme, bytes):
         texto = readme.decode("utf-8", "replace")
-        m = re.search(r"(CC[ -]BY(?:[ -]SA)?[ -]?[0-9.]*|Creative Commons [A-Za-z0-9. -]{0,30}|MIT|Apache[ -]2\.0|GPL[ -]?[23]\.0|AGPL[ -]?3\.0|BSD[ -][23]-Clause|Unlicense|MPL[ -]2\.0)", texto, re.I)
+        PATRON = re.compile(r"(CC[ -]BY(?:[ -]SA)?[ -]?[0-9.]*|CC0[ -]?1\.0|Creative Commons [A-Za-z0-9. -]{0,30}|MIT|Apache[ -]2\.0|GPL[ -]?[23]\.0|AGPL[ -]?3\.0|LGPL[ -]?[23]\.1|BSD[ -][23]-Clause|Unlicense|MPL[ -]2\.0|WTFPL)", re.I)
+        # 1) la sección de licencia manda sobre cualquier mención suelta en tablas de apps
+        seccion = ""
+        m = re.search(r"^#{1,3}\s*(?:licen[cs]e|licencia)\s*$", texto, re.I | re.M)
         if m:
-            return {"spdx": m.group(1).strip(), "metodo": "texto-license", "verificado_en": hoy(), "archivo": "README"}
+            seccion = texto[m.end(): m.end() + 800]
+        candidatos = sorted({c.group(1).strip() for c in PATRON.finditer(seccion)})
+        origen = "README (sección License)"
+        if not candidatos:
+            candidatos = sorted({c.group(1).strip() for c in PATRON.finditer(texto)})
+            origen = "README (texto completo)"
+        if len(candidatos) == 1:
+            return {"spdx": candidatos[0], "metodo": "texto-license", "verificado_en": hoy(), "archivo": origen,
+                    "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica"}
+        if len(candidatos) > 1:
+            # no se elige por gusto: se declara la ambigüedad y se listan los candidatos
+            return {"spdx": None, "metodo": "texto-license", "verificado_en": hoy(),
+                    "archivo": "README (varias licencias)",
+                    "nota": "ambiguo: el README menciona " + ", ".join(candidatos[:8]) + "; requiere lectura humana"}
     return {"spdx": None, "metodo": "ausencia-firmada", "verificado_en": hoy(), "archivo": None}
 
 
 def medir(repo: str, con_scorecard: bool, con_swh: bool, ligero: bool = False) -> dict | None:
     cod, datos = pedir(f"{API}/repos/{repo}")
     if cod != 200 or not isinstance(datos, dict) or "full_name" not in datos:
-        return {"repo": repo, "error": f"HTTP {cod}", "medido_en": hoy()}
+        # 404 es muerte y se registra como tal (la casa no borra la ficha: la declara muerta).
+        # 403/429 es cuota: jamás se convierte en muerte.
+        if cod == 404:
+            fid = ident(repo)
+            ficha = {
+                "id": fid, "repo": repo, "nombre": repo.split("/", 1)[-1],
+                "descripcion": "repositorio no encontrado al medir (HTTP 404)",
+                "medido_en": hoy(),
+                "fuente": {"primaria": "github-api", "secundarias": [],
+                           "metodo": "GET /repos devolvió 404: el repositorio no existe o fue retirado"},
+                "licencia": {"spdx": None, "metodo": "ausencia-firmada", "verificado_en": hoy(), "archivo": None},
+                "actividad": {"ultimo_push": None, "estado": "muerto", "semantica_http": 404,
+                              "ultima_release": None, "release_en": None},
+                "merito": {"stars": None, "stars_por_mes": None, "scorecard": None, "scorecard_en": None},
+                "procedencia": {"swhid": None, "commit": None, "atestacion": None},
+                "evidencia": {"sha256": hashlib.sha256(b"404:" + repo.encode()).hexdigest(),
+                              "payload_ref": "respuesta 404 de la API",
+                              "nota": "no hay payload que guardar: la ausencia es el dato"},
+                "piezas": [], "frescura_dias": 0,
+            }
+            previa = REGISTRO / f"{fid}.json"
+            if previa.exists():
+                try:
+                    ficha["piezas"] = json.loads(previa.read_text(encoding="utf-8")).get("piezas", [])
+                except Exception:
+                    pass
+            previa.write_text(json.dumps(ficha, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+            return {"repo": repo, "error": "HTTP 404 · registrado como muerto", "medido_en": hoy()}
+        return {"repo": repo, "error": f"HTTP {cod} (no se registra muerte sin 404)", "medido_en": hoy()}
     fid = ident(datos["full_name"])
     # blindaje contra colisión: dos repos distintos no pueden escribir la misma ficha
     destino_id = REGISTRO / f"{fid}.json"

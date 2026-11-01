@@ -8,13 +8,13 @@
  },
  "descripcion": "An AI Agent that lives in your pocket. Local-first and privacy focused.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Mintplex-Labs/anythingllm-mobile",
-  "sha256": "68cac5911fdbae4a8e4c5ba5cdf3ed6b29b7feda59e65eda490c12071641a8f2"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mintplex-labs--anythingllm-mobile.json",
+  "sha256": "59e07036a9db1ab483fdf1d7a1be7c91a34a5d81418f8c3067518de032820e34"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 147,
-  "stars_por_mes": 8.7
+  "stars": 176,
+  "stars_por_mes": null
  },
  "nombre": "anythingllm-mobile",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Mintplex-Labs/anythingllm-mobile"
+ "repo": "Mintplex-Labs/anythingllm-mobile",
+ "web": "https://anythingllm.com/mobile"
 }

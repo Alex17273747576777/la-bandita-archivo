@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-08-07"
  },
- "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
+ "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ferocknew/web-to-app",
-  "sha256": "5220cd8539bc2ba2cb3b73d747381247c36b03f8a177be1ecc4795539aa0b9cd"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ferocknew--web-to-app.json",
+  "sha256": "4bb5936317b2a655618e5d4600784fecab99aa4581225f23506d5887e8f2940b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "ferocknew--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "web-to-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "ferocknew/web-to-app"
+ "repo": "ferocknew/web-to-app",
+ "web": "https://shiaho777.github.io/web-to-app/"
 }

@@ -4,33 +4,33 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "No clever tagline needed.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#LawnchairLauncher/lawnchair",
-  "sha256": "dc9dae975f97eba9be7149361ce285975e935921c95d75f16eeca2c8b57ceb8f"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lawnchairlauncher--lawnchair.json",
+  "sha256": "026aab6fa09a95c1b039313d513601bb7a431d75be3a74bc88da3eb585f3e68a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "lawnchairlauncher--lawnchair",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE.txt",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13713,
-  "stars_por_mes": 118.7
+  "stars": 13833,
+  "stars_por_mes": null
  },
  "nombre": "lawnchair",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "LawnchairLauncher/lawnchair"
+ "repo": "LawnchairLauncher/lawnchair",
+ "web": "https://lawnchair.app"
 }

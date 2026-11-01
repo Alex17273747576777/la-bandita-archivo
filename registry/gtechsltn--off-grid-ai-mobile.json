@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-07-13"
  },
- "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
+ "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy First, Zero Internet. Download an LLM and use it on your mobile device. No data ever leaves your phone. Supports text-to-text, vision, text-to-image",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#gtechsltn/off-grid-ai-mobile",
-  "sha256": "1a8f70d442de44d447754e8f5d1197877f6bfba3b3241fb1838dcef55a6e1aed"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/gtechsltn--off-grid-ai-mobile.json",
+  "sha256": "2d1e3623a9b398a5f87e637bd5e79acb58f23a780f1bfb9127eb43ce681b704f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "gtechsltn--off-grid-ai-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "off-grid-ai-mobile",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "gtechsltn/off-grid-ai-mobile"
+ "repo": "gtechsltn/off-grid-ai-mobile",
+ "web": "https://join.slack.com/t/off-grid-mobile/shared_invite/zt-43kbisqxf-hM0y07EnaNnIfVN9DLR3Dg"
 }

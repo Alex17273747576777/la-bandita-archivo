@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
@@ -8,36 +8,39 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Nanqian/InstallerX-Revived-systemAPP",
-  "sha256": "99e87d42deaa9fddf982a32822845b7d23a48f471060ae52258ccf46041b03a8"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nanqian--installerx-revived-systemapp.json",
+  "sha256": "8cf5af0339994365ba6a3d295a2477d6ed0e1b2c39eef140a2de665f63999e04"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "nanqian--installerx-revived-systemapp",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 7,
-  "stars_por_mes": 0.1
+  "stars_por_mes": null
  },
  "nombre": "InstallerX-Revived-systemAPP",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Nanqian/InstallerX-Revived-systemAPP"
+ "repo": "Nanqian/InstallerX-Revived-systemAPP",
+ "web": "https://wxxsfxyzm.github.io/InstallerX-Revived/zh/"
 }

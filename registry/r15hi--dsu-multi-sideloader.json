@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-10-15"
  },
- "descripcion": "v2.20",
+ "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#R15Hi/Dsu-Multi-sideloader",
-  "sha256": "c13f5a2f0fac6e1c98405432ff735a8ca39719dbf282f7d825d5d2975e310424"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/r15hi--dsu-multi-sideloader.json",
+  "sha256": "fda36aa0586ea9534b3bbb59e0928168bdd7f8a14d5d2cbda610644b60b15e4e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
-  "stars_por_mes": 0.0
+  "stars": 3,
+  "stars_por_mes": null
  },
  "nombre": "Dsu-Multi-sideloader",
  "piezas": [
@@ -39,6 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "R15Hi/Dsu-Multi-sideloader"

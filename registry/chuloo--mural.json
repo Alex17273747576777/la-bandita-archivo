@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-11"
+  "ultimo_push": "2026-10-31"
  },
  "descripcion": "The language app you eventually delete. A native iPhone companion for learning through conversation.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Chuloo/mural",
-  "sha256": "29466b4ba66c1ce1f834471183d98bafb9c3432f189c1f00d258d5567ba3e1e9"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/chuloo--mural.json",
+  "sha256": "793ff14b03089c27d575355409cfbc503882ad6f89a74283a1567758d6de24ef"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1707,
-  "stars_por_mes": 1572.5
+  "stars": 1744,
+  "stars_por_mes": null
  },
  "nombre": "mural",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Chuloo/mural"
+ "repo": "Chuloo/mural",
+ "web": "https://mural.chat"
 }

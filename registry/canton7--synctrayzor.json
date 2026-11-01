@@ -8,13 +8,13 @@
  },
  "descripcion": "Windows tray utility / filesystem watcher / launcher for Syncthing",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#canton7/SyncTrayzor",
-  "sha256": "b7c5f951d2d0a0db11955cfa74525803e13492e2f040009f3c041e79c8ab3a70"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/canton7--synctrayzor.json",
+  "sha256": "44b6741b99e2d54b8c6b8cec3de9a714cc1dc39c72c5fcf9ff3fdd54f089c517"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6187,
-  "stars_por_mes": 44.1
+  "stars": 6181,
+  "stars_por_mes": null
  },
  "nombre": "SyncTrayzor",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "canton7/SyncTrayzor"

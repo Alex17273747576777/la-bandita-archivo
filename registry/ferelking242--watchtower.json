@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "Free & open-source manga · anime · series · music · novels hub — cross-platform, self-hostable, exte",
+ "descripcion": "Free & open-source manga · anime · series · music · novels hub — cross-platform, self-hostable, extensible via JS plugins",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ferelking242/watchtower",
-  "sha256": "d356bd555a67f09c5660d0794239a08dd337d2704ea74ac49f4105e3e7f0018b"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ferelking242--watchtower.json",
+  "sha256": "342870bf3d0f6203211d09be44b38963f8f0cf28b820c2cd1f35fa824e25c06d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 3,
-  "stars_por_mes": 0.5
+  "stars_por_mes": null
  },
  "nombre": "watchtower",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "ferelking242/watchtower"
+ "repo": "ferelking242/watchtower",
+ "web": "https://watchtower-cyan.vercel.app"
 }

@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-08-27"
  },
- "descripcion": "Taihon is a fast, highly customizable Mihon fork and Tachiyomi alternative. It i",
+ "descripcion": "Taihon is a fast, highly customizable Mihon fork and Tachiyomi alternative. It is a free and open-source manga reader for Android built for speed.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Saud-97/taihon-nightly",
-  "sha256": "c4c0062fb0bfe18f81b55595994f50fe95655e8c664e12bc49d6981fed13acf1"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/saud-97--taihon-nightly.json",
+  "sha256": "80b4d0a2f9ee8732041a3090b1e370ea2093f37664dea109c452d867b87a213c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "saud-97--taihon-nightly",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "taihon-nightly",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Saud-97/taihon-nightly"
+ "repo": "Saud-97/taihon-nightly",
+ "web": "https://github.com/Saud-97/taihon"
 }

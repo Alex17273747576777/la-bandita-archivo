@@ -8,35 +8,37 @@
  },
  "descripcion": "Fork of the most Powerful, Efficient + Feature-packed media player.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#WHITE-KNIGHT5/MpvRxN",
-  "sha256": "f361c89d6b9418843eb3c2c0b7fd39380f22b5976b2fb29faec3e01291cb6b04"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/white-knight5--mpvrxn.json",
+  "sha256": "ec3620494a85e23d8121ad325272f2c0683c91c40ed959b086cb6e2cae5985cb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "white-knight5--mpvrxn",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 46,
-  "stars_por_mes": 0.5
+  "stars": 49,
+  "stars_por_mes": null
  },
  "nombre": "MpvRxN",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "WHITE-KNIGHT5/MpvRxN"

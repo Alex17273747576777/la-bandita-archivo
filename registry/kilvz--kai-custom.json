@@ -8,13 +8,13 @@
  },
  "descripcion": "Android-only fork of Kai — an open-source AI assistant with persistent memory.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kilvz/Kai-custom",
-  "sha256": "d1ecf935f69231f52a46002133106f29a94c6f5e6f92fd0ab77b6afd2cd5acec"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kilvz--kai-custom.json",
+  "sha256": "59c45ce4357001a0da8841c5f411f49172b9a343d36f60c70480bc971ea3fb8b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10,
-  "stars_por_mes": 2.2
+  "stars": 11,
+  "stars_por_mes": null
  },
  "nombre": "Kai-custom",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "kilvz/Kai-custom"

@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2025-11-07"
  },
- "descripcion": "This repository contains the iOS and Android sample apps and API for creating third party sticker pa",
+ "descripcion": "This repository contains the iOS and Android sample apps and API for creating third party sticker packs for WhatsApp.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#WhatsApp/stickers",
-  "sha256": "f0dead00694f8aa765dfccb7326edcb1df9447d87147c78c9c8dc133f154135f"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/whatsapp--stickers.json",
+  "sha256": "34ea69c0443f93b457ff15cec15f8204c2d1aef37f8779093e1ce14877e8a356"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "whatsapp--stickers",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2924,
-  "stars_por_mes": 28.7
+  "stars": 2922,
+  "stars_por_mes": null
  },
  "nombre": "stickers",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "WhatsApp/stickers"

@@ -6,31 +6,31 @@
   "ultima_release": null,
   "ultimo_push": "2026-06-30"
  },
- "descripcion": "A specialized fork of Mihon optimized for devices with secondary physical displa",
+ "descripcion": "A specialized fork of Mihon optimized for devices with secondary physical displays (like the AYN Thor, AYANEO Flip DS, and external monitors). ",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#mis0suppe/mihon-ds",
-  "sha256": "7d696cd2c901b84151d62b3cc56f563999b3165100748a2a011f276a7bffd077"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mis0suppe--mihon-ds.json",
+  "sha256": "c3a1c993f129c9b55c14f818169dd9a27ad7e1ca7504ffc0a27e11b9185648a1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "mis0suppe--mihon-ds",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 20,
-  "stars_por_mes": 0.2
+  "stars": 21,
+  "stars_por_mes": null
  },
  "nombre": "mihon-ds",
  "piezas": [
@@ -39,6 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "mis0suppe/mihon-ds"

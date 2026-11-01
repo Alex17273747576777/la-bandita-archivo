@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-10-27"
  },
- "descripcion": "One library for manga and light novels. A free and open source reader for Android, built on Mihon, w",
+ "descripcion": "One library for manga and light novels. A free and open source reader for Android, built on Mihon, with multi-source grouping and merge.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#unseensnick/Reikai",
-  "sha256": "7aa3de2d4e12d568391bbca15511b12ff96072386832c7fd4c2a69e72caf82d7"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/unseensnick--reikai.json",
+  "sha256": "e8c7f4816f07d6884c908be148d117bc5e05ab7e7fd6cd523227420303838f1c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 39,
-  "stars_por_mes": 7.4
+  "stars": 42,
+  "stars_por_mes": null
  },
  "nombre": "Reikai",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "unseensnick/Reikai"
+ "repo": "unseensnick/Reikai",
+ "web": "https://reikai.app/"
 }

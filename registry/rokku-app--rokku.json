@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-31"
  },
  "descripcion": "Free and open source manga reader for Android. Fork of Yōkai/TachiyomiJ2K/Mihon",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#rokku-app/rokku",
-  "sha256": "67741cea8d528826e72c04a210654d8ac6c4c6ab19b2cb8274f5f7585d99e813"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rokku-app--rokku.json",
+  "sha256": "e4cd170957619966c1e50c253bfdbee5c0bc3189c1c6ad746aef24cf614a8776"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 61,
-  "stars_por_mes": 21.8
+  "stars": 63,
+  "stars_por_mes": null
  },
  "nombre": "rokku",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "rokku-app/rokku"
+ "repo": "rokku-app/rokku",
+ "web": "https://github.com/rokku-app/rokku/releases"
 }

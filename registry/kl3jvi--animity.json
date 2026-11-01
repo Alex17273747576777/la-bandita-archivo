@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2025-09-29"
  },
- "descripcion": "🎦 Use the Android app to watch anime on your phone without ads and with the best streaming quality a",
+ "descripcion": "🎦 Use the Android app to watch anime on your phone without ads and with the best streaming quality available.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kl3jvi/animity",
-  "sha256": "e648909665aded0750b21c71f7b4c4f830d70805b018f4357e97e4f30de51be5"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kl3jvi--animity.json",
+  "sha256": "c932acef431c92122b78a041800fd579b4b32035af3cfb419f91e2face2018fe"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1130,
-  "stars_por_mes": 15.2
+  "stars": 1132,
+  "stars_por_mes": null
  },
  "nombre": "animity",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "kl3jvi/animity"

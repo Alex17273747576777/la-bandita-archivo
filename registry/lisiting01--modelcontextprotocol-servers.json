@@ -8,36 +8,39 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#lisiting01/modelcontextprotocol-servers",
-  "sha256": "642760d17c30035b44ab5d41dc2e4931af5afc5c00a952cbbf7e83a7fc7123ef"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lisiting01--modelcontextprotocol-servers.json",
+  "sha256": "48eadb3942c491963a04eb4fbe6c554f9f1d0343d02ac60d8a0736de2aa9cc6c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "lisiting01--modelcontextprotocol-servers",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 6,
-  "stars_por_mes": 0.1
+  "stars_por_mes": null
  },
  "nombre": "modelcontextprotocol-servers",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "lisiting01/modelcontextprotocol-servers"
+ "repo": "lisiting01/modelcontextprotocol-servers",
+ "web": "https://modelcontextprotocol.io"
 }

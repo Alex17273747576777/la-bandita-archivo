@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-26"
+  "ultimo_push": "2026-10-28"
  },
  "descripcion": "Cloudstream plugin repositories",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#recloudstream/cs-repos",
-  "sha256": "142e0e604739a40c1931430ea3f7e0b975c9a211a70e27d94a2a302b7d5c8e45"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/recloudstream--cs-repos.json",
+  "sha256": "081ad03df284e4068ec0409aa5fbc39d778a35a3538359966ed0b09091e816df"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 536,
-  "stars_por_mes": 10.7
+  "stars": 544,
+  "stars_por_mes": null
  },
  "nombre": "cs-repos",
  "piezas": [
@@ -40,7 +40,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "recloudstream/cs-repos"
+ "repo": "recloudstream/cs-repos",
+ "web": "https://rentry.org/cs3-repos"
 }

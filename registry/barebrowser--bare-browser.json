@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-30"
  },
- "descripcion": "Bare is a de-Googled Chromium build for Android, built for privacy, control, and freedom on the web.",
+ "descripcion": "Bare is a de-Googled Chromium build for Android, built for privacy, control, and freedom on the web. It strips Google tracking, telemetry, and AI integration while keeping browser extensions and uBlock Origin. It adds background video playback, saving media from sites that normally block it, your choice of download manager, and more.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#BareBrowser/bare-browser",
-  "sha256": "11adbd1b18c4d2f7448c6132097cc7a30dd5194e99187e98ca4a6eadd291c7f2"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/barebrowser--bare-browser.json",
+  "sha256": "4bfcbea8cb196892c36e4bc92798e8ff7e2fb99d4a77d9f324de70c7f663180c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 489,
-  "stars_por_mes": 243.7
+  "stars": 676,
+  "stars_por_mes": null
  },
  "nombre": "bare-browser",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "BareBrowser/bare-browser"

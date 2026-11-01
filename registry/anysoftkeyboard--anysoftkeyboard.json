@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Android on screen keyboard for multiple languages and NO internet access",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#AnySoftKeyboard/AnySoftKeyboard",
-  "sha256": "a62237cfb931b956b4fb7a7e971c2dcea9ddbdf8c902086fbd68af56254e2edb"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/anysoftkeyboard--anysoftkeyboard.json",
+  "sha256": "9866f73b00b6bc2f3e5d9dfa74b70e40dcae7e8e6f5414ddc3b0a099018ba8aa"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3383,
-  "stars_por_mes": 19.4
+  "stars": 3390,
+  "stars_por_mes": null
  },
  "nombre": "AnySoftKeyboard",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "AnySoftKeyboard/AnySoftKeyboard"
+ "repo": "AnySoftKeyboard/AnySoftKeyboard",
+ "web": "http://anysoftkeyboard.github.io/"
 }

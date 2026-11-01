@@ -8,36 +8,39 @@
  },
  "descripcion": "Model Context Protocol Servers, remember to sync with the parent repo",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#sidbetatester/servers_ModelContextProtocol-fork",
-  "sha256": "ff98e17ca78e32a41a537d70b2cbc54734dd0c8e004007aa46843fa604ad4525"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sidbetatester--servers_modelcontextprotocol-fork.json",
+  "sha256": "28662fa73f05221389598aa139cf355efc7339816f4543cf1d220845e0cd6bc8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "sidbetatester--servers_modelcontextprotocol-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "servers_ModelContextProtocol-fork",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "sidbetatester/servers_ModelContextProtocol-fork"
+ "repo": "sidbetatester/servers_ModelContextProtocol-fork",
+ "web": "https://modelcontextprotocol.io"
 }

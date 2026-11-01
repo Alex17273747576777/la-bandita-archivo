@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2026-10-12"
  },
- "descripcion": "Free and open source application for reading manga, novels, and watching animes",
+ "descripcion": "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#yxxyun/mangayomi",
-  "sha256": "dbb26c7f41a8bf1d7488380c4ce1404833c90f06bf959a0bbf2b422a5d768d6e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yxxyun--mangayomi.json",
+  "sha256": "b0b3deca99bb43760a669d4e0b0db353d1628a07d1fbc78227a0fbb2145b4bc9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "yxxyun--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "mangayomi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "yxxyun/mangayomi"

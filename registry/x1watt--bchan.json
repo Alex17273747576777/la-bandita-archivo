@@ -8,13 +8,13 @@
  },
  "descripcion": "Free and open-source manga & comic reader for Android — a streamlined fork of TachiyomiSY/Mihon",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#x1watt/bchan",
-  "sha256": "8fd5ec90f28e8a8f2afec29c4e763addd3e8b56e1a7c8082ab59ff7d2dab535c"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/x1watt--bchan.json",
+  "sha256": "79116efe15705a961f5d4c9f26629487d1244980509884f93e3dd3817363df81"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 7,
-  "stars_por_mes": 1.8
+  "stars_por_mes": null
  },
  "nombre": "bchan",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "x1watt/bchan"

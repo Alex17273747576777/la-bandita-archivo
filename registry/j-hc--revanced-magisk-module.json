@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-12"
+  "ultimo_push": "2026-10-31"
  },
  "descripcion": "Extensive ReVanced builder. Builds both modules and APKs. Updated daily.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#j-hc/revanced-magisk-module",
-  "sha256": "c3b96dddfcebd330fa5eddf170cf6fcc61883d6b2b87bc80a69f5999ff4a7bff"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/j-hc--revanced-magisk-module.json",
+  "sha256": "5e5b1e98dd1efb89c3c83cef44de0b7f8c40b8ad981768fb8ddd27d87b5565ad"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7684,
-  "stars_por_mes": 148.5
+  "stars": 7710,
+  "stars_por_mes": null
  },
  "nombre": "revanced-magisk-module",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "j-hc/revanced-magisk-module"
+ "repo": "j-hc/revanced-magisk-module",
+ "web": "https://t.me/rvc_magisk"
 }

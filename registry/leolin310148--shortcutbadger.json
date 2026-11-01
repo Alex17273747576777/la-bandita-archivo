@@ -8,35 +8,37 @@
  },
  "descripcion": "An Android library supports badge notification like iOS in Samsung, LG, Sony and HTC launchers.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#leolin310148/ShortcutBadger",
-  "sha256": "f388b789a6c1d7cc8f25b4492ef3997ffdb174216245896014565504349f1f0d"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/leolin310148--shortcutbadger.json",
+  "sha256": "a48d32ec3b6b3cc2b7d75839e566ae0ac89e2939ecb51ad879baabddf3077888"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "leolin310148--shortcutbadger",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7327,
-  "stars_por_mes": 47.2
+  "stars": 7325,
+  "stars_por_mes": null
  },
  "nombre": "ShortcutBadger",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "leolin310148/ShortcutBadger"

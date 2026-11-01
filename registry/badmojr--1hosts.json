@@ -8,13 +8,13 @@
  },
  "descripcion": "Advanced DNS filter/blocklists for privacy, security, and clean browsing.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#badmojr/1Hosts",
-  "sha256": "b2d07a742ba9678474b49df8e368cf5511c6da32e3ae7aba3b08ce7656f10310"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/badmojr--1hosts.json",
+  "sha256": "57817ef65a9e4c01ea92162ca70b1ec66d73eed7459827ef8e64ece5f40b75d9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2244,
-  "stars_por_mes": 26.7
+  "stars": 2260,
+  "stars_por_mes": null
  },
  "nombre": "1Hosts",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "badmojr/1Hosts"
+ "repo": "badmojr/1Hosts",
+ "web": "https://badmojr.github.io/1Hosts/"
 }

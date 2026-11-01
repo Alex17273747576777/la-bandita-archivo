@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-09"
+  "ultimo_push": "2026-10-27"
  },
- "descripcion": "One code, and you're in the same room. Remote multiplayer between Android emulators: 3DS, Switch, PS",
+ "descripcion": "One code, and you're in the same room. Remote multiplayer between Android emulators: 3DS, Switch, PSP, PS2, DS and WII.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#jojodogm-ctrl/emufii",
-  "sha256": "35d03a99863dc5246abfa16df4d9f2b4bf27c24e008d450da27cb0432dcc7a24"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jojodogm-ctrl--emufii.json",
+  "sha256": "e93ff870f519723c71b647d99a7641235d36b975a481eaaaff77be1c175b4dce"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 636,
-  "stars_por_mes": 429.7
+  "stars": 858,
+  "stars_por_mes": null
  },
  "nombre": "emufii",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "jojodogm-ctrl/emufii"
+ "repo": "jojodogm-ctrl/emufii",
+ "web": "https://discord.gg/tvWcb28vBZ"
 }

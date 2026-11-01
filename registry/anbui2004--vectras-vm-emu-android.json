@@ -8,29 +8,29 @@
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#AnBui2004/Vectras-VM-Emu-Android",
-  "sha256": "5abd17cc60d8b7a38da13b464ec09b7fa1212078523b5c7b6447d3a30cb8f1f1"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/anbui2004--vectras-vm-emu-android.json",
+  "sha256": "9c5222d4c95da33ddba9291f857334be5b41c27c73880ca35c0271e373da0d7c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "anbui2004--vectras-vm-emu-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 299,
-  "stars_por_mes": 3.0
+  "stars": 306,
+  "stars_por_mes": null
  },
  "nombre": "Vectras-VM-Emu-Android",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "AnBui2004/Vectras-VM-Emu-Android"
+ "repo": "AnBui2004/Vectras-VM-Emu-Android",
+ "web": "https://vectras.vercel.app"
 }

@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2024-08-02"
  },
- "descripcion": "Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your pri",
+ "descripcion": "Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#0x192/universal-android-debloater",
-  "sha256": "1044848384ee7d7844802fe0690572a7a8721c78ca99ba186326e829c8a96d10"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/0x192--universal-android-debloater.json",
+  "sha256": "f97e924dfa4954fb1e71c9bbe037ffc079d6ad913991ae38ad8c70f8ddca3175"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 20042,
-  "stars_por_mes": 332.2
+  "stars": 20299,
+  "stars_por_mes": null
  },
  "nombre": "universal-android-debloater",
  "piezas": [
@@ -39,6 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "0x192/universal-android-debloater"

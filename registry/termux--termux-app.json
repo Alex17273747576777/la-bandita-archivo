@@ -8,29 +8,29 @@
  },
  "descripcion": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#termux/termux-app",
-  "sha256": "9fa054ec95240d03287bf1fd81c737e65471dfcbf1b042d2d1ab24666db074ee"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/termux--termux-app.json",
+  "sha256": "5daf92e394500f4f5ddf25e572977cf41aed93394852e1346e58e08be5418cf1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "termux--termux-app",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE.md",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 62686,
-  "stars_por_mes": 475.2
+  "stars": 63843,
+  "stars_por_mes": null
  },
  "nombre": "termux-app",
  "piezas": [
@@ -41,7 +41,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "termux/termux-app"
+ "repo": "termux/termux-app",
+ "web": "https://f-droid.org/en/packages/com.termux"
 }

@@ -92,7 +92,7 @@
  "releases_url": "https://api.github.com/repos/sam1am/anyapk/releases{/id}",
  "size": 4924,
  "ssh_url": "git@github.com:sam1am/anyapk.git",
- "stargazers_count": 2938,
+ "stargazers_count": 2939,
  "stargazers_url": "https://api.github.com/repos/sam1am/anyapk/stargazers",
  "statuses_url": "https://api.github.com/repos/sam1am/anyapk/statuses/{sha}",
  "subscribers_count": 23,
@@ -104,10 +104,10 @@
  "temp_clone_token": "",
  "topics": [],
  "trees_url": "https://api.github.com/repos/sam1am/anyapk/git/trees{/sha}",
- "updated_at": "2026-11-01T00:31:51Z",
+ "updated_at": "2026-11-01T01:31:05Z",
  "url": "https://api.github.com/repos/sam1am/anyapk",
  "visibility": "public",
- "watchers": 2938,
- "watchers_count": 2938,
+ "watchers": 2939,
+ "watchers_count": 2939,
  "web_commit_signoff_required": false
 }

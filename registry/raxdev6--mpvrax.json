@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2026-08-31"
  },
- "descripcion": "A powerful, customizable Android media player based on libmpv, featuring modern",
+ "descripcion": "A powerful, customizable Android media player based on libmpv, featuring modern UI, advanced playback controls, casting, and extensive customization.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RaxDev6/mpvRAX",
-  "sha256": "17293f19a6cea76930d46e750848fd85d4c542938040bb280487017925ff5892"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/raxdev6--mpvrax.json",
+  "sha256": "83f9990ed10b4da11f072a2c4e0658b65727d225ceff455e4a3227308601521c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "raxdev6--mpvrax",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 4,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "mpvRAX",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "RaxDev6/mpvRAX"

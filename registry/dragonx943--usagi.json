@@ -8,36 +8,39 @@
  },
  "descripcion": "Usagi source code.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dragonx943/Usagi",
-  "sha256": "3b60c830d7a6f0e41c14b9748d63db436a457b30dbe841e297069e5cd7aaa67d"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dragonx943--usagi.json",
+  "sha256": "2dfbfb44abc78525eddfca86cc9968e3f2e5ab19b14807c756d0a006617ab0e8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "dragonx943--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 3,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "Usagi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "dragonx943/Usagi"
+ "repo": "dragonx943/Usagi",
+ "web": "https://yumemi.moe/usagi"
 }

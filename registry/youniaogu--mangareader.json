@@ -8,13 +8,13 @@
  },
  "descripcion": "一个漫画 APP📱，基于 react-native 构建，兼容 Android、Ios 平台",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#youniaogu/MangaReader",
-  "sha256": "482f649ae59f5e178afb9068d7de7029d64e85c91a938b6daf2a2670c116fa1e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/youniaogu--mangareader.json",
+  "sha256": "fb4a9eed9e569527a5ef3165c82af53e937f82d824635cf2c5e6c3cbf64c5405"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2844,
-  "stars_por_mes": 52.1
+  "stars": 2843,
+  "stars_por_mes": null
  },
  "nombre": "MangaReader",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "youniaogu/MangaReader"

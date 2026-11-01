@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2025-11-04"
  },
- "descripcion": "-",
+ "descripcion": "Manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#KotatsuApp/Kotatsu",
-  "sha256": "c10254e63a68f526e5c75f2cabe986489a8b037f603fc381fb6e76548069431f"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kotatsuapp--kotatsu.json",
+  "sha256": "671d3661d64f71978e91d7977bea6a5bf7cf48c33a6e9083f054051ab9ba2ee4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8923,
-  "stars_por_mes": 90.1
+  "stars": 8943,
+  "stars_por_mes": null
  },
  "nombre": "Kotatsu",
  "piezas": [
@@ -41,7 +41,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "KotatsuApp/Kotatsu"
+ "repo": "KotatsuApp/Kotatsu",
+ "web": "https://kotatsu.app"
 }

@@ -4,40 +4,43 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "QuantumMPV - a powerful, efficient, feature-rich Android media player built on l",
+ "descripcion": "QuantumMPV - a powerful, efficient, feature-rich Android media player built on libmpv. HDR, shaders, Anime4K, subtitles, Cast, and deep customization. No ads. No trackers. No noise.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Fahimofficial/QuantumMPV",
-  "sha256": "da8d420e2d45d636146d8130920d53040a7c4c1d9a4188dbeb8865fee2d22cc7"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fahimofficial--quantummpv.json",
+  "sha256": "944e52517d345a4b6ccc1f12cdf4e66315217ea2d4fb851111c542358361dd6e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "fahimofficial--quantummpv",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8,
-  "stars_por_mes": 0.1
+  "stars": 10,
+  "stars_por_mes": null
  },
  "nombre": "QuantumMPV",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Fahimofficial/QuantumMPV"
+ "repo": "Fahimofficial/QuantumMPV",
+ "web": "https://quantummpv.vercel.app/"
 }

@@ -8,35 +8,37 @@
  },
  "descripcion": "mihon fork that adds author & recommendation version",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kom1ch1/mihon-author-recommendation-ver",
-  "sha256": "e9cfe9d4218ecc03cf6a4a8f9f4bb3976630a724d4a3b79b5700fbbd88d0e1f8"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kom1ch1--mihon-author-recommendation-ver.json",
+  "sha256": "f8035618e9e36cd97202bbefc3d2d650b0b4885979cf183f3b4d0c95e19e914c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "kom1ch1--mihon-author-recommendation-ver",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 3,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "mihon-author-recommendation-ver",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "Kom1ch1/mihon-author-recommendation-ver"

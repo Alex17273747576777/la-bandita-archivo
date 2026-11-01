@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-10-09"
  },
- "descripcion": "A library for recording arbitrary calls to Python modules, primarily intended for Python reverse eng",
+ "descripcion": "A library for recording arbitrary calls to Python modules, primarily intended for Python reverse engineering and analysis. ",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ekcbw/pymodhook",
-  "sha256": "3c5496ac8edf8b0a784a21f219a0ee7c3f6caa99095982f45be72f3d2181555c"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ekcbw--pymodhook.json",
+  "sha256": "8fc602e709ac01ff7f7930b06b64907d5503f4091517609968047d26787e3382"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 124,
-  "stars_por_mes": 7.2
+  "stars": 122,
+  "stars_por_mes": null
  },
  "nombre": "pymodhook",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "ekcbw/pymodhook"

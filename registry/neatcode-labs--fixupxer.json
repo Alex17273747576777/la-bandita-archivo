@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-09"
+  "ultimo_push": "2026-10-29"
  },
- "descripcion": "Android URL cleaner: strips tracking, rewrites social links for better previews, no permissions, no",
+ "descripcion": "Android URL cleaner: strips tracking, rewrites social links for better previews, no permissions, no network. GPL-3.0-or-later.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#NeatCode-Labs/fixupxer",
-  "sha256": "00d95384c25d9c3109058faf3d200e807b07ad9a03dd255523cfd377dcb587c8"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/neatcode-labs--fixupxer.json",
+  "sha256": "6e6eb2263f0836b2c37fa851ba2d09e31ea4784c1a611451fcd953fd01c65982"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 66,
-  "stars_por_mes": 4.1
+  "stars": 67,
+  "stars_por_mes": null
  },
  "nombre": "fixupxer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "NeatCode-Labs/fixupxer"
+ "repo": "NeatCode-Labs/fixupxer",
+ "web": "https://fixupxer.com"
 }

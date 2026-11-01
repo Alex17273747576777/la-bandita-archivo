@@ -8,13 +8,13 @@
  },
  "descripcion": "微信《跳一跳》Python 辅助",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#wangshub/wechat_jump_game",
-  "sha256": "07bfd597005efddec72e5787dbfdf2822506b5ceab556a6e2ee925ed0e3bd4eb"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wangshub--wechat_jump_game.json",
+  "sha256": "b6b0b22bfb0248444f7daa4326311b7837445481de85a5b754735ae1f2a3cecb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13842,
-  "stars_por_mes": 131.0
+  "stars": 13849,
+  "stars_por_mes": null
  },
  "nombre": "wechat_jump_game",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "wangshub/wechat_jump_game"
+ "repo": "wangshub/wechat_jump_game",
+ "web": "https://zhuanlan.zhihu.com/p/32452473"
 }

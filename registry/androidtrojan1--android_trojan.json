@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2016-09-16"
  },
- "descripcion": "Android trojan with abilities of recording calls, live mic streaming , remote root commands executio",
+ "descripcion": "Android trojan with abilities of recording calls, live mic streaming , remote root commands execution and other",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#androidtrojan1/android_trojan",
-  "sha256": "4be448981786b5c930715dff3a67cfa51a6c92b0f2e3a4321c92443dbbb36028"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/androidtrojan1--android_trojan.json",
+  "sha256": "aac00b80c01b8c819422cfbbc1f15fcf78fb5c6e933be01eb9fc7fc59e6548b3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 177,
-  "stars_por_mes": 1.5
+  "stars": 176,
+  "stars_por_mes": null
  },
  "nombre": "android_trojan",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "androidtrojan1/android_trojan"

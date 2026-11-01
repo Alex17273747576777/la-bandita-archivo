@@ -8,13 +8,13 @@
  },
  "descripcion": "From UI Proposal to Code :notes::arrow_forward:",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#andremion/Music-Player",
-  "sha256": "446cece5ac0f5a66c7af4f52ea44b3b0e45f8f6199134dde35875076e2cfc5a8"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/andremion--music-player.json",
+  "sha256": "1a9308be5156562f442a3cda10b9a05b49512d3d9917d71585c34f9b4565374b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 3504,
-  "stars_por_mes": 27.9
+  "stars_por_mes": null
  },
  "nombre": "Music-Player",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "andremion/Music-Player"
+ "repo": "andremion/Music-Player",
+ "web": "https://medium.com/@andremion/music-player-3a85864d6df7#.iklz50r6n"
 }

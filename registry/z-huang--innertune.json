@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2025-11-13"
  },
- "descripcion": "v0.5.10",
+ "descripcion": "A Material 3 YouTube Music client for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#z-huang/InnerTune",
-  "sha256": "7c65d72126af8db0cc6e0aea31cbd6a9009e8456741407fdeeda9d98c1b128c3"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/z-huang--innertune.json",
+  "sha256": "917f2a5d614dd2ca309331f7cea31267a3f06bcfdb04687b7fdedc1ac01b4afd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6122,
-  "stars_por_mes": 61.8
+  "stars": 6130,
+  "stars_por_mes": null
  },
  "nombre": "InnerTune",
  "piezas": [
@@ -40,6 +40,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "z-huang/InnerTune"

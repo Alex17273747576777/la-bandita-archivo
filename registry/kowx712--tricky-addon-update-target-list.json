@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-11"
+  "ultimo_push": "2026-10-30"
  },
  "descripcion": "A KSU WebUI to configure Tricky Store target.txt",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#KOWX712/Tricky-Addon-Update-Target-List",
-  "sha256": "a0acfd16f0c2743bd2d08a4413411ad511a7344c56110c222d1540d69f4f9f40"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kowx712--tricky-addon-update-target-list.json",
+  "sha256": "ce7f42ecf2e987901b6074aa75c1ba823d6765ab631c5cbba54648911a569dc3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3490,
-  "stars_por_mes": 145.3
+  "stars": 3514,
+  "stars_por_mes": null
  },
  "nombre": "Tricky-Addon-Update-Target-List",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "KOWX712/Tricky-Addon-Update-Target-List"
+ "repo": "KOWX712/Tricky-Addon-Update-Target-List",
+ "web": "https://t.me/kowchannel"
 }

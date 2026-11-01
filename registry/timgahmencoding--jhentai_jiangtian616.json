@@ -6,37 +6,39 @@
   "ultima_release": null,
   "ultimo_push": "2026-01-24"
  },
- "descripcion": "A cross-platform manga app made for e-hentai & exhentaiJHenTai_jiangtian616 by F",
+ "descripcion": "A cross-platform manga app made for e-hentai & exhentaiJHenTai_jiangtian616 by Flutter",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#timgahmencoding/JHenTai_jiangtian616",
-  "sha256": "064e6f8ada2ae4ab7f30596ea101921cc75fed37d2ca8be811d4ec643d0c27dc"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/timgahmencoding--jhentai_jiangtian616.json",
+  "sha256": "13c4a4d054c59c1f73daa965b929bd517b9648666d3281b86f5f31188f13cdb7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "timgahmencoding--jhentai_jiangtian616",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 1,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "JHenTai_jiangtian616",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "timgahmencoding/JHenTai_jiangtian616"

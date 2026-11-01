@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-11-01"
  },
- "descripcion": "Hushfacebook Morphe patches for Facebook. Hide ads, suggested posts, save videos and photos, tune pl",
+ "descripcion": "Hushfacebook Morphe patches for Facebook. Hide ads, suggested posts, save videos and photos, tune playback and Reels, and use a focused Marketplace mode, and much more.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SysAdminDoc/HushFacebook",
-  "sha256": "b0c633817a54ddb63ee669065afc47d2a8791679279c8d3e8f02aa08cf493bb6"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sysadmindoc--hushfacebook.json",
+  "sha256": "516d9bd3252c5e45073d81c612401c5365955ad62649e628c6bacc1e2590a168"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 288,
-  "stars_por_mes": 416.9
+  "stars": 447,
+  "stars_por_mes": null
  },
  "nombre": "HushFacebook",
  "piezas": [
@@ -40,7 +40,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "SysAdminDoc/HushFacebook"
+ "repo": "SysAdminDoc/HushFacebook",
+ "web": "https://github.com/SysAdminDoc/Hushfacebook/releases/latest"
 }

@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-05-04"
  },
- "descripcion": "A Zygisk module to hide root for KernelSU, Magisk and APatch, designed to work on Android 5.0 and ab",
+ "descripcion": "A Zygisk module to hide root for KernelSU, Magisk and APatch, designed to work on Android 5.0 and above.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#snake-4/Zygisk-Assistant",
-  "sha256": "fed4a8e7cd686676dcd72039c2fe45f41682b891f43383565c755f1940bce783"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/snake-4--zygisk-assistant.json",
+  "sha256": "29ee7986751d4a3bc79782bae1b28a11b43e315d18e1ba352123bd73a3041ea8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2641,
-  "stars_por_mes": 84.0
+  "stars": 2662,
+  "stars_por_mes": null
  },
  "nombre": "Zygisk-Assistant",
  "piezas": [
@@ -39,6 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "snake-4/Zygisk-Assistant"

@@ -4,40 +4,43 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "Turn any Android device into a beautiful, dedicated Home Assistant kiosk. Purpose-built for Home Ass",
+ "descripcion": "Turn any Android device into a beautiful, dedicated Home Assistant kiosk. Purpose-built for Home Assistant from the ground up.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#jxlarrea/kiosk-satellite",
-  "sha256": "9ee8b337d7db58b918ac2eba786d9afeffd8ee93c228f25db429ac818c837816"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jxlarrea--kiosk-satellite.json",
+  "sha256": "9dbc41a0c9f797fea219b50dd1869c32155162f75244cddb96813ccab8ced23d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "jxlarrea--kiosk-satellite",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "LICENSE",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1591,
-  "stars_por_mes": 525.7
+  "stars": 2232,
+  "stars_por_mes": null
  },
  "nombre": "kiosk-satellite",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "jxlarrea/kiosk-satellite"
+ "repo": "jxlarrea/kiosk-satellite",
+ "web": "https://kiosksatellite.com"
 }

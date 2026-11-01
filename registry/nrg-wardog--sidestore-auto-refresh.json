@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-11"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "LiveContainer + embedded SideStore with native auto-refresh, official LocalDevVPN/CoreDevice transpo",
+ "descripcion": "LiveContainer + embedded SideStore with native auto-refresh, official LocalDevVPN/CoreDevice transport, and guest Return controls. Free Apple Account; no PC during refresh. Standalone SideStore also available.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#NRG-Wardog/sidestore-auto-refresh",
-  "sha256": "77b7dd04c3f94a90f820a41f531d3a28cee1ab7474c004c4b51652fedc989db1"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nrg-wardog--sidestore-auto-refresh.json",
+  "sha256": "9537c854ff26e39c0b66a8fcf57a174196813570b19561128b71fa071c9278c2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 154,
-  "stars_por_mes": 99.6
+  "stars": 171,
+  "stars_por_mes": null
  },
  "nombre": "sidestore-auto-refresh",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "NRG-Wardog/sidestore-auto-refresh"

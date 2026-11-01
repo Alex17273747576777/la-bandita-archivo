@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-11"
+  "ultimo_push": "2026-10-28"
  },
  "descripcion": "A V2Ray client for Android, support Xray core and v2fly core",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#2dust/v2rayNG",
-  "sha256": "40d0f6445491737e373a7f9dcf2ca01e7afdcbfb5534b927b6fb3692add257b6"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/2dust--v2rayng.json",
+  "sha256": "58123ec579ead7e7643b809e4f132ea567826db3bfc0be7f1d692814bef29770"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 64031,
-  "stars_por_mes": 718.3
+  "stars": 65080,
+  "stars_por_mes": null
  },
  "nombre": "v2rayNG",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "2dust/v2rayNG"
+ "repo": "2dust/v2rayNG",
+ "web": "https://v2rayng.2dust.link"
 }

@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2026-10-15"
  },
- "descripcion": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and",
+ "descripcion": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#alphacep/vosk-api",
-  "sha256": "557c33b48bc541d36f06319ca4b1413208822f40bc056246ad6cacb84b0796f6"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/alphacep--vosk-api.json",
+  "sha256": "4efc92aaf5ca0125c5186e2c94a12f99d1075dfbf1e46b813859b5c9e17fcf55"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15174,
-  "stars_por_mes": 177.5
+  "stars": 15223,
+  "stars_por_mes": null
  },
  "nombre": "vosk-api",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "alphacep/vosk-api"

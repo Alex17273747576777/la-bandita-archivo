@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "Password manager app for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#PhilippC/keepass2android",
-  "sha256": "7286db1207af43cb91b6379c4e9ceb77c8bebf49bf1e4ad88be0d1bf3857a54e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/philippc--keepass2android.json",
+  "sha256": "ed995b6a2dbd44e78a0eb2563167e9b37d3fbe5cf6e82a35bccff540d326da65"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6299,
-  "stars_por_mes": 57.8
+  "stars": 6350,
+  "stars_por_mes": null
  },
  "nombre": "keepass2android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "PhilippC/keepass2android"
+ "repo": "PhilippC/keepass2android",
+ "web": "https://play.google.com/store/apps/details?id=keepass2android.keepass2android"
 }

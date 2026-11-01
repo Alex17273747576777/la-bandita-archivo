@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-31"
  },
- "descripcion": "Local Windows iPhone/iPad mirroring over USB and AirPlay with D3D11 preview, multi-device sessions,",
+ "descripcion": "Local Windows iPhone/iPad mirroring over USB and AirPlay with D3D11 preview, multi-device sessions, OBS output, and a standalone driver manager.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RayrenSX/iPhoneMirror",
-  "sha256": "1f3a09f8406987733d8a01aa0cc83bdd4677fc11a2f5314f3aee8b54d0755bdb"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rayrensx--iphonemirror.json",
+  "sha256": "da82d95516067119a34ae520d9b62737f9f9845ed7befa4e4d3ab71cdae71041"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1301,
-  "stars_por_mes": 412.0
+  "stars": 1628,
+  "stars_por_mes": null
  },
  "nombre": "iPhoneMirror",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "RayrenSX/iPhoneMirror"
+ "repo": "RayrenSX/iPhoneMirror",
+ "web": "https://github.com/RayrenSX/iPhoneMirror/releases"
 }

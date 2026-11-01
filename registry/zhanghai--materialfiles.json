@@ -8,13 +8,13 @@
  },
  "descripcion": "Material Design file manager for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#zhanghai/MaterialFiles",
-  "sha256": "8e214c2312ebfe465e15ece1edfa8e9869ab00e51ceae4b4d3a429ab1beb4970"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zhanghai--materialfiles.json",
+  "sha256": "90c9646e4dfea5616a486202ee52df0e91881cd6629ee1b4df47ad922e3715e5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9221,
-  "stars_por_mes": 91.5
+  "stars": 9368,
+  "stars_por_mes": null
  },
  "nombre": "MaterialFiles",
  "piezas": [
@@ -39,7 +39,10 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "zhanghai/MaterialFiles"
+ "repo": "zhanghai/MaterialFiles",
+ "web": "https://play.google.com/store/apps/details?id=me.zhanghai.android.files"
 }

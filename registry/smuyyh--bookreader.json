@@ -8,13 +8,13 @@
  },
  "descripcion": ":closed_book:  \"任阅\" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#smuyyh/BookReader",
-  "sha256": "b02bfb5aa17a9e35e21e390fbefca4f4f4825391c64fb6709a42dfa96134c892"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/smuyyh--bookreader.json",
+  "sha256": "f2f68c831069eed0cff83fe3251ffa5703cc144c7c091d984474291d00ee1647"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6953,
-  "stars_por_mes": 56.7
+  "stars": 6969,
+  "stars_por_mes": null
  },
  "nombre": "BookReader",
  "piezas": [
@@ -39,6 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "smuyyh/BookReader"

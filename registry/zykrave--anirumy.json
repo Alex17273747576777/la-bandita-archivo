@@ -8,13 +8,13 @@
  },
  "descripcion": "An unofficial AniList client for Android — track anime & manga, beautifully.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Zykrave/Anirumy",
-  "sha256": "2e413eab8ec183aee68ebf4fd7c6e3e421a9f80de101c4f53c9d4fec11dd741c"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zykrave--anirumy.json",
+  "sha256": "5e2a92f8f07f07ca30e900ea4bef3685a0bf2985fda537c3c351e41dddec0f1e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
-  "stars_por_mes": 2.5
+  "stars": 6,
+  "stars_por_mes": null
  },
  "nombre": "Anirumy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "Zykrave/Anirumy"
+ "repo": "Zykrave/Anirumy",
+ "web": "https://zykrave-omniverse.vercel.app/"
 }

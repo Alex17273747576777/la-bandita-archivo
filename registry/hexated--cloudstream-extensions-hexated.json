@@ -8,13 +8,13 @@
  },
  "descripcion": "Julidfisabilillah for Palestine :palestinian_territories:",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#hexated/cloudstream-extensions-hexated",
-  "sha256": "33a36ad0c4be088b7fd222d22b93842675ca5b6802746e33b1cb5f38800b2c0f"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hexated--cloudstream-extensions-hexated.json",
+  "sha256": "fd8343605aa3e36246d1d6534966238a98cc599387e13cfceb5d39748c3f9cbd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 395,
-  "stars_por_mes": 8.0
+  "stars": 397,
+  "stars_por_mes": null
  },
  "nombre": "cloudstream-extensions-hexated",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "hexated/cloudstream-extensions-hexated"
+ "repo": "hexated/cloudstream-extensions-hexated",
+ "web": "https://julidfisabilillah.org/"
 }

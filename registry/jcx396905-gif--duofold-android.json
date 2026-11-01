@@ -4,17 +4,17 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-01"
+  "ultimo_push": "2026-10-24"
  },
- "descripcion": "iPhone Duo-style system-wide fold illusion for regular Android phones — whole-screen reprojection dr",
+ "descripcion": "iPhone Duo-style system-wide fold illusion for regular Android phones — whole-screen reprojection driven by real device motion, powered by OpenGL ES + Shizuku, no foldable hardware, no root.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#jcx396905-gif/DuoFold-Android",
-  "sha256": "3a81e86c456078278b7a2637f7fd8406b3e16df86baf1cd9cd9ac9ced85cf076"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jcx396905-gif--duofold-android.json",
+  "sha256": "a57fdcf8e0e6f26d5332ce53ba164852ffaa07b1fd5954b1d0198d2fc403dc9e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 190,
-  "stars_por_mes": 175.0
+  "stars": 198,
+  "stars_por_mes": null
  },
  "nombre": "DuoFold-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "jcx396905-gif/DuoFold-Android"

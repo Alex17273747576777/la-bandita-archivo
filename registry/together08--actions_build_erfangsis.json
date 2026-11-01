@@ -8,13 +8,13 @@
  },
  "descripcion": "2020-04-21 commit了好几次后，终于成功！现在可以按照readme.md使用了！",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#together08/actions_build_ErfanGSIs",
-  "sha256": "cf8fddcbdba6570f937f8f104e1af4a178d7651e94579e61dc1df609bbd116ba"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/together08--actions_build_erfangsis.json",
+  "sha256": "71e76b40976dff79366f73118f254b455b25c7bc84943345b6f559973219a649"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "ausencia-firmada",
   "spdx": null,
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 467,
-  "stars_por_mes": 6.0
+  "stars": 466,
+  "stars_por_mes": null
  },
  "nombre": "actions_build_ErfanGSIs",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "together08/actions_build_ErfanGSIs"

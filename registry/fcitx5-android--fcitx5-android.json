@@ -8,13 +8,13 @@
  },
  "descripcion": "Fcitx5 input method framework and engines ported to Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#fcitx5-android/fcitx5-android",
-  "sha256": "a6dabaa6ef20f38f2583e289c35d61b170c284787fea3eb15717b4355070d55d"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fcitx5-android--fcitx5-android.json",
+  "sha256": "57ba210e7455225d72f1b2921f4a23eafeb01c212705e0b6ec74930c2ea9349f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "LGPL-2.1",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5761,
-  "stars_por_mes": 89.7
+  "stars": 5820,
+  "stars_por_mes": null
  },
  "nombre": "fcitx5-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "fcitx5-android/fcitx5-android"
+ "repo": "fcitx5-android/fcitx5-android",
+ "web": "https://fcitx5-android.github.io/"
 }

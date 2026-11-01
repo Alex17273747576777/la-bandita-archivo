@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-07-09"
  },
- "descripcion": "DEPRECATED — merged into com.termux.agora (see marx161-cmd/agora). Archived karl",
+ "descripcion": "DEPRECATED — merged into com.termux.agora (see marx161-cmd/agora). Archived karl-9000 Kai APK fork.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#marx161-cmd/karl-9000",
-  "sha256": "bb8cb2756e0dede66d21d8deb14c6ef17ad708be7d2a19a3e2e4a28cf8d2d9cc"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/marx161-cmd--karl-9000.json",
+  "sha256": "5277128579a8dfbc17a250b45b6d196a007164bb3f9b630147c232555f7ce7e6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "marx161-cmd--karl-9000",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 4,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "karl-9000",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "marx161-cmd/karl-9000"
+ "repo": "marx161-cmd/karl-9000",
+ "web": "https://marx161-cmd.github.io/karl-9000/"
 }

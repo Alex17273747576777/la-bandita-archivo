@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2023-08-08"
  },
- "descripcion": "Library for Android Camera 1 and 2 APIs. Massively increase stability and reliability of photo and v",
+ "descripcion": "Library for Android Camera 1 and 2 APIs. Massively increase stability and reliability of photo and video capture on all Android devices.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#CameraKit/camerakit-android",
-  "sha256": "183137605d9c350cea9b880128a105cfd5cd2e0be948d8dbeba8f2fac7393d01"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/camerakit--camerakit-android.json",
+  "sha256": "f80c09f32d10eedab7129678e454726fe4b558afbd1e933495a02ea6668bcad6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,21 +23,24 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5393,
-  "stars_por_mes": 45.4
+  "stars": 5390,
+  "stars_por_mes": null
  },
  "nombre": "camerakit-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "CameraKit/camerakit-android"
+ "repo": "CameraKit/camerakit-android",
+ "web": "https://camerakit.io"
 }

@@ -6,38 +6,41 @@
   "ultima_release": null,
   "ultimo_push": "2026-04-02"
  },
- "descripcion": "🔥🔥🔥AidLearning is a powerful AIOT development platform, AidLearning builds a linux env supporting GU",
+ "descripcion": "🔥🔥🔥AidLearning is a powerful AIOT development platform, AidLearning builds a linux env supporting GUI, deep learning and visual IDE on Android...Now Aid supports CPU+GPU+NPU for inference with high performance acceleration...Linux on Android or HarmonyOS ",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#aidlearning/AidLearning-FrameWork",
-  "sha256": "bb9b75dab5ccdaabc8e4011e6e642fe417f553939e71d3bc288e0a862095d5e0"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/aidlearning--aidlearning-framework.json",
+  "sha256": "253716d4c2486e175e9c8309ac104d5890758a42713bfffe2e5d3816c0296f48"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "aidlearning--aidlearning-framework",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
+  "archivo": "license.md",
+  "metodo": "texto-license",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5813,
-  "stars_por_mes": 64.6
+  "stars": 5820,
+  "stars_por_mes": null
  },
  "nombre": "AidLearning-FrameWork",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "aidlearning/AidLearning-FrameWork"
+ "repo": "aidlearning/AidLearning-FrameWork",
+ "web": "https://docs.aidlux.com"
 }

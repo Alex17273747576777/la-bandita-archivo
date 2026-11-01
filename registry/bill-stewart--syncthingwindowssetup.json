@@ -8,13 +8,13 @@
  },
  "descripcion": "Syncthing Windows Setup",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Bill-Stewart/SyncthingWindowsSetup",
-  "sha256": "4fdb10e51cb3fd1cb95359b9a42da2cd83df34ec43eacae62afb0a178bddee4f"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bill-stewart--syncthingwindowssetup.json",
+  "sha256": "8e23bfbebdd87a597befc4acb9b79416dd5f424f21dd2bc6063da8fe11c5f047"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4426,
-  "stars_por_mes": 76.8
+  "stars": 4517,
+  "stars_por_mes": null
  },
  "nombre": "SyncthingWindowsSetup",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "Bill-Stewart/SyncthingWindowsSetup"

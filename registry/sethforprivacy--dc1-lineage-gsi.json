@@ -8,13 +8,13 @@
  },
  "descripcion": "Maintained, unrooted LineageOS GSI fork for the Daylight DC-1 (amber frontlight built in)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#sethforprivacy/dc1-lineage-gsi",
-  "sha256": "5618cc7ede09a942070666d1cbc13b13643fd4388deba63b1767459a7a2b3030"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sethforprivacy--dc1-lineage-gsi.json",
+  "sha256": "2d50e41667f51bfafb130006feb9eb63a5c210460a1e6ec2c754df9293b215fc"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 25,
-  "stars_por_mes": 13.3
+  "stars": 28,
+  "stars_por_mes": null
  },
  "nombre": "dc1-lineage-gsi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "sethforprivacy/dc1-lineage-gsi"

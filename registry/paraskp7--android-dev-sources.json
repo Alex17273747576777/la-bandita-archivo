@@ -8,13 +8,13 @@
  },
  "descripcion": "All those Android development sources that you need to be and stay awesome!",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ParaskP7/android-dev-sources",
-  "sha256": "a1ec850d5ec7f86b0e15d9d03f85034a6bd128a2bb78d6ed6c50e5e25a0f10bb"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/paraskp7--android-dev-sources.json",
+  "sha256": "9d2999191ca46889e21ab93aaf1b4db5740e4597d37b851c388e6796a510d376"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 458,
-  "stars_por_mes": 4.0
+  "stars_por_mes": null
  },
  "nombre": "android-dev-sources",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "ParaskP7/android-dev-sources"

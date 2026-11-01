@@ -8,13 +8,13 @@
  },
  "descripcion": "Youtube Clone Frontend (React + Redux)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#manikandanraji/youtubeclone-frontend",
-  "sha256": "43ad23070610c63aa74fcd6d37a3e906610ec09f26415048cd27a4ab0a2a658f"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/manikandanraji--youtubeclone-frontend.json",
+  "sha256": "dcbe86d7395cfb57a771fdb03ac29c0ca3cfc0dddcd3b3d8638861cd99f460ee"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,20 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1423,
-  "stars_por_mes": 18.9
+  "stars": 1422,
+  "stars_por_mes": null
  },
  "nombre": "youtubeclone-frontend",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "manikandanraji/youtubeclone-frontend"

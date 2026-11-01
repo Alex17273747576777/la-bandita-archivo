@@ -8,36 +8,39 @@
  },
  "descripcion": "Model Context Protocol Servers for Github Enterprise",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ddukbg/mcp-github-enterprise",
-  "sha256": "875139a7c24ad7561ce556b7a71a90ad88e52aa6cb4eff0c4ecb3997e8607d1e"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ddukbg--mcp-github-enterprise.json",
+  "sha256": "b775e221ba990edeb9df8e7d1e9abb5ec3c2e3a88d7b6abd78d43177104fa362"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "ddukbg--mcp-github-enterprise",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
   "stars": 2,
-  "stars_por_mes": 0.0
+  "stars_por_mes": null
  },
  "nombre": "mcp-github-enterprise",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
- "repo": "ddukbg/mcp-github-enterprise"
+ "repo": "ddukbg/mcp-github-enterprise",
+ "web": "https://modelcontextprotocol.io"
 }

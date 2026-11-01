@@ -6,15 +6,15 @@
   "ultima_release": null,
   "ultimo_push": "2025-06-18"
  },
- "descripcion": "v13.6.0",
+ "descripcion": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RikkaApps/Shizuku",
-  "sha256": "f52b9c523b9cd46b2af80df95ee09beac2a53abaf2c0050cd41ced142dea8c7b"
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rikkaapps--shizuku.json",
+  "sha256": "8a227bdd301c8955c47f5e2ce7d3dc698ea53858926193c09d7f63dd3a3b2904"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
-  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -23,14 +23,14 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-15"
+  "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-10-31",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 31555,
-  "stars_por_mes": 318.7
+  "stars": 32549,
+  "stars_por_mes": null
  },
  "nombre": "Shizuku",
  "piezas": [
@@ -44,6 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
   "swhid": null
  },
  "repo": "RikkaApps/Shizuku"
