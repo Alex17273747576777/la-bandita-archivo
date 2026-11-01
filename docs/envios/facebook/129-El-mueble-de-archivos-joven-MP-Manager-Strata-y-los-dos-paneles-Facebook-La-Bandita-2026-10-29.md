@@ -56,7 +56,7 @@ Pulso tranquilo: lo último que se movió fue **AbdurazaaqMohammed/MP-Manager**,
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• AbdurazaaqMohammed/MP-Manager — ★477 (+26) · empujó en las últimas horas · GPL-3.0 · última release 1.1.1 (15-oct-2026)
+• AbdurazaaqMohammed/MP-Manager — ★478 (+27) · empujó en las últimas horas · GPL-3.0 · última release 1.1.1 (15-oct-2026)
 • CluvexStudio/Strata — ★142 (+3) · empujó el 16-oct-2026 (hace 16 días) · AGPL-3.0 · última release v1.0.0 (16-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

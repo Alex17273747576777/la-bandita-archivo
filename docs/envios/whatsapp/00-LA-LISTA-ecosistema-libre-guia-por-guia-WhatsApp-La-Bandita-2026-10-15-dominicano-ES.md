@@ -1143,21 +1143,21 @@ REV|92-01-6202 — gnihtcnys/gnihtcnys=1|REV|978.98★ — gnihtcnys/gnihtcnys=2
 
 ⏬ sigue abajo · parte 23 de 25
 
-═══ MENSAJE 25 de 26 · 2090 caracteres ═══
+═══ MENSAJE 25 de 26 · 2082 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 00*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.964 (+91) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• team-spotube/spotube — ★50.526 (+60) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• syncthing/syncthing — ★89.970 (+97) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• team-spotube/spotube — ★50.530 (+64) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
 • KotatsuApp/Kotatsu — ★8.946 (+3) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
 • syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • phhusson/treble_experimentations — ★3.553 (-3) · *dormido*: sin empujar desde el 27-ene-2025 (643 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*
 • siavash79/PixelXpert — ★2.441 (+1) · *dormido*: sin empujar desde el 21-jun-2026 (133 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
 • oxyroid/M3UAndroid — ★1.286 (+2) · empujó el 20-sep-2026 (hace 42 días) · GPL-3.0 · última release v1.15.0 (29-mar-2025) · *ARCHIVADO*
 • ponces/treble_aosp — ★312 (+1) · *dormido*: sin empujar desde el 25-jul-2025 (464 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
-• AsrOfficialDev/ReDantotsu — ★152 (sin cambio) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
+• AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
 • UsagiApp/core-exts — ★7 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (126 días) · GPL-3.0 · última release 1.0.3 (27-abr-2026) · *ARCHIVADO*
 • UsagiApp/core-parsers — ★2 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (126 días) · GPL-3.0 · última release 0.0.3 (16-may-2026) · *ARCHIVADO*
 

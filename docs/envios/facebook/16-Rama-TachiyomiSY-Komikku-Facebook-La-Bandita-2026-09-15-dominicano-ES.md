@@ -110,13 +110,13 @@ Empieza por las bajas: **leassapie/houri** (caído (404)) no contestaron hoy. Co
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2718 caracteres ═══
+═══ MENSAJE 4 de 5 · 2716 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 16*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release fc7a827-2 (1-nov-2026)
 • komikku-app/komikku — ★4.964 (+9) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • jobobby04/TachiyomiSY — ★4.199 (+3) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • yuzono/tachiyomi-extensions — ★953 (+6) · empujó en las últimas horas · Apache-2.0
@@ -130,7 +130,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pi
 • Smol-Ame/Chai — ★13 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (71 días) · Apache-2.0
 • pokedo0/Pokomi — ★12 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0 · última release v1.0.9 (16-ago-2026)
 • jeryjs/TachiyomiSY-with-discord-RPC — ★9 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release preview-45 (28-oct-2026)
-• Viel0320/komikku_img_upscale — ★9 (+1) · empujó en las últimas horas · Apache-2.0 · última release r10714 (21-oct-2026)
+• Viel0320/komikku_img_upscale — ★9 (+1) · empujó en las últimas horas · Apache-2.0 · última release r10718 (1-nov-2026)
 • x1watt/bchan — ★7 (sin cambio) · empujó el 5-oct-2026 (hace 27 días) · Apache-2.0 · última release v1.13.3 (5-oct-2026)
 • the-nexus-app/NEXUS — ★4 (sin cambio) · empujó el 7-oct-2026 (hace 25 días) · Apache-2.0 · última release v1.5.1 (4-oct-2026)
 • nas3ts/mikku — ★0 (sin cambio) · empujó en las últimas horas · Apache-2.0

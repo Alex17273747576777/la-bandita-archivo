@@ -7,11 +7,11 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | Pieza | Título | Mensajes | Mayor | Repos | Muertos | Apéndice | Archivo |
 |---|---|---|---|---|---|---|---|
 | 00 | LA LISTA: el ecosistema libre, guía por guía — el mapa entero de la bi | 26 | 3675 | 11 | 0 | sí | `00-LA-LISTA-ecosistema-libre-guia-por-guia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 27 | 3904 | 32 | 1 | no | `01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
-| 02 | El mueble de los tres cajones: la familia Tachiyomi, sus servidores y  | 27 | 3916 | 58 | 3 | no | `02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
-| 03 | La cerradura que cambió de dueño: la verificación de desarrolladores,  | 28 | 3896 | 33 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES` |
+| 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 27 | 3864 | 32 | 1 | no | `01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
+| 02 | El mueble de los tres cajones: la familia Tachiyomi, sus servidores y  | 27 | 3903 | 58 | 3 | no | `02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
+| 03 | La cerradura que cambió de dueño: la verificación de desarrolladores,  | 28 | 3887 | 33 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES` |
 | 04 | Almacenes de extensiones KeiSource AbiSource y el resurtimiento del ma | 28 | 3638 | 6 | 0 | sí | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 04 | Los almacenes de extensiones: Keiyoushi, Yuzono y el resurtido del man | 27 | 3679 | 33 | 0 | no | `04-Almacenes-de-extensiones-Keiyoushi-Yuzono-y-el-resurtido-del-manga-WhatsApp-La-Bandita-2026-11-01-dominicano-ES` |
+| 04 | Los almacenes de extensiones: Keiyoushi, Yuzono y el resurtido del man | 27 | 3944 | 33 | 0 | no | `04-Almacenes-de-extensiones-Keiyoushi-Yuzono-y-el-resurtido-del-manga-WhatsApp-La-Bandita-2026-11-01-dominicano-ES` |
 | 05 | TMO caida clones no iniciar sesion | 22 | 3677 | 0 | 0 | sí | `05-TMO-caida-clones-no-iniciar-sesion-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 06 | Forks lectores Mihon Aniyomi segundas generaciones | 25 | 3596 | 10 | 0 | sí | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 07 | El arbol vecino Usagi Kotatsu Redo Futon Kototoro | 25 | 3662 | 12 | 0 | sí | `07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -20,7 +20,7 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 10 | GLTools no se receta spoof GPU | 21 | 3697 | 2 | 0 | sí | `10-GLTools-no-se-receta-spoof-GPU-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 100 | La foto V la mesa redonda del censo | 4 | 2158 | 2 | 0 | no | `100-La-foto-V-la-mesa-redonda-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 101 | La foto VI el pabellon de los dormidos | 5 | 3662 | 17 | 0 | no | `101-La-foto-VI-el-pabellon-de-los-dormidos-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 102 | La foto VII los invisibles de la foto | 6 | 3899 | 28 | 0 | no | `102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
+| 102 | La foto VII los invisibles de la foto | 6 | 3891 | 28 | 0 | no | `102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 103 | La foto VIII las licencias de la mesa | 6 | 3746 | 19 | 0 | no | `103-La-foto-VIII-las-licencias-de-la-mesa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 104 | La foto IX las casas con apellido | 6 | 3680 | 17 | 0 | no | `104-La-foto-IX-las-casas-con-apellido-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 105 | La foto X el dia de la foto | 2 | 788 | 0 | 0 | no | `105-La-foto-X-el-dia-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -118,6 +118,6 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 98 | La foto III el sotano completo | 5 | 3742 | 7 | 0 | no | `98-La-foto-III-el-sotano-completo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 99 | La foto IV los jovenes del censo | 4 | 3492 | 5 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 
-**111 piezas · 1076 mensajes** · el mayor de todos: 3916 caracteres.
+**111 piezas · 1076 mensajes** · el mayor de todos: 3944 caracteres.
 
 

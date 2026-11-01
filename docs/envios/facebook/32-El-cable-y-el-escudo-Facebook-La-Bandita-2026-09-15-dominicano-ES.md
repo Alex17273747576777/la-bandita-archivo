@@ -94,7 +94,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pi
 • emanuele-f/PCAPdroid — ★5.038 (+28) · empujó en las últimas horas · GPL-3.0 · última release v2.0.2 (20-sep-2026)
 • M66B/NetGuard — ★3.954 (+5) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
 • TrackerControl/tracker-control-android — ★2.716 (+12) · empujó en las últimas horas · GPL-3.0 · última release 2026102901 (29-oct-2026)
-• badabing2005/PixelFlasher — ★2.342 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v10.2.0.0 (30-oct-2026)
+• badabing2005/PixelFlasher — ★2.343 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v10.2.0.0 (30-oct-2026)
 • TeamWin/android_bootable_recovery — ★1.724 · *dormido*: sin empujar desde el 24-ago-2026 (69 días) · sin licencia detectada por la API
 • DUpdateSystem/UpgradeAll — ★1.358 (-1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 0.13-beta.4 (24-abr-2023)
 • Androidacy/MagiskModuleManager — ★1.241 (sin cambio) · *dormido*: sin empujar desde el 9-abr-2026 (206 días) · LGPL-3.0 · última release v2.3.8-1 (31-mar-2025)

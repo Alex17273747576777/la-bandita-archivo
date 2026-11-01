@@ -6,13 +6,13 @@
 - **Envío generado:** 2026-11-01 · 8 mensajes · el mayor de 3536 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 8 · 926 caracteres ═══
+═══ MENSAJE 1 de 8 · 937 caracteres ═══
 
 *GLTools no se receta: el letrero que sobrevivió a su propia muerte, el spoof de GPU explicado*
 
 La Bandita · pieza 10 · guía del 29-oct-2026 · te la mando hoy en 8 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *3 repositorios, 2 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *3 repositorios, 2 vivos y 1 muerto*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
 Licencias de lo que recomienda: NOASSERTION 1 · GPL-2.0 1.
 
@@ -230,7 +230,7 @@ REV|0.2-LPG=1|REV|92-21-5202 — LGrekcolnUi/olyaT-i=2|REV|50-50-0202 — slooTL
 
 ⏬ sigue abajo · parte 5 de 7
 
-═══ MENSAJE 7 de 8 · 656 caracteres ═══
+═══ MENSAJE 7 de 8 · 692 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
@@ -238,7 +238,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 • i-Taylo/iUnlockerGL — ★110 (+2) · *dormido*: sin empujar desde el 29-dic-2025 (307 días) · NOASSERTION · última release v1.1.5-r4 (29-dic-2025)
 • darek2015/GLTools — ★12 (sin cambio) · *dormido*: sin empujar desde el 5-may-2020 (2371 días) · GPL-2.0
-• Ahsan40/GLTools — sin dato hoy (la API no respondió). No afirmo nada.
+• Ahsan40/GLTools — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

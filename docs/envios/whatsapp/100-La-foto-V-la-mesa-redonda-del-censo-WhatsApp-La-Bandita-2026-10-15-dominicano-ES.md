@@ -64,14 +64,14 @@ REV|0.2-LPG=1|REV|932.581★ — amallo/amallo=2|REV|)82-01-6202( 31.04.0v — a
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 556 caracteres ═══
+═══ MENSAJE 3 de 4 · 557 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 100*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.527 (+288) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• jellyfin/jellyfin — ★58.886 (+99) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• ollama/ollama — ★185.538 (+299) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• jellyfin/jellyfin — ★58.887 (+100) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

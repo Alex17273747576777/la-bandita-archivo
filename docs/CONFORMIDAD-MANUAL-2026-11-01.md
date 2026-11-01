@@ -1,6 +1,6 @@
 # CONFORMIDAD CON EL MANUAL DE ESTILO Y OPERACIONES V3.0
 
-**Fecha del corte:** Sunday 2026-11-01, 12:17 de Santo Domingo (UTC-4).
+**Fecha del corte:** Sunday 2026-11-01, 12:33 de Santo Domingo (UTC-4).
 **Documento puente:** `corpus-la-bandita/CIMIENTOS — criterios obligatorios y precedencia (1-nov-2026).md` (§5 remite aquí).
 **Compuerta:** `tools/manual_gate.py` (M01–M16, M23), enchufada a `tools/vara.py` como **G11**.
 

@@ -3,18 +3,18 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `ee5ddd6789a0c9f2986a4b9ba5c128b0b1142689907fb1938eccb6d1d17145fb`
-- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3543 caracteres
+- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3945 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 730 caracteres ═══
+═══ MENSAJE 1 de 20 · 731 caracteres ═══
 
 *La cerradura que cambió de dueño*
 
 La Bandita · pieza 03 · guía del 1-nov-2026 · te la mando hoy en 20 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *31 repositorios, 11 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *31 repositorios, 31 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: MIT 4 · GPL-3.0 2 · Apache-2.0 1 · AGPL-3.0 1.
+Licencias de lo que recomienda: MIT 11 · GPL-3.0 8 · AGPL-3.0 6 · Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
@@ -489,43 +489,43 @@ El señor del colmado de Villa Mella va a volver a ver ese aviso. Cuando lo vea,
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 3141 caracteres ═══
+═══ MENSAJE 19 de 20 · 3945 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 31 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• woheller69/FreeDroidWarn — ★3.730 (+14) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
+• woheller69/FreeDroidWarn — ★3.730 · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
 • tsunderswapElnina/Keep-Android-Open-UI — ★1 · empujó el 13-oct-2026 (hace 19 días) · MIT · última release v1.0.1-patch1 (13-oct-2026)
 • daboynb/developer-verifier-placeholder — ★184 · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)
 • zechuan-start/adb-gui — ★72 · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release v0.1.12 (27-oct-2026)
 • Ruraam/Uraam — ★50 · empujó en las últimas horas · GPL-3.0 · última release v4.4.6 (31-oct-2026)
 • audioeng89/tiny_apk_installer — ★50 · *dormido*: sin empujar desde el 26-mar-2026 (220 días) · MIT · última release 0.1.0 (26-mar-2026)
 • austinsager/adv-install — ★27 · *dormido*: sin empujar desde el 19-jul-2026 (105 días) · MIT · última release v0.1.1 (19-jul-2026)
-• GrapheneOS/Vanadium — ★2.267 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
-• GrapheneOS/Auditor — sin dato hoy (la API no respondió). No afirmo nada.
-• GrapheneOS/Camera — sin dato hoy (la API no respondió). No afirmo nada.
-• GrapheneOS/PdfViewer — sin dato hoy (la API no respondió). No afirmo nada.
-• GrapheneOS/hardened_malloc — sin dato hoy (la API no respondió). No afirmo nada.
-• degoog-org/degoog — sin dato hoy (la API no respondió). No afirmo nada.
-• PimpinPumpkin/Vela — sin dato hoy (la API no respondió). No afirmo nada.
-• Pelski/ytzero — ★670 · empujó el 28-sep-2026 (hace 34 días) · Unlicense
-• hakerdefo/Robota-Liberated — sin dato hoy (la API no respondió). No afirmo nada.
-• twinksoftware/Gearslip — sin dato hoy (la API no respondió). No afirmo nada.
-• biolend83/tubehaus — sin dato hoy (la API no respondió). No afirmo nada.
-• GitMag/UnknownAuto — sin dato hoy (la API no respondió). No afirmo nada.
-• steven-ahfu/Android-TV-Desktop-Toolkit — sin dato hoy (la API no respondió). No afirmo nada.
-• m-salehi-v/mrowser — sin dato hoy (la API no respondió). No afirmo nada.
-• Miniontoby/RokidApkUploader — sin dato hoy (la API no respondió). No afirmo nada.
-• andronedev/openportal — sin dato hoy (la API no respondió). No afirmo nada.
-• itsmelissadev/SwiftSense — sin dato hoy (la API no respondió). No afirmo nada.
-• LooseWireDev/unclouded — sin dato hoy (la API no respondió). No afirmo nada.
-• FoedusProgramme/Checker — sin dato hoy (la API no respondió). No afirmo nada.
-• HydraDragonAntivirus/HydraDragonAV-Mobile — ★23 · empujó el 25-oct-2026 (hace 7 días) · GPL-2.0
-• bl3xand/APK-Toolbox — sin dato hoy (la API no respondió). No afirmo nada.
-• richardkfm/los-bootstrap — sin dato hoy (la API no respondió). No afirmo nada.
+• GrapheneOS/Vanadium — ★2.268 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release 156.0.8078.79.0 (30-oct-2026)
+• GrapheneOS/Auditor — ★729 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 92 (30-may-2026)
+• GrapheneOS/Camera — ★1.423 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 93 (1-ago-2026)
+• GrapheneOS/PdfViewer — ★1.062 · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 33 (30-jul-2026)
+• GrapheneOS/hardened_malloc — ★2.048 · empujó en las últimas horas · MIT · última release 14 (22-feb-2026)
+• degoog-org/degoog — ★2.505 · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release 1.1.1 (25-oct-2026)
+• PimpinPumpkin/Vela — ★2.300 · empujó en las últimas horas · GPL-3.0 · última release v0.5.2621 (19-oct-2026)
+• Pelski/ytzero — ★671 · empujó el 28-sep-2026 (hace 34 días) · Unlicense · última release 2026.09.9 (28-sep-2026)
+• hakerdefo/Robota-Liberated — ★231 · *dormido*: sin empujar desde el 3-jun-2026 (151 días) · CC0-1.0
+• twinksoftware/Gearslip — ★230 · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v0.3.12-alpha (25-oct-2026)
+• biolend83/tubehaus — ★191 · empujó en las últimas horas · AGPL-3.0 · última release app-v0.5.10 (1-nov-2026)
+• GitMag/UnknownAuto — ★150 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v1.1 (30-oct-2026)
+• steven-ahfu/Android-TV-Desktop-Toolkit — ★94 · *dormido*: sin empujar desde el 20-jul-2026 (104 días) · AGPL-3.0 · última release v4.1.10 (20-jul-2026)
+• m-salehi-v/mrowser — ★64 · empujó el 26-oct-2026 (hace 6 días) · MIT · última release v1.4.0 (16-oct-2026)
+• Miniontoby/RokidApkUploader — ★59 · *dormido*: sin empujar desde el 9-abr-2026 (206 días) · GPL-3.0 · última release v1.0.3 (9-abr-2026)
+• andronedev/openportal — ★45 · empujó el 27-oct-2026 (hace 5 días) · MIT
+• itsmelissadev/SwiftSense — ★42 · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v1.3 (15-oct-2026)
+• LooseWireDev/unclouded — ★27 · *dormido*: sin empujar desde el 15-jul-2026 (109 días) · AGPL-3.0
+• FoedusProgramme/Checker — ★83 · *dormido*: sin empujar desde el 18-ene-2024 (1018 días) · GPL-3.0 · última release 1.0.9 (18-ene-2024)
+• HydraDragonAntivirus/HydraDragonAV-Mobile — ★23 · empujó el 25-oct-2026 (hace 7 días) · GPL-2.0 · última release v1.4.2 (6-ago-2026)
+• bl3xand/APK-Toolbox — ★99 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
+• richardkfm/los-bootstrap — ★6 · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0 · última release v0.14.0 (15-oct-2026)
 • Ha2mad/package-pass — ★0 · empujó el 28-oct-2026 (hace 4 días) · MIT
-• Meirwolf1289/fdroid-census — sin dato hoy (la API no respondió). No afirmo nada.
+• Meirwolf1289/fdroid-census — ★0 · empujó en las últimas horas · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

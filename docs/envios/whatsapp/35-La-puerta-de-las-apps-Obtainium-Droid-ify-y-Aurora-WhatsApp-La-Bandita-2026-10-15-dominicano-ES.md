@@ -593,21 +593,22 @@ REV|0.3-LPG=1|REV|937.03★ — redaerok/redaerok=2|REV|92-01-6202 — redaerok/
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 782 caracteres ═══
+═══ MENSAJE 15 de 16 · 889 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 35*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.782 (+43) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• ImranR98/Obtainium — ★21.106 (+81) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• koreader/koreader — ★30.786 (+47) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• ImranR98/Obtainium — ★21.112 (+87) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • Droid-ify/client — ★7.677 (+14) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
 • whyorean/AuroraStore — ★3.215 (+17) · empujó en las últimas horas · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 8 enlaces de esta pieza, *8 responden*.
-Ninguno roto.
+De los 8 enlaces de esta pieza, *7 responden*.
+
+• https://github.com/ImranR98/Obtainium — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
 
 ⏬ sigue abajo · parte 14 de 15
 

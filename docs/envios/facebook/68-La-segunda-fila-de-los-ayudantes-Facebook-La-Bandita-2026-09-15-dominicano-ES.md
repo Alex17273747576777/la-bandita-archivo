@@ -100,20 +100,20 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1973 caracteres ═══
+═══ MENSAJE 4 de 5 · 1972 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 68*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
+• keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release fc7a827-2 (1-nov-2026)
 • thunderbird/thunderbird-android — ★14.167 (+10) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
-• iSoron/uhabits — ★10.380 (+8) · empujó el 22-oct-2026 (hace 10 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
+• iSoron/uhabits — ★10.381 (+9) · empujó el 22-oct-2026 (hace 10 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
 • tasks/tasks — ★5.707 (+9) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 15.13 (14-oct-2026)
 • Etar-Group/Etar-Calendar — ★2.630 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.0.57 (27-jul-2026)
 • dongdongbh/Mindwtr — ★2.359 (+18) · empujó en las últimas horas · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
 • curbox-app/curbox-android — ★1.482 (+8) · empujó en las últimas horas · GPL-3.0 · última release 6 (15-oct-2026)
-• GlassHaven/Haven — ★1.398 (+11) · empujó en las últimas horas · AGPL-3.0 · última release v5.92.0 (31-oct-2026)
+• GlassHaven/Haven — ★1.399 (+12) · empujó en las últimas horas · AGPL-3.0 · última release v5.92.0 (31-oct-2026)
 • K3vinb5/unyo-app — ★672 (+3) · empujó en las últimas horas · BSD-3-Clause
 • RohitKushvaha01/ReTerminal — ★661 (+1) · empujó el 26-sep-2026 (hace 36 días) · MIT · última release v1.2.0 (10-jun-2025)
 • ReWelp/HayasexShiru-Extensions — ★99 (sin cambio) · *dormido*: sin empujar desde el 2-feb-2026 (272 días) · GPL-3.0

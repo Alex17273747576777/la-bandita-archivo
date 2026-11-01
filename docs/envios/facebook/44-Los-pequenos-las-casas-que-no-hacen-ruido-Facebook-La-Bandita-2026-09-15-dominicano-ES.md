@@ -96,14 +96,14 @@ Hay release de esta semana: **Paduu29/KomaStream** publicó v3.17 (2026-10-26). 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2299 caracteres ═══
+═══ MENSAJE 4 de 5 · 2291 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 44*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Marco-9456/AniSync — ★160 (+2) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v3.3.0 (20-oct-2026)
-• AsrOfficialDev/ReDantotsu — ★152 (sin cambio) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
+• AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
 • KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
 • e18lab/NHApp — ★135 (sin cambio) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · sin licencia detectada por la API · última release 1.3.1 (7-may-2026)
 • NyanTV/NyanTV — ★110 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (126 días) · AGPL-3.0 · última release v1.0.2 (27-jun-2026)

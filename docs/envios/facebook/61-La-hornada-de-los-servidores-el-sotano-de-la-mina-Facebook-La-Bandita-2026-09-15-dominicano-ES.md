@@ -133,20 +133,20 @@ La noticia amarga: **inaccurate-hotelplan289/HomeLabSetup** (caído (404)) ya no
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.964 (+91) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• syncthing/syncthing — ★89.970 (+97) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• nextcloud/server — ★37.382 (+37) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• lollipopkit/flutter_server_box — ★8.923 (+26) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
+• nextcloud/server — ★37.381 (+36) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• lollipopkit/flutter_server_box — ★8.924 (+27) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
 • standardnotes/app — ★6.693 (+5) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.673 (+17) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • jarnedemeulemeester/findroid — ★4.286 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.2.0 (25-oct-2026)
 • owncloud/android — ★4.174 (-1) · empujó en las últimas horas · GPL-2.0 · última release v4.8.4 (31-ago-2026)
-• researchxxl/syncthing-android — ★3.217 (+25) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.218 (+26) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • bk138/droidVNC-NG — ★2.422 (+3) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v2.22.2 (29-oct-2026)
 • newhinton/Round-Sync — ★2.416 (+3) · *dormido*: sin empujar desde el 16-nov-2025 (350 días) · GPL-3.0 · última release v2.5.6 (10-sep-2024)
 • chenxiaolong/RSAF — ★1.039 (+2) · empujó el 24-oct-2026 (hace 8 días) · GPL-3.0 · última release v4.16 (24-oct-2026)
-• chenxiaolong/BasicSync — ★736 (+6) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v3.27 (25-oct-2026)
+• chenxiaolong/BasicSync — ★737 (+7) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v3.27 (25-oct-2026)
 • haiwen/seadroid — ★637 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v4.0.14 (28-sep-2026)
 • iodn/android-ir-blaster — ★607 (+5) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v3.4.6 (15-oct-2026)
 • helios57/muplay — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 18 días) · MIT · última release v0.3.0 (11-oct-2026)

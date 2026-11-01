@@ -68,11 +68,11 @@ Sin sobresaltos: el empuje más cercano es de **immich-app/immich** (hace 2 día
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★117.854 (+242) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• syncthing/syncthing — ★89.964 (+91) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• immich-app/immich — ★117.862 (+250) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• syncthing/syncthing — ★89.970 (+97) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • NeoApplications/Neo-Backup — ★3.889 (+8) · empujó el 17-oct-2026 (hace 15 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
-• researchxxl/syncthing-android — ★3.217 (+25) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.218 (+26) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

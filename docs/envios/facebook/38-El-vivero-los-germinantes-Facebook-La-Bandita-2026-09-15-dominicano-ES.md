@@ -92,7 +92,7 @@ La noticia amarga: **leassapie/houri** (caído (404)) ya no respondieron. 11 rep
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2275 caracteres ═══
+═══ MENSAJE 4 de 5 · 2274 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 38*
 
@@ -108,7 +108,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 • Nyora-Manga/nyora-mihon — ★14 (sin cambio) · *dormido*: sin empujar desde el 19-jul-2026 (105 días) · sin licencia detectada por la API
 • Torro101/MIYO — ★9 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v0.0.5-1 (15-jun-2026)
 • jeryjs/TachiyomiSY-with-discord-RPC — ★9 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release preview-45 (28-oct-2026)
-• Viel0320/komikku_img_upscale — ★9 (+1) · empujó en las últimas horas · Apache-2.0 · última release r10714 (21-oct-2026)
+• Viel0320/komikku_img_upscale — ★9 (+1) · empujó en las últimas horas · Apache-2.0 · última release r10718 (1-nov-2026)
 • petalya/Yomiko — ★8 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release 1.8.1 (25-sep-2025)
 • nas3ts/mikku — ★0 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • leassapie/houri — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.

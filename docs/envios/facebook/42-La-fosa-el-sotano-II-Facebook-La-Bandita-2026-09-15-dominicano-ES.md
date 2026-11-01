@@ -100,7 +100,7 @@ Hay release de esta semana: **jeryjs/TachiyomiSY-with-discord-RPC** publicó pre
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2220 caracteres ═══
+═══ MENSAJE 4 de 5 · 2212 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 42*
 
@@ -114,7 +114,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pi
 • K3vinb5/unyo-app — ★672 (+3) · empujó en las últimas horas · BSD-3-Clause
 • sweetbbak/toru — ★387 (sin cambio) · *dormido*: sin empujar desde el 24-oct-2024 (738 días) · MIT · última release v0.3.3 (24-oct-2024)
 • NerdNumber9/TachiyomiEH — ★343 (sin cambio) · *dormido*: sin empujar desde el 5-nov-2022 (1457 días) · Apache-2.0 · última release v8.4.5-EH (13-ago-2019) · *ARCHIVADO*
-• akitaonrails/FrankYomik — ★214 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v2.0.4 (27-oct-2026)
+• akitaonrails/FrankYomik — ★215 (+1) · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v2.0.4 (27-oct-2026)
 • moku-project/Moku — ★191 (+1) · empujó el 24-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.14.1 (24-oct-2026)
 • Aatricks/Emaki — ★26 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release V0.6.1 (4-sep-2026)
 • jeryjs/TachiyomiSY-with-discord-RPC — ★9 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release preview-45 (28-oct-2026)

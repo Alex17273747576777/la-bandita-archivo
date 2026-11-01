@@ -100,8 +100,8 @@ Lo primero, lo que se cayó: **sj0404-collab/yomikai-pwa** (caído (404)). Legal
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.782 (+45) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• Kareadita/Kavita — ★11.987 (+16) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
+• koreader/koreader — ★30.786 (+49) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• Kareadita/Kavita — ★11.988 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
 • gotson/komga — ★6.805 (+8) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
 • HuangAntimony/Hoshi-Reader-Android — ★468 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.4.0 (23-sep-2026)
 • Mister-album/Koharia — ★254 (+4) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)

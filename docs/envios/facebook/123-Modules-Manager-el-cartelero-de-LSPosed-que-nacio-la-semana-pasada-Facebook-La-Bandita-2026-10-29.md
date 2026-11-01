@@ -60,7 +60,7 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• LSPosed/LSPosed — ★25.283 (+43) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
+• LSPosed/LSPosed — ★25.286 (+46) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
 • rushiranpise/lsposed-modules-manager — ★21 (+4) · empujó en las últimas horas · GPL-3.0 · última release v2.2.3 (1-nov-2026)
 • rushiranpise/xposed-modules — ★11 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 

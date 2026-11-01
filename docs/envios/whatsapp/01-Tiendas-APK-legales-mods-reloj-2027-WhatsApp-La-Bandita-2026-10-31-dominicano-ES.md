@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `b2138ea760f99257997b8af7aa202bf37af0bf69b1f87c4ed5bdc52132e03c03`
-- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3904 caracteres
+- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3864 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 27 · 773 caracteres ═══
@@ -843,36 +843,36 @@ Y una cosa más, que es la razón por la que el archivo existe: *todo lo que aqu
 
 ⏬ sigue abajo · parte 22 de 26
 
-═══ MENSAJE 24 de 27 · 3904 caracteres ═══
+═══ MENSAJE 24 de 27 · 3864 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 32 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • samyak2403/RepoStore — ★1.371 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.0.22 (29-oct-2026)
-• timschneeb/ShizuStore — ★501 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release 1.5.0 (5-oct-2026)
+• timschneeb/ShizuStore — ★502 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.5.0 (5-oct-2026)
 • SysAdminDoc/AppManagerNG — ★163 (sin cambio) · empujó el 30-sep-2026 (hace 32 días) · GPL-3.0 · última release v0.6.23 (5-sep-2026)
 • djunekz/termux-app-store — ★124 (sin cambio) · empujó en las últimas horas · MIT · última release v0.9.1 (20-oct-2026)
-• pass-with-high-score/universal-installer — ★1.661 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
-• Jman-Github/Universal-Patch-Manager — ★1.398 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
-• wxxsfxyzm/InstallerX-Revived — ★7.260 (+1) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
+• pass-with-high-score/universal-installer — ★1.660 (-1) · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
+• Jman-Github/Universal-Patch-Manager — ★1.399 (+1) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• wxxsfxyzm/InstallerX-Revived — ★7.262 (+3) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
 • Paving-Base/APK-Installer — ★1.712 (sin cambio) · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0 · última release v0.1.28 (11-ago-2025)
 • vinstall/VInstall — ★105 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.4.5 (30-oct-2026)
-• ImranR98/Obtainium — ★21.106 (+81) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• ImranR98/Obtainium — ★21.112 (+87) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • MuntashirAkon/AppManager — ★9.399 (+29) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
 • Droid-ify/client — ★7.677 (+14) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• NeoApplications/Neo-Store — ★5.595 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• NeoApplications/Neo-Store — ★5.596 (+1) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
 • shmykelsa/AAAD — ★3.198 (sin cambio) · empujó el 27-sep-2026 (hace 35 días) · MIT · última release v2.8.5 (17-jun-2026)
 • accrescent/accrescent — ★2.305 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
 • solkin/appteka-android — ★1.367 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v23.0 (13-ago-2026)
 • GrapheneOS/AppStore — ★625 (sin cambio) · empujó en las últimas horas · MIT · última release 37 (31-oct-2026)
-• RikkaApps/Shizuku — ★32.573 (+189) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.575 (+191) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • JonaNorman/WebViewUpgrade — ★456 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · Apache-2.0
 • solrudev/Ackpine — ★185 (sin cambio) · empujó el 17-oct-2026 (hace 15 días) · Apache-2.0 · última release 0.25.4 (30-jul-2026)
-• daboynb/developer-verifier-placeholder — ★184 (+1) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)
+• daboynb/developer-verifier-placeholder — ★184 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)
 • AuroraOSS/AuroraStore — ★71 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• fmhy/edit — ★12.673 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
-• offa/android-foss — ★11.611 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
+• fmhy/edit — ★12.675 (+2) · empujó en las últimas horas · sin licencia detectada por la API
+• offa/android-foss — ★11.609 (-2) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
 • timschneeb/awesome-shizuku — ★10.670 (sin cambio) · empujó en las últimas horas · NOASSERTION
 • Psyhackological/AAA — ★3.141 (sin cambio) · empujó el 29-sep-2026 (hace 33 días) · CC-BY-4.0 · última release 250 (7-may-2024)
 • sri-sivaram/Neko-Manga-Pearl — ★116 · empujó en las últimas horas · sin licencia detectada por la API
@@ -889,12 +889,13 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 32 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 24 de 26
 
-═══ MENSAJE 26 de 27 · 137 caracteres ═══
+═══ MENSAJE 26 de 27 · 244 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 29 enlaces de esta pieza, *29 responden*.
-Ninguno roto.
+De los 29 enlaces de esta pieza, *28 responden*.
+
+• https://github.com/ImranR98/Obtainium — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
 
 ⏬ sigue abajo · parte 25 de 26
 

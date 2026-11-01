@@ -90,9 +90,9 @@ Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.782 (+45) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• koreader/koreader — ★30.786 (+49) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
 • kovidgoyal/calibre — ★26.306 (+23) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
-• readest/readest — ★25.806 (+64) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• readest/readest — ★25.810 (+68) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
 • foobnix/LibreraReader — ★4.987 (+11) · empujó en las últimas horas · NOASSERTION · última release 10.0.19 (28-oct-2026)
 • Pool-Of-Tears/Myne — ★1.542 (+1) · empujó el 21-sep-2026 (hace 41 días) · Apache-2.0 · última release v5.1.0 (21-ago-2026)
 • kiwix/kiwix-android — ★1.521 (+4) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.14.1 (14-may-2026)

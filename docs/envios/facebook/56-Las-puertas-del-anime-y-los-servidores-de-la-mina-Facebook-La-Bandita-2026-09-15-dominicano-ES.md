@@ -289,20 +289,20 @@ La noticia amarga: **jpdoshi/dragon-store** (caído (404)), **ycngmn/CuxPlug** (
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 62 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★117.854 (+242) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• yuliskov/SmartTube — ★35.793 (+84) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• immich-app/immich — ★117.862 (+250) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• yuliskov/SmartTube — ★35.800 (+91) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • xbmc/xbmc — ★21.410 (+11) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• lollipopkit/flutter_server_box — ★8.923 (+26) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
+• lollipopkit/flutter_server_box — ★8.924 (+27) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
 • standardnotes/app — ★6.693 (+5) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.673 (+17) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • muzei/muzei — ★4.958 (+4) · empujó en las últimas horas · Apache-2.0 · última release api3.4.2 (16-jun-2024)
-• anilbeesetti/nextplayer — ★4.652 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (9-oct-2026)
-• 5rahim/seanime — ★4.292 (+7) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
+• anilbeesetti/nextplayer — ★4.653 (+18) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (9-oct-2026)
+• 5rahim/seanime — ★4.294 (+9) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
 • jarnedemeulemeester/findroid — ★4.286 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.2.0 (25-oct-2026)
 • owncloud/android — ★4.174 (-1) · empujó en las últimas horas · GPL-2.0 · última release v4.8.4 (31-ago-2026)
 • videolan/vlc-android — ★4.126 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0
-• NuvioMedia/NuvioTV — ★3.306 (+35) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
-• researchxxl/syncthing-android — ★3.217 (+25) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• NuvioMedia/NuvioTV — ★3.305 (+34) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• researchxxl/syncthing-android — ★3.218 (+26) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • mahlernim/google-timeline-visualizer — ★3.058 (+1) · empujó el 22-oct-2026 (hace 10 días) · MIT · última release v3.1.0 (5-oct-2026)
 • 10miaomiao/bilimiao2 — ★2.976 (+11) · empujó en las últimas horas · GPL-3.0 · última release 2.5.2.1 (31-oct-2026)
 • moneytoo/Player — ★2.776 (+17) · empujó el 22-oct-2026 (hace 10 días) · Unlicense · última release v0.217 (11-sep-2026)
@@ -313,7 +313,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 62 repositorios que cita esta pi
 • Myzel394/Alibi — ★1.729 (+6) · *dormido*: sin empujar desde el 11-feb-2026 (263 días) · GPL-3.0 · última release v0.5.3 (7-sep-2024)
 • cosmictaserdev-creator/Convx — ★1.104 (+40) · empujó en las últimas horas · GPL-3.0 · última release v1.5.2 (15-ago-2026)
 • chenxiaolong/RSAF — ★1.039 (+2) · empujó el 24-oct-2026 (hace 8 días) · GPL-3.0 · última release v4.16 (24-oct-2026)
-• chenxiaolong/BasicSync — ★736 (+6) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v3.27 (25-oct-2026)
+• chenxiaolong/BasicSync — ★737 (+7) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v3.27 (25-oct-2026)
 • dn0ne/lotus — ★717 (sin cambio) · *dormido*: sin empujar desde el 25-ene-2025 (645 días) · GPL-3.0 · última release v1.2.0 (25-ene-2025)
 • KNKPA/KNKPAnime — ★650 (sin cambio) · *dormido*: sin empujar desde el 1-feb-2025 (638 días) · GPL-3.0 · última release 1.1.7 (1-feb-2025)
 • haiwen/seadroid — ★637 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v4.0.14 (28-sep-2026)
@@ -322,10 +322,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 62 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 7 de 11
 
-═══ MENSAJE 9 de 12 · 3684 caracteres ═══
+═══ MENSAJE 9 de 12 · 3676 caracteres ═══
 
 • recloudstream/cs-repos — ★545 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API
-• phisher98/cloudstream-extensions-phisher — ★527 (+1) · empujó en las últimas horas · sin licencia detectada por la API
+• phisher98/cloudstream-extensions-phisher — ★528 (+2) · empujó en las últimas horas · sin licencia detectada por la API
 • cvzi/ScreenshotTile — ★398 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.21.4 (26-sep-2026)
 • RenzoBeux/Dashboarr — ★379 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.22.0 (29-oct-2026)
 • WirelessAlien/MovieDB — ★368 (+2) · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0 · última release v4.8.1 (1-sep-2026)
@@ -343,7 +343,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 62 repositorios que cita esta pi
 • kivy-garden/zbarcam — ★141 (sin cambio) · *dormido*: sin empujar desde el 27-feb-2025 (612 días) · MIT · última release 2020.0524 (24-may-2020)
 • self-similarity/MegaRepo — ★142 (+2) · *dormido*: sin empujar desde el 3-oct-2025 (394 días) · sin licencia detectada por la API
 • zimly/zimly-backup — ★105 (sin cambio) · *dormido*: sin empujar desde el 28-feb-2026 (246 días) · GPL-3.0 · última release v3.4.1 (6-feb-2026)
-• doGior/doGiorsHadEnough — ★88 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · sin licencia detectada por la API
+• doGior/doGiorsHadEnough — ★89 (+1) · empujó el 25-oct-2026 (hace 7 días) · sin licencia detectada por la API
 • likhithpraveenk/storii — ★86 (+1) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release v0.13.0 (23-oct-2026)
 • CDrummond/lms-material-app — ★76 (sin cambio) · empujó en las últimas horas · MIT · última release 0.10.1 (31-ago-2026)
 • ptrLx/OneShot — ★52 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.1.1 (7-abr-2023)

@@ -92,20 +92,20 @@ La noticia fresca es de **PaulWoitaschek/Voice**: release 26.10.8-5410008 (2026-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1830 caracteres ═══
+═══ MENSAJE 4 de 5 · 1831 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 52*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• yt-dlp/yt-dlp — ★204.336 (+650) · empujó el 29-oct-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
-• Predidit/Kazumi — ★40.507 (+403) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
-• JunkFood02/Seal — ★30.240 (+81) · empujó el 25-sep-2026 (hace 37 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
-• libre-tube/LibreTube — ★12.927 (+14) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
-• deniscerri/ytdlnis — ★10.895 (+51) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
+• yt-dlp/yt-dlp — ★204.372 (+686) · empujó el 29-oct-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• Predidit/Kazumi — ★40.532 (+428) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
+• JunkFood02/Seal — ★30.241 (+82) · empujó el 25-sep-2026 (hace 37 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
+• libre-tube/LibreTube — ★12.928 (+15) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
+• deniscerri/ytdlnis — ★10.897 (+53) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.379 (+5) · empujó el 4-oct-2026 (hace 28 días) · GPL-3.0 · última release v7.0.3 (13-ago-2026)
 • gokadzev/Musify — ★4.389 (+8) · empujó en las últimas horas · GPL-3.0 · última release 10.6.0 (23-oct-2026)
-• PaulWoitaschek/Voice — ★3.239 (+9) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
+• PaulWoitaschek/Voice — ★3.240 (+10) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
 • ShacharHarshuv/open-ear — ★186 (sin cambio) · empujó el 24-sep-2026 (hace 38 días) · sin licencia detectada por la API · última release v1.9.0 (7-feb-2025)
 • recloudstream/extensions — ★143 (+1) · *dormido*: sin empujar desde el 22-may-2026 (163 días) · sin licencia detectada por la API
 • werdeil/lyrion-dashboard — ★3 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v0.4.0 (22-oct-2026)

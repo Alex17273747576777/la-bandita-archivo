@@ -68,14 +68,14 @@ REV|932.581★ — amallo/amallo=1|REV|)82-01-6202( 31.04.0v — amallo/amallo=2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 579 caracteres ═══
+═══ MENSAJE 3 de 4 · 578 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 64*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.527 (+288) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• openinterpreter/openinterpreter — ★68.770 (+47) · empujó en las últimas horas · Apache-2.0 · última release rust-v0.0.57 (31-oct-2026)
+• ollama/ollama — ★185.538 (+299) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• openinterpreter/openinterpreter — ★68.773 (+50) · empujó en las últimas horas · Apache-2.0 · última release rust-v0.0.58 (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

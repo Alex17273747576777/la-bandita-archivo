@@ -110,7 +110,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pi
 • plateaukao/einkbro — ★2.049 (+1) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
 • mateusz-bak/openreads — ★1.666 (+2) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-2.0 · última release v2.11.0 (9-sep-2025)
 • Livinglist/Hacki — ★1.638 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.8.2 (11-oct-2026)
-• astubenbord/paperless-mobile — ★1.492 (+1) · *dormido*: sin empujar desde el 1-jun-2026 (153 días) · GPL-3.0 · última release v4.5.0 (16-abr-2026)
+• astubenbord/paperless-mobile — ★1.493 (+2) · *dormido*: sin empujar desde el 1-jun-2026 (153 días) · GPL-3.0 · última release v4.5.0 (16-abr-2026)
 • jocmp/capyreader — ★1.438 (+5) · empujó en las últimas horas · GPL-3.0 · última release 2026.10.1215 (27-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

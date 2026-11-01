@@ -100,8 +100,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pi
 
 • recloudstream/cloudstream — ★11.117 (+22) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • miru-project/miru-app — ★5.791 (+7) · *dormido*: sin empujar desde el 5-dic-2025 (331 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
-• 5rahim/seanime — ★4.292 (+7) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
-• NuvioMedia/NuvioMobile — ★4.342 (+58) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (31-oct-2026)
+• 5rahim/seanime — ★4.294 (+9) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
+• NuvioMedia/NuvioMobile — ★4.343 (+59) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (31-oct-2026)
 • kodjodevf/mangayomi — ★4.287 (+15) · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
 • Kototoro-app/Kototoro — ★659 (+6) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • RockinChaos/Shiru — ★652 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v6.9.1 (13-oct-2026)
