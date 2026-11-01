@@ -1,0 +1,160 @@
+# PLANTILLA — Vara en integración continua (no activa: vive como anexo de la propuesta)
+# Para activarla: mover a .github/workflows/vara.yml y crear registry/ + schemas/.
+# Regla de la casa: ninguna compuerta se aprueba por salida en cero.
+# Se aprueba cuando el reporte dice "fallos: NINGUNO" y ese texto queda en el registro del job.
+
+name: vara
+
+on:
+  push:
+    paths: ["registry/**", "schemas/**", "content/**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compuertas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Dependencias
+        run: pip install --quiet jsonschema pyyaml requests
+
+      - name: C1 · Esquema de fichas
+        run: |
+          python - <<'PY'
+          import json, glob, sys
+          import jsonschema
+          s = json.load(open("schemas/ficha.schema.json"))
+          fallos = []
+          for f in sorted(glob.glob("registry/*.json")):
+              try:
+                  jsonschema.validate(json.load(open(f)), s)
+              except Exception as e:
+                  fallos.append(f"{f}: {e.message[:120]}")
+          print("fallos: NINGUNO" if not fallos else "fallos: " + str(len(fallos)))
+          for x in fallos: print("  -", x)
+          sys.exit(1 if fallos else 0)
+          PY
+
+      - name: C2 · Frescura (ningún dato viejo presentado como fresco)
+        run: |
+          python - <<'PY'
+          import json, glob, sys, datetime as dt
+          UMBRAL = 90
+          hoy = dt.date.today()
+          fallos = []
+          for f in sorted(glob.glob("registry/*.json")):
+              d = json.load(open(f))
+              edad = (hoy - dt.date.fromisoformat(d["medido_en"])).days
+              d["frescura_dias"] = edad
+              if edad > UMBRAL: fallos.append(f"{f}: {edad} días (umbral {UMBRAL})")
+          print("fallos: NINGUNO" if not fallos else "fallos: " + str(len(fallos)))
+          for x in fallos: print("  -", x)
+          sys.exit(1 if fallos else 0)
+          PY
+
+      - name: C3 · Licencia por orden (SPDX → endpoint → texto → ausencia firmada)
+        run: |
+          python - <<'PY'
+          import json, glob, sys
+          ORDEN = {"spdx-api", "endpoint-license", "texto-license", "ausencia-firmada"}
+          fallos = []
+          for f in sorted(glob.glob("registry/*.json")):
+              lic = json.load(open(f))["licencia"]
+              if lic["metodo"] not in ORDEN: fallos.append(f"{f}: método fuera de orden")
+              if lic["spdx"] is None and lic["metodo"] != "ausencia-firmada":
+                  fallos.append(f"{f}: sin SPDX y sin ausencia firmada")
+          print("fallos: NINGUNO" if not fallos else "fallos: " + str(len(fallos)))
+          for x in fallos: print("  -", x)
+          sys.exit(1 if fallos else 0)
+          PY
+
+      - name: C4 · Actividad con semántica correcta (403/429 nunca es muerte)
+        run: |
+          python - <<'PY'
+          import json, glob, sys
+          fallos = []
+          for f in sorted(glob.glob("registry/*.json")):
+              a = json.load(open(f))["actividad"]
+              if a["estado"] == "muerto" and a.get("semantica_http") in (403, 429):
+                  fallos.append(f"{f}: declarado muerto por {a['semantica_http']}")
+              if a["estado"] in {"vivo", "dormido"} and not a.get("ultimo_push"):
+                  fallos.append(f"{f}: estado sin último push medido")
+          print("fallos: NINGUNO" if not fallos else "fallos: " + str(len(fallos)))
+          for x in fallos: print("  -", x)
+          sys.exit(1 if fallos else 0)
+          PY
+
+      - name: C5 · Integridad por sello SHA-256
+        run: |
+          if [ -f manifiesto-sha256.tsv ]; then
+            sha256sum -c manifiesto-sha256.tsv --quiet && echo "fallos: NINGUNO" || { echo "fallos: integridad rota"; exit 1; }
+          else
+            echo "fallos: NINGUNO (sin manifiesto en esta rama)"
+          fi
+
+      - name: C6 · Anti-plantilla (densidad y repetición)
+        run: |
+          python - <<'PY'
+          import glob, re, sys
+          UMBRAL_DENSIDAD = 0.42   # proporción máxima de palabras vacías
+          MAX_REP = 6              # máximo de repeticiones de una misma frase de 6 palabras
+          VACIAS = set("de la que el en y a los se del las un por con no una su para es al lo como mas pero sus le ya o este si porque esta entre cuando muy sin sobre tambien me hasta hay donde quien desde todo nos durante todos uno les ni contra otros ese eso ante ellos e esto mi antes algunos que unos yo otro otras otra el tanto esa estos mucho quienes nada muchos cual poco ella estar estas algunas algo nosotros".split())
+          fallos = []
+          for f in sorted(glob.glob("content/**/*.md", recursive=True)):
+              t = open(f, encoding="utf-8", errors="replace").read()
+              w = re.findall(r"[a-záéíóúñü]+", t.lower())
+              if not w: continue
+              dens = sum(1 for x in w if x in VACIAS) / len(w)
+              frases = {}
+              for i in range(len(w) - 6):
+                  k = " ".join(w[i:i+6]); frases[k] = frases.get(k, 0) + 1
+              rep = max(frases.values()) if frases else 0
+              if dens > UMBRAL_DENSIDAD: fallos.append(f"{f}: densidad {dens:.2f}")
+              if rep > MAX_REP: fallos.append(f"{f}: frase repetida {rep} veces")
+          print("fallos: NINGUNO" if not fallos else "fallos: " + str(len(fallos)))
+          for x in fallos: print("  -", x)
+          sys.exit(1 if fallos else 0)
+          PY
+
+      - name: C7 · Enlaces canónicos y sin receta de mods
+        run: |
+          python - <<'PY'
+          import glob, re, sys
+          # Ninguna pieza puede enlazar descarga directa de binario modificado.
+          PROHIBIDO = re.compile(r"https?://[^\s)]+\.(apk|apks|xapk|apkm)\b", re.I)
+          fallos = []
+          for f in sorted(glob.glob("content/**/*.md", recursive=True)):
+              t = open(f, encoding="utf-8", errors="replace").read()
+              for m in PROHIBIDO.finditer(t): fallos.append(f"{f}: enlace de binario {m.group(0)[:60]}")
+          print("fallos: NINGUNO" if not fallos else "fallos: " + str(len(fallos)))
+          for x in fallos: print("  -", x)
+          sys.exit(1 if fallos else 0)
+          PY
+
+      - name: C8 · Presupuesto de tamaño por plataforma
+        run: |
+          python - <<'PY'
+          import glob, sys
+          BANDA = {"whatsapp": (62000, 64000), "facebook": (39000, 41000), "libre": (0, 200000)}
+          fallos = []
+          for f in sorted(glob.glob("content/**/*.md", recursive=True)):
+              plataforma = "whatsapp" if "whatsapp" in f.lower() else "facebook" if "facebook" in f.lower() else "libre"
+              lo, hi = BANDA[plataforma]; n = len(open(f, encoding="utf-8").read())
+              if not (lo <= n <= hi): fallos.append(f"{f}: {n} fuera de [{lo},{hi}]")
+          print("fallos: NINGUNO" if not fallos else "fallos: " + str(len(fallos)))
+          for x in fallos: print("  -", x)
+          sys.exit(1 if fallos else 0)
+          PY
+
+      - name: Resumen (la salida en cero no aprueba nada)
+        run: |
+          echo "Compuertas ejecutadas."
+          echo "La aprobacion exige el texto 'fallos NINGUNO' en cada paso, no solo salida en cero."

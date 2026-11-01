@@ -1,0 +1,30 @@
+{
+ "censo": {
+  "filas": 573,
+  "con_licencia": 573,
+  "sin_licencia": 0,
+  "vivos_180d": 467,
+  "dormidos": 106,
+  "stars_total": 4203143,
+  "stars_mediana": 1760,
+  "vel_mediana": 65.05
+ },
+ "publicaciones": {
+  "wa": {
+   "n": 113,
+   "palabras": 367737,
+   "chars": 2158452
+  },
+  "fb": {
+   "n": 148,
+   "palabras": 82177,
+   "chars": 575196
+  },
+  "total": 261,
+  "palabras_total": 449914
+ },
+ "markdown_total": {
+  "archivos": 3005,
+  "palabras": 6067493
+ }
+}
