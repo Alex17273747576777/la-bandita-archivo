@@ -481,22 +481,22 @@ El hallazgo de hoy es que el aparato endurecido ya no es un experimento de labor
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 1277 caracteres ═══
+═══ MENSAJE 17 de 18 · 1537 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• GrapheneOS/Auditor — ★729 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT
-• MuntashirAkon/AppManager — ★9.398 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
-• RikkaApps/Shizuku — ★32.594 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
-• GrapheneOS/Vanadium — ★2.270 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
-• GrapheneOS/Camera — ★1.423 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT
-• GrapheneOS/hardened_malloc — ★2.048 (sin cambio) · empujó en las últimas horas · MIT
-• woheller69/FreeDroidWarn — ★3.731 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0
-• degoog-org/degoog — ★2.505 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0
-• Pelski/ytzero — ★671 (sin cambio) · empujó el 28-sep-2026 (hace 34 días) · Unlicense
-• twinksoftware/Gearslip — ★232 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0
+• GrapheneOS/Auditor — ★729 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 92 (30-may-2026)
+• MuntashirAkon/AppManager — ★9.402 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• RikkaApps/Shizuku — ★32.598 (+213) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• GrapheneOS/Vanadium — ★2.270 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release 156.0.8078.79.0 (30-oct-2026)
+• GrapheneOS/Camera — ★1.423 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 93 (1-ago-2026)
+• GrapheneOS/hardened_malloc — ★2.048 · empujó en las últimas horas · MIT · última release 14 (22-feb-2026)
+• woheller69/FreeDroidWarn — ★3.731 · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
+• degoog-org/degoog — ★2.506 · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release 1.1.1 (25-oct-2026)
+• Pelski/ytzero — ★671 · empujó el 28-sep-2026 (hace 34 días) · Unlicense · última release 2026.09.9 (28-sep-2026)
+• twinksoftware/Gearslip — ★232 · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v0.3.12-alpha (25-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

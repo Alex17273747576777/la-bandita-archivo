@@ -482,24 +482,24 @@ El resto es costumbre: probar con una llamada de dos minutos, escuchar el archiv
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1101 caracteres ═══
+═══ MENSAJE 15 de 16 · 1312 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 12*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 8 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Benojir/Android-Call-Recorder — ★54 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0
-• aykuttasil/CallRecorder — ★791 (sin cambio) · *dormido*: sin empujar desde el 18-oct-2023 (1110 días) · MIT
-• chenxiaolong/BCR — ★2.958 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0
-• kitsumed/ShizuCallRecorder — ★1.970 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• arpanjot-coding/AVault — ★445 (sin cambio) · empujó en las últimas horas · NOASSERTION
-• madkongo/CallVault — ★184 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• nicorac/bcr-gui — ★381 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
-• RikkaApps/Shizuku — ★32.594 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
+• Benojir/Android-Call-Recorder — ★54 · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release 1.5 (23-ago-2024)
+• aykuttasil/CallRecorder — ★791 · *dormido*: sin empujar desde el 18-oct-2023 (1110 días) · MIT · última release v1.5.3 (29-jul-2019)
+• chenxiaolong/BCR — ★2.958 · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v3.11 (15-oct-2026)
+• kitsumed/ShizuCallRecorder — ★1.970 (+38) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.0.0 (24-oct-2026)
+• arpanjot-coding/AVault — ★459 · empujó en las últimas horas · NOASSERTION · última release v2.0.0 (31-oct-2026)
+• madkongo/CallVault — ★184 · empujó en las últimas horas · GPL-3.0 · última release v2.4.8 (31-oct-2026)
+• nicorac/bcr-gui — ★381 · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.16.0 (25-oct-2026)
+• RikkaApps/Shizuku — ★32.598 (+213) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 2 enlaces de esta pieza, *2 responden*.
+De los 8 enlaces de esta pieza, *8 responden*.
 Ninguno roto.
 
 ⏬ sigue abajo · parte 14 de 15

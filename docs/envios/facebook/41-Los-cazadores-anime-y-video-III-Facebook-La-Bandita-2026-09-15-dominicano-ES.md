@@ -102,20 +102,20 @@ La noticia amarga: **ayman708-UX/PlayTorrioV3** (caído (404)) ya no respondiero
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2524 caracteres ═══
+═══ MENSAJE 4 de 5 · 2508 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 41*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • jiangtian616/JHenTai — ★5.759 (+15) · empujó en las últimas horas · Apache-2.0 · última release v8.0.18 (23-oct-2026)
-• RyanYuuki/AnymeX — ★1.276 (+1) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release v3.2.0 (27-oct-2026)
+• RyanYuuki/AnymeX — ★1.276 (+1) · empujó en las últimas horas · MIT · última release v3.2.0 (27-oct-2026)
 • SuperMarcus/NineAnimator — ★819 (sin cambio) · *dormido*: sin empujar desde el 14-nov-2024 (717 días) · GPL-3.0 · última release 1.2.7-6 (26-abr-2021) · *ARCHIVADO*
 • hitarth-gg/zenshin — ★778 (+4) · *dormido*: sin empujar desde el 24-may-2026 (161 días) · GPL-3.0 · última release v3.0.0 (24-may-2026)
-• akashdh11/skystream — ★666 (+3) · empujó el 17-oct-2026 (hace 15 días) · GPL-3.0 · última release v2.9.0 (17-oct-2026)
+• akashdh11/skystream — ★668 (+5) · empujó el 17-oct-2026 (hace 15 días) · GPL-3.0 · última release v2.9.0 (17-oct-2026)
 • jakepurple13/OtakuWorld — ★637 (-1) · empujó en las últimas horas · Apache-2.0 · última release v32.1.2 (29-jun-2026)
 • imashnake0/Animite — ★523 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.7.15-alpha01 (1-nov-2026)
-• Spyou/Zangetsu — ★484 (+29) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.3.4 (29-oct-2026)
+• Spyou/Zangetsu — ★489 (+34) · empujó en las últimas horas · GPL-3.0 · última release v2.3.4 (29-oct-2026)
 • frostnova721/animestream — ★446 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.4.7 (14-sep-2026)
 • cranci1/Sora — ★427 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · GPL-3.0 · última release 1.3.0 (20-ago-2026) · *ARCHIVADO*
 • roshancodespace/ShonenX — ★356 (+1) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v2.1.5 (25-oct-2026)

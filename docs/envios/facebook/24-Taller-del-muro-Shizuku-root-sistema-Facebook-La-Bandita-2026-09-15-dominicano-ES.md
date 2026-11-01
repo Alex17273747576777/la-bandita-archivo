@@ -132,7 +132,7 @@ Hay release de esta semana: **fahrez182/AxManager** publicó v3.0.0 (2026-10-29)
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3140 caracteres ═══
+═══ MENSAJE 5 de 6 · 3132 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 24*
 
@@ -140,13 +140,13 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pi
 
 • MM2-0/Kvaesitso — ★5.339 (+13) · empujó en las últimas horas · GPL-3.0 · última release v1.41.0 (15-sep-2026)
 • ukanth/afwall — ★3.515 (+3) · empujó el 17-oct-2026 (hace 15 días) · GPL-3.0 · última release v5.0.0 (12-oct-2026)
-• sameerasw/essentials — ★3.662 (+205) · empujó en las últimas horas · MIT · última release v20.2 (26-oct-2026)
+• sameerasw/essentials — ★3.665 (+208) · empujó en las últimas horas · MIT · última release v20.2 (26-oct-2026)
 • DP-Hridayan/aShellYou — ★2.545 (+8) · empujó en las últimas horas · GPL-3.0 · última release v7.4.0 (22-may-2026)
-• LinkSheet/LinkSheet — ★2.162 (+4) · empujó en las últimas horas · NOASSERTION · última release 0.0.33 (30-jul-2023)
-• thejaustin/ShizukuPlus — ★1.654 (+40) · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
-• fahrez182/AxManager — ★1.535 (+7) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release v3.0.0 (29-oct-2026)
-• NarYuki/Dextop — ★1.083 (+27) · empujó en las últimas horas · GPL-3.0 · última release v1.7.0 (14-sep-2026)
-• trinadhthatakula/Thor — ★636 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.97.1 (6-oct-2026)
+• LinkSheet/LinkSheet — ★2.163 (+5) · empujó en las últimas horas · NOASSERTION · última release 0.0.33 (30-jul-2023)
+• thejaustin/ShizukuPlus — ★1.656 (+42) · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
+• fahrez182/AxManager — ★1.535 (+7) · empujó en las últimas horas · Apache-2.0 · última release v3.0.0 (29-oct-2026)
+• NarYuki/Dextop — ★1.084 (+28) · empujó en las últimas horas · GPL-3.0 · última release v1.7.0 (14-sep-2026)
+• trinadhthatakula/Thor — ★637 (+4) · empujó en las últimas horas · GPL-3.0 · última release v1.97.1 (6-oct-2026)
 • elhizazi1/ShizuCoreFetch — ★521 (+6) · *dormido*: sin empujar desde el 15-sep-2026 (47 días) · GPL-3.0 · última release 2.4.0 (3-sep-2026)
 • Resilien-Mobile/RootlessStore — ★330 (+2) · empujó el 26-oct-2026 (hace 6 días) · AGPL-3.0 · última release v2.4.0 (26-oct-2026)
 • niki914/zafiro — ★319 (+7) · empujó en las últimas horas · MIT · última release v16-1.9.0 (27-oct-2026)

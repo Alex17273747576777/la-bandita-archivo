@@ -94,7 +94,7 @@ La noticia amarga: **jpdoshi/dragon-store** (caído (404)) ya no respondieron. E
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• cosmictaserdev-creator/Convx — ★1.105 (+41) · empujó en las últimas horas · GPL-3.0 · última release v1.5.2 (15-ago-2026)
+• cosmictaserdev-creator/Convx — ★1.109 (+45) · empujó en las últimas horas · GPL-3.0 · última release v1.5.2 (15-ago-2026)
 • recloudstream/cs-repos — ★545 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API
 • RenzoBeux/Dashboarr — ★379 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.22.0 (29-oct-2026)
 • bikram-agarwal/FilePipe — ★315 (+1) · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0 · última release v3.11.3 (26-sep-2026)

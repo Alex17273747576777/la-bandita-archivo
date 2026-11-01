@@ -1093,15 +1093,15 @@ REV|686.36★ — ppa-xumret/xumret=1|REV|atnevni es on :buHtiG ed XDPS nis=2|RE
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1055 caracteres ═══
+═══ MENSAJE 19 de 20 · 1089 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 18*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• termux/termux-app — ★63.878 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION
-• ish-app/ish — ★20.655 (+10) · empujó el 24-oct-2026 (hace 8 días) · NOASSERTION · última release builds/494 (20-may-2023)
-• brunodev85/winlator — ★19.753 (+69) · empujó el 17-oct-2026 (hace 15 días) · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
+• termux/termux-app — ★63.895 (+219) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• ish-app/ish — ★20.658 (+13) · empujó el 24-oct-2026 (hace 8 días) · NOASSERTION · última release builds/494 (20-may-2023)
+• brunodev85/winlator — ★19.758 (+74) · empujó el 17-oct-2026 (hace 15 días) · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
 • ptitSeb/box64 — ★5.699 (+4) · empujó en las últimas horas · MIT · última release v0.4.4 (2-ago-2026)
 • xoureldeen/Vectras-VM-Android — ★2.765 (+4) · empujó el 18-oct-2026 (hace 14 días) · GPL-2.0 · última release 4.5.0-3dfx (8-oct-2026)
 • AnBui2004/Vectras-VM-Emu-Android — ★304 (-1) · empujó el 14-oct-2026 (hace 18 días) · GPL-2.0 · última release 4.7.4 (14-oct-2026)

@@ -52,7 +52,7 @@ Hay release de esta semana: **awesome-android-root/awesome-android-root** public
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-android-root/awesome-android-root — ★5.595 (+27) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
+• awesome-android-root/awesome-android-root — ★5.594 (+26) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

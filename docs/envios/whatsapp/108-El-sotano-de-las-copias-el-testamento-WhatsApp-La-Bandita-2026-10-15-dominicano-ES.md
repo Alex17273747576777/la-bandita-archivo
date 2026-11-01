@@ -12,9 +12,9 @@
 
 La Bandita · pieza 108 · guía del 29-oct-2026 · te la mando hoy en 5 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *7 repositorios, 5 vivos y 1 muerto*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *7 repositorios, 6 vivos y 1 muerto*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: MPL-2.0 2 · BSD-2-Clause 1 · Apache-2.0 1 · AGPL-3.0 1.
+Licencias de lo que recomienda: MPL-2.0 3 · BSD-2-Clause 1 · Apache-2.0 1 · AGPL-3.0 1.
 
 ⚠️ *Aviso de fecha:* este texto se escribió el 29-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
@@ -87,18 +87,18 @@ REV|)404( odíac — pukcab-oen/rehcnual-oen=1|REV|30-21-4202 — diordna-gnihtc
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1228 caracteres ═══
+═══ MENSAJE 4 de 5 · 1313 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 108*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.976 (+103) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• restic/restic — ★36.927 (+45) · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
-• kopia/kopia — ★14.548 (+25) · empujó en las últimas horas · Apache-2.0 · última release v0.23.1 (16-jun-2026)
-• syncthing/syncthing-android — sin dato hoy (la API no respondió). No afirmo nada.
+• syncthing/syncthing — ★89.982 (+109) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• restic/restic — ★36.930 (+48) · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• kopia/kopia — ★14.551 (+28) · empujó en las últimas horas · Apache-2.0 · última release v0.23.1 (16-jun-2026)
+• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • NeoApplications/Neo-Backup — ★3.889 (+8) · empujó el 17-oct-2026 (hace 15 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
-• researchxxl/syncthing-android — ★3.220 (+28) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.222 (+30) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • neo-launcher/neo-backup — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

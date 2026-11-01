@@ -98,13 +98,13 @@ Sin sobresaltos: el empuje más cercano es de **retransmit/Atrium** (hace 2 día
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2141 caracteres ═══
+═══ MENSAJE 4 de 5 · 2133 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 58*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Myzel394/Alibi — ★1.729 (+6) · *dormido*: sin empujar desde el 11-feb-2026 (263 días) · GPL-3.0 · última release v0.5.3 (7-sep-2024)
+• Myzel394/Alibi — ★1.730 (+7) · *dormido*: sin empujar desde el 11-feb-2026 (263 días) · GPL-3.0 · última release v0.5.3 (7-sep-2024)
 • dn0ne/lotus — ★717 (sin cambio) · *dormido*: sin empujar desde el 25-ene-2025 (645 días) · GPL-3.0 · última release v1.2.0 (25-ene-2025)
 • pass-with-high-score/ANeko — ★594 (+3) · *dormido*: sin empujar desde el 28-ago-2026 (65 días) · LGPL-2.1 · última release v2.4.4 (28-ago-2026)
 • cvzi/ScreenshotTile — ★398 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.21.4 (26-sep-2026)
@@ -113,10 +113,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 • tuntorius/mightier_amp — ★237 (+1) · *dormido*: sin empujar desde el 21-ene-2025 (649 días) · MIT · última release v1.0.16 (23-jul-2024)
 • HQAnime/AnimeOne — ★168 (sin cambio) · empujó el 5-oct-2026 (hace 27 días) · MIT · última release 1.1.8 (2-jul-2022)
 • zimly/zimly-backup — ★105 (sin cambio) · *dormido*: sin empujar desde el 28-feb-2026 (246 días) · GPL-3.0 · última release v3.4.1 (6-feb-2026)
-• likhithpraveenk/storii — ★86 (+1) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release v0.13.0 (23-oct-2026)
+• likhithpraveenk/storii — ★86 (+1) · empujó en las últimas horas · GPL-3.0 · última release v0.13.0 (23-oct-2026)
 • CDrummond/lms-material-app — ★76 (sin cambio) · empujó en las últimas horas · MIT · última release 0.10.1 (31-ago-2026)
 • ptrLx/OneShot — ★52 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.1.1 (7-abr-2023)
-• rumca-js/OfflineWebSearch — ★38 (+1) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release 1.0.38 (13-oct-2026)
+• rumca-js/OfflineWebSearch — ★39 (+2) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release 1.0.38 (13-oct-2026)
 • blackcandy-org/app — ★33 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · MIT · última release android/v2.0.2 (12-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

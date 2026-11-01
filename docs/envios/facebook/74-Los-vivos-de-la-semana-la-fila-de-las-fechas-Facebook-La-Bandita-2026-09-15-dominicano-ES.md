@@ -102,26 +102,26 @@ La noticia fresca es de **wikimedia/apps-android-wikipedia**: release latest (20
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2239 caracteres ═══
+═══ MENSAJE 4 de 5 · 2262 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 74*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.047 (+276) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• offa/android-foss — ★11.611 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
+• ggml-org/llama.cpp — ★133.062 (+291) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• offa/android-foss — ★11.611 (+25) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
 • standardnotes/app — ★6.693 (+5) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.673 (+17) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• NuvioMedia/NuvioTV — ★3.305 (+34) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
-• researchxxl/syncthing-android — ★3.220 (+28) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• NuvioMedia/NuvioTV — ★3.313 (+42) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• researchxxl/syncthing-android — ★3.222 (+30) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (31-oct-2026)
 • dongdongbh/Mindwtr — ★2.360 (+19) · empujó en las últimas horas · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
-• TeamWin/Team-Win-Recovery-Project — ★2.069 (+1) · *dormido*: sin empujar desde el 6-feb-2022 (1729 días) · sin licencia detectada por la API
-• plateaukao/einkbro — ★2.049 (+1) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
+• TeamWin/Team-Win-Recovery-Project — ★2.070 (+2) · *dormido*: sin empujar desde el 6-feb-2022 (1729 días) · sin licencia detectada por la API
+• plateaukao/einkbro — ★2.050 (+2) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
 • axiel7/AniHyou-android — ★628 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (26-sep-2026)
 • recloudstream/cs-repos — ★545 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API
-• phisher98/cloudstream-extensions-phisher — ★528 (+2) · empujó en las últimas horas · sin licencia detectada por la API
-• Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
+• phisher98/cloudstream-extensions-phisher — ★529 (+3) · empujó en las últimas horas · sin licencia detectada por la API
+• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
 • ArtifexSoftware/mupdf-android-viewer — ★199 (sin cambio) · empujó el 25-sep-2026 (hace 37 días) · AGPL-3.0
 • TeamWin/android_bootable_recovery — ★1.724 · *dormido*: sin empujar desde el 24-ago-2026 (69 días) · sin licencia detectada por la API
 

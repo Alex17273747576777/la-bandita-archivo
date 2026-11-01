@@ -774,26 +774,26 @@ REV|82-40-3202 — rebmiT/41naman=1|REV|92-01-6202 — ecruoSreyalPtlaS/ylfairoM
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1923 caracteres ═══
+═══ MENSAJE 19 de 20 · 2118 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 21*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• team-spotube/spotube — ★50.531 (sin cambio) · empujó en las últimas horas · AGPL-3.0
-• maxrave-dev/SimpMusic — ★12.619 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• rukamori/ArchiveTune — ★7.854 (+79) · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
-• Moriafly/SaltPlayerSource — ★7.586 (+11) · empujó el 29-oct-2026 (hace 3 días) · MIT · última release 12.5.2 (29-oct-2026)
+• team-spotube/spotube — ★50.535 (+69) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• maxrave-dev/SimpMusic — ★12.625 (+91) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• rukamori/ArchiveTune — ★7.864 (+89) · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
+• Moriafly/SaltPlayerSource — ★7.587 (+12) · empujó el 29-oct-2026 (hace 3 días) · MIT · última release 12.5.2 (29-oct-2026)
 • naman14/Timber — ★7.034 (+1) · *dormido*: sin empujar desde el 28-abr-2023 (1283 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
-• PixelPlayerHQ/PixelPlayer — ★6.864 (sin cambio) · empujó el 21-sep-2026 (hace 41 días) · NOASSERTION
-• namidaco/namida — ★6.756 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION
-• z-huang/InnerTune — ★6.131 (sin cambio) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0
-• OuterTune/OuterTune — ★5.441 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0
-• RetroMusicPlayer/RetroMusicPlayer — ★5.379 (+5) · empujó el 4-oct-2026 (hace 28 días) · GPL-3.0 · última release v7.0.3 (13-ago-2026)
+• PixelPlayerHQ/PixelPlayer — ★6.865 (+28) · empujó el 21-sep-2026 (hace 41 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
+• namidaco/namida — ★6.759 (+21) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• z-huang/InnerTune — ★6.132 (+3) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• OuterTune/OuterTune — ★5.440 (+3) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• RetroMusicPlayer/RetroMusicPlayer — ★5.380 (+6) · empujó el 4-oct-2026 (hace 28 días) · GPL-3.0 · última release v7.0.3 (13-ago-2026)
 • gokadzev/Musify — ★4.389 (+8) · empujó en las últimas horas · GPL-3.0 · última release 10.6.0 (23-oct-2026)
-• cwuom/NeriPlayer — ★4.030 (+46) · empujó en las últimas horas · GPL-3.0 · última release NeriPlayer-51f0100c.10312030 (31-oct-2026)
-• sonorahq/sonora — ★2.534 (+41) · empujó en las últimas horas · GPL-3.0 · última release v0.46.0 (31-oct-2026)
-• staniel359/muffon — ★2.255 (+4) · empujó el 26-oct-2026 (hace 6 días) · AGPL-3.0 · última release v2.5.0 (24-oct-2026)
+• cwuom/NeriPlayer — ★4.036 (+52) · empujó en las últimas horas · GPL-3.0 · última release NeriPlayer-51f0100c.10312030 (31-oct-2026)
+• sonorahq/sonora — ★2.535 (+42) · empujó en las últimas horas · GPL-3.0 · última release v0.46.0 (31-oct-2026)
+• staniel359/muffon — ★2.256 (+5) · empujó el 26-oct-2026 (hace 6 días) · AGPL-3.0 · última release v2.5.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

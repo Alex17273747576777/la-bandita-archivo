@@ -60,18 +60,19 @@ REV|861.5★ — SDnolem/ume-SDnolem=1|REV|)81-11-5202( 1.1 — SDnolem/ume-SDno
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 451 caracteres ═══
+═══ MENSAJE 3 de 4 · 549 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 78*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• melonDS-emu/melonDS — ★5.176 (+8) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release 1.1 (18-nov-2025)
+• melonDS-emu/melonDS — ★5.175 (+7) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release 1.1 (18-nov-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 2 enlaces de esta pieza, *2 responden*.
-Ninguno roto.
+De los 2 enlaces de esta pieza, *1 responden*.
+
+• https://melonds.kuribo64.net — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

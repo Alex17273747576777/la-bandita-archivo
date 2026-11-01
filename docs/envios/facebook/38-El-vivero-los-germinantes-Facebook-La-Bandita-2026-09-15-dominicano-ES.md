@@ -92,17 +92,17 @@ La noticia amarga: **leassapie/houri** (caído (404)) ya no respondieron. 11 rep
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2274 caracteres ═══
+═══ MENSAJE 4 de 5 · 2266 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 38*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• HuzaifaKhalid1311/DropSauce — ★222 (+6) · empujó en las últimas horas · GPL-3.0 · última release v1.1.1 (29-oct-2026)
+• HuzaifaKhalid1311/DropSauce — ★223 (+7) · empujó en las últimas horas · GPL-3.0 · última release v1.1.1 (29-oct-2026)
 • mannu691/TachiyomiAT — ★196 (sin cambio) · *dormido*: sin empujar desde el 24-feb-2025 (615 días) · Apache-2.0 · última release 1.16.7 (12-jul-2024)
 • tsundoku-otaku/tsundoku — ★118 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · Apache-2.0 · última release v0.3.4 (16-oct-2026)
 • Gent8/Taison — ★116 (sin cambio) · *dormido*: sin empujar desde el 2-ago-2026 (91 días) · Apache-2.0 · última release v1.3.0 (2-ago-2026)
-• PineappleTwilight/houri — ★39 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.25.1 (1-nov-2026)
+• PineappleTwilight/houri — ★40 (+1) · empujó en las últimas horas · Apache-2.0 · última release v1.25.1 (1-nov-2026)
 • Ero-gamer/Kotatsu-Next — ★33 (-1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 9.9.1 (21-sep-2026)
 • mis0suppe/mihon-ds — ★21 (sin cambio) · *dormido*: sin empujar desde el 30-jun-2026 (124 días) · Apache-2.0 · última release v0.1.1 (7-feb-2026)
 • Nyora-Manga/nyora-mihon — ★14 (sin cambio) · *dormido*: sin empujar desde el 19-jul-2026 (105 días) · sin licencia detectada por la API

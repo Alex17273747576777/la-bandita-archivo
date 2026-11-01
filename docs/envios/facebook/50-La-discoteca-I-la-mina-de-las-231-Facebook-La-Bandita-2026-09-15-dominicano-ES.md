@@ -102,9 +102,9 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• kushagrasinghx/BitChord — ★5.107 (+253) · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
-• brahmkshatriya/echo — ★3.607 (+3) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
-• Flow-Tube/Flow — ★3.236 (+73) · empujó en las últimas horas · GPL-3.0 · última release v3.0.0 (17-oct-2026)
+• kushagrasinghx/BitChord — ★5.147 (+293) · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
+• brahmkshatriya/echo — ★3.608 (+4) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
+• Flow-Tube/Flow — ★3.245 (+82) · empujó en las últimas horas · GPL-3.0 · última release v3.0.0 (17-oct-2026)
 • lovegaoshi/azusa-player-mobile — ★1.389 (+1) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0 · última release v4.4.0 (28-oct-2026)
 • AudileTeam/Audile — ★1.388 (+7) · empujó en las últimas horas · GPL-3.0 · última release v1.19.0 (5-oct-2026)
 • shub39/Rush — ★1.045 (+1) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 7.2.0 (28-oct-2026)

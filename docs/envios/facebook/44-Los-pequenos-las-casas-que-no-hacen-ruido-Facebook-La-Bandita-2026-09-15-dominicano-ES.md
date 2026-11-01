@@ -96,7 +96,7 @@ Hay release de esta semana: **Paduu29/KomaStream** publicó v3.17 (2026-10-26). 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2255 caracteres ═══
+═══ MENSAJE 4 de 5 · 2275 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 44*
 
@@ -104,12 +104,12 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 
 • Marco-9456/AniSync — ★160 (+2) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v3.3.0 (20-oct-2026)
 • AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
-• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0
-• e18lab/NHApp — ★135 (sin cambio) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · sin licencia detectada por la API · última release 1.3.1 (7-may-2026)
+• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
+• e18lab/NHApp — ★134 (-1) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · sin licencia detectada por la API · última release 1.3.1 (7-may-2026)
 • NyanTV/NyanTV — ★110 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (126 días) · AGPL-3.0 · última release v1.0.2 (27-jun-2026)
 • professorDeveloper/sozo — ★107 (+6) · empujó en las últimas horas · GPL-3.0 · última release v3.2.0 (27-sep-2026)
 • professorDeveloper/sozo-tv — ★77 (+2) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release 1.0.2 (24-ago-2026)
-• serene-brew/kaizen-app — ★60 (sin cambio) · empujó en las últimas horas · MIT · última release v3.2.1 (8-jun-2026)
+• serene-brew/kaizen-app — ★61 (+1) · empujó en las últimas horas · MIT · última release v3.2.1 (8-jun-2026)
 • Seguaz/Nekoyomi — ★48 (+1) · *dormido*: sin empujar desde el 11-sep-2026 (51 días) · Apache-2.0 · última release v0.20.6 (11-sep-2026)
 • Spyou/Sozo-Read — ★30 (sin cambio) · *dormido*: sin empujar desde el 29-may-2026 (156 días) · sin licencia detectada por la API · última release 1.3.5 (26-may-2026)
 • uwumilabs/uwumi — ★28 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release v3.12.0 (10-oct-2026)

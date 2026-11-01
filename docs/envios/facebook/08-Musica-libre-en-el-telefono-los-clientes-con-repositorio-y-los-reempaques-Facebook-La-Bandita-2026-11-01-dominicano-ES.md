@@ -604,28 +604,28 @@ Y el tercero es el de siempre, con música: los reempaques. Un paquete que no fi
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1867 caracteres ═══
+═══ MENSAJE 16 de 17 · 2268 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• team-spotube/spotube — ★50.531 (sin cambio) · empujó en las últimas horas · AGPL-3.0
-• MetrolistGroup/Metrolist — ★13.933 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0
-• maxrave-dev/SimpMusic — ★12.619 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• maxrave-dev/core — ★22 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• OuterTune/OuterTune — ★5.441 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0
-• z-huang/InnerTune — ★6.131 (sin cambio) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0
-• BlackHatDevX/openspot-music-app — ★2.973 (sin cambio) · *dormido*: sin empujar desde el 3-ago-2026 (90 días) · MIT
-• siper/Youamp — ★273 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · MIT
-• PixelPlayerHQ/PixelPlayer — ★6.864 (sin cambio) · empujó el 21-sep-2026 (hace 41 días) · NOASSERTION
-• PixelPlayerHQ/PixelPlayerOSS — ★304 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• namidaco/namida — ★6.756 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION
-• OxygenCobalt/Auxio — ★4.411 (sin cambio) · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · GPL-3.0
-• FoedusProgramme/Gramophone — ★2.376 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0
-• sosauce/Chocola — ★1.124 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0
-• sheikhhaziq/gyawun_music — ★808 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• icefields/Power-Ampache-2 — ★245 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• team-spotube/spotube — ★50.535 · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• MetrolistGroup/Metrolist — ★13.939 (+50) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.625 (+96) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/core — ★22 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
+• OuterTune/OuterTune — ★5.440 (+3) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• z-huang/InnerTune — ★6.132 · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• BlackHatDevX/openspot-music-app — ★2.973 · *dormido*: sin empujar desde el 3-ago-2026 (90 días) · MIT · última release v3.1.5 (2-jun-2026)
+• siper/Youamp — ★273 · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · MIT · última release v2.1.5 (22-feb-2026)
+• PixelPlayerHQ/PixelPlayer — ★6.865 (+29) · empujó el 21-sep-2026 (hace 41 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
+• PixelPlayerHQ/PixelPlayerOSS — ★306 (+9) · empujó en las últimas horas · GPL-3.0 · última release v0.4.0 (17-oct-2026)
+• namidaco/namida — ★6.759 · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• OxygenCobalt/Auxio — ★4.413 · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
+• FoedusProgramme/Gramophone — ★2.376 · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release 1.1.2 (20-ago-2026)
+• sosauce/Chocola — ★1.125 · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v4.4.6 (15-oct-2026)
+• sheikhhaziq/gyawun_music — ★808 · empujó en las últimas horas · GPL-3.0 · última release v2.0.18 (22-mar-2026)
+• icefields/Power-Ampache-2 — ★245 · empujó en las últimas horas · GPL-3.0 · última release v1.01-89 (16-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

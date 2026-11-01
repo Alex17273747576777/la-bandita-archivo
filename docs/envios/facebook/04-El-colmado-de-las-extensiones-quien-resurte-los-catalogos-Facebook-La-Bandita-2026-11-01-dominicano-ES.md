@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/04-El-colmado-de-las-extensiones-quien-resurte-los-catalogos-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `1cee5ddcad5944217c751afda2288cfec39bb72528638e5a5ec861a8c8c5c4b8`
-- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3740 caracteres
+- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3939 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 18 · 780 caracteres ═══
@@ -12,9 +12,9 @@
 
 La Bandita · pieza 04 · guía del 1-nov-2026 · te la mando hoy en 18 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *33 repositorios, 32 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *33 repositorios, 33 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: Apache-2.0 19 · sin licencia 8 · GPL-3.0 2 · MIT 2.
+Licencias de lo que recomienda: Apache-2.0 20 · sin licencia 8 · GPL-3.0 2 · MIT 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/04-El-colmado-de-las-extensiones-quien-resurte-los-catalogos-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
@@ -576,27 +576,27 @@ Ninguno de esos datos te dice qué instalar. Te dicen cómo preguntar, que es m�
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 3740 caracteres ═══
+═══ MENSAJE 17 de 18 · 3939 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Suwayomi/tachiyomi-extension — ★345 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
-• Aidoku-Community/sources — ★615 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
-• keiyoushi/extensions-source — ★4.850 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
-• yuzono/tachiyomi-extensions — ★953 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
+• Aidoku-Community/sources — ★615 (+6) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
+• keiyoushi/extensions-source — ★4.850 · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions — ★15.410 (+41) · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
+• yuzono/tachiyomi-extensions — ★954 · empujó en las últimas horas · Apache-2.0
 • beer-psi/tachiyomi-unofficial-extensions — ★53 · *dormido*: sin empujar desde el 29-ago-2026 (64 días) · Apache-2.0 · última release cuutruyen-1.4.8 (31-jul-2023)
 • everfio/tachiyomi-extensions — ★41 · empujó en las últimas horas · sin licencia detectada por la API
 • marbou92/MHExtensions — ★7 · empujó en las últimas horas · Apache-2.0
 • marbou92/MHRepo — ★8 · empujó en las últimas horas · Apache-2.0
-• aniyomiorg/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
+• aniyomiorg/aniyomi-extensions — ★849 · *dormido*: sin empujar desde el 19-ago-2024 (804 días) · Apache-2.0 · *ARCHIVADO*
 • timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (223 días) · Apache-2.0 · *ARCHIVADO*
-• m2k3a/mangayomi-extensions — ★113 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
-• skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• kodjodevf/mangayomi — ★4.288 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• Aidoku-Community/legacy-sources — ★705 · *dormido*: sin empujar desde el 9-sep-2026 (53 días) · Apache-2.0
+• m2k3a/mangayomi-extensions — ★113 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
+• skepsun/kototoro-parsers — ★17 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
+• kodjodevf/mangayomi — ★4.289 (+17) · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
+• Aidoku-Community/legacy-sources — ★706 · *dormido*: sin empujar desde el 9-sep-2026 (53 días) · Apache-2.0
 • Aidoku/aidoku-rs — ★55 · empujó el 6-oct-2026 (hace 26 días) · MIT
 • suiyuran/aidoku-zh-sources — ★906 · *dormido*: sin empujar desde el 30-mar-2026 (216 días) · sin licencia detectada por la API
 • 0BlueYan0/aidoku-new-zh-sources — ★28 · empujó en las últimas horas · Apache-2.0
@@ -610,11 +610,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pi
 • nickEatsBread/izumi-extension-repo — ★0 · *dormido*: sin empujar desde el 3-sep-2026 (59 días) · sin licencia detectada por la API
 • mrtear/Extension-Source-Builder — ★31 · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · sin licencia detectada por la API
 • SeoMavares/miwayomi — ★31 · *dormido*: sin empujar desde el 14-ago-2026 (79 días) · Apache-2.0 · última release v0.2.9 (13-ago-2026)
-• mihonapp/mihon — ★24.939 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
-• komikku-app/komikku — ★4.966 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
+• mihonapp/mihon — ★24.941 (+102) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• komikku-app/komikku — ★4.966 (+11) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• nekomangaorg/Neko — ★2.818 · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• aniyomiorg/aniyomi — ★7.866 · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

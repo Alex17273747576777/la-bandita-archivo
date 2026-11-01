@@ -1117,21 +1117,21 @@ REV|386.19★ — srevres/locotorptxetnocledom=1|REV|TIM=2|REV|03-01-6202 — na
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1382 caracteres ═══
+═══ MENSAJE 19 de 20 · 1383 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 19*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• modelcontextprotocol/servers — ★91.732 (+51) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
-• ChatGPTNextWeb/NextChat — ★88.933 (+15) · empujó el 20-oct-2026 (hace 12 días) · MIT · última release v2.16.1 (29-jul-2025)
-• Ebony-Vinyl/dsh-our-free-model — ★55.418 (+4475) · empujó en las últimas horas · MIT · última release v2.8.0-macos-unofficial (1-nov-2026)
-• moeru-ai/airi — ★50.981 (+91) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
-• janhq/jan — ★45.215 (+62) · empujó en las últimas horas · NOASSERTION · última release v0.8.8 (28-oct-2026)
-• xai-org/grok-build — ★27.646 (+44) · empujó el 29-sep-2026 (hace 33 días) · Apache-2.0
-• yetone/magpie — ★27.403 (+1981) · empujó en las últimas horas · MIT · última release v0.1.2616 (1-nov-2026)
-• browser-use/jev-ultrafast — ★24.018 (+125) · empujó en las últimas horas · MIT
-• modelcontextprotocol/modelcontextprotocol — ★9.580 (+18) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
+• modelcontextprotocol/servers — ★91.734 (+53) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
+• ChatGPTNextWeb/NextChat — ★88.930 (+12) · empujó el 20-oct-2026 (hace 12 días) · MIT · última release v2.16.1 (29-jul-2025)
+• Ebony-Vinyl/dsh-our-free-model — ★55.664 (+4721) · empujó en las últimas horas · MIT · última release v2.8.0-macos-unofficial (1-nov-2026)
+• moeru-ai/airi — ★50.991 (+101) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
+• janhq/jan — ★45.220 (+67) · empujó en las últimas horas · NOASSERTION · última release v0.8.8 (28-oct-2026)
+• xai-org/grok-build — ★27.649 (+47) · empujó el 29-sep-2026 (hace 33 días) · Apache-2.0
+• yetone/magpie — ★27.526 (+2104) · empujó en las últimas horas · MIT · última release v0.1.2636 (1-nov-2026)
+• browser-use/jev-ultrafast — ★24.034 (+141) · empujó en las últimas horas · MIT
+• modelcontextprotocol/modelcontextprotocol — ★9.583 (+21) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

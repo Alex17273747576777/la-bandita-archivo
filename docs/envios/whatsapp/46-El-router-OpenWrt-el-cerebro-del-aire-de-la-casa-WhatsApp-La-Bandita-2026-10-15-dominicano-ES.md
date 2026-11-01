@@ -72,8 +72,8 @@ REV|0.2-ehcapA=1|REV|92-01-6202 — trwnepo/trwnepo=2|REV|579.82★ — trwnepo/
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• openwrt/openwrt — ★29.005 (+30) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
-• openwrt/luci — ★7.946 (+7) · empujó en las últimas horas · Apache-2.0
+• openwrt/openwrt — ★29.008 (+33) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
+• openwrt/luci — ★7.947 (+8) · empujó en las últimas horas · Apache-2.0
 • openwrt/packages — ★4.660 (sin cambio) · empujó en las últimas horas · GPL-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

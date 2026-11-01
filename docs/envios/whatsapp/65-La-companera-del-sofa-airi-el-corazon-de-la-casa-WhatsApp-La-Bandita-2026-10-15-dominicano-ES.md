@@ -68,15 +68,15 @@ REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — iria/ia-ureom=2|REV|TIM=3
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 774 caracteres ═══
+═══ MENSAJE 3 de 4 · 775 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 65*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.541 (+302) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• moeru-ai/airi — ★50.981 (+91) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
-• paperless-ngx/paperless-ngx — ★47.499 (+196) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
+• ollama/ollama — ★185.573 (+334) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• moeru-ai/airi — ★50.991 (+101) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
+• paperless-ngx/paperless-ngx — ★47.518 (+215) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

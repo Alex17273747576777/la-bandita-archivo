@@ -99,21 +99,21 @@ Hay release de esta semana: **LinwoodDev/Butterfly** publicó v2.6.2 (2026-10-28
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1477 caracteres ═══
+═══ MENSAJE 4 de 5 · 1505 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 66*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ente/ente — ★29.809 (+67) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
-• T8RIN/ImageToolbox — ★15.285 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• ente/ente — ★29.812 (+70) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
+• T8RIN/ImageToolbox — ★15.287 (+46) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
 • nextcloud/android — ★5.673 (+17) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• deckerst/aves — ★5.478 (+10) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
+• deckerst/aves — ★5.477 (+9) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
 • burhanrashid52/PhotoEditor — ★4.531 (+1) · empujó el 27-sep-2026 (hace 35 días) · MIT · última release v.3.1.1 (17-sep-2026)
 • pulsejet/memories — ★3.872 (+4) · empujó en las últimas horas · AGPL-3.0 · última release v10.2.0 (23-oct-2026)
-• IacobIonut01/ReFra — ★2.970 (+11) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release 5.2.2 (4-oct-2026)
+• IacobIonut01/ReFra — ★2.971 (+12) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release 5.2.2 (4-oct-2026)
 • anonfaded/FadCam — ★2.868 (+3) · empujó en las últimas horas · GPL-3.0 · última release v3.0.1 (16-dic-2025)
-• MMRLApp/MMRL — ★2.226 (+3) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v34296 (8-mar-2026)
+• MMRLApp/MMRL — ★2.227 (+4) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v34296 (8-mar-2026)
 • LinwoodDev/Butterfly — ★2.085 (+3) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.2 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

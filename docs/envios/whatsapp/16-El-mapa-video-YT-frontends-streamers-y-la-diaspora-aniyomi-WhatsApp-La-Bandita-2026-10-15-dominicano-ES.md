@@ -1015,25 +1015,25 @@ REV|753.04★ — epiPweN/epiPweNmaeT=1|REV|TIM=2|REV|92-01-6202 — liateminA/p
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 2107 caracteres ═══
+═══ MENSAJE 19 de 20 · 2274 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 16*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• TeamNewPipe/NewPipe — ★40.389 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• yuliskov/SmartTube — ★35.806 (sin cambio) · empujó en las últimas horas · MIT
-• open-ani/animeko — ★21.392 (+66) · empujó en las últimas horas · AGPL-3.0 · última release v6.4.0 (24-oct-2026)
-• libre-tube/LibreTube — ★12.930 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• recloudstream/cloudstream — ★11.121 (+25) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
-• TeamPiped/Piped — ★10.299 (+3) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
-• aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
-• mytv-android/mytv-android — ★2.978 (+48) · empujó en las últimas horas · MIT · última release V2.2.0.219 (21-ago-2026)
-• oxyroid/M3UAndroid — ★1.286 (+2) · empujó el 20-sep-2026 (hace 42 días) · GPL-3.0 · última release v1.15.0 (29-mar-2025) · *ARCHIVADO*
+• TeamNewPipe/NewPipe — ★40.394 (+37) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
+• yuliskov/SmartTube — ★35.817 (+101) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• open-ani/animeko — ★21.403 (+77) · empujó en las últimas horas · AGPL-3.0 · última release v6.4.0 (24-oct-2026)
+• libre-tube/LibreTube — ★12.930 (+17) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
+• recloudstream/cloudstream — ★11.127 (+31) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• TeamPiped/Piped — ★10.300 (+4) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
+• aniyomiorg/aniyomi — ★7.866 (+10) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• mytv-android/mytv-android — ★2.980 (+50) · empujó en las últimas horas · MIT · última release V2.2.0.219 (21-ago-2026)
+• oxyroid/M3UAndroid — ★1.285 (+1) · empujó el 20-sep-2026 (hace 42 días) · GPL-3.0 · última release v1.15.0 (29-mar-2025) · *ARCHIVADO*
 • animiruorg/Animiru — ★908 (+4) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0.1 (14-sep-2026)
 • Riteshp2001/mpvRx — ★868 (+9) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
 • Animetailapp/Animetail — ★614 (+1) · empujó en las últimas horas · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
-• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
+• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
 • rokku-app/rokku — ★65 (+2) · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (30-oct-2026)
 • Yuneko-dev/Nekori — ★37 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.1.3 (23-oct-2026)
 • Med-amine0/aniyomi_plus — ★9 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.18.2.7 (21-oct-2026)

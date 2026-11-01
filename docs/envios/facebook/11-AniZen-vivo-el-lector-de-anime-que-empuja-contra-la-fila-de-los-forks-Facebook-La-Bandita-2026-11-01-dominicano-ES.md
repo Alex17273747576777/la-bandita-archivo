@@ -462,22 +462,22 @@ Lo que sí tiene dueño es la manera de mirarlo: dos fechas por proyecto, licenc
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1293 caracteres ═══
+═══ MENSAJE 15 de 16 · 1593 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 11*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia
+• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
 • Gaijin81/anizen — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• salmanbappi/AniZen — ★200 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• salmanbappi/anizen-preview — ★9 (sin cambio) · empujó en las últimas horas · sin licencia
-• komikku-app/anikku — ★1.127 (sin cambio) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0
-• komikku-app/komikku — ★4.966 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• aniyomiorg/aniyomi — ★7.866 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0
-• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
-• KakarottoCake/yokai-T — ★0 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · Apache-2.0
-• mihonapp/mihon — ★24.939 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0
+• salmanbappi/AniZen — ★200 · empujó en las últimas horas · Apache-2.0 · última release v0.5.220 (31-oct-2026)
+• salmanbappi/anizen-preview — ★9 · empujó en las últimas horas · sin licencia detectada por la API · última release r4821 (31-oct-2026)
+• komikku-app/anikku — ★1.127 · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
+• komikku-app/komikku — ★4.966 (+11) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• aniyomiorg/aniyomi — ★7.866 · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• andarcanum/Tadami-Aniyomi-fork — ★287 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
+• KakarottoCake/yokai-T — ★0 · empujó el 26-sep-2026 (hace 36 días) · Apache-2.0 · última release v1.0.2 (4-jul-2026)
+• mihonapp/mihon — ★24.941 (+102) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

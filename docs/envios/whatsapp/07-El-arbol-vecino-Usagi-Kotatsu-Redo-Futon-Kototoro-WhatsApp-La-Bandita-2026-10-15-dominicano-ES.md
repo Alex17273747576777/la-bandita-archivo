@@ -6,15 +6,15 @@
 - **Envío generado:** 2026-11-01 · 25 mensajes · el mayor de 3662 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 25 · 909 caracteres ═══
+═══ MENSAJE 1 de 25 · 910 caracteres ═══
 
 *El arbol vecino Usagi Kotatsu Redo Futon Kototoro*
 
 La Bandita · pieza 07 · guía del 15-oct-2026 · te la mando hoy en 25 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *12 repositorios, 11 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *12 repositorios, 12 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 9 · Apache-2.0 1 · sin licencia 1.
+Licencias de lo que recomienda: GPL-3.0 10 · Apache-2.0 1 · sin licencia 1.
 
 ⚠️ *Aviso de fecha:* este texto se escribió el 15-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
@@ -979,21 +979,21 @@ REV|349.8★ — ustatoK/ppAustatoK=1|REV|40-11-5202 — ustatoK/ppAustatoK=2|RE
 
 ⏬ sigue abajo · parte 22 de 24
 
-═══ MENSAJE 24 de 25 · 1692 caracteres ═══
+═══ MENSAJE 24 de 25 · 1937 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
-• Kotatsu-Redo/Kotatsu-Redo — ★983 (+9) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0 · última release 9.8.5 (16-oct-2026)
-• Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• AppFuton/Futon — ★470 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0
-• UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0
-• InvalidDavid/UMA — ★83 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• KotatsuApp/Kotatsu — ★8.946 (+3) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
+• Kotatsu-Redo/Kotatsu-Redo — ★984 (+10) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0 · última release 9.8.5 (16-oct-2026)
+• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• AppFuton/Futon — ★471 (+4) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
+• UsagiApp/Usagi — ★288 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
+• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
+• InvalidDavid/UMA — ★83 (+1) · empujó en las últimas horas · GPL-3.0 · última release a957b28 (1-nov-2026)
 • YumemiProject/Yumemi — ★60 (sin cambio) · *dormido*: sin empujar desde el 20-feb-2026 (254 días) · GPL-3.0
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
 • UsagiApp/core-exts — ★7 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (126 días) · GPL-3.0 · última release 1.0.3 (27-abr-2026) · *ARCHIVADO*
 • UsagiApp/core-parsers — ★2 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (126 días) · GPL-3.0 · última release 0.0.3 (16-may-2026) · *ARCHIVADO*
 • sang765/Usagi — ★0 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0

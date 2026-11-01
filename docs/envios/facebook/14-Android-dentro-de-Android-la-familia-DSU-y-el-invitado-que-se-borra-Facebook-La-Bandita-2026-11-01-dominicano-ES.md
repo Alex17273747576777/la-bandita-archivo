@@ -6,15 +6,15 @@
 - **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3612 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 752 caracteres ═══
+═══ MENSAJE 1 de 17 · 753 caracteres ═══
 
 *Android dentro de Android: la familia DSU y el invitado que se borra*
 
 La Bandita · pieza 14 · guía del 1-nov-2026 · te la mando hoy en 17 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *10 repositorios, 8 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *10 repositorios, 10 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: Apache-2.0 5 · sin licencia 3.
+Licencias de lo que recomienda: Apache-2.0 6 · sin licencia 4.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/14-Android-dentro-de-Android-la-familia-DSU-y-el-invitado-que-se-borra-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
@@ -556,26 +556,26 @@ La idea que queda es la más barata de toda la serie: cuando algo da miedo, se p
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1411 caracteres ═══
+═══ MENSAJE 16 de 17 · 1842 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 14*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Gong-Mi/DSU-Sideloader — ★2 (sin cambio) · *dormido*: sin empujar desde el 27-jul-2026 (97 días) · Apache-2.0
-• VegaBobo/DSU-Sideloader — ★2.353 (sin cambio) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0
-• yangFenTuoZi/DSU-Sideloader-Plus — ★44 (sin cambio) · *dormido*: sin empujar desde el 15-jun-2026 (139 días) · Apache-2.0
-• R15Hi/Dsu-Multi-sideloader — ★3 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · Apache-2.0
-• dhytpodd-lab/DsuSideloaderPlusProMaxUltra — ★3 (sin cambio) · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · sin licencia
-• phhusson/treble_experimentations — sin dato hoy (la API no respondió). No afirmo nada.
-• MisterZtr/LineageOS_gsi — ★571 (sin cambio) · *dormido*: sin empujar desde el 24-may-2026 (161 días) · sin licencia
-• ponces/treble_aosp — sin dato hoy (la API no respondió). No afirmo nada.
-• naz664/crDroid_gsi — ★259 (sin cambio) · *dormido*: sin empujar desde el 8-mar-2025 (603 días) · sin licencia
-• imknown/AndroidLowLevelDetector — ★476 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• Gong-Mi/DSU-Sideloader — ★2 · *dormido*: sin empujar desde el 27-jul-2026 (97 días) · Apache-2.0
+• VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
+• yangFenTuoZi/DSU-Sideloader-Plus — ★44 · *dormido*: sin empujar desde el 15-jun-2026 (139 días) · Apache-2.0 · última release 1.0.0 (15-jun-2026)
+• R15Hi/Dsu-Multi-sideloader — ★3 · empujó el 15-oct-2026 (hace 17 días) · Apache-2.0 · última release v2.20 (15-oct-2026)
+• dhytpodd-lab/DsuSideloaderPlusProMaxUltra — ★3 · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · sin licencia detectada por la API · última release v1.2-RELEASE (8-sep-2026)
+• phhusson/treble_experimentations — ★3.552 · *dormido*: sin empujar desde el 27-ene-2025 (643 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*
+• MisterZtr/LineageOS_gsi — ★571 · *dormido*: sin empujar desde el 24-may-2026 (161 días) · sin licencia detectada por la API · última release v2026.05.24-lineage23.2 (24-may-2026)
+• ponces/treble_aosp — ★312 · *dormido*: sin empujar desde el 25-jul-2025 (464 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
+• naz664/crDroid_gsi — ★259 · *dormido*: sin empujar desde el 8-mar-2025 (603 días) · sin licencia detectada por la API · última release v2025.03.08 (8-mar-2025)
+• imknown/AndroidLowLevelDetector — ★476 · empujó en las últimas horas · Apache-2.0 · última release 1.18.7 (25-abr-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 4 enlaces de esta pieza, *4 responden*.
+De los 10 enlaces de esta pieza, *10 responden*.
 Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16

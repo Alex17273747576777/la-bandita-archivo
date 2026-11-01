@@ -70,8 +70,8 @@ REV|)62-01-6202( 8.5.2 — amuk-emitpu/malsiuol=1|REV|0.3-LPG=2|REV|92-01-6202 �
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• louislam/uptime-kuma — ★93.138 (+73) · empujó en las últimas horas · MIT · última release 2.5.9 (31-oct-2026)
-• gethomepage/homepage — ★33.474 (+37) · empujó en las últimas horas · GPL-3.0 · última release v2.7.0 (23-oct-2026)
+• louislam/uptime-kuma — ★93.149 (+84) · empujó en las últimas horas · MIT · última release 2.5.9 (31-oct-2026)
+• gethomepage/homepage — ★33.477 (+40) · empujó en las últimas horas · GPL-3.0 · última release v2.7.0 (23-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

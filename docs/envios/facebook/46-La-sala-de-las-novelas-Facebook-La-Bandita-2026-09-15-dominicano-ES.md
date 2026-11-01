@@ -65,16 +65,16 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 4 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1142 caracteres ═══
+═══ MENSAJE 3 de 4 · 1135 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 46*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dmzz-yyhyy/LightNovelReader — ★2.310 (+7) · empujó el 25-oct-2026 (hace 7 días) · Apache-2.0 · última release 1.2.4 (16-oct-2026)
+• dmzz-yyhyy/LightNovelReader — ★2.313 (+10) · empujó el 25-oct-2026 (hace 7 días) · Apache-2.0 · última release 1.2.4 (16-oct-2026)
 • ranobe-org/ranobe — ★267 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Unlicense · última release v0.0.20 (26-oct-2026)
 • 1Finn2me/Novery — ★57 (sin cambio) · *dormido*: sin empujar desde el 3-may-2026 (182 días) · GPL-3.0 · última release v1.0.2 (3-may-2026)
-• bunoriapp/bunori — ★43 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v2.0.4 (26-sep-2026)
+• bunoriapp/bunori — ★43 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v2.0.4 (26-sep-2026)
 • Nabeelshar/WebnovelReader — ★29 (sin cambio) · *dormido*: sin empujar desde el 25-jul-2026 (99 días) · GPL-3.0 · última release v2.4.1 (29-may-2026)
 • ghotato/Foxlations — ★20 (sin cambio) · empujó el 11-oct-2026 (hace 21 días) · Apache-2.0 · última release v1.2.2+188 (11-oct-2026)
 

@@ -12,9 +12,9 @@
 
 La Bandita · pieza 07 · guía del 29-oct-2026 · te la mando hoy en 4 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *7 repositorios, 6 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *7 repositorios, 7 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 4 · Apache-2.0 1 · sin licencia 1.
+Licencias de lo que recomienda: GPL-3.0 5 · Apache-2.0 1 · sin licencia 1.
 
 ⚠️ *Aviso de fecha:* este texto se escribió el 29-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
@@ -66,19 +66,19 @@ Pulso de hoy sobre los 7 repos de la pieza: 7 vivos, 4 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1053 caracteres ═══
+═══ MENSAJE 3 de 4 · 1287 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
-• Kototoro-app/Kototoro — ★660 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• AppFuton/Futon — ★470 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0
-• UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0
-• InvalidDavid/UMA — ★83 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia
+• KotatsuApp/Kotatsu — ★8.946 · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
+• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• AppFuton/Futon — ★471 (+4) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
+• UsagiApp/Usagi — ★288 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
+• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
+• InvalidDavid/UMA — ★83 (+1) · empujó en las últimas horas · GPL-3.0 · última release a957b28 (1-nov-2026)
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

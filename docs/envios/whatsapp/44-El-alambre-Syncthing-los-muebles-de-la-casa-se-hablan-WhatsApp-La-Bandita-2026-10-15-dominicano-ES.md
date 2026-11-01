@@ -12,9 +12,9 @@
 
 La Bandita · pieza 44 · guía del 29-oct-2026 · te la mando hoy en 4 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *4 repositorios, 3 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *4 repositorios, 4 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: MPL-2.0 3.
+Licencias de lo que recomienda: MPL-2.0 4.
 
 ⚠️ *Aviso de fecha:* este texto se escribió el 29-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
@@ -72,16 +72,16 @@ REV|378.98★ — gnihtcnys/gnihtcnys=1|REV|)12-01-6202( 7.1.2v — gnihtcnys/gn
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 780 caracteres ═══
+═══ MENSAJE 3 de 4 · 865 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 44*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.976 (+103) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• syncthing/syncthing-android — sin dato hoy (la API no respondió). No afirmo nada.
+• syncthing/syncthing — ★89.982 (+109) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • serverless-dns/serverless-dns — ★3.835 (+3) · *dormido*: sin empujar desde el 6-may-2026 (179 días) · MPL-2.0
-• researchxxl/syncthing-android — ★3.220 (+28) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.222 (+30) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -12,9 +12,9 @@
 
 La Bandita · pieza 01 · guía del 1-nov-2026 · te la mando hoy en 18 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *18 repositorios, 18 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *18 repositorios, 17 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 9 · Apache-2.0 4 · MIT 3 · NOASSERTION 1.
+Licencias de lo que recomienda: GPL-3.0 9 · MIT 3 · Apache-2.0 3 · NOASSERTION 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-Tiendas-con-dueno-y-tiendas-sin-el-el-instalador-que-falta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
@@ -439,34 +439,34 @@ El otro hallazgo es el de siempre y nunca se repite bastante: lo que decide si u
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 2023 caracteres ═══
+═══ MENSAJE 17 de 18 · 2361 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• kurikomi-labs/komi-store — ★20.206 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• solkin/appteka-android — ★1.368 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0
-• samyak2403/RepoStore — ★1.372 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · MIT
-• timschneeb/ShizuStore — ★502 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• Droid-ify/client — ★7.678 (sin cambio) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0
-• NeoApplications/Neo-Store — ★5.596 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0
-• accrescent/accrescent — ★2.305 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• ImranR98/Obtainium — ★21.116 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• whyorean/AuroraStore — ★3.216 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• AbdurazaaqMohammed/AntiSplit-M — ★4.941 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• vinstall/VInstall — ★105 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• Paving-Base/APK-Installer — ★1.712 (sin cambio) · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0
-• RikkaApps/Shizuku — ★32.594 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0
-• MuntashirAkon/AppManager — ★9.398 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
-• offa/android-foss — ★11.611 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
-• Psyhackological/AAA — ★3.141 (sin cambio) · empujó el 29-sep-2026 (hace 33 días) · CC-BY-4.0
-• rehmatworks/gplaydl — ★691 (sin cambio) · empujó el 30-sep-2026 (hace 32 días) · MIT
-• dbeley/fdroid-insights — ★27 (sin cambio) · empujó el 19-oct-2026 (hace 13 días) · MIT
+• kurikomi-labs/komi-store — sin dato hoy (la API no respondió). No afirmo nada.
+• solkin/appteka-android — ★1.368 (+9) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v23.0 (13-ago-2026)
+• samyak2403/RepoStore — ★1.373 · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.0.22 (29-oct-2026)
+• timschneeb/ShizuStore — ★504 · empujó en las últimas horas · GPL-3.0 · última release 1.5.0 (5-oct-2026)
+• Droid-ify/client — ★7.679 (+18) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• NeoApplications/Neo-Store — ★5.598 (+28) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• accrescent/accrescent — ★2.305 (-1) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
+• ImranR98/Obtainium — ★21.122 (+103) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• whyorean/AuroraStore — ★3.218 (+20) · empujó en las últimas horas · GPL-3.0
+• AbdurazaaqMohammed/AntiSplit-M — ★4.941 · empujó en las últimas horas · Apache-2.0 · última release 2.3.3 (31-oct-2026)
+• vinstall/VInstall — ★105 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.4.5 (30-oct-2026)
+• Paving-Base/APK-Installer — ★1.712 · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0 · última release v0.1.28 (11-ago-2025)
+• RikkaApps/Shizuku — ★32.598 (+213) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• MuntashirAkon/AppManager — ★9.402 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• offa/android-foss — ★11.611 (+25) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
+• Psyhackological/AAA — ★3.141 · empujó el 29-sep-2026 (hace 33 días) · CC-BY-4.0 · última release 250 (7-may-2024)
+• rehmatworks/gplaydl — ★691 · empujó el 30-sep-2026 (hace 32 días) · MIT · última release v4.2.1 (1-ago-2026)
+• dbeley/fdroid-insights — ★27 · empujó el 19-oct-2026 (hace 13 días) · MIT
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 13 enlaces de esta pieza, *13 responden*.
+De los 18 enlaces de esta pieza, *18 responden*.
 Ninguno roto.
 
 ⏬ sigue abajo · parte 16 de 17

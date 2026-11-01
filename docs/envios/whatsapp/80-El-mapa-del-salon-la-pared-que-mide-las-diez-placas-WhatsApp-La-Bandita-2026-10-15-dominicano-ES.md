@@ -66,7 +66,7 @@ REV|078.2★ — mvmmucs/mvmmucs=1|REV|92-01-6202 — mvmmucs/mvmmucs=2|REV|)11-
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• scummvm/scummvm — ★2.875 (+5) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
+• scummvm/scummvm — ★2.878 (+8) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

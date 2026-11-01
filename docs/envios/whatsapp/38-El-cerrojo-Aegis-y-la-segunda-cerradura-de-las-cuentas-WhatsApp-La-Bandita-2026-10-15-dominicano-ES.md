@@ -64,13 +64,13 @@ REV|0.2-ehcapA=1|REV|60-90-6202 — sigeA/tnempolevedmeeb=2|REV|)60-90-6202( 3.4
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 594 caracteres ═══
+═══ MENSAJE 3 de 4 · 624 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 38*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• beemdevelopment/Aegis — ★13.442 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0
+• beemdevelopment/Aegis — ★13.443 (+29) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • helloworld1/FreeOTPPlus — ★750 (+1) · *dormido*: sin empujar desde el 24-ago-2026 (69 días) · Apache-2.0 · última release RELEASE-3.4 (31-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

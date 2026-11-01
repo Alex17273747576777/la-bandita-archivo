@@ -495,25 +495,25 @@ Y el aviso que hay que dejar escrito: aquí todo caduca. Un icono que deja de ab
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1173 caracteres ═══
+═══ MENSAJE 16 de 17 · 1362 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 13*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Dadoum/Sideloader — ★1.063 (sin cambio) · empujó el 18-sep-2026 (hace 44 días) · GPL-3.0
-• Leviidev/Husk — ★2.937 (sin cambio) · empujó en las últimas horas · GPL-2.0
-• utmapp/UTM — ★36.633 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• altstoreio/AltStore — ★14.821 (sin cambio) · empujó el 21-oct-2026 (hace 11 días) · AGPL-3.0
-• SideStore/SideStore — ★7.188 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0
-• LiveContainer/LiveContainer — ★13.674 (sin cambio) · empujó el 17-oct-2026 (hace 15 días) · AGPL-3.0
-• SignTools/SignTools — ★2.242 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · AGPL-3.0
-• bahattinkoc/ipaverse — ★689 (sin cambio) · empujó el 22-sep-2026 (hace 40 días) · MIT
-• VegaBobo/DSU-Sideloader — ★2.353 (sin cambio) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0
+• Dadoum/Sideloader — ★1.063 · empujó el 18-sep-2026 (hace 44 días) · GPL-3.0
+• Leviidev/Husk — ★2.938 · empujó en las últimas horas · GPL-2.0 · última release 3.3 (1-nov-2026)
+• utmapp/UTM — ★36.634 · empujó en las últimas horas · Apache-2.0 · última release v5.0.8 (17-oct-2026)
+• altstoreio/AltStore — ★14.821 · empujó el 21-oct-2026 (hace 11 días) · AGPL-3.0 · última release v2.3 (30-sep-2026)
+• SideStore/SideStore — ★7.188 · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release 0.7.0-alpha (15-sep-2026)
+• LiveContainer/LiveContainer — ★13.679 · empujó el 17-oct-2026 (hace 15 días) · AGPL-3.0 · última release 3.8.0 (17-jul-2026)
+• SignTools/SignTools — ★2.242 · empujó el 12-oct-2026 (hace 20 días) · AGPL-3.0 · última release v3.0.12 (16-jul-2026)
+• bahattinkoc/ipaverse — ★689 · empujó el 22-sep-2026 (hace 40 días) · MIT · última release v2.5.3 (22-sep-2026)
+• VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 2 enlaces de esta pieza, *2 responden*.
+De los 9 enlaces de esta pieza, *9 responden*.
 Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16

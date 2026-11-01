@@ -83,19 +83,19 @@ La noticia fresca es de **luqmanfadlli/NuvioMobile-Enhanced**: release 0.6.5-bet
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1576 caracteres ═══
+═══ MENSAJE 4 de 5 · 1560 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 23*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• damontecres/Wholphin — ★3.210 (+21) · empujó en las últimas horas · GPL-2.0 · última release v1.0.9 (11-oct-2026)
+• damontecres/Wholphin — ★3.212 (+23) · empujó en las últimas horas · GPL-2.0 · última release v1.0.9 (11-oct-2026)
 • Riteshp2001/mpvRx — ★868 (+9) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
-• luqmanfadlli/NuvioMobile-Enhanced — ★721 (+19) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (30-oct-2026)
-• ahXN00/OwnTV — ★711 (+11) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v5.2.1 (21-oct-2026)
+• luqmanfadlli/NuvioMobile-Enhanced — ★723 (+21) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (30-oct-2026)
+• ahXN00/OwnTV — ★711 (+11) · empujó en las últimas horas · GPL-3.0 · última release v5.2.1 (21-oct-2026)
 • varunsalian/debrify — ★636 (+4) · empujó en las últimas horas · AGPL-3.0 · última release v0.10.0-beta.1 (25-sep-2026)
 • mjlanddev/CornCastle-Anime-APP — ★79 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (71 días) · sin licencia detectada por la API · *ARCHIVADO*
-• jonzey231/AerioTV-Android — ★86 (+11) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.5.13 (16-oct-2026)
+• jonzey231/AerioTV-Android — ★86 (+11) · empujó en las últimas horas · GPL-3.0 · última release v0.5.13 (16-oct-2026)
 • mangeshghodke/DreamPlayer — ★74 (+2) · empujó en las últimas horas · GPL-3.0 · última release v0.5.4 (24-oct-2026)
 • FellipitoPV/NekoVideo — ★71 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.9.1 (22-oct-2026)
 • SOLO-ARC/Animebox — ★28 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.3.7 (30-oct-2026)

@@ -109,11 +109,11 @@ Pulso de hoy sobre los 15 repos de la pieza: 15 vivos, 5 activos este mes. Manda
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• opendocument-app/OpenDocument.droid — ★485 (+1) · empujó en las últimas horas · MPL-2.0 · última release v4.24.0 (31-oct-2026)
+• opendocument-app/OpenDocument.droid — ★486 (+2) · empujó en las últimas horas · MPL-2.0 · última release v4.24.0 (31-oct-2026)
 • ZWolken/Light-Novel-Yuedu-Source — ★450 (+2) · *dormido*: sin empujar desde el 22-sep-2025 (405 días) · MIT · última release v24-12-13 (13-dic-2024)
 • ArtifexSoftware/mupdf-android-viewer — ★199 (sin cambio) · empujó el 25-sep-2026 (hace 37 días) · AGPL-3.0
 • nilsbraden/ttrss-reader-fork — ★181 (sin cambio) · *dormido*: sin empujar desde el 7-ago-2026 (86 días) · sin licencia detectada por la API · última release v1.98.1_1981 (30-dic-2025)
-• chmouel/liseur — ★170 (+6) · empujó en las últimas horas · MIT · última release v0.26.0 (28-oct-2026)
+• chmouel/liseur — ★171 (+7) · empujó en las últimas horas · MIT · última release v0.26.0 (28-oct-2026)
 • ArtifexSoftware/mupdf-android-viewer-mini — ★139 (sin cambio) · empujó el 25-sep-2026 (hace 37 días) · AGPL-3.0
 • mshdabiola/NotePad — ★131 (sin cambio) · *dormido*: sin empujar desde el 27-oct-2025 (370 días) · GPL-3.0 · última release 1.3.7 (30-ene-2025)
 • KevinCFechtel/FluxNews — ★112 (+1) · empujó el 19-oct-2026 (hace 13 días) · BSD-3-Clause · última release v2.3.2 (5-sep-2026)

@@ -11,7 +11,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 02 | El barrio cambió de gente: el mueble de los cómics, contado con las fe | 18 | 3679 | 27 | 0 | no | `02-El-barrio-cambio-de-gente-el-mueble-de-los-comics-hoy-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 03 | La cerradura que cambió de dueño: firmas, atestación y el aviso del si | 18 | 3562 | 10 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-firmas-atestacion-y-el-aviso-del-sistema-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 04 | ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR, MEDIDA CON | 4 | 3187 | 6 | 0 | no | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
-| 04 | El colmado de las extensiones: quién resurte los catálogos (y quién de | 18 | 3740 | 33 | 0 | no | `04-El-colmado-de-las-extensiones-quien-resurte-los-catalogos-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
+| 04 | El colmado de las extensiones: quién resurte los catálogos (y quién de | 18 | 3939 | 33 | 0 | no | `04-El-colmado-de-las-extensiones-quien-resurte-los-catalogos-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 05 | Clones, contraseñas y sesiones: el día en que el enlace no era el siti | 17 | 3634 | 18 | 1 | no | `05-Clones-contrasenas-y-sesiones-el-dia-que-el-enlace-no-era-el-sitio-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 05 | TMO CAYÓ. LOS CLONES COSECHAN CLAVES. TU LISTA NO SE RESTAURA. TODO CO | 2 | 857 | 0 | 0 | no | `05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 06 | FORKS LECTORES: LA CANCHA ENTERA CON PLACA Y HORA, 22-sep-2026 22 DE S | 4 | 2512 | 5 | 0 | no | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
@@ -60,12 +60,12 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 130 | La TV limpia: Aerial, Plume y las estrellas que corren | 4 | 1810 | 2 | 0 | no | `130-La-TV-limpia-Aerial-Plume-y-las-estrellas-que-corren-Facebook-La-Bandita-2026-10-29` |
 | 131 | La lectura en tres pantallas: Epigraph, Kodex y Bokumi | 4 | 2298 | 3 | 0 | no | `131-La-lectura-en-tres-pantallas-Epigraph-Kodex-y-Bokumi-Facebook-La-Bandita-2026-10-29` |
 | 14 | Android dentro de Android: la familia DSU y el invitado que se borra | 17 | 3612 | 10 | 0 | no | `14-Android-dentro-de-Android-la-familia-DSU-y-el-invitado-que-se-borra-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
-| 15 | [LA BANDITA · INFORMACIÓN PÚBLICA] | 5 | 3614 | 12 | 0 | no | `15-Rama-J2K-abuelo-despierto-Facebook-La-Bandita-2026-09-27-dominicano-ES` |
-| 16 | Rama SY/Komikku: el fork clásico y el rehijo con organización — Tachiy | 5 | 3757 | 19 | 1 | no | `16-Rama-TachiyomiSY-Komikku-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 17 | La capa de inmersión: los lectores que enseñan japonés mientras lees — | 5 | 3708 | 12 | 1 | no | `17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 18 | Libros libres: OpenlibExtended — la biblioteca entera en el bolsillo | 4 | 1450 | 1 | 0 | no | `18-Libros-OpenlibExtended-cliente-Annas-Archive-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 19 | El panorama multi: manga, anime y novelas en la misma mano | 4 | 3105 | 6 | 0 | no | `19-Panorama-multi-anime-manga-novelas-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 20 | La Biblioteca: de un muro de mil fichas a 75 guías de bolsillo | 2 | 830 | 0 | 0 | no | `20-La-Biblioteca-plano-75-publicaciones-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
+| 15 | Rama J2K: los nueve herederos y el apellido que se heredaba | 17 | 3594 | 9 | 0 | no | `15-Rama-J2K-los-nueve-herederos-y-el-apellido-que-se-heredaba-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
+| 16 | Rama SY y Komikku: los dos motores que sí publican (y el servidor que  | 16 | 3683 | 10 | 0 | no | `16-Rama-SY-y-Komikku-los-dos-motores-que-si-publican-y-el-servidor-que-los-alimenta-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
+| 17 | La capa de inmersión: el servidor en la casa y el lector que no pide c | 16 | 3685 | 9 | 0 | no | `17-La-capa-de-inmersion-el-servidor-en-la-casa-y-el-lector-que-no-pide-cuenta-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
+| 18 | Libros: el catálogo de metadatos, los seis servidores nuevos y la raya | 16 | 3680 | 7 | 0 | no | `18-Libros-el-catalogo-de-metadatos-los-seis-servidores-nuevos-y-la-raya-legal-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
+| 19 | Panorama multi: el que quiso leerlo todo y las novelas que llegaron ta | 16 | 3607 | 9 | 0 | no | `19-Panorama-multi-el-que-quiso-leerlo-todo-y-las-novelas-que-llegaron-tarde-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
+| 20 | La Biblioteca: el plano de las veinte puertas y el archivo que quedó m | 16 | 3666 | 12 | 0 | no | `20-La-Biblioteca-el-plano-de-las-veinte-puertas-y-el-archivo-que-quedo-medido-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 21 | Música I: la cosecha del muro — 12 proyectos vivos, fuente por fuente | 5 | 3685 | 12 | 0 | no | `21-Musica-I-cosecha-del-muro-12-vivas-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 22 | Lectura II: la repisa del muro — siete lectores vivos y un legado | 5 | 3720 | 9 | 0 | no | `22-Lectura-II-la-repisa-del-muro-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 23 | La sala del muro: IPTV, servidores de cine y reproductores con músculo | 5 | 3772 | 10 | 0 | no | `23-Sala-del-muro-IPTV-Jellyfin-reproductores-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
@@ -99,9 +99,9 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 51 | La discoteca II: el jugador grande y la mudanza de Finamp | 5 | 3726 | 13 | 0 | no | `51-La-discoteca-II-el-jugador-grande-y-la-mudanza-de-Finamp-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 52 | La discoteca III: el censo completo del baile La Bandita · 15 de septi | 5 | 3759 | 12 | 0 | no | `52-La-discoteca-III-el-censo-completo-del-baile-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 53 | Las otras forjas: GitLab, Codeberg y los sitios de la mina | 2 | 835 | 0 | 0 | no | `53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 54 | Las puertas del sistema y el taller — censo de la mina I | 11 | 3836 | 52 | 0 | no | `54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 55 | Las puertas del lector y las bibliotecas — censo de la mina II | 13 | 3943 | 60 | 0 | no | `55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 56 | Las puertas del anime y los servidores — censo de la mina III | 12 | 3886 | 62 | 3 | no | `56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
+| 54 | Las puertas del sistema y el taller — censo de la mina I | 11 | 3890 | 52 | 0 | no | `54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
+| 55 | Las puertas del lector y las bibliotecas — censo de la mina II | 13 | 3914 | 60 | 0 | no | `55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
+| 56 | Las puertas del anime y los servidores — censo de la mina III | 12 | 3918 | 62 | 3 | no | `56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 57 | La hornada del lector: la mina con nombre | 5 | 3654 | 15 | 0 | no | `57-La-hornada-del-lector-la-mina-con-nombre-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 58 | La hornada del anime: el segundo territorio | 5 | 3687 | 14 | 0 | no | `58-La-hornada-del-anime-el-segundo-territorio-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 59 | La hornada del taller: las herramientas de la mina | 5 | 3775 | 16 | 0 | no | `59-La-hornada-del-taller-herramientas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
@@ -146,6 +146,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 98 | La foto III: el sótano completo | 4 | 1825 | 2 | 0 | no | `98-La-foto-III-el-sotano-completo-Facebook-La-Bandita-2026-10-29` |
 | 99 | La foto IV: los jóvenes del censo | 4 | 1302 | 1 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29` |
 
-**139 piezas · 791 mensajes** · el mayor de todos: 3943 caracteres.
+**139 piezas · 863 mensajes** · el mayor de todos: 3939 caracteres.
 
 

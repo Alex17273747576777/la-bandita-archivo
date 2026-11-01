@@ -67,15 +67,15 @@ REV|944.8★ — etimorc/ozau=1|REV|0.3-LPG=2|REV|92-01-6202 — etimorc/ozau=3
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 813 caracteres ═══
+═══ MENSAJE 3 de 4 · 805 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 41*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• uazo/cromite — ★8.455 (+6) · empujó en las últimas horas · GPL-3.0 · última release v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a (15-sep-2026)
+• uazo/cromite — ★8.457 (+8) · empujó en las últimas horas · GPL-3.0 · última release v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a (15-sep-2026)
 • bromite/bromite — ★6.319 (-2) · *dormido*: sin empujar desde el 24-ene-2024 (1012 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
-• ironfox-oss/IronFox — ★1.087 (sin cambio) · empujó en las últimas horas · AGPL-3.0
+• ironfox-oss/IronFox — ★1.088 (+1) · empujó en las últimas horas · AGPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

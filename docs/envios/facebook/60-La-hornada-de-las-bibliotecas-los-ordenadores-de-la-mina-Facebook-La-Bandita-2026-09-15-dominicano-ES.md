@@ -94,7 +94,7 @@ Hay release de esta semana: **materializr-cad/materializr** publicó v1.7.5 (202
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2174 caracteres ═══
+═══ MENSAJE 4 de 5 · 2148 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 60*
 
@@ -102,11 +102,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pi
 
 • photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • pynicolas/FairScan — ★1.002 (+5) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.3.0 (20-sep-2026)
-• leonlatsch/Photok — ★998 (+4) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release 3.7.0 (19-oct-2026)
-• Radiokot/photoprism-android-client — ★620 (-1) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release 1.47.1(73) (26-sep-2026)
+• leonlatsch/Photok — ★998 (+4) · empujó en las últimas horas · Apache-2.0 · última release 3.7.0 (19-oct-2026)
+• Radiokot/photoprism-android-client — ★621 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release 1.47.1(73) (26-sep-2026)
 • Justwen/NGA-CLIENT-VER-OPEN-SOURCE — ★601 (sin cambio) · empujó el 24-oct-2026 (hace 8 días) · GPL-2.0 · última release 5.0.2 (30-ago-2026)
-• materializr-cad/materializr — ★305 (+103) · empujó en las últimas horas · GPL-3.0 · última release v1.7.7 (1-nov-2026)
-• magic-cucumber/Pixiv-MultiPlatform — ★196 (sin cambio) · *dormido*: sin empujar desde el 16-sep-2026 (46 días) · GPL-3.0 · última release v1.8.7 (24-jul-2026)
+• materializr-cad/materializr — ★306 (+104) · empujó en las últimas horas · GPL-3.0 · última release v1.7.7 (1-nov-2026)
+• magic-cucumber/Pixiv-MultiPlatform — ★196 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v1.8.7 (24-jul-2026)
 • VincentEngel/VES-Image-Compare — ★144 (sin cambio) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · GPL-3.0 · última release fdroid-v2.3.6 (26-may-2026)
 • pastthepixels/FreePaint — ★120 (+1) · *dormido*: sin empujar desde el 29-jul-2026 (95 días) · GPL-3.0 · última release v1.2.0 (10-may-2024)
 • UmerCodez/WebsocketCAM — ★74 (sin cambio) · *dormido*: sin empujar desde el 14-jun-2026 (140 días) · GPL-3.0 · última release v1.4.0 (14-jun-2026)

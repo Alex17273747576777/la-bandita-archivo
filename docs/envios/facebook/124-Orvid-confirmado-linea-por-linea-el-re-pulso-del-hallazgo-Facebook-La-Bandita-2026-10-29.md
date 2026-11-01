@@ -53,13 +53,13 @@ La noticia fresca es de **mankidev/orvid**: release v0.4.22 (2026-10-29). El emp
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 624 caracteres ═══
+═══ MENSAJE 3 de 4 · 656 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 124*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• TeamNewPipe/NewPipe — ★40.389 (sin cambio) · empujó en las últimas horas · GPL-3.0
+• TeamNewPipe/NewPipe — ★40.394 (+40) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
 • mankidev/orvid — ★10 (+1) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v0.4.22 (29-oct-2026)
 • mankidev/orvid-sources — ★1 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0
 

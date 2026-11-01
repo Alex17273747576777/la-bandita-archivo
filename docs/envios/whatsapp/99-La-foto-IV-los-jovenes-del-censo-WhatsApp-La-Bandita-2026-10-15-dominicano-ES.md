@@ -75,23 +75,22 @@ REV|)92-01-6202( 50c6fbd — snoisnetxe/ihsuoyiek=1|REV|92-01-6202 — amallo/am
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 989 caracteres ═══
+═══ MENSAJE 3 de 4 · 981 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 99*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.541 (+302) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• modelcontextprotocol/servers — ★91.732 (+51) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
-• pi-hole/pi-hole — ★61.620 (+61) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
-• keiyoushi/extensions — ★15.408 (sin cambio) · empujó en las últimas horas · sin licencia
-• modelcontextprotocol/modelcontextprotocol — ★9.580 (+18) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
+• ollama/ollama — ★185.573 (+334) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• modelcontextprotocol/servers — ★91.734 (+53) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
+• pi-hole/pi-hole — ★61.622 (+63) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
+• keiyoushi/extensions — ★15.410 (+41) · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
+• modelcontextprotocol/modelcontextprotocol — ★9.583 (+21) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *8 responden*.
-
-• https://pi-hole.net — 500. Error del servidor; no es culpa del enlace.
+De los 9 enlaces de esta pieza, *9 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

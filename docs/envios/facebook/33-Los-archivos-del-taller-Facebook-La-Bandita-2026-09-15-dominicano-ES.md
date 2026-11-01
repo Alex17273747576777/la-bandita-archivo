@@ -84,15 +84,15 @@ Pulso de hoy sobre los 11 repos de la pieza: 11 vivos, 5 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1810 caracteres ═══
+═══ MENSAJE 4 de 5 · 1833 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 33*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• zhanghai/MaterialFiles — ★9.370 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0
-• OpenMinis/OpenMinis — ★5.677 (+79) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 1.15 (25-oct-2026)
-• GlassHaven/Haven — ★1.400 (+13) · empujó en las últimas horas · AGPL-3.0 · última release v5.93.0 (1-nov-2026)
+• zhanghai/MaterialFiles — ★9.373 (+28) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
+• OpenMinis/OpenMinis — ★5.679 (+81) · empujó en las últimas horas · GPL-3.0 · última release 1.15 (25-oct-2026)
+• GlassHaven/Haven — ★1.401 (+14) · empujó en las últimas horas · AGPL-3.0 · última release v5.93.0 (1-nov-2026)
 • nullbytepl/CarrierVanityName — ★698 (+1) · *dormido*: sin empujar desde el 10-feb-2024 (995 días) · sin licencia detectada por la API · última release 1.1 (25-ene-2024)
 • mrYouki/YoukiDex-Android-Desktop — ★606 (sin cambio) · *dormido*: sin empujar desde el 15-sep-2026 (47 días) · GPL-3.0 · última release 3.5 (15-sep-2026) · *ARCHIVADO*
 • rednaga/axmlprinter — ★262 (sin cambio) · *dormido*: sin empujar desde el 25-mar-2026 (221 días) · Apache-2.0 · última release v2.0.1 (25-mar-2026)

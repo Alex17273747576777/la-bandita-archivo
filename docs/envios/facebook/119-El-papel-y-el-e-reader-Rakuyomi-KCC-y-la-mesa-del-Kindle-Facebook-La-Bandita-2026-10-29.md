@@ -60,7 +60,7 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 2 activos este mes. Manda *
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ciromattia/kcc — ★5.947 (+19) · empujó en las últimas horas · ISC · última release v12.1.4 (30-oct-2026)
+• ciromattia/kcc — ★5.951 (+23) · empujó en las últimas horas · ISC · última release v12.1.4 (30-oct-2026)
 • tachibana-shin/rakuyomi — ★656 (+5) · empujó el 24-oct-2026 (hace 8 días) · AGPL-3.0 · última release v1.44.3 (24-oct-2026)
 • Utazukin/Ichaival — ★220 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (67 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
 

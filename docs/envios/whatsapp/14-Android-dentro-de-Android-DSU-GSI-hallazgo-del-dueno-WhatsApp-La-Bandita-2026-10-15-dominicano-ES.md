@@ -7,15 +7,15 @@
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 - **Aviso:** la pieza original deja una valla de código sin cerrar; este envío la cierra al final del cuerpo para que se pueda leer. La pieza no se modificó.
 
-═══ MENSAJE 1 de 20 · 857 caracteres ═══
+═══ MENSAJE 1 de 20 · 874 caracteres ═══
 
 *ANDROID DENTRO DE ANDROID*
 
 La Bandita · pieza 14 · guía del 15-oct-2026 · te la mando hoy en 20 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *4 repositorios, 2 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *4 repositorios, 4 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: Apache-2.0 2.
+Licencias de lo que recomienda: Apache-2.0 3 · sin licencia 1.
 
 ⚠️ *Aviso de fecha:* este texto se escribió el 15-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
@@ -989,16 +989,16 @@ REV|31-30-4202 — redaolediS-USD/oboBageV=1|REV|655.3★ — snoitatnemirepxe_e
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 715 caracteres ═══
+═══ MENSAJE 19 de 20 · 967 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 14*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• phhusson/treble_experimentations — sin dato hoy (la API no respondió). No afirmo nada.
-• VegaBobo/DSU-Sideloader — ★2.353 (sin cambio) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0
-• ponces/treble_aosp — sin dato hoy (la API no respondió). No afirmo nada.
-• R15Hi/Dsu-Multi-sideloader — ★3 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · Apache-2.0
+• phhusson/treble_experimentations — ★3.552 (-4) · *dormido*: sin empujar desde el 27-ene-2025 (643 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*
+• VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
+• ponces/treble_aosp — ★312 (+1) · *dormido*: sin empujar desde el 25-jul-2025 (464 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
+• R15Hi/Dsu-Multi-sideloader — ★3 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · Apache-2.0 · última release v2.20 (15-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
