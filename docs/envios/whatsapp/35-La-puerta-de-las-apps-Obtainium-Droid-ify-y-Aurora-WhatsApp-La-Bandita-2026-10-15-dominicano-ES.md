@@ -600,9 +600,9 @@ REV|0.3-LPG=1|REV|937.03★ — redaerok/redaerok=2|REV|92-01-6202 — redaerok/
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • koreader/koreader — ★30.777 (+38) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• ImranR98/Obtainium — ★21.096 (+71) · empujó en las últimas horas · GPL-3.0 · última release v1.7.3 (25-oct-2026)
+• ImranR98/Obtainium — ★21.097 (+72) · empujó en las últimas horas · GPL-3.0 · última release v1.7.3 (25-oct-2026)
 • Droid-ify/client — ★7.678 (+15) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• whyorean/AuroraStore — ★3.211 (+13) · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0
+• whyorean/AuroraStore — ★3.212 (+14) · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

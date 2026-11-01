@@ -122,7 +122,7 @@ No es nuevo de este año, pero sí nuevo en la lista: es el fork más activo de 
 *Para quién:* para el que ya sabe usar Mihon y quiere más control.
 
 *6 · OtakuWorld — tres apps en vez de una*
-`jakepurple13/OtakuWorld` · *★637 · Apache-2.0 · creado el 30 de marzo de 2021 · release v32.1.2 del 29 de junio · empujó hoy.*
+`jakepurple13/OtakuWorld` · *★637 · Apache-2.0 · creado el 30 de marzo de 2021 · release v32.1.2 del 29 de junio · empujó ayer.*
 Anime, manga y novelas en tres aplicaciones separadas, del mismo autor. La decisión de separar es discutible y por eso me gusta: cada app hace una cosa.
 *El precio:* tres apps instaladas, tres respaldos, tres formas de recordar dónde ibas.
 *Para quién:* para el que consume los tres formatos y no le molesta tener tres iconos.
@@ -142,7 +142,7 @@ La otra biblioteca grande, con licencia MIT y un ecosistema de clientes que crec
 *`BookHeaven/BookHeaven.Server` — ★197 · GPL-3.0 · creado el 23 de septiembre de 2024 · release v1.0.4 del 30 de octubre.*
 Servidor web para tu biblioteca de libros electrónicos, compatible con los lectores que hablan OPDS, el formato estándar de catálogo. Es el más joven de los cuatro y el que menos gente conoce. *Para quién:* para el que tiene libros además de cómics y no quiere dos servidores.
 
-*`zmz125000/LocalViewer` — ★197 · GPL-3.0 · creado el 18 de julio de 2026 · release 1.13.22 del 31 de octubre.*
+*`zmz125000/LocalViewer` — ★198 · GPL-3.0 · creado el 18 de julio de 2026 · release 1.13.22 del 31 de octubre.*
 No es un servidor: es la app que lee por SMB y WebDAV directo de la carpeta compartida de tu computadora. *Su fuerza:* cero instalación del lado del servidor; si ya compartes una carpeta, ya está. *Su debilidad:* depende de que esa computadora esté encendida y en la misma red.
 
 *Y el cliente que faltaba:* `chmouel/liseur` — *★169 · MIT · creado el 28 de julio de 2026 · release v0.26.0 del 28 de octubre*: lector de EPUB con biblioteca remota para Android. Tres meses y veintiséis versiones menores: publica más que muchos veteranos y conviene decirlo.
@@ -224,7 +224,7 @@ Esto es para el que ya tiene una biblioteca y quiere cambiar de app, de teléfon
 
 *6 · Creer que «sin release» significa «muerto».* `JonaNorman/WebViewUpgrade` no publica versiones y su código se movió el 7 de septiembre. Vivo y sin archivo.
 
-*7 · Creer que «empujó hoy» significa «version nueva».* `accrescent/accrescent` empujó hoy y su última release es del 10 de noviembre de 2025.
+*7 · Creer que «empujó hoy» significa «versión nueva».* `accrescent/accrescent` empujó ayer y su última release es del 10 de noviembre de 2025.
 
 *8 · Confiar en una lista sin fecha.* Es el error que te trajo hasta aquí. La lista que no dice cuándo se midió es una lista que no se ha medido nunca.
 
@@ -234,10 +234,7 @@ Esto merece su propia sección porque es lo que llena de cadáveres las listas q
 
 Encontré, midiendo hoy, cuatro repositorios que se parecen demasiado:
 
-• `sri-sivaram/Neko-Manga-Pearl` — ★116
-• `ubedshah/manga-vault-nexus` — ★115
-• `meyamane37923-hash/komikku-scans` — ★114
-• `khaledmahmud5286-cmd/manga-zen-reader` — ★113
+Se llaman `sri-sivaram/Neko-Manga-Pearl` (★116), `ubedshah/manga-vault-nexus` (★115), `meyamane37923-hash/komikku-scans` (★114) y `khaledmahmud5286-cmd/manga-zen-reader` (★113). Detrás de esos nombres pomposos no hay una línea de código de aplicación.
 
 *Los datos que comparten, uno por uno:* los cuatro se crearon el **28 de junio de 2026**; los cuatro son HTML —una página, no una aplicación—; los cuatro **no declaran licencia**; los cuatro empujaron en las últimas cuarenta y ocho horas; y los cuatro se anuncian como «la mejor alternativa 2026» de un lector que ya existe, con el nombre de ese lector pegado en el título para que la búsqueda los encuentre.
 
@@ -442,12 +439,12 @@ Esto no es una lista de recomendaciones: es un acta. Cada línea se consultó ho
 
 *Los motores de la familia:*
 
-• `mihonapp/mihon` — ★24.913 · Apache-2.0 · nació el 15-ene-2024 · último empuje 26-oct-2026 · release v0.21.3 del 25-oct-2026
+• `mihonapp/mihon` — ★24.916 · Apache-2.0 · nació el 15-ene-2024 · último empuje 26-oct-2026 · release v0.21.3 del 25-oct-2026
 • `null2264/yokai` — ★1.914 · Apache-2.0 · nació el 6-ene-2024 · último empuje 13-oct-2026 · release v1.10.2 del 23-sep-2026
 • `komikku-app/komikku` — ★4.963 · Apache-2.0 · nació el 14-ene-2024 · último empuje 21-oct-2026 · release v1.14.1 del 17-jul-2026
 • `nekomangaorg/Neko` — ★2.818 · Apache-2.0 · nació el 22-abr-2019 · último empuje 1-nov-2026 · release 3.8.5 del 30-oct-2026
-• `Kototoro-app/Kototoro` — ★656 · Apache-2.0 · nació el 28-oct-2025 · último empuje 31-oct-2026 · release v2.3.4 del 29-oct-2026
-• `aniyomiorg/aniyomi` — ★7.863 · Apache-2.0 · nació el 17-abr-2021 · último empuje 14-sep-2026 · release v0.18.2.1 del 14-sep-2026
+• `Kototoro-app/Kototoro` — ★657 · Apache-2.0 · nació el 28-oct-2025 · último empuje 31-oct-2026 · release v2.3.4 del 29-oct-2026
+• `aniyomiorg/aniyomi` — ★7.865 · Apache-2.0 · nació el 17-abr-2021 · último empuje 14-sep-2026 · release v0.18.2.1 del 14-sep-2026
 • `kodjodevf/mangayomi` — ★4.286 · Apache-2.0 · nació el 3-abr-2023 · último empuje 31-oct-2026 · release v0.9.9 del 12-oct-2026
 • `jakepurple13/OtakuWorld` — ★637 · Apache-2.0 · nació el 30-mar-2021 · último empuje 31-oct-2026 · release v32.1.2 del 29-jun-2026
 
@@ -463,7 +460,7 @@ Esto no es una lista de recomendaciones: es un acta. Cada línea se consultó ho
 • `Nyora-Manga/nyora-android` — ★58 · GPL-3.0 · nació el 12-jun-2026 · último empuje 23-sep-2026 · release v2.7.3 del 31-jul-2026
 • `Utolaris/Kujira-Manga` — ★17 · GPL-3.0 · nació el 19-ago-2026 · último empuje 25-oct-2026 · release v1.5.3 del 25-oct-2026
 • `Wammy-app/Wammy` — ★13 · Apache-2.0 · nació el 27-ago-2026 · último empuje 25-oct-2026 · release v0.1.4 del 25-oct-2026
-• `zmz125000/LocalViewer` — ★197 · GPL-3.0 · nació el 18-jul-2026 · último empuje 1-nov-2026 · release 1.13.22 del 31-oct-2026
+• `zmz125000/LocalViewer` — ★198 · GPL-3.0 · nació el 18-jul-2026 · último empuje 1-nov-2026 · release 1.13.22 del 31-oct-2026
 • `chmouel/liseur` — ★169 · MIT · nació el 28-jul-2026 · último empuje 1-nov-2026 · release v0.26.0 del 28-oct-2026
 
 *Servidores, bibliotecas y clientes:*
@@ -566,11 +563,11 @@ https://github.com/KotatsuApp/Kotatsu
 
 *CIERRE — el mueble que se puede mudar*
 
-Todo lo que hay en esta pieza se resume en una idea que vale para mucho más que los cómics: *lo que se puede respaldar, se puede mudar; lo que se puede mudar, no depende de que un proyecto siga vivo.*
+Lo que estas cuarenta y nueve fichas enseñan, dicho en plata: *un proyecto puede morir un martes y tu biblioteca puede seguir abierta el miércoles, si el archivo no vivía dentro del proyecto.*
 
 Tachiyomi murió y su ecosistema floreció porque el código estaba en miles de manos. Kotatsu se archivó y sus usuarios están migrando porque alguien pensó en el respaldo. Los servidores existen porque alguien se cansó de perder la biblioteca cada vez que cambiaba de teléfono. Y este año llegaron dieciséis proyectos nuevos, de gente que ni siquiera estaba cuando el tronco cayó.
 
-La app que uses mañana puede no ser la de hoy. Tu archivo sí puede ser el mismo, si lo cuidas. Ese es el cajón que importa, y es el único que no cuesta nada: ni cuenta, ni nube, ni suscripción.
+La pieza que leas mañana puede llevar otro nombre. Tu carpeta de respaldos no cambia de nombre si tú no se lo cambias, y ese detalle —tan aburrido— es la única garantía que tienes.
 
 ───────────────────
 

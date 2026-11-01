@@ -90,17 +90,17 @@ Hay release de esta semana: **ImranR98/Obtainium** publicó v1.7.3 (2026-10-25).
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1747 caracteres ═══
+═══ MENSAJE 4 de 5 · 1866 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★96.844 (+387) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• termux/termux-app — ★63.845 (+167) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• localsend/localsend — ★96.846 (+389) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• termux/termux-app — ★63.850 (+172) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • RikkaApps/Shizuku — ★32.554 (+169) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• ImranR98/Obtainium — ★21.096 (+77) · empujó en las últimas horas · GPL-3.0 · última release v1.7.3 (25-oct-2026)
-• organicmaps/organicmaps — ★15.838 (+23) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
+• ImranR98/Obtainium — ★21.097 (+78) · empujó en las últimas horas · GPL-3.0 · última release v1.7.3 (25-oct-2026)
+• organicmaps/organicmaps — ★15.839 (+24) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
 • beemdevelopment/Aegis — ★13.435 (+21) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • MuntashirAkon/AppManager — ★9.393 (+23) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
 • Kunzisoft/KeePassDX — ★7.579 (+15) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
@@ -109,8 +109,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *18 responden*.
+De los 19 enlaces de esta pieza, *17 responden*.
 
+• https://github.com/termux/termux-app — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://teamamaze.xyz — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
 
 ⏬ sigue abajo · parte 3 de 4

@@ -640,7 +640,7 @@ REV|548.1★ — reganaM-eliF/grOyfissoF=1|REV|0.3-LPG=2|REV|11-60-4202 — rega
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• FossifyOrg/File-Manager — ★1.846 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (24-oct-2026)
+• FossifyOrg/File-Manager — ★1.847 (+2) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (24-oct-2026)
 • SimpleMobileTools/Simple-File-Manager — ★1.583 (-1) · *dormido*: sin empujar desde el 11-jun-2024 (873 días) · GPL-3.0 · última release 6.16.1 (19-sep-2023)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

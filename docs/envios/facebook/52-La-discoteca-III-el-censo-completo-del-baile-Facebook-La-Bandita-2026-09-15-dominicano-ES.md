@@ -92,16 +92,16 @@ La noticia fresca es de **PaulWoitaschek/Voice**: release 26.10.8-5410008 (2026-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2058 caracteres ═══
+═══ MENSAJE 4 de 5 · 2184 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 52*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• yt-dlp/yt-dlp — ★204.263 (+577) · empujó el 29-oct-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
-• Predidit/Kazumi — ★40.436 (+332) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
-• JunkFood02/Seal — ★30.232 (+73) · empujó el 25-sep-2026 (hace 37 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
-• libre-tube/LibreTube — ★12.926 (+13) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
+• yt-dlp/yt-dlp — ★204.271 (+585) · empujó el 29-oct-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• Predidit/Kazumi — ★40.438 (+334) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
+• JunkFood02/Seal — ★30.233 (+74) · empujó el 25-sep-2026 (hace 37 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
+• libre-tube/LibreTube — ★12.927 (+14) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
 • deniscerri/ytdlnis — ★10.892 (+48) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.379 (+5) · empujó el 4-oct-2026 (hace 28 días) · GPL-3.0 · última release v7.0.3 (13-ago-2026)
 • gokadzev/Musify — ★4.389 (+8) · empujó en las últimas horas · GPL-3.0 · última release 10.6.0 (23-oct-2026)
@@ -113,8 +113,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 20 enlaces de esta pieza, *18 responden*.
+De los 20 enlaces de esta pieza, *17 responden*.
 
+• https://github.com/recloudstream/extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/werdeil/lyrion-dashboard — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/yt-dlp/yt-dlp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 

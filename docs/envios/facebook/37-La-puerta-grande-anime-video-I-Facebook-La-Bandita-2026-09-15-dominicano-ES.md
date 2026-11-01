@@ -92,18 +92,18 @@ La noticia amarga: **rebelonion/Dantotsu** (bloqueado legal (451): existe) ya no
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2177 caracteres ═══
+═══ MENSAJE 4 de 5 · 2333 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 37*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• recloudstream/cloudstream — ★11.112 (+17) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• recloudstream/cloudstream — ★11.113 (+18) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • miru-project/miru-app — ★5.790 (+6) · *dormido*: sin empujar desde el 5-dic-2025 (331 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
 • 5rahim/seanime — ★4.291 (+6) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
-• NuvioMedia/NuvioMobile — ★4.337 (+53) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (31-oct-2026)
+• NuvioMedia/NuvioMobile — ★4.338 (+54) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (31-oct-2026)
 • kodjodevf/mangayomi — ★4.286 (+14) · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
-• Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• Kototoro-app/Kototoro — ★657 (+4) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • RockinChaos/Shiru — ★652 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v6.9.1 (13-oct-2026)
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
 • DodoraApp/DodoStream — ★247 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · GPL-3.0 · última release v0.12.3 (13-sep-2026)
@@ -114,10 +114,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *16 responden*.
+De los 18 enlaces de esta pieza, *15 responden*.
 
 • https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/rebelonion/Dantotsu — 451. Error del servidor; no es culpa del enlace.
+• https://github.com/rebelonion/Dantotsu — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/recloudstream/cloudstream — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

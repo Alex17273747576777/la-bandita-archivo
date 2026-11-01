@@ -61,7 +61,7 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 934 caracteres ═══
+═══ MENSAJE 3 de 4 · 1177 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 118*
 
@@ -69,14 +69,16 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pie
 
 • keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
 • OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• researchxxl/syncthing-android — ★3.215 (+23) · empujó el 22-oct-2026 (hace 10 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.216 (+24) · empujó el 22-oct-2026 (hace 10 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
 • AppFuton/Futon — ★469 (+2) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 7 enlaces de esta pieza, *7 responden*.
-Ninguno roto.
+De los 7 enlaces de esta pieza, *5 responden*.
+
+• https://github.com/researchxxl/syncthing-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yuzono/anime-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

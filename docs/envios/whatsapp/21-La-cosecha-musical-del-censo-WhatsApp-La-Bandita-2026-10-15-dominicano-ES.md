@@ -781,11 +781,11 @@ REV|82-40-3202 — rebmiT/41naman=1|REV|92-01-6202 — ecruoSreyalPtlaS/ylfairoM
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • team-spotube/spotube — ★50.523 (+57) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• maxrave-dev/SimpMusic — ★12.607 (+73) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
+• maxrave-dev/SimpMusic — ★12.609 (+75) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
 • rukamori/ArchiveTune — ★7.836 (+61) · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
 • Moriafly/SaltPlayerSource — ★7.582 (+7) · empujó el 29-oct-2026 (hace 3 días) · MIT · última release 12.5.2 (29-oct-2026)
 • naman14/Timber — ★7.033 (sin cambio) · *dormido*: sin empujar desde el 28-abr-2023 (1283 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
-• PixelPlayerHQ/PixelPlayer — ★6.856 (+19) · empujó el 21-sep-2026 (hace 41 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
+• PixelPlayerHQ/PixelPlayer — ★6.857 (+20) · empujó el 21-sep-2026 (hace 41 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
 • namidaco/namida — ★6.756 (+18) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • z-huang/InnerTune — ★6.130 (+1) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)

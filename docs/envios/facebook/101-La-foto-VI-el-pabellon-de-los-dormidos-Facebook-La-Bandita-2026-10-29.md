@@ -55,21 +55,22 @@ Pulso tranquilo: lo último que se movió fue **sang765/Usagi**, hace 15 días. 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 878 caracteres ═══
+═══ MENSAJE 3 de 4 · 981 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 101*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• aniyomiorg/aniyomi — ★7.863 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• aniyomiorg/aniyomi — ★7.865 (+10) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 • Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
 • Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
 • sang765/Usagi — ★0 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 6 enlaces de esta pieza, *6 responden*.
-Ninguno roto.
+De los 6 enlaces de esta pieza, *5 responden*.
+
+• https://github.com/sang765/Usagi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

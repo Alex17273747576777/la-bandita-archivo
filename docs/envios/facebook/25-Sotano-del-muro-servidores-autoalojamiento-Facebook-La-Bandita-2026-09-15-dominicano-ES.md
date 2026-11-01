@@ -73,7 +73,7 @@ La noticia fresca es de **winters27/octo**: release 2026.10.28 (2026-10-29). El 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1307 caracteres ═══
+═══ MENSAJE 4 de 5 · 1427 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 25*
 
@@ -89,8 +89,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 12 enlaces de esta pieza, *11 responden*.
+De los 12 enlaces de esta pieza, *10 responden*.
 
+• https://github.com/plainhub/plain-app — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/winters27/octo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4

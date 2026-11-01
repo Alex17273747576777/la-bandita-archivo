@@ -58,7 +58,7 @@ La noticia amarga: **Gaijin81/anizen** (caído (404)) ya no respondieron. Del re
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1043 caracteres ═══
+═══ MENSAJE 3 de 4 · 1291 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 11*
 
@@ -72,9 +72,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 6 enlaces de esta pieza, *5 responden*.
+De los 6 enlaces de esta pieza, *3 responden*.
 
 • https://github.com/Gaijin81/anizen — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/salmanbappi/AniZen — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/salmanbappi/anizen-preview — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

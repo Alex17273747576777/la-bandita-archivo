@@ -93,20 +93,20 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2121 caracteres ═══
+═══ MENSAJE 4 de 5 · 2359 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 112*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• rustdesk/rustdesk — ★127.741 (+246) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.0 (30-sep-2026)
-• localsend/localsend — ★96.844 (+387) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• termux/termux-app — ★63.845 (+167) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• rustdesk/rustdesk — ★127.742 (+247) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.0 (30-sep-2026)
+• localsend/localsend — ★96.846 (+389) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• termux/termux-app — ★63.850 (+172) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • RikkaApps/Shizuku — ★32.554 (+169) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• mihonapp/mihon — ★24.913 (+74) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• komi-store/komi-store — ★20.179 (+89) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• mihonapp/mihon — ★24.916 (+77) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• komi-store/komi-store — ★20.180 (+90) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
-• hrydgard/ppsspp — ★14.799 (+17) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
+• hrydgard/ppsspp — ★14.797 (+15) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
 • guardianproject/orbot-android — ★3.664 (+3) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
 • itsmechinmoy/dantotsu-updater — ★154 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
 • itsmechinmoy/Dantotsu — ★92 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
@@ -114,9 +114,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 22 enlaces de esta pieza, *21 responden*.
+De los 22 enlaces de esta pieza, *19 responden*.
 
 • https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/rustdesk/rustdesk — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/termux/termux-app — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

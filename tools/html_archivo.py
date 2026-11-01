@@ -4,14 +4,16 @@
 import json, pathlib, re, html
 
 RAIZ = pathlib.Path(__file__).resolve().parents[1] / 'Arena-Reimagined' / '01-PUBLICACIONES'
-SALIDA = RAIZ / 'LAS-262-PUBLICACIONES-2026-11-01.html'
-CANALES = [("whatsapp", "WhatsApp", "WhatsApp-dominicano-ES"), ("facebook", "Facebook", "Facebook-dominicano-ES")]
+SALIDA = RAIZ / 'LAS-263-PUBLICACIONES-2026-11-01.html'
+CANALES = [("whatsapp", "WhatsApp", "WhatsApp-dominicano-ES"), ("facebook", "Facebook", "Facebook-dominicano-ES"),
+            ("comunidad", "Comunidad", "POSTS-COMUNIDAD")]
 HOY = {"whatsapp": {"01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md",
                    "02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md"},
        "facebook": {"01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES.md",
-                   "02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES.md"}}
+                   "02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES.md"},
+       "comunidad": {"post-2026-11-01-mama-hueso-WhatsApp-La-Bandita-dominicano-ES.md"}}
 
-def num(nombre):
+def num(nombre):  # noqa: D401
     m = re.match(r"^(\d+)", nombre)
     return m.group(1) if m else "00"
 
@@ -43,7 +45,7 @@ for canal, etiqueta, carpeta in CANALES:
             "caracteres": len(texto), "texto": texto, "clave": canal + "/" + f.name,
             "nuevo": f.name in HOY[canal],
         })
-piezas.sort(key=lambda p: (p["canal"], int(p["numero"]), p["titulo"]))
+piezas.sort(key=lambda p: (p["canal"], int(p["numero"]) if p["numero"].isdigit() else 99, p["titulo"]))
 n_wa = sum(1 for p in piezas if p["canal"]=="whatsapp")
 n_fb = sum(1 for p in piezas if p["canal"]=="facebook")
 total_car = sum(p["caracteres"] for p in piezas)
@@ -76,7 +78,7 @@ HTML = f"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>La Bandita · las 262 publicaciones · 1 de noviembre de 2026</title>
+<title>La Bandita · las 263 publicaciones · 1 de noviembre de 2026</title>
 <style>
   :root {{
     --tinta:#12100e; --papel:#faf6ee; --papel2:#f2ebdd; --linea:#d8ccb4;
@@ -142,11 +144,11 @@ HTML = f"""<!DOCTYPE html>
     <div class="cifra"><b>{n_fb}</b>de Facebook</div>
     <div class="cifra"><b>{len(piezas)}</b>publicaciones</div>
     <div class="cifra"><b>{total_car//1000}.{total_car%1000:03d}</b>caracteres en total</div>
-    <div class="cifra"><b>4</b>reescritas hoy desde cero</div>
+    <div class="cifra"><b>5</b>hechas hoy desde cero</div>
     <div class="cifra"><b>10.019</b>archivos sellados</div>
   </div>
 </header>
-<div class="aviso">Hecho hoy, con medición del día: <b>4 piezas reescritas enteras</b> (01 y 02 de los dos canales) con <b>repositorios nuevos de los últimos nueve meses</b> — RepoStore, ShizuStore, AppManagerNG, universal-installer, InstallerX-Revived, Yokai, Usagi, Chimahon, Ciallo Reader, Yomihon, manga-tui, LocalViewer y más — y con los <b>cebos de junio de 2026</b> señalados con nombre y fecha. Lo que no se midió está dicho como no medido.</div>
+<div class="aviso">Hecho hoy, con medición del día: <b>cuatro piezas reescritas enteras y un post de comunidad</b> (01 y 02 de los dos canales) con <b>repositorios nuevos de los últimos nueve meses</b> — RepoStore, ShizuStore, AppManagerNG, universal-installer, InstallerX-Revived, Yokai, Usagi, Chimahon, Ciallo Reader, Yomihon, manga-tui, LocalViewer y más — y con los <b>cebos de junio de 2026</b> señalados con nombre y fecha. Lo que no se midió está dicho como no medido.</div>
 <div class="barra">
   <input type="search" id="q" placeholder="Buscar por número, título o canal…" autocomplete="off">
   <button class="filtro activo" data-f="todas">Todas</button>
@@ -162,15 +164,16 @@ HTML = f"""<!DOCTYPE html>
   <div id="panel">
     <div class="portada" id="portada">
       <h2>Cómo se lee este archivo</h2>
-      <p>Están las <b>{len(piezas)} publicaciones</b> de los dos canales, íntegras, tal como se escribieron, cada una con su número, su canal y su longitud real en caracteres. El buscador filtra por número o por título; los botones filtran por canal; «Reescritas hoy» deja solo las cuatro que se hicieron de nuevo el 1 de noviembre de 2026.</p>
+      <p>Están las <b>{len(piezas)} publicaciones</b> de los dos canales, íntegras, tal como se escribieron, cada una con su número, su canal y su longitud real en caracteres. El buscador filtra por número o por título; los botones filtran por canal; «Hechas hoy» deja solo las cinco que se hicieron el 1 de noviembre de 2026.</p>
       <p class="nota">Las 258 restantes se conservan tal cual, con la fecha que llevan dentro. No se han retocado para que parezcan frescas: si una pieza es del 15 de septiembre, lo dice. Mezclar datos de días anteriores con los de hoy sería exactamente el problema que este archivo denuncia.</p>
-      <h2 style="margin-top:22px">Las cuatro reescritas hoy</h2>
+      <h2 style="margin-top:22px">Lo que se hizo hoy</h2>
       <table class="tabla">
         <tr><th>Pieza</th><th>Caracteres</th><th>Repos medidos</th><th>Qué trae de nuevo</th></tr>
-        <tr><td><b>01 WhatsApp</b></td><td>63.093</td><td>31</td><td>Trece puertas nacidas en 2025-2026, el cementerio de los cebos del 28-jun-2026 y «cómo se lee una lista de hace cuatro meses»</td></tr>
-        <tr><td><b>01 Facebook</b></td><td>42.740</td><td>22</td><td>Escena del que copió una lista vieja, doce casas (seis nuevas) y dieciséis apps donde la fecha de la release no es la del proyecto</td></tr>
-        <tr><td><b>02 WhatsApp</b></td><td>63.094</td><td>56</td><td>Censo de dieciocho proyectos que no existían hace nueve meses, servidores que no son Suwayomi y los cebos con su fecha</td></tr>
-        <tr><td><b>02 Facebook</b></td><td>42.249</td><td>56</td><td>Pieza nueva entera: seis escenas de mudanza, tutorial de doce pasos, archivo, sincronización y ficha de 49 repos con fecha de nacimiento</td></tr>
+        <tr><td><b>01 WhatsApp</b></td><td>63.075</td><td>31</td><td>Trece puertas nacidas en 2025-2026, el cementerio de los cebos del 28-jun-2026 y «cómo se lee una lista de hace cuatro meses»</td></tr>
+        <tr><td><b>01 Facebook</b></td><td>42.746</td><td>22</td><td>Escena del que copió una lista vieja, doce casas (seis nuevas) y dieciséis apps donde la fecha de la release no es la del proyecto</td></tr>
+        <tr><td><b>02 WhatsApp</b></td><td>63.079</td><td>56</td><td>Censo de dieciocho proyectos que no existían hace nueve meses, servidores que no son Suwayomi y los cebos con su fecha</td></tr>
+        <tr><td><b>02 Facebook</b></td><td>42.311</td><td>56</td><td>Pieza nueva entera: seis escenas de mudanza, tutorial de doce pasos, archivo, sincronización y ficha de 49 repos con fecha de nacimiento</td></tr>
+        <tr><td><b>Post de comunidad</b></td><td>4.135</td><td>4 enlaces vivos</td><td>El post del «mama hueso»: nombre sin enlace a las páginas de mods y ROMs, enlace a las cuatro fuentes que respondieron hoy</td></tr>
       </table>
       <p class="nota">Fuentes nuevas usadas hoy para descubrir: búsquedas de la API de GitHub con filtro de empuje posterior al 1 de agosto de 2026, más <code>fmhy.net</code>, <code>appteka.store</code> y los repositorios de los mismos autores. Todo lo citado se midió uno por uno con la API: estrellas, licencia declarada, fecha de creación, último empuje y última release.</p>
     </div>

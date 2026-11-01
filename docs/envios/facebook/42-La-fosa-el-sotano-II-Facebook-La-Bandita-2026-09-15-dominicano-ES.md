@@ -100,7 +100,7 @@ Hay release de esta semana: **jeryjs/TachiyomiSY-with-discord-RPC** publicó pre
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2331 caracteres ═══
+═══ MENSAJE 4 de 5 · 2560 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 42*
 
@@ -124,9 +124,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *18 responden*.
+De los 19 enlaces de esta pieza, *16 responden*.
 
+• https://github.com/stumpapp/stump — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/sweetbbak/toru — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/xgi/houdoku — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -94,7 +94,7 @@ Lo primero, lo que se cayó: **sj0404-collab/yomikai-pwa** (caído (404)). Legal
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2226 caracteres ═══
+═══ MENSAJE 4 de 5 · 2349 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 17*
 
@@ -115,8 +115,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *15 responden*.
+De los 18 enlaces de esta pieza, *14 responden*.
 
+• https://github.com/sj0404-collab/yomikai — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/sj0404-collab/yomikai-pwa — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/woxakv/android-koreader-companion — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.

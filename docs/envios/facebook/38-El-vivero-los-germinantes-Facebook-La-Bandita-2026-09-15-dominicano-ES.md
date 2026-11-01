@@ -92,7 +92,7 @@ La noticia amarga: **leassapie/houri** (caído (404)) ya no respondieron. 11 rep
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2285 caracteres ═══
+═══ MENSAJE 4 de 5 · 2410 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 38*
 
@@ -115,9 +115,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 17 enlaces de esta pieza, *15 responden*.
+De los 17 enlaces de esta pieza, *14 responden*.
 
 • https://github.com/leassapie/houri — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/tsundoku-otaku/tsundoku — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://miyo-wine.vercel.app — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 3 de 4

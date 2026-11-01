@@ -1132,7 +1132,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 • bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
 • j-hc/revanced-magisk-module — ★7.709 (+4) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
 • shiaho777/web-to-app — ★7.152 (+25) · empujó en las últimas horas · Unlicense · última release v2.8.3 (28-oct-2026)
-• MorpheApp/MicroG-RE — ★6.104 (+95) · empujó en las últimas horas · Apache-2.0 · última release 7.3.0 (31-oct-2026)
+• MorpheApp/MicroG-RE — ★6.105 (+96) · empujó en las últimas horas · Apache-2.0 · última release 7.3.0 (31-oct-2026)
 • MeowDump/Integrity-Box — ★2.806 (+9) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v46 (29-oct-2026)
 • snake-4/Zygisk-Assistant — ★2.661 (-1) · *dormido*: sin empujar desde el 4-may-2026 (181 días) · MIT · última release v2.1.4 (23-feb-2025)
 • MMRLApp/MMRL — ★2.225 (+2) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v34296 (8-mar-2026)

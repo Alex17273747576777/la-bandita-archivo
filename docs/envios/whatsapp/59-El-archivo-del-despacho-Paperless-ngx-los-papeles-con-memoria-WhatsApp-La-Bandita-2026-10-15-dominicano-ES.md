@@ -66,7 +66,7 @@ REV|303.74★ — xgn-sselrepap/xgn-sselrepap=1|REV|92-01-6202 — xgn-sselrepap
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• paperless-ngx/paperless-ngx — ★47.463 (+160) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
+• paperless-ngx/paperless-ngx — ★47.466 (+163) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

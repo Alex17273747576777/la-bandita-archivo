@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-01",
- "medido_en_utc": "2026-11-01T04:07:29+00:00",
+ "medido_en_utc": "2026-11-01T04:48:17+00:00",
  "repos": {
   "AuroraOSS/AuroraStore": {
    "estado": "vivo",
@@ -28,7 +28,7 @@
   },
   "iamr0s/Dhizuku": {
    "estado": "vivo",
-   "stars": 4068,
+   "stars": 4069,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -76,7 +76,7 @@
   },
   "wxxsfxyzm/InstallerX-Revived": {
    "estado": "vivo",
-   "stars": 7257,
+   "stars": 7258,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -208,7 +208,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21096,
+   "stars": 21097,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -388,7 +388,7 @@
   },
   "zmz125000/LocalViewer": {
    "estado": "vivo",
-   "stars": 197,
+   "stars": 198,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -485,7 +485,7 @@
   "meyamane37923-hash/komikku-scans": {
    "estado": "vivo",
    "stars": 114,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": null,
    "lenguaje": "HTML",
@@ -559,7 +559,7 @@
   },
   "mihonapp/mihon": {
    "estado": "vivo",
-   "stars": 24913,
+   "stars": 24916,
    "push": "2026-10-26",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -583,7 +583,7 @@
   },
   "Kototoro-app/Kototoro": {
    "estado": "vivo",
-   "stars": 656,
+   "stars": 657,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -595,7 +595,7 @@
   },
   "aniyomiorg/aniyomi": {
    "estado": "vivo",
-   "stars": 7863,
+   "stars": 7865,
    "push": "2026-09-14",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -632,7 +632,7 @@
   "Suwayomi/Suwayomi-Tsumiru": {
    "estado": "vivo",
    "stars": 107,
-   "push": "2026-10-30",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "MPL-2.0",
    "lenguaje": "Dart",
@@ -799,7 +799,7 @@
   },
   "KotatsuApp/Kotatsu": {
    "estado": "vivo",
-   "stars": 8943,
+   "stars": 8944,
    "push": "2025-11-04",
    "archivado": true,
    "licencia": "GPL-3.0",
@@ -1212,7 +1212,7 @@
   },
   "TeamNewPipe/NewPipe": {
    "estado": "vivo",
-   "stars": 40384,
+   "stars": 40385,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1236,7 +1236,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12607,
+   "stars": 12609,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1368,7 +1368,7 @@
   },
   "ItzSkyeYT/InterTune": {
    "estado": "vivo",
-   "stars": 92,
+   "stars": 93,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1380,7 +1380,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 96844,
+   "stars": 96846,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1392,7 +1392,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 63845,
+   "stars": 63850,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1404,7 +1404,7 @@
   },
   "organicmaps/organicmaps": {
    "estado": "vivo",
-   "stars": 15838,
+   "stars": 15839,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1476,7 +1476,7 @@
   },
   "FossifyOrg/Calendar": {
    "estado": "vivo",
-   "stars": 2261,
+   "stars": 2262,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1488,7 +1488,7 @@
   },
   "FossifyOrg/File-Manager": {
    "estado": "vivo",
-   "stars": 1846,
+   "stars": 1847,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1501,7 +1501,7 @@
   "FossifyOrg/Phone": {
    "estado": "vivo",
    "stars": 1397,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -1512,7 +1512,7 @@
   },
   "FossifyOrg/Clock": {
    "estado": "vivo",
-   "stars": 717,
+   "stars": 718,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1572,7 +1572,7 @@
   },
   "Riteshp2001/mpvRx": {
    "estado": "vivo",
-   "stars": 868,
+   "stars": 867,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1584,7 +1584,7 @@
   },
   "ollama/ollama": {
    "estado": "vivo",
-   "stars": 185497,
+   "stars": 185501,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "MIT",
@@ -1596,7 +1596,7 @@
   },
   "open-webui/open-webui": {
    "estado": "vivo",
-   "stars": 157421,
+   "stars": 157424,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1608,7 +1608,7 @@
   },
   "ggml-org/llama.cpp": {
    "estado": "vivo",
-   "stars": 133005,
+   "stars": 133010,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -1656,7 +1656,7 @@
   },
   "syncthing/syncthing": {
    "estado": "vivo",
-   "stars": 89956,
+   "stars": 89957,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -1680,7 +1680,7 @@
   },
   "NeoApplications/Neo-Backup": {
    "estado": "vivo",
-   "stars": 3888,
+   "stars": 3889,
    "push": "2026-10-17",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1692,7 +1692,7 @@
   },
   "researchxxl/syncthing-android": {
    "estado": "vivo",
-   "stars": 3215,
+   "stars": 3216,
    "push": "2026-10-22",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -1704,7 +1704,7 @@
   },
   "libre-tube/LibreTube": {
    "estado": "vivo",
-   "stars": 12926,
+   "stars": 12927,
    "push": "2026-10-30",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1769,7 +1769,7 @@
   },
   "Predidit/Kazumi": {
    "estado": "vivo",
-   "stars": 40436,
+   "stars": 40438,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1793,7 +1793,7 @@
   },
   "rustdesk/rustdesk": {
    "estado": "vivo",
-   "stars": 127741,
+   "stars": 127742,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1805,7 +1805,7 @@
   },
   "komi-store/komi-store": {
    "estado": "vivo",
-   "stars": 20179,
+   "stars": 20180,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1817,7 +1817,7 @@
   },
   "hrydgard/ppsspp": {
    "estado": "vivo",
-   "stars": 14799,
+   "stars": 14797,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1830,7 +1830,7 @@
   "itsmechinmoy/dantotsu-updater": {
    "estado": "vivo",
    "stars": 154,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": null,
    "lenguaje": "Python",
@@ -1889,7 +1889,7 @@
   },
   "2dust/v2rayNG": {
    "estado": "vivo",
-   "stars": 65086,
+   "stars": 65088,
    "push": "2026-10-28",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1901,7 +1901,7 @@
   },
   "MetaCubeX/ClashMetaForAndroid": {
    "estado": "vivo",
-   "stars": 48723,
+   "stars": 48727,
    "push": "2026-10-30",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1913,7 +1913,7 @@
   },
   "JunkFood02/Seal": {
    "estado": "vivo",
-   "stars": 30232,
+   "stars": 30233,
    "push": "2026-09-25",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2033,7 +2033,7 @@
   },
   "SysAdminDoc/HushFacebook": {
    "estado": "vivo",
-   "stars": 447,
+   "stars": 448,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2046,7 +2046,7 @@
   "SysAdminDoc/HushFeed": {
    "estado": "vivo",
    "stars": 342,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
@@ -2057,7 +2057,7 @@
   },
   "SysAdminDoc/Hushfacebook": {
    "estado": "vivo",
-   "stars": 447,
+   "stars": 448,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2070,7 +2070,7 @@
   "SysAdminDoc/hushfeed": {
    "estado": "vivo",
    "stars": 342,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
@@ -2081,8 +2081,8 @@
   },
   "dazedcat19/FMD2": {
    "estado": "vivo",
-   "stars": 1171,
-   "push": "2026-10-31",
+   "stars": 1172,
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-2.0",
    "lenguaje": "Pascal",
@@ -2105,7 +2105,7 @@
   },
   "agalwood/Motrix": {
    "estado": "vivo",
-   "stars": 57644,
+   "stars": 57646,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2117,7 +2117,7 @@
   },
   "GopeedLab/gopeed": {
    "estado": "vivo",
-   "stars": 27296,
+   "stars": 27298,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2129,7 +2129,7 @@
   },
   "XiaoYouChR/Ghost-Downloader-3": {
    "estado": "vivo",
-   "stars": 10580,
+   "stars": 10582,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2153,7 +2153,7 @@
   },
   "LSPosed/LSPosed": {
    "estado": "vivo",
-   "stars": 25280,
+   "stars": 25279,
    "push": "2026-10-14",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2166,7 +2166,7 @@
   "rushiranpise/lsposed-modules-manager": {
    "estado": "vivo",
    "stars": 21,
-   "push": "2026-10-30",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -2189,7 +2189,7 @@
   },
   "yt-dlp/yt-dlp": {
    "estado": "vivo",
-   "stars": 204263,
+   "stars": 204271,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "Unlicense",
@@ -2262,7 +2262,7 @@
   "MuwMx/YumaPlayer": {
    "estado": "vivo",
    "stars": 1068,
-   "push": "2026-10-30",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -2273,7 +2273,7 @@
   },
   "Mahmud0808/TeleDrive": {
    "estado": "vivo",
-   "stars": 410,
+   "stars": 411,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2309,7 +2309,7 @@
   },
   "Leviidev/Husk": {
    "estado": "vivo",
-   "stars": 2906,
+   "stars": 2908,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -2393,7 +2393,7 @@
   },
   "pengchujin/aerial-tv": {
    "estado": "vivo",
-   "stars": 8371,
+   "stars": 8379,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -2442,7 +2442,7 @@
   "devCaspian-hash/Bokumi-App": {
    "estado": "vivo",
    "stars": 0,
-   "push": "2026-10-30",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": null,
    "lenguaje": null,
@@ -2943,7 +2943,7 @@
   },
   "LUC4N3X/Levyra-deepsound": {
    "estado": "vivo",
-   "stars": 1806,
+   "stars": 1809,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3208,7 +3208,7 @@
   "mangeshghodke/DreamPlayer": {
    "estado": "vivo",
    "stars": 74,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Dart",
@@ -3255,7 +3255,7 @@
   },
   "ukanth/afwall": {
    "estado": "vivo",
-   "stars": 3514,
+   "stars": 3515,
    "push": "2026-10-17",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3448,7 +3448,7 @@
   "Local1stDotApp/XFiles": {
    "estado": "vivo",
    "stars": 68,
-   "push": "2026-10-01",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -3591,7 +3591,7 @@
   },
   "iptv-org/iptv": {
    "estado": "vivo",
-   "stars": 142933,
+   "stars": 142934,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Unlicense",
@@ -3603,7 +3603,7 @@
   },
   "nexu-io/open-design": {
    "estado": "vivo",
-   "stars": 105218,
+   "stars": 105219,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3627,7 +3627,7 @@
   },
   "JingMatrix/Vector": {
    "estado": "vivo",
-   "stars": 12994,
+   "stars": 12993,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3639,7 +3639,7 @@
   },
   "CluvexStudio/Aether": {
    "estado": "vivo",
-   "stars": 2390,
+   "stars": 2391,
    "push": "2026-10-24",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3891,7 +3891,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 153688,
+   "stars": 153693,
    "push": "2026-10-26",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3987,7 +3987,7 @@
   },
   "whyorean/AuroraStore": {
    "estado": "vivo",
-   "stars": 3211,
+   "stars": 3212,
    "push": "2026-10-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4148,7 +4148,7 @@
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "Buge App Manager is a powerful Android tool for app and permission management, requiring Shizuku or ROOT.",
+   "desc": "Buge App Manager is a powerful Android tool for app and permission management, requiring Shizuku, Dhizuku or ROOT.",
    "release": "AppManager13.81.142",
    "release_fecha": "2026-10-29",
    "stars_pieza": 309
@@ -4172,7 +4172,7 @@
   },
   "LawnchairLauncher/lawnchair": {
    "estado": "vivo",
-   "stars": 13832,
+   "stars": 13833,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -4257,7 +4257,7 @@
   "Mahmud0808/ColorBlendr": {
    "estado": "vivo",
    "stars": 2574,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -4424,7 +4424,7 @@
   },
   "emanuele-f/PCAPdroid": {
    "estado": "vivo",
-   "stars": 5031,
+   "stars": 5032,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4688,7 +4688,7 @@
   },
   "eyalm2000/adns": {
    "estado": "vivo",
-   "stars": 738,
+   "stars": 739,
    "push": "2026-10-30",
    "archivado": false,
    "licencia": "MIT",
@@ -4928,7 +4928,7 @@
   },
   "recloudstream/cloudstream": {
    "estado": "vivo",
-   "stars": 11112,
+   "stars": 11113,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4964,7 +4964,7 @@
   },
   "NuvioMedia/NuvioMobile": {
    "estado": "vivo",
-   "stars": 4337,
+   "stars": 4338,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5137,7 +5137,7 @@
   },
   "Anxcye/anx-reader": {
    "estado": "vivo",
-   "stars": 9152,
+   "stars": 9154,
    "push": "2026-10-17",
    "archivado": false,
    "licencia": "MIT",
@@ -5149,7 +5149,7 @@
   },
   "koharu-rs/koharu": {
    "estado": "vivo",
-   "stars": 6555,
+   "stars": 6556,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -5742,7 +5742,7 @@
   },
   "professorDeveloper/sozo": {
    "estado": "vivo",
-   "stars": 106,
+   "stars": 107,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5922,7 +5922,7 @@
   },
   "Stremio/stremio-web": {
    "estado": "vivo",
-   "stars": 14947,
+   "stars": 14948,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -6021,7 +6021,7 @@
   },
   "kushagrasinghx/BitChord": {
    "estado": "vivo",
-   "stars": 5056,
+   "stars": 5057,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -6045,7 +6045,7 @@
   },
   "Flow-Tube/Flow": {
    "estado": "vivo",
-   "stars": 3227,
+   "stars": 3228,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -6189,7 +6189,7 @@
   },
   "PixelPlayerHQ/PixelPlayer": {
    "estado": "vivo",
-   "stars": 6856,
+   "stars": 6857,
    "push": "2026-09-21",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -6381,7 +6381,7 @@
   },
   "awesome-selfhosted/awesome-selfhosted": {
    "estado": "vivo",
-   "stars": 332478,
+   "stars": 332485,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -6477,7 +6477,7 @@
   },
   "AAswordman/Operit": {
    "estado": "vivo",
-   "stars": 9142,
+   "stars": 9143,
    "push": "2026-10-05",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -6573,7 +6573,7 @@
   },
   "AhmetCanArslan/ShizuWall": {
    "estado": "vivo",
-   "stars": 2419,
+   "stars": 2420,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -6729,8 +6729,8 @@
   },
   "FossifyOrg/Notes": {
    "estado": "vivo",
-   "stars": 508,
-   "push": "2026-10-30",
+   "stars": 509,
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -6837,7 +6837,7 @@
   },
   "ente/ente": {
    "estado": "vivo",
-   "stars": 29800,
+   "stars": 29802,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -6849,7 +6849,7 @@
   },
   "T8RIN/ImageToolbox": {
    "estado": "vivo",
-   "stars": 15278,
+   "stars": 15280,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -6861,7 +6861,7 @@
   },
   "floccusaddon/floccus": {
    "estado": "vivo",
-   "stars": 8610,
+   "stars": 8611,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -6897,7 +6897,7 @@
   },
   "deckerst/aves": {
    "estado": "vivo",
-   "stars": 5475,
+   "stars": 5476,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -7461,7 +7461,7 @@
   },
   "lollipopkit/flutter_server_box": {
    "estado": "vivo",
-   "stars": 8922,
+   "stars": 8923,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -7653,7 +7653,7 @@
   },
   "cosmictaserdev-creator/Convx": {
    "estado": "vivo",
-   "stars": 1099,
+   "stars": 1100,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -8095,7 +8095,7 @@
   },
   "nextcloud/server": {
    "estado": "vivo",
-   "stars": 37379,
+   "stars": 37380,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -8215,7 +8215,7 @@
   },
   "PerformanC/ReZygisk": {
    "estado": "vivo",
-   "stars": 4108,
+   "stars": 4107,
    "push": "2026-10-11",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -8420,16 +8420,16 @@
    "veredicto": "responde"
   },
   "https://appteka.store/app/4abr315772": {
-   "codigo": "504",
-   "veredicto": "responde con codigo 504"
+   "codigo": "500",
+   "veredicto": "responde con codigo 500"
   },
   "https://appteka.store/app/b4cr315682": {
-   "codigo": "504",
-   "veredicto": "responde con codigo 504"
+   "codigo": "500",
+   "veredicto": "responde con codigo 500"
   },
   "https://appteka.store/app/d18r318069": {
-   "codigo": "504",
-   "veredicto": "responde con codigo 504"
+   "codigo": "500",
+   "veredicto": "responde con codigo 500"
   },
   "https://apt.izzysoft.de/fdroid": {
    "codigo": "200",
@@ -10960,176 +10960,176 @@
    "veredicto": "responde"
   },
   "https://github.com/pkmetski/riffle": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/plainhub/plain-app": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/plateaukao/einkbro": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/pokedo0/Pokomi": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/ponces/treble_aosp": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/preethamkmr3/WidgetsPro": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/professorDeveloper/sozo": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/professorDeveloper/sozo-tv": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/ptrLx/OneShot": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/pulsejet/memories": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/pynicolas/FairScan": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/qingzhuo-cn/boorunova": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/ranobe-org/ranobe": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rcrandon/gimmiedat": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/readest/readest": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rebelonion/Dantotsu": {
-   "codigo": "451",
-   "veredicto": "responde con codigo 451"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rebelonion/dantotsu": {
-   "codigo": "451",
-   "veredicto": "responde con codigo 451"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/recloudstream/cloudstream": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/recloudstream/cs-repos": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/recloudstream/extensions": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rednaga/axmlprinter": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rektpartyaftermath/Legado-booksource-collection": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/researchxxl/syncthing-android": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/resurrectdev1/Flac-R": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/retransmit/Atrium": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/richtunic/Kitsu-X": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/risunCode/AppControl-X": {
-   "codigo": "404",
-   "veredicto": "no existe hoy"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rokku-app/rokku": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rokku-app/rokku/releases": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/roozbehzarei/filester": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/roshancodespace/ShonenX": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/roxycon-dev/Ciallo-Reader": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rumca-js/OfflineWebSearch": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rushiranpise/lsposed-modules-manager": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rushiranpise/shizuku-modules": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rushiranpise/xposed-modules": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/rustdesk/rustdesk": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/ruzhe85/MihonSY": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/salmanbappi/AniZen": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/salmanbappi/aniyomi-extensions": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/salmanbappi/anizen-preview": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/salmanbappi/extensions-repo": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/sameerasw/essentials": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/samolego/Canta": {
    "codigo": "429",
@@ -11144,24 +11144,24 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/sang765/Usagi": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/scummvm/scummvm": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/sdex/ActivityManager": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/self-similarity/MegaRepo": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/serene-brew/kaizen-app": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/session-foundation/session-android": {
    "codigo": "429",
@@ -11176,20 +11176,20 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/siavash79/PixelXpert": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/sj0404-collab/yomikai": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/sj0404-collab/yomikai-pwa": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/snake-4/Zygisk-Assistant": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/solkin/appteka-android": {
    "codigo": "429",
@@ -11200,32 +11200,32 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/soul-99/SU_IMD": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/sozo-app/sozo-tv": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/spacecowboy/Feeder": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/sri-sivaram/Neko-Manga-Pearl": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/standardnotes/app": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/stevenyomi/copymanga": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/stumpapp/stump": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/supershadoe/delta": {
    "codigo": "429",
@@ -11244,24 +11244,24 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/syncthing/syncthing-android": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/syncyomi/syncyomi": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tachibana-shin/rakuyomi": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tachimanga/Tachidesk-Server": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tachiyomiorg/extensions": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tadamiorg/tadami": {
    "codigo": "429",
@@ -11272,12 +11272,12 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tasks/tasks": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/termux/termux-app": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/thaunknown/miru": {
    "codigo": "429",
@@ -11296,20 +11296,20 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/thejaustin/ShizukuPlus/wiki": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/theordinaryguy23/TachiyomiDNP": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/thiagooo0/EHHelper": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/thunderbird/thunderbird-android": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tiann/KernelSU": {
    "codigo": "429",
@@ -11332,56 +11332,56 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tryptz/Tryptify": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tsundoku-otaku/tsundoku": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tuntorius/mightier_amp": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/ubedshah/manga-vault-nexus": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/ukanth/afwall": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/ulightm111/boky-fivavahana-ion": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/unseensnick/Reikai": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/uwumilabs/uwumi": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/v4lpt/MYC": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/varunsalian/debrify": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/vauvenal5/yaga": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/venera-app/venera": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/vfsfitvnm/ViMusic": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/videolan/vlc-android": {
    "codigo": "429",
@@ -11432,28 +11432,28 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/wxxsfxyzm/InstallerX-Revived": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/x1watt/bchan": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/xbmc/xbmc": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/xgi/houdoku": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yairm210/Unciv": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/ycngmn/CuxPlug": {
-   "codigo": "404",
-   "veredicto": "no existe hoy"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yomihon/yomihon": {
    "codigo": "429",
@@ -11464,28 +11464,28 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yshalsager/ShizukuShortcuts": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yt-dlp/yt-dlp": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yuliskov/SmartTube": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yuzono/anime-extensions": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yuzono/cursed-manga-extensions": {
    "codigo": "429",
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yuzono/kohi-den": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yuzono/manga-repo": {
    "codigo": "429",
@@ -11500,28 +11500,28 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/z-huang/InnerTune": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/zacharee/InstallWithOptions": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/zacharee/Tweaker": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/zhanghai/MaterialFiles": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/zimly/zimly-backup": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/zmz125000/LocalViewer": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/zorgluf/souvenirs-android": {
    "codigo": "429",
@@ -12144,8 +12144,8 @@
    "veredicto": "responde"
   },
   "https://standardnotes.com/forum": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://standardnotes.com/h": {
    "codigo": "404",

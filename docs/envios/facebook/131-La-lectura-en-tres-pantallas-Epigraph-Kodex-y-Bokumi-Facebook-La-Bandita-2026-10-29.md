@@ -53,7 +53,7 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 701 caracteres ═══
+═══ MENSAJE 3 de 4 · 693 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 131*
 
@@ -61,7 +61,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 • johnnylord1/Epigraph — ★0 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release stable (14-oct-2026)
 • Demacish/kodex — ★0 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v2.3.0 (30-oct-2026)
-• devCaspian-hash/Bokumi-App — ★0 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API
+• devCaspian-hash/Bokumi-App — ★0 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

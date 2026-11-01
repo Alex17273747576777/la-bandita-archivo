@@ -93,13 +93,13 @@ La noticia fresca es de **KolbyML/Manatan**: release v6.2.21 (2026-10-29). 11 re
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2094 caracteres ═══
+═══ MENSAJE 4 de 5 · 2214 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 35*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.913 (+74) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★24.916 (+77) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • zyddnys/manga-image-translator — ★10.559 (+9) · empujó el 11-oct-2026 (hace 21 días) · GPL-3.0 · última release beta-0.3 (23-abr-2022)
 • komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • Aidoku/Aidoku — ★4.682 (+7) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
@@ -114,8 +114,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *16 responden*.
+De los 18 enlaces de esta pieza, *15 responden*.
 
+• https://github.com/unseensnick/Reikai — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/zyddnys/manga-image-translator — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 

@@ -62,7 +62,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pie
 
 De los 2 enlaces de esta pieza, *0 responden*.
 
-• https://appteka.store/app/d18r318069 — 504. Error del servidor; no es culpa del enlace.
+• https://appteka.store/app/d18r318069 — 500. Error del servidor; no es culpa del enlace.
 • https://github.com/warreth/OpenlibExtended — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3

@@ -87,7 +87,7 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 6 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1834 caracteres ═══
+═══ MENSAJE 4 de 5 · 2315 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
@@ -108,8 +108,12 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 15 enlaces de esta pieza, *15 responden*.
-Ninguno roto.
+De los 15 enlaces de esta pieza, *11 responden*.
+
+• https://github.com/rokku-app/rokku — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/rokku-app/rokku/releases — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/theordinaryguy23/TachiyomiDNP — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/unseensnick/Reikai — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

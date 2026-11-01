@@ -103,7 +103,7 @@ Empieza por las bajas: **risunCode/AppControl-X** (caído (404)) no contestaron 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2461 caracteres ═══
+═══ MENSAJE 4 de 5 · 2488 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 29*
 
@@ -129,7 +129,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pi
 
 De los 26 enlaces de esta pieza, *24 responden*.
 
-• https://github.com/risunCode/AppControl-X — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/risunCode/AppControl-X — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/samolego/Canta — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4

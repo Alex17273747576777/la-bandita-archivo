@@ -60,7 +60,7 @@ REV|861.5★ — SDnolem/ume-SDnolem=1|REV|)81-11-5202( 1.1 — SDnolem/ume-SDno
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 549 caracteres ═══
+═══ MENSAJE 3 de 4 · 451 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 78*
 
@@ -70,9 +70,8 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 2 enlaces de esta pieza, *1 responden*.
-
-• https://melonds.kuribo64.net — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 2 enlaces de esta pieza, *2 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

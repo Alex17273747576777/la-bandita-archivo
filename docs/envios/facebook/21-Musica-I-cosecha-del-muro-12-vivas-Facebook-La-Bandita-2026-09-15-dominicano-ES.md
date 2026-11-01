@@ -90,7 +90,7 @@ La noticia fresca es de **involvex/youtube-music-cli**: release v0.3.6 (2026-10-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1914 caracteres ═══
+═══ MENSAJE 4 de 5 · 2031 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 21*
 
@@ -98,7 +98,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 • Kopuz-org/kopuz — ★1.960 (+1) · empujó el 30-oct-2026 (hace 2 días) · EUPL-1.2 · última release v0.67.0 (26-oct-2026)
 • FrancescoGrazioso/Meld — ★1.853 (+15) · empujó en las últimas horas · GPL-3.0 · última release v0.9.2 (28-sep-2026)
-• LUC4N3X/Levyra-deepsound — ★1.806 (+163) · empujó en las últimas horas · GPL-3.0 · última release v3.0.5 (28-oct-2026)
+• LUC4N3X/Levyra-deepsound — ★1.809 (+166) · empujó en las últimas horas · GPL-3.0 · última release v3.0.5 (28-oct-2026)
 • involvex/youtube-music-cli — ★466 (-1) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v0.3.6 (28-oct-2026)
 • suvojeet-sengupta/SuvMusic — ★314 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v2.6.8.0 (13-oct-2026)
 • MrDemonc/Lune — ★263 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.5.5 (28-oct-2026)
@@ -111,9 +111,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 17 enlaces de esta pieza, *16 responden*.
+De los 17 enlaces de esta pieza, *15 responden*.
 
 • https://github.com/suvojeet-sengupta/SuvMusic — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/tryptz/Tryptify — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -102,7 +102,7 @@ La noticia amarga: **ayman708-UX/PlayTorrioV3** (caído (404)) ya no respondiero
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2527 caracteres ═══
+═══ MENSAJE 4 de 5 · 2652 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 41*
 
@@ -126,10 +126,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 22 enlaces de esta pieza, *20 responden*.
+De los 22 enlaces de esta pieza, *19 responden*.
 
 • https://9ani.app — 522. Error del servidor; no es culpa del enlace.
 • https://github.com/ayman708-UX/PlayTorrioV3 — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/roshancodespace/ShonenX — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -137,17 +137,17 @@ Hay release de esta semana: **Awerkori/manga-extensoes** publicó f4a374c (2026-
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3420 caracteres ═══
+═══ MENSAJE 5 de 6 · 3659 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 26*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iptv-org/iptv — ★142.933 (+204) · empujó en las últimas horas · Unlicense
-• nexu-io/open-design — ★105.218 (+355) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
+• iptv-org/iptv — ★142.934 (+205) · empujó en las últimas horas · Unlicense
+• nexu-io/open-design — ★105.219 (+356) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
 • android/nowinandroid — ★21.991 (+8) · empujó en las últimas horas · Apache-2.0 · última release 0.1.1 (13-jul-2023)
-• JingMatrix/Vector — ★12.994 (+27) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
-• CluvexStudio/Aether — ★2.390 (+16) · empujó el 24-oct-2026 (hace 8 días) · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
+• JingMatrix/Vector — ★12.993 (+26) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
+• CluvexStudio/Aether — ★2.391 (+17) · empujó el 24-oct-2026 (hace 8 días) · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
 • meshtastic/Meshtastic-Android — ★1.901 (+5) · empujó en las últimas horas · GPL-3.0 · última release v2.8.3 (19-oct-2026)
 • HmnDev-Tech/shevery — ★1.552 (+25) · empujó en las últimas horas · Apache-2.0 · última release 14.5.0 (23-oct-2026)
 • NikhilKain/vyxel-apps — ★957 (+5) · empujó el 25-oct-2026 (hace 7 días) · NOASSERTION · última release v1.1.5 (25-oct-2026)
@@ -168,8 +168,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 37 enlaces de esta pieza, *34 responden*.
+De los 37 enlaces de esta pieza, *32 responden*.
 
+• https://github.com/qingzhuo-cn/boorunova — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/soul-99/SU_IMD — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/weekanya/Booru — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/winhub-emu/winhub — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/wizdom13/WizeStream — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.

@@ -50,14 +50,14 @@ Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 2 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 576 caracteres ═══
+═══ MENSAJE 3 de 4 · 568 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 127*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• maxrave-dev/SimpMusic — ★12.607 (+78) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
-• MuwMx/YumaPlayer — ★1.068 (+39) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2.0-RC.1 (17-oct-2026)
+• maxrave-dev/SimpMusic — ★12.609 (+80) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
+• MuwMx/YumaPlayer — ★1.068 (+39) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0-RC.1 (17-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

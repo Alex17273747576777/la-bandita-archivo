@@ -111,17 +111,17 @@ Hay release de esta semana: **ggml-org/llama.cpp** publicó v0.8.0 (2026-10-28).
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2901 caracteres ═══
+═══ MENSAJE 4 de 5 · 3141 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 65*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.005 (+234) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• ggml-org/llama.cpp — ★133.010 (+239) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
 • SagerNet/sing-box — ★39.494 (+105) · empujó el 28-oct-2026 (hace 4 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.288 (+3) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • FlareSolverr/FlareSolverr — ★16.100 (+29) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release v3.5.2 (12-sep-2026)
-• AAswordman/Operit — ★9.142 (+57) · empujó el 5-oct-2026 (hace 27 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
+• AAswordman/Operit — ★9.143 (+58) · empujó el 5-oct-2026 (hace 27 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
 • LibChecker/LibChecker — ★7.296 (+5) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.069 (+1) · *dormido*: sin empujar desde el 6-feb-2022 (1729 días) · sin licencia detectada por la API
 • zacharee/Tweaker — ★1.760 (+3) · empujó el 21-oct-2026 (hace 11 días) · MIT · última release 362 (17-feb-2024)
@@ -138,11 +138,13 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 29 enlaces de esta pieza, *26 responden*.
+De los 29 enlaces de esta pieza, *24 responden*.
 
 • https://anthonyy232.github.io/Paperize/ — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/sdex/ActivityManager — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/session-foundation/session-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/supershadoe/delta — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/zacharee/Tweaker — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -3,14 +3,14 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/43-La-corriente-geografia-de-las-fuentes-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `7802b7a987d634ddb05f39bf58fb22b2440f0ac8e28a3bb261ceeceac277e73c`
-- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3792 caracteres
+- **Envío generado:** 2026-11-01 · 7 mensajes · el mayor de 3691 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 6 · 915 caracteres ═══
+═══ MENSAJE 1 de 7 · 915 caracteres ═══
 
 *La corriente: la geografía de las fuentes — las extensiones*
 
-La Bandita · pieza 43 · guía del 29-oct-2026 · te la mando hoy en 6 mensajes.
+La Bandita · pieza 43 · guía del 29-oct-2026 · te la mando hoy en 7 mensajes.
 
 Antes de mandártela volví a medir lo que afirma: *26 repositorios, 26 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
@@ -22,7 +22,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 6 · 3691 caracteres ═══
+═══ MENSAJE 2 de 7 · 3691 caracteres ═══
 
 [Texto del 29-oct-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
@@ -66,9 +66,9 @@ Medición del jueves 29 de octubre de 2026: esta pieza reúne 26 repos, 26 vivos
 
 - **lnreader/lnreader-plugins** — «Repository to host plugin related issues, and requests for LNReader»
 
-⏬ sigue abajo · parte 1 de 5
+⏬ sigue abajo · parte 1 de 6
 
-═══ MENSAJE 3 de 6 · 3673 caracteres ═══
+═══ MENSAJE 3 de 7 · 3673 caracteres ═══
 
   ★364 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · TypeScript · última release v2.0.0 (2024-03-21) · https://github.com/lnreader/lnreader-plugins
   Temas: lightnovels · webnovels
@@ -114,9 +114,9 @@ Medición del jueves 29 de octubre de 2026: esta pieza reúne 26 repos, 26 vivos
   ★17 · su último empuje fue el 2025-01-05 (hace 664 días) · licencia sin archivo LICENSE en su repo (verificado) · https://github.com/dannovels/novel-extensions
 
 
-⏬ sigue abajo · parte 2 de 5
+⏬ sigue abajo · parte 2 de 6
 
-═══ MENSAJE 4 de 6 · 2113 caracteres ═══
+═══ MENSAJE 4 de 7 · 2113 caracteres ═══
 
 - **gato404/kegareta-sauces** — su repo no trae descripción oficial
   ★14 · su último empuje fue el 2025-07-22 (hace 466 días) · licencia Apache-2.0 · Dart · https://github.com/gato404/kegareta-sauces
@@ -140,9 +140,9 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 💓 26 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 26 vivos, 0 firmados arriba con su estado.
 
-⏬ sigue abajo · parte 3 de 5
+⏬ sigue abajo · parte 3 de 6
 
-═══ MENSAJE 5 de 6 · 3792 caracteres ═══
+═══ MENSAJE 5 de 7 · 3440 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 43*
 
@@ -175,15 +175,21 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 26 repositorios que cita esta pi
 • Awerkori/manga-fonte-extensoes — ★9 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • Schnitzel5/mangayomi-custom-buttons — ★6 (sin cambio) · *dormido*: sin empujar desde el 5-oct-2025 (392 días) · MIT
 
+⏬ sigue abajo · parte 4 de 6
+
+═══ MENSAJE 6 de 7 · 634 caracteres ═══
+
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 39 enlaces de esta pieza, *37 responden*.
+De los 39 enlaces de esta pieza, *35 responden*.
 
+• https://github.com/salmanbappi/extensions-repo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/self-similarity/MegaRepo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yuzono/anime-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/yuzono/cursed-manga-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
-⏬ sigue abajo · parte 4 de 5
+⏬ sigue abajo · parte 5 de 6
 
-═══ MENSAJE 6 de 6 · 152 caracteres ═══
+═══ MENSAJE 7 de 7 · 152 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.

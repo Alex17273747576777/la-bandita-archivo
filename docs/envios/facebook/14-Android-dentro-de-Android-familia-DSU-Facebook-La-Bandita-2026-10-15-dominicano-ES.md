@@ -54,7 +54,7 @@ Sin sobresaltos: el empuje más cercano es de **R15Hi/Dsu-Multi-sideloader** (ha
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 965 caracteres ═══
+═══ MENSAJE 3 de 4 · 1072 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 14*
 
@@ -67,8 +67,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 4 enlaces de esta pieza, *4 responden*.
-Ninguno roto.
+De los 4 enlaces de esta pieza, *3 responden*.
+
+• https://github.com/ponces/treble_aosp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

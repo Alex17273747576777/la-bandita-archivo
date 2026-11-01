@@ -110,7 +110,7 @@ Empieza por las bajas: **leassapie/houri** (caído (404)) no contestaron hoy. Co
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 3228 caracteres ═══
+═══ MENSAJE 4 de 5 · 3461 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 16*
 
@@ -138,9 +138,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *16 responden*.
+De los 21 enlaces de esta pieza, *14 responden*.
 
 • https://github.com/leassapie/houri — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/pokedo0/Pokomi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/ruzhe85/MihonSY — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/syncyomi/syncyomi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/the-nexus-app/NEXUS — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/x1watt/bchan — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.

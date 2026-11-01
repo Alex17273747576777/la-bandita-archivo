@@ -95,13 +95,13 @@ Hay release de esta semana: **wikimedia/apps-android-wikipedia** publicó latest
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2096 caracteres ═══
+═══ MENSAJE 4 de 5 · 2216 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 63*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• floccusaddon/floccus — ★8.610 (+7) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
+• floccusaddon/floccus — ★8.611 (+8) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
 • ReadYouApp/ReadYou — ★7.632 (+8) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
 • spacecowboy/Feeder — ★3.101 (+5) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.25.0 (23-oct-2026)
@@ -115,8 +115,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *15 responden*.
+De los 18 enlaces de esta pieza, *14 responden*.
 
+• https://github.com/plateaukao/einkbro — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/samuelclay/NewsBlur — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/spacecowboy/Feeder — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/wikimedia/apps-android-wikipedia — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.

@@ -54,7 +54,7 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 2 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 711 caracteres ═══
+═══ MENSAJE 3 de 4 · 823 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 119*
 
@@ -66,8 +66,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 4 enlaces de esta pieza, *4 responden*.
-Ninguno roto.
+De los 4 enlaces de esta pieza, *3 responden*.
+
+• https://github.com/tachibana-shin/rakuyomi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

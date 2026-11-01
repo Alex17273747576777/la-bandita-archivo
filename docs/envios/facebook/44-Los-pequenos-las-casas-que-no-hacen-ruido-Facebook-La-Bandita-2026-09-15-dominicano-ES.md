@@ -96,7 +96,7 @@ Hay release de esta semana: **Paduu29/KomaStream** publicó v3.17 (2026-10-26). 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2299 caracteres ═══
+═══ MENSAJE 4 de 5 · 3017 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 44*
 
@@ -107,7 +107,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 • KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
 • e18lab/NHApp — ★135 (sin cambio) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · sin licencia detectada por la API · última release 1.3.1 (7-may-2026)
 • NyanTV/NyanTV — ★110 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (126 días) · AGPL-3.0 · última release v1.0.2 (27-jun-2026)
-• professorDeveloper/sozo — ★106 (+5) · empujó en las últimas horas · GPL-3.0 · última release v3.2.0 (27-sep-2026)
+• professorDeveloper/sozo — ★107 (+6) · empujó en las últimas horas · GPL-3.0 · última release v3.2.0 (27-sep-2026)
 • professorDeveloper/sozo-tv — ★77 (+2) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release 1.0.2 (24-ago-2026)
 • serene-brew/kaizen-app — ★60 (sin cambio) · empujó en las últimas horas · MIT · última release v3.2.1 (8-jun-2026)
 • Seguaz/Nekoyomi — ★48 (+1) · *dormido*: sin empujar desde el 11-sep-2026 (51 días) · Apache-2.0 · última release v0.20.6 (11-sep-2026)
@@ -119,8 +119,14 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *19 responden*.
-Ninguno roto.
+De los 19 enlaces de esta pieza, *13 responden*.
+
+• https://github.com/professorDeveloper/sozo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/professorDeveloper/sozo-tv — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/richtunic/Kitsu-X — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/serene-brew/kaizen-app — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/sozo-app/sozo-tv — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/uwumilabs/uwumi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

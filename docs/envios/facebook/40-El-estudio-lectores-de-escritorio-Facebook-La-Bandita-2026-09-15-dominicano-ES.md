@@ -98,21 +98,21 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1900 caracteres ═══
+═══ MENSAJE 4 de 5 · 1892 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 40*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Anxcye/anx-reader — ★9.152 (+58) · empujó el 17-oct-2026 (hace 15 días) · MIT · última release v1.14.0 (19-mar-2026)
-• koharu-rs/koharu — ★6.555 (+16) · empujó en las últimas horas · Apache-2.0 · última release 0.83.5 (22-sep-2026)
+• Anxcye/anx-reader — ★9.154 (+60) · empujó el 17-oct-2026 (hace 15 días) · MIT · última release v1.14.0 (19-mar-2026)
+• koharu-rs/koharu — ★6.556 (+17) · empujó en las últimas horas · Apache-2.0 · última release 0.83.5 (22-sep-2026)
 • lnreader/lnreader — ★2.945 (+3) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
 • edrlab/thorium-reader — ★2.925 (+3) · empujó el 30-oct-2026 (hace 2 días) · BSD-3-Clause · última release v3.5.1 (2-sep-2026)
 • dstark5/Openlib — ★2.510 (+3) · *dormido*: sin empujar desde el 18-ene-2026 (287 días) · GPL-3.0 · última release v1.0.11 (18-ene-2026)
 • ollm/OpenComic — ★2.025 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.6.5 (31-oct-2025)
 • LagradOst/QuickNovel — ★1.878 (+1) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v3.8.1 (26-oct-2026)
 • YACReader/yacreader — ★1.424 (+3) · empujó en las últimas horas · GPL-3.0 · última release 10.4.0 (9-oct-2026)
-• dazedcat19/FMD2 — ★1.171 (sin cambio) · empujó en las últimas horas · GPL-2.0 · última release 2.0.34.5 (17-mar-2025)
+• dazedcat19/FMD2 — ★1.172 (+1) · empujó en las últimas horas · GPL-2.0 · última release 2.0.34.5 (17-mar-2025)
 • IReaderorg/IReader — ★982 (+2) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
 • Paperback-iOS/app — ★788 (+1) · empujó el 29-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release v0.8.11-r2 (20-may-2025)
 • mienaiyami/yomikiru — ★573 (+1) · empujó el 22-oct-2026 (hace 10 días) · MIT · última release v2.25.1 (23-oct-2026)

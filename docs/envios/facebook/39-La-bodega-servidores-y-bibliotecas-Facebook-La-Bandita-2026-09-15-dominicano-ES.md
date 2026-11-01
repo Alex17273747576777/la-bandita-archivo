@@ -61,7 +61,7 @@ Hay release de esta semana: **gotson/komga** publicó 1.29.2 (2026-10-28). Con r
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 909 caracteres ═══
+═══ MENSAJE 3 de 4 · 1025 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 39*
 
@@ -75,8 +75,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 8 enlaces de esta pieza, *8 responden*.
-Ninguno roto.
+De los 8 enlaces de esta pieza, *7 responden*.
+
+• https://github.com/tachimanga/Tachidesk-Server — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

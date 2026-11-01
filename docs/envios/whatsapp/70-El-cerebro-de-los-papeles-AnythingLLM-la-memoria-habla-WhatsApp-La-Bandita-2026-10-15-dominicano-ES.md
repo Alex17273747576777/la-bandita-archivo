@@ -78,10 +78,10 @@ REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — mll-gnihtyna/sbaL-xelptniM
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.497 (+258) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• ollama/ollama — ★185.501 (+262) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
 • Mintplex-Labs/anything-llm — ★67.801 (+89) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v1.19.0 (26-oct-2026)
 • jellyfin/jellyfin — ★58.875 (+88) · empujó el 30-oct-2026 (hace 2 días) · GPL-2.0 · última release v12.4 (26-oct-2026)
-• paperless-ngx/paperless-ngx — ★47.463 (+160) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
+• paperless-ngx/paperless-ngx — ★47.466 (+163) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

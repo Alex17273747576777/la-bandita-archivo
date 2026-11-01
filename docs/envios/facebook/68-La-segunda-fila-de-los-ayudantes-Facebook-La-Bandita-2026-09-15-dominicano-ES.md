@@ -100,7 +100,7 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1973 caracteres ═══
+═══ MENSAJE 4 de 5 · 2206 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 68*
 
@@ -123,8 +123,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 23 enlaces de esta pieza, *23 responden*.
-Ninguno roto.
+De los 23 enlaces de esta pieza, *21 responden*.
+
+• https://github.com/tasks/tasks — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/thunderbird/thunderbird-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

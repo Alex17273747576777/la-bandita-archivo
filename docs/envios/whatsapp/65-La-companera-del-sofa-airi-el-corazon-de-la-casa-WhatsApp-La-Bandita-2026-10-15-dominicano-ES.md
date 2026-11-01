@@ -74,9 +74,9 @@ REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — iria/ia-ureom=2|REV|TIM=3
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.497 (+258) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• moeru-ai/airi — ★50.967 (+77) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
-• paperless-ngx/paperless-ngx — ★47.463 (+160) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
+• ollama/ollama — ★185.501 (+262) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• moeru-ai/airi — ★50.968 (+78) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
+• paperless-ngx/paperless-ngx — ★47.466 (+163) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

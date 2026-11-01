@@ -96,15 +96,15 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2210 caracteres ═══
+═══ MENSAJE 4 de 5 · 2336 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 50*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• kushagrasinghx/BitChord — ★5.056 (+202) · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
+• kushagrasinghx/BitChord — ★5.057 (+203) · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
 • brahmkshatriya/echo — ★3.606 (+2) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
-• Flow-Tube/Flow — ★3.227 (+64) · empujó en las últimas horas · GPL-3.0 · última release v3.0.0 (17-oct-2026)
+• Flow-Tube/Flow — ★3.228 (+65) · empujó en las últimas horas · GPL-3.0 · última release v3.0.0 (17-oct-2026)
 • lovegaoshi/azusa-player-mobile — ★1.389 (+1) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0 · última release v4.4.0 (28-oct-2026)
 • AudileTeam/Audile — ★1.387 (+6) · empujó en las últimas horas · GPL-3.0 · última release v1.19.0 (5-oct-2026)
 • shub39/Rush — ★1.045 (+1) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 7.2.0 (28-oct-2026)
@@ -119,9 +119,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *17 responden*.
+De los 19 enlaces de esta pieza, *16 responden*.
 
 • http://bitplane.net/projects/android/microphone/ — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/recloudstream/extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/shub39/Rush — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4

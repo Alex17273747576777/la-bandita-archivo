@@ -52,7 +52,7 @@ Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda *
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• komi-store/komi-store — ★20.179 (+89) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• komi-store/komi-store — ★20.180 (+90) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

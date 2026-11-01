@@ -42,7 +42,7 @@ Medición de hoy, sin anestesia: de los 1 repos que esta pieza enlaza, ninguno r
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 515 caracteres ═══
+═══ MENSAJE 3 de 4 · 542 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 49*
 
@@ -54,7 +54,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pie
 
 De los 1 enlaces de esta pieza, *0 responden*.
 
-• https://github.com/ycngmn/CuxPlug — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/ycngmn/CuxPlug — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

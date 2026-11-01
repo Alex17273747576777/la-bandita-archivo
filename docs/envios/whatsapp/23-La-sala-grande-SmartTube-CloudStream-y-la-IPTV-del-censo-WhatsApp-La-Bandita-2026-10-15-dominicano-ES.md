@@ -633,7 +633,7 @@ REV|92-01-6202 — depiP/depiPmaeT=1|REV|50-21-5202 — ppa-urim/tcejorp-urim=2|
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1329 caracteres ═══
+═══ MENSAJE 15 de 16 · 1337 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 23*
 
@@ -641,11 +641,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 8 repositorios que cita esta pie
 
 • jellyfin/jellyfin — ★58.875 (+88) · empujó el 30-oct-2026 (hace 2 días) · GPL-2.0 · última release v12.4 (26-oct-2026)
 • yuliskov/SmartTube — ★35.782 (+66) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 32.68s (20-oct-2026)
-• recloudstream/cloudstream — ★11.112 (+16) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
-• TeamPiped/Piped — ★10.300 (+4) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
+• recloudstream/cloudstream — ★11.113 (+17) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• TeamPiped/Piped — ★10.299 (+3) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
 • miru-project/miru-app — ★5.790 (+6) · *dormido*: sin empujar desde el 5-dic-2025 (331 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
 • mytv-android/mytv-android — ★2.974 (+44) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release V2.2.0.219 (21-ago-2026)
-• horsemail/yourtv — ★1.358 (+1) · *dormido*: sin empujar desde el 25-ago-2026 (68 días) · MIT · última release v2.4.3 (3-jul-2026)
+• horsemail/yourtv — ★1.357 (sin cambio) · *dormido*: sin empujar desde el 25-ago-2026 (68 días) · MIT · última release v2.4.3 (3-jul-2026)
 • oxyroid/M3UAndroid — ★1.286 (+2) · empujó el 20-sep-2026 (hace 42 días) · GPL-3.0 · última release v1.15.0 (29-mar-2025) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

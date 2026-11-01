@@ -60,9 +60,9 @@ Hay un camino intermedio que casi nadie explica bien y que hoy está maduro: *Sh
 
 Medido hoy, en el mundo que hay alrededor:
 
-• `RikkaApps/Shizuku` — *★32.552 · Apache-2.0 · sin empujar desde el 18 de junio de 2025: 500 días*. Dormido. Y aun así es el estándar de facto. Esto es lo que significa «dormido no es muerto»: una pieza de infraestructura terminada puede estar años quieta y funcionar igual.
-• `iamr0s/Dhizuku` — *★4.067 · GPL-3.0 · empujó hoy · release v2.13.0*. La alternativa, viva y moviéndose.
-• `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó en las últimas horas*. La tienda de apps que usan Shizuku.
+• `RikkaApps/Shizuku` — *★32.554 · Apache-2.0 · sin empujar desde el 18 de junio de 2025: 500 días*. Dormido. Y aun así es el estándar de facto. Esto es lo que significa «dormido no es muerto»: una pieza de infraestructura terminada puede estar años quieta y funcionar igual.
+• `iamr0s/Dhizuku` — *★4.069 · GPL-3.0 · empujó ayer · release v2.13.0*. La alternativa, viva y moviéndose.
+• `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy*. La tienda de apps que usan Shizuku.
 • `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy · release 1.5.0 del 5 de octubre*. Tienda e instalador para apps con Shizuku, y catálogo hecho por el mismo autor de `awesome-shizuku`.
 
 *La advertencia que va con esto y va en serio:* darle Shizuku a una app es darle llaves que Android no le daría. Instala solo apps cuyo código puedas leer. Un permiso de núcleo en manos de un desconocido es peor que un anuncio.
@@ -124,7 +124,7 @@ Joven, exigente, con verificación por DNS y firmas modernas. Pide Android 12 o 
 *LAS QUE NACIERON DESPUÉS*
 
 *7 · RepoStore — te cuesta aprender un gesto nuevo*
-*★1.369 · MIT · creado el 13 de enero de 2026 · release v1.0.22 publicada hoy.* Explora lo que se publica en GitHub, te muestra las releases con sus APK y sus checksums, y lo instala. Es la puerta nueva más limpia que medí: licencia clara, equipo real y una versión publicada el mismo día en que la miré.
+*★1.369 · MIT · creado el 13 de enero de 2026 · release v1.0.22 publicada el 29 de octubre.* Explora lo que se publica en GitHub, te muestra las releases con sus APK y sus checksums, y lo instala. Es la puerta nueva más limpia que medí: licencia clara, equipo real y una versión publicada el mismo día en que la miré.
 
 *8 · ShizuStore — te cuesta tener Shizuku*
 *★501 · GPL-3.0 · creado el 17 de septiembre de 2026 · release 1.5.0 del 5 de octubre.* Seis semanas de vida. La tienda de las apps que necesitan Shizuku para hacer su trabajo, hecha por el mismo autor del catálogo `awesome-shizuku`. Si no tienes Shizuku, no te sirve para nada: esa es la parte honesta.
@@ -136,10 +136,10 @@ Joven, exigente, con verificación por DNS y firmas modernas. Pide Android 12 o 
 *★124 · MIT · creado el 2 de febrero de 2026 · release v0.9.1 del 20 de octubre.* Gestor de paquetes para Termux que funciona sin internet: catálogo local, compilación y arreglo de dependencias. Nicho puro y lo digo como nicho: si no usas Termux, no te interesa.
 
 *11 · universal-installer — te cuesta entender qué es un paquete partido*
-*★1.653 · GPL-3.0 · creado el 28 de julio de 2025 · release v1.20.0 del 25 de octubre · empujó ayer.* Los APK divididos por arquitectura e idioma son la causa número uno del «la app no se instala». Esta es la herramienta que lo resuelve sin que tengas que saber qué es un ABI.
+*★1.653 · GPL-3.0 · creado el 28 de julio de 2025 · release v1.20.0 del 25 de octubre · empujó hoy.* Los APK divididos por arquitectura e idioma son la causa número uno del «la app no se instala». Esta es la herramienta que lo resuelve sin que tengas que saber qué es un ABI.
 
 *12 · InstallerX-Revived — te cuesta el diálogo de siempre*
-*★7.257 · GPL-3.0 · creado el 6 de noviembre de 2024 · release 26.09 del 30 de septiembre · empujó hoy.* Toma el control del instalador del sistema y te deja elegir perfil, usuario e idioma antes de instalar. Para el que instala lo mismo en el trabajo y en lo personal, esto no es un lujo.
+*★7.258 · GPL-3.0 · creado el 6 de noviembre de 2024 · release 26.09 del 30 de septiembre · empujó ayer.* Toma el control del instalador del sistema y te deja elegir perfil, usuario e idioma antes de instalar. Para el que instala lo mismo en el trabajo y en lo personal, esto no es un lujo.
 
 *LAS DOS QUE GOBIERNAN LO YA INSTALADO*
 
@@ -186,15 +186,15 @@ Cuando una casa funciona, lo que baja por ella son apps. Medí dieciséis hoy y 
 
 *Las que publicaron hoy o ayer (frescura pura):*
 
-• `samyak2403/RepoStore` — *★1.369 · MIT · release v1.0.22 de hoy*. Instala desde repositorios de GitHub sin intermediario.
+• `samyak2403/RepoStore` — *★1.369 · MIT · release v1.0.22 del 29 de octubre*. Instala desde repositorios de GitHub sin intermediario.
 • `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy · release 1.5.0 del 5 de octubre*. La tienda de las apps con Shizuku.
-• `wxxsfxyzm/InstallerX-Revived` — *★7.257 · GPL-3.0 · empujó hoy · release 26.09 del 30 de septiembre*.
-• `pass-with-high-score/universal-installer` — *★1.653 · GPL-3.0 · empujó ayer · release v1.20.0 del 25 de octubre*.
-• `GrapheneOS/AppStore` — *★624 · MIT · **release 37 publicada hoy mismo***.
+• `wxxsfxyzm/InstallerX-Revived` — *★7.258 · GPL-3.0 · empujó ayer · release 26.09 del 30 de septiembre*.
+• `pass-with-high-score/universal-installer` — *★1.653 · GPL-3.0 · empujó hoy · release v1.20.0 del 25 de octubre*.
+• `GrapheneOS/AppStore` — *★624 · MIT · **release 37 del 31 de octubre***.
 
 *Las que empujan siempre y publican poco (el caso que engaña):*
 
-• `accrescent/accrescent` — *★2.306 · Apache-2.0 · código de hoy · **release 0.28.1 del 10 de noviembre de 2025***. Si mirases solo releases, lo darías por muerto.
+• `accrescent/accrescent` — *★2.306 · Apache-2.0 · código de ayer · **release 0.28.1 del 10 de noviembre de 2025***. Si mirases solo releases, lo darías por muerto.
 • `JonaNorman/WebViewUpgrade` — *★456 · Apache-2.0 · empuje del 7 de septiembre · **sin release**.* Vivo, sin archivo: se compila.
 • `Paving-Base/APK-Installer` — *★1.712 · GPL-3.0 · empuje del 20 de octubre · release v0.1.28 del 11 de agosto de 2025*. Release de hace más de un año y código de este mes: el caso inverso al de siempre.
 
@@ -208,7 +208,7 @@ Cuando una casa funciona, lo que baja por ella son apps. Medí dieciséis hoy y 
 *Las de siempre que siguen siendo la respuesta correcta:*
 
 • `MuntashirAkon/AppManager` — *★9.393 · **sin licencia declarada en la API** · release v4.1.1 del 4 de septiembre*. Gobierna lo instalado.
-• `ImranR98/Obtainium` — *★21.096 · GPL-3.0 · empujó ayer · release v1.7.3 del 25 de octubre*. Sigue releases desde donde el desarrollador publica.
+• `ImranR98/Obtainium` — *★21.097 · GPL-3.0 · empujó hoy · release v1.7.3 del 25 de octubre*. Sigue releases desde donde el desarrollador publica.
 • `NeoApplications/Neo-Store` — *★5.591 · GPL-3.0 · release 1.3.3 del 23 de octubre*. Cliente de F-Droid con brújula de rastreadores.
 • `RikkaApps/Shizuku` — *★32.554 · Apache-2.0 · **último empuje el 18 de junio de 2025 · release v13.6.0 del 25 de mayo de 2025***. Cuatro meses sin moverse y sigue siendo el que presta permisos a media Android moderna. Un proyecto terminado no es un proyecto muerto.
 
@@ -357,7 +357,7 @@ Falso como regla general. El software libre es gratis porque su licencia lo perm
 Los APK son el formato de instalación de Android. Todo lo que tienes instalado en el teléfono —WhatsApp, el banco, la calculadora— llegó en un APK. La palabra no es el problema; el origen sí.
 
 *«Más estrellas, más seguro».*
-Hoy mismo medí `RikkaApps/Shizuku` con ★32.552 y 500 días sin empujar, y `GrapheneOS/AppStore` con ★624 y un empuje de hoy. La seguridad se mide en quién firma y qué tan rápido responde, no en popularidad.
+Hoy mismo medí `RikkaApps/Shizuku` con ★32.554 y 500 días sin empujar, y `GrapheneOS/AppStore` con ★624 y un empuje de ayer. La seguridad se mide en quién firma y qué tan rápido responde, no en popularidad.
 
 *«Los teléfonos viejos no aguantan nada».*
 Aguantan casi todo si no les metes veinte apps. Un teléfono de 2018 con seis apps bien elegidas funciona mejor que uno de 2024 con sesenta.
@@ -443,7 +443,7 @@ Lo que F-Droid no acepta todavía     | IzzyOnDroid             | Un estándar m
 Un cliente rápido y bonito           | Neo-Store / Droid-ify   | Nada
 Una app que solo vive en Play        | Aurora Store            | Paciencia o identidad
 Última versión, sin intermediarios   | Obtainium               | La verificación de un tercero
-Descubrir proyectos nuevos           | RepoStore               | Publicó versión hoy
+Descubrir proyectos nuevos           | RepoStore               | Versión del 29-oct
 Apps del ecosistema GrapheneOS       | GrapheneOS AppStore     | Catálogo chiquito
 Apps que usan Shizuku                | ShizuStore              | Permisos de núcleo
 Gobernar permisos de lo instalado    | AppManager / NG         | Conocer lo que corre

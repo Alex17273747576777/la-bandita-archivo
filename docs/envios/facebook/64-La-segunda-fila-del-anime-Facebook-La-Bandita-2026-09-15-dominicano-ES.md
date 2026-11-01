@@ -94,7 +94,7 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 13 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1822 caracteres ═══
+═══ MENSAJE 4 de 5 · 2053 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 64*
 
@@ -115,9 +115,11 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *20 responden*.
+De los 21 enlaces de esta pieza, *18 responden*.
 
 • https://github.com/videolan/vlc-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/xbmc/xbmc — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yuliskov/SmartTube — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -317,12 +317,12 @@ Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Mand
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ente/ente — ★29.800 (+58) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
-• T8RIN/ImageToolbox — ★15.278 (+37) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
-• floccusaddon/floccus — ★8.610 (+7) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
+• ente/ente — ★29.802 (+60) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
+• T8RIN/ImageToolbox — ★15.280 (+39) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
+• floccusaddon/floccus — ★8.611 (+8) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
 • ReadYouApp/ReadYou — ★7.632 (+8) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
-• deckerst/aves — ★5.475 (+7) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
+• deckerst/aves — ★5.476 (+8) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
 • burhanrashid52/PhotoEditor — ★4.531 (+1) · empujó el 27-sep-2026 (hace 35 días) · MIT · última release v.3.1.1 (17-sep-2026)
 • pulsejet/memories — ★3.872 (+4) · empujó en las últimas horas · AGPL-3.0 · última release v10.2.0 (23-oct-2026)
 • spacecowboy/Feeder — ★3.101 (+5) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.25.0 (23-oct-2026)
@@ -390,16 +390,22 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 60 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 10 de 12
 
-═══ MENSAJE 12 de 13 · 1030 caracteres ═══
+═══ MENSAJE 12 de 13 · 1765 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 91 enlaces de esta pieza, *84 responden*.
+De los 91 enlaces de esta pieza, *78 responden*.
 
 • https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/plateaukao/einkbro — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/pulsejet/memories — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/pynicolas/FairScan — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/rektpartyaftermath/Legado-booksource-collection — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/samuelclay/NewsBlur — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/spacecowboy/Feeder — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/ulightm111/boky-fivavahana-ion — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/v4lpt/MYC — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/vauvenal5/yaga — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/wikimedia/apps-android-wikipedia — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/zorgluf/souvenirs-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://play.google.com/store/apps/details?id=com.mshdabiola.playnotepad — 404. No existe hoy: no lo abras, no lo recomiendo.

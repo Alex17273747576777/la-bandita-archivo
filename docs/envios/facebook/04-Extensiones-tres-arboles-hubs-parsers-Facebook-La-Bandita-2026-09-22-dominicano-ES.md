@@ -60,7 +60,7 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1016 caracteres ═══
+═══ MENSAJE 3 de 4 · 1141 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
@@ -74,8 +74,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 7 enlaces de esta pieza, *6 responden*.
+De los 7 enlaces de esta pieza, *5 responden*.
 
+• https://github.com/yuzono/anime-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/yuzono/manga-repo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3

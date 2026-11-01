@@ -84,7 +84,7 @@ Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1699 caracteres ═══
+═══ MENSAJE 4 de 5 · 1933 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 36*
 
@@ -103,8 +103,10 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *15 responden*.
+De los 16 enlaces de esta pieza, *13 responden*.
 
+• https://github.com/pkmetski/riffle — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/readest/readest — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4

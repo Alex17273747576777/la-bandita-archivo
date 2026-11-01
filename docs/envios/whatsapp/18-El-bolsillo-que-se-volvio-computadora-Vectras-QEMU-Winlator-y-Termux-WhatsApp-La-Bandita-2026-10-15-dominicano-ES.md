@@ -1099,7 +1099,7 @@ REV|686.36★ — ppa-xumret/xumret=1|REV|atnevni es on :buHtiG ed XDPS nis=2|RE
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• termux/termux-app — ★63.845 (+169) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• termux/termux-app — ★63.850 (+174) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • ish-app/ish — ★20.656 (+11) · empujó el 24-oct-2026 (hace 8 días) · NOASSERTION · última release builds/494 (20-may-2023)
 • brunodev85/winlator — ★19.746 (+62) · empujó el 17-oct-2026 (hace 15 días) · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
 • ptitSeb/box64 — ★5.699 (+4) · empujó en las últimas horas · MIT · última release v0.4.4 (2-ago-2026)

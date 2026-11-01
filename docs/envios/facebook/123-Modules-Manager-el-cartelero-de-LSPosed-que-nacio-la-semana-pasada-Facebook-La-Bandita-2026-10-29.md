@@ -54,20 +54,22 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 705 caracteres ═══
+═══ MENSAJE 3 de 4 · 951 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 123*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• LSPosed/LSPosed — ★25.280 (+40) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
-• rushiranpise/lsposed-modules-manager — ★21 (+4) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.2.2 (30-oct-2026)
+• LSPosed/LSPosed — ★25.279 (+39) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
+• rushiranpise/lsposed-modules-manager — ★21 (+4) · empujó en las últimas horas · GPL-3.0 · última release v2.2.2 (30-oct-2026)
 • rushiranpise/xposed-modules — ★11 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 6 enlaces de esta pieza, *6 responden*.
-Ninguno roto.
+De los 6 enlaces de esta pieza, *4 responden*.
+
+• https://github.com/rushiranpise/lsposed-modules-manager — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/rushiranpise/xposed-modules — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

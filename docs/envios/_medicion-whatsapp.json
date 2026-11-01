@@ -1,10 +1,10 @@
 {
  "medido_en": "2026-11-01",
- "medido_en_utc": "2026-11-01T04:05:40+00:00",
+ "medido_en_utc": "2026-11-01T04:46:39+00:00",
  "repos": {
   "syncthing/syncthing": {
    "estado": "vivo",
-   "stars": 89956,
+   "stars": 89957,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -28,7 +28,7 @@
   },
   "KotatsuApp/Kotatsu": {
    "estado": "vivo",
-   "stars": 8943,
+   "stars": 8944,
    "push": "2025-11-04",
    "archivado": true,
    "licencia": "GPL-3.0",
@@ -208,7 +208,7 @@
   },
   "wxxsfxyzm/InstallerX-Revived": {
    "estado": "vivo",
-   "stars": 7257,
+   "stars": 7258,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -216,7 +216,7 @@
    "desc": "More Expressive InstallerX !",
    "release": "26.09",
    "release_fecha": "2026-09-30",
-   "stars_pieza": 7257
+   "stars_pieza": 7258
   },
   "Paving-Base/APK-Installer": {
    "estado": "vivo",
@@ -232,7 +232,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21096,
+   "stars": 21097,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -461,7 +461,7 @@
   "meyamane37923-hash/komikku-scans": {
    "estado": "vivo",
    "stars": 114,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": null,
    "lenguaje": "HTML",
@@ -554,7 +554,7 @@
   },
   "mihonapp/mihon": {
    "estado": "vivo",
-   "stars": 24913,
+   "stars": 24916,
    "push": "2026-10-26",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -590,7 +590,7 @@
   },
   "Kototoro-app/Kototoro": {
    "estado": "vivo",
-   "stars": 656,
+   "stars": 657,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -752,7 +752,7 @@
   "Suwayomi/Suwayomi-Tsumiru": {
    "estado": "vivo",
    "stars": 107,
-   "push": "2026-10-30",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "MPL-2.0",
    "lenguaje": "Dart",
@@ -991,7 +991,7 @@
   },
   "zmz125000/LocalViewer": {
    "estado": "vivo",
-   "stars": 197,
+   "stars": 198,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1039,7 +1039,7 @@
   },
   "aniyomiorg/aniyomi": {
    "estado": "vivo",
-   "stars": 7863,
+   "stars": 7865,
    "push": "2026-09-14",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1426,7 +1426,7 @@
   },
   "TeamNewPipe/NewPipe": {
    "estado": "vivo",
-   "stars": 40384,
+   "stars": 40385,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1450,7 +1450,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12607,
+   "stars": 12609,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1546,7 +1546,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 96844,
+   "stars": 96846,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1558,7 +1558,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 63845,
+   "stars": 63850,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1570,7 +1570,7 @@
   },
   "organicmaps/organicmaps": {
    "estado": "vivo",
-   "stars": 15838,
+   "stars": 15839,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1642,7 +1642,7 @@
   },
   "FossifyOrg/Calendar": {
    "estado": "vivo",
-   "stars": 2261,
+   "stars": 2262,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1654,7 +1654,7 @@
   },
   "FossifyOrg/File-Manager": {
    "estado": "vivo",
-   "stars": 1846,
+   "stars": 1847,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1667,7 +1667,7 @@
   "FossifyOrg/Phone": {
    "estado": "vivo",
    "stars": 1397,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -1678,7 +1678,7 @@
   },
   "FossifyOrg/Clock": {
    "estado": "vivo",
-   "stars": 717,
+   "stars": 718,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1719,7 +1719,7 @@
   },
   "ollama/ollama": {
    "estado": "vivo",
-   "stars": 185497,
+   "stars": 185501,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "MIT",
@@ -1815,7 +1815,7 @@
   },
   "iamr0s/Dhizuku": {
    "estado": "vivo",
-   "stars": 4068,
+   "stars": 4069,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1839,7 +1839,7 @@
   },
   "Riteshp2001/mpvRx": {
    "estado": "vivo",
-   "stars": 868,
+   "stars": 867,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1876,7 +1876,7 @@
   "SysAdminDoc/HushFeed": {
    "estado": "vivo",
    "stars": 342,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
@@ -1984,7 +1984,7 @@
   "SysAdminDoc/hushfeed": {
    "estado": "vivo",
    "stars": 342,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
@@ -1995,7 +1995,7 @@
   },
   "open-webui/open-webui": {
    "estado": "vivo",
-   "stars": 157421,
+   "stars": 157424,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2007,7 +2007,7 @@
   },
   "ggml-org/llama.cpp": {
    "estado": "vivo",
-   "stars": 133005,
+   "stars": 133010,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -2031,7 +2031,7 @@
   },
   "louislam/uptime-kuma": {
    "estado": "vivo",
-   "stars": 93125,
+   "stars": 93126,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -2067,7 +2067,7 @@
   },
   "pi-hole/pi-hole": {
    "estado": "vivo",
-   "stars": 61612,
+   "stars": 61614,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2079,7 +2079,7 @@
   },
   "go-gitea/gitea": {
    "estado": "vivo",
-   "stars": 58805,
+   "stars": 58806,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -2091,7 +2091,7 @@
   },
   "moeru-ai/airi": {
    "estado": "vivo",
-   "stars": 50967,
+   "stars": 50968,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -2103,7 +2103,7 @@
   },
   "qbittorrent/qBittorrent": {
    "estado": "vivo",
-   "stars": 41278,
+   "stars": 41279,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2127,7 +2127,7 @@
   },
   "nextcloud/server": {
    "estado": "vivo",
-   "stars": 37379,
+   "stars": 37380,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -2139,7 +2139,7 @@
   },
   "Dr-TSNG/ZygiskNext": {
    "estado": "vivo",
-   "stars": 10769,
+   "stars": 10768,
    "push": "2026-10-15",
    "archivado": false,
    "licencia": null,
@@ -2163,7 +2163,7 @@
   },
   "home-assistant/core": {
    "estado": "vivo",
-   "stars": 91879,
+   "stars": 91880,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2211,7 +2211,7 @@
   },
   "restic/restic": {
    "estado": "vivo",
-   "stars": 36913,
+   "stars": 36914,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "BSD-2-Clause",
@@ -2235,7 +2235,7 @@
   },
   "NeoApplications/Neo-Backup": {
    "estado": "vivo",
-   "stars": 3888,
+   "stars": 3889,
    "push": "2026-10-17",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -2247,7 +2247,7 @@
   },
   "researchxxl/syncthing-android": {
    "estado": "vivo",
-   "stars": 3215,
+   "stars": 3216,
    "push": "2026-10-22",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -2264,7 +2264,7 @@
   },
   "krishna3163/OmniShizuku": {
    "estado": "vivo",
-   "stars": 10,
+   "stars": 11,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2348,7 +2348,7 @@
   },
   "Leviidev/Husk": {
    "estado": "vivo",
-   "stars": 2906,
+   "stars": 2908,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -2385,7 +2385,7 @@
   "itsmechinmoy/dantotsu-updater": {
    "estado": "vivo",
    "stars": 154,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": null,
    "lenguaje": "Python",
@@ -2408,7 +2408,7 @@
   },
   "open-ani/animeko": {
    "estado": "vivo",
-   "stars": 21375,
+   "stars": 21376,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -2420,7 +2420,7 @@
   },
   "libre-tube/LibreTube": {
    "estado": "vivo",
-   "stars": 12926,
+   "stars": 12927,
    "push": "2026-10-30",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2432,7 +2432,7 @@
   },
   "recloudstream/cloudstream": {
    "estado": "vivo",
-   "stars": 11112,
+   "stars": 11113,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2444,7 +2444,7 @@
   },
   "TeamPiped/Piped": {
    "estado": "vivo",
-   "stars": 10300,
+   "stars": 10299,
    "push": "2026-10-30",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -2528,7 +2528,7 @@
   },
   "MorpheApp/MicroG-RE": {
    "estado": "vivo",
-   "stars": 6104,
+   "stars": 6105,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2624,19 +2624,19 @@
   },
   "Ebony-Vinyl/dsh-our-free-model": {
    "estado": "vivo",
-   "stars": 54597,
-   "push": "2026-10-31",
+   "stars": 54641,
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "JavaScript",
    "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-   "release": "v2.7.4-macos-unofficial",
-   "release_fecha": "2026-10-31",
+   "release": "v2.8.0-macos-unofficial",
+   "release_fecha": "2026-11-01",
    "stars_pieza": 50943
   },
   "janhq/jan": {
    "estado": "vivo",
-   "stars": 45207,
+   "stars": 45208,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2648,7 +2648,7 @@
   },
   "xai-org/grok-build": {
    "estado": "vivo",
-   "stars": 27634,
+   "stars": 27635,
    "push": "2026-09-29",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2660,13 +2660,13 @@
   },
   "yetone/magpie": {
    "estado": "vivo",
-   "stars": 27048,
+   "stars": 27075,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Go",
    "desc": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-   "release": "v0.1.2532",
+   "release": "v0.1.2537",
    "release_fecha": "2026-11-01",
    "stars_pieza": 25422
   },
@@ -2768,7 +2768,7 @@
   },
   "PixelPlayerHQ/PixelPlayer": {
    "estado": "vivo",
-   "stars": 6856,
+   "stars": 6857,
    "push": "2026-09-21",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2840,7 +2840,7 @@
   },
   "Crosstalk-Solutions/project-nomad": {
    "estado": "vivo",
-   "stars": 41497,
+   "stars": 41500,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2876,7 +2876,7 @@
   },
   "horsemail/yourtv": {
    "estado": "vivo",
-   "stars": 1358,
+   "stars": 1357,
    "push": "2026-08-25",
    "archivado": false,
    "licencia": "MIT",
@@ -2888,7 +2888,7 @@
   },
   "2dust/v2rayNG": {
    "estado": "vivo",
-   "stars": 65086,
+   "stars": 65088,
    "push": "2026-10-28",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2900,7 +2900,7 @@
   },
   "Johnshall/Shadowrocket-ADBlock-Rules-Forever": {
    "estado": "vivo",
-   "stars": 31725,
+   "stars": 31726,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2912,7 +2912,7 @@
   },
   "getlantern/lantern": {
    "estado": "vivo",
-   "stars": 16600,
+   "stars": 16601,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2936,7 +2936,7 @@
   },
   "GopeedLab/gopeed": {
    "estado": "vivo",
-   "stars": 27296,
+   "stars": 27298,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2984,7 +2984,7 @@
   },
   "dani-garcia/vaultwarden": {
    "estado": "vivo",
-   "stars": 70015,
+   "stars": 70017,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -2996,7 +2996,7 @@
   },
   "keepassxreboot/keepassxc": {
    "estado": "vivo",
-   "stars": 29651,
+   "stars": 29652,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -3068,7 +3068,7 @@
   },
   "LawnchairLauncher/lawnchair": {
    "estado": "vivo",
-   "stars": 13832,
+   "stars": 13833,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -3116,7 +3116,7 @@
   },
   "ukanth/afwall": {
    "estado": "vivo",
-   "stars": 3514,
+   "stars": 3515,
    "push": "2026-10-17",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3188,7 +3188,7 @@
   },
   "whyorean/AuroraStore": {
    "estado": "vivo",
-   "stars": 3211,
+   "stars": 3212,
    "push": "2026-10-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3284,7 +3284,7 @@
   },
   "celzero/rethink-app": {
    "estado": "vivo",
-   "stars": 5828,
+   "stars": 5829,
    "push": "2026-10-26",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3308,7 +3308,7 @@
   },
   "tailscale/tailscale": {
    "estado": "vivo",
-   "stars": 38444,
+   "stars": 38446,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -3320,7 +3320,7 @@
   },
   "tailscale/tailscale-android": {
    "estado": "vivo",
-   "stars": 2769,
+   "stars": 2770,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -3416,7 +3416,7 @@
   },
   "VREMSoftwareDevelopment/WiFiAnalyzer": {
    "estado": "vivo",
-   "stars": 5054,
+   "stars": 5055,
    "push": "2026-10-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3440,7 +3440,7 @@
   },
   "nextcloud/all-in-one": {
    "estado": "vivo",
-   "stars": 10770,
+   "stars": 10771,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3500,7 +3500,7 @@
   },
   "juanfont/headscale": {
    "estado": "vivo",
-   "stars": 45238,
+   "stars": 45239,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -3512,7 +3512,7 @@
   },
   "paperless-ngx/paperless-ngx": {
    "estado": "vivo",
-   "stars": 47463,
+   "stars": 47466,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3560,7 +3560,7 @@
   },
   "huggingface/transformers": {
    "estado": "vivo",
-   "stars": 168399,
+   "stars": 168400,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3572,7 +3572,7 @@
   },
   "unslothai/unsloth": {
    "estado": "vivo",
-   "stars": 78887,
+   "stars": 78891,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3620,7 +3620,7 @@
   },
   "hrydgard/ppsspp": {
    "estado": "vivo",
-   "stars": 14799,
+   "stars": 14797,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -3632,8 +3632,8 @@
   },
   "stenzek/duckstation": {
    "estado": "vivo",
-   "stars": 10928,
-   "push": "2026-10-31",
+   "stars": 10929,
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
    "lenguaje": "C++",
@@ -3716,7 +3716,7 @@
   },
   "PerformanC/ReZygisk": {
    "estado": "vivo",
-   "stars": 4108,
+   "stars": 4107,
    "push": "2026-10-11",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5345,8 +5345,8 @@
    "veredicto": "responde"
   },
   "https://melonds.kuribo64.net": {
-   "codigo": "403",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://meowblog.github.io/Articles/#play-integrity": {
    "codigo": "200",

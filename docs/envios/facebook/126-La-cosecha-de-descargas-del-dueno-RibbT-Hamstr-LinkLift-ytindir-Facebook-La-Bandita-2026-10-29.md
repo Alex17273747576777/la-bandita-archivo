@@ -61,7 +61,7 @@ Hay release de esta semana: **Mailo037/Hamstr** publicó v0.7.4 (2026-10-29). Co
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 919 caracteres ═══
+═══ MENSAJE 3 de 4 · 1026 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 126*
 
@@ -75,8 +75,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 6 enlaces de esta pieza, *6 responden*.
-Ninguno roto.
+De los 6 enlaces de esta pieza, *5 responden*.
+
+• https://github.com/rcrandon/gimmiedat — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

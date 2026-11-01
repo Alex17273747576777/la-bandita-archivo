@@ -95,9 +95,9 @@ REV|92-01-6202 — revres/duolctxen=1|REV|)82-01-6202( 2.0.53-elbats — diordna
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• pi-hole/pi-hole — ★61.612 (+53) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
+• pi-hole/pi-hole — ★61.614 (+55) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
 • jellyfin/jellyfin — ★58.875 (+88) · empujó el 30-oct-2026 (hace 2 días) · GPL-2.0 · última release v12.4 (26-oct-2026)
-• nextcloud/server — ★37.379 (+34) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• nextcloud/server — ★37.380 (+35) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • jellyfin/jellyfin-androidtv — ★4.689 (+14) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
 • home-assistant/android — ★4.012 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.1 (6-oct-2026)

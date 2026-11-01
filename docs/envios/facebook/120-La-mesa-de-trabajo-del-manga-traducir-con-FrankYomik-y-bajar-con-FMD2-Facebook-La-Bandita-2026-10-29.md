@@ -49,13 +49,13 @@ La noticia fresca es de **akitaonrails/FrankYomik**: release v2.0.4 (2026-10-27)
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 586 caracteres ═══
+═══ MENSAJE 3 de 4 · 578 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 120*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dazedcat19/FMD2 — ★1.171 (sin cambio) · empujó en las últimas horas · GPL-2.0 · última release 2.0.34.5 (17-mar-2025)
+• dazedcat19/FMD2 — ★1.172 (+1) · empujó en las últimas horas · GPL-2.0 · última release 2.0.34.5 (17-mar-2025)
 • akitaonrails/FrankYomik — ★214 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v2.0.4 (27-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

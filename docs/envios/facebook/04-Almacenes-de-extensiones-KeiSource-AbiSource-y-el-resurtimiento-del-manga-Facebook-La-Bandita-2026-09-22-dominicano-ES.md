@@ -65,7 +65,7 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1050 caracteres ═══
+═══ MENSAJE 3 de 4 · 1162 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
@@ -80,8 +80,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *9 responden*.
-Ninguno roto.
+De los 9 enlaces de esta pieza, *8 responden*.
+
+• https://github.com/yuzono/anime-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

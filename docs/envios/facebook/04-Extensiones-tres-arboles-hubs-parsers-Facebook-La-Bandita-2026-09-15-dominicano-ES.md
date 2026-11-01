@@ -104,7 +104,7 @@ Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-2
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2388 caracteres ═══
+═══ MENSAJE 4 de 5 · 2877 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
@@ -127,9 +127,13 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 23 enlaces de esta pieza, *20 responden*.
+De los 23 enlaces de esta pieza, *16 responden*.
 
+• https://github.com/stevenyomi/copymanga — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/tachiyomiorg/extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yuzono/anime-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/yuzono/cursed-manga-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yuzono/kohi-den — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/yuzono/tachiyomi-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://tachiyomi.org/extensions/ — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 

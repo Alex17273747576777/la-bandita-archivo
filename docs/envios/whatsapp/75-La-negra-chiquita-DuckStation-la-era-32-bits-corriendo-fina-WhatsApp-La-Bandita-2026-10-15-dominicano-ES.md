@@ -66,7 +66,7 @@ REV|)52-01-6202( tsetal — noitatskcud/keznets=1|REV|92-01-6202 — noitatskcud
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• stenzek/duckstation — ★10.928 (+13) · empujó en las últimas horas · NOASSERTION · última release latest (25-oct-2026)
+• stenzek/duckstation — ★10.929 (+14) · empujó en las últimas horas · NOASSERTION · última release latest (25-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

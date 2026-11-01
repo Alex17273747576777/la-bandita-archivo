@@ -204,7 +204,8 @@ def g10_bandas() -> tuple[list[str], str]:
     for canal, cfg in datos.items():
         if not isinstance(cfg, dict) or "piezas" not in cfg:
             continue
-        carpeta = {"whatsapp": "WhatsApp-dominicano-ES", "facebook": "Facebook-dominicano-ES"}.get(canal)
+        carpeta = {"whatsapp": "WhatsApp-dominicano-ES", "facebook": "Facebook-dominicano-ES",
+                   "posts": "POSTS-COMUNIDAD"}.get(canal)
         if not carpeta:
             continue
         for num, info in cfg["piezas"].items():

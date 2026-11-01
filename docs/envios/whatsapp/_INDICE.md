@@ -8,7 +8,7 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 |---|---|---|---|---|---|---|---|
 | 00 | LA LISTA: el ecosistema libre, guía por guía — el mapa entero de la bi | 26 | 3675 | 11 | 0 | sí | `00-LA-LISTA-ecosistema-libre-guia-por-guia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 27 | 3912 | 31 | 1 | no | `01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
-| 02 | El mueble de los tres cajones: la familia Tachiyomi, sus servidores y  | 27 | 3836 | 56 | 3 | no | `02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
+| 02 | El mueble de los tres cajones: la familia Tachiyomi, sus servidores y  | 27 | 3932 | 56 | 3 | no | `02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
 | 02 | Kototoro: el mueble de tres cajones que hoy volvió a hornear | 25 | 3684 | 5 | 2 | sí | `02-Kototoro-mueble-de-tres-cajones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 03 | El censo ya sonó en cuatro países: la verificación de desarrolladores, | 26 | 3514 | 1 | 0 | sí | `03-Verificacion-Desarrolladores-hito-30-sep-2026-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 04 | Almacenes de extensiones KeiSource AbiSource y el resurtimiento del ma | 28 | 3638 | 6 | 0 | sí | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -121,6 +121,6 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 98 | La foto III el sotano completo | 5 | 3742 | 7 | 0 | no | `98-La-foto-III-el-sotano-completo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 99 | La foto IV los jovenes del censo | 4 | 3492 | 5 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 
-**114 piezas · 1110 mensajes** · el mayor de todos: 3912 caracteres.
+**114 piezas · 1110 mensajes** · el mayor de todos: 3932 caracteres.
 
 
