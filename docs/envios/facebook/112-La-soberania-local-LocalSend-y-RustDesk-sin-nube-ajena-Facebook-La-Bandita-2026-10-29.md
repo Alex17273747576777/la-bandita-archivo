@@ -93,16 +93,16 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2120 caracteres ═══
+═══ MENSAJE 4 de 5 · 2138 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 112*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • rustdesk/rustdesk — ★127.770 (+275) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.0 (30-sep-2026)
-• localsend/localsend — ★96.902 (+445) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• termux/termux-app — ★63.872 (+194) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• RikkaApps/Shizuku — ★32.575 (+190) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• localsend/localsend — ★96.908 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• termux/termux-app — ★63.872 (sin cambio) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• RikkaApps/Shizuku — ★32.577 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • mihonapp/mihon — ★24.927 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komi-store/komi-store — ★20.198 (+108) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • keiyoushi/extensions — ★15.404 (+35) · empujó en las últimas horas · sin licencia detectada por la API · última release fc7a827-2 (1-nov-2026)

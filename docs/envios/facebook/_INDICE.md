@@ -8,8 +8,8 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 |---|---|---|---|---|---|---|---|
 | 00 | LA LISTA — El ecosistema libre en 79 guías (fundada el 14 · corte 18 d | 4 | 3764 | 0 | 0 | sí | `00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 19 | 3640 | 23 | 0 | no | `01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
-| 02 | EL BARRIO CAMBIÓ DE GENTE — el mueble de los cómics, contado por los q | 21 | 3919 | 58 | 3 | no | `02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
-| 03 | La cerradura que cambió de dueño | 20 | 3945 | 31 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
+| 02 | EL BARRIO CAMBIÓ DE GENTE — el mueble de los cómics, contado por los q | 21 | 3932 | 58 | 3 | no | `02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
+| 03 | La cerradura que cambió de dueño | 21 | 3851 | 31 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 04 | ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR, MEDIDA CON | 4 | 3187 | 6 | 0 | no | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 04 | El colmado de las extensiones: quién resurte los catálogos (y quién de | 19 | 3889 | 33 | 0 | no | `04-El-colmado-de-las-extensiones-quien-resurte-los-catalogos-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 05 | Clones, contraseñas y sesiones: el día en que el enlace no era el siti | 19 | 3598 | 17 | 0 | no | `05-Clones-contrasenas-y-sesiones-el-dia-que-el-enlace-no-era-el-sitio-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
@@ -21,6 +21,8 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 08 | MÚSICA LIBRE, DIEZ TALLERES MEDIDOS ESTA MAÑANA — Y UN TALLER QUE LE C | 5 | 3618 | 10 | 0 | no | `08-Musica-FOSS-clientes-con-repo-La-Bandita-2026-09-22-dominicano-ES` |
 | 08 | Música libre en el teléfono: los clientes con repositorio y los reempa | 16 | 3667 | 16 | 0 | no | `08-Musica-libre-en-el-telefono-los-clientes-con-repositorio-y-los-reempaques-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 09 | LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS CON SU HORA DE 22-sep-20 | 5 | 3731 | 10 | 0 | no | `09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
+| 09 | La caja de oficio del teléfono: archivos, terminal y la copia que camb | 18 | 3646 | 18 | 0 | no | `09-La-caja-de-oficio-del-telefono-archivos-terminal-y-la-copia-que-cambio-de-dueno-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
+| 10 | El taller de parches: lo que se toca, lo que se firma y lo que no se r | 18 | 3604 | 15 | 0 | no | `10-El-taller-de-parches-lo-que-se-toca-lo-que-se-firma-y-lo-que-no-se-receta-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 10 | GLTools no se receta: el letrero que sobrevivió a su propia muerte, el | 8 | 3536 | 3 | 1 | sí | `10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES` |
 | 100 | La foto V: la mesa redonda del censo | 2 | 791 | 0 | 0 | no | `100-La-foto-V-la-mesa-redonda-del-censo-Facebook-La-Bandita-2026-10-29` |
 | 101 | La foto VI: el pabellón de los dormidos | 4 | 2142 | 4 | 0 | no | `101-La-foto-VI-el-pabellon-de-los-dormidos-Facebook-La-Bandita-2026-10-29` |
@@ -99,7 +101,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 53 | Las otras forjas: GitLab, Codeberg y los sitios de la mina | 2 | 835 | 0 | 0 | no | `53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 54 | Las puertas del sistema y el taller — censo de la mina I | 11 | 3888 | 52 | 0 | no | `54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 55 | Las puertas del lector y las bibliotecas — censo de la mina II | 13 | 3922 | 60 | 0 | no | `55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 56 | Las puertas del anime y los servidores — censo de la mina III | 12 | 3925 | 62 | 3 | no | `56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
+| 56 | Las puertas del anime y los servidores — censo de la mina III | 12 | 3932 | 62 | 3 | no | `56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 57 | La hornada del lector: la mina con nombre | 5 | 3654 | 15 | 0 | no | `57-La-hornada-del-lector-la-mina-con-nombre-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 58 | La hornada del anime: el segundo territorio | 5 | 3687 | 14 | 0 | no | `58-La-hornada-del-anime-el-segundo-territorio-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 59 | La hornada del taller: las herramientas de la mina | 5 | 3775 | 16 | 0 | no | `59-La-hornada-del-taller-herramientas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
@@ -144,6 +146,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 98 | La foto III: el sótano completo | 4 | 1825 | 2 | 0 | no | `98-La-foto-III-el-sotano-completo-Facebook-La-Bandita-2026-10-29` |
 | 99 | La foto IV: los jóvenes del censo | 4 | 1302 | 1 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29` |
 
-**137 piezas · 713 mensajes** · el mayor de todos: 3945 caracteres.
+**139 piezas · 750 mensajes** · el mayor de todos: 3932 caracteres.
 
 

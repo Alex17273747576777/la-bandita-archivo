@@ -633,14 +633,14 @@ REV|92-01-6202 — depiP/depiPmaeT=1|REV|50-21-5202 — ppa-urim/tcejorp-urim=2|
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1314 caracteres ═══
+═══ MENSAJE 15 de 16 · 1321 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 23*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 8 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • jellyfin/jellyfin — ★58.887 (+100) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• yuliskov/SmartTube — ★35.800 (+84) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• yuliskov/SmartTube — ★35.801 (sin cambio) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • recloudstream/cloudstream — ★11.117 (+21) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • TeamPiped/Piped — ★10.299 (+3) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
 • miru-project/miru-app — ★5.791 (+7) · *dormido*: sin empujar desde el 5-dic-2025 (331 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)

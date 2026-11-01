@@ -23,6 +23,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -43,10 +44,18 @@ def leer_1(repo: str) -> dict:
     """Búsqueda: endpoint distinto al de repositorios, con su propio cupo."""
     url = ("https://api.github.com/search/repositories?q=repo:" + repo
            + "&per_page=1")
-    d = json.loads(trae(url, "application/vnd.github+json"))
-    if not d.get("items"):
-        raise LookupError("no aparece en la búsqueda")
-    it = d["items"][0]
+    try:
+        d = json.loads(trae(url, "application/vnd.github+json"))
+        it = (d.get("items") or [None])[0]
+    except urllib.error.HTTPError:
+        it = None
+    if not it:  # la búsqueda rechaza algunos nombres: se pregunta por el repo
+        it = json.loads(trae("https://api.github.com/repos/" + repo,
+                             "application/vnd.github+json"))
+        it = dict(it, stargazers_count=it.get("stargazers_count"),
+                  pushed_at=it.get("pushed_at"), archived=it.get("archived"),
+                  language=it.get("language"), description=it.get("description"),
+                  license=it.get("license"))
     return {"stars": it.get("stargazers_count"),
             "licencia": (it.get("license") or {}).get("spdx_id") or "sin licencia",
             "lenguaje": it.get("language") or "—",
@@ -70,6 +79,15 @@ def leer_2(repo: str) -> dict:
     m = re.search(r'relative-time[^>]*datetime="([\d\-T:Z]+)"', h)
     if m:
         out["push_html"] = m.group(1)[:10]
+    if "stars_html" not in out:
+        m = re.search(r'"stargazerCount":(\d+)', h)
+        if m:
+            out["stars_html"] = int(m.group(1))
+    if "push_html" not in out:
+        m = re.search(r'"pushedAt":"([\d\-T:Z]+)"', h) or \
+            re.search(r'datetime="([\d\-T:Z]+)"', h)
+        if m:
+            out["push_html"] = m.group(1)[:10]
     if not out:
         raise LookupError("la página no trajo metadatos")
     return out
@@ -78,7 +96,7 @@ def leer_2(repo: str) -> dict:
 def leer_3(repo: str) -> dict:
     """Contenido crudo: README y LICENSE, sin pasar por la interfaz."""
     out: dict = {}
-    nombres = ("README.md", "readme.md", "README.rst", "README", "README.txt")
+    nombres = ("README.md", "readme.md", "README.MD", "Readme.md", "README.rst", "README", "readme", "README.txt")
     for rama in ("HEAD", "main", "master"):
         txt = ""
         for n in nombres:
@@ -129,7 +147,10 @@ def main() -> int:
     guardar = "--guardar" in sys.argv
     repos = [l.strip() for l in sys.stdin if l.strip() and not l.startswith("#")]
     filas, problemas = {}, 0
-    for repo in repos:
+    pausa = 6.5 if not any(a.startswith("--sin-pausa") for a in sys.argv) else 0
+    for i, repo in enumerate(repos):
+        if i and pausa:
+            time.sleep(pausa)  # cupo de la búsqueda: 10 por minuto
         try:
             fila, avisos = medir(repo)
         except Exception as e:  # noqa: BLE001 — se informa y se sigue

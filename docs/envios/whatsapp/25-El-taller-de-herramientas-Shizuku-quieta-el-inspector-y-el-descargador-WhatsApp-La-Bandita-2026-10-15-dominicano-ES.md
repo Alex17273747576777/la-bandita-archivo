@@ -649,18 +649,18 @@ REV|81-60-5202 — ukuzihS/sppAakkiR=1|REV|92-01-6202 — deepog/baLdeepoG=2|REV
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1315 caracteres ═══
+═══ MENSAJE 15 de 16 · 1343 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 25*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.575 (+191) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.577 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • GopeedLab/gopeed — ★27.306 (+60) · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
-• MuntashirAkon/AppManager — ★9.399 (+29) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• MuntashirAkon/AppManager — ★9.399 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
 • florisboard/florisboard — ★8.740 (+7) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
-• TeamAmaze/AmazeFileManager — ★6.449 (+1) · empujó en las últimas horas · GPL-3.0 · última release v3.11.4 (15-oct-2026)
-• gsantner/markor — ★6.363 (+14) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v2026.10.0 (25-oct-2026)
+• TeamAmaze/AmazeFileManager — ★6.450 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v3.11.4 (15-oct-2026)
+• gsantner/markor — ★6.363 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v2026.10.0 (25-oct-2026)
 • zfdang/Android-Touch-Helper — ★5.338 (+2) · empujó el 19-oct-2026 (hace 13 días) · MIT · última release tag-278 (10-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

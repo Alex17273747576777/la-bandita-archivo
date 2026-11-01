@@ -131,7 +131,7 @@ La noticia fresca es de **lollipopkit/flutter_server_box**: release v1.0.1844 (2
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2465 caracteres ═══
+═══ MENSAJE 5 de 6 · 2472 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 75*
 
@@ -142,7 +142,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pi
 • immich-app/immich — ★117.862 (+250) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
 • photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • SagerNet/sing-box — ★39.498 (+109) · empujó el 28-oct-2026 (hace 4 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
-• yuliskov/SmartTube — ★35.800 (+91) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• yuliskov/SmartTube — ★35.801 (sin cambio) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • ente/ente — ★29.808 (+66) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
 • mlc-ai/mlc-llm — ★23.289 (+4) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • xbmc/xbmc — ★21.410 (+11) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)

@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `1b86026db9ce7379514b3521b5973234217cc1051e26a4a0966f06a265c152fe`
-- **Envío generado:** 2026-11-01 · 21 mensajes · el mayor de 3919 caracteres
+- **Envío generado:** 2026-11-01 · 21 mensajes · el mayor de 3932 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 21 · 782 caracteres ═══
@@ -648,14 +648,14 @@ Lo que estas cuarenta y nueve fichas enseñan, dicho en plata: *un proyecto pued
 
 ⏬ sigue abajo · parte 16 de 20
 
-═══ MENSAJE 18 de 21 · 3919 caracteres ═══
+═══ MENSAJE 18 de 21 · 3932 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 58 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• MuntashirAkon/AppManager — ★9.399 (+29) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• MuntashirAkon/AppManager — ★9.399 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
 • Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • Kareadita/Kavita — ★11.988 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
 • roxycon-dev/Ciallo-Reader — ★267 (sin cambio) · empujó en las últimas horas · MIT
@@ -686,7 +686,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 58 repositorios que cita esta pi
 • tachiyomiorg/tachiyomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • Mangayomi-app/Mangayomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • Paperback-Community/Paperback — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• RikkaApps/Shizuku — ★32.575 (+190) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.577 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 
 ⏬ sigue abajo · parte 17 de 20
 

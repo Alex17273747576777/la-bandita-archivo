@@ -60,13 +60,13 @@ REV|754.69★ — dneslacol/dneslacol=1|REV|92-01-6202 — dneslacol/dneslacol=2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 461 caracteres ═══
+═══ MENSAJE 3 de 4 · 467 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 49*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★96.902 (+445) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• localsend/localsend — ★96.908 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

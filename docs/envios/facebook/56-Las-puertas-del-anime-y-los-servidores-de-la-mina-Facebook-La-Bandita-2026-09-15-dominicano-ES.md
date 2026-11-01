@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `d48100022cd4f669aca6eefbda402d8390d2960b9863132a10e2c09dc59146dc`
-- **Envío generado:** 2026-11-01 · 12 mensajes · el mayor de 3925 caracteres
+- **Envío generado:** 2026-11-01 · 12 mensajes · el mayor de 3932 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 12 · 940 caracteres ═══
@@ -283,14 +283,14 @@ La noticia amarga: **jpdoshi/dragon-store** (caído (404)), **ycngmn/CuxPlug** (
 
 ⏬ sigue abajo · parte 6 de 11
 
-═══ MENSAJE 8 de 12 · 3925 caracteres ═══
+═══ MENSAJE 8 de 12 · 3932 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 56*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 62 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • immich-app/immich — ★117.862 (+250) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• yuliskov/SmartTube — ★35.800 (+91) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• yuliskov/SmartTube — ★35.801 (sin cambio) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • xbmc/xbmc — ★21.410 (+11) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
 • lollipopkit/flutter_server_box — ★8.924 (+27) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
 • standardnotes/app — ★6.693 (+5) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)

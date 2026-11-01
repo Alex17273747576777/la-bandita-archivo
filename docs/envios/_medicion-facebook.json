@@ -15,16 +15,16 @@
    "stars_pieza": null
   },
   "RikkaApps/Shizuku": {
-   "estado": "vivo",
-   "stars": 32575,
-   "push": "2025-06-18",
-   "archivado": false,
+   "stars": 32577,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
+   "push": "2025-06-18",
    "desc": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+   "archivado": false,
+   "estado": "vivo",
    "release": "v13.6.0",
    "release_fecha": "2025-05-25",
-   "stars_pieza": 32385
+   "stars_pieza": 32577
   },
   "iamr0s/Dhizuku": {
    "estado": "vivo",
@@ -207,16 +207,16 @@
    "stars_pieza": null
   },
   "MuntashirAkon/AppManager": {
-   "estado": "vivo",
    "stars": 9399,
-   "push": "2026-10-30",
-   "archivado": false,
    "licencia": "NOASSERTION",
    "lenguaje": "Java",
+   "push": "2026-10-30",
    "desc": "A full-featured package manager and viewer for Android",
+   "archivado": false,
+   "estado": "vivo",
    "release": "v4.1.1",
    "release_fecha": "2026-09-04",
-   "stars_pieza": 9370
+   "stars_pieza": 9399
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
@@ -266,16 +266,16 @@
    "stars_pieza": null
   },
   "Droid-ify/client": {
-   "estado": "vivo",
-   "stars": 7677,
-   "push": "2026-09-12",
-   "archivado": false,
+   "stars": 7678,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-09-12",
    "desc": "Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client",
+   "archivado": false,
+   "estado": "vivo",
    "release": "v0.7.8",
    "release_fecha": "2026-09-12",
-   "stars_pieza": 7661
+   "stars_pieza": 7678
   },
   "UsagiApp/Usagi": {
    "stars": 288,
@@ -989,16 +989,16 @@
    "stars_pieza": null
   },
   "GrapheneOS/PdfViewer": {
-   "estado": "vivo",
    "stars": 1062,
-   "push": "2026-10-28",
-   "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Kotlin",
+   "push": "2026-10-28",
    "desc": "Simple Android PDF viewer based on pdf.js and content providers. The app doesn't require any permissions. The PDF stream is fed into the sandboxed WebView without giving it access to content or files. CSP is used to enforce that the JavaScript and styling properties within the WebView are entirely static.",
+   "archivado": false,
+   "estado": "vivo",
    "release": "33",
    "release_fecha": "2026-07-30",
-   "stars_pieza": null
+   "stars_pieza": 1062
   },
   "GrapheneOS/hardened_malloc": {
    "estado": "vivo",
@@ -1726,28 +1726,28 @@
    "stars_pieza": 103
   },
   "localsend/localsend": {
-   "estado": "vivo",
-   "stars": 96902,
-   "push": "2026-10-29",
-   "archivado": false,
+   "stars": 96908,
    "licencia": "Apache-2.0",
    "lenguaje": "Dart",
+   "push": "2026-10-29",
    "desc": "An open-source cross-platform alternative to AirDrop",
+   "archivado": false,
+   "estado": "vivo",
    "release": "v1.18.2",
    "release_fecha": "2026-08-21",
-   "stars_pieza": 96457
+   "stars_pieza": 96908
   },
   "termux/termux-app": {
-   "estado": "vivo",
    "stars": 63872,
-   "push": "2026-09-26",
-   "archivado": false,
    "licencia": "NOASSERTION",
    "lenguaje": "Java",
+   "push": "2026-09-26",
    "desc": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+   "archivado": false,
+   "estado": "vivo",
    "release": "v0.118.3",
    "release_fecha": "2025-05-22",
-   "stars_pieza": 63678
+   "stars_pieza": 63872
   },
   "organicmaps/organicmaps": {
    "estado": "vivo",
@@ -1784,16 +1784,16 @@
    "release_fecha": "2026-10-31"
   },
   "TeamAmaze/AmazeFileManager": {
-   "estado": "vivo",
-   "stars": 6449,
-   "push": "2026-10-31",
-   "archivado": false,
+   "stars": 6450,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-31",
    "desc": "Material design file manager for Android",
+   "archivado": false,
+   "estado": "vivo",
    "release": "v3.11.4",
    "release_fecha": "2026-10-15",
-   "stars_pieza": 6447
+   "stars_pieza": 6450
   },
   "guardianproject/orbot-android": {
    "estado": "vivo",
@@ -1969,13 +1969,13 @@
    "stars_pieza": 89873
   },
   "syncthing/syncthing-android": {
-   "estado": "vivo",
    "stars": 4293,
-   "push": "2024-12-03",
-   "archivado": true,
    "licencia": "MPL-2.0",
    "lenguaje": "Java",
+   "push": "2024-12-03",
    "desc": "Wrapper of syncthing for Android.",
+   "archivado": true,
+   "estado": "archivado",
    "release": "1.28.1",
    "release_fecha": "2024-12-03",
    "stars_pieza": 4293
@@ -2430,28 +2430,28 @@
    "stars_pieza": 10501
   },
   "ReVanced/revanced-manager": {
-   "estado": "vivo",
-   "stars": 30028,
-   "push": "2026-07-29",
-   "archivado": false,
+   "stars": 30029,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "💊 Application to use ReVanced on Android",
+   "push": "2026-07-29",
+   "desc": "💊 Application to use ReVanced on Android ",
+   "archivado": false,
+   "estado": "vivo",
    "release": "v2.6.0",
    "release_fecha": "2026-04-26",
-   "stars_pieza": 30001
+   "stars_pieza": 30029
   },
   "LSPosed/LSPosed": {
-   "estado": "vivo",
-   "stars": 25286,
-   "push": "2026-10-14",
-   "archivado": false,
+   "stars": 25287,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
+   "push": "2026-10-14",
    "desc": "LSPosed Framework",
+   "archivado": false,
+   "estado": "vivo",
    "release": "v1.9.2",
    "release_fecha": "2023-10-11",
-   "stars_pieza": 25240
+   "stars_pieza": 25287
   },
   "rushiranpise/lsposed-modules-manager": {
    "estado": "vivo",
@@ -4108,16 +4108,16 @@
    "stars_pieza": 153501
   },
   "topjohnwu/Magisk": {
-   "estado": "vivo",
-   "stars": 63664,
-   "push": "2026-10-27",
-   "archivado": false,
+   "stars": 63665,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-27",
    "desc": "The Magic Mask for Android",
+   "archivado": false,
+   "estado": "vivo",
    "release": "v31.1",
    "release_fecha": "2026-10-25",
-   "stars_pieza": 63595
+   "stars_pieza": 63665
   },
   "tiann/KernelSU": {
    "estado": "vivo",
@@ -4168,16 +4168,16 @@
    "stars_pieza": 4337
   },
   "Aefyr/SAI": {
-   "estado": "vivo",
    "stars": 3955,
-   "push": "2024-06-03",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
+   "push": "2024-06-03",
    "desc": "Android split APKs installer",
+   "archivado": false,
+   "estado": "vivo",
    "release": "4.5",
    "release_fecha": "2021-02-25",
-   "stars_pieza": 3950
+   "stars_pieza": 3955
   },
   "zacharee/InstallWithOptions": {
    "estado": "vivo",
@@ -4192,16 +4192,16 @@
    "stars_pieza": 3385
   },
   "whyorean/AuroraStore": {
-   "estado": "vivo",
    "stars": 3215,
-   "push": "2026-11-01",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-01",
    "desc": "",
-   "release": null,
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v2.0.5-β",
    "release_fecha": "",
-   "stars_pieza": 3198
+   "stars_pieza": 3215
   },
   "0x192/universal-android-debloater": {
    "estado": "vivo",
@@ -4749,16 +4749,16 @@
    "stars_pieza": 77
   },
   "zhanghai/MaterialFiles": {
-   "estado": "vivo",
-   "stars": 9373,
-   "push": "2026-10-15",
-   "archivado": false,
+   "stars": 9370,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-15",
    "desc": "Material Design file manager for Android",
+   "archivado": false,
+   "estado": "vivo",
    "release": "v1.7.5",
    "release_fecha": "2026-09-20",
-   "stars_pieza": 9345
+   "stars_pieza": 9370
   },
   "OpenMinis/OpenMinis": {
    "estado": "vivo",
@@ -7666,16 +7666,16 @@
    "stars_pieza": 0
   },
   "yuliskov/SmartTube": {
-   "estado": "vivo",
-   "stars": 35800,
-   "push": "2026-11-01",
-   "archivado": false,
+   "stars": 35801,
    "licencia": "MIT",
    "lenguaje": "Java",
+   "push": "2026-11-01",
    "desc": "Browse media content with your own rules on Android TV",
+   "archivado": false,
+   "estado": "vivo",
    "release": "32.68s",
    "release_fecha": "2026-10-20",
-   "stars_pieza": 35709
+   "stars_pieza": 35801
   },
   "xbmc/xbmc": {
    "estado": "vivo",
@@ -8836,6 +8836,222 @@
    "release": "",
    "release_fecha": "",
    "stars_pieza": 2843
+  },
+  "termux/termux-packages": {
+   "stars": 17282,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Shell",
+   "push": "2026-11-01",
+   "desc": "A package build system for Termux.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "bootstrap-2026.11.01-r1+apt.android-7",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": 17282
+  },
+  "gsantner/markor": {
+   "stars": 6363,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Java",
+   "push": "2026-10-30",
+   "desc": "Text editor - Notes, ToDo & Filemanager (for Android) - Markdown, todo.txt, plaintext, math, ..",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v2026.10.0",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": 6363
+  },
+  "Acode-Foundation/Acode": {
+   "stars": 7612,
+   "licencia": "MIT",
+   "lenguaje": "JavaScript",
+   "push": "2026-10-30",
+   "desc": "Acode - powerful text/code editor for android/ios",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v1.13.5",
+   "release_fecha": "2026-09-13",
+   "stars_pieza": 7612
+  },
+  "FossifyOrg/File-Manager": {
+   "stars": 1846,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "Easy app for managing your files without ads, respecting your privacy & security",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "1.6.3",
+   "release_fecha": "2026-10-24",
+   "stars_pieza": 1846
+  },
+  "termux/termux-x11": {
+   "stars": 5066,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C",
+   "push": "2026-10-27",
+   "desc": "Termux X-server add-on.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "nightly",
+   "release_fecha": "2026-10-27",
+   "stars_pieza": 5066
+  },
+  "Catfriend1/syncthing-android": {
+   "stars": 3220,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Java",
+   "push": "2026-11-01",
+   "desc": "Syncthing-Fork - A Syncthing Wrapper for Android.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v2.1.7.0",
+   "release_fecha": "2026-10-21",
+   "stars_pieza": 3220
+  },
+  "FedericoIOSue/Omni-Notes": {
+   "stars": 2807,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "push": "2026-10-22",
+   "desc": "Open source note-taking application for Android",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "6.5.1",
+   "release_fecha": "2026-10-22",
+   "stars_pieza": 2807
+  },
+  "MuntashirAkon/libadb-android": {
+   "stars": 415,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Java",
+   "push": "2026-06-03",
+   "desc": "ADB library for Android",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "3.1.1",
+   "release_fecha": "",
+   "stars_pieza": 415
+  },
+  "Darkempire78/OpenCalc": {
+   "stars": 1544,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-07-10",
+   "desc": "A simple and beautiful calculator for Android downloaded more than 300k times",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v3.2.1",
+   "release_fecha": "2025-09-21",
+   "stars_pieza": 1544
+  },
+  "KDE/kdeconnect-android": {
+   "stars": 1494,
+   "licencia": "GPL-2.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-31",
+   "desc": "Native Android port of the KDE Connect Qt app",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v1.37.0",
+   "release_fecha": "",
+   "stars_pieza": 1494
+  },
+  "termux/termux-api": {
+   "stars": 4567,
+   "licencia": "sin licencia",
+   "lenguaje": "Java",
+   "push": "2026-09-17",
+   "desc": "Termux add-on app which exposes device functionality as API to command line programs.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v0.53.0",
+   "release_fecha": "2025-09-01",
+   "stars_pieza": 4567
+  },
+  "ReVanced/revanced-cli": {
+   "stars": 1600,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-06-02",
+   "desc": "💻 Command-line application to use ReVanced",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v6.0.0",
+   "release_fecha": "2026-03-14",
+   "stars_pieza": 1600
+  },
+  "ReVanced/revanced-patcher": {
+   "stars": 3550,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-06-09",
+   "desc": "💉 ReVanced Patcher used to patch Android applications",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v22.0.1",
+   "release_fecha": "2026-03-13",
+   "stars_pieza": 3550
+  },
+  "inotia00/revanced-patches": {
+   "stars": 2260,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "push": "2026-03-10",
+   "desc": "🧩 Patches for ReVanced",
+   "archivado": true,
+   "estado": "archivado",
+   "release": "v5.14.1",
+   "release_fecha": "2025-12-31",
+   "stars_pieza": 2260
+  },
+  "microg/GmsCore": {
+   "stars": 15152,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Java",
+   "push": "2026-10-26",
+   "desc": "Free implementation of Play Services",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v0.3.17.252432",
+   "release_fecha": "2026-09-29",
+   "stars_pieza": 15152
+  },
+  "LSPosed/LSPatch": {
+   "stars": 9453,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "push": "2023-12-13",
+   "desc": "LSPatch: A non-root Xposed framework extending from LSPosed",
+   "archivado": true,
+   "estado": "archivado",
+   "release": "v0.6",
+   "release_fecha": "2023-11-23",
+   "stars_pieza": 9453
+  },
+  "skylot/jadx": {
+   "stars": 51439,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Java",
+   "push": "2026-10-30",
+   "desc": "Dex to Java decompiler",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v1.5.6",
+   "release_fecha": "2026-07-10",
+   "stars_pieza": 51439
+  },
+  "iBotPeaches/Apktool": {
+   "stars": 26888,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Java",
+   "push": "2026-10-28",
+   "desc": "A tool for reverse engineering Android apk files",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "v3.0.3",
+   "release_fecha": "2026-07-20",
+   "stars_pieza": 26888
   }
  },
  "enlaces": {
