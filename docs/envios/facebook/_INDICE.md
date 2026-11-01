@@ -15,6 +15,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 05 | Clones, contraseñas y sesiones: el día en que el enlace no era el siti | 19 | 3598 | 17 | 0 | no | `05-Clones-contrasenas-y-sesiones-el-dia-que-el-enlace-no-era-el-sitio-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 05 | TMO CAYÓ. LOS CLONES COSECHAN CLAVES. TU LISTA NO SE RESTAURA. TODO CO | 2 | 857 | 0 | 0 | no | `05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 06 | FORKS LECTORES: LA CANCHA ENTERA CON PLACA Y HORA, 22-sep-2026 22 DE S | 4 | 2512 | 5 | 0 | no | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
+| 06 | Las segundas generaciones: quién sigue leyendo cuando el tronco se sec | 18 | 3565 | 26 | 0 | no | `06-Las-segundas-generaciones-quien-sigue-leyendo-cuando-el-tronco-se-seca-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 07 | EL ÁRBOL VECINO MEDIDO ESTA MAÑANA: USAGI VIVA, EL MAESTRO EN SU MUSEO | 4 | 3372 | 7 | 0 | no | `07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 08 | MÚSICA LIBRE, DIEZ TALLERES MEDIDOS ESTA MAÑANA — Y UN TALLER QUE LE C | 5 | 3618 | 10 | 0 | no | `08-Musica-FOSS-clientes-con-repo-La-Bandita-2026-09-22-dominicano-ES` |
 | 09 | LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS CON SU HORA DE 22-sep-20 | 5 | 3731 | 10 | 0 | no | `09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
@@ -141,6 +142,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 98 | La foto III: el sótano completo | 4 | 1825 | 2 | 0 | no | `98-La-foto-III-el-sotano-completo-Facebook-La-Bandita-2026-10-29` |
 | 99 | La foto IV: los jóvenes del censo | 4 | 1302 | 1 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29` |
 
-**134 piezas · 662 mensajes** · el mayor de todos: 3945 caracteres.
+**135 piezas · 680 mensajes** · el mayor de todos: 3945 caracteres.
 
 
