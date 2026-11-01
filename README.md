@@ -24,4 +24,26 @@ Archivo íntegro y organizado del proyecto **La Bandita** (guías de ecosistema 
 
 El historial git anterior (hasta el commit del 2026-10-19 con la pieza 106) vivía en el repositorio anterior del proyecto. La copia local de ese `.git` quedó truncada por límites del entorno de trabajo, así que este repositorio nace como **archivo completo y verificado por contenido** (cada pieza restaurada fue validada por SHA-256 contra el catálogo sellado, 0 fallos), no como clon del historial. El contenido es el proyecto entero; la historia detallada sigue citada en las actas de `Arena-Reimagined/02-ARCHIVO/`.
 
+## Infraestructura de verificación (añadida el 2026-11-01)
+
+| Ruta | Qué es | Cómo se usa |
+|---|---|---|
+| `registry/` | 5.684 fichas conformes al contrato, con índice y calidad del censo | `python3 tools/registro_construir.py` |
+| `schemas/ficha.schema.json` | contrato de datos v1 | validador de la compuerta G1 |
+| `tools/vara.py` | las nueve compuertas en un comando | `python3 tools/vara.py` |
+| `tools/autoprueba.py` | prueba que cada compuerta detecta su violación | `python3 tools/autoprueba.py` |
+| `tools/atestar.py` | sello SHA-256 encadenado por lote | `python3 tools/atestar.py [--verificar]` |
+| `tools/duplicados.py` | censo de copias (mide, no borra) | `python3 tools/duplicados.py` |
+| `tools/idioma_mojibake.py` | salud de codificación del corpus | `python3 tools/idioma_mojibake.py` |
+| `tools/sitio.py` | sitio estático: una URL por pieza y por ficha, RSS y JSON-LD | `python3 tools/sitio.py` → `site/` |
+| `mcp-labandita-registro/` | servidor MCP de solo lectura sobre el registro | `python3 mcp-labandita-registro/probar.py` |
+| `docs/` | errata, política de duplicados, política MCP y matriz de pendientes | — |
+| `LEGAL/` | propuesta de licencias y script de aplicación (no ejecutado) | `bash LEGAL/aplicar-licencia.sh A` |
+| `Arena-Reimagined/PROPUESTA-2026-10-31/` | la propuesta empresarial y su presentación HTML | — |
+| `.github/workflows/vara.yml` | la vara en integración continua en cada push | automático |
+
+**Regla de la casa:** ninguna compuerta se aprueba por salida en cero; se aprueba cuando el informe
+dice `fallos: NINGUNO`. La deuda conocida vive declarada en `tools/baseline.json` y sigue
+apareciendo en cada informe.
+
 *La Bandita verifica antes de recomendar — y también antes de archivar.*

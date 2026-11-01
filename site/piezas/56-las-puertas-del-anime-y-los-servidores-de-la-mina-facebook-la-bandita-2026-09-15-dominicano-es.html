@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es-DO"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Las puertas del anime y los servidores — censo de la mina III">
+<title>Las puertas del anime y los servidores — censo de la mina III</title><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Las puertas del anime y los servidores — censo de la mina III", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script>
+<style>
+:root{--r2:12px;--r3:18px;--r4:24px;--acc:#17c98a;--acc2:#8df2c6;--acc-rgb:23,201,138;
+--bg:#050b09;--bg2:#08130f;--texto:#e8eef6;--texto2:#c3d0dd;--apagado:#8ea0b2;
+--sup:rgba(255,255,255,.04);--borde:rgba(255,255,255,.085)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(900px 500px at 80% -8%,rgba(0,255,178,.09),transparent 60%),
+linear-gradient(175deg,var(--bg2),var(--bg) 60%);color:var(--texto);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.72;font-size:16.5px}
+a{color:var(--acc2);text-decoration:none}a:hover{text-decoration:underline}
+.barra{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;
+gap:14px;padding:12px clamp(14px,3vw,28px);background:rgba(6,10,12,.82);
+-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid var(--borde)}
+.marca{display:flex;gap:10px;align-items:center;color:inherit;font-weight:700;letter-spacing:.14em;font-size:14px}
+.marca small{display:block;font-weight:400;letter-spacing:.12em;font-size:10px;color:var(--apagado);text-transform:uppercase}
+main{max-width:980px;margin:0 auto;padding:clamp(18px,3vw,34px) clamp(14px,3vw,28px) 90px}
+h1{font-size:clamp(26px,4.4vw,42px);line-height:1.1;letter-spacing:-.02em;margin:.2em 0 .5em}
+h2{font-size:clamp(19px,2.4vw,25px);letter-spacing:-.015em;margin:1.6em 0 .5em}
+h3{font-size:15.5px;color:var(--acc2);margin:1.4em 0 .4em}
+p,li{color:var(--texto2)}strong{color:#fff}
+.hero{padding:26px 0 8px}
+.eyebrow{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--acc);margin:0 0 12px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:18px 0}
+.kpi{background:var(--sup);border:1px solid var(--borde);border-radius:var(--r3);padding:13px 15px}
+.kpi b{display:block;font-family:ui-monospace,monospace;font-size:23px;color:var(--acc2);line-height:1.1}
+.kpi span{font-size:11.5px;color:var(--apagado)}
+.buscador{display:flex;gap:8px;margin:14px 0}
+input[type=search]{flex:1;padding:11px 14px;border-radius:var(--r2);border:1px solid var(--borde);
+background:rgba(255,255,255,.04);color:var(--texto);font:inherit;font-size:15px;outline:none}
+input[type=search]:focus{border-color:rgba(var(--acc-rgb),.6);box-shadow:0 0 0 3px rgba(var(--acc-rgb),.14)}
+.cuenta{font-family:ui-monospace,monospace;font-size:12px;color:var(--acc2);align-self:center;min-width:74px;text-align:right}
+.lista{display:grid;gap:9px;margin:16px 0;padding:0;list-style:none}
+.item{display:block;padding:13px 15px;border:1px solid var(--borde);border-radius:var(--r2);background:var(--sup)}
+.item:hover{border-color:rgba(var(--acc-rgb),.5);text-decoration:none}
+.item b{display:block;color:var(--texto);font-size:14.6px;font-weight:600;line-height:1.35}
+.item small{display:block;color:var(--apagado);font-size:11.6px;margin-top:3px}
+.ficha{background:var(--sup);border:1px solid var(--borde);border-radius:var(--r3);padding:14px 16px;margin:12px 0}
+.ficha dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:8px 0 0;font-size:14px}
+.ficha dt{color:var(--apagado);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.ficha dd{margin:0;color:var(--texto)}
+.pill{display:inline-block;font-size:11px;padding:3px 9px;border-radius:99px;border:1px solid var(--borde);
+color:var(--apagado);margin:2px 4px 2px 0}
+.pill.vivo{color:var(--acc2);border-color:rgba(var(--acc-rgb),.45)}
+.pill.rancio{color:#ffb46b;border-color:rgba(255,180,107,.45)}
+.pieza p{color:var(--texto2);margin:0 0 13px}
+.pieza h2{color:var(--texto);border-top:1px solid var(--borde);padding-top:18px}
+.pieza .meta{font-size:12.5px;color:var(--apagado);margin-bottom:18px}
+pre{background:#04070a;border:1px solid var(--borde);border-radius:var(--r2);padding:14px;overflow-x:auto;font-size:12.6px}
+code{font-family:ui-monospace,monospace;font-size:.88em;background:rgba(var(--acc-rgb),.12);
+color:var(--acc2);padding:.1em .35em;border-radius:5px}
+table{width:100%;border-collapse:collapse;font-size:13.6px;margin:12px 0}
+th{text-align:left;font-size:10.6px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc2);
+border-bottom:1px solid rgba(var(--acc-rgb),.3);padding:8px 10px}
+td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.055);color:var(--texto2)}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--borde);font-size:12.5px;color:var(--apagado)}
+.volver{font-size:12.6px;color:var(--apagado)}
+mark{background:rgba(var(--acc-rgb),.38);color:#fff;border-radius:3px}
+</style></head>
+<body>
+<header class="barra"><a class="marca" href="/index.html"><svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 29 9v14L16 30 3 23V9z" fill="none" stroke="#17c98a" stroke-width="1.4"/><path d="M16 9.5 23 13v8l-7 3.5L9 21v-8z" fill="rgba(23,201,138,.16)" stroke="#8df2c6" stroke-width="1.1"/><circle cx="16" cy="17" r="3" fill="#17c98a"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a>
+<span class="pill">2026-11-01</span></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Las puertas del anime y los servidores — censo de la mina III</h1>
+<p class="meta">Facebook · 29 de octubre de 2026 · 20,886 caracteres</p>
+<h2>Publicación 56 — Las puertas del anime y los servidores — censo de la mina III</h2>
+<p>_jueves 29 de octubre de 2026 · La Bandita_</p>
+<p>Medición del jueves 29 de octubre de 2026: esta pieza reúne 62 repos, 59 vivos. El mayor es <strong>immich-app/immich</strong> (★117.612): «High performance self-hosted photo and video management solution.». Le sigue <strong>yuliskov/SmartTube</strong> (★35.709): «Browse media content with your own rules on Android TV». Con actividad en los últimos 30 días: 45 de 59. Temas que se repiten en el grupo: abs, amp, andorid, android.</p>
+<h2>Los repos de esta pieza, medidos hoy</h2>
+<ul>
+<li><strong>immich-app/immich</strong> — «High performance self-hosted photo and video management solution.»</li>
+</ul>
+<p>  ★117.612 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · TypeScript · última release v3.3.5 (2026-10-21) · <a href="https://github.com/immich-app/immich">https://github.com/immich-app/immich</a> · Web: <a href="https://immich.app">https://immich.app</a></p>
+<p>  Temas: backup-tool · flutter · google-photos · google-photos-alternative · javascript · mobile-app</p>
+<ul>
+<li><strong>yuliskov/SmartTube</strong> — «Browse media content with your own rules on Android TV»</li>
+</ul>
+<p>  ★35.709 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia MIT · Java · última release 32.68s (2026-10-20) · <a href="https://github.com/yuliskov/SmartTube">https://github.com/yuliskov/SmartTube</a> · Web: <a href="https://smarttubeapp.github.io">https://smarttubeapp.github.io</a></p>
+<p>  Temas: android · android-tv · android-tv-box · java · kotlin · retrofit2</p>
+<ul>
+<li><strong>xbmc/xbmc</strong> — «Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning…»</li>
+</ul>
+<p>  ★21.399 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL (según texto de su repo, 29-oct-2026) · C++ · última release 21.3-Omega (2025-10-31) · <a href="https://github.com/xbmc/xbmc">https://github.com/xbmc/xbmc</a> · Web: <a href="https://kodi.tv/">https://kodi.tv/</a></p>
+<p>  Temas: android · c-plus-plus · entertainment-hub · hacktoberfest · home-theater · ios</p>
+<ul>
+<li><strong>lollipopkit/flutter_server_box</strong> — «ServerBox - server status &amp; toolbox»</li>
+</ul>
+<p>  ★8.897 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Dart · última release v1.0.1844 (2026-10-29) · <a href="https://github.com/lollipopkit/flutter_server_box">https://github.com/lollipopkit/flutter_server_box</a> · Web: <a href="https://serverbox.lollipopkit.com">https://serverbox.lollipopkit.com</a></p>
+<p>  Temas: android · dart · flutter · ios · server · ssh</p>
+<ul>
+<li><strong>standardnotes/app</strong> — «Think fearlessly with end-to-end encrypted notes and files. For issues, visit <a href="https://standardnotes.com/forum">https://standardnotes.com/forum</a> or <a href="https://standardnotes.com/help.»">https://standardnotes.com/help.»</a></li>
+</ul>
+<p>  ★6.688 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · TypeScript · última release @standardnotes/desktop@3.202.11 (2026-10-23) · <a href="https://github.com/standardnotes/app">https://github.com/standardnotes/app</a> · Web: <a href="https://standardnotes.com">https://standardnotes.com</a></p>
+<p>  Temas: encrypted · evernote · markdown · note-taking · notes · privacy</p>
+<ul>
+<li><strong>nextcloud/android</strong> — «📱 Nextcloud Android app»</li>
+</ul>
+<p>  ★5.656 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Kotlin · última release stable-35.0.2 (2026-10-28) · <a href="https://github.com/nextcloud/android">https://github.com/nextcloud/android</a> · Web: <a href="https://github.com/nextcloud/android?tab=readme-ov-file#nextcloud-android-app-iphone">https://github.com/nextcloud/android?tab=readme-ov-file#nextcloud-android-app-iphone</a></p>
+<p>  Temas: android · hacktoberfest · java · kotlin · mobile · mobile-app</p>
+<ul>
+<li><strong>muzei/muzei</strong> — «Muzei Live Wallpaper for Android»</li>
+</ul>
+<p>  ★4.954 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release api3.4.2 (2024-06-16) · <a href="https://github.com/muzei/muzei">https://github.com/muzei/muzei</a> · Web: <a href="http://muzei.co">http://muzei.co</a></p>
+<ul>
+<li><strong>anilbeesetti/nextplayer</strong> — «An Android native video player»</li>
+</ul>
+<p>  ★4.635 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v0.19.0 (2026-10-09) · <a href="https://github.com/anilbeesetti/nextplayer">https://github.com/anilbeesetti/nextplayer</a></p>
+<p>  Temas: android · exoplayer · ffmpeg · ffmpeg-android · jetpack-compose · jni-android</p>
+<ul>
+<li><strong>5rahim/seanime</strong> — «Open-source media server with a web interface and desktop app for anime and manga.»</li>
+</ul>
+<p>  ★4.285 · su último empuje fue el 2026-10-14 (hace 17 días) · licencia GPL-3.0 · Go · última release v3.10.4 (2026-10-14) · <a href="https://github.com/5rahim/seanime">https://github.com/5rahim/seanime</a> · Web: <a href="https://seanime.app">https://seanime.app</a></p>
+<p>  Temas: anilist · anime · anime-library · bittorrent · debrid · go</p>
+<ul>
+<li><strong>jarnedemeulemeester/findroid</strong> — «Third-party native Jellyfin Android app»</li>
+</ul>
+<p>  ★4.280 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.2.0 (2026-10-25) · <a href="https://github.com/jarnedemeulemeester/findroid">https://github.com/jarnedemeulemeester/findroid</a></p>
+<p>  Temas: android · jellyfin · kotlin</p>
+<ul>
+<li><strong>owncloud/android</strong> — «:phone: The ownCloud Android App»</li>
+</ul>
+<p>  ★4.175 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Kotlin · última release v4.8.4 (2026-08-31) · <a href="https://github.com/owncloud/android">https://github.com/owncloud/android</a></p>
+<p>  Temas: android · kotlin · mobile · owncloud · owncloud-android</p>
+<ul>
+<li><strong>videolan/vlc-android</strong> — «VLC for Android, Android TV and ChromeOS»</li>
+</ul>
+<p>  ★4.120 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Kotlin · <a href="https://github.com/videolan/vlc-android">https://github.com/videolan/vlc-android</a></p>
+<p>  Temas: android · libvlc · multimedia · player · videolan · vlc</p>
+<ul>
+<li><strong>NuvioMedia/NuvioTV</strong> — «Official Nuvio Android TV Repository»</li>
+</ul>
+<p>  ★3.271 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 1.0.0 (2026-09-19) · <a href="https://github.com/NuvioMedia/NuvioTV">https://github.com/NuvioMedia/NuvioTV</a> · Web: <a href="https://nuvio.tv">https://nuvio.tv</a></p>
+<ul>
+<li><strong>researchxxl/syncthing-android</strong> — «Syncthing-Fork - A Syncthing Wrapper for Android.»</li>
+</ul>
+<p>  ★3.192 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia MPL-2.0 · Java · última release v2.1.7.0 (2026-10-21) · <a href="https://github.com/researchxxl/syncthing-android">https://github.com/researchxxl/syncthing-android</a></p>
+<p>  Temas: file-synchronization</p>
+<ul>
+<li><strong>mahlernim/google-timeline-visualizer</strong> — «Visualize your year in travel using your Google Location History (Timeline) data»</li>
+</ul>
+<p>  ★3.057 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia MIT · Kotlin · última release v3.1.0 (2026-10-05) · <a href="https://github.com/mahlernim/google-timeline-visualizer">https://github.com/mahlernim/google-timeline-visualizer</a></p>
+<ul>
+<li><strong>10miaomiao/bilimiao2</strong> — «bilimiao 2.x»</li>
+</ul>
+<p>  ★2.965 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia GPL-3.0 · Kotlin · última release 2.4.8.1 (2025-11-16) · <a href="https://github.com/10miaomiao/bilimiao2">https://github.com/10miaomiao/bilimiao2</a> · Web: <a href="https://10miaomiao.cn/project/bilimiao">https://10miaomiao.cn/project/bilimiao</a></p>
+<p>  Temas: android · bilibili · compose · kotlin · kotlin-android</p>
+<ul>
+<li><strong>moneytoo/Player</strong> — «▶ Simple and lightweight, yet polished and powerful Android video player based on ExoPlayer»</li>
+</ul>
+<p>  ★2.759 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia Unlicense · Java · última release v0.217 (2026-09-11) · <a href="https://github.com/moneytoo/Player">https://github.com/moneytoo/Player</a> · Web: <a href="https://play.google.com/store/apps/details?id=com.brouken.player">https://play.google.com/store/apps/details?id=com.brouken.player</a></p>
+<p>  Temas: android · android-video-player · androidx-media · exoplayer · exoplayer2 · media</p>
+<ul>
+<li><strong>dkrivoruchko/ScreenStream</strong> — «ScreenStream Android App»</li>
+</ul>
+<p>  ★2.569 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Kotlin · última release 4.4.2 (2026-07-15) · <a href="https://github.com/dkrivoruchko/ScreenStream">https://github.com/dkrivoruchko/ScreenStream</a> · Web: <a href="https://screenstream.io">https://screenstream.io</a></p>
+<ul>
+<li><strong>markusfisch/BinaryEye</strong> — «Yet another barcode scanner for Android»</li>
+</ul>
+<p>  ★2.460 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia MIT · Kotlin · última release 1.75.6 (2026-10-27) · <a href="https://github.com/markusfisch/BinaryEye">https://github.com/markusfisch/BinaryEye</a> · Web: <a href="https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye">https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye</a></p>
+<p>  Temas: android · android-camera · hacktoberfest · kotlin-android · renderscript · zxing</p>
+<ul>
+<li><strong>bk138/droidVNC-NG</strong> — «Android VNC remote desktop server for local networks»</li>
+</ul>
+<p>  ★2.419 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Java · última release v2.22.2 (2026-10-29) · <a href="https://github.com/bk138/droidVNC-NG">https://github.com/bk138/droidVNC-NG</a></p>
+<p>  Temas: android · mediaprojection · remote-desktop · rfb · server · vnc</p>
+<ul>
+<li><strong>newhinton/Round-Sync</strong> — «An android cloud file manager, powered by rclone. Visit <a href="https://roundsync.com">https://roundsync.com</a> for more information!»</li>
+</ul>
+<p>  ★2.413 · su último empuje fue el 2025-11-16 (hace 349 días) · licencia GPL-3.0 · Java · última release v2.5.6 (2024-09-10) · <a href="https://github.com/newhinton/Round-Sync">https://github.com/newhinton/Round-Sync</a> · Web: <a href="https://roundsync.com">https://roundsync.com</a></p>
+<p>  Temas: android · app · backup · cloud · file-upload · rclone</p>
+<ul>
+<li><strong>Myzel394/Alibi</strong> — «Use your phone as a dashcam and save the last 30 minutes when you need them.»</li>
+</ul>
+<p>  ★1.723 · su último empuje fue el 2026-02-11 (hace 262 días) · licencia GPL-3.0 · Kotlin · última release v0.5.3 (2024-09-07) · <a href="https://github.com/Myzel394/Alibi">https://github.com/Myzel394/Alibi</a></p>
+<p>  Temas: android · dashcam · jetpack-compose · material-you · material-you-3 · privacy</p>
+<ul>
+<li><strong>cosmictaserdev-creator/Convx</strong> — «A free, open-source Android music player for YouTube Music with an iOS-style Liquid Glass interface, synced lyrics, Automix and Listen Together.»</li>
+</ul>
+<p>  ★1.064 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.5.2 (2026-08-15) · <a href="https://github.com/cosmictaserdev-creator/Convx">https://github.com/cosmictaserdev-creator/Convx</a> · Web: <a href="https://cosmictaser.de5.net">https://cosmictaser.de5.net</a></p>
+<p>  Temas: android · android-app · automix · exoplayer · ios-design · jetpack-compose</p>
+<ul>
+<li><strong>chenxiaolong/RSAF</strong> — «An Android Storage Access Framework document provider for rclone»</li>
+</ul>
+<p>  ★1.037 · su último empuje fue el 2026-10-24 (hace 7 días) · licencia GPL-3.0 · Kotlin · última release v4.16 (2026-10-24) · <a href="https://github.com/chenxiaolong/RSAF">https://github.com/chenxiaolong/RSAF</a></p>
+<ul>
+<li><strong>chenxiaolong/BasicSync</strong> — «A simple app for running Syncthing on Android»</li>
+</ul>
+<p>  ★730 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v3.27 (2026-10-25) · <a href="https://github.com/chenxiaolong/BasicSync">https://github.com/chenxiaolong/BasicSync</a></p>
+<ul>
+<li><strong>dn0ne/lotus</strong> — «Music player for Android»</li>
+</ul>
+<p>  ★717 · su último empuje fue el 2025-01-25 (hace 644 días) · licencia GPL-3.0 · Kotlin · última release v1.2.0 (2025-01-25) · <a href="https://github.com/dn0ne/lotus">https://github.com/dn0ne/lotus</a></p>
+<ul>
+<li><strong>KNKPA/KNKPAnime</strong> — «KNKPAnime：支持多番剧源与弹幕的看番软件。»</li>
+</ul>
+<p>  ★650 · su último empuje fue el 2025-02-01 (hace 637 días) · licencia GPL-3.0 · Dart · última release 1.1.7 (2025-02-01) · <a href="https://github.com/KNKPA/KNKPAnime">https://github.com/KNKPA/KNKPAnime</a></p>
+<ul>
+<li><strong>haiwen/seadroid</strong> — «Android client for Seafile»</li>
+</ul>
+<p>  ★637 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 (según texto de su repo, 29-oct-2026) · Java · última release v4.0.14 (2026-09-28) · <a href="https://github.com/haiwen/seadroid">https://github.com/haiwen/seadroid</a></p>
+<ul>
+<li><strong>iodn/android-ir-blaster</strong> — «Create custom infrared (IR) remotes using hex codes, raw signals, or import Flipper Zero, LIRC, and IRPLUS files»</li>
+</ul>
+<p>  ★602 · su último empuje fue el 2026-10-15 (hace 16 días) · licencia GPL-3.0 · Dart · última release v3.4.6 (2026-10-15) · <a href="https://github.com/iodn/android-ir-blaster">https://github.com/iodn/android-ir-blaster</a> · Web: <a href="https://play.google.com/store/apps/details?id=org.nslabs.ir_blaster">https://play.google.com/store/apps/details?id=org.nslabs.ir_blaster</a></p>
+<p>  Temas: android · apk · f-droid · fdroid · flipper-zero · flipperzero</p>
+<ul>
+<li><strong>pass-with-high-score/ANeko</strong> — «ANeko Reborn is a modern version of the classic ANeko app. It features a cute cat animation that follows your finger on the Android screen, inspired by apps like nekoDA, xneko,…»</li>
+</ul>
+<p>  ★591 · su último empuje fue el 2026-08-28 (hace 64 días) · licencia LGPL-2.1 · Kotlin · última release v2.4.4 (2026-08-28) · <a href="https://github.com/pass-with-high-score/ANeko">https://github.com/pass-with-high-score/ANeko</a> · Web: <a href="https://aneko.pwhs.app">https://aneko.pwhs.app</a></p>
+<p>  Temas: android · aneko · cat · java · jetpack-compose · kotlin</p>
+<ul>
+<li><strong>recloudstream/cs-repos</strong> — «Cloudstream plugin repositories»</li>
+</ul>
+<p>  ★543 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia sin archivo LICENSE en su repo (verificado) · Python · <a href="https://github.com/recloudstream/cs-repos">https://github.com/recloudstream/cs-repos</a> · Web: <a href="https://rentry.org/cs3-repos">https://rentry.org/cs3-repos</a></p>
+<ul>
+<li><strong>phisher98/cloudstream-extensions-phisher</strong> — «Cloudstream Extensions by Phisher»</li>
+</ul>
+<p>  ★526 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · <a href="https://github.com/phisher98/cloudstream-extensions-phisher">https://github.com/phisher98/cloudstream-extensions-phisher</a></p>
+<ul>
+<li><strong>cvzi/ScreenshotTile</strong> — «📲 Screenshot Tile for Android without Root»</li>
+</ul>
+<p>  ★398 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v2.21.4 (2026-09-26) · <a href="https://github.com/cvzi/ScreenshotTile">https://github.com/cvzi/ScreenshotTile</a> · Web: <a href="https://f-droid.org/packages/com.github.cvzi.screenshottile/">https://f-droid.org/packages/com.github.cvzi.screenshottile/</a></p>
+<p>  Temas: android · android-app · android-application · quicksetting-tiles · quicksettings · screenshot</p>
+<ul>
+<li><strong>RenzoBeux/Dashboarr</strong> — «A mobile app to manage your self-hosted media stack from a single interface. Built with Expo &amp; React Native»</li>
+</ul>
+<p>  ★377 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · TypeScript · última release v1.22.0 (2026-10-29) · <a href="https://github.com/RenzoBeux/Dashboarr">https://github.com/RenzoBeux/Dashboarr</a> · Web: <a href="https://renzobeux.github.io/Dashboarr/">https://renzobeux.github.io/Dashboarr/</a></p>
+<p>  Temas: qbittorent · radarr · sonarr</p>
+<ul>
+<li><strong>WirelessAlien/MovieDB</strong> — «ShowCase is a fully open-source android application for exploring and organizing your personal collection of films and television series.»</li>
+</ul>
+<p>  ★366 · su último empuje fue el 2026-10-20 (hace 11 días) · licencia GPL-3.0 · Kotlin · última release v4.8.1 (2026-09-01) · <a href="https://github.com/WirelessAlien/MovieDB">https://github.com/WirelessAlien/MovieDB</a> · Web: <a href="https://wirelessalien.pages.dev/project/showcase">https://wirelessalien.pages.dev/project/showcase</a></p>
+<p>  Temas: android-app · android-application · episode-finder · episode-guide · episode-tracker · java</p>
+<ul>
+<li><strong>bikram-agarwal/FilePipe</strong> — «Turn messy Android storage into a rule-driven library: choose sources, filters, destinations, and schedules, then let the app manage it for you.»</li>
+</ul>
+<p>  ★314 · su último empuje fue el 2026-10-02 (hace 29 días) · licencia GPL-3.0 · Kotlin · última release v3.11.3 (2026-09-26) · <a href="https://github.com/bikram-agarwal/FilePipe">https://github.com/bikram-agarwal/FilePipe</a> · Web: <a href="https://bikram-agarwal.github.io/">https://bikram-agarwal.github.io/</a></p>
+<p>  Temas: android · app · filesystem · organization</p>
+<ul>
+<li><strong>retransmit/Atrium</strong> — «A mobile app to manage your self-hosted media stack, ARR suite, torrent clients, and trackers from a single interface.»</li>
+</ul>
+<p>  ★285 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Dart · última release v1.9.1 (2026-10-19) · <a href="https://github.com/retransmit/Atrium">https://github.com/retransmit/Atrium</a> · Web: <a href="https://retransmit.github.io/Atrium/">https://retransmit.github.io/Atrium/</a></p>
+<ul>
+<li><strong>tuntorius/mightier_amp</strong> — «An alternative app for controlling NUX Mighty amps.»</li>
+</ul>
+<p>  ★236 · su último empuje fue el 2025-01-21 (hace 648 días) · licencia MIT · Dart · última release v1.0.16 (2024-07-23) · <a href="https://github.com/tuntorius/mightier_amp">https://github.com/tuntorius/mightier_amp</a></p>
+<p>  Temas: amp · audio · effects · guitar · nux</p>
+<ul>
+<li><strong>koofr/vault</strong> — «Koofr Vault is an open-source, client-side encrypted folder for your Koofr cloud storage offering an extra layer of security for your most sensitive files.»</li>
+</ul>
+<p>  ★207 · su último empuje fue el 2026-08-13 (hace 79 días) · licencia MIT · Rust · última release v0.1.26 (2026-08-13) · <a href="https://github.com/koofr/vault">https://github.com/koofr/vault</a></p>
+<ul>
+<li><strong>roozbehzarei/filester</strong> — «Temporary cloud storage for fast, private file sharing»</li>
+</ul>
+<p>  ★197 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v3.4.0 (2026-10-28) · <a href="https://github.com/roozbehzarei/filester">https://github.com/roozbehzarei/filester</a> · Web: <a href="https://filester.roozbehzarei.com">https://filester.roozbehzarei.com</a></p>
+<p>  Temas: android · cloud-storage · file-sharing · kotlin · uploader</p>
+<ul>
+<li><strong>tobexyz/yaacc-code</strong> — «YAACC - UPNP Client and Server»</li>
+</ul>
+<p>  ★188 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Java · última release 5.4.0 (2026-10-23) · <a href="https://github.com/tobexyz/yaacc-code">https://github.com/tobexyz/yaacc-code</a></p>
+<p>  Temas: android-app · dlna · dlna-mediarenderer · dlna-player · dlna-server · dlna-upnp</p>
+<ul>
+<li><strong>Infomaniak/android-kDrive</strong> — «kDrive application for Android»</li>
+</ul>
+<p>  ★178 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 5.22.1 (2026-10-05) · <a href="https://github.com/Infomaniak/android-kDrive">https://github.com/Infomaniak/android-kDrive</a> · Web: <a href="https://play.google.com/store/apps/details?id=com.infomaniak.drive">https://play.google.com/store/apps/details?id=com.infomaniak.drive</a></p>
+<ul>
+<li><strong>mkulesh/onpc</strong> — «Enhanced Music Controller»</li>
+</ul>
+<p>  ★168 · su último empuje fue el 2026-09-11 (hace 50 días) · licencia GPL-3.0 · Java · última release v1.37 (2025-08-26) · <a href="https://github.com/mkulesh/onpc">https://github.com/mkulesh/onpc</a></p>
+<p>  Temas: andorid · eiscp · flutter-app · integra · iscp · java</p>
+<ul>
+<li><strong>HQAnime/AnimeOne</strong> — «anime1的非官方APP»</li>
+</ul>
+<p>  ★168 · su último empuje fue el 2026-10-05 (hace 26 días) · licencia MIT · Dart · última release 1.1.8 (2022-07-02) · <a href="https://github.com/HQAnime/AnimeOne">https://github.com/HQAnime/AnimeOne</a></p>
+<p>  Temas: android · anime · anime1 · flutter · ios</p>
+<ul>
+<li><strong>bobrofon/easysshfs</strong> — «SSHFS for Android»</li>
+</ul>
+<p>  ★154 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia MIT · Kotlin · última release 0.5.19 (2026-10-08) · <a href="https://github.com/bobrofon/easysshfs">https://github.com/bobrofon/easysshfs</a></p>
+<ul>
+<li><strong>SaurabhKaperwan/CSX</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★147 · su último empuje fue el 2026-10-02 (hace 29 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · <a href="https://github.com/SaurabhKaperwan/CSX">https://github.com/SaurabhKaperwan/CSX</a></p>
+<ul>
+<li><strong>kivy-garden/zbarcam</strong> — «Real time Barcode and QR Code scanner»</li>
+</ul>
+<p>  ★141 · su último empuje fue el 2025-02-27 (hace 611 días) · licencia MIT · Python · última release 2020.0524 (2020-05-24) · <a href="https://github.com/kivy-garden/zbarcam">https://github.com/kivy-garden/zbarcam</a></p>
+<ul>
+<li><strong>self-similarity/MegaRepo</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★140 · su último empuje fue el 2025-10-03 (hace 393 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · <a href="https://github.com/self-similarity/MegaRepo">https://github.com/self-similarity/MegaRepo</a></p>
+<ul>
+<li><strong>zimly/zimly-backup</strong> — «Zimly is an eye-catching, open-source app designed for synchronizing your local media and documents with any S3-compatible storage solution — whether self-hosted using…»</li>
+</ul>
+<p>  ★105 · su último empuje fue el 2026-02-28 (hace 245 días) · licencia GPL-3.0 · Kotlin · última release v3.4.1 (2026-02-06) · <a href="https://github.com/zimly/zimly-backup">https://github.com/zimly/zimly-backup</a> · Web: <a href="https://www.zimly.app">https://www.zimly.app</a></p>
+<p>  Temas: android · backup · f-droid · fdroid · s3</p>
+<ul>
+<li><strong>doGior/doGiorsHadEnough</strong> — «Italian Repository for Cloudstream 3»</li>
+</ul>
+<p>  ★88 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · <a href="https://github.com/doGior/doGiorsHadEnough">https://github.com/doGior/doGiorsHadEnough</a></p>
+<ul>
+<li><strong>likhithpraveenk/storii</strong> — «An Audiobookshelf Client»</li>
+</ul>
+<p>  ★85 · su último empuje fue el 2026-10-23 (hace 8 días) · licencia GPL-3.0 · Dart · última release v0.13.0 (2026-10-23) · <a href="https://github.com/likhithpraveenk/storii">https://github.com/likhithpraveenk/storii</a> · Web: <a href="https://discord.gg/WkmffZQZrU">https://discord.gg/WkmffZQZrU</a></p>
+<p>  Temas: abs · audiobooks · audiobookshelf · flutter</p>
+<ul>
+<li><strong>CDrummond/lms-material-app</strong> — «Android WebView wrapper for LMS Material Skin»</li>
+</ul>
+<p>  ★76 · su último empuje fue el 2026-10-07 (hace 24 días) · licencia MIT · Java · última release 0.10.1 (2026-08-31) · <a href="https://github.com/CDrummond/lms-material-app">https://github.com/CDrummond/lms-material-app</a></p>
+<ul>
+<li><strong>ptrLx/OneShot</strong> — «Remember the happy days!»</li>
+</ul>
+<p>  ★52 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v1.1.1 (2023-04-07) · <a href="https://github.com/ptrLx/OneShot">https://github.com/ptrLx/OneShot</a></p>
+<ul>
+<li><strong>rumca-js/OfflineWebSearch</strong> — «Open-Source, privacy-first bookmarking search engine. No cloud. No server.»</li>
+</ul>
+<p>  ★37 · su último empuje fue el 2026-10-14 (hace 17 días) · licencia GPL-3.0 · Kotlin · última release 1.0.38 (2026-10-13) · <a href="https://github.com/rumca-js/OfflineWebSearch">https://github.com/rumca-js/OfflineWebSearch</a> · Web: <a href="https://f-droid.org/en/packages/io.github.rumcajs.offlinewebsearch">https://f-droid.org/en/packages/io.github.rumcajs.offlinewebsearch</a></p>
+<p>  Temas: bookmark-manager · link-collection · link-collector · link-management · link-manager · mobile-app</p>
+<ul>
+<li><strong>blackcandy-org/app</strong> — «Black Candy mobile apps»</li>
+</ul>
+<p>  ★33 · su último empuje fue el 2026-10-13 (hace 18 días) · licencia MIT · Kotlin · última release android/v2.0.2 (2026-05-12) · <a href="https://github.com/blackcandy-org/app">https://github.com/blackcandy-org/app</a></p>
+<ul>
+<li><strong>Reflex755/ReflexRepo</strong> — «#1 Best English Repo For Cloudstream!»</li>
+</ul>
+<p>  ★10 · su último empuje fue el 2026-07-18 (hace 105 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · <a href="https://github.com/Reflex755/ReflexRepo">https://github.com/Reflex755/ReflexRepo</a></p>
+<ul>
+<li><strong>jpdoshi/dragon-store</strong> — caído (404) al medir hoy: queda firmado, no recomendado. <a href="https://github.com/jpdoshi/dragon-store">https://github.com/jpdoshi/dragon-store</a></li>
+</ul>
+<ul>
+<li><strong>ycngmn/CuxPlug</strong> — caído (404) al medir hoy: queda firmado, no recomendado. <a href="https://github.com/ycngmn/CuxPlug">https://github.com/ycngmn/CuxPlug</a></li>
+</ul>
+<ul>
+<li><strong>helios57/muplay</strong> — «Android music and audiobook player for Navidrome and other Subsonic/OpenSubsonic servers. Kotlin, Compose and Media3, with library-scoped shuffle, per-book resume, Sonos and…»</li>
+</ul>
+<p>  ★0 · su último empuje fue el 2026-10-14 (hace 17 días) · licencia MIT · Kotlin · última release v0.3.0 (2026-10-11) · <a href="https://github.com/helios57/muplay">https://github.com/helios57/muplay</a></p>
+<ul>
+<li><strong>hexadigitall/makaw</strong> — «Full-featured hybrid browser and creative studio for Android — ad blocking, stealth mode, video/music player, PDF viewer, code editor, and more.»</li>
+</ul>
+<p>  ★0 · su último empuje fue el 2026-09-07 (hace 54 días) · licencia sin archivo LICENSE en su repo (verificado) · Dart · última release v1.0.47 (2026-08-31) · <a href="https://github.com/hexadigitall/makaw">https://github.com/hexadigitall/makaw</a></p>
+<ul>
+<li><strong>inaccurate-hotelplan289/HomeLabSetup</strong> — caído (404) al medir hoy: queda firmado, no recomendado. <a href="https://github.com/inaccurate-hotelplan289/HomeLabSetup">https://github.com/inaccurate-hotelplan289/HomeLabSetup</a></li>
+</ul>
+<ul>
+<li><strong>thiagooo0/EHHelper</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★0 · su último empuje fue el 2024-01-13 (hace 1022 días) · licencia Apache-2.0 · Kotlin · última release v1.2.0 (2023-06-27) · <a href="https://github.com/thiagooo0/EHHelper">https://github.com/thiagooo0/EHHelper</a></p>
+<h2>Lectura de la medición</h2>
+<p>La noticia amarga: <strong>jpdoshi/dragon-store</strong> (caído (404)), <strong>ycngmn/CuxPlug</strong> (caído (404)), <strong>inaccurate-hotelplan289/HomeLabSetup</strong> (caído (404)) ya no respondieron. En licencias: GPL-3.0 ×25, MIT ×12, sin archivo LICENSE en su repo (verificado) ×7; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es <strong>xbmc/xbmc</strong> (hace 2 días); <strong>thiagooo0/EHHelper</strong> duerme desde el 2024-01-13; 52 repos tienen release y la más reciente es la de <strong>lollipopkit/flutter_server_box</strong> (v1.0.1844 (2026-10-29)).</p>
+<p>💓 62 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 59 vivos, 3 firmados arriba con su estado.</p></div></main>
+<footer>La Bandita verifica antes de recomendar · cada dato con su fecha · generado el 2026-11-01
+sin recursos externos (cero CDN, cero fuentes remotas).</footer>
+</body></html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es-DO"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Los vivos de la semana: la fila de las fechas">
+<title>Los vivos de la semana: la fila de las fechas</title><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Los vivos de la semana: la fila de las fechas", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script>
+<style>
+:root{--r2:12px;--r3:18px;--r4:24px;--acc:#17c98a;--acc2:#8df2c6;--acc-rgb:23,201,138;
+--bg:#050b09;--bg2:#08130f;--texto:#e8eef6;--texto2:#c3d0dd;--apagado:#8ea0b2;
+--sup:rgba(255,255,255,.04);--borde:rgba(255,255,255,.085)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(900px 500px at 80% -8%,rgba(0,255,178,.09),transparent 60%),
+linear-gradient(175deg,var(--bg2),var(--bg) 60%);color:var(--texto);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.72;font-size:16.5px}
+a{color:var(--acc2);text-decoration:none}a:hover{text-decoration:underline}
+.barra{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;
+gap:14px;padding:12px clamp(14px,3vw,28px);background:rgba(6,10,12,.82);
+-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid var(--borde)}
+.marca{display:flex;gap:10px;align-items:center;color:inherit;font-weight:700;letter-spacing:.14em;font-size:14px}
+.marca small{display:block;font-weight:400;letter-spacing:.12em;font-size:10px;color:var(--apagado);text-transform:uppercase}
+main{max-width:980px;margin:0 auto;padding:clamp(18px,3vw,34px) clamp(14px,3vw,28px) 90px}
+h1{font-size:clamp(26px,4.4vw,42px);line-height:1.1;letter-spacing:-.02em;margin:.2em 0 .5em}
+h2{font-size:clamp(19px,2.4vw,25px);letter-spacing:-.015em;margin:1.6em 0 .5em}
+h3{font-size:15.5px;color:var(--acc2);margin:1.4em 0 .4em}
+p,li{color:var(--texto2)}strong{color:#fff}
+.hero{padding:26px 0 8px}
+.eyebrow{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--acc);margin:0 0 12px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:18px 0}
+.kpi{background:var(--sup);border:1px solid var(--borde);border-radius:var(--r3);padding:13px 15px}
+.kpi b{display:block;font-family:ui-monospace,monospace;font-size:23px;color:var(--acc2);line-height:1.1}
+.kpi span{font-size:11.5px;color:var(--apagado)}
+.buscador{display:flex;gap:8px;margin:14px 0}
+input[type=search]{flex:1;padding:11px 14px;border-radius:var(--r2);border:1px solid var(--borde);
+background:rgba(255,255,255,.04);color:var(--texto);font:inherit;font-size:15px;outline:none}
+input[type=search]:focus{border-color:rgba(var(--acc-rgb),.6);box-shadow:0 0 0 3px rgba(var(--acc-rgb),.14)}
+.cuenta{font-family:ui-monospace,monospace;font-size:12px;color:var(--acc2);align-self:center;min-width:74px;text-align:right}
+.lista{display:grid;gap:9px;margin:16px 0;padding:0;list-style:none}
+.item{display:block;padding:13px 15px;border:1px solid var(--borde);border-radius:var(--r2);background:var(--sup)}
+.item:hover{border-color:rgba(var(--acc-rgb),.5);text-decoration:none}
+.item b{display:block;color:var(--texto);font-size:14.6px;font-weight:600;line-height:1.35}
+.item small{display:block;color:var(--apagado);font-size:11.6px;margin-top:3px}
+.ficha{background:var(--sup);border:1px solid var(--borde);border-radius:var(--r3);padding:14px 16px;margin:12px 0}
+.ficha dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:8px 0 0;font-size:14px}
+.ficha dt{color:var(--apagado);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.ficha dd{margin:0;color:var(--texto)}
+.pill{display:inline-block;font-size:11px;padding:3px 9px;border-radius:99px;border:1px solid var(--borde);
+color:var(--apagado);margin:2px 4px 2px 0}
+.pill.vivo{color:var(--acc2);border-color:rgba(var(--acc-rgb),.45)}
+.pill.rancio{color:#ffb46b;border-color:rgba(255,180,107,.45)}
+.pieza p{color:var(--texto2);margin:0 0 13px}
+.pieza h2{color:var(--texto);border-top:1px solid var(--borde);padding-top:18px}
+.pieza .meta{font-size:12.5px;color:var(--apagado);margin-bottom:18px}
+pre{background:#04070a;border:1px solid var(--borde);border-radius:var(--r2);padding:14px;overflow-x:auto;font-size:12.6px}
+code{font-family:ui-monospace,monospace;font-size:.88em;background:rgba(var(--acc-rgb),.12);
+color:var(--acc2);padding:.1em .35em;border-radius:5px}
+table{width:100%;border-collapse:collapse;font-size:13.6px;margin:12px 0}
+th{text-align:left;font-size:10.6px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc2);
+border-bottom:1px solid rgba(var(--acc-rgb),.3);padding:8px 10px}
+td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.055);color:var(--texto2)}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--borde);font-size:12.5px;color:var(--apagado)}
+.volver{font-size:12.6px;color:var(--apagado)}
+mark{background:rgba(var(--acc-rgb),.38);color:#fff;border-radius:3px}
+</style></head>
+<body>
+<header class="barra"><a class="marca" href="/index.html"><svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 29 9v14L16 30 3 23V9z" fill="none" stroke="#17c98a" stroke-width="1.4"/><path d="M16 9.5 23 13v8l-7 3.5L9 21v-8z" fill="rgba(23,201,138,.16)" stroke="#8df2c6" stroke-width="1.1"/><circle cx="16" cy="17" r="3" fill="#17c98a"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a>
+<span class="pill">2026-11-01</span></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Los vivos de la semana: la fila de las fechas</h1>
+<p class="meta">Facebook · 29 de octubre de 2026 · 6,456 caracteres</p>
+<h2>Publicación 74 — Los vivos de la semana: la fila de las fechas</h2>
+<p>_jueves 29 de octubre de 2026 · La Bandita_</p>
+<p>Medición del jueves 29 de octubre de 2026: esta pieza reúne 15 repos, 15 vivos. El mayor es <strong>ggml-org/llama.cpp</strong> (★132.771): «LLM inference in C/C++». Le sigue <strong>offa/android-foss</strong> (★11.586): «A list of Free and Open Source Software (FOSS) for Android – saving Freedom and Privacy.». Con actividad en los últimos 30 días: 13 de 15. Temas que se repiten en el grupo: adhd, android, android-app, android-apps.</p>
+<h2>Los repos de esta pieza, medidos hoy</h2>
+<ul>
+<li><strong>ggml-org/llama.cpp</strong> — «LLM inference in C/C++»</li>
+</ul>
+<p>  ★132.771 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · C++ · última release v0.8.0 (2026-10-28) · <a href="https://github.com/ggml-org/llama.cpp">https://github.com/ggml-org/llama.cpp</a> · Web: <a href="https://llama.app">https://llama.app</a></p>
+<p>  Temas: ggml</p>
+<ul>
+<li><strong>offa/android-foss</strong> — «A list of Free and Open Source Software (FOSS) for Android – saving Freedom and Privacy.»</li>
+</ul>
+<p>  ★11.586 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia GPL-3.0 · Python · <a href="https://github.com/offa/android-foss">https://github.com/offa/android-foss</a> · Web: <a href="https://offa.github.io/android-foss/">https://offa.github.io/android-foss/</a></p>
+<p>  Temas: android · android-apps · f-droid · foss · free-and-op · free-and-open-source</p>
+<ul>
+<li><strong>standardnotes/app</strong> — «Think fearlessly with end-to-end encrypted notes and files. For issues, visit <a href="https://standardnotes.com/forum">https://standardnotes.com/forum</a> or <a href="https://standardnotes.com/help.»">https://standardnotes.com/help.»</a></li>
+</ul>
+<p>  ★6.688 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · TypeScript · última release @standardnotes/desktop@3.202.11 (2026-10-23) · <a href="https://github.com/standardnotes/app">https://github.com/standardnotes/app</a> · Web: <a href="https://standardnotes.com">https://standardnotes.com</a></p>
+<p>  Temas: encrypted · evernote · markdown · note-taking · notes · privacy</p>
+<ul>
+<li><strong>nextcloud/android</strong> — «📱 Nextcloud Android app»</li>
+</ul>
+<p>  ★5.656 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Kotlin · última release stable-35.0.2 (2026-10-28) · <a href="https://github.com/nextcloud/android">https://github.com/nextcloud/android</a> · Web: <a href="https://github.com/nextcloud/android?tab=readme-ov-file#nextcloud-android-app-iphone">https://github.com/nextcloud/android?tab=readme-ov-file#nextcloud-android-app-iphone</a></p>
+<p>  Temas: android · hacktoberfest · java · kotlin · mobile · mobile-app</p>
+<ul>
+<li><strong>NuvioMedia/NuvioTV</strong> — «Official Nuvio Android TV Repository»</li>
+</ul>
+<p>  ★3.271 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 1.0.0 (2026-09-19) · <a href="https://github.com/NuvioMedia/NuvioTV">https://github.com/NuvioMedia/NuvioTV</a> · Web: <a href="https://nuvio.tv">https://nuvio.tv</a></p>
+<ul>
+<li><strong>researchxxl/syncthing-android</strong> — «Syncthing-Fork - A Syncthing Wrapper for Android.»</li>
+</ul>
+<p>  ★3.192 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia MPL-2.0 · Java · última release v2.1.7.0 (2026-10-21) · <a href="https://github.com/researchxxl/syncthing-android">https://github.com/researchxxl/syncthing-android</a></p>
+<p>  Temas: file-synchronization</p>
+<ul>
+<li><strong>wikimedia/apps-android-wikipedia</strong> — «📱The official Wikipedia app for Android!»</li>
+</ul>
+<p>  ★3.050 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release latest (2026-10-29) · <a href="https://github.com/wikimedia/apps-android-wikipedia">https://github.com/wikimedia/apps-android-wikipedia</a> · Web: <a href="https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/App_hacking">https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/App_hacking</a></p>
+<p>  Temas: android · android-app · coroutines · java · kotlin · mediawiki</p>
+<ul>
+<li><strong>dongdongbh/Mindwtr</strong> — «Get tasks and ideas out of your head. A free GTD to-do app for desktop and mobile. Works offline, no account needed»</li>
+</ul>
+<p>  ★2.341 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · TypeScript · última release v1.3.7 (2026-10-22) · <a href="https://github.com/dongdongbh/Mindwtr">https://github.com/dongdongbh/Mindwtr</a> · Web: <a href="https://mindwtr.app">https://mindwtr.app</a></p>
+<p>  Temas: adhd · cross-platform · getting-things-done · gtd · gtd-applications · gtd-workflow</p>
+<ul>
+<li><strong>TeamWin/Team-Win-Recovery-Project</strong> — «Core recovery files for the Team Win Recovery Project (T.W.R.P) - this is not up to date, please see <a href="https://github.com/TeamWin/android_bootable_recovery/»">https://github.com/TeamWin/android_bootable_recovery/»</a></li>
+</ul>
+<p>  ★2.068 · su último empuje fue el 2022-02-06 (hace 1728 días) · licencia sin archivo LICENSE en su repo (verificado) · C · <a href="https://github.com/TeamWin/Team-Win-Recovery-Project">https://github.com/TeamWin/Team-Win-Recovery-Project</a> · Web: <a href="http://twrp.me">http://twrp.me</a></p>
+<ul>
+<li><strong>plateaukao/einkbro</strong> — «A small, fast web browser based on Android WebView. It's tailored for E-Ink devices but also works great on normal android devices.»</li>
+</ul>
+<p>  ★2.048 · su último empuje fue el 2026-10-17 (hace 14 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Kotlin · última release v16.7.1 (2026-10-11) · <a href="https://github.com/plateaukao/einkbro">https://github.com/plateaukao/einkbro</a> · Web: <a href="https://plateaukao.github.io/einkbro">https://plateaukao.github.io/einkbro</a></p>
+<p>  Temas: android · browser · eink · kotlin · kotlin-android · webview</p>
+<ul>
+<li><strong>axiel7/AniHyou-android</strong> — «Another unofficial Android AniList client»</li>
+</ul>
+<p>  ★627 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release 1.6.3 (2026-09-26) · <a href="https://github.com/axiel7/AniHyou-android">https://github.com/axiel7/AniHyou-android</a> · Web: <a href="https://axiel7.github.io/anihyou/">https://axiel7.github.io/anihyou/</a></p>
+<p>  Temas: android · anilist · anime · jetpack-compose · manga · material3</p>
+<ul>
+<li><strong>recloudstream/cs-repos</strong> — «Cloudstream plugin repositories»</li>
+</ul>
+<p>  ★543 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia sin archivo LICENSE en su repo (verificado) · Python · <a href="https://github.com/recloudstream/cs-repos">https://github.com/recloudstream/cs-repos</a> · Web: <a href="https://rentry.org/cs3-repos">https://rentry.org/cs3-repos</a></p>
+<ul>
+<li><strong>phisher98/cloudstream-extensions-phisher</strong> — «Cloudstream Extensions by Phisher»</li>
+</ul>
+<p>  ★526 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · <a href="https://github.com/phisher98/cloudstream-extensions-phisher">https://github.com/phisher98/cloudstream-extensions-phisher</a></p>
+<ul>
+<li><strong>Chimahon/chimahon</strong> — «Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and anime support, Novel EPUB reader, and instant Anki card mining.»</li>
+</ul>
+<p>  ★237 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v2.4.8 (2026-10-19) · <a href="https://github.com/Chimahon/chimahon">https://github.com/Chimahon/chimahon</a></p>
+<p>  Temas: android · anime · anki · chinese · japanese · korean</p>
+<ul>
+<li><strong>ArtifexSoftware/mupdf-android-viewer</strong> — «Android SDK: viewer»</li>
+</ul>
+<p>  ★199 · su último empuje fue el 2026-09-25 (hace 36 días) · licencia AGPL-3.0 · Java · <a href="https://github.com/ArtifexSoftware/mupdf-android-viewer">https://github.com/ArtifexSoftware/mupdf-android-viewer</a></p>
+<h2>Lectura de la medición</h2>
+<p>La noticia fresca es de <strong>wikimedia/apps-android-wikipedia</strong>: release latest (2026-10-29). El empuje más reciente es de <strong>ggml-org/llama.cpp</strong> (hace 2 días); <strong>TeamWin/Team-Win-Recovery-Project</strong> duerme desde el 2022-02-06; 10 repos tienen release y la más reciente es la de <strong>wikimedia/apps-android-wikipedia</strong> (latest (2026-10-29)); en licencias: GPL-3.0 ×4, AGPL-3.0 ×3, sin archivo LICENSE en su repo (verificado) ×3; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no.</p>
+<p>💓 15 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 15 vivos, 0 firmados arriba con su estado.</p></div></main>
+<footer>La Bandita verifica antes de recomendar · cada dato con su fecha · generado el 2026-11-01
+sin recursos externos (cero CDN, cero fuentes remotas).</footer>
+</body></html>

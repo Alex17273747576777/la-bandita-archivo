@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es-DO"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Las puertas del lector y las bibliotecas — censo de la mina II">
+<title>Las puertas del lector y las bibliotecas — censo de la mina II</title><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Las puertas del lector y las bibliotecas — censo de la mina II", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script>
+<style>
+:root{--r2:12px;--r3:18px;--r4:24px;--acc:#17c98a;--acc2:#8df2c6;--acc-rgb:23,201,138;
+--bg:#050b09;--bg2:#08130f;--texto:#e8eef6;--texto2:#c3d0dd;--apagado:#8ea0b2;
+--sup:rgba(255,255,255,.04);--borde:rgba(255,255,255,.085)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(900px 500px at 80% -8%,rgba(0,255,178,.09),transparent 60%),
+linear-gradient(175deg,var(--bg2),var(--bg) 60%);color:var(--texto);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.72;font-size:16.5px}
+a{color:var(--acc2);text-decoration:none}a:hover{text-decoration:underline}
+.barra{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;
+gap:14px;padding:12px clamp(14px,3vw,28px);background:rgba(6,10,12,.82);
+-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid var(--borde)}
+.marca{display:flex;gap:10px;align-items:center;color:inherit;font-weight:700;letter-spacing:.14em;font-size:14px}
+.marca small{display:block;font-weight:400;letter-spacing:.12em;font-size:10px;color:var(--apagado);text-transform:uppercase}
+main{max-width:980px;margin:0 auto;padding:clamp(18px,3vw,34px) clamp(14px,3vw,28px) 90px}
+h1{font-size:clamp(26px,4.4vw,42px);line-height:1.1;letter-spacing:-.02em;margin:.2em 0 .5em}
+h2{font-size:clamp(19px,2.4vw,25px);letter-spacing:-.015em;margin:1.6em 0 .5em}
+h3{font-size:15.5px;color:var(--acc2);margin:1.4em 0 .4em}
+p,li{color:var(--texto2)}strong{color:#fff}
+.hero{padding:26px 0 8px}
+.eyebrow{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--acc);margin:0 0 12px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:18px 0}
+.kpi{background:var(--sup);border:1px solid var(--borde);border-radius:var(--r3);padding:13px 15px}
+.kpi b{display:block;font-family:ui-monospace,monospace;font-size:23px;color:var(--acc2);line-height:1.1}
+.kpi span{font-size:11.5px;color:var(--apagado)}
+.buscador{display:flex;gap:8px;margin:14px 0}
+input[type=search]{flex:1;padding:11px 14px;border-radius:var(--r2);border:1px solid var(--borde);
+background:rgba(255,255,255,.04);color:var(--texto);font:inherit;font-size:15px;outline:none}
+input[type=search]:focus{border-color:rgba(var(--acc-rgb),.6);box-shadow:0 0 0 3px rgba(var(--acc-rgb),.14)}
+.cuenta{font-family:ui-monospace,monospace;font-size:12px;color:var(--acc2);align-self:center;min-width:74px;text-align:right}
+.lista{display:grid;gap:9px;margin:16px 0;padding:0;list-style:none}
+.item{display:block;padding:13px 15px;border:1px solid var(--borde);border-radius:var(--r2);background:var(--sup)}
+.item:hover{border-color:rgba(var(--acc-rgb),.5);text-decoration:none}
+.item b{display:block;color:var(--texto);font-size:14.6px;font-weight:600;line-height:1.35}
+.item small{display:block;color:var(--apagado);font-size:11.6px;margin-top:3px}
+.ficha{background:var(--sup);border:1px solid var(--borde);border-radius:var(--r3);padding:14px 16px;margin:12px 0}
+.ficha dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:8px 0 0;font-size:14px}
+.ficha dt{color:var(--apagado);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.ficha dd{margin:0;color:var(--texto)}
+.pill{display:inline-block;font-size:11px;padding:3px 9px;border-radius:99px;border:1px solid var(--borde);
+color:var(--apagado);margin:2px 4px 2px 0}
+.pill.vivo{color:var(--acc2);border-color:rgba(var(--acc-rgb),.45)}
+.pill.rancio{color:#ffb46b;border-color:rgba(255,180,107,.45)}
+.pieza p{color:var(--texto2);margin:0 0 13px}
+.pieza h2{color:var(--texto);border-top:1px solid var(--borde);padding-top:18px}
+.pieza .meta{font-size:12.5px;color:var(--apagado);margin-bottom:18px}
+pre{background:#04070a;border:1px solid var(--borde);border-radius:var(--r2);padding:14px;overflow-x:auto;font-size:12.6px}
+code{font-family:ui-monospace,monospace;font-size:.88em;background:rgba(var(--acc-rgb),.12);
+color:var(--acc2);padding:.1em .35em;border-radius:5px}
+table{width:100%;border-collapse:collapse;font-size:13.6px;margin:12px 0}
+th{text-align:left;font-size:10.6px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc2);
+border-bottom:1px solid rgba(var(--acc-rgb),.3);padding:8px 10px}
+td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.055);color:var(--texto2)}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--borde);font-size:12.5px;color:var(--apagado)}
+.volver{font-size:12.6px;color:var(--apagado)}
+mark{background:rgba(var(--acc-rgb),.38);color:#fff;border-radius:3px}
+</style></head>
+<body>
+<header class="barra"><a class="marca" href="/index.html"><svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 29 9v14L16 30 3 23V9z" fill="none" stroke="#17c98a" stroke-width="1.4"/><path d="M16 9.5 23 13v8l-7 3.5L9 21v-8z" fill="rgba(23,201,138,.16)" stroke="#8df2c6" stroke-width="1.1"/><circle cx="16" cy="17" r="3" fill="#17c98a"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a>
+<span class="pill">2026-11-01</span></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Las puertas del lector y las bibliotecas — censo de la mina II</h1>
+<p class="meta">Facebook · 29 de octubre de 2026 · 23,152 caracteres</p>
+<h2>Publicación 55 — Las puertas del lector y las bibliotecas — censo de la mina II</h2>
+<p>_jueves 29 de octubre de 2026 · La Bandita_</p>
+<p>Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Manda <strong>ente/ente</strong> (★29.742): «💚 End-to-end encrypted cloud for everything.». Le sigue <strong>ente/ente</strong> (★29.742): «💚 End-to-end encrypted cloud for everything.». Temas que se repiten en el grupo: 2fa, ai, ai-assisted, ai-image-detection.</p>
+<h2>Los repos de esta pieza, medidos hoy</h2>
+<ul>
+<li><strong>ente/ente</strong> — «💚 End-to-end encrypted cloud for everything.»</li>
+</ul>
+<p>  ★29.742 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Dart · última release ente-cli-v0.4.2 (2026-10-27) · <a href="https://github.com/ente/ente">https://github.com/ente/ente</a> · Web: <a href="https://ente.com">https://ente.com</a></p>
+<p>  Temas: 2fa · android · authy · e2ee · encryption · end-to-end-encryption</p>
+<ul>
+<li><strong>ente/ente</strong> — «💚 End-to-end encrypted cloud for everything.»</li>
+</ul>
+<p>  ★29.742 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Dart · última release ente-cli-v0.4.2 (2026-10-27) · <a href="https://github.com/ente/ente">https://github.com/ente/ente</a> · Web: <a href="https://ente.com">https://ente.com</a></p>
+<p>  Temas: 2fa · android · authy · e2ee · encryption · end-to-end-encryption</p>
+<ul>
+<li><strong>T8RIN/ImageToolbox</strong> — «🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image…»</li>
+</ul>
+<p>  ★15.241 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release 4.2.0 (2026-09-04) · <a href="https://github.com/T8RIN/ImageToolbox">https://github.com/T8RIN/ImageToolbox</a></p>
+<p>  Temas: ai · android · background-removal · crop · edit-photo · exif</p>
+<ul>
+<li><strong>T8RIN/ImageToolbox</strong> — «🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image…»</li>
+</ul>
+<p>  ★15.241 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release 4.2.0 (2026-09-04) · <a href="https://github.com/T8RIN/ImageToolbox">https://github.com/T8RIN/ImageToolbox</a></p>
+<p>  Temas: ai · android · background-removal · crop · edit-photo · exif</p>
+<ul>
+<li><strong>floccusaddon/floccus</strong> — «:cloud: Sync your bookmarks privately across browsers and devices»</li>
+</ul>
+<p>  ★8.603 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia MPL-2.0 · TypeScript · última release v5.12.0 (2026-10-23) · <a href="https://github.com/floccusaddon/floccus">https://github.com/floccusaddon/floccus</a> · Web: <a href="https://floccus.org">https://floccus.org</a></p>
+<p>  Temas: bookmark · bookmarks · browser-bookmarks · chrome · chrome-extension · edge-extension</p>
+<ul>
+<li><strong>samuelclay/NewsBlur</strong> — «NewsBlur is a personal news reader that brings people together to talk about the world. A new sound of an old instrument.»</li>
+</ul>
+<p>  ★7.674 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · HTML · última release v0.2.2 (2026-08-11) · <a href="https://github.com/samuelclay/NewsBlur">https://github.com/samuelclay/NewsBlur</a> · Web: <a href="http://www.newsblur.com">http://www.newsblur.com</a></p>
+<p>  Temas: android · elasticsearch · feed-reader · ios · mongodb · postgresql</p>
+<ul>
+<li><strong>ReadYouApp/ReadYou</strong> — «An Android RSS reader presented in Material You style.»</li>
+</ul>
+<p>  ★7.624 · su último empuje fue el 2026-08-11 (hace 81 días) · licencia GPL-3.0 · Kotlin · última release 0.16.2 (2026-06-03) · <a href="https://github.com/ReadYouApp/ReadYou">https://github.com/ReadYouApp/ReadYou</a></p>
+<p>  Temas: android · compose · f-droid · kotlin · material-design · material-design-3</p>
+<ul>
+<li><strong>ReadYouApp/ReadYou</strong> — «An Android RSS reader presented in Material You style.»</li>
+</ul>
+<p>  ★7.624 · su último empuje fue el 2026-08-11 (hace 81 días) · licencia GPL-3.0 · Kotlin · última release 0.16.2 (2026-06-03) · <a href="https://github.com/ReadYouApp/ReadYou">https://github.com/ReadYouApp/ReadYou</a></p>
+<p>  Temas: android · compose · f-droid · kotlin · material-design · material-design-3</p>
+<ul>
+<li><strong>deckerst/aves</strong> — «Aves is a gallery and metadata explorer app, built for Android with Flutter.»</li>
+</ul>
+<p>  ★5.468 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia BSD-3-Clause · Dart · última release v1.15.8 (2026-10-21) · <a href="https://github.com/deckerst/aves">https://github.com/deckerst/aves</a></p>
+<p>  Temas: android · c2pa · exif · flutter · gallery · geotiff</p>
+<ul>
+<li><strong>burhanrashid52/PhotoEditor</strong> — «A Photo Editor library with simple, easy support for image editing using paints,text,filters,emoji and Sticker like stories.»</li>
+</ul>
+<p>  ★4.530 · su último empuje fue el 2026-09-27 (hace 34 días) · licencia MIT · Kotlin · última release v.3.1.1 (2026-09-17) · <a href="https://github.com/burhanrashid52/PhotoEditor">https://github.com/burhanrashid52/PhotoEditor</a></p>
+<p>  Temas: android · canvas · emoji · facebook · filters · image-processing</p>
+<ul>
+<li><strong>pulsejet/memories</strong> — «Fast, modern and advanced photo management suite. Runs as a Nextcloud app.»</li>
+</ul>
+<p>  ★3.868 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · PHP · última release v10.2.0 (2026-10-23) · <a href="https://github.com/pulsejet/memories">https://github.com/pulsejet/memories</a> · Web: <a href="https://memories.gallery">https://memories.gallery</a></p>
+<p>  Temas: backup-tool · gallery · nextcloud · photo-gallery · photos · self-hosted</p>
+<ul>
+<li><strong>spacecowboy/Feeder</strong> — «Android feed reader app»</li>
+</ul>
+<p>  ★3.096 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 2.25.0 (2026-10-23) · <a href="https://github.com/spacecowboy/Feeder">https://github.com/spacecowboy/Feeder</a></p>
+<p>  Temas: android · atom · jetpack-compose · jsonfeed · kotlin · nostr</p>
+<ul>
+<li><strong>wikimedia/apps-android-wikipedia</strong> — «📱The official Wikipedia app for Android!»</li>
+</ul>
+<p>  ★3.050 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release latest (2026-10-29) · <a href="https://github.com/wikimedia/apps-android-wikipedia">https://github.com/wikimedia/apps-android-wikipedia</a> · Web: <a href="https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/App_hacking">https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/App_hacking</a></p>
+<p>  Temas: android · android-app · coroutines · java · kotlin · mediawiki</p>
+<ul>
+<li><strong>IacobIonut01/ReFra</strong> — «Media Gallery app for Android made with Jetpack Compose»</li>
+</ul>
+<p>  ★2.959 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia Apache-2.0 · Kotlin · última release 5.2.2 (2026-10-04) · <a href="https://github.com/IacobIonut01/ReFra">https://github.com/IacobIonut01/ReFra</a></p>
+<p>  Temas: android · android-gallery · gallery · jetpack-compose · kotlin</p>
+<ul>
+<li><strong>IacobIonut01/ReFra</strong> — «Media Gallery app for Android made with Jetpack Compose»</li>
+</ul>
+<p>  ★2.959 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia Apache-2.0 · Kotlin · última release 5.2.2 (2026-10-04) · <a href="https://github.com/IacobIonut01/ReFra">https://github.com/IacobIonut01/ReFra</a></p>
+<p>  Temas: android · android-gallery · gallery · jetpack-compose · kotlin</p>
+<ul>
+<li><strong>anonfaded/FadCam</strong> — «Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control»</li>
+</ul>
+<p>  ★2.865 · su último empuje fue el 2026-10-23 (hace 8 días) · licencia GPL-3.0 · Java · última release v3.0.1 (2025-12-16) · <a href="https://github.com/anonfaded/FadCam">https://github.com/anonfaded/FadCam</a> · Web: <a href="https://fadcam.fadseclab.com">https://fadcam.fadseclab.com</a></p>
+<p>  Temas: android-app · android-studio · cam · camera2-api · camerax · fadrec</p>
+<ul>
+<li><strong>MMRLApp/MMRL</strong> — «A app for managing, sharing, and exploring Magisk modules across repositories»</li>
+</ul>
+<p>  ★2.223 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v34296 (2026-03-08) · <a href="https://github.com/MMRLApp/MMRL">https://github.com/MMRLApp/MMRL</a> · Web: <a href="https://mmrl.dev">https://mmrl.dev</a></p>
+<p>  Temas: android · apatch · compose · kernelsu · kotlin · magisk</p>
+<ul>
+<li><strong>SimonSchubert/LinuxCommandLibrary</strong> — «2M+ app downloads, 500k+ monthly website visitors, Linux basics, tips and formatted man pages»</li>
+</ul>
+<p>  ★2.086 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release v4.9.1 (2026-10-14) · <a href="https://github.com/SimonSchubert/LinuxCommandLibrary">https://github.com/SimonSchubert/LinuxCommandLibrary</a> · Web: <a href="http://linuxcommandlibrary.com">http://linuxcommandlibrary.com</a></p>
+<p>  Temas: android · jetpack-compose · kotlin · kotlin-multiplatform · linux</p>
+<ul>
+<li><strong>LinwoodDev/Butterfly</strong> — «🎨 Powerful, minimalistic, cross-platform, opensource note-taking app»</li>
+</ul>
+<p>  ★2.082 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Dart · última release v2.6.2 (2026-10-28) · <a href="https://github.com/LinwoodDev/Butterfly">https://github.com/LinwoodDev/Butterfly</a> · Web: <a href="https://butterfly.linwood.dev">https://butterfly.linwood.dev</a></p>
+<p>  Temas: android · app · cross-platform · customizable · dart · dartlang</p>
+<ul>
+<li><strong>plateaukao/einkbro</strong> — «A small, fast web browser based on Android WebView. It's tailored for E-Ink devices but also works great on normal android devices.»</li>
+</ul>
+<p>  ★2.048 · su último empuje fue el 2026-10-17 (hace 14 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Kotlin · última release v16.7.1 (2026-10-11) · <a href="https://github.com/plateaukao/einkbro">https://github.com/plateaukao/einkbro</a> · Web: <a href="https://plateaukao.github.io/einkbro">https://plateaukao.github.io/einkbro</a></p>
+<p>  Temas: android · browser · eink · kotlin · kotlin-android · webview</p>
+<ul>
+<li><strong>null2264/yokai</strong> — «Free and open source manga reader for Android»</li>
+</ul>
+<p>  ★1.912 · su último empuje fue el 2026-10-13 (hace 18 días) · licencia Apache-2.0 · Kotlin · última release v1.10.2 (2026-09-23) · <a href="https://github.com/null2264/yokai">https://github.com/null2264/yokai</a></p>
+<ul>
+<li><strong>mateusz-bak/openreads</strong> — «A mobile books tracker written in Flutter that respects your privacy.»</li>
+</ul>
+<p>  ★1.664 · su último empuje fue el 2026-09-14 (hace 47 días) · licencia GPL-2.0 · Dart · última release v2.11.0 (2025-09-09) · <a href="https://github.com/mateusz-bak/openreads">https://github.com/mateusz-bak/openreads</a></p>
+<p>  Temas: android · books · flutter · flutter-app · flutter-apps · mobile</p>
+<ul>
+<li><strong>Livinglist/Hacki</strong> — «A highly customizable, open-source Hacker News client.»</li>
+</ul>
+<p>  ★1.636 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia GPL-3.0 · Dart · última release v3.8.2 (2026-10-11) · <a href="https://github.com/Livinglist/Hacki">https://github.com/Livinglist/Hacki</a> · Web: <a href="https://livinglist.github.io/Hacki/">https://livinglist.github.io/Hacki/</a></p>
+<p>  Temas: android · android-app · dart · flutter · flutter-app · flutter-bloc</p>
+<ul>
+<li><strong>astubenbord/paperless-mobile</strong> — «An (almost) fully fledged mobile paperless client.»</li>
+</ul>
+<p>  ★1.491 · su último empuje fue el 2026-06-01 (hace 152 días) · licencia GPL-3.0 · Dart · última release v4.5.0 (2026-04-16) · <a href="https://github.com/astubenbord/paperless-mobile">https://github.com/astubenbord/paperless-mobile</a></p>
+<p>  Temas: android · dart · dms · flutter · flutter-apps · ios</p>
+<ul>
+<li><strong>jocmp/capyreader</strong> — «A smallish Android RSS reader»</li>
+</ul>
+<p>  ★1.433 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 2026.10.1215 (2026-10-27) · <a href="https://github.com/jocmp/capyreader">https://github.com/jocmp/capyreader</a> · Web: <a href="http://capyreader.com/">http://capyreader.com/</a></p>
+<p>  Temas: android · android-app · atom · f-droid · feed-reader · feedbin</p>
+<ul>
+<li><strong>pynicolas/FairScan</strong> — «An Android app to scan your documents — simple and respectful»</li>
+</ul>
+<p>  ★997 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v2.3.0 (2026-09-20) · <a href="https://github.com/pynicolas/FairScan">https://github.com/pynicolas/FairScan</a> · Web: <a href="https://fairscan.org">https://fairscan.org</a></p>
+<p>  Temas: android · android-app · document-scanner · image-processing · opencv · pdf</p>
+<ul>
+<li><strong>leonlatsch/Photok</strong> — «Private photo vault for Android»</li>
+</ul>
+<p>  ★994 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia Apache-2.0 · Kotlin · última release 3.7.0 (2026-10-19) · <a href="https://github.com/leonlatsch/Photok">https://github.com/leonlatsch/Photok</a> · Web: <a href="https://photok.app">https://photok.app</a></p>
+<p>  Temas: android · android-app · app · encryption · image · kotlin</p>
+<ul>
+<li><strong>IReaderorg/IReader</strong> — «Free and open source novel reader for Android and Desktop.»</li>
+</ul>
+<p>  ★980 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia Apache-2.0 · Kotlin · última release v2.0.26 (2026-09-07) · <a href="https://github.com/IReaderorg/IReader">https://github.com/IReaderorg/IReader</a> · Web: <a href="https://ireaderorg.netlify.app/">https://ireaderorg.netlify.app/</a></p>
+<p>  Temas: android · compose · hacktoberfest · ireader · kotlin · light-novels</p>
+<ul>
+<li><strong>K3vinb5/unyo-app</strong> — «🐙 Anime streaming and Manga reader desktop app without ads.»</li>
+</ul>
+<p>  ★669 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia BSD-3-Clause · Dart · <a href="https://github.com/K3vinb5/unyo-app">https://github.com/K3vinb5/unyo-app</a></p>
+<p>  Temas: anilist · anime · anime-streaming · aniyomi-extensions · app · custom-api</p>
+<ul>
+<li><strong>axiel7/AniHyou-android</strong> — «Another unofficial Android AniList client»</li>
+</ul>
+<p>  ★627 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release 1.6.3 (2026-09-26) · <a href="https://github.com/axiel7/AniHyou-android">https://github.com/axiel7/AniHyou-android</a> · Web: <a href="https://axiel7.github.io/anihyou/">https://axiel7.github.io/anihyou/</a></p>
+<p>  Temas: android · anilist · anime · jetpack-compose · manga · material3</p>
+<ul>
+<li><strong>Radiokot/photoprism-android-client</strong> — «📸 A convenient Android gallery for your PhotoPrism library with plenty of useful features»</li>
+</ul>
+<p>  ★621 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia GPL-3.0 · Kotlin · última release 1.47.1(73) (2026-09-26) · <a href="https://github.com/Radiokot/photoprism-android-client">https://github.com/Radiokot/photoprism-android-client</a> · Web: <a href="https://radiokot.com.ua/p/photoprism-android-gallery">https://radiokot.com.ua/p/photoprism-android-gallery</a></p>
+<p>  Temas: android · exoplayer · foss · gallery · koin · kotlin</p>
+<ul>
+<li><strong>Justwen/NGA-CLIENT-VER-OPEN-SOURCE</strong> — «NGA客户端开源版代码仓库»</li>
+</ul>
+<p>  ★601 · su último empuje fue el 2026-10-24 (hace 7 días) · licencia GPL-2.0 · Java · última release 5.0.2 (2026-08-30) · <a href="https://github.com/Justwen/NGA-CLIENT-VER-OPEN-SOURCE">https://github.com/Justwen/NGA-CLIENT-VER-OPEN-SOURCE</a></p>
+<ul>
+<li><strong>opendocument-app/OpenDocument.droid</strong> — «It's Android's first OpenOffice Document Reader!»</li>
+</ul>
+<p>  ★484 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia MPL-2.0 · Kotlin · última release v4.23.0 (2026-10-25) · <a href="https://github.com/opendocument-app/OpenDocument.droid">https://github.com/opendocument-app/OpenDocument.droid</a> · Web: <a href="https://opendocument.app/">https://opendocument.app/</a></p>
+<p>  Temas: android · f-droid · fdroid · kotlin</p>
+<ul>
+<li><strong>ZWolken/Light-Novel-Yuedu-Source</strong> — «轻小说阅读书源合集 輕小説閲讀書源合集»</li>
+</ul>
+<p>  ★448 · su último empuje fue el 2025-09-22 (hace 404 días) · licencia MIT · Python · última release v24-12-13 (2024-12-13) · <a href="https://github.com/ZWolken/Light-Novel-Yuedu-Source">https://github.com/ZWolken/Light-Novel-Yuedu-Source</a></p>
+<p>  Temas: book · books · files · japanese · light-novel · light-novels</p>
+<ul>
+<li><strong>Chimahon/chimahon</strong> — «Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and anime support, Novel EPUB reader, and instant Anki card mining.»</li>
+</ul>
+<p>  ★237 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v2.4.8 (2026-10-19) · <a href="https://github.com/Chimahon/chimahon">https://github.com/Chimahon/chimahon</a></p>
+<p>  Temas: android · anime · anki · chinese · japanese · korean</p>
+<ul>
+<li><strong>Utazukin/Ichaival</strong> — «Android client for the LANraragi manga/doujinshi web manager.»</li>
+</ul>
+<p>  ★220 · su último empuje fue el 2026-08-26 (hace 66 días) · licencia GPL-3.0 · Kotlin · última release v1.11.0 (2026-08-26) · <a href="https://github.com/Utazukin/Ichaival">https://github.com/Utazukin/Ichaival</a></p>
+<p>  Temas: android · comics · doujinshi · kotlin · manga · reader</p>
+<ul>
+<li><strong>materializr-cad/materializr</strong> — «Open-source parametric 3D CAD for makers — constraint sketches, solid modeling, threads, SVG &amp; text engraving, STL/STEP export. Android, iPad, Linux, Mac, Windows. Vibe coded.»</li>
+</ul>
+<p>  ★202 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · C++ · última release v1.7.5 (2026-10-25) · <a href="https://github.com/materializr-cad/materializr">https://github.com/materializr-cad/materializr</a> · Web: <a href="https://materializr.com">https://materializr.com</a></p>
+<ul>
+<li><strong>ArtifexSoftware/mupdf-android-viewer</strong> — «Android SDK: viewer»</li>
+</ul>
+<p>  ★199 · su último empuje fue el 2026-09-25 (hace 36 días) · licencia AGPL-3.0 · Java · <a href="https://github.com/ArtifexSoftware/mupdf-android-viewer">https://github.com/ArtifexSoftware/mupdf-android-viewer</a></p>
+<ul>
+<li><strong>magic-cucumber/Pixiv-MultiPlatform</strong> — «跨平台第三方客户端，专注于预览。»</li>
+</ul>
+<p>  ★196 · su último empuje fue el 2026-09-16 (hace 45 días) · licencia GPL-3.0 · Kotlin · última release v1.8.7 (2026-07-24) · <a href="https://github.com/magic-cucumber/Pixiv-MultiPlatform">https://github.com/magic-cucumber/Pixiv-MultiPlatform</a> · Web: <a href="https://pmf.kagg886.top">https://pmf.kagg886.top</a></p>
+<p>  Temas: kotlin · kotlin-multiplatform · pixiv · pixiv-client</p>
+<ul>
+<li><strong>nilsbraden/ttrss-reader-fork</strong> — «An Android-Client for the self-hosted Tiny Tiny RSS feedreader»</li>
+</ul>
+<p>  ★181 · su último empuje fue el 2026-08-07 (hace 85 días) · licencia sin archivo LICENSE en su repo (verificado) · Java · última release v1.98.1_1981 (2025-12-30) · <a href="https://github.com/nilsbraden/ttrss-reader-fork">https://github.com/nilsbraden/ttrss-reader-fork</a> · Web: <a href="https://www.nilsbraden.de/TTRSS-Reader/">https://www.nilsbraden.de/TTRSS-Reader/</a></p>
+<ul>
+<li><strong>chmouel/liseur</strong> — «Open-source EPUB reader and remote library client for Android, with a Kindle-inspired reading experience»</li>
+</ul>
+<p>  ★164 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Kotlin · última release v0.26.0 (2026-10-28) · <a href="https://github.com/chmouel/liseur">https://github.com/chmouel/liseur</a> · Web: <a href="https://f-droid.org/en/packages/com.chmouel.liseur/">https://f-droid.org/en/packages/com.chmouel.liseur/</a></p>
+<p>  Temas: ai-assisted · android · calibre-web · ebook-reader · epub · epub-reader</p>
+<ul>
+<li><strong>KamiYomu/KamiYomu</strong> — «A self-hosted, extensible manga reader and download tool with plug-in support.»</li>
+</ul>
+<p>  ★150 · su último empuje fue el 2026-09-20 (hace 41 días) · licencia AGPL-3.0 · C# · última release 1.4.0 (2026-09-01) · <a href="https://github.com/KamiYomu/KamiYomu">https://github.com/KamiYomu/KamiYomu</a> · Web: <a href="http://kamiyomu.github.io/">http://kamiyomu.github.io/</a></p>
+<p>  Temas: crawler · crawler-agents · csharp · dotnet · downloader · kamiyomu</p>
+<ul>
+<li><strong>VincentEngel/VES-Image-Compare</strong> — «Android App to easily compare similar images»</li>
+</ul>
+<p>  ★144 · su último empuje fue el 2026-08-01 (hace 91 días) · licencia GPL-3.0 · Java · última release fdroid-v2.3.6 (2026-05-26) · <a href="https://github.com/VincentEngel/VES-Image-Compare">https://github.com/VincentEngel/VES-Image-Compare</a></p>
+<p>  Temas: android · f-droid · java</p>
+<ul>
+<li><strong>ArtifexSoftware/mupdf-android-viewer-mini</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★139 · su último empuje fue el 2026-09-25 (hace 36 días) · licencia AGPL-3.0 · Java · <a href="https://github.com/ArtifexSoftware/mupdf-android-viewer-mini">https://github.com/ArtifexSoftware/mupdf-android-viewer-mini</a></p>
+<ul>
+<li><strong>mshdabiola/NotePad</strong> — «Notepad is multi module Jetpack compose note taking app with sketch pad, voice recorder, image capturing app»</li>
+</ul>
+<p>  ★131 · su último empuje fue el 2025-10-27 (hace 369 días) · licencia GPL-3.0 · Kotlin · última release 1.3.7 (2025-01-30) · <a href="https://github.com/mshdabiola/NotePad">https://github.com/mshdabiola/NotePad</a> · Web: <a href="https://play.google.com/store/apps/details?id=com.mshdabiola.playnotepad">https://play.google.com/store/apps/details?id=com.mshdabiola.playnotepad</a></p>
+<p>  Temas: android-app · github-actions · hilt-dependency-injection · image-to-text · jetpack-compose · kotin-coroutines</p>
+<ul>
+<li><strong>pastthepixels/FreePaint</strong> — «A vector graphics drawing app for Android.»</li>
+</ul>
+<p>  ★119 · su último empuje fue el 2026-07-29 (hace 94 días) · licencia GPL-3.0 · Java · última release v1.2.0 (2024-05-10) · <a href="https://github.com/pastthepixels/FreePaint">https://github.com/pastthepixels/FreePaint</a></p>
+<p>  Temas: android · drawing · drawing-app · graphics · vector-graphics</p>
+<ul>
+<li><strong>KevinCFechtel/FluxNews</strong> — «A simple Newsreader for the miniflux backend (<a href="https://miniflux.app">https://miniflux.app</a>).»</li>
+</ul>
+<p>  ★111 · su último empuje fue el 2026-10-19 (hace 12 días) · licencia BSD-3-Clause · Dart · última release v2.3.2 (2026-09-05) · <a href="https://github.com/KevinCFechtel/FluxNews">https://github.com/KevinCFechtel/FluxNews</a></p>
+<ul>
+<li><strong>itsmechinmoy/Dantotsu</strong> — «Anilist client based on Saikou»</li>
+</ul>
+<p>  ★92 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Kotlin · última release v3.2.2+74ae756 (2026-10-29) · <a href="https://github.com/itsmechinmoy/Dantotsu">https://github.com/itsmechinmoy/Dantotsu</a> · Web: <a href="https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev">https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev</a></p>
+<p>  Temas: anime · anime-streaming · animeapp · aniyomi · aniyomi-extension · downloader</p>
+<ul>
+<li><strong>aarddict/android</strong> — «Aard Dictionary for Android»</li>
+</ul>
+<p>  ★88 · su último empuje fue el 2015-05-09 (hace 4193 días) · licencia GPL-3.0 · Java · última release 1.6.11 (2016-08-18) · ARCHIVADO: historia, no opción viva · <a href="https://github.com/aarddict/android">https://github.com/aarddict/android</a></p>
+<ul>
+<li><strong>UmerCodez/WebsocketCAM</strong> — «Access Android camera via WebSocket client API and run AI / computer vision tasks with ease on live camera stream»</li>
+</ul>
+<p>  ★74 · su último empuje fue el 2026-06-14 (hace 139 días) · licencia GPL-3.0 · Kotlin · última release v1.4.0 (2026-06-14) · <a href="https://github.com/UmerCodez/WebsocketCAM">https://github.com/UmerCodez/WebsocketCAM</a></p>
+<p>  Temas: ai-image-detection · android-camera · camera · camera-streamer · computer-vision · computer-vision-opencv</p>
+<ul>
+<li><strong>javalc6/rssreader</strong> — «This Android application is a minimal RSS news reader that brings you the latest news.»</li>
+</ul>
+<p>  ★26 · su último empuje fue el 2026-06-16 (hace 137 días) · licencia GPL-2.0 · Java · última release 120 (2026-06-16) · <a href="https://github.com/javalc6/rssreader">https://github.com/javalc6/rssreader</a></p>
+<p>  Temas: android · java · newsreader · rss · rss-reader · rss-reader-android</p>
+<ul>
+<li><strong>SecUSo/privacy-friendly-sketching</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★25 · su último empuje fue el 2026-05-29 (hace 155 días) · licencia GPL-3.0 · Java · última release v1.1.3 (2025-09-04) · <a href="https://github.com/SecUSo/privacy-friendly-sketching">https://github.com/SecUSo/privacy-friendly-sketching</a></p>
+<ul>
+<li><strong>NovelSourcery/extensions</strong> — «Tsundoku format compiled novel extensions»</li>
+</ul>
+<p>  ★20 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release d31198f (2026-10-28) · <a href="https://github.com/NovelSourcery/extensions">https://github.com/NovelSourcery/extensions</a> · Web: <a href="https://novelsourcery.github.io/">https://novelsourcery.github.io/</a></p>
+<p>  Temas: extension · repo · repository · tsundoku</p>
+<ul>
+<li><strong>zorgluf/souvenirs-android</strong> — «Android app for souvenirs albums»</li>
+</ul>
+<p>  ★17 · su último empuje fue el 2026-10-18 (hace 13 días) · licencia GPL-3.0 · Java · última release v3.1.0 (2026-10-14) · <a href="https://github.com/zorgluf/souvenirs-android">https://github.com/zorgluf/souvenirs-android</a></p>
+<ul>
+<li><strong>rektpartyaftermath/Legado-booksource-collection</strong> — «Some booksource collection for legado.»</li>
+</ul>
+<p>  ★15 · su último empuje fue el 2025-11-19 (hace 346 días) · licencia sin archivo LICENSE en su repo (verificado) · Shell · <a href="https://github.com/rektpartyaftermath/Legado-booksource-collection">https://github.com/rektpartyaftermath/Legado-booksource-collection</a></p>
+<ul>
+<li><strong>LukeNeedham/VideoDiary</strong> — «Record your life in one short video a day»</li>
+</ul>
+<p>  ★14 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) · Kotlin · última release v1.0.8 (2025-02-16) · <a href="https://github.com/LukeNeedham/VideoDiary">https://github.com/LukeNeedham/VideoDiary</a> · Web: <a href="https://f-droid.org/packages/com.lukeneedham.videodiary/">https://f-droid.org/packages/com.lukeneedham.videodiary/</a></p>
+<ul>
+<li><strong>gato404/kegareta-sauces</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★14 · su último empuje fue el 2025-07-22 (hace 466 días) · licencia Apache-2.0 · Dart · <a href="https://github.com/gato404/kegareta-sauces">https://github.com/gato404/kegareta-sauces</a></p>
+<ul>
+<li><strong>Volksverpetzer/vvp_app</strong> — «Read Volksverpetzer fact checks, analysis and articles on your mobile phone.»</li>
+</ul>
+<p>  ★11 · su último empuje fue el 2026-10-16 (hace 15 días) · licencia MIT · TypeScript · última release v2.5.4 (2026-10-09) · <a href="https://github.com/Volksverpetzer/vvp_app">https://github.com/Volksverpetzer/vvp_app</a> · Web: <a href="https://volksverpetzer.de">https://volksverpetzer.de</a></p>
+<p>  Temas: expo · react-native</p>
+<ul>
+<li><strong>v4lpt/MYC</strong> — «Memorize poems, songs, etc. with this nice poem viewer.»</li>
+</ul>
+<p>  ★6 · su último empuje fue el 2025-11-19 (hace 346 días) · licencia GPL-3.0 · Java · última release v1.0.4 (2025-10-18) · <a href="https://github.com/v4lpt/MYC">https://github.com/v4lpt/MYC</a></p>
+<p>  Temas: android · f-droid · fdroid · poems</p>
+<ul>
+<li><strong>deedeedev/YtReader</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★6 · su último empuje fue el 2026-07-21 (hace 102 días) · licencia GPL-3.0 · Java · última release v0.8.5 (2026-06-29) · <a href="https://github.com/deedeedev/YtReader">https://github.com/deedeedev/YtReader</a></p>
+<ul>
+<li><strong>bibledit/android</strong> — «Bibledit for Android»</li>
+</ul>
+<p>  ★4 · su último empuje fue el 2026-10-01 (hace 30 días) · licencia sin archivo LICENSE en su repo (verificado) · C · última release 5.1.047 (2026-06-04) · <a href="https://github.com/bibledit/android">https://github.com/bibledit/android</a> · Web: <a href="http://bibledit.org">http://bibledit.org</a></p>
+<ul>
+<li><strong>vauvenal5/yaga</strong> — «Nextcloud Yaga - A Nextcloud first gallery app for Android.»</li>
+</ul>
+<p>  ★2 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia AGPL-3.0 · CMake · <a href="https://github.com/vauvenal5/yaga">https://github.com/vauvenal5/yaga</a></p>
+<ul>
+<li><strong>KamiYomu/KamiYomu.CrawlerAgents.Core</strong> — «A foundational library for building, extending, and integrating custom crawler agents within the KamiYomu ecosystem. Provides essential abstractions, utilities, and lifecycle…»</li>
+</ul>
+<p>  ★0 · su último empuje fue el 2026-08-30 (hace 62 días) · licencia MIT · C# · última release 1.2.3 (2026-08-27) · <a href="https://github.com/KamiYomu/KamiYomu.CrawlerAgents.Core">https://github.com/KamiYomu/KamiYomu.CrawlerAgents.Core</a> · Web: <a href="https://kamiyomu.github.io/">https://kamiyomu.github.io/</a></p>
+<p>  Temas: crawler-agents · kamiyomu · kamiyomu-plugin · manga-crawler · manga-downloader</p>
+<ul>
+<li><strong>ulightm111/boky-fivavahana-ion</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★0 · su último empuje fue el 2026-10-14 (hace 17 días) · licencia GPL-3.0 · Vue · última release v2.6.1 (2026-10-14) · <a href="https://github.com/ulightm111/boky-fivavahana-ion">https://github.com/ulightm111/boky-fivavahana-ion</a></p>
+<h2>Lectura de la medición</h2>
+<p><strong>itsmechinmoy/Dantotsu</strong> trae la novedad del grupo, su release v3.2.2+74ae756 (2026-10-29). <strong>aarddict/android</strong> no se mueve desde el 2015-05-09; <strong>itsmechinmoy/Dantotsu</strong> firmó la release de fecha más reciente (v3.2.2+74ae756 (2026-10-29)) de las 58 del grupo; legalmente el grupo se reparte así: GPL-3.0 ×25, Apache-2.0 ×10, AGPL-3.0 ×8; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; archivado por su autor: <strong>aarddict/android</strong>; la actividad más fresca es de <strong>itsmechinmoy/Dantotsu</strong> (hace 2 días).</p>
+<p>💓 64 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 64 vivos, 0 firmados arriba con su estado.</p></div></main>
+<footer>La Bandita verifica antes de recomendar · cada dato con su fecha · generado el 2026-11-01
+sin recursos externos (cero CDN, cero fuentes remotas).</footer>
+</body></html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es-DO"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Los mayordomos: los que gestionan apps, perfiles y bloat — trabajando abajo, donde está la verdad">
+<title>Los mayordomos: los que gestionan apps, perfiles y bloat — trabajando abajo, donde está la verdad</title><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Los mayordomos: los que gestionan apps, perfiles y bloat — trabajando abajo, donde está la verdad", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script>
+<style>
+:root{--r2:12px;--r3:18px;--r4:24px;--acc:#17c98a;--acc2:#8df2c6;--acc-rgb:23,201,138;
+--bg:#050b09;--bg2:#08130f;--texto:#e8eef6;--texto2:#c3d0dd;--apagado:#8ea0b2;
+--sup:rgba(255,255,255,.04);--borde:rgba(255,255,255,.085)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(900px 500px at 80% -8%,rgba(0,255,178,.09),transparent 60%),
+linear-gradient(175deg,var(--bg2),var(--bg) 60%);color:var(--texto);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.72;font-size:16.5px}
+a{color:var(--acc2);text-decoration:none}a:hover{text-decoration:underline}
+.barra{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;
+gap:14px;padding:12px clamp(14px,3vw,28px);background:rgba(6,10,12,.82);
+-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid var(--borde)}
+.marca{display:flex;gap:10px;align-items:center;color:inherit;font-weight:700;letter-spacing:.14em;font-size:14px}
+.marca small{display:block;font-weight:400;letter-spacing:.12em;font-size:10px;color:var(--apagado);text-transform:uppercase}
+main{max-width:980px;margin:0 auto;padding:clamp(18px,3vw,34px) clamp(14px,3vw,28px) 90px}
+h1{font-size:clamp(26px,4.4vw,42px);line-height:1.1;letter-spacing:-.02em;margin:.2em 0 .5em}
+h2{font-size:clamp(19px,2.4vw,25px);letter-spacing:-.015em;margin:1.6em 0 .5em}
+h3{font-size:15.5px;color:var(--acc2);margin:1.4em 0 .4em}
+p,li{color:var(--texto2)}strong{color:#fff}
+.hero{padding:26px 0 8px}
+.eyebrow{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--acc);margin:0 0 12px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:18px 0}
+.kpi{background:var(--sup);border:1px solid var(--borde);border-radius:var(--r3);padding:13px 15px}
+.kpi b{display:block;font-family:ui-monospace,monospace;font-size:23px;color:var(--acc2);line-height:1.1}
+.kpi span{font-size:11.5px;color:var(--apagado)}
+.buscador{display:flex;gap:8px;margin:14px 0}
+input[type=search]{flex:1;padding:11px 14px;border-radius:var(--r2);border:1px solid var(--borde);
+background:rgba(255,255,255,.04);color:var(--texto);font:inherit;font-size:15px;outline:none}
+input[type=search]:focus{border-color:rgba(var(--acc-rgb),.6);box-shadow:0 0 0 3px rgba(var(--acc-rgb),.14)}
+.cuenta{font-family:ui-monospace,monospace;font-size:12px;color:var(--acc2);align-self:center;min-width:74px;text-align:right}
+.lista{display:grid;gap:9px;margin:16px 0;padding:0;list-style:none}
+.item{display:block;padding:13px 15px;border:1px solid var(--borde);border-radius:var(--r2);background:var(--sup)}
+.item:hover{border-color:rgba(var(--acc-rgb),.5);text-decoration:none}
+.item b{display:block;color:var(--texto);font-size:14.6px;font-weight:600;line-height:1.35}
+.item small{display:block;color:var(--apagado);font-size:11.6px;margin-top:3px}
+.ficha{background:var(--sup);border:1px solid var(--borde);border-radius:var(--r3);padding:14px 16px;margin:12px 0}
+.ficha dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:8px 0 0;font-size:14px}
+.ficha dt{color:var(--apagado);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.ficha dd{margin:0;color:var(--texto)}
+.pill{display:inline-block;font-size:11px;padding:3px 9px;border-radius:99px;border:1px solid var(--borde);
+color:var(--apagado);margin:2px 4px 2px 0}
+.pill.vivo{color:var(--acc2);border-color:rgba(var(--acc-rgb),.45)}
+.pill.rancio{color:#ffb46b;border-color:rgba(255,180,107,.45)}
+.pieza p{color:var(--texto2);margin:0 0 13px}
+.pieza h2{color:var(--texto);border-top:1px solid var(--borde);padding-top:18px}
+.pieza .meta{font-size:12.5px;color:var(--apagado);margin-bottom:18px}
+pre{background:#04070a;border:1px solid var(--borde);border-radius:var(--r2);padding:14px;overflow-x:auto;font-size:12.6px}
+code{font-family:ui-monospace,monospace;font-size:.88em;background:rgba(var(--acc-rgb),.12);
+color:var(--acc2);padding:.1em .35em;border-radius:5px}
+table{width:100%;border-collapse:collapse;font-size:13.6px;margin:12px 0}
+th{text-align:left;font-size:10.6px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc2);
+border-bottom:1px solid rgba(var(--acc-rgb),.3);padding:8px 10px}
+td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.055);color:var(--texto2)}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--borde);font-size:12.5px;color:var(--apagado)}
+.volver{font-size:12.6px;color:var(--apagado)}
+mark{background:rgba(var(--acc-rgb),.38);color:#fff;border-radius:3px}
+</style></head>
+<body>
+<header class="barra"><a class="marca" href="/index.html"><svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 29 9v14L16 30 3 23V9z" fill="none" stroke="#17c98a" stroke-width="1.4"/><path d="M16 9.5 23 13v8l-7 3.5L9 21v-8z" fill="rgba(23,201,138,.16)" stroke="#8df2c6" stroke-width="1.1"/><circle cx="16" cy="17" r="3" fill="#17c98a"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a>
+<span class="pill">2026-11-01</span></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Los mayordomos: los que gestionan apps, perfiles y bloat — trabajando abajo, donde está la verdad</h1>
+<p class="meta">Facebook · 29 de octubre de 2026 · 7,035 caracteres</p>
+<h2>Publicación 29 — Los mayordomos: los que gestionan apps, perfiles y bloat — trabajando abajo, donde está la verdad</h2>
+<p>_jueves 29 de octubre de 2026 · La Bandita_</p>
+<p><strong>0x192/universal-android-debloater</strong> encabeza esta entrega con ★20.288 medidos hoy: «Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.». La pieza cita 15 repos (14 vivos) y 9 empujaron en los últimos 30 días. Le sigue <strong>Universal-Debloater-Alliance/universal-android-debloater-next-generation</strong> (★9.638): «Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.». Temas que se repiten en el grupo: accessibilityservice, adb, android, android-accessibility.</p>
+<h2>Los repos de esta pieza, medidos hoy</h2>
+<ul>
+<li><strong>0x192/universal-android-debloater</strong> — «Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.»</li>
+</ul>
+<p>  ★20.288 · su último empuje fue el 2024-08-02 (hace 820 días) · licencia GPL-3.0 · Rust · <a href="https://github.com/0x192/universal-android-debloater">https://github.com/0x192/universal-android-debloater</a></p>
+<p>  Temas: adb · android · debloat · privacy</p>
+<ul>
+<li><strong>Universal-Debloater-Alliance/universal-android-debloater-next-generation</strong> — «Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.»</li>
+</ul>
+<p>  ★9.638 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia GPL-3.0 · Rust · última release v1.2.0 (2026-01-12) · <a href="https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation">https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation</a></p>
+<p>  Temas: adb · android · bloatware-list · bloatware-removal · debloat · debloater</p>
+<ul>
+<li><strong>d4rken-org/sdmaid-se</strong> — «SD Maid 2/SE is Android's most thorough cleaning tool.»</li>
+</ul>
+<p>  ★7.922 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v2.2.2-rc0 (2026-10-19) · <a href="https://github.com/d4rken-org/sdmaid-se">https://github.com/d4rken-org/sdmaid-se</a> · Web: <a href="https://play.google.com/store/apps/details?id=eu.darken.sdmse">https://play.google.com/store/apps/details?id=eu.darken.sdmse</a></p>
+<p>  Temas: android · cleaner · cleaner-app · filemanager · sdmaid · system-cleaner</p>
+<ul>
+<li><strong>samolego/Canta</strong> — «Uninstall any Android app without root (with power of Shizuku). Debloat your device as you wish, with Android app or even from your browser!»</li>
+</ul>
+<p>  ★6.355 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia LGPL-3.0 · Kotlin · última release v4.1.0 (2026-10-29) · <a href="https://github.com/samolego/Canta">https://github.com/samolego/Canta</a> · Web: <a href="https://samolego.github.io/Canta/">https://samolego.github.io/Canta/</a></p>
+<p>  Temas: android · app-manager · debloater · no-root · shizuku</p>
+<ul>
+<li><strong>oasisfeng/island</strong> — «Island for Android»</li>
+</ul>
+<p>  ★3.988 · su último empuje fue el 2025-04-24 (hace 555 días) · licencia Apache-2.0 · Java · última release v6.2.1 (2023-10-19) · <a href="https://github.com/oasisfeng/island">https://github.com/oasisfeng/island</a> · Web: <a href="https://play.google.com/store/apps/details?id=com.oasisfeng.island">https://play.google.com/store/apps/details?id=com.oasisfeng.island</a></p>
+<p>  Temas: android</p>
+<ul>
+<li><strong>PeterCxy/Shelter</strong> — «This repository is a mirror of <a href="https://gitea.angry.im/PeterCxy/Shelter.">https://gitea.angry.im/PeterCxy/Shelter.</a> For bug reports, use <a href="https://lists.sr.ht/~petercxy/shelter»">https://lists.sr.ht/~petercxy/shelter»</a></li>
+</ul>
+<p>  ★3.680 · su último empuje fue el 2026-09-27 (hace 34 días) · licencia GPL-3.0 · Java · última release 1.6 (2020-09-29) · <a href="https://github.com/PeterCxy/Shelter">https://github.com/PeterCxy/Shelter</a> · Web: <a href="https://gitea.angry.im/PeterCxy/Shelter">https://gitea.angry.im/PeterCxy/Shelter</a></p>
+<ul>
+<li><strong>keymapperorg/KeyMapper</strong> — «An Android app to remap the buttons on your devices»</li>
+</ul>
+<p>  ★2.783 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia GPL-3.0 · Kotlin · última release v4.6.2 (2026-10-22) · <a href="https://github.com/keymapperorg/KeyMapper">https://github.com/keymapperorg/KeyMapper</a> · Web: <a href="https://keymapper.app">https://keymapper.app</a></p>
+<p>  Temas: accessibilityservice · android · android-accessibility · android-app · android-development · androidapplication</p>
+<ul>
+<li><strong>legendsayantan/ShizuTools</strong> — «Contains many tools to control android system via shizuku.»</li>
+</ul>
+<p>  ★2.631 · su último empuje fue el 2026-09-29 (hace 32 días) · licencia GPL-3.0 · Kotlin · última release v1.4.6 (2024-10-25) · <a href="https://github.com/legendsayantan/ShizuTools">https://github.com/legendsayantan/ShizuTools</a></p>
+<p>  Temas: adb · android · android-tools · app-volume · audiofocus · debloat</p>
+<ul>
+<li><strong>Hamza417/Inure</strong> — «An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a…»</li>
+</ul>
+<p>  ★1.980 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release build107.3.0 (2026-10-21) · <a href="https://github.com/Hamza417/Inure">https://github.com/Hamza417/Inure</a></p>
+<p>  Temas: android · android-app · android-application · animations · app · c</p>
+<ul>
+<li><strong>bikram-agarwal/ObtainX</strong> — «Get Android app updates straight from the source. And install it any way you want.»</li>
+</ul>
+<p>  ★1.555 · su último empuje fue el 2026-10-05 (hace 26 días) · licencia GPL-3.0 · Dart · última release v2.21.0 (2026-10-04) · <a href="https://github.com/bikram-agarwal/ObtainX">https://github.com/bikram-agarwal/ObtainX</a> · Web: <a href="https://bikram-agarwal.github.io/">https://bikram-agarwal.github.io/</a></p>
+<p>  Temas: android · sideloading</p>
+<ul>
+<li><strong>BinTianqi/OwnDroid</strong> — «使用安卓Device owner特权管理你的设备。Use Android Device owner privilege to manage your device.»</li>
+</ul>
+<p>  ★1.442 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v8.3.1 (2026-08-26) · <a href="https://github.com/BinTianqi/OwnDroid">https://github.com/BinTianqi/OwnDroid</a> · Web: <a href="https://bintianqi.com/OwnDroid">https://bintianqi.com/OwnDroid</a></p>
+<p>  Temas: android · device-owner · kotlin</p>
+<ul>
+<li><strong>Akylas/EnforceDoze</strong> — «Enable Doze mode immediately after screen off and turn off motion sensing to get best battery life»</li>
+</ul>
+<p>  ★366 · su último empuje fue el 2026-07-26 (hace 97 días) · licencia GPL-3.0 · Java · última release v1.10.2/86 (2026-04-18) · <a href="https://github.com/Akylas/EnforceDoze">https://github.com/Akylas/EnforceDoze</a> · Web: <a href="https://www.akylas.fr/EnforceDoze/">https://www.akylas.fr/EnforceDoze/</a></p>
+<ul>
+<li><strong>BugeStudioTeam/Buge-App-Manager</strong> — «Buge App Manager is a powerful Android tool for app and permission management, requiring Shizuku or ROOT.»</li>
+</ul>
+<p>  ★309 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release AppManager13.81.142 (2026-10-29) · <a href="https://github.com/BugeStudioTeam/Buge-App-Manager">https://github.com/BugeStudioTeam/Buge-App-Manager</a> · Web: <a href="https://bugestudio.website/appmanager/">https://bugestudio.website/appmanager/</a></p>
+<p>  Temas: android · app-manager · buge · material3 · materialyou · md3</p>
+<ul>
+<li><strong>FreezeYou/FreezeYou</strong> — «支持 ROOT、免 ROOT 与系统应用模式»</li>
+</ul>
+<p>  ★273 · su último empuje fue el 2026-10-03 (hace 28 días) · licencia Apache-2.0 · Kotlin · última release V11.5(151) (2022-05-30) · <a href="https://github.com/FreezeYou/FreezeYou">https://github.com/FreezeYou/FreezeYou</a> · Web: <a href="https://www.zidon.net">https://www.zidon.net</a></p>
+<p>  Temas: android · freezeyou · freezeyou-api · java · java-android · kotlin</p>
+<ul>
+<li><strong>risunCode/AppControl-X</strong> — caído (404) al medir hoy: queda firmado, no recomendado. <a href="https://github.com/risunCode/AppControl-X">https://github.com/risunCode/AppControl-X</a></li>
+</ul>
+<h2>Lectura de la medición</h2>
+<p>Empieza por las bajas: <strong>risunCode/AppControl-X</strong> (caído (404)) no contestaron hoy. Del resto, el que más cerca empujó es <strong>BugeStudioTeam/Buge-App-Manager</strong> (hace 2 días); el más quieto es <strong>0x192/universal-android-debloater</strong>, parado desde el 2024-08-02; con releases publicadas hay 13; manda la de <strong>BugeStudioTeam/Buge-App-Manager</strong> (AppManager13.81.142 (2026-10-29)); el parte legal dice GPL-3.0 ×11, Apache-2.0 ×2, LGPL-3.0 ×1.</p>
+<p>💓 15 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 14 vivos, 1 firmado arriba con su estado.</p></div></main>
+<footer>La Bandita verifica antes de recomendar · cada dato con su fecha · generado el 2026-11-01
+sin recursos externos (cero CDN, cero fuentes remotas).</footer>
+</body></html>

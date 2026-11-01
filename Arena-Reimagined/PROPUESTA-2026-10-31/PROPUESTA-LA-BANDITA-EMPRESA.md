@@ -6,11 +6,13 @@
 **Fuente de verdad:** `github.com/Alex17273747576777/la-bandita-archivo`, commit `3f04b89`, clonado y medido hoy
 **Naturaleza del documento:** propuesta de negocio, arquitectura e integración — no un adorno. Cada cifra dice de dónde sale y cuándo se midió; lo que no se pudo medir está firmado como ausencia.
 
+> **Fe de erratas vigente (1 de noviembre de 2026).** Las cifras del censo que aparecían en la primera versión de este documento estaban mal medidas: el censo real tiene **5.684 repositorios**, no 573, y de ellos solo **486 declaran licencia SPDX**. El detalle, la causa del error y lo que se corrigió están en `docs/ERRATA-2026-11-01.md`. Las cifras de abajo ya están corregidas; la tesis no cambió.
+
 ---
 
 ## 0. Resumen ejecutivo
 
-La Bandita no es un blog. Es un **registro verificado del ecosistema Android libre, escrito en español dominicano, con fecha y evidencia en cada dato**. Hoy tiene 261 publicaciones, 573 repositorios censados con licencia y actividad medidas, 701 recursos mapeados y un método de verificación propio que ya demostró que sabe detectar sus propios errores.
+La Bandita no es un blog. Es un **registro verificado del ecosistema Android libre, escrito en español dominicano, con fecha y evidencia en cada dato**. Hoy tiene 259 publicaciones activas más una archivada, 5.684 repositorios censados con actividad medida y 701 recursos mapeados y un método de verificación propio que ya demostró que sabe detectar sus propios errores.
 
 Lo que no tiene —y esto es el diagnóstico central— es **estructura de empresa**: no tiene licencia, no tiene integración continua, no tiene contrato de datos, no tiene canal propio, no tiene precio, no tiene un solo ingreso. Todo el valor está concentrado en la cabeza y la disciplina de una persona.
 
@@ -36,21 +38,22 @@ La infraestructura que lo sostiene es un repositorio convertido en sistema: cont
 | Peso del contenido (sin `.git`) | 174 MB | `du --exclude=.git` |
 | Archivos Markdown | 3.005 | conteo por extensión |
 | Palabras en Markdown | 6.067.493 | conteo de `split()` sobre los 3.005 archivos |
-| Publicaciones WhatsApp | 113 · 367.737 palabras | carpeta `01-PUBLICACIONES/WhatsApp-dominicano-ES` |
-| Publicaciones Facebook | 148 · 82.177 palabras | carpeta `01-PUBLICACIONES/Facebook-dominicano-ES` |
-| Repositorios censados | 573, todos con campo de licencia | `censo-ecosistema-2026-10-15.tsv` leído con parser CSV |
-| Vivos (push ≤180 días al corte) | 467 (81,5 %) | cálculo de fechas contra 2026-10-15 |
-| Dormidos | 106 (18,5 %) | ídem |
-| Estrellas totales censadas | 4.203.143 · mediana 1.760 | suma y mediana del campo `stars` |
-| Velocidad mediana | 65,1 ★/mes | campo `stars_por_mes` |
+| Publicaciones WhatsApp | 112 piezas · 367.597 palabras | carpeta `01-PUBLICACIONES/WhatsApp-dominicano-ES` (sin contar el LEEME) |
+| Publicaciones Facebook | 147 piezas · 82.177 palabras | carpeta `01-PUBLICACIONES/Facebook-dominicano-ES` (sin contar el LEEME) |
+| Repositorios censados | 5.684 con actividad medida | `censo-ecosistema-2026-10-15.tsv` leído por columnas (el lector CSV truncaba el archivo) |
+| Vivos (push ≤180 días al corte) | 3.438 (60,5 %) | cálculo de fechas contra 2026-10-15 |
+| Dormidos | 2.246 (39,5 %) | ídem |
+| Estrellas totales censadas | 4.205.993 · mediana 0 | suma y mediana del campo `stars` (la mayoría de los repos censados no tiene estrellas) |
+| Velocidad mediana | 0,0 ★/mes | campo `stars_por_mes` |
 | Recursos mapeados | 701 en 108 piezas | `mapa-recursos-29oct.json` |
-| Herramientas propias | 20 scripts Python, ≈2.600 líneas | `HABILIDADES/herramientas` + `_herramientas` |
+| Herramientas propias | 25 scripts Python | `HABILIDADES/herramientas` + `_herramientas` + `tools/` |
+| Licencias declaradas | 486 SPDX (8,6 %) · 57 NOASSERTION · **5.141 sin licencia declarada (90,4 %)** | `registry/*.json` |
 
 ### 1.2 Los cuatro activos reales
 
 **A. Corpus editorial.** 449.914 palabras publicadas en dos plataformas con voz propia, anatomía fija (semilla, mapa mental, fichas, meme, método, glosario, nota de verificación fechada) y un registro lingüístico que ningún generador reproduce por accidente: el barrio, el mueble, el portero, la casa. Eso es marca, no texto.
 
-**B. Registro verificado.** 573 fichas con licencia, actividad, estrellas y velocidad; 701 recursos mapeados a piezas. Es la materia prima de todo lo que sigue: sin registro no hay informe, no hay API, no hay MCP.
+**B. Registro verificado.** 5.684 fichas con actividad medida y licencia clasificada por el orden de la casa; 701 recursos mapeados a piezas. Y un hallazgo que vale más que el registro entero: **el 90,4 % de los repositorios censados no declara ninguna licencia**. La materia prima de la línea L1 no hay que buscarla: está en casa. Sin registro no hay informe, no hay API, no hay MCP.
 
 **C. Método.** Siete habilidades ejecutables (arranque, verificación multinivel, pulso, licencias sin inventar, pieza editorial, guardado con verificación por blobs, formato respirable) más la puerta anti-plantilla y la doctrina de la casa. Este es el activo más difícil de copiar y el único que se puede vender tal cual.
 
@@ -60,7 +63,7 @@ La infraestructura que lo sostiene es un repositorio convertido en sistema: cont
 
 1. **Sin licencia.** El repositorio no tiene `LICENSE` en la raíz. Sin licencia, nadie puede reutilizarlo legalmente, ningún fondo puede financiarlo y ninguna empresa puede comprarle un informe sin abogado de por medio. Es la deuda más caras de todas y cuesta un día resolverla.
 2. **Cero integración continua.** No existe `.github/`. La vara —las compuertas que impiden publicar basura— se ejecuta a mano, por disciplina humana. El propio historial demuestra el costo: se empujó una pieza rota (`ebd74b0`) porque la vara reportó fallos con salida en cero. La disciplina sin automatización falla; la automatización sin disciplina también. Necesita las dos.
-3. **Sin contrato de datos.** El censo es un TSV de 573 filas; el mapa es un JSON con tres claves distintas; las placas son prosa con formato. Nada de eso se puede validar, versionar ni consumir por máquina. Un esquema convierte 573 filas en un producto.
+3. **Sin contrato de datos.** El censo es un TSV de 5.685 líneas; el mapa es un JSON con tres claves distintas; las placas son prosa con formato. Nada de eso se puede validar, versionar ni consumir por máquina. Un esquema convierte 573 filas en un producto.
 4. **Duplicación sin gobierno.** 3.005 archivos Markdown incluyen versiones en portugués, francés e inglés, cortes de septiembre, respaldos previos y entregas empaquetadas. Cada duplicado es un sitio donde una corrección puede quedarse sin aplicar, y el proyecto ya vivió esa mordida.
 5. **Superficie de producto inexistente.** El catálogo es un HTML único de 997 KB, sin rutas por pieza, sin búsqueda indexable, sin sindicación, sin descarga de datos. Funciona como archivo; no funciona como producto.
 6. **Canal prestado.** Todo el alcance vive en Facebook y WhatsApp. Una decisión de moderación o un cambio de política y el proyecto desaparece sin perder un byte de contenido. No hay lista de correo, no hay RSS, no hay dominio propio en uso.
@@ -316,7 +319,7 @@ Aquí está el movimiento estratégico que esta propuesta recomienda: **no solo 
 
 **Por qué esto vale dinero y no es un juguete:**
 
-- Convierte 573 fichas y 701 recursos en **infraestructura consultable por agentes**, que es el formato en el que se va a consumir información técnica en los próximos años.
+- Convierte 5.684 fichas y 701 recursos en **infraestructura consultable por agentes**, que es el formato en el que se va a consumir información técnica en los próximos años.
 - Obliga a tener el contrato de datos limpio: no se puede servir lo que no está esquematizado. La jugada MCP **fuerza** la deuda técnica buena.
 - Es defendible: nadie más tiene este corpus en español con fecha y evidencia.
 - Es el entregable natural para L3 y para una subvención de infraestructura abierta.
@@ -424,6 +427,21 @@ No se declara sano lo que no se mide. Estos son los números que el dueño debe 
 | `datos/ejemplo-ficha.json` | una ficha real escrita contra ese contrato |
 | `anexos/vara-ci.yml` | plantilla de integración continua con las ocho compuertas |
 | `propuesta-la-bandita.html` | esta propuesta como presentación web autocontenida |
+
+**Ya construido en este mismo repositorio** (1 de noviembre de 2026, después de entregar la propuesta):
+
+| Ruta | Qué es |
+|---|---|
+| `registry/` | 5.684 fichas conformes al contrato, más el índice y el informe de calidad del censo |
+| `schemas/ficha.schema.json` | el contrato de datos v1 |
+| `tools/vara.py` | las ocho compuertas en un comando, con informe que exige «fallos: NINGUNO» |
+| `tools/autoprueba.py` | prueba que cada compuerta detecta su violación sintética (7/7) |
+| `tools/atestar.py` | sello SHA-256 encadenado por lote |
+| `tools/registro_construir.py` | construye el registro desde el censo, con avisos de defectos a la vista |
+| `tools/duplicados.py` · `tools/idioma_mojibake.py` | medidores de duplicación y de salud de codificación |
+| `mcp-labandita-registro/` | el servidor MCP propio, seis herramientas, con prueba de extremo a extremo |
+| `.github/workflows/vara.yml` | la vara activada en integración continua |
+| `docs/` | errata, política de duplicados y matriz de pendientes |
 
 **Lo que este documento no es.** No es una promesa de ingresos: los números de la sección 4 son supuestos declarados. No es un plan aprobado: es una propuesta con decisiones abiertas. No es una medición de mercado dominicano: la única cifra nacional citada viene de la ONE a través de su difusión pública de julio de 2026, y el resto del contexto competitivo queda pendiente de medición primaria. Y no sustituye al dueño en la decisión editorial, que es la única cosa de este proyecto que no se delega ni se automatiza.
 

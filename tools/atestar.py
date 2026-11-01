@@ -22,7 +22,7 @@ LOTES = RAIZ / "attestations"
 
 
 CUBIERTAS = ("registry", "schemas", "Arena-Reimagined/01-PUBLICACIONES",
-             "Arena-Reimagined/PROPUESTA-2026-10-31", "docs")
+             "Arena-Reimagined/PROPUESTA-2026-10-31", "docs", "LEGAL")
 
 
 def archivos() -> list[Path]:
