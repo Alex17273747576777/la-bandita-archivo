@@ -59,7 +59,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 13 | Android dentro de un iPhone: Husk, la cadena de firmas y el huésped pe | 17 | 3512 | 9 | 0 | no | `13-Android-dentro-de-un-iPhone-Husk-la-cadena-de-firmas-y-el-huesped-pesado-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 130 | La TV limpia: Aerial, Plume y las estrellas que corren | 4 | 1810 | 2 | 0 | no | `130-La-TV-limpia-Aerial-Plume-y-las-estrellas-que-corren-Facebook-La-Bandita-2026-10-29` |
 | 131 | La lectura en tres pantallas: Epigraph, Kodex y Bokumi | 4 | 2298 | 3 | 0 | no | `131-La-lectura-en-tres-pantallas-Epigraph-Kodex-y-Bokumi-Facebook-La-Bandita-2026-10-29` |
-| 14 | [LA BANDITA · INFORMACIÓN PÚBLICA] | 4 | 2409 | 4 | 0 | no | `14-Android-dentro-de-Android-familia-DSU-Facebook-La-Bandita-2026-10-15-dominicano-ES` |
+| 14 | Android dentro de Android: la familia DSU y el invitado que se borra | 17 | 3612 | 10 | 0 | no | `14-Android-dentro-de-Android-la-familia-DSU-y-el-invitado-que-se-borra-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 15 | [LA BANDITA · INFORMACIÓN PÚBLICA] | 5 | 3614 | 12 | 0 | no | `15-Rama-J2K-abuelo-despierto-Facebook-La-Bandita-2026-09-27-dominicano-ES` |
 | 16 | Rama SY/Komikku: el fork clásico y el rehijo con organización — Tachiy | 5 | 3757 | 19 | 1 | no | `16-Rama-TachiyomiSY-Komikku-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 17 | La capa de inmersión: los lectores que enseñan japonés mientras lees — | 5 | 3708 | 12 | 1 | no | `17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
@@ -146,6 +146,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 98 | La foto III: el sótano completo | 4 | 1825 | 2 | 0 | no | `98-La-foto-III-el-sotano-completo-Facebook-La-Bandita-2026-10-29` |
 | 99 | La foto IV: los jóvenes del censo | 4 | 1302 | 1 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29` |
 
-**139 piezas · 778 mensajes** · el mayor de todos: 3943 caracteres.
+**139 piezas · 791 mensajes** · el mayor de todos: 3943 caracteres.
 
 

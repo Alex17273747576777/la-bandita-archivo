@@ -5534,6 +5534,78 @@
    "release": "",
    "release_fecha": "",
    "stars_pieza": 1063
+  },
+  "yangFenTuoZi/DSU-Sideloader-Plus": {
+   "stars": 44,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-06-15",
+   "desc": "A simple app made to help users easily install GSIs via DSU's Android feature.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 44
+  },
+  "Gong-Mi/DSU-Sideloader": {
+   "stars": 2,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-07-27",
+   "desc": "Rust rewrite of DSU-Sideloader — install GSIs via DSU on Android",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 2
+  },
+  "dhytpodd-lab/DsuSideloaderPlusProMaxUltra": {
+   "stars": 3,
+   "licencia": "sin licencia",
+   "lenguaje": "Kotlin",
+   "push": "2026-09-08",
+   "desc": "Modification of Dsu Sideloader(Based on Plus mod) but better!",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 3
+  },
+  "MisterZtr/LineageOS_gsi": {
+   "stars": 571,
+   "licencia": "sin licencia",
+   "lenguaje": "Shell",
+   "push": "2026-05-24",
+   "desc": "Script and patches for building Treble-Droid based LineageOS GSI ",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 571
+  },
+  "naz664/crDroid_gsi": {
+   "stars": 259,
+   "licencia": "sin licencia",
+   "lenguaje": "Shell",
+   "push": "2025-03-08",
+   "desc": "Script and patches for building PHH-Treble based crDroid GSI",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 259
+  },
+  "imknown/AndroidLowLevelDetector": {
+   "stars": 476,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "Detect Treble, GSI, Mainline, APEX, system-as-root(SAR), A/B, etc.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 476
   }
  },
  "enlaces": {
