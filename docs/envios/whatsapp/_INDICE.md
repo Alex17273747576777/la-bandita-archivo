@@ -11,6 +11,7 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 02 | El mueble de los tres cajones: la familia Tachiyomi, sus servidores y  | 27 | 3916 | 58 | 3 | no | `02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
 | 03 | La cerradura que cambió de dueño: la verificación de desarrolladores,  | 28 | 3896 | 33 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES` |
 | 04 | Almacenes de extensiones KeiSource AbiSource y el resurtimiento del ma | 28 | 3638 | 6 | 0 | sí | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
+| 04 | Los almacenes de extensiones: Keiyoushi, Yuzono y el resurtido del man | 27 | 3679 | 33 | 0 | no | `04-Almacenes-de-extensiones-Keiyoushi-Yuzono-y-el-resurtido-del-manga-WhatsApp-La-Bandita-2026-11-01-dominicano-ES` |
 | 05 | TMO caida clones no iniciar sesion | 22 | 3677 | 0 | 0 | sí | `05-TMO-caida-clones-no-iniciar-sesion-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 06 | Forks lectores Mihon Aniyomi segundas generaciones | 25 | 3596 | 10 | 0 | sí | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 07 | El arbol vecino Usagi Kotatsu Redo Futon Kototoro | 25 | 3662 | 12 | 0 | sí | `07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -117,6 +118,6 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 98 | La foto III el sotano completo | 5 | 3742 | 7 | 0 | no | `98-La-foto-III-el-sotano-completo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 99 | La foto IV los jovenes del censo | 4 | 3492 | 5 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 
-**110 piezas · 1049 mensajes** · el mayor de todos: 3916 caracteres.
+**111 piezas · 1076 mensajes** · el mayor de todos: 3916 caracteres.
 
 

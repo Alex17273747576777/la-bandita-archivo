@@ -84,11 +84,22 @@ def trozos(t: str) -> list[str]:
 
 
 def seccion(t: str, claves: tuple[str, ...]) -> str:
-    """Devuelve el bloque que contiene alguna de las claves en su encabezado.
+    """Devuelve el bloque de la sección pedida.
 
-    Busca el encabezado en cualquier línea del bloque (no solo en la primera), porque
-    el cierre de la casa mete el meme y la firma en el mismo bloque que las notas.
+    Primero busca una línea que SEA el encabezado (quitando #, * y espacios) y devuelve desde
+    esa línea hasta el siguiente separador: así no se confunde el mapa del principio —que solo
+    nombra la sección— con la sección de verdad. Si no hay encabezado suelto, cae al criterio
+    de bloques: gana el que tenga el encabezado en su primer renglón, luego el que más enlaces
+    tenga y, si sigue el empate, el más temprano.
     """
+    lineas = t.splitlines()
+    for k in claves:
+        for n, l in enumerate(lineas):
+            limpio = l.strip().lstrip("#").strip().strip("*# ").strip().lower()
+            if limpio.startswith(k.lower()):
+                resto = "\n".join(lineas[n:])
+                corte = re.search(r"\n?─{10,}", resto)
+                return resto[: corte.start()] if corte else resto
     candidatos = []
     for b in trozos(t):
         for l in b.splitlines():
@@ -100,14 +111,10 @@ def seccion(t: str, claves: tuple[str, ...]) -> str:
         return ""
 
     def peso(b: str) -> tuple[int, int, int]:
-        # 1) gana el bloque cuyo PRIMER renglón es el encabezado (evita que el mapa
-        #    del principio se confunda con la sección que solo nombra);
-        # 2) si empatan, el que más enlaces tenga (lista de enlaces vs. cierre);
-        # 3) si siguen empatados, el último: las secciones finales cierran la pieza.
         primero = next((l for l in b.splitlines() if l.strip()), "")
         lp = primero.strip().lstrip("#").strip().strip("*# ").strip().lower()
         cabecera = 1 if any(k.lower() in lp for k in claves) else 0
-        return (cabecera, b.count("http"), candidatos.index(b))
+        return (cabecera, b.count("http"), -candidatos.index(b))
 
     return max(candidatos, key=peso)
 

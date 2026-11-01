@@ -4121,6 +4121,90 @@
    "release": "v1.4.2",
    "release_fecha": "2026-08-06",
    "stars_pieza": 23
+  },
+  "beer-psi/tachiyomi-unofficial-extensions": {
+   "estado": "error"
+  },
+  "everfio/tachiyomi-extensions": {
+   "estado": "error"
+  },
+  "mrtear/Extension-Source-Builder": {
+   "estado": "error"
+  },
+  "SeoMavares/miwayomi": {
+   "estado": "error"
+  },
+  "marbou92/MHRepo": {
+   "estado": "error"
+  },
+  "marbou92/MHExtensions": {
+   "estado": "error"
+  },
+  "suiyuran/aidoku-zh-sources": {
+   "estado": "error"
+  },
+  "Aidoku-Community/legacy-sources": {
+   "estado": "error"
+  },
+  "Aidoku/aidoku-rs": {
+   "estado": "error"
+  },
+  "0BlueYan0/aidoku-new-zh-sources": {
+   "estado": "error"
+  },
+  "Moomooo95/aidoku-french-sources": {
+   "estado": "error"
+  },
+  "Smexhy/yomu-aidoku-sources": {
+   "estado": "error"
+  },
+  "Nyora-Manga/nyora-ios": {
+   "estado": "error"
+  },
+  "AlanLang/aidoku-sources": {
+   "estado": "error"
+  },
+  "Torch121/yomiru-extensions": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "JavaScript",
+   "desc": "Official remote extensions catalog for Yomiru anime & manga player",
+   "release": null,
+   "release_fecha": "",
+   "creado": "2026-10-02"
+  },
+  "sofikuw/anImestream-extensions": {
+   "estado": "error"
+  },
+  "nickEatsBread/izumi-extension-repo": {
+   "estado": "error"
+  },
+  "beer-psi/aidoku-ln-sources": {
+   "estado": "vivo",
+   "stars": 11,
+   "push": "2022-08-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Rust",
+   "desc": "Light Novel sources for Aidoku",
+   "release": null,
+   "release_fecha": "",
+   "nota": "medido con el buscador de la API de GitHub el 1-nov-2026; release no medida"
+  },
+  "Aidoku-Community/sources": {
+   "estado": "vivo",
+   "stars": 614,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Rust",
+   "desc": "Community-maintained Aidoku sources",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
   }
  },
  "enlaces": {
@@ -6209,6 +6293,82 @@
    "veredicto": "responde"
   },
   "https://github.com/zechuan-start/adb-gui": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/0BlueYan0/aidoku-new-zh-sources": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Aidoku-Community/legacy-sources": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Aidoku-Community/sources": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Aidoku/aidoku-rs": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/AlanLang/aidoku-sources": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Moomooo95/aidoku-french-sources": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Nyora-Manga/nyora-ios": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/SeoMavares/miwayomi": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Smexhy/yomu-aidoku-sources": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Torch121/yomiru-extensions": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/beer-psi/aidoku-ln-sources": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/beer-psi/tachiyomi-unofficial-extensions": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/everfio/tachiyomi-extensions": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/marbou92/MHExtensions": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/marbou92/MHRepo": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/mrtear/Extension-Source-Builder": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/nickEatsBread/izumi-extension-repo": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/sofikuw/anImestream-extensions": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/suiyuran/aidoku-zh-sources": {
    "codigo": "200",
    "veredicto": "responde"
   }
