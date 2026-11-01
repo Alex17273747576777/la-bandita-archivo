@@ -100,7 +100,7 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1972 caracteres ═══
+═══ MENSAJE 4 de 5 · 1933 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 68*
 
@@ -117,7 +117,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pi
 • K3vinb5/unyo-app — ★672 (+3) · empujó en las últimas horas · BSD-3-Clause
 • RohitKushvaha01/ReTerminal — ★661 (+1) · empujó el 26-sep-2026 (hace 36 días) · MIT · última release v1.2.0 (10-jun-2025)
 • ReWelp/HayasexShiru-Extensions — ★99 (sin cambio) · *dormido*: sin empujar desde el 2-feb-2026 (272 días) · GPL-3.0
-• dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release d605625 (23-oct-2026)
+• dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0
 • K3vinb5/Unyo-Extensions — ★10 (sin cambio) · *dormido*: sin empujar desde el 3-nov-2024 (728 días) · GPL-3.0
 • Awerkori/manga-fonte-extensoes — ★9 (sin cambio) · empujó en las últimas horas · Apache-2.0
 

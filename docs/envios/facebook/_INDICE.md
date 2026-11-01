@@ -8,16 +8,18 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 |---|---|---|---|---|---|---|---|
 | 00 | LA LISTA — El ecosistema libre en 79 guías (fundada el 14 · corte 18 d | 4 | 3764 | 0 | 0 | sí | `00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 19 | 3640 | 23 | 0 | no | `01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
-| 02 | EL BARRIO CAMBIÓ DE GENTE — el mueble de los cómics, contado por los q | 21 | 3909 | 58 | 3 | no | `02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
+| 02 | EL BARRIO CAMBIÓ DE GENTE — el mueble de los cómics, contado por los q | 21 | 3919 | 58 | 3 | no | `02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
 | 03 | La cerradura que cambió de dueño | 20 | 3945 | 31 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 04 | ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR, MEDIDA CON | 4 | 3187 | 6 | 0 | no | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
-| 04 | El colmado de las extensiones: quién resurte los catálogos (y quién de | 19 | 3927 | 33 | 0 | no | `04-El-colmado-de-las-extensiones-quien-resurte-los-catalogos-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
+| 04 | El colmado de las extensiones: quién resurte los catálogos (y quién de | 19 | 3889 | 33 | 0 | no | `04-El-colmado-de-las-extensiones-quien-resurte-los-catalogos-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 05 | Clones, contraseñas y sesiones: el día en que el enlace no era el siti | 19 | 3598 | 17 | 0 | no | `05-Clones-contrasenas-y-sesiones-el-dia-que-el-enlace-no-era-el-sitio-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 05 | TMO CAYÓ. LOS CLONES COSECHAN CLAVES. TU LISTA NO SE RESTAURA. TODO CO | 2 | 857 | 0 | 0 | no | `05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 06 | FORKS LECTORES: LA CANCHA ENTERA CON PLACA Y HORA, 22-sep-2026 22 DE S | 4 | 2512 | 5 | 0 | no | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 06 | Las segundas generaciones: quién sigue leyendo cuando el tronco se sec | 18 | 3565 | 26 | 0 | no | `06-Las-segundas-generaciones-quien-sigue-leyendo-cuando-el-tronco-se-seca-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 07 | EL ÁRBOL VECINO MEDIDO ESTA MAÑANA: USAGI VIVA, EL MAESTRO EN SU MUSEO | 4 | 3372 | 7 | 0 | no | `07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
+| 07 | El árbol vecino: los lectores que nunca heredaron nada | 17 | 3667 | 21 | 0 | no | `07-El-arbol-vecino-los-lectores-que-nunca-heredaron-nada-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 08 | MÚSICA LIBRE, DIEZ TALLERES MEDIDOS ESTA MAÑANA — Y UN TALLER QUE LE C | 5 | 3618 | 10 | 0 | no | `08-Musica-FOSS-clientes-con-repo-La-Bandita-2026-09-22-dominicano-ES` |
+| 08 | Música libre en el teléfono: los clientes con repositorio y los reempa | 16 | 3667 | 16 | 0 | no | `08-Musica-libre-en-el-telefono-los-clientes-con-repositorio-y-los-reempaques-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 09 | LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS CON SU HORA DE 22-sep-20 | 5 | 3731 | 10 | 0 | no | `09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 10 | GLTools no se receta: el letrero que sobrevivió a su propia muerte, el | 8 | 3536 | 3 | 1 | sí | `10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES` |
 | 100 | La foto V: la mesa redonda del censo | 2 | 791 | 0 | 0 | no | `100-La-foto-V-la-mesa-redonda-del-censo-Facebook-La-Bandita-2026-10-29` |
@@ -142,6 +144,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 98 | La foto III: el sótano completo | 4 | 1825 | 2 | 0 | no | `98-La-foto-III-el-sotano-completo-Facebook-La-Bandita-2026-10-29` |
 | 99 | La foto IV: los jóvenes del censo | 4 | 1302 | 1 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29` |
 
-**135 piezas · 680 mensajes** · el mayor de todos: 3945 caracteres.
+**137 piezas · 713 mensajes** · el mayor de todos: 3945 caracteres.
 
 

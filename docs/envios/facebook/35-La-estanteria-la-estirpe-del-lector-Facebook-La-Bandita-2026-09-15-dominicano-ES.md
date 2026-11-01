@@ -93,7 +93,7 @@ La noticia fresca es de **KolbyML/Manatan**: release v6.2.21 (2026-10-29). 11 re
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1887 caracteres ═══
+═══ MENSAJE 4 de 5 · 1849 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 35*
 
@@ -106,7 +106,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 • null2264/yokai — ★1.914 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
 • KolbyML/Manatan — ★621 (+2) · empujó en las últimas horas · MIT · última release v6.3.0 (1-nov-2026)
 • HaoweiLi97/mihon_img_upscale — ★244 (+2) · empujó en las últimas horas · Apache-2.0 · última release v1.3.17 (1-nov-2026)
-• yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
+• yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0
 • nardjes5/kumo-surreal — ★115 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 • nubesurrealista/Kumo — ★59 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · Apache-2.0 · última release v0.21.0 (20-ago-2026) · *ARCHIVADO*
 • unseensnick/Reikai — ★42 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.5.1 (26-oct-2026)

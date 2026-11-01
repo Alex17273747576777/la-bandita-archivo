@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Almacenes-de-extensiones-Keiyoushi-Yuzono-y-el-resurtido-del-manga-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `f481c50506cd9cfef858829a3a50bc4bef15a6885bce75fe65c665bc676d47e3`
-- **Envío generado:** 2026-11-01 · 28 mensajes · el mayor de 3923 caracteres
+- **Envío generado:** 2026-11-01 · 28 mensajes · el mayor de 3885 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 28 · 777 caracteres ═══
@@ -747,7 +747,7 @@ La pregunta útil no es «cuál es el mejor catálogo». Es «quién lo está ll
 
 ⏬ sigue abajo · parte 24 de 27
 
-═══ MENSAJE 26 de 28 · 3923 caracteres ═══
+═══ MENSAJE 26 de 28 · 3885 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
@@ -784,7 +784,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pi
 • mihonapp/mihon — ★24.927 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • nekomangaorg/Neko — ★2.818 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
-• Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 
 ⏬ sigue abajo · parte 25 de 27

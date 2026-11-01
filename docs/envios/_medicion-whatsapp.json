@@ -15,16 +15,16 @@
    "stars_pieza": 89873
   },
   "team-spotube/spotube": {
-   "estado": "vivo",
    "stars": 50530,
-   "push": "2026-10-31",
-   "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-31",
    "desc": "🎧 Open source music streaming app! Available for both desktop & mobile!",
-   "release": "v6.0.0-beta.0",
-   "release_fecha": "2026-10-30",
-   "stars_pieza": 50466
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 50530
   },
   "KotatsuApp/Kotatsu": {
    "archivado": true,
@@ -600,16 +600,16 @@
    "release_fecha": "2026-10-30"
   },
   "Kototoro-app/Kototoro": {
-   "archivado": false,
-   "desc": "Manga, Novel, and Video reader for Android",
-   "estado": "vivo",
-   "lenguaje": "Kotlin",
-   "licencia": "Apache-2.0",
-   "push": "2026-10-31",
    "stars": 659,
-   "stars_pieza": 659,
-   "release": "v2.3.4",
-   "release_fecha": "2026-10-29"
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-31",
+   "desc": "Manga, Novel, and Video reader for Android",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 659
   },
   "skepsun/kototoro-parsers": {
    "archivado": false,
@@ -881,52 +881,52 @@
    "stars_pieza": null
   },
   "UsagiApp/Usagi": {
-   "archivado": false,
-   "desc": "Just a simple, free and open-source manga reader for Android 5.0+",
-   "estado": "vivo",
-   "lenguaje": "Kotlin",
-   "licencia": "GPL-3.0",
-   "push": "2026-10-30",
    "stars": 288,
-   "stars_pieza": 288,
-   "release": "v1.2",
-   "release_fecha": "2026-10-03"
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-30",
+   "desc": "Just a simple, free and open-source manga reader for Android 5.0+",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 288
   },
   "Chimahon/chimahon": {
-   "archivado": false,
-   "desc": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and anime support, Novel EPUB reader, and instant Anki card mining.",
-   "estado": "vivo",
-   "lenguaje": "Kotlin",
-   "licencia": "GPL-3.0",
-   "push": "2026-10-28",
    "stars": 240,
-   "stars_pieza": 240,
-   "release": "v2.4.8",
-   "release_fecha": "2026-10-19"
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-28",
+   "desc": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and anime support, Novel EPUB reader, and instant Anki card mining.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 240
   },
   "yomihon/yomihon": {
-   "archivado": false,
-   "desc": "Free and open source manga reader for Android - now with OCR (text recognition)",
-   "estado": "vivo",
-   "lenguaje": "Kotlin",
-   "licencia": "Apache-2.0",
-   "push": "2026-10-18",
    "stars": 142,
-   "stars_pieza": 142,
-   "release": "v0.4.3",
-   "release_fecha": "2026-10-18"
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-18",
+   "desc": "Free and open source manga reader for Android - now with OCR (text recognition)",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 142
   },
   "roxycon-dev/Ciallo-Reader": {
-   "estado": "vivo",
    "stars": 267,
-   "push": "2026-11-01",
-   "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Kotlin",
+   "push": "2026-11-01",
    "desc": "Android 小说、漫画与电子书阅读器；支持 TXT、EPUB、CBZ、本地书架、多源搜索、下载与离线阅读。 Android novel, manga & ebook reader.",
-   "release": "v1.5.11",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": null
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 267
   },
   "kmworks/kmreader": {
    "estado": "vivo",
@@ -1061,16 +1061,16 @@
    "stars_pieza": null
   },
   "Boomckman/usagi-nightly": {
-   "estado": "vivo",
    "stars": 114,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": null,
+   "licencia": "sin licencia",
    "lenguaje": "HTML",
+   "push": "2026-11-01",
    "desc": "Best Open Source Manga Reader App Android 2026",
-   "release": null,
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
    "release_fecha": "",
-   "stars_pieza": null
+   "stars_pieza": 114
   },
   "aniyomiorg/aniyomi": {
    "archivado": false,
@@ -1990,28 +1990,28 @@
    "stars_pieza": 40357
   },
   "MetrolistGroup/Metrolist": {
-   "estado": "vivo",
    "stars": 13930,
-   "push": "2026-10-25",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-25",
    "desc": "YouTube Music client for Android",
-   "release": "v13.7.0",
-   "release_fecha": "2026-09-07",
-   "stars_pieza": 13891
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 13930
   },
   "maxrave-dev/SimpMusic": {
-   "estado": "vivo",
-   "stars": 12613,
-   "push": "2026-11-01",
-   "archivado": false,
+   "stars": 12614,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-01",
    "desc": "A cross-platform music app using YouTube Music for backend",
-   "release": "v2.5.0",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": 12534
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 12614
   },
   "AntennaPod/AntennaPod": {
    "estado": "vivo",
@@ -2026,40 +2026,40 @@
    "stars_pieza": 8254
   },
   "z-huang/InnerTune": {
-   "estado": "vivo",
    "stars": 6131,
-   "push": "2025-11-13",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2025-11-13",
    "desc": "A Material 3 YouTube Music client for Android",
-   "release": "v0.5.10",
-   "release_fecha": "2024-09-01",
-   "stars_pieza": 6129
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 6131
   },
   "OuterTune/OuterTune": {
-   "estado": "vivo",
    "stars": 5440,
-   "push": "2026-10-12",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-12",
    "desc": "A Material 3 Music Player for Android with local file & YouTube Music support. Forked from InnerTune",
-   "release": "v0.10.1",
-   "release_fecha": "2025-12-19",
-   "stars_pieza": 5437
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 5440
   },
   "OxygenCobalt/Auxio": {
-   "estado": "vivo",
    "stars": 4411,
-   "push": "2026-09-08",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-09-08",
    "desc": "A simple, rational music player for android",
-   "release": "v4.1.5",
-   "release_fecha": "2026-08-04",
-   "stars_pieza": 4402
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 4411
   },
   "anandnet/Harmony-Music": {
    "estado": "vivo",
@@ -3253,16 +3253,16 @@
    "stars_pieza": 9639
   },
   "namidaco/namida": {
-   "estado": "vivo",
    "stars": 6756,
-   "push": "2026-10-26",
-   "archivado": false,
+   "stars_pieza": 6756,
    "licencia": "NOASSERTION",
    "lenguaje": "Dart",
-   "desc": "A Beautiful and Feature-rich Music & Video Player with Youtube Support, Built in Flutter",
-   "release": "v7.1.2",
-   "release_fecha": "2026-09-19",
-   "stars_pieza": 6738
+   "push": "2026-10-26",
+   "desc": "A beautiful materialistic music player",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": ""
   },
   "rukamori/ArchiveTune": {
    "estado": "vivo",
@@ -3301,16 +3301,16 @@
    "stars_pieza": 7033
   },
   "PixelPlayerHQ/PixelPlayer": {
-   "estado": "vivo",
    "stars": 6863,
-   "push": "2026-09-21",
-   "archivado": false,
    "licencia": "NOASSERTION",
    "lenguaje": "Kotlin",
+   "push": "2026-09-21",
    "desc": "privacy-first Android music player built with Material 3 Expressive. Play offline, sync lyrics, fine-tune with equalizer presets, and cast to your devices.",
-   "release": "0.7.5-beta",
-   "release_fecha": "2026-06-13",
-   "stars_pieza": 6837
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 6863
   },
   "RetroMusicPlayer/RetroMusicPlayer": {
    "estado": "vivo",
@@ -4449,6 +4449,186 @@
    "stars_pieza": 953,
    "release": "",
    "release_fecha": ""
+  },
+  "eguojz/usagi-sora-vn-sources": {
+   "stars": 119,
+   "licencia": "sin licencia",
+   "lenguaje": "HTML",
+   "push": "2026-11-01",
+   "desc": "Best Vietnamese & Multilingual Manga Sources for Usagi 2026 – Updated Repository",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 119
+  },
+  "dragonx943/manga-repo": {
+   "stars": 24,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-23",
+   "desc": "A plugin that contains some sources for Usagi, compatible with Tsuki.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 24
+  },
+  "UsagiApp/TsukiMix": {
+   "stars": 6,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-18",
+   "desc": "A core library used in Usagi to read and compile every extensions to additional Tsuki online service.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 6
+  },
+  "KotatsuApp/kotatsu-dl": {
+   "stars": 141,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2025-07-31",
+   "desc": "Easy-to-use cli manga downloader with a 1k+ sources supported",
+   "archivado": true,
+   "estado": "archivado",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 141
+  },
+  "KotatsuApp/kotatsu-dl-gui": {
+   "stars": 158,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2024-08-08",
+   "desc": "Cross-plaform desktop manga downloader",
+   "archivado": true,
+   "estado": "archivado",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 158
+  },
+  "maxrave-dev/core": {
+   "stars": 22,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-30",
+   "desc": "SimpMusic app's core modules",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 22
+  },
+  "PixelPlayerHQ/PixelPlayerOSS": {
+   "stars": 304,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-01",
+   "desc": "Free and open-source edition of PixelPlayer - a modern offline music player for Android built with Jetpack Compose, Media3 & Material 3. Available on F-Droid.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 304
+  },
+  "sosauce/Chocola": {
+   "stars": 1124,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-25",
+   "desc": "🍫 Chocola is a cute and powerful offline music player for Android!",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 1124
+  },
+  "sheikhhaziq/gyawun_music": {
+   "stars": 808,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Dart",
+   "push": "2026-10-31",
+   "desc": "Immerse yourself in the world of Gyawun, where music knows no bounds. Enjoy uninterrupted, ad-free streaming with an extensive library of songs spanning genres and artists from every corner of the globe. With Gyawun, the rhythm never fades. Download now and let the music carry you away.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 808
+  },
+  "icefields/Power-Ampache-2": {
+   "stars": 245,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-31",
+   "desc": "Android Music Streaming App suite in Material You style.  Connects to Ampache, Nextcloud Music and compatible backends (Ampache API 4 and above).",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 245
+  },
+  "Swan-Chris/usagi-mangadex-plugin": {
+   "stars": 0,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-08-13",
+   "desc": "MangaDex source plugin for the Usagi Android manga reader, built on the Tsuki parser library. Public MangaDex API, no auth. Hard 5 req/s self-throttling, honest User-Agent, 1221 offline tests + an opt-in live acceptance suite.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 0
+  },
+  "BlackHatDevX/openspot-music-app": {
+   "stars": 2972,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "push": "2026-08-03",
+   "desc": "OpenSpot is a free, open-source music app that lets you stream and download high-quality tracks across all your devices. With a sleek, intuitive UI built for a seamless experience, it supports Android, iOS, macOS, Windows, and Linux — so you can enjoy your favorite music anywhere, online or offline.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 2972
+  },
+  "siper/Youamp": {
+   "stars": 273,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "push": "2026-09-07",
+   "desc": "Material You kotlin multiplatform player for subsonic music stream servers ",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 273
+  },
+  "FoedusProgramme/Gramophone": {
+   "stars": 2376,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-12",
+   "desc": "A sane music player built with media3 and material design library that is following android's standard strictly.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 2376
+  },
+  "youniaogu/MangaReader": {
+   "stars": 2843,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "push": "2025-08-22",
+   "desc": "一个漫画 APP📱，基于 react-native 构建，兼容 Android、Ios 平台",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 2843
   }
  },
  "enlaces": {

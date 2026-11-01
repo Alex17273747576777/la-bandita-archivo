@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `1b86026db9ce7379514b3521b5973234217cc1051e26a4a0966f06a265c152fe`
-- **Envío generado:** 2026-11-01 · 21 mensajes · el mayor de 3909 caracteres
+- **Envío generado:** 2026-11-01 · 21 mensajes · el mayor de 3919 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 21 · 782 caracteres ═══
@@ -648,18 +648,18 @@ Lo que estas cuarenta y nueve fichas enseñan, dicho en plata: *un proyecto pued
 
 ⏬ sigue abajo · parte 16 de 20
 
-═══ MENSAJE 18 de 21 · 3909 caracteres ═══
+═══ MENSAJE 18 de 21 · 3919 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
 Medí otra vez, hoy 1 de noviembre de 2026, los 58 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
+• UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
 • MuntashirAkon/AppManager — ★9.399 (+29) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • Kareadita/Kavita — ★11.988 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
-• roxycon-dev/Ciallo-Reader — ★267 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
-• yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
+• roxycon-dev/Ciallo-Reader — ★267 (sin cambio) · empujó en las últimas horas · MIT
+• yomihon/yomihon — ★142 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0
 • null2264/yokai — ★1.914 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
 • jakepurple13/OtakuWorld — ★637 (-1) · empujó en las últimas horas · Apache-2.0 · última release v32.1.2 (29-jun-2026)
 • gotson/komga — ★6.805 (sin cambio) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
@@ -686,15 +686,15 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 58 repositorios que cita esta pi
 • tachiyomiorg/tachiyomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • Mangayomi-app/Mangayomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • Paperback-Community/Paperback — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
+• RikkaApps/Shizuku — ★32.575 (+190) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 
 ⏬ sigue abajo · parte 17 de 20
 
-═══ MENSAJE 19 de 21 · 3031 caracteres ═══
+═══ MENSAJE 19 de 21 · 2839 caracteres ═══
 
-• RikkaApps/Shizuku — ★32.575 (+190) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • mihonapp/mihon — ★24.927 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/komikku — ★4.964 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • aniyomiorg/aniyomi — ★7.865 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 • kodjodevf/mangayomi — ★4.287 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
 • AngeloSha/uchiyomi — ★99 · empujó en las últimas horas · MPL-2.0 · última release v0.103.1 (31-oct-2026)
@@ -716,7 +716,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 58 repositorios que cita esta pi
 • Koitharu/OpenManga — ★182 · *dormido*: sin empujar desde el 2-feb-2020 (2464 días) · NOASSERTION · última release v4.7.1 (20-jul-2019) · *ARCHIVADO*
 • timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (223 días) · Apache-2.0 · *ARCHIVADO*
 • aniyomiorg/aniyomi-extensions — ★849 · *dormido*: sin empujar desde el 19-ago-2024 (804 días) · Apache-2.0 · *ARCHIVADO*
-• Boomckman/usagi-nightly — ★114 · empujó en las últimas horas · sin licencia detectada por la API
+• Boomckman/usagi-nightly — ★114 (sin cambio) · empujó en las últimas horas · sin licencia
 
 ⏬ sigue abajo · parte 18 de 20
 

@@ -141,7 +141,7 @@ REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — revres/duolctxen=2|REV|)62
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2768 caracteres ═══
+═══ MENSAJE 5 de 6 · 2730 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 103*
 
@@ -158,7 +158,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pi
 • pi-hole/pi-hole — ★61.620 (+61) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
 • go-gitea/gitea — ★58.803 (+37) · empujó en las últimas horas · MIT · última release v28.3.0 (1-nov-2026)
 • moeru-ai/airi — ★50.980 (+90) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
-• team-spotube/spotube — ★50.530 (+64) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• team-spotube/spotube — ★50.530 (sin cambio) · empujó en las últimas horas · AGPL-3.0
 • qbittorrent/qBittorrent — ★41.290 (+77) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
 • photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • nextcloud/server — ★37.381 (+36) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)

@@ -979,7 +979,7 @@ REV|349.8★ — ustatoK/ppAustatoK=1|REV|40-11-5202 — ustatoK/ppAustatoK=2|RE
 
 ⏬ sigue abajo · parte 22 de 24
 
-═══ MENSAJE 24 de 25 · 1929 caracteres ═══
+═══ MENSAJE 24 de 25 · 1856 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
@@ -987,9 +987,9 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 • KotatsuApp/Kotatsu — sin dato hoy (la API no respondió). No afirmo nada.
 • Kotatsu-Redo/Kotatsu-Redo — ★983 (+9) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0 · última release 9.8.5 (16-oct-2026)
-• Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• Kototoro-app/Kototoro — ★659 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • AppFuton/Futon — ★470 (+3) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
-• UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
+• UsagiApp/Usagi — ★288 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
 • Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
 • InvalidDavid/UMA — ★83 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release f607156 (30-oct-2026)
 • YumemiProject/Yumemi — ★60 (sin cambio) · *dormido*: sin empujar desde el 20-feb-2026 (254 días) · GPL-3.0

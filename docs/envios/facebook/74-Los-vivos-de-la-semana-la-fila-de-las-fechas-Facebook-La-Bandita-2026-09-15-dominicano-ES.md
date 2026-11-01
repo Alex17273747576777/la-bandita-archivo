@@ -102,7 +102,7 @@ La noticia fresca es de **wikimedia/apps-android-wikipedia**: release latest (20
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2270 caracteres ═══
+═══ MENSAJE 4 de 5 · 2232 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 74*
 
@@ -121,7 +121,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pi
 • axiel7/AniHyou-android — ★628 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (26-sep-2026)
 • recloudstream/cs-repos — ★545 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API
 • phisher98/cloudstream-extensions-phisher — ★528 (+2) · empujó en las últimas horas · sin licencia detectada por la API
-• Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• Chimahon/chimahon — ★240 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • ArtifexSoftware/mupdf-android-viewer — ★199 (sin cambio) · empujó el 25-sep-2026 (hace 37 días) · AGPL-3.0
 • TeamWin/android_bootable_recovery — ★1.724 · *dormido*: sin empujar desde el 24-ago-2026 (69 días) · sin licencia detectada por la API
 
