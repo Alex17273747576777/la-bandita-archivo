@@ -251,8 +251,7 @@
    "lenguaje": "Dart",
    "desc": "Get Android app updates straight from the source.",
    "release": "v1.7.4",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": 21025
+   "release_fecha": "2026-11-01"
   },
   "MuntashirAkon/AppManager": {
    "estado": "vivo",
@@ -2143,8 +2142,7 @@
    "lenguaje": "Java",
    "desc": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
    "release": "v3.4.3",
-   "release_fecha": "2026-09-06",
-   "stars_pieza": 13414
+   "release_fecha": "2026-09-06"
   },
   "Kunzisoft/KeePassDX": {
    "estado": "vivo",
@@ -2155,8 +2153,7 @@
    "lenguaje": "Kotlin",
    "desc": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.",
    "release": "4.5.8",
-   "release_fecha": "2026-10-31",
-   "stars_pieza": 7565
+   "release_fecha": "2026-10-31"
   },
   "TeamAmaze/AmazeFileManager": {
    "estado": "vivo",
@@ -3804,8 +3801,7 @@
    "lenguaje": "C++",
    "desc": "Cromite a Bromite fork with ad blocking and privacy enhancements; take back your browser!",
    "release": "v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a",
-   "release_fecha": "2026-09-15",
-   "stars_pieza": 8449
+   "release_fecha": "2026-09-15"
   },
   "ironfox-oss/IronFox": {
    "estado": "vivo",
@@ -3828,8 +3824,7 @@
    "lenguaje": "Kotlin",
    "desc": "DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android.",
    "release": "v0.5.8",
-   "release_fecha": "2026-10-13",
-   "stars_pieza": 5810
+   "release_fecha": "2026-10-13"
   },
   "serverless-dns/serverless-dns": {
    "estado": "vivo",
@@ -3852,8 +3847,7 @@
    "lenguaje": "Go",
    "desc": "The easiest, most secure way to use WireGuard and 2FA.",
    "release": "v1.104.4",
-   "release_fecha": "2026-10-28",
-   "stars_pieza": 38304
+   "release_fecha": "2026-10-28"
   },
   "tailscale/tailscale-android": {
    "estado": "vivo",
@@ -3888,8 +3882,7 @@
    "lenguaje": "Kotlin",
    "desc": "A private messenger for Android.",
    "release": "v8.33.2",
-   "release_fecha": "2026-10-26",
-   "stars_pieza": 29553
+   "release_fecha": "2026-10-26"
   },
   "simplex-chat/simplex-chat": {
    "estado": "vivo",
@@ -4032,8 +4025,7 @@
    "lenguaje": "TypeScript",
    "desc": "Network-wide ads & trackers blocking DNS server",
    "release": "v0.107.79",
-   "release_fecha": "2026-08-18",
-   "stars_pieza": 37867
+   "release_fecha": "2026-08-18"
   },
   "juanfont/headscale": {
    "estado": "vivo",
@@ -4262,6 +4254,105 @@
    "release": "v1.0.0",
    "release_fecha": "2026-05-10",
    "stars_pieza": 4099
+  },
+  "bitwarden/android": {
+   "estado": "vivo",
+   "stars": 9570,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Bitwarden mobile apps (Password Manager and Authenticator) for Android.",
+   "release": "v2026.10.1-bwpm",
+   "release_fecha": "2026-10-29"
+  },
+  "divested-mobile/mull-fenix": {
+   "estado": "vivo",
+   "stars": 592,
+   "push": "2024-12-10",
+   "archivado": true,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "JavaScript",
+   "desc": "Build scripts for a web browser built upon Mozilla technology",
+   "release": null,
+   "release_fecha": ""
+  },
+  "mozilla-mobile/firefox-android": {
+   "estado": "vivo",
+   "stars": 1842,
+   "push": "2024-06-17",
+   "archivado": true,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Kotlin",
+   "desc": ":warning: This repository hosts the Firefox for Android (Fenix), Focus for Android, and Mozilla Android Components projects. It is now developed and maintained as part of Mozilla Central. See the announcement here: https://github.com/mozilla-mobile/firefox-android/wiki#upcoming-migration-to-mozilla-central. ”",
+   "release": "components-v125.3.0",
+   "release_fecha": "2024-04-29"
+  },
+  "gorhill/uBlock": {
+   "estado": "vivo",
+   "stars": 68993,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "JavaScript",
+   "desc": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+   "release": "1.75.0",
+   "release_fecha": "2026-09-16"
+  },
+  "twofas/2fas-android": {
+   "estado": "vivo",
+   "stars": 1561,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Source code for 2FAS Auth Android app",
+   "release": "6.1.0",
+   "release_fecha": "2026-10-19"
+  },
+  "PhilippC/keepass2android": {
+   "estado": "vivo",
+   "stars": 6351,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C#",
+   "desc": "Password manager app for Android",
+   "release": "v1.15-r6",
+   "release_fecha": "2026-10-15"
+  },
+  "threema-ch/threema-android": {
+   "estado": "vivo",
+   "stars": 1003,
+   "push": "2026-09-23",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Threema App for Android.",
+   "release": null,
+   "release_fecha": ""
+  },
+  "nextdns/nextdns": {
+   "estado": "vivo",
+   "stars": 4237,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Go",
+   "desc": "NextDNS CLI client (DoH Proxy)",
+   "release": "v1.49.0",
+   "release_fecha": "2026-10-29"
+  },
+  "mvt-project/mvt": {
+   "estado": "vivo",
+   "stars": 15667,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Python",
+   "desc": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+   "release": "v2026.10.26",
+   "release_fecha": "2026-10-26"
   }
  },
  "enlaces": {

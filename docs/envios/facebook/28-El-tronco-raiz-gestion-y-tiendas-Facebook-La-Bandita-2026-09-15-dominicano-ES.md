@@ -126,7 +126,7 @@ Pulso de hoy sobre los 20 repos de la pieza: 20 vivos, 15 activos este mes. Mand
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2773 caracteres ═══
+═══ MENSAJE 5 de 6 · 2767 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 28*
 
@@ -137,7 +137,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 20 repositorios que cita esta pi
 • topjohnwu/Magisk — ★63.664 (+69) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
 • RikkaApps/Shizuku — ★32.575 (+190) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • LSPosed/LSPosed — ★25.286 (+46) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
-• ImranR98/Obtainium — ★21.112 (+93) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• ImranR98/Obtainium — ★21.112 · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • komi-store/komi-store — ★20.198 (+108) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • tiann/KernelSU — ★19.940 (+130) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
 • bmax121/APatch — ★8.116 (+12) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)

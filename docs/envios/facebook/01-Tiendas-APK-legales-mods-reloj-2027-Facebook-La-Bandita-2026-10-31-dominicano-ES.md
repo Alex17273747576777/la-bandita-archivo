@@ -631,7 +631,7 @@ Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha 
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 3039 caracteres ═══
+═══ MENSAJE 18 de 19 · 3033 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
@@ -655,7 +655,7 @@ Medí otra vez, hoy 1 de noviembre de 2026, los 23 repositorios que cita esta pi
 • Jman-Github/Universal-Patch-Manager — ★1.399 (+9) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
 • solrudev/Ackpine — ★185 · empujó el 17-oct-2026 (hace 15 días) · Apache-2.0 · última release 0.25.4 (30-jul-2026)
 • MuntashirAkon/AppManager — ★9.399 (+29) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• ImranR98/Obtainium — ★21.112 (+93) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• ImranR98/Obtainium — ★21.112 · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • NeoApplications/Neo-Store — ★5.596 (+26) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
 • sri-sivaram/Neko-Manga-Pearl — ★116 · empujó en las últimas horas · sin licencia detectada por la API
 • ubedshah/manga-vault-nexus — ★115 · empujó en las últimas horas · sin licencia detectada por la API
