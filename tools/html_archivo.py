@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Genera el HTML único con las 262 publicaciones (114 WhatsApp + 148 Facebook)."""
+"""Genera el HTML único con todas las publicaciones de la serie: WhatsApp, Facebook y el post de comunidad.
+El número del título y del nombre del archivo se cuentan, no se escriben a mano."""
 import json, pathlib, re, html
 
 RAIZ = pathlib.Path(__file__).resolve().parents[1] / 'Arena-Reimagined' / '01-PUBLICACIONES'
-SALIDA = RAIZ / 'LAS-263-PUBLICACIONES-2026-11-01.html'
+SALIDA = RAIZ / 'LAS-PUBLICACIONES-2026-11-01.html'  # se renombra al final con el número real
 CANALES = [("whatsapp", "WhatsApp", "WhatsApp-dominicano-ES"), ("facebook", "Facebook", "Facebook-dominicano-ES"),
             ("comunidad", "Comunidad", "POSTS-COMUNIDAD")]
 HOY = {"whatsapp": {"01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md",
-                   "02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md"},
+                   "02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md",
+                   "03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md"},
        "facebook": {"01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES.md",
-                   "02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES.md"},
+                   "02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES.md",
+                   "03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES.md"},
        "comunidad": {"post-2026-11-01-mama-hueso-WhatsApp-La-Bandita-dominicano-ES.md"}}
 
 def num(nombre):  # noqa: D401
@@ -78,7 +81,7 @@ HTML = f"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>La Bandita · las 263 publicaciones · 1 de noviembre de 2026</title>
+<title>La Bandita · las NNN publicaciones · 1 de noviembre de 2026</title>
 <style>
   :root {{
     --tinta:#12100e; --papel:#faf6ee; --papel2:#f2ebdd; --linea:#d8ccb4;
@@ -233,6 +236,11 @@ aplicar();
 </body>
 </html>
 """
+HTML = HTML.replace("las NNN publicaciones", f"las {len(piezas)} publicaciones")
+SALIDA = RAIZ / f"LAS-{len(piezas)}-PUBLICACIONES-2026-11-01.html"
+for viejo in RAIZ.glob("LAS-*-PUBLICACIONES-2026-11-01.html"):
+    if viejo.name != SALIDA.name:
+        viejo.unlink()
 SALIDA.parent.mkdir(parents=True, exist_ok=True)
 SALIDA.write_text(HTML, encoding="utf-8")
 print(f"escrito {SALIDA} · {len(HTML):,} caracteres · {len(piezas)} publicaciones ({n_wa} WA + {n_fb} FB)")

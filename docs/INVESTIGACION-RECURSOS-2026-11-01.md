@@ -102,3 +102,43 @@ los otros cuatro—, escrito en **HTML**, **sin licencia**, con 114 estrellas y 
 
 💓 *La Bandita · domingo 1 de noviembre de 2026 · Santo Domingo.* Cada número de esta página se consultó
 hoy entre las 06:50 y las 07:05. Lo que no se midió está dicho como no medido.
+
+─────────────────────────────────────────
+
+## Segunda ronda — recursos nacidos en 2026 (medidos hoy, 1-nov-2026, entre 06:40 y 07:20 de Santo Domingo)
+
+Consulta a `api.github.com/search/repositories` sin caché, filtrando por fecha de creación y ordenando por estrellas. No se reutilizó ninguna lista guardada. Criterio de entrada: proyecto vivo (empuje en los últimos 45 días), licencia declarada cuando existe, y utilidad concreta para alguna de las listas.
+
+### Para la 03 (verificación, instalación, salir de Google)
+
+| repositorio | ★ | licencia | creado | último empuje | release | por qué entra |
+|---|---|---|---|---|---|---|
+| `bl3xand/APK-Toolbox` | 99 | GPL-3.0 | 2026-10-08 | 2026-10-28 | v1.1.6 (28-oct) | rastrear, clonar, instalar y fusionar APK desde el propio teléfono |
+| `richardkfm/los-bootstrap` | 6 | GPL-3.0 | 2026-04-28 | 2026-10-16 | v0.14.0 (15-oct) | instala y deja listo LineageOS en un aparato ya liberado |
+| `Ha2mad/package-pass` | 0 | MIT | 2026-10-28 | 2026-10-28 | — | lee en lote los nombres de paquete para saber qué registrar |
+| `Meirwolf1289/fdroid-census` | 0 | sin licencia | 2026-10-31 | 2026-10-31 | — | intenta **contar** cuántas apps de F-Droid están registradas |
+
+### Candidatos para las piezas siguientes (no usados todavía)
+
+| repositorio | ★ | licencia | creado | push | utilidad |
+|---|---|---|---|---|---|
+| `chmouel/liseur` | 170 | MIT | 2026-07-28 | 2026-11-01 | lector EPUB con biblioteca remota — entra en la lista de lectura |
+| `InlitX/GymMane` | 1.254 | GPL-3.0 | 2026-08-05 | 2026-10-30 | diario de gimnasio sin cuenta ni internet: el caso «app útil sin nube» |
+| `TheZupZup/Linthra` | 77 | AGPL-3.0 | 2026-05-22 | 2026-11-01 | reproductor de música local-first — lista de música |
+| `jemcik/JemRec` | 50 | Apache-2.0 | 2026-09-10 | 2026-10-31 | grabador de llamadas sin root — pieza 12/92 |
+| `Secure-Phone-apps/Secure-Dialer` | 52 | GPL-3.0 | 2026-07-02 | 2026-10-31 | marcador sin permisos — pieza 39 |
+| `EZ-eta/kinetica` | 59 | GPL-3.0 | 2026-08-10 | 2026-10-28 | teclado con deslizamiento a dos pulgares — pieza 30 |
+| `jrs8205/ARK-launcher` | 38 | Apache-2.0 | 2026-06-23 | 2026-10-31 | lanzador en Compose — pieza 30 |
+| `Acamol/Captain-qBit` | 27 | GPL-3.0 | 2026-07-02 | 2026-10-29 | control remoto de qBittorrent — pieza 48 |
+| `harkhowalia-1/MacSubsystemForAndroid` | 521 | GPL-3.0 | 2026-10-15 | 2026-10-21 | apps de Android en ventanas de Mac — familia del 72 |
+| `couzteau/Degoogle-Photos` | 6 | MIT | 2026-02-15 | 2026-10-29 | desenreda los ZIP de Takeout — pieza de salida de Google |
+
+### Correcciones que esta ronda obligó a hacer en la 03
+
+- `Pelski/ytzero`: la ficha decía «sin licencia declarada»; la API devuelve **Unlicense**. Corregido en los tres sitios donde aparecía.
+- `GrapheneOS/Vanadium`: la ficha decía «licencia sin declarar»; la API devuelve **NOASSERTION** (hay licencia en el repo, la API no la reconoce). Corregido con la explicación en la propia línea.
+- Los cuatro recursos nuevos se midieron uno por uno con `/repos` y `/releases/latest`, y sus cuatro enlaces responden **200** hoy.
+
+### Regla de esta ronda, para la próxima
+
+Ningún recurso entra a una pieza sin: (1) medición del día con hora, (2) licencia verificada en la API, (3) enlace comprobado con código 200, (4) una razón escrita de por qué está ahí y no es relleno. Si no cumple las cuatro, se queda en esta tabla de candidatos y no en la pieza.

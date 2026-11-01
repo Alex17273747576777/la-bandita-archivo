@@ -9,24 +9,14 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 00 | LA LISTA — El ecosistema libre en 79 guías (fundada el 14 · corte 18 d | 4 | 3764 | 0 | 0 | sí | `00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 19 | 3640 | 23 | 0 | no | `01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
 | 02 | EL BARRIO CAMBIÓ DE GENTE — el mueble de los cómics, contado por los q | 20 | 3863 | 58 | 3 | no | `02-El-barrio-cambio-de-gente-mueble-de-comics-Facebook-La-Bandita-2026-10-31-dominicano-ES` |
-| 02 | Kototoro: el mueble de tres cajones (la dos que faltaba) | 4 | 1506 | 1 | 0 | sí | `02-Kototoro-el-mueble-de-tres-cajones-la-dos-que-faltaba-Facebook-La-Bandita-2026-10-29` |
-| 03 | 🟦 OCHO DÍAS PARA EL CENSO: LA VERIFICACIÓN DE DESARROLLADORES, CONTADA | 4 | 2316 | 1 | 0 | no | `03-Verificacion-Desarrolladores-hito-30-sep-2026-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
-| 03 | Verificación de Desarrolladores: 15 días para el hito y el reloj hacia | 2 | 1531 | 0 | 0 | no | `03-Verificacion-Desarrolladores-hito-30-sep-2027-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
+| 03 | La cerradura que cambió de dueño | 19 | 3456 | 31 | 0 | no | `03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-Facebook-La-Bandita-2026-11-01-dominicano-ES` |
 | 04 | ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR, MEDIDA CON | 4 | 3187 | 6 | 0 | no | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
-| 04 | Extensiones de los tres árboles: hubs vivos y la camada de impostores | 5 | 3773 | 14 | 0 | no | `04-Extensiones-tres-arboles-hubs-parsers-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 04 | DÓNDE VIVEN LAS FUENTES DE TU LECTOR: EL MAPA COMPLETO DE LOS ALMACENE | 4 | 2776 | 5 | 0 | no | `04-Extensiones-tres-arboles-hubs-parsers-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
-| 05 | TMO cayó: los clones no son TMO y tus listas no se recuperan | 2 | 1542 | 0 | 0 | no | `05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 05 | TMO CAYÓ. LOS CLONES COSECHAN CLAVES. TU LISTA NO SE RESTAURA. TODO CO | 2 | 857 | 0 | 0 | no | `05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
-| 06 | Forks de lectores: el mapa vivo de Mihon, Aniyomi y sus segundas gener | 5 | 3607 | 11 | 0 | no | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 06 | FORKS LECTORES: LA CANCHA ENTERA CON PLACA Y HORA, 22-sep-2026 22 DE S | 4 | 2512 | 5 | 0 | no | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 07 | EL ÁRBOL VECINO MEDIDO ESTA MAÑANA: USAGI VIVA, EL MAESTRO EN SU MUSEO | 4 | 3372 | 7 | 0 | no | `07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
-| 07 | Usagi está viva: la cadena Kotatsu → Yukimi → Usagi y los cuatro vivos | 5 | 3769 | 11 | 0 | no | `07-Usagi-viva-cadena-Kotatsu-Yukimi-Usagi-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 08 | Música FOSS: clientes con repo y fecha de pulso — Spotify crackeado no | 5 | 3703 | 14 | 0 | no | `08-Musica-FOSS-clientes-con-repo-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 08 | MÚSICA LIBRE, DIEZ TALLERES MEDIDOS ESTA MAÑANA — Y UN TALLER QUE LE C | 5 | 3618 | 10 | 0 | no | `08-Musica-FOSS-clientes-con-repo-La-Bandita-2026-09-22-dominicano-ES` |
-| 09 | Herramientas FOSS: la caja de oficio, cada pieza con su fecha de afila | 5 | 3686 | 15 | 0 | no | `09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 09 | LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS CON SU HORA DE 22-sep-20 | 5 | 3731 | 10 | 0 | no | `09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
-| 10 | GLTools no se receta: el letrero de 2020, el spoof de GPU y el AnTuTu  | 4 | 2095 | 2 | 0 | no | `10-GLTools-no-se-receta-spoof-GPU-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 10 | GLTools no se receta: el letrero que sobrevivió a su propia muerte, el | 4 | 2111 | 2 | 0 | no | `10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES` |
+| 10 | GLTools no se receta: el letrero que sobrevivió a su propia muerte, el | 8 | 3536 | 3 | 0 | sí | `10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES` |
 | 100 | La foto V: la mesa redonda del censo | 2 | 791 | 0 | 0 | no | `100-La-foto-V-la-mesa-redonda-del-censo-Facebook-La-Bandita-2026-10-29` |
 | 101 | La foto VI: el pabellón de los dormidos | 4 | 2142 | 4 | 0 | no | `101-La-foto-VI-el-pabellon-de-los-dormidos-Facebook-La-Bandita-2026-10-29` |
 | 102 | La foto VII: los invisibles de la foto | 4 | 2004 | 3 | 0 | no | `102-La-foto-VII-los-invisibles-de-la-foto-Facebook-La-Bandita-2026-10-29` |
@@ -48,7 +38,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 117 | La tienda sobre las forjas: Komi Store y el fenómeno de las veinte mil | 4 | 1639 | 1 | 0 | no | `117-La-tienda-sobre-las-forjas-Komi-Store-y-el-fenomeno-de-las-20000-Facebook-La-Bandita-2026-10-29` |
 | 118 | Cuando el padre se archiva: las sucesiones firmadas | 4 | 2784 | 5 | 0 | no | `118-Cuando-el-padre-se-archiva-las-sucesiones-firmadas-Facebook-La-Bandita-2026-10-29` |
 | 119 | El papel y el e-reader: Rakuyomi, KCC y la mesa del Kindle | 4 | 2235 | 3 | 0 | no | `119-El-papel-y-el-e-reader-Rakuyomi-KCC-y-la-mesa-del-Kindle-Facebook-La-Bandita-2026-10-29` |
-| 12 | FMHY es una wiki de pistas, no un catálogo: discovery ≠ verificación | 4 | 1845 | 2 | 0 | no | `12-FMHY-wiki-de-pistas-no-catalogo-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 12 | [LA BANDITA · INFORMACIÓN PÚBLICA] | 4 | 3299 | 7 | 0 | no | `12-Grabar-llamadas-sin-root-ShizuCallRecorder-Facebook-La-Bandita-2026-10-15-dominicano-ES` |
 | 120 | La mesa de trabajo: traducir con FrankYomik y bajar con FMD2 | 4 | 1609 | 2 | 0 | no | `120-La-mesa-de-trabajo-del-manga-traducir-con-FrankYomik-y-bajar-con-FMD2-Facebook-La-Bandita-2026-10-29` |
 | 121 | Ghost Downloader 3: el administrador que baja de todo | 4 | 2264 | 3 | 0 | no | `121-Ghost-Downloader-3-el-administrador-que-baja-de-todo-Facebook-La-Bandita-2026-10-29` |
@@ -61,13 +50,10 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 128 | Tu Telegram es tu nube: TeleDrive y la soberanía prestada | 4 | 1570 | 1 | 0 | no | `128-Tu-Telegram-es-tu-nube-TeleDrive-y-la-soberania-prestada-Facebook-La-Bandita-2026-10-29` |
 | 129 | El mueble de archivos joven: MP Manager, Strata y los dos paneles | 4 | 2012 | 2 | 0 | no | `129-El-mueble-de-archivos-joven-MP-Manager-Strata-y-los-dos-paneles-Facebook-La-Bandita-2026-10-29` |
 | 13 | [LA BANDITA · INFORMACIÓN PÚBLICA] | 4 | 2750 | 6 | 0 | no | `13-Android-en-tu-iPhone-Husk-Facebook-La-Bandita-2026-10-15-dominicano-ES` |
-| 13 | Rama Aniyomi: manga y anime en un solo lector — Aniyomi, Animetail y T | 5 | 3775 | 13 | 0 | no | `13-Rama-Aniyomi-Animetail-anime-y-manga-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 130 | La TV limpia: Aerial, Plume y las estrellas que corren | 4 | 1810 | 2 | 0 | no | `130-La-TV-limpia-Aerial-Plume-y-las-estrellas-que-corren-Facebook-La-Bandita-2026-10-29` |
 | 131 | La lectura en tres pantallas: Epigraph, Kodex y Bokumi | 4 | 2298 | 3 | 0 | no | `131-La-lectura-en-tres-pantallas-Epigraph-Kodex-y-Bokumi-Facebook-La-Bandita-2026-10-29` |
 | 14 | [LA BANDITA · INFORMACIÓN PÚBLICA] | 4 | 2409 | 4 | 0 | no | `14-Android-dentro-de-Android-familia-DSU-Facebook-La-Bandita-2026-10-15-dominicano-ES` |
-| 14 | Rama anime puro: Animiru y Anikku — los clientes que se quitaron el ma | 4 | 2932 | 6 | 0 | no | `14-Rama-Animiru-Anikku-anime-puro-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 15 | [LA BANDITA · INFORMACIÓN PÚBLICA] | 5 | 3614 | 12 | 0 | no | `15-Rama-J2K-abuelo-despierto-Facebook-La-Bandita-2026-09-27-dominicano-ES` |
-| 15 | Rama J2K: el abuelo volvió — tachiyomiJ2K, Yōkai, Rokku, Reikai y el f | 5 | 3613 | 14 | 0 | no | `15-Rama-TachiyomiJ2K-Yokai-Rokku-Reikai-Hayai-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 16 | Rama SY/Komikku: el fork clásico y el rehijo con organización — Tachiy | 5 | 3757 | 19 | 1 | no | `16-Rama-TachiyomiSY-Komikku-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 17 | La capa de inmersión: los lectores que enseñan japonés mientras lees — | 5 | 3708 | 12 | 1 | no | `17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 18 | Libros libres: OpenlibExtended — la biblioteca entera en el bolsillo | 4 | 1450 | 1 | 0 | no | `18-Libros-OpenlibExtended-cliente-Annas-Archive-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
@@ -133,9 +119,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 78 | LA LISTA del techo: las ochenta, en una página | 4 | 1274 | 1 | 0 | no | `78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 79 | La octogésima: el techo, tocado | 2 | 792 | 0 | 0 | no | `79-La-octogesima-el-techo-tocado-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 80 | El mapa del salón: la pared que mide | 4 | 1218 | 1 | 0 | no | `80-El-mapa-del-salon-la-pared-que-mide-Facebook-La-Bandita-2026-10-15` |
-| 80 | La emu en el bolsillo: WinNative trae los juegos de Windows a Android  | 4 | 1873 | 2 | 0 | no | `80-WinNative-emu-de-Windows-en-el-bolsillo-GDealz-Axekin-Facebook-La-Bandita-2026-09-20-dominicano-ES` |
 | 81 | Miyorare: el lector nuevo con sus sobres de semillas | 2 | 812 | 0 | 0 | no | `81-Miyorare-el-lector-de-las-semillas-propias-Facebook-La-Bandita-2026-10-15` |
-| 81 | 🟦 MIYORARE: EL VECINO NUEVO QUE HABLA TODOS LOS IDIOMAS Y TRAJO SU PRO | 4 | 1878 | 2 | 0 | no | `81-Miyorare-lector-manga-novelas-source-packs-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 82 | La regleta: el enchufe de los módulos del root | 4 | 1525 | 1 | 0 | no | `82-La-regleta-del-root-el-enchufe-de-los-modulos-Facebook-La-Bandita-2026-10-15` |
 | 83 | La tienda de módulos: MMRL, el estante del root con ley | 4 | 1268 | 1 | 0 | no | `83-La-tienda-de-modulos-MMRL-el-estante-del-root-con-ley-Facebook-La-Bandita-2026-10-29` |
 | 84 | El escondite: Zygisk-Assistant, el manto del root con vara | 4 | 1204 | 1 | 0 | no | `84-El-escondite-Zygisk-Assistant-el-manto-del-root-con-vara-Facebook-La-Bandita-2026-10-29` |
@@ -155,6 +139,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 98 | La foto III: el sótano completo | 4 | 1825 | 2 | 0 | no | `98-La-foto-III-el-sotano-completo-Facebook-La-Bandita-2026-10-29` |
 | 99 | La foto IV: los jóvenes del censo | 4 | 1302 | 1 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29` |
 
-**148 piezas · 670 mensajes** · el mayor de todos: 3925 caracteres.
+**132 piezas · 622 mensajes** · el mayor de todos: 3925 caracteres.
 
 
