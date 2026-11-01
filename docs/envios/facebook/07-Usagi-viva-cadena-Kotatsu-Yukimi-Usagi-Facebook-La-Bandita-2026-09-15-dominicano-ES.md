@@ -1,12 +1,12 @@
 # PIEZA 07 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-Usagi-viva-cadena-Kotatsu-Yukimi-Usagi-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `703b22622b8d8e940f1d1f2013d82fbdf2aafe5cae80d70b27f63ed9c3aac373`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3769 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3769 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 927 caracteres ═══
+═══ MENSAJE 1 de 5 · 928 caracteres ═══
 
 *Usagi está viva: la cadena Kotatsu → Yukimi → Usagi y los cuatro vivos del árbol*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 9 · Apache-2.0 1 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-Usagi-viva-cadena-Kotatsu-Yukimi-Usagi-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3769 caracteres ═══
 
@@ -89,23 +89,23 @@ Hay release de esta semana: **Kototoro-app/Kototoro** publicó v2.3.4 (2026-10-2
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1874 caracteres ═══
+═══ MENSAJE 4 de 5 · 1891 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (361 días) · GPL-3.0 · *ARCHIVADO*
-• Kotatsu-Redo/Kotatsu-Redo — ★981 (+8) · empujó el 16-oct-2026 (hace 15 días) · GPL-3.0 · última release 9.8.5 (16-oct-2026)
+• KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
+• Kotatsu-Redo/Kotatsu-Redo — ★981 (+8) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0 · última release 9.8.5 (16-oct-2026)
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• AppFuton/Futon — ★469 (+2) · empujó el 21-oct-2026 (hace 10 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
-• UsagiApp/Usagi — ★288 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
-• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
-• InvalidDavid/UMA — ★83 (+1) · empujó en las últimas horas · GPL-3.0 · última release f607156 (30-oct-2026)
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (48 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
-• UsagiApp/core-exts — ★7 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (125 días) · GPL-3.0 · última release 1.0.3 (27-abr-2026) · *ARCHIVADO*
-• AppFuton/futon-parsers — ★5 (sin cambio) · *dormido*: sin empujar desde el 26-mar-2026 (219 días) · GPL-3.0 · *ARCHIVADO*
-• UsagiApp/core-parsers — ★2 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (125 días) · GPL-3.0 · última release 0.0.3 (16-may-2026) · *ARCHIVADO*
+• AppFuton/Futon — ★469 (+2) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
+• UsagiApp/Usagi — ★288 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
+• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
+• InvalidDavid/UMA — ★83 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release f607156 (30-oct-2026)
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
+• UsagiApp/core-exts — ★7 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (126 días) · GPL-3.0 · última release 1.0.3 (27-abr-2026) · *ARCHIVADO*
+• AppFuton/futon-parsers — ★5 (sin cambio) · *dormido*: sin empujar desde el 26-mar-2026 (220 días) · GPL-3.0 · *ARCHIVADO*
+• UsagiApp/core-parsers — ★2 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (126 días) · GPL-3.0 · última release 0.0.3 (16-may-2026) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

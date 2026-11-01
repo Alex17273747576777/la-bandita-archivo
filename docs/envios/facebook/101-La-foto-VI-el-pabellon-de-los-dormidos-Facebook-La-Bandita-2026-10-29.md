@@ -1,12 +1,12 @@
 # PIEZA 101 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/101-La-foto-VI-el-pabellon-de-los-dormidos-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `44903d0add2c5ab2aac1eedee20e4fec48c1cd6aefb8fe1a3a4f056b341400be`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2142 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2142 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 872 caracteres ═══
+═══ MENSAJE 1 de 4 · 873 caracteres ═══
 
 *La foto VI: el pabellón de los dormidos*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2 · Apache-2.0 1 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/101-La-foto-VI-el-pabellon-de-los-dormidos-Facebook-La-Bandita-2026-10-29.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2142 caracteres ═══
 
@@ -55,16 +55,16 @@ Pulso tranquilo: lo último que se movió fue **sang765/Usagi**, hace 15 días. 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 877 caracteres ═══
+═══ MENSAJE 3 de 4 · 878 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 101*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• aniyomiorg/aniyomi — ★7.863 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (48 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
-• sang765/Usagi — ★0 (sin cambio) · empujó el 16-oct-2026 (hace 15 días) · GPL-3.0
+• aniyomiorg/aniyomi — ★7.863 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
+• sang765/Usagi — ★0 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,12 +1,12 @@
 # PIEZA 122 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/122-Universal-Patch-Manager-el-taller-de-parches-universal-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `08aee3d312495d3887a444546076244f4a517f18ab86922262071398fc694629`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2085 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2085 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 872 caracteres ═══
+═══ MENSAJE 1 de 4 · 873 caracteres ═══
 
 *Universal Patch Manager: el taller de parches universal*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/122-Universal-Patch-Manager-el-taller-de-parches-universal-Facebook-La-Bandita-2026-10-29.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2085 caracteres ═══
 
@@ -50,13 +50,13 @@ La noticia fresca es de **Jman-Github/Universal-Patch-Manager**: release v2.0.0 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 610 caracteres ═══
+═══ MENSAJE 3 de 4 · 611 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 122*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ReVanced/revanced-manager — ★30.022 (+21) · *dormido*: sin empujar desde el 29-jul-2026 (94 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
+• ReVanced/revanced-manager — ★30.022 (+21) · *dormido*: sin empujar desde el 29-jul-2026 (95 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
 • Jman-Github/Universal-Patch-Manager — ★1.397 (+7) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

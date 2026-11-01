@@ -1,12 +1,12 @@
 # PIEZA 62 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `f7f0b11ee19fd3fd76abd0d26c460c9387371ce69688c53030e68d4b26858514`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1859 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1859 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 893 caracteres ═══
+═══ MENSAJE 1 de 4 · 894 caracteres ═══
 
 *La hornada de los ayudantes: los pequeños del censo*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: sin licencia 2 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/62-La-hornada-de-los-ayudantes-los-pequenos-del-censo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1859 caracteres ═══
 
@@ -52,20 +52,22 @@ El grupo respira despacio; su empuje más reciente, **FossifyOrg/Notes**, fue ha
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 704 caracteres ═══
+═══ MENSAJE 3 de 4 · 955 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 62*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• FossifyOrg/Notes — ★508 (+2) · empujó en las últimas horas · GPL-3.0 · última release 1.7.0 (30-ene-2026)
-• tadamiorg/tadami — ★61 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
-• tadamiorg/tadami-extensions — ★3 (sin cambio) · empujó el 26-oct-2026 (hace 5 días) · sin licencia detectada por la API
+• FossifyOrg/Notes — ★508 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 1.7.0 (30-ene-2026)
+• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
+• tadamiorg/tadami-extensions — ★3 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 4 enlaces de esta pieza, *4 responden*.
-Ninguno roto.
+De los 4 enlaces de esta pieza, *2 responden*.
+
+• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/tadamiorg/tadami-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

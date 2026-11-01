@@ -1,12 +1,12 @@
 # PIEZA 21 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/21-Musica-I-cosecha-del-muro-12-vivas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a09b93554a7ce14bca7556952722f7e2b406443a64873138154481245f277457`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3685 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3685 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 918 caracteres ═══
+═══ MENSAJE 1 de 5 · 919 caracteres ═══
 
 *Música I: la cosecha del muro — 12 proyectos vivos, fuente por fuente*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 8 · MIT 2 · EUPL-1.2 1 · sin licencia
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/21-Musica-I-cosecha-del-muro-12-vivas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3685 caracteres ═══
 
@@ -90,29 +90,30 @@ La noticia fresca es de **involvex/youtube-music-cli**: release v0.3.6 (2026-10-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1750 caracteres ═══
+═══ MENSAJE 4 de 5 · 1914 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 21*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Kopuz-org/kopuz — ★1.960 (+1) · empujó en las últimas horas · EUPL-1.2 · última release v0.67.0 (26-oct-2026)
+• Kopuz-org/kopuz — ★1.960 (+1) · empujó el 30-oct-2026 (hace 2 días) · EUPL-1.2 · última release v0.67.0 (26-oct-2026)
 • FrancescoGrazioso/Meld — ★1.853 (+15) · empujó en las últimas horas · GPL-3.0 · última release v0.9.2 (28-sep-2026)
-• LUC4N3X/Levyra-deepsound — ★1.805 (+162) · sin fecha de empuje · GPL-3.0 · última release v3.0.5 (28-oct-2026)
-• involvex/youtube-music-cli — ★466 (-1) · empujó en las últimas horas · MIT · última release v0.3.6 (28-oct-2026)
-• suvojeet-sengupta/SuvMusic — ★314 (sin cambio) · empujó el 15-oct-2026 (hace 16 días) · GPL-3.0 · última release v2.6.8.0 (13-oct-2026)
+• LUC4N3X/Levyra-deepsound — ★1.806 (+163) · empujó en las últimas horas · GPL-3.0 · última release v3.0.5 (28-oct-2026)
+• involvex/youtube-music-cli — ★466 (-1) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v0.3.6 (28-oct-2026)
+• suvojeet-sengupta/SuvMusic — ★314 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v2.6.8.0 (13-oct-2026)
 • MrDemonc/Lune — ★263 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.5.5 (28-oct-2026)
-• noel-digital-fan/volume_plus_plus — ★145 (-1) · empujó el 21-oct-2026 (hace 10 días) · MIT · última release v2.1.0 (21-oct-2026)
-• arunnechully/SoundPod — ★123 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.3.6 (26-ago-2026)
-• TeamAuraMusic/AuraMusic — ★117 (+5) · sin fecha de empuje · GPL-3.0 · última release v3.2.0 (16-oct-2026)
-• tryptz/Tryptify — ★98 (+2) · sin fecha de empuje · GPL-3.0 · última release 1.9.5 (26-oct-2026)
+• noel-digital-fan/volume_plus_plus — ★145 (-1) · empujó el 21-oct-2026 (hace 11 días) · MIT · última release v2.1.0 (21-oct-2026)
+• arunnechully/SoundPod — ★123 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.3.6 (26-ago-2026)
+• TeamAuraMusic/AuraMusic — ★117 (+5) · empujó en las últimas horas · GPL-3.0 · última release v3.2.0 (16-oct-2026)
+• tryptz/Tryptify — ★98 (+2) · empujó en las últimas horas · GPL-3.0 · última release 1.9.5 (26-oct-2026)
 • Lojcs/tsacdop — ★52 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v0.10.1 (19-ago-2026)
-• d0x-dev/Airbeats-Desktop — ★5 (+1) · empujó el 14-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v6.4.0 (13-oct-2026)
+• d0x-dev/Airbeats-Desktop — ★5 (+1) · empujó el 14-oct-2026 (hace 18 días) · sin licencia detectada por la API · última release v6.4.0 (13-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 17 enlaces de esta pieza, *17 responden*.
-Ninguno roto.
+De los 17 enlaces de esta pieza, *16 responden*.
+
+• https://github.com/suvojeet-sengupta/SuvMusic — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

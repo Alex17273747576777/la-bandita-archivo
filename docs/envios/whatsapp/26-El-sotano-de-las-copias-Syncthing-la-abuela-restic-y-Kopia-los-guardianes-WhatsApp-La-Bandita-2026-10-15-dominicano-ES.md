@@ -1,12 +1,12 @@
 # PIEZA 26 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/26-El-sotano-de-las-copias-Syncthing-la-abuela-restic-y-Kopia-los-guardianes-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `fb79836c7ee72f58d55f8438e53788207e538748c4ae44d912c623cb033f87df`
-- **Envío generado:** 2026-10-31 · 16 mensajes · el mayor de 3661 caracteres
+- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3661 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 904 caracteres ═══
+═══ MENSAJE 1 de 16 · 905 caracteres ═══
 
 *EL SÓTANO DE LAS COPIAS*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MPL-2.0 3 · BSD-2-Clause 1 · Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/26-El-sotano-de-las-copias-Syncthing-la-abuela-restic-y-Kopia-los-guardianes-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 16 · 2841 caracteres ═══
 
@@ -627,17 +627,17 @@ REV|978.98★ — gnihtcnys/gnihtcnys=1|REV|esualC-2-DSB=2|REV|92-01-6202 — ai
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 972 caracteres ═══
+═══ MENSAJE 15 de 16 · 990 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 26*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• restic/restic — ★36.913 (+31) · sin fecha de empuje · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
-• kopia/kopia — ★14.545 (+22) · sin fecha de empuje · Apache-2.0 · última release v0.23.1 (16-jun-2026)
-• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (697 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
-• researchxxl/syncthing-android — ★3.214 (+22) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• syncthing/syncthing — ★89.956 (+83) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• restic/restic — ★36.913 (+31) · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• kopia/kopia — ★14.545 (+22) · empujó en las últimas horas · Apache-2.0 · última release v0.23.1 (16-jun-2026)
+• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
+• researchxxl/syncthing-android — ★3.215 (+23) · empujó el 22-oct-2026 (hace 10 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

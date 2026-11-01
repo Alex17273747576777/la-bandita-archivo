@@ -1,12 +1,12 @@
 # PIEZA 56 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/56-El-cofre-de-la-casa-Vaultwarden-las-llaves-con-dueno-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `e9c1aa58fb435a67cb88172bb1135606e4db751d5381008664410d031cb133ff`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1642 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1642 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 847 caracteres ═══
+═══ MENSAJE 1 de 4 · 848 caracteres ═══
 
 *EL COFRE DE LA CASA*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: AGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/56-El-cofre-de-la-casa-Vaultwarden-las-llaves-con-dueno-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1642 caracteres ═══
 
@@ -60,13 +60,13 @@ REV|82-01-6202 — nedrawtluav/aicrag-inad=1|REV|)50-01-6202( 4.73.1 — nedrawt
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 460 caracteres ═══
+═══ MENSAJE 3 de 4 · 461 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 56*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dani-garcia/vaultwarden — ★70.014 (+119) · empujó el 29-oct-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.4 (5-oct-2026)
+• dani-garcia/vaultwarden — ★70.015 (+120) · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release 1.37.4 (5-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

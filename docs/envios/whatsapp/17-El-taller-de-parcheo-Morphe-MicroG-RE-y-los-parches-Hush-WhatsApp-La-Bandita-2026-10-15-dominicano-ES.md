@@ -1,13 +1,13 @@
 # PIEZA 17 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/17-El-taller-de-parcheo-Morphe-MicroG-RE-y-los-parches-Hush-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `49cbd11380977941559a50fff289af3ea2f98320d44f12777c8969b633facef5`
-- **Envío generado:** 2026-10-31 · 20 mensajes · el mayor de 3729 caracteres
+- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3729 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 - **Aviso:** la pieza original deja una valla de código sin cerrar; este envío la cierra al final del cuerpo para que se pueda leer. La pieza no se modificó.
 
-═══ MENSAJE 1 de 20 · 891 caracteres ═══
+═══ MENSAJE 1 de 20 · 892 caracteres ═══
 
 *EL TALLER DE PARCHEO*
 
@@ -21,7 +21,7 @@ Licencias de lo que recomienda: GPL-3.0 9 · Unlicense 1 · Apache-2.0 1 · MIT 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/17-El-taller-de-parcheo-Morphe-MicroG-RE-y-los-parches-Hush-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 3729 caracteres ═══
 
@@ -1122,23 +1122,23 @@ REV|986.9★ — reganam-ehprom/ppAehproM=1|REV|0.3-LPG=2|REV|03-01-6202 — reg
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1733 caracteres ═══
+═══ MENSAJE 19 de 20 · 1766 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 17*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MorpheApp/morphe-manager — ★9.794 (+105) · sin fecha de empuje · GPL-3.0 · última release v2.3.0 (30-oct-2026)
-• bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release 11282 (15-oct-2026)
+• MorpheApp/morphe-manager — ★9.795 (+106) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
+• bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
 • j-hc/revanced-magisk-module — ★7.709 (+4) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
 • shiaho777/web-to-app — ★7.152 (+25) · empujó en las últimas horas · Unlicense · última release v2.8.3 (28-oct-2026)
 • MorpheApp/MicroG-RE — ★6.104 (+95) · empujó en las últimas horas · Apache-2.0 · última release 7.3.0 (31-oct-2026)
-• MeowDump/Integrity-Box — ★2.806 (+9) · empujó en las últimas horas · GPL-3.0 · última release v46 (29-oct-2026)
-• snake-4/Zygisk-Assistant — ★2.661 (-1) · *dormido*: sin empujar desde el 4-may-2026 (180 días) · MIT · última release v2.1.4 (23-feb-2025)
-• MMRLApp/MMRL — ★2.225 (+2) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v34296 (8-mar-2026)
-• SysAdminDoc/HushFacebook — ★447 (+9) · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
+• MeowDump/Integrity-Box — ★2.806 (+9) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v46 (29-oct-2026)
+• snake-4/Zygisk-Assistant — ★2.661 (-1) · *dormido*: sin empujar desde el 4-may-2026 (181 días) · MIT · última release v2.1.4 (23-feb-2025)
+• MMRLApp/MMRL — ★2.225 (+2) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v34296 (8-mar-2026)
+• SysAdminDoc/HushFacebook — ★447 (+9) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (28-oct-2026)
 • SysAdminDoc/HushFeed — ★342 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
-• SysAdminDoc/Hushfacebook — ★447 · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
+• SysAdminDoc/Hushfacebook — ★447 · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (28-oct-2026)
 • SysAdminDoc/hushfeed — ★342 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

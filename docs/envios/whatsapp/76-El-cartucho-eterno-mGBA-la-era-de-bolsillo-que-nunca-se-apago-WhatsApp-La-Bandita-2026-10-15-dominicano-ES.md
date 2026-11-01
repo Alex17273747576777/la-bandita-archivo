@@ -1,12 +1,12 @@
 # PIEZA 76 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/76-El-cartucho-eterno-mGBA-la-era-de-bolsillo-que-nunca-se-apago-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `dc608991762ac11cfb08ae1c0d4eef847560a93580ea4155747850f5ea0352c9`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1571 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1571 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 854 caracteres ═══
+═══ MENSAJE 1 de 4 · 855 caracteres ═══
 
 *EL CARTUCHO ETERNO*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/76-El-cartucho-eterno-mGBA-la-era-de-bolsillo-que-nunca-se-apago-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1571 caracteres ═══
 
@@ -60,11 +60,11 @@ REV|935.7★ — abgm/ume-abgm=1|REV|82-01-6202 — abgm/ume-abgm=2|REV|)90-30-5
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 439 caracteres ═══
+═══ MENSAJE 3 de 4 · 440 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 76*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • mgba-emu/mgba — ★7.552 (+13) · empujó en las últimas horas · MPL-2.0 · última release 0.10.5 (9-mar-2025)
 

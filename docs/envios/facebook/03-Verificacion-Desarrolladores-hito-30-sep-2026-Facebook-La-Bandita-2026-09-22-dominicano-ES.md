@@ -1,12 +1,12 @@
 # PIEZA 03 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-Verificacion-Desarrolladores-hito-30-sep-2026-Facebook-La-Bandita-2026-09-22-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `330e4d0b6dae038592cec65a9663ebbbae67529c8a486da10e72e7536edb2443`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2316 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2316 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 903 caracteres ═══
+═══ MENSAJE 1 de 4 · 904 caracteres ═══
 
 *🟦 OCHO DÍAS PARA EL CENSO: LA VERIFICACIÓN DE DESARROLLADORES, CONTADA CON CALMA*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-Verificacion-Desarrolladores-hito-30-sep-2026-Facebook-La-Bandita-2026-09-22-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2316 caracteres ═══
 
@@ -61,18 +61,19 @@ El grupo respira despacio; su empuje más reciente, **woheller69/FreeDroidWarn**
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 462 caracteres ═══
+═══ MENSAJE 3 de 4 · 576 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• woheller69/FreeDroidWarn — ★3.728 (+12) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
+• woheller69/FreeDroidWarn — ★3.728 (+12) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 14 enlaces de esta pieza, *14 responden*.
-Ninguno roto.
+De los 14 enlaces de esta pieza, *13 responden*.
+
+• https://github.com/woheller69/FreeDroidWarn — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

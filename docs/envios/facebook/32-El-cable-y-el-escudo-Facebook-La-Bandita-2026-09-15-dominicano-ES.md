@@ -1,12 +1,12 @@
 # PIEZA 32 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/32-El-cable-y-el-escudo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `1ce7f2daf6f26684bb86c6ba04afa3d9416ef295477e6d7cffc0018558f8a00e`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3759 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3759 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 889 caracteres ═══
+═══ MENSAJE 1 de 5 · 890 caracteres ═══
 
 *El cable y el escudo: los que conectan, actualizan y defienden*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 7 · sin licencia 2 · LGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/32-El-cable-y-el-escudo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3759 caracteres ═══
 
@@ -85,21 +85,21 @@ Pulso tranquilo: lo último que se movió fue **emanuele-f/PCAPdroid**, hace 2 d
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1779 caracteres ═══
+═══ MENSAJE 4 de 5 · 1804 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 32*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • emanuele-f/PCAPdroid — ★5.031 (+21) · empujó en las últimas horas · GPL-3.0 · última release v2.0.2 (20-sep-2026)
-• M66B/NetGuard — ★3.954 (+5) · *dormido*: sin empujar desde el 1-ago-2026 (91 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
-• TrackerControl/tracker-control-android — ★2.714 (+10) · sin fecha de empuje · GPL-3.0 · última release 2026102901 (29-oct-2026)
-• badabing2005/PixelFlasher — ★2.342 (+1) · empujó en las últimas horas · GPL-3.0 · última release v10.2.0.0 (30-oct-2026)
-• TeamWin/android_bootable_recovery — ★1.723 · *dormido*: sin empujar desde el 24-ago-2026 (68 días) · sin licencia detectada por la API
-• DUpdateSystem/UpgradeAll — ★1.358 (-1) · empujó en las últimas horas · GPL-3.0 · última release 0.13-beta.4 (24-abr-2023)
-• Androidacy/MagiskModuleManager — ★1.241 (sin cambio) · *dormido*: sin empujar desde el 9-abr-2026 (205 días) · LGPL-3.0 · última release v2.3.8-1 (31-mar-2025)
-• Tobi823/ffupdater — ★1.106 (sin cambio) · *dormido*: sin empujar desde el 27-jun-2026 (126 días) · GPL-3.0 · última release 81.0.0 (15-jun-2025)
-• K3V1991/ADB-and-FastbootPlusPlus — ★767 (+2) · empujó el 20-oct-2026 (hace 11 días) · sin licencia detectada por la API · última release v1.1.1 (16-abr-2024)
+• M66B/NetGuard — ★3.954 (+5) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
+• TrackerControl/tracker-control-android — ★2.714 (+10) · empujó en las últimas horas · GPL-3.0 · última release 2026102901 (29-oct-2026)
+• badabing2005/PixelFlasher — ★2.342 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v10.2.0.0 (30-oct-2026)
+• TeamWin/android_bootable_recovery — ★1.723 · *dormido*: sin empujar desde el 24-ago-2026 (69 días) · sin licencia detectada por la API
+• DUpdateSystem/UpgradeAll — ★1.358 (-1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 0.13-beta.4 (24-abr-2023)
+• Androidacy/MagiskModuleManager — ★1.241 (sin cambio) · *dormido*: sin empujar desde el 9-abr-2026 (206 días) · LGPL-3.0 · última release v2.3.8-1 (31-mar-2025)
+• Tobi823/ffupdater — ★1.106 (sin cambio) · *dormido*: sin empujar desde el 27-jun-2026 (127 días) · GPL-3.0 · última release 81.0.0 (15-jun-2025)
+• K3V1991/ADB-and-FastbootPlusPlus — ★767 (+2) · empujó el 20-oct-2026 (hace 12 días) · sin licencia detectada por la API · última release v1.1.1 (16-abr-2024)
 • yshalsager/ShizukuShortcuts — ★79 (+2) · empujó en las últimas horas · GPL-3.0 · última release v0.5.0 (28-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

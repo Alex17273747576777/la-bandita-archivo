@@ -1,12 +1,12 @@
 # PIEZA 46 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/46-El-router-OpenWrt-el-cerebro-del-aire-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `1126a94b1193c8e7bc822695985b4541237948c0c51e8fcd265f50ef41076eb3`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2249 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2249 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 863 caracteres ═══
+═══ MENSAJE 1 de 4 · 864 caracteres ═══
 
 *EL ROUTER*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 1 · Apache-2.0 1 · GPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/46-El-router-OpenWrt-el-cerebro-del-aire-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2249 caracteres ═══
 
@@ -66,11 +66,11 @@ REV|0.2-ehcapA=1|REV|92-01-6202 — trwnepo/trwnepo=2|REV|579.82★ — trwnepo/
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 686 caracteres ═══
+═══ MENSAJE 3 de 4 · 687 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 46*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • openwrt/openwrt — ★28.997 (+22) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
 • openwrt/luci — ★7.944 (+5) · empujó en las últimas horas · Apache-2.0

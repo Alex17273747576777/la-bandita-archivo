@@ -1,12 +1,12 @@
 # PIEZA 71 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/71-Las-puertas-calladas-los-ceros-de-verdad-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `f2cbdc1525f3dd3066cbf26b89d149baa085ac40870c9dc8c5004241f1e12ff6`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 3732 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 3732 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 905 caracteres ═══
+═══ MENSAJE 1 de 4 · 906 caracteres ═══
 
 *Las puertas calladas: los ceros de verdad*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: AGPL-3.0 2 · MIT 2 · sin licencia 1 · GPL-3.0
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/71-Las-puertas-calladas-los-ceros-de-verdad-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 3732 caracteres ═══
 
@@ -67,26 +67,28 @@ Lo primero, lo que se cayó: **inaccurate-hotelplan289/HomeLabSetup** (caído (4
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1486 caracteres ═══
+═══ MENSAJE 3 de 4 · 1739 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 71*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 8 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 8 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 41 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
-• vauvenal5/yaga — ★2 (sin cambio) · empujó el 28-oct-2026 (hace 3 días) · AGPL-3.0
-• KamiYomu/KamiYomu.CrawlerAgents.Core — ★0 (sin cambio) · *dormido*: sin empujar desde el 30-ago-2026 (62 días) · MIT · última release 1.2.3 (27-ago-2026)
-• helios57/muplay — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 17 días) · MIT · última release v0.3.0 (11-oct-2026)
-• hexadigitall/makaw — ★0 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (54 días) · sin licencia detectada por la API · última release v1.0.47 (31-ago-2026)
+• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
+• vauvenal5/yaga — ★2 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0
+• KamiYomu/KamiYomu.CrawlerAgents.Core — ★0 (sin cambio) · *dormido*: sin empujar desde el 30-ago-2026 (63 días) · MIT · última release 1.2.3 (27-ago-2026)
+• helios57/muplay — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 18 días) · MIT · última release v0.3.0 (11-oct-2026)
+• hexadigitall/makaw — ★0 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · sin licencia detectada por la API · última release v1.0.47 (31-ago-2026)
 • inaccurate-hotelplan289/HomeLabSetup — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• ulightm111/boky-fivavahana-ion — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 17 días) · GPL-3.0 · última release v2.6.1 (14-oct-2026)
-• thiagooo0/EHHelper — ★0 · *dormido*: sin empujar desde el 13-ene-2024 (1022 días) · Apache-2.0 · última release v1.2.0 (27-jun-2023)
+• ulightm111/boky-fivavahana-ion — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v2.6.1 (14-oct-2026)
+• thiagooo0/EHHelper — ★0 · *dormido*: sin empujar desde el 13-ene-2024 (1023 días) · Apache-2.0 · última release v1.2.0 (27-jun-2023)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 10 enlaces de esta pieza, *9 responden*.
+De los 10 enlaces de esta pieza, *7 responden*.
 
 • https://github.com/inaccurate-hotelplan289/HomeLabSetup — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/thiagooo0/EHHelper — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/ulightm111/boky-fivavahana-ion — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

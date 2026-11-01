@@ -1,13 +1,13 @@
 # PIEZA 19 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/19-El-panorama-de-la-IA-abierta-MCP-Jan-NextChat-y-airi-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `d84546f73f8eb5b75b32c0df02564da8c846c6011539cde040d1e7e19225acde`
-- **Envío generado:** 2026-10-31 · 20 mensajes · el mayor de 3688 caracteres
+- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3688 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 - **Aviso:** la pieza original deja una valla de código sin cerrar; este envío la cierra al final del cuerpo para que se pueda leer. La pieza no se modificó.
 
-═══ MENSAJE 1 de 20 · 883 caracteres ═══
+═══ MENSAJE 1 de 20 · 884 caracteres ═══
 
 *EL PANORAMA DE LA IA ABIERTA*
 
@@ -21,7 +21,7 @@ Licencias de lo que recomienda: MIT 5 · NOASSERTION 3 · Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/19-El-panorama-de-la-IA-abierta-MCP-Jan-NextChat-y-airi-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 3687 caracteres ═══
 
@@ -1117,19 +1117,19 @@ REV|386.19★ — srevres/locotorptxetnocledom=1|REV|TIM=2|REV|03-01-6202 — na
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1366 caracteres ═══
+═══ MENSAJE 19 de 20 · 1383 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 19*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• modelcontextprotocol/servers — ★91.722 (+41) · empujó el 29-oct-2026 (hace 2 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
-• ChatGPTNextWeb/NextChat — ★88.930 (+12) · empujó el 20-oct-2026 (hace 11 días) · MIT · última release v2.16.1 (29-jul-2025)
-• Ebony-Vinyl/dsh-our-free-model — ★54.569 (+3626) · empujó en las últimas horas · MIT · última release v2.7.4-macos-unofficial (31-oct-2026)
-• moeru-ai/airi — ★50.965 (+75) · sin fecha de empuje · MIT · última release v0.14.1 (30-oct-2026)
+• modelcontextprotocol/servers — ★91.722 (+41) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
+• ChatGPTNextWeb/NextChat — ★88.930 (+12) · empujó el 20-oct-2026 (hace 12 días) · MIT · última release v2.16.1 (29-jul-2025)
+• Ebony-Vinyl/dsh-our-free-model — ★54.597 (+3654) · empujó en las últimas horas · MIT · última release v2.7.4-macos-unofficial (31-oct-2026)
+• moeru-ai/airi — ★50.967 (+77) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
 • janhq/jan — ★45.207 (+54) · empujó en las últimas horas · NOASSERTION · última release v0.8.8 (28-oct-2026)
-• xai-org/grok-build — ★27.634 (+32) · empujó el 29-sep-2026 (hace 32 días) · Apache-2.0
-• yetone/magpie — ★27.035 (+1613) · sin fecha de empuje · MIT · última release v0.1.2525 (1-nov-2026)
+• xai-org/grok-build — ★27.634 (+32) · empujó el 29-sep-2026 (hace 33 días) · Apache-2.0
+• yetone/magpie — ★27.048 (+1626) · empujó en las últimas horas · MIT · última release v0.1.2532 (1-nov-2026)
 • browser-use/jev-ultrafast — ★23.996 (+103) · empujó en las últimas horas · MIT
 • modelcontextprotocol/modelcontextprotocol — ★9.577 (+15) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 

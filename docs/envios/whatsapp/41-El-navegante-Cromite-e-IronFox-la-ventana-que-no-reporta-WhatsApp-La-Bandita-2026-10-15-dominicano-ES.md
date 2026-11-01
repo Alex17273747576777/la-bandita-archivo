@@ -1,12 +1,12 @@
 # PIEZA 41 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/41-El-navegante-Cromite-e-IronFox-la-ventana-que-no-reporta-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `29dd1681487a4c39cdc3b10141918570380f2778e0da0e57147ffb6458a9bf38`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2525 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2525 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 856 caracteres ═══
+═══ MENSAJE 1 de 4 · 857 caracteres ═══
 
 *EL NAVEGANTE*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2 · AGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/41-El-navegante-Cromite-e-IronFox-la-ventana-que-no-reporta-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2525 caracteres ═══
 
@@ -67,15 +67,15 @@ REV|944.8★ — etimorc/ozau=1|REV|0.3-LPG=2|REV|92-01-6202 — etimorc/ozau=3
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 820 caracteres ═══
+═══ MENSAJE 3 de 4 · 821 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 41*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• uazo/cromite — ★8.452 (+3) · empujó en las últimas horas · GPL-3.0 · última release v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a (15-sep-2026)
-• bromite/bromite — ★6.318 (-3) · *dormido*: sin empujar desde el 24-ene-2024 (1011 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
-• ironfox-oss/IronFox — ★1.087 (sin cambio) · empujó el 28-oct-2026 (hace 3 días) · AGPL-3.0
+• uazo/cromite — ★8.453 (+4) · empujó en las últimas horas · GPL-3.0 · última release v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a (15-sep-2026)
+• bromite/bromite — ★6.318 (-3) · *dormido*: sin empujar desde el 24-ene-2024 (1012 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
+• ironfox-oss/IronFox — ★1.087 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

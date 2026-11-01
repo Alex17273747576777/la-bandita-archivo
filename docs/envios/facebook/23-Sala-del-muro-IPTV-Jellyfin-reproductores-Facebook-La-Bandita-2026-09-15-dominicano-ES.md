@@ -1,12 +1,12 @@
 # PIEZA 23 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/23-Sala-del-muro-IPTV-Jellyfin-reproductores-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `d26d072db51080fc800e72355ebf618928a601668878c04063ab109f0bfd03dc`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3772 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3772 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 930 caracteres ═══
+═══ MENSAJE 1 de 5 · 931 caracteres ═══
 
 *La sala del muro: IPTV, servidores de cine y reproductores con músculo*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 6 · AGPL-3.0 2 · GPL-2.0 1 · sin lice
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/23-Sala-del-muro-IPTV-Jellyfin-reproductores-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3772 caracteres ═══
 
@@ -83,27 +83,28 @@ La noticia fresca es de **luqmanfadlli/NuvioMobile-Enhanced**: release 0.6.5-bet
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1534 caracteres ═══
+═══ MENSAJE 4 de 5 · 1683 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 23*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • damontecres/Wholphin — ★3.206 (+17) · empujó en las últimas horas · GPL-2.0 · última release v1.0.9 (11-oct-2026)
-• Riteshp2001/mpvRx — ★868 (+9) · sin fecha de empuje · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
+• Riteshp2001/mpvRx — ★868 (+9) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
 • luqmanfadlli/NuvioMobile-Enhanced — ★718 (+16) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (30-oct-2026)
-• ahXN00/OwnTV — ★712 (+12) · empujó en las últimas horas · GPL-3.0 · última release v5.2.1 (21-oct-2026)
+• ahXN00/OwnTV — ★712 (+12) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v5.2.1 (21-oct-2026)
 • varunsalian/debrify — ★636 (+4) · empujó en las últimas horas · AGPL-3.0 · última release v0.10.0-beta.1 (25-sep-2026)
-• mjlanddev/CornCastle-Anime-APP — ★79 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (70 días) · sin licencia detectada por la API · *ARCHIVADO*
-• jonzey231/AerioTV-Android — ★83 (+8) · empujó en las últimas horas · GPL-3.0 · última release v0.5.13 (16-oct-2026)
+• mjlanddev/CornCastle-Anime-APP — ★79 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (71 días) · sin licencia detectada por la API · *ARCHIVADO*
+• jonzey231/AerioTV-Android — ★83 (+8) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.5.13 (16-oct-2026)
 • mangeshghodke/DreamPlayer — ★74 (+2) · empujó en las últimas horas · GPL-3.0 · última release v0.5.4 (24-oct-2026)
-• FellipitoPV/NekoVideo — ★71 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1 (22-oct-2026)
-• SOLO-ARC/Animebox — ★28 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v1.3.7 (30-oct-2026)
+• FellipitoPV/NekoVideo — ★71 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.9.1 (22-oct-2026)
+• SOLO-ARC/Animebox — ★28 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.3.7 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *16 responden*.
-Ninguno roto.
+De los 16 enlaces de esta pieza, *15 responden*.
+
+• https://github.com/varunsalian/debrify — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

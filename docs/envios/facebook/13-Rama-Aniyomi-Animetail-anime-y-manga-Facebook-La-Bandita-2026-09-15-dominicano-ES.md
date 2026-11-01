@@ -1,12 +1,12 @@
 # PIEZA 13 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/13-Rama-Aniyomi-Animetail-anime-y-manga-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `4227d959d162ee27a8334525d963b860ab42b793f6559930a0c0d52458a7849a`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3775 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3775 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 909 caracteres ═══
+═══ MENSAJE 1 de 5 · 910 caracteres ═══
 
 *Rama Aniyomi: manga y anime en un solo lector — Aniyomi, Animetail y Tadami*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 12 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/13-Rama-Aniyomi-Animetail-anime-y-manga-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3775 caracteres ═══
 
@@ -92,30 +92,31 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 6 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2076 caracteres ═══
+═══ MENSAJE 4 de 5 · 2206 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 13*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• aniyomiorg/aniyomi — ★7.863 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• aniyomiorg/aniyomi-extensions — ★849 (sin cambio) · *dormido*: sin empujar desde el 19-ago-2024 (803 días) · Apache-2.0 · *ARCHIVADO*
-• aniyomiorg/aniyomi-preview — ★644 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · Apache-2.0 · última release r8135 (14-sep-2026)
-• Animetailapp/Animetail — ★613 (sin cambio) · sin fecha de empuje · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
-• Kohi-den/extensions-source — ★532 (sin cambio) · *dormido*: sin empujar desde el 12-may-2026 (172 días) · Apache-2.0 · *ARCHIVADO*
-• yuzono/anime-extensions — ★525 (+3) · sin fecha de empuje · Apache-2.0
-• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
-• Animetailapp/Animetail-preview — ★81 (sin cambio) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release r9949 (29-oct-2026)
-• tadamiorg/tadami — ★61 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
-• Zykrave/aniyomi-Kuro — ★25 (sin cambio) · *dormido*: sin empujar desde el 13-ago-2026 (79 días) · Apache-2.0 · última release v1.0.0 (13-ago-2026) · *ARCHIVADO*
-• yuzono/kohi-den — ★3 (sin cambio) · *dormido*: sin empujar desde el 12-may-2026 (172 días) · Apache-2.0
-• Blackyfi/aniyomi-revived — ★1 (sin cambio) · empujó el 20-oct-2026 (hace 11 días) · Apache-2.0 · última release v0.18.1.36 (20-oct-2026)
-• FunMan1995/MeMedia — ★0 (sin cambio) · *dormido*: sin empujar desde el 3-sep-2026 (58 días) · Apache-2.0 · última release v0.21.2 (22-ago-2026)
+• aniyomiorg/aniyomi — ★7.863 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• aniyomiorg/aniyomi-extensions — ★849 (sin cambio) · *dormido*: sin empujar desde el 19-ago-2024 (804 días) · Apache-2.0 · *ARCHIVADO*
+• aniyomiorg/aniyomi-preview — ★644 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release r8135 (14-sep-2026)
+• Animetailapp/Animetail — ★613 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
+• Kohi-den/extensions-source — ★532 (sin cambio) · *dormido*: sin empujar desde el 12-may-2026 (173 días) · Apache-2.0 · *ARCHIVADO*
+• yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
+• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
+• Animetailapp/Animetail-preview — ★81 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release r9949 (29-oct-2026)
+• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
+• Zykrave/aniyomi-Kuro — ★25 (sin cambio) · *dormido*: sin empujar desde el 13-ago-2026 (80 días) · Apache-2.0 · última release v1.0.0 (13-ago-2026) · *ARCHIVADO*
+• yuzono/kohi-den — ★3 (sin cambio) · *dormido*: sin empujar desde el 12-may-2026 (173 días) · Apache-2.0
+• Blackyfi/aniyomi-revived — ★1 (sin cambio) · empujó el 20-oct-2026 (hace 12 días) · Apache-2.0 · última release v0.18.1.36 (20-oct-2026)
+• FunMan1995/MeMedia — ★0 (sin cambio) · *dormido*: sin empujar desde el 3-sep-2026 (59 días) · Apache-2.0 · última release v0.21.2 (22-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 15 enlaces de esta pieza, *15 responden*.
-Ninguno roto.
+De los 15 enlaces de esta pieza, *14 responden*.
+
+• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

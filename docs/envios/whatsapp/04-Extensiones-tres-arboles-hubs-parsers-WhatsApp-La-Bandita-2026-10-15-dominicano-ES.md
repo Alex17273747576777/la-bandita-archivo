@@ -1,12 +1,12 @@
 # PIEZA 04 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Extensiones-tres-arboles-hubs-parsers-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `283cf3cc89eaf2a4eddb267b5175ac1bf6f3a1c4ed8375d2eaa7aa152630d73b`
-- **Envío generado:** 2026-10-31 · 26 mensajes · el mayor de 3658 caracteres
+- **Envío generado:** 2026-11-01 · 26 mensajes · el mayor de 3658 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 26 · 959 caracteres ═══
+═══ MENSAJE 1 de 26 · 960 caracteres ═══
 
 *Los almacenes de las bombillas: extensiones, hubs vivos y la feria donde venden funditas que no*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: sin licencia 5 · Apache-2.0 4 · NOASSERTION 1 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Extensiones-tres-arboles-hubs-parsers-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 26 · 2780 caracteres ═══
 
@@ -1074,23 +1074,23 @@ REV|60-90-5202 — ecruos/cni-QGZ=1|REV|92-01-6202 — oper-agnam/nart-gnouc=2|R
 
 ⏬ sigue abajo · parte 23 de 25
 
-═══ MENSAJE 25 de 26 · 1612 caracteres ═══
+═══ MENSAJE 25 de 26 · 1645 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
-• keiyoushi/extensions-source — ★4.839 (+8) · sin fecha de empuje · Apache-2.0
-• LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 20 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
-• ZGQ-inc/source — ★1.286 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2025 (420 días) · NOASSERTION · última release 23041 (10-jul-2024)
-• yuzono/anime-extensions — ★525 (+3) · sin fecha de empuje · Apache-2.0
+• keiyoushi/extensions-source — ★4.839 (+8) · empujó en las últimas horas · Apache-2.0
+• LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
+• ZGQ-inc/source — ★1.286 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2025 (421 días) · NOASSERTION · última release 23041 (10-jul-2024)
+• yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
 • cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f3291a9 (31-oct-2026)
-• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 42 días) · Apache-2.0
-• yuzono/cursed-manga-extensions — ★216 (+2) · sin fecha de empuje · Apache-2.0
-• miyomiorg/Miyomi — ★209 (+1) · empujó en las últimas horas · AGPL-3.0
-• mojuru/cursed-manga-repo — ★175 (+1) · empujó el 12-oct-2026 (hace 19 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
-• yuzono/manga-repo — ★13 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (74 días) · sin licencia detectada por la API
+• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
+• yuzono/cursed-manga-extensions — ★216 (+2) · empujó en las últimas horas · Apache-2.0
+• miyomiorg/Miyomi — ★209 (+1) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
+• mojuru/cursed-manga-repo — ★175 (+1) · empujó el 12-oct-2026 (hace 20 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
+• yuzono/manga-repo — ★13 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

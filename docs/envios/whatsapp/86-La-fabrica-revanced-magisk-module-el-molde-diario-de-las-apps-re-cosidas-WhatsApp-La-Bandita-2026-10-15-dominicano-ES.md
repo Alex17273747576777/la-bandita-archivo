@@ -1,12 +1,12 @@
 # PIEZA 86 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/86-La-fabrica-revanced-magisk-module-el-molde-diario-de-las-apps-re-cosidas-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `135e26c85bacdebca09cfba8e595cf81336255a4e4f05e7f8db3b18f35245eef`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1742 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1742 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 857 caracteres ═══
+═══ MENSAJE 1 de 4 · 858 caracteres ═══
 
 *LA FÁBRICA*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/86-La-fabrica-revanced-magisk-module-el-molde-diario-de-las-apps-re-cosidas-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1742 caracteres ═══
 
@@ -60,11 +60,11 @@ REV|92-01-6202 — eludom-ksigam-decnaver/ch-j=1|REV|507.7★ — eludom-ksigam-
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 455 caracteres ═══
+═══ MENSAJE 3 de 4 · 456 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 86*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • j-hc/revanced-magisk-module — ★7.709 (+4) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
 

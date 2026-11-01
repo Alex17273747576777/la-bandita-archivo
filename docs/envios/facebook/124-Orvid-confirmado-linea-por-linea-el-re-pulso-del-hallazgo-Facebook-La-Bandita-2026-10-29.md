@@ -1,12 +1,12 @@
 # PIEZA 124 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/124-Orvid-confirmado-linea-por-linea-el-re-pulso-del-hallazgo-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `9d5dc41de366073a14355d6b877a9584d13b77d0ea8a544df9b7ec4d3ac8a7b6`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2228 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2228 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 889 caracteres ═══
+═══ MENSAJE 1 de 4 · 890 caracteres ═══
 
 *Orvid, confirmado línea por línea: el re-pulso del hallazgo del dueño*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 3.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/124-Orvid-confirmado-linea-por-linea-el-re-pulso-del-hallazgo-Facebook-La-Bandita-2026-10-29.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2228 caracteres ═══
 
@@ -53,15 +53,15 @@ La noticia fresca es de **mankidev/orvid**: release v0.4.22 (2026-10-29). El emp
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 655 caracteres ═══
+═══ MENSAJE 3 de 4 · 656 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 124*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • TeamNewPipe/NewPipe — ★40.384 (+30) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
-• mankidev/orvid — ★10 (+1) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.4.22 (29-oct-2026)
-• mankidev/orvid-sources — ★1 (sin cambio) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0
+• mankidev/orvid — ★10 (+1) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v0.4.22 (29-oct-2026)
+• mankidev/orvid-sources — ★1 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

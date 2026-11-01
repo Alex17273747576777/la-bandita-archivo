@@ -1,12 +1,12 @@
 # PIEZA 77 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/77-El-traductor-de-lenguas-box64-el-programa-de-PC-hablando-brazo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `33884e2604e361917aed0b42e2a000201ccf728e37075b813b4ce92864e118ec`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1601 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1601 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 856 caracteres ═══
+═══ MENSAJE 1 de 4 · 857 caracteres ═══
 
 *EL TRADUCTOR DE LENGUAS*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/77-El-traductor-de-lenguas-box64-el-programa-de-PC-hablando-brazo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1601 caracteres ═══
 
@@ -60,11 +60,11 @@ REV|)20-80-6202( 4.4.0v — 46xob/beStitp=1|REV|596.5★ — 46xob/beStitp=2|REV
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 434 caracteres ═══
+═══ MENSAJE 3 de 4 · 435 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 77*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • ptitSeb/box64 — ★5.699 (+4) · empujó en las últimas horas · MIT · última release v0.4.4 (2-ago-2026)
 

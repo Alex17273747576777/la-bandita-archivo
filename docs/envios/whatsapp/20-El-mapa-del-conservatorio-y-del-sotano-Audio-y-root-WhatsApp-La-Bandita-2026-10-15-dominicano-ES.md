@@ -1,13 +1,13 @@
 # PIEZA 20 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/20-El-mapa-del-conservatorio-y-del-sotano-Audio-y-root-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `b519e39b34f43608dc2da3d068dae5d0c14f4097abfad18acc7bdb20f49fdd7a`
-- **Envío generado:** 2026-10-31 · 20 mensajes · el mayor de 3758 caracteres
+- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3758 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 - **Aviso:** la pieza original deja una valla de código sin cerrar; este envío la cierra al final del cuerpo para que se pueda leer. La pieza no se modificó.
 
-═══ MENSAJE 1 de 20 · 913 caracteres ═══
+═══ MENSAJE 1 de 20 · 914 caracteres ═══
 
 *EL MAPA DEL CONSERVATORIO Y DEL SÓTANO*
 
@@ -21,7 +21,7 @@ Licencias de lo que recomienda: GPL-3.0 7 · AGPL-3.0 1 · sin licencia 1 · NOA
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/20-El-mapa-del-conservatorio-y-del-sotano-Audio-y-root-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 3758 caracteres ═══
 
@@ -1069,22 +1069,22 @@ REV|0.3-LPGA=1|REV|895.36★ — ksigaM/uwnhojpot=2|REV|92-01-6202 — cisuMpmiS
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1630 caracteres ═══
+═══ MENSAJE 19 de 20 · 1631 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• topjohnwu/Magisk — ★63.658 (+63) · empujó el 27-oct-2026 (hace 4 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• topjohnwu/Magisk — ★63.658 (+63) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
 • team-spotube/spotube — ★50.523 (+57) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
 • tiann/KernelSU — ★19.920 (+108) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
-• MetrolistGroup/Metrolist — ★13.921 (+30) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• MetrolistGroup/Metrolist — ★13.922 (+31) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
 • maxrave-dev/SimpMusic — ★12.607 (+73) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
-• Dr-TSNG/ZygiskNext — ★10.769 (+27) · empujó el 15-oct-2026 (hace 16 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.676 (+37) · empujó el 26-oct-2026 (hace 5 días) · GPL-3.0 · última release v1.2.0 (12-ene-2026)
-• bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release 11282 (15-oct-2026)
-• namidaco/namida — ★6.756 (+18) · empujó el 26-oct-2026 (hace 5 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 19 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• Dr-TSNG/ZygiskNext — ★10.769 (+27) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.677 (+38) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.2.0 (12-ene-2026)
+• bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
+• namidaco/namida — ★6.756 (+18) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

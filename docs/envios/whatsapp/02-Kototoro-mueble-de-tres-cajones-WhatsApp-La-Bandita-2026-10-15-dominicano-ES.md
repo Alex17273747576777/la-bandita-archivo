@@ -1,12 +1,12 @@
 # PIEZA 02 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/02-Kototoro-mueble-de-tres-cajones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `7fb1c97be40e84b7bd97df0414ee5847f1d54f246287fddbacaf1cd4bbad49e5`
-- **Envío generado:** 2026-10-31 · 25 mensajes · el mayor de 3684 caracteres
+- **Envío generado:** 2026-11-01 · 25 mensajes · el mayor de 3684 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 25 · 911 caracteres ═══
+═══ MENSAJE 1 de 25 · 912 caracteres ═══
 
 *Kototoro: el mueble de tres cajones que hoy volvió a hornear*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 1 · GPL-3.0 1 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/02-Kototoro-mueble-de-tres-cajones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 25 · 2527 caracteres ═══
 
@@ -887,14 +887,14 @@ REV|0.3-LPG=1|REV|356★ — orototoK/ppa-orototoK=2|REV|92-01-6202 — orototoK
 
 ⏬ sigue abajo · parte 22 de 24
 
-═══ MENSAJE 24 de 25 · 901 caracteres ═══
+═══ MENSAJE 24 de 25 · 902 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0
+• skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
 • Kototoro-app/Kototoro-Nightly — ★12 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 • reference/tvbox-runtime — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • kototoro-app.github.io/Kototoro — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.

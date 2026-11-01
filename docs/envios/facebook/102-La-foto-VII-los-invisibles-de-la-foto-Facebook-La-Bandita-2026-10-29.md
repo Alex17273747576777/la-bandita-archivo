@@ -1,12 +1,12 @@
 # PIEZA 102 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/102-La-foto-VII-los-invisibles-de-la-foto-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `3d11e267c7589ef1c91739724d2306cd9f359cf943964d30666d95eca6c9a8f0`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2004 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2004 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 866 caracteres ═══
+═══ MENSAJE 1 de 4 · 867 caracteres ═══
 
 *La foto VII: los invisibles de la foto*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1 · AGPL-3.0 1 · Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/102-La-foto-VII-los-invisibles-de-la-foto-Facebook-La-Bandita-2026-10-29.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2004 caracteres ═══
 
@@ -52,14 +52,14 @@ La noticia fresca es de **Kototoro-app/Kototoro**: release v2.3.4 (2026-10-29). 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 666 caracteres ═══
+═══ MENSAJE 3 de 4 · 675 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 102*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • animiruorg/Animiru — ★908 (+4) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0.1 (14-sep-2026)
-• Riteshp2001/mpvRx — ★868 (+9) · sin fecha de empuje · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
+• Riteshp2001/mpvRx — ★868 (+9) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

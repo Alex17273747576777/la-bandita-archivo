@@ -1,12 +1,12 @@
 # PIEZA 47 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/47-La-ultima-puerta-del-catalogo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `27790f795e9da960153324f2af02358c4cd9c23b7a579cdbadb8125649126ef1`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3332 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3332 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 898 caracteres ═══
+═══ MENSAJE 1 de 5 · 899 caracteres ═══
 
 *La última puerta del catálogo: Venera y los veredictos*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4 · Apache-2.0 2 · GPL-2.0 1 · MPL-2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/47-La-ultima-puerta-del-catalogo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3332 caracteres ═══
 
@@ -81,29 +81,30 @@ Lo primero, lo que se cayó: **hayase-app/ui** (bloqueado legal (451): existe), 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1679 caracteres ═══
+═══ MENSAJE 4 de 5 · 1836 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 47*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Stremio/stremio-web — ★14.946 (+8) · sin fecha de empuje · GPL-2.0 · última release v5.0.0-beta.43 (20-oct-2026)
-• venera-app/venera — ★11.319 (+18) · *dormido*: sin empujar desde el 5-abr-2026 (209 días) · GPL-3.0 · última release v1.6.3 (8-mar-2026) · *ARCHIVADO*
-• Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (234 días) · GPL-3.0
-• Shadyteal2/QuickNovel-Enhanced — ★73 (+1) · *dormido*: sin empujar desde el 20-jul-2026 (103 días) · GPL-3.0 · última release v2.2.0 (2-jul-2026)
-• Kiastr/Venera-SSR — ★69 (+3) · *dormido*: sin empujar desde el 2-ago-2026 (90 días) · GPL-3.0 · última release v2.1.5 (1-ago-2026)
-• tachimanga/Tachidesk-Server — ★45 (+1) · *dormido*: sin empujar desde el 15-jul-2026 (108 días) · MPL-2.0
-• Yuneko-dev/Nekori — ★37 (sin cambio) · empujó el 24-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.1.3 (23-oct-2026)
-• mednasserallah/tankobon — ★4 (sin cambio) · *dormido*: sin empujar desde el 20-jul-2026 (103 días) · Apache-2.0 · última release v0.4.0 (20-jul-2026)
+• Stremio/stremio-web — ★14.947 (+9) · empujó en las últimas horas · GPL-2.0 · última release v5.0.0-beta.43 (20-oct-2026)
+• venera-app/venera — ★11.319 (+18) · *dormido*: sin empujar desde el 5-abr-2026 (210 días) · GPL-3.0 · última release v1.6.3 (8-mar-2026) · *ARCHIVADO*
+• Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (235 días) · GPL-3.0
+• Shadyteal2/QuickNovel-Enhanced — ★73 (+1) · *dormido*: sin empujar desde el 20-jul-2026 (104 días) · GPL-3.0 · última release v2.2.0 (2-jul-2026)
+• Kiastr/Venera-SSR — ★69 (+3) · *dormido*: sin empujar desde el 2-ago-2026 (91 días) · GPL-3.0 · última release v2.1.5 (1-ago-2026)
+• tachimanga/Tachidesk-Server — ★45 (+1) · *dormido*: sin empujar desde el 15-jul-2026 (109 días) · MPL-2.0
+• Yuneko-dev/Nekori — ★37 (sin cambio) · empujó el 24-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.1.3 (23-oct-2026)
+• mednasserallah/tankobon — ★4 (sin cambio) · *dormido*: sin empujar desde el 20-jul-2026 (104 días) · Apache-2.0 · última release v0.4.0 (20-jul-2026)
 • hayase-app/ui — sin dato hoy (la API no respondió). No afirmo nada.
 • thaunknown/miru — sin dato hoy (la API no respondió). No afirmo nada.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 13 enlaces de esta pieza, *11 responden*.
+De los 13 enlaces de esta pieza, *10 responden*.
 
 • https://github.com/hayase-app/ui — 451. Error del servidor; no es culpa del enlace.
-• https://github.com/thaunknown/miru — 451. Error del servidor; no es culpa del enlace.
+• https://github.com/thaunknown/miru — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/venera-app/venera — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

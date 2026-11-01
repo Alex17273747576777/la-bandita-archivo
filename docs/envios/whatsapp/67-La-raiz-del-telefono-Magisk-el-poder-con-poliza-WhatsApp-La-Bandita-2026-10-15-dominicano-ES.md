@@ -1,12 +1,12 @@
 # PIEZA 67 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/67-La-raiz-del-telefono-Magisk-el-poder-con-poliza-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `ebd7dc1130819c3c1399be10430ad731c2584277bd1e1eeaae2ca1af9d13068c`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2288 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2288 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 862 caracteres ═══
+═══ MENSAJE 1 de 4 · 863 caracteres ═══
 
 *LA RAÍZ DEL TELÉFONO*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 1 · MPL-2.0 1 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/67-La-raiz-del-telefono-Magisk-el-poder-con-poliza-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2288 caracteres ═══
 
@@ -67,15 +67,15 @@ REV|932.581★ — amallo/amallo=1|REV|)82-01-6202( 31.04.0v — amallo/amallo=2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 685 caracteres ═══
+═══ MENSAJE 3 de 4 · 686 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 67*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.496 (+257) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• topjohnwu/Magisk — ★63.658 (+63) · empujó el 27-oct-2026 (hace 4 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• ollama/ollama — ★185.497 (+258) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• syncthing/syncthing — ★89.956 (+83) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• topjohnwu/Magisk — ★63.658 (+63) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

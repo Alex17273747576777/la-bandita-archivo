@@ -1,12 +1,12 @@
 # PIEZA 48 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/48-El-cargador-LibreTorrent-y-qBittorrent-la-manada-del-archivo-grande-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `f2fa85ad014fafe9da6567d9e8086caaeb5518710896fcedbed90aaea7ca047e`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2365 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2365 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 869 caracteres ═══
+═══ MENSAJE 1 de 4 · 870 caracteres ═══
 
 *EL CARGADOR*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 1 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/48-El-cargador-LibreTorrent-y-qBittorrent-la-manada-del-archivo-grande-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2365 caracteres ═══
 
@@ -64,14 +64,14 @@ REV|0.3-LPG=1|REV|312.14★ — tnerrottiBq/tnerrottibq=2|REV|62-01-6202 — tne
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 610 caracteres ═══
+═══ MENSAJE 3 de 4 · 612 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 48*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • qbittorrent/qBittorrent — ★41.278 (+65) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
-• proninyaroslav/libretorrent — ★4.021 (+12) · *dormido*: sin empujar desde el 24-jul-2026 (99 días) · GPL-3.0 · última release 4.1.1 (24-jul-2026)
+• proninyaroslav/libretorrent — ★4.022 (+13) · *dormido*: sin empujar desde el 24-jul-2026 (100 días) · GPL-3.0 · última release 4.1.1 (24-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,12 +1,12 @@
 # PIEZA 04 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/04-Extensiones-tres-arboles-hubs-parsers-Facebook-La-Bandita-2026-09-22-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `44bb141599affdedabb121ffc25fadda784c9e4d096e07d3633d4957e381aa85`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2776 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2776 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 918 caracteres ═══
+═══ MENSAJE 1 de 4 · 919 caracteres ═══
 
 *DÓNDE VIVEN LAS FUENTES DE TU LECTOR: EL MAPA COMPLETO DE LOS ALMACENES DE EXTENSIONES*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: sin licencia 3 · Apache-2.0 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/04-Extensiones-tres-arboles-hubs-parsers-Facebook-La-Bandita-2026-09-22-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2776 caracteres ═══
 
@@ -60,22 +60,23 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 893 caracteres ═══
+═══ MENSAJE 3 de 4 · 1016 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
-• keiyoushi/extensions-source — ★4.839 (+8) · sin fecha de empuje · Apache-2.0
-• yuzono/anime-extensions — ★525 (+3) · sin fecha de empuje · Apache-2.0
+• keiyoushi/extensions-source — ★4.839 (+8) · empujó en las últimas horas · Apache-2.0
+• yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
 • cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f3291a9 (31-oct-2026)
-• yuzono/manga-repo — ★13 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (74 días) · sin licencia detectada por la API
+• yuzono/manga-repo — ★13 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 7 enlaces de esta pieza, *7 responden*.
-Ninguno roto.
+De los 7 enlaces de esta pieza, *6 responden*.
+
+• https://github.com/yuzono/manga-repo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

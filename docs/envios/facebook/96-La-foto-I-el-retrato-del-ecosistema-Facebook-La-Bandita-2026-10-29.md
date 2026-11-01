@@ -1,12 +1,12 @@
 # PIEZA 96 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/96-La-foto-I-el-retrato-del-ecosistema-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `618190a83263c034aa6fdb6b337852bd2674ff9558f4a9d6e1a6aa47312fb5a4`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1320 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1320 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 852 caracteres ═══
+═══ MENSAJE 1 de 4 · 853 caracteres ═══
 
 *La foto I: el retrato del ecosistema, en una página*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/96-La-foto-I-el-retrato-del-ecosistema-Facebook-La-Bandita-2026-10-29.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1320 caracteres ═══
 
@@ -46,11 +46,11 @@ Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 477 caracteres ═══
+═══ MENSAJE 3 de 4 · 478 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 96*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
 

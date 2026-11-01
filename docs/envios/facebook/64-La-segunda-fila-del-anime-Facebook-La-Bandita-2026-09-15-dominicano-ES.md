@@ -1,12 +1,12 @@
 # PIEZA 64 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/64-La-segunda-fila-del-anime-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `15b9cada88c51da972462568044542d451f4737cd954ef094d71f13f1b4f044e`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3773 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3773 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 864 caracteres ═══
+═══ MENSAJE 1 de 5 · 865 caracteres ═══
 
 *La segunda fila del anime*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 4 · GPL-3.0 3 · AGPL-3.0 1 · NOASSERTION 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/64-La-segunda-fila-del-anime-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3773 caracteres ═══
 
@@ -94,29 +94,30 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 13 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1686 caracteres ═══
+═══ MENSAJE 4 de 5 · 1822 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 64*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★117.837 (+225) · sin fecha de empuje · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• yuliskov/SmartTube — ★35.782 (+73) · empujó el 28-oct-2026 (hace 3 días) · MIT · última release 32.68s (20-oct-2026)
+• immich-app/immich — ★117.838 (+226) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• yuliskov/SmartTube — ★35.782 (+73) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 32.68s (20-oct-2026)
 • xbmc/xbmc — ★21.410 (+11) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• muzei/muzei — ★4.957 (+3) · sin fecha de empuje · Apache-2.0 · última release api3.4.2 (16-jun-2024)
+• muzei/muzei — ★4.957 (+3) · empujó en las últimas horas · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • anilbeesetti/nextplayer — ★4.652 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (9-oct-2026)
-• videolan/vlc-android — ★4.126 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0
-• NuvioMedia/NuvioTV — ★3.305 (+34) · sin fecha de empuje · GPL-3.0 · última release 1.0.0 (19-sep-2026)
-• mahlernim/google-timeline-visualizer — ★3.056 (-1) · empujó el 22-oct-2026 (hace 9 días) · MIT · última release v3.1.0 (5-oct-2026)
+• videolan/vlc-android — ★4.126 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0
+• NuvioMedia/NuvioTV — ★3.304 (+33) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• mahlernim/google-timeline-visualizer — ★3.056 (-1) · empujó el 22-oct-2026 (hace 10 días) · MIT · última release v3.1.0 (5-oct-2026)
 • 10miaomiao/bilimiao2 — ★2.974 (+9) · empujó en las últimas horas · GPL-3.0 · última release 2.5.2.1 (31-oct-2026)
-• moneytoo/Player — ★2.775 (+16) · empujó el 22-oct-2026 (hace 9 días) · Unlicense · última release v0.217 (11-sep-2026)
+• moneytoo/Player — ★2.775 (+16) · empujó el 22-oct-2026 (hace 10 días) · Unlicense · última release v0.217 (11-sep-2026)
 • dkrivoruchko/ScreenStream — ★2.574 (+5) · empujó en las últimas horas · MIT · última release 4.4.2 (15-jul-2026)
 • markusfisch/BinaryEye — ★2.467 (+7) · empujó en las últimas horas · MIT · última release 1.75.7 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *21 responden*.
-Ninguno roto.
+De los 21 enlaces de esta pieza, *20 responden*.
+
+• https://github.com/videolan/vlc-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

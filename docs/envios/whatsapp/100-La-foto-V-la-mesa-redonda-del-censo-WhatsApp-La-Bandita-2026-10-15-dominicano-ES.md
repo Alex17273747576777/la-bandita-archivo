@@ -1,12 +1,12 @@
 # PIEZA 100 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/100-La-foto-V-la-mesa-redonda-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `30edb1ecf4a35493864f92d2413bda4f2c6c057b0e2bb6eecab08a882ccf80a1`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2158 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2158 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 855 caracteres ═══
+═══ MENSAJE 1 de 4 · 856 caracteres ═══
 
 *La foto V la mesa redonda del censo*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 1 · GPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/100-La-foto-V-la-mesa-redonda-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2158 caracteres ═══
 
@@ -64,14 +64,14 @@ REV|0.2-LPG=1|REV|932.581★ — amallo/amallo=2|REV|)82-01-6202( 31.04.0v — a
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 555 caracteres ═══
+═══ MENSAJE 3 de 4 · 564 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 100*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.496 (+257) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• jellyfin/jellyfin — ★58.875 (+88) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• ollama/ollama — ★185.497 (+258) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• jellyfin/jellyfin — ★58.875 (+88) · empujó el 30-oct-2026 (hace 2 días) · GPL-2.0 · última release v12.4 (26-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

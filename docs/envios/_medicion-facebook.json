@@ -1,6 +1,6 @@
 {
- "medido_en": "2026-10-31",
- "medido_en_utc": "2026-11-01T03:41:47+00:00",
+ "medido_en": "2026-11-01",
+ "medido_en_utc": "2026-11-01T04:07:29+00:00",
  "repos": {
   "AuroraOSS/AuroraStore": {
    "estado": "vivo",
@@ -16,7 +16,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32552,
+   "stars": 32554,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -28,7 +28,7 @@
   },
   "iamr0s/Dhizuku": {
    "estado": "vivo",
-   "stars": 4067,
+   "stars": 4068,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -50,197 +50,53 @@
    "release_fecha": "2026-10-05",
    "stars_pieza": null
   },
-  "carlelieser/yuki": {
+  "daboynb/developer-verifier-placeholder": {
    "estado": "vivo",
-   "stars": 157,
+   "stars": 183,
    "push": "2026-10-12",
    "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": null,
+   "desc": "Empty APK placeholder for Android Developer Verifier (bypass install restrictions)",
+   "release": "v3000000000000",
+   "release_fecha": "2026-07-16",
+   "stars_pieza": null
+  },
+  "samyak2403/RepoStore": {
+   "estado": "vivo",
+   "stars": 1369,
+   "push": "2026-10-29",
+   "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Kotlin",
-   "desc": "Catalog of open-source Android applications that use the Shizuku permission framework.",
-   "release": "android-v1.11.1",
-   "release_fecha": "2026-10-12",
+   "desc": "Explore apps published on GitHub, view release details, and install APKs instantly — all in one place. Developed using pure Kotlin, optimized for modern Android devices.",
+   "release": "v1.0.22",
+   "release_fecha": "2026-10-29",
    "stars_pieza": null
   },
-  "solkin/appteka-android": {
+  "wxxsfxyzm/InstallerX-Revived": {
    "estado": "vivo",
-   "stars": 1367,
-   "push": "2026-10-21",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "💊 Appteka is an alternative store for Android",
-   "release": "v23.0",
-   "release_fecha": "2026-08-13",
-   "stars_pieza": 1359
-  },
-  "FossifyOrg/Gallery": {
-   "estado": "vivo",
-   "stars": 3870,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Browse your memories without any interruptions with this photo and video gallery",
-   "release": "1.14.1",
-   "release_fecha": "2026-10-24",
-   "stars_pieza": 3861
-  },
-  "FossifyOrg/Messages": {
-   "estado": "vivo",
-   "stars": 1627,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "An easy and quick way of managing SMS and MMS messages without ads.",
-   "release": "1.10.2",
-   "release_fecha": "2026-10-24",
-   "stars_pieza": null
-  },
-  "FossifyOrg/Phone": {
-   "estado": "vivo",
-   "stars": 1397,
+   "stars": 7257,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "A handy phone call manager with phonebook, number blocking and multi-SIM support",
-   "release": "1.11.1",
-   "release_fecha": "2026-02-03",
-   "stars_pieza": 1394
+   "desc": "More Expressive InstallerX !",
+   "release": "26.09",
+   "release_fecha": "2026-09-30",
+   "stars_pieza": 7220
   },
-  "FossifyOrg/File-Manager": {
+  "pass-with-high-score/universal-installer": {
    "estado": "vivo",
-   "stars": 1846,
-   "push": "2026-10-27",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Easy app for managing your files without ads, respecting your privacy & security",
-   "release": "1.6.3",
-   "release_fecha": "2026-10-24",
-   "stars_pieza": 1845
-  },
-  "FossifyOrg/Voice-Recorder": {
-   "estado": "vivo",
-   "stars": 1034,
-   "push": "2026-10-27",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "An easy way of recording any discussion or sounds without ads or internet access",
-   "release": "1.7.4",
-   "release_fecha": "2026-10-24",
-   "stars_pieza": null
-  },
-  "Goodwy/Gallery": {
-   "estado": "vivo",
-   "stars": 196,
-   "push": "2026-05-23",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "",
-   "release": "8.3.0",
-   "release_fecha": "2026-05-23",
-   "stars_pieza": null
-  },
-  "Goodwy/PlayBook": {
-   "estado": "vivo",
-   "stars": 138,
-   "push": "2025-04-18",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "",
-   "release": "4.1.1",
-   "release_fecha": "2025-04-18",
-   "stars_pieza": null
-  },
-  "GrapheneOS/Camera": {
-   "estado": "vivo",
-   "stars": 1423,
-   "push": "2026-10-30",
-   "archivado": false,
-   "licencia": "MIT",
-   "lenguaje": "Kotlin",
-   "desc": "Modern camera app focused on privacy and security with QR & barcode scanning.",
-   "release": "93",
-   "release_fecha": "2026-08-01",
-   "stars_pieza": null
-  },
-  "GrapheneOS/PdfViewer": {
-   "estado": "vivo",
-   "stars": 1062,
-   "push": "2026-10-28",
-   "archivado": false,
-   "licencia": "MIT",
-   "lenguaje": "Kotlin",
-   "desc": "Simple Android PDF viewer based on pdf.js and content providers. The app doesn't require any permissions. The PDF stream is fed into the sandboxed WebView without giving it access to content or files. CSP is used to enforce that the JavaScript and styling properties within the WebView are entirely static.",
-   "release": "33",
-   "release_fecha": "2026-07-30",
-   "stars_pieza": null
-  },
-  "LawnchairLauncher/lawnchair": {
-   "estado": "vivo",
-   "stars": 13832,
+   "stars": 1653,
    "push": "2026-11-01",
    "archivado": false,
-   "licencia": "NOASSERTION",
-   "lenguaje": "Java",
-   "desc": "No clever tagline needed.",
-   "release": "1.2.0.1884",
-   "release_fecha": "2018-07-23",
-   "stars_pieza": 13817
-  },
-  "MM2-0/Kvaesitso": {
-   "estado": "vivo",
-   "stars": 5335,
-   "push": "2026-10-31",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "A search-focused Android launcher",
-   "release": "v1.41.0",
-   "release_fecha": "2026-09-15",
-   "stars_pieza": 5326
-  },
-  "NeoApplications/Neo-Launcher": {
-   "estado": "vivo",
-   "stars": 2153,
-   "push": "2026-10-25",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Java",
-   "desc": "Neo-Launcher",
-   "release": "0.9.3",
-   "release_fecha": "2023-12-18",
-   "stars_pieza": 2151
-  },
-  "georgeclensy/Escape-Launcher": {
-   "estado": "vivo",
-   "stars": 465,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "NOASSERTION",
-   "lenguaje": "Kotlin",
-   "desc": "A minimalist android launcher to help you quit your phone addiction",
-   "release": "v2.3.1",
-   "release_fecha": "2026-01-02",
-   "stars_pieza": null
-  },
-  "iamrasel/lunar-launcher": {
-   "estado": "vivo",
-   "stars": 548,
-   "push": "2024-04-27",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Feature rich android home with minimal look. 🇵🇸",
-   "release": "2.8.2",
-   "release_fecha": "2024-03-12",
-   "stars_pieza": null
+   "desc": "A modern Android app for installing and managing APK packages with split APK support, silent install via Shizuku, and VirusTotal malware scanning.",
+   "release": "v1.20.0",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": 1640
   },
   "GrapheneOS/AppStore": {
    "estado": "vivo",
@@ -254,41 +110,101 @@
    "release_fecha": "2026-10-31",
    "stars_pieza": null
   },
-  "RookieEnough/Orion-Store": {
+  "accrescent/accrescent": {
    "estado": "vivo",
-   "stars": 3883,
-   "push": "2026-10-29",
+   "stars": 2306,
+   "push": "2026-10-31",
    "archivado": false,
-   "licencia": "GPL-3.0",
+   "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
-   "desc": "The ultimate home for Open Source and Cleaned apps. OrionStore offers instant access to YouTube Morphe, YT Music Morphe, and essential open-source tools without the clutter. No servers, no tracking, just a beautiful, modern gateway to the apps you love.",
-   "release": "2.6.5",
-   "release_fecha": "2026-10-27",
+   "desc": "A novel Android app store focused on security, privacy, and usability",
+   "release": "0.28.1",
+   "release_fecha": "2025-11-10",
+   "stars_pieza": 2306
+  },
+  "JonaNorman/WebViewUpgrade": {
+   "estado": "vivo",
+   "stars": 456,
+   "push": "2026-09-07",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Java",
+   "desc": "upgrade webview directly does not require install WebView Apk In Android. Android免安装升级WebView内核",
+   "release": null,
+   "release_fecha": "",
    "stars_pieza": null
   },
-  "NeoApplications/Neo-Store": {
+  "Paving-Base/APK-Installer": {
    "estado": "vivo",
-   "stars": 5589,
-   "push": "2026-10-23",
+   "stars": 1712,
+   "push": "2026-10-20",
    "archivado": false,
    "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "An F-Droid client with modern UI and an arsenal of extra features.",
-   "release": "1.3.3",
-   "release_fecha": "2026-10-23",
-   "stars_pieza": 5570
+   "lenguaje": "C#",
+   "desc": "An Android Application Installer for Windows",
+   "release": "v0.1.28",
+   "release_fecha": "2025-08-11",
+   "stars_pieza": null
   },
-  "Droid-ify/client": {
+  "SysAdminDoc/AppManagerNG": {
    "estado": "vivo",
-   "stars": 7678,
-   "push": "2026-09-12",
+   "stars": 163,
+   "push": "2026-09-30",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "Inspect, debloat, back up, freeze, and control Android apps from one open-source package manager. Works without root, with Shizuku, ADB, or root when needed.",
+   "release": "v0.6.23",
+   "release_fecha": "2026-09-05",
+   "stars_pieza": null
+  },
+  "djunekz/termux-app-store": {
+   "estado": "vivo",
+   "stars": 124,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Python",
+   "desc": "A local-first package manager for Termux on Android. Browse, build, and install community tools through a native TUI & CLI, with SHA-256-verified binaries, source builds, and no root required. Transparency over magic.",
+   "release": "v0.9.1",
+   "release_fecha": "2026-10-20",
+   "stars_pieza": null
+  },
+  "Jman-Github/Universal-Patch-Manager": {
+   "estado": "vivo",
+   "stars": 1397,
+   "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client",
-   "release": "v0.7.8",
-   "release_fecha": "2026-09-12",
-   "stars_pieza": 7661
+   "desc": "💊 Android manager for ReVanced, Morphe, and Reseam with third-party patch bundles, batch and automatic repatching, advanced installers, APK tools, and deep customization.",
+   "release": "v2.0.0",
+   "release_fecha": "2026-10-29",
+   "stars_pieza": 1390
+  },
+  "solrudev/Ackpine": {
+   "estado": "vivo",
+   "stars": 185,
+   "push": "2026-10-17",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Android package installer toolkit",
+   "release": "0.25.4",
+   "release_fecha": "2026-07-30",
+   "stars_pieza": null
+  },
+  "MuntashirAkon/AppManager": {
+   "estado": "vivo",
+   "stars": 9393,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Java",
+   "desc": "A full-featured package manager and viewer for Android",
+   "release": "v4.1.1",
+   "release_fecha": "2026-09-04",
+   "stars_pieza": 9370
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
@@ -302,101 +218,368 @@
    "release_fecha": "2026-10-25",
    "stars_pieza": 21019
   },
-  "komi-store/komi-store": {
+  "NeoApplications/Neo-Store": {
    "estado": "vivo",
-   "stars": 20177,
-   "push": "2026-10-25",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
-   "release": "v1.9.4",
-   "release_fecha": "2026-10-24",
-   "stars_pieza": 20090
-  },
-  "AbdurazaaqMohammed/AntiSplit-M": {
-   "estado": "vivo",
-   "stars": 4938,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Java",
-   "desc": "App to AntiSplit (merge) split APKs (APKS/XAPK/APKM) to regular .APK file on Android",
-   "release": "2.3.3",
-   "release_fecha": "2026-10-31",
-   "stars_pieza": null
-  },
-  "wxxsfxyzm/InstallerX-Revived": {
-   "estado": "vivo",
-   "stars": 7256,
-   "push": "2026-10-31",
+   "stars": 5591,
+   "push": "2026-10-23",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "More Expressive InstallerX !",
-   "release": "26.09",
-   "release_fecha": "2026-09-30",
-   "stars_pieza": 7220
+   "desc": "An F-Droid client with modern UI and an arsenal of extra features.",
+   "release": "1.3.3",
+   "release_fecha": "2026-10-23",
+   "stars_pieza": 5570
   },
-  "EFForg/apkeep": {
+  "sri-sivaram/Neko-Manga-Pearl": {
    "estado": "vivo",
-   "stars": 2148,
-   "push": "2026-10-01",
+   "stars": 116,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "HTML",
+   "desc": "Official MangaDex Tachiyomi Fork Neko – Manga Reader for Android 2026",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "ubedshah/manga-vault-nexus": {
+   "estado": "vivo",
+   "stars": 115,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "HTML",
+   "desc": "Next.js MangaDex CBZ Reader & Downloader 2026",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Droid-ify/client": {
+   "estado": "vivo",
+   "stars": 7678,
+   "push": "2026-09-12",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client",
+   "release": "v0.7.8",
+   "release_fecha": "2026-09-12",
+   "stars_pieza": 7661
+  },
+  "UsagiApp/Usagi": {
+   "estado": "vivo",
+   "stars": 288,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Just a simple, free and open-source manga reader for Android 5.0+",
+   "release": "v1.2",
+   "release_fecha": "2026-10-03",
+   "stars_pieza": 286
+  },
+  "Chimahon/chimahon": {
+   "estado": "vivo",
+   "stars": 239,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and anime support, Novel EPUB reader, and instant Anki card mining.",
+   "release": "v2.4.8",
+   "release_fecha": "2026-10-19",
+   "stars_pieza": 237
+  },
+  "Kareadita/Kavita": {
+   "estado": "vivo",
+   "stars": 11987,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C#",
+   "desc": "Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.",
+   "release": "v0.9.1.4",
+   "release_fecha": "2026-09-02",
+   "stars_pieza": 11971
+  },
+  "roxycon-dev/Ciallo-Reader": {
+   "estado": "vivo",
+   "stars": 261,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Android 小说、漫画与电子书阅读器；支持 TXT、EPUB、CBZ、本地书架、多源搜索、下载与离线阅读。 Android novel, manga & ebook reader.",
+   "release": "v1.5.10",
+   "release_fecha": "2026-10-29",
+   "stars_pieza": null
+  },
+  "yomihon/yomihon": {
+   "estado": "vivo",
+   "stars": 142,
+   "push": "2026-10-18",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source manga reader for Android - now with OCR (text recognition)",
+   "release": "v0.4.3",
+   "release_fecha": "2026-10-18",
+   "stars_pieza": 140
+  },
+  "null2264/yokai": {
+   "estado": "vivo",
+   "stars": 1914,
+   "push": "2026-10-13",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source manga reader for Android",
+   "release": "v1.10.2",
+   "release_fecha": "2026-09-23",
+   "stars_pieza": 1912
+  },
+  "jakepurple13/OtakuWorld": {
+   "estado": "vivo",
+   "stars": 637,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Anime Watcher, Manga Reader, and Novel Reader as three separate apps, same UI",
+   "release": "v32.1.2",
+   "release_fecha": "2026-06-29",
+   "stars_pieza": 638
+  },
+  "gotson/komga": {
+   "estado": "vivo",
+   "stars": 6805,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Media server for comics/mangas/BDs/magazines/eBooks with API, OPDS, Kobo Sync and KOReader Sync support",
+   "release": "1.29.2",
+   "release_fecha": "2026-10-28",
+   "stars_pieza": 6797
+  },
+  "Snd-R/Komelia": {
+   "estado": "vivo",
+   "stars": 437,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Komga media client",
+   "release": "0.20.0",
+   "release_fecha": "2026-09-27",
+   "stars_pieza": null
+  },
+  "kmworks/kmreader": {
+   "estado": "vivo",
+   "stars": 116,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Swift",
+   "desc": "A full-featured, native Komga client for iOS, macOS, and tvOS",
+   "release": "v7.3",
+   "release_fecha": "2026-10-22",
+   "stars_pieza": null
+  },
+  "zmz125000/LocalViewer": {
+   "estado": "vivo",
+   "stars": 197,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "LocalViewer is a fast and full-featured Android SMB/WebDAV/CBZ photo/comic/ebook viewer and video player with folder and library support.",
+   "release": "1.13.22",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "chmouel/liseur": {
+   "estado": "vivo",
+   "stars": 169,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Open-source EPUB reader and remote library client for Android, with a Kindle-inspired reading experience",
+   "release": "v0.26.0",
+   "release_fecha": "2026-10-28",
+   "stars_pieza": 164
+  },
+  "josueBarretogit/manga-tui": {
+   "estado": "vivo",
+   "stars": 954,
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Rust",
-   "desc": "A command-line tool for downloading APK files from various sources",
-   "release": "1.1.0",
-   "release_fecha": "2026-10-01",
+   "desc": "Terminal-based manga reader and downloader with image rendering support",
+   "release": "v0.10.1",
+   "release_fecha": "2026-11-01",
    "stars_pieza": null
   },
-  "timschneeb/awesome-shizuku": {
+  "elboletaire/manga-downloader": {
    "estado": "vivo",
-   "stars": 10667,
+   "stars": 289,
    "push": "2026-10-31",
    "archivado": false,
-   "licencia": "NOASSERTION",
-   "lenguaje": "Python",
-   "desc": "Curated list of awesome Android apps making use of Shizuku",
-   "release": null,
-   "release_fecha": "",
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Go",
+   "desc": "📚 Download manga (and comics) from 500+ online reading websites",
+   "release": "v24.1.0",
+   "release_fecha": "2026-10-30",
    "stars_pieza": null
   },
-  "Psyhackological/AAA": {
+  "MapoMagpie/comic-looms": {
    "estado": "vivo",
-   "stars": 3141,
-   "push": "2026-09-29",
+   "stars": 812,
+   "push": "2026-10-22",
    "archivado": false,
-   "licencia": "CC-BY-4.0",
-   "lenguaje": null,
-   "desc": ":iphone: Curated list of THE BEST FOSS Android apps to maximize your freedom & privacy!",
-   "release": "250",
-   "release_fecha": "2024-05-07",
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "desc": "Manga reader and downloader, Focus on experience and low load on the site. support site like e-hentai.org | x.com | pixiv.net.",
+   "release": "4.16.1",
+   "release_fecha": "2026-10-09",
    "stars_pieza": null
   },
-  "moneytoo/awesome-fdroid": {
+  "KamiYomu/KamiYomu": {
    "estado": "vivo",
-   "stars": 200,
-   "push": "2026-10-31",
+   "stars": 150,
+   "push": "2026-09-20",
    "archivado": false,
-   "licencia": "Unlicense",
-   "lenguaje": "HTML",
-   "desc": "📊 A table to sort, filter and discover popular F-Droid apps",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": null
+   "licencia": "AGPL-3.0",
+   "lenguaje": "C#",
+   "desc": "A self-hosted, extensible manga reader and download tool with plug-in support.",
+   "release": "1.4.0",
+   "release_fecha": "2026-09-01",
+   "stars_pieza": 150
   },
-  "krishna3163/best-root-apps-for-android": {
+  "Yui007/weebcentral_downloader": {
    "estado": "vivo",
-   "stars": 50,
-   "push": "2026-10-31",
+   "stars": 175,
+   "push": "2026-08-23",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Python",
-   "desc": "Curated directory of Android root apps, Magisk, KernelSU, LSPosed modules, system tools, privacy utilities, and no-root Shizuku apps.",
-   "release": "brene-v0.0.74",
-   "release_fecha": "2026-10-31",
+   "desc": "A powerful manga downloader for WeebCentral with both GUI and CLI interfaces, featuring multi-threaded downloads, flexible chapter selection, and progress tracking. Built with Python using PyQt6.",
+   "release": null,
+   "release_fecha": "",
    "stars_pieza": null
+  },
+  "koodo-reader/koodo-reader": {
+   "estado": "vivo",
+   "stars": 28679,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "JavaScript",
+   "desc": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
+   "release": "v2.4.6",
+   "release_fecha": "2026-10-07",
+   "stars_pieza": 28667
+  },
+  "meyamane37923-hash/komikku-scans": {
+   "estado": "vivo",
+   "stars": 114,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "HTML",
+   "desc": "Top Manga Reader App 2026: Komikku Open Source Android Alternative",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "khaledmahmud5286-cmd/manga-zen-reader": {
+   "estado": "vivo",
+   "stars": 113,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "HTML",
+   "desc": "Best Koma Manga Reader Alternatives 2026: Open Source Android Apps",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "RecordXenon/Kotatsu-Ultra": {
+   "estado": "vivo",
+   "stars": 117,
+   "push": "2026-10-22",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "HTML",
+   "desc": "Full Featured Open Source Manga Reader App for Android 2026",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Suwayomi/Suwayomi-Server": {
+   "estado": "vivo",
+   "stars": 7982,
+   "push": "2026-10-24",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Java",
+   "desc": "A rewrite of Tachiyomi for the Desktop",
+   "release": "v2.4.2366",
+   "release_fecha": "2026-09-30",
+   "stars_pieza": 7968
+  },
+  "nekomangaorg/Neko": {
+   "estado": "vivo",
+   "stars": 2818,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Unofficial MangaDex Reader for Android 8+",
+   "release": "3.8.5",
+   "release_fecha": "2026-10-30",
+   "stars_pieza": 2817
+  },
+  "tachiyomiorg/tachiyomi": {
+   "estado": "muerto",
+   "motivo": "Not Found",
+   "stars_pieza": null
+  },
+  "Mangayomi-app/Mangayomi": {
+   "estado": "muerto",
+   "motivo": "Not Found",
+   "stars_pieza": null
+  },
+  "Paperback-Community/Paperback": {
+   "estado": "muerto",
+   "motivo": "Not Found",
+   "stars_pieza": null
+  },
+  "mihonapp/mihon": {
+   "estado": "vivo",
+   "stars": 24913,
+   "push": "2026-10-26",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source manga reader for Android",
+   "release": "v0.21.3",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": 24839
+  },
+  "komikku-app/komikku": {
+   "estado": "vivo",
+   "stars": 4963,
+   "push": "2026-10-21",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source manga reader for Android",
+   "release": "v1.14.1",
+   "release_fecha": "2026-07-17",
+   "stars_pieza": 4955
   },
   "Kototoro-app/Kototoro": {
    "estado": "vivo",
@@ -409,6 +592,258 @@
    "release": "v2.3.4",
    "release_fecha": "2026-10-29",
    "stars_pieza": 653
+  },
+  "aniyomiorg/aniyomi": {
+   "estado": "vivo",
+   "stars": 7863,
+   "push": "2026-09-14",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "An app for manga and anime",
+   "release": "v0.18.2.1",
+   "release_fecha": "2026-09-14",
+   "stars_pieza": 7855
+  },
+  "kodjodevf/mangayomi": {
+   "estado": "vivo",
+   "stars": 4286,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Dart",
+   "desc": "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows",
+   "release": "v0.9.9",
+   "release_fecha": "2026-10-12",
+   "stars_pieza": 4272
+  },
+  "AngeloSha/uchiyomi": {
+   "estado": "vivo",
+   "stars": 98,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "TypeScript",
+   "desc": "Self-hosted manga server, reader and downloader for manga, manhwa and webtoons. Serves your library like Komga or Kavita, follows series and fetches new chapters like Mihon (Tachiyomi extensions, MangaDex). Webtoon-first PWA reader, offline, multi-user, one Docker Compose file. Free and open source. Think Sonarr for manga, with a reader.",
+   "release": "v0.103.1",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "Suwayomi/Suwayomi-Tsumiru": {
+   "estado": "vivo",
+   "stars": 107,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Dart",
+   "desc": "A manga and webtoon reader for your Suwayomi server",
+   "release": "v1.6.3",
+   "release_fecha": "2026-10-30",
+   "stars_pieza": null
+  },
+  "Mister-album/Koharia": {
+   "estado": "vivo",
+   "stars": 252,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Koharia 是一款面向 Komga、Kavita、LANraragi、smanga、Suwayomi 服务器与本地媒体库的第三方 Android 客户端和阅读器 / Koharia is a third-party Android client and reader for Komga, Kavita, LANraragi, smanga, and Suwayomi servers, as well as local media libraries",
+   "release": "v0.7.5",
+   "release_fecha": "2026-10-27",
+   "stars_pieza": 250
+  },
+  "Nyora-Manga/nyora-android": {
+   "estado": "vivo",
+   "stars": 58,
+   "push": "2026-09-23",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Nyora for Android — free, ad-free, open-source manga/manhwa/manhua reader with AI page translation, offline downloads and cloud sync.",
+   "release": "v2.7.3",
+   "release_fecha": "2026-07-31",
+   "stars_pieza": 58
+  },
+  "Utolaris/Kujira-Manga": {
+   "estado": "vivo",
+   "stars": 17,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "JMComic（禁漫天堂）第三方 Android 客户端。Kotlin + Jetpack Compose + Room + Retrofit/OkHttp 四层架构，支持登录、收藏夹同步、历史记录、平板模式、Material You 与玻璃质感。阅读器自研分页与图片解码缓存，针对漫画加载优化。",
+   "release": "v1.5.3",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": null
+  },
+  "Wammy-app/Wammy": {
+   "estado": "vivo",
+   "stars": 13,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free open source manga and novel reader for android",
+   "release": "v0.1.4",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": null
+  },
+  "Suwayomi/Suwayomi-JUI": {
+   "estado": "vivo",
+   "stars": 498,
+   "push": "2026-10-15",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "A Suwayomi-Server client built in Compose Multiplatform",
+   "release": "v1.3.3",
+   "release_fecha": "2024-03-31",
+   "stars_pieza": null
+  },
+  "Suwayomi/Suwayomi-VUI": {
+   "estado": "vivo",
+   "stars": 54,
+   "push": "2026-10-12",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "TypeScript",
+   "desc": "my attempt at a webui made in Svelte and skeleton",
+   "release": "r1417",
+   "release_fecha": "2026-10-12",
+   "stars_pieza": null
+  },
+  "Snd-R/komf": {
+   "estado": "vivo",
+   "stars": 738,
+   "push": "2026-09-27",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Komga and Kavita metadata fetcher",
+   "release": "2.1.0",
+   "release_fecha": "2026-09-27",
+   "stars_pieza": null
+  },
+  "readium/kotlin-toolkit": {
+   "estado": "vivo",
+   "stars": 395,
+   "push": "2026-10-16",
+   "archivado": false,
+   "licencia": "BSD-3-Clause",
+   "lenguaje": "Kotlin",
+   "desc": "A toolkit for ebooks, audiobooks and comics written in Kotlin",
+   "release": "3.4.0",
+   "release_fecha": "2026-09-11",
+   "stars_pieza": null
+  },
+  "keiyoushi/extensions-source": {
+   "estado": "vivo",
+   "stars": 4839,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Source code of extensions in https://github.com/keiyoushi/extensions",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 4831
+  },
+  "yuzono/tachiyomi-extensions": {
+   "estado": "vivo",
+   "stars": 953,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Source code of extensions for Komikku / Mihon & forks.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 947
+  },
+  "m2k3a/mangayomi-extensions": {
+   "estado": "vivo",
+   "stars": 113,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "JavaScript",
+   "desc": "Public source extensions for the Mangayomi app.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "skepsun/kototoro-parsers": {
+   "estado": "vivo",
+   "stars": 17,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Manga parsers library for Kotlin/JVM and Android",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "aidoku-community/sources": {
+   "estado": "vivo",
+   "stars": 613,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Rust",
+   "desc": "Community-maintained Aidoku sources",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "KotatsuApp/Kotatsu": {
+   "estado": "vivo",
+   "stars": 8943,
+   "push": "2025-11-04",
+   "archivado": true,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Manga reader for Android",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 8943
+  },
+  "Koitharu/OpenManga": {
+   "estado": "vivo",
+   "stars": 182,
+   "push": "2020-02-02",
+   "archivado": true,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Java",
+   "desc": "Manga reader for Android - MOVED TO https://github.com/nv95/Kotatsu",
+   "release": "v4.7.1",
+   "release_fecha": "2019-07-20",
+   "stars_pieza": null
+  },
+  "timschneeb/tachiyomi-extensions-archive": {
+   "estado": "vivo",
+   "stars": 1802,
+   "push": "2026-03-23",
+   "archivado": true,
+   "licencia": "Apache-2.0",
+   "lenguaje": null,
+   "desc": "Historical archive of removed source extensions for the Tachiyomi app.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "aniyomiorg/aniyomi-extensions": {
+   "estado": "vivo",
+   "stars": 849,
+   "push": "2024-08-19",
+   "archivado": true,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Source extensions for the Aniyomi app.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": 849
   },
   "woheller69/FreeDroidWarn": {
    "estado": "vivo",
@@ -433,18 +868,6 @@
    "release": "0d83f6b-2",
    "release_fecha": "2026-10-31",
    "stars_pieza": 15369
-  },
-  "keiyoushi/extensions-source": {
-   "estado": "vivo",
-   "stars": 4839,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Source code of extensions in https://github.com/keiyoushi/extensions",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": 4831
   },
   "LittleSurvival/copymanga-copy20": {
    "estado": "vivo",
@@ -518,18 +941,6 @@
    "release_fecha": "2024-07-10",
    "stars_pieza": 1286
   },
-  "yuzono/tachiyomi-extensions": {
-   "estado": "vivo",
-   "stars": 953,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Source code of extensions for Komikku / Mihon & forks.",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": 947
-  },
   "tachiyomiorg/extensions": {
    "estado": "vivo",
    "stars": 553,
@@ -602,42 +1013,6 @@
    "release_fecha": "",
    "stars_pieza": 12
   },
-  "mihonapp/mihon": {
-   "estado": "vivo",
-   "stars": 24913,
-   "push": "2026-10-26",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Free and open source manga reader for Android",
-   "release": "v0.21.3",
-   "release_fecha": "2026-10-25",
-   "stars_pieza": 24839
-  },
-  "aniyomiorg/aniyomi": {
-   "estado": "vivo",
-   "stars": 7863,
-   "push": "2026-09-14",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "An app for manga and anime",
-   "release": "v0.18.2.1",
-   "release_fecha": "2026-09-14",
-   "stars_pieza": 7855
-  },
-  "komikku-app/komikku": {
-   "estado": "vivo",
-   "stars": 4963,
-   "push": "2026-10-21",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Free and open source manga reader for Android",
-   "release": "v1.14.1",
-   "release_fecha": "2026-07-17",
-   "stars_pieza": 4955
-  },
   "jobobby04/TachiyomiSY": {
    "estado": "vivo",
    "stars": 4199,
@@ -649,18 +1024,6 @@
    "release": "1.13.2",
    "release_fecha": "2026-07-13",
    "stars_pieza": 4196
-  },
-  "nekomangaorg/Neko": {
-   "estado": "vivo",
-   "stars": 2818,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Unofficial MangaDex Reader for Android 8+",
-   "release": "3.8.5",
-   "release_fecha": "2026-10-30",
-   "stars_pieza": 2817
   },
   "komikku-app/anikku": {
    "estado": "vivo",
@@ -751,18 +1114,6 @@
    "motivo": "Repository access blocked",
    "stars_pieza": null
   },
-  "KotatsuApp/Kotatsu": {
-   "estado": "vivo",
-   "stars": 8943,
-   "push": "2025-11-04",
-   "archivado": true,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Manga reader for Android",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": 8943
-  },
   "AppFuton/Futon": {
    "estado": "vivo",
    "stars": 469,
@@ -774,18 +1125,6 @@
    "release": "v9.9",
    "release_fecha": "2026-10-21",
    "stars_pieza": 467
-  },
-  "UsagiApp/Usagi": {
-   "estado": "vivo",
-   "stars": 288,
-   "push": "2026-10-30",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Just a simple, free and open-source manga reader for Android 5.0+",
-   "release": "v1.2",
-   "release_fecha": "2026-10-03",
-   "stars_pieza": 286
   },
   "Gekkoushi/plugin-source": {
    "estado": "vivo",
@@ -885,7 +1224,7 @@
   },
   "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 13921,
+   "stars": 13922,
    "push": "2026-10-25",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1077,7 +1416,7 @@
   },
   "beemdevelopment/Aegis": {
    "estado": "vivo",
-   "stars": 13433,
+   "stars": 13435,
    "push": "2026-09-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1086,18 +1425,6 @@
    "release": "v3.4.3",
    "release_fecha": "2026-09-06",
    "stars_pieza": 13414
-  },
-  "MuntashirAkon/AppManager": {
-   "estado": "vivo",
-   "stars": 9393,
-   "push": "2026-10-30",
-   "archivado": false,
-   "licencia": "NOASSERTION",
-   "lenguaje": "Java",
-   "desc": "A full-featured package manager and viewer for Android",
-   "release": "v4.1.1",
-   "release_fecha": "2026-09-04",
-   "stars_pieza": 9370
   },
   "Kunzisoft/KeePassDX": {
    "estado": "vivo",
@@ -1123,6 +1450,18 @@
    "release_fecha": "2026-10-15",
    "stars_pieza": 6447
   },
+  "FossifyOrg/Gallery": {
+   "estado": "vivo",
+   "stars": 3870,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Browse your memories without any interruptions with this photo and video gallery",
+   "release": "1.14.1",
+   "release_fecha": "2026-10-24",
+   "stars_pieza": 3861
+  },
   "guardianproject/orbot-android": {
    "estado": "vivo",
    "stars": 3664,
@@ -1146,6 +1485,30 @@
    "release": "1.12.1",
    "release_fecha": "2026-10-24",
    "stars_pieza": 2255
+  },
+  "FossifyOrg/File-Manager": {
+   "estado": "vivo",
+   "stars": 1846,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Easy app for managing your files without ads, respecting your privacy & security",
+   "release": "1.6.3",
+   "release_fecha": "2026-10-24",
+   "stars_pieza": 1845
+  },
+  "FossifyOrg/Phone": {
+   "estado": "vivo",
+   "stars": 1397,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A handy phone call manager with phonebook, number blocking and multi-SIM support",
+   "release": "1.11.1",
+   "release_fecha": "2026-02-03",
+   "stars_pieza": 1394
   },
   "FossifyOrg/Clock": {
    "estado": "vivo",
@@ -1221,7 +1584,7 @@
   },
   "ollama/ollama": {
    "estado": "vivo",
-   "stars": 185496,
+   "stars": 185497,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "MIT",
@@ -1233,7 +1596,7 @@
   },
   "open-webui/open-webui": {
    "estado": "vivo",
-   "stars": 157419,
+   "stars": 157421,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1245,7 +1608,7 @@
   },
   "ggml-org/llama.cpp": {
    "estado": "vivo",
-   "stars": 133003,
+   "stars": 133005,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -1269,7 +1632,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 117837,
+   "stars": 117838,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1293,7 +1656,7 @@
   },
   "syncthing/syncthing": {
    "estado": "vivo",
-   "stars": 89955,
+   "stars": 89956,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -1329,7 +1692,7 @@
   },
   "researchxxl/syncthing-android": {
    "estado": "vivo",
-   "stars": 3214,
+   "stars": 3215,
    "push": "2026-10-22",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -1416,9 +1779,21 @@
    "release_fecha": "2026-10-23",
    "stars_pieza": 40104
   },
+  "solkin/appteka-android": {
+   "estado": "vivo",
+   "stars": 1367,
+   "push": "2026-10-21",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "💊 Appteka is an alternative store for Android",
+   "release": "v23.0",
+   "release_fecha": "2026-08-13",
+   "stars_pieza": 1359
+  },
   "rustdesk/rustdesk": {
    "estado": "vivo",
-   "stars": 127740,
+   "stars": 127741,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1427,6 +1802,18 @@
    "release": "1.5.0",
    "release_fecha": "2026-09-30",
    "stars_pieza": 127495
+  },
+  "komi-store/komi-store": {
+   "estado": "vivo",
+   "stars": 20179,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
+   "release": "v1.9.4",
+   "release_fecha": "2026-10-24",
+   "stars_pieza": 20090
   },
   "hrydgard/ppsspp": {
    "estado": "vivo",
@@ -1514,7 +1901,7 @@
   },
   "MetaCubeX/ClashMetaForAndroid": {
    "estado": "vivo",
-   "stars": 48721,
+   "stars": 48723,
    "push": "2026-10-30",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1526,7 +1913,7 @@
   },
   "JunkFood02/Seal": {
    "estado": "vivo",
-   "stars": 30230,
+   "stars": 30232,
    "push": "2026-09-25",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1547,18 +1934,6 @@
    "release": "v1.9.1.1",
    "release_fecha": "2026-10-19",
    "stars_pieza": 10844
-  },
-  "Chimahon/chimahon": {
-   "estado": "vivo",
-   "stars": 239,
-   "push": "2026-10-28",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and anime support, Novel EPUB reader, and instant Anki card mining.",
-   "release": "v2.4.8",
-   "release_fecha": "2026-10-19",
-   "stars_pieza": 237
   },
   "HuzaifaKhalid1311/DropSauce": {
    "estado": "vivo",
@@ -1622,7 +1997,7 @@
   },
   "fmhy/FMHY": {
    "estado": "vivo",
-   "stars": 15351,
+   "stars": 15352,
    "push": "2026-05-13",
    "archivado": false,
    "licencia": null,
@@ -1736,8 +2111,8 @@
    "licencia": "NOASSERTION",
    "lenguaje": "TypeScript",
    "desc": "A full-featured download manager.",
-   "release": "v2.1.1",
-   "release_fecha": "2026-10-29",
+   "release": "v2.2.0",
+   "release_fecha": "2026-11-01",
    "stars_pieza": 57547
   },
   "GopeedLab/gopeed": {
@@ -1775,18 +2150,6 @@
    "release": "v2.6.0",
    "release_fecha": "2026-04-26",
    "stars_pieza": 30001
-  },
-  "Jman-Github/Universal-Patch-Manager": {
-   "estado": "vivo",
-   "stars": 1397,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "💊 Android manager for ReVanced, Morphe, and Reseam with third-party patch bundles, batch and automatic repatching, advanced installers, APK tools, and deep customization.",
-   "release": "v2.0.0",
-   "release_fecha": "2026-10-29",
-   "stars_pieza": 1390
   },
   "LSPosed/LSPosed": {
    "estado": "vivo",
@@ -1826,7 +2189,7 @@
   },
   "yt-dlp/yt-dlp": {
    "estado": "vivo",
-   "stars": 204261,
+   "stars": 204263,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "Unlicense",
@@ -1946,7 +2309,7 @@
   },
   "Leviidev/Husk": {
    "estado": "vivo",
-   "stars": 2905,
+   "stars": 2906,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -1955,18 +2318,6 @@
    "release": "3.3",
    "release_fecha": "2026-11-01",
    "stars_pieza": 2844
-  },
-  "aniyomiorg/aniyomi-extensions": {
-   "estado": "vivo",
-   "stars": 849,
-   "push": "2024-08-19",
-   "archivado": true,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Source extensions for the Aniyomi app.",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": 849
   },
   "Kohi-den/extensions-source": {
    "estado": "vivo",
@@ -2042,7 +2393,7 @@
   },
   "pengchujin/aerial-tv": {
    "estado": "vivo",
-   "stars": 8369,
+   "stars": 8371,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -2196,18 +2547,6 @@
    "release_fecha": "",
    "stars_pieza": 0
   },
-  "null2264/yokai": {
-   "estado": "vivo",
-   "stars": 1914,
-   "push": "2026-10-13",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Free and open source manga reader for Android",
-   "release": "v1.10.2",
-   "release_fecha": "2026-09-23",
-   "stars_pieza": 1912
-  },
   "Saud-97/TachiyomiS97": {
    "estado": "vivo",
    "stars": 125,
@@ -2222,7 +2561,7 @@
   },
   "rokku-app/rokku": {
    "estado": "vivo",
-   "stars": 63,
+   "stars": 64,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2330,7 +2669,7 @@
   },
   "lnreader/lnreader": {
    "estado": "vivo",
-   "stars": 2944,
+   "stars": 2945,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "MIT",
@@ -2501,30 +2840,6 @@
    "release_fecha": "2026-08-01",
    "stars_pieza": 30737
   },
-  "Kareadita/Kavita": {
-   "estado": "vivo",
-   "stars": 11987,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "C#",
-   "desc": "Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.",
-   "release": "v0.9.1.4",
-   "release_fecha": "2026-09-02",
-   "stars_pieza": 11971
-  },
-  "gotson/komga": {
-   "estado": "vivo",
-   "stars": 6805,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "MIT",
-   "lenguaje": "Kotlin",
-   "desc": "Media server for comics/mangas/BDs/magazines/eBooks with API, OPDS, Kobo Sync and KOReader Sync support",
-   "release": "1.29.2",
-   "release_fecha": "2026-10-28",
-   "stars_pieza": 6797
-  },
   "HuangAntimony/Hoshi-Reader-Android": {
    "estado": "vivo",
    "stars": 466,
@@ -2536,30 +2851,6 @@
    "release": "v1.4.0",
    "release_fecha": "2026-09-23",
    "stars_pieza": 462
-  },
-  "Mister-album/Koharia": {
-   "estado": "vivo",
-   "stars": 252,
-   "push": "2026-10-27",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Koharia 是一款面向 Komga、Kavita、LANraragi、smanga、Suwayomi 服务器与本地媒体库的第三方 Android 客户端和阅读器 / Koharia is a third-party Android client and reader for Komga, Kavita, LANraragi, smanga, and Suwayomi servers, as well as local media libraries",
-   "release": "v0.7.5",
-   "release_fecha": "2026-10-27",
-   "stars_pieza": 250
-  },
-  "yomihon/yomihon": {
-   "estado": "vivo",
-   "stars": 142,
-   "push": "2026-10-18",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Free and open source manga reader for Android - now with OCR (text recognition)",
-   "release": "v0.4.3",
-   "release_fecha": "2026-10-18",
-   "stars_pieza": 140
   },
   "codegeasse1/yomi-reader": {
    "estado": "vivo",
@@ -2652,7 +2943,7 @@
   },
   "LUC4N3X/Levyra-deepsound": {
    "estado": "vivo",
-   "stars": 1805,
+   "stars": 1806,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2770,18 +3061,6 @@
    "release_fecha": "2026-10-13",
    "stars_pieza": 4
   },
-  "koodo-reader/koodo-reader": {
-   "estado": "vivo",
-   "stars": 28680,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "AGPL-3.0",
-   "lenguaje": "JavaScript",
-   "desc": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
-   "release": "v2.4.6",
-   "release_fecha": "2026-10-07",
-   "stars_pieza": 28667
-  },
   "thehijacker/codexa": {
    "estado": "vivo",
    "stars": 79,
@@ -2805,18 +3084,6 @@
    "release": "v0.21.0",
    "release_fecha": "2026-08-20",
    "stars_pieza": 59
-  },
-  "Nyora-Manga/nyora-android": {
-   "estado": "vivo",
-   "stars": 58,
-   "push": "2026-09-23",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Nyora for Android — free, ad-free, open-source manga/manhwa/manhua reader with AI page translation, offline downloads and cloud sync.",
-   "release": "v2.7.3",
-   "release_fecha": "2026-07-31",
-   "stars_pieza": 58
   },
   "k1717/Readwide": {
    "estado": "vivo",
@@ -2974,9 +3241,21 @@
    "release_fecha": "2026-10-30",
    "stars_pieza": 28
   },
+  "MM2-0/Kvaesitso": {
+   "estado": "vivo",
+   "stars": 5335,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A search-focused Android launcher",
+   "release": "v1.41.0",
+   "release_fecha": "2026-09-15",
+   "stars_pieza": 5326
+  },
   "ukanth/afwall": {
    "estado": "vivo",
-   "stars": 3513,
+   "stars": 3514,
    "push": "2026-10-17",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3240,7 +3519,7 @@
   },
   "opencloud-eu/opencloud": {
    "estado": "vivo",
-   "stars": 6265,
+   "stars": 6266,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3265,7 +3544,7 @@
   "PelagicaApp/pelagica": {
    "estado": "vivo",
    "stars": 384,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "TypeScript",
@@ -3312,7 +3591,7 @@
   },
   "iptv-org/iptv": {
    "estado": "vivo",
-   "stars": 142932,
+   "stars": 142933,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Unlicense",
@@ -3324,7 +3603,7 @@
   },
   "nexu-io/open-design": {
    "estado": "vivo",
-   "stars": 105217,
+   "stars": 105218,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3372,7 +3651,7 @@
   },
   "meshtastic/Meshtastic-Android": {
    "estado": "vivo",
-   "stars": 1900,
+   "stars": 1901,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3612,7 +3891,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 153687,
+   "stars": 153688,
    "push": "2026-10-26",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3718,18 +3997,6 @@
    "release_fecha": "",
    "stars_pieza": 3198
   },
-  "accrescent/accrescent": {
-   "estado": "vivo",
-   "stars": 2306,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "A novel Android app store focused on security, privacy, and usability",
-   "release": "0.28.1",
-   "release_fecha": "2025-11-10",
-   "stars_pieza": 2306
-  },
   "0x192/universal-android-debloater": {
    "estado": "vivo",
    "stars": 20299,
@@ -3744,7 +4011,7 @@
   },
   "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
    "estado": "vivo",
-   "stars": 9676,
+   "stars": 9677,
    "push": "2026-10-26",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3756,7 +4023,7 @@
   },
   "d4rken-org/sdmaid-se": {
    "estado": "vivo",
-   "stars": 7944,
+   "stars": 7945,
    "push": "2026-10-28",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3903,6 +4170,18 @@
    "motivo": "Not Found",
    "stars_pieza": null
   },
+  "LawnchairLauncher/lawnchair": {
+   "estado": "vivo",
+   "stars": 13832,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Java",
+   "desc": "No clever tagline needed.",
+   "release": "1.2.0.1884",
+   "release_fecha": "2018-07-23",
+   "stars_pieza": 13817
+  },
   "florisboard/florisboard": {
    "estado": "vivo",
    "stars": 8739,
@@ -3998,6 +4277,18 @@
    "release": "2.4",
    "release_fecha": "2024-09-07",
    "stars_pieza": 2524
+  },
+  "NeoApplications/Neo-Launcher": {
+   "estado": "vivo",
+   "stars": 2153,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "Neo-Launcher",
+   "release": "0.9.3",
+   "release_fecha": "2023-12-18",
+   "stars_pieza": 2151
   },
   "you-apps/WallYou": {
    "estado": "vivo",
@@ -4553,7 +4844,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 25795,
+   "stars": 25796,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -4673,7 +4964,7 @@
   },
   "NuvioMedia/NuvioMobile": {
    "estado": "vivo",
-   "stars": 4338,
+   "stars": 4337,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4682,18 +4973,6 @@
    "release": "0.6.6-beta",
    "release_fecha": "2026-10-31",
    "stars_pieza": 4284
-  },
-  "kodjodevf/mangayomi": {
-   "estado": "vivo",
-   "stars": 4285,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Dart",
-   "desc": "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows",
-   "release": "v0.9.9",
-   "release_fecha": "2026-10-12",
-   "stars_pieza": 4272
   },
   "RockinChaos/Shiru": {
    "estado": "vivo",
@@ -4844,18 +5123,6 @@
    "release_fecha": "2026-10-26",
    "stars_pieza": 58787
   },
-  "Suwayomi/Suwayomi-Server": {
-   "estado": "vivo",
-   "stars": 7982,
-   "push": "2026-10-24",
-   "archivado": false,
-   "licencia": "MPL-2.0",
-   "lenguaje": "Java",
-   "desc": "A rewrite of Tachiyomi for the Desktop",
-   "release": "v2.4.2366",
-   "release_fecha": "2026-09-30",
-   "stars_pieza": 7968
-  },
   "tachimanga/Tachidesk-Server": {
    "estado": "vivo",
    "stars": 45,
@@ -4870,7 +5137,7 @@
   },
   "Anxcye/anx-reader": {
    "estado": "vivo",
-   "stars": 9151,
+   "stars": 9152,
    "push": "2026-10-17",
    "archivado": false,
    "licencia": "MIT",
@@ -5059,18 +5326,6 @@
    "release": "v2.9.0",
    "release_fecha": "2026-10-17",
    "stars_pieza": 663
-  },
-  "jakepurple13/OtakuWorld": {
-   "estado": "vivo",
-   "stars": 637,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Anime Watcher, Manga Reader, and Novel Reader as three separate apps, same UI",
-   "release": "v32.1.2",
-   "release_fecha": "2026-06-29",
-   "stars_pieza": 638
   },
   "imashnake0/Animite": {
    "estado": "vivo",
@@ -5461,18 +5716,6 @@
    "release_fecha": "2026-06-26",
    "stars_pieza": 152
   },
-  "KamiYomu/KamiYomu": {
-   "estado": "vivo",
-   "stars": 150,
-   "push": "2026-09-20",
-   "archivado": false,
-   "licencia": "AGPL-3.0",
-   "lenguaje": "C#",
-   "desc": "A self-hosted, extensible manga reader and download tool with plug-in support.",
-   "release": "1.4.0",
-   "release_fecha": "2026-09-01",
-   "stars_pieza": 150
-  },
   "e18lab/NHApp": {
    "estado": "vivo",
    "stars": 135,
@@ -5679,7 +5922,7 @@
   },
   "Stremio/stremio-web": {
    "estado": "vivo",
-   "stars": 14946,
+   "stars": 14947,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -5802,8 +6045,8 @@
   },
   "Flow-Tube/Flow": {
    "estado": "vivo",
-   "stars": 3226,
-   "push": "2026-10-31",
+   "stars": 3227,
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -5874,7 +6117,7 @@
   },
   "recloudstream/extensions": {
    "estado": "vivo",
-   "stars": 142,
+   "stars": 143,
    "push": "2026-05-22",
    "archivado": false,
    "licencia": null,
@@ -6138,7 +6381,7 @@
   },
   "awesome-selfhosted/awesome-selfhosted": {
    "estado": "vivo",
-   "stars": 332473,
+   "stars": 332478,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -6174,7 +6417,7 @@
   },
   "FreshRSS/FreshRSS": {
    "estado": "vivo",
-   "stars": 16471,
+   "stars": 16472,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -6186,7 +6429,7 @@
   },
   "FlareSolverr/FlareSolverr": {
    "estado": "vivo",
-   "stars": 16099,
+   "stars": 16100,
    "push": "2026-10-24",
    "archivado": false,
    "licencia": "MIT",
@@ -6258,7 +6501,7 @@
   },
   "tasks/tasks": {
    "estado": "vivo",
-   "stars": 5705,
+   "stars": 5706,
    "push": "2026-10-30",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -6378,7 +6621,7 @@
   },
   "freeotp/freeotp-android": {
    "estado": "vivo",
-   "stars": 1682,
+   "stars": 1683,
    "push": "2026-10-27",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -6387,18 +6630,6 @@
    "release": "v2.0.6",
    "release_fecha": "2026-02-17",
    "stars_pieza": 1681
-  },
-  "pass-with-high-score/universal-installer": {
-   "estado": "vivo",
-   "stars": 1653,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "A modern Android app for installing and managing APK packages with split APK support, silent install via Shizuku, and VirusTotal malware scanning.",
-   "release": "v1.20.0",
-   "release_fecha": "2026-10-25",
-   "stars_pieza": 1640
   },
   "curbox-app/curbox-android": {
    "estado": "vivo",
@@ -6487,7 +6718,7 @@
   "supershadoe/delta": {
    "estado": "vivo",
    "stars": 586,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "BSD-3-Clause",
    "lenguaje": "Kotlin",
@@ -6702,7 +6933,7 @@
   },
   "spacecowboy/Feeder": {
    "estado": "vivo",
-   "stars": 3100,
+   "stars": 3101,
    "push": "2026-10-30",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -6976,18 +7207,6 @@
    "release_fecha": "2025-12-30",
    "stars_pieza": 181
   },
-  "chmouel/liseur": {
-   "estado": "vivo",
-   "stars": 169,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "MIT",
-   "lenguaje": "Kotlin",
-   "desc": "Open-source EPUB reader and remote library client for Android, with a Kindle-inspired reading experience",
-   "release": "v0.26.0",
-   "release_fecha": "2026-10-28",
-   "stars_pieza": 164
-  },
   "VincentEngel/VES-Image-Compare": {
    "estado": "vivo",
    "stars": 144,
@@ -7231,7 +7450,7 @@
   "xbmc/xbmc": {
    "estado": "vivo",
    "stars": 21410,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
    "lenguaje": "C++",
@@ -7267,7 +7486,7 @@
   "nextcloud/android": {
    "estado": "vivo",
    "stars": 5672,
-   "push": "2026-10-31",
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-2.0",
    "lenguaje": "Kotlin",
@@ -7326,7 +7545,7 @@
   },
   "NuvioMedia/NuvioTV": {
    "estado": "vivo",
-   "stars": 3305,
+   "stars": 3304,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -7458,7 +7677,7 @@
   },
   "chenxiaolong/BasicSync": {
    "estado": "vivo",
-   "stars": 734,
+   "stars": 736,
    "push": "2026-10-25",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -7948,7 +8167,7 @@
   },
   "awesome-android-root/awesome-android-root": {
    "estado": "vivo",
-   "stars": 5586,
+   "stars": 5587,
    "push": "2026-10-30",
    "archivado": false,
    "licencia": "MIT",
@@ -8201,16 +8420,16 @@
    "veredicto": "responde"
   },
   "https://appteka.store/app/4abr315772": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "504",
+   "veredicto": "responde con codigo 504"
   },
   "https://appteka.store/app/b4cr315682": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "504",
+   "veredicto": "responde con codigo 504"
   },
   "https://appteka.store/app/d18r318069": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "504",
+   "veredicto": "responde con codigo 504"
   },
   "https://apt.izzysoft.de/fdroid": {
    "codigo": "200",
@@ -8413,18 +8632,14 @@
    "veredicto": "responde"
   },
   "https://elpais.com/cultura/2026-04-22/cae-tumangaonline-la-policia-nacional-desmantela-la-mayor-plataforma-de-pirateria-de-manga-en-espanol.html": {
-   "codigo": "403",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://emanuele-f.github.io/PCAPdroid": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://ente.com": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://f-droid.org": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -8516,10 +8731,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://fmhy.net/mobile": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://fmhy.net/posts/sept-2026": {
    "codigo": "200",
    "veredicto": "responde"
@@ -8589,10 +8800,6 @@
    "veredicto": "responde"
   },
   "https://github.com/Aatricks/Emaki": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/AbdurazaaqMohammed/AntiSplit-M": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -8716,6 +8923,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/BookHeaven/BookHeaven.Server": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/BugeStudioTeam/Buge-App-Manager": {
    "codigo": "200",
    "veredicto": "responde"
@@ -8776,10 +8987,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/EFForg/apkeep": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://github.com/Ero-gamer/Kotatsu-Next": {
    "codigo": "200",
    "veredicto": "responde"
@@ -8828,19 +9035,11 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/FossifyOrg/Messages": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://github.com/FossifyOrg/Notes": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/FossifyOrg/Phone": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/FossifyOrg/Voice-Recorder": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -8888,14 +9087,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/Goodwy/Gallery": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/Goodwy/PlayBook": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://github.com/GopeedLab/gopeed": {
    "codigo": "200",
    "veredicto": "responde"
@@ -8905,14 +9096,6 @@
    "veredicto": "responde"
   },
   "https://github.com/GrapheneOS/AppStore": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/GrapheneOS/Camera": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/GrapheneOS/PdfViewer": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -9013,6 +9196,10 @@
    "veredicto": "responde"
   },
   "https://github.com/Jman-Github/Universal-Patch-Manager": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/JonaNorman/WebViewUpgrade": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -9196,6 +9383,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/MapoMagpie/comic-looms": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Marco-9456/AniSync": {
    "codigo": "200",
    "veredicto": "responde"
@@ -9340,6 +9531,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Paving-Base/APK-Installer": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/PelagicaApp/pelagica": {
    "codigo": "200",
    "veredicto": "responde"
@@ -9373,10 +9568,6 @@
    "veredicto": "responde"
   },
   "https://github.com/PrivacyDragon/Bookwyrm_Android": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/Psyhackological/AAA": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -9452,10 +9643,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/RookieEnough/Orion-Store": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://github.com/RyanYuuki/AnymeX": {
    "codigo": "200",
    "veredicto": "responde"
@@ -9520,6 +9707,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Snd-R/Komelia": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Spyou/Sozo-Read": {
    "codigo": "200",
    "veredicto": "responde"
@@ -9548,7 +9739,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Suwayomi/Suwayomi-VUI": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Suwayomi/tachiyomi-extension": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/SysAdminDoc/AppManagerNG": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -9748,6 +9947,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/aidoku-community/sources": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/aistra0528/Hail": {
    "codigo": "200",
    "veredicto": "responde"
@@ -9920,10 +10123,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/carlelieser/yuki": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://github.com/chenxiaolong/BasicSync": {
    "codigo": "200",
    "veredicto": "responde"
@@ -9988,6 +10187,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/daboynb/developer-verifier-placeholder": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/daisukiKaffuChino/RebootNya": {
    "codigo": "200",
    "veredicto": "responde"
@@ -10040,6 +10243,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/djunekz/termux-app-store": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/dkrivoruchko/ScreenStream": {
    "codigo": "200",
    "veredicto": "responde"
@@ -10081,6 +10288,10 @@
    "veredicto": "responde"
   },
   "https://github.com/eiyooooo/Fold_Switcher": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/elboletaire/manga-downloader": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -10156,10 +10367,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/georgeclensy/Escape-Launcher": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://github.com/ggml-org/llama.cpp": {
    "codigo": "200",
    "veredicto": "responde"
@@ -10221,10 +10428,6 @@
    "veredicto": "responde"
   },
   "https://github.com/iamr0s/Dhizuku": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/iamrasel/lunar-launcher": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -10328,6 +10531,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/josueBarretogit/manga-tui": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/jpdoshi/dragon-store": {
    "codigo": "404",
    "veredicto": "no existe hoy"
@@ -10348,6 +10555,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/khaledmahmud5286-cmd/manga-zen-reader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/kitsumed/ShizuCallRecorder": {
    "codigo": "200",
    "veredicto": "responde"
@@ -10357,6 +10568,10 @@
    "veredicto": "responde"
   },
   "https://github.com/kiwix/kiwix-android": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/kmworks/kmreader": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -10401,10 +10616,6 @@
    "veredicto": "responde"
   },
   "https://github.com/kovidgoyal/calibre": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/krishna3163/best-root-apps-for-android": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -10461,6 +10672,10 @@
    "veredicto": "responde"
   },
   "https://github.com/luqmanfadlli/NuvioMobile-Enhanced": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/m2k3a/mangayomi-extensions": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -10544,6 +10759,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/meyamane37923-hash/komikku-scans": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/mienaiyami/yomikiru": {
    "codigo": "200",
    "veredicto": "responde"
@@ -10589,10 +10808,6 @@
    "veredicto": "responde"
   },
   "https://github.com/moneytoo/Player": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/moneytoo/awesome-fdroid": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -10868,6 +11083,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/roxycon-dev/Ciallo-Reader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/rumca-js/OfflineWebSearch": {
    "codigo": "200",
    "veredicto": "responde"
@@ -10913,44 +11132,48 @@
    "veredicto": "responde"
   },
   "https://github.com/samolego/Canta": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/samuelclay/NewsBlur": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
+  },
+  "https://github.com/samyak2403/RepoStore": {
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/sang765/Usagi": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/scummvm/scummvm": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/sdex/ActivityManager": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/self-similarity/MegaRepo": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/serene-brew/kaizen-app": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/session-foundation/session-android": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/shub39/Rush": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/shynoiddev/FireWall-Blocks": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/siavash79/PixelXpert": {
    "codigo": "200",
@@ -10961,16 +11184,20 @@
    "veredicto": "responde"
   },
   "https://github.com/sj0404-collab/yomikai-pwa": {
-   "codigo": "404",
-   "veredicto": "no existe hoy"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/snake-4/Zygisk-Assistant": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/solkin/appteka-android": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
+  },
+  "https://github.com/solrudev/Ackpine": {
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/soul-99/SU_IMD": {
    "codigo": "200",
@@ -10981,6 +11208,10 @@
    "veredicto": "responde"
   },
   "https://github.com/spacecowboy/Feeder": {
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
+  },
+  "https://github.com/sri-sivaram/Neko-Manga-Pearl": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -10997,28 +11228,28 @@
    "veredicto": "responde"
   },
   "https://github.com/supershadoe/delta": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/suvojeet-sengupta/SuvMusic": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/sweetbbak/toru": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/syncthing/syncthing": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/syncthing/syncthing-android": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/syncyomi/syncyomi": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tachibana-shin/rakuyomi": {
    "codigo": "200",
@@ -11033,12 +11264,12 @@
    "veredicto": "responde"
   },
   "https://github.com/tadamiorg/tadami": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tadamiorg/tadami-extensions": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tasks/tasks": {
    "codigo": "200",
@@ -11049,20 +11280,20 @@
    "veredicto": "responde"
   },
   "https://github.com/thaunknown/miru": {
-   "codigo": "451",
-   "veredicto": "responde con codigo 451"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/the-nexus-app/NEXUS": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/thehijacker/codexa": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/thejaustin/ShizukuPlus": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/thejaustin/ShizukuPlus/wiki": {
    "codigo": "200",
@@ -11073,36 +11304,32 @@
    "veredicto": "responde"
   },
   "https://github.com/thiagooo0/EHHelper": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/thunderbird/thunderbird-android": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/tiann/KernelSU": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/timschneeb/ShizuStore": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/timschneeb/awesome-shizuku": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tobexyz/yaacc-code": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/topjohnwu/Magisk": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/trinadhthatakula/Thor": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/tryptz/Tryptify": {
    "codigo": "200",
@@ -11113,6 +11340,10 @@
    "veredicto": "responde"
   },
   "https://github.com/tuntorius/mightier_amp": {
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
+  },
+  "https://github.com/ubedshah/manga-vault-nexus": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -11121,8 +11352,8 @@
    "veredicto": "responde"
   },
   "https://github.com/ulightm111/boky-fivavahana-ion": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/unseensnick/Reikai": {
    "codigo": "200",
@@ -11137,76 +11368,76 @@
    "veredicto": "responde"
   },
   "https://github.com/varunsalian/debrify": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/vauvenal5/yaga": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/venera-app/venera": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/vfsfitvnm/ViMusic": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/videolan/vlc-android": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/warreth/OpenlibExtended": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/weekanya/Booru": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/werdeil/lyrion-dashboard": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/wgtunnel/android": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/whyorean/AuroraStore": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/wikimedia/apps-android-wikipedia": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/winhub-emu/winhub": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/winters27/octo": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/wizdom13/WizeStream": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/woheller69/FreeDroidWarn": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/woxakv/android-koreader-companion": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/wxxsfxyzm/InstallerX-Revived": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/x1watt/bchan": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/xbmc/xbmc": {
    "codigo": "200",
@@ -11225,20 +11456,20 @@
    "veredicto": "no existe hoy"
   },
   "https://github.com/yomihon/yomihon": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/you-apps/WallYou": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yshalsager/ShizukuShortcuts": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/yt-dlp/yt-dlp": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yuliskov/SmartTube": {
    "codigo": "200",
@@ -11249,24 +11480,24 @@
    "veredicto": "responde"
   },
   "https://github.com/yuzono/cursed-manga-extensions": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yuzono/kohi-den": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/yuzono/manga-repo": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yuzono/tachiyomi-extensions": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/yyj5201314whj/AxManager-pro": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/z-huang/InnerTune": {
    "codigo": "200",
@@ -11288,17 +11519,17 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/zorgluf/souvenirs-android": {
+  "https://github.com/zmz125000/LocalViewer": {
    "codigo": "200",
    "veredicto": "responde"
+  },
+  "https://github.com/zorgluf/souvenirs-android": {
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/zyddnys/manga-image-translator": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://gitlab.com/AuroraOSS/AuroraStore": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://gitlab.com/coolreader-ng/lxreader": {
    "codigo": "200",
@@ -11816,10 +12047,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://reports.exodus-privacy.eu.org": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://resilien-mobile.github.io/RootlessStore_WiKi/": {
    "codigo": "200",
    "veredicto": "responde"
@@ -11965,8 +12192,8 @@
    "veredicto": "responde"
   },
   "https://tachiyomi.org/extensions/": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://teamamaze.xyz": {
    "codigo": "000",

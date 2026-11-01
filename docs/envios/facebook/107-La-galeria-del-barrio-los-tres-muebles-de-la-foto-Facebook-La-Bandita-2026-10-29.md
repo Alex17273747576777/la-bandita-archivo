@@ -1,12 +1,12 @@
 # PIEZA 107 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/107-La-galeria-del-barrio-los-tres-muebles-de-la-foto-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `072d4e9466adb2413761cdd8e601f4a52b686418c99602814d2a9a4ab3870d47`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1815 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1815 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 879 caracteres ═══
+═══ MENSAJE 1 de 4 · 880 caracteres ═══
 
 *La galería del barrio: los tres muebles de la foto*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: AGPL-3.0 1 · NOASSERTION 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/107-La-galeria-del-barrio-los-tres-muebles-de-la-foto-Facebook-La-Bandita-2026-10-29.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1815 caracteres ═══
 
@@ -50,14 +50,14 @@ Pulso tranquilo: lo último que se movió fue **immich-app/immich**, hace 2 día
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 581 caracteres ═══
+═══ MENSAJE 3 de 4 · 590 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 107*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★117.837 (+225) · sin fecha de empuje · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 2 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• immich-app/immich — ★117.838 (+226) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

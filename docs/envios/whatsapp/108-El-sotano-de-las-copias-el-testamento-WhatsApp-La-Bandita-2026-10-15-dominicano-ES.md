@@ -1,12 +1,12 @@
 # PIEZA 108 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/108-El-sotano-de-las-copias-el-testamento-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a17ddb0fec9b9131cf81f0db07a3ad0eeee1aee7beeef38d60c55e0e2c280f47`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3716 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3716 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 907 caracteres ═══
+═══ MENSAJE 1 de 5 · 908 caracteres ═══
 
 *El sotano de las copias el testamento*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MPL-2.0 3 · BSD-2-Clause 1 · Apache-2.0 1 · A
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/108-El-sotano-de-las-copias-el-testamento-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3716 caracteres ═══
 
@@ -87,18 +87,18 @@ REV|)404( odíac — pukcab-oen/rehcnual-oen=1|REV|30-21-4202 — diordna-gnihtc
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1303 caracteres ═══
+═══ MENSAJE 4 de 5 · 1321 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 108*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• restic/restic — ★36.913 (+31) · sin fecha de empuje · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
-• kopia/kopia — ★14.545 (+22) · sin fecha de empuje · Apache-2.0 · última release v0.23.1 (16-jun-2026)
-• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (697 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
-• NeoApplications/Neo-Backup — ★3.888 (+7) · empujó el 17-oct-2026 (hace 14 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
-• researchxxl/syncthing-android — ★3.214 (+22) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• syncthing/syncthing — ★89.956 (+83) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• restic/restic — ★36.913 (+31) · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• kopia/kopia — ★14.545 (+22) · empujó en las últimas horas · Apache-2.0 · última release v0.23.1 (16-jun-2026)
+• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
+• NeoApplications/Neo-Backup — ★3.888 (+7) · empujó el 17-oct-2026 (hace 15 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• researchxxl/syncthing-android — ★3.215 (+23) · empujó el 22-oct-2026 (hace 10 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • neo-launcher/neo-backup — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

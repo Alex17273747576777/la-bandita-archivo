@@ -1,12 +1,12 @@
 # PIEZA 16 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/16-Rama-TachiyomiSY-Komikku-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `215663f0fab6f95503ccaa1cba9b48f36188b651512030a7bfa0bd9846c94a04`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3757 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3757 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 930 caracteres ═══
+═══ MENSAJE 1 de 5 · 931 caracteres ═══
 
 *Rama SY/Komikku: el fork clásico y el rehijo con organización — TachiyomiSY y Komikku*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 14 · sin licencia 3 · GPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/16-Rama-TachiyomiSY-Komikku-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3757 caracteres ═══
 
@@ -110,37 +110,41 @@ Empieza por las bajas: **leassapie/houri** (caído (404)) no contestaron hoy. Co
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2728 caracteres ═══
+═══ MENSAJE 4 de 5 · 3228 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 16*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
-• komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 10 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• jobobby04/TachiyomiSY — ★4.199 (+3) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• yuzono/tachiyomi-extensions — ★953 (+6) · sin fecha de empuje · Apache-2.0
-• syncyomi/syncyomi — ★740 (+3) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
-• jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)
+• komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• jobobby04/TachiyomiSY — ★4.199 (+3) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
+• yuzono/tachiyomi-extensions — ★953 (+6) · empujó en las últimas horas · Apache-2.0
+• syncyomi/syncyomi — ★740 (+3) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
+• jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)
 • cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f3291a9 (31-oct-2026)
-• komikku-app/komikku-preview — ★257 (+1) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release r10617 (17-jul-2026)
-• ruzhe85/MihonSY — ★48 (+1) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.2.1 (7-oct-2026)
-• Harrys-HQ/ShinKu — ★45 (sin cambio) · sin fecha de empuje · Apache-2.0 · última release v2.8.0 (1-nov-2026)
+• komikku-app/komikku-preview — ★257 (+1) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release r10617 (17-jul-2026)
+• ruzhe85/MihonSY — ★48 (+1) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.2.1 (7-oct-2026)
+• Harrys-HQ/ShinKu — ★45 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v2.8.0 (1-nov-2026)
 • PineappleTwilight/houri — ★39 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v1.25.0 (29-oct-2026)
-• Smol-Ame/Chai — ★13 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (70 días) · Apache-2.0
-• pokedo0/Pokomi — ★12 (sin cambio) · empujó el 19-sep-2026 (hace 42 días) · Apache-2.0 · última release v1.0.9 (16-ago-2026)
-• jeryjs/TachiyomiSY-with-discord-RPC — ★9 (sin cambio) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release preview-45 (28-oct-2026)
-• Viel0320/komikku_img_upscale — ★9 (+1) · empujó el 21-oct-2026 (hace 10 días) · Apache-2.0 · última release r10714 (21-oct-2026)
-• x1watt/bchan — ★7 (sin cambio) · empujó el 5-oct-2026 (hace 26 días) · Apache-2.0 · última release v1.13.3 (5-oct-2026)
-• the-nexus-app/NEXUS — ★4 (sin cambio) · empujó el 7-oct-2026 (hace 24 días) · Apache-2.0 · última release v1.5.1 (4-oct-2026)
+• Smol-Ame/Chai — ★13 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (71 días) · Apache-2.0
+• pokedo0/Pokomi — ★12 (sin cambio) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0 · última release v1.0.9 (16-ago-2026)
+• jeryjs/TachiyomiSY-with-discord-RPC — ★9 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release preview-45 (28-oct-2026)
+• Viel0320/komikku_img_upscale — ★9 (+1) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release r10714 (21-oct-2026)
+• x1watt/bchan — ★7 (sin cambio) · empujó el 5-oct-2026 (hace 27 días) · Apache-2.0 · última release v1.13.3 (5-oct-2026)
+• the-nexus-app/NEXUS — ★4 (sin cambio) · empujó el 7-oct-2026 (hace 25 días) · Apache-2.0 · última release v1.5.1 (4-oct-2026)
 • nas3ts/mikku — ★0 (sin cambio) · empujó en las últimas horas · Apache-2.0
 • leassapie/houri — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *20 responden*.
+De los 21 enlaces de esta pieza, *16 responden*.
 
 • https://github.com/leassapie/houri — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/syncyomi/syncyomi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/the-nexus-app/NEXUS — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/x1watt/bchan — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yuzono/tachiyomi-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

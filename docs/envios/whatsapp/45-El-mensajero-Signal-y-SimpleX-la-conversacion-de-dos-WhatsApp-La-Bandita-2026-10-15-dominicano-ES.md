@@ -1,12 +1,12 @@
 # PIEZA 45 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/45-El-mensajero-Signal-y-SimpleX-la-conversacion-de-dos-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `d499ec66ae3261a6d1087a02e1bc8ff0aaae8516f3f8d9d146a03ba6330cf3de`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2810 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2810 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 840 caracteres ═══
+═══ MENSAJE 1 de 4 · 841 caracteres ═══
 
 *EL MENSAJERO*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: AGPL-3.0 4.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/45-El-mensajero-Signal-y-SimpleX-la-conversacion-de-dos-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2810 caracteres ═══
 
@@ -69,16 +69,16 @@ REV|)82-01-6202( 1.601.0v — langisbil/ppalangis=1|REV|92-01-6202 — diordnA-l
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 791 caracteres ═══
+═══ MENSAJE 3 de 4 · 800 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 45*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• signalapp/Signal-Android — ★29.563 (+10) · empujó en las últimas horas · AGPL-3.0 · última release v8.33.2 (26-oct-2026)
-• simplex-chat/simplex-chat — ★19.618 (+5) · empujó en las últimas horas · AGPL-3.0 · última release v7.0.3 (26-sep-2026)
-• signalapp/Signal-Server — ★10.761 (+4) · empujó el 28-oct-2026 (hace 3 días) · AGPL-3.0
-• signalapp/libsignal — ★6.106 (+8) · empujó el 27-oct-2026 (hace 4 días) · AGPL-3.0 · última release v0.106.1 (28-oct-2026)
+• signalapp/Signal-Android — ★29.563 (+10) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release v8.33.2 (26-oct-2026)
+• simplex-chat/simplex-chat — ★19.619 (+6) · empujó en las últimas horas · AGPL-3.0 · última release v7.0.3 (26-sep-2026)
+• signalapp/Signal-Server — ★10.761 (+4) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0
+• signalapp/libsignal — ★6.106 (+8) · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v0.106.1 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

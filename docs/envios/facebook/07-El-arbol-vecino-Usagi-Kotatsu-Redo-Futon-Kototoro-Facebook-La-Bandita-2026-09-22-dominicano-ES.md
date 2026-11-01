@@ -1,12 +1,12 @@
 # PIEZA 07 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-Facebook-La-Bandita-2026-09-22-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a129f2461432b1e434b37c3c423201340a0f414f92d705011830188153e9f0ec`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 3372 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 3372 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 956 caracteres ═══
+═══ MENSAJE 1 de 4 · 957 caracteres ═══
 
 *EL ÁRBOL VECINO MEDIDO ESTA MAÑANA: USAGI VIVA, EL MAESTRO EN SU MUSEO, Y EL PUENTE QUE NADIE TITULÓ*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 5 · Apache-2.0 1 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-Facebook-La-Bandita-2026-09-22-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 3372 caracteres ═══
 
@@ -66,19 +66,19 @@ Pulso de hoy sobre los 7 repos de la pieza: 7 vivos, 4 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1305 caracteres ═══
+═══ MENSAJE 3 de 4 · 1322 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (361 días) · GPL-3.0 · *ARCHIVADO*
+• KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• AppFuton/Futon — ★469 (+2) · empujó el 21-oct-2026 (hace 10 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
-• UsagiApp/Usagi — ★288 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
-• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
-• InvalidDavid/UMA — ★83 (+1) · empujó en las últimas horas · GPL-3.0 · última release f607156 (30-oct-2026)
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (48 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
+• AppFuton/Futon — ★469 (+2) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
+• UsagiApp/Usagi — ★288 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
+• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
+• InvalidDavid/UMA — ★83 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release f607156 (30-oct-2026)
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

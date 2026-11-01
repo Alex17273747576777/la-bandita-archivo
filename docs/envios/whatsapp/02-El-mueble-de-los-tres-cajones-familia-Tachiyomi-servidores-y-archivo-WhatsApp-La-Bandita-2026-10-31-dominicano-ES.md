@@ -1,32 +1,32 @@
 # PIEZA 02 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md`
-- **Fecha de la pieza:** 31-oct-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `9b5cd4883f0021a8f8ffc69ebf441cff707760d1b365c00f25bc9a894db23849`
-- **Envío generado:** 2026-10-31 · 28 mensajes · el mayor de 3921 caracteres
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **sha256 de la pieza:** `dd236c1ae1cde3fdc8cd00282345003bfce4fb452075fdfb7bfffdffe958ff23`
+- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3836 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 28 · 825 caracteres ═══
+═══ MENSAJE 1 de 27 · 817 caracteres ═══
 
 *El mueble de los tres cajones: la familia Tachiyomi, sus servidores y el archivo que se quedó sin casa*
 
-La Bandita · pieza 02 · guía del 31-oct-2026 · te la mando hoy en 28 mensajes.
+La Bandita · pieza 02 · guía del 1-nov-2026 · te la mando hoy en 27 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *40 repositorios, 37 vivos y 3 muertos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *56 repositorios, 53 vivos y 3 muertos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: Apache-2.0 16 · GPL-3.0 9 · MPL-2.0 6 · sin licencia 2.
+Licencias de lo que recomienda: Apache-2.0 19 · GPL-3.0 10 · MIT 8 · MPL-2.0 6.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 28 · 3137 caracteres ═══
+═══ MENSAJE 2 de 27 · 3139 caracteres ═══
 
 *El mueble de los tres cajones: la familia Tachiyomi, sus servidores y el archivo que se quedó sin casa*
 
-*La Bandita · sábado 31 de octubre de 2026 · edición dominicano-español · pieza 02 de WhatsApp*
+*La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 02 de WhatsApp*
 
-⏱️ *Lectura: 56 min · 32 repositorios medidos hoy, uno por uno*
+⏱️ *Lectura: 58 min · 53 repositorios medidos hoy, uno por uno*
 
 > *Semilla de esta pieza:* un lector de cómics no es una app. Es un *mueble de tres cajones*. En el primero va el motor: el programa que pasa las páginas. En el segundo, el catálogo: las extensiones que le dicen de dónde sacar cada serie. En el tercero, el archivo: tu biblioteca, tu historial, tus categorías, tus descargas. Los tres cajones pueden venir de tres dueños distintos, y cuando uno se rompe, los otros dos no lo arreglan.
 
@@ -58,9 +58,9 @@ Voy a contarlo como me lo explicaría a mí mismo si tuviera el teléfono en la 
 
 *Respuestas (léelas de atrás para adelante):* `nohiM`·`okikmoK`·`utastaK`·`revreS imoyawuS`
 
-⏬ sigue abajo · parte 1 de 27
+⏬ sigue abajo · parte 1 de 26
 
-═══ MENSAJE 3 de 28 · 1843 caracteres ═══
+═══ MENSAJE 3 de 27 · 1843 caracteres ═══
 
 *⚡ En una página*
 
@@ -103,9 +103,9 @@ Voy a contarlo como me lo explicaría a mí mismo si tuviera el teléfono en la 
 └── 🔗 Enlaces y firma · ~2 min
 ```
 
-⏬ sigue abajo · parte 2 de 27
+⏬ sigue abajo · parte 2 de 26
 
-═══ MENSAJE 4 de 28 · 3600 caracteres ═══
+═══ MENSAJE 4 de 27 · 3600 caracteres ═══
 
 *🌳 El árbol: de Tachiyomi a Mihon, y por qué un proyecto muerto sigue caminando*
 
@@ -133,9 +133,9 @@ Esto no es historia por gusto. Es la explicación de por qué tu lector se llama
 • *hotaro26/miko* — *★33 · sin licencia declarada · release v3.3 del 3 de agosto*. Dormido.
 
 
-⏬ sigue abajo · parte 3 de 27
+⏬ sigue abajo · parte 3 de 26
 
-═══ MENSAJE 5 de 28 · 2825 caracteres ═══
+═══ MENSAJE 5 de 27 · 2825 caracteres ═══
 
 *El que se fue de la familia.* `kodjodevf/mangayomi` — *★4.285 · Apache-2.0 · empujó hoy · release v0.9.9* — no es un fork de Tachiyomi: es un motor propio, con extensiones propias (`m2k3a/mangayomi-extensions`, *★113 · Apache-2.0*), y su nombre viejo ya no existe: `Mangayomi-app/Mangayomi` responde **404** hoy. Es el tercer muerto de esta pieza y el ejemplo perfecto de por qué hay que medir: si copias el enlace viejo de un tutorial de hace un año, te estrellas.
 
@@ -160,9 +160,9 @@ Ocho mil novecientas cuarenta y tres estrellas y un cartel de «archivado». Ese
 
 *Y una regla que esta casa repite hasta el cansancio:* *archivado no es lo mismo que abandonado, y abandonado no es lo mismo que muerto.* Se dice con la fecha al lado, no con la palabra sola.
 
-⏬ sigue abajo · parte 4 de 27
+⏬ sigue abajo · parte 4 de 26
 
-═══ MENSAJE 6 de 28 · 3657 caracteres ═══
+═══ MENSAJE 6 de 27 · 3657 caracteres ═══
 
 *📚 Los cinco lectores que valen hoy (y para quién es cada uno)*
 
@@ -207,9 +207,9 @@ No voy a hacer una lista de los treinta. Eso no ayuda a decidir. Van cinco, con 
 *Lo malo:* no comparte nada con la familia grande: ni extensiones, ni formato de respaldo. Si entras aquí, entras a un mundo aparte.
 
 
-⏬ sigue abajo · parte 5 de 27
+⏬ sigue abajo · parte 5 de 26
 
-═══ MENSAJE 7 de 28 · 3143 caracteres ═══
+═══ MENSAJE 7 de 27 · 3143 caracteres ═══
 
 *Y los que no recomiendo hoy, con su razón:*
 • *Kotatsu* — archivado desde noviembre de 2025. Funciona, pero no se adapta.
@@ -237,9 +237,9 @@ Aquí está la parte que la gente se salta y que explica el 90 % de los problema
 
 *Y la regla que no se negocia:* nunca instales una extensión de un enlace que te llegó por mensaje, aunque parezca el mismo nombre. El nombre no se firma; el hash sí.
 
-⏬ sigue abajo · parte 6 de 27
+⏬ sigue abajo · parte 6 de 26
 
-═══ MENSAJE 8 de 28 · 3268 caracteres ═══
+═══ MENSAJE 8 de 27 · 3268 caracteres ═══
 
 *🖥️ El servidor en casa: cuando el mueble sale del teléfono*
 
@@ -268,9 +268,9 @@ Estas dos no buscan nada en internet: ordenan *tus* archivos. Son la respuesta a
 
 *La combinación que yo montaría, si tuviera tiempo:* Komga o Kavita para lo que ya tengo en disco, Suwayomi para lo que quiero seguir al día, y el teléfono solo como ventana. Dos servidores suena a mucho hasta que se entiende que uno sirve archivos y el otro busca: son oficios distintos.
 
-⏬ sigue abajo · parte 7 de 27
+⏬ sigue abajo · parte 7 de 26
 
-═══ MENSAJE 9 de 28 · 1580 caracteres ═══
+═══ MENSAJE 9 de 27 · 1580 caracteres ═══
 
 *⚖️ La ley, sin sermón y sin disimulo*
 
@@ -286,9 +286,9 @@ Esta sección tiene que estar y la voy a escribir sin rodeos, porque la hipocres
 
 *Lo que sí te pido, si vas a usar esto:* que si una serie te gusta de verdad, la compres cuando puedas. No es una moraleja: es la única forma de que la serie tenga un capítulo siguiente. El lector es gratis; el manga no lo fue.
 
-⏬ sigue abajo · parte 8 de 27
+⏬ sigue abajo · parte 8 de 26
 
-═══ MENSAJE 10 de 28 · 2938 caracteres ═══
+═══ MENSAJE 10 de 27 · 2938 caracteres ═══
 
 *🛠️ Tutorial: de cero a biblioteca con respaldo (15 pasos)*
 
@@ -323,9 +323,9 @@ Esto es lo que haría yo con un teléfono recién formateado y una hora por dela
 
 *Lo que este tutorial no hace:* no te enseña a piratear nada, no te da direcciones de fuentes, y no promete que ninguna extensión funcione mañana. Eso es oficio de cada uno con su criterio.
 
-⏬ sigue abajo · parte 9 de 27
+⏬ sigue abajo · parte 9 de 26
 
-═══ MENSAJE 11 de 28 · 3056 caracteres ═══
+═══ MENSAJE 11 de 27 · 3056 caracteres ═══
 
 *🧳 Las variables que no puedes perder (el cajón tres, con lupa)*
 
@@ -360,9 +360,9 @@ Esta sección es la razón por la que escribí esta pieza. Cuando alguien cambia
 
 *Y el consejo que no es técnico:* haz el respaldo *antes* de estar motivado. La gente respalda cuando ya perdió algo. Tú tienes este mensaje delante: usa el minuto ahora.
 
-⏬ sigue abajo · parte 10 de 27
+⏬ sigue abajo · parte 10 de 26
 
-═══ MENSAJE 12 de 28 · 2990 caracteres ═══
+═══ MENSAJE 12 de 27 · 2990 caracteres ═══
 
 *🩺 Los ocho fallos que te vas a encontrar (y qué hacer con cada uno)*
 
@@ -402,9 +402,9 @@ Arreglo: desinstala el viejo del todo, reinicia y vuelve a instalar. Y la próxi
 
 *Nota:* no hay «reinicia y ya». Cada fallo tiene su causa y, si no la tiene, lo digo.
 
-⏬ sigue abajo · parte 11 de 27
+⏬ sigue abajo · parte 11 de 26
 
-═══ MENSAJE 13 de 28 · 2267 caracteres ═══
+═══ MENSAJE 13 de 27 · 2267 caracteres ═══
 
 *🧊 Mitos de este ecosistema*
 
@@ -446,9 +446,9 @@ Los respaldos son para gente que no quiere perder tres años de historial. Es un
 .allaf nóicaruatser al ,onam a satide ol is ;aiporp nóisnetxe noc fubotorP
 .4202 ed ozram ed ,IUJ se ajeiv sám esaeler ed le ;imoyawuS ed soirotisoper ortauC
 
-⏬ sigue abajo · parte 12 de 27
+⏬ sigue abajo · parte 12 de 26
 
-═══ MENSAJE 14 de 28 · 2310 caracteres ═══
+═══ MENSAJE 14 de 27 · 2310 caracteres ═══
 
 *🔬 El cajón dos a fondo: cómo se escribe (y por qué se rompe) una extensión*
 
@@ -468,9 +468,9 @@ Esto explica por qué tu extensión favorita deja de funcionar un martes cualqui
 
 *La lección de ingeniería que hay detrás, y que vale fuera de los cómics:* el diseño de «motor limpio + conectores aparte» es lo que permitió que el ecosistema sobreviviera a la muerte del proyecto original. Cuando el tronco cayó, los conectores siguieron funcionando en los forks porque no dependían de la marca: dependían de una interfaz.
 
-⏬ sigue abajo · parte 13 de 27
+⏬ sigue abajo · parte 13 de 26
 
-═══ MENSAJE 15 de 28 · 3328 caracteres ═══
+═══ MENSAJE 15 de 27 · 3328 caracteres ═══
 
 *🔄 Sincronización: qué existe hoy de verdad y qué es cuento*
 
@@ -504,19 +504,54 @@ En un teléfono de 64 GB esto no es un detalle: es la diferencia entre tener lec
 
 *El cálculo que casi nadie hace:* si lees 10 capítulos a la semana y descargas todo, en un año son unos 500 capítulos. A 30 MB de media, 15 GB. Tu teléfono no tiene 15 GB para esto. La descarga selectiva no es tacañería: es la única forma de que el mueble quepa en la casa.
 
-⏬ sigue abajo · parte 14 de 27
+⏬ sigue abajo · parte 14 de 26
 
-═══ MENSAJE 16 de 28 · 2487 caracteres ═══
+═══ MENSAJE 16 de 27 · 3581 caracteres ═══
 
-*👶🧑👴 Lectura por edad*
+*🆕 Lo que no existía hace nueve meses (el censo nuevo del mueble)*
 
-*Menos de 15:* el lector es fácil; el catálogo no. Si vas a usar esto, que sea con series que alguien de confianza te haya recomendado, y con las descargas apagadas salvo cuando las necesites de verdad. Y cuidado con los enlaces que llegan por grupos: casi nunca son lo que dicen.
+La lista de hace cuatro meses tenía a Tachiyomi, a sus forks y a tres servidores. Hoy, midiendo uno por uno, encontré **dieciséis proyectos que entonces no existían o no tenían una sola versión publicada**, y dos cebos que se hacen pasar por ellos. Esto es el censo nuevo, con fecha de nacimiento al lado —el dato que casi nadie pone y el que explica todo.
 
-*De 15 a 25:* tienes la paciencia para aprender el mueble entero. Instala un motor, añade un repositorio, haz un respaldo el primer día. Ese último paso te va a salvar en dos años.
+*Forks y lectores que nacieron en 2025 y 2026:*
 
-*De 25 a 50:* probablemente lo que quieres es leer sin complicarte y sin perder lo que ya llevas leído. Mihon o Komikku, tres extensiones, respaldo mensual. Si tienes tele y tableta, un servidor pequeño te cambia la vida.
+• *`null2264/yokai` — ★1.914 · Apache-2.0 · Kotlin · creado el 6 de enero de 2024 · release v1.10.2 del 23 de septiembre.* El fork más activo de la familia después de Mihon, con ★1.914 que no son prestadas. Empujó el 13 de octubre.
+• *`jakepurple13/OtakuWorld` — ★637 · Apache-2.0 · creado el 30 de marzo de 2021 · release v32.1.2 del 29 de junio · empujó hoy.* Tres apps separadas: anime, manga y novelas. El que quiere todo el mueble en un solo ecosistema.
+• *`UsagiApp/Usagi` — ★288 · GPL-3.0 · **creado el 20 de marzo de 2026** · release v1.2 del 3 de octubre.* Lector simple para Android 5.0 en adelante. Simple de verdad: eso es lo que promete y lo que cumple.
+• *`Chimahon/chimahon` — ★239 · GPL-3.0 · **creado el 27 de marzo de 2026** · release v2.4.8 del 19 de octubre.* Fork de inmersión sobre Mihon, con diccionario nativo y OCR para leer en el idioma original. El nicho más específico de esta lista y el mejor hecho.
+• *`yomihon/yomihon` — ★142 · Apache-2.0 · creado el 14 de septiembre de 2025 · release v0.4.3 del 18 de octubre.* Lector con reconocimiento de texto: saca el texto de la imagen para traducirlo o buscarlo.
+• *`roxycon-dev/Ciallo-Reader` — ★261 · MIT · **creado el 29 de julio de 2026** · release v1.5.10 del 29 de octubre.* Tres meses de vida y ya lee novela, cómic y libro: TXT, EPUB y CBZ en el mismo estante.
+• *`kmworks/kmreader` — ★116 · MIT · Swift · creado el 15 de noviembre de 2025 · release v7.3 del 22 de octubre.* Cliente nativo de Komga para iPhone, Mac y Apple TV. Existe porque en iOS el mueble se arma distinto.
 
-*Más de 50:* la letra grande y el modo de página doble del lector son mejores que los de casi cualquier app de libros. Empieza con una serie conocida, aprende tres gestos y no toques nada más. Y si alguien te ofrece «el lector con todo desbloqueado», es la misma historia de siempre.
+*Los que no son apps, y también cuentan:*
+
+• *`josueBarretogit/manga-tui` — ★954 · MIT · Rust · release v0.10.1 **de hoy**.* Lector en terminal, con imágenes en la consola. Suena a broma y es de las cosas mejor mantenidas de esta lista.
+• *`elboletaire/manga-downloader` — ★289 · AGPL-3.0 · Go · release v24.1.0 del 30 de octubre.* Descarga de más de quinientos sitios, sin interfaz gráfica. Para el que ya tiene el archivo y solo quiere llenarlo.
+• *`MapoMagpie/comic-looms` — ★812 · MIT · TypeScript · release 4.16.1 del 9 de octubre.* Lector y descargador pensado para no cargar el servidor del sitio. Eso, hoy, es una decisión ética además de técnica.
+• *`KamiYomu/KamiYomu` — ★150 · AGPL-3.0 · C# · creado el 6 de noviembre de 2025 · release 1.4.0 del 1 de septiembre.* Autoalojado y con complementos: tú eliges las fuentes.
+• *`Yui007/weebcentral_downloader` — ★175 · MIT · Python · sin release publicada.* Descargador de un solo sitio, con interfaz y línea de comandos. Sin release: se instala con Python. Dicho queda.
+
+*Bibliotecas y servidores nuevos:*
+
+• *`BookHeaven/BookHeaven.Server` — ★197 · GPL-3.0 · creado el 23 de septiembre de 2024 · release v1.0.4 del 30 de octubre.* Servidor web para tu biblioteca de libros electrónicos, compatible con los lectores que hablan OPDS.
+• *`chmouel/liseur` — ★169 · MIT · **creado el 28 de julio de 2026** · release v0.26.0 del 28 de octubre.* Lector de EPUB con biblioteca remota para Android. Tres meses y ya en la versión 0.26: publica más que muchos veteranos.
+
+⏬ sigue abajo · parte 15 de 26
+
+═══ MENSAJE 17 de 27 · 3274 caracteres ═══
+
+• *`zmz125000/LocalViewer` — ★197 · GPL-3.0 · **creado el 18 de julio de 2026** · release 1.13.22 del 31 de octubre.* Lee CBZ y fotos por SMB y WebDAV: el mueble montado sobre la carpeta que ya tienes en la computadora, sin servidor de por medio.
+• *`readium/kotlin-toolkit` — ★395 · BSD-3-Clause · release 3.4.0 del 11 de septiembre.* El motor de lectura que hay detrás de media docena de apps que no sabes que lo usan. Si programas, esto te ahorra el trabajo de dibujar un libro.
+• *`koodo-reader/koodo-reader` — ★28.679 · AGPL-3.0 · release v2.4.6 del 7 de octubre.* Gestor y lector de libros con sincronización y respaldo, para computadora. No es manga: es el vecino grande que resolvió el cajón tres antes que nadie.
+• *`Suwayomi/Suwayomi-VUI` — ★54 · MPL-2.0 · empuje del 12 de octubre · release r1417 del 12 de octubre.* Otra interfaz web para el servidor de Suwayomi. Cincuenta y cuatro estrellas y una versión de este mes: chiquita y viva.
+
+*Y los dos cebos, que también hay que medir:*
+
+• *`sri-sivaram/Neko-Manga-Pearl` — ★116 · HTML · sin licencia · creado el 28 de junio de 2026.*
+• *`khaledmahmud5286-cmd/manga-zen-reader` — ★113 · HTML · sin licencia · creado el 28 de junio de 2026.*
+
+Los dos se describen como «la mejor alternativa open source 2026» de apps que ya existen, usan el nombre de otro proyecto en el título para salir en la búsqueda, no tienen una línea de código de aplicación y **no declaran licencia**. Un lector de cómics no se escribe en HTML. Si mañana te aparece uno de estos en un grupo, ya sabes qué es: un anuncio que espera su clic.
+
+*Lo que este censo no dice:* cuánta gente usa cada uno. Las estrellas miden curiosidad, no adopción: un proyecto con ★116 puede tener más usuarios reales que uno con ★1.900 que todos miraron y nadie instaló.
 
 *🏘️ Cuatro migraciones del barrio (con lo que costó cada una)*
 
@@ -530,9 +565,9 @@ En un teléfono de 64 GB esto no es un detalle: es la diferencia entre tener lec
 
 *La suma de las cuatro:* tres de cada cuatro pérdidas se habrían evitado con un botón que estaba en ajustes y nadie pulsó.
 
-⏬ sigue abajo · parte 15 de 27
+⏬ sigue abajo · parte 16 de 26
 
-═══ MENSAJE 17 de 28 · 2706 caracteres ═══
+═══ MENSAJE 18 de 27 · 2706 caracteres ═══
 
 *❓ Preguntas frecuentes (las que de verdad llegan)*
 
@@ -569,46 +604,9 @@ El respaldo restaura la biblioteca, el historial y las categorías; no restaura 
 *«¿Los servidores son seguros?»*
 Un servidor en tu casa, en tu red, es tan seguro como tu red. Expuesto a internet sin protección, es un problema que te estás buscando. Si no sabes qué significa «expuesto a internet», no lo expongas.
 
-⏬ sigue abajo · parte 16 de 27
+⏬ sigue abajo · parte 17 de 26
 
-═══ MENSAJE 18 de 28 · 2152 caracteres ═══
-
-*⏳ El reloj de este ecosistema: qué pasa si un día se cae*
-
-No es pesimismo: es planeación. Qué haría yo si mañana desapareciera el repositorio de Mihon.
-
-*Lo primero:* no tocar nada. La app instalada sigue abriendo, tu biblioteca sigue ahí y el respaldo sigue siendo válido. El pánico es lo que rompe, no la noticia.
-
-*Lo segundo:* mirar los forks que ya conozco. Komikku, Neko, Kototoro seguían vivos esta mañana. Uno de ellos tomaría el relevo, como pasó en 2024.
-
-*Lo tercero:* el catálogo. Los repositorios de extensiones son independientes del motor: `keiyoushi` y `yuzono` empujaron hoy y no dependen de que Mihon exista. Lo que se rompería es el motor, no el catálogo.
-
-*Lo cuarto:* el archivo. Y aquí está la parte buena: el archivo es tuyo, está en un formato que leen seis apps distintas y está respaldado fuera del teléfono. Esa es la razón por la que esta pieza insiste tanto en el cajón tres.
-
-*Lo que de verdad me preocuparía, y lo digo:* que el ecosistema se cierre en una sola app. Hoy no pasa: hay seis motores activos, cuatro canales de extensiones y tres servidores. La diversidad es la garantía, no la popularidad de uno.
-
-*🧭 Cómo elegir en cinco preguntas*
-
-Esto es la pieza en formato de decisión, para el que no quiere leer 56 minutos.
-
-*1 · ¿Qué quería hacer con el teléfono?*
-Seguir series nuevas → motor (Mihon/Komikku). Leer lo que ya tengo en disco → servidor propio (Komga/Kavita). Las dos cosas → los dos, con dos cajones separados.
-
-*2 · ¿Cuánto aguanta mi teléfono?*
-Menos de 3 GB de RAM → Mihon, extensiones justas, descargas mínimas. Gama alta → lo que quieras, incluso servidor en el propio teléfono.
-
-*3 · ¿Leo en más de un aparato?*
-No → lector normal y respaldo. Sí → servidor, o acepta que uno es principal.
-
-*4 · ¿Cuánto pesa mi biblioteca en años?*
-Poco → prueba lo nuevo. Mucho → quédate en la familia y respalda; mudanzas a otros mundos se pagan.
-
-*5 · ¿Cuánto tiempo quiero dedicarle al mantenimiento?*
-Cinco minutos al mes → Mihon y tres extensiones. Una hora al mes → fork con más funciones y catálogo curado. Un fin de semana al año → servidor propio con Komga y Suwayomi.
-
-⏬ sigue abajo · parte 17 de 27
-
-═══ MENSAJE 19 de 28 · 1891 caracteres ═══
+═══ MENSAJE 19 de 27 · 3289 caracteres ═══
 
 *📺 Anime: el hermano que va por otro camino*
 
@@ -624,64 +622,21 @@ Si el manga tiene su familia, el anime tiene la suya, y comparte abuelo. `aniyom
 
 *Lo que yo haría con esto, dicho sin adornos:* Aniyomi es un buen motor con un catálogo que ya no se mantiene en su casa. Si lo usas, cuenta con que el cajón dos está envejeciendo y el cajón tres —tu historial de series— es lo único que de verdad te importa conservar. Respaldo, como siempre.
 
-⏬ sigue abajo · parte 18 de 27
+*🕰️ La edad de este censo, y por qué se mide dos veces*
 
-═══ MENSAJE 20 de 28 · 3500 caracteres ═══
+Esta es la segunda vez que mido el mueble en el mismo día, y las dos mediciones no coinciden exactamente. No es un error: es el tema de la pieza. `kodjodevf/mangayomi` tenía ★4.285 en la primera pasada y ★4.286 unas horas después. Un repositorio que ganó una estrella mientras yo escribía.
 
-*🗄️ Los vecinos que no son de la familia (y por qué conviene conocerlos)*
+Por eso el censo nuevo de hoy vale lo que vale la fecha: si lo abres en marzo, la mitad de los números serán viejos y los que hoy nacieron tendrán meses. Lo que no envejece es lo que aprendiste a mirar: *fecha de creación, licencia declarada, lenguaje, release con archivo y quién responde.*
 
-No todo es Tachiyomi. Hay software de lectura que no tiene nada que ver con este árbol y que a veces resuelve mejor lo que buscas.
+*Qué envejece rápido:* las estrellas (a diario), los empujes (a horas), las releases (a semanas), los enlaces de descarga.
+*Qué envejece lento:* las licencias, la arquitectura de tres cajones, los nombres canónicos, el formato del respaldo.
+*Qué no envejece:* que Tachiyomi cerró y el ecosistema siguió; que Kotatsu se archivó con su aviso; que el único cajón que no se puede volver a descargar es el tuyo.
 
-*`koreader/koReader` — **★30.777 · AGPL-3.0 · Lua · empujó en las últimas horas · release v2026.07.1**.*
-El lector de libros electrónicos libre más respetado que existe, con versiones para lectores de tinta electrónica, Android y Linux. No sabe de mangas: sabe de EPUB, PDF y CBZ, y lo hace mejor que casi todo. *Cuándo te sirve:* si lo que tienes son archivos, no fuentes. *Lo que enseña:* un lector puede ser excelente sin catálogo. Aquí el cajón dos no existe y el cajón uno es tan bueno que no hace falta.
+*Y lo que no medí, dicho sin adornos:* no sé cuánta gente usa cada app de estos cincuenta y tres repositorios. Las estrellas son curiosidad acumulada, no usuarios. No sé si tu teléfono concreto soporta tal versión mínima. No sé si tal sitio funciona en tu red hoy. Cualquiera que te dé esos tres datos como certezas te vende una foto por un plano.
 
-*`janeczku/calibre-web` — **★18.512 · GPL-3.0 · Python · empuje 10-oct · release 0.6.27**.*
-Interfaz web para tu biblioteca de Calibre: te da un catálogo navegable, descargas y un servidor OPDS —el formato estándar para que cualquier lector se conecte a un catálogo—. *Cuándo te sirve:* cuando tienes libros y cómics en casa y quieres acceder desde cualquier lado sin nube de por medio.
+⏬ sigue abajo · parte 18 de 26
 
-*`crocodilestick/Calibre-Web-Automated` — **★6.525 · GPL-3.0 · empuje 9-oct · release v4.0.8**.*
-El mismo concepto, con ingesta automática: dejas un archivo en una carpeta y aparece en la biblioteca con metadatos. Para el que colecciona y no quiere organizar a mano.
-
-*`KotatsuApp/kotatsu-parsers` — **★323 · GPL-3.0 · ARCHIVADO · último empuje 3-nov-2025 · release 1.7**.*
-Los parsers de Kotatsu, el lector archivado. Se puede leer su código para entender cómo se escribe un conector, pero no se actualiza. Es el ejemplo perfecto de una pieza del cajón dos que muere con su motor.
-
-*`mihonapp/website` — **★383 · MPL-2.0 · empujó en las últimas horas**.*
-La página oficial del proyecto vivo. Parece un detalle tonto, pero no lo es: un proyecto que mantiene su sitio actualizado está diciendo que tiene gente pendiente de él. Cuando un proyecto no toca su web en dos años, la web sigue prometiendo cosas que ya no existen.
-
-*Lo que estos cuatro enseñan juntos:* el ecosistema no es una sola familia. Hay lectores que no buscan nada en internet (KOReader), servidores que ordenan lo que ya tienes (Calibre-Web), y proyectos que solo dejan su código como referencia (kotatsu-parsers). Saber cuál es cuál te ahorra instalar la herramienta equivocada para el trabajo correcto.
-
-*🩺 Salud y hábitos: el aparato no se gasta, la persona sí*
-
-Esto no es relleno de bienestar; es la parte que casi ninguna guía de apps pone y que a mí me importa más que el resto.
-
-*La postura.* Una hora con la cabeza baja carga el cuello más que levantar peso. Apoya los codos y sube el teléfono a la altura de los ojos. Si te duele el cuello al terminar, la app no tiene la culpa.
-
-*La vista.* Brillo propio, fondo negro y modo nocturno: úsalos. Y la regla de veinte: cada veinte minutos, veinte segundos mirando algo a seis metros. Es la única forma de que el ojo enfoque lejos.
-
-*El sueño.* La luz azul importa menos que la hora: leer hasta las tres desplaza el sueño aunque la pantalla sea cálida.
-
-*La muñeca.* Leer en horizontal con el teléfono de lado cansa la mano que lo sostiene. Un soporte de mesa de dos dólares resuelve lo que ningún ajuste resuelve.
-
-*El hábito que sí cambia algo:* descargar con red buena y leer sin ella. No es solo por datos: leer sin la tentación de otra pestaña es leer mejor.
-
-*Y lo que no voy a hacer:* decirte cuántas horas leer. Eso lo decides tú.
-
-⏬ sigue abajo · parte 19 de 27
-
-═══ MENSAJE 21 de 28 · 2190 caracteres ═══
-
-*🕰️ Nota sobre la edad de estos datos*
-
-Esto merece su propio bloque porque es la diferencia entre una guía útil y una guía que engaña.
-
-*Todo lo que está medido aquí lleva fecha:* sábado 31 de octubre de 2026. Las estrellas, los empujes, las releases y los 404 se consultaron ese día con la API de GitHub, uno por uno, y el resultado está en la ficha.
-
-*Qué envejece rápido:* las estrellas (cambian a diario), los empujes (a horas), las releases (a semanas). Si lees esto dentro de seis meses, la mitad de los números estarán viejos.
-
-*Qué envejece lento:* las licencias, la arquitectura, los nombres de los repositorios. Un Apache-2.0 no se convierte en otra cosa; un diseño de motor más conectores sigue siendo el mismo diseño.
-
-*Qué no envejece:* que Tachiyomi murió y el ecosistema siguió, que Kotatsu se archivó con su aviso, que el respaldo es lo único que no se puede volver a descargar. Eso pasó y no cambia con el tiempo.
-
-*Lo que recomiendo:* cuando abras una guía con números, busca cuándo se midieron. Si no lo dice, no es una guía: es publicidad con formato de guía.
+═══ MENSAJE 20 de 27 · 1108 caracteres ═══
 
 *🧾 Lo que me costó escribir esto*
 
@@ -695,71 +650,86 @@ Transparencia, que es la casa: esta pieza no la escribí en una tarde. Requirió
 
 Lo que no medí y por tanto no afirmo: cuánta gente usa cada app de verdad. Las estrellas no son usuarios y no las uso como si lo fueran. Tampoco afirmo qué sitio de cómics está disponible hoy en tu país: eso cambia por red, por hora y por proveedor, y cualquier lista que te dé eso como verdad eterna te está vendiendo humo.
 
-⏬ sigue abajo · parte 20 de 27
+⏬ sigue abajo · parte 19 de 26
 
-═══ MENSAJE 22 de 28 · 3683 caracteres ═══
+═══ MENSAJE 21 de 27 · 3628 caracteres ═══
 
-*📋 LA FICHA DE HOY — 32 repositorios del mueble, medidos uno por uno*
+*📋 LA FICHA DE HOY — 53 repositorios del mueble, medidos uno por uno*
 
-Medido el sábado 31 de octubre de 2026 con la API de GitHub; los ocho restantes van en sus bloques. Estrellas de hoy, empuje declarado por la API, licencia que el repositorio reconoce, última release y su fecha.
+Medido hoy con la API de GitHub: estrellas, licencia que el repositorio declara, último empuje y última release con su fecha. Lo que dice **archivado** o **404** va marcado, no disimulado.
 
-*Motores (el cajón uno):*
+*Los motores y sus forks:*
 
-• *mihonapp/mihon* — ★24.913 · Apache-2.0 · Kotlin · empuje 26-oct · release v0.21.3 (25-oct) → el sucesor directo
-• *KotatsuApp/Kotatsu* — ★8.943 · GPL-3.0 · **ARCHIVADO** · último empuje 4-nov-2025 · sin release reciente → el que se cerró
-• *aniyomiorg/aniyomi* — ★7.863 · Apache-2.0 · empuje 14-sep · release v0.18.2.1 (14-sep) → el hermano para anime
-• *komikku-app/komikku* — ★4.963 · Apache-2.0 · empuje 21-oct · release v1.14.1 (17-jul) → el fork con más funciones
-• *kodjodevf/mangayomi* — ★4.285 · Apache-2.0 · empujó hoy · release v0.9.9 → el primo independiente
-• *nekomangaorg/Neko* — ★2.818 · Apache-2.0 · empujó en las últimas horas · release 3.8.5 (30-oct) → el de los catálogos paralelos
-• *Kototoro-app/Kototoro* — ★656 · Apache-2.0 · empujó hoy · release v2.3.4 (29-oct) → el más joven y el más rápido
-• *Mister-album/Koharia* — ★252 · Apache-2.0 · empuje 27-oct · release v0.7.5 (27-oct) → chiquito, vivo
-• *Koitharu/OpenManga* — ★182 · sin licencia clara (NOASSERTION) · **ARCHIVADO** · último empuje 2-feb-2020 · release v4.7.1 (2019) → el abuelo, para estudiar
-• *RecordXenon/Kotatsu-Ultra* — ★117 · sin licencia declarada · empuje 22-oct → el fork que sobrevivió
-• *Nyora-Manga/nyora-android* — ★58 · GPL-3.0 · empuje 23-sep · release v2.7.3 (31-jul) → independiente
-• *hotaro26/miko* — ★33 · sin licencia declarada · empuje 11-sep · release v3.3 (3-ago) → dormido
-• *Utolaris/Kujira-Manga* — ★17 · GPL-3.0 · empuje 25-oct · release v1.5.3 (25-oct) → el más pequeño y activo
-• *Wammy-app/Wammy* — ★13 · Apache-2.0 · empuje 25-oct · release v0.1.4 (25-oct) → recién nacido
-• *ruzhe85/MihonSY* — ★48 · Apache-2.0 · empuje 28-oct · release v1.2.1 (7-oct) → fork de fork
+• `mihonapp/mihon` — ★24.913 · Apache-2.0 · push 26-oct · rel v0.21.3 (25-oct)
+• `komikku-app/komikku` — ★4.963 · Apache-2.0 · push 21-oct · rel v1.14.1 (17-jul)
+• `null2264/yokai` — ★1.914 · Apache-2.0 · push 13-oct · rel v1.10.2 (23-sep)
+• `nekomangaorg/Neko` — ★2.818 · Apache-2.0 · push 1-nov · rel 3.8.5 (30-oct)
+• `Kototoro-app/Kototoro` — ★656 · Apache-2.0 · push 31-oct · rel v2.3.4 (29-oct)
+• `kodjodevf/mangayomi` — ★4.286 · Apache-2.0 · push 31-oct · rel v0.9.9 (12-oct)
+• `aniyomiorg/aniyomi` — ★7.863 · Apache-2.0 · push 14-sep · rel v0.18.2.1 (14-sep)
+• `jakepurple13/OtakuWorld` — ★637 · Apache-2.0 · push 31-oct · rel v32.1.2 (29-jun)
+• `UsagiApp/Usagi` — ★288 · GPL-3.0 · push 30-oct · rel v1.2 (3-oct)
+• `Chimahon/chimahon` — ★239 · GPL-3.0 · push 28-oct · rel v2.4.8 (19-oct)
+• `yomihon/yomihon` — ★142 · Apache-2.0 · push 18-oct · rel v0.4.3 (18-oct)
+• `roxycon-dev/Ciallo-Reader` — ★261 · MIT · push 29-oct · rel v1.5.10 (29-oct)
+• `kmworks/kmreader` — ★116 · MIT · push 31-oct · rel v7.3 (22-oct)
+• `Mister-album/Koharia` — ★252 · Apache-2.0 · push 27-oct · rel v0.7.5 (27-oct)
+• `Nyora-Manga/nyora-android` — ★58 · GPL-3.0 · push 23-sep · rel v2.7.3 (31-jul)
+• `Utolaris/Kujira-Manga` — ★17 · GPL-3.0 · push 25-oct · rel v1.5.3 (25-oct)
+• `Wammy-app/Wammy` — ★13 · Apache-2.0 · push 25-oct · rel v0.1.4 (25-oct)
+• `ruzhe85/MihonSY` — ★48 · Apache-2.0 · push 28-oct · rel v1.2.1 (7-oct)
+• `RecordXenon/Kotatsu-Ultra` — ★117 · sin licencia declarada · push 22-oct · sin release
+• `hotaro26/miko` — ★33 · sin licencia declarada · push 11-sep · rel v3.3 (3-ago)
+• `AngeloSha/uchiyomi` — ★98 · MPL-2.0 · push 31-oct · rel v0.103.1 (31-oct)
 
-*Catálogos (el cajón dos):*
+*Los catálogos de extensiones:*
 
-• *keiyoushi/extensions-source* — ★4.839 · Apache-2.0 · empujó hoy → el catálogo grande vivo
-• *timschneeb/tachiyomi-extensions-archive* — ★1.802 · Apache-2.0 · **ARCHIVADO** · empuje 23-mar-2026 → el archivo histórico
-• *yuzono/tachiyomi-extensions* — ★953 · Apache-2.0 · empujó hoy → el canal alternativo
-• *aidoku-community/sources* — ★613 · Apache-2.0 · empuje 30-oct → catálogo para iOS
-• *m2k3a/mangayomi-extensions* — ★113 · Apache-2.0 · empuje 29-oct → el catálogo del primo
-• *skepsun/kototoro-parsers* — ★17 · GPL-3.0 · empuje 28-oct → los parsers de Kototoro, aparte
+• `keiyoushi/extensions-source` — ★4.839 · Apache-2.0 · push 1-nov · sin release
+• `yuzono/tachiyomi-extensions` — ★953 · Apache-2.0 · push 1-nov · sin release
+• `m2k3a/mangayomi-extensions` — ★113 · Apache-2.0 · push 29-oct · sin release
+• `skepsun/kototoro-parsers` — ★17 · GPL-3.0 · push 28-oct · sin release
+• `aidoku-community/sources` — ★613 · Apache-2.0 · push 30-oct · sin release
+• `timschneeb/tachiyomi-extensions-archive` — ★1.802 · Apache-2.0 · **archivado** · push 23-mar · sin release
+• `aniyomiorg/aniyomi-extensions` — ★849 · Apache-2.0 · **archivado** · push 19-ago · sin release
 
-*Servidores y bibliotecas (el cajón tres):*
+*Servidores y bibliotecas:*
 
-• *Kareadita/Kavita* — ★11.987 · GPL-3.0 · empujó hoy · release v0.9.1.4 (2-sep) → biblioteca propia, la más popular
-• *Suwayomi/Suwayomi-Server* — ★7.982 · MPL-2.0 · empuje 24-oct · release v2.4.2366 (30-sep) → el motor en servidor
-• *gotson/komga* — ★6.805 · MIT · empujó hoy · release 1.29.2 (28-oct) → biblioteca de cómics
-• *Snd-R/komf* — ★738 · MIT · empuje 27-sep · release 2.1.0 (27-sep) → metadatos automáticos
-• *Suwayomi/Suwayomi-Server-docker* — ★575 · MPL-2.0 · empuje 29-oct → el servidor en un comando
-• *Suwayomi/Suwayomi-JUI* — ★498 · MPL-2.0 · empuje 15-oct · release v1.3.3 (**marzo de 2024**) → interfaz web, código vivo y release de hace 19 meses
-• *Snd-R/Komelia* — ★437 · Apache-2.0 · empuje 29-oct · release 0.20.0 (27-sep) → cliente de Komga
-• *C9Glax/tranga* — ★395 · GPL-3.0 · empuje 26-oct · release 1.5 (**junio de 2023**) → descarga automática, release vieja
-• *Suwayomi/Suwayomi-Tsumiru* — ★107 · MPL-2.0 · empuje 30-oct · release v1.6.3 (30-oct) → cliente chiquito
+• `Suwayomi/Suwayomi-Server` — ★7.982 · MPL-2.0 · push 24-oct · rel v2.4.2366 (30-sep)
+• `Suwayomi/Suwayomi-JUI` — ★498 · MPL-2.0 · push 15-oct · rel v1.3.3 (31-mar)
+• `Suwayomi/Suwayomi-Tsumiru` — ★107 · MPL-2.0 · push 30-oct · rel v1.6.3 (30-oct)
+• `Suwayomi/Suwayomi-VUI` — ★54 · MPL-2.0 · push 12-oct · rel r1417 (12-oct)
+• `Suwayomi/Suwayomi-Server-docker` — ★575 · MPL-2.0 · push 29-oct · sin release
+• `Kareadita/Kavita` — ★11.987 · GPL-3.0 · push 1-nov · rel v0.9.1.4 (2-sep)
+• `gotson/komga` — ★6.805 · MIT · push 1-nov · rel 1.29.2 (28-oct)
+• `BookHeaven/BookHeaven.Server` — ★197 · GPL-3.0 · push 30-oct · rel v1.0.4 (30-oct)
+• `Snd-R/Komelia` — ★437 · Apache-2.0 · push 29-oct · rel 0.20.0 (27-sep)
+• `Snd-R/komf` — ★738 · MIT · push 27-sep · rel 2.1.0 (27-sep)
+• `C9Glax/tranga` — ★395 · GPL-3.0 · push 26-oct · rel 1.5 (20-jun)
+• `chmouel/liseur` — ★169 · MIT · push 1-nov · rel v0.26.0 (28-oct)
+• `zmz125000/LocalViewer` — ★197 · GPL-3.0 · push 1-nov · rel 1.13.22 (31-oct)
 
-⏬ sigue abajo · parte 21 de 27
+⏬ sigue abajo · parte 20 de 26
 
-═══ MENSAJE 23 de 28 · 3371 caracteres ═══
+═══ MENSAJE 22 de 27 · 1921 caracteres ═══
 
-• *AngeloSha/uchiyomi* — ★98 · MPL-2.0 · empujó hoy · release v0.103.1 (hoy) → otro cliente del servidor
+• `readium/kotlin-toolkit` — ★395 · BSD-3-Clause · push 16-oct · rel 3.4.0 (11-sep)
+• `koodo-reader/koodo-reader` — ★28.679 · AGPL-3.0 · push 1-nov · rel v2.4.6 (7-oct)
 
-*Los tres muertos de esta pieza:*
+*Descargadores y lectores de terminal:*
 
-• *tachiyomiorg/tachiyomi* — **404**. La casa original. Se nombra para que nadie copie el enlace de un tutorial viejo.
-• *Mangayomi-app/Mangayomi* — **404**. El nombre viejo de Mangayomi; el vivo es `kodjodevf/mangayomi`.
-• *Paperback-Community/Paperback* — **404** con ese nombre. Si lo ves en una lista, verifica antes de instalarlo.
+• `josueBarretogit/manga-tui` — ★954 · MIT · push 1-nov · rel v0.10.1 (1-nov)
+• `elboletaire/manga-downloader` — ★289 · AGPL-3.0 · push 31-oct · rel v24.1.0 (30-oct)
+• `MapoMagpie/comic-looms` — ★812 · MIT · push 22-oct · rel 4.16.1 (9-oct)
+• `KamiYomu/KamiYomu` — ★150 · AGPL-3.0 · push 20-sep · rel 1.4.0 (1-sep)
+• `Yui007/weebcentral_downloader` — ★175 · MIT · push 23-ago · sin release
 
-*Los dos casos que enseñan a mirar dos veces:*
+*Archivados y muertos, para que se sepa:*
 
-• *Suwayomi-JUI*: código empujado hace 16 días, release de marzo de 2024. Si solo miras releases, lo declaras abandonado y te equivocas.
-• *komikku*: release de julio, empuje de octubre. Si solo miras empujes, crees que hay versión nueva cada semana y tampoco es verdad.
-
-*Método:* un 404 se registra como muerto con su fecha. Un archivado se marca archivado, no muerto. Un 403 o un 429 nunca se convierten en muerte, porque significan que el servidor no me dejó preguntar. Y las licencias se leen en el repositorio, no en la primera vez que aparece la palabra «MIT» en un README.
+• `KotatsuApp/Kotatsu` — ★8.943 · GPL-3.0 · **archivado** · push 4-nov · sin release
+• `Koitharu/OpenManga` — ★182 · NOASSERTION · **archivado** · push 2-feb · rel v4.7.1 (20-jul)
+• `tachiyomiorg/tachiyomi` — **404 hoy**
+• `Mangayomi-app/Mangayomi` — **404 hoy**
+• `Paperback-Community/Paperback` — **404 hoy**
 
 *📖 Glosario del mueble*
 
@@ -776,48 +746,78 @@ Medido el sábado 31 de octubre de 2026 con la API de GitHub; los ocho restantes
 • *Servidor* — el motor corriendo fuera del teléfono.
 • *Biblioteca* — el cajón tres. Lo único que no se puede volver a descargar.
 
-*🔗 Enlaces de esta pieza (los canónicos)*
+⏬ sigue abajo · parte 21 de 26
 
-*Motores:*
+═══ MENSAJE 23 de 27 · 3645 caracteres ═══
+
+*🔗 Enlaces de esta pieza (canónicos)*
+
+*Los motores y sus forks:*
 https://github.com/mihonapp/mihon
 https://github.com/komikku-app/komikku
+https://github.com/null2264/yokai
 https://github.com/nekomangaorg/Neko
 https://github.com/Kototoro-app/Kototoro
 https://github.com/kodjodevf/mangayomi
 https://github.com/aniyomiorg/aniyomi
-https://github.com/ruzhe85/MihonSY
-https://github.com/RecordXenon/Kotatsu-Ultra
+https://github.com/jakepurple13/OtakuWorld
+https://github.com/UsagiApp/Usagi
+https://github.com/Chimahon/chimahon
+https://github.com/yomihon/yomihon
+https://github.com/roxycon-dev/Ciallo-Reader
+https://github.com/kmworks/kmreader
+https://github.com/Mister-album/Koharia
 https://github.com/Nyora-Manga/nyora-android
 https://github.com/Utolaris/Kujira-Manga
-https://github.com/Mister-album/Koharia
 https://github.com/Wammy-app/Wammy
+https://github.com/ruzhe85/MihonSY
+https://github.com/RecordXenon/Kotatsu-Ultra
+https://github.com/hotaro26/miko
+https://github.com/AngeloSha/uchiyomi
 
-*Catálogos:*
+*Los catálogos de extensiones:*
 https://github.com/keiyoushi/extensions-source
 https://github.com/yuzono/tachiyomi-extensions
-https://github.com/timschneeb/tachiyomi-extensions-archive
 https://github.com/m2k3a/mangayomi-extensions
 https://github.com/skepsun/kototoro-parsers
 https://github.com/aidoku-community/sources
+https://github.com/timschneeb/tachiyomi-extensions-archive
+https://github.com/aniyomiorg/aniyomi-extensions
 
-*Servidores:*
+*Servidores y bibliotecas:*
 https://github.com/Suwayomi/Suwayomi-Server
-https://github.com/Suwayomi/Suwayomi-Server-docker
 https://github.com/Suwayomi/Suwayomi-JUI
 https://github.com/Suwayomi/Suwayomi-Tsumiru
-https://github.com/AngeloSha/uchiyomi
-https://github.com/gotson/komga
+https://github.com/Suwayomi/Suwayomi-VUI
+https://github.com/Suwayomi/Suwayomi-Server-docker
 https://github.com/Kareadita/Kavita
+https://github.com/gotson/komga
+https://github.com/BookHeaven/BookHeaven.Server
 https://github.com/Snd-R/Komelia
 https://github.com/Snd-R/komf
 https://github.com/C9Glax/tranga
+https://github.com/chmouel/liseur
+https://github.com/zmz125000/LocalViewer
+https://github.com/readium/kotlin-toolkit
+https://github.com/koodo-reader/koodo-reader
 
-*El que se cerró, para que se sepa:*
+*Descargadores y lectores de terminal:*
+https://github.com/josueBarretogit/manga-tui
+https://github.com/elboletaire/manga-downloader
+https://github.com/MapoMagpie/comic-looms
+https://github.com/KamiYomu/KamiYomu
+https://github.com/Yui007/weebcentral_downloader
+
+*Archivados y muertos, para que se sepa:*
 https://github.com/KotatsuApp/Kotatsu
+https://github.com/Koitharu/OpenManga
+https://github.com/tachiyomiorg/tachiyomi
+https://github.com/Mangayomi-app/Mangayomi
+https://github.com/Paperback-Community/Paperback
 
-⏬ sigue abajo · parte 22 de 27
-
-═══ MENSAJE 24 de 28 · 1132 caracteres ═══
+*El vecino grande que no es de la familia:*
+https://github.com/koreader/koReader
+https://github.com/janeczku/calibre-web
 
 *🌅 Cierre — el mueble que se puede mudar*
 
@@ -827,73 +827,92 @@ Tachiyomi murió y su ecosistema floreció porque el código estaba en miles de 
 
 La app que uses mañana puede no ser la de hoy. Tu archivo sí puede ser el mismo, si lo cuidas. Ese es el cajón que importa, y es el único que no cuesta nada: ni cuenta, ni nube, ni suscripción.
 
-💓 *La Bandita · sábado 31 de octubre de 2026 · 23:33 hora de Santo Domingo.* Medí hoy, uno por uno, los 40 repositorios de esta pieza: 37 vivos, 3 muertos con su 404 a la vista, 3 archivados marcados como tales. Los números llevan fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.
+💓 *La Bandita · domingo 1 de noviembre de 2026 · hora de Santo Domingo.* Medí hoy, uno por uno, los 53 repositorios de esta pieza: 46 vivos, 4 archivados y 3 muertos con su 404 a la vista, 3 archivados marcados como tales. Los números llevan fecha; lo que no medí está dicho arriba como no medido. Si mañana abres esto y algo cambió, la edad del dato está escrita al lado para que no te engañe.
 
-⏬ sigue abajo · parte 23 de 27
+⏬ sigue abajo · parte 22 de 26
 
-═══ MENSAJE 25 de 28 · 3921 caracteres ═══
+═══ MENSAJE 24 de 27 · 3836 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 40 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 56 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions-source — ★4.839 (+8) · sin fecha de empuje · Apache-2.0
-• yuzono/tachiyomi-extensions — ★953 · sin fecha de empuje · Apache-2.0
-• timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (222 días) · Apache-2.0 · *ARCHIVADO*
-• m2k3a/mangayomi-extensions — ★113 · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0
+• keiyoushi/extensions-source — ★4.839 (+8) · empujó en las últimas horas · Apache-2.0
+• yuzono/tachiyomi-extensions — ★953 · empujó en las últimas horas · Apache-2.0
+• timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (223 días) · Apache-2.0 · *ARCHIVADO*
+• m2k3a/mangayomi-extensions — ★113 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
 • tachiyomiorg/tachiyomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• mihonapp/mihon — ★24.913 (+73) · empujó el 26-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• komikku-app/komikku — ★4.963 (+7) · empujó el 21-oct-2026 (hace 10 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• nekomangaorg/Neko — ★2.818 (+1) · sin fecha de empuje · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• mihonapp/mihon — ★24.913 (+73) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• komikku-app/komikku — ★4.963 (+7) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• nekomangaorg/Neko — ★2.818 (+1) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0
-• ruzhe85/MihonSY — ★48 · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.2.1 (7-oct-2026)
-• RecordXenon/Kotatsu-Ultra — ★117 · empujó el 22-oct-2026 (hace 9 días) · sin licencia detectada por la API
-• Nyora-Manga/nyora-android — ★58 · empujó el 23-sep-2026 (hace 38 días) · GPL-3.0 · última release v2.7.3 (31-jul-2026)
-• Utolaris/Kujira-Manga — ★17 · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.5.3 (25-oct-2026)
-• Mister-album/Koharia — ★252 · empujó el 27-oct-2026 (hace 4 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)
-• Wammy-app/Wammy — ★13 (sin cambio) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.1.4 (25-oct-2026)
-• hotaro26/miko — ★33 · *dormido*: sin empujar desde el 11-sep-2026 (50 días) · sin licencia detectada por la API · última release v3.3 (3-ago-2026)
-• kodjodevf/mangayomi — ★4.285 · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
+• skepsun/kototoro-parsers — ★17 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
+• ruzhe85/MihonSY — ★48 · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.2.1 (7-oct-2026)
+• RecordXenon/Kotatsu-Ultra — ★117 · empujó el 22-oct-2026 (hace 10 días) · sin licencia detectada por la API
+• Nyora-Manga/nyora-android — ★58 · empujó el 23-sep-2026 (hace 39 días) · GPL-3.0 · última release v2.7.3 (31-jul-2026)
+• Utolaris/Kujira-Manga — ★17 · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.5.3 (25-oct-2026)
+• Mister-album/Koharia — ★252 · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)
+• Wammy-app/Wammy — ★13 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.1.4 (25-oct-2026)
+• hotaro26/miko — ★33 · *dormido*: sin empujar desde el 11-sep-2026 (51 días) · sin licencia detectada por la API · última release v3.3 (3-ago-2026)
+• kodjodevf/mangayomi — ★4.286 · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
 • Mangayomi-app/Mangayomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (361 días) · GPL-3.0 · *ARCHIVADO*
-• Suwayomi/Suwayomi-Server — ★7.982 · empujó el 24-oct-2026 (hace 7 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
-• Suwayomi/Suwayomi-Server-docker — ★575 · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0
-• Suwayomi/Suwayomi-JUI — ★498 · empujó el 15-oct-2026 (hace 16 días) · MPL-2.0 · última release v1.3.3 (31-mar-2024)
-• Suwayomi/Suwayomi-Tsumiru — ★107 · empujó en las últimas horas · MPL-2.0 · última release v1.6.3 (30-oct-2026)
+• KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
+• Suwayomi/Suwayomi-Server — ★7.982 · empujó el 24-oct-2026 (hace 8 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
+• Suwayomi/Suwayomi-Server-docker — ★575 · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0
+• Suwayomi/Suwayomi-JUI — ★498 · empujó el 15-oct-2026 (hace 17 días) · MPL-2.0 · última release v1.3.3 (31-mar-2024)
+• Suwayomi/Suwayomi-Tsumiru — ★107 · empujó el 30-oct-2026 (hace 2 días) · MPL-2.0 · última release v1.6.3 (30-oct-2026)
 • AngeloSha/uchiyomi — ★98 · empujó en las últimas horas · MPL-2.0 · última release v0.103.1 (31-oct-2026)
-• gotson/komga — ★6.805 · sin fecha de empuje · MIT · última release 1.29.2 (28-oct-2026)
-• Kareadita/Kavita — ★11.987 · sin fecha de empuje · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
-• Snd-R/Komelia — ★437 · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release 0.20.0 (27-sep-2026)
-• Snd-R/komf — ★738 · empujó el 27-sep-2026 (hace 34 días) · MIT · última release 2.1.0 (27-sep-2026)
-• C9Glax/tranga — ★395 · empujó el 26-oct-2026 (hace 5 días) · GPL-3.0 · última release 1.5 (20-jun-2023)
-• aniyomiorg/aniyomi — ★7.863 (+7) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• aniyomiorg/aniyomi-extensions — ★849 · *dormido*: sin empujar desde el 19-ago-2024 (803 días) · Apache-2.0 · *ARCHIVADO*
-• koreader/koReader — ★30.777 · sin fecha de empuje · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• gotson/komga — ★6.805 · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
+• Kareadita/Kavita — ★11.987 · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
+• Snd-R/Komelia — ★437 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release 0.20.0 (27-sep-2026)
+• Snd-R/komf — ★738 · empujó el 27-sep-2026 (hace 35 días) · MIT · última release 2.1.0 (27-sep-2026)
+• C9Glax/tranga — ★395 · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release 1.5 (20-jun-2023)
+• null2264/yokai — ★1.914 (+1) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
+• jakepurple13/OtakuWorld — ★637 · empujó en las últimas horas · Apache-2.0 · última release v32.1.2 (29-jun-2026)
 
-⏬ sigue abajo · parte 24 de 27
+⏬ sigue abajo · parte 23 de 26
 
-═══ MENSAJE 26 de 28 · 843 caracteres ═══
+═══ MENSAJE 25 de 27 · 2786 caracteres ═══
 
-• janeczku/calibre-web — ★18.512 · empujó el 10-oct-2026 (hace 21 días) · GPL-3.0 · última release 0.6.27 (8-ago-2026)
-• crocodilestick/Calibre-Web-Automated — ★6.525 · empujó el 9-oct-2026 (hace 22 días) · GPL-3.0 · última release v4.0.8 (28-sep-2026)
-• KotatsuApp/kotatsu-parsers — ★323 · *dormido*: sin empujar desde el 3-nov-2025 (362 días) · GPL-3.0 · última release 1.7 (15-mar-2025) · *ARCHIVADO*
-• mihonapp/website — ★383 · sin fecha de empuje · MPL-2.0
+• UsagiApp/Usagi — ★288 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
+• Chimahon/chimahon — ★239 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• yomihon/yomihon — ★142 · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
+• roxycon-dev/Ciallo-Reader — ★261 · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.5.10 (29-oct-2026)
+• kmworks/kmreader — ★116 · empujó en las últimas horas · MIT · última release v7.3 (22-oct-2026)
+• josueBarretogit/manga-tui — ★954 · empujó en las últimas horas · MIT · última release v0.10.1 (1-nov-2026)
+• elboletaire/manga-downloader — ★289 · empujó en las últimas horas · AGPL-3.0 · última release v24.1.0 (30-oct-2026)
+• MapoMagpie/comic-looms — ★812 · empujó el 22-oct-2026 (hace 10 días) · MIT · última release 4.16.1 (9-oct-2026)
+• KamiYomu/KamiYomu — ★150 · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
+• Yui007/weebcentral_downloader — ★175 · *dormido*: sin empujar desde el 23-ago-2026 (70 días) · MIT
+• chmouel/liseur — ★169 · empujó en las últimas horas · MIT · última release v0.26.0 (28-oct-2026)
+• zmz125000/LocalViewer — ★197 · empujó en las últimas horas · GPL-3.0 · última release 1.13.22 (31-oct-2026)
+• readium/kotlin-toolkit — ★395 · empujó el 16-oct-2026 (hace 16 días) · BSD-3-Clause · última release 3.4.0 (11-sep-2026)
+• koodo-reader/koodo-reader — ★28.679 (+11) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• Suwayomi/Suwayomi-VUI — ★54 · empujó el 12-oct-2026 (hace 20 días) · MPL-2.0 · última release r1417 (12-oct-2026)
+• sri-sivaram/Neko-Manga-Pearl — ★116 · empujó en las últimas horas · sin licencia detectada por la API
+• khaledmahmud5286-cmd/manga-zen-reader — ★113 · empujó en las últimas horas · sin licencia detectada por la API
+• aniyomiorg/aniyomi — ★7.863 (+7) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• aniyomiorg/aniyomi-extensions — ★849 · *dormido*: sin empujar desde el 19-ago-2024 (804 días) · Apache-2.0 · *ARCHIVADO*
 • Paperback-Community/Paperback — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• Koitharu/OpenManga — ★182 · *dormido*: sin empujar desde el 2-feb-2020 (2463 días) · NOASSERTION · última release v4.7.1 (20-jul-2019) · *ARCHIVADO*
-• aidoku-community/sources — ★613 · empujó en las últimas horas · Apache-2.0
+• aidoku-community/sources — ★613 · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
+• Koitharu/OpenManga — ★182 · *dormido*: sin empujar desde el 2-feb-2020 (2464 días) · NOASSERTION · última release v4.7.1 (20-jul-2019) · *ARCHIVADO*
+• koreader/koReader — ★30.777 · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• janeczku/calibre-web — ★18.512 · empujó el 10-oct-2026 (hace 22 días) · GPL-3.0 · última release 0.6.27 (8-ago-2026)
 
-⏬ sigue abajo · parte 25 de 27
+⏬ sigue abajo · parte 24 de 26
 
-═══ MENSAJE 27 de 28 · 137 caracteres ═══
+═══ MENSAJE 26 de 27 · 423 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 29 enlaces de esta pieza, *29 responden*.
-Ninguno roto.
+De los 55 enlaces de esta pieza, *52 responden*.
 
-⏬ sigue abajo · parte 26 de 27
+• https://github.com/Mangayomi-app/Mangayomi — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/Paperback-Community/Paperback — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/tachiyomiorg/tachiyomi — 404. No existe hoy: no lo abras, no lo recomiendo.
 
-═══ MENSAJE 28 de 28 · 152 caracteres ═══
+⏬ sigue abajo · parte 25 de 26
+
+═══ MENSAJE 27 de 27 · 152 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.

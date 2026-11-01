@@ -1,12 +1,12 @@
 # PIEZA 70 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/70-El-cerebro-de-los-papeles-AnythingLLM-la-memoria-habla-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `25097302b9f2e312711f2497acb42b4411ddb8ffb9965661050ed2ef7b5da02f`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 3092 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 3092 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 874 caracteres ═══
+═══ MENSAJE 1 de 4 · 875 caracteres ═══
 
 *EL CEREBRO DE LOS PAPELES*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 2 · GPL-2.0 1 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/70-El-cerebro-de-los-papeles-AnythingLLM-la-memoria-habla-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 3092 caracteres ═══
 
@@ -72,16 +72,16 @@ REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — mll-gnihtyna/sbaL-xelptniM
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 891 caracteres ═══
+═══ MENSAJE 3 de 4 · 916 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 70*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.496 (+257) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• Mintplex-Labs/anything-llm — ★67.801 (+89) · empujó en las últimas horas · MIT · última release v1.19.0 (26-oct-2026)
-• jellyfin/jellyfin — ★58.875 (+88) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• paperless-ngx/paperless-ngx — ★47.463 (+160) · sin fecha de empuje · GPL-3.0 · última release v3.4.1 (31-oct-2026)
+• ollama/ollama — ★185.497 (+258) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• Mintplex-Labs/anything-llm — ★67.801 (+89) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v1.19.0 (26-oct-2026)
+• jellyfin/jellyfin — ★58.875 (+88) · empujó el 30-oct-2026 (hace 2 días) · GPL-2.0 · última release v12.4 (26-oct-2026)
+• paperless-ngx/paperless-ngx — ★47.463 (+160) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

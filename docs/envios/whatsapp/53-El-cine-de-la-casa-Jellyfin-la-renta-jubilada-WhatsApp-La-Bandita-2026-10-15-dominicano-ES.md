@@ -1,12 +1,12 @@
 # PIEZA 53 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/53-El-cine-de-la-casa-Jellyfin-la-renta-jubilada-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `587026280c8579d68e0d972f877028bc917f8b8b080a5e41738673e33e7ce554`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2335 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2335 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 838 caracteres ═══
+═══ MENSAJE 1 de 4 · 839 caracteres ═══
 
 *EL CINE DE LA CASA*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-2.0 3.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/53-El-cine-de-la-casa-Jellyfin-la-renta-jubilada-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2335 caracteres ═══
 
@@ -68,15 +68,15 @@ REV|92-01-6202 — nifyllej/nifyllej=1|REV|0.2-LPG=2|REV|787.85★ — nifyllej/
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 705 caracteres ═══
+═══ MENSAJE 3 de 4 · 714 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 53*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jellyfin/jellyfin — ★58.875 (+88) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• jellyfin/jellyfin-androidtv — ★4.689 (+14) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
-• jellyfin/jellyfin-android — ★2.845 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• jellyfin/jellyfin — ★58.875 (+88) · empujó el 30-oct-2026 (hace 2 días) · GPL-2.0 · última release v12.4 (26-oct-2026)
+• jellyfin/jellyfin-androidtv — ★4.689 (+14) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
+• jellyfin/jellyfin-android — ★2.845 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,12 +1,12 @@
 # PIEZA 06 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `bba485f83437e7faa5f83bd3acaaeecd93595ac067b8f6f5ca948598c21a6da4`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3607 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3607 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 936 caracteres ═══
+═══ MENSAJE 1 de 5 · 937 caracteres ═══
 
 *Forks de lectores: el mapa vivo de Mihon, Aniyomi y sus segundas generaciones*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 9 · GPL-2.0 1 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3607 caracteres ═══
 
@@ -87,28 +87,29 @@ Hay release de esta semana: **syncyomi/syncyomi** publicó v1.7.4 (2026-10-29). 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1774 caracteres ═══
+═══ MENSAJE 4 de 5 · 1898 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.913 (+74) · empujó el 26-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• aniyomiorg/aniyomi — ★7.863 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 10 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• jobobby04/TachiyomiSY — ★4.199 (+3) · empujó el 28-oct-2026 (hace 3 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• nekomangaorg/Neko — ★2.818 (+1) · sin fecha de empuje · Apache-2.0 · última release 3.8.5 (30-oct-2026)
-• komikku-app/anikku — ★1.127 (+4) · empujó el 22-oct-2026 (hace 9 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
-• syncyomi/syncyomi — ★740 (+3) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
-• aniyomiorg/aniyomi-preview — ★644 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · Apache-2.0 · última release r8135 (14-sep-2026)
-• Animetailapp/Animetail — ★613 (sin cambio) · sin fecha de empuje · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
-• jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)
-• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
+• mihonapp/mihon — ★24.913 (+74) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• aniyomiorg/aniyomi — ★7.863 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• jobobby04/TachiyomiSY — ★4.199 (+3) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
+• nekomangaorg/Neko — ★2.818 (+1) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• komikku-app/anikku — ★1.127 (+4) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
+• syncyomi/syncyomi — ★740 (+3) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
+• aniyomiorg/aniyomi-preview — ★644 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release r8135 (14-sep-2026)
+• Animetailapp/Animetail — ★613 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
+• jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)
+• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 13 enlaces de esta pieza, *13 responden*.
-Ninguno roto.
+De los 13 enlaces de esta pieza, *12 responden*.
+
+• https://github.com/syncyomi/syncyomi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

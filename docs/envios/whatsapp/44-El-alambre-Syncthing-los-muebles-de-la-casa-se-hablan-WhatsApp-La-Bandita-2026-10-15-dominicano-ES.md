@@ -1,12 +1,12 @@
 # PIEZA 44 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/44-El-alambre-Syncthing-los-muebles-de-la-casa-se-hablan-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `3b766aca502cb07dbc219bc61a4793e712ec80941c684e09548f480f7e9ca620`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2851 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2851 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 838 caracteres ═══
+═══ MENSAJE 1 de 4 · 839 caracteres ═══
 
 *EL ALAMBRE*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MPL-2.0 4.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/44-El-alambre-Syncthing-los-muebles-de-la-casa-se-hablan-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2851 caracteres ═══
 
@@ -72,16 +72,16 @@ REV|378.98★ — gnihtcnys/gnihtcnys=1|REV|)12-01-6202( 7.1.2v — gnihtcnys/gn
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 871 caracteres ═══
+═══ MENSAJE 3 de 4 · 873 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 44*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (697 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
-• serverless-dns/serverless-dns — ★3.835 (+3) · *dormido*: sin empujar desde el 6-may-2026 (178 días) · MPL-2.0
-• researchxxl/syncthing-android — ★3.214 (+22) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• syncthing/syncthing — ★89.956 (+83) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
+• serverless-dns/serverless-dns — ★3.835 (+3) · *dormido*: sin empujar desde el 6-may-2026 (179 días) · MPL-2.0
+• researchxxl/syncthing-android — ★3.215 (+23) · empujó el 22-oct-2026 (hace 10 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

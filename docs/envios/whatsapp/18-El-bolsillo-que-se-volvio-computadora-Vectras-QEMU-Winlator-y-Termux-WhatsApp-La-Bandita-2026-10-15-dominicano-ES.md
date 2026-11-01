@@ -1,13 +1,13 @@
 # PIEZA 18 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/18-El-bolsillo-que-se-volvio-computadora-Vectras-QEMU-Winlator-y-Termux-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `aae93cd874eee3240ca7e952afce5ce28ebf43b8873c45019c583a29045b113e`
-- **Envío generado:** 2026-10-31 · 20 mensajes · el mayor de 3688 caracteres
+- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3688 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 - **Aviso:** la pieza original deja una valla de código sin cerrar; este envío la cierra al final del cuerpo para que se pueda leer. La pieza no se modificó.
 
-═══ MENSAJE 1 de 20 · 918 caracteres ═══
+═══ MENSAJE 1 de 20 · 919 caracteres ═══
 
 *EL BOLSILLO QUE SE VOLVIÓ COMPUTADORA*
 
@@ -21,7 +21,7 @@ Licencias de lo que recomienda: NOASSERTION 2 · GPL-2.0 2 · LGPL-2.1 1 · MIT 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/18-El-bolsillo-que-se-volvio-computadora-Vectras-QEMU-Winlator-y-Termux-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 3593 caracteres ═══
 
@@ -1093,18 +1093,18 @@ REV|686.36★ — ppa-xumret/xumret=1|REV|atnevni es on :buHtiG ed XDPS nis=2|RE
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1088 caracteres ═══
+═══ MENSAJE 19 de 20 · 1089 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 18*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• termux/termux-app — ★63.845 (+169) · empujó el 26-sep-2026 (hace 35 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• ish-app/ish — ★20.656 (+11) · empujó el 24-oct-2026 (hace 7 días) · NOASSERTION · última release builds/494 (20-may-2023)
-• brunodev85/winlator — ★19.746 (+62) · empujó el 17-oct-2026 (hace 14 días) · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
+• termux/termux-app — ★63.845 (+169) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• ish-app/ish — ★20.656 (+11) · empujó el 24-oct-2026 (hace 8 días) · NOASSERTION · última release builds/494 (20-may-2023)
+• brunodev85/winlator — ★19.746 (+62) · empujó el 17-oct-2026 (hace 15 días) · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
 • ptitSeb/box64 — ★5.699 (+4) · empujó en las últimas horas · MIT · última release v0.4.4 (2-ago-2026)
-• xoureldeen/Vectras-VM-Android — ★2.764 (+3) · empujó el 18-oct-2026 (hace 13 días) · GPL-2.0 · última release 4.5.0-3dfx (8-oct-2026)
-• AnBui2004/Vectras-VM-Emu-Android — ★306 (+1) · empujó el 14-oct-2026 (hace 17 días) · GPL-2.0 · última release 4.7.4 (14-oct-2026)
+• xoureldeen/Vectras-VM-Android — ★2.764 (+3) · empujó el 18-oct-2026 (hace 14 días) · GPL-2.0 · última release 4.5.0-3dfx (8-oct-2026)
+• AnBui2004/Vectras-VM-Emu-Android — ★306 (+1) · empujó el 14-oct-2026 (hace 18 días) · GPL-2.0 · última release 4.7.4 (14-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

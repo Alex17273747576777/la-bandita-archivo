@@ -1,12 +1,12 @@
 # PIEZA 37 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/37-La-puerta-grande-anime-video-I-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `e906b60ff836d67dae43e806ebd7d44b8d9ed0f3430a8b0993100c01dec9073a`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3693 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3693 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 944 caracteres ═══
+═══ MENSAJE 1 de 5 · 945 caracteres ═══
 
 *La puerta grande: anime y vídeo I — los del streaming, con genealogía del propio catálogo*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 5 · Apache-2.0 2 · NOASSERTION 2 · si
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/37-La-puerta-grande-anime-video-I-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3693 caracteres ═══
 
@@ -92,24 +92,24 @@ La noticia amarga: **rebelonion/Dantotsu** (bloqueado legal (451): existe) ya no
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2160 caracteres ═══
+═══ MENSAJE 4 de 5 · 2177 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 37*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• recloudstream/cloudstream — ★11.112 (+17) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
-• miru-project/miru-app — ★5.790 (+6) · *dormido*: sin empujar desde el 5-dic-2025 (330 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
-• 5rahim/seanime — ★4.291 (+6) · empujó el 14-oct-2026 (hace 17 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
-• NuvioMedia/NuvioMobile — ★4.338 (+54) · sin fecha de empuje · GPL-3.0 · última release 0.6.6-beta (31-oct-2026)
-• kodjodevf/mangayomi — ★4.285 (+13) · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
+• recloudstream/cloudstream — ★11.112 (+17) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• miru-project/miru-app — ★5.790 (+6) · *dormido*: sin empujar desde el 5-dic-2025 (331 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
+• 5rahim/seanime — ★4.291 (+6) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
+• NuvioMedia/NuvioMobile — ★4.337 (+53) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (31-oct-2026)
+• kodjodevf/mangayomi — ★4.286 (+14) · empujó en las últimas horas · Apache-2.0 · última release v0.9.9 (12-oct-2026)
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • RockinChaos/Shiru — ★652 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v6.9.1 (13-oct-2026)
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
-• DodoraApp/DodoStream — ★247 (sin cambio) · empujó el 20-sep-2026 (hace 41 días) · GPL-3.0 · última release v0.12.3 (13-sep-2026)
+• DodoraApp/DodoStream — ★247 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · GPL-3.0 · última release v0.12.3 (13-sep-2026)
 • itsmechinmoy/dantotsu-updater — ★154 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
 • Anisurge/App — ★121 (+1) · empujó en las últimas horas · sin licencia detectada por la API · última release v0.58.2 (31-oct-2026)
-• itsmechinmoy/Dantotsu — ★92 (sin cambio) · sin fecha de empuje · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
+• itsmechinmoy/Dantotsu — ★92 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
 • rebelonion/Dantotsu — sin dato hoy (la API no respondió). No afirmo nada.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

@@ -1,12 +1,12 @@
 # PIEZA 109 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/109-La-utilidad-que-habla-con-Shizuku-OmniShizuku-y-el-taller-sin-root-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md`
-- **Fecha de la pieza:** 31-oct-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 31-oct-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `a6388e28fc7989ee0ef17b321dc12e3f68eda13ae3651b797e163b23a2d4bccc`
-- **Envío generado:** 2026-10-31 · 8 mensajes · el mayor de 3662 caracteres
+- **Envío generado:** 2026-11-01 · 8 mensajes · el mayor de 3715 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 8 · 736 caracteres ═══
+═══ MENSAJE 1 de 8 · 917 caracteres ═══
 
 *LA UTILIDAD QUE HABLA CON SHIZUKU*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *5 repositorios, 5 vivos*, m�
 
 Licencias de lo que recomienda: Apache-2.0 2 · GPL-3.0 1 · sin licencia 1 · MIT 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 31-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/109-La-utilidad-que-habla-con-Shizuku-OmniShizuku-y-el-taller-sin-root-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 8 · 3624 caracteres ═══
+═══ MENSAJE 2 de 8 · 3715 caracteres ═══
+
+[Texto del 31-oct-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *109 — LA UTILIDAD QUE HABLA CON SHIZUKU*
 
@@ -371,17 +375,17 @@ escondido.
 
 ⏬ sigue abajo · parte 5 de 7
 
-═══ MENSAJE 7 de 8 · 948 caracteres ═══
+═══ MENSAJE 7 de 8 · 963 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 109*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • krishna3163/OmniShizuku — ★10 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• thedjchi/Shizuku — ★6.645 · *dormido*: sin empujar desde el 15-jul-2026 (108 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
-• iamr0s/Dhizuku — ★4.067 (+17) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• krishna3163/best_shizuku_apps_for_android_no_root — ★158 · sin fecha de empuje · sin licencia detectada por la API · última release mlog-scanner-bridge-v3.6.6 (1-nov-2026)
-• Alex17273747576777/la-bandita-archivo — ★1 · sin fecha de empuje · MIT
+• thedjchi/Shizuku — ★6.645 · *dormido*: sin empujar desde el 15-jul-2026 (109 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
+• iamr0s/Dhizuku — ★4.068 (+18) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• krishna3163/best_shizuku_apps_for_android_no_root — ★158 · empujó en las últimas horas · sin licencia detectada por la API · última release adb-root-toolbox-v7.22.1 (1-nov-2026)
+• Alex17273747576777/la-bandita-archivo — ★1 · empujó en las últimas horas · MIT
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,12 +1,12 @@
 # PIEZA 101 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/101-La-foto-VI-el-pabellon-de-los-dormidos-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `41539031d6caf403ab2ba7a4ac93ac87f0e26506b03e890428aad7e6c03a21b0`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3662 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3662 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 899 caracteres ═══
+═══ MENSAJE 1 de 5 · 900 caracteres ═══
 
 *La foto VI el pabellon de los dormidos*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 9 · Apache-2.0 3 · MPL-2.0 2 · BSD-3-
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/101-La-foto-VI-el-pabellon-de-los-dormidos-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3662 caracteres ═══
 
@@ -124,29 +124,29 @@ REV|)12-01-6202( 7.1.2v — gnihtcnys/gnihtcnys=1|REV|92-01-6202 — gnihtcnys/g
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2800 caracteres ═══
+═══ MENSAJE 4 de 5 · 2801 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 101*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• justjavac/free-programming-books-zh_CN — ★119.462 (+24) · *dormido*: sin empujar desde el 29-jul-2026 (94 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
-• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• RikkaApps/Shizuku — ★32.552 (+168) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• beemdevelopment/Aegis — ★13.433 (+19) · *dormido*: sin empujar desde el 6-sep-2026 (55 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (361 días) · GPL-3.0 · *ARCHIVADO*
-• aniyomiorg/aniyomi — ★7.863 (+7) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• Droid-ify/client — ★7.678 (+15) · *dormido*: sin empujar desde el 12-sep-2026 (49 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• cloudflare/boringtun — ★7.245 (+8) · *dormido*: sin empujar desde el 29-jun-2026 (124 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
-• smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1286 días) · Apache-2.0
-• bromite/bromite — ★6.318 (-3) · *dormido*: sin empujar desde el 24-ene-2024 (1011 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
-• z-huang/InnerTune — ★6.130 (+1) · *dormido*: sin empujar desde el 13-nov-2025 (352 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• miru-project/miru-app — ★5.790 (+6) · *dormido*: sin empujar desde el 5-dic-2025 (330 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
-• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (697 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
-• MatteCarra/AccA — ★1.403 (+1) · *dormido*: sin empujar desde el 17-jun-2024 (866 días) · GPL-3.0 · última release v1.0.35 (31-ago-2021)
-• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (48 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
-• sang765/Usagi — ★0 (sin cambio) · empujó el 16-oct-2026 (hace 15 días) · GPL-3.0
+• justjavac/free-programming-books-zh_CN — ★119.463 (+25) · *dormido*: sin empujar desde el 29-jul-2026 (95 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
+• syncthing/syncthing — ★89.956 (+83) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• RikkaApps/Shizuku — ★32.554 (+170) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• beemdevelopment/Aegis — ★13.435 (+21) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• KotatsuApp/Kotatsu — ★8.943 (sin cambio) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
+• aniyomiorg/aniyomi — ★7.863 (+7) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• Droid-ify/client — ★7.678 (+15) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• cloudflare/boringtun — ★7.245 (+8) · *dormido*: sin empujar desde el 29-jun-2026 (125 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
+• smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1287 días) · Apache-2.0
+• bromite/bromite — ★6.318 (-3) · *dormido*: sin empujar desde el 24-ene-2024 (1012 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
+• z-huang/InnerTune — ★6.130 (+1) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• miru-project/miru-app — ★5.790 (+6) · *dormido*: sin empujar desde el 5-dic-2025 (331 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
+• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
+• MatteCarra/AccA — ★1.403 (+1) · *dormido*: sin empujar desde el 17-jun-2024 (867 días) · GPL-3.0 · última release v1.0.35 (31-ago-2021)
+• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
+• sang765/Usagi — ★0 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

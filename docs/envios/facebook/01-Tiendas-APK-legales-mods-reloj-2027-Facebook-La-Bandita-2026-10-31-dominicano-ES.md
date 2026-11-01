@@ -1,30 +1,30 @@
 # PIEZA 01 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES.md`
-- **Fecha de la pieza:** 31-oct-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `4f4e6a5321a69488f00c322ed774c54dd0616b4b775e49d904506ceaebc6fdb6`
-- **Envío generado:** 2026-10-31 · 20 mensajes · el mayor de 3901 caracteres
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **sha256 de la pieza:** `6e42692f293dcd245021f38ed6785d71559ae0759339af2345b867e636ed92cb`
+- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3669 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 761 caracteres ═══
+═══ MENSAJE 1 de 18 · 762 caracteres ═══
 
 *Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que ya está corriendo*
 
-La Bandita · pieza 01 · guía del 31-oct-2026 · te la mando hoy en 20 mensajes.
+La Bandita · pieza 01 · guía del 1-nov-2026 · te la mando hoy en 18 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *33 repositorios, 33 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *22 repositorios, 22 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 19 · MIT 6 · Apache-2.0 3 · NOASSERTION 3.
+Licencias de lo que recomienda: GPL-3.0 12 · Apache-2.0 4 · MIT 3 · sin licencia 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-10-31-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 2869 caracteres ═══
+═══ MENSAJE 2 de 18 · 2871 caracteres ═══
 
 *Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que ya está corriendo*
 
-*La Bandita · sábado 31 de octubre de 2026 · edición dominicano-español · pieza 01 de Facebook*
+*La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 01 de Facebook*
 
 Una vez me preguntaron en un grupo: «¿y cuál es la tienda buena?». Contesté con otra pregunta: «¿quién te la recomienda?». Porque el problema nunca fue la tienda. El problema es que la mayoría de la gente instala lo que le llegó, no lo que buscó.
 
@@ -54,9 +54,9 @@ Lo que hay que decir del mensajero, y casi nadie lo dice: *la cuenta anónima es
 
 Medido hoy: el repositorio `AuroraOSS/AuroraStore` en GitHub tiene *★71* y GPL-3.0. Setenta y una estrellas para una app que usa medio mundo sin saberlo, porque *ese GitHub es un espejo* y su casa de verdad está en GitLab. Es el primer dato incómodo de esta pieza: las estrellas no miden lo que la gente cree que miden.
 
-⏬ sigue abajo · parte 1 de 19
+⏬ sigue abajo · parte 1 de 17
 
-═══ MENSAJE 3 de 20 · 3308 caracteres ═══
+═══ MENSAJE 3 de 18 · 3402 caracteres ═══
 
 *ESCENA 3 — El estudiante que quiere YouTube sin anuncios*
 
@@ -79,7 +79,7 @@ Medido hoy, en el mundo que hay alrededor:
 • `RikkaApps/Shizuku` — *★32.552 · Apache-2.0 · sin empujar desde el 18 de junio de 2025: 500 días*. Dormido. Y aun así es el estándar de facto. Esto es lo que significa «dormido no es muerto»: una pieza de infraestructura terminada puede estar años quieta y funcionar igual.
 • `iamr0s/Dhizuku` — *★4.067 · GPL-3.0 · empujó hoy · release v2.13.0*. La alternativa, viva y moviéndose.
 • `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó en las últimas horas*. La tienda de apps que usan Shizuku.
-• `carlelieser/yuki` — *★157 · MIT · empuje del 12 de octubre*. El catálogo curado, no instalador.
+• `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy · release 1.5.0 del 5 de octubre*. Tienda e instalador para apps con Shizuku, y catálogo hecho por el mismo autor de `awesome-shizuku`.
 
 *La advertencia que va con esto y va en serio:* darle Shizuku a una app es darle llaves que Android no le daría. Instala solo apps cuyo código puedas leer. Un permiso de núcleo en manos de un desconocido es peor que un anuncio.
 
@@ -99,54 +99,77 @@ Lo que hay que hacer en ese caso, en orden:
 
 Y la lección, que es la tesis de esta pieza entera: *lo barato se paga con la llave de la puerta*.
 
-⏬ sigue abajo · parte 2 de 19
+⏬ sigue abajo · parte 2 de 17
 
-═══ MENSAJE 4 de 20 · 3640 caracteres ═══
+═══ MENSAJE 4 de 18 · 1043 caracteres ═══
 
-*LAS DOCE CASAS — qué te cuesta cada una*
+*ESCENA 6 — El que copió una lista de hace cuatro meses*
 
-Ninguna tienda es gratis. Todas cuestan algo: tiempo, confianza, catálogo o comodidad. Aquí está el precio de cada una, medido hoy, para que elijas sabiendo qué pagas.
+Rafael guardó una publicación de febrero. Veinte tiendas, «todas verificadas», con capturas y todo. En junio quiso instalar una app y la mitad de los enlaces daban error. No era culpa de la lista: era culpa de la fecha. La lista decía la verdad el día que se escribió y no la decía el día que se usó.
+
+Eso es lo que me pidió el dueño de esta casa cuando dijo «no te quedes con los recursos viejos»: no que cambie los nombres por otros, sino que explique *por qué* una lista envejece, para que él pueda volver a medirla solo cuando yo no esté.
+
+Así que esta vez hice el trabajo al revés que las otras. Primero busqué lo que nació en los últimos nueve meses; después miré qué de lo viejo sigue de pie; y al final separé lo que está vivo de lo que solo parece vivo. El resultado es esta pieza: seis casas de siempre, seis que hace nueve meses no existían, dos cebos que llevan fecha de nacimiento idéntica y un cadáver que medio internet sigue recomendando.
+
+⏬ sigue abajo · parte 3 de 17
+
+═══ MENSAJE 5 de 18 · 3669 caracteres ═══
+
+*LAS DOCE CASAS — seis de siempre y seis que no existían hace nueve meses*
+
+Ninguna casa es gratis. Todas cuestan algo: tiempo, confianza, catálogo o comodidad. Aquí está el precio de cada una, medido hoy, con la fecha de nacimiento de las nuevas al lado. Ese dato —cuándo nació— es el que separa un proyecto de un cebo.
+
+*LAS DE SIEMPRE*
 
 *1 · F-Droid — te cuesta tiempo*
-Es la tienda libre de referencia desde 2010. Compila cada app desde su código y la firma con su propia llave. El precio es el que nadie menciona: *una actualización puede tardar semanas*, porque reconstruir no es copiar. Lo que compras con ese tiempo es verificación: si instalas de aquí, alguien revisó antes que tú. Si una app no está, casi siempre es porque usa código privativo, depende de Google o su receta de construcción no pasa.
+La tienda libre de referencia desde 2010. Compila cada app desde su código y la firma. El precio que nadie menciona: *una actualización puede tardar semanas*, porque reconstruir no es copiar. Lo que compras con ese tiempo es verificación.
 
 *2 · IzzyOnDroid — te cuesta un poco de criterio*
-Es el anexo de F-Droid. Ahí entran apps que la casa madre todavía no acepta. El detalle que hay que saber: muchas veces *no compila*, sino que firma el APK que publica el desarrollador. Es un estándar más flojo, no un estándar malo. Se añade como repositorio extra y desde ese momento ves las dos casas en la misma lista.
+El anexo de F-Droid. Muchas veces *no compila*: firma el APK que publica el desarrollador. Estándar más flojo, no estándar malo.
 
 *3 · Droid-ify — te cuesta nada*
-Cliente de F-Droid, más rápido y más bonito que el original. Medido hoy: *★7.678 · GPL-3.0 · último empuje el 12 de septiembre · release v0.7.8*. Lleva 49 días quieto: dormido, no muerto. Su repositorio de GitHub es un *espejo* —su casa es Codeberg—, y ese detalle es la primera lección de esta pieza: el espejo no es la casa.
+Cliente de F-Droid, más rápido que el original. *★7.678 · GPL-3.0 · empuje del 12 de septiembre · release v0.7.8*. Lleva 49 días quieto: dormido, no muerto. Su GitHub es *espejo*; su casa es Codeberg.
 
 *4 · Neo-Store — te cuesta nada y te da una brújula*
-El otro cliente moderno. Medido hoy: *★5.589 · GPL-3.0 · empuje del 23 de octubre · release 1.3.3*. Su aporte real es la sección de rastreadores: te dice qué bibliotecas de seguimiento trae cada app, con nombre y apellido, apoyándose en el trabajo de Exodus Privacy. Cero rastreadores no garantiza nada; cinco en una calculadora sí dice algo.
+*★5.591 · GPL-3.0 · empuje del 23 de octubre · release 1.3.3*. Su aporte es la sección de rastreadores: te dice qué bibliotecas de seguimiento trae cada app, con nombre y apellido.
 
-*5 · Aurora Store — te cuesta un poco de tu identidad o un poco de paciencia*
-El mensajero de Google Play. O usas la cuenta anónima compartida —y esperas cuando se cae— o pones tu cuenta y aceptas el trato. Te da apps que solo existen en Play; no te da el ecosistema de Google que muchas de ellas necesitan para funcionar del todo.
+*5 · Aurora Store — te cuesta identidad o paciencia*
+El mensajero de Google Play. Cuenta anónima compartida —y esperas cuando se cae— o tu cuenta y aceptas el trato. *★71 en el espejo de GitHub; la casa está en GitLab.* Otro caso de espejo que no es casa.
 
 *6 · Accrescent — te cuesta catálogo*
-Joven, exigente, con verificación de identidad del desarrollador por DNS y firmas modernas. Pide Android 12 o más. Lo que compras es la tranquilidad de un catálogo pequeño y limpio; lo que pagas es no encontrar casi nada de lo que buscabas.
+Joven, exigente, con verificación por DNS y firmas modernas. Pide Android 12 o más. *★2.306 · Apache-2.0 · código de hoy · release 0.28.1 del 10 de noviembre de 2025.* El proyecto trabaja todas las semanas y publica cada año: si solo mirases releases, lo declararías muerto.
 
-*7 · Orion Store — te cuesta la verificación de un tercero*
-Catálogo en JSON abierto, sin servidor propio, descarga directa del release del desarrollador. Medido hoy: *★3.883 · GPL-3.0 · empuje del 29 de octubre · release 2.6.5 del 27 de octubre*. Su propia web, hoy, sigue anunciando la 1.5.0 con «cifras al 6 de octubre»: casi un mes de retraso, declarado por ellos. No es mentira, pero es exactamente lo que hay que mirar siempre: *¿de cuándo es el número que me estás dando?*
+*LAS QUE NACIERON DESPUÉS*
 
-*8 · GrapheneOS Apps — te cuesta tener un catálogo chiquito*
-La tienda del sistema endurecido de GrapheneOS. *★624 · MIT · empujó hoy · release 37*. Sus apps (cámara, visor de PDF, reloj, calculadora) están escritas para no depender de Google y varias funcionan en cualquier teléfono moderno. Es una despensa de barrio, no un supermercado.
+*7 · RepoStore — te cuesta aprender un gesto nuevo*
+*★1.369 · MIT · creado el 13 de enero de 2026 · release v1.0.22 publicada hoy.* Explora lo que se publica en GitHub, te muestra las releases con sus APK y sus checksums, y lo instala. Es la puerta nueva más limpia que medí: licencia clara, equipo real y una versión publicada el mismo día en que la miré.
 
-*9 · Obtainium — te cuesta entender un concepto*
-No es una tienda: es una libreta de direcciones que vigila releases. *★21.095 · GPL-3.0 · empujó en las últimas horas · release v1.7.3*. Le das el repositorio de una app y te avisa cuando hay versión nueva, bajándola del propio desarrollador. Sin intermediario: máxima frescura, cero verificación de terceros.
+*8 · ShizuStore — te cuesta tener Shizuku*
+*★501 · GPL-3.0 · creado el 17 de septiembre de 2026 · release 1.5.0 del 5 de octubre.* Seis semanas de vida. La tienda de las apps que necesitan Shizuku para hacer su trabajo, hecha por el mismo autor del catálogo `awesome-shizuku`. Si no tienes Shizuku, no te sirve para nada: esa es la parte honesta.
 
+*9 · AppManagerNG — te cuesta la versión 0.6*
+*★163 · GPL-3.0 · creado el 30 de abril de 2026 · release v0.6.23 del 5 de septiembre.* El oficio del gestor de paquetes, reescrito por gente nueva: inspeccionar, congelar, hacer copia, controlar. En versión 0.6 se rompen cosas. Es el precio de la juventud y está dicho antes de que lo descubras tú.
 
-⏬ sigue abajo · parte 3 de 19
+*10 · termux-app-store — te cuesta usar Termux*
+*★124 · MIT · creado el 2 de febrero de 2026 · release v0.9.1 del 20 de octubre.* Gestor de paquetes para Termux que funciona sin internet: catálogo local, compilación y arreglo de dependencias. Nicho puro y lo digo como nicho: si no usas Termux, no te interesa.
 
-═══ MENSAJE 5 de 20 · 3227 caracteres ═══
+*11 · universal-installer — te cuesta entender qué es un paquete partido*
+*★1.653 · GPL-3.0 · creado el 28 de julio de 2025 · release v1.20.0 del 25 de octubre · empujó ayer.* Los APK divididos por arquitectura e idioma son la causa número uno del «la app no se instala». Esta es la herramienta que lo resuelve sin que tengas que saber qué es un ABI.
 
-*10 · komi-store — te cuesta caer en la tentación*
-Catálogo navegable de apps publicadas en GitHub, Codeberg y Forgejo. *★20.176 · Apache-2.0 · release v1.9.4 del 24 de octubre*. Bueno para descubrir; malo si confundes «está en el catálogo» con «está revisado».
+*12 · InstallerX-Revived — te cuesta el diálogo de siempre*
 
-*11 · Appteka — te cuesta la revisión que no existe*
-Mercado abierto: su propio sitio declara hoy *334.000 apps, 42 categorías, publica cualquiera, escaneo de seguridad al subir*. Su cliente oficial, `solkin/appteka-android`: *★1.367 · GPL-3.0 · release v23.0 del 13 de agosto*. Es un escalón por encima de un grupo de WhatsApp con APKs y varios escalones por debajo de F-Droid.
+⏬ sigue abajo · parte 4 de 17
 
-*12 · Las listas curadas — te cuestan una hora de lectura y ninguna confianza*
-AAA (*★3.141 · CC-BY-4.0*), awesome-fdroid (*★200 · Unlicense*), awesome-shizuku (*★10.666 · sin licencia clara*), best-root-apps (*★50 · MIT*), best_shizuku_apps (*★158 · CC BY-SA 3.0 declarada en el README*). Sirven para descubrir nombres; no sustituyen al que firma. Y ojo con la licencia de una lista: la CC de la lista no es la licencia de las apps que recomienda.
+═══ MENSAJE 6 de 18 · 3285 caracteres ═══
+
+*★7.257 · GPL-3.0 · creado el 6 de noviembre de 2024 · release 26.09 del 30 de septiembre · empujó hoy.* Toma el control del instalador del sistema y te deja elegir perfil, usuario e idioma antes de instalar. Para el que instala lo mismo en el trabajo y en lo personal, esto no es un lujo.
+
+*LAS DOS QUE GOBIERNAN LO YA INSTALADO*
+
+*AppManager — ★9.393 · sin licencia declarada en la API · release v4.1.1 del 4 de septiembre.* Ver qué pide cada app, congelarla, copiarla, quitarle permisos. No instala: gobierna.
+*WebViewUpgrade — ★456 · Apache-2.0 · sin release publicada.* Actualiza el motor WebView sin pasar por el instalador del sistema. Se compila. Un teléfono de 2019 puede seguir abriendo páginas modernas por esto.
+
+*Y la que no es una casa sino un aviso:* `daboynb/developer-verifier-placeholder` (*★183 · GPL-3.0 · publicado el 16 de julio de 2026*) es un APK vacío que ocupa el lugar del verificador de desarrollador para que el sistema no bloquee. No lo recomiendo como primera opción; lo nombro porque circula por los grupos sin explicación, y una herramienta que nadie explica es una herramienta que alguien usa mal.
 
 *EL TUTORIAL — de cero a un teléfono que no te espía*
 
@@ -171,56 +194,58 @@ Si necesitas una app que solo vive en Google Play, instala *Aurora Store*. Si no
 Revisa qué apps tienen permiso de instalación. En Android moderno es Ajustes → Aplicaciones → Acceso especial → Instalar apps desconocidas. Deja ahí solo las tiendas que reconozcas. Todo lo demás, fuera.
 
 *Paso 7 — La prueba de fuego (10 minutos)*
-Abre las tres apps que instalaste desde F-Droid y comprueba que funcionan. Si alguna no arranca, no es la tienda: casi siempre es una versión que pide más Android del que tienes, o un APK dividido que hay que unir con *AntiSplit-M* (*★4.938 · Apache-2.0 · release 2.3.3 de hoy*).
+Abre las tres apps que instalaste desde F-Droid y comprueba que funcionan. Si alguna no arranca, no es la tienda: casi siempre es una versión que pide más Android del que tienes, o un APK dividido que hay que unir con *universal-installer* (*★1.653 · GPL-3.0 · release v1.20.0 del 25 de octubre*).
 
 *Paso 8 — La regla escrita (1 minuto)*
 Pega esto en una nota del teléfono: «No instalo nada cuyo origen no pueda nombrar». Suena tonto. Es lo único que de verdad importa de toda esta pieza.
 
-⏬ sigue abajo · parte 4 de 19
+⏬ sigue abajo · parte 5 de 17
 
-═══ MENSAJE 6 de 20 · 3602 caracteres ═══
+═══ MENSAJE 7 de 18 · 3545 caracteres ═══
 
-*LA FICHA DE HOY — catorce apps donde la fecha que ves no es la fecha que crees*
+*LA FICHA DE HOY — dieciséis apps donde la fecha que ves no es la fecha que crees*
 
-Cuando una tienda funciona, lo que baja por ella son apps. Medí hoy catorce, y las elegí a propósito: son las que más gente instala después de poner una tienda, y son las que mejor enseñan un problema que casi nadie mira.
+Cuando una casa funciona, lo que baja por ella son apps. Medí dieciséis hoy y las elegí a propósito: son las que enseñan el problema que casi nadie mira —*la diferencia entre la fecha de la última versión y la fecha del proyecto*— y las que de verdad resuelven algo en un teléfono de barrio.
 
-*Las del paquete Fossify (la suite libre que reemplaza a las apps de Google):*
+*Las que publicaron hoy o ayer (frescura pura):*
 
-• `FossifyOrg/Gallery` — *★3.870 · GPL-3.0 · empujó hoy · release 1.14.1 del 24 de octubre*. Galería sin nube, sin reconocimiento facial enviado a ningún lado.
-• `FossifyOrg/Messages` — *★1.627 · GPL-3.0 · empuje del 26 de octubre · release 1.10.2 del 24 de octubre*. SMS sin telemetría.
-• `FossifyOrg/Phone` — *★1.397 · GPL-3.0 · empujó hoy · **release 1.11.1 fechada el 3 de febrero de 2026***. Ojo aquí: el proyecto empuja código casi todos los días y su «última release» según GitHub tiene ocho meses. No está muerto ni dormido: *publica por otro canal*. La fecha de la última release no es la fecha del proyecto.
-• `FossifyOrg/File-Manager` — *★1.846 · GPL-3.0 · release 1.6.3 del 24 de octubre*.
-• `FossifyOrg/Voice-Recorder` — *★1.034 · GPL-3.0 · release 1.7.4 del 24 de octubre*.
+• `samyak2403/RepoStore` — *★1.369 · MIT · release v1.0.22 de hoy*. Instala desde repositorios de GitHub sin intermediario.
+• `timschneeb/ShizuStore` — *★501 · GPL-3.0 · empujó hoy · release 1.5.0 del 5 de octubre*. La tienda de las apps con Shizuku.
+• `wxxsfxyzm/InstallerX-Revived` — *★7.257 · GPL-3.0 · empujó hoy · release 26.09 del 30 de septiembre*.
+• `pass-with-high-score/universal-installer` — *★1.653 · GPL-3.0 · empujó ayer · release v1.20.0 del 25 de octubre*.
+• `GrapheneOS/AppStore` — *★624 · MIT · **release 37 publicada hoy mismo***.
 
-*Las de Goodwy (el otro paquete, más viejo):*
+*Las que empujan siempre y publican poco (el caso que engaña):*
 
-• `Goodwy/Gallery` — *★196 · GPL-3.0 · último empuje el 23 de mayo · release 8.3.0*. Cinco meses quieta. Dormida.
-• `Goodwy/PlayBook` — *★138 · GPL-3.0 · último empuje el 18 de abril de 2025 · release 4.1.1*. Un año y medio sin moverse. Aquí ya no es «dormida»: es *abandonada con honra* —funciona, pero no esperes parches—. La diferencia entre dormida y abandonada no la marca el calendario solo: la marca si el proyecto tiene quién lo recoja.
+• `accrescent/accrescent` — *★2.306 · Apache-2.0 · código de hoy · **release 0.28.1 del 10 de noviembre de 2025***. Si mirases solo releases, lo darías por muerto.
+• `JonaNorman/WebViewUpgrade` — *★456 · Apache-2.0 · empuje del 7 de septiembre · **sin release**.* Vivo, sin archivo: se compila.
+• `Paving-Base/APK-Installer` — *★1.712 · GPL-3.0 · empuje del 20 de octubre · release v0.1.28 del 11 de agosto de 2025*. Release de hace más de un año y código de este mes: el caso inverso al de siempre.
 
-*Las del sistema GrapheneOS (funcionan fuera de él):*
+*Las que acaban de nacer (y por eso hay que mirarlas con lupa y con cariño):*
 
-• `GrapheneOS/Camera` — *★1.423 · MIT · empuje del 30 de octubre · release 93 del 1 de agosto*. Una cámara que no manda fotos a ninguna nube y no pide los servicios de Google.
-• `GrapheneOS/PdfViewer` — *★1.062 · MIT · empuje del 28 de octubre · release 33 del 30 de julio*. Un visor de PDF que no abre una conexión para «verificar la licencia».
+• `SysAdminDoc/AppManagerNG` — *★163 · GPL-3.0 · creado el 30 de abril de 2026 · release v0.6.23 del 5 de septiembre*.
+• `djunekz/termux-app-store` — *★124 · MIT · creado el 2 de febrero de 2026 · release v0.9.1 del 20 de octubre*.
+• `Jman-Github/Universal-Patch-Manager` — *★1.397 · GPL-3.0 · creado el 13 de octubre de 2025 · release v2.0.0 del 29 de octubre*. Esta casa no receta parches: dice qué existe y que decidas tú.
+• `solrudev/Ackpine` — *★185 · Apache-2.0 · release 0.25.4 del 30 de julio*. No es una app: es la biblioteca con la que otros hacen instaladores. Explica por qué hay veinte.
 
-*Los lanzadores (esto es lo que la gente cambia primero cuando sale de Google):*
+*Las de siempre que siguen siendo la respuesta correcta:*
 
-• `LawnchairLauncher/lawnchair` — *★13.832 · sin licencia clara (NOASSERTION) · empujó en las últimas horas · **«última release 1.2.0.1884» con fecha de 2018***. Trece mil estrellas para un proyecto vivo que publica por canales nocturnos: la API de GitHub toma la release más alta por número de versión y te enseña una de hace ocho años. Si te fías de ese número, concluyes lo contrario de la verdad.
-• `MM2-0/Kvaesitso` — *★5.335 · GPL-3.0 · empujó hoy · release v1.41.0 del 15 de septiembre*. Lanzador con búsqueda; el más activo del grupo.
-• `NeoApplications/Neo-Launcher` — *★2.153 · GPL-3.0 · empuje del 25 de octubre · «release 0.9.3» de diciembre de 2023*. Mismo patrón que Lawnchair: empuja cada semana y su release «oficial» es de hace casi tres años.
-• `georgeclensy/Escape-Launcher` — *★465 · sin licencia clara · empujó hoy · release v2.3.1 del 2 de enero*. Minimalista, vivo, con licencia por aclarar.
-• `iamrasel/lunar-launcher` — *★548 · GPL-3.0 · último empuje el 27 de abril de 2024 · release 2.8.2*. Dos años y medio. Este sí está muerto, y lo digo con la fecha.
+• `MuntashirAkon/AppManager` — *★9.393 · **sin licencia declarada en la API** · release v4.1.1 del 4 de septiembre*. Gobierna lo instalado.
+• `ImranR98/Obtainium` — *★21.096 · GPL-3.0 · empujó ayer · release v1.7.3 del 25 de octubre*. Sigue releases desde donde el desarrollador publica.
+• `NeoApplications/Neo-Store` — *★5.591 · GPL-3.0 · release 1.3.3 del 23 de octubre*. Cliente de F-Droid con brújula de rastreadores.
+• `RikkaApps/Shizuku` — *★32.554 · Apache-2.0 · **último empuje el 18 de junio de 2025 · release v13.6.0 del 25 de mayo de 2025***. Cuatro meses sin moverse y sigue siendo el que presta permisos a media Android moderna. Un proyecto terminado no es un proyecto muerto.
 
-*Lo que estas catorce enseñan, y es la razón de ponerlas juntas:*
+*Los dos cebos que encontré midiendo (misma fecha, mismo molde, sin licencia):*
 
-*1.* La fecha de la «última release» puede mentir sin que nadie mienta. Los proyectos serios publican por canales que GitHub no marca como release principal.
-*2.* Empujar código no es publicar versión, y publicar versión no es empujar código. Hay que mirar las dos cosas.
+• `sri-sivaram/Neko-Manga-Pearl` — *★116 · HTML · sin licencia · creado el 28 de junio de 2026*.
+• `ubedshah/manga-vault-nexus` — *★115 · HTML · sin licencia · creado el 28 de junio de 2026*.
+Hay dos más del mismo lote; van nombrados en la sección del cementerio de la pieza de WhatsApp de hoy. Una app de Android no se escribe en HTML: eso no es una app, es un anuncio.
 
-⏬ sigue abajo · parte 5 de 19
+*Lo que esta ficha no dice:* cuánta gente usa cada cosa. Las estrellas no son usuarios.
 
-═══ MENSAJE 7 de 20 · 1638 caracteres ═══
+⏬ sigue abajo · parte 6 de 17
 
-*3.* Una app sin licencia clara (NOASSERTION) no es ilegal: es *indeterminada*. Puedes usarla; no puedes saber qué te permite hacer con ella.
-*4.* Y la más importante: *el estado de un proyecto no se lee en una cifra, se lee en dos*. Estrellas y fecha juntas dicen algo; por separado, casi nada.
+═══ MENSAJE 8 de 18 · 3460 caracteres ═══
 
 *LA VARA EN CUATRO PASOS — para que no dependas de mí*
 
@@ -237,10 +262,6 @@ Los permisos, uno por uno. La pregunta correcta no es «¿son muchos?», es «¿
 Si está en F-Droid, ya lo hizo otro por ti. Si está solo en un release de GitHub, estás confiando en el desarrollador y no en un tercero. Las dos son confianzas legítimas y distintas; lo que no se vale es creer que estás haciendo la primera cuando estás haciendo la segunda.
 
 *Los cuatro pasos tardan cuatro minutos.* Y con ellos ya puedes auditar cualquier cosa que te manden por WhatsApp, incluida esta pieza.
-
-⏬ sigue abajo · parte 6 de 19
-
-═══ MENSAJE 8 de 20 · 2148 caracteres ═══
 
 *LOS LETREROS DE MODS — cómo se reconocen sin abrirlos*
 
@@ -271,9 +292,9 @@ Apps que prometen acelerar el teléfono, limpiar la RAM o «enfriar el procesado
 
 *Cinco señales. Con dos que aparezcan, no instales.*
 
-⏬ sigue abajo · parte 7 de 19
+⏬ sigue abajo · parte 7 de 17
 
-═══ MENSAJE 9 de 20 · 3577 caracteres ═══
+═══ MENSAJE 9 de 18 · 3577 caracteres ═══
 
 *LOS SIETE ERRORES QUE YO COMETÍ (y que tú puedes no repetir)*
 
@@ -314,9 +335,9 @@ Qué significa, sin alarmismo:
 
 Mi opinión, que para eso estás leyendo: el ecosistema libre no se salva por una tienda, se salva porque hay varias y porque el código está a la vista. Si F-Droid desapareciera mañana, su índice se podría replicar; si desapareciera Google Play, no quedaría nada que replicar. Esa asimetría es la razón por la que escribo esto.
 
-⏬ sigue abajo · parte 8 de 19
+⏬ sigue abajo · parte 8 de 17
 
-═══ MENSAJE 10 de 20 · 2577 caracteres ═══
+═══ MENSAJE 10 de 18 · 2577 caracteres ═══
 
 *PREGUNTAS QUE ME HACEN DE VERDAD*
 
@@ -350,9 +371,9 @@ Entonces usa la privativa, con los ojos abiertos. Esta guía no es una religión
 *«¿Por qué tanto texto para decir "instala F-Droid"?»*
 Porque «instala F-Droid» no es una respuesta: es un eslogan. La respuesta es que sepas por qué, y que puedas comprobarlo sin mí. Eso no cabe en una línea.
 
-⏬ sigue abajo · parte 9 de 19
+⏬ sigue abajo · parte 9 de 17
 
-═══ MENSAJE 11 de 20 · 3167 caracteres ═══
+═══ MENSAJE 11 de 18 · 3167 caracteres ═══
 
 *MITOS QUE SE CAEN SOLOS*
 
@@ -393,9 +414,9 @@ Actualizar es bueno cuando la actualización arregla algo y viene de la misma fu
 
 *Si eres el que publica o comparte APKs:* nunca compartas uno que no puedas rastrear hasta su repositorio. Un archivo suelto en un grupo es una cadena que se rompe en el primer eslabón, y el que la recibe no tiene cómo saberlo.
 
-⏬ sigue abajo · parte 10 de 19
+⏬ sigue abajo · parte 10 de 17
 
-═══ MENSAJE 12 de 20 · 1999 caracteres ═══
+═══ MENSAJE 12 de 18 · 1999 caracteres ═══
 
 *EL VIAJE DE UNA APP — del código a tu teléfono, en cinco estaciones*
 
@@ -413,9 +434,9 @@ Esto explica por qué F-Droid tarda y por qué un mod tarda cero. Si entiendes e
 
 *Dónde se pierde la trazabilidad:* entre la estación 4 y la 5, cuando alguien toma el archivo y lo reparte por su cuenta. Ahí ya no hay repositorio, no hay firma reconocible y no hay autor. Y es exactamente donde vive el 90 % de los APKs que circulan por WhatsApp.
 
-⏬ sigue abajo · parte 11 de 19
+⏬ sigue abajo · parte 11 de 17
 
-═══ MENSAJE 13 de 20 · 3104 caracteres ═══
+═══ MENSAJE 13 de 18 · 3120 caracteres ═══
 
 *LAS SIETE PREGUNTAS QUE HAY QUE HACERLE A CUALQUIER TIENDA NUEVA*
 
@@ -447,24 +468,24 @@ Lo que F-Droid no acepta todavía     | IzzyOnDroid             | Un estándar m
 Un cliente rápido y bonito           | Neo-Store / Droid-ify   | Nada
 Una app que solo vive en Play        | Aurora Store            | Paciencia o identidad
 Última versión, sin intermediarios   | Obtainium               | La verificación de un tercero
-Descubrir proyectos nuevos           | komi-store / Orion      | Criterio propio
+Descubrir proyectos nuevos           | RepoStore               | Publicó versión hoy
 Apps del ecosistema GrapheneOS       | GrapheneOS AppStore     | Catálogo chiquito
-Apps que usan Shizuku                | yuki + ShizuStore       | Permisos de núcleo
-Muchas apps, poca revisión           | Appteka                 | La revisión que no existe
-Un APK dividido que no instala       | AntiSplit-M             | Cinco minutos
+Apps que usan Shizuku                | ShizuStore              | Permisos de núcleo
+Gobernar permisos de lo instalado    | AppManager / NG         | Conocer lo que corre
+Un APK dividido que no instala       | universal-installer     | Cinco minutos
 Instalar con opciones avanzadas      | InstallerX-Revived      | Saber lo que haces
-Bajar APKs por consola               | APKeep                  | Ninguno
+Actualizar el motor WebView          | WebViewUpgrade          | Sin pasar por el sistema
 «Lo de pago, gratis»                 | NADA                    | Tu teléfono
 ```
 
-⏬ sigue abajo · parte 12 de 19
+⏬ sigue abajo · parte 12 de 17
 
-═══ MENSAJE 14 de 20 · 2745 caracteres ═══
+═══ MENSAJE 14 de 18 · 2811 caracteres ═══
 
 *SI ALGO FALLA — respuestas concretas*
 
 *«App no instalada» o «paquete inválido».*
-Casi siempre es un APK dividido o una firma distinta. Prueba *AntiSplit-M* para unirlo. Si la app ya estaba instalada y viene de otra fuente, tendrás que desinstalar antes (y perder datos).
+Casi siempre es un APK dividido o una firma distinta. Prueba *universal-installer* para unirlo. Si la app ya estaba instalada y viene de otra fuente, tendrás que desinstalar antes (y perder datos).
 
 *«Play Protect no me deja instalar».*
 Play Protect a veces marca apps libres sin razón. Puedes desactivarlo temporalmente desde Play Store → perfil → Play Protect. Hazlo solo si sabes de dónde viene el archivo: si viene de F-Droid, es un falso positivo conocido; si viene de un grupo de Telegram, no lo desactives: no instales.
@@ -483,19 +504,19 @@ Poco probable que sea la tienda. Mira cuántas apps tienes y cuántas se inician
 
 *CÓMO SE MIDIÓ ESTA PIEZA (y qué no promete)*
 
-Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha el sábado 31 de octubre de 2026, o de leer el sitio del proyecto ese mismo día. Nada está copiado de otra pieza, y nada está estimado a ojo.
+Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha el domingo 1 de noviembre de 2026, o de leer el sitio del proyecto ese mismo día. Nada está copiado de otra pieza, y nada está estimado a ojo.
 
-*Lo que medí:* estrellas, fecha del último empuje, licencia que el repositorio reconoce, lenguaje principal, última release y su fecha, para 14 aplicaciones y 12 tiendas. Y el texto de dos sitios oficiales (Appteka y Orion) para contrastar lo que declaran con lo que su repositorio dice.
+*Lo que medí:* estrellas, fecha del último empuje, licencia que el repositorio reconoce, lenguaje principal, última release y su fecha, para 16 aplicaciones y 12 casas —más las que quedaron fuera de la ficha por no pasar el filtro—. Y la fecha de creación de cada proyecto, que es el dato que separa un proyecto joven de un cebo recién hecho.
 
 *Lo que no medí:* no instalé ninguna de estas apps en un teléfono limpio para cronometrar su comportamiento. No analicé los APK con un desensamblador. No verifiqué las firmas criptográficas una por una. Eso está fuera de lo que esta pieza hace, y lo digo antes de que alguien lo descubra por su cuenta.
 
-*Lo que puede cambiar mañana:* todo. Las estrellas suben, los proyectos se archivan, las licencias se aclaran o se ensucian. Por eso cada dato lleva fecha, y por eso esta pieza no dice «es así»: dice «esto es lo que había el 31 de octubre de 2026, medido así».
+*Lo que puede cambiar mañana:* todo. Las estrellas suben, los proyectos se archivan, las licencias se aclaran o se ensucian. Por eso cada dato lleva fecha, y por eso esta pieza no dice «es así»: dice «esto es lo que había el 1 de noviembre de 2026, medido así».
 
 *La regla de la casa, dicha una vez más:* si un dato está viejo, se dice su edad; si no hay dato, se dice que no hay. Lo demás es relleno.
 
-⏬ sigue abajo · parte 13 de 19
+⏬ sigue abajo · parte 13 de 17
 
-═══ MENSAJE 15 de 20 · 2198 caracteres ═══
+═══ MENSAJE 15 de 18 · 3245 caracteres ═══
 
 *GLOSARIO PARA EL QUE LLEGA NUEVO*
 
@@ -532,58 +553,38 @@ Todo lo que tiene número aquí salió de una consulta a la API de GitHub hecha 
 4. REV|etimrep éuq ebas es on orep ,rasu edeup es ppa al :oirotisoper le ne aralc aicnecil anu econocer on buHtiG euq
 5. REV|nedneped sodot euq led radnátse le se ísa nua y ,5202 ed oinuj ed 81 le edsed ,saíd 005
 
-⏬ sigue abajo · parte 14 de 19
-
-═══ MENSAJE 16 de 20 · 2503 caracteres ═══
-
 *ENLACES DE ESTA PIEZA*
 
-*Tiendas:*
-https://f-droid.org
-https://apt.izzysoft.de/fdroid
-https://accrescent.app
-https://github.com/RookieEnough/Orion-Store
+*Las nuevas, una por una:*
+https://github.com/samyak2403/RepoStore
+https://github.com/timschneeb/ShizuStore
+https://github.com/SysAdminDoc/AppManagerNG
+https://github.com/djunekz/termux-app-store
+https://github.com/pass-with-high-score/universal-installer
+https://github.com/wxxsfxyzm/InstallerX-Revived
+https://github.com/Jman-Github/Universal-Patch-Manager
+https://github.com/solrudev/Ackpine
+https://github.com/JonaNorman/WebViewUpgrade
+https://github.com/daboynb/developer-verifier-placeholder
+https://github.com/Paving-Base/APK-Installer
+
+*Las de siempre:*
+https://github.com/MuntashirAkon/AppManager
+https://github.com/ImranR98/Obtainium
 https://github.com/NeoApplications/Neo-Store
 https://github.com/Droid-ify/client
-https://gitlab.com/AuroraOSS/AuroraStore
+https://github.com/accrescent/accrescent
 https://github.com/GrapheneOS/AppStore
-https://github.com/ImranR98/Obtainium
-https://github.com/komi-store/komi-store
-https://appteka.store
-
-*Apps y herramientas de la ficha:*
-https://github.com/FossifyOrg/Gallery
-https://github.com/FossifyOrg/Messages
-https://github.com/FossifyOrg/Phone
-https://github.com/FossifyOrg/File-Manager
-https://github.com/FossifyOrg/Voice-Recorder
-https://github.com/GrapheneOS/Camera
-https://github.com/GrapheneOS/PdfViewer
-https://github.com/MM2-0/Kvaesitso
-https://github.com/LawnchairLauncher/lawnchair
-https://github.com/NeoApplications/Neo-Launcher
-https://github.com/georgeclensy/Escape-Launcher
-https://github.com/iamrasel/lunar-launcher
-https://github.com/Goodwy/Gallery
-https://github.com/Goodwy/PlayBook
-https://github.com/AbdurazaaqMohammed/AntiSplit-M
-https://github.com/wxxsfxyzm/InstallerX-Revived
-https://github.com/EFForg/apkeep
-
-*Mundo Shizuku y listas:*
 https://github.com/RikkaApps/Shizuku
-https://github.com/iamr0s/Dhizuku
-https://github.com/timschneeb/ShizuStore
-https://github.com/carlelieser/yuki
-https://github.com/timschneeb/awesome-shizuku
-https://github.com/Psyhackological/AAA
-https://github.com/moneytoo/awesome-fdroid
-https://github.com/krishna3163/best-root-apps-for-android
-https://fmhy.net/mobile
+https://gitlab.com/fdroid/fdroidclient
 
-*Para verificar por tu cuenta:*
-https://reports.exodus-privacy.eu.org
-https://developer.android.com/developer-verification
+*Los cebos, para que los conozcas de vista:*
+https://github.com/sri-sivaram/Neko-Manga-Pearl
+https://github.com/ubedshah/manga-vault-nexus
+
+⏬ sigue abajo · parte 14 de 17
+
+═══ MENSAJE 16 de 18 · 844 caracteres ═══
 
 *CIERRE*
 
@@ -591,66 +592,49 @@ Si te quedas con una sola frase de todo esto, que sea esta: *el problema nunca f
 
 Y si algún día alguien te manda un APK por WhatsApp y te dice «es el mismo pero mejor», ya sabes lo que hay que preguntar: *¿quién lo firma?* Si la respuesta tarda más de dos segundos, la respuesta es nadie.
 
-💓 *La Bandita · sábado 31 de octubre de 2026.* Pieza 01 de Facebook. Medí hoy 33 repositorios —12 casas, 14 apps de la ficha y las herramientas— y 39 enlaces: los 33 están vivos y los 39 responden. Los números de esta pieza son de esta mañana y llevan su fecha al lado. Lo que no medí, está dicho arriba como no medido.
+💓 *La Bandita · domingo 1 de noviembre de 2026.* Pieza 01 de Facebook. Medí hoy 33 repositorios —12 casas, 14 apps de la ficha y las herramientas— y 39 enlaces: los 33 están vivos y los 39 responden. Los números de esta pieza son de esta mañana y llevan su fecha al lado. Lo que no medí, está dicho arriba como no medido.
 
-⏬ sigue abajo · parte 15 de 19
+⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 20 · 3901 caracteres ═══
+═══ MENSAJE 17 de 18 · 3294 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• AuroraOSS/AuroraStore — ★71 · empujó el 2-oct-2026 (hace 29 días) · GPL-3.0
-• RikkaApps/Shizuku — ★32.552 (+167) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• iamr0s/Dhizuku — ★4.067 (+17) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• timschneeb/ShizuStore — ★501 · sin fecha de empuje · GPL-3.0 · última release 1.5.0 (5-oct-2026)
-• carlelieser/yuki — ★157 · empujó el 12-oct-2026 (hace 19 días) · MIT · última release android-v1.11.1 (12-oct-2026)
-• solkin/appteka-android — ★1.367 (+8) · empujó el 21-oct-2026 (hace 10 días) · GPL-3.0 · última release v23.0 (13-ago-2026)
-• FossifyOrg/Gallery — ★3.870 (+9) · sin fecha de empuje · GPL-3.0 · última release 1.14.1 (24-oct-2026)
-• FossifyOrg/Messages — ★1.627 · sin fecha de empuje · GPL-3.0 · última release 1.10.2 (24-oct-2026)
-• FossifyOrg/Phone — ★1.397 (+3) · empujó en las últimas horas · GPL-3.0 · última release 1.11.1 (3-feb-2026)
-• FossifyOrg/File-Manager — ★1.846 (+1) · empujó el 27-oct-2026 (hace 4 días) · GPL-3.0 · última release 1.6.3 (24-oct-2026)
-• FossifyOrg/Voice-Recorder — ★1.034 · empujó el 27-oct-2026 (hace 4 días) · GPL-3.0 · última release 1.7.4 (24-oct-2026)
-• Goodwy/Gallery — ★196 · *dormido*: sin empujar desde el 23-may-2026 (161 días) · GPL-3.0 · última release 8.3.0 (23-may-2026)
-• Goodwy/PlayBook — ★138 · *dormido*: sin empujar desde el 18-abr-2025 (561 días) · GPL-3.0 · última release 4.1.1 (18-abr-2025)
-• GrapheneOS/Camera — ★1.423 · empujó en las últimas horas · MIT · última release 93 (1-ago-2026)
-• GrapheneOS/PdfViewer — ★1.062 · empujó el 28-oct-2026 (hace 3 días) · MIT · última release 33 (30-jul-2026)
-• LawnchairLauncher/lawnchair — ★13.832 (+15) · sin fecha de empuje · NOASSERTION · última release 1.2.0.1884 (23-jul-2018)
-• MM2-0/Kvaesitso — ★5.335 (+9) · empujó en las últimas horas · GPL-3.0 · última release v1.41.0 (15-sep-2026)
-• NeoApplications/Neo-Launcher — ★2.153 (+2) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release 0.9.3 (18-dic-2023)
-• georgeclensy/Escape-Launcher — ★465 · empujó en las últimas horas · NOASSERTION · última release v2.3.1 (2-ene-2026)
-• iamrasel/lunar-launcher — ★548 · *dormido*: sin empujar desde el 27-abr-2024 (917 días) · GPL-3.0 · última release 2.8.2 (12-mar-2024)
+• AuroraOSS/AuroraStore — ★71 · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0
+• RikkaApps/Shizuku — ★32.554 (+169) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• iamr0s/Dhizuku — ★4.068 (+18) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• timschneeb/ShizuStore — ★501 · empujó en las últimas horas · GPL-3.0 · última release 1.5.0 (5-oct-2026)
+• daboynb/developer-verifier-placeholder — ★183 · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)
+• samyak2403/RepoStore — ★1.369 · empujó el 29-oct-2026 (hace 3 días) · MIT · última release v1.0.22 (29-oct-2026)
+• wxxsfxyzm/InstallerX-Revived — ★7.257 (+37) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
+• pass-with-high-score/universal-installer — ★1.653 (+13) · empujó en las últimas horas · GPL-3.0 · última release v1.20.0 (25-oct-2026)
 • GrapheneOS/AppStore — ★624 · empujó en las últimas horas · MIT · última release 37 (31-oct-2026)
-• RookieEnough/Orion-Store — ★3.883 · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.6.5 (27-oct-2026)
-• NeoApplications/Neo-Store — ★5.589 (+19) · empujó el 23-oct-2026 (hace 8 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
-• Droid-ify/client — ★7.678 (+17) · *dormido*: sin empujar desde el 12-sep-2026 (49 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• ImranR98/Obtainium — ★21.096 (+77) · sin fecha de empuje · GPL-3.0 · última release v1.7.3 (25-oct-2026)
-• komi-store/komi-store — ★20.177 (+87) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• AbdurazaaqMohammed/AntiSplit-M — ★4.938 · empujó en las últimas horas · Apache-2.0 · última release 2.3.3 (31-oct-2026)
-• wxxsfxyzm/InstallerX-Revived — ★7.256 (+36) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
-• EFForg/apkeep — ★2.148 · empujó el 1-oct-2026 (hace 30 días) · MIT · última release 1.1.0 (1-oct-2026)
-• timschneeb/awesome-shizuku — ★10.667 · empujó en las últimas horas · NOASSERTION
-• Psyhackological/AAA — ★3.141 · empujó el 29-sep-2026 (hace 32 días) · CC-BY-4.0 · última release 250 (7-may-2024)
-• moneytoo/awesome-fdroid — ★200 · empujó en las últimas horas · Unlicense
-
-⏬ sigue abajo · parte 16 de 19
-
-═══ MENSAJE 18 de 20 · 159 caracteres ═══
-
-• krishna3163/best-root-apps-for-android — ★50 · empujó en las últimas horas · MIT · última release brene-v0.0.74 (31-oct-2026)
-
-⏬ sigue abajo · parte 17 de 19
-
-═══ MENSAJE 19 de 20 · 137 caracteres ═══
+• accrescent/accrescent — ★2.306 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
+• JonaNorman/WebViewUpgrade — ★456 · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · Apache-2.0
+• Paving-Base/APK-Installer — ★1.712 · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0 · última release v0.1.28 (11-ago-2025)
+• SysAdminDoc/AppManagerNG — ★163 · empujó el 30-sep-2026 (hace 32 días) · GPL-3.0 · última release v0.6.23 (5-sep-2026)
+• djunekz/termux-app-store — ★124 · empujó en las últimas horas · MIT · última release v0.9.1 (20-oct-2026)
+• Jman-Github/Universal-Patch-Manager — ★1.397 (+7) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• solrudev/Ackpine — ★185 · empujó el 17-oct-2026 (hace 15 días) · Apache-2.0 · última release 0.25.4 (30-jul-2026)
+• MuntashirAkon/AppManager — ★9.393 (+23) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• ImranR98/Obtainium — ★21.096 (+77) · empujó en las últimas horas · GPL-3.0 · última release v1.7.3 (25-oct-2026)
+• NeoApplications/Neo-Store — ★5.591 (+21) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• sri-sivaram/Neko-Manga-Pearl — ★116 · empujó en las últimas horas · sin licencia detectada por la API
+• ubedshah/manga-vault-nexus — ★115 · empujó en las últimas horas · sin licencia detectada por la API
+• Droid-ify/client — ★7.678 (+17) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 39 enlaces de esta pieza, *39 responden*.
-Ninguno roto.
+De los 21 enlaces de esta pieza, *18 responden*.
 
-⏬ sigue abajo · parte 18 de 19
+• https://github.com/samyak2403/RepoStore — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/solrudev/Ackpine — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/timschneeb/ShizuStore — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
-═══ MENSAJE 20 de 20 · 152 caracteres ═══
+⏬ sigue abajo · parte 16 de 17
+
+═══ MENSAJE 18 de 18 · 152 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.

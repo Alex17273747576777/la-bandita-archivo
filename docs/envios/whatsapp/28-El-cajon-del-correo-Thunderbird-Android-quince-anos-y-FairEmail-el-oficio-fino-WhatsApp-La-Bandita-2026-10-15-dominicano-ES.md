@@ -1,12 +1,12 @@
 # PIEZA 28 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/28-El-cajon-del-correo-Thunderbird-Android-quince-anos-y-FairEmail-el-oficio-fino-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `8fdca99aca3dd0df8c68253da670a5000337b871c21f283ec68c2e79e063dc8e`
-- **Envío generado:** 2026-10-31 · 16 mensajes · el mayor de 3561 caracteres
+- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3561 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 900 caracteres ═══
+═══ MENSAJE 1 de 16 · 901 caracteres ═══
 
 *EL CAJÓN DEL CORREO*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2 · MPL-2.0 1 · Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/28-El-cajon-del-correo-Thunderbird-Android-quince-anos-y-FairEmail-el-oficio-fino-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 16 · 2575 caracteres ═══
 
@@ -630,16 +630,16 @@ REV|92-01-6202 — liamEriaF/B66M=1|REV|978.98★ — gnihtcnys/gnihtcnys=2|REV|
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 832 caracteres ═══
+═══ MENSAJE 15 de 16 · 841 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 28*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• thunderbird/thunderbird-android — ★14.168 (+12) · empujó en las últimas horas · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
+• syncthing/syncthing — ★89.956 (+83) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• thunderbird/thunderbird-android — ★14.168 (+12) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
 • M66B/FairEmail — ★4.743 (+4) · empujó en las últimas horas · GPL-3.0 · última release 1.2339 (24-oct-2026)
-• M66B/NetGuard — ★3.954 (+5) · *dormido*: sin empujar desde el 1-ago-2026 (91 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
+• M66B/NetGuard — ★3.954 (+5) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

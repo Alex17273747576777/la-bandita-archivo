@@ -1,12 +1,12 @@
 # PIEZA 25 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/25-El-taller-de-herramientas-Shizuku-quieta-el-inspector-y-el-descargador-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `fbbecfcf90996836006ab0d5f1e34ae090f9d0d12b194e116c2f7b25e746b5a4`
-- **Envío generado:** 2026-10-31 · 16 mensajes · el mayor de 3539 caracteres
+- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3539 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 910 caracteres ═══
+═══ MENSAJE 1 de 16 · 911 caracteres ═══
 
 *EL TALLER DE HERRAMIENTAS*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 2 · GPL-3.0 2 · NOASSERTION 2 · MI
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/25-El-taller-de-herramientas-Shizuku-quieta-el-inspector-y-el-descargador-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 16 · 3290 caracteres ═══
 
@@ -649,19 +649,19 @@ REV|81-60-5202 — ukuzihS/sppAakkiR=1|REV|92-01-6202 — deepog/baLdeepoG=2|REV
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1298 caracteres ═══
+═══ MENSAJE 15 de 16 · 1315 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 25*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.552 (+168) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.554 (+170) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • GopeedLab/gopeed — ★27.296 (+50) · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
-• MuntashirAkon/AppManager — ★9.393 (+23) · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• MuntashirAkon/AppManager — ★9.393 (+23) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
 • florisboard/florisboard — ★8.739 (+6) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
 • TeamAmaze/AmazeFileManager — ★6.449 (+1) · empujó en las últimas horas · GPL-3.0 · última release v3.11.4 (15-oct-2026)
-• gsantner/markor — ★6.359 (+10) · empujó en las últimas horas · NOASSERTION · última release v2026.10.0 (25-oct-2026)
-• zfdang/Android-Touch-Helper — ★5.337 (+1) · empujó el 19-oct-2026 (hace 12 días) · MIT · última release tag-278 (10-oct-2026)
+• gsantner/markor — ★6.359 (+10) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v2026.10.0 (25-oct-2026)
+• zfdang/Android-Touch-Helper — ★5.337 (+1) · empujó el 19-oct-2026 (hace 13 días) · MIT · última release tag-278 (10-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

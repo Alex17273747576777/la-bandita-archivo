@@ -1,12 +1,12 @@
 # PIEZA 81 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/81-Miyorare-lector-manga-novelas-source-packs-Facebook-La-Bandita-2026-09-22-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `13cd8b7d6f616ef40f90435a4416fcbe969e7966fd9443ddadf9888188c81c11`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1878 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1878 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 915 caracteres ═══
+═══ MENSAJE 1 de 4 · 916 caracteres ═══
 
 *🟦 MIYORARE: EL VECINO NUEVO QUE HABLA TODOS LOS IDIOMAS Y TRAJO SU PROPIA SEMILLA*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/81-Miyorare-lector-manga-novelas-source-packs-Facebook-La-Bandita-2026-09-22-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1878 caracteres ═══
 
@@ -48,14 +48,14 @@ La noticia fresca es de **Noirero/Miyorare**: release v1.4.16 (2026-10-29). El e
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 596 caracteres ═══
+═══ MENSAJE 3 de 4 · 613 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 81*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Noirero/Miyorare — ★20 (+1) · sin fecha de empuje · GPL-3.0 · última release v1.4.16 (29-oct-2026)
-• Noirero/Miyorare-Source-Packs — ★3 (sin cambio) · sin fecha de empuje · sin licencia detectada por la API · última release miyorare-sources-v0.5.15 (24-oct-2026)
+• Noirero/Miyorare — ★20 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.4.16 (29-oct-2026)
+• Noirero/Miyorare-Source-Packs — ★3 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release miyorare-sources-v0.5.15 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

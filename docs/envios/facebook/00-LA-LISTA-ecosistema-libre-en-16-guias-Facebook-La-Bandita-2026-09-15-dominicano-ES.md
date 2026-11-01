@@ -1,12 +1,12 @@
 # PIEZA 00 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 18-sep-2026 (según dateline; edad hoy: 43 días)
+- **Fecha de la pieza:** 18-sep-2026 (según dateline; edad hoy: 44 días)
 - **sha256 de la pieza:** `0926bf43e36d95de98c30655b12dba12738b4c34d05eabbdfce73bd841e71350`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 3764 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 3764 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 859 caracteres ═══
+═══ MENSAJE 1 de 4 · 860 caracteres ═══
 
 *LA LISTA — El ecosistema libre en 79 guías (fundada el 14 · corte 18 de septiembre de 2026)*
 
@@ -18,7 +18,7 @@ Antes de mandártela volví a medir lo que afirma: *0 repositorios, 0 vivos*, m�
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 3764 caracteres ═══
 

@@ -1,12 +1,12 @@
 # PIEZA 27 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/27-El-tronco-de-las-llaves-KeePassDX-cumple-nueve-la-boveda-sin-testamento-y-el-faro-de-69-mil-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `e0ca57401799cd42be5d4bc79c28f5aca0ad487eb8d8f5f1b52c36b62b685ef1`
-- **Envío generado:** 2026-10-31 · 17 mensajes · el mayor de 3544 caracteres
+- **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3544 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 919 caracteres ═══
+═══ MENSAJE 1 de 17 · 920 caracteres ═══
 
 *EL TRONCO DE LAS LLAVES*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: AGPL-3.0 1 · NOASSERTION 1 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/27-El-tronco-de-las-llaves-KeePassDX-cumple-nueve-la-boveda-sin-testamento-y-el-faro-de-69-mil-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 17 · 2862 caracteres ═══
 
@@ -614,14 +614,14 @@ REV|809.96★ — nedrawtluav/aicrag-inad=1|REV|92-01-6202 — nedrawtluav/aicra
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 700 caracteres ═══
+═══ MENSAJE 16 de 17 · 701 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 27*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dani-garcia/vaultwarden — ★70.014 (+119) · empujó el 29-oct-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.4 (5-oct-2026)
-• keepassxreboot/keepassxc — ★29.649 (+45) · empujó en las últimas horas · NOASSERTION · última release 2.8.0 (21-oct-2026)
+• dani-garcia/vaultwarden — ★70.015 (+120) · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release 1.37.4 (5-oct-2026)
+• keepassxreboot/keepassxc — ★29.651 (+47) · empujó en las últimas horas · NOASSERTION · última release 2.8.0 (21-oct-2026)
 • Kunzisoft/KeePassDX — ★7.579 (+14) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

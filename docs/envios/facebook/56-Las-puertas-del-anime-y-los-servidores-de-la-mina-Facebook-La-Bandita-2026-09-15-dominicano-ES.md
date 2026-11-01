@@ -1,12 +1,12 @@
 # PIEZA 56 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `d48100022cd4f669aca6eefbda402d8390d2960b9863132a10e2c09dc59146dc`
-- **Envío generado:** 2026-10-31 · 12 mensajes · el mayor de 3898 caracteres
+- **Envío generado:** 2026-11-01 · 12 mensajes · el mayor de 3942 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 12 · 939 caracteres ═══
+═══ MENSAJE 1 de 12 · 940 caracteres ═══
 
 *Las puertas del anime y los servidores — censo de la mina III*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 25 · MIT 12 · sin licencia 7 · GPL-2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 12 · 3726 caracteres ═══
 
@@ -283,75 +283,75 @@ La noticia amarga: **jpdoshi/dragon-store** (caído (404)), **ycngmn/CuxPlug** (
 
 ⏬ sigue abajo · parte 6 de 11
 
-═══ MENSAJE 8 de 12 · 3898 caracteres ═══
+═══ MENSAJE 8 de 12 · 3942 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 56*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 62 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 62 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★117.837 (+225) · sin fecha de empuje · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• yuliskov/SmartTube — ★35.782 (+73) · empujó el 28-oct-2026 (hace 3 días) · MIT · última release 32.68s (20-oct-2026)
+• immich-app/immich — ★117.838 (+226) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• yuliskov/SmartTube — ★35.782 (+73) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 32.68s (20-oct-2026)
 • xbmc/xbmc — ★21.410 (+11) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
 • lollipopkit/flutter_server_box — ★8.922 (+25) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1844 (29-oct-2026)
-• standardnotes/app — ★6.691 (+3) · empujó en las últimas horas · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
+• standardnotes/app — ★6.691 (+3) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• muzei/muzei — ★4.957 (+3) · sin fecha de empuje · Apache-2.0 · última release api3.4.2 (16-jun-2024)
+• muzei/muzei — ★4.957 (+3) · empujó en las últimas horas · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • anilbeesetti/nextplayer — ★4.652 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (9-oct-2026)
-• 5rahim/seanime — ★4.291 (+6) · empujó el 14-oct-2026 (hace 17 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
-• jarnedemeulemeester/findroid — ★4.286 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2.0 (25-oct-2026)
+• 5rahim/seanime — ★4.291 (+6) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
+• jarnedemeulemeester/findroid — ★4.286 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.2.0 (25-oct-2026)
 • owncloud/android — ★4.174 (-1) · empujó en las últimas horas · GPL-2.0 · última release v4.8.4 (31-ago-2026)
-• videolan/vlc-android — ★4.126 (+6) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0
-• NuvioMedia/NuvioTV — ★3.305 (+34) · sin fecha de empuje · GPL-3.0 · última release 1.0.0 (19-sep-2026)
-• researchxxl/syncthing-android — ★3.214 (+22) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
-• mahlernim/google-timeline-visualizer — ★3.056 (-1) · empujó el 22-oct-2026 (hace 9 días) · MIT · última release v3.1.0 (5-oct-2026)
+• videolan/vlc-android — ★4.126 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0
+• NuvioMedia/NuvioTV — ★3.304 (+33) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• researchxxl/syncthing-android — ★3.215 (+23) · empujó el 22-oct-2026 (hace 10 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• mahlernim/google-timeline-visualizer — ★3.056 (-1) · empujó el 22-oct-2026 (hace 10 días) · MIT · última release v3.1.0 (5-oct-2026)
 • 10miaomiao/bilimiao2 — ★2.974 (+9) · empujó en las últimas horas · GPL-3.0 · última release 2.5.2.1 (31-oct-2026)
-• moneytoo/Player — ★2.775 (+16) · empujó el 22-oct-2026 (hace 9 días) · Unlicense · última release v0.217 (11-sep-2026)
+• moneytoo/Player — ★2.775 (+16) · empujó el 22-oct-2026 (hace 10 días) · Unlicense · última release v0.217 (11-sep-2026)
 • dkrivoruchko/ScreenStream — ★2.574 (+5) · empujó en las últimas horas · MIT · última release 4.4.2 (15-jul-2026)
 • markusfisch/BinaryEye — ★2.467 (+7) · empujó en las últimas horas · MIT · última release 1.75.7 (31-oct-2026)
-• bk138/droidVNC-NG — ★2.422 (+3) · empujó el 29-oct-2026 (hace 2 días) · GPL-2.0 · última release v2.22.2 (29-oct-2026)
-• newhinton/Round-Sync — ★2.416 (+3) · *dormido*: sin empujar desde el 16-nov-2025 (349 días) · GPL-3.0 · última release v2.5.6 (10-sep-2024)
-• Myzel394/Alibi — ★1.729 (+6) · *dormido*: sin empujar desde el 11-feb-2026 (262 días) · GPL-3.0 · última release v0.5.3 (7-sep-2024)
-• cosmictaserdev-creator/Convx — ★1.099 (+35) · sin fecha de empuje · GPL-3.0 · última release v1.5.2 (15-ago-2026)
-• chenxiaolong/RSAF — ★1.039 (+2) · empujó el 24-oct-2026 (hace 7 días) · GPL-3.0 · última release v4.16 (24-oct-2026)
-• chenxiaolong/BasicSync — ★734 (+4) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v3.27 (25-oct-2026)
-• dn0ne/lotus — ★717 (sin cambio) · *dormido*: sin empujar desde el 25-ene-2025 (644 días) · GPL-3.0 · última release v1.2.0 (25-ene-2025)
-• KNKPA/KNKPAnime — ★650 (sin cambio) · *dormido*: sin empujar desde el 1-feb-2025 (637 días) · GPL-3.0 · última release 1.1.7 (1-feb-2025)
-• haiwen/seadroid — ★637 (sin cambio) · empujó el 29-oct-2026 (hace 2 días) · NOASSERTION · última release v4.0.14 (28-sep-2026)
-• iodn/android-ir-blaster — ★607 (+5) · empujó el 15-oct-2026 (hace 16 días) · GPL-3.0 · última release v3.4.6 (15-oct-2026)
-• pass-with-high-score/ANeko — ★594 (+3) · *dormido*: sin empujar desde el 28-ago-2026 (64 días) · LGPL-2.1 · última release v2.4.4 (28-ago-2026)
+• bk138/droidVNC-NG — ★2.422 (+3) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v2.22.2 (29-oct-2026)
+• newhinton/Round-Sync — ★2.416 (+3) · *dormido*: sin empujar desde el 16-nov-2025 (350 días) · GPL-3.0 · última release v2.5.6 (10-sep-2024)
+• Myzel394/Alibi — ★1.729 (+6) · *dormido*: sin empujar desde el 11-feb-2026 (263 días) · GPL-3.0 · última release v0.5.3 (7-sep-2024)
+• cosmictaserdev-creator/Convx — ★1.099 (+35) · empujó en las últimas horas · GPL-3.0 · última release v1.5.2 (15-ago-2026)
+• chenxiaolong/RSAF — ★1.039 (+2) · empujó el 24-oct-2026 (hace 8 días) · GPL-3.0 · última release v4.16 (24-oct-2026)
+• chenxiaolong/BasicSync — ★736 (+6) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v3.27 (25-oct-2026)
+• dn0ne/lotus — ★717 (sin cambio) · *dormido*: sin empujar desde el 25-ene-2025 (645 días) · GPL-3.0 · última release v1.2.0 (25-ene-2025)
+• KNKPA/KNKPAnime — ★650 (sin cambio) · *dormido*: sin empujar desde el 1-feb-2025 (638 días) · GPL-3.0 · última release 1.1.7 (1-feb-2025)
+• haiwen/seadroid — ★637 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v4.0.14 (28-sep-2026)
+• iodn/android-ir-blaster — ★607 (+5) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v3.4.6 (15-oct-2026)
+• pass-with-high-score/ANeko — ★594 (+3) · *dormido*: sin empujar desde el 28-ago-2026 (65 días) · LGPL-2.1 · última release v2.4.4 (28-ago-2026)
 
 ⏬ sigue abajo · parte 7 de 11
 
-═══ MENSAJE 9 de 12 · 3660 caracteres ═══
+═══ MENSAJE 9 de 12 · 3684 caracteres ═══
 
-• recloudstream/cs-repos — ★544 (+1) · empujó el 28-oct-2026 (hace 3 días) · sin licencia detectada por la API
+• recloudstream/cs-repos — ★544 (+1) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API
 • phisher98/cloudstream-extensions-phisher — ★527 (+1) · empujó en las últimas horas · sin licencia detectada por la API
-• cvzi/ScreenshotTile — ★398 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v2.21.4 (26-sep-2026)
-• RenzoBeux/Dashboarr — ★379 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.22.0 (29-oct-2026)
-• WirelessAlien/MovieDB — ★368 (+2) · empujó el 20-oct-2026 (hace 11 días) · GPL-3.0 · última release v4.8.1 (1-sep-2026)
-• bikram-agarwal/FilePipe — ★315 (+1) · empujó el 2-oct-2026 (hace 29 días) · GPL-3.0 · última release v3.11.3 (26-sep-2026)
+• cvzi/ScreenshotTile — ★398 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.21.4 (26-sep-2026)
+• RenzoBeux/Dashboarr — ★379 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.22.0 (29-oct-2026)
+• WirelessAlien/MovieDB — ★368 (+2) · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0 · última release v4.8.1 (1-sep-2026)
+• bikram-agarwal/FilePipe — ★315 (+1) · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0 · última release v3.11.3 (26-sep-2026)
 • retransmit/Atrium — ★288 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1 (19-oct-2026)
-• tuntorius/mightier_amp — ★237 (+1) · *dormido*: sin empujar desde el 21-ene-2025 (648 días) · MIT · última release v1.0.16 (23-jul-2024)
-• koofr/vault — ★207 (sin cambio) · *dormido*: sin empujar desde el 13-ago-2026 (79 días) · MIT · última release v0.1.26 (13-ago-2026)
-• roozbehzarei/filester — ★197 (sin cambio) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release v3.4.0 (28-oct-2026)
+• tuntorius/mightier_amp — ★237 (+1) · *dormido*: sin empujar desde el 21-ene-2025 (649 días) · MIT · última release v1.0.16 (23-jul-2024)
+• koofr/vault — ★207 (sin cambio) · *dormido*: sin empujar desde el 13-ago-2026 (80 días) · MIT · última release v0.1.26 (13-ago-2026)
+• roozbehzarei/filester — ★197 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v3.4.0 (28-oct-2026)
 • tobexyz/yaacc-code — ★188 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release 5.4.0 (23-oct-2026)
-• Infomaniak/android-kDrive — ★177 (-1) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release 5.22.1 (5-oct-2026)
-• mkulesh/onpc — ★168 (sin cambio) · sin fecha de empuje · GPL-3.0 · última release v1.37 (26-ago-2025)
-• HQAnime/AnimeOne — ★168 (sin cambio) · empujó el 5-oct-2026 (hace 26 días) · MIT · última release 1.1.8 (2-jul-2022)
+• Infomaniak/android-kDrive — ★177 (-1) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release 5.22.1 (5-oct-2026)
+• mkulesh/onpc — ★168 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v1.37 (26-ago-2025)
+• HQAnime/AnimeOne — ★168 (sin cambio) · empujó el 5-oct-2026 (hace 27 días) · MIT · última release 1.1.8 (2-jul-2022)
 • bobrofon/easysshfs — ★154 (sin cambio) · empujó en las últimas horas · MIT · última release 0.5.19 (8-oct-2026)
-• SaurabhKaperwan/CSX — ★147 (sin cambio) · empujó el 2-oct-2026 (hace 29 días) · sin licencia detectada por la API
-• kivy-garden/zbarcam — ★141 (sin cambio) · *dormido*: sin empujar desde el 27-feb-2025 (611 días) · MIT · última release 2020.0524 (24-may-2020)
-• self-similarity/MegaRepo — ★142 (+2) · *dormido*: sin empujar desde el 3-oct-2025 (393 días) · sin licencia detectada por la API
-• zimly/zimly-backup — ★105 (sin cambio) · *dormido*: sin empujar desde el 28-feb-2026 (245 días) · GPL-3.0 · última release v3.4.1 (6-feb-2026)
-• doGior/doGiorsHadEnough — ★88 (sin cambio) · empujó el 25-oct-2026 (hace 6 días) · sin licencia detectada por la API
-• likhithpraveenk/storii — ★86 (+1) · empujó el 23-oct-2026 (hace 8 días) · GPL-3.0 · última release v0.13.0 (23-oct-2026)
+• SaurabhKaperwan/CSX — ★147 (sin cambio) · empujó el 2-oct-2026 (hace 30 días) · sin licencia detectada por la API
+• kivy-garden/zbarcam — ★141 (sin cambio) · *dormido*: sin empujar desde el 27-feb-2025 (612 días) · MIT · última release 2020.0524 (24-may-2020)
+• self-similarity/MegaRepo — ★142 (+2) · *dormido*: sin empujar desde el 3-oct-2025 (394 días) · sin licencia detectada por la API
+• zimly/zimly-backup — ★105 (sin cambio) · *dormido*: sin empujar desde el 28-feb-2026 (246 días) · GPL-3.0 · última release v3.4.1 (6-feb-2026)
+• doGior/doGiorsHadEnough — ★88 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · sin licencia detectada por la API
+• likhithpraveenk/storii — ★86 (+1) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release v0.13.0 (23-oct-2026)
 • CDrummond/lms-material-app — ★76 (sin cambio) · empujó en las últimas horas · MIT · última release 0.10.1 (31-ago-2026)
-• ptrLx/OneShot — ★52 (sin cambio) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.1.1 (7-abr-2023)
-• rumca-js/OfflineWebSearch — ★38 (+1) · empujó el 14-oct-2026 (hace 17 días) · GPL-3.0 · última release 1.0.38 (13-oct-2026)
-• blackcandy-org/app — ★33 (sin cambio) · empujó el 13-oct-2026 (hace 18 días) · MIT · última release android/v2.0.2 (12-may-2026)
-• Reflex755/ReflexRepo — ★10 (sin cambio) · *dormido*: sin empujar desde el 18-jul-2026 (105 días) · sin licencia detectada por la API
+• ptrLx/OneShot — ★52 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.1.1 (7-abr-2023)
+• rumca-js/OfflineWebSearch — ★38 (+1) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release 1.0.38 (13-oct-2026)
+• blackcandy-org/app — ★33 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · MIT · última release android/v2.0.2 (12-may-2026)
+• Reflex755/ReflexRepo — ★10 (sin cambio) · *dormido*: sin empujar desde el 18-jul-2026 (106 días) · sin licencia detectada por la API
 • ycngmn/CuxPlug — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• hexadigitall/makaw — ★0 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (54 días) · sin licencia detectada por la API · última release v1.0.47 (31-ago-2026)
+• hexadigitall/makaw — ★0 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · sin licencia detectada por la API · última release v1.0.47 (31-ago-2026)
 • inaccurate-hotelplan289/HomeLabSetup — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 ⏬ sigue abajo · parte 8 de 11
@@ -359,19 +359,24 @@ Medí otra vez, hoy 31 de octubre de 2026, los 62 repositorios que cita esta pie
 ═══ MENSAJE 10 de 12 · 397 caracteres ═══
 
 • jpdoshi/dragon-store — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• helios57/muplay — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 17 días) · MIT · última release v0.3.0 (11-oct-2026)
-• thiagooo0/EHHelper — ★0 · *dormido*: sin empujar desde el 13-ene-2024 (1022 días) · Apache-2.0 · última release v1.2.0 (27-jun-2023)
+• helios57/muplay — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 18 días) · MIT · última release v0.3.0 (11-oct-2026)
+• thiagooo0/EHHelper — ★0 · *dormido*: sin empujar desde el 13-ene-2024 (1023 días) · Apache-2.0 · última release v1.2.0 (27-jun-2023)
 
 ⏬ sigue abajo · parte 9 de 11
 
-═══ MENSAJE 11 de 12 · 419 caracteres ═══
+═══ MENSAJE 11 de 12 · 1031 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 92 enlaces de esta pieza, *89 responden*.
+De los 92 enlaces de esta pieza, *84 responden*.
 
 • https://github.com/inaccurate-hotelplan289/HomeLabSetup — 404. No existe hoy: no lo abras, no lo recomiendo.
 • https://github.com/jpdoshi/dragon-store — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/self-similarity/MegaRepo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/thiagooo0/EHHelper — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/tobexyz/yaacc-code — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/tuntorius/mightier_amp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/videolan/vlc-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/ycngmn/CuxPlug — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 10 de 11

@@ -1,12 +1,12 @@
 # PIEZA 13 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/13-Android-en-tu-iPhone-Husk-Facebook-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `bae7558b55eb99616687bf7349cfe53b91f9055a77c87c4b7251658cab3cb165`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2750 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2750 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 859 caracteres ═══
+═══ MENSAJE 1 de 4 · 860 caracteres ═══
 
 *[LA BANDITA · INFORMACIÓN PÚBLICA]*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4 · GPL-2.0 1 · AGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/13-Android-en-tu-iPhone-Husk-Facebook-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2750 caracteres ═══
 
@@ -58,17 +58,17 @@ Hay release de esta semana: **SysAdminDoc/HushFacebook** publicó v0.19.0 (2026-
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 976 caracteres ═══
+═══ MENSAJE 3 de 4 · 1009 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 13*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Leviidev/Husk — ★2.905 (+61) · sin fecha de empuje · GPL-2.0 · última release 3.3 (1-nov-2026)
-• flectar/mail — ★1.710 (+25) · sin fecha de empuje · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
-• SysAdminDoc/HushFacebook — ★447 (+10) · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
+• Leviidev/Husk — ★2.906 (+62) · empujó en las últimas horas · GPL-2.0 · última release 3.3 (1-nov-2026)
+• flectar/mail — ★1.710 (+25) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
+• SysAdminDoc/HushFacebook — ★447 (+10) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (28-oct-2026)
 • SysAdminDoc/HushFeed — ★342 (+18) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
-• SysAdminDoc/Hushfacebook — ★447 · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
+• SysAdminDoc/Hushfacebook — ★447 · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (28-oct-2026)
 • SysAdminDoc/hushfeed — ★342 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

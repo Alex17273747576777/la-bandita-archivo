@@ -1,12 +1,12 @@
 # PIEZA 38 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/38-El-cerrojo-Aegis-y-la-segunda-cerradura-de-las-cuentas-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `088b499c6a59d488f873221f74cb4931bc3196ae55ce00f43ff7db4a72646824`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2130 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2130 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 854 caracteres ═══
+═══ MENSAJE 1 de 4 · 855 caracteres ═══
 
 *EL CERROJO*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1 · Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/38-El-cerrojo-Aegis-y-la-segunda-cerradura-de-las-cuentas-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2130 caracteres ═══
 
@@ -64,14 +64,14 @@ REV|0.2-ehcapA=1|REV|60-90-6202 — sigeA/tnempolevedmeeb=2|REV|)60-90-6202( 3.4
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 623 caracteres ═══
+═══ MENSAJE 3 de 4 · 624 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 38*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• beemdevelopment/Aegis — ★13.433 (+19) · *dormido*: sin empujar desde el 6-sep-2026 (55 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• helloworld1/FreeOTPPlus — ★750 (+1) · *dormido*: sin empujar desde el 24-ago-2026 (68 días) · Apache-2.0 · última release RELEASE-3.4 (31-may-2026)
+• beemdevelopment/Aegis — ★13.435 (+21) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• helloworld1/FreeOTPPlus — ★750 (+1) · *dormido*: sin empujar desde el 24-ago-2026 (69 días) · Apache-2.0 · última release RELEASE-3.4 (31-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

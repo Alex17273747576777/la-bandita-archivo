@@ -1,12 +1,12 @@
 # PIEZA 32 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/32-El-almacen-la-venta-que-quedo-quieta-y-el-fork-que-rescato-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `2376f088ab2dec6b18bd854bb7138941c995dedd6379a233048891f4ff1e0eee`
-- **Envío generado:** 2026-10-31 · 18 mensajes · el mayor de 3619 caracteres
+- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3619 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 18 · 852 caracteres ═══
+═══ MENSAJE 1 de 18 · 853 caracteres ═══
 
 *EL ALMACÉN*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/32-El-almacen-la-venta-que-quedo-quieta-y-el-fork-que-rescato-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 18 · 2593 caracteres ═══
 
@@ -634,14 +634,14 @@ REV|548.1★ — reganaM-eliF/grOyfissoF=1|REV|0.3-LPG=2|REV|11-60-4202 — rega
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 617 caracteres ═══
+═══ MENSAJE 17 de 18 · 610 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 32*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• FossifyOrg/File-Manager — ★1.846 (+1) · empujó el 27-oct-2026 (hace 4 días) · GPL-3.0 · última release 1.6.3 (24-oct-2026)
-• SimpleMobileTools/Simple-File-Manager — ★1.583 (-1) · *dormido*: sin empujar desde el 11-jun-2024 (872 días) · GPL-3.0 · última release 6.16.1 (19-sep-2023)
+• FossifyOrg/File-Manager — ★1.846 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (24-oct-2026)
+• SimpleMobileTools/Simple-File-Manager — ★1.583 (-1) · *dormido*: sin empujar desde el 11-jun-2024 (873 días) · GPL-3.0 · última release 6.16.1 (19-sep-2023)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

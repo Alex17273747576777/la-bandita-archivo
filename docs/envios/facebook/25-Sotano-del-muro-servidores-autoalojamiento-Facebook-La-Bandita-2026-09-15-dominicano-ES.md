@@ -1,12 +1,12 @@
 # PIEZA 25 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/25-Sotano-del-muro-servidores-autoalojamiento-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `5888afe54d8753e52e532f6bd887aec0f12f38f2c656f3198e12172b2af9def8`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3548 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3548 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 921 caracteres ═══
+═══ MENSAJE 1 de 5 · 922 caracteres ═══
 
 *El sótano del muro: los servidores que trabajan mientras duermes*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4 · AGPL-3.0 1 · Apache-2.0 1 · GPL-2
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/25-Sotano-del-muro-servidores-autoalojamiento-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3548 caracteres ═══
 
@@ -73,24 +73,25 @@ La noticia fresca es de **winters27/octo**: release 2026.10.28 (2026-10-29). El 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1195 caracteres ═══
+═══ MENSAJE 4 de 5 · 1307 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 25*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • plainhub/plain-app — ★7.111 (+10) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.25 (11-sep-2026)
-• opencloud-eu/opencloud — ★6.265 (+14) · empujó en las últimas horas · Apache-2.0 · última release v9.0.0 (27-oct-2026)
-• Moonfin-Client/Moonfin-Core — ★932 (+17) · sin fecha de empuje · GPL-2.0 · última release 3.0.0 (30-oct-2026)
+• opencloud-eu/opencloud — ★6.266 (+15) · empujó en las últimas horas · Apache-2.0 · última release v9.0.0 (27-oct-2026)
+• Moonfin-Client/Moonfin-Core — ★932 (+17) · empujó en las últimas horas · GPL-2.0 · última release 3.0.0 (30-oct-2026)
 • PelagicaApp/pelagica — ★384 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release 4.14.0 (18-oct-2026)
-• ParsonLabs/parson — ★135 (sin cambio) · empujó el 26-oct-2026 (hace 5 días) · GPL-3.0 · última release v1.0.1 (10-oct-2026)
-• winters27/octo — ★152 (+20) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release 2026.10.28 (29-oct-2026)
-• damontecres/jellyfin-plugin-wholphin — ★26 (sin cambio) · empujó el 12-oct-2026 (hace 19 días) · GPL-3.0 · última release v0.1.0.0 (2-oct-2026)
+• ParsonLabs/parson — ★135 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.0.1 (10-oct-2026)
+• winters27/octo — ★152 (+20) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release 2026.10.28 (29-oct-2026)
+• damontecres/jellyfin-plugin-wholphin — ★26 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.1.0.0 (2-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 12 enlaces de esta pieza, *12 responden*.
-Ninguno roto.
+De los 12 enlaces de esta pieza, *11 responden*.
+
+• https://github.com/winters27/octo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

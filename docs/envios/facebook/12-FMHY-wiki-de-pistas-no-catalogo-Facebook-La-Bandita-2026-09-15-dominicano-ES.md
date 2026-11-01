@@ -1,12 +1,12 @@
 # PIEZA 12 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/12-FMHY-wiki-de-pistas-no-catalogo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `b991405ce6c901613248dab6eb6a085d68c8312d031b392ef8aa7d668b5f1fea`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1845 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1845 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 894 caracteres ═══
+═══ MENSAJE 1 de 4 · 895 caracteres ═══
 
 *FMHY es una wiki de pistas, no un catálogo: discovery ≠ verificación*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 1 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/12-FMHY-wiki-de-pistas-no-catalogo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1845 caracteres ═══
 
@@ -56,14 +56,14 @@ Hay release de esta semana: **mihonapp/mihon** publicó v0.21.3 (2026-10-25). Co
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 575 caracteres ═══
+═══ MENSAJE 3 de 4 · 576 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 12*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.913 (+74) · empujó el 26-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• fmhy/FMHY — ★15.351 (+32) · *dormido*: sin empujar desde el 13-may-2026 (171 días) · sin licencia detectada por la API
+• mihonapp/mihon — ★24.913 (+74) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• fmhy/FMHY — ★15.352 (+33) · *dormido*: sin empujar desde el 13-may-2026 (172 días) · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

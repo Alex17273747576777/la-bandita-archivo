@@ -1,12 +1,12 @@
 # PIEZA 05 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `c591728413e3f2d87b72ae0484ce725f562a35128e33d00bc340793e840a5ace`
-- **Envío generado:** 2026-10-31 · 2 mensajes · el mayor de 1542 caracteres
+- **Envío generado:** 2026-11-01 · 2 mensajes · el mayor de 1542 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 2 · 825 caracteres ═══
+═══ MENSAJE 1 de 2 · 826 caracteres ═══
 
 *TMO cayó: los clones no son TMO y tus listas no se recuperan*
 
@@ -18,7 +18,7 @@ Antes de mandártela volví a medir lo que afirma: *0 repositorios, 0 vivos*, m�
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 2 · 1542 caracteres ═══
 

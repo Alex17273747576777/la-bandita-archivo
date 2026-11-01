@@ -1,12 +1,12 @@
 # PIEZA 113 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/113-El-bolsillo-que-juega-Unciv-PPSSPP-y-Windows-en-el-telefono-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a8d1c4d230e1b6640c3ecde269a878db9bd4dc756e784a399eac5893ff173048`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2384 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2384 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 912 caracteres ═══
+═══ MENSAJE 1 de 4 · 913 caracteres ═══
 
 *El bolsillo que juega: Unciv, PPSSPP y Windows en el teléfono*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: LGPL-2.1 1 · NOASSERTION 1 · MPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/113-El-bolsillo-que-juega-Unciv-PPSSPP-y-Windows-en-el-telefono-Facebook-La-Bandita-2026-10-29.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2384 caracteres ═══
 
@@ -53,13 +53,13 @@ La noticia fresca es de **yairm210/Unciv**: release 4.22.15 (2026-10-28). El emp
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 688 caracteres ═══
+═══ MENSAJE 3 de 4 · 689 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 113*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• brunodev85/winlator — ★19.746 (+62) · empujó el 17-oct-2026 (hace 14 días) · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
+• brunodev85/winlator — ★19.746 (+62) · empujó el 17-oct-2026 (hace 15 días) · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
 • hrydgard/ppsspp — ★14.799 (+17) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
 • yairm210/Unciv — ★11.515 (+16) · empujó en las últimas horas · MPL-2.0 · última release 4.22.16 (31-oct-2026)
 

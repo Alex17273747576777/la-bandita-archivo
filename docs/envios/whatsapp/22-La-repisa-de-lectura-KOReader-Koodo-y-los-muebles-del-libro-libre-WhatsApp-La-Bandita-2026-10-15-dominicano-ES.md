@@ -1,12 +1,12 @@
 # PIEZA 22 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/22-La-repisa-de-lectura-KOReader-Koodo-y-los-muebles-del-libro-libre-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `4771dd5fe4c9bf64d09f2d1d78bf677edc496ed43cd6e0f886b95710309abd2b`
-- **Envío generado:** 2026-10-31 · 16 mensajes · el mayor de 3384 caracteres
+- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3384 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 901 caracteres ═══
+═══ MENSAJE 1 de 16 · 902 caracteres ═══
 
 *LA REPISA DE LECTURA*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2 · Apache-2.0 2 · AGPL-3.0 2 · MPL-2
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/22-La-repisa-de-lectura-KOReader-Koodo-y-los-muebles-del-libro-libre-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 16 · 3108 caracteres ═══
 
@@ -625,18 +625,18 @@ REV|834.911★ — NC_hz-skoob-gnimmargorp-eerf/cavajtsuj=1|REV|0.2-LPM=2|REV|92
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1204 caracteres ═══
+═══ MENSAJE 15 de 16 · 1221 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 22*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• justjavac/free-programming-books-zh_CN — ★119.462 (+24) · *dormido*: sin empujar desde el 29-jul-2026 (94 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
-• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• Crosstalk-Solutions/project-nomad — ★41.496 (+208) · empujó en las últimas horas · Apache-2.0 · última release v1.35.1 (5-oct-2026)
-• koreader/koreader — ★30.777 (+38) · sin fecha de empuje · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• koodo-reader/koodo-reader — ★28.680 (+12) · sin fecha de empuje · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
-• smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1286 días) · Apache-2.0
+• justjavac/free-programming-books-zh_CN — ★119.463 (+25) · *dormido*: sin empujar desde el 29-jul-2026 (95 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
+• syncthing/syncthing — ★89.956 (+83) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• Crosstalk-Solutions/project-nomad — ★41.497 (+209) · empujó en las últimas horas · Apache-2.0 · última release v1.35.1 (5-oct-2026)
+• koreader/koreader — ★30.777 (+38) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• koodo-reader/koodo-reader — ★28.679 (+11) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1287 días) · Apache-2.0
 • PaulWoitaschek/Voice — ★3.239 (+9) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

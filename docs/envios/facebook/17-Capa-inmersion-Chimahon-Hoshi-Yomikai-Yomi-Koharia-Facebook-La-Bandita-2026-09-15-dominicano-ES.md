@@ -1,12 +1,12 @@
 # PIEZA 17 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a2613302f4d87a67a327646a8357ebec0746fb5fa0345893d04e0703d06c51a5`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3708 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3708 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 972 caracteres ═══
+═══ MENSAJE 1 de 5 · 973 caracteres ═══
 
 *La capa de inmersión: los lectores que enseñan japonés mientras lees — y el cliente Komga que fal…*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 4 · GPL-3.0 3 · MIT 2 · AGPL-3.0 1
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/17-Capa-inmersion-Chimahon-Hoshi-Yomikai-Yomi-Koharia-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3708 caracteres ═══
 
@@ -94,30 +94,32 @@ Lo primero, lo que se cayó: **sj0404-collab/yomikai-pwa** (caído (404)). Legal
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1922 caracteres ═══
+═══ MENSAJE 4 de 5 · 2226 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 17*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.777 (+40) · sin fecha de empuje · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• Kareadita/Kavita — ★11.987 (+16) · sin fecha de empuje · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
-• gotson/komga — ★6.805 (+8) · sin fecha de empuje · MIT · última release 1.29.2 (28-oct-2026)
-• HuangAntimony/Hoshi-Reader-Android — ★466 (+4) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.4.0 (23-sep-2026)
-• Mister-album/Koharia — ★252 (+2) · empujó el 27-oct-2026 (hace 4 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)
-• Chimahon/chimahon — ★239 (+2) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
-• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 13 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
-• codegeasse1/yomi-reader — ★16 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (55 días) · Apache-2.0 · última release v0.1.7 (6-sep-2026)
-• woxakv/android-koreader-companion — ★11 (sin cambio) · empujó el 29-sep-2026 (hace 32 días) · MIT · última release v0.3.0 (29-sep-2026)
-• codegeasse1/Nekoread — ★10 (sin cambio) · empujó el 29-sep-2026 (hace 32 días) · sin licencia detectada por la API · última release v2.2.6 (29-sep-2026)
-• sj0404-collab/yomikai — ★2 (sin cambio) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v2.9.36 (25-oct-2026)
+• koreader/koreader — ★30.777 (+40) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• Kareadita/Kavita — ★11.987 (+16) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
+• gotson/komga — ★6.805 (+8) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
+• HuangAntimony/Hoshi-Reader-Android — ★466 (+4) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.4.0 (23-sep-2026)
+• Mister-album/Koharia — ★252 (+2) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)
+• Chimahon/chimahon — ★239 (+2) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
+• codegeasse1/yomi-reader — ★16 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · Apache-2.0 · última release v0.1.7 (6-sep-2026)
+• woxakv/android-koreader-companion — ★11 (sin cambio) · empujó el 29-sep-2026 (hace 33 días) · MIT · última release v0.3.0 (29-sep-2026)
+• codegeasse1/Nekoread — ★10 (sin cambio) · empujó el 29-sep-2026 (hace 33 días) · sin licencia detectada por la API · última release v2.2.6 (29-sep-2026)
+• sj0404-collab/yomikai — ★2 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · Apache-2.0 · última release v2.9.36 (25-oct-2026)
 • sj0404-collab/yomikai-pwa — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *17 responden*.
+De los 18 enlaces de esta pieza, *15 responden*.
 
-• https://github.com/sj0404-collab/yomikai-pwa — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/sj0404-collab/yomikai-pwa — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/woxakv/android-koreader-companion — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

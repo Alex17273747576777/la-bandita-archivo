@@ -1,12 +1,12 @@
 # PIEZA 75 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/75-La-negra-chiquita-DuckStation-la-era-32-bits-corriendo-fina-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `dd192cf1f537ab94175d975dfd4575093894db8a3b3a6253993c59f83a3f38bc`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1760 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1760 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 855 caracteres ═══
+═══ MENSAJE 1 de 4 · 856 caracteres ═══
 
 *LA NEGRA CHIQUITA*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/75-La-negra-chiquita-DuckStation-la-era-32-bits-corriendo-fina-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1760 caracteres ═══
 
@@ -60,11 +60,11 @@ REV|)52-01-6202( tsetal — noitatskcud/keznets=1|REV|92-01-6202 — noitatskcud
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 451 caracteres ═══
+═══ MENSAJE 3 de 4 · 452 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 75*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • stenzek/duckstation — ★10.928 (+13) · empujó en las últimas horas · NOASSERTION · última release latest (25-oct-2026)
 

@@ -1,12 +1,12 @@
 # PIEZA 44 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/44-Los-pequenos-las-casas-que-no-hacen-ruido-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `c8e1ba558e9a57c8ad4d20c3cdf9bf0b845385e252e19236b08465c5aa6b1e15`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3542 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3542 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 905 caracteres ═══
+═══ MENSAJE 1 de 5 · 906 caracteres ═══
 
 *Los pequeños: las casas que no hacen ruido*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: sin licencia 5 · GPL-3.0 3 · AGPL-3.0 2 · Apa
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/44-Los-pequenos-las-casas-que-no-hacen-ruido-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3542 caracteres ═══
 
@@ -96,26 +96,26 @@ Hay release de esta semana: **Paduu29/KomaStream** publicó v3.17 (2026-10-26). 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2290 caracteres ═══
+═══ MENSAJE 4 de 5 · 2299 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 44*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Marco-9456/AniSync — ★160 (+2) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release v3.3.0 (20-oct-2026)
-• AsrOfficialDev/ReDantotsu — ★152 (sin cambio) · *dormido*: sin empujar desde el 18-ago-2026 (74 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
-• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 41 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
-• e18lab/NHApp — ★135 (sin cambio) · *dormido*: sin empujar desde el 11-ago-2026 (81 días) · sin licencia detectada por la API · última release 1.3.1 (7-may-2026)
-• NyanTV/NyanTV — ★110 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (125 días) · AGPL-3.0 · última release v1.0.2 (27-jun-2026)
+• Marco-9456/AniSync — ★160 (+2) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v3.3.0 (20-oct-2026)
+• AsrOfficialDev/ReDantotsu — ★152 (sin cambio) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
+• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
+• e18lab/NHApp — ★135 (sin cambio) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · sin licencia detectada por la API · última release 1.3.1 (7-may-2026)
+• NyanTV/NyanTV — ★110 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (126 días) · AGPL-3.0 · última release v1.0.2 (27-jun-2026)
 • professorDeveloper/sozo — ★106 (+5) · empujó en las últimas horas · GPL-3.0 · última release v3.2.0 (27-sep-2026)
-• professorDeveloper/sozo-tv — ★77 (+2) · empujó en las últimas horas · sin licencia detectada por la API · última release 1.0.2 (24-ago-2026)
+• professorDeveloper/sozo-tv — ★77 (+2) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release 1.0.2 (24-ago-2026)
 • serene-brew/kaizen-app — ★60 (sin cambio) · empujó en las últimas horas · MIT · última release v3.2.1 (8-jun-2026)
-• Seguaz/Nekoyomi — ★48 (+1) · *dormido*: sin empujar desde el 11-sep-2026 (50 días) · Apache-2.0 · última release v0.20.6 (11-sep-2026)
-• Spyou/Sozo-Read — ★30 (sin cambio) · *dormido*: sin empujar desde el 29-may-2026 (155 días) · sin licencia detectada por la API · última release 1.3.5 (26-may-2026)
-• uwumilabs/uwumi — ★28 (sin cambio) · empujó el 29-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v3.12.0 (10-oct-2026)
-• richtunic/Kitsu-X — ★17 (sin cambio) · empujó el 18-oct-2026 (hace 13 días) · Apache-2.0 · última release v1.1.1 (18-oct-2026)
-• Paduu29/KomaStream — ★15 (sin cambio) · empujó el 26-oct-2026 (hace 5 días) · GPL-3.0 · última release v3.17 (26-oct-2026)
-• sozo-app/sozo-tv — ★25 · *dormido*: sin empujar desde el 1-mar-2026 (244 días) · sin licencia detectada por la API · última release v7.0 (1-mar-2026)
+• Seguaz/Nekoyomi — ★48 (+1) · *dormido*: sin empujar desde el 11-sep-2026 (51 días) · Apache-2.0 · última release v0.20.6 (11-sep-2026)
+• Spyou/Sozo-Read — ★30 (sin cambio) · *dormido*: sin empujar desde el 29-may-2026 (156 días) · sin licencia detectada por la API · última release 1.3.5 (26-may-2026)
+• uwumilabs/uwumi — ★28 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release v3.12.0 (10-oct-2026)
+• richtunic/Kitsu-X — ★17 (sin cambio) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v1.1.1 (18-oct-2026)
+• Paduu29/KomaStream — ★15 (sin cambio) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v3.17 (26-oct-2026)
+• sozo-app/sozo-tv — ★25 · *dormido*: sin empujar desde el 1-mar-2026 (245 días) · sin licencia detectada por la API · última release v7.0 (1-mar-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

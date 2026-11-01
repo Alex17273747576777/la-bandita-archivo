@@ -1,12 +1,12 @@
 # PIEZA 82 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/82-La-regleta-ZygiskNext-el-enchufe-de-los-modulos-del-root-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `311c8898621503266d5e0643e0db78eb73cab2d3e6403664e5b6eaf9a4aab966`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3656 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3656 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 866 caracteres ═══
+═══ MENSAJE 1 de 5 · 867 caracteres ═══
 
 *LA REGLETA*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 6 · MIT 2 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/82-La-regleta-ZygiskNext-el-enchufe-de-los-modulos-del-root-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3656 caracteres ═══
 
@@ -96,21 +96,21 @@ REV|)92-01-6202( 22112202 — eludom-ksigam-decnaver/ch-j=1|REV|247.01★ — tx
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1501 caracteres ═══
+═══ MENSAJE 4 de 5 · 1510 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 82*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Dr-TSNG/ZygiskNext — ★10.769 (+27) · empujó el 15-oct-2026 (hace 16 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
-• bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release 11282 (15-oct-2026)
+• Dr-TSNG/ZygiskNext — ★10.769 (+27) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• bmax121/APatch — ★8.115 (+11) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
 • j-hc/revanced-magisk-module — ★7.709 (+4) · empujó en las últimas horas · GPL-3.0 · última release 20221123 (30-oct-2026)
-• awesome-android-root/awesome-android-root — ★5.586 (+18) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
-• PerformanC/ReZygisk — ★4.108 (+9) · empujó el 11-oct-2026 (hace 20 días) · GPL-3.0 · última release v1.0.0 (10-may-2026)
+• awesome-android-root/awesome-android-root — ★5.587 (+19) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 6.1 (26-oct-2026)
+• PerformanC/ReZygisk — ★4.108 (+9) · empujó el 11-oct-2026 (hace 21 días) · GPL-3.0 · última release v1.0.0 (10-may-2026)
 • scummvm/scummvm — ★2.873 (+3) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
-• snake-4/Zygisk-Assistant — ★2.661 (-1) · *dormido*: sin empujar desde el 4-may-2026 (180 días) · MIT · última release v2.1.4 (23-feb-2025)
-• siavash79/PixelXpert — ★2.441 (+1) · *dormido*: sin empujar desde el 21-jun-2026 (132 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
-• MMRLApp/MMRL — ★2.225 (+2) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v34296 (8-mar-2026)
+• snake-4/Zygisk-Assistant — ★2.661 (-1) · *dormido*: sin empujar desde el 4-may-2026 (181 días) · MIT · última release v2.1.4 (23-feb-2025)
+• siavash79/PixelXpert — ★2.441 (+1) · *dormido*: sin empujar desde el 21-jun-2026 (133 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
+• MMRLApp/MMRL — ★2.225 (+2) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v34296 (8-mar-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

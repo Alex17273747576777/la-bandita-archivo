@@ -1,14 +1,14 @@
 # ENVÍOS DE WHATSAPP · índice
 
-Generado el 2026-10-31 a partir de la medición del mismo día (`docs/envios/_medicion-whatsapp.json`). Reglas y plan: `docs/envios/COMO-SE-MANDA.md`.
+Generado el 2026-11-01 a partir de la medición del mismo día (`docs/envios/_medicion-whatsapp.json`). Reglas y plan: `docs/envios/COMO-SE-MANDA.md`.
 
 Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada, cuerpo partido en mensajes de menos de 4.000 caracteres y cierre con el estado de hoy. La pieza original no se toca; su sha256 va en la cabecera del envío, así que si la pieza cambia, el envío queda marcado como desactualizado.
 
 | Pieza | Título | Mensajes | Mayor | Repos | Muertos | Apéndice | Archivo |
 |---|---|---|---|---|---|---|---|
 | 00 | LA LISTA: el ecosistema libre, guía por guía — el mapa entero de la bi | 26 | 3675 | 11 | 0 | sí | `00-LA-LISTA-ecosistema-libre-guia-por-guia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 26 | 3859 | 30 | 1 | no | `01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
-| 02 | El mueble de los tres cajones: la familia Tachiyomi, sus servidores y  | 28 | 3921 | 40 | 3 | no | `02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
+| 01 | Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que | 27 | 3912 | 31 | 1 | no | `01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
+| 02 | El mueble de los tres cajones: la familia Tachiyomi, sus servidores y  | 27 | 3836 | 56 | 3 | no | `02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
 | 02 | Kototoro: el mueble de tres cajones que hoy volvió a hornear | 25 | 3684 | 5 | 2 | sí | `02-Kototoro-mueble-de-tres-cajones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 03 | El censo ya sonó en cuatro países: la verificación de desarrolladores, | 26 | 3514 | 1 | 0 | sí | `03-Verificacion-Desarrolladores-hito-30-sep-2026-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 04 | Almacenes de extensiones KeiSource AbiSource y el resurtimiento del ma | 28 | 3638 | 6 | 0 | sí | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -23,14 +23,14 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 10 | GLTools no se receta: el letrero que sobrevivió a su propia muerte, el | 8 | 3536 | 3 | 1 | sí | `10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES` |
 | 100 | La foto V la mesa redonda del censo | 4 | 2158 | 2 | 0 | no | `100-La-foto-V-la-mesa-redonda-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 101 | La foto VI el pabellon de los dormidos | 5 | 3662 | 17 | 0 | no | `101-La-foto-VI-el-pabellon-de-los-dormidos-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 102 | La foto VII los invisibles de la foto | 6 | 3827 | 28 | 0 | no | `102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
+| 102 | La foto VII los invisibles de la foto | 6 | 3900 | 28 | 0 | no | `102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 103 | La foto VIII las licencias de la mesa | 6 | 3746 | 19 | 0 | no | `103-La-foto-VIII-las-licencias-de-la-mesa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 104 | La foto IX las casas con apellido | 6 | 3680 | 17 | 0 | no | `104-La-foto-IX-las-casas-con-apellido-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 105 | La foto X el dia de la foto | 2 | 787 | 0 | 0 | no | `105-La-foto-X-el-dia-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
+| 105 | La foto X el dia de la foto | 2 | 788 | 0 | 0 | no | `105-La-foto-X-el-dia-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 106 | La foto final el empalme de la foto | 4 | 1615 | 1 | 0 | no | `106-La-foto-final-el-empalme-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 107 | La galeria del barrio los tres muebles de la foto | 4 | 2674 | 3 | 0 | no | `107-La-galeria-del-barrio-los-tres-muebles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 108 | El sotano de las copias el testamento | 5 | 3716 | 7 | 1 | no | `108-El-sotano-de-las-copias-el-testamento-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 109 | LA UTILIDAD QUE HABLA CON SHIZUKU | 8 | 3662 | 5 | 0 | no | `109-La-utilidad-que-habla-con-Shizuku-OmniShizuku-y-el-taller-sin-root-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
+| 109 | LA UTILIDAD QUE HABLA CON SHIZUKU | 8 | 3715 | 5 | 0 | no | `109-La-utilidad-que-habla-con-Shizuku-OmniShizuku-y-el-taller-sin-root-WhatsApp-La-Bandita-2026-10-31-dominicano-ES` |
 | 11 | el mapa que no le cuenta tu vida a Google | 23 | 3687 | 2 | 0 | sí | `11-Vela-Maps-el-mapa-que-no-le-cuenta-tu-vida-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 12 | GRABAR LLAMADAS SIN ROOT | 20 | 3681 | 3 | 0 | sí | `12-Grabar-llamadas-sin-root-ShizuCallRecorder-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 13 | ANDROID EN TU IPHONE | 20 | 3722 | 2 | 0 | sí | `13-Android-en-iPhone-Husk-traduce-en-vez-de-emular-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -121,6 +121,6 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 98 | La foto III el sotano completo | 5 | 3742 | 7 | 0 | no | `98-La-foto-III-el-sotano-completo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 99 | La foto IV los jovenes del censo | 4 | 3492 | 5 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 
-**114 piezas · 1110 mensajes** · el mayor de todos: 3921 caracteres.
+**114 piezas · 1110 mensajes** · el mayor de todos: 3912 caracteres.
 
 

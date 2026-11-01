@@ -1,12 +1,12 @@
 # PIEZA 102 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `0eb7ff0795164a73ab025554b59fbd96e819d7414deeb2b5c4d53b61e9a75301`
-- **Envío generado:** 2026-10-31 · 6 mensajes · el mayor de 3827 caracteres
+- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3900 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 6 · 898 caracteres ═══
+═══ MENSAJE 1 de 6 · 899 caracteres ═══
 
 *La foto VII los invisibles de la foto*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 12 · Apache-2.0 8 · NOASSERTION 4 · A
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 6 · 3570 caracteres ═══
 
@@ -154,39 +154,39 @@ REV|92-01-6202 — krof-imoyinA-imadaT/munacradna=1|REV|0.3-LPG=2|REV|52-70-5202
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3827 caracteres ═══
+═══ MENSAJE 5 de 6 · 3900 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 102*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 28 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 28 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iamr0s/Dhizuku — ★4.067 (+17) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• iamr0s/Dhizuku — ★4.068 (+18) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 • animiruorg/Animiru — ★908 (+4) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0.1 (14-sep-2026)
-• Riteshp2001/mpvRx — ★868 (+9) · sin fecha de empuje · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
+• Riteshp2001/mpvRx — ★868 (+9) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
 • aayush2622/Dartotsu — ★549 (+4) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
-• yuzono/anime-extensions — ★525 (+3) · sin fecha de empuje · Apache-2.0
-• AppFuton/Futon — ★469 (+2) · empujó el 21-oct-2026 (hace 10 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
-• SysAdminDoc/HushFacebook — ★447 (+9) · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
-• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 42 días) · Apache-2.0
+• yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
+• AppFuton/Futon — ★469 (+2) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
+• SysAdminDoc/HushFacebook — ★447 (+9) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (28-oct-2026)
+• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
 • SysAdminDoc/HushFeed — ★342 (+17) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
-• ponces/treble_aosp — ★312 (+1) · *dormido*: sin empujar desde el 25-jul-2025 (463 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
-• AnBui2004/Vectras-VM-Emu-Android — ★306 (+1) · empujó el 14-oct-2026 (hace 17 días) · GPL-2.0 · última release 4.7.4 (14-oct-2026)
-• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
-• UsagiApp/Usagi — ★288 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
-• iamr0s/Dhizuku-API — ★205 (+1) · empujó en las últimas horas · MIT · última release v2.7.0 (30-oct-2026)
-• AsrOfficialDev/ReDantotsu — ★152 (sin cambio) · *dormido*: sin empujar desde el 18-ago-2026 (74 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
-• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
-• itsmechinmoy/Dantotsu — ★92 (sin cambio) · sin fecha de empuje · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
-• InvalidDavid/UMA — ★83 (+1) · empujó en las últimas horas · GPL-3.0 · última release f607156 (30-oct-2026)
-• Noirero/Miyorare — ★20 (+1) · sin fecha de empuje · GPL-3.0 · última release v1.4.16 (29-oct-2026)
-• Nahiro18/Kiroku — ★16 (sin cambio) · empujó el 16-oct-2026 (hace 15 días) · NOASSERTION · última release v1.1.96 (16-oct-2026)
-• Wammy-app/Wammy — ★13 (sin cambio) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.1.4 (25-oct-2026)
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (48 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
-• Med-amine0/aniyomi_plus — ★9 (sin cambio) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v0.18.2.7 (21-oct-2026)
-• R15Hi/Dsu-Multi-sideloader — ★3 (sin cambio) · empujó el 15-oct-2026 (hace 16 días) · Apache-2.0 · última release v2.20 (15-oct-2026)
-• sang765/Usagi — ★0 (sin cambio) · empujó el 16-oct-2026 (hace 15 días) · GPL-3.0
-• SysAdminDoc/Hushfacebook — ★447 · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
+• ponces/treble_aosp — ★312 (+1) · *dormido*: sin empujar desde el 25-jul-2025 (464 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
+• AnBui2004/Vectras-VM-Emu-Android — ★306 (+1) · empujó el 14-oct-2026 (hace 18 días) · GPL-2.0 · última release 4.7.4 (14-oct-2026)
+• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
+• UsagiApp/Usagi — ★288 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
+• iamr0s/Dhizuku-API — ★206 (+2) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v2.7.0 (30-oct-2026)
+• AsrOfficialDev/ReDantotsu — ★152 (sin cambio) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
+• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
+• itsmechinmoy/Dantotsu — ★92 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
+• InvalidDavid/UMA — ★83 (+1) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release f607156 (30-oct-2026)
+• Noirero/Miyorare — ★20 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.4.16 (29-oct-2026)
+• Nahiro18/Kiroku — ★16 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · NOASSERTION · última release v1.1.96 (16-oct-2026)
+• Wammy-app/Wammy — ★13 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.1.4 (25-oct-2026)
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
+• Med-amine0/aniyomi_plus — ★9 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.18.2.7 (21-oct-2026)
+• R15Hi/Dsu-Multi-sideloader — ★3 (sin cambio) · empujó el 15-oct-2026 (hace 17 días) · Apache-2.0 · última release v2.20 (15-oct-2026)
+• sang765/Usagi — ★0 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · GPL-3.0
+• SysAdminDoc/Hushfacebook — ★447 · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (28-oct-2026)
 • SysAdminDoc/hushfeed — ★342 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

@@ -1,12 +1,12 @@
 # PIEZA 05 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/05-TMO-caida-clones-no-iniciar-sesion-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `845529b99f50c56f5ec4101497a60e5df8d50c18f1f95f7e0009c18b7e44c250`
-- **Envío generado:** 2026-10-31 · 22 mensajes · el mayor de 3677 caracteres
+- **Envío generado:** 2026-11-01 · 22 mensajes · el mayor de 3677 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 22 · 800 caracteres ═══
+═══ MENSAJE 1 de 22 · 801 caracteres ═══
 
 *TMO caida clones no iniciar sesion*
 
@@ -18,7 +18,7 @@ Antes de mandártela volví a medir lo que afirma: *0 repositorios, 0 vivos*, m�
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/05-TMO-caida-clones-no-iniciar-sesion-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 22 · 2561 caracteres ═══
 

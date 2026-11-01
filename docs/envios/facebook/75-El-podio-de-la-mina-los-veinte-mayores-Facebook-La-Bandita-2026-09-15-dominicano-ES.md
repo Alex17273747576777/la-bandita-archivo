@@ -1,12 +1,12 @@
 # PIEZA 75 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/75-El-podio-de-la-mina-los-veinte-mayores-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `2f3844535cf398810f7588118c47d925e6bd5c6498f9fd4ec9ae023f9388c427`
-- **Envío generado:** 2026-10-31 · 6 mensajes · el mayor de 3771 caracteres
+- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3771 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 6 · 904 caracteres ═══
+═══ MENSAJE 1 de 6 · 905 caracteres ═══
 
 *El podio de la mina: los veinte mayores del censo*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 4 · AGPL-3.0 4 · Apache-2.0 4 · M
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/75-El-podio-de-la-mina-los-veinte-mayores-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 6 · 3771 caracteres ═══
 
@@ -131,28 +131,28 @@ La noticia fresca es de **lollipopkit/flutter_server_box**: release v1.0.1844 (2
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2447 caracteres ═══
+═══ MENSAJE 5 de 6 · 2473 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 75*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★332.473 (+686) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
-• ggml-org/llama.cpp — ★133.003 (+232) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
-• immich-app/immich — ★117.837 (+225) · sin fecha de empuje · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 2 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• SagerNet/sing-box — ★39.494 (+105) · empujó el 28-oct-2026 (hace 3 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
-• yuliskov/SmartTube — ★35.782 (+73) · empujó el 28-oct-2026 (hace 3 días) · MIT · última release 32.68s (20-oct-2026)
+• awesome-selfhosted/awesome-selfhosted — ★332.478 (+691) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• ggml-org/llama.cpp — ★133.005 (+234) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• immich-app/immich — ★117.838 (+226) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• SagerNet/sing-box — ★39.494 (+105) · empujó el 28-oct-2026 (hace 4 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• yuliskov/SmartTube — ★35.782 (+73) · empujó el 28-oct-2026 (hace 4 días) · MIT · última release 32.68s (20-oct-2026)
 • ente/ente — ★29.800 (+58) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
-• mlc-ai/mlc-llm — ★23.288 (+3) · empujó en las últimas horas · Apache-2.0
+• mlc-ai/mlc-llm — ★23.288 (+3) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
 • xbmc/xbmc — ★21.410 (+11) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• komi-store/komi-store — ★20.177 (+87) · empujó el 25-oct-2026 (hace 6 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• FreshRSS/FreshRSS — ★16.471 (+25) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
-• FlareSolverr/FlareSolverr — ★16.099 (+28) · empujó el 24-oct-2026 (hace 7 días) · MIT · última release v3.5.2 (12-sep-2026)
+• komi-store/komi-store — ★20.179 (+89) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• FreshRSS/FreshRSS — ★16.472 (+26) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
+• FlareSolverr/FlareSolverr — ★16.100 (+29) · empujó el 24-oct-2026 (hace 8 días) · MIT · última release v3.5.2 (12-sep-2026)
 • T8RIN/ImageToolbox — ★15.278 (+37) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
-• thunderbird/thunderbird-android — ★14.168 (+11) · empujó en las últimas horas · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
-• offa/android-foss — ★11.607 (+21) · empujó el 26-oct-2026 (hace 5 días) · GPL-3.0
-• iSoron/uhabits — ★10.380 (+8) · empujó el 22-oct-2026 (hace 9 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
+• thunderbird/thunderbird-android — ★14.168 (+11) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
+• offa/android-foss — ★11.607 (+21) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0
+• iSoron/uhabits — ★10.380 (+8) · empujó el 22-oct-2026 (hace 10 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
 • lollipopkit/flutter_server_box — ★8.922 (+25) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1844 (29-oct-2026)
 • floccusaddon/floccus — ★8.610 (+7) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 

@@ -1,12 +1,12 @@
 # PIEZA 121 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/121-Ghost-Downloader-3-el-administrador-que-baja-de-todo-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a06a6f57351b9cf67c9c0e8934f6e8cdd0317454fd83bb4d3fbc5ca1b7b8d068`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2264 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2264 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 884 caracteres ═══
+═══ MENSAJE 1 de 4 · 885 caracteres ═══
 
 *Ghost Downloader 3: el administrador que baja de todo*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2 · NOASSERTION 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/121-Ghost-Downloader-3-el-administrador-que-baja-de-todo-Facebook-La-Bandita-2026-10-29.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2264 caracteres ═══
 
@@ -54,15 +54,15 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 687 caracteres ═══
+═══ MENSAJE 3 de 4 · 695 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 121*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• agalwood/Motrix — ★57.644 (+97) · sin fecha de empuje · NOASSERTION · última release v2.1.1 (29-oct-2026)
+• agalwood/Motrix — ★57.644 (+97) · empujó en las últimas horas · NOASSERTION · última release v2.2.0 (1-nov-2026)
 • GopeedLab/gopeed — ★27.296 (+50) · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
-• XiaoYouChR/Ghost-Downloader-3 — ★10.580 (+79) · empujó el 29-oct-2026 (hace 2 días) · GPL-3.0 · última release v4.4.6 (28-oct-2026)
+• XiaoYouChR/Ghost-Downloader-3 — ★10.580 (+79) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.4.6 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

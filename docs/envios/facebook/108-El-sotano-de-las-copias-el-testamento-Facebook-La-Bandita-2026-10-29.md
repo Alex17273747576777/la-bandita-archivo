@@ -1,12 +1,12 @@
 # PIEZA 108 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/108-El-sotano-de-las-copias-el-testamento-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `11e851468ffdc04055cadd463752df9fb1c7e321008318220364d42db9247e89`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2853 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2853 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 851 caracteres ═══
+═══ MENSAJE 1 de 4 · 852 caracteres ═══
 
 *El sótano de las copias: el testamento*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MPL-2.0 3 · AGPL-3.0 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/108-El-sotano-de-las-copias-el-testamento-Facebook-La-Bandita-2026-10-29.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2853 caracteres ═══
 
@@ -62,22 +62,23 @@ Sin sobresaltos: el empuje más cercano es de **immich-app/immich** (hace 2 día
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 999 caracteres ═══
+═══ MENSAJE 3 de 4 · 1117 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 108*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★117.837 (+225) · sin fecha de empuje · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• syncthing/syncthing — ★89.955 (+82) · empujó el 29-oct-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (697 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
-• NeoApplications/Neo-Backup — ★3.888 (+7) · empujó el 17-oct-2026 (hace 14 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
-• researchxxl/syncthing-android — ★3.214 (+22) · empujó el 22-oct-2026 (hace 9 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• immich-app/immich — ★117.838 (+226) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• syncthing/syncthing — ★89.956 (+83) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
+• NeoApplications/Neo-Backup — ★3.888 (+7) · empujó el 17-oct-2026 (hace 15 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• researchxxl/syncthing-android — ★3.215 (+23) · empujó el 22-oct-2026 (hace 10 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 7 enlaces de esta pieza, *7 responden*.
-Ninguno roto.
+De los 7 enlaces de esta pieza, *6 responden*.
+
+• https://github.com/syncthing/syncthing — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

@@ -1,12 +1,12 @@
 # PIEZA 63 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/63-La-segunda-fila-del-lector-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `64e91889d9bfb2ff8a3cab0731e0bafad7767bf8f99ff0ef42a35dc751d1e2ed`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3739 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3739 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 864 caracteres ═══
+═══ MENSAJE 1 de 5 · 865 caracteres ═══
 
 *La segunda fila del lector*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 5 · Apache-2.0 2 · MPL-2.0 1 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/63-La-segunda-fila-del-lector-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3739 caracteres ═══
 
@@ -95,28 +95,31 @@ Hay release de esta semana: **wikimedia/apps-android-wikipedia** publicó latest
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1709 caracteres ═══
+═══ MENSAJE 4 de 5 · 2096 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 63*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • floccusaddon/floccus — ★8.610 (+7) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
-• ReadYouApp/ReadYou — ★7.632 (+8) · *dormido*: sin empujar desde el 11-ago-2026 (81 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
-• spacecowboy/Feeder — ★3.100 (+4) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)
+• ReadYouApp/ReadYou — ★7.632 (+8) · *dormido*: sin empujar desde el 11-ago-2026 (82 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
+• spacecowboy/Feeder — ★3.101 (+5) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.25.0 (23-oct-2026)
 • wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (31-oct-2026)
 • SimonSchubert/LinuxCommandLibrary — ★2.089 (+3) · empujó en las últimas horas · Apache-2.0 · última release v4.9.1 (14-oct-2026)
-• plateaukao/einkbro — ★2.049 (+1) · empujó en las últimas horas · NOASSERTION · última release v16.7.1 (11-oct-2026)
-• mateusz-bak/openreads — ★1.666 (+2) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · GPL-2.0 · última release v2.11.0 (9-sep-2025)
-• Livinglist/Hacki — ★1.638 (+2) · empujó en las últimas horas · GPL-3.0 · última release v3.8.2 (11-oct-2026)
-• astubenbord/paperless-mobile — ★1.492 (+1) · *dormido*: sin empujar desde el 1-jun-2026 (152 días) · GPL-3.0 · última release v4.5.0 (16-abr-2026)
+• plateaukao/einkbro — ★2.049 (+1) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
+• mateusz-bak/openreads — ★1.666 (+2) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-2.0 · última release v2.11.0 (9-sep-2025)
+• Livinglist/Hacki — ★1.638 (+2) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.8.2 (11-oct-2026)
+• astubenbord/paperless-mobile — ★1.492 (+1) · *dormido*: sin empujar desde el 1-jun-2026 (153 días) · GPL-3.0 · última release v4.5.0 (16-abr-2026)
 • jocmp/capyreader — ★1.439 (+6) · empujó en las últimas horas · GPL-3.0 · última release 2026.10.1215 (27-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *18 responden*.
-Ninguno roto.
+De los 18 enlaces de esta pieza, *15 responden*.
+
+• https://github.com/samuelclay/NewsBlur — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/spacecowboy/Feeder — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/wikimedia/apps-android-wikipedia — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

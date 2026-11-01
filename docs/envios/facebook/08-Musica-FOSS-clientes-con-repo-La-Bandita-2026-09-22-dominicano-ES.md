@@ -1,12 +1,12 @@
 # PIEZA 08 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/08-Musica-FOSS-clientes-con-repo-La-Bandita-2026-09-22-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a681f8588c6eaedf6636985586ad623f02e6d399cb0f44a062ee61212bd2d77d`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3618 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3618 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 903 caracteres ═══
+═══ MENSAJE 1 de 5 · 904 caracteres ═══
 
 *MÚSICA LIBRE, DIEZ TALLERES MEDIDOS ESTA MAÑANA — Y UN TALLER QUE LE CERRÓ LA PUERTA A SUS PROPIA…*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 9 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/08-Musica-FOSS-clientes-con-repo-La-Bandita-2026-09-22-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3618 caracteres ═══
 
@@ -87,22 +87,22 @@ La noticia fresca es de **N-Zik-Group/N-Zik**: release v8.5.0 (2026-10-28). En l
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1570 caracteres ═══
+═══ MENSAJE 4 de 5 · 1579 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • TeamNewPipe/NewPipe — ★40.384 (+30) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
-• MetrolistGroup/Metrolist — ★13.921 (+32) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• MetrolistGroup/Metrolist — ★13.922 (+33) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
 • maxrave-dev/SimpMusic — ★12.607 (+78) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
 • AntennaPod/AntennaPod — ★8.257 (+4) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
-• z-huang/InnerTune — ★6.130 (+2) · *dormido*: sin empujar desde el 13-nov-2025 (352 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 19 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• OxygenCobalt/Auxio — ★4.411 (+10) · *dormido*: sin empujar desde el 8-sep-2026 (53 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
-• anandnet/Harmony-Music — ★3.090 (-1) · *dormido*: sin empujar desde el 8-dic-2025 (327 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
-• N-Zik-Group/N-Zik — ★279 (+1) · sin fecha de empuje · GPL-3.0 · última release v8.5.0 (28-oct-2026)
-• Hotaro26/gabi — ★104 (+1) · empujó el 30-sep-2026 (hace 31 días) · MIT · última release v4.6.1 (1-sep-2026)
+• z-huang/InnerTune — ★6.130 (+2) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• OxygenCobalt/Auxio — ★4.411 (+10) · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
+• anandnet/Harmony-Music — ★3.090 (-1) · *dormido*: sin empujar desde el 8-dic-2025 (328 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
+• N-Zik-Group/N-Zik — ★279 (+1) · empujó en las últimas horas · GPL-3.0 · última release v8.5.0 (28-oct-2026)
+• Hotaro26/gabi — ★104 (+1) · empujó el 30-sep-2026 (hace 32 días) · MIT · última release v4.6.1 (1-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

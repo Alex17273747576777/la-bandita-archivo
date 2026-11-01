@@ -1,12 +1,12 @@
 # PIEZA 64 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/64-La-aprendiz-del-taller-OpenInterpreter-el-codigo-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `8f460ec892eb2d4321c2024835ba5ab20f90fafad762708a87525913ac0acafc`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 2585 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2585 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 867 caracteres ═══
+═══ MENSAJE 1 de 4 · 868 caracteres ═══
 
 *LA APRENDIZ DEL TALLER*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 1 · Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/64-La-aprendiz-del-taller-OpenInterpreter-el-codigo-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2585 caracteres ═══
 
@@ -68,14 +68,14 @@ REV|932.581★ — amallo/amallo=1|REV|)82-01-6202( 31.04.0v — amallo/amallo=2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 578 caracteres ═══
+═══ MENSAJE 3 de 4 · 579 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 64*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.496 (+257) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• openinterpreter/openinterpreter — ★68.766 (+43) · empujó en las últimas horas · Apache-2.0 · última release rust-v0.0.57 (31-oct-2026)
+• ollama/ollama — ★185.497 (+258) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• openinterpreter/openinterpreter — ★68.767 (+44) · empujó en las últimas horas · Apache-2.0 · última release rust-v0.0.57 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

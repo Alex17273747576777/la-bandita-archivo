@@ -1,12 +1,12 @@
 # PIEZA 08 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/08-Musica-FOSS-clientes-con-repo-SimpMusic-bloquea-reempaques-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `8a2733f2db81e9dd056ec61a7375d4ed9449fd90c3ff70626fe1a7adec235520`
-- **Envío generado:** 2026-10-31 · 25 mensajes · el mayor de 3681 caracteres
+- **Envío generado:** 2026-11-01 · 25 mensajes · el mayor de 3681 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 25 · 902 caracteres ═══
+═══ MENSAJE 1 de 25 · 903 caracteres ═══
 
 *Musica FOSS clientes con repo SimpMusic bloquea reempaques*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 9 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/08-Musica-FOSS-clientes-con-repo-SimpMusic-bloquea-reempaques-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 25 · 3039 caracteres ═══
 
@@ -815,22 +815,22 @@ REV|31-11-5202 — enuTrennI/gnauh-z=1|REV|753.04★ — epiPweN/epiPweNmaeT=2|R
 
 ⏬ sigue abajo · parte 22 de 24
 
-═══ MENSAJE 24 de 25 · 1571 caracteres ═══
+═══ MENSAJE 24 de 25 · 1580 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • TeamNewPipe/NewPipe — ★40.384 (+27) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
-• MetrolistGroup/Metrolist — ★13.921 (+30) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• MetrolistGroup/Metrolist — ★13.922 (+31) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
 • maxrave-dev/SimpMusic — ★12.607 (+73) · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (25-oct-2026)
 • AntennaPod/AntennaPod — ★8.257 (+3) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
-• z-huang/InnerTune — ★6.130 (+1) · *dormido*: sin empujar desde el 13-nov-2025 (352 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 19 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• OxygenCobalt/Auxio — ★4.411 (+9) · *dormido*: sin empujar desde el 8-sep-2026 (53 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
-• anandnet/Harmony-Music — ★3.090 (-2) · *dormido*: sin empujar desde el 8-dic-2025 (327 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
-• N-Zik-Group/N-Zik — ★279 (+1) · sin fecha de empuje · GPL-3.0 · última release v8.5.0 (28-oct-2026)
-• Hotaro26/gabi — ★104 (+1) · empujó el 30-sep-2026 (hace 31 días) · MIT · última release v4.6.1 (1-sep-2026)
+• z-huang/InnerTune — ★6.130 (+1) · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• OuterTune/OuterTune — ★5.439 (+2) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• OxygenCobalt/Auxio — ★4.411 (+9) · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
+• anandnet/Harmony-Music — ★3.090 (-2) · *dormido*: sin empujar desde el 8-dic-2025 (328 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
+• N-Zik-Group/N-Zik — ★279 (+1) · empujó en las últimas horas · GPL-3.0 · última release v8.5.0 (28-oct-2026)
+• Hotaro26/gabi — ★104 (+1) · empujó el 30-sep-2026 (hace 32 días) · MIT · última release v4.6.1 (1-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

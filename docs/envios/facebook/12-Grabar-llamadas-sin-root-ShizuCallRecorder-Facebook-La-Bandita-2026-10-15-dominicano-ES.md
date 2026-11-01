@@ -1,12 +1,12 @@
 # PIEZA 12 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/12-Grabar-llamadas-sin-root-ShizuCallRecorder-Facebook-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `b27de276effece41440d3eac604b74439871e44fa00b26e9c6a224abdf4f89f9`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 3299 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 3299 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 879 caracteres ═══
+═══ MENSAJE 1 de 4 · 880 caracteres ═══
 
 *[LA BANDITA · INFORMACIÓN PÚBLICA]*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 5 · Apache-2.0 1 · AGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/12-Grabar-llamadas-sin-root-ShizuCallRecorder-Facebook-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 3299 caracteres ═══
 
@@ -61,18 +61,18 @@ La noticia fresca es de **SysAdminDoc/HushFacebook**: release v0.19.0 (2026-10-2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1147 caracteres ═══
+═══ MENSAJE 3 de 4 · 1180 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 12*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.552 (+167) · *dormido*: sin empujar desde el 18-jun-2025 (500 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• kitsumed/ShizuCallRecorder — ★1.965 (+33) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (24-oct-2026)
-• flectar/mail — ★1.710 (+25) · sin fecha de empuje · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
-• SysAdminDoc/HushFacebook — ★447 (+10) · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
+• RikkaApps/Shizuku — ★32.554 (+169) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• kitsumed/ShizuCallRecorder — ★1.965 (+33) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.0.0 (24-oct-2026)
+• flectar/mail — ★1.710 (+25) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
+• SysAdminDoc/HushFacebook — ★447 (+10) · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (28-oct-2026)
 • SysAdminDoc/HushFeed — ★342 (+18) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
-• SysAdminDoc/Hushfacebook — ★447 · sin fecha de empuje · GPL-3.0 · última release v0.19.0 (28-oct-2026)
+• SysAdminDoc/Hushfacebook — ★447 · empujó en las últimas horas · GPL-3.0 · última release v0.19.0 (28-oct-2026)
 • SysAdminDoc/hushfeed — ★342 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

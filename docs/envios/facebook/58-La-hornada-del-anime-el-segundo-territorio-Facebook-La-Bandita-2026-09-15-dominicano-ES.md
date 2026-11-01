@@ -1,12 +1,12 @@
 # PIEZA 58 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/58-La-hornada-del-anime-el-segundo-territorio-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `6215b3ce4f3e2e36af69dd445a36b214b51290bd532d50316e86086f07b0930f`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3687 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3687 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 883 caracteres ═══
+═══ MENSAJE 1 de 5 · 884 caracteres ═══
 
 *La hornada del anime: el segundo territorio*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 9 · MIT 4 · LGPL-2.1 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/58-La-hornada-del-anime-el-segundo-territorio-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3687 caracteres ═══
 
@@ -98,31 +98,32 @@ Sin sobresaltos: el empuje más cercano es de **retransmit/Atrium** (hace 2 día
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2132 caracteres ═══
+═══ MENSAJE 4 de 5 · 2252 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 58*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Myzel394/Alibi — ★1.729 (+6) · *dormido*: sin empujar desde el 11-feb-2026 (262 días) · GPL-3.0 · última release v0.5.3 (7-sep-2024)
-• dn0ne/lotus — ★717 (sin cambio) · *dormido*: sin empujar desde el 25-ene-2025 (644 días) · GPL-3.0 · última release v1.2.0 (25-ene-2025)
-• pass-with-high-score/ANeko — ★594 (+3) · *dormido*: sin empujar desde el 28-ago-2026 (64 días) · LGPL-2.1 · última release v2.4.4 (28-ago-2026)
-• cvzi/ScreenshotTile — ★398 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v2.21.4 (26-sep-2026)
-• WirelessAlien/MovieDB — ★368 (+2) · empujó el 20-oct-2026 (hace 11 días) · GPL-3.0 · última release v4.8.1 (1-sep-2026)
+• Myzel394/Alibi — ★1.729 (+6) · *dormido*: sin empujar desde el 11-feb-2026 (263 días) · GPL-3.0 · última release v0.5.3 (7-sep-2024)
+• dn0ne/lotus — ★717 (sin cambio) · *dormido*: sin empujar desde el 25-ene-2025 (645 días) · GPL-3.0 · última release v1.2.0 (25-ene-2025)
+• pass-with-high-score/ANeko — ★594 (+3) · *dormido*: sin empujar desde el 28-ago-2026 (65 días) · LGPL-2.1 · última release v2.4.4 (28-ago-2026)
+• cvzi/ScreenshotTile — ★398 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.21.4 (26-sep-2026)
+• WirelessAlien/MovieDB — ★368 (+2) · empujó el 20-oct-2026 (hace 12 días) · GPL-3.0 · última release v4.8.1 (1-sep-2026)
 • retransmit/Atrium — ★288 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1 (19-oct-2026)
-• tuntorius/mightier_amp — ★237 (+1) · *dormido*: sin empujar desde el 21-ene-2025 (648 días) · MIT · última release v1.0.16 (23-jul-2024)
-• HQAnime/AnimeOne — ★168 (sin cambio) · empujó el 5-oct-2026 (hace 26 días) · MIT · última release 1.1.8 (2-jul-2022)
-• zimly/zimly-backup — ★105 (sin cambio) · *dormido*: sin empujar desde el 28-feb-2026 (245 días) · GPL-3.0 · última release v3.4.1 (6-feb-2026)
-• likhithpraveenk/storii — ★86 (+1) · empujó el 23-oct-2026 (hace 8 días) · GPL-3.0 · última release v0.13.0 (23-oct-2026)
+• tuntorius/mightier_amp — ★237 (+1) · *dormido*: sin empujar desde el 21-ene-2025 (649 días) · MIT · última release v1.0.16 (23-jul-2024)
+• HQAnime/AnimeOne — ★168 (sin cambio) · empujó el 5-oct-2026 (hace 27 días) · MIT · última release 1.1.8 (2-jul-2022)
+• zimly/zimly-backup — ★105 (sin cambio) · *dormido*: sin empujar desde el 28-feb-2026 (246 días) · GPL-3.0 · última release v3.4.1 (6-feb-2026)
+• likhithpraveenk/storii — ★86 (+1) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release v0.13.0 (23-oct-2026)
 • CDrummond/lms-material-app — ★76 (sin cambio) · empujó en las últimas horas · MIT · última release 0.10.1 (31-ago-2026)
-• ptrLx/OneShot — ★52 (sin cambio) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.1.1 (7-abr-2023)
-• rumca-js/OfflineWebSearch — ★38 (+1) · empujó el 14-oct-2026 (hace 17 días) · GPL-3.0 · última release 1.0.38 (13-oct-2026)
-• blackcandy-org/app — ★33 (sin cambio) · empujó el 13-oct-2026 (hace 18 días) · MIT · última release android/v2.0.2 (12-may-2026)
+• ptrLx/OneShot — ★52 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.1.1 (7-abr-2023)
+• rumca-js/OfflineWebSearch — ★38 (+1) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release 1.0.38 (13-oct-2026)
+• blackcandy-org/app — ★33 (sin cambio) · empujó el 13-oct-2026 (hace 19 días) · MIT · última release android/v2.0.2 (12-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *21 responden*.
-Ninguno roto.
+De los 21 enlaces de esta pieza, *20 responden*.
+
+• https://github.com/tuntorius/mightier_amp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

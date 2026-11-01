@@ -1,12 +1,12 @@
 # PIEZA 10 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/10-GLTools-no-se-receta-spoof-GPU-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 16 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
 - **sha256 de la pieza:** `d505d7c18ebae101b7dc2199fcdc854c530850553dfba2976118e61f50ffcd39`
-- **Envío generado:** 2026-10-31 · 21 mensajes · el mayor de 3697 caracteres
+- **Envío generado:** 2026-11-01 · 21 mensajes · el mayor de 3697 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 21 · 852 caracteres ═══
+═══ MENSAJE 1 de 21 · 853 caracteres ═══
 
 *GLTools no se receta spoof GPU*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 1 · GPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/10-GLTools-no-se-receta-spoof-GPU-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 21 · 3697 caracteres ═══
 
@@ -591,14 +591,14 @@ REV|0.2-LPG=1|REV|801★ — LGrekcolnUi/olyaT-i=2|REV|92-21-5202 — LGrekcolnU
 
 ⏬ sigue abajo · parte 18 de 20
 
-═══ MENSAJE 20 de 21 · 585 caracteres ═══
+═══ MENSAJE 20 de 21 · 586 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• i-Taylo/iUnlockerGL — ★110 (+2) · *dormido*: sin empujar desde el 29-dic-2025 (306 días) · NOASSERTION · última release v1.1.5-r4 (29-dic-2025)
-• darek2015/GLTools — ★12 (sin cambio) · *dormido*: sin empujar desde el 5-may-2020 (2370 días) · GPL-2.0
+• i-Taylo/iUnlockerGL — ★110 (+2) · *dormido*: sin empujar desde el 29-dic-2025 (307 días) · NOASSERTION · última release v1.1.5-r4 (29-dic-2025)
+• darek2015/GLTools — ★12 (sin cambio) · *dormido*: sin empujar desde el 5-may-2020 (2371 días) · GPL-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,12 +1,12 @@
 # PIEZA 04 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-Facebook-La-Bandita-2026-09-22-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `38ee5b4f78e4ec0ac615041e71ca80674bca7a98bbe3fed405c6f0fc5f58ae0a`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 3187 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 3187 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 963 caracteres ═══
+═══ MENSAJE 1 de 4 · 964 caracteres ═══
 
 *ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR, MEDIDA CON PLACA Y HORA ESTA MAÑANA*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: sin licencia 3 · Apache-2.0 3.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-Facebook-La-Bandita-2026-09-22-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 3187 caracteres ═══
 
@@ -65,18 +65,18 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1033 caracteres ═══
+═══ MENSAJE 3 de 4 · 1050 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
-• keiyoushi/extensions-source — ★4.839 (+8) · sin fecha de empuje · Apache-2.0
-• LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 20 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
-• yuzono/anime-extensions — ★525 (+3) · sin fecha de empuje · Apache-2.0
+• keiyoushi/extensions-source — ★4.839 (+8) · empujó en las últimas horas · Apache-2.0
+• LittleSurvival/copymanga-copy20 — ★2.984 (+12) · empujó el 11-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
+• yuzono/anime-extensions — ★525 (+3) · empujó en las últimas horas · Apache-2.0
 • cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f3291a9 (31-oct-2026)
-• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 42 días) · Apache-2.0
+• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,12 +1,12 @@
 # PIEZA 103 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/103-La-foto-VIII-las-licencias-de-la-mesa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a8c055f1157ea353234bf3f9f6f91adb1568c3f87083f6a11b5386e9fb8e9498`
-- **Envío generado:** 2026-10-31 · 6 mensajes · el mayor de 3746 caracteres
+- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3746 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 6 · 895 caracteres ═══
+═══ MENSAJE 1 de 6 · 896 caracteres ═══
 
 *La foto VIII las licencias de la mesa*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 7 · MIT 6 · AGPL-3.0 4 · sin lice
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/103-La-foto-VIII-las-licencias-de-la-mesa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 6 · 3746 caracteres ═══
 
@@ -141,30 +141,30 @@ REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — revres/duolctxen=2|REV|)62
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2705 caracteres ═══
+═══ MENSAJE 5 de 6 · 2770 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 103*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.496 (+257) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• open-webui/open-webui — ★157.419 (+247) · sin fecha de empuje · NOASSERTION · última release v0.12.5 (29-oct-2026)
-• ggml-org/llama.cpp — ★133.003 (+232) · sin fecha de empuje · MIT · última release v0.8.0 (28-oct-2026)
-• immich-app/immich — ★117.837 (+225) · sin fecha de empuje · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• louislam/uptime-kuma — ★93.125 (+60) · sin fecha de empuje · MIT · última release 2.5.9 (31-oct-2026)
-• modelcontextprotocol/servers — ★91.722 (+41) · empujó el 29-oct-2026 (hace 2 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
-• ChatGPTNextWeb/NextChat — ★88.930 (+12) · empujó el 20-oct-2026 (hace 11 días) · MIT · última release v2.16.1 (29-jul-2025)
-• termux/termux-app — ★63.845 (+169) · empujó el 26-sep-2026 (hace 35 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• ollama/ollama — ★185.497 (+258) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• open-webui/open-webui — ★157.421 (+249) · empujó en las últimas horas · NOASSERTION · última release v0.12.5 (29-oct-2026)
+• ggml-org/llama.cpp — ★133.005 (+234) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• immich-app/immich — ★117.838 (+226) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• louislam/uptime-kuma — ★93.125 (+60) · empujó en las últimas horas · MIT · última release 2.5.9 (31-oct-2026)
+• modelcontextprotocol/servers — ★91.722 (+41) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
+• ChatGPTNextWeb/NextChat — ★88.930 (+12) · empujó el 20-oct-2026 (hace 12 días) · MIT · última release v2.16.1 (29-jul-2025)
+• termux/termux-app — ★63.845 (+169) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • pi-hole/pi-hole — ★61.612 (+53) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
-• go-gitea/gitea — ★58.805 (+39) · sin fecha de empuje · MIT · última release v28.2.0 (18-oct-2026)
-• moeru-ai/airi — ★50.965 (+75) · sin fecha de empuje · MIT · última release v0.14.1 (30-oct-2026)
+• go-gitea/gitea — ★58.805 (+39) · empujó en las últimas horas · MIT · última release v28.2.0 (18-oct-2026)
+• moeru-ai/airi — ★50.967 (+77) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
 • team-spotube/spotube — ★50.523 (+57) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
 • qbittorrent/qBittorrent — ★41.278 (+65) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
-• photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 2 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• nextcloud/server — ★37.379 (+34) · sin fecha de empuje · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• koodo-reader/koodo-reader — ★28.680 (+12) · sin fecha de empuje · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• photoprism/photoprism — ★40.382 (+12) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• nextcloud/server — ★37.379 (+34) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• koodo-reader/koodo-reader — ★28.679 (+11) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
 • keiyoushi/extensions — ★15.397 (+28) · empujó en las últimas horas · sin licencia detectada por la API · última release 0d83f6b-2 (31-oct-2026)
-• Dr-TSNG/ZygiskNext — ★10.769 (+27) · empujó el 15-oct-2026 (hace 16 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• Dr-TSNG/ZygiskNext — ★10.769 (+27) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
 • modelcontextprotocol/modelcontextprotocol — ★9.577 (+15) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

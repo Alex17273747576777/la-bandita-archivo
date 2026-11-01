@@ -1,12 +1,12 @@
 # PIEZA 79 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/79-La-octogesima-el-techo-tocado-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `fd48821d325a78f1a2e2fb260f9fb521b931d3589201eca5654dbcb8b82e5a57`
-- **Envío generado:** 2026-10-31 · 2 mensajes · el mayor de 791 caracteres
+- **Envío generado:** 2026-11-01 · 2 mensajes · el mayor de 792 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 2 · 791 caracteres ═══
+═══ MENSAJE 1 de 2 · 792 caracteres ═══
 
 *La octogésima: el techo, tocado*
 
@@ -18,7 +18,7 @@ Antes de mandártela volví a medir lo que afirma: *0 repositorios, 0 vivos*, m�
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/79-La-octogesima-el-techo-tocado-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 2 · 527 caracteres ═══
 

@@ -1,12 +1,12 @@
 # PIEZA 83 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/83-La-tienda-de-modulos-MMRL-el-estante-del-root-con-ley-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `f85f4714b1046ce602fd7bf48e348eb2f47b011cafa46780973b1ab04a87ed8b`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 1268 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1268 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 869 caracteres ═══
+═══ MENSAJE 1 de 4 · 870 caracteres ═══
 
 *La tienda de módulos: MMRL, el estante del root con ley*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/83-La-tienda-de-modulos-MMRL-el-estante-del-root-con-ley-Facebook-La-Bandita-2026-10-29.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1268 caracteres ═══
 
@@ -46,13 +46,13 @@ El grupo respira despacio; su empuje más reciente, **MMRLApp/MMRL**, fue hace 6
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 445 caracteres ═══
+═══ MENSAJE 3 de 4 · 446 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 83*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MMRLApp/MMRL — ★2.225 (+2) · empujó el 25-oct-2026 (hace 6 días) · GPL-3.0 · última release v34296 (8-mar-2026)
+• MMRLApp/MMRL — ★2.225 (+2) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v34296 (8-mar-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

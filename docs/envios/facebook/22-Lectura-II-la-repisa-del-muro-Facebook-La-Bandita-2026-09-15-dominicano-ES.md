@@ -1,12 +1,12 @@
 # PIEZA 22 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/22-Lectura-II-la-repisa-del-muro-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `3b8e4bebb67d4a3dca14b0400012e42d974965b47c375ec8a8d0e9603f6790b1`
-- **Envío generado:** 2026-10-31 · 5 mensajes · el mayor de 3720 caracteres
+- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3720 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 5 · 918 caracteres ═══
+═══ MENSAJE 1 de 5 · 919 caracteres ═══
 
 *Lectura II: la repisa del muro — siete lectores vivos y un legado*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 4 · NOASSERTION 2 · AGPL-3.0 1 · s
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/22-Lectura-II-la-repisa-del-muro-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3720 caracteres ═══
 
@@ -80,26 +80,27 @@ La noticia fresca es de **k1717/Readwide**: release v1.0.21 (2026-10-24). En lic
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1513 caracteres ═══
+═══ MENSAJE 4 de 5 · 1629 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 22*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koodo-reader/koodo-reader — ★28.680 (+13) · sin fecha de empuje · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
-• komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 10 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• thehijacker/codexa — ★79 (sin cambio) · empujó el 19-oct-2026 (hace 12 días) · sin licencia detectada por la API · última release v2.6.7 (19-oct-2026)
-• nubesurrealista/Kumo — ★59 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (72 días) · Apache-2.0 · última release v0.21.0 (20-ago-2026) · *ARCHIVADO*
-• Nyora-Manga/nyora-android — ★58 (sin cambio) · empujó el 23-sep-2026 (hace 38 días) · GPL-3.0 · última release v2.7.3 (31-jul-2026)
-• k1717/Readwide — ★40 (+2) · empujó el 24-oct-2026 (hace 7 días) · NOASSERTION · última release v1.0.21 (24-oct-2026)
-• MyNameHand/Tegaki — ★4 (sin cambio) · empujó el 16-oct-2026 (hace 15 días) · Apache-2.0 · última release v1.0.2 (12-oct-2026)
-• ifritraen/kisara — ★2 (sin cambio) · empujó el 1-oct-2026 (hace 30 días) · Apache-2.0 · última release v1.0.7 (28-jul-2026)
-• dinkelspiel/komikku-sync — ★0 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (66 días) · NOASSERTION
+• koodo-reader/koodo-reader — ★28.679 (+12) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• komikku-app/komikku — ★4.963 (+8) · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• thehijacker/codexa — ★79 (sin cambio) · empujó el 19-oct-2026 (hace 13 días) · sin licencia detectada por la API · última release v2.6.7 (19-oct-2026)
+• nubesurrealista/Kumo — ★59 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · Apache-2.0 · última release v0.21.0 (20-ago-2026) · *ARCHIVADO*
+• Nyora-Manga/nyora-android — ★58 (sin cambio) · empujó el 23-sep-2026 (hace 39 días) · GPL-3.0 · última release v2.7.3 (31-jul-2026)
+• k1717/Readwide — ★40 (+2) · empujó el 24-oct-2026 (hace 8 días) · NOASSERTION · última release v1.0.21 (24-oct-2026)
+• MyNameHand/Tegaki — ★4 (sin cambio) · empujó el 16-oct-2026 (hace 16 días) · Apache-2.0 · última release v1.0.2 (12-oct-2026)
+• ifritraen/kisara — ★2 (sin cambio) · empujó el 1-oct-2026 (hace 31 días) · Apache-2.0 · última release v1.0.7 (28-jul-2026)
+• dinkelspiel/komikku-sync — ★0 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (67 días) · NOASSERTION
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 12 enlaces de esta pieza, *12 responden*.
-Ninguno roto.
+De los 12 enlaces de esta pieza, *11 responden*.
+
+• https://github.com/thehijacker/codexa — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

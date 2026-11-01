@@ -1,12 +1,12 @@
 # PIEZA 19 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/19-Panorama-multi-anime-manga-novelas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `7dc7a32b498696265f7071e44588f83dfb86b66f2db9fc7095a04bf931495bea`
-- **Envío generado:** 2026-10-31 · 4 mensajes · el mayor de 3105 caracteres
+- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 3105 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 907 caracteres ═══
+═══ MENSAJE 1 de 4 · 908 caracteres ═══
 
 *El panorama multi: manga, anime y novelas en la misma mano*
 
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 3 · MIT 1 · GPL-3.0 1 · sin licenc
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/19-Panorama-multi-anime-manga-novelas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 31 de octubre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 3105 caracteres ═══
 
@@ -67,23 +67,24 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1092 caracteres ═══
+═══ MENSAJE 3 de 4 · 1214 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 19*
 
-Medí otra vez, hoy 31 de octubre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• aniyomiorg/aniyomi — ★7.863 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (47 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• gotson/komga — ★6.805 (+8) · sin fecha de empuje · MIT · última release 1.29.2 (28-oct-2026)
+• aniyomiorg/aniyomi — ★7.863 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• gotson/komga — ★6.805 (+8) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
 • Kototoro-app/Kototoro — ★656 (+3) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 2 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
-• Chimahon/chimahon — ★239 (+2) · empujó el 28-oct-2026 (hace 3 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
-• tadamiorg/tadami — ★61 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
+• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
+• Chimahon/chimahon — ★239 (+2) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *9 responden*.
-Ninguno roto.
+De los 9 enlaces de esta pieza, *8 responden*.
+
+• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 
