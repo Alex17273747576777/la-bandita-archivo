@@ -124,7 +124,7 @@ REV|)12-01-6202( 7.1.2v — gnihtcnys/gnihtcnys=1|REV|92-01-6202 — gnihtcnys/g
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2714 caracteres ═══
+═══ MENSAJE 4 de 5 · 2684 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 101*
 
@@ -140,7 +140,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 17 repositorios que cita esta pi
 • cloudflare/boringtun — ★7.246 (+9) · *dormido*: sin empujar desde el 29-jun-2026 (126 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
 • smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1288 días) · Apache-2.0
 • bromite/bromite — ★6.320 (-1) · *dormido*: sin empujar desde el 24-ene-2024 (1013 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
-• z-huang/InnerTune — ★6.135 (+6) · *dormido*: sin empujar desde el 13-nov-2025 (354 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• z-huang/InnerTune — ★6.135 (sin cambio) · *dormido*: sin empujar desde el 13-nov-2025 (354 días) · GPL-3.0
 • miru-project/miru-app — ★5.792 (+8) · *dormido*: sin empujar desde el 5-dic-2025 (332 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
 • syncthing/syncthing-android — ★4.292 (-1) · *dormido*: sin empujar desde el 3-dic-2024 (699 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • MatteCarra/AccA — ★1.404 (+2) · *dormido*: sin empujar desde el 17-jun-2024 (868 días) · GPL-3.0 · última release v1.0.35 (31-ago-2021)

@@ -92,7 +92,7 @@ La noticia fresca es de **PaulWoitaschek/Voice**: release 26.10.8-5410008 (2026-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1832 caracteres ═══
+═══ MENSAJE 4 de 5 · 1794 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 52*
 
@@ -103,7 +103,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pi
 • JunkFood02/Seal — ★30.276 (+117) · empujó el 25-sep-2026 (hace 38 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
 • libre-tube/LibreTube — ★12.934 (+21) · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
 • deniscerri/ytdlnis — ★10.928 (+84) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
-• RetroMusicPlayer/RetroMusicPlayer — ★5.381 (+7) · empujó el 4-oct-2026 (hace 29 días) · GPL-3.0 · última release v7.0.3 (13-ago-2026)
+• RetroMusicPlayer/RetroMusicPlayer — ★5.381 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • gokadzev/Musify — ★4.390 (+9) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 10.6.0 (23-oct-2026)
 • PaulWoitaschek/Voice — ★3.243 (+13) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
 • ShacharHarshuv/open-ear — ★186 (sin cambio) · empujó el 24-sep-2026 (hace 39 días) · sin licencia detectada por la API · última release v1.9.0 (7-feb-2025)

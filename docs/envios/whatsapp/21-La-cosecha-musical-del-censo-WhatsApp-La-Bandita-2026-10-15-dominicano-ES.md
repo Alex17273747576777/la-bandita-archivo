@@ -774,22 +774,22 @@ REV|82-40-3202 — rebmiT/41naman=1|REV|92-01-6202 — ecruoSreyalPtlaS/ylfairoM
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 2110 caracteres ═══
+═══ MENSAJE 19 de 20 · 1949 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 21*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • team-spotube/spotube — ★50.553 (+87) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• maxrave-dev/SimpMusic — ★12.658 (+124) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/SimpMusic — ★12.671 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • rukamori/ArchiveTune — ★7.889 (+114) · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
 • Moriafly/SaltPlayerSource — ★7.592 (+17) · empujó en las últimas horas · MIT · última release 12.6.0 (2-nov-2026)
 • naman14/Timber — ★7.034 (+1) · *dormido*: sin empujar desde el 28-abr-2023 (1284 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
 • PixelPlayerHQ/PixelPlayer — ★6.874 (+37) · empujó el 21-sep-2026 (hace 42 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
-• namidaco/namida — ★6.765 (+27) · empujó en las últimas horas · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• z-huang/InnerTune — ★6.135 (+6) · *dormido*: sin empujar desde el 13-nov-2025 (354 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• OuterTune/OuterTune — ★5.441 (+4) · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• RetroMusicPlayer/RetroMusicPlayer — ★5.381 (+7) · empujó el 4-oct-2026 (hace 29 días) · GPL-3.0 · última release v7.0.3 (13-ago-2026)
+• namidaco/namida — ★6.772 (sin cambio) · empujó en las últimas horas · NOASSERTION
+• z-huang/InnerTune — ★6.135 (sin cambio) · *dormido*: sin empujar desde el 13-nov-2025 (354 días) · GPL-3.0
+• OuterTune/OuterTune — ★5.442 (sin cambio) · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0
+• RetroMusicPlayer/RetroMusicPlayer — ★5.381 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • gokadzev/Musify — ★4.390 (+9) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 10.6.0 (23-oct-2026)
 • cwuom/NeriPlayer — ★4.050 (+66) · empujó en las últimas horas · GPL-3.0 · última release NeriPlayer-51f0100c.10312030 (31-oct-2026)
 • sonorahq/sonora — ★2.558 (+65) · empujó en las últimas horas · GPL-3.0 · última release v0.47.0 (2-nov-2026)

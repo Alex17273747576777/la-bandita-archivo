@@ -2241,76 +2241,76 @@
    "stars_pieza": 40357
   },
   "MetrolistGroup/Metrolist": {
-   "estado": "vivo",
-   "stars": 13956,
-   "push": "2026-11-01",
-   "archivado": false,
+   "stars": 13969,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-02",
    "desc": "YouTube Music client for Android",
-   "release": "v13.7.0",
-   "release_fecha": "2026-09-07",
-   "stars_pieza": 13891
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 13969
   },
   "maxrave-dev/SimpMusic": {
-   "estado": "vivo",
-   "stars": 12658,
-   "push": "2026-11-02",
-   "archivado": false,
+   "stars": 12671,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-02",
    "desc": "A cross-platform music app using YouTube Music for backend",
-   "release": "v2.5.0",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": 12534
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 12671
   },
   "AntennaPod/AntennaPod": {
-   "estado": "vivo",
-   "stars": 8260,
-   "push": "2026-11-01",
-   "archivado": false,
+   "stars": 8261,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
+   "push": "2026-11-02",
    "desc": "A podcast manager for Android",
-   "release": "3.12.3",
-   "release_fecha": "2026-10-13",
-   "stars_pieza": 8254
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 8261
   },
   "z-huang/InnerTune": {
-   "estado": "vivo",
    "stars": 6135,
-   "push": "2025-11-13",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2025-11-13",
    "desc": "A Material 3 YouTube Music client for Android",
-   "release": "v0.5.10",
-   "release_fecha": "2024-09-01",
-   "stars_pieza": 6129
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 6135
   },
   "OuterTune/OuterTune": {
-   "estado": "vivo",
-   "stars": 5441,
-   "push": "2026-10-12",
-   "archivado": false,
+   "stars": 5442,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-12",
    "desc": "A Material 3 Music Player for Android with local file & YouTube Music support. Forked from InnerTune",
-   "release": "v0.10.1",
-   "release_fecha": "2025-12-19",
-   "stars_pieza": 5437
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 5442
   },
   "OxygenCobalt/Auxio": {
-   "estado": "vivo",
-   "stars": 4415,
-   "push": "2026-11-02",
-   "archivado": false,
+   "stars": 4418,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-02",
    "desc": "A simple, rational music player for android",
-   "release": "v4.1.5",
-   "release_fecha": "2026-08-04",
-   "stars_pieza": 4402
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 4418
   },
   "anandnet/Harmony-Music": {
    "estado": "vivo",
@@ -3482,16 +3482,16 @@
    "stars_pieza": 9639
   },
   "namidaco/namida": {
-   "estado": "vivo",
-   "stars": 6765,
-   "push": "2026-11-01",
-   "archivado": false,
+   "stars": 6772,
    "licencia": "NOASSERTION",
    "lenguaje": "Dart",
+   "push": "2026-11-01",
    "desc": "A Beautiful and Feature-rich Music & Video Player with Youtube Support, Built in Flutter",
-   "release": "v7.1.2",
-   "release_fecha": "2026-09-19",
-   "stars_pieza": 6738
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 6772
   },
   "rukamori/ArchiveTune": {
    "estado": "vivo",
@@ -3542,16 +3542,16 @@
    "stars_pieza": 6837
   },
   "RetroMusicPlayer/RetroMusicPlayer": {
-   "estado": "vivo",
    "stars": 5381,
-   "push": "2026-10-04",
-   "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-02",
    "desc": "Best Material You Design music player for Android",
-   "release": "v7.0.3",
-   "release_fecha": "2026-08-13",
-   "stars_pieza": 5374
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 5381
   },
   "gokadzev/Musify": {
    "estado": "vivo",
@@ -4464,6 +4464,42 @@
    "release": "",
    "release_fecha": "",
    "stars_pieza": 4061
+  },
+  "KRTirtho/spotube": {
+   "stars": 50557,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-11-02",
+   "desc": "🎧 Open source music streaming app! Available for both desktop & mobile!",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 50557
+  },
+  "fast4x/RiMusic": {
+   "stars": 3896,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2025-07-30",
+   "desc": "RiMusic is a multilingual and multiplatform application for streaming music",
+   "archivado": true,
+   "estado": "archivado",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 3896
+  },
+  "theovilardo/PixelPlayer": {
+   "stars": 6876,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Kotlin",
+   "push": "2026-09-21",
+   "desc": "privacy-first Android music player built with Material 3 Expressive. Play offline, sync lyrics, fine-tune with equalizer presets, and cast to your devices.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 6876
   }
  },
  "enlaces": {

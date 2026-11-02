@@ -61,14 +61,14 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 908 caracteres ═══
+═══ MENSAJE 3 de 4 · 882 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 118*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
-• OuterTune/OuterTune — ★5.441 · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• OuterTune/OuterTune — ★5.442 (sin cambio) · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0
 • researchxxl/syncthing-android — ★3.232 (+40) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • yuzono/anime-extensions — ★527 (+5) · empujó en las últimas horas · Apache-2.0
 • AppFuton/Futon — ★473 (+6) · empujó en las últimas horas · GPL-3.0 · última release v9.9 (21-oct-2026)
