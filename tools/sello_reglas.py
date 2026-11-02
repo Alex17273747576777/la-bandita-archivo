@@ -13,7 +13,11 @@ from __future__ import annotations
 from pathlib import Path
 
 CUBIERTAS = ("registry", "schemas", "Arena-Reimagined/01-PUBLICACIONES",
-             "Arena-Reimagined/PROPUESTA-2026-10-31", "docs", "LEGAL")
+             "Arena-Reimagined/PROPUESTA-2026-10-31", "docs", "LEGAL",
+             # la ley y el conocimiento operativo también se sellan: si alguien cambia una regla de
+             # madrugada, el sello lo delata igual que un cambio de dato.
+             "CIMIENTOS", "SKILLS", "PROCESOS", "corpus-la-bandita",
+             "MANIFIESTO-ARQUITECTURA.md", "README.md")
 
 SUFIJOS = {".json", ".md", ".tsv", ".yml", ".html", ".schema", ".txt"}
 
