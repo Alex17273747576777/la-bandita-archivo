@@ -50,7 +50,8 @@ docs/                       Actas, políticas, bandas, envíos generados, confor
 registry/                   Fichas de repositorio (contrato v1) + índice y calidad del censo
 schemas/ficha.schema.json   Contrato de datos: la forma que toda ficha debe cumplir
 tools/                      Medición, compuertas, envíos, sellado, sitio
-site/                       Frontend generado por tools/sitio.py (no se edita a mano)
+site/                       Frontend generado por tools/sitio.py: archivo, piezas, redes y registro
+site/redes/index.html       Publicaciones por red + interacción declarada (docs/interacciones.json)
 site-demo/resultados.html   Panel de resultados autocontenido (entrega de diseño)
 attestations/               Sellos SHA-256 encadenados por lote
 LEGAL/ · LICENSE* · NOTICE  Licencias: contenido CC BY-SA 4.0 · datos CC BY 4.0 · código MIT · marca reservada

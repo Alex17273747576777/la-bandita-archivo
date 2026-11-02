@@ -299,6 +299,12 @@ footer b{color:var(--tinta2); font-weight:600}
   transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
 #carga.fin{opacity:0}
 
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
 /* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
 @keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
 @keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
@@ -314,10 +320,24 @@ html.js .revela.dentro{opacity:1; transform:none}
   .revela{opacity:1 !important; transform:none !important}
 }
 @media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
   .controles{top:52px; padding:9px}
   .cuenta{display:none}
   .rejilla{grid-template-columns:1fr}
   .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
 }
 @media print{
   .barra,.controles,footer #carga{display:none}

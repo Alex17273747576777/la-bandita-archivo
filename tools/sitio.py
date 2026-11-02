@@ -140,6 +140,7 @@ def plantilla(titulo: str, cuerpo: str, descripcion: str = "", jsonld: dict | No
         return f'<a class="{clase}" href="{destino}"{marca}>{texto}</a>'
 
     nav = (enlace(f"{raiz}index.html", "Archivo")
+           + enlace(f"{raiz}redes/index.html", "Redes")
            + enlace(f"{raiz}registro/index.html", "Registro")
            + enlace(f"{raiz}feed.xml", "RSS"))
     return (
@@ -158,6 +159,51 @@ def plantilla(titulo: str, cuerpo: str, descripcion: str = "", jsonld: dict | No
         + JS
         + '</body></html>'
     )
+
+
+CANALES_CONOCIDOS = {
+    "facebook": ("Facebook", "Publicaciones largas del canal principal."),
+    "whatsapp": ("WhatsApp", "Tandas cortas, partidas en trozos."),
+    "comunidad": ("Comunidad", "Posts de respuesta a la comunidad."),
+    "telegram": ("Telegram", "Versiones y avisos."),
+    "instagram": ("Instagram", "Versiones adaptadas."),
+    "reddit": ("Reddit", "Hilos y respuestas."),
+    "discord": ("Discord", "Notas de servidor."),
+    "xda": ("XDA", "Fichas técnicas para foro."),
+    "rethubs": ("Rehubs", "Variante de publicación."),
+    "otras": ("Otras redes", "Sin carpeta propia todavía."),
+}
+
+
+def canal_de_carpeta(nombre: str) -> str:
+    """Canal legible a partir del nombre de la carpeta. `POSTS-COMUNIDAD` no es Facebook."""
+    n = nombre.lower()
+    for clave in ("whatsapp", "facebook", "comunidad", "telegram", "instagram", "reddit",
+                  "discord", "xda", "rethubs"):
+        if clave in n:
+            return CANALES_CONOCIDOS[clave][0]
+    if "archivo" in n:
+        return "Archivo"
+    return "Otras redes"
+
+
+def interacciones_declaradas() -> dict:
+    """Interacciones reales, si existen. Sin archivo no hay dato: se declara ausente, no se pone cero.
+
+    Fuente opcional: `docs/interacciones.json`
+      {"generado": "AAAA-MM-DD",
+       "redes": {"facebook": {"seguidores": 1200, "publicaciones": 140, "alcance": 8400,
+                              "reacciones": 310, "comentarios": 44, "compartidos": 27,
+                              "medido": "AAAA-MM-DD", "fuente": "panel de la red"}}}
+    """
+    ruta = RAIZ / "docs" / "interacciones.json"
+    if not ruta.exists():
+        return {}
+    try:
+        datos = json.loads(ruta.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    return datos.get("redes") or {}
 
 
 def cargar_fichas() -> list[dict]:
@@ -198,7 +244,7 @@ def main() -> int:
         texto = p.read_text(encoding="utf-8", errors="replace")
         primera = titulo_de(texto, p.stem)
         fecha = re.search(r"\d{1,2} de \w+ de 20\d\d", texto)
-        plataforma = "WhatsApp" if "whatsapp" in p.parent.name.lower() else "Facebook"
+        plataforma = canal_de_carpeta(p.parent.name)
         entradas.append({"archivo": p, "texto": texto, "titulo": primera[:160],
                          "fecha": fecha.group(0) if fecha else "", "plataforma": plataforma,
                          "slug": slug(p.stem)})
@@ -432,6 +478,123 @@ una licencia. La búsqueda filtra al escribir; no hace ninguna llamada a la red.
         (destino / "ficha" / f"{f['id']}.html").write_text(
             plantilla(f"{f['repo']} · La Bandita", cuerpo, f"Ficha medida de {f['repo']}",
                       raiz="../"), encoding="utf-8")
+
+    # ── REDES · qué se publicó en cada red y qué interacción se ha medido ──
+    multi = RAIZ / "04-VERSIONES-MULTIIDIOMA"
+    versos: dict[str, dict[str, int]] = {}
+    if multi.exists():
+        for red in sorted(d for d in multi.iterdir() if d.is_dir()):
+            cuenta: dict[str, int] = {}
+            for idioma in sorted(d for d in red.iterdir() if d.is_dir()):
+                n = sum(1 for f in idioma.glob("*.md"))
+                if n:
+                    cuenta[idioma.name] = n
+            if cuenta:
+                versos[red.name] = cuenta
+
+    por_red: dict[str, list[dict]] = {}
+    for e in entradas:
+        por_red.setdefault(e["plataforma"], []).append(e)
+    for clave in versos:
+        nombre = CANALES_CONOCIDOS.get(clave, (clave.capitalize(), ""))[0]
+        por_red.setdefault(nombre, [])
+
+    inter = interacciones_declaradas()
+    clave_de_nombre = {v[0]: k for k, v in CANALES_CONOCIDOS.items()}
+
+    def miles(n: int) -> str:
+        return f"{n:,}".replace(",", ".")
+
+    def tarjeta_red(nombre: str) -> str:
+        piezas_red = sorted(por_red.get(nombre, []), key=lambda x: x["slug"], reverse=True)
+        clave = clave_de_nombre.get(nombre, nombre.lower())
+        idiomas = versos.get(clave, {})
+        chars = sum(len(x["texto"]) for x in piezas_red)
+        fechas = [x["fecha"] for x in piezas_red if x["fecha"]]
+        dato = inter.get(clave) or {}
+        if dato:
+            metricas = "".join(
+                f'<span class="tag ok">{k} {miles(int(v))}</span>' 
+                for k, v in dato.items() if isinstance(v, (int, float)) and k != "publicaciones"
+            )
+            linea_int = (f'<p class="meta">interacción medida el {esc(str(dato.get("medido", "—")))}'
+                         f' · fuente: {esc(str(dato.get("fuente", "declarada")))}</p>{metricas}')
+        else:
+            linea_int = ('<p class="meta">interacción: sin medición declarada — esta red no publica sus '
+                         'cifras aquí y no se rellenan con ceros.</p>')
+        lista_piezas = "".join(
+            f'<li class="item"><a href="../piezas/{x["slug"]}.html">Pieza '
+            f'{re.match(r"^(\d+)", x["archivo"].stem).group(1) if re.match(r"^(\d+)", x["archivo"].stem) else "—"}'
+            f' · {esc(x["titulo"][:80])}</a></li>'
+            for x in piezas_red[:3]
+        ) or '<li class="item">Todavía sin piezas canónicas en esta red.</li>'
+        if len(piezas_red) > 3:
+            lista_piezas += (f'<li class="item">y {len(piezas_red) - 3} más en el '
+                             f'<a href="../index.html">archivo</a>.</li>')
+        linea_idiomas = ("".join(f'<span class="tag">{esc(k)} {v}</span>' for k, v in idiomas.items())
+                         or '<span class="tag">sin versiones por idioma</span>')
+        return f"""<article class="tarjeta revela">
+<span class="num">{esc(nombre)}</span>
+<h3>{len(piezas_red)} {'publicación' if len(piezas_red) == 1 else 'publicaciones'} · {miles(chars)} caracteres</h3>
+<div class="tags">
+  <span class="tag">{esc(fechas[0]) if fechas else "sin fecha"}</span>
+  <span class="tag">{'con versiones en otros idiomas' if idiomas else ('sin piezas canónicas en el archivo' if not piezas_red else 'solo español')}</span>
+  {linea_idiomas}
+</div>
+{linea_int}
+<ul class="lista">{lista_piezas}</ul>
+</article>"""
+
+    todas = sorted(por_red, key=lambda n: (-len(por_red[n]), n))
+    redes_orden = [n for n in todas
+                   if por_red[n] or versos.get(clave_de_nombre.get(n, n.lower()))]
+    vacias = [n for n in todas if n not in redes_orden]
+    tarjetas_red = "".join(tarjeta_red(n) for n in redes_orden)
+    linea_vacias = ('<p class="pill">sin actividad todavía: ' + ' · '.join(esc(n) for n in vacias) + '</p>'
+                    if vacias else '')
+    con_dato = sum(1 for n in redes_orden if inter.get(clave_de_nombre.get(n, n.lower())))
+    total_pub = len(entradas)
+    cuerpo_redes = f"""<a class="volver" href="../index.html">← volver al archivo</a>
+<section class="hero aparece">
+<p class="eyebrow">Redes · publicaciones e interacción</p>
+<h1>Qué se publicó en cada red, y qué interacción se ha medido</h1>
+<p>Esta página se genera desde el árbol del archivo: cuenta las piezas de cada canal y las versiones
+por idioma. La interacción sale de <code>docs/interacciones.json</code> cuando existe; cuando no existe,
+aquí se dice <b>sin medición declarada</b> en lugar de poner un cero que parezca un dato.</p>
+<div class="kpis">
+  <div class="kpi"><b data-n="{total_pub}">0</b><span>publicaciones contadas</span></div>
+  <div class="kpi"><b data-n="{len(redes_orden)}">0</b><span>redes con actividad</span></div>
+  <div class="kpi"><b data-n="{con_dato}">0</b><span>redes con interacción medida</span></div>
+  <div class="kpi"><b data-n="{len(inter)}">0</b><span>bloques de interacción cargados</span></div>
+</div>
+</section>
+{u''.join('')}
+<ul class="rejilla" id="lista">{tarjetas_red}</ul>
+<p class="aparece">{linea_vacias}</p>
+<section class="pieza aparece retardo-2">
+<h2>Cómo se añade la interacción de una red</h2>
+<p>Se escribe a mano —una vez por corte, desde el panel de la propia red— en
+<code>docs/interacciones.json</code>. Nada se estima y nada se deduce: si un número no está publicado por
+la red, no se escribe.</p>
+<pre>{{"generado": "2026-11-02",
+ "redes": {{"facebook": {{"seguidores": 1200, "publicaciones": 140, "alcance": 8400,
+            "reacciones": 310, "comentarios": 44, "compartidos": 27,
+            "medido": "2026-11-02", "fuente": "panel de Facebook"}}}}}}</pre>
+<p>Al volver a generar el sitio, esas cifras aparecen en la tarjeta de su red con su fecha y su fuente.
+El archivo no se inventa: si el JSON no existe, la página lo declara.</p>
+</section>"""
+    (destino / "redes").mkdir()
+    (destino / "redes" / "index.html").write_text(plantilla(
+        "Redes · La Bandita", cuerpo_redes,
+        "Publicaciones por red y su interacción declarada, con fecha y fuente.",
+        raiz="../"), encoding="utf-8")
+    (destino / "datos" / "redes.json").write_text(json.dumps({
+        "generado": hoy.isoformat(),
+        "redes": [{"red": n, "publicaciones": len(por_red.get(n, [])),
+                   "caracteres": sum(len(x["texto"]) for x in por_red.get(n, [])),
+                   "versiones_por_idioma": versos.get(clave_de_nombre.get(n, n.lower()), {}),
+                   "interaccion": inter.get(clave_de_nombre.get(n, n.lower()))}
+                  for n in redes_orden]}, ensure_ascii=False, indent=1), encoding="utf-8")
 
     # RSS
     items = "".join(f"""<item><title>{esc(e['titulo'])}</title>
