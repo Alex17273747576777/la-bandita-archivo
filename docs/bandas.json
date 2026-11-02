@@ -1,142 +1,16 @@
 {
- "_nota": "Banda de longitud de cada pieza reescrita. Obliga a la vara (G10): una pieza que no cae dentro de su banda no pasa. Las piezas que aún no se han reescrito no están aquí y no se les exige.",
+ "_nota": "Banda de longitud de cada pieza reescrita. Obliga a la vara (G10): una pieza que no cae dentro de su banda no pasa. Las piezas que aún no se han reescrito no están aquí y no se les exige. Vaciado el 2-nov-2026 al reiniciar el ciclo en la pieza 01 (ver docs/ACTA-REINICIO-CICLO-2026-11-02.md).",
  "whatsapp": {
   "min": 63000,
   "max": 63099,
   "_motivo": "el dueño pidió 63.000 como mínimo y máximo a la vez; se admite até 63.099 para no forzar recortes cosméticos de última hora",
-  "piezas": {
-   "01": {
-    "archivo": "01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md",
-    "caracteres": 63094
-   },
-   "02": {
-    "archivo": "02-El-mueble-de-los-tres-cajones-familia-Tachiyomi-servidores-y-archivo-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md",
-    "caracteres": 63084
-   },
-   "03": {
-    "archivo": "03-La-cerradura-que-cambio-de-dueno-verificacion-de-desarrolladores-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 63007
-   },
-   "04": {
-    "archivo": "04-Almacenes-de-extensiones-Keiyoushi-Yuzono-y-el-resurtido-del-manga-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 63086
-   },
-   "05": {
-    "archivo": "05-Clones-contrasenas-y-sesiones-por-que-no-se-inicia-sesion-en-un-clon-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 63020
-   },
-   "06": {
-    "archivo": "06-Las-segundas-generaciones-quien-sigue-leyendo-cuando-el-tronco-se-seca-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 63002
-   }
-  }
+  "piezas": {}
  },
  "facebook": {
   "min": 40000,
   "max": 45000,
   "_motivo": "banda pedida por el dueño para la 01 de Facebook; se aplica igual a las siguientes",
-  "piezas": {
-   "01": {
-    "archivo": "01-Tiendas-con-dueno-y-tiendas-sin-el-el-instalador-que-falta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40326
-   },
-   "02": {
-    "archivo": "02-El-barrio-cambio-de-gente-el-mueble-de-los-comics-hoy-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40123
-   },
-   "03": {
-    "archivo": "03-La-cerradura-que-cambio-de-dueno-firmas-atestacion-y-el-aviso-del-sistema-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40442
-   },
-   "04": {
-    "archivo": "04-El-colmado-de-las-extensiones-quien-resurte-los-catalogos-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40033
-   },
-   "05": {
-    "archivo": "05-Clones-contrasenas-y-sesiones-el-dia-que-el-enlace-no-era-el-sitio-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40139
-   },
-   "06": {
-    "archivo": "06-Las-segundas-generaciones-quien-sigue-leyendo-cuando-el-tronco-se-seca-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 44158
-   },
-   "07": {
-    "archivo": "07-El-arbol-vecino-los-lectores-que-nunca-heredaron-nada-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 41905
-   },
-   "08": {
-    "archivo": "08-Musica-libre-en-el-telefono-los-clientes-con-repositorio-y-los-reempaques-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 41258
-   },
-   "09": {
-    "archivo": "09-La-caja-de-oficio-del-telefono-archivos-terminal-y-la-copia-que-cambio-de-dueno-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 41590
-   },
-   "10": {
-    "archivo": "10-El-taller-de-parches-lo-que-se-toca-lo-que-se-firma-y-lo-que-no-se-receta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40326
-   },
-   "11": {
-    "archivo": "11-AniZen-vivo-el-lector-de-anime-que-empuja-contra-la-fila-de-los-forks-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40006
-   },
-   "12": {
-    "archivo": "12-Grabar-llamadas-sin-root-el-trabajo-repartido-entre-Shizuku-BCR-y-la-familia-de-grabadoras-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40038
-   },
-   "13": {
-    "archivo": "13-Android-dentro-de-un-iPhone-Husk-la-cadena-de-firmas-y-el-huesped-pesado-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40069
-   },
-   "14": {
-    "archivo": "14-Android-dentro-de-Android-la-familia-DSU-y-el-invitado-que-se-borra-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40051
-   },
-   "15": {
-    "archivo": "15-Rama-J2K-los-nueve-herederos-y-el-apellido-que-se-heredaba-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40374
-   },
-   "16": {
-    "archivo": "16-Rama-SY-y-Komikku-los-dos-motores-que-si-publican-y-el-servidor-que-los-alimenta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40081
-   },
-   "17": {
-    "archivo": "17-La-capa-de-inmersion-el-servidor-en-la-casa-y-el-lector-que-no-pide-cuenta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40308
-   },
-   "18": {
-    "archivo": "18-Libros-el-catalogo-de-metadatos-los-seis-servidores-nuevos-y-la-raya-legal-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40346
-   },
-   "19": {
-    "archivo": "19-Panorama-multi-el-que-quiso-leerlo-todo-y-las-novelas-que-llegaron-tarde-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40399
-   },
-   "20": {
-    "archivo": "20-La-Biblioteca-el-plano-de-las-veinte-puertas-y-el-archivo-que-quedo-medido-Facebook-La-Bandita-2026-11-01-dominicano-ES.md",
-    "caracteres": 40121
-   },
-   "21": {
-    "archivo": "21-Musica-II-los-diez-reproductores-y-la-biblioteca-que-nadie-te-devuelve-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
-    "caracteres": 40098
-   },
-   "22": {
-    "archivo": "22-El-papeleo-del-telefono-escanear-ordenar-y-leer-lo-que-llega-en-PDF-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
-    "caracteres": 40214
-   },
-   "23": {
-    "archivo": "23-La-sala-la-tele-que-no-depende-de-una-caja-servidor-clientes-y-reproductores-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
-    "caracteres": 40013
-   },
-   "24": {
-    "archivo": "24-El-sotano-la-casa-que-se-sirve-a-si-misma-diez-servicios-y-un-aparato-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
-    "caracteres": 40302
-   },
-   "25": {
-    "archivo": "25-El-dictado-hablar-en-vez-de-escribir-y-el-espejo-que-compila-lo-que-el-autor-no-reparte-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
-    "caracteres": 40795
-   }
-  }
+  "piezas": {}
  },
  "posts": {
   "min": 4152,
