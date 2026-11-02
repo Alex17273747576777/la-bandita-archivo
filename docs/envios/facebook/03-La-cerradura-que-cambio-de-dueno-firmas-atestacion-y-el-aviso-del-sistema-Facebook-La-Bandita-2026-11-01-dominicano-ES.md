@@ -1,12 +1,12 @@
 # PIEZA 03 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-cerradura-que-cambio-de-dueno-firmas-atestacion-y-el-aviso-del-sistema-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `725456157d584cecabb6ec41026f96b103fc81f9f67651f7bdfb3e457e6f828c`
-- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3562 caracteres
+- **Envío generado:** 2026-11-02 · 18 mensajes · el mayor de 3562 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 18 · 786 caracteres ═══
+═══ MENSAJE 1 de 18 · 965 caracteres ═══
 
 *La cerradura que cambió de dueño: firmas, atestación y el aviso del sistema*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *10 repositorios, 10 vivos*, 
 
 Licencias de lo que recomienda: MIT 3 · NOASSERTION 2 · Apache-2.0 2 · AGPL-3.0 2.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-cerradura-que-cambio-de-dueno-firmas-atestacion-y-el-aviso-del-sistema-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 18 · 2708 caracteres ═══
+═══ MENSAJE 2 de 18 · 2798 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La cerradura que cambió de dueño: firmas, atestación y el aviso del sistema*
 
@@ -481,27 +485,28 @@ El hallazgo de hoy es que el aparato endurecido ya no es un experimento de labor
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 1537 caracteres ═══
+═══ MENSAJE 17 de 18 · 1649 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• GrapheneOS/Auditor — ★729 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 92 (30-may-2026)
-• MuntashirAkon/AppManager — ★9.402 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• RikkaApps/Shizuku — ★32.598 (+213) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• GrapheneOS/Vanadium — ★2.270 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release 156.0.8078.79.0 (30-oct-2026)
-• GrapheneOS/Camera — ★1.423 · empujó el 30-oct-2026 (hace 2 días) · MIT · última release 93 (1-ago-2026)
-• GrapheneOS/hardened_malloc — ★2.048 · empujó en las últimas horas · MIT · última release 14 (22-feb-2026)
-• woheller69/FreeDroidWarn — ★3.731 · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
-• degoog-org/degoog — ★2.506 · empujó el 29-oct-2026 (hace 3 días) · AGPL-3.0 · última release 1.1.1 (25-oct-2026)
-• Pelski/ytzero — ★671 · empujó el 28-sep-2026 (hace 34 días) · Unlicense · última release 2026.09.9 (28-sep-2026)
-• twinksoftware/Gearslip — ★232 · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v0.3.12-alpha (25-oct-2026)
+• GrapheneOS/Auditor — ★730 · empujó el 30-oct-2026 (hace 3 días) · MIT · última release 92 (30-may-2026)
+• MuntashirAkon/AppManager — ★9.414 · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• RikkaApps/Shizuku — ★32.638 (+253) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• GrapheneOS/Vanadium — ★2.274 · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release 156.0.8078.79.0 (30-oct-2026)
+• GrapheneOS/Camera — ★1.422 · empujó el 30-oct-2026 (hace 3 días) · MIT · última release 93 (1-ago-2026)
+• GrapheneOS/hardened_malloc — ★2.049 · empujó en las últimas horas · MIT · última release 14 (22-feb-2026)
+• woheller69/FreeDroidWarn — ★3.737 · empujó el 28-oct-2026 (hace 5 días) · Apache-2.0 · última release V1.14 (9-sep-2026)
+• degoog-org/degoog — ★2.508 · empujó el 29-oct-2026 (hace 4 días) · AGPL-3.0 · última release 1.1.1 (25-oct-2026)
+• Pelski/ytzero — ★671 · empujó el 28-sep-2026 (hace 35 días) · Unlicense · última release 2026.09.9 (28-sep-2026)
+• twinksoftware/Gearslip — ★246 · empujó el 27-oct-2026 (hace 6 días) · AGPL-3.0 · última release v0.3.12-alpha (25-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 10 enlaces de esta pieza, *10 responden*.
-Ninguno roto.
+De los 10 enlaces de esta pieza, *9 responden*.
+
+• https://github.com/woheller69/FreeDroidWarn — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 16 de 17
 

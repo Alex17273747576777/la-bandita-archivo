@@ -1,9 +1,9 @@
 # PIEZA 27 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/27-Musica-II-las-sucesiones-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `6928060fb19ae36694edeaf6643b057def1d440af68bbcfa9e67d356640f103f`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2508 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2508 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 897 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4 · NOASSERTION 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/27-Musica-II-las-sucesiones-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2508 caracteres ═══
 
@@ -58,17 +58,17 @@ El grupo respira despacio; su empuje más reciente, **Fhox006/Iride**, fue hace 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 883 caracteres ═══
+═══ MENSAJE 3 de 4 · 875 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 27*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MetrolistGroup/Metrolist — ★13.939 (+50) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• 956tris/MetroFuse — ★186 (+1) · empujó el 18-oct-2026 (hace 14 días) · GPL-3.0 · última release 8.0 (16-sep-2026)
-• josprox/Estrella-Music — ★47 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v2.4.3 (2-oct-2026)
+• MetrolistGroup/Metrolist — ★13.956 (+67) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• 956tris/MetroFuse — ★186 (+1) · empujó el 18-oct-2026 (hace 15 días) · GPL-3.0 · última release 8.0 (16-sep-2026)
+• josprox/Estrella-Music — ★47 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v2.4.5 (2-nov-2026)
 • Fhox006/Iride — ★17 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• BobbyESP/Metrolist — ★5 (sin cambio) · *dormido*: sin empujar desde el 15-may-2025 (535 días) · GPL-3.0
+• BobbyESP/Metrolist — ★5 (sin cambio) · *dormido*: sin empujar desde el 15-may-2025 (536 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

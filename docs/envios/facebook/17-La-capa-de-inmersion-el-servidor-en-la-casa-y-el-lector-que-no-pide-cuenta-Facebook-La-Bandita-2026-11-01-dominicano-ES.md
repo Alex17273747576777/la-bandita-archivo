@@ -1,12 +1,12 @@
 # PIEZA 17 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/17-La-capa-de-inmersion-el-servidor-en-la-casa-y-el-lector-que-no-pide-cuenta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `90889d2d473bedc75ae66c6cfefa9d76896effe3f84000603f74bb50ba9c53b5`
-- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3685 caracteres
+- **Envío generado:** 2026-11-02 · 16 mensajes · el mayor de 3715 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 781 caracteres ═══
+═══ MENSAJE 1 de 16 · 960 caracteres ═══
 
 *La capa de inmersión: el servidor en la casa y el lector que no pide cuenta*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *9 repositorios, 9 vivos*, m�
 
 Licencias de lo que recomienda: Apache-2.0 4 · GPL-3.0 3 · AGPL-3.0 1 · MIT 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/17-La-capa-de-inmersion-el-servidor-en-la-casa-y-el-lector-que-no-pide-cuenta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 16 · 3625 caracteres ═══
+═══ MENSAJE 2 de 16 · 3715 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La capa de inmersión: el servidor en la casa y el lector que no pide cuenta*
 
@@ -590,26 +594,28 @@ Lo difícil fue el campo de la versión. Uno de los nueve no tiene ninguna publi
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1413 caracteres ═══
+═══ MENSAJE 15 de 16 · 1640 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 17*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.795 (+58) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• Kareadita/Kavita — ★11.990 (+19) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
-• gotson/komga — ★6.807 (+10) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
-• HuangAntimony/Hoshi-Reader-Android — ★469 · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.4.0 (23-sep-2026)
-• Mister-album/Koharia — ★255 · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)
-• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
-• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
-• codegeasse1/yomi-reader — ★17 · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · Apache-2.0 · última release v0.1.7 (6-sep-2026)
-• sj0404-collab/yomikai — ★2 · empujó el 25-oct-2026 (hace 7 días) · Apache-2.0 · última release v2.9.36 (25-oct-2026)
+• koreader/koreader — ★30.810 (+73) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• Kareadita/Kavita — ★11.995 (+24) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
+• gotson/komga — ★6.812 (+15) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
+• HuangAntimony/Hoshi-Reader-Android — ★470 · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release v1.4.0 (23-sep-2026)
+• Mister-album/Koharia — ★256 · empujó el 27-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.7.5 (27-oct-2026)
+• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 15 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
+• codegeasse1/yomi-reader — ★17 · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · Apache-2.0 · última release v0.1.7 (6-sep-2026)
+• sj0404-collab/yomikai — ★2 · empujó el 25-oct-2026 (hace 8 días) · Apache-2.0 · última release v2.9.36 (25-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *9 responden*.
-Ninguno roto.
+De los 9 enlaces de esta pieza, *7 responden*.
+
+• https://github.com/sj0404-collab/yomikai — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 14 de 15
 

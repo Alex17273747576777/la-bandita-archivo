@@ -1,9 +1,9 @@
 # PIEZA 99 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `89c10d44378eceaf3b9f99f7a52a4e7d255b86064d756a3bae638eb39261c8b0`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1302 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1302 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 832 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1302 caracteres ═══
 
@@ -50,9 +50,9 @@ Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-2
 
 💓 *EL ESTADO DE HOY · pieza 99*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.410 (+41) · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
+• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

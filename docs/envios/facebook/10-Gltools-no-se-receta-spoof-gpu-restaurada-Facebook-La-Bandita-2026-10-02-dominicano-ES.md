@@ -1,9 +1,9 @@
 # PIEZA 10 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `f2711d941cc71e1edb33869c8319f2933ef9914a796f14b26980880860510149`
-- **Envío generado:** 2026-11-01 · 8 mensajes · el mayor de 3536 caracteres
+- **Envío generado:** 2026-11-02 · 8 mensajes · el mayor de 3536 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 8 · 937 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 1 · GPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 8 · 2341 caracteres ═══
 
@@ -234,10 +234,10 @@ REV|0.2-LPG=1|REV|92-21-5202 — LGrekcolnUi/olyaT-i=2|REV|50-50-0202 — slooTL
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• i-Taylo/iUnlockerGL — ★110 (sin cambio) · *dormido*: sin empujar desde el 29-dic-2025 (307 días) · NOASSERTION · última release v1.1.5-r4 (29-dic-2025)
-• darek2015/GLTools — ★12 (sin cambio) · *dormido*: sin empujar desde el 5-may-2020 (2371 días) · GPL-2.0
+• i-Taylo/iUnlockerGL — ★110 (sin cambio) · *dormido*: sin empujar desde el 29-dic-2025 (308 días) · NOASSERTION · última release v1.1.5-r4 (29-dic-2025)
+• darek2015/GLTools — ★12 (sin cambio) · *dormido*: sin empujar desde el 5-may-2020 (2372 días) · GPL-2.0
 • Ahsan40/GLTools — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

@@ -1,12 +1,12 @@
 # PIEZA 19 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/19-Panorama-multi-el-que-quiso-leerlo-todo-y-las-novelas-que-llegaron-tarde-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `5538dc50c1066ed45da696c4321d1a2a015c70a86bda9a86787664016f36bb20`
-- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3607 caracteres
+- **Envío generado:** 2026-11-02 · 16 mensajes · el mayor de 3607 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 776 caracteres ═══
+═══ MENSAJE 1 de 16 · 955 caracteres ═══
 
 *Panorama multi: el que quiso leerlo todo y las novelas que llegaron tarde*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *9 repositorios, 9 vivos*, m�
 
 Licencias de lo que recomienda: GPL-3.0 3 · Apache-2.0 3 · GPL-2.0 1 · MIT 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/19-Panorama-multi-el-que-quiso-leerlo-todo-y-las-novelas-que-llegaron-tarde-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 16 · 3490 caracteres ═══
+═══ MENSAJE 2 de 16 · 3580 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Panorama multi: el que quiso leerlo todo y las novelas que llegaron tarde*
 
@@ -602,26 +606,27 @@ La parte incómoda fue el campo de la versión. El archivado no tiene ninguna qu
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1398 caracteres ═══
+═══ MENSAJE 15 de 16 · 1494 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 19*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• KotatsuApp/Kotatsu — ★8.946 · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
-• aniyomiorg/aniyomi — ★7.866 · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• MewX/light-novel-library_Wenku8_Android — ★3.291 · empujó el 24-oct-2026 (hace 8 días) · GPL-2.0 · última release v1.30 (29-ago-2026)
+• KotatsuApp/Kotatsu — ★8.948 · *dormido*: sin empujar desde el 4-nov-2025 (363 días) · GPL-3.0 · *ARCHIVADO*
+• aniyomiorg/aniyomi — ★7.865 · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• MewX/light-novel-library_Wenku8_Android — ★3.328 · empujó el 24-oct-2026 (hace 9 días) · GPL-2.0 · última release v1.30 (29-ago-2026)
 • lnreader/lnreader — ★2.948 (+6) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
-• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• HnDK0/NoveLA — ★110 · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.6.1 (24-sep-2026)
-• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
-• HayaiApp/hayai — ★49 · empujó el 3-oct-2026 (hace 29 días) · Apache-2.0
-• TsukiAndroid/Tsuki — ★38 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release stable-latest (26-oct-2026)
+• Kototoro-app/Kototoro — ★662 (+9) · empujó en las últimas horas · Apache-2.0 · última release v2.3.6 (2-nov-2026)
+• HnDK0/NoveLA — ★110 · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.6.1 (24-sep-2026)
+• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
+• HayaiApp/hayai — ★49 · empujó el 3-oct-2026 (hace 30 días) · Apache-2.0
+• TsukiAndroid/Tsuki — ★38 · empujó en las últimas horas · GPL-3.0 · última release stable-latest (26-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *9 responden*.
-Ninguno roto.
+De los 9 enlaces de esta pieza, *8 responden*.
+
+• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 14 de 15
 

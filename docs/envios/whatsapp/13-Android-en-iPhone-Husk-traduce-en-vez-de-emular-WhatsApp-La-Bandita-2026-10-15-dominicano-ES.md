@@ -1,9 +1,9 @@
 # PIEZA 13 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/13-Android-en-iPhone-Husk-traduce-en-vez-de-emular-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `de9522a9be440cfacfc35de4127a4c4f3ff74ae8f069510e930766f2e0a09c31`
-- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3722 caracteres
+- **Envío generado:** 2026-11-02 · 20 mensajes · el mayor de 3722 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 - **Aviso:** la pieza original deja una valla de código sin cerrar; este envío la cierra al final del cuerpo para que se pueda leer. La pieza no se modificó.
 
@@ -21,7 +21,7 @@ Licencias de lo que recomienda: GPL-2.0 1 · AGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/13-Android-en-iPhone-Husk-traduce-en-vez-de-emular-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 3722 caracteres ═══
 
@@ -988,14 +988,14 @@ REV|92-01-6202 — ksuH/vediiveL=1|REV|0.3-LPGA=2|REV|748.2★ — ksuH/vediiveL
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 555 caracteres ═══
+═══ MENSAJE 19 de 20 · 556 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 13*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Leviidev/Husk — ★2.938 (+91) · empujó en las últimas horas · GPL-2.0 · última release 3.3 (1-nov-2026)
-• flectar/mail — ★1.722 (+36) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
+• Leviidev/Husk — ★2.952 (+105) · empujó en las últimas horas · GPL-2.0 · última release 3.3 (1-nov-2026)
+• flectar/mail — ★1.736 (+50) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

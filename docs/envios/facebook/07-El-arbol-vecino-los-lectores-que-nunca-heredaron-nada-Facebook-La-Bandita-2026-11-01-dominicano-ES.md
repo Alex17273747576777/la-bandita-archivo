@@ -1,12 +1,12 @@
 # PIEZA 07 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-El-arbol-vecino-los-lectores-que-nunca-heredaron-nada-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `5dd83b38bf9ed5471d31ec2daf2e7d8cb31360762cfc51666224beb891555047`
-- **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3667 caracteres
+- **Envío generado:** 2026-11-02 · 17 mensajes · el mayor de 3667 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 746 caracteres ═══
+═══ MENSAJE 1 de 17 · 925 caracteres ═══
 
 *El árbol vecino: los lectores que nunca heredaron nada*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *21 repositorios, 21 vivos*, 
 
 Licencias de lo que recomienda: GPL-3.0 12 · Apache-2.0 4 · MIT 2 · sin licencia 2.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-El-arbol-vecino-los-lectores-que-nunca-heredaron-nada-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 17 · 2462 caracteres ═══
+═══ MENSAJE 2 de 17 · 2552 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El árbol vecino: los lectores que nunca heredaron nada*
 
@@ -609,38 +613,41 @@ Y hay una advertencia que se repite en las fichas: casi la mitad de estos proyec
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 2833 caracteres ═══
+═══ MENSAJE 16 de 17 · 3186 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 21 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 21 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• UsagiApp/Usagi — ★288 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
-• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• kodjodevf/mangayomi — ★4.289 (+17) · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
-• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
-• roxycon-dev/Ciallo-Reader — ★274 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
-• Aidoku/Aidoku — ★4.687 (+12) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
-• Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (235 días) · GPL-3.0
+• UsagiApp/Usagi — ★289 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
+• Kototoro-app/Kototoro — ★662 (+9) · empujó en las últimas horas · Apache-2.0 · última release v2.3.6 (2-nov-2026)
+• kodjodevf/mangayomi — ★4.295 (+23) · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
+• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 15 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
+• roxycon-dev/Ciallo-Reader — ★278 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
+• Aidoku/Aidoku — ★4.688 (+13) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
+• Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (236 días) · GPL-3.0
 • eguojz/usagi-sora-vn-sources — ★119 · empujó en las últimas horas · sin licencia detectada por la API
 • Boomckman/usagi-nightly — ★114 · empujó en las últimas horas · sin licencia detectada por la API
-• dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 9 días) · GPL-3.0 · última release d605625 (23-oct-2026)
-• UsagiApp/TsukiMix — ★6 · empujó el 18-oct-2026 (hace 14 días) · GPL-3.0 · última release 1.0.9 (18-oct-2026)
-• Swan-Chris/usagi-mangadex-plugin — ★0 · *dormido*: sin empujar desde el 13-ago-2026 (80 días) · GPL-3.0 · última release v1.1.0 (6-ago-2026)
-• skepsun/kototoro-parsers — ★17 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• m2k3a/mangayomi-extensions — ★113 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
-• KotatsuApp/Kotatsu — ★8.946 · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
-• KotatsuApp/kotatsu-parsers — ★323 · *dormido*: sin empujar desde el 3-nov-2025 (363 días) · GPL-3.0 · última release 1.7 (15-mar-2025) · *ARCHIVADO*
-• KotatsuApp/kotatsu-dl — ★141 · *dormido*: sin empujar desde el 31-jul-2025 (458 días) · GPL-3.0 · última release v0.8 (31-jul-2025) · *ARCHIVADO*
-• KotatsuApp/kotatsu-dl-gui — ★158 · *dormido*: sin empujar desde el 8-ago-2024 (815 días) · GPL-3.0 · última release v1.0 (27-oct-2023) · *ARCHIVADO*
-• youniaogu/MangaReader — ★2.843 · *dormido*: sin empujar desde el 22-ago-2025 (436 días) · MIT · última release v0.7.10 (19-jul-2025)
-• Koitharu/OpenManga — ★182 · *dormido*: sin empujar desde el 2-feb-2020 (2464 días) · NOASSERTION · última release v4.7.1 (20-jul-2019) · *ARCHIVADO*
+• dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 10 días) · GPL-3.0 · última release d605625 (23-oct-2026)
+• UsagiApp/TsukiMix — ★6 · empujó el 18-oct-2026 (hace 15 días) · GPL-3.0 · última release 1.0.9 (18-oct-2026)
+• Swan-Chris/usagi-mangadex-plugin — ★0 · *dormido*: sin empujar desde el 13-ago-2026 (81 días) · GPL-3.0 · última release v1.1.0 (6-ago-2026)
+• skepsun/kototoro-parsers — ★17 · empujó en las últimas horas · GPL-3.0
+• m2k3a/mangayomi-extensions — ★114 · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0
+• KotatsuApp/Kotatsu — ★8.948 · *dormido*: sin empujar desde el 4-nov-2025 (363 días) · GPL-3.0 · *ARCHIVADO*
+• KotatsuApp/kotatsu-parsers — ★323 · *dormido*: sin empujar desde el 3-nov-2025 (364 días) · GPL-3.0 · última release 1.7 (15-mar-2025) · *ARCHIVADO*
+• KotatsuApp/kotatsu-dl — ★141 · *dormido*: sin empujar desde el 31-jul-2025 (459 días) · GPL-3.0 · última release v0.8 (31-jul-2025) · *ARCHIVADO*
+• KotatsuApp/kotatsu-dl-gui — ★158 · *dormido*: sin empujar desde el 8-ago-2024 (816 días) · GPL-3.0 · última release v1.0 (27-oct-2023) · *ARCHIVADO*
+• youniaogu/MangaReader — ★2.843 · *dormido*: sin empujar desde el 22-ago-2025 (437 días) · MIT · última release v0.7.10 (19-jul-2025)
+• Koitharu/OpenManga — ★182 · *dormido*: sin empujar desde el 2-feb-2020 (2465 días) · NOASSERTION · última release v4.7.1 (20-jul-2019) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *21 responden*.
-Ninguno roto.
+De los 21 enlaces de esta pieza, *18 responden*.
+
+• https://github.com/skepsun/kototoro-parsers — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/youniaogu/MangaReader — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 15 de 16
 

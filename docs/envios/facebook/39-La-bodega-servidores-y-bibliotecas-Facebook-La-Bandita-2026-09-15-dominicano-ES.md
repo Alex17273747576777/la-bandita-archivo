@@ -1,9 +1,9 @@
 # PIEZA 39 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/39-La-bodega-servidores-y-bibliotecas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `0772b1413fb1263e4dc7a91eb38066853de5170504fd5ef9254c12745eef40b1`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2915 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2915 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 909 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MPL-2.0 2 · GPL-2.0 1 · GPL-3.0 1 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/39-La-bodega-servidores-y-bibliotecas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2915 caracteres ═══
 
@@ -65,13 +65,13 @@ Hay release de esta semana: **gotson/komga** publicó 1.29.2 (2026-10-28). Con r
 
 💓 *EL ESTADO DE HOY · pieza 39*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jellyfin/jellyfin — ★58.898 (+111) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• Kareadita/Kavita — ★11.990 (+19) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
-• Suwayomi/Suwayomi-Server — ★7.989 (+21) · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
-• gotson/komga — ★6.807 (+10) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
-• tachimanga/Tachidesk-Server — ★45 (+1) · *dormido*: sin empujar desde el 15-jul-2026 (109 días) · MPL-2.0
+• jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• Kareadita/Kavita — ★11.995 (+24) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
+• Suwayomi/Suwayomi-Server — ★7.993 (+25) · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
+• gotson/komga — ★6.812 (+15) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
+• tachimanga/Tachidesk-Server — ★45 (+1) · *dormido*: sin empujar desde el 15-jul-2026 (110 días) · MPL-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

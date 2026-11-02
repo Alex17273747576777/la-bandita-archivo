@@ -1,9 +1,9 @@
 # PIEZA 123 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/123-Modules-Manager-el-cartelero-de-LSPosed-que-nacio-la-semana-pasada-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `943cf107eb0246bc49691731ebe35f563822905982bffea3cfbdb688277e9198`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2179 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2179 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 914 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/123-Modules-Manager-el-cartelero-de-LSPosed-que-nacio-la-semana-pasada-Facebook-La-Bandita-2026-10-29.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2179 caracteres ═══
 
@@ -54,20 +54,22 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 696 caracteres ═══
+═══ MENSAJE 3 de 4 · 950 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 123*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• LSPosed/LSPosed — ★25.292 (+52) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
-• rushiranpise/lsposed-modules-manager — ★21 (+4) · empujó en las últimas horas · GPL-3.0 · última release v2.2.3 (1-nov-2026)
+• LSPosed/LSPosed — ★25.305 (+65) · empujó el 14-oct-2026 (hace 19 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
+• rushiranpise/lsposed-modules-manager — ★22 (+5) · empujó en las últimas horas · GPL-3.0 · última release v2.2.4 (2-nov-2026)
 • rushiranpise/xposed-modules — ★11 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 6 enlaces de esta pieza, *6 responden*.
-Ninguno roto.
+De los 6 enlaces de esta pieza, *4 responden*.
+
+• https://github.com/rushiranpise/lsposed-modules-manager — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/rushiranpise/xposed-modules — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

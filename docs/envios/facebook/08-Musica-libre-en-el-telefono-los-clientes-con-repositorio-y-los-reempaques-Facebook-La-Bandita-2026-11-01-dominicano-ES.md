@@ -1,12 +1,12 @@
 # PIEZA 08 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/08-Musica-libre-en-el-telefono-los-clientes-con-repositorio-y-los-reempaques-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `663d8b5697e7cfdfe7458238d82ca193fa7cf1ac70b7d349200e141222d64fdb`
-- **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3667 caracteres
+- **Envío generado:** 2026-11-02 · 17 mensajes · el mayor de 3730 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 783 caracteres ═══
+═══ MENSAJE 1 de 17 · 962 caracteres ═══
 
 *Música libre en el teléfono: los clientes con repositorio y los reempaques*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *16 repositorios, 16 vivos*, 
 
 Licencias de lo que recomienda: GPL-3.0 11 · MIT 2 · NOASSERTION 2 · AGPL-3.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/08-Musica-libre-en-el-telefono-los-clientes-con-repositorio-y-los-reempaques-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 17 · 3640 caracteres ═══
+═══ MENSAJE 2 de 17 · 3730 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Música libre en el teléfono: los clientes con repositorio y los reempaques*
 
@@ -604,33 +608,37 @@ Y el tercero es el de siempre, con música: los reempaques. Un paquete que no fi
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 2268 caracteres ═══
+═══ MENSAJE 16 de 17 · 2685 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• team-spotube/spotube — ★50.535 · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• MetrolistGroup/Metrolist — ★13.939 (+50) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.625 (+96) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• maxrave-dev/core — ★22 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0
-• OuterTune/OuterTune — ★5.440 (+3) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• z-huang/InnerTune — ★6.132 · *dormido*: sin empujar desde el 13-nov-2025 (353 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• BlackHatDevX/openspot-music-app — ★2.973 · *dormido*: sin empujar desde el 3-ago-2026 (90 días) · MIT · última release v3.1.5 (2-jun-2026)
-• siper/Youamp — ★273 · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · MIT · última release v2.1.5 (22-feb-2026)
-• PixelPlayerHQ/PixelPlayer — ★6.865 (+29) · empujó el 21-sep-2026 (hace 41 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
-• PixelPlayerHQ/PixelPlayerOSS — ★306 (+9) · empujó en las últimas horas · GPL-3.0 · última release v0.4.0 (17-oct-2026)
-• namidaco/namida — ★6.759 · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• OxygenCobalt/Auxio — ★4.413 · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
-• FoedusProgramme/Gramophone — ★2.376 · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release 1.1.2 (20-ago-2026)
-• sosauce/Chocola — ★1.125 · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v4.4.6 (15-oct-2026)
-• sheikhhaziq/gyawun_music — ★808 · empujó en las últimas horas · GPL-3.0 · última release v2.0.18 (22-mar-2026)
-• icefields/Power-Ampache-2 — ★245 · empujó en las últimas horas · GPL-3.0 · última release v1.01-89 (16-ago-2026)
+• team-spotube/spotube — ★50.553 · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• MetrolistGroup/Metrolist — ★13.956 (+67) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.657 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/core — ★22 · empujó en las últimas horas · GPL-3.0
+• OuterTune/OuterTune — ★5.441 · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• z-huang/InnerTune — ★6.135 · *dormido*: sin empujar desde el 13-nov-2025 (354 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• BlackHatDevX/openspot-music-app — ★2.976 · *dormido*: sin empujar desde el 3-ago-2026 (91 días) · MIT · última release v3.1.5 (2-jun-2026)
+• siper/Youamp — ★273 · *dormido*: sin empujar desde el 7-sep-2026 (56 días) · MIT · última release v2.1.5 (22-feb-2026)
+• PixelPlayerHQ/PixelPlayer — ★6.873 (+37) · empujó el 21-sep-2026 (hace 42 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
+• PixelPlayerHQ/PixelPlayerOSS — ★308 (+11) · empujó en las últimas horas · GPL-3.0 · última release v0.4.0 (17-oct-2026)
+• namidaco/namida — ★6.765 · empujó en las últimas horas · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• OxygenCobalt/Auxio — ★4.415 · empujó en las últimas horas · GPL-3.0 · última release v4.1.5 (4-ago-2026)
+• FoedusProgramme/Gramophone — ★2.377 · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0 · última release 1.1.2 (20-ago-2026)
+• sosauce/Chocola — ★1.126 · empujó el 25-oct-2026 (hace 8 días) · GPL-3.0 · última release v4.4.6 (15-oct-2026)
+• sheikhhaziq/gyawun_music — ★809 · empujó en las últimas horas · GPL-3.0 · última release v2.0.18 (22-mar-2026)
+• icefields/Power-Ampache-2 — ★245 · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.01-89 (16-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *16 responden*.
-Ninguno roto.
+De los 16 enlaces de esta pieza, *12 responden*.
+
+• https://github.com/sheikhhaziq/gyawun_music — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/siper/Youamp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/team-spotube/spotube — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/z-huang/InnerTune — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 15 de 16
 

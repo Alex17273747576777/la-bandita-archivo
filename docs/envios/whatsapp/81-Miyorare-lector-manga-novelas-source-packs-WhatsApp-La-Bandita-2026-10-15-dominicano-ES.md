@@ -1,9 +1,9 @@
 # PIEZA 81 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/81-Miyorare-lector-manga-novelas-source-packs-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `98db9ac12a1a1ba9dc73921fa3d5f3fb979487a25c4cacddd8a1dca332229881`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2800 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2800 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 877 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2 · sin licencia 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/81-Miyorare-lector-manga-novelas-source-packs-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2800 caracteres ═══
 
@@ -68,15 +68,15 @@ REV|0.3-LPG=1|REV|92-01-6202 — eraroyiM/orerioN=2|REV|)92-01-6202( 61.4.1v —
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 930 caracteres ═══
+═══ MENSAJE 3 de 4 · 929 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 81*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
-• Noirero/Miyorare — ★20 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.4.16 (29-oct-2026)
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (49 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
+• Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)
+• Noirero/Miyorare — ★20 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.4.17 (2-nov-2026)
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (50 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
 • Noirero/Miyorare-Source-Packs — ★3 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release miyorare-sources-v0.5.15 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

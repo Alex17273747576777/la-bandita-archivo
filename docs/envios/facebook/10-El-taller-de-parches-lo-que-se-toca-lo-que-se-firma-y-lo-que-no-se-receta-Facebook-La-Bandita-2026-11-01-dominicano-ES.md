@@ -1,12 +1,12 @@
 # PIEZA 10 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-El-taller-de-parches-lo-que-se-toca-lo-que-se-firma-y-lo-que-no-se-receta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `a70a55dc89ca52bfb8e07cefa24a04e33a49adad87a993629f346ee615c57283`
-- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3629 caracteres
+- **Envío generado:** 2026-11-02 · 18 mensajes · el mayor de 3629 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 18 · 770 caracteres ═══
+═══ MENSAJE 1 de 18 · 949 caracteres ═══
 
 *El taller de parches: lo que se toca, lo que se firma y lo que no se receta*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *15 repositorios, 15 vivos*, 
 
 Licencias de lo que recomienda: GPL-3.0 10 · Apache-2.0 4 · MIT 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-El-taller-de-parches-lo-que-se-toca-lo-que-se-firma-y-lo-que-no-se-receta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 18 · 2723 caracteres ═══
+═══ MENSAJE 2 de 18 · 2813 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El taller de parches: lo que se toca, lo que se firma y lo que no se receta*
 
@@ -424,32 +428,34 @@ Y el otro hallazgo es de calendario: LSPatch sin empujones desde diciembre de 20
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 2266 caracteres ═══
+═══ MENSAJE 17 de 18 · 2488 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ReVanced/revanced-manager — ★30.033 (+32) · *dormido*: sin empujar desde el 29-jul-2026 (95 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
-• ReVanced/revanced-cli — ★1.600 · *dormido*: sin empujar desde el 2-jun-2026 (152 días) · GPL-3.0 · última release v6.0.0 (14-mar-2026)
-• ReVanced/revanced-patcher — ★3.550 · *dormido*: sin empujar desde el 9-jun-2026 (145 días) · GPL-3.0 · última release v22.0.1 (13-mar-2026)
-• inotia00/revanced-patches — ★2.260 · *dormido*: sin empujar desde el 10-mar-2026 (236 días) · GPL-3.0 · última release v5.14.1 (31-dic-2025) · *ARCHIVADO*
-• topjohnwu/Magisk — ★63.680 (+85) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
-• LSPosed/LSPosed — ★25.292 (+52) · empujó el 14-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
-• LSPosed/LSPatch — ★9.452 · *dormido*: sin empujar desde el 13-dic-2023 (1054 días) · GPL-3.0 · última release v0.6 (23-nov-2023) · *ARCHIVADO*
-• RikkaApps/Shizuku — ★32.598 (+213) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• skylot/jadx — ★51.446 · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release v1.5.6 (10-jul-2026)
-• iBotPeaches/Apktool — ★26.900 · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v3.0.3 (20-jul-2026)
-• microg/GmsCore — ★15.153 · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.3.17.252432 (29-sep-2026)
-• whyorean/AuroraStore — ★3.218 (+20) · empujó en las últimas horas · GPL-3.0
-• Droid-ify/client — ★7.679 (+18) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• yuliskov/SmartTube — ★35.817 (+108) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
-• Aefyr/SAI — ★3.957 (+7) · *dormido*: sin empujar desde el 3-jun-2024 (881 días) · GPL-3.0 · última release 4.5 (25-feb-2021)
+• ReVanced/revanced-manager — ★30.039 (+38) · *dormido*: sin empujar desde el 29-jul-2026 (96 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
+• ReVanced/revanced-cli — ★1.599 · *dormido*: sin empujar desde el 2-jun-2026 (153 días) · GPL-3.0 · última release v6.0.0 (14-mar-2026)
+• ReVanced/revanced-patcher — ★3.549 · *dormido*: sin empujar desde el 9-jun-2026 (146 días) · GPL-3.0 · última release v22.0.1 (13-mar-2026)
+• inotia00/revanced-patches — ★2.260 · *dormido*: sin empujar desde el 10-mar-2026 (237 días) · GPL-3.0 · última release v5.14.1 (31-dic-2025) · *ARCHIVADO*
+• topjohnwu/Magisk — ★63.703 (+108) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• LSPosed/LSPosed — ★25.305 (+65) · empujó el 14-oct-2026 (hace 19 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
+• LSPosed/LSPatch — ★9.451 · *dormido*: sin empujar desde el 13-dic-2023 (1055 días) · GPL-3.0 · última release v0.6 (23-nov-2023) · *ARCHIVADO*
+• RikkaApps/Shizuku — ★32.638 (+253) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• skylot/jadx — ★51.476 · empujó el 30-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.5.6 (10-jul-2026)
+• iBotPeaches/Apktool — ★26.922 · empujó en las últimas horas · Apache-2.0 · última release v3.0.3 (20-jul-2026)
+• microg/GmsCore — ★15.165 · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.3.17.252432 (29-sep-2026)
+• whyorean/AuroraStore — ★3.221 (+23) · empujó en las últimas horas · GPL-3.0
+• Droid-ify/client — ★7.686 (+25) · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• yuliskov/SmartTube — ★35.838 (+129) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• Aefyr/SAI — ★3.958 (+8) · *dormido*: sin empujar desde el 3-jun-2024 (882 días) · GPL-3.0 · última release 4.5 (25-feb-2021)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 15 enlaces de esta pieza, *15 responden*.
-Ninguno roto.
+De los 15 enlaces de esta pieza, *13 responden*.
+
+• https://github.com/whyorean/AuroraStore — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yuliskov/SmartTube — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 16 de 17
 

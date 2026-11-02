@@ -1,9 +1,9 @@
 # PIEZA 52 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/52-La-discoteca-III-el-censo-completo-del-baile-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-sep-2026 (según dateline; edad hoy: 47 días)
+- **Fecha de la pieza:** 15-sep-2026 (según dateline; edad hoy: 48 días)
 - **sha256 de la pieza:** `3bee629fc5c0c7a68886b7957298fb4f72ab8b494ffca14eaf678c297975524d`
-- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3759 caracteres
+- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3759 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 959 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 7 · sin licencia 2 · Unlicense 1 · MI
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/52-La-discoteca-III-el-censo-completo-del-baile-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3759 caracteres ═══
 
@@ -92,29 +92,32 @@ La noticia fresca es de **PaulWoitaschek/Voice**: release 26.10.8-5410008 (2026-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1823 caracteres ═══
+═══ MENSAJE 4 de 5 · 2194 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 52*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• yt-dlp/yt-dlp — ★204.460 (+774) · empujó el 29-oct-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
-• Predidit/Kazumi — ★40.596 (+492) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
-• JunkFood02/Seal — ★30.253 (+94) · empujó el 25-sep-2026 (hace 37 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
-• libre-tube/LibreTube — ★12.930 (+17) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
-• deniscerri/ytdlnis — ★10.908 (+64) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
-• RetroMusicPlayer/RetroMusicPlayer — ★5.380 (+6) · empujó el 4-oct-2026 (hace 28 días) · GPL-3.0 · última release v7.0.3 (13-ago-2026)
-• gokadzev/Musify — ★4.389 (+8) · empujó en las últimas horas · GPL-3.0 · última release 10.6.0 (23-oct-2026)
-• PaulWoitaschek/Voice — ★3.240 (+10) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
-• ShacharHarshuv/open-ear — ★186 (sin cambio) · empujó el 24-sep-2026 (hace 38 días) · sin licencia detectada por la API · última release v1.9.0 (7-feb-2025)
-• recloudstream/extensions — ★143 (+1) · *dormido*: sin empujar desde el 22-may-2026 (163 días) · sin licencia detectada por la API
+• yt-dlp/yt-dlp — ★204.655 (+969) · empujó el 29-oct-2026 (hace 4 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• Predidit/Kazumi — ★40.706 (+602) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.4.2 (23-oct-2026)
+• JunkFood02/Seal — ★30.275 (+116) · empujó el 25-sep-2026 (hace 38 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
+• libre-tube/LibreTube — ★12.934 (+21) · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
+• deniscerri/ytdlnis — ★10.928 (+84) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
+• RetroMusicPlayer/RetroMusicPlayer — ★5.381 (+7) · empujó el 4-oct-2026 (hace 29 días) · GPL-3.0 · última release v7.0.3 (13-ago-2026)
+• gokadzev/Musify — ★4.389 (+8) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 10.6.0 (23-oct-2026)
+• PaulWoitaschek/Voice — ★3.243 (+13) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
+• ShacharHarshuv/open-ear — ★186 (sin cambio) · empujó el 24-sep-2026 (hace 39 días) · sin licencia detectada por la API · última release v1.9.0 (7-feb-2025)
+• recloudstream/extensions — ★143 (+1) · *dormido*: sin empujar desde el 22-may-2026 (164 días) · sin licencia detectada por la API
 • werdeil/lyrion-dashboard — ★3 (sin cambio) · empujó en las últimas horas · MIT · última release v0.4.0 (22-oct-2026)
-• futonapp/futon — ★0 (sin cambio) · *dormido*: sin empujar desde el 30-abr-2016 (3837 días) · NOASSERTION
+• futonapp/futon — ★0 (sin cambio) · *dormido*: sin empujar desde el 30-abr-2016 (3838 días) · NOASSERTION
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 20 enlaces de esta pieza, *20 responden*.
-Ninguno roto.
+De los 20 enlaces de esta pieza, *17 responden*.
+
+• https://github.com/recloudstream/extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/werdeil/lyrion-dashboard — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yt-dlp/yt-dlp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

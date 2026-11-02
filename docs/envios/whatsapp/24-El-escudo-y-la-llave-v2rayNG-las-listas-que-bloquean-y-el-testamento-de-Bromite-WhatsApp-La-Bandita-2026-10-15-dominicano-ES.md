@@ -1,9 +1,9 @@
 # PIEZA 24 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/24-El-escudo-y-la-llave-v2rayNG-las-listas-que-bloquean-y-el-testamento-de-Bromite-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `678418208afc4560369f631dfd3abcd6d688cc0763389d1c0f1aaf58cc484d92`
-- **Envío generado:** 2026-11-01 · 15 mensajes · el mayor de 3625 caracteres
+- **Envío generado:** 2026-11-02 · 15 mensajes · el mayor de 3625 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 15 · 905 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4 · NOASSERTION 1 · AGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/24-El-escudo-y-la-llave-v2rayNG-las-listas-que-bloquean-y-el-testamento-de-Bromite-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 15 · 3569 caracteres ═══
 
@@ -639,18 +639,18 @@ REV|149.46★ — GNyar2v/tsud2=1|REV|CC=2|REV|03-01-6202 — nretnal/nretnalteg
 
 ⏬ sigue abajo · parte 12 de 14
 
-═══ MENSAJE 14 de 15 · 1022 caracteres ═══
+═══ MENSAJE 14 de 15 · 1031 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 24*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• 2dust/v2rayNG — ★65.125 (+184) · empujó en las últimas horas · GPL-3.0 · última release 2.3.14 (28-oct-2026)
-• Johnshall/Shadowrocket-ADBlock-Rules-Forever — ★31.748 (+84) · empujó en las últimas horas · NOASSERTION
-• getlantern/lantern — ★16.615 (+56) · empujó en las últimas horas · GPL-3.0 · última release v10.0.4 (27-oct-2026)
-• TeamPiped/Piped — ★10.300 (+4) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
-• bromite/bromite — ★6.319 (-2) · *dormido*: sin empujar desde el 24-ene-2024 (1012 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
-• libredirect/browser_extension — ★4.104 (+7) · empujó en las últimas horas · GPL-3.0 · última release v3.4.0 (24-jul-2026)
+• 2dust/v2rayNG — ★65.174 (+233) · empujó en las últimas horas · GPL-3.0 · última release 2.3.14 (28-oct-2026)
+• Johnshall/Shadowrocket-ADBlock-Rules-Forever — ★31.769 (+105) · empujó en las últimas horas · NOASSERTION
+• getlantern/lantern — ★16.639 (+80) · empujó en las últimas horas · GPL-3.0 · última release v10.0.4 (27-oct-2026)
+• TeamPiped/Piped — ★10.302 (+6) · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0
+• bromite/bromite — ★6.320 (-1) · *dormido*: sin empujar desde el 24-ene-2024 (1013 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
+• libredirect/browser_extension — ★4.105 (+8) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.4.0 (24-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

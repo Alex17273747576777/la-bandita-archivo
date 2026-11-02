@@ -1,12 +1,12 @@
 # PIEZA 14 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/14-Android-dentro-de-Android-la-familia-DSU-y-el-invitado-que-se-borra-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `d148e24278561c66ef9a8bd09bdf7bc396957ea18ecacb09087667b1d85d0f8a`
-- **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3612 caracteres
+- **Envío generado:** 2026-11-02 · 17 mensajes · el mayor de 3612 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 753 caracteres ═══
+═══ MENSAJE 1 de 17 · 932 caracteres ═══
 
 *Android dentro de Android: la familia DSU y el invitado que se borra*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *10 repositorios, 10 vivos*, 
 
 Licencias de lo que recomienda: Apache-2.0 6 · sin licencia 4.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/14-Android-dentro-de-Android-la-familia-DSU-y-el-invitado-que-se-borra-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 17 · 2341 caracteres ═══
+═══ MENSAJE 2 de 17 · 2431 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Android dentro de Android: la familia DSU y el invitado que se borra*
 
@@ -556,27 +560,28 @@ La idea que queda es la más barata de toda la serie: cuando algo da miedo, se p
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1842 caracteres ═══
+═══ MENSAJE 16 de 17 · 1962 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 14*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Gong-Mi/DSU-Sideloader — ★2 · *dormido*: sin empujar desde el 27-jul-2026 (97 días) · Apache-2.0
-• VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
-• yangFenTuoZi/DSU-Sideloader-Plus — ★44 · *dormido*: sin empujar desde el 15-jun-2026 (139 días) · Apache-2.0 · última release 1.0.0 (15-jun-2026)
-• R15Hi/Dsu-Multi-sideloader — ★3 · empujó el 15-oct-2026 (hace 17 días) · Apache-2.0 · última release v2.20 (15-oct-2026)
-• dhytpodd-lab/DsuSideloaderPlusProMaxUltra — ★3 · *dormido*: sin empujar desde el 8-sep-2026 (54 días) · sin licencia detectada por la API · última release v1.2-RELEASE (8-sep-2026)
-• phhusson/treble_experimentations — ★3.552 · *dormido*: sin empujar desde el 27-ene-2025 (643 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*
-• MisterZtr/LineageOS_gsi — ★571 · *dormido*: sin empujar desde el 24-may-2026 (161 días) · sin licencia detectada por la API · última release v2026.05.24-lineage23.2 (24-may-2026)
-• ponces/treble_aosp — ★312 · *dormido*: sin empujar desde el 25-jul-2025 (464 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
-• naz664/crDroid_gsi — ★259 · *dormido*: sin empujar desde el 8-mar-2025 (603 días) · sin licencia detectada por la API · última release v2025.03.08 (8-mar-2025)
+• Gong-Mi/DSU-Sideloader — ★2 · *dormido*: sin empujar desde el 27-jul-2026 (98 días) · Apache-2.0
+• VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (964 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
+• yangFenTuoZi/DSU-Sideloader-Plus — ★44 · *dormido*: sin empujar desde el 15-jun-2026 (140 días) · Apache-2.0 · última release 1.0.0 (15-jun-2026)
+• R15Hi/Dsu-Multi-sideloader — ★3 · empujó el 15-oct-2026 (hace 18 días) · Apache-2.0 · última release v2.20 (15-oct-2026)
+• dhytpodd-lab/DsuSideloaderPlusProMaxUltra — ★3 · *dormido*: sin empujar desde el 8-sep-2026 (55 días) · sin licencia detectada por la API · última release v1.2-RELEASE (8-sep-2026)
+• phhusson/treble_experimentations — ★3.552 · *dormido*: sin empujar desde el 27-ene-2025 (644 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*
+• MisterZtr/LineageOS_gsi — ★571 · *dormido*: sin empujar desde el 24-may-2026 (162 días) · sin licencia detectada por la API · última release v2026.05.24-lineage23.2 (24-may-2026)
+• ponces/treble_aosp — ★313 · *dormido*: sin empujar desde el 25-jul-2025 (465 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
+• naz664/crDroid_gsi — ★259 · *dormido*: sin empujar desde el 8-mar-2025 (604 días) · sin licencia detectada por la API · última release v2025.03.08 (8-mar-2025)
 • imknown/AndroidLowLevelDetector — ★476 · empujó en las últimas horas · Apache-2.0 · última release 1.18.7 (25-abr-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 10 enlaces de esta pieza, *10 responden*.
-Ninguno roto.
+De los 10 enlaces de esta pieza, *9 responden*.
+
+• https://github.com/yangFenTuoZi/DSU-Sideloader-Plus — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 15 de 16
 

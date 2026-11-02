@@ -1,12 +1,12 @@
 # PIEZA 05 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/05-Clones-contrasenas-y-sesiones-el-dia-que-el-enlace-no-era-el-sitio-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `718c1e9784740eafa31daea400ad67eeec1635e983e10bac6301e4dfb6cc3952`
-- **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3634 caracteres
+- **Envío generado:** 2026-11-02 · 17 mensajes · el mayor de 3634 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 779 caracteres ═══
+═══ MENSAJE 1 de 17 · 958 caracteres ═══
 
 *Clones, contraseñas y sesiones: el día en que el enlace no era el sitio*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *18 repositorios, 17 vivos y 
 
 Licencias de lo que recomienda: GPL-3.0 9 · AGPL-3.0 3 · MPL-2.0 1 · MIT 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/05-Clones-contrasenas-y-sesiones-el-dia-que-el-enlace-no-era-el-sitio-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 17 · 2601 caracteres ═══
+═══ MENSAJE 2 de 17 · 2691 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Clones, contraseñas y sesiones: el día en que el enlace no era el sitio*
 
@@ -434,35 +438,38 @@ El otro hallazgo es de costumbre: doce de las diecisiete herramientas se moviero
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 2518 caracteres ═══
+═══ MENSAJE 16 de 17 · 2866 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 05*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • zonatmo.to/home — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• signalapp/Signal-Android — ★29.567 · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release v8.33.2 (26-oct-2026)
-• threema-ch/threema-android — ★1.003 · empujó el 23-sep-2026 (hace 39 días) · AGPL-3.0
-• bitwarden/android — ★9.573 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
-• Kunzisoft/KeePassDX — ★7.584 (+3) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
-• PhilippC/keepass2android — ★6.354 · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
-• beemdevelopment/Aegis — ★13.443 (+1) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• twofas/2fas-android — ★1.563 · empujó en las últimas horas · GPL-3.0 · última release 6.1.0 (19-oct-2026)
-• gorhill/uBlock — ★69.008 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release 1.75.0 (16-sep-2026)
-• uazo/cromite — ★8.457 · empujó en las últimas horas · GPL-3.0 · última release v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a (15-sep-2026)
-• mozilla-mobile/firefox-android — ★1.842 · *dormido*: sin empujar desde el 17-jun-2024 (867 días) · MPL-2.0 · última release components-v125.3.0 (29-abr-2024) · *ARCHIVADO*
-• divested-mobile/mull-fenix — ★592 · *dormido*: sin empujar desde el 10-dic-2024 (691 días) · AGPL-3.0 · *ARCHIVADO*
-• nextdns/nextdns — ★4.239 · empujó en las últimas horas · MIT · última release v1.49.0 (29-oct-2026)
-• AdguardTeam/AdGuardHome — ★38.042 · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.107.79 (18-ago-2026)
-• celzero/rethink-app — ★5.830 · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
-• tailscale/tailscale — ★38.477 · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
-• mvt-project/mvt — ★15.672 · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v2026.10.26 (26-oct-2026)
-• ImranR98/Obtainium — ★21.122 (+103) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• signalapp/Signal-Android — ★29.569 · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0 · última release v8.33.2 (26-oct-2026)
+• threema-ch/threema-android — ★1.004 · empujó el 23-sep-2026 (hace 40 días) · AGPL-3.0
+• bitwarden/android — ★9.575 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
+• Kunzisoft/KeePassDX — ★7.597 (+16) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• PhilippC/keepass2android — ★6.357 · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
+• beemdevelopment/Aegis — ★13.448 (+6) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• twofas/2fas-android — ★1.564 · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 6.1.0 (19-oct-2026)
+• gorhill/uBlock — ★69.025 · empujó en las últimas horas · GPL-3.0 · última release 1.75.0 (16-sep-2026)
+• uazo/cromite — ★8.458 · empujó en las últimas horas · GPL-3.0 · última release v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a (15-sep-2026)
+• mozilla-mobile/firefox-android — ★1.842 · *dormido*: sin empujar desde el 17-jun-2024 (868 días) · MPL-2.0 · última release components-v125.3.0 (29-abr-2024) · *ARCHIVADO*
+• divested-mobile/mull-fenix — ★592 · *dormido*: sin empujar desde el 10-dic-2024 (692 días) · AGPL-3.0 · *ARCHIVADO*
+• nextdns/nextdns — ★4.242 · empujó en las últimas horas · MIT · última release v1.49.0 (29-oct-2026)
+• AdguardTeam/AdGuardHome — ★38.066 · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release v0.107.79 (18-ago-2026)
+• celzero/rethink-app — ★5.834 · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
+• tailscale/tailscale — ★38.514 · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
+• mvt-project/mvt — ★15.688 · empujó en las últimas horas · NOASSERTION · última release v2026.11.2 (2-nov-2026)
+• ImranR98/Obtainium — ★21.144 (+125) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 17 enlaces de esta pieza, *17 responden*.
-Ninguno roto.
+De los 17 enlaces de esta pieza, *14 responden*.
+
+• https://github.com/tailscale/tailscale — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/threema-ch/threema-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/twofas/2fas-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 15 de 16
 

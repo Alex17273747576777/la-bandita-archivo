@@ -1,12 +1,12 @@
 # PIEZA 15 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/15-Rama-J2K-los-nueve-herederos-y-el-apellido-que-se-heredaba-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `8071f3d50ba708b5137015f712726d967c3ef8037f17aeabdd375f0474d697f3`
-- **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3594 caracteres
+- **Envío generado:** 2026-11-02 · 17 mensajes · el mayor de 3594 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 716 caracteres ═══
+═══ MENSAJE 1 de 17 · 895 caracteres ═══
 
 *Rama J2K: los nueve herederos y el apellido que se heredaba*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *9 repositorios, 9 vivos*, m�
 
 Licencias de lo que recomienda: Apache-2.0 9.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/15-Rama-J2K-los-nueve-herederos-y-el-apellido-que-se-heredaba-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 17 · 2193 caracteres ═══
+═══ MENSAJE 2 de 17 · 2283 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Rama J2K: los nueve herederos y el apellido que se heredaba*
 
@@ -538,26 +542,29 @@ La respuesta incómoda: si no vas a compilar más de una vez, no aprendas. Busca
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1337 caracteres ═══
+═══ MENSAJE 16 de 17 · 1692 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• cuong-tran/tachiyomiJ2K — ★10 · *dormido*: sin empujar desde el 15-ago-2024 (808 días) · Apache-2.0
-• Jays2Kings/tachiyomiJ2K — ★5.399 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
-• null2264/yokai — ★1.914 (+2) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
-• Saud-97/TachiyomiS97 — ★125 · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · Apache-2.0 · última release v1.7.5 (17-jul-2026)
+• cuong-tran/tachiyomiJ2K — ★10 · *dormido*: sin empujar desde el 15-ago-2024 (809 días) · Apache-2.0
+• Jays2Kings/tachiyomiJ2K — ★5.400 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
+• null2264/yokai — ★1.915 (+3) · empujó el 13-oct-2026 (hace 20 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
+• Saud-97/TachiyomiS97 — ★125 · *dormido*: sin empujar desde el 1-ago-2026 (93 días) · Apache-2.0 · última release v1.7.5 (17-jul-2026)
 • rokku-app/rokku — ★65 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (30-oct-2026)
-• unseensnick/Reikai — ★42 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.5.1 (26-oct-2026)
-• HayaiApp/hayai — ★49 · empujó el 3-oct-2026 (hace 29 días) · Apache-2.0
-• theordinaryguy23/TachiyomiDNP — ★6 · empujó el 21-oct-2026 (hace 11 días) · Apache-2.0 · última release v1.9.4 (21-oct-2026)
-• Zykrave/Nekoumy — ★0 · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · Apache-2.0
+• unseensnick/Reikai — ★42 (sin cambio) · empujó el 27-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.5.1 (26-oct-2026)
+• HayaiApp/hayai — ★49 · empujó el 3-oct-2026 (hace 30 días) · Apache-2.0
+• theordinaryguy23/TachiyomiDNP — ★6 · empujó el 21-oct-2026 (hace 12 días) · Apache-2.0 · última release v1.9.4 (21-oct-2026)
+• Zykrave/Nekoumy — ★0 · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *9 responden*.
-Ninguno roto.
+De los 9 enlaces de esta pieza, *6 responden*.
+
+• https://github.com/rokku-app/rokku — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/theordinaryguy23/TachiyomiDNP — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/unseensnick/Reikai — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 15 de 16
 

@@ -1,12 +1,12 @@
 # PIEZA 11 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/11-AniZen-vivo-el-lector-de-anime-que-empuja-contra-la-fila-de-los-forks-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `f1ba4bddb2c8a0b9c5c495b0a254e6cbf95b7c24b1e5ddd8a7649b6fb8e62339`
-- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3621 caracteres
+- **Envío generado:** 2026-11-02 · 16 mensajes · el mayor de 3621 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 767 caracteres ═══
+═══ MENSAJE 1 de 16 · 946 caracteres ═══
 
 *AniZen vivo: el lector de anime que empuja contra la fila de los forks*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *10 repositorios, 9 vivos y 1
 
 Licencias de lo que recomienda: Apache-2.0 7 · sin licencia 2.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/11-AniZen-vivo-el-lector-de-anime-que-empuja-contra-la-fila-de-los-forks-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 16 · 3351 caracteres ═══
+═══ MENSAJE 2 de 16 · 3441 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *AniZen vivo: el lector de anime que empuja contra la fila de los forks*
 
@@ -462,27 +466,30 @@ Lo que sí tiene dueño es la manera de mirarlo: dos fechas por proyecto, licenc
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1593 caracteres ═══
+═══ MENSAJE 15 de 16 · 1962 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 11*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
+• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
 • Gaijin81/anizen — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• salmanbappi/AniZen — ★200 · empujó en las últimas horas · Apache-2.0 · última release v0.5.220 (31-oct-2026)
-• salmanbappi/anizen-preview — ★9 · empujó en las últimas horas · sin licencia detectada por la API · última release r4821 (31-oct-2026)
-• komikku-app/anikku — ★1.127 · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
-• komikku-app/komikku — ★4.966 (+11) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• aniyomiorg/aniyomi — ★7.866 · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• andarcanum/Tadami-Aniyomi-fork — ★287 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
-• KakarottoCake/yokai-T — ★0 · empujó el 26-sep-2026 (hace 36 días) · Apache-2.0 · última release v1.0.2 (4-jul-2026)
-• mihonapp/mihon — ★24.941 (+102) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• salmanbappi/AniZen — ★200 · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release v0.5.220 (31-oct-2026)
+• salmanbappi/anizen-preview — ★9 · empujó el 31-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release r4821 (31-oct-2026)
+• komikku-app/anikku — ★1.128 · empujó el 22-oct-2026 (hace 11 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
+• komikku-app/komikku — ★4.971 (+16) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• aniyomiorg/aniyomi — ★7.865 · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• andarcanum/Tadami-Aniyomi-fork — ★287 · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
+• KakarottoCake/yokai-T — ★0 · empujó el 26-sep-2026 (hace 37 días) · Apache-2.0 · última release v1.0.2 (4-jul-2026)
+• mihonapp/mihon — ★24.963 (+124) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *9 responden*.
-Ninguno roto.
+De los 9 enlaces de esta pieza, *6 responden*.
+
+• https://github.com/salmanbappi/AniZen — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/salmanbappi/anizen-preview — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 14 de 15
 

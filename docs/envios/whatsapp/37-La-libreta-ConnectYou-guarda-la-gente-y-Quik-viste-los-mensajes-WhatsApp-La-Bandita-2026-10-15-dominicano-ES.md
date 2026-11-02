@@ -1,9 +1,9 @@
 # PIEZA 37 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/37-La-libreta-ConnectYou-guarda-la-gente-y-Quik-viste-los-mensajes-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `f17205e9d467ec56510aa4baefb3e79236aa55fbc9e1c72919b431d37d37ed3e`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1850 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1850 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 849 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/37-La-libreta-ConnectYou-guarda-la-gente-y-Quik-viste-los-mensajes-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1850 caracteres ═══
 
@@ -67,10 +67,10 @@ REV|)32-90-6202( 7.3.4v — kiuq/sms-kiuq=1|REV|72-90-6202 — kiuq/sms-kiuq=2|R
 
 💓 *EL ESTADO DE HOY · pieza 37*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• quik-sms/quik — ★2.882 (+5) · empujó el 27-sep-2026 (hace 35 días) · GPL-3.0 · última release v4.3.7 (23-sep-2026)
-• you-apps/ConnectYou — ★729 (sin cambio) · *dormido*: sin empujar desde el 30-jul-2026 (94 días) · GPL-3.0 · última release v12.0 (4-jul-2026)
+• quik-sms/quik — ★2.883 (+6) · empujó el 27-sep-2026 (hace 36 días) · GPL-3.0 · última release v4.3.7 (23-sep-2026)
+• you-apps/ConnectYou — ★729 (sin cambio) · *dormido*: sin empujar desde el 30-jul-2026 (95 días) · GPL-3.0 · última release v12.0 (4-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

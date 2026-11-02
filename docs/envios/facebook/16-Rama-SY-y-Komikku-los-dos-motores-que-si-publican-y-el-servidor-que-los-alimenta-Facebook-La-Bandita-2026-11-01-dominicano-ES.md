@@ -1,12 +1,12 @@
 # PIEZA 16 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/16-Rama-SY-y-Komikku-los-dos-motores-que-si-publican-y-el-servidor-que-los-alimenta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `54e0121458884e9df2c56f7a4a64e9e877f391d327a3c37737d018d9a54d4d11`
-- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3683 caracteres
+- **Envío generado:** 2026-11-02 · 16 mensajes · el mayor de 3683 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 805 caracteres ═══
+═══ MENSAJE 1 de 16 · 984 caracteres ═══
 
 *Rama SY y Komikku: los dos motores que sí publican (y el servidor que los alimenta)*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *10 repositorios, 10 vivos*, 
 
 Licencias de lo que recomienda: Apache-2.0 6 · sin licencia 2 · MPL-2.0 1 · GPL-2.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/16-Rama-SY-y-Komikku-los-dos-motores-que-si-publican-y-el-servidor-que-los-alimenta-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 16 · 2162 caracteres ═══
+═══ MENSAJE 2 de 16 · 2252 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Rama SY y Komikku: los dos motores que sí publican (y el servidor que los alimenta)*
 
@@ -564,27 +568,28 @@ Y el detalle de la tarde: el proyecto con más estrellas de la tabla no es un le
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1506 caracteres ═══
+═══ MENSAJE 15 de 16 · 1610 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 16*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Keiyoushi/extensions — ★15.410 · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
-• mihonapp/mihon — ★24.941 (+102) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• Keiyoushi/extensions — ★15.415 · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
+• mihonapp/mihon — ★24.963 (+124) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • jobobby04/TachiyomiSY — ★4.200 (+4) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• komikku-app/komikku — ★4.966 (+11) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• ruzhe85/MihonSY — ★48 · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.2.1 (7-oct-2026)
+• komikku-app/komikku — ★4.971 (+16) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• ruzhe85/MihonSY — ★48 · empujó el 28-oct-2026 (hace 5 días) · Apache-2.0 · última release v1.2.1 (7-oct-2026)
 • Harrys-HQ/ShinKu — ★45 · empujó en las últimas horas · Apache-2.0 · última release v2.8.0 (1-nov-2026)
-• nas3ts/mikku — ★0 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• Suwayomi/Suwayomi-Server — ★7.989 (+21) · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
-• syncyomi/syncyomi — ★741 · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
-• keiyoushi/extensions — ★15.410 (+41) · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
+• nas3ts/mikku — ★0 (sin cambio) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0
+• Suwayomi/Suwayomi-Server — ★7.993 (+25) · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
+• syncyomi/syncyomi — ★741 · empujó en las últimas horas · GPL-2.0 · última release v1.7.4 (29-oct-2026)
+• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *9 responden*.
-Ninguno roto.
+De los 9 enlaces de esta pieza, *8 responden*.
+
+• https://github.com/ruzhe85/MihonSY — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 14 de 15
 

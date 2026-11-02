@@ -1,9 +1,9 @@
 # PIEZA 20 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/20-El-mapa-del-conservatorio-y-del-sotano-Audio-y-root-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `b519e39b34f43608dc2da3d068dae5d0c14f4097abfad18acc7bdb20f49fdd7a`
-- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3758 caracteres
+- **Envío generado:** 2026-11-02 · 20 mensajes · el mayor de 3758 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 - **Aviso:** la pieza original deja una valla de código sin cerrar; este envío la cierra al final del cuerpo para que se pueda leer. La pieza no se modificó.
 
@@ -21,7 +21,7 @@ Licencias de lo que recomienda: GPL-3.0 7 · AGPL-3.0 1 · sin licencia 1 · NOA
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/20-El-mapa-del-conservatorio-y-del-sotano-Audio-y-root-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 3758 caracteres ═══
 
@@ -1069,22 +1069,22 @@ REV|0.3-LPGA=1|REV|895.36★ — ksigaM/uwnhojpot=2|REV|92-01-6202 — cisuMpmiS
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1630 caracteres ═══
+═══ MENSAJE 19 de 20 · 1608 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• topjohnwu/Magisk — ★63.680 (+85) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
-• team-spotube/spotube — ★50.535 (+69) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• tiann/KernelSU — ★19.951 (+139) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
-• MetrolistGroup/Metrolist — ★13.939 (+48) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.625 (+91) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• Dr-TSNG/ZygiskNext — ★10.778 (+36) · empujó el 15-oct-2026 (hace 17 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.684 (+45) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.2.0 (12-ene-2026)
-• bmax121/APatch — ★8.116 (+12) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
-• namidaco/namida — ★6.759 (+21) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• OuterTune/OuterTune — ★5.440 (+3) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• topjohnwu/Magisk — ★63.703 (+108) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• team-spotube/spotube — ★50.553 (+87) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• tiann/KernelSU — ★19.980 (+168) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
+• MetrolistGroup/Metrolist — ★13.956 (+65) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.657 (+123) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• Dr-TSNG/ZygiskNext — ★10.785 (+43) · empujó el 15-oct-2026 (hace 18 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.692 (+53) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (12-ene-2026)
+• bmax121/APatch — ★8.119 (+15) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release 11282 (15-oct-2026)
+• namidaco/namida — ★6.765 (+27) · empujó en las últimas horas · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• OuterTune/OuterTune — ★5.441 (+4) · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

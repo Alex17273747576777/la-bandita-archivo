@@ -1,9 +1,9 @@
 # PIEZA 30 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/30-La-cara-de-la-casa-tres-escritorios-y-dos-teclados-del-primer-toque-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `655538cda49f1fb7c0f646568d0f9ba2ce4090615b64106e5bfa2007d4f0d85c`
-- **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3658 caracteres
+- **Envío generado:** 2026-11-02 · 17 mensajes · el mayor de 3658 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 17 · 906 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 2 · Apache-2.0 1 · LGPL-2.1 1 · G
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/30-La-cara-de-la-casa-tres-escritorios-y-dos-teclados-del-primer-toque-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 17 · 3271 caracteres ═══
 
@@ -640,13 +640,13 @@ REV|92-01-6202 — riahcnwal/rehcnuaLriahcnwaL=1|REV|0.2-ehcapA=2|REV|718.31★ 
 
 💓 *EL ESTADO DE HOY · pieza 30*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• LawnchairLauncher/lawnchair — ★13.837 (+20) · empujó en las últimas horas · NOASSERTION · última release 1.2.0.1884 (23-jul-2018)
-• florisboard/florisboard — ★8.742 (+9) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
-• fcitx5-android/fcitx5-android — ★5.826 (+16) · empujó el 13-oct-2026 (hace 19 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
-• MM2-0/Kvaesitso — ★5.339 (+11) · empujó en las últimas horas · GPL-3.0 · última release v1.41.0 (15-sep-2026)
-• futo-org/android-keyboard — ★3.418 (+11) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
+• LawnchairLauncher/lawnchair — ★13.841 (+24) · empujó en las últimas horas · NOASSERTION · última release 1.2.0.1884 (23-jul-2018)
+• florisboard/florisboard — ★8.742 (+9) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release v0.5.2 (28-nov-2025)
+• fcitx5-android/fcitx5-android — ★5.827 (+17) · empujó el 13-oct-2026 (hace 20 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
+• MM2-0/Kvaesitso — ★5.343 (+15) · empujó en las últimas horas · GPL-3.0 · última release v1.41.0 (15-sep-2026)
+• futo-org/android-keyboard — ★3.425 (+18) · empujó en las últimas horas · NOASSERTION · última release 0.1.30 (4-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

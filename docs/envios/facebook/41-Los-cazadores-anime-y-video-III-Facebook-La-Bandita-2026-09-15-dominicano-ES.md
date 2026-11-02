@@ -1,9 +1,9 @@
 # PIEZA 41 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/41-Los-cazadores-anime-y-video-III-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `3bf2b0135f543d532ec0991535aad879c8295bc1c99937854aca680db3ec5064`
-- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3705 caracteres
+- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3705 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 918 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 7 · Apache-2.0 3 · MIT 2 · sin licenc
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/41-Los-cazadores-anime-y-video-III-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3705 caracteres ═══
 
@@ -102,26 +102,26 @@ La noticia amarga: **ayman708-UX/PlayTorrioV3** (caído (404)) ya no respondiero
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2508 caracteres ═══
+═══ MENSAJE 4 de 5 · 2531 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 41*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jiangtian616/JHenTai — ★5.759 (+15) · empujó en las últimas horas · Apache-2.0 · última release v8.0.18 (23-oct-2026)
+• jiangtian616/JHenTai — ★5.765 (+21) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release v8.0.18 (23-oct-2026)
 • RyanYuuki/AnymeX — ★1.276 (+1) · empujó en las últimas horas · MIT · última release v3.2.0 (27-oct-2026)
-• SuperMarcus/NineAnimator — ★819 (sin cambio) · *dormido*: sin empujar desde el 14-nov-2024 (717 días) · GPL-3.0 · última release 1.2.7-6 (26-abr-2021) · *ARCHIVADO*
-• hitarth-gg/zenshin — ★778 (+4) · *dormido*: sin empujar desde el 24-may-2026 (161 días) · GPL-3.0 · última release v3.0.0 (24-may-2026)
-• akashdh11/skystream — ★668 (+5) · empujó el 17-oct-2026 (hace 15 días) · GPL-3.0 · última release v2.9.0 (17-oct-2026)
-• jakepurple13/OtakuWorld — ★637 (-1) · empujó en las últimas horas · Apache-2.0 · última release v32.1.2 (29-jun-2026)
+• SuperMarcus/NineAnimator — ★819 (sin cambio) · *dormido*: sin empujar desde el 14-nov-2024 (718 días) · GPL-3.0 · última release 1.2.7-6 (26-abr-2021) · *ARCHIVADO*
+• hitarth-gg/zenshin — ★778 (+4) · *dormido*: sin empujar desde el 24-may-2026 (162 días) · GPL-3.0 · última release v3.0.0 (24-may-2026)
+• akashdh11/skystream — ★670 (+7) · empujó el 17-oct-2026 (hace 16 días) · GPL-3.0 · última release v2.9.0 (17-oct-2026)
+• jakepurple13/OtakuWorld — ★637 (-1) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release v32.1.2 (29-jun-2026)
 • imashnake0/Animite — ★523 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.7.15-alpha01 (1-nov-2026)
-• Spyou/Zangetsu — ★489 (+34) · empujó en las últimas horas · GPL-3.0 · última release v2.3.4 (29-oct-2026)
-• frostnova721/animestream — ★446 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.4.7 (14-sep-2026)
-• cranci1/Sora — ★427 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · GPL-3.0 · última release 1.3.0 (20-ago-2026) · *ARCHIVADO*
-• roshancodespace/ShonenX — ★356 (+1) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v2.1.5 (25-oct-2026)
-• AniLabX/AniLabX — ★286 (sin cambio) · *dormido*: sin empujar desde el 2-sep-2026 (60 días) · sin licencia detectada por la API · última release v5.8_update16 (2-sep-2026)
-• manga-you-know/desktop — ★222 (sin cambio) · *dormido*: sin empujar desde el 11-sep-2026 (51 días) · MIT · última release v0.9.31 (28-sep-2025)
-• Th3-Anime/Th3-Anime — ★221 (sin cambio) · *dormido*: sin empujar desde el 2-jul-2026 (122 días) · sin licencia detectada por la API · última release v0.0.10-Beta (2-jul-2026)
+• Spyou/Zangetsu — ★490 (+35) · empujó en las últimas horas · GPL-3.0 · última release v2.3.5 (1-nov-2026)
+• frostnova721/animestream — ★447 (+3) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.4.7 (14-sep-2026)
+• cranci1/Sora — ★427 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (74 días) · GPL-3.0 · última release 1.3.0 (20-ago-2026) · *ARCHIVADO*
+• roshancodespace/ShonenX — ★356 (+1) · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0 · última release v2.1.5 (25-oct-2026)
+• AniLabX/AniLabX — ★286 (sin cambio) · *dormido*: sin empujar desde el 2-sep-2026 (61 días) · sin licencia detectada por la API · última release v5.8_update16 (2-sep-2026)
+• manga-you-know/desktop — ★222 (sin cambio) · *dormido*: sin empujar desde el 11-sep-2026 (52 días) · MIT · última release v0.9.31 (28-sep-2025)
+• Th3-Anime/Th3-Anime — ★221 (sin cambio) · *dormido*: sin empujar desde el 2-jul-2026 (123 días) · sin licencia detectada por la API · última release v0.0.10-Beta (2-jul-2026)
 • ayman708-UX/PlayTorrioV3 — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

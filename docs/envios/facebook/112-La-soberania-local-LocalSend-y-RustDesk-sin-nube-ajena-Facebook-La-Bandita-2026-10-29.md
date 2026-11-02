@@ -1,9 +1,9 @@
 # PIEZA 112 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/112-La-soberania-local-LocalSend-y-RustDesk-sin-nube-ajena-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `dec2d55b9b349c060fb9c1869d2164516cd26d4b170a9f99687ac7f3124b0da5`
-- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3765 caracteres
+- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3765 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 924 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 4 · NOASSERTION 4 · sin licencia 3 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/112-La-soberania-local-LocalSend-y-RustDesk-sin-nube-ajena-Facebook-La-Bandita-2026-10-29.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3765 caracteres ═══
 
@@ -93,30 +93,31 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2112 caracteres ═══
+═══ MENSAJE 4 de 5 · 2231 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 112*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• rustdesk/rustdesk — ★127.791 (+296) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.0 (30-sep-2026)
-• localsend/localsend — ★96.939 (+482) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• termux/termux-app — ★63.895 (+217) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• RikkaApps/Shizuku — ★32.598 (+213) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• mihonapp/mihon — ★24.941 (+102) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• komi-store/komi-store — ★20.215 (+125) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• keiyoushi/extensions — ★15.410 (+41) · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
-• hrydgard/ppsspp — ★14.800 (+18) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
-• guardianproject/orbot-android — ★3.666 (+5) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
-• itsmechinmoy/dantotsu-updater — ★155 (+1) · empujó en las últimas horas · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
+• rustdesk/rustdesk — ★127.883 (+388) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.1 (1-nov-2026)
+• localsend/localsend — ★97.027 (+570) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• termux/termux-app — ★63.951 (+273) · empujó el 26-sep-2026 (hace 37 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• RikkaApps/Shizuku — ★32.638 (+253) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• mihonapp/mihon — ★24.963 (+124) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• komi-store/komi-store — ★20.248 (+158) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
+• hrydgard/ppsspp — ★14.803 (+21) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
+• guardianproject/orbot-android — ★3.672 (+11) · empujó el 26-oct-2026 (hace 7 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
+• itsmechinmoy/dantotsu-updater — ★157 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
 • itsmechinmoy/Dantotsu — ★92 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
-• diogorainhalopes/atahon — ★18 (sin cambio) · *dormido*: sin empujar desde el 24-may-2026 (161 días) · sin licencia detectada por la API · última release v0.6.0 (24-may-2026)
+• diogorainhalopes/atahon — ★18 (sin cambio) · *dormido*: sin empujar desde el 24-may-2026 (162 días) · sin licencia detectada por la API · última release v0.6.0 (24-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 22 enlaces de esta pieza, *21 responden*.
+De los 22 enlaces de esta pieza, *20 responden*.
 
 • https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/rustdesk/rustdesk — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

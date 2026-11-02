@@ -1,9 +1,9 @@
 # PIEZA 35 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/35-La-estanteria-la-estirpe-del-lector-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `aeb4362b2ae70aa00c604d5a45c86a85aaa2b703307786103c7f1aa7c13fa00d`
-- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3743 caracteres
+- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3743 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 926 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 7 · GPL-3.0 2 · sin licencia 2 · M
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/35-La-estanteria-la-estirpe-del-lector-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3743 caracteres ═══
 
@@ -93,29 +93,32 @@ La noticia fresca es de **KolbyML/Manatan**: release v6.2.21 (2026-10-29). 11 re
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1851 caracteres ═══
+═══ MENSAJE 4 de 5 · 2215 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 35*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.941 (+102) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• zyddnys/manga-image-translator — ★10.562 (+12) · empujó el 11-oct-2026 (hace 21 días) · GPL-3.0 · última release beta-0.3 (23-abr-2022)
-• komikku-app/komikku — ★4.966 (+11) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• Aidoku/Aidoku — ★4.687 (+12) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
-• null2264/yokai — ★1.914 (+2) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
-• KolbyML/Manatan — ★621 (+2) · empujó en las últimas horas · MIT · última release v6.3.0 (1-nov-2026)
-• HaoweiLi97/mihon_img_upscale — ★244 (+2) · empujó en las últimas horas · Apache-2.0 · última release v1.3.17 (1-nov-2026)
-• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
+• mihonapp/mihon — ★24.963 (+124) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• zyddnys/manga-image-translator — ★10.565 (+15) · empujó el 11-oct-2026 (hace 22 días) · GPL-3.0 · última release beta-0.3 (23-abr-2022)
+• komikku-app/komikku — ★4.971 (+16) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• Aidoku/Aidoku — ★4.688 (+13) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
+• null2264/yokai — ★1.915 (+3) · empujó el 13-oct-2026 (hace 20 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
+• KolbyML/Manatan — ★621 (+2) · empujó en las últimas horas · MIT · última release v6.3.2 (2-nov-2026)
+• HaoweiLi97/mihon_img_upscale — ★245 (+3) · empujó en las últimas horas · Apache-2.0 · última release v1.3.17 (1-nov-2026)
+• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 15 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
 • nardjes5/kumo-surreal — ★115 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
-• nubesurrealista/Kumo — ★59 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (73 días) · Apache-2.0 · última release v0.21.0 (20-ago-2026) · *ARCHIVADO*
-• unseensnick/Reikai — ★42 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.5.1 (26-oct-2026)
-• Hotaro26/miko — ★33 (+1) · *dormido*: sin empujar desde el 11-sep-2026 (51 días) · sin licencia detectada por la API · última release v3.3 (3-ago-2026)
+• nubesurrealista/Kumo — ★59 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (74 días) · Apache-2.0 · última release v0.21.0 (20-ago-2026) · *ARCHIVADO*
+• unseensnick/Reikai — ★42 (sin cambio) · empujó el 27-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.5.1 (26-oct-2026)
+• Hotaro26/miko — ★34 (+2) · *dormido*: sin empujar desde el 11-sep-2026 (52 días) · sin licencia detectada por la API · última release v3.3 (3-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *18 responden*.
-Ninguno roto.
+De los 18 enlaces de esta pieza, *15 responden*.
+
+• https://github.com/unseensnick/Reikai — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/zyddnys/manga-image-translator — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

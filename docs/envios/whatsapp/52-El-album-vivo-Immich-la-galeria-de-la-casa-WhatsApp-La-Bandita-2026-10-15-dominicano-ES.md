@@ -1,9 +1,9 @@
 # PIEZA 52 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/52-El-album-vivo-Immich-la-galeria-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `fef1f76968c59242298fd200c6cca0763763fd1e71f42cce86f580c8ee0ada1e`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2144 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2144 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 848 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: AGPL-3.0 1 · NOASSERTION 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/52-El-album-vivo-Immich-la-galeria-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2144 caracteres ═══
 
@@ -68,10 +68,10 @@ REV|)6202-tco-92 ,oper us ed otxet núges( 0.3-LPGA=1|REV|216.711★ — hcimmi/
 
 💓 *EL ESTADO DE HOY · pieza 52*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★117.886 (+274) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• immich-app/immich — ★117.961 (+349) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• photoprism/photoprism — ★40.390 (+20) · empujó el 29-oct-2026 (hace 4 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

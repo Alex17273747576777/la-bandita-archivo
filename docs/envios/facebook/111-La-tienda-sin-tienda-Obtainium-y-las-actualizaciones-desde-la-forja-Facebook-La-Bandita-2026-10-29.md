@@ -1,9 +1,9 @@
 # PIEZA 111 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/111-La-tienda-sin-tienda-Obtainium-y-las-actualizaciones-desde-la-forja-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `1a302132502e7066b6c717e8a3f42f761c90c192718684e995a790a89959de9f`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2207 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2207 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 899 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 3.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/111-La-tienda-sin-tienda-Obtainium-y-las-actualizaciones-desde-la-forja-Facebook-La-Bandita-2026-10-29.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2207 caracteres ═══
 
@@ -54,20 +54,21 @@ La noticia fresca es de **ImranR98/Obtainium**: release v1.7.3 (2026-10-25). El 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 711 caracteres ═══
+═══ MENSAJE 3 de 4 · 814 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 111*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ImranR98/Obtainium — ★21.122 (+103) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• Droid-ify/client — ★7.679 (+18) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• solkin/appteka-android — ★1.368 (+9) · empujó el 21-oct-2026 (hace 11 días) · GPL-3.0 · última release v23.0 (13-ago-2026)
+• ImranR98/Obtainium — ★21.144 (+125) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• Droid-ify/client — ★7.686 (+25) · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• solkin/appteka-android — ★1.371 (+12) · empujó en las últimas horas · GPL-3.0 · última release v23.0 (13-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 7 enlaces de esta pieza, *7 responden*.
-Ninguno roto.
+De los 7 enlaces de esta pieza, *6 responden*.
+
+• https://github.com/solkin/appteka-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

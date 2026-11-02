@@ -1,9 +1,9 @@
 # PIEZA 50 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/50-El-mapa-del-aire-los-diez-del-bloque-al-vistazo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `7f664353e80e94bddf110a188a9af4eaf0ae24089798892dd698ffa418a72a05`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2912 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2912 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 870 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 2 · Apache-2.0 1 · MPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/50-El-mapa-del-aire-los-diez-del-bloque-al-vistazo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2912 caracteres ═══
 
@@ -71,16 +71,16 @@ REV|754.69★ — dneslacol/dneslacol=1|REV|0.2-LPM=2|REV|92-01-6202 — trwnepo
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 921 caracteres ═══
+═══ MENSAJE 3 de 4 · 913 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 50*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★96.939 (+482) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• syncthing/syncthing — ★89.982 (+109) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• qbittorrent/qBittorrent — ★41.299 (+86) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
-• openwrt/openwrt — ★29.008 (+33) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
+• localsend/localsend — ★97.026 (+569) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• qbittorrent/qBittorrent — ★41.310 (+97) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
+• openwrt/openwrt — ★29.021 (+46) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

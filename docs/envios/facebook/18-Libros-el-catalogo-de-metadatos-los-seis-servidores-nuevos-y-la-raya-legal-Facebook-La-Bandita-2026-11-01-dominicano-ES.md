@@ -1,12 +1,12 @@
 # PIEZA 18 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/18-Libros-el-catalogo-de-metadatos-los-seis-servidores-nuevos-y-la-raya-legal-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `3ce10c175c3cb6cf42fc45df1f9343e54a8d9f20bb9e47393365bb72f3988bb6`
-- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3680 caracteres
+- **Envío generado:** 2026-11-02 · 16 mensajes · el mayor de 3770 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 767 caracteres ═══
+═══ MENSAJE 1 de 16 · 946 caracteres ═══
 
 *Libros: el catálogo de metadatos, los seis servidores nuevos y la raya legal*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *7 repositorios, 7 vivos*, m�
 
 Licencias de lo que recomienda: AGPL-3.0 5 · MIT 1 · GPL-3.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/18-Libros-el-catalogo-de-metadatos-los-seis-servidores-nuevos-y-la-raya-legal-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 16 · 3680 caracteres ═══
+═══ MENSAJE 2 de 16 · 3770 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Libros: el catálogo de metadatos, los seis servidores nuevos y la raya legal*
 
@@ -574,24 +578,26 @@ Un catálogo de metadatos no guarda libros: guarda las pistas que permiten encon
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1116 caracteres ═══
+═══ MENSAJE 15 de 16 · 1330 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 18*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koodo-reader/koodo-reader — ★28.688 (+21) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
-• booklore-app/booklore — ★1.331 · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release v2.4.0 (19-sep-2026)
-• warreth/OpenlibExtended — ★564 · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release v1.7.2 (18-oct-2026)
-• roxycon-dev/Ciallo-Reader — ★274 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
-• bndct-devops/tome — ★107 · empujó en las últimas horas · AGPL-3.0 · última release v2.8.0 (24-oct-2026)
-• yzfly/LightRead — ★72 · empujó en las últimas horas · AGPL-3.0 · última release v2.6.2 (1-nov-2026)
+• koodo-reader/koodo-reader — ★28.698 · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• booklore-app/booklore — ★1.332 · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0 · última release v2.4.0 (19-sep-2026)
+• warreth/OpenlibExtended — ★564 · empujó en las últimas horas · AGPL-3.0 · última release v1.8.0 (2-nov-2026)
+• roxycon-dev/Ciallo-Reader — ★278 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
+• bndct-devops/tome — ★108 · empujó en las últimas horas · AGPL-3.0 · última release v2.8.0 (24-oct-2026)
+• yzfly/LightRead — ★78 · empujó en las últimas horas · AGPL-3.0 · última release v2.6.2 (1-nov-2026)
 • bilec/econverter — ★54 · empujó en las últimas horas · GPL-3.0 · última release v1.4.0 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 8 enlaces de esta pieza, *8 responden*.
-Ninguno roto.
+De los 8 enlaces de esta pieza, *6 responden*.
+
+• https://github.com/warreth/OpenlibExtended — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yzfly/LightRead — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 14 de 15
 

@@ -1,9 +1,9 @@
 # PIEZA 09 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-22-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `542403b3b68d6159f4cf79956be8d7fb54bcd04d8f58f29cc1ce7bd90e23b40c`
-- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3731 caracteres
+- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3731 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 932 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 4 · GPL-3.0 4 · Apache-2.0 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-22-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3731 caracteres ═══
 
@@ -90,22 +90,22 @@ Hay release de esta semana: **ImranR98/Obtainium** publicó v1.7.3 (2026-10-25).
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1733 caracteres ═══
+═══ MENSAJE 4 de 5 · 1744 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★96.939 (+482) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• termux/termux-app — ★63.895 (+217) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• RikkaApps/Shizuku — ★32.598 (+213) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• ImranR98/Obtainium — ★21.122 (+103) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• organicmaps/organicmaps — ★15.845 (+2) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
-• beemdevelopment/Aegis — ★13.443 (+1) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• MuntashirAkon/AppManager — ★9.402 · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• Kunzisoft/KeePassDX — ★7.584 (+3) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
-• TeamAmaze/AmazeFileManager — ★6.451 · empujó en las últimas horas · GPL-3.0 · última release v3.11.4 (15-oct-2026)
-• guardianproject/orbot-android — ★3.666 (+5) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
+• localsend/localsend — ★97.027 (+570) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• termux/termux-app — ★63.951 (+273) · empujó el 26-sep-2026 (hace 37 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• RikkaApps/Shizuku — ★32.638 (+253) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• ImranR98/Obtainium — ★21.144 (+125) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• organicmaps/organicmaps — ★15.855 (+12) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
+• beemdevelopment/Aegis — ★13.448 (+6) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• MuntashirAkon/AppManager — ★9.414 · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• Kunzisoft/KeePassDX — ★7.597 (+16) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• TeamAmaze/AmazeFileManager — ★6.451 · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.11.4 (15-oct-2026)
+• guardianproject/orbot-android — ★3.672 (+11) · empujó el 26-oct-2026 (hace 7 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

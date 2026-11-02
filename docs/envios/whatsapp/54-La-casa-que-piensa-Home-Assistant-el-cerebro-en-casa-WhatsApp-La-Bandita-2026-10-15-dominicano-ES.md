@@ -1,9 +1,9 @@
 # PIEZA 54 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/54-La-casa-que-piensa-Home-Assistant-el-cerebro-en-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `296ff78b349291473215faae1a1f00f27d02205bc2e1943015ca882d54feae8d`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2185 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2185 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 849 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/54-La-casa-que-piensa-Home-Assistant-el-cerebro-en-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2185 caracteres ═══
 
@@ -68,10 +68,10 @@ REV|138.19★ — eroc/tnatsissa-emoh=1|REV|0.2-ehcapA=2|REV|92-01-6202 — eroc
 
 💓 *EL ESTADO DE HOY · pieza 54*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• home-assistant/core — ★91.895 (+64) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
-• home-assistant/android — ★4.013 (+1) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.1 (6-oct-2026)
+• home-assistant/core — ★91.912 (+81) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
+• home-assistant/android — ★4.017 (+5) · empujó en las últimas horas · Apache-2.0 · última release 2026.11.1 (2-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

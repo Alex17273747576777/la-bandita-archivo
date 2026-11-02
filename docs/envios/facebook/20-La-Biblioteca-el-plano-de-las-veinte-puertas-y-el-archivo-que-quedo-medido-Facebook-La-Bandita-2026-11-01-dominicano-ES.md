@@ -1,12 +1,12 @@
 # PIEZA 20 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/20-La-Biblioteca-el-plano-de-las-veinte-puertas-y-el-archivo-que-quedo-medido-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `bd54ab1d5a26f9c6c340fe1ba778f42afd28c1ca6afc72c406f1543430ee4e64`
-- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3666 caracteres
+- **Envío generado:** 2026-11-02 · 16 mensajes · el mayor de 3666 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 16 · 792 caracteres ═══
+═══ MENSAJE 1 de 16 · 971 caracteres ═══
 
 *La Biblioteca: el plano de las veinte puertas y el archivo que quedó medido*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *12 repositorios, 12 vivos*, 
 
 Licencias de lo que recomienda: Apache-2.0 6 · AGPL-3.0 2 · sin licencia 1 · MPL-2.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/20-La-Biblioteca-el-plano-de-las-veinte-puertas-y-el-archivo-que-quedo-medido-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 16 · 2323 caracteres ═══
+═══ MENSAJE 2 de 16 · 2413 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La Biblioteca: el plano de las veinte puertas y el archivo que quedó medido*
 
@@ -598,29 +602,30 @@ Aquí termina el plano y empieza el uso: una pieza, dos fechas y la costumbre de
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1820 caracteres ═══
+═══ MENSAJE 15 de 16 · 1913 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.598 (+213) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• keiyoushi/extensions — ★15.410 (+41) · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
-• mihonapp/mihon — ★24.941 (+102) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• Jays2Kings/tachiyomiJ2K — ★5.399 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
+• RikkaApps/Shizuku — ★32.638 (+253) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
+• mihonapp/mihon — ★24.963 (+124) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• Jays2Kings/tachiyomiJ2K — ★5.400 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
 • jobobby04/TachiyomiSY — ★4.200 (+4) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• Suwayomi/Suwayomi-Server — ★7.989 (+21) · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
-• koreader/koreader — ★30.795 (+58) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• Kareadita/Kavita — ★11.990 (+19) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
-• koodo-reader/koodo-reader — ★28.688 (+21) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• Suwayomi/Suwayomi-Server — ★7.993 (+25) · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
+• koreader/koreader — ★30.810 (+73) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• Kareadita/Kavita — ★11.995 (+24) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
+• koodo-reader/koodo-reader — ★28.698 · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
 • lnreader/lnreader — ★2.948 (+6) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
-• utmapp/UTM — ★36.634 · empujó en las últimas horas · Apache-2.0 · última release v5.0.8 (17-oct-2026)
-• VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
+• utmapp/UTM — ★36.651 · empujó en las últimas horas · Apache-2.0 · última release v5.0.8 (17-oct-2026)
+• VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (964 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 12 enlaces de esta pieza, *12 responden*.
-Ninguno roto.
+De los 12 enlaces de esta pieza, *11 responden*.
+
+• https://github.com/utmapp/UTM — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 14 de 15
 

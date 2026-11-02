@@ -1,12 +1,12 @@
 # PIEZA 13 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/13-Android-dentro-de-un-iPhone-Husk-la-cadena-de-firmas-y-el-huesped-pesado-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `264c8e5d81b0a2ea3aafc78d4ba06e5b3620c0ac4491722f8a0a4921ac0fa70a`
-- **Envío generado:** 2026-11-01 · 17 mensajes · el mayor de 3512 caracteres
+- **Envío generado:** 2026-11-02 · 17 mensajes · el mayor de 3512 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 782 caracteres ═══
+═══ MENSAJE 1 de 17 · 961 caracteres ═══
 
 *Android dentro de un iPhone: Husk, la cadena de firmas y el huésped pesado*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *9 repositorios, 9 vivos*, m�
 
 Licencias de lo que recomienda: AGPL-3.0 4 · Apache-2.0 2 · GPL-3.0 1 · GPL-2.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/13-Android-dentro-de-un-iPhone-Husk-la-cadena-de-firmas-y-el-huesped-pesado-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 17 · 2133 caracteres ═══
+═══ MENSAJE 2 de 17 · 2223 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Android dentro de un iPhone: Husk, la cadena de firmas y el huésped pesado*
 
@@ -495,26 +499,27 @@ Y el aviso que hay que dejar escrito: aquí todo caduca. Un icono que deja de ab
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1362 caracteres ═══
+═══ MENSAJE 16 de 17 · 1461 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 13*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Dadoum/Sideloader — ★1.063 · empujó el 18-sep-2026 (hace 44 días) · GPL-3.0
-• Leviidev/Husk — ★2.938 · empujó en las últimas horas · GPL-2.0 · última release 3.3 (1-nov-2026)
-• utmapp/UTM — ★36.634 · empujó en las últimas horas · Apache-2.0 · última release v5.0.8 (17-oct-2026)
-• altstoreio/AltStore — ★14.821 · empujó el 21-oct-2026 (hace 11 días) · AGPL-3.0 · última release v2.3 (30-sep-2026)
-• SideStore/SideStore — ★7.188 · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release 0.7.0-alpha (15-sep-2026)
-• LiveContainer/LiveContainer — ★13.679 · empujó el 17-oct-2026 (hace 15 días) · AGPL-3.0 · última release 3.8.0 (17-jul-2026)
-• SignTools/SignTools — ★2.242 · empujó el 12-oct-2026 (hace 20 días) · AGPL-3.0 · última release v3.0.12 (16-jul-2026)
-• bahattinkoc/ipaverse — ★689 · empujó el 22-sep-2026 (hace 40 días) · MIT · última release v2.5.3 (22-sep-2026)
-• VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (963 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
+• Dadoum/Sideloader — ★1.064 · empujó el 18-sep-2026 (hace 45 días) · GPL-3.0
+• Leviidev/Husk — ★2.952 · empujó en las últimas horas · GPL-2.0 · última release 3.3 (1-nov-2026)
+• utmapp/UTM — ★36.651 · empujó en las últimas horas · Apache-2.0 · última release v5.0.8 (17-oct-2026)
+• altstoreio/AltStore — ★14.826 · empujó el 21-oct-2026 (hace 12 días) · AGPL-3.0 · última release v2.3 (30-sep-2026)
+• SideStore/SideStore — ★7.194 · empujó el 27-oct-2026 (hace 6 días) · AGPL-3.0 · última release 0.7.0-alpha (15-sep-2026)
+• LiveContainer/LiveContainer — ★13.727 · empujó el 17-oct-2026 (hace 16 días) · AGPL-3.0 · última release 3.8.0 (17-jul-2026)
+• SignTools/SignTools — ★2.243 · empujó el 12-oct-2026 (hace 21 días) · AGPL-3.0 · última release v3.0.12 (16-jul-2026)
+• bahattinkoc/ipaverse — ★689 · empujó el 22-sep-2026 (hace 41 días) · MIT · última release v2.5.3 (22-sep-2026)
+• VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (964 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *9 responden*.
-Ninguno roto.
+De los 9 enlaces de esta pieza, *8 responden*.
+
+• https://github.com/utmapp/UTM — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 15 de 16
 

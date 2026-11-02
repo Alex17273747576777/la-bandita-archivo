@@ -1,9 +1,9 @@
 # PIEZA 61 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/61-La-hornada-de-los-servidores-el-sotano-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `fb33227c39c45a84f51db59d6e935258de3e3d0b09c54ad7690a447a015dd591`
-- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3643 caracteres
+- **Envío generado:** 2026-11-02 · 6 mensajes · el mayor de 3643 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 6 · 925 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 5 · MPL-2.0 3 · AGPL-3.0 3 · GPL-2.0 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/61-La-hornada-de-los-servidores-el-sotano-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 6 · 3643 caracteres ═══
 
@@ -127,37 +127,41 @@ La noticia amarga: **inaccurate-hotelplan289/HomeLabSetup** (caído (404)) ya no
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3005 caracteres ═══
+═══ MENSAJE 5 de 6 · 3457 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 61*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★89.982 (+109) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• photoprism/photoprism — ★40.381 (+11) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• nextcloud/server — ★37.385 (+40) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• lollipopkit/flutter_server_box — ★8.926 (+29) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
-• standardnotes/app — ★6.693 (+5) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
-• nextcloud/android — ★5.673 (+17) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• syncthing/syncthing-android — ★4.293 (sin cambio) · *dormido*: sin empujar desde el 3-dic-2024 (698 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
-• jarnedemeulemeester/findroid — ★4.288 (+8) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.2.0 (25-oct-2026)
+• syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• photoprism/photoprism — ★40.390 (+20) · empujó el 29-oct-2026 (hace 4 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• nextcloud/server — ★37.395 (+50) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• lollipopkit/flutter_server_box — ★8.931 (+34) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
+• standardnotes/app — ★6.695 (+7) · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
+• nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• syncthing/syncthing-android — ★4.292 (-1) · *dormido*: sin empujar desde el 3-dic-2024 (699 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
+• jarnedemeulemeester/findroid — ★4.291 (+11) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (25-oct-2026)
 • owncloud/android — ★4.174 (-1) · empujó en las últimas horas · GPL-2.0 · última release v4.8.4 (31-ago-2026)
-• researchxxl/syncthing-android — ★3.222 (+30) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
-• bk138/droidVNC-NG — ★2.423 (+4) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v2.22.2 (29-oct-2026)
-• newhinton/Round-Sync — ★2.416 (+3) · *dormido*: sin empujar desde el 16-nov-2025 (350 días) · GPL-3.0 · última release v2.5.6 (10-sep-2024)
-• chenxiaolong/RSAF — ★1.039 (+2) · empujó el 24-oct-2026 (hace 8 días) · GPL-3.0 · última release v4.16 (24-oct-2026)
-• chenxiaolong/BasicSync — ★737 (+7) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v3.27 (25-oct-2026)
-• haiwen/seadroid — ★637 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · NOASSERTION · última release v4.0.14 (28-sep-2026)
-• iodn/android-ir-blaster — ★607 (+5) · empujó el 15-oct-2026 (hace 17 días) · GPL-3.0 · última release v3.4.6 (15-oct-2026)
-• helios57/muplay — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 18 días) · MIT · última release v0.3.0 (11-oct-2026)
-• hexadigitall/makaw — ★0 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (55 días) · sin licencia detectada por la API · última release v1.0.47 (31-ago-2026)
+• researchxxl/syncthing-android — ★3.231 (+39) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• bk138/droidVNC-NG — ★2.424 (+5) · empujó el 29-oct-2026 (hace 4 días) · GPL-2.0 · última release v2.22.2 (29-oct-2026)
+• newhinton/Round-Sync — ★2.416 (+3) · *dormido*: sin empujar desde el 16-nov-2025 (351 días) · GPL-3.0 · última release v2.5.6 (10-sep-2024)
+• chenxiaolong/RSAF — ★1.041 (+4) · empujó el 24-oct-2026 (hace 9 días) · GPL-3.0 · última release v4.16 (24-oct-2026)
+• chenxiaolong/BasicSync — ★741 (+11) · empujó el 25-oct-2026 (hace 8 días) · GPL-3.0 · última release v3.27 (25-oct-2026)
+• haiwen/seadroid — ★637 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v4.0.15 (2-nov-2026)
+• iodn/android-ir-blaster — ★608 (+6) · empujó el 15-oct-2026 (hace 18 días) · GPL-3.0 · última release v3.4.6 (15-oct-2026)
+• helios57/muplay — ★0 (sin cambio) · empujó el 14-oct-2026 (hace 19 días) · MIT · última release v0.3.0 (11-oct-2026)
+• hexadigitall/makaw — ★0 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (56 días) · sin licencia detectada por la API · última release v1.0.47 (31-ago-2026)
 • inaccurate-hotelplan289/HomeLabSetup — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 30 enlaces de esta pieza, *28 responden*.
+De los 30 enlaces de esta pieza, *24 responden*.
 
 • https://github.com/inaccurate-hotelplan289/HomeLabSetup — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/standardnotes/app — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/syncthing/syncthing — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/syncthing/syncthing-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://standardnotes.com/forum — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://standardnotes.com/h — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 4 de 5

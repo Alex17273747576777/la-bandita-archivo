@@ -1,9 +1,9 @@
 # PIEZA 17 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/17-El-taller-de-parcheo-Morphe-MicroG-RE-y-los-parches-Hush-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `49cbd11380977941559a50fff289af3ea2f98320d44f12777c8969b633facef5`
-- **Envío generado:** 2026-11-01 · 20 mensajes · el mayor de 3729 caracteres
+- **Envío generado:** 2026-11-02 · 20 mensajes · el mayor de 3729 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 - **Aviso:** la pieza original deja una valla de código sin cerrar; este envío la cierra al final del cuerpo para que se pueda leer. La pieza no se modificó.
 
@@ -21,7 +21,7 @@ Licencias de lo que recomienda: GPL-3.0 9 · Unlicense 1 · Apache-2.0 1 · MIT 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/17-El-taller-de-parcheo-Morphe-MicroG-RE-y-los-parches-Hush-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 3729 caracteres ═══
 
@@ -1122,24 +1122,24 @@ REV|986.9★ — reganam-ehprom/ppAehproM=1|REV|0.3-LPG=2|REV|03-01-6202 — reg
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1766 caracteres ═══
+═══ MENSAJE 19 de 20 · 1764 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 17*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MorpheApp/morphe-manager — ★9.824 (+135) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
-• bmax121/APatch — ★8.116 (+12) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 11282 (15-oct-2026)
-• j-hc/revanced-magisk-module — ★7.712 (+7) · empujó en las últimas horas · GPL-3.0 · última release 20221124 (1-nov-2026)
-• shiaho777/web-to-app — ★7.159 (+32) · empujó en las últimas horas · Unlicense · última release v2.8.3 (28-oct-2026)
-• MorpheApp/MicroG-RE — ★6.127 (+118) · empujó en las últimas horas · Apache-2.0 · última release 7.3.0 (31-oct-2026)
-• MeowDump/Integrity-Box — ★2.807 (+10) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v46 (29-oct-2026)
-• snake-4/Zygisk-Assistant — ★2.663 (+1) · *dormido*: sin empujar desde el 4-may-2026 (181 días) · MIT · última release v2.1.4 (23-feb-2025)
-• MMRLApp/MMRL — ★2.227 (+4) · empujó el 25-oct-2026 (hace 7 días) · GPL-3.0 · última release v34296 (8-mar-2026)
-• SysAdminDoc/HushFacebook — ★450 (+12) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
-• SysAdminDoc/HushFeed — ★343 (+18) · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
-• SysAdminDoc/Hushfacebook — ★450 · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
-• SysAdminDoc/hushfeed — ★343 · empujó en las últimas horas · GPL-3.0 · última release v0.79.0 (24-oct-2026)
+• MorpheApp/morphe-manager — ★9.854 (+165) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
+• bmax121/APatch — ★8.119 (+15) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release 11282 (15-oct-2026)
+• j-hc/revanced-magisk-module — ★7.711 (+6) · empujó en las últimas horas · GPL-3.0 · última release 20221124 (1-nov-2026)
+• shiaho777/web-to-app — ★7.163 (+36) · empujó en las últimas horas · Unlicense · última release v2.8.3 (28-oct-2026)
+• MorpheApp/MicroG-RE — ★6.141 (+132) · empujó en las últimas horas · Apache-2.0 · última release 7.3.0 (31-oct-2026)
+• MeowDump/Integrity-Box — ★2.808 (+11) · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release v46 (29-oct-2026)
+• snake-4/Zygisk-Assistant — ★2.663 (+1) · *dormido*: sin empujar desde el 4-may-2026 (182 días) · MIT · última release v2.1.4 (23-feb-2025)
+• MMRLApp/MMRL — ★2.227 (+4) · empujó el 25-oct-2026 (hace 8 días) · GPL-3.0 · última release v34296 (8-mar-2026)
+• SysAdminDoc/HushFacebook — ★457 (+19) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
+• SysAdminDoc/HushFeed — ★347 (+22) · empujó en las últimas horas · GPL-3.0 · última release v0.80.0 (2-nov-2026)
+• SysAdminDoc/Hushfacebook — ★457 · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
+• SysAdminDoc/hushfeed — ★347 · empujó en las últimas horas · GPL-3.0 · última release v0.80.0 (2-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

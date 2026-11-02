@@ -1,9 +1,9 @@
 # PIEZA 65 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/65-La-companera-del-sofa-airi-el-corazon-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `bf6e22b6302b1477ccec9e3c4356ca99beb04028bcac90c689c57f0e903ca2ee`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2738 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2738 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 853 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 2 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/65-La-companera-del-sofa-airi-el-corazon-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2738 caracteres ═══
 
@@ -72,11 +72,11 @@ REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — iria/ia-ureom=2|REV|TIM=3
 
 💓 *EL ESTADO DE HOY · pieza 65*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.573 (+334) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• moeru-ai/airi — ★50.991 (+101) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
-• paperless-ngx/paperless-ngx — ★47.518 (+215) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
+• ollama/ollama — ★185.658 (+419) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
+• moeru-ai/airi — ★51.013 (+123) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
+• paperless-ngx/paperless-ngx — ★47.564 (+261) · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

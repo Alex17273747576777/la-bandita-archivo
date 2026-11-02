@@ -1,9 +1,9 @@
 # PIEZA 26 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/26-Cajon-del-muro-privacidad-parsers-miscelaneo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `6396a271efd4c5b49eb901806de13a066b3f8423b474459a7564e1661dc17590`
-- **Envío generado:** 2026-11-01 · 6 mensajes · el mayor de 3722 caracteres
+- **Envío generado:** 2026-11-02 · 6 mensajes · el mayor de 3722 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 6 · 929 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 7 · MIT 4 · Apache-2.0 3 · sin licenc
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/26-Cajon-del-muro-privacidad-parsers-miscelaneo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 6 · 3722 caracteres ═══
 
@@ -137,39 +137,43 @@ Hay release de esta semana: **Awerkori/manga-extensoes** publicó f4a374c (2026-
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3077 caracteres ═══
+═══ MENSAJE 5 de 6 · 3551 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 26*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iptv-org/iptv — ★142.988 (+259) · empujó en las últimas horas · Unlicense
-• nexu-io/open-design — ★105.320 (+457) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
-• android/nowinandroid — ★21.993 (+10) · empujó en las últimas horas · Apache-2.0 · última release 0.1.1 (13-jul-2023)
-• JingMatrix/Vector — ★13.001 (+34) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
-• CluvexStudio/Aether — ★2.397 (+23) · empujó el 24-oct-2026 (hace 8 días) · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
-• meshtastic/Meshtastic-Android — ★1.904 (+8) · empujó en las últimas horas · GPL-3.0 · última release v2.8.3 (19-oct-2026)
-• HmnDev-Tech/shevery — ★1.560 (+33) · empujó en las últimas horas · Apache-2.0 · última release 14.6.1 (1-nov-2026)
-• NikhilKain/vyxel-apps — ★957 (+5) · empujó el 25-oct-2026 (hace 7 días) · NOASSERTION · última release v1.1.5 (25-oct-2026)
-• soul-99/SU_IMD — ★526 (+18) · empujó el 8-oct-2026 (hace 24 días) · GPL-3.0 · última release v3 (3-sep-2026)
-• Nayjest/Gito — ★459 (+3) · empujó el 1-oct-2026 (hace 31 días) · MIT · última release v4.5.0 (5-sep-2026)
-• winhub-emu/winhub — ★440 (sin cambio) · empujó el 6-oct-2026 (hace 26 días) · MIT · última release yesysyeysys (6-oct-2026)
+• iptv-org/iptv — ★143.054 (+325) · empujó en las últimas horas · Unlicense
+• nexu-io/open-design — ★105.460 (+597) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
+• android/nowinandroid — ★21.995 (+12) · empujó en las últimas horas · Apache-2.0 · última release 0.1.1 (13-jul-2023)
+• JingMatrix/Vector — ★13.008 (+41) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
+• CluvexStudio/Aether — ★2.403 (+29) · empujó el 24-oct-2026 (hace 9 días) · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
+• meshtastic/Meshtastic-Android — ★1.905 (+9) · empujó en las últimas horas · GPL-3.0 · última release v2.8.3 (19-oct-2026)
+• HmnDev-Tech/shevery — ★1.574 (+47) · empujó en las últimas horas · Apache-2.0 · última release 14.6.1 (1-nov-2026)
+• NikhilKain/vyxel-apps — ★956 (+4) · empujó el 25-oct-2026 (hace 8 días) · NOASSERTION · última release v1.1.5 (25-oct-2026)
+• soul-99/SU_IMD — ★528 (+20) · empujó el 8-oct-2026 (hace 25 días) · GPL-3.0 · última release v3 (3-sep-2026)
+• Nayjest/Gito — ★459 (+3) · empujó el 1-oct-2026 (hace 32 días) · MIT · última release v4.5.0 (5-sep-2026)
+• winhub-emu/winhub — ★440 (sin cambio) · empujó el 6-oct-2026 (hace 27 días) · MIT · última release yesysyeysys (6-oct-2026)
 • openflocon/Flocon — ★378 (sin cambio) · empujó en las últimas horas · MIT · última release 1.10.0 (18-oct-2026)
 • wizdom13/WizeStream — ★391 (+13) · empujó en las últimas horas · GPL-3.0 · última release v1.36.0 (30-oct-2026)
-• openAnimeFlow/AnimeFlow — ★345 (+30) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.6 (26-oct-2026)
-• mojuru/cursed-manga-repo — ★175 (+1) · empujó el 12-oct-2026 (hace 20 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
-• alienware377/RootlessViPER4Android — ★108 (+6) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.4.0 (29-oct-2026)
-• manuelsiuro/GZDoom-Android-2026 — ★35 (sin cambio) · *dormido*: sin empujar desde el 30-jun-2026 (124 días) · GPL-2.0
-• weekanya/Booru — ★20 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release 6.1 (11-oct-2026)
-• qingzhuo-cn/boorunova — ★7 (+1) · empujó el 10-oct-2026 (hace 22 días) · MIT · última release v1.8.6 (4-oct-2026)
-• Awerkori/manga-extensoes — ★4 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API · última release 4bdbce5 (31-oct-2026)
-• barbosaglibby41-sys/Suicang-EH — ★1 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (71 días) · sin licencia detectada por la API · última release v0.2.0-suicang-stable (22-ago-2026)
-• Fullm3t41/SyncDroid-Mesh — ★1 (sin cambio) · empujó el 6-oct-2026 (hace 26 días) · GPL-3.0 · última release v1.2.14 (3-oct-2026)
+• openAnimeFlow/AnimeFlow — ★381 (+66) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.6 (26-oct-2026)
+• mojuru/cursed-manga-repo — ★175 (+1) · empujó el 12-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
+• alienware377/RootlessViPER4Android — ★108 (+6) · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release v4.4.0 (29-oct-2026)
+• manuelsiuro/GZDoom-Android-2026 — ★35 (sin cambio) · *dormido*: sin empujar desde el 30-jun-2026 (125 días) · GPL-2.0
+• weekanya/Booru — ★20 (sin cambio) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release 6.1 (11-oct-2026)
+• qingzhuo-cn/boorunova — ★7 (+1) · empujó el 10-oct-2026 (hace 23 días) · MIT · última release v1.8.6 (4-oct-2026)
+• Awerkori/manga-extensoes — ★4 (sin cambio) · empujó el 31-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release 4bdbce5 (31-oct-2026)
+• barbosaglibby41-sys/Suicang-EH — ★1 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (72 días) · sin licencia detectada por la API · última release v0.2.0-suicang-stable (22-ago-2026)
+• Fullm3t41/SyncDroid-Mesh — ★1 (sin cambio) · empujó el 6-oct-2026 (hace 27 días) · GPL-3.0 · última release v1.2.14 (3-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 37 enlaces de esta pieza, *37 responden*.
-Ninguno roto.
+De los 37 enlaces de esta pieza, *33 responden*.
+
+• https://github.com/qingzhuo-cn/boorunova — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/soul-99/SU_IMD — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/winhub-emu/winhub — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/wizdom13/WizeStream — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 4 de 5
 

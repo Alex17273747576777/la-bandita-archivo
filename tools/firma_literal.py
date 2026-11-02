@@ -75,12 +75,20 @@ def revisar(p: Path) -> list[str]:
         fallos.append("no hay bloque de medición del corte")
     elif not re.search(r"\d{1,2}:\d{2}", linea.group(1)):
         fallos.append("la medición del corte no dice la hora")
-    if "1 de noviembre de 2026" not in t and "(1-nov" not in t:
-        fallos.append("la pieza no está fechada el día de la casa")
-    dia = re.search(r"\((?:1|2|3|4|5|6|7|8|9|1\d|2\d|3[01])-(?:"
-                    + "|".join(MESES) + r")\)", t)
-    if not dia:
-        fallos.append("ninguna nota del corte lleva fecha del día de la casa")
+    # 4 · el día de la casa: la fecha larga de la cabecera y al menos una nota fechada
+    #     con ESE día. Antes estaba clavado el 1 de noviembre; clavarlo obliga a editar
+    #     el testigo cada día, que es la clase de trampa que este archivo no se permite.
+    cabecera = re.search(r"(\d{1,2}) de (" + "|".join(MESES) + r")[a-z]* de (\d{4})",
+                         t[:1500])
+    if not cabecera:
+        fallos.append("la cabecera no trae fecha larga del día de la casa")
+        return fallos
+    dia_num, mes, anio = cabecera.group(1), cabecera.group(2), cabecera.group(3)
+    sello = f"({dia_num}-{mes})"
+    if sello not in t:
+        fallos.append(f"ninguna nota del corte lleva fecha del día de la casa {sello}")
+    if anio not in t:
+        fallos.append("la pieza no repite el año del corte")
     return fallos
 
 

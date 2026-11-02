@@ -1,9 +1,9 @@
 # PIEZA 62 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/62-La-cara-de-la-mente-OpenWebUI-el-chat-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `739a85da94aeb6cdfba8f34cfadd9ddbeb6bafc31e51520ebbff45612623f8c1`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2415 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2415 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 855 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 1 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/62-La-cara-de-la-mente-OpenWebUI-el-chat-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2415 caracteres ═══
 
@@ -68,10 +68,10 @@ REV|)92-01-6202( 5.21.0v — iubew-nepo/iubew-nepo=1|REV|92-01-6202 — iubew-ne
 
 💓 *EL ESTADO DE HOY · pieza 62*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• open-webui/open-webui — ★157.467 (+295) · empujó en las últimas horas · NOASSERTION · última release v0.12.5 (29-oct-2026)
-• ChatGPTNextWeb/NextChat — ★88.930 (+12) · empujó el 20-oct-2026 (hace 12 días) · MIT · última release v2.16.1 (29-jul-2025)
+• open-webui/open-webui — ★157.531 (+359) · empujó en las últimas horas · NOASSERTION · última release v0.12.5 (29-oct-2026)
+• ChatGPTNextWeb/NextChat — ★88.938 (+20) · empujó el 20-oct-2026 (hace 13 días) · MIT · última release v2.16.1 (29-jul-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

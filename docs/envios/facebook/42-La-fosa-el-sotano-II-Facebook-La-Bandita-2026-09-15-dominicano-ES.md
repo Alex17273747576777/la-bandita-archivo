@@ -1,9 +1,9 @@
 # PIEZA 42 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/42-La-fosa-el-sotano-II-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `e0f24bc64979cdec7f10782b275f9dcc146d45fea8ace95906eb5f43bc488695`
-- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3638 caracteres
+- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3638 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 876 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 6 · MIT 3 · GPL-3.0 2 · GPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/42-La-fosa-el-sotano-II-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3638 caracteres ═══
 
@@ -100,32 +100,33 @@ Hay release de esta semana: **jeryjs/TachiyomiSY-with-discord-RPC** publicó pre
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2211 caracteres ═══
+═══ MENSAJE 4 de 5 · 2323 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 42*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • jobobby04/TachiyomiSY — ★4.200 (+4) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• stumpapp/stump — ★2.763 (+3) · empujó en las últimas horas · MIT · última release v0.1.12 (1-nov-2026)
-• xgi/houdoku — ★1.119 (sin cambio) · *dormido*: sin empujar desde el 17-ene-2025 (653 días) · MIT · última release v2.16.0 (17-dic-2024)
-• maforget/ComicRackCE — ★758 (+2) · empujó el 23-oct-2026 (hace 9 días) · GPL-2.0 · última release nightly (17-ene-2024)
-• az4521/TachiyomiAZ — ★735 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · NOASSERTION · última release v8.9.1-AZ (14-ago-2026)
+• stumpapp/stump — ★2.766 (+6) · empujó en las últimas horas · MIT · última release v0.1.12 (1-nov-2026)
+• xgi/houdoku — ★1.119 (sin cambio) · *dormido*: sin empujar desde el 17-ene-2025 (654 días) · MIT · última release v2.16.0 (17-dic-2024)
+• maforget/ComicRackCE — ★758 (+2) · empujó el 23-oct-2026 (hace 10 días) · GPL-2.0 · última release nightly (17-ene-2024)
+• az4521/TachiyomiAZ — ★735 (sin cambio) · empujó el 25-oct-2026 (hace 8 días) · NOASSERTION · última release v8.9.1-AZ (14-ago-2026)
 • K3vinb5/unyo-app — ★672 (+3) · empujó en las últimas horas · BSD-3-Clause
-• sweetbbak/toru — ★387 (sin cambio) · *dormido*: sin empujar desde el 24-oct-2024 (738 días) · MIT · última release v0.3.3 (24-oct-2024)
-• NerdNumber9/TachiyomiEH — ★343 (sin cambio) · *dormido*: sin empujar desde el 5-nov-2022 (1457 días) · Apache-2.0 · última release v8.4.5-EH (13-ago-2019) · *ARCHIVADO*
-• akitaonrails/FrankYomik — ★215 (+1) · empujó el 27-oct-2026 (hace 5 días) · AGPL-3.0 · última release v2.0.4 (27-oct-2026)
-• moku-project/Moku — ★191 (+1) · empujó el 24-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.14.1 (24-oct-2026)
-• Aatricks/Emaki — ★26 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release V0.6.1 (4-sep-2026)
-• jeryjs/TachiyomiSY-with-discord-RPC — ★9 (sin cambio) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release preview-45 (28-oct-2026)
-• petalya/Yomiko — ★8 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release 1.8.1 (25-sep-2025)
-• Darkdk3/Koware — ★3 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release r8895 (31-oct-2026)
-• bijimathew/Dorado — ★1 (sin cambio) · empujó el 12-oct-2026 (hace 20 días) · GPL-3.0 · última release v10.1.3 (22-jun-2026)
+• sweetbbak/toru — ★387 (sin cambio) · *dormido*: sin empujar desde el 24-oct-2024 (739 días) · MIT · última release v0.3.3 (24-oct-2024)
+• NerdNumber9/TachiyomiEH — ★343 (sin cambio) · *dormido*: sin empujar desde el 5-nov-2022 (1458 días) · Apache-2.0 · última release v8.4.5-EH (13-ago-2019) · *ARCHIVADO*
+• akitaonrails/FrankYomik — ★215 (+1) · empujó en las últimas horas · AGPL-3.0 · última release v2.0.4 (27-oct-2026)
+• moku-project/Moku — ★191 (+1) · empujó el 24-oct-2026 (hace 9 días) · Apache-2.0 · última release v0.14.1 (24-oct-2026)
+• Aatricks/Emaki — ★26 (sin cambio) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release V0.6.1 (4-sep-2026)
+• jeryjs/TachiyomiSY-with-discord-RPC — ★9 (sin cambio) · empujó el 28-oct-2026 (hace 5 días) · Apache-2.0 · última release preview-45 (28-oct-2026)
+• petalya/Yomiko — ★8 (sin cambio) · empujó el 30-oct-2026 (hace 3 días) · Apache-2.0 · última release 1.8.1 (25-sep-2025)
+• Darkdk3/Koware — ★3 (sin cambio) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release r8895 (31-oct-2026)
+• bijimathew/Dorado — ★1 (sin cambio) · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0 · última release v10.1.3 (22-jun-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *19 responden*.
-Ninguno roto.
+De los 19 enlaces de esta pieza, *18 responden*.
+
+• https://github.com/stumpapp/stump — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

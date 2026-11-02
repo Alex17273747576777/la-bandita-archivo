@@ -1,9 +1,9 @@
 # PIEZA 85 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/85-Pixel-en-mano-PixelXpert-el-taller-que-le-devuelve-la-mano-al-dueno-del-Pixel-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `0411be9d722e88434cc56a1bef48600d2a009abf219dee3ff7388acbd8a82180`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1711 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1711 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 866 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/85-Pixel-en-mano-PixelXpert-el-taller-que-le-devuelve-la-mano-al-dueno-del-Pixel-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1711 caracteres ═══
 
@@ -64,9 +64,9 @@ REV|)71-21-5202( 1.1.5v — trepXlexiP/97hsavais=1|REV|044.2★ — trepXlexiP/9
 
 💓 *EL ESTADO DE HOY · pieza 85*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• siavash79/PixelXpert — ★2.441 (+1) · *dormido*: sin empujar desde el 21-jun-2026 (133 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
+• siavash79/PixelXpert — ★2.441 (+1) · *dormido*: sin empujar desde el 21-jun-2026 (134 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

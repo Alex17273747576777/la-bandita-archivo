@@ -1,9 +1,9 @@
 # PIEZA 69 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/69-La-vara-de-las-forjas-I-gitlab-y-codeberg-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `fb06fe4a0dd2fed8f09c6aa96447a1eb4db7826c26e13a4eb53d1fd4e32f9d92`
-- **Envío generado:** 2026-11-01 · 2 mensajes · el mayor de 1356 caracteres
+- **Envío generado:** 2026-11-02 · 2 mensajes · el mayor de 1356 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 2 · 825 caracteres ═══
@@ -18,7 +18,7 @@ Antes de mandártela volví a medir lo que afirma: *0 repositorios, 0 vivos*, m�
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/69-La-vara-de-las-forjas-I-gitlab-y-codeberg-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 2 · 1356 caracteres ═══
 

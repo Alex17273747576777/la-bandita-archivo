@@ -1,9 +1,9 @@
 # PIEZA 06 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según dateline; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según dateline; edad hoy: 18 días)
 - **sha256 de la pieza:** `215db3ef289827d3118fcfd8cadd4c12ae02956bd6d3564162fca0dabd80c2c6`
-- **Envío generado:** 2026-11-01 · 25 mensajes · el mayor de 3596 caracteres
+- **Envío generado:** 2026-11-02 · 25 mensajes · el mayor de 3596 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 25 · 911 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 8 · GPL-2.0 1 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 25 · 3375 caracteres ═══
 
@@ -1029,22 +1029,22 @@ REV|048.42★ — nohim/ppanohim=1|REV|0.2-ehcapA=2|REV|92-01-6202 — liateminA
 
 ⏬ sigue abajo · parte 22 de 24
 
-═══ MENSAJE 24 de 25 · 1617 caracteres ═══
+═══ MENSAJE 24 de 25 · 1608 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.941 (+101) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• aniyomiorg/aniyomi — ★7.866 (+10) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• komikku-app/komikku — ★4.966 (+10) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• mihonapp/mihon — ★24.963 (+123) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• aniyomiorg/aniyomi — ★7.865 (+9) · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• komikku-app/komikku — ★4.971 (+15) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • jobobby04/TachiyomiSY — ★4.200 (+4) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• nekomangaorg/Neko — ★2.818 (+1) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
-• komikku-app/anikku — ★1.127 (+5) · empujó el 22-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
-• syncyomi/syncyomi — ★741 (+4) · empujó el 29-oct-2026 (hace 3 días) · GPL-2.0 · última release v1.7.4 (29-oct-2026)
+• nekomangaorg/Neko — ★2.819 (+2) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• komikku-app/anikku — ★1.128 (+6) · empujó el 22-oct-2026 (hace 11 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
+• syncyomi/syncyomi — ★741 (+4) · empujó en las últimas horas · GPL-2.0 · última release v1.7.4 (29-oct-2026)
 • Animetailapp/Animetail — ★614 (+1) · empujó en las últimas horas · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)
-• jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)
-• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
+• jobobby04/TachiyomiSYPreview — ★491 (+2) · empujó el 28-oct-2026 (hace 5 días) · sin licencia detectada por la API · última release 615 (28-oct-2026)
+• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

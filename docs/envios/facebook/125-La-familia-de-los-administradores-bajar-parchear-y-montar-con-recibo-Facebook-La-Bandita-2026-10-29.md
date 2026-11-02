@@ -1,9 +1,9 @@
 # PIEZA 125 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/125-La-familia-de-los-administradores-bajar-parchear-y-montar-con-recibo-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `37e680672f2d0981a7a894fa112a653e2bf7f282e1f52a68831c1d7dfa589c47`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2707 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2707 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 916 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 3 · Unlicense 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/125-La-familia-de-los-administradores-bajar-parchear-y-montar-con-recibo-Facebook-La-Bandita-2026-10-29.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2707 caracteres ═══
 
@@ -58,21 +58,23 @@ Pulso de hoy sobre los 4 repos de la pieza: 4 vivos, 4 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 852 caracteres ═══
+═══ MENSAJE 3 de 4 · 1092 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 125*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• yt-dlp/yt-dlp — ★204.460 (+774) · empujó el 29-oct-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
-• XiaoYouChR/Ghost-Downloader-3 — ★10.601 (+100) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.4.6 (28-oct-2026)
-• Jman-Github/Universal-Patch-Manager — ★1.400 (+10) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
-• rushiranpise/lsposed-modules-manager — ★21 (+4) · empujó en las últimas horas · GPL-3.0 · última release v2.2.3 (1-nov-2026)
+• yt-dlp/yt-dlp — ★204.655 (+969) · empujó el 29-oct-2026 (hace 4 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• XiaoYouChR/Ghost-Downloader-3 — ★10.623 (+122) · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release v4.4.6 (28-oct-2026)
+• Jman-Github/Universal-Patch-Manager — ★1.402 (+12) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• rushiranpise/lsposed-modules-manager — ★22 (+5) · empujó en las últimas horas · GPL-3.0 · última release v2.2.4 (2-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 7 enlaces de esta pieza, *7 responden*.
-Ninguno roto.
+De los 7 enlaces de esta pieza, *5 responden*.
+
+• https://github.com/rushiranpise/lsposed-modules-manager — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yt-dlp/yt-dlp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 2 de 3
 

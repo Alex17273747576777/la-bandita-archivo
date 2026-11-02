@@ -1,9 +1,9 @@
 # PIEZA 23 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/23-La-sala-grande-SmartTube-CloudStream-y-la-IPTV-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `3a3d6f34b5a566bf576a66283c5cabc69955cb740f2685ee74f7a8e6bdd03f1e`
-- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3547 caracteres
+- **Envío generado:** 2026-11-02 · 16 mensajes · el mayor de 3547 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 16 · 880 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 3 · GPL-3.0 2 · AGPL-3.0 2 · GPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/23-La-sala-grande-SmartTube-CloudStream-y-la-IPTV-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 16 · 3019 caracteres ═══
 
@@ -633,20 +633,20 @@ REV|92-01-6202 — depiP/depiPmaeT=1|REV|50-21-5202 — ppa-urim/tcejorp-urim=2|
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1307 caracteres ═══
+═══ MENSAJE 15 de 16 · 1299 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 23*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 8 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 8 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jellyfin/jellyfin — ★58.898 (+111) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• yuliskov/SmartTube — ★35.817 (+101) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
-• recloudstream/cloudstream — ★11.127 (+31) · empujó el 29-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
-• TeamPiped/Piped — ★10.300 (+4) · empujó el 30-oct-2026 (hace 2 días) · AGPL-3.0
-• miru-project/miru-app — ★5.790 (+6) · *dormido*: sin empujar desde el 5-dic-2025 (331 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
-• mytv-android/mytv-android — ★2.980 (+50) · empujó en las últimas horas · MIT · última release V2.2.0.219 (21-ago-2026)
-• horsemail/yourtv — ★1.358 (+1) · *dormido*: sin empujar desde el 25-ago-2026 (68 días) · MIT · última release v2.4.3 (3-jul-2026)
-• oxyroid/M3UAndroid — ★1.285 (+1) · empujó el 20-sep-2026 (hace 42 días) · GPL-3.0 · última release v1.15.0 (29-mar-2025) · *ARCHIVADO*
+• jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• yuliskov/SmartTube — ★35.838 (+122) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• recloudstream/cloudstream — ★11.135 (+39) · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• TeamPiped/Piped — ★10.302 (+6) · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0
+• miru-project/miru-app — ★5.792 (+8) · *dormido*: sin empujar desde el 5-dic-2025 (332 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
+• mytv-android/mytv-android — ★2.986 (+56) · empujó en las últimas horas · MIT · última release V2.2.0.219 (21-ago-2026)
+• horsemail/yourtv — ★1.358 (+1) · *dormido*: sin empujar desde el 25-ago-2026 (69 días) · MIT · última release v2.4.3 (3-jul-2026)
+• oxyroid/M3UAndroid — ★1.285 (+1) · empujó el 20-sep-2026 (hace 43 días) · GPL-3.0 · última release v1.15.0 (29-mar-2025) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,9 +1,9 @@
 # PIEZA 131 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/131-La-lectura-en-tres-pantallas-Epigraph-Kodex-y-Bokumi-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `f563aaeb9e2272c833cd86393eb1a7faf2e586b0b435ce91d2ae953efec6407a`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2298 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2298 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 898 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 1 · MIT 1 · sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/131-La-lectura-en-tres-pantallas-Epigraph-Kodex-y-Bokumi-Facebook-La-Bandita-2026-10-29.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2298 caracteres ═══
 
@@ -53,14 +53,14 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 693 caracteres ═══
+═══ MENSAJE 3 de 4 · 685 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 131*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• johnnylord1/Epigraph — ★0 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release stable (14-oct-2026)
-• Demacish/kodex — ★0 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · MIT · última release v2.3.0 (30-oct-2026)
+• johnnylord1/Epigraph — ★0 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release stable (14-oct-2026)
+• Demacish/kodex — ★0 (sin cambio) · empujó el 30-oct-2026 (hace 3 días) · MIT · última release v2.3.0 (30-oct-2026)
 • devCaspian-hash/Bokumi-App — ★0 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

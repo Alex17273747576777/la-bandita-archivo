@@ -1,12 +1,12 @@
 # PIEZA 02 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-El-barrio-cambio-de-gente-el-mueble-de-los-comics-hoy-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `85d7f752826d0c4b4b7c481eb5ed9de9ceb875ab77b7dfe12842f5cf969c2ffb`
-- **Envío generado:** 2026-11-01 · 18 mensajes · el mayor de 3679 caracteres
+- **Envío generado:** 2026-11-02 · 18 mensajes · el mayor de 3703 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 18 · 769 caracteres ═══
+═══ MENSAJE 1 de 18 · 948 caracteres ═══
 
 *El barrio cambió de gente: el mueble de los cómics, contado con las fechas de hoy*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *27 repositorios, 27 vivos*, 
 
 Licencias de lo que recomienda: Apache-2.0 12 · GPL-3.0 7 · MIT 4 · AGPL-3.0 2.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-El-barrio-cambio-de-gente-el-mueble-de-los-comics-hoy-Facebook-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 18 · 2780 caracteres ═══
+═══ MENSAJE 2 de 18 · 2870 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El barrio cambió de gente: el mueble de los cómics, contado con las fechas de hoy*
 
@@ -470,44 +474,46 @@ El otro hallazgo es el que más veces se repite en las consultas: cuando el cat�
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 3469 caracteres ═══
+═══ MENSAJE 17 de 18 · 3703 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 27 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 27 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.941 (+102) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• aniyomiorg/aniyomi — ★7.866 · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• komikku-app/komikku — ★4.966 (+11) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• mihonapp/mihon — ★24.963 (+124) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• aniyomiorg/aniyomi — ★7.865 · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• komikku-app/komikku — ★4.971 (+16) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • jobobby04/TachiyomiSY — ★4.200 (+4) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• Jays2Kings/tachiyomiJ2K — ★5.399 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
-• null2264/yokai — ★1.914 (+2) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
-• KotatsuApp/Kotatsu — ★8.946 · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
-• Predidit/Kazumi — ★40.596 (+492) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
-• kodjodevf/mangayomi — ★4.289 (+17) · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• nekomangaorg/Neko — ★2.818 · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
-• Aidoku/Aidoku — ★4.687 (+12) · empujó en las últimas horas · GPL-3.0 · última release v0.9-4 (16-oct-2026)
-• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• UsagiApp/Usagi — ★288 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
-• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
-• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
-• roxycon-dev/Ciallo-Reader — ★274 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
-• gotson/komga — ★6.807 (+10) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
-• Kareadita/Kavita — ★11.990 (+19) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
-• Suwayomi/Suwayomi-Server — ★7.989 (+21) · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
-• Snd-R/Komelia — ★437 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release 0.20.0 (27-sep-2026)
-• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 42 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
-• keiyoushi/extensions — ★15.410 (+41) · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
-• yuzono/tachiyomi-extensions — ★954 · empujó en las últimas horas · Apache-2.0
-• koodo-reader/koodo-reader — ★28.688 (+21) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
-• MapoMagpie/comic-looms — ★813 · empujó el 22-oct-2026 (hace 10 días) · MIT · última release 4.16.1 (9-oct-2026)
+• Jays2Kings/tachiyomiJ2K — ★5.400 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
+• null2264/yokai — ★1.915 (+3) · empujó el 13-oct-2026 (hace 20 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
+• KotatsuApp/Kotatsu — ★8.948 · *dormido*: sin empujar desde el 4-nov-2025 (363 días) · GPL-3.0 · *ARCHIVADO*
+• Predidit/Kazumi — ★40.706 (+602) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.4.2 (23-oct-2026)
+• kodjodevf/mangayomi — ★4.295 (+23) · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
+• nekomangaorg/Neko — ★2.819 · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• Aidoku/Aidoku — ★4.688 (+13) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
+• Kototoro-app/Kototoro — ★662 (+9) · empujó en las últimas horas · Apache-2.0 · última release v2.3.6 (2-nov-2026)
+• UsagiApp/Usagi — ★289 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
+• yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 15 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
+• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• roxycon-dev/Ciallo-Reader — ★278 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
+• gotson/komga — ★6.812 (+15) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
+• Kareadita/Kavita — ★11.995 (+24) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
+• Suwayomi/Suwayomi-Server — ★7.993 (+25) · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
+• Snd-R/Komelia — ★437 · empujó en las últimas horas · Apache-2.0 · última release 0.20.0 (27-sep-2026)
+• KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 43 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
+• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
+• yuzono/tachiyomi-extensions — ★956 · empujó en las últimas horas · Apache-2.0
+• koodo-reader/koodo-reader — ★28.698 · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• MapoMagpie/comic-looms — ★816 · empujó el 22-oct-2026 (hace 11 días) · MIT · última release 4.16.1 (9-oct-2026)
 • josueBarretogit/manga-tui — ★954 · empujó en las últimas horas · MIT · última release v0.10.1 (1-nov-2026)
-• libre-tube/LibreTube — ★12.930 (+17) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
+• libre-tube/LibreTube — ★12.934 (+21) · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 27 enlaces de esta pieza, *27 responden*.
-Ninguno roto.
+De los 27 enlaces de esta pieza, *25 responden*.
+
+• https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/yuzono/tachiyomi-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 16 de 17
 

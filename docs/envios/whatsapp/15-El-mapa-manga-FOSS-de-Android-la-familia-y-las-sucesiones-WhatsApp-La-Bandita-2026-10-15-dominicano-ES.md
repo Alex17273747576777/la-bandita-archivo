@@ -1,9 +1,9 @@
 # PIEZA 15 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/15-El-mapa-manga-FOSS-de-Android-la-familia-y-las-sucesiones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `45bcaa03112d684c8866e6f08460acecf47320ce9e146b2979a6f48a3c3463e7`
-- **Envío generado:** 2026-11-01 · 21 mensajes · el mayor de 3745 caracteres
+- **Envío generado:** 2026-11-02 · 21 mensajes · el mayor de 3745 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 - **Aviso:** la pieza original deja una valla de código sin cerrar; este envío la cierra al final del cuerpo para que se pueda leer. La pieza no se modificó.
 
@@ -21,7 +21,7 @@ Licencias de lo que recomienda: Apache-2.0 9 · NOASSERTION 4 · sin licencia 2 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/15-El-mapa-manga-FOSS-de-Android-la-familia-y-las-sucesiones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 21 · 3745 caracteres ═══
 
@@ -1024,30 +1024,30 @@ REV|048.42★ — nohim/ppanohim=1|REV|)odacifirev( oper us ne ESNECIL ovihcra n
 
 ⏬ sigue abajo · parte 18 de 20
 
-═══ MENSAJE 20 de 21 · 2807 caracteres ═══
+═══ MENSAJE 20 de 21 · 2803 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.941 (+101) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• keiyoushi/extensions — ★15.410 (+41) · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
-• KotatsuApp/Kotatsu — ★8.946 (+3) · *dormido*: sin empujar desde el 4-nov-2025 (362 días) · GPL-3.0 · *ARCHIVADO*
-• aniyomiorg/aniyomi — ★7.866 (+10) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• komikku-app/komikku — ★4.966 (+10) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• keiyoushi/extensions-source — ★4.850 (+19) · empujó en las últimas horas · Apache-2.0
+• mihonapp/mihon — ★24.963 (+123) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
+• KotatsuApp/Kotatsu — ★8.948 (+5) · *dormido*: sin empujar desde el 4-nov-2025 (363 días) · GPL-3.0 · *ARCHIVADO*
+• aniyomiorg/aniyomi — ★7.865 (+9) · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• komikku-app/komikku — ★4.971 (+15) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• keiyoushi/extensions-source — ★4.855 (+24) · empujó en las últimas horas · Apache-2.0
 • jobobby04/TachiyomiSY — ★4.200 (+4) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • lnreader/lnreader — ★2.948 (+6) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
-• nekomangaorg/Neko — ★2.818 (+1) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
-• null2264/yokai — ★1.914 (+1) · empujó el 13-oct-2026 (hace 19 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
-• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
+• nekomangaorg/Neko — ★2.819 (+2) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• null2264/yokai — ★1.915 (+2) · empujó el 13-oct-2026 (hace 20 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
+• Kototoro-app/Kototoro — ★662 (+9) · empujó en las últimas horas · Apache-2.0 · última release v2.3.6 (2-nov-2026)
 • aayush2622/Dartotsu — ★550 (+5) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
-• itsmechinmoy/dantotsu-updater — ★155 (+1) · empujó en las últimas horas · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
-• AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (75 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
+• itsmechinmoy/dantotsu-updater — ★157 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
+• AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (76 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
 • itsmechinmoy/Dantotsu — ★92 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
-• Noirero/Miyorare — ★20 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.4.16 (29-oct-2026)
-• Nahiro18/Kiroku — ★16 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v1.1.96 (16-oct-2026)
-• Wammy-app/Wammy — ★13 (sin cambio) · empujó el 25-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.1.4 (25-oct-2026)
+• Noirero/Miyorare — ★20 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.4.17 (2-nov-2026)
+• Nahiro18/Kiroku — ★16 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v1.1.97 (2-nov-2026)
+• Wammy-app/Wammy — ★13 (sin cambio) · empujó el 25-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.1.4 (25-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

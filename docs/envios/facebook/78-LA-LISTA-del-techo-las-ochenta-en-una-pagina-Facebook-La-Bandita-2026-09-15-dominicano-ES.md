@@ -1,9 +1,9 @@
 # PIEZA 78 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `437e23490b8b384e1bb35ede69ba39d22daba63a10b443dc695224e10ea4e988`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1274 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1274 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 866 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/78-LA-LISTA-del-techo-las-ochenta-en-una-pagina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1274 caracteres ═══
 
@@ -50,9 +50,9 @@ Hay release de esta semana: **jellyfin/jellyfin** publicó v12.4 (2026-10-26). C
 
 💓 *EL ESTADO DE HOY · pieza 78*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jellyfin/jellyfin — ★58.898 (+111) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

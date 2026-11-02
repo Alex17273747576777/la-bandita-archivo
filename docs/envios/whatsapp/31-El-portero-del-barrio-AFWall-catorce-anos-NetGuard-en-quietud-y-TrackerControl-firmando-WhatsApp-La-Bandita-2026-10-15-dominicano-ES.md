@@ -1,9 +1,9 @@
 # PIEZA 31 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/31-El-portero-del-barrio-AFWall-catorce-anos-NetGuard-en-quietud-y-TrackerControl-firmando-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `c44452ea2f698d32ccff15e4f3c4209b85c4a4347c3f45f4d7b4182ae349b3b5`
-- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3655 caracteres
+- **Envío generado:** 2026-11-02 · 16 mensajes · el mayor de 3655 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 16 · 885 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/31-El-portero-del-barrio-AFWall-catorce-anos-NetGuard-en-quietud-y-TrackerControl-firmando-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 16 · 2701 caracteres ═══
 
@@ -620,16 +620,16 @@ REV|92-01-6202 — liamEriaF/B66M=1|REV|0.3-LPG=2|REV|937.4★ — liamEriaF/B66
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 829 caracteres ═══
+═══ MENSAJE 15 de 16 · 828 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 31*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• M66B/FairEmail — ★4.745 (+6) · empujó en las últimas horas · GPL-3.0 · última release 1.2339 (24-oct-2026)
-• M66B/NetGuard — ★3.955 (+6) · *dormido*: sin empujar desde el 1-ago-2026 (92 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
-• ukanth/afwall — ★3.515 (+2) · empujó el 17-oct-2026 (hace 15 días) · GPL-3.0 · última release v5.0.0 (12-oct-2026)
-• TrackerControl/tracker-control-android — ★2.717 (+13) · empujó en las últimas horas · GPL-3.0 · última release 2026102901 (29-oct-2026)
+• M66B/FairEmail — ★4.746 (+7) · empujó en las últimas horas · GPL-3.0 · última release 1.2339 (24-oct-2026)
+• M66B/NetGuard — ★3.957 (+8) · *dormido*: sin empujar desde el 1-ago-2026 (93 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
+• ukanth/afwall — ★3.515 (+2) · empujó el 17-oct-2026 (hace 16 días) · GPL-3.0 · última release v5.0.0 (12-oct-2026)
+• TrackerControl/tracker-control-android — ★2.718 (+14) · empujó en las últimas horas · GPL-3.0 · última release 2026110101 (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

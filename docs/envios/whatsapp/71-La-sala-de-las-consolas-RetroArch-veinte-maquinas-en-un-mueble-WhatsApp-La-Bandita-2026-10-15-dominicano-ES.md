@@ -1,9 +1,9 @@
 # PIEZA 71 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/71-La-sala-de-las-consolas-RetroArch-veinte-maquinas-en-un-mueble-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `fd000b1f88e0903c62f77839106c50c3b08910c0839edcd8df29907880d8485a`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1590 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1590 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 861 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/71-La-sala-de-las-consolas-RetroArch-veinte-maquinas-en-un-mueble-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1590 caracteres ═══
 
@@ -60,18 +60,19 @@ REV|674.41★ — hcrAorteR/orterbil=1|REV|92-01-6202 — hcrAorteR/orterbil=2|R
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 448 caracteres ═══
+═══ MENSAJE 3 de 4 · 512 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 71*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• libretro/RetroArch — ★14.507 (+31) · empujó en las últimas horas · GPL-3.0 · última release v1.22.2 (20-nov-2025)
+• libretro/RetroArch — ★14.518 (+42) · empujó en las últimas horas · GPL-3.0 · última release v1.22.2 (20-nov-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 2 enlaces de esta pieza, *2 responden*.
-Ninguno roto.
+De los 2 enlaces de esta pieza, *1 responden*.
+
+• http://www.libretro.com — 521. Error del servidor; no es culpa del enlace.
 
 ⏬ sigue abajo · parte 2 de 3
 

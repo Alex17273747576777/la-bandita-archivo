@@ -1,9 +1,9 @@
 # PIEZA 89 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/89-El-espejo-ReZygisk-el-piso-invisible-de-la-fila-root-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `aa8e0e61ea086d336551479700793d42206f17f641042a6924011a7094a01a3d`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2314 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2314 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 845 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 1 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/89-El-espejo-ReZygisk-el-piso-invisible-de-la-fila-root-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2314 caracteres ═══
 
@@ -68,10 +68,10 @@ REV|)62-01-6202( 1.6 — toor-diordna-emosewa/toor-diordna-emosewa=1|REV|82-01-6
 
 💓 *EL ESTADO DE HOY · pieza 89*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-android-root/awesome-android-root — ★5.594 (+26) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
-• PerformanC/ReZygisk — ★4.111 (+12) · empujó el 11-oct-2026 (hace 21 días) · GPL-3.0 · última release v1.0.0 (10-may-2026)
+• awesome-android-root/awesome-android-root — ★5.601 (+33) · empujó en las últimas horas · MIT · última release 6.1 (26-oct-2026)
+• PerformanC/ReZygisk — ★4.112 (+13) · empujó el 11-oct-2026 (hace 22 días) · GPL-3.0 · última release v1.0.0 (10-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

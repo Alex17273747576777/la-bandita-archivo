@@ -1,9 +1,9 @@
 # PIEZA 36 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/36-Los-libros-biblioteca-de-bolsillo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `2a8c57da0a53fa083115d6bd4dd8b2b127401f09356a78be4cf22e8c1ac425de`
-- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3629 caracteres
+- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3629 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 929 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: AGPL-3.0 3 · GPL-3.0 3 · NOASSERTION 1 · Apac
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/36-Los-libros-biblioteca-de-bolsillo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3629 caracteres ═══
 
@@ -84,27 +84,29 @@ Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1578 caracteres ═══
+═══ MENSAJE 4 de 5 · 1793 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 36*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.795 (+58) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• kovidgoyal/calibre — ★26.308 (+25) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
-• readest/readest — ★25.822 (+80) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
-• foobnix/LibreraReader — ★4.987 (+11) · empujó en las últimas horas · NOASSERTION · última release 10.0.22 (1-nov-2026)
-• Pool-Of-Tears/Myne — ★1.542 (+1) · empujó el 21-sep-2026 (hace 41 días) · Apache-2.0 · última release v5.1.0 (21-ago-2026)
-• kiwix/kiwix-android — ★1.522 (+5) · empujó el 30-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.14.1 (14-may-2026)
-• Acclorite/book-story — ★1.417 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.8.0 (13-oct-2025)
-• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
-• PrivacyDragon/Bookwyrm_Android — ★38 (sin cambio) · empujó el 4-oct-2026 (hace 28 días) · BSD-3-Clause · última release v1.3.9 (13-may-2026)
+• koreader/koreader — ★30.810 (+73) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• kovidgoyal/calibre — ★26.327 (+44) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
+• readest/readest — ★25.859 (+117) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• foobnix/LibreraReader — ★4.993 (+17) · empujó en las últimas horas · NOASSERTION · última release 10.0.22 (1-nov-2026)
+• Pool-Of-Tears/Myne — ★1.543 (+2) · empujó el 21-sep-2026 (hace 42 días) · Apache-2.0 · última release v5.1.0 (21-ago-2026)
+• kiwix/kiwix-android — ★1.524 (+7) · empujó en las últimas horas · GPL-3.0 · última release v3.14.1 (14-may-2026)
+• Acclorite/book-story — ★1.418 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.8.0 (13-oct-2025)
+• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
+• PrivacyDragon/Bookwyrm_Android — ★38 (sin cambio) · empujó el 4-oct-2026 (hace 29 días) · BSD-3-Clause · última release v1.3.9 (13-may-2026)
 • pkmetski/riffle — ★18 (sin cambio) · empujó en las últimas horas · AGPL-3.0 · última release v2.45.4 (5-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *16 responden*.
-Ninguno roto.
+De los 16 enlaces de esta pieza, *14 responden*.
+
+• https://github.com/readest/readest — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

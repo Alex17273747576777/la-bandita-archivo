@@ -1,9 +1,9 @@
 # PIEZA 35 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/35-La-puerta-de-las-apps-Obtainium-Droid-ify-y-Aurora-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `65156730e619866691ec1ad3df3a6bb61945edafeeeb68ffb4e51181b0979a2c`
-- **Envío generado:** 2026-11-01 · 16 mensajes · el mayor de 3666 caracteres
+- **Envío generado:** 2026-11-02 · 16 mensajes · el mayor de 3666 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 16 · 861 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 3 · AGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/35-La-puerta-de-las-apps-Obtainium-Droid-ify-y-Aurora-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 16 · 3186 caracteres ═══
 
@@ -593,16 +593,16 @@ REV|0.3-LPG=1|REV|937.03★ — redaerok/redaerok=2|REV|92-01-6202 — redaerok/
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 782 caracteres ═══
+═══ MENSAJE 15 de 16 · 783 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 35*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.795 (+56) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• ImranR98/Obtainium — ★21.122 (+97) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• Droid-ify/client — ★7.679 (+16) · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• whyorean/AuroraStore — ★3.218 (+20) · empujó en las últimas horas · GPL-3.0
+• koreader/koreader — ★30.810 (+71) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• ImranR98/Obtainium — ★21.144 (+119) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• Droid-ify/client — ★7.686 (+23) · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• whyorean/AuroraStore — ★3.221 (+23) · empujó en las últimas horas · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

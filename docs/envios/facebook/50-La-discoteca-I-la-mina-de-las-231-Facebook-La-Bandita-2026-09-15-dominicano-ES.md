@@ -1,9 +1,9 @@
 # PIEZA 50 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/50-La-discoteca-I-la-mina-de-las-231-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `23b7528c92e859708a043a1c6487dc7694e27a89950d7b1beca7e008b227824f`
-- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3754 caracteres
+- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3754 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 909 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 8 · NOASSERTION 2 · sin licencia 2 · 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/50-La-discoteca-I-la-mina-de-las-231-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3754 caracteres ═══
 
@@ -96,32 +96,34 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2081 caracteres ═══
+═══ MENSAJE 4 de 5 · 2320 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 50*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• kushagrasinghx/BitChord — ★5.147 (+293) · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
-• brahmkshatriya/echo — ★3.608 (+4) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION
-• Flow-Tube/Flow — ★3.245 (+82) · empujó en las últimas horas · GPL-3.0 · última release v3.0.0 (17-oct-2026)
-• lovegaoshi/azusa-player-mobile — ★1.389 (+1) · empujó el 28-oct-2026 (hace 4 días) · AGPL-3.0 · última release v4.4.0 (28-oct-2026)
-• AudileTeam/Audile — ★1.388 (+7) · empujó en las últimas horas · GPL-3.0 · última release v1.19.0 (5-oct-2026)
-• shub39/Rush — ★1.045 (+1) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release 7.2.0 (28-oct-2026)
+• kushagrasinghx/BitChord — ★5.250 (+396) · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
+• brahmkshatriya/echo — ★3.607 (+3) · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION
+• Flow-Tube/Flow — ★3.261 (+98) · empujó en las últimas horas · GPL-3.0 · última release v3.0.0 (17-oct-2026)
+• lovegaoshi/azusa-player-mobile — ★1.390 (+2) · empujó en las últimas horas · AGPL-3.0 · última release v4.4.0 (28-oct-2026)
+• AudileTeam/Audile — ★1.390 (+9) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.19.0 (5-oct-2026)
+• shub39/Rush — ★1.045 (+1) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release 7.2.0 (28-oct-2026)
 • GrakovNe/lissen-android — ★749 (sin cambio) · empujó en las últimas horas · MIT · última release 1.12.16-release (27-oct-2026)
-• Leonidius20/RecordingStudio — ★175 (+1) · empujó el 2-oct-2026 (hace 30 días) · GPL-3.0 · última release v0.2.1 (15-sep-2026)
-• recloudstream/extensions — ★143 (+1) · *dormido*: sin empujar desde el 22-may-2026 (163 días) · sin licencia detectada por la API
+• Leonidius20/RecordingStudio — ★175 (+1) · empujó el 2-oct-2026 (hace 31 días) · GPL-3.0 · última release v0.2.1 (15-sep-2026)
+• recloudstream/extensions — ★143 (+1) · *dormido*: sin empujar desde el 22-may-2026 (164 días) · sin licencia detectada por la API
 • 23rd/Scrib — ★94 (+2) · empujó en las últimas horas · GPL-3.0 · última release latest (21-jul-2026)
-• bitplane/Microphone — ★55 (sin cambio) · *dormido*: sin empujar desde el 6-ene-2026 (299 días) · sin licencia detectada por la API
-• Diffechento/MetroMusic — ★25 (+2) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.6 (26-oct-2026)
-• AlanHuang99/resonance — ★17 (sin cambio) · empujó el 27-oct-2026 (hace 5 días) · GPL-3.0 · última release v0.8.1 (27-oct-2026)
-• futonapp/futon — ★0 (sin cambio) · *dormido*: sin empujar desde el 30-abr-2016 (3837 días) · NOASSERTION
+• bitplane/Microphone — ★55 (sin cambio) · *dormido*: sin empujar desde el 6-ene-2026 (300 días) · sin licencia detectada por la API
+• Diffechento/MetroMusic — ★25 (+2) · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.6 (26-oct-2026)
+• AlanHuang99/resonance — ★17 (sin cambio) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release v0.8.1 (27-oct-2026)
+• futonapp/futon — ★0 (sin cambio) · *dormido*: sin empujar desde el 30-abr-2016 (3838 días) · NOASSERTION
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *18 responden*.
+De los 19 enlaces de esta pieza, *16 responden*.
 
 • http://bitplane.net/projects/android/microphone/ — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/recloudstream/extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/shub39/Rush — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -1,9 +1,9 @@
 # PIEZA 94 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/94-El-termostato-ACC-la-corriente-que-se-gobierna-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `01a18362bcdd304adb97a3ba0e47a8dc4e8c52189e6657161d7dc1ef4f61811c`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1241 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1241 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 856 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/94-El-termostato-ACC-la-corriente-que-se-gobierna-Facebook-La-Bandita-2026-10-29.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1241 caracteres ═══
 
@@ -50,10 +50,10 @@ El grupo respira despacio; su empuje más reciente, **VR-25/acc**, fue hace 512 
 
 💓 *EL ESTADO DE HOY · pieza 94*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• VR-25/acc — ★2.433 (+2) · *dormido*: sin empujar desde el 6-jun-2025 (513 días) · GPL-3.0 · última release v2023.10.16 (16-oct-2023)
-• Magisk-Modules-Repo/acc — ★361 · *dormido*: sin empujar desde el 16-oct-2023 (1112 días) · GPL-3.0
+• VR-25/acc — ★2.434 (+3) · *dormido*: sin empujar desde el 6-jun-2025 (514 días) · GPL-3.0 · última release v2023.10.16 (16-oct-2023)
+• Magisk-Modules-Repo/acc — ★361 · *dormido*: sin empujar desde el 16-oct-2023 (1113 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

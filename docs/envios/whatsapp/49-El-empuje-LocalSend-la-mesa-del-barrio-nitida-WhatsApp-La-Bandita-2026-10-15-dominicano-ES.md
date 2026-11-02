@@ -1,9 +1,9 @@
 # PIEZA 49 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/49-El-empuje-LocalSend-la-mesa-del-barrio-nitida-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `662173b0bcc3e6a09d2c00a66974f1e25091ab3e48035c3ca041e4e4d02d1a45`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 1573 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1573 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 833 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/49-El-empuje-LocalSend-la-mesa-del-barrio-nitida-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1573 caracteres ═══
 
@@ -64,9 +64,9 @@ REV|754.69★ — dneslacol/dneslacol=1|REV|92-01-6202 — dneslacol/dneslacol=2
 
 💓 *EL ESTADO DE HOY · pieza 49*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★96.939 (+482) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• localsend/localsend — ★97.026 (+569) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

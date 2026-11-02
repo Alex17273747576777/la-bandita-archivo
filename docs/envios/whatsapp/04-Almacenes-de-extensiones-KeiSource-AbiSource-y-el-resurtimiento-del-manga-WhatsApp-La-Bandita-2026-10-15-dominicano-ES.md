@@ -1,9 +1,9 @@
 # PIEZA 04 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `f94454d50db70d04c247e3c6dd89057c75443aaa60cb22477daabee847fad8f9`
-- **Envío generado:** 2026-11-01 · 28 mensajes · el mayor de 3638 caracteres
+- **Envío generado:** 2026-11-02 · 28 mensajes · el mayor de 3638 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 28 · 943 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: sin licencia 3 · Apache-2.0 3.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 28 · 2971 caracteres ═══
 
@@ -785,18 +785,18 @@ REV|273.51★ — snoisnetxe/ihsuoyiek=1|REV|0.2-ehcapA=2|REV|92-01-6202 — ope
 
 ⏬ sigue abajo · parte 25 de 27
 
-═══ MENSAJE 27 de 28 · 1050 caracteres ═══
+═══ MENSAJE 27 de 28 · 1051 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.410 (+41) · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
-• keiyoushi/extensions-source — ★4.850 (+19) · empujó en las últimas horas · Apache-2.0
-• LittleSurvival/copymanga-copy20 — ★2.986 (+14) · empujó el 11-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
+• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
+• keiyoushi/extensions-source — ★4.855 (+24) · empujó en las últimas horas · Apache-2.0
+• LittleSurvival/copymanga-copy20 — ★2.990 (+18) · empujó el 11-oct-2026 (hace 22 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • yuzono/anime-extensions — ★527 (+5) · empujó en las últimas horas · Apache-2.0
-• cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f3291a9 (31-oct-2026)
-• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
+• cuong-tran/manga-repo — ★465 (+3) · empujó en las últimas horas · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
+• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 44 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,9 +1,9 @@
 # PIEZA 09 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/09-Herramientas-FOSS-caja-de-oficio-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 17 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
 - **sha256 de la pieza:** `fec5f040aadf2ebbe682029bff148b8c292806530b2ec4372996f4c8c751efc9`
-- **Envío generado:** 2026-11-01 · 23 mensajes · el mayor de 3716 caracteres
+- **Envío generado:** 2026-11-02 · 23 mensajes · el mayor de 3716 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 23 · 886 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 9 · NOASSERTION 4 · Apache-2.0 2 · MP
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/09-Herramientas-FOSS-caja-de-oficio-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 23 · 3716 caracteres ═══
 
@@ -890,28 +890,28 @@ REV|0.2-LPM=1|REV|03-01-6202 — spamcinagro/spamcinagro=2|REV|984.69★ — dne
 
 ⏬ sigue abajo · parte 20 de 22
 
-═══ MENSAJE 22 de 23 · 2436 caracteres ═══
+═══ MENSAJE 22 de 23 · 2438 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★96.939 (+482) · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• syncthing/syncthing — ★89.982 (+109) · empujó el 29-oct-2026 (hace 3 días) · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• termux/termux-app — ★63.895 (+219) · empujó el 26-sep-2026 (hace 36 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• RikkaApps/Shizuku — ★32.598 (+214) · *dormido*: sin empujar desde el 18-jun-2025 (501 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• ImranR98/Obtainium — ★21.122 (+97) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• organicmaps/organicmaps — ★15.845 (+29) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
-• beemdevelopment/Aegis — ★13.443 (+29) · *dormido*: sin empujar desde el 6-sep-2026 (56 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• MuntashirAkon/AppManager — ★9.402 (+32) · empujó el 30-oct-2026 (hace 2 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• Kunzisoft/KeePassDX — ★7.584 (+19) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
-• TeamAmaze/AmazeFileManager — ★6.451 (+3) · empujó en las últimas horas · GPL-3.0 · última release v3.11.4 (15-oct-2026)
-• FossifyOrg/Gallery — ★3.873 (+12) · empujó en las últimas horas · GPL-3.0 · última release 1.14.1 (24-oct-2026)
-• guardianproject/orbot-android — ★3.666 (+5) · empujó el 26-oct-2026 (hace 6 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
-• FossifyOrg/Calendar — ★2.264 (+9) · empujó en las últimas horas · GPL-3.0 · última release 1.12.1 (24-oct-2026)
-• FossifyOrg/File-Manager — ★1.847 (+2) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (24-oct-2026)
-• FossifyOrg/Phone — ★1.397 (+3) · empujó en las últimas horas · GPL-3.0 · última release 1.11.1 (3-feb-2026)
-• FossifyOrg/Clock — ★718 (+3) · empujó en las últimas horas · GPL-3.0 · última release 1.6.0 (30-ene-2026)
+• localsend/localsend — ★97.026 (+569) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• termux/termux-app — ★63.951 (+275) · empujó el 26-sep-2026 (hace 37 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• RikkaApps/Shizuku — ★32.638 (+254) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• ImranR98/Obtainium — ★21.144 (+119) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• organicmaps/organicmaps — ★15.855 (+39) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
+• beemdevelopment/Aegis — ★13.448 (+34) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• MuntashirAkon/AppManager — ★9.414 (+44) · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• Kunzisoft/KeePassDX — ★7.597 (+32) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• TeamAmaze/AmazeFileManager — ★6.451 (+3) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.11.4 (15-oct-2026)
+• FossifyOrg/Gallery — ★3.879 (+18) · empujó en las últimas horas · GPL-3.0 · última release 1.14.1 (24-oct-2026)
+• guardianproject/orbot-android — ★3.672 (+11) · empujó el 26-oct-2026 (hace 7 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
+• FossifyOrg/Calendar — ★2.263 (+8) · empujó en las últimas horas · GPL-3.0 · última release 1.12.1 (24-oct-2026)
+• FossifyOrg/File-Manager — ★1.848 (+3) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (24-oct-2026)
+• FossifyOrg/Phone — ★1.398 (+4) · empujó en las últimas horas · GPL-3.0 · última release 1.11.1 (3-feb-2026)
+• FossifyOrg/Clock — ★720 (+5) · empujó en las últimas horas · GPL-3.0 · última release 1.6.0 (30-ene-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

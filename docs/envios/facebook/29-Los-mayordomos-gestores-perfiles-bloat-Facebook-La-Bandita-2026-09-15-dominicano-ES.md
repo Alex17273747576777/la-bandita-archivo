@@ -1,9 +1,9 @@
 # PIEZA 29 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/29-Los-mayordomos-gestores-perfiles-bloat-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `65aefcbc7e7e19344db2fa218afb3b51dbe6ee488749653cc6b7513bce83b3b0`
-- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3693 caracteres
+- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3693 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 953 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 11 · Apache-2.0 2 · LGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/29-Los-mayordomos-gestores-perfiles-bloat-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3693 caracteres ═══
 
@@ -103,33 +103,34 @@ Empieza por las bajas: **risunCode/AppControl-X** (caído (404)) no contestaron 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2336 caracteres ═══
+═══ MENSAJE 4 de 5 · 2446 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 29*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• 0x192/universal-android-debloater — ★20.307 (+19) · *dormido*: sin empujar desde el 2-ago-2024 (821 días) · GPL-3.0
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.684 (+46) · empujó el 26-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.2.0 (12-ene-2026)
-• d4rken-org/sdmaid-se — ★7.950 (+28) · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.2.2-rc0 (19-oct-2026)
-• samolego/Canta — ★6.401 (+46) · empujó en las últimas horas · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
-• oasisfeng/island — ★3.993 (+5) · *dormido*: sin empujar desde el 24-abr-2025 (556 días) · Apache-2.0 · última release v6.2.1 (19-oct-2023)
-• PeterCxy/Shelter — ★3.684 (+4) · empujó el 27-sep-2026 (hace 35 días) · GPL-3.0 · última release 1.6 (29-sep-2020)
-• keymapperorg/KeyMapper — ★2.786 (+3) · empujó en las últimas horas · GPL-3.0 · última release v4.6.2 (22-oct-2026)
-• legendsayantan/ShizuTools — ★2.643 (+12) · empujó el 29-sep-2026 (hace 33 días) · GPL-3.0 · última release v1.4.6 (25-oct-2024)
-• Hamza417/Inure — ★1.984 (+4) · empujó en las últimas horas · GPL-3.0 · última release build107.3.0 (21-oct-2026)
-• bikram-agarwal/ObtainX — ★1.575 (+20) · empujó el 5-oct-2026 (hace 27 días) · GPL-3.0 · última release v2.21.0 (4-oct-2026)
-• BinTianqi/OwnDroid — ★1.445 (+3) · empujó en las últimas horas · GPL-3.0 · última release v8.4 (31-oct-2026)
-• Akylas/EnforceDoze — ★367 (+1) · *dormido*: sin empujar desde el 26-jul-2026 (98 días) · GPL-3.0 · última release v1.10.2/86 (18-abr-2026)
-• BugeStudioTeam/Buge-App-Manager — ★317 (+8) · empujó en las últimas horas · GPL-3.0 · última release AppManager13.81.143 (1-nov-2026)
-• FreezeYou/FreezeYou — ★273 (sin cambio) · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0 · última release V11.5(151) (30-may-2022)
+• 0x192/universal-android-debloater — ★20.313 (+25) · *dormido*: sin empujar desde el 2-ago-2024 (822 días) · GPL-3.0
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.692 (+54) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (12-ene-2026)
+• d4rken-org/sdmaid-se — ★7.963 (+41) · empujó en las últimas horas · GPL-3.0 · última release v2.2.2-rc0 (19-oct-2026)
+• samolego/Canta — ★6.411 (+56) · empujó el 31-oct-2026 (hace 2 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
+• oasisfeng/island — ★3.996 (+8) · *dormido*: sin empujar desde el 24-abr-2025 (557 días) · Apache-2.0 · última release v6.2.1 (19-oct-2023)
+• PeterCxy/Shelter — ★3.686 (+6) · empujó el 27-sep-2026 (hace 36 días) · GPL-3.0 · última release 1.6 (29-sep-2020)
+• keymapperorg/KeyMapper — ★2.790 (+7) · empujó en las últimas horas · GPL-3.0 · última release v4.6.2 (22-oct-2026)
+• legendsayantan/ShizuTools — ★2.644 (+13) · empujó el 29-sep-2026 (hace 34 días) · GPL-3.0 · última release v1.4.6 (25-oct-2024)
+• Hamza417/Inure — ★1.985 (+5) · empujó en las últimas horas · GPL-3.0 · última release build107.3.0 (21-oct-2026)
+• bikram-agarwal/ObtainX — ★1.585 (+30) · empujó el 5-oct-2026 (hace 28 días) · GPL-3.0 · última release v2.21.0 (4-oct-2026)
+• BinTianqi/OwnDroid — ★1.445 (+3) · empujó en las últimas horas · GPL-3.0 · última release v8.4.1 (1-nov-2026)
+• Akylas/EnforceDoze — ★367 (+1) · *dormido*: sin empujar desde el 26-jul-2026 (99 días) · GPL-3.0 · última release v1.10.2/86 (18-abr-2026)
+• BugeStudioTeam/Buge-App-Manager — ★320 (+11) · empujó en las últimas horas · GPL-3.0 · última release AppManager13.81.143 (1-nov-2026)
+• FreezeYou/FreezeYou — ★273 (sin cambio) · empujó el 30-oct-2026 (hace 3 días) · Apache-2.0 · última release V11.5(151) (30-may-2022)
 • risunCode/AppControl-X — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 26 enlaces de esta pieza, *25 responden*.
+De los 26 enlaces de esta pieza, *24 responden*.
 
 • https://github.com/risunCode/AppControl-X — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://github.com/samolego/Canta — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

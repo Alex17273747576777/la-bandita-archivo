@@ -1,9 +1,9 @@
 # PIEZA 60 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/60-El-tablero-de-la-casa-Uptime-Kuma-el-pulso-del-taller-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `1b1d6ab87509002de1909dc446d0d3771197727369c282f143c846bd52da026f`
-- **Envío generado:** 2026-11-01 · 4 mensajes · el mayor de 2207 caracteres
+- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2207 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 858 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 1 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/60-El-tablero-de-la-casa-Uptime-Kuma-el-pulso-del-taller-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2207 caracteres ═══
 
@@ -64,14 +64,14 @@ REV|)62-01-6202( 8.5.2 — amuk-emitpu/malsiuol=1|REV|0.3-LPG=2|REV|92-01-6202 �
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 561 caracteres ═══
+═══ MENSAJE 3 de 4 · 562 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 60*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• louislam/uptime-kuma — ★93.149 (+84) · empujó en las últimas horas · MIT · última release 2.5.9 (31-oct-2026)
-• gethomepage/homepage — ★33.477 (+40) · empujó en las últimas horas · GPL-3.0 · última release v2.7.0 (23-oct-2026)
+• louislam/uptime-kuma — ★93.176 (+111) · empujó en las últimas horas · MIT · última release 2.5.9 (31-oct-2026)
+• gethomepage/homepage — ★33.486 (+49) · empujó en las últimas horas · GPL-3.0 · última release v2.7.0 (23-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,9 +1,9 @@
 # PIEZA 40 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/40-El-estudio-lectores-de-escritorio-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 3 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `0ae857e2f20be6bd0794bdfc2e41a378e9960841989d046bbaa9a7a9e601f250`
-- **Envío generado:** 2026-11-01 · 5 mensajes · el mayor de 3688 caracteres
+- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3688 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 909 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 4 · GPL-3.0 4 · Apache-2.0 2 · BSD-3-Clau
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/40-El-estudio-lectores-de-escritorio-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3688 caracteres ═══
 
@@ -98,25 +98,25 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1884 caracteres ═══
+═══ MENSAJE 4 de 5 · 1876 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 40*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Anxcye/anx-reader — ★9.171 (+77) · empujó el 17-oct-2026 (hace 15 días) · MIT · última release v1.14.0 (19-mar-2026)
-• koharu-rs/koharu — ★6.565 (+26) · empujó en las últimas horas · Apache-2.0 · última release 0.83.5 (22-sep-2026)
+• Anxcye/anx-reader — ★9.174 (+80) · empujó el 17-oct-2026 (hace 16 días) · MIT · última release v1.14.0 (19-mar-2026)
+• koharu-rs/koharu — ★6.569 (+30) · empujó en las últimas horas · Apache-2.0 · última release 0.83.5 (22-sep-2026)
 • lnreader/lnreader — ★2.948 (+6) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
-• edrlab/thorium-reader — ★2.925 (+3) · empujó el 30-oct-2026 (hace 2 días) · BSD-3-Clause · última release v3.5.1 (2-sep-2026)
-• dstark5/Openlib — ★2.509 (+2) · *dormido*: sin empujar desde el 18-ene-2026 (287 días) · GPL-3.0 · última release v1.0.11 (18-ene-2026)
-• ollm/OpenComic — ★2.025 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.6.5 (31-oct-2025)
-• LagradOst/QuickNovel — ★1.878 (+1) · empujó en las últimas horas · GPL-3.0 · última release v3.8.1 (26-oct-2026)
-• YACReader/yacreader — ★1.423 (+2) · empujó en las últimas horas · GPL-3.0 · última release 10.4.0 (9-oct-2026)
+• edrlab/thorium-reader — ★2.927 (+5) · empujó en las últimas horas · BSD-3-Clause · última release v3.5.1 (2-sep-2026)
+• dstark5/Openlib — ★2.510 (+3) · *dormido*: sin empujar desde el 18-ene-2026 (288 días) · GPL-3.0 · última release v1.0.11 (18-ene-2026)
+• ollm/OpenComic — ★2.026 (+4) · empujó en las últimas horas · GPL-3.0 · última release v1.6.5 (31-oct-2025)
+• LagradOst/QuickNovel — ★1.879 (+2) · empujó en las últimas horas · GPL-3.0 · última release v3.8.1 (26-oct-2026)
+• YACReader/yacreader — ★1.424 (+3) · empujó en las últimas horas · GPL-3.0 · última release 10.4.0 (9-oct-2026)
 • dazedcat19/FMD2 — ★1.172 (+1) · empujó en las últimas horas · GPL-2.0 · última release 2.0.34.5 (17-mar-2025)
-• IReaderorg/IReader — ★982 (+2) · empujó el 28-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
-• Paperback-iOS/app — ★788 (+1) · empujó el 29-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release v0.8.11-r2 (20-may-2025)
-• mienaiyami/yomikiru — ★575 (+3) · empujó el 22-oct-2026 (hace 10 días) · MIT · última release v2.25.1 (23-oct-2026)
-• Ayowel/fork-yomikiru — ★0 (sin cambio) · *dormido*: sin empujar desde el 11-feb-2026 (263 días) · MIT
+• IReaderorg/IReader — ★982 (+2) · empujó el 28-oct-2026 (hace 5 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
+• Paperback-iOS/app — ★788 (+1) · empujó el 29-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release v0.8.11-r2 (20-may-2025)
+• mienaiyami/yomikiru — ★575 (+3) · empujó el 22-oct-2026 (hace 11 días) · MIT · última release v2.25.1 (23-oct-2026)
+• Ayowel/fork-yomikiru — ★0 (sin cambio) · *dormido*: sin empujar desde el 11-feb-2026 (264 días) · MIT
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

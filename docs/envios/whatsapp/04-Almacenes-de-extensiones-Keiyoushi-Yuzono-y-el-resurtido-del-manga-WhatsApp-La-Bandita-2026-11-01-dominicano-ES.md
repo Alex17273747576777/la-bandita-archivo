@@ -1,12 +1,12 @@
 # PIEZA 04 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Almacenes-de-extensiones-Keiyoushi-Yuzono-y-el-resurtido-del-manga-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md`
-- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `f481c50506cd9cfef858829a3a50bc4bef15a6885bce75fe65c665bc676d47e3`
-- **Envío generado:** 2026-11-01 · 27 mensajes · el mayor de 3945 caracteres
+- **Envío generado:** 2026-11-02 · 27 mensajes · el mayor de 3935 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 27 · 777 caracteres ═══
+═══ MENSAJE 1 de 27 · 956 caracteres ═══
 
 *Los almacenes de extensiones: Keiyoushi, Yuzono y el resurtido del manga*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *33 repositorios, 33 vivos*, 
 
 Licencias de lo que recomienda: Apache-2.0 20 · sin licencia 8 · GPL-3.0 2 · MIT 2.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 1-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Almacenes-de-extensiones-Keiyoushi-Yuzono-y-el-resurtido-del-manga-WhatsApp-La-Bandita-2026-11-01-dominicano-ES.md
 
-💓 1 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 27 · 2311 caracteres ═══
+═══ MENSAJE 2 de 27 · 2401 caracteres ═══
+
+[Texto del 1-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Los almacenes de extensiones: Keiyoushi, Yuzono y el resurtido del manga*
 
@@ -747,45 +751,45 @@ La pregunta útil no es «cuál es el mejor catálogo». Es «quién lo está ll
 
 ⏬ sigue abajo · parte 24 de 26
 
-═══ MENSAJE 26 de 27 · 3945 caracteres ═══
+═══ MENSAJE 26 de 27 · 3935 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
-Medí otra vez, hoy 1 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 2 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Aidoku-Community/sources — ★615 · empujó el 30-oct-2026 (hace 2 días) · Apache-2.0
-• m2k3a/mangayomi-extensions — ★113 · empujó el 29-oct-2026 (hace 3 días) · Apache-2.0
-• skepsun/kototoro-parsers — ★17 · empujó el 28-oct-2026 (hace 4 días) · GPL-3.0
-• keiyoushi/extensions-source — ★4.850 (+19) · empujó en las últimas horas · Apache-2.0
-• yuzono/tachiyomi-extensions — ★954 · empujó en las últimas horas · Apache-2.0
-• aniyomiorg/aniyomi-extensions — ★849 · *dormido*: sin empujar desde el 19-ago-2024 (804 días) · Apache-2.0 · *ARCHIVADO*
-• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 43 días) · Apache-2.0
-• beer-psi/tachiyomi-unofficial-extensions — ★53 · *dormido*: sin empujar desde el 29-ago-2026 (64 días) · Apache-2.0 · última release cuutruyen-1.4.8 (31-jul-2023)
+• Aidoku-Community/sources — ★615 · empujó en las últimas horas · Apache-2.0
+• m2k3a/mangayomi-extensions — ★114 · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0
+• skepsun/kototoro-parsers — ★17 · empujó en las últimas horas · GPL-3.0
+• keiyoushi/extensions-source — ★4.855 (+24) · empujó en las últimas horas · Apache-2.0
+• yuzono/tachiyomi-extensions — ★956 · empujó en las últimas horas · Apache-2.0
+• aniyomiorg/aniyomi-extensions — ★849 · *dormido*: sin empujar desde el 19-ago-2024 (805 días) · Apache-2.0 · *ARCHIVADO*
+• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 44 días) · Apache-2.0
+• beer-psi/tachiyomi-unofficial-extensions — ★53 · *dormido*: sin empujar desde el 29-ago-2026 (65 días) · Apache-2.0 · última release cuutruyen-1.4.8 (31-jul-2023)
 • everfio/tachiyomi-extensions — ★41 · empujó en las últimas horas · sin licencia detectada por la API
 • marbou92/MHExtensions — ★7 · empujó en las últimas horas · Apache-2.0
-• marbou92/MHRepo — ★8 · empujó en las últimas horas · Apache-2.0
-• Aidoku-Community/legacy-sources — ★706 · *dormido*: sin empujar desde el 9-sep-2026 (53 días) · Apache-2.0
-• Aidoku/aidoku-rs — ★55 · empujó el 6-oct-2026 (hace 26 días) · MIT
-• suiyuran/aidoku-zh-sources — ★906 · *dormido*: sin empujar desde el 30-mar-2026 (216 días) · sin licencia detectada por la API
+• marbou92/MHRepo — ★8 · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0
+• Aidoku-Community/legacy-sources — ★706 · *dormido*: sin empujar desde el 9-sep-2026 (54 días) · Apache-2.0
+• Aidoku/aidoku-rs — ★55 · empujó el 6-oct-2026 (hace 27 días) · MIT
+• suiyuran/aidoku-zh-sources — ★906 · *dormido*: sin empujar desde el 30-mar-2026 (217 días) · sin licencia detectada por la API
 • 0BlueYan0/aidoku-new-zh-sources — ★28 · empujó en las últimas horas · Apache-2.0
-• Smexhy/yomu-aidoku-sources — ★18 · empujó en las últimas horas · NOASSERTION
-• Moomooo95/aidoku-french-sources — ★20 · *dormido*: sin empujar desde el 14-may-2025 (536 días) · sin licencia detectada por la API
-• AlanLang/aidoku-sources — ★13 · *dormido*: sin empujar desde el 1-abr-2025 (579 días) · MIT
-• beer-psi/aidoku-ln-sources — ★11 · *dormido*: sin empujar desde el 4-ago-2022 (1550 días) · Apache-2.0
-• Nyora-Manga/nyora-ios — ★17 · *dormido*: sin empujar desde el 8-ago-2026 (85 días) · GPL-3.0 · última release v2.7.3 (5-ago-2026)
-• Torch121/yomiru-extensions — ★0 · empujó el 29-oct-2026 (hace 3 días) · sin licencia detectada por la API
-• sofikuw/anImestream-extensions — ★0 · empujó el 24-oct-2026 (hace 8 días) · sin licencia detectada por la API
-• nickEatsBread/izumi-extension-repo — ★0 · *dormido*: sin empujar desde el 3-sep-2026 (59 días) · sin licencia detectada por la API
-• mrtear/Extension-Source-Builder — ★31 · *dormido*: sin empujar desde el 12-sep-2026 (50 días) · sin licencia detectada por la API
-• SeoMavares/miwayomi — ★31 · *dormido*: sin empujar desde el 14-ago-2026 (79 días) · Apache-2.0 · última release v0.2.9 (13-ago-2026)
-• timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (223 días) · Apache-2.0 · *ARCHIVADO*
-• keiyoushi/extensions — ★15.410 (+41) · empujó en las últimas horas · sin licencia detectada por la API · última release c469cb1 (1-nov-2026)
-• kodjodevf/mangayomi — ★4.289 · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• mihonapp/mihon — ★24.941 (+101) · empujó el 26-oct-2026 (hace 6 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• komikku-app/komikku — ★4.966 (+10) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• nekomangaorg/Neko — ★2.818 (+1) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
-• Kototoro-app/Kototoro — ★660 (+7) · empujó en las últimas horas · Apache-2.0 · última release v2.3.4 (29-oct-2026)
-• aniyomiorg/aniyomi — ★7.866 (+10) · *dormido*: sin empujar desde el 14-sep-2026 (48 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• Smexhy/yomu-aidoku-sources — ★19 · empujó en las últimas horas · NOASSERTION
+• Moomooo95/aidoku-french-sources — ★20 · *dormido*: sin empujar desde el 14-may-2025 (537 días) · sin licencia detectada por la API
+• AlanLang/aidoku-sources — ★13 · *dormido*: sin empujar desde el 1-abr-2025 (580 días) · MIT
+• beer-psi/aidoku-ln-sources — ★11 · *dormido*: sin empujar desde el 4-ago-2022 (1551 días) · Apache-2.0
+• Nyora-Manga/nyora-ios — ★17 · *dormido*: sin empujar desde el 8-ago-2026 (86 días) · GPL-3.0 · última release v2.7.3 (5-ago-2026)
+• Torch121/yomiru-extensions — ★0 · empujó el 29-oct-2026 (hace 4 días) · sin licencia detectada por la API
+• sofikuw/anImestream-extensions — ★0 · empujó el 24-oct-2026 (hace 9 días) · sin licencia detectada por la API
+• nickEatsBread/izumi-extension-repo — ★0 · *dormido*: sin empujar desde el 3-sep-2026 (60 días) · sin licencia detectada por la API
+• mrtear/Extension-Source-Builder — ★31 · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · sin licencia detectada por la API
+• SeoMavares/miwayomi — ★31 · *dormido*: sin empujar desde el 14-ago-2026 (80 días) · Apache-2.0 · última release v0.2.9 (13-ago-2026)
+• timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (224 días) · Apache-2.0 · *ARCHIVADO*
+• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
+• kodjodevf/mangayomi — ★4.295 · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
+• mihonapp/mihon — ★24.963 (+123) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• komikku-app/komikku — ★4.971 (+15) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• nekomangaorg/Neko — ★2.819 (+2) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• Kototoro-app/Kototoro — ★662 (+9) · empujó en las últimas horas · Apache-2.0 · última release v2.3.6 (2-nov-2026)
+• aniyomiorg/aniyomi — ★7.865 (+9) · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
