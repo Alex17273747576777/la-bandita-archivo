@@ -622,13 +622,13 @@ REV|atnevni es on :buHtiG ed XDPS nis=1|REV|288.3★ — pukcaB-oeN/snoitacilppA
 
 ⏬ sigue abajo · parte 12 de 14
 
-═══ MENSAJE 14 de 15 · 587 caracteres ═══
+═══ MENSAJE 14 de 15 · 558 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 36*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• NeoApplications/Neo-Backup — ★3.890 (+9) · empujó el 17-oct-2026 (hace 16 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• NeoApplications/Neo-Backup — ★3.890 (sin cambio) · empujó el 17-oct-2026 (hace 16 días) · AGPL-3.0
 • seedvault-app/seedvault — ★1.877 (sin cambio) · empujó el 16-oct-2026 (hace 17 días) · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

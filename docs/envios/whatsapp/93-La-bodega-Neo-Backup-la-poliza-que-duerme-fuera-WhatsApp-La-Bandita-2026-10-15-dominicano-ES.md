@@ -68,7 +68,7 @@ REV|)82-01-6202( 31.04.0v — amallo/amallo=1|REV|932.581★ — amallo/amallo=2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 701 caracteres ═══
+═══ MENSAJE 3 de 4 · 672 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 93*
 
@@ -76,7 +76,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 • ollama/ollama — ★185.659 (+420) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
 • awesome-android-root/awesome-android-root — ★5.601 (+33) · empujó en las últimas horas · MIT · última release 6.2 (2-nov-2026)
-• NeoApplications/Neo-Backup — ★3.890 (+9) · empujó el 17-oct-2026 (hace 16 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• NeoApplications/Neo-Backup — ★3.890 (sin cambio) · empujó el 17-oct-2026 (hace 16 días) · AGPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

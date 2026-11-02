@@ -44,52 +44,52 @@
    "stars_pieza": null
   },
   "Droid-ify/client": {
-   "estado": "vivo",
-   "stars": 7686,
-   "push": "2026-09-12",
-   "archivado": false,
+   "stars": 7684,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-09-12",
    "desc": "Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client",
-   "release": "v0.7.8",
-   "release_fecha": "2026-09-12",
-   "stars_pieza": 7661
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 7684
   },
   "NeoApplications/Neo-Store": {
-   "estado": "vivo",
-   "stars": 5604,
-   "push": "2026-10-23",
-   "archivado": false,
+   "stars": 5610,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-23",
    "desc": "An F-Droid client with modern UI and an arsenal of extra features.",
-   "release": "1.3.3",
-   "release_fecha": "2026-10-23",
-   "stars_pieza": 5570
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 5610
   },
   "accrescent/accrescent": {
-   "estado": "vivo",
    "stars": 2305,
-   "push": "2026-10-31",
-   "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-02",
    "desc": "A novel Android app store focused on security, privacy, and usability",
-   "release": "0.28.1",
-   "release_fecha": "2025-11-10",
-   "stars_pieza": 2306
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 2305
   },
   "ImranR98/Obtainium": {
-   "estado": "vivo",
-   "stars": 21144,
-   "push": "2026-11-01",
-   "archivado": false,
+   "stars": 21150,
    "licencia": "GPL-3.0",
    "lenguaje": "Dart",
+   "push": "2026-11-01",
    "desc": "Get Android app updates straight from the source.",
-   "release": "v1.7.4",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": 21019
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 21150
   },
   "whyorean/AuroraStore": {
    "estado": "vivo",
@@ -140,28 +140,28 @@
    "stars_pieza": null
   },
   "RikkaApps/Shizuku": {
-   "estado": "vivo",
-   "stars": 32636,
-   "push": "2025-06-18",
-   "archivado": false,
+   "stars": 32663,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
+   "push": "2025-06-18",
    "desc": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
-   "release": "v13.6.0",
-   "release_fecha": "2025-05-25",
-   "stars_pieza": 32385
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 32663
   },
   "MuntashirAkon/AppManager": {
-   "estado": "vivo",
-   "stars": 9414,
-   "push": "2026-10-30",
-   "archivado": false,
+   "stars": 9418,
    "licencia": "NOASSERTION",
    "lenguaje": "Java",
+   "push": "2026-11-02",
    "desc": "A full-featured package manager and viewer for Android",
-   "release": "v4.1.1",
-   "release_fecha": "2026-09-04",
-   "stars_pieza": null
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 9418
   },
   "offa/android-foss": {
    "estado": "vivo",
@@ -2150,16 +2150,16 @@
    "stars_pieza": 89873
   },
   "NeoApplications/Neo-Backup": {
-   "estado": "vivo",
    "stars": 3890,
-   "push": "2026-10-17",
-   "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-10-17",
    "desc": "backup manager for android",
-   "release": "8.3.18",
-   "release_fecha": "2026-05-03",
-   "stars_pieza": 3881
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 3890
   },
   "researchxxl/syncthing-android": {
    "estado": "vivo",
@@ -4277,16 +4277,16 @@
    "stars_pieza": 3385
   },
   "0x192/universal-android-debloater": {
-   "estado": "vivo",
-   "stars": 20313,
-   "push": "2024-08-02",
-   "archivado": false,
+   "stars": 20320,
    "licencia": "GPL-3.0",
    "lenguaje": "Rust",
+   "push": "2024-08-02",
    "desc": "Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.",
-   "release": null,
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
    "release_fecha": "",
-   "stars_pieza": 20288
+   "stars_pieza": 20320
   },
   "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
    "estado": "vivo",
@@ -8352,6 +8352,30 @@
    "release": "2026.11.1",
    "release_fecha": "2026-11-02",
    "stars_pieza": 4012
+  },
+  "XayahSuSuSu/Android-DataBackup": {
+   "stars": 7552,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-10-25",
+   "desc": "DataBackup for Android 7.0+",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 7552
+  },
+  "rumboalla/apkupdater": {
+   "stars": 4061,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "push": "2026-05-28",
+   "desc": "APKUpdater is an open source tool that simplifies the process of finding updates for your installed apps.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 4061
   }
  },
  "enlaces": {

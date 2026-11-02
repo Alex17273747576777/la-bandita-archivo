@@ -93,7 +93,7 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2104 caracteres ═══
+═══ MENSAJE 4 de 5 · 2071 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 112*
 
@@ -102,7 +102,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pi
 • rustdesk/rustdesk — ★127.886 (+391) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.1 (1-nov-2026)
 • localsend/localsend — ★97.029 (+572) · empujó en las últimas horas · Apache-2.0 · última release v1.18.2 (21-ago-2026)
 • termux/termux-app — ★63.952 (+274) · empujó el 26-sep-2026 (hace 37 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• RikkaApps/Shizuku — ★32.636 (+251) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.663 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0
 • mihonapp/mihon — ★24.966 (+127) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komi-store/komi-store — ★20.248 (+158) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)

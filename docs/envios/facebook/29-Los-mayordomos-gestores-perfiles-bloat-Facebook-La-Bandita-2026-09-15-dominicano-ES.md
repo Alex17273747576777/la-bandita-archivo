@@ -103,13 +103,13 @@ Empieza por las bajas: **risunCode/AppControl-X** (caído (404)) no contestaron 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2330 caracteres ═══
+═══ MENSAJE 4 de 5 · 2337 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 29*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• 0x192/universal-android-debloater — ★20.313 (+25) · *dormido*: sin empujar desde el 2-ago-2024 (822 días) · GPL-3.0
+• 0x192/universal-android-debloater — ★20.320 (sin cambio) · *dormido*: sin empujar desde el 2-ago-2024 (822 días) · GPL-3.0
 • Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.692 (+54) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (12-ene-2026)
 • d4rken-org/sdmaid-se — ★7.963 (+41) · empujó en las últimas horas · GPL-3.0 · última release v2.2.2-rc0 (19-oct-2026)
 • samolego/Canta — ★6.410 (+55) · empujó el 31-oct-2026 (hace 2 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
