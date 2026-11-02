@@ -1816,16 +1816,16 @@
    "stars_pieza": null
   },
   "Kunzisoft/KeePassDX": {
-   "estado": "vivo",
-   "stars": 7597,
-   "push": "2026-11-01",
-   "archivado": false,
+   "stars": 7601,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-01",
    "desc": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.",
-   "release": "4.5.8",
-   "release_fecha": "2026-10-31",
-   "stars_pieza": 7565
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 7601
   },
   "PhilippC/keepass2android": {
    "estado": "vivo",
@@ -1840,28 +1840,28 @@
    "stars_pieza": null
   },
   "bitwarden/android": {
-   "estado": "vivo",
-   "stars": 9575,
-   "push": "2026-11-02",
-   "archivado": false,
+   "stars": 9577,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
+   "push": "2026-11-02",
    "desc": "Bitwarden mobile apps (Password Manager and Authenticator) for Android.",
-   "release": "v2026.10.1-bwpm",
-   "release_fecha": "2026-10-29",
-   "stars_pieza": null
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 9577
   },
   "beemdevelopment/Aegis": {
-   "estado": "vivo",
-   "stars": 13447,
-   "push": "2026-09-06",
-   "archivado": false,
+   "stars": 13448,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
+   "push": "2026-09-06",
    "desc": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
-   "release": "v3.4.3",
-   "release_fecha": "2026-09-06",
-   "stars_pieza": 13414
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 13448
   },
   "twofas/2fas-android": {
    "estado": "vivo",
@@ -3746,16 +3746,16 @@
    "stars_pieza": 5336
   },
   "dani-garcia/vaultwarden": {
-   "estado": "vivo",
-   "stars": 70101,
-   "push": "2026-11-01",
-   "archivado": false,
+   "stars": 70134,
    "licencia": "AGPL-3.0",
    "lenguaje": "Rust",
+   "push": "2026-11-02",
    "desc": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
-   "release": "1.37.5",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": 69895
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 70134
   },
   "keepassxreboot/keepassxc": {
    "estado": "vivo",
@@ -4500,6 +4500,66 @@
    "release": "",
    "release_fecha": "",
    "stars_pieza": 6876
+  },
+  "ente-io/ente": {
+   "stars": 29844,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Dart",
+   "push": "2026-11-02",
+   "desc": "💚 End-to-end encrypted cloud for everything.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 29844
+  },
+  "stratumauth/app": {
+   "stars": 4633,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C#",
+   "push": "2026-11-01",
+   "desc": "📱 Two-Factor Authentication (2FA) client for Android + Wear OS",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 4633
+  },
+  "andOTP/andOTP": {
+   "stars": 3705,
+   "licencia": "MIT",
+   "lenguaje": "Java",
+   "push": "2022-06-14",
+   "desc": "[Unmaintained] Open source two-factor authentication for Android",
+   "archivado": true,
+   "estado": "archivado",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 3705
+  },
+  "open-keychain/open-keychain": {
+   "stars": 2631,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "push": "2024-05-16",
+   "desc": "OpenKeychain is an OpenPGP implementation for Android.",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 2631
+  },
+  "freeotp/freeotp-android": {
+   "stars": 1683,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Java",
+   "push": "2026-10-27",
+   "desc": "",
+   "archivado": false,
+   "estado": "vivo",
+   "release": "",
+   "release_fecha": "",
+   "stars_pieza": 1683
   }
  },
  "enlaces": {

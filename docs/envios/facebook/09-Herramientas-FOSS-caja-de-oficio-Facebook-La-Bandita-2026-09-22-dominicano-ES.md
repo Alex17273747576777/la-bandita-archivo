@@ -90,7 +90,7 @@ Hay release de esta semana: **ImranR98/Obtainium** publicó v1.7.3 (2026-10-25).
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1640 caracteres ═══
+═══ MENSAJE 4 de 5 · 1581 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
@@ -101,9 +101,9 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 • RikkaApps/Shizuku — ★32.663 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0
 • ImranR98/Obtainium — ★21.150 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • organicmaps/organicmaps — ★15.856 (+13) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
-• beemdevelopment/Aegis — ★13.447 (+5) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• beemdevelopment/Aegis — ★13.448 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0
 • MuntashirAkon/AppManager — ★9.418 (sin cambio) · empujó en las últimas horas · NOASSERTION
-• Kunzisoft/KeePassDX — ★7.597 (+16) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• Kunzisoft/KeePassDX — ★7.601 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • TeamAmaze/AmazeFileManager — ★6.451 · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.11.4 (15-oct-2026)
 • guardianproject/orbot-android — ★3.672 (+11) · empujó el 26-oct-2026 (hace 7 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
 

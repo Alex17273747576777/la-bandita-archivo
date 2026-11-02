@@ -124,7 +124,7 @@ REV|)12-01-6202( 7.1.2v — gnihtcnys/gnihtcnys=1|REV|92-01-6202 — gnihtcnys/g
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2684 caracteres ═══
+═══ MENSAJE 4 de 5 · 2654 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 101*
 
@@ -133,7 +133,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 17 repositorios que cita esta pi
 • justjavac/free-programming-books-zh_CN — ★119.484 (+46) · *dormido*: sin empujar desde el 29-jul-2026 (96 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
 • syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • RikkaApps/Shizuku — ★32.663 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0
-• beemdevelopment/Aegis — ★13.447 (+33) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• beemdevelopment/Aegis — ★13.448 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0
 • KotatsuApp/Kotatsu — ★8.948 (+5) · *dormido*: sin empujar desde el 4-nov-2025 (363 días) · GPL-3.0 · *ARCHIVADO*
 • aniyomiorg/aniyomi — ★7.865 (+9) · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 • Droid-ify/client — ★7.684 (sin cambio) · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · GPL-3.0

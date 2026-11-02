@@ -890,7 +890,7 @@ REV|0.2-LPM=1|REV|03-01-6202 — spamcinagro/spamcinagro=2|REV|984.69★ — dne
 
 ⏬ sigue abajo · parte 20 de 22
 
-═══ MENSAJE 22 de 23 · 2328 caracteres ═══
+═══ MENSAJE 22 de 23 · 2268 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
@@ -902,9 +902,9 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pi
 • RikkaApps/Shizuku — ★32.663 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0
 • ImranR98/Obtainium — ★21.150 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • organicmaps/organicmaps — ★15.856 (+40) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
-• beemdevelopment/Aegis — ★13.447 (+33) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• beemdevelopment/Aegis — ★13.448 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0
 • MuntashirAkon/AppManager — ★9.418 (sin cambio) · empujó en las últimas horas · NOASSERTION
-• Kunzisoft/KeePassDX — ★7.597 (+32) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• Kunzisoft/KeePassDX — ★7.601 (sin cambio) · empujó en las últimas horas · GPL-3.0
 • TeamAmaze/AmazeFileManager — ★6.451 (+3) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.11.4 (15-oct-2026)
 • FossifyOrg/Gallery — ★3.879 (+18) · empujó en las últimas horas · GPL-3.0 · última release 1.14.1 (24-oct-2026)
 • guardianproject/orbot-android — ★3.672 (+11) · empujó el 26-oct-2026 (hace 7 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)

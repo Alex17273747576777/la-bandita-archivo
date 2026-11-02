@@ -9,6 +9,7 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 00 | LA LISTA: el ecosistema libre, guía por guía — el mapa entero de la bi | 26 | 3675 | 11 | 0 | sí | `00-LA-LISTA-ecosistema-libre-guia-por-guia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 01 | La puerta y el recibo — versión de WhatsApp: qué se reenvía, qué se pi | 27 | 3676 | 10 | 0 | no | `01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES` |
 | 02 | La música que no se cae — versión de WhatsApp: el inventario que nadie | 29 | 3628 | 11 | 0 | no | `02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES` |
+| 03 | La caja del bolsillo — versión de WhatsApp: la libreta que se moja, el | 29 | 3687 | 10 | 0 | no | `03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES` |
 | 04 | Almacenes de extensiones KeiSource AbiSource y el resurtimiento del ma | 28 | 3638 | 6 | 0 | sí | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 05 | TMO caida clones no iniciar sesion | 22 | 3677 | 0 | 0 | sí | `05-TMO-caida-clones-no-iniciar-sesion-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 06 | Forks lectores Mihon Aniyomi segundas generaciones | 25 | 3596 | 10 | 0 | sí | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -116,6 +117,6 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 98 | La foto III el sotano completo | 5 | 3742 | 7 | 0 | no | `98-La-foto-III-el-sotano-completo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 99 | La foto IV los jovenes del censo | 4 | 3492 | 5 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 
-**109 piezas · 1023 mensajes** · el mayor de todos: 3860 caracteres.
+**110 piezas · 1052 mensajes** · el mayor de todos: 3860 caracteres.
 
 
