@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Grabar llamadas sin root: el trabajo repartido entre Shizuku, BCR y la familia de grabadoras">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Grabar llamadas sin root: el trabajo repartido entre Shizuku, BCR y la familia de grabadoras</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Grabar llamadas sin root: el trabajo repartido entre Shizuku, BCR y la familia de grabadoras", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Grabar llamadas sin root: el trabajo repartido entre Shizuku, BCR y la familia de grabadoras</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 40,038 caracteres</p>
+<p><em>Grabar llamadas sin root: el trabajo repartido entre Shizuku, BCR y la familia de grabadoras</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 12 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🎙️ Por qué grabar una llamada es difícil en Android
+├── 🧰 Las tres familias que se reparten el trabajo
+├── 🎬 Cuatro escenas y el censo de esta tarde
+├── 🔌 Shizuku: la llave que se presta
+├── 🖥️ La mitad de escritorio
+├── 🧨 Cuando la grabación sale muda
+├── 🎧 El archivo, el espacio y la batería
+├── ⚖️ La ley, el consentimiento y los aparatos que no dejan
+├── ❓ Preguntas que me hacen
+├── 📊 Tabla, mitos y glosario
+└── 🔗 Enlaces y notas al pie
+</pre>
+<p><em>⚡ En una página</em></p>
+<p>Grabar una llamada en Android dejó de ser una función del teléfono y pasó a ser un trabajo de fontanería: alguien tiene que conseguir que el sistema entregue el audio de las dos partes, y el sistema no lo entrega por gusto. Hay tres maneras de conseguirlo y esta tarde las tres están vivas: un módulo de sistema para aparatos con root, una app que usa el permiso de depuración prestado por Shizuku y un par de apps que se apoyan en las API de accesibilidad y de captura de audio.</p>
+<p>El censo de hoy da una foto curiosa. El módulo de sistema, <em>BCR</em>, tiene ★2.958, licencia GPL-3.0 y versión v3.11 del 15 de octubre. La app que funciona con Shizuku, <em>ShizuCallRecorder</em>, tiene ★1.970, GPL-3.0 y versión v2.0.0 del 24 de octubre. Las dos nuevas que aparecieron este año, <em>AVault</em> y <em>CallVault</em>, empujaron las dos el 1 de noviembre, publicaron el 31 de octubre y suman entre las dos ★629. Y detrás de todas, <em>Shizuku</em> con ★32.594, Apache-2.0 y su último empujón en junio de 2025.</p>
+<p>La lección que sale de ahí no es «instala la que más estrellas tiene». Es que la grabación sin root vive de una llave que se presta, y esa llave tiene su propio mantenimiento, su propia fecha y su propio riesgo. Quien quiera grabar sus llamadas debería entender primero qué permiso está pidiendo y por qué el sistema lo niega por defecto.</p>
+<p>Si te llevas una idea: en Android moderno, grabar las dos partes de una llamada es posible y no es gratis. Se paga con un permiso, con una app que lo administre y con la obligación de avisar a quien está al otro lado.</p>
+<p>───────────────────</p>
+<p><em>🎙️ Por qué grabar una llamada es difícil en Android</em></p>
+<p>Cuando suena una llamada, el audio no pasa por el mismo sitio que la música. El sistema lo enruta por un camino protegido, y las apps normales no pueden leerlo: si pudieran, cualquier aplicación del teléfono podría escuchar conversaciones ajenas sin pedir permiso. Esa protección es una buena noticia disfrazada de obstáculo.</p>
+<p>Históricamente hubo dos formas de saltarla. La primera era una API oficial de grabación que muchos fabricantes incluyeron y que Google fue retirando versión tras versión, hasta dejarla inservible en casi todo lo que se vendió después de 2021. La segunda era root: con permisos de administrador se puede leer el flujo de audio y guardarlo, y de ahí viven las grabadoras de la vieja escuela.</p>
+<p>Con la API cerrada y el root cada vez menos común, quedaron tres huecos. El primero, aprovechar que el audio se puede capturar si la llamada va por altavoz: funciona, baja la calidad y obliga a gritar. El segundo, usar las API de accesibilidad para leer y manipular la interfaz del teléfono, que es lo que hacen algunas grabadoras modernas para activarse y para ganar tiempo. El tercero, pedir prestado el permiso de depuración con Shizuku, que es el que da acceso a las funciones de sistema que normalmente exigen root sin rootear el teléfono.</p>
+<p>Ninguno de los tres es magia. Los tres dependen de algo que el usuario concede, y en los tres el día que el sistema cierre esa puerta, la app se queda sin trabajo.</p>
+<p>Hay un cuarto factor que casi nadie considera: la llamada por internet. Cuando la conversación va por datos en vez de por la red telefónica, el audio sale por el altavoz del sistema y la captura cambia de reglas, a veces a favor y a veces en contra. Por eso hay teléfonos donde la grabadora funciona con la llamada normal y falla con la de la aplicación de mensajería.</p>
+<p>───────────────────</p>
+<p><em>🧰 Las tres familias que se reparten el trabajo</em></p>
+<p><em>La familia del módulo de sistema.</em> Aquí está BCR, Basic Call Recorder: un módulo que se instala en un aparato con root y que se engancha al sistema mucho antes de que las apps existan. Graba sin app visible, guarda en una carpeta y su ajuste vive en una app pequeña. Su ventaja es la calidad y la estabilidad; su precio es el root, con todo lo que eso implica para las apps que se niegan a abrir en aparatos modificados.</p>
+<p><em>La familia del permiso prestado.</em> ShizuCallRecorder es su mejor ejemplo: no necesita root, necesita Shizuku, que se arranca una vez por reinicio y presta el permiso de depuración. Con eso la app consigue lo que el sistema no le da a una app común. Su ventaja es enorme —cero modificaciones al sistema— y su precio es una ceremonia: cada vez que el teléfono arranca hay que volver a activar Shizuku, y algunas apps del sistema no se dejan manejar por ahí.</p>
+<p><em>La familia de las API de accesibilidad.</em> AVault y CallVault se presentan como grabadoras sin root y sin PC, apoyadas en lo que el sistema permite a una app con accesibilidad y captura de audio. Su ventaja es no depender de nada externo; su límite es que la calidad y la fiabilidad dependen del aparato, y ahí es donde las opiniones se dividen. Las dos empujaron el 1 de noviembre y publicaron versión el 31 de octubre: son las más nuevas del censo y las que menos historial tienen.</p>
+<p>Las tres familias conviven y no compiten del todo. Un aparato con root usa BCR y no necesita nada más; uno sin root usa ShizuCallRecorder o una de las nuevas; y quien graba en el escritorio usa bcr-gui para escuchar lo que BCR dejó en el teléfono.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cuatro escenas de teléfono</em></p>
+<p><em>El que graba por trabajo.</em> Recibe llamadas de clientes y necesitaba volver a escuchar lo pactado. Tenía un teléfono con root y usaba BCR desde hacía dos años: la grabación se hacía sola, sin abrir nada, y cada archivo llevaba número y hora. Su problema no era técnico: era que nunca avisó que grababa. Cuando un cliente lo supo, la confianza se rompió más que por la grabación, por el silencio.</p>
+<p><em>La que no quería rootear.</em> Le daba miedo modificar el arranque de un teléfono que usa para el banco. ShizuCallRecorder le resolvió el caso con una condición: cada reinicio, abrir Shizuku y darle el permiso. Lo convirtió en costumbre de la mañana, como cargar el teléfono, y en tres meses solo falló una vez, el día que reinició en el trabajo y olvidó activarlo.</p>
+<p><em>El que probó la nueva y volvió.</em> Instaló CallVault el día que salió su versión, grabó dos llamadas y notó que una salió con su voz muy baja. Volvió a la que tenía, no porque la nueva fuera mala, sino porque su teléfono es de los que no entregan bien el audio del otro lado. La conclusión que sacó es la que vale: en grabación, el aparato manda.</p>
+<p><em>La que guarda todo en el teléfono.</em> Tenía ocho gigas de grabaciones de dos años, sin nombre y sin orden. Lo que le cambió el juego no fue una app nueva: fue una regla de tres pasos con bcr-gui, que lee la carpeta del teléfono desde la computadora, ordena por fecha y permite borrar sin miedo lo que ya no necesita.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de esta tarde</em></p>
+<p><em>BCR</em>, el módulo de sistema: ★2.958, GPL-3.0, Kotlin, empujón del 15 de octubre y versión v3.11 del mismo día. Es el estándar de facto de la grabación con root y su ritmo es tranquilo: una versión cada pocos meses, sin sobresaltos.</p>
+<p><em>ShizuCallRecorder</em>, la app del permiso prestado: ★1.970, GPL-3.0, Kotlin, empujón del 30 de octubre y versión v2.0.0 del 24. Su v2 indica un cambio de fondo, no un retoque: conviene leer la nota de la release antes de actualizar, sobre todo si la versión anterior funcionaba.</p>
+<p><em>AVault</em>, la nueva con cifrado: ★445, licencia que la ficha de la forja no reconoce y que su README declara MIT, Kotlin, empujón del 1 de noviembre y versión v2.0.0 del 31 de octubre. Se presenta como grabadora sin root con cifrado por hardware; las dos licencias se publican porque las dos existen.</p>
+<p><em>CallVault</em>, la otra nueva: ★184, GPL-3.0 en la ficha y Apache-2.0 en su README, Kotlin, empujón del 1 de noviembre y versión v2.4.8 del 31 de octubre. Su descripción promete grabar los dos lados sin root ni PC, que es exactamente la promesa que hay que probar en el aparato de uno.</p>
+<p><em>bcr-gui</em>, la mitad de escritorio: ★381, GPL-3.0, TypeScript, empujón del 26 de octubre y versión v1.16.0 del 25. No graba nada: lee, ordena y reproduce lo que BCR dejó, y su utilidad crece con el número de archivos.</p>
+<p><em>Shizuku</em>, la llave: ★32.594, Apache-2.0, Kotlin, empujón del 18 de junio de 2025 y versión v13.6.0 del 25 de mayo de 2025. Lleva más de un año sin moverse y sigue siendo la pieza de la que dependen varias apps sin root; su estabilidad es su mejor argumento.</p>
+<p><em>Benojir/Android-Call-Recorder</em>, el clásico pequeño: ★54, GPL-3.0, Java, empujón del 25 de octubre, sin versión publicada. Graba en aparatos con root y sirve de recordatorio de que este ecosistema tiene piezas minúsculas y activas.</p>
+<p><em>aykuttasil/CallRecorder</em>, el dormido: ★791, MIT, Kotlin, último empujón del 18 de octubre de 2023. Tres años sin tocar y sigue teniendo más estrellas que las dos nuevas juntas: la estrella es memoria, no salud.</p>
+<p>───────────────────</p>
+<p><em>🔌 Shizuku: la llave que se presta</em></p>
+<p>Shizuku no graba llamadas. Lo que hace es arrancar un servicio con el permiso de depuración del sistema —el mismo que se activa para conectar el teléfono a una computadora— y prestarlo a las apps que saben pedírselo. Con ese permiso, una app puede hacer cosas que el sistema solo permite a root.</p>
+<p>Su cifra lo dice todo: ★32.594, Apache-2.0, último empujón del 18 de junio de 2025 y versión v13.6.0 del 25 de mayo de 2025. Un proyecto parado hace más de un año y convertido en infraestructura. Eso es posible porque lo que expone es una API del propio sistema, y mientras esa API exista, la llave sirve.</p>
+<p>La ceremonia importa más de lo que parece. Al reiniciar el teléfono el servicio muere, y hay que volver a arrancarlo con una computadora, con la depuración inalámbrica o con una app que lo haga sola. Quien no tiene computadora cerca depende de la depuración inalámbrica, que en algunos aparatos hay que volver a emparejar después de cada reinicio.</p>
+<p>Y hay un límite que se descubre tarde: algunas apps del sistema se niegan a operar bajo el permiso de Shizuku, porque comprueban el contexto en el que corren. La grabadora puede funcionar y el lector de notificaciones no, o al revés, y no hay ajuste que lo arregle.</p>
+<p>Por eso la pregunta correcta no es «¿Shizuku es seguro?» sino «¿qué apps tengo prestando ese permiso?». La respuesta se ve en la propia app de Shizuku: una lista corta, y cada nombre debería ser una decisión recordada y no un resto de instalación.</p>
+<p>───────────────────</p>
+<p><em>🖥️ La mitad de escritorio</em></p>
+<p>Hay una pieza del ecosistema que casi nunca se menciona y que arregla el problema más común de todos: escuchar lo grabado. bcr-gui tiene ★381, GPL-3.0, está escrito en TypeScript, empujó el 26 de octubre y publicó v1.16.0 el 25. No es una grabadora: es la ventana desde la computadora a la carpeta que BCR llenó de noche.</p>
+<p>Su utilidad real aparece cuando el teléfono acumula cientos de archivos. Lo que hace es leer la carpeta, ordenar por fecha y por contacto, reproducir con nombre y permitir borrar con criterio. En un teléfono con ocho gigas de grabaciones viejas, esa ventana convierte una tarea imposible en una tarde de domingo.</p>
+<p>Tiene además un efecto secundario que vale la pena: la copia. Las grabaciones que solo existen en el teléfono se pierden el día que el teléfono se cae. Un programa de escritorio que lee la carpeta invita a copiarla, y la copia es lo único que hace que una grabación sirva de algo dos años después.</p>
+<p>El límite es obvio: asume que usas BCR y que conectas el teléfono. Para las otras familias —ShizuCallRecorder, AVault, CallVault— cada app guarda en su carpeta y no hay ventana de escritorio; la copia se hace a mano, con el cable o con una sincronización cualquiera.</p>
+<p>───────────────────</p>
+<p><em>🧨 Cuando la grabación sale muda</em></p>
+<p>El fracaso más frustrante de esta categoría no es un error: es un archivo con cinco minutos de silencio. La app dijo que grabó, el archivo existe, pesa lo que debe, y al escucharlo solo está tu voz o nada. Hay cuatro causas y se comprueban en un orden fijo.</p>
+<p><strong>La primera es la ruta de audio.</strong> Algunos aparatos entregan a la app solo el micrófono y nunca el flujo de la llamada. La comprobación es sencilla: graba una llamada hablando tú y verifica si tu voz se oye. Si tu voz está y la otra no, la ruta está negada y no hay ajuste de la app que lo arregle.</p>
+<p><strong>La segunda es el altavoz.</strong> Varias grabadoras capturan bien solo cuando la llamada va por altavoz, porque el sistema entonces deja el audio sonar hacia fuera. Quien graba en privado con el teléfono en la oreja descubre que el archivo está vacío del otro lado.</p>
+<p><strong>La tercera es el momento del permiso.</strong> Con Shizuku, si el servicio murió tras un reinicio, la app arranca igual y graba sin los permisos que necesita. El resultado es un archivo mudo con toda la apariencia de estar bien.</p>
+<p><strong>La cuarta es el códec.</strong> Un archivo en un formato que el reproductor del teléfono no entiende suena a mudo sin serlo. Cambiar el formato de salida a uno común resuelve el diagnóstico en un minuto.</p>
+<p>La regla que se desprende es incómoda y cierta: hay que probar la grabadora con una llamada de prueba antes de confiar en ella para algo que importe. Y esa prueba incluye escuchar el archivo, no solo verlo en la lista.</p>
+<p>───────────────────</p>
+<p><em>🎧 El archivo, el espacio y la batería</em></p>
+<p>Una hora de llamada comprimida en un formato razonable ocupa entre veinte y sesenta megas según la calidad. Con eso se puede hacer la cuenta que casi nadie hace: quien habla dos horas al día por trabajo junta entre cuarenta y setenta gigas al año, y eso en un teléfono de 128 gigas es un tercio del almacenamiento.</p>
+<p>De ahí salen tres costumbres que ahorran disgustos. La primera, fijar una calidad media y no la máxima: la diferencia para escuchar una voz no se nota y el espacio se reduce a la mitad. La segunda, una regla de retención: las grabaciones de trabajo se guardan tres meses y las personales se borran al mes, o al revés, pero se decide una vez. La tercera, sacar las grabaciones del teléfono en un día fijo del mes, porque el teléfono es un mal archivo.</p>
+<p>La batería es el otro costo. Grabar en segundo plano con un servicio permanente consume poco durante la llamada —la pantalla está apagada y la red ya está en uso— pero el servicio en sí mantiene el aparato despierto. Los teléfonos con ahorro de energía agresivo matan ese servicio a la media hora, y esa es la causa de las grabaciones que se cortan solas.</p>
+<p>El cifrado es la tercera pieza y la que menos se mira. AVault lo anuncia como cifrado por hardware, que en la práctica significa que los archivos quedan protegidos por la clave del aparato. Suena bien y tiene una consecuencia que hay que saber: si el teléfono se pierde, los archivos se van con él, y sin respaldo no hay manera de recuperarlos. Un archivo cifrado sin copia no es un archivo: es una promesa.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley y el consentimiento</em></p>
+<p>Esta guía no da consejo jurídico y sí una regla de convivencia que vale en casi todas partes: avisa. La grabación de una conversación en la que participas tiene tratamientos distintos según el país; en unos basta con que una parte lo sepa —tú—, en otros se exige el consentimiento de todos, y en muchos el uso de la grabación posterior tiene reglas propias aunque la grabación fuera legal.</p>
+<p>Lo que cambia de verdad la práctica no es la ley, es el momento del aviso. Avisar al inicio convierte una grabación en un acuerdo; avisar después la convierte en una prueba incómoda. Y hay un tercer caso peor: no avisar nunca y que la otra persona lo descubra, que es la única situación donde la grabación puede costarte más de lo que te da.</p>
+<p>Hay dos contextos donde la regla se tensa. El primero es el trabajo con clientes: muchas empresas prohíben grabar sin autorización escrita, y el teléfono de la empresa es de la empresa. El segundo es la familia: la grabación de una discusión doméstica puede ser un instrumento legítimo de defensa y también una bomba de tiempo, y ninguna app resuelve ese juicio.</p>
+<p>La consecuencia práctica es una sola: la grabadora es una herramienta, la decisión de usarla es de quien la tiene en la mano. Y esa decisión se toma mejor con la otra persona enterada que sin ella.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Instalar y comprobar en seis pasos</em></p>
+<p><strong>Paso uno: saber si tu teléfono tiene root.</strong> Casi siempre se sabe; quien no lo sabe, no lo tiene. Si tiene root, la familia del módulo de sistema es la que mejor calidad da y la que menos ceremonia exige después.</p>
+<p><strong>Paso dos: elegir la familia.</strong> Root: BCR. Sin root y con computadora cerca de vez en cuando: ShizuCallRecorder con Shizuku. Sin root, sin computadora y con ganas de probar: AVault o CallVault, sabiendo que la calidad depende del aparato.</p>
+<p><strong>Paso tres: dar solo los permisos que la app pide y entender para qué.</strong> Micrófono, almacenamiento y, si es el caso, el permiso de depuración por Shizuku. Un permiso de accesibilidad en una grabadora se concede solo si su función lo explica.</p>
+<p><strong>Paso cuatro: una llamada de prueba real.</strong> No una nota de voz: una llamada, de dos minutos, con alguien que sepa que estás probando. Después se escucha el archivo entero.</p>
+<p><strong>Paso cinco: la ruta de los archivos.</strong> Anotar dónde guarda, con qué nombre y en qué formato. Sin ese dato, la copia mensual no existe.</p>
+<p><strong>Paso seis: decidir la retención.</strong> Cuánto tiempo se guarda, quién lo escucha y cuándo se borra. Seis pasos, media hora, y la grabadora deja de ser una promesa y pasa a ser una herramienta.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cómo se elige, en tres preguntas</em></p>
+<p>La primera pregunta es por el aparato: ¿tiene root? Con root, BCR y su ventana de escritorio; sin root, las familias del permiso prestado y de las API modernas.</p>
+<p>La segunda pregunta es por la molestia que se tolera. ShizuCallRecorder es la más fiable sin root y la que más ceremonia tiene: cada reinicio, activar Shizuku. Las dos nuevas prometen menos ceremonia y menos historial; a cambio, la configuración fina suele ser más corta y la resolución de problemas, más solitaria.</p>
+<p>La tercera pregunta es por las consecuencias: si la grabación se va a usar para algo importante, el camino es el aparato con la mejor ruta de audio y el respaldo probado, aunque sea más incómodo. Si es para acordarse de lo que se pactó, casi cualquier opción que funcione tres veces seguidas sirve.</p>
+<p>Y una pregunta de cierre que no es técnica: ¿qué pasa si esta grabación se filtra? Si la respuesta da miedo, el problema no es la app, es el archivo, y el cifrado sin copia o la copia sin cifrado son las dos únicas opciones honestas.</p>
+<p>───────────────────</p>
+<p><em>🗃️ Un archivo de grabaciones que sirva dentro de dos años</em></p>
+<p>La grabación sin orden no vale nada. El día que hace falta, uno recuerda que habló con alguien en marzo y no recuerda ni la fecha ni el nombre del archivo. Un esquema mínimo lo resuelve.</p>
+<p>El nombre del archivo debería llevar tres cosas: fecha en formato que ordene solo, número o contacto y una palabra de contexto. Un archivo llamado con año, mes, día y hora por delante se ordena sin ayuda de nadie y sobrevive a cualquier programa.</p>
+<p>La carpeta debería tener dos niveles como mucho: un año y un mes. Más niveles se abandonan a la tercera semana; menos niveles se vuelven una lista de cuatro mil archivos.</p>
+<p>La copia debería ir a dos sitios, y uno de ellos fuera de la casa. Un disco conectado al mismo escritorio no protege de un robo ni de un incendio, y esa es exactamente la clase de desastre que se lleva las grabaciones.</p>
+<p>Y una nota de texto con tres líneas —qué se guarda, dónde y hasta cuándo— vale más que cualquier app de archivado, porque se lee cuando ya nadie recuerda el sistema.</p>
+<p>───────────────────</p>
+<p><em>📞 La llamada que va por internet</em></p>
+<p>Cuando la conversación no pasa por la red telefónica, la grabación cambia de terreno. Las llamadas por datos no usan la ruta protegida del sistema, así que las reglas son otras: a veces se pueden capturar sin permiso especial y a veces el sistema las trata como audio de aplicación y no deja.</p>
+<p>La consecuencia práctica es que la misma grabadora puede funcionar perfecto con la llamada normal y fallar con la llamada de una app de mensajería. No es un fallo del proyecto: es un camino distinto del audio.</p>
+<p>Lo que sí se puede hacer siempre es grabar la pantalla con sonido del sistema, que en muchos aparatos recoge el audio de la aplicación. Suena a truco y funciona; el precio es un archivo de video pesado en vez de un audio pequeño, y un aviso en pantalla que la otra persona no ve.</p>
+<p>Para quien graba reuniones por internet, la conclusión es que el teléfono es el peor sitio. Una computadora con un programa de escritorio graba mejor, ordena mejor y avisa mejor, y el teléfono queda para lo que no se puede planificar.</p>
+<p>───────────────────</p>
+<p><em>📱 Los aparatos que no dejan</em></p>
+<p>Hay teléfonos donde ninguna de estas familias funciona bien, y conviene saberlo antes de gastar la tarde. Los tres casos se repiten.</p>
+<p>El primero son los aparatos con la ruta de audio cerrada por el fabricante. En ellos la app recibe solo el micrófono, y por más permisos que se den, la otra parte nunca entra al archivo. La prueba de la llamada corta lo revela en dos minutos.</p>
+<p>El segundo son los sistemas con ahorro de energía agresivo, que matan el servicio en segundo plano y cortan la grabación sin avisar. Se mitiga excluyendo la app del ahorro, y en algunos aparatos no hay manera.</p>
+<p>El tercero son los sistemas que se niegan a operar con permisos prestados: aplicaciones del sistema que comprueban si corren bajo una sesión de depuración y se cierran. Ahí ni Shizuku ni root ayudan, porque el que se niega es el propio componente.</p>
+<p>En los tres casos la respuesta honesta es la misma: ese aparato no es para esto. Y la alternativa —grabar por altavoz con otra grabadora, o usar un aparato viejo solo para las llamadas de trabajo— es menos elegante y funciona.</p>
+<p>───────────────────</p>
+<p><em>🕰️ Cómo llegamos hasta aquí</em></p>
+<p>La historia de esta función explica por qué hoy hay tantas piezas pequeñas en lugar de un botón.</p>
+<p>Durante años, muchos fabricantes incluyeron grabación de llamadas en su marcador, y funcionaba sin permiso especial porque el propio fabricante controlaba la ruta del audio. Fue una función de teléfono, no una app.</p>
+<p>Después el sistema fue cerrando esa API por razones de privacidad, y cada versión nueva la dejó más restringida hasta hacerla inútil en la mayoría de los aparatos que se vendieron después de 2021.</p>
+<p>El root ocupó el hueco con módulos como BCR, que se enganchan al sistema y graban con calidad. Su público era técnico y su costo, el de siempre: un aparato modificado que algunas apps se niegan a aceptar.</p>
+<p>Y cuando el root empezó a escasear, apareció el permiso prestado de Shizuku, que abrió la puerta a grabar sin tocar el arranque. De ahí salió ShizuCallRecorder y, este año, las dos nuevas que empujan el 1 de noviembre.</p>
+<p>Lo que la cronología deja ver es el patrón: cada vez que el sistema cierra una puerta, la comunidad abre una ventana más estrecha. Y las ventanas estrechas se cierran solas con el tiempo, así que conviene no encariñarse con ninguna.</p>
+<p>───────────────────</p>
+<p><em>🔍 El caso de la llamada de once minutos</em></p>
+<p>Llamada de trabajo, once minutos, todo dicho y nada firmado. Al día siguiente, el archivo existe, pesa, y al escucharlo solo se oye un lado: el de quien grabó. Ocurrió tres veces y el usuario concluyó que la app era mala.</p>
+<p>El diagnóstico, en orden, fue este. Primero se comprobó el aparato: un modelo con la ruta de audio cerrada, de los que entregan solo micrófono. La app estaba haciendo lo único que podía hacer. Segundo se comprobó la versión: era la última, publicada hacia dos semanas. Tercero se comprobó el ajuste de fuente de audio, que en esa app permite elegir entre micrófono y llamada; estaba en el valor por defecto.</p>
+<p>Con el ajuste cambiado a la fuente de llamada, el archivo salió con las dos voces y sonó algo bajo, que es el precio de esa ruta. Con el altavoz activado, salió mejor y con más ruido de ambiente. Las dos soluciones eran mejores que la app nueva que iba a comprar.</p>
+<p>Lo que el caso enseña es que en grabación la primera pregunta no es qué app, sino qué ruta de audio tiene el aparato. Y que la segunda no es cuál es la mejor, sino cuál se probó dos veces y se escuchó entera.</p>
+<p>───────────────────</p>
+<p><em>💬 Las frases que se repiten</em></p>
+<p>«Mi teléfono grababa las llamadas y ya no». Grababa cuando el fabricante lo permitía. La puerta se cerró y no la cierra el usuario.</p>
+<p>«Con root es mejor». Es más fiable en la calidad y más caro en las consecuencias: hay apps que se niegan a abrir en un aparato modificado.</p>
+<p>«Shizuku es un root». No lo es: presta un permiso del sistema y se apaga al reiniciar. Es menos potente y por eso menos peligroso.</p>
+<p>«Compré una app de pago y tampoco». El pago no cambia la ruta del audio. Cambia el soporte y la interfaz.</p>
+<p>«Grabé sin avisar y ahora no sé si puedo usarlo». Esa pregunta no la contesta el teléfono.</p>
+<p>───────────────────</p>
+<p><em>🧮 Cuatro cuentas antes de instalar</em></p>
+<p>La primera cuenta es de espacio: dos horas de llamada al día, a cuarenta megas la hora, son unos dos gigas y medio al mes y treinta al año. Ese número conviene tenerlo antes de elegir la calidad máxima.</p>
+<p>La segunda es de batería: un servicio de grabación permanente consume poco durante la llamada y algo más cuando el teléfono duerme. Si el aparato ya llega apurado a la noche, la grabadora le quita otra media hora de margen.</p>
+<p>La tercera es de tiempo: comprobar que la app graba de verdad cuesta dos minutos de llamada y otros dos de escucha. Comprobarlo después de perder una llamada importante cuesta la llamada.</p>
+<p>La cuarta es de confianza: cada permiso que se concede a una grabadora es un permiso que hay que recordar. Una lista de dos apps es manejable; una lista de siete es un archivo de decisiones viejas que nadie revisa.</p>
+<p>Las cuatro cuentas juntas ocupan menos que el cajón de ajustes de la app, y sirven para decidir sin probar cinco opciones distintas.</p>
+<p>───────────────────</p>
+<p><em>📶 Grabar sin computadora, cuando no hay otra</em></p>
+<p>El escenario es común: se quiere grabar sin root, no se tiene computadora a mano y el teléfono se reinicia por cualquier cosa. Ahí la ceremonia de Shizuku se vuelve el problema principal, y las dos familias nuevas son la única salida razonable.</p>
+<p>La depuración inalámbrica del propio sistema permite volver a arrancar el servicio sin cables, y en aparatos recientes se puede automatizar con una app que lo haga al encender. Es la solución intermedia que casi nadie documenta y que funciona en la mayoría de los teléfonos de los últimos tres años.</p>
+<p>La otra vía es aceptar que la grabación solo existe mientras el teléfono no se reinicie, y convertir el reinicio en el recordatorio: se reinicia, se arranca el servicio y se prueba con una llamada corta. Un aparato que se reinicia solo una vez al mes convierte ese mes en el plazo de fiabilidad del sistema.</p>
+<p>Y la tercera, para quien no quiere nada de esto, es una grabadora que use el altavoz y una costumbre: llamadas importantes, con altavoz y con aviso. Es peor calidad, es más honesto y no depende de ninguna llave.</p>
+<p>───────────────────</p>
+<p><em>🎚️ La calidad, explicada sin tecnicismos</em></p>
+<p>Las grabadoras suelen ofrecer tres ajustes de calidad y la gente elige el más alto por reflejo. En una conversación de voz, la diferencia entre el ajuste medio y el alto casi no se oye: lo que se oye es el ruido de fondo, y eso no lo arregla el bitrate.</p>
+<p>Lo que sí importa es la fuente. Un archivo capturado del flujo de la llamada suena limpio y sin ambiente; uno capturado del micrófono con altavoz suena con la sala, el ventilador y el eco. El mismo ajuste de calidad en las dos fuentes da resultados que parecen de aparatos distintos.</p>
+<p>El formato también importa menos de lo que se cree para escuchar y más de lo que se cree para archivar. Un formato abierto y difundido se puede abrir dentro de diez años con cualquier programa; uno propietario depende de que alguien mantenga el reproductor.</p>
+<p>Y el nombre del archivo importa más que todo lo anterior. Un archivo con la fecha delante y el nombre de la persona detrás se encuentra; uno llamado con un número de serie se pierde aunque suene perfecto.</p>
+<p>───────────────────</p>
+<p><em>🧩 Cuatro piezas que la gente confunde</em></p>
+<p>En grabación de llamadas se confunden cuatro cosas con una facilidad pasmosa, y de esa confusión salen las compras equivocadas.</p>
+<p>La primera es la grabadora y el módulo: BCR no es una app que se instala y ya, es un módulo que se instala en el sistema y deja una app pequeña para ajustarlo. Quien lo busca en la tienda de aplicaciones no lo encuentra, y concluye que el proyecto no existe.</p>
+<p>La segunda es el permiso y el root. Shizuku presta un permiso de depuración; el root da control del sistema. Con el primero se puede grabar y no se puede leer el disco entero; con el segundo, sí, y se paga con un aparato que muchas apps miran mal.</p>
+<p>La tercera es el archivo y la copia. Tener el archivo en el teléfono no es tenerlo: la copia es lo que sobrevive al robo, a la caída y al cambio de aparato.</p>
+<p>La cuarta es el aviso y la legalidad. Avisar al inicio no hace la grabación legal en todos los países y sí hace que casi nunca sea un problema. No avisar no la hace ilegal en todas partes y sí la convierte en un problema el día que se descubre.</p>
+<p>Cuatro parejas de conceptos, y con ellas separadas la conversación sobre grabadoras se vuelve corta: qué permite tu aparato, qué permiso hace falta, dónde está la copia y a quién avisaste.</p>
+<p>───────────────────</p>
+<p><em>🧷 El detalle del reinicio, que arruina más grabaciones que todo lo demás</em></p>
+<p>Hay un fallo que no aparece en ninguna lista de problemas y que se lleva por delante más grabaciones que la calidad o el espacio: el servicio murió y nadie lo notó.</p>
+<p>Ocurre así. El teléfono se reinicia por una actualización de madrugada. Shizuku no arranca solo. La grabadora sí arranca sola, porque está configurada para empezar con el sistema. La llamada del día entra, la app intenta grabar sin los permisos que necesita, y hace lo único que puede: escribe un archivo vacío o con la única fuente que sí tiene. El usuario ve el archivo en la lista y cree que tiene la llamada.</p>
+<p>La contramedida es doble. La primera, un recordatorio en la mañana después de cada actualización del sistema. La segunda, una llamada de prueba de diez segundos después de cada reinicio, escuchada, que es la única prueba que no engaña.</p>
+<p>En los aparatos donde la depuración inalámbrica se puede automatizar, la contramedida se vuelve invisible: el servicio arranca solo y el recordatorio sobra. Es la diferencia entre un sistema que funciona por disciplina y otro que funciona por configuración, y la segunda se sostiene mejor en el tiempo.</p>
+<p>───────────────────</p>
+<p><em>🧑⚖️ Tres preguntas que conviene hacerse antes del primer minuto</em></p>
+<p>Antes de darle a grabar hay tres preguntas que ahorran disgustos y que no aparecen en ningún tutorial.</p>
+<p>La primera: ¿esto lo va a escuchar alguien más? Si la respuesta es sí, el archivo necesita nombre, carpeta y copia desde el primer día, porque el que lo escucha después no tuvo la conversación y no sabe de qué se habla.</p>
+<p>La segunda: ¿cuánto tiempo lo necesito? Una grabación de trabajo se guarda tres meses; una personal, a veces ni una semana. Decidirlo antes evita el archivo de ocho gigas que nadie ordena.</p>
+<p>La tercera: ¿qué pasa si esto se hace público? No es paranoia: es la pregunta que cambia el formato, el cifrado y la costumbre de avisar.</p>
+<p>Con las tres respondidas, la app deja de ser el centro de la decisión y pasa a ser el instrumento, que es su sitio.</p>
+<p>───────────────────</p>
+<p><em>🗣️ Lo que se oye en la calle</em></p>
+<p>En los grupos donde se pregunta por grabadoras, tres respuestas se repiten y las tres son incompletas. «Instala la del módulo y ya» sirve si hay root. «Ponle Shizuku» sirve si el aparato entrega la ruta de audio. «Compra la de pago» sirve si el problema era el soporte y no la grabación.</p>
+<p>La respuesta que sí sirve es una pregunta: ¿qué teléfono tienes y qué te salió la última vez que grabaste? Con eso, cualquiera que haya pasado por el camino puede decir en dos líneas qué esperar, y el que pregunta deja de probar cinco apps para descubrir lo que su aparato ya decidió.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Puedo grabar llamadas sin root en un teléfono de 2026?</strong> Sí, con dos condiciones: una app que use el permiso de depuración prestado por Shizuku, o una de las nuevas que se apoyan en las API de accesibilidad. En ambos casos hay que probar el aparato, porque la ruta del audio manda.</p>
+<p><strong>¿Cuál graba mejor, BCR o ShizuCallRecorder?</strong> BCR, en un aparato con root, por acceso directo al audio. ShizuCallRecorder es la mejor opción sin root y su calidad depende del teléfono.</p>
+<p><strong>¿AVault y CallVault son de fiar?</strong> Las dos empujaron el 1 de noviembre, publicaron versión el 31 de octubre y suman ★629 entre las dos. Son nuevas: su código es público y su historial corto, y eso se dice tal cual.</p>
+<p><strong>¿Por qué CallVault declara dos licencias?</strong> Porque su ficha en la forja dice GPL-3.0 y su README dice Apache-2.0. Se publican las dos y no se elige por el lector.</p>
+<p><strong>¿Shizuku tiene que estar activo siempre?</strong> Después de cada reinicio hay que volver a arrancarlo. Mientras está activo, las apps que lo usan funcionan; cuando muere, algunas siguen abriéndose y graban sin los permisos, que es peor que fallar.</p>
+<p><strong>¿Se puede grabar una llamada de WhatsApp?</strong> A veces, y no de la misma manera que una llamada normal. En muchos aparatos la única vía es grabar la pantalla con sonido del sistema.</p>
+<p><strong>¿Cuánto ocupa una hora de grabación?</strong> Entre veinte y sesenta megas según la calidad elegida. Dos horas diarias al año son decenas de gigas, y por eso el formato y la retención importan antes que la app.</p>
+<p><strong>¿Cómo sé que la grabación sirve antes de necesitarla?</strong> Haciendo una llamada de prueba de dos minutos y escuchando el archivo completo. Verlo en la lista no prueba nada.</p>
+<p><strong>¿Puedo usar bcr-gui con otras grabadoras?</strong> No: lee la carpeta de BCR. Para las demás, la copia se hace a mano o con una sincronización.</p>
+<p><strong>¿Grabar mis propias llamadas es legal?</strong> Depende del país y del uso posterior. La regla de la casa es avisar al inicio: convierte una grabación en un acuerdo.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Los ocho medidos, en una línea</em></p>
+<table>
+<tr><th>Repositorio</th><th>Qué hace</th><th>Licencia</th><th>Empujón</th><th>Estrellas</th></tr>
+<tr><td>BCR</td><td>módulo de grabación con root</td><td>GPL-3.0</td><td>15-oct</td><td>★2.958</td></tr>
+<tr><td>ShizuCallRecorder</td><td>graba con el permiso de Shizuku</td><td>GPL-3.0</td><td>30-oct</td><td>★1.970</td></tr>
+<tr><td>AVault</td><td>grabadora nueva con cifrado</td><td>ficha sin reconocer, README MIT</td><td>01-nov</td><td>★445</td></tr>
+<tr><td>CallVault</td><td>grabadora nueva sin root</td><td>GPL-3.0 (README Apache-2.0)</td><td>01-nov</td><td>★184</td></tr>
+<tr><td>bcr-gui</td><td>escritorio para leer lo grabado</td><td>GPL-3.0</td><td>26-oct</td><td>★381</td></tr>
+<tr><td>Shizuku</td><td>presta el permiso de depuración</td><td>Apache-2.0</td><td>18-jun-2025</td><td>★32.594</td></tr>
+<tr><td>Android-Call-Recorder</td><td>grabadora pequeña con root</td><td>GPL-3.0</td><td>25-oct</td><td>★54</td></tr>
+<tr><td>CallRecorder (aykuttasil)</td><td>el clásico dormido</td><td>MIT</td><td>18-oct-2023</td><td>★791</td></tr>
+</table>
+<p><em>Cinco mitos de la grabadora</em></p>
+<p><strong>Mito uno: «sin root no se puede».</strong> Se puede, con una llave prestada y con las API modernas. Lo que no se puede es garantizar que funcione en todos los aparatos.</p>
+<p><strong>Mito dos: «una app de pago graba mejor».</strong> La calidad la decide la ruta del audio del aparato, no el precio de la app.</p>
+<p><strong>Mito tres: «si el archivo existe, se grabó».</strong> Un archivo mudo pesa lo mismo que uno bueno. La prueba es escucharlo.</p>
+<p><strong>Mito cuatro: «Shizuku es root con otro nombre».</strong> Es un permiso de depuración que se apaga al reiniciar y que el usuario ve en una lista. La diferencia es la que hay entre una llave y un plano.</p>
+<p><strong>Mito cinco: «basta con grabar».</strong> Sin aviso, sin nombre y sin copia, la grabación es un archivo que no sirve el día que hace falta.</p>
+<p><em>Glosario</em></p>
+<p><strong>Ruta de audio</strong> — camino por el que el sistema entrega el sonido de una llamada a las apps.</p>
+<p><strong>Permiso de depuración</strong> — canal de administración que se activa para desarrolladores y que Shizuku presta a otras apps.</p>
+<p><strong>Módulo de sistema</strong> — pieza que se instala en un aparato con root y se engancha al sistema.</p>
+<p><strong>Códec</strong> — formato en el que se guarda el audio; si el reproductor no lo entiende, el archivo suena mudo.</p>
+<p><strong>Retención</strong> — cuánto tiempo se guarda una grabación y cuándo se borra.</p>
+<p><strong>Cifrado por hardware</strong> — protección de los archivos con la clave del aparato; sin copia, se pierden con el teléfono.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces</em></p>
+<p>Todas las direcciones se abrieron esta tarde.</p>
+<ul>
+<li>BCR, el módulo de sistema: <a href="https://github.com/chenxiaolong/BCR">https://github.com/chenxiaolong/BCR</a></li>
+<li>ShizuCallRecorder: <a href="https://github.com/kitsumed/ShizuCallRecorder">https://github.com/kitsumed/ShizuCallRecorder</a></li>
+<li>AVault: <a href="https://github.com/arpanjot-coding/AVault">https://github.com/arpanjot-coding/AVault</a></li>
+<li>CallVault: <a href="https://github.com/madkongo/CallVault">https://github.com/madkongo/CallVault</a></li>
+<li>bcr-gui, la mitad de escritorio: <a href="https://github.com/nicorac/bcr-gui">https://github.com/nicorac/bcr-gui</a></li>
+<li>Shizuku, la llave que se presta: <a href="https://github.com/RikkaApps/Shizuku">https://github.com/RikkaApps/Shizuku</a></li>
+<li>Android-Call-Recorder: <a href="https://github.com/Benojir/Android-Call-Recorder">https://github.com/Benojir/Android-Call-Recorder</a></li>
+<li>CallRecorder, el dormido: <a href="https://github.com/aykuttasil/CallRecorder">https://github.com/aykuttasil/CallRecorder</a></li>
+</ul>
+<p><em>Cómo se midió.</em> Ocho proyectos, tres lecturas cada uno por tres caminos distintos —búsqueda de la forja, página del repositorio y README crudo—, con el orden rotado de un proyecto al siguiente. Donde la ficha y el README declaran licencias distintas, van las dos. Las versiones se pidieron una por una y se anotó su fecha.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — la llave, la ruta y el aviso</em></p>
+<p>Grabar una llamada en 2026 es un trabajo de tres piezas: una llave que el sistema presta, una ruta de audio que el aparato decide y un aviso que la persona elige dar. Ninguna de las tres se resuelve comprando la app más cara.</p>
+<p>Lo que deja el censo de hoy es una fila corta y sana: BCR con ★2.958 empujando en octubre, ShizuCallRecorder con ★1.970 y versión v2.0.0 del 24, dos recién llegadas que empujaron el 1 de noviembre, una ventana de escritorio con ★381 y una llave con ★32.594 que lleva más de un año quieta y sigue sirviendo.</p>
+<p>El resto es costumbre: probar con una llamada de dos minutos, escuchar el archivo, nombrarlo bien y sacarlo del teléfono una vez al mes. Nada de eso es emocionante y todo eso es lo que hace que una grabación valga algo el día que hace falta.</p>
+<blockquote>—¿Y si el teléfono no deja grabar?</blockquote>
+<blockquote>—Entonces cambias de teléfono o cambias de costumbre. Lo que no se hace es creer que el archivo está bien sin escucharlo.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Una grabadora no se juzga por su promesa, sino por el archivo mudo que no hizo.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 17:33 y las 17:38 de Santo Domingo · ocho repositorios con las tres lecturas hechas y el orden rotado · dos discrepancias de licencia publicadas con sus dos versiones · las versiones, consultadas aparte, con fecha.</p>
+<p><em>Licencia de esta entrega:</em> texto en CC BY-SA 4.0, datos en CC BY 4.0, ejemplos de código en MIT; la marca y el nombre de la casa siguen siendo de «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas al pie</h2>
+<p><strong>Nota de corte (1-nov):</strong> los números son de la tarde; dos de las grabadoras empujaron ese mismo día y sus versiones son del 31 de octubre, un día antes del corte.</p>
+<p><strong>Nota de licencia (1-nov):</strong> AVault y CallVault no coinciden entre ficha y README. Se publican las dos versiones, sin elegir, que es la regla desde el primer día.</p>
+<p><strong>Nota de alcance (1-nov):</strong> la guía no enseña a grabar sin consentimiento ni da instrucciones para saltarse la ruta protegida del audio; explica qué permite el sistema y qué se paga por ello.</p>
+<p><strong>Nota de corrección (1-nov):</strong> la versión anterior se centraba solo en ShizuCallRecorder y en números del 15 de octubre. Se reescribió con las tres familias medidas hoy y se añadieron las dos grabadoras nuevas que entonces no existían en el censo.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

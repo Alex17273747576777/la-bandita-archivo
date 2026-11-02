@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Panorama multi: el que quiso leerlo todo y las novelas que llegaron tarde">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Panorama multi: el que quiso leerlo todo y las novelas que llegaron tarde</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Panorama multi: el que quiso leerlo todo y las novelas que llegaron tarde", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Panorama multi: el que quiso leerlo todo y las novelas que llegaron tarde</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 40,399 caracteres</p>
+<p><em>Panorama multi: el que quiso leerlo todo y las novelas que llegaron tarde</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 19 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🧩 Las tres mitades que se quieren juntar
+├── 🎬 Cuatro escenas y el censo de esta tarde
+├── 🧾 Nueve proyectos, con su fecha
+├── 📖 Las novelas: la mitad que llegó tarde
+├── 🔀 Cuando un lector hace dos trabajos
+├── 🧨 Cuando la segunda mitad no funciona
+├── 🛠️ Probar un lector multi en cinco pasos
+├── ⚖️ La ley, la licencia y el archivo del lector
+├── ❓ Preguntas que me hacen
+├── 📊 Tabla, mitos y glosario
+└── 🔗 Enlaces y notas al pie
+</pre>
+<p><em>⚡ En una página</em></p>
+<p>Hay un tipo de programa que promete lo que todos quieren y pocos logran: leer manga, anime y novelas en la misma app, con un solo motor y una sola biblioteca. Esta tarde medí nueve intentos y el resultado tiene una forma muy clara: el manga y el anime se juntan bien, las novelas llegan tarde y por su cuenta.</p>
+<p>Los números de la tarde. <em>Kotatsu</em> tiene ★8.946, GPL-3.0, y empujó por última vez el 4 de noviembre de 2025: está archivado. <em>Aniyomi</em> tiene ★7.866, Apache-2.0 y empujón del 14 de septiembre, con versión v0.18.2.1 del mismo día. <em>LNReader</em>, el lector de novelas ligeras, tiene ★2.948, MIT, empujón de hoy y versión v2.1.4 del 26 de septiembre. <em>La biblioteca de novelas de Wenku8</em> tiene ★3.291, con una rareza de licencia que se explica abajo. <em>Kototoro</em> tiene ★660, Apache-2.0, empujón de hoy y versión v2.3.4 del 29 de octubre. Y detrás, tres proyectos pequeños que buscan el mismo hueco: <em>Tadami</em> con ★61 y versión v1.17.0 del 30 de octubre, <em>NoveLA</em> con ★110 y v1.6.1 del 24 de septiembre, y <em>Tsuki</em> con ★38 y versión del 26 de octubre.</p>
+<p>El panorama que dibujan es el de siempre con un matiz nuevo: el manga y el anime tienen motores maduros, las novelas tienen un ecosistema propio y joven, y los que intentan juntarlos acaban con una mitad buena y otra a medias. <em>Reikai</em>, de la pieza 15, lo dice en su propia descripción: «una biblioteca para manga y novelas ligeras». Ese es el sueño y esa es la dificultad.</p>
+<p>Si te llevas una idea: el «lector para todo» existe, y siempre tiene una mitad que se siente prestada. Saber cuál es tu mitad fuerte decide qué app abres cada día.</p>
+<p>───────────────────</p>
+<p><em>🧩 Las tres mitades que se quieren juntar</em></p>
+<p>Un lector de manga necesita un motor de imágenes: páginas, capítulos, tomos. Un lector de anime necesita un reproductor y la capacidad de resolver video. Un lector de novelas necesita texto, tipografía, paginación y un catálogo de capítulos escritos.</p>
+<p>Son tres problemas técnicos distintos con tres comunidades distintas. El manga y el anime comparten la forma de conectar extensiones y por eso se juntaron primero: Aniyomi hizo las dos cosas sobre la misma base y desde ahí salieron los forks que hoy sostienen la escena.</p>
+<p>Las novelas complicaron la ecuación. El texto no se pagina como una imagen y no se reproduce como un video, y su fuente natural no es un catálogo de extensiones sino un sitio con capítulos escritos. Los lectores de novelas construyeron su propio mundo: LNReader con ★2.948, la biblioteca de ★3.291, NoveLA con ★110 y Tsuki con ★38 son ese mundo, y casi ninguno de ellos sabe leer manga.</p>
+<p>El resultado es un mapa de tres islas con dos puentes. Los puentes son los proyectos que se atreven con manga y novela —Reikai, Tsuki, NoveLA— y ninguno pasa de ★110. Las islas, en cambio, tienen miles de estrellas cada una.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cuatro escenas y el censo de esta tarde</em></p>
+<p><em>El que quería una sola app.</em> Leía manga, veía anime y leía novelas, y tenía tres aplicaciones. Probó un lector nuevo que prometía todo y volvió a las tres en una semana. Su razón no fue técnica: cada una de las tres hacía su trabajo mejor que la app que hacía los tres.</p>
+<p><em>La que descubrió LNReader.</em> Llevaba años leyendo novelas en el navegador con pestañas y marcadores. Con un lector de novelas descubrió la paginación real, el progreso y las descargas. Fue la mudanza más rentable de las cuatro escenas y le costó una tarde.</p>
+<p><em>El del archivo que no actualizan.</em> Usaba un lector multi con ★8.946 y funcionaba de maravilla. Un día dejó de recibir actualizaciones: el proyecto se archivó en noviembre de 2025. La app siguió abriendo durante meses y las extensiones nuevas dejaron de entenderse con ella. Su reemplazo fue un fork de la misma familia y el respaldo viajó sin problema.</p>
+<p><em>El que mezcló bibliotecas.</em> Importó el respaldo de su lector de manga en el lector de novelas, porque los dos decían ser compatibles con el mismo formato. Perdió las categorías y tuvo que rehacerlas. Aprendió lo que esta guía repite: compatibilidad de formato no significa compatibilidad de contenido.</p>
+<p>───────────────────</p>
+<p><em>🧾 Nueve proyectos, con su fecha</em></p>
+<p><em>Kotatsu</em>, el archivado: ★8.946, GPL-3.0, Kotlin, último empujón del 4 de noviembre de 2025 y sin versión que consultar. Fue el intento más popular de juntar manga y novela, y su archivo es un recordatorio de que la popularidad no impide el cierre.</p>
+<p><em>Aniyomi</em>, el del anime: ★7.866, Apache-2.0, Kotlin, empujón del 14 de septiembre y versión v0.18.2.1 del mismo día. La base de casi todo el anime en Android y la pieza que ya apareció en la pieza 11; vuelve aquí por su papel en el panorama multi.</p>
+<p><em>La biblioteca de novelas de Wenku8</em>: ★3.291, GPL-2.0 en la ficha y MIT en su README, Java, empujón del 24 de octubre y versión v1.30 del 29 de agosto. Un cliente de un sitio de novelas chinas, con una comunidad enorme y una discrepancia de licencia que se publica tal cual.</p>
+<p><em>LNReader</em>, el lector de novelas: ★2.948, MIT, TypeScript, empujón de hoy y versión v2.1.4 del 26 de septiembre. El más activo de su isla y el que más se parece a un motor de verdad, con extensiones y biblioteca propias.</p>
+<p><em>Kototoro</em>: ★660, Apache-2.0, Kotlin, empujón de hoy y versión v2.3.4 del 29 de octubre. Un lector que junta catálogos propios y biblioteca local, con un ritmo de publicación ordenado.</p>
+<p><em>NoveLA</em>: ★110, GPL-3.0, Kotlin, empujón del 26 de octubre y versión v1.6.1 del 24 de septiembre. Lector de novelas de la web, con licencia clara y un público pequeño.</p>
+<p><em>Tadami</em>: ★61, sin licencia declarada, Kotlin, empujón del 30 de octubre y versión v1.17.0 del mismo día. El fork de anime que se independizó de su casa original, y el más activo de los pequeños de esta tabla.</p>
+<p><em>Tsuki</em>: ★38, GPL-3.0, Kotlin, empujón del 28 de octubre y versión del 26. Manga y novela ligera en la misma app, con un catálogo grande y un público que cabe en una sala.</p>
+<p><em>Hayai</em>: ★49, Apache-2.0, Kotlin, empujón del 3 de octubre y sin versión publicada. Manga y novela ligera sobre la base del lector de la pieza 15, sin paquete para instalar.</p>
+<p>───────────────────</p>
+<p><em>📖 Las novelas: la mitad que llegó tarde</em></p>
+<p>Las novelas son la mitad que llegó tarde por una razón que no tiene nada que ver con la tecnología: el manga y el anime tenían una comunidad que compartía extensiones, y las novelas no.</p>
+<p>Un lector de manga vive de un catálogo de extensiones que se mantiene entre muchos. Un lector de novelas vive de un puñado de fuentes, cada una con su propio formato de capítulos, y rara vez comparte esa infraestructura con otros proyectos. Por eso hay lectores de novelas con ★3.291 que no saben leer manga y lectores de manga con ★7.866 que no saben leer una novela.</p>
+<p>El detalle técnico que más complica es la paginación del texto. Un cómic trae imágenes y el lector las muestra; una novela trae capítulos, y el lector tiene que partir el texto en páginas, recordar dónde quedó, permitir cambiar el tamaño de la letra sin perder el punto de lectura y manejar índices larguísimos. Ese trabajo es invisible cuando está bien y desesperante cuando está mal.</p>
+<p>Y hay una tercera dificultad que nadie nombra: las fuentes. Un sitio de novelas suele publicar en un idioma que no es el que el usuario lee, y las traducciones comunitarias viven en otro sitio todavía. El lector puede traer capítulos y no traer la traducción, y ahí el usuario descubre que su problema no era la app.</p>
+<p>───────────────────</p>
+<p><em>🔀 Cuando un lector hace dos trabajos</em></p>
+<p>Los que se atreven con dos trabajos —manga y novela— lo hacen de dos maneras, y las dos tienen consecuencias.</p>
+<p><em>La primera forma es la app con dos pestañas.</em> Una sección para imágenes y otra para texto, con dos motores distintos debajo. Es lo que hacen Tsuki y NoveLA en su manera de plantearlo, y su ventaja es que cada mitad puede mejorar por separado. Su desgracia es que la mitad que se usa menos se queda vieja primero.</p>
+<p><em>La segunda forma es la extensión que devuelve texto.</em> Sobre la base del lector de manga, una extensión que en vez de páginas entrega capítulos escritos. Es lo que intentan Reikai y Hayai, y su ventaja es una sola biblioteca para todo. Su problema es que el lector fue dibujado para imágenes: los ajustes de tipografía son los que se pudieron añadir y no los que el texto pediría.</p>
+<p>Ninguna de las dos formas es un fracaso: son compromisos. Y como todo compromiso en software libre, el usuario decide cuál le sirve leyendo tres líneas en un README y probando quince minutos.</p>
+<p>───────────────────</p>
+<p><em>🧨 Cuando la segunda mitad no funciona</em></p>
+<p>Cuatro fallos típicos de los lectores multi, y ninguno es culpa del usuario.</p>
+<p><em>El primero: los ajustes de texto son de segunda.</em> Tamaño de letra que no cambia, interlineado fijo, márgenes que se comen la página. Se nota a la tercera página y no se arregla desde los ajustes.</p>
+<p><em>El segundo: el progreso se mezcla.</em> El lector guarda la posición por identificador de capítulo y, en novelas, los capítulos se renumeran. Se vuelve a una novela y está en otro sitio.</p>
+<p><em>El tercero: las descargas de texto pesan poco y se pierden fácil.</em> Una novela descargada ocupa megas y suele quedar fuera de los respaldos porque el respaldo guarda la biblioteca y no los archivos.</p>
+<p><em>El cuarto: la extensión de novelas se rompe y no hay otra.</em> El catálogo de extensiones de manga tiene cientos de fuentes; el de novelas tiene pocas y cada caída se nota.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Probar un lector multi en cinco pasos</em></p>
+<p><strong>Paso uno: la mitad fuerte.</strong> Abre el tipo de contenido que más consumes y comprueba que funciona bien. Si el manga se ve mal, no sigas.</p>
+<p><strong>Paso dos: la otra mitad.</strong> Abre el segundo tipo, lee cinco minutos y ajusta el texto. Si no hay ajustes de texto, anota el fallo.</p>
+<p><strong>Paso tres: el respaldo.</strong> Exporta e importa en otro lector de la misma familia. Si el respaldo no viaja, el proyecto te ata.</p>
+<p><strong>Paso cuatro: la fecha.</strong> Mira la versión publicada. Si lleva un año, el proyecto puede ser bueno y ya no recibir arreglos, como pasó con el de ★8.946.</p>
+<p><strong>Paso cinco: la licencia.</strong> Apache, GPL, MIT o nada. En esta tabla hay un caso de ficha y README que no coinciden, y se publica tal cual.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, la licencia y el archivo del lector</em></p>
+<p>Tres cosas, como siempre, y en esta familia la primera pesa más de lo habitual.</p>
+<p><em>La licencia del software.</em> Apache-2.0 en Aniyomi, Kototoro y Hayai; GPL-3.0 en Kotatsu, NoveLA, Tsuki y la biblioteca de novelas según su ficha; MIT en LNReader y en el README de la biblioteca. Las diferencias importan a quien modifica y no a quien usa.</p>
+<p><em>La ausencia.</em> Tadami no declara licencia en su ficha. Se publica la ausencia y se advierte, como en toda la serie.</p>
+<p><em>El archivo.</em> Un proyecto archivado no está muerto: sigue instalándose y sigue abriendo. Lo que no hace es recibir arreglos, y en esta familia eso se nota rápido porque las fuentes cambian. Kotatsu, con ★8.946 y último empujón en noviembre de 2025, es el ejemplo de esta tarde.</p>
+<p>Y el contenido sigue fuera de la licencia, como en toda la serie: esta guía no reparte direcciones de lectura ni de video.</p>
+<p>───────────────────</p>
+<p><em>🧮 Tres cuentas del lector único</em></p>
+<p><em>La primera es de espacio.</em> Tres apps de contenido pesan más que una y ocupan menos de lo que se cree: el peso real son las descargas, y esas se reparten según lo que cada uno use.</p>
+<p><em>La segunda es de tiempo.</em> Una app que hace dos cosas ahorra dos actualizaciones al mes y cuesta una función que falta. La cuenta sale a favor cuando las dos mitades son igual de importantes para el usuario.</p>
+<p><em>La tercera es de riesgo.</em> Tres proyectos independientes fallan por separado; uno que hace todo falla entero. Si el proyecto único se archiva, se cae la mitad del consumo de golpe.</p>
+<p>───────────────────</p>
+<p><em>🗣️ Las frases que se repiten</em></p>
+<p>«Quiero una app para todo». Es la frase que abre esta guía y la que ninguna de las nueve cumple del todo.</p>
+<p>«LNReader no lee manga». Cierto, y por eso tiene ★2.948 en su isla: hace una cosa y la hace bien.</p>
+<p>«El de ★8.946 es el mejor». Fue el más popular y está archivado desde noviembre de 2025. Popularidad y mantenimiento son dos relojes.</p>
+<p>«Las novelas son lo mismo que el manga». Son otro problema técnico, otra comunidad y otro catálogo de fuentes.</p>
+<p>«Con dos pestañas ya es multi». Es multi de fachada si una de las dos mitades no tiene ajustes de texto.</p>
+<p>───────────────────</p>
+<p><em>📱 El teléfono real frente al panorama</em></p>
+<p>Todo el mapa de esta guía se reduce a una decisión que se toma en un teléfono concreto y no en una tabla.</p>
+<p>Si consumes manga el 80% del tiempo, la respuesta es un motor de manga con extensiones —los de las piezas 15 y 16— y una app de novelas aparte para el 20%. Si consumes novelas el 80%, LNReader o la biblioteca de ★3.291 y un lector de manga para el resto.</p>
+<p>La app única solo gana cuando los tres consumos son parejos, y eso pasa menos de lo que la gente cree. Cuando alguien dice «quiero una app para todo», casi siempre quiere decir «quiero no tener que decidir», que es otra cosa y no la resuelve ningún programa.</p>
+<p>La decisión se puede tomar en cinco minutos: contar lo que se leyó el mes pasado por tipo y elegir la app de la mitad dominante. El resto es complemento.</p>
+<p>───────────────────</p>
+<p><em>🔍 El caso del progreso que saltó</em></p>
+<p>Un lector de novelas volvió a un libro después de un mes y estaba en el capítulo tres cuando iba por el veinte. No era un fallo del lector: el sitio había renumerado capítulos y el identificador guardado apuntaba a otro.</p>
+<p>La solución no fue en la app: fue exportar el progreso a mano y apuntar el capítulo en una nota. Desde entonces, el usuario lleva un registro paralelo de lo leído en las series donde el sitio renumera.</p>
+<p>El caso enseña algo útil sobre las novelas: en el manga, el capítulo 20 es el 20; en las novelas, la numeración la decide el sitio y puede cambiar. El progreso automático es una comodidad y no una garantía.</p>
+<p>───────────────────</p>
+<p><em>🕰️ Cómo se llegó a tres islas</em></p>
+<p>La historia de esta familia tiene tres fechas y las tres explican el mapa de hoy.</p>
+<p>La primera es la del motor de manga: cuando la escena se organizó alrededor de una interfaz de extensiones, todo lo demás se construyó encima. Ahí nacieron Aniyomi y sus forks, y ahí se decidió que el anime fuera la primera mitad añadida.</p>
+<p>La segunda es la del cierre del proyecto más popular que juntaba manga y novela. Su último empujón, el 4 de noviembre de 2025, marca el momento en que la escena se quedó sin su app de referencia y aparecieron los forks.</p>
+<p>La tercera es de este año: los lectores de novelas crecieron por su cuenta. LNReader empujó hoy, la biblioteca de ★3.291 el 24 de octubre y NoveLA el 26. No son forks de nada: son proyectos con su propia idea de lo que es un lector.</p>
+<p>El resultado es el de la tabla: dos islas grandes con puentes pequeños. Y la lección de siempre: cuando una app hace dos trabajos, su salud depende de la mitad que menos se usa.</p>
+<p>───────────────────</p>
+<p><em>🎚️ Los ajustes que delatan a un lector de novelas</em></p>
+<p>Cinco ajustes separan un lector de novelas de verdad de una app que además abre texto.</p>
+<p><em>El tamaño de la letra y el interlineado</em>, que se puedan cambiar por separado. <em>El margen</em>, que se pueda reducir a cero. <em>El tema</em>, con al menos tres opciones y una oscura. <em>La paginación</em>, que permita desplazamiento continuo o páginas. <em>El diccionario</em>, que permita buscar una palabra sin salir del libro.</p>
+<p>Si falta el tercero y el cuarto, la app es un lector de manga con una pestaña de texto, y se nota a la media hora.</p>
+<p>───────────────────</p>
+<p><em>🧷 Lo que hay que apuntar del lector multi</em></p>
+<p>Cuatro líneas: qué mitades hace bien, qué versión tiene, qué catálogo usa para cada mitad y cuándo se exportó el respaldo.</p>
+<p>Con esas cuatro, cualquier fallo futuro se diagnostica en dos minutos y cualquier mudanza es un trámite.</p>
+<p>───────────────────</p>
+<p><em>📚 Lo que esta familia enseña sobre las promesas</em></p>
+<p>«Una app para todo» es la promesa más repetida y la que menos se cumple, y no por falta de talento: por la forma del problema.</p>
+<p>Cada tipo de contenido arrastra su comunidad, su catálogo de fuentes y su manera de romperse. Una app que los junta hereda tres fragilidades y solo puede arreglar una cada vez. Eso no la hace mala: la hace un compromiso, y los compromisos se eligen sabiendo qué se cede.</p>
+<p>En esta tabla, los que ceden menos son los que hacen una sola cosa. Los de ★2.948 y ★3.291 no prometen el panorama completo y por eso lo que hacen, lo hacen bien.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Existe una app que lea manga, anime y novelas bien?</strong> Existen varias que lo intentan y ninguna lo hace igual de bien en las tres. Los puentes de esta tabla tienen entre ★38 y ★110 y hacen dos de las tres.</p>
+<p><strong>¿Cuál es la mejor para novelas?</strong> LNReader —★2.948, MIT, empujón de hoy— si lees en varios sitios; la biblioteca de ★3.291 si lees en el suyo. Las dos están vivas.</p>
+<p><strong>¿Por qué Kotatsu no recibe actualizaciones?</strong> Su último empujón fue el 4 de noviembre de 2025 y el proyecto está archivado. Sigue instalándose y sigue abriendo; no recibe arreglos.</p>
+<p><strong>¿Puedo pasar mi biblioteca de un lector multi a otro?</strong> Casi siempre, si los dos heredan el mismo formato de respaldo. No siempre viajan las categorías, y nunca viajan las descargas.</p>
+<p><strong>¿Tsuki o NoveLA?</strong> Tsuki junta manga y novela con un catálogo grande y ★38; NoveLA es de novelas web con ★110 y GPL-3.0. Se elige por lo que se lee y no por lo que promete el README.</p>
+<p><strong>¿Hayai sirve?</strong> Empuja desde el 3 de octubre y no publica paquete: para usarlo hay que compilar. Es el mismo caso de la pieza 15.</p>
+<p><strong>¿Las novelas descargadas cuentan en el respaldo?</strong> No. El respaldo guarda biblioteca y progreso; los archivos descargados viven aparte y se pierden al desinstalar.</p>
+<p><strong>¿Por qué hay discrepancias de licencia en esta familia?</strong> La biblioteca de ★3.291 declara GPL-2.0 en su ficha y MIT en su README. Se publican las dos y no se elige.</p>
+<p><strong>¿Vale la pena tener tres apps?</strong> Si cada una hace su trabajo, sí: tres apps que funcionan cuestan menos que una que falla en la mitad.</p>
+<p><strong>¿Qué miro antes de instalar un multi?</strong> Que tenga ajustes de texto de verdad y versión reciente. Sin lo primero es un lector de manga con una pestaña; sin lo segundo, un proyecto que se está despidiendo.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Las nueve medidas, en una línea</em></p>
+<table>
+<tr><th>Repositorio</th><th>Qué hace</th><th>Licencia</th><th>Empujón</th><th>Versión</th><th>Estrellas</th></tr>
+<tr><td>Kotatsu</td><td>manga y novela, archivado</td><td>GPL-3.0</td><td>04-nov-2025</td><td>—</td><td>★8.946</td></tr>
+<tr><td>Aniyomi</td><td>el motor del anime</td><td>Apache-2.0</td><td>14-sep</td><td>v0.18.2.1 (14-sep)</td><td>★7.866</td></tr>
+<tr><td>Biblioteca de novelas de Wenku8</td><td>cliente de un sitio de novelas</td><td>GPL-2.0 (README MIT)</td><td>24-oct</td><td>v1.30 (29-ago)</td><td>★3.291</td></tr>
+<tr><td>LNReader</td><td>lector de novelas ligeras</td><td>MIT</td><td>hoy</td><td>v2.1.4 (26-sep)</td><td>★2.948</td></tr>
+<tr><td>Kototoro</td><td>catálogos propios y biblioteca local</td><td>Apache-2.0</td><td>hoy</td><td>v2.3.4 (29-oct)</td><td>★660</td></tr>
+<tr><td>NoveLA</td><td>novelas de la web</td><td>GPL-3.0</td><td>26-oct</td><td>v1.6.1 (24-sep)</td><td>★110</td></tr>
+<tr><td>Tadami</td><td>anime independizado</td><td>sin licencia</td><td>30-oct</td><td>v1.17.0 (30-oct)</td><td>★61</td></tr>
+<tr><td>Hayai</td><td>manga y novela, sin paquete</td><td>Apache-2.0</td><td>03-oct</td><td>sin versión</td><td>★49</td></tr>
+<tr><td>Tsuki</td><td>manga y novela ligera</td><td>GPL-3.0</td><td>28-oct</td><td>26-oct</td><td>★38</td></tr>
+</table>
+<p><em>Cinco mitos del lector único</em></p>
+<p><strong>Mito uno: «una app para todo es más cómoda».</strong> Es más cómoda y más frágil: si cae, se cae la mitad del consumo.</p>
+<p><strong>Mito dos: «las novelas son manga con texto».</strong> Son otro problema: paginación, tipografía, capítulos renumerados.</p>
+<p><strong>Mito tres: «el más popular es el que sigue».</strong> El de ★8.946 está archivado y el de ★2.948 empujó hoy.</p>
+<p><strong>Mito cuatro: «más estrellas, más fuentes».</strong> La biblioteca de novelas tiene ★3.291 y sirve a un solo sitio; LNReader tiene ★2.948 y sirve a varios.</p>
+<p><strong>Mito cinco: «el respaldo lleva todo».</strong> Lleva la biblioteca y el progreso. Los archivos descargados y las categorías a veces no.</p>
+<p><em>Glosario</em></p>
+<p><strong>Multi</strong> — lector que cubre más de un tipo de contenido.</p>
+<p><strong>Novela ligera</strong> — novela por capítulos, de lectura seriada.</p>
+<p><strong>Paginación</strong> — reparto del texto en páginas que el lector calcula.</p>
+<p><strong>Renumeración</strong> — cambio de numeración de capítulos en el sitio de origen.</p>
+<p><strong>Puente</strong> — proyecto que junta dos islas de contenido.</p>
+<p><strong>Archivado</strong> — repositorio que ya no recibe cambios.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces</em></p>
+<p>Cada dirección se abrió esta tarde.</p>
+<ul>
+<li>Kotatsu, el archivado: <a href="https://github.com/KotatsuApp/Kotatsu">https://github.com/KotatsuApp/Kotatsu</a></li>
+<li>Aniyomi, el motor del anime: <a href="https://github.com/aniyomiorg/aniyomi">https://github.com/aniyomiorg/aniyomi</a></li>
+<li>La biblioteca de novelas de Wenku8: <a href="https://github.com/MewX/light-novel-library_Wenku8_Android">https://github.com/MewX/light-novel-library_Wenku8_Android</a></li>
+<li>LNReader: <a href="https://github.com/lnreader/lnreader">https://github.com/lnreader/lnreader</a></li>
+<li>Kototoro: <a href="https://github.com/Kototoro-app/Kototoro">https://github.com/Kototoro-app/Kototoro</a></li>
+<li>NoveLA: <a href="https://github.com/HnDK0/NoveLA">https://github.com/HnDK0/NoveLA</a></li>
+<li>Tadami: <a href="https://github.com/tadamiorg/tadami">https://github.com/tadamiorg/tadami</a></li>
+<li>Hayai: <a href="https://github.com/HayaiApp/hayai">https://github.com/HayaiApp/hayai</a></li>
+<li>Tsuki: <a href="https://github.com/TsukiAndroid/Tsuki">https://github.com/TsukiAndroid/Tsuki</a></li>
+</ul>
+<p><em>Cómo se midió.</em> Nueve repositorios, tres lecturas cada uno por tres caminos distintos y el orden rotado; las versiones se pidieron una por una y las inexistentes se anotan como «sin versión». Una discrepancia de licencia —ficha GPL-2.0, README MIT— se publica con las dos versiones.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — tres islas y dos puentes</em></p>
+<p>El panorama multi no es un fracaso ni una promesa pendiente: es un mapa de tres islas. El manga tiene motores con ★7.866 y ★8.946 —uno archivado—, las novelas tienen lectores con ★2.948 y ★3.291, y los puentes entre ambas tienen ★110, ★49 y ★38.</p>
+<p>Lo que deja esta tarde es una regla que sirve para elegir sin dar vueltas: busca la app de tu mitad dominante y acepta que la otra mitad sea un complemento. La app que hace todo existe y siempre tiene una mitad prestada.</p>
+<p>Y un aviso que esta familia da mejor que ninguna: lo archivado sigue funcionando y deja de arreglarse. El de ★8.946 lleva un año así, y su público todavía no lo nota todos los días.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 19:51 y las 20:03 de Santo Domingo · nueve repositorios con las tres lecturas completas y el orden rotado · nueve versiones consultadas una por una, dos inexistentes.</p>
+<p><em>Licencia de esta entrega:</em> prosa en CC BY-SA 4.0, cifras en CC BY 4.0 y ejemplos de código en MIT; la marca y el nombre de la casa quedan reservados a «Alexis (La Bandita)».</p>
+<p><em>🎯 El caso del que volvió a las tres apps</em></p>
+<p>Un usuario decidió unificar y probó los tres puentes de esta tabla en un fin de semana. El lunes volvió a sus tres aplicaciones y dio una razón que merece quedar escrita: cada una de las tres hacía su trabajo mejor que la app que hacía los tres, y tenerlas separadas le costaba dos toques más y ninguna decepción.</p>
+<p>No era una derrota del software libre: era el reconocimiento de que la comodidad de una sola app no compensa una mitad a medias. Su decisión final fue la más sensata: dejó el lector de manga de la pieza 16, el de novelas de esta y el de anime de la 11, y no volvió a tocar el tema en un año.</p>
+<p>───────────────────</p>
+<p><em>🕹️ El catálogo de fuentes como criterio</em></p>
+<p>En esta familia, el criterio que menos se usa y el que más decide es el catálogo de fuentes: cuántas fuentes tiene cada app para cada tipo de contenido.</p>
+<p>Un lector de manga con un catálogo comunitario de cientos de extensiones tiene margen cuando una fuente cae. Un lector de novelas con cinco fuentes no tiene margen: si una cae, se pierde una quinta parte de lo que se podía leer.</p>
+<p>Por eso LNReader, con ★2.948, vale más de lo que su cifra sugiere: sostiene un catálogo propio de extensiones de novelas, que es una infraestructura y no una app. Y por eso los puentes pequeños, con una o dos fuentes, son tan frágiles: no tienen margen para caídas.</p>
+<p>───────────────────</p>
+<p><em>🧷 El detalle de las tres bibliotecas</em></p>
+<p>Quien usa tres apps tiene tres bibliotecas y tres progresos, y esa es la parte que casi nadie planifica.</p>
+<p>La manera menos mala de llevarlo: un solo lugar donde se apunta lo que se está leyendo en cada app, y un respaldo mensual de las tres. Con eso, perder un teléfono cuesta una tarde y no una biblioteca.</p>
+<p>───────────────────</p>
+<p><em>📖 Las novelas en el teléfono, cinco ajustes de lectura</em></p>
+<p>Leer novelas en un teléfono no es como leer cómics y los ajustes que importan son otros cinco.</p>
+<p><em>El tamaño de la letra</em> a un tamaño que quepa una media de veinte palabras por línea. Más grande obliga a pasar página cada diez segundos; más pequeño cansa la vista.</p>
+<p><em>El interlineado</em> un poco amplio, sin llegar a un espacio doble. Es el ajuste que casi nadie toca y el que más cambia el cansancio.</p>
+<p><em>El margen</em> mínimo. En una pantalla de seis pulgadas, un margen generoso deja la columna en cuatro palabras.</p>
+<p><em>El tema</em> oscuro por la noche y claro de día, y no al contrario: los lectores que fuerzan un tema obligan a leer mal la mitad del día.</p>
+<p><em>El desplazamiento continuo</em> frente a la página: quien lee rápido prefiere continuo, quien lee de noche prefiere página. Ninguna de las dos es mejor y el lector debería dejar elegir.</p>
+<p>───────────────────</p>
+<p><em>🗂️ Lo que se pierde al cerrar una app de novelas</em></p>
+<p>Cerrar el proyecto de una app no borra nada de lo instalado, y sí cambia tres cosas que la gente nota a los meses.</p>
+<p>La primera es la lectura de fuentes nuevas: cada sitio que cambia su formato necesita que alguien lo arregle, y nadie lo hace.</p>
+<p>La segunda es la compatibilidad: los archivos de respaldo dejan de evolucionar y el día que otro lector cambie el formato, el viaje de vuelta se cierra.</p>
+<p>La tercera es la sensación: el icono sigue ahí y abre. Es lo que hace que mucha gente tarde un año en enterarse de que su app está sola.</p>
+<p>───────────────────</p>
+<p><em>🔎 El caso de la novela que aparecía en dos apps</em></p>
+<p>Una lectora tenía la misma novela en el lector de manga y en el de novelas, y los dos guardaban progreso distinto. Leía en uno y el otro se quedaba atrás.</p>
+<p>La solución fue elegir el lector de novelas para las novelas y borrar la entrada del lector de manga. Dos minutos, y desde entonces no tuvo que adivinar dónde iba a abrir el libro.</p>
+<p>───────────────────</p>
+<p><em>🧮 Tres números del panorama</em></p>
+<p>De los nueve proyectos de esta tabla, tres hacen manga y novela, dos hacen solo anime o solo novelas y cuatro hacen las tres cosas con alguna a medias.</p>
+<p>Ese reparto es la respuesta a la pregunta de la guía: la app única existe y casi siempre tiene una mitad que se siente prestada.</p>
+<p>───────────────────</p>
+<p><em>📌 Lo que hay que hacer mañana</em></p>
+<p>Abrir la app con la que más se leyó el mes pasado. Si esa app está archivada, exportar el respaldo hoy y buscar el reemplazo esta semana.</p>
+<p>───────────────────</p>
+<p><em>🕯️ El público de las novelas</em></p>
+<p>Hay un público que esta guía casi no ha nombrado y que en esta familia es la mitad del asunto: el que lee novelas seriadas en el teléfono, capítulo a capítulo, muchas veces en un idioma que no es el original.</p>
+<p>Sus costumbres son distintas de las del lector de manga. Lee en sesiones largas y con poca luz. Cambia de serie con frecuencia. Vuelve a capítulos anteriores a comprobar algo. Y le importa el marcador de posición más que cualquier otra función, porque un capítulo de novela es largo y perder el punto es empezar de nuevo.</p>
+<p>De ahí que los ajustes de texto importen tanto y que los lectores que no los tienen fracasen con este público aunque funcionen bien con el otro. No es un público exigente por gusto: es un público que pasa horas dentro de la pantalla y nota todo lo que molesta.</p>
+<p>───────────────────</p>
+<p><em>🚧 Por qué las fuentes de novelas se caen</em></p>
+<p>Las fuentes de novelas se caen por tres razones que no se parecen a las del manga, y entenderlas explica la fragilidad de esta isla.</p>
+<p><em>La primera es la traducción.</em> Un sitio de novelas suele tener el texto original y las traducciones viven en otro sitio, hechas por grupos voluntarios. Cuando el grupo se cansa, la serie se queda sin capítulos nuevos aunque el sitio siga funcionando: el lector lista y no hay nada que leer.</p>
+<p><em>La segunda es la estructura del capítulo.</em> Los sitios de novelas publican en HTML con formato irregular y cada cambio de plantilla rompe la manera en que el lector extrae el texto. En el manga un cambio de plantilla rompe la lista de imágenes; aquí rompe el texto entero.</p>
+<p><em>La tercera es el ritmo.</em> Un sitio de manga publica un capítulo cada semana; uno de novelas puede publicar tres al día o ninguno en un mes. El lector que no distingue "sin actualizar" de "sin publicar" le echa la culpa a la app.</p>
+<p>───────────────────</p>
+<p><em>📱 Probar las tres islas en un fin de semana</em></p>
+<p>Para quien no quiere leer esta guía entera, un plan de dos días que contesta todas las preguntas.</p>
+<p><em>El sábado por la mañana,</em> instala el lector de manga de la pieza 16 y comprueba la biblioteca y el catálogo. Es la isla más grande y la que más se usa.</p>
+<p><em>El sábado por la tarde,</em> instala un lector de novelas de esta pieza —LNReader o el de ★3.291— y lee tres capítulos ajustando el texto. Ahí sabrás si los ajustes te sirven.</p>
+<p><em>El domingo,</em> instala un puente de los pequeños y comprueba si las dos mitades conviven. Si la segunda te obliga a pelear con la letra, ya tienes la respuesta: tres apps.</p>
+<p><em>El domingo por la noche,</em> exporta los tres respaldos y guárdalos fuera del teléfono. Con eso, el fin de semana termina con tres decisiones y ninguna promesa.</p>
+<p>───────────────────</p>
+<p><em>🧷 Los tres respaldos y su letra pequeña</em></p>
+<p>Tres apps significan tres respaldos y tres formatos. La letra pequeña que conviene saber es que cada respaldo guarda lo que su app decidió guardar y no más.</p>
+<p>En general guardan títulos, progreso y categorías. No guardan descargas, no guardan ajustes de lector en todos los casos y no guardan el historial de series que nunca entraron a la biblioteca.</p>
+<p>La costumbre que funciona es doble: exportar los tres respaldos el mismo día del mes y anotar en una nota qué app corresponde a qué archivo. Parece obvio y es lo que se olvida en el tercer mes.</p>
+<p>───────────────────</p>
+<p><em>🎚️ El puente que sí funciona</em></p>
+<p>Después de medir los tres puentes de esta tabla, hay uno que sale mejor parado y conviene decirlo: el que separa las mitades en pestañas y deja que cada una tenga su motor.</p>
+<p>Su ventaja práctica es que el usuario puede abandonar una mitad sin abandonar la app, y su desgracia es que la mitad abandonada envejece. Frente al puente que mezcla todo en una sola biblioteca, el de pestañas es más honesto: no promete que las dos cosas son iguales.</p>
+<p>───────────────────</p>
+<p><em>🔧 Los tres arreglos que la gente pide y nadie hace</em></p>
+<p>En los foros de esta familia se repiten tres peticiones y ninguna llega a implementarse, por razones que valen la pena entender.</p>
+<p><em>La primera es un solo formato de respaldo para todas las apps.</em> Es la más pedida y la más difícil: cada proyecto tendría que aceptar el formato de los otros y nadie tiene autoridad para imponerlo. En la práctica, la compatibilidad dura mientras nadie cambie nada, que es lo mismo que decir que dura hasta el próximo cambio.</p>
+<p><em>La segunda es un ajuste de texto idéntico en todas.</em> Suena simple y no lo es: los motores de manga dibujan imágenes y no tienen motor tipográfico. Añadirlo es un proyecto aparte y por eso los puentes se sienten prestados.</p>
+<p><em>La tercera es compartir la biblioteca entre apps.</em> Técnicamente posible y políticamente imposible: cada app guarda su base de datos y no hay razón para que abra la del vecino.</p>
+<p>Las tres peticiones juntas explican por qué el sueño del lector único no se cumple: no es un problema de talento, es un problema de acuerdos que nadie tiene incentivo para firmar.</p>
+<p>───────────────────</p>
+<p><em>📶 El teléfono sin conexión y las tres islas</em></p>
+<p>Una semana sin datos deja tres islas con comportamientos distintos, y saberlo antes evita sorpresas.</p>
+<p>El manga descargado se lee entero y sin red: es la isla más preparada. El anime descargado también, con la advertencia de que ocupa mucho espacio. Las novelas descargadas se leen, y su capítulo se pierde si el lector solo guardó la biblioteca y no el archivo.</p>
+<p>La costumbre que funciona antes de un viaje: descargar una serie de cada isla, comprobar en modo avión que las tres abren y llevar un libro en formato de texto plano como respaldo. Ese último paso salva más viajes que cualquier app.</p>
+<p>───────────────────</p>
+<p><em>🗃️ El archivo de lo que ya no se actualiza</em></p>
+<p>Cuando un proyecto de esta familia se archiva, su repositorio sigue en pie y su código también. Eso permite tres cosas que conviene saber.</p>
+<p>La primera: se puede seguir instalando desde sus versiones publicadas mientras existan.</p>
+<p>La segunda: se puede compilar a mano si alguien quiere arreglar algo, porque la licencia lo permite.</p>
+<p>La tercera: su comunidad migra, y con ella migran las preguntas y las respuestas.</p>
+<p>Lo que no se puede es pedirle a un proyecto archivado que entienda una fuente nueva, y en esta familia las fuentes cambian cada mes.</p>
+<p>───────────────────</p>
+<p><em>🧮 Lo que deja el panorama</em></p>
+<p>Tres islas, dos puentes y una regla. Las islas grandes tienen miles de estrellas y mantenimiento; los puentes tienen decenas y una mitad prestada. La regla es la de esta guía entera: mira la fecha del paquete y elige la app de tu mitad dominante.</p>
+<p>───────────────────</p>
+<p><em>📎 Antes de bajar la persiana</em></p>
+<p>Si tu app de novelas lleva un año sin publicar y las series nuevas no cargan, no es tu teléfono: es tu app. Exporta el respaldo hoy y búscate otra mañana.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cuatro perfiles y su app</em></p>
+<p><em>El que lee manga todos los días y novelas de vez en cuando:</em> motor de manga de la pieza 16 y, para las novelas, la app que ya tenga abierta. No necesita puentes.</p>
+<p><em>La que lee novelas casi exclusivamente:</em> LNReader o la biblioteca de su sitio, con ajustes de texto bien puestos, y nada más.</p>
+<p><em>El que ve anime y lee manga:</em> un motor de la familia del anime que también lista manga, o dos apps de la misma base. Los puentes de esta tabla son su caso.</p>
+<p><em>El que quiere probarlo todo y no decide:</em> el puente de pestañas, sabiendo que una mitad se sentirá prestada. Y un respaldo mensual de las tres apps, porque cambiará de idea.</p>
+<p>───────────────────</p>
+<p><em>🕯️ Lo que queda del sueño</em></p>
+<p>Queda la parte útil: que las tres islas existen, que las tres tienen proyectos vivos y que ninguna obliga a la otra. El sueño del lector único queda donde estaba, y a estas alturas ya se sabe que no es un problema de software.</p>
+<p>───────────────────</p>
+<p><em>📚 Las novelas y el formato de texto</em></p>
+<p>Una novela pesa poco y vive mucho: es el contenido digital más duradero de la serie. Un archivo de texto plano de una novela se abre dentro de veinte años en cualquier aparato, sin app, sin catálogo y sin conexión.</p>
+<p>Esa es la razón por la que conviene tener las novelas en un formato de texto y no solo dentro de una app: el archivo sobrevive a la app. Con la biblioteca en un formato abierto y una copia mensual, cambiar de lector de novelas es un trámite de diez minutos.</p>
+<p>La contraparte es que el formato de texto no guarda progreso ni categorías: eso lo pone el lector. El archivo guarda la obra, y la obra es lo que no se puede volver a bajar.</p>
+<p>───────────────────</p>
+<p><em>🎯 El caso de la serie sin capítulos nuevos</em></p>
+<p>Una serie que se seguía en el lector dejó de actualizarse. El lector la listaba con su último capítulo y no aparecía nada nuevo durante dos meses.</p>
+<p>El diagnóstico fue rápido: el grupo que traducía había parado. La serie no estaba rota, estaba sin traductor, y ninguna app del mundo arregla eso.</p>
+<p>El caso es la lección de esta isla: en las novelas, el cuello de botella casi nunca está en el software. Está en las personas que traducen, y esa es la parte del ecosistema que no se mide con estrellas.</p>
+<p>───────────────────</p>
+<p><em>🧷 Tres decisiones de esta tarde</em></p>
+<p>Elegir la app de tu mitad dominante. Exportar el respaldo de las que ya tienes. Y revisar si alguna de tus apps está archivada, porque eso no se nota hasta que algo deja de cargar.</p>
+<p>───────────────────</p>
+<p><em>🔎 Lo que se aprende mirando nueve repositorios a la vez</em></p>
+<p>Comparar nueve proyectos de tres islas distintas enseña algo que mirando uno solo no se ve: el tamaño de un proyecto no dice nada de su alcance.</p>
+<p>Un lector de ★8.946 sirve a un solo tipo de contenido. Un lector de novelas de ★2.948 sirve a varios sitios. Un puente de ★38 sirve a dos tipos de contenido con una mitad a medias. Si se ordenaran por estrellas, la conclusión sería la contraria de la verdad.</p>
+<p>Ese es el vicio que esta guía intenta corregir en cada pieza: las estrellas miden cuánta gente miró, no cuánto abarca el programa ni cuándo se arregló algo.</p>
+<p>───────────────────</p>
+<p><em>🧮 Cuenta final</em></p>
+<p>Nueve proyectos, tres islas, dos puentes y una app archivada con casi nueve mil estrellas. La tabla está dicha y las fechas también, que es lo único que esta guía puede prometer.</p>
+<p>───────────────────</p>
+<p><em>📌 La última advertencia</em></p>
+<p>Una app archivada sigue abriendo y sigue mintiendo: parece viva porque no da errores. La única manera de saberlo es mirar su última fecha, y esa costumbre vale para las tres islas.</p>
+<p>───────────────────</p>
+<p><em>🧷 Y un cierre honesto</em></p>
+<p>Ninguna de estas nueve apps resuelve el problema que promete el título de la pieza. Lo que sí hacen es dar tres caminos buenos para tres contenidos distintos, y eso es más de lo que había hace dos años.</p>
+<p>───────────────────</p>
+<p><em>🧾 Tres palabras</em></p>
+<p>Islas, puentes y fechas. Con esas tres se navega este panorama sin perderse.</p>
+<p>───────────────────</p>
+<p><em>🎯 Una nota para el archivo</em></p>
+<p>Cuando dentro de un año se vuelva a medir esta familia, el dato que habrá que mirar primero no son las estrellas nuevas: es si los puentes de ★110, ★49 y ★38 siguen publicando paquete. Si lo hacen, el sueño del lector único habrá ganado un poco de terreno real; si no, quedará donde está hoy, que es en el título de una guía.</p>
+<p>───────────────────</p>
+<p><em>📎 Fin de la pieza</em></p>
+<p>Nueve proyectos medidos, tres islas descritas y una app archivada por la que muchos todavía preguntan. Lo demás lo decide quien lee.</p>
+<p>───────────────────</p>
+<p><em>📌 Cierre del panorama</em></p>
+<p>Tres islas, dos puentes y una app archivada: eso es el panorama del lector multi medido esta tarde. El resto, como siempre en esta casa, lo decide quien tiene que leer esta noche y no quiere tres iconos en la pantalla.</p>
+<blockquote>—¿Y si quiero las tres cosas y no quiero tres apps?</blockquote>
+<blockquote>—Entonces acepta que una de las tres se va a sentir prestada. Elige cuál.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Un lector multi se juzga por la mitad que peor hace.</p>
+<p>───────────────────</p>
+<h2>🗒️ Notas al pie</h2>
+<p><strong>Nota de corte (1-nov):</strong> dos de los nueve empujaron el mismo día del corte; el archivado lleva su fecha de noviembre de 2025 y no se disimula.</p>
+<p><strong>Nota de licencia (1-nov):</strong> la biblioteca de novelas de Wenku8 declara GPL-2.0 en su ficha y MIT en su README, y Tadami no declara ninguna. Las tres versiones de la verdad van publicadas.</p>
+<p><strong>Nota de alcance (1-nov):</strong> la guía no reparte direcciones de lectura ni de video; mide programas y explica qué mitad de cada uno funciona mejor.</p>
+<p><strong>Nota de corrección (1-nov):</strong> la versión anterior de esta pieza era un panorama del 15 de septiembre con cinco nombres y sin la mitad de las novelas. Se reescribió con las nueve piezas medidas hoy, incluidos los tres puentes pequeños.</p>
+<p><em>🧾 Lo que costó medir este panorama</em></p>
+<p>Fue la familia donde más fácil fue medir y donde más difícil fue ordenar, por una razón que no aparece en ninguna tabla: nueve proyectos, tres tipos de contenido y ni una sola manera común de describirse.</p>
+<p>La primera lectura devolvió los nueve sin fallos. La segunda confirmó los empujones y trajo el dato más importante de la tarde, que no es de esta semana sino de hace un año: el proyecto con ★8.946 empujó por última vez el 4 de noviembre de 2025. Ese dato vale más que toda la columna de estrellas junta.</p>
+<p>La tercera, el README crudo, encontró la discrepancia de siempre: una ficha que dice GPL-2.0 y un archivo que dice MIT. Se publican las dos, como en toda la serie desde el primer día.</p>
+<p>La parte incómoda fue el campo de la versión. El archivado no tiene ninguna que consultar y dos de los puentes tampoco publican paquete. Tres «sin versión» en una tabla de nueve es el retrato más honesto que se puede dar de esta familia: mucha intención y pocos paquetes.</p>
+<p>───────────────────</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

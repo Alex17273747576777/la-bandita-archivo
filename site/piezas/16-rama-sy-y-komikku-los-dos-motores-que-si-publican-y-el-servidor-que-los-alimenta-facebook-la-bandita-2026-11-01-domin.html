@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Rama SY y Komikku: los dos motores que sí publican (y el servidor que los alimenta)">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Rama SY y Komikku: los dos motores que sí publican (y el servidor que los alimenta)</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Rama SY y Komikku: los dos motores que sí publican (y el servidor que los alimenta)", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Rama SY y Komikku: los dos motores que sí publican (y el servidor que los alimenta)</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 40,081 caracteres</p>
+<p><em>Rama SY y Komikku: los dos motores que sí publican (y el servidor que los alimenta)</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 16 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🏛️ Dos escuelas, un mismo esqueleto
+├── 🎬 Cuatro escenas y el censo de esta tarde
+├── 🧾 Las nueve piezas, con su fecha al lado
+├── 🖥️ El servidor: leer desde la computadora
+├── 🔌 El catálogo que los alimenta a todos
+├── 🧨 Cuando abre y no ve nada, y qué se guarda dónde
+├── 🛠️ Elegir motor en cinco preguntas
+├── ⚖️ La ley, la licencia y el nombre
+├── ❓ Preguntas que me hacen
+├── 📊 Tabla, mitos y glosario
+└── 🔗 Enlaces y notas al pie
+</pre>
+<p><em>⚡ En una página</em></p>
+<p>Hay dos motores de manga que, a diferencia de la familia de la pieza anterior, publican paquete con regularidad y empujan código cada semana. Uno es <em>TachiyomiSY</em>: ★4.200, Apache-2.0, Kotlin, empujón de hoy y versión 1.13.2 del 13 de julio. El otro es <em>Komikku</em>: ★4.966, Apache-2.0, empujón de hoy y versión v1.14.1 del 17 de julio. Alrededor de ellos hay tres piezas menores —<em>MihonSY</em> con ★48, <em>ShinKu</em> con ★45 y versión de hoy, y <em>Mikku</em> con ★0 y empujón de ayer—, un servidor de escritorio que lleva la lectura a la computadora —<em>Suwayomi-Server</em>, ★7.989 y MPL-2.0— y el catálogo de extensiones más grande de todos, ★15.408, que hoy no declara licencia.</p>
+<p>Y al lado, la vara de siempre: <em>Mihon</em>, ★24.939, Apache-2.0, empujón del 26 de octubre y versión v0.21.3 del 25. No es un fork de nadie: es el motor del que salieron casi todos los demás, y por eso conviene tenerlo en la misma tabla.</p>
+<p>Lo interesante de esta tarde no son las cifras, es la diferencia de conducta con la familia de la pieza anterior. Allá, nueve herederos con un tronco callado. Aquí, dos motores que publican, cuatro proyectos pequeños que orbitan y un servidor que permite leer lo mismo desde el teléfono y la computadora sin llevar la biblioteca a cuestas.</p>
+<p>Si te llevas una idea: cuando el motor publica, la discusión deja de ser sobre fechas y pasa a ser sobre funciones. Esa es la diferencia entre un ecosistema que aguanta y uno que sobrevive a copias.</p>
+<p>───────────────────</p>
+<p><em>🏛️ Dos escuelas, un mismo esqueleto</em></p>
+<p>Los dos motores grandes de esta tarde comparten base y no comparten escuela. Entender la diferencia ahorra la mitad de las preguntas.</p>
+<p><em>SY es la escuela de la biblioteca.</em> Su empeño está en lo que pasa alrededor de la lectura: categorías anidadas, filtros, ordenaciones, estadísticas, historial. Quien tiene trescientos títulos y quiere encontrarlos por tres criterios a la vez, está en su casa. Su versión 1.13.2 lleva desde el 13 de julio publicada y su código empujó hoy, así que hay trabajo en curso.</p>
+<p><em>Komikku es la escuela del lector.</em> Su empeño está en lo que pasa dentro de la pantalla: cómo se pagina, cómo se ajusta la imagen, cómo se maneja una serie larga. Komikku tiene ★4.966 y su código también empujó hoy; su versión v1.14.1 es del 17 de julio. Nació como un proyecto que quería ser más que un fork y hoy tiene hasta un cliente de anime propio, Anikku, con ★1.127.</p>
+<p>Las dos escuelas comparten el esqueleto heredado: la misma manera de conectar extensiones, la misma carpeta de descargas por nombre de paquete y el mismo formato de respaldo mientras nadie lo cambie. Esa compatibilidad es lo que permite que un usuario pruebe los dos sin perder la biblioteca, y es también la razón por la que los dos se rompen a la vez cuando el catálogo cambia de forma.</p>
+<p>Alrededor de las dos escuelas está la tercera vía: <em>Mihon</em>, ★24.939, la base de la que salieron ambas. Su versión v0.21.3 del 25 de octubre y su empujón del 26 lo ponen al día, y su público es el más grande de todos porque es la puerta de entrada que aparece en todos los tutoriales.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cuatro escenas y el censo de esta tarde</em></p>
+<p><em>La que ordenó trescientas series.</em> Tenía la biblioteca como un montón y no encontraba nada. Con SY descubrió las categorías anidadas y los filtros combinados, y se pasó una tarde ordenando lo que llevaba tres años acumulando. Al final no cambió de lector: cambió de costumbre. Y esa tarde le ahorró las siguientes cien búsquedas.</p>
+<p><em>El que leía en dos aparatos.</em> Leía en el teléfono por la calle y en la computadora por la noche. Antes copiaba respaldos; ahora tiene un servidor en la computadora y los dos aparatos apuntan ahí. La biblioteca vive en un solo sitio y los aparatos son ventanas. Su conclusión: si tienes computadora encendida a diario, esta es la forma más ordenada de leer.</p>
+<p><em>El de la versión de julio.</em> Instaló Komikku, vio que la versión era del 17 de julio y anunció que el proyecto estaba abandonado. Le señalaron el empujón de hoy y la cantidad de cambios en curso. La confusión es la misma de la pieza anterior y tiene la misma respuesta: dos fechas, no una.</p>
+<p><em>El que se quedó con Mihon.</em> Probó los dos motores nuevos, le gustaron y volvió al de siempre. Su razón fue la más honesta de las cuatro: las extensiones que usa las entiende su lector actual, y cambiarlo le costaba una tarde sin darle nada que le faltara. La novedad no es una necesidad.</p>
+<p>───────────────────</p>
+<p><em>🧾 Las nueve piezas, con su fecha al lado</em></p>
+<p><em>Mihon</em>, la base: ★24.939, Apache-2.0, Kotlin, empujón del 26 de octubre y versión v0.21.3 del 25. Es el motor más instalado del ecosistema y la referencia contra la que se mide todo lo demás.</p>
+<p><em>Suwayomi-Server</em>, el servidor: ★7.989, MPL-2.0, Java, empujón de hoy y versión v2.4.2366 del 30 de septiembre. Lleva la biblioteca a la computadora y sirve a los aparatos; se apoya en la misma familia de extensiones y por eso entra en este censo.</p>
+<p><em>Komikku</em>, la escuela del lector: ★4.966, Apache-2.0, empujón de hoy, versión v1.14.1 del 17 de julio. Su casa tiene además un cliente de anime, Anikku, con ★1.127 y v0.2.0 del 11 de septiembre.</p>
+<p><em>TachiyomiSY</em>, la escuela de la biblioteca: ★4.200, Apache-2.0, empujón de hoy, versión 1.13.2 del 13 de julio. Su familia tiene un hijo pequeño, MihonSY.</p>
+<p><em>MihonSY</em>: ★48, Apache-2.0, empujón del 28 de octubre y versión v1.2.1 del 7. Un fork que nació sobre SY para aparatos y gustos concretos, con un contador de versión que dice que está en la primera etapa.</p>
+<p><em>ShinKu</em>: ★45, Apache-2.0, empujón y versión del 1 de noviembre —v2.8.0—. El más rápido de los pequeños: publicó el mismo día que empujó.</p>
+<p><em>Mikku</em>: ★0, Apache-2.0, empujón del 31 de octubre y sin versión publicada. Un proyecto de un día antes del corte, con licencia clara y ningún público todavía.</p>
+<p><em>Keiyoushi/extensions</em>, el catálogo: ★15.408, sin licencia declarada, HTML, empujón de hoy. No es un lector: es el índice del que comen casi todos los motores de esta tabla. Su licencia ausente se publica como ausente.</p>
+<p><em>Syncyomi</em>: ★741, GPL-2.0, escrito en Go, empujón y versión del 29 de octubre —v1.7.4—. Sincroniza lo que el servidor guarda, para que dos aparatos vean el mismo progreso sin exportar nada a mano.</p>
+<p>───────────────────</p>
+<p><em>🖥️ El servidor: leer desde la computadora</em></p>
+<p>Suwayomi-Server es la pieza que cambia la forma de usar todo esto. Su cifra —★7.989, MPL-2.0, Java, empujón de hoy y versión v2.4.2366 del 30 de septiembre— no es la más alta de la tabla y su papel es el más grande.</p>
+<p>La idea es sencilla: en vez de tener la biblioteca repartida en dos teléfonos y una tableta, se instala un programa en la computadora que guarda la biblioteca, baja los capítulos y sirve la lectura a cualquier aparato de la casa por el navegador o por la red local. Los teléfonos dejan de ser archivos y pasan a ser ventanas.</p>
+<p>La ventaja práctica es triple. La primera: la biblioteca vive en un solo sitio y el progreso se ve desde cualquier aparato, sin exportar nada a mano. La segunda: las descargas las hace la computadora, que tiene disco y corriente, en vez de gastar el almacenamiento del teléfono. La tercera: cuando el teléfono se cambia, no se muda nada.</p>
+<p>El costo también es triple. Hace falta una computadora encendida —o un aparato pequeño que haga de servidor— para leer lo que esté ahí. Hace falta configurar la red de la casa, que en algunos routers es la parte difícil. Y hace falta aceptar que el servidor tiene su propio ciclo: si se actualiza y rompe algo, los aparatos se quedan mirando una pantalla vacía hasta que se arregle.</p>
+<p>Su licencia, MPL-2.0, es la única del censo que no es Apache ni GPL, y su obligación es más suave: los archivos modificados se comparten, el resto puede quedar cerrado. Para el usuario no cambia nada; para quien quiera modificarlo, cambia bastante.</p>
+<p>───────────────────</p>
+<p><em>🔌 El catálogo que los alimenta a todos</em></p>
+<p>Ningún motor de esta tabla sirve de nada sin el índice de extensiones, y el índice más grande es <em>Keiyoushi</em>: ★15.408, HTML, empujón de hoy, sin licencia declarada en la ficha.</p>
+<p>Su función es la misma que la del colmado de la pieza 04 de esta serie: un archivo pequeño que dice qué extensiones existen y de dónde se baja cada una. Cuando algo deja de aparecer, en la mitad de los casos el problema está ahí y no en el motor.</p>
+<p>Su licencia es el detalle incómodo de la tarde. ★15.408 y ninguna licencia declarada significa que el índice se puede leer y no está claro bajo qué condiciones se puede reutilizar. Los motores lo consultan igual porque es el que todos usan, y esa costumbre es la que hace que el ecosistema dependa de un proyecto cuya letra pequeña nadie ha leído.</p>
+<p>Hay una segunda parte que casi nadie mira: el catálogo no es el contenido, es la lista. Y las listas envejecen rápido, porque cada sitio que cambia de diseño rompe una extensión. El empujón de hoy de este repositorio no significa que todo funcione: significa que alguien tocó el índice hoy.</p>
+<p>───────────────────</p>
+<p><em>🧨 Cuando el motor abre y no ve nada</em></p>
+<p>El síntoma más común de esta familia y el que más reinstalaciones provoca. Cinco causas, en orden de probabilidad.</p>
+<p><em>Primera: el índice está viejo.</em> Se pegó hace meses y las extensiones nuevas no están. Se actualiza desde los ajustes y aparece todo.</p>
+<p><em>Segunda: el índice se pegó mal.</em> Un enlace incompleto o con un espacio al final devuelve una lista vacía sin decir nada. Se vuelve a pegar y se comprueba que la lista aparece.</p>
+<p><em>Tercera: la extensión está instalada y el sitio no responde.</em> El motor la lista y al abrir no hay nada, porque el sitio cambió o está caído. Se prueba el sitio en el navegador antes de tocar el lector.</p>
+<p><em>Cuarta: el motor es más nuevo o más viejo que la interfaz de extensiones.</em> Aquí no hay arreglo desde los ajustes: hay que actualizar el motor o cambiar de rama, como en la familia de la pieza 15.</p>
+<p><em>Quinta: el paquete de la extensión se instaló a mano desde otro sitio.</em> Es la causa menos común y la más peligrosa, porque el origen no está en ningún índice y nadie ha mirado su firma.</p>
+<p>Las cinco se distinguen en diez minutos, y en cuatro de las cinco no hay que reinstalar nada.</p>
+<p>───────────────────</p>
+<p><em>🧹 Biblioteca, descargas y respaldos</em></p>
+<p>Las tres carpetas de siempre, con los nombres de esta familia.</p>
+<p><em>La biblioteca</em> es pequeña y vive en la base de datos del motor. Se exporta a mano y viaja entre motores de la misma familia mientras el formato no cambie. Es lo único que hay que salvar antes de cualquier mudanza.</p>
+<p><em>Las descargas</em> viven en una carpeta con el nombre del paquete de la app y no viajan. En un teléfono de 128 gigas, con trescientos capítulos, esa carpeta puede llegar a la mitad del almacenamiento, y es la primera que hay que mirar cuando el aparato se pone lento.</p>
+<p><em>La caché</em> es la que se puede borrar sin miedo: portadas, miniaturas y fragmentos. Se llena sola de nuevo y es la que hace que el teléfono respire después de un año sin limpieza.</p>
+<p>Con un servidor de por medio, la cosa cambia: la biblioteca y las descargas viven en la computadora y el teléfono solo guarda su caché. Es la configuración más limpia de todas y exige tener la computadora encendida, que es el precio.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Elegir motor en cinco preguntas</em></p>
+<p><strong>¿Cuántos títulos tienes?</strong> Menos de cincuenta: cualquiera. Más de doscientos: SY, que es el que ordena mejor.</p>
+<p><strong>¿Qué te molesta del lector que usas?</strong> Si es la biblioteca, SY. Si es la pantalla, Komikku. Si es el desorden entre aparatos, un servidor.</p>
+<p><strong>¿Tienes computadora encendida a diario?</strong> Sí: servidor. No: motor en el teléfono y respaldo mensual.</p>
+<p><strong>¿Tu teléfono es viejo?</strong> Entonces el motor más sobrio, y el que menos memoria ocupe. Mihon es el más probado en aparatos modestos.</p>
+<p><strong>¿Vas a probar cosas nuevas cada mes?</strong> Si la respuesta es sí, elige el que empuja hoy y sigue su tabla de versiones. Si es no, elige el que tenga paquete reciente y no lo toques más.</p>
+<p>Cinco preguntas y ninguna menciona las estrellas, que es exactamente el punto de esta guía.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, la licencia y el nombre</em></p>
+<p>Las licencias de esta tabla son cuatro y conviene tenerlas escritas juntas.</p>
+<p><em>Apache-2.0</em> cubre a Mihon, Komikku, TachiyomiSY, MihonSY, ShinKu y Mikku: usar, modificar y distribuir, con aviso de autoría y mención de cambios.</p>
+<p><em>MPL-2.0</em> cubre a Suwayomi-Server: lo mismo, con la obligación limitada a los archivos modificados.</p>
+<p><em>GPL-2.0</em> cubre a Syncyomi: si se distribuye una versión modificada, se comparte el código.</p>
+<p><em>Y una ausencia</em>: el catálogo de ★15.408 no declara licencia, y eso se publica tal cual sin inventar la que le gustaría a nadie.</p>
+<p>El nombre, como siempre, no va con el código. Los dos motores grandes llevan apellidos que evocan la familia y ninguno puede reclamar el nombre original; el contenido tampoco va con la licencia y esta guía no reparte direcciones de lectura.</p>
+<p>───────────────────</p>
+<p><em>🧭 El servidor, montado en una tarde</em></p>
+<p>Para quien tenga computadora y quiera probar, el camino tiene cuatro estaciones y la cuarta es la que casi todos saltan.</p>
+<p><em>Estación uno: el programa.</em> Se instala Suwayomi-Server en la computadora —un ejecutable o un contenedor, según el sistema— y se abre en el navegador desde la propia máquina. Esa primera prueba confirma que arrancó.</p>
+<p><em>Estación dos: el catálogo.</em> Se pega el índice de extensiones en los ajustes del servidor, igual que se haría en el teléfono. El servidor instala las extensiones, que es lo que muchos no esperan: no hace falta instalarlas en cada aparato.</p>
+<p><em>Estación tres: la red de la casa.</em> Se le da una dirección fija a la computadora y se abre el puerto desde la red local. Aquí está la parte difícil: en algunos routers se llama de una manera y en otros de otra, y en los más cerrados hay que tocar dos ajustes.</p>
+<p><em>Estación cuatro: cerrar la puerta.</em> Si el servidor va a estar encendido siempre, no debe quedar abierto a internet sin contraseña. Un servidor casero mal cerrado es una biblioteca con la puerta de la calle abierta, y esa es la estación que casi nadie hace.</p>
+<p>Con las cuatro, el teléfono se conecta por el navegador y ve la biblioteca del servidor. Sin la cuarta, el experimento funciona los primeros días y se convierte en un problema después.</p>
+<p>───────────────────</p>
+<p><em>🕰️ Cómo se llegó a dos escuelas</em></p>
+<p>La historia de esta familia explica por qué hay dos motores grandes vivos y no uno.</p>
+<p>El motor base creció como proyecto único durante años y su público se acostumbró a una sola manera de hacer las cosas. Cuando el tronco original dejó de publicar, la comunidad se dividió entre los que querían continuidad y los que querían cambios de fondo.</p>
+<p>Los de continuidad se quedaron con el esqueleto y mejoraron lo que ya había. Ahí está SY: biblioteca, filtros, orden. Su versión 1.13.2 y su código de hoy dicen que la línea sigue.</p>
+<p>Los de cambios de fondo se llevaron el esqueleto y rehicieron el lector. Ahí está Komikku: la pantalla, la paginación, la lectura. Su v1.14.1 y su empujón de hoy dicen lo mismo.</p>
+<p>En medio quedó Mihon, que es el que la mayoría instala porque es el que aparece primero en las búsquedas y el que arrastra ★24.939.</p>
+<p>Y alrededor, una capa de proyectos pequeños que nacen sobre uno u otro: MihonSY con ★48, ShinKu con ★45 y versión de hoy, Mikku con ★0 y un día de vida. Son la prueba de que las dos escuelas siguen tan vivas como para tener herederos propios.</p>
+<p>───────────────────</p>
+<p><em>🔍 El caso del progreso que no aparecía</em></p>
+<p>Un usuario leyó veinte capítulos en el teléfono, abrió la computadora y encontró la biblioteca intacta y el progreso en cero. Concluyó que el servidor era malo.</p>
+<p>El diagnóstico real: había dos bibliotecas. La del teléfono, con su base de datos, y la del servidor, que tenía los títulos pero no el progreso de ese aparato. Ninguna estaba mal: no estaban sincronizadas.</p>
+<p>La solución tiene tres caminos. El primero, usar el servidor como única fuente y leer desde el navegador en el teléfono, con lo que el progreso se guarda donde se ve. El segundo, añadir la pieza de sincronización —Syncyomi, ★741, GPL-2.0, versión v1.7.4 del 29 de octubre— que existe exactamente para esto. El tercero, exportar y unir a mano, que es el camino de siempre y el que menos se automatiza.</p>
+<p>El caso deja una lección que vale más que la herramienta: en cuanto hay dos aparatos, el progreso deja de ser un detalle y pasa a ser el problema principal. Y se resuelve eligiendo una fuente de verdad, no sumando aparatos.</p>
+<p>───────────────────</p>
+<p><em>📶 Leer sin conexión cuando hay servidor</em></p>
+<p>La ventaja que casi nadie considera de esta configuración es la lectura sin red. Con los capítulos descargados en la computadora, el teléfono puede leerlos desde la red local aunque no haya internet, siempre que esté en casa. Y con los capítulos descargados en el teléfono, se leen en cualquier parte.</p>
+<p>La combinación que mejor funciona es la de dos capas: el servidor baja y guarda lo que se lee en casa, y el teléfono descarga solo lo que se va a leer fuera. Cada capa hace lo que sabe hacer: el disco grande guarda, el bolsillo lleva.</p>
+<p>El límite es el de siempre: si el servidor está apagado y no hay descarga local, no hay lectura. Y el servidor casero se apaga cuando se va la luz, que en esta isla es una consideración práctica y no una hipótesis.</p>
+<p>───────────────────</p>
+<p><em>🧮 Tres cuentas del servidor</em></p>
+<p>La primera es de disco: un servidor casero con trescientos títulos y sus capítulos puede pedir entre cien y trescientos gigas. Es lo que un teléfono no tiene y lo que un disco externo sí.</p>
+<p>La segunda es de corriente: una computadora encendida todo el día consume, y un aparato pequeño dedicado consume menos. Si el servidor va a estar siempre arriba, el aparato importa más que el programa.</p>
+<p>La tercera es de tiempo: la primera configuración de red es una tarde; el mantenimiento, un rato cada tanto. Quien no quiera tocar un router una vez al año, se queda con el teléfono y el respaldo mensual.</p>
+<p>Las tres cuentas juntas explican por qué esta configuración es la mejor para unos y un estorbo para otros, sin que ninguna de las dos opiniones esté equivocada.</p>
+<p>───────────────────</p>
+<p><em>🎚️ Las funciones que de verdad se usan</em></p>
+<p>Después de leer foros durante meses, hay un patrón en lo que la gente usa de verdad, y no coincide con lo que los README destacan.</p>
+<p><em>Lo que se usa todos los días:</em> abrir la biblioteca, ver lo último leído, buscar una serie, descargar capítulos, marcar como leído y actualizar el catálogo. Siete acciones que cualquier motor de esta tabla hace bien.</p>
+<p><em>Lo que se usa una vez y nunca más:</em> los ajustes de lector, los temas, el tamaño de la letra, la dirección de paginación. Se configuran en la primera tarde y no se vuelven a tocar.</p>
+<p><em>Lo que se usa cuando la biblioteca crece:</em> filtros, categorías, ordenaciones y búsqueda dentro de lo descargado. Es el terreno de SY, y es donde un motor mediocre se vuelve insoportable con trescientos títulos.</p>
+<p><em>Lo que casi nadie usa y todos piden:</em> estadísticas, historial detallado, exportación a formatos raros. Son funciones que existen porque alguien las quiso, no porque alguien las necesite.</p>
+<p>La consecuencia para quien elige motor es simple y ahorra horas: mira tu biblioteca, no la lista de funciones. Menos de cincuenta títulos se administran en cualquier motor; más de doscientos exigen uno que ordene bien, y ese es el único criterio que de verdad pesa.</p>
+<p>───────────────────</p>
+<p><em>🧷 Los cuatro detalles de la sincronización</em></p>
+<p>Cuando hay dos aparatos, el progreso se convierte en el problema principal. Cuatro detalles explican casi todos los disgustos.</p>
+<p><em>El primero: la marca de leído no es un archivo.</em> Vive en la base de datos de cada motor. Exportar la biblioteca la lleva consigo; leer en dos aparatos sin exportar, no.</p>
+<p><em>El segundo: el capítulo leído se guarda por identificador de extensión.</em> Si un aparato usa la extensión de un catálogo y el otro la de otro, los dos pueden marcar el mismo capítulo como cosas distintas y el progreso se duplica o se pierde.</p>
+<p><em>El tercero: la sincronización llega tarde.</em> Un servicio de sincronización no es magia: guarda cuando puede. Si se lee en el avión y se abre el otro aparato antes de volver a la red, el progreso no está y hay que esperar.</p>
+<p><em>El cuarto: las descargas no se sincronizan nunca.</em> Cada aparato baja lo suyo. Confundir sincronización de progreso con sincronización de archivos es la causa de la mitad de las quejas de almacenamiento.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Montar el servidor sin abrir la casa</em></p>
+<p>Cinco reglas mínimas para quien se anime, y ninguna es opcional si el servidor va a estar encendido.</p>
+<p><em>Regla uno: contraseña desde el primer día.</em> El servidor tiene su propio usuario y su propia clave. Un servidor casero sin contraseña en una red compartida es una biblioteca abierta.</p>
+<p><em>Regla dos: solo en la red de la casa.</em> No abrir el puerto a internet salvo que se sepa exactamente lo que se está haciendo. Para leer fuera de casa hay caminos más seguros y más lentos.</p>
+<p><em>Regla tres: copia de la carpeta del servidor.</em> La biblioteca del servidor es un archivo más y se puede perder con el disco. Una copia mensual a otro disco resuelve el 90% de los desastres.</p>
+<p><em>Regla cuatro: actualizar con respaldo.</em> El servidor también cambia de versión y también puede romper algo. La versión v2.4.2366 del 30 de septiembre está en un proyecto que empuja hoy: hay trabajo y eso significa cambios.</p>
+<p><em>Regla cinco: anotar la dirección.</em> Cuando la computadora cambie de dirección de red, el teléfono pierde la biblioteca y el usuario cree que se borró. Una nota con la dirección fija ahorra ese susto.</p>
+<p>───────────────────</p>
+<p><em>📱 El teléfono modesto y los dos motores</em></p>
+<p>En un aparato de 2019, la diferencia entre los dos motores se nota antes que en uno nuevo, y no siempre a favor del que más funciones tiene.</p>
+<p>SY, con su biblioteca cargada de filtros y estadísticas, pide más memoria cuando hay cientos de títulos. En un aparato con tres gigas, esa diferencia se ve en que la biblioteca tarda en abrir y en que el sistema cierra la app cuando se cambia a otra cosa.</p>
+<p>Komikku, centrado en el lector, pesa menos en la pantalla de biblioteca y más en la de lectura, y su comportamiento en aparatos modestos depende más de la imagen que de la lista.</p>
+<p>La regla práctica es la de siempre: instalar, importar el respaldo de prueba, mirar cuánta memoria queda libre y decidir con eso. Un motor con menos funciones que abre en dos segundos vale más que uno completo que tarda seis.</p>
+<p>───────────────────</p>
+<p><em>🗣️ Las frases que se repiten</em></p>
+<p>«SY es el de las funciones». Es cierto y hay que añadir: y el que más memoria pide con bibliotecas grandes.</p>
+<p>«Komikku es más moderno». Es más reciente como proyecto y no necesariamente mejor para tu uso. Moderno y útil no son sinónimos.</p>
+<p>«El servidor es para expertos». Es para quien tenga computadora encendida y ganas de configurar una red una vez.</p>
+<p>«Mihon es el original». Es la base más usada y no el original de la familia. El original dejó de publicar hace años.</p>
+<p>«Con dos aparatos ya no necesito respaldo». Al contrario: con dos aparatos el respaldo importa el doble, porque hay dos sitios donde perderlo.</p>
+<p><em>🧪 Cuatro pruebas antes de decidirte</em></p>
+<p><em>Prueba uno: la biblioteca.</em> Importa tu respaldo en el motor candidato y cronometra cuánto tarda en abrir. Con trescientos títulos, la diferencia entre dos motores es de segundos que se sienten como minutos cada día.</p>
+<p><em>Prueba dos: la extensión que más usas.</em> Abre una serie de la extensión que lees a diario, no de la más conocida. Ahí se ve si el motor entiende el catálogo de hoy.</p>
+<p><em>Prueba tres: la descarga.</em> Baja tres capítulos y comprueba dónde quedaron y cuánto ocuparon. Es el dato que decide si el teléfono aguanta el año.</p>
+<p><em>Prueba cuatro: el respaldo de vuelta.</em> Exporta desde el candidato e importa en el motor de siempre. Si el viaje de ida y vuelta funciona, la mudanza es reversible, y eso es lo que da tranquilidad para probar.</p>
+<p>Las cuatro ocupan una hora y contestan lo que ninguna tabla contesta: cómo se comporta ese motor en tu teléfono con tu biblioteca.</p>
+<p>───────────────────</p>
+<p><em>🧾 Lo que costó medir esta familia</em></p>
+<p>Las cifras de esta tabla vinieron de tres caminos distintos por cada proyecto, y en dos casos la página del repositorio dio un número de estrellas mayor que la búsqueda por unos minutos de diferencia: se publicó el de la página, que es el que ve una persona al entrar.</p>
+<p>La parte difícil fue el catálogo. Es el proyecto con más estrellas de la tabla —★15.408— y el único sin licencia declarada, y esa casilla vacía se publica vacía aunque quede fea en una tabla ordenada.</p>
+<p>La segunda parte difícil fue el servidor. Su cifra no se puede comparar con la de un lector de teléfono: ★7.989 para un programa de computadora que alimenta a todos los demás no significa menos importancia, significa otro papel. Ponerlo en la misma tabla es una decisión de esta guía y va explicada en la columna «qué hace».</p>
+<p>───────────────────</p>
+<p><em>🔁 El viaje de ida y vuelta del respaldo</em></p>
+<p>El respaldo es el único seguro de esta familia y casi nadie lo prueba en los dos sentidos. Exportar es la mitad; importar de vuelta es la prueba de que sirve.</p>
+<p>El viaje completo tiene tres tramos. En el primero se exporta desde el motor actual y se guarda el archivo fuera del teléfono. En el segundo se importa en el motor candidato y se comprueban tres cosas: los títulos, el progreso y las categorías. En el tercero se exporta desde el candidato y se importa otra vez en el original.</p>
+<p>Si el tercer tramo funciona, la mudanza es reversible, y eso es lo que permite probar sin miedo. Si falla, se ha descubierto algo importante antes de borrar nada: ese motor cambia el formato y la vuelta atrás no existe.</p>
+<p>El error clásico es hacer solo el primer tramo y creer que el archivo está bien. Un respaldo que nunca se ha importado es una promesa, no una copia.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cinco señales de que hay que mudarse</em></p>
+<p>Mudarse de motor cuesta una tarde y no se hace por gusto. Estas cinco señales justifican el gasto.</p>
+<p><em>Señal uno: el motor dejó de entender el catálogo.</em> Aparecen extensiones y no abren, o el índice actualizado no lista nada. Es la señal más clara y no tiene arreglo desde los ajustes.</p>
+<p><em>Señal dos: el paquete lleva más de un año y el código también.</em> El proyecto está quieto y no hay nadie al otro lado. Llegará el día en que algo se rompa y no habrá quien lo arregle.</p>
+<p><em>Señal tres: la biblioteca se volvió inmanejable.</em> Cientos de títulos sin orden y un motor sin filtros ni categorías. Aquí la mudanza no es por salud del proyecto, es por salud de la persona.</p>
+<p><em>Señal cuatro: el teléfono cambió y el motor no arranca.</em> Un aparato nuevo o viejo que no soporta la versión que hay. Cambiar de motor es más barato que cambiar de teléfono.</p>
+<p><em>Señal cinco: hay dos aparatos y el progreso no coincide.</em> Cuando exportar a mano deja de ser sostenible, toca servidor o pieza de sincronización.</p>
+<p>Fuera de esas cinco, mudarse es probar, y probar está bien mientras haya respaldo y un motor al que volver.</p>
+<p>───────────────────</p>
+<p><em>📚 Lo que esta familia enseña sobre elegir software</em></p>
+<p>Nueve proyectos, dos escuelas y una ausencia de licencia. Tres lecciones que sirven más allá de los lectores de manga.</p>
+<p>La primera: cuando un ecosistema tiene dos proyectos vivos que publican, el usuario gana. La competencia no reparte el público de forma dañina; reparte funciones y cada uno elige. Es lo contrario de lo que pasa en una familia de copias quietas.</p>
+<p>La segunda: el componente del que todos dependen es el que menos se mira. El índice de ★15.408 alimenta a todos los motores de esta tabla y es el único sin licencia declarada. Nadie elige su lector pensando en el índice, y el índice decide si el lector sirve.</p>
+<p>La tercera: la comodidad tiene un precio medible en configuración. El servidor de ★7.989 es la opción más ordenada y la que más trabajo pide la primera vez. No hay una opción mejor en abstracto: hay una mejor para cada casa.</p>
+<p>───────────────────</p>
+<p><em>🧷 El detalle del nombre y de la cuenta</em></p>
+<p>Los dos motores grandes llevan apellidos que evocan la familia y publican desde cuentas propias. Esa distinción importa el día que alguien busca el proyecto y encuentra una copia.</p>
+<p>La cuenta que publica es el dato más estable de todos: un repositorio puede cambiar de nombre, una cuenta rara vez. Cuando dos proyectos se llaman casi igual, se compara la cuenta y la fecha, y con eso se acaba la duda.</p>
+<p>───────────────────</p>
+<p><em>🖱️ La computadora como lectora</em></p>
+<p>Usar el servidor cambia también el aparato con el que se lee, y hay un público que casi nunca se nombra: el que prefiere leer en la pantalla grande.</p>
+<p>Con la biblioteca en la computadora, la lectura se hace en el navegador, con teclado para pasar páginas y una pantalla que no se cansa la vista. Para series largas y sesiones de dos horas, es más cómodo que cualquier teléfono, y no requiere instalar nada más.</p>
+<p>La ventaja secundaria es el orden: la misma biblioteca que se ve en el teléfono aparece en la computadora, con las mismas categorías y el mismo progreso. Cuando una serie se pone interesante a las once de la noche en el teléfono, se continúa al día siguiente en la computadora sin buscar dónde se quedó.</p>
+<p>El límite es el de siempre y no se puede rodear: la computadora tiene que estar encendida y en la misma red, o el navegador no encuentra la biblioteca.</p>
+<p>───────────────────</p>
+<p><em>🧮 Tres formas de tener lo mismo en dos aparatos</em></p>
+<p>Hay tres maneras de que dos aparatos vean la misma biblioteca, y conviene saber cuál se está usando antes de quejarse de que no funciona.</p>
+<p><em>La primera es exportar e importar.</em> Un archivo que viaja a mano cada cierto tiempo. Es la más simple, la que no depende de nada y la que se olvida siempre. Sirve para dos aparatos que se usan de forma alterna y con disciplina.</p>
+<p><em>La segunda es un servidor.</em> Una fuente única que los dos aparatos consultan. Es la más ordenada y la que exige una computadora encendida. Cuando funciona, desaparece el problema; cuando no, desaparecen los dos aparatos a la vez.</p>
+<p><em>La tercera es una pieza de sincronización.</em> Un programa que copia el progreso de un sitio al otro sin mover la biblioteca. Es el camino intermedio y el que menos se documenta, y en esta familia tiene nombre propio: Syncyomi, ★741, GPL-2.0, versión v1.7.4 del 29 de octubre.</p>
+<p>Las tres conviven y ninguna es la correcta en abstracto. La pregunta es cuántos aparatos, cuánta disciplina y cuánta computadora hay en la casa.</p>
+<p>───────────────────</p>
+<p><em>🧯 El servidor que se cae y lo que se pierde</em></p>
+<p>Cuando el servidor se apaga, los aparatos que dependen de él no pierden la biblioteca: pierden el acceso. Esa diferencia es la que hay que entender antes de asustarse.</p>
+<p>Lo que se pierde: el catálogo en pantalla, la lectura de lo no descargado y la sincronización del progreso. Lo que no se pierde: la biblioteca guardada en el disco del servidor, que sigue ahí esperando.</p>
+<p>La consecuencia práctica es que un servidor casero necesita dos costumbres. La primera, la copia del disco, porque un servidor caído se arregla y un disco perdido no. La segunda, una lista de qué está descargado en el teléfono, para saber qué se puede leer mientras el servidor vuelve.</p>
+<p>───────────────────</p>
+<p><em>🎯 El caso del catálogo que se pegó dos veces</em></p>
+<p>Un usuario pegó el índice en dos motores y en uno apareció todo y en el otro la lista vacía. El enlace era el mismo y la conclusión fácil era que el segundo motor era malo.</p>
+<p>La causa real: había un espacio pegado al final del enlace. El primer motor toleraba el espacio, el segundo no. Dos minutos de mirar el texto, cinco de borrar un carácter y el problema resuelto.</p>
+<p>El caso vale como recordatorio: en esta familia, la mitad de los fallos que parecen del motor están en la línea de texto que alguien pegó, y la otra mitad están en la fecha del paquete.</p>
+<p>───────────────────</p>
+<p><em>📌 Lo que hay que apuntar del motor propio</em></p>
+<p>Cuatro líneas y no más: qué motor, qué versión, qué catálogo y cuándo se exportó el último respaldo.</p>
+<p>Con esas cuatro, cualquier problema futuro se diagnostica en dos minutos, y cualquier pregunta en un grupo se contesta con datos en lugar de con impresiones.</p>
+<p>───────────────────</p>
+<p><em>🧷 Dos palabras para llevarse</em></p>
+<p>Motor y catálogo. El primero dibuja; el segundo dice de dónde. Cuando algo no aparece, casi siempre es el segundo.</p>
+<p>───────────────────</p>
+<p><em>🗂️ Una fecha en el calendario</em></p>
+<p>Una vez al mes: actualizar el catálogo, exportar el respaldo y mirar si los dos motores publicaron algo nuevo. Tres tareas de cinco minutos que mantienen el sistema sano sin leer una guía entera.</p>
+<p>───────────────────</p>
+<p><em>🧷 Lo que queda dicho</em></p>
+<p>Ninguna de las nueve piezas de esta tabla promete nada que no se pueda comprobar en su repositorio, y esa es toda su garantía.</p>
+<p>───────────────────</p>
+<p><em>📎 Y una costumbre más</em></p>
+<p>Antes de instalar cualquier motor, escribir en una nota la fecha del día. Dentro de un año, esa línea es la que explica por qué el teléfono tiene el lector que tiene.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿SY o Komikku?</strong> Depende de tu biblioteca y de tu pantalla. Con muchos títulos, SY ordena mejor; si lo que te molesta es el lector, Komikku. Los dos empujaron hoy y los dos publican con regularidad.</p>
+<p><strong>¿Por qué las versiones son de julio si empujan hoy?</strong> Porque el código y el paquete son dos relojes. Los dos motores trabajan en algo que todavía no han publicado, y esa diferencia se ve en la tabla.</p>
+<p><strong>¿Qué gano con un servidor?</strong> Una biblioteca única para varios aparatos, descargas en un disco grande y nada que mudar cuando cambias de teléfono. Lo pagas con una computadora encendida.</p>
+<p><strong>¿Puedo usar el servidor sin internet?</strong> En la red de la casa, sí, si los capítulos están descargados. Fuera de casa depende de cómo se haya configurado, y ahí conviene no improvisar.</p>
+<p><strong>¿Qué es Syncyomi y lo necesito?</strong> Es la pieza que sincroniza el progreso entre aparatos, ★741, GPL-2.0, versión del 29 de octubre. Si lees en dos sitios y quieres el progreso igual en los dos, sí la necesitas.</p>
+<p><strong>¿Por qué el catálogo no tiene licencia?</strong> Porque su ficha no la declara. Se publica el dato tal cual y se advierte, como en toda la serie.</p>
+<p><strong>¿Cambiar de motor borra mis descargas?</strong> Las deja en la carpeta del motor viejo, donde el nuevo no las ve. Se borran a mano o se vuelven a bajar.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Las nueve medidas, en una línea</em></p>
+<table>
+<tr><th>Repositorio</th><th>Qué hace</th><th>Licencia</th><th>Empujón</th><th>Versión</th><th>Estrellas</th></tr>
+<tr><td>Mihon</td><td>el motor base más instalado</td><td>Apache-2.0</td><td>26-oct</td><td>v0.21.3 (25-oct)</td><td>★24.939</td></tr>
+<tr><td>Keiyoushi/extensions</td><td>el índice de extensiones</td><td>sin licencia</td><td>hoy</td><td>—</td><td>★15.408</td></tr>
+<tr><td>Suwayomi-Server</td><td>biblioteca en la computadora</td><td>MPL-2.0</td><td>hoy</td><td>v2.4.2366 (30-sep)</td><td>★7.989</td></tr>
+<tr><td>Komikku</td><td>la escuela del lector</td><td>Apache-2.0</td><td>hoy</td><td>v1.14.1 (17-jul)</td><td>★4.966</td></tr>
+<tr><td>TachiyomiSY</td><td>la escuela de la biblioteca</td><td>Apache-2.0</td><td>hoy</td><td>1.13.2 (13-jul)</td><td>★4.200</td></tr>
+<tr><td>Syncyomi</td><td>sincroniza el progreso</td><td>GPL-2.0</td><td>29-oct</td><td>v1.7.4 (29-oct)</td><td>★741</td></tr>
+<tr><td>MihonSY</td><td>hijo pequeño de SY</td><td>Apache-2.0</td><td>28-oct</td><td>v1.2.1 (07-oct)</td><td>★48</td></tr>
+<tr><td>ShinKu</td><td>el más rápido de los pequeños</td><td>Apache-2.0</td><td>01-nov</td><td>v2.8.0 (01-nov)</td><td>★45</td></tr>
+<tr><td>Mikku</td><td>el que nadie miró</td><td>Apache-2.0</td><td>31-oct</td><td>sin versión</td><td>★0</td></tr>
+</table>
+<p><em>Cinco mitos de los motores</em></p>
+<p><strong>Mito uno: «el que tiene más estrellas es el más completo».</strong> Mihon tiene ★24.939 y SY, con menos, ordena mejor una biblioteca grande. La función y la fama no van juntas.</p>
+<p><strong>Mito dos: «versión de julio es abandono».</strong> Los dos motores empujaron hoy con versión de julio. El paquete es más viejo que el trabajo.</p>
+<p><strong>Mito tres: «el servidor es para técnicos».</strong> Es para quien tenga computadora encendida. Lo técnico es la primera tarde de red, no el uso diario.</p>
+<p><strong>Mito cuatro: «con dos aparatos no hace falta respaldo».</strong> Con dos aparatos hay dos sitios donde perder la biblioteca.</p>
+<p><strong>Mito cinco: «el catálogo es el contenido».</strong> El catálogo es la lista de direcciones; el contenido lo pone cada extensión y cada sitio.</p>
+<p><em>Glosario</em></p>
+<p><strong>Motor</strong> — el programa que dibuja la biblioteca y la lectura.</p>
+<p><strong>Catálogo</strong> — índice de extensiones que el motor entiende.</p>
+<p><strong>Servidor</strong> — programa en una computadora que guarda la biblioteca y la sirve por la red.</p>
+<p><strong>Sincronización</strong> — igualar el progreso entre aparatos.</p>
+<p><strong>Respaldo</strong> — archivo con biblioteca y progreso.</p>
+<p><strong>MPL-2.0</strong> — licencia que obliga a compartir solo los archivos modificados.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces</em></p>
+<p>Todas las direcciones se abrieron esta tarde.</p>
+<ul>
+<li>Mihon, el motor base: <a href="https://github.com/mihonapp/mihon">https://github.com/mihonapp/mihon</a></li>
+<li>TachiyomiSY: <a href="https://github.com/jobobby04/TachiyomiSY">https://github.com/jobobby04/TachiyomiSY</a></li>
+<li>Komikku: <a href="https://github.com/komikku-app/komikku">https://github.com/komikku-app/komikku</a></li>
+<li>MihonSY: <a href="https://github.com/ruzhe85/MihonSY">https://github.com/ruzhe85/MihonSY</a></li>
+<li>ShinKu: <a href="https://github.com/Harrys-HQ/ShinKu">https://github.com/Harrys-HQ/ShinKu</a></li>
+<li>Mikku: <a href="https://github.com/nas3ts/mikku">https://github.com/nas3ts/mikku</a></li>
+<li>Suwayomi-Server: <a href="https://github.com/Suwayomi/Suwayomi-Server">https://github.com/Suwayomi/Suwayomi-Server</a></li>
+<li>Syncyomi: <a href="https://github.com/syncyomi/syncyomi">https://github.com/syncyomi/syncyomi</a></li>
+<li>El catálogo de extensiones: <a href="https://github.com/keiyoushi/extensions">https://github.com/keiyoushi/extensions</a></li>
+</ul>
+<p><em>Cómo se midió.</em> Nueve repositorios, tres lecturas cada uno por tres caminos distintos y el orden rotado; las versiones se pidieron una por una y las que no existen se anotan como «sin versión». Donde la página del repositorio y la búsqueda discreparon en estrellas, se publicó la de la página.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — dos motores que sí entregan</em></p>
+<p>Esta familia es lo contrario de la anterior: aquí el tronco publica, los herederos publican y hasta los proyectos de ★0 empujan ayer. Eso cambia la conversación: ya no se trata de buscar quién sigue vivo, sino de elegir entre dos escuelas que funcionan.</p>
+<p>La escuela de la biblioteca —SY, ★4.200, versión 1.13.2— y la escuela del lector —Komikku, ★4.966, v1.14.1— comparten esqueleto y no comparten empeño. Alrededor, Mihon con ★24.939 sigue siendo la puerta de entrada, Suwayomi-Server con ★7.989 lleva todo a la computadora y Syncyomi con ★741 hace que dos aparatos cuenten la misma historia.</p>
+<p>Y el detalle de la tarde: el proyecto con más estrellas de la tabla no es un lector, es el índice ★15.408 que los alimenta a todos y que no declara licencia. El ecosistema depende de una lista, y las listas no juran lealtad a nadie.</p>
+<blockquote>—¿Y si los dos motores se cansan?</blockquote>
+<blockquote>—Hay tres proyectos de ★48, ★45 y ★0 esperando. El ecosistema siempre tiene relevo, aunque el relevo no tenga público.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Un motor se elige por lo que hace con tu biblioteca, no por lo que promete en su README.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 19:06 y las 19:18 de Santo Domingo · nueve repositorios con las tres lecturas completas y el orden rotado · nueve versiones consultadas una por una, una de ellas inexistente y anotada como tal.</p>
+<p><em>Licencia de esta entrega:</em> prosa en CC BY-SA 4.0, cifras en CC BY 4.0 y ejemplos de código en MIT; la marca y el nombre de la casa siguen reservados a «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas al pie</h2>
+<p><strong>Nota de corte (1-nov):</strong> los dos motores grandes empujaron el mismo día del corte y sus paquetes son de julio; las dos fechas van en la tabla para que no se confundan.</p>
+<p><strong>Nota de licencia (1-nov):</strong> el proyecto con más estrellas de la tabla no declara licencia. Se publica así, sin rellenar el campo con la del vecino.</p>
+<p><strong>Nota de alcance (1-nov):</strong> la guía no reparte enlaces de contenido ni catálogos concretos de sitios; mide proyectos de software y explica cómo comprobar uno antes de usarlo.</p>
+<p><strong>Nota de corrección (1-nov):</strong> la versión anterior de esta pieza era un listado del 15 de septiembre con cuatro nombres y sin el servidor. Se reescribió con las nueve piezas medidas hoy, incluidos los tres proyectos pequeños y el índice que los alimenta.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

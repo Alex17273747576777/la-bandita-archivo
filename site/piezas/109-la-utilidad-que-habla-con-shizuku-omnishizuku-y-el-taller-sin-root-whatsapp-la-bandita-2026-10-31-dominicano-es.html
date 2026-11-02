@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="109 — LA UTILIDAD QUE HABLA CON SHIZUKU">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>109 — LA UTILIDAD QUE HABLA CON SHIZUKU</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "109 — LA UTILIDAD QUE HABLA CON SHIZUKU", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "31 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>109 — LA UTILIDAD QUE HABLA CON SHIZUKU</h1>
+<p class="meta">WhatsApp · 31 de octubre de 2026 · 14,480 caracteres</p>
+<p><em>109 — LA UTILIDAD QUE HABLA CON SHIZUKU</em></p>
+<p>_sábado 31 de octubre de 2026 · La Bandita_</p>
+<p>Hay un momento en que el teléfono deja de ser un mando y se vuelve un taller.</p>
+<p>No pasa cuando lo rootéas. Pasa cuando descubres que hay una puerta que no necesita llave: un</p>
+<p>permiso que se presta, se usa y se devuelve.</p>
+<p>Esa puerta se llama Shizuku.</p>
+<p>Y esta pieza es sobre una utilidad nueva que se sienta justo al lado de esa puerta, sobre la familia</p>
+<p>entera, y sobre el taller que puedes montar hoy sin romper nada.</p>
+<p>---</p>
+<p><em>🌱 LA SEMILLA — qué es Shizuku, sin humo</em></p>
+<p>Shizuku es un puente local.</p>
+<p>No es root. No es un módulo. No es magia.</p>
+<p>Es una app que arranca un servidor pequeño dentro del teléfono y le presta a otras apps el permiso de</p>
+<p>sistema que normalmente solo se consigue con ADB o con root.</p>
+<p>Tú das el permiso una vez. Las apps lo usan mientras tú quieras. Y se acaba.</p>
+<p>La diferencia con root es la misma que hay entre dejar que el técnico entre a tu casa con tu permiso y</p>
+<p>darle una copia de la llave para siempre.</p>
+<p>---</p>
+<p><em>🗺️ EL MAPA DE ESTA GUÍA</em></p>
+<p>1. La semilla: Shizuku sin humo.</p>
+<p>2. El mapa de la familia: quién es quién.</p>
+<p>3. La ficha de hoy: OmniShizuku, medida ahora.</p>
+<p>4. El tutorial: arrancar la puerta y usar la utilidad, paso por paso.</p>
+<p>5. La lista del vecino: qué sirve y qué no de una recopilación ajena.</p>
+<p>6. El meme de la casa.</p>
+<p>7. Preguntas y respuestas.</p>
+<p>8. Cómo se lee esto según tu edad.</p>
+<p>9. Consejos según el tipo de usuario que eres.</p>
+<p>10. La vara: cómo verifiqué todo esto, con fecha.</p>
+<p>11. Glosario y enlaces.</p>
+<p>12. La firma.</p>
+<p>---</p>
+<p><em>⚡ EN UNA PÁGINA</em></p>
+<ul>
+<li><strong>Shizuku</strong> presta permisos de sistema sin root; se arranca por ADB inalámbrico o con root.</li>
+<li><strong>OmniShizuku</strong> (★10, Apache-2.0, empuje de hoy) es una utilidad nueva —creada el 24 de octubre— que</li>
+</ul>
+<p>  reúne los flujos de Shizuku, ADB y Dhizuku en un solo sitio, y que dice servir también para</p>
+<p>  <strong>Android TV y Wear OS</strong>.</p>
+<ul>
+<li>La familia que la rodea está viva: <strong>Shizuku</strong> (★6.642) y <strong>Dhizuku</strong> (★4.066) siguen empujando.</li>
+<li>La lista curada que trajo el dueño tiene <strong>1.273 repositorios citados</strong> y <strong>42 ya están muertos</strong>:</li>
+</ul>
+<p>  un 3,3 %. Es la prueba de por qué este archivo mide en vez de copiar.</p>
+<ul>
+<li>Nada de esto se recomienda por sus estrellas. Se recomienda por lo que hace, con la fecha al lado.</li>
+</ul>
+<p>---</p>
+<p><em>🌐 EL MAPA MENTAL DE LA FAMILIA</em></p>
+<p><strong>La puerta</strong> → Shizuku: presta permisos de sistema sin root.</p>
+<p><strong>El apoderado</strong> → Dhizuku: presta permisos de dueño de dispositivo (Device Owner), otra llave</p>
+<p>distinta, para cosas que Shizuku no alcanza.</p>
+<p><strong>La caja de herramientas</strong> → OmniShizuku: reúne los flujos de los dos anteriores y de ADB en una sola</p>
+<p>utilidad.</p>
+<p><strong>Las inquilinas</strong> → las apps que piden el permiso: gestores, congeladores, grabadoras de llamadas,</p>
+<p>descongeladores de apps del sistema.</p>
+<p><strong>El portero</strong> → el ADB inalámbrico: la forma de arrancar la puerta desde otro dispositivo o desde una</p>
+<p>computadora, sin cables y sin root.</p>
+<p><strong>La lista del vecino</strong> → las recopilaciones ajenas: útiles para descubrir, inútiles como garantía.</p>
+<p>---</p>
+<p><em>🏪 LA FICHA DE HOY — medida el sábado 31 de octubre de 2026</em></p>
+<p><strong><code>krishna3163/OmniShizuku</code></strong> — «An open-source Android utility for Shizuku, ADB, and Dhizuku</p>
+<p>workflows, with tools for Android phones, Android TV, and Wear OS.»</p>
+<ul>
+<li>★10 · licencia <strong>Apache-2.0</strong> verificada en su archivo <code>LICENSE</code></li>
+<li>creado el <strong>2026-10-24</strong> · último empuje <strong>hoy</strong></li>
+<li>lenguaje <strong>Kotlin</strong> · release etiquetada <code>latest</code> del <strong>2026-10-25</strong></li>
+<li>publica cuatro APK: manager y app, en versión debug y release</li>
+<li>declara soporte para <strong>teléfono, Android TV y Wear OS</strong></li>
+<li>trae README en <strong>siete idiomas</strong>, incluido <strong>español</strong> (<code>README.es.md</code>)</li>
+<li>temas declarados por el proyecto: adb · android-tv · device-owner · dhizuku · shizuku · wear-os ·</li>
+</ul>
+<p>  wireless-adb</p>
+<ul>
+<li><a href="https://github.com/krishna3163/OmniShizuku">https://github.com/krishna3163/OmniShizuku</a></li>
+</ul>
+<p><strong>Lo que comprobé y lo que no.</strong> Comprobé existencia, licencia, actividad, release y temas, contra la</p>
+<p>API oficial, hoy. <strong>No</strong> he auditado su código: no sé qué hace exactamente con cada permiso que pide.</p>
+<p>Eso queda firmado como ausencia y se dice antes de que alguien lo instale, no después.</p>
+<p><strong>La vecindad, también medida hoy:</strong></p>
+<ul>
+<li><strong><code>thedjchi/Shizuku</code></strong> — ★6.642 · Apache-2.0 · vivo · último empuje 2026-07-15 · release</li>
+</ul>
+<p>  <code>v13.7.0-thedjchi</code> del 02-jul.</p>
+<ul>
+<li><strong><code>iamr0s/Dhizuku</code></strong> — ★4.066 · GPL-3.0 · vivo · último empuje <strong>hoy</strong> · release <code>v2.13.0</code> del</li>
+</ul>
+<p>  2026-10-30.</p>
+<ul>
+<li><strong><code>krishna3163/best_shizuku_apps_for_android_no_root</code></strong> — ★158 · sin archivo de licencia, pero el</li>
+</ul>
+<p>  README declara <strong>CC BY-SA 3.0</strong> (verificado en su sección License) · vivo · empuje de hoy.</p>
+<p>---</p>
+<p><em>🛠️ EL TUTORIAL — el taller, paso por paso</em></p>
+<p><strong>Antes de empezar: qué necesitas.</strong></p>
+<ul>
+<li>Un teléfono con Android 11 o superior (el ADB inalámbrico con emparejamiento por código llegó ahí).</li>
+<li>La app de Shizuku instalada desde su propio repositorio.</li>
+<li>Opcional: una computadora o un segundo teléfono para el primer arranque.</li>
+<li>Diez minutos y un poco de paciencia. No necesitas root.</li>
+</ul>
+<p><strong>Paso 1 — entiende qué estás dando.</strong></p>
+<p>Shizuku no te da superpoderes: te da un permiso delegado. Lo que la app pueda hacer, lo hará **como si</p>
+<p>fuera el sistema**. Léelo otra vez antes de seguir.</p>
+<p><strong>Paso 2 — instala Shizuku desde su casa.</strong></p>
+<p>Del repositorio oficial, no de un espejo. La regla de la casa: si el proyecto nombra su dominio</p>
+<p>canónico, ese enlace manda.</p>
+<p><strong>Paso 3 — arranca la puerta.</strong></p>
+<p>Dos caminos, y solo dos honestos:</p>
+<ul>
+<li><strong>Con root:</strong> Shizuku arranca solo al encender. Es el camino cómodo y el que más poder concentra.</li>
+<li><strong>Sin root:</strong> activas <em>Opciones de desarrollador</em> → <em>Depuración inalámbrica</em> → *Emparejar</li>
+</ul>
+<p>  dispositivo con código*, y desde la app de Shizuku haces el emparejamiento. Al reiniciar el</p>
+<p>  teléfono, <strong>la puerta se cierra</strong> y hay que volver a abrirla. Eso no es un defecto: es el precio de</p>
+<p>  no tener root.</p>
+<p><strong>Paso 4 — comprueba que está viva.</strong></p>
+<p>En Shizuku verás el estado «en ejecución». Si dice que no, no sigas: sin puerta abierta, nada de lo</p>
+<p>que viene funciona, y forzarlo solo gasta batería.</p>
+<p><strong>Paso 5 — instala la utilidad.</strong></p>
+<p>OmniShizuku publica sus APK en sus releases. Descarga el <code>release</code>, no el <code>debug</code>, salvo que vayas a</p>
+<p>depurar algo.</p>
+<p><strong>Paso 6 — dale solo el permiso que necesita.</strong></p>
+<p>La primera vez te pedirá autorización de Shizuku. Concédela, úsala y, cuando termines, **revócala si</p>
+<p>no la vas a usar en semanas**. Un permiso que no se usa es una puerta abierta sin nadie dentro.</p>
+<p><strong>Paso 7 — prueba en algo pequeño.</strong></p>
+<p>Antes de tocar apps del sistema, prueba en una app tuya: congelar, descongelar, ver permisos. Si algo</p>
+<p>sale raro, ya sabes que el problema no era el teléfono.</p>
+<p><strong>Paso 8 — deja rastro.</strong></p>
+<p>Anota qué activaste y qué día. Es lo mismo que hace este archivo: lo que no tiene fecha, no se puede</p>
+<p>auditar después.</p>
+<p><strong>Las tres advertencias que no se negocian:</strong></p>
+<p>1. <strong>Shizuku no es root y no salta la verificación de Google.</strong> Ninguna app seria te va a prometer eso.</p>
+<p>2. <strong>El permiso delegado es poder.</strong> Quien lo tiene puede congelar apps, cambiar ajustes y, según la</p>
+<p>   app, leer cosas que no debería.</p>
+<p>3. <strong>Wear OS y Android TV no son teléfonos.</strong> Que una utilidad diga que los soporta no significa que</p>
+<p>   todas sus funciones tengan sentido en un reloj.</p>
+<p>---</p>
+<p><em>📚 LA LISTA DEL VECINO — cómo se usa una recopilación ajena</em></p>
+<p>El dueño trajo una lista curada de apps Shizuku y alternativas sin root. La medí antes de opinar.</p>
+<ul>
+<li><strong>1.273</strong> repositorios citados.</li>
+<li><strong>1.123</strong> no estaban en el archivo de la casa: se midieron hoy, una por una.</li>
+<li><strong>42</strong> de los citados devolvieron <strong>404</strong>: ya no existen.</li>
+<li>De los nuevos, <strong>1.046 siguen vivos</strong> y <strong>234 no declaran ninguna licencia</strong>.</li>
+</ul>
+<p><strong>Cómo se usa bien:</strong> como radar. Abre la lista, encuentra un nombre que no conocías, y **verifícalo</p>
+<p>tú** antes de instalar. La lista te ahorra la búsqueda; no te ahorra el juicio.</p>
+<p><strong>Cómo se usa mal:</strong> copiarla y publicarla como si fuera una garantía. Un enlace citado no es un</p>
+<p>recurso vivo, y 42 de sus enlaces ya lo demuestran.</p>
+<p>---</p>
+<p><em>😄 EL MEME DE LA CASA</em></p>
+<p><strong>El que instala 47 apps de Shizuku y no usa ninguna:</strong></p>
+<p>— Compa, ya tengo el taller completo.</p>
+<p>— ¿Y qué arreglaste?</p>
+<p>— Nada, pero mira to' lo que puedo arreglar.</p>
+<p><em>Moraleja:</em> el permiso no es el oficio. Empieza con una app, domínala, y después amplías el taller.</p>
+<p>---</p>
+<p><em>❓ PREGUNTAS Y RESPUESTAS</em></p>
+<p><strong>1. ¿Shizuku me da root?</strong></p>
+<p>No. Presta permisos de sistema sin tocar el sistema. Es un puente, no una llave maestra.</p>
+<p><strong>2. ¿Se pierde al reiniciar?</strong></p>
+<p>Sin root, sí: la puerta se cierra y hay que volver a abrirla por ADB inalámbrico.</p>
+<p><strong>3. ¿Es peligroso?</strong></p>
+<p>Es poder delegado. Peligroso es dárselo a cualquier app sin mirar quién la hizo y qué pide.</p>
+<p><strong>4. ¿Por qué recomiendas una utilidad de ★10?</strong></p>
+<p>Porque las estrellas miden popularidad, no mérito. La ficha lo dice todo: Apache-2.0 verificada,</p>
+<p>empuje de hoy, release publicada, siete idiomas. Con diez estrellas y todo eso, es más confiable que</p>
+<p>un proyecto con miles y seis meses quieto.</p>
+<p><strong>5. ¿Y si la utilidad desaparece mañana?</strong></p>
+<p>Por eso se archiva. Lo que se cita con fecha se puede volver a medir; lo que se recuerda, no.</p>
+<p><strong>6. ¿Puedo usar dos utilidades a la vez?</strong></p>
+<p>Puedes. Deberías usar una y entenderla antes de sumar la segunda.</p>
+<p><strong>7. ¿Sirve en un Android TV?</strong></p>
+<p>El proyecto dice que sí. Yo no lo he probado en un televisor, y eso lo digo antes de que lo compres.</p>
+<p><strong>8. ¿Y en Wear OS?</strong></p>
+<p>Igual: lo declara, no lo he probado. Lo declaro como declaración, no como hecho verificado.</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>REV|.toor ad on ,ametsis led sosimrep atserp ukuzihS :ertseuP=1|REV|.alrirba a revlov euq yah y raicinier la arreic es atreup al toor nis :oN=2|REV|.asu es on odnauc acover es y econoc es neiuq a edecnoc es ose rop :odageled redop sE=3|REV|.esaeler y ejupme ,aicnecil :otirém edim ahcif al y dadiralupop nedim sallertse sal euqroP=4|REV|.ridem a revlov edeup es odatic ol :olles y ahcef noc avihcra es ose roP=5|REV|.adnuges al ramus ed setna anu ranimod eneivnoc orep ,sedeuP=6|REV|.rosivelet nu ne odaborp eh ol on oy ;aralced ol otceyorp lE=7|REV|.asac al rop odacifirev on ,otceyorp le rop odaralced :roiretna le euq laugI=8|REV|TIM=9</p>
+<p>---</p>
+<p><em>👶 CÓMO SE LEE ESTO SEGÚN TU EDAD</em></p>
+<p><strong>Si tienes menos de 12 años:</strong> no lo instales solo. Pídele a un adulto que lea contigo el Paso 1.</p>
+<p>Shizuku presta permisos del sistema y eso no es un juguete. Lo que sí puedes hacer es entender la</p>
+<p>idea: hay una puerta que se abre con permiso y se cierra al salir.</p>
+<p><strong>Si tienes entre 13 y 17:</strong> es el mejor momento para aprenderlo, y el peor para hacerlo con prisa.</p>
+<p>Empieza por una sola app, la que de verdad necesites. Si no puedes explicar qué permiso diste y para</p>
+<p>qué, no lo des.</p>
+<p><strong>Si tienes entre 18 y 40:</strong> este es tu terreno. Úsalo con la disciplina de un taller: una herramienta</p>
+<p>a la vez, con su nombre y su fecha. Lo que vas a ganar no es control sobre el teléfono, es criterio.</p>
+<p><strong>Si tienes más de 60:</strong> no necesitas Shizuku para casi nada, y eso también es una respuesta. Lo que</p>
+<p>sí te sirve de esta guía es la regla: si una app te pide permiso para cosas que no tienen que ver con</p>
+<p>lo que hace, no la instales. Nadie te va a regañar por desconfiar.</p>
+<p>---</p>
+<p><em>🔧 CONSEJOS SEGÚN QUIÉN ERES</em></p>
+<p><strong>Si eres el que apenas empieza:</strong> instala Shizuku y una sola app. Nada más. Una semana usando una</p>
+<p>herramienta enseña más que veinte instaladas sin abrir.</p>
+<p><strong>Si eres el que ya tiene root:</strong> Shizuku te va a parecer poca cosa. No lo descartes: hay apps que</p>
+<p>piden Shizuku y no root, y el día que cambies de teléfono lo vas a agradecer.</p>
+<p><strong>Si eres técnico y auditas código:</strong> el proyecto es Kotlin, Apache-2.0 y pequeño. Puedes leerlo. La</p>
+<p>ficha de la casa te da commit, release y fecha para que sepas qué versión exacta auditar.</p>
+<p><strong>Si administras el teléfono de otra persona</strong> (madre, hijo, cliente): no instales utilidades de</p>
+<p>permisos delegados sin decir qué hacen. Lo que se estrella después es la confianza, no el teléfono.</p>
+<p><strong>Si eres curioso y no quieres instalar nada:</strong> quédate con el mapa mental. Entender que existe una</p>
+<p>puerta sin llave ya te hace mejor usuario que el que acepta cualquier APK que le llega por WhatsApp.</p>
+<p><strong>Si eres el dueño de un proyecto medido:</strong> tienes derecho de réplica. Si algo de esta pieza está mal,</p>
+<p>se corrige y se publica la errata con tu nombre y la fecha.</p>
+<p>---</p>
+<p><em>🔍 LA VARA — cómo verifiqué esto, hoy</em></p>
+<ul>
+<li><strong>Fuente primaria:</strong> API oficial de GitHub, consultada el <strong>2026-10-31</strong>, con el payload guardado y</li>
+</ul>
+<p>  sellado por SHA-256 en el registro de la casa.</p>
+<ul>
+<li><strong>Registro:</strong> <strong>6.830 fichas</strong> medidas; <strong>2.644</strong> con fecha de hoy.</li>
+<li><strong>Licencia:</strong> por orden — SPDX → endpoint → texto del archivo → ausencia firmada. OmniShizuku tiene</li>
+</ul>
+<p>  archivo <code>LICENSE</code> y su identificador es Apache-2.0. La lista del vecino no tiene archivo: se leyó su</p>
+<p>  sección License y declara CC BY-SA 3.0.</p>
+<ul>
+<li><strong>Lo que no se midió:</strong> el comportamiento del código. Ninguna ficha de esta casa audita binarios.</li>
+<li><strong>Lo que se corrigió hoy, y se dice:</strong> el medidor de licencias leyó primero un «MIT» de una tabla y</li>
+</ul>
+<p>  marcó mal la lista del vecino. Se corrigió para leer la sección de licencia y para **declarar</p>
+<p>  ambigüedad** cuando hay varias, en vez de elegir por gusto.</p>
+<p>---</p>
+<p><em>📖 GLOSARIO</em></p>
+<p><strong>Shizuku</strong> — app que presta permisos de sistema sin root, mediante un servidor local.</p>
+<p><strong>Dhizuku</strong> — app que presta permisos de dueño de dispositivo (Device Owner).</p>
+<p><strong>ADB</strong> — Android Debug Bridge; el puente de depuración del sistema.</p>
+<p><strong>ADB inalámbrico</strong> — ADB por Wi-Fi, con emparejamiento por código en Android 11+.</p>
+<p><strong>Device Owner</strong> — figura administrativa que puede gobernar el dispositivo.</p>
+<p><strong>Permiso delegado</strong> — permiso que un dueño presta a una app, y que puede retirarse.</p>
+<p><strong>SPDX</strong> — identificador estándar de licencia, el que se puede citar sin interpretar.</p>
+<p><strong>Ausencia firmada</strong> — declarar que no hay licencia, en vez de inventar una.</p>
+<p>---</p>
+<p><em>🔗 ENLACES</em></p>
+<ul>
+<li>Shizuku (el original): <a href="https://github.com/thedjchi/Shizuku">https://github.com/thedjchi/Shizuku</a></li>
+<li>Dhizuku: <a href="https://github.com/iamr0s/Dhizuku">https://github.com/iamr0s/Dhizuku</a></li>
+<li>OmniShizuku (la utilidad de esta pieza): <a href="https://github.com/krishna3163/OmniShizuku">https://github.com/krishna3163/OmniShizuku</a></li>
+<li>La lista curada, como radar y no como garantía:</li>
+</ul>
+<p>  <a href="https://github.com/krishna3163/best_shizuku_apps_for_android_no_root">https://github.com/krishna3163/best_shizuku_apps_for_android_no_root</a></p>
+<ul>
+<li>El archivo completo: <a href="https://github.com/Alex17273747576777/la-bandita-archivo">https://github.com/Alex17273747576777/la-bandita-archivo</a></li>
+</ul>
+<p>---</p>
+<p>💓 4 repos y 5 enlaces medidos el 31-oct-2026 (API oficial de GitHub); 4 vivos, 0 firmados con su</p>
+<p>estado en la ficha sellada. Lo que no se midió —el comportamiento del código— queda dicho arriba, no</p>
+<p>escondido.</p>
+<p><em>La Bandita verifica antes de recomendar. Sábado 31 de octubre de 2026.</em></p>
+<p>#Shizuku #SinRoot #Android #Dhizuku #ADBInalámbrico #AndroidTV #WearOS #SoftwareLibre #LaBandita</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

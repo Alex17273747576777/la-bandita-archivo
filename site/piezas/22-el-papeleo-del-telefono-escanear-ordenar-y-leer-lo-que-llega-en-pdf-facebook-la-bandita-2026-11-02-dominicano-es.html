@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="El papeleo del teléfono: escanear, ordenar y leer lo que llega en PDF">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>El papeleo del teléfono: escanear, ordenar y leer lo que llega en PDF</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "El papeleo del teléfono: escanear, ordenar y leer lo que llega en PDF", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "2 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>El papeleo del teléfono: escanear, ordenar y leer lo que llega en PDF</h1>
+<p class="meta">Facebook · 2 de noviembre de 2026 · 40,214 caracteres</p>
+<p><em>El papeleo del teléfono: escanear, ordenar y leer lo que llega en PDF</em></p>
+<p><em>La Bandita · lunes 2 de noviembre de 2026 · edición dominicano-español · pieza 22 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 📄 Los tres trabajos del papeleo
+├── 🎬 Cuatro escenas de esta mañana
+├── 🧾 Los diez, uno por uno, con su fecha
+├── 📷 Del papel al PDF con texto
+├── 🗄️ El archivo que se busca solo
+├── ⚖️ La raya de los papeles con datos
+├── 🛠️ Probar el papeleo en seis pasos
+├── 🧮 Las cuentas del escritorio
+├── ❓ Preguntas que me hacen
+└── 📊 Tabla, mitos, glosario y enlaces
+</pre>
+<p><em>⚡ En una página</em></p>
+<p>Casi todo lo que llega hoy a un teléfono llega en PDF: una factura, una receta, un contrato de trabajo, el recibo de la luz, la carta del banco, la tarea del muchacho. Y casi nadie tiene con qué leerlo bien, menos aún con qué escanearlo y muchísimo menos con qué encontrarlo tres meses después. Ese es el papeleo, y esta mañana se midieron diez programas que lo resuelven por partes: dos que escanean, cinco que leen, tres que ordenan y buscan dentro de lo leído. Juntos suman ★311.355, y ninguno de los diez cuesta un centavo.</p>
+<p>Los números de la mañana dicen dónde está el trabajo pesado. Los dos gigantes —Stirling PDF con ★95.558 y Tesseract con ★77.298— no son aplicaciones de teléfono: son el motor y la caja de herramientas que otros usan. Los dos con empujón de hoy. Y en el otro extremo está un escáner con ★1.544 cuya última publicación de paquete es del 22 de julio de 2020: sigue instalándose, sigue escaneando y nadie lo ha tocado en más de seis años. Entre esos extremos vive todo lo demás.</p>
+<p>Hay un dato que ordena la decisión mejor que cualquier recomendación: cuatro de los diez no publican paquete nunca o casi nunca y hay que compilarlos, mientras tres publicaron versión en los últimos cuatro días. Y hay dos licencias que la ficha automática no supo leer —Stirling PDF y OpenNoteScanner— y que el archivo del repositorio sí declara: MIT el primero, GPL-3.0 el segundo. Esas dos se publican con las dos versiones, como manda la casa.</p>
+<p>La utilidad práctica de esta guía es corta: si lo que quieres es leer un PDF y ya, hay un lector de ★1.062 que hace una sola cosa; si quieres escanear el papeleo de la casa, hay dos caminos, uno que se instala y uno que se compila; y si quieres encontrar dentro del papel lo que dice, hay dos programas que convierten imagen en texto y uno que además guarda, etiqueta y busca. Lo demás es fecha, licencia y paciencia.</p>
+<p>───────────────────</p>
+<p><em>📄 Los tres trabajos del papeleo</em></p>
+<p>El papeleo no es una sola tarea y por eso no tiene una sola herramienta. Son tres trabajos distintos, con tres clases de programa distinta, y confundirlos es la razón por la que la gente termina con cinco aplicaciones instaladas y ninguna que sirva.</p>
+<p><em>Primer trabajo: capturar.</em> Convertir un papel en una imagen decente. Aquí manda la cámara: luz, ángulo, sombra y pulso. Un escáner bueno corrige la perspectiva, recorta los bordes, endereza el texto y convierte todo en un PDF de una página por hoja. OpenNoteScanner (★1.544) hace exactamente eso y nada más, y lo hace desde 2016 con el último paquete firmado en 2020. La otra vía es la cámara de una aplicación de notas que ya tengas, y no es despreciable: la mitad de los escaneos del mundo se hacen así.</p>
+<p><em>Segundo trabajo: reconocer.</em> Convertir la imagen en texto que se pueda buscar y copiar. Aquí el nombre que aparece en todas partes es Tesseract (★77.298, Apache-2.0), el motor de reconocimiento óptico que llevan dentro muchísimos otros programas; y por encima de él, OCRmyPDF (★35.209, MPL-2.0), que toma un PDF escaneado y le añade una capa de texto invisible sin tocar la imagen original. Ese detalle —no tocar la imagen— es lo que hace que un PDF siga siendo el documento y a la vez sea buscable.</p>
+<p><em>Tercer trabajo: ordenar y encontrar.</em> Guardar miles de documentos y poder preguntar «la factura de la luz de marzo» y que aparezca. Ahí está paperless-ngx (★47.563, GPL-3.0), que vigila una carpeta, reconoce el texto, adivina el tipo de documento y lo archiva con etiquetas; y a su lado, en la parte más artesanal, dos lectores de teléfono que abren el PDF y lo dejan legible: GrapheneOS PdfViewer (★1.062, MIT) y Parchment (★3.590, Apache-2.0).</p>
+<p>A esos tres trabajos se suman dos programas que sirven para lo mismo por otro camino: Pandoc (★46.784, GPL-2.0), que convierte documentos entre formatos y es el cuchillo suizo del que escribe, y las dos herramientas de escritorio que completan la caja: Stirling PDF (★95.558) para partir, unir, firmar, comprimir y rotar sin subir nada a internet, y OpenPDF (★4.385, con su propia discrepancia de licencia anotada) para quien programa en Java y necesita leer PDF desde código.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cuatro escenas de esta mañana</em></p>
+<p><em>Escena uno: la factura de la luz.</em> Llega un PDF al correo, se abre en el teléfono, se ve pequeño, se hace zoom, se pierde el renglón, se cierra. Diez minutos después hay que enseñarlo en una oficina y no aparece. Un lector de PDF sencillo de los que se midieron hoy resuelve la mitad del problema: abre rápido, recuerda la última página, permite girar y no pide nada. La otra mitad la resuelve el nombre del archivo, que es gratis y casi nadie usa.</p>
+<p><em>Escena dos: el contrato firmado a mano.</em> Un contrato llega impreso, se firma con bolígrafo, hay que devolverlo. Se fotografía con el teléfono torcido, con sombra de la mano y el borde de la mesa. OpenNoteScanner, si está instalado, endereza y aclara; si no está, la foto torcida se manda igual y vuelve rechazada. Ese es todo el argumento del escáner, y con eso basta.</p>
+<p><em>Escena tres: la carpeta de los estudios.</em> Alguien tiene trescientos documentos: títulos, certificados, recibos, cartas del seguro. Los tiene en el teléfono con nombres como «IMG_20240312» y una carpeta llamada «documentos importantes» con todo revuelto. paperless-ngx, montado en una computadora o en una cajita siempre encendida, los indexa y permite buscar dentro del texto. La primera tarde cuesta; la primera búsqueda que devuelve un certificado de hace cuatro años en dos segundos paga la tarde.</p>
+<p><em>Escena cuatro: el PDF que no abre.</em> Un PDF pesa cuarenta megas, el teléfono lo abre a medias y se cierra. Aquí entra Stirling PDF, que se instala en la computadora o se corre en un contenedor y parte el documento en tres, lo comprime o extrae solo las páginas que hacen falta. No es una aplicación de teléfono y no pretende serlo; es la caja de herramientas del escritorio, y como casi todo lo bueno de esta guía, funciona sin mandar el documento a ningún servidor ajeno.</p>
+<p>───────────────────</p>
+<p><em>🧾 Los diez, uno por uno, con su fecha</em></p>
+<p><em>Stirling PDF · Stirling-Tools/Stirling-PDF · ★95.558 · licencia declarada en el archivo: MIT, con partes bajo otras licencias · la ficha automática dice NOASSERTION · TypeScript · empujón 2 de noviembre de 2026 · versión v3.2.2 del 24 de octubre de 2026.</em> El número más alto de la mañana y el que más gente usa sin saber su nombre. Se corre en la computadora, en un contenedor o en una cajita de la casa; une, parte, comprime, firma, rota y reconoce texto, y no manda el documento afuera salvo que uno lo configure para eso. La discrepancia de licencia se debe a que el archivo de licencia contiene el texto del MIT y, a continuación, un párrafo de excepciones por partes; la ficha automática no lo resume y devuelve «sin conclusión».</p>
+<p><em>Tesseract · tesseract-ocr/tesseract · ★77.298 · Apache-2.0 · C++ · empujón 2 de noviembre de 2026 · versión 5.5.4 del 28 de octubre de 2026.</em> El motor de reconocimiento que está debajo de media docena de programas que la gente usa a diario. No tiene interfaz: es la pieza que mira una imagen y devuelve letras. Apache-2.0 lo hace amigable para cualquiera que quiera meterlo en su programa, y por eso está en tantos sitios.</p>
+<p><em>paperless-ngx · paperless-ngx/paperless-ngx · ★47.563 · GPL-3.0 · Python · empujón 2 de noviembre de 2026 · versión v3.4.1 del 31 de octubre de 2026.</em> El archivo del papeleo, en el sentido literal: vigila una carpeta, lee lo que entra, propone etiqueta, guarda el original y deja buscar dentro del texto. Empujón de hoy y paquete del sábado: el proyecto más cuidado de los diez en términos de entrega.</p>
+<p><em>Pandoc · jgm/pandoc · ★46.784 · GPL-2.0 · Haskell · empujón 2 de noviembre de 2026 · versión 3.13 del 26 de octubre de 2026.</em> El conversor universal de documentos: de Markdown a PDF, de Word a texto, de HTML a lo que sea. No es un lector ni un escáner: es el programa que evita tener que abrir un formato raro para sacarle lo que dice. GPL-2.0 y una vida de más de una década.</p>
+<p><em>OCRmyPDF · ocrmypdf/OCRmyPDF · ★35.209 · MPL-2.0 · Python · empujón 25 de octubre de 2026 · versión v17.13.0 del 28 de septiembre de 2026.</em> Añade a un PDF escaneado una capa de texto invisible, sin tocar la imagen. Su licencia MPL-2.0 es menos común en esta serie y conviene saber qué significa: los archivos modificados del propio proyecto se comparten, y se puede usar dentro de programas más grandes con otras licencias.</p>
+<p><em>OpenPDF · LibrePDF/OpenPDF · ★4.385 · licencia declarada en el archivo, ficha automática en NOASSERTION · Java · empujón 12 de octubre de 2026.</em> La pieza para quien programa: leer, escribir y manipular PDF desde código Java. Se nombra aquí para que nadie confunda el motor con la aplicación; si tu interés es leer facturas, no es tu programa.</p>
+<p><em>Parchment · AhmadHassan-BTed/Parchment · ★3.590 · Apache-2.0 · Kotlin · empujón 30 de junio de 2026 · sin publicación de paquete.</em> Lector de PDF para Android con cuatro meses de silencio y ninguna versión publicada: para usarlo hay que compilarlo. Es el caso más claro de la mañana sobre lo que significa «no hay paquete»: miles de personas interesadas y ningún archivo instalable.</p>
+<p><em>book-story · Acclorite/book-story · ★1.418 · GPL-3.0 · Kotlin · empujón 1 de noviembre de 2026 · versión v1.8.0 del 13 de octubre de 2025.</em> Lector de libros y documentos en el teléfono; empuja ayer y su último paquete tiene más de un año. Un año de código sin entrega es exactamente lo que hay que saber antes de instalarlo: lo que bajes no es lo que están haciendo.</p>
+<p><em>episteme · Aryan-Raj3112/episteme · ★1.329 · AGPL-3.0 · Kotlin · empujón 10 de octubre de 2026 · versión v1.0.58-oss del 9 de octubre de 2026.</em> Lector con vida de versiones numerosas y pequeñas, paquete del mismo día de su último empujón. La AGPL-3.0 importa si alguien piensa ofrecerlo como servicio; para uso propio, no cambia nada.</p>
+<p><em>OpenNoteScanner · allgood/OpenNoteScanner · ★1.544 · licencia declarada en el archivo: GPL-3.0 · la ficha automática dice NOASSERTION · Kotlin · empujón 23 de abril de 2025 · versión 1.0.35-fdroid del 22 de julio de 2020.</em> El escáner de la vieja escuela: enfoca, detecta el borde del papel, lo endereza y arma el PDF. Seis años sin paquete nuevo y sigue instalándose en teléfonos de hoy, lo que dice mucho del programa y muy poco del mantenimiento.</p>
+<p>───────────────────</p>
+<p><em>📷 Del papel al PDF con texto</em></p>
+<p>El recorrido completo, para quien tenga el papeleo encima de la mesa y quiera terminar hoy.</p>
+<p><em>El original siempre se guarda.</em> El primer error es tirar el papel después de escanear. La foto del teléfono sirve para casi todo, y no sirve como prueba legal cuando alguien discute una firma. Guarda el original un tiempo prudente; el archivo digital es una copia cómoda, no un sustituto absoluto.</p>
+<p><em>La foto se hace con luz de día y sin sombra de mano.</em> Suena obvio y es la diferencia entre un reconocimiento que funciona y uno que devuelve basura. Papel sobre mesa, luz de ventana, teléfono paralelo y quieto. Si el escáner detecta bordes, deja que los detecte; si no, recorta después y no antes.</p>
+<p><em>El reconocimiento va después, no antes.</em> Primero el PDF con las imágenes en orden; luego la capa de texto. Hacerlo al revés obliga a repetir el trabajo cuando una página sale torcida. Con OCRmyPDF el comando típico toma el PDF, lo procesa y devuelve el mismo documento con texto seleccionable, y si una página ya tenía texto no la vuelve a procesar.</p>
+<p><em>El nombre del archivo es la mitad del archivo.</em> Un criterio que funciona y no requiere programa: año, mes, día, tipo y quien lo emite, separados por guiones, en ese orden. Así se ordenan solos y se buscan sin abrir. Lo que no se nombra se pierde, aunque el texto esté reconocido.</p>
+<p><em>La carpeta vigilada es la que hace la magia.</em> paperless-ngx consume lo que entra a una carpeta; si el documento se llama bien y viene de un escáner, la etiqueta se acierta casi siempre. La primera semana hay que corregir etiquetas a mano; después el sistema aprende de sus propios errores y acierta más.</p>
+<p>Y un consejo que ahorra discusiones: el papeleo de la casa no necesita estar en el teléfono. Necesita estar en un sitio con copia y poder consultarse desde el teléfono. Esa distinción evita llenar el aparato de fotos de facturas que nadie va a volver a mirar.</p>
+<p>───────────────────</p>
+<p><em>🗄️ El archivo que se busca solo</em></p>
+<p>Tener los documentos no es tener el archivo. El archivo empieza cuando puedes responder tres preguntas sin abrir carpetas: qué tengo, de cuándo es y dónde está.</p>
+<p><em>Qué tengo.</em> Un índice por tipo: identidad, vivienda, salud, trabajo, vehículo, escuela, impuestos. Cada tipo con su carpeta y su año. Parece burocracia y es lo que permite, en una emergencia, saber en treinta segundos si falta un papel.</p>
+<p><em>De cuándo es.</em> La fecha del documento, no la del escaneo. Un recibo escaneado en 2026 puede ser de 2019. Si el archivo guarda solo la fecha en que entró, la cronología se vuelve inútil.</p>
+<p><em>Dónde está.</em> Una copia en el equipo principal y una copia fuera: un disco externo, otra computadora de la casa o un servicio que cifre antes de subir. La regla de la casa es simple: dos copias y un sitio distinto; una sola copia no es una copia.</p>
+<p>Con esas tres cosas, paperless-ngx deja de ser un lujo y pasa a ser la herramienta que responde. Sin ellas, es un programa más que guarda desorden con mejor interfaz.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La raya de los papeles con datos</em></p>
+<p>El papeleo es la parte de esta serie donde la privacidad no es un tema abstracto: son números de cuenta, diagnósticos, contratos y firmas.</p>
+<p><em>Lo que se sube a un servicio gratuito de conversión de PDF se está entregando.</em> Los conversores en línea resuelven en treinta segundos y cobran con el documento. Para una receta médica o un contrato, eso no es un intercambio razonable. La alternativa de esta mañana —Stirling PDF en la computadora, OCRmyPDF en la computadora, paperless-ngx en la casa— existe precisamente para eso.</p>
+<p><em>Cifrar antes de sacar de casa.</em> Un disco externo que viaja sin cifrar es un documento perdido esperando. Un archivo comprimido con contraseña decente y la contraseña por otro canal resuelve el 90 % de los casos domésticos, y no requiere saber nada de criptografía.</p>
+<p><em>Compartir es una decisión, no un gesto.</em> Mandar una foto del carné por mensajería para «que me ayuden con el trámite» es entregar el documento a un grupo. Recortar, tapar lo que no hace falta y preferir un enlace que caduque son hábitos de treinta segundos.</p>
+<p>Y la raya de la casa, dicha sin sermón: no se publican documentos personales ajenos, no se reparten plantillas falsas de facturas ni de certificados, y no se enseña a fabricar un papel que parezca oficial. Lo que hay aquí son programas para leer, reconocer y ordenar lo que ya es tuyo.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Probar el papeleo en seis pasos</em></p>
+<p><em>Paso uno: elige el lector antes que el escáner.</em> Un lector ligero y libre en el teléfono resuelve el 80 % de los PDF que llegan. GrapheneOS PdfViewer hace una sola cosa y la hace sin pedir permisos raros; Parchment promete más y exige compilar. Empieza por el que se instala en un minuto.</p>
+<p><em>Paso dos: prueba con el PDF más feo que tengas.</em> El de cuarenta megas, el escaneado torcido, el que tiene doscientas páginas. Si el lector abre ese, abre todos. Si se cierra, ya sabes que el problema no era el documento.</p>
+<p><em>Paso tres: escanea una página y mira el resultado con lupa.</em> ¿El borde está recto? ¿Se lee el pie de página? ¿Pesa menos de dos megas? Un escáner que devuelve imágenes de ocho megas por hoja te va a llenar el teléfono en una semana.</p>
+<p><em>Paso cuatro: añade texto y busca dentro.</em> Pasa el PDF escaneado por OCRmyPDF en la computadora y luego busca una palabra que sepas que está en la página tres. Si aparece, el reconocimiento sirvió; si no, suele ser la foto y no el programa.</p>
+<p><em>Paso cinco: monta la carpeta vigilada con diez documentos, no con trescientos.</em> Un archivo pequeño enseña las mañas del sistema sin arruinar la tarde. Cuando las etiquetas salgan bien en esos diez, entra el resto.</p>
+<p><em>Paso seis: prueba la copia antes de confiar.</em> Copia la carpeta a un disco externo, borra un documento del original y recupéralo del disco. La copia que no se ha probado no es una copia: es una esperanza.</p>
+<p>───────────────────</p>
+<p><em>🧮 Las cuentas del escritorio</em></p>
+<p><em>Primera cuenta: el peso de las estrellas.</em> Los diez suman ★311.355. Los cinco primeros —Stirling, Tesseract, paperless, Pandoc, OCRmyPDF— se llevan ★302.412, es decir el 97 %. Los cinco pequeños de teléfono y escritorio se reparten ★8.943. El interés del público está en las herramientas de escritorio que casi nadie instala en el teléfono, y las aplicaciones que la gente sí usa a diario son las que menos estrellas tienen.</p>
+<p><em>Segunda cuenta: quién trabaja hoy.</em> Cinco empujaron entre el 1 y el 2 de noviembre: Stirling, Tesseract, paperless, Pandoc y book-story. Tres empujaron en octubre: OCRmyPDF, PdfViewer y episteme. Dos llevan meses o años callados: Parchment desde el 30 de junio y OpenNoteScanner desde abril de 2025, con paquete de julio de 2020.</p>
+<p><em>Tercera cuenta: las entregas.</em> Cinco de los diez publicaron versión en las últimas dos semanas: Stirling (24 de octubre), Tesseract (28), paperless (31), Pandoc (26) y episteme (9 de octubre). Uno no ha publicado nunca (Parchment), uno tiene año y medio de brecha (OpenNoteScanner, seis años) y uno tiene más de un año (book-story).</p>
+<p>───────────────────</p>
+<p><em>🎯 El caso del certificado que apareció en dos segundos</em></p>
+<p>Un hombre necesitaba un certificado de estudios de hace once años para un trámite. Lo tenía escaneado, sabía que lo tenía, y llevaba dos horas abriendo carpetas con nombres como «documentos», «documentos 2» y «escaneos viejos». Lo encontró cuando alguien le preguntó si su archivo tenía texto buscable. No lo tenía: eran fotos.</p>
+<p>La tarde siguiente pasó por reconocimiento trescientos documentos y los metió en una carpeta vigilada. Al día siguiente escribió «certificado» en el buscador y salió en dos segundos, con la fecha del documento y el nombre del centro. Lo que cambió no fue la suerte: fue que el archivo dejó de ser un montón de imágenes y pasó a ser un archivo con texto dentro.</p>
+<p>Moraleja práctica: si tu papeleo son fotos, tienes imágenes; si tiene texto reconocido y un índice, tienes archivo. La diferencia se paga una vez, en una tarde, y se cobra cada vez que alguien pide un papel.</p>
+<p>───────────────────</p>
+<p><em>🧷 Lo que no hace ninguno de los diez</em></p>
+<p>Ninguno de los diez arregla el problema de fondo, que es que el papel sigue llegando. Ninguno impide que el banco mande el estado de cuenta en un formato que solo su aplicación abre. Ninguno sustituye a la carpeta física de los originales que hay que conservar por ley. Y ninguno decide por ti qué vale la pena guardar.</p>
+<p>Lo que sí hacen, y ya es bastante: leer lo que llega, convertir lo que se fotografía, encontrar lo que se guardó y no mandar nada afuera si uno no lo autoriza. Con eso, el papeleo deja de ser una caja de zapatos y pasa a ser un archivo que responde.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Necesito instalar los diez?</strong></p>
+<p>No. Con un lector en el teléfono y uno de los dos caminos de reconocimiento en la computadora se resuelve el 95 % del papeleo doméstico. Los demás son especialidades: partir PDF, convertir formatos, programar.</p>
+<p><strong>¿Puedo escanear solo con el teléfono, sin computadora?</strong></p>
+<p>Sí, y para la mayoría de la gente es suficiente: escáner en el teléfono, PDF en la carpeta, nombre correcto y copia en un disco. Lo que se pierde es el texto buscable dentro de los documentos viejos, que se recupera después en una sola tanda.</p>
+<p><strong>¿Qué es exactamente el reconocimiento óptico de caracteres?</strong></p>
+<p>El programa mira la imagen de una página, identifica formas de letras y escribe el texto que ve en una capa aparte, encima de la imagen. La imagen no se toca: por eso el documento sigue viéndose igual y además se puede buscar y copiar.</p>
+<p><strong>¿OpenNoteScanner, con paquete de 2020, todavía sirve?</strong></p>
+<p>En teléfonos donde se instala, sí: escanea, endereza y arma el PDF. El riesgo es que no habrá arreglos si una versión nueva de Android rompe algo. Se usa con esa advertencia y con la copia de los originales a mano.</p>
+<p><strong>¿Y Parchment, que no publica paquete?</strong></p>
+<p>Significa que para usarlo hay que compilar, con lo que eso implica: instalar herramientas, seguir instrucciones y firmar el paquete uno mismo. El dato de las ★3.590 dice que hay interés; la falta de publicación dice que ese interés no se traduce en un archivo instalable.</p>
+<p><strong>¿Stirling PDF manda mis documentos a algún sitio?</strong></p>
+<p>Tal como se instala en la casa, no: procesa en el equipo donde corre. La advertencia es para las versiones alojadas por terceros y para los conversores gratuitos de la web, que son otra cosa aunque tengan el mismo nombre en la pantalla.</p>
+<p><strong>¿Por qué dos fichas dicen NOASSERTION si tienen licencia?</strong></p>
+<p>Porque la ficha automática lee el archivo de licencia y, cuando encuentra texto adicional, no se atreve a resumir. En los dos casos el archivo del repositorio lo dice claro: MIT en Stirling PDF y GPL-3.0 en OpenNoteScanner. Se publican las dos versiones para que nadie discuta con la ficha.</p>
+<p><strong>¿paperless-ngx necesita un servidor?</strong></p>
+<p>Necesita un equipo encendido donde correr. Puede ser una computadora de la casa, una cajita pequeña o incluso un teléfono viejo con un entorno adecuado. Si no hay equipo encendido, la alternativa es la carpeta bien nombrada y el buscador del sistema.</p>
+<p><strong>¿Cómo se comparte un documento sensible sin regalarlo?</strong></p>
+<p>Recortando lo que no hace falta, tapando números y mandando por un canal que no sea un grupo. Si hay que dar acceso, un enlace que caduque o un archivo cifrado con contraseña dicha por otro medio.</p>
+<p><strong>¿Qué hago con los originales en papel?</strong></p>
+<p>Guardarlos un tiempo prudente en una carpeta física por tipo y año, con lo que la ley exija conservar. El escaneo es la copia cómoda; el original sigue siendo el original cuando alguien discute.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Los diez medidos, en una línea</em></p>
+<table>
+<tr><th>Proyecto</th><th>Estrellas</th><th>Licencia</th><th>Empujón</th><th>Última versión</th></tr>
+<tr><td>Stirling PDF</td><td>★95.558</td><td>MIT (ficha: NOASSERTION)</td><td>2-nov-2026</td><td>v3.2.2 · 24-oct-2026</td></tr>
+<tr><td>Tesseract</td><td>★77.298</td><td>Apache-2.0</td><td>2-nov-2026</td><td>5.5.4 · 28-oct-2026</td></tr>
+<tr><td>paperless-ngx</td><td>★47.563</td><td>GPL-3.0</td><td>2-nov-2026</td><td>v3.4.1 · 31-oct-2026</td></tr>
+<tr><td>Pandoc</td><td>★46.784</td><td>GPL-2.0</td><td>2-nov-2026</td><td>3.13 · 26-oct-2026</td></tr>
+<tr><td>OCRmyPDF</td><td>★35.209</td><td>MPL-2.0</td><td>25-oct-2026</td><td>v17.13.0 · 28-sep-2026</td></tr>
+<tr><td>OpenPDF</td><td>★4.385</td><td>ficha: NOASSERTION</td><td>12-oct-2026</td><td>—</td></tr>
+<tr><td>Parchment</td><td>★3.590</td><td>Apache-2.0</td><td>30-jun-2026</td><td>sin paquete</td></tr>
+<tr><td>OpenNoteScanner</td><td>★1.544</td><td>GPL-3.0 (ficha: NOASSERTION)</td><td>23-abr-2025</td><td>1.0.35 · 22-jul-2020</td></tr>
+<tr><td>book-story</td><td>★1.418</td><td>GPL-3.0</td><td>1-nov-2026</td><td>v1.8.0 · 13-oct-2025</td></tr>
+<tr><td>episteme</td><td>★1.329</td><td>AGPL-3.0</td><td>10-oct-2026</td><td>v1.0.58-oss · 9-oct-2026</td></tr>
+</table>
+<p><em>Cinco mitos del papeleo</em></p>
+<p><em>Mito uno: «si lo escaneé, ya está guardado».</em> Guardado en el teléfono no es guardado. Sin copia en otro sitio, es una foto más esperando el día que el aparato se pierda.</p>
+<p><em>Mito dos: «un PDF es un PDF».</em> Un PDF de imágenes no se puede buscar; uno con capa de texto, sí. La diferencia se nota la primera vez que hay que encontrar una cláusula.</p>
+<p><em>Mito tres: «los conversores en línea son inofensivos».</em> Treinta segundos y un documento con datos personales entregado a un tercero que no firmó nada contigo. Para papeles sensibles, la conversión se hace en casa.</p>
+<p><em>Mito cuatro: «más estrellas quiere decir mejor para mi caso».</em> Los dos más grandes de hoy ni siquiera son aplicaciones de teléfono. Un motor con ★77.298 no abre un PDF: hay que saber usarlo desde otro programa.</p>
+<p><em>Mito cinco: «lo que no se ha actualizado ya no sirve».</em> OpenNoteScanner no recibe paquete desde 2020 y sigue escaneando. Lo que no tiene es futuro: si una versión de Android lo rompe, se queda roto.</p>
+<p><em>Glosario</em></p>
+<p><em>OCR:</em> reconocimiento óptico de caracteres; convierte la imagen de un texto en texto que se puede buscar.</p>
+<p><em>Capa de texto:</em> texto invisible añadido sobre la imagen de una página escaneada.</p>
+<p><em>Carpeta vigilada:</em> carpeta que un programa revisa de forma continua y procesa lo que entra.</p>
+<p><em>PDF/A:</em> variante de PDF pensada para conservación a largo plazo.</p>
+<p><em>Compresión:</em> reducción del tamaño del archivo, casi siempre a costa de calidad de imagen.</p>
+<p><em>Escáner de documentos:</em> programa que fotografía papel, corrige la perspectiva y arma un PDF.</p>
+<p><em>Archivo:</em> conjunto ordenado y con copia; no es lo mismo que una carpeta con archivos dentro.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cuatro perfiles y su papeleo</em></p>
+<p><em>El que solo recibe papeles.</em> Un lector ligero en el teléfono, una carpeta por año y la costumbre de renombrar lo que llega. No necesita servidor, no necesita reconocimiento y no necesita más de diez minutos al mes. Es el perfil más común y el que menos herramientas exige.</p>
+<p><em>El que escanea todo.</em> Escáner en el teléfono, reconocimiento en la computadora y una carpeta vigilada que ordena. Una tarde de montaje y diez minutos por semana. Es el perfil que más se beneficia de paperless-ngx.</p>
+<p><em>El que trabaja con documentos.</em> Stirling PDF para partir, unir y firmar, Pandoc para convertir formatos, OpenPDF cuando hay que programar. Este perfil vive en el escritorio y solo usa el teléfono para leer y para firmar.</p>
+<p><em>El que guarda por ley.</em> El que tiene que conservar originales: contabilidad, contratos, historiales. Aquí la regla es doble archivo —digital con copia y papel ordenado— y ningún programa sustituye la disciplina.</p>
+<p>───────────────────</p>
+<p><em>📱 El teléfono como escáner de bolsillo</em></p>
+<p>La cámara del teléfono, bien usada, sustituye a un escáner plano para casi todo el papeleo doméstico. Tres trucos y ningún programa nuevo.</p>
+<p><em>El truco de la ventana.</em> Luz de día indirecta, papel sobre superficie oscura y lisa, teléfono paralelo al papel. La superficie oscura hace que el borde del papel se vea y el recorte automático acierte. La luz directa del sol quema el papel blanco y arruina el reconocimiento.</p>
+<p><em>El truco de la mano quieta.</em> Apoyar los codos en la mesa o poner el teléfono boca abajo sobre un vaso para hacer de trípode improvisado. La nitidez importa más que los megapíxeles: una foto de 12 megas borrosa es peor que una de 5 nítida.</p>
+<p><em>El truco del orden.</em> Escanear un documento completo de una vez, página por página, sin interrupciones, y nombrarlo al final. Interrumpir el escaneo para contestar y volver después es la causa principal de documentos con páginas mezcladas.</p>
+<p>Y el consejo que ahorra disgustos: cuando el documento es importante, revisa el PDF completo antes de archivar. Una página que falta se descubre en la oficina, no en la casa.</p>
+<p>───────────────────</p>
+<p><em>🕰️ Cómo era esto hace cinco años</em></p>
+<p>En 2020 escanear en el teléfono era una aventura: aplicaciones con anuncios, marcas de agua y permisos excesivos, y conversores en línea que devolvían un PDF con publicidad en la esquina. El archivo del papeleo era una carpeta de la computadora y la búsqueda dentro del texto, un lujo de oficina.</p>
+<p>Hoy el panorama es otro y no por una aplicación milagrosa: porque las piezas se separaron. El motor de reconocimiento es libre y está en todas partes (Tesseract); el conversor de imágenes en texto con capa invisible es libre y corre en la casa (OCRmyPDF); el archivador con búsqueda es libre y se monta en una cajita (paperless-ngx); y la caja de herramientas del escritorio, que antes costaba una licencia, hoy se corre en un contenedor (Stirling PDF).</p>
+<p>Lo que no cambió es la parte humana. La gente sigue fotografiando papeles torcidos con sombra de mano y sigue guardando todo en una carpeta llamada «documentos». Ninguna de las diez piezas de hoy arregla eso.</p>
+<p>───────────────────</p>
+<p><em>🧷 Cuatro carpetas que conviene tener</em></p>
+<p><em>Identidad:</em> documento de identidad, pasaporte, licencia, acta de nacimiento. Se tocan una vez al año y se necesitan en las peores horas.</p>
+<p><em>Casa:</em> contrato de alquiler o título, recibos de servicios de los últimos dos años, seguro. Es la carpeta que se pide cuando hay una mudanza o una avería.</p>
+<p><em>Salud:</em> recetas, resultados de laboratorio, historial de vacunas. La que más veces se comparte y la que más cuidado exige al compartirla.</p>
+<p><em>Trabajo y estudio:</em> contratos, certificados, títulos, constancias. La que más se pide en trámites y la que menos se ordena.</p>
+<p>Cuatro carpetas, cuatro tipos, una copia fuera de casa. Con eso, el papeleo deja de dar miedo y pasa a ser lo que debería haber sido siempre: una carpeta que responde.</p>
+<p>───────────────────</p>
+<p><em>🧾 Lo que costó medir estos diez</em></p>
+<p>La mañana se fue en tres cosas que no se ven en la tabla. Primero, confirmar las dos licencias que la ficha automática no supo leer: hubo que abrir el archivo de licencia de Stirling PDF y de OpenNoteScanner y leer las primeras líneas para encontrar el texto real, MIT y GPL-3.0, y anotar la discrepancia en la ficha en lugar de elegir la versión que más gusta.</p>
+<p>Segundo, comprobar las fechas de publicación una por una en la lista de cada proyecto, porque la ficha automática las devuelve vacías en varios casos. De ahí salieron las dos ausencias que ordenan toda la guía: Parchment, con ★3.590 y ninguna publicación, y OpenNoteScanner, con paquete de julio de 2020.</p>
+<p>Tercero, decidir qué cinco de los once candidatos se quedaban fuera. Se midieron también OpenPDF y un par de lectores más pequeños; OpenPDF se quedó por ser el único de la familia que sirve para programar, y los otros dos se cayeron por no aportar nada distinto a lo ya medido. Cuando se cae un candidato, se dice: hoy fueron dos, sin nombre y sin pena.</p>
+<p>───────────────────</p>
+<p><em>📎 Lo que deja el escritorio</em></p>
+<p>Una idea que sirve más allá del papeleo: separar el trabajo en piezas pequeñas y elegir cada pieza por separado. Escáner, motor de texto, archivador y lector son cuatro cosas distintas; cuando se compran juntas, se compran atadas. Cuando se eligen por separado, cada una se puede cambiar sin tocar las otras.</p>
+<p>Es la misma lección de la música y de los lectores de libros, aplicada al papel. Y con eso, el papeleo deja de ser ese montón que da flojera y pasa a ser un archivo que, cuando alguien pide un papel, contesta en dos segundos.</p>
+<p>───────────────────</p>
+<p><em>🎚️ Los formatos del papeleo</em></p>
+<p><em>PDF normal.</em> El de todos los días. Puede tener imágenes y texto, o solo imágenes. Es el que se manda y el que se imprime, y el único que hay que dominar de verdad.</p>
+<p><em>PDF con capa de texto.</em> El mismo PDF, con el texto reconocido encima. Se busca, se copia y se lee en voz alta. Ocupa apenas unos kilobytes más que el original y es lo que convierte un montón de fotos en archivo.</p>
+<p><em>PDF/A.</em> Variante pensada para conservación a largo plazo: prohíbe ciertas cosas que dependen de fuentes o de programas externos. Útil para documentos que hay que guardar décadas; exagerado para el recibo de la luz.</p>
+<p><em>Imagen suelta.</em> JPG o PNG de una página. Sirve para mandar por mensajería y no sirve para archivar: pesa más, no tiene páginas y no se busca dentro. El escáner del teléfono debe devolver PDF, no una galería de fotos.</p>
+<p><em>Comprimido.</em> Un PDF comprimido pierde calidad de imagen y conserva el texto. Es la solución cuando el portal de un trámite rechaza un archivo por tamaño, y hay que comprobar después que sigue siendo legible antes de darlo por bueno.</p>
+<p>La regla práctica de la casa: se guarda en PDF con capa de texto; se comprime solo la copia que se manda; y el original sin comprimir se conserva, porque comprimir dos veces seguidas convierte un documento legible en una mancha.</p>
+<p>───────────────────</p>
+<p><em>🧪 Tres pruebas antes de confiar en tu archivo</em></p>
+<p><em>Prueba uno: busca una palabra que solo esté en la página cinco.</em> Si aparece, hay texto. Si no aparece, tienes imágenes con nombre de PDF. La prueba toma veinte segundos y dice más que cualquier configuración.</p>
+<p><em>Prueba dos: abre el archivo en otro programa.</em> El visor del sistema, un lector distinto, la computadora. Un PDF que solo abre en la aplicación donde se creó no es un PDF: es un archivo privado con extensión engañosa.</p>
+<p><em>Prueba tres: recupera algo de la copia.</em> Elige un documento al azar, bórralo del original y recupéralo del disco de respaldo. Si no lo recuperas, la copia no existe, aunque el disco esté conectado y la carpeta se vea llena.</p>
+<p>Con esas tres pruebas, el archivo se puede llamar archivo. Sin ellas, es una carpeta con fe.</p>
+<p>───────────────────</p>
+<p><em>🧷 El nombre que ordena solo</em></p>
+<p>Un esquema que funciona en cualquier teléfono y en cualquier computadora, sin programa nuevo: año, mes, día, tipo, emisor. <code>2026-11-02-factura-luz.pdf</code>, <code>2019-03-14-certificado-escuela.pdf</code>. Con ese orden alfabético, la carpeta se ordena por fecha sin tocar nada y la vista del sistema se vuelve el índice.</p>
+<p>Dos excepciones que conviene respetar. Los documentos que se renuevan llevan al final el año de vencimiento: <code>2026-01-10-licencia-2030.pdf</code>. Y los que llegan de terceros con nombre incomprensible se renombran el mismo día en que llegan, porque el nombre original no significa nada para nadie y borra la única pista de qué son.</p>
+<p>───────────────────</p>
+<p><em>🏠 El archivador en una cajita</em></p>
+<p>paperless-ngx no pide un servidor grande. Pide un equipo encendido, un disco y poco más. Las tres formas domésticas que funcionan, en orden de dificultad.</p>
+<p><em>Una computadora vieja.</em> La que ya nadie usa, con un sistema ligero y el archivador corriendo dentro. Ventaja: el disco es grande y barato. Desventaja: consume como una computadora y hace ruido. Se enciende por la noche y se apaga de día, y el archivador acepta ese ritmo sin queja.</p>
+<p><em>Una cajita de placa única.</em> Un aparato del tamaño de una caja de fósforos, con una tarjeta de memoria o un disco por USB. Consume como una bombilla, no hace ruido y se queda encendida todo el año. Es la opción que más gente termina eligiendo, y la que exige aprender un poco de terminal.</p>
+<p><em>El teléfono viejo.</em> Menos común y perfectamente posible con el entorno adecuado: un teléfono de repuesto enchufado, con el archivador dentro y el disco por USB. Lento para reconocer texto, suficiente para archivar y buscar.</p>
+<p>Lo que hay que decidir antes de montar nada es una sola cosa: cuánto papel entra al mes. Con cincuenta documentos al mes, cualquier cajita sirve; con mil, el reconocimiento de texto empieza a pedir procesador y la elección cambia. Y en los dos casos, la copia del archivo sigue siendo la obligación que ningún aparato resuelve solo.</p>
+<p>───────────────────</p>
+<p><em>🧾 Lo que cuesta mantener el papeleo al día</em></p>
+<p>Diez minutos al mes, tres veces, y no hay más. Primero: pasar lo que llegó en papel por el escáner y nombrarlo. Segundo: revisar que la carpeta vigilada no haya dejado documentos sin etiqueta. Tercero: actualizar la copia del mes.</p>
+<p>Lo que rompe esa rutina no es la falta de tiempo: es dejar acumular. Un mes sin pasar papeles se resuelve en media hora; seis meses se resuelven en una tarde perdida y con documentos que ya no se sabe de qué son. El papeleo castiga la constancia con la misma dureza que la música castiga la falta de copia.</p>
+<p>───────────────────</p>
+<p><em>📌 Una nota sobre el orden de esta serie</em></p>
+<p>El papeleo cierra el primer tramo doméstico de las piezas: después de los lectores, la música y el archivo de libros, viene lo que llega sin que nadie lo pida. Y comparte con todas ellas la misma regla de lectura: un programa se juzga por la fecha de su paquete y por dónde guarda lo que toca, no por el número de estrellas que luce en la portada.</p>
+<p>───────────────────</p>
+<p><em>🎚️ Y una última cosa</em></p>
+<p>Si de toda esta guía se queda una sola costumbre, que sea la de nombrar el archivo el mismo día en que llega. Es gratis, no necesita programa y es lo único que sigue funcionando cuando el lector, el escáner y el archivador ya no estén instalados.</p>
+<p>───────────────────</p>
+<p><em>📎 Antes de cerrar el escritorio</em></p>
+<p>Queda dicho lo que hay y lo que falta: diez programas medidos, dos licencias con dos versiones cada una, una ausencia de paquete de seis años y una carpeta que en dos segundos contesta lo que antes costaba dos horas.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces</em></p>
+<ul>
+<li>Stirling PDF: <a href="https://github.com/Stirling-Tools/Stirling-PDF">https://github.com/Stirling-Tools/Stirling-PDF</a></li>
+<li>Tesseract: <a href="https://github.com/tesseract-ocr/tesseract">https://github.com/tesseract-ocr/tesseract</a></li>
+<li>paperless-ngx: <a href="https://github.com/paperless-ngx/paperless-ngx">https://github.com/paperless-ngx/paperless-ngx</a></li>
+<li>Pandoc: <a href="https://github.com/jgm/pandoc">https://github.com/jgm/pandoc</a></li>
+<li>OCRmyPDF: <a href="https://github.com/ocrmypdf/OCRmyPDF">https://github.com/ocrmypdf/OCRmyPDF</a></li>
+<li>OpenPDF: <a href="https://github.com/LibrePDF/OpenPDF">https://github.com/LibrePDF/OpenPDF</a></li>
+<li>Parchment: <a href="https://github.com/AhmadHassan-BTed/Parchment">https://github.com/AhmadHassan-BTed/Parchment</a></li>
+<li>OpenNoteScanner: <a href="https://github.com/allgood/OpenNoteScanner">https://github.com/allgood/OpenNoteScanner</a></li>
+<li>book-story: <a href="https://github.com/Acclorite/book-story">https://github.com/Acclorite/book-story</a></li>
+<li>episteme: <a href="https://github.com/Aryan-Raj3112/episteme">https://github.com/Aryan-Raj3112/episteme</a></li>
+<li>Lector de PDF de GrapheneOS: <a href="https://github.com/GrapheneOS/PdfViewer">https://github.com/GrapheneOS/PdfViewer</a></li>
+<li>La capa de inmersión del archivo: <a href="https://github.com/gotson/komga">https://github.com/gotson/komga</a></li>
+</ul>
+<p><em>Cómo se midió:</em> diez repositorios, tres lecturas cada uno en orden rotado —API de búsqueda, página del repositorio y contenido crudo del README y del archivo de licencia—, y una cuarta comprobación a mano para las dos licencias que la ficha automática no concluyó. Las fechas de versión se tomaron de la lista de publicaciones de cada proyecto y se contrastaron con la fecha del último empujón. Ningún campo se rellenó por memoria: los que no se pudieron leer se escriben como «sin paquete» o «sin conclusión», que es distinto de cero. Corte entre las 09:20 y las 10:35 de Santo Domingo.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — el papel que se convierte en archivo</em></p>
+<p>El papeleo del teléfono no lo resuelve una aplicación: lo resuelve separar tres trabajos que siempre se vendieron juntos. Capturar, reconocer y ordenar son cosas distintas, y esta mañana quedaron medidas con nombre y fecha: un escáner de ★1.544 con paquete de 2020, dos motores de texto con ★112.507 entre ambos, un archivador de ★47.563 con versión del sábado y una caja de herramientas de ★95.558 que se corre en la casa.</p>
+<p>El reparto de estrellas vuelve a contar la misma historia que en la música: el 97 % del interés está en las herramientas que casi nadie instala en el teléfono, y el papeleo diario se hace con las pequeñas. Saber eso evita dos errores caros: creer que lo popular es lo que hace falta, y creer que lo pequeño es lo que no sirve.</p>
+<p><em>Medición del corte:</em> lunes 2 de noviembre de 2026, entre las 09:20 y las 10:35 de Santo Domingo · diez repositorios con las tres lecturas completas y el orden rotado · diez publicaciones consultadas una por una · dos licencias comprobadas a mano contra el archivo del repositorio.</p>
+<p><em>Licencia de esta entrega:</em> prosa en CC BY-SA 4.0, cifras en CC BY 4.0 y ejemplos de código en MIT; el nombre «Alexis (La Bandita)» y el sello de la casa no viajan con esas licencias ni se ceden por usarlas.</p>
+<blockquote>—¿Y si nunca ordeno nada?</blockquote>
+<blockquote>—Entonces tendrás papeles, no archivo: la diferencia se nota el día que alguien te pide uno.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Escanear no es archivar: el archivo empieza cuando el documento se puede encontrar sin abrir carpetas.</p>
+<p>───────────────────</p>
+<h2>🗒️ Notas al pie</h2>
+<p>(2-nov) Dos discrepancias de licencia publicadas con las dos versiones: Stirling PDF (ficha NOASSERTION, archivo MIT con excepciones por partes) y OpenNoteScanner (ficha NOASSERTION, archivo GPL-3.0). No se elige la que conviene: se dicen las dos.</p>
+<p>(2-nov) Parchment aparece con «sin paquete» porque la lista de publicaciones del proyecto está vacía al momento del corte; las ★3.590 son de la API y coincidieron con la página y con el README en las tres lecturas.</p>
+<p>(2-nov) OpenNoteScanner tiene paquete del 22 de julio de 2020 y último empujón del 23 de abril de 2025; las dos fechas se publican juntas porque la distancia entre ellas —casi cinco años— es el dato, no el adorno.</p>
+<p>(2-nov) Las cifras de estrellas de esta pieza son del corte de la mañana y no se redondean; la suma por grupos (★302.412 los cinco grandes, ★8.943 los cinco pequeños) se hizo sobre los valores exactos de la tabla.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

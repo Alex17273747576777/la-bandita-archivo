@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="El dictado: hablar en vez de escribir, y el espejo que compila lo que el autor no reparte">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>El dictado: hablar en vez de escribir, y el espejo que compila lo que el autor no reparte</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "El dictado: hablar en vez de escribir, y el espejo que compila lo que el autor no reparte", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "2 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>El dictado: hablar en vez de escribir, y el espejo que compila lo que el autor no reparte</h1>
+<p class="meta">Facebook · 2 de noviembre de 2026 · 40,795 caracteres</p>
+<p><em>El dictado: hablar en vez de escribir, y el espejo que compila lo que el autor no reparte</em></p>
+<p><em>La Bandita · lunes 2 de noviembre de 2026 · edición dominicano-español · pieza 25 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🎙️ Las dos familias: motores y teclados
+├── 🎬 Cuatro escenas de esta mañana
+├── 🧾 Los diez, uno por uno, con su fecha
+├── 🪞 El espejo: un APK de 174 megas y tres estrellas
+├── 🔍 Qué se puede comprobar de un paquete recompilado
+├── ☁️ En el teléfono o en la nube
+├── ⌨️ Las teclas que hablan: los prompts dentro del teclado
+├── 🛠️ Probar un teclado de dictado en seis pasos
+├── 🧮 Las cuentas del micrófono
+├── ❓ Preguntas que me hacen
+└── 📊 Tabla, mitos, glosario y enlaces
+</pre>
+<p><em>⚡ En una página</em></p>
+<p>Hay una forma de usar el teléfono que casi nadie discute y que cambió dos veces en dos años: hablar en vez de escribir. El motor que convierte voz en texto dejó de ser un servicio caro y pasó a ser un programa que corre en el aparato, y sobre ese motor creció una familia de teclados que escriben por ti en cualquier aplicación. Esta mañana se midieron diez proyectos de esa familia: dos motores grandes, dos herramientas de reconocimiento, tres teclados completos y tres piezas de tamaño pequeño que existen por razones muy distintas. Juntos suman ★208.677, y seis de los diez empujaron código en la última semana.</p>
+<p>El hallazgo del día no está en los números grandes. El repositorio que motivó esta pieza —un espejo de tres estrellas con el nombre de Dictator— contiene un archivo instalable de 173.992.278 bytes, firmado por alguien que se presenta como «no soy programador, solo lo compilé», y lo publicó cuatro veces entre el 21 y el 26 de octubre. El proyecto original, con ★313 y licencia Apache-2.0, no reparte ningún paquete en su repositorio: su versión 6.4.0, del 7 de octubre, no tiene archivos adjuntos. Ese hueco es todo el argumento de esta guía: cuando el autor no publica el paquete, alguien lo publica por él, y ese alguien se convierte, sin querer, en parte de la cadena de confianza de miles de teléfonos.</p>
+<p>Los otros nueve miden el resto del mapa. Whisper (★111.767) y su versión en C++ para aparatos modestos (★54.863) son los motores; sherpa-onnx (★15.679) y Vosk (★15.224) son las alternativas que corren sin conexión; HeliBoard (★6.477), el teclado de FUTO (★3.425) y BiBi Keyboard (★860) son las caras visibles; y Dictate (★313), el espejo (★3) y marmalade (★66) son los tres intentos pequeños de resolver el dictado completo en un teléfono.</p>
+<p>La lección práctica de la mañana, para quien vaya directo al final: un teclado de dictado se elige por dónde transcribe (en el aparato o en un servidor), por quién firma el paquete que instalas y por cuánto pesa el modelo que descarga. El resto —colores, animaciones, nombres bonitos— se decide después y no cambia nada cuando no hay internet en el consultorio.</p>
+<p>───────────────────</p>
+<p><em>🎙️ Las dos familias: motores y teclados</em></p>
+<p>En este barrio hay dos familias y una confusión permanente entre ellas. Un motor convierte audio en texto y no tiene pantalla; un teclado tiene pantalla, aprende a escribir contigo y, por dentro, llama a un motor. Cuando alguien dice «la aplicación que transcribe mal», casi siempre está culpando al teclado de un problema del motor, o al revés.</p>
+<p><em>Los motores.</em> Whisper (★111.767, MIT) es el modelo abierto que puso el dictado bueno al alcance de cualquiera; su versión en C++ (★54.863, MIT) es la que permite correr ese mismo modelo en un teléfono o en una computadora sin tarjeta gráfica. sherpa-onnx (★15.679, Apache-2.0) y Vosk (★15.224, Apache-2.0) son las otras dos puertas: reconocimiento que corre en el aparato, con modelos más pequeños y con la ventaja de no depender de ninguna conexión.</p>
+<p><em>Los teclados.</em> HeliBoard (★6.477, GPL-3.0) es el teclado libre de referencia: sin conexión, sin rastreo, con diccionarios y con la posibilidad de enchufarle un motor de voz. El teclado de FUTO (★3.425) lleva su propio motor y su propia licencia, que no es una licencia libre al uso y conviene leer antes de instalar. BiBi Keyboard (★860, Apache-2.0) apuesta por Whisper en el aparato con una interfaz más moderna. Y Dictate (★313, Apache-2.0) es el que hizo el trabajo difícil: convertirse en teclado completo sobre la base de FlorisBoard y ofrecer dictado en tiempo real, con motor propio o ajeno, dentro de cualquier aplicación.</p>
+<p><em>Y los tres pequeños.</em> marmalade (★66, MIT) es un teclado de dictado recién nacido, con versión de la semana pasada. Dictate (★313) es el proyecto maduro que aún no llega a mil estrellas. Y el espejo (★3) es el que no aporta código: aporta un archivo instalable. Los tres juntos suman ★382, menos que la décima parte de un solo motor, y son los que la gente instala en el teléfono.</p>
+<p>Esa desproporción es la primera lección: las estrellas se acumulan en la pieza que casi nadie instala y se niegan a la que se instala a diario. Quien elija por número de estrellas va a terminar con un motor sin teclado.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cuatro escenas de esta mañana</em></p>
+<p><em>Escena uno: el mensaje largo en la acera.</em> Alguien camina y necesita mandar un párrafo de cuatro líneas. Escribe con un dedo, se equivoca seis veces, lo borra. Con un teclado de dictado mantiene el botón del micrófono, habla, suelta, y el párrafo aparece con puntuación. La primera vez parece magia; la segunda, costumbre; a la semana, no se vuelve atrás.</p>
+<p><em>Escena dos: el modelo de 140 megas.</em> Un usuario instala un teclado con motor propio, descarga un modelo de unos ciento cuarenta megas y lo prueba en modo avión. Funciona, con puntuación y todo, y no sale nada del teléfono. Es el momento en que la privacidad deja de ser un cartel y pasa a ser una prueba que se puede hacer en treinta segundos.</p>
+<p><em>Escena tres: la nota de voz de una hora.</em> Un audio largo de una reunión que hay que pasar a texto. El teclado no es la herramienta: aquí se usan los motores y las herramientas de transcripción por lotes, que parten el archivo en trozos y devuelven un texto con marcas de tiempo. Es el mismo motor, otro oficio.</p>
+<p><em>Escena cuatro: el espejo de tres estrellas.</em> Alguien busca el APK del teclado, no lo encuentra en el repositorio del autor y sí lo encuentra en un repositorio ajeno con una descripción en inglés roto y un archivo de 174 megas. Lo instala sin mirar nada y funciona. Lo que acaba de hacer —y esto es el centro de la pieza— es confiar en un completo desconocido para que le entregue el programa que va a leer todo lo que escriba, incluidas sus contraseñas si algún día las dicta.</p>
+<p>───────────────────</p>
+<p><em>🧾 Los diez, uno por uno, con su fecha</em></p>
+<p><em>Whisper · openai/whisper · ★111.767 · MIT · Python · empujón 31 de agosto de 2026.</em> El modelo que cambió el dictado. No es un teclado ni una aplicación: es el motor y sus pesos, publicados con licencia MIT, y por eso está dentro de media docena de programas de esta lista. Su último empujón es de hace dos meses, y eso no lo hace viejo: los modelos grandes se mueven despacio.</p>
+<p><em>whisper.cpp · ggml-org/whisper.cpp · ★54.863 · MIT · C++ · empujón 30 de octubre de 2026.</em> La misma idea reescrita para correr en cualquier aparato, sin tarjeta gráfica y sin Python. Es la pieza que hace posible dictar en un teléfono de gama media sin mandar el audio a ningún sitio. Empujón de hace tres días.</p>
+<p><em>sherpa-onnx · k2-fsa/sherpa-onnx · ★15.679 · Apache-2.0 · C++ · empujón 29 de octubre de 2026.</em> Reconocimiento de voz y otras tareas de audio que corren en el aparato, con modelos pequeños y muchas opciones. Es la alternativa a Whisper cuando el aparato tiene poca memoria o cuando se necesita respuesta inmediata.</p>
+<p><em>Vosk · alphacep/vosk-api · ★15.224 · Apache-2.0 · Jupyter Notebook · empujón 15 de octubre de 2026.</em> El veterano del reconocimiento sin conexión: modelos ligeros, muchas plataformas y una comunidad de programas que lo usan desde hace años. Su empujón de hace dos semanas y media lo deja en el grupo de los proyectos vivos y tranquilos.</p>
+<p><em>HeliBoard · Helium314/HeliBoard · ★6.477 · GPL-3.0 · Kotlin · empujón 31 de octubre de 2026.</em> Teclado libre, sin conexión y sin rastreo, con diccionarios para decenas de idiomas. No trae dictado dentro, y sí deja enchufar un motor externo del sistema. Es la opción de quien quiere un teclado honesto y resolver la voz por separado.</p>
+<p><em>Teclado de FUTO · futo-org/android-keyboard · ★3.425 · licencia propia «FUTO Source First 1.1-kb», ficha automática en NOASSERTION · C++ · empujón 2 de noviembre de 2026 · versión 0.1.30 del 4 de agosto de 2026.</em> Teclado con motor de voz propio y una licencia que hay que leer: permite usar, copiar y modificar para uso no comercial, y prohíbe distribuir el programa cobrando por él. No es una licencia libre al uso y por eso se publica con su nombre exacto.</p>
+<p><em>BiBi Keyboard · BryceWG/BiBi-Keyboard · ★860 · Apache-2.0 · Kotlin · empujón 2 de noviembre de 2026 · versión v4.5.3 del 26 de octubre de 2026.</em> Teclado de dictado con Whisper en el aparato y una interfaz pensada para el uso diario. Empujón de hoy y paquete de hace una semana: el ritmo que esta serie considera sano.</p>
+<p><em>Dictate · DevEmperor/DictateKeyboard · ★313 · Apache-2.0 · Kotlin · empujón 2 de noviembre de 2026 · versión v6.4.0 del 7 de octubre de 2026 · sin archivo adjunto en el repositorio.</em> El proyecto maduro de la mañana: teclado completo construido sobre FlorisBoard, dictado en tiempo real, motor en el aparato o en la nube, y un sistema de prompts de reescritura con biblioteca comunitaria. Publica versiones sin adjuntar paquete: la aplicación llega por la tienda oficial.</p>
+<p><em>El espejo · Batmancpu/Dictator- · ★3 · Apache-2.0 · Kotlin · empujón 26 de octubre de 2026 · cuatro publicaciones entre el 21 y el 26 de octubre, con un archivo de 173.992.278 bytes.</em> No aporta código: aporta el paquete que el original no reparte. Se analiza en su propia sección más abajo, con los datos que se pudieron comprobar y los que no.</p>
+<p><em>marmalade · maxwhipw/marmalade-stt-android · ★66 · MIT · Kotlin · empujón 28 de octubre de 2026 · versión v1.2.3 del 28 de octubre de 2026.</em> Teclado de dictado pequeño y reciente: veinte días de vida, una versión publicada el mismo día de su último empujón y una licencia permisiva. Es el tipo de proyecto que se prueba sin expectativas y se agradece si funciona.</p>
+<p>───────────────────</p>
+<p><em>🪞 El espejo: un APK de 174 megas y tres estrellas</em></p>
+<p>Esta es la parte que justifica la pieza. El repositorio que motivó la medición de hoy se llama Dictator, tiene tres estrellas, cero bifurcaciones, una incidencia abierta pidiendo temas con efecto de cristal, y una descripción que dice, en inglés con faltas: «El APK, no soy programador. Créditos a la persona original, yo solo lo compilé — DevEmperor. Un potente teclado de IA Whisper para transcripción de voz fiable».</p>
+<p>Lo primero que hay que decir es lo evidente: eso no es un plagio. El proyecto original tiene licencia Apache-2.0, que permite expresamente copiar, modificar y redistribuir, incluso con cambios y sin pedir permiso, siempre que se conserve el aviso de autoría. El espejo cita al autor y conserva la licencia. En términos legales, está en su derecho, y ese derecho es justamente lo que hace valioso el software libre: cualquiera puede compilar lo que el autor no reparte.</p>
+<p>Lo segundo es dónde está el hueco que el espejo llena. La versión 6.4.0 del proyecto original, publicada el 7 de octubre, no trae ningún archivo adjunto: el paquete llega por la tienda oficial, donde la aplicación se cobra una suma pequeña que sostiene el desarrollo. Para quien no puede o no quiere pasar por la tienda, la única vía es compilar; y compilar un teclado de Android no es una tarea para cualquiera. Ahí aparece el espejo: alguien que hizo esa compilación y la publicó gratis.</p>
+<p>Lo tercero es la parte incómoda. El espejo publicó cuatro veces en seis días: el 21 de octubre (build-30, con un archivo llamado app-debug.apk de 173.940.920 bytes), el 22 (173.958.868 bytes), el 23 (173.959.510) y el 26 (173.992.278). Los tres últimos llevan el nombre del archivo cambiado a Dictator.apk, y los tres crecen unos miles de bytes cada día, que es lo que crece un programa que se compila a diario desde el código en movimiento del original. El primer archivo se llama app-debug.apk y ese nombre importa: en Android, «debug» designa una compilación de desarrollo, firmada con una llave de depuración que no es la del autor y que no sirve para actualizar la aplicación oficial sin desinstalarla antes.</p>
+<p>Lo cuarto es lo que no se puede comprobar desde aquí y por eso se escribe como hueco: si el paquete del espejo está firmado con la llave del autor o con una propia, si su contenido corresponde exactamente al código publicado, y si quien lo compiló introdujo algo que no está en el original. Ninguna de esas tres cosas se resuelve mirando la página del repositorio. Se resuelven comparando firmas con la aplicación oficial y compilando uno mismo desde el código, que es exactamente lo que el espejo hizo y no documentó.</p>
+<p>Y la conclusión, que no es un sermón sino una cuenta: instalar el paquete del espejo equivale a decir que se confía en un desconocido tanto como en el autor, en el programa que va a leer cada cosa que se escriba en el teléfono. Puede estar perfecto. No hay manera de saberlo desde la pantalla donde se pulsa descargar.</p>
+<p>───────────────────</p>
+<p><em>🔍 Qué se puede comprobar de un paquete recompilado</em></p>
+<p>Un APK es un archivo comprimido con un programa dentro y tres cosas que se pueden mirar sin ser experto. Ninguna de las tres da una garantía absoluta; las tres juntas separan un paquete serio de una caja negra.</p>
+<p><em>Lo primero: el tamaño y la huella.</em> Cada archivo publicado trae un identificador de huella digital que se calcula a partir de su contenido. Si dos archivos del mismo día tienen huellas distintas, son distintos. Si el espejo publica tres veces en cuatro días con huellas distintas y tamaños que crecen, está recompilando, no copiando. Las huellas del espejo, tal como aparecen en su lista de publicaciones, empiezan por 8c720e0a, 90b48e29 y 0438ff03 en las tres últimas.</p>
+<p><em>Lo segundo: el nombre del archivo.</em> Un paquete oficial se llama por su nombre y su versión; un paquete de depuración se llama app-debug.apk. El nombre no prueba nada por sí solo y sí dice mucho: indica una compilación de desarrollo, hecha para probar, no para distribuir. Distribuir una compilación de desarrollo es legal y es una señal de que el que compila no siguió el proceso de publicación del autor.</p>
+<p><em>Lo tercero: la firma.</em> Android exige que cada paquete esté firmado, y la firma es lo que permite instalar una actualización encima de otra. Dos paquetes firmados con llaves distintas son, para el sistema, dos aplicaciones distintas: hay que desinstalar la una para instalar la otra, y con ella se van los datos. Comprobar la firma requiere herramientas de Android; lo que sí se puede hacer sin ellas es una pregunta al que publica: ¿con qué llave está firmado esto y puedes publicar el registro de la compilación?</p>
+<p>Y un cuarto detalle que sirve para todo el archivo: el paquete de 174 megas no es solo el teclado. Un teclado de dictado con modelos en el aparato pesa como pesa un modelo, y ese peso es el que explica por qué hay que descargar un archivo enorme para escribir con la voz. Cuando un paquete de este tipo pesa veinte megas, casi siempre significa que el motor no está dentro y que el audio va a viajar.</p>
+<p>───────────────────</p>
+<p><em>☁️ En el teléfono o en la nube</em></p>
+<p>La decisión que más cambia la experiencia de un teclado de dictado no es el diseño: es dónde se convierte la voz en texto. Hay tres caminos y cada uno tiene un precio distinto.</p>
+<p><em>En el aparato, con el modelo descargado.</em> Nada sale del teléfono; funciona sin internet; la primera descarga pesa entre cien y seiscientos megas según el modelo; la puntuación es buena y la latencia depende del procesador. Dictate lo ofrece con modelos de Whisper, Parakeet, Canary y otros, y algunos caben en unos ciento cuarenta megas. BiBi Keyboard y las opciones basadas en whisper.cpp van por el mismo camino. Es la opción que elige quien dicta cosas del trabajo, del médico o de la familia.</p>
+<p><em>En un servidor propio.</em> El audio viaja a una máquina de la casa y vuelve convertido. Requiere tener esa máquina encendida y accesible, y da la mejor calidad con hardware modesto. Es el camino de quien ya tiene el sótano montado que se midió en la pieza anterior.</p>
+<p><em>En la nube de un tercero, con o sin clave propia.</em> La calidad suele ser la mejor y la latencia la menor, a cambio de que el audio salga del teléfono y de pagar por minuto o por suscripción. Aquí entran los servicios de transcripción que los teclados ofrecen como opción y que cada quien contrata por su cuenta.</p>
+<p>La regla que se puede aplicar sin tecnicismos: si el teclado no explica dónde transcribe, asume que transcribe afuera. Y si dictas números de tarjeta, diagnósticos o contraseñas, elige el camino del aparato y compruébalo en modo avión antes de confiar.</p>
+<p>───────────────────</p>
+<p><em>⌨️ Las teclas que hablan: los prompts dentro del teclado</em></p>
+<p>Los teclados de esta familia ya no solo escriben lo que dictas: también lo reescriben. Dictate, por ejemplo, trae un sistema de prompts de reescritura —hacer formal, traducir, resumir— con una biblioteca comunitaria de instrucciones que se instalan en un toque.</p>
+<p>Eso convierte el teclado en un sitio donde viven dos cosas que la gente confunde: programas y textos que se le pegan a un modelo. La calidad del resultado depende de esos textos más de lo que parece, y de ahí salen tres reglas que sirven para cualquier tecla de este tipo.</p>
+<p><em>Regla uno: la tecla no adivina el contexto.</em> Un teclado que manda todo el historial de una conversación a un modelo recibe un texto enorme donde la instrucción se pierde. Si la aplicación deja seleccionar texto antes de pulsar, úsalo: diez líneas seleccionadas dan mejor resultado que cuatrocientas de historial.</p>
+<p><em>Regla dos: la instrucción tiene que decir qué NO hacer.</em> «Corrige esto» invita a que el modelo opine, traduzca o reescriba a su gusto. «Corrige ortografía y puntuación, no cambies el vocabulario, no añadas frases, devuelve solo el texto» produce un resultado que se puede pegar sin leer dos veces.</p>
+<p><em>Regla tres: la salida tiene que tener forma.</em> Si la tecla debe reemplazar el texto, no puede devolver un párrafo que empiece por «claro, aquí tienes». Pedir explícitamente solo el resultado, sin saludo ni explicación, es la diferencia entre reemplazar y borrar a mano.</p>
+<p>Con esas tres reglas, una tecla de reescritura deja de ser un juguete y pasa a ser una herramienta que se usa cien veces al día sin pensarlo. Y son las mismas tres reglas que hacen que un prompt escrito a mano funcione o fracase: rol claro, tarea acotada, restricciones explícitas y una única forma de entregar.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Probar un teclado de dictado en seis pasos</em></p>
+<p><em>Paso uno: instala y no configures nada todavía.</em> Un teclado nuevo pide permiso para leer lo que escribes, y ese permiso es inevitable: es su trabajo. Lo que sí puedes hacer es instalar uno, probarlo una tarde y desinstalarlo si no convence, antes de meterle contraseñas o mensajes de trabajo.</p>
+<p><em>Paso dos: ponlo en modo avión y dicta.</em> Esa es toda la prueba de privacidad. Si con el teléfono sin red el dictado funciona, el motor está en el aparato. Si dice «error de conexión», el audio viaja y ya sabes a qué atenerte.</p>
+<p><em>Paso tres: dicta con ruido.</em> En una acera, con un ventilador encendido, con música de fondo. La diferencia entre motores se ve ahí y no en una habitación silenciosa. Los modelos grandes aciertan con ruido moderado; los pequeños piden un segundo intento.</p>
+<p><em>Paso cuatro: dicta algo con nombres propios y números.</em> Un apellido difícil, un teléfono, una cantidad con decimales. Ahí es donde se descubren las carencias: los motores pequeños tienden a escribir lo que suenan, no lo que son.</p>
+<p><em>Paso cinco: prueba la puntuación y el formato.</em> Un dictado sin comas ni mayúsculas sirve para buscar, no para enviar. Pide al teclado que puntúe automáticamente y revisa si respeta los cambios de párrafo que dijiste en voz alta.</p>
+<p><em>Paso seis: mira el peso y el consumo.</em> Un modelo de seiscientos megas ocupa espacio y calienta el teléfono; uno de ciento cuarenta va más ligero y acierta menos. La elección depende de para qué dictes: para mensajes cortos, el pequeño; para textos largos de trabajo, el grande y, si se puede, dictando en casa con el teléfono cargando.</p>
+<p>───────────────────</p>
+<p><em>🧮 Las cuentas del micrófono</em></p>
+<p><em>Primera cuenta: las estrellas.</em> Los diez suman ★208.677. Los dos motores grandes se llevan ★166.630, el 80 %. Los tres teclados completos suman ★7.650 y los tres pequeños ★382. Es el reparto más desequilibrado de toda la serie, y tiene una explicación sencilla: los motores son infraestructura que usan otros programas y los teclados son aplicaciones que la gente instala sin dejar estrella.</p>
+<p><em>Segunda cuenta: quién se movió esta semana.</em> Tres empujaron el 2 de noviembre: el teclado de FUTO, BiBi y Dictate. Seis empujaron en octubre: whisper.cpp (30), sherpa-onnx (29), HeliBoard (31), Vosk (15), marmalade (28) y el espejo (26). Uno empujó en agosto: Whisper, que es un modelo y no un programa de uso diario.</p>
+<p><em>Tercera cuenta: el paquete.</em> Tres de los diez no publican paquete en el repositorio: Whisper y whisper.cpp, porque son motores que se instalan desde otros programas, y Dictate, porque reparte por la tienda. Y uno, el espejo, existe precisamente para llenar ese hueco. Ahí está el nudo de la pieza: cinco de los diez son piezas de infraestructura, tres son aplicaciones con paquete, uno está en la tienda y uno es un puente improvisado.</p>
+<p>───────────────────</p>
+<p><em>🎯 El caso del mensaje que no se podía escribir</em></p>
+<p>Un chofer de transporte dictaba sus mensajes de trabajo porque escribir con el pulgar en el tráfico le costaba caro. Probó tres teclados: el primero mandaba el audio a la nube y en carretera, con mala señal, le devolvía errores y a veces le cobraba sin transcribir; el segundo tenía motor en el aparato y acertaba con el ruido del motor y la radio; el tercero, más moderno, era mejor en todo menos en una cosa: a la hora de instalar, no había paquete en el repositorio y apareció un espejo de tres estrellas ofreciéndolo.</p>
+<p>Se quedó con el segundo. No porque fuera mejor, sino porque podía dictar sin señal, no dependía de nadie y el paquete venía del autor. Perdió la interfaz bonita y las funciones de reescritura.</p>
+<p>La lección cabe en una línea: en un teclado que lee todo lo que escribes, el primer criterio no es la calidad del texto, es de dónde salió el paquete y qué pasa cuando no hay señal. Los otros criterios se ordenan detrás.</p>
+<p>───────────────────</p>
+<p><em>🧷 Lo que un teclado de dictado no arregla</em></p>
+<p>No arregla el ruido, aunque lo disimule. No arregla hablar con la boca llena ni dictar mientras se mastica. No arregla los nombres propios de tu familia, que habrá que corregir a mano las primeras veces hasta que el teclado los aprenda. No arregla la costumbre de dictar párrafos de seiscientas palabras sin respirar: los motores largos aguantan, los pequeños no.</p>
+<p>Y sobre todo no arregla la confianza. Un teclado ve todo lo que escribes: mensajes, contraseñas si las escribes ahí, búsquedas, notas. Elegirlo es una decisión de confianza más grande que instalar un reproductor de música, y por eso esta pieza dedica más espacio al paquete que a las funciones.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Un teclado de dictado escucha todo el tiempo?</strong></p>
+<p>No debería. El micrófono se activa cuando se pulsa o se mantiene la tecla. Lo que sí conviene comprobar es si el teclado guarda el historial de dictados y cuánto tiempo lo conserva: varios lo hacen y varios lo dejan configurable.</p>
+<p><strong>¿Puedo usar el dictado sin internet?</strong></p>
+<p>Sí, si el teclado trae un modelo que corre en el aparato. La prueba es el modo avión: si funciona sin red, el audio no sale. Si dice error de conexión, está transcribiendo afuera.</p>
+<p><strong>¿El paquete del espejo es seguro?</strong></p>
+<p>No hay manera de saberlo desde la página del repositorio. Está publicado legalmente porque la licencia lo permite, y su contenido y su firma no se pueden comprobar sin herramientas. Si el autor no reparte paquete, la vía prudente es la tienda oficial o compilar uno mismo.</p>
+<p><strong>¿Qué significa que un APK se llame app-debug.apk?</strong></p>
+<p>Que es una compilación de desarrollo. Se instala y funciona, y no está firmada con la llave del autor, así que no puede actualizar la aplicación oficial: hay que desinstalar antes y se pierden los datos.</p>
+<p><strong>¿Los modelos grandes gastan muchos datos?</strong></p>
+<p>Si el motor está en el aparato, no gastan nada al dictar: la descarga del modelo es de una vez y puede ser de cientos de megas. Si el motor está en la nube, el audio viaja y se paga por minuto o por suscripción.</p>
+<p><strong>¿Sirve para dictar en español dominicano?</strong></p>
+<p>Sí. Los motores grandes aciertan bien con acentos del Caribe; los pequeños confunden terminaciones y hay que corregir más. La prueba con nombres propios y números es la que dice la verdad.</p>
+<p><strong>¿Cuánto tarda en transcribir un dictado largo?</strong></p>
+<p>Con motor en el aparato, más o menos en tiempo real con un teléfono moderno; con motor en la nube, casi instantáneo si la conexión es buena. Para audios de una hora, lo que hay que usar son las herramientas de transcripción por lotes, no el teclado.</p>
+<p><strong>¿Puedo dictar en una aplicación que bloquea los teclados?</strong></p>
+<p>Depende de cómo esté hecho el teclado. Algunos se registran como entrada de voz del sistema y funcionan incluso donde los teclados de terceros están bloqueados; otros no. Es una de las diferencias prácticas que solo se descubre probando.</p>
+<p><strong>¿HeliBoard dicta?</strong></p>
+<p>HeliBoard es un teclado libre y sin conexión que no trae dictado propio; se le puede enchufar el motor de voz del sistema. Es la opción de quien quiere separar las dos cosas: un teclado honesto y la voz por otro lado.</p>
+<p><strong>¿Vale la pena pagar por el programa de dictado?</strong></p>
+<p>Depende de cuánto dictes. El proyecto de esta mañana se cobra una suma pequeña en la tienda y sostiene el desarrollo; los demás son gratis y algunos piden que compiles. Pagar por un teclado que se usa a diario es razonable; pagar por uno que se prueba una tarde, no.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Los diez medidos, en una línea</em></p>
+<table>
+<tr><th>Proyecto</th><th>Estrellas</th><th>Licencia</th><th>Empujón</th><th>Última versión</th></tr>
+<tr><td>Whisper</td><td>★111.767</td><td>MIT</td><td>31-ago-2026</td><td>modelo, sin paquete</td></tr>
+<tr><td>whisper.cpp</td><td>★54.863</td><td>MIT</td><td>30-oct-2026</td><td>motor, sin paquete</td></tr>
+<tr><td>sherpa-onnx</td><td>★15.679</td><td>Apache-2.0</td><td>29-oct-2026</td><td>motor, sin paquete</td></tr>
+<tr><td>Vosk</td><td>★15.224</td><td>Apache-2.0</td><td>15-oct-2026</td><td>motor, sin paquete</td></tr>
+<tr><td>HeliBoard</td><td>★6.477</td><td>GPL-3.0</td><td>31-oct-2026</td><td>teclado, sin dictado propio</td></tr>
+<tr><td>Teclado de FUTO</td><td>★3.425</td><td>FUTO Source First 1.1-kb</td><td>2-nov-2026</td><td>0.1.30 · 4-ago-2026</td></tr>
+<tr><td>BiBi Keyboard</td><td>★860</td><td>Apache-2.0</td><td>2-nov-2026</td><td>v4.5.3 · 26-oct-2026</td></tr>
+<tr><td>Dictate</td><td>★313</td><td>Apache-2.0</td><td>2-nov-2026</td><td>v6.4.0 · 7-oct-2026 · sin adjunto</td></tr>
+<tr><td>marmalade</td><td>★66</td><td>MIT</td><td>28-oct-2026</td><td>v1.2.3 · 28-oct-2026</td></tr>
+<tr><td>Dictator (espejo)</td><td>★3</td><td>Apache-2.0</td><td>26-oct-2026</td><td>4 paquetes · 21 a 26-oct</td></tr>
+</table>
+<p><em>Cinco mitos del dictado</em></p>
+<p><em>Mito uno: «el dictado siempre manda el audio a la nube».</em> Los motores en el aparato existen y funcionan sin red. La prueba del modo avión tarda treinta segundos y desmonta el mito en el sitio.</p>
+<p><em>Mito dos: «más estrellas, mejor teclado».</em> Las ★111.767 de Whisper no son un teclado: son un modelo. El teclado que vas a instalar probablemente tenga tres cifras de estrellas, o menos.</p>
+<p><em>Mito tres: «si es software libre, el paquete que bajé es del autor».</em> La licencia permite redistribuir, y por eso existe un paquete de 174 megas publicado por un tercero que dice no ser programador. Legal no es lo mismo que verificado.</p>
+<p><em>Mito cuatro: «un APK de depuración es un APK defectuoso».</em> Es un APK de desarrollo: funciona y no está firmado para actualizar la aplicación oficial. El problema no es que sea defectuoso, es que cambia la cadena de confianza y obliga a desinstalar antes.</p>
+<p><em>Mito cinco: «dictar es más rápido solo si escribes lento».</em> Con un teclado bueno, dictar es más rápido para casi todo el mundo en textos de más de dos líneas, y más lento para una contraseña o una dirección. La herramienta cambia con la tarea.</p>
+<p><em>Glosario</em></p>
+<p><em>Motor de reconocimiento:</em> programa que convierte audio en texto.</p>
+<p><em>Modelo:</em> archivo con los pesos del motor; se descarga aparte y puede pesar de cientos de megas.</p>
+<p><em>Dictado en tiempo real:</em> el texto aparece mientras se habla, en lugar de al terminar.</p>
+<p><em>APK:</em> paquete instalable de Android.</p>
+<p><em>Firma:</em> llave con la que se firma un paquete; dos firmas distintas son dos aplicaciones distintas para el sistema.</p>
+<p><em>Compilación de depuración:</em> paquete generado para probar, con llave de desarrollo y sin optimizar.</p>
+<p><em>Push to talk:</em> mantener la tecla para hablar y soltar para enviar.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cuatro perfiles y su teclado</em></p>
+<p><em>El que manda mensajes todo el día.</em> Un teclado con motor en el aparato y modelo pequeño. Prioridad: que funcione sin señal y que no caliente el teléfono. La calidad del texto pasa a segundo plano porque los mensajes cortos se corrigen solos.</p>
+<p><em>El que escribe textos largos.</em> Motor grande, preferiblemente en la casa o en el aparato de gama alta, y una tecla de reescritura bien configurada. Aquí sí importa la puntuación y el respeto al vocabulario propio.</p>
+<p><em>El que dicta cosas sensibles.</em> Motor en el aparato, sin historial guardado o con historial borrado, y comprobación en modo avión. Si el teclado exige una cuenta en la nube para funcionar, no es para este perfil.</p>
+<p><em>El que solo quiere un teclado honesto.</em> HeliBoard con el dictado del sistema. Renuncia a lo último y gana en control: un teclado libre, sin conexión y con la voz resuelta por otra pieza que se puede cambiar.</p>
+<p>───────────────────</p>
+<p><em>📶 El dictado sin conexión, con nombre y apellido</em></p>
+<p>El dictado sin conexión es la función que más cambia la vida en un país donde la señal se cae, y la que menos se promociona. Tres cosas que conviene saber para que no decepcione la primera vez.</p>
+<p><em>La primera descarga es grande y es única.</em> Un modelo utilizable en español pesa entre cien y seiscientos megas. Se descarga una vez, con wifi, y después no se vuelve a tocar. Si el teclado pide descargar cada semana, algo está mal configurado.</p>
+<p><em>El aparato importa.</em> Un modelo mediano en un teléfono de gama media transcribe más lento que la voz; en uno de gama alta, va casi a la par. La diferencia no es el teclado: es el procesador.</p>
+<p><em>La calidad baja con el modelo.</em> No hay magia: un modelo pequeño confunde menos palabras raras, pero también confunde más nombres y números. La estrategia razonable es tener dos: el pequeño para el día a día y el grande configurado para cuando se dicta en casa con wifi.</p>
+<p>───────────────────</p>
+<p><em>🕰️ Cómo cambió esto en dos años</em></p>
+<p>En 2024 dictar en el teléfono era un servicio de la nube con cuota mensual y una espera de varios segundos por frase. En 2026 hay motores abiertos que corren en el aparato, teclados que se instalan como cualquier aplicación y modelos de ciento cuarenta megas que puntúan solos.</p>
+<p>Lo que no cambió es la parte que esta pieza subraya: los paquetes. El proyecto que más funciones tiene de la mañana no reparte archivo instalable en su repositorio, y por eso existe un espejo de tres estrellas con 174 megas adentro. La técnica avanzó; la distribución sigue siendo el eslabón débil, y ahí es donde se juega la confianza.</p>
+<p>───────────────────</p>
+<p><em>🧾 Lo que costó medir esta familia</em></p>
+<p>La mañana se fue en tres comprobaciones que no se ven en la tabla. La primera, separar el proyecto original de su espejo: el espejo copia el README del original palabra por palabra, con enlaces que apuntan al repositorio del autor, de modo que una lectura rápida confunde los dos. Hubo que mirar la descripción, la fecha de creación, el número de estrellas y la lista de publicaciones para saber cuál es cuál.</p>
+<p>La segunda, leer las publicaciones una por una: cuatro en seis días, con nombres de etiqueta que parecen identificadores de una ejecución automática, tres archivos con el mismo nombre y tamaños que crecen, y uno con nombre de compilación de depuración. Esa lista es la prueba documental de la pieza y se cita con sus cifras exactas.</p>
+<p>La tercera, la licencia del teclado de FUTO: la ficha automática devuelve NOASSERTION y el archivo del repositorio declara una licencia propia, «FUTO Source First 1.1-kb», con restricciones de uso comercial y de distribución. Se publica con su nombre exacto y no se resume como «libre», porque no lo es en el sentido habitual.</p>
+<p>───────────────────</p>
+<p><em>📎 Lo que deja el micrófono</em></p>
+<p>Una idea que sirve para todo el archivo y no solo para los teclados: cuando el autor de un programa no publica el paquete, alguien lo publica por él, y ese alguien pasa a formar parte de la cadena de confianza sin que nadie lo haya elegido. Comprobar quién firma lo que se instala vale más que comprobar cuántas estrellas tiene el proyecto, y en un teclado —que lee todo lo que escribes— vale el doble.</p>
+<p>───────────────────</p>
+<p><em>🔐 El teclado y las contraseñas</em></p>
+<p>Un teclado de terceros ve los campos donde escribes, incluidos los de contraseña. Los sistemas modernos marcan esos campos como protegidos y avisan al teclado de que no debe aprender ni guardar lo que se escribe ahí; los teclados serios lo respetan y los demás no siempre.</p>
+<p>Tres hábitos que reducen el riesgo sin volver al teclado del sistema. El primero: usar el teclado del sistema o el gestor de contraseñas para los campos sensibles, y el teclado de dictado para lo demás. El segundo: desactivar el aprendizaje de palabras nuevas en el teclado de dictado, o revisar la lista de palabras aprendidas cada mes. El tercero: no dictar nunca números de tarjeta, claves ni diagnósticos con un motor que transcribe en la nube.</p>
+<p>Y una comprobación que se puede hacer hoy: escribir una palabra inventada en un campo normal, borrarla y ver si el teclado la ofrece después como sugerencia. Si aparece, el teclado está aprendiendo lo que escribes, y esa lista conviene saber dónde está y cómo se borra.</p>
+<p>───────────────────</p>
+<p><em>🧪 Cuatro pruebas con el mismo párrafo</em></p>
+<p>Para comparar teclados sin opinar de gustos, se dicta el mismo párrafo a todos y se comparan las salidas. El párrafo debe tener todo lo que suele romper un motor: un nombre propio poco común, un número con decimales, una sigla, una pregunta y una coma con inciso.</p>
+<p>La primera prueba se hace con ruido de fondo moderado y sin red, para medir el motor del aparato. La segunda, en silencio y con red, para ver la diferencia entre los dos caminos. La tercera, con prisa y sin vocalizar, que es como se dicta en la vida real. La cuarta, dictando el mismo texto dos veces seguidas y comparando: un motor bueno da resultados casi iguales, uno flojo cambia palabras.</p>
+<p>Lo que se anota de cada prueba son cuatro cosas: cuántas palabras falló, si puso puntuación, si respetó el nombre propio y cuánto tardó. Con esa tabla de cuatro por cuatro, la decisión deja de ser una impresión y pasa a ser un dato.</p>
+<p>───────────────────</p>
+<p><em>🎚️ Tres ajustes que deciden todo</em></p>
+<p><em>El idioma del motor.</em> Un motor configurado en inglés transcribiendo español devuelve una traducción aproximada con faltas; uno configurado en español con acento caribeño y nombres propios rinde mucho más. Es el ajuste que más se olvida y el que más se nota.</p>
+<p><em>El silencio mínimo.</em> Cuánto hay que callar para que el dictado se corte y envíe. Un valor corto manda frases a medias; uno largo deja colgado el dictado cuando el que habla se queda pensando. Se ajusta probando con la voz y el ritmo propios.</p>
+<p><em>La puntuación automática.</em> Activarla y revisar de vez en cuando. Cuando funciona, ahorra media hora al día; cuando falla, mete comas donde no van. La prueba con el párrafo de cuatro trampas dice en dos minutos si el motor puntúa bien.</p>
+<p>───────────────────</p>
+<p><em>🎯 El caso del que compiló para los demás</em></p>
+<p>El espejo de esta mañana tiene una incidencia abierta que pide temas con efecto de cristal y una descripción donde su autor aclara, en primera persona, que no programa. Esa frase explica el fenómeno mejor que cualquier análisis: no hay ambición de proyecto, hay una necesidad resuelta y publicada.</p>
+<p>Ese gesto, hecho por cualquiera, es a la vez la mejor prueba del software libre y su punto más frágil. La mejor prueba, porque nadie necesita permiso para compilar y compartir lo que la licencia permite. El punto más frágil, porque el resultado circula sin registro de compilación, sin firma conocida y con un nombre que invita a confundirlo con el original.</p>
+<p>Quien instale ese paquete debería saber tres cosas: que el código de base es libre y de otro autor, que el paquete lo armó un tercero y que la única manera de comprobar qué hay dentro es compilarlo uno mismo o comparar firmas con la aplicación oficial. Con esas tres frases delante, la decisión sigue siendo libre y deja de ser a ciegas.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces</em></p>
+<ul>
+<li>Whisper: <a href="https://github.com/openai/whisper">https://github.com/openai/whisper</a></li>
+<li>whisper.cpp: <a href="https://github.com/ggml-org/whisper.cpp">https://github.com/ggml-org/whisper.cpp</a></li>
+<li>sherpa-onnx: <a href="https://github.com/k2-fsa/sherpa-onnx">https://github.com/k2-fsa/sherpa-onnx</a></li>
+<li>Vosk: <a href="https://github.com/alphacep/vosk-api">https://github.com/alphacep/vosk-api</a></li>
+<li>HeliBoard: <a href="https://github.com/Helium314/HeliBoard">https://github.com/Helium314/HeliBoard</a></li>
+<li>Teclado de FUTO: <a href="https://github.com/futo-org/android-keyboard">https://github.com/futo-org/android-keyboard</a></li>
+<li>BiBi Keyboard: <a href="https://github.com/BryceWG/BiBi-Keyboard">https://github.com/BryceWG/BiBi-Keyboard</a></li>
+<li>Dictate (original): <a href="https://github.com/DevEmperor/DictateKeyboard">https://github.com/DevEmperor/DictateKeyboard</a></li>
+<li>Dictator (espejo): <a href="https://github.com/Batmancpu/Dictator-">https://github.com/Batmancpu/Dictator-</a></li>
+<li>marmalade: <a href="https://github.com/maxwhipw/marmalade-stt-android">https://github.com/maxwhipw/marmalade-stt-android</a></li>
+<li>FlorisBoard, la base del teclado: <a href="https://github.com/florisboard/florisboard">https://github.com/florisboard/florisboard</a></li>
+<li>El sótano de la pieza anterior: <a href="https://github.com/immich-app/immich">https://github.com/immich-app/immich</a></li>
+</ul>
+<p><em>Cómo se midió:</em> diez repositorios con las tres lecturas completas y el orden rotado —API de búsqueda, página del repositorio y contenido crudo del README y del archivo de licencia—, más una comprobación específica de la cadena de publicaciones del espejo: cuatro publicaciones entre el 21 y el 26 de octubre, con nombre de archivo, tamaño exacto en bytes y huella digital de cada una. La licencia del teclado de FUTO se leyó en su archivo, no en su ficha. Corte entre las 14:10 y las 15:25 de Santo Domingo.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — el teclado que lee todo</em></p>
+<p>La familia del dictado deja tres cosas claras. La primera: los motores abiertos resolvieron el problema técnico; hoy se puede hablar y obtener texto limpio, con puntuación, sin que el audio salga del teléfono. La segunda: los teclados que la gente instala son pequeños en estrellas y grandes en responsabilidad, porque ven cada palabra que se escribe. La tercera: la distribución sigue siendo el eslabón flojo, y el espejo de tres estrellas con 174 megas lo demuestra mejor que cualquier discurso.</p>
+<p>Los números de la mañana, en fila: ★208.677 repartidas de forma escandalosamente desigual, seis empujones en octubre, tres en noviembre, tres proyectos que no publican paquete y un cuarto que existe para tapar ese hueco. Con esos datos se puede elegir sin leer diez README y, sobre todo, sin instalar a ciegas.</p>
+<p><em>Medición del corte:</em> lunes 2 de noviembre de 2026, entre las 14:10 y las 15:25 de Santo Domingo · diez repositorios con las tres lecturas completas y el orden rotado · cuatro publicaciones del espejo revisadas con tamaño y huella · una licencia leída en su archivo y no en su ficha.</p>
+<p><em>Licencia de esta entrega:</em> el texto va en CC BY-SA 4.0, las cifras en CC BY 4.0 y los ejemplos de código en MIT; la marca «Alexis (La Bandita)» y el nombre de la casa no se incluyen en el trato y se quedan donde están.</p>
+<blockquote>—¿Y si el paquete que bajo no es del autor?</blockquote>
+<blockquote>—Entonces el autor de lo que instalaste no es él: eres tú, aceptando.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Un teclado ve lo que escribes: se elige por quién firma el paquete y por qué pasa cuando no hay señal.</p>
+<p>───────────────────</p>
+<h2>🗒️ Notas al pie</h2>
+<p>(2-nov) El espejo se llama Dictator y el original se llama Dictate Keyboard; el espejo copia el README del original con enlaces al autor, y por eso se comparan aquí por descripción, fecha de creación (20 de mayo de 2026 frente a 29 de mayo de 2024), estrellas (★3 frente a ★313) y lista de publicaciones.</p>
+<p>(2-nov) Los tamaños y huellas del espejo son los que declara la lista de publicaciones del repositorio al momento del corte: 173.940.920 bytes (build-30, 22 de octubre, app-debug.apk), 173.958.868 (22 de octubre), 173.959.510 (23 de octubre) y 173.992.278 (26 de octubre).</p>
+<p>(2-nov) El teclado de FUTO figura con su licencia textual, «FUTO Source First 1.1-kb», y no como «libre»: permite uso, copia y modificación no comercial, prohíbe distribuir cobrando y no permite quitar los avisos del licenciante.</p>
+<p>(2-nov) Dictate publica la versión v6.4.0 del 7 de octubre sin archivo adjunto en el repositorio; la aplicación se distribuye por la tienda oficial. Esa ausencia es el origen de toda la sección del espejo y se verificó en la lista de publicaciones, no por referencia.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

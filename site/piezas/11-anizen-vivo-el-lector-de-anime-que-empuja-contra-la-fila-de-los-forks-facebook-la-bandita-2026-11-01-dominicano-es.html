@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AniZen vivo: el lector de anime que empuja contra la fila de los forks">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>AniZen vivo: el lector de anime que empuja contra la fila de los forks</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "AniZen vivo: el lector de anime que empuja contra la fila de los forks", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>AniZen vivo: el lector de anime que empuja contra la fila de los forks</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 40,006 caracteres</p>
+<p><em>AniZen vivo: el lector de anime que empuja contra la fila de los forks</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 11 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🏷️ Tres nombres que la gente confunde
+├── 📅 «Vivo» no es «con versión nueva»
+├── 🎬 Cuatro escenas y el censo de esta tarde
+├── 🔀 La familia del anime y su tronco quieto
+├── 🧪 El canal de pruebas y los huecos del censo
+├── 🛠️ Comprobar un lector y mudarse sin perder nada
+├── 📺 El video y sus tres finales
+├── 📱 El teléfono viejo y la ley
+├── ❓ Preguntas que me hacen
+├── 📊 Tabla, mitos y glosario
+├── 🔗 Enlaces y notas al pie
+</pre>
+<p><em>⚡ En una página</em></p>
+<p>Hay un lector de anime que sacó una versión ayer y lleva doscientos veinte números en el contador. Se llama AniZen, es Apache-2.0, está escrito en Kotlin, tiene ★200 y empujó su código el 31 de octubre. Al lado conviven un motor de ★7.866 que no empuja desde el 14 de septiembre, un fork de ★287 que empujó el 29 de octubre, una casa que saca versiones cada semana y no declara licencia, y un lector de manga de ★24.939 que sirve de vara para comparar. Ese es el mapa real del anime en el teléfono esta tarde.</p>
+<p>La confusión que más escucho es de vocabulario: la gente dice «se cayó el lector» cuando se rompió una extensión, y dice «cambié de app» cuando solo cambió de motor. Son tres piezas distintas con tres dueños distintos, y el anime tiene la mala suerte de que su pieza central —el motor grande— es la que se quedó quieta.</p>
+<p>Lo segundo que hay que aprender es a separar dos fechas: la del último empujón de código y la del último paquete publicado. No siempre coinciden, y la que le sirve a quien usa el teléfono es la segunda. AniZen empuja y publica casi al mismo ritmo; otros empujan y no publican; otros publican sin empujar nada visible.</p>
+<p>Si te llevas una idea: el anime en Android no está muerto ni resucitó, está repartido. Hay un tronco que dejó de latir y una fila de forks que lo mantienen con vida a empujones, cada uno con su público y su manera de romperse.</p>
+<p>───────────────────</p>
+<p><em>🏷️ Tres nombres que la gente confunde</em></p>
+<p>El motor es el programa que abre las series, dibuja las portadas y guarda tu biblioteca. Es lo que se instala y lo que se ve en el cajón de apps. Se le puede llamar lector, cliente o reproductor; da igual mientras se entienda que es el que manda sobre tus datos.</p>
+<p>La extensión es un añadido que sabe hablar con un sitio concreto. No sirve para otro sitio, no abre sola y no actualiza nada por su cuenta: cuando la página cambia de diseño, la extensión se queda devolviendo errores y hay que reemplazarla. En el anime, además, la extensión suele tener dos mitades: la que lista capítulos y la que resuelve el video.</p>
+<p>El catálogo es la lista de direcciones desde donde se bajan las extensiones. Es un archivo pequeño, se pega una vez en los ajustes del lector y desde ahí se actualiza. Cuando alguien dice que «no aparecen las extensiones», en la mitad de los casos el problema está en el catálogo viejo y no en el motor.</p>
+<p>Con esas tres piezas separadas, casi todo lo demás se ordena. Una extensión rota se arregla en un minuto; un motor abandonado se arregla mudándose, que es una tarde; un catálogo muerto se arregla pegando otro y actualizando. Confundirlos es lo que convierte un problema de un minuto en una tarde perdida.</p>
+<p>───────────────────</p>
+<p><em>📅 «Vivo» no es «con versión nueva»</em></p>
+<p>Un repositorio puede tener actividad todos los días y no publicar nada durante meses: eso pasa cuando el trabajo va a una rama que todavía no se empaqueta. Y puede tener un paquete nuevo cada semana mientras el código lleva un año igual, que es lo que ocurre cuando cada versión solo cambia un número y una firma.</p>
+<p>Por eso el censo de esta guía anota siempre las dos columnas. Un ejemplo de la casa: Komikku empujó código hoy mismo, 1 de noviembre, y su última versión pública es v1.14.1 del 17 de julio. Las dos cosas son verdad al mismo tiempo. Quien mire solo la versión dirá que el proyecto duerme; quien mire solo el empujón dirá que acaba de cambiar lo que tiene instalado, y ninguna de las dos frases es correcta.</p>
+<p>En el anime pasa lo contrario con más frecuencia: hay motores que publican release sobre release sin que el empujón visible cambie, porque la release se construye desde una rama de mantenimiento. AniZen, en cambio, empuja y publica a la vez: v0.5.220 salió el 31 de octubre, el mismo día del último empujón.</p>
+<p>El número 220 tampoco significa veinte versiones grandes. Los contadores de versión no son una medida de madurez, del mismo modo que el kilometraje de un carro no dice si el motor está bien. Un contador alto suele indicar compilaciones frecuentes y un solo mantenedor probando rápido, que es bueno para los arreglos y malo para la estabilidad.</p>
+<p>La cifra que sí dice algo es la diferencia entre las dos fechas. Si el paquete tiene más de un año y el código lleva nueve meses sin moverse, ese proyecto está terminado o abandonado, y en los dos casos conviene saberlo antes de meter la biblioteca dentro. Si el paquete es de esta semana, hay alguien pendiente, aunque sea una sola persona en su tiempo libre.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cuatro escenas de esta semana</em></p>
+<p><em>El que perdió la biblioteca mudándose.</em> Tenía doscientos títulos guardados en un lector de anime y quiso probar otro. Instaló, importó el respaldo, y las descargas no aparecieron. La biblioteca sí: los títulos y el progreso viajaron en el archivo de respaldo. Lo que no viaja son los capítulos descargados, porque viven en una carpeta propia de cada app. Su conclusión, después de la tarde perdida, fue buena: cambiar de motor es barato si se hace con respaldo y caro si se hace a ciegas.</p>
+<p><em>La que instaló el canal de pruebas sin saberlo.</em> Bajó un paquete desde la página de versiones y eligió sin mirar la que decía «pre-release». Al día siguiente tenía funciones nuevas y un fallo que cerraba la app al abrir la biblioteca. No era un lector malo: era el canal donde se publican las pruebas. Volver atrás fue fácil porque el paquete anterior seguía publicado, y esa es la razón por la que conviene no borrar la versión que funciona.</p>
+<p><em>El que creía que el motor estaba muerto.</em> Vio el repositorio del motor grande del anime sin paquete nuevo desde septiembre y anunció en un grupo que el proyecto había terminado. Lo que había terminado era el ritmo, no el proyecto: el fork seguía empujando, la casa seguía publicando y las extensiones seguían actualizándose desde el catálogo. La confusión no fue de datos, fue de interpretación.</p>
+<p><em>La que administra tres teléfonos en casa.</em> Necesitaba que los tres tuvieran lo mismo y que las actualizaciones no rompieran nada. Su método: la misma versión en los tres, la actualización del sistema operativo del teléfono —no la del lector— congelada, y solo el lector actualizado cuando aparece una versión que arregla algo concreto que le pasó a ella. Tres teléfonos, tres copias de la misma carpeta de respaldo, cero sorpresas en dos meses.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de esta tarde</em></p>
+<p><em>AniZen</em>, el que da título a la pieza: ★200, Apache-2.0, Kotlin, empujón del 31 de octubre, versión v0.5.220 del mismo día. Un mantenedor con ritmo alto y un contador que crece rápido. Su segunda casa, <em>anizen-preview</em>, tiene ★9, no declara licencia y empujó el mismo 31 de octubre: es el canal de pruebas, y ahí sí conviene que quien entre sepa que está en el canal de pruebas.</p>
+<p><em>Anikku</em>, el lector de anime de la casa de Komikku: ★1.127, Apache-2.0, Kotlin, empujón del 22 de octubre y versión v0.2.0 del 11 de septiembre. Es el intento más serio de tener un cliente de anime con base de mantenimiento detrás, y su contador de versión todavía corto dice lo que es: un proyecto en pañales con apoyo de un proyecto grande.</p>
+<p><em>Komikku</em>, el motor de manga de esa misma casa: ★4.966, Apache-2.0, empujón de hoy y versión v1.14.1 del 17 de julio. No es un lector de anime, y aparece en este censo porque es la referencia de lo que significa «mantenido»: código de hoy, paquete de hace tres meses, funciones de biblioteca muy por encima del promedio.</p>
+<p><em>Aniyomi</em>, el tronco del anime: ★7.866, Apache-2.0, Kotlin, empujón del 14 de septiembre y versión v0.18.2.1 del mismo día. Sigue siendo la base de casi todos los forks de la familia y su última publicación tiene ya casi dos meses. Es el número más alto del censo y el más quieto de los grandes.</p>
+<p><em>Tadami</em>, el fork que se separó con casa propia: ★287 en la versión que se presenta como fork de Aniyomi, Apache-2.0, empujón del 29 de octubre, versión v0.63.2 del 27. Y su casa matriz, <em>tadamiorg/tadami</em>, ★61, sin licencia declarada, empujón del 30 de octubre, versión v1.17.0 del mismo día. Dos repositorios para el mismo trabajo: uno cuenta la historia y el otro lleva el pulso.</p>
+<p><em>Mihon</em>, la vara del manga: ★24.939, Apache-2.0, Kotlin, empujón del 26 de octubre y versión v0.21.3 del 25. No lee anime, y está aquí porque cualquier discusión sobre forks de anime termina comparando con él, y conviene que la comparación se haga con números a la vista.</p>
+<p><em>Yokai-T</em>, el intento sin público: ★0, Apache-2.0, Kotlin, empujón del 26 de septiembre, sin versión publicada. Un repositorio con dos meses de vida, licencia clara y nadie mirando. Se publica para no dibujar un ecosistema donde solo existen los que tienen estrellas.</p>
+<p>───────────────────</p>
+<p><em>🔀 La familia del anime y su tronco quieto</em></p>
+<p>La familia viene de la misma raíz que el manga: un motor que definió cómo se conectan las extensiones y una comunidad que aprendió a escribir las suyas. Esa raíz se bifurcó hace años y hoy tiene tres formas vivas: el tronco original, los forks que heredaron su interfaz y las casas nuevas que nacieron con su propia idea de la biblioteca.</p>
+<p>El tronco original conserva el número más alto del censo y la fecha de publicación más vieja de los grandes. Su última versión, v0.18.2.1, salió el 14 de septiembre. No es abandono declarado: es velocidad cero con el cartel puesto. Un proyecto así sigue funcionando mientras el sistema no cambie nada que le afecte, y la familia de extensiones siga sirviendo paquetes compatibles.</p>
+<p>Los forks son la parte que se mueve. Tadami empujó el 29 y el 30 de octubre según el repositorio que se mire, publicó v0.63.2 el 27 y v1.17.0 el 30, y es el que la gente usa cuando quiere funciones que el tronco no tiene. AniZen es el más nuevo del grupo con diferencia: ★200, versión del 31 de octubre y un canal de pruebas separado, que es una señal de que su autor espera que algo se rompa.</p>
+<p>La tercera forma son las casas nuevas. Anikku, de la casa de Komikku, no hereda la interfaz del tronco: nace con la idea de que el anime debería compartir estantería con el manga en el mismo lector. Tiene ★1.127 y su versión es de septiembre. Es la apuesta que más papeletas tiene de crecer, y también la que más depende de que su casa grande siga viva.</p>
+<p>Lo que no ha aparecido este año, y conviene decirlo, es un motor de anime con mantenimiento estable, ritmo tranquilo y documentación para quien quiera escribir extensiones. El hueco existe. Mientras exista, la fila de forks va a seguir siendo la forma normal del ecosistema y no una anomalía.</p>
+<p>───────────────────</p>
+<p><em>🧪 El canal de pruebas: por qué el número no para</em></p>
+<p>Un contador que llega a 220 dice algo del método: el autor compila seguido y publica seguido, sin esperar a tener un lote grande de cambios. En proyectos pequeños eso es una decisión sensata, porque el que reporta un fallo puede probar el arreglo esa misma noche. En proyectos con muchos usuarios es una decisión que reparte el riesgo: cada paquete nuevo puede romper algo para todos.</p>
+<p>Por eso la existencia de un segundo repositorio de pruebas no es un detalle administrativo. <code>anizen-preview</code>, ★9, sin licencia declarada, empujón del 31 de octubre, es la puerta por donde entra lo que todavía no se ha probado. La regla que se desprende es simple: el paquete de la casa principal para el teléfono de todos los días, el del canal de pruebas para el teléfono de las pruebas.</p>
+<p>Hay un detalle que casi nadie mira y que vale más que la fecha: qué trae la versión nueva. Las notas de una release contestan tres preguntas en dos líneas: qué se arregló, qué se rompió y qué cambió de sitio. Un paquete que solo dice «mejoras de rendimiento» y no nombra un solo archivo tocado es un paquete que se instala por confianza, y la confianza se paga con respaldos.</p>
+<p>El canal de pruebas también explica la cifra que más engaña: las estrellas. ★9 para el canal de pruebas no significa que el proyecto valga nueve estrellas; significa que la gente que lo probó es poca. La estrella mide atención, no calidad, y la atención se concentra en la puerta principal.</p>
+<p>───────────────────</p>
+<p><em>🕳️ Los huecos del censo</em></p>
+<p>Un censo honesto incluye lo que no se pudo leer. Hoy hubo dos.</p>
+<p>El primero es <em>Gaijin81/anizen</em>, un repositorio con el mismo nombre del lector y sin README legible en ninguna de las ramas que se probaron. Sin archivo de presentación no hay licencia que citar, ni cifra de versión, ni descripción que se pueda publicar. Se nombra y se deja fuera de la tabla, porque una ficha sin datos es peor que un hueco confesado.</p>
+<p>El segundo no es un hueco de lectura sino de público: <em>Yokai-T</em>, ★0, Apache-2.0, empujón del 26 de septiembre, sin versión. Tiene todo lo que se le pide a un proyecto —licencia clara, código reciente y un nombre— y no tiene una sola persona mirándolo. En estos censos aparecen siempre dos o tres así, y son la parte que impide creer que el ecosistema crece solo.</p>
+<p>Hay un tercer hueco, este de otra clase: el motor grande del anime no publica desde el 14 de septiembre y su repositorio de extensiones tampoco es el que la mayoría usa hoy. Eso deja a los usuarios nuevos en una situación rara, porque el camino que encuentran en los tutoriales viejos ya no es el camino que funciona.</p>
+<p>Y un cuarto, el más importante para quien lee: no existe hoy forma de saber, mirando el repositorio, si un fork va a seguir vivo en marzo. La fecha del empujón dice lo de esta semana. Lo demás es fe.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Comprobar un lector en cinco pasos</em></p>
+<p><strong>Paso uno: la ficha del repositorio.</strong> Se abre la dirección del proyecto y se miran tres cosas en la misma pantalla: la licencia en la columna derecha, la fecha del último empujón arriba y la pestaña de versiones. Si la licencia no aparece, se anota «sin licencia» y se sigue; si la fecha tiene más de un año, se anota y se sigue también, porque lo que decide no es una sola señal.</p>
+<p><strong>Paso dos: la última versión, con su nota.</strong> No basta con leer el número. La nota de la release dice qué se arregló; si está vacía o solo dice mejoras, el paquete es una caja cerrada y hay que tratarlo como tal.</p>
+<p><strong>Paso tres: el paquete descargado.</strong> Se mira el tamaño y se compara con lo que la nota anuncia. Un APK de tres megas para un lector que siempre pesó veinte es una rareza que se pregunta antes de instalar.</p>
+<p><strong>Paso cuatro: la firma.</strong> Con AppManager, con un visor de paquetes o con el propio sistema al actualizar, se comprueba que la versión nueva viene firmada por la misma llave que la vieja. Si la firma cambió, hay dos historias posibles y las dos merecen una pausa.</p>
+<p><strong>Paso cinco: el respaldo.</strong> Antes de actualizar, un archivo de respaldo de la biblioteca guardado fuera del teléfono. No es desconfianza del proyecto: es que el respaldo cuesta dos minutos y la biblioteca cuesta años.</p>
+<p>Cinco pasos, quince minutos, y el resultado no es una garantía: es una decisión informada. La diferencia entre las dos cosas se nota el día que algo falla, porque quien decidió informado tiene a dónde volver.</p>
+<p>───────────────────</p>
+<p><em>💾 Lo que se pierde al cambiar de motor</em></p>
+<p>Mudarse de lector no es como cambiar de funda. Hay tres cosas que viajan, dos que no y una que se pierde para siempre si no se respalda antes.</p>
+<p>Lo que viaja: la lista de títulos de la biblioteca, el progreso de lectura y las categorías. Todo eso cabe en un archivo de respaldo que el propio lector exporta y que el nuevo importa, siempre que el formato sea compatible. En la familia del manga y del anime esa compatibilidad existe desde hace años; en lectores nuevos fuera de la familia, a veces hay que usar un formato intermedio y reordenar categorías a mano.</p>
+<p>Lo que no viaja: las descargas y los ajustes finos. Las descargas viven en una carpeta con el nombre del paquete de la app vieja; el lector nuevo no las ve y las vuelve a bajar si hace falta. Los ajustes de lector —tamaño de letra, dirección de lectura, filtros— se pueden exportar aparte en algunos motores y en otros hay que rehacerlos a mano.</p>
+<p>Lo que se pierde: los historiales propios de cada extensión, como la marca de «visto» de una serie que no estaba en la biblioteca. Eso no se exporta en ninguna parte, porque pertenece al sitio y no al lector.</p>
+<p>La consecuencia práctica es una regla que sirve para todo: antes de mudarse, exportar, copiar el archivo al correo o al almacenamiento, y no borrar la app vieja hasta comprobar que la biblioteca nueva abre con todos los títulos. Borrar primero es el único error que no tiene arreglo.</p>
+<p>───────────────────</p>
+<p><em>📱 El teléfono viejo y el lector nuevo</em></p>
+<p>Una parte del público de estas herramientas tiene aparatos de 2018 y 2019, y ese dato cambia las recomendaciones. Un motor con funciones nuevas suele pedir una versión de Android más alta y más memoria; un fork conservador funciona donde el grande ya no arranca.</p>
+<p>La señal que hay que mirar en la ficha de la release es el requisito de sistema. Está escrito en las notas o en el nombre del archivo, y se puede leer antes de instalar. AniZen, por ejemplo, con su ritmo de compilación alto, arrastra lo que arrastre su base; un fork que se separó hace dos años puede exigir menos, y también puede no arreglar nada de lo que se rompió este año.</p>
+<p>Hay una tercera vía que casi nadie considera: quedarse quieto. Un teléfono de 2019 con un lector de 2024 que funciona, extensiones actualizadas y biblioteca respaldada es un aparato perfectamente útil. La novedad no es un valor por sí misma, y en un aparato lento, cada actualización del motor es una apuesta a que el rendimiento no empeore.</p>
+<p>Lo que si conviene actualizar en un teléfono viejo es la extensión que se rompió, y solo esa. Es un cambio pequeño, se revierte y no toca la biblioteca.</p>
+<p>───────────────────</p>
+<p><em>🧩 Qué hace buena a una extensión de anime</em></p>
+<p>Una extensión de anime tiene dos trabajos y por eso falla el doble. El primero es listar: encontrar la serie, los capítulos y sus nombres. El segundo es resolver el video, que es donde la mayoría de los problemas aparecen, porque los sitios cambian de reproductor, de dominio y de truco con más frecuencia que de diseño.</p>
+<p>Una extensión bien hecha declara su versión, tiene un nombre que se puede buscar en el catálogo y no intenta nada raro fuera de su trabajo: no pide permisos, no abre anuncios propios y no guarda nada que no sea la dirección del video. Una extensión mal hecha puede hacer lo mismo y además pedir cosas que no necesita.</p>
+<p>La comprobación que sirve es la del origen. Las extensiones llegan desde un catálogo y ese catálogo tiene repositorio público con fecha; si la extensión que tienes no está en ninguno de los catálogos vivos, vino de otro sitio y las preguntas cambian.</p>
+<p>Cuando una serie no abre y otra sí, el problema es la extensión. Cuando ninguna abre, el problema es el motor o el catálogo. Cuando abre y se corta a los dos minutos, casi siempre es el sitio. Tres síntomas, tres culpables distintos, y saber cuál es ahorra la reinstalación inútil.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón</em></p>
+<p>Esta guía no reparte direcciones de contenido ni receta sitios. Lo que hace es contar de dónde salen los programas y con qué reglas se comportan, que es lo que se puede afirmar sin mentir.</p>
+<p>Las licencias del censo son de código: Apache-2.0 en casi todos los motores de esta familia, que permite usar, modificar y redistribuir el programa siempre que se conserve el aviso y se diga qué se cambió. Eso cubre el software. No cubre lo que el software muestra, que tiene sus propias reglas y sus propios dueños.</p>
+<p>La marca es otra cosa. El nombre de un lector y su logo no van con el código: un fork puede copiar la licencia y no puede usar el nombre para confundir. Cuando dos repositorios se llaman casi igual, la pregunta correcta no es cuál es el bueno sino cuál publica desde la cuenta original.</p>
+<p>Y hay una regla de convivencia que no es legal y sí importa: nada de lo que hay aquí justifica instalar software de origen desconocido en el teléfono de otra persona. La casa prefiere el hueco confesado a la recomendación cómoda.</p>
+<p>───────────────────</p>
+<p><em>🧨 Cuando el lector se cae en mitad del capítulo</em></p>
+<p>El síntoma es siempre el mismo: la app se cierra, o se queda en negro, o vuelve a la biblioteca sin decir nada. La causa puede estar en tres sitios y el orden de comprobación evita adivinar.</p>
+<p>Primero el motor: ¿la app abrió al menos? Si abrió, arrancó el motor y el problema está más adentro. Si no abrió, se mira si el paquete se instaló con la firma correcta y si el teléfono tiene espacio.</p>
+<p>Segundo la extensión: se prueba otra serie del mismo sitio y una serie del mismo nombre en otro sitio. Si la primera falla y la segunda funciona, la extensión de ese sitio está rota y hay que actualizarla o esperar. Si las dos fallan, el problema es más grande.</p>
+<p>Tercero el sitio: se comprueba si el sitio responde en el navegador. Muchas «caídas» del lector son sitios caídos, dominios cambiados o bloqueos regionales, y el lector solo está informando con la única cara que sabe poner.</p>
+<p>Cuando los tres están bien y aun así se cae, queda el registro de la app y el reporte al proyecto. Un reporte útil lleva tres cosas: la versión exacta del motor, la versión exacta de la extensión y lo que se estaba haciendo. Con eso el que mantiene puede reproducirlo; sin eso, el reporte se parece a todos los demás.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cuál te toca según lo que ya tengas</em></p>
+<p>Si vienes del tronco y todo te funciona, la respuesta honesta es no mudarte. El motor grande tiene ★7.866, licencia Apache-2.0 y una comunidad que escribió miles de extensiones; su última versión es de septiembre y mientras no aparezca un fallo que te toque, cambiar de casa es riesgo sin beneficio.</p>
+<p>Si vienes del tronco y algo se rompió que el tronco no va a arreglar, el fork es la salida natural. Tadami es el que más empuja de la familia —29 y 30 de octubre, dos versiones en cuatro días— y su precio es la dispersión: dos repositorios, dos contadores y una comunidad que hay que seguir en el sitio correcto.</p>
+<p>Si estás empezando y no tienes biblioteca, AniZen entra por los ojos: ★200, licencia clara, versión de ayer y un ritmo que hace pensar que el autor va a estar ahí el mes que viene. Su riesgo es el de todo proyecto de una sola persona: si se cansa, no hay relevo anunciado. Empezar por ahí está bien; poner la biblioteca entera sin respaldo, no.</p>
+<p>Si lo que quieres es una sola app para anime y manga, Anikku es la única apuesta de esta lista que lo intenta con una casa grande detrás. Su versión es de septiembre, su contador está en 0.2 y su techo depende de que Komikku, con ★4.966 y empujón de hoy, siga su ritmo.</p>
+<p>Si tu teléfono es de 2018 o 2019, la respuesta cambia otra vez: quédate en lo que arranca. Un lector que se abre en dos segundos vale más que uno con funciones que el aparato no puede mover.</p>
+<p>───────────────────</p>
+<p><em>🗓️ Un calendario de revisión que cabe en el año</em></p>
+<p>Cuatro fechas y no más, porque un calendario que no se cumple no sirve de nada. Estas cuatro caben en cualquier agenda y cubren el 90% de lo que se rompe.</p>
+<p><strong>La primera semana de cada mes:</strong> abrir el catálogo de extensiones y actualizar. Es la operación más barata del año y evita la mitad de los «no abre».</p>
+<p><strong>Al cambiar de estación:</strong> exportar el respaldo de la biblioteca y guardarlo fuera del teléfono. Dos minutos, y es el único seguro contra la mudanza mal hecha.</p>
+<p><strong>Una vez al año, en la fecha que sea fácil de recordar:</strong> revisar si el motor que usas sigue publicando. No hace falta leer el código: la pestaña de versiones y la fecha del empujón bastan, y si las dos llevan más de un año quietas, es el momento de mirar la fila.</p>
+<p><strong>Cuando algo se rompa y no se arregle en una semana:</strong> ese es el día de mirar los forks, no antes. Mudarse por curiosidad se paga en tardes; mudarse por necesidad se paga con un respaldo y una hora.</p>
+<p>Con esas cuatro, la conversación deja de ser «¿cuál es el mejor lector?» y pasa a ser «¿cuándo revisé esto por última vez?», que es una pregunta que sí tiene respuesta.</p>
+<p>───────────────────</p>
+<p><em>💬 Las frases que se repiten</em></p>
+<p>«Es que ese lector está muerto». Casi nunca lo está: está quieto. Muerto es cuando el paquete ya no instala y las extensiones ya no cargan.</p>
+<p>«Me bajé el bueno, el de las pruebas». El canal de pruebas no es el bueno ni el malo: es el que cambia cada semana. Si te gusta probar, es tu sitio; si quieres que el teléfono abra siempre, no.</p>
+<p>«Perdí todo al actualizar». Casi siempre: firmas distintas o un borrado previo. Las dos se evitan con lo mismo, que es el respaldo.</p>
+<p>«Ese fork es igual, pero mejor». Casi siempre es el mismo código con dos funciones más y una versión menos probada.</p>
+<p>«No entiendo por qué hay tantos». Porque el tronco se quedó quieto y cada grupo con una necesidad distinta abrió su puerta. Es más fácil de entender así que como una guerra de proyectos.</p>
+<p>───────────────────</p>
+<p><em>📺 El video y sus tres finales</em></p>
+<p>En un lector de manga el final del camino es una imagen. En uno de anime el final es un reproductor, y ahí se juntan tres aparatos distintos: el contenedor que trae el capítulo, el reproductor del sistema y el decodificador del teléfono. Cualquiera de los tres puede negarse, y cada negativa tiene su cara.</p>
+<p><em>La primera negativa es el formato.</em> Un capítulo en un contenedor que el reproductor del sistema no reconoce se queda en negro con sonido, o al revés. La prueba es llevar el mismo archivo a un reproductor de escritorio: si ahí se ve, el problema es el reproductor del teléfono y no la extensión.</p>
+<p><em>La segunda es la pista.</em> Los capítulos modernos suelen traer audio en dos idiomas y subtítulos en tres. Un teléfono que no encuentra la pista correcta muestra el video mudo o con subtítulos que no corresponden. Casi siempre se arregla cambiando de pista a mano y recordando la elección.</p>
+<p><em>La tercera es la memoria.</em> Un teléfono de 2019 con tres gigas reproduciendo un capítulo en calidad alta se queda sin margen y el sistema cierra la app sin pedir permiso. Bajar la calidad en el ajuste del lector arregla lo que ninguna actualización arregla.</p>
+<p>Hay una cuarta negativa que no es del aparato: el enlace del video caduca. Media hora después de listarlo, el servidor del sitio lo invalida y el lector devuelve un error que parece del reproductor. Volver a la lista de capítulos y abrir otra vez suele resolverlo, y es la razón por la que «se cae cada dos capítulos» casi nunca es un fallo del proyecto.</p>
+<p>La consecuencia para quien elige lector: preguntar por reproductor integrado o externo no es un detalle de preferencia. Un lector que deja el video al reproductor del sistema es más frágil en formatos raros y más fácil de diagnosticar; uno con reproductor propio controla la experiencia y hereda todos los fallos del suyo.</p>
+<p>───────────────────</p>
+<p><em>🧱 Lo que no se ve: la biblioteca y sus carpetas</em></p>
+<p>La biblioteca de un lector de anime parece una lista y por dentro son tres carpetas distintas. Entenderlas es lo que separa a quien se muda en una hora de quien pierde una tarde.</p>
+<p><em>La primera es la base de datos.</em> Ahí viven los títulos, las categorías, el progreso y las fechas. Es pequeña, se exporta en un archivo y es la que hay que salvar antes de cualquier cambio.</p>
+<p><em>La segunda es la de descargas.</em> Cada capítulo es un archivo pesado guardado con el nombre del paquete de la app que lo bajó. No se exporta con la base y no la ve el lector nuevo. Si el teléfono tiene poco espacio, esas carpetas son también la mitad del problema de almacenamiento.</p>
+<p><em>La tercera es la de caché.</em> Portadas, miniaturas y fragmentos de video. Se puede borrar sin miedo y se vuelve a llenar sola; es la primera que hay que limpiar cuando el teléfono se pone lento.</p>
+<p>Con esas tres separadas, el mantenimiento se vuelve obvio: la base se respalda, las descargas se administran y la caché se borra cuando estorba. Y el diagnóstico también: un lector que abre lento con veinte gigas de caché no está mal hecho, está sucio.</p>
+<p>Hay un cuarto archivo que casi nadie mira y que conviene conocer: el de registro. Cuando algo falla sin mensaje claro, el registro dice qué estaba pidiendo el lector en el momento del fallo. Copiar ese texto es lo que convierte un «no funciona» en un reporte que alguien puede usar.</p>
+<p>───────────────────</p>
+<p><em>🤝 El que escribe extensiones</em></p>
+<p>Detrás de cada extensión de anime hay alguien que leyó una página y escribió la manera de leerla. Ese trabajo no lo ve nadie mientras funciona y lo ve todo el mundo cuando se rompe.</p>
+<p>Escribir una extensión nueva empieza por entender el formato del motor al que va: cómo se declara el nombre, cómo se piden los capítulos, cómo se resuelve el video. La familia del anime heredó ese formato del manga, y por eso muchas extensiones de manga se parecen tanto a las de anime en su primera versión.</p>
+<p>Lo difícil no es la primera versión: es el mantenimiento. Un sitio de anime cambia de reproductor tres veces al año y de dominio dos; cada cambio es una tarde de trabajo no pagado. Los catálogos viven de esas tardes, y por eso la salud de un catálogo se mide mejor por su número de contribuidores que por su número de extensiones.</p>
+<p>Si alguien quiere ayudar y no programa, hay dos cosas que sirven y no requieren código: reportar con detalle la extensión y el síntoma exacto, y probar los arreglos cuando el que mantiene pide confirmación. Un reporte bueno vale más que diez «no me funciona».</p>
+<p>Para quien sí programa, la recomendación de la casa es empezar por arreglar una extensión rota antes que escribir una nueva. Arreglar enseña el formato, el estilo del proyecto y el ritmo de publicación, y deja al ecosistema mejor de como estaba.</p>
+<p>───────────────────</p>
+<p><em>🎯 El caso del capítulo doce</em></p>
+<p>Una serie, un capítulo que no aparece, y once que sí. Es el caso más común y el que mejor enseña a diagnosticar.</p>
+<p>Si los once primeros están y el doce no, la extensión no está rota: el sitio no lo ha publicado, o lo publicó con un nombre que la extensión no reconoce, o lo publicó en una temporada que la extensión lista aparte. Se comprueba en el navegador en treinta segundos y se acaba la duda.</p>
+<p>Si el doce aparece y al abrirlo vuelve a la lista, el problema es el video y no el listado: el enlace caducó, el servidor cambió o la calidad pedida no está disponible. Cambiar de servidor en el mismo capítulo resuelve la mitad de los casos.</p>
+<p>Si el doce aparece, se abre y se corta a la mitad, es memoria o red. Memoria cuando pasa siempre en la misma marca, red cuando pasa en momentos distintos del mismo capítulo.</p>
+<p>Y si el doce aparece dos veces con nombres casi iguales, el sitio está republicando: la extensión lista lo que hay. Ahí no hay nada que arreglar y sí algo que entender, porque la culpa no es del lector.</p>
+<p>Cuatro síntomas del mismo capítulo, cuatro culpables distintos. La costumbre de probarlo en el navegador antes de tocar el lector es lo que convierte una tarde de reinstalaciones en dos minutos de mirada.</p>
+<p>───────────────────</p>
+<p><em>🧾 Lo que costó medir esto</em></p>
+<p>Lo primero que costó fue el nombre: tres repositorios contienen la palabra del lector en su dirección y solo uno es el proyecto que publica. Lo segundo, la licencia: uno de los repositorios de la familia no declara ninguna, y esa casilla vacía se publica como vacía en vez de rellenarla con la del padre.</p>
+<p>Lo tercero fue el tiempo. Las versiones se piden una por una y algunas tardan; las que no tienen ninguna devuelven un mensaje que hay que distinguir de un error de red. Ese mensaje se anota como «sin versión publicada», que es un dato, y no como «no se pudo leer», que sería otro.</p>
+<p>Lo cuarto fue la tentación. Con nueve proyectos y una tabla por delante, lo fácil es escribir solo los que tienen estrellas y dejar los ceros fuera. Aquí están los dos ceros, el de las nueve estrellas y el de las sesenta y una, porque un censo que solo cuenta a los grandes termina dibujando un ecosistema que no existe.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿AniZen es el mismo proyecto que el motor grande del anime?</strong> No. Es un lector propio, con su repositorio y su licencia, y su única relación con la familia es la raíz común de cómo se conectan las extensiones.</p>
+<p><strong>¿AniZen es seguro?</strong> Es Apache-2.0, tiene el código público y publica desde su cuenta; eso es lo que se puede verificar. Lo que no se puede verificar desde fuera es lo que hace en tu teléfono, y por eso existe el paso de la firma y el del respaldo.</p>
+<p><strong>¿Por qué la versión se llama v0.5.220 y no v1?</strong> Porque el autor no ha decidido que esté maduro. El cero delante no es un defecto: es una promesa de que la interfaz todavía puede cambiar.</p>
+<p><strong>¿Vale la pena instalar el canal de pruebas?</strong> Solo si tu teléfono de pruebas no es el teléfono de todos los días y te gusta reportar fallos con detalle.</p>
+<p><strong>¿Puedo tener dos lectores a la vez?</strong> Sí, y es la forma más sana de probar. Los dos comparten biblioteca solo si importas el mismo respaldo, y conviene no hacerlo hasta estar decidido.</p>
+<p><strong>¿Qué pasa con mis descargas si cambio de lector?</strong> Se quedan donde estaban y el lector nuevo no las ve. Si el espacio importa, hay que borrarlas a mano antes de mudarse.</p>
+<p><strong>¿Anikku lee también manga?</strong> Es la intención con la que nace: un lector de anime de la casa de Komikku, con la idea de compartir estantería. Su versión v0.2.0 y su empujón del 22 de octubre dicen que la idea está en marcha, no terminada.</p>
+<p><strong>¿Por qué los forks tienen números tan distintos del tronco?</strong> Porque cada uno lleva su propio contador desde el día que se separó. Las cifras no se comparan entre sí: se leen como la historia de cada casa.</p>
+<p><strong>¿Mihon lee anime?</strong> No. Está en el censo porque es la vara de comparación del manga: ★24.939, versión del 25 de octubre. Cuando alguien dice que un fork de anime «va bien», se mide contra esto.</p>
+<p><strong>¿Qué hago con un lector que lleva un año sin versión?</strong> Nada mientras funcione. El día que falle algo y no haya arreglo, se mira la fila con el respaldo ya exportado.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Los nueve medidos, en una línea</em></p>
+<table>
+<tr><th>Repositorio</th><th>Qué es</th><th>Licencia</th><th>Empujón</th><th>Estrellas</th></tr>
+<tr><td>AniZen</td><td>lector de anime con ritmo alto</td><td>Apache-2.0</td><td>31-oct</td><td>★200</td></tr>
+<tr><td>anizen-preview</td><td>canal de pruebas de AniZen</td><td>sin licencia</td><td>31-oct</td><td>★9</td></tr>
+<tr><td>Anikku</td><td>anime de la casa de Komikku</td><td>Apache-2.0</td><td>22-oct</td><td>★1.127</td></tr>
+<tr><td>Komikku</td><td>motor de manga de esa casa</td><td>Apache-2.0</td><td>hoy</td><td>★4.966</td></tr>
+<tr><td>Aniyomi</td><td>el tronco del anime</td><td>Apache-2.0</td><td>14-sep</td><td>★7.866</td></tr>
+<tr><td>Tadami (fork)</td><td>fork con casa propia</td><td>Apache-2.0</td><td>29-oct</td><td>★287</td></tr>
+<tr><td>tadami (org)</td><td>la casa nueva del fork</td><td>sin licencia</td><td>30-oct</td><td>★61</td></tr>
+<tr><td>Yokai-T</td><td>intento sin público</td><td>Apache-2.0</td><td>26-sep</td><td>★0</td></tr>
+<tr><td>Mihon</td><td>la vara del manga</td><td>Apache-2.0</td><td>26-oct</td><td>★24.939</td></tr>
+</table>
+<p><em>Cinco mitos de la fila</em></p>
+<p><strong>Mito uno: «más estrellas, más vivo».</strong> Mihon tiene ★24.939 y publicó el 25 de octubre; AniZen tiene ★200 y publicó el 31. La estrella mide cuánta gente miró, no cuándo alguien arregló algo.</p>
+<p><strong>Mito dos: «un fork es una copia».</strong> Un fork con casa propia es otro proyecto: otro contador, otras decisiones y otras manos. Tadami lo demuestra con dos repositorios y dos versiones en cuatro días.</p>
+<p><strong>Mito tres: «si no hay versión, está abandonado».</strong> Komikku empujó hoy con su última versión en julio. El código y el paquete son dos relojes distintos.</p>
+<p><strong>Mito cuatro: «todos los lectores de anime son lo mismo».</strong> Comparten la forma de conectar extensiones y no comparten la biblioteca, los ajustes ni las descargas. Mudarse tiene costo.</p>
+<p><strong>Mito cinco: «el que tiene el número más alto es el más estable».</strong> Un contador alto suele querer decir compilaciones frecuentes, y compilaciones frecuentes es lo contrario de estabilidad.</p>
+<p><em>Glosario de la fila</em></p>
+<p><strong>Tronco</strong> — el motor del que salieron los demás, siga vivo o quieto.</p>
+<p><strong>Fork</strong> — copia que tomó su propio camino y su propio contador.</p>
+<p><strong>Canal de pruebas</strong> — repositorio separado donde se publica lo que todavía no se ha probado.</p>
+<p><strong>Release</strong> — paquete publicado, con número y fecha.</p>
+<p><strong>Empujón</strong> — último cambio de código visible en el repositorio.</p>
+<p><strong>Respaldo</strong> — archivo con la biblioteca y el progreso, exportado a mano.</p>
+<p><strong>Contador de versión</strong> — número que crece con cada compilación, no con cada avance.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces</em></p>
+<p>Cada dirección se abrió esta tarde; ninguna viene de una lista guardada.</p>
+<ul>
+<li>AniZen: <a href="https://github.com/salmanbappi/AniZen">https://github.com/salmanbappi/AniZen</a></li>
+<li>El canal de pruebas de AniZen: <a href="https://github.com/salmanbappi/anizen-preview">https://github.com/salmanbappi/anizen-preview</a></li>
+<li>Anikku: <a href="https://github.com/komikku-app/anikku">https://github.com/komikku-app/anikku</a></li>
+<li>Komikku: <a href="https://github.com/komikku-app/komikku">https://github.com/komikku-app/komikku</a></li>
+<li>Aniyomi, el tronco: <a href="https://github.com/aniyomiorg/aniyomi">https://github.com/aniyomiorg/aniyomi</a></li>
+<li>Tadami, el fork: <a href="https://github.com/andarcanum/Tadami-Aniyomi-fork">https://github.com/andarcanum/Tadami-Aniyomi-fork</a></li>
+<li>La casa nueva de Tadami: <a href="https://github.com/tadamiorg/tadami">https://github.com/tadamiorg/tadami</a></li>
+<li>Yokai-T: <a href="https://github.com/KakarottoCake/yokai-T">https://github.com/KakarottoCake/yokai-T</a></li>
+<li>Mihon, la vara del manga: <a href="https://github.com/mihonapp/mihon">https://github.com/mihonapp/mihon</a></li>
+</ul>
+<p><em>Lo que quedó fuera.</em> El repositorio <em>Gaijin81/anizen</em> no tiene README legible en ninguna rama, así que no hay licencia, versión ni presentación que publicar. Se nombra el hueco y no se inventa la ficha.</p>
+<p><em>Cómo se midió.</em> Nueve proyectos leídos tres veces cada uno y por tres caminos distintos: la búsqueda de la forja, la página del repositorio y el archivo crudo del README. El orden de los tres caminos se rotó de un proyecto al siguiente, y las versiones se pidieron aparte, una por una, para no confundir el paquete con el código.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — el que cuenta los empujones</em></p>
+<p>El anime en el teléfono no tiene hoy un dueño claro, y ese es el dato. Tiene un tronco de ★7.866 que publicó en septiembre, un fork de ★287 que publicó dos veces en cuatro días, un lector de ★200 que sacó una versión ayer y una casa nueva de ★61 que empuja mientras discute consigo misma en dos repositorios.</p>
+<p>Lo que sí tiene dueño es la manera de mirarlo: dos fechas por proyecto, licencia a la vista y respaldo antes de tocar. Con eso, la pregunta deja de ser cuál es el mejor y pasa a ser cuál está trabajando hoy, que se contesta en treinta segundos.</p>
+<blockquote>—¿Y si el que estoy usando se queda quieto?</blockquote>
+<blockquote>—Se queda quieto, no se muere. Y el día que se muera, ya tienes el respaldo en el correo.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Un lector vivo se mide por la fecha de su paquete, no por el número de sus estrellas.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 17:24 y las 17:31 de Santo Domingo · nueve repositorios medidos con el orden de las tres lecturas rotado · las versiones se consultaron por separado y se anotó su fecha, no solo su número.</p>
+<p><em>Licencia de esta entrega:</em> el texto va en CC BY-SA 4.0, los datos medidos en CC BY 4.0 y el código de ejemplo en MIT; el nombre de la casa y la marca quedan reservados a «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas al pie</h2>
+<p><strong>Nota de corte (1-nov):</strong> estrellas, licencia, lenguaje y empujón son de la misma hora; las versiones se anotaron con su fecha de publicación y, cuando no había ninguna, se dejó escrito que no había, y ninguna fecha se completó por cálculo.</p>
+<p><strong>Nota de hueco (1-nov):</strong> un repositorio con el mismo nombre del lector no tiene README legible y se quedó fuera de la tabla. Un proyecto con ★0 entró en la tabla para que el censo no parezca más grande de lo que es.</p>
+<p><strong>Nota de alcance (1-nov):</strong> la pieza no recomienda sitios ni extensiones de contenido; cuenta de dónde salen los programas, con qué licencia y con qué fecha.</p>
+<p><strong>Nota de corrección (1-nov):</strong> la versión anterior de esta pieza se apoyaba en un incidente del 15 de septiembre y en números de ese día. Se reescribió con la fila completa medida esta tarde y se quitó el episodio, que ya no informa de nada nuevo.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

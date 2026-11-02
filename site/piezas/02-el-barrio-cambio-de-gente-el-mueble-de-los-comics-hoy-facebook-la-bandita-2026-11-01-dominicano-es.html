@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="El barrio cambió de gente: el mueble de los cómics, contado con las fechas de hoy">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>El barrio cambió de gente: el mueble de los cómics, contado con las fechas de hoy</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "El barrio cambió de gente: el mueble de los cómics, contado con las fechas de hoy", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>El barrio cambió de gente: el mueble de los cómics, contado con las fechas de hoy</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 40,123 caracteres</p>
+<p><em>El barrio cambió de gente: el mueble de los cómics, contado con las fechas de hoy</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 02 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🎬 Cinco escenas del mueble
+├── 🧾 El censo de hoy: veintisiete nombres
+├── 🪑 El mueble: lectores que se llaman igual
+├── 🗄️ Las bibliotecas de casa
+├── 🔌 Las extensiones, que son el contenido
+├── 🆕 Las casas nuevas que no venían de Tachiyomi
+├── 🛠️ Mudarse sin perder la biblioteca
+├── ⚖️ La ley, sin sermón
+├── ❓ Preguntas que me hacen
+├── 📊 Tabla, mitos y glosario
+└── 🔗 Enlaces y notas del corte
+</pre>
+<p>───────────────────</p>
+<p><em>⚡ En una página</em></p>
+<p>Hace dos años, casi todo el mundo que leía cómics en el teléfono usaba el mismo programa. Hoy ese programa ya no es uno: es una familia con cinco ramas, una de ellas archivada, y alrededor creció un barrio entero de lectores nuevos que nunca fueron sus hijos. Cuando alguien pregunta «¿qué instalo ahora?», la respuesta depende de una cosa que casi nadie sabe: de dónde vienen las fuentes que ese lector va a usar.</p>
+<p>Esta mañana medí veintisiete proyectos del barrio, cada uno leído tres veces por tres caminos distintos. El orden salió así: Kazumi con ★40.576 en la cabeza, koodo-reader con ★28.688, Mihon con ★24.932, LibreTube con ★12.930, Kavita con ★11.988, Kotatsu con ★8.946 aunque archivado, Suwayomi con ★7.987, Komga con ★6.806, J2K con ★5.399, Komikku con ★4.965, Aidoku con ★4.685 y Mangayomi con ★4.288. Debajo, una capa de proyectos chicos que se mueven todos los días: Chimahon, Ciallo-Reader, yomihon, Usagi, Kototoro, Komelia, KamiYomu.</p>
+<p>La novedad de esta pasada no es un número sino una separación. El barrio se partió en dos mundos que ya casi no se hablan. En uno están los lectores que dependen de extensiones, es decir, de un catálogo de conectores que alguien mantiene aparte; si ese catálogo deja de actualizarse, el lector se queda sin mundo. En el otro están los que traen reglas propias o leen un servidor de la casa, y no dependen de nadie. Kazumi, ★40.576, es del segundo grupo y por eso está arriba: colecciona con reglas que se pueden editar. Mihon es del primero, y su salud se mide mirando la fecha de las extensiones, no la suya.</p>
+<p>Y hay un dato que sirve como termómetro: de los veintisiete medidos hoy, veintitrés empujaron en los últimos dieciocho días y once empujaron hoy mismo. Ese es el pulso real del barrio, y no se parece al de hace cuatro meses, cuando medio ecosistema dependía de un solo tronco.</p>
+<p>La idea que hay que llevarse: un lector de cómics es una ventana y un catálogo de conectores. La ventana se cambia en una tarde; el catálogo es lo que cuesta. Antes de mudarse, mira las fechas de las fuentes, no el número de estrellas del programa.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cinco escenas del mueble</em></p>
+<p><strong>La biblioteca que no se perdió.</strong> Un muchacho tenía doscientos títulos guardados en el lector viejo. Cuando el proyecto se archivó, no borró nada: exportó la biblioteca, instaló la rama viva, importó el respaldo y siguió leyendo lo descargado esa misma noche. Lo único que perdió fue la costumbre de recibir actualizaciones automáticas.</p>
+<p><strong>El catálogo que se secó.</strong> Una señora usaba un lector que funcionaba bien, pero dejó de encontrar series nuevas. El programa no tenía nada roto: el repositorio de extensiones había dejado de actualizarse. Cambió de repositorio de fuentes —no de lector— y el catálogo volvió. Ese es el truco que casi nadie explica y que ahorra reinstalar todo.</p>
+<p><strong>El servidor en la casa.</strong> Un padre de familia montó un servidor de biblioteca en una computadora vieja y ahora la hija lee desde su cuarto, el hijo desde la sala y él desde el trabajo, todo con el mismo catálogo y sin cuentas ajenas. Komga y Kavita hacen eso, con licencias MIT y GPL-3.0, y no dependen de ninguna extensión.</p>
+<p><strong>El que solo quería anime.</strong> Un joven no leía nada: veía series. Su camino no era el mueble de los cómics sino el de video, donde Kazumi y LibreTube compiten con los reproductores clásicos. Instaló los dos, vio cuál le respondía mejor en su red y se quedó con uno.</p>
+<p><strong>La mudanza que salió mal.</strong> Alguien desinstaló el lector viejo antes de exportar. Perdió las listas de seguimiento y las descargas. Lo que se aprende: en este barrio el orden importa, y el respaldo va antes del cambio, siempre.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de hoy: veintisiete nombres</em></p>
+<p>Leídos esta mañana entre las 12:02 y las 12:06 de Santo Domingo, tres veces cada uno: buscador de la forja, página del repositorio y archivo crudo. Estrellas, licencia, lenguaje y último empujón son de esa hora; la versión sale del último release publicado, con su fecha.</p>
+<p><em>Los lectores de la familia grande</em></p>
+<ul>
+<li><strong>Mihon</strong> — la rama principal de la familia que empezó en Tachiyomi ★24.932 · licencia Apache-2.0 · Kotlin · empujó el 26-oct (hace 6 días) · release v0.21.3 (25-oct) · <a href="https://github.com/mihonapp/mihon">https://github.com/mihonapp/mihon</a></li>
+<li><strong>Aniyomi</strong> — la misma base con soporte de anime ★7.866 · licencia Apache-2.0 · Kotlin · empujó el 14-sep (hace 48 días) · release v0.18.2.1 (14-sep) · <a href="https://github.com/aniyomiorg/aniyomi">https://github.com/aniyomiorg/aniyomi</a></li>
+<li><strong>Komikku</strong> — rama con lectores alternativos y ajustes propios ★4.965 · licencia Apache-2.0 · Kotlin · empujó hoy · release v1.14.1 (17-jul) · <a href="https://github.com/komikku-app/komikku">https://github.com/komikku-app/komikku</a></li>
+<li><strong>TachiyomiSY</strong> — la rama con más funciones de biblioteca ★4.200 · licencia Apache-2.0 · Kotlin · empujó hoy · release 1.13.2 (13-jul) · <a href="https://github.com/jobobby04/TachiyomiSY">https://github.com/jobobby04/TachiyomiSY</a></li>
+<li><strong>J2K</strong> — la rama veterana, la que más aguanta en teléfonos viejos ★5.399 · licencia Apache-2.0 · Kotlin · empujó hoy · release v1.8.1 (15-ago) · <a href="https://github.com/Jays2Kings/tachiyomiJ2K">https://github.com/Jays2Kings/tachiyomiJ2K</a></li>
+<li><strong>Yokai</strong> — rama con lectura por capítulos y copias locales ★1.914 · licencia Apache-2.0 · Kotlin · empujó el 13-oct (hace 19 días) · release v1.10.2 (23-sep) · <a href="https://github.com/null2264/yokai">https://github.com/null2264/yokai</a></li>
+<li><strong>Kotatsu</strong> — el otro lector grande, <strong>archivado</strong>: llegó a ★8.946 · licencia GPL-3.0 · Kotlin · último empujón 04-nov-2025 (hace 362 días) · sin release publicada · <a href="https://github.com/KotatsuApp/Kotatsu">https://github.com/KotatsuApp/Kotatsu</a></li>
+</ul>
+<p><em>Las casas nuevas, que no vienen de esa familia</em></p>
+<ul>
+<li><strong>Kazumi</strong> — colecciona series con reglas editables por el usuario, sin depender de un catálogo central ★40.576 · licencia GPL-3.0 · Dart · empujó el 31-oct (hace 1 día) · release 2.4.2 (23-oct) · <a href="https://github.com/Predidit/Kazumi">https://github.com/Predidit/Kazumi</a></li>
+<li><strong>Mangayomi</strong> — lector multiplataforma con fuentes en varios idiomas ★4.288 · licencia Apache-2.0 · Dart · empujó hoy · release v0.9.95 (01-nov) · <a href="https://github.com/kodjodevf/mangayomi">https://github.com/kodjodevf/mangayomi</a></li>
+<li><strong>Neko</strong> — lector centrado en un solo catálogo, sin extensiones ★2.818 · licencia Apache-2.0 · Kotlin · empujó hoy · release 3.8.5 (30-oct) · <a href="https://github.com/nekomangaorg/Neko">https://github.com/nekomangaorg/Neko</a></li>
+<li><strong>Aidoku</strong> — lector para iOS con fuentes propias ★4.685 · licencia GPL-3.0 en la ficha y Apache-2.0 en su README · Swift · empujó el 31-oct (hace 1 día) · release v0.9-4 (16-oct) · <a href="https://github.com/Aidoku/Aidoku">https://github.com/Aidoku/Aidoku</a></li>
+<li><strong>Kototoro</strong> — lector joven con interfaz trabajada ★660 · licencia Apache-2.0 · Kotlin · empujó hoy · release v2.3.4 (29-oct) · <a href="https://github.com/Kototoro-app/Kototoro">https://github.com/Kototoro-app/Kototoro</a></li>
+<li><strong>Usagi</strong> — el más chico de las casas nuevas, con su propio ecosistema de fuentes ★288 · licencia GPL-3.0 · Kotlin · empujó el 30-oct (hace 2 días) · release v1.2 (03-oct) · <a href="https://github.com/UsagiApp/Usagi">https://github.com/UsagiApp/Usagi</a></li>
+<li><strong>yomihon</strong> — lector minimalista, de los que caben en un teléfono modesto ★142 · licencia Apache-2.0 · Kotlin · empujó el 18-oct (hace 14 días) · release v0.4.3 (18-oct) · <a href="https://github.com/yomihon/yomihon">https://github.com/yomihon/yomihon</a></li>
+<li><strong>Chimahon</strong> — lector con descargas y biblioteca local ★240 · licencia GPL-3.0 · Kotlin · empujó el 28-oct (hace 4 días) · release v2.4.8 (19-oct) · <a href="https://github.com/Chimahon/chimahon">https://github.com/Chimahon/chimahon</a></li>
+<li><strong>Ciallo Reader</strong> — el más reciente de los que se mueven a diario ★271 · licencia MIT · Kotlin · empujó hoy · release v1.5.11 (01-nov) · <a href="https://github.com/roxycon-dev/Ciallo-Reader">https://github.com/roxycon-dev/Ciallo-Reader</a></li>
+</ul>
+<p><em>Los servidores de la casa</em></p>
+<ul>
+<li><strong>Komga</strong> — biblioteca de cómics en un servidor propio, con lector web ★6.806 · licencia MIT · Kotlin · empujó hoy · release 1.29.2 (28-oct) · <a href="https://github.com/gotson/komga">https://github.com/gotson/komga</a></li>
+<li><strong>Kavita</strong> — el mismo trabajo con más formatos y perfiles de usuario ★11.988 · licencia GPL-3.0 · C# · empujó hoy · release v0.9.1.4 (02-sep) · <a href="https://github.com/Kareadita/Kavita">https://github.com/Kareadita/Kavita</a></li>
+<li><strong>Suwayomi Server</strong> — el motor de Tachiyomi funcionando como servidor, con interfaz en el navegador ★7.987 · licencia MPL-2.0 · Java · empujó hoy · release v2.4.2366 (30-sep) · <a href="https://github.com/Suwayomi/Suwayomi-Server">https://github.com/Suwayomi/Suwayomi-Server</a></li>
+<li><strong>Komelia</strong> — cliente de escritorio y de teléfono para ese servidor ★437 · licencia Apache-2.0 · Kotlin · empujó el 29-oct (hace 3 días) · release 0.20.0 (27-sep) · <a href="https://github.com/Snd-R/Komelia">https://github.com/Snd-R/Komelia</a></li>
+<li><strong>KamiYomu</strong> — servidor que vigila series y avisa cuando hay capítulo nuevo ★150 · licencia AGPL-3.0 · C# · empujó el 20-sep (hace 42 días) · release 1.4.0 (01-sep) · <a href="https://github.com/KamiYomu/KamiYomu">https://github.com/KamiYomu/KamiYomu</a></li>
+</ul>
+<p><em>Las extensiones, que son el contenido</em></p>
+<ul>
+<li><strong>Keiyoushi</strong> — el repositorio de extensiones más grande que sigue vivo ★15.406 · sin licencia declarada en la ficha · HTML · empujó hoy · release c469cb1 (01-nov) · <a href="https://github.com/keiyoushi/extensions">https://github.com/keiyoushi/extensions</a></li>
+<li><strong>Yuzono</strong> — el otro repositorio de extensiones, con catálogo propio ★953 · licencia Apache-2.0 · Kotlin · empujó hoy · sin release publicada en la ficha · <a href="https://github.com/yuzono/tachiyomi-extensions">https://github.com/yuzono/tachiyomi-extensions</a></li>
+</ul>
+<p><em>Los de escritorio y los raros</em></p>
+<ul>
+<li><strong>koodo-reader</strong> — lector de escritorio con estantería y sincronización ★28.688 · licencia AGPL-3.0 · JavaScript · empujó hoy · release v2.4.6 (07-oct) · <a href="https://github.com/koodo-reader/koodo-reader">https://github.com/koodo-reader/koodo-reader</a></li>
+<li><strong>comic-looms</strong> — organiza la biblioteca local desde la computadora ★813 · licencia MIT · TypeScript · empujó el 22-oct (hace 10 días) · release 4.16.1 (09-oct) · <a href="https://github.com/MapoMagpie/comic-looms">https://github.com/MapoMagpie/comic-looms</a></li>
+<li><strong>manga-tui</strong> — lee en la terminal, sin interfaz gráfica ★954 · licencia MIT · Rust · empujó hoy · release v0.10.1 (01-nov) · <a href="https://github.com/josueBarretogit/manga-tui">https://github.com/josueBarretogit/manga-tui</a></li>
+<li><strong>LibreTube</strong> — no lee cómics: reproduce video, y entra aquí porque comparte público y método ★12.930 · licencia GPL-3.0 · Kotlin · empujó el 30-oct (hace 2 días) · release v32.1 (20-ago) · <a href="https://github.com/libre-tube/LibreTube">https://github.com/libre-tube/LibreTube</a></li>
+</ul>
+<p><em>Lo que el censo dice en cuatro líneas.</em> Once de los veintisiete empujaron hoy y veintitrés en los últimos dieciocho días: en este barrio la fecha del empujón no distingue a nadie, porque casi todos están vivos. Lo que sí distingue es la fecha de la <strong>release</strong>, y ahí hay proyectos que empujan a diario y publican cada tres meses, lo que significa que el trabajo está en el código y no en la entrega. Y una ficha no cuadra consigo misma: Aidoku declara GPL-3.0 en la ficha y Apache-2.0 en su README, y se publican las dos.</p>
+<p>───────────────────</p>
+<p><em>🪑 El mueble: lectores que se llaman igual</em></p>
+<p>Lo primero que confunde a quien llega es que cinco programas distintos se parezcan tanto. No es casualidad: Mihon, Aniyomi, Komikku, TachiyomiSY y J2K comparten el mismo tronco, el mismo formato de biblioteca y, en buena medida, las mismas extensiones. La diferencia está en lo que cada uno hizo con ese tronco después de la separación.</p>
+<p>J2K, con ★5.399, es el más viejo de los vivos y el que menos pide: funciona bien en teléfonos modestos, empujó hoy y su última versión publicada es v1.8.1 del 15 de agosto. Si el aparato tiene cinco años y la memoria justa, es la puerta más razonable.</p>
+<p>TachiyomiSY, con ★4.200, fue siempre el de las funciones raras: lectura por capítulos con desplazamiento continuo, ajustes de biblioteca por categorías, estadísticas de lectura. Empujó hoy y publica menos seguido: 1.13.2 es del 13 de julio. Quien quiera control fino y no le importe esperar versiones, este es el suyo.</p>
+<p>Komikku, con ★4.965, eligió el camino de los lectores alternativos y de los ajustes de imagen; también empujó hoy, con versión v1.14.1 del 17 de julio. Y Mihon, ★24.932, es la rama con más gente y más documentación: v0.21.3 del 25 de octubre, empujón de hace seis días. Es la opción por defecto cuando no hay una razón concreta para otra cosa.</p>
+<p>Aniyomi, con ★7.866, añade el video a la misma base. Su empujón es el más viejo del grupo —14 de septiembre— y su versión es la misma fecha. No está muerto, está en pausa, y eso se dice con la fecha en la mano.</p>
+<p>Yokai, con ★1.914, es la rama que se preocupa por la copia local: leer lo descargado sin conexión, con capítulos guardados en el teléfono. Empujón del 13 de octubre y versión del 23 de septiembre.</p>
+<p>Kotatsu merece párrafo aparte, porque es el caso que la gente todavía pregunta. Llegó a ★8.946, más que tres de las ramas vivas, y su repositorio está archivado desde noviembre de 2025: último empujón el 4 de noviembre y sin release publicada en la ficha. Lo que ya estaba instalado sigue funcionando, lo descargado sigue legible, y no habrá una versión más. Su reemplazo natural es cualquiera de los cinco de arriba, y la mudanza se hace con el respaldo de la biblioteca en la mano.</p>
+<p>Hay una forma rápida de saber qué rama conviene a un teléfono concreto, y no incluye instalar las cinco: mirar el tamaño del paquete en su release y el peso de la biblioteca después de un mes de uso. Un lector con cuarenta mil estrellas que arrastra tres cientos de megas de caché no es mejor que uno de mil que pesa cuarenta. En la práctica, las ramas veteranas pesan menos porque hacen menos, y eso en un aparato de 32 GB no es un detalle menor.</p>
+<p>La pregunta práctica no es cuál es mejor, sino cuál seguirá teniendo extensiones. Y esa respuesta no está en el lector: está en el repositorio de fuentes, que se trata más abajo.</p>
+<p>───────────────────</p>
+<p><em>🗄️ Las bibliotecas de casa</em></p>
+<p>La otra mitad del barrio no reparte aplicaciones: reparte una biblioteca que vive en la casa. Se instala un servidor en una computadora, se meten ahí los archivos, y cada persona lee desde su aparato con el navegador o con un cliente. No hay extensiones, no hay catálogo ajeno y no hay cuenta que dependa de nadie.</p>
+<p>Komga, con ★6.806 y licencia MIT, es el más ligero de los dos grandes: lee carpetas de cómics y de libros, arma series y permite seguir la lectura por usuario. Su versión 1.29.2 es del 28 de octubre y empujó hoy. En una computadora modesta, con un disco externo, funciona sin drama.</p>
+<p>Kavita, con ★11.988 y GPL-3.0, pide algo más de máquina y devuelve más: colecciones, listas de lectura, perfiles con control de contenido por edad, y soporte de varios formatos. Su versión v0.9.1.4 es del 2 de septiembre y empujó hoy.</p>
+<p>Suwayomi Server, con ★7.987 y MPL-2.0, es otra cosa: pone el motor de Tachiyomi a funcionar como servidor, así que conserva las extensiones pero las ejecuta en la computadora y no en el teléfono. La ventaja es clara en aparatos modestos o con poca batería; la desventaja también: el teléfono depende de que la computadora esté encendida o de que el servidor esté accesible desde fuera.</p>
+<p>Komelia, con ★437, es el cliente que faltaba para ese servidor: escritorio y teléfono, con interfaz propia. Empujó el 29 de octubre y su versión 0.20.0 es del 27 de septiembre. Y KamiYomu, ★150, completa el cuadro desde otro ángulo: vigila las series y avisa cuando hay capítulo nuevo, sin que nadie tenga que revisar a mano.</p>
+<p>Hay un detalle práctico que decide la elección entre Komga y Kavita y que no aparece en las listas: cuánto consume con la biblioteca quieta. En una computadora que ya está encendida todo el día, los dos son invisibles. En un aparato pequeño que se usa para otras cosas, la diferencia se nota a la semana, y ahí gana Komga con su MIT y su perfil bajo.</p>
+<p>El sentido de este grupo es el mismo que el de las copias de seguridad: lo que está en tu disco no depende de que un repositorio siga vivo. La biblioteca de casa cuesta una tarde de configuración y devuelve años de tranquilidad.</p>
+<p>───────────────────</p>
+<p><em>🔌 Las extensiones, que son el contenido</em></p>
+<p>Aquí está la pieza que decide todo, y es la que menos se explica.</p>
+<p>Un lector como Mihon no trae contenido: trae un motor que ejecuta conectores, y esos conectores vienen de un repositorio aparte. Si el repositorio se actualiza, aparecen series nuevas y arreglan las que se rompen. Si el repositorio se para, el lector sigue abriendo pero cada vez encuentra menos.</p>
+<p>Hoy hay dos repositorios grandes vivos y una docena de pequeños. Keiyoushi, con ★15.406 y publicación de hoy mismo, es el más grande; su ficha no declara licencia, lo que se anota tal cual. Yuzono, con ★953, Apache-2.0 y empujón de hoy, es el segundo, con catálogo propio y reglas propias.</p>
+<p>Hay una tercera vía que casi nadie considera y que a veces resuelve el problema sin tocar nada: el repositorio que ya se tiene puede estar simplemente desactualizado, y basta con refrescar su índice desde los ajustes del lector. No es magia, es la misma lista leída de nuevo; pero en la mitad de los casos el catálogo aparece sin cambiar de fuente.</p>
+<p>Los pequeños son los que más cambian: hay repositorios por idioma, por tipo de contenido y por comunidad, con dos o tres conectores y una persona detrás. Algunos llevan meses sin empujón y siguen funcionando porque el sitio que leen no cambió; otros se rompen cada semana porque el sitio que leen cambia a propósito.</p>
+<p>Y hay un asunto que no se resuelve con ninguna herramienta y que conviene decir sin adornos: una extensión no es un catálogo eterno. Cada conector depende de la estructura de un sitio, y cuando ese sitio cambia, el conector se rompe hasta que alguien lo arregla. Por eso el barrio tiene tantos repositorios pequeños: cada uno mantiene los suyos, y la suma es lo que da la sensación de que «todo está ahí».</p>
+<p>La consecuencia práctica es una sola y vale oro: <strong>cuando el catálogo se seca, se cambia el repositorio de fuentes antes de cambiar el lector</strong>. Es la operación que arregla el noventa por ciento de los «ya no me sale nada nuevo», y la que casi nadie intenta antes de desinstalar todo y empezar de cero.</p>
+<p>───────────────────</p>
+<p><em>🆕 Las casas nuevas que no venían de Tachiyomi</em></p>
+<p>Lo más interesante de este año no es lo que pasó con la familia grande, sino lo que creció al lado sin pedirle permiso a nadie.</p>
+<p>Antes de mirar números conviene una advertencia: estas casas nuevas no compiten entre sí por el mismo público. Una colecciona anime, otra lee un solo catálogo, otra vive en iOS, otra quiere caber en un teléfono de 32 GB. Compararlas por estrellas es como comparar una licuadora con una nevera porque las dos van en la cocina.</p>
+<p>Kazumi, con ★40.576, es hoy el proyecto más grande del barrio y no tiene nada que ver con los lectores de cómics clásicos. Lo suyo es coleccionar series de anime con reglas que el propio usuario puede editar y verlas en línea, con subtítulos y con reproductor propio. Su licencia es GPL-3.0, empujó ayer y su versión 2.4.2 es del 23 de octubre. Que esté por delante de Mihon en estrellas dice bastante de adónde se movió el público.</p>
+<p>Mangayomi, con ★4.288, hace las dos cosas y en varios sistemas: cómics y video, con fuentes en varios idiomas, escrito en Dart. Empujó hoy mismo y publicó la v0.9.95 hoy. Es el ejemplo de proyecto que creció sin heredar nada, y su ventaja es que corre igual en teléfono y en computadora.</p>
+<p>Neko, con ★2.818, va en la dirección contraria y con orgullo: un solo catálogo, sin extensiones, sin configuración. Si el catálogo te sirve, es el lector más simple que existe; si no, no hay nada que hacer. Empujó hoy con versión 3.8.5 del 30 de octubre.</p>
+<p>Aidoku, ★4.685, es la única casa nueva de esta lista que vive en iOS. Su ficha dice GPL-3.0 y su README dice Apache-2.0; se publican las dos, como se hace siempre que la ficha y el archivo no coinciden. Empujó ayer y su versión v0.9-4 es del 16 de octubre.</p>
+<p>Y debajo hay una fila de proyectos jóvenes que se mueven todos los días: Kototoro con ★660 y versión del 29 de octubre, Usagi con ★288 y su propio ecosistema de fuentes, yomihon con ★142 y su idea de lector mínimo, Chimahon con ★240 y biblioteca local, y Ciallo Reader con ★271, MIT y versión publicada hoy. Ninguno de estos va a reemplazar a Mihon mañana; todos juntos son la razón por la que el barrio no se seca cuando una casa cierra.</p>
+<p>Hay un detalle que define a este grupo: casi todos traen sus propias fuentes o leen de un servidor, y por eso no dependen de un repositorio central de conectores. Esa independencia es justamente lo que se paga con menos catálogo. Quien quiera miles de series usa la familia grande; quien quiera no depender de nadie, prueba aquí.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Mudarse sin perder la biblioteca</em></p>
+<p>El procedimiento es corto y el orden importa más que la técnica.</p>
+<p><strong>Uno: exportar antes de tocar nada.</strong> Todos los lectores de la familia grande tienen una opción de copia de seguridad que escribe un archivo con la biblioteca, las categorías, el historial y las descargas. Se guarda en una carpeta que no se borre y se comprueba que el archivo pese lo que debe.</p>
+<p><strong>Dos: apuntar las fuentes.</strong> Antes de mudarse, anotar qué repositorio de extensiones se estaba usando y con qué series. Ese dato es el que después permite reconstruir el catálogo en el lector nuevo sin adivinar.</p>
+<p><strong>Tres: instalar el lector nuevo al lado, no en lugar del viejo.</strong> Los dos pueden convivir mientras se prueba. La biblioteca vieja queda intacta y las descargas siguen ahí.</p>
+<p><strong>Cuatro: importar y revisar.</strong> Se importa el respaldo, se comprueba que las series aparezcan, que el historial esté y que las descargas se lean. Si algo no entró, se resuelve con el lector viejo todavía instalado.</p>
+<p><strong>Cinco: dejar pasar una semana.</strong> Con los dos instalados, se usa el nuevo a diario. Si a los siete días no falta nada, se borra el viejo con calma. Si falta algo, se vuelve sin haber perdido nada.</p>
+<p><strong>Seis: probar la importación al revés.</strong> Antes de borrar nada, abrir el lector viejo y comprobar que el archivo de respaldo que se guardó se puede volver a leer. Un respaldo que nunca se abrió no es un respaldo: es una carpeta con buena intención. Toma dos minutos y evita descubrir el problema cuando ya no hay de dónde sacar la biblioteca.</p>
+<p><strong>Siete: guardar el respaldo fuera del teléfono.</strong> Una copia en la computadora o en una memoria, con la fecha en el nombre. Es la única parte del procedimiento que sirve dentro de dos años, cuando no se acuerde ni qué lector usaba.</p>
+<p>Y hay una regla de oro para las descargas: antes de mudarse, comprobar que el lector nuevo puede leer lo ya descargado. Algunos leen la carpeta del anterior tal cual; otros necesitan su propia estructura. Probar con un solo título antes de mover doscientos ahorra una tarde.</p>
+<p>Y un consejo que no es técnico: no hacer la mudanza el día que se quiere leer. Las mudanzas se hacen con tiempo y sin ganas de leer; las lecturas se hacen después, cuando ya todo está en su sitio.</p>
+<p>───────────────────</p>
+<p><em>📱 El mueble en un teléfono modesto</em></p>
+<p>Media docena de consultas de la semana tienen que ver con lo mismo: el teléfono tiene 32 GB, tres años de uso y poca memoria libre, y la persona quiere leer cómics sin que el aparato se arrastre.</p>
+<p>La primera decisión no es el lector: es dónde se guarda lo descargado. Los lectores de esta lista permiten elegir la carpeta de descargas, y llevarla a una memoria externa cambia por completo la experiencia. Un teléfono con 4 GB de espacio libre en la memoria interna no sirve para doscientos capítulos, aunque el lector sea el más liviano del barrio.</p>
+<p>La segunda es apagar lo que no se usa. Casi todos estos lectores traen animaciones, miniaturas grandes y precarga de páginas; las tres se pueden bajar en los ajustes y ganan más que cambiar de programa. En teléfonos modestos, el lector no suele ser el problema: lo es la cantidad de imágenes que intenta tener listas al mismo tiempo.</p>
+<p>La tercera es elegir por peso. J2K y yomihon son los dos que menos piden; Mihon y Komikku piden más porque traen más; Neko está en el medio. La diferencia entre el más liviano y el más completo se nota sobre todo al abrir un capítulo de imágenes grandes, y no al arrancar el programa.</p>
+<p>La cuarta es la que nadie hace y resuelve más: borrar los capítulos ya leídos. La biblioteca se llena de descargas que nadie va a releer, y una limpieza de temporada deja el teléfono como nuevo sin cambiar nada de sitio. Los lectores tienen una opción para borrar lo leído y dejar solo lo pendiente; se activa una vez y se olvida.</p>
+<p>Con esas cuatro cosas, un teléfono de hace tres años lee igual de bien que uno nuevo, y no hizo falta cambiar de programa ni instalar ningún acelerador. Y si aun así se arrastra, la última prueba es leer un capítulo con los datos móviles apagados: si va bien sin conexión, el problema era la red y no el aparato, algo que ocurre más de lo que se admite en un país donde la señal va y viene.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón</em></p>
+<p>Las licencias de este barrio son casi todas permisivas y eso explica por qué hay tantas ramas: Apache-2.0 en Mihon, Aniyomi, Komikku, SY, J2K, Yokai, Mangayomi, Neko, Kototoro, yomihon, Ciallo, Komelia y Yuzono; MIT en Komga, comic-looms, manga-tui y Ciallo; GPL-3.0 en Kotatsu, Kazumi, Chimahon, Usagi, Kavita y LibreTube; MPL-2.0 en Suwayomi; AGPL-3.0 en koodo-reader y KamiYomu. Con Apache y MIT cualquiera puede abrir una rama y publicarla con otro nombre, y eso es exactamente lo que pasó: no es una deslealtad, es la licencia funcionando.</p>
+<p>Lo que la licencia no cubre es el contenido. Un lector es un motor; los archivos que muestra vienen de sitios que no son del lector ni del que lo instaló. Ahí no hay licencia libre que valga: hay derechos de terceros, y cada país los trata a su manera. Esta guía mide programas, no catálogos, y no reparte enlaces de contenido.</p>
+<p>Sobre las extensiones hay un matiz que conviene decir: el repositorio de fuentes no declara licencia en su ficha —Keiyoushi es el caso— y eso no lo hace ilegal ni legal; simplemente deja el paquete sin el marco que sí tienen los lectores. Se publica el hueco, como con cualquier otro dato que falte.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Cuál lector instalo si vengo de Tachiyomi?</strong> Mihon, si quieres el camino con más gente y más documentación; J2K, si el teléfono es modesto; TachiyomiSY, si te gusta ajustar hasta el último detalle. Los tres leen el mismo respaldo, así que probar no cuesta nada.</p>
+<p><strong>Se me acabaron las series nuevas, ¿se murió el lector?</strong> Casi nunca. Lo que se para es el repositorio de extensiones. Antes de desinstalar, cambia el repositorio de fuentes en los ajustes y vuelve a buscar. Si con eso no aparece nada, entonces sí mira si el lector está vivo.</p>
+<p><strong>¿Por qué hay cinco lectores que se parecen tanto?</strong> Porque comparten tronco y la licencia les permite ramificar. Cada uno hizo una cosa distinta con el mismo punto de partida: uno prioriza teléfonos viejos, otro funciones, otro lectores alternativos, otro el video, otro la copia local.</p>
+<p><strong>¿Kotatsu sigue sirviendo?</strong> Lo que tengas instalado funciona y lo descargado se lee. No habrá versiones nuevas: su repositorio está archivado desde noviembre de 2025, con último empujón el 4 de ese mes y sin release publicada. Para seguir leyendo cosas nuevas hay que mudarse.</p>
+<p><strong>¿Qué es un servidor de biblioteca y para qué quiero uno?</strong> Un programa que guarda tus archivos en una computadora y los sirve a los aparatos de la casa. Sirve para leer desde varios dispositivos sin duplicar archivos y para no depender de ningún catálogo ajeno. Komga y Kavita son los dos caminos más probados.</p>
+<p><strong>¿Komga o Kavita?</strong> Komga es más liviano y directo, con licencia MIT. Kavita pide más máquina y ofrece perfiles, listas y control de contenido por edad. Para una casa con niños, Kavita; para una persona sola con un disco externo, Komga.</p>
+<p><strong>¿Suwayomi reemplaza al lector del teléfono?</strong> Pone el motor en la computadora y el teléfono solo muestra. Ahorra batería y memoria, y ata la lectura a que el servidor esté encendido. Con un cliente como Komelia, la experiencia es buena; sin él, es el navegador.</p>
+<p><strong>¿Kazumi es un lector de cómics?</strong> No: colecciona y reproduce series de anime con reglas editables. Está en esta lista porque comparte público con el barrio, y porque con ★40.576 es hoy el proyecto más grande de todos los que se midieron aquí.</p>
+<p><strong>¿De dónde salen las reglas de Kazumi?</strong> De la comunidad que las escribe y las comparte; el usuario puede añadir las suyas. Eso lo hace independiente de un catálogo central y también lo hace dependiente de que alguien las mantenga. Es el mismo trato que las extensiones, con otra forma.</p>
+<p><strong>¿Puedo leer en la computadora lo que descargué en el teléfono?</strong> Sí, y hay dos caminos: mover los archivos y abrirlos con un lector de escritorio, o usar un servidor de biblioteca y leer desde el navegador. El primero es más simple; el segundo mantiene todo sincronizado sin mover nada.</p>
+<p><strong>¿Qué pasa con mis descargas si cambio de lector?</strong> Las descargas viven en una carpeta del teléfono. Si el lector nuevo usa la misma ruta, las encuentra; si no, hay que moverlas. Por eso el respaldo se hace antes y por eso conviene anotar la ruta.</p>
+<p><strong>¿Por qué Aidoku tiene dos licencias?</strong> Porque su ficha dice GPL-3.0 y su README dice Apache-2.0. No es un error de lectura: son dos fuentes del mismo proyecto que no coinciden. Se publican las dos y quien necesite el dato exacto tiene que ir al archivo del repositorio.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Los veintisiete del mueble</em></p>
+<table>
+<tr><th>Proyecto</th><th>Qué es</th><th>Licencia</th><th>Empujón</th><th>Estrellas</th></tr>
+<tr><td>Kazumi</td><td>series de anime con reglas propias</td><td>GPL-3.0</td><td>31-oct</td><td>★40.576</td></tr>
+<tr><td>koodo-reader</td><td>lector de escritorio</td><td>AGPL-3.0</td><td>hoy</td><td>★28.688</td></tr>
+<tr><td>Mihon</td><td>la rama principal del tronco</td><td>Apache-2.0</td><td>26-oct</td><td>★24.932</td></tr>
+<tr><td>Keiyoushi</td><td>repositorio de extensiones</td><td>sin licencia en la ficha</td><td>hoy</td><td>★15.406</td></tr>
+<tr><td>LibreTube</td><td>video, no cómics</td><td>GPL-3.0</td><td>30-oct</td><td>★12.930</td></tr>
+<tr><td>Kavita</td><td>servidor de biblioteca</td><td>GPL-3.0</td><td>hoy</td><td>★11.988</td></tr>
+<tr><td>Kotatsu</td><td>**archivado** desde nov-2025</td><td>GPL-3.0</td><td>04-nov-2025</td><td>★8.946</td></tr>
+<tr><td>Suwayomi Server</td><td>el motor como servidor</td><td>MPL-2.0</td><td>hoy</td><td>★7.987</td></tr>
+<tr><td>Aniyomi</td><td>el tronco con video</td><td>Apache-2.0</td><td>14-sep</td><td>★7.866</td></tr>
+<tr><td>Komga</td><td>servidor liviano</td><td>MIT</td><td>hoy</td><td>★6.806</td></tr>
+<tr><td>J2K</td><td>rama para teléfonos modestos</td><td>Apache-2.0</td><td>hoy</td><td>★5.399</td></tr>
+<tr><td>Komikku</td><td>rama con lectores alternativos</td><td>Apache-2.0</td><td>hoy</td><td>★4.965</td></tr>
+<tr><td>Aidoku</td><td>lector de iOS</td><td>GPL-3.0 (ficha) y Apache-2.0 (README)</td><td>31-oct</td><td>★4.685</td></tr>
+<tr><td>Mangayomi</td><td>lector multiplataforma</td><td>Apache-2.0</td><td>hoy</td><td>★4.288</td></tr>
+<tr><td>TachiyomiSY</td><td>rama con más funciones</td><td>Apache-2.0</td><td>hoy</td><td>★4.200</td></tr>
+<tr><td>Neko</td><td>un solo catálogo, sin extensiones</td><td>Apache-2.0</td><td>hoy</td><td>★2.818</td></tr>
+<tr><td>Yokai</td><td>rama con copia local</td><td>Apache-2.0</td><td>13-oct</td><td>★1.914</td></tr>
+<tr><td>manga-tui</td><td>lector en la terminal</td><td>MIT</td><td>hoy</td><td>★954</td></tr>
+<tr><td>Yuzono</td><td>segundo repositorio de extensiones</td><td>Apache-2.0</td><td>hoy</td><td>★953</td></tr>
+<tr><td>comic-looms</td><td>organiza la biblioteca local</td><td>MIT</td><td>22-oct</td><td>★813</td></tr>
+<tr><td>Kototoro</td><td>lector joven</td><td>Apache-2.0</td><td>hoy</td><td>★660</td></tr>
+<tr><td>Komelia</td><td>cliente para el servidor</td><td>Apache-2.0</td><td>29-oct</td><td>★437</td></tr>
+<tr><td>Usagi</td><td>con ecosistema propio de fuentes</td><td>GPL-3.0</td><td>30-oct</td><td>★288</td></tr>
+<tr><td>Ciallo Reader</td><td>el más reciente</td><td>MIT</td><td>hoy</td><td>★271</td></tr>
+<tr><td>Chimahon</td><td>biblioteca local</td><td>GPL-3.0</td><td>28-oct</td><td>★240</td></tr>
+<tr><td>KamiYomu</td><td>vigila series y avisa</td><td>AGPL-3.0</td><td>20-sep</td><td>★150</td></tr>
+<tr><td>yomihon</td><td>lector mínimo</td><td>Apache-2.0</td><td>18-oct</td><td>★142</td></tr>
+</table>
+<p><em>Cinco mitos del barrio</em></p>
+<p><strong>Mito uno: «si el lector está vivo, el catálogo está vivo».</strong> Son dos cosas distintas, mantenidas por gente distinta. El lector puede empujar a diario mientras el repositorio de extensiones lleva meses parado.</p>
+<p><strong>Mito dos: «cambiar de lector arregla el catálogo».</strong> Casi nunca. Si las fuentes están secas, el lector nuevo va a mostrar el mismo vacío con otra interfaz. Primero se cambian las fuentes.</p>
+<p><strong>Mito tres: «más estrellas significa mejor lector».</strong> Las estrellas miden cuánta gente lo probó. Un lector con veinte mil estrellas y seis días sin empujón está bien; uno con cuarenta mil y tres meses de silencio también puede estarlo, pero hay que decirlo con la fecha.</p>
+<p><strong>Mito cuatro: «una rama es una traición».</strong> Es la licencia haciendo su trabajo. Apache-2.0 y MIT permiten ramificar y publicar con otro nombre; por eso el barrio sigue vivo cuando una casa cierra.</p>
+<p><strong>Mito cinco: «los servidores de casa son para expertos».</strong> Son una instalación y una carpeta. Lo que piden es una computadora que esté encendida, no conocimientos raros.</p>
+<p><em>Glosario de bolsillo</em></p>
+<p><strong>Rama (fork)</strong> — copia de un proyecto que sigue su propio camino con su propio nombre.</p>
+<p><strong>Extensión</strong> — conector que un lector usa para hablar con un sitio. El contenido no está en el lector.</p>
+<p><strong>Repositorio de extensiones</strong> — el catálogo de esos conectores. Su salud se mide por su fecha.</p>
+<p><strong>Biblioteca</strong> — el archivo que guarda series seguidas, categorías e historial. Es lo que se exporta al mudarse.</p>
+<p><strong>Servidor de biblioteca</strong> — programa que sirve tus archivos a varios aparatos desde una computadora.</p>
+<p><strong>Respaldo</strong> — copia de la biblioteca en un archivo. Sin respaldo no hay mudanza tranquila.</p>
+<p><strong>Archivado</strong> — estado de un repositorio que ya no recibe empujones. El código queda de consulta, no de trabajo.</p>
+<p>───────────────────</p>
+<p><em>🕰️ Cronología del barrio, con las fechas que se pueden leer</em></p>
+<p>Las fechas de este barrio son su historia, y están todas en las fichas de arriba.</p>
+<p><strong>Noviembre de 2025: se archiva Kotatsu.</strong> Su último empujón es del día 4. Con ★8.946 en ese momento, era el segundo lector más usado, y su archivo no fue un cierre ruidoso: fue una puerta que se quedó cerrada sin aviso. Sus herramientas satélite —parsers, descargador, descargador con ventana— quedaron en pie con sus propias fechas de 2024 y 2025.</p>
+<p><strong>2024 y 2025: crecen los servidores de casa.</strong> Komga, Kavita y Suwayomi dejan de ser cosa de aficionados con tiempo y pasan a ser instalaciones de una tarde, con documentación clara y clientes decentes. Su atractivo crece cuando el resto se mueve: quien ya no confía en un catálogo ajeno monta el suyo.</p>
+<p><strong>2025 y 2026: aparecen las casas nuevas.</strong> Mangayomi, Neko, Kototoro, yomihon, Chimahon, Ciallo Reader, Usagi. Casi todas empiezan pequeñas, con dos o tres personas, y casi todas siguen vivas hoy. Es el síntoma de un barrio sano: nacen casas aunque otras se cierren.</p>
+<p><strong>2026: Kazumi se lleva el primer puesto.</strong> Con ★40.576 supera a Mihon y a koodo-reader. No es un lector de cómics, es un coleccionador de anime, y aun así marca la tendencia del año: el público se fue al video y las reglas editables.</p>
+<p><strong>Hoy, 1 de noviembre: once empujones.</strong> Komikku, SY, J2K, Suwayomi, Komga, Kavita, Keiyoushi, Yuzono, Mangayomi, Kototoro, Neko, Ciallo y manga-tui empujaron en la mañana. Es el dato que deja tranquilo al que está pensando en mudarse: el barrio, hoy, se mueve.</p>
+<p>Lo que esta cronología no dice es lo que nadie sabe: cuál de las casas nuevas será la próxima Kotatsu. Eso no se predice; se vigila con la fecha del empujón y con la de la release, que son las dos únicas señales que no mienten.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces y notas del corte</em></p>
+<p>Cada dirección se abrió hoy y volvió a medirse. Ninguna sale de una lista guardada.</p>
+<p><em>Lectores de la familia grande</em></p>
+<ul>
+<li>Mihon: <a href="https://github.com/mihonapp/mihon">https://github.com/mihonapp/mihon</a></li>
+<li>Aniyomi: <a href="https://github.com/aniyomiorg/aniyomi">https://github.com/aniyomiorg/aniyomi</a></li>
+<li>Komikku: <a href="https://github.com/komikku-app/komikku">https://github.com/komikku-app/komikku</a></li>
+<li>TachiyomiSY: <a href="https://github.com/jobobby04/TachiyomiSY">https://github.com/jobobby04/TachiyomiSY</a></li>
+<li>J2K: <a href="https://github.com/Jays2Kings/tachiyomiJ2K">https://github.com/Jays2Kings/tachiyomiJ2K</a></li>
+<li>Yokai: <a href="https://github.com/null2264/yokai">https://github.com/null2264/yokai</a></li>
+<li>Kotatsu (archivado): <a href="https://github.com/KotatsuApp/Kotatsu">https://github.com/KotatsuApp/Kotatsu</a></li>
+</ul>
+<p><em>Las casas nuevas</em></p>
+<ul>
+<li>Kazumi: <a href="https://github.com/Predidit/Kazumi">https://github.com/Predidit/Kazumi</a></li>
+<li>Mangayomi: <a href="https://github.com/kodjodevf/mangayomi">https://github.com/kodjodevf/mangayomi</a></li>
+<li>Neko: <a href="https://github.com/nekomangaorg/Neko">https://github.com/nekomangaorg/Neko</a></li>
+<li>Aidoku: <a href="https://github.com/Aidoku/Aidoku">https://github.com/Aidoku/Aidoku</a></li>
+<li>Kototoro: <a href="https://github.com/Kototoro-app/Kototoro">https://github.com/Kototoro-app/Kototoro</a></li>
+<li>Usagi: <a href="https://github.com/UsagiApp/Usagi">https://github.com/UsagiApp/Usagi</a></li>
+<li>yomihon: <a href="https://github.com/yomihon/yomihon">https://github.com/yomihon/yomihon</a></li>
+<li>Chimahon: <a href="https://github.com/Chimahon/chimahon">https://github.com/Chimahon/chimahon</a></li>
+<li>Ciallo Reader: <a href="https://github.com/roxycon-dev/Ciallo-Reader">https://github.com/roxycon-dev/Ciallo-Reader</a></li>
+</ul>
+<p><em>Servidores de casa</em></p>
+<ul>
+<li>Komga: <a href="https://github.com/gotson/komga">https://github.com/gotson/komga</a></li>
+<li>Kavita: <a href="https://github.com/Kareadita/Kavita">https://github.com/Kareadita/Kavita</a></li>
+<li>Suwayomi Server: <a href="https://github.com/Suwayomi/Suwayomi-Server">https://github.com/Suwayomi/Suwayomi-Server</a></li>
+<li>Komelia: <a href="https://github.com/Snd-R/Komelia">https://github.com/Snd-R/Komelia</a></li>
+<li>KamiYomu: <a href="https://github.com/KamiYomu/KamiYomu">https://github.com/KamiYomu/KamiYomu</a></li>
+</ul>
+<p><em>Extensiones</em></p>
+<ul>
+<li>Keiyoushi: <a href="https://github.com/keiyoushi/extensions">https://github.com/keiyoushi/extensions</a></li>
+<li>Yuzono: <a href="https://github.com/yuzono/tachiyomi-extensions">https://github.com/yuzono/tachiyomi-extensions</a></li>
+</ul>
+<p><em>Escritorio, terminal y video</em></p>
+<ul>
+<li>koodo-reader: <a href="https://github.com/koodo-reader/koodo-reader">https://github.com/koodo-reader/koodo-reader</a></li>
+<li>comic-looms: <a href="https://github.com/MapoMagpie/comic-looms">https://github.com/MapoMagpie/comic-looms</a></li>
+<li>manga-tui: <a href="https://github.com/josueBarretogit/manga-tui">https://github.com/josueBarretogit/manga-tui</a></li>
+<li>LibreTube: <a href="https://github.com/libre-tube/LibreTube">https://github.com/libre-tube/LibreTube</a></li>
+</ul>
+<p><em>Cómo se midió esto.</em> Veintisiete proyectos, tres lecturas cada uno y por tres caminos que no se parecen: el buscador de la forja, la página del repositorio tal como la ve una persona, y el archivo crudo del README con su licencia. El orden de las tres lecturas se rotó de un proyecto al siguiente para que ninguna pasada repitiera la anterior. Las estrellas se cotejaron entre las tres; cuando la página y el buscador no coincidieron, se publicó el número de la página. La versión sale del último release publicado, con su fecha, y cuando no hay release se escribe que no la hay.</p>
+<p><em>Lo que no se midió.</em> Esta pieza no mide contenido: no cuenta cuántas series hay en ningún catálogo, porque eso depende de sitios de terceros que cambian de dirección y de reglas. Tampoco cita dominios de lectura: se mide el programa, no el catálogo, y se dice.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — un barrio que no se secó</em></p>
+<p>Lo que deja este recorrido, en plata: el mueble de los cómics ya no es un mueble. Es una familia con cinco ramas, una casa archivada que todavía tiene miles de usuarios, media docena de casas nuevas que no le deben nada a nadie y una capa de servidores que vive en la casa de cada quien. Elegir bien no es elegir el más grande: es elegir el que tenga fuentes vivas y respaldo a mano.</p>
+<p>El hallazgo del día es de fechas: once empujones en una sola mañana y veintitrés proyectos movidos en los últimos dieciocho días. Ese es el pulso del barrio, y no se parece al de principios de año, cuando casi todo colgaba del mismo tronco.</p>
+<p>El otro hallazgo es el que más veces se repite en las consultas: cuando el catálogo se seca, no se cambia el lector, se cambia el repositorio de fuentes. Es la operación de dos minutos que evita una reinstalación de dos horas.</p>
+<blockquote>—¿Y si la casa nueva también cierra?</blockquote>
+<blockquote>—Entonces abres el respaldo, y lo que era tuyo sigue siendo tuyo.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Un lector es una ventana; el catálogo es la casa, y cada una tiene su dueño.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 12:02 y las 12:20 de Santo Domingo · veintisiete proyectos leídos tres veces cada uno con el orden de las lecturas rotado · una ficha con dos licencias distintas (ficha y README) se publica con las dos · una ficha sin licencia declarada se dice tal cual · un proyecto archivado se publica con su fecha real de último empujón.</p>
+<p><em>Licencia de esta entrega:</em> texto en CC BY-SA 4.0, datos medidos en CC BY 4.0, código de ejemplo en MIT; la marca y el nombre de la casa son de «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas del corte</h2>
+<p><strong>Nota de corte (1-nov, 12:06):</strong> las veintisiete fichas se leyeron esta mañana con hora. Donde el último release no coincide con el trabajo reciente —Komikku, SY, J2K y Suwayomi son los casos— se escriben las dos fechas: la del empujón y la del release.</p>
+<p><strong>Nota de sucesión (1-nov):</strong> Kotatsu se publica como archivado, con su último empujón del 4 de noviembre de 2025 y sin release publicada en la ficha. Lo instalado sigue funcionando; lo que se acabó es el mantenimiento. No se retira de la tabla porque enterrar una herramienta sin decir quién la heredó deja al lector sin salida.</p>
+<p><strong>Nota de alcance (1-nov):</strong> esta guía mide programas y no catálogos. No reparte enlaces de lectura ni cuenta cuántas series tiene ningún sitio. Mide lectores, fuentes, servidores y fechas, que es lo que se puede comprobar con una conexión y un reloj.</p>
+<p><strong>Nota de corrección (1-nov):</strong> la versión anterior de esta pieza ordenaba el barrio por el tronco de Tachiyomi y dejaba fuera las casas nuevas que hoy tienen más estrellas que varias ramas. Se reescribió con el censo de hoy en vez de arrastrar la lista de hace cuatro meses.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

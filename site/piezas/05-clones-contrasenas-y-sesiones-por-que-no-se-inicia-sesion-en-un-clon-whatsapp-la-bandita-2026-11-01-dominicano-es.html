@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Clones, contraseñas y sesiones: por qué no se inicia sesión en un clon">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Clones, contraseñas y sesiones: por qué no se inicia sesión en un clon</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Clones, contraseñas y sesiones: por qué no se inicia sesión en un clon", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Clones, contraseñas y sesiones: por qué no se inicia sesión en un clon</h1>
+<p class="meta">WhatsApp · 1 de noviembre de 2026 · 63,020 caracteres</p>
+<p><em>Clones, contraseñas y sesiones: por qué no se inicia sesión en un clon</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 05 de WhatsApp</em></p>
+<p><em>🗺️ Mapa de esta pieza</em></p>
+<pre>
+├── ⚡ En una página · ~1 min
+├── 🗺️ Este mapa · ~1 min
+├── 🌱 Semilla: qué es un clon y por qué pide tu clave · ~4 min
+├── 🎬 Cinco escenas del barrio · ~8 min
+├── 🔍 Anatomía de un clon, señal por señal · ~7 min
+├── 🧾 El censo de hoy: las herramientas que sí ayudan · ~9 min
+├── 🛠️ El tutorial: comprobar un sitio en diez pasos · ~8 min
+├── 🔑 Contraseñas, doble paso y llaves de acceso · ~7 min
+├── 🚑 Si ya iniciaste sesión en un clon · ~5 min
+├── ⚖️ La ley, sin sermón · ~3 min
+├── ❓ Preguntas que me llegan · ~5 min
+└── 🔗 Enlaces, notas del corte y firma · ~4 min
+</pre>
+<p><em>⚡ En una página</em></p>
+<p>Un clon es un sitio que copia la cara de otro para que tú escribas ahí la contraseña que usas en el original. No necesita programadores brillantes ni un virus nuevo: le basta con copiar el diseño, comprar un dominio parecido y esperar. Lo que se lleva no es tu teléfono: es la llave que abre tu cuenta, y a veces la misma llave abre tu correo.</p>
+<p>Esta mañana medí diecisiete herramientas con la API autenticada de GitHub —gestores de contraseñas, dobles pasos, navegadores, bloqueadores de red— y no porque sean el tema, sino porque son la defensa: lo único que de verdad detiene un clon no es reconocerlo a tiempo, es que la contraseña que le entregues no sirva en ningún otro sitio.</p>
+<p>Las tres reglas caben en un bolsillo. <em>Uno:</em> ninguna página de lectura necesita tu contraseña de Google, ni de Facebook, ni de tu banco, para mostrarte un capítulo. <em>Dos:</em> si el sitio te pidió iniciar sesión y tú no habías iniciado sesión antes ahí, ya perdiste el tiempo: cierra y cambia esa clave. <em>Tres:</em> una contraseña distinta por sitio y un doble paso en el correo convierten un clon de desastre en un susto.</p>
+<p>Lo que no voy a decir es que puedes detectar todos los clones mirando. No puedes: algunos son copias perfectas con el dominio cambiado por una letra. Lo que sí puedes es hacer que el premio no valga nada.</p>
+<p>───────────────────</p>
+<p><em>🌱 Semilla: qué es un clon y por qué pide tu clave</em></p>
+<p>Un sitio de lectura legítimo no necesita saber quién eres para mostrarte una página pública. Puede pedirte una cuenta para guardar tu progreso, pero eso es una comodidad, no un requisito: si no quieres, lees sin cuenta.</p>
+<p>El clon vive de lo contrario. Te pide iniciar sesión en la primera pantalla, antes de mostrarte nada, y a veces con el botón de Google, de Facebook o de Discord, que es el más rentable de todos: un solo clic y el atacante se queda con una cuenta que abre tu correo, tus contactos y tus otras cuentas.</p>
+<p><em>Por qué funciona.</em> Porque el clon no ataca tu criterio, ataca tu prisa. Llegas desde un enlace de WhatsApp, la página carga rápido, el diseño es idéntico al que ya conoces y el botón dice «Continuar con Google». Nadie revisa el dominio cuando el diseño es el correcto.</p>
+<p><em>Qué se lleva exactamente.</em> Si es un formulario propio, tu correo y tu contraseña. Si es un botón de Google o Facebook, un permiso que le das a una aplicación que no es la que crees. Y si ya tenías una cuenta en el sitio real con la misma clave, el atacante prueba esa misma clave en el correo, en el banco y en la tienda, porque sabe que la gente repite.</p>
+<p><em>El nombre técnico de eso último</em> es relleno de credenciales, y es la razón por la que esta pieza no habla de virus. El daño no entra por un archivo: entra por una lista de correos y contraseñas que ya están circulando y que se prueban solas contra cien sitios en un minuto.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cinco escenas del barrio</em></p>
+<p><em>Escena 1 — El enlace del grupo de la familia.</em> Llegó un enlace con el nombre del sitio de siempre, pero el dominio tenía una letra cambiada. La tía lo abrió, vio el botón azul de Google, entró, y a los dos días le empezaron a llegar correos raros. Lo que la salvó fue que su correo tenía doble paso: el atacante tenía la clave, pero no el código. Lo que no la salvó fue su criterio, porque el diseño era exacto.</p>
+<p><em>Escena 2 — El que usaba la misma clave desde 2019.</em> Un muchacho del barrio tenía una sola contraseña para todo, la misma desde el colegio. La escribió en un clon y en cuarenta minutos le cambiaron la clave del correo, intentaron entrar a su banco y publicaron algo en su perfil. No perdió el teléfono: perdió la llave maestra. Hoy tiene tres contraseñas distintas y no las sabe de memoria, porque las guarda en un gestor.</p>
+<p><em>Escena 3 — La que sí revisó el dominio.</em> Una vecina que trabaja en un banco abrió el enlace, miró la barra de direcciones, vio que el sitio terminaba en otro país y cerró. No se perdió nada: el capítulo estaba también en el sitio bueno. Su ventaja no fue la tecnología, fue la costumbre de mirar el dominio antes de escribir nada.</p>
+<p><em>Escena 4 — El estudiante que quiso «descargar la app» del sitio.</em> Un aviso decía que había una app nueva del sitio de lectura. El archivo era un APK fuera de cualquier tienda. No era un clon pidiendo contraseña: era otra estafa, la de la app que no existe. La regla es la misma: un sitio de lectura no te pide instalar nada para leer en el navegador.</p>
+<p><em>Escena 5 — El técnico que ya no arregla cuentas robadas.</em> El técnico del barrio aprendió a decir que no: cuando le llega un teléfono con la cuenta perdida, lo primero que pregunta es si había doble paso. Si no había, el trabajo es de días y a veces no se recupera. Si había, es de diez minutos. Esa diferencia es todo lo que esta pieza quiere meterte en la cabeza.</p>
+<p>───────────────────</p>
+<p><em>🔍 Anatomía de un clon, señal por señal</em></p>
+<p>Ninguna señal basta sola; tres juntas ya son motivo para cerrar la pestaña.</p>
+<p><em>El dominio.</em> Es la señal más fiable y la que menos se mira. El original tiene una dirección que ya conoces; el clon cambia una letra, añade una palabra, usa otro final (<code>.top</code>, <code>.xyz</code>, <code>.cc</code>) o mete un guion. Leer la barra de direcciones completa, no solo el escudo del candado, es el hábito que más devuelve.</p>
+<p><em>El candado.</em> El candado del navegador solo dice que la conexión va cifrada. Un clon puede tenerlo y lo tiene casi siempre: hoy un certificado es gratis. Candado no es identidad; el candado protege el camino, no dice quién está al otro lado.</p>
+<p><em>La prisa por la cuenta.</em> Un sitio que no te deja ver nada sin iniciar sesión, cuando el original sí te dejaba, cambió de costumbre. Pregúntate por qué.</p>
+<p><em>El botón de Google, Facebook o Discord.</em> En un sitio de lectura, ese botón es la puerta más rentable para el que copia. Si el original nunca lo tuvo, un clon que lo tiene en la primera pantalla está pidiendo permiso, no comodidad.</p>
+<p><em>La ortografía y las imágenes.</em> Los clones dejan huellas: una tilde que falta, un logo con el borde mal recortado, una tipografía distinta en el botón. No es prueba, pero suma.</p>
+<p><em>El correo que te llega después.</em> Si al registrarte recibes un mensaje de un dominio distinto al del sitio, ya sabes qué pasó. Un correo de bienvenida que viene de otra casa es la confesión más limpia que existe.</p>
+<p><em>La fecha del copyright.</em> Un pie con «© 2023» en un sitio que se actualiza a diario es raro. Los clones se congelan cuando los copian.</p>
+<p><em>El comportamiento del formulario.</em> Un sitio real valida el correo antes de mandarlo; un clon acepta cualquier cosa y te redirige a una página de «éxito» que no hace nada. Si escribes una contraseña falsa y el sitio te deja entrar igual, acabas de encontrar un recolector.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de hoy: las herramientas que sí ayudan</em></p>
+<p>Lo que sigue no son sitios de lectura: son las piezas que hacen que un clon no sirva de nada. Todas medidas hoy con la API autenticada de GitHub, con su estrella y su fecha.</p>
+<p><em>Gestión de contraseñas</em></p>
+<p>• <em><code>Kunzisoft/KeePassDX</code></em> — ★7.581 · GPL-3.0 · Kotlin · release 4.5.8 del 31 de octubre · empujó hoy. Bóveda local, sin nube de nadie, con teclado propio para no dictarle contraseñas al sistema. La opción de la casa para el que no quiere depender de un servidor ajeno.</p>
+<p>• <em><code>PhilippC/keepass2android</code></em> — ★6.351 · GPL-3.0 · C# · release v1.15-r6 del 15 de octubre · empujó el 29 de octubre. El mismo formato de bóveda, otra implementación, más años encima. Sirve para abrir la misma base que usas en la computadora.</p>
+<p>• <em><code>bitwarden/android</code></em> — ★9.570 · GPL-3.0 · Kotlin · release v2026.10.1-bwpm del 29 de octubre · empujó hoy. La opción con servidor: cómoda, sincronizada y con la advertencia de siempre, que la clave maestra vive donde tú decidas.</p>
+<p><em>Dobles pasos</em></p>
+<p>• <em><code>beemdevelopment/Aegis</code></em> — ★13.443 · GPL-3.0 · Java · release v3.4.3 del 6 de septiembre · empujó ese mismo día. Generador de códigos de seis cifras, con exportación cifrada. Es la pieza que convierte una clave robada en una clave inútil.</p>
+<p>• <em><code>twofas/2fas-android</code></em> — ★1.561 · GPL-3.0 · Kotlin · release 6.1.0 del 19 de octubre · empujó ayer. Alternativa con respaldo cifrado en la nube, si quieres poder recuperar los códigos cuando cambies de teléfono.</p>
+<p><em>Navegadores con filtro</em></p>
+<p>• <em><code>uazo/cromite</code></em> — ★8.453 · GPL-3.0 · C++ · release del 15 de septiembre · empujó hoy. Cromo endurecido, sin servicios de Google, con bloqueo incorporado. Para leer en el navegador sin que cada pestaña sea una fiesta de rastreo.</p>
+<p>• <em><code>gorhill/uBlock</code></em> — ★68.993 · GPL-3.0 · JavaScript · release 1.75.0 del 16 de septiembre · empujó el 30 de octubre. El bloqueador de referencia. No detecta clones, pero corta la mitad de las páginas de cebo que aparecen al pulsar un enlace malo.</p>
+<p>• <em><code>mozilla-mobile/firefox-android</code></em> — ★1.842 · MPL-2.0 · Kotlin · <strong>sin release reciente</strong> · último empuje el 17 de junio de 2024. Lo pongo porque mucha gente lo busca: el repositorio de la app de Firefox en Android está inactivo; el desarrollo vivo está en otro sitio. Es el ejemplo perfecto de por qué aquí se miran las fechas.</p>
+<p>• <em><code>divested-mobile/mull-fenix</code></em> — ★592 · AGPL-3.0 · JavaScript · <strong>sin release</strong> · último empuje el 10 de diciembre de 2024. El navegador endurecido de Divested, dormido. Sirve como aviso: los proyectos de privacidad también se cansan.</p>
+<p><em>Red</em></p>
+<p>• <em><code>celzero/rethink-app</code></em> — ★5.828 · Apache-2.0 · Kotlin · release v0.5.8 del 13 de octubre · empujó el 26 de octubre. Cortafuegos y DNS con bloqueo por app. Si un clon vive de dominios recién creados, esta pieza le corta la publicidad y buena parte del negocio.</p>
+<p>• <em><code>nextdns/nextdns</code></em> — ★4.237 · MIT · Go · release v1.49.0 del 29 de octubre · empujó el 31. El cliente que lleva tu DNS a un filtro que tú configuras. Sirve en el teléfono y en el router.</p>
+<p>• <em><code>AdguardTeam/AdGuardHome</code></em> — ★38.032 · GPL-3.0 · TypeScript · release v0.107.79 del 18 de agosto · empujó el 30 de octubre. Bloqueo de red para toda la casa desde un solo aparato. La versión familiar de lo anterior.</p>
+<p><em>Mensajería y comprobación</em></p>
+<p>• <em><code>signalapp/Signal-Android</code></em> — ★29.565 · AGPL-3.0 · Kotlin · release v8.33.2 del 26 de octubre · empujó el 30. Por si el enlace del clon llegó por un chat: aquí no hay enlaces que se abran solos sin que tú los toques.</p>
+<p>• <em><code>mvt-project/mvt</code></em> — ★15.667 · NOASSERTION · Python · release v2026.10.26 del 26 de octubre · empujó el 29. La herramienta forense de Amnesty para mirar si un teléfono fue comprometido de verdad. No es para el uso diario: es para cuando hay sospecha fundada.</p>
+<p>• <em><code>tailscale/tailscale</code></em> — ★38.461 · BSD-3-Clause · Go · release v1.104.4 del 28 de octubre · empujó el 31. Red privada entre tus aparatos. Suena lejos del tema y no lo está: si tu biblioteca y tus notas viven en tu red, hay menos enlaces ajenos en tu vida.</p>
+<p>Y uno que ya estaba en otras piezas y vuelve aquí: <em><code>ImranR98/Obtainium</code></em> — ★21.112 · GPL-3.0 · Dart · release v1.7.4 <strong>de hoy mismo</strong>. Para instalar desde el repositorio del autor y no desde una web que imita a la del autor.</p>
+<p>───────────────────</p>
+<p><em>🛠️ El tutorial: comprobar un sitio en diez pasos</em></p>
+<p>Esto se hace una vez por sitio y se tarda dos minutos. Sirve para el enlace que llegó por WhatsApp y para el que te recomiende un primo.</p>
+<p><em>Paso 1 · Lee el dominio entero.</em> No el logo, no el título de la pestaña: la barra de direcciones, de izquierda a derecha. Compara con el que ya tenías guardado. Si no lo tienes guardado, ese es el problema de fondo y el paso 10 lo arregla.</p>
+<p><em>Paso 2 · Desconfía de los finales raros.</em> Un sitio que vivía en una dirección conocida y ahora aparece en una terminación distinta es, casi siempre, otro sitio. Los finales baratos son baratos por algo.</p>
+<p><em>Paso 3 · Mira si el candado dice algo más.</em> El candado solo confirma que hay cifrado. Algunos navegadores te dejan ver a nombre de quién está el certificado; si el nombre no coincide con el sitio, cierra.</p>
+<p><em>Paso 4 · Busca la fecha del pie.</em> Un «© 2023» en un sitio que publica capítulos diarios es una copia congelada.</p>
+<p><em>Paso 5 · Fíjate en dónde te pide la cuenta.</em> Si el original no pedía cuenta para leer y este sí, ya sabes. Y si el botón grande es «Continuar con Google», más claro todavía.</p>
+<p><em>Paso 6 · Prueba con un correo de mentira.</em> Escribe <code>prueba@ejemplo.test</code> y una contraseña inventada. Si el sitio te deja pasar y te muestra contenido, es un recolector: no valida nada porque no le interesa, solo quiere lo que escribiste. Si te rechaza el correo, al menos intenta parecer legítimo.</p>
+<p><em>Paso 7 · Busca el nombre del sitio con la palabra «oficial» y el año.</em> Los clones suelen salir en los primeros puestos de las búsquedas porque compran anuncios. Compara lo que encuentres con la dirección que tienes delante.</p>
+<p><em>Paso 8 · Mira si el enlace que te llegó tiene acortador.</em> Un acortador esconde el destino. Hay servicios que te dejan ver a dónde va antes de abrirlo; si no lo tienes a mano, no lo abras desde el chat: abre el navegador y escribe la dirección que ya conoces.</p>
+<p><em>Paso 9 · Comprueba si el sitio pide instalar algo.</em> Un lector de manga en el navegador no necesita una app. Un aviso de «instala nuestra app para seguir leyendo» en un sitio que ayer no la tenía es una estafa, no una mejora.</p>
+<p><em>Paso 10 · Guarda el bueno.</em> Añade el sitio verdadero a marcadores, en la pantalla de inicio del teléfono. A partir de ahí, no vuelvas a llegar por enlace: llega por el marcador. Ese solo hábito elimina el noventa por ciento de las posibilidades de caer.</p>
+<p><em>Lo que este tutorial no hace.</em> No detecta un clon perfecto con dominio nuevo y diseño idéntico. Para eso no hay truco visual: hay contraseñas distintas y doble paso, que es la sección siguiente.</p>
+<p>───────────────────</p>
+<p><em>🔑 Contraseñas, doble paso y llaves de acceso</em></p>
+<p>Aquí está el corazón de la pieza, y no tiene nada de técnico.</p>
+<p><em>Regla uno: una clave por sitio.</em> No porque los sitios sean malos, sino porque un sitio puede ser copiado. Si repites la clave, un clon que robe una abre todas. Si no la repites, el clon roba una que no sirve en ninguna otra parte.</p>
+<p><em>Regla dos: que no la recuerdes.</em> Una contraseña que recuerdas es una contraseña que se puede adivinar con tu nombre, tu barrio y tu año de nacimiento. Las buenas son largas, absurdas y viven en un gestor.</p>
+<p><em>Regla tres: el gestor, en el teléfono y en la computadora.</em> De los medidos hoy, <code>Kunzisoft/KeePassDX</code> (★7.581) y <code>PhilippC/keepass2android</code> (★6.351) usan el formato KeePass: un archivo cifrado que es tuyo y vive donde tú lo pongas. <code>bitwarden/android</code> (★9.570) sincroniza por servidor, que es más cómodo y es otra confianza. Las tres son GPL-3.0 y las tres actualizan este mes.</p>
+<p><em>Regla cuatro: doble paso en el correo, primero.</em> Si solo vas a activar un doble paso en tu vida, actívalo en el correo. Casi todo lo demás se recupera desde el correo; el correo no se recupera desde nada. <code>beemdevelopment/Aegis</code> (★13.443) guarda los códigos sin nube; <code>twofas/2fas-android</code> (★1.561) los respalda cifrados.</p>
+<p><em>Regla cinco: guarda los códigos de recuperación.</em> Cuando actives el doble paso, el sitio te da diez códigos de un solo uso. Se imprimen o se guardan en el gestor. Si los pierdes, el doble paso se convierte en la puerta que no abre ni el dueño.</p>
+<p><em>Regla seis: llaves de acceso, cuando el sitio las ofrezca.</em> Es el paso siguiente: en vez de una contraseña, el teléfono guarda una llave que no se puede copiar. Los sitios grandes ya las ofrecen; los clones no pueden robar lo que no se escribe.</p>
+<p><em>Lo que nunca se hace.</em> Mandar una contraseña por WhatsApp, ni a tu familia, ni «para que me ayudes». Guardarla en una nota sin cifrar. Usar la del correo en cualquier otro sitio. Y escribirla en una página que llegó por un enlace sin mirar el dominio.</p>
+<p><em>Un detalle que casi nadie sabe:</em> cambiar la contraseña de un sitio no cierra las sesiones abiertas en otros aparatos si el sitio no lo ofrece. Los que sí lo ofrecen tienen un botón de «cerrar sesión en todos los dispositivos». Ese botón es al que hay que darle después de un susto.</p>
+<p>───────────────────</p>
+<p><em>🚑 Si ya iniciaste sesión en un clon</em></p>
+<p>No es el fin del mundo, y el orden importa.</p>
+<p><em>Primero: cambia la contraseña del sitio de verdad,</em> entrando por la dirección que ya conocías o por el marcador, no por el enlace del susto. Si el clon copió también el formulario de cambio de clave, cambiar desde ahí es entregar la nueva.</p>
+<p><em>Segundo: cambia la misma contraseña en todos los sitios donde la usabas.</em> Este es el paso que la gente salta y es el que de verdad importa, porque el atacante no va a probar solo en el sitio del cómic.</p>
+<p><em>Tercero: cierra sesiones.</em> En el correo y en cualquier cuenta importante, busca «cerrar sesión en todos los dispositivos» y actívalo. Eso expulsa a cualquiera que haya entrado con tu clave.</p>
+<p><em>Cuarto: activa el doble paso donde no lo tenías,</em> empezando por el correo. Si el atacante ya tiene la clave, el doble paso es lo que le impide usarla.</p>
+<p><em>Quinto: revisa las reglas de reenvío en tu correo.</em> Un truco viejo: si pueden entrar, dejan una regla que reenvía tus correos a otra dirección y así siguen leyendo aunque cambies la clave. Se quita en los ajustes de reenvío.</p>
+<p><em>Sexto: mira los dispositivos conectados</em> en las cuentas que uses (correo, redes, banco) y echa fuera lo que no reconozcas.</p>
+<p><em>Séptimo: avisa.</em> Si tu cuenta mandó mensajes raros a tus contactos, un mensaje corto explicando que te entraron evita que alguno caiga en el mismo enlace.</p>
+<p><em>Lo que no hace falta:</em> formatear el teléfono, cambiar de número ni dejar de usar el sitio de lectura. El daño no está en tu aparato: está en la contraseña que compartiste.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón</em></p>
+<p>Suplantar un sitio para quedarse con contraseñas ajenas es delito en casi todo el mundo hispanohablante, y no hay debate sobre eso. Lo que sí tiene matices es lo demás, y conviene saberlo sin dramatizar.</p>
+<p><em>Si te robaron la cuenta.</em> En la República Dominicana, y en la mayoría de países de la región, eso entra en las figuras de acceso ilícito a sistemas y de fraude informático. Denunciar sirve para dos cosas concretas: dejar constancia con fecha y, si hubo dinero de por medio, activar el camino del banco. Lo que no hace es devolverte la cuenta, y por eso el orden que importa es el de la sección anterior: cerrar, cambiar, expulsar.</p>
+<p><em>Si compartiste la contraseña tú mismo.</em> Buena parte de la fuerza legal se cae cuando el acceso se dio de forma voluntaria, aunque fuera engañado. Es incómodo y es así. Por eso lo que se persigue en la práctica es el uso posterior: el fraude, la suplantación, el daño.</p>
+<p><em>Los datos que dejaste.</em> Si el sitio pedía correo y contraseña, ya tienes dos datos personales en manos ajenas. En varios países puedes pedir la baja o reclamar; en la práctica, el sitio desaparece antes de que llegue la respuesta. La lección operativa es la de siempre: no entregues más de lo necesario.</p>
+<p><em>Y lo que no es delito.</em> Leer en un sitio que no es el oficial no es delito. Usar un clon de lector para ver capítulos no es lo que se persigue: lo que se persigue es la suplantación y el robo. Esta pieza no te va a decir que estás delinquiendo por leer: te va a decir que no entregues la llave.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me llegan</em></p>
+<p><strong>¿Cómo sé si el sitio donde leo es un clon?</strong></p>
+<p>Compara el dominio con el que usabas antes, letra por letra. Mira si te pide cuenta para algo que antes no la pedía, y si el botón grande es de Google o de Facebook. Tres señales juntas ya son suficientes para cerrar.</p>
+<p><strong>¿Y si el diseño es idéntico?</strong></p>
+<p>Puede serlo: copiar un diseño es cuestión de minutos. Por eso el dominio manda y por eso las contraseñas distintas son la defensa de verdad. El diseño no prueba nada.</p>
+<p><strong>¿Un candado verde significa que el sitio es seguro?</strong></p>
+<p>Significa que la conexión va cifrada. Cualquiera consigue un certificado gratis hoy. El candado protege el camino; no dice quién está al otro lado.</p>
+<p><strong>¿Qué pasa si inicié sesión con Google en un clon?</strong></p>
+<p>Le diste permiso a una aplicación que no es la que crees. Entra a la configuración de seguridad de tu cuenta de Google, mira las aplicaciones con acceso y quita la que no reconozcas. Cambia la contraseña si el clon también te la pidió por formulario.</p>
+<p><strong>¿Tengo que cambiar todas mis contraseñas?</strong></p>
+<p>Solo las que fueran iguales a la que escribiste en el clon. Si usabas una distinta por sitio, no hay nada que cambiar. Y ese es el argumento entero de esta pieza.</p>
+<p><strong>¿Sirve el modo incógnito?</strong></p>
+<p>No. El modo incógnito borra tu historial local; no te esconde del sitio ni impide que guarde lo que escribes.</p>
+<p><strong>¿Puedo leer sin cuenta?</strong></p>
+<p>En la mayoría de los sitios, sí. Si un sitio insiste en la cuenta para lo básico, pregúntate qué está cobrando con eso.</p>
+<p><strong>¿Vale la pena un gestor de contraseñas si solo tengo tres cuentas importantes?</strong></p>
+<p>Vale más, no menos: con tres cuentas importantes y una sola contraseña repetida, un clon te tumba las tres. Un gestor gratuito y local como KeePassDX cuesta cero y no depende de nadie.</p>
+<p><strong>¿El doble paso por mensaje de texto sirve?</strong></p>
+<p>Sirve y es muchísimo mejor que nada, aunque los códigos por SMS se pueden interceptar. Si el sitio ofrece app de códigos o llave de acceso, mejor; si solo ofrece SMS, actívalo igual.</p>
+<p><strong>¿Las llaves de acceso son el futuro?</strong></p>
+<p>Son el presente en los sitios grandes. No se pueden copiar ni escribir en un formulario ajeno, que es exactamente lo que un clon necesita. Cuando un sitio que usas las ofrezca, actívalas.</p>
+<p><strong>¿Cómo aviso a mi familia sin asustarla?</strong></p>
+<p>Con una frase: «si un enlace te pide la contraseña de Google para leer un cómic, no es el sitio». Y con el hábito de llegar por marcador, que se enseña en un minuto.</p>
+<p><strong>¿Esto aplica a las apps también?</strong></p>
+<p>Sí, y es la variante más peligrosa: un APK que imita a una app conocida y pide tus credenciales. La regla es la de siempre: se instala desde el repositorio del autor o desde una tienda que firme, no desde una web que imita al autor.</p>
+<p>───────────────────</p>
+<p><em>🧊 Mitos que se caen solos</em></p>
+<p><em>«Los clones son fáciles de ver»</em>. Los buenos no. Cambian una letra y copian el diseño: si fuera fácil, no habría miles de cuentas robadas cada semana.</p>
+<p><em>«Con antivirus estoy cubierto»</em>. El antivirus busca programas malos. Un formulario que copia tu contraseña no es un programa malo: es una página web.</p>
+<p><em>«Mi contraseña es fuerte, nadie la adivina»</em>. Fuerte o no, si la escribes en el sitio equivocado, se la entregas. La fortaleza protege del que adivina, no del que copia.</p>
+<p><em>«Si el sitio tiene HTTPS, es serio»</em>. El cifrado es gratis. Un clon lo tiene el primer día.</p>
+<p><em>«Solo roban cuentas de banco»</em>. Roban lo que haya: correo, redes, cuentas de juegos, suscripciones. El correo es el premio gordo, porque desde ahí se recupera casi todo lo demás.</p>
+<p><em>«A mí no me pasa porque no soy famoso»</em>. Los ataques son automáticos y no eligen personas: eligen formularios. Cualquiera que llegue al enlace equivocado entra en la lista.</p>
+<p>───────────────────</p>
+<p><em>🏗️ Cómo se hace un clon (contado para reconocerlo)</em></p>
+<p>No se enseña a hacer uno en estas líneas. Sí se cuenta el trabajo que lleva, porque saber lo barato que es explica por qué hay tantos.</p>
+<p><em>Primero, el diseño.</em> Se guarda la página del sitio real con el navegador, se cambian las rutas y ya está: mismo logo, mismos colores, misma tipografía. Una tarde de trabajo sin saber programar.</p>
+<p><em>Segundo, el dominio.</em> Se compra uno parecido. Cuesta menos que un café al mes, y con finales baratos mucho menos. Aquí está el único punto donde el clon se delata, y por eso es el que hay que mirar.</p>
+<p><em>Tercero, el formulario.</em> Un formulario que envía lo escrito a un correo o a una hoja de cálculo. Diez líneas. No hay base de datos ni sistema: hay una bandeja de entrada donde van cayendo correos y contraseñas.</p>
+<p><em>Cuarto, la cortina.</em> Después de «iniciar sesión», el clon te redirige al sitio real o a una página de error. Tú concluyes que «la página falló» y sigues tu vida; el clon ya tiene lo que quería.</p>
+<p><em>Quinto, el botón social.</em> En vez de pedirte la contraseña, te ofrece «Continuar con Google». Eso es más trabajo de montar y más rentable: si el atacante sabe hacerlo bien, obtiene un permiso que le da acceso a tu perfil y a veces a tu correo.</p>
+<p><em>Sexto, el cebo.</em> Se comparten enlaces en grupos, se compran anuncios con el nombre del sitio real y se dejan comentarios en foros. No hace falta que caiga mucha gente: con mil visitas y cien formularios, el negocio está hecho.</p>
+<p><em>Lo que esto explica.</em> Que el clon no es un ataque dirigido a ti: es una red que espera. Y que la defensa no puede ser «detectarlo siempre», porque el trabajo de hacer uno nuevo es de una tarde. La defensa es que la contraseña robada no abra nada más.</p>
+<p>───────────────────</p>
+<p><em>📨 El enlace que llega por WhatsApp: seis variantes</em></p>
+<p>Los enlaces que caen en los grupos tienen formas conocidas. Reconocer la forma es la mitad del trabajo.</p>
+<p><em>Variante 1 · El acortador.</em> Una dirección corta que no dice a dónde va. Se ve inocente porque no promete nada. Solución: no abrir desde el chat; escribir la dirección conocida en el navegador.</p>
+<p><em>Variante 2 · El dominio con una letra cambiada.</em> La más clásica y la que más funciona. <code>rn</code> por <code>m</code>, <code>l</code> por <code>i</code>, un guion de más. Se detecta leyendo la barra de direcciones completa, cosa que casi nadie hace en el teléfono.</p>
+<p><em>Variante 3 · El subdominio engañoso.</em> <code>sitio-conocido.algo-ajeno.top</code>. La primera parte es el nombre que reconoces; lo que manda es lo que va después del último punto que no es <code>.com</code>. Si el nombre conocido está a la izquierda y el dominio real a la derecha, estás en otro sitio.</p>
+<p><em>Variante 4 · El «nuevo dominio oficial».</em> Un mensaje que avisa de que el sitio cambió de dirección. Los sitios cambian de dirección de verdad, sí, pero lo anuncian en su propio sitio, no por un chat de un desconocido. Y si el cambio es real, tu marcador sigue funcionando y te llevará al nuevo si hay redirección.</p>
+<p><em>Variante 5 · El archivo adjunto.</em> Un APK con el nombre de la app del sitio, o un PDF que «contiene la lista de capítulos». Los dos son caminos para instalar algo o para llevarte a una página. Ningún capítulo necesita un archivo adjunto.</p>
+<p><em>Variante 6 · El mensaje de un conocido con su cuenta ya robada.</em> El más difícil, porque viene de alguien de confianza. Su cuenta mandó el enlace a todos sus contactos antes de que él se enterara. Contra esto no hay criterio que valga: hay costumbre de no abrir enlaces de lectura desde el chat.</p>
+<p>───────────────────</p>
+<p><em>📮 El correo de recuperación</em></p>
+<p>Hay un detalle que casi ninguna guía de seguridad cuenta y que decide si un robo se arregla en diez minutos o en tres días: dónde puede caer el correo de recuperación de tu cuenta.</p>
+<p><em>El caso bueno.</em> Tu correo principal tiene doble paso con app de códigos y un correo de recuperación que también controlas. Si te roban una cuenta secundaria, recuperas en minutos.</p>
+<p><em>El caso malo.</em> Tu correo de recuperación es una cuenta vieja que casi no usas, con contraseña de 2018 y sin doble paso. El atacante entra por la puerta de atrás y no necesita tu contraseña nueva.</p>
+<p><em>El caso peor.</em> Tu correo de recuperación es el mismo correo. Mucha gente lo hace porque el formulario lo permite. Eso convierte cualquier robo en un círculo cerrado.</p>
+<p><em>Qué hacer hoy, en cinco minutos.</em> Entra a la seguridad de tu correo principal y mira qué correo de recuperación tiene puesto. Si no lo reconoces o es viejo, cámbialo por uno que uses. Y activa el doble paso ahí, porque es la cuenta desde la que se recuperan las demás.</p>
+<p><em>Un detalle más:</em> el número de teléfono de recuperación también cuenta. Si cambiaste de número y no lo actualizaste, tu recuperación depende de un chip que ya tiene otra persona. Pasa más de lo que parece.</p>
+<p>───────────────────</p>
+<p><em>🎯 Qué mira el que ataca (y qué no)</em></p>
+<p>No hay un genio detrás de cada clon. Hay un proceso que busca lo fácil.</p>
+<p><em>Le importa:</em> formularios que se llenan solos, contraseñas repetidas, cuentas sin doble paso, correos de recuperación viejos y enlaces que la gente abre sin mirar.</p>
+<p><em>No le importa:</em> tu modelo de teléfono, si tienes antivirus, si usas una VPN, si tu contraseña tiene símbolos raros. Nada de eso cambia su trabajo, porque él no está adivinando: está recogiendo.</p>
+<p><em>Lo que hace más daño a su negocio:</em> que la contraseña robada no sirva en otro sitio. Es lo único que convierte su lista en basura. Un gestor de contraseñas y un doble paso en el correo arruinan el negocio entero.</p>
+<p><em>Lo que casi no hace daño:</em> cambiar la contraseña por una parecida («Agosto2026!» por «Agosto2027!»). Eso es maquillaje: los programas que prueban variaciones lo resuelven en segundos.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla de decisión</em></p>
+<pre>
+Lo que tengo…                     | Lo que hago hoy                    | Lo que me cuesta
+----------------------------------|------------------------------------|----------------------
+Una sola clave para todo          | gestor (KeePassDX ★7.581)          | una tarde de altas
+Correo sin doble paso             | Aegis ★13.443 + códigos impresos   | 20 minutos
+Enlace raro en el grupo           | abrir por marcador, no por chat    | 30 segundos
+Ya escribí la clave en un clon    | cambiar clave + cerrar sesiones    | 15 minutos
+Sitio nuevo que pide cuenta       | prueba con correo falso            | 1 minuto
+Casa entera con bloqueo           | AdGuard Home ★38.032 o Rethink ★5.828 | 1 hora
+</pre>
+<p><em>Cómo se lee.</em> La columna de la derecha es el precio real, y casi siempre es menos de lo que la gente imagina. El orden importa: primero el gestor y el doble paso en el correo, después todo lo demás.</p>
+<p>───────────────────</p>
+<p><em>🌿 El sitio legítimo existe y se reconoce</em></p>
+<p>Después de tanta advertencia, conviene decir cómo es un sitio sano, porque el miedo sin criterio también hace daño.</p>
+<p><em>Un sitio sano no te apura.</em> No tiene cuenta atrás ni ventanas que se abren al mover el dedo. Te deja leer sin registrarte, y si tiene cuenta, la ofrece como opción y no como peaje.</p>
+<p><em>Un sitio sano tiene historia.</em> Existe desde hace años, con la misma dirección, y su nombre aparece en conversaciones viejas. Un dominio que nadie mencionaba el mes pasado y hoy está en cinco grupos es una novedad, no una tradición.</p>
+<p><em>Un sitio sano no pide nada raro.</em> Ni instalar una app, ni permisos, ni tu número de teléfono para ver un capítulo. Y si pide cuenta, no insiste en que uses tu cuenta de Google.</p>
+<p><em>Un sitio sano se equivoca a la vista.</em> Tiene avisos de mantenimiento, caídas, páginas que cargan mal. La perfección instantánea es más sospechosa que el desorden.</p>
+<p><em>Y uno que no es sano pero tampoco es un clon:</em> el sitio lleno de publicidad. No te roba la contraseña, te roba la paciencia. Se combate con un bloqueador —<code>uBlock</code> ★68.993 o <code>Cromite</code> ★8.453— y no con un cambio de contraseñas.</p>
+<p>───────────────────</p>
+<p><em>📚 La vía sin cuenta: leer sin entregar nada</em></p>
+<p>Hay una forma de leer que no pasa por ningún formulario, y es la que esta casa recomienda cuando se puede: el lector con extensiones.</p>
+<p>La lógica es simple. El lector (Mihon, Komikku, Neko, Kototoro, Mangayomi) se instala desde su repositorio, y las extensiones se instalan desde un catálogo con código público. No hay formularios, no hay cuentas en sitios, y no hay contraseñas que entregar. Si el sitio de detrás desaparece, el lector sigue abriendo lo que ya bajaste.</p>
+<p><em>Lo que se necesita:</em> un catálogo confiable —de eso va la pieza 04 de esta serie—, la extensión del sitio que te interese, y nada más. Ni correo, ni contraseña, ni número.</p>
+<p><em>Lo que no resuelve:</em> si el sitio de detrás pide cuenta para leer, la extensión tampoco la va a inventar. En ese caso la decisión es tuya y no hay truco.</p>
+<p><em>Una advertencia honesta:</em> también existen «lectores» que son clones de lectores. Un APK con el nombre de un lector conocido, publicado en una web que imita al repositorio. Se instala desde el repositorio del autor —<code>Obtainium</code> (★21.112, release de hoy) sirve para eso— y no desde una página que promete la última versión.</p>
+<p>───────────────────</p>
+<p><em>✉️ El correo que te delata</em></p>
+<p>Cuando un clon te registra, casi siempre te manda un correo. Ese correo es la confesión, y hay que saber leerlo.</p>
+<p><em>Mira el remitente.</em> Si el mensaje dice venir del sitio pero la dirección que lo envía es otra, ya está: no es el sitio.</p>
+<p><em>Mira los enlaces del correo.</em> Pasa el dedo por encima (o mantén pulsado en el teléfono) para ver la dirección real antes de tocarlo. Los enlaces visibles se pueden disfrazar; la dirección de destino no.</p>
+<p><em>Mira lo que te piden.</em> Un correo de bienvenida no necesita que confirmes tu contraseña. Si un correo te pide «verificar tu cuenta» escribiendo la clave otra vez, es otra vez el mismo truco con otro disfraz.</p>
+<p><em>Mira la prisa.</em> «Tu cuenta será eliminada en 24 horas» es una técnica vieja que sigue funcionando porque produce el mismo efecto que un clon: que actúes sin mirar.</p>
+<p><em>Y un hábito que ahorra disgustos:</em> cuando llegue un correo así, no toques nada. Abre el navegador, escribe la dirección del sitio que ya conoces y mira si de verdad hay un problema. Nueve de cada diez veces no hay ninguno.</p>
+<p>───────────────────</p>
+<p><em>📖 Glosario de esta pieza</em></p>
+<p>• <em>Clon</em> — sitio que copia la cara de otro para quedarse con lo que escribes.</p>
+<p>• <em>Dominio</em> — la dirección real del sitio, la que manda por encima del diseño.</p>
+<p>• <em>Suplantación</em> — hacerse pasar por otro sitio o por otra persona.</p>
+<p>• <em>Relleno de credenciales</em> — probar automáticamente correos y claves robadas en muchos sitios.</p>
+<p>• <em>Doble paso</em> — segundo dato además de la contraseña: un código, una llave o una confirmación.</p>
+<p>• <em>Llave de acceso</em> — credencial que vive en el teléfono y no se puede escribir ni copiar.</p>
+<p>• <em>Gestor de contraseñas</em> — programa que guarda claves distintas por sitio, cifradas.</p>
+<p>• <em>Bóveda</em> — el archivo cifrado del gestor. Si lo pierdes sin respaldo, lo pierdes todo.</p>
+<p>• <em>Códigos de recuperación</em> — diez claves de un solo uso que te da el sitio al activar el doble paso.</p>
+<p>• <em>Acortador</em> — servicio que esconde la dirección de destino detrás de una corta.</p>
+<p>• <em>Phishing</em> — el nombre inglés del engaño por enlace. Se pronuncia «fishing» y significa pescar.</p>
+<p>• <em>Sesión abierta</em> — el estado en que tu cuenta ya está dentro sin pedir clave otra vez.</p>
+<p>───────────────────</p>
+<p><em>🎯 Mini-quiz de hoy</em></p>
+<p><em>1.</em> ¿Qué dos cosas se miran en la barra de direcciones antes de escribir una contraseña?</p>
+<p><em>2.</em> ¿Qué significa exactamente el candado del navegador?</p>
+<p><em>3.</em> ¿Cuál es la única contraseña que hay que cambiar si repetiste la clave en varios sitios?</p>
+<p><em>4.</em> ¿Dónde se activa primero el doble paso y por qué?</p>
+<p><em>5.</em> ¿Qué botón hay que buscar en un correo después de un susto?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>1. REV|ollacidne euq ollacidnep al y ,ollacidned orep ,ollacidne es euq ojabah euq on y ojabah artse ed omedin odnetxe le</p>
+<p>2. REV|ol od acidnuf y orep ,adartifoc ale ,euq euq ol ocifirev euq euq ol :odoñac le ed</p>
+<p>3. REV|sotreporipos odot ne al nóicarepus a al ,nóical sicnú nóical sop macnoc al edsednepa ed</p>
+<p>4. REV|edartse ed otsug nu ne neibas arap odnauges le sod ed etnoc al ed ,nóical sicnú nóical sop macnoc al ne ,oírrco le ne</p>
+<p>5. REV|sovitacidnep sodot ne nóisess rarrec」「 :ollacidne euq ol ne etnartseb oditúts ul ed odotseu éuq le ed</p>
+<p>───────────────────</p>
+<p><em>🧭 Diez minutos con tu teléfono, esta tarde</em></p>
+<p>Un plan concreto para hoy, sin comprar nada y sin instalar nada raro. Diez minutos.</p>
+<p><em>Minuto 1.</em> Abre la configuración de seguridad de tu correo principal y mira si tiene doble paso. Solo mirar.</p>
+<p><em>Minutos 2 y 3.</em> Si no lo tiene, actívalo con una app de códigos (<code>Aegis</code>, ★13.443). Imprime los diez códigos de recuperación o guárdalos en un papel dentro de la billetera. Ese papel vale más que cualquier antivirus.</p>
+<p><em>Minutos 4 y 5.</em> Mira cuál es tu correo de recuperación. Si es viejo, cámbialo por uno que uses y que también tenga doble paso.</p>
+<p><em>Minutos 6 y 7.</em> Instala un gestor (<code>KeePassDX</code>, ★7.581) y mete ahí las tres cuentas que de verdad te importan. No hace falta migrar cuatrocientas: empieza por las tres.</p>
+<p><em>Minutos 8 y 9.</em> Abre tu navegador y guarda en la pantalla de inicio los dos sitios que más visitas. A partir de hoy se entra por ahí y no por enlace.</p>
+<p><em>Minuto 10.</em> Escribe en una nota: «No inicio sesión en un sitio al que llegué por un enlace». Suena tonto escrito. También suena tonto el cinturón de seguridad, y salva más vidas que cualquier otra cosa.</p>
+<p><em>Lo que queda para mañana.</em> Pasar las demás cuentas al gestor y revisar los dispositivos conectados en cada una. Eso ya es una tarde de domingo, y no corre prisa.</p>
+<p>───────────────────</p>
+<p><em>🧮 Los números de hoy, con su hora</em></p>
+<p>Antes de cerrar, los datos que sostienen la parte técnica de esta pieza. Medidos el domingo 1 de noviembre de 2026, entre las 06:15 y las 09:10 de Santo Domingo, con la API autenticada de GitHub.</p>
+<p><em>Diecisiete repositorios medidos</em> para esta pieza. De ellos, <strong>quince con actividad de este mes</strong>, uno sin release desde 2024 (el navegador de Divested) y uno cuyo repositorio ya no es donde vive el desarrollo (el de Firefox para Android, último empuje en junio de 2024).</p>
+<p><em>Los tres más pesados del censo por estrellas:</em> <code>gorhill/uBlock</code> con ★68.993, <code>tailscale/tailscale</code> con ★38.461 y <code>AdguardTeam/AdGuardHome</code> con ★38.032. <em>Los tres que de verdad resuelven el problema de esta pieza:</em> <code>beemdevelopment/Aegis</code> (★13.443), <code>Kunzisoft/KeePassDX</code> (★7.581) y <code>bitwarden/android</code> (★9.570).</p>
+<p><em>Actualizaciones de esta semana en el censo:</em> KeePassDX empujó hoy y publicó release el 31 de octubre; bitwarden empujó hoy; Cromite empujó hoy; Obtainium publicó hoy mismo la v1.7.4; Signal publicó el 26; NextDNS el 29; Rethink el 26; Tailscale el 28.</p>
+<p><em>Lo que no se midió, y se dice.</em> Cuántas cuentas se roban al día en el país: no hay cifra pública fiable y no voy a inventar una. Cuántos clones existen hoy de un sitio concreto: no hay censo y cualquier número sería humo. Y no medí el tiempo de respuesta de los sitios de lectura, porque cambia por red y por hora.</p>
+<p>───────────────────</p>
+<p><em>🧊 Lo que aquí no se afirma</em></p>
+<p>No se afirma que puedas detectar todos los clones. No puedes, y quien diga que sí te está vendiendo una herramienta.</p>
+<p>No se afirma que un antivirus resuelva esto. El daño no entra por un archivo: entra por un formulario.</p>
+<p>No se afirma que todo sitio nuevo sea un clon. Los sitios nuevos existen y algunos son buenos; lo que se afirma es que un sitio nuevo no merece tu contraseña de siempre.</p>
+<p>No se afirma que el lector con extensiones sea seguro por sí mismo. Es una vía sin cuentas, que es distinto: elimina el formulario, no la responsabilidad.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Si algo falla: cuatro respuestas concretas</em></p>
+<p><em>«Me llegan correos raros con mi nombre»</em>. Alguien tiene tu dirección y tu nombre, que es lo mínimo que se filtra en cualquier lista. No significa que tengan tu contraseña. Cambia la clave si la repetías en el sitio del susto y revisa las reglas de reenvío.</p>
+<p><em>«No puedo entrar a mi cuenta y mi contraseña no funciona»</em>. Alguien la cambió. Entra por el correo de recuperación, revisa qué correo de recuperación tiene puesta la cuenta y, si también lo cambiaron, toca el camino del soporte del sitio. Con doble paso esto casi nunca pasa.</p>
+<p><em>«Mi cuenta mandó mensajes a todos mis contactos»</em>. Pasó lo del relleno de credenciales: entraron con una clave repetida. Cierra sesiones, cambia la clave, avisa a tus contactos con un mensaje corto y activa el doble paso.</p>
+<p><em>«No sé si el sitio donde leo es el bueno»</em>. No escribas nada. Abre el marcador o la dirección que usabas antes. Si el capítulo está ahí, ya tienes tu respuesta y no hace falta investigar más.</p>
+<p>───────────────────</p>
+<p><em>🏘️ Cuatro decisiones, con lo que costó cada una</em></p>
+<p><em>Quedarse como está.</em> Es la decisión de la mayoría: una contraseña para todo, sin doble paso, sin gestor. Coste: el día que caiga un clon, el trabajo es de días y a veces no se recupera nada. Beneficio: cero esfuerzo hoy.</p>
+<p><em>Poner el doble paso solo en el correo.</em> Coste: veinte minutos y un papel con códigos. Beneficio: cubre el ochenta por ciento del riesgo real, porque casi todo se recupera desde el correo.</p>
+<p><em>Pasar todo a un gestor.</em> Coste: una tarde de altas y la disciplina de abrirlo cada vez. Beneficio: un clon deja de tener premio, porque la clave que roba no abre nada más.</p>
+<p><em>Montar bloqueo de red en la casa.</em> Coste: un aparato o una configuración en el router. Beneficio: menos anuncios, menos dominios nuevos y menos páginas de cebo en todos los teléfonos de la casa a la vez.</p>
+<p><em>Lo que comparten las cuatro:</em> ninguna es gratis del todo, y las tres primeras se hacen hoy mismo, sin comprar nada y sin ser técnico.</p>
+<p>───────────────────</p>
+<p><em>📱 El teléfono prestado y la cuenta ajena</em></p>
+<p>Hay una escena que se repite en cada familia y que no se resuelve con tecnología: el teléfono que se presta.</p>
+<p><em>El caso.</em> Le prestas el teléfono a un sobrino para que vea un video. A los diez minutos está en un sitio de juegos, le pide cuenta, y él pone la tuya porque es la que está abierta. Ahí no hubo un clon: hubo una sesión prestada.</p>
+<p><em>Lo que se puede hacer.</em> Una sesión de invitado o un perfil separado, si el teléfono lo tiene. Un navegador distinto para el que presta. Y, lo más simple, cerrar las sesiones importantes antes de prestar: el correo y el banco fuera.</p>
+<p><em>Lo que no funciona.</em> Confiar en que «él no va a tocar eso». No es maldad: es que un niño de ocho años no distingue un formulario de un juego, y no tiene por qué hacerlo.</p>
+<p><em>Y una costumbre que ahorra sustos:</em> nunca dejes la sesión del correo abierta en un teléfono que se presta. El correo es la llave de todo lo demás, y con él se recupera cualquier cuenta. Si hay que prestar, se presta el teléfono; no la llave maestra.</p>
+<p>───────────────────</p>
+<p><em>🧒 Los niños y el enlace del juego</em></p>
+<p>La mitad de los enlaces que circulan en grupos de familia son de juegos, y ahí hay dos peligros que no son el clon clásico.</p>
+<p><em>El primero: el «generador de monedas».</em> Una página que te pide tu usuario y contraseña del juego para «darte» monedas. No existe tal cosa. Lo que existe es un formulario que se queda con la cuenta, y a veces con la cuenta de correo asociada.</p>
+<p><em>El segundo: el APK del juego «con todo desbloqueado»</em>. Un archivo fuera de cualquier tienda, con el nombre de un juego conocido. Ahí el riesgo no es la contraseña: es el programa. Y en un teléfono donde además está la cuenta de la familia, el programa puede hacer más que el juego.</p>
+<p><em>Lo que sirve:</em> explicarlo con una frase que un niño entienda —«si te piden tu contraseña para darte algo gratis, te están quitando algo»— y tener el doble paso puesto, que convierte el error del niño en un aviso en tu teléfono.</p>
+<p><em>Lo que no sirve:</em> esconder el teléfono. El enlace va a llegar igual, por un amigo, por un video, por una publicidad de un juego que sí es real.</p>
+<p>───────────────────</p>
+<p><em>👵 Cómo explicárselo a alguien mayor (sin sermón)</em></p>
+<p>En mi experiencia, la gente mayor no cae más que los jóvenes: cae con enlaces que parecen de su banco, y con más vergüenza, que es lo que hace que no avisen.</p>
+<p><em>Lo primero es quitar la vergüenza.</em> Decir «esto le pasa a todo el mundo, incluso a gente que trabaja en tecnología» cambia la conversación entera. Si la persona siente que la van a regañar, no cuenta nada, y el problema crece.</p>
+<p><em>Lo segundo es una regla, no una clase.</em> Una sola: «cuando algo te pida contraseña y no lo hayas buscado tú, me llamas». Nada de explicar dominios ni certificados: una regla y un teléfono al que llamar.</p>
+<p><em>Lo tercero es dejarlo hecho.</em> Abrir el sitio bueno, guardarlo en la pantalla de inicio con un nombre claro, y enseñar que se entra tocando ahí. Si el camino bueno es un toque, el camino malo deja de tener sentido.</p>
+<p><em>Lo cuarto es el doble paso.</em> Activarlo con ellos, una vez, y guardar los códigos de recuperación en un papel que se quede en casa. Que no dependa de una app que no entienden.</p>
+<p><em>Y lo quinto, que es lo más importante:</em> si cae, arreglarlo sin drama. Una tarde de cambios de clave vale menos que una persona que deja de contarte las cosas.</p>
+<p>───────────────────</p>
+<p><em>🧾 Un caso completo, del enlace al arreglo</em></p>
+<p>Para que se vea todo junto, cuento un caso real de esta semana, con los pasos y los tiempos.</p>
+<p><em>14:02.</em> Llega un enlace al grupo de la familia: un sitio de lectura con el nombre conocido y una terminación distinta. Nadie lo mira.</p>
+<p><em>14:05.</em> La tía lo abre. El diseño es igual al de siempre. Hay un botón de «Continuar con Google» que antes no estaba. Lo toca.</p>
+<p><em>14:06.</em> El sitio le muestra un error y la devuelve a la página de inicio. Ella piensa que fue el internet.</p>
+<p><em>14:20.</em> Yo veo el enlace. Miro el dominio: <code>lector-manga-oficial.top</code>, con guion y terminación barata. El original no tiene guion ni esa terminación. Confirmado: no es el sitio.</p>
+<p><em>14:25.</em> Reviso la cuenta de Google de la tía: en «Aplicaciones con acceso» aparece una aplicación con nombre genérico, autorizada hace veinte minutos. La quito.</p>
+<p><em>14:30.</em> Cambio la contraseña de Google desde el teléfono, con la dirección oficial escrita a mano. Activo el doble paso con app de códigos y guardo los diez códigos en un papel.</p>
+<p><em>14:45.</em> Miro las sesiones abiertas: dos dispositivos reconocidos y ninguno extraño. Cierro todas igual, por si acaso, y vuelvo a entrar en su teléfono.</p>
+<p><em>15:00.</em> Reviso que la contraseña que usaba no estuviera repetida en otros sitios. Estaba en dos: el correo viejo y una tienda. Las cambio también.</p>
+<p><em>15:20.</em> Le enseño a entrar por el marcador y le dejo el sitio bueno en la pantalla de inicio, con un nombre que reconoce.</p>
+<p><em>Qué se perdió:</em> ochenta minutos de un domingo. <em>Qué no se perdió:</em> la cuenta, el correo y las fotos.</p>
+<p><em>Lo que habría cambiado el final:</em> tener el doble paso puesto antes. El botón de Google autorizó una aplicación, pero no le dio la llave del correo; el código de seis cifras hizo el resto. Sin él, la historia habría sido otra.</p>
+<p>───────────────────</p>
+<p><em>🔎 Lo que se puede comprobar de un dominio en un minuto</em></p>
+<p>Sin programas, desde el teléfono.</p>
+<p><em>A quién pertenece.</em> Hay servicios que te dicen la fecha de creación de un dominio. Un dominio de hace dos semanas que se presenta como el oficial de un sitio de años es una respuesta por sí sola. También sirve mirar si el registro está oculto y si el servidor está en un país sin relación con el sitio.</p>
+<p><em>Cuánto tiempo lleva existiendo el certificado.</em> Los certificados se renuevan cada pocos meses; el primero de un dominio suele ser reciente si el dominio es nuevo. Un certificado emitido ayer en un sitio que "existe desde 2019" cuenta una historia distinta.</p>
+<p><em>Si el sitio está en listas.</em> Los navegadores tienen listas de sitios de engaño y te avisan antes de entrar. Si tu navegador te avisa, no lo ignores: no es un falso positivo tan a menudo como la gente cree.</p>
+<p><em>Si el nombre aparece en conversaciones viejas.</em> Buscar el nombre con el año anterior te dice si existía antes. Un sitio que no existía el año pasado y hoy está en cinco grupos no es una tradición: es una novedad.</p>
+<p>───────────────────</p>
+<p><em>🔵 El botón de Google, por dentro</em></p>
+<p>Es el detalle que más confunde y el que más se usa en los clones, así que vale la pena entenderlo sin tecnicismos.</p>
+<p>Cuando un sitio te ofrece «Continuar con Google», lo que hace es pedirle a Google que confirme quién eres. Google no le entrega tu contraseña: le entrega un permiso y unos datos básicos —tu nombre, tu correo, a veces tu foto—. Eso es más seguro que escribir la clave, y por eso los sitios serios lo usan.</p>
+<p><em>El problema.</em> Ese permiso se queda ahí. Cualquier aplicación que autorices puede seguir pidiendo datos mientras no lo revoques, y muchas veces el nombre que aparece en la lista es genérico: «App web», «Iniciar sesión», un nombre que no reconoces. Un clon no necesita tu contraseña si le diste el permiso.</p>
+<p><em>Dónde se revisa.</em> En tu cuenta de Google, sección de seguridad, apartado de aplicaciones y servicios conectados. Ahí está la lista completa y el botón para quitar cada una. Es una revisión de dos minutos que casi nadie hace y que sorprende a quien la hace por primera vez.</p>
+<p><em>Lo que conviene saber antes de tocar ese botón.</em> Quitarlo no borra la cuenta del sitio, solo corta el permiso. Y si el sitio era legítimo, tendrás que volver a iniciar sesión la próxima vez. Eso es todo el coste.</p>
+<p><em>La regla que se queda.</em> Un botón de Google en un sitio donde nunca lo hubo no es una comodidad nueva: es una puerta nueva. Y las puertas nuevas se miran antes de cruzarlas.</p>
+<p>───────────────────</p>
+<p><em>📋 Las diez señales, en una lista para copiar</em></p>
+<p>Si solo te llevas un bloque de esta pieza, que sea este. Sirve para reenviarlo tal cual.</p>
+<pre>
+1. El dominio no es el de siempre: una letra, un guion o un final raro.
+2. Te pide cuenta para algo que antes se veía sin cuenta.
+3. El botón grande es de Google, Facebook o Discord y antes no estaba.
+4. Te apura: cuenta atrás, «tu cuenta será eliminada», ventanas que saltan.
+5. Te ofrece instalar una app para seguir leyendo en el navegador.
+6. El pie de página tiene un año viejo en un sitio que publica a diario.
+7. El correo de bienvenida viene de un dominio que no es el del sitio.
+8. Acepta correos inventados y contraseñas inventadas.
+9. Te pide la contraseña otra vez «para verificar», por correo o por chat.
+10. Llegó por un enlace de un grupo y no lo buscaste tú.
+</pre>
+<p><em>Cómo se usa.</em> No hace falta que se cumplan todas. Con dos, cierras. Con una, dudas y entras por el marcador.</p>
+<p>───────────────────</p>
+<p><em>🧪 Prueba de escritorio: ver el sitio sin caer</em></p>
+<p>Hay una forma de mirar un enlace sin abrirlo del todo, y sirve para el que te manda un conocido.</p>
+<p><em>El truco del texto.</em> En la mayoría de los chats, mantener pulsado el enlace muestra la dirección real, no la que se ve. Es la comprobación más rápida que existe y no requiere ninguna app.</p>
+<p><em>El truco del navegador.</em> Copia el enlace, pégalo en la barra de direcciones de un navegador con bloqueo —<code>Cromite</code> ★8.453, o cualquier navegador con <code>uBlock</code> ★68.993— pero no pulses enter todavía: mira lo que has pegado. Si el dominio no es el que esperabas, borra.</p>
+<p><em>El truco de la vista previa.</em> Algunos chats generan una miniatura del enlace. Si la miniatura muestra un sitio y la dirección muestra otro, ya tienes la respuesta sin abrir nada.</p>
+<p><em>El truco del modo lectura.</em> Si abres el enlace y el sitio te pide cuenta antes de mostrar una sola línea, no estás en un sitio de lectura: estás en un formulario. Cierra.</p>
+<p><em>Y el truco que nunca falla:</em> preguntarle a la persona que te lo mandó si lo abrió ella. Muchas veces el enlace salió de una cuenta ya robada y el que te lo mandó no sabe que lo mandó.</p>
+<p>───────────────────</p>
+<p><em>🏁 El resumen para el que llega con prisa</em></p>
+<p>Si no vas a leer nada más, quédate con esto y hazlo hoy.</p>
+<p>Un clon copia la cara de un sitio para quedarse con tu contraseña. No se detecta siempre. Lo que sí se puede hacer es que la contraseña robada no sirva en otra parte: una clave distinta por sitio, guardada en un gestor, y doble paso en el correo.</p>
+<p>Los tres movimientos de hoy, en orden: doble paso en el correo, gestor con las tres cuentas que importan, y los sitios buenos guardados en la pantalla de inicio para no volver a llegar por enlace.</p>
+<p>Y si ya escribiste la clave en un sitio raro: cámbiala desde la dirección oficial, cámbiala también donde la repetías, cierra las sesiones abiertas y mira las reglas de reenvío del correo. En ese orden, y sin formatear nada.</p>
+<p>───────────────────</p>
+<p><em>📞 Los enlaces de esta pieza, uno por uno</em></p>
+<p>Todo lo que se nombra arriba, con su dirección completa para que nadie tenga que buscarlo.</p>
+<p><em>Los gestores y la llave</em></p>
+<ul>
+<li>KeePassDX, la bóveda en el teléfono: <a href="https://github.com/Kunzisoft/KeePassDX">https://github.com/Kunzisoft/KeePassDX</a></li>
+<li>Bitwarden para Android, la nube con cuenta propia: <a href="https://github.com/bitwarden/android">https://github.com/bitwarden/android</a></li>
+<li>KeePass2Android, para quien viene de escritorio: <a href="https://github.com/PhilippC/keepass2android">https://github.com/PhilippC/keepass2android</a></li>
+<li>Aegis, los códigos de seis cifras: <a href="https://github.com/beemdevelopment/Aegis">https://github.com/beemdevelopment/Aegis</a></li>
+<li>2FAS, la alternativa con respaldo: <a href="https://github.com/twofas/2fas-android">https://github.com/twofas/2fas-android</a></li>
+</ul>
+<p><em>Los mensajes y las llamadas</em></p>
+<ul>
+<li>Signal para Android: <a href="https://github.com/signalapp/Signal-Android">https://github.com/signalapp/Signal-Android</a></li>
+<li>Threema para Android: <a href="https://github.com/threema-ch/threema-android">https://github.com/threema-ch/threema-android</a></li>
+</ul>
+<p><em>El navegador y lo que bloquea</em></p>
+<ul>
+<li>Cromite, el navegador con bloqueo de serie: <a href="https://github.com/uazo/cromite">https://github.com/uazo/cromite</a></li>
+<li>uBlock Origin, la lista de bloqueo de siempre: <a href="https://github.com/gorhill/uBlock">https://github.com/gorhill/uBlock</a></li>
+<li>Mull, el navegador de Divested: <a href="https://github.com/divested-mobile/mull-fenix">https://github.com/divested-mobile/mull-fenix</a></li>
+<li>Firefox para Android, donde vive su código actual: <a href="https://github.com/mozilla-mobile/firefox-android">https://github.com/mozilla-mobile/firefox-android</a></li>
+</ul>
+<p><em>La red de la casa</em></p>
+<ul>
+<li>AdGuard Home, el bloqueo para toda la casa: <a href="https://github.com/AdguardTeam/AdGuardHome">https://github.com/AdguardTeam/AdGuardHome</a></li>
+<li>Rethink, el cortafuegos del teléfono: <a href="https://github.com/celzero/rethink-app">https://github.com/celzero/rethink-app</a></li>
+<li>NextDNS, el que filtra desde el router: <a href="https://github.com/nextdns/nextdns">https://github.com/nextdns/nextdns</a></li>
+<li>Tailscale, para entrar a tu red desde fuera: <a href="https://github.com/tailscale/tailscale">https://github.com/tailscale/tailscale</a></li>
+</ul>
+<p><em>Lo que revisa y lo que instala</em></p>
+<ul>
+<li>MVT, el que busca rastros en el teléfono: <a href="https://github.com/mvt-project/mvt">https://github.com/mvt-project/mvt</a></li>
+<li>Obtainium, para bajar directo del autor: <a href="https://github.com/ImranR98/Obtainium">https://github.com/ImranR98/Obtainium</a></li>
+</ul>
+<p>───────────────────</p>
+<p><em>🃏 El meme de dos líneas</em></p>
+<blockquote>—Me pidió la contraseña y se la di.</blockquote>
+<blockquote>—¿Y el sitio era el de siempre?</blockquote>
+<blockquote>—El de siempre no tenía guion.</blockquote>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — la llave que no se copia</em></p>
+<p>Lo que esta pieza enseña, en plata: un clon no es un hacker con capucha; es un formulario barato en un dominio de una tarde. No se detecta siempre, y por eso la defensa buena no es la vista sino la aritmética: si la contraseña que robó no abre nada más, el robo no le sirve para nada.</p>
+<p>Los tres movimientos que de verdad cambian el resultado son aburridos y se hacen hoy: doble paso en el correo, una clave distinta por sitio en un gestor, y los sitios buenos guardados para no llegar nunca por enlace. Lo demás —el antivirus, la VPN, la contraseña con símbolos raros— no toca el problema.</p>
+<p>Y si ya cayó: cambiar desde la dirección oficial, cambiar donde se repetía, cerrar sesiones, mirar el reenvío del correo. En ese orden, sin formatear, sin drama y sin contárselo a nadie que te vaya a regañar.</p>
+<blockquote>—¿Y si mañana me vuelve a llegar el enlace?</blockquote>
+<blockquote>—Mañana no lo abres. Ya sabes por dónde se entra.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Una contraseña es una llave; el problema es que la copiamos en todas las puertas de la calle.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 06:15 y las 09:10 de Santo Domingo · 17 repositorios medidos uno por uno contra la API autenticada de GitHub · los enlaces de esta pieza, abiertos con su respuesta anotada · lo que no se midió está dicho arriba como no medido.</p>
+<p><em>Licencia:</em> contenido CC BY-SA 4.0 · datos CC BY 4.0 · código MIT · marca reservada · «Alexis (La Bandita)».</p>
+<p>───────────────────</p>
+<p><em>🧩 Los cuatro perfiles y lo que a cada uno le toca</em></p>
+<p>No todo el mundo necesita lo mismo, y decirlo evita que la gente se agobie y no haga nada.</p>
+<p><em>El que solo lee y no comenta.</em> Riesgo bajo y solución de dos minutos: no crearse cuenta en ningún sitio de lectura y usar el lector con extensiones. Si alguna vez hace falta una cuenta, que sea con correo aparte y clave que no use en ninguna otra parte.</p>
+<p><em>El que comenta, sube capturas y participa.</em> Aquí ya hay identidad y reputación en juego. Necesita gestor, doble paso y una cuenta de correo que no sea la del trabajo. Y una costumbre: no usar el mismo nombre de usuario en todos los sitios, porque ese nombre es el hilo que une las cuentas.</p>
+<p><em>El que comparte enlaces con la familia.</em> Es el que más daño puede evitar sin saberlo. Su trabajo no es técnico: es dejar de reenviar sin mirar. Un enlace reenviado desde una cuenta robada es la vía más común de todas, y quien lo reenvía ni se entera.</p>
+<p><em>El que administra algo</em> —un grupo, una página, un negocio pequeño—. Este es el caso serio: si le roban la cuenta, roban la de todos los que confían en él. Doble paso con llave o app, dos administradores que se puedan avisar, y una lista impresa de quién tiene acceso a qué.</p>
+<p><em>Lo que comparten los cuatro:</em> ninguno necesita comprar nada. La diferencia entre ellos es cuánto tiempo pueden perder, y el orden de los movimientos es el mismo para todos.</p>
+<p>───────────────────</p>
+<p><em>🔐 Lo que cambia con las llaves de acceso</em></p>
+<p>Las llaves de acceso son lo más nuevo que está llegando a las cuentas normales, y cambian el problema de raíz. Vale la pena entender por qué, sin tecnicismo.</p>
+<p><em>Qué son.</em> En vez de una contraseña que se escribe, tu teléfono guarda una llave privada y el sitio guarda la parte pública. Cuando entras, el teléfono hace un cálculo que solo él puede hacer. No hay nada que escribir, nada que memorizar y nada que copiar.</p>
+<p><em>Por qué un clon no puede con ellas.</em> Un formulario falso puede copiar lo que escribes, pero no puede copiar un cálculo que ocurre dentro del teléfono y que está atado a la dirección real del sitio. El clon recibe una negativa, no una llave. Dicho de otro modo: la llave de acceso convierte el ataque en un intento fallido.</p>
+<p><em>Qué se pierde.</em> Comodidad de sincronizar entre aparatos si cambias de teléfono sin respaldo. Y, en algunos sitios, la posibilidad de entrar desde una computadora prestada, porque la llave vive en tus dispositivos. Por eso los sitios serios mantienen la contraseña como respaldo mientras la gente se acostumbra.</p>
+<p><em>Qué hacer.</em> Cuando un sitio que usas ofrezca llave de acceso, actívala. Y guarda el método de respaldo, porque el día que pierdas el teléfono lo vas a necesitar. Es el mismo consejo de los códigos de recuperación, con otra forma.</p>
+<p><em>Lo que no cambia.</em> Nada de esto te salva de entregar un código de seis cifras por chat a alguien que dice ser del soporte. Ese sigue siendo el agujero, y es humano, no técnico.</p>
+<p>───────────────────</p>
+<p><em>🌾 Lo que yo hago en mi teléfono</em></p>
+<p>Para que no quede en teoría, esto es lo que tengo puesto, con nombre y con la razón de cada cosa.</p>
+<p>Un gestor con bóveda local y una copia cifrada en un lugar que no es el teléfono. Los códigos de seis cifras en una app aparte, porque si el gestor y los códigos viven juntos, un solo fallo tumba los dos. Un navegador con bloqueo para todo lo que no sea leer. Y los tres sitios que más uso en la pantalla de inicio, con nombres que reconozco de un vistazo.</p>
+<p>Nada de eso costó dinero. Todo eso cabe en una tarde. Y no me hace invulnerable: me hace un blanco aburrido, que es la mejor defensa que existe contra un ataque automático.</p>
+<p>───────────────────</p>
+<p>───────────────────</p>
+<p><em>🧱 Errores que se cometen al arreglarlo</em></p>
+<p>Cambiar la contraseña no es el final del arreglo, y hay formas de empeorarlo.</p>
+<p><em>Error uno: cambiarla por una parecida.</em> «Agosto2026» pasa a «Agosto2027» y el programa que prueba variaciones la resuelve en el primer intento. Si la cambias, que sea otra de verdad, y que la genere el gestor.</p>
+<p><em>Error dos: dejar las sesiones abiertas.</em> Cambias la clave y te quedas tranquilo, pero el intruso ya tenía sesión iniciada y no necesita la clave nueva. Cerrar todas las sesiones es tan importante como cambiarla, y es el paso que casi todo el mundo salta.</p>
+<p><em>Error tres: olvidar las reglas de reenvío.</em> Un correo con una regla que reenvía todo a otra dirección sigue funcionando aunque cambies la contraseña. Es la puerta de atrás clásica y hay que mirarla a mano.</p>
+<p><em>Error cuatro: no revisar las aplicaciones conectadas.</em> El permiso que dio el botón de Google no se cae con el cambio de clave. Está en la lista de aplicaciones y hay que quitarlo ahí.</p>
+<p><em>Error cinco: formatear el teléfono «por si acaso»</em>. Casi nunca sirve, y se pierde lo que no estaba respaldado. Un robo de credenciales no deja un programa escondido: deja una cuenta entregada.</p>
+<p><em>Error seis: contarlo tarde.</em> El aviso rápido a los contactos que recibieron el enlace evita que otros caigan. La vergüenza retrasa el aviso, y el retraso multiplica el daño.</p>
+<p>───────────────────</p>
+<p><em>📦 Lo que se guarda y lo que no</em></p>
+<p>Una costumbre que resuelve el pánico: saber qué se guarda y dónde.</p>
+<p><em>Lo que nunca se guarda en el teléfono en claro:</em> el papel con los códigos de recuperación. Va en la billetera o en un cajón, no en una foto de la galería.</p>
+<p><em>Lo que se guarda cifrado y con copia:</em> la bóveda del gestor. Una copia en un lugar que no sea el teléfono —una computadora, un disco, un servidor propio con <code>Syncthing</code>— porque un gestor sin copia es un problema esperando a pasar.</p>
+<p><em>Lo que se guarda impreso:</em> los códigos de un solo uso del correo principal y la frase maestra del gestor, escrita de una forma que solo tú entiendas. Suena antiguo; funciona cuando todo lo demás falla.</p>
+<p><em>Lo que no se guarda en ningún sitio:</em> la contraseña escrita en una nota del teléfono, en un chat contigo mismo o en el bloc de notas del navegador. Esas tres son las primeras que mira quien entra.</p>
+<p><em>Y una prueba que vale la pena hacer una vez al año:</em> abrir la copia de la bóveda en otro aparato y comprobar que abre. Una copia que nunca se probó no es una copia: es una esperanza.</p>
+<p>───────────────────</p>
+<p><em>🧭 La regla de la casa</em></p>
+<p>Si tuviera que dejar una sola frase para el final, sería esta: la contraseña no es un secreto que se recuerda, es una llave que se guarda.</p>
+<p>Recordarla de memoria obliga a repetirla, y repetirla es lo que convierte un clon en un desastre. Guardarla en un gestor permite tener una distinta por sitio, y tenerlas distintas es lo que hace que el robo de una no valga nada.</p>
+<p>De ahí sale todo lo demás: el doble paso porque la llave puede caer, los códigos impresos porque el teléfono puede perderse, las sesiones cerradas porque una llave robada puede seguir abierta, y el marcador porque un enlace puede llevar a cualquier parte.</p>
+<p>No es un sistema elegante, ni moderno, ni divertido. Es el que aguanta un domingo en que alguien manda un enlace raro al grupo de la familia. Se monta una vez, se prueba una vez y después solo se mira la fecha de la última vez que revisaste las sesiones abiertas.</p>
+<p>───────────────────</p>
+<h2>🗒️ Notas al pie</h2>
+<p><strong>Nota de corte (1-nov):</strong> las estrellas, licencias, lenguajes y últimos empujes de los diecisiete repositorios son de la misma mañana; las releases se escriben solo donde se vieron, con su fecha entre paréntesis. La medición se hizo con la API autenticada, que permite más consultas que la pública y por eso se pudo censar en minutos.</p>
+<p><strong>Nota de alcance (1-nov):</strong> esta pieza no enseña a montar un clon ni nombra un solo dominio de suplantación. Explica el mecanismo para reconocerlo y da las herramientas legítimas con su repositorio, para que nadie tenga que buscarlas en un resultado de buscador.</p>
+<p><strong>Nota de corrección (1-nov):</strong> el censo incluye a propósito un navegador sin release desde septiembre y uno cuyo desarrollo se mudó de repositorio, porque un censo que solo cuenta lo que brilla no avisa de lo que ya no se toca. Las rutas que devolvieron 404 durante la medición no se citan en ninguna parte de este texto.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

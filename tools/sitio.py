@@ -27,63 +27,7 @@ REGISTRO = RAIZ / "registry"
 SITIO = RAIZ / "site"
 UMBRAL_FRESCURA = 180
 
-CSS = """
-:root{--r2:12px;--r3:18px;--r4:24px;--acc:#17c98a;--acc2:#8df2c6;--acc-rgb:23,201,138;
---bg:#050b09;--bg2:#08130f;--texto:#e8eef6;--texto2:#c3d0dd;--apagado:#8ea0b2;
---sup:rgba(255,255,255,.04);--borde:rgba(255,255,255,.085)}
-*{box-sizing:border-box}
-body{margin:0;background:radial-gradient(900px 500px at 80% -8%,rgba(0,255,178,.09),transparent 60%),
-linear-gradient(175deg,var(--bg2),var(--bg) 60%);color:var(--texto);
-font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.72;font-size:16.5px}
-a{color:var(--acc2);text-decoration:none}a:hover{text-decoration:underline}
-.barra{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;
-gap:14px;padding:12px clamp(14px,3vw,28px);background:rgba(6,10,12,.82);
--webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid var(--borde)}
-.marca{display:flex;gap:10px;align-items:center;color:inherit;font-weight:700;letter-spacing:.14em;font-size:14px}
-.marca small{display:block;font-weight:400;letter-spacing:.12em;font-size:10px;color:var(--apagado);text-transform:uppercase}
-main{max-width:980px;margin:0 auto;padding:clamp(18px,3vw,34px) clamp(14px,3vw,28px) 90px}
-h1{font-size:clamp(26px,4.4vw,42px);line-height:1.1;letter-spacing:-.02em;margin:.2em 0 .5em}
-h2{font-size:clamp(19px,2.4vw,25px);letter-spacing:-.015em;margin:1.6em 0 .5em}
-h3{font-size:15.5px;color:var(--acc2);margin:1.4em 0 .4em}
-p,li{color:var(--texto2)}strong{color:#fff}
-.hero{padding:26px 0 8px}
-.eyebrow{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--acc);margin:0 0 12px}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:18px 0}
-.kpi{background:var(--sup);border:1px solid var(--borde);border-radius:var(--r3);padding:13px 15px}
-.kpi b{display:block;font-family:ui-monospace,monospace;font-size:23px;color:var(--acc2);line-height:1.1}
-.kpi span{font-size:11.5px;color:var(--apagado)}
-.buscador{display:flex;gap:8px;margin:14px 0}
-input[type=search]{flex:1;padding:11px 14px;border-radius:var(--r2);border:1px solid var(--borde);
-background:rgba(255,255,255,.04);color:var(--texto);font:inherit;font-size:15px;outline:none}
-input[type=search]:focus{border-color:rgba(var(--acc-rgb),.6);box-shadow:0 0 0 3px rgba(var(--acc-rgb),.14)}
-.cuenta{font-family:ui-monospace,monospace;font-size:12px;color:var(--acc2);align-self:center;min-width:74px;text-align:right}
-.lista{display:grid;gap:9px;margin:16px 0;padding:0;list-style:none}
-.item{display:block;padding:13px 15px;border:1px solid var(--borde);border-radius:var(--r2);background:var(--sup)}
-.item:hover{border-color:rgba(var(--acc-rgb),.5);text-decoration:none}
-.item b{display:block;color:var(--texto);font-size:14.6px;font-weight:600;line-height:1.35}
-.item small{display:block;color:var(--apagado);font-size:11.6px;margin-top:3px}
-.ficha{background:var(--sup);border:1px solid var(--borde);border-radius:var(--r3);padding:14px 16px;margin:12px 0}
-.ficha dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:8px 0 0;font-size:14px}
-.ficha dt{color:var(--apagado);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
-.ficha dd{margin:0;color:var(--texto)}
-.pill{display:inline-block;font-size:11px;padding:3px 9px;border-radius:99px;border:1px solid var(--borde);
-color:var(--apagado);margin:2px 4px 2px 0}
-.pill.vivo{color:var(--acc2);border-color:rgba(var(--acc-rgb),.45)}
-.pill.rancio{color:#ffb46b;border-color:rgba(255,180,107,.45)}
-.pieza p{color:var(--texto2);margin:0 0 13px}
-.pieza h2{color:var(--texto);border-top:1px solid var(--borde);padding-top:18px}
-.pieza .meta{font-size:12.5px;color:var(--apagado);margin-bottom:18px}
-pre{background:#04070a;border:1px solid var(--borde);border-radius:var(--r2);padding:14px;overflow-x:auto;font-size:12.6px}
-code{font-family:ui-monospace,monospace;font-size:.88em;background:rgba(var(--acc-rgb),.12);
-color:var(--acc2);padding:.1em .35em;border-radius:5px}
-table{width:100%;border-collapse:collapse;font-size:13.6px;margin:12px 0}
-th{text-align:left;font-size:10.6px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc2);
-border-bottom:1px solid rgba(var(--acc-rgb),.3);padding:8px 10px}
-td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.055);color:var(--texto2)}
-footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--borde);font-size:12.5px;color:var(--apagado)}
-.volver{font-size:12.6px;color:var(--apagado)}
-mark{background:rgba(var(--acc-rgb),.38);color:#fff;border-radius:3px}
-"""
+from diseno import CSS, JS, LOGO, ICONO_LUPA, cabeza  # sistema visual de la casa (tools/diseno.py)
 
 
 def titulo_de(texto: str, respaldo: str) -> str:
@@ -178,27 +122,42 @@ def formato(t: str) -> str:
     return t
 
 
-LOGO = ('<svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">'
-        '<path d="M16 2 29 9v14L16 30 3 23V9z" fill="none" stroke="#17c98a" stroke-width="1.4"/>'
-        '<path d="M16 9.5 23 13v8l-7 3.5L9 21v-8z" fill="rgba(23,201,138,.16)" stroke="#8df2c6" stroke-width="1.1"/>'
-        '<circle cx="16" cy="17" r="3" fill="#17c98a"/></svg>')
 
 
-def plantilla(titulo: str, cuerpo: str, descripcion: str = "", jsonld: dict | None = None) -> str:
-    ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
-    return f"""<!DOCTYPE html>
-<html lang="es-DO"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{esc(descripcion)}">
-<title>{esc(titulo)}</title>{ld}
-<style>{CSS}</style></head>
-<body>
-<header class="barra"><a class="marca" href="/index.html">{LOGO}<span>LA BANDITA<small>archivo verificado</small></span></a>
-<span class="pill">{date.today().isoformat()}</span></header>
-<main>{cuerpo}</main>
-<footer>La Bandita verifica antes de recomendar · cada dato con su fecha · generado el {date.today().isoformat()}
-sin recursos externos (cero CDN, cero fuentes remotas).</footer>
-</body></html>"""
+def plantilla(titulo: str, cuerpo: str, descripcion: str = "", jsonld: dict | None = None,
+              activo: str = "", raiz: str = "") -> str:
+    """Página completa con el sistema visual de la casa.
+
+    Autocontenida: CSS y JS incrustados, iconos SVG a mano, cero recursos externos.
+    El tema (brisa/noche) se aplica antes del primer pintado para que no parpadee."""
+    ld = (f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>'
+          if jsonld else "")
+    dia = date.today().isoformat()
+
+    def enlace(destino: str, texto: str) -> str:
+        clase = "chip" if destino != activo else "chip"
+        marca = ' aria-current="page"' if destino == activo else ""
+        return f'<a class="{clase}" href="{destino}"{marca}>{texto}</a>'
+
+    nav = (enlace(f"{raiz}index.html", "Archivo")
+           + enlace(f"{raiz}registro/index.html", "Registro")
+           + enlace(f"{raiz}feed.xml", "RSS"))
+    return (
+        cabeza(esc(titulo), esc(descripcion), ld)
+        + '<body>\n<div id="carga" aria-hidden="true"></div>\n'
+        '<header class="barra">'
+        f'<a class="marca" href="{raiz}index.html">{LOGO}<span>LA BANDITA<small>archivo verificado</small></span></a>'
+        f'<nav class="der" aria-label="secciones">{nav}'
+        f'<span class="sello">{dia}</span>'
+        '<button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button>'
+        '</nav></header>\n'
+        f'<main>{cuerpo}</main>\n'
+        f'<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. '
+        f'Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el {dia} · '
+        'sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>\n'
+        + JS
+        + '</body></html>'
+    )
 
 
 def cargar_fichas() -> list[dict]:
@@ -244,10 +203,49 @@ def main() -> int:
                          "fecha": fecha.group(0) if fecha else "", "plataforma": plataforma,
                          "slug": slug(p.stem)})
 
-    lista = "".join(
-        f'<li><a class="item" href="piezas/{e["slug"]}.html" data-busca="{esc((e["titulo"] + " " + e["plataforma"]).lower())}">'
-        f'<b>{esc(e["titulo"])}</b><small>{e["plataforma"]} · {esc(e["fecha"] or "sin fecha en el cuerpo")}</small></a></li>'
-        for e in entradas)
+    # ── longitudes declaradas (banda de la casa) para el medidor de cada tarjeta ──
+    bandas_path = RAIZ / "docs" / "bandas.json"
+    bandas = {}
+    if bandas_path.exists():
+        try:
+            bandas = json.loads(bandas_path.read_text(encoding="utf-8"))
+        except Exception:
+            bandas = {}
+    largo_de: dict[str, tuple[int, int, int]] = {}
+    for canal_b, cfg in bandas.items():
+        if not isinstance(cfg, dict):
+            continue
+        for _num, info in (cfg.get("piezas") or {}).items():
+            if info.get("archivo"):
+                largo_de[info["archivo"]] = (int(info.get("caracteres") or 0),
+                                             int(cfg.get("min") or 0), int(cfg.get("max") or 0))
+
+    def tarjeta(e: dict) -> str:
+        numero = re.match(r"^(\d+)", e["archivo"].stem)
+        num = numero.group(1) if numero else "—"
+        chars, lo, hi = largo_de.get(e["archivo"].name, (len(e["texto"]), 0, 0))
+        pct = min(100, round(chars * 100 / hi)) if hi else 0
+        canal_tag = "fb" if e["plataforma"] == "Facebook" else "wa"
+        fecha_corta = e["fecha"].replace(" de ", " ") if e["fecha"] else "sin fecha"
+        dentro = (lo <= chars <= hi) if hi else True
+        clase_largo = "ok" if dentro else "fuera"
+        texto_largo = "en banda" if dentro else "fuera de banda"
+        busca = esc((e["titulo"] + " " + e["plataforma"] + " " + e["fecha"] + " pieza " + num).lower())
+        return (
+            f'<li class="revela"><a class="tarjeta" href="piezas/{e["slug"]}.html" data-busca="{busca}" '
+            f'data-canal="{e["plataforma"].lower()}">'
+            f'<span class="num">Pieza {num}</span>'
+            f'<h3>{esc(e["titulo"])}</h3>'
+            f'<div class="tags"><span class="tag {canal_tag}">{e["plataforma"]}</span>'
+            f'<span class="tag">{esc(fecha_corta)}</span>'
+            f'<span class="tag {clase_largo}">{texto_largo}</span></div>'
+            f'<div class="medidor"><div class="cifra"><span>{chars:,} caracteres</span>'
+            f'<span>{lo:,}–{hi:,}</span></div>'
+            f'<div class="pista"><i data-pct="{pct}"></i></div></div>'
+            f'</a></li>'
+        )
+
+    lista = "".join(tarjeta(e) for e in entradas)
 
     # conteos del registro
     vivos = sum(1 for f in fichas if f["actividad"]["estado"] == "vivo")
@@ -261,29 +259,69 @@ def main() -> int:
     edad = max(edades) if edades else 0
     estado_reg = "rancio" if edad > UMBRAL_FRESCURA else "vigente"
 
+    hace_hoy = sum(1 for e in entradas if "2 de noviembre de 2026" in e["fecha"])
+    total_chars = sum(largo_de.get(e["archivo"].name, (len(e["texto"]), 0, 0))[0] for e in entradas)
     cuerpo_index = f"""
-<section class="hero">
+<section class="hero aparece">
 <p class="eyebrow">Archivo verificado · ecosistema Android libre · dominicano-ES</p>
 <h1>Todo lo que la casa ha medido, con su fecha y a un clic</h1>
 <p>Este sitio se genera desde las piezas y el registro. Cada dato declara cuándo se midió y con qué
-método; lo que no se pudo verificar se firma como ausencia en vez de inventarse.</p>
+método; lo que no se pudo verificar se firma como ausencia en vez de inventarse. Aquí no se recomienda
+nada que no se haya abierto, contado y fechado antes.</p>
 <div class="kpis">
-  <div class="kpi"><b>{len(entradas)}</b><span>piezas publicadas</span></div>
-  <div class="kpi"><b>{len(fichas):,}</b><span>fichas de repositorio</span></div>
-  <div class="kpi"><b>{vivos:,}</b><span>repositorios vivos</span></div>
-  <div class="kpi"><b>{sin_lic:,}</b><span>sin licencia declarada</span></div>
-  <div class="kpi"><b>{edad}</b><span>días de antigüedad del dato</span></div>
+  <div class="kpi"><b data-n="{len(entradas)}">0</b><span>piezas publicadas</span></div>
+  <div class="kpi"><b data-n="{hace_hoy}">0</b><span>medidas hoy</span></div>
+  <div class="kpi"><b data-n="{total_chars}" data-miles="1">0</b><span>caracteres verificados</span></div>
+  <div class="kpi"><b data-n="{len(fichas)}" data-miles="1">0</b><span>fichas de repositorio</span></div>
+  <div class="kpi"><b data-n="{vivos}" data-miles="1">0</b><span>repositorios vivos</span></div>
+  <div class="kpi"><b data-n="{sin_lic}" data-miles="1">0</b><span>sin licencia declarada</span></div>
 </div>
 <p><span class="pill {'rancio' if estado_reg == 'rancio' else 'vivo'}">registro {estado_reg}</span>
+<span class="pill">antigüedad máxima {edad} días</span>
 <span class="pill">umbral de frescura {UMBRAL_FRESCURA} días</span>
 <a class="pill" href="registro/index.html">ver el registro completo</a>
 <a class="pill" href="feed.xml">RSS</a></p>
 </section>
-<div class="buscador">
-  <input type="search" id="q" placeholder="Buscar en las {len(entradas)} piezas…" autocomplete="off">
-  <span class="cuenta" id="c">{len(entradas)}</span>
+<div class="controles aparece retardo-2" role="search">
+  <div class="buscador">{ICONO_LUPA}<input type="search" id="q"
+    placeholder="Buscar entre {len(entradas)} piezas… (tecla /)" autocomplete="off" aria-label="Buscar piezas"></div>
+  <div class="chips" id="chips">
+    <button class="chip" type="button" data-filtro="todo" aria-pressed="true">Todo</button>
+    <button class="chip" type="button" data-filtro="facebook" aria-pressed="false">Facebook</button>
+    <button class="chip" type="button" data-filtro="whatsapp" aria-pressed="false">WhatsApp</button>
+  </div>
+  <span class="cuenta" id="c">{len(entradas)} piezas</span>
 </div>
-<ul class="lista" id="lista">{lista}</ul>"""
+<ul class="rejilla" id="lista">{lista}</ul>
+<p class="vacio oculto" id="vacio">Ninguna pieza coincide con esa búsqueda. Prueba con el número, el
+título o el canal.</p>
+<script>
+(function(){{
+  var q=document.getElementById('q'), lista=document.getElementById('lista'),
+      cuenta=document.getElementById('c'), vacio=document.getElementById('vacio'),
+      chips=[].slice.call(document.querySelectorAll('#chips .chip'));
+  var tarjetas=[].slice.call(lista.querySelectorAll('.tarjeta')),
+      total=tarjetas.length, canal='todo';
+  function pintar(){{
+    var t=(q.value||'').trim().toLowerCase(), n=0;
+    tarjetas.forEach(function(a){{
+      var ok=(canal==='todo'||a.dataset.canal===canal)&&(!t||a.dataset.busca.indexOf(t)>-1);
+      a.parentNode.classList.toggle('oculto', !ok);
+      if(ok) n++;
+    }});
+    cuenta.textContent = n===total ? total+' piezas' : n+' de '+total;
+    vacio.classList.toggle('oculto', n!==0);
+  }}
+  q.addEventListener('input', pintar);
+  chips.forEach(function(b){{
+    b.addEventListener('click', function(){{
+      canal=b.dataset.filtro;
+      chips.forEach(function(o){{o.setAttribute('aria-pressed', String(o===b));}});
+      pintar();
+    }});
+  }});
+}})();
+</script>"""
     (destino / "index.html").write_text(plantilla(
         "La Bandita · archivo verificado", cuerpo_index,
         "Archivo verificado del ecosistema Android libre en español dominicano, con fecha y evidencia en cada dato.",
@@ -300,7 +338,7 @@ método; lo que no se pudo verificar se firma como ausencia en vez de inventarse
               "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"},
               "datePublished": e["fecha"] or None, "publisher": {"@type": "Organization", "name": "La Bandita"}}
         (destino / "piezas" / f"{e['slug']}.html").write_text(
-            plantilla(e["titulo"], cuerpo, e["titulo"], ld), encoding="utf-8")
+            plantilla(e["titulo"], cuerpo, e["titulo"], ld, raiz="../"), encoding="utf-8")
 
     # registro: datos + navegador
     compacto = [{"repo": f["repo"], "id": f["id"], "lic": f["licencia"]["spdx"],
@@ -311,35 +349,69 @@ método; lo que no se pudo verificar se firma como ausencia en vez de inventarse
         {"generado": hoy.isoformat(), "umbral_frescura": UMBRAL_FRESCURA, "fichas": compacto},
         ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
+    datos_inline = json.dumps(compacto, ensure_ascii=False, separators=(",", ":"))
     cuerpo_reg = f"""<a class="volver" href="../index.html">← volver al archivo</a>
 <h1>Registro de repositorios</h1>
-<p>{len(fichas):,} fichas medidas el 15 de octubre de 2026 contra la API oficial de GitHub.
-El registro pesa y se nota: {sin_lic:,} repositorios no declaran licencia (firmado como ausencia,
-no inventado como licencia).</p>
+<p>{len(fichas):,} fichas, cada una con su fecha de medición y su método. El registro pesa y se nota:
+{sin_lic:,} repositorios no declaran licencia, y eso se firma como ausencia en vez de inventarse
+una licencia. La búsqueda filtra al escribir; no hace ninguna llamada a la red.</p>
 <p><span class="pill {'rancio' if estado_reg == 'rancio' else 'vivo'}">estado: {estado_reg}</span>
-<span class="pill">edad máxima {edad} días</span>
+<span class="pill">antigüedad máxima {edad} días</span>
 <a class="pill" href="../datos/registro.json">descargar JSON</a></p>
-<div class="buscador"><input type="search" id="q" placeholder="Buscar por repo, licencia o estado…" autocomplete="off">
-<span class="cuenta" id="c">—</span></div>
-<ul class="lista" id="lista"></ul>
+<div class="controles">
+  <div class="buscador">{ICONO_LUPA}<input type="search" id="q"
+    placeholder="Buscar por repo, licencia o estado…" autocomplete="off" aria-label="Buscar en el registro"></div>
+  <span class="cuenta" id="c">—</span>
+</div>
+<ul class="rejilla" id="lista"></ul>
+<p class="vacio oculto" id="vacio">Nada en el registro coincide con esa búsqueda.</p>
+<script id="datos-registro" type="application/json">{datos_inline}</script>
 <script>
-let datos = null;
-fetch('../datos/registro.json').then(r=>r.json()).then(d=>{{datos=d.fichas; pintar('');}}).catch(()=>{{}});
-const q=document.getElementById('q'), lista=document.getElementById('lista'), c=document.getElementById('c');
-function pintar(txt){{
-  if(!datos) return; const a=txt.trim().toLowerCase();
-  const res = a ? datos.filter(f=>(f.repo+' '+(f.lic||'')+' '+f.est).toLowerCase().includes(a)) : datos;
-  c.textContent = res.length.toLocaleString('es-DO') + ' de ' + datos.length.toLocaleString('es-DO');
-  lista.innerHTML = res.slice(0,300).map(f=>`<li><a class="item" href="../ficha/${{f.id}}.html">
-    <b>${{f.repo}}</b><small>${{f.est}} · ${{f.lic||'sin licencia declarada'}} · ★${{(f.stars||0).toLocaleString('es-DO')}} ·
-    último push ${{f.push||'—'}} · medido ${{f.medido}}</small></a></li>`).join('')
-    + (res.length>300 ? `<li class="item"><small>Mostrando 300 de ${{res.length.toLocaleString('es-DO')}}. Afine la búsqueda.</small></li>` : '');
-}}
-q.addEventListener('input',e=>pintar(e.target.value));
+(function(){{
+  var datos = JSON.parse(document.getElementById('datos-registro').textContent);
+  var q = document.getElementById('q'), lista = document.getElementById('lista'),
+      c = document.getElementById('c'), vacio = document.getElementById('vacio');
+  function fila(f){{
+    var est = f.est === 'vivo' ? 'ok' : 'fuera';
+    var stars = (f.stars || 0).toLocaleString('es-DO');
+    return '<li class="revela"><a class="tarjeta" href="../ficha/' + f.id + '.html">'
+      + '<span class="num">' + f.id + '</span>'
+      + '<h3>' + f.repo + '</h3>'
+      + '<div class="tags"><span class="tag ' + est + '">' + f.est + '</span>'
+      + '<span class="tag">' + (f.lic || 'sin licencia declarada') + '</span>'
+      + '<span class="tag">★' + stars + '</span></div>'
+      + '<div class="medidor"><div class="cifra"><span>último empujón ' + (f.push || '—') + '</span>'
+      + '<span>medido ' + f.medido + '</span></div>'
+      + '<div class="pista"><i data-pct="' + Math.min(100, Math.round(Math.log10(stars.replace(/\\./g,'')) * 20)) + '"></i></div></div>'
+      + '</a></li>';
+  }}
+  function pintar(){{
+    var t = (q.value || '').trim().toLowerCase(), n = 0;
+    var res = datos.filter(function(f){{
+      return !t || (f.repo + ' ' + (f.lic || '') + ' ' + f.est).toLowerCase().indexOf(t) > -1;
+    }});
+    n = res.length;
+    c.textContent = n.toLocaleString('es-DO') + ' de ' + datos.length.toLocaleString('es-DO');
+    lista.innerHTML = res.slice(0, 300).map(fila).join('');
+    vacio.classList.toggle('oculto', n !== 0);
+    if(res.length > 300){{
+      vacio.classList.remove('oculto');
+      vacio.textContent = 'Mostrando 300 de ' + res.length.toLocaleString('es-DO') + '. Afine la búsqueda.';
+    }} else if(n === 0){{
+      vacio.textContent = 'Nada en el registro coincide con esa búsqueda.';
+    }}
+    [].slice.call(lista.querySelectorAll('.pista i')).forEach(function(el){{
+      requestAnimationFrame(function(){{ el.style.width = (el.dataset.pct || 0) + '%'; }});
+    }});
+  }}
+  q.addEventListener('input', pintar);
+  pintar();
+}})();
 </script>"""
     (destino / "registro" / "index.html").write_text(plantilla(
         "Registro de repositorios · La Bandita", cuerpo_reg,
-        "Registro verificado de repositorios del ecosistema Android libre, medido y fechado."), encoding="utf-8")
+        "Registro verificado de repositorios del ecosistema Android libre, medido y fechado.",
+        raiz="../"), encoding="utf-8")
 
     # fichas con piezas asociadas: página propia
     con_piezas = [f for f in fichas if f.get("piezas")]
@@ -358,7 +430,8 @@ q.addEventListener('input',e=>pintar(e.target.value));
 </dl></div>
 <h2>Piezas donde aparece</h2><ul class="lista">{''.join(f'<li class="item"><b>{esc(p)}</b></li>' for p in f['piezas'][:12])}</ul>"""
         (destino / "ficha" / f"{f['id']}.html").write_text(
-            plantilla(f"{f['repo']} · La Bandita", cuerpo, f"Ficha medida de {f['repo']}"), encoding="utf-8")
+            plantilla(f"{f['repo']} · La Bandita", cuerpo, f"Ficha medida de {f['repo']}",
+                      raiz="../"), encoding="utf-8")
 
     # RSS
     items = "".join(f"""<item><title>{esc(e['titulo'])}</title>

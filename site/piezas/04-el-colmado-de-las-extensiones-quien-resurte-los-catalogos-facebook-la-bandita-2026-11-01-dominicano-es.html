@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="El colmado de las extensiones: quién resurte los catálogos (y quién dejó de hacerlo)">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>El colmado de las extensiones: quién resurte los catálogos (y quién dejó de hacerlo)</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "El colmado de las extensiones: quién resurte los catálogos (y quién dejó de hacerlo)", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>El colmado de las extensiones: quién resurte los catálogos (y quién dejó de hacerlo)</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 40,033 caracteres</p>
+<p><em>El colmado de las extensiones: quién resurte los catálogos (y quién dejó de hacerlo)</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 04 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🏪 El colmado: qué es un catálogo
+├── 👥 Cuatro clientes del colmado
+├── 📦 El inventario de hoy
+├── 🛒 Cómo se compra sin que te estafen
+├── 🕳️ Seis maneras de quedarse sin resurtido
+├── 🍎 La otra orilla
+├── 🏷️ Los nombres que se parecen
+├── ⚖️ La ley, sin sermón
+├── ❓ Preguntas que me hacen
+├── 🔗 Enlaces
+└── 🗒️ Notas del corte
+</pre>
+<p><em>⚡ En una página</em></p>
+<p>Un catálogo de extensiones es un colmado: alguien lo surte cada semana y tú llegas a comprar. Si el que lo surte se cansa, el local sigue abierto, la nevera sigue encendida y los estantes se van vaciando sin que nadie ponga un cartel. Eso es exactamente lo que pasó este año con el catálogo oficial de anime, que lleva archivado desde el 19 de agosto de 2024, y con un puñado de listas que hoy tienen más estrellas que empujes.</p>
+<p>Hoy me senté a contar el inventario: veintinueve repositorios de catálogo, medidos uno por uno esta mañana. Los grandes siguen firmes —Keiyoushi con ★4.843 y código empujado hoy, Yuzono con ★953 y el mismo empujón—, hay un archivo histórico con ★1.802 que la gente consulta cuando algo desaparece, y aparecieron tres catálogos nuevecitos con cero estrellas y tres semanas de vida que nadie ha mirado todavía.</p>
+<p>De la otra orilla, la de Apple, la foto es distinta y vale la pena: el catálogo comunitario tiene ★614, el de fuentes retiradas ★705 y uno en chino ★906 que no se mueve desde marzo. Más estrellas, menos pulso. Es el retrato de un ecosistema que creció rápido y se quedó quieto.</p>
+<p>Si te llevas una sola idea: el catálogo no es el contenido, es la lista de direcciones. Y las listas se leen antes de confiar en ellas.</p>
+<p>───────────────────</p>
+<p><em>🏪 El colmado: qué es un catálogo</em></p>
+<p>Cuando tu lector te pide «añadir repositorio», lo que va a buscar es un archivo pequeño. Ese archivo dice qué extensiones existen, cuál es la versión de cada una y de dónde se baja el paquete. No tiene series, no tiene portadas, no tiene nada que puedas leer: tiene direcciones.</p>
+<p>La extensión es otra cosa. Es un programa pequeño que sabe leer una página web concreta y devolverte el título, los capítulos y las imágenes. Se instala aparte, se firma aparte y se rompe aparte. Cuando un sitio cambia su diseño, no se rompe tu lector ni el catálogo: se rompe esa extensión, y alguien tiene que reescribirla.</p>
+<p>Y el motor es la tercera pieza: Mihon, Komikku, Neko, Mangayomi, Aidoku. No sabe nada de sitios. Solo dibuja lo que la extensión le entrega. Tres piezas, tres dueños y tres formas distintas de fallar, que es la razón por la que esta guía empieza explicando el colmado y no las marcas.</p>
+<p><em>Por qué el índice manda.</em> Porque es lo único que puedes comprobar sin instalar nada. Un índice se abre en el navegador, se lee en dos minutos y se le mira la fecha. Un lector instalado, en cambio, se ve por dentro pero no se audita. La regla de la casa cabe en una línea: si no puedes abrir la lista, no abras el paquete.</p>
+<p>───────────────────</p>
+<p><em>👥 Cuatro clientes del colmado</em></p>
+<p><em>La profesora que lee en el receso.</em> Tiene un teléfono de 2019, tres series y una hija que le enseña cosas. Su problema no es el catálogo: es que cada vez que una extensión se cae, ella desinstala el lector entero y pierde las descargas. Lo que necesitaba era más simple: mirar qué extensión estaba rota, buscar esa misma en el catálogo actual, instalarla y seguir leyendo. Diez minutos, cero pérdidas.</p>
+<p><em>El motorista que vive en la calle.</em> Se baja capítulos por la noche en el wifi del colmado y lee de día. Lo que le cambió el juego no fue un catálogo nuevo: fue entender que puede tener dos, y que cuando el grande falla, el alternativo ya tiene el arreglo. Su regla ahora es una: dos catálogos, ni uno ni cinco.</p>
+<p><em>El que vende teléfonos.</em> Instala lectores a clientes y necesitaba una regla de trabajo. La que usa: solo catálogos con repositorio público y con fecha reciente. Si no puede enseñarle al cliente de dónde salió lo que le puso, no lo pone. Eso le da algo que ningún tutorial de YouTube le daba: poder responder mañana.</p>
+<p><em>La estudiante que quiere su propio catálogo.</em> Le interesa un sitio que no está en ninguna parte. Su camino real: escoger familia, escribir la extensión contra la interfaz del motor, firmarla y publicar un índice. Es fácil de empezar y difícil de sostener: hay que aceptar que cada cambio del sitio es una tarde de trabajo.</p>
+<p>───────────────────</p>
+<p><em>📦 El inventario de hoy</em></p>
+<p>Los dos grandes de la familia Tachiyomi. <em>Keiyoushi</em>, ★4.843, Apache-2.0, Kotlin, código empujado hoy mismo: es el estante principal, el que tiene más manos y por eso el que más rápido se resurte. <em>Yuzono</em>, ★953, Apache-2.0, también con empuje de hoy: no se presenta como el catálogo de todos, sino como el de Komikku y Mihon, y esa precisión es lo que lo hace confiable cuando el grande se atrasa.</p>
+<p>El oficial de anime, que ya no publica. <em>Aniyomi extensions</em>, ★849, Apache-2.0, archivado con último empuje el 19 de agosto de 2024. La app sigue viva —★7.864 y release del 14 de septiembre— pero el catálogo quedó sin nadie. Es el ejemplo más limpio de que oficial no es sinónimo de eterno.</p>
+<p>Los canales alternativos que sí respiran. <em>Suwayomi/tachiyomi-extension</em>, ★345, Apache-2.0, empuje del 19 de septiembre: no es un catálogo de sitios, es el puente hacia un servidor propio, y mucha gente lo añade creyendo que es otra cosa. <em>Beer-psi</em>, ★53, Apache-2.0, empuje de agosto: recoge lo que el grande no acepta, con el «no oficial» escrito en el nombre. <em>Everfio</em>, ★41, sin licencia declarada, empuje de ayer: se puede usar, no se puede reusar. <em>MarBou</em> tiene dos repositorios de ★7 y ★8, uno con el código y otro con el índice, ambos con empuje de este mes: pequeño y vivo.</p>
+<p>El primo independiente. <em>Mangayomi extensions</em>, ★113, Apache-2.0, JavaScript, empuje del 29 de octubre. No sirve para Mihon ni para sus forks: es otra familia con otro idioma. Y su vecino <em>Kototoro parsers</em>, ★17, GPL-3.0, empuje del 28: el catálogo de un lector que decidió separar motor y catálogo, con licencias distintas para cada uno.</p>
+<p>La orilla de Apple. <em>Aidoku-Community/sources</em>, ★614, Apache-2.0, Rust, empuje de ayer. <em>Legacy sources</em>, ★705, Apache-2.0: las fuentes retiradas, guardadas con más cariño que el catálogo vivo. <em>Aidoku-rs</em>, ★55, MIT: las ataduras para escribir las tuyas. <em>Fuentes en chino</em>, ★906, sin licencia, último empuje el 30 de marzo: el más grande y el más quieto. Su relevo nuevo, ★28, Apache-2.0, empujó hoy. <em>Yomu</em>, ★18, NOASSERTION, empujó hoy: una lista personal con nombre propio. <em>Francés</em>, ★20, sin licencia, parado desde mayo de 2025. <em>AlanLang</em>, ★13, MIT, parado desde abril de 2025. <em>Novelas ligeras</em>, ★11, Apache-2.0, parado desde agosto de 2022. Y <em>Nyora para iOS</em>, ★17, GPL-3.0, empuje de agosto: un lector entero escrito sobre esa interfaz.</p>
+<p>Los recién nacidos. <em>Yomiru</em>, ★0, tres semanas de vida, catálogo de un reproductor sin versión publicada. <em>AnImestream</em>, ★0, cinco fuentes y la cuenta hecha en su propia descripción. <em>Izumi</em>, ★0, índice generado automáticamente. Ninguno tiene licencia. Los pongo porque un inventario que solo cuenta a los grandes no muestra hacia dónde va el negocio.</p>
+<p>Las herramientas. <em>Extension-Source-Builder</em>, ★31, sin licencia, compila extensiones en Colab. <em>Miwayomi</em>, ★31, Apache-2.0, corre extensiones en la computadora sin Android ni emulador.</p>
+<p>Y el cementerio. <em>Archivo de extensiones retiradas de Tachiyomi</em>, ★1.802, Apache-2.0, archivado en marzo. Mil ochocientas estrellas de memoria: sirve para saber qué existió, no para instalar hoy.</p>
+<p>───────────────────</p>
+<p><em>🛒 Cómo se compra sin que te estafen</em></p>
+<p>Ocho pasos, en el orden en que los hago yo. Ninguno necesita programas raros y todos se hacen con el teléfono en la mano.</p>
+<p><em>Uno · sabe qué familia eres.</em> Si tu lector es Mihon, Komikku, Neko, Yokai, Usagi o Chimahon, eres familia Tachiyomi y te sirven los catálogos en Kotlin. Si es Mangayomi, necesitas el catálogo en JavaScript. Si es Aidoku, es la otra orilla. Sin este paso, todo lo demás es adivinar.</p>
+<p><em>Dos · consigue la dirección del índice, no la del código.</em> Este es el error que más veces veo. El repositorio donde vive el código de las extensiones casi nunca es el que se pega en el lector. Keiyoushi, por ejemplo, tiene el código en un repositorio y el índice publicado en otro. Si pegas el del código, el lector dirá que la dirección no vale y tú pensarás que el catálogo se murió.</p>
+<p><em>Tres · ábrela antes en el navegador.</em> Treinta segundos. Tiene que salir un archivo corto con nombres, versiones y direcciones. Si sale un 404, una página de publicidad o una petición para instalar algo, ahí no hay índice.</p>
+<p><em>Cuatro · mira el dueño y la fecha.</em> La cuenta que publica y su antigüedad; la fecha del último empuje. Un índice con nombre parecido al de un catálogo conocido, publicado por una cuenta de tres semanas, no necesita ningún análisis: se descarta.</p>
+<p><em>Cinco · añade el índice en el lector.</em> En Mihon y sus forks está en Ajustes, dentro de Explorar, en repositorios de extensiones. En Mangayomi y en Aidoku cambia la pantalla, no la idea.</p>
+<p><em>Seis · instala una sola extensión y pruébala.</em> Una, no veinte. Abre un título, comprueba portada y capítulos, cierra. Si funciona, el índice está sano. Si no, ya sabes exactamente dónde está el problema.</p>
+<p><em>Siete · anota de dónde salió.</em> Fecha, nombre del catálogo y dirección, en una nota del teléfono. Te va a servir cuando algo falle dentro de seis meses y no recuerdes qué añadiste.</p>
+<p><em>Ocho · repite el paso tres cada tres meses.</em> No hace falta más frecuencia. Un catálogo que responde hoy puede no responder en enero, y enterarte antes es la diferencia entre arreglarlo y perder una tarde.</p>
+<p><em>Lo que no se hace.</em> No se añade un índice que llegó por WhatsApp sin mirar la dirección. No se añaden cinco «por si acaso»: cada uno es una fuente de verdad más. No se instala la extensión suelta de un foro. Y no se acepta un catálogo que pide permisos, porque un índice es un archivo y no necesita ninguno.</p>
+<p>───────────────────</p>
+<p><em>🕳️ Seis maneras de quedarse sin resurtido</em></p>
+<p><em>Uno · el dueño se cansa.</em> Es la más común y la menos dramática. Un repositorio con un mantenedor, dos años de trabajo y un issue que dice «busco ayuda» que nadie contesta. El catálogo no se cae: se queda quieto, y en este oficio quedarse quieto es empezar a morir. Keiyoushi lo evita por estructura: cientos de extensiones, muchas manos, revisión pública.</p>
+<p><em>Dos · cambia la firma.</em> Las versiones nuevas ya no se pueden instalar encima de las viejas y la gente se queda con la última que pudo poner. El catálogo está vivo, las actualizaciones no llegan, y el usuario concluye que el lector está roto.</p>
+<p><em>Tres · cambia la dirección.</em> El proyecto se muda de GitHub a Codeberg, o al revés, y el índice viejo sigue respondiendo con un archivo congelado durante meses. Se nota el día que aparecen extensiones nuevas en el código y no en tu lector.</p>
+<p><em>Cuatro · el sitio cambia su página.</em> No es culpa de nadie: cambió el diseño, el dominio o el sistema de imágenes. La extensión devuelve vacío y hay que reescribirla. Aquí gana el catálogo con más gente, porque alguien lo arregla en horas y no en semanas.</p>
+<p><em>Cinco · el catálogo se archiva.</em> Le pasó al oficial de anime en agosto de 2024. Lo instalado sigue funcionando, las descargas siguen ahí, pero ya no hay quien defienda el fuerte. Se detecta en la API y se ve en la cara del repositorio.</p>
+<p><em>Seis · alguien publica un índice falso.</em> El más sucio y el más evitable. Nombre parecido, cuenta nueva, promesa de «catálogo completo», a veces un instalador para «activarlo». Se evita con el paso tres del tutorial, que es gratis y toma medio minuto.</p>
+<p>───────────────────</p>
+<p><em>🍎 La otra orilla</em></p>
+<p>El ecosistema de Apple se parece al de Android en lo esencial —motor, catálogo, extensión— y se diferencia en todo lo demás.</p>
+<p>Allí las fuentes se escriben en Rust, no en Kotlin. El catálogo comunitario tiene ★614 y empujó ayer, y el de fuentes retiradas tiene ★705, más que el vivo. Hay además un catálogo en chino con ★906 que lleva siete meses quieto, un relevo nuevo con ★28 que empujó hoy, una lista personal con ★18, una de francés con ★20 parada desde mayo del año pasado, otra de novelas ligeras con ★11 parada desde 2022 y un lector completo para iPhone e iPad —Nyora, ★17— construido sobre la misma interfaz.</p>
+<p><em>Lo que enseña esa orilla.</em> Que el catálogo puede ser tan grande como quieras y no por eso estar vivo. El de ★906 es el más usado de su idioma y el que menos se mueve; el de ★28 es nuevo y empuja. Si solo tuvieras las estrellas para decidir, escogerías el que ya nadie atiende.</p>
+<p><em>Lo que no se puede trasplantar.</em> Una fuente de Aidoku no funciona en Mihon, y no hay manera de convertirla sin reescribirla. Lo que sí viaja son los archivos: si bajaste tu biblioteca, el lector nuevo la abre desde su carpeta.</p>
+<p>───────────────────</p>
+<p><em>🏷️ Los nombres que se parecen</em></p>
+<p>Aquí hay más homónimos que en una lista de clases, y copiar el equivocado es el error más tonto y el más frecuente.</p>
+<p><em>Keiyoushi tiene dos repositorios.</em> Uno es el código de las extensiones, otro es el índice publicado. Los dos son suyos, los dos están vivos, y solo uno se pega en el lector.</p>
+<p><em>Yuzono no es el original.</em> Su repositorio se llama como el de siempre pero pertenece a otra cuenta: es el canal que mantiene lo que el grande no tiene. El original, con ese mismo nombre, ya no vive donde vivía.</p>
+<p><em>Mangayomi tiene un vivo y un fantasma.</em> El lector vivo está en una cuenta concreta y hay otro repositorio con el nombre del proyecto que responde 404. Un enlace muerto no significa que el proyecto murió: significa que ese enlace está muerto.</p>
+<p><em>Aniyomi y sus extensiones son dos casas.</em> El lector publica versiones este año; el catálogo está archivado desde 2024. Confundirlos te lleva a la conclusión contraria en cada caso.</p>
+<p><em>La regla de oro:</em> antes de pegar un enlace, mira si tienes delante la casa o el escaparate. Un espejo se cae y la casa sigue; un homónimo se cae y no hay nada detrás.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón</em></p>
+<p>Un catálogo no tiene contenido: tiene direcciones. Esa diferencia también es jurídica y no hace falta dramatizarla.</p>
+<p>Instalar una extensión es instalar un programa que sabe leer una página web. Eso no es delito en ningún país que yo conozca. Lo que ese programa haga después depende del sitio que uses: si el sitio tiene derecho a publicar lo que publica, no hay conversación; si no lo tiene, el problema está en el sitio y en tu descarga, no en el catálogo.</p>
+<p>Lo que sí cambia con las extensiones es la responsabilidad del que publica: un índice es algo que otra gente va a instalar. Los catálogos grandes lo saben, y por eso revisan, retiran y archivan; el archivo histórico de extensiones retiradas, con ★1.802, es la prueba de que retirar es parte del oficio.</p>
+<p>Y la nota de la casa, que va sin adorno: esta pieza no receta sitios ni extensiones concretas de contenido. Nombra catálogos, da sus números y explica cómo se comprueba uno. Lo demás lo decides tú, con tu criterio y con la ley que te toque: ningún catálogo cambia eso, por muy grande que sea su lista.</p>
+<p>───────────────────</p>
+<p><em>🗄️ Qué se pierde cuando el colmado cierra</em></p>
+<p>Hay una confusión que cuesta bibliotecas enteras: creer que la extensión guarda lo que lees.</p>
+<p>La extensión es la puerta; el archivo es la casa. Lo que bajaste vive en la carpeta de la aplicación y se abre igual aunque el catálogo desaparezca. Lo que pierdes cuando el colmado cierra es la capacidad de bajarte lo siguiente, no lo que ya tienes.</p>
+<p><em>El detalle que salva una biblioteca:</em> los nombres. Cuando exportas, el lector guarda cada serie con el nombre de la extensión que la trajo. Si esa extensión desaparece, los archivos se siguen abriendo por carpeta, pero la biblioteca deja de reconocerlos como series. Por eso conviene exportar además la lista de series en texto: es la única copia que sobrevive a cualquier mudanza de catálogo.</p>
+<p><em>Y la prueba del respaldo:</em> restáuralo una vez, en un teléfono viejo, un domingo por la tarde. El respaldo que nunca se ha restaurado no es un respaldo: es una esperanza con nombre de carpeta.</p>
+<p>───────────────────</p>
+<p><em>🔮 El resurtido del año que viene</em></p>
+<p>Lo que se puede prever, con fecha y sin prometer que voy a vigilar nada.</p>
+<p><em>Va a seguir igual.</em> El índice va a seguir siendo un archivo con una lista de direcciones, y el problema central no cambia: cuando un sitio se rediseña, alguien tiene que reescribir la extensión. La familia Tachiyomi va a seguir siendo la más surtida porque es la que más manos tiene.</p>
+<p><em>Probablemente cambie.</em> Los catálogos remotos pensados para reproductores nuevos —los tres de ★0 de hoy— van a multiplicarse; el patrón habitual es que uno crezca y el resto se apague en silencio. Y la orilla de Apple va a crecer, porque es el único camino decente para quien lee en un iPhone.</p>
+<p><em>Puede romperse.</em> Un catálogo de una sola persona con más de mil estrellas. Hoy hay uno de ★906 parado desde marzo y sin relevo a la vista. Si su dueño se cansa, nadie recoge el mando automáticamente.</p>
+<p><em>Lo que no voy a decir.</em> Que te voy a avisar cuando algo cambie. Eso no lo hace nadie que no tenga tu teléfono. Lo que puedes hacer es volver a esta guía el día que algo falle, mirar la fecha de arriba y repetir los ocho pasos.</p>
+<p>───────────────────</p>
+<p><em>🔬 Cómo se revisa una extensión antes de instalarla</em></p>
+<p>Cinco minutos, sin ser programador.</p>
+<p><em>El repositorio.</em> Busca el nombre de la extensión en el catálogo y sigue el enlace a su código. Si no hay enlace, no hay código, y esa es la señal más vieja que existe.</p>
+<p><em>La licencia.</em> Está en un archivo que se llama <code>LICENSE</code> o en la sección de licencia del repositorio. Apache-2.0 y MIT dejan que cualquiera continúe el proyecto; GPL-3.0 obliga a publicar lo que hagas con él; «sin licencia» significa que puedes usar el programa pero no reusar su código.</p>
+<p><em>Las dos fechas.</em> El último empuje dice si alguien está mirando; la última release dice si hay algo instalable. Empujes de hoy con release de julio es un proyecto que trabaja; release de hoy con empujes de hace un año es un proyecto que publica lo viejo.</p>
+<p><em>Los permisos.</em> Una extensión de lectura no necesita tus contactos, ni tus mensajes, ni tu ubicación. Si los pide, la pregunta no es técnica.</p>
+<p><em>Los issues recientes.</em> No cuentes cuántos hay: lee los últimos cinco. Si todos dicen «no carga», la extensión está rota y el catálogo todavía no se ha enterado.</p>
+<p>───────────────────</p>
+<p><em>📶 En un teléfono viejo</em></p>
+<p>Un catálogo no pesa, pero sus extensiones sí. Cada una es un programa pequeño que queda instalado, y con 2 GB de RAM la diferencia entre ocho y treinta se nota al abrir el lector.</p>
+<p>En Android 7 a 9 los catálogos de la familia Tachiyomi funcionan mientras el lector tenga una versión compatible. El problema casi nunca es el catálogo: es que instalaste la última versión del lector sin mirar qué Android pide. Busca en las releases una que declare tu versión y quédate ahí.</p>
+<p>No funcionan las extensiones compiladas con bibliotecas nuevas, ni los lectores que piden Android 12, ni los catálogos remotos pensados para reproductores que no existen en Android.</p>
+<p><em>El truco del teléfono viejo:</em> menos extensiones y más descargas. Cuatro o cinco bien elegidas y lo ya bajado convierten un teléfono de 2018 en una biblioteca decente; treinta extensiones lo convierten en una tortuga.</p>
+<p><em>Un detalle que casi nadie mira:</em> el índice se descarga cada vez que abres la sección de extensiones. Con poca memoria y mala conexión, lo que se cuelga es esa descarga, no la lectura. Abre esa sección con wifi una vez y cierra el lector después.</p>
+<p>───────────────────</p>
+<p><em>🔍 Las cuatro preguntas, aplicadas a un catálogo</em></p>
+<p><em>¿Quién lo firma?</em> El dueño del repositorio y, si hay releases, la llave con que se firman. Un catálogo sin código detrás no tiene firma que mirar.</p>
+<p><em>¿Cuándo se movió?</em> La fecha del último empuje. Hoy empujaron Keiyoushi, Yuzono, el catálogo en chino nuevo, el de Yomu y los dos de MarBou. Y llevan año y medio o cuatro años parados los de francés y novelas ligeras de Aidoku.</p>
+<p><em>¿Qué licencia declara?</em> Apache-2.0 en casi todos los grandes, MIT en los pequeños generosos, GPL-3.0 en Kototoro y Nyora, NOASSERTION en uno, y sin licencia en cuatro del inventario de hoy.</p>
+<p><em>¿Qué pasa si desaparece?</em> Tus descargas siguen. Lo que se pierde es bajar lo siguiente, y eso se resuelve con otro catálogo y la misma biblioteca.</p>
+<p>───────────────────</p>
+<p><em>🧮 Los números, con su hora</em></p>
+<p>Todo lo de esta guía se midió el domingo 1 de noviembre de 2026, entre las 06:15 y las 07:40 de Santo Domingo, contra la API pública de GitHub y con peticiones directas.</p>
+<p>De los veintinueve repositorios del inventario: veintitrés vivos con actividad de este año, tres archivados, dos con más de un año sin tocar y tres nacidos este año con cero estrellas. Cuatro no declaran licencia.</p>
+<p>Las estrellas más altas del inventario no pertenecen a un catálogo de sitios sino a un archivo: el de extensiones retiradas, con ★1.802. El catálogo vivo más grande tiene ★4.843. Y la sorpresa: el catálogo en chino de Aidoku, con ★906, supera al catálogo comunitario de su propio ecosistema, ★614, y lleva siete meses quieto.</p>
+<p><em>Lo que no se midió.</em> No sé cuánta gente usa cada catálogo: las estrellas son curiosidad acumulada, no usuarios. No sé qué sitios responden desde tu red hoy. Y no anoté releases de los repositorios nuevos porque la cuota pública de la API se agotó a mitad de mañana; prefiero decirlo a rellenarlo.</p>
+<p>───────────────────</p>
+<p><em>🪞 Seis mitos del colmado</em></p>
+<p><em>«El oficial es el bueno»</em>. El oficial de anime está archivado desde agosto de 2024.</p>
+<p><em>«Más estrellas, más vivo»</em>. ★906 parado desde marzo contra ★28 con empuje de hoy.</p>
+<p><em>«Sin licencia es peligroso»</em>. Sin licencia no puedes reusar el código; el programa se usa igual. Son dos derechos distintos.</p>
+<p><em>«Los pequeños no sirven»</em>. El de ★7 y el de ★8 empujaron este mes. Pequeño y vivo le gana a grande y dormido.</p>
+<p><em>«Con un catálogo basta»</em>. Basta hasta que se rompe. Con dos, cuando uno falla el otro ya arregló.</p>
+<p><em>«Mangayomi es lo mismo con otro nombre»</em>. Otra familia, otro lenguaje, otro catálogo. Una extensión de Tachiyomi ahí no hace nada.</p>
+<p>───────────────────</p>
+<p><em>📅 Un día en la vida de un catálogo</em></p>
+<p>Para que se entienda por qué esto envejece tan rápido, cuento un día cualquiera de esta semana en un catálogo mediano, tal como se ve desde fuera.</p>
+<p><em>06:10.</em> Alguien abre un issue: «el sitio X no carga». Sin captura, sin versión, sin nada. Es el mensaje más común del mundo.</p>
+<p><em>08:40.</em> Un segundo voluntario reproduce el fallo. El sitio cambió el nombre de la clase que envuelve las imágenes, y la extensión busca la vieja. Son cuatro líneas de código.</p>
+<p><em>10:15.</em> Llega el arreglo. Se prueba en dos teléfonos, uno nuevo y uno de 2019, porque el que mantiene el catálogo sabe que la mitad de sus usuarios no tiene el último teléfono.</p>
+<p><em>11:00.</em> Se publica la versión nueva. El índice se actualiza solo, en el momento en que el repositorio de publicación recibe el archivo.</p>
+<p><em>14:30.</em> Tres personas escriben que siguen sin poder. No era el mismo sitio: era su conexión, o el DNS, o que tenían una versión vieja del lector. El voluntario contesta tres veces la misma cosa.</p>
+<p><em>20:00.</em> Otro sitio cambia su página. Vuelta a empezar.</p>
+<p>Ese día, en ese catálogo, no pasó nada heroico: pasó lo que sostiene todo el ecosistema. Un catálogo que no tiene ese día durante meses es un catálogo que se está vaciando sin avisar, y sus usuarios se enteran por la serie que deja de actualizarse un martes cualquiera.</p>
+<p>───────────────────</p>
+<p><em>🎯 Un reto de diez minutos</em></p>
+<p>Escoge el catálogo que ya tienes instalado y haz esto, sin ayuda de nadie.</p>
+<p><em>Minuto 1.</em> Abre la lista de repositorios en tu lector y copia la dirección del que tengas.</p>
+<p><em>Minutos 2 y 3.</em> Pega esa dirección en el navegador del teléfono y mira qué sale. Si es un archivo con nombres y versiones, vas bien.</p>
+<p><em>Minutos 4 y 5.</em> Busca esa dirección en el buscador junto al nombre del catálogo. Mira la cuenta que lo publica y la fecha del último movimiento.</p>
+<p><em>Minutos 6 y 7.</em> Entra al repositorio de código de ese catálogo y busca su licencia. Anota cuál es en tu nota del teléfono.</p>
+<p><em>Minutos 8 y 9.</em> Elige una extensión tuya, la que más uses, y mira su último empuje.</p>
+<p><em>Minuto 10.</em> Decide una cosa: ¿lo dejas como está o añades un segundo catálogo de respaldo? Las dos respuestas valen; lo que ya no vale es no saber.</p>
+<p>Si hiciste eso, sabes más de tu teléfono que el noventa por ciento de la gente que escribe tutoriales sobre esto.</p>
+<p>───────────────────</p>
+<p><em>🧊 Lo que aquí no se afirma</em></p>
+<p>No se afirma que los catálogos pequeños sean malos: en el inventario de hoy hay uno de ★7 con empuje de esta semana.</p>
+<p>No se afirma que un catálogo conocido haga seguras sus extensiones. Que el código sea auditable significa que alguien puede mirarlo, no que alguien lo esté mirando ahora.</p>
+<p>No se afirma cuánta gente usa esto. No está medido y no lo voy a estimar a ojo.</p>
+<p>No se afirman sitios. Un catálogo es una lista de direcciones; el contenido lo pones tú y la ley que te toque.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Puedo tener dos catálogos a la vez?</strong></p>
+<p>Sí, y es lo que recomiendo. Tu lector los lista por separado y puedes instalar extensiones de los dos. Lo que no conviene es tener cinco: cada uno es una fuente de verdad más, y cuando dos dicen cosas distintas de la misma extensión, el lío es tuyo.</p>
+<p><strong>¿Por qué aparecen extensiones que no puedo instalar?</strong></p>
+<p>Porque vienen firmadas con otra llave distinta a la de las que ya tienes. Android no deja instalar encima de una firma diferente. Se desinstala la vieja —solo la extensión— y se pone la nueva.</p>
+<p><strong>¿Pierdo las descargas si quito una extensión?</strong></p>
+<p>No. Las descargas viven en la carpeta de la aplicación. Lo que pierdes es bajar lo siguiente de ese sitio.</p>
+<p><strong>¿Cuál es el catálogo más seguro?</strong></p>
+<p>El que puedes auditar: Keiyoushi es el más mirado, con ★4.843 y actividad de hoy. Seguro aquí quiere decir «más ojos encima», no «sin errores».</p>
+<p><strong>¿Y si mi sitio solo está en el catálogo de una persona?</strong></p>
+<p>Entonces confías en una persona. No es pecado: es una confianza distinta. Mira su licencia y su fecha. Sin licencia, ese catálogo no lo puede continuar nadie si su dueño se cansa.</p>
+<p><strong>¿Mangayomi usa las extensiones de Mihon?</strong></p>
+<p>No. Mangayomi escribe las suyas en JavaScript y vive en su propio catálogo. Instalar una de Tachiyomi ahí no hace nada.</p>
+<p><strong>¿Qué pasó con el catálogo de anime?</strong></p>
+<p>Está archivado desde el 19 de agosto de 2024. Lo instalado sigue funcionando; lo que no hay es quien publique arreglos nuevos. Hoy se usan canales alternativos.</p>
+<p><strong>¿Necesito un servidor?</strong></p>
+<p>No. Es una comodidad para quien lee en varias pantallas o quiere actualizar en un sitio y ver lo mismo en todas. Si lees solo en el teléfono, tu teléfono basta.</p>
+<p><strong>¿Se puede leer sin catálogo?</strong></p>
+<p>Sí: archivos propios en CBZ, EPUB o carpetas. Es más trabajo de armar y no depende de nadie. Para una biblioteca que quieras conservar veinte años, es el camino.</p>
+<p><strong>¿Vale la pena hacer mi propia extensión?</strong></p>
+<p>Si el sitio que te importa no está en ningún catálogo vivo, sí. Si ya está, úsalo: mantener una extensión es más trabajo que escribirla, y el sitio va a cambiar sin avisarte.</p>
+<p>───────────────────</p>
+<p><em>🧰 Cómo se escribe una extensión, contado sin código</em></p>
+<p>No voy a enseñar a programar aquí. Cuento qué hay que hacer, en orden, para que sepas cuándo alguien te está vendiendo humo.</p>
+<p><em>Paso uno: escoger familia.</em> En la familia Tachiyomi se escribe en Kotlin y se compila con las herramientas de Android. En Aidoku se escribe en Rust y se empaqueta para Apple. En Mangayomi se escribe en JavaScript y no hay que compilar nada.</p>
+<p><em>Paso dos: mirar cómo lo hizo otro.</em> Todas las familias tienen extensiones públicas que sirven de plantilla. Copiar la estructura de una extensión que funciona es el atajo honesto de este oficio.</p>
+<p><em>Paso tres: entender el sitio.</em> Hay que saber qué dirección devuelve la lista de series, qué devuelve los capítulos y qué devuelve las páginas de cada capítulo. Eso se mira en el navegador, con la pestaña de red abierta, y es la parte que más tiempo toma.</p>
+<p><em>Paso cuatro: escribir tres funciones.</em> Una que busque, una que liste capítulos y una que entregue imágenes. El resto es relleno y manejo de errores.</p>
+<p><em>Paso cinco: firmarla y publicarla.</em> Ahí empieza lo que la gente no espera: hay que firmar el paquete con una llave, publicarlo y actualizar el índice para que los lectores lo vean.</p>
+<p><em>Paso seis: mantenerla.</em> El sitio cambia, la extensión devuelve vacío, alguien abre un issue, y vuelves. Para siempre. Si no quieres ese compromiso, usa un catálogo existente y ahorra el viaje.</p>
+<p><em>Y una verdad incómoda:</em> la mayoría de las extensiones abandonadas no murieron por mala programación. Murieron porque su autor dejó de leer ese sitio.</p>
+<p>───────────────────</p>
+<p><em>📋 Diez preguntas que hacerle a un catálogo nuevo</em></p>
+<p>Cuando alguien te recomiende un catálogo que no conoces, no lo instales: hazle estas diez preguntas. Se contestan en cinco minutos y descartan el noventa por ciento de lo malo.</p>
+<p><em>Una.</em> ¿Dónde está el código de tus extensiones? Si no hay código, no hay catálogo: hay una lista.</p>
+<p><em>Dos.</em> ¿Qué licencia declara? Sin archivo de licencia no se puede continuar el proyecto.</p>
+<p><em>Tres.</em> ¿Cuándo fue el último empuje? Si es de hace un año, el catálogo está dormido.</p>
+<p><em>Cuatro.</em> ¿Cuándo fue la última release, si hay? Distinta pregunta, distinta respuesta.</p>
+<p><em>Cinco.</em> ¿Cuántas personas lo mantienen? Se ve en los issues y en los commits. Uno solo es frágil; tres aguantan.</p>
+<p><em>Seis.</em> ¿Se retiró alguna extensión? Un catálogo que nunca retiró nada no revisa nada.</p>
+<p><em>Siete.</em> ¿Tiene una página donde explique qué acepta y qué no? Los catálogos serios tienen reglas escritas.</p>
+<p><em>Ocho.</em> ¿Publica el índice en un sitio estable, o cambia de dirección cada tanto? La segunda opción te va a costar una tarde.</p>
+<p><em>Nueve.</em> ¿Acepta extensiones de terceros o solo las suyas? Las dos cosas son válidas, pero cambian lo que puedes esperar.</p>
+<p><em>Diez.</em> ¿Qué pasa si su dueño desaparece mañana? Si la respuesta es «nada se puede hacer», acabas de descubrir su punto débil.</p>
+<p>───────────────────</p>
+<p><em>🕰️ El colmado que me hubiera gustado tener en 2023</em></p>
+<p>Cuando empecé con esto, la información útil estaba repartida en hilos de foro y videos de ocho minutos que decían «dale like y suscríbete» antes de decir nada. Lo que me faltaba no era una lista de apps: era entender cuatro cosas que hoy caben en una página.</p>
+<p><em>Primera:</em> que el catálogo y el lector son cosas distintas, y que el fallo casi siempre está en la junta entre los dos. Saber eso me ahorró reinstalar el lector cuatro veces.</p>
+<p><em>Segunda:</em> que las estrellas no miden vida. El primer catálogo que instalé tenía miles y llevaba un año sin arreglos; el que me salvó tenía cuarenta y empujaba cada semana.</p>
+<p><em>Tercera:</em> que el respaldo es el único seguro real. Las apps se vuelven a instalar; la carpeta de descargas, no.</p>
+<p><em>Cuarta:</em> que un índice se lee. Suena obvio y es lo último que uno aprende: la lista de direcciones se abre, se mira y se comprueba. Nadie me lo dijo, y por eso lo digo yo.</p>
+<p>Si alguien te explica estas cuatro cosas en cinco minutos, no necesitas el resto del video. Y si no te las explica, ya sabes lo que está vendiendo.</p>
+<p>───────────────────</p>
+<p><em>🏘️ Cuatro decisiones, con lo que costó cada una</em></p>
+<p><em>Quedarse con el grande y nada más.</em> Es la de la mayoría y la más barata: un catálogo, una actualización cada tanto, cero configuración. Coste: cuando una extensión del grande se cae, esperas. A veces horas, a veces semanas.</p>
+<p><em>Tener el grande y uno alternativo.</em> Coste: revisar de vez en cuando que las dos listas no te dupliquen la misma extensión con firmas distintas. Beneficio: cuando el grande falla, el alternativo ya arregló.</p>
+<p><em>Montar un servidor.</em> Coste: un aparato más, una actualización más y una carpeta que respaldar. Beneficio: un solo sitio donde actualizar y todos los aparatos leyendo lo mismo.</p>
+<p><em>Hacer el catálogo propio.</em> Coste: mantener una extensión cada vez que el sitio cambie, para siempre. Beneficio: si el sitio te importa y no está en ninguna parte, es la única salida. Nadie debería empezar por aquí.</p>
+<p>Ninguna es gratis del todo y ninguna es un error. Lo que sí es un error es escoger una sin saber qué cuesta.</p>
+<p>───────────────────</p>
+<p><em>🧭 La vara en cuatro pasos</em></p>
+<p><em>Uno: nómbralo.</em> Antes de instalar, di en voz alta el nombre del catálogo y de quién es. Si no te sale, no lo instales: no hay paso dos.</p>
+<p><em>Dos: mira la fecha.</em> La del último empuje y, si existe, la de la última release. Dos datos distintos, dos informaciones distintas, y ninguna de las dos sirve sola.</p>
+<p><em>Tres: mira la licencia.</em> Apache-2.0, MIT y GPL-3.0 se leen en el repositorio. «Sin licencia» no es pecado: es el aviso de que nadie puede continuar el proyecto cuando su dueño se canse.</p>
+<p><em>Cuatro: mira si hay código.</em> Un índice sin código es una lista de deseos; un catálogo con código es una promesa con receta. Y la receta es lo único que se puede auditar.</p>
+<p>Lo que la vara no hace es decirte si el sitio de detrás tiene derecho a publicar lo que publica. Eso se contesta caso por caso y no lo resuelve ningún programa, ni este ni ninguno que encuentres en una tienda de aplicaciones.</p>
+<p>───────────────────</p>
+<p><em>🚪 Para el que llega hoy, sin nada instalado</em></p>
+<p>Si nunca has instalado un catálogo, este es el camino corto y sin atajos.</p>
+<p>Primero, elige el lector de la familia que te toque: en Android, Mihon o Komikku; en iPhone, Aidoku; si quieres lo mismo en teléfono y computadora, Mangayomi. Instálalo desde su repositorio, no desde un espejo.</p>
+<p>Segundo, añade un solo catálogo, el grande de tu familia, y no añadas nada más durante una semana. La tentación de añadir cinco el primer día es la causa número uno de los líos que describo en la sección de los seis fallos.</p>
+<p>Tercero, instala dos extensiones y pruébalas. Dos, no veinte: con dos sabes si el catálogo responde y no llenas el teléfono de programas que no vas a usar.</p>
+<p>Cuarto, mira el respaldo antes de bajar nada importante. Exporta, restaura en el mismo aparato y comprueba que la biblioteca vuelve. El día que lo necesites de verdad no vas a tener tiempo de aprender cómo funciona.</p>
+<p>Quinto, y esto es lo único que te pido que hagas para siempre: cuando algo falle, no reinstales el lector. Mira la fecha del catálogo y el estado de la extensión. Nueve de cada diez veces el problema está ahí, y reinstalar no arregla nada que no estuviera roto en otra parte.</p>
+<p>───────────────────</p>
+<p><em>📖 Glosario del colmado</em></p>
+<p>• <em>Catálogo</em> — repositorio con el código de las extensiones y, a veces, el índice publicado.</p>
+<p>• <em>Índice</em> — archivo que lista extensiones, versiones y direcciones de descarga. Es lo que se pega en el lector.</p>
+<p>• <em>Extensión</em> — programa pequeño que sabe leer un sitio concreto. Se firma y se rompe aparte.</p>
+<p>• <em>Motor</em> — el lector: Mihon, Komikku, Neko, Mangayomi, Aidoku. No sabe de sitios.</p>
+<p>• <em>Familia</em> — grupo de motores que comparten formato de extensión.</p>
+<p>• <em>Firma</em> — huella criptográfica del que empaquetó. Si cambia, Android no deja instalar encima.</p>
+<p>• <em>Release</em> — versión publicada con archivo descargable.</p>
+<p>• <em>Empuje</em> — última vez que alguien subió cambios. Es el pulso del proyecto.</p>
+<p>• <em>Archivado</em> — el repositorio no se moverá más. No es lo mismo que muerto.</p>
+<p>• <em>Dormido</em> — sin empujes recientes pero vivo. En esta casa, desde 45 días.</p>
+<p>• <em>NOASSERTION</em> — la licencia existe pero la API no la reconoce; hay que leer el archivo.</p>
+<p>• <em>Resurtido</em> — lo que hace el que mantiene el catálogo cada semana.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces</em></p>
+<p>Todas las casas que se nombran arriba, sin espejos y sin inventar direcciones.</p>
+<p><em>Familia Tachiyomi</em></p>
+<ul>
+<li>Keiyoushi, código de extensiones: <a href="https://github.com/keiyoushi/extensions-source">https://github.com/keiyoushi/extensions-source</a></li>
+<li>Keiyoushi, el índice publicado: <a href="https://github.com/keiyoushi/extensions">https://github.com/keiyoushi/extensions</a></li>
+<li>Yuzono, extensiones para Komikku y Mihon: <a href="https://github.com/yuzono/tachiyomi-extensions">https://github.com/yuzono/tachiyomi-extensions</a></li>
+<li>Catálogo no oficial de beer-psi: <a href="https://github.com/beer-psi/tachiyomi-unofficial-extensions">https://github.com/beer-psi/tachiyomi-unofficial-extensions</a></li>
+<li>Catálogo de everfio, sin licencia: <a href="https://github.com/everfio/tachiyomi-extensions">https://github.com/everfio/tachiyomi-extensions</a></li>
+<li>MarBou, el código: <a href="https://github.com/marbou92/MHExtensions">https://github.com/marbou92/MHExtensions</a></li>
+<li>MarBou, el índice: <a href="https://github.com/marbou92/MHRepo">https://github.com/marbou92/MHRepo</a></li>
+<li>Extensiones de Aniyomi, archivadas: <a href="https://github.com/aniyomiorg/aniyomi-extensions">https://github.com/aniyomiorg/aniyomi-extensions</a></li>
+<li>Archivo de extensiones retiradas: <a href="https://github.com/timschneeb/tachiyomi-extensions-archive">https://github.com/timschneeb/tachiyomi-extensions-archive</a></li>
+<li>Puente hacia Suwayomi: <a href="https://github.com/Suwayomi/tachiyomi-extension">https://github.com/Suwayomi/tachiyomi-extension</a></li>
+</ul>
+<p><em>Mangayomi y Kototoro</em></p>
+<ul>
+<li>Catálogo de Mangayomi: <a href="https://github.com/m2k3a/mangayomi-extensions">https://github.com/m2k3a/mangayomi-extensions</a></li>
+<li>Parsers de Kototoro: <a href="https://github.com/skepsun/kototoro-parsers">https://github.com/skepsun/kototoro-parsers</a></li>
+<li>Mangayomi, el lector: <a href="https://github.com/kodjodevf/mangayomi">https://github.com/kodjodevf/mangayomi</a></li>
+</ul>
+<p><em>Aidoku y la orilla de Apple</em></p>
+<ul>
+<li>Fuentes comunitarias: <a href="https://github.com/Aidoku-Community/sources">https://github.com/Aidoku-Community/sources</a></li>
+<li>Fuentes antiguas guardadas: <a href="https://github.com/Aidoku-Community/legacy-sources">https://github.com/Aidoku-Community/legacy-sources</a></li>
+<li>Ataduras para escribir fuentes: <a href="https://github.com/Aidoku/aidoku-rs">https://github.com/Aidoku/aidoku-rs</a></li>
+<li>Fuentes en chino: <a href="https://github.com/suiyuran/aidoku-zh-sources">https://github.com/suiyuran/aidoku-zh-sources</a></li>
+<li>Fuentes en chino, el relevo: <a href="https://github.com/0BlueYan0/aidoku-new-zh-sources">https://github.com/0BlueYan0/aidoku-new-zh-sources</a></li>
+<li>Lista personal de Yomu: <a href="https://github.com/Smexhy/yomu-aidoku-sources">https://github.com/Smexhy/yomu-aidoku-sources</a></li>
+<li>Fuentes en francés: <a href="https://github.com/Moomooo95/aidoku-french-sources">https://github.com/Moomooo95/aidoku-french-sources</a></li>
+<li>Fuentes de AlanLang: <a href="https://github.com/AlanLang/aidoku-sources">https://github.com/AlanLang/aidoku-sources</a></li>
+<li>Novelas ligeras: <a href="https://github.com/beer-psi/aidoku-ln-sources">https://github.com/beer-psi/aidoku-ln-sources</a></li>
+<li>Lector Nyora para iPhone y iPad: <a href="https://github.com/Nyora-Manga/nyora-ios">https://github.com/Nyora-Manga/nyora-ios</a></li>
+</ul>
+<p><em>Catálogos recién nacidos</em></p>
+<ul>
+<li>Yomiru: <a href="https://github.com/Torch121/yomiru-extensions">https://github.com/Torch121/yomiru-extensions</a></li>
+<li>anImestream: <a href="https://github.com/sofikuw/anImestream-extensions">https://github.com/sofikuw/anImestream-extensions</a></li>
+<li>Izumi: <a href="https://github.com/nickEatsBread/izumi-extension-repo">https://github.com/nickEatsBread/izumi-extension-repo</a></li>
+</ul>
+<p><em>Herramientas</em></p>
+<ul>
+<li>Compilar extensiones en Colab: <a href="https://github.com/mrtear/Extension-Source-Builder">https://github.com/mrtear/Extension-Source-Builder</a></li>
+<li>Extensiones en la computadora: <a href="https://github.com/SeoMavares/miwayomi">https://github.com/SeoMavares/miwayomi</a></li>
+</ul>
+<p><em>Lectores</em></p>
+<ul>
+<li>Mihon, el lector de la familia Tachiyomi: <a href="https://github.com/mihonapp/mihon">https://github.com/mihonapp/mihon</a></li>
+<li>Komikku, el fork con más funciones de biblioteca: <a href="https://github.com/komikku-app/komikku">https://github.com/komikku-app/komikku</a></li>
+<li>Neko, el lector centrado en MangaDex: <a href="https://github.com/nekomangaorg/Neko">https://github.com/nekomangaorg/Neko</a></li>
+<li>Kototoro, lector con catálogo propio: <a href="https://github.com/Kototoro-app/Kototoro">https://github.com/Kototoro-app/Kototoro</a></li>
+<li>Aniyomi, el hermano de anime: <a href="https://github.com/aniyomiorg/aniyomi">https://github.com/aniyomiorg/aniyomi</a></li>
+</ul>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — el que resuerte</em></p>
+<p>Toda esta guía cabe en una pregunta que se contesta mirando una fecha: ¿quién está surtiendo esto ahora?</p>
+<p>Keiyoushi lo está surtiendo con cientos de manos y un empujón de hoy. El catálogo oficial de anime dejó de hacerlo en agosto de 2024 y sigue en pie por inercia. Un catálogo de ★28 empujó esta mañana mientras otro de ★906 duerme desde marzo. Y tres catálogos nacieron este año con cero estrellas, sin licencia y con la promesa de un reproductor que todavía no existe.</p>
+<p>Ninguno de esos datos te dice qué instalar. Te dicen cómo preguntar, que es más útil y no caduca igual de rápido.</p>
+<blockquote>—¿Y si mañana cierra el colmado?</blockquote>
+<blockquote>—Buscas quién lo resurta. La nevera no se lleva la comida cuando se va el dueño.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Un catálogo no es lo que tiene: es quién lo llena esta semana.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 06:15 y las 07:40 de Santo Domingo · repasada a las 10:09: cuatro repositorios de extensiones habían sumado estrellas desde la mañana y en la tabla van las de esa hora, no las de las siete; el resto no se movió.</p>
+<h2>🗒️ Notas al pie</h2>
+<p><strong>Nota de corte (1-nov):</strong> estrellas, licencias, lenguajes y últimos empujes son de la misma hora de medición; las releases solo se escriben donde se vieron, y en los catálogos nuevos no hay release anotada porque la cuota pública de la API se agotó a media mañana.</p>
+<p><strong>Nota de alcance (1-nov):</strong> esta pieza no receta sitios de lectura ni extensiones concretas de contenido; nombra catálogos, da sus números y enseña a comprobar uno antes de pegarlo en el lector.</p>
+<p><strong>Nota de corrección (1-nov):</strong> se corrigió el número de la lista de preguntas que había quedado desordenado al escribirla, y se midieron también los tres catálogos con cero estrellas para no dibujar un ecosistema donde solo existen los grandes.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

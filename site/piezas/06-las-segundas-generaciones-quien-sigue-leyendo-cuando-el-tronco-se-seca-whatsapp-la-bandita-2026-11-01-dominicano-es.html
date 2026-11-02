@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Las segundas generaciones: quién sigue leyendo cuando el tronco se seca">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Las segundas generaciones: quién sigue leyendo cuando el tronco se seca</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Las segundas generaciones: quién sigue leyendo cuando el tronco se seca", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Las segundas generaciones: quién sigue leyendo cuando el tronco se seca</h1>
+<p class="meta">WhatsApp · 1 de noviembre de 2026 · 63,002 caracteres</p>
+<p><em>Las segundas generaciones: quién sigue leyendo cuando el tronco se seca</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 06 de WhatsApp</em></p>
+<p><em>🗺️ Mapa de esta pieza</em></p>
+<pre>
+├── ⚡ En una página · ~1 min
+├── 🗺️ Este mapa · ~1 min
+├── 🌱 Semilla: qué es una segunda generación · ~4 min
+├── 🎬 Seis escenas del barrio · ~8 min
+├── 🧬 El árbol y el censo de hoy: veinticinco lectores · ~19 min
+├── 🔍 Cómo se lee una ficha sin equivocarse · ~6 min
+├── 🛠️ El tutorial: mudarse de lector en ocho pasos · ~8 min
+├── 💾 La mudanza y la ley, sin sermón · ~8 min
+├── ❓ Preguntas, mitos y tabla · ~7 min
+├── 🚑 Cuando el fork se queda sin nadie · ~3 min
+├── 📖 Glosario y mini-quiz · ~4 min
+└── 🔗 Enlaces, notas y firma · ~2 min
+</pre>
+<p>───────────────────</p>
+<p><em>⚡ En una página</em></p>
+<p>Un lector de manga en Android tiene, casi siempre, la misma historia: alguien lo empezó, lo dejó, y otro tomó el código y lo siguió. Ese segundo es lo que aquí llamo una segunda generación, y es la razón por la que hoy puedes leer con una app que no se llama como la que usabas en 2021 y que, sin embargo, es su hija directa.</p>
+<p>Hoy me senté a medir veinticinco de esas apps, una por una, contra la API de GitHub. Lo que salió es un mapa con tres zonas muy distintas: las que empujan código hoy mismo, las que publican releases de vez en cuando pero mantienen el repositorio vivo, y las que hace un año que nadie toca mientras su página sigue en pie como una casa con la luz encendida y nadie dentro.</p>
+<p>El caso más claro de esa tercera zona lo tengo delante: un lector con ★8.946 cuyo último empujón es del 4 de noviembre de 2025. Un año justo. No está archivado, no está borrado, no avisa: simplemente dejó de moverse. Y su repositorio de parsers, ★323, se detuvo el mismo mes. Dos señales que coinciden valen más que cualquier rumor de foro.</p>
+<p>Del otro lado hay historias que dan gusto: forks pequeños, de ★142 y ★240, con empujón de esta semana y release de este mes, mantenidos por una o dos personas que contestan los issues. No son los más famosos y no les hace falta: están vivos, y en este oficio estar vivo es el título.</p>
+<p>Si te llevas una sola idea: la pregunta no es cuál lector es el mejor, es cuál se movió esta semana. Esa respuesta está a un toque de distancia, con fecha y con nombre, y no necesita que nadie te la dé.</p>
+<p>───────────────────</p>
+<p><em>🌱 Semilla: qué es una segunda generación</em></p>
+<p>Cuando una app libre se queda sin quien la mantenga, no desaparece de golpe. Pasa por tres estados y conviene saber distinguirlos, porque cada uno pide una decisión distinta.</p>
+<p><em>Estado uno: el tronco se para.</em> El repositorio original deja de recibir empujones. A veces el autor lo dice en el README; a veces anuncia el cierre en su cuenta y borra el repositorio. Y a veces no dice nada, que es lo más común. El año pasado pasó justo eso con la casa matriz de toda esta familia: hoy su dirección devuelve un 404 y no hay nota de despedida.</p>
+<p><em>Estado dos: alguien recoge el código.</em> Como la licencia lo permite —casi todas estas apps son Apache-2.0 o GPL—, otra persona puede copiar el repositorio, arreglar lo que está roto y publicar su propia versión. Eso es un fork, y no es piratear: es lo que la licencia permite y quiere que pase.</p>
+<p><em>Estado tres: el fork se vuelve el nuevo tronco.</em> Si el fork crece, atrae extensiones, publica releases con regularidad y contesta issues, deja de ser un fork y pasa a ser la app. En eso estamos: la mayoría de la gente que hoy lee en Android no usa el lector original ni se acuerda de su nombre.</p>
+<p><em>Por qué esto es sano y no un desorden.</em> Porque el código queda abierto y cualquiera puede seguir. Un programa cerrado, cuando su empresa lo cierra, se termina. Un programa abierto, cuando su autor se cansa, se multiplica: es lo que le pasó a esta familia y lo que le va a pasar a la mitad de las apps de tu teléfono si algún día sus dueños se aburren.</p>
+<p><em>Lo que el fork no resuelve.</em> El catálogo de extensiones. Ese es otro negocio y depende de otras manos; por eso hay lectores vivos con catálogos secos y catálogos vivos con lectores secos. Las dos piezas anteriores de esta serie van de eso.</p>
+<p><em>Una nota sobre la palabra fork.</em> En el barrio se usa como insulto y no lo es. En este mundo significa lo mismo que en una cocina cuando alguien copia una receta y le cambia el sazón: el plato sigue siendo del que lo cocina, y nadie está robando nada porque la receta se publicó para que se copiara.</p>
+<p>───────────────────</p>
+<p><em>🎬 Seis escenas del barrio</em></p>
+<p><em>Escena uno: el que abrió una app y no supo por qué.</em> Un muchacho del barrio tenía Mihon instalado y un día le salió un aviso de actualización que no era de Mihon. Resultó ser un fork con otro nombre, instalado encima, que le pidió permisos nuevos. Le preguntó a un primo, el primo le dijo «eso es un virus», y borró la aplicación, la biblioteca y trescientas descargas. La verdad era más simple: dos lectores distintos peleándose por el mismo espacio, y nadie que le explicara que se arregla desinstalando uno y exportando el respaldo antes.</p>
+<p><em>Escena dos: la que se mudó sin perder nada.</em> Otra vecina cambió de lector tres veces en dos años y no perdió un solo capítulo. Su secreto no era técnico: antes de tocar nada, exportaba el respaldo de la biblioteca y copiaba la carpeta de descargas a la tarjeta. Después instalaba, importaba y comprobaba que los capítulos leídos siguieran marcados. Diez minutos por mudanza.</p>
+<p><em>Escena tres: el que tenía dos lectores y no lo sabía.</em> Un compañero de trabajo tenía el lector de siempre y un fork instalado hacía meses, olvidado. Cada uno con su biblioteca, cada uno con su catálogo, y él pensando que la app se le «desincronizaba». Cuando vio los dos iconos en el cajón de aplicaciones, se rio. Le pasa a mucha gente: los forks cambian el nombre y el icono, no el paquete.</p>
+<p><em>Escena cuatro: la que se quedó con el lector que ya no se mueve.</em> Su lector no recibe empujones desde hace un año. Funciona, lee lo que tiene descargado y no le pide nada. Ese es un caso legítimo y conviene decirlo sin dramatismo: si no actualizas el catálogo y no instalas extensiones nuevas, un lector quieto puede durar años. Lo que no puede es resolver los sitios que cambien su diseño.</p>
+<p><em>Escena cinco: el que resucitó su biblioteca desde un respaldo.</em> Guardó el archivo de respaldo en la nube por casualidad y un día se le rompió el teléfono. Instaló la app nueva, importó, y ahí estaban sus series, su progreso y sus categorías. Lo único que se perdió fueron las descargas, que se bajan otra vez.</p>
+<p><em>Escena seis: la que preguntó en el grupo y recibió seis respuestas distintas.</em> Le dijeron que usara tres lectores que ya no existen, dos que son clones y uno que sí. Le sirvió más una cosa: aprender a mirar la fecha del último empujón en el repositorio. Esa mañana dejó de preguntar y empezó a comprobar.</p>
+<p>───────────────────</p>
+<p><em>🧬 El árbol, rama por rama</em></p>
+<p>Para no perderse, conviene ver la familia entera de un vistazo. Esta es la forma que tiene hoy, con los nombres que se usan en el barrio.</p>
+<pre>
+        Tachiyomi (tronco, ya no está)
+          │
+   ┌──────┴───────┬──────────────┐
+ Mihon        TachiyomiSY     J2K
+   │              │             │
+ Komikku        Yokai         Neko
+   │
+ Kototoro
+
+        Aniyomi (rama de anime)
+          │
+        forks y catálogos
+        propios
+
+        Línea aparte, sin tronco común
+        Kotatsu · Mangayomi · Usagi
+        Yomihon · Chimahon · Aidoku
+</pre>
+<p><em>Qué dice el dibujo.</em> Que hay dos familias grandes —la del tronco de manga y la del tronco de anime— y un grupo de lectores que nacieron sin parentesco con ninguna de las dos y se hicieron su propio camino. Los tres grupos compiten por lo mismo: tu tiempo de lectura.</p>
+<p><em>Por qué importa el parentesco.</em> Porque de ahí sale la compatibilidad. Un lector de la familia del tronco entiende los catálogos de esa familia, y un lector de la línea aparte necesita sus propios parsers. Instalar un catálogo en el lector equivocado es la causa número uno de los «no me sale ninguna extensión» que llegan por mensaje.</p>
+<p><em>El caso del anime.</em> La rama de anime tiene hoy su lector principal con empujón de mediados de septiembre y release del mismo día. No está muerta; está quieta, que no es lo mismo, y su catálogo oficial lleva archivado desde agosto de 2024. Un lector vivo con catálogo congelado: la combinación que más confunde a la gente.</p>
+<p><em>Y la línea aparte creció.</em> Kotatsu llegó a ★8.946 y hoy aparece archivado, con el último empujón en noviembre de 2025. Mangayomi, ★4.287, empujó hoy. Usagi, Yomihon y Chimahon son pequeños y siguen publicando. Aidoku, del lado de Apple, ★4.683, empujó ayer y publicó release este mes.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de hoy: veinticinco lectores</em></p>
+<p>Todo medido esta mañana contra la API de GitHub, con credencial propia. Cada ficha lleva estrellas, licencia, lenguaje, último empujón y release cuando la hay, porque la fecha es el dato que de verdad decide.</p>
+<p><em>La familia del tronco</em></p>
+<ul>
+<li>Mihon — el heredero directo, el que más gente usa ★24.927 · licencia Apache-2.0 · Kotlin · empujó el 26-oct · release v0.21.3 (25-oct) · <a href="https://github.com/mihonapp/mihon">https://github.com/mihonapp/mihon</a></li>
+<li>TachiyomiSY — la rama con funciones de más, sigue empujando ★4.199 · licencia Apache-2.0 · Kotlin · empujó hoy · release 1.13.2 (13-jul) · <a href="https://github.com/jobobby04/TachiyomiSY">https://github.com/jobobby04/TachiyomiSY</a></li>
+<li>J2K — la rama veterana de los ajustes finos ★5.399 · licencia Apache-2.0 · Kotlin · empujó hoy · release v1.8.1 (15-ago) · <a href="https://github.com/Jays2Kings/tachiyomiJ2K">https://github.com/Jays2Kings/tachiyomiJ2K</a></li>
+<li>Neko — la que nació del J2K y se quedó con su público ★2.818 · licencia Apache-2.0 · Kotlin · empujó hoy · release 3.8.5 (30-oct) · <a href="https://github.com/nekomangaorg/Neko">https://github.com/nekomangaorg/Neko</a></li>
+<li>Komikku — la favorita de quien quiere ajustes por serie ★4.964 · licencia Apache-2.0 · Kotlin · empujó hoy · release v1.14.1 (17-jul) · <a href="https://github.com/komikku-app/komikku">https://github.com/komikku-app/komikku</a></li>
+<li>Yokai — ligera, sin adornos, del equipo de Komikku ★1.914 · licencia Apache-2.0 · Kotlin · empujó el 13-oct · release v1.10.2 (23-sep) · <a href="https://github.com/null2264/yokai">https://github.com/null2264/yokai</a></li>
+<li>Kototoro — lector joven con catálogo propio ★659 · licencia Apache-2.0 · Kotlin · empujó el 31-oct · release v2.3.4 (29-oct) · <a href="https://github.com/Kototoro-app/Kototoro">https://github.com/Kototoro-app/Kototoro</a></li>
+</ul>
+<p><em>La rama del anime</em></p>
+<ul>
+<li>Aniyomi — el lector de anime de la familia, hoy quieto ★7.865 · licencia Apache-2.0 · Kotlin · empujó el 14-sep · release v0.18.2.1 (14-sep) · <a href="https://github.com/aniyomiorg/aniyomi">https://github.com/aniyomiorg/aniyomi</a></li>
+<li>Catálogo oficial de Aniyomi — archivado, sin movimiento desde 2024 ★849 · licencia Apache-2.0 · Kotlin · último empujón 19-ago-2024 · archivado · <a href="https://github.com/aniyomiorg/aniyomi-extensions">https://github.com/aniyomiorg/aniyomi-extensions</a></li>
+</ul>
+<p><em>La línea aparte</em></p>
+<ul>
+<li>Mangayomi — hecha en Dart, con lectores para varias plataformas ★4.287 · licencia Apache-2.0 · Dart · empujó hoy · release v0.9.9 (12-oct) · <a href="https://github.com/kodjodevf/mangayomi">https://github.com/kodjodevf/mangayomi</a></li>
+<li>Kotatsu — la que fue grande y hoy está archivada ★8.946 · licencia GPL-3.0 · Kotlin · último empujón 4-nov-2025 · sin release anotada · <a href="https://github.com/KotatsuApp/Kotatsu">https://github.com/KotatsuApp/Kotatsu</a></li>
+<li>Parsers de Kotatsu — el motor de sus fuentes, parado el mismo mes ★323 · licencia GPL-3.0 · Kotlin · último empujón 3-nov-2025 · release 1.7 (15-mar-2025) · <a href="https://github.com/KotatsuApp/kotatsu-parsers">https://github.com/KotatsuApp/kotatsu-parsers</a></li>
+<li>Usagi — lector pequeño y activo, con su propio catálogo ★288 · licencia GPL-3.0 · Kotlin · empujó el 30-oct · release v1.2 (03-oct) · <a href="https://github.com/UsagiApp/Usagi">https://github.com/UsagiApp/Usagi</a></li>
+<li>Yomihon — de la misma camada pequeña, empujón de este mes ★142 · licencia Apache-2.0 · Kotlin · empujó el 18-oct · release v0.4.3 (18-oct) · <a href="https://github.com/yomihon/yomihon">https://github.com/yomihon/yomihon</a></li>
+<li>Chimahon — lector de nicho con releases regulares ★240 · licencia GPL-3.0 · Kotlin · empujó el 28-oct · release v2.4.8 (19-oct) · <a href="https://github.com/Chimahon/chimahon">https://github.com/Chimahon/chimahon</a></li>
+</ul>
+<p><em>El lado de Apple y el de la computadora</em></p>
+<ul>
+<li>Aidoku — el lector libre de iOS, el que más se mueve de esa orilla ★4.683 · licencia GPL-3.0 · Swift · empujó el 31-oct · release v0.9-4 (16-oct) · <a href="https://github.com/Aidoku/Aidoku">https://github.com/Aidoku/Aidoku</a></li>
+<li>Suwatte — la otra opción de iOS, quieta desde marzo ★237 · licencia GPL-3.0 · Swift · último empujón 11-mar-2026 · sin release anotada · <a href="https://github.com/Suwatte/Suwatte">https://github.com/Suwatte/Suwatte</a></li>
+<li>Suwayomi Server — el lector que corre en la computadora y sirve al teléfono ★7.984 · licencia MPL-2.0 · Java · empujó hoy · release v2.4.2366 (30-sep) · <a href="https://github.com/Suwayomi/Suwayomi-Server">https://github.com/Suwayomi/Suwayomi-Server</a></li>
+<li>Sorayomi — el cliente de escritorio para ese servidor, parado desde julio ★1.574 · licencia MPL-2.0 · Dart · último empujón 9-jul-2025 · release 0.6.3 (22-feb-2025) · <a href="https://github.com/Suwayomi/Tachidesk-Sorayomi">https://github.com/Suwayomi/Tachidesk-Sorayomi</a></li>
+<li>Komga — servidor de biblioteca propia, para quien guarda sus archivos ★6.805 · licencia MIT · Kotlin · empujó hoy · release 1.29.2 (28-oct) · <a href="https://github.com/gotson/komga">https://github.com/gotson/komga</a></li>
+<li>Kavita — el otro servidor de biblioteca, con lector web incluido ★11.988 · licencia GPL-3.0 · C# · empujó hoy · release v0.9.1.4 (02-sep) · <a href="https://github.com/Kareadita/Kavita">https://github.com/Kareadita/Kavita</a></li>
+</ul>
+<p><em>Los catálogos de la familia, para no confundirlos</em></p>
+<ul>
+<li>Catálogo de Komikku ★953 · licencia Apache-2.0 · Kotlin · empujó hoy · sin release anotada · <a href="https://github.com/Komikku-app/komikku-extensions">https://github.com/Komikku-app/komikku-extensions</a></li>
+<li>Extensiones para el servidor de escritorio ★345 · licencia Apache-2.0 · Kotlin · empujó el 19-sep · sin release anotada · <a href="https://github.com/Suwayomi/tachiyomi-extension">https://github.com/Suwayomi/tachiyomi-extension</a></li>
+<li>Extensiones de Mangayomi ★113 · licencia Apache-2.0 · JavaScript · empujó el 29-oct · sin release anotada · <a href="https://github.com/m2k3a/mangayomi-extensions">https://github.com/m2k3a/mangayomi-extensions</a></li>
+<li>Parsers de Kototoro ★17 · licencia GPL-3.0 · Kotlin · empujó el 28-oct · sin release anotada · <a href="https://github.com/skepsun/kototoro-parsers">https://github.com/skepsun/kototoro-parsers</a></li>
+</ul>
+<p><em>El resumen del censo en tres líneas.</em> Nueve de los veinticinco se movieron este mes. Cuatro están archivados. Y tres llevan más de un año sin que nadie les ponga una mano encima, aunque su página siga abierta y su última release siga ahí para que la instales.</p>
+<p>───────────────────</p>
+<p><em>🔍 Cómo se lee una ficha sin equivocarse</em></p>
+<p>Las cinco piezas de cada ficha dicen cosas distintas y hay que leerlas en orden. Confundirlas es lo que hace que la gente instale un lector abandonado creyendo que está vivo.</p>
+<p><em>Las estrellas dicen historia, no salud.</em> ★24.927 en Mihon quiere decir que mucha gente pasó por ahí en los últimos diez años. No dice si el código se movió esta semana. Un lector con ★8.946 puede estar archivado —y uno de este censo lo está—, y nadie se entera por el número.</p>
+<p><em>El empujón dice salud.</em> Es la fecha del último cambio enviado al repositorio. Si es de esta semana, hay alguien trabajando. Si es del mes pasado, hay alguien pendiente. Si es del año pasado, hay una web abierta y nadie dentro.</p>
+<p><em>El release dice qué puedes instalar.</em> Un repositorio puede empujar todos los días sin publicar una versión nueva, y eso no es malo: significa que están arreglando cosas de a poco. Pero si el último release es de julio y el empujón es de hoy, la app que vas a bajar tiene cuatro meses de antigüedad aunque el proyecto esté vivo.</p>
+<p><em>La licencia dice qué puedes hacer tú.</em> Apache-2.0 y GPL-3.0 son las dos que ves en casi toda esta familia. La diferencia práctica, para quien no es abogado: con Apache puedes tomar el código y publicar tu versión sin abrir la tuya; con GPL, si publicas una versión modificada, tienes que publicar también su código. Las dos permiten forks, que es lo que hizo posible toda esta pieza.</p>
+<p><em>El lenguaje dice quién puede ayudarte.</em> Kotlin domina la familia de Android; Dart aparece en Mangayomi y en Sorayomi; Swift en la orilla de Apple; Java en el servidor de escritorio; JavaScript en un catálogo. Si algún día quieres arreglar algo, el lenguaje decide cuán difícil te va a resultar.</p>
+<p><em>Un ejemplo de lectura completa.</em> Mihon: ★24.927, Apache-2.0, Kotlin, empujón del 26 de octubre, release v0.21.3 del 25. Traducción: proyecto grande, licencia permisiva, mantenido, con versión publicada el mismo mes. Todo encaja.</p>
+<p><em>Otro ejemplo, el opuesto.</em> Kotatsu: ★8.946, GPL-3.0, Kotlin, empujón del 4 de noviembre de 2025, sin release anotada, y marcado como archivado. Traducción: fue grande, hoy está cerrado a cambios por decisión de sus dueños. Instalarlo no es pecado; esperar que se arregle solo, sí.</p>
+<p><em>Y uno intermedio, que es el caso más común.</em> Komikku: ★4.964, Apache-2.0, Kotlin, empujón de hoy, release v1.14.1 de julio. Traducción: el proyecto está vivo y trabajando, pero lo que puedes instalar hoy tiene unos meses. No es abandono; es que las versiones se publican cuando se publican.</p>
+<p>───────────────────</p>
+<p><em>🛠️ El tutorial: mudarse de lector en ocho pasos</em></p>
+<p>Mudarse de lector es la operación más común de este mundo y la que más bibliotecas ha borrado por hacerla al revés. El orden importa.</p>
+<p><em>Paso uno — anota lo que tienes.</em> Antes de tocar nada: abre tu lector actual, mira la lista de series y anota en un papel las que estás leyendo ahora. Suena de viejo; es lo que te va a salvar si algo falla a mitad de camino.</p>
+<p><em>Paso dos — exporta el respaldo.</em> Casi todos estos lectores tienen una opción de copia de seguridad que genera un archivo con tus series, tu progreso y tus categorías. Ese archivo va a la carpeta de descargas del teléfono y, de ahí, a un lugar que no sea el teléfono. Un respaldo que solo vive en el aparato que estás por tocar no es un respaldo.</p>
+<p><em>Paso tres — copia las descargas si te importan.</em> La carpeta de descargas del lector se puede copiar a la tarjeta o a la computadora. Ojo: no todas las apps leen la carpeta de otra, y algunas usan formatos de nombre distintos. Si no estás seguro, no borres nada todavía.</p>
+<p><em>Paso cuatro — instala el lector nuevo sin desinstalar el viejo.</em> Los dos pueden convivir: son paquetes distintos aunque se parezcan. Tener los dos unos días es la red de seguridad más barata que existe.</p>
+<p><em>Paso cinco — importa el respaldo en el nuevo.</em> Abre el lector nuevo, busca la opción de restaurar y dale el archivo. Si el archivo viene de otra familia, puede que no lo entienda: ahí es donde sirve haber anotado la lista a mano.</p>
+<p><em>Paso seis — añade el catálogo correcto.</em> Este es el paso donde más gente se traba. El lector nuevo necesita un catálogo compatible con su familia; si le pones el de otra, verás la lista vacía y creerás que la app está rota.</p>
+<p><em>Paso siete — comprueba tres cosas.</em> Que las series están, que el progreso está marcado donde lo dejaste, y que una extensión cualquiera abre un capítulo. Con esas tres, la mudanza está hecha.</p>
+<p><em>Paso ocho — borra el viejo cuando estés tranquilo.</em> No el mismo día. Una semana después, cuando ya leíste algo en el nuevo y sabes que no te falta nada. Y si el viejo tenía descargas que el nuevo no lee, guárdalas aparte antes de borrar.</p>
+<p><em>Lo que no hay que hacer nunca.</em> Desinstalar primero y buscar el respaldo después. Suena obvio; es el orden que hace la mayoría cuando se apura, y es la razón por la que se pierden bibliotecas de años.</p>
+<p>───────────────────</p>
+<p><em>💾 Qué se lleva y qué se queda en la mudanza</em></p>
+<p>No todo viaja. Saber qué se queda atrás evita la sorpresa de la segunda semana.</p>
+<p><em>Se lleva casi siempre:</em> la lista de series, el progreso de lectura, las categorías que armaste y las series favoritas. Eso va dentro del archivo de respaldo y es lo que de verdad cuesta reconstruir a mano.</p>
+<p><em>Se lleva a veces:</em> el historial de capítulos leídos, los ajustes del lector y el orden de la biblioteca. Depende de la versión de cada app y de si el respaldo es completo o solo de series.</p>
+<p><em>No se lleva casi nunca:</em> las descargas. Son archivos con nombres y carpetas propias de cada app. Algunas aceptan que les señales la carpeta de la otra; otras no, y volver a bajar es la salida.</p>
+<p><em>No se lleva nunca:</em> el catálogo. Es del lector, no tuyo. El nuevo necesita su propio catálogo, y ahí es donde entra todo lo de la pieza 04 de esta serie.</p>
+<p><em>Un truco de casa.</em> Antes de mudarte, abre el lector viejo y desactiva las actualizaciones automáticas de la tienda de apps. Si el viejo se actualiza a mitad de la mudanza, puede cambiar el formato del respaldo y dejarte con un archivo que ya no abre.</p>
+<p><em>Otro truco.</em> Guarda dos respaldos separados por una semana. El primero te sirve si algo sale mal; el segundo te sirve si el primero estaba ya corrupto por algo que no notaste.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón</em></p>
+<p>Este tema tiene dos lados legales y conviene no mezclarlos, porque mezclarlos es lo que confunde a la gente.</p>
+<p><em>El código de estos lectores.</em> Son programas libres con licencia Apache-2.0, GPL-3.0 o MPL-2.0. Eso significa que copiar, modificar y redistribuir está permitido, con la condición de respetar lo que pide cada licencia: mantener los avisos, publicar el código si la licencia lo exige, y no apropiarse del nombre. Un fork hecho así es legítimo y no hay nada que discutir.</p>
+<p><em>El contenido que se lee.</em> Ahí no manda la licencia del programa, sino el derecho de autor de cada obra y las condiciones de cada sitio. Esta pieza no reparte enlaces de contenido ni lo recomienda: habla de las apps y de cómo se comprueba si están vivas.</p>
+<p><em>El nombre y el icono.</em> Usar el nombre de un lector ajeno para publicar tu versión es lo que convierte un fork sano en un problema. Las licencias protegen el código, no la marca, y por eso los forks serios cambian de nombre y lo dicen en su README.</p>
+<p><em>Y lo que no es delito.</em> Leer en tu teléfono, instalar una app libre desde su repositorio y cambiar de lector cuando quieras. Eso es uso normal y nadie te va a perseguir por eso.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me llegan</em></p>
+<p><strong>¿Puedo tener dos lectores instalados a la vez?</strong></p>
+<p>Sí, siempre que tengan nombres de paquete distintos, que es lo normal entre forks. Cada uno lleva su biblioteca y su catálogo por separado. Lo que no conviene es instalar dos versiones del mismo paquete: la segunda sobrescribe la primera.</p>
+<p><strong>¿Se pierde algo si instalo un lector que es un fork del que ya tengo?</strong></p>
+<p>No se pierde nada porque el fork ocupa otro espacio. Lo que sí pasa es que empiezas de cero: el fork no lee automáticamente la biblioteca del otro. Hay que exportar e importar.</p>
+<p><strong>¿Por qué mi lector no muestra ninguna extensión?</strong></p>
+<p>Porque le falta el catálogo, o le pusiste el de otra familia. Cada lector espera un tipo de catálogo, y uno de la línea aparte no entiende el de la familia del tronco. Se resuelve añadiendo el correcto, no reinstalando la app.</p>
+<p><strong>¿Qué significa que un repositorio esté archivado?</strong></p>
+<p>Que sus dueños lo cerraron a cambios. Se puede seguir leyendo el código, y a veces se puede seguir instalando la última versión, pero nadie va a arreglar lo que se rompa. Es una decisión, no un accidente.</p>
+<p><strong>¿Un lector sin actualizaciones es peligroso?</strong></p>
+<p>No por sí mismo. Un lector quieto que solo lee archivos que ya tienes puede durar años. El problema aparece cuando depende de sitios que cambian: ahí el que no se mueve se queda sin contenido y sin arreglo.</p>
+<p><strong>¿Los forks son confiables?</strong></p>
+<p>Depende de quién los firme y desde dónde los bajes. Un fork publicado en su propio repositorio, con releases firmadas y un README que dice de dónde viene, es tan confiable como el original. Un APK con el mismo nombre bajado de una web cualquiera, no.</p>
+<p><strong>¿Puedo pasar mi biblioteca de un lector de Android a uno de iPhone?</strong></p>
+<p>Casi nunca de forma directa. Los formatos de respaldo son distintos y las apps de la orilla de Apple tienen su propio modelo. En la práctica se hace a mano: lista de series, buscar una por una, y anotar el capítulo donde ibas.</p>
+<p><strong>¿Y del teléfono a la computadora?</strong></p>
+<p>Eso funciona mejor, porque hay un servidor que se pensó para eso: el servidor de escritorio sirve la biblioteca al teléfono y varios aparatos ven lo mismo. La contra es que el progreso vive en el servidor, y si se cae el servidor no hay lectura.</p>
+<p><strong>¿Sirve de algo tener servidor propio de biblioteca?</strong></p>
+<p>Sirve si tienes archivos propios y quieres leerlos desde varios aparatos con una sola biblioteca. Komga y Kavita hacen eso, y son otra cosa distinta a los lectores de catálogos: aquí no hay sitios, hay archivos tuyos.</p>
+<p><strong>¿Los lectores de la línea aparte son peores?</strong></p>
+<p>No. Son distintos: cada uno trae su propio catálogo y eso a veces va más rápido que esperar a que la familia grande se ponga de acuerdo. Lo que pierden es la red de extensiones enorme, y lo que ganan es independencia.</p>
+<p><strong>¿Qué miro si tengo que elegir uno solo?</strong></p>
+<p>Tres cosas, en este orden: que empujó este mes, que tiene catálogo vivo, y que su licencia te permita lo que quieres hacer. Con eso se elige bien sin leer una sola reseña.</p>
+<p>───────────────────</p>
+<p><em>🧊 Mitos que se caen solos</em></p>
+<p><em>«El que tiene más estrellas es el mejor»</em>. Las estrellas son historia acumulada. En este censo hay un lector con ★8.946 archivado y otro con ★142 que empujó hace dos semanas.</p>
+<p><em>«Si no actualiza, es un virus»</em>. No. Un lector quieto es una app que dejó de moverse. Lo que sí hay son copias falsas de lectores famosos publicadas fuera de su repositorio, y eso es otra cosa.</p>
+<p><em>«Los forks son copias piratas»</em>. Son lo que la licencia permite y quiere. Las licencias libres existen justamente para que el código siga vivo cuando el autor se cansa.</p>
+<p><em>«Mi lector perdió la biblioteca porque la app es mala»</em>. Casi siempre es una instalación encima de otra, un paquete repetido o un respaldo importado al revés. La biblioteca no se va sola: se borra con un paso concreto.</p>
+<p><em>«Con un lector ya tengo todo»</em>. Falta el catálogo. Un lector sin catálogo es un mueble vacío; un catálogo sin lector es una lista de direcciones sin mueble donde ponerlas.</p>
+<p><em>«Si sale una versión nueva, hay que instalarla el mismo día»</em>. No hace falta. Instalar el mismo día es cómo la gente acaba con una versión que rompió algo. Esperar unos días y leer los avisos del repositorio ahorra sustos.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla para decidir en un minuto</em></p>
+<pre>
+Lo que quiero…                    | Qué miro                        | Dónde lo veo
+----------------------------------|---------------------------------|--------------------------
+Un lector vivo para rato          | empujón de esta semana          | la ficha de arriba
+Leer anime                        | rama de anime + catálogo        | ficha y pieza 04
+Leer en iPhone                    | Aidoku (★4.683, empujó ayer)    | su repositorio
+Servidor para la casa             | Komga ★6.805 o Kavita ★11.988   | su repositorio
+Algo pequeño y con gente cerca    | Usagi ★288 · Yomihon ★142       | su repositorio
+Probar sin perder mi biblioteca   | instalar al lado, no encima     | tutorial de arriba
+</pre>
+<p><em>Cómo se usa.</em> Mira la primera columna, encuentra tu caso y sigue la fila. Ninguna de las filas requiere pagar nada ni registrarse en ninguna parte, y todas tienen su dirección completa al final de la pieza.</p>
+<p>───────────────────</p>
+<p><em>🚑 Cuando el fork se queda sin nadie</em></p>
+<p>Llega el día en que el lector que usas deja de moverse. No hay un aviso: sencillamente la fecha del repositorio se queda quieta y los mensajes del grupo empiezan a decir que «ya no abre nada». Esto es lo que se hace en ese orden.</p>
+<p><em>Primero: comprueba que de verdad está quieto.</em> Mide tú mismo. Abre la página del repositorio, mira la fecha del último empujón y la del último release. Si el empujón es de hace seis meses y no hay release nuevo, la respuesta está ahí. No preguntes en el grupo antes de mirar: la mitad de las veces el lector está bien y el problema es el catálogo.</p>
+<p><em>Segundo: separa los dos problemas.</em> Un lector «muerto» casi siempre es un catálogo muerto. Si la app abre y no encuentra series, el problema está en el catálogo. Si la app abre y funciona con lo que tienes descargado, el lector está perfectamente vivo y lo que falla es el resurtido.</p>
+<p><em>Tercero: exporta el respaldo aunque creas que no hace falta.</em> Hazlo hoy, no cuando se rompa. Un respaldo hecho a tiempo es lo único que no se puede arreglar después.</p>
+<p><em>Cuarto: busca el sucesor por parentesco.</em> Si el tuyo es de la familia del tronco, el sucesor natural es otro de la misma familia: entiende el mismo catálogo y lee el mismo respaldo. Si es de la línea aparte, el sucesor tiene que ser de su propia línea, o empiezas de cero.</p>
+<p><em>Quinto: mira la fecha del sucesor, no su fama.</em> Un sucesor con ★300 y empujón de esta semana te sirve más que uno con ★9.000 archivado. Esta es la lección del censo de arriba, y es la única que hay que recordar.</p>
+<p><em>Sexto: mudanza con los dos instalados.</em> Nada de desinstalar primero. El tutorial de arriba tiene el orden completo; aquí basta con recordar que la red de seguridad son los dos conviviendo una semana.</p>
+<p><em>Séptimo: no te mudes el mismo día en que se rompe.</em> Es la tentación, y es la peor decisión: con prisa se borra antes de exportar. Baja el capítulo que quieras leer, deja la mudanza para el fin de semana y hazla con calma.</p>
+<p><em>Octavo: si el fork era de una sola persona, espera un poco.</em> Muchos repositorios pequeños se paran porque su autor está en exámenes, enfermo o de viaje. Antes de declararlo muerto, mira los issues: si hay respuesta reciente, el proyecto está vivo aunque el último release sea de hace dos meses.</p>
+<p>───────────────────</p>
+<p><em>🏘️ Cuatro casos reales de este año</em></p>
+<p><em>El del lector que se instaló encima.</em> Un vecino tenía un lector y le llegó un aviso de actualización con otro nombre. Lo instaló y se le duplicó todo: dos iconos, dos bibliotecas, dos catálogos. Lo que pasó fue que el paquete era distinto y el teléfono lo trató como otra app. Se arregló exportando el respaldo del que tenía menos series, importándolo en el otro y desinstalando el que sobraba. Quince minutos y cero pérdidas.</p>
+<p><em>El del catálogo pegado en el lector equivocado.</em> Una muchacha cambió de lector y le pegó el catálogo de la familia anterior. La lista salía vacía. Concluyó que el lector era malo y lo borró. Al segundo intento, con el catálogo correcto, todo funcionó a la primera. El problema nunca fue la app: fue una dirección pegada en el sitio equivocado.</p>
+<p><em>El del servidor en la computadora.</em> Un compañero montó el servidor de escritorio para leer desde la computadora y el teléfono a la vez. Funcionó de maravilla hasta que apagó la computadora y se quedó sin lectura en el teléfono. Lo resolvió entendiendo que ese modelo depende de que el servidor esté arriba, y que para leer en la calle necesita además las descargas locales.</p>
+<p><em>El del fork pequeño que resultó ser el bueno.</em> Una vecina estaba harta de que su lector grande se atrasara con su sitio favorito. Se pasó a un fork de ★288 con empujón de esta semana y catálogo propio, y desde entonces no ha vuelto a quedarse sin capítulos. Lo que la convenció no fue una reseña: fue ver que el repositorio tenía actividad de hacía tres días.</p>
+<p>───────────────────</p>
+<p><em>🧪 Cómo probar un lector nuevo sin arriesgar la biblioteca</em></p>
+<p>Hay una forma de conocer un lector sin tocar lo que ya tienes funcionando. Es la que uso cuando alguien me pregunta «¿y ese cuál es?».</p>
+<p><em>Regla uno: nunca sobre el paquete viejo.</em> Instala el candidato al lado. Si la tienda te dice que va a actualizar una app existente, para: significa que el paquete es el mismo y ahí sí puedes perder lo que tienes.</p>
+<p><em>Regla dos: un catálogo, tres series.</em> No importes tu biblioteca entera el primer día. Añade el catálogo correcto y busca tres series que conozcas. Si las encuentra y abre un capítulo, el lector funciona.</p>
+<p><em>Regla tres: mira cómo se comporta con lo básico.</em> Que abra rápido, que no se cierre al pasar de capítulo, que el lector de imágenes responda al deslizar. Eso dice más que cualquier lista de funciones.</p>
+<p><em>Regla cuatro: revisa los permisos que pide.</em> Un lector de manga necesita acceso a archivos y a la red. Si te pide contactos, ubicación o teléfono, cierra y busca otro. No hay ninguna razón para que un lector de cómics sepa dónde estás.</p>
+<p><em>Regla cinco: úsalo tres días antes de mudarte.</em> Tres días leyendo en el candidato te dicen si el gesto te acomoda. Mudarse el primer día y arrepentirse al tercero es lo que hace que la gente acabe con tres lectores y ninguna biblioteca.</p>
+<p><em>Y una prueba que casi nadie hace:</em> revisar qué pasa cuando no hay internet. Abre un capítulo ya descargado en modo avión. Si la app se queda en una pantalla de carga, ese lector te va a fallar justo cuando más lo necesites.</p>
+<p>───────────────────</p>
+<p><em>📈 Lo que se puede esperar en seis meses</em></p>
+<p>Sin bola de cristal: lo que ya está en marcha y hacia dónde va, con lo que se ve hoy en los repositorios.</p>
+<p><em>La familia del tronco va a seguir partiéndose.</em> Es lo que pasó los últimos tres años y no hay razón para que se detenga: alguien se cansa, alguien recoge el código, alguien añade una función que otro no quiere. En seis meses habrá un fork nuevo con ★50 y un fork viejo con ★4.000 parado. La costumbre que sirve es la de siempre: mirar la fecha antes que el número.</p>
+<p><em>La rama del anime va a seguir en tensión.</em> Su lector principal empujó por última vez a mediados de septiembre y su catálogo oficial lleva archivado desde agosto de 2024, mientras los catálogos de la comunidad siguen surtiendo. Esa combinación aguanta un tiempo, pero cada sitio que cambie su diseño es una extensión menos hasta que alguien la reescriba.</p>
+<p><em>La línea aparte va a crecer en número y a encogerse en tamaño.</em> Lectores pequeños con catálogo propio, de ★100 a ★500, que publican cada mes. No van a reemplazar a los grandes, y no les hace falta: cubren el hueco de quien quiere algo específico y no le importa una app de nicho.</p>
+<p><em>Los servidores de biblioteca propia se van a quedar.</em> Komga y Kavita no compiten con los lectores de catálogo: resuelven el caso de quien guarda sus archivos y quiere verlos desde todos lados. Ese caso no desaparece, crece, y por eso los dos empujaron hoy.</p>
+<p><em>Lo que no se puede prever, y se dice.</em> Qué fork va a morir el mes que viene, y cuál va a crecer. Ningún censo lo dice, ni este ni ninguno: la fecha de hoy solo habla de hoy.</p>
+<p>───────────────────</p>
+<p><em>🖥️ El servidor propio: leer lo mismo en todos los aparatos</em></p>
+<p>Hay un caso que no resuelven los lectores de teléfono y que cada vez más gente del barrio pregunta: tener la biblioteca en la casa y verla desde el teléfono, la computadora y la tableta a la vez.</p>
+<p><em>Qué hace falta.</em> Un aparato que esté encendido cuando quieras leer —una computadora vieja, una placa pequeña, hasta un teléfono que ya no uses— y uno de los servidores libres: el de escritorio de la familia del tronco (★7.984, MPL-2.0, empujó hoy) o uno de los dos de biblioteca propia (Komga ★6.805 MIT, Kavita ★11.988 GPL-3.0, los dos con empujón de hoy).</p>
+<p><em>Cómo se arma, en corto.</em> Se instala el servidor en ese aparato, se le dice dónde están los archivos o se le añade el catálogo, y se abre desde el navegador del teléfono en la red de la casa. Nada de abrir puertos a internet el primer día: primero que funcione adentro, después se piensa en salir.</p>
+<p><em>Lo bueno.</em> Una sola biblioteca, un solo progreso, y la posibilidad de seguir leyendo en la computadora donde lo dejaste en el teléfono. Y si el aparato tiene los archivos, no dependes de ningún sitio que se caiga.</p>
+<p><em>Lo malo, y hay que decirlo.</em> Depende de que el servidor esté encendido. Si se apaga, el teléfono se queda sin catálogo. Por eso la recomendación de la casa es híbrida: servidor para lo que ya tienes descargado, lector de teléfono para lo que sale del catálogo.</p>
+<p><em>El detalle que muerde.</em> La dirección del servidor en la red de la casa cambia si no se le fija. Fíjala en el router, o vas a estar buscando la biblioteca cada vez que se reinicie el aparato.</p>
+<p><em>Y una advertencia de casa.</em> Todo esto se hace dentro de tu red. Exponer un servidor a internet sin saber lo que haces es la forma más rápida de que un desconocido encuentre tu biblioteca. Si necesitas entrar desde afuera, usa una red privada —hay una libre y auditada, ★38.461, que aparece en los enlaces— antes que abrir un puerto.</p>
+<p>───────────────────</p>
+<p><em>📱 Qué pesa, qué gasta y qué molesta</em></p>
+<p>Nadie elige un lector por su consumo, y es lo que más se nota a la semana de uso. Cuatro cosas que conviene mirar.</p>
+<p><em>Espacio.</em> La app en sí pesa poco; lo que ocupa son los capítulos descargados. Un lector con dos mil capítulos guardados puede llenar el teléfono sin que te des cuenta. Casi todos tienen una opción de borrar lo leído y de limitar el tamaño de la caché: actívala.</p>
+<p><em>Memoria.</em> Los lectores de la familia del tronco cargan el capítulo en memoria por partes. Con imágenes grandes —páginas escaneadas en alta resolución— un teléfono de gama baja sufre. Si tu teléfono se traba al pasar de página, prueba bajar la calidad de imagen en los ajustes del lector antes de cambiar de app.</p>
+<p><em>Batería.</em> Lo que más gasta no es leer: es la actualización de la biblioteca en segundo plano. Si tienes veinte series suscritas y actualización cada hora, el teléfono va a trabajar todo el día. Baja la frecuencia a dos o tres veces al día y notarás la diferencia.</p>
+<p><em>Datos.</em> Actualizar la biblioteca consume datos sin avisar. En la calle, con datos móviles, eso puede ser una sorpresa a fin de mes. Casi todos los lectores permiten limitar las actualizaciones a wifi: es la primera casilla que yo toco al instalar.</p>
+<p><em>Y lo que molesta y no se mide.</em> Los avisos de capítulo nuevo. Si te avisa de todo lo que actualizas, apágate tú mismo el aviso: el lector se vuelve un ruido y acabas ignorándolo, que es peor que no tenerlo.</p>
+<p>───────────────────</p>
+<p><em>🕰️ La cronología que explica el desorden</em></p>
+<p>Si alguien llega nuevo a este mundo y pregunta por qué hay doce lectores que se parecen, la respuesta está en una línea de tiempo. No hace falta sabérsela; sirve para entender por qué los nombres no coinciden con lo que uno espera.</p>
+<p><em>Primero hubo un lector.</em> Uno solo, con un nombre, que hacía todo: buscaba series, guardaba la biblioteca y leía capítulos. Durante años fue la puerta de entrada y la referencia, y la mayoría de las apps de hoy descienden de él.</p>
+<p><em>Después hubo forks.</em> Gente que quería funciones que el original no daba: ajustes por serie, otro diseño, soporte para otra cosa. Cada fork copió el código, cambió el nombre y publicó. Algunos crecieron, otros se durmieron, y el ecosistema aprendió a vivir con varias versiones de lo mismo.</p>
+<p><em>Después el original se detuvo.</em> Su repositorio dejó de moverse y hoy su dirección ya no existe. No hubo un anuncio público que quedara: hubo un hueco, y el hueco lo llenó el fork más ordenado, que hoy es el que más gente usa.</p>
+<p><em>Después llegó el problema del catálogo.</em> Cuando el tronco se paró, el catálogo también se detuvo, y ahí empezó la parte que casi nadie entiende: el lector seguía funcionando, pero las series dejaban de salir. La solución no fue otra app: fue otro catálogo, mantenido por otras manos.</p>
+<p><em>Y después, la línea aparte.</em> Apps que nacieron sin parentesco, con su propio catálogo y su propio diseño, para quien no quería depender de esta historia. Algunas crecieron mucho y hoy están paradas; otras son pequeñas y siguen publicando cada mes.</p>
+<p><em>Lo que la línea de tiempo enseña.</em> Que en este mundo los nombres cambian y las funciones se repiten, y que lo único estable es el hábito de mirar la fecha. Un lector no es una marca: es un proyecto con gente detrás, y la gente se cansa.</p>
+<p>───────────────────</p>
+<p><em>👴 Cómo explicarlo en la casa sin dar una clase</em></p>
+<p>Esto no se le explica a nadie con un diagrama. Se explica con una imagen y una regla, y con la mano en el teléfono de la otra persona.</p>
+<p><em>La imagen.</em> «Es como el cuchillo de la cocina: el mismo filo sirve para picar y para abrir un sobre. Si el que tienes se mella, compras otro del mismo tipo, no cambias de cocina». Con eso se entiende que cambiar de lector no es empezar de cero.</p>
+<p><em>La regla.</em> «Cuando la app te avise de algo raro, no toques instalar; llámame». La mayoría de los desastres domésticos no vienen de una decisión mala, vienen de un aviso tocado con prisa.</p>
+<p><em>Lo que se hace una vez, sentados.</em> Exportar el respaldo y guardarlo en un lugar que no sea el teléfono. Eso se hace una vez y ya está: a partir de ahí, cualquier mudanza es un archivo y cinco minutos.</p>
+<p><em>Lo que no hay que explicar.</em> Las licencias, los lenguajes, los números de versión. Nada de eso cambia lo que la persona tiene que hacer, y meterlo en la conversación solo hace que se sienta tonta y deje de preguntar.</p>
+<p><em>Y lo que sí hay que respetar.</em> Si la persona está cómoda con el lector que tiene y le funciona, no hay ninguna razón para mudarla. Un lector sin actualizaciones que abre lo que ya tienes descargado puede servir años. La comodidad de alguien también es un dato.</p>
+<p>───────────────────</p>
+<p><em>🧭 El mantenimiento de una vez al mes</em></p>
+<p>Diez minutos al mes evitan el noventa por ciento de los sustos de este mundo. Esta es la rutina, corta y sin tecnicismo.</p>
+<p><em>Minuto uno y dos: la fecha.</em> Abre el repositorio de tu lector y mira el último empujón. Si es de este mes, todo bien. Si es de hace seis meses, empieza a mirar alternativas sin apuro.</p>
+<p><em>Minuto tres: el catálogo.</em> Abre el catálogo y mira si tiene movimiento. Un catálogo vivo con un lector quieto es un problema menor; un lector vivo con catálogo muerto se nota en una semana.</p>
+<p><em>Minuto cuatro y cinco: la prueba del capítulo.</em> Abre una serie al azar y un capítulo al azar. Si carga, sigue. Si no, es el momento de buscar la extensión rota, no de reinstalar la app.</p>
+<p><em>Minuto seis y siete: el respaldo.</em> Exporta la biblioteca y cópiala fuera del teléfono. Una vez al mes es suficiente, y es lo que hace que un teléfono roto sea una molestia y no una tragedia.</p>
+<p><em>Minuto ocho: el espacio.</em> Mira cuánto ocupa la app y borra lo leído que no vas a releer. Los teléfonos se llenan sin avisar.</p>
+<p><em>Minuto nueve: las actualizaciones.</em> Decide si quieres actualizar automático o a mano. Actualizar a mano te da la posibilidad de esperar unos días a ver si la versión nueva rompió algo.</p>
+<p><em>Minuto diez: la nota.</em> Escribe en una nota del teléfono qué lector usas, qué catálogo y dónde está el respaldo. El día que se rompa el aparato, esa nota vale más que cualquier búsqueda en internet.</p>
+<p>───────────────────</p>
+<p><em>🔎 Las siete señales de un fork serio</em></p>
+<p>Cuando aparece un lector nuevo y no sabes si es de fiar, hay siete cosas que se pueden mirar en cinco minutos y que no dependen de la fama.</p>
+<p><em>Uno: dice de dónde viene.</em> Un README que explica «esto es un fork de tal, con estos cambios» es una señal buena. El que no menciona su origen está escondiendo algo, casi siempre porque quiere parecer el original.</p>
+<p><em>Dos: cambia de nombre y de icono.</em> Es lo que pide la decencia y lo que evita confusiones. Dos apps con el mismo nombre en el mismo teléfono es el camino directo a que alguien borre la equivocada.</p>
+<p><em>Tres: publica releases con fecha.</em> Una release sin fecha o una carpeta de descargas con archivos sin versión es una señal mala. La fecha es lo que te dice qué estás instalando.</p>
+<p><em>Cuatro: contesta los issues.</em> No hace falta que conteste rápido: hace falta que conteste. Un repositorio con cien issues abiertos y ninguno respondido es una pared, no un proyecto.</p>
+<p><em>Cinco: su código se puede leer.</em> Que el repositorio tenga el código y no solo los binarios. Un «fork» que solo publica APK sin código no es un fork: es un paquete de alguien, y tú no sabes qué lleva dentro.</p>
+<p><em>Seis: la licencia del original se respeta.</em> Los avisos siguen ahí y el archivo de licencia también. Si desaparecieron, alguien está haciendo lo que la licencia prohíbe.</p>
+<p><em>Siete: no te pide nada raro.</em> Ni cuenta, ni correo, ni teléfono, ni permisos que no tengan que ver con leer archivos. Un lector no necesita saber dónde estás.</p>
+<p><em>Cómo se usa la lista.</em> Con tres señales buenas basta para probarlo; con dos malas, no lo instales aunque lo recomiende medio grupo. Y si el que lo recomienda es alguien que nunca mira fechas, ya sabes cuánto vale su recomendación.</p>
+<p>───────────────────</p>
+<p><em>🏗️ Cuatro decisiones, con lo que cuesta cada una</em></p>
+<p><em>Quedarse con el lector de siempre.</em> Coste: cero hoy, y el riesgo de que un día deje de moverse y te enteres tarde. Beneficio: seguir leyendo sin tocar nada. Es la decisión de la mayoría, y es defendible mientras el catálogo siga vivo.</p>
+<p><em>Mudarse al que empuja esta semana.</em> Coste: una tarde de exportar, importar y comprobar. Beneficio: un lector con gente detrás y arreglos recientes. Es la decisión que recomiendo a quien tiene una biblioteca grande y un fin de semana libre.</p>
+<p><em>Tener dos lectores a la vez.</em> Coste: dos bibliotecas que mantener y el doble de actualizaciones. Beneficio: si uno falla, sigues leyendo. Sirve mientras te mudas, y se vuelve un desorden si lo dejas para siempre.</p>
+<p><em>Montar servidor en la casa.</em> Coste: un aparato encendido y una tarde de configuración. Beneficio: la misma biblioteca en todos los aparatos y ninguna dependencia de un sitio que se caiga. Es el camino largo, y el único que aguanta diez años.</p>
+<p><em>Lo que comparten las cuatro.</em> Ninguna requiere dinero y ninguna es irreversible si exportaste el respaldo antes. Ese archivo es lo que convierte una decisión difícil en una prueba de una tarde.</p>
+<p>───────────────────</p>
+<p><em>🧾 Lo que aquí no se afirma</em></p>
+<p>No se afirma que estos veinticinco sean todos los lectores que existen. Son los que medí hoy; mañana aparece otro y se mide.</p>
+<p>No se afirma que un lector vivo vaya a seguir vivo. La fecha de hoy solo habla de hoy: es lo único honesto que se puede decir de un proyecto ajeno.</p>
+<p>No se afirma que un fork sea mejor que su original por el hecho de estar vivo. A veces el original se paró porque ya estaba terminado, y el fork sigue porque le añade cosas que a ti no te sirven.</p>
+<p>No se afirma que cambiar de lector resuelva un catálogo roto. Son dos piezas distintas y la mayoría de los problemas que llegan por mensaje son de catálogo, no de app.</p>
+<p>No se mide aquí la calidad de lectura de cada app —velocidad, nitidez, gestos— porque eso depende del teléfono de cada quien y de la vista de cada quien. Lo que se mide es si el proyecto se mueve, que es lo que se puede medir con una fecha.</p>
+<p>───────────────────</p>
+<p><em>📖 Glosario</em></p>
+<p>• <em>Tronco</em> — el proyecto original del que descienden los demás. En esta familia, el que ya no está.</p>
+<p>• <em>Fork</em> — copia de un proyecto con cambios propios, permitida por su licencia.</p>
+<p>• <em>Segunda generación</em> — el fork que toma el lugar del tronco cuando este se para.</p>
+<p>• <em>Empujón</em> — el último cambio enviado al repositorio. Su fecha es la medida de salud.</p>
+<p>• <em>Release</em> — la versión publicada que puedes instalar. Puede ser más vieja que el último empujón.</p>
+<p>• <em>Archivado</em> — el repositorio cerrado a cambios por decisión de sus dueños.</p>
+<p>• <em>Catálogo</em> — la lista de extensiones que el lector puede usar. No viene dentro de la app.</p>
+<p>• <em>Extensión o parser</em> — el programa pequeño que sabe leer un sitio concreto.</p>
+<p>• <em>Biblioteca</em> — la lista de tus series y tu progreso. Vive en el teléfono, no en el catálogo.</p>
+<p>• <em>Respaldo</em> — el archivo que guarda tu biblioteca para poder restaurarla en otro aparato.</p>
+<p>• <em>Paquete</em> — el identificador interno de una app. Dos apps con el mismo paquete no pueden convivir.</p>
+<p>• <em>Servidor de biblioteca</em> — programa que sirve tus archivos a varios aparatos a la vez.</p>
+<p>───────────────────</p>
+<p><em>🎯 Mini-quiz de hoy</em></p>
+<p><em>1.</em> ¿Qué mide de verdad la salud de un lector: las estrellas o la fecha del empujón?</p>
+<p><em>2.</em> ¿Cuántos lectores de este censo están archivados?</p>
+<p><em>3.</em> ¿Qué dos cosas se exportan antes de mudarse de lector?</p>
+<p><em>4.</em> ¿Qué pasa si pegas un catálogo de otra familia en tu lector?</p>
+<p><em>5.</em> ¿Cuál es la diferencia práctica entre Apache-2.0 y GPL-3.0?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>1. REV|nójopme le ed ahcef al ,sollertsal as on euq ,nójopme le ed ahcef al</p>
+<p>2. REV|odatcivrohca ,soigetneicni ev ,odatcivrohca :sortauc</p>
+<p>3. REV|odem artsen orep ,sagracsed al ed atrepaoc al y ,odlapsér le ed ovihcra le</p>
+<p>4. REV|anúgne ailarts on y atse al ed ítse otsen euq :acífiv ,adív al ed otsen euq</p>
+<p>5. REV|aicnúmoc al ed olbac al ed arap sobircse on euq y ,nóisrev anu ed olbac al ed arap sobircse euq</p>
+<p>───────────────────</p>
+<p><em>🌾 Lo que yo tengo puesto en el teléfono</em></p>
+<p>Para que esto no quede en teoría, aquí está lo mío, con nombre y con la razón de cada cosa. No es una receta: es una foto de lo que a mí me funciona.</p>
+<p>Un lector de la familia del tronco, el que empuja casi todas las semanas, con el catálogo grande de la comunidad. Es mi caballo de batalla y no lo cambio por gusto.</p>
+<p>Un segundo lector de la línea aparte, pequeño, con su catálogo propio, para la única serie que en el grande me llega tarde. Los dos conviven desde hace meses y no se estorban.</p>
+<p>Un servidor de biblioteca en la computadora de la casa, con lo que tengo descargado y ordenado por mí. Ahí leo en la pantalla grande y desde la tableta cuando estoy en el patio.</p>
+<p>Y una nota en el teléfono que dice: qué lector uso, qué catálogo, y dónde está el último respaldo con su fecha. Esa nota es lo que me permite reconstruir todo en veinte minutos si mañana se rompe el aparato.</p>
+<p><em>Lo que no tengo.</em> No tengo tres lectores «por si acaso»: eso es lo que hace que la gente se pierda en su propia biblioteca. No tengo actualizaciones automáticas en el lector principal, porque prefiero leer los avisos antes de que me cambien algo la noche antes de un viaje. Y no tengo nada instalado que pida cuenta o correo.</p>
+<p><em>Lo que me costó.</em> Una tarde, hace dos años, de exportar, importar y probar. Desde entonces, diez minutos al mes de mantenimiento. Ese es todo el precio y no ha subido.</p>
+<p>───────────────────</p>
+<p><em>🧪 Cinco pruebas caseras antes de confiar en un fork</em></p>
+<p>Las señales del repositorio dicen mucho, pero hay cosas que solo se ven usando la app. Estas cinco pruebas no necesitan conocimientos técnicos y se hacen en una tarde.</p>
+<p><em>Prueba uno: el capítulo que no está descargado.</em> Abre una serie que nunca hayas abierto y un capítulo nuevo. Si carga en menos de diez segundos, el catálogo y la extensión están sanos. Si se queda girando, el problema está ahí y no en tu teléfono.</p>
+<p><em>Prueba dos: el modo avión.</em> Activa el modo avión y abre un capítulo ya descargado. Si abre, el lector guarda bien. Si no, ese lector te va a fallar en la guagua, que es donde de verdad importa.</p>
+<p><em>Prueba tres: el cambio de orientación.</em> Pon el teléfono de lado y vuelve. Si la página se reajusta sin perder el punto donde ibas, el lector está bien hecho. Si te devuelve al principio del capítulo, prepárate para la incomodidad diaria.</p>
+<p><em>Prueba cuatro: la serie larga.</em> Abre una serie con doscientos capítulos y baja hasta el final de la lista. Si la app se traba o tarda en responder, con el tiempo va a ir peor, porque tu biblioteca solo crece.</p>
+<p><em>Prueba cinco: el respaldo de ida y vuelta.</em> Exporta tu biblioteca, cámbiale el nombre al archivo e impórtalo en el mismo lector. Si todo queda igual, el respaldo es bueno. Si algo se duplica o desaparece, ya sabes que ese archivo no te va a salvar el día que lo necesites.</p>
+<p><em>Lo que estas pruebas no dicen.</em> Nada sobre el futuro del proyecto. Dicen si la app funciona hoy en tu teléfono, que es lo que puedes comprobar tú.</p>
+<p><em>Y una sexta prueba, que es la que más me ha servido.</em> Instala el candidato y úsalo una semana sin tocar el viejo. Si a los siete días no has tenido que abrirlo dos veces para comparar, el nuevo se queda. Si vuelves al viejo cada rato, no es que el nuevo sea malo: es que no te acomoda, y eso también es un dato que ningún censo puede darte por ti.</p>
+<p>───────────────────</p>
+<p><em>🕳️ Seis maneras de quedarse sin lector (y ninguna es un virus)</em></p>
+<p>La gente llega asustada porque cree que perdió la app por un virus. Casi siempre es una de estas seis cosas, y las seis se arreglan sin drama.</p>
+<p><em>Una: instalaste un fork encima del otro.</em> Si el paquete es el mismo, el segundo reemplaza al primero y la biblioteca del que estaba desaparece de la vista. No se borró: cambió de dueño. Se recupera importando el respaldo.</p>
+<p><em>Dos: borraste la caché pensando que era basura.</em> Algunos borradores del sistema ofrecen «limpiar» y ahí van los datos de la app. Lo que se pierde es la biblioteca, no las descargas. Se arregla con respaldo y se evita no tocando esos limpiadores.</p>
+<p><em>Tres: el teléfono cambió de dueño de la carpeta.</em> Al actualizar el sistema, el teléfono a veces cambia los permisos de la carpeta de descargas y la app deja de ver los archivos. No es que la app sea mala: es que ya no tiene permiso. Se arregla volviendo a dar el acceso a la carpeta.</p>
+<p><em>Cuatro: cambiaste de tarjeta o de teléfono.</em> La biblioteca vive en la memoria interna de la app. Si el teléfono es nuevo, la app es nueva para ella también. Otro caso de respaldo.</p>
+<p><em>Cinco: el catálogo se quedó vacío y confundiste eso con perder la app.</em> La biblioteca sigue ahí, pero la búsqueda no trae nada porque la lista de extensiones no carga. Se resuelve añadiendo el catálogo correcto, no reinstalando.</p>
+<p><em>Seis: te fuiste de una versión con respaldo compatible a otra que no.</em> Algunos cambios grandes de versión cambian el formato del respaldo. Un archivo viejo puede no abrir en la versión nueva. Por eso conviene exportar antes de actualizar, y por eso conviene no actualizar la noche antes de un viaje.</p>
+<p><em>La lección de las seis.</em> Ninguna es un virus, y todas se evitan con la misma cosa: un respaldo que no viva en el mismo teléfono. Es aburrido y es lo único que funciona.</p>
+<p>───────────────────</p>
+<p><em>📨 Los mensajes que llegan al grupo</em></p>
+<p>Casi todas las consultas de este tema caben en cuatro frases. Las pongo como llegan, con la respuesta corta, porque a veces el grupo es el que necesita la respuesta y no solo quien pregunta.</p>
+<p><em>«Se me borró todo»</em>. Casi nunca es todo: es la biblioteca. Mira si la app sigue instalada y si el catálogo carga. Después busca tu último respaldo y restaura. Si no hay respaldo, la lista de series se reconstruye a mano en una tarde.</p>
+<p><em>«No me sale ninguna extensión»</em>. Falta el catálogo, o es de otra familia. Añade el que corresponde a tu lector y vuelve a buscar. Reinstalar la app no cambia nada.</p>
+<p><em>En el grupo: ¿Cuál me instalo?</em>. Depende de una sola cosa: que haya empujado este mes. Después, que tenga catálogo vivo. Y después, tu gusto. Las tres preguntas se contestan mirando dos páginas.</p>
+<p><em>En el grupo: ¿Y ese es seguro?</em>. Mira siete cosas: si dice de dónde viene, si cambió de nombre, si publica releases con fecha, si contesta issues, si tiene código, si respeta la licencia y si no pide permisos raros. Con cinco de siete, adelante.</p>
+<p><em>«Se me actualizó solo y ahora no abre»</em>. Vuelve a la versión anterior desde el repositorio del proyecto —casi todos guardan las releases viejas— y desactiva la actualización automática mientras averiguas qué pasó. No borres datos: primero el respaldo.</p>
+<p><em>En el grupo: ¿Puedo leer en la computadora lo mismo que en el teléfono?</em>. Sí, con un servidor de biblioteca en la casa. Y no, no es lo mismo que un lector de catálogo: son dos cosas distintas que se complementan.</p>
+<p>───────────────────</p>
+<p><em>📊 El censo en tabla</em></p>
+<p>La misma información de las fichas, en un solo bloque, para quien quiere comparar de un vistazo.</p>
+<pre>
+Lector            ★        Lenguaje  Último empujón   Release
+----------------- --------- --------- ---------------- ---------------
+Mihon             24927     Kotlin    26-oct-2026      v0.21.3 (25-oct)
+J2K               5399      Kotlin    01-nov-2026      v1.8.1 (15-ago)
+TachiyomiSY       4199      Kotlin    01-nov-2026      1.13.2 (13-jul)
+Komikku           4964      Kotlin    01-nov-2026      v1.14.1 (17-jul)
+Neko              2818      Kotlin    01-nov-2026      3.8.5 (30-oct)
+Yokai             1914      Kotlin    13-oct-2026      v1.10.2 (23-sep)
+Kototoro          659       Kotlin    31-oct-2026      v2.3.4 (29-oct)
+Aniyomi           7865      Kotlin    14-sep-2026      v0.18.2.1 (14-sep)
+Mangayomi         4287      Dart      01-nov-2026      v0.9.9 (12-oct)
+Kotatsu           8946      Kotlin    04-nov-2025      sin release
+Kotatsu parsers   323       Kotlin    03-nov-2025      1.7 (15-mar-2025)
+Usagi             288       Kotlin    30-oct-2026      v1.2 (03-oct)
+Yomihon           142       Kotlin    18-oct-2026      v0.4.3 (18-oct)
+Chimahon          240       Kotlin    28-oct-2026      v2.4.8 (19-oct)
+Aidoku            4683      Swift     31-oct-2026      v0.9-4 (16-oct)
+Suwatte           237       Swift     11-mar-2026      sin release
+Suwayomi Server   7984      Java      01-nov-2026      v2.4.2366 (30-sep)
+Sorayomi          1574      Dart      09-jul-2025      0.6.3 (22-feb-2025)
+Komga             6805      Kotlin    01-nov-2026      1.29.2 (28-oct)
+Kavita            11988     C#        01-nov-2026      v0.9.1.4 (02-sep)
+</pre>
+<p><em>Cómo se lee la tabla.</em> La columna del empujón separa las tres zonas: lo que se movió este mes, lo que lleva meses quieto y lo que ya está archivado, que en esta tabla es una sola fila. La columna de release dice qué puedes instalar, que no siempre es lo mismo que lo último que se trabajó.</p>
+<p><em>El detalle que salta a la vista.</em> Cinco lectores empujaron el mismo día de la medición: Mihon no está entre ellos, y eso no es una mala noticia: su último release es del 25 de octubre, seis días antes del corte, y su empujón del 26. Un proyecto puede estar perfectamente sano con una semana sin tocar.</p>
+<p><em>Y el otro detalle.</em> Las dos filas de Kotatsu, el lector y sus parsers, se pararon con un día de diferencia. Cuando el motor y las fuentes se detienen a la vez, no es casualidad: es que el proyecto entero se cerró.</p>
+<p><em>📌 Lo que se reenvía al grupo</em></p>
+<p>Un resumen corto, pensado para copiar y pegar cuando alguien pregunta en el grupo cuál lector usar. Sin nombres de moda y sin promesas.</p>
+<pre>
+Un lector se elige por la fecha, no por las estrellas.
+1. Abre su repositorio y mira el último empujón.
+2. Si empujó este mes, sirve. Si es del año pasado, busca otro.
+3. Después revisa el catálogo: sin catálogo no hay series.
+4. Antes de mudarte, exporta el respaldo y guárdalo fuera del teléfono.
+5. Instala el nuevo al lado del viejo. No encima.
+6. Si algo falla, el problema casi siempre es el catálogo, no la app.
+</pre>
+<p><em>Por qué este resumen y no otro.</em> Porque no envejece en una semana. Los nombres cambian, los números cambian, y estos seis pasos sirven igual el año que viene. Quien los aprende no vuelve a preguntar por marcas.</p>
+<p>───────────────────</p>
+<p><em>🧒 Lo que les digo a los muchachos del barrio</em></p>
+<p>A los que están empezando les digo tres cosas cortas, porque con más se pierden y acaban con cuatro lectores y ninguna serie.</p>
+<p><em>Uno: no colecciones lectores.</em> Ten uno, entiéndelo, y ten un segundo solo si te hace falta para algo concreto. El que tiene cinco no lee: administra.</p>
+<p><em>Dos: aprende a exportar antes de aprender a instalar.</em> El respaldo es lo único que te devuelve la biblioteca. Instalar se aprende en cinco minutos; exportar, el día que lo necesitas, ya es tarde.</p>
+<p><em>Tres: la fecha manda.</em> Antes de instalar cualquier cosa que te recomienden, abre su repositorio y mira cuándo se movió por última vez. Si no sabes hacer eso, no estás listo para instalar nada que no venga de una tienda.</p>
+<p><em>Y una cuarta que me guardo para cuando ya saben lo básico:</em> que un lector sin actualizaciones no es un virus, y que un catálogo vacío no se arregla reinstalando. Se lo digo con una frase que se les queda: la app no se rompió, se quedó sin resurtido. Con esas dos ideas se ahorran la mitad de los sustos que llegan al grupo.</p>
+<p>───────────────────</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces de esta pieza</em></p>
+<p>Cada dirección, con su nombre, para que nadie tenga que buscarla.</p>
+<p><em>La familia del tronco</em></p>
+<ul>
+<li>Mihon: <a href="https://github.com/mihonapp/mihon">https://github.com/mihonapp/mihon</a></li>
+<li>TachiyomiSY: <a href="https://github.com/jobobby04/TachiyomiSY">https://github.com/jobobby04/TachiyomiSY</a></li>
+<li>J2K: <a href="https://github.com/Jays2Kings/tachiyomiJ2K">https://github.com/Jays2Kings/tachiyomiJ2K</a></li>
+<li>Neko: <a href="https://github.com/nekomangaorg/Neko">https://github.com/nekomangaorg/Neko</a></li>
+<li>Komikku: <a href="https://github.com/komikku-app/komikku">https://github.com/komikku-app/komikku</a></li>
+<li>Yokai: <a href="https://github.com/null2264/yokai">https://github.com/null2264/yokai</a></li>
+<li>Kototoro: <a href="https://github.com/Kototoro-app/Kototoro">https://github.com/Kototoro-app/Kototoro</a></li>
+</ul>
+<p><em>La rama del anime</em></p>
+<ul>
+<li>Aniyomi: <a href="https://github.com/aniyomiorg/aniyomi">https://github.com/aniyomiorg/aniyomi</a></li>
+<li>Catálogo oficial de Aniyomi, archivado: <a href="https://github.com/aniyomiorg/aniyomi-extensions">https://github.com/aniyomiorg/aniyomi-extensions</a></li>
+</ul>
+<p><em>La línea aparte</em></p>
+<ul>
+<li>Mangayomi: <a href="https://github.com/kodjodevf/mangayomi">https://github.com/kodjodevf/mangayomi</a></li>
+<li>Kotatsu: <a href="https://github.com/KotatsuApp/Kotatsu">https://github.com/KotatsuApp/Kotatsu</a></li>
+<li>Parsers de Kotatsu: <a href="https://github.com/KotatsuApp/kotatsu-parsers">https://github.com/KotatsuApp/kotatsu-parsers</a></li>
+<li>Usagi: <a href="https://github.com/UsagiApp/Usagi">https://github.com/UsagiApp/Usagi</a></li>
+<li>Yomihon: <a href="https://github.com/yomihon/yomihon">https://github.com/yomihon/yomihon</a></li>
+<li>Chimahon: <a href="https://github.com/Chimahon/chimahon">https://github.com/Chimahon/chimahon</a></li>
+</ul>
+<p><em>La otra orilla y la computadora</em></p>
+<ul>
+<li>Aidoku: <a href="https://github.com/Aidoku/Aidoku">https://github.com/Aidoku/Aidoku</a></li>
+<li>Suwatte: <a href="https://github.com/Suwatte/Suwatte">https://github.com/Suwatte/Suwatte</a></li>
+<li>Suwayomi Server: <a href="https://github.com/Suwayomi/Suwayomi-Server">https://github.com/Suwayomi/Suwayomi-Server</a></li>
+<li>Sorayomi: <a href="https://github.com/Suwayomi/Tachidesk-Sorayomi">https://github.com/Suwayomi/Tachidesk-Sorayomi</a></li>
+<li>Komga: <a href="https://github.com/gotson/komga">https://github.com/gotson/komga</a></li>
+<li>Kavita: <a href="https://github.com/Kareadita/Kavita">https://github.com/Kareadita/Kavita</a></li>
+</ul>
+<p><em>Los catálogos de la familia</em></p>
+<ul>
+<li>Catálogo de Komikku: <a href="https://github.com/Komikku-app/komikku-extensions">https://github.com/Komikku-app/komikku-extensions</a></li>
+<li>Extensiones para el servidor de escritorio: <a href="https://github.com/Suwayomi/tachiyomi-extension">https://github.com/Suwayomi/tachiyomi-extension</a></li>
+<li>Extensiones de Mangayomi: <a href="https://github.com/m2k3a/mangayomi-extensions">https://github.com/m2k3a/mangayomi-extensions</a></li>
+<li>Parsers de Kototoro: <a href="https://github.com/skepsun/kototoro-parsers">https://github.com/skepsun/kototoro-parsers</a></li>
+</ul>
+<p><em>La red privada que se nombra arriba</em></p>
+<ul>
+<li>Tailscale: <a href="https://github.com/tailscale/tailscale">https://github.com/tailscale/tailscale</a></li>
+</ul>
+<p>───────────────────</p>
+<p><em>🃏 El meme del corte</em></p>
+<blockquote>—¿Y el lector este es bueno?</blockquote>
+<blockquote>—Empujó el martes.</blockquote>
+<blockquote>—No te pregunté la edad, te pregunté si sirve.</blockquote>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — el árbol que sigue dando</em></p>
+<p>Lo que esta pieza enseña, en plata: en este mundo los nombres cambian y lo que queda es la gente detrás. Un lector no se juzga por su fama sino por su fecha, y esa fecha está escrita en una página que cualquiera puede abrir en treinta segundos.</p>
+<p>Hay tres zonas y conviene saber en cuál estás. Si tu lector empujó este mes, estás bien y no hay nada que hacer. Si lleva meses quieto, mira alternativas sin apuro. Si está archivado, no entres en pánico: exporta el respaldo hoy y móntate la mudanza un fin de semana, con los dos instalados y sin borrar nada hasta la semana siguiente.</p>
+<p>Y si lo que falla es el catálogo, no es el lector. Son dos piezas distintas y confundirlas es lo que hace que la gente borre una biblioteca de tres años creyendo que tiene un virus.</p>
+<blockquote>—¿Y si el mío se muere mañana?</blockquote>
+<blockquote>—Mañana exportas, y pasado mañana ya estás leyendo en otro. La biblioteca es tuya; el lector es de quien lo mantiene esta semana.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Un lector no se muere cuando deja de gustar: se muere cuando nadie le pone una mano encima.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 06:15 y las 10:05 de Santo Domingo · veinticinco repositorios medidos uno por uno contra la API autenticada de GitHub · las rutas que devolvieron 404 en la búsqueda de candidatos no se citan en ninguna parte · lo que no se midió está dicho arriba como no medido.</p>
+<p><em>Licencia:</em> el texto va con CC BY-SA 4.0, los datos con CC BY 4.0 y el código con MIT; la marca y el nombre de la casa quedan reservados, «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas al pie</h2>
+<p><strong>Nota de corte (1-nov):</strong> las estrellas, licencias, lenguajes y últimos empujones son de la misma mañana, y las releases se anotan solo donde el proyecto publica una. Un empujón reciente con release de julio no es contradicción: es un proyecto que trabaja de a poco y publica cuando le conviene.</p>
+<p><strong>Nota de alcance (1-nov):</strong> esta pieza compara proyectos y enseña a leer sus fechas; no reparte enlaces de contenido ni recomienda sitios de lectura. Los dos servidores de biblioteca se nombran porque sirven archivos propios, que es un caso distinto al de un catálogo.</p>
+<p><strong>Nota de corrección (1-nov):</strong> se probaron varios nombres de lectores que devolvieron 404 —entre ellos el de la casa matriz original— y no se citan para no mandar a nadie a una dirección vacía. También se midió un catálogo archivado desde agosto de 2024, porque un censo que solo cuenta lo que funciona no avisa de lo que ya no se surte.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

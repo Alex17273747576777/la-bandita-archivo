@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="El taller de parches: lo que se toca, lo que se firma y lo que no se receta">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>El taller de parches: lo que se toca, lo que se firma y lo que no se receta</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "El taller de parches: lo que se toca, lo que se firma y lo que no se receta", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>El taller de parches: lo que se toca, lo que se firma y lo que no se receta</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 40,326 caracteres</p>
+<p><em>El taller de parches: lo que se toca, lo que se firma y lo que no se receta</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 10 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🎬 Seis escenas del taller
+├── 🧾 El censo de hoy
+├── 🔧 Qué es un parche y qué no lo es
+├── 🧩 Las tres puertas del permiso
+├── 🏪 Las tiendas que no son la tienda
+├── 🚫 Lo que no se receta
+├── 🛠️ Parchear lo propio en siete pasos
+├── ⚖️ La ley, sin sermón
+├── ❓ Preguntas que me hacen
+├── 📊 Tabla, mitos y glosario
+└── 🔗 Enlaces y notas del corte
+</pre>
+<p>───────────────────</p>
+<p><em>⚡ En una página</em></p>
+<p>Cada cierto tiempo alguien pregunta por el programa que «mejora los gráficos del juego» o por el paquete que quita los anuncios de una app de pago. La pregunta llega casi siempre con una captura de pantalla y sin la palabra licencia en ningún lado. Esta guía trata de lo que sí se puede hacer con herramientas libres y de por qué media pregunta se contesta sola cuando se mira quién firma el paquete.</p>
+<p>Esta mañana leí dieciséis proyectos del taller, tres veces cada uno y por tres caminos distintos. Los números grandes son jadx con ★51.439, Magisk con ★63.665, SmartTube con ★35.801, Shizuku con ★32.577, ReVanced Manager con ★30.029, Apktool con ★26.888 y LSPosed con ★25.287. Y apareció un caso que no había visto en este censo: un repositorio de parches que la forja devuelve con código 451, el de «no disponible por razones legales», y por lo tanto no se pudo leer. Queda anotado como hueco, no como ausencia.</p>
+<p>Lo que el taller enseña, más allá de los números, es que hay tres permisos distintos y la gente los confunde todo el tiempo. Uno es el del sistema, que se consigue con root y hoy se reparte entre Magisk y los kernels con su propia vía. Otro es el de la depuración, que Shizuku abre sin tocar el arranque y sin perder la garantía. El tercero es el de la aplicación misma, que LSPosed y LSPatch consiguen colgándose de su proceso. Cada puerta da cosas distintas y ninguna convierte al teléfono en otra cosa.</p>
+<p>Y está la parte que no se receta: los paquetes de mods que prometen rendimiento, los que inyectan cuentas ajenas y los que reparten apps de pago. Aquí no hay enlaces de eso, no porque no existan, sino porque publicar un enlace así convierte esta página en parte del problema. Lo que sí hay es el método para hacer las cosas uno mismo sobre lo que tiene licencia para tocarse.</p>
+<p>La idea que hay que llevarse: un parche no es magia, es una edición del paquete que cambia la firma. Quien entiende eso entiende también por qué la app deja de actualizarse sola, por qué un mod rara vez sobrevive a la siguiente versión y por qué el origen del paquete importa más que su nombre.</p>
+<p>───────────────────</p>
+<p><em>🎬 Seis escenas del taller</em></p>
+<p><strong>El juego que va lento.</strong> Un muchacho llega con un juego que se traba y una captura de un programa que «duplica los FPS» cambiando el modelo de la GPU. El programa es cerrado, se instala como administrador y no se sabe qué toca. La conversación honesta es otra: bajar los gráficos, cerrar lo que corre en segundo plano, liberar espacio, y si el aparato no da, no da. Un cambio de identificador de GPU no crea memoria donde no hay.</p>
+<p><strong>Los anuncios del reproductor.</strong> Una señora ve videos con cinco cortes cada diez minutos. Su teléfono no está rooteado y no quiere rootearlo. La salida razonable es un cliente libre alternativo, como SmartTube o los reproductores de la familia libre, que se instalan como app aparte y no tocan la que vino con el teléfono. Sin root, sin parches raros y sin cuentas que se compartan.</p>
+<p><strong>La app que pide cuenta de Google y el teléfono no la tiene.</strong> Un aparato sin servicios de Google necesita un puente para que ciertas apps crean que están en un teléfono con ellos. Ese puente es microG, que hoy se publica en su repositorio propio con ★15.152 y licencia Apache-2.0. No es un mod ni un truco: es una implementación libre de esas interfaces, y por eso se puede auditar.</p>
+<p><strong>El paquete que no se instala.</strong> Alguien baja un APK, lo instala y el sistema responde que la aplicación no está disponible o que el paquete entra en conflicto con otro existente. Casi siempre es la firma: el paquete nuevo viene firmado por otra persona y Android no deja poner uno encima de otro si no coinciden. Se resuelve desinstalando el anterior, o no se resuelve, y ahí se acaba el experimento.</p>
+<p><strong>El teléfono prestado.</strong> Un técnico necesita mirar el interior de una app en un aparato ajeno, con el dueño delante y sin rootear nada. Con la depuración activada y Shizuku puede hacer varias de esas operaciones sin tocar el arranque, y al terminar se revoca el permiso y el aparato queda como estaba. Esa es la diferencia entre revisar y modificar.</p>
+<p><strong>El archivo que llegó sin extensión.</strong> Un cliente manda un archivo que el teléfono no reconoce. Con Apktool o con jadx se abre, se mira qué es y se decide si se instala o se borra. Esas dos herramientas no son para todos los días: son el destornillador que se usa tres veces al año y salva la tarde.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de hoy</em></p>
+<p>Dieciséis proyectos medidos tres veces cada uno, más un hueco declarado. Estrellas, licencia, lenguaje y último empujón son de esta mañana; la versión sale del último release publicado y su fecha va al lado.</p>
+<p><em>El parche y su motor</em></p>
+<ul>
+<li><strong>ReVanced Manager</strong> — la aplicación que aplica parches a un APK que el usuario ya tiene ★30.028 · licencia GPL-3.0 · Kotlin · empujó el 29-jul (hace 95 días) · release v2.6.0 (26-abr) · <a href="https://github.com/ReVanced/revanced-manager">https://github.com/ReVanced/revanced-manager</a></li>
+<li><strong>ReVanced CLI</strong> — la misma tarea desde la línea de órdenes, sin interfaz ★1.600 · licencia GPL-3.0 · Kotlin · empujó el 02-jun (hace 152 días) · release v6.0.0 (14-mar) · <a href="https://github.com/ReVanced/revanced-cli">https://github.com/ReVanced/revanced-cli</a></li>
+<li><strong>ReVanced Patcher</strong> — el motor que aplica y revierte los parches ★3.550 · licencia GPL-3.0 · Kotlin · empujó el 09-jun (hace 145 días) · release v22.0.1 (13-mar) · <a href="https://github.com/ReVanced/revanced-patcher">https://github.com/ReVanced/revanced-patcher</a></li>
+<li><strong>Parches de una rama alternativa</strong> — el conjunto de parches del proyecto de inotia00, con sus propias reglas ★2.260 · licencia GPL-3.0 · Java · empujó el 10-mar (hace 236 días) · release v5.14.1 (31-dic-2025) · <a href="https://github.com/inotia00/revanced-patches">https://github.com/inotia00/revanced-patches</a></li>
+<li><strong>El repositorio que no se pudo leer</strong> — el conjunto de parches del proyecto grande contestó hoy con código 451, «no disponible por razones legales». No hay ficha: hay un hueco anotado, y no se rellena con lo que uno recuerde de la última vez.</li>
+</ul>
+<p><em>El permiso del sistema</em></p>
+<ul>
+<li><strong>Magisk</strong> — el sistema de root que trabaja por encima del arranque y reparte permisos por módulos ★63.671 · licencia GPL-3.0 · Kotlin · empujó el 27-oct (hace 5 días) · release v31.1 (25-oct) · <a href="https://github.com/topjohnwu/Magisk">https://github.com/topjohnwu/Magisk</a></li>
+<li><strong>LSPosed</strong> — el marco que inyecta cambios en el proceso de una app concreta, sin tocar las demás ★25.288 · licencia GPL-3.0 · Java · empujó el 14-oct (hace 18 días) · su release público es v1.9.2 (11-oct-2023) y las compilaciones nuevas salen por integración continua · <a href="https://github.com/LSPosed/LSPosed">https://github.com/LSPosed/LSPosed</a></li>
+<li><strong>LSPatch</strong> — la variante que aplica esos cambios sin root, metiéndolos en el paquete ★9.453 · licencia GPL-3.0 · Java · último empujón 13-dic-2023 (hace 1.054 días) · release v0.6 (23-nov-2023) · <a href="https://github.com/LSPosed/LSPatch">https://github.com/LSPosed/LSPatch</a></li>
+</ul>
+<p><em>El permiso sin rootear</em></p>
+<ul>
+<li><strong>Shizuku</strong> — abre la depuración del sistema a las apps que la piden, sin tocar el arranque ★32.585 · licencia Apache-2.0 · Kotlin · empujó el 18-jun-2025 (hace 501 días) · release v13.6.0 (25-may-2025) · <a href="https://github.com/RikkaApps/Shizuku">https://github.com/RikkaApps/Shizuku</a></li>
+</ul>
+<p><em>El destornillador</em></p>
+<ul>
+<li><strong>jadx</strong> — descompilador que convierte un APK en código legible para revisarlo ★51.442 · licencia Apache-2.0 · Java · empujó el 30-oct (hace 2 días) · release v1.5.6 (10-jul) · <a href="https://github.com/skylot/jadx">https://github.com/skylot/jadx</a></li>
+<li><strong>Apktool</strong> — abre el paquete, separa recursos y volver a cerrarlo ★26.891 · licencia Apache-2.0 · Java · empujó el 28-oct (hace 4 días) · release v3.0.3 (20-jul) · <a href="https://github.com/iBotPeaches/Apktool">https://github.com/iBotPeaches/Apktool</a></li>
+</ul>
+<p><em>El puente de los servicios</em></p>
+<ul>
+<li><strong>microG (GmsCore)</strong> — implementación libre de las interfaces que muchas apps esperan encontrar ★15.152 · licencia Apache-2.0 · Java · empujó el 26-oct (hace 6 días) · release v0.3.17.252432 (29-sep) · <a href="https://github.com/microg/GmsCore">https://github.com/microg/GmsCore</a></li>
+</ul>
+<p><em>Las tiendas que no son la tienda</em></p>
+<ul>
+<li><strong>Aurora Store</strong> — cliente de la tienda de Google sin cuenta de Google ★3.216 · licencia GPL-3.0 · Kotlin · empujó hoy · release v2.0.5-β sin fecha publicada en la ficha · <a href="https://github.com/whyorean/AuroraStore">https://github.com/whyorean/AuroraStore</a></li>
+<li><strong>Droid-ify</strong> — cliente de F-Droid con búsqueda rápida y firma verificada ★7.678 · licencia GPL-3.0 · Kotlin · empujó el 12-sep (hace 50 días) · release v0.7.8 (12-sep) · <a href="https://github.com/Droid-ify/client">https://github.com/Droid-ify/client</a></li>
+</ul>
+<p><em>El cliente aparte y el instalador</em></p>
+<ul>
+<li><strong>SmartTube</strong> — reproductor de video para televisores y cajas, con su propio control de lo que se ve ★35.806 · licencia MIT · Java · empujó hoy · release 32.68s (20-oct) · <a href="https://github.com/yuliskov/SmartTube">https://github.com/yuliskov/SmartTube</a></li>
+<li><strong>SAI (Split APKs Installer)</strong> — instala paquetes divididos en varias partes ★3.956 · licencia GPL-3.0 · Java · último empujón 03-jun-2024 (hace 881 días) · release 4.5 (25-feb-2021) · <a href="https://github.com/Aefyr/SAI">https://github.com/Aefyr/SAI</a></li>
+</ul>
+<p><em>Lo que el censo dice en cuatro líneas.</em> Cinco de los dieciséis empujaron esta semana y dos empujaron hoy, pero el grupo del parche lleva meses de calma: el Manager no publica versión desde abril y el motor desde marzo. Dos proyectos están claramente parados —LSPatch desde diciembre de 2023 y SAI desde junio de 2024— y siguen teniendo miles de estrellas, lo que dice mucho de cuánto tarda el vecindario en enterarse. Y hay un hueco declarado: el repositorio de parches del proyecto grande responde 451 hoy, y sin lectura no hay ficha.</p>
+<p><em>Lo que quedó fuera, y por qué.</em> Se intentó leer también dos proyectos de root alternativo por kernel y ninguno entregó README crudo legible en ninguna de las ramas ni de los nombres habituales, así que no aparecen en la tabla ni se citan sus números. Un repositorio que no se deja leer no se recomienda de memoria: se deja dicho y se sigue con los que sí respondieron.</p>
+<p>───────────────────</p>
+<p><em>🔧 Qué es un parche y qué no lo es</em></p>
+<p>Un APK es un comprimido: adentro hay código compilado, imágenes, textos, configuración y una firma. Un parche es una lista de cambios que se aplica sobre ese comprimido y produce otro, con el mismo nombre y otra firma. Nada más, y nada menos. Ese «otra firma» es la clave de todas las preguntas que llegan después.</p>
+<p>Cuando alguien parchea una app, lo que obtiene es un paquete nuevo que el sistema ve como distinto del original. Por eso Android no deja instalarlo encima sin desinstalar antes: para el sistema son dos aplicaciones. Por eso tampoco se actualiza solo, aunque la app original sí lo haga. Y por eso los datos se pierden al cambiar de uno a otro si no se exportan antes.</p>
+<p>Lo que un parche puede hacer es amplio: quitar una comprobación que molesta, cambiar un comportamiento por defecto, añadir una función que el autor no puso, traducir textos, cerrar una vía de rastreo. Lo que no puede hacer es crear contenido, saltarse un servidor que cobra por algo, ni darte una cuenta que no tienes. Cuando alguien promete eso, no está parcheando: está falsificando una identidad frente a un servicio, y eso es otra cosa con otras consecuencias.</p>
+<p>La diferencia entre parchear y modear es de origen y de permiso. Un parche se aplica con herramientas cuyo código se puede leer, sobre un paquete que el usuario obtuvo legalmente, y el resultado se queda en el teléfono de esa persona. Un mod, en la práctica, es un paquete cerrado que alguien ya parcheó y reparte como archivo, sin código, sin registro de qué le cambió y sin forma de comprobar qué más trae adentro.</p>
+<p>Hay un tercer caso que conviene nombrar: los parches que se aplican a servicios de pago para obtener lo que se cobra. Ahí no hay debate técnico. El programa funciona, el servicio deja de cobrar y quien lo usa queda expuesto a que le cierren la cuenta, además de que quien reparte el paquete sabe exactamente quién lo instaló. Es la razón por la que esta guía no reparte esos enlaces ni los va a repartir.</p>
+<p>Y hay un cuarto caso, el más común de todos: parchear una app propia para quitarle algo que a uno le estorba. Un reproductor que arranca con publicidad en la pantalla de inicio, un lector que pide iniciar sesión para leer lo descargado, una calculadora que manda estadísticas. Eso es lo que se puede hacer con las herramientas de esta lista, y eso es lo que se explica en los pasos de más abajo.</p>
+<p>Conviene saber también qué se pierde. Un paquete parcheado no recibe las actualizaciones del autor, y con el tiempo eso deja de ser una molestia y pasa a ser un problema: los arreglos de seguridad que el autor publique no llegan, y la versión instalada envejece sola en un aparato conectado a internet. Cada cierto tiempo hay que repetir el procedimiento sobre la versión nueva, con el trabajo que eso implica.</p>
+<p>Y hay un detalle técnico que explica la mitad de los fracasos: los parches se escriben contra una versión concreta. Cuando el autor cambia una función o cambia el nombre de un recurso, el parche deja de encontrarlo y falla, o peor, se aplica a medias. Por eso las herramientas serias avisan qué versión esperan y por eso conviene anotar con qué versión se trabajó, para saber qué repetir cuando toque.</p>
+<p>───────────────────</p>
+<p><em>🧩 Las tres puertas del permiso</em></p>
+<p>La confusión más común del taller es creer que todo lo que modifica el teléfono necesita root. No es así, y separar las tres puertas ahorra sustos.</p>
+<p><strong>La puerta del sistema: root.</strong> Magisk, con ★63.665 y versión v31.1 del 25 de octubre, trabaja por encima del arranque y reparte permisos a módulos. Su ventaja es que no toca la partición del sistema: los cambios viven aparte y se pueden desactivar. Su costo es real: se abre una puerta que algunas apps bancarias detectan, se pierde la garantía en la mayoría de los casos y un módulo mal hecho puede dejar el aparato sin arrancar. La versión importa: un Magisk viejo con un Android nuevo es una receta de problemas.</p>
+<p><strong>La puerta de la app: LSPosed y LSPatch.</strong> LSPosed, con ★25.287, inyecta cambios en el proceso de una aplicación concreta sin tocar a las demás. Su repositorio empujó el 14 de octubre, y su último release público es de octubre de 2023: el trabajo reciente sale por compilaciones de integración continua, que no llevan número bonito. LSPatch, con ★9.453, hace algo parecido sin root, metiendo el andamio dentro del paquete; dejó de empujar en diciembre de 2023 y su última versión es la v0.6, de noviembre de ese año. Sirve, y hay que saber que nadie lo está manteniendo.</p>
+<p><strong>La puerta de la depuración: Shizuku.</strong> Con ★32.577, licencia Apache-2.0 y versión v13.6.0 del 25 de mayo de 2025, Shizuku no rootea: pide prestado el permiso que el propio Android da a los desarrolladores y lo reparte a las apps que lo solicitan, con el usuario aprobando cada una. Su último empujón es del 18 de junio de 2025, así que también está en pausa, y sigue funcionando porque el permiso que usa es del sistema y no cambia todos los meses.</p>
+<p>El orden de preferencia que funciona en la práctica es este: primero Shizuku, porque se revierte apagando la depuración; después LSPosed, si hace falta tocar una app concreta; y al final Magisk, solo si hay una razón que valga el riesgo. Empezar por el final es lo que convierte un teléfono que funciona en un fin de semana de recuperación.</p>
+<p>Hay una cuarta puerta que no es puerta: la de cambiar de programa. Buena parte de las consultas que empiezan por «cómo parcheo esto» terminan en «instala la versión libre que ya hace lo mismo». Es la salida menos vistosa y la que menos cuesta, porque no rompe la firma de nada ni obliga a repetir el procedimiento en cada actualización. El taller sirve para lo que no tiene reemplazo; para lo demás, hay vecinos.</p>
+<p>───────────────────</p>
+<p><em>🏪 Las tiendas que no son la tienda</em></p>
+<p>La mitad de los problemas que llegan al taller se resuelven antes de parchear nada, solo cambiando por dónde se instala. Hay tres puertas de entrada y cada una tiene su carácter.</p>
+<p>La tienda del sistema es cómoda y actualiza sola, pero decide qué se publica y con qué permisos. Aurora Store, con ★3.215, licencia GPL-3.0 y empujón de hoy, ofrece otro camino al mismo catálogo: se conecta sin cuenta de Google, permite bajar la versión que uno quiera y avisa cuando una app pide permisos de más. Su versión publicada es una beta sin fecha en la ficha, y eso hay que decirlo: lo que se instala hoy es una versión de prueba de un proyecto vivo.</p>
+<p>F-Droid y sus clientes son el otro extremo. Droid-ify, con ★7.678, licencia GPL-3.0 y versión v0.7.8 del 12 de septiembre, es una interfaz rápida para el repositorio libre: muestra la licencia de cada app, la versión y el historial, y comprueba firmas. Lo que hay ahí está compilado a partir del código publicado, y por eso a veces llega unos días después que el release del autor.</p>
+<p>La tercera puerta es la forja, el APK que el propio autor publica. Llega el mismo día, no hay intermediario y actualizar es a mano. Su ventaja es la trazabilidad: el release tiene fecha, número y a veces una firma verificable. Su riesgo es que la descarga se hace desde un enlace que hay que comprobar cada vez, porque los sitios que imitan a las forjas existen y se parecen demasiado.</p>
+<p>Antes de instalar conviene hacerse tres preguntas de treinta segundos: quién firma este paquete, qué gano con esta puerta y qué pasa el día que la app se rompa. Las respuestas cambian poco entre proyectos y evitan casi todos los arrepentimientos. Una app que se firma con la llave de un repositorio se puede rastrear; un archivo que llegó por un grupo de mensajería, no.</p>
+<p>El error clásico es mezclar las tres en la misma app. Una app instalada desde F-Droid no se actualiza con el APK del autor, porque la firma es distinta; el sistema lo rechaza o, peor, ofrece desinstalar y perder los datos. Antes de instalar conviene decidir la puerta y quedarse ahí. Para las que se usan todos los días, la puerta que actualiza sola; para las que se prueban, la forja.</p>
+<p>Y hay un detalle que ahorra disgustos: las tres puertas no se miden por lo que entregan el primer día sino por lo que resuelven el día del fallo. Cuando una app se rompe tras una actualización, la tienda del sistema suele ofrecer volver atrás, la forja exige buscar el release anterior a mano y el repositorio libre tarda un poco más en tener la versión nueva. Saber eso antes de elegir evita la tarde de buscar APKs en sitios turbios con el teléfono a medio funcionar.</p>
+<p>Y hay un cuarto caso que no es tienda pero funciona como tal: el paquete dividido. Las apps modernas a veces vienen en varias partes —una base y varios añadidos por idioma y por pantalla— y el instalador del sistema no siempre las maneja. SAI, con ★3.955 y licencia GPL-3.0, resuelve eso, aunque su último empujón fue en junio de 2024 y su versión publicada es de febrero de 2021: sirve para lo que sirve y no se le puede pedir más.</p>
+<p>───────────────────</p>
+<p><em>🚫 Lo que no se receta</em></p>
+<p>Esta es la sección que algunas personas van a leer buscando otra cosa, y conviene ser claro desde el primer renglón: aquí no hay enlaces a paquetes modificados, ni a programas que dicen duplicar el rendimiento, ni a mods de aplicaciones de pago. La razón no es moralina. Es que publicar un enlace así convierte a quien lo publica en parte de la cadena que después no se puede auditar.</p>
+<p>Lo primero que hay que entender de los programas que prometen «acelerar» el teléfono cambiando el modelo de la tarjeta gráfica es que son cerrados. No se puede leer su código, no se sabe qué modifican ni qué más hacen mientras están abiertos. En un aparato que tiene la banca, el correo y las conversaciones de la familia, instalar un programa cerrado con permisos de administrador para ganar unos cuadros por segundo es un cambio que no se justifica con ningún resultado.</p>
+<p>Lo segundo es que el rendimiento no aparece por cambiar un nombre. Un juego que se traba lo hace por memoria, por calor o por un procesador que no da más. Cambiar el identificador de la GPU puede hacer que el juego elija ajustes distintos, y a veces eso se siente como una mejora; otras veces empeora, y el que lo instaló no tiene forma de revertirlo porque no sabe qué cambió.</p>
+<p>Lo tercero es el paquete de mods de una app de pago. Ahí hay tres problemas a la vez: se está usando un servicio sin pagarlo, el paquete lo firma alguien que no es el autor y no se sabe qué añadió, y la cuenta del usuario queda a la vista de quien reparte el archivo. Cualquiera de los tres basta para no hacerlo.</p>
+<p>Lo cuarto es la cuenta prestada. Los paquetes que inyectan sesiones ajenas para acceder a un servicio convierten al que los usa en un intruso en la cuenta de otra persona. Que técnicamente funcione no cambia lo que es.</p>
+<p>Lo que sí se receta, y está en los pasos de abajo, es lo contrario: aprender a mirar qué pide un paquete antes de instalarlo, usar herramientas con código visible y aplicar cambios sobre lo propio. Eso no da resultados de captura de pantalla, pero no deja deuda. Y cuando algo se rompe, se puede volver atrás porque se sabe qué se hizo.</p>
+<p>Para reconocer un paquete cerrado hay tres señales que se ven en dos minutos. La primera: no hay repositorio o el repositorio no tiene el código del programa, solo capturas y un archivo de descarga. La segunda: la descarga pasa por un acortador, un canal de mensajería o una nube con clave. La tercera: el texto promete resultados medibles —«triplica los FPS», «todo desbloqueado»— en vez de explicar qué cambia. Con dos de esas tres señales, no hay nada que discutir.</p>
+<p>Y hay una señal que se ve después, cuando ya está instalado: pide permisos que no tienen que ver con lo que hace. Una herramienta que dice mejorar gráficos y pide leer los mensajes o los contactos no está mejorando nada. En un teléfono con la banca adentro, eso es una puerta abierta con el nombre de un adorno.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Parchear lo propio en siete pasos</em></p>
+<p>Los siete pasos de abajo son para el caso limpio: un paquete que se obtuvo por una puerta conocida, un teléfono propio y un cambio que se entiende. Si alguno de los tres falta, el procedimiento no se salta: se detiene, porque el taller no arregla un origen dudoso ni devuelve lo que se rompió por saltarse una comprobación.</p>
+<p><strong>Paso uno: saber qué paquete se tiene.</strong> Antes de tocar nada, apuntar la versión exacta de la app, de dónde salió y qué datos guarda. Si es una app de mensajería, exportar la conversación; si es un juego, guardar el avance; si es un lector, anotar qué se descargó. El parche va a producir un paquete distinto y el paso entre uno y otro puede llevarse los datos.</p>
+<p><strong>Paso dos: tener el APK original en el teléfono.</strong> El parche se aplica sobre el archivo, no sobre la app instalada. Si el aparato no lo tiene a mano, se baja de la puerta que corresponda —la forja del autor o el repositorio libre— y se comprueba la fecha y el número de versión antes de seguir. Un APK de un sitio que imita a la forja arruina el resto del procedimiento.</p>
+<p><strong>Paso tres: mirar antes de aplicar.</strong> Con jadx o con Apktool se abre el paquete y se ve qué contiene: permisos declarados, servicios, librerías de rastreo, textos. Es la parte que casi nadie hace y la que más enseña. Un paquete que pide acceso a los contactos para una calculadora se explica solo, y a veces la conclusión es no instalar nada.</p>
+<p><strong>Paso cuatro: elegir la puerta correcta.</strong> Si el objetivo es cambiar una app concreta y el teléfono no está rooteado, Shizuku o LSPatch. Si el teléfono ya está rooteado y el cambio es de sistema, LSPosed o Magisk. Si no hay root y no hay ganas de meterse en la depuración, la respuesta honesta es buscar una app libre que ya haga lo que se necesita.</p>
+<p><strong>Paso cinco: aplicar el parche y probar en pequeño.</strong> Se selecciona el parche, se genera el paquete y se instala. Antes de confiar, se prueba lo esencial: que abra, que conserve la sesión, que no se caiga al cambiar de pantalla. Si algo falla, se desinstala y se vuelve al original; el paquete original no se borra hasta comprobar que el nuevo sirve.</p>
+<p><strong>Paso seis: aceptar el costo de la firma.</strong> El paquete parcheado no se actualiza solo y no puede convivir con el original. Eso significa que cada actualización de la app exige repetir el procedimiento, y que los datos hay que respaldarlos antes de cada salto. Quien no quiera ese mantenimiento debe quedarse con la app original y buscar la función en otro lado.</p>
+<p><strong>Paso siete: dejar el teléfono como estaba si se abandona.</strong> Desinstalar el paquete parcheado, revocar el permiso de depuración o desactivar el módulo, y comprobar que el aparato arranca y que las apps sensibles vuelven a abrir. Un taller ordenado se conoce en cómo queda la mesa al final, no en las herramientas que tiene.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón</em></p>
+<p>Las herramientas de esta guía son libres y eso permite leer qué hacen: GPL-3.0 en el Manager, en el motor, en Magisk, en LSPosed, en LSPatch, en Aurora y en Droid-ify; Apache-2.0 en Shizuku, microG, jadx y Apktool; MIT en SmartTube. La licencia del programa no es la licencia de lo que se parchea, y ahí está el punto que suele confundirse.</p>
+<p>Una licencia libre permite modificar el programa y, según el caso, obliga a publicar los cambios si se distribuyen. Lo que no permite es tocar otro programa que no es de uno. Si la app que se quiere parchear es propietaria, modificarla para uso propio es una zona gris que cada país trata distinto, y distribuir el resultado ya es otra cosa: es repartir una obra derivada de algo ajeno, sin permiso y con la firma de otro.</p>
+<p>El caso del repositorio que hoy contesta 451 es el ejemplo más claro de que ese límite existe y tiene consecuencias. Un código 451 en una forja no es un error técnico: es una respuesta legal. Cuando eso pasa, el proyecto no desaparece del teléfono de quien ya lo tenía, pero deja de poder instalarse desde ahí, y el hueco se anota.</p>
+<p>Hay un matiz que a veces se pasa por alto y que cambia la conversación: la licencia del parche no es la licencia del paquete parcheado. Las herramientas de este taller son libres y sus parches también, pero eso solo autoriza a tocar lo que se puede tocar. Con una app propietaria, el permiso no viene del código de la herramienta: viene del dueño de la app, y casi nunca está escrito en ningún lado.</p>
+<p>Hay además una regla que no viene de ninguna ley y funciona igual: la trazabilidad. Un paquete del que se sabe quién lo firmó, cuándo se publicó y qué contiene se puede auditar; un paquete repartido por un canal de mensajería, no. En un teléfono con datos de la familia, la trazabilidad vale más que cualquier función añadida.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Parchear una app la vuelve más rápida?</strong> Casi nunca. Un parche cambia comportamientos, no añade memoria ni enfría el procesador. Cuando alguien nota una mejora suele ser porque el parche desactivó algo que consumía recursos en segundo plano, y eso se puede saber mirando qué se aplicó. Si la promesa es «el doble de velocidad», no es un parche: es publicidad.</p>
+<p><strong>¿Instalo Magisk en un teléfono que uso para trabajar?</strong> Solo si hay una razón concreta y si se acepta el costo: algunas apps de banca y de pago dejan de abrir, la garantía se pierde en la mayoría de los casos y un módulo mal hecho puede impedir que arranque. Para revisar o cambiar una app puntual, Shizuku hace buena parte del trabajo sin esa factura.</p>
+<p><strong>¿Shizuku necesita root?</strong> No. Aprovecha el permiso de depuración que el propio sistema ofrece a los desarrolladores, y se activa una vez con cable o por inalámbrico; después el usuario aprueba qué apps lo usan. Si se apaga la depuración o se reinicia sin repetir la activación, el permiso se pierde y hay que volver a darlo.</p>
+<p><strong>¿Por qué el paquete parcheado no se actualiza solo?</strong> Porque lo firma otra persona: para Android es otra aplicación. El sistema solo actualiza paquetes con la misma firma que el instalado, y el parcheado rompe esa cadena. Cada versión nueva de la app original exige repetir el procedimiento y volver a instalar.</p>
+<p><strong>¿Qué pasó con el repositorio de parches que no aparece en la tabla?</strong> Que hoy responde con código 451, el de «no disponible por razones legales». Sin lectura no hay ficha, y poner números de memoria sería inventar. El hueco queda anotado y, si mañana vuelve a responder, se mide y se publica.</p>
+<p><strong>¿LSPatch sigue vivo?</strong> No. Su último empujón es del 13 de diciembre de 2023 y su última versión es la v0.6 del 23 de noviembre de ese año. Funciona en lo que funcionaba, pero no recibe arreglos, y en un Android nuevo eso significa que puede dejar de servir sin aviso.</p>
+<p><strong>¿Y LSPosed, con un release de 2023?</strong> Es otro caso: su repositorio empujó el 14 de octubre, lo que indica trabajo reciente, pero sus compilaciones nuevas salen por integración continua y no llevan número de versión. Quien lo use tiene que decidir si confía en una compilación automática o se queda en la última versión publicada, que es la v1.9.2 de octubre de 2023.</p>
+<p><strong>¿Para qué sirve microG si el teléfono no tiene servicios de Google?</strong> Para que ciertas apps que esperan encontrarlos funcionen sin ellos. Es una implementación libre de esas interfaces, con licencia Apache-2.0 y versión v0.3.17 del 29 de septiembre. No es un parche ni un truco: es un programa que ocupa el lugar de otro y que se puede leer.</p>
+<p><strong>¿Aurora Store da las mismas apps que la tienda?</strong> Da acceso al mismo catálogo y permite bajar versiones anteriores, sin cuenta de Google. Su versión publicada es una beta sin fecha en la ficha, y conviene tenerlo presente: es un proyecto vivo con releases de prueba, no un producto terminado.</p>
+<p><strong>¿Puedo usar dos versiones de la misma app, una original y una parcheada?</strong> No con el mismo nombre de paquete. Android identifica la app por su identificador, y dos paquetes iguales no conviven. Algunos parches permiten cambiar el identificador para instalar la copia al lado, y eso funciona a veces, con el costo de que la copia queda fuera de las actualizaciones y de las copias de seguridad del sistema.</p>
+<p><strong>¿Cómo sé si un APK que me pasaron es el original?</strong> Comparando la firma con la del release del autor y con el tamaño del archivo. Si no hay forma de comparar, la respuesta práctica es no instalarlo: un paquete sin origen comprobable no se vuelve confiable porque el que lo manda sea conocido.</p>
+<p><strong>¿Vale la pena rootear hoy?</strong> Para la mayoría de la gente, no. Casi todo lo que se hacía con root en 2015 se resuelve ahora con la depuración, con una app libre alternativa o con una tienda distinta. El root sigue teniendo sentido para quien administra varios aparatos o investiga, y ese público ya sabe lo que cuesta.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Los dieciséis del taller</em></p>
+<table>
+<tr><th>Proyecto</th><th>Para qué</th><th>Licencia</th><th>Último empujón</th><th>Estrellas</th></tr>
+<tr><td>Magisk</td><td>root por módulos, sin tocar el sistema</td><td>GPL-3.0</td><td>27-oct</td><td>★63.665</td></tr>
+<tr><td>jadx</td><td>leer el código de un APK</td><td>Apache-2.0</td><td>30-oct</td><td>★51.439</td></tr>
+<tr><td>SmartTube</td><td>reproductor de video aparte</td><td>MIT</td><td>hoy</td><td>★35.801</td></tr>
+<tr><td>Shizuku</td><td>depuración sin root</td><td>Apache-2.0</td><td>18-jun-2025</td><td>★32.577</td></tr>
+<tr><td>ReVanced Manager</td><td>aplicar parches desde el teléfono</td><td>GPL-3.0</td><td>29-jul</td><td>★30.029</td></tr>
+<tr><td>Apktool</td><td>abrir y cerrar paquetes</td><td>Apache-2.0</td><td>28-oct</td><td>★26.888</td></tr>
+<tr><td>LSPosed</td><td>cambios dentro de una app, con root</td><td>GPL-3.0</td><td>14-oct</td><td>★25.287</td></tr>
+<tr><td>microG</td><td>puente de servicios libres</td><td>Apache-2.0</td><td>26-oct</td><td>★15.152</td></tr>
+<tr><td>LSPatch</td><td>lo mismo que LSPosed, sin root</td><td>GPL-3.0</td><td>13-dic-2023</td><td>★9.453</td></tr>
+<tr><td>Droid-ify</td><td>cliente de F-Droid</td><td>GPL-3.0</td><td>12-sep</td><td>★7.678</td></tr>
+<tr><td>SAI</td><td>instalar paquetes divididos</td><td>GPL-3.0</td><td>03-jun-2024</td><td>★3.955</td></tr>
+<tr><td>ReVanced Patcher</td><td>el motor de los parches</td><td>GPL-3.0</td><td>09-jun</td><td>★3.550</td></tr>
+<tr><td>Aurora Store</td><td>catálogo de la tienda sin cuenta</td><td>GPL-3.0</td><td>hoy</td><td>★3.215</td></tr>
+<tr><td>Parches de rama alternativa</td><td>otro conjunto de parches</td><td>GPL-3.0</td><td>10-mar</td><td>★2.260</td></tr>
+<tr><td>ReVanced CLI</td><td>parchear desde la línea de órdenes</td><td>GPL-3.0</td><td>02-jun</td><td>★1.600</td></tr>
+<tr><td>Parches del proyecto grande</td><td>**sin medir hoy: la forja responde 451**</td><td>—</td><td>—</td><td>—</td></tr>
+</table>
+<p><em>Cinco mitos del taller</em></p>
+<p><strong>Mito uno: «un mod es una versión mejorada».</strong> Un mod es otro paquete, con otra firma y sin registro de cambios. Puede ser útil y puede traer de todo; lo que no es, es la misma aplicación. La versión mejorada de una app se llama actualización y la publica su autor.</p>
+<p><strong>Mito dos: «con root se arregla todo».</strong> Con root se accede a todo, incluido lo que rompe el teléfono. La mayoría de los problemas del taller —una app que no abre un formato, un reproductor que corta, un paquete que no instala— no se arreglan con root: se arreglan con otra app o con la versión correcta.</p>
+<p><strong>Mito tres: «si tiene muchas estrellas, está mantenido».</strong> LSPatch tiene ★9.453 y no recibe un empujón desde diciembre de 2023. SAI tiene ★3.955 y su última versión es de 2021. Las estrellas miden cuánta gente lo usó, no cuánta lo cuida.</p>
+<p><strong>Mito cuatro: «el APK es el mismo en todos lados».</strong> El mismo número de versión puede venir firmado por personas distintas, y con la firma cambia lo que el sistema permite y lo que el paquete puede hacer. El número dice qué versión es; la firma dice quién la hizo.</p>
+<p><strong>Mito cinco: «parchear es ilegal».</strong> Parchear un programa libre es parte de su licencia. Modificar software propietario para uso propio es una zona gris según el país, y distribuir el resultado sin permiso es otra cosa. La línea no está en la herramienta: está en qué se toca y qué se reparte.</p>
+<p><em>Glosario del taller</em></p>
+<p><strong>APK</strong> — el paquete de una aplicación de Android; por dentro es un comprimido con código, recursos y firma.</p>
+<p><strong>Parche</strong> — lista de cambios que se aplica sobre un paquete y produce otro, con otra firma.</p>
+<p><strong>Firma</strong> — sello criptográfico del paquete. Dos firmas distintas no se instalan una encima de otra.</p>
+<p><strong>Root</strong> — permiso total sobre el sistema, por encima del arranque.</p>
+<p><strong>Módulo</strong> — pieza que Magisk carga al arrancar para cambiar algo del sistema sin tocar la partición.</p>
+<p><strong>Inyección</strong> — técnica de LSPosed y LSPatch: meter código en el proceso de una app concreta.</p>
+<p><strong>Depuración</strong> — canal de administración que Android ofrece a los desarrolladores, con cable o por inalámbrico.</p>
+<p><strong>Paquete dividido</strong> — app repartida en varias partes: una base y añadidos por idioma o por pantalla.</p>
+<p><strong>Beta</strong> — versión de prueba que se publica antes de la estable, a veces sin fecha en la ficha.</p>
+<p><strong>451</strong> — código que devuelve un servidor cuando el contenido no está disponible por razones legales.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces y notas del corte</em></p>
+<p>Cada dirección de abajo se abrió hoy. Ninguna sale de una lista vieja ni de una deducción por parecido.</p>
+<p><em>El parche y su motor</em></p>
+<ul>
+<li>ReVanced Manager: <a href="https://github.com/ReVanced/revanced-manager">https://github.com/ReVanced/revanced-manager</a></li>
+<li>ReVanced CLI: <a href="https://github.com/ReVanced/revanced-cli">https://github.com/ReVanced/revanced-cli</a></li>
+<li>ReVanced Patcher: <a href="https://github.com/ReVanced/revanced-patcher">https://github.com/ReVanced/revanced-patcher</a></li>
+<li>Parches de rama alternativa: <a href="https://github.com/inotia00/revanced-patches">https://github.com/inotia00/revanced-patches</a></li>
+</ul>
+<p><em>El permiso</em></p>
+<ul>
+<li>Magisk: <a href="https://github.com/topjohnwu/Magisk">https://github.com/topjohnwu/Magisk</a></li>
+<li>LSPosed: <a href="https://github.com/LSPosed/LSPosed">https://github.com/LSPosed/LSPosed</a></li>
+<li>LSPatch: <a href="https://github.com/LSPosed/LSPatch">https://github.com/LSPosed/LSPatch</a></li>
+<li>Shizuku: <a href="https://github.com/RikkaApps/Shizuku">https://github.com/RikkaApps/Shizuku</a></li>
+</ul>
+<p>Los enlaces de arriba son los de los proyectos que se midieron hoy. Los dos que no se pudieron leer no aparecen como enlace vacío: se nombran en la nota de hueco, con el motivo, y quedan pendientes para la próxima pasada. Esa es la única forma de mantener la lista honesta sin congelarla.</p>
+<p><em>El destornillador y el puente</em></p>
+<ul>
+<li>jadx: <a href="https://github.com/skylot/jadx">https://github.com/skylot/jadx</a></li>
+<li>Apktool: <a href="https://github.com/iBotPeaches/Apktool">https://github.com/iBotPeaches/Apktool</a></li>
+<li>microG: <a href="https://github.com/microg/GmsCore">https://github.com/microg/GmsCore</a></li>
+</ul>
+<p><em>Tiendas, cliente e instalador</em></p>
+<ul>
+<li>Aurora Store: <a href="https://github.com/whyorean/AuroraStore">https://github.com/whyorean/AuroraStore</a></li>
+<li>Droid-ify: <a href="https://github.com/Droid-ify/client">https://github.com/Droid-ify/client</a></li>
+<li>SmartTube: <a href="https://github.com/yuliskov/SmartTube">https://github.com/yuliskov/SmartTube</a></li>
+<li>SAI: <a href="https://github.com/Aefyr/SAI">https://github.com/Aefyr/SAI</a></li>
+</ul>
+<p><em>Lo que no se pudo medir.</em> El conjunto de parches del proyecto grande respondió hoy con código 451 desde la forja, y dos proyectos de root alternativo por kernel no entregaron README crudo legible en ninguna rama ni con ninguno de los nombres habituales. Los tres quedan fuera de la tabla, con el motivo dicho. Un censo que rellena sus huecos con memoria deja de ser un censo.</p>
+<p><em>Cómo se mide este taller, para poder repetirlo.</em> Cada proyecto se leyó tres veces: por el buscador de la forja, por la página del repositorio y por el archivo crudo del README. Las estrellas y el último empujón se cotejaron entre las tres lecturas; cuando la página y el buscador no coincidieron, se publicó el número de la página y se dejó dicho. La licencia se copia de la ficha, y cuando el README declara otra se escriben las dos. La versión sale del último release publicado, con su fecha, y si el proyecto no fecha sus releases se dice.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — la mesa ordenada</em></p>
+<p>Lo que deja este recorrido, en plata: el taller de parches no es un cuarto oscuro, es una mesa con tres puertas y tres herramientas. La puerta del sistema pide root y cobra caro; la de la app inyecta cambios en un proceso concreto; la de la depuración presta un permiso que el propio Android ofrece. Elegir por la última y no por la primera es lo que separa un experimento de un fin de semana perdido.</p>
+<p>El hallazgo del día no es un número grande sino una respuesta: un repositorio que devuelve 451 recuerda que estas herramientas viven en un terreno con dueños y con abogados. Cuando algo así pasa, la guía honesta no inventa la ficha que falta: la declara y sigue.</p>
+<p>Y el tercer hallazgo es de método: casi todo lo que se preguntó esta semana se resolvía mirando el paquete antes de instalarlo. Quien abre un APK con jadx y ve qué permisos declara se ahorra la mitad de las dudas, y esa costumbre no requiere root ni asume riesgo: requiere veinte minutos y curiosidad.</p>
+<p>Y el otro hallazgo es de calendario: LSPatch sin empujones desde diciembre de 2023, SAI con una versión de 2021, el conjunto de parches del proyecto grande sin leerse hoy, mientras Magisk, jadx y Apktool empujan esta semana. En este taller, la pregunta que hay que hacer antes de instalar no es cuántas estrellas tiene, sino cuándo fue la última vez que alguien lo tocó.</p>
+<blockquote>—¿Y el programa que duplica los gráficos?</blockquote>
+<blockquote>—Ese no lo tengo, y si lo tuviera no te lo pasaría por aquí: cámbiale los ajustes al juego y ahorras el riesgo.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Un parche cambia el paquete; no cambia de dueño la firma.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 09:20 y las 09:58 de Santo Domingo, y repasada a las 10:52· dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · un repositorio con respuesta 451 y dos sin README legible quedan fuera de la tabla, con el motivo escrito · una release sin fecha publicada se anota como tal</p>
+<p><em>Licencia:</em> el contenido va con CC BY-SA 4.0, los datos medidos con CC BY 4.0 y el código con MIT; el nombre de la casa y su marca quedan reservados para «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas del corte</h2>
+<p><strong>Nota de corte (1-nov):</strong> todas las estrellas, licencias y empujones son de esta mañana, medidas tres veces por proyecto. Donde el último release público no refleja el trabajo reciente —LSPosed es el caso claro— se escriben las dos cosas: la fecha del release y la del empujón.</p>
+<p><strong>Nota de límite (1-nov):</strong> esta guía no reparte paquetes modificados, ni enlaces de descarga de mods, ni programas que prometen rendimiento. Explica el método y los permisos, y deja dicho por qué los paquetes cerrados con permisos de administrador no se recomiendan para un teléfono que se usa para trabajar.</p>
+<p><strong>Nota de hueco (1-nov):</strong> el conjunto de parches del proyecto más conocido respondió con código 451 y no se pudo medir. Se anota el hueco en la tabla y en el texto, sin completar los números a mano y sin citar de memoria lo que decía la última vez que se leyó.</p>
+<p><strong>Nota de sucesión (1-nov):</strong> LSPatch y SAI siguen descargables y siguen funcionando en lo que funcionaban, pero no reciben empujones desde 2023 y 2024. Quien los use debe saber que no habrá arreglos, y que el reemplazo hay que buscarlo antes de que haga falta, no después.</p>
+<p><strong>Nota de repaso (1-nov, 10:52):</strong> el taller se repasó a las 10:52: quince repositorios citados, dos con empujón de hoy y dos archivados —LSPatch e inotia00— además del hueco del 451 que sigue sin abrirse. Nueve cifras se movieron desde la primera lectura.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>
