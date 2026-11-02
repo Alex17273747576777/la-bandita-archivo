@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-02",
- "medido_en_utc": "2026-11-02T12:39:56+00:00",
+ "medido_en_utc": "2026-11-02T13:00:13+00:00",
  "repos": {
   "syncthing/syncthing": {
    "estado": "vivo",
@@ -280,7 +280,7 @@
   },
   "NeoApplications/Neo-Store": {
    "estado": "vivo",
-   "stars": 5603,
+   "stars": 5604,
    "push": "2026-10-23",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -340,7 +340,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32638,
+   "stars": 32636,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -388,7 +388,7 @@
   },
   "AuroraOSS/AuroraStore": {
    "estado": "vivo",
-   "stars": 72,
+   "stars": 73,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -566,7 +566,7 @@
   },
   "mihonapp/mihon": {
    "estado": "vivo",
-   "stars": 24963,
+   "stars": 24965,
    "push": "2026-10-26",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -919,7 +919,7 @@
   },
   "roxycon-dev/Ciallo-Reader": {
    "estado": "vivo",
-   "stars": 278,
+   "stars": 279,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -1380,7 +1380,7 @@
   },
   "GitMag/UnknownAuto": {
    "estado": "vivo",
-   "stars": 188,
+   "stars": 190,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -1853,7 +1853,7 @@
   },
   "beemdevelopment/Aegis": {
    "estado": "vivo",
-   "stars": 13448,
+   "stars": 13447,
    "push": "2026-09-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1950,7 +1950,7 @@
   "AdguardTeam/AdGuardHome": {
    "estado": "vivo",
    "stars": 38066,
-   "push": "2026-10-30",
+   "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "TypeScript",
@@ -1985,7 +1985,7 @@
   },
   "tailscale/tailscale": {
    "estado": "vivo",
-   "stars": 38513,
+   "stars": 38517,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -2254,7 +2254,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12657,
+   "stars": 12658,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2350,8 +2350,8 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97026,
-   "push": "2026-10-29",
+   "stars": 97029,
+   "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Dart",
@@ -2362,7 +2362,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 63951,
+   "stars": 63952,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2374,7 +2374,7 @@
   },
   "organicmaps/organicmaps": {
    "estado": "vivo",
-   "stars": 15855,
+   "stars": 15856,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2494,7 +2494,7 @@
   },
   "ollama/ollama": {
    "estado": "vivo",
-   "stars": 185658,
+   "stars": 185659,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -2518,7 +2518,7 @@
   },
   "justjavac/free-programming-books-zh_CN": {
    "estado": "vivo",
-   "stars": 119483,
+   "stars": 119484,
    "push": "2026-07-29",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2770,7 +2770,7 @@
   },
   "open-webui/open-webui": {
    "estado": "vivo",
-   "stars": 157531,
+   "stars": 157533,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2782,7 +2782,7 @@
   },
   "ggml-org/llama.cpp": {
    "estado": "vivo",
-   "stars": 133139,
+   "stars": 133142,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -2842,7 +2842,7 @@
   },
   "pi-hole/pi-hole": {
    "estado": "vivo",
-   "stars": 61629,
+   "stars": 61631,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2878,7 +2878,7 @@
   },
   "qbittorrent/qBittorrent": {
    "estado": "vivo",
-   "stars": 41310,
+   "stars": 41311,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2902,7 +2902,7 @@
   },
   "nextcloud/server": {
    "estado": "vivo",
-   "stars": 37395,
+   "stars": 37396,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -2962,7 +2962,7 @@
   },
   "MorpheApp/morphe-manager": {
    "estado": "vivo",
-   "stars": 9854,
+   "stars": 9856,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3051,7 +3051,7 @@
   },
   "thedjchi/Shizuku": {
    "estado": "vivo",
-   "stars": 6674,
+   "stars": 6676,
    "push": "2026-07-15",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3076,7 +3076,7 @@
   "Alex17273747576777/la-bandita-archivo": {
    "estado": "vivo",
    "stars": 1,
-   "push": "2026-11-01",
+   "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "HTML",
@@ -3171,7 +3171,7 @@
   },
   "open-ani/animeko": {
    "estado": "vivo",
-   "stars": 21428,
+   "stars": 21429,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3387,7 +3387,7 @@
   },
   "Ebony-Vinyl/dsh-our-free-model": {
    "estado": "vivo",
-   "stars": 56742,
+   "stars": 56772,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -3423,19 +3423,19 @@
   },
   "yetone/magpie": {
    "estado": "vivo",
-   "stars": 28234,
+   "stars": 28247,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Go",
    "desc": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-   "release": "v0.1.2731",
+   "release": "v0.1.2732",
    "release_fecha": "2026-11-02",
    "stars_pieza": 25422
   },
   "browser-use/jev-ultrafast": {
    "estado": "vivo",
-   "stars": 24067,
+   "stars": 24068,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "MIT",
@@ -3447,7 +3447,7 @@
   },
   "topjohnwu/Magisk": {
    "estado": "vivo",
-   "stars": 63703,
+   "stars": 63704,
    "push": "2026-10-27",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3459,7 +3459,7 @@
   },
   "tiann/KernelSU": {
    "estado": "vivo",
-   "stars": 19980,
+   "stars": 19981,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3531,7 +3531,7 @@
   },
   "PixelPlayerHQ/PixelPlayer": {
    "estado": "vivo",
-   "stars": 6873,
+   "stars": 6874,
    "push": "2026-09-21",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -3555,7 +3555,7 @@
   },
   "gokadzev/Musify": {
    "estado": "vivo",
-   "stars": 4389,
+   "stars": 4390,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3567,7 +3567,7 @@
   },
   "cwuom/NeriPlayer": {
    "estado": "vivo",
-   "stars": 4048,
+   "stars": 4050,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3603,7 +3603,7 @@
   },
   "Crosstalk-Solutions/project-nomad": {
    "estado": "vivo",
-   "stars": 41756,
+   "stars": 41758,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3651,7 +3651,7 @@
   },
   "2dust/v2rayNG": {
    "estado": "vivo",
-   "stars": 65174,
+   "stars": 65175,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3663,7 +3663,7 @@
   },
   "Johnshall/Shadowrocket-ADBlock-Rules-Forever": {
    "estado": "vivo",
-   "stars": 31769,
+   "stars": 31770,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -3759,7 +3759,7 @@
   },
   "keepassxreboot/keepassxc": {
    "estado": "vivo",
-   "stars": 29702,
+   "stars": 29703,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -3951,7 +3951,7 @@
   },
   "whyorean/AuroraStore": {
    "estado": "vivo",
-   "stars": 3221,
+   "stars": 3222,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4035,7 +4035,7 @@
   },
   "serverless-dns/serverless-dns": {
    "estado": "vivo",
-   "stars": 3835,
+   "stars": 3836,
    "push": "2026-05-06",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -4191,7 +4191,7 @@
   },
   "jellyfin/jellyfin-android": {
    "estado": "vivo",
-   "stars": 2850,
+   "stars": 2851,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -4203,7 +4203,7 @@
   },
   "juanfont/headscale": {
    "estado": "vivo",
-   "stars": 45285,
+   "stars": 45286,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -4263,7 +4263,7 @@
   },
   "huggingface/transformers": {
    "estado": "vivo",
-   "stars": 168443,
+   "stars": 168444,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -4275,7 +4275,7 @@
   },
   "unslothai/unsloth": {
    "estado": "vivo",
-   "stars": 78950,
+   "stars": 78951,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -4299,7 +4299,7 @@
   },
   "libretro/RetroArch": {
    "estado": "vivo",
-   "stars": 14518,
+   "stars": 14519,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4413,8 +4413,8 @@
    "licencia": "MIT",
    "lenguaje": "JavaScript",
    "desc": "Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides",
-   "release": "6.1",
-   "release_fecha": "2026-10-26",
+   "release": "6.2",
+   "release_fecha": "2026-11-02",
    "stars_pieza": 5568
   },
   "PerformanC/ReZygisk": {
@@ -4556,8 +4556,8 @@
    "veredicto": "responde"
   },
   "https://elpais.com/cultura/2026-04-22/cae-tumangaonline-la-policia-nacional-desmantela-la-mayor-plataforma-de-pirateria-de-manga-en-espanol.html": {
-   "codigo": "403",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://email.faircode.eu/": {
    "codigo": "200",

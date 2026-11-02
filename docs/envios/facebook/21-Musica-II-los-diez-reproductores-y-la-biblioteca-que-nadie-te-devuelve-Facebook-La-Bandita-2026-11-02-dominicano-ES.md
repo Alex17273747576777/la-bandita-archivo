@@ -440,19 +440,19 @@ Los números, puestos en fila: ★61.081 repartidas, nueve licencias GPL-3.0 y u
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1928 caracteres ═══
+═══ MENSAJE 16 de 17 · 1822 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 21*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • MetrolistGroup/Metrolist — ★13.956 (+67) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.657 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/SimpMusic — ★12.658 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • z-huang/InnerTune — ★6.135 · *dormido*: sin empujar desde el 13-nov-2025 (354 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • OuterTune/OuterTune — ★5.441 · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.381 (+7) · empujó el 4-oct-2026 (hace 29 días) · GPL-3.0 · última release v7.0.3 (13-ago-2026)
 • OxygenCobalt/Auxio — ★4.415 · empujó en las últimas horas · GPL-3.0 · última release v4.1.5 (4-ago-2026)
-• gokadzev/Musify — ★4.389 (+8) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 10.6.0 (23-oct-2026)
+• gokadzev/Musify — ★4.390 (+9) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 10.6.0 (23-oct-2026)
 • fast4x/RiMusic — ★3.896 · *dormido*: sin empujar desde el 30-jul-2025 (460 días) · GPL-3.0 · última release v0.6.76 (21-mar-2025) · *ARCHIVADO*
 • anandnet/Harmony-Music — ★3.089 · *dormido*: sin empujar desde el 8-dic-2025 (329 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
 • zyrouge/symphony — ★1.723 · empujó el 2-oct-2026 (hace 31 días) · AGPL-3.0 · última release v2024.12.115 (14-dic-2024)
@@ -461,9 +461,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 12 enlaces de esta pieza, *11 responden*.
-
-• https://github.com/z-huang/InnerTune — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 12 enlaces de esta pieza, *12 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16
 

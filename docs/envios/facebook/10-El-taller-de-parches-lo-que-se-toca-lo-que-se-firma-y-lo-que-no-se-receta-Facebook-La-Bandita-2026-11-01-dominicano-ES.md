@@ -428,7 +428,7 @@ Y el otro hallazgo es de calendario: LSPatch sin empujones desde diciembre de 20
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 2488 caracteres ═══
+═══ MENSAJE 17 de 18 · 2259 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
@@ -438,24 +438,22 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 15 repositorios que cita esta pi
 • ReVanced/revanced-cli — ★1.599 · *dormido*: sin empujar desde el 2-jun-2026 (153 días) · GPL-3.0 · última release v6.0.0 (14-mar-2026)
 • ReVanced/revanced-patcher — ★3.549 · *dormido*: sin empujar desde el 9-jun-2026 (146 días) · GPL-3.0 · última release v22.0.1 (13-mar-2026)
 • inotia00/revanced-patches — ★2.260 · *dormido*: sin empujar desde el 10-mar-2026 (237 días) · GPL-3.0 · última release v5.14.1 (31-dic-2025) · *ARCHIVADO*
-• topjohnwu/Magisk — ★63.703 (+108) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• topjohnwu/Magisk — ★63.704 (+109) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
 • LSPosed/LSPosed — ★25.305 (+65) · empujó el 14-oct-2026 (hace 19 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
 • LSPosed/LSPatch — ★9.451 · *dormido*: sin empujar desde el 13-dic-2023 (1055 días) · GPL-3.0 · última release v0.6 (23-nov-2023) · *ARCHIVADO*
-• RikkaApps/Shizuku — ★32.638 (+253) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.636 (+251) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • skylot/jadx — ★51.476 · empujó el 30-oct-2026 (hace 3 días) · Apache-2.0 · última release v1.5.6 (10-jul-2026)
 • iBotPeaches/Apktool — ★26.922 · empujó en las últimas horas · Apache-2.0 · última release v3.0.3 (20-jul-2026)
-• microg/GmsCore — ★15.165 · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.3.17.252432 (29-sep-2026)
-• whyorean/AuroraStore — ★3.221 (+23) · empujó en las últimas horas · GPL-3.0
+• microg/GmsCore — ★15.166 · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.3.17.252432 (29-sep-2026)
+• whyorean/AuroraStore — ★3.222 (+24) · empujó en las últimas horas · GPL-3.0
 • Droid-ify/client — ★7.686 (+25) · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• yuliskov/SmartTube — ★35.838 (+129) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• yuliskov/SmartTube — ★35.839 (+130) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • Aefyr/SAI — ★3.958 (+8) · *dormido*: sin empujar desde el 3-jun-2024 (882 días) · GPL-3.0 · última release 4.5 (25-feb-2021)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 15 enlaces de esta pieza, *13 responden*.
-
-• https://github.com/whyorean/AuroraStore — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuliskov/SmartTube — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 15 enlaces de esta pieza, *15 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 16 de 17
 

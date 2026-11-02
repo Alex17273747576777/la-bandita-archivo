@@ -80,7 +80,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pie
 
 • syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • syncthing/syncthing-android — ★4.292 (-1) · *dormido*: sin empujar desde el 3-dic-2024 (699 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
-• serverless-dns/serverless-dns — ★3.835 (+3) · *dormido*: sin empujar desde el 6-may-2026 (180 días) · MPL-2.0
+• serverless-dns/serverless-dns — ★3.836 (+4) · *dormido*: sin empujar desde el 6-may-2026 (180 días) · MPL-2.0
 • researchxxl/syncthing-android — ★3.231 (+39) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

@@ -54,7 +54,7 @@ La noticia fresca es de **ImranR98/Obtainium**: release v1.7.3 (2026-10-25). El 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 814 caracteres ═══
+═══ MENSAJE 3 de 4 · 703 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 111*
 
@@ -66,9 +66,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 7 enlaces de esta pieza, *6 responden*.
-
-• https://github.com/solkin/appteka-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 7 enlaces de esta pieza, *7 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

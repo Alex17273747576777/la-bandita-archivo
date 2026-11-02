@@ -94,19 +94,19 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 13 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2055 caracteres ═══
+═══ MENSAJE 4 de 5 · 1715 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 64*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • immich-app/immich — ★117.961 (+349) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• yuliskov/SmartTube — ★35.838 (+129) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• yuliskov/SmartTube — ★35.839 (+130) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • xbmc/xbmc — ★21.419 (+20) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
 • muzei/muzei — ★4.959 (+5) · empujó en las últimas horas · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • anilbeesetti/nextplayer — ★4.662 (+27) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (2-nov-2026)
 • videolan/vlc-android — ★4.127 (+7) · empujó el 29-oct-2026 (hace 4 días) · GPL-2.0
-• NuvioMedia/NuvioTV — ★3.326 (+55) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• NuvioMedia/NuvioTV — ★3.327 (+56) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
 • mahlernim/google-timeline-visualizer — ★3.058 (+1) · empujó el 22-oct-2026 (hace 11 días) · MIT · última release v3.1.0 (5-oct-2026)
 • 10miaomiao/bilimiao2 — ★2.978 (+13) · empujó en las últimas horas · GPL-3.0 · última release 2.5.2.2 (1-nov-2026)
 • moneytoo/Player — ★2.785 (+26) · empujó el 22-oct-2026 (hace 11 días) · Unlicense · última release v0.217 (11-sep-2026)
@@ -115,11 +115,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *18 responden*.
-
-• https://github.com/videolan/vlc-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/xbmc/xbmc — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuliskov/SmartTube — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 21 enlaces de esta pieza, *21 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

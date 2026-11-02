@@ -417,7 +417,7 @@ El otro hallazgo es de forma, no de fondo: cuatro de las dieciocho fichas no ide
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 2829 caracteres ═══
+═══ MENSAJE 17 de 18 · 2467 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
@@ -426,11 +426,11 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pi
 • zhanghai/MaterialFiles — ★9.377 (+32) · empujó el 15-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
 • TeamAmaze/AmazeFileManager — ★6.451 · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.11.4 (15-oct-2026)
 • FossifyOrg/File-Manager — ★1.848 · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (24-oct-2026)
-• termux/termux-app — ★63.951 (+273) · empujó el 26-sep-2026 (hace 37 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• termux/termux-app — ★63.952 (+274) · empujó el 26-sep-2026 (hace 37 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • termux/termux-packages — ★17.292 · empujó en las últimas horas · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
 • termux/termux-api — ★4.578 · *dormido*: sin empujar desde el 17-sep-2026 (46 días) · sin licencia detectada por la API · última release v0.53.0 (1-sep-2025)
 • termux/termux-x11 — ★5.073 · empujó en las últimas horas · GPL-3.0 · última release nightly (27-oct-2026)
-• localsend/localsend — ★97.027 (+570) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• localsend/localsend — ★97.029 (+572) · empujó en las últimas horas · Apache-2.0 · última release v1.18.2 (21-ago-2026)
 • syncthing/syncthing-android — ★4.292 (-1) · *dormido*: sin empujar desde el 3-dic-2024 (699 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • Catfriend1/syncthing-android — sin dato hoy (la API no respondió). No afirmo nada.
 • gsantner/markor — ★6.368 · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release v2026.10.0 (25-oct-2026)
@@ -444,11 +444,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *15 responden*.
-
-• https://github.com/syncthing/syncthing-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/termux/termux-api — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/termux/termux-x11 — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 18 enlaces de esta pieza, *18 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 16 de 17
 

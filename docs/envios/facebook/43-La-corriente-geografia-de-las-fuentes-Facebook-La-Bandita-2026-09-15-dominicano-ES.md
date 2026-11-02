@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/43-La-corriente-geografia-de-las-fuentes-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
 - **sha256 de la pieza:** `7802b7a987d634ddb05f39bf58fb22b2440f0ac8e28a3bb261ceeceac277e73c`
-- **Envío generado:** 2026-11-02 · 6 mensajes · el mayor de 3884 caracteres
+- **Envío generado:** 2026-11-02 · 6 mensajes · el mayor de 3691 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 6 · 915 caracteres ═══
@@ -142,7 +142,7 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3884 caracteres ═══
+═══ MENSAJE 5 de 6 · 3510 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 43*
 
@@ -155,7 +155,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 26 repositorios que cita esta pi
 • IReaderorg/IReader — ★982 (+2) · empujó el 28-oct-2026 (hace 5 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
 • Aidoku-Community/sources — ★615 (+6) · empujó en las últimas horas · Apache-2.0
 • yuzono/anime-extensions — ★527 (+5) · empujó en las últimas horas · Apache-2.0
-• Spyou/Zangetsu — ★490 (+35) · empujó en las últimas horas · GPL-3.0 · última release v2.3.5 (1-nov-2026)
+• Spyou/Zangetsu — ★491 (+36) · empujó en las últimas horas · GPL-3.0 · última release v2.3.5 (1-nov-2026)
 • lnreader/lnreader-plugins — ★366 (+2) · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
 • Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 44 días) · Apache-2.0
 • yuzono/cursed-manga-extensions — ★217 (+3) · empujó en las últimas horas · Apache-2.0
@@ -177,11 +177,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 26 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 39 enlaces de esta pieza, *36 responden*.
-
-• https://github.com/salmanbappi/extensions-repo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/self-similarity/MegaRepo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuzono/cursed-manga-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 39 enlaces de esta pieza, *39 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 4 de 5
 

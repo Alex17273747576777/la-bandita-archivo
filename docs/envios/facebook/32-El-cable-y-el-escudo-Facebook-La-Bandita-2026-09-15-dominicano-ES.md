@@ -85,7 +85,7 @@ Pulso tranquilo: lo último que se movió fue **emanuele-f/PCAPdroid**, hace 2 d
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1948 caracteres ═══
+═══ MENSAJE 4 de 5 · 1819 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 32*
 
@@ -104,9 +104,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *14 responden*.
+De los 16 enlaces de esta pieza, *15 responden*.
 
-• https://github.com/yshalsager/ShizukuShortcuts — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://www.androidacy.com — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4

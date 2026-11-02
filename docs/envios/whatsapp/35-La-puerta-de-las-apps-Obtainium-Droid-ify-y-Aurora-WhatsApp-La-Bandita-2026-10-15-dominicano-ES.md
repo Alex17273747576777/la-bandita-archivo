@@ -602,7 +602,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pie
 • koreader/koreader — ★30.810 (+71) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
 • ImranR98/Obtainium — ★21.144 (+119) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • Droid-ify/client — ★7.686 (+23) · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• whyorean/AuroraStore — ★3.221 (+23) · empujó en las últimas horas · GPL-3.0
+• whyorean/AuroraStore — ★3.222 (+24) · empujó en las últimas horas · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

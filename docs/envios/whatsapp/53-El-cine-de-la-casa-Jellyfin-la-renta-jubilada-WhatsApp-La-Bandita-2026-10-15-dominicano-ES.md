@@ -76,7 +76,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 • jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • jellyfin/jellyfin-androidtv — ★4.697 (+22) · empujó el 29-oct-2026 (hace 4 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
-• jellyfin/jellyfin-android — ★2.850 (+11) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• jellyfin/jellyfin-android — ★2.851 (+12) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

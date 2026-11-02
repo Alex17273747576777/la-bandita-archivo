@@ -94,7 +94,7 @@ Hay release de esta semana: **materializr-cad/materializr** publicó v1.7.5 (202
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2262 caracteres ═══
+═══ MENSAJE 4 de 5 · 2155 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 60*
 
@@ -116,9 +116,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 13 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 20 enlaces de esta pieza, *19 responden*.
-
-• https://github.com/pynicolas/FairScan — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 20 enlaces de esta pieza, *20 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -438,7 +438,7 @@ El otro hallazgo es de costumbre: doce de las diecisiete herramientas se moviero
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 2866 caracteres ═══
+═══ MENSAJE 16 de 17 · 2501 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 05*
 
@@ -450,26 +450,23 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pi
 • bitwarden/android — ★9.575 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
 • Kunzisoft/KeePassDX — ★7.597 (+16) · empujó en las últimas horas · GPL-3.0 · última release 4.5.8 (31-oct-2026)
 • PhilippC/keepass2android — ★6.357 · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
-• beemdevelopment/Aegis — ★13.448 (+6) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• beemdevelopment/Aegis — ★13.447 (+5) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • twofas/2fas-android — ★1.564 · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 6.1.0 (19-oct-2026)
 • gorhill/uBlock — ★69.025 · empujó en las últimas horas · GPL-3.0 · última release 1.75.0 (16-sep-2026)
 • uazo/cromite — ★8.458 · empujó en las últimas horas · GPL-3.0 · última release v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a (15-sep-2026)
 • mozilla-mobile/firefox-android — ★1.842 · *dormido*: sin empujar desde el 17-jun-2024 (868 días) · MPL-2.0 · última release components-v125.3.0 (29-abr-2024) · *ARCHIVADO*
 • divested-mobile/mull-fenix — ★592 · *dormido*: sin empujar desde el 10-dic-2024 (692 días) · AGPL-3.0 · *ARCHIVADO*
 • nextdns/nextdns — ★4.242 · empujó en las últimas horas · MIT · última release v1.49.0 (29-oct-2026)
-• AdguardTeam/AdGuardHome — ★38.066 · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release v0.107.79 (18-ago-2026)
+• AdguardTeam/AdGuardHome — ★38.066 · empujó en las últimas horas · GPL-3.0 · última release v0.107.79 (18-ago-2026)
 • celzero/rethink-app — ★5.834 · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
-• tailscale/tailscale — ★38.514 · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
+• tailscale/tailscale — ★38.517 · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
 • mvt-project/mvt — ★15.688 · empujó en las últimas horas · NOASSERTION · última release v2026.11.2 (2-nov-2026)
 • ImranR98/Obtainium — ★21.144 (+125) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 17 enlaces de esta pieza, *14 responden*.
-
-• https://github.com/tailscale/tailscale — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/threema-ch/threema-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/twofas/2fas-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 17 enlaces de esta pieza, *17 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16
 

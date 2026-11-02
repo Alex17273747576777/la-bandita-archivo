@@ -96,13 +96,13 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2320 caracteres ═══
+═══ MENSAJE 4 de 5 · 2081 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 50*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• kushagrasinghx/BitChord — ★5.250 (+396) · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
+• kushagrasinghx/BitChord — ★5.252 (+398) · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
 • brahmkshatriya/echo — ★3.607 (+3) · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION
 • Flow-Tube/Flow — ★3.261 (+98) · empujó en las últimas horas · GPL-3.0 · última release v3.0.0 (17-oct-2026)
 • lovegaoshi/azusa-player-mobile — ★1.390 (+2) · empujó en las últimas horas · AGPL-3.0 · última release v4.4.0 (28-oct-2026)
@@ -119,11 +119,9 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 14 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *16 responden*.
+De los 19 enlaces de esta pieza, *18 responden*.
 
 • http://bitplane.net/projects/android/microphone/ — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/recloudstream/extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/shub39/Rush — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

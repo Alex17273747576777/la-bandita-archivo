@@ -87,7 +87,7 @@ La noticia fresca es de **N-Zik-Group/N-Zik**: release v8.5.0 (2026-10-28). En l
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1632 caracteres ═══
+═══ MENSAJE 4 de 5 · 1526 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
@@ -95,7 +95,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 • TeamNewPipe/NewPipe — ★40.402 (+48) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
 • MetrolistGroup/Metrolist — ★13.956 (+67) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.657 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/SimpMusic — ★12.658 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • AntennaPod/AntennaPod — ★8.260 (+3) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • z-huang/InnerTune — ★6.135 · *dormido*: sin empujar desde el 13-nov-2025 (354 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • OuterTune/OuterTune — ★5.441 · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
@@ -106,9 +106,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *15 responden*.
-
-• https://github.com/z-huang/InnerTune — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 16 enlaces de esta pieza, *16 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

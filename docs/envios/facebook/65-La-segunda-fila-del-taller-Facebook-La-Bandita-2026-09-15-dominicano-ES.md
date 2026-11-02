@@ -111,18 +111,18 @@ Hay release de esta semana: **ggml-org/llama.cpp** publicó v0.8.0 (2026-10-28).
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 3141 caracteres ═══
+═══ MENSAJE 4 de 5 · 2646 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 65*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.140 (+369) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• SagerNet/sing-box — ★39.541 (+152) · empujó el 28-oct-2026 (hace 5 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• ggml-org/llama.cpp — ★133.142 (+371) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• SagerNet/sing-box — ★39.542 (+153) · empujó el 28-oct-2026 (hace 5 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.294 (+9) · empujó el 30-oct-2026 (hace 3 días) · Apache-2.0
 • FlareSolverr/FlareSolverr — ★16.114 (+43) · empujó el 24-oct-2026 (hace 9 días) · MIT · última release v3.5.2 (12-sep-2026)
-• AAswordman/Operit — ★9.186 (+101) · empujó el 5-oct-2026 (hace 28 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
-• LibChecker/LibChecker — ★7.295 (+4) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
+• AAswordman/Operit — ★9.187 (+102) · empujó el 5-oct-2026 (hace 28 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
+• LibChecker/LibChecker — ★7.296 (+5) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.070 (+2) · *dormido*: sin empujar desde el 6-feb-2022 (1730 días) · sin licencia detectada por la API
 • zacharee/Tweaker — ★1.761 (+4) · empujó el 21-oct-2026 (hace 12 días) · MIT · última release 362 (17-feb-2024)
 • TeamWin/android_bootable_recovery — ★1.725 · *dormido*: sin empujar desde el 24-ago-2026 (70 días) · sin licencia detectada por la API
@@ -138,13 +138,9 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 29 enlaces de esta pieza, *24 responden*.
+De los 29 enlaces de esta pieza, *28 responden*.
 
 • https://anthonyy232.github.io/Paperize/ — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/sdex/ActivityManager — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/session-foundation/session-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/supershadoe/delta — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/zacharee/Tweaker — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-El-barrio-cambio-de-gente-el-mueble-de-los-comics-hoy-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `85d7f752826d0c4b4b7c481eb5ed9de9ceb875ab77b7dfe12842f5cf969c2ffb`
-- **Envío generado:** 2026-11-02 · 18 mensajes · el mayor de 3703 caracteres
+- **Envío generado:** 2026-11-02 · 18 mensajes · el mayor de 3679 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 18 · 948 caracteres ═══
@@ -474,20 +474,20 @@ El otro hallazgo es el que más veces se repite en las consultas: cuando el cat�
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 3703 caracteres ═══
+═══ MENSAJE 17 de 18 · 3462 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 27 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.963 (+124) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★24.966 (+127) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • aniyomiorg/aniyomi — ★7.865 · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 • komikku-app/komikku — ★4.971 (+16) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • jobobby04/TachiyomiSY — ★4.200 (+4) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • Jays2Kings/tachiyomiJ2K — ★5.400 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
 • null2264/yokai — ★1.915 (+3) · empujó el 13-oct-2026 (hace 20 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
 • KotatsuApp/Kotatsu — ★8.948 · *dormido*: sin empujar desde el 4-nov-2025 (363 días) · GPL-3.0 · *ARCHIVADO*
-• Predidit/Kazumi — ★40.706 (+602) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 2.4.2 (23-oct-2026)
+• Predidit/Kazumi — ★40.710 (+606) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
 • kodjodevf/mangayomi — ★4.295 (+23) · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
 • nekomangaorg/Neko — ★2.819 · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
 • Aidoku/Aidoku — ★4.688 (+13) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
@@ -495,7 +495,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 27 repositorios que cita esta pi
 • UsagiApp/Usagi — ★289 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 15 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
 • Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
-• roxycon-dev/Ciallo-Reader — ★278 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
+• roxycon-dev/Ciallo-Reader — ★279 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
 • gotson/komga — ★6.812 (+15) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)
 • Kareadita/Kavita — ★11.995 (+24) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
 • Suwayomi/Suwayomi-Server — ★7.993 (+25) · empujó en las últimas horas · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
@@ -510,10 +510,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 27 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 27 enlaces de esta pieza, *25 responden*.
-
-• https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuzono/tachiyomi-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 27 enlaces de esta pieza, *27 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 16 de 17
 

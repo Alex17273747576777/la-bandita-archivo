@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-Las-segundas-generaciones-quien-sigue-leyendo-cuando-el-tronco-se-seca-Facebook-La-Bandita-2026-11-01-dominicano-ES.md`
 - **Fecha de la pieza:** 1-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `53009ef5c569faaf54dd165bfe3aa6288dadc7586b64bcfc9e6211e48ecfacbf`
-- **Envío generado:** 2026-11-02 · 18 mensajes · el mayor de 3670 caracteres
+- **Envío generado:** 2026-11-02 · 18 mensajes · el mayor de 3565 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 18 · 954 caracteres ═══
@@ -644,13 +644,13 @@ Y si lo que falla es el catálogo, no es el lector. Son dos relojes distintos y 
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 3670 caracteres ═══
+═══ MENSAJE 17 de 18 · 3319 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.963 (+124) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★24.966 (+127) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • jobobby04/TachiyomiSY — ★4.200 (+4) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • Jays2Kings/tachiyomiJ2K — ★5.400 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
 • nekomangaorg/Neko — ★2.819 · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
@@ -675,15 +675,12 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 26 repositorios que cita esta pi
 • Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 44 días) · Apache-2.0
 • m2k3a/mangayomi-extensions — ★114 · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0
 • skepsun/kototoro-parsers — ★17 · empujó en las últimas horas · GPL-3.0
-• tailscale/tailscale — ★38.514 · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
+• tailscale/tailscale — ★38.517 · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 26 enlaces de esta pieza, *23 responden*.
-
-• https://github.com/skepsun/kototoro-parsers — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tailscale/tailscale — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 26 enlaces de esta pieza, *26 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 16 de 17
 

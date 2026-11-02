@@ -608,21 +608,21 @@ Y el tercero es el de siempre, con música: los reempaques. Un paquete que no fi
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 2685 caracteres ═══
+═══ MENSAJE 16 de 17 · 2217 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• team-spotube/spotube — ★50.553 · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• team-spotube/spotube — ★50.554 · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
 • MetrolistGroup/Metrolist — ★13.956 (+67) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.657 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/SimpMusic — ★12.658 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • maxrave-dev/core — ★22 · empujó en las últimas horas · GPL-3.0
 • OuterTune/OuterTune — ★5.441 · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • z-huang/InnerTune — ★6.135 · *dormido*: sin empujar desde el 13-nov-2025 (354 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • BlackHatDevX/openspot-music-app — ★2.976 · *dormido*: sin empujar desde el 3-ago-2026 (91 días) · MIT · última release v3.1.5 (2-jun-2026)
 • siper/Youamp — ★273 · *dormido*: sin empujar desde el 7-sep-2026 (56 días) · MIT · última release v2.1.5 (22-feb-2026)
-• PixelPlayerHQ/PixelPlayer — ★6.873 (+37) · empujó el 21-sep-2026 (hace 42 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
+• PixelPlayerHQ/PixelPlayer — ★6.874 (+38) · empujó el 21-sep-2026 (hace 42 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
 • PixelPlayerHQ/PixelPlayerOSS — ★308 (+11) · empujó en las últimas horas · GPL-3.0 · última release v0.4.0 (17-oct-2026)
 • namidaco/namida — ★6.765 · empujó en las últimas horas · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • OxygenCobalt/Auxio — ★4.415 · empujó en las últimas horas · GPL-3.0 · última release v4.1.5 (4-ago-2026)
@@ -633,12 +633,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *12 responden*.
-
-• https://github.com/sheikhhaziq/gyawun_music — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/siper/Youamp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/team-spotube/spotube — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/z-huang/InnerTune — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 16 enlaces de esta pieza, *16 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16
 

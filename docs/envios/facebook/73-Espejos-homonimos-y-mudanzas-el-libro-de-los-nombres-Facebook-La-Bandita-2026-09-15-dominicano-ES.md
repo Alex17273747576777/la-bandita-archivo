@@ -71,9 +71,9 @@ Hay release de esta semana: **finamp-app/finamp** publicó 1.0.2 (2026-10-29). L
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ente/ente — ★29.832 (+90) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
+• ente/ente — ★29.833 (+91) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
 • komi-store/komi-store — ★20.248 (+158) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• finamp-app/finamp — ★4.470 (+63) · empujó en las últimas horas · MPL-2.0 · última release 1.0.2 (29-oct-2026)
+• finamp-app/finamp — ★4.471 (+64) · empujó en las últimas horas · MPL-2.0 · última release 1.0.2 (29-oct-2026)
 • mafik/echo — ★333 (+1) · *dormido*: sin empujar desde el 5-jun-2025 (515 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

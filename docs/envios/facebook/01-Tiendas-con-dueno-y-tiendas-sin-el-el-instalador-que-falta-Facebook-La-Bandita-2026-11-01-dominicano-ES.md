@@ -443,7 +443,7 @@ El otro hallazgo es el de siempre y nunca se repite bastante: lo que decide si u
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 2966 caracteres ═══
+═══ MENSAJE 17 de 18 · 2370 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
@@ -454,14 +454,14 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pi
 • samyak2403/RepoStore — ★1.374 · empujó el 29-oct-2026 (hace 4 días) · MIT · última release v1.0.22 (29-oct-2026)
 • timschneeb/ShizuStore — ★515 · empujó en las últimas horas · GPL-3.0 · última release 1.5.0 (5-oct-2026)
 • Droid-ify/client — ★7.686 (+25) · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• NeoApplications/Neo-Store — ★5.603 (+33) · empujó el 23-oct-2026 (hace 10 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• NeoApplications/Neo-Store — ★5.604 (+34) · empujó el 23-oct-2026 (hace 10 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
 • accrescent/accrescent — ★2.305 (-1) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release 0.28.1 (10-nov-2025)
 • ImranR98/Obtainium — ★21.144 (+125) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• whyorean/AuroraStore — ★3.221 (+23) · empujó en las últimas horas · GPL-3.0
+• whyorean/AuroraStore — ★3.222 (+24) · empujó en las últimas horas · GPL-3.0
 • AbdurazaaqMohammed/AntiSplit-M — ★4.943 · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release 2.3.3 (31-oct-2026)
 • vinstall/VInstall — ★105 · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release v0.4.5 (30-oct-2026)
 • Paving-Base/APK-Installer — ★1.712 · empujó el 20-oct-2026 (hace 13 días) · GPL-3.0 · última release v0.1.28 (11-ago-2025)
-• RikkaApps/Shizuku — ★32.638 (+253) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.636 (+251) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • MuntashirAkon/AppManager — ★9.414 · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
 • offa/android-foss — ★11.611 (+25) · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0
 • Psyhackological/AAA — ★3.143 · empujó el 29-sep-2026 (hace 34 días) · CC-BY-4.0 · última release 250 (7-may-2024)
@@ -470,13 +470,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *13 responden*.
-
-• https://github.com/rehmatworks/gplaydl — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/solkin/appteka-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/timschneeb/ShizuStore — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/vinstall/VInstall — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/whyorean/AuroraStore — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 18 enlaces de esta pieza, *18 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 16 de 17
 

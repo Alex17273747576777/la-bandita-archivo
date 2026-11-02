@@ -108,13 +108,13 @@ Pulso de hoy sobre los 16 repos de la pieza: 16 vivos, 14 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2420 caracteres ═══
+═══ MENSAJE 4 de 5 · 2315 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 59*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★332.971 (+1184) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• awesome-selfhosted/awesome-selfhosted — ★332.977 (+1190) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
 • jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • photoprism/photoprism — ★40.390 (+20) · empujó el 29-oct-2026 (hace 4 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • komi-store/komi-store — ★20.248 (+158) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
@@ -123,7 +123,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pi
 • jellyfin/jellyfin-androidtv — ★4.697 (+22) · empujó el 29-oct-2026 (hace 4 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
 • wgtunnel/android — ★3.324 (+8) · empujó en las últimas horas · MIT · última release 5.8.2 (19-oct-2026)
 • f-droid/fdroidclient — ★3.257 (+10) · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release 1.18.0 (24-ene-2024)
-• jellyfin/jellyfin-android — ★2.850 (+11) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• jellyfin/jellyfin-android — ★2.851 (+12) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 • lihenggui/blocker — ★2.479 (+13) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.6447 (22-oct-2026)
 • AhmetCanArslan/ShizuWall — ★2.438 (+29) · empujó en las últimas horas · GPL-3.0 · última release v4.6.8 (24-oct-2026)
 • VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (964 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
@@ -133,9 +133,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 24 enlaces de esta pieza, *23 responden*.
-
-• https://github.com/wgtunnel/android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 24 enlaces de esta pieza, *24 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

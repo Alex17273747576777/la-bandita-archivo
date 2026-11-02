@@ -542,7 +542,7 @@ La respuesta incómoda: si no vas a compilar más de una vez, no aprendas. Busca
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1692 caracteres ═══
+═══ MENSAJE 16 de 17 · 1337 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
@@ -560,11 +560,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 9 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *6 responden*.
-
-• https://github.com/rokku-app/rokku — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/theordinaryguy23/TachiyomiDNP — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/unseensnick/Reikai — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 9 enlaces de esta pieza, *9 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16
 

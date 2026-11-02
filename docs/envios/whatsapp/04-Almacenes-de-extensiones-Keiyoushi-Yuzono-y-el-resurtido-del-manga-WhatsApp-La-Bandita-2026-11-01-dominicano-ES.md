@@ -785,7 +785,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 33 repositorios que cita esta pi
 • timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (224 días) · Apache-2.0 · *ARCHIVADO*
 • keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
 • kodjodevf/mangayomi — ★4.295 · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• mihonapp/mihon — ★24.963 (+123) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★24.965 (+125) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/komikku — ★4.971 (+15) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • nekomangaorg/Neko — ★2.819 (+2) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
 • Kototoro-app/Kototoro — ★662 (+9) · empujó en las últimas horas · Apache-2.0 · última release v2.3.6 (2-nov-2026)

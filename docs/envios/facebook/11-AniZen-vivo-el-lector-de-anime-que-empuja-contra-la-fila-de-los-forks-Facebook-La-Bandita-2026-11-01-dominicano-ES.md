@@ -466,7 +466,7 @@ Lo que sí tiene dueño es la manera de mirarlo: dos fechas por proyecto, licenc
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1962 caracteres ═══
+═══ MENSAJE 15 de 16 · 1609 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 11*
 
@@ -481,15 +481,12 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 • aniyomiorg/aniyomi — ★7.865 · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
 • andarcanum/Tadami-Aniyomi-fork — ★287 · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
 • KakarottoCake/yokai-T — ★0 · empujó el 26-sep-2026 (hace 37 días) · Apache-2.0 · última release v1.0.2 (4-jul-2026)
-• mihonapp/mihon — ★24.963 (+124) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★24.966 (+127) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *6 responden*.
-
-• https://github.com/salmanbappi/AniZen — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/salmanbappi/anizen-preview — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 9 enlaces de esta pieza, *9 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 14 de 15
 

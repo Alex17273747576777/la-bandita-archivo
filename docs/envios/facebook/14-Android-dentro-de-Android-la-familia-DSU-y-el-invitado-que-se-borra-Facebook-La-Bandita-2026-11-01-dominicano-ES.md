@@ -560,7 +560,7 @@ La idea que queda es la más barata de toda la serie: cuando algo da miedo, se p
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1962 caracteres ═══
+═══ MENSAJE 16 de 17 · 1842 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 14*
 
@@ -579,9 +579,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 10 enlaces de esta pieza, *9 responden*.
-
-• https://github.com/yangFenTuoZi/DSU-Sideloader-Plus — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 10 enlaces de esta pieza, *10 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16
 

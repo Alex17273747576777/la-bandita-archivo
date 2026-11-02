@@ -746,7 +746,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 33 repositorios que cita esta pi
 • hakerdefo/Robota-Liberated — ★231 (sin cambio) · *dormido*: sin empujar desde el 3-jun-2026 (152 días) · CC0-1.0
 • twinksoftware/Gearslip — ★246 (+17) · empujó el 27-oct-2026 (hace 6 días) · AGPL-3.0 · última release v0.3.12-alpha (25-oct-2026)
 • biolend83/tubehaus — ★222 (+35) · empujó en las últimas horas · AGPL-3.0 · última release app-v0.5.12 (2-nov-2026)
-• GitMag/UnknownAuto — ★188 (+43) · empujó en las últimas horas · MIT · última release v1.3 (2-nov-2026)
+• GitMag/UnknownAuto — ★190 (+45) · empujó en las últimas horas · MIT · última release v1.3 (2-nov-2026)
 • steven-ahfu/Android-TV-Desktop-Toolkit — ★95 (+1) · *dormido*: sin empujar desde el 20-jul-2026 (105 días) · AGPL-3.0 · última release v4.1.10 (20-jul-2026)
 • m-salehi-v/mrowser — ★64 (sin cambio) · empujó el 26-oct-2026 (hace 7 días) · MIT · última release v1.4.0 (16-oct-2026)
 • Miniontoby/RokidApkUploader — ★59 (-1) · *dormido*: sin empujar desde el 9-abr-2026 (207 días) · GPL-3.0 · última release v1.0.3 (9-abr-2026)

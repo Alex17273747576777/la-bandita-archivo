@@ -606,7 +606,7 @@ La parte incómoda fue el campo de la versión. El archivado no tiene ninguna qu
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1494 caracteres ═══
+═══ MENSAJE 15 de 16 · 1389 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 19*
 
@@ -624,9 +624,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 9 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *8 responden*.
-
-• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 9 enlaces de esta pieza, *9 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 14 de 15
 

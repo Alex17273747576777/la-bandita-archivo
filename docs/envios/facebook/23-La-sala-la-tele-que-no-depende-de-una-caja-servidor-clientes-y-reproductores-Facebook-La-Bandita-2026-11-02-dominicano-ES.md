@@ -478,7 +478,7 @@ El reparto de estrellas vuelve a ser la lección de siempre: casi ocho de cada d
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1786 caracteres ═══
+═══ MENSAJE 16 de 17 · 1677 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 23*
 
@@ -486,7 +486,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 • jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • jellyfin/jellyfin-androidtv — ★4.697 (+22) · empujó el 29-oct-2026 (hace 4 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
-• jellyfin/jellyfin-android — ★2.850 (+11) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• jellyfin/jellyfin-android — ★2.851 (+12) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 • jellyfin/jellyfin-web — ★3.957 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • Streamyfin/streamyfin — ★5.332 · empujó en las últimas horas · MPL-2.0 · última release v0.55.2 (16-oct-2026)
 • jarnedemeulemeester/findroid — ★4.291 (+11) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (25-oct-2026)
@@ -499,9 +499,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 12 enlaces de esta pieza, *11 responden*.
-
-• https://github.com/videolan/vlc-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 12 enlaces de esta pieza, *12 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16
 

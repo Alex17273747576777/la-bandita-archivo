@@ -533,7 +533,7 @@ Lo que se compra con esto no es ahorro: es control. Un aparato encendido en la c
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1841 caracteres ═══
+═══ MENSAJE 16 de 17 · 1733 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 24*
 
@@ -541,10 +541,10 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 • immich-app/immich — ★117.961 (+349) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
 • home-assistant/core — ★91.912 · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
-• syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• syncthing/syncthing — ★90.008 (+135) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • dani-garcia/vaultwarden — ★70.101 · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 • go-gitea/gitea — ★58.825 · empujó en las últimas horas · MIT · última release v28.3.0 (1-nov-2026)
-• nextcloud/server — ★37.395 (+50) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• nextcloud/server — ★37.396 (+51) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • navidrome/navidrome — ★24.484 · empujó en las últimas horas · GPL-3.0 · última release v0.64.2 (24-sep-2026)
 • FreshRSS/FreshRSS — ★16.488 (+42) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
 • advplyr/audiobookshelf — ★14.890 · empujó en las últimas horas · GPL-3.0 · última release v2.37.2 (23-oct-2026)
@@ -554,9 +554,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 12 enlaces de esta pieza, *11 responden*.
-
-• https://github.com/syncthing/syncthing — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 12 enlaces de esta pieza, *12 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16
 

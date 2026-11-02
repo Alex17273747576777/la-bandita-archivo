@@ -71,7 +71,7 @@ REV|)31-01-6202( 8.5.0v — ppa-knihter/orezlec=1|REV|018.5★ — ppa-knihter/o
 Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • celzero/rethink-app — ★5.834 (+24) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
-• serverless-dns/serverless-dns — ★3.835 (+3) · *dormido*: sin empujar desde el 6-may-2026 (180 días) · MPL-2.0
+• serverless-dns/serverless-dns — ★3.836 (+4) · *dormido*: sin empujar desde el 6-may-2026 (180 días) · MPL-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

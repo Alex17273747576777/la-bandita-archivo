@@ -115,7 +115,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 15 repositorios que cita esta pi
 • akashdh11/skystream — ★670 (+7) · empujó el 17-oct-2026 (hace 16 días) · GPL-3.0 · última release v2.9.0 (17-oct-2026)
 • jakepurple13/OtakuWorld — ★637 (-1) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release v32.1.2 (29-jun-2026)
 • imashnake0/Animite — ★523 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.7.15-alpha01 (1-nov-2026)
-• Spyou/Zangetsu — ★490 (+35) · empujó en las últimas horas · GPL-3.0 · última release v2.3.5 (1-nov-2026)
+• Spyou/Zangetsu — ★491 (+36) · empujó en las últimas horas · GPL-3.0 · última release v2.3.5 (1-nov-2026)
 • frostnova721/animestream — ★447 (+3) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v1.4.7 (14-sep-2026)
 • cranci1/Sora — ★427 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (74 días) · GPL-3.0 · última release 1.3.0 (20-ago-2026) · *ARCHIVADO*
 • roshancodespace/ShonenX — ★356 (+1) · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0 · última release v2.1.5 (25-oct-2026)

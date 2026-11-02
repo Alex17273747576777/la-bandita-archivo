@@ -613,7 +613,7 @@ Y hay una advertencia que se repite en las fichas: casi la mitad de estos proyec
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 3186 caracteres ═══
+═══ MENSAJE 16 de 17 · 2833 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
@@ -624,7 +624,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 21 repositorios que cita esta pi
 • kodjodevf/mangayomi — ★4.295 (+23) · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
 • Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
 • yomihon/yomihon — ★142 (+2) · empujó el 18-oct-2026 (hace 15 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
-• roxycon-dev/Ciallo-Reader — ★278 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
+• roxycon-dev/Ciallo-Reader — ★279 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
 • Aidoku/Aidoku — ★4.688 (+13) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
 • Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (236 días) · GPL-3.0
 • eguojz/usagi-sora-vn-sources — ★119 · empujó en las últimas horas · sin licencia detectada por la API
@@ -643,11 +643,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 21 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *18 responden*.
-
-• https://github.com/skepsun/kototoro-parsers — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/youniaogu/MangaReader — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 21 enlaces de esta pieza, *21 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16
 

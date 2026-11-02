@@ -840,7 +840,7 @@ Y si lo que falla es el catálogo, no es el lector. Son dos piezas distintas y c
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.963 (+123) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★24.965 (+125) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • jobobby04/TachiyomiSY — ★4.200 (+4) · empujó en las últimas horas · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • Jays2Kings/tachiyomiJ2K — ★5.400 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
 • nekomangaorg/Neko — ★2.819 (+2) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
@@ -865,7 +865,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 26 repositorios que cita esta pi
 • Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 44 días) · Apache-2.0
 • m2k3a/mangayomi-extensions — ★114 · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0
 • skepsun/kototoro-parsers — ★17 · empujó en las últimas horas · GPL-3.0
-• tailscale/tailscale — ★38.513 (+209) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
+• tailscale/tailscale — ★38.517 (+213) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -485,7 +485,7 @@ El hallazgo de hoy es que el aparato endurecido ya no es un experimento de labor
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 1649 caracteres ═══
+═══ MENSAJE 17 de 18 · 1537 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
@@ -493,7 +493,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 • GrapheneOS/Auditor — ★730 · empujó el 30-oct-2026 (hace 3 días) · MIT · última release 92 (30-may-2026)
 • MuntashirAkon/AppManager — ★9.414 · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• RikkaApps/Shizuku — ★32.638 (+253) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.636 (+251) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • GrapheneOS/Vanadium — ★2.274 · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release 156.0.8078.79.0 (30-oct-2026)
 • GrapheneOS/Camera — ★1.422 · empujó el 30-oct-2026 (hace 3 días) · MIT · última release 93 (1-ago-2026)
 • GrapheneOS/hardened_malloc — ★2.049 · empujó en las últimas horas · MIT · última release 14 (22-feb-2026)
@@ -504,9 +504,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 10 enlaces de esta pieza, *9 responden*.
-
-• https://github.com/woheller69/FreeDroidWarn — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 10 enlaces de esta pieza, *10 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 16 de 17
 

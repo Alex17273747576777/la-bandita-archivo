@@ -46,7 +46,7 @@ Sin sobresaltos: el empuje más cercano es de **scummvm/scummvm** (hace 2 días)
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 549 caracteres ═══
+═══ MENSAJE 3 de 4 · 445 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 80*
 
@@ -56,9 +56,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 2 enlaces de esta pieza, *1 responden*.
-
-• https://github.com/scummvm/scummvm — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 2 enlaces de esta pieza, *2 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

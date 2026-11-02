@@ -81,7 +81,7 @@ Lo primero, lo que se cayó: **hayase-app/ui** (bloqueado legal (451): existe), 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1800 caracteres ═══
+═══ MENSAJE 4 de 5 · 1681 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 47*
 
@@ -100,11 +100,10 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 13 enlaces de esta pieza, *10 responden*.
+De los 13 enlaces de esta pieza, *11 responden*.
 
 • https://github.com/hayase-app/ui — 451. Error del servidor; no es culpa del enlace.
 • https://github.com/thaunknown/miru — 451. Error del servidor; no es culpa del enlace.
-• https://github.com/venera-app/venera — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

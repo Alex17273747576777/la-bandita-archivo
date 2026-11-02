@@ -98,7 +98,7 @@ Sin sobresaltos: el empuje más cercano es de **retransmit/Atrium** (hace 2 día
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2725 caracteres ═══
+═══ MENSAJE 4 de 5 · 2133 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 58*
 
@@ -121,13 +121,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 14 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 21 enlaces de esta pieza, *16 responden*.
-
-• https://github.com/ptrLx/OneShot — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/retransmit/Atrium — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/rumca-js/OfflineWebSearch — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tuntorius/mightier_amp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/zimly/zimly-backup — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 21 enlaces de esta pieza, *21 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -578,7 +578,7 @@ Un catálogo de metadatos no guarda libros: guarda las pistas que permiten encon
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1330 caracteres ═══
+═══ MENSAJE 15 de 16 · 1101 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 18*
 
@@ -587,17 +587,15 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 7 repositorios que cita esta pie
 • koodo-reader/koodo-reader — ★28.698 · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
 • booklore-app/booklore — ★1.332 · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0 · última release v2.4.0 (19-sep-2026)
 • warreth/OpenlibExtended — ★564 · empujó en las últimas horas · AGPL-3.0 · última release v1.8.0 (2-nov-2026)
-• roxycon-dev/Ciallo-Reader — ★278 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
+• roxycon-dev/Ciallo-Reader — ★279 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
 • bndct-devops/tome — ★108 · empujó en las últimas horas · AGPL-3.0 · última release v2.8.0 (24-oct-2026)
 • yzfly/LightRead — ★78 · empujó en las últimas horas · AGPL-3.0 · última release v2.6.2 (1-nov-2026)
 • bilec/econverter — ★54 · empujó en las últimas horas · GPL-3.0 · última release v1.4.0 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 8 enlaces de esta pieza, *6 responden*.
-
-• https://github.com/warreth/OpenlibExtended — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yzfly/LightRead — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 8 enlaces de esta pieza, *8 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 14 de 15
 

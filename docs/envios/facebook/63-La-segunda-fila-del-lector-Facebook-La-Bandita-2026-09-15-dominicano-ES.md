@@ -95,7 +95,7 @@ Hay release de esta semana: **wikimedia/apps-android-wikipedia** publicó latest
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1843 caracteres ═══
+═══ MENSAJE 4 de 5 · 1735 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 63*
 
@@ -104,7 +104,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 11 repositorios que cita esta pi
 • floccusaddon/floccus — ★8.614 (+11) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
 • ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (83 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
-• spacecowboy/Feeder — ★3.105 (+9) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)
+• spacecowboy/Feeder — ★3.104 (+8) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)
 • wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (31-oct-2026)
 • SimonSchubert/LinuxCommandLibrary — ★2.091 (+5) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release v4.9.1 (14-oct-2026)
 • plateaukao/einkbro — ★2.051 (+3) · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
@@ -115,9 +115,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 11 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *17 responden*.
-
-• https://github.com/samuelclay/NewsBlur — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 18 enlaces de esta pieza, *18 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

@@ -1075,11 +1075,11 @@ REV|0.3-LPGA=1|REV|895.36★ — ksigaM/uwnhojpot=2|REV|92-01-6202 — cisuMpmiS
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• topjohnwu/Magisk — ★63.703 (+108) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• topjohnwu/Magisk — ★63.704 (+109) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
 • team-spotube/spotube — ★50.553 (+87) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• tiann/KernelSU — ★19.980 (+168) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
+• tiann/KernelSU — ★19.981 (+169) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
 • MetrolistGroup/Metrolist — ★13.956 (+65) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.657 (+123) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/SimpMusic — ★12.658 (+124) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • Dr-TSNG/ZygiskNext — ★10.785 (+43) · empujó el 15-oct-2026 (hace 18 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
 • Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.692 (+53) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (12-ene-2026)
 • bmax121/APatch — ★8.119 (+15) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release 11282 (15-oct-2026)

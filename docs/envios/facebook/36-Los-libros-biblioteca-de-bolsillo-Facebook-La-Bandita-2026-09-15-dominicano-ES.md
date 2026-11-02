@@ -84,7 +84,7 @@ Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1793 caracteres ═══
+═══ MENSAJE 4 de 5 · 1571 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 36*
 
@@ -92,7 +92,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 • koreader/koreader — ★30.810 (+73) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
 • kovidgoyal/calibre — ★26.327 (+44) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
-• readest/readest — ★25.859 (+117) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• readest/readest — ★25.862 (+120) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
 • foobnix/LibreraReader — ★4.993 (+17) · empujó en las últimas horas · NOASSERTION · última release 10.0.22 (1-nov-2026)
 • Pool-Of-Tears/Myne — ★1.543 (+2) · empujó el 21-sep-2026 (hace 42 días) · Apache-2.0 · última release v5.1.0 (21-ago-2026)
 • kiwix/kiwix-android — ★1.524 (+7) · empujó en las últimas horas · GPL-3.0 · última release v3.14.1 (14-may-2026)
@@ -103,10 +103,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *14 responden*.
-
-• https://github.com/readest/readest — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 16 enlaces de esta pieza, *16 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

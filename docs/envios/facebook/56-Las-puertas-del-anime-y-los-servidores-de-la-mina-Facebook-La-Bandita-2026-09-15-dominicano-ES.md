@@ -290,19 +290,19 @@ La noticia amarga: **jpdoshi/dragon-store** (caído (404)), **ycngmn/CuxPlug** (
 Medí otra vez, hoy 2 de noviembre de 2026, los 62 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • immich-app/immich — ★117.961 (+349) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• yuliskov/SmartTube — ★35.838 (+129) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• yuliskov/SmartTube — ★35.839 (+130) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • xbmc/xbmc — ★21.419 (+20) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
 • lollipopkit/flutter_server_box — ★8.931 (+34) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
 • standardnotes/app — ★6.695 (+7) · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • muzei/muzei — ★4.959 (+5) · empujó en las últimas horas · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • anilbeesetti/nextplayer — ★4.662 (+27) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (2-nov-2026)
-• 5rahim/seanime — ★4.298 (+13) · empujó el 14-oct-2026 (hace 19 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
+• 5rahim/seanime — ★4.299 (+14) · empujó el 14-oct-2026 (hace 19 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
 • jarnedemeulemeester/findroid — ★4.291 (+11) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (25-oct-2026)
 • owncloud/android — ★4.174 (-1) · empujó en las últimas horas · GPL-2.0 · última release v4.8.4 (31-ago-2026)
 • videolan/vlc-android — ★4.127 (+7) · empujó el 29-oct-2026 (hace 4 días) · GPL-2.0
-• NuvioMedia/NuvioTV — ★3.326 (+55) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
-• researchxxl/syncthing-android — ★3.231 (+39) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• NuvioMedia/NuvioTV — ★3.327 (+56) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• researchxxl/syncthing-android — ★3.232 (+40) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • mahlernim/google-timeline-visualizer — ★3.058 (+1) · empujó el 22-oct-2026 (hace 11 días) · MIT · última release v3.1.0 (5-oct-2026)
 • 10miaomiao/bilimiao2 — ★2.978 (+13) · empujó en las últimas horas · GPL-3.0 · última release 2.5.2.2 (1-nov-2026)
 • moneytoo/Player — ★2.785 (+26) · empujó el 22-oct-2026 (hace 11 días) · Unlicense · última release v0.217 (11-sep-2026)
@@ -364,28 +364,15 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 62 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 9 de 11
 
-═══ MENSAJE 11 de 12 · 2003 caracteres ═══
+═══ MENSAJE 11 de 12 · 419 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 92 enlaces de esta pieza, *76 responden*.
+De los 92 enlaces de esta pieza, *89 responden*.
 
 • https://github.com/inaccurate-hotelplan289/HomeLabSetup — 404. No existe hoy: no lo abras, no lo recomiendo.
 • https://github.com/jpdoshi/dragon-store — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/ptrLx/OneShot — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/retransmit/Atrium — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/rumca-js/OfflineWebSearch — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/self-similarity/MegaRepo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/standardnotes/app — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/thiagooo0/EHHelper — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tobexyz/yaacc-code — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tuntorius/mightier_amp — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/videolan/vlc-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/xbmc/xbmc — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/ycngmn/CuxPlug — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuliskov/SmartTube — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/zimly/zimly-backup — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://standardnotes.com/forum — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/ycngmn/CuxPlug — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 10 de 11
 

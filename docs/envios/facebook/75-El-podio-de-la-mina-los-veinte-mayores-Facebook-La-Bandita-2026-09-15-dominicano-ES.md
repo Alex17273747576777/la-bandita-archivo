@@ -131,19 +131,19 @@ La noticia fresca es de **lollipopkit/flutter_server_box**: release v1.0.1844 (2
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2687 caracteres ═══
+═══ MENSAJE 5 de 6 · 2469 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 75*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★332.971 (+1184) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
-• ggml-org/llama.cpp — ★133.140 (+369) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• awesome-selfhosted/awesome-selfhosted — ★332.977 (+1190) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• ggml-org/llama.cpp — ★133.142 (+371) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
 • immich-app/immich — ★117.961 (+349) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
 • photoprism/photoprism — ★40.390 (+20) · empujó el 29-oct-2026 (hace 4 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• SagerNet/sing-box — ★39.541 (+152) · empujó el 28-oct-2026 (hace 5 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
-• yuliskov/SmartTube — ★35.838 (+129) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
-• ente/ente — ★29.832 (+90) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
+• SagerNet/sing-box — ★39.542 (+153) · empujó el 28-oct-2026 (hace 5 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• yuliskov/SmartTube — ★35.839 (+130) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• ente/ente — ★29.833 (+91) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
 • mlc-ai/mlc-llm — ★23.294 (+9) · empujó el 30-oct-2026 (hace 3 días) · Apache-2.0
 • xbmc/xbmc — ★21.419 (+20) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
 • komi-store/komi-store — ★20.248 (+158) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
@@ -158,10 +158,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 33 enlaces de esta pieza, *31 responden*.
-
-• https://github.com/xbmc/xbmc — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yuliskov/SmartTube — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 33 enlaces de esta pieza, *33 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 4 de 5
 

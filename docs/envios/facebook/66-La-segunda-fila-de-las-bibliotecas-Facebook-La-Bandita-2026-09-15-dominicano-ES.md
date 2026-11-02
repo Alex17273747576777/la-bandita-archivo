@@ -105,7 +105,7 @@ Hay release de esta semana: **LinwoodDev/Butterfly** publicó v2.6.2 (2026-10-28
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ente/ente — ★29.832 (+90) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
+• ente/ente — ★29.833 (+91) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
 • T8RIN/ImageToolbox — ★15.296 (+55) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
 • nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • deckerst/aves — ★5.479 (+11) · empujó el 31-oct-2026 (hace 2 días) · BSD-3-Clause · última release v1.15.8 (21-oct-2026)

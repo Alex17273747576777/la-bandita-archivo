@@ -317,7 +317,7 @@ Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Mand
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 60 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ente/ente — ★29.832 (+90) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
+• ente/ente — ★29.833 (+91) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.67 (30-oct-2026)
 • T8RIN/ImageToolbox — ★15.296 (+55) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
 • floccusaddon/floccus — ★8.614 (+11) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
@@ -325,7 +325,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 60 repositorios que cita esta pi
 • deckerst/aves — ★5.479 (+11) · empujó el 31-oct-2026 (hace 2 días) · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
 • burhanrashid52/PhotoEditor — ★4.531 (+1) · empujó el 27-sep-2026 (hace 36 días) · MIT · última release v.3.1.1 (17-sep-2026)
 • pulsejet/memories — ★3.872 (+4) · empujó en las últimas horas · AGPL-3.0 · última release v10.2.0 (23-oct-2026)
-• spacecowboy/Feeder — ★3.105 (+9) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)
+• spacecowboy/Feeder — ★3.104 (+8) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)
 • wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (31-oct-2026)
 • IacobIonut01/ReFra — ★2.973 (+14) · empujó el 27-oct-2026 (hace 6 días) · Apache-2.0 · última release 5.2.2 (4-oct-2026)
 • anonfaded/FadCam — ★2.869 (+4) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v3.0.1 (16-dic-2025)
@@ -390,19 +390,13 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 60 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 10 de 12
 
-═══ MENSAJE 12 de 13 · 1145 caracteres ═══
+═══ MENSAJE 12 de 13 · 396 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 91 enlaces de esta pieza, *83 responden*.
+De los 91 enlaces de esta pieza, *89 responden*.
 
 • https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/pynicolas/FairScan — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/rektpartyaftermath/Legado-booksource-collection — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/samuelclay/NewsBlur — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/ulightm111/boky-fivavahana-ion — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/v4lpt/MYC — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/vauvenal5/yaga — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://play.google.com/store/apps/details?id=com.mshdabiola.playnotepad — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 11 de 12

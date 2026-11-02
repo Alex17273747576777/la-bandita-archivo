@@ -499,7 +499,7 @@ Y el aviso que hay que dejar escrito: aquí todo caduca. Un icono que deja de ab
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 1461 caracteres ═══
+═══ MENSAJE 16 de 17 · 1362 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 13*
 
@@ -512,14 +512,13 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 9 repositorios que cita esta pie
 • SideStore/SideStore — ★7.194 · empujó el 27-oct-2026 (hace 6 días) · AGPL-3.0 · última release 0.7.0-alpha (15-sep-2026)
 • LiveContainer/LiveContainer — ★13.727 · empujó el 17-oct-2026 (hace 16 días) · AGPL-3.0 · última release 3.8.0 (17-jul-2026)
 • SignTools/SignTools — ★2.243 · empujó el 12-oct-2026 (hace 21 días) · AGPL-3.0 · última release v3.0.12 (16-jul-2026)
-• bahattinkoc/ipaverse — ★689 · empujó el 22-sep-2026 (hace 41 días) · MIT · última release v2.5.3 (22-sep-2026)
+• bahattinkoc/ipaverse — ★690 · empujó el 22-sep-2026 (hace 41 días) · MIT · última release v2.5.3 (22-sep-2026)
 • VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (964 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *8 responden*.
-
-• https://github.com/utmapp/UTM — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 9 enlaces de esta pieza, *9 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16
 

@@ -1,6 +1,6 @@
 # CONFORMIDAD CON EL MANUAL DE ESTILO Y OPERACIONES V3.0
 
-**Fecha del corte:** Monday 2026-11-02, 12:43 de Santo Domingo (UTC-4).
+**Fecha del corte:** Monday 2026-11-02, 13:02 de Santo Domingo (UTC-4).
 **Documento puente:** `corpus-la-bandita/CIMIENTOS — criterios obligatorios y precedencia (1-nov-2026).md` (§5 remite aquí).
 **Compuerta:** `tools/manual_gate.py` (M01–M16, M23), enchufada a `tools/vara.py` como **G11**.
 
@@ -10,8 +10,8 @@ Si se edita una pieza, se vuelve a correr `python3 tools/acta_conformidad.py` y 
 ## 1 · Resultado de la corrida
 
 ```
-python3 tools/manual_gate.py --verificar   →   VERDE 30 · VENTANA 0 · ROJO 0
-python3 tools/vara.py                      →   fallos: NINGUNO (G11: 30/30 piezas VERDE)
+python3 tools/manual_gate.py --verificar   →   VERDE 31 · VENTANA 0 · ROJO 0
+python3 tools/vara.py                      →   fallos: NINGUNO (G11: 31/31 piezas VERDE)
 ```
 
 ## 2 · Pieza por pieza
@@ -42,6 +42,7 @@ python3 tools/vara.py                      →   fallos: NINGUNO (G11: 30/30 pie
 | FA 22 | 40.214 | dentro | 11 | 5 | 10 | 12/12 | 47 | VERDE |
 | FA 23 | 40.013 | dentro | 11 | 5 | 10 | 12/12 | 47 | VERDE |
 | FA 24 | 40.302 | dentro | 11 | 5 | 10 | 12/12 | 49 | VERDE |
+| FA 25 | 40.795 | dentro | 12 | 5 | 10 | 12/12 | 52 | VERDE |
 | WH 01 | 63.094 | dentro | 8 | 3 | 9 | 29/29 | 67 | VERDE |
 | WH 02 | 63.084 | dentro | 12 | 3 | 11 | 56/56 | 123 | VERDE |
 | WH 03 | 63.007 | dentro | 12 | 4 | 8 | 33/33 | 64 | VERDE |
@@ -49,7 +50,7 @@ python3 tools/vara.py                      →   fallos: NINGUNO (G11: 30/30 pie
 | WH 05 | 63.020 | dentro | 12 | 5 | 12 | 17/17 | 38 | VERDE |
 | WH 06 | 63.002 | dentro | 12 | 5 | 11 | 26/26 | 55 | VERDE |
 
-Las 30 piezas de la serie viva cumplen hoy todos los criterios que la compuerta sabe medir.
+Las 31 piezas de la serie viva cumplen hoy todos los criterios que la compuerta sabe medir.
 Ninguna quedó en VENTANA, que es la categoría de los fallos de forma.
 
 ## 3 · Qué comprueba cada código

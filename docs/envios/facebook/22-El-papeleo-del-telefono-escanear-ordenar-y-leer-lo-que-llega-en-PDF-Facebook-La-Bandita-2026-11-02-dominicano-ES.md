@@ -471,11 +471,11 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 13 repositorios que cita esta pi
 • PDF/A — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • Stirling-Tools/Stirling-PDF — ★95.558 · empujó en las últimas horas · NOASSERTION · última release v3.2.2 (24-oct-2026)
 • tesseract-ocr/tesseract — ★77.298 · empujó en las últimas horas · Apache-2.0 · última release 5.5.4 (28-oct-2026)
-• paperless-ngx/paperless-ngx — ★47.564 · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
+• paperless-ngx/paperless-ngx — ★47.565 · empujó en las últimas horas · GPL-3.0 · última release v3.4.1 (31-oct-2026)
 • jgm/pandoc — ★46.784 · empujó en las últimas horas · GPL-2.0 · última release 3.13 (26-oct-2026)
 • ocrmypdf/OCRmyPDF — ★35.209 · empujó el 25-oct-2026 (hace 8 días) · MPL-2.0 · última release v17.13.0 (28-sep-2026)
 • LibrePDF/OpenPDF — ★4.385 · empujó el 12-oct-2026 (hace 21 días) · NOASSERTION · última release 3.0.5 (22-may-2026)
-• AhmadHassan-BTed/Parchment — ★3.590 · *dormido*: sin empujar desde el 30-jun-2026 (125 días) · Apache-2.0
+• AhmadHassan-BTed/Parchment — ★3.595 · *dormido*: sin empujar desde el 30-jun-2026 (125 días) · Apache-2.0
 • allgood/OpenNoteScanner — ★1.544 · *dormido*: sin empujar desde el 23-abr-2025 (558 días) · NOASSERTION · última release 1.0.35-fdroid (22-jul-2020)
 • Acclorite/book-story — ★1.418 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.8.0 (13-oct-2025)
 • Aryan-Raj3112/episteme — ★1.329 · empujó el 10-oct-2026 (hace 23 días) · AGPL-3.0 · última release v1.0.58-oss (9-oct-2026)

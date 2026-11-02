@@ -84,7 +84,7 @@ Pulso de hoy sobre los 11 repos de la pieza: 11 vivos, 5 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1941 caracteres ═══
+═══ MENSAJE 4 de 5 · 1833 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 33*
 
@@ -104,9 +104,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 11 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 15 enlaces de esta pieza, *14 responden*.
-
-• https://github.com/rednaga/axmlprinter — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 15 enlaces de esta pieza, *15 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

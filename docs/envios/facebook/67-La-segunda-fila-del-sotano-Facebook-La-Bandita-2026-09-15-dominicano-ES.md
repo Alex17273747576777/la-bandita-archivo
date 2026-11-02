@@ -88,7 +88,7 @@ La noticia amarga: **jpdoshi/dragon-store** (caído (404)) ya no respondieron. E
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2142 caracteres ═══
+═══ MENSAJE 4 de 5 · 1896 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 67*
 
@@ -109,11 +109,9 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 18 enlaces de esta pieza, *15 responden*.
+De los 18 enlaces de esta pieza, *17 responden*.
 
 • https://github.com/jpdoshi/dragon-store — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/self-similarity/MegaRepo — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tobexyz/yaacc-code — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

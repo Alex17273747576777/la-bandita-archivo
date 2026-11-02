@@ -102,18 +102,18 @@ La noticia fresca es de **wikimedia/apps-android-wikipedia**: release latest (20
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2482 caracteres ═══
+═══ MENSAJE 4 de 5 · 2262 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 74*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.140 (+369) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• ggml-org/llama.cpp — ★133.142 (+371) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
 • offa/android-foss — ★11.611 (+25) · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0
 • standardnotes/app — ★6.695 (+7) · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• NuvioMedia/NuvioTV — ★3.326 (+55) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
-• researchxxl/syncthing-android — ★3.231 (+39) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• NuvioMedia/NuvioTV — ★3.327 (+56) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• researchxxl/syncthing-android — ★3.232 (+40) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (31-oct-2026)
 • dongdongbh/Mindwtr — ★2.363 (+22) · empujó en las últimas horas · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.070 (+2) · *dormido*: sin empujar desde el 6-feb-2022 (1730 días) · sin licencia detectada por la API
@@ -127,10 +127,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 29 enlaces de esta pieza, *27 responden*.
-
-• https://github.com/standardnotes/app — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://standardnotes.com/forum — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 29 enlaces de esta pieza, *29 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

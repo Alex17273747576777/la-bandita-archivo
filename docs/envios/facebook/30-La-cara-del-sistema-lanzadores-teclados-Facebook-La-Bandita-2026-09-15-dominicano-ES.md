@@ -85,7 +85,7 @@ Hay release de esta semana: **you-apps/WallYou** publicó v17.1 (2026-10-29). El
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1852 caracteres ═══
+═══ MENSAJE 4 de 5 · 1747 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 30*
 
@@ -105,9 +105,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 11 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 17 enlaces de esta pieza, *16 responden*.
-
-• https://github.com/you-apps/WallYou — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 17 enlaces de esta pieza, *17 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

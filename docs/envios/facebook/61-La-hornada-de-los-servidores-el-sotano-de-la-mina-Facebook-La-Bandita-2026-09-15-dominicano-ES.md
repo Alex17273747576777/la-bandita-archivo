@@ -127,22 +127,22 @@ La noticia amarga: **inaccurate-hotelplan289/HomeLabSetup** (caído (404)) ya no
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3457 caracteres ═══
+═══ MENSAJE 5 de 6 · 2974 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 61*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• syncthing/syncthing — ★90.008 (+135) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • photoprism/photoprism — ★40.390 (+20) · empujó el 29-oct-2026 (hace 4 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• nextcloud/server — ★37.395 (+50) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• nextcloud/server — ★37.396 (+51) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • lollipopkit/flutter_server_box — ★8.931 (+34) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
 • standardnotes/app — ★6.695 (+7) · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • syncthing/syncthing-android — ★4.292 (-1) · *dormido*: sin empujar desde el 3-dic-2024 (699 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • jarnedemeulemeester/findroid — ★4.291 (+11) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (25-oct-2026)
 • owncloud/android — ★4.174 (-1) · empujó en las últimas horas · GPL-2.0 · última release v4.8.4 (31-ago-2026)
-• researchxxl/syncthing-android — ★3.231 (+39) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.232 (+40) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • bk138/droidVNC-NG — ★2.424 (+5) · empujó el 29-oct-2026 (hace 4 días) · GPL-2.0 · última release v2.22.2 (29-oct-2026)
 • newhinton/Round-Sync — ★2.416 (+3) · *dormido*: sin empujar desde el 16-nov-2025 (351 días) · GPL-3.0 · última release v2.5.6 (10-sep-2024)
 • chenxiaolong/RSAF — ★1.041 (+4) · empujó el 24-oct-2026 (hace 9 días) · GPL-3.0 · última release v4.16 (24-oct-2026)
@@ -155,13 +155,9 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 19 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 30 enlaces de esta pieza, *24 responden*.
+De los 30 enlaces de esta pieza, *28 responden*.
 
 • https://github.com/inaccurate-hotelplan289/HomeLabSetup — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/standardnotes/app — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/syncthing/syncthing — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/syncthing/syncthing-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://standardnotes.com/forum — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://standardnotes.com/h — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 4 de 5

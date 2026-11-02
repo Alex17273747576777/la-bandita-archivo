@@ -1023,7 +1023,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pi
 
 • TeamNewPipe/NewPipe — ★40.402 (+45) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
 • yuliskov/SmartTube — ★35.838 (+122) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
-• open-ani/animeko — ★21.428 (+102) · empujó en las últimas horas · AGPL-3.0 · última release v6.4.0 (24-oct-2026)
+• open-ani/animeko — ★21.429 (+103) · empujó en las últimas horas · AGPL-3.0 · última release v6.4.0 (24-oct-2026)
 • libre-tube/LibreTube — ★12.934 (+21) · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
 • recloudstream/cloudstream — ★11.135 (+39) · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • TeamPiped/Piped — ★10.302 (+6) · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0

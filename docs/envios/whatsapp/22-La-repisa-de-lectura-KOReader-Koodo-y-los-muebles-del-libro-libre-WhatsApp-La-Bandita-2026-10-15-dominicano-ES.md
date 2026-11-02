@@ -631,9 +631,9 @@ REV|834.911★ — NC_hz-skoob-gnimmargorp-eerf/cavajtsuj=1|REV|0.2-LPM=2|REV|92
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• justjavac/free-programming-books-zh_CN — ★119.483 (+45) · *dormido*: sin empujar desde el 29-jul-2026 (96 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
+• justjavac/free-programming-books-zh_CN — ★119.484 (+46) · *dormido*: sin empujar desde el 29-jul-2026 (96 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
 • syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• Crosstalk-Solutions/project-nomad — ★41.756 (+468) · empujó en las últimas horas · Apache-2.0 · última release v1.35.1 (5-oct-2026)
+• Crosstalk-Solutions/project-nomad — ★41.758 (+470) · empujó en las últimas horas · Apache-2.0 · última release v1.35.1 (5-oct-2026)
 • koreader/koreader — ★30.810 (+71) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
 • koodo-reader/koodo-reader — ★28.698 (+30) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
 • smuyyh/BookReader — ★6.969 (+5) · *dormido*: sin empujar desde el 24-abr-2023 (1288 días) · Apache-2.0

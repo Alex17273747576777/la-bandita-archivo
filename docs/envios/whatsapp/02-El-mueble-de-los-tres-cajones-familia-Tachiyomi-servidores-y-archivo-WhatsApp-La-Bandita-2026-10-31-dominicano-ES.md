@@ -853,7 +853,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 58 repositorios que cita esta pi
 • timschneeb/tachiyomi-extensions-archive — ★1.802 · *dormido*: sin empujar desde el 23-mar-2026 (224 días) · Apache-2.0 · *ARCHIVADO*
 • m2k3a/mangayomi-extensions — ★114 · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0
 • tachiyomiorg/tachiyomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• mihonapp/mihon — ★24.963 (+123) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★24.965 (+125) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/komikku — ★4.971 (+15) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • nekomangaorg/Neko — ★2.819 (+2) · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
 • Kototoro-app/Kototoro — ★662 (+9) · empujó en las últimas horas · Apache-2.0 · última release v2.3.6 (2-nov-2026)
@@ -889,7 +889,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 58 repositorios que cita esta pi
 • UsagiApp/Usagi — ★289 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • Chimahon/chimahon — ★240 · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
 • yomihon/yomihon — ★142 · empujó el 18-oct-2026 (hace 15 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
-• roxycon-dev/Ciallo-Reader — ★278 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
+• roxycon-dev/Ciallo-Reader — ★279 · empujó en las últimas horas · MIT · última release v1.5.11 (1-nov-2026)
 • kmworks/kmreader — ★117 · empujó en las últimas horas · MIT · última release v7.3 (22-oct-2026)
 • josueBarretogit/manga-tui — ★954 · empujó en las últimas horas · MIT · última release v0.10.1 (1-nov-2026)
 • elboletaire/manga-downloader — ★289 · empujó en las últimas horas · AGPL-3.0 · última release v24.1.0 (30-oct-2026)

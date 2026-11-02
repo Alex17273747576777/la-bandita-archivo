@@ -62,24 +62,22 @@ Sin sobresaltos: el empuje más cercano es de **immich-app/immich** (hace 2 día
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1222 caracteres ═══
+═══ MENSAJE 3 de 4 · 985 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 108*
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • immich-app/immich — ★117.961 (+349) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• syncthing/syncthing — ★90.008 (+135) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
 • syncthing/syncthing-android — ★4.292 (-1) · *dormido*: sin empujar desde el 3-dic-2024 (699 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • NeoApplications/Neo-Backup — ★3.890 (+9) · empujó el 17-oct-2026 (hace 16 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
-• researchxxl/syncthing-android — ★3.231 (+39) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.232 (+40) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 7 enlaces de esta pieza, *5 responden*.
-
-• https://github.com/syncthing/syncthing — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/syncthing/syncthing-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 7 enlaces de esta pieza, *7 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

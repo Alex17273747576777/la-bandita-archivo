@@ -496,10 +496,10 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 8 repositorios que cita esta pie
 • aykuttasil/CallRecorder — ★791 · *dormido*: sin empujar desde el 18-oct-2023 (1111 días) · MIT · última release v1.5.3 (29-jul-2019)
 • chenxiaolong/BCR — ★2.961 · empujó el 15-oct-2026 (hace 18 días) · GPL-3.0 · última release v3.11 (15-oct-2026)
 • kitsumed/ShizuCallRecorder — ★1.979 (+47) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (24-oct-2026)
-• arpanjot-coding/AVault — ★526 · empujó en las últimas horas · NOASSERTION · última release v2.0.1 (2-nov-2026)
+• arpanjot-coding/AVault — ★527 · empujó en las últimas horas · NOASSERTION · última release v2.0.1 (2-nov-2026)
 • madkongo/CallVault — ★186 · empujó en las últimas horas · GPL-3.0 · última release v2.4.8 (31-oct-2026)
 • nicorac/bcr-gui — ★381 · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.16.0 (25-oct-2026)
-• RikkaApps/Shizuku — ★32.638 (+253) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.636 (+251) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

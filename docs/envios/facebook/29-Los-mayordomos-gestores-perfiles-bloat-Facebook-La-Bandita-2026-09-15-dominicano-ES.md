@@ -103,7 +103,7 @@ Empieza por las bajas: **risunCode/AppControl-X** (caído (404)) no contestaron 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2446 caracteres ═══
+═══ MENSAJE 4 de 5 · 2330 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 29*
 
@@ -112,7 +112,7 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 15 repositorios que cita esta pi
 • 0x192/universal-android-debloater — ★20.313 (+25) · *dormido*: sin empujar desde el 2-ago-2024 (822 días) · GPL-3.0
 • Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.692 (+54) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (12-ene-2026)
 • d4rken-org/sdmaid-se — ★7.963 (+41) · empujó en las últimas horas · GPL-3.0 · última release v2.2.2-rc0 (19-oct-2026)
-• samolego/Canta — ★6.411 (+56) · empujó el 31-oct-2026 (hace 2 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
+• samolego/Canta — ★6.410 (+55) · empujó el 31-oct-2026 (hace 2 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
 • oasisfeng/island — ★3.996 (+8) · *dormido*: sin empujar desde el 24-abr-2025 (557 días) · Apache-2.0 · última release v6.2.1 (19-oct-2023)
 • PeterCxy/Shelter — ★3.686 (+6) · empujó el 27-sep-2026 (hace 36 días) · GPL-3.0 · última release 1.6 (29-sep-2020)
 • keymapperorg/KeyMapper — ★2.790 (+7) · empujó en las últimas horas · GPL-3.0 · última release v4.6.2 (22-oct-2026)
@@ -127,10 +127,9 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 15 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 26 enlaces de esta pieza, *24 responden*.
+De los 26 enlaces de esta pieza, *25 responden*.
 
 • https://github.com/risunCode/AppControl-X — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/samolego/Canta — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 3 de 4
 

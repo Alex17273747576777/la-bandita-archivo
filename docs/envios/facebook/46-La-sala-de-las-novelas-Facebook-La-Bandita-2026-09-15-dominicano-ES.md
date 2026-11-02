@@ -65,7 +65,7 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 4 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1242 caracteres ═══
+═══ MENSAJE 3 de 4 · 1136 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 46*
 
@@ -80,9 +80,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 6 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 8 enlaces de esta pieza, *7 responden*.
-
-• https://github.com/ranobe-org/ranobe — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 8 enlaces de esta pieza, *8 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

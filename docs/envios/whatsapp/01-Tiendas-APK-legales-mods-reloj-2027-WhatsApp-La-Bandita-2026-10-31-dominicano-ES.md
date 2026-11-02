@@ -865,16 +865,16 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 32 repositorios que cita esta pi
 • ImranR98/Obtainium — ★21.144 (+119) · empujó en las últimas horas · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • MuntashirAkon/AppManager — ★9.414 (+44) · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release v4.1.1 (4-sep-2026)
 • Droid-ify/client — ★7.686 (+23) · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• NeoApplications/Neo-Store — ★5.603 (+8) · empujó el 23-oct-2026 (hace 10 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• NeoApplications/Neo-Store — ★5.604 (+9) · empujó el 23-oct-2026 (hace 10 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
 • shmykelsa/AAAD — ★3.204 (+6) · empujó el 27-sep-2026 (hace 36 días) · MIT · última release v2.8.5 (17-jun-2026)
 • accrescent/accrescent — ★2.305 (sin cambio) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release 0.28.1 (10-nov-2025)
 • solkin/appteka-android — ★1.371 (+4) · empujó en las últimas horas · GPL-3.0 · última release v23.0 (13-ago-2026)
 • GrapheneOS/AppStore — ★627 (+2) · empujó el 31-oct-2026 (hace 2 días) · MIT · última release 37 (31-oct-2026)
-• RikkaApps/Shizuku — ★32.638 (+254) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.636 (+252) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • JonaNorman/WebViewUpgrade — ★456 (sin cambio) · *dormido*: sin empujar desde el 7-sep-2026 (56 días) · Apache-2.0
 • solrudev/Ackpine — ★185 (sin cambio) · empujó el 17-oct-2026 (hace 16 días) · Apache-2.0 · última release 0.25.4 (30-jul-2026)
 • daboynb/developer-verifier-placeholder — ★184 (sin cambio) · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0 · última release v3000000000000 (16-jul-2026)
-• AuroraOSS/AuroraStore — ★72 (+1) · empujó en las últimas horas · GPL-3.0
+• AuroraOSS/AuroraStore — ★73 (+2) · empujó en las últimas horas · GPL-3.0
 • fmhy/edit — ★12.689 (+16) · empujó en las últimas horas · sin licencia detectada por la API
 • offa/android-foss — ★11.611 (sin cambio) · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0
 • timschneeb/awesome-shizuku — ★10.680 (+10) · empujó el 31-oct-2026 (hace 2 días) · NOASSERTION

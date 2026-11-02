@@ -594,7 +594,7 @@ Lo difícil fue el campo de la versión. Uno de los nueve no tiene ninguna publi
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 1640 caracteres ═══
+═══ MENSAJE 15 de 16 · 1413 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 17*
 
@@ -612,10 +612,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 9 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 9 enlaces de esta pieza, *7 responden*.
-
-• https://github.com/sj0404-collab/yomikai — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/yomihon/yomihon — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 9 enlaces de esta pieza, *9 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 14 de 15
 

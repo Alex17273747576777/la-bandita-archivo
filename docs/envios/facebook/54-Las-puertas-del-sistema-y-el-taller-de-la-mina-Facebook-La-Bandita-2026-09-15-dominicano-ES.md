@@ -261,11 +261,11 @@ Hay release de esta semana: **Khh-vu/wifi-password-manager** publicó v1.21 (202
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 52 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★332.971 (+1184) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
-• ggml-org/llama.cpp — ★133.140 (+369) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• awesome-selfhosted/awesome-selfhosted — ★332.977 (+1190) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• ggml-org/llama.cpp — ★133.142 (+371) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
 • jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • photoprism/photoprism — ★40.390 (+20) · empujó el 29-oct-2026 (hace 4 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• SagerNet/sing-box — ★39.541 (+152) · empujó el 28-oct-2026 (hace 5 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• SagerNet/sing-box — ★39.542 (+153) · empujó el 28-oct-2026 (hace 5 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.294 (+9) · empujó el 30-oct-2026 (hace 3 días) · Apache-2.0
 • komi-store/komi-store — ★20.248 (+158) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • FreshRSS/FreshRSS — ★16.488 (+42) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
@@ -273,14 +273,14 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 52 repositorios que cita esta pi
 • thunderbird/thunderbird-android — ★14.171 (+14) · empujó el 30-oct-2026 (hace 3 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
 • offa/android-foss — ★11.611 (+25) · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0
 • iSoron/uhabits — ★10.382 (+10) · empujó el 22-oct-2026 (hace 11 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
-• AAswordman/Operit — ★9.186 (+101) · empujó el 5-oct-2026 (hace 28 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
-• LibChecker/LibChecker — ★7.295 (+4) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
+• AAswordman/Operit — ★9.187 (+102) · empujó el 5-oct-2026 (hace 28 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
+• LibChecker/LibChecker — ★7.296 (+5) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
 • tasks/tasks — ★5.710 (+12) · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release 15.13 (14-oct-2026)
 • jellyfin/jellyfin-androidtv — ★4.697 (+22) · empujó el 29-oct-2026 (hace 4 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
 • KieronQuinn/Smartspacer — ★3.587 (+9) · empujó el 23-oct-2026 (hace 10 días) · GPL-3.0 · última release 1.11.4 (2-oct-2026)
 • wgtunnel/android — ★3.324 (+8) · empujó en las últimas horas · MIT · última release 5.8.2 (19-oct-2026)
 • f-droid/fdroidclient — ★3.257 (+10) · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release 1.18.0 (24-ene-2024)
-• jellyfin/jellyfin-android — ★2.850 (+11) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• jellyfin/jellyfin-android — ★2.851 (+12) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 • Etar-Group/Etar-Calendar — ★2.630 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.0.57 (27-jul-2026)
 • lihenggui/blocker — ★2.479 (+13) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.6447 (22-oct-2026)
 • AhmetCanArslan/ShizuWall — ★2.438 (+29) · empujó en las últimas horas · GPL-3.0 · última release v4.6.8 (24-oct-2026)
@@ -321,21 +321,13 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 52 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 8 de 10
 
-═══ MENSAJE 10 de 11 · 1191 caracteres ═══
+═══ MENSAJE 10 de 11 · 218 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 79 enlaces de esta pieza, *70 responden*.
+De los 79 enlaces de esta pieza, *78 responden*.
 
 • https://anthonyy232.github.io/Paperize/ — 404. No existe hoy: no lo abras, no lo recomiendo.
-• https://github.com/sdex/ActivityManager — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/session-foundation/session-android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/supershadoe/delta — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tadamiorg/tadami — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tadamiorg/tadami-extensions — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/tasks/tasks — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/wgtunnel/android — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/zacharee/Tweaker — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 9 de 10
 

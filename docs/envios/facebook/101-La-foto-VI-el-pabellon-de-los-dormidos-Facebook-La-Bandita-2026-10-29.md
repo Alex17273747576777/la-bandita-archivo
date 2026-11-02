@@ -55,7 +55,7 @@ Pulso tranquilo: lo último que se movió fue **sang765/Usagi**, hace 15 días. 
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 975 caracteres ═══
+═══ MENSAJE 3 de 4 · 873 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 101*
 
@@ -68,9 +68,8 @@ Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 6 enlaces de esta pieza, *5 responden*.
-
-• https://github.com/sang765/Usagi — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 6 enlaces de esta pieza, *6 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 2 de 3
 

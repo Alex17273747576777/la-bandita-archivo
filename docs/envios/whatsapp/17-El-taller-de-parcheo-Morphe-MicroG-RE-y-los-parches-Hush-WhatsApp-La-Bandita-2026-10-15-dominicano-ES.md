@@ -1128,7 +1128,7 @@ REV|986.9★ — reganam-ehprom/ppAehproM=1|REV|0.3-LPG=2|REV|03-01-6202 — reg
 
 Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MorpheApp/morphe-manager — ★9.854 (+165) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
+• MorpheApp/morphe-manager — ★9.856 (+167) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
 • bmax121/APatch — ★8.119 (+15) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release 11282 (15-oct-2026)
 • j-hc/revanced-magisk-module — ★7.711 (+6) · empujó en las últimas horas · GPL-3.0 · última release 20221124 (1-nov-2026)
 • shiaho777/web-to-app — ★7.163 (+36) · empujó en las últimas horas · Unlicense · última release v2.8.3 (28-oct-2026)
