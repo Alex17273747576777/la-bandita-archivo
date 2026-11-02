@@ -4,7 +4,12 @@
   "min": 63000,
   "max": 63099,
   "_motivo": "el dueño pidió 63.000 como mínimo y máximo a la vez; se admite até 63.099 para no forzar recortes cosméticos de última hora",
-  "piezas": {}
+  "piezas": {
+   "01": {
+    "archivo": "01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
+    "caracteres": 63068
+   }
+  }
  },
  "facebook": {
   "min": 40000,
