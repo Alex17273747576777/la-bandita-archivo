@@ -17,6 +17,8 @@ CUBIERTAS = ("registry", "schemas", "Arena-Reimagined/01-PUBLICACIONES",
              # la ley y el conocimiento operativo también se sellan: si alguien cambia una regla de
              # madrugada, el sello lo delata igual que un cambio de dato.
              "CIMIENTOS", "SKILLS", "PROCESOS", "corpus-la-bandita",
+             # la guía maestra es contenido publicado: sus fichas y su texto se sellan igual
+             "guia-maestra",
              "MANIFIESTO-ARQUITECTURA.md", "README.md")
 
 SUFIJOS = {".json", ".md", ".tsv", ".yml", ".html", ".schema", ".txt"}

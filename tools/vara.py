@@ -434,6 +434,24 @@ def g14_atestacion() -> tuple[list[str], str]:
     return fallos, f"{len(bundles)} atestaciones firmadas verificadas"
 
 
+def g15_guia() -> tuple[list[str], str]:
+    """G15 · LA GUÍA MAESTRA NO PUBLICA FICHA SIN CRÉDITO NI SIN OFICIO (M30–M34).
+
+    Se ejecuta la herramienta de la guía en modo compuertas: si una ficha no declara autor, licencia,
+    nivel, pasos reproducibles, cita viva y dato de oficio, la compuerta falla y la vara la detiene.
+    """
+    herramienta = RAIZ / "guia-maestra" / "herramientas" / "guia_maestra.py"
+    if not herramienta.exists():
+        return [], "sin guía maestra en el árbol (declarado)"
+    r = subprocess.run([sys.executable, str(herramienta), "--compuertas"],
+                       capture_output=True, text=True, cwd=RAIZ)
+    if r.returncode == 0:
+        n = r.stdout.count("VERDE")
+        return [], f"{n} fichas de la guía VERDE en M30–M34"
+    fallos = [l.strip().replace("✗ ", "") for l in r.stdout.splitlines() if "✗" in l]
+    return fallos or ["G15 la guía maestra no pasó sus compuertas"], "fichas ROJAS en M30–M34"
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", action="store_true")
@@ -458,6 +476,7 @@ def main() -> int:
         ("G12 firma literal", "puerta", g12_firma_literal()),
         ("G13 novedad", "puerta", g13_novedad()),
         ("G14 atestación firmada", "puerta", g14_atestacion()),
+        ("G15 guía maestra", "puerta", g15_guia()),
     ]
     congelados = deuda_congelada()
     total_fallos = 0
