@@ -11,6 +11,19 @@ Este repositorio es tres cosas a la vez, y cada una vive en su sitio:
 | **Conocimiento operativo** | `SKILLS/` + `PROCESOS/` | Habilidades ejecutables (una carpeta por skill, con `SKILL.md`) y flujos de trabajo paso a paso |
 | **Producto** | `Arena-Reimagined/01-PUBLICACIONES/` + `site/` | Las piezas publicadas (Markdown, fuente de verdad) y el frontend HTML que las ordena (generado) |
 
+## Estado del archivo, hoy (3-nov-2026)
+
+Lo que se está publicando ahora, sin buscarlo en carpetas:
+
+| Pieza del archivo | Dónde | Estado |
+|---|---|---|
+| **Guía maestra** | `guia-maestra/` | 12 capítulos · 70 fichas medidas · compuertas en cero fallos |
+| **Ciclo de canal · Facebook** | `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/` | piezas **01 a 05** publicadas, en banda; la 06 es la siguiente |
+| **Ciclo de canal · WhatsApp** | `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/` | piezas **01 a 05** publicadas, en banda; la 06 es la siguiente |
+| **Todo lo anterior** | `_ARCHIVO-HISTORICO/` de cada canal | archivado por mes, con su fecha; no se borra |
+
+El mapa completo, con la traducción de rutas viejas, está en **[`MAPA-DEL-ARCHIVO.md`](MAPA-DEL-ARCHIVO.md)**. El estado pieza por pieza está en el `LEEME-de-la-carpeta.md` de cada canal, y la comprobación de todo eso en `docs/ACTA-ORDEN-Y-VERIFICACION-2026-11-03.md`.
+
 ---
 
 ## Arranque rápido

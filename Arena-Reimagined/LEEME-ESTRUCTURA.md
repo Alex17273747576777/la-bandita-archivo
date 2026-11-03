@@ -1,5 +1,7 @@
 # ESTRUCTURA DE LA CASA · LA BANDITA
 
+> **Aviso del 3 de noviembre de 2026.** Este mapa describía el estado de octubre y quedó viejo en dos puntos: las dos carpetas de canal ya no mezclan el ciclo vivo con la memoria, y el contador de piezas cambió. El mapa vigente es **`MAPA-DEL-ARCHIVO.md`**, en la raíz del repositorio. Lo que sigue se conserva como historia y como traducción de rutas anteriores.
+
 Mapa vivo del proyecto y del repo. Si una acta vieja cita una ruta anterior, aquí está su traducción.
 
 ## Carpetas

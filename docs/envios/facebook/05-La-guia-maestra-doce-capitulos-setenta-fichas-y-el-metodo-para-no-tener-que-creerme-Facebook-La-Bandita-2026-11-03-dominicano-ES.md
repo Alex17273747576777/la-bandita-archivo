@@ -3,14 +3,14 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `baeecceb35cca3b4ba5b3a640dac93d949eb1c9e2b13139d1a98cc3149e82d7d`
-- **Envío generado:** 2026-11-03 · 20 mensajes · el mayor de 3876 caracteres
+- **Envío generado:** 2026-11-03 · 19 mensajes · el mayor de 3885 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 817 caracteres ═══
+═══ MENSAJE 1 de 19 · 817 caracteres ═══
 
 *La guía maestra: doce capítulos, setenta fichas y el método para no tener que creerme*
 
-La Bandita · pieza 05 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes.
+La Bandita · pieza 05 · guía del 3-nov-2026 · te la mando hoy en 19 mensajes.
 
 Antes de mandártela volví a medir lo que afirma: *32 repositorios, 31 vivos y 1 muerto*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
@@ -20,7 +20,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 2351 caracteres ═══
+═══ MENSAJE 2 de 19 · 2351 caracteres ═══
 
 *La guía maestra: doce capítulos, setenta fichas y el método para no tener que creerme*
 
@@ -49,9 +49,9 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 Lo que sigue es la respuesta a ese encargo, y es lo que quedó publicado hoy en el archivo de la casa: doce capítulos, setenta fichas, cada ficha con su autor, su licencia, su fecha de medición y una nota con pesos publicados. No es un catálogo más largo. Es un método con setenta ejemplos dentro, en un solo idioma y escrito desde cero.
 
-⏬ sigue abajo · parte 1 de 19
+⏬ sigue abajo · parte 1 de 18
 
-═══ MENSAJE 3 de 20 · 1670 caracteres ═══
+═══ MENSAJE 3 de 19 · 1670 caracteres ═══
 
 *En una página · ⚡*
 
@@ -63,9 +63,9 @@ La guía no pide fe en ningún punto. Cada afirmación que hace se puede comprob
 
 Y hay algo que la guía hace al revés de como se hace siempre: **publica las notas malas**. De setenta proyectos, hay cuatro que sacan menos de treinta puntos y están ahí, con el motivo escrito, porque saber qué evitar vale más que una lista de elogios. Un catálogo dice todo lo bueno. Un método dice también lo que no aguanta, y con qué número lo decidió.
 
-⏬ sigue abajo · parte 2 de 19
+⏬ sigue abajo · parte 2 de 18
 
-═══ MENSAJE 4 de 20 · 2656 caracteres ═══
+═══ MENSAJE 4 de 19 · 2656 caracteres ═══
 
 *🏗️ El andamio · datos que se generan, enseñanza que se escribe*
 
@@ -79,9 +79,9 @@ Lo que remata el andamio es lo que casi ningún catálogo tiene: **sello y atest
 
 Y hay una comprobación que no es de máquina y vale más que las otras: la prueba de las dos personas. Se le da el capítulo a alguien que nunca abrió una terminal y se mira si consigue la tarea; se le da a alguien que lleva años administrando aparatos y se mira si encuentra al menos un dato que no sabía. Cuando el experto no encuentra nada, el capítulo se reescribe entero. Pasó con dos borradores de esta serie, y por eso los dos capítulos más técnicos —el del taller y el de cuando algo se rompe— están llenos de cosas que se comprueban en el propio teléfono y no de teoría.
 
-⏬ sigue abajo · parte 3 de 19
+⏬ sigue abajo · parte 3 de 18
 
-═══ MENSAJE 5 de 20 · 2741 caracteres ═══
+═══ MENSAJE 5 de 19 · 2741 caracteres ═══
 
 *🔍 La nota y sus pesos · nueve señales y cuatro castigos*
 
@@ -111,9 +111,9 @@ Los cuatro castigos: **treinta puntos menos si el proyecto está archivado**; **
 
 Lo que la nota **no** mide, y hay que saberlo: no mide si el programa es bueno. Mide si el proyecto está en condiciones de que le pongas tus datos encima. Un programa excelente de un proyecto abandonado saca mala nota, y esta guía lo recomienda igual con la advertencia escrita.
 
-⏬ sigue abajo · parte 4 de 19
+⏬ sigue abajo · parte 4 de 18
 
-═══ MENSAJE 6 de 20 · 2513 caracteres ═══
+═══ MENSAJE 6 de 19 · 2513 caracteres ═══
 
 *📚 Los doce capítulos, uno por línea*
 
@@ -143,9 +143,9 @@ El orden no es temático: es el orden en que se rompen las cosas.
 
 **12 · El oficio.** Cómo verificar por tu cuenta lo que la guía afirma: licencias de todo un proyecto, salud medida con número repetible, firmas ancladas en un registro público, la fuente sin intermediarios y cómo se ve tu servidor desde fuera.
 
-⏬ sigue abajo · parte 5 de 19
+⏬ sigue abajo · parte 5 de 18
 
-═══ MENSAJE 7 de 20 · 3324 caracteres ═══
+═══ MENSAJE 7 de 19 · 3324 caracteres ═══
 
 *🎓 Los diez que abren ficha aquí*
 
@@ -170,9 +170,9 @@ Instala y actualiza aplicaciones siguiendo el repositorio del propio autor, no u
 *skylot/jadx · ★51.554 · Apache-2.0 certificada · última entrega del 10 de julio · 5.255.417 descargas en las 10 últimas · 100 personas · repositorio de 25,7 MB · escrutinio 58/100.*
 
 
-⏬ sigue abajo · parte 6 de 19
+⏬ sigue abajo · parte 6 de 18
 
-═══ MENSAJE 8 de 20 · 3250 caracteres ═══
+═══ MENSAJE 8 de 19 · 3250 caracteres ═══
 
 Lee un paquete y muestra su código como algo parecido a Java, con búsqueda. Es la herramienta con la que se responde «¿a qué dominio llama esta aplicación cuando arranco?». Su presentación avisa de lo que casi nadie avisa: **en la mayoría de los casos no puede descompilar el cien por ciento del código, y habrá errores**. Eso no es un defecto, es la naturaleza del oficio. *Para quién es:* para quien quiera mirar por dentro antes de confiar. *Para quién no es:* para quien espere una respuesta redonda y sin asteriscos.
 
@@ -191,9 +191,9 @@ El proyecto más popular de los setenta, por delante de Immich y de LocalSend: m
 *xbmc/xbmc · ★21.431 · GPL-2.0-or-later certificada · última entrega del 27 de septiembre · sin descargas contables en paquetes · 100 personas · repositorio de 1.631,8 MB · escrutinio 29/100.*
 
 
-⏬ sigue abajo · parte 7 de 19
+⏬ sigue abajo · parte 7 de 18
 
-═══ MENSAJE 9 de 20 · 1483 caracteres ═══
+═══ MENSAJE 9 de 19 · 1483 caracteres ═══
 
 Veintinueve puntos y está en la guía: es el reproductor de la sala de casa y no tiene sustituto real. Mil seiscientos treinta y un megabytes de repositorio, una comunidad enorme y un cuidado desparejo, que es exactamente lo que mide su nota. Se recomienda sabiendo, y la ficha lo dice en la primera línea. *Para quién es:* para quien quiera una biblioteca de video y música en el televisor, con sus carátulas. *Para quién no es:* para quien no quiera pelear con complementos: sin ellos, el programa hace mucho menos de lo que promete.
 
@@ -201,9 +201,9 @@ Veintinueve puntos y está en la guía: es el reproductor de la sala de casa y n
 
 Un entorno Linux completo en el bolsillo, con su propio gestor de paquetes, y once millones de descargas. Su nota, cuarenta y tres, castiga el silencio y no la utilidad: no hay entrega nueva desde mayo de 2025 y su propio repositorio avisa de que busca mantenedores del cliente. Tres cosas que su presentación dice y casi nadie lee: la versión de la tienda de Google está abandonada, Android 12 y posteriores matan los procesos que gastan de más, y sus rutas no son las de una computadora. *Para quién es:* para quien quiera automatizar lo repetitivo con diez líneas. *Para quién no es:* para quien copie tutoriales de servidor sin mirar la ruta: van a fallar, y no por el tutorial.
 
-⏬ sigue abajo · parte 8 de 19
+⏬ sigue abajo · parte 8 de 18
 
-═══ MENSAJE 10 de 20 · 3295 caracteres ═══
+═══ MENSAJE 10 de 19 · 3295 caracteres ═══
 
 *📊 La tabla de las setenta*
 
@@ -283,9 +283,9 @@ Capítulo, estrella y nota. La licencia faltante en una fila no es un olvido: es
 | 12 | testssl.sh | 9.261 | GPL-2.0 | 45 |
 
 
-⏬ sigue abajo · parte 9 de 19
+⏬ sigue abajo · parte 9 de 18
 
-═══ MENSAJE 11 de 20 · 3553 caracteres ═══
+═══ MENSAJE 11 de 19 · 3553 caracteres ═══
 
 Los números del corte, sin adornos: setenta fichas, doce capítulos, veintinueve de nivel experto, veintidós de principiante y veinte de intermedio —las dos últimas suman cuarenta y dos, y la fila de veintidós incluye la que se repite a propósito en la banda de descubrimiento—, mil trescientas noventa y cinco mil quinientas ochenta y tres estrellas, trece millones setecientas cuarenta y un mil treinta y nueve descargas acumuladas en las diez últimas entregas, catorce mil novecientos quince coma un megabytes de repositorios medidos y una mediana de nota de cincuenta y tres coma cinco. Once fichas declaran cero descargas, y está bien: son programas de servidor que no se bajan como paquete, y rellenar ese hueco con una estimación habría hecho la tabla más bonita y menos verdadera.
 
@@ -321,9 +321,9 @@ adb shell dumpsys battery | grep -E "level|temperature|voltage|Charge counter"
 
 **Cinco: sin licencia no hay permiso, ni para copiar el archivo.** Es la regla más contraintuitiva del derecho de autor y la que más se ignora: un repositorio sin licencia no es de todos, es de nadie. No se puede usar, ni copiar, ni modificar, ni distribuir. Uno de los dos repositorios que sirvieron de modelo a esta guía está en ese estado, y se dice con respeto: sin licencia, su contenido no se reutiliza.
 
-⏬ sigue abajo · parte 10 de 19
+⏬ sigue abajo · parte 10 de 18
 
-═══ MENSAJE 12 de 20 · 3041 caracteres ═══
+═══ MENSAJE 12 de 19 · 3041 caracteres ═══
 
 *🧨 Los cuatro casos incómodos*
 
@@ -351,9 +351,9 @@ Una guía se juzga por lo que deja fuera. Cinco candidatos se midieron y no entr
 
 Los cinco quedarían bien en una lista de recomendaciones. Esta guía no es una lista de recomendaciones: es un método, y el método también se aplica a sí mismo.
 
-⏬ sigue abajo · parte 11 de 19
+⏬ sigue abajo · parte 11 de 18
 
-═══ MENSAJE 13 de 20 · 3542 caracteres ═══
+═══ MENSAJE 13 de 19 · 3542 caracteres ═══
 
 *🧮 Tres mitos que se caen solos*
 
@@ -389,9 +389,9 @@ Sirve, y hay fichas pensadas para eso: el medidor de espacio pesa menos de un me
 **¿Cuánto tarda en leerse?**
 Un capítulo, entre veinte y treinta minutos. La guía completa, unas cinco horas de lectura y bastante más de práctica. El consejo es el de siempre: un capítulo, una tarea, y a la semana siguiente el que sigue.
 
-⏬ sigue abajo · parte 12 de 19
+⏬ sigue abajo · parte 12 de 18
 
-═══ MENSAJE 14 de 20 · 1519 caracteres ═══
+═══ MENSAJE 14 de 19 · 1519 caracteres ═══
 
 *🌅 El cierre*
 
@@ -406,9 +406,9 @@ Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien 
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Setenta fichas con nombre y apellido, doce capítulos que enseñan a usarlas, y el método para que mañana no me tengas que creer.
 
-⏬ sigue abajo · parte 13 de 19
+⏬ sigue abajo · parte 13 de 18
 
-═══ MENSAJE 15 de 20 · 3380 caracteres ═══
+═══ MENSAJE 15 de 19 · 3380 caracteres ═══
 
 ## 🔗 Enlaces
 
@@ -450,9 +450,9 @@ Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien 
 - La licencia del texto, en su versión de referencia: https://www.gnu.org/licenses/agpl-3.0.html
 - El archivo público donde se conservan las revisiones medidas: https://archive.softwareheritage.org/
 
-⏬ sigue abajo · parte 14 de 19
+⏬ sigue abajo · parte 14 de 18
 
-═══ MENSAJE 16 de 20 · 2086 caracteres ═══
+═══ MENSAJE 16 de 19 · 2086 caracteres ═══
 
 ## 🗒️ Notas al pie
 
@@ -470,36 +470,36 @@ Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien 
 #task 005 · pedir al archivo público la conservación de las doce revisiones de los capítulos y anotar el número de solicitud en cada acta.
 #task 006 · abrir en sus repositorios los cuatro casos de nota por debajo de treinta, proponiendo la corrección del archivo de licencia o del canal de seguridad, que es lo que la nota señala.
 
-⏬ sigue abajo · parte 15 de 19
+⏬ sigue abajo · parte 15 de 18
 
-═══ MENSAJE 17 de 20 · 3876 caracteres ═══
+═══ MENSAJE 17 de 19 · 3885 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 05*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 32 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• krishna3163/best-root-apps-for-android — ★51 · empujó en las últimas horas · MIT · última release play-integrity-fork-pif-v19 (3-nov-2026)
+• krishna3163/best-root-apps-for-android — ★51 · empujó en las últimas horas · MIT · última release sukisu-ultra-v4.3.0-r1 (3-nov-2026)
 • krishna3163/best_shizuku_apps_for_android — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • Alex17273747576777/la-bandita-archivo — ★1 · empujó en las últimas horas · MIT
-• readest/readest — ★25.915 (+173) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
-• TrackerControl/tracker-control-android — ★2.719 (+15) · empujó en las últimas horas · GPL-3.0 · última release 2026110101 (1-nov-2026)
-• samolego/Canta — ★6.448 (+93) · empujó el 31-oct-2026 (hace 3 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
-• ImranR98/Obtainium — ★21.182 (+163) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• skylot/jadx — ★51.555 · empujó en las últimas horas · Apache-2.0 · última release v1.5.6 (10-jul-2026)
-• RikkaApps/Shizuku — ★32.724 (+339) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• readest/readest — ★25.915 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• TrackerControl/tracker-control-android — ★2.719 · empujó en las últimas horas · GPL-3.0 · última release 2026110101 (1-nov-2026)
+• samolego/Canta — ★6.448 · empujó el 31-oct-2026 (hace 3 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
+• ImranR98/Obtainium — ★21.182 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• skylot/jadx — ★51.557 · empujó en las últimas horas · Apache-2.0 · última release v1.5.6 (10-jul-2026)
+• RikkaApps/Shizuku — ★32.724 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • krishna3163/OmniShizuku — ★17 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• rushiranpise/Shizuku-Next — ★1.405 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
-• HmnDev-Tech/shevery — ★1.587 (+60) · empujó en las últimas horas · Apache-2.0 · última release 14.6.2 (3-nov-2026)
-• Genymobile/scrcpy — ★153.938 (+437) · empujó en las últimas horas · Apache-2.0 · última release v5.0.1 (8-oct-2026)
-• xbmc/xbmc — ★21.432 (+33) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• yuliskov/SmartTube — ★35.892 (+183) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• rushiranpise/Shizuku-Next — ★1.407 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• HmnDev-Tech/shevery — ★1.588 · empujó en las últimas horas · Apache-2.0 · última release 14.6.2 (3-nov-2026)
+• Genymobile/scrcpy — ★153.937 · empujó en las últimas horas · Apache-2.0 · última release v5.0.1 (8-oct-2026)
+• xbmc/xbmc — ★21.431 · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
+• yuliskov/SmartTube — ★35.892 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • jolabs40/TVSlim — ★35 · empujó el 20-oct-2026 (hace 14 días) · Apache-2.0 · última release windows-v1.7.0 (20-oct-2026)
-• termux/termux-app — ★64.038 (+360) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• termux/termux-app — ★64.039 · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • termux/termux-packages — ★17.301 · empujó en las últimas horas · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
-• immich-app/immich — ★118.114 (+502) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• localsend/localsend — ★97.203 (+746) · empujó en las últimas horas · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• immich-app/immich — ★118.116 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• localsend/localsend — ★97.203 · empujó en las últimas horas · Apache-2.0 · última release v1.18.2 (21-ago-2026)
 • mirfatif/PermissionManagerX — ★814 · empujó el 29-sep-2026 (hace 35 días) · AGPL-3.0 · última release v1.34-pro (29-sep-2026)
-• M66B/NetGuard — ★3.963 (+14) · *dormido*: sin empujar desde el 1-ago-2026 (94 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
+• M66B/NetGuard — ★3.963 · *dormido*: sin empujar desde el 1-ago-2026 (94 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
 • AuroraOSS/AuroraStore — ★75 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0
 • tswistak/Battery-Monitor — ★108 · empujó en las últimas horas · NOASSERTION · última release 1.7.3 (4-oct-2026)
 • ludoven/QADB — ★176 · empujó el 9-oct-2026 (hace 25 días) · MIT · última release v2.1.2 (29-jul-2026)
@@ -507,18 +507,13 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 32 repositorios que cita esta pi
 • sigstore/cosign — ★6.405 · empujó en las últimas horas · Apache-2.0 · última release v3.1.4 (20-oct-2026)
 • ossf/scorecard — ★5.809 · empujó en las últimas horas · Apache-2.0 · última release v5.6.0 (12-oct-2026)
 • oss-review-toolkit/ort — ★2.117 · empujó en las últimas horas · Apache-2.0 · última release 97.3.0 (29-oct-2026)
-• cli/cli — ★46.857 · empujó en las últimas horas · MIT · última release v2.103.3 (26-oct-2026)
-• iBotPeaches/Apktool — ★26.977 · empujó en las últimas horas · Apache-2.0 · última release v3.0.3 (20-jul-2026)
+• cli/cli — ★46.858 · empujó en las últimas horas · MIT · última release v2.103.3 (26-oct-2026)
+• iBotPeaches/Apktool — ★26.978 · empujó en las últimas horas · Apache-2.0 · última release v3.0.3 (20-jul-2026)
+• rclone/rclone — ★60.772 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
 
-⏬ sigue abajo · parte 16 de 19
+⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 20 · 131 caracteres ═══
-
-• rclone/rclone — ★60.771 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
-
-⏬ sigue abajo · parte 17 de 19
-
-═══ MENSAJE 19 de 20 · 240 caracteres ═══
+═══ MENSAJE 18 de 19 · 240 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
@@ -526,8 +521,8 @@ De los 37 enlaces de esta pieza, *36 responden*.
 
 • https://github.com/krishna3163/best_shizuku_apps_for_android — 404. No existe hoy: no lo abras, no lo recomiendo.
 
-⏬ sigue abajo · parte 18 de 19
+⏬ sigue abajo · parte 17 de 18
 
-═══ MENSAJE 20 de 20 · 152 caracteres ═══
+═══ MENSAJE 19 de 19 · 152 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.

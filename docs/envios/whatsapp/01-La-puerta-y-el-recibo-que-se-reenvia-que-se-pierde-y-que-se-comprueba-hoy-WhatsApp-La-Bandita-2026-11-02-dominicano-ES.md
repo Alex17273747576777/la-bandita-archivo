@@ -582,18 +582,18 @@ Y queda la parte que no depende de ninguna herramienta: cuando alguien mande un 
 
 ⏬ sigue abajo · parte 24 de 26
 
-═══ MENSAJE 26 de 27 · 1615 caracteres ═══
+═══ MENSAJE 26 de 27 · 1583 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ImranR98/Obtainium — ★21.182 (+157) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• Droid-ify/client — ★7.687 (+24) · *dormido*: sin empujar desde el 12-sep-2026 (52 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• ImranR98/Obtainium — ★21.182 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• Droid-ify/client — ★7.687 · *dormido*: sin empujar desde el 12-sep-2026 (52 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
 • NeoApplications/Neo-Store — ★5.621 · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
-• MuntashirAkon/AppManager — ★9.427 (+57) · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• RikkaApps/Shizuku — ★32.724 (+340) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• NeoApplications/Neo-Backup — ★3.893 (+12) · empujó el 17-oct-2026 (hace 17 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• MuntashirAkon/AppManager — ★9.427 · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• RikkaApps/Shizuku — ★32.724 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• NeoApplications/Neo-Backup — ★3.893 · empujó el 17-oct-2026 (hace 17 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
 • XayahSuSuSu/Android-DataBackup — ★7.556 · empujó el 25-oct-2026 (hace 9 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
 • 0x192/universal-android-debloater — ★20.323 · *dormido*: sin empujar desde el 2-ago-2024 (823 días) · GPL-3.0
 • rumboalla/apkupdater — ★4.063 · *dormido*: sin empujar desde el 28-may-2026 (159 días) · GPL-3.0 · última release 0.0.604-ci (28-may-2026)
