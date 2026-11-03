@@ -1,0 +1,75 @@
+{
+ "id": "readest",
+ "nombre": "Readest",
+ "repo": "readest/readest",
+ "autores": [
+  {
+   "nombre": "Readest y sus colaboradores",
+   "enlace": "https://github.com/readest"
+  }
+ ],
+ "licencia": {
+  "spdx": "AGPL-3.0",
+  "archivo": "https://github.com/readest/readest/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Leer EPUB y PDF en el teléfono y en la computadora con la misma biblioteca, sin cuenta obligatoria y con el archivo tuyo en una carpeta tuya.",
+ "capitulo": 6,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien lee en varios aparatos y quiere una experiencia moderna —tipografía, temas, notas, traducción— sin entregar la biblioteca a una tienda.",
+  "no_es": "para quien tiene un lector de tinta electrónica antiguo: ahí KOReader es la respuesta, y está en la ficha siguiente."
+ },
+ "manos": [
+  "Bajá el archivo de la última entrega que corresponda a tu aparato y comprobá la descarga; el proyecto publica instaladores por plataforma, y los de escritorio llevan su firma aparte.",
+  "Abrí la aplicación y añade un libro desde una carpeta tuya, no desde una importación de tienda: el archivo se queda donde está y la aplicación sólo lo recuerda.",
+  "Ajustá tipografía, márgenes y tema, y comprobá que el cambio se guarda para ese libro y no sólo para la sesión.",
+  "Marcá una página, subrayá una frase y escribí una nota; después cerrá y volvé a abrir para verificar que las tres cosas siguen ahí.",
+  "Si leés en dos aparatos, activá la sincronización sólo si aceptás que esos datos pasen por un servidor, y probá exportar tus notas antes, para saber que podés sacarlas."
+ ],
+ "resultado_esperado": "Tu libro se abre con la tipografía y el tamaño que elegiste, la posición de lectura y las notas sobreviven a cerrar la aplicación, y las notas se pueden exportar.",
+ "si_sale_mal": [
+  "Si un EPUB se ve mal, comprobá si está protegido: un libro con candado se abre pero se muestra incompleto o se niega a abrir en otro lector.",
+  "Si el PDF tarda en pasar de página, es el formato: un PDF es una página fija y no se reflow; para pantallas pequeñas, convertí a EPUB cuando el archivo lo permita.",
+  "Si sincronizás y ves posiciones distintas entre aparatos, revisá cuál de los dos está al día antes de seguir leyendo en el otro: la sincronización no fusiona, elige."
+ ],
+ "deshacer": "Desinstalarla no borra los libros: siguen en la carpeta donde estaban. Se pierden las anotaciones guardadas dentro de la aplicación, así que conviene exportarlas antes de cualquier cambio de aparato.",
+ "cabeza": [
+  "Readest es el proyecto más joven de la guía y el que mejor nota saca: nació el 12 de octubre de 2024, lleva veinticinco mil novecientas catorce estrellas y **ochenta puntos de cien**, la nota más alta de las veintiocho fichas publicadas hasta hoy. La nota mide cómo se publica, y acá está justificada: trescientos veintinueve cambios en treinta días, más de ciento treinta archivos con huella en sus entregas y seiscientos veintiocho mil seiscientas treinta descargas en diez entregas.",
+  "Su rasgo más interesante no es la interfaz: es que corre sobre la misma base en teléfono, tableta, computadora y navegador, así que la biblioteca y las notas son las mismas en todos. Y tiene una decisión de diseño que lo vuelve fácil de probar: la sincronización es opcional y el programa funciona entero sin ella, con los archivos en tu disco.",
+  "Y el detalle que lo conecta con el resto del capítulo: entre sus archivos publica un complemento para instalarse **dentro de KOReader** y otro para instalarse **dentro de Calibre**. Dos lectores distintos hablando el mismo idioma a través de un formato abierto. Eso es la prueba práctica de la regla del capítulo: cuando el archivo manda, los programas se pueden mezclar."
+ ],
+ "limites": [
+  "Es joven: menos de un año de historia frente a los trece de KOReader, y su versión sigue en cero puntos doce.",
+  "Su repositorio pesa trescientos cincuenta y nueve megas, porque incluye todas las plataformas y sus pruebas.",
+  "La sincronización entre aparatos pasa por un servidor: quien no quiera eso, la apaga y sincroniza a mano.",
+  "No abre libros con candado: ningún lector libre lo hace, y conviene saberlo antes de comprar."
+ ],
+ "oficio": {
+  "dato": "Una misma entrega de Readest trae, además del instalador, dos complementos para otros programas: uno que se instala dentro de KOReader y otro dentro de Calibre. Eso significa que sus anotaciones y su formato de lectura no están encerrados en su propia aplicación: se pueden llevar a los dos lectores más usados del ecosistema libre. Es la diferencia práctica entre un programa y un ecosistema, y se comprueba mirando la lista de archivos de la entrega, sin instalar nada. Y hay un detalle de método: el proyecto firma sus paquetes de instalación de escritorio con archivos separados, de modo que la descarga se puede verificar antes de ejecutarla —la lección del capítulo 4 aplicada a un lector—.",
+  "como_comprobar": "Mirá la lista de archivos de la última entrega y buscá los que terminan en `koplugin.zip` y en `calibre-plugin.zip`. Después listá el contenido de uno de ellos: adentro están los archivos del complemento que el otro programa va a cargar.",
+  "comando": "unzip -l Readest-0.12.16-1.koplugin.zip | head -20"
+ },
+ "riesgos": [
+  "Activar la sincronización sin leer qué se envía: la comodidad de leer en dos aparatos se paga con datos que salen de tu casa.",
+  "Confiar tu única copia de las notas a la aplicación: exportarlas cada tanto es el equivalente a la copia de seguridad del capítulo 1."
+ ],
+ "alternativas": [
+  "koreader/koreader",
+  "foobnix/LibreraReader"
+ ],
+ "senal": {
+  "estrellas": 25914,
+  "nota": 80,
+  "edad_dias": 752,
+  "ultima_entrega": "2026-10-13",
+  "descargas_10": 628630,
+  "contribuyentes": 100,
+  "repo_mb": 359.1,
+  "ci": 5,
+  "incidencias": "95 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Readest y sus colaboradores · AGPL-3.0 · medido el 3 de noviembre de 2026"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "koreader",
+ "nombre": "KOReader",
+ "repo": "koreader/koreader",
+ "autores": [
+  {
+   "nombre": "KOReader y su comunidad de voluntarios",
+   "enlace": "https://koreader.rocks/"
+  }
+ ],
+ "licencia": {
+  "spdx": "AGPL-3.0",
+  "archivo": "https://github.com/koreader/koreader/blob/master/COPYING"
+ },
+ "nivel": "experto",
+ "tarea": "Leer en cualquier aparato —teléfono, tableta, lector de tinta electrónica— con el lector más configurable que existe y con tus notas guardadas junto al libro.",
+ "capitulo": 6,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien lee mucho, tiene un lector de tinta electrónica o quiere control fino sobre tipografía, márgenes, diccionarios y notas.",
+  "no_es": "para quien quiere abrir un libro y leer sin configurar nada: la cantidad de opciones es enorme y el primer arranque no es amable."
+ },
+ "manos": [
+  "Bajá el paquete que corresponda a tu aparato desde su canal de actualización y comprobá la descarga; el proyecto publica compilaciones por arquitectura todos los días.",
+  "Copiá el programa a la carpeta que corresponda a tu aparato —en el teléfono, una carpeta visible; en un lector, la carpeta de aplicaciones del sistema— y abrila.",
+  "Abrí un libro y ajustá lo mínimo: tamaño de letra, márgenes y tema. Guardá los cambios y comprobá que se recuerdan al reabrir.",
+  "Marcá un pasaje, escribí una nota y después buscá la carpeta que apareció junto al libro: ahí está tu posición de lectura, tus notas y tus marcadores.",
+  "Activá el diccionario o el traductor si los usás, y revisá que funcionen sin conexión una vez descargados."
+ ],
+ "resultado_esperado": "El libro se abre con tu configuración, las notas y la posición quedan guardadas en una carpeta junto al archivo, y esa carpeta se puede copiar a otro aparato sin perder nada.",
+ "si_sale_mal": [
+  "Si el programa no arranca, casi siempre es el paquete equivocado para la arquitectura del aparato: elegí el que corresponde a tu procesador.",
+  "Si perdés las notas al mover el libro de carpeta, es porque la carpeta de notas viajó sin el libro o el libro sin la carpeta: se mueven juntos, siempre.",
+  "Si la pantalla tarda en refrescar en un lector de tinta electrónica, ajustá el modo de refresco antes de culpar al programa."
+ ],
+ "deshacer": "Borrar el programa no borra tus libros ni tus notas: las dos cosas viven fuera de él, en carpetas del aparato. Lo único que se pierde es la configuración de la interfaz, que está en una carpeta de ajustes que también se puede copiar.",
+ "cabeza": [
+  "KOReader nació como un lector para aparatos de tinta electrónica y creció hasta ser el más potente del ecosistema libre: treinta mil ochocientas cincuenta y una estrellas, dos mil diecinueve derivados y más de un millón trescientas treinta mil descargas en sus diez últimas entregas. Funciona en lectores comerciales, en teléfonos, en tabletas y en computadoras, con la misma base de código.",
+  "Su decisión fundamental es la contraria a la de una tienda: **no tiene estantería propia**. Vos le señalás una carpeta y él la muestra. Los libros no se importan ni se copian a un almacén interno; se leen donde están. Eso hace que el programa sea reemplazable sin consecuencias y que tu biblioteca sobreviva a cualquier cambio de aplicación.",
+  "Y tiene una manera de actualizarse que vale la pena entender: publica compilaciones diarias de desarrollo bajo una etiqueta fija, de modo que el propio programa puede buscarlas e instalarlas por su cuenta, sin tienda de por medio. Es el mismo mecanismo de canal que se vio en el capítulo 4, llevado al extremo: aquí la etiqueta de entrega no es un número de versión, es el canal."
+ ],
+ "limites": [
+  "La primera configuración abruma: hay ajustes para todo, incluso para cosas que no sabías que existían.",
+  "Publica compilaciones diarias: quien instale la de desarrollo está usando software en movimiento.",
+  "No abre libros con candado, como ningún lector libre.",
+  "Su instalación en lectores comerciales requiere seguir los pasos del modelo exacto, y un paso mal dado deja el aparato sin arrancar."
+ ],
+ "oficio": {
+  "dato": "KOReader no guarda la posición de lectura dentro del programa: crea una carpeta junto al libro, con el mismo nombre y la terminación `.sdr`, y ahí adentro escribe la posición, los marcadores, las notas y hasta el historial de páginas leídas. Eso cambia todo el cálculo de riesgo. Si el programa se rompe o lo desinstalás, tus notas siguen ahí. Si querés pasar un libro con tus notas a otro aparato, copiás el archivo y su carpeta juntos y llegan completos. Y si querés respaldar tu lectura, no hay que exportar nada desde ninguna aplicación: se copia una carpeta. La contracara: si movés el libro sin su carpeta `.sdr`, el libro llega sin notas, y por eso casi todo el mundo pierde anotaciones alguna vez.",
+  "como_comprobar": "Abrí un libro, marcá una página y salí. Después buscá en la carpeta de tus libros las que terminan en `.sdr`: cada una corresponde a un libro y contiene los archivos de tu lectura. Copiala a otro aparato junto al libro y abrí el libro ahí.",
+  "comando": "find /sdcard/Books -maxdepth 2 -type d -name \"*.sdr\" | head"
+ },
+ "riesgos": [
+  "Mover libros sin su carpeta de notas y perder años de subrayados sin darse cuenta.",
+  "Instalar la compilación de desarrollo en el único aparato que usás para leer, sin entender que es software en movimiento."
+ ],
+ "alternativas": [
+  "readest/readest",
+  "janeczku/calibre-web"
+ ],
+ "senal": {
+  "estrellas": 30851,
+  "nota": 53,
+  "edad_dias": 4972,
+  "ultima_entrega": "2026-09-29",
+  "descargas_10": 1330869,
+  "contribuyentes": 100,
+  "repo_mb": 72.7,
+  "ci": 5,
+  "incidencias": "1399 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de KOReader y su comunidad de voluntarios · AGPL-3.0 · medido el 3 de noviembre de 2026"
+}

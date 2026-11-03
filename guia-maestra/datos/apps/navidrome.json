@@ -1,0 +1,75 @@
+{
+ "id": "navidrome",
+ "nombre": "Navidrome",
+ "repo": "navidrome/navidrome",
+ "autores": [
+  {
+   "nombre": "Navidrome y su comunidad",
+   "enlace": "https://github.com/navidrome"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/navidrome/navidrome/blob/master/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Servir tu colección de música a todos los aparatos de la casa desde un equipo propio, sin subir nada a ninguna nube.",
+ "capitulo": 6,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien tiene una colección grande y quiere escucharla desde el teléfono, la tableta y la computadora sin copiar archivos a cada uno.",
+  "no_es": "para quien escucha sólo desde un aparato: un reproductor local hace el trabajo sin montar un servidor."
+ },
+ "manos": [
+  "Conseguí un equipo que pueda quedarse encendido —una computadora vieja, una placa pequeña— y descargá el paquete que corresponda a su sistema desde la entrega.",
+  "Instalalo y arrancalo una vez para que cree su archivo de configuración; ahí se indica la carpeta donde está tu música y el puerto en que va a escuchar.",
+  "Abrí la dirección del equipo en el navegador de la casa y comprobá que la biblioteca aparece con artistas, álbumes y carátulas.",
+  "Instalá en el teléfono cualquier cliente que hable el protocolo Subsonic y conectalo con la dirección, el usuario y la contraseña del servidor.",
+  "Dejá el servidor arrancando solo con el equipo y comprobá, después de reiniciarlo, que el teléfono vuelve a conectarse sin tocar nada."
+ ],
+ "resultado_esperado": "La colección completa se escucha desde cualquier aparato de la casa, organizada por artista y álbum, sin copiar archivos y sin que nada salga a internet.",
+ "si_sale_mal": [
+  "Si la biblioteca aparece vacía, revisá la ruta de la carpeta de música en el archivo de configuración y los permisos de lectura del usuario que corre el servidor.",
+  "Si el teléfono no conecta desde fuera de la casa, no es un fallo: por omisión el servidor sólo escucha en la red local, y abrirlo hacia fuera es una decisión aparte, con sus riesgos.",
+  "Si las carátulas no aparecen, el problema suele ser la ausencia de imagen en la carpeta del álbum o etiquetas incoherentes en los archivos."
+ ],
+ "deshacer": "Detener el servidor deja tus archivos intactos: nunca los modifica, sólo los lee. Desinstalarlo borra su base de datos interna —historial de escucha, listas, valoraciones— pero no la música, que sigue en su carpeta.",
+ "cabeza": [
+  "Navidrome es un servidor de música: un programa que corre en un equipo de la casa, lee una carpeta y sirve la colección por la red. No sube nada, no hay cuenta en internet y no hay límite de canciones más allá del disco que tengas. En la práctica convierte una carpeta desordenada en un servicio con carátulas, listas y búsqueda, sin mover un solo archivo.",
+  "Su decisión más importante no es técnica sino de ecosistema: habla el **protocolo Subsonic**, el que usan decenas de aplicaciones de teléfono desde 2009. Eso significa que el servidor y el cliente son piezas separadas: podés montar este servidor y escuchar con cualquier aplicación que lo entienda, y si mañana el servidor deja de gustarte, cambiás el servidor y el cliente sigue funcionando. Es la misma lección que el formato de archivo, aplicada a un servicio entero.",
+  "Nació en febrero de 2016 y lleva veinticuatro mil quinientas diez estrellas, con entregas en forma de paquete para cada sistema —Debian, Red Hat, archivos comprimidos— y ciento sesenta y cuatro mil ciento noventa y una descargas en sus diez últimas. Los paquetes se publican por sistema porque el servidor corre donde vos quieras, no donde alguien decida por vos."
+ ],
+ "limites": [
+  "Requiere un equipo encendido y a cargo: si se apaga, no hay música.",
+  "Por omisión sólo sirve en la red local; abrirlo a internet exige decisiones de seguridad que no son de este capítulo.",
+  "No reproduce lo que no está en la carpeta: no hay catálogo ni recomendaciones de terceros.",
+  "Su versión sigue en cero puntos sesenta y cuatro: es software maduro en uso, pero no se anuncia como terminado."
+ ],
+ "oficio": {
+  "dato": "El protocolo Subsonic es una dirección web con parámetros: un cliente le pide al servidor que confirme que está vivo, que le liste los álbumes o que le mande una canción, y el servidor contesta. Eso tiene una ventaja enorme para quien administra: se puede comprobar el servidor sin instalar ningún cliente, desde el navegador o con una orden en la consola. Si la respuesta llega, el servidor está bien y el problema es del cliente; si no llega, no hay cliente que lo arregle. Es la misma lógica de las cinco pruebas del capítulo 5 aplicada a tu propia biblioteca, y convierte un problema difuso —«la aplicación no conecta»— en una pregunta con respuesta de un segundo.",
+  "como_comprobar": "Pedile al servidor que confirme que está vivo, desde otra máquina de la misma red. La respuesta trae la versión del protocolo: si aparece, el servidor escucha y responde; el resto es configuración del cliente.",
+  "comando": "curl -s \"http://192.168.1.10:4533/rest/ping.view?v=1.16.1&c=prueba&u=USUARIO&p=CLAVE\""
+ },
+ "riesgos": [
+  "Abrir el servidor a internet sin protección suficiente y exponer la colección y el equipo a cualquiera.",
+  "Guardar la colección en un solo disco sin copia: el servidor no es un respaldo, es una forma de escuchar lo que ya tenés."
+ ],
+ "alternativas": [
+  "advplyr/audiobookshelf",
+  "jeffvli/feishin"
+ ],
+ "senal": {
+  "estrellas": 24510,
+  "nota": 51,
+  "edad_dias": 3905,
+  "ultima_entrega": "2026-09-24",
+  "descargas_10": 164191,
+  "contribuyentes": 100,
+  "repo_mb": 71.3,
+  "ci": 5,
+  "incidencias": "346 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Navidrome y su comunidad · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

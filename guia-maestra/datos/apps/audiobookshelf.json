@@ -1,0 +1,75 @@
+{
+ "id": "audiobookshelf",
+ "nombre": "Audiobookshelf",
+ "repo": "advplyr/audiobookshelf",
+ "autores": [
+  {
+   "nombre": "advplyr y colaboradores",
+   "enlace": "https://github.com/advplyr"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/advplyr/audiobookshelf/blob/master/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Servir audiolibros, podcasts y libros electrónicos desde un equipo propio, con la posición de escucha sincronizada entre aparatos y los archivos en tu casa.",
+ "capitulo": 6,
+ "orden": 6,
+ "para_quien": {
+  "es": "para quien escucha audiolibros en trayectos y quiere que la posición exacta lo espere al otro lado, en el teléfono, en la tableta o en la computadora.",
+  "no_es": "para quien escucha un audiolibro al año: un reproductor local con buena memoria de posición hace el trabajo sin servidor."
+ },
+ "manos": [
+  "Prepará tu biblioteca con una regla simple: una carpeta por libro, los archivos numerados en el orden en que se escuchan y el nombre de la carpeta igual al título.",
+  "Poné el servidor a correr en el equipo que va a quedar encendido, con la carpeta de audiolibros montada y accesible.",
+  "Entrá por el navegador, creá la primera biblioteca y dejá que analice: va a leer las etiquetas y a proponer título, autor y carátula.",
+  "Corregí lo que haya adivinado mal y activá, si está disponible, la opción de guardar los metadatos junto a cada libro, para que la información no viva sólo dentro del servidor.",
+  "Instalá la aplicación en el teléfono, conectala al servidor y comprobá lo importante: escuchar diez minutos en el teléfono y continuar en la computadora en el segundo exacto."
+ ],
+ "resultado_esperado": "Todos tus audiolibros aparecen ordenados, con autor y carátula, y la posición de escucha se continúa entre aparatos sin buscar el minuto a mano.",
+ "si_sale_mal": [
+  "Si los libros aparecen mezclados, ordenalos en carpetas antes de reintentar: el servidor agrupa por carpeta y por etiquetas, y necesita que las dos cosas coincidan.",
+  "Si la posición no se sincroniza, comprobá que los dos aparatos estén conectados al mismo servidor y con el mismo usuario.",
+  "Si una biblioteca grande tarda, dejá el análisis terminar antes de abrir la aplicación en el teléfono: se puede usar mientras analiza, pero faltarán libros."
+ ],
+ "deshacer": "Detener el servidor no toca tus archivos: los lee y los ordena, no los mueve. La base de datos del servidor guarda el historial y la posición de escucha; conviene respaldarla si eso te importa, porque se pierde al reinstalar.",
+ "cabeza": [
+  "Audiobookshelf nació en agosto de 2021 y hoy tiene catorce mil novecientas dos estrellas y mil doscientos cuarenta y un derivados. Hace una cosa que ninguna aplicación local puede hacer: recordar **una** posición de escucha para todos tus aparatos. Empezás en el teléfono camino al trabajo, y al llegar a casa la computadora te espera en el segundo donde dejaste.",
+  "Su forma de trabajar es la de una biblioteca ordenada: una carpeta por libro, y adentro los archivos en el orden de escucha. De esa estructura saca el título, el autor, la serie y la carátula, y cuando la estructura no alcanza, lee las etiquetas de los archivos. De ahí que el orden de las carpetas no sea un capricho: es la diferencia entre una biblioteca que se entiende sola y una lista de archivos con nombres raros.",
+  "Un detalle honesto de medición: sus entregas en GitHub **no llevan archivos adjuntos**, porque el servidor se distribuye como imagen de contenedor y como aplicación móvil por tiendas. Quien cuente descargas ahí lee un cero que no describe el proyecto. Y su cola de incidencias es la más grande de la guía —mil doscientas cincuenta abiertas—, lo que dice algo de un proyecto muy usado y con mucho pedido pendiente."
+ ],
+ "limites": [
+  "Necesita un equipo encendido y una biblioteca ordenada en carpetas: sin ese orden, el análisis adivina mal.",
+  "Su cola de incidencias es enorme: hay pedidos que llevan años esperando.",
+  "No sirve para música suelta en desorden; para eso está Navidrome, de la ficha anterior.",
+  "Como todo servidor casero, exige decidir si se abre a internet y con qué protección."
+ ],
+ "oficio": {
+  "dato": "Un audiolibro digital puede ser cien archivos de tres minutos o un solo archivo con capítulos dentro, y esa diferencia decide casi todo. El segundo formato —habitualmente `.m4b`— lleva la lista de capítulos escrita dentro del archivo, con sus tiempos, y por eso un reproductor puede saltar de capítulo en capítulo sin adivinar. Si tu biblioteca son cien archivos sueltos, el servidor tiene que reconstruir los capítulos a partir del orden de los nombres, que es frágil. Y hay una comprobación que muestra lo que el archivo declara de verdad: pedirle sus capítulos al archivo antes de confiar en la aplicación. Si el archivo no los tiene, ninguna aplicación puede inventarlos bien.",
+  "como_comprobar": "Elegí un audiolibro largo y pedile al archivo su lista de capítulos. Si aparece con títulos y minutos, el archivo los trae; si no aparece nada, lo que ves en la aplicación es una reconstrucción por orden de archivos, y conviene nombrarlos bien.",
+  "comando": "ffprobe -v error -show_chapters -of default=nw=1 audiolibro.m4b"
+ },
+ "riesgos": [
+  "Confiar a un solo disco una biblioteca de audiolibros que costó años reunir: el servidor no es un respaldo.",
+  "Abrir el servidor a internet con una contraseña débil y exponer toda la biblioteca."
+ ],
+ "alternativas": [
+  "navidrome/navidrome",
+  "AntennaPod/AntennaPod"
+ ],
+ "senal": {
+  "estrellas": 14902,
+  "nota": 49,
+  "edad_dias": 1904,
+  "ultima_entrega": "2026-10-23",
+  "descargas_10": 0,
+  "contribuyentes": 100,
+  "repo_mb": 42.6,
+  "ci": 5,
+  "incidencias": "1250 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de advplyr y colaboradores · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

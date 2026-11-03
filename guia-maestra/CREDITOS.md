@@ -10,22 +10,28 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 |---|---|---|---|
 | [Accrescent](https://github.com/accrescent/accrescent) | [The Accrescent Contributors](https://github.com/accrescent) | Apache-2.0 | 3 de noviembre de 2026 |
 | [AdAway](https://github.com/AdAway/AdAway) | [PerfectSlayer y colaboradores de AdAway](https://github.com/PerfectSlayer) | GPL-3.0 | 3 de noviembre de 2026 |
+| [AntennaPod](https://github.com/AntennaPod/AntennaPod) | [AntennaPod y su comunidad](https://github.com/AntennaPod) | GPL-3.0 | 3 de noviembre de 2026 |
 | [App Manager NG](https://github.com/SysAdminDoc/AppManagerNG) | [SysAdminDoc](https://github.com/SysAdminDoc) | GPL-3.0 | 3 de noviembre de 2026 |
 | [AppListBackup](https://github.com/AndroidLabs-org/AppListBackup) | [AndroidLabs-org](https://github.com/AndroidLabs-org) | GPL-3.0 | 3 de noviembre de 2026 |
 | [AppVerifier](https://github.com/soupslurpr/AppVerifier) | [soupslurpr](https://github.com/soupslurpr) | ISC | 3 de noviembre de 2026 |
 | [aShellYou](https://github.com/DP-Hridayan/aShellYou) | [DP-Hridayan](https://github.com/DP-Hridayan) | GPL-3.0 | 3 de noviembre de 2026 |
+| [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | [advplyr y colaboradores](https://github.com/advplyr) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Aurora Store](https://github.com/AuroraOSS/AuroraStore) | [Aurora OSS](https://gitlab.com/AuroraOSS/AuroraStore) | GPL-3.0 | 3 de noviembre de 2026 |
+| [Auxio](https://github.com/OxygenCobalt/Auxio) | [OxygenCobalt](https://github.com/OxygenCobalt) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Canta](https://github.com/samolego/Canta) | [samolego](https://github.com/samolego) | LGPL-3.0 | 3 de noviembre de 2026 |
 | [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) | [XayahSuSuSu](https://github.com/XayahSuSuSu) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Dhizuku](https://github.com/iamr0s/Dhizuku) | [iamr0s](https://github.com/iamr0s) | GPL-3.0 | 3 de noviembre de 2026 |
 | [F-Droid](https://github.com/f-droid/fdroidclient) | [F-Droid](https://gitlab.com/fdroid/fdroidclient) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Hail](https://github.com/aistra0528/Hail) | [aistra0528](https://github.com/aistra0528) | GPL-3.0 | 3 de noviembre de 2026 |
+| [KOReader](https://github.com/koreader/koreader) | [KOReader y su comunidad de voluntarios](https://koreader.rocks/) | AGPL-3.0 | 3 de noviembre de 2026 |
+| [Navidrome](https://github.com/navidrome/navidrome) | [Navidrome y su comunidad](https://github.com/navidrome) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Neo Backup](https://github.com/NeoApplications/Neo-Backup) | [NeoApplications](https://github.com/NeoApplications) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [NetGuard](https://github.com/M66B/NetGuard) | [Marcel Bokhorst (M66B)](https://github.com/M66B) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Obtainium](https://github.com/ImranR98/Obtainium) | [ImranR98](https://github.com/ImranR98) | GPL-3.0 | 3 de noviembre de 2026 |
 | [OmniShizuku](https://github.com/krishna3163/OmniShizuku) | [krishna3163](https://github.com/krishna3163) | Apache-2.0 | 3 de noviembre de 2026 |
 | [PCAPdroid](https://github.com/emanuele-f/PCAPdroid) | [Emanuele Faranda](https://github.com/emanuele-f) | GPL-3.0 | 3 de noviembre de 2026 |
 | [personalDNSfilter](https://github.com/IngoZenz/personaldnsfilter) | [Ingo Zenz](https://www.zenz-solutions.de/) | GPL-2.0 | 3 de noviembre de 2026 |
+| [Readest](https://github.com/readest/readest) | [Readest y sus colaboradores](https://github.com/readest) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [restoid](https://github.com/hddq/restoid) | [hddq](https://github.com/hddq) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Rethink](https://github.com/celzero/rethink-app) | [celzero](https://github.com/celzero) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Seedvault](https://github.com/seedvault-app/seedvault) | [Seedvault](https://github.com/seedvault-app) | Apache-2.0 (declarada en el proyecto; GitHub no la detecta) | 3 de noviembre de 2026 |

@@ -1,0 +1,75 @@
+{
+ "id": "antennapod",
+ "nombre": "AntennaPod",
+ "repo": "AntennaPod/AntennaPod",
+ "autores": [
+  {
+   "nombre": "AntennaPod y su comunidad",
+   "enlace": "https://github.com/AntennaPod"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Escuchar podcasts sin cuenta, con las suscripciones guardadas en un archivo que podés llevarte a cualquier otro programa el día que quieras.",
+ "capitulo": 6,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien escucha podcasts y quiere que sus suscripciones, sus descargas y su posición de escucha sean suyas y no de una plataforma.",
+  "no_es": "para quien escucha música o audiolibros: es un programa de podcasts, con esa precisión y esa limitación."
+ },
+ "manos": [
+  "Instalala desde F-Droid, desde la tienda de Google o desde su repositorio; en este caso el repositorio no publica el archivo, así que la descarga viene de una tienda.",
+  "Buscá un podcast por su nombre o pegá la dirección de su fuente; toda suscripción empieza por una dirección que el programa guarda.",
+  "Reproducí un episodio, cerrá la aplicación y volvé: la posición exacta de escucha tiene que seguir donde la dejaste.",
+  "Descargá dos episodios para escuchar sin datos y limitá el espacio que puede ocupar la descarga automática.",
+  "Exportá tus suscripciones a un archivo y guardalo fuera del teléfono: ese archivo es tu lista completa, legible y trasladable a cualquier otro programa."
+ ],
+ "resultado_esperado": "Tus podcasts se actualizan solos, los episodios se descargan cuando querés, la posición de escucha se conserva y tenés un archivo con todas tus suscripciones guardado fuera del teléfono.",
+ "si_sale_mal": [
+  "Si un podcast no actualiza episodios, comprobá su dirección en el navegador: la fuente puede haber cambiado o haber dejado de publicarse.",
+  "Si las descargas llenan el almacenamiento, bajá el límite de episodios guardados y activá el borrado automático de los ya escuchados.",
+  "Si perdés el teléfono, el archivo de suscripciones exportado es lo único que hace falta para recuperar la lista completa en un aparato nuevo."
+ ],
+ "deshacer": "Al desinstalarla se pierden las descargas y el historial guardado en el teléfono. Por eso el archivo de suscripciones exportado —que ocupa unos pocos kilobytes— es la copia que hay que tener antes de cualquier cambio de aparato.",
+ "cabeza": [
+  "Un podcast no es una plataforma: es una dirección. El programa que lo publica pone un archivo de texto en internet con la lista de episodios, y cualquiera puede leerlo. AntennaPod hace exactamente eso, y por eso puede existir sin cuenta, sin servidor propio y sin intermediario: no hay catálogo central que consultar, hay direcciones que vos agregás.",
+  "De esa arquitectura sale su mejor propiedad, que casi nadie usa: **todo lo que sabés de tus podcasts cabe en un archivo OPML**, un formato de lista heredado de los lectores de noticias que cualquier programa del mundo entiende. Exportarlo lleva dos toques y convierte doce años de suscripciones en un archivo de texto que se puede abrir, leer y editar a mano.",
+  "El proyecto nació en julio de 2012 y sigue publicando: su última versión es la 3.12.3 del 13 de octubre de 2026, con cinco flujos de compilación y más de mil ochocientos derivados. Y un detalle que vale como lección de medición: **sus entregas de GitHub no llevan archivos adjuntos**, porque el programa se distribuye por tiendas. Quien cuente descargas ahí va a leer un cero que no significa nada."
+ ],
+ "limites": [
+  "Sólo podcasts: no reproduce música ni audiolibros.",
+  "Sus entregas en GitHub no incluyen el archivo instalable; la descarga se hace por F-Droid o por la tienda de Google.",
+  "No tiene sincronización entre aparatos sin un servicio externo: la posición de escucha vive en cada teléfono.",
+  "Como todo lector de fuentes, depende de que el podcast publique su lista de episodios correctamente."
+ ],
+ "oficio": {
+  "dato": "Las suscripciones de AntennaPod se exportan en OPML, un formato de lista que se lee con cualquier editor de texto y que cualquier otro lector de podcasts o de noticias puede importar. Eso tiene una consecuencia que la gente descubre tarde: tu lista de podcasts no es un dato de la aplicación, es un archivo que podés contar. Un archivo con doscientas suscripciones tiene doscientas líneas con su dirección, y si mañana cambiás de programa, de teléfono o de sistema, esa lista viaja entera. Es exactamente lo contrario de una lista guardada en una cuenta: esa no se puede leer ni contar, y si el servicio cierra, se va con él. Guardá el archivo con la fecha en el nombre y tenés, de paso, un historial de a qué escuchabas cada año.",
+  "como_comprobar": "Exportá las suscripciones y contá cuántas hay en el archivo. Después abrilo con un editor de texto: cada suscripción es una línea con su título y su dirección, legible sin herramientas.",
+  "comando": "grep -c \"<outline\" AntennaPod-suscripciones.opml"
+ },
+ "riesgos": [
+  "Guardar una biblioteca de podcasts en una cuenta de un servicio y creer que es una copia: no lo es, no se puede exportar y desaparece si el servicio cierra.",
+  "Suscribirse a decenas de fuentes y dejar la descarga automática sin límite, hasta llenar el teléfono."
+ ],
+ "alternativas": [
+  "advplyr/audiobookshelf",
+  "navidrome/navidrome"
+ ],
+ "senal": {
+  "estrellas": 8260,
+  "nota": 51,
+  "edad_dias": 5208,
+  "ultima_entrega": "2026-10-13",
+  "descargas_10": 0,
+  "contribuyentes": 100,
+  "repo_mb": 114.9,
+  "ci": 5,
+  "incidencias": "387 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de AntennaPod y su comunidad · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

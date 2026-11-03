@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-03",
- "medido_en": "2026-11-03T20:45:42+00:00",
+ "medido_en": "2026-11-03T21:08:53+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 365,
+ "medidos": 371,
  "fichas": [
   {
    "repo": "MMFoundation/WallpaperMachine",
@@ -88,6 +88,42 @@
     "576 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 2000/2059 +10",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "readest/readest",
+   "puntos": 80,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "android-e2e.yml",
+    "codeql.yml",
+    "docker-image.yml",
+    "nightly.yml",
+    "nix-build.yml"
+   ],
+   "adjuntos": 322,
+   "con_huella": 131,
+   "ultima_entrega": "2026-10-13",
+   "commits_30d": 329,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 90,
+    "cerradas": 3291
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 752,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 13 flujo(s) +10",
+    "adjunto con huella (Readest-0.12.16-1.aarch64.rpm.sig) +10",
+    "entrega en los últimos 30 días +10",
+    "329 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 3291/3381 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -8147,6 +8183,41 @@
    ]
   },
   {
+   "repo": "koreader/koreader",
+   "puntos": 53,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "build.yml",
+    "build_matrix.yml",
+    "cache_cleanup.yml",
+    "doc_and_l10n_update.yml",
+    "lint.yml"
+   ],
+   "adjuntos": 385,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-29",
+   "commits_30d": 90,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 1308,
+    "cerradas": 6812
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 4972,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 8 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "90 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 6812/8120 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "accrescent/accrescent",
    "puntos": 53,
    "licencia": "Apache-2.0",
@@ -8555,6 +8626,41 @@
    ]
   },
   {
+   "repo": "navidrome/navidrome",
+   "puntos": 51,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "coverage-on-pr.yml",
+    "download-link-on-pr.yml",
+    "pipeline.yml",
+    "push-translations.sh",
+    "push-translations.yml"
+   ],
+   "adjuntos": 280,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-24",
+   "commits_30d": 24,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 139,
+    "cerradas": 1761
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 3905,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 10 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "24 cambios en 30 días +7",
+    "100 personas empujando +10",
+    "incidencias cerradas 1761/1900 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "TNTcraftHIM/Piik",
    "puntos": 51,
    "licencia": "MIT",
@@ -8619,6 +8725,41 @@
     "16 cambios en 30 días +7",
     "11 personas empujando +10",
     "incidencias cerradas 26/29 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "AntennaPod/AntennaPod",
+   "puntos": 51,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "assign-milestone.yml",
+    "checks.yml",
+    "close-if-no-reply.yml",
+    "copilot-setup-steps.yml",
+    "create-changelog.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-13",
+   "commits_30d": 14,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 356,
+    "cerradas": 4569
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 5208,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 12 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "entrega en los últimos 30 días +10",
+    "14 cambios en 30 días +7",
+    "100 personas empujando +10",
+    "incidencias cerradas 4569/4925 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9187,6 +9328,41 @@
    ]
   },
   {
+   "repo": "advplyr/audiobookshelf",
+   "puntos": 49,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "apply_comments.yaml",
+    "close-issues-on-release.yml",
+    "close_blank_issues.yaml",
+    "codeql.yml",
+    "component-tests.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-23",
+   "commits_30d": 13,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 1024,
+    "cerradas": 2507
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1904,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 13 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "entrega en los últimos 30 días +10",
+    "13 cambios en 30 días +7",
+    "100 personas empujando +10",
+    "incidencias cerradas 2507/3531 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "zxing/zxing",
    "puntos": 49,
    "licencia": "Apache-2.0",
@@ -9514,6 +9690,38 @@
     "11 cambios en 30 días +7",
     "87 personas empujando +10",
     "incidencias cerradas 147/318 +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "OxygenCobalt/Auxio",
+   "puntos": 47,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "android.yml",
+    "lint.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-08-04",
+   "commits_30d": 7,
+   "contribuyentes": 42,
+   "incidencias": {
+    "abiertas": 188,
+    "cerradas": 1028
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 2269,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "7 cambios en 30 días +4",
+    "42 personas empujando +10",
+    "incidencias cerradas 1028/1216 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },

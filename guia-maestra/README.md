@@ -2,7 +2,7 @@
 
 **Aplicaciones y recursos de código abierto, en español, con el oficio explicado.**
 
-_Estado: 5 capítulos publicados de 12 · 28 fichas verificadas · última medición 3 de noviembre de 2026_
+_Estado: 6 capítulos publicados de 12 · 34 fichas verificadas · última medición 3 de noviembre de 2026_
 
 Cada ficha tiene tres capas: **Manos** (los pasos, para quien empieza), **Cabeza** (cómo funciona y
 dónde se rompe) y **Oficio** (un dato que casi nadie sabe y que se puede comprobar). Sin la tercera,
@@ -17,7 +17,7 @@ la aplicación no entra.
 | 3 | El permiso prestado | publicado | 6 |
 | 4 | Instalar fuera de la tienda | publicado | 6 |
 | 5 | Privacidad que se puede comprobar | publicado | 6 |
-| 6 | Tu música y tus libros, tuyos | en preparación | 0 |
+| 6 | Tu música y tus libros, tuyos | publicado | 6 |
 | 7 | Archivos, copias y nubes propias | en preparación | 0 |
 | 8 | La red | en preparación | 0 |
 | 9 | El televisor y la casa | en preparación | 0 |
@@ -57,6 +57,12 @@ la aplicación no entra.
 | [personalDNSfilter](https://github.com/IngoZenz/personaldnsfilter) | intermedio | **47** | GPL-2.0 | Ingo Zenz | 3 de noviembre de 2026 |
 | [NetGuard](https://github.com/M66B/NetGuard) | experto | **25** | GPL-3.0 | Marcel Bokhorst (M66B) | 3 de noviembre de 2026 |
 | [PCAPdroid](https://github.com/emanuele-f/PCAPdroid) | experto | **48** | GPL-3.0 | Emanuele Faranda | 3 de noviembre de 2026 |
+| [Auxio](https://github.com/OxygenCobalt/Auxio) | principiante | **47** | GPL-3.0 | OxygenCobalt | 3 de noviembre de 2026 |
+| [AntennaPod](https://github.com/AntennaPod/AntennaPod) | principiante | **51** | GPL-3.0 | AntennaPod y su comunidad | 3 de noviembre de 2026 |
+| [Readest](https://github.com/readest/readest) | intermedio | **80** | AGPL-3.0 | Readest y sus colaboradores | 3 de noviembre de 2026 |
+| [KOReader](https://github.com/koreader/koreader) | experto | **53** | AGPL-3.0 | KOReader y su comunidad de voluntarios | 3 de noviembre de 2026 |
+| [Navidrome](https://github.com/navidrome/navidrome) | experto | **51** | GPL-3.0 | Navidrome y su comunidad | 3 de noviembre de 2026 |
+| [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | experto | **49** | GPL-3.0 | advplyr y colaboradores | 3 de noviembre de 2026 |
 
 ## Cómo se mide la nota
 
