@@ -2,7 +2,7 @@
 
 **Aplicaciones y recursos de código abierto, en español, con el oficio explicado.**
 
-_Estado: 10 capítulos publicados de 12 · 58 fichas verificadas · última medición 3 de noviembre de 2026_
+_Estado: 11 capítulos publicados de 12 · 64 fichas verificadas · última medición 3 de noviembre de 2026_
 
 Cada ficha tiene tres capas: **Manos** (los pasos, para quien empieza), **Cabeza** (cómo funciona y
 dónde se rompe) y **Oficio** (un dato que casi nadie sabe y que se puede comprobar). Sin la tercera,
@@ -22,7 +22,7 @@ la aplicación no entra.
 | 8 | La red | publicado | 6 |
 | 9 | El televisor y la casa | publicado | 6 |
 | 10 | El taller | publicado | 6 |
-| 11 | Cuando algo se rompe | en preparación | 0 |
+| 11 | Cuando algo se rompe | publicado | 6 |
 | 12 | El oficio | en preparación | 0 |
 
 ## Fichas publicadas
@@ -87,6 +87,12 @@ la aplicación no entra.
 | [Material Files](https://github.com/zhanghai/MaterialFiles) | principiante | **44** | GPL-3.0 | Hai Zhang (zhanghai) | 3 de noviembre de 2026 |
 | [jadx](https://github.com/skylot/jadx) | experto | **58** | Apache-2.0 | skylot y colaboradores | 3 de noviembre de 2026 |
 | [Apktool](https://github.com/iBotPeaches/Apktool) | experto | **57** | Apache-2.0 | Connor Tumbleson (iBotPeaches) y colaboradores | 3 de noviembre de 2026 |
+| [LogFox](https://github.com/F0x1d/LogFox) | principiante | **47** | GPL-3.0 | Maksim Zoteev | 3 de noviembre de 2026 |
+| [disky](https://github.com/newhinton/disky) | principiante | **42** | GPL-3.0 | Felix Nüsse | 3 de noviembre de 2026 |
+| [Permission Manager X](https://github.com/mirfatif/PermissionManagerX) | experto | **28** | AGPL-3.0 | mirfatif | 3 de noviembre de 2026 |
+| [WiFi Analyzer](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer) | principiante | **50** | GPL-3.0 | VREM Software Development | 3 de noviembre de 2026 |
+| [Battery Monitor](https://github.com/tswistak/Battery-Monitor) | principiante | **46** | GPL-3.0-or-later | Tomasz Świstak (bifurcación actual), Darshan Computing (origen, 2009-2020) | 3 de noviembre de 2026 |
+| [QADB](https://github.com/ludoven/QADB) | experto | **33** | MIT | ludoven | 3 de noviembre de 2026 |
 
 ## Cómo se mide la nota
 

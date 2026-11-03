@@ -19,10 +19,12 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | [advplyr y colaboradores](https://github.com/advplyr) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Aurora Store](https://github.com/AuroraOSS/AuroraStore) | [Aurora OSS](https://gitlab.com/AuroraOSS/AuroraStore) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Auxio](https://github.com/OxygenCobalt/Auxio) | [OxygenCobalt](https://github.com/OxygenCobalt) | GPL-3.0 | 3 de noviembre de 2026 |
+| [Battery Monitor](https://github.com/tswistak/Battery-Monitor) | [Tomasz Świstak (bifurcación actual)](https://github.com/tswistak), [Darshan Computing (origen, 2009-2020)](https://github.com/DarshanComputing) | GPL-3.0-or-later | 3 de noviembre de 2026 |
 | [Canta](https://github.com/samolego/Canta) | [samolego](https://github.com/samolego) | LGPL-3.0 | 3 de noviembre de 2026 |
 | [ConnectBot](https://github.com/connectbot/connectbot) | [Kenny Root y la comunidad de ConnectBot](https://github.com/connectbot) | Apache-2.0 | 3 de noviembre de 2026 |
 | [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) | [XayahSuSuSu](https://github.com/XayahSuSuSu) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Dhizuku](https://github.com/iamr0s/Dhizuku) | [iamr0s](https://github.com/iamr0s) | GPL-3.0 | 3 de noviembre de 2026 |
+| [disky](https://github.com/newhinton/disky) | [Felix Nüsse](https://github.com/newhinton) | GPL-3.0 | 3 de noviembre de 2026 |
 | [ESPHome](https://github.com/esphome/esphome) | [ESPHome y su comunidad](https://esphome.io) | MIT y GPL-3.0 | 3 de noviembre de 2026 |
 | [F-Droid](https://github.com/f-droid/fdroidclient) | [F-Droid](https://gitlab.com/fdroid/fdroidclient) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Hail](https://github.com/aistra0528/Hail) | [aistra0528](https://github.com/aistra0528) | GPL-3.0 | 3 de noviembre de 2026 |
@@ -35,6 +37,7 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Kodi](https://github.com/xbmc/xbmc) | [XBMC Foundation y la comunidad de Kodi](https://kodi.tv) | GPL-2.0-or-later | 3 de noviembre de 2026 |
 | [KOReader](https://github.com/koreader/koreader) | [KOReader y su comunidad de voluntarios](https://koreader.rocks/) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [LocalSend](https://github.com/localsend/localsend) | [LocalSend y sus colaboradores](https://localsend.org) | Apache-2.0 | 3 de noviembre de 2026 |
+| [LogFox](https://github.com/F0x1d/LogFox) | [Maksim Zoteev](https://github.com/F0x1d) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Material Files](https://github.com/zhanghai/MaterialFiles) | [Hai Zhang (zhanghai)](https://github.com/zhanghai) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Mullvad VPN](https://github.com/mullvad/mullvadvpn-app) | [Mullvad VPN AB](https://mullvad.net) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Navidrome](https://github.com/navidrome/navidrome) | [Navidrome y su comunidad](https://github.com/navidrome) | GPL-3.0 | 3 de noviembre de 2026 |
@@ -45,7 +48,9 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Obtainium](https://github.com/ImranR98/Obtainium) | [ImranR98](https://github.com/ImranR98) | GPL-3.0 | 3 de noviembre de 2026 |
 | [OmniShizuku](https://github.com/krishna3163/OmniShizuku) | [krishna3163](https://github.com/krishna3163) | Apache-2.0 | 3 de noviembre de 2026 |
 | [PCAPdroid](https://github.com/emanuele-f/PCAPdroid) | [Emanuele Faranda](https://github.com/emanuele-f) | GPL-3.0 | 3 de noviembre de 2026 |
+| [Permission Manager X](https://github.com/mirfatif/PermissionManagerX) | [mirfatif](https://github.com/mirfatif) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [personalDNSfilter](https://github.com/IngoZenz/personaldnsfilter) | [Ingo Zenz](https://www.zenz-solutions.de/) | GPL-2.0 | 3 de noviembre de 2026 |
+| [QADB](https://github.com/ludoven/QADB) | [ludoven](https://github.com/ludoven) | MIT | 3 de noviembre de 2026 |
 | [rclone](https://github.com/rclone/rclone) | [Nick Craig-Wood y colaboradores de rclone](https://rclone.org) | MIT | 3 de noviembre de 2026 |
 | [Readest](https://github.com/readest/readest) | [Readest y sus colaboradores](https://github.com/readest) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [restic](https://github.com/restic/restic) | [restic y sus colaboradores](https://restic.net) | BSD-2-Clause | 3 de noviembre de 2026 |
@@ -66,6 +71,7 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Universal Installer](https://github.com/pass-with-high-score/universal-installer) | [pass-with-high-score](https://github.com/pass-with-high-score) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Uraam](https://github.com/Ruraam/Uraam) | [Ruraam](https://github.com/Ruraam) | GPL-3.0 | 3 de noviembre de 2026 |
 | [wg-easy](https://github.com/wg-easy/wg-easy) | [wg-easy y sus colaboradores](https://github.com/wg-easy) | AGPL-3.0 | 3 de noviembre de 2026 |
+| [WiFi Analyzer](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer) | [VREM Software Development](https://github.com/VREMSoftwareDevelopment) | GPL-3.0 | 3 de noviembre de 2026 |
 
 ## Retirada
 

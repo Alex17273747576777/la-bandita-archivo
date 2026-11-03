@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-03",
- "medido_en": "2026-11-03T22:04:59+00:00",
+ "medido_en": "2026-11-03T22:17:15+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -34,7 +34,7 @@
    "adjuntos": 30,
    "con_huella": 10,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 957,
+   "commits_30d": 959,
    "contribuyentes": 11,
    "incidencias": {
     "abiertas": 1,
@@ -49,7 +49,7 @@
     "integración continua con 13 flujo(s) +10",
     "adjunto con huella (WallpaperMachine-1.8.2-arm64.dmg.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "957 cambios en 30 días +10",
+    "959 cambios en 30 días +10",
     "11 personas empujando +10",
     "incidencias cerradas 71/72 +10",
     "SECURITY.md presente +5",
@@ -70,11 +70,11 @@
    "adjuntos": 206,
    "con_huella": 10,
    "ultima_entrega": "2026-10-25",
-   "commits_30d": 576,
+   "commits_30d": 580,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 59,
-    "cerradas": 2000
+    "abiertas": 56,
+    "cerradas": 2003
    },
    "security_md": true,
    "scorecard": null,
@@ -85,9 +85,9 @@
     "integración continua con 64 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "576 cambios en 30 días +10",
+    "580 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 2000/2059 +10",
+    "incidencias cerradas 2003/2059 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -211,7 +211,7 @@
    "adjuntos": 210,
    "con_huella": 80,
    "ultima_entrega": "2026-10-09",
-   "commits_30d": 27588,
+   "commits_30d": 27639,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 292,
@@ -226,7 +226,7 @@
     "integración continua con 26 flujo(s) +10",
     "adjunto con huella (openhuman-core-0.64.15-aarch64-unknown-linux-gnu.tar.gz.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "27588 cambios en 30 días +10",
+    "27639 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 2637/2929 +9",
     "SECURITY.md presente +5",
@@ -244,8 +244,8 @@
    "adjuntos": 61,
    "con_huella": 21,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 3376,
-   "contribuyentes": 27,
+   "commits_30d": 5238,
+   "contribuyentes": 30,
    "incidencias": {
     "abiertas": 25,
     "cerradas": 176
@@ -259,8 +259,8 @@
     "integración continua con 2 flujo(s) +10",
     "adjunto con huella (flea-v0.4.0-linux-aarch64.tar.gz.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "3376 cambios en 30 días +10",
-    "27 personas empujando +10",
+    "5238 cambios en 30 días +10",
+    "30 personas empujando +10",
     "incidencias cerradas 176/201 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
@@ -280,10 +280,10 @@
    "adjuntos": 49,
    "con_huella": 16,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 2191,
+   "commits_30d": 2192,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 183,
+    "abiertas": 184,
     "cerradas": 1546
    },
    "security_md": true,
@@ -295,9 +295,9 @@
     "integración continua con 48 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "2191 cambios en 30 días +10",
+    "2192 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1546/1729 +9",
+    "incidencias cerradas 1546/1730 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -313,14 +313,14 @@
     "mobile-android-screenshots.yml",
     "model-catalog-bump.yml"
    ],
-   "adjuntos": 79,
+   "adjuntos": 82,
    "con_huella": 9,
-   "ultima_entrega": "2026-11-01",
-   "commits_30d": 1650,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 1686,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 50,
-    "cerradas": 411
+    "abiertas": 51,
+    "cerradas": 414
    },
    "security_md": true,
    "scorecard": null,
@@ -331,9 +331,9 @@
     "integración continua con 15 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "1650 cambios en 30 días +10",
+    "1686 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 411/461 +9",
+    "incidencias cerradas 414/465 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -355,8 +355,8 @@
    "commits_30d": 779,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 615,
-    "cerradas": 5463
+    "abiertas": 616,
+    "cerradas": 5462
    },
    "security_md": true,
    "scorecard": null,
@@ -369,7 +369,7 @@
     "entrega en los últimos 30 días +10",
     "779 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 5463/6078 +9",
+    "incidencias cerradas 5462/6078 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -411,6 +411,41 @@
    ]
   },
   {
+   "repo": "saya-ch/dsh-mobile",
+   "puntos": 79,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "android-release.yml",
+    "caddy-component.yml",
+    "ci.yml",
+    "release.yml"
+   ],
+   "adjuntos": 55,
+   "con_huella": 13,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 492,
+   "contribuyentes": 21,
+   "incidencias": {
+    "abiertas": 13,
+    "cerradas": 102
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 80,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 4 flujo(s) +10",
+    "adjunto con huella (dsh-mobile-plugin.sha256) +10",
+    "entrega en los últimos 30 días +10",
+    "492 cambios en 30 días +10",
+    "21 personas empujando +10",
+    "incidencias cerradas 102/115 +9",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "HKUDS/nanobot",
    "puntos": 79,
    "licencia": "MIT",
@@ -424,7 +459,7 @@
    "adjuntos": 27,
    "con_huella": 10,
    "ultima_entrega": "2026-10-28",
-   "commits_30d": 483,
+   "commits_30d": 484,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 214,
@@ -439,44 +474,9 @@
     "integración continua con 5 flujo(s) +10",
     "adjunto con huella (nanobot-tui-darwin-arm64.zip.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "483 cambios en 30 días +10",
+    "484 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 1370/1584 +9",
-    "SECURITY.md presente +5",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "saya-ch/dsh-mobile",
-   "puntos": 79,
-   "licencia": "Apache-2.0",
-   "flujos_ci": [
-    "android-release.yml",
-    "caddy-component.yml",
-    "ci.yml",
-    "release.yml"
-   ],
-   "adjuntos": 53,
-   "con_huella": 12,
-   "ultima_entrega": "2026-11-01",
-   "commits_30d": 464,
-   "contribuyentes": 20,
-   "incidencias": {
-    "abiertas": 13,
-    "cerradas": 101
-   },
-   "security_md": true,
-   "scorecard": null,
-   "edad_dias": 80,
-   "archivado": false,
-   "notas": [
-    "licencia legible (Apache-2.0) +15",
-    "integración continua con 4 flujo(s) +10",
-    "adjunto con huella (dsh-mobile-plugin.sha256) +10",
-    "entrega en los últimos 30 días +10",
-    "464 cambios en 30 días +10",
-    "20 personas empujando +10",
-    "incidencias cerradas 101/114 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -495,11 +495,11 @@
    "adjuntos": 1558,
    "con_huella": 1288,
    "ultima_entrega": "2026-11-01",
-   "commits_30d": 250,
+   "commits_30d": 254,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 1940,
-    "cerradas": 14274
+    "abiertas": 1939,
+    "cerradas": 14275
    },
    "security_md": true,
    "scorecard": null,
@@ -510,9 +510,9 @@
     "integración continua con 18 flujo(s) +10",
     "adjunto con huella (gitea-28.3.0-darwin-amd64.asc) +10",
     "entrega en los últimos 30 días +10",
-    "250 cambios en 30 días +10",
+    "254 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 14274/16214 +9",
+    "incidencias cerradas 14275/16214 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -567,11 +567,11 @@
    "adjuntos": 515,
    "con_huella": 120,
    "ultima_entrega": "2026-10-24",
-   "commits_30d": 11115,
+   "commits_30d": 11274,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 5987,
-    "cerradas": 27457
+    "abiertas": 5981,
+    "cerradas": 27471
    },
    "security_md": true,
    "scorecard": null,
@@ -582,9 +582,9 @@
     "integración continua con 35 flujo(s) +10",
     "adjunto con huella (clickhouse-client-26.10.2.103-amd64.tgz.sha512) +10",
     "entrega en los últimos 30 días +10",
-    "11115 cambios en 30 días +10",
+    "11274 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 27457/33444 +8",
+    "incidencias cerradas 27471/33452 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -603,11 +603,11 @@
    "adjuntos": 168,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 3429,
+   "commits_30d": 3445,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 437,
-    "cerradas": 2037
+    "abiertas": 441,
+    "cerradas": 2038
    },
    "security_md": true,
    "scorecard": null,
@@ -618,9 +618,9 @@
     "integración continua con 13 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "3429 cambios en 30 días +10",
+    "3445 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 2037/2474 +8",
+    "incidencias cerradas 2038/2479 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -639,11 +639,11 @@
    "adjuntos": 541,
    "con_huella": 39,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 1627,
+   "commits_30d": 1634,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 1389,
-    "cerradas": 7238
+    "abiertas": 1388,
+    "cerradas": 7242
    },
    "security_md": true,
    "scorecard": null,
@@ -652,11 +652,11 @@
    "notas": [
     "licencia legible (Apache-2.0) +15",
     "integración continua con 36 flujo(s) +10",
-    "adjunto con huella (dbx-web_0.6.65_x86_64-browser-static.zip.sha256) +10",
+    "adjunto con huella (dbx-web_0.6.66_x86_64-browser-static.zip.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "1627 cambios en 30 días +10",
+    "1634 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 7238/8627 +8",
+    "incidencias cerradas 7242/8630 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -675,10 +675,10 @@
    "adjuntos": 68,
    "con_huella": 7,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 1389,
+   "commits_30d": 1390,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 119,
+    "abiertas": 122,
     "cerradas": 672
    },
    "security_md": true,
@@ -690,9 +690,9 @@
     "integración continua con 15 flujo(s) +10",
     "adjunto con huella (dist-shell.tar.gz.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "1389 cambios en 30 días +10",
+    "1390 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 672/791 +8",
+    "incidencias cerradas 672/794 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -711,11 +711,11 @@
    "adjuntos": 113,
    "con_huella": 5,
    "ultima_entrega": "2026-10-31",
-   "commits_30d": 955,
-   "contribuyentes": 50,
+   "commits_30d": 966,
+   "contribuyentes": 51,
    "incidencias": {
-    "abiertas": 82,
-    "cerradas": 283
+    "abiertas": 79,
+    "cerradas": 288
    },
    "security_md": true,
    "scorecard": null,
@@ -726,9 +726,45 @@
     "integración continua con 20 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "955 cambios en 30 días +10",
-    "50 personas empujando +10",
-    "incidencias cerradas 283/365 +8",
+    "966 cambios en 30 días +10",
+    "51 personas empujando +10",
+    "incidencias cerradas 288/367 +8",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "kividbio/kividb",
+   "puntos": 78,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "_benchmark-create.yml",
+    "_benchmark-destroy.yml",
+    "benchmark.yml",
+    "ci.yml",
+    "linux-verification.yml"
+   ],
+   "adjuntos": 105,
+   "con_huella": 5,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 729,
+   "contribuyentes": 16,
+   "incidencias": {
+    "abiertas": 27,
+    "cerradas": 108
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 18,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 12 flujo(s) +10",
+    "adjunto con huella (SHA256SUMS.txt) +10",
+    "entrega en los últimos 30 días +10",
+    "729 cambios en 30 días +10",
+    "16 personas empujando +10",
+    "incidencias cerradas 108/135 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -747,11 +783,11 @@
    "adjuntos": 196,
    "con_huella": 93,
    "ultima_entrega": "2026-10-05",
-   "commits_30d": 626,
+   "commits_30d": 630,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 2950,
-    "cerradas": 13918
+    "abiertas": 2951,
+    "cerradas": 13920
    },
    "security_md": true,
    "scorecard": null,
@@ -762,45 +798,9 @@
     "integración continua con 27 flujo(s) +10",
     "adjunto con huella (servo-aarch64-android.aar.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "626 cambios en 30 días +10",
+    "630 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 13918/16868 +8",
-    "SECURITY.md presente +5",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "kividbio/kividb",
-   "puntos": 78,
-   "licencia": "AGPL-3.0",
-   "flujos_ci": [
-    "_benchmark-create.yml",
-    "_benchmark-destroy.yml",
-    "benchmark.yml",
-    "ci.yml",
-    "linux-verification.yml"
-   ],
-   "adjuntos": 84,
-   "con_huella": 4,
-   "ultima_entrega": "2026-10-31",
-   "commits_30d": 607,
-   "contribuyentes": 12,
-   "incidencias": {
-    "abiertas": 33,
-    "cerradas": 101
-   },
-   "security_md": true,
-   "scorecard": null,
-   "edad_dias": 18,
-   "archivado": false,
-   "notas": [
-    "licencia legible (AGPL-3.0) +15",
-    "integración continua con 12 flujo(s) +10",
-    "adjunto con huella (SHA256SUMS.txt) +10",
-    "entrega en los últimos 30 días +10",
-    "607 cambios en 30 días +10",
-    "12 personas empujando +10",
-    "incidencias cerradas 101/134 +8",
+    "incidencias cerradas 13920/16871 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -819,7 +819,7 @@
    "adjuntos": 42,
    "con_huella": 4,
    "ultima_entrega": "2026-10-08",
-   "commits_30d": 469,
+   "commits_30d": 480,
    "contribuyentes": 14,
    "incidencias": {
     "abiertas": 16,
@@ -834,7 +834,7 @@
     "integración continua con 5 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "469 cambios en 30 días +10",
+    "480 cambios en 30 días +10",
     "14 personas empujando +10",
     "incidencias cerradas 78/94 +8",
     "SECURITY.md presente +5",
@@ -852,13 +852,13 @@
     "docs-main.yml",
     "docs-release.yml"
    ],
-   "adjuntos": 364,
-   "con_huella": 152,
-   "ultima_entrega": "2026-10-30",
-   "commits_30d": 229,
+   "adjuntos": 366,
+   "con_huella": 153,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 231,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 313,
+    "abiertas": 314,
     "cerradas": 1144
    },
    "security_md": true,
@@ -870,9 +870,9 @@
     "integración continua con 7 flujo(s) +10",
     "adjunto con huella (atuin-aarch64-apple-darwin.tar.gz.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "229 cambios en 30 días +10",
+    "231 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1144/1457 +8",
+    "incidencias cerradas 1144/1458 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -928,8 +928,8 @@
    "commits_30d": 161,
    "contribuyentes": 17,
    "incidencias": {
-    "abiertas": 17,
-    "cerradas": 51
+    "abiertas": 16,
+    "cerradas": 52
    },
    "security_md": true,
    "scorecard": null,
@@ -942,7 +942,7 @@
     "entrega en los últimos 30 días +10",
     "161 cambios en 30 días +10",
     "17 personas empujando +10",
-    "incidencias cerradas 51/68 +8",
+    "incidencias cerradas 52/68 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -961,10 +961,10 @@
    "adjuntos": 35,
    "con_huella": 18,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 1427,
+   "commits_30d": 1437,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 92,
+    "abiertas": 95,
     "cerradas": 272
    },
    "security_md": true,
@@ -976,9 +976,9 @@
     "integración continua con 9 flujo(s) +10",
     "adjunto con huella (openGym-1.4.4.apk.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "1427 cambios en 30 días +10",
+    "1437 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 272/364 +7",
+    "incidencias cerradas 272/367 +7",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -997,11 +997,11 @@
    "adjuntos": 30,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 199,
-   "contribuyentes": 20,
+   "commits_30d": 204,
+   "contribuyentes": 21,
    "incidencias": {
-    "abiertas": 189,
-    "cerradas": 376
+    "abiertas": 196,
+    "cerradas": 377
    },
    "security_md": true,
    "scorecard": null,
@@ -1010,11 +1010,11 @@
    "notas": [
     "licencia legible (MPL-2.0) +15",
     "integración continua con 8 flujo(s) +10",
-    "adjunto con huella (Checksum-Crest-0.8.152-development-2026-11-03-85948f3-arm64.dmg.sha256) +10",
+    "adjunto con huella (Checksum-Crest-0.8.153-nightly-2026-11-03-dce2aa9-arm64.dmg.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "199 cambios en 30 días +10",
-    "20 personas empujando +10",
-    "incidencias cerradas 376/565 +7",
+    "204 cambios en 30 días +10",
+    "21 personas empujando +10",
+    "incidencias cerradas 377/573 +7",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -1069,7 +1069,7 @@
    "adjuntos": 1128,
    "con_huella": 720,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 2158,
+   "commits_30d": 2161,
    "contribuyentes": 72,
    "incidencias": {
     "abiertas": 92,
@@ -1084,7 +1084,7 @@
     "integración continua con 11 flujo(s) +10",
     "adjunto con huella (Herdr-20261103.1-aarch64-pc-windows-msvc-setup.exe.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "2158 cambios en 30 días +10",
+    "2161 cambios en 30 días +10",
     "72 personas empujando +10",
     "incidencias cerradas 139/231 +6",
     "SECURITY.md presente +5",
@@ -1160,6 +1160,41 @@
    ]
   },
   {
+   "repo": "metasequoiaime/msime",
+   "puntos": 75,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "android-device.yml",
+    "branch-guard.yml",
+    "build-linux-legacy.yml",
+    "cancel-closed-pr-runs.yml",
+    "cargo-audit.yml"
+   ],
+   "adjuntos": 113,
+   "con_huella": 15,
+   "ultima_entrega": "2026-11-02",
+   "commits_30d": 10752,
+   "contribuyentes": 25,
+   "incidencias": {
+    "abiertas": 40,
+    "cerradas": 810
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 62,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 46 flujo(s) +10",
+    "adjunto con huella (SHA256SUMS-41554246568.1) +10",
+    "entrega en los últimos 30 días +10",
+    "10752 cambios en 30 días +10",
+    "25 personas empujando +10",
+    "incidencias cerradas 810/850 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "storytold/photocraft",
    "puntos": 75,
    "licencia": "Apache-2.0",
@@ -1173,11 +1208,11 @@
    "adjuntos": 293,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 8440,
+   "commits_30d": 8607,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 2593,
-    "cerradas": 2868
+    "abiertas": 2637,
+    "cerradas": 2877
    },
    "security_md": true,
    "scorecard": null,
@@ -1188,9 +1223,9 @@
     "integración continua con 9 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "8440 cambios en 30 días +10",
+    "8607 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 2868/5461 +5",
+    "incidencias cerradas 2877/5514 +5",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -1209,11 +1244,11 @@
    "adjuntos": 281,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 4563,
+   "commits_30d": 4564,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 716,
-    "cerradas": 653
+    "abiertas": 724,
+    "cerradas": 654
    },
    "security_md": true,
    "scorecard": null,
@@ -1224,9 +1259,9 @@
     "integración continua con 7 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "4563 cambios en 30 días +10",
+    "4564 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 653/1369 +5",
+    "incidencias cerradas 654/1378 +5",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -1245,10 +1280,10 @@
    "adjuntos": 220,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 4094,
+   "commits_30d": 4107,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 420,
+    "abiertas": 428,
     "cerradas": 415
    },
    "security_md": true,
@@ -1260,9 +1295,9 @@
     "integración continua con 16 flujo(s) +10",
     "adjunto con huella (SHA256SUMS-ubuntu-x64.txt) +10",
     "entrega en los últimos 30 días +10",
-    "4094 cambios en 30 días +10",
+    "4107 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 415/835 +5",
+    "incidencias cerradas 415/843 +5",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -1280,12 +1315,12 @@
    ],
    "adjuntos": 95,
    "con_huella": 10,
-   "ultima_entrega": "2026-11-02",
+   "ultima_entrega": "2026-11-03",
    "commits_30d": 1543,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 8,
-    "cerradas": 19734
+    "abiertas": 10,
+    "cerradas": 19736
    },
    "security_md": false,
    "scorecard": null,
@@ -1298,7 +1333,7 @@
     "entrega en los últimos 30 días +10",
     "1543 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 19734/19742 +10",
+    "incidencias cerradas 19736/19746 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1316,10 +1351,10 @@
    "adjuntos": 131,
    "con_huella": 8,
    "ultima_entrega": "2026-10-20",
-   "commits_30d": 508,
+   "commits_30d": 541,
    "contribuyentes": 48,
    "incidencias": {
-    "abiertas": 191,
+    "abiertas": 193,
     "cerradas": 223
    },
    "security_md": true,
@@ -1331,9 +1366,9 @@
     "integración continua con 6 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "508 cambios en 30 días +10",
+    "541 cambios en 30 días +10",
     "48 personas empujando +10",
-    "incidencias cerradas 223/414 +5",
+    "incidencias cerradas 223/416 +5",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -1352,11 +1387,11 @@
    "adjuntos": 112,
    "con_huella": 56,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 473,
-   "contribuyentes": 59,
+   "commits_30d": 476,
+   "contribuyentes": 60,
    "incidencias": {
-    "abiertas": 46,
-    "cerradas": 1028
+    "abiertas": 43,
+    "cerradas": 1031
    },
    "security_md": false,
    "scorecard": null,
@@ -1367,9 +1402,9 @@
     "integración continua con 9 flujo(s) +10",
     "adjunto con huella (install.sh.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "473 cambios en 30 días +10",
-    "59 personas empujando +10",
-    "incidencias cerradas 1028/1074 +10",
+    "476 cambios en 30 días +10",
+    "60 personas empujando +10",
+    "incidencias cerradas 1031/1074 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1387,11 +1422,11 @@
    "adjuntos": 40,
    "con_huella": 1,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 288,
+   "commits_30d": 293,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 106,
-    "cerradas": 11168
+    "cerradas": 11169
    },
    "security_md": false,
    "scorecard": null,
@@ -1399,12 +1434,12 @@
    "archivado": false,
    "notas": [
     "licencia legible (Apache-2.0) +15",
-    "integración continua con 42 flujo(s) +10",
+    "integración continua con 41 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "288 cambios en 30 días +10",
+    "293 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 11168/11274 +10",
+    "incidencias cerradas 11169/11275 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1529,8 +1564,8 @@
    "commits_30d": 118,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 117,
-    "cerradas": 4402
+    "abiertas": 121,
+    "cerradas": 4403
    },
    "security_md": false,
    "scorecard": null,
@@ -1543,7 +1578,7 @@
     "entrega en los últimos 30 días +10",
     "118 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 4402/4519 +10",
+    "incidencias cerradas 4403/4524 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1664,11 +1699,11 @@
    "adjuntos": 89,
    "con_huella": 20,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 17539,
+   "commits_30d": 18189,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 396,
-    "cerradas": 2349
+    "abiertas": 349,
+    "cerradas": 2491
    },
    "security_md": false,
    "scorecard": null,
@@ -1679,44 +1714,9 @@
     "integración continua con 20 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "17539 cambios en 30 días +10",
+    "18189 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 2349/2745 +9",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "metasequoiaime/msime",
-   "puntos": 74,
-   "licencia": "GPL-3.0",
-   "flujos_ci": [
-    "android-device.yml",
-    "branch-guard.yml",
-    "build-linux-legacy.yml",
-    "cancel-closed-pr-runs.yml",
-    "cargo-audit.yml"
-   ],
-   "adjuntos": 113,
-   "con_huella": 15,
-   "ultima_entrega": "2026-11-02",
-   "commits_30d": 10751,
-   "contribuyentes": 25,
-   "incidencias": {
-    "abiertas": 43,
-    "cerradas": 802
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 62,
-   "archivado": false,
-   "notas": [
-    "licencia legible (GPL-3.0) +15",
-    "integración continua con 46 flujo(s) +10",
-    "adjunto con huella (SHA256SUMS-41554246568.1) +10",
-    "entrega en los últimos 30 días +10",
-    "10751 cambios en 30 días +10",
-    "25 personas empujando +10",
-    "incidencias cerradas 802/845 +9",
+    "incidencias cerradas 2491/2840 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1737,8 +1737,8 @@
    "commits_30d": 3165,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 1157,
-    "cerradas": 785
+    "abiertas": 1164,
+    "cerradas": 786
    },
    "security_md": true,
    "scorecard": null,
@@ -1751,7 +1751,7 @@
     "entrega en los últimos 30 días +10",
     "3165 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 785/1942 +4",
+    "incidencias cerradas 786/1950 +4",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -1803,7 +1803,7 @@
    "adjuntos": 34,
    "con_huella": 8,
    "ultima_entrega": "2026-10-27",
-   "commits_30d": 1506,
+   "commits_30d": 1508,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 157,
@@ -1818,7 +1818,7 @@
     "integración continua con 17 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "1506 cambios en 30 días +10",
+    "1508 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 913/1070 +9",
     "sin Scorecard en deps.dev +0"
@@ -1835,13 +1835,13 @@
     "packaging.yml",
     "release.yml"
    ],
-   "adjuntos": 216,
+   "adjuntos": 217,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 437,
+   "commits_30d": 446,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 85,
+    "abiertas": 89,
     "cerradas": 520
    },
    "security_md": false,
@@ -1853,9 +1853,9 @@
     "integración continua con 8 flujo(s) +10",
     "adjunto con huella (checksums.txt.sig) +10",
     "entrega en los últimos 30 días +10",
-    "437 cambios en 30 días +10",
+    "446 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 520/605 +9",
+    "incidencias cerradas 520/609 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2038,14 +2038,14 @@
     "external-corpus.yml",
     "fillet-rig.yml"
    ],
-   "adjuntos": 478,
+   "adjuntos": 482,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 4439,
+   "commits_30d": 4465,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 4594,
-    "cerradas": 2270
+    "abiertas": 4668,
+    "cerradas": 2291
    },
    "security_md": true,
    "scorecard": null,
@@ -2056,9 +2056,9 @@
     "integración continua con 19 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "4439 cambios en 30 días +10",
+    "4465 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 2270/6864 +3",
+    "incidencias cerradas 2291/6959 +3",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -2077,11 +2077,11 @@
    "adjuntos": 400,
    "con_huella": 180,
    "ultima_entrega": "2026-10-27",
-   "commits_30d": 432,
+   "commits_30d": 446,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 1733,
-    "cerradas": 6696
+    "abiertas": 1732,
+    "cerradas": 6699
    },
    "security_md": false,
    "scorecard": null,
@@ -2092,9 +2092,9 @@
     "integración continua con 26 flujo(s) +10",
     "adjunto con huella (ruff-aarch64-apple-darwin.tar.gz.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "432 cambios en 30 días +10",
+    "446 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 6696/8429 +8",
+    "incidencias cerradas 6699/8431 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2111,11 +2111,11 @@
    ],
    "adjuntos": 198,
    "con_huella": 10,
-   "ultima_entrega": "2026-11-01",
-   "commits_30d": 408,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 412,
    "contribuyentes": 90,
    "incidencias": {
-    "abiertas": 62,
+    "abiertas": 66,
     "cerradas": 325
    },
    "security_md": false,
@@ -2127,9 +2127,9 @@
     "integración continua con 8 flujo(s) +10",
     "adjunto con huella (checksums.txt.sig) +10",
     "entrega en los últimos 30 días +10",
-    "408 cambios en 30 días +10",
+    "412 cambios en 30 días +10",
     "90 personas empujando +10",
-    "incidencias cerradas 325/387 +8",
+    "incidencias cerradas 325/391 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2249,11 +2249,11 @@
    "adjuntos": 298,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 2987,
+   "commits_30d": 2988,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 180,
-    "cerradas": 459
+    "abiertas": 183,
+    "cerradas": 460
    },
    "security_md": false,
    "scorecard": null,
@@ -2264,9 +2264,42 @@
     "integración continua con 7 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "2987 cambios en 30 días +10",
+    "2988 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 459/639 +7",
+    "incidencias cerradas 460/643 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "l0ng-ai/openidea",
+   "puntos": 72,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "ci.yml",
+    "pr-check.yml",
+    "release.yml"
+   ],
+   "adjuntos": 290,
+   "con_huella": 130,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 670,
+   "contribuyentes": 52,
+   "incidencias": {
+    "abiertas": 150,
+    "cerradas": 331
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 13,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjunto con huella (OpenIDEA-0.1.35-1.aarch64.rpm.sig) +10",
+    "entrega en los últimos 30 días +10",
+    "670 cambios en 30 días +10",
+    "52 personas empujando +10",
+    "incidencias cerradas 331/481 +7",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2323,7 +2356,7 @@
    "commits_30d": 192,
    "contribuyentes": 12,
    "incidencias": {
-    "abiertas": 57,
+    "abiertas": 58,
     "cerradas": 121
    },
    "security_md": false,
@@ -2337,7 +2370,7 @@
     "entrega en los últimos 30 días +10",
     "192 cambios en 30 días +10",
     "12 personas empujando +10",
-    "incidencias cerradas 121/178 +7",
+    "incidencias cerradas 121/179 +7",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2419,11 +2452,11 @@
    "adjuntos": 115,
    "con_huella": 10,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 8479,
+   "commits_30d": 8704,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 2653,
-    "cerradas": 4253
+    "cerradas": 4260
    },
    "security_md": false,
    "scorecard": null,
@@ -2434,9 +2467,9 @@
     "integración continua con 3 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "8479 cambios en 30 días +10",
+    "8704 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 4253/6906 +6",
+    "incidencias cerradas 4260/6913 +6",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2454,11 +2487,11 @@
    "adjuntos": 279,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 7729,
+   "commits_30d": 7781,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 799,
-    "cerradas": 1017
+    "abiertas": 801,
+    "cerradas": 1020
    },
    "security_md": false,
    "scorecard": null,
@@ -2469,9 +2502,9 @@
     "integración continua con 9 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "7729 cambios en 30 días +10",
+    "7781 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1017/1816 +6",
+    "incidencias cerradas 1020/1821 +6",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2523,7 +2556,7 @@
    "adjuntos": 140,
    "con_huella": 30,
    "ultima_entrega": "2026-10-29",
-   "commits_30d": 1823,
+   "commits_30d": 1828,
    "contribuyentes": 32,
    "incidencias": {
     "abiertas": 122,
@@ -2538,7 +2571,7 @@
     "integración continua con 13 flujo(s) +10",
     "adjunto con huella (nanoMuse-1.0.9-arm64.apk.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "1823 cambios en 30 días +10",
+    "1828 cambios en 30 días +10",
     "32 personas empujando +10",
     "incidencias cerradas 21/143 +1",
     "SECURITY.md presente +5",
@@ -2558,11 +2591,11 @@
    "adjuntos": 20,
    "con_huella": 5,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 712,
-   "contribuyentes": 13,
+   "commits_30d": 740,
+   "contribuyentes": 14,
    "incidencias": {
-    "abiertas": 42,
-    "cerradas": 68
+    "abiertas": 41,
+    "cerradas": 69
    },
    "security_md": false,
    "scorecard": null,
@@ -2573,42 +2606,9 @@
     "integración continua con 4 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "712 cambios en 30 días +10",
-    "13 personas empujando +10",
-    "incidencias cerradas 68/110 +6",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "l0ng-ai/openidea",
-   "puntos": 71,
-   "licencia": "Apache-2.0",
-   "flujos_ci": [
-    "ci.yml",
-    "pr-check.yml",
-    "release.yml"
-   ],
-   "adjuntos": 290,
-   "con_huella": 130,
-   "ultima_entrega": "2026-11-03",
-   "commits_30d": 628,
-   "contribuyentes": 47,
-   "incidencias": {
-    "abiertas": 181,
-    "cerradas": 284
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 13,
-   "archivado": false,
-   "notas": [
-    "licencia legible (Apache-2.0) +15",
-    "integración continua con 3 flujo(s) +10",
-    "adjunto con huella (OpenIDEA-0.1.35-1.aarch64.rpm.sig) +10",
-    "entrega en los últimos 30 días +10",
-    "628 cambios en 30 días +10",
-    "47 personas empujando +10",
-    "incidencias cerradas 284/465 +6",
+    "740 cambios en 30 días +10",
+    "14 personas empujando +10",
+    "incidencias cerradas 69/110 +6",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2623,11 +2623,11 @@
    "adjuntos": 50,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 482,
+   "commits_30d": 490,
    "contribuyentes": 37,
    "incidencias": {
-    "abiertas": 163,
-    "cerradas": 211
+    "abiertas": 157,
+    "cerradas": 223
    },
    "security_md": false,
    "scorecard": null,
@@ -2638,9 +2638,44 @@
     "integración continua con 2 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "482 cambios en 30 días +10",
+    "490 cambios en 30 días +10",
     "37 personas empujando +10",
-    "incidencias cerradas 211/374 +6",
+    "incidencias cerradas 223/380 +6",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "AprilNEA/OpenLogi",
+   "puntos": 71,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "build.yml",
+    "ci.yml",
+    "crowdin.yml",
+    "devenv.yml",
+    "nix.yml"
+   ],
+   "adjuntos": 294,
+   "con_huella": 10,
+   "ultima_entrega": "2026-11-01",
+   "commits_30d": 435,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 379,
+    "cerradas": 468
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 163,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 10 flujo(s) +10",
+    "adjunto con huella (SHA256SUMS) +10",
+    "entrega en los últimos 30 días +10",
+    "435 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 468/847 +6",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2849,6 +2884,41 @@
    ]
   },
   {
+   "repo": "storytold/designcraft",
+   "puntos": 70,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "ci.yml",
+    "freebsd.yml",
+    "nix.yml",
+    "packaging-lint.yml",
+    "release.yml"
+   ],
+   "adjuntos": 282,
+   "con_huella": 10,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 4430,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 467,
+    "cerradas": 388
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 33,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 7 flujo(s) +10",
+    "adjunto con huella (SHA256SUMS.txt) +10",
+    "entrega en los últimos 30 días +10",
+    "4430 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 388/855 +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "storytold/effectcraft",
    "puntos": 70,
    "licencia": "Apache-2.0",
@@ -2862,11 +2932,11 @@
    "adjuntos": 281,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 3777,
+   "commits_30d": 3783,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 683,
-    "cerradas": 776
+    "abiertas": 692,
+    "cerradas": 778
    },
    "security_md": false,
    "scorecard": null,
@@ -2877,9 +2947,9 @@
     "integración continua con 7 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "3777 cambios en 30 días +10",
+    "3783 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 776/1459 +5",
+    "incidencias cerradas 778/1470 +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2934,7 +3004,7 @@
    "commits_30d": 1350,
    "contribuyentes": 6,
    "incidencias": {
-    "abiertas": 25,
+    "abiertas": 27,
     "cerradas": 131
    },
    "security_md": false,
@@ -2948,7 +3018,7 @@
     "entrega en los últimos 30 días +10",
     "1350 cambios en 30 días +10",
     "6 personas empujando +7",
-    "incidencias cerradas 131/156 +8",
+    "incidencias cerradas 131/158 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2966,7 +3036,7 @@
    "adjuntos": 6,
    "con_huella": 0,
    "ultima_entrega": "2026-10-30",
-   "commits_30d": 691,
+   "commits_30d": 744,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 17,
@@ -2981,7 +3051,7 @@
     "integración continua con 7 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "691 cambios en 30 días +10",
+    "744 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 2238/2255 +10",
     "SECURITY.md presente +5",
@@ -3020,41 +3090,6 @@
     "674 cambios en 30 días +10",
     "9 personas empujando +7",
     "incidencias cerradas 42/50 +8",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "AprilNEA/OpenLogi",
-   "puntos": 70,
-   "licencia": "Apache-2.0",
-   "flujos_ci": [
-    "build.yml",
-    "ci.yml",
-    "crowdin.yml",
-    "devenv.yml",
-    "nix.yml"
-   ],
-   "adjuntos": 294,
-   "con_huella": 10,
-   "ultima_entrega": "2026-11-01",
-   "commits_30d": 417,
-   "contribuyentes": 100,
-   "incidencias": {
-    "abiertas": 377,
-    "cerradas": 458
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 163,
-   "archivado": false,
-   "notas": [
-    "licencia legible (Apache-2.0) +15",
-    "integración continua con 10 flujo(s) +10",
-    "adjunto con huella (SHA256SUMS) +10",
-    "entrega en los últimos 30 días +10",
-    "417 cambios en 30 días +10",
-    "100 personas empujando +10",
-    "incidencias cerradas 458/835 +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -3180,11 +3215,11 @@
    "adjuntos": 50,
    "con_huella": 20,
    "ultima_entrega": "2026-09-10",
-   "commits_30d": 189,
+   "commits_30d": 192,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 55,
-    "cerradas": 1472
+    "abiertas": 54,
+    "cerradas": 1473
    },
    "security_md": true,
    "scorecard": null,
@@ -3195,9 +3230,9 @@
     "integración continua con 9 flujo(s) +10",
     "adjunto con huella (firecracker-v1.17.0-aarch64.tgz.sha256.txt) +10",
     "sin entrega reciente +0",
-    "189 cambios en 30 días +10",
+    "192 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1472/1527 +10",
+    "incidencias cerradas 1473/1527 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -3219,7 +3254,7 @@
    "commits_30d": 129,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 6,
+    "abiertas": 7,
     "cerradas": 2269
    },
    "security_md": true,
@@ -3233,7 +3268,7 @@
     "entrega en los últimos 30 días +10",
     "129 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 2269/2275 +10",
+    "incidencias cerradas 2269/2276 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -3341,41 +3376,6 @@
    ]
   },
   {
-   "repo": "storytold/designcraft",
-   "puntos": 69,
-   "licencia": "Apache-2.0",
-   "flujos_ci": [
-    "ci.yml",
-    "freebsd.yml",
-    "nix.yml",
-    "packaging-lint.yml",
-    "release.yml"
-   ],
-   "adjuntos": 282,
-   "con_huella": 10,
-   "ultima_entrega": "2026-11-03",
-   "commits_30d": 4340,
-   "contribuyentes": 100,
-   "incidencias": {
-    "abiertas": 471,
-    "cerradas": 379
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 33,
-   "archivado": false,
-   "notas": [
-    "licencia legible (Apache-2.0) +15",
-    "integración continua con 7 flujo(s) +10",
-    "adjunto con huella (SHA256SUMS.txt) +10",
-    "entrega en los últimos 30 días +10",
-    "4340 cambios en 30 días +10",
-    "100 personas empujando +10",
-    "incidencias cerradas 379/850 +4",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
    "repo": "storytold/pdfcraft",
    "puntos": 69,
    "licencia": "Apache-2.0",
@@ -3389,11 +3389,11 @@
    "adjuntos": 301,
    "con_huella": 10,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 4014,
+   "commits_30d": 4016,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 1650,
-    "cerradas": 1032
+    "abiertas": 1670,
+    "cerradas": 1035
    },
    "security_md": false,
    "scorecard": null,
@@ -3404,9 +3404,9 @@
     "integración continua con 8 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "4014 cambios en 30 días +10",
+    "4016 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1032/2682 +4",
+    "incidencias cerradas 1035/2705 +4",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -3424,7 +3424,7 @@
    "adjuntos": 177,
    "con_huella": 0,
    "ultima_entrega": "2026-10-23",
-   "commits_30d": 3495,
+   "commits_30d": 3497,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 570,
@@ -3439,7 +3439,7 @@
     "integración continua con 22 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "3495 cambios en 30 días +10",
+    "3497 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 5222/5792 +9",
     "SECURITY.md presente +5",
@@ -3571,7 +3571,7 @@
    "commits_30d": 125,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 383,
+    "abiertas": 386,
     "cerradas": 4030
    },
    "security_md": true,
@@ -3585,7 +3585,7 @@
     "entrega en los últimos 30 días +10",
     "125 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 4030/4413 +9",
+    "incidencias cerradas 4030/4416 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -3607,7 +3607,7 @@
    "commits_30d": 115,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 738,
+    "abiertas": 739,
     "cerradas": 4325
    },
    "security_md": true,
@@ -3621,7 +3621,7 @@
     "entrega en los últimos 30 días +10",
     "115 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 4325/5063 +9",
+    "incidencias cerradas 4325/5064 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -3676,7 +3676,7 @@
    "adjuntos": 614,
    "con_huella": 40,
    "ultima_entrega": "2026-10-30",
-   "commits_30d": 4118,
+   "commits_30d": 4120,
    "contribuyentes": 19,
    "incidencias": {
     "abiertas": 460,
@@ -3691,7 +3691,7 @@
     "integración continua con 22 flujo(s) +10",
     "adjunto con huella (blaze-v0.20261030.1-aarch64-apple-darwin.tar.gz.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "4118 cambios en 30 días +10",
+    "4120 cambios en 30 días +10",
     "19 personas empujando +10",
     "incidencias cerradas 211/671 +3",
     "sin Scorecard en deps.dev +0"
@@ -3708,10 +3708,10 @@
     "star-history.yml",
     "test.yml"
    ],
-   "adjuntos": 131,
+   "adjuntos": 135,
    "con_huella": 10,
-   "ultima_entrega": "2026-11-01",
-   "commits_30d": 1974,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 2050,
    "contribuyentes": 9,
    "incidencias": {
     "abiertas": 105,
@@ -3726,7 +3726,7 @@
     "integración continua con 6 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "1974 cambios en 30 días +10",
+    "2050 cambios en 30 días +10",
     "9 personas empujando +7",
     "incidencias cerradas 8/113 +1",
     "SECURITY.md presente +5",
@@ -3747,11 +3747,11 @@
    "adjuntos": 82,
    "con_huella": 0,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 1114,
+   "commits_30d": 1139,
    "contribuyentes": 23,
    "incidencias": {
-    "abiertas": 94,
-    "cerradas": 316
+    "abiertas": 104,
+    "cerradas": 336
    },
    "security_md": true,
    "scorecard": null,
@@ -3762,9 +3762,9 @@
     "integración continua con 16 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "1114 cambios en 30 días +10",
+    "1139 cambios en 30 días +10",
     "23 personas empujando +10",
-    "incidencias cerradas 316/410 +8",
+    "incidencias cerradas 336/440 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -3784,7 +3784,7 @@
    "commits_30d": 287,
    "contribuyentes": 93,
    "incidencias": {
-    "abiertas": 120,
+    "abiertas": 121,
     "cerradas": 488
    },
    "security_md": true,
@@ -3798,7 +3798,7 @@
     "entrega en los últimos 30 días +10",
     "287 cambios en 30 días +10",
     "93 personas empujando +10",
-    "incidencias cerradas 488/608 +8",
+    "incidencias cerradas 488/609 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -3856,7 +3856,7 @@
    "commits_30d": 99,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 253,
+    "abiertas": 255,
     "cerradas": 1183
    },
    "security_md": true,
@@ -3870,7 +3870,7 @@
     "entrega en los últimos 30 días +10",
     "99 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1183/1436 +8",
+    "incidencias cerradas 1183/1438 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -4199,7 +4199,7 @@
    "commits_30d": 116,
    "contribuyentes": 3,
    "incidencias": {
-    "abiertas": 20,
+    "abiertas": 21,
     "cerradas": 49
    },
    "security_md": false,
@@ -4213,7 +4213,42 @@
     "entrega en los últimos 30 días +10",
     "116 cambios en 30 días +10",
     "3 personas empujando +4",
-    "incidencias cerradas 49/69 +7",
+    "incidencias cerradas 49/70 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "net-merge/net-merge",
+   "puntos": 66,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "ci.yml",
+    "release-aliases.yml",
+    "release.yml",
+    "verify-repos.yml"
+   ],
+   "adjuntos": 422,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-28",
+   "commits_30d": 62,
+   "contribuyentes": 7,
+   "incidencias": {
+    "abiertas": 3,
+    "cerradas": 20
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 22,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 4 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "62 cambios en 30 días +10",
+    "7 personas empujando +7",
+    "incidencias cerradas 20/23 +9",
+    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4234,7 +4269,7 @@
    "commits_30d": 6906,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 2041,
+    "abiertas": 2048,
     "cerradas": 1767
    },
    "security_md": true,
@@ -4248,7 +4283,7 @@
     "entrega en los últimos 30 días +10",
     "6906 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1767/3808 +5",
+    "incidencias cerradas 1767/3815 +5",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -4267,11 +4302,11 @@
    "adjuntos": 80,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 3307,
+   "commits_30d": 3310,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 140,
-    "cerradas": 4971
+    "abiertas": 143,
+    "cerradas": 4972
    },
    "security_md": false,
    "scorecard": null,
@@ -4282,9 +4317,9 @@
     "integración continua con 64 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "3307 cambios en 30 días +10",
+    "3310 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 4971/5111 +10",
+    "incidencias cerradas 4972/5115 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4302,11 +4337,11 @@
    "adjuntos": 50,
    "con_huella": 0,
    "ultima_entrega": "2026-10-27",
-   "commits_30d": 519,
+   "commits_30d": 526,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 736,
-    "cerradas": 27279
+    "abiertas": 738,
+    "cerradas": 27280
    },
    "security_md": false,
    "scorecard": null,
@@ -4317,9 +4352,9 @@
     "integración continua con 36 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "519 cambios en 30 días +10",
+    "526 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 27279/28015 +10",
+    "incidencias cerradas 27280/28018 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4389,6 +4424,37 @@
     "1 personas empujando +0",
     "incidencias cerradas 9/19 +5",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "InlitX/GymMane",
+   "puntos": 65,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build-apk.yml"
+   ],
+   "adjuntos": 30,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 241,
+   "contribuyentes": 12,
+   "incidencias": {
+    "abiertas": 10,
+    "cerradas": 260
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 90,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "241 cambios en 30 días +10",
+    "12 personas empujando +10",
+    "incidencias cerradas 260/270 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4541,7 +4607,7 @@
    "adjuntos": 26,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 123,
+   "commits_30d": 126,
    "contribuyentes": 11,
    "incidencias": {
     "abiertas": 21,
@@ -4556,7 +4622,7 @@
     "integración continua con 3 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "123 cambios en 30 días +10",
+    "126 cambios en 30 días +10",
     "11 personas empujando +10",
     "incidencias cerradas 820/841 +10",
     "sin Scorecard en deps.dev +0"
@@ -4580,7 +4646,7 @@
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 206,
-    "cerradas": 4513
+    "cerradas": 4514
    },
    "security_md": false,
    "scorecard": null,
@@ -4593,42 +4659,7 @@
     "sin entrega reciente +0",
     "101 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 4513/4719 +10",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "net-merge/net-merge",
-   "puntos": 65,
-   "licencia": "MIT",
-   "flujos_ci": [
-    "ci.yml",
-    "release-aliases.yml",
-    "release.yml",
-    "verify-repos.yml"
-   ],
-   "adjuntos": 422,
-   "con_huella": 0,
-   "ultima_entrega": "2026-10-28",
-   "commits_30d": 62,
-   "contribuyentes": 7,
-   "incidencias": {
-    "abiertas": 5,
-    "cerradas": 17
-   },
-   "security_md": true,
-   "scorecard": null,
-   "edad_dias": 22,
-   "archivado": false,
-   "notas": [
-    "licencia legible (MIT) +15",
-    "integración continua con 4 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "62 cambios en 30 días +10",
-    "7 personas empujando +7",
-    "incidencias cerradas 17/22 +8",
-    "SECURITY.md presente +5",
+    "incidencias cerradas 4514/4720 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4646,11 +4677,11 @@
    "adjuntos": 270,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 18,
+   "commits_30d": 19,
    "contribuyentes": 94,
    "incidencias": {
     "abiertas": 1147,
-    "cerradas": 4988
+    "cerradas": 4990
    },
    "security_md": true,
    "scorecard": null,
@@ -4661,9 +4692,9 @@
     "integración continua con 6 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "18 cambios en 30 días +7",
+    "19 cambios en 30 días +7",
     "94 personas empujando +10",
-    "incidencias cerradas 4988/6135 +8",
+    "incidencias cerradas 4990/6137 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -4682,11 +4713,11 @@
    "adjuntos": 120,
    "con_huella": 0,
    "ultima_entrega": "2026-10-28",
-   "commits_30d": 836,
+   "commits_30d": 856,
    "contribuyentes": 17,
    "incidencias": {
-    "abiertas": 61,
-    "cerradas": 516
+    "abiertas": 47,
+    "cerradas": 530
    },
    "security_md": false,
    "scorecard": null,
@@ -4697,9 +4728,9 @@
     "integración continua con 5 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "836 cambios en 30 días +10",
+    "856 cambios en 30 días +10",
     "17 personas empujando +10",
-    "incidencias cerradas 516/577 +9",
+    "incidencias cerradas 530/577 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4755,7 +4786,7 @@
    "commits_30d": 332,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 396,
+    "abiertas": 397,
     "cerradas": 3693
    },
    "security_md": true,
@@ -4769,7 +4800,7 @@
     "entrega en los últimos 30 días +10",
     "332 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 3693/4089 +9",
+    "incidencias cerradas 3693/4090 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -4842,37 +4873,6 @@
    ]
   },
   {
-   "repo": "InlitX/GymMane",
-   "puntos": 64,
-   "licencia": "GPL-3.0",
-   "flujos_ci": [
-    "build-apk.yml"
-   ],
-   "adjuntos": 31,
-   "con_huella": 0,
-   "ultima_entrega": "2026-11-01",
-   "commits_30d": 219,
-   "contribuyentes": 12,
-   "incidencias": {
-    "abiertas": 14,
-    "cerradas": 254
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 90,
-   "archivado": false,
-   "notas": [
-    "licencia legible (GPL-3.0) +15",
-    "integración continua con 1 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "219 cambios en 30 días +10",
-    "12 personas empujando +10",
-    "incidencias cerradas 254/268 +9",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
    "repo": "arnegiacomo/fugleramme",
    "puntos": 64,
    "licencia": "MIT",
@@ -4885,12 +4885,12 @@
    ],
    "adjuntos": 9,
    "con_huella": 0,
-   "ultima_entrega": "2026-10-29",
-   "commits_30d": 168,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 177,
    "contribuyentes": 36,
    "incidencias": {
     "abiertas": 9,
-    "cerradas": 81
+    "cerradas": 83
    },
    "security_md": false,
    "scorecard": null,
@@ -4901,9 +4901,9 @@
     "integración continua con 6 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "168 cambios en 30 días +10",
+    "177 cambios en 30 días +10",
     "36 personas empujando +10",
-    "incidencias cerradas 81/90 +9",
+    "incidencias cerradas 83/92 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4952,11 +4952,11 @@
    "adjuntos": 200,
    "con_huella": 10,
    "ultima_entrega": "2026-10-28",
-   "commits_30d": 130,
+   "commits_30d": 133,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 645,
-    "cerradas": 7894
+    "abiertas": 644,
+    "cerradas": 7895
    },
    "security_md": true,
    "scorecard": null,
@@ -4967,9 +4967,9 @@
     "integración continua con 11 flujo(s) +10",
     "adjunto con huella (Joplin-3.7.22.AppImage.sha512) +10",
     "entrega en los últimos 30 días +10",
-    "130 cambios en 30 días +10",
+    "133 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 7894/8539 +9",
+    "incidencias cerradas 7895/8539 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -4990,7 +4990,7 @@
    "commits_30d": 95,
    "contribuyentes": 1,
    "incidencias": {
-    "abiertas": 9,
+    "abiertas": 10,
     "cerradas": 71
    },
    "security_md": false,
@@ -5004,7 +5004,7 @@
     "entrega en los últimos 30 días +10",
     "95 cambios en 30 días +10",
     "1 personas empujando +0",
-    "incidencias cerradas 71/80 +9",
+    "incidencias cerradas 71/81 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5025,8 +5025,8 @@
    "commits_30d": 82,
    "contribuyentes": 89,
    "incidencias": {
-    "abiertas": 394,
-    "cerradas": 2401
+    "abiertas": 397,
+    "cerradas": 2403
    },
    "security_md": false,
    "scorecard": null,
@@ -5039,7 +5039,7 @@
     "entrega en los últimos 30 días +10",
     "82 cambios en 30 días +10",
     "89 personas empujando +10",
-    "incidencias cerradas 2401/2795 +9",
+    "incidencias cerradas 2403/2800 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5092,7 +5092,7 @@
    "commits_30d": 31,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 806,
+    "abiertas": 808,
     "cerradas": 9209
    },
    "security_md": true,
@@ -5106,8 +5106,43 @@
     "entrega en los últimos 30 días +10",
     "31 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 9209/10015 +9",
+    "incidencias cerradas 9209/10017 +9",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "puntos": 63,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "build-book.yml",
+    "cheatsheets-generate.yml",
+    "cheatsheets.yml",
+    "curriculum.yml",
+    "interviews.yml"
+   ],
+   "adjuntos": 153,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 837,
+   "contribuyentes": 30,
+   "incidencias": {
+    "abiertas": 24,
+    "cerradas": 102
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 230,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 10 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "837 cambios en 30 días +10",
+    "30 personas empujando +10",
+    "incidencias cerradas 102/126 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5128,8 +5163,8 @@
    "commits_30d": 820,
    "contribuyentes": 1,
    "incidencias": {
-    "abiertas": 4422,
-    "cerradas": 1649
+    "abiertas": 4540,
+    "cerradas": 1712
    },
    "security_md": true,
    "scorecard": null,
@@ -5138,47 +5173,12 @@
    "notas": [
     "licencia legible (MIT) +15",
     "integración continua con 5 flujo(s) +10",
-    "adjunto con huella (cleanyourtv-0.4.9-beta1.apk.sha256) +10",
+    "adjunto con huella (cleanyourtv-0.5.0-beta1.apk.sha256) +10",
     "entrega en los últimos 30 días +10",
     "820 cambios en 30 días +10",
     "1 personas empujando +0",
-    "incidencias cerradas 1649/6071 +3",
+    "incidencias cerradas 1712/6252 +3",
     "SECURITY.md presente +5",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "rohitg00/ai-engineering-from-scratch",
-   "puntos": 63,
-   "licencia": "MIT",
-   "flujos_ci": [
-    "build-book.yml",
-    "cheatsheets-generate.yml",
-    "cheatsheets.yml",
-    "curriculum.yml",
-    "interviews.yml"
-   ],
-   "adjuntos": 133,
-   "con_huella": 0,
-   "ultima_entrega": "2026-10-29",
-   "commits_30d": 818,
-   "contribuyentes": 30,
-   "incidencias": {
-    "abiertas": 24,
-    "cerradas": 102
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 230,
-   "archivado": false,
-   "notas": [
-    "licencia legible (MIT) +15",
-    "integración continua con 10 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "818 cambios en 30 días +10",
-    "30 personas empujando +10",
-    "incidencias cerradas 102/126 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5228,7 +5228,7 @@
    "adjuntos": 10,
    "con_huella": 0,
    "ultima_entrega": "2026-10-29",
-   "commits_30d": 336,
+   "commits_30d": 339,
    "contribuyentes": 10,
    "incidencias": {
     "abiertas": 19,
@@ -5243,7 +5243,7 @@
     "integración continua con 4 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "336 cambios en 30 días +10",
+    "339 cambios en 30 días +10",
     "10 personas empujando +10",
     "incidencias cerradas 59/78 +8",
     "sin Scorecard en deps.dev +0"
@@ -5263,10 +5263,10 @@
    "adjuntos": 332,
    "con_huella": 10,
    "ultima_entrega": "2026-10-22",
-   "commits_30d": 279,
+   "commits_30d": 281,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 3674,
+    "abiertas": 3676,
     "cerradas": 15466
    },
    "security_md": true,
@@ -5278,9 +5278,9 @@
     "integración continua con 27 flujo(s) +10",
     "adjunto con huella (SHASUMS256.txt.asc) +10",
     "entrega en los últimos 30 días +10",
-    "279 cambios en 30 días +10",
+    "281 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 15466/19140 +8",
+    "incidencias cerradas 15466/19142 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -5473,7 +5473,7 @@
    "commits_30d": 49,
    "contribuyentes": 68,
    "incidencias": {
-    "abiertas": 601,
+    "abiertas": 603,
     "cerradas": 1607
    },
    "security_md": false,
@@ -5487,7 +5487,7 @@
     "entrega en los últimos 30 días +10",
     "49 cambios en 30 días +10",
     "68 personas empujando +10",
-    "incidencias cerradas 1607/2208 +7",
+    "incidencias cerradas 1607/2210 +7",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5638,10 +5638,10 @@
    "adjuntos": 62,
    "con_huella": 0,
    "ultima_entrega": "2026-10-29",
-   "commits_30d": 323,
+   "commits_30d": 324,
    "contribuyentes": 18,
    "incidencias": {
-    "abiertas": 27,
+    "abiertas": 30,
     "cerradas": 45
    },
    "security_md": false,
@@ -5653,9 +5653,9 @@
     "integración continua con 5 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "323 cambios en 30 días +10",
+    "324 cambios en 30 días +10",
     "18 personas empujando +10",
-    "incidencias cerradas 45/72 +6",
+    "incidencias cerradas 45/75 +6",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5675,7 +5675,7 @@
    "commits_30d": 67,
    "contribuyentes": 1,
    "incidencias": {
-    "abiertas": 18,
+    "abiertas": 19,
     "cerradas": 30
    },
    "security_md": false,
@@ -5689,7 +5689,7 @@
     "entrega en los últimos 30 días +10",
     "67 cambios en 30 días +10",
     "1 personas empujando +0",
-    "incidencias cerradas 30/48 +6",
+    "incidencias cerradas 30/49 +6",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5907,7 +5907,7 @@
    "adjuntos": 80,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 1314,
+   "commits_30d": 1316,
    "contribuyentes": 24,
    "incidencias": {
     "abiertas": 37,
@@ -5922,7 +5922,7 @@
     "integración continua con 7 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "1314 cambios en 30 días +10",
+    "1316 cambios en 30 días +10",
     "24 personas empujando +10",
     "incidencias cerradas 35/72 +5",
     "sin Scorecard en deps.dev +0"
@@ -5942,11 +5942,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 995,
+   "commits_30d": 1072,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 205,
-    "cerradas": 4079
+    "abiertas": 131,
+    "cerradas": 4155
    },
    "security_md": true,
    "scorecard": null,
@@ -5957,9 +5957,9 @@
     "integración continua con 13 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "995 cambios en 30 días +10",
+    "1072 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 4079/4284 +10",
+    "incidencias cerradas 4155/4286 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -5977,12 +5977,12 @@
    ],
    "adjuntos": 0,
    "con_huella": 0,
-   "ultima_entrega": "2026-10-31",
-   "commits_30d": 936,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 950,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 339,
-    "cerradas": 19709
+    "cerradas": 19712
    },
    "security_md": true,
    "scorecard": null,
@@ -5993,9 +5993,9 @@
     "integración continua con 55 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "936 cambios en 30 días +10",
+    "950 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 19709/20048 +10",
+    "incidencias cerradas 19712/20051 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6017,8 +6017,8 @@
    "commits_30d": 563,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 4,
-    "cerradas": 4307
+    "abiertas": 5,
+    "cerradas": 4309
    },
    "security_md": true,
    "scorecard": null,
@@ -6031,7 +6031,7 @@
     "entrega en los últimos 30 días +10",
     "563 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 4307/4311 +10",
+    "incidencias cerradas 4309/4314 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6081,7 +6081,7 @@
    "commits_30d": 118,
    "contribuyentes": 12,
    "incidencias": {
-    "abiertas": 53,
+    "abiertas": 52,
     "cerradas": 52
    },
    "security_md": false,
@@ -6095,7 +6095,7 @@
     "entrega en los últimos 30 días +10",
     "118 cambios en 30 días +10",
     "12 personas empujando +10",
-    "incidencias cerradas 52/105 +5",
+    "incidencias cerradas 52/104 +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -6289,11 +6289,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 4932,
+   "commits_30d": 4963,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 288,
-    "cerradas": 4432
+    "cerradas": 4433
    },
    "security_md": true,
    "scorecard": null,
@@ -6304,9 +6304,9 @@
     "integración continua con 27 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "4932 cambios en 30 días +10",
+    "4963 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 4432/4720 +9",
+    "incidencias cerradas 4433/4721 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6431,7 +6431,7 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-10-21",
-   "commits_30d": 98,
+   "commits_30d": 99,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 309,
@@ -6446,7 +6446,7 @@
     "integración continua con 7 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "98 cambios en 30 días +10",
+    "99 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 2435/2744 +9",
     "SECURITY.md presente +5",
@@ -6470,8 +6470,8 @@
    "commits_30d": 81,
    "contribuyentes": 87,
    "incidencias": {
-    "abiertas": 50,
-    "cerradas": 327
+    "abiertas": 49,
+    "cerradas": 328
    },
    "security_md": true,
    "scorecard": null,
@@ -6484,7 +6484,7 @@
     "sin entrega reciente +0",
     "81 cambios en 30 días +10",
     "87 personas empujando +10",
-    "incidencias cerradas 327/377 +9",
+    "incidencias cerradas 328/377 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6573,7 +6573,7 @@
    "commits_30d": 27,
    "contribuyentes": 9,
    "incidencias": {
-    "abiertas": 44,
+    "abiertas": 45,
     "cerradas": 50
    },
    "security_md": true,
@@ -6587,7 +6587,7 @@
     "entrega en los últimos 30 días +10",
     "27 cambios en 30 días +7",
     "9 personas empujando +7",
-    "incidencias cerradas 50/94 +5",
+    "incidencias cerradas 50/95 +5",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6606,11 +6606,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-10-25",
-   "commits_30d": 5557,
+   "commits_30d": 5560,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 888,
-    "cerradas": 3020
+    "abiertas": 894,
+    "cerradas": 3021
    },
    "security_md": true,
    "scorecard": null,
@@ -6621,9 +6621,9 @@
     "integración continua con 35 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "5557 cambios en 30 días +10",
+    "5560 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 3020/3908 +8",
+    "incidencias cerradas 3021/3915 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6636,10 +6636,10 @@
    "adjuntos": 10,
    "con_huella": 0,
    "ultima_entrega": "2026-10-31",
-   "commits_30d": 2106,
+   "commits_30d": 2107,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 10,
+    "abiertas": 11,
     "cerradas": 45
    },
    "security_md": true,
@@ -6651,9 +6651,9 @@
     "sin flujos de integración +0",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "2106 cambios en 30 días +10",
+    "2107 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 45/55 +8",
+    "incidencias cerradas 45/56 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6669,12 +6669,12 @@
    ],
    "adjuntos": 0,
    "con_huella": 0,
-   "ultima_entrega": "2026-11-02",
+   "ultima_entrega": "2026-11-03",
    "commits_30d": 1815,
    "contribuyentes": 22,
    "incidencias": {
-    "abiertas": 18,
-    "cerradas": 83
+    "abiertas": 17,
+    "cerradas": 84
    },
    "security_md": true,
    "scorecard": null,
@@ -6687,7 +6687,7 @@
     "entrega en los últimos 30 días +10",
     "1815 cambios en 30 días +10",
     "22 personas empujando +10",
-    "incidencias cerradas 83/101 +8",
+    "incidencias cerradas 84/101 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6706,11 +6706,11 @@
    "adjuntos": 260,
    "con_huella": 110,
    "ultima_entrega": "2026-11-01",
-   "commits_30d": 1621,
+   "commits_30d": 1624,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 116,
-    "cerradas": 584
+    "abiertas": 115,
+    "cerradas": 585
    },
    "security_md": false,
    "scorecard": null,
@@ -6721,9 +6721,9 @@
     "integración continua con 16 flujo(s) +10",
     "adjunto con huella (Axolotl.Launcher-1.11.0-beta.1-1.aarch64.rpm.sig) +10",
     "entrega en los últimos 30 días +10",
-    "1621 cambios en 30 días +10",
+    "1624 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 584/700 +8",
+    "incidencias cerradas 585/700 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -6766,16 +6766,19 @@
    "puntos": 58,
    "licencia": "NOASSERTION",
    "flujos_ci": [
+    "build.yml",
+    "channels.yml",
     "ci.yml",
+    "nightly.yml",
     "release.yml"
    ],
    "adjuntos": 15,
    "con_huella": 5,
    "ultima_entrega": "2026-10-17",
-   "commits_30d": 495,
+   "commits_30d": 523,
    "contribuyentes": 13,
    "incidencias": {
-    "abiertas": 49,
+    "abiertas": 50,
     "cerradas": 22
    },
    "security_md": true,
@@ -6784,12 +6787,12 @@
    "archivado": false,
    "notas": [
     "sin licencia reconocida +0",
-    "integración continua con 2 flujo(s) +10",
+    "integración continua con 5 flujo(s) +10",
     "adjunto con huella (SHA256SUMS.txt) +10",
     "entrega en los últimos 30 días +10",
-    "495 cambios en 30 días +10",
+    "523 cambios en 30 días +10",
     "13 personas empujando +10",
-    "incidencias cerradas 22/71 +3",
+    "incidencias cerradas 22/72 +3",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6808,11 +6811,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-10-25",
-   "commits_30d": 451,
+   "commits_30d": 454,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 2546,
-    "cerradas": 11066
+    "abiertas": 2547,
+    "cerradas": 11067
    },
    "security_md": true,
    "scorecard": null,
@@ -6823,9 +6826,9 @@
     "integración continua con 20 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "451 cambios en 30 días +10",
+    "454 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 11066/13612 +8",
+    "incidencias cerradas 11067/13614 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6844,11 +6847,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-10-27",
-   "commits_30d": 215,
-   "contribuyentes": 49,
+   "commits_30d": 222,
+   "contribuyentes": 50,
    "incidencias": {
-    "abiertas": 37,
-    "cerradas": 126
+    "abiertas": 32,
+    "cerradas": 131
    },
    "security_md": true,
    "scorecard": null,
@@ -6859,9 +6862,9 @@
     "integración continua con 7 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "215 cambios en 30 días +10",
-    "49 personas empujando +10",
-    "incidencias cerradas 126/163 +8",
+    "222 cambios en 30 días +10",
+    "50 personas empujando +10",
+    "incidencias cerradas 131/163 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6880,7 +6883,7 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 187,
+   "commits_30d": 188,
    "contribuyentes": 37,
    "incidencias": {
     "abiertas": 17,
@@ -6895,7 +6898,7 @@
     "integración continua con 9 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "187 cambios en 30 días +10",
+    "188 cambios en 30 días +10",
     "37 personas empujando +10",
     "incidencias cerradas 70/87 +8",
     "SECURITY.md presente +5",
@@ -6919,7 +6922,7 @@
    "commits_30d": 152,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 1874,
+    "abiertas": 1876,
     "cerradas": 7093
    },
    "security_md": true,
@@ -6933,7 +6936,7 @@
     "entrega en los últimos 30 días +10",
     "152 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 7093/8967 +8",
+    "incidencias cerradas 7093/8969 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -6952,10 +6955,10 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-10-28",
-   "commits_30d": 125,
+   "commits_30d": 126,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 4433,
+    "abiertas": 4434,
     "cerradas": 19341
    },
    "security_md": true,
@@ -6967,9 +6970,9 @@
     "integración continua con 55 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "125 cambios en 30 días +10",
+    "126 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 19341/23774 +8",
+    "incidencias cerradas 19341/23775 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -7020,11 +7023,11 @@
    "adjuntos": 182,
    "con_huella": 0,
    "ultima_entrega": "2025-12-02",
-   "commits_30d": 53,
+   "commits_30d": 71,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 333,
-    "cerradas": 1316
+    "abiertas": 332,
+    "cerradas": 1317
    },
    "security_md": true,
    "scorecard": null,
@@ -7035,41 +7038,10 @@
     "integración continua con 2 flujo(s) +10",
     "adjuntos sin huella +0",
     "sin entrega reciente +0",
-    "53 cambios en 30 días +10",
+    "71 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1316/1649 +8",
+    "incidencias cerradas 1317/1649 +8",
     "SECURITY.md presente +5",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "Akshayykadam/PixelBoard",
-   "puntos": 58,
-   "licencia": "GPL-3.0",
-   "flujos_ci": [
-    "build.yml"
-   ],
-   "adjuntos": 20,
-   "con_huella": 0,
-   "ultima_entrega": "2026-10-28",
-   "commits_30d": 39,
-   "contribuyentes": 6,
-   "incidencias": {
-    "abiertas": 54,
-    "cerradas": 67
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 47,
-   "archivado": false,
-   "notas": [
-    "licencia legible (GPL-3.0) +15",
-    "integración continua con 1 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "39 cambios en 30 días +10",
-    "6 personas empujando +7",
-    "incidencias cerradas 67/121 +6",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -7188,10 +7160,10 @@
    "adjuntos": 39,
    "con_huella": 9,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 730,
+   "commits_30d": 735,
    "contribuyentes": 27,
    "incidencias": {
-    "abiertas": 131,
+    "abiertas": 132,
     "cerradas": 29
    },
    "security_md": true,
@@ -7203,9 +7175,9 @@
     "integración continua con 9 flujo(s) +10",
     "adjunto con huella (switch-agent-controller-0.32.0-rc.1.tgz.sig) +10",
     "entrega en los últimos 30 días +10",
-    "730 cambios en 30 días +10",
+    "735 cambios en 30 días +10",
     "27 personas empujando +10",
-    "incidencias cerradas 29/160 +2",
+    "incidencias cerradas 29/161 +2",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -7224,7 +7196,7 @@
    "adjuntos": 80,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 196,
+   "commits_30d": 200,
    "contribuyentes": 44,
    "incidencias": {
     "abiertas": 159,
@@ -7239,7 +7211,7 @@
     "integración continua con 17 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "196 cambios en 30 días +10",
+    "200 cambios en 30 días +10",
     "44 personas empujando +10",
     "incidencias cerradas 49/208 +2",
     "sin Scorecard en deps.dev +0"
@@ -7330,7 +7302,7 @@
    "commits_30d": 142,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 602,
+    "abiertas": 603,
     "cerradas": 1211
    },
    "security_md": true,
@@ -7344,7 +7316,7 @@
     "entrega en los últimos 30 días +10",
     "142 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1211/1813 +7",
+    "incidencias cerradas 1211/1814 +7",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -7379,6 +7351,37 @@
     "14 personas empujando +10",
     "incidencias cerradas 9/13 +7",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "Akshayykadam/PixelBoard",
+   "puntos": 57,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build.yml"
+   ],
+   "adjuntos": 20,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-28",
+   "commits_30d": 39,
+   "contribuyentes": 6,
+   "incidencias": {
+    "abiertas": 56,
+    "cerradas": 67
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 47,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "39 cambios en 30 días +10",
+    "6 personas empujando +7",
+    "incidencias cerradas 67/123 +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -7499,7 +7502,7 @@
    "commits_30d": 84,
    "contribuyentes": 8,
    "incidencias": {
-    "abiertas": 64,
+    "abiertas": 68,
     "cerradas": 41
    },
    "security_md": false,
@@ -7513,7 +7516,7 @@
     "entrega en los últimos 30 días +10",
     "84 cambios en 30 días +10",
     "8 personas empujando +7",
-    "incidencias cerradas 41/105 +4",
+    "incidencias cerradas 41/109 +4",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -7527,7 +7530,7 @@
    "adjuntos": 10,
    "con_huella": 0,
    "ultima_entrega": "2026-10-23",
-   "commits_30d": 49,
+   "commits_30d": 50,
    "contribuyentes": 4,
    "incidencias": {
     "abiertas": 5,
@@ -7542,7 +7545,7 @@
     "integración continua con 1 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "49 cambios en 30 días +10",
+    "50 cambios en 30 días +10",
     "4 personas empujando +4",
     "incidencias cerradas 11/16 +7",
     "sin Scorecard en deps.dev +0"
@@ -7656,7 +7659,7 @@
    "adjuntos": 244,
    "con_huella": 72,
    "ultima_entrega": "2026-10-21",
-   "commits_30d": 1670,
+   "commits_30d": 1673,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 0,
@@ -7671,7 +7674,7 @@
     "integración continua con 1 flujo(s) +10",
     "adjunto con huella (kotlin-compiler-2.5.0-Beta2.zip.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "1670 cambios en 30 días +10",
+    "1673 cambios en 30 días +10",
     "100 personas empujando +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
@@ -7691,10 +7694,10 @@
    "adjuntos": 22,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 1659,
+   "commits_30d": 1662,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 342,
+    "abiertas": 343,
     "cerradas": 10304
    },
    "security_md": true,
@@ -7706,9 +7709,9 @@
     "integración continua con 109 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "1659 cambios en 30 días +10",
+    "1662 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 10304/10646 +10",
+    "incidencias cerradas 10304/10647 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -7762,7 +7765,7 @@
    "adjuntos": 3,
    "con_huella": 0,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 255,
+   "commits_30d": 257,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 0,
@@ -7777,7 +7780,7 @@
     "integración continua con 18 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "255 cambios en 30 días +10",
+    "257 cambios en 30 días +10",
     "100 personas empujando +10",
     "sin Scorecard en deps.dev +0"
    ]
@@ -7796,7 +7799,7 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-10-30",
-   "commits_30d": 246,
+   "commits_30d": 256,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 23,
@@ -7811,7 +7814,7 @@
     "integración continua con 6 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "246 cambios en 30 días +10",
+    "256 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 2951/2974 +10",
     "sin Scorecard en deps.dev +0"
@@ -7826,8 +7829,8 @@
    ],
    "adjuntos": 0,
    "con_huella": 0,
-   "ultima_entrega": "2026-10-28",
-   "commits_30d": 145,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 153,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 192,
@@ -7842,7 +7845,7 @@
     "integración continua con 1 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "145 cambios en 30 días +10",
+    "153 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 5507/5699 +10",
     "sin Scorecard en deps.dev +0"
@@ -8026,19 +8029,19 @@
    "licencia": "NOASSERTION",
    "flujos_ci": [
     "audit.yml",
+    "craft-fc-artifacts.yml",
     "cve-alerts-nightly.yml",
     "cve-alerts.yml",
-    "cve-tracking.yml",
-    "deployment.yml"
+    "cve-tracking.yml"
    ],
    "adjuntos": 50,
    "con_huella": 0,
-   "ultima_entrega": "2026-11-02",
-   "commits_30d": 876,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 901,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 169,
-    "cerradas": 1358
+    "abiertas": 166,
+    "cerradas": 1362
    },
    "security_md": true,
    "scorecard": null,
@@ -8046,13 +8049,47 @@
    "archivado": false,
    "notas": [
     "sin licencia reconocida +0",
-    "integración continua con 54 flujo(s) +10",
+    "integración continua con 55 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "876 cambios en 30 días +10",
+    "901 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1358/1527 +9",
+    "incidencias cerradas 1362/1528 +9",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "man15h/tellyscope",
+   "puntos": 54,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "ci.yml",
+    "data.yml",
+    "release-check.yml",
+    "release.yml"
+   ],
+   "adjuntos": 11,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 590,
+   "contribuyentes": 4,
+   "incidencias": {
+    "abiertas": 22,
+    "cerradas": 21
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 12,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 4 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "590 cambios en 30 días +10",
+    "4 personas empujando +4",
+    "incidencias cerradas 21/43 +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -8207,7 +8244,7 @@
    "adjuntos": 60,
    "con_huella": 10,
    "ultima_entrega": "2026-09-08",
-   "commits_30d": 53,
+   "commits_30d": 55,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 507,
@@ -8222,7 +8259,7 @@
     "integración continua con 8 flujo(s) +10",
     "adjunto con huella (fish-4.9.3.tar.xz.asc) +10",
     "sin entrega reciente +0",
-    "53 cambios en 30 días +10",
+    "55 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 7728/8235 +9",
     "SECURITY.md presente +5",
@@ -8245,7 +8282,7 @@
    "commits_30d": 33,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 158,
+    "abiertas": 159,
     "cerradas": 2171
    },
    "security_md": false,
@@ -8259,7 +8296,7 @@
     "entrega en los últimos 30 días +10",
     "33 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 2171/2329 +9",
+    "incidencias cerradas 2171/2330 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -8306,7 +8343,7 @@
    "adjuntos": 67,
    "con_huella": 22,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 5,
+   "commits_30d": 7,
    "contribuyentes": 1,
    "incidencias": {
     "abiertas": 0,
@@ -8321,7 +8358,7 @@
     "integración continua con 2 flujo(s) +10",
     "adjunto con huella (NeAntik-0.9.5-arm64-notarized.dmg.sha256) +10",
     "entrega en los últimos 30 días +10",
-    "5 cambios en 30 días +4",
+    "7 cambios en 30 días +4",
     "1 personas empujando +0",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
@@ -8344,8 +8381,8 @@
    "commits_30d": 4,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 99,
-    "cerradas": 2581
+    "abiertas": 98,
+    "cerradas": 2582
    },
    "security_md": true,
    "scorecard": null,
@@ -8358,7 +8395,7 @@
     "sin entrega reciente +0",
     "4 cambios en 30 días +4",
     "100 personas empujando +10",
-    "incidencias cerradas 2581/2680 +10",
+    "incidencias cerradas 2582/2680 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -8375,11 +8412,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-10-16",
-   "commits_30d": 3148,
+   "commits_30d": 3208,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 11202,
-    "cerradas": 53372
+    "abiertas": 11204,
+    "cerradas": 53373
    },
    "security_md": false,
    "scorecard": null,
@@ -8390,9 +8427,9 @@
     "integración continua con 3 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "3148 cambios en 30 días +10",
+    "3208 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 53372/64574 +8",
+    "incidencias cerradas 53373/64577 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -8408,11 +8445,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 897,
-   "contribuyentes": 98,
+   "commits_30d": 914,
+   "contribuyentes": 99,
    "incidencias": {
     "abiertas": 65,
-    "cerradas": 295
+    "cerradas": 296
    },
    "security_md": false,
    "scorecard": null,
@@ -8423,9 +8460,9 @@
     "integración continua con 3 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "897 cambios en 30 días +10",
-    "98 personas empujando +10",
-    "incidencias cerradas 295/360 +8",
+    "914 cambios en 30 días +10",
+    "99 personas empujando +10",
+    "incidencias cerradas 296/361 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -8462,39 +8499,6 @@
    ]
   },
   {
-   "repo": "man15h/tellyscope",
-   "puntos": 53,
-   "licencia": "GPL-3.0",
-   "flujos_ci": [
-    "ci.yml",
-    "release-check.yml",
-    "release.yml"
-   ],
-   "adjuntos": 10,
-   "con_huella": 0,
-   "ultima_entrega": "2026-11-03",
-   "commits_30d": 514,
-   "contribuyentes": 3,
-   "incidencias": {
-    "abiertas": 24,
-    "cerradas": 16
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 12,
-   "archivado": false,
-   "notas": [
-    "licencia legible (GPL-3.0) +15",
-    "integración continua con 3 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "514 cambios en 30 días +10",
-    "3 personas empujando +4",
-    "incidencias cerradas 16/40 +4",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
    "repo": "Dokploy/dokploy",
    "puntos": 53,
    "licencia": "NOASSERTION",
@@ -8508,10 +8512,10 @@
    "adjuntos": 10,
    "con_huella": 0,
    "ultima_entrega": "2026-10-22",
-   "commits_30d": 223,
+   "commits_30d": 227,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 524,
+    "abiertas": 525,
     "cerradas": 1835
    },
    "security_md": true,
@@ -8523,9 +8527,9 @@
     "integración continua con 10 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "223 cambios en 30 días +10",
+    "227 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1835/2359 +8",
+    "incidencias cerradas 1835/2360 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -8580,11 +8584,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-10-26",
-   "commits_30d": 129,
+   "commits_30d": 133,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 326,
-    "cerradas": 1491
+    "abiertas": 325,
+    "cerradas": 1492
    },
    "security_md": false,
    "scorecard": null,
@@ -8595,9 +8599,9 @@
     "integración continua con 6 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "129 cambios en 30 días +10",
+    "133 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1491/1817 +8",
+    "incidencias cerradas 1492/1817 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -8816,7 +8820,7 @@
    "adjuntos": 100,
    "con_huella": 0,
    "ultima_entrega": "2026-10-29",
-   "commits_30d": 173,
+   "commits_30d": 180,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 1144,
@@ -8831,7 +8835,7 @@
     "integración continua con 17 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "173 cambios en 30 días +10",
+    "180 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 3301/4445 +7",
     "SECURITY.md presente +5",
@@ -8847,10 +8851,10 @@
     "builder-qualification.yml",
     "release.yml"
    ],
-   "adjuntos": 328,
-   "con_huella": 169,
+   "adjuntos": 352,
+   "con_huella": 181,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 158,
+   "commits_30d": 164,
    "contribuyentes": 1,
    "incidencias": {
     "abiertas": 58,
@@ -8863,9 +8867,9 @@
    "notas": [
     "sin licencia reconocida +0",
     "integración continua con 3 flujo(s) +10",
-    "adjunto con huella (denial-0.6.0-1-x86_64.pkg.tar.zst.sig) +10",
+    "adjunto con huella (denial-0.6.1-1-aarch64.pkg.tar.zst.sig) +10",
     "entrega en los últimos 30 días +10",
-    "158 cambios en 30 días +10",
+    "164 cambios en 30 días +10",
     "1 personas empujando +0",
     "incidencias cerradas 134/192 +7",
     "SECURITY.md presente +5",
@@ -8908,6 +8912,42 @@
    ]
   },
   {
+   "repo": "gogs/gogs",
+   "puntos": 52,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "codeql.yml",
+    "docker.yml",
+    "go.yml",
+    "lock.yml",
+    "release.yml"
+   ],
+   "adjuntos": 126,
+   "con_huella": 0,
+   "ultima_entrega": "2026-06-07",
+   "commits_30d": 5,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 945,
+    "cerradas": 4272
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 4647,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 7 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "5 cambios en 30 días +4",
+    "100 personas empujando +10",
+    "incidencias cerradas 4272/5217 +8",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "sky22333/skyadb",
    "puntos": 52,
    "licencia": "GPL-3.0",
@@ -8936,42 +8976,6 @@
     "5 cambios en 30 días +4",
     "2 personas empujando +4",
     "incidencias cerradas 27/31 +9",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "gogs/gogs",
-   "puntos": 52,
-   "licencia": "MIT",
-   "flujos_ci": [
-    "codeql.yml",
-    "docker.yml",
-    "go.yml",
-    "lock.yml",
-    "release.yml"
-   ],
-   "adjuntos": 126,
-   "con_huella": 0,
-   "ultima_entrega": "2026-06-07",
-   "commits_30d": 3,
-   "contribuyentes": 100,
-   "incidencias": {
-    "abiertas": 945,
-    "cerradas": 4272
-   },
-   "security_md": true,
-   "scorecard": null,
-   "edad_dias": 4647,
-   "archivado": false,
-   "notas": [
-    "licencia legible (MIT) +15",
-    "integración continua con 7 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "sin entrega reciente +0",
-    "3 cambios en 30 días +4",
-    "100 personas empujando +10",
-    "incidencias cerradas 4272/5217 +8",
-    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9045,6 +9049,39 @@
    ]
   },
   {
+   "repo": "TNTcraftHIM/Piik",
+   "puntos": 51,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "atomgit-mirror.yml",
+    "repository-hygiene.yml",
+    "website.yml"
+   ],
+   "adjuntos": 85,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 25,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 5,
+    "cerradas": 53
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 77,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "25 cambios en 30 días +7",
+    "1 personas empujando +0",
+    "incidencias cerradas 53/58 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "navidrome/navidrome",
    "puntos": 51,
    "licencia": "GPL-3.0",
@@ -9076,39 +9113,6 @@
     "24 cambios en 30 días +7",
     "100 personas empujando +10",
     "incidencias cerradas 1761/1900 +9",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "TNTcraftHIM/Piik",
-   "puntos": 51,
-   "licencia": "MIT",
-   "flujos_ci": [
-    "atomgit-mirror.yml",
-    "repository-hygiene.yml",
-    "website.yml"
-   ],
-   "adjuntos": 82,
-   "con_huella": 0,
-   "ultima_entrega": "2026-11-01",
-   "commits_30d": 23,
-   "contribuyentes": 1,
-   "incidencias": {
-    "abiertas": 7,
-    "cerradas": 51
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 77,
-   "archivado": false,
-   "notas": [
-    "licencia legible (MIT) +15",
-    "integración continua con 3 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "23 cambios en 30 días +7",
-    "1 personas empujando +0",
-    "incidencias cerradas 51/58 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9233,7 +9237,7 @@
    "commits_30d": 11,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 177,
+    "abiertas": 180,
     "cerradas": 2653
    },
    "security_md": false,
@@ -9247,7 +9251,7 @@
     "entrega en los últimos 30 días +10",
     "11 cambios en 30 días +7",
     "100 personas empujando +10",
-    "incidencias cerradas 2653/2830 +9",
+    "incidencias cerradas 2653/2833 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9264,8 +9268,8 @@
    ],
    "adjuntos": 0,
    "con_huella": 0,
-   "ultima_entrega": "2026-11-02",
-   "commits_30d": 624,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 627,
    "contribuyentes": 27,
    "incidencias": {
     "abiertas": 211,
@@ -9280,7 +9284,7 @@
     "integración continua con 14 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "624 cambios en 30 días +10",
+    "627 cambios en 30 días +10",
     "27 personas empujando +10",
     "incidencias cerradas 255/466 +5",
     "sin Scorecard en deps.dev +0"
@@ -9294,7 +9298,7 @@
    "adjuntos": 17,
    "con_huella": 0,
    "ultima_entrega": "2026-11-01",
-   "commits_30d": 459,
+   "commits_30d": 463,
    "contribuyentes": 9,
    "incidencias": {
     "abiertas": 34,
@@ -9309,9 +9313,38 @@
     "sin flujos de integración +0",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "459 cambios en 30 días +10",
+    "463 cambios en 30 días +10",
     "9 personas empujando +7",
     "incidencias cerradas 156/190 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "wangzan101/Mika",
+   "puntos": 50,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [],
+   "adjuntos": 13,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 458,
+   "contribuyentes": 37,
+   "incidencias": {
+    "abiertas": 70,
+    "cerradas": 69
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 5,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "458 cambios en 30 días +10",
+    "37 personas empujando +10",
+    "incidencias cerradas 69/139 +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9364,7 +9397,7 @@
    "commits_30d": 279,
    "contribuyentes": 2,
    "incidencias": {
-    "abiertas": 96,
+    "abiertas": 99,
     "cerradas": 16
    },
    "security_md": false,
@@ -9378,7 +9411,7 @@
     "entrega en los últimos 30 días +10",
     "279 cambios en 30 días +10",
     "2 personas empujando +4",
-    "incidencias cerradas 16/112 +1",
+    "incidencias cerradas 16/115 +1",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9523,7 +9556,7 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-05-15",
-   "commits_30d": 78,
+   "commits_30d": 79,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 25,
@@ -9538,7 +9571,7 @@
     "integración continua con 15 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "sin entrega reciente +0",
-    "78 cambios en 30 días +10",
+    "79 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 758/783 +10",
     "SECURITY.md presente +5",
@@ -9632,7 +9665,7 @@
    "commits_30d": 15,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 378,
+    "abiertas": 379,
     "cerradas": 1353
    },
    "security_md": false,
@@ -9646,36 +9679,7 @@
     "sin entrega reciente +0",
     "15 cambios en 30 días +7",
     "100 personas empujando +10",
-    "incidencias cerradas 1353/1731 +8",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "wangzan101/Mika",
-   "puntos": 49,
-   "licencia": "Apache-2.0",
-   "flujos_ci": [],
-   "adjuntos": 12,
-   "con_huella": 0,
-   "ultima_entrega": "2026-11-02",
-   "commits_30d": 448,
-   "contribuyentes": 37,
-   "incidencias": {
-    "abiertas": 77,
-    "cerradas": 60
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 5,
-   "archivado": false,
-   "notas": [
-    "licencia legible (Apache-2.0) +15",
-    "sin flujos de integración +0",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "448 cambios en 30 días +10",
-    "37 personas empujando +10",
-    "incidencias cerradas 60/137 +4",
+    "incidencias cerradas 1353/1732 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9693,7 +9697,7 @@
    "adjuntos": 223,
    "con_huella": 3,
    "ultima_entrega": "2025-03-07",
-   "commits_30d": 299,
+   "commits_30d": 301,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 235,
@@ -9708,7 +9712,7 @@
     "integración continua con 7 flujo(s) +10",
     "adjunto con huella (tldr.sha256sums) +10",
     "sin entrega reciente +0",
-    "299 cambios en 30 días +10",
+    "301 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 1604/1839 +9",
     "sin Scorecard en deps.dev +0"
@@ -9746,6 +9750,40 @@
    ]
   },
   {
+   "repo": "ccch1mneyyy/dsh-Go",
+   "puntos": 49,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "ci.yml",
+    "pr-gate.yml"
+   ],
+   "adjuntos": 30,
+   "con_huella": 10,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 266,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 215,
+    "cerradas": 120
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 9,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjunto con huella (SHA256SUMS) +10",
+    "entrega en los últimos 30 días +10",
+    "266 cambios en 30 días +10",
+    "1 personas empujando +0",
+    "incidencias cerradas 120/335 +4",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0",
+    "atención anómala: menos de 14 días, más de 5.000 estrellas y sin equipo −15"
+   ]
+  },
+  {
    "repo": "Stirling-Tools/Stirling-PDF",
    "puntos": 49,
    "licencia": "NOASSERTION",
@@ -9762,7 +9800,7 @@
    "commits_30d": 176,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 299,
+    "abiertas": 300,
     "cerradas": 1712
    },
    "security_md": false,
@@ -9776,7 +9814,7 @@
     "entrega en los últimos 30 días +10",
     "176 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 1712/2011 +9",
+    "incidencias cerradas 1712/2012 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9989,35 +10027,6 @@
    ]
   },
   {
-   "repo": "jackwener/DSH-Android",
-   "puntos": 48,
-   "licencia": "Apache-2.0",
-   "flujos_ci": [],
-   "adjuntos": 16,
-   "con_huella": 0,
-   "ultima_entrega": "2026-11-03",
-   "commits_30d": 135,
-   "contribuyentes": 3,
-   "incidencias": {
-    "abiertas": 5,
-    "cerradas": 31
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 7,
-   "archivado": false,
-   "notas": [
-    "licencia legible (Apache-2.0) +15",
-    "sin flujos de integración +0",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "135 cambios en 30 días +10",
-    "3 personas empujando +4",
-    "incidencias cerradas 31/36 +9",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
    "repo": "AienTech/dossier",
    "puntos": 48,
    "licencia": "AGPL-3.0",
@@ -10153,37 +10162,32 @@
    ]
   },
   {
-   "repo": "ccch1mneyyy/dsh-Go",
+   "repo": "jackwener/DSH-Android",
    "puntos": 47,
-   "licencia": "AGPL-3.0",
-   "flujos_ci": [
-    "ci.yml",
-    "pr-gate.yml"
-   ],
-   "adjuntos": 30,
-   "con_huella": 10,
-   "ultima_entrega": "2026-11-02",
-   "commits_30d": 241,
-   "contribuyentes": 1,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [],
+   "adjuntos": 16,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 135,
+   "contribuyentes": 3,
    "incidencias": {
-    "abiertas": 248,
-    "cerradas": 78
+    "abiertas": 6,
+    "cerradas": 31
    },
-   "security_md": true,
+   "security_md": false,
    "scorecard": null,
-   "edad_dias": 9,
+   "edad_dias": 7,
    "archivado": false,
    "notas": [
-    "licencia legible (AGPL-3.0) +15",
-    "integración continua con 2 flujo(s) +10",
-    "adjunto con huella (SHA256SUMS) +10",
+    "licencia legible (Apache-2.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "241 cambios en 30 días +10",
-    "1 personas empujando +0",
-    "incidencias cerradas 78/326 +2",
-    "SECURITY.md presente +5",
-    "sin Scorecard en deps.dev +0",
-    "atención anómala: menos de 14 días, más de 5.000 estrellas y sin equipo −15"
+    "135 cambios en 30 días +10",
+    "3 personas empujando +4",
+    "incidencias cerradas 31/37 +8",
+    "sin Scorecard en deps.dev +0"
    ]
   },
   {
@@ -10354,10 +10358,10 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-06-09",
-   "commits_30d": 135,
+   "commits_30d": 136,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 4001,
+    "abiertas": 4002,
     "cerradas": 7156
    },
    "security_md": true,
@@ -10369,9 +10373,9 @@
     "integración continua con 21 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "sin entrega reciente +0",
-    "135 cambios en 30 días +10",
+    "136 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 7156/11157 +6",
+    "incidencias cerradas 7156/11158 +6",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -10418,7 +10422,7 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "",
-   "commits_30d": 107,
+   "commits_30d": 108,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 7,
@@ -10433,7 +10437,7 @@
     "integración continua con 4 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "sin entrega reciente +0",
-    "107 cambios en 30 días +10",
+    "108 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 143/150 +10",
     "sin Scorecard en deps.dev +0"
@@ -10612,11 +10616,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-10-30",
-   "commits_30d": 2214,
+   "commits_30d": 2229,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 1671,
-    "cerradas": 12255
+    "abiertas": 1685,
+    "cerradas": 12256
    },
    "security_md": true,
    "scorecard": null,
@@ -10627,9 +10631,9 @@
     "integración continua con 40 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "2214 cambios en 30 días +10",
+    "2229 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 12255/13926 +9",
+    "incidencias cerradas 12256/13941 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -10648,10 +10652,10 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 927,
+   "commits_30d": 938,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 325,
+    "abiertas": 326,
     "cerradas": 2898
    },
    "security_md": true,
@@ -10663,9 +10667,9 @@
     "integración continua con 41 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "927 cambios en 30 días +10",
+    "938 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 2898/3223 +9",
+    "incidencias cerradas 2898/3224 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -10684,11 +10688,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2024-01-11",
-   "commits_30d": 513,
+   "commits_30d": 522,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 12779,
-    "cerradas": 103980
+    "abiertas": 12778,
+    "cerradas": 103995
    },
    "security_md": false,
    "scorecard": null,
@@ -10699,9 +10703,9 @@
     "integración continua con 20 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "sin entrega reciente +0",
-    "513 cambios en 30 días +10",
+    "522 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 103980/116759 +9",
+    "incidencias cerradas 103995/116773 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -10848,11 +10852,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-11-01",
-   "commits_30d": 5068,
+   "commits_30d": 5071,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 123,
-    "cerradas": 370
+    "abiertas": 122,
+    "cerradas": 376
    },
    "security_md": true,
    "scorecard": null,
@@ -10863,9 +10867,9 @@
     "integración continua con 3 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "5068 cambios en 30 días +10",
+    "5071 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 370/493 +8",
+    "incidencias cerradas 376/498 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -11310,6 +11314,42 @@
    ]
   },
   {
+   "repo": "Skyvern-AI/rustwright",
+   "puntos": 41,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "auto-merge-sync.yml",
+    "benchmark-testbox.yml",
+    "benchmark.yml",
+    "bindings.yml",
+    "claude-code-review.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "",
+   "commits_30d": 14,
+   "contribuyentes": 9,
+   "incidencias": {
+    "abiertas": 7,
+    "cerradas": 16
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 119,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 16 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "sin entrega reciente +0",
+    "14 cambios en 30 días +7",
+    "9 personas empujando +7",
+    "incidencias cerradas 16/23 +7",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "drumih/turbo-fieldfare",
    "puntos": 41,
    "licencia": "Apache-2.0",
@@ -11358,8 +11398,8 @@
    "commits_30d": 1353,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 154,
-    "cerradas": 10650
+    "abiertas": 149,
+    "cerradas": 10665
    },
    "security_md": false,
    "scorecard": null,
@@ -11372,7 +11412,7 @@
     "entrega en los últimos 30 días +10",
     "1353 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 10650/10804 +10",
+    "incidencias cerradas 10665/10814 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -11388,11 +11428,11 @@
    "adjuntos": 40,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 422,
+   "commits_30d": 431,
    "contribuyentes": 1,
    "incidencias": {
-    "abiertas": 3,
-    "cerradas": 993
+    "abiertas": 1,
+    "cerradas": 1002
    },
    "security_md": false,
    "scorecard": null,
@@ -11403,9 +11443,9 @@
     "integración continua con 3 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "422 cambios en 30 días +10",
+    "431 cambios en 30 días +10",
     "1 personas empujando +0",
-    "incidencias cerradas 993/996 +10",
+    "incidencias cerradas 1002/1003 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -11520,7 +11560,7 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-11-03",
-   "commits_30d": 612,
+   "commits_30d": 615,
    "contribuyentes": 15,
    "incidencias": {
     "abiertas": 114,
@@ -11535,7 +11575,7 @@
     "integración continua con 33 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "612 cambios en 30 días +10",
+    "615 cambios en 30 días +10",
     "15 personas empujando +10",
     "incidencias cerradas 1469/1583 +9",
     "sin Scorecard en deps.dev +0"
@@ -11590,7 +11630,7 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "",
-   "commits_30d": 13,
+   "commits_30d": 15,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 117,
@@ -11605,7 +11645,7 @@
     "integración continua con 13 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "sin entrega reciente +0",
-    "13 cambios en 30 días +7",
+    "15 cambios en 30 días +7",
     "100 personas empujando +10",
     "incidencias cerradas 257/374 +7",
     "sin Scorecard en deps.dev +0"
@@ -11628,7 +11668,7 @@
    "commits_30d": 3,
    "contribuyentes": 1,
    "incidencias": {
-    "abiertas": 3,
+    "abiertas": 6,
     "cerradas": 11049
    },
    "security_md": false,
@@ -11642,7 +11682,7 @@
     "entrega en los últimos 30 días +10",
     "3 cambios en 30 días +4",
     "1 personas empujando +0",
-    "incidencias cerradas 11049/11052 +10",
+    "incidencias cerradas 11049/11055 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -11912,38 +11952,37 @@
    ]
   },
   {
-   "repo": "Skyvern-AI/rustwright",
-   "puntos": 37,
-   "licencia": "MIT",
+   "repo": "qarmin/czkawka",
+   "puntos": 35,
+   "licencia": "NOASSERTION",
    "flujos_ci": [
-    "auto-merge-sync.yml",
-    "benchmark-testbox.yml",
-    "benchmark.yml",
-    "bindings.yml",
-    "claude-code-review.yml"
+    "android.yml",
+    "linux.yml",
+    "mac.yml",
+    "quality.yml",
+    "windows.yml"
    ],
-   "adjuntos": 0,
+   "adjuntos": 406,
    "con_huella": 0,
-   "ultima_entrega": "",
-   "commits_30d": 4,
-   "contribuyentes": 7,
+   "ultima_entrega": "2026-09-09",
+   "commits_30d": 10,
+   "contribuyentes": 94,
    "incidencias": {
-    "abiertas": 10,
-    "cerradas": 13
+    "abiertas": 290,
+    "cerradas": 1013
    },
-   "security_md": true,
+   "security_md": false,
    "scorecard": null,
-   "edad_dias": 119,
+   "edad_dias": 2254,
    "archivado": false,
    "notas": [
-    "licencia legible (MIT) +15",
-    "integración continua con 16 flujo(s) +10",
-    "ninguna entrega con adjuntos −10",
+    "sin licencia reconocida +0",
+    "integración continua con 5 flujo(s) +10",
+    "adjuntos sin huella +0",
     "sin entrega reciente +0",
-    "4 cambios en 30 días +4",
-    "7 personas empujando +7",
-    "incidencias cerradas 13/23 +6",
-    "SECURITY.md presente +5",
+    "10 cambios en 30 días +7",
+    "94 personas empujando +10",
+    "incidencias cerradas 1013/1303 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -11955,7 +11994,7 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "",
-   "commits_30d": 246,
+   "commits_30d": 247,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 702,
@@ -11970,7 +12009,7 @@
     "sin flujos de integración +0",
     "ninguna entrega con adjuntos −10",
     "sin entrega reciente +0",
-    "246 cambios en 30 días +10",
+    "247 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 4411/5113 +9",
     "sin Scorecard en deps.dev +0"
@@ -12101,41 +12140,6 @@
     "468 cambios en 30 días +10",
     "6 personas empujando +7",
     "incidencias cerradas 0/5 +0",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "qarmin/czkawka",
-   "puntos": 32,
-   "licencia": "NOASSERTION",
-   "flujos_ci": [
-    "android.yml",
-    "linux.yml",
-    "mac.yml",
-    "quality.yml",
-    "windows.yml"
-   ],
-   "adjuntos": 396,
-   "con_huella": 0,
-   "ultima_entrega": "2026-09-09",
-   "commits_30d": 7,
-   "contribuyentes": 93,
-   "incidencias": {
-    "abiertas": 291,
-    "cerradas": 1012
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 2254,
-   "archivado": false,
-   "notas": [
-    "sin licencia reconocida +0",
-    "integración continua con 5 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "sin entrega reciente +0",
-    "7 cambios en 30 días +4",
-    "93 personas empujando +10",
-    "incidencias cerradas 1012/1303 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -12333,7 +12337,7 @@
    "commits_30d": 54,
    "contribuyentes": 1,
    "incidencias": {
-    "abiertas": 1073,
+    "abiertas": 1076,
     "cerradas": 35
    },
    "security_md": false,
@@ -12347,7 +12351,7 @@
     "entrega en los últimos 30 días +10",
     "54 cambios en 30 días +10",
     "1 personas empujando +0",
-    "incidencias cerradas 35/1108 +0",
+    "incidencias cerradas 35/1111 +0",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -12870,7 +12874,7 @@
    "commits_30d": 0,
    "contribuyentes": 6,
    "incidencias": {
-    "abiertas": 65,
+    "abiertas": 66,
     "cerradas": 11
    },
    "security_md": false,
@@ -12884,7 +12888,7 @@
     "sin entrega reciente +0",
     "0 cambios en 30 días +0",
     "6 personas empujando +7",
-    "incidencias cerradas 11/76 +1",
+    "incidencias cerradas 11/77 +1",
     "sin Scorecard en deps.dev +0"
    ]
   },

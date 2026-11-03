@@ -49,7 +49,7 @@ Cada ficha lleva su autor, su licencia y la fecha en que se midió.</p>
 <tr><td>8</td><td>La red</td><td>publicado</td><td>6</td></tr>
 <tr><td>9</td><td>El televisor y la casa</td><td>publicado</td><td>6</td></tr>
 <tr><td>10</td><td>El taller</td><td>publicado</td><td>6</td></tr>
-<tr><td>11</td><td>Cuando algo se rompe</td><td>pendiente</td><td>0</td></tr>
+<tr><td>11</td><td>Cuando algo se rompe</td><td>publicado</td><td>6</td></tr>
 <tr><td>12</td><td>El oficio</td><td>pendiente</td><td>0</td></tr></tbody></table>
 <h2>Capítulos publicados</h2>
 <ul><li><a href="capitulo-01.html"><strong>1 · Antes de tocar nada</strong></a> — Copia de seguridad, qué se pierde, cómo se vuelve atrás. (5 fichas)</li>
@@ -61,7 +61,8 @@ Cada ficha lleva su autor, su licencia y la fecha en que se midió.</p>
 <li><a href="capitulo-07.html"><strong>7 · Archivos, copias y nubes propias</strong></a> — Sincronizar y respaldar sin empresa de por medio. (6 fichas)</li>
 <li><a href="capitulo-08.html"><strong>8 · La red</strong></a> — VPN, proxy, bloqueo y lo que no hace falta. (6 fichas)</li>
 <li><a href="capitulo-09.html"><strong>9 · El televisor y la casa</strong></a> — Lo mismo para la pantalla grande y los aparatos de la casa. (6 fichas)</li>
-<li><a href="capitulo-10.html"><strong>10 · El taller</strong></a> — Terminal, depuración, automatización y administración del aparato. (6 fichas)</li></ul>
+<li><a href="capitulo-10.html"><strong>10 · El taller</strong></a> — Terminal, depuración, automatización y administración del aparato. (6 fichas)</li>
+<li><a href="capitulo-11.html"><strong>11 · Cuando algo se rompe</strong></a> — Diagnóstico paso a paso, sin milagros. (6 fichas)</li></ul>
 <h2>Fichas</h2>
 
 <article class="ficha">
@@ -235,6 +236,51 @@ Cada ficha lleva su autor, su licencia y la fecha en que se midió.</p>
 
   <p class="meta">Programa de LocalSend y sus colaboradores · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
      (<a href="https://github.com/localsend/localsend/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>LogFox <span class="meta">· F0x1d/LogFox</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>47/100</strong> ·
+    ★1,380 · 1608 días · última entrega 2026-03-01 ·
+    24,253 descargas en 10 entregas · 17 personas ·
+    4 flujos de compilación · incidencias 28 abiertas.
+  </p>
+  <p>Leer el registro del sistema Android en el propio teléfono, con aviso de cierres y bloqueos, y exportarlo para pedir ayuda sin depender de una computadora.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien ve que una aplicación se cierra sola y quiere saber por qué, y para quien tiene que mandar el fallo a quien programa desde el mismo aparato donde ocurre.
+     <br><strong>Para quién no es:</strong> para quien busca un programa de limpieza ni una herramienta que arregle: esto lee y muestra, no toca nada, y el arreglo sale de lo que se lee.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá el lector desde su repositorio o desde F-Droid, y comprobá que la entrega coincide con la que el repositorio publica ese día.</li>
+<li>Abrilo y dale la mano que necesita: sin permiso especial sólo ve una parte del registro; con Shizuku o con depuración por cable ve el registro completo.</li>
+<li>Provocá el fallo a propósito, con el lector abierto y grabando, para que quede en el archivo.</li>
+<li>Filtrá por el nombre del paquete de la aplicación que falló y por el nivel de error: la lista pasa de miles de líneas a unas pocas.</li>
+<li>Exportá el archivo comprimido y abrilo antes de compartirlo: trae los datos del aparato y conviene quitar lo que no hace falta.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés en la mano la línea exacta del fallo, con el nombre del paquete y la causa encadenada, y un archivo listo para enviar que no expone más de lo necesario.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si no aparece nada en el registro, el filtro está mal puesto o el lector no tiene el acceso suficiente: probá con el nombre del paquete solo, sin nivel.</li>
+<li>Si el registro se llena de ruido de otros programas, ordená por el identificador del proceso de la aplicación que falla en lugar de por texto.</li>
+<li>Si el fallo no se reproduce con el lector abierto, dejalo grabando y usá el teléfono normal: el aviso de cierre salta solo cuando ocurre.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Se desinstala como cualquier aplicación y no queda rastro: no modifica el sistema, no cambia ajustes y el archivo exportado vive en tu almacenamiento hasta que lo borres.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>El registro de Android no es un archivo, son varios canales separados que el sistema escribe al mismo tiempo: el de las aplicaciones, el del sistema, el de los fallos, el de los eventos. Casi todo el mundo lee el primero y por eso no encuentra nada: un cierre de aplicación vive en el canal de fallos, y un reinicio del sistema se explica en el de eventos.</p>
+<p>LogFox hace tres cosas que lo separan de los lectores viejos. Conecta con Shizuku o con la depuración, así que ve el registro completo sin root. Avisa por notificación cuando una aplicación se cierra o se bloquea, sin que tengas que estar mirando. Y exporta un archivo comprimido con los datos del aparato incluidos, que es exactamente lo que un mantenedor necesita para no preguntar cinco cosas antes de empezar.</p>
+<p>Su nota es cuarenta y siete, con diecisiete personas y cuatro flujos de integración: un proyecto vivo pero tranquilo, sin entrega nueva desde marzo. Para una herramienta de diagnóstico eso está bien, y conviene decirlo en voz alta: no hace falta que un lector de registros cambie cada mes.</p>
+    <p><strong>Límites:</strong></p><ul><li>Sin Shizuku, sin root y sin cable, el sistema sólo le entrega a las aplicaciones una parte del registro.</li>
+<li>No interpreta el fallo por vos: muestra las líneas y el criterio sigue siendo tuyo.</li>
+<li>Ocupa memoria mientras graba; en un aparato con poca memoria conviene grabar el rato justo y cerrar.</li>
+<li>El archivo exportado contiene datos personales; compartirlo sin leerlo es el error más común de este oficio.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Android escribe el registro en canales distintos y el que importa para un cierre de aplicación es el de fallos, no el principal. Cuando alguien dice «miré el logcat y no hay nada», casi siempre está mirando un canal donde el fallo no aparece. El sistema separa main, system, crash y events justamente para que se pueda leer el que corresponde; el canal de fallos conserva las últimas excepciones aunque el aparato lleve horas encendido, y es la primera parada de cualquier diagnóstico. Saber esto convierte una búsqueda a ciegas entre cien mil líneas en una consulta de cincuenta.</p>
+    <p><strong>Cómo se comprueba:</strong> Con el teléfono conectado, pedí sólo el canal de fallos y mirá el final: ahí están las excepciones con su paquete y su causa encadenada.</p>
+    <pre><code>adb logcat -b crash -d | tail -50</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Exportar el registro completo y publicarlo en un grupo, con nombres de cuentas y rutas de archivos a la vista.</li>
+<li>Dar acceso de depuración a una computadora que no es tuya para leer el registro y dejar la puerta abierta después.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/ludoven/QADB">ludoven/QADB</a>, <a href="https://github.com/termux/termux-app">termux/termux-app</a></p></div>
+
+  <p class="meta">Programa de Maksim Zoteev · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/F0x1d/LogFox/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
 </article>
 
 <article class="ficha">
@@ -598,6 +644,51 @@ adb shell pm list packages -d</code></pre></div>
 
   <p class="meta">Programa de AntennaPod y su comunidad · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
      (<a href="https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>disky <span class="meta">· newhinton/disky</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>42/100</strong> ·
+    ★971 · 940 días · última entrega 2026-05-31 ·
+    29,221 descargas en 10 entregas · 11 personas ·
+    2 flujos de compilación · incidencias 12 abiertas.
+  </p>
+  <p>Ver qué ocupa de verdad el almacenamiento del teléfono, carpeta por carpeta, cuando el sistema avisa que está lleno y el administrador de archivos no muestra al culpable.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien recibe el aviso de almacenamiento lleno y no encuentra el archivo grande, y para quien quiere decidir qué borrar con el número a la vista en lugar de a ojo.
+     <br><strong>Para quién no es:</strong> para quien quiere borrar archivos del sistema o de otras aplicaciones: esto mide y muestra, y borrar sigue siendo una decisión tuya, tomada a mano.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá el medidor desde su repositorio o desde F-Droid, y dale el acceso al almacenamiento que pide para poder recorrer las carpetas.</li>
+<li>Dejá que termine el primer recorrido: en un teléfono con muchas fotos tarda, y cortarlo a la mitad da un mapa incompleto.</li>
+<li>Mirá el árbol ordenado por tamaño y bajá por las ramas grandes hasta encontrar la carpeta que no esperabas.</li>
+<li>Compará lo que dice con lo que dice el sistema: si el total medido es mucho menor que el espacio usado, lo que falta son cachés y datos de aplicaciones, no archivos.</li>
+<li>Borrá a mano lo identificado y volvé a medir para confirmar que el número bajó donde pensabas.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Sabés qué carpeta ocupa el espacio, cuánto ocupa, y si lo que falta no son tus archivos sino cachés de aplicaciones que el administrador no muestra.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el aparato no deja leer una carpeta, es una restricción del sistema y no un fallo del medidor: esas carpetas se ven con la orden de sistema de la computadora.</li>
+<li>Si el total no cuadra con el espacio usado, no hay error: el sistema cuenta cachés, datos de aplicaciones y espacio reservado que no son archivos visibles.</li>
+<li>Si el recorrido se cuelga, cerrá otras aplicaciones antes de repetirlo: en aparatos con poca memoria el recorrido compite por ella.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Se desinstala y no deja nada. No borra por su cuenta ni cambia permisos del sistema: lo que se borró, se borró porque lo elegiste vos.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>El administrador de archivos de Android miente por omisión, no por maldad: muestra lo que puede mostrar. Las cachés de las aplicaciones, las bases de datos, los archivos temporales y el espacio reservado por el sistema no son archivos con los que puedas hacer nada, así que no aparecen. El resultado es el clásico «dice que está lleno y no hay nada».</p>
+<p>disky recorre el árbol y lo convierte en barras ordenadas por tamaño. Su valor no está en la lista sino en el descenso: se baja por la rama grande hasta la carpeta concreta, y ahí se acaba la discusión. Pesa menos de un megabyte, once personas lo mantienen y su última entrega es de mayo de dos mil veintiséis.</p>
+<p>Su nota es cuarenta y dos: buena licencia, equipo pequeño, sin entrega reciente y sin adjuntos con huella. Es el perfil típico de la herramienta útil que no hace ruido, y para medir carpetas alcanza de sobra. Lo que hay que tener claro es lo que no hace: no borra por vos, y eso es una virtud.</p>
+    <p><strong>Límites:</strong></p><ul><li>No puede leer las carpetas privadas de otras aplicaciones: eso necesita root o la orden de sistema por cable.</li>
+<li>El recorrido compite por memoria y batería con el resto del teléfono.</li>
+<li>Mide archivos visibles; las cachés internas quedan fuera y hay que mirarlas desde los ajustes de cada aplicación.</li>
+<li>No distingue archivos repetidos ni propone limpieza automática, por decisión de diseño.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Android lleva su propia contabilidad del almacenamiento y la publica en un solo sitio: aplicaciones, caché, datos, fotos, videos, audio, sistema y espacio libre. Ese desglose es la respuesta oficial a «¿dónde se fue el espacio?» y explica la diferencia entre lo que mide un explorador de archivos y lo que el sistema reporta como ocupado. Cuando los dos números no coinciden, no hay error: hay categorías que no son archivos. Leerlo antes de borrar nada evita la escena más común de este capítulo, que es vaciar la galería y no recuperar ni un gigabyte.</p>
+    <p><strong>Cómo se comprueba:</strong> Con el teléfono conectado, pedile al sistema su propio recuento y compará las categorías con lo que ves en el medidor.</p>
+    <pre><code>adb shell dumpsys diskstats</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Borrar la carpeta de datos de una aplicación para ganar espacio y perder la cuenta, el historial o la partida guardada.</li>
+<li>Vaciar cachés del sistema a mano y dejar aplicaciones que tardan en abrir durante días.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/material-files">material-files</a>, <a href="https://github.com/termux/termux-app">termux/termux-app</a></p></div>
+
+  <p class="meta">Programa de Felix Nüsse · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/newhinton/disky/blob/master/LICENCE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
 </article>
 
 <article class="ficha">
@@ -1221,6 +1312,51 @@ curl -s &quot;https://gitlab.com/api/v4/projects/fdroid%2Ffdroidclient/repositor
 </article>
 
 <article class="ficha">
+  <h3>Permission Manager X <span class="meta">· mirfatif/PermissionManagerX</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>28/100</strong> ·
+    ★814 · 2194 días · última entrega 2026-09-29 ·
+    28,564 descargas en 10 entregas · 2 personas ·
+    0 flujos de compilación · incidencias 8 abiertas.
+  </p>
+  <p>Ver y cambiar los permisos del manifiesto y las operaciones internas del sistema que el panel de Android esconde, por aplicación y por permiso.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiere saber por qué una aplicación se comporta distinto después de una actualización del sistema, y para quien audita qué puede hacer de verdad cada programa instalado.
+     <br><strong>Para quién no es:</strong> para quien busca un panel más bonito de permisos: la lista normal de Android ya muestra lo básico, y esto añade la capa que se esconde y con ella la responsabilidad de saber lo que se toca.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá la aplicación desde su repositorio o desde F-Droid y comprobá que la entrega es la que el repositorio anuncia ese día.</li>
+<li>Dale el acceso que necesita —root, Shizuku o la orden de sistema por cable— y fijate en qué modo quedó: el programa lo dice en su pantalla principal.</li>
+<li>Elegí una aplicación cualquiera y abrí sus dos listas: permisos declarados y operaciones internas, que es la que no se ve en ningún otro sitio.</li>
+<li>Buscá un permiso concreto en todas las aplicaciones a la vez, que es la consulta que este programa hace y el panel del sistema no.</li>
+<li>Antes de cambiar algo, anotá el valor anterior: la gracia es poder volver, y la pantalla no guarda historia.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Sabés qué permisos tiene declarados y concedidos cada aplicación, qué operaciones internas usa, y podés cambiar una concreta sabiendo cuál era su valor antes.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si aparece en modo lectura, el acceso no está bien dado: revisá si tenés root, Shizuku activo o la depuración conectada.</li>
+<li>Si un cambio no se queda, el sistema lo revierte al reiniciar: hay operaciones que se reajustan solas y conviene comprobarlas después de un reinicio.</li>
+<li>Si una aplicación deja de funcionar tras cambiar una operación, devolvé el valor que anotaste antes: es la única razón por la que se anota.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Cada cambio se devuelve a mano, poniendo el valor anterior. Desinstalar la aplicación no devuelve lo que hayas cambiado: los permisos viven en el sistema, no en esta herramienta.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Hay dos capas de permisos y casi todo el mundo conoce una. La primera son los permisos del manifiesto: cámara, ubicación, contactos, las casillas que Android te muestra. La segunda son las operaciones de aplicación, un mecanismo interno con el que el sistema autoriza cosas como leer el portapapeles, dibujar encima de otras aplicaciones o ver los registros de llamadas. No se ven en ningún panel, y son las que explican por qué una aplicación se comporta distinto después de una actualización.</p>
+<p>Permission Manager X lista las dos capas, permite buscar un permiso en todas las aplicaciones a la vez y avisa cuando algo cambia. Es la herramienta más completa de su clase en este ecosistema, y su nota lo dice sin adornos: veintiocho puntos, dos personas, sin integración continua, con una versión de pago para funciones extra sobre un código AGPL.</p>
+<p>Esa contradicción es la lección del capítulo. Una herramienta puede ser la mejor en lo suyo y a la vez un proyecto sin relevo. Se usa, se le agradece al autor y se tiene presente que un día puede no actualizarse; lo que no se hace es fingir que sus números son buenos porque la herramienta nos guste.</p>
+    <p><strong>Límites:</strong></p><ul><li>Necesita root, Shizuku o la orden de sistema por cable para cambiar algo: sin eso sólo muestra.</li>
+<li>Las operaciones internas no están documentadas y cambian entre versiones de Android.</li>
+<li>Algunas funciones extra son de pago, sobre un código que es libre.</li>
+<li>Un cambio mal puesto puede dejar una aplicación sin acceso a lo que necesita, y el sistema no siempre lo explica.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Las operaciones de aplicación tienen su propio intérprete de órdenes en el sistema, y se pueden consultar sin ninguna aplicación de por medio: cada una aparece con su nombre interno y su estado, permitido o denegado por defecto. Verlas así tiene una ventaja sobre cualquier interfaz, y es que el nombre que aparece es el nombre real que el sistema usa internamente, el mismo que sale en el registro cuando algo se niega. Cuando una aplicación dice «no tengo permiso» y el panel dice que sí, esta lista es la que resuelve la contradicción.</p>
+    <p><strong>Cómo se comprueba:</strong> Con el teléfono conectado, pedí las operaciones de una aplicación concreta y leé el estado de cada una: permitido, denegado o ignorado.</p>
+    <pre><code>adb shell cmd appops get com.ejemplo.app</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Cambiar operaciones internas sin anotar el valor anterior y quedarse sin forma de volver.</li>
+<li>Dar acceso de sistema a una herramienta para «optimizar permisos» y dejar aplicaciones sin lo que necesitan para funcionar.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/appmanager-ng">appmanager-ng</a>, <a href="https://github.com/shizuku">shizuku</a></p></div>
+
+  <p class="meta">Programa de mirfatif · AGPL-3.0 · medido el 3 de noviembre de 2026 · licencia AGPL-3.0
+     (<a href="https://github.com/mirfatif/PermissionManagerX/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
   <h3>Readest <span class="meta">· readest/readest</span></h3>
   <p class="meta">
     <span class="sello n1">intermedio</span>
@@ -1836,6 +1972,51 @@ curl -s &quot;https://gitlab.com/api/v4/projects/fdroid%2Ffdroidclient/repositor
 </article>
 
 <article class="ficha">
+  <h3>WiFi Analyzer <span class="meta">· VREMSoftwareDevelopment/WiFiAnalyzer</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>50/100</strong> ·
+    ★5,065 · 3982 días · última entrega 2026-07-01 ·
+    86,491 descargas en 10 entregas · 60 personas ·
+    5 flujos de compilación · incidencias 8 abiertas.
+  </p>
+  <p>Ver la ocupación de los canales inalámbricos, la potencia de cada red vecina y la calidad del enlace propio, para saber si la lentitud viene del canal y no del proveedor.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tiene wifi lento en una casa o un edificio con muchos routers, y para quien tiene que decidir en qué canal poner el suyo con un dato en la mano.
+     <br><strong>Para quién no es:</strong> para quien quiere medir la velocidad de su internet: esto mide la red inalámbrica y sus vecinos, y la velocidad de la conexión se mide de otra forma.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá el analizador y dale el permiso de ubicación, que Android exige para poder ver las redes cercanas: sin él la lista aparece vacía.</li>
+<li>Abrí la vista de canales y mirá la banda de dos coma cuatro: las redes se dibujan como montañas y las que se pisan se ven superpuestas.</li>
+<li>Anotá los tres canales más libres, que en esa banda son casi siempre el uno, el seis y el once.</li>
+<li>Entrá al panel del router —no al teléfono— y poné el canal que elegiste; si el router no deja, cambialo desde la aplicación de quien te dio el servicio.</li>
+<li>Volvé a medir a la misma hora del día siguiente: el mapa de la tarde no se parece al de la noche, y el canal bueno es el que aguanta las dos.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Sabés qué canales están ocupados y cuáles libres, cambiaste el del router con un criterio, y lo comprobaste midiendo otra vez.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si no aparece ninguna red, falta el permiso de ubicación o el wifi está apagado: el sistema no entrega la lista sin eso.</li>
+<li>Si el cambio de canal no mejora nada, el problema es la potencia o el número de aparatos conectados, no la interferencia.</li>
+<li>Si sólo ves la red propia, el aparato no está escaneando: cerrá y abrí la aplicación para forzar un barrido nuevo.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No cambia nada en el teléfono salvo la lectura; el canal del router se devuelve desde el router. Desinstalarla deja el aparato exactamente como estaba.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>La banda de dos coma cuatro gigahercios tiene catorce canales y sólo tres que no se pisan: uno, seis y once. Todos los routers del edificio vienen de fábrica en el mismo, y por eso el wifi de un bloque de apartamentos se cae a la misma hora. No es el proveedor: es una decisión de fábrica repetida cien veces en el mismo lugar.</p>
+<p>WiFi Analyzer convierte eso en un dibujo. Es el proyecto más popular de este capítulo —cinco mil sesenta y cinco estrellas, sesenta personas, cinco flujos de integración— y el más antiguo de los seis: casi once años de entregas. Su nota es cincuenta, la más alta del capítulo, y no llega más alto porque su última entrega tiene meses y sus archivos no llevan huella publicada.</p>
+<p>Su utilidad es de las que se explican en una frase y se recuerdan para siempre: <strong>el canal del router se elige, no se hereda</strong>. Y la herramienta que lo demuestra pesa menos que una foto.</p>
+    <p><strong>Límites:</strong></p><ul><li>Necesita el permiso de ubicación, porque Android lo exige para listar redes cercanas.</li>
+<li>Mide la red inalámbrica, no la velocidad de internet ni la calidad del proveedor.</li>
+<li>En Android moderno algunas lecturas están limitadas y dependen del fabricante.</li>
+<li>No cambia la configuración del router: muestra el dato y el cambio se hace fuera.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El sistema sabe en todo momento en qué frecuencia está hablando con el punto de acceso, y lo puede decir sin aplicaciones de por medio. Ese número separa las dos bandas: por debajo de los tres mil megahercios se viaja en la banda congestionada que atraviesa paredes, y por encima se viaja en la banda rápida que casi no las atraviesa. La mitad de los problemas de cobertura de una casa se entienden con este dato solo: el aparato está en la banda que llega lejos y no en la que va rápido, o al contrario. Y ahí se decide si conviene separar las dos redes con nombres distintos, que es la solución que casi ningún router trae puesta.</p>
+    <p><strong>Cómo se comprueba:</strong> Con el teléfono conectado al wifi, pedile al sistema el estado del enlace y mirá la frecuencia y la potencia de la señal.</p>
+    <pre><code>adb shell cmd wifi status</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Dar permiso de ubicación permanente a una aplicación de análisis y olvidarse de quitarlo después.</li>
+<li>Cambiar el canal del router y dejar sin conexión a otros aparatos de la casa que no se reconectan solos.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/rethink">rethink</a>, <a href="https://github.com/termux/termux-app">termux/termux-app</a></p></div>
+
+  <p class="meta">Programa de VREM Software Development y colaboradores · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
   <h3>App Manager NG <span class="meta">· SysAdminDoc/AppManagerNG</span></h3>
   <p class="meta">
     <span class="sello n2">experto</span>
@@ -1920,6 +2101,51 @@ curl -s &quot;https://gitlab.com/api/v4/projects/fdroid%2Ffdroidclient/repositor
 
   <p class="meta">Programa de soupslurpr y diez personas más · ISC · medido el 3 de noviembre de 2026 · licencia ISC
      (<a href="https://github.com/soupslurpr/AppVerifier/blob/main/LICENSE.txt">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Battery Monitor <span class="meta">· tswistak/Battery-Monitor</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>46/100</strong> ·
+    ★108 · 186 días · última entrega 2026-10-04 ·
+    4,735 descargas en 10 entregas · 8 personas ·
+    5 flujos de compilación · incidencias 44 abiertas.
+  </p>
+  <p>Ver la carga, la temperatura, el voltaje y la salud de la batería con el número real, y seguir cómo cambia a lo largo del día en lugar de mirar el icono.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien sospecha que la batería dura menos que antes y quiere saber si es la batería o una aplicación, y para quien quiere que le avisen cuando el aparato se está calentando.
+     <br><strong>Para quién no es:</strong> para quien busca alargar la vida de la batería con trucos: esto mide y avisa, y los trucos de las tiendas no hacen nada que el sistema no haga ya.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá la aplicación desde su repositorio o desde F-Droid, y dale el permiso de notificaciones para que pueda avisar sin que la abras.</li>
+<li>Mirá la pantalla principal y anotá tres números: porcentaje, temperatura y voltaje, con el cargador conectado y sin él.</li>
+<li>Dejala una tarde entera funcionando sin cargar y volvé a mirar: la diferencia entre el comienzo y el final es el consumo real.</li>
+<li>Revisá la salud y la capacidad estimada: si el aparato tiene más de dos años, el número va a ser menor que el de la caja y eso es normal.</li>
+<li>Si aparece una temperatura alta en reposo, cruzá el dato con el capítulo del registro: hay algo corriendo que no debería.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés los números reales de tu batería, sabés cuánto baja en una tarde sin cargar y podés distinguir entre una batería gastada y una aplicación que despierta el aparato.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si los números no se mueven, el sistema está limitando la aplicación en segundo plano: sacala de la lista de optimización de batería.</li>
+<li>Si la temperatura sube sólo al cargar y con funda, el problema es la funda y no la batería.</li>
+<li>Si un aparato de dos años marca cien por ciento de salud, el sistema está estimando y no midiendo: cruzalo con el contador de carga del apartado de oficio.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Se desinstala sin dejar rastro en el sistema. Los avisos que hayas configurado se van con ella y la batería no cambia por haberla usado.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>El panel de batería de Android reparte culpas por tiempo de uso, y eso engaña: una aplicación que despierta el aparato cada minuto puede aparecer con un porcentaje bajo y ser la que se come la tarde. Los números que sí dicen algo son otros —temperatura, voltaje, capacidad estimada y ciclos— y están en la pantalla de esta aplicación, no en la del sistema.</p>
+<p>Battery Monitor es una bifurcación de un programa que existía desde dos mil nueve, Battery Indicator Pro de Darshan Computing. Tomasz Świstak tomó ese código en dos mil veintiséis, lo actualizó y lo publica con la misma licencia. La ficha declara las dos autorías porque las dos son ciertas, y ese detalle es el corazón del crédito en esta guía: una bifurcación no borra al autor original, lo continúa.</p>
+<p>Sus números son los de un proyecto joven: ciento ocho estrellas, ocho personas, cuarenta y seis puntos de nota y cuarenta y cuatro incidencias abiertas, más de las que cerró. Es lo que se espera de algo que lleva seis meses: mucho por hacer y alguien haciéndolo, con una entrega este mes y actividad el mismo día de esta medición.</p>
+    <p><strong>Límites:</strong></p><ul><li>La salud y la capacidad son estimaciones del sistema, no mediciones de la química de la batería.</li>
+<li>Para medir consumo real hace falta dejarla funcionando sin cargar, y eso lleva horas.</li>
+<li>El código es GPL-3.0, pero parte de los iconos son de otra licencia y hay que respetarla al reutilizarlos.</li>
+<li>Es un proyecto de una sola persona al frente: buena señal hoy, riesgo mañana.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El sistema lleva dos cuentas distintas de la batería y no siempre coinciden: el porcentaje redondeado que ves en la barra y el contador de carga en microamperios-hora, que es la medida física de lo que queda dentro. Con las dos se calcula la capacidad real del aparato con una regla de tres, y el resultado explica lo que ningún icono explica: por qué un teléfono que marca cien por ciento dura menos que cuando era nuevo. Además, el sistema informa la temperatura en décimas de grado, así que un valor de trescientos veinte son treinta y dos grados y no trescientos veinte. Ese detalle ha hecho que mucha gente crea que su batería se derrite.</p>
+    <p><strong>Cómo se comprueba:</strong> Con el teléfono conectado, pedile al sistema el estado de la batería y mirá el contador de carga junto al nivel: dividiendo uno por el otro sale la capacidad estimada en miliamperios-hora.</p>
+    <pre><code>adb shell dumpsys battery | grep -E &quot;level|temperature|voltage|Charge counter&quot;</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Creer que una aplicación puede «recalibrar» o «reparar» una batería gastada: la química no se arregla con software.</li>
+<li>Dejar la aplicación siempre en primer plano para vigilar el consumo y gastar así la batería que se quería ahorrar.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/termux/termux-app">termux/termux-app</a>, <a href="https://github.com/logfox">logfox</a></p></div>
+
+  <p class="meta">Bifurcación de Battery Indicator Pro de Darshan Computing, mantenida por Tomasz Świstak · GPL-3.0-or-later (código) y CC BY-SA 3.0 (parte de los iconos) · medido el 3 de noviembre de 2026 · licencia GPL-3.0-or-later
+     (<a href="https://github.com/tswistak/Battery-Monitor/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
 </article>
 
 <article class="ficha">
@@ -2590,6 +2816,51 @@ aapt dump badging copia-de-la-tienda.apk | grep -m1 package:</code></pre></div>
 
   <p class="meta">Programa de Emanuele Faranda · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
      (<a href="https://github.com/emanuele-f/PCAPdroid/blob/master/COPYING">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>QADB <span class="meta">· ludoven/QADB</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>33/100</strong> ·
+    ★176 · 515 días · última entrega 2026-07-29 ·
+    5,251 descargas en 10 entregas · 1 personas ·
+    2 flujos de compilación · incidencias 2 abiertas.
+  </p>
+  <p>Manejar la depuración de Android desde una computadora con una interfaz: orden directa, registro en vivo y el informe completo del sistema cuando hay que mandar un parte de avería.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien repara el teléfono de otros y necesita sentarse en una computadora a mirar, y para quien tiene que producir el informe que un mantenedor pide antes de contestar.
+     <br><strong>Para quién no es:</strong> para quien quiere arreglar su propio teléfono sin computadora: para eso están las otras cinco fichas de este capítulo, que funcionan en el aparato.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Bajá el programa para tu sistema —Linux, macOS o Windows— desde las entregas del repositorio, y comprobá que la versión es la última publicada.</li>
+<li>Instalá las herramientas de depuración de Android en la computadora, que son las que hablan con el aparato; el programa las usa pero no las trae.</li>
+<li>Conectá el teléfono con la depuración activa y aceptá el aviso en la pantalla del aparato.</li>
+<li>Abrí la vista de registro y la de orden directa: la primera muestra lo que pasa, la segunda permite preguntar.</li>
+<li>Generá el informe completo del sistema a un archivo, ábrilo y mirá cuánto ocupa antes de mandarlo a nadie.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés el aparato conectado a la computadora, ves su registro en vivo, podés escribir órdenes y generaste el informe completo del sistema en un archivo.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el programa abre y no encuentra el aparato, faltan las herramientas de depuración en la computadora o el cable sólo carga.</li>
+<li>Si el aparato aparece como no autorizado, falta aceptar el aviso en su pantalla; el del teléfono, no el de la computadora.</li>
+<li>Si el informe tarda demasiado, es normal: el sistema recorre todos sus servicios y en un aparato lleno puede llevar varios minutos.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No instala nada en el teléfono. En la computadora se borra la carpeta del programa y los informes generados, y el apartado de archivos que hayas copiado queda donde lo pusiste.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Android trae de fábrica la capacidad de producir su propio informe de avería: un archivo comprimido con el estado de todos sus servicios, el registro de las últimas horas, el historial de batería y la lista de aplicaciones. Es lo primero que pide cualquier mantenedor serio y casi nadie sabe que existe ni cómo pedirlo sin una orden escrita. Este capítulo termina ahí a propósito: el parte de avería no se inventa, se genera.</p>
+<p>QADB pone interfaz a ese trabajo en Linux, macOS y Windows. Su nota es la más baja de las seis —treinta y tres, una sola persona, sin entrega desde julio— y aun así está en la guía por una razón concreta: resuelve el momento en que el teléfono ya no ayuda y hace falta una computadora. Se declara su debilidad al lado de su utilidad, que es lo que esta guía hace con todas.</p>
+<p>Y su licencia es la más permisiva de las seis, MIT: se puede usar, copiar y modificar con sólo conservar el aviso. La comparación con las otras cinco —GPL y AGPL— es una buena última lección del capítulo: la licencia no mide la calidad ni el compromiso; mide qué te dejan hacer con el código.</p>
+    <p><strong>Límites:</strong></p><ul><li>Es un programa de computadora: no sirve si el aparato está solo y no hay dónde conectarlo.</li>
+<li>Necesita las herramientas de depuración de Android instaladas aparte.</li>
+<li>Un solo mantenedor y sin entrega desde julio: se usa y se tiene presente.</li>
+<li>El informe completo contiene muchísima información del aparato y hay que leerlo antes de compartirlo.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El informe de avería de Android no es un registro: es una fotografía del sistema entero, tomada por el propio sistema, con el estado de cada servicio, las últimas horas de registro en todos sus canales, el historial de batería y la lista completa de aplicaciones instaladas con sus versiones. Se genera con una sola orden y tarda minutos porque recorre todo. La diferencia con mandar el registro es la misma que hay entre mandar una foto del tablero y mandar el aparato al taller: con el informe, quien mantiene el programa puede reconstruir lo que pasó sin hacerte diez preguntas. Y esa es, en el fondo, la tesis de este capítulo.</p>
+    <p><strong>Cómo se comprueba:</strong> Con el teléfono conectado y desbloqueado, pedile al sistema que genere su informe en un archivo y esperá a que termine; después abrí el archivo y mirá su tamaño y su lista de contenidos antes de enviarlo.</p>
+    <pre><code>adb bugreport averia.zip</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Mandar el informe completo sin revisarlo: llevan números de teléfono, cuentas y rutas de archivos.</li>
+<li>Dejar la depuración activa después de reparar el aparato, con lo que cualquier computadora autorizada ayer sigue teniendo llave.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/scrcpy">scrcpy</a>, <a href="https://github.com/termux/termux-app">termux/termux-app</a></p></div>
+
+  <p class="meta">Programa de ludoven · MIT · medido el 3 de noviembre de 2026 · licencia MIT
+     (<a href="https://github.com/ludoven/QADB/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
 </article>
 
 <article class="ficha">

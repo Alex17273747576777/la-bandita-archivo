@@ -1,0 +1,75 @@
+{
+ "id": "logfox",
+ "nombre": "LogFox",
+ "repo": "F0x1d/LogFox",
+ "autores": [
+  {
+   "nombre": "Maksim Zoteev",
+   "enlace": "https://github.com/F0x1d"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/F0x1d/LogFox/blob/master/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Leer el registro del sistema Android en el propio teléfono, con aviso de cierres y bloqueos, y exportarlo para pedir ayuda sin depender de una computadora.",
+ "capitulo": 11,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien ve que una aplicación se cierra sola y quiere saber por qué, y para quien tiene que mandar el fallo a quien programa desde el mismo aparato donde ocurre.",
+  "no_es": "para quien busca un programa de limpieza ni una herramienta que arregle: esto lee y muestra, no toca nada, y el arreglo sale de lo que se lee."
+ },
+ "manos": [
+  "Instalá el lector desde su repositorio o desde F-Droid, y comprobá que la entrega coincide con la que el repositorio publica ese día.",
+  "Abrilo y dale la mano que necesita: sin permiso especial sólo ve una parte del registro; con Shizuku o con depuración por cable ve el registro completo.",
+  "Provocá el fallo a propósito, con el lector abierto y grabando, para que quede en el archivo.",
+  "Filtrá por el nombre del paquete de la aplicación que falló y por el nivel de error: la lista pasa de miles de líneas a unas pocas.",
+  "Exportá el archivo comprimido y abrilo antes de compartirlo: trae los datos del aparato y conviene quitar lo que no hace falta."
+ ],
+ "resultado_esperado": "Tenés en la mano la línea exacta del fallo, con el nombre del paquete y la causa encadenada, y un archivo listo para enviar que no expone más de lo necesario.",
+ "si_sale_mal": [
+  "Si no aparece nada en el registro, el filtro está mal puesto o el lector no tiene el acceso suficiente: probá con el nombre del paquete solo, sin nivel.",
+  "Si el registro se llena de ruido de otros programas, ordená por el identificador del proceso de la aplicación que falla en lugar de por texto.",
+  "Si el fallo no se reproduce con el lector abierto, dejalo grabando y usá el teléfono normal: el aviso de cierre salta solo cuando ocurre."
+ ],
+ "deshacer": "Se desinstala como cualquier aplicación y no queda rastro: no modifica el sistema, no cambia ajustes y el archivo exportado vive en tu almacenamiento hasta que lo borres.",
+ "cabeza": [
+  "El registro de Android no es un archivo, son varios canales separados que el sistema escribe al mismo tiempo: el de las aplicaciones, el del sistema, el de los fallos, el de los eventos. Casi todo el mundo lee el primero y por eso no encuentra nada: un cierre de aplicación vive en el canal de fallos, y un reinicio del sistema se explica en el de eventos.",
+  "LogFox hace tres cosas que lo separan de los lectores viejos. Conecta con Shizuku o con la depuración, así que ve el registro completo sin root. Avisa por notificación cuando una aplicación se cierra o se bloquea, sin que tengas que estar mirando. Y exporta un archivo comprimido con los datos del aparato incluidos, que es exactamente lo que un mantenedor necesita para no preguntar cinco cosas antes de empezar.",
+  "Su nota es cuarenta y siete, con diecisiete personas y cuatro flujos de integración: un proyecto vivo pero tranquilo, sin entrega nueva desde marzo. Para una herramienta de diagnóstico eso está bien, y conviene decirlo en voz alta: no hace falta que un lector de registros cambie cada mes."
+ ],
+ "limites": [
+  "Sin Shizuku, sin root y sin cable, el sistema sólo le entrega a las aplicaciones una parte del registro.",
+  "No interpreta el fallo por vos: muestra las líneas y el criterio sigue siendo tuyo.",
+  "Ocupa memoria mientras graba; en un aparato con poca memoria conviene grabar el rato justo y cerrar.",
+  "El archivo exportado contiene datos personales; compartirlo sin leerlo es el error más común de este oficio."
+ ],
+ "oficio": {
+  "dato": "Android escribe el registro en canales distintos y el que importa para un cierre de aplicación es el de fallos, no el principal. Cuando alguien dice «miré el logcat y no hay nada», casi siempre está mirando un canal donde el fallo no aparece. El sistema separa main, system, crash y events justamente para que se pueda leer el que corresponde; el canal de fallos conserva las últimas excepciones aunque el aparato lleve horas encendido, y es la primera parada de cualquier diagnóstico. Saber esto convierte una búsqueda a ciegas entre cien mil líneas en una consulta de cincuenta.",
+  "como_comprobar": "Con el teléfono conectado, pedí sólo el canal de fallos y mirá el final: ahí están las excepciones con su paquete y su causa encadenada.",
+  "comando": "adb logcat -b crash -d | tail -50"
+ },
+ "riesgos": [
+  "Exportar el registro completo y publicarlo en un grupo, con nombres de cuentas y rutas de archivos a la vista.",
+  "Dar acceso de depuración a una computadora que no es tuya para leer el registro y dejar la puerta abierta después."
+ ],
+ "alternativas": [
+  "ludoven/QADB",
+  "termux/termux-app"
+ ],
+ "senal": {
+  "estrellas": 1380,
+  "nota": 47,
+  "edad_dias": 1608,
+  "ultima_entrega": "2026-03-01",
+  "descargas_10": 24253,
+  "contribuyentes": 17,
+  "repo_mb": 4.7,
+  "ci": 4,
+  "incidencias": "28 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Maksim Zoteev · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

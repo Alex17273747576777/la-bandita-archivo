@@ -1,0 +1,79 @@
+{
+ "id": "battery-monitor",
+ "nombre": "Battery Monitor",
+ "repo": "tswistak/Battery-Monitor",
+ "autores": [
+  {
+   "nombre": "Tomasz Świstak (bifurcación actual)",
+   "enlace": "https://github.com/tswistak"
+  },
+  {
+   "nombre": "Darshan Computing (origen, 2009-2020)",
+   "enlace": "https://github.com/DarshanComputing"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0-or-later",
+  "archivo": "https://github.com/tswistak/Battery-Monitor/blob/master/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Ver la carga, la temperatura, el voltaje y la salud de la batería con el número real, y seguir cómo cambia a lo largo del día en lugar de mirar el icono.",
+ "capitulo": 11,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien sospecha que la batería dura menos que antes y quiere saber si es la batería o una aplicación, y para quien quiere que le avisen cuando el aparato se está calentando.",
+  "no_es": "para quien busca alargar la vida de la batería con trucos: esto mide y avisa, y los trucos de las tiendas no hacen nada que el sistema no haga ya."
+ },
+ "manos": [
+  "Instalá la aplicación desde su repositorio o desde F-Droid, y dale el permiso de notificaciones para que pueda avisar sin que la abras.",
+  "Mirá la pantalla principal y anotá tres números: porcentaje, temperatura y voltaje, con el cargador conectado y sin él.",
+  "Dejala una tarde entera funcionando sin cargar y volvé a mirar: la diferencia entre el comienzo y el final es el consumo real.",
+  "Revisá la salud y la capacidad estimada: si el aparato tiene más de dos años, el número va a ser menor que el de la caja y eso es normal.",
+  "Si aparece una temperatura alta en reposo, cruzá el dato con el capítulo del registro: hay algo corriendo que no debería."
+ ],
+ "resultado_esperado": "Tenés los números reales de tu batería, sabés cuánto baja en una tarde sin cargar y podés distinguir entre una batería gastada y una aplicación que despierta el aparato.",
+ "si_sale_mal": [
+  "Si los números no se mueven, el sistema está limitando la aplicación en segundo plano: sacala de la lista de optimización de batería.",
+  "Si la temperatura sube sólo al cargar y con funda, el problema es la funda y no la batería.",
+  "Si un aparato de dos años marca cien por ciento de salud, el sistema está estimando y no midiendo: cruzalo con el contador de carga del apartado de oficio."
+ ],
+ "deshacer": "Se desinstala sin dejar rastro en el sistema. Los avisos que hayas configurado se van con ella y la batería no cambia por haberla usado.",
+ "cabeza": [
+  "El panel de batería de Android reparte culpas por tiempo de uso, y eso engaña: una aplicación que despierta el aparato cada minuto puede aparecer con un porcentaje bajo y ser la que se come la tarde. Los números que sí dicen algo son otros —temperatura, voltaje, capacidad estimada y ciclos— y están en la pantalla de esta aplicación, no en la del sistema.",
+  "Battery Monitor es una bifurcación de un programa que existía desde dos mil nueve, Battery Indicator Pro de Darshan Computing. Tomasz Świstak tomó ese código en dos mil veintiséis, lo actualizó y lo publica con la misma licencia. La ficha declara las dos autorías porque las dos son ciertas, y ese detalle es el corazón del crédito en esta guía: una bifurcación no borra al autor original, lo continúa.",
+  "Sus números son los de un proyecto joven: ciento ocho estrellas, ocho personas, cuarenta y seis puntos de nota y cuarenta y cuatro incidencias abiertas, más de las que cerró. Es lo que se espera de algo que lleva seis meses: mucho por hacer y alguien haciéndolo, con una entrega este mes y actividad el mismo día de esta medición."
+ ],
+ "limites": [
+  "La salud y la capacidad son estimaciones del sistema, no mediciones de la química de la batería.",
+  "Para medir consumo real hace falta dejarla funcionando sin cargar, y eso lleva horas.",
+  "El código es GPL-3.0, pero parte de los iconos son de otra licencia y hay que respetarla al reutilizarlos.",
+  "Es un proyecto de una sola persona al frente: buena señal hoy, riesgo mañana."
+ ],
+ "oficio": {
+  "dato": "El sistema lleva dos cuentas distintas de la batería y no siempre coinciden: el porcentaje redondeado que ves en la barra y el contador de carga en microamperios-hora, que es la medida física de lo que queda dentro. Con las dos se calcula la capacidad real del aparato con una regla de tres, y el resultado explica lo que ningún icono explica: por qué un teléfono que marca cien por ciento dura menos que cuando era nuevo. Además, el sistema informa la temperatura en décimas de grado, así que un valor de trescientos veinte son treinta y dos grados y no trescientos veinte. Ese detalle ha hecho que mucha gente crea que su batería se derrite.",
+  "como_comprobar": "Con el teléfono conectado, pedile al sistema el estado de la batería y mirá el contador de carga junto al nivel: dividiendo uno por el otro sale la capacidad estimada en miliamperios-hora.",
+  "comando": "adb shell dumpsys battery | grep -E \"level|temperature|voltage|Charge counter\""
+ },
+ "riesgos": [
+  "Creer que una aplicación puede «recalibrar» o «reparar» una batería gastada: la química no se arregla con software.",
+  "Dejar la aplicación siempre en primer plano para vigilar el consumo y gastar así la batería que se quería ahorrar."
+ ],
+ "alternativas": [
+  "termux/termux-app",
+  "logfox"
+ ],
+ "senal": {
+  "estrellas": 108,
+  "nota": 46,
+  "edad_dias": 186,
+  "ultima_entrega": "2026-10-04",
+  "descargas_10": 4735,
+  "contribuyentes": 8,
+  "repo_mb": 29.1,
+  "ci": 5,
+  "incidencias": "44 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Bifurcación de Battery Indicator Pro de Darshan Computing, mantenida por Tomasz Świstak · GPL-3.0-or-later (código) y CC BY-SA 3.0 (parte de los iconos) · medido el 3 de noviembre de 2026"
+}
