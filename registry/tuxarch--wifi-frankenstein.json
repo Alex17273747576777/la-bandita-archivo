@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#tuxarch/WIFI-Frankenstein",
   "sha256": "a5b023179342e843a94ddec8cec94dd5db211ef6a17139cacf8b40f875d3d21c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "tuxarch--wifi-frankenstein",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4d85d274c57eccc9eb89f41f3dc1fec280e9e7ba",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4d85d274c57eccc9eb89f41f3dc1fec280e9e7ba"
  },
  "repo": "tuxarch/WIFI-Frankenstein"
 }

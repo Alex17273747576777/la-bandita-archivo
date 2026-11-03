@@ -1,9 +1,9 @@
 # PIEZA 63 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/63-La-segunda-fila-del-lector-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `64e91889d9bfb2ff8a3cab0731e0bafad7767bf8f99ff0ef42a35dc751d1e2ed`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3739 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3739 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 865 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 5 · Apache-2.0 2 · MPL-2.0 1 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/63-La-segunda-fila-del-lector-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3739 caracteres ═══
 
@@ -95,23 +95,23 @@ Hay release de esta semana: **wikimedia/apps-android-wikipedia** publicó latest
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1735 caracteres ═══
+═══ MENSAJE 4 de 5 · 1725 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 63*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• floccusaddon/floccus — ★8.614 (+11) · empujó en las últimas horas · MPL-2.0 · última release v5.12.0 (23-oct-2026)
-• samuelclay/NewsBlur — ★7.676 (+2) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
-• ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (83 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
-• spacecowboy/Feeder — ★3.104 (+8) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)
-• wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (31-oct-2026)
-• SimonSchubert/LinuxCommandLibrary — ★2.091 (+5) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release v4.9.1 (14-oct-2026)
-• plateaukao/einkbro — ★2.051 (+3) · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
-• mateusz-bak/openreads — ★1.668 (+4) · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · GPL-2.0 · última release v2.11.0 (9-sep-2025)
-• Livinglist/Hacki — ★1.638 (+2) · empujó en las últimas horas · GPL-3.0 · última release v3.8.2 (11-oct-2026)
-• astubenbord/paperless-mobile — ★1.494 (+3) · *dormido*: sin empujar desde el 1-jun-2026 (154 días) · GPL-3.0 · última release v4.5.0 (16-abr-2026)
-• jocmp/capyreader — ★1.441 (+8) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 2026.10.1215 (27-oct-2026)
+• floccusaddon/floccus — ★8.614 (+11) · empujó el 1-nov-2026 (hace 2 días) · MPL-2.0 · última release v5.12.0 (23-oct-2026)
+• samuelclay/NewsBlur — ★7.677 (+3) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
+• ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (84 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
+• spacecowboy/Feeder — ★3.107 (+11) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)
+• wikimedia/apps-android-wikipedia — ★3.052 (+2) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
+• SimonSchubert/LinuxCommandLibrary — ★2.093 (+7) · empujó en las últimas horas · Apache-2.0 · última release v4.9.1 (14-oct-2026)
+• plateaukao/einkbro — ★2.053 (+5) · empujó el 30-oct-2026 (hace 4 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
+• mateusz-bak/openreads — ★1.668 (+4) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · GPL-2.0 · última release v2.11.0 (9-sep-2025)
+• Livinglist/Hacki — ★1.640 (+4) · empujó en las últimas horas · GPL-3.0 · última release v3.8.2 (11-oct-2026)
+• astubenbord/paperless-mobile — ★1.495 (+4) · *dormido*: sin empujar desde el 1-jun-2026 (155 días) · GPL-3.0 · última release v4.5.0 (16-abr-2026)
+• jocmp/capyreader — ★1.442 (+9) · empujó en las últimas horas · GPL-3.0 · última release 2026.11.1216 (2-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

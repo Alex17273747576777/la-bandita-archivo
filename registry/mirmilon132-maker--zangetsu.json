@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mirmilon132-maker/Zangetsu",
   "sha256": "591f6179c412cd5e00f3978534c3fa43982281e552f44a8d41d6304f4e1c7032"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c0250ec781a6c593c180ef2742cb15ad58b85bc9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c0250ec781a6c593c180ef2742cb15ad58b85bc9"
  },
  "repo": "mirmilon132-maker/Zangetsu"
 }

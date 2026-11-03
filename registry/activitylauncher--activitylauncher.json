@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-26",
+  "release_en": "2019-11-01",
   "semantica_http": 200,
-  "ultima_release": "2.5.0-alpha.1",
+  "ultima_release": "1.7.0",
   "ultimo_push": "2026-10-26"
  },
  "descripcion": "Activity launcher creates shortcuts for any installed app and hidden activities to launch them with ease",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "ISC",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2043,
+  "stars": 2051,
   "stars_por_mes": null
  },
  "nombre": "ActivityLauncher",

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2014-02-27",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "0.9.8.1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "A podcast manager for Android",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": 4.5,
   "scorecard_en": "2026-08-24",
-  "stars": 8257,
+  "stars": 8261,
   "stars_por_mes": null
  },
  "nombre": "AntennaPod",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "08107984b83fa0def9f6a1d2c244b1d9d1161322",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:08107984b83fa0def9f6a1d2c244b1d9d1161322"
  },
  "repo": "AntennaPod/AntennaPod",
  "web": "https://antennapod.org"

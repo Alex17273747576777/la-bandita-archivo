@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#cxnker/yokai",
   "sha256": "b55adf5026dd8939d04ba256f5c1b0fddefea81d4635f57298db6c75f1fab700"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "cxnker--yokai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7427d9c6f0a289c7196e70e0b6057bfadbbde070",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7427d9c6f0a289c7196e70e0b6057bfadbbde070"
  },
  "repo": "cxnker/yokai"
 }

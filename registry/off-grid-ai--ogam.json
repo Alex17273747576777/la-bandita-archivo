@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-02-07",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v0.0.2",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on your phone or Mac — GGUF LLMs, vision, Whisper speech-to-text, Stable Diffusion, tool calling, and local-network servers. Runs on your CPU, GPU, or NPU. No account, no API key, zero data leaves your device.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3313,
+  "stars": 3319,
   "stars_por_mes": null
  },
  "nombre": "OGAM",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "bd528d21fa032b78ff7518675bc13748445bbec2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:bd528d21fa032b78ff7518675bc13748445bbec2"
  },
  "repo": "off-grid-ai/OGAM",
  "web": "getoffgridai.co/pro"

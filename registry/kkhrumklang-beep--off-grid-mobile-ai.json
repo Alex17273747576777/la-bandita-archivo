@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kkhrumklang-beep/off-grid-mobile-ai",
   "sha256": "14dd7354a9ec54213a247eb55ed94ac862a49ec4896dfd888a56c72517b2b29a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kkhrumklang-beep--off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9e27f4dc35f85c07c8ba13351293859440896d3c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9e27f4dc35f85c07c8ba13351293859440896d3c"
  },
  "repo": "kkhrumklang-beep/off-grid-mobile-ai"
 }

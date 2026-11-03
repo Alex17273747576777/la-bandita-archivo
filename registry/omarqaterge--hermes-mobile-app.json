@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-05",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.8.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Your agent, on your phone. A native Android app for Hermes Agent, running entirely on-device (Termux).",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 93,
+  "stars": 98,
   "stars_por_mes": null
  },
  "nombre": "hermes-mobile-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e33bd2511a1120db28d48363bfb30655decde21d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e33bd2511a1120db28d48363bfb30655decde21d"
  },
  "repo": "omarqaterge/hermes-mobile-app"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2020-05-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.5",
   "ultimo_push": "2026-04-22"
  },
  "descripcion": "Use your tablet as graphic tablet/touch screen on your computer.",
@@ -21,25 +21,25 @@
  "id": "h-m-h--weylus",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9735,
+  "stars": 9745,
   "stars_por_mes": null
  },
  "nombre": "Weylus",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "38a01a8f8e429500c7e9f67fc1c88ca37a4d1e93",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:38a01a8f8e429500c7e9f67fc1c88ca37a4d1e93"
  },
  "repo": "H-M-H/Weylus"
 }

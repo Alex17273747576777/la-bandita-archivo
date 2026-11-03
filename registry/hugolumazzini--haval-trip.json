@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-21",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.9.17",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e55d3ac692858d1c23ddfb3b99e5a070ac4769f9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e55d3ac692858d1c23ddfb3b99e5a070ac4769f9"
  },
  "repo": "hugolumazzini/haval-trip"
 }

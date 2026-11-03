@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-11-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0+1",
   "ultimo_push": "2026-07-12"
  },
  "descripcion": "Monitor running services on your Android device. With a clean and intuitive interface, you can easily view system and user apps, check their status efficiently.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 463,
+  "stars": 465,
   "stars_por_mes": null
  },
  "nombre": "running_services_monitor",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "772e266fb7dd95c76a64b74d10b33af8b95122ab",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:772e266fb7dd95c76a64b74d10b33af8b95122ab"
  },
  "repo": "biplobsd/running_services_monitor",
  "web": "https://biplobsd.github.io/apps/rsm"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Shape1390/CodeAssist",
   "sha256": "c60c87f291c120961940e42bf0b3a8331721f36fa967dd65d6e75b85d2359fe8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shape1390--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "18de33ca1afb1b6d669968fcb2c619dce56bc246",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:18de33ca1afb1b6d669968fcb2c619dce56bc246"
  },
  "repo": "Shape1390/CodeAssist"
 }

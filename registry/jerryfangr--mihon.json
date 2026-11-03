@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jerryfangr/mihon",
   "sha256": "f88f6fd9e3a2e9f19b387e203ed0883e0f69275e8b635d81cccb51b8692edbca"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jerryfangr--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c5655e8803bc32d0931657f0b7bc6afeab70feaf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c5655e8803bc32d0931657f0b7bc6afeab70feaf"
  },
  "repo": "jerryfangr/mihon"
 }

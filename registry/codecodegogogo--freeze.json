@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-15",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "一个在hail的基础上继续开发的APP停用/隐藏项目，支持root等模式",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13,
+  "stars": 14,
   "stars_por_mes": null
  },
  "nombre": "Freeze",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "51abe5df75088f27e50175391c891a894c13a16f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:51abe5df75088f27e50175391c891a894c13a16f"
  },
  "repo": "codecodegogogo/Freeze"
 }

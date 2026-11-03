@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10300,
+  "stars": 10304,
   "stars_por_mes": null
  },
  "nombre": "Piped",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "35336c938badd2aec2be20c9290154ed61ad28e2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:35336c938badd2aec2be20c9290154ed61ad28e2"
  },
  "repo": "TeamPiped/Piped",
  "web": "https://piped.video"

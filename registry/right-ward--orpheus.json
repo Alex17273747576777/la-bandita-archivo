@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-08",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.3.1",
   "ultimo_push": "2026-10-14"
  },
  "descripcion": "Preserve your Android environment through destructive system changes.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "eeaee79a1e0cfba7f85ccdc1e5e118bb96e2a443",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:eeaee79a1e0cfba7f85ccdc1e5e118bb96e2a443"
  },
  "repo": "right-ward/orpheus",
  "web": "https://right-ward.github.io/orpheus/"

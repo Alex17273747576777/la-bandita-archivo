@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2023-05-16",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.04",
   "ultimo_push": "2024-12-29"
  },
  "descripcion": "Language Selector let users select individual app languages (Android 13+)",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 785,
+  "stars": 788,
   "stars_por_mes": null
  },
  "nombre": "Language-Selector",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ca8e4fae32cd0481693d79b84599ad0fd5a04d03",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ca8e4fae32cd0481693d79b84599ad0fd5a04d03"
  },
  "repo": "VegaBobo/Language-Selector"
 }

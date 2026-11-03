@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Petalrain224/Stellar",
   "sha256": "ceaef737798d2bd9772a921c7e5a3b07090d3b164418428426826fea56a4e103"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "petalrain224--stellar",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "41246e776faf4e0270f3bdeff00fd26079c8f46b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:41246e776faf4e0270f3bdeff00fd26079c8f46b"
  },
  "repo": "Petalrain224/Stellar"
 }

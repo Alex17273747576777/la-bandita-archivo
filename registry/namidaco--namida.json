@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-10-05",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-26"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "A Beautiful and Feature-rich Music & Video Player with Youtube Support, Built in Flutter",
  "evidencia": {
@@ -21,26 +21,26 @@
  "id": "namidaco--namida",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («source available»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6756,
+  "stars": 6779,
   "stars_por_mes": null
  },
  "nombre": "namida",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "10123d91e2527682efc72d877603a121d85d8fbe",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:10123d91e2527682efc72d877603a121d85d8fbe"
  },
  "repo": "namidaco/namida"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#IamChessman/Anime-batch-downloader-gui",
   "sha256": "f94a594a1b7e9f8ef19523aaa455869252144c2af34302cbe5046c62e2b9c29c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6c6092670dc5cd494e995a85318be134f4b958af",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6c6092670dc5cd494e995a85318be134f4b958af"
  },
  "repo": "IamChessman/Anime-batch-downloader-gui"
 }

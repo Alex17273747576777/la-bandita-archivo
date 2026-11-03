@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "preview-2",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "自重进阶 v1.0.0｜Android 自重训练 App：188 个动作、训练记录与进阶统计",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ba2d25a4a6e336f6f453bb2dabf5a7c2da683f3b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ba2d25a4a6e336f6f453bb2dabf5a7c2da683f3b"
  },
  "repo": "kyirejson/calisthenics-app",
  "web": "https://github.com/kyirejson/calisthenics-app/releases/latest"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#imsajjadul/mpvBDIX",
   "sha256": "25c835ab7c689d73e8b9dadcce776679d4fec48380deece2028b615df5b333e3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "imsajjadul--mpvbdix",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d3d6d8a983c91a6ac3f8ca5bb04d0dc728ca84ad",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d3d6d8a983c91a6ac3f8ca5bb04d0dc728ca84ad"
  },
  "repo": "imsajjadul/mpvBDIX"
 }

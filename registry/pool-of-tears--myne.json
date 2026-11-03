@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-01-07",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0-beta",
   "ultimo_push": "2026-09-21"
  },
  "descripcion": "An android app to download & read ebooks from Project Gutenberg, built with  Jetpack Compose.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1541,
+  "stars": 1542,
   "stars_por_mes": null
  },
  "nombre": "Myne",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7ec1fdb19ebf19de13d7b61bcb52b3ce4878a579",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7ec1fdb19ebf19de13d7b61bcb52b3ce4878a579"
  },
  "repo": "Pool-Of-Tears/Myne",
  "web": "https://pool-of-tears.github.io"

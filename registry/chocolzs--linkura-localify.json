@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-07-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.1",
   "ultimo_push": "2026-07-02"
  },
  "descripcion": "林库拉本地化插件 / Link！Like！LoveLive！Localify plugin / リンクラ / Linkura Localify / LoveLive Translation / llll",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "38dfc9a801f3d43187bd09d1dc720d44486d37b2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:38dfc9a801f3d43187bd09d1dc720d44486d37b2"
  },
  "repo": "ChocoLZS/linkura-localify"
 }

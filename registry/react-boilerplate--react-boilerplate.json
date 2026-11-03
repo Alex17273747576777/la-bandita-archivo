@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2015-11-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.3.0",
   "ultimo_push": "2023-03-23"
  },
  "descripcion": "🔥 A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 29450,
+  "stars": 29447,
   "stars_por_mes": null
  },
  "nombre": "react-boilerplate",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d19099afeff64ecfb09133c06c1cb18c0d40887e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d19099afeff64ecfb09133c06c1cb18c0d40887e"
  },
  "repo": "react-boilerplate/react-boilerplate",
  "web": "https://www.reactboilerplate.com"

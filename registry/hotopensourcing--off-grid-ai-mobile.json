@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#HotOpenSourcing/off-grid-ai-mobile",
   "sha256": "fe8763dff0e8a98be8ca5194888516f932f3fbd8561b9d43d100d0478c604912"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hotopensourcing--off-grid-ai-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e65db825b35d041f54f109e4c967065dd076c05d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e65db825b35d041f54f109e4c967065dd076c05d"
  },
  "repo": "HotOpenSourcing/off-grid-ai-mobile"
 }

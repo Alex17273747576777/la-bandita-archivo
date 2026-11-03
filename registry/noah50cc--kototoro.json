@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Noah50cc/Kototoro",
   "sha256": "39ed1c3425384b24c5f16291c0a370e1ecaa64b037a304fa654d8a2182c37dfb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "noah50cc--kototoro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2bea99db433fd3c5d8094088c7dac8ee3437a613",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2bea99db433fd3c5d8094088c7dac8ee3437a613"
  },
  "repo": "Noah50cc/Kototoro"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-15",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.1",
   "ultimo_push": "2026-10-21"
  },
  "descripcion": "PUNK Companion - Automação Total, Visão Remota e Telemetria para Android via Hermes Agent & Shizuku",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6c3e5a0ab270990a18dbb6a39c130fa249d60790",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6c3e5a0ab270990a18dbb6a39c130fa249d60790"
  },
  "repo": "felipegatoloko10/punk-app"
 }

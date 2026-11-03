@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#letaken-olam/InstallerX-Revived",
   "sha256": "b4fbeac5e5db198a49f93fde572eb763e547835659d704fd14750e292b88d83c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "letaken-olam--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f48394ab0cd76e8e45c991f37ca8011faf3c9ebf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f48394ab0cd76e8e45c991f37ca8011faf3c9ebf"
  },
  "repo": "letaken-olam/InstallerX-Revived"
 }

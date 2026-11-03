@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#LIVINUX/TinyAI",
   "sha256": "f463a46ffbf77b48638bcbf44868d68abbd8c6b3e18043206da9a076030a0f5e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "livinux--tinyai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f2049c6d58b89f02b1911d0ac87804e751cf6e69",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f2049c6d58b89f02b1911d0ac87804e751cf6e69"
  },
  "repo": "LIVINUX/TinyAI"
 }

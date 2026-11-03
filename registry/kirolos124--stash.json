@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kirolos124/Stash",
   "sha256": "d54c03184b5ef4d1321133e90dc63cc67feed953ed8ab29e9c54cc84b24360f5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kirolos124--stash",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9b9772e4ca40d7b8aa063df2285c706c763a30fd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9b9772e4ca40d7b8aa063df2285c706c763a30fd"
  },
  "repo": "Kirolos124/Stash"
 }

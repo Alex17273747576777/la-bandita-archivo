@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#videlhusain-ship-it/komikku",
   "sha256": "31396ba8bfaf7c02c6cb4b2966ec2f71651718eed7428f60067128d67d12570a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "videlhusain-ship-it--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "936e25bf99af29e059f06c4ad613ab62df9ae53e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:936e25bf99af29e059f06c4ad613ab62df9ae53e"
  },
  "repo": "videlhusain-ship-it/komikku"
 }

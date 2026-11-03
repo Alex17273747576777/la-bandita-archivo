@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2025-09-10",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v7.1.2",
   "ultimo_push": "2026-03-13"
  },
  "descripcion": "Fork of OwnDroid, A Device Policy Controller (DPC) app. Only used by me :)",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 133,
+  "stars": 134,
   "stars_por_mes": null
  },
  "nombre": "MDPC",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1344d28856334149755a6b0b0b07a0f49910eb0e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1344d28856334149755a6b0b0b07a0f49910eb0e"
  },
  "repo": "MrRare2/MDPC"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "Rootless Android app powered by Shizuku to enable VoLTE, IMS settings, and network tools on Samsung One UI & Android devices without PC or root.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e7c72300d75d973f4c1aba83c842b5ca085d34f7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e7c72300d75d973f4c1aba83c842b5ca085d34f7"
  },
  "repo": "HeshamNoaman/VoLTEEnabler"
 }

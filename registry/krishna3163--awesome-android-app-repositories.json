@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "696be62e1bfff12f85844d0ea22b16606da12390",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:696be62e1bfff12f85844d0ea22b16606da12390"
  },
  "repo": "krishna3163/awesome-android-app-repositories",
  "web": "https://github.com/krishna3163/awesome-android-app-repositories#readme"

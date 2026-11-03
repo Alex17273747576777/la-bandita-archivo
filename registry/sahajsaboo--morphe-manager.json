@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#sahajsaboo/morphe-manager",
   "sha256": "37c1605bd9e86413797f2fa03a96d73d1fa0f92846312106a0d4160fcd7fa63d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "sahajsaboo--morphe-manager",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "219fc50df892fc9bf8de16ca324412094d595d27",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:219fc50df892fc9bf8de16ca324412094d595d27"
  },
  "repo": "sahajsaboo/morphe-manager"
 }

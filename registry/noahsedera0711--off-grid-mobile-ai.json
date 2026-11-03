@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#noahsedera0711/off-grid-mobile-ai",
   "sha256": "ff6e5744e901cda240eae4136dd0a6e259b10ebed9b827137fcea13194c3c885"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "noahsedera0711--off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "40c2ad477266a7d597a3564674eefbe7e804714f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:40c2ad477266a7d597a3564674eefbe7e804714f"
  },
  "repo": "noahsedera0711/off-grid-mobile-ai"
 }

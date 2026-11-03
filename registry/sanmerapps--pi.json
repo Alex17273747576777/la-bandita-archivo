@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-11-21",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "PackageInstaller",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 705,
+  "stars": 707,
   "stars_por_mes": null
  },
  "nombre": "PI",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f5ddf03aa9fe5665564b8aa64217e5ee470fbee9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f5ddf03aa9fe5665564b8aa64217e5ee470fbee9"
  },
  "repo": "SanmerApps/PI"
 }

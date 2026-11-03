@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-05",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-05"
  },
  "descripcion": "端上给 TikTok 打补丁并安装的小工具：LSPatch 集成模式 + 内嵌 Xposed 模块（美区 SIM 伪装），保留数据。由 灵曦以茗 制作",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "381c15306cf73adc2729cad85f2e6eb04fcf4f01",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:381c15306cf73adc2729cad85f2e6eb04fcf4f01"
  },
  "repo": "lingxi821/simus-updater"
 }

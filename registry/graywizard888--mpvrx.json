@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Graywizard888/mpvRx",
   "sha256": "b8f20e30f825c5ca899f0b2ad84ebe255d2fb7b02a609ec206b1a1940e12aefe"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "graywizard888--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5eb65a26515dd4c3e1898a700f47613bbccae733",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5eb65a26515dd4c3e1898a700f47613bbccae733"
  },
  "repo": "Graywizard888/mpvRx"
 }

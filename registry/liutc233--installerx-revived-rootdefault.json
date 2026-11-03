@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "root-default-20260727",
   "ultimo_push": "2026-07-26"
  },
  "descripcion": "More Expressive InstallerX !",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#liutc233/InstallerX-Revived-RootDefault",
   "sha256": "df27214588f25905ff4b18e687df811ec857a521ffb67a7de3976d6308e8a736"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "liutc233--installerx-revived-rootdefault",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "cd1b68461f60a0f5ef5f5274874f8eb9186e54c7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cd1b68461f60a0f5ef5f5274874f8eb9186e54c7"
  },
  "repo": "liutc233/InstallerX-Revived-RootDefault"
 }

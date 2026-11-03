@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-23",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-23"
  },
  "descripcion": "Start Shizuku without a PC: one command in Termux or one tap in a 17 KB app. Wireless debugging, adb tcpip or root. Works on Huawei/EMUI too.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10,
+  "stars": 12,
   "stars_por_mes": null
  },
  "nombre": "shizuku-termux",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0be3bce92e6e1eccb8bd962f4bccb90c8fbfebfe",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0be3bce92e6e1eccb8bd962f4bccb90c8fbfebfe"
  },
  "repo": "Order52/shizuku-termux",
  "web": "https://github.com/Order52/shizuku-termux/releases/latest"

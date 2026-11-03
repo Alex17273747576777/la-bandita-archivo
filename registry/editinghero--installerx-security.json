@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2026-03-05",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "V1",
   "ultimo_push": "2026-03-05"
  },
  "descripcion": "A Secure App Installer For Elder People To Not Install Unnecessary Malware Apps",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "InstallerX-Security",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "98e90010c331e2d7d5034133f64b68f26743737a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:98e90010c331e2d7d5034133f64b68f26743737a"
  },
  "repo": "editinghero/InstallerX-Security"
 }

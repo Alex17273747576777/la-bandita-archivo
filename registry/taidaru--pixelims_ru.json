@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0-ru",
   "ultimo_push": "2026-10-13"
  },
  "descripcion": "",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e5e8f95d10961dc9dda4deb46aef7a3920679660",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e5e8f95d10961dc9dda4deb46aef7a3920679660"
  },
  "repo": "taidaru/PixelIMS_ru"
 }

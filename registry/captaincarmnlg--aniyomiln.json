@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#captaincarmnlg/aniyomiln",
   "sha256": "0936edf2baa1a4602680cccd3d168c85194b035ce0c0a99366fbfd64fee531bb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "captaincarmnlg--aniyomiln",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7822629425570df571a17e8cb6863a7e7f47680f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7822629425570df571a17e8cb6863a7e7f47680f"
  },
  "repo": "captaincarmnlg/aniyomiln"
 }

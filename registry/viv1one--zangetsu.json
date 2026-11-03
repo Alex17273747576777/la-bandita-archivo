@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#viv1one/Zangetsu",
   "sha256": "574c9998d3f8c3e3cf6cfe974a4d7bf9dee3a115ae7ff6596c17e5ebdb488f5c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "viv1one--zangetsu",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "55f3b37caec066cc5d0c9440edd69682b19fa8cf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:55f3b37caec066cc5d0c9440edd69682b19fa8cf"
  },
  "repo": "viv1one/Zangetsu"
 }

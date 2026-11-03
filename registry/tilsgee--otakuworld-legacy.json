@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#tilsgee/OtakuWorld-Legacy",
   "sha256": "21cc198eac32f0a2740a4496029218e4f596e704179cbd419aff02b518167528"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "tilsgee--otakuworld-legacy",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "cda786474d6aaa85125cf1855f21fddbd4683d60",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cda786474d6aaa85125cf1855f21fddbd4683d60"
  },
  "repo": "tilsgee/OtakuWorld-Legacy"
 }

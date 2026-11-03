@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": null,
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": null,
   "ultimo_push": "2026-08-20"
  },
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#869386072406856/Linux-42000",
   "sha256": "383409edf92573bed9123dac2f7c42f25389d75024ec4be6e03d9c684336b0b3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": null,
   "stars_por_mes": 0.0
  },
  "nombre": "Linux-42000",

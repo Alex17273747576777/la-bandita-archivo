@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-03-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.1",
   "ultimo_push": "2026-11-01"
  },
  "descripcion": "A high-performance, web-based Android remote control solution powered by scrcpy and WebRTC. Control your devices with ultra-low latency directly from your browser.",
@@ -26,21 +26,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 361,
+  "stars": 368,
   "stars_por_mes": null
  },
  "nombre": "ScrcpyOverWebRTC",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "63c2d7cf15faf5735d8674802a6ea1b13fb94e73",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:63c2d7cf15faf5735d8674802a6ea1b13fb94e73"
  },
  "repo": "hqw700/ScrcpyOverWebRTC"
 }

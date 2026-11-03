@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#sageneox/web-to-app",
   "sha256": "a44f475686ef7ec15f9728788d85966e8805df80cd96e0cc274d5f460d771ab2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "sageneox--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5f06c3c442df3f6b36223d5a42dcef0d383c8d9b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5f06c3c442df3f6b36223d5a42dcef0d383c8d9b"
  },
  "repo": "sageneox/web-to-app"
 }

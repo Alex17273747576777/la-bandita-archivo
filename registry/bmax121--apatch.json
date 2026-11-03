@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-12-31",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "10253",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "The patching of Android kernel and Android system",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8115,
+  "stars": 8121,
   "stars_por_mes": null
  },
  "nombre": "APatch",
@@ -39,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e8e4651c16fb5075882a25813c8732285fdb3505",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e8e4651c16fb5075882a25813c8732285fdb3505"
  },
  "repo": "bmax121/APatch"
 }

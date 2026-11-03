@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-21",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "v0.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Android: keep the music app on Bluetooth, route every other app to the phone speaker (Shizuku, no root) / 藍牙只放音樂，其他 App 走手機喇叭",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12,
+  "stars": 13,
   "stars_por_mes": null
  },
  "nombre": "splitaudio",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2c6f168a78f33b4ebbae1df18a708016ed9e1c0a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2c6f168a78f33b4ebbae1df18a708016ed9e1c0a"
  },
  "repo": "monarchsofchaos004-gif/splitaudio"
 }

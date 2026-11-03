@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-04-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.10.11-mi",
   "ultimo_push": "2026-09-14"
  },
  "descripcion": "An app for manga and anime",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -40,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "97414446b8a95994c72dd33c41c971a89d4d25b8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:97414446b8a95994c72dd33c41c971a89d4d25b8"
  },
  "repo": "aniyomiorg/aniyomi",
  "web": "https://aniyomi.org"

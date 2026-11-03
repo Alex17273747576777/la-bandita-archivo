@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Purplishmoon/MicroG-RE",
   "sha256": "e71f615f979eb288c3ad0bdfeea826472a8e5af16b458d8a8cfe6ef207bc7594"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "purplishmoon--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "856205030009efdd2c1c0bde97d4243b1390bb39",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:856205030009efdd2c1c0bde97d4243b1390bb39"
  },
  "repo": "Purplishmoon/MicroG-RE"
 }

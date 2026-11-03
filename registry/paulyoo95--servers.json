@@ -21,11 +21,11 @@
  "id": "paulyoo95--servers",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4503e2d12b799448cd05f789dd40f9643a8d1a6c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4503e2d12b799448cd05f789dd40f9643a8d1a6c"
  },
  "repo": "paulyoo95/servers",
  "web": "https://modelcontextprotocol.io"

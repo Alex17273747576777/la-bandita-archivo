@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2026-02-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.3.2.a57c14e-alpha",
   "ultimo_push": "2026-02-04"
  },
  "descripcion": "More Expressive InstallerX !",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a57c14eb6e7213ae1b11bf2979f9356fee41cf09",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a57c14eb6e7213ae1b11bf2979f9356fee41cf09"
  },
  "repo": "Tools-cx-app/InstallerX-Revived"
 }

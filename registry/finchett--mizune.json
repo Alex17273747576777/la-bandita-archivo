@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2026-10-29",
   "semantica_http": 200,
-  "ultima_release": "v1.1.1",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "android-libmpv-lgpl-2026-09-17",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Learn Japanese from the shows you love: a video player with a dictionary built into the subtitles. macOS, Windows, Linux, Android.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "27ed13651b94f7750ec36c1bc7e6646ba97045db",
+  "commit": "0d96ebefd3aeeb913463b9ebafb109176461122b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0d96ebefd3aeeb913463b9ebafb109176461122b"
  },
  "repo": "finchett/Mizune",
  "web": "https://mizune.app"

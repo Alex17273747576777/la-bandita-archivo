@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#arshiyaazim/OGAM",
   "sha256": "af6313d8d50dd996edeeb61c7e4527115af83bd88e9907dc10742e2f748d2ccd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "arshiyaazim--ogam",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "321b7e42f42e8005fddcba8fe14fee655a03dfa7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:321b7e42f42e8005fddcba8fe14fee655a03dfa7"
  },
  "repo": "arshiyaazim/OGAM"
 }

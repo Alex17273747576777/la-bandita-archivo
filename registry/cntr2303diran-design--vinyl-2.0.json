@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-11-01",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "latest",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "",
  "evidencia": {
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "84fd37fddf427a65e3ea9f330ce149e048183c87",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:84fd37fddf427a65e3ea9f330ce149e048183c87"
  },
  "repo": "cntr2303diran-design/Vinyl-2.0"
 }

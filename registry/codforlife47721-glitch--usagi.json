@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#codforlife47721-glitch/Usagi",
   "sha256": "3b93cbe829c74d68012ade605185c666f1a72354f46170a0ccb15709e02b3608"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "codforlife47721-glitch--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5728b3d6cc6e6c114e73ee002c159d473d7a5e95",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5728b3d6cc6e6c114e73ee002c159d473d7a5e95"
  },
  "repo": "codforlife47721-glitch/Usagi"
 }

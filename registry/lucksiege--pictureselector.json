@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2017-01-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.8",
   "ultimo_push": "2024-05-11"
  },
  "descripcion": "Picture Selector Library for Android or 图片选择器",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13582,
+  "stars": 13583,
   "stars_por_mes": null
  },
  "nombre": "PictureSelector",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a880156bbd4df2ebe254858b9f5acec0a7ca54c3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a880156bbd4df2ebe254858b9f5acec0a7ca54c3"
  },
  "repo": "LuckSiege/PictureSelector"
 }

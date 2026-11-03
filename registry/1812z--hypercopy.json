@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1",
   "ultimo_push": "2026-08-05"
  },
  "descripcion": "Copy and instantly open in the right app",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4fdf1514c9069c1d8be27c9f827cbd1b0795b403",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4fdf1514c9069c1d8be27c9f827cbd1b0795b403"
  },
  "repo": "1812z/HyperCopy",
  "web": "https://hypercopy.1812z.top/"

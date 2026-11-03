@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-11-07",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-17"
+  "ultima_release": "v1.0.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "收集github 开源app",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d88211fb835dad7e310ea7d763af4e0234ade460",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d88211fb835dad7e310ea7d763af4e0234ade460"
  },
  "repo": "sunO2/GStore"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mrluffy2k1-Athma/MicroG-RE",
   "sha256": "044cb5e4b871eef5a31781a54248c48a0c034081c0134d29839dc93618fdea80"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mrluffy2k1-athma--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c99f77337329137de1cda0a96140b08746d600a0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c99f77337329137de1cda0a96140b08746d600a0"
  },
  "repo": "mrluffy2k1-Athma/MicroG-RE"
 }

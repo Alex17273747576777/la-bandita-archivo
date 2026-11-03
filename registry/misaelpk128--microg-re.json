@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#misaelpk128/MicroG-RE",
   "sha256": "b677a1fd654df4f710dc64de743eb165d412a70d31cdfb096c91c4458e3bb88f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "misaelpk128--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3bad1bd3462387416b7071cb9518dfdca645628d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3bad1bd3462387416b7071cb9518dfdca645628d"
  },
  "repo": "misaelpk128/MicroG-RE"
 }

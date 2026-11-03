@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#vitosus83-design/WIFI-Frankenstein",
   "sha256": "fe99191658ee49cfbc420fc9fe5cbdbd6b40528eb174f3d3658dde3a8cd0a3af"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "vitosus83-design--wifi-frankenstein",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9d78c968a126c798ff026859fd76c60ee02e13bb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9d78c968a126c798ff026859fd76c60ee02e13bb"
  },
  "repo": "vitosus83-design/WIFI-Frankenstein"
 }

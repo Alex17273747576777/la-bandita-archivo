@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-03-11",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.12.0.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "video player and library manager",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 908,
+  "stars": 907,
   "stars_por_mes": null
  },
  "nombre": "Animiru",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "41dc28f70439e504e02afa0ab1334a4d996379a2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:41dc28f70439e504e02afa0ab1334a4d996379a2"
  },
  "repo": "animiruorg/Animiru",
  "web": "https://aniyomi.org/forks/Animiru/"

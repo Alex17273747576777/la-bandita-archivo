@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#fnxvohe/Zangetsu",
   "sha256": "d383efc109f632d17c9968a9df6c9568adf31eae7371b272348599817e61e3b9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "13a0e54b8d1376ea28aa5ee8e5ca42b6f234572a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:13a0e54b8d1376ea28aa5ee8e5ca42b6f234572a"
  },
  "repo": "fnxvohe/Zangetsu"
 }

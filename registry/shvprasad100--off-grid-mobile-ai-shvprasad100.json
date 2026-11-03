@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#shvprasad100/off-grid-mobile-ai-shvprasad100",
   "sha256": "d5795fe4f46cdaa251f12878d118dc314697d86634a06b0c3bba4dc934b0e905"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shvprasad100--off-grid-mobile-ai-shvprasad100",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2f383896be0c4200dad665e364b8d1a72dc7e7e2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2f383896be0c4200dad665e364b8d1a72dc7e7e2"
  },
  "repo": "shvprasad100/off-grid-mobile-ai-shvprasad100"
 }

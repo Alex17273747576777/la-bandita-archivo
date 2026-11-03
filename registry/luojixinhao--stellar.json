@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#luojixinhao/Stellar",
   "sha256": "cdda8cfb59e0859a67bc8677ac8c1d1ef93ea04f83f40ae5f3ddfc95b46611eb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "luojixinhao--stellar",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2aaef28f39bc3275d321311394295d224950ccf9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2aaef28f39bc3275d321311394295d224950ccf9"
  },
  "repo": "luojixinhao/Stellar"
 }

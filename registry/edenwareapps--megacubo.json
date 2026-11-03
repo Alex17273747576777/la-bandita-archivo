@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2018-02-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v14.3.6",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a519156e8ca5c16ce1d8772daddbcb39f12aeae5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a519156e8ca5c16ce1d8772daddbcb39f12aeae5"
  },
  "repo": "EdenwareApps/Megacubo",
  "web": "https://megacubo.tv"

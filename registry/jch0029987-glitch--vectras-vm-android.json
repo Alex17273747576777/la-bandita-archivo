@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jch0029987-glitch/Vectras-VM-Android",
   "sha256": "afc76007bbf1beff2d4aac2f0c7019a421b5fdb4b79dc1ea2c8cc69c291a4ecd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jch0029987-glitch--vectras-vm-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d7fadddf6ad7d414f3fd5495e610147cdab92867",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d7fadddf6ad7d414f3fd5495e610147cdab92867"
  },
  "repo": "jch0029987-glitch/Vectras-VM-Android"
 }

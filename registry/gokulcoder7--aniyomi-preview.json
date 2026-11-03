@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#gokulcoder7/aniyomi-preview",
   "sha256": "94ea14d9bd99ffa088bbe83cd2f27030b71cea6cc0ca7be194aa30a33962d3bf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "gokulcoder7--aniyomi-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1d5b76b2e231ad6efd5ffbd24c86df4c8e7d83d6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1d5b76b2e231ad6efd5ffbd24c86df4c8e7d83d6"
  },
  "repo": "gokulcoder7/aniyomi-preview"
 }

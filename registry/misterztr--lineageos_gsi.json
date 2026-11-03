@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-12-12",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2024.12.09",
   "ultimo_push": "2026-05-24"
  },
  "descripcion": "Script and patches for building Treble-Droid based LineageOS GSI ",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 571,
+  "stars": 570,
   "stars_por_mes": null
  },
  "nombre": "LineageOS_gsi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7bf212f449d1aa253ebc97b1ab3c4924be88effa",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7bf212f449d1aa253ebc97b1ab3c4924be88effa"
  },
  "repo": "MisterZtr/LineageOS_gsi"
 }

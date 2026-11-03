@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-11-25",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "1.0.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "A powerful antivirus for android",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 82,
+  "stars": 84,
   "stars_por_mes": null
  },
  "nombre": "AvarionX-Android-Antivirus",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f406407a90e18f62816487b3f0fae08d769ec29c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f406407a90e18f62816487b3f0fae08d769ec29c"
  },
  "repo": "phsycologicalFudge/AvarionX-Android-Antivirus",
  "web": "https://platform.colourswift.com"

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2026-08-22",
   "semantica_http": 200,
-  "ultima_release": "mlog-scanner-bridge-v3.6.3",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "shizuku-v13.6.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Curated Shizuku and no-root Android apps, wireless ADB tools, debloat utilities, privacy tools, and root alternatives.",
  "evidencia": {
@@ -26,21 +26,21 @@
   "spdx": "CC BY-SA 3.0",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 158,
+  "stars": 159,
   "stars_por_mes": null
  },
  "nombre": "best_shizuku_apps_for_android_no_root",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "50562b662fadbb426e9f12c212752bfcb3400e90",
+  "commit": "1374f32354c23e2d9d492c64185d4a443ef1e553",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1374f32354c23e2d9d492c64185d4a443ef1e553"
  },
  "repo": "krishna3163/best_shizuku_apps_for_android_no_root",
  "web": "https://krishna3163.github.io/best_shizuku_apps_for_android_no_root/"

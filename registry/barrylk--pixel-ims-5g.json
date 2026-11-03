@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-18",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-22"
+  "ultima_release": "v0.8.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Shizuku-powered 5G, VoLTE, VoNR and Tensor radio diagnostics for Google Pixel",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5a1ca78dfe04b5aa4fbaf9958fe3cd4c3fa5fe3c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5a1ca78dfe04b5aa4fbaf9958fe3cd4c3fa5fe3c"
  },
  "repo": "barrylk/Pixel-IMS-5G",
  "web": "https://github.com/barrylk/Pixel-IMS-5G/releases/latest"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#benjamanhines311/airi",
   "sha256": "227a19da8c512de7680e8ac0d7580fb70e19ee78987f7f9006f363e600108572"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "benjamanhines311--airi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b544d91d0358cb0aa6a6ab9c2c7e35a29342f711",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b544d91d0358cb0aa6a6ab9c2c7e35a29342f711"
  },
  "repo": "benjamanhines311/airi"
 }

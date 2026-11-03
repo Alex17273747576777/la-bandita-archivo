@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ArthurKun21/mihon-preview",
   "sha256": "2651535528645b6d6294770b56e2ea5350ad6db388f7eb9bb23bd74a01a143f5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "arthurkun21--mihon-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fe1b36ce7e48a560685a0e919fc677bf5a5d5d30",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fe1b36ce7e48a560685a0e919fc677bf5a5d5d30"
  },
  "repo": "ArthurKun21/mihon-preview"
 }

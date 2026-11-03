@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#buckaidev-ui/web-to-app",
   "sha256": "dd519bb31e64191bb7605cf715d92f8c5cf6249aa3ba716847813278bef25129"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "buckaidev-ui--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e90c37ef7b476ce2d6f12bcdb7a1826d7be24bf3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e90c37ef7b476ce2d6f12bcdb7a1826d7be24bf3"
  },
  "repo": "buckaidev-ui/web-to-app"
 }

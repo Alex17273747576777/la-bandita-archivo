@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Haremgod123/aniyomi-preview",
   "sha256": "c8c04c73a4fb1eee0750fa1c6e6d989e55af43c0e31879b6b11a718e57b73cd4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "haremgod123--aniyomi-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9b8819b609a76fe2045a40708cc7c1376bfa2743",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9b8819b609a76fe2045a40708cc7c1376bfa2743"
  },
  "repo": "Haremgod123/aniyomi-preview"
 }

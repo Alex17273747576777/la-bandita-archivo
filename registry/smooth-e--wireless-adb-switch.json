@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-03-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-09-30"
  },
  "descripcion": "An app that allows you to switch Android's Wireless Debugging feature on and off quickly. It provides several widgets and a quick settings tile to do this.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 689,
+  "stars": 688,
   "stars_por_mes": null
  },
  "nombre": "wireless-adb-switch",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "20d88387816fad7401a890d4b55ff6f0eff5310d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:20d88387816fad7401a890d4b55ff6f0eff5310d"
  },
  "repo": "Smooth-E/wireless-adb-switch"
 }

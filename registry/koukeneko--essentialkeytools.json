@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-11",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-10-10"
  },
  "descripcion": "Remap the Nothing Phone Essential Key to your own actions — no root required.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3ad63ae590f6cbd2821803da14a7ed8f98956c80",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3ad63ae590f6cbd2821803da14a7ed8f98956c80"
  },
  "repo": "KoukeNeko/EssentialKeyTools"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-23",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-05"
+  "ultima_release": "26.10.35d7c7a",
+  "ultimo_push": "2026-10-23"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#hcy917/InstallerX-Revived",
   "sha256": "39af583d4dc08711c5364fc72eb9fb4f0e3b00dc9b4ce94f61a83cf8af6c9f31"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hcy917--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "35d7c7a06e86b280789a171d8b213becac1a0fd7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:35d7c7a06e86b280789a171d8b213becac1a0fd7"
  },
  "repo": "hcy917/InstallerX-Revived"
 }

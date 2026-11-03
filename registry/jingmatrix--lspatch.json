@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-08-23",
+  "release_en": "2023-07-12",
   "semantica_http": 200,
-  "ultima_release": "v1.2",
+  "ultima_release": "0.5.1",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "A rootless Xposed framework that embeds Vector into an app by patching its APK — no root, no Zygisk.",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4289,
+  "stars": 4304,
   "stars_por_mes": null
  },
  "nombre": "LSPatch",

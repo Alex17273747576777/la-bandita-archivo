@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-01-27",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.2",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "A browser extension that redirects popular sites to alternative privacy friendly frontends",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4104,
+  "stars": 4106,
   "stars_por_mes": null
  },
  "nombre": "browser_extension",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "cecf75683d63ba7c9bdffa56847b8a8bd05dbc9b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:cecf75683d63ba7c9bdffa56847b8a8bd05dbc9b"
  },
  "repo": "libredirect/browser_extension",
  "web": "https://libredirect.manerakai.com"

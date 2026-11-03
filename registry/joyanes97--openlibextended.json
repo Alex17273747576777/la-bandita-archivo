@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-19"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "An Open source app to download and read books from shadow library's (Anna’s Arch",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#joyanes97/OpenlibExtended",
   "sha256": "ddb77650c5551dc69ba9048ee53acae3c4c9e7dab75dc6fb95bd809711980255"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "joyanes97--openlibextended",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "cd72fefea50446f0f0ecd5a1243d83fe13463fbd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cd72fefea50446f0f0ecd5a1243d83fe13463fbd"
  },
  "repo": "joyanes97/OpenlibExtended"
 }

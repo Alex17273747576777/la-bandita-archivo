@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-10",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-10-28"
  },
  "descripcion": "Turns the AYN Thor's bottom screen into a laptop-style trackpad for a mouse plus a smart keyboard for typing",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "ThorPad",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "49867b08878e7acbfc8db03d2794440554f0c0bc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:49867b08878e7acbfc8db03d2794440554f0c0bc"
  },
  "repo": "ajhockey88/ThorPad"
 }

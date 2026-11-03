@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#vancix/OpenOmniBot",
   "sha256": "4daca568c5bebc83076eb2ded60a785388869cefbf8d1793113db0c075f740c9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "vancix--openomnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "be881f60f25457495b017ba9a376eaa04bd2d8fc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:be881f60f25457495b017ba9a376eaa04bd2d8fc"
  },
  "repo": "vancix/OpenOmniBot"
 }

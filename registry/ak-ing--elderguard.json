@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-16",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1.0",
   "ultimo_push": "2026-10-16"
  },
  "descripcion": "长辈守护：治理老年人手机上的弹窗广告、快应用和诱导跳转",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b16e887cf236100e492afcf0637545c73bf4a444",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b16e887cf236100e492afcf0637545c73bf4a444"
  },
  "repo": "ak-ing/ElderGuard"
 }

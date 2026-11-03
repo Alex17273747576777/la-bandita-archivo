@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#RejectVanity/aniyomi",
   "sha256": "a5b2c515a0ba2a4dd99eabbbbe5f295f918835b4375d4c60577e7337dfd158b7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "rejectvanity--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "823099f775ef608b7c11f096da1f50762dab82df",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:823099f775ef608b7c11f096da1f50762dab82df"
  },
  "repo": "RejectVanity/aniyomi"
 }

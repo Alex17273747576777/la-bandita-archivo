@@ -1,10 +1,10 @@
 {
  "actividad": {
-  "estado": "dormido",
+  "estado": "vivo",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-04-12"
+  "ultimo_push": "2026-10-28"
  },
  "descripcion": "Experimental IDE for building Android applicatons on Android.",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#FacePrintPay/CodeAssist",
   "sha256": "36620d7cbfa2abaae8c2b0eea5898df0bc37f50d2076399bfcb79652dc836f97"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "faceprintpay--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "07e3d01de745e968319ee1f27afff2949a4aa63e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:07e3d01de745e968319ee1f27afff2949a4aa63e"
  },
  "repo": "FacePrintPay/CodeAssist"
 }

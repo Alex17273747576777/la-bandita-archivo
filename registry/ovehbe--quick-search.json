@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ovehbe/quick-search",
   "sha256": "476a1983e42354431c89925e5aff3dd34a80f1806c84aec48f29d2687b7c7ef5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ovehbe--quick-search",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "02ca22083b259e440471bc4a3c89ebe3146b5cbf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:02ca22083b259e440471bc4a3c89ebe3146b5cbf"
  },
  "repo": "ovehbe/quick-search"
 }

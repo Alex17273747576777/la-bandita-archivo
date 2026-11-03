@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2025-08-25",
+  "release_en": "2021-11-04",
   "semantica_http": 200,
-  "ultima_release": "3.3",
+  "ultima_release": "1.0",
   "ultimo_push": "2026-08-18"
  },
  "descripcion": "Turn on/off DND(Do Not Disturb) automatically when using specified apps.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "99091ebc40d68499e24c17cedf1225267ececc2b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:99091ebc40d68499e24c17cedf1225267ececc2b"
  },
  "repo": "im030/android_AutoDND"
 }

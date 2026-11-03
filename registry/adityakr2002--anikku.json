@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AdityaKr2002/anikku",
   "sha256": "80f5acf77c040465e0c664f80aa1fae9dc0e10f900067fe8a465c98c3a2252b5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "adityakr2002--anikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7ebdc04d97ea40bc5aec4c27d23caaa14870c247",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7ebdc04d97ea40bc5aec4c27d23caaa14870c247"
  },
  "repo": "AdityaKr2002/anikku"
 }

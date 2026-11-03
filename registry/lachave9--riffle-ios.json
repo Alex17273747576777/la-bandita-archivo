@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#lachave9/riffle-ios",
   "sha256": "876625becaca581fdf33b7cd42f94265c8d7042cceb0b8371b821cbe08e237f4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lachave9--riffle-ios",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "805378093a7bf16fa063dd064bd6edcb2b6e1e2c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:805378093a7bf16fa063dd064bd6edcb2b6e1e2c"
  },
  "repo": "lachave9/riffle-ios"
 }

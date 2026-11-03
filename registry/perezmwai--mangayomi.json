@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#PerezMwai/mangayomi",
   "sha256": "850947f5a87ee355dd2610d8d16f7d44208a1a3aae28c67bdd530503f2bb5545"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "perezmwai--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a1f87fbaf032361d1d6faead9c8b531c3cc4b10a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a1f87fbaf032361d1d6faead9c8b531c3cc4b10a"
  },
  "repo": "PerezMwai/mangayomi"
 }

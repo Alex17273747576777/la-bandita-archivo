@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#vishnoe115/Stash",
   "sha256": "87c703f3c2422b39e8e2cd567a2b4f516fd8ec335e6ca729a9058cb45e274175"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "vishnoe115--stash",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f2e5c4aa2c2855fc3afd151ec8aa58908560f7df",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f2e5c4aa2c2855fc3afd151ec8aa58908560f7df"
  },
  "repo": "vishnoe115/Stash"
 }

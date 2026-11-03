@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10595,
+  "stars": 10596,
   "stars_por_mes": null
  },
  "nombre": "MagiskOnWSALocal",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "10659d90b6133b3a3138fd780f272b6869346c39",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:10659d90b6133b3a3138fd780f272b6869346c39"
  },
  "repo": "LSPosed/MagiskOnWSALocal"
 }

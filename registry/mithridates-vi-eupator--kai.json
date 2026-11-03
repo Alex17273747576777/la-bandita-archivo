@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": null,
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": null,
   "ultimo_push": "2026-05-17"
  },
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Mithridates-VI-Eupator/Kai",
   "sha256": "420b5870f9b9371f2d20bdf9b372d09bbb8cdd5cda2c4e01601b3453920e7f0c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": null,
   "stars_por_mes": 0.0
  },
  "nombre": "Kai",

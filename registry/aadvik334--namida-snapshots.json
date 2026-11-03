@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#aadvik334/namida-snapshots",
   "sha256": "8e05efd8b33564878e8b946e3e546c16ca4e69dd760054540646bf19d118561d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e1cec6cbb8ef73ba3bfd031eedd317c99ecd9b2b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e1cec6cbb8ef73ba3bfd031eedd317c99ecd9b2b"
  },
  "repo": "aadvik334/namida-snapshots"
 }

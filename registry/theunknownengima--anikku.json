@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#TheUnknownEngima/anikku",
   "sha256": "59ed2e658c027149b83cf4371f4f4531b37c65d76c57834208bdcd5a7487992d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "theunknownengima--anikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "41fefe566a00e8eb38dfa7f11802c8bfbe5c16e7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:41fefe566a00e8eb38dfa7f11802c8bfbe5c16e7"
  },
  "repo": "TheUnknownEngima/anikku"
 }

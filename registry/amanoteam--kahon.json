@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-06-20",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.16.5-fork",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "A fork of Mihon with some annoying restrictions removed",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 356,
+  "stars": 358,
   "stars_por_mes": null
  },
  "nombre": "Kahon",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "81d8e1601c60463378a6873de1377afaeec3a462",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:81d8e1601c60463378a6873de1377afaeec3a462"
  },
  "repo": "AmanoTeam/Kahon"
 }

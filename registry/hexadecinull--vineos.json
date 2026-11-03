@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-22",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-26"
+  "ultima_release": "v0.1.0-poc",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "An Android VM engine, for Android",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 130,
+  "stars": 135,
   "stars_por_mes": null
  },
  "nombre": "VineOS",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f72a8ccdc69ea474cc60d4855c836121adbcf273",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f72a8ccdc69ea474cc60d4855c836121adbcf273"
  },
  "repo": "Hexadecinull/VineOS",
  "web": "https://vineos.hexadecinull.dpdns.org/"

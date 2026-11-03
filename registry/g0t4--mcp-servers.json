@@ -21,11 +21,11 @@
  "id": "g0t4--mcp-servers",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f4244583a6af9425633e433a3eec000d23f4e011",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f4244583a6af9425633e433a3eec000d23f4e011"
  },
  "repo": "g0t4/mcp-servers",
  "web": "https://modelcontextprotocol.io"

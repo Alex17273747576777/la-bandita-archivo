@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-28",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-26"
+  "ultima_release": "app-v1.0.5",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Free ad-free video downloader for Windows/macOS/Linux/Android — Instagram Reels & Stories, TikTok, YouTube, X/Twitter, 1800+ sites via yt-dlp. Open source by drmikecrypto.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a526fafa55c63d1b6041ca491a32014a55dce2de",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a526fafa55c63d1b6041ca491a32014a55dce2de"
  },
  "repo": "drmikecrypto/download-everything",
  "web": "https://github.com/drmikecrypto/download-everything/releases"

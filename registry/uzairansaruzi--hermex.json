@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-13",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v1.4.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Native iPhone app for your Hermes agent",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1618,
+  "stars": 1638,
   "stars_por_mes": null
  },
  "nombre": "hermex",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0c922fbd998854cf2b18fd8c47a3875b3b4a1924",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0c922fbd998854cf2b18fd8c47a3875b3b4a1924"
  },
  "repo": "uzairansaruzi/hermex",
  "web": "https://hermexapp.com/"

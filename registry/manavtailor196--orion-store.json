@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#manavtailor196/Orion-Store",
   "sha256": "c639f180e0b05b72f5dbf1d56f9c56c4ddf4519da2c901bd07ef215932979a89"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "manavtailor196--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f84b7d6be2212f1356e762a357acb7f3794301c3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f84b7d6be2212f1356e762a357acb7f3794301c3"
  },
  "repo": "manavtailor196/Orion-Store"
 }

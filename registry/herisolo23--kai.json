@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Herisolo23/Kai",
   "sha256": "8df2e53686db4d9f65c2d0eec8154856ec3fbc85c3bef667306a5bab28e4b080"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "herisolo23--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "dad2cd3fb45f26301405b2ec1ca8401e0c43b0a3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dad2cd3fb45f26301405b2ec1ca8401e0c43b0a3"
  },
  "repo": "Herisolo23/Kai"
 }

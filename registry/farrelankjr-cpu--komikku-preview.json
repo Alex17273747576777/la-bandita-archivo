@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#farrelankjr-cpu/komikku-preview",
   "sha256": "3605173fe1c576f12df6277ec01d4348db92e7b03bd89df4637caa2acf777522"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "farrelankjr-cpu--komikku-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "55b070157d795e08e65f33d146b12568f9a92695",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:55b070157d795e08e65f33d146b12568f9a92695"
  },
  "repo": "farrelankjr-cpu/komikku-preview"
 }

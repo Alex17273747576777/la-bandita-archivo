@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#acuazozonchagala-afk/Orion-Store",
   "sha256": "83803d54c98c50b316c6ef4ab80810bb6911a77e08b9e2ea0f07baa4e918a668"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "acuazozonchagala-afk--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "96faec24d476aa57abcbbfd0daff31c2d4e3276f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:96faec24d476aa57abcbbfd0daff31c2d4e3276f"
  },
  "repo": "acuazozonchagala-afk/Orion-Store"
 }

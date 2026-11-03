@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-06-01",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "v0.1.20",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Official FUTO Keyboard Issue Tracker and Source Mirror of https://gitlab.futo.org/keyboard/latinime",
  "evidencia": {
@@ -21,26 +21,26 @@
  "id": "futo-org--android-keyboard",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («non-commercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3417,
+  "stars": 3428,
   "stars_por_mes": null
  },
  "nombre": "android-keyboard",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7d61ab4132cfcbb7aa713190d934f0125dc38b03",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7d61ab4132cfcbb7aa713190d934f0125dc38b03"
  },
  "repo": "futo-org/android-keyboard",
  "web": "https://keyboard.futo.org/"

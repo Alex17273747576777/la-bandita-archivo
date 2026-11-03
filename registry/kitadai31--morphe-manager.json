@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kitadai31/morphe-manager",
   "sha256": "8bb082e236e8668e943ea0ed6292230e487a144d0da7bb7417305b727e7d7ce2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kitadai31--morphe-manager",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3d3c232c0023092d6ad2d004dfcd877a38acfa8f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3d3c232c0023092d6ad2d004dfcd877a38acfa8f"
  },
  "repo": "kitadai31/morphe-manager"
 }

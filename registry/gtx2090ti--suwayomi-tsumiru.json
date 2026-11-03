@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-08",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.2.1",
   "ultimo_push": "2026-10-01"
  },
  "descripcion": "A native manga & manhwa reader for Suwayomi-Server - enhanced fork of Tachidesk-",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#GTX2090ti/Suwayomi-Tsumiru",
   "sha256": "0109f2a650ec04ff36914042dd92e84054b957778cdb1c9b22aad52601c5c4c0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "gtx2090ti--suwayomi-tsumiru",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "46a99ac27b396642b8f0cdc7d2d682e38e1707f0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:46a99ac27b396642b8f0cdc7d2d682e38e1707f0"
  },
  "repo": "GTX2090ti/Suwayomi-Tsumiru"
 }

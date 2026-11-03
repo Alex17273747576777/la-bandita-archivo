@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.3.7.5.ntd",
   "ultimo_push": "2026-10-26"
  },
  "descripcion": "",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "cecf033536dd23f9bec3540f52926db84ce2b077",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:cecf033536dd23f9bec3540f52926db84ce2b077"
  },
  "repo": "dun04/Bocongcu_Limi"
 }

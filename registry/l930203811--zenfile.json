@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-08",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "一款现代化、精美、丰富的安卓文件管理器 。 Modern, elegant, and fully-featured - a next-gen file manager for Android.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 196,
+  "stars": 200,
   "stars_por_mes": null
  },
  "nombre": "ZenFile",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "319f1c4e5bdc0296d7b3c885a9a76cfdac3065ba",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:319f1c4e5bdc0296d7b3c885a9a76cfdac3065ba"
  },
  "repo": "l930203811/ZenFile"
 }

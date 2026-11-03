@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-03-20",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v1.5",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Collaborative cheatsheets for console commands 📚.",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "tldr-pages--tldr",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
-  "spdx": "CC-BY-4.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 64093,
+  "stars": 64113,
   "stars_por_mes": null
  },
  "nombre": "tldr",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5a3089d4dc7ec5b0d2e7cfbbd7ac8b9cee1d373b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5a3089d4dc7ec5b0d2e7cfbbd7ac8b9cee1d373b"
  },
  "repo": "tldr-pages/tldr",
  "web": "https://tldr.sh"

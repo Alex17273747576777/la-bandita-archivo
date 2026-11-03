@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SoaringWinds/fonte-extensoes",
   "sha256": "0a3a1c4fd305429e2438f56adbc73f543d6e3cd79073057e1c56bab75c42b992"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "soaringwinds--fonte-extensoes",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9513ec0a3a53e81c2c86ce3b4d72e7f86588fc40",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9513ec0a3a53e81c2c86ce3b4d72e7f86588fc40"
  },
  "repo": "SoaringWinds/fonte-extensoes"
 }

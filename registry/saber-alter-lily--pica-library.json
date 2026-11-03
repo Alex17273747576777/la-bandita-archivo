@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-13",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Open-source manga library manager, reader & downloader for Windows and Android. Supports PicACG/Pica, E-Hentai, WebDAV, shelves, recommendations, reading history and cross-device access.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "095d6910c34e00824e03b08a30af0ce4e708137e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:095d6910c34e00824e03b08a30af0ce4e708137e"
  },
  "repo": "Saber-Alter-Lily/pica-library"
 }

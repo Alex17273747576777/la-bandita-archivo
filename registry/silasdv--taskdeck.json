@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-29",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Controller-first Android task manager for gaming handhelds. Shizuku, gamepad mapping, app protection and RAM charts. By SilasDV.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "TaskDeck",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "536676826218332670e8d3cc0bebed2195711fd5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:536676826218332670e8d3cc0bebed2195711fd5"
  },
  "repo": "silasdv/TaskDeck"
 }

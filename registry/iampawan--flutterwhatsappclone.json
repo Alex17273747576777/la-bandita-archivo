@@ -26,21 +26,21 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1761,
+  "stars": 1762,
   "stars_por_mes": null
  },
  "nombre": "FlutterWhatsAppClone",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0b36eff259e14dd7178cf2c4beab142e5d783d29",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0b36eff259e14dd7178cf2c4beab142e5d783d29"
  },
  "repo": "iampawan/FlutterWhatsAppClone"
 }

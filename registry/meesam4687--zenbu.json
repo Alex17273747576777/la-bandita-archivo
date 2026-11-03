@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-16",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-17"
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Anime and Manga tracking platform based around AniList. Mangayomi extensions supported.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "50175ff2943ba4178489e7d2d8cd44c61e9c752c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:50175ff2943ba4178489e7d2d8cd44c61e9c752c"
  },
  "repo": "meesam4687/zenbu",
  "web": "https://zenbu.meesam.app/"

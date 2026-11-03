@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-30",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-08-01"
+  "ultima_release": "v0.5.7",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "AppSlim Analyzer - Android 应用运行时分析与智能精简平台（一键检测启动行为 / UsageStats / LSPosed）",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "horizen5--appslim",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-31"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 14,
+  "stars": 15,
   "stars_por_mes": null
  },
  "nombre": "Appslim",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "42289ed02ea494d8440d864366b5644952adf3e1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:42289ed02ea494d8440d864366b5644952adf3e1"
  },
  "repo": "Horizen5/Appslim"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Ritoyuuki115/Anime-batch-downloader-gui",
   "sha256": "11eeb99790e983bfbe800c961727bd97c3253af754934dfc6fff3ecd5f13107a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e3bfbe241cfed6d7133f2f8d7ea540a8f8264b31",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e3bfbe241cfed6d7133f2f8d7ea540a8f8264b31"
  },
  "repo": "Ritoyuuki115/Anime-batch-downloader-gui"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-01-09",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultima_release": "v1.7.4",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1914,
+  "stars": 1915,
   "stars_por_mes": null
  },
  "nombre": "yokai",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "843a59b20e4edd26c545dc48989a00162ac65937",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:843a59b20e4edd26c545dc48989a00162ac65937"
  },
  "repo": "null2264/yokai"
 }

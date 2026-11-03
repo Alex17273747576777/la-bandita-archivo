@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-10-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.1",
   "ultimo_push": "2026-10-02"
  },
  "descripcion": "An extension that detects starred, safe, unsafe or potentially unsafe sites using the FMHY Filterlist.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 628,
+  "stars": 629,
   "stars_por_mes": null
  },
  "nombre": "FMHY-SafeGuard",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e20dd209541f49f42192b6827748448b2e5d820b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e20dd209541f49f42192b6827748448b2e5d820b"
  },
  "repo": "fmhy/FMHY-SafeGuard"
 }

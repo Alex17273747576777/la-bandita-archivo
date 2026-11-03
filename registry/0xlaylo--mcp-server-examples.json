@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "454f1ce13febbfacb98e0cd1ede5206177cefc04",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:454f1ce13febbfacb98e0cd1ede5206177cefc04"
  },
  "repo": "0xLaylo/mcp-server-examples",
  "web": "https://modelcontextprotocol.io"

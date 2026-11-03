@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2020-05-03",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "0.9.2.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4198,
+  "stars": 4200,
   "stars_por_mes": null
  },
  "nombre": "TachiyomiSY",
@@ -39,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "c1eb1e3cbfd7d5ab0156a75642222c59c764b9c9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:c1eb1e3cbfd7d5ab0156a75642222c59c764b9c9"
  },
  "repo": "jobobby04/TachiyomiSY"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-03",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "latest",
   "ultimo_push": "2026-10-03"
  },
  "descripcion": "screen sharing app for ready for moto ready for/smart connect / samsung dex devices and webOS TV's",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "c075558c93e660cd13a27e3ac35637bd559e4015",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:c075558c93e660cd13a27e3ac35637bd559e4015"
  },
  "repo": "serifpersia/readycast"
 }

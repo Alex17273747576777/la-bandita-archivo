@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-05",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0.0-alpha",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Advanced Context-Aware Automation Engine for Android",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 38,
+  "stars": 41,
   "stars_por_mes": null
  },
  "nombre": "NexaFlow",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "246d732cd8cbe115afc33d6e7804fc3b629a105b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:246d732cd8cbe115afc33d6e7804fc3b629a105b"
  },
  "repo": "Alaa91H/NexaFlow"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#HEROhuqinchao/JHenTai",
   "sha256": "a954ec33b9d0c6295ff4fe6e54ca777ee0d964710a21d58dbb8bef874b721b55"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "herohuqinchao--jhentai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1046a1504c9e7dbc8c29124eb9287189a0357ccd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1046a1504c9e7dbc8c29124eb9287189a0357ccd"
  },
  "repo": "HEROhuqinchao/JHenTai"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-08-11",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-25"
+  "ultima_release": "v1.05-Beta",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "YouTube Music client for Android",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13920,
+  "stars": 13979,
   "stars_por_mes": null
  },
  "nombre": "Metrolist",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e6fea3b36c68841bad21daa6252e1d69ecd3afbe",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e6fea3b36c68841bad21daa6252e1d69ecd3afbe"
  },
  "repo": "MetrolistGroup/Metrolist",
  "web": "https://metrolist.cc"

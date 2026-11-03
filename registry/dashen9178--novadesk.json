@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.7",
   "ultimo_push": "2026-10-04"
  },
  "descripcion": "NovaDesk AI desktop and mobile workspace",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "19fde8482a79b11e5048f6ce62013afb89287398",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:19fde8482a79b11e5048f6ce62013afb89287398"
  },
  "repo": "dashen9178/NovaDesk"
 }

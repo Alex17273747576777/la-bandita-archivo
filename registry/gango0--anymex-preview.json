@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Gango0/AnymeX-Preview",
   "sha256": "5001da14cd5f7a40ca1694fbd867d77438150280ff200d1f2128ce94406f6f81"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "275e8016b51cb61674c67f5d4b7b3fa73454c840",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:275e8016b51cb61674c67f5d4b7b3fa73454c840"
  },
  "repo": "Gango0/AnymeX-Preview"
 }

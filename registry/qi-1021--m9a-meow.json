@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-25",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "《重返未来：1999》小助手 Android 版，全日常一键长草！| Assistant For Reverse: 1999 on Android",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
+  "stars": 6,
   "stars_por_mes": null
  },
  "nombre": "M9A-Meow",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7af4602ea98f4115a3371c4a29cae460b9a2c7cb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7af4602ea98f4115a3371c4a29cae460b9a2c7cb"
  },
  "repo": "qi-1021/M9A-Meow"
 }

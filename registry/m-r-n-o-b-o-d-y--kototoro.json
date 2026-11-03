@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "Kototoro1.6.8",
   "ultimo_push": "2026-09-05"
  },
  "descripcion": "Manga, Novel, and Video reader for Android",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#M-r-N-o-b-o-d-y/Kototoro",
   "sha256": "996ada0e1e921c7994bfef4ac5660b8ce353f9ade31c53b3a9d9f89d9cffcfa0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "m-r-n-o-b-o-d-y--kototoro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fe452adeb7c26c95c116e36a6e0118490bf02c61",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fe452adeb7c26c95c116e36a6e0118490bf02c61"
  },
  "repo": "M-r-N-o-b-o-d-y/Kototoro"
 }

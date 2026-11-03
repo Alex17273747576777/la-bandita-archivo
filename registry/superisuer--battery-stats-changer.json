@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2025-12-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0",
   "ultimo_push": "2025-12-28"
  },
  "descripcion": "Open source app to visually change battery data via Shizuku/Root.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1dcdd1a1ca982a18dc6fe4f49cbb17819620580e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1dcdd1a1ca982a18dc6fe4f49cbb17819620580e"
  },
  "repo": "superisuer/battery-stats-changer"
 }

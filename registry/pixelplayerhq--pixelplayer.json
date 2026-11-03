@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-08-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.1.0-beta",
   "ultimo_push": "2026-09-21"
  },
  "descripcion": "privacy-first Android music player built with Material 3 Expressive. Play offline, sync lyrics, fine-tune with equalizer presets, and cast to your devices.",
@@ -21,25 +21,25 @@
  "id": "pixelplayerhq--pixelplayer",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6855,
+  "stars": 6880,
   "stars_por_mes": null
  },
  "nombre": "PixelPlayer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "63cb59b97aff1d60c5aa46afdf5ce489e632b267",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:63cb59b97aff1d60c5aa46afdf5ce489e632b267"
  },
  "repo": "PixelPlayerHQ/PixelPlayer"
 }

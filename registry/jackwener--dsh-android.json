@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2026-10-28",
   "semantica_http": 200,
-  "ultima_release": "v0.3.4",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "native-node24.22.1-caacecde44",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 631,
+  "stars": 770,
   "stars_por_mes": null
  },
  "nombre": "DSH-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c6f3b55e8d04be83cec5b25d365be42734e0e131",
+  "commit": "9b730ce183c96a5b075467bc77092210327f66f6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:9b730ce183c96a5b075467bc77092210327f66f6"
  },
  "repo": "jackwener/DSH-Android"
 }

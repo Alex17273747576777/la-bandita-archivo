@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "dormido",
+  "estado": "muerto",
   "release_en": null,
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": null,
   "ultimo_push": "2025-09-05"
  },
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Cagecellag/FMHY",
   "sha256": "9c81ae94fcd71fab73047a433ea1dd457e00a3b7091fef4643152ee02c61cf3c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": null,
   "stars_por_mes": 0.0
  },
  "nombre": "FMHY",

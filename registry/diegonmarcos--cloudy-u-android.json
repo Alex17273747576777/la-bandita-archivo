@@ -4,7 +4,7 @@
   "release_en": "2026-08-26",
   "semantica_http": 200,
   "ultima_release": "latest",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Android Parallel Space / Virtual Engine — data-ownership workspace built on the cloud/ declarative framework",
  "evidencia": {
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5983affbbe706675ff03ff3f1b9e84ba0f49f246",
+  "commit": "45aba58996e5383fe63ad4bad8f2cdfcdd7d3663",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:45aba58996e5383fe63ad4bad8f2cdfcdd7d3663"
  },
  "repo": "diegonmarcos/cloudy-u-android"
 }

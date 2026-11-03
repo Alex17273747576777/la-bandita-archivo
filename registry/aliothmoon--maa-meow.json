@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-21",
+  "release_en": "2026-02-12",
   "semantica_http": 200,
-  "ultima_release": "v0.24.1",
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "v0.0.4-alpha",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "《明日方舟》小助手Android版，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1745,
+  "stars": 1777,
   "stars_por_mes": null
  },
  "nombre": "MAA-Meow",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b8e19bcdf370f5fcdd879a212fcd9cc5ab141420",
+  "commit": "e497617835e1463ab364b5ee154b6a8c2cc6786f",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e497617835e1463ab364b5ee154b6a8c2cc6786f"
  },
  "repo": "Aliothmoon/MAA-Meow"
 }

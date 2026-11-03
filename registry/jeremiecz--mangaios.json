@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#JeremieCz/MangaiOS",
   "sha256": "6c7bfd5a9e4ed0e365e10aef73567366a31f07f5f97eaf8a9ee5f40d5324ba34"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jeremiecz--mangaios",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "66e736222df7cefb41a433e31d4ab9474090b4b8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:66e736222df7cefb41a433e31d4ab9474090b4b8"
  },
  "repo": "JeremieCz/MangaiOS"
 }

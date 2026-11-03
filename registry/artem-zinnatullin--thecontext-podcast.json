@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2016-02-05",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "Episode_1",
   "ultimo_push": "2019-12-28"
  },
  "descripcion": "Podcast about Android Development with Hannes Dorfmann, Artem Zinnatullin, Artur Dryomov and wonderful guests!",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a17b18075497e9c8bdf1591e4a53d59d69b3a618",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a17b18075497e9c8bdf1591e4a53d59d69b3a618"
  },
  "repo": "artem-zinnatullin/TheContext-Podcast"
 }

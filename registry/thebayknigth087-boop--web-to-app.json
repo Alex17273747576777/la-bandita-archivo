@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#thebayknigth087-boop/web-to-app",
   "sha256": "218c91716f881e50520c0c8569b7d29f6fba7af1b96254746929ff2dc9dbffe3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "thebayknigth087-boop--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ad3f1fa51740565717bceba0ca4192d1ff0d4e30",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ad3f1fa51740565717bceba0ca4192d1ff0d4e30"
  },
  "repo": "thebayknigth087-boop/web-to-app"
 }

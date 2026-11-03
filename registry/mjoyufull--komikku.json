@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Mjoyufull/komikku",
   "sha256": "fd7ed2ff5032ac3174285b89effcfc0b9896f5f463fa07f35bd910927f61306d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mjoyufull--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "87bd58984aaee6cc7761577ad84455fac0aa4b47",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:87bd58984aaee6cc7761577ad84455fac0aa4b47"
  },
  "repo": "Mjoyufull/komikku"
 }

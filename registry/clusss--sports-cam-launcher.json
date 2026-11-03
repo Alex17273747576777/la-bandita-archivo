@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "vivoxflip",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "vivo X Flip 副屏运动相机风格启动器，可以在大屏缺失的vioxflip副屏上独立启动应用",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "625d8db93ab9bea693e27ff1fde750966b8f99f3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:625d8db93ab9bea693e27ff1fde750966b8f99f3"
  },
  "repo": "clusss/sports-cam-launcher"
 }

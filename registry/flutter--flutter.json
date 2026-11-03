@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-07-12",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "3.13.0-0.1.pre",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 180847,
+  "stars": 181022,
   "stars_por_mes": null
  },
  "nombre": "flutter",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "934720261be051307da25be7911628d61ccb8b72",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:934720261be051307da25be7911628d61ccb8b72"
  },
  "repo": "flutter/flutter",
  "web": "https://flutter.dev"

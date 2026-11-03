@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#macie3672/Tadami-Aniyomi-fork",
   "sha256": "4c89a8d6f09e8b777483bd8801a1042f4c00fc6d3a2d992d13165e06397ea080"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "macie3672--tadami-aniyomi-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2ea3f68b03fbe01e11f1ca639b6f8423d0812cde",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2ea3f68b03fbe01e11f1ca639b6f8423d0812cde"
  },
  "repo": "macie3672/Tadami-Aniyomi-fork"
 }

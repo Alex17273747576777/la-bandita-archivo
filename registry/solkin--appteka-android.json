@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2020-02-04",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-21"
+  "ultima_release": "v5.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "💊 Appteka is an alternative store for Android",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1367,
+  "stars": 1379,
   "stars_por_mes": null
  },
  "nombre": "appteka-android",
@@ -39,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "24724adb51955a20bfc1001969d9d098cc55a026",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:24724adb51955a20bfc1001969d9d098cc55a026"
  },
  "repo": "solkin/appteka-android",
  "web": "https://appteka.store"

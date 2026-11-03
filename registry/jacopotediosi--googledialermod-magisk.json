@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2021-09-09",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.00",
   "ultimo_push": "2022-11-14"
  },
  "descripcion": "A deprecated module to tweak Google Dialer (Phone by Google) Android application to enable hidden features like call recording. Use https://github.com/jacopotediosi/GoogleDialerMod instead.",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "eb6dc86033279eb95b1283176fa331685f6ef9d7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:eb6dc86033279eb95b1283176fa331685f6ef9d7"
  },
  "repo": "jacopotediosi/GoogleDialerMod-Magisk"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Official-Husko/Stash-Desktop",
   "sha256": "f4a56a784931ea0327e748db02e4690e51ab9d4c531ac9c2eb5de1bea319367b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,23 +21,24 @@
  "id": "official-husko--stash-desktop",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": 0.0
  },
  "nombre": "Stash-Desktop",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a280d84affeb0d951738542def3875caa82ac9c0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a280d84affeb0d951738542def3875caa82ac9c0"
  },
  "repo": "Official-Husko/Stash-Desktop"
 }

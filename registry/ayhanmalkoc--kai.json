@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ayhanmalkoc/Kai",
   "sha256": "64ca4787fa7339ef1a6a2a7256ee773b72e5feb9b159adb11f85c8b21ef562bb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ayhanmalkoc--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1e907fc4b0aa6d8852109d44e1c21a437ce3aabd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1e907fc4b0aa6d8852109d44e1c21a437ce3aabd"
  },
  "repo": "ayhanmalkoc/Kai"
 }

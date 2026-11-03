@@ -1,9 +1,9 @@
 # PIEZA 30 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/30-La-cara-del-sistema-lanzadores-teclados-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `24aad513431048c3e9e744ead3450729a9c50b0012d85c7dfbd0186505ad4652`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3632 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3632 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 915 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 8 · Apache-2.0 2 · NOASSERTION 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/30-La-cara-del-sistema-lanzadores-teclados-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3632 caracteres ═══
 
@@ -85,23 +85,23 @@ Hay release de esta semana: **you-apps/WallYou** publicó v17.1 (2026-10-29). El
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1747 caracteres ═══
+═══ MENSAJE 4 de 5 · 1748 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 30*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• LawnchairLauncher/lawnchair — ★13.841 (+24) · empujó en las últimas horas · NOASSERTION · última release 1.2.0.1884 (23-jul-2018)
-• florisboard/florisboard — ★8.742 (+10) · empujó el 31-oct-2026 (hace 2 días) · Apache-2.0 · última release v0.5.2 (28-nov-2025)
-• HeliBorg/HeliBoard — ★6.477 (+34) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
-• muzei/muzei — ★4.959 (+5) · empujó en las últimas horas · Apache-2.0 · última release api3.4.2 (16-jun-2024)
-• KieronQuinn/TapTap — ★4.059 (+1) · *dormido*: sin empujar desde el 26-oct-2024 (737 días) · GPL-3.0 · última release 1.6.2 (26-oct-2024)
-• KieronQuinn/Smartspacer — ★3.587 (+9) · empujó el 23-oct-2026 (hace 10 días) · GPL-3.0 · última release 1.11.4 (2-oct-2026)
-• openboard-team/openboard — ★2.756 (+2) · *dormido*: sin empujar desde el 16-may-2024 (900 días) · GPL-3.0 · última release v1.4.5 (5-ago-2022)
-• Mahmud0808/ColorBlendr — ★2.578 (+9) · empujó en las últimas horas · GPL-3.0 · última release v3.1.2 (31-oct-2026)
-• KieronQuinn/AmbientMusicMod — ★2.526 (+2) · *dormido*: sin empujar desde el 7-sep-2024 (786 días) · GPL-3.0 · última release 2.4 (7-sep-2024)
-• NeoApplications/Neo-Launcher — ★2.153 (+2) · empujó el 25-oct-2026 (hace 8 días) · GPL-3.0 · última release 0.9.3 (18-dic-2023)
-• you-apps/WallYou — ★1.449 (+9) · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release v17.1 (29-oct-2026)
+• LawnchairLauncher/lawnchair — ★13.850 (+33) · empujó en las últimas horas · NOASSERTION · última release 1.2.0.1884 (23-jul-2018)
+• florisboard/florisboard — ★8.744 (+12) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
+• HeliBorg/HeliBoard — ★6.485 (+42) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
+• muzei/muzei — ★4.962 (+8) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release api3.4.2 (16-jun-2024)
+• KieronQuinn/TapTap — ★4.060 (+2) · *dormido*: sin empujar desde el 26-oct-2024 (738 días) · GPL-3.0 · última release 1.6.2 (26-oct-2024)
+• KieronQuinn/Smartspacer — ★3.590 (+12) · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release 1.11.4 (2-oct-2026)
+• openboard-team/openboard — ★2.757 (+3) · *dormido*: sin empujar desde el 16-may-2024 (901 días) · GPL-3.0 · última release v1.4.5 (5-ago-2022)
+• Mahmud0808/ColorBlendr — ★2.583 (+14) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v3.1.2 (31-oct-2026)
+• KieronQuinn/AmbientMusicMod — ★2.527 (+3) · *dormido*: sin empujar desde el 7-sep-2024 (787 días) · GPL-3.0 · última release 2.4 (7-sep-2024)
+• NeoApplications/Neo-Launcher — ★2.155 (+4) · empujó en las últimas horas · GPL-3.0 · última release 0.9.3 (18-dic-2023)
+• you-apps/WallYou — ★1.452 (+12) · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release v17.1 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

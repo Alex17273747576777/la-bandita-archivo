@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#oliwiawis12-alt/playtranslate",
   "sha256": "d6e21f5157b25cc910da7d191394fa2a41f1549aa508e025c347e40014f3500e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "oliwiawis12-alt--playtranslate",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8e30c68d0f84b5ab6b02793d3c1079838193dca2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8e30c68d0f84b5ab6b02793d3c1079838193dca2"
  },
  "repo": "oliwiawis12-alt/playtranslate"
 }

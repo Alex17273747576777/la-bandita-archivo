@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.48",
   "ultimo_push": "2026-10-28"
  },
  "descripcion": "One-tap fix for wireless Android Auto when your phone's Wi-Fi country blocks the car's 5 GHz channel. Built for Samsung phones. No root, uses Shizuku.",
@@ -21,12 +21,12 @@
  "id": "bassembaraya--repair",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -37,10 +37,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "cc2c320b8c048874a3c95d19cc1a9d52f8860831",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:cc2c320b8c048874a3c95d19cc1a9d52f8860831"
  },
  "repo": "bassembaraya/RePair"
 }

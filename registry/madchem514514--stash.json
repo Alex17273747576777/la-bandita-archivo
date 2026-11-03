@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#madchem514514/Stash",
   "sha256": "5adce594382ac1e69ce0062c0c7b3b02d7eb02846a6e50ced4a3f1c48b8f501a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "madchem514514--stash",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a9be4d608d9296843fe37473c5b0c73b188ae16e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a9be4d608d9296843fe37473c5b0c73b188ae16e"
  },
  "repo": "madchem514514/Stash"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#itsmechinmoy/cumikku",
   "sha256": "1604d4a8e63e547e505c293afc1e5564651302c4f86ffc269d8ff67d0cd09a3c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "itsmechinmoy--cumikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "35db2840c88bfbd685726e8d4c40714a9ff32dd4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:35db2840c88bfbd685726e8d4c40714a9ff32dd4"
  },
  "repo": "itsmechinmoy/cumikku"
 }

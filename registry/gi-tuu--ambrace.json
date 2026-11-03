@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-17",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-27"
+  "ultima_release": "v3.1.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "拥爱 AMBRACE｜可自行部署的 AI 陪伴应用：长期记忆、主动关心、日记与朋友圈。Android App + 自托管后端，支持自选模型与插件扩展。",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12,
+  "stars": 13,
   "stars_por_mes": null
  },
  "nombre": "AMBRACE",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4298bf2b056e42b5fdb7f98ed8487e4dc33d9ceb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4298bf2b056e42b5fdb7f98ed8487e4dc33d9ceb"
  },
  "repo": "Gi-Tuu/AMBRACE",
  "web": "https://gi-tuu.github.io/AMBRACE/"

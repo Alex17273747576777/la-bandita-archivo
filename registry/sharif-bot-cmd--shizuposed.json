@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-06",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "1.0.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Rootless Xposed Framework",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 82,
+  "stars": 86,
   "stars_por_mes": null
  },
  "nombre": "ShizuPosed",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3cb8d12f47745764f7cf841159f37572addb7f1c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3cb8d12f47745764f7cf841159f37572addb7f1c"
  },
  "repo": "Sharif-bot-cmd/ShizuPosed"
 }

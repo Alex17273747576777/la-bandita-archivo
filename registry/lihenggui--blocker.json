@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-22",
+  "release_en": "2022-01-22",
   "semantica_http": 200,
-  "ultima_release": "v2.0.6447",
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "0.1.45-beta",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Utilize an integrated firewall to manage application components.",
  "evidencia": {
@@ -25,23 +25,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2476,
+  "stars": 2480,
   "stars_por_mes": null
  },
  "nombre": "blocker",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1dbc671f5c72f37ed74be60d8301a18cc1aeb6e6",
+  "commit": "c4ff57135349687e35323caf8ae84c7b1e4cc9fe",
   "swh_estado": "archivada",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1dbc671f5c72f37ed74be60d8301a18cc1aeb6e6"
+  "swhid": "swh:1:rev:c4ff57135349687e35323caf8ae84c7b1e4cc9fe"
  },
  "repo": "lihenggui/blocker"
 }

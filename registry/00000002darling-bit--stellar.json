@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#00000002darling-bit/Stellar",
   "sha256": "eb60bd02588112fe5230339c221fd3eef52acba05b38416156f4ba39e175470b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "00000002darling-bit--stellar",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2aaef28f39bc3275d321311394295d224950ccf9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2aaef28f39bc3275d321311394295d224950ccf9"
  },
  "repo": "00000002darling-bit/Stellar"
 }

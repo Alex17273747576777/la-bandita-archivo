@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-11-05",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "v1-alpha",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Surface Duo Dual Experience (  🍰 AOSP | Android 16 | DUO1 | DUO2 ) ",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "archfx--duo-de",
  "licencia": {
   "archivo": "LICENSE.txt",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 359,
+  "stars": 364,
   "stars_por_mes": null
  },
  "nombre": "duo-de",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "93c2e61069611eb32bfb264a931f9b2f1a0bd3c4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:93c2e61069611eb32bfb264a931f9b2f1a0bd3c4"
  },
  "repo": "Archfx/duo-de",
  "web": "https://archfx.me/duo-de/"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#huumn/Maple",
   "sha256": "fd0d311cc8fac8b9ab73243393ad0466bd61d3dacd26e6e08d80042c76fba19f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "huumn--maple",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "eb070e007e740c431ba1eee57b7f6dc5fddd18d8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:eb070e007e740c431ba1eee57b7f6dc5fddd18d8"
  },
  "repo": "huumn/Maple"
 }

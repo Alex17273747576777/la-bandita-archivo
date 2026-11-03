@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-04-10",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0-β",
   "ultimo_push": "2026-10-27"
  },
  "descripcion": "Media Gallery app for Android made with Jetpack Compose",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2970,
+  "stars": 2975,
   "stars_por_mes": null
  },
  "nombre": "ReFra",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ba329cb0b75547ab517ea789af4651a7e4aea7a2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ba329cb0b75547ab517ea789af4651a7e4aea7a2"
  },
  "repo": "IacobIonut01/ReFra"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2023-05-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "V1.0.0",
   "ultimo_push": "2025-12-08"
  },
  "descripcion": "A cross platform App for streaming Music",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3090,
+  "stars": 3087,
   "stars_por_mes": null
  },
  "nombre": "Harmony-Music",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "99d750fd521ded1f0555468fa8686ca6ef0466d1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:99d750fd521ded1f0555468fa8686ca6ef0466d1"
  },
  "repo": "anandnet/Harmony-Music"
 }

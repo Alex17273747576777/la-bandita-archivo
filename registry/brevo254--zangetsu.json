@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Brevo254/Zangetsu",
   "sha256": "ba84a2882508aa83f7695be759c6a28bb9d11a6bd4c97784b57b0dcf5586dc49"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "brevo254--zangetsu",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "20cfa0a778e20a2e267bd2c82e7566a3cc338d6a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:20cfa0a778e20a2e267bd2c82e7566a3cc338d6a"
  },
  "repo": "Brevo254/Zangetsu"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-18",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "v1.0.1",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "The ultimate preservation and modding toolkit for Real Racing 3. Features privileged file management via Shizuku, a community-driven save hub, and a professional-grade music metadata engine. Compatible with Android 8.0+ and both ROW/NA game versions.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8f2d99b03b33fe1f3571ec22e8ff2a0ce5a7e75d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8f2d99b03b33fe1f3571ec22e8ff2a0ce5a7e75d"
  },
  "repo": "Tankonline/Project-RETR0-App"
 }

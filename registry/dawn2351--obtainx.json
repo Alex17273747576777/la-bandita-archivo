@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#dawn2351/ObtainX",
   "sha256": "a1a6b11107cb74807a38ef4c5b017af909a6acafb2a9eff51bee49b5b916ff3d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dawn2351--obtainx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "75378f7949566647ec72cce47f5dc92bd897e820",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:75378f7949566647ec72cce47f5dc92bd897e820"
  },
  "repo": "dawn2351/ObtainX"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-20",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "0.1.2",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Open Source virtual tabletop for Obsidian: battle maps, tokens, fog of war, dice, initiative and a separate player view.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 647,
+  "stars": 656,
   "stars_por_mes": null
  },
  "nombre": "atlas-vtt",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "53ae34e93b48cfdc160eac3deb96140f054d55e6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:53ae34e93b48cfdc160eac3deb96140f054d55e6"
  },
  "repo": "atlas-vtt/atlas-vtt",
  "web": "https://atlas-vtt.dev"

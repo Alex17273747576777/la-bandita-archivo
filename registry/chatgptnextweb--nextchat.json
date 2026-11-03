@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-03-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-10-20"
  },
  "descripcion": "✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 88930,
+  "stars": 88937,
   "stars_por_mes": null
  },
  "nombre": "NextChat",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1d3dc331512929a4b1d3e82354e72acce33b5c7a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1d3dc331512929a4b1d3e82354e72acce33b5c7a"
  },
  "repo": "ChatGPTNextWeb/NextChat",
  "web": "https://nextchat.club"

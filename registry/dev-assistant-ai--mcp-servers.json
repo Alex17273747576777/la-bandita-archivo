@@ -21,11 +21,11 @@
  "id": "dev-assistant-ai--mcp-servers",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "618cf4867bca1fa193553d94fb7f2b2cf47f2a04",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:618cf4867bca1fa193553d94fb7f2b2cf47f2a04"
  },
  "repo": "dev-assistant-ai/mcp-servers",
  "web": "https://modelcontextprotocol.io"

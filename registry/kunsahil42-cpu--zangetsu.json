@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kunsahil42-cpu/Zangetsu",
   "sha256": "c2ab4435f7492e0f5ebfe35476df6442f6d4326f0da54f17300879db870f26db"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kunsahil42-cpu--zangetsu",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4fa4a35a02a39de942ce2c925d778a84e7d3d9fb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4fa4a35a02a39de942ce2c925d778a84e7d3d9fb"
  },
  "repo": "kunsahil42-cpu/Zangetsu"
 }

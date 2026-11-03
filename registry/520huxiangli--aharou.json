@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-26",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.11.0-dev.201",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Aharou · 手机上的 AI 助手与 Coding Agent（内置 Linux 环境 · 影子屏）",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 30,
+  "stars": 31,
   "stars_por_mes": null
  },
  "nombre": "Aharou",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "c167c1f0a52e83217408962662f38b2d46dd4c21",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:c167c1f0a52e83217408962662f38b2d46dd4c21"
  },
  "repo": "520huxiangli/Aharou"
 }

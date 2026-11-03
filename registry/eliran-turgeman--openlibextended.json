@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1.0",
   "ultimo_push": "2026-08-07"
  },
  "descripcion": "An Open source app to download and read books from shadow library (Anna’s Archive)",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0a648ee447c66f4c88c4d7823cdbc4a00d027b2d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0a648ee447c66f4c88c4d7823cdbc4a00d027b2d"
  },
  "repo": "Eliran-Turgeman/OpenlibExtended"
 }

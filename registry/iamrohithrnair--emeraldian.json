@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-27",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "A terminal UI for your Obsidian vault: live-preview notes, backlinks, images, a force-directed graph and an assistant",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 546,
+  "stars": 547,
   "stars_por_mes": null
  },
  "nombre": "emeraldian",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f5e04406d43c13ecb43ce65c5b8798f428b483ec",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f5e04406d43c13ecb43ce65c5b8798f428b483ec"
  },
  "repo": "iamrohithrnair/emeraldian",
  "web": "https://emeraldian-tui.github.io"

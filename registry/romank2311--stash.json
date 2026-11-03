@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#RomanK2311/Stash",
   "sha256": "0f00eaa11b9f59035d2b0bea94ce03f74851e5ea46e9ed868d85615ba0af19db"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "romank2311--stash",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "922b98c90eddfa9f2b5f0d24123fcfbc7d84847b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:922b98c90eddfa9f2b5f0d24123fcfbc7d84847b"
  },
  "repo": "RomanK2311/Stash"
 }

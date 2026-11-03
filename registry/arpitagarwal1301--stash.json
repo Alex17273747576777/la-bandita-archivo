@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#arpitagarwal1301/Stash",
   "sha256": "6bbe69bed48d8784ffbd06cf68d0e590f984ea4a9af5ddd3449fad3f0825f338"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "arpitagarwal1301--stash",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9e06a9e7a67946d30589cf3669b1adc06081b63b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9e06a9e7a67946d30589cf3669b1adc06081b63b"
  },
  "repo": "arpitagarwal1301/Stash"
 }

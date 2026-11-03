@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v14.7.1",
   "ultimo_push": "2026-10-20"
  },
  "descripcion": "",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7db6ca7d53e3a1903402845add9c8996632d3b2c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7db6ca7d53e3a1903402845add9c8996632d3b2c"
  },
  "repo": "TheShadyRainbow4/ShizElite"
 }

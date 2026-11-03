@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": null,
+  "estado": "vivo",
+  "release_en": "2026-01-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-08-18"
  },
  "descripcion": "ReDantotsu is a Remake version of the original Dantotsu app. It is built on a foundation that has been tested and works well. ReDantotsu features a new user interface, MyAnimeList rating integration, Liquid Glass theme, etc. This is the best way to keep track of your anime and your manga.",
@@ -21,15 +21,15 @@
  "id": "asrofficialdev--redantotsu",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
-  "spdx": "GPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 152,
+  "stars": 153,
   "stars_por_mes": null
  },
  "nombre": "ReDantotsu",
@@ -40,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "162f1028e11efcf7762b5ccebe2ca849674b59a0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:162f1028e11efcf7762b5ccebe2ca849674b59a0"
  },
  "repo": "AsrOfficialDev/ReDantotsu",
  "web": "https://asrofficialdev.github.io/ReDantotsu/"

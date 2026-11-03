@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "查看 Android 全部应用进程，支持仅第三方筛选与强行停止（基于 Shizuku / Root）",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b995bde043a191148ac0528540a08eb96b47b744",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b995bde043a191148ac0528540a08eb96b47b744"
  },
  "repo": "954349345/procmanager"
 }

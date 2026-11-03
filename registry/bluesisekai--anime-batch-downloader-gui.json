@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#BluesIsekai/Anime-batch-downloader-gui",
   "sha256": "f35193063e565af8fbb7c3b9f2b9f922cadb3ca9b9416c71034816d3909a9c76"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b3e23175ddc36c1d00d6cea01e2220960f9e2d0c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b3e23175ddc36c1d00d6cea01e2220960f9e2d0c"
  },
  "repo": "BluesIsekai/Anime-batch-downloader-gui"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SoniKarsh/aniyomi",
   "sha256": "c2116a561d3a946233634f6f831ed37c80847b812df0c2f24404fd6136c236dd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "sonikarsh--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "44bb46dbfeba4681209856e913cb40aed8d53aba",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:44bb46dbfeba4681209856e913cb40aed8d53aba"
  },
  "repo": "SoniKarsh/aniyomi"
 }

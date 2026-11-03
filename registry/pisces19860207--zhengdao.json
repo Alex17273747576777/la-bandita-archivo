@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-03",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "latest",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Native Android AI agent: 抱朴 is a first-party, in-process harness that reads and writes your files, handles images and pages, plans and writes. 玄览 is the browser it sees through. The terminal is a separate app (zhengdao-term). No root, no Termux, no ADB. 安卓原生 AI agent：内置抱朴＋玄览浏览器；终端独立为 zhengdao-term。Android 16 (API 36) + arm64.",
  "evidencia": {
@@ -21,12 +21,12 @@
  "id": "pisces19860207--zhengdao",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -37,10 +37,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "486d018a2b8f264f7bd46adf63375dbe1430b744",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:486d018a2b8f264f7bd46adf63375dbe1430b744"
  },
  "repo": "pisces19860207/zhengdao",
  "web": "https://github.com/pisces19860207/zhengdao/releases"

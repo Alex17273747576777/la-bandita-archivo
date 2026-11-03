@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v7.0.0",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "为小米 HyperOS 设备打造的超级岛/息屏歌词显示 Lsposed 模块，也提供安卓通用的 Apple Music 体验优化。| An LSPosed module that provides HyperIsland and always-on display lyric features for Xiaomi HyperOS devices, and also offers general Android experience optimizations for Apple Music.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 105,
+  "stars": 110,
   "stars_por_mes": null
  },
  "nombre": "HyperLyrics-Enhanced",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f74a64d84cc44124eab2450f908b06ee2986dd6d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f74a64d84cc44124eab2450f908b06ee2986dd6d"
  },
  "repo": "juren233/HyperLyrics-Enhanced"
 }

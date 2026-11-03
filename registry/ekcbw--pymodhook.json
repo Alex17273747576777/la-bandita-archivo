@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-05-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0",
   "ultimo_push": "2026-10-09"
  },
  "descripcion": "A library for recording arbitrary calls to Python modules, primarily intended for Python reverse engineering and analysis. ",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "30ae93ff1e86b1e3dafb4ba7508ec6d17fee2d15",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:30ae93ff1e86b1e3dafb4ba7508ec6d17fee2d15"
  },
  "repo": "ekcbw/pymodhook"
 }

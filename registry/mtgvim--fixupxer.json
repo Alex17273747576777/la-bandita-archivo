@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MTGVim/fixupxer",
   "sha256": "f448e1e77391d8c9f6ec2f7dc3872b3b0a269bd0d76ea6f68e462fee62a127bd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mtgvim--fixupxer",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "dc4981e70d1958b7c9a89e2328a31976ae340ee8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dc4981e70d1958b7c9a89e2328a31976ae340ee8"
  },
  "repo": "MTGVim/fixupxer"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#OctoBored/Manatan",
   "sha256": "e6a8c6f8a0b21a3018a13a24c8ab6a5f05f5e98d7b30b406f6ddf3e5009a9554"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "octobored--manatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "26f903a00d06a7d453d05c0e3db53657579c62ac",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:26f903a00d06a7d453d05c0e3db53657579c62ac"
  },
  "repo": "OctoBored/Manatan"
 }

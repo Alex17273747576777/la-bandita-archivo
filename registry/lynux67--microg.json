@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2024-10-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "5.9.0",
   "ultimo_push": "2024-10-28"
  },
  "descripcion": "GmsCore Fork",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Lynux67/MicroG",
   "sha256": "dd90e7b591dc2b6da31f3c162cc83c8f76c74deba8dd05655c001620e3be99a7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lynux67--microg",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c4f449cc862355c4a1e71ad6393a212900627cd7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c4f449cc862355c4a1e71ad6393a212900627cd7"
  },
  "repo": "Lynux67/MicroG"
 }

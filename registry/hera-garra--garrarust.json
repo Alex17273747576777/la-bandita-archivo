@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#hera-garra/GarraRUST",
   "sha256": "9fb9b41b4db174bfdb39fa21bedf5192d1c72f3de19ff5e1e68636a9a547b4be"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hera-garra--garrarust",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b4c45343e2c0cc1fd82f885c533dc48a3f80d3ce",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b4c45343e2c0cc1fd82f885c533dc48a3f80d3ce"
  },
  "repo": "hera-garra/GarraRUST"
 }

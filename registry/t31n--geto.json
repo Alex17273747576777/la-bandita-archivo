@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-07-18",
+  "release_en": "2023-11-27",
   "semantica_http": 200,
-  "ultima_release": "v1.17.3",
+  "ultima_release": "v1.3",
   "ultimo_push": "2026-09-02"
  },
  "descripcion": "Apply device settings to your apps.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1350,
+  "stars": 1360,
   "stars_por_mes": null
  },
  "nombre": "Geto",
@@ -39,7 +39,7 @@
   "commit": "8d5e93491005c6249591285bb6826f2326a17093",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8d5e93491005c6249591285bb6826f2326a17093"
  },
  "repo": "T31n/Geto"
 }

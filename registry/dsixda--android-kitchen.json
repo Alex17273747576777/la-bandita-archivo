@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1082,
+  "stars": 1081,
   "stars_por_mes": null
  },
  "nombre": "Android-Kitchen",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d9a8a8bc75272340a4867e31389b125898fb344b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d9a8a8bc75272340a4867e31389b125898fb344b"
  },
  "repo": "dsixda/Android-Kitchen",
  "web": "http://forum.xda-developers.com/showthread.php?t=633246"

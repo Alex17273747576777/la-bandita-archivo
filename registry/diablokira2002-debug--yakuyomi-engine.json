@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#diablokira2002-debug/yakuyomi-engine",
   "sha256": "9020653bd36e9059e13690ab76334727c251579e0bbad0c9ef3fae16ffee202c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "diablokira2002-debug--yakuyomi-engine",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ad2811dce66a5b9aa4f3c920af831ed732b1012b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ad2811dce66a5b9aa4f3c920af831ed732b1012b"
  },
  "repo": "diablokira2002-debug/yakuyomi-engine"
 }

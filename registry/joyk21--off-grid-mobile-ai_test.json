@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#joyk21/off-grid-mobile-ai_test",
   "sha256": "8b7a21d53bd8aa5495c7147b46a4ba71bcd922fd72fdc0bbef1af73c6e14af79"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "joyk21--off-grid-mobile-ai_test",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4e1ca928032d6b68e0785fd82e93208a3179f4ea",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e1ca928032d6b68e0785fd82e93208a3179f4ea"
  },
  "repo": "joyk21/off-grid-mobile-ai_test"
 }

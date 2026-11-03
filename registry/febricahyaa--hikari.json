@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#FebriCahyaa/hikari",
   "sha256": "8bcd5220a98ef136fce5daeb87c867ced6e95605a210beffbffaff8f2a8ff755"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "febricahyaa--hikari",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3413967cd3beea3e07b813e88a5f6af831188617",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3413967cd3beea3e07b813e88a5f6af831188617"
  },
  "repo": "FebriCahyaa/hikari"
 }

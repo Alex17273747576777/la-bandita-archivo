@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ani1nonly/CodeAssist",
   "sha256": "bb97ca4c093d969f1967becfa5ea6fc1f257c60c790a59a38f4c6e1238fe9640"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ani1nonly--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fe8bb4f169993a405b1eb7387992a55e63b8db37",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fe8bb4f169993a405b1eb7387992a55e63b8db37"
  },
  "repo": "ani1nonly/CodeAssist"
 }

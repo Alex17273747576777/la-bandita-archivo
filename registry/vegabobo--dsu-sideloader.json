@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2022-01-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1",
   "ultimo_push": "2024-03-13"
  },
  "descripcion": "A simple app made to help users easily install GSIs via DSU's Android feature.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2350,
+  "stars": 2352,
   "stars_por_mes": null
  },
  "nombre": "DSU-Sideloader",
@@ -39,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "70cb6da9ecf9ae19c72ea680b02f1a0e20c77653",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:70cb6da9ecf9ae19c72ea680b02f1a0e20c77653"
  },
  "repo": "VegaBobo/DSU-Sideloader"
 }

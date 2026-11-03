@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2283,
+  "stars": 2389,
   "stars_por_mes": null
  },
  "nombre": "founder-skill",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fd9385b0cfe1b96bebce3898fbd506d73eff5a9d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fd9385b0cfe1b96bebce3898fbd506d73eff5a9d"
  },
  "repo": "Jakeschincariol/founder-skill"
 }

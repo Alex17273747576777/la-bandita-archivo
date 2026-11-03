@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-06"
  },
  "descripcion": "Custom Android notification shade replacement — OneUI & Pixel themes, Shizuku-powered",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 31,
+  "stars": 33,
   "stars_por_mes": null
  },
  "nombre": "SuperShade",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2d423cb46148172726f988c1a670891b6771be03",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2d423cb46148172726f988c1a670891b6771be03"
  },
  "repo": "thejaustin/SuperShade"
 }

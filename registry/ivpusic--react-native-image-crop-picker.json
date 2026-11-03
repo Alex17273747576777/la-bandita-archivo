@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2016-07-27",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.5.0",
   "ultimo_push": "2026-10-15"
  },
  "descripcion": "iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6352,
+  "stars": 6351,
   "stars_por_mes": null
  },
  "nombre": "react-native-image-crop-picker",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a18a50d4e7935aeaf45ce44b098bdcac3365be2c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a18a50d4e7935aeaf45ce44b098bdcac3365be2c"
  },
  "repo": "ivpusic/react-native-image-crop-picker"
 }

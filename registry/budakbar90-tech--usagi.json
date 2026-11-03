@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#budakbar90-tech/Usagi",
   "sha256": "0e69f07bf1172b6db09cf37bd48d64d78dc0885c0e78da7c59b85c8854f3e8cc"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "budakbar90-tech--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c20df6be002b476ca1bde849463ca21a52f7acdf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c20df6be002b476ca1bde849463ca21a52f7acdf"
  },
  "repo": "budakbar90-tech/Usagi"
 }

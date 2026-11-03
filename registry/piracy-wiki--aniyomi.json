@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Piracy-Wiki/aniyomi",
   "sha256": "085b6dbc09d65b0e6b4b281bc6c3c90c85fe7c435312662e6232ecc2a5317e31"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "piracy-wiki--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "98b7e1dbebb9460a7a036f3c738772be9121b6fa",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:98b7e1dbebb9460a7a036f3c738772be9121b6fa"
  },
  "repo": "Piracy-Wiki/aniyomi"
 }

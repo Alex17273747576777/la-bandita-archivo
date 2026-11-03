@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Pisces-thluai/Yorumi",
   "sha256": "76a7b24f8c65673215eb270d3e698592ca3cf1e7d898b1c431a2a4b1feb201f2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8994f973fdaeceaf01094a9b7554bdd68b5ce14a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8994f973fdaeceaf01094a9b7554bdd68b5ce14a"
  },
  "repo": "Pisces-thluai/Yorumi"
 }

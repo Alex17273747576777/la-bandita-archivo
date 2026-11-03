@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Chato05/WinNative",
   "sha256": "68fd1d28bf3b433ebe31abdbda2f54a0d6eacb2892903f7443fcc2571a018f96"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "chato05--winnative",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8e8b38fd18d88ce16606f5be5f0b338a8f1e2071",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8e8b38fd18d88ce16606f5be5f0b338a8f1e2071"
  },
  "repo": "Chato05/WinNative"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-12-05",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v25.12.05",
   "ultimo_push": "2026-10-08"
  },
  "descripcion": "AndroSH No-Root Multi-Distro Linux on Android via Shizuku/ADB - Run Arch, Fedora, Alpine, Debian, Ubuntu, Kali, Void, Manjaro, OpenSUSE & Chimera with full system integration, proot isolation & Termux:X11 GUI.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 273,
+  "stars": 277,
   "stars_por_mes": null
  },
  "nombre": "AndroSH",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e4b9d939dc615a7999eeeef67e692c313600e8ce",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e4b9d939dc615a7999eeeef67e692c313600e8ce"
  },
  "repo": "ahmed-alnassif/AndroSH",
  "web": "https://t.me/ahmed_alnassif_tg"

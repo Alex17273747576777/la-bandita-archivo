@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-16",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v3.0.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "An IDE for building Android applicatons on Android.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2098,
+  "stars": 2104,
   "stars_por_mes": null
  },
  "nombre": "CodeAssist",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "63d5e236a196989cf7c919f25cbff208c9c645b3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:63d5e236a196989cf7c919f25cbff208c9c645b3"
  },
  "repo": "tyron12233/CodeAssist"
 }

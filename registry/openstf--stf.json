@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2016-01-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1.0",
   "ultimo_push": "2023-05-31"
  },
  "descripcion": "Control and manage Android devices from your browser.",
@@ -21,25 +21,25 @@
  "id": "openstf--stf",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13962,
+  "stars": 13966,
   "stars_por_mes": null
  },
  "nombre": "stf",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2b9649009722794dee9efd32b71bccbcbfe9d794",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2b9649009722794dee9efd32b71bccbcbfe9d794"
  },
  "repo": "openstf/stf",
  "web": "https://openstf.io"

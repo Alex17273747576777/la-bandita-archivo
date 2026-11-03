@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#siathalysedI/off-grid-mobile",
   "sha256": "5ef0ac48da3fe1a65ededa3a5ec4d75e4d3f67c4e93a95d755091869492a9945"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "siathalysedi--off-grid-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bf4b3283bbf9291ef2de13d5bfd91c85aae08d4c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bf4b3283bbf9291ef2de13d5bfd91c85aae08d4c"
  },
  "repo": "siathalysedI/off-grid-mobile"
 }

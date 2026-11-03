@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Bhavesh1236/web-to-app",
   "sha256": "1ee695b6655a54ffe6b66c7307a87abf338c4e72a7f999298d064ae3075b17d6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "bhavesh1236--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "70032eea887b4bb3a1462724b0ba5def122fde80",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:70032eea887b4bb3a1462724b0ba5def122fde80"
  },
  "repo": "Bhavesh1236/web-to-app"
 }

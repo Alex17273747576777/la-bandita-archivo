@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-16",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "continuous",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Hikari — a universal streaming app: Stremio addons, universal scrapers, CloudStream .cs3 plugins and more. Modern Material 3 UI.",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "codegeasse1--hikari",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "GPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 177,
+  "stars": 179,
   "stars_por_mes": null
  },
  "nombre": "hikari",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "9f14a88e2f03e96944be8c1d71de52ee1c7a940b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:9f14a88e2f03e96944be8c1d71de52ee1c7a940b"
  },
  "repo": "codegeasse1/hikari"
 }

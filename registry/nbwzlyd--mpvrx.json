@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#nbwzlyd/mpvRx",
   "sha256": "41323f21089f98d2bb42e4fcb276f0c79b852176bf107bb897dd4b3898bc2e6c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "nbwzlyd--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "112d85270c2298051eade5f11f85f26dc04bc0ee",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:112d85270c2298051eade5f11f85f26dc04bc0ee"
  },
  "repo": "nbwzlyd/mpvRx"
 }

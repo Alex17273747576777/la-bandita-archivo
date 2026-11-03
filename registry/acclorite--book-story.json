@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-04-26",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-25"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Book's Story — Material You eBook reader built with Jetpack Compose. Free & Open source & Ad-free, with extensive customization options and support for multiple file formats.",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1417,
+  "stars": 1420,
   "stars_por_mes": null
  },
  "nombre": "book-story",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1293ae391c4e97da9d0cd352f8a68e13cb826ab9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1293ae391c4e97da9d0cd352f8a68e13cb826ab9"
  },
  "repo": "Acclorite/book-story"
 }

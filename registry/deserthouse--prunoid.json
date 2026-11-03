@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.2.0-alpha",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "A root-based Android SDK component auditor and manager, with rule subscriptions, IFW, and component disabling.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "283a5b62f2ec02d3b7ad8b39135c10b87dab6bbd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:283a5b62f2ec02d3b7ad8b39135c10b87dab6bbd"
  },
  "repo": "deserthouse/Prunoid"
 }

@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "CC0-1.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2862,
+  "stars": 2867,
   "stars_por_mes": null
  },
  "nombre": "awesome-rss-feeds",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "9ab2482cae9031a5a39635c887fcfc8ece7e130a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:9ab2482cae9031a5a39635c887fcfc8ece7e130a"
  },
  "repo": "plenaryapp/awesome-rss-feeds"
 }

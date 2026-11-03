@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-05-23",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.8.0",
   "ultimo_push": "2026-07-19"
  },
  "descripcion": "Kotlin-first Android terminal library spanning Su, Shizuku, and SSH sessions.",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "55d02c3f9dfc8174069db55d17a2b9154059ea15",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:55d02c3f9dfc8174069db55d17a2b9154059ea15"
  },
  "repo": "niki914/libterm"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#coffeeyoda/InstallerX-Revived",
   "sha256": "62e7de5d02f5c623cc46587193ed518bbe74073a758704df02f28cbfdadea1b6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "coffeeyoda--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "21e4bd96514092a68dab235f2cd7bd44e960f2c7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:21e4bd96514092a68dab235f2cd7bd44e960f2c7"
  },
  "repo": "coffeeyoda/InstallerX-Revived"
 }

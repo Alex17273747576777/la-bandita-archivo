@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-17",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-19"
+  "ultima_release": "v2.7",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "把自己画的路线变成一段真的跑过的 GPS 轨迹，喂给手机上任意跑步软件。纯 Android Java，无 Gradle。",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "9737d6a82e89fc8d2db6fc188634dba550aa4c3d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:9737d6a82e89fc8d2db6fc188634dba550aa4c3d"
  },
  "repo": "sqyCoder/slow-1e8"
 }

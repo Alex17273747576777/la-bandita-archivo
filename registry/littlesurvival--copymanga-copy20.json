@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-05-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.4.52",
   "ultimo_push": "2026-10-11"
  },
  "descripcion": "Mihon/Tachiyomi系列 拷貝漫畫等中文資源的書源 相關社群見readme",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2984,
+  "stars": 2993,
   "stars_por_mes": null
  },
  "nombre": "copymanga-copy20",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "201b5bf1e11f89befb0388953e86536c4808239e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:201b5bf1e11f89befb0388953e86536c4808239e"
  },
  "repo": "LittleSurvival/copymanga-copy20",
  "web": "https://discord.gg/kE2VAZk2pd"

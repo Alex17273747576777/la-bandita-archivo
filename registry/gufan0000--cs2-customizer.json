@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "CS2 本地个性化工具：准心、击杀音效与图标、HUD 配色、局内视角、道具瞄点。只走 Valve 官方 GSI 接口与 cfg 文件，不碰游戏进程。",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8a01717e9f399bf0e032f7ffc58c85e1354b3fb2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8a01717e9f399bf0e032f7ffc58c85e1354b3fb2"
  },
  "repo": "gufan0000/cs2-customizer",
  "web": "https://fantool.online"

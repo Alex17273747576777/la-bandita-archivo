@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#trader18512/manganiyomi",
   "sha256": "1d9bbb167c2f7c7bd564e842e19f14f509ad689a120719f47dbcdfda7b91bffb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "trader18512--manganiyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d590c2ee41247bd04cdb1201d5fea88a727c8ed7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d590c2ee41247bd04cdb1201d5fea88a727c8ed7"
  },
  "repo": "trader18512/manganiyomi"
 }

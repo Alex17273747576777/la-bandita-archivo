@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ali-hmed/mangayomi-so",
   "sha256": "5356254e0d2a4dafec1774a9f3a8627541fafa2d60abb531ae2edb88399c017e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ali-hmed--mangayomi-so",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2ec08dba55ba007e3e2d91a864a5fed79979d6d4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2ec08dba55ba007e3e2d91a864a5fed79979d6d4"
  },
  "repo": "ali-hmed/mangayomi-so"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-12",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.18",
   "ultimo_push": "2026-10-26"
  },
  "descripcion": "An Android accessibility service for remapping hardware buttons on MX3-style air-mouse remotes",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "MX3ButtonMapper",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f345bb8421bf410b006cbf5f9cd2f06d338953a4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f345bb8421bf410b006cbf5f9cd2f06d338953a4"
  },
  "repo": "evilbunny2008/MX3ButtonMapper"
 }

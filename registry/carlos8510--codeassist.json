@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Carlos8510/CodeAssist",
   "sha256": "3d722f2916e07ca2243a0444dc9b002d6def5f2d8ed6690e9a122bb1d9ca14fa"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "carlos8510--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bc16c237d07b4092143b6a70244c9991d84e828a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bc16c237d07b4092143b6a70244c9991d84e828a"
  },
  "repo": "Carlos8510/CodeAssist"
 }

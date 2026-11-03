@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#LuizRafael79/Vectras-VM-Android",
   "sha256": "065617fa118d1268e0adada703dcd1e188f8d01dffcb7c41296c5bce73d210e7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "luizrafael79--vectras-vm-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a0f0e3bfed796588c8512e316c2afd62bb5fb6c1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a0f0e3bfed796588c8512e316c2afd62bb5fb6c1"
  },
  "repo": "LuizRafael79/Vectras-VM-Android"
 }

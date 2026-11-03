@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#aupartramses694-gif/ObtainX",
   "sha256": "7e81a4074108cba336540587b580ee5e735820133538cb92eea25904d19d637e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "aupartramses694-gif--obtainx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1a7a81d57fbc4dff1c9a59cf3a36d983f70efffb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1a7a81d57fbc4dff1c9a59cf3a36d983f70efffb"
  },
  "repo": "aupartramses694-gif/ObtainX"
 }

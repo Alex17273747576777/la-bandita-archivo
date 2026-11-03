@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#titaniumclock/Kai",
   "sha256": "bebd9231cc054a85aab4ba81bc582b8dd8588ba504e0ea0e4f34c6e97bba0c93"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "titaniumclock--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9b8e04d54747a718e21977a49f933a2a3136c160",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9b8e04d54747a718e21977a49f933a2a3136c160"
  },
  "repo": "titaniumclock/Kai"
 }

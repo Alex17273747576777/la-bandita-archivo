@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-09-11"
  },
  "descripcion": "A manga reader app built purely with kotlin and jetpack compose, features latest material 3 expressive  ui and online catalogue manga library",
@@ -25,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 33,
+  "stars": 34,
   "stars_por_mes": null
  },
  "nombre": "miko",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b128b58cbae58f53126ae2d02da64e1212c620c2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b128b58cbae58f53126ae2d02da64e1212c620c2"
  },
  "repo": "Hotaro26/miko",
  "web": "https://hotaro26.github.io/miko/"

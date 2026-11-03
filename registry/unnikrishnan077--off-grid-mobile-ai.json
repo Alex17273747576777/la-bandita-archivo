@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#unnikrishnan077/off-grid-mobile-ai",
   "sha256": "d457ca3584dae7271a5e572607fd5ae140d5f025cf21b119cce5da53fb6dc02b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "unnikrishnan077--off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5ab8ca980ef2798fde7278862200f66f44b65a2f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5ab8ca980ef2798fde7278862200f66f44b65a2f"
  },
  "repo": "unnikrishnan077/off-grid-mobile-ai"
 }

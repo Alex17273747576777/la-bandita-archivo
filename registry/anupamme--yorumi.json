@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#anupamme/Yorumi",
   "sha256": "e13929738c53e58fcad9a0cef8dce0c5ce103fa0a308624baf3e25b7f9e7781a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "anupamme--yorumi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "eb4577c2620c0a0f277cc58691356c0c64d9624b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:eb4577c2620c0a0f277cc58691356c0c64d9624b"
  },
  "repo": "anupamme/Yorumi"
 }

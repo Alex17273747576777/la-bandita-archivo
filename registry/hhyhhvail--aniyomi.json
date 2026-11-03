@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#hhyhhvail/aniyomi",
   "sha256": "268cd60c1624fd48fe29427db9f93c9d102ac001e1228be6e0f8bb4c6993de99"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hhyhhvail--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9baf6adce541ea5126f841b9043cb767585d0cd1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9baf6adce541ea5126f841b9043cb767585d0cd1"
  },
  "repo": "hhyhhvail/aniyomi"
 }

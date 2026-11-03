@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#script-hunter/anime-manga-downloader",
   "sha256": "a83423f290217b4605180858d7accde3641299ae32cb7b8cf666ae975d2d7331"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4e4b6ebd1953c31a57e254ac5fc0504ba6845537",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e4b6ebd1953c31a57e254ac5fc0504ba6845537"
  },
  "repo": "script-hunter/anime-manga-downloader"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-15",
+  "release_en": "2026-06-18",
   "semantica_http": 200,
-  "ultima_release": "6",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Free Open Source App & Website Blocker ",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1481,
+  "stars": 1491,
   "stars_por_mes": null
  },
  "nombre": "curbox-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a175504ac89c11172774cffaf3c756c022d9a11b",
+  "commit": "b06520f4dc35018c184b65341fbc4ffe31b2eb08",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b06520f4dc35018c184b65341fbc4ffe31b2eb08"
  },
  "repo": "curbox-app/curbox-android",
  "web": "https://curbox.app"

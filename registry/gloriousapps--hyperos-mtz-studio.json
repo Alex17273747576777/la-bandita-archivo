@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-27",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1.0",
   "ultimo_push": "2026-11-01"
  },
  "descripcion": "Modern, powerful MTZ theme composer, component mixer, and DRM protection studio for Xiaomi HyperOS devices.",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28,
+  "stars": 30,
   "stars_por_mes": null
  },
  "nombre": "HyperOS-MTZ-Studio",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5f3764130585146cad766f1d9dd064f7b9b881c1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5f3764130585146cad766f1d9dd064f7b9b881c1"
  },
  "repo": "GloriousApps/HyperOS-MTZ-Studio"
 }

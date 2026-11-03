@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.1",
   "ultimo_push": "2026-10-21"
  },
  "descripcion": "ProjectZenith is an Android gaming optimization utility with performance controls, game presets, adaptive gaming features, device monitoring, and Shizuku-powered system tools.",
@@ -21,11 +21,11 @@
  "id": "clide01--projectzenith",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6fa01ebc29018b069f1c18fa7c08577a8bac5f11",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6fa01ebc29018b069f1c18fa7c08577a8bac5f11"
  },
  "repo": "Clide01/ProjectZenith"
 }

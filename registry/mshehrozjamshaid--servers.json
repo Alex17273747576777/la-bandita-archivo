@@ -21,11 +21,11 @@
  "id": "mshehrozjamshaid--servers",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b58bc177cd0c71d3a98360bf42bb7a9a32c9bf11",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b58bc177cd0c71d3a98360bf42bb7a9a32c9bf11"
  },
  "repo": "MShehrozJamshaid/servers",
  "web": "https://modelcontextprotocol.io"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#OmfgItsJesus/Usagi",
   "sha256": "072f93b824efd07b362ce3bc6938422252849c69c30c5ff770af1ee81de7857d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "omfgitsjesus--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8614b321afc2ac8f6a09ff7553d60e62ba6ca6a9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8614b321afc2ac8f6a09ff7553d60e62ba6ca6a9"
  },
  "repo": "OmfgItsJesus/Usagi"
 }

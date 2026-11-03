@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "An AI assistant for Android with multi-model chat, tool calling, and customizable extensions.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "dc746d4ad48af5ea116dccbe2cdaf7ede8b5ddb3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:dc746d4ad48af5ea116dccbe2cdaf7ede8b5ddb3"
  },
  "repo": "pony-huang/Gimi"
 }

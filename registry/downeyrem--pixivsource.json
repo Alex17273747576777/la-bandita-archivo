@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-07-07",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "最好的 Pixiv 第三方小说阅读器——开源阅读 + Pixiv 书源 / Legado with Pixiv BookSource, the Best Third-Party Novel Reader for Pixiv",
  "evidencia": {
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1105,
+  "stars": 1108,
   "stars_por_mes": null
  },
  "nombre": "PixivSource",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e09232e222906774dbb9eacd08f38009d155dfc8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e09232e222906774dbb9eacd08f38009d155dfc8"
  },
  "repo": "DowneyRem/PixivSource",
  "web": "https://pixivsource.pages.dev"

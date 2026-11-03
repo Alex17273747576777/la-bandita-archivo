@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#norlailahsharief21-lgtm/Kototoro",
   "sha256": "4825757948b3fe45421803e99f9c439d6537e6233cdab322f77075529a23acaf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "norlailahsharief21-lgtm--kototoro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7aaaa6c8b8f6834d4c1af6c824c6248fb04c1106",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7aaaa6c8b8f6834d4c1af6c824c6248fb04c1106"
  },
  "repo": "norlailahsharief21-lgtm/Kototoro"
 }

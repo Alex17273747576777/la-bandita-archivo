@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-10-21"
  },
  "descripcion": "An IDE for building Android applicatons on Android.",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kuyeol/AndroidOS_IDE",
   "sha256": "7d971b1fa2b0800cd1487c159c6cefc7b5fa15e2b82c76c565d43f5844caea21"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kuyeol--androidos_ide",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3a362172d8fb1e23eb819261e1b5d9143a162cba",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3a362172d8fb1e23eb819261e1b5d9143a162cba"
  },
  "repo": "kuyeol/AndroidOS_IDE"
 }

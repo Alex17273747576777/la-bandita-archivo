@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Código-fonte em Kotlin e pipeline de compilação das extensões de mangá do Project Nox para Mihon e forks.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "909f6bdae19d48071399c8b703da152893d5aaaf",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:909f6bdae19d48071399c8b703da152893d5aaaf"
  },
  "repo": "Awerkori/manga-fonte-extensoes",
  "web": "https://raw.githubusercontent.com/Awerkori/extensoes/repo/index.pb"

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": "2021-02-25",
+  "release_en": "2019-01-28",
   "semantica_http": 200,
-  "ultima_release": "4.5",
+  "ultima_release": "1.13",
   "ultimo_push": "2024-06-03"
  },
  "descripcion": "Android split APKs installer",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3954,
+  "stars": 3960,
   "stars_por_mes": null
  },
  "nombre": "SAI",

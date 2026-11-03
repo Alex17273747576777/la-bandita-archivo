@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-29",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-09-09"
+  "ultima_release": "repo",
+  "ultimo_push": "2026-10-23"
  },
  "descripcion": "A cross-platform manga app made for e-hentai & exhentai by Flutter",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Meeks233/Jhentai-rpm",
   "sha256": "4206b71ba29fa6d59e31878806bff7b7f2e0d7bf302948acc151edece96487bf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "meeks233--jhentai-rpm",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "771c55d2de3494bac372e9c8b2a4511cb0ca82a4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:771c55d2de3494bac372e9c8b2a4511cb0ca82a4"
  },
  "repo": "Meeks233/Jhentai-rpm"
 }

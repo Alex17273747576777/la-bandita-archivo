@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2024-12-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "5.9",
   "ultimo_push": "2025-09-28"
  },
  "descripcion": "GmsCore fork for ReVanced with Material You, features and improvements",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ae17a2e29b3b4d41c8f147377901db6100f31220",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ae17a2e29b3b4d41c8f147377901db6100f31220"
  },
  "repo": "FiorenMas/MicroG-RE"
 }

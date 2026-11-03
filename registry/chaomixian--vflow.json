@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-05-23",
+  "release_en": "2025-09-09",
   "semantica_http": 200,
-  "ultima_release": "v1.5.2",
+  "ultima_release": "PR",
   "ultimo_push": "2026-08-21"
  },
  "descripcion": "vFlow 是一款为 Android 平台设计的、强大且高度可扩展的自动化工具。它允许你通过图形化界面，将一系列“动作模块”自由组合成强大的“工作流”，从而自动完成各种日常的、重复性的屏幕操作任务。",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1308,
+  "stars": 1310,
   "stars_por_mes": null
  },
  "nombre": "vFlow",
@@ -39,7 +39,7 @@
   "commit": "b18b62ce1ab248dbbe0838da0051270af7119f78",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b18b62ce1ab248dbbe0838da0051270af7119f78"
  },
  "repo": "ChaoMixian/vFlow",
  "web": "https://chaomixian.github.io/vFlow-Docs/"

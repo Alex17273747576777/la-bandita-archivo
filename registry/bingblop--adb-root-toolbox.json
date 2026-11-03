@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2026-10-02",
   "semantica_http": 200,
-  "ultima_release": "v7.22.1",
+  "ultima_release": "v4.7",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Privacy-first full featured application and device control using ADB/Shizuku/Wireless Debugging/Root. A swiss army knife of ADB possible features.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 113,
+  "stars": 121,
   "stars_por_mes": null
  },
  "nombre": "ADB-Root-Toolbox",
@@ -39,7 +39,7 @@
   "commit": "f3e109c98e2df0fdbf3a4b1e6c9aed8a82bb3536",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f3e109c98e2df0fdbf3a4b1e6c9aed8a82bb3536"
  },
  "repo": "Bingblop/ADB-Root-Toolbox"
 }

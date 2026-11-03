@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-15",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultima_release": "v0.9.9-matsu.1",
+  "ultimo_push": "2026-10-23"
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#matsukiender-star/mangayomi",
   "sha256": "ec08edb96d812311d629c7bb673cf6311ee84f6982a4bb01d75940158eec35a0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "matsukiender-star--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a4b9ca43805fd230653b97fb45bd9fcead803761",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a4b9ca43805fd230653b97fb45bd9fcead803761"
  },
  "repo": "matsukiender-star/mangayomi"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#tmrmahfouz/web-to-app",
   "sha256": "6c0f3ae422b32b80034e20d6995e85eba0267402108d81b2080af6ddab15bd16"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "tmrmahfouz--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "451c9b5525ffd19d4ed81464b3d3a3da346cf418",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:451c9b5525ffd19d4ed81464b3d3a3da346cf418"
  },
  "repo": "tmrmahfouz/web-to-app"
 }

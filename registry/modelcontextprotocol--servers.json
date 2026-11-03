@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-11-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.1.0",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "Model Context Protocol Servers",
@@ -21,15 +21,15 @@
  "id": "modelcontextprotocol--servers",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 91722,
+  "stars": 91768,
   "stars_por_mes": null
  },
  "nombre": "servers",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "194cc86e3ae6400958555bd4116849d822d69263",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:194cc86e3ae6400958555bd4116849d822d69263"
  },
  "repo": "modelcontextprotocol/servers",
  "web": "https://modelcontextprotocol.io"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#hamedhani1998/Tadami-Aniyomi-fork",
   "sha256": "c4da0f2863a9c047b1d56ce06f5a7eea1e30d642153040600f302f5cb351a195"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hamedhani1998--tadami-aniyomi-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5626a11b17e8ee567416c086ff5c4ce2d0134257",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5626a11b17e8ee567416c086ff5c4ce2d0134257"
  },
  "repo": "hamedhani1998/Tadami-Aniyomi-fork"
 }

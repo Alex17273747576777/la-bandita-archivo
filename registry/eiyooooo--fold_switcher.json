@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2024-08-05",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "V1.0",
   "ultimo_push": "2025-06-10"
  },
  "descripcion": "折叠屏切换器 | Switch between various folding states on foldable devices",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 121,
+  "stars": 122,
   "stars_por_mes": null
  },
  "nombre": "Fold_Switcher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0ff1c76a69d08b94b496f33249eda3d7a78e97d5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0ff1c76a69d08b94b496f33249eda3d7a78e97d5"
  },
  "repo": "eiyooooo/Fold_Switcher"
 }

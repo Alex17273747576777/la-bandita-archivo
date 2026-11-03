@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Alan-Yu-2077/airi",
   "sha256": "9ea371f6fcf06532c2400f49a21a87ddce7bc812522bb093a9625b0e9607389e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "alan-yu-2077--airi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "aa2ebf13d15402c03dc446ebb9afd1976e9fde48",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:aa2ebf13d15402c03dc446ebb9afd1976e9fde48"
  },
  "repo": "Alan-Yu-2077/airi"
 }

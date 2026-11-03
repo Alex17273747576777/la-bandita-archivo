@@ -21,25 +21,25 @@
  "id": "s0xdk--refactoring-ui-skill",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 678,
+  "stars": 681,
   "stars_por_mes": null
  },
  "nombre": "refactoring-ui-skill",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "48872143abb0a8feb6d9bf58e222afbd800210b0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:48872143abb0a8feb6d9bf58e222afbd800210b0"
  },
  "repo": "s0xDk/refactoring-ui-skill"
 }

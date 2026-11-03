@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-10-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.6.1",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "Android app that adds a quick setting tile to toggle the Private DNS setting on Android 9.0+",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0bbcb7ff1920389d972e6e943be8a7e09ef895df",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0bbcb7ff1920389d972e6e943be8a7e09ef895df"
  },
  "repo": "flashsphere/private-dns-qs"
 }

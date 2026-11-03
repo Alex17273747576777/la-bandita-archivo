@@ -1,9 +1,9 @@
 # PIEZA 90 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/90-La-varita-Shizuku-la-mano-del-sistema-sin-abrir-puertas-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `03c9977d23e6292300d3770ffcb8673e0bdce9c48f2e85ce80d4402964920523`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1285 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 1285 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 877 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/90-La-varita-Shizuku-la-mano-del-sistema-sin-abrir-puertas-Facebook-La-Bandita-2026-10-29.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1285 caracteres ═══
 
@@ -45,13 +45,13 @@ El grupo respira despacio; su empuje más reciente, **RikkaApps/Shizuku**, fue h
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 445 caracteres ═══
+═══ MENSAJE 3 de 4 · 478 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 90*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.663 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0
+• RikkaApps/Shizuku — ★32.708 (+323) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

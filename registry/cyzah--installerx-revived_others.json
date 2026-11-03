@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-01"
+  "ultima_release": "26.10.4f3c04b",
+  "ultimo_push": "2026-10-19"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Cyzah/InstallerX-Revived_others",
   "sha256": "1ae78508998eb64757b7c0dd853d64e830059ede1971b4d28a0a8ac175fb4966"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "cyzah--installerx-revived_others",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4f3c04bbc3a00b83678883e5dae90747f96b389b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4f3c04bbc3a00b83678883e5dae90747f96b389b"
  },
  "repo": "Cyzah/InstallerX-Revived_others"
 }

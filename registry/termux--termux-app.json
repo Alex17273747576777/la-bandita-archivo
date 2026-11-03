@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2015-10-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.17",
   "ultimo_push": "2026-09-26"
  },
  "descripcion": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
@@ -21,16 +21,16 @@
  "id": "termux--termux-app",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: 533 caracteres sin firma de licencia libre conocida ni cláusula de reserva de derechos. Queda citado el archivo y pendiente de lectura humana.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 63843,
+  "stars": 64008,
   "stars_por_mes": null
  },
  "nombre": "termux-app",
@@ -41,10 +41,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8629e632fcb95da272221be327db653fb24befe9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8629e632fcb95da272221be327db653fb24befe9"
  },
  "repo": "termux/termux-app",
  "web": "https://f-droid.org/en/packages/com.termux"

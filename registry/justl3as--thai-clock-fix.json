@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-15",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-16"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Android utility for configuring Thai SystemUI clock locale through Shizuku",
  "evidencia": {
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "eb3d95e95a22a779f88712e2a83460c1f5593f99",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:eb3d95e95a22a779f88712e2a83460c1f5593f99"
  },
  "repo": "justl3as/thai-clock-fix"
 }

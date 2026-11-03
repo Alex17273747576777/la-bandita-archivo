@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#macrolanp/web-to-app",
   "sha256": "e6f9f6cf57f7caf4e05ff84b44e4784c896e0bbd8d93c68418360b23f8cc448b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "macrolanp--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "05dcaa5dcb57e2fe6c8bdef73af03ac4585c602d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:05dcaa5dcb57e2fe6c8bdef73af03ac4585c602d"
  },
  "repo": "macrolanp/web-to-app"
 }

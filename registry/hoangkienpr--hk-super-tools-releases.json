@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-15",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "v1.2.3",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Public releases + auto-update feed for HK Super Tools (APK only, no source)",
  "evidencia": {
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "44a823c8a3599ef36f5d6a4b1f8860c7b6f6c7ad",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:44a823c8a3599ef36f5d6a4b1f8860c7b6f6c7ad"
  },
  "repo": "hoangkienpr/HK-Super-Tools-releases"
 }

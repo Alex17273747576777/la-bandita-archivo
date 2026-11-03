@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": "2025-10-26",
+  "release_en": "2025-10-06",
   "semantica_http": 200,
-  "ultima_release": "v1.5.0",
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2025-10-26"
  },
  "descripcion": "An Android app that allows you to turn on your hotspot remotely via Bluetooth - think Apple Continuity, but for everyone!",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "de8d4a06dd441f73a585a62b4f35d3bb010754ff",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:de8d4a06dd441f73a585a62b4f35d3bb010754ff"
  },
  "repo": "EasySpotApp/EasySpot"
 }

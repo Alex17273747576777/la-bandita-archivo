@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-03-21",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v0.9.0-stable.20260321",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "🌌✨ Self-hosted AI companion. World-first to direct your avatar how to move & first in-browser voice cloning. Tactile touch avatars, multi-character casts, docked Control Strip, local AI (2 LLMs, Pocket/MOSS TTS, stable Whisper), 8-layer character memory, sub-second live voice, magic wand suggestions & 1-click Cloudflare workers.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 75,
+  "stars": 76,
   "stars_por_mes": null
  },
  "nombre": "airi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ed7a38a71a409f8e1974dcb68dabd55094a778b9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ed7a38a71a409f8e1974dcb68dabd55094a778b9"
  },
  "repo": "dasilva333/airi",
  "web": "https://dasilva333.github.io/airi/web-stage/"

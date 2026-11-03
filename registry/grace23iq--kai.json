@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#grace23iq/Kai",
   "sha256": "11c4fb8e951c8cbab4bbab53bc55f2030618d6a00dbd12fb2e9f7ca9144bc8bf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "grace23iq--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e1622e1a6d2e90fb2fd71582335e62a2176cd605",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e1622e1a6d2e90fb2fd71582335e62a2176cd605"
  },
  "repo": "grace23iq/Kai"
 }

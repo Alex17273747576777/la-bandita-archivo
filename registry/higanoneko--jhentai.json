@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Higanoneko/JHenTai",
   "sha256": "7ed3a3a700892d94e165c2ddaf4078563e4dd1f79253d9d153fced8b97498f6d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "higanoneko--jhentai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "81e29967bce4e5d31b36b938dd9abdabaaf7c02d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:81e29967bce4e5d31b36b938dd9abdabaaf7c02d"
  },
  "repo": "Higanoneko/JHenTai"
 }

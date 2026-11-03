@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-21",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0-rc7",
   "ultimo_push": "2026-10-11"
  },
  "descripcion": "DriveDeck | Android 차량용 듀얼 앱 런처 / Dual-app launcher for Android car devices · 한국어 / English",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0c1efbb64c1db0bd6777d2f2d6f154f4054c9428",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0c1efbb64c1db0bd6777d2f2d6f154f4054c9428"
  },
  "repo": "bajohy-totb/drivedeck-releases",
  "web": "https://github.com/bajohy-totb/drivedeck-releases#readme"

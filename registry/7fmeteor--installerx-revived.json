@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#7fMeteor/InstallerX-Revived",
   "sha256": "1233d51880e9160580878f762d3e7e9ed158f2c5001e99ec9aa3d022276d8423"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "7fmeteor--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f6d89111b76e68a8dcdc9b0ba51a759f49d14ec6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f6d89111b76e68a8dcdc9b0ba51a759f49d14ec6"
  },
  "repo": "7fMeteor/InstallerX-Revived"
 }

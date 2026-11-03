@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-29",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.3.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 867,
+  "stars": 883,
   "stars_por_mes": null
  },
  "nombre": "mpvRx",
@@ -39,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f090f932e0a9923448e0133a65a2ab7ebde496ca",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f090f932e0a9923448e0133a65a2ab7ebde496ca"
  },
  "repo": "Riteshp2001/mpvRx",
  "web": "https://mpvrx.vercel.app"

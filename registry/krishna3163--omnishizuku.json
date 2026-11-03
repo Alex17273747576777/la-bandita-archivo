@@ -3,18 +3,18 @@
   "estado": "vivo",
   "release_en": "2026-10-25",
   "semantica_http": 200,
-  "ultima_release": "latest",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.0.1-dev",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "An open-source Android utility for Shizuku, ADB, and Dhizuku workflows, with tools for Android phones, Android TV, and Wear OS.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
-  "payload_ref": "registry/_evidencia/krishna3163--omnishizuku.json",
-  "sha256": "8e47e82adda4cf21e1d9d67e152eecbfab808ad4679adcf1038f892dad7f667d"
+  "nota": "ficha creada el 3-nov-2026 al medir los herederos de Shizuku para la pieza 04",
+  "payload_ref": "consulta GraphQL del 2026-11-03 sobre krishna3163/OmniShizuku",
+  "sha256": "06f2769a80dca9b12eede6bd2122d5d82eb3c1713df81a4a021d941ea7765f27"
  },
  "frescura_dias": 0,
  "fuente": {
-  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "metodo": "consulta GraphQL del nodo repository; campos exactos, sin inferencias",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -22,25 +22,27 @@
  "licencia": {
   "archivo": null,
   "metodo": "spdx-api",
+  "nota": "certificada además contra el texto del archivo LICENSE en la medición de la pieza 04",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10,
+  "stars": 17,
   "stars_por_mes": null
  },
  "nombre": "OmniShizuku",
- "piezas": [],
+ "piezas": [
+  "04"
+ ],
  "procedencia": {
   "atestacion": null,
-  "commit": "8549041aaed50c445ffa9526e7e918b21ffaf451",
-  "swh_estado": null,
-  "swh_solicitud": null,
-  "swhid": null
+  "commit": "153d6ecba28f7974b13a68542b9206197297616a",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:153d6ecba28f7974b13a68542b9206197297616a"
  },
- "repo": "krishna3163/OmniShizuku",
- "web": "https://github.com/krishna3163/OmniShizuku/releases"
+ "repo": "krishna3163/OmniShizuku"
 }

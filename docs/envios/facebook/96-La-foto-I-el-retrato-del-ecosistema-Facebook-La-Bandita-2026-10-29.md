@@ -1,9 +1,9 @@
 # PIEZA 96 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/96-La-foto-I-el-retrato-del-ecosistema-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `618190a83263c034aa6fdb6b337852bd2674ff9558f4a9d6e1a6aa47312fb5a4`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1320 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 1320 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 853 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: sin licencia 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/96-La-foto-I-el-retrato-del-ecosistema-Facebook-La-Bandita-2026-10-29.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1320 caracteres ═══
 
@@ -46,13 +46,13 @@ Hay release de esta semana: **keiyoushi/extensions** publicó dbf6c05 (2026-10-2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 475 caracteres ═══
+═══ MENSAJE 3 de 4 · 477 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 96*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
+• keiyoushi/extensions — ★15.426 (+57) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-1 (3-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

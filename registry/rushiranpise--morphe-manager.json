@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8,
+  "stars": 9,
   "stars_por_mes": null
  },
  "nombre": "morphe-manager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1460b85955cbbcd2dd6b5d1294e4a7f4219e5322",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1460b85955cbbcd2dd6b5d1294e4a7f4219e5322"
  },
  "repo": "rushiranpise/morphe-manager",
  "web": "https://Morphe.software"

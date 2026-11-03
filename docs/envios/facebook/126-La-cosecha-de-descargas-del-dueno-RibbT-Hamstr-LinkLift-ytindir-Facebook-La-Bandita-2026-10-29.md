@@ -1,9 +1,9 @@
 # PIEZA 126 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/126-La-cosecha-de-descargas-del-dueno-RibbT-Hamstr-LinkLift-ytindir-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `be20e286ef5d6bfd2cbaee0205cd9a37fac9bfa6ced10307bd8dce14bf31572e`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 3183 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 3183 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 915 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/126-La-cosecha-de-descargas-del-dueno-RibbT-Hamstr-LinkLift-ytindir-Facebook-La-Bandita-2026-10-29.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 3183 caracteres ═══
 
@@ -61,17 +61,17 @@ Hay release de esta semana: **Mailo037/Hamstr** publicó v0.7.4 (2026-10-29). Co
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 917 caracteres ═══
+═══ MENSAJE 3 de 4 · 901 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 126*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • RajnishOne/linklift — ★15 (+4) · empujó en las últimas horas · MIT · última release v2.22 (2-nov-2026)
-• RAMiK4/ytindir — ★18 (+7) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v2.14.0-build65 (28-oct-2026)
-• rcrandon/gimmiedat — ★3 (sin cambio) · empujó el 8-oct-2026 (hace 25 días) · GPL-3.0 · última release v1.0.3 (8-oct-2026)
-• Mailo037/Hamstr — ★1 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v0.9.2 (2-nov-2026)
-• Sleepless-index/RibbT — ★1 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release latest (1-nov-2026)
+• RAMiK4/ytindir — ★18 (+7) · empujó en las últimas horas · GPL-3.0 · última release v2.14.0-build65 (28-oct-2026)
+• rcrandon/gimmiedat — ★3 (sin cambio) · empujó el 8-oct-2026 (hace 26 días) · GPL-3.0 · última release v1.0.3 (8-oct-2026)
+• Mailo037/Hamstr — ★2 (+1) · empujó en las últimas horas · GPL-3.0 · última release v0.9.4 (3-nov-2026)
+• Sleepless-index/RibbT — ★1 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release latest (3-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

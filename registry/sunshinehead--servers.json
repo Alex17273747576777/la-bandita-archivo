@@ -21,11 +21,11 @@
  "id": "sunshinehead--servers",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a6cdbf4deac97aac5c9b76bd12d38eace78dac01",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a6cdbf4deac97aac5c9b76bd12d38eace78dac01"
  },
  "repo": "SunShineHead/servers",
  "web": "https://modelcontextprotocol.io"

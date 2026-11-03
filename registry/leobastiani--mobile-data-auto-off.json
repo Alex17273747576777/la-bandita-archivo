@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.3",
   "ultimo_push": "2026-10-28"
  },
  "descripcion": "Android app that disables mobile data on Wi-Fi and restores it after two minutes, using Shizuku.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "81d4620b91c9b75d63bea1b9daf3ce41c7c0fe9c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:81d4620b91c9b75d63bea1b9daf3ce41c7c0fe9c"
  },
  "repo": "leobastiani/mobile-data-auto-off"
 }

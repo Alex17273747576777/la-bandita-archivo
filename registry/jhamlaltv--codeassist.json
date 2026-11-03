@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jhamlaltv/CodeAssist",
   "sha256": "4c63e207eb3c046b5562e692f0de735fbb04cdeef0c910a7f4afc1d6a8bbe0b1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jhamlaltv--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3efcc53dbc7d1f3f59e63f9e9829140559ad7bc1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3efcc53dbc7d1f3f59e63f9e9829140559ad7bc1"
  },
  "repo": "jhamlaltv/CodeAssist"
 }

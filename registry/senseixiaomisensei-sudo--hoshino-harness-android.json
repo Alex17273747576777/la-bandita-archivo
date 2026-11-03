@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-24",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.1.0-m1-preview.1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Open-source native Android AI Agent. Kotlin Compose + unmodified DeepSeek Harness/Cordis, local runtime, user API keys. MIT. M1 preview.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "18f1eee81650c7a72f436c0e78463f37c3cb72cd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:18f1eee81650c7a72f436c0e78463f37c3cb72cd"
  },
  "repo": "senseixiaomisensei-sudo/hoshino-harness-android"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#anjalifredy-ai/quick-search",
   "sha256": "62f233d5ad3a3196f5784eaae110563995abe6d1f52ddbaac5ed11a46735f976"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "anjalifredy-ai--quick-search",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c190ae073dc69b48e37594dcf9007ddb4b9b1c7b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c190ae073dc69b48e37594dcf9007ddb4b9b1c7b"
  },
  "repo": "anjalifredy-ai/quick-search"
 }

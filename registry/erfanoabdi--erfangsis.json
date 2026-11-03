@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 554,
+  "stars": 555,
   "stars_por_mes": null
  },
  "nombre": "ErfanGSIs",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "c54ac99cae579f9b829448048942da670075a9ba",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:c54ac99cae579f9b829448048942da670075a9ba"
  },
  "repo": "erfanoabdi/ErfanGSIs"
 }

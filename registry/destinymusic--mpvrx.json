@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#DestinyMusic/mpvRx",
   "sha256": "5f77d350d1806ab1fba398f0d1d67ec0e1420d9b4c9289bcd84eb32cda036f2d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "destinymusic--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f5ada7fe8d701dde442c53187c455a8738f89b20",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f5ada7fe8d701dde442c53187c455a8738f89b20"
  },
  "repo": "DestinyMusic/mpvRx"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-25",
+  "release_en": "2026-04-17",
   "semantica_http": 200,
-  "ultima_release": "v1.20.0",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.1.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "A modern Android app for installing and managing APK packages with split APK support, silent install via Shizuku, and VirusTotal malware scanning.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1651,
+  "stars": 1673,
   "stars_por_mes": null
  },
  "nombre": "universal-installer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a0134458803896640d2088842a3eecd7cf6ff6e2",
+  "commit": "5bd00f84f6ebd16856e4747b43698269fb7445c8",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5bd00f84f6ebd16856e4747b43698269fb7445c8"
  },
  "repo": "pass-with-high-score/universal-installer",
  "web": "https://universal-installer.pwhs.app/"

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-31",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.5.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "自动任务® —— 支持 Shizuku 与无障碍服务的 Android 自动化 App（原作者 xjunz/AutoTask 的后续维护版）",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "AutoTask",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "14ef1b5b04e7dfcb0a2898df0c60d1f76fd5b1d6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:14ef1b5b04e7dfcb0a2898df0c60d1f76fd5b1d6"
  },
  "repo": "chenyubo10665/AutoTask"
 }

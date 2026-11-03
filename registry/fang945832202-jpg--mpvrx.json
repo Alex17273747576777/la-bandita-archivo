@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#fang945832202-jpg/mpvRx",
   "sha256": "f8ea64c7259c684e0663dfe96b25407646832266679f5095bb01626f84226b08"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "fang945832202-jpg--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fbcc8d2e65500bfd6ff062313d4ceecddf9ced2d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fbcc8d2e65500bfd6ff062313d4ceecddf9ced2d"
  },
  "repo": "fang945832202-jpg/mpvRx"
 }

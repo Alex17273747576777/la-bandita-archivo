@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.2",
   "ultimo_push": "2026-10-25"
  },
  "descripcion": "Android device monitor with a home-screen widget, per-app usage insights and a charging screensaver. Fully offline - no internet permission. GPL-3.0-or-later.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 41,
+  "stars": 43,
   "stars_por_mes": null
  },
  "nombre": "Device-Watch",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1f9914c03f04c3e6dbf8adf86377f40dcf22aa65",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1f9914c03f04c3e6dbf8adf86377f40dcf22aa65"
  },
  "repo": "jrs8205/Device-Watch"
 }

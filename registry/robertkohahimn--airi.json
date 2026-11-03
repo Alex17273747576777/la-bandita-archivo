@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#robertkohahimn/airi",
   "sha256": "239a141e73718c0d715af1510cbfe12e17e52640a9b6112e9e36a30e411fafad"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "robertkohahimn--airi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3dc2c18782fecfb20bfcc7d7d9889e6e5c74f76b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3dc2c18782fecfb20bfcc7d7d9889e6e5c74f76b"
  },
  "repo": "robertkohahimn/airi"
 }

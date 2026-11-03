@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-13",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultima_release": "lumen-v1.14.1.17",
+  "ultimo_push": "2026-10-26"
  },
  "descripcion": "Lumen · 安卓漫画阅读器（Komikku 的 fork）：SyncYomi v2 多设备同步、Komga 增量书库更新、中文界面补全。Android ma",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Landslide3154/Lumen",
   "sha256": "23d20438621f250f483ee266aff85909dba8c974ef5d7bc3a438265f281d86b0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "landslide3154--lumen",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "95e05daaf2e8f3d78f76a1c1df442cd4ca2b5d7a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:95e05daaf2e8f3d78f76a1c1df442cd4ca2b5d7a"
  },
  "repo": "Landslide3154/Lumen"
 }

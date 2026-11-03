@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.3.9",
   "ultimo_push": "2026-10-24"
  },
  "descripcion": "墨读：为华为 552×768 四色 NFC 墨水屏定向优化的本地 Android TXT 阅读器",
@@ -21,26 +21,26 @@
  "id": "pjk2336--huawei-eink-reader",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "huawei-eink-reader",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a4b72b79acec37543339b9810bcb34105b061d65",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a4b72b79acec37543339b9810bcb34105b061d65"
  },
  "repo": "pjk2336/huawei-eink-reader"
 }

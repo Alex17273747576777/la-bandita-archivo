@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.1",
   "ultimo_push": "2026-10-28"
  },
  "descripcion": "Natural-language automation for Android: the LLM compiles, a deterministic engine executes. Tasker-class, optional Shizuku.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 42,
+  "stars": 43,
   "stars_por_mes": null
  },
  "nombre": "argus",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a34f5a58cbedbae36b68d43a2a15abf1d8b18556",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a34f5a58cbedbae36b68d43a2a15abf1d8b18556"
  },
  "repo": "JackRushante/argus"
 }

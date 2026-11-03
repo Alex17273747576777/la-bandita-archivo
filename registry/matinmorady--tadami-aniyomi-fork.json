@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MatinMorady/Tadami-Aniyomi-fork",
   "sha256": "3fd1611824b0c8ce1eb53645805f294ca339c336cfed05cdac9c6609f16b05b3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "matinmorady--tadami-aniyomi-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d8442c8129e66bcee0b4d88050b13799c9728cdf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d8442c8129e66bcee0b4d88050b13799c9728cdf"
  },
  "repo": "MatinMorady/Tadami-Aniyomi-fork"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#filipemf/playtranslate",
   "sha256": "672bf1c5f671099bfbf0080f8b1d6462930225112c32d66adfb9531ea15cd225"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "filipemf--playtranslate",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "277cc41de6c45d5b17dcafed385f8b0cbbdccdf2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:277cc41de6c45d5b17dcafed385f8b0cbbdccdf2"
  },
  "repo": "filipemf/playtranslate"
 }

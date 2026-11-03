@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-08",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-08"
+  "ultima_release": "models-v1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "On-device manga-translation engine — detection, OCR and text removal all on NCNN (CPU, no ONNX Runtime), translation via cloud LLM. Any source/target language pair (default Japanese→Traditional Chinese). Kotlin · the engine behind the Yakuyomi reader.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fa7913a96bfefd8041fe8f1c64e613c00e1793ae",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fa7913a96bfefd8041fe8f1c64e613c00e1793ae"
  },
  "repo": "joyeli/yakuyomi-engine"
 }

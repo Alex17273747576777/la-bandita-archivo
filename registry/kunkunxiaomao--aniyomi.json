@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kunkunxiaomao/aniyomi",
   "sha256": "ff4d1b0ee497b644d2b21fc240271f0cd9cdf372edfb5d66494d2d7fb9cc092f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kunkunxiaomao--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "97414446b8a95994c72dd33c41c971a89d4d25b8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:97414446b8a95994c72dd33c41c971a89d4d25b8"
  },
  "repo": "kunkunxiaomao/aniyomi"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": null,
+  "estado": "vivo",
+  "release_en": "2026-05-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.2.0",
   "ultimo_push": "2026-09-08"
  },
  "descripcion": "Perform bandlock and edit EFS NV items on qualcomm-based Xiaomi devices with root or root-backed Shizuku",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6f7de0414280da0210aca7b3873958afb5edb7df",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6f7de0414280da0210aca7b3873958afb5edb7df"
  },
  "repo": "h3nnes/mtbtool-android-app"
 }

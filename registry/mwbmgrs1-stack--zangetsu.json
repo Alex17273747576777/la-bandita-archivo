@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mwbmgrs1-stack/Zangetsu",
   "sha256": "8879fc4d351e60f5ed2e046acd8489a5ea44c5ce938094cb393a2eaa333c1e70"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mwbmgrs1-stack--zangetsu",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "eb469254f104618111b03ebf106050b960c8fd16",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:eb469254f104618111b03ebf106050b960c8fd16"
  },
  "repo": "mwbmgrs1-stack/Zangetsu"
 }

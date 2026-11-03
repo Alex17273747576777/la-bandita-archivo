@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-04",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "一间小房子，让喜欢的角色住进 Android。开源桌宠，集悬浮人偶、AI 聊天与记忆管理于一体。房子是载体，角色才是主角。",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fbefa08135e4818e24bbf65209098db948edc0e2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fbefa08135e4818e24bbf65209098db948edc0e2"
  },
  "repo": "Farewell-coder/Dollhouse",
  "web": "https://github.com/Farewell-coder/Dollhouse/releases/latest"

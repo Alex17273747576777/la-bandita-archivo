@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#heavenlydaovenerable/tsundoku",
   "sha256": "13b8db4d348d3cb48faadfc6a7cf1ede38f5e66b7e2c06f2dd558867bf895ebf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "heavenlydaovenerable--tsundoku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "18a0f3c44f66c9cb98aada655a4c07ba61818448",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:18a0f3c44f66c9cb98aada655a4c07ba61818448"
  },
  "repo": "heavenlydaovenerable/tsundoku"
 }

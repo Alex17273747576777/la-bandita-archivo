@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#hellopwecious-sudo/WinNative",
   "sha256": "9196c4066f138731e8f584aa9c6c5a8526c45d6637962e05ab714ba23c1a4edb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hellopwecious-sudo--winnative",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "098227e8aea3544210347321ab3a2535bd4c00c4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:098227e8aea3544210347321ab3a2535bd4c00c4"
  },
  "repo": "hellopwecious-sudo/WinNative"
 }

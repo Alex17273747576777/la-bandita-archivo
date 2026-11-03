@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1600,
+  "stars": 1601,
   "stars_por_mes": null
  },
  "nombre": "ADhosts",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6d27ae49b045306f6c2172d909de8b2c0cf6fabd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6d27ae49b045306f6c2172d909de8b2c0cf6fabd"
  },
  "repo": "otobtc/ADhosts"
 }

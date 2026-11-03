@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#rhjdvsgsgks/mihon",
   "sha256": "00a5e5e21270a465d8bc0fcd330ee2943e6baa8f6134c48b3aa8b79f948d6cd9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "rhjdvsgsgks--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7b70b40d300f3412b6dae8970817c01887050a24",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7b70b40d300f3412b6dae8970817c01887050a24"
  },
  "repo": "rhjdvsgsgks/mihon"
 }

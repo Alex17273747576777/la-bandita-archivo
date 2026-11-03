@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2015-03-09",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v128",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Android on screen keyboard for multiple languages and NO internet access",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3390,
+  "stars": 3392,
   "stars_por_mes": null
  },
  "nombre": "AnySoftKeyboard",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "482efa64ae53b4cd1b918ee51c741a141bf7e49a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:482efa64ae53b4cd1b918ee51c741a141bf7e49a"
  },
  "repo": "AnySoftKeyboard/AnySoftKeyboard",
  "web": "http://anysoftkeyboard.github.io/"

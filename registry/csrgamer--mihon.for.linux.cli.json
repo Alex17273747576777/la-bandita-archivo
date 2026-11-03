@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Csrgamer/mihon.for.linux.cli",
   "sha256": "ecad7fc2a2d1326056e3b8b4e676cc1b98bb419590333d5573c639515769d32c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "csrgamer--mihon.for.linux.cli",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f87c4d55e3fb710c9689eb41c862e8bd8b8d504f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f87c4d55e3fb710c9689eb41c862e8bd8b8d504f"
  },
  "repo": "Csrgamer/mihon.for.linux.cli"
 }

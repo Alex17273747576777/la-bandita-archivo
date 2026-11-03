@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2026-10-12",
   "semantica_http": 200,
-  "ultima_release": "v1.11.0",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.4.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Offline Android companion for NAVEE UT5 MAX: local Bluetooth lock, controls, diagnostics, and ride recording.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9064fb0113f873fe9d4f9c717ae04caf0364ff70",
+  "commit": "acf0759ac0159d9af373f199e050071fe3b1b1c4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:acf0759ac0159d9af373f199e050071fe3b1b1c4"
  },
  "repo": "JJRicks/volt"
 }

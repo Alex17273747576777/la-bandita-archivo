@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-03-08",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.3.3.25fc24b-alpha",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "More Expressive InstallerX !",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a1132d4b190e3164e890d8c5d7ed9e9757547dae",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a1132d4b190e3164e890d8c5d7ed9e9757547dae"
  },
  "repo": "HuaJi2333DaDa/InstallerX-Revived",
  "web": "http://wxxsfxyzm.github.io/InstallerX-Revived/"

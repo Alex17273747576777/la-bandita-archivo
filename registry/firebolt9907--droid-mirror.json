@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "beta",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "589ea54552d5233436df4a53dd119342c215cd06",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:589ea54552d5233436df4a53dd119342c215cd06"
  },
  "repo": "Firebolt9907/Droid-Mirror"
 }

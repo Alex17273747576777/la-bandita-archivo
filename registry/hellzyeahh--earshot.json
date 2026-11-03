@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-17",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "One Android app for any Bluetooth headset: Bose, Sony, Sennheiser, Soundcore, Skullcandy and more. No account, no internet permission.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 32,
+  "stars": 34,
   "stars_por_mes": null
  },
  "nombre": "earshot",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a581f96efb5a91b0622a5be9600a02a72b4e1649",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a581f96efb5a91b0622a5be9600a02a72b4e1649"
  },
  "repo": "HellzYeahh/earshot"
 }

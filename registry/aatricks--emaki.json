@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-10-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "V0.1",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Lightweight light novel, pdf, manwha, manga and epub reader with offline AI summaries.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5a199f5dffbcb9e5a8a7d4ee02a87c997ea3b6fe",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5a199f5dffbcb9e5a8a7d4ee02a87c997ea3b6fe"
  },
  "repo": "Aatricks/Emaki"
 }

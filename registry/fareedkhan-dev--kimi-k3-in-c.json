@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-02"
  },
  "descripcion": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9265,
+  "stars": 9651,
   "stars_por_mes": null
  },
  "nombre": "kimi-k3-in-c",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "81bb6c23ccee2154bc35cad922588ab66494a9a9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:81bb6c23ccee2154bc35cad922588ab66494a9a9"
  },
  "repo": "FareedKhan-dev/kimi-k3-in-c",
  "web": "https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59"

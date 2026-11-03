@@ -1,9 +1,9 @@
 # PIEZA 28 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/28-El-tronco-raiz-gestion-y-tiendas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `17672fabdc0f143380cb4e06cf7d5a5fa6c4ad2e1ec5c6fe44b8754bec852a13`
-- **Envío generado:** 2026-11-02 · 6 mensajes · el mayor de 3775 caracteres
+- **Envío generado:** 2026-11-03 · 6 mensajes · el mayor de 3775 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 6 · 912 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 14 · Apache-2.0 4 · NOASSERTION 1 · M
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/28-El-tronco-raiz-gestion-y-tiendas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 6 · 3775 caracteres ═══
 
@@ -126,32 +126,32 @@ Pulso de hoy sobre los 20 repos de la pieza: 20 vivos, 15 activos este mes. Mand
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2622 caracteres ═══
+═══ MENSAJE 5 de 6 · 2784 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 28*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 20 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 20 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Genymobile/scrcpy — ★153.824 (+323) · empujó en las últimas horas · Apache-2.0 · última release v5.0.1 (8-oct-2026)
-• termux/termux-app — ★63.952 (+274) · empujó el 26-sep-2026 (hace 37 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• topjohnwu/Magisk — ★63.704 (+109) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
-• RikkaApps/Shizuku — ★32.663 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0
-• LSPosed/LSPosed — ★25.305 (+65) · empujó el 14-oct-2026 (hace 19 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
-• ImranR98/Obtainium — ★21.150 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• komi-store/komi-store — ★20.248 (+158) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• tiann/KernelSU — ★19.981 (+171) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
-• bmax121/APatch — ★8.119 (+15) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release 11282 (15-oct-2026)
-• Droid-ify/client — ★7.684 (sin cambio) · *dormido*: sin empujar desde el 12-sep-2026 (51 días) · GPL-3.0
-• wxxsfxyzm/InstallerX-Revived — ★7.283 (+63) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 26.09 (30-sep-2026)
-• aistra0528/Hail — ★7.082 (+45) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
-• NeoApplications/Neo-Store — ★5.610 (sin cambio) · empujó el 23-oct-2026 (hace 10 días) · GPL-3.0
-• RikkaApps/Sui — ★4.343 (+6) · *dormido*: sin empujar desde el 12-ago-2024 (812 días) · GPL-3.0 · última release v13.5.1 (19-sep-2023)
-• iamr0s/Dhizuku — ★4.075 (+25) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• Aefyr/SAI — ★3.958 (+8) · *dormido*: sin empujar desde el 3-jun-2024 (882 días) · GPL-3.0 · última release 4.5 (25-feb-2021)
-• zacharee/InstallWithOptions — ★3.401 (+16) · empujó el 24-oct-2026 (hace 9 días) · MIT · última release 0.9.2 (14-mar-2026)
-• whyorean/AuroraStore — ★3.222 (+24) · empujó en las últimas horas · GPL-3.0
-• accrescent/accrescent — ★2.305 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• solkin/appteka-android — ★1.371 (+12) · empujó en las últimas horas · GPL-3.0 · última release v23.0 (13-ago-2026)
+• Genymobile/scrcpy — ★153.911 (+410) · empujó en las últimas horas · Apache-2.0 · última release v5.0.1 (8-oct-2026)
+• termux/termux-app — ★64.008 (+330) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• topjohnwu/Magisk — ★63.726 (+131) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• RikkaApps/Shizuku — ★32.708 (+323) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• LSPosed/LSPosed — ★25.315 (+75) · empujó el 14-oct-2026 (hace 20 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
+• ImranR98/Obtainium — ★21.170 (+151) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• komi-store/komi-store — ★20.287 (+197) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• tiann/KernelSU — ★20.031 (+221) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
+• bmax121/APatch — ★8.121 (+17) · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
+• Droid-ify/client — ★7.686 (+25) · *dormido*: sin empujar desde el 12-sep-2026 (52 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• wxxsfxyzm/InstallerX-Revived — ★7.293 (+73) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
+• aistra0528/Hail — ★7.093 (+56) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
+• NeoApplications/Neo-Store — ★5.617 (+47) · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• RikkaApps/Sui — ★4.347 (+10) · *dormido*: sin empujar desde el 12-ago-2024 (813 días) · GPL-3.0 · última release v13.5.1 (19-sep-2023)
+• iamr0s/Dhizuku — ★4.079 (+29) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• Aefyr/SAI — ★3.961 (+11) · *dormido*: sin empujar desde el 3-jun-2024 (883 días) · GPL-3.0 · última release 4.5 (25-feb-2021)
+• zacharee/InstallWithOptions — ★3.404 (+19) · empujó el 24-oct-2026 (hace 10 días) · MIT · última release 0.9.2 (14-mar-2026)
+• whyorean/AuroraStore — ★3.228 (+30) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0
+• accrescent/accrescent — ★2.304 (-2) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
+• solkin/appteka-android — ★1.379 (+20) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v23.0 (13-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

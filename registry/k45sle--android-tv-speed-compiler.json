@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.9.0-test1",
   "ultimo_push": "2026-10-26"
  },
  "descripcion": "Android TV app that compiles the apps you pick with Android's speed profile, and again after each update, over local wireless debugging.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "80418014cbc6b7664f35e5e109571ac89a26ee23",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:80418014cbc6b7664f35e5e109571ac89a26ee23"
  },
  "repo": "k45sle/android-tv-speed-compiler",
  "web": "https://github.com/k45sle/android-tv-speed-compiler/releases/latest"

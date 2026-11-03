@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-11-11",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-11"
+  "ultima_release": "v1.0.0-rc.1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Transparent implementation of Zygisk.",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4107,
+  "stars": 4112,
   "stars_por_mes": null
  },
  "nombre": "ReZygisk",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2c1d0df3b0d6e40d064927523c4dd1116cb8e832",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2c1d0df3b0d6e40d064927523c4dd1116cb8e832"
  },
  "repo": "PerformanC/ReZygisk"
 }

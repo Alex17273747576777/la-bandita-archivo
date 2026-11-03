@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Gamer228338/AniLabX",
   "sha256": "c311e0163e5fa9d1a132b15bf8f1f1a9f257877ca3b107d8827a17d08c23794c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "36da948e02d55f0f62f4165793008f9c7d20bae1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:36da948e02d55f0f62f4165793008f9c7d20bae1"
  },
  "repo": "Gamer228338/AniLabX"
 }

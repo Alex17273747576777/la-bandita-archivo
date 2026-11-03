@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-01-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1",
   "ultimo_push": "2026-08-19"
  },
  "descripcion": "Manage app multiple instances in workspaces with Shizuku privilege.",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "9c6b5af9f891f7ba8b01329be97e74d00d639a40",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:9c6b5af9f891f7ba8b01329be97e74d00d639a40"
  },
  "repo": "nathanatgit/AppDualZuku"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mrywl3628-glitch/Orion-Store",
   "sha256": "e93a3a736b79b4e63f92c5a28daa1a95d7e758a6f6543a36a92be8c742f1d39a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mrywl3628-glitch--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "96faec24d476aa57abcbbfd0daff31c2d4e3276f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:96faec24d476aa57abcbbfd0daff31c2d4e3276f"
  },
  "repo": "mrywl3628-glitch/Orion-Store"
 }

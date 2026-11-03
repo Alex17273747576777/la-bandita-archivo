@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-11",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1.1-beta",
   "ultimo_push": "2026-09-15"
  },
  "descripcion": "A clean and minimal Android status indicator for cellular, Wi-Fi and battery status.",
@@ -21,26 +21,26 @@
  "id": "catchingl--o.status",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 235,
+  "stars": 241,
   "stars_por_mes": null
  },
  "nombre": "O.status",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "93f30de479a90379b77704c8d4ecd429d133c5ee",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:93f30de479a90379b77704c8d4ecd429d133c5ee"
  },
  "repo": "CATCHINGL/O.status"
 }

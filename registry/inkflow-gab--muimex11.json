@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-24",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v3.8",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Muimex11 — free game optimizer (Shizuku): floating Game Space dock, FPS counter, Samsung Boost. No ads, no premium.",
  "evidencia": {
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "80d697ecdce6b893b45776bf930411b57b502437",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:80d697ecdce6b893b45776bf930411b57b502437"
  },
  "repo": "Inkflow-Gab/Muimex11"
 }

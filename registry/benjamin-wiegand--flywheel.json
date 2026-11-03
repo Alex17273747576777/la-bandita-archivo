@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-23",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.1",
   "ultimo_push": "2026-10-03"
  },
  "descripcion": "A free and open source alternative to Android Auto",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 87,
+  "stars": 89,
   "stars_por_mes": null
  },
  "nombre": "Flywheel",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a0894e5212cbae376d1494334ab847be17158bcb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a0894e5212cbae376d1494334ab847be17158bcb"
  },
  "repo": "Benjamin-Wiegand/Flywheel"
 }

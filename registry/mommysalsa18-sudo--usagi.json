@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mommysalsa18-sudo/Usagi",
   "sha256": "528ee61c41a965bb27740c331208587bb12f7ce1c0046f14d3b3e8dc52006b1b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mommysalsa18-sudo--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "655b56d33b4c62a1677521bafa22c725b4117b42",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:655b56d33b4c62a1677521bafa22c725b4117b42"
  },
  "repo": "mommysalsa18-sudo/Usagi"
 }

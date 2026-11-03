@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#chelimosamuel0-design/web-to-app",
   "sha256": "06e41c82fee3da6b20dcb542918910b14c63ad627b43f12aaa4c0c5f2ff7dc9e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "chelimosamuel0-design--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8297ce26e1b001f669dce5839918528753e6d1ae",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8297ce26e1b001f669dce5839918528753e6d1ae"
  },
  "repo": "chelimosamuel0-design/web-to-app"
 }

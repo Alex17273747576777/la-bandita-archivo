@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-01-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v3.0.7-gemini.8",
   "ultimo_push": "2026-09-05"
  },
  "descripcion": "A high-performance, feature-rich manga reader for Android.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 47,
+  "stars": 48,
   "stars_por_mes": null
  },
  "nombre": "Tsukimi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "79834d614959e2e2d5c498c40873c69d87590bd6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:79834d614959e2e2d5c498c40873c69d87590bd6"
  },
  "repo": "salmanbappi/Tsukimi"
 }

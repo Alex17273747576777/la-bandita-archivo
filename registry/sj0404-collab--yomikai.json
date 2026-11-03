@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-28",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-25"
+  "ultima_release": "universal-v1.9.53",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Yomikai — читалка манги с OCR и озвучкой (роли/голоса), словарями и плавающим мини-плеером поверх всех приложений",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1f4d618495086aa05fb7a0409317fe6a5b856239",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1f4d618495086aa05fb7a0409317fe6a5b856239"
  },
  "repo": "sj0404-collab/yomikai",
  "web": "https://sj0404-collab.github.io/yomikai/"

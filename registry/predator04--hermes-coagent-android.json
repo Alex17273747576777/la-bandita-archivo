@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2",
   "ultimo_push": "2026-10-25"
  },
  "descripcion": "Native Android remote-control app — the phone companion to Hermes CoAgent. Drive an Android device over HTTP (tap/swipe/type/navigate/launch + UI-tree vision).",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "99c5aa01f94481452c0f132824027febf0a7517f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:99c5aa01f94481452c0f132824027febf0a7517f"
  },
  "repo": "Predator04/Hermes-CoAgent-Android"
 }

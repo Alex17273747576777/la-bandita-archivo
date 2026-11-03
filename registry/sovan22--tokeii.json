@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2023-09-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0-tokei",
   "ultimo_push": "2024-03-31"
  },
  "descripcion": "Movie and TV Streaming Android App",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "754b8503003b91e62e8d54709ff268880c983e6a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:754b8503003b91e62e8d54709ff268880c983e6a"
  },
  "repo": "Sovan22/Tokeii"
 }

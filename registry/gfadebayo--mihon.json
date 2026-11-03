@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Gfadebayo/mihon",
   "sha256": "be3dade74c4e13e9e292b91dbd692e0c7b43cc2b6916ec29493c903bb34fcb6b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "gfadebayo--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "daa47e049327c4d8b1fe4724ed1b84897d81fcf2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:daa47e049327c4d8b1fe4724ed1b84897d81fcf2"
  },
  "repo": "Gfadebayo/mihon"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-15",
+  "release_en": "2026-08-05",
   "semantica_http": 200,
-  "ultima_release": "v2.0",
+  "ultima_release": "v1.1",
   "ultimo_push": "2026-10-15"
  },
  "descripcion": "Enable the Guest or Multi user feature, on Android devices that do not natively support Multi User feature. (known as Guest-Manager)",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "6b96a38b07fc672925dfc83ae40fe74f28d26cd9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6b96a38b07fc672925dfc83ae40fe74f28d26cd9"
  },
  "repo": "dlawoals2713/User-Hopper"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Tompychomp/aniyomi-preview",
   "sha256": "85cca8137b364c4ad5d070238d5a787ea167aa0bf8210c9885c86d69af74309b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "tompychomp--aniyomi-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "501aacffb18867e924c6c18ef2792bc4ef7a1257",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:501aacffb18867e924c6c18ef2792bc4ef7a1257"
  },
  "repo": "Tompychomp/aniyomi-preview"
 }

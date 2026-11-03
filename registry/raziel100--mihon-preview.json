@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-25",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultima_release": "r7841",
+  "ultimo_push": "2026-10-27"
  },
  "descripcion": "",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#raziel100/mihon-preview",
   "sha256": "c95fd1a7c40b6ccf1b4a142793356b684ef2d19dc170a1e27296ef44188ec4bb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "raziel100--mihon-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d6215d7741c817a72c0b136b788be5c31d269b29",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d6215d7741c817a72c0b136b788be5c31d269b29"
  },
  "repo": "raziel100/mihon-preview"
 }

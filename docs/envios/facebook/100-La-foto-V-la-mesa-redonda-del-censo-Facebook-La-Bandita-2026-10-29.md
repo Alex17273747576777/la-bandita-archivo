@@ -1,9 +1,9 @@
 # PIEZA 100 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/100-La-foto-V-la-mesa-redonda-del-censo-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `f23dac3978b890a24b23e97d7151026f3173e4d636e2749698f2d4a986117385`
-- **Envío generado:** 2026-11-02 · 2 mensajes · el mayor de 791 caracteres
+- **Envío generado:** 2026-11-03 · 2 mensajes · el mayor de 791 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 2 · 791 caracteres ═══
@@ -18,7 +18,7 @@ Antes de mandártela volví a medir lo que afirma: *0 repositorios, 0 vivos*, m�
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/100-La-foto-V-la-mesa-redonda-del-censo-Facebook-La-Bandita-2026-10-29.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 2 · 533 caracteres ═══
 

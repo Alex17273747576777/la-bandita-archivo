@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#lastwinter909/InstallerX-Revived",
   "sha256": "48244dd2c4d811205f00e7b011cac6861c2058fbae48d6090aab5c5447217e0e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lastwinter909--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "dec28c83bd9a38e4b78bdc389966a009eac5607c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dec28c83bd9a38e4b78bdc389966a009eac5607c"
  },
  "repo": "lastwinter909/InstallerX-Revived"
 }

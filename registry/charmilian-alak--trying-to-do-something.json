@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#charmilian-alak/trying-to-do-something-",
   "sha256": "22df578637b3171a9b621fdcc49a24862e2c796e6ffa4145c434ca39162f39c6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "charmilian-alak--trying-to-do-something",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3d9f3bf82d7428718660706e6cc28427cb4e41f8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3d9f3bf82d7428718660706e6cc28427cb4e41f8"
  },
  "repo": "charmilian-alak/trying-to-do-something-"
 }

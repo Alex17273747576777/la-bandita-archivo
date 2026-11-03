@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.5.0",
   "ultimo_push": "2026-09-17"
  },
  "descripcion": "Screenshot testing for Compose Multiplatform and Android previews. One annotation, no test code, no emulator",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 357,
+  "stars": 359,
   "stars_por_mes": null
  },
  "nombre": "Mugshot",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8c37044aad4fa0b0fa46e5c098cc84e3f28531a0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8c37044aad4fa0b0fa46e5c098cc84e3f28531a0"
  },
  "repo": "TRazDev/Mugshot"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#sajjadkhan444dir-crypto/tiktokmodcloud",
   "sha256": "15f658bf8f8b4233a4d76c01389fc007ebf7bbe06bb09b9ce4a4e6ae5af5087d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "864c526448c74756183daad44257bd7f10607d9b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:864c526448c74756183daad44257bd7f10607d9b"
  },
  "repo": "sajjadkhan444dir-crypto/tiktokmodcloud"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-11",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.1-alpha",
   "ultimo_push": "2026-10-25"
  },
  "descripcion": "The agent that grows with you",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 236,
+  "stars": 239,
   "stars_por_mes": null
  },
  "nombre": "hermes-agent",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6637af74fa6e21b2fd7a0a092b7b29d75430e4ab",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6637af74fa6e21b2fd7a0a092b7b29d75430e4ab"
  },
  "repo": "adybag14-cyber/hermes-agent",
  "web": "https://hermes-agent.nousresearch.com"

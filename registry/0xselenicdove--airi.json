@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#0xSelenicDove/airi",
   "sha256": "866f2e86a1c25ef98f7ed647c849c248f5f93c0c08061a5411bedd6a6f8861e9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "0xselenicdove--airi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a860583c1db6c580939ff85bc36c7091e450ffa7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a860583c1db6c580939ff85bc36c7091e450ffa7"
  },
  "repo": "0xSelenicDove/airi"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Sachinarya05/Zangetsu",
   "sha256": "c04fe3eca990db924374e4c20a7b846120c3f7a3afbabaa4c8cb91fec67bc4fc"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "sachinarya05--zangetsu",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "195f66f95792f5ddcd78ae56be76a8e67d888ac3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:195f66f95792f5ddcd78ae56be76a8e67d888ac3"
  },
  "repo": "Sachinarya05/Zangetsu"
 }

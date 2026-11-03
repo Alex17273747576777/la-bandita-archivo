@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#craigwu4-a11y/servers",
   "sha256": "3ab83386fc6d402f3a70e873e9dea0b1aae03b2140d0500fca8e46cbea5791aa"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "craigwu4-a11y--servers",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d73f99efbfd40c3aa1b61e88728b3d49fb52608f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d73f99efbfd40c3aa1b61e88728b3d49fb52608f"
  },
  "repo": "craigwu4-a11y/servers"
 }

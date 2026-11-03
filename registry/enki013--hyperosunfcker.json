@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0.0",
   "ultimo_push": "2026-07-21"
  },
  "descripcion": "HyperOS Optimizer Android app (Shizuku-based HyperOS tuning and debloat)",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "LGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 82,
+  "stars": 86,
   "stars_por_mes": null
  },
  "nombre": "hyperosunfcker",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ca1ddf470f5780739b68d58019d956ede4adf753",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ca1ddf470f5780739b68d58019d956ede4adf753"
  },
  "repo": "Enki013/hyperosunfcker"
 }

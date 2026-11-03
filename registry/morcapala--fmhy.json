@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#morcapala/FMHY",
   "sha256": "f4dabe6bf160ad04c643911a5f9dbd51fdb84167b7e3b98c59787b191059bd2e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "729b723199c52141e74080dd6b517beceef0d455",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:729b723199c52141e74080dd6b517beceef0d455"
  },
  "repo": "morcapala/FMHY"
 }

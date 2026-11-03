@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-02",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-18"
+  "ultima_release": "v1.0.1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Open-source Android system performance optimization utility built with Kotlin and Jetpack Compose. Demonstrates device resource management, system state restoration via Shizuku APIs, and local loopback network traffic filtering. Strictly for device-level optimization and educational research.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "894c013359b075eab4eb3602a1ab42becf5315ac",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:894c013359b075eab4eb3602a1ab42becf5315ac"
  },
  "repo": "barrydash21-beep/turbo-optimizer"
 }

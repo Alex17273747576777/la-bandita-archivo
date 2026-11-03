@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-03-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0",
   "ultimo_push": "2026-05-21"
  },
  "descripcion": "fps counter realtime for Android",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 62,
+  "stars": 63,
   "stars_por_mes": null
  },
  "nombre": "FPSViewer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "024d77d17596c7b7f20dace612b9b275e27644dc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:024d77d17596c7b7f20dace612b9b275e27644dc"
  },
  "repo": "binhmod/FPSViewer"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Gamardal/AniLabX",
   "sha256": "c11977195906cd92bc53032df85be8807c436f661d11ec96fde347df5aa555e9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f32b66da2bd41acf12bc631a2efc89b9a9879e84",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f32b66da2bd41acf12bc631a2efc89b9a9879e84"
  },
  "repo": "Gamardal/AniLabX"
 }

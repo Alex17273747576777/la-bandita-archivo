@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-03",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-14"
+  "ultima_release": "1.5.0",
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "The ultimate home for modded apps. OrionStore offers instant access to YouTube M",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SA-SUJON/Orion-Store",
   "sha256": "ca427c501f2924d6b9602eb8cae6287553a75936e389400ffe5b3a7ac392718b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "sa-sujon--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "cdd1a4f622e4903fd6897868866bad901c0cc52b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cdd1a4f622e4903fd6897868866bad901c0cc52b"
  },
  "repo": "SA-SUJON/Orion-Store"
 }

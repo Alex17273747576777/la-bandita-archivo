@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#nmurrell07/rayniyomi",
   "sha256": "e7e17f0375747756a779cb4fe9913afafeeb2e00b4a25ed11bcc45bc8989d83d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "nmurrell07--rayniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f9aaa4ca40dbd193b0c3c294cca48dc714c3849c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f9aaa4ca40dbd193b0c3c294cca48dc714c3849c"
  },
  "repo": "nmurrell07/rayniyomi"
 }

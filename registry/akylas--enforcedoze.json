@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-04-18",
+  "release_en": "2024-09-03",
   "semantica_http": 200,
-  "ultima_release": "v1.10.2/86",
+  "ultima_release": "v1.4.0",
   "ultimo_push": "2026-07-26"
  },
  "descripcion": "Enable Doze mode immediately after screen off and turn off motion sensing to get best battery life",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 366,
+  "stars": 368,
   "stars_por_mes": null
  },
  "nombre": "EnforceDoze",
@@ -39,7 +39,7 @@
   "commit": "a5b7c4acc7a9d8b9f48b906be66c4792dd2cd77b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a5b7c4acc7a9d8b9f48b906be66c4792dd2cd77b"
  },
  "repo": "Akylas/EnforceDoze",
  "web": "https://www.akylas.fr/EnforceDoze/"

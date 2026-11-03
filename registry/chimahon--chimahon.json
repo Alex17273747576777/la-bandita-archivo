@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-03-28",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and anime support, Novel EPUB reader, and instant Anki card mining.",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 239,
+  "stars": 245,
   "stars_por_mes": null
  },
  "nombre": "chimahon",
@@ -39,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "aeb70902beb247c81c49672f49f5054b4ff2ee2d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:aeb70902beb247c81c49672f49f5054b4ff2ee2d"
  },
  "repo": "Chimahon/chimahon"
 }

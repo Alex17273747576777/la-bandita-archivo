@@ -1,10 +1,10 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": "2026-03-14",
+  "estado": "vivo",
+  "release_en": "2021-12-01",
   "semantica_http": 200,
-  "ultima_release": "v6.7.0",
-  "ultimo_push": "2026-03-16"
+  "ultima_release": "v6.0.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "安卓平台 JavaScript 自动化工具 (Auto.js 二次开发项目)",
  "evidencia": {
@@ -25,23 +25,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6556,
+  "stars": 6571,
   "stars_por_mes": null
  },
  "nombre": "AutoJs6",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ed3eb10e88db5a8425fd94bdddefa4176e5e1c94",
+  "commit": "b95b98b339c56ab12ba20b279d2b998eb6e2778c",
   "swh_estado": "archivada",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ed3eb10e88db5a8425fd94bdddefa4176e5e1c94"
+  "swhid": "swh:1:rev:b95b98b339c56ab12ba20b279d2b998eb6e2778c"
  },
  "repo": "SuperMonster003/AutoJs6",
  "web": "https://docs.autojs6.com"

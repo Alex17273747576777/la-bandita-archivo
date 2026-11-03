@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-11",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "2.0",
   "ultimo_push": "2026-10-24"
  },
  "descripcion": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 131,
+  "stars": 133,
   "stars_por_mes": null
  },
  "nombre": "ryP0",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b9d336a584d26b6768560745a97c7340561d48c1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b9d336a584d26b6768560745a97c7340561d48c1"
  },
  "repo": "Sami-Wali/ryP0"
 }

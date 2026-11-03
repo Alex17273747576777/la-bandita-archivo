@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-01"
+  "ultimo_push": "2026-10-18"
  },
  "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#angel888k/mpvRx-2026-riteshp2001",
   "sha256": "735c1ec4133086e2f0d72ae14464d9ed6078a4a6bf4ea54f80ea51d2a61b82c0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "angel888k--mpvrx-2026-riteshp2001",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "afd38886ad4c31a58fa6b636a70f37c03a575bf3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:afd38886ad4c31a58fa6b636a70f37c03a575bf3"
  },
  "repo": "angel888k/mpvRx-2026-riteshp2001"
 }

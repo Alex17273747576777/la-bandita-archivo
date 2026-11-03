@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.4.0",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "All-in-One-Toolbox für Android über Shizuku (ohne Root): Schulmodus, Customization, App-Manager, Universal Installer, Gaming-Modus, Logcat",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ff3634bbe72d399857332a9473cbfa97309b4f15",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ff3634bbe72d399857332a9473cbfa97309b4f15"
  },
  "repo": "jackderganove-sudo/ShizuBox"
 }

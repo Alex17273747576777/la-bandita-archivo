@@ -1,9 +1,9 @@
 # PIEZA 47 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/47-La-ultima-puerta-del-catalogo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `27790f795e9da960153324f2af02358c4cd9c23b7a579cdbadb8125649126ef1`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3332 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3332 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 899 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4 · Apache-2.0 2 · GPL-2.0 1 · MPL-2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/47-La-ultima-puerta-del-catalogo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3332 caracteres ═══
 
@@ -81,20 +81,20 @@ Lo primero, lo que se cayó: **hayase-app/ui** (bloqueado legal (451): existe), 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1681 caracteres ═══
+═══ MENSAJE 4 de 5 · 1688 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 47*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Stremio/stremio-web — ★14.952 (+14) · empujó en las últimas horas · GPL-2.0 · última release v5.0.0-beta.43 (20-oct-2026)
-• venera-app/venera — ★11.334 (+33) · *dormido*: sin empujar desde el 5-abr-2026 (211 días) · GPL-3.0 · última release v1.6.3 (8-mar-2026) · *ARCHIVADO*
-• Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (236 días) · GPL-3.0
-• Shadyteal2/QuickNovel-Enhanced — ★73 (+1) · *dormido*: sin empujar desde el 20-jul-2026 (105 días) · GPL-3.0 · última release v2.2.0 (2-jul-2026)
-• Kiastr/Venera-SSR — ★70 (+4) · *dormido*: sin empujar desde el 2-ago-2026 (92 días) · GPL-3.0 · última release v2.1.5 (1-ago-2026)
-• tachimanga/Tachidesk-Server — ★45 (+1) · *dormido*: sin empujar desde el 15-jul-2026 (110 días) · MPL-2.0
-• Yuneko-dev/Nekori — ★37 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v0.1.3 (23-oct-2026)
-• mednasserallah/tankobon — ★4 (sin cambio) · *dormido*: sin empujar desde el 20-jul-2026 (105 días) · Apache-2.0 · última release v0.4.0 (20-jul-2026)
+• Stremio/stremio-web — ★14.956 (+18) · empujó en las últimas horas · GPL-2.0 · última release v5.0.0-beta.43 (20-oct-2026)
+• venera-app/venera — ★11.342 (+41) · *dormido*: sin empujar desde el 5-abr-2026 (212 días) · GPL-3.0 · última release v1.6.3 (8-mar-2026) · *ARCHIVADO*
+• Suwatte/Suwatte — ★237 (sin cambio) · *dormido*: sin empujar desde el 11-mar-2026 (237 días) · GPL-3.0
+• Shadyteal2/QuickNovel-Enhanced — ★73 (+1) · *dormido*: sin empujar desde el 20-jul-2026 (106 días) · GPL-3.0 · última release v2.2.0 (2-jul-2026)
+• Kiastr/Venera-SSR — ★71 (+5) · *dormido*: sin empujar desde el 2-ago-2026 (93 días) · GPL-3.0 · última release v2.1.5 (1-ago-2026)
+• tachimanga/Tachidesk-Server — ★45 (+1) · *dormido*: sin empujar desde el 15-jul-2026 (111 días) · MPL-2.0
+• Yuneko-dev/Nekori — ★37 (sin cambio) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.1.3 (23-oct-2026)
+• mednasserallah/tankobon — ★4 (sin cambio) · *dormido*: sin empujar desde el 20-jul-2026 (106 días) · Apache-2.0 · última release v0.4.0 (20-jul-2026)
 • hayase-app/ui — sin dato hoy (la API no respondió). No afirmo nada.
 • thaunknown/miru — sin dato hoy (la API no respondió). No afirmo nada.
 

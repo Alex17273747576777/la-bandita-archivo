@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-26",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "v0.0.2",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "An application addon to run cloudstream extensions on nuvio, stremio and every other stremio supported platforms",
  "evidencia": {
@@ -21,26 +21,26 @@
  "id": "nivincnc--cncverse-bridge",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 178,
+  "stars": 184,
   "stars_por_mes": null
  },
  "nombre": "CNCVerse-Bridge",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "56149a77ee710a02792695b5caa36eafd398036a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:56149a77ee710a02792695b5caa36eafd398036a"
  },
  "repo": "NivinCNC/CNCVerse-Bridge"
 }

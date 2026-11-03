@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.5.0",
   "ultimo_push": "2026-10-28"
  },
  "descripcion": "The official repository of the WuWa Mobile Config Patcher. Use this tool to easily manage and edit your configs for Wuthering Waves.",
@@ -21,12 +21,12 @@
  "id": "arglax--wuwa-mobile-config-patcher",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («non-commercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -37,10 +37,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "c39710c4a858b04b5964e430ed6e6f0d0c10abc4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:c39710c4a858b04b5964e430ed6e6f0d0c10abc4"
  },
  "repo": "Arglax/WuWa-Mobile-Config-Patcher",
  "web": "https://arglax.github.io/WuWa-Mobile-Config-Patcher/"

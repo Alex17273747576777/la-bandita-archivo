@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#phenomenonRT/WIFI-Frankenstein",
   "sha256": "e941929df93e335ccf7d4dd05e121146a7da9f6eaf7f871e5767f491b0a8954d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "phenomenonrt--wifi-frankenstein",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "db2bb74c06b38b49e1006e2659ef78d9fde58c28",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:db2bb74c06b38b49e1006e2659ef78d9fde58c28"
  },
  "repo": "phenomenonRT/WIFI-Frankenstein"
 }

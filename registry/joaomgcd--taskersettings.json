@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2021-01-27",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.2.0",
   "ultimo_push": "2025-11-25"
  },
  "descripcion": "Helper app for Tasker",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4cd3896a2111cb467fbeb70e32bf9015569a6c4c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4cd3896a2111cb467fbeb70e32bf9015569a6c4c"
  },
  "repo": "joaomgcd/TaskerSettings"
 }

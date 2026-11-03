@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-10"
  },
  "descripcion": "手机上的 AI Agent：自然语言驱动 103 个内置工具直接操作本机——文件、应用、抓包、APK 反编译、Linux 环境、界面自动化。内置 MCP 客户端与 MCP Server。",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f78f98929da447cd5d2f4da745033dc4173d0c39",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f78f98929da447cd5d2f4da745033dc4173d0c39"
  },
  "repo": "guanhan01/Yutu-Toolbox",
  "web": "https://github.com/guanhan01/Yutu-Toolbox#readme"

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2023-05-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0.0",
   "ultimo_push": "2026-02-22"
  },
  "descripcion": "第三方轻小说文库app",
@@ -21,25 +21,25 @@
  "id": "15dd--wenku8reader",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1698,
+  "stars": 1718,
   "stars_por_mes": null
  },
  "nombre": "wenku8reader",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a3b6a09fa8d10c73e74b69418b9ba548e30a3e4a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a3b6a09fa8d10c73e74b69418b9ba548e30a3e4a"
  },
  "repo": "15dd/wenku8reader"
 }

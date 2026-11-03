@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-29",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "0.7.14-1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "The Swiss Army knife of OpenWrt networking — sing-box proxy, DPI bypass, Telegram control, atomic self-healing, and per-device routing — all managed from a single Web UI",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 514,
+  "stars": 543,
   "stars_por_mes": null
  },
  "nombre": "tachyon",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "64c8e29ee7ba852e075095441a92bbeab3e35332",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:64c8e29ee7ba852e075095441a92bbeab3e35332"
  },
  "repo": "Dushnilin/tachyon"
 }

@@ -1,9 +1,9 @@
 # PIEZA 67 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/67-La-segunda-fila-del-sotano-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `fc4f41ef302abfbbaf026085265fc32579a459d3ae89adb0591e976b9e166088`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3717 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3717 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 882 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 6 · sin licencia 2 · MIT 2 · NOASSERT
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/67-La-segunda-fila-del-sotano-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3717 caracteres ═══
 
@@ -88,23 +88,23 @@ La noticia amarga: **jpdoshi/dragon-store** (caído (404)) ya no respondieron. E
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1896 caracteres ═══
+═══ MENSAJE 4 de 5 · 1894 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 67*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• cosmictaserdev-creator/Convx — ★1.115 (+51) · empujó en las últimas horas · GPL-3.0 · última release v1.5.2 (15-ago-2026)
-• recloudstream/cs-repos — ★545 (+2) · empujó el 28-oct-2026 (hace 5 días) · sin licencia detectada por la API
-• RenzoBeux/Dashboarr — ★380 (+3) · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.22.0 (29-oct-2026)
-• bikram-agarwal/FilePipe — ★316 (+2) · empujó el 2-oct-2026 (hace 31 días) · GPL-3.0 · última release v3.11.3 (26-sep-2026)
-• koofr/vault — ★207 (sin cambio) · *dormido*: sin empujar desde el 13-ago-2026 (81 días) · MIT · última release v0.1.26 (13-ago-2026)
-• roozbehzarei/filester — ★197 (sin cambio) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v3.4.0 (28-oct-2026)
+• cosmictaserdev-creator/Convx — ★1.157 (+93) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.5.2 (15-ago-2026)
+• recloudstream/cs-repos — ★545 (+2) · empujó el 28-oct-2026 (hace 6 días) · sin licencia detectada por la API
+• RenzoBeux/Dashboarr — ★380 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.22.0 (29-oct-2026)
+• bikram-agarwal/FilePipe — ★317 (+3) · empujó el 2-oct-2026 (hace 32 días) · GPL-3.0 · última release v3.11.3 (26-sep-2026)
+• koofr/vault — ★207 (sin cambio) · *dormido*: sin empujar desde el 13-ago-2026 (82 días) · MIT · última release v0.1.26 (13-ago-2026)
+• roozbehzarei/filester — ★197 (sin cambio) · empujó el 28-oct-2026 (hace 6 días) · GPL-3.0 · última release v3.4.0 (28-oct-2026)
 • tobexyz/yaacc-code — ★188 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release 5.4.0 (23-oct-2026)
-• Infomaniak/android-kDrive — ★178 (sin cambio) · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release 5.22.1 (5-oct-2026)
-• mkulesh/onpc — ★168 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v1.37 (26-ago-2025)
-• bobrofon/easysshfs — ★154 (sin cambio) · empujó el 31-oct-2026 (hace 2 días) · MIT · última release 0.5.19 (8-oct-2026)
-• self-similarity/MegaRepo — ★142 (+2) · *dormido*: sin empujar desde el 3-oct-2025 (395 días) · sin licencia detectada por la API
+• Infomaniak/android-kDrive — ★178 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release 5.22.1 (5-oct-2026)
+• mkulesh/onpc — ★168 (sin cambio) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.37 (26-ago-2025)
+• bobrofon/easysshfs — ★154 (sin cambio) · empujó el 31-oct-2026 (hace 3 días) · MIT · última release 0.5.19 (8-oct-2026)
+• self-similarity/MegaRepo — ★142 (+2) · *dormido*: sin empujar desde el 3-oct-2025 (396 días) · sin licencia detectada por la API
 • jpdoshi/dragon-store — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

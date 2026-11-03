@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kisnov/Suwayomi-Tsumiru",
   "sha256": "90e2deff4e7908bf5b045f8491ec1e186d0be70798f90d62419d2eabfb9064a9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kisnov--suwayomi-tsumiru",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a4d805060b917ccdb5b2a55208f8c606e63b43b1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a4d805060b917ccdb5b2a55208f8c606e63b43b1"
  },
  "repo": "Kisnov/Suwayomi-Tsumiru"
 }

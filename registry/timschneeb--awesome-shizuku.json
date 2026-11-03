@@ -21,26 +21,26 @@
  "id": "timschneeb--awesome-shizuku",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: 21581 caracteres sin firma de licencia libre conocida ni cláusula de reserva de derechos. Queda citado el archivo y pendiente de lectura humana.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10666,
+  "stars": 10688,
   "stars_por_mes": null
  },
  "nombre": "awesome-shizuku",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "597b70e4aa01bd6a89ab2e2b77b30716a3ceb0a4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:597b70e4aa01bd6a89ab2e2b77b30716a3ceb0a4"
  },
  "repo": "timschneeb/awesome-shizuku"
 }

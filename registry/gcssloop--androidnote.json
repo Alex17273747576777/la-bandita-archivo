@@ -26,21 +26,21 @@
   "spdx": "Creative Commons BY-NC-ND 4.0",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9345,
+  "stars": 9348,
   "stars_por_mes": null
  },
  "nombre": "AndroidNote",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "21ba33e3d40c7f462d3c7c90322f4318060fe3ff",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:21ba33e3d40c7f462d3c7c90322f4318060fe3ff"
  },
  "repo": "GcsSloop/AndroidNote",
  "web": "http://www.gcssloop.com/#blog"

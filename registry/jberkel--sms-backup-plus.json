@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2014-11-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.5.6-BETA1",
   "ultimo_push": "2026-08-11"
  },
  "descripcion": "Backup Android SMS, MMS and call log to Gmail / Gcal / IMAP",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1899,
+  "stars": 1898,
   "stars_por_mes": null
  },
  "nombre": "sms-backup-plus",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fd33c3209c80598632d0323237fc86fa4ffea710",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fd33c3209c80598632d0323237fc86fa4ffea710"
  },
  "repo": "jberkel/sms-backup-plus",
  "web": "https://play.google.com/store/apps/details?id=com.zegoggles.smssync"

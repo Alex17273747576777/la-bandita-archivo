@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2026-03-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.0.1",
   "ultimo_push": "2026-03-25"
  },
  "descripcion": "Free and open source novel reader for Android",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7c613575441707b089a65c62dd271e184b6e508e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7c613575441707b089a65c62dd271e184b6e508e"
  },
  "repo": "SiVy1/yomihon"
 }

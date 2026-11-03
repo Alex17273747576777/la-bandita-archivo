@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-04-14",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "v0.1.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "SyncYomi is an open-source project crafted to provide a seamless synchronization experience for your TachiyomiSY/Mihon (Mihon client is not implemented but it works the same probably will never be implemented)/manga reading progress and library across multiple devices.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 740,
+  "stars": 742,
   "stars_por_mes": null
  },
  "nombre": "syncyomi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3460c892cae09b59fdd3e01cdc7035ec4633088a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3460c892cae09b59fdd3e01cdc7035ec4633088a"
  },
  "repo": "syncyomi/syncyomi"
 }

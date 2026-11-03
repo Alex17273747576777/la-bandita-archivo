@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-14",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "r10644",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
@@ -21,11 +21,11 @@
  "id": "komi-kun--komi-kun",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "GPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "afe2b89f31f0e0b77b15d497ead5b1b3461f6567",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:afe2b89f31f0e0b77b15d497ead5b1b3461f6567"
  },
  "repo": "komi-kun/komi-kun"
 }

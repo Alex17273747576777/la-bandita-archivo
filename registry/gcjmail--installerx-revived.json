@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2026-02-11",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.3.2",
   "ultimo_push": "2026-03-03"
  },
  "descripcion": "More Expressive InstallerX !",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#gcjmail/InstallerX-Revived",
   "sha256": "62dd390039bf608d57c4fc5d827f604563af89cb6a8f30051cc326087cdabb86"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "gcjmail--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "714282f25721c365245846587e83b9d89861e6ca",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:714282f25721c365245846587e83b9d89861e6ca"
  },
  "repo": "gcjmail/InstallerX-Revived"
 }

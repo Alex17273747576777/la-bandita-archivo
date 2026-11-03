@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-26",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v3.2.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "IINV — Android client for Xray: system VPN (TUN) or local SOCKS/HTTP proxy. APK releases, checksums and changelog.",
  "evidencia": {
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "iinv-xray-releases",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3eff182ea090ef8bd617b8941516e53402fd0fc4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3eff182ea090ef8bd617b8941516e53402fd0fc4"
  },
  "repo": "evgenyzh/iinv-xray-releases",
  "web": "https://evgenyzh.github.io/iinv-xray-releases/"

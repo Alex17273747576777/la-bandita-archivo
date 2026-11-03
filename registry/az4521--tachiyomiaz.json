@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2019-03-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v7.4.5-AZ",
   "ultimo_push": "2026-10-25"
  },
  "descripcion": "Free and open source EMAIL AND FREE DOUJIN reader for Android and iOS",
@@ -21,11 +21,11 @@
  "id": "az4521--tachiyomiaz",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "GPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8587d08ef966b5214a0c8b681d545ac7b7fd1668",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8587d08ef966b5214a0c8b681d545ac7b7fd1668"
  },
  "repo": "az4521/TachiyomiAZ",
  "web": "https://crafty.moe/tachiAZ.htm"

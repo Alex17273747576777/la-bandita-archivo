@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#vaimalaviya1233/ultimate-file-manager-pro",
   "sha256": "a865e3ba0a3e5e4b30ccd134aa5527c0fca09157368159bb2add12483286887d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "vaimalaviya1233--ultimate-file-manager-pro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a7d0dacfa62fa1db41e0294ca8c5118400f0ecaf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a7d0dacfa62fa1db41e0294ca8c5118400f0ecaf"
  },
  "repo": "vaimalaviya1233/ultimate-file-manager-pro"
 }

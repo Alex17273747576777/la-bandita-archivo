@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SnowingSeas/yokai",
   "sha256": "f80e7229d0fbe63ebd4ec5a638ba03663631a2ac88dc9ceee10b8f1cceed3a4d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "snowingseas--yokai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7d0b028a3300d0a0bc9fc2a9ba969792c868d6e0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7d0b028a3300d0a0bc9fc2a9ba969792c868d6e0"
  },
  "repo": "SnowingSeas/yokai"
 }

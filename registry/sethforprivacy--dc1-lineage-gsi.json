@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-23",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2026.08.23-lineage23.2",
   "ultimo_push": "2026-09-07"
  },
  "descripcion": "Maintained, unrooted LineageOS GSI fork for the Daylight DC-1 (amber frontlight built in)",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fd4b5c51b454f8afc893215396433f3a8edc93a2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fd4b5c51b454f8afc893215396433f3a8edc93a2"
  },
  "repo": "sethforprivacy/dc1-lineage-gsi"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#spidermandopetterpark-cloud/WinNative",
   "sha256": "3ac62cf2bd058f865e9af08a37618d0fa7f205a97fc70fe9ea27a2a95f38e104"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "spidermandopetterpark-cloud--winnative",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ba0cf60ec2f0e62616f6ccd3ac7f0ccfb0543b2c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ba0cf60ec2f0e62616f6ccd3ac7f0ccfb0543b2c"
  },
  "repo": "spidermandopetterpark-cloud/WinNative"
 }

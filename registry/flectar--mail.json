@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-08",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.1.0-alpha.4",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM.",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1710,
+  "stars": 1745,
   "stars_por_mes": null
  },
  "nombre": "mail",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4fc0790e8e4c8d45afb2d3d59cab73f859983490",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4fc0790e8e4c8d45afb2d3d59cab73f859983490"
  },
  "repo": "flectar/mail",
  "web": "http://flectar.com/mail/"

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.5-no-mediaprojection",
   "ultimo_push": "2026-09-29"
  },
  "descripcion": "Android Multi-Tasking Manager with desktop-like multi window and remote access support.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 727,
+  "stars": 729,
   "stars_por_mes": null
  },
  "nombre": "Extendroid",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8a5fff3f5ba9c0e09c420103acc55132265a25db",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8a5fff3f5ba9c0e09c420103acc55132265a25db"
  },
  "repo": "legendsayantan/Extendroid",
  "web": "https://extendroid.pages.dev"

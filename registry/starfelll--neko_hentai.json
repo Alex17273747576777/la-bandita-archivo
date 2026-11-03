@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Starfelll/neko_hentai",
   "sha256": "1c3ae5981351288b211cb20ca83ff5c5763cd714668d312a7ca4c9c2a130deb4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "starfelll--neko_hentai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "26960a177a19e7f94599e338b43ae98f7c88741a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:26960a177a19e7f94599e338b43ae98f7c88741a"
  },
  "repo": "Starfelll/neko_hentai"
 }

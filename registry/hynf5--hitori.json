@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-12-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "nightly-20251217-289fb35",
   "ultimo_push": "2026-10-26"
  },
  "descripcion": "Hitori is a fork of Kotatsu-Redo.  |  Manga reader for Android",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "516ec70a3f5512e604db45486560168c80089f2c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:516ec70a3f5512e604db45486560168c80089f2c"
  },
  "repo": "Hynf5/Hitori",
  "web": "https://kotatsu.app"

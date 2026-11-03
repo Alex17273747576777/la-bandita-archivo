@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Mooo0042/Kai",
   "sha256": "64d28c5654f10e8ed1abe9672b287154f21dcd9bbb90ad254e83f067c1a62440"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mooo0042--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "226462f6f9b7a633a5f8e8ae403ee7ddd1fc11c2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:226462f6f9b7a633a5f8e8ae403ee7ddd1fc11c2"
  },
  "repo": "Mooo0042/Kai"
 }

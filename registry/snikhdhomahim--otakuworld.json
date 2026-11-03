@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SnikhdhoMahim/OtakuWorld",
   "sha256": "6a7b740136f0535ce4c2dedd89a6a49d4982554f6d4adbcfae6f224251fa158a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "snikhdhomahim--otakuworld",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "838e72c3e1523642b8a7c9cfa8a029d35a32ecf7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:838e72c3e1523642b8a7c9cfa8a029d35a32ecf7"
  },
  "repo": "SnikhdhoMahim/OtakuWorld"
 }

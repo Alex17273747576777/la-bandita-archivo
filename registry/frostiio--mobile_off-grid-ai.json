@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#frostiio/mobile_off-grid-ai",
   "sha256": "582a91651e62dff4ba05fa464b82d71d2bbc1b37b79fe9fa8a4ce1a5016c1ffa"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "frostiio--mobile_off-grid-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "47b357a60ca311536fa33f89b64718dd174cebe5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:47b357a60ca311536fa33f89b64718dd174cebe5"
  },
  "repo": "frostiio/mobile_off-grid-ai"
 }

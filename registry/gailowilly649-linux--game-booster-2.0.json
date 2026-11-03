@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v20.6.1-PRO",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "94845498864edf3e4321a53ac9aa38f21cd805a8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:94845498864edf3e4321a53ac9aa38f21cd805a8"
  },
  "repo": "gailowilly649-linux/GAME-BOOSTER-2.0"
 }

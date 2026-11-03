@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Cosmic-Ide/CodeAssist",
   "sha256": "e2932a497ff72e1d4ed82efec2c2e019d14f435726436d85714bc6696bf43842"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "cosmic-ide--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7a55ce1f864ceeffef30094ae69fb2cf97cf4268",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7a55ce1f864ceeffef30094ae69fb2cf97cf4268"
  },
  "repo": "Cosmic-Ide/CodeAssist"
 }

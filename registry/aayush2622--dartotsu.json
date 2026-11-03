@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-02-22",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "A multiplatform tracking client based on Dantotsu",
  "evidencia": {
@@ -21,15 +21,15 @@
  "id": "aayush2622--dartotsu",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
-  "spdx": "GPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 549,
+  "stars": 550,
   "stars_por_mes": null
  },
  "nombre": "Dartotsu",
@@ -40,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "92df5660c7ac0d3f3fd0637d99fcbfd867c70ce4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:92df5660c7ac0d3f3fd0637d99fcbfd867c70ce4"
  },
  "repo": "aayush2622/Dartotsu"
 }

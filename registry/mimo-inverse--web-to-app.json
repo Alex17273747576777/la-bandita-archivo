@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Mimo-Inverse/web-to-app",
   "sha256": "07e1c218404263ca7d791728e49791d5d7f9477c33ac2383450e9f31a9430918"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mimo-inverse--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "375a344da110b13d5cfd7e0a0c950d1e89149d6b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:375a344da110b13d5cfd7e0a0c950d1e89149d6b"
  },
  "repo": "Mimo-Inverse/web-to-app"
 }

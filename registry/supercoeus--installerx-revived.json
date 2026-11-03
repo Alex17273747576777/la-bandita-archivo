@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#supercoeus/InstallerX-Revived",
   "sha256": "cc9e398e7584d88990997261bff57ee2b940624bedd4892c1cc9b212f65bfc15"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "supercoeus--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "16e6e2f6e782b37eb273b58d0349dca0567daace",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:16e6e2f6e782b37eb273b58d0349dca0567daace"
  },
  "repo": "supercoeus/InstallerX-Revived"
 }

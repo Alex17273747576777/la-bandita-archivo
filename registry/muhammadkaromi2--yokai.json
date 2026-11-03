@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#muhammadkaromi2/yokai",
   "sha256": "c12360d7bdae8dd161ffc50fb8b4a4313c3bbdaaa9a5355b3da7363ef11d9c41"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "muhammadkaromi2--yokai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "40ce67713dbae234c91db2953adae0494bc0a434",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:40ce67713dbae234c91db2953adae0494bc0a434"
  },
  "repo": "muhammadkaromi2/yokai"
 }

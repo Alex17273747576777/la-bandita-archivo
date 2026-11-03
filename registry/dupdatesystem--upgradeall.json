@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2023-04-24",
+  "release_en": "2019-04-24",
   "semantica_http": 200,
-  "ultima_release": "0.13-beta.4",
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "0.0.1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Check updates for Android apps, Magisk modules and more!",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1358,
+  "stars": 1357,
   "stars_por_mes": null
  },
  "nombre": "UpgradeAll",
@@ -39,7 +39,7 @@
   "commit": "4a1aae1d44a418989b0d3d28528cacff0cc066c0",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4a1aae1d44a418989b0d3d28528cacff0cc066c0"
  },
  "repo": "DUpdateSystem/UpgradeAll",
  "web": "https://up-a.org"

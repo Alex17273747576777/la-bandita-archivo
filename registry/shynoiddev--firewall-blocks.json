@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-10-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.shynoid",
   "ultimo_push": "2026-07-09"
  },
  "descripcion": "Android firewall app using Shizuku and VPN modes. and no root required. This app can block internet access of any other apps. ",
@@ -21,25 +21,25 @@
  "id": "shynoiddev--firewall-blocks",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 234,
+  "stars": 236,
   "stars_por_mes": null
  },
  "nombre": "FireWall-Blocks",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8bca2c22eca77ad0675da35865af5936878a34e2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8bca2c22eca77ad0675da35865af5936878a34e2"
  },
  "repo": "shynoiddev/FireWall-Blocks"
 }

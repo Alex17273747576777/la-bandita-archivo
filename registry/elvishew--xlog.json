@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2016-11-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.1.0",
   "ultimo_push": "2024-07-28"
  },
  "descripcion": "Android logger, pretty, powerful and flexible, log to everywhere, save to file, all you want is here.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3faa6b27a36fe93c71c1b475579f9f57a8698da3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3faa6b27a36fe93c71c1b475579f9f57a8698da3"
  },
  "repo": "elvishew/xLog"
 }

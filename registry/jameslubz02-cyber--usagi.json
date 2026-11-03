@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jameslubz02-cyber/Usagi",
   "sha256": "5e5ca69804bd1839616dd0dceb7cd2ecbb5ade0e547d7684fca8545494cb817d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jameslubz02-cyber--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e15d1837d5c32a1f196615aed9dd1a9b98401735",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e15d1837d5c32a1f196615aed9dd1a9b98401735"
  },
  "repo": "jameslubz02-cyber/Usagi"
 }

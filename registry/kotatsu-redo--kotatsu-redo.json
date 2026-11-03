@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-11-05",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-16"
+  "ultima_release": "9.4.2",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Manga reader for Android",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 981,
+  "stars": 991,
   "stars_por_mes": null
  },
  "nombre": "Kotatsu-Redo",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "497b7e450badc532d3a0e7c91ecca71623ff1ba6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:497b7e450badc532d3a0e7c91ecca71623ff1ba6"
  },
  "repo": "Kotatsu-Redo/Kotatsu-Redo"
 }

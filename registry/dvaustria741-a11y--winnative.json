@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#dvaustria741-a11y/WinNative",
   "sha256": "76344ebeb31f4e4ac42c72c7de6a44ded7318c3ff0b040498035527914141f92"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dvaustria741-a11y--winnative",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c12fa5fb35359ef4876312706b82232d63dfe052",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c12fa5fb35359ef4876312706b82232d63dfe052"
  },
  "repo": "dvaustria741-a11y/WinNative"
 }

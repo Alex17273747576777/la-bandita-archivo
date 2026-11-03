@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#itoha8874-eng/Orion-Store",
   "sha256": "ae95ddba7c758845ab7fe1db18a39aaf4666f6043abf3601d57d4c7c0c6f90c0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "itoha8874-eng--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "105ecd8a8550f57adfba2b5e066a9e2da418f19d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:105ecd8a8550f57adfba2b5e066a9e2da418f19d"
  },
  "repo": "itoha8874-eng/Orion-Store"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SingleDawn7/Movie-Studio-Pro",
   "sha256": "6c33cd63fa893ae693580b0f6f7e3aa01acebf271e1f57ae0584c7727164261a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "singledawn7--movie-studio-pro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7c47d19a709beaf5060f9b780e2ef84aa695b9cf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7c47d19a709beaf5060f9b780e2ef84aa695b9cf"
  },
  "repo": "SingleDawn7/Movie-Studio-Pro"
 }

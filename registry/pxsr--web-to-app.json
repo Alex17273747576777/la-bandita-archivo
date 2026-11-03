@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#PXSR/web-to-app",
   "sha256": "fae551af7d57db9bf1f93e366fd252da4eda87abe0d72b0dbffdd52ae1d07d04"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "pxsr--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6ed1e39820eed35f3d9eae2ab348fe7fe655c9b8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6ed1e39820eed35f3d9eae2ab348fe7fe655c9b8"
  },
  "repo": "PXSR/web-to-app"
 }

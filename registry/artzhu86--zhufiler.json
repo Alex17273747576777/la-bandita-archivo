@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-27",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.5",
   "ultimo_push": "2026-08-13"
  },
  "descripcion": "Kotlin 编写的开源 Android 文件管理器",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28,
+  "stars": 29,
   "stars_por_mes": null
  },
  "nombre": "ZhuFiler",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3445f2be438f052769089841779d2bca21c68005",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3445f2be438f052769089841779d2bca21c68005"
  },
  "repo": "Artzhu86/ZhuFiler",
  "web": "zhufiler.netlify.app"

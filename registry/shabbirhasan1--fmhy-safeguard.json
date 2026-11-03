@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ShabbirHasan1/FMHY-SafeGuard",
   "sha256": "d9283aea8fcf6db580191dee664c986080b6ccda6a2ee212fa3e4191fea58023"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shabbirhasan1--fmhy-safeguard",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f2ad7211e46f220c4f8c2b27d37021642d0347de",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f2ad7211e46f220c4f8c2b27d37021642d0347de"
  },
  "repo": "ShabbirHasan1/FMHY-SafeGuard"
 }

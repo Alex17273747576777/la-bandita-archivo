@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "An universal search app for Android which can search apps, shortcuts, contacts, files, calendar events, notes, settings and the internet.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4f52fb1d9ae5580e30fbff3089e65e76e76a9bbb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4f52fb1d9ae5580e30fbff3089e65e76e76a9bbb"
  },
  "repo": "ndutg/quick-search-mod"
 }

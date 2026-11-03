@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#IndraTheGreatSage/komikku",
   "sha256": "5e63f05577e8a83061d00d6cdab275495cfa56ca83b04f8e8fbc1d8d04b27a2c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "indrathegreatsage--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3b06366fd979e7983cd42e3e092608411b70cff3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3b06366fd979e7983cd42e3e092608411b70cff3"
  },
  "repo": "IndraTheGreatSage/komikku"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SeaNaxxx/WinNative",
   "sha256": "6ac6f1cb45ce0f76e011fe92691d4a5f5ad049863fd5fe2f039e6d84b3c7e00f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "seanaxxx--winnative",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4e299f57a37949d137b132d7780c1357c9308fbb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e299f57a37949d137b132d7780c1357c9308fbb"
  },
  "repo": "SeaNaxxx/WinNative"
 }

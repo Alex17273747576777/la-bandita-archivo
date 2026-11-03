@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "android-debloat-log",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "19cd5f9d5bda45160b39fcaab03e06d6b169ace9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:19cd5f9d5bda45160b39fcaab03e06d6b169ace9"
  },
  "repo": "juanpablofuentealba/android-debloat-log"
 }

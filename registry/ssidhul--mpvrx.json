@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SSIDHul/mpvRx",
   "sha256": "432844f6128b1fa5cccd5e9b869c73ac7d44f389dedb0af163048e5d6903074c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ssidhul--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a85ac1cb0a9ba038a7df230a6c4905eb4ae75e09",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a85ac1cb0a9ba038a7df230a6c4905eb4ae75e09"
  },
  "repo": "SSIDHul/mpvRx"
 }

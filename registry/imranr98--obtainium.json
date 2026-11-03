@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-08-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0-beta",
   "ultimo_push": "2026-11-01"
  },
  "descripcion": "Get Android app updates straight from the source.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 21092,
+  "stars": 21169,
   "stars_por_mes": null
  },
  "nombre": "Obtainium",
@@ -40,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "35c3e7fea4f341a716eca4bb3fc625319ce965ab",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:35c3e7fea4f341a716eca4bb3fc625319ce965ab"
  },
  "repo": "ImranR98/Obtainium",
  "web": "https://obtainium.imranr.dev"

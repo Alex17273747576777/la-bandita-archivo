@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2017-11-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "V1.2.0",
   "ultimo_push": "2026-10-20"
  },
  "descripcion": "Database for Android and JVM - first and fast, lightweight on-device vector database",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4632,
+  "stars": 4631,
   "stars_por_mes": null
  },
  "nombre": "objectbox-java",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3cea3e7dd6cb725d19f529ca39dfb75ceae11838",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3cea3e7dd6cb725d19f529ca39dfb75ceae11838"
  },
  "repo": "objectbox/objectbox-java",
  "web": "https://objectbox.io"

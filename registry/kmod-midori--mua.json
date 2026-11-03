@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "mua-server-0.1.0",
   "ultimo_push": "2026-10-22"
  },
  "descripcion": "Mua lets an AI agent work for you in Android apps, even while you are sleeping or actively using the phone",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a494abc0c400f40f98c159b5169e897e02a5270b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a494abc0c400f40f98c159b5169e897e02a5270b"
  },
  "repo": "kmod-midori/Mua"
 }

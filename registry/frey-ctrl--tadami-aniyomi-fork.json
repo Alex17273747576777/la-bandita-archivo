@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Frey-ctrl/Tadami-Aniyomi-fork",
   "sha256": "73afcff4aaf4c8901b9515cdb85baa40bd9e5bdbb449a6d3c93d3c9b5eb1af02"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "frey-ctrl--tadami-aniyomi-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2a25f358ccd298b033e77ff79dcdd0c4bae60f7c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2a25f358ccd298b033e77ff79dcdd0c4bae60f7c"
  },
  "repo": "Frey-ctrl/Tadami-Aniyomi-fork"
 }

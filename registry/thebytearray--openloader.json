@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2026-04-16",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0.1-beta",
   "ultimo_push": "2026-04-21"
  },
  "descripcion": "OpenLoader is a open source android app that lets user install any apk they want.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8491dc6f6e207094fdfb46de042e70ab804b1e38",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8491dc6f6e207094fdfb46de042e70ab804b1e38"
  },
  "repo": "thebytearray/OpenLoader"
 }

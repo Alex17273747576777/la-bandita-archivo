@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#BaoVy2810/web-to-app",
   "sha256": "cdae1fed24581630cbcc57f01acd4b1ea66044eb1c1dc58629907bcc154acebb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "baovy2810--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2500c8af1cab08aa23ea9845a0eae73b58f6d296",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2500c8af1cab08aa23ea9845a0eae73b58f6d296"
  },
  "repo": "BaoVy2810/web-to-app"
 }

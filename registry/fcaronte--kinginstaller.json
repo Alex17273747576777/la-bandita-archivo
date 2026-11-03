@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-03-05",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-25"
+  "ultima_release": "1.2",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Porting of KingInstaller get from GitLab by annexhack",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 610,
+  "stars": 626,
   "stars_por_mes": null
  },
  "nombre": "KingInstaller",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "87446cb529e12232980899f780bae0fe10952479",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:87446cb529e12232980899f780bae0fe10952479"
  },
  "repo": "fcaronte/KingInstaller",
  "web": "http://buymeacoffee.com/fcaronte"

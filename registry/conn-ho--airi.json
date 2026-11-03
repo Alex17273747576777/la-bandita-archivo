@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Conn-Ho/airi",
   "sha256": "6543920ba77d1d24d73f9da9c0753bfb773c0bd64bf5b53a6feff1acba12e144"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "conn-ho--airi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "34f45ee336c6c0d0b43741745dbd80c09d1cdf16",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:34f45ee336c6c0d0b43741745dbd80c09d1cdf16"
  },
  "repo": "Conn-Ho/airi"
 }

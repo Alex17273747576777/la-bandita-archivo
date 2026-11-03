@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SrDavos/FMHY",
   "sha256": "fe1f73f3b44a2d38b4496c9bbf15c0b2fc00f527f75e72a5638242d2c19f06de"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1814c6caf6c21e4099012da86755f32339e66441",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1814c6caf6c21e4099012da86755f32339e66441"
  },
  "repo": "SrDavos/FMHY"
 }

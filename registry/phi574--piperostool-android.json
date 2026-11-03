@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v3.4.0.beta",
   "ultimo_push": "2026-10-22"
  },
  "descripcion": "PiperOS Tool for Android: browser, media player, device utilities, notifications and an on-device terminal.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "da51281b2a703598f0d5f6c9856b38136f7ac045",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:da51281b2a703598f0d5f6c9856b38136f7ac045"
  },
  "repo": "Phi574/PiperOSTool-Android",
  "web": "https://github.com/Phi574/Piperos_termux"

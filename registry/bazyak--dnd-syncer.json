@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-05",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.2",
   "ultimo_push": "2026-10-11"
  },
  "descripcion": "Sync Do Not Disturb, theater and bedtime modes between Android phone and Wear OS watch",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d7c914b0d7d60760a21b9bfbef06b0bdd3445d52",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d7c914b0d7d60760a21b9bfbef06b0bdd3445d52"
  },
  "repo": "bazyak/dnd-syncer"
 }

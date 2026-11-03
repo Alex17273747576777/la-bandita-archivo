@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#artiriart/StrawVerse",
   "sha256": "2c5d95db8e94884871b78da5821b6726a7f3ffb7947c20e26b705bfaec6c51f6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "169fb9a751f7358c05920073fca64f104cc76e75",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:169fb9a751f7358c05920073fca64f104cc76e75"
  },
  "repo": "artiriart/StrawVerse"
 }

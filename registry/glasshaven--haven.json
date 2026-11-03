@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2026-02-25",
   "semantica_http": 200,
-  "ultima_release": "v5.92.0",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.5.5",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Free SSH, VNC, RDP & SFTP client for Android",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1398,
+  "stars": 1409,
   "stars_por_mes": null
  },
  "nombre": "Haven",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "958604368e599d45c2a26b004b7e0ca57adb2505",
+  "commit": "a0feac083682e04c36e71ffe422295419f07e1d8",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a0feac083682e04c36e71ffe422295419f07e1d8"
  },
  "repo": "GlassHaven/Haven",
  "web": "https://glasshaven.github.io/Haven/"

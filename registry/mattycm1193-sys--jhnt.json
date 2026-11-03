@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-07-31"
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "cross-plat manga app by Flutter",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mattycm1193-sys/JHNT",
   "sha256": "d1301b41df08edebe35d903ea1d3a3f0ea4a779af54a577c5f9d508fc51888c1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mattycm1193-sys--jhnt",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "0e3775dfa5aaacebfd9f1898915d5719863b580c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:0e3775dfa5aaacebfd9f1898915d5719863b580c"
  },
  "repo": "mattycm1193-sys/JHNT"
 }

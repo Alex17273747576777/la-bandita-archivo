@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "6.1.4",
   "ultimo_push": "2026-07-23"
  },
  "descripcion": "GmsCore fork for Morphe patched apps",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#areteruhiro/MicroG-RE-by-areteruhiro",
   "sha256": "f6ba38ec3b33fe5a927a7036a944c0e7057486f80e348555fc127cf1dd6b5144"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "areteruhiro--microg-re-by-areteruhiro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d8df10ab687a1c1ca05221634cfa46bad262023a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d8df10ab687a1c1ca05221634cfa46bad262023a"
  },
  "repo": "areteruhiro/MicroG-RE-by-areteruhiro"
 }

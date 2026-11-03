@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#DiekoMA/mangayomi-plus",
   "sha256": "09b5372175986be698681d4cd3f26e98b19c7b321594dd6d3987a0b588336480"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "diekoma--mangayomi-plus",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4d39044511e5ca9cb97c76763aa88933955b1e78",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4d39044511e5ca9cb97c76763aa88933955b1e78"
  },
  "repo": "DiekoMA/mangayomi-plus"
 }

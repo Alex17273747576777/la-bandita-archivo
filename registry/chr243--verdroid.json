@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-30",
+  "release_en": "2026-10-04",
   "semantica_http": 200,
-  "ultima_release": "v1.0.76",
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "On-device AI agent for Android, tuned for free OpenRouter/Kilo models with automatic model/key fallback and rate-limit recovery. Tools: web search/fetch over HTTP, bash/Python in Termux (optional headless Chromium + Selenium), Shizuku/rish shell, Accessibility, ebook translation, Documents/Verdroid, Git, crypto market data. No backend.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 29,
+  "stars": 30,
   "stars_por_mes": null
  },
  "nombre": "Verdroid",
@@ -39,7 +39,7 @@
   "commit": "6804968ea1af55c44113440bf3f1fd32161f6a78",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6804968ea1af55c44113440bf3f1fd32161f6a78"
  },
  "repo": "chr243/Verdroid"
 }

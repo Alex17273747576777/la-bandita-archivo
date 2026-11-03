@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#joselofarias-byte/AxManagerD",
   "sha256": "cc056ee2ad418b01dbb090c5dc1940cdae2b5a1a2fe4e8f01e7ef9adaedd0cef"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8e33e53c7f3653505a590251d424911b7b5a756b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8e33e53c7f3653505a590251d424911b7b5a756b"
  },
  "repo": "joselofarias-byte/AxManagerD"
 }

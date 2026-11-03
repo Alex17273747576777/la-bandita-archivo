@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-05-19",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-26"
+  "ultima_release": "2.5.1-beta+240519184",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "beta builds for namida",
  "evidencia": {
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 194,
+  "stars": 196,
   "stars_por_mes": null
  },
  "nombre": "namida-snapshots",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ed25af3bac3686176876fd22b82c0c3da9b83b84",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ed25af3bac3686176876fd22b82c0c3da9b83b84"
  },
  "repo": "namidaco/namida-snapshots"
 }

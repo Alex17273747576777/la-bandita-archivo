@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ThemooXi/CodeAssite-app",
   "sha256": "b0f4f332fcbbe7aa45de2cb50323e6c02827a6872b6db03cdc178e3851433a3e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "themooxi--codeassite-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "898e1c566086e30ab9dd62bf42f324e8958f4377",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:898e1c566086e30ab9dd62bf42f324e8958f4377"
  },
  "repo": "ThemooXi/CodeAssite-app"
 }

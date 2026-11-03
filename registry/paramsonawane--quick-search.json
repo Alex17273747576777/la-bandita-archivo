@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#paramSonawane/quick-search",
   "sha256": "659a456e93f30752cebe0a23ddb6dc157bd47e9d680736fdaee5e643ed340c8f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "paramsonawane--quick-search",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c79a3abee42a18dc2e4cd04a71d8ba7a3a617958",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c79a3abee42a18dc2e4cd04a71d8ba7a3a617958"
  },
  "repo": "paramSonawane/quick-search"
 }

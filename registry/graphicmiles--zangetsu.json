@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#GraphicMiles/Zangetsu",
   "sha256": "c35827b27a136bbcf2927003ff25dbce79e37de09c21b0d35bc44c0c0f6832b1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1d7c5daff0108745a768830832b5395c2a86e495",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1d7c5daff0108745a768830832b5395c2a86e495"
  },
  "repo": "GraphicMiles/Zangetsu"
 }

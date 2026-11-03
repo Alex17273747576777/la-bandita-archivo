@@ -1,9 +1,9 @@
 # PIEZA 31 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/31-Los-pequenos-del-sistema-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `0fc2535af5e9e6865b9752db399774d6ef6885072c7b665db5cc8a7986cac110`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3702 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3702 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 876 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 8 · Apache-2.0 3 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/31-Los-pequenos-del-sistema-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3702 caracteres ═══
 
@@ -92,24 +92,24 @@ La noticia fresca es de **Xitee1/sleep-timer**: release v1.4.0 (2026-10-27). El 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1916 caracteres ═══
+═══ MENSAJE 4 de 5 · 1923 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 31*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Hamza417/Inure — ★1.985 (+5) · empujó en las últimas horas · GPL-3.0 · última release build107.3.0 (21-oct-2026)
-• axel358/smartdock — ★1.463 (+5) · *dormido*: sin empujar desde el 21-may-2026 (165 días) · GPL-3.0 · última release 1.15.0 (21-may-2026)
-• Hamza417/Peristyle — ★744 (+4) · empujó el 23-oct-2026 (hace 10 días) · Apache-2.0 · última release v9.8.4 (23-oct-2026)
-• adil192/no_more_background — ★386 (+2) · empujó en las últimas horas · GPL-3.0 · última release v2.8.2 (1-ago-2026)
-• Akylas/EnforceDoze — ★367 (+1) · *dormido*: sin empujar desde el 26-jul-2026 (99 días) · GPL-3.0 · última release v1.10.2/86 (18-abr-2026)
-• agupta07505/SmartIsland — ★391 (+43) · empujó el 19-oct-2026 (hace 14 días) · GPL-3.0 · última release v7.6.0 (19-oct-2026)
-• daisukiKaffuChino/RebootNya — ★293 (+5) · *dormido*: sin empujar desde el 20-ago-2026 (74 días) · Apache-2.0 · última release 1.9.0 (20-ago-2026)
-• mlm-games/BatStats — ★236 (+3) · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release 6.2.6 (14-sep-2026)
-• C10udburst/Grayscaler — ★168 (sin cambio) · *dormido*: sin empujar desde el 18-feb-2025 (622 días) · GPL-3.0 · última release 1.0 (18-feb-2025)
-• eiyooooo/Fold_Switcher — ★121 (sin cambio) · *dormido*: sin empujar desde el 10-jun-2025 (510 días) · Apache-2.0 · última release V1.2.2 (11-abr-2025)
-• mahmutaunal/Adaptive-Hz — ★96 (+1) · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · MIT · última release 2.3.0 (20-ago-2026)
-• Xitee1/sleep-timer — ★67 (-1) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.4.0 (27-oct-2026)
+• Hamza417/Inure — ★1.984 (+4) · empujó en las últimas horas · GPL-3.0 · última release build107.3.1 (2-nov-2026)
+• axel358/smartdock — ★1.463 (+5) · *dormido*: sin empujar desde el 21-may-2026 (166 días) · GPL-3.0 · última release 1.15.0 (21-may-2026)
+• Hamza417/Peristyle — ★744 (+4) · empujó el 23-oct-2026 (hace 11 días) · Apache-2.0 · última release v9.8.4 (23-oct-2026)
+• adil192/no_more_background — ★386 (+2) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.8.2 (1-ago-2026)
+• Akylas/EnforceDoze — ★368 (+2) · *dormido*: sin empujar desde el 26-jul-2026 (100 días) · GPL-3.0 · última release v1.10.2/86 (18-abr-2026)
+• agupta07505/SmartIsland — ★400 (+52) · empujó el 19-oct-2026 (hace 15 días) · GPL-3.0 · última release v7.6.0 (19-oct-2026)
+• daisukiKaffuChino/RebootNya — ★293 (+5) · *dormido*: sin empujar desde el 20-ago-2026 (75 días) · Apache-2.0 · última release 1.9.0 (20-ago-2026)
+• mlm-games/BatStats — ★235 (+2) · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release 6.2.6 (14-sep-2026)
+• C10udburst/Grayscaler — ★168 (sin cambio) · *dormido*: sin empujar desde el 18-feb-2025 (623 días) · GPL-3.0 · última release 1.0 (18-feb-2025)
+• eiyooooo/Fold_Switcher — ★122 (+1) · *dormido*: sin empujar desde el 10-jun-2025 (511 días) · Apache-2.0 · última release V1.2.2 (11-abr-2025)
+• mahmutaunal/Adaptive-Hz — ★98 (+3) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · MIT · última release 2.3.0 (20-ago-2026)
+• Xitee1/sleep-timer — ★68 (sin cambio) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.4.0 (27-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

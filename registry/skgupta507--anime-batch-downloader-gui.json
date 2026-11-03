@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#skgupta507/Anime-batch-downloader-gui",
   "sha256": "ce642f1642901f4f8cdbd53f5f4ffa8fb1821841c198a10d97c23f3e99ff18bf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ff2a4438c983c785ecf83916f9a5f738d13fe069",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ff2a4438c983c785ecf83916f9a5f738d13fe069"
  },
  "repo": "skgupta507/Anime-batch-downloader-gui"
 }

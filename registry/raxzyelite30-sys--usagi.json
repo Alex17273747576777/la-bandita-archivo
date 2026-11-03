@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#raxzyelite30-sys/Usagi",
   "sha256": "04c18fe88d9f4d5dbaef1bfa8e5638decced1df1547f747388e334fc883e11a6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "raxzyelite30-sys--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a5082f04cf96c4c554f11d4e4b22d7fcd991e7ae",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a5082f04cf96c4c554f11d4e4b22d7fcd991e7ae"
  },
  "repo": "raxzyelite30-sys/Usagi"
 }

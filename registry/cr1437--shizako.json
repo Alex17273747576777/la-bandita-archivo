@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2026-08-16",
   "semantica_http": 200,
-  "ultima_release": "zako3.17",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "zako2.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "猫耳看板娘的系统权限助手：不 Root 也能用特权 API，兼容 Shizuku-API 生态（官方 SDK 应用零改动直连）| A catgirl-mascot privileged-API assistant for Android. Shizuku-API compatible — apps built on the official SDK connect unchanged. Apache-2.0",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 93,
+  "stars": 95,
   "stars_por_mes": null
  },
  "nombre": "Shizako",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ba402f5879585da149c5bcd867d4cc1c32c45cd9",
+  "commit": "2311ebbfd3def24b0c847de131422a8570cbf025",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2311ebbfd3def24b0c847de131422a8570cbf025"
  },
  "repo": "cr1437/Shizako",
  "web": "https://cr1437.github.io/Shizako/"

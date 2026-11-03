@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Stark-0505/morphe-manager",
   "sha256": "5ee1ca9af139d5bc795f179d02422651782db986c48766ca5c4cbe7fd56e72ba"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "stark-0505--morphe-manager",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a2c3d31bd7ab42e6bc4b9dd528ed856fc72fb948",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a2c3d31bd7ab42e6bc4b9dd528ed856fc72fb948"
  },
  "repo": "Stark-0505/morphe-manager"
 }

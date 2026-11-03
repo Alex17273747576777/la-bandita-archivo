@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.5",
   "ultimo_push": "2026-10-06"
  },
  "descripcion": "Dexxicon Reader for audiobooks, eBooks, and Comics (including Manga)",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849"
  },
  "repo": "dexxfm/dexxicon-reader"
 }

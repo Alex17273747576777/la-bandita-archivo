@@ -1,9 +1,9 @@
 # PIEZA 74 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/74-Los-vivos-de-la-semana-la-fila-de-las-fechas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `2f2572116210aeeeb163125bc232e2ca40d539ebc37da3a26263cf17db60db62`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3578 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3578 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 905 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4 · sin licencia 4 · AGPL-3.0 3 · MIT
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/74-Los-vivos-de-la-semana-la-fila-de-las-fechas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3578 caracteres ═══
 
@@ -102,28 +102,28 @@ La noticia fresca es de **wikimedia/apps-android-wikipedia**: release latest (20
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2262 caracteres ═══
+═══ MENSAJE 4 de 5 · 2211 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 74*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.142 (+371) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• offa/android-foss — ★11.611 (+25) · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0
-• standardnotes/app — ★6.695 (+7) · empujó el 30-oct-2026 (hace 3 días) · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
-• nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• NuvioMedia/NuvioTV — ★3.327 (+56) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
-• researchxxl/syncthing-android — ★3.232 (+40) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
-• wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (31-oct-2026)
-• dongdongbh/Mindwtr — ★2.363 (+22) · empujó en las últimas horas · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
-• TeamWin/Team-Win-Recovery-Project — ★2.070 (+2) · *dormido*: sin empujar desde el 6-feb-2022 (1730 días) · sin licencia detectada por la API
-• plateaukao/einkbro — ★2.051 (+3) · empujó el 30-oct-2026 (hace 3 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
+• ggml-org/llama.cpp — ★133.256 (+485) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• offa/android-foss — ★11.620 (+34) · empujó en las últimas horas · GPL-3.0
+• standardnotes/app — ★6.696 (+8) · empujó en las últimas horas · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
+• nextcloud/android — ★5.671 (+15) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• NuvioMedia/NuvioTV — ★3.343 (+72) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• researchxxl/syncthing-android — ★3.243 (+51) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• wikimedia/apps-android-wikipedia — ★3.052 (+2) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
+• dongdongbh/Mindwtr — ★2.365 (+24) · empujó en las últimas horas · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
+• TeamWin/Team-Win-Recovery-Project — ★2.071 (+3) · *dormido*: sin empujar desde el 6-feb-2022 (1731 días) · sin licencia detectada por la API
+• plateaukao/einkbro — ★2.053 (+5) · empujó el 30-oct-2026 (hace 4 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
 • axiel7/AniHyou-android — ★628 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (26-sep-2026)
-• recloudstream/cs-repos — ★545 (+2) · empujó el 28-oct-2026 (hace 5 días) · sin licencia detectada por la API
-• phisher98/cloudstream-extensions-phisher — ★529 (+3) · empujó en las últimas horas · sin licencia detectada por la API
-• Chimahon/chimahon — ★240 (+3) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v2.4.8 (19-oct-2026)
-• ArtifexSoftware/mupdf-android-viewer — ★199 (sin cambio) · empujó el 25-sep-2026 (hace 38 días) · AGPL-3.0
-• TeamWin/android_bootable_recovery — ★1.725 · *dormido*: sin empujar desde el 24-ago-2026 (70 días) · sin licencia detectada por la API
+• recloudstream/cs-repos — ★545 (+2) · empujó el 28-oct-2026 (hace 6 días) · sin licencia detectada por la API
+• phisher98/cloudstream-extensions-phisher — ★531 (+5) · empujó en las últimas horas · sin licencia detectada por la API
+• Chimahon/chimahon — ★245 (+8) · empujó en las últimas horas · GPL-3.0 · última release v2.4.8 (19-oct-2026)
+• ArtifexSoftware/mupdf-android-viewer — ★199 (sin cambio) · empujó el 25-sep-2026 (hace 39 días) · AGPL-3.0
+• TeamWin/android_bootable_recovery — ★1.725 · empujó en las últimas horas · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

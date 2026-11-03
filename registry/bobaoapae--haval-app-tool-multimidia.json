@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-08-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0.0",
   "ultimo_push": "2026-10-21"
  },
  "descripcion": "Ferramenta Android experimental para estender e aprimorar o sistema multimídia do Haval H6 GT (GWM) via engenharia reversa e Shizuku",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a7533456bc0f0a4ee751e8bf66c092d59f5fd0e1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a7533456bc0f0a4ee751e8bf66c092d59f5fd0e1"
  },
  "repo": "bobaoapae/haval-app-tool-multimidia"
 }

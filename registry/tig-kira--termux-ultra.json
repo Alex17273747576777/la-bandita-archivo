@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-14",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "0.118.3.1.1",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Make Termux Great Again - A versatile Termux tool platform that embodies Xiaomi's HyperOS-like aesthetics. | 贯彻小米澎湃美学的全能 Termux 工具平台。",
  "evidencia": {
@@ -21,11 +21,11 @@
  "id": "tig-kira--termux-ultra",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b7fc21e46374864b79599486f07f7ffb379fa920",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b7fc21e46374864b79599486f07f7ffb379fa920"
  },
  "repo": "TiG-Kira/Termux-Ultra"
 }

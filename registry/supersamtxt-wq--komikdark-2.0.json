@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#supersamtxt-wq/komikDark-2.0-",
   "sha256": "a4999f369b2cc0d6fa7b48029fde911df9f87b9413d4cf23218485695587e796"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "supersamtxt-wq--komikdark-2.0",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e50767709a5d79a6e06a386c5a62f1c70a885621",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e50767709a5d79a6e06a386c5a62f1c70a885621"
  },
  "repo": "supersamtxt-wq/komikDark-2.0-"
 }

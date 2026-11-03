@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-09-06",
+  "release_en": "2019-04-02",
   "semantica_http": 200,
-  "ultima_release": "v3.4.3",
+  "ultima_release": "v0.1",
   "ultimo_push": "2026-09-06"
  },
  "descripcion": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": 5.1,
   "scorecard_en": "2026-08-24",
-  "stars": 13430,
+  "stars": 13452,
   "stars_por_mes": null
  },
  "nombre": "Aegis",

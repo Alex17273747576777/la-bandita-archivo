@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#chinkeong/off-grid-ai-mobile",
   "sha256": "345e46eee1ea87cd2a39694b4ec8d0da586b02faf0cdcd58cdd08af43892a7d4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "chinkeong--off-grid-ai-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "321b7e42f42e8005fddcba8fe14fee655a03dfa7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:321b7e42f42e8005fddcba8fe14fee655a03dfa7"
  },
  "repo": "chinkeong/off-grid-ai-mobile"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-27",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "commit-apk-latest",
   "ultimo_push": "2026-07-30"
  },
  "descripcion": "More Expressive InstallerX !",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#a-319/InstallerX-Revived",
   "sha256": "17dc76c7084015859460b8916bae3183e11519247ccec20656800f8c2ae2832a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "a-319--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a19884eed4a8391009872811b3d45342cd2367b6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a19884eed4a8391009872811b3d45342cd2367b6"
  },
  "repo": "a-319/InstallerX-Revived"
 }

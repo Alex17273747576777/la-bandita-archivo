@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "evolve-launcher,vr-launcher,meta-quest,quest-launcher,oculus-quest,android-launcher,vr-app-launcher,quest-home-replacement,sidequest,playtime-tracker",
   "ultimo_push": "2026-10-03"
  },
  "descripcion": "A Game Launcher For Meta Quest Devices",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7aafb56275571a04e691f8c92503273f830fda7a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7aafb56275571a04e691f8c92503273f830fda7a"
  },
  "repo": "JarJarBlinkz/Evolve_Launcher_v2"
 }

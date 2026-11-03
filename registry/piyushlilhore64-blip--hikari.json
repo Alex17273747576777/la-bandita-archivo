@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#piyushlilhore64-blip/hikari",
   "sha256": "5cd38a08ab9004284694c0356d537ee87ebfb111a63a0c301982360c49955a2f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "piyushlilhore64-blip--hikari",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9d9a5ca6841880b04875c680efab6798286c1ac9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9d9a5ca6841880b04875c680efab6798286c1ac9"
  },
  "repo": "piyushlilhore64-blip/hikari"
 }

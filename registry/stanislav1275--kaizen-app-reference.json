@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Stanislav1275/kaizen-app-reference",
   "sha256": "2853920782e8c0c1b924865c27a7caf648c0f99b40faf7f63ca240c78656859a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "stanislav1275--kaizen-app-reference",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "63919f2414e145130e3decc7272489e35ac711a8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:63919f2414e145130e3decc7272489e35ac711a8"
  },
  "repo": "Stanislav1275/kaizen-app-reference"
 }

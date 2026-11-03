@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-03-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.9.5-3dfx-kuchen",
   "ultimo_push": "2026-10-14"
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 306,
+  "stars": 305,
   "stars_por_mes": null
  },
  "nombre": "Vectras-VM-Emu-Android",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3f77e67bdb87f86c2ff4458bad9a057b37cedea5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3f77e67bdb87f86c2ff4458bad9a057b37cedea5"
  },
  "repo": "AnBui2004/Vectras-VM-Emu-Android",
  "web": "https://vectras.vercel.app"

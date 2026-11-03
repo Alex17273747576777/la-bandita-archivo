@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2023-06-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.0",
   "ultimo_push": "2025-06-02"
  },
  "descripcion": "Free anime streaming platform for Android devices, powered by XDCC.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "053f9ae2770862e9c045347253dccf89ff853ec6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:053f9ae2770862e9c045347253dccf89ff853ec6"
  },
  "repo": "astarivi/Kaizoyu"
 }

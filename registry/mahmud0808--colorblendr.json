@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2023-12-06",
   "semantica_http": 200,
-  "ultima_release": "v3.1.2",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0b1",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "An Android app for customizing Material You colors on devices with Android 12+. It lets you tweak accent colors, background saturation, and more for a personalized look.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2573,
+  "stars": 2583,
   "stars_por_mes": null
  },
  "nombre": "ColorBlendr",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c2d9916ae42fffba261bb3e42a43efb539a57f2a",
+  "commit": "a51337e86ba7de617fef6177f78ace180c647c4e",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a51337e86ba7de617fef6177f78ace180c647c4e"
  },
  "repo": "Mahmud0808/ColorBlendr",
  "web": "https://mahmud0808.github.io/ColorBlendr/"

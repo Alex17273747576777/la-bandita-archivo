@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ufoowan/tiktokmodcloud",
   "sha256": "a20e870b2a2be538f7e333218b9440608ccd8b5bfbc191ff41fe1f4329ea9de1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "556a3c96bb92af2c5149a8293ea25e385106bc2b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:556a3c96bb92af2c5149a8293ea25e385106bc2b"
  },
  "repo": "ufoowan/tiktokmodcloud"
 }

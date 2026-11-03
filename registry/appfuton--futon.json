@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-12-08",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-21"
+  "ultima_release": "v9.5-beta",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Manga reader for Android",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 469,
+  "stars": 476,
   "stars_por_mes": null
  },
  "nombre": "Futon",
@@ -39,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fb96eb99bc2df6400864570bf067fc3ceb5ae084",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fb96eb99bc2df6400864570bf067fc3ceb5ae084"
  },
  "repo": "AppFuton/Futon",
  "web": "https://futon.wtf"

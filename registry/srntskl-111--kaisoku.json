@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#srntskl-111/Kaisoku",
   "sha256": "6e54033ef88fe01dd089bbaa65f77290ca93647525eb6b9df3da643a99868553"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "srntskl-111--kaisoku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e85343dc3ab793ecbd7c38543621c58ec2f6f231",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e85343dc3ab793ecbd7c38543621c58ec2f6f231"
  },
  "repo": "srntskl-111/Kaisoku"
 }

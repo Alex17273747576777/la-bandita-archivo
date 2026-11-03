@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#RomanK2311/harmoni",
   "sha256": "f6d9fc262f1214220a2164bebd2d17df3982cf33c7104892e70cf1a119af3de9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "romank2311--harmoni",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e61d8abae9e9ce0a4ad593e6f47fdb0c8f46614e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e61d8abae9e9ce0a4ad593e6f47fdb0c8f46614e"
  },
  "repo": "RomanK2311/harmoni"
 }

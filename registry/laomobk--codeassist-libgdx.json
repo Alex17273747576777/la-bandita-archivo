@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#laomobk/CodeAssist-libGDX",
   "sha256": "d301c14ff0304f46d259f3136b33f88fb3d92e06138f4436d9e0a56dd938a044"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "laomobk--codeassist-libgdx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2db2f41ef17e2a4b0e6fef393f10b5b320c67fb1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2db2f41ef17e2a4b0e6fef393f10b5b320c67fb1"
  },
  "repo": "laomobk/CodeAssist-libGDX"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#adiytharpansa/AnimeGO",
   "sha256": "8a970f9c3593af89a508ddc56f3c0483d50a9ba292f51f09abcb264829ed7559"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "896b0794d8cb8b2ad9244d81ede21ae54663df3d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:896b0794d8cb8b2ad9244d81ede21ae54663df3d"
  },
  "repo": "adiytharpansa/AnimeGO"
 }

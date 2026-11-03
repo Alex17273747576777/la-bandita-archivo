@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-08-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.15-plugin",
   "ultimo_push": "2026-10-10"
  },
  "descripcion": "Automated archive of TikTok Mod and Plugin APK files from TikTokModCloud. This repository includes a CLI tool for downloading the latest versions and automated workflows to maintain an up-to-date archive of all APK files.",
@@ -26,21 +26,21 @@
   "spdx": "MIT",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 471,
+  "stars": 473,
   "stars_por_mes": null
  },
  "nombre": "tiktokmodcloud",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "210194a63a7c42608085c791facbdaf6b99ec8f2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:210194a63a7c42608085c791facbdaf6b99ec8f2"
  },
  "repo": "namecallfilter/tiktokmodcloud"
 }

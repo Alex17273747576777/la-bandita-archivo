@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2020-06-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0.0",
   "ultimo_push": "2021-09-06"
  },
  "descripcion": "Stream anime and synchronize with your MyAnimeList(MAL) + SIMKL + Anilist on iOS and Android devices",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fb57523482e26ccf9cf26138b00b56177aad08d7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fb57523482e26ccf9cf26138b00b56177aad08d7"
  },
  "repo": "Michael24884/TaiYaKiAnime",
  "web": "https://michael24884.github.io/TaiYaKiAnime/"

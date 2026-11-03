@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ii1ddi/MicroG-RE",
   "sha256": "6dae1c7729307e8c99dee6ddd785b8b4ae4dd3bbbe497c83c421f317ce1abe4a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ii1ddi--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "11109bc8ce85b52d654cc02d6f893bdc04e2f96e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:11109bc8ce85b52d654cc02d6f893bdc04e2f96e"
  },
  "repo": "ii1ddi/MicroG-RE"
 }

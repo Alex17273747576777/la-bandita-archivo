@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-24",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "Release",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "A minecraft launcher based on boardwalk",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 21,
+  "stars": 22,
   "stars_por_mes": null
  },
  "nombre": "TurtleLauncher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1ca57ca7ad5a5bac89e9034eddf9257af5da77a2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1ca57ca7ad5a5bac89e9034eddf9257af5da77a2"
  },
  "repo": "Endiq-jar/TurtleLauncher",
  "web": "https://endiq-jar.github.io/endiq-shop/"

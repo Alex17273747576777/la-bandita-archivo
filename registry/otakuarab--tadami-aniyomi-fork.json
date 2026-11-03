@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#OtakuArab/Tadami-Aniyomi-fork",
   "sha256": "6698f0d81448a08a4a59f7071a976ef689276f53a90c80045ed0dd9951b23923"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "otakuarab--tadami-aniyomi-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5b059e2a910aa6d2c46a0cb7176b00202beb1e0a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5b059e2a910aa6d2c46a0cb7176b00202beb1e0a"
  },
  "repo": "OtakuArab/Tadami-Aniyomi-fork"
 }

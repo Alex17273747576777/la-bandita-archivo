@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#somethinghappenedfr/mangayomi",
   "sha256": "b9a79c97b14c0b15bb678ccab12ea70c2f36d6979448736aef59fd4ad16ab20a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "somethinghappenedfr--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "62a36038e12662f8d3c8d1853f2be6729ef52270",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:62a36038e12662f8d3c8d1853f2be6729ef52270"
  },
  "repo": "somethinghappenedfr/mangayomi"
 }

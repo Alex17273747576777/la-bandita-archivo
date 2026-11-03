@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#EVA-REBUILT/MicroG-RE-for-me-Mistah-IK",
   "sha256": "d66c0e2b6972a5855ee9088cbda7b6638bfd00d9f49bdaec406b686b067caeb1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "eva-rebuilt--microg-re-for-me-mistah-ik",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7bda06a94919ed866f81b80343b1cd8f015f96fd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7bda06a94919ed866f81b80343b1cd8f015f96fd"
  },
  "repo": "EVA-REBUILT/MicroG-RE-for-me-Mistah-IK"
 }

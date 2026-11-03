@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-15",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "Auto-reconnect wireless debugging (ADB over Wi-Fi) on macOS & Windows — menu bar / tray app with QR pairing and connection diagnosis. 무선 디버깅 자동 재연결",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ede5b5ae97ec5b0ec1d39c16c4c929d3daa734f4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ede5b5ae97ec5b0ec1d39c16c4c929d3daa734f4"
  },
  "repo": "da-itda/wireless-adb-reconnect"
 }

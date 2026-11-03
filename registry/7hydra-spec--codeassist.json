@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#7hydra-spec/CodeAssist",
   "sha256": "91c738deb150a2562a8b59cf451e164099b1b10465aa6e909176a58570f3cc1e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "7hydra-spec--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "22a45a9c672d6bb3b88ea43ad7b5928284eea2a7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:22a45a9c672d6bb3b88ea43ad7b5928284eea2a7"
  },
  "repo": "7hydra-spec/CodeAssist"
 }

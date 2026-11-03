@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-01-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.15.2.2",
   "ultimo_push": "2026-11-01"
  },
  "descripcion": "Official fork of Aniyomi",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 613,
+  "stars": 614,
   "stars_por_mes": null
  },
  "nombre": "Animetail",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "24b5ceecd7c9b4480d2ededb9b196952849c643e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:24b5ceecd7c9b4480d2ededb9b196952849c643e"
  },
  "repo": "Animetailapp/Animetail",
  "web": "https://aniyomi.org"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Shiho-Patch/web-to-app",
   "sha256": "03d098b6b7c748058acff133a4f36ed9a6296b36c67d9566be0816134ab30d71"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shiho-patch--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5d0f675ff295cbbede29a0363bb9b9fb7c4efaf2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5d0f675ff295cbbede29a0363bb9b9fb7c4efaf2"
  },
  "repo": "Shiho-Patch/web-to-app"
 }

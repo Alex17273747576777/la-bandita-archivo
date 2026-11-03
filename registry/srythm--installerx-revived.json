@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "26.06.461ba71",
   "ultimo_push": "2026-10-26"
  },
  "descripcion": "More Expressive InstallerX ! With Personal Modify",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "52615aa73343e744611c358df1e904a01241fbd5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:52615aa73343e744611c358df1e904a01241fbd5"
  },
  "repo": "Srythm/InstallerX-Revived",
  "web": "https://wxxsfxyzm.github.io/InstallerX-Revived-Website"

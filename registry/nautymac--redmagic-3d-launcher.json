@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-03",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.3",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "3D Launcher for the Red Magic 3D Explorer tablet: runs any Android app in glasses-free 3D via a Shizuku virtual display + Leia 2D-to-3D engine",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3e2b1ed54e876f0a97910b3b2177cf39be30f80b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3e2b1ed54e876f0a97910b3b2177cf39be30f80b"
  },
  "repo": "nautymac/RedMagic-3D-Launcher"
 }

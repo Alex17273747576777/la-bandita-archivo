@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.5.0-beta.1",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Local-first translation studio for manga, manhwa, and manhua.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 87,
+  "stars": 86,
   "stars_por_mes": null
  },
  "nombre": "xianscan-rust",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "075d36f359cdcad1d08ea88d2f4d927640789c26",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:075d36f359cdcad1d08ea88d2f4d927640789c26"
  },
  "repo": "ArbenApura/xianscan-rust",
  "web": "https://xianscan.arbenger.com"

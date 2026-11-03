@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#brandonp2412/mpvRx",
   "sha256": "7176651b30a12f6b2a43a04efc3f0253aa131a385e63c5a7d56cba8ba7142f36"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "brandonp2412--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ab45857dda1f117cbe0cc23c167b6c65baddcbc8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ab45857dda1f117cbe0cc23c167b6c65baddcbc8"
  },
  "repo": "brandonp2412/mpvRx"
 }

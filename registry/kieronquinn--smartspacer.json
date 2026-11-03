@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-02",
+  "release_en": "2023-10-24",
   "semantica_http": 200,
-  "ultima_release": "1.11.4",
+  "ultima_release": "1.1",
   "ultimo_push": "2026-10-23"
  },
  "descripcion": "Smartspacer is a customisable widget for Android, but with a difference: It can upgrade the built in At a Glance on Pixels - without root!",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3583,
+  "stars": 3590,
   "stars_por_mes": null
  },
  "nombre": "Smartspacer",

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.4",
   "ultimo_push": "2026-10-23"
  },
  "descripcion": "竖屏守护：强制指定应用竖屏显示的安卓工具",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "373f6aa465b41e984b07cd0cfcf929352ccfe083",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:373f6aa465b41e984b07cd0cfcf929352ccfe083"
  },
  "repo": "tiger-git2022/portrait-guard"
 }

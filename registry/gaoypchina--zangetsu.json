@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#gaoypChina/Zangetsu",
   "sha256": "b574068a6f3e6434d18b269ca8e4bb556ee6ae6fd1f719a675177f2b4e8f01bd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "gaoypchina--zangetsu",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1a70d935e1c8b6bd3e76e0309e956c15e39037f9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1a70d935e1c8b6bd3e76e0309e956c15e39037f9"
  },
  "repo": "gaoypChina/Zangetsu"
 }

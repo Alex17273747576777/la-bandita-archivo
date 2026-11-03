@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "Build",
   "ultimo_push": "2026-09-28"
  },
  "descripcion": "🌌 Obsidian Music: A premium, beautifully crafted local music player for Android. Built with Jetpack Compose, ExoPlayer, and stunning modern aesthetics🎧✨",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 310,
+  "stars": 315,
   "stars_por_mes": null
  },
  "nombre": "Obsidian-Music",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e216105869273b41093cf0f4bee8c25adeac5867",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e216105869273b41093cf0f4bee8c25adeac5867"
  },
  "repo": "Varun7009/Obsidian-Music"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-26",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-26"
+  "ultima_release": "v0.4.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Open source suite for E Ink Android tablets, tuned for BOOX Note Air: calm high contrast home that keeps frozen apps visible, live sleep screens in your own fonts, instant pen ink in any drawing app, battery log with real measured drain, and reversible tweaks, plus Nib, a drawing app with native pen preview. No root, no accounts.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13,
+  "stars": 16,
   "stars_por_mes": null
  },
  "nombre": "BooxUltimatum",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a03688d0c2d5b8e346ae4879524f5dd8f9504683",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a03688d0c2d5b8e346ae4879524f5dd8f9504683"
  },
  "repo": "huuunleashed/BooxUltimatum",
  "web": "https://huuunleashed.github.io/BooxUltimatum/"

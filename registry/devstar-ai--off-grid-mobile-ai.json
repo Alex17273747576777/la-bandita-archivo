@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#devstar-ai/off-grid-mobile-ai",
   "sha256": "a674201e686424bd3d4945e591bf198184782ad689984facf373851a99b82c41"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "devstar-ai--off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fbd22c70cba9d77eeffea1218c1030d3272f35b9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fbd22c70cba9d77eeffea1218c1030d3272f35b9"
  },
  "repo": "devstar-ai/off-grid-mobile-ai"
 }

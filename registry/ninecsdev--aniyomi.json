@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#NineCSdev/aniyomi",
   "sha256": "a34ebad2818ef5f4b0810300e00892318064eddd33a55fe2e8750950efc2eeb1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ninecsdev--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2f5cf775c4d93832aa5acee6b4bca776a869e7ef",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2f5cf775c4d93832aa5acee6b4bca776a869e7ef"
  },
  "repo": "NineCSdev/aniyomi"
 }

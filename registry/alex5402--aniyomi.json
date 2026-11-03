@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ALEX5402/aniyomi",
   "sha256": "de82b0d5ed9e55b8f83232f54a340d454180e12b4db10dabef45c7ffd0d7e885"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "alex5402--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a8cd7233dfdf26c98ff86b1871a7ac5774379b5e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a8cd7233dfdf26c98ff86b1871a7ac5774379b5e"
  },
  "repo": "ALEX5402/aniyomi"
 }

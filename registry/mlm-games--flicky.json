@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-08-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.1",
   "ultimo_push": "2026-10-23"
  },
  "descripcion": "Yet Another FDroid Client (wide screen / TV friendly)",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 462,
+  "stars": 465,
   "stars_por_mes": null
  },
  "nombre": "flicky",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4005cf229789ad781eabce39bdc3c95c7553977a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4005cf229789ad781eabce39bdc3c95c7553977a"
  },
  "repo": "mlm-games/flicky"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2016-06-12",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.13.5",
   "ultimo_push": "2026-10-22"
  },
  "descripcion": "Official frugal and native macOS Syncthing application bundle",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3997,
+  "stars": 4001,
   "stars_por_mes": null
  },
  "nombre": "syncthing-macos",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "eb70834e6fa9d060f07370c93172e565eba94109",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:eb70834e6fa9d060f07370c93172e565eba94109"
  },
  "repo": "syncthing/syncthing-macos",
  "web": "https://syncthing.net"

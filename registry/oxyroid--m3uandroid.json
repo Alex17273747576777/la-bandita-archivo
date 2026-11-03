@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": null,
+  "estado": "vivo",
+  "release_en": "2023-02-03",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.7.0-alpha01",
   "ultimo_push": "2026-09-20"
  },
  "descripcion": "a clean, practical, ad-free IPTV app",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1287,
+  "stars": 1285,
   "stars_por_mes": null
  },
  "nombre": "M3UAndroid",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "32f3658d4cd62b1f11bc29cc6cfc8aded8f37239",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:32f3658d4cd62b1f11bc29cc6cfc8aded8f37239"
  },
  "repo": "oxyroid/M3UAndroid",
  "web": "https://t.me/m3u_android"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#vaimalaviya1233/Hazel",
   "sha256": "6d0a72e06acd857d4a34cb10d5963fc766ed576343994812a5c0240da74d8243"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "vaimalaviya1233--hazel",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b6388f7b5f856b21ebfe40a3876717982e3205b4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b6388f7b5f856b21ebfe40a3876717982e3205b4"
  },
  "repo": "vaimalaviya1233/Hazel"
 }

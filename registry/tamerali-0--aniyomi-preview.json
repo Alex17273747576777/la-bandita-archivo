@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#TamerAli-0/aniyomi-preview",
   "sha256": "20dca58a374039972f9b2e5b81c831072b442dc8fad4bc7d69e6229560b2d7f3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "tamerali-0--aniyomi-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9b8819b609a76fe2045a40708cc7c1376bfa2743",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9b8819b609a76fe2045a40708cc7c1376bfa2743"
  },
  "repo": "TamerAli-0/aniyomi-preview"
 }

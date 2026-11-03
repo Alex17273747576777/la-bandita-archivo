@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9234,
+  "stars": 9238,
   "stars_por_mes": null
  },
  "nombre": "alternative-front-ends",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "9b2e0dab2c20632d05b15429d068722bd318a63c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:9b2e0dab2c20632d05b15429d068722bd318a63c"
  },
  "repo": "mendel5/alternative-front-ends"
 }

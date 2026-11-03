@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#TNB-AR/off-grid-mobile-ai",
   "sha256": "d679e4bb16b2c3a53f9b0a811b93ca93a346af745996353c8fbd0f8e460304f9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "tnb-ar--off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ca72b66a6311082d4d01df970ca9b38e7523c345",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ca72b66a6311082d4d01df970ca9b38e7523c345"
  },
  "repo": "TNB-AR/off-grid-mobile-ai"
 }

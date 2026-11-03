@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#JiuGe1999/mangayomi",
   "sha256": "8671416eb04b8dd626861e776084765312c82dc290adbd425c2205f29585a65c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jiuge1999--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4eec7aca6f1c8bd563d0bc79bcf895f46bb30b74",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4eec7aca6f1c8bd563d0bc79bcf895f46bb30b74"
  },
  "repo": "JiuGe1999/mangayomi"
 }

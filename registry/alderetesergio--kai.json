@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-01"
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "Clon de SimonSchubert",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AldereteSergio/Kai",
   "sha256": "f4b8455cc156a091ffb5a765e96725320e2f1fcb4024fb7f86698b884e85a0e2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "alderetesergio--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bd774d32e5790a651bec84f4b16ef23bf1f4d481",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bd774d32e5790a651bec84f4b16ef23bf1f4d481"
  },
  "repo": "AldereteSergio/Kai"
 }

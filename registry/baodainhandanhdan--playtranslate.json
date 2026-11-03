@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#BaoDaiNhanDanhDan/playtranslate",
   "sha256": "d4d0bdc836cd83cec92ce0d75a74743d9c943d4deb45793f04c7a77c9c00ae27"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "baodainhandanhdan--playtranslate",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a29390fe4c431d40a642f14ca1500ab7b5a428f7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a29390fe4c431d40a642f14ca1500ab7b5a428f7"
  },
  "repo": "BaoDaiNhanDanhDan/playtranslate"
 }

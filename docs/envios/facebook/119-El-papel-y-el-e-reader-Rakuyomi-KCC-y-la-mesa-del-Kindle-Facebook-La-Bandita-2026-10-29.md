@@ -1,26 +1,26 @@
 # PIEZA 119 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/119-El-papel-y-el-e-reader-Rakuyomi-KCC-y-la-mesa-del-Kindle-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `06a4de79003ea6cb94b17e3a7255a6de59bb3c8a3d56bab9ffa4cc8da0d2c9fd`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2235 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 2235 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 4 · 899 caracteres ═══
+═══ MENSAJE 1 de 4 · 897 caracteres ═══
 
 *El papel y el e-reader: Rakuyomi, KCC y la mesa del Kindle*
 
 La Bandita · pieza 119 · guía del 29-oct-2026 · te la mando hoy en 4 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *3 repositorios, 3 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *3 repositorios, 2 vivos y 1 muerto*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: ISC 1 · AGPL-3.0 1 · GPL-3.0 1.
+Licencias de lo que recomienda: ISC 1 · GPL-3.0 1.
 
 ⚠️ *Aviso de fecha:* este texto se escribió el 29-oct-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/119-El-papel-y-el-e-reader-Rakuyomi-KCC-y-la-mesa-del-Kindle-Facebook-La-Bandita-2026-10-29.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2235 caracteres ═══
 
@@ -54,20 +54,22 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 2 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 710 caracteres ═══
+═══ MENSAJE 3 de 4 · 883 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 119*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ciromattia/kcc — ★5.958 (+30) · empujó en las últimas horas · ISC · última release v12.1.5 (2-nov-2026)
-• tachibana-shin/rakuyomi — ★657 (+6) · empujó el 24-oct-2026 (hace 9 días) · AGPL-3.0 · última release v1.44.3 (24-oct-2026)
-• Utazukin/Ichaival — ★220 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (68 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
+• ciromattia/kcc — ★5.967 (+39) · empujó en las últimas horas · ISC · última release v12.1.5 (2-nov-2026)
+• tachibana-shin/rakuyomi — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
+• Utazukin/Ichaival — ★220 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (69 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 4 enlaces de esta pieza, *4 responden*.
-Ninguno roto.
+De los 4 enlaces de esta pieza, *2 responden*.
+
+• https://github.com/tachibana-shin/rakuyomi — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://tachibana-shin.github.io/rakuyomi/ — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 2 de 3
 

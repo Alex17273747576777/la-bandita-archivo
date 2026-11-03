@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Shiho-Patch/InstallerX-Revived",
   "sha256": "45ad1c11d673c894dfe469204c1d3c5763b8572f161279b896b33957e7a64341"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shiho-patch--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "652a37069ba547708ee566c2a728139e9b6ad389",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:652a37069ba547708ee566c2a728139e9b6ad389"
  },
  "repo": "Shiho-Patch/InstallerX-Revived"
 }

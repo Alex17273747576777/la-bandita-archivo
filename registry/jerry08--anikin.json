@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-05-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0",
   "ultimo_push": "2026-08-05"
  },
  "descripcion": "A multi-platform app to stream/download videos.",
@@ -21,25 +21,25 @@
  "id": "jerry08--anikin",
  "licencia": {
   "archivo": "LICENSE.txt",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 321,
+  "stars": 323,
   "stars_por_mes": null
  },
  "nombre": "Anikin",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "39541a757c9e32b67e17435440bad68ee849e244",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:39541a757c9e32b67e17435440bad68ee849e244"
  },
  "repo": "jerry08/Anikin"
 }

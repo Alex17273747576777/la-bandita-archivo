@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#smpanand/web-to-app-test",
   "sha256": "9fc3b4ad8d224b5dfea49522d26ef15ed89704305b0862fa7f81480464de9ef4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "smpanand--web-to-app-test",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "637d9aca8037861034ba5e9eafb6a066cd917f32",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:637d9aca8037861034ba5e9eafb6a066cd917f32"
  },
  "repo": "smpanand/web-to-app-test"
 }

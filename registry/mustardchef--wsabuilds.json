@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-12-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "Windows_10_2210.40000.7.0",
   "ultimo_push": "2026-09-15"
  },
  "descripcion": "Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with Google Play Store (MindTheGapps) and/or Magisk or KernelSU (root solutions) built in. ",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18862,
+  "stars": 18886,
   "stars_por_mes": null
  },
  "nombre": "WSABuilds",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a1aeab34709f4c83f8ad6eda7cfb0cbc8212fd34",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a1aeab34709f4c83f8ad6eda7cfb0cbc8212fd34"
  },
  "repo": "MustardChef/WSABuilds"
 }

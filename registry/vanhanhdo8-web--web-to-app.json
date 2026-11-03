@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#vanhanhdo8-web/web-to-app",
   "sha256": "db4b5a1f6dc9ce21cf9daf716abfe283c10b457b57a28f3909aeba9ad0b6fc58"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "vanhanhdo8-web--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ce5c6ddc92978eabbeebf2e7926356cc0a41a1f5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ce5c6ddc92978eabbeebf2e7926356cc0a41a1f5"
  },
  "repo": "vanhanhdo8-web/web-to-app"
 }

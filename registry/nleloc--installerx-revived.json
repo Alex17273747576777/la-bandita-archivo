@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-17",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-09-29"
+  "ultima_release": "26.10.563c6e0",
+  "ultimo_push": "2026-10-17"
  },
  "descripcion": "build as system package installer",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#nleloc/InstallerX-Revived",
   "sha256": "043c78d607f42de391341e9a0d90181389d758f18c5d40171d7aa01e829a0176"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "nleloc--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "563c6e0ef39ed5d38fb629d461ef65e7c4cd7ab8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:563c6e0ef39ed5d38fb629d461ef65e7c4cd7ab8"
  },
  "repo": "nleloc/InstallerX-Revived"
 }

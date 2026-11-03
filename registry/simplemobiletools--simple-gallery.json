@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2016-06-05",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0",
   "ultimo_push": "2024-08-18"
  },
  "descripcion": "A premium app for managing and editing your photos, videos, GIFs without ads",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4032,
+  "stars": 4034,
   "stars_por_mes": null
  },
  "nombre": "Simple-Gallery",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a3564013b7ac2828d3b0f11572ce225f094423ff",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a3564013b7ac2828d3b0f11572ce225f094423ff"
  },
  "repo": "SimpleMobileTools/Simple-Gallery",
  "web": "https://www.simplemobiletools.com"

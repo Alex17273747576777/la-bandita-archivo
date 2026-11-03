@@ -1,9 +1,9 @@
 # PIEZA 117 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/117-La-tienda-sobre-las-forjas-Komi-Store-y-el-fenomeno-de-las-20000-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `17fedf86860b5391329b64e4b1d3d702d6c18fcf76188f4b9b545d95ff5cfa08`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1639 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 1639 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 901 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/117-La-tienda-sobre-las-forjas-Komi-Store-y-el-fenomeno-de-las-20000-Facebook-La-Bandita-2026-10-29.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1639 caracteres ═══
 
@@ -46,13 +46,13 @@ Pulso de hoy sobre los 1 repos de la pieza: 1 vivos, 1 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 455 caracteres ═══
+═══ MENSAJE 3 de 4 · 462 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 117*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• komi-store/komi-store — ★20.248 (+158) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• komi-store/komi-store — ★20.287 (+197) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Thegoo-D/mpvRx",
   "sha256": "6d398d39c7934a7292741c7130a656dd7daf98f21c6d10620d7a6b64bea7252e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "thegoo-d--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "918e441ade0341fac0e0fa5c81d3ec86a32b2178",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:918e441ade0341fac0e0fa5c81d3ec86a32b2178"
  },
  "repo": "Thegoo-D/mpvRx"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.2.0",
   "ultimo_push": "2026-10-24"
  },
  "descripcion": "知序：内置云雀 AI 的 Android 通知管理器，跨应用批量控制通知类别、预设轮播、可预览与撤销的智能建议。Material 3 Expressive · Shizuku · DeepSeek Responses API",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "Notice",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fa3da1ab0e88b7595960e9398c57b11f1ff8b3f7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fa3da1ab0e88b7595960e9398c57b11f1ff8b3f7"
  },
  "repo": "Halo0sama/Notice"
 }

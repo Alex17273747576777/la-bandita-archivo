@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#topkincharl-hash/Kai",
   "sha256": "365327d643c6e1a59e8fa3e07593f395fb636851f96b742785bf74e2a7f73080"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "topkincharl-hash--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "279b54bfda0e5b802137bf0219cb9bb301f6be17",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:279b54bfda0e5b802137bf0219cb9bb301f6be17"
  },
  "repo": "topkincharl-hash/Kai"
 }

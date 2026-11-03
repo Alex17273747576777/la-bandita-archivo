@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#rasyid6466-oss/Kototoro",
   "sha256": "03951531140b8030ef0cd686ff8bb38211214512be974ff9f9e32a890ae1dbd2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "rasyid6466-oss--kototoro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c5339de033a6cf218b00fce93b642cb75fdc52d0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c5339de033a6cf218b00fce93b642cb75fdc52d0"
  },
  "repo": "rasyid6466-oss/Kototoro"
 }

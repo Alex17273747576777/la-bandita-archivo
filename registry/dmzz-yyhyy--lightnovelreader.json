@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-08-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.3.2",
   "ultimo_push": "2026-10-25"
  },
  "descripcion": "一款基于Compose的多数据源轻小说阅读器。支持epub导出，自定义背景样式，本地书架和更新提醒等功能。",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2310,
+  "stars": 2317,
   "stars_por_mes": null
  },
  "nombre": "LightNovelReader",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "49695ccfeab4207adf6ad476b1f48078f7bee2ac",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:49695ccfeab4207adf6ad476b1f48078f7bee2ac"
  },
  "repo": "dmzz-yyhyy/LightNovelReader",
  "web": "https://lnr.nariko.org"

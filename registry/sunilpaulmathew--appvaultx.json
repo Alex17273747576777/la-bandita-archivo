@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "beta-v0.1",
   "ultimo_push": "2026-05-19"
  },
  "descripcion": "Source code of AppVaultX, a high-performance app management powered by Shizuku",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 154,
+  "stars": 156,
   "stars_por_mes": null
  },
  "nombre": "AppVaultX",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "99ce7ff583c96fa0d3034b9873538acace42d7ec",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:99ce7ff583c96fa0d3034b9873538acace42d7ec"
  },
  "repo": "sunilpaulmathew/AppVaultX"
 }

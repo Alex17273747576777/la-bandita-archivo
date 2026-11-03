@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Ankit-159/keiyoushi-extensions-fork",
   "sha256": "f95ed7e9d586ff68f5642e05c671d9c6200d673136e9a180107f81de3a2c0188"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "83c3ac63e8ebf7cef3aadc78853201bfafb28cfa",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:83c3ac63e8ebf7cef3aadc78853201bfafb28cfa"
  },
  "repo": "Ankit-159/keiyoushi-extensions-fork"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-09-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0.0",
   "ultimo_push": "2026-06-23"
  },
  "descripcion": "",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3b23f4138d7f21dda356ce2b2c5b5215c42fd590",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3b23f4138d7f21dda356ce2b2c5b5215c42fd590"
  },
  "repo": "anyabot/LOModInstaller"
 }

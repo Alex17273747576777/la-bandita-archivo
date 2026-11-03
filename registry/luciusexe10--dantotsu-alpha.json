@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#luciusexe10/Dantotsu-Alpha",
   "sha256": "ff043c5f0fa09ee854f8db5ac486b0f612ed79a6cbceffe18a1a7104f2e25515"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "luciusexe10--dantotsu-alpha",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "887a4538ecbe6c00efd57a9d4beffb323d9eaf42",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:887a4538ecbe6c00efd57a9d4beffb323d9eaf42"
  },
  "repo": "luciusexe10/Dantotsu-Alpha"
 }

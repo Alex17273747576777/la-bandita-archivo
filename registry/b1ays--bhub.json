@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2024-06-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0",
   "ultimo_push": "2025-10-01"
  },
  "descripcion": "Download, Install and Share mods easily",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 366,
+  "stars": 368,
   "stars_por_mes": null
  },
  "nombre": "BHub",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "be574a1578d692802fbc658424f954e1d04e6eee",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:be574a1578d692802fbc658424f954e1d04e6eee"
  },
  "repo": "B1ays/BHub",
  "web": "https://t.me/BHub_app"

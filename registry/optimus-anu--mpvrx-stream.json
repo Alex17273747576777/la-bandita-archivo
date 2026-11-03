@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-10",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.7.3",
   "ultimo_push": "2026-10-15"
  },
  "descripcion": "mpv player with streaming capabilities.",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#optimus-anu/mpvRx-Stream",
   "sha256": "a9178fa9bce3e403c0185d29b052627df353b7b14e732ad3b456bfc195202d52"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "optimus-anu--mpvrx-stream",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6aa7c1720a6e423240003b958efcc8bcb7c6518a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6aa7c1720a6e423240003b958efcc8bcb7c6518a"
  },
  "repo": "optimus-anu/mpvRx-Stream"
 }

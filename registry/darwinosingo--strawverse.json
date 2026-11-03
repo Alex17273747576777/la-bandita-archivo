@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#DarwinOsingo/StrawVerse",
   "sha256": "b6227faccc795a180eee730d319f6837240ba4f3684edeb45cb6cc528985d523"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "68f5ab83c12c52c5a060ee716f36ff3832396325",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:68f5ab83c12c52c5a060ee716f36ff3832396325"
  },
  "repo": "DarwinOsingo/StrawVerse"
 }

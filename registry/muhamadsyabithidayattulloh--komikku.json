@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MuhamadSyabitHidayattulloh/komikku",
   "sha256": "6fb31de684ef7b26ac82e42e5e7832916f8c0f0bcdb0214b7613dab5613a4d27"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "muhamadsyabithidayattulloh--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "dc7dd8045e31cb97dc6b66b98ee3e78e6442f56d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dc7dd8045e31cb97dc6b66b98ee3e78e6442f56d"
  },
  "repo": "MuhamadSyabitHidayattulloh/komikku"
 }

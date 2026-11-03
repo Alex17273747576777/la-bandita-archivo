@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#anmol-sunstone/servers",
   "sha256": "0322da9ae9faa2cc11d3225cc1fdbee8fee83f45c4ee35eac3c3097585a3c9b8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "anmol-sunstone--servers",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
  },
  "repo": "anmol-sunstone/servers"
 }

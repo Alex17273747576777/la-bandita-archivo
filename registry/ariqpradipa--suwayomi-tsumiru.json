@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ariqpradipa/Suwayomi-Tsumiru",
   "sha256": "e0b16d2c3a0c57aa8b6f84d0bb4d6ebb7900d1c0f6d31aa4777b1e9399ce26d6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ariqpradipa--suwayomi-tsumiru",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5c125dc8d13e2968a01933b7c04d5c280ee4b2d1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5c125dc8d13e2968a01933b7c04d5c280ee4b2d1"
  },
  "repo": "ariqpradipa/Suwayomi-Tsumiru"
 }

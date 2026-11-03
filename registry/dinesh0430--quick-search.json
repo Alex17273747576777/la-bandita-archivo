@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#dinesh0430/quick-search",
   "sha256": "d947d1f2404bf0659526727146e9fe00c9f237752ae9da4bc4226a4d83b8314b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dinesh0430--quick-search",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bff9513f0bd50e309c0b7c12bcbdf31d7598feda",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bff9513f0bd50e309c0b7c12bcbdf31d7598feda"
  },
  "repo": "dinesh0430/quick-search"
 }

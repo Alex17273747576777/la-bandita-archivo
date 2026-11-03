@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#CyberSys/anythingllm-mobile",
   "sha256": "d9844afa217e0003e8be8fbee6a8e12ab5d5a4a05ad6b3f3d7a56cda305c34f3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "cybersys--anythingllm-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1cc82639fdc0c1c0a43fb15e4fb7c2f1ff8326b1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1cc82639fdc0c1c0a43fb15e4fb7c2f1ff8326b1"
  },
  "repo": "CyberSys/anythingllm-mobile"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-23",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "0.1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Dual pane Android file manager with focus on APKs",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 475,
+  "stars": 499,
   "stars_por_mes": null
  },
  "nombre": "MP-Manager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3821769d64454662d86c24f49e32cafa296250a4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3821769d64454662d86c24f49e32cafa296250a4"
  },
  "repo": "AbdurazaaqMohammed/MP-Manager",
  "web": "https://abdurazaaqmohammed.github.io/mpmanager"

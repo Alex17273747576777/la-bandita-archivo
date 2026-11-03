@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-10",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.2.0",
   "ultimo_push": "2026-09-16"
  },
  "descripcion": "An Android app for playing Windows games from Steam, Epic Games, GOG, and more o",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#teldommm/WinLiteWn",
   "sha256": "c5cb2a94c0af258c2bea48728d1e81df106d33f2438e2be912ca721eed4ec6d4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "03ffbd7bd0caff61520ebadb8e001b57305c2c97",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:03ffbd7bd0caff61520ebadb8e001b57305c2c97"
  },
  "repo": "teldommm/WinLiteWn"
 }

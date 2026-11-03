@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": null,
+  "estado": "vivo",
+  "release_en": "2026-09-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "7.1.1-byd.5",
   "ultimo_push": "2026-10-08"
  },
  "descripcion": "Retired BYD fork of MicroG-RE. Maps compatibility fixes merged upstream in PR #272; use official MicroG-RE 7.2.1.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2c8035a41c06d93765ce3c82050a082305bb8d96",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2c8035a41c06d93765ce3c82050a082305bb8d96"
  },
  "repo": "fangkampanat/MicroG-RE-BYD",
  "web": "https://Morphe.software"

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "build-3",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6923fbaf9e2242d47dc26f69b239f1c11f1295a0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6923fbaf9e2242d47dc26f69b239f1c11f1295a0"
  },
  "repo": "FDzaki-dev/LagFix"
 }

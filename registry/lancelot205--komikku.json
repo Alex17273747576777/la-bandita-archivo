@@ -1,10 +1,10 @@
 {
  "actividad": {
-  "estado": "dormido",
+  "estado": "vivo",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-04-16"
+  "ultimo_push": "2026-10-19"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Lancelot205/komikku",
   "sha256": "9df0010839c5bed43a0b22daf70ed3cb89f464c73ba7fd6dab8591547848b0a8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lancelot205--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1656575e8fdaaef010c652f9758130c2a01d8890",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1656575e8fdaaef010c652f9758130c2a01d8890"
  },
  "repo": "Lancelot205/komikku"
 }

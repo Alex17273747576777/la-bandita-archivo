@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#peat80/MicroG-RE-German",
   "sha256": "58af34ebf9e50b3cd74572d4e162d48506b388f506a05f76294eea90fed1abac"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "peat80--microg-re-german",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2eb97184244313ed2e1e43e56b8baad6f3b4160d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2eb97184244313ed2e1e43e56b8baad6f3b4160d"
  },
  "repo": "peat80/MicroG-RE-German"
 }

@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "855f6c731b7d70ae1b9ba3c0a711de8c7e81fbee",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:855f6c731b7d70ae1b9ba3c0a711de8c7e81fbee"
  },
  "repo": "KFK-TECH-SOKUTIOONS/Vectras-VM-Android",
  "web": "https://vectras.vercel.app"

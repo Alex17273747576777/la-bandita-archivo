@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2026-10-09",
   "semantica_http": 200,
-  "ultima_release": "1.31.0",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "galaxy-optimization-advanced-tool",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "bcaa26c05f54ff0d120fca5ff0f33914604ef8bf",
+  "commit": "b1bcdf3ade80e1f5ac75ae00e788f9a1e235e0c9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b1bcdf3ade80e1f5ac75ae00e788f9a1e235e0c9"
  },
  "repo": "lab-ok/galaxy-optimization-advanced-tool"
 }

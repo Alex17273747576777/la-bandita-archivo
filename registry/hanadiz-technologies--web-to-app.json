@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Hanadiz-Technologies/web-to-app",
   "sha256": "a2135585a74ae955fc33c978c3cc120b117e5a2a87d90d12d2be5742c07b0c04"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hanadiz-technologies--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d888a7cc2d3f927e3e2a38f3c41a0a99d9b86748",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d888a7cc2d3f927e3e2a38f3c41a0a99d9b86748"
  },
  "repo": "Hanadiz-Technologies/web-to-app"
 }

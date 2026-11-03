@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2021-11-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "release/v1.1-beta3",
   "ultimo_push": "2026-04-22"
  },
  "descripcion": "Simple, easy to use Podcast player app written in Flutter and Dart.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 626,
+  "stars": 627,
   "stars_por_mes": null
  },
  "nombre": "anytime_podcast_player",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "23b2978e4692cebbfddce211d479970d575d479b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:23b2978e4692cebbfddce211d479970d575d479b"
  },
  "repo": "amugofjava/anytime_podcast_player"
 }

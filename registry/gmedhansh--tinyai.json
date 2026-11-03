@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#GMedhansh/TinyAI",
   "sha256": "276da0c77e57c1cd2a36613f0c2bfc44b6cc2dd0f37167677b1ec0771901b3eb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "gmedhansh--tinyai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2edbb663d15d6819ba59b7a894ef1a3529c9e365",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2edbb663d15d6819ba59b7a894ef1a3529c9e365"
  },
  "repo": "GMedhansh/TinyAI"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#derais/mihon-scrolltap-workaround",
   "sha256": "d6025ceafacf8ce5c92f73d27945635e1a5ec6f5c2195a3813923d8e5dc5084b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "derais--mihon-scrolltap-workaround",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1b064c709a03b53074c5ffa38d36952c25d1a0c5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1b064c709a03b53074c5ffa38d36952c25d1a0c5"
  },
  "repo": "derais/mihon-scrolltap-workaround"
 }

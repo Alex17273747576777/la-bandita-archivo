@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#6rz6/Artificial-Intelligence-Directory-2023-updated-AIs",
   "sha256": "bfec1ced54850e257e02b059dafd7c8672ae4a47924b5758f77197b33a85e017"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "117275b5b42d223eadb3adc1445e765e39e3b4da",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:117275b5b42d223eadb3adc1445e765e39e3b4da"
  },
  "repo": "6rz6/Artificial-Intelligence-Directory-2023-updated-AIs"
 }

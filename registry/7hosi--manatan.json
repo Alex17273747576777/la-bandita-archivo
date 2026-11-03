@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#7hosi/Manatan",
   "sha256": "462e93652381bb6ee8c6dba174935e335aaf87a88fa0ba9c731e4811ee0c41e4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "7hosi--manatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "88310f5e73b8826ace72dbc2eb4b4eb7f09ab5ad",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:88310f5e73b8826ace72dbc2eb4b4eb7f09ab5ad"
  },
  "repo": "7hosi/Manatan"
 }

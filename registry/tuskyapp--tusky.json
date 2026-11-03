@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2017-02-07",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0-alpha.1",
   "ultimo_push": "2025-05-23"
  },
  "descripcion": "An Android client for the microblogging server Mastodon",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "43ae0bb4556392393a3d759ce42a93f3a003e83a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:43ae0bb4556392393a3d759ce42a93f3a003e83a"
  },
  "repo": "tuskyapp/Tusky",
  "web": "https://tusky.app"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Dutaeko/miko",
   "sha256": "c37ef44de454d37c1f935578e0e91803fc53d9e54a2e3355e000f9c44df16018"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8739fe29e51b901d6a051e4b5cefe5d15fa6eb79",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8739fe29e51b901d6a051e4b5cefe5d15fa6eb79"
  },
  "repo": "Dutaeko/miko"
 }

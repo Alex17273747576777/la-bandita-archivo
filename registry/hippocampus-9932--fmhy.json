@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Hippocampus-9932/FMHY",
   "sha256": "43558e6283353e30af61a668342667605553ec7669b2fdac4e78d8dbbd63b1cb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "11c578ded2155d07d0548918da7b6c0f37984b6c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:11c578ded2155d07d0548918da7b6c0f37984b6c"
  },
  "repo": "Hippocampus-9932/FMHY"
 }

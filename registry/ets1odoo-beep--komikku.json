@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ets1odoo-beep/komikku",
   "sha256": "ef126651df1a657b31f02399582e637511dc9e839e9d6f411557bd2c8165fc61"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ets1odoo-beep--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3fa1cf9e0714c9440d24a52e3cc7fc19de56ad2e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3fa1cf9e0714c9440d24a52e3cc7fc19de56ad2e"
  },
  "repo": "ets1odoo-beep/komikku"
 }

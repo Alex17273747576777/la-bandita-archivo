@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-11-01",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "FreeFile-Formal-Release",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "FreeFile is a Kotlin and Jetpack Compose-based Android file manager with dual-pane navigation, Root/Shizuku support, remote storage, terminal integration, scripting, APK tools and so on.",
  "evidencia": {
@@ -21,11 +21,11 @@
  "id": "metxstudio--freefile",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1c87f2bce9bccaf261874dbf147c1f5a70c88909",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1c87f2bce9bccaf261874dbf147c1f5a70c88909"
  },
  "repo": "MetxStudio/FreeFile"
 }

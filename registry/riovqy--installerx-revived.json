@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Riovqy/InstallerX-Revived",
   "sha256": "d65509b1d45ed606c43309316affa13bcadda86b8411c5d0a4f05f2ef69e339b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "riovqy--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fcffc5a9e054bdd220e4b5895baa0b860524ec7d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fcffc5a9e054bdd220e4b5895baa0b860524ec7d"
  },
  "repo": "Riovqy/InstallerX-Revived"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-07-27",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "The cross-platform open-source app built for handwriting",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4992,
+  "stars": 5009,
   "stars_por_mes": null
  },
  "nombre": "saber",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fa1006ec02ac816384e287aa10cb000b4aed65d5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fa1006ec02ac816384e287aa10cb000b4aed65d5"
  },
  "repo": "saber-notes/saber",
  "web": "https://saber.adil.hanney.org"

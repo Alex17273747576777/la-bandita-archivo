@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#h4vok-git/Kototoro-legacy",
   "sha256": "5d798c5e9238893c6c22e471b5a7c636826430bcf2dbfbd032ea593e5bbde4f9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "h4vok-git--kototoro-legacy",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "65d2cc2e46001d68458100ad621649b250d94f86",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:65d2cc2e46001d68458100ad621649b250d94f86"
  },
  "repo": "h4vok-git/Kototoro-legacy"
 }

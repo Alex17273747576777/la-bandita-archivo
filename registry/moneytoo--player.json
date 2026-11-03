@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-09-11",
+  "release_en": "2020-11-16",
   "semantica_http": 200,
-  "ultima_release": "v0.217",
+  "ultima_release": "v0.4",
   "ultimo_push": "2026-10-22"
  },
  "descripcion": "▶ Simple and lightweight, yet polished and powerful Android video player based on ExoPlayer",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2774,
+  "stars": 2787,
   "stars_por_mes": null
  },
  "nombre": "Player",
@@ -39,7 +39,7 @@
   "commit": "b74285ca8a2fc6cf1ad604e34781a0a07b0384c0",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b74285ca8a2fc6cf1ad604e34781a0a07b0384c0"
  },
  "repo": "moneytoo/Player",
  "web": "https://play.google.com/store/apps/details?id=com.brouken.player"

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-05-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v3",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "A toolkit for managing Play Integrity & System Environment",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2806,
+  "stars": 2815,
   "stars_por_mes": null
  },
  "nombre": "Integrity-Box",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a5e3154cd1773065415b46cd2896647f4c0bf2ab",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a5e3154cd1773065415b46cd2896647f4c0bf2ab"
  },
  "repo": "MeowDump/Integrity-Box",
  "web": "https://meowblog.github.io/Articles/#play-integrity"

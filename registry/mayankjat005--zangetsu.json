@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Mayankjat005/Zangetsu",
   "sha256": "cc2b24075842233605a28c42b3d25c11bb47bc82a31ac2f33af3d9b1ab73bcfb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d8e739f833c88a95814ed6f06ff5d60b0e43d99a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d8e739f833c88a95814ed6f06ff5d60b0e43d99a"
  },
  "repo": "Mayankjat005/Zangetsu"
 }

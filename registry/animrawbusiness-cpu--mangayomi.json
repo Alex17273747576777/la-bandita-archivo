@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#animrawbusiness-cpu/mangayomi",
   "sha256": "6c92e0302151a231e1eb2f0cd17b40463cbfabc9b29d3bda14c24a6334b63156"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "animrawbusiness-cpu--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6d7976a318cc857dd7903cb733f9615c406e21c7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6d7976a318cc857dd7903cb733f9615c406e21c7"
  },
  "repo": "animrawbusiness-cpu/mangayomi"
 }

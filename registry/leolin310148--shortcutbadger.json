@@ -21,25 +21,25 @@
  "id": "leolin310148--shortcutbadger",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7325,
+  "stars": 7324,
   "stars_por_mes": null
  },
  "nombre": "ShortcutBadger",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6d4ce808b0a1abe0ac31dc93d46a78ebecdebfbe",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6d4ce808b0a1abe0ac31dc93d46a78ebecdebfbe"
  },
  "repo": "leolin310148/ShortcutBadger"
 }

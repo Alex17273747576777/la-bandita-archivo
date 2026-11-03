@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#DominusCube/mangayomi",
   "sha256": "7a88d92f9198bed2cdb99c1606cb9e4569d4b1266265981eb63fa8be1d0e71d7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dominuscube--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c4075e2cd966f2a279505d24e2cd74c30f1fb7c4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c4075e2cd966f2a279505d24e2cd74c30f1fb7c4"
  },
  "repo": "DominusCube/mangayomi"
 }

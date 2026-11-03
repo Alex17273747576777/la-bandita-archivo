@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#TheUnknownEngima/hikari",
   "sha256": "e06cd4af651e9fe144be185edbb178bb2f2dc4c6e0f402b198bcb36229ae0584"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "theunknownengima--hikari",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "afff452b0e6b174e2661e10ba425d9d92e242e2e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:afff452b0e6b174e2661e10ba425d9d92e242e2e"
  },
  "repo": "TheUnknownEngima/hikari"
 }

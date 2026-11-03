@@ -21,11 +21,11 @@
  "id": "iamseyhmus7--servers",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d49d3338cf23a105b00ac9743f8333e4a973cdbc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d49d3338cf23a105b00ac9743f8333e4a973cdbc"
  },
  "repo": "iamseyhmus7/servers",
  "web": "https://modelcontextprotocol.io"

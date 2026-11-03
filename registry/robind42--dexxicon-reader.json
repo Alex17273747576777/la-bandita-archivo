@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-06"
+  "ultimo_push": "2026-10-18"
  },
  "descripcion": "Dexxicon Reader for audiobooks, eBooks, and Comics (including Manga)",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#RobinD42/dexxicon-reader",
   "sha256": "dd30c95da0bdff6bc3a8bcb2a1f0634a4b56e1e7322950df7347a7d258e1e6c4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "robind42--dexxicon-reader",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849"
  },
  "repo": "RobinD42/dexxicon-reader"
 }

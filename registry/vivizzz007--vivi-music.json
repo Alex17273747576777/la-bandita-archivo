@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-05-29",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-19"
+  "ultima_release": "v2.0.5",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Vivi-Music is an expressive Material 3–based YouTube Music client for Android.",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "vivizzz007--vivi-music",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3937,
+  "stars": 3964,
   "stars_por_mes": null
  },
  "nombre": "vivi-music",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b10bf9198dc4fc3b856737e6be41a6b1be37d42a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b10bf9198dc4fc3b856737e6be41a6b1be37d42a"
  },
  "repo": "vivizzz007/vivi-music",
  "web": "https://vivimusic.mkmdevilmi.workers.dev/"

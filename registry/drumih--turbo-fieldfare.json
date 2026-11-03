@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1",
   "ultimo_push": "2026-10-26"
  },
  "descripcion": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7101,
+  "stars": 7116,
   "stars_por_mes": null
  },
  "nombre": "turbo-fieldfare",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d994a65da9080f50d083ec22805e4f30702b5623",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d994a65da9080f50d083ec22805e4f30702b5623"
  },
  "repo": "drumih/turbo-fieldfare"
 }

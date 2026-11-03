@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-20",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0.40",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "荣耀临时 root 工具，目前仅在 Magic9 Pro Max 测试，仅用于个人研究。Experimental temporary-root research tool for Honor (tested on Magic9 Pro Max - WKL-AN20/WKL-AN80).",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "superboyyy--honeclick",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 22,
+  "stars": 27,
   "stars_por_mes": null
  },
  "nombre": "HOneClick",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0ede55620b5fd782c4fbce296c0864897e347756",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0ede55620b5fd782c4fbce296c0864897e347756"
  },
  "repo": "superboyyy/HOneClick"
 }

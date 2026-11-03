@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "Beta",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "AI操作手机by潘纸盒",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1250ba77171b5c8b74f8e6c78e466f89c4abe381",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1250ba77171b5c8b74f8e6c78e466f89c4abe381"
  },
  "repo": "panzih/AI-phone-use-bypanzhihe"
 }

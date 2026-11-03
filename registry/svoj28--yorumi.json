@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#svoj28/Yorumi",
   "sha256": "546ba5c769003c814a4ad23a23c42ee5dcdc4ed6480d8e55b12c0966860ba09f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "svoj28--yorumi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3a179b6605d54c1213bb4d5c0c1a9359f5204126",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3a179b6605d54c1213bb4d5c0c1a9359f5204126"
  },
  "repo": "svoj28/Yorumi"
 }

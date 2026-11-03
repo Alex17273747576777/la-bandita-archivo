@@ -3,7 +3,7 @@
   "estado": "vivo",
   "release_en": "2026-10-27",
   "semantica_http": 200,
-  "ultima_release": "build-13",
+  "ultima_release": "build-4",
   "ultimo_push": "2026-10-27"
  },
  "descripcion": "",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "94f3c643fb24c6ed1911116171892172e79e48cd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:94f3c643fb24c6ed1911116171892172e79e48cd"
  },
  "repo": "fireworksordie/shield-under-scanner"
 }

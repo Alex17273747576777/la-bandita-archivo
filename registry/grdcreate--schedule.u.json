@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-16",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.5",
   "ultimo_push": "2026-10-16"
  },
  "descripcion": "Tiny Android scheduler that really switches your phone - internet kill switch, DND, ringer, brightness, flashlight. No root needed. 121 KB, Gradle-free build.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "76ce50bac247193e85425802862fb9cb9c53dcdb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:76ce50bac247193e85425802862fb9cb9c53dcdb"
  },
  "repo": "grdcreate/schedule.u"
 }

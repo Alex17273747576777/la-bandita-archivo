@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#nihongodaisuki/Manatan",
   "sha256": "6c49ab9e3e74cc495876237c5e022fa8b98f909b07f0fb642a53d2b0d4f50b7b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "nihongodaisuki--manatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ba35913c93a0ecb79a07edc314c5f6d4f5fe54fd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ba35913c93a0ecb79a07edc314c5f6d4f5fe54fd"
  },
  "repo": "nihongodaisuki/Manatan"
 }

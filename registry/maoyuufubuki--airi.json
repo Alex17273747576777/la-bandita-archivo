@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MaoYuUFubuKi/airi",
   "sha256": "3582613942823d80fa6e59e6930611cd09ae31cac4a80eec48ea1f02a3bcbc4e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "maoyuufubuki--airi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8f4909db3edadba20abb1e8564359f16ea5dcb48",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8f4909db3edadba20abb1e8564359f16ea5dcb48"
  },
  "repo": "MaoYuUFubuKi/airi"
 }

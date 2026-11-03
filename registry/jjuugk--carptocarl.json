@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-25",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0.2",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "让 Android 手机把车机当成无线显示端：把本机 CarLife+ 的码流直通投到支持无线车机互联的车机上（非官方实验项目，需自备车机与手机）",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "jjuugk--carptocarl",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28,
+  "stars": 59,
   "stars_por_mes": null
  },
  "nombre": "CarPToCarL",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "487e61764ba89ef67bb979eea022641e4cb9328b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:487e61764ba89ef67bb979eea022641e4cb9328b"
  },
  "repo": "jjuugk/CarPToCarL"
 }

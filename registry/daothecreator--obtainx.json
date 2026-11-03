@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Daothecreator/ObtainX",
   "sha256": "cefc2c1b8e63624e1a35457aa8ea8a1d21a8162bb1e5373241359ce3b860e1d9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "daothecreator--obtainx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9a5d5bd5b537a460fafede077dbdaed820e1a9ba",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9a5d5bd5b537a460fafede077dbdaed820e1a9ba"
  },
  "repo": "Daothecreator/ObtainX"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SegFault03/kuukiyomi",
   "sha256": "72347caaddba037d60510ac9404555104c08f36c10554fd010d145ab18aa0198"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "segfault03--kuukiyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3c51424eda5fb3d75a9f8bb25a66fe325e235941",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3c51424eda5fb3d75a9f8bb25a66fe325e235941"
  },
  "repo": "SegFault03/kuukiyomi"
 }

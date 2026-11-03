@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2026-10-30",
   "semantica_http": 200,
-  "ultima_release": "v1.0.7",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3605,
+  "stars": 6873,
   "stars_por_mes": null
  },
  "nombre": "dsh-Go",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "08d76f52f347823dca34161b7f1dd4138b5925d4",
+  "commit": "8e36cdbf3b151ea819a53ecd88f7be91b497254a",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8e36cdbf3b151ea819a53ecd88f7be91b497254a"
  },
  "repo": "ccch1mneyyy/dsh-Go"
 }

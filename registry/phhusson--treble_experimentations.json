@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2018-05-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v18",
   "ultimo_push": "2025-01-27"
  },
  "descripcion": "Notes about tinkering with Android Project Treble",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b061bfc0405368c66fef2633e6db2dbc4552d783",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b061bfc0405368c66fef2633e6db2dbc4552d783"
  },
  "repo": "phhusson/treble_experimentations"
 }

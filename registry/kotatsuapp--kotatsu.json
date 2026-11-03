@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8943,
+  "stars": 8951,
   "stars_por_mes": null
  },
  "nombre": "Kotatsu",
@@ -40,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "34f6e5232bf7f0bcdf8f3fbddb986697518e82a4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:34f6e5232bf7f0bcdf8f3fbddb986697518e82a4"
  },
  "repo": "KotatsuApp/Kotatsu",
  "web": "https://kotatsu.app"

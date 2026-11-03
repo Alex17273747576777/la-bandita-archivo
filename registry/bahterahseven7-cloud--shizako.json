@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#bahterahseven7-cloud/Shizako",
   "sha256": "aebb1a5cb011f62eff75f7e0c6fc315436f56f1dd60376c66405495c22ca4730"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "bahterahseven7-cloud--shizako",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e4ac27ce368f3b0893a38cf02ab2f69c2a0b0475",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e4ac27ce368f3b0893a38cf02ab2f69c2a0b0475"
  },
  "repo": "bahterahseven7-cloud/Shizako"
 }

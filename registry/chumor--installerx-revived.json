@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Chumor/InstallerX-Revived",
   "sha256": "87bc9ba070a06dbf0a0b6a4d68f31837b7d22b6b4792f134e4895bb9696881ad"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "chumor--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f6ffcd8ea84e629bc14160414e7343f07a4d3d76",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f6ffcd8ea84e629bc14160414e7343f07a4d3d76"
  },
  "repo": "Chumor/InstallerX-Revived"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#agueloedzel8-lang/Usagi",
   "sha256": "dc37dbad654d1c53ccdb444fc0ca86bc6639e01d0f7027cd200a11b64e204d72"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "agueloedzel8-lang--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a979ec66fefaed9b11ce45c993ff415f9d324d51",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a979ec66fefaed9b11ce45c993ff415f9d324d51"
  },
  "repo": "agueloedzel8-lang/Usagi"
 }

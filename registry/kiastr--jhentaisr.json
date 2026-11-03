@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-02-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "Beta",
   "ultimo_push": "2026-07-24"
  },
  "descripcion": "An e-hentai app that can use Aicoloring＆anime4k SR \\ 一个可使用超分辨率和AI上色(anime4k＆ddcolor)的ehentai漫画阅读应用程序",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ccacef6a197b7b5474c8b714bc564c80d4d5f25a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ccacef6a197b7b5474c8b714bc564c80d4d5f25a"
  },
  "repo": "Kiastr/JhentaiSR"
 }

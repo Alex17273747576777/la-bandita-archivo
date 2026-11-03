@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#lotfinity/Kai-lotfinity-fork",
   "sha256": "d0f385d3f34e2d05ccec4f51e7509fec4f869a1a18d41df9f074b227a2f07571"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lotfinity--kai-lotfinity-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e1622e1a6d2e90fb2fd71582335e62a2176cd605",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e1622e1a6d2e90fb2fd71582335e62a2176cd605"
  },
  "repo": "lotfinity/Kai-lotfinity-fork"
 }

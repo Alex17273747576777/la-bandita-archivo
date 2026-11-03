@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2026-03-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "26.03.17f3f0e7",
   "ultimo_push": "2026-03-30"
  },
  "descripcion": "More Expressive InstallerX !",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AndroidAppsUsedByMyself/InstallerX-Revived",
   "sha256": "ccd5311978b440378cb4538d9327bd21ee54f23d8bd098abd6b9258c774548c5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "androidappsusedbymyself--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "86e8a58ef1ed9119d0457c1cd2c850bc2667996d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:86e8a58ef1ed9119d0457c1cd2c850bc2667996d"
  },
  "repo": "AndroidAppsUsedByMyself/InstallerX-Revived"
 }

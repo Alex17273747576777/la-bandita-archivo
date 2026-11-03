@@ -1,9 +1,9 @@
 # PIEZA 130 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/130-La-TV-limpia-Aerial-Plume-y-las-estrellas-que-corren-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `f042ecf746edea3746ccfbd1eaf1dad597b4d65d5005565715a38d5b8a70157e`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1810 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 1810 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 878 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 1 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/130-La-TV-limpia-Aerial-Plume-y-las-estrellas-que-corren-Facebook-La-Bandita-2026-10-29.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1810 caracteres ═══
 
@@ -48,14 +48,14 @@ Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 2 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 561 caracteres ═══
+═══ MENSAJE 3 de 4 · 560 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 130*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• pengchujin/aerial-tv — ★8.941 (+1217) · empujó en las últimas horas · MIT · última release v1.79 (2-nov-2026)
-• aradhyas8/Plume_Launcher — ★315 (+46) · empujó en las últimas horas · GPL-3.0 · última release v1.6 (26-oct-2026)
+• pengchujin/aerial-tv — ★9.263 (+1539) · empujó en las últimas horas · MIT · última release v1.81 (3-nov-2026)
+• aradhyas8/Plume_Launcher — ★321 (+52) · empujó en las últimas horas · GPL-3.0 · última release v1.7 (3-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

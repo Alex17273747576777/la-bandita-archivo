@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#asmer667/mpvRx-7",
   "sha256": "d34171fdb71e1cda0728641edc387221426b70f8baa8b3fa325537fa7ca0c1ff"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "asmer667--mpvrx-7",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9c36ebe2ba997a6489af559d7f8e759f1508a3bc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9c36ebe2ba997a6489af559d7f8e759f1508a3bc"
  },
  "repo": "asmer667/mpvRx-7"
 }

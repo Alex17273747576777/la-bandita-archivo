@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mfk94/Yorumi",
   "sha256": "8c32b472d0c8f29a9097be0335927296ce6da42b1b6a57d7fd917ecc8e95b0ed"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8994f973fdaeceaf01094a9b7554bdd68b5ce14a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8994f973fdaeceaf01094a9b7554bdd68b5ce14a"
  },
  "repo": "mfk94/Yorumi"
 }

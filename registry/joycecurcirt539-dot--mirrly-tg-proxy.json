@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-27",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Нативный высокопроизводительный MTProto & Cloudflare WebSocket прокси-сервер для локального проксирования трафика Telegram через CloudFlare",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 313,
+  "stars": 317,
   "stars_por_mes": null
  },
  "nombre": "Mirrly-TG-Proxy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "59e9415be08cb3ba896533574db42c2658ee6c18",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:59e9415be08cb3ba896533574db42c2658ee6c18"
  },
  "repo": "joycecurcirt539-dot/Mirrly-TG-Proxy",
  "web": "https://joycecurcirt539-dot.github.io/Mirrly-TG-Proxy-Web/"

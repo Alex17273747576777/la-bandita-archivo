@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#emanuelaugusthuscastroferreira-png/Kai",
   "sha256": "d655d6ee6c70f74132587ab3048c7adf517d1cd29155784b446d5e29d5b3d348"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "emanuelaugusthuscastroferreira-png--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8da26553ad1c1c1ad0c4576330402e514fb48df7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8da26553ad1c1c1ad0c4576330402e514fb48df7"
  },
  "repo": "emanuelaugusthuscastroferreira-png/Kai"
 }

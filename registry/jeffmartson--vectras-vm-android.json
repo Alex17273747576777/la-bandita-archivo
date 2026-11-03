@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jeffmartson/Vectras-VM-Android",
   "sha256": "4cc2769fd02f1dd713ec8067dfc10c70d1f22d3fca01ae66ef51839b566f2aa2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jeffmartson--vectras-vm-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d521faf44ac0db303885d5c646a4daa8f83535ff",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d521faf44ac0db303885d5c646a4daa8f83535ff"
  },
  "repo": "jeffmartson/Vectras-VM-Android"
 }

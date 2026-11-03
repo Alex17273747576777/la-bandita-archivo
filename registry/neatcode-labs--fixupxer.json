@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-06-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.3.0",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "Android URL cleaner: strips tracking, rewrites social links for better previews, no permissions, no network. GPL-3.0-or-later.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1c460d539fbac3d75c3eb25cf938249211e0c20f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1c460d539fbac3d75c3eb25cf938249211e0c20f"
  },
  "repo": "NeatCode-Labs/fixupxer",
  "web": "https://fixupxer.com"

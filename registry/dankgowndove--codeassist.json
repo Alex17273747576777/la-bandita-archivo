@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Dankgowndove/CodeAssist",
   "sha256": "2ed9336ed0ff63b96248a45ad1a6900792475727d1c1b999749c9a5cf6c5cebe"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dankgowndove--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4c4029aaa78817893f36b409b0cbeaa25fd13afa",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4c4029aaa78817893f36b409b0cbeaa25fd13afa"
  },
  "repo": "Dankgowndove/CodeAssist"
 }

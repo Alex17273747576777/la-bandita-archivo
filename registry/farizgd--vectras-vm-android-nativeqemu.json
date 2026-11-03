@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "native-qemu-8",
   "ultimo_push": "2026-10-07"
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU (but skips the pro",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#FarizGD/Vectras-VM-Android-NativeQemu",
   "sha256": "04dee451a8563ffe537ff37591d0a619d0df69ff9fed572ae39fb734308fcb9f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "farizgd--vectras-vm-android-nativeqemu",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9979f3e734ab8a98dce0e7d8b59f52bdd897e890",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9979f3e734ab8a98dce0e7d8b59f52bdd897e890"
  },
  "repo": "FarizGD/Vectras-VM-Android-NativeQemu"
 }

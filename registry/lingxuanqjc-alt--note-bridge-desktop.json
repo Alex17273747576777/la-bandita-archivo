@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-08",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-09-09"
  },
  "descripcion": "Windows 笔记导出与迁移工具：七平台适配、四格式导出、离线阅读，明确验证范围与失败状态。",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1020,
+  "stars": 1026,
   "stars_por_mes": null
  },
  "nombre": "note-bridge-desktop",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e2f18432a29d8f876679feab5792facc28bfb612",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e2f18432a29d8f876679feab5792facc28bfb612"
  },
  "repo": "lingxuanqjc-alt/note-bridge-desktop",
  "web": "https://github.com/lingxuanqjc-alt/note-bridge-desktop#readme"

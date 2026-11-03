@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#noureldinhadeeryehia-alt/WinNative",
   "sha256": "90743b8eb0558d86ae0c4f98b24b2227f6bd78d0198a8055772eaaa2d51d8ee1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "noureldinhadeeryehia-alt--winnative",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c23f719c2a74ca2c2e9fa28bfc78682bc61e0d67",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c23f719c2a74ca2c2e9fa28bfc78682bc61e0d67"
  },
  "repo": "noureldinhadeeryehia-alt/WinNative"
 }

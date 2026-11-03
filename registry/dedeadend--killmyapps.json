@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-06-21",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-09-15"
  },
  "descripcion": "Android app killer using Root & Shizuku to save battery, boost performance and enhance privacy.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 128,
+  "stars": 129,
   "stars_por_mes": null
  },
  "nombre": "KillMyApps",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "58a33dbeb73b133ca6e930538a51e855097a4d1d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:58a33dbeb73b133ca6e930538a51e855097a4d1d"
  },
  "repo": "dedeadend/KillMyApps",
  "web": "https://dedeadend.github.io/projects/killmyapps/"

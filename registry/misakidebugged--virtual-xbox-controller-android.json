@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-21",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v3.0.0",
   "ultimo_push": "2026-10-21"
  },
  "descripcion": "An app that lets you turn your HID/Xinput generic controller as well as steam controllers into a system-wide Xbox 360 controller using Shizuku",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "Virtual-Xbox-Controller-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a921429ce59bd7609523fc095e4acc878dcc6fd4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a921429ce59bd7609523fc095e4acc878dcc6fd4"
  },
  "repo": "misakidebugged/Virtual-Xbox-Controller-Android"
 }

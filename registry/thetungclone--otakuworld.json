@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#thetungclone/OtakuWorld",
   "sha256": "de5388865e52e41068ced16e9bee20250e24c40c0780a4129490127d0bb1f2fe"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "thetungclone--otakuworld",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bf7f6141f9ed4e3ccbf31d6545af0e242efd50ac",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bf7f6141f9ed4e3ccbf31d6545af0e242efd50ac"
  },
  "repo": "thetungclone/OtakuWorld"
 }

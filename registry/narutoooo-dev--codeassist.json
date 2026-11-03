@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#narutoooo-dev/CodeAssist",
   "sha256": "f691522071035308f956828ec0e4d515810ff3286529c081292cf93ebd5f0874"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "narutoooo-dev--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1817e177e42eaa0b484c6bcabacef3fddae160a0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1817e177e42eaa0b484c6bcabacef3fddae160a0"
  },
  "repo": "narutoooo-dev/CodeAssist"
 }

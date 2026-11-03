@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2020-12-20",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-09-08"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "A simple, rational music player for android",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4411,
+  "stars": 4418,
   "stars_por_mes": null
  },
  "nombre": "Auxio",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f243bceab0b55fdae7462723a3d14e7eec21a432",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f243bceab0b55fdae7462723a3d14e7eec21a432"
  },
  "repo": "OxygenCobalt/Auxio"
 }

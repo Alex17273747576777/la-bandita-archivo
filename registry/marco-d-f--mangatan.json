@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#marco-d-f/Mangatan",
   "sha256": "513f67529a21274477bf6399640d4d1c2cae790ad840c60b121139522cc7c994"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "marco-d-f--mangatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d8938fda0c0ed53b064955fb5c883d63054adf6f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d8938fda0c0ed53b064955fb5c883d63054adf6f"
  },
  "repo": "marco-d-f/Mangatan"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Genshin-Impact-Momo/InstallerX-Revived",
   "sha256": "476b592de5f54433484ee440ea2e3e5b1c1c22965664e52c3fad3e78b7e56633"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "genshin-impact-momo--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d608b49e37311ec4efcedf1a5540425014fab329",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d608b49e37311ec4efcedf1a5540425014fab329"
  },
  "repo": "Genshin-Impact-Momo/InstallerX-Revived"
 }

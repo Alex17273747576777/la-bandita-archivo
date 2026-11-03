@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-22",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "magisk-v30.7",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Curated directory of Android root apps, Magisk, KernelSU, LSPosed modules, system tools, privacy utilities, and no-root Shizuku apps.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 49,
+  "stars": 51,
   "stars_por_mes": null
  },
  "nombre": "best-root-apps-for-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "169ca7f1cfdd5ced3debef6472dd703a6f57ad35",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:169ca7f1cfdd5ced3debef6472dd703a6f57ad35"
  },
  "repo": "krishna3163/best-root-apps-for-android",
  "web": "https://krishna3163.github.io/best-root-apps-for-android/"

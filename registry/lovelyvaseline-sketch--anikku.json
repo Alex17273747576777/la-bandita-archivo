@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#lovelyvaseline-sketch/anikku",
   "sha256": "2f2ab57c306440d4ea4de8331854a1cbe59f49afccd5fb3e8acb1e34d2722da2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lovelyvaseline-sketch--anikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7ebdc04d97ea40bc5aec4c27d23caaa14870c247",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7ebdc04d97ea40bc5aec4c27d23caaa14870c247"
  },
  "repo": "lovelyvaseline-sketch/anikku"
 }

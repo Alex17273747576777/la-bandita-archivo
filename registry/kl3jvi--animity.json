@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1132,
+  "stars": 1134,
   "stars_por_mes": null
  },
  "nombre": "animity",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "60359058b82937fec8d70fb94c4b84acb22d9a4b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:60359058b82937fec8d70fb94c4b84acb22d9a4b"
  },
  "repo": "kl3jvi/animity"
 }

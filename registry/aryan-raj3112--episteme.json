@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-02-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.31-oss",
   "ultimo_push": "2026-10-10"
  },
  "descripcion": "A multi-platform document and e-book reader.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "792f5bf55cc99e1bb4d44cd5ac24eb86e48fa297",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:792f5bf55cc99e1bb4d44cd5ac24eb86e48fa297"
  },
  "repo": "Aryan-Raj3112/episteme"
 }

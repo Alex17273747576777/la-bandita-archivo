@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-03-27",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.1",
   "ultimo_push": "2026-09-19"
  },
  "descripcion": "A desktop-class, general-purpose IDE for Android, powered by a full Linux environment.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 758,
+  "stars": 757,
   "stars_por_mes": null
  },
  "nombre": "Cosmic-IDE",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a925892cfeef9409ca3c5dd669fbce58af879c44",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a925892cfeef9409ca3c5dd669fbce58af879c44"
  },
  "repo": "Cosmic-Ide/Cosmic-IDE"
 }

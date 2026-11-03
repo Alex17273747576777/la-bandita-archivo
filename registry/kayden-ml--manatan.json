@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kayden-ML/Manatan",
   "sha256": "b555fd9726e9b361a0a5d8cc9767ed6ffbc1ab4d29781d14123c68f2ac171e73"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kayden-ml--manatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "79d99c762383aaec9806716c4d29f311cf6359cf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:79d99c762383aaec9806716c4d29f311cf6359cf"
  },
  "repo": "Kayden-ML/Manatan"
 }

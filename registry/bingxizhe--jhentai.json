@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v8.0.16+337",
   "ultimo_push": "2026-09-28"
  },
  "descripcion": "A cross-platform manga app made for e-hentai & exhentai by Flutter",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#bingxizhe/JHenTai",
   "sha256": "8fcd0bb6da5d260c02119b61a1c3c1fba0a46929b5f94071f139cffdb9ded5d7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "bingxizhe--jhentai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d6f461b954cc6c3a3ad952c7a7ff20c742069750",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d6f461b954cc6c3a3ad952c7a7ff20c742069750"
  },
  "repo": "bingxizhe/JHenTai"
 }

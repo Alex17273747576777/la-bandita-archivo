@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": "2026-04-08",
+  "release_en": "2022-09-19",
   "semantica_http": 200,
-  "ultima_release": "v3.0.3",
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-04-08"
  },
  "descripcion": "An app that lets you browse the web over SMS",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1540,
+  "stars": 1539,
   "stars_por_mes": null
  },
  "nombre": "TxtNet-Browser",

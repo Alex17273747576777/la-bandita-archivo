@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#hamedgayou/CodeAssist",
   "sha256": "7ee00ed8a36b7f948e8bd2e29fc2cf386f9c07e8b7e838ba2a755a3acc16f35c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hamedgayou--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "22e5ab6e2946bc63348e1db43dca748a24e44151",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:22e5ab6e2946bc63348e1db43dca748a24e44151"
  },
  "repo": "hamedgayou/CodeAssist"
 }

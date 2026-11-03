@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Use an Android phone with a broken screen from any Windows or Mac laptop. scrcpy + adb launcher, wireless mode, speed tuning, AI phone agent. No root, no app on the phone.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "afc8a8692aef45eb4e71564939d461d62c5f8c41",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:afc8a8692aef45eb4e71564939d461d62c5f8c41"
  },
  "repo": "Vighnesh2514/screenless-android",
  "web": "https://screenless-android.vercel.app"

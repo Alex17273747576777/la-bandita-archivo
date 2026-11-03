@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#johnmuriuki774-source/moon-yomi",
   "sha256": "8fdf7073d462a9c7ff4adb4f7b2aba77edbf830165305a2b559ba02ab9a50076"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "johnmuriuki774-source--moon-yomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6b71edc26d959644292cbc599bfd2101cc92b5dd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6b71edc26d959644292cbc599bfd2101cc92b5dd"
  },
  "repo": "johnmuriuki774-source/moon-yomi"
 }

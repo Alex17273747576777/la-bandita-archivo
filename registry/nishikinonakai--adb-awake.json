@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1",
   "ultimo_push": "2026-10-13"
  },
  "descripcion": "Android wireless ADB screen-awake app with Quick Settings tiles and a macOS helper",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "769dc442552fd8fdd624e252f13e0b82f2f918da",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:769dc442552fd8fdd624e252f13e0b82f2f918da"
  },
  "repo": "Nishikinonakai/adb-awake"
 }

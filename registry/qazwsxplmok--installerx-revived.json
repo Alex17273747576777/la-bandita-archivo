@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#qazwsxplmok/InstallerX-Revived",
   "sha256": "ecc5a3e5aef7686f0e53b339d1601a2cd69bbbd9c21c76b2eb550a9b3d0049d4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "qazwsxplmok--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4d16c3446acdfd8ff7cbe635e5a675fa0226acfc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4d16c3446acdfd8ff7cbe635e5a675fa0226acfc"
  },
  "repo": "qazwsxplmok/InstallerX-Revived"
 }

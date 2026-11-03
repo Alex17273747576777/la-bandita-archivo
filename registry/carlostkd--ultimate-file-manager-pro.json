@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#carlostkd/ultimate-file-manager-pro",
   "sha256": "f6b4cc3a9505ddcf29c203b20e0d941b8024d8ce27310c0093e8f90a32af67de"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "carlostkd--ultimate-file-manager-pro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "30f3e420368ffc75cb4d2ed1508cc8bf2dbd4604",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:30f3e420368ffc75cb4d2ed1508cc8bf2dbd4604"
  },
  "repo": "carlostkd/ultimate-file-manager-pro"
 }

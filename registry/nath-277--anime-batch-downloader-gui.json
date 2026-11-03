@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#nath-277/Anime-batch-downloader-gui",
   "sha256": "4a33980cd21f34ce974316428192f9d00566d59a2766409748ec8a66240c3c17"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1eb85aafa3ce9eb179fe061353723277a290640c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1eb85aafa3ce9eb179fe061353723277a290640c"
  },
  "repo": "nath-277/Anime-batch-downloader-gui"
 }

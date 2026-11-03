@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": null,
+  "estado": "vivo",
+  "release_en": "2026-03-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "2.1hotfix",
   "ultimo_push": "2026-09-15"
  },
  "descripcion": "YoukiDEX  is a full Android desktop experience built on top of Smart Dock — no launcher swap needed. Runs as a system overlay with full UI customization, persistent dock, notification panel, icon pack support, and massive stability improvements.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f80410273e5d27ac4ce5810e21efdaa30f69a9cb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f80410273e5d27ac4ce5810e21efdaa30f69a9cb"
  },
  "repo": "mrYouki/YoukiDex-Android-Desktop"
 }

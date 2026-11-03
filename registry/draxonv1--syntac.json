@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.1-beta.2",
   "ultimo_push": "2026-09-13"
  },
  "descripcion": "Free & Open Source Local Coding Agent for Android. ",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ce5180a51a7ed63bc2dfa1db43f0d00a3abe57c9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ce5180a51a7ed63bc2dfa1db43f0d00a3abe57c9"
  },
  "repo": "DraxonV1/Syntac"
 }

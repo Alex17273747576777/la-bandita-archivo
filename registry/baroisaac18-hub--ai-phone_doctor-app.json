@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "Android",
   "ultimo_push": "2026-10-28"
  },
  "descripcion": "An Android Ai phone doctor app containing tools designed for the phone; it is under development and can be tried. ",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "64d352bb5346a6b1f0110d49f30364fb1ecc0d3f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:64d352bb5346a6b1f0110d49f30364fb1ecc0d3f"
  },
  "repo": "baroisaac18-hub/AI-phone_doctor-app-"
 }

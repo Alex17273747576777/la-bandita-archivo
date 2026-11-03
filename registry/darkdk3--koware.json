@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-16",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "r8847",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Personal fork with features i wanted etc. U can use it if u want but dont expect anything stable. ",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "800e10782b2cec6f1853fb47173a10961bc1e718",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:800e10782b2cec6f1853fb47173a10961bc1e718"
  },
  "repo": "Darkdk3/Koware",
  "web": "https://tsundoku-otaku.github.io/"

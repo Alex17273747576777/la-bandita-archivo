@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#codedrewting-spec/airi",
   "sha256": "546826fad3fd3ad6e5b479d0d4ea2a49173c191f75f9a75ac3b498d03131eb58"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "codedrewting-spec--airi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "697d6804170f3430b4dd873bbbdceec9541ee7ef",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:697d6804170f3430b4dd873bbbdceec9541ee7ef"
  },
  "repo": "codedrewting-spec/airi"
 }

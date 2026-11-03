@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.22",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "把 DeepSeek Harness 打包成能直接装的安卓 APK：不用 Termux、不用 root、不用配环境，21 款技能随包；它还能在手机上自己编译、打包、签名、发布。Android APK for DeepSeek Harness — no Termux, no root, no PC; it builds, signs and releases itself on the phone.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 59,
+  "stars": 65,
   "stars_por_mes": null
  },
  "nombre": "deepseek-harness-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "af20b18ea68da5c1baad26567406ae193108bcce",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:af20b18ea68da5c1baad26567406ae193108bcce"
  },
  "repo": "guzhou079-arch/deepseek-harness-android",
  "web": "https://github.com/guzhou079-arch/deepseek-harness-android/releases"

@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f30dfe2b4f205a7fa9ca851f9ee22d2a7d887bc2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f30dfe2b4f205a7fa9ca851f9ee22d2a7d887bc2"
  },
  "repo": "gtechsltn/off-grid-ai-mobile",
  "web": "https://join.slack.com/t/off-grid-mobile/shared_invite/zt-43kbisqxf-hM0y07EnaNnIfVN9DLR3Dg"

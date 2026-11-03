@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#advhmarif-cmd/Kai",
   "sha256": "a3722055c2df9ec17f25624cbe71937249dc0384d669e9524ec0dfdf6f8cc3f3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "advhmarif-cmd--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "58b7e1f762afd62671a389f364f1b7997ece4ee6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:58b7e1f762afd62671a389f364f1b7997ece4ee6"
  },
  "repo": "advhmarif-cmd/Kai"
 }

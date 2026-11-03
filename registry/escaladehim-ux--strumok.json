@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#escaladehim-ux/strumok",
   "sha256": "ad13f54ace02a9fb875c24e8f90d2fdfacc6a9cf50612c93e019f3ae60e1d60b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d6793d312efe4de5a26cf83736b03b178a1734f8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d6793d312efe4de5a26cf83736b03b178a1734f8"
  },
  "repo": "escaladehim-ux/strumok"
 }

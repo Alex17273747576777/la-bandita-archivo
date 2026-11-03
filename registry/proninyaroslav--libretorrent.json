@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-02-05",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "3.0",
   "ultimo_push": "2026-07-24"
  },
  "descripcion": "Free and Open Source, full-featured torrent client for Android. Mirrored from https://gitlab.com/proninyaroslav/libretorrent",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4021,
+  "stars": 4028,
   "stars_por_mes": null
  },
  "nombre": "libretorrent",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ae96f20b9852d2140fd704a3f2451ed7679e35a0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ae96f20b9852d2140fd704a3f2451ed7679e35a0"
  },
  "repo": "proninyaroslav/libretorrent",
  "web": "https://gitlab.com/proninyaroslav/libretorrent"

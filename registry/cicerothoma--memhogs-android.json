@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-25"
  },
  "descripcion": "Which apps are eating your phone's memory. Per-app breakdown via Shizuku, helpers grouped under the app that owns them.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 161,
+  "stars": 163,
   "stars_por_mes": null
  },
  "nombre": "memhogs-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6074d6c1d2bb8240d4f29e08092362bbb73afc5c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6074d6c1d2bb8240d4f29e08092362bbb73afc5c"
  },
  "repo": "cicerothoma/memhogs-android",
  "web": "https://cicerothoma.github.io/memhogs"

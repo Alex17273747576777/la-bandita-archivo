@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.2.1",
   "ultimo_push": "2026-10-25"
  },
  "descripcion": "Android bridge for live-updating Xiaomi rear-screen Canvas cards.",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "rear-card-bridge",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7600019cba8506ff149446c9f17761c69ad386f7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7600019cba8506ff149446c9f17761c69ad386f7"
  },
  "repo": "finall1008/rear-card-bridge"
 }

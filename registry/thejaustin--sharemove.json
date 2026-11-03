@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0-alpha.two",
   "ultimo_push": "2026-07-18"
  },
  "descripcion": "Hide apps from Android's intent chooser sheet (APK installer, browser, and more) — Shizuku or root",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 46,
+  "stars": 48,
   "stars_por_mes": null
  },
  "nombre": "sharemove",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "260f7be652036b9d235d5b5214d2ac6c002dcd9e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:260f7be652036b9d235d5b5214d2ac6c002dcd9e"
  },
  "repo": "thejaustin/sharemove"
 }

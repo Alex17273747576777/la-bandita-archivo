@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2021-12-08",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "jav_r713",
   "ultimo_push": "2022-10-02"
  },
  "descripcion": "",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "344c77831d1da9329057cbd2cfbd0600989ad127",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:344c77831d1da9329057cbd2cfbd0600989ad127"
  },
  "repo": "Jacekun/CloudStream-3XXX"
 }

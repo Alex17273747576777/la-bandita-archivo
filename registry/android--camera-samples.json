@@ -26,21 +26,21 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5470,
+  "stars": 5468,
   "stars_por_mes": null
  },
  "nombre": "camera-samples",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2f10e46fc7a09f7208f8d6de72482ecf3e5fb85a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2f10e46fc7a09f7208f8d6de72482ecf3e5fb85a"
  },
  "repo": "android/camera-samples"
 }

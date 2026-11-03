@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2024-10-21",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1.2",
   "ultimo_push": "2024-10-24"
  },
  "descripcion": "Root-free one-click configuration for Mix Flip's outer screen: Add and use any apps & Restore system apps to default style",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 73,
+  "stars": 74,
   "stars_por_mes": null
  },
  "nombre": "MixFlipTool",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "79e84a7427e637494a5e1e3e35b9781fcdf3ca58",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:79e84a7427e637494a5e1e3e35b9781fcdf3ca58"
  },
  "repo": "parallelcc/MixFlipTool"
 }

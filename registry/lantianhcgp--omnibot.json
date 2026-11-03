@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#lantianhcgp/OmniBot",
   "sha256": "2a6014669e22901efa69790d2261f478096507938c4fba3ba6ca121b5ee37c85"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lantianhcgp--omnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4d5fbd5b43dbd4c83022af043b7cbdf44c36260d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4d5fbd5b43dbd4c83022af043b7cbdf44c36260d"
  },
  "repo": "lantianhcgp/OmniBot"
 }

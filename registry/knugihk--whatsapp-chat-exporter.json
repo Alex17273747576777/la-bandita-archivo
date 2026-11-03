@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-04-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.3",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "A customizable, cross-platform tool for parsing WhatsApp chat databases from Android and iOS/iPadOS backups. Supports Android .crypt12, .crypt14, .crypt15, and the latest database formats. Outputs chat history in readable HTML or structured JSON.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1294,
+  "stars": 1297,
   "stars_por_mes": null
  },
  "nombre": "WhatsApp-Chat-Exporter",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d47819322104859d01454984198b8c2a7fc61d4e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d47819322104859d01454984198b8c2a7fc61d4e"
  },
  "repo": "KnugiHK/WhatsApp-Chat-Exporter",
  "web": "https://wts.knugi.dev/"

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-13",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v0.8.8",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "A native, all-in-one workspace for databases, SSH, SFTP, terminals, remote desktop, monitoring, and AI.",
  "evidencia": {
@@ -21,26 +21,26 @@
  "id": "feigecode--navop",
  "licencia": {
   "archivo": "LICENSE-APACHE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: 10305 caracteres sin firma de licencia libre conocida ni cláusula de reserva de derechos. Queda citado el archivo y pendiente de lectura humana.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2050,
+  "stars": 2085,
   "stars_por_mes": null
  },
  "nombre": "navop",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a48908b7621cd6ea3d2e9d12639b9310fc42f44c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a48908b7621cd6ea3d2e9d12639b9310fc42f44c"
  },
  "repo": "feigeCode/navop",
  "web": "https://navop.dev"

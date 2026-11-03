@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-07-25"
+  "ultima_release": "hermes-subtitle-drag-1",
+  "ultimo_push": "2026-10-20"
  },
  "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jonijonna23-source/mpvRx",
   "sha256": "384f66a8e56d4b85a8dca49c045e4d7f9b7cd60c4233e1f327668923f88429a2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jonijonna23-source--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7f6e8da60a1c5d61a46f6bb8acc65c9d0bf5561f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7f6e8da60a1c5d61a46f6bb8acc65c9d0bf5561f"
  },
  "repo": "jonijonna23-source/mpvRx"
 }

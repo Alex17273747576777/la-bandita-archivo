@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kyliandembele10-arch/Usagi",
   "sha256": "068960bfe8d7de976eb900a8f9c7820965db3a09291f18ef5173194b1a1dc59c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kyliandembele10-arch--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a7cf99bf7766ad0c178ca1731e0cb50b79683c90",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a7cf99bf7766ad0c178ca1731e0cb50b79683c90"
  },
  "repo": "kyliandembele10-arch/Usagi"
 }

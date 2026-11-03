@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-09-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1000",
   "ultimo_push": "2026-10-25"
  },
  "descripcion": "🤖 Application to use Revenge on Android",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "OSL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 752,
+  "stars": 751,
   "stars_por_mes": null
  },
  "nombre": "revenge-manager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "af6377d974e090aa3018deb9f4e251894f74c92c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:af6377d974e090aa3018deb9f4e251894f74c92c"
  },
  "repo": "revenge-mod/revenge-manager"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2020-07-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.20.1-12001",
   "ultimo_push": "2023-11-25"
  },
  "descripcion": "亦搜，亦看，亦闻  manga&novel reader, audio&video player in one app developed by flutter",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4815b92a7a8a0c4337efb70e5bd1948ce17904a8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4815b92a7a8a0c4337efb70e5bd1948ce17904a8"
  },
  "repo": "mabDc/eso",
  "web": "https://github.com/mabDc/eso_source"

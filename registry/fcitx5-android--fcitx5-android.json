@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-11-16",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.0.3",
   "ultimo_push": "2026-10-13"
  },
  "descripcion": "Fcitx5 input method framework and engines ported to Android",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "LGPL-2.1",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5820,
+  "stars": 5833,
   "stars_por_mes": null
  },
  "nombre": "fcitx5-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "eb5b50216e70484a009933d9519db76005f1faf3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:eb5b50216e70484a009933d9519db76005f1faf3"
  },
  "repo": "fcitx5-android/fcitx5-android",
  "web": "https://fcitx5-android.github.io/"

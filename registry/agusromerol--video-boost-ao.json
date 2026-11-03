@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.0",
   "ultimo_push": "2026-09-01"
  },
  "descripcion": "Pixel Camera turns Video Boost off every time you close it, so it never stays on. This app re-enables it automatically each time you open the camera in video mode. No root. Free and open source (MIT), no ads and no tracking. For Pixel 8 Pro, 9 Pro and 10 Pro.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0205b761dca8b033b755ac18421f25ad1ef2d426",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0205b761dca8b033b755ac18421f25ad1ef2d426"
  },
  "repo": "AgusRomeroL/video-boost-ao",
  "web": "https://github.com/AgusRomeroL/video-boost-ao/releases/latest"

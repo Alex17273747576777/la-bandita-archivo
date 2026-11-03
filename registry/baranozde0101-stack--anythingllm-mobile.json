@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#baranozde0101-stack/anythingllm-mobile",
   "sha256": "2f79abb2203ade82de3dd3437febb9cc1c31017ef5d38ce7e1933c3dd48af44f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "baranozde0101-stack--anythingllm-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "56388308f232666f2440fe70fad0c7d82b5a7e9d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:56388308f232666f2440fe70fad0c7d82b5a7e9d"
  },
  "repo": "baranozde0101-stack/anythingllm-mobile"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0-experimental",
   "ultimo_push": "2026-10-21"
  },
  "descripcion": "Experimental Pixel 11 HiLight LED controller for Android 17.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "63a68f3195a102d7badba3767ebb35cad017de57",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:63a68f3195a102d7badba3767ebb35cad017de57"
  },
  "repo": "DhananjayBhosale/hilight-studio",
  "web": "https://hilightstudio.dhananjaytech.app/"

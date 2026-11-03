@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.2.6",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "Native DeepSeek Harness (dsh) client for Android with embedded Node.js 24 and Spanish localization",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "DeepseekHarness-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0a13aee453e2e57d0448f9007cd42ca5b928b351",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0a13aee453e2e57d0448f9007cd42ca5b928b351"
  },
  "repo": "muleff/DeepseekHarness-Android"
 }

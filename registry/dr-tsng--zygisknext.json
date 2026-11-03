@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-02-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v4-0.1.0",
   "ultimo_push": "2026-10-15"
  },
  "descripcion": "Standalone implementation of Zygisk",
@@ -26,11 +26,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10770,
+  "stars": 10798,
   "stars_por_mes": null
  },
  "nombre": "ZygiskNext",
@@ -39,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "cddf38d5b1501d0cbf08393767afed09ac478b14",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:cddf38d5b1501d0cbf08393767afed09ac478b14"
  },
  "repo": "Dr-TSNG/ZygiskNext"
 }

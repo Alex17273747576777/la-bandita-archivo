@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-12",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-19"
+  "ultima_release": "v4.3.0-5",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Unified utility dashboard for Android. Fast UPI/PayPal collection, WhatsApp direct chat, and Instagram shortcuts under a Custom Open Source license.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28,
+  "stars": 29,
   "stars_por_mes": null
  },
  "nombre": "quickdash",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e351a7529febe9967518a803a1004ab2fb4efbd1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e351a7529febe9967518a803a1004ab2fb4efbd1"
  },
  "repo": "Balajitechlabs/quickdash",
  "web": "https://quickdash.balajitechlab.com/"

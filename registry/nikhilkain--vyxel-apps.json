@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-10",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-25"
  },
  "descripcion": "Open-source GitHub-powered Android app store",
@@ -21,25 +21,25 @@
  "id": "nikhilkain--vyxel-apps",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 957,
+  "stars": 958,
   "stars_por_mes": null
  },
  "nombre": "vyxel-apps",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "18a06c71f2194bfd51edd57b2857d2607eb142c4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:18a06c71f2194bfd51edd57b2857d2607eb142c4"
  },
  "repo": "NikhilKain/vyxel-apps"
 }

@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Android study notes.",
  "evidencia": {
@@ -26,21 +26,21 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3944,
+  "stars": 3945,
   "stars_por_mes": null
  },
  "nombre": "AndroidNote",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1519bb3955d77da737b89d9eb950d7fef72c1c78",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1519bb3955d77da737b89d9eb950d7fef72c1c78"
  },
  "repo": "CharonChui/AndroidNote",
  "web": "http://charon.top/AndroidNote/"

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "2.2.2",
   "ultimo_push": "2026-10-19"
  },
  "descripcion": "Selectable per-app Force Dark theme enabler for Android 10+ using Shizuku or Root. Features an LSPosed/Xposed module to bypass app-level dark mode blocks, automated sunrise/sunset scheduling, and automation broadcasts (Tasker/MacroDroid).",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 127,
+  "stars": 128,
   "stars_por_mes": null
  },
  "nombre": "DarQ-Reborn",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b2b817980f912bcdddaa51e00184638db95c4629",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b2b817980f912bcdddaa51e00184638db95c4629"
  },
  "repo": "Arora-Sir/DarQ-Reborn",
  "web": "https://github.com/Arora-Sir/DarQ-Reborn/releases/latest"

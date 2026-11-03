@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kaiz22/mpvRx",
   "sha256": "8f4ab80652bddd74bfb4534316ad7e945d29bec9e71acf026932db79c657ce36"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kaiz22--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "abdbc53298e8e66a5fdc758c6af0f1e7ddf75ff4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:abdbc53298e8e66a5fdc758c6af0f1e7ddf75ff4"
  },
  "repo": "Kaiz22/mpvRx"
 }

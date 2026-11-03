@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2013-10-05",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v3.0.3",
   "ultimo_push": "2024-04-16"
  },
  "descripcion": "Zotero plugin to manage your attachments: automatically rename, move, and attach PDFs (or other files) to Zotero items, sync PDFs from your Zotero library to your (mobile) PDF reader (e.g. an iPad, Android tablet, etc.), and extract PDF annotations.",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7b2c98b5a08ddfcfdcc99f6d3fa1a8aff776eb01",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7b2c98b5a08ddfcfdcc99f6d3fa1a8aff776eb01"
  },
  "repo": "jlegewie/zotfile"
 }

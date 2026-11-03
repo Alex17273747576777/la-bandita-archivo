@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MuhamadSyabitHidayattulloh/Kototoro",
   "sha256": "55c122feeabb8a16bf6b24c62ce527aa68496fc64f47d5f0f9f3133b5ed30575"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "muhamadsyabithidayattulloh--kototoro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d3933a69f1968f93a91a18296a9ed5b75624f2f8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d3933a69f1968f93a91a18296a9ed5b75624f2f8"
  },
  "repo": "MuhamadSyabitHidayattulloh/Kototoro"
 }

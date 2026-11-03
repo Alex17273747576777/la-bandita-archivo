@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-12",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v3.2.0-ninerouter1",
   "ultimo_push": "2026-09-13"
  },
  "descripcion": "OpenClaw alternative in your pocket",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#leiblitz31/Kai",
   "sha256": "0d2273abbf7534f712594d1db21a95d436289d9f9af7f0a9e7a2be5f776cad76"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "leiblitz31--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e3801ed6e8b1bb78984f6a47323846c1e9237505",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e3801ed6e8b1bb78984f6a47323846c1e9237505"
  },
  "repo": "leiblitz31/Kai"
 }

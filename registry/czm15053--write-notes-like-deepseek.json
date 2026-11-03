@@ -26,21 +26,21 @@
   "spdx": "MIT",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 658,
+  "stars": 726,
   "stars_por_mes": null
  },
  "nombre": "write-notes-like-deepseek",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "72573a5b179de7798bbb7c4aeacdc0df6bf62439",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:72573a5b179de7798bbb7c4aeacdc0df6bf62439"
  },
  "repo": "czm15053/write-notes-like-deepseek"
 }

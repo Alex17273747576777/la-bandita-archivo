@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#HappyStupidChild/tiktokmodcloud",
   "sha256": "0f91f77786404c6941ade98b336be341140d8978190a521072e237601f1c4e0e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e283ce6b993187a6593d5c10a4ad36b95aa7dc44",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e283ce6b993187a6593d5c10a4ad36b95aa7dc44"
  },
  "repo": "HappyStupidChild/tiktokmodcloud"
 }

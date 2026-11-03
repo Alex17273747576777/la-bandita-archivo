@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SayakMukhopadhyay/mihongo",
   "sha256": "0e931cfcc520afc1fe1b558297ffda927e55d9668c202ae3de21ea73e63381f5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "sayakmukhopadhyay--mihongo",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5d74254fedf4ef92871692912c9cc51ea83345ba",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5d74254fedf4ef92871692912c9cc51ea83345ba"
  },
  "repo": "SayakMukhopadhyay/mihongo"
 }

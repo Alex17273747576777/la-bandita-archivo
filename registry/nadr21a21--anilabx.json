@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#nadr21a21/anilabx",
   "sha256": "3c1737b8fef3de893b32661e71745a99c561d2501a3c1e3b1cbdb6a5f5f39b77"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a02b18212fc3aba904dbe5d6f6db05d9e62484fb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a02b18212fc3aba904dbe5d6f6db05d9e62484fb"
  },
  "repo": "nadr21a21/anilabx"
 }

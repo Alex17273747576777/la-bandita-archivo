@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Open-source Android apps whose APKs are signature-checked and scanned for trackers. Updated automatically from 2113 Apps.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "CC-BY-4.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "da3ea800df0fad5ec2464e488e9488dbe477e533",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:da3ea800df0fad5ec2464e488e9488dbe477e533"
  },
  "repo": "2113apps/verified-android-apps",
  "web": "https://h5.2113.net/"

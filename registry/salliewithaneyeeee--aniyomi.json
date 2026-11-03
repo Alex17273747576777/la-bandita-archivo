@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SallieWithAnEyeEee/aniyomi",
   "sha256": "3dec3f4f02d8e2520f1cc94d50ef28e744fda3c74964da5b35f0847a88ac6179"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "salliewithaneyeeee--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "28fb9367885698b7287bc991f7f65ff70463a39f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:28fb9367885698b7287bc991f7f65ff70463a39f"
  },
  "repo": "SallieWithAnEyeEee/aniyomi"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#prostoimax/ultimate-file-manager-pro",
   "sha256": "d31f6428c1c69cc710a9b5362e1c241711d4061ad331993054fea4d8e5288da4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "prostoimax--ultimate-file-manager-pro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5e88f0517c050f06a641d8cd3838f6018dc6e9e3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5e88f0517c050f06a641d8cd3838f6018dc6e9e3"
  },
  "repo": "prostoimax/ultimate-file-manager-pro"
 }

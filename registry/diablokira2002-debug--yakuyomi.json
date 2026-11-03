@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-12"
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "A manga reader with on-device AI translation — a mihon fork powered by yakuyomi-",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#diablokira2002-debug/Yakuyomi",
   "sha256": "6a87a4eb48c77958aaf8be7dd5ebb4eea6eaf30c0c68e6e6d17ddf65a3df7f0e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "diablokira2002-debug--yakuyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "271b1d2bf152382ef64c9c05193ee8bc897c9eae",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:271b1d2bf152382ef64c9c05193ee8bc897c9eae"
  },
  "repo": "diablokira2002-debug/Yakuyomi"
 }

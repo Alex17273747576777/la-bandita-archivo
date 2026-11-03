@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#iMeeki/playtranslate",
   "sha256": "f21606847d7773121b2d4e1951ea21073b7e847e01edca7cc7ea9d61efe3022f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "imeeki--playtranslate",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ae4a0f49d88f0e0fb2ec55d9e86b86b04ea52327",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ae4a0f49d88f0e0fb2ec55d9e86b86b04ea52327"
  },
  "repo": "iMeeki/playtranslate"
 }

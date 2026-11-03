@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#setiawanjemy88/Vectras-VM-Android",
   "sha256": "73584775cf97c31a105c84d8a16511dadc94c18abc59583967391fb06e5d7cb3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "setiawanjemy88--vectras-vm-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2e129fcf270791f60d7b5a0ae40f4c82af9edfce",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2e129fcf270791f60d7b5a0ae40f4c82af9edfce"
  },
  "repo": "setiawanjemy88/Vectras-VM-Android"
 }

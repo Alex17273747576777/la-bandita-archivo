@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-15",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-18"
  },
  "descripcion": "Use the Steam Controller 2026 as a standard Android gamepad via Shizuku — USB and Bluetooth, no root",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 89,
+  "stars": 91,
   "stars_por_mes": null
  },
  "nombre": "SteamController-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "af6a602149c64b69062ac2b6c4702949a971a667",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:af6a602149c64b69062ac2b6c4702949a971a667"
  },
  "repo": "SonicDX12/SteamController-Android"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#iBluSkyy/ManatanT",
   "sha256": "970b2ce813e8c7b17f4ac110492a5f1e05ceda5f2f93dac1497c77f06def06e9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ibluskyy--manatant",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "43b75915a2ca559e3be328c93546e6b900ff2d5e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:43b75915a2ca559e3be328c93546e6b900ff2d5e"
  },
  "repo": "iBluSkyy/ManatanT"
 }

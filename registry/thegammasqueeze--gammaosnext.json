@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-06-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v.1.0.0-T820",
   "ultimo_push": "2026-10-03"
  },
  "descripcion": "GammaOS Next. Android 14 GSI distribution tailored for handheld gaming consoles. ",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 687,
+  "stars": 689,
   "stars_por_mes": null
  },
  "nombre": "GammaOSNext",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3ed709a29b26625f8cd52f98e164c98acb609beb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3ed709a29b26625f8cd52f98e164c98acb609beb"
  },
  "repo": "TheGammaSqueeze/GammaOSNext",
  "web": "https://github.com/TheGammaSqueeze/GammaOSNextDistribution-14"

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.6beta",
   "ultimo_push": "2026-09-25"
  },
  "descripcion": "Unofficial FurAffinity client for Android — Jetpack Compose, Material 3, glassmorphism UI, tag search, offline downloads, multi-language (EN/RU/UA)",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ad0f9e14c71d49ad5b297583194ab9d554f22df2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ad0f9e14c71d49ad5b297583194ab9d554f22df2"
  },
  "repo": "FurrychX/FurFlix-client-for-Android",
  "web": "https://furrychx.github.io/FurFlix-client-for-Android/"

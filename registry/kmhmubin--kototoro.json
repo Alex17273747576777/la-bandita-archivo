@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kmhmubin/Kototoro",
   "sha256": "b3efa7c7f18e810f56da2b26589be750ddccbbd80db5dc5406b8ee6893e76504"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kmhmubin--kototoro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ac788f0a573eb32bc1b3f91686ace5703b1de2f8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ac788f0a573eb32bc1b3f91686ace5703b1de2f8"
  },
  "repo": "kmhmubin/Kototoro"
 }

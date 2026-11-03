@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "komikku-expressive",
   "ultimo_push": "2026-09-20"
  },
  "descripcion": "Free and open source manga reader for Android",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#cernoh/komikku-M3E",
   "sha256": "1beb8474342cb6b1f2d59a09cbece1c0a9e6329cc2812c421cfd2e5c8a0b9245"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "cernoh--komikku-m3e",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d02dec31d33fd9de89274593e6dd9331b1439238",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d02dec31d33fd9de89274593e6dd9331b1439238"
  },
  "repo": "cernoh/komikku-M3E"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Maple-Ling/web-to-app",
   "sha256": "2d1ee7b73a7785668963fc61a888b43f9cab7002e25d8f386737f442ce0077a8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "maple-ling--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d6c466f77a6c71a7c6a23f22997f3588cd47fba9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d6c466f77a6c71a7c6a23f22997f3588cd47fba9"
  },
  "repo": "Maple-Ling/web-to-app"
 }

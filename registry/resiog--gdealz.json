@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Resiog/GDealz",
   "sha256": "dd544b8dff503d6cbb01e6f837d5157fa83debb7067a549e010b3ef905c7118d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "61a9dd24ff6b725e9d086a22330b1154a94302d0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:61a9dd24ff6b725e9d086a22330b1154a94302d0"
  },
  "repo": "Resiog/GDealz"
 }

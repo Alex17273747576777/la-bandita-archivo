@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mrizkiakbar-kez/Usagi",
   "sha256": "a5fdcef1e2e8e5fae8924e3f51d3bbbb92ffd24274f674070f1e2af19fc52ef6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mrizkiakbar-kez--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e4f43998bf117da6ebf58fc6541924b9582c2104",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e4f43998bf117da6ebf58fc6541924b9582c2104"
  },
  "repo": "mrizkiakbar-kez/Usagi"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#dirbyrahmat390-bot/Usagi",
   "sha256": "ac925ea65e689551f0a09efb2a82afc96a2f3ab192cbe7f6e7ab8aec49660626"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dirbyrahmat390-bot--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9555deac1e97fadcd5c4d4f3301ede29f414b885",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9555deac1e97fadcd5c4d4f3301ede29f414b885"
  },
  "repo": "dirbyrahmat390-bot/Usagi"
 }

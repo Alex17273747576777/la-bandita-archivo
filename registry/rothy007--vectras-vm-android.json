@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Rothy007/Vectras-VM-Android",
   "sha256": "ec4d456b8047adaff44ed8ebbc34b8dd4c0ac660354a2784aea4c694fcbca32a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "rothy007--vectras-vm-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "12cf26f2ac3a79ac8dca47633fdf76370e8e9f7b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:12cf26f2ac3a79ac8dca47633fdf76370e8e9f7b"
  },
  "repo": "Rothy007/Vectras-VM-Android"
 }

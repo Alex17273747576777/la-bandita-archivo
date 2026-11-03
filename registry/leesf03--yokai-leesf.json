@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#LeeSF03/yokai-leesf",
   "sha256": "0a2665a0b2df457a79fddead13f7df483cfb151762eb38ab7a409e1cd503bc8b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "leesf03--yokai-leesf",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6ea7943ef91b4ebad0c4acfcff0cceada06a0956",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6ea7943ef91b4ebad0c4acfcff0cceada06a0956"
  },
  "repo": "LeeSF03/yokai-leesf"
 }

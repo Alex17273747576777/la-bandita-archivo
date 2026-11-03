@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#CACHIBOMBO2025/MicroG-RE",
   "sha256": "cd199a05f565c5ca86292484fb3b66f62de1ea99f6b6733b7a604a61be21ee29"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "cachibombo2025--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b9598004bf7371331f8dd848116f4c828439a5e3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b9598004bf7371331f8dd848116f4c828439a5e3"
  },
  "repo": "CACHIBOMBO2025/MicroG-RE"
 }

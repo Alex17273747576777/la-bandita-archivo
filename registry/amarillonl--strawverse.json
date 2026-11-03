@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-07-10"
+  "ultimo_push": "2026-10-31"
  },
  "descripcion": "A gui to download anime & manga in batches & its fast :3",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AmarilloNL/StrawVerse",
   "sha256": "6ae5617a5ca8cb12653583b12dcff5de6d590baad395bc257ad6357dfc378339"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "amarillonl--strawverse",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "11a64913292edee836a150ba6c2b842d283c46f5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:11a64913292edee836a150ba6c2b842d283c46f5"
  },
  "repo": "AmarilloNL/StrawVerse"
 }

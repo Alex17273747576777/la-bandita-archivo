@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#tiankongquansijia/Stellar",
   "sha256": "491e079be4bdc410d89a00664fd02b82e6ba7bfc30156b589f607761c6d17944"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "tiankongquansijia--stellar",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7986f30c26c5f12f8f64a5affa771a2ed4a8b308",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7986f30c26c5f12f8f64a5affa771a2ed4a8b308"
  },
  "repo": "tiankongquansijia/Stellar"
 }

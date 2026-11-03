@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#99DevOps892/STA-Kai",
   "sha256": "bba627b9638d775a0cdebd70ba17d7cd5a53505b9b3b207195c9f73e5decbdf2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "99devops892--sta-kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7095cb182e3234f4b0d35af3c1f41db2d670c879",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7095cb182e3234f4b0d35af3c1f41db2d670c879"
  },
  "repo": "99DevOps892/STA-Kai"
 }

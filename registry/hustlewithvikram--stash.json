@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#hustlewithvikram/Stash",
   "sha256": "a513b9a2111d2cdf59f84620a907a42f28fae867bd76111853ddef9880e09ad4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hustlewithvikram--stash",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "aa19ea0d4a9dcc555a673cee69df183a22b93d74",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:aa19ea0d4a9dcc555a673cee69df183a22b93d74"
  },
  "repo": "hustlewithvikram/Stash"
 }

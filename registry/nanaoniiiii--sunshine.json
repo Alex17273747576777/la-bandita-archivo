@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-10",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2026.823.92127",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "Sunshine for Android：Android 串流主机，支持硬件编码、音频内录、远程输入与兼容协议的开放接收端；远程输入经 Shizuku 实现。",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "sunshine",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f92585fe225e5b62452d11ac37693b1fa6e418d6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f92585fe225e5b62452d11ac37693b1fa6e418d6"
  },
  "repo": "nanaoniiiii/sunshine",
  "web": "https://nanaoni.tech"

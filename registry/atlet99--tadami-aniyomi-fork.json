@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#atlet99/Tadami-Aniyomi-fork",
   "sha256": "6d3c3d2de54973c5b820ea062d82183b7b7b722ac2e98a30b70b3408d1d718dd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "atlet99--tadami-aniyomi-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c5c7394d1ab6a9f27a9f207c0610e072a97a8cd7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c5c7394d1ab6a9f27a9f207c0610e072a97a8cd7"
  },
  "repo": "atlet99/Tadami-Aniyomi-fork"
 }

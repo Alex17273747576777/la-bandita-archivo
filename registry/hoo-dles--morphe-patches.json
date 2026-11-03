@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-01-22",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-27"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "🍃 Human-made patches for Morphe",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1295,
+  "stars": 1302,
   "stars_por_mes": null
  },
  "nombre": "morphe-patches",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e9c942640130c809fcb908332bf7dc56d59cf86f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e9c942640130c809fcb908332bf7dc56d59cf86f"
  },
  "repo": "hoo-dles/morphe-patches"
 }

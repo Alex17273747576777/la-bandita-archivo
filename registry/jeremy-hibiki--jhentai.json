@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Jeremy-Hibiki/JHenTai",
   "sha256": "e2efe4c16b4071dd87bfc9f9bf98c2a82f0f259c7f2581a12a0d6d5677dc160d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jeremy-hibiki--jhentai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "30f6a229dffbf724f1253a701a23b63d3cb7282f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:30f6a229dffbf724f1253a701a23b63d3cb7282f"
  },
  "repo": "Jeremy-Hibiki/JHenTai"
 }

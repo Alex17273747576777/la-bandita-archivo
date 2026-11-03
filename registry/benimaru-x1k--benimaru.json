@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-01",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v2.1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "An Android utility app that leverages Shizuku to apply advanced ADB performance tweaks, optimize refresh rates, and safely change screen resolution. all without requiring root access. ",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 37,
+  "stars": 40,
   "stars_por_mes": null
  },
  "nombre": "Benimaru",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2a341c863993c50e443614a7035512f74232e46a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2a341c863993c50e443614a7035512f74232e46a"
  },
  "repo": "Benimaru-x1k/Benimaru"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-09-13"
  },
  "descripcion": "Jailbreak supported Google Pixel phones with CVE-2026-43499",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 483,
+  "stars": 486,
   "stars_por_mes": null
  },
  "nombre": "Root-My-Pixel",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "03a6f7642bf0972e36c338829a02ba61d149105b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:03a6f7642bf0972e36c338829a02ba61d149105b"
  },
  "repo": "alex193a/Root-My-Pixel"
 }

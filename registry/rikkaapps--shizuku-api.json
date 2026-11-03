@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2021-08-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "12",
   "ultimo_push": "2025-05-29"
  },
  "descripcion": "The API and the developer guide for Shizuku and Sui.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2722,
+  "stars": 2736,
   "stars_por_mes": null
  },
  "nombre": "Shizuku-API",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a27f6e4151ba7b39965ca47edb2bf0aeed7102e5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a27f6e4151ba7b39965ca47edb2bf0aeed7102e5"
  },
  "repo": "RikkaApps/Shizuku-API"
 }

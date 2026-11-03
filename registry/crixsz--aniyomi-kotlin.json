@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#crixsz/aniyomi-kotlin",
   "sha256": "f241d8e8daefdff257cc7d512d8d209d62c484cbeca4828a25481be21b0b3198"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "crixsz--aniyomi-kotlin",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3bc7e7d898f5e353a67af2f2a7c1c984de12e844",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3bc7e7d898f5e353a67af2f2a7c1c984de12e844"
  },
  "repo": "crixsz/aniyomi-kotlin"
 }

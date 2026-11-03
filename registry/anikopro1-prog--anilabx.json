@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#anikopro1-prog/AniLabX",
   "sha256": "3e1ee7b3d76005192f18fe23a1005cb230ba42ae96a8cda09b6689cc5f7b797a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "faebbe7962db4061bfcdc723db1fd75b96604720",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:faebbe7962db4061bfcdc723db1fd75b96604720"
  },
  "repo": "anikopro1-prog/AniLabX"
 }

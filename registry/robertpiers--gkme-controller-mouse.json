@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-16",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "controller-mouse-debug-2026-10-16",
   "ultimo_push": "2026-10-16"
  },
  "descripcion": "GKME local controller, mouse, gyro, and Shizuku input mode",
@@ -21,11 +21,11 @@
  "id": "robertpiers--gkme-controller-mouse",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4585fd904d52e5d8cf4f6a49fb8ebacfb21f7387",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4585fd904d52e5d8cf4f6a49fb8ebacfb21f7387"
  },
  "repo": "RobertPiers/gkme-controller-mouse",
  "web": "https://github.com/4zyz4/GKME"

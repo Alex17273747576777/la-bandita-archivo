@@ -1,9 +1,9 @@
 # PIEZA 43 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/43-La-corriente-geografia-de-las-fuentes-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `7802b7a987d634ddb05f39bf58fb22b2440f0ac8e28a3bb261ceeceac277e73c`
-- **Envío generado:** 2026-11-02 · 6 mensajes · el mayor de 3691 caracteres
+- **Envío generado:** 2026-11-03 · 6 mensajes · el mayor de 3691 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 6 · 915 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: sin licencia 10 · Apache-2.0 9 · GPL-3.0 4 · 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/43-La-corriente-geografia-de-las-fuentes-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 6 · 3691 caracteres ═══
 
@@ -142,38 +142,38 @@ La noticia fresca es de **keiyoushi/extensions**: release dbf6c05 (2026-10-29). 
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3510 caracteres ═══
+═══ MENSAJE 5 de 6 · 3541 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 43*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
-• Kareadita/Kavita — ★11.995 (+24) · empujó en las últimas horas · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
-• LittleSurvival/copymanga-copy20 — ★2.990 (+18) · empujó el 11-oct-2026 (hace 22 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
-• lnreader/lnreader — ★2.948 (+6) · empujó en las últimas horas · MIT · última release v2.1.4 (26-sep-2026)
-• IReaderorg/IReader — ★982 (+2) · empujó el 28-oct-2026 (hace 5 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
-• Aidoku-Community/sources — ★615 (+6) · empujó en las últimas horas · Apache-2.0
-• yuzono/anime-extensions — ★527 (+5) · empujó en las últimas horas · Apache-2.0
-• Spyou/Zangetsu — ★491 (+36) · empujó en las últimas horas · GPL-3.0 · última release v2.3.5 (1-nov-2026)
+• keiyoushi/extensions — ★15.426 (+57) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-1 (3-nov-2026)
+• Kareadita/Kavita — ★12.002 (+31) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
+• LittleSurvival/copymanga-copy20 — ★2.993 (+21) · empujó el 11-oct-2026 (hace 23 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
+• lnreader/lnreader — ★2.953 (+11) · empujó el 1-nov-2026 (hace 2 días) · MIT · última release v2.1.4 (26-sep-2026)
+• IReaderorg/IReader — ★984 (+4) · empujó el 28-oct-2026 (hace 6 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
+• Aidoku-Community/sources — ★617 (+8) · empujó en las últimas horas · Apache-2.0
+• yuzono/anime-extensions — ★529 (+7) · empujó en las últimas horas · Apache-2.0
+• Spyou/Zangetsu — ★495 (+40) · empujó en las últimas horas · GPL-3.0 · última release v2.3.5 (1-nov-2026)
 • lnreader/lnreader-plugins — ★366 (+2) · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
-• Suwayomi/tachiyomi-extension — ★345 (-1) · empujó el 19-sep-2026 (hace 44 días) · Apache-2.0
-• yuzono/cursed-manga-extensions — ★217 (+3) · empujó en las últimas horas · Apache-2.0
-• mojuru/cursed-manga-repo — ★175 (+1) · empujó el 12-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
-• self-similarity/MegaRepo — ★142 (+2) · *dormido*: sin empujar desde el 3-oct-2025 (395 días) · sin licencia detectada por la API
-• Secozzi/aniyomi-extensions — ★129 (+1) · empujó el 20-sep-2026 (hace 43 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
-• InvalidDavid/UMA — ★84 (+2) · empujó en las últimas horas · GPL-3.0 · última release a957b28 (1-nov-2026)
-• salmanbappi/extensions-repo — ★51 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API
-• Schnitzel5/ApkBridge — ★36 (sin cambio) · *dormido*: sin empujar desde el 11-feb-2026 (264 días) · Apache-2.0 · última release v1.8 (11-sep-2025)
-• inkdex/extensions — ★32 (sin cambio) · empujó el 19-oct-2026 (hace 14 días) · sin licencia detectada por la API
-• Moomooo95/moomooo95-extensions — ★20 (sin cambio) · *dormido*: sin empujar desde el 21-may-2025 (530 días) · GPL-3.0
-• NovelSourcery/extensions — ★20 (sin cambio) · empujó el 28-oct-2026 (hace 5 días) · sin licencia detectada por la API · última release d31198f (28-oct-2026)
-• dannovels/novel-extensions — ★17 (sin cambio) · *dormido*: sin empujar desde el 5-ene-2025 (666 días) · sin licencia detectada por la API
-• gato404/kegareta-sauces — ★14 (sin cambio) · *dormido*: sin empujar desde el 22-jul-2025 (468 días) · Apache-2.0
-• Nyora-Manga/nyora-mihon — ★14 (sin cambio) · *dormido*: sin empujar desde el 19-jul-2026 (106 días) · sin licencia detectada por la API
-• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (50 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
-• Awerkori/manga-fonte-extensoes — ★9 (sin cambio) · empujó en las últimas horas · Apache-2.0
-• Schnitzel5/mangayomi-custom-buttons — ★6 (sin cambio) · *dormido*: sin empujar desde el 5-oct-2025 (393 días) · MIT
+• Suwayomi/tachiyomi-extension — ★346 (sin cambio) · empujó el 19-sep-2026 (hace 45 días) · Apache-2.0
+• yuzono/cursed-manga-extensions — ★220 (+6) · empujó en las últimas horas · Apache-2.0
+• mojuru/cursed-manga-repo — ★175 (+1) · empujó el 12-oct-2026 (hace 22 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
+• self-similarity/MegaRepo — ★142 (+2) · *dormido*: sin empujar desde el 3-oct-2025 (396 días) · sin licencia detectada por la API
+• Secozzi/aniyomi-extensions — ★129 (+1) · empujó el 20-sep-2026 (hace 44 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
+• InvalidDavid/UMA — ★84 (+2) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release a957b28 (1-nov-2026)
+• salmanbappi/extensions-repo — ★52 (+1) · empujó en las últimas horas · sin licencia detectada por la API
+• Schnitzel5/ApkBridge — ★36 (sin cambio) · *dormido*: sin empujar desde el 11-feb-2026 (265 días) · Apache-2.0 · última release v1.8 (11-sep-2025)
+• inkdex/extensions — ★32 (sin cambio) · empujó el 19-oct-2026 (hace 15 días) · sin licencia detectada por la API
+• Moomooo95/moomooo95-extensions — ★20 (sin cambio) · *dormido*: sin empujar desde el 21-may-2025 (531 días) · GPL-3.0
+• NovelSourcery/extensions — ★20 (sin cambio) · empujó el 28-oct-2026 (hace 6 días) · sin licencia detectada por la API · última release d31198f (28-oct-2026)
+• dannovels/novel-extensions — ★17 (sin cambio) · *dormido*: sin empujar desde el 5-ene-2025 (667 días) · sin licencia detectada por la API
+• gato404/kegareta-sauces — ★14 (sin cambio) · *dormido*: sin empujar desde el 22-jul-2025 (469 días) · Apache-2.0
+• Nyora-Manga/nyora-mihon — ★14 (sin cambio) · *dormido*: sin empujar desde el 19-jul-2026 (107 días) · sin licencia detectada por la API
+• Gekkoushi/plugin — ★11 (sin cambio) · *dormido*: sin empujar desde el 13-sep-2026 (51 días) · sin licencia detectada por la API · última release 75af884 (10-ago-2026)
+• Awerkori/manga-fonte-extensoes — ★9 (sin cambio) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0
+• Schnitzel5/mangayomi-custom-buttons — ★6 (sin cambio) · *dormido*: sin empujar desde el 5-oct-2025 (394 días) · MIT
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

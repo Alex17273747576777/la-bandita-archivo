@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-07",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-21"
+  "ultima_release": "v0.2.1",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "One Android app for phone sending and TV receiving: AirPlay, DLNA, GameStream, video framing, themes and trusted-LAN APK transfer. Experimental preview.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1e510b30f527253d2589641607a0e1beb7bc2e6f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1e510b30f527253d2589641607a0e1beb7bc2e6f"
  },
  "repo": "meta-tabchen/MoonCast",
  "web": "https://github.com/meta-tabchen/MoonCast#readme"

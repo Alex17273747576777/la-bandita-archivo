@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MagnusTerra/mihon",
   "sha256": "7ac5292914fa3e6f81ed5389933ada25afaedd1b7b0a3419e35b43dcc440e226"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "magnusterra--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "0d6f426dbd8874c7861b6cc245f9e6ff43dbbe2c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:0d6f426dbd8874c7861b6cc245f9e6ff43dbbe2c"
  },
  "repo": "MagnusTerra/mihon"
 }

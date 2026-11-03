@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#cybernetics/Tyron-CodeAssist",
   "sha256": "1809abebe56c4fd2e1d6910f3f6153355ab1fa77c715a77de4dd3f353d0fa901"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "cybernetics--tyron-codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3a3bb97e2cdf9af9c366f1c0ea58e4fc385ee2fe",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3a3bb97e2cdf9af9c366f1c0ea58e4fc385ee2fe"
  },
  "repo": "cybernetics/Tyron-CodeAssist"
 }

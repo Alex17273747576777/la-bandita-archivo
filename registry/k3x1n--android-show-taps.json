@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2024-02-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.1",
   "ultimo_push": "2024-06-23"
  },
  "descripcion": "Show customized taps upon touches. Shizuku required.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fbc909771bc28467da5c7e4ab50ac5d7f6a26bdc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fbc909771bc28467da5c7e4ab50ac5d7f6a26bdc"
  },
  "repo": "k3x1n/Android-Show-Taps"
 }

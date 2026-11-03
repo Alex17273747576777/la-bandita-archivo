@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2015-02-12",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0",
   "ultimo_push": "2023-09-17"
  },
  "descripcion": "Image Cropping Library for Android, optimized for Camera / Gallery.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6406,
+  "stars": 6407,
   "stars_por_mes": null
  },
  "nombre": "Android-Image-Cropper",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5f35aeed8a73330a485b4a1c2d84f1c844debd00",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5f35aeed8a73330a485b4a1c2d84f1c844debd00"
  },
  "repo": "ArthurHub/Android-Image-Cropper"
 }

@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "23795078134bc0039373b28140be11a8a397e6d0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:23795078134bc0039373b28140be11a8a397e6d0"
  },
  "repo": "privshell/privshell"
 }

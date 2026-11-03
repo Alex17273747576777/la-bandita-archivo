@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "vivo",
-  "release_en": null,
+  "estado": "dormido",
+  "release_en": "2025-12-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-05-06"
  },
  "descripcion": "The first AI-powered manga reader for Android. Features semantic search (RAG), library intelligence, and contextual AI chat. Built on Mihon/Tachiyomi.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "30407e7c0dc22deeb8a3778259db722f1f5f0e7a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:30407e7c0dc22deeb8a3778259db722f1f5f0e7a"
  },
  "repo": "Ramsesdb/gexu-legacy-fork"
 }

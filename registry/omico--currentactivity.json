@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2017-01-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-08-27"
  },
  "descripcion": "Current Activity is an open-source Android app built with Google's recommended app architecture, serving as a public reference implementation for learning, experimenting with, and evolving modern Android architecture.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 286,
+  "stars": 285,
   "stars_por_mes": null
  },
  "nombre": "CurrentActivity",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b101c49cd12d5d4d7fa4bb3606d303b188d38a28",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b101c49cd12d5d4d7fa4bb3606d303b188d38a28"
  },
  "repo": "Omico/CurrentActivity"
 }

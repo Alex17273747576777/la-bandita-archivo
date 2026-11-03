@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-03",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-11"
  },
  "descripcion": "Rootless Android app cloner & isolated multi-user workspace powered by Shizuku IPC and native package manager virtualization. Zero-APK duplication, no root or PC required.",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 22,
+  "stars": 23,
   "stars_por_mes": null
  },
  "nombre": "adb-cloner",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "85f16fe7b47b67502967b1383f29717d47c2835b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:85f16fe7b47b67502967b1383f29717d47c2835b"
  },
  "repo": "udmodz0/adb-cloner",
  "web": "udmodz.site"

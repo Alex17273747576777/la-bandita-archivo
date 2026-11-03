@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jonchan3005-bot/OmniBot",
   "sha256": "8f696bc8a36cc7db3cd4eadf8acc01708ce65f029b224472cbdf399d82ade6de"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jonchan3005-bot--omnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "27003c3fe86e78c2c9be3a3baa21b974cb2cd576",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:27003c3fe86e78c2c9be3a3baa21b974cb2cd576"
  },
  "repo": "jonchan3005-bot/OmniBot"
 }

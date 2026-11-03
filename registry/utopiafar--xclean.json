@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-09",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.2.4",
   "ultimo_push": "2026-09-13"
  },
  "descripcion": "安卓文件清理工具，支持自定义规则清理文件",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d6daaa35ffff3302dc25fe18cf31d11d534a5b23",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d6daaa35ffff3302dc25fe18cf31d11d534a5b23"
  },
  "repo": "utopiafar/XClean"
 }

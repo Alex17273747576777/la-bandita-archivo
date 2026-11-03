@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#theolm/Suwayomi-Tsumiru",
   "sha256": "e2330a261b9b44b5fb2dc30d17b942571c13378b8f037b77bbcc4c03b067122e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "theolm--suwayomi-tsumiru",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a4d805060b917ccdb5b2a55208f8c606e63b43b1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a4d805060b917ccdb5b2a55208f8c606e63b43b1"
  },
  "repo": "theolm/Suwayomi-Tsumiru"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-01-23",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v0.9",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "A material you designed app for your ADB needs",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2544,
+  "stars": 2546,
   "stars_por_mes": null
  },
  "nombre": "aShellYou",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8ec6c92d74aea44723d026e5f73a2f477d494a3c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8ec6c92d74aea44723d026e5f73a2f477d494a3c"
  },
  "repo": "DP-Hridayan/aShellYou",
  "web": "http://ashellyou.github.io"

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.0.0",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "西交 XJTU-STU 校园网（深澜 Srun）自动登录 / 保活 Android App · GPL-3.0 · 纯 Kotlin 协议引擎",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b30a16acad23fbfc9be07bf90b7da0967ff56482",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b30a16acad23fbfc9be07bf90b7da0967ff56482"
  },
  "repo": "Triangle-GitHub/xjtu-stu-login"
 }

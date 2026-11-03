@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Mandelbroccoli-digital/Kai_X_Bliss",
   "sha256": "3edd6464547c3b22021eb609cc62a1e61e5a28fd01d976e5fbdaf9f660c4ff45"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mandelbroccoli-digital--kai_x_bliss",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "dfee556535b1a03335976aaae78e24a525a1555a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dfee556535b1a03335976aaae78e24a525a1555a"
  },
  "repo": "Mandelbroccoli-digital/Kai_X_Bliss"
 }

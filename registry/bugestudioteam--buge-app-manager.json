@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-03-02",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "AppManager1.0.6",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Buge App Manager is a powerful Android tool for app and permission management, requiring Shizuku or ROOT.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 315,
+  "stars": 323,
   "stars_por_mes": null
  },
  "nombre": "Buge-App-Manager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d490501e9378cd457386e78870a0f4f80ae20c08",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d490501e9378cd457386e78870a0f4f80ae20c08"
  },
  "repo": "BugeStudioTeam/Buge-App-Manager",
  "web": "https://bugestudio.website/appmanager/"

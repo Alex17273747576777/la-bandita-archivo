@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#saiwandevcoderanddesigner/kaizen-app",
   "sha256": "444eec4a877f9356636f44849ae60f38509290a0c0c82ca86a807407afbe7bfe"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "saiwandevcoderanddesigner--kaizen-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e5cf6569545a6f1703697e70a087510be2f8abfe",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e5cf6569545a6f1703697e70a087510be2f8abfe"
  },
  "repo": "saiwandevcoderanddesigner/kaizen-app"
 }

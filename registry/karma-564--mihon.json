@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#karma-564/mihon",
   "sha256": "bcb94475204f2b62ca1a1c38a7fd86b73e5b6fd449db931584699aa38562df01"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "karma-564--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "906d6f3cdbd6f7168d9cdea0c3eb8f9c663a09c2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:906d6f3cdbd6f7168d9cdea0c3eb8f9c663a09c2"
  },
  "repo": "karma-564/mihon"
 }

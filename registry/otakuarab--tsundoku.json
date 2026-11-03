@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#OtakuArab/tsundoku",
   "sha256": "7dac2c40c23abbbb36fafedcae423c90f433631e3c944f2120b1fa92dc5a8d1d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "otakuarab--tsundoku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "01593e8fc32038ed768cfd39af27c9ec1ed2a29e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:01593e8fc32038ed768cfd39af27c9ec1ed2a29e"
  },
  "repo": "OtakuArab/tsundoku"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#VardhanRawat/aniyomi-preview",
   "sha256": "9c7e6d2f8e9b60a92a46afa564db70176dd68d5af493289ccff9648d7ee16874"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "vardhanrawat--aniyomi-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e0cb23578388ade69dd5dcca1ebc3139aeb35de9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e0cb23578388ade69dd5dcca1ebc3139aeb35de9"
  },
  "repo": "VardhanRawat/aniyomi-preview"
 }

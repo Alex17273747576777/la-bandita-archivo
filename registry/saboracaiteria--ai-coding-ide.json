@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-23",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v2.3.4-delux",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "⚡ AI Coding IDE — Compilador Nativo & IA Autônoma no Celular (Android)",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0932518325e0de8d3d2abf934972b158677f3201",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0932518325e0de8d3d2abf934972b158677f3201"
  },
  "repo": "saboracaiteria/AI-Coding-IDE",
  "web": "https://saboracaiteria.github.io/AI-Coding-IDE/"

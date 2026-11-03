@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#saber1008611/Venera-SSR",
   "sha256": "e5521bc83e11abe5f1a6e67a5c0290d62bdbcb00b73b70293f11495a793a24cb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "saber1008611--venera-ssr",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "07ac77fcbd6c9050a5313f327e28d617eb602488",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:07ac77fcbd6c9050a5313f327e28d617eb602488"
  },
  "repo": "saber1008611/Venera-SSR"
 }

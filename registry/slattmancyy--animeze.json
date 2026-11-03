@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#slattmancyy/AnimeZe",
   "sha256": "250cd921249aae288252771d59924a6808d22a978aeb31e6a520add862a93677"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6101a09ca6a2380038f63567214f1b138f130e5b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6101a09ca6a2380038f63567214f1b138f130e5b"
  },
  "repo": "slattmancyy/AnimeZe"
 }

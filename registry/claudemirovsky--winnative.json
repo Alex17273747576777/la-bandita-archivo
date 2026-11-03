@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Claudemirovsky/WinNative",
   "sha256": "baa10c7be74180b955159063fbdb2e03393c728b05a41fbf1f70726076244922"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "claudemirovsky--winnative",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7f2fc5ab0ee4a1aca973dbec48958d6811f89dd4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7f2fc5ab0ee4a1aca973dbec48958d6811f89dd4"
  },
  "repo": "Claudemirovsky/WinNative"
 }

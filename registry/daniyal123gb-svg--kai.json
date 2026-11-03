@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#daniyal123gb-svg/Kai",
   "sha256": "bfd673b47f1e2f249239f94e1dd45c823c1f7e2833273421abd72d1b449f0b8e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "daniyal123gb-svg--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e3801ed6e8b1bb78984f6a47323846c1e9237505",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e3801ed6e8b1bb78984f6a47323846c1e9237505"
  },
  "repo": "daniyal123gb-svg/Kai"
 }

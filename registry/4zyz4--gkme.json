@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.2.0",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Turn your Android phone into a virtual gamepad — or a virtual keyboard and mouse! Supports WiFi LAN, direct USB, and direct Bluetooth connections.把你的 Android 手机变成一台虚拟游戏手柄！也可以是虚拟键盘、鼠标！支持 WiFi 局域网、USB 直连与蓝牙直连。",
@@ -21,25 +21,25 @@
  "id": "4zyz4--gkme",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 40,
+  "stars": 44,
   "stars_por_mes": null
  },
  "nombre": "GKME",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6d71686ba10d57177a36c991a3c9c461320f0e22",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6d71686ba10d57177a36c991a3c9c461320f0e22"
  },
  "repo": "4zyz4/GKME"
 }

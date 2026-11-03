@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-03",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.4.0",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "Android package installer supporting APK, XAPK, APKS, APKM, and the custom APKV encrypted format — with built-in app manager, backup, and silent install via root or Shizuku.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 105,
+  "stars": 106,
   "stars_por_mes": null
  },
  "nombre": "VInstall",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "51bb92c701d4d0aa8eb569909eedca640cf53047",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:51bb92c701d4d0aa8eb569909eedca640cf53047"
  },
  "repo": "vinstall/VInstall"
 }

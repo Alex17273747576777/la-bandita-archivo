@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#LexaStrong/Hazel",
   "sha256": "4b25bbd4a3c60c3e15d31ff9852857d580c8963d48625dc641fb8f93785bf100"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lexastrong--hazel",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8a04614ae4828b3c8a645b9d1278f499a7b91709",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8a04614ae4828b3c8a645b9d1278f499a7b91709"
  },
  "repo": "LexaStrong/Hazel"
 }

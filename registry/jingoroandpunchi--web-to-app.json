@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#JINGOROANDPUNCHI/web-to-app",
   "sha256": "25f4311b7bb86ba298b56f01d44192f9326345dcf76837e04ec60bd125270a6f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jingoroandpunchi--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5f06c3c442df3f6b36223d5a42dcef0d383c8d9b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5f06c3c442df3f6b36223d5a42dcef0d383c8d9b"
  },
  "repo": "JINGOROANDPUNCHI/web-to-app"
 }

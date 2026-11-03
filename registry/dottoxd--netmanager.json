@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "0.0.1_RC1",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "A Material mobile network monitoring app built with ease-of-use and speed in mind.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 39,
+  "stars": 41,
   "stars_por_mes": null
  },
  "nombre": "NetManager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f355b55111b2d41b00a2ffe8952efee1a10376d5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f355b55111b2d41b00a2ffe8952efee1a10376d5"
  },
  "repo": "DottoXD/NetManager"
 }

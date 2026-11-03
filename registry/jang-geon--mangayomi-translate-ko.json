@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jang-geon/mangayomi-translate-ko",
   "sha256": "5c1643351a9acb95772561cb9a570cf41ad69d606d83d71287386e617ff1e9fc"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jang-geon--mangayomi-translate-ko",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c4fce2c9be5a23905326a66aef7fa9130b24b0ae",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c4fce2c9be5a23905326a66aef7fa9130b24b0ae"
  },
  "repo": "jang-geon/mangayomi-translate-ko"
 }

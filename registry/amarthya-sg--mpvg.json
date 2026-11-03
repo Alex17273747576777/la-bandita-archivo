@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-06-12"
  },
  "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Amarthya-sg/MPVG",
   "sha256": "6f74cf71f5ed7fea6b78b236f78a1a53138553fb9b6c899c71aae266d0b63bb8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "amarthya-sg--mpvg",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3be0b8bfccdf07c505881302fa363d78b92ac720",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3be0b8bfccdf07c505881302fa363d78b92ac720"
  },
  "repo": "Amarthya-sg/MPVG"
 }

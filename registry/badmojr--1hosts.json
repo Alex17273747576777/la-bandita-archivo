@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-03",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "latest",
   "ultimo_push": "2026-09-03"
  },
  "descripcion": "Advanced DNS filter/blocklists for privacy, security, and clean browsing.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2260,
+  "stars": 2261,
   "stars_por_mes": null
  },
  "nombre": "1Hosts",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7a4588e87bcf7e86e0b8169d391b8422bd3c5d36",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7a4588e87bcf7e86e0b8169d391b8422bd3c5d36"
  },
  "repo": "badmojr/1Hosts",
  "web": "https://badmojr.github.io/1Hosts/"

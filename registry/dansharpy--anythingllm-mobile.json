@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#dansharpy/anythingllm-mobile",
   "sha256": "bbf9b503b61b84ee218939f606b4416ad0b4286fe2faaed98bdbfd2ec0b9df6a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dansharpy--anythingllm-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1282a8c70f338cc33b070a5a51b3cfb89bbdf2d0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1282a8c70f338cc33b070a5a51b3cfb89bbdf2d0"
  },
  "repo": "dansharpy/anythingllm-mobile"
 }

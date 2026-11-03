@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": "2026-10-31",
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": "v1.55.0",
   "ultimo_push": "2026-10-31"
  },
@@ -25,11 +25,11 @@
   "spdx": "AGPL-3.0",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 258,
+  "stars": null,
   "stars_por_mes": null
  },
  "nombre": "XGesture",

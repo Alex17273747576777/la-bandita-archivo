@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#animemovie781-cloud/CodeAssist",
   "sha256": "7f3e541a382f72769d68d18c047997ab45fe5d3a3c59aaf83f86ed543ee66fbf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "animemovie781-cloud--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bcf9fc903dafc20fd36eef9c2528c99b712e6345",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bcf9fc903dafc20fd36eef9c2528c99b712e6345"
  },
  "repo": "animemovie781-cloud/CodeAssist"
 }

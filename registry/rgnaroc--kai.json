@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#rgnaroc/Kai",
   "sha256": "450d6f1ca5b2c9446e77d3fd6b760f2d1779ccec9a1ed300484c6a6172bcbafd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "rgnaroc--kai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "daf1c6edc0f7fbb5c39732b62820f3f0c0229323",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:daf1c6edc0f7fbb5c39732b62820f3f0c0229323"
  },
  "repo": "rgnaroc/Kai"
 }

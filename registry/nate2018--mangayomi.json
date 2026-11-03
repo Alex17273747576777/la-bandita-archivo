@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Nate2018/mangayomi",
   "sha256": "28e2910902b09de7aa9ea6bcf47a7a15abb5f2ecfcddbef26198ed7ba618c2fb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "nate2018--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bc2ec42d20d7f5bfc3b41b3f6a63191a11b5d027",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bc2ec42d20d7f5bfc3b41b3f6a63191a11b5d027"
  },
  "repo": "Nate2018/mangayomi"
 }

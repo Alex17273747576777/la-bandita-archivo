@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0-alpha.2",
   "ultimo_push": "2026-10-19"
  },
  "descripcion": "One-tap frame generation for vivo/iQOO OriginOS (Quick Settings tile, per-game profiles)",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ed52dd79378914b2c652663d8683e6c59caed203",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ed52dd79378914b2c652663d8683e6c59caed203"
  },
  "repo": "Teemo4621/origin-tweaks"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jamescasipong/aniyomi",
   "sha256": "3f805c4967f1db7af29636c71bbf8342a3ea1923fc3696dba08921eccfd89fe8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jamescasipong--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "69b9db4e8e6d0c00c333c0991d6f7648b830f8ef",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:69b9db4e8e6d0c00c333c0991d6f7648b830f8ef"
  },
  "repo": "jamescasipong/aniyomi"
 }

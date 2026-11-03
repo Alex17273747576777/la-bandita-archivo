@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-12-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0.5",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "Root access to the kernel can be achieved simply by patching the Boot partition for reflashing. This solution is based on a non-parallel extended branch of APatch, with a primary focus on UI/UX design",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1266,
+  "stars": 1269,
   "stars_por_mes": null
  },
  "nombre": "FolkPatch",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0f3f42ba02d6441dbbeb247f34c0f5eabc14e393",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0f3f42ba02d6441dbbeb247f34c0f5eabc14e393"
  },
  "repo": "LyraVoid/FolkPatch",
  "web": "fp.mysqil.com"

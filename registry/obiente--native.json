@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0-alpha.1",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "Adaptive native Nextcloud client for mobile and desktop, with dynamic support for the wider Nextcloud app ecosystem.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 726,
+  "stars": 729,
   "stars_por_mes": null
  },
  "nombre": "native",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "44035db590710a5497280ed4424e17976ef645a7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:44035db590710a5497280ed4424e17976ef645a7"
  },
  "repo": "Obiente/native",
  "web": "https://nati.ve"

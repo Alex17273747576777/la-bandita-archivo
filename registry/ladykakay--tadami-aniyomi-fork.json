@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ladykakay/Tadami-Aniyomi-fork",
   "sha256": "31e3ea683d408fae4c6d5854f3d3e3c0db817e392ef16bb382f6d5c28ce8344d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ladykakay--tadami-aniyomi-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2a25f358ccd298b033e77ff79dcdd0c4bae60f7c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2a25f358ccd298b033e77ff79dcdd0c4bae60f7c"
  },
  "repo": "ladykakay/Tadami-Aniyomi-fork"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.5.0",
   "ultimo_push": "2026-10-02"
  },
  "descripcion": "Yomitsu — independent manga & webtoon reader for Android with Read-Aloud TTS and OCR. Built on the Yomihon/Mihon ecosystem.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fc961dc89254ed44ed5a464ab712ba56a6ae87d2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fc961dc89254ed44ed5a464ab712ba56a6ae87d2"
  },
  "repo": "Nikhil0921/yomitsu",
  "web": "https://yomihon.github.io"

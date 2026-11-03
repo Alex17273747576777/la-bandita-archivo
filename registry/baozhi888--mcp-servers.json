@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Baozhi888/mcp-servers",
   "sha256": "8ff31afab78df4fe202a1bfb882ca118dcb874c1847e724458c6fcf7ef149b7d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "baozhi888--mcp-servers",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7b1170d1da1e36bc9f553f51e76e64cbfd652b3e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7b1170d1da1e36bc9f553f51e76e64cbfd652b3e"
  },
  "repo": "Baozhi888/mcp-servers"
 }

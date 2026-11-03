@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-03",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "v0.1.0-MVP",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "The panel app for Panel Assistant: runs your Home Assistant dashboards on Android wall panels and can act as an Assist voice satellite. Installed and kept up to date from Home Assistant by the Panel Assistant integration.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 65,
+  "stars": 67,
   "stars_por_mes": null
  },
  "nombre": "android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e10d0e38c7a6d586cfbae8cfe7e7278371dffdce",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e10d0e38c7a6d586cfbae8cfe7e7278371dffdce"
  },
  "repo": "panel-assistant/android",
  "web": "https://panel-assistant.io"

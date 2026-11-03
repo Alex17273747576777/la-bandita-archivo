@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-21",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.2",
   "ultimo_push": "2026-08-25"
  },
  "descripcion": "Agent communication SDK. The open-source agent communication layer for AI agents — email, WhatsApp, Slack, Discord, Telegram, SMS. Python & TypeScript.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "718a96d6d04cb76c7ccce942d2532fd4adbfd545",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:718a96d6d04cb76c7ccce942d2532fd4adbfd545"
  },
  "repo": "TryCaspian/caspian-sdk",
  "web": "https://trycaspianai.com"

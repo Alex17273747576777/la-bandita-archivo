@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "CC0-1.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 124233,
+  "stars": 124475,
   "stars_por_mes": null
  },
  "nombre": "Awesome-Hacking",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "440486fd08b0a0d9ad9a041a0bb234dcdf65dee2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:440486fd08b0a0d9ad9a041a0bb234dcdf65dee2"
  },
  "repo": "Hack-with-Github/Awesome-Hacking"
 }

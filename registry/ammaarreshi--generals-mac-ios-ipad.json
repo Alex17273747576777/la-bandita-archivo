@@ -21,25 +21,25 @@
  "id": "ammaarreshi--generals-mac-ios-ipad",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1719,
+  "stars": 1723,
   "stars_por_mes": null
  },
  "nombre": "Generals-Mac-iOS-iPad",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "c5c8c4d3e757033d9ab464f6bd6e15e91e0e742f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:c5c8c4d3e757033d9ab464f6bd6e15e91e0e742f"
  },
  "repo": "ammaarreshi/Generals-Mac-iOS-iPad"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#NathanJGaul/openlibextended",
   "sha256": "5e3396aeb32acf261b2b0fd0aa442f6510a2e0a5984b3d091d74f9843db9d8c0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "nathanjgaul--openlibextended",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e412d94f0aee5bb433361a9c86af8fd8da3992bc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e412d94f0aee5bb433361a9c86af8fd8da3992bc"
  },
  "repo": "NathanJGaul/openlibextended"
 }

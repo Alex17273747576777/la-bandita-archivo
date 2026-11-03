@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mhmdbra224-coder/hikari",
   "sha256": "8ce4bc523c8bc2ba94c3fddec59e0c8d4ef98f3874c1b41ed8634a133b356779"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mhmdbra224-coder--hikari",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ef80e66397b1e0918f9f75e09512e4ee7c6ec2d4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ef80e66397b1e0918f9f75e09512e4ee7c6ec2d4"
  },
  "repo": "mhmdbra224-coder/hikari"
 }

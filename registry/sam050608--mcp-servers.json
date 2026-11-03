@@ -21,11 +21,11 @@
  "id": "sam050608--mcp-servers",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "599dafc1054550a6eeb87a6545c1e1b03b3ca827",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:599dafc1054550a6eeb87a6545c1e1b03b3ca827"
  },
  "repo": "Sam050608/mcp-servers",
  "web": "https://modelcontextprotocol.io"

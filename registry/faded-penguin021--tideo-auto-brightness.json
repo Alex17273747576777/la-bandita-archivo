@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-17",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.1.0-alpha",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Native Android Kotlin port of Advanced Auto Brightness.  A glass box replacement for Android's adaptive brightness. Replaces opaque ML with deterministic math. Features live graphing, auto curve fitting, circadian scaling, and hybrid dimming to prevent eye strains and headaches caused by PWM.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "12f0edbca85b0400a5112cce9e518b9593197779",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:12f0edbca85b0400a5112cce9e518b9593197779"
  },
  "repo": "faded-penguin021/Tideo-Auto-Brightness"
 }

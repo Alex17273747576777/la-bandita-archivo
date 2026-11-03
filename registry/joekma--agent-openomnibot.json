@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Joekma/agent-OpenOmniBot",
   "sha256": "bfb96eaa4078d82e4dcbc2f343d8977909bcda5c34cf7c2996d19a8bed37512b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "joekma--agent-openomnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "af94ac359f5384dc7c7dd1c647a9f4fa56478e18",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:af94ac359f5384dc7c7dd1c647a9f4fa56478e18"
  },
  "repo": "Joekma/agent-OpenOmniBot"
 }

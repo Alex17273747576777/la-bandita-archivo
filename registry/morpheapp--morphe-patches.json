@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-30",
+  "release_en": "2025-12-07",
   "semantica_http": 200,
-  "ultima_release": "v2.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v1.0.0-dev.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Morphe Patches",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4470,
+  "stars": 4524,
   "stars_por_mes": null
  },
  "nombre": "morphe-patches",
@@ -39,7 +39,7 @@
   "commit": "0bb704a9a4edb5324f6e607f3fc5a531713c607c",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0bb704a9a4edb5324f6e607f3fc5a531713c607c"
  },
  "repo": "MorpheApp/morphe-patches",
  "web": "https://Morphe.software"

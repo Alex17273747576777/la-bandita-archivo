@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-29",
+  "release_en": "2026-10-27",
   "semantica_http": 200,
-  "ultima_release": "V5.6.4",
+  "ultima_release": "V5.3.0",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "一个极简体积（<12MB）的 Android 原生 Python IDE。底层 C++ 自绘渲染，内置完整 CPython 3.12 环境与 C 扩展编译能力。支持智能代码折叠、正则替换、代码透镜（CodeLens）等现代编辑器特性。",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "5e0e3ae66c56d43bf7f0642ec3b2a3276cbe004b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5e0e3ae66c56d43bf7f0642ec3b2a3276cbe004b"
  },
  "repo": "CYX-PyEditor/Eternal-Garden-Py"
 }

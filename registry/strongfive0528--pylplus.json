@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-12",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.6.9",
   "ultimo_push": "2026-10-14"
  },
  "descripcion": "A featured version added functions such as Gamepad Support of Connect-Screen. / 添加了手柄支持等独特功能的屏易连（connect-screen）衍生版本。",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "PYLPlus",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d8fb2701145a762a5b43a54f986e5d3db43b0b26",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d8fb2701145a762a5b43a54f986e5d3db43b0b26"
  },
  "repo": "strongfive0528/PYLPlus"
 }

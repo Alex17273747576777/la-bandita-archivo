@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.69",
   "ultimo_push": "2026-09-24"
  },
  "descripcion": "GmsCore fork for Morphe patched apps",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SUVRADEEP2025/MicroG-RE",
   "sha256": "89a538d1a9ab18908cf25adc0bda77ddf8bc8c310a6ef7ad9f8e9b085ea747e9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "suvradeep2025--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7bda06a94919ed866f81b80343b1cd8f015f96fd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7bda06a94919ed866f81b80343b1cd8f015f96fd"
  },
  "repo": "SUVRADEEP2025/MicroG-RE"
 }

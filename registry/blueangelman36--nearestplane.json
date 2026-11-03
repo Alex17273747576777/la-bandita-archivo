@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-09",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.4",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "Two Android home-screen widgets: the nearest airborne aircraft, and the nearest airport's METAR. No API keys, no accounts.",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "29b8817b709438e08165173debde780be43f2053",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:29b8817b709438e08165173debde780be43f2053"
  },
  "repo": "Blueangelman36/NearestPlane"
 }

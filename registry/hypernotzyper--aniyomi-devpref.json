@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#HyperNotZyper/aniyomi-devpref",
   "sha256": "91d9a5a194e66ded7ef21cb678459d713334871d8d3de9a4d47cc0b916b00b29"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hypernotzyper--aniyomi-devpref",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "584e571fed1775d023686a3bf93115493d19183f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:584e571fed1775d023686a3bf93115493d19183f"
  },
  "repo": "HyperNotZyper/aniyomi-devpref"
 }

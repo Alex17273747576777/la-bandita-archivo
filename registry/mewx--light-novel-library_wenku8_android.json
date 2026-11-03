@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2015-08-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.2",
   "ultimo_push": "2026-10-24"
  },
  "descripcion": "[CASUALLY MAINTAINED] 轻小说文库 (Wenku8.com) 安卓版第三方公益App，始于2014年的初版Material Design风格、非盈利、Play Store上安装包最小的轻小说阅读器 (light novel reader)。目前网站的API由于被大量滥用，已更新成我自己架的 Cloudflare Worker API 中继节点，不然的话网站关闭API就全军覆没了。",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3251,
+  "stars": 3353,
   "stars_por_mes": null
  },
  "nombre": "light-novel-library_Wenku8_Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7cd6a569ca5fb0c12fbc5c25cc8ddc658531fba0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7cd6a569ca5fb0c12fbc5c25cc8ddc658531fba0"
  },
  "repo": "MewX/light-novel-library_Wenku8_Android",
  "web": "https://wenku8.mewx.org"

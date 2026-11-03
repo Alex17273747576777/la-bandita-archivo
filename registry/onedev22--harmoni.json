@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-02-09",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.2",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "**Harmoni** – El reproductor para android que combina streaming desde YouTube Music con tu biblioteca local, todo en una interfaz moderna, ligera y respetuosa con tu privacidad.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3337e7bf24dc86dc25d51b237bbf368c392d5110",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3337e7bf24dc86dc25d51b237bbf368c392d5110"
  },
  "repo": "onedev22/harmoni"
 }

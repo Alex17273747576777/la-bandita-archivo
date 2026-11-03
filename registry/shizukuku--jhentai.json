@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Shizukuku/JHenTai",
   "sha256": "9459f508371743beed6ce42076c7cbc341306135c16b4a45e1413cf1a0ab9ac8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shizukuku--jhentai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b5d84a1bb9032bece2ab823ba5171d5ff35f8b8f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b5d84a1bb9032bece2ab823ba5171d5ff35f8b8f"
  },
  "repo": "Shizukuku/JHenTai"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Shiho-Patch/OpenOmniBot",
   "sha256": "bb1308d41583f451b2cfe58d022394df2fcc10d48ff2d61c8de3d770fa0d4f7f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shiho-patch--openomnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "cbf950290f99cf0b5656bc06bb97db30b2acbf0c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cbf950290f99cf0b5656bc06bb97db30b2acbf0c"
  },
  "repo": "Shiho-Patch/OpenOmniBot"
 }

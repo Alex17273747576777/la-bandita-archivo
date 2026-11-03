@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2024-12-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "VM",
   "ultimo_push": "2024-12-29"
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a3892f7865a67868bcc0b35112ea06c0f8b0d930",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a3892f7865a67868bcc0b35112ea06c0f8b0d930"
  },
  "repo": "OtakuProxq/Vectras-VM-Android",
  "web": "https://vectras.vercel.app"

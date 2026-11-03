@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Timebreaker3/InstallerX-Revived",
   "sha256": "da7bad274b3d52b92425fdb112078ae9f7e380a326245298d02b5cb84c0a6d1c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "timebreaker3--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "50e686daacef1da75996a67eb2a2d16512a5c747",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:50e686daacef1da75996a67eb2a2d16512a5c747"
  },
  "repo": "Timebreaker3/InstallerX-Revived"
 }

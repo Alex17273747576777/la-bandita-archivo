@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "30062026_UFM",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "Ultimate File Manager Pro",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 306,
+  "stars": 311,
   "stars_por_mes": null
  },
  "nombre": "ultimate-file-manager-pro",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "266b90f2fbca13a148fb168f48afa5ba041e2c27",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:266b90f2fbca13a148fb168f48afa5ba041e2c27"
  },
  "repo": "Kilowatch/ultimate-file-manager-pro"
 }

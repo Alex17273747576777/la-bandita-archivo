@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#liuzjMr/web-to-app",
   "sha256": "8dae6e1dbc88f1e2fbe89c086a0ffe4c6973a30d3716af83e05a65d279bd6e26"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "liuzjmr--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "efca2b6e031dd17614f31debbd6edd42d4d03be2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:efca2b6e031dd17614f31debbd6edd42d4d03be2"
  },
  "repo": "liuzjMr/web-to-app"
 }

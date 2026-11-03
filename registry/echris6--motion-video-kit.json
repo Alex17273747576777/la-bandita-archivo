@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1315,
+  "stars": 1340,
   "stars_por_mes": null
  },
  "nombre": "motion-video-kit",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e4b1c0004080fe6a0deb883631bad5eba1e5f339",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e4b1c0004080fe6a0deb883631bad5eba1e5f339"
  },
  "repo": "echris6/motion-video-kit"
 }

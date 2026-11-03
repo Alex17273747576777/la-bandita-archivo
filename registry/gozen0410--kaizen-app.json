@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Gozen0410/kaizen-app",
   "sha256": "8d82cefbde068e506601f9fc5db25a47c78ae0145594f70fe3b4a0d4773fff58"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "gozen0410--kaizen-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e3c3158e40ca491590e699e30e91ceb4f8b6b5de",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e3c3158e40ca491590e699e30e91ceb4f8b6b5de"
  },
  "repo": "Gozen0410/kaizen-app"
 }

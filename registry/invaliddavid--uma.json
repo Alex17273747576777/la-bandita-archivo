@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-17",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "049dbda",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "UMA Plugin for the Usagi App or other Kotatsu Forks.",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 83,
+  "stars": 84,
   "stars_por_mes": null
  },
  "nombre": "UMA",
@@ -40,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a957b28f328e2494bd1b48916b9f7102b8a5c948",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a957b28f328e2494bd1b48916b9f7102b8a5c948"
  },
  "repo": "InvalidDavid/UMA",
  "web": "https://yumemi.moe/usagi"

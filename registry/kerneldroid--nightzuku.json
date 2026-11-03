@@ -1,20 +1,20 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-19",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v13.6.0.r40-nightzuku",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Shizuku fork with Material 3 Expressive and Android SDK 37 updates",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
-  "payload_ref": "registry/_evidencia/kerneldroid--nightzuku.json",
-  "sha256": "4a3cb801bbabe8283c098c102f9d74bc6aca55c4a35e3cba2552b674c5409d3f"
+  "nota": "ficha creada el 3-nov-2026 al medir los herederos de Shizuku para la pieza 04",
+  "payload_ref": "consulta GraphQL del 2026-11-03 sobre kerneldroid/Nightzuku",
+  "sha256": "0ea799fb757990c14b0d3ba8f0904f20018b5466e3af14bb8e85d00f4224fbf2"
  },
  "frescura_dias": 0,
  "fuente": {
-  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "metodo": "consulta GraphQL del nodo repository; campos exactos, sin inferencias",
   "primaria": "github-api",
   "secundarias": []
  },
@@ -22,24 +22,27 @@
  "licencia": {
   "archivo": null,
   "metodo": "spdx-api",
+  "nota": "certificada además contra el texto del archivo LICENSE en la medición de la pieza 04",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 324,
+  "stars": 329,
   "stars_por_mes": null
  },
  "nombre": "Nightzuku",
- "piezas": [],
+ "piezas": [
+  "04"
+ ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swh_estado": null,
-  "swh_solicitud": null,
-  "swhid": null
+  "commit": "e6904452b6a2b9a72fac2d1f7fce9978a08bd883",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:e6904452b6a2b9a72fac2d1f7fce9978a08bd883"
  },
  "repo": "kerneldroid/Nightzuku"
 }

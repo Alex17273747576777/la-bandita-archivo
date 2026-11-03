@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Balakier620/MicroG-RE",
   "sha256": "74391fb8af412c95bf28a79fc4501ea297a97fea79eda93613cea62aa6a4c36a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "balakier620--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "66a2bbac7d88c3e038f1b047774fe2ae65534b6a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:66a2bbac7d88c3e038f1b047774fe2ae65534b6a"
  },
  "repo": "Balakier620/MicroG-RE"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2024-06-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0.1",
   "ultimo_push": "2024-07-23"
  },
  "descripcion": "一个适用于Android平台的文件操作库 —— kt库。",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "LGPL-2.1",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "53a4aa35684920774c0fd810bac2482626117b64",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:53a4aa35684920774c0fd810bac2482626117b64"
  },
  "repo": "lumkit/LintFile"
 }

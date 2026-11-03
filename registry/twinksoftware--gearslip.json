@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-25",
+  "release_en": "2026-09-20",
   "semantica_http": 200,
-  "ultima_release": "v0.3.12-alpha",
+  "ultima_release": "pre",
   "ultimo_push": "2026-10-27"
  },
  "descripcion": "An Android Auto alternative built for everyone",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 225,
+  "stars": 257,
   "stars_por_mes": null
  },
  "nombre": "Gearslip",
@@ -39,7 +39,7 @@
   "commit": "a00f5c489611f4a3a2e2a07d355cb36b298542a6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a00f5c489611f4a3a2e2a07d355cb36b298542a6"
  },
  "repo": "twinksoftware/Gearslip"
 }

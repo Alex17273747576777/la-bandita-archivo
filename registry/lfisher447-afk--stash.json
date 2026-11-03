@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#lfisher447-afk/Stash",
   "sha256": "d0da0a84861d960e7cc69aaf9e3547ff0dde201c7ebd610634065310dd08693f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lfisher447-afk--stash",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f3a03f3268d103f7db5bc9faefc06d123d29c3cb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f3a03f3268d103f7db5bc9faefc06d123d29c3cb"
  },
  "repo": "lfisher447-afk/Stash"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-01",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-08-24"
+  "ultima_release": "v0.20.1",
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#b1ack0u7/aniyomi",
   "sha256": "424f7db0ab9c1c124d729fbb7e15641c5381853514cf3f6edc339dfe045f2036"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "b1ack0u7--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ba6adedacd8bdd047bccccd369e650f1f9eecb40",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ba6adedacd8bdd047bccccd369e650f1f9eecb40"
  },
  "repo": "b1ack0u7/aniyomi"
 }

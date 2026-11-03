@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-05",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "04250b1-0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Extensions for Komikku / Mihon & forks.",
  "evidencia": {
@@ -25,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 465,
+  "stars": 466,
   "stars_por_mes": null
  },
  "nombre": "manga-repo",
@@ -39,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d29e20baf6e438403b59ba7f9116c1310f1e0bee",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d29e20baf6e438403b59ba7f9116c1310f1e0bee"
  },
  "repo": "cuong-tran/manga-repo",
  "web": "https://yuzono.github.io"

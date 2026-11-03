@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-05-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "beta-0.1",
   "ultimo_push": "2026-10-28"
  },
  "descripcion": "A tool for retrieving gacha history link on Android devices",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0ef70b11a4ca90e547d8c0756afc0a7cbcc4b88c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0ef70b11a4ca90e547d8c0756afc0a7cbcc4b88c"
  },
  "repo": "4o3F/Ascent"
 }

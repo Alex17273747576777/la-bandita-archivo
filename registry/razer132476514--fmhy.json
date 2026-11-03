@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Razer132476514/FMHY",
   "sha256": "27e2deedd7c306d0b1f343331dc6d4e4d8544f29794265e2f0ea161daf174c16"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1814c6caf6c21e4099012da86755f32339e66441",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1814c6caf6c21e4099012da86755f32339e66441"
  },
  "repo": "Razer132476514/FMHY"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.2.2+26",
   "ultimo_push": "2026-10-11"
  },
  "descripcion": "An all in one reading and streaming app for manga, anime and light novels",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f24bdbc92f01ba94303ee8217b66ba38327a9cb0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f24bdbc92f01ba94303ee8217b66ba38327a9cb0"
  },
  "repo": "ghotato/Foxlations"
 }

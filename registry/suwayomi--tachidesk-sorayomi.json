@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2022-03-07",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.1.0",
   "ultimo_push": "2025-07-09"
  },
  "descripcion": "A free and open source manga reader app to read manga from a Tachidesk-Server instance.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1574,
+  "stars": 1572,
   "stars_por_mes": null
  },
  "nombre": "Tachidesk-Sorayomi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "df37f4ce700a7db7c971301d0adc65b4f0721a6f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:df37f4ce700a7db7c971301d0adc65b4f0721a6f"
  },
  "repo": "Suwayomi/Tachidesk-Sorayomi",
  "web": "https://suwayomi.github.io/Tachidesk-Sorayomi/"

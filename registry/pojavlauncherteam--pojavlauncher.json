@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2020-03-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.4.2-preview.5",
   "ultimo_push": "2025-09-23"
  },
  "descripcion": "A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. Succeeded by https://github.com/AngelAuraMC/Amethyst-Android",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "LGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9490,
+  "stars": 9486,
   "stars_por_mes": null
  },
  "nombre": "PojavLauncher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b12ad048157b3aa255d078c235dd4571e1900309",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b12ad048157b3aa255d078c235dd4571e1900309"
  },
  "repo": "PojavLauncherTeam/PojavLauncher"
 }

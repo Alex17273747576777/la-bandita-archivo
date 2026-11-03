@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2017-06-14",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "No clever tagline needed.",
  "evidencia": {
@@ -21,15 +21,15 @@
  "id": "lawnchairlauncher--lawnchair",
  "licencia": {
   "archivo": "LICENSE.txt",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13833,
+  "stars": 13850,
   "stars_por_mes": null
  },
  "nombre": "lawnchair",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "85493b9776d678c5b22d88b644f1ca530c3af92d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:85493b9776d678c5b22d88b644f1ca530c3af92d"
  },
  "repo": "LawnchairLauncher/lawnchair",
  "web": "https://lawnchair.app"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AmirAli-AZ/CodeAssist",
   "sha256": "698d8d2269486813aa546d530a175738a0815312cf209241f70b2b95ec8e0dc7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "amirali-az--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2b8a16d96d9e9c19ae6c36769937d8f26bdd2412",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2b8a16d96d9e9c19ae6c36769937d8f26bdd2412"
  },
  "repo": "AmirAli-AZ/CodeAssist"
 }

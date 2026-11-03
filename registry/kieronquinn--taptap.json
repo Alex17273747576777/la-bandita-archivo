@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": "2024-10-26",
+  "release_en": "2020-07-30",
   "semantica_http": 200,
-  "ultima_release": "1.6.2",
+  "ultima_release": "0.1-alpha",
   "ultimo_push": "2024-10-26"
  },
  "descripcion": "Port of the double tap on back of device feature from Android 12 to any Android 7.0+ device",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4059,
+  "stars": 4060,
   "stars_por_mes": null
  },
  "nombre": "TapTap",

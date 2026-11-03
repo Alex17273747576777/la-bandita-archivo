@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-27",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-09"
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-23"
  },
  "descripcion": "Custom microG fork — hidden from launcher, auto-updated, Realme/OPPO/OnePlus fix",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Utsavrajputt/MicroG-24",
   "sha256": "090159149fc68393493f81b5ee5716b2508183c85bb8f51a86b67e31d31675c7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,23 +21,24 @@
  "id": "utsavrajputt--microg-24",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": 0.0
  },
  "nombre": "MicroG-24",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "85e061042c16a73ab6e89773af6da5cf98450400",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:85e061042c16a73ab6e89773af6da5cf98450400"
  },
  "repo": "Utsavrajputt/MicroG-24"
 }

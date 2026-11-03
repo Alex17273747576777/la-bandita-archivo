@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2023-08-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "publish",
   "ultimo_push": "2023-09-17"
  },
  "descripcion": "Return of the manufacturer-deleted SensorsOff tile. If your phone manufacturer absolutely wants to spy on you (Hi Xiaomi :)) and you can't do anything about it, just use this application. Requires Shizuku!",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 108,
+  "stars": 109,
   "stars_por_mes": null
  },
  "nombre": "SensorsOff",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3843ad59b85d13cb52f4bbe071d7ed7cd2723b24",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3843ad59b85d13cb52f4bbe071d7ed7cd2723b24"
  },
  "repo": "LinerSRT/SensorsOff"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Akumar96/off-grid-mobile-ai",
   "sha256": "f4a83effcf3661236b21783f9eb889867beb38a19d82a13ac7b44ea365ffd2dc"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "akumar96--off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2f383896be0c4200dad665e364b8d1a72dc7e7e2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2f383896be0c4200dad665e364b8d1a72dc7e7e2"
  },
  "repo": "Akumar96/off-grid-mobile-ai"
 }

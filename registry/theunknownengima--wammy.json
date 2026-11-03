@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#TheUnknownEngima/Wammy",
   "sha256": "a516ae1e7ddc779ed72683c2dc503ad8af89b536d4befb352c39c67b0294e06e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "theunknownengima--wammy",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f423c646eb6ac8d738e7317f60259e7e9581fdc0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f423c646eb6ac8d738e7317f60259e7e9581fdc0"
  },
  "repo": "TheUnknownEngima/Wammy"
 }

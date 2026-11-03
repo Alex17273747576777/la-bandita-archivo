@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#u1091104302/jenny-android-ai-agent",
   "sha256": "240416c9db55d9e805e0ea83917a06717c1350894750a12d279202d265bb2554"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "u1091104302--jenny-android-ai-agent",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b87cee5b46878208f04cc01d75518c4441d8a772",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b87cee5b46878208f04cc01d75518c4441d8a772"
  },
  "repo": "u1091104302/jenny-android-ai-agent"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#neuroradiology/FMHY",
   "sha256": "0f6a2eaeab96e82466a45884cfa22615dd3827bd8fb526f5d20ee832cc99b902"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "56e12b188870776e88b665d76c9d3d9493193504",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:56e12b188870776e88b665d76c9d3d9493193504"
  },
  "repo": "neuroradiology/FMHY"
 }

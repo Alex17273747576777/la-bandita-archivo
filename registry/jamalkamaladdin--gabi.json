@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jamalkamaladdin/gabi",
   "sha256": "1d96af8d237a1ef95d2f7c8f83294c98fda9eee42ae55d7d9c5725127586a870"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jamalkamaladdin--gabi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "17ba42e910d98f1a336488870d7064b86f6828a8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:17ba42e910d98f1a336488870d7064b86f6828a8"
  },
  "repo": "jamalkamaladdin/gabi"
 }

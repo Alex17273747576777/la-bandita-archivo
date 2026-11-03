@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#asgardoracle/off-grid-mobile-ai",
   "sha256": "8bf32fe6e206985f4f4c9fbd55d34a5fb86c60757417150da7df0370fc15ee09"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "asgardoracle--off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "40c2ad477266a7d597a3564674eefbe7e804714f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:40c2ad477266a7d597a3564674eefbe7e804714f"
  },
  "repo": "asgardoracle/off-grid-mobile-ai"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Nitin-Mane/OGAM",
   "sha256": "edf56ee80b1c299474a91f526bf835d38e65c9bb5481e4038e4ece59be2fd110"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "nitin-mane--ogam",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "856bca125b2f742857c016b49b526d9e43e35dbd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:856bca125b2f742857c016b49b526d9e43e35dbd"
  },
  "repo": "Nitin-Mane/OGAM"
 }

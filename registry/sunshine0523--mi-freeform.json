@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2022-02-09",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.0.5",
   "ultimo_push": "2024-03-25"
  },
  "descripcion": "Mi-Freeform 3 is an Android third-party freeform software that supports Android 8.1-Android 14",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 802,
+  "stars": 803,
   "stars_por_mes": null
  },
  "nombre": "Mi-Freeform",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0a078b385fbd12d4bfd83dbe905e8eaa62ac36c1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0a078b385fbd12d4bfd83dbe905e8eaa62ac36c1"
  },
  "repo": "sunshine0523/Mi-Freeform"
 }

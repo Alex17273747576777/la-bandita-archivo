@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-10-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.2",
   "ultimo_push": "2026-10-19"
  },
  "descripcion": "Install any apk on the device you own. ",
@@ -26,11 +26,11 @@
   "spdx": "Apache 2.0",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2939,
+  "stars": 2943,
   "stars_por_mes": null
  },
  "nombre": "anyapk",

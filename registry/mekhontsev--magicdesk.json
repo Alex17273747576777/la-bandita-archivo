@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-26",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Open-source Android workstation: native multi-window desktops, X11/Wayland, Termux and MCP automation. Shroot runs Linux, systemd, Docker and Podman via Shizuku/Shevery without root. Android 14+; managed Desktop 15+.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 190,
+  "stars": 201,
   "stars_por_mes": null
  },
  "nombre": "magicdesk",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7ab99d6b17a5acf92e568fe1b30609d5399a35ec",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7ab99d6b17a5acf92e568fe1b30609d5399a35ec"
  },
  "repo": "mekhontsev/magicdesk"
 }

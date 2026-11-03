@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.6.7",
   "ultimo_push": "2026-10-21"
  },
  "descripcion": "Galaxy Box — 主要為 Samsung Galaxy 三星手機設計的繁體中文 Android 硬體工具箱。溫度監控、電池診斷、硬體檢測與桌面小工具；基本功能免 Root。",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "21726124ef1dc683b1fbe65e9db9f047b8a58fcc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:21726124ef1dc683b1fbe65e9db9f047b8a58fcc"
  },
  "repo": "shadow11190/Galaxy-box"
 }

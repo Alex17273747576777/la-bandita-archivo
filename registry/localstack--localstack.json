@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2016-12-11",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.16",
   "ultimo_push": "2026-03-23"
  },
  "descripcion": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
@@ -21,25 +21,25 @@
  "id": "localstack--localstack",
  "licencia": {
   "archivo": "LICENSE.txt",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 65127,
+  "stars": 65128,
   "stars_por_mes": null
  },
  "nombre": "localstack",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8b9a79f05846835cf4dff63ab7eefdde9df83783",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8b9a79f05846835cf4dff63ab7eefdde9df83783"
  },
  "repo": "localstack/localstack",
  "web": "https://localstack.cloud"

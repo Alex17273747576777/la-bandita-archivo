@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kkeenee/dominostars-playtranslate",
   "sha256": "75aabe40c1655d72d0be34ce6e81c9e93c84fcdee535b62159e5d0723c132379"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kkeenee--dominostars-playtranslate",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a1b9cb43cae665176f725ee2e4bf34061336c838",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a1b9cb43cae665176f725ee2e4bf34061336c838"
  },
  "repo": "kkeenee/dominostars-playtranslate"
 }

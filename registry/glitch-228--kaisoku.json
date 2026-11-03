@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-02-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "kaisoku-v9.6.4-forksync-20260222",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "Manga reader for Android",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 54,
+  "stars": 55,
   "stars_por_mes": null
  },
  "nombre": "Kaisoku",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d8a4ce3f4622ad8bab0056bf870dcc3a0513ddb9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d8a4ce3f4622ad8bab0056bf870dcc3a0513ddb9"
  },
  "repo": "glitch-228/Kaisoku"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#theezequiel42/airi",
   "sha256": "8b05d8ac40b1565a4e6398a28d190b65596bd193cbaa44c2c773b8aee424d23f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "theezequiel42--airi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "34f45ee336c6c0d0b43741745dbd80c09d1cdf16",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:34f45ee336c6c0d0b43741745dbd80c09d1cdf16"
  },
  "repo": "theezequiel42/airi"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Arunkumar-Anbazhagan/Anime-batch-downloader-gui",
   "sha256": "f36bb7ac3e5ec4ea5161a0d1fd162583f2e0c5dfda6c1b35ab9784073e41ab19"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "70224d832b1f1bc2ad0a95d885e400dc5661d901",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:70224d832b1f1bc2ad0a95d885e400dc5661d901"
  },
  "repo": "Arunkumar-Anbazhagan/Anime-batch-downloader-gui"
 }

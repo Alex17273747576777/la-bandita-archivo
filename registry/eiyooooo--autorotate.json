@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2025-04-07",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "V1.0.0",
   "ultimo_push": "2025-06-10"
  },
  "descripcion": "自动旋转 | Manage automatic rotation of different screens on Android phones",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "df7ce322b535bb788e72297ace657ce42e5362b8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:df7ce322b535bb788e72297ace657ce42e5362b8"
  },
  "repo": "eiyooooo/AutoRotate"
 }

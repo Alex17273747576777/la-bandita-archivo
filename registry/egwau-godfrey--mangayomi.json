@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Egwau-Godfrey/mangayomi",
   "sha256": "1fa8628a09fa4cbc4a089311bcf624e0d4fb8fab31c30b9a59565436932e8d60"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "egwau-godfrey--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6c9cf904701d04a48e37baa966e10d7fb25407cb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6c9cf904701d04a48e37baa966e10d7fb25407cb"
  },
  "repo": "Egwau-Godfrey/mangayomi"
 }

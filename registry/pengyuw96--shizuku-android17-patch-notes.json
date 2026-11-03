@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v13.7.0-android17-patch1",
   "ultimo_push": "2026-10-01"
  },
  "descripcion": "Android 17 patch for Shizuku: restore in-app Wireless Debugging start when ADB_ENABLED reads as fake 0",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f025e3ee1472cb6119b6dfcfd8a51921dd89c251",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f025e3ee1472cb6119b6dfcfd8a51921dd89c251"
  },
  "repo": "pengyuw96/shizuku-android17-patch-notes",
  "web": "https://github.com/pengyuw96/shizuku-android17-patch-notes/releases"

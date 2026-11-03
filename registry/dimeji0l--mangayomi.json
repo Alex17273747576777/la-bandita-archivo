@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Dimeji0l/mangayomi",
   "sha256": "82e1eefa549f733c27e64644b006de0d61d9fe42f5bc4907f340799b52919f10"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dimeji0l--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "89dd50dc25a45c2cb86c2fa4dbe808e9a5624cd9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:89dd50dc25a45c2cb86c2fa4dbe808e9a5624cd9"
  },
  "repo": "Dimeji0l/mangayomi"
 }

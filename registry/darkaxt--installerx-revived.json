@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-02",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-05"
+  "ultima_release": "26.10.1001",
+  "ultimo_push": "2026-10-26"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Darkaxt/InstallerX-Revived",
   "sha256": "c7718f4807e6fb6ef22a76e7de48e85853816681e0ec20f5d5582417f93007e4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "darkaxt--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9fc11d4b5f582386442afd80e862e0a32684b9c9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9fc11d4b5f582386442afd80e862e0a32684b9c9"
  },
  "repo": "Darkaxt/InstallerX-Revived"
 }

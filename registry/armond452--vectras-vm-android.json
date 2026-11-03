@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2025-02-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.7",
   "ultimo_push": "2025-05-15"
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "dba635d7797106a67f74a082f24681aee75d1d79",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:dba635d7797106a67f74a082f24681aee75d1d79"
  },
  "repo": "Armond452/Vectras-VM-Android",
  "web": "https://vectras.vercel.app"

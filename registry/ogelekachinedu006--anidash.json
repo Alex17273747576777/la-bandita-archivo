@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#OgelekaChinedu006/AniDash",
   "sha256": "2fe42d7f3018d692a66d2ee2fbdc9193be50b5e5142959d09637aaee7e16ec95"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ogelekachinedu006--anidash",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2cb7946000527ee8477ce1539d1836fcf07bcddb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2cb7946000527ee8477ce1539d1836fcf07bcddb"
  },
  "repo": "OgelekaChinedu006/AniDash"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": "2025-12-18",
+  "release_en": "2025-12-09",
   "semantica_http": 200,
-  "ultima_release": "V1.4.2",
+  "ultima_release": "V1.0.0",
   "ultimo_push": "2026-01-08"
  },
  "descripcion": "Android Automation Tool Based on Vision-Language Models",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2410,
+  "stars": 2412,
   "stars_por_mes": null
  },
  "nombre": "roubao",

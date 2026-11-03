@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-08",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "2.1.7",
   "ultimo_push": "2026-10-08"
  },
  "descripcion": "A manga viewer.support realtime Coloring  and Anime4kSR and OCR translation.All",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#heloka/Venera-SSR",
   "sha256": "5a9a18c61e453fc89f02b4b797f876b0df6e3e12f14fafb001b84747067e99c5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "heloka--venera-ssr",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c2762d5702098de6fecbb8491fb28c523ee6c029",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c2762d5702098de6fecbb8491fb28c523ee6c029"
  },
  "repo": "heloka/Venera-SSR"
 }

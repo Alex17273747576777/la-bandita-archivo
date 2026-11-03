@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-08",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.4.1",
   "ultimo_push": "2026-09-30"
  },
  "descripcion": "Inspect, debloat, back up, freeze, and control Android apps from one open-source package manager. Works without root, with Shizuku, ADB, or root when needed.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 162,
+  "stars": 169,
   "stars_por_mes": null
  },
  "nombre": "AppManagerNG",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3a3e4418ca49fcfdbac7adada20b009ebd9a3b29",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3a3e4418ca49fcfdbac7adada20b009ebd9a3b29"
  },
  "repo": "SysAdminDoc/AppManagerNG"
 }

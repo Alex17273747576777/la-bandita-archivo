@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#singamsricharan/nova-manga",
   "sha256": "b773936b2068bd8cd3b3700df46c6e71d522004773d0b53d89a4aaf350560c4a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "singamsricharan--nova-manga",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ba5db65aa3e262b6f3b904835a458f8d31e0f812",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ba5db65aa3e262b6f3b904835a458f8d31e0f812"
  },
  "repo": "singamsricharan/nova-manga"
 }

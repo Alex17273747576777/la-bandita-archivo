@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jinsixiangyu/web-to-app",
   "sha256": "8dc10bb2229435339dba116cba6af6b34e661329e414b4e257d280613be09d27"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jinsixiangyu--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d888a7cc2d3f927e3e2a38f3c41a0a99d9b86748",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d888a7cc2d3f927e3e2a38f3c41a0a99d9b86748"
  },
  "repo": "jinsixiangyu/web-to-app"
 }

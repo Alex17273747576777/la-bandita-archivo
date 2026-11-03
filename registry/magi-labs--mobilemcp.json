@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-12"
  },
  "descripcion": "Let AI agents use your real Android phone through its accessibility service: screen tree with stable refs, taps, typing, gestures, notifications, apps. MCP server + hub + app.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "mobilemcp",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a98fdf7d49ca39534aaadb12de4c9f57defb63ac",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a98fdf7d49ca39534aaadb12de4c9f57defb63ac"
  },
  "repo": "Magi-Labs/mobilemcp",
  "web": "https://magi-labs.github.io/mobilemcp/"

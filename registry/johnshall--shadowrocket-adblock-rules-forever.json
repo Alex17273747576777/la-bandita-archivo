@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-10-23",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "johnshall--shadowrocket-adblock-rules-forever",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "CC-BY-SA-4.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 31721,
+  "stars": 31791,
   "stars_por_mes": null
  },
  "nombre": "Shadowrocket-ADBlock-Rules-Forever",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "82b062c249220ef7430d970a4d7d3007ca6acfc3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:82b062c249220ef7430d970a4d7d3007ca6acfc3"
  },
  "repo": "Johnshall/Shadowrocket-ADBlock-Rules-Forever",
  "web": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/"

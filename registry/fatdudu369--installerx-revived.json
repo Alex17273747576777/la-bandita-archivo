@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#fatdudu369/InstallerX-Revived",
   "sha256": "b8d6d9f6c325714c3b69b23214146b83bff8c6fd88e35480cb2c101e2c31d134"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "fatdudu369--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f0270f90940814a479529899ae78d1d7cb95f53c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f0270f90940814a479529899ae78d1d7cb95f53c"
  },
  "repo": "fatdudu369/InstallerX-Revived"
 }

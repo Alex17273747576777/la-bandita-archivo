@@ -1,9 +1,9 @@
 # PIEZA 08 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/08-Musica-FOSS-clientes-con-repo-La-Bandita-2026-09-22-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `6a150a8755701550a7f895854f30760d5073610457fe12504e5d728b04501316`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3618 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3618 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 904 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 9 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/08-Musica-FOSS-clientes-con-repo-La-Bandita-2026-09-22-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3618 caracteres ═══
 
@@ -87,22 +87,22 @@ La noticia fresca es de **N-Zik-Group/N-Zik**: release v8.5.0 (2026-10-28). En l
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1366 caracteres ═══
+═══ MENSAJE 4 de 5 · 1545 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• TeamNewPipe/NewPipe — ★40.402 (+48) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
-• MetrolistGroup/Metrolist — ★13.969 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• maxrave-dev/SimpMusic — ★12.671 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• AntennaPod/AntennaPod — ★8.261 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• z-huang/InnerTune — ★6.135 (sin cambio) · *dormido*: sin empujar desde el 13-nov-2025 (354 días) · GPL-3.0
-• OuterTune/OuterTune — ★5.442 (sin cambio) · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0
-• OxygenCobalt/Auxio — ★4.418 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• anandnet/Harmony-Music — ★3.089 · *dormido*: sin empujar desde el 8-dic-2025 (329 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
-• N-Zik-Group/N-Zik — ★280 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v8.5.0 (28-oct-2026)
-• Hotaro26/gabi — ★105 (+1) · empujó el 30-sep-2026 (hace 33 días) · MIT · última release v4.6.1 (1-sep-2026)
+• TeamNewPipe/NewPipe — ★40.410 (+56) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
+• MetrolistGroup/Metrolist — ★13.979 (+90) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.687 (+158) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• AntennaPod/AntennaPod — ★8.260 (+3) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
+• z-huang/InnerTune — ★6.135 (+4) · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• OuterTune/OuterTune — ★5.441 (+4) · empujó el 12-oct-2026 (hace 22 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• OxygenCobalt/Auxio — ★4.418 (+7) · empujó en las últimas horas · GPL-3.0 · última release v4.1.5 (4-ago-2026)
+• anandnet/Harmony-Music — ★3.087 (-2) · *dormido*: sin empujar desde el 8-dic-2025 (330 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
+• N-Zik-Group/N-Zik — ★281 (+1) · empujó en las últimas horas · GPL-3.0 · última release v8.5.0 (28-oct-2026)
+• Hotaro26/gabi — ★105 (+1) · empujó el 30-sep-2026 (hace 34 días) · MIT · última release v4.6.1 (1-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

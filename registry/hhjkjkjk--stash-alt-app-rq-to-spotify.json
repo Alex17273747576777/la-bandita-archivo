@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#hhjkjkjk/Stash-Alt-app-rq-to-Spotify-",
   "sha256": "ce6d4bb9222d6656fa91bfffae78077e85dc4b01097369af31283e6ff8f8c8c8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hhjkjkjk--stash-alt-app-rq-to-spotify",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e38b8d184aa88c943b41cd742cb9aa00b67577eb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e38b8d184aa88c943b41cd742cb9aa00b67577eb"
  },
  "repo": "hhjkjkjk/Stash-Alt-app-rq-to-Spotify-"
 }

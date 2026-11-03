@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-23",
+  "release_en": "2026-10-12",
   "semantica_http": 200,
-  "ultima_release": "v0.8.9",
+  "ultima_release": "v0.8.2",
   "ultimo_push": "2026-10-23"
  },
  "descripcion": "Stream both screens of a dual-screen Android handheld (AYN Thor) to a Samsung Tizen or Android TV over Wi-Fi",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "c816ef9fd89973e22611e98d30f15e0260089d7c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:c816ef9fd89973e22611e98d30f15e0260089d7c"
  },
  "repo": "Dysprohol/duobeam"
 }

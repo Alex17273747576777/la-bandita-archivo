@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#The-darknova/yokai",
   "sha256": "ca7f2901d487c4cdd4e1a4a6750a9b8a95963a781ac7f96f96c177a831b31185"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "the-darknova--yokai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "17879ddc5abb6e2c82a85861cbfa17ffaa32c625",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:17879ddc5abb6e2c82a85861cbfa17ffaa32c625"
  },
  "repo": "The-darknova/yokai"
 }

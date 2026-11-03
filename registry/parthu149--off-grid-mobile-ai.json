@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "vivo",
-  "release_en": null,
+  "estado": "dormido",
+  "release_en": "2026-04-21",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.91",
   "ultimo_push": "2026-04-21"
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#parthu149/off-grid-mobile-ai",
   "sha256": "942ac4a28c1097e9cdd685343ea74d94688b828fbd2fa1f3f8af493de416d383"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "parthu149--off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6d09f1d4f7411486b7ef2a816894fff4cac6e259",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6d09f1d4f7411486b7ef2a816894fff4cac6e259"
  },
  "repo": "parthu149/off-grid-mobile-ai"
 }

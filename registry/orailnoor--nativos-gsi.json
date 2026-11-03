@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-15",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v34-rc1",
   "ultimo_push": "2026-10-15"
  },
  "descripcion": "NativOS is an experimental Linux-first Android GSI combining an Ubuntu/Phosh desktop with Android apps and hardware support. Features integrated Linux startup and APT package management. Boot-tested on Moto G71 and Pixel 6a; compatibility varies by device.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 39,
+  "stars": 40,
   "stars_por_mes": null
  },
  "nombre": "NativOS-GSI",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "be503855c648eb79bddfb8f3c4ae6301fa0aecf0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:be503855c648eb79bddfb8f3c4ae6301fa0aecf0"
  },
  "repo": "orailnoor/NativOS-GSI"
 }

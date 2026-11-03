@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.1",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "A desktop-class multimedia file manager for Android optimized for DeX, tablets, phones and mouse/keyboard productivity. Now with integrated Game Manager, PDF reader and text editor!",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 50,
+  "stars": 52,
   "stars_por_mes": null
  },
  "nombre": "Continuum-Explorer-Memories",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4d7d6ca222d5680671f888aa4a5f86a83a3dd5a4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4d7d6ca222d5680671f888aa4a5f86a83a3dd5a4"
  },
  "repo": "johakovi/Continuum-Explorer-Memories"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.2.0",
   "ultimo_push": "2026-10-23"
  },
  "descripcion": "Natural-language Android automation through AutoJs6 host capabilities and AI providers",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "51b4ae666a0225a99ef3e592b37e32e4c1071e4a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:51b4ae666a0225a99ef3e592b37e32e4c1071e4a"
  },
  "repo": "SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent"
 }

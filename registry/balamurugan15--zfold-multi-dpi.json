@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1",
   "ultimo_push": "2026-10-22"
  },
  "descripcion": "ZFold-Multi-DPI",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1a7e9fd1f49834679252049a906a26cf3fdcc076",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1a7e9fd1f49834679252049a906a26cf3fdcc076"
  },
  "repo": "balamurugan15/ZFold-Multi-DPI"
 }

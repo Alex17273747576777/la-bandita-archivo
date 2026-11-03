@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-01-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v3.0",
   "ultimo_push": "2026-08-25"
  },
  "descripcion": "Source code of Package Manager, an Application to Manage your Apps.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 852,
+  "stars": 856,
   "stars_por_mes": null
  },
  "nombre": "PackageManager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a5c15ef34c0c4548e60ba0205c4c48442dc3a512",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a5c15ef34c0c4548e60ba0205c4c48442dc3a512"
  },
  "repo": "SmartPack/PackageManager",
  "web": "https://smartpack.github.io/PackageManager/"

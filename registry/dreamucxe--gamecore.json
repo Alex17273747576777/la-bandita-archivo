@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Android gaming overlay, performance monitor and per-game profile manager. Every number it shows is one the platform actually reported — where Android will not answer, it says so instead of guessing.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 26,
+  "stars": 27,
   "stars_por_mes": null
  },
  "nombre": "GameCore",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2a0dde06c7c6a76cbbf2a10858dd5d2440ed8060",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2a0dde06c7c6a76cbbf2a10858dd5d2440ed8060"
  },
  "repo": "Dreamucxe/GameCore"
 }

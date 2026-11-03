@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.72.81",
   "ultimo_push": "2026-09-01"
  },
  "descripcion": "An app for manga, anime and ranobe",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#h80r/mugen",
   "sha256": "3ef1902ecc36017a47d5a6592aeaaf5c308f5012deccdd910e3ef2561a551768"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "h80r--mugen",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "59ffa0cf1313c91fee73556b7fe29027e5b8c421",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:59ffa0cf1313c91fee73556b7fe29027e5b8c421"
  },
  "repo": "h80r/mugen"
 }

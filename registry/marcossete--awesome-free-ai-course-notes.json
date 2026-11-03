@@ -21,25 +21,25 @@
  "id": "marcossete--awesome-free-ai-course-notes",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "CC0-1.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 666,
+  "stars": 667,
   "stars_por_mes": null
  },
  "nombre": "awesome-free-ai-course-notes",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "bd4d30c73fcc22b3d96392ebd97f67bbf15b050e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:bd4d30c73fcc22b3d96392ebd97f67bbf15b050e"
  },
  "repo": "MarcosSete/awesome-free-ai-course-notes"
 }

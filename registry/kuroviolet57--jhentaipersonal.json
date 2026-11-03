@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#KuroViolet57/JHenTaiPersonal",
   "sha256": "951a948713a67766a9b09bd86cdd80edadc914225a80eaa2f6550881e070184c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kuroviolet57--jhentaipersonal",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "dd76378f2a578bfe19d1bfa2fce36a2238a2d64b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dd76378f2a578bfe19d1bfa2fce36a2238a2d64b"
  },
  "repo": "KuroViolet57/JHenTaiPersonal"
 }

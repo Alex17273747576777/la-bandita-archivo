@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#heshisan522/Kototoro",
   "sha256": "2a0da0fae769d01f7d9c2efb7c957be3e53324e35b8b4e6941a0732966d88456"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "heshisan522--kototoro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "000c9be18d38c5e74e61edc0c73fbf2c0efbc884",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:000c9be18d38c5e74e61edc0c73fbf2c0efbc884"
  },
  "repo": "heshisan522/Kototoro"
 }

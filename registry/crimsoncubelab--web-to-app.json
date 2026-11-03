@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#CrimsonCubeLab/web-to-app",
   "sha256": "1ec8116bb23ba6272b76df125a84cd08e90ac320be61590747873dc95554acdd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "crimsoncubelab--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d8fcd5a18646506d6c33a357485f2c049dfa3f96",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d8fcd5a18646506d6c33a357485f2c049dfa3f96"
  },
  "repo": "CrimsonCubeLab/web-to-app"
 }

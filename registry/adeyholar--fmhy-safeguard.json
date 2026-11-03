@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#adeyholar/FMHY-SafeGuard",
   "sha256": "f697b81c1d27f2d54ff453513c7c8c0cca4fb3e66c3e412b155cc75cace558c0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "adeyholar--fmhy-safeguard",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "63e986a3fe90e96479a8ebeab64e52f132fd3ac9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:63e986a3fe90e96479a8ebeab64e52f132fd3ac9"
  },
  "repo": "adeyholar/FMHY-SafeGuard"
 }

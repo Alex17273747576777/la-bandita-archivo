@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-25",
+  "release_en": "2026-06-09",
   "semantica_http": 200,
-  "ultima_release": "1.15",
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "0.12-preview",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "OpenMinis — The AI Agent app across platforms. Fully free and open source.",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5658,
+  "stars": 5722,
   "stars_por_mes": null
  },
  "nombre": "OpenMinis",
@@ -39,7 +39,7 @@
   "commit": "1a71df0f381cefde80bf912b723de6f9831bc177",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1a71df0f381cefde80bf912b723de6f9831bc177"
  },
  "repo": "OpenMinis/OpenMinis",
  "web": "https://openminis.app"

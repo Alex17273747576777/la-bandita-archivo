@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MoniMatrixx/MicroG-RE",
   "sha256": "3b1759c605e16a7e7e73ad5a81bcc7ee499fbdf1cf5b914241b6f0a4b4ea4cce"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "monimatrixx--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3cf43608f39700b12b96eca5cb7c5f266ea17553",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3cf43608f39700b12b96eca5cb7c5f266ea17553"
  },
  "repo": "MoniMatrixx/MicroG-RE"
 }

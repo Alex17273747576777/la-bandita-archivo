@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#rottenwheel/Maple",
   "sha256": "4997fa176b9f6355b0baa137a1b30ceed792570697f3dc7da39a32de8bd0d995"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "rottenwheel--maple",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "059b6b9ccb39fccd8cc65b1386affc8edfd37b61",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:059b6b9ccb39fccd8cc65b1386affc8edfd37b61"
  },
  "repo": "rottenwheel/Maple"
 }

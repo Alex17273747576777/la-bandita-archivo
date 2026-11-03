@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-09-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "2.1.0",
   "ultimo_push": "2026-10-16"
  },
  "descripcion": "A toolkit for ebooks, audiobooks and comics written in Kotlin",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "89b96c20c447d0aec17db57a06456b7decffde4c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:89b96c20c447d0aec17db57a06456b7decffde4c"
  },
  "repo": "readium/kotlin-toolkit",
  "web": "https://readium.org/kotlin-toolkit"

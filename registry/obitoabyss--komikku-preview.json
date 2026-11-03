@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ObitoAbyss/komikku-preview",
   "sha256": "c2076e4a05aa1d16d0364c780234fa1ab4281957a0efeca19207e5bca9647afb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "obitoabyss--komikku-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b6f92bac407eb5a2eaf070b6cdaa5d40f8c51e7b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b6f92bac407eb5a2eaf070b6cdaa5d40f8c51e7b"
  },
  "repo": "ObitoAbyss/komikku-preview"
 }

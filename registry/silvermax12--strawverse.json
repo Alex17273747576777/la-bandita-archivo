@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Silvermax12/StrawVerse",
   "sha256": "cd5e82b84e3e32ee243ec35dffc8244b7d2ebbcfe73bb3d8ade3cff99a16abe6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4e4b6ebd1953c31a57e254ac5fc0504ba6845537",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e4b6ebd1953c31a57e254ac5fc0504ba6845537"
  },
  "repo": "Silvermax12/StrawVerse"
 }

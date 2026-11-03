@@ -21,11 +21,11 @@
  "id": "jimmy-xuzimo--dsh-for-android",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "0cda7a5629eb7975a37d7360ad18a1a3a1dce7e4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0cda7a5629eb7975a37d7360ad18a1a3a1dce7e4"
  },
  "repo": "Jimmy-xuzimo/DSH-for-Android",
  "web": "https://jimmy-xuzimo.github.io/DSH-for-Android/"

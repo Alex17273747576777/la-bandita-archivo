@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#oliverkhanal20-web/Vectras-VM-Android",
   "sha256": "48150223412b70b7133c84f7deee141dfef8db5d66dda040b28ca0d90f2488bb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "oliverkhanal20-web--vectras-vm-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b2b3b4f8f6013e9c57c9e246203ef3f448851d3a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b2b3b4f8f6013e9c57c9e246203ef3f448851d3a"
  },
  "repo": "oliverkhanal20-web/Vectras-VM-Android"
 }

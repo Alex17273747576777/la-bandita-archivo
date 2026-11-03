@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "063d09c3dc711ceb03472dfe1d9c9d304e8ce933",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:063d09c3dc711ceb03472dfe1d9c9d304e8ce933"
  },
  "repo": "furrybluelan/InstallerX-Revived-Systemly-TEST_Fork",
  "web": "http://wxxsfxyzm.github.io/InstallerX-Revived/"

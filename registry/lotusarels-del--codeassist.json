@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#lotusarels-del/CodeAssist",
   "sha256": "6ba4ea449b0cc954ef3a77b82c71c0b67d896b56c4ed5026b6ccb021baaf7341"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lotusarels-del--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bae1ba49626ab70ce5b973759c88a6dc87355a8c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bae1ba49626ab70ce5b973759c88a6dc87355a8c"
  },
  "repo": "lotusarels-del/CodeAssist"
 }

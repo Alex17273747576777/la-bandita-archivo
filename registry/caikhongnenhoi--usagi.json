@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#caikhongnenhoi/Usagi",
   "sha256": "9f4e7eba2925603c9d386aa3c990cbc5f0f90614f067a1f789fb399dcddb4d18"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "caikhongnenhoi--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d8c87fd55beac2d25d06341a2a7e0313534a8b2f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d8c87fd55beac2d25d06341a2a7e0313534a8b2f"
  },
  "repo": "caikhongnenhoi/Usagi"
 }

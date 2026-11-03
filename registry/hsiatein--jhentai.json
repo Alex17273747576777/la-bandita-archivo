@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-03-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v8.0.6+WebDAV",
   "ultimo_push": "2026-10-12"
  },
  "descripcion": "A cross-platform manga app made for e-hentai & exhentai by Flutter",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "899dbe0e1bf6a1cf68715221ee00d2daa5f490bc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:899dbe0e1bf6a1cf68715221ee00d2daa5f490bc"
  },
  "repo": "hsiatein/JHenTai"
 }

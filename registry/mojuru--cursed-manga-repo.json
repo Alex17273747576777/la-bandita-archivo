@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "db0db8b",
   "ultimo_push": "2026-10-12"
  },
  "descripcion": "Extensions for Komikku / Mihon & forks.",
@@ -25,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 174,
+  "stars": 175,
   "stars_por_mes": null
  },
  "nombre": "cursed-manga-repo",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "692d2a7d0fc908e35d708bcf06be59ee5f421ba7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:692d2a7d0fc908e35d708bcf06be59ee5f421ba7"
  },
  "repo": "mojuru/cursed-manga-repo",
  "web": "https://mojuru.github.io/cursed-manga-repo/"

@@ -26,7 +26,7 @@
   "spdx": "MIT",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -37,10 +37,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d6be53c6fc710eb77faaf78b6b127abbe12d8d1a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d6be53c6fc710eb77faaf78b6b127abbe12d8d1a"
  },
  "repo": "homielab/audiobookapp",
  "web": "https://audioaz.com/"

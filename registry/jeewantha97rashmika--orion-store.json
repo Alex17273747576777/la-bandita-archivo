@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Jeewantha97Rashmika/Orion-Store",
   "sha256": "6d90fd1b1a1086d8fb0521831e5f157747589a9999ee11ffdbccbbe9801a4951"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jeewantha97rashmika--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "10fa3aabb6daff7d0a3f1423e93aea1fd34fe3bc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:10fa3aabb6daff7d0a3f1423e93aea1fd34fe3bc"
  },
  "repo": "Jeewantha97Rashmika/Orion-Store"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MalesForFemalesLLC22/Vectras-VM-Android",
   "sha256": "bc501b826bdd0c6974dbe027441485ceb8fa4befdba1cc6b6efde4875d193fa0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "malesforfemalesllc22--vectras-vm-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ad4503f6d059030915b6a0afb7d88cbe787933b6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ad4503f6d059030915b6a0afb7d88cbe787933b6"
  },
  "repo": "MalesForFemalesLLC22/Vectras-VM-Android"
 }

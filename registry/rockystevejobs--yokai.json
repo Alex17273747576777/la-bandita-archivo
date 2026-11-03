@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#RockySteveJobs/yokai",
   "sha256": "06596eeec3d7d7c4ca6fa73183d2328d0bcf0ee9880b000c04037051597da2c4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "rockystevejobs--yokai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "17879ddc5abb6e2c82a85861cbfa17ffaa32c625",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:17879ddc5abb6e2c82a85861cbfa17ffaa32c625"
  },
  "repo": "RockySteveJobs/yokai"
 }

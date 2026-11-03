@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#celestialmelancholy/firedown-fork",
   "sha256": "8866d23555d78e36459533c14eee1405a0030e4ab9af1bc59f5f0249470de9f0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "celestialmelancholy--firedown-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3e4bfb36fd290f87bd9f00169e052f6fe2df2b94",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3e4bfb36fd290f87bd9f00169e052f6fe2df2b94"
  },
  "repo": "celestialmelancholy/firedown-fork"
 }

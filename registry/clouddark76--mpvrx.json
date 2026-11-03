@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Clouddark76/mpvRx",
   "sha256": "98ebc83a5ee9b1a5911a68c77ade46c1ff9f770026ebd27748ca93d6b717ba36"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "clouddark76--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "257059b72d10175d91dd8c1e9b6f9b8d64d8e3d4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:257059b72d10175d91dd8c1e9b6f9b8d64d8e3d4"
  },
  "repo": "Clouddark76/mpvRx"
 }

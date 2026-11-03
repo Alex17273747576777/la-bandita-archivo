@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2018-02-15",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v6.4",
   "ultimo_push": "2023-07-11"
  },
  "descripcion": "Custom \"Jailbreak\" firmware for the Analogue Super NT",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8476c30e50657be759b2149103c6c97bca98949d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8476c30e50657be759b2149103c6c97bca98949d"
  },
  "repo": "SmokeMonsterPacks/Super-NT-Jailbreak"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2023-07-30",
+  "release_en": "2023-02-21",
   "semantica_http": 200,
-  "ultima_release": "0.0.33",
+  "ultima_release": "0.0.1",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Link handling for modern Android",
@@ -21,15 +21,15 @@
  "id": "linksheet--linksheet",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "GPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2161,
+  "stars": 2166,
   "stars_por_mes": null
  },
  "nombre": "LinkSheet",
@@ -39,7 +39,7 @@
   "commit": "028cbee6b221df39e74bee9a9565d5d97c66a582",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:028cbee6b221df39e74bee9a9565d5d97c66a582"
  },
  "repo": "LinkSheet/LinkSheet"
 }

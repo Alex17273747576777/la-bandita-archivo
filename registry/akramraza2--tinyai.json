@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#akramraza2/TinyAI",
   "sha256": "f5e9c15d4e19c94bbb19a9a6bef799457e8a0eb8efe83cba93f584129cb330ae"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "akramraza2--tinyai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "280104b681459d6d7331cf08eee9acdddb099b40",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:280104b681459d6d7331cf08eee9acdddb099b40"
  },
  "repo": "akramraza2/TinyAI"
 }

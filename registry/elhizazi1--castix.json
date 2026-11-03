@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-15",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-09-27"
  },
  "descripcion": "Open-source Android utility for background playback and system control, supporting Accessibility, Shizuku, Dhizuku, Root, LSPosed, and LSPatch.",
@@ -21,11 +21,11 @@
  "id": "elhizazi1--castix",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4a2dc1fa3d8340ca292836f211388de322ff5751",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4a2dc1fa3d8340ca292836f211388de322ff5751"
  },
  "repo": "elhizazi1/Castix",
  "web": "https://Castix.elhizazi.me"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#pacoa-kdbg/yokai",
   "sha256": "a92f1bb5338da3f858df1b3551d05850f17e2b060c822269715ebe654d291e7b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "pacoa-kdbg--yokai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "653271b209e65a371d64ec706f6ea5f2616cdd24",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:653271b209e65a371d64ec706f6ea5f2616cdd24"
  },
  "repo": "pacoa-kdbg/yokai"
 }

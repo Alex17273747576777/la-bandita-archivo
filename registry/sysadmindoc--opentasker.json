@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.3.0",
   "ultimo_push": "2026-09-30"
  },
  "descripcion": "Local-first, open-source Android automation with readable rules, honest permission gates, and no account or cloud runtime.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 178,
+  "stars": 183,
   "stars_por_mes": null
  },
  "nombre": "OpenTasker",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a3b4fda4942eb61e9c81290d0ff390ad1f2160b8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a3b4fda4942eb61e9c81290d0ff390ad1f2160b8"
  },
  "repo": "SysAdminDoc/OpenTasker"
 }

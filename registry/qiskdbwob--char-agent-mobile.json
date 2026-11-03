@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.7.1",
   "ultimo_push": "2026-09-09"
  },
  "descripcion": "A local-first personal AI agent that lives on your Android phone. Permanent memo",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Qiskdbwob/char-agent-mobile",
   "sha256": "1c8e0dd41d5b4eb6949dcfc09353b2084a084d3ea80542be7966f129f175329d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "qiskdbwob--char-agent-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f8e7fe58497caad5a4318b88df83c6383d813b1a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f8e7fe58497caad5a4318b88df83c6383d813b1a"
  },
  "repo": "Qiskdbwob/char-agent-mobile"
 }

@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "SoniCloud Recorder SDK is an open-source reference project for integrating BLE recorder hardware across Android, iOS, HarmonyOS, Flutter, Windows, and macOS. It includes SDK examples, recording control, real-time audio, file transfer, offline transcription, protocol tools, and vendor adaptation support.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2555,
+  "stars": 2556,
   "stars_por_mes": null
  },
  "nombre": "sonicloud_opensdk",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "478e54262e5e2a04f2ab397766065cacbb381e83",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:478e54262e5e2a04f2ab397766065cacbb381e83"
  },
  "repo": "SonicloudTech/sonicloud_opensdk",
  "web": "https://www.sinicloud.com"

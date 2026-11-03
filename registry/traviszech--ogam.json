@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-30"
+  "ultimo_push": "2026-10-26"
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on you",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#traviszech/OGAM",
   "sha256": "561b85f9d2563bbdd254f302f6030e6daff4736ae2e1205c8e9c4fb982e03d3d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "traviszech--ogam",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "92c457f1216ba6bd2419a0ce6650de56bac4f714",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:92c457f1216ba6bd2419a0ce6650de56bac4f714"
  },
  "repo": "traviszech/OGAM"
 }

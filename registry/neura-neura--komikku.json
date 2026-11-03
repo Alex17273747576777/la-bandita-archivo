@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "vivo",
-  "release_en": null,
+  "estado": "dormido",
+  "release_en": "2026-04-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "debug-autoscroll-gestures-2026-04-19-b374906",
   "ultimo_push": "2026-04-20"
  },
  "descripcion": "Free and open source manga reader for Android",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#neura-neura/komikku",
   "sha256": "76584dd38d816689b438d3f2d3a9d60820f9586f79b98d29a656b02fe22363c4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "neura-neura--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6f020399d8734dac6f5ee212d750751eeebe9d2e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6f020399d8734dac6f5ee212d750751eeebe9d2e"
  },
  "repo": "neura-neura/komikku"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2016-09-14",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Tray application and Dolphin/Plasma integration for Syncthing",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "martchus--syncthingtray",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "LGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2988,
+  "stars": 2993,
   "stars_por_mes": null
  },
  "nombre": "syncthingtray",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7a45de2cc1cdf38d7ffadb8b718061a371274cef",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7a45de2cc1cdf38d7ffadb8b718061a371274cef"
  },
  "repo": "Martchus/syncthingtray",
  "web": "https://martchus.github.io/syncthingtray/"

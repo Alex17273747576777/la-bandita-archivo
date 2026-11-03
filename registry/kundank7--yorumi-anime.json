@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kundank7/Yorumi-anime",
   "sha256": "c0e91b5236fa41b792c53a4fa602f338b7d435b2f04989237380ed60e8676b05"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kundank7--yorumi-anime",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4e84339d0022734ce6fadf25540416be2bf9bb51",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e84339d0022734ce6fadf25540416be2bf9bb51"
  },
  "repo": "Kundank7/Yorumi-anime"
 }

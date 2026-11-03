@@ -1,9 +1,9 @@
 # PIEZA 46 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/46-La-sala-de-las-novelas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `94ec1b4bcc7d2ddfb1092a2dfb8305b2e2eb72f33f161647d79ee05727532f05`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 3180 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 3180 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 872 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 3 · Apache-2.0 2 · Unlicense 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/46-La-sala-de-las-novelas-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 3180 caracteres ═══
 
@@ -65,18 +65,18 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 4 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1136 caracteres ═══
+═══ MENSAJE 3 de 4 · 1128 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 46*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dmzz-yyhyy/LightNovelReader — ★2.313 (+10) · empujó el 25-oct-2026 (hace 8 días) · Apache-2.0 · última release 1.2.4 (16-oct-2026)
-• ranobe-org/ranobe — ★267 (sin cambio) · empujó el 26-oct-2026 (hace 7 días) · Unlicense · última release v0.0.20 (26-oct-2026)
-• 1Finn2me/Novery — ★57 (sin cambio) · *dormido*: sin empujar desde el 3-may-2026 (183 días) · GPL-3.0 · última release v1.0.2 (3-may-2026)
+• dmzz-yyhyy/LightNovelReader — ★2.317 (+14) · empujó el 25-oct-2026 (hace 9 días) · Apache-2.0 · última release 1.2.4 (16-oct-2026)
+• ranobe-org/ranobe — ★268 (+1) · empujó el 26-oct-2026 (hace 8 días) · Unlicense · última release v0.0.20 (26-oct-2026)
+• 1Finn2me/Novery — ★57 (sin cambio) · *dormido*: sin empujar desde el 3-may-2026 (184 días) · GPL-3.0 · última release v1.0.2 (3-may-2026)
 • bunoriapp/bunori — ★43 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v2.0.4 (26-sep-2026)
-• Nabeelshar/WebnovelReader — ★29 (sin cambio) · *dormido*: sin empujar desde el 25-jul-2026 (100 días) · GPL-3.0 · última release v2.4.1 (29-may-2026)
-• ghotato/Foxlations — ★20 (sin cambio) · empujó el 11-oct-2026 (hace 22 días) · Apache-2.0 · última release v1.2.2+188 (11-oct-2026)
+• Nabeelshar/WebnovelReader — ★29 (sin cambio) · *dormido*: sin empujar desde el 25-jul-2026 (101 días) · GPL-3.0 · última release v2.4.1 (29-may-2026)
+• ghotato/Foxlations — ★20 (sin cambio) · empujó el 11-oct-2026 (hace 23 días) · Apache-2.0 · última release v1.2.2+188 (11-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

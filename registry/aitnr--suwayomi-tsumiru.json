@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AITNR/Suwayomi-Tsumiru",
   "sha256": "adfb23a3b6ce1ce7dd87bb542423d6e76f1723ebd2a0b66eced18236953991f1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "aitnr--suwayomi-tsumiru",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fd65dd684d2c5d6b3ed7f027fd89b4114b4d7d51",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fd65dd684d2c5d6b3ed7f027fd89b4114b4d7d51"
  },
  "repo": "AITNR/Suwayomi-Tsumiru"
 }

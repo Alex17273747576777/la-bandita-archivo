@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jinpengxiao9-a11y/OmniBot",
   "sha256": "9b35d73963dc488bd295a78f0500847fcaf984d715edc34c3a161f3208660a52"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jinpengxiao9-a11y--omnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "54aeae8046a4f3bcf0fccc1ca30713722a81d863",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:54aeae8046a4f3bcf0fccc1ca30713722a81d863"
  },
  "repo": "jinpengxiao9-a11y/OmniBot"
 }

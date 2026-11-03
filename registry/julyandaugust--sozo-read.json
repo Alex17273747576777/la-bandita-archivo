@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#JulyandAugust/Sozo-Read",
   "sha256": "75c56aefe5cd051e09df940b67025abdb45279976c0bb7570b565bc488f62480"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bcb16b158c35ecc8e24997fd56d1f605e9e67a15",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bcb16b158c35ecc8e24997fd56d1f605e9e67a15"
  },
  "repo": "JulyandAugust/Sozo-Read"
 }

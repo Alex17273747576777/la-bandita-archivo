@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ReyyBwkEndDev10000hzDevNyawit/kaizen-app",
   "sha256": "03da09414d47d535efe3b191e1e5ae14ecc74d8dd93fd77598d7dd0cb05d8594"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "reyybwkenddev10000hzdevnyawit--kaizen-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "aa00cc24595c91c89f7ede271659958f1060f951",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:aa00cc24595c91c89f7ede271659958f1060f951"
  },
  "repo": "ReyyBwkEndDev10000hzDevNyawit/kaizen-app"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#loyal-ki/mangayomi",
   "sha256": "a0ea1987b25f5cfeb7896519f9a62f681e286e3e3ddfc83bd4c8e60c351c6e34"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "loyal-ki--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ee07314b14b7d32e12993b61742ee573cfb90d39",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ee07314b14b7d32e12993b61742ee573cfb90d39"
  },
  "repo": "loyal-ki/mangayomi"
 }

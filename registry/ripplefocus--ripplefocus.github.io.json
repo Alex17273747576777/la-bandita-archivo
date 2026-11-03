@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-26",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "涟漪 (Ripple) · Free Android & iOS (Screen Time API) app blocker with 15m monotonic cooldown, Shorts/Reels/WeChat Channels feed blocker, parent unlock code & anti-uninstall · 免费无广告的安卓与iOS戒短视频及防卸载管手机工具",
  "evidencia": {
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9,
+  "stars": 12,
   "stars_por_mes": null
  },
  "nombre": "ripplefocus.github.io",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "644cbb02ee259482c8002183be647bbc102f3637",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:644cbb02ee259482c8002183be647bbc102f3637"
  },
  "repo": "ripplefocus/ripplefocus.github.io",
  "web": "https://ripplefocus.github.io/"

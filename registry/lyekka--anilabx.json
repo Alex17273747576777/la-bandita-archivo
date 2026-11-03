@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#lyekka/AniLabX",
   "sha256": "953d6c376fabae6cc7d74690f9e76ce5ee51356e1bb2c11e17637c34fe2b7cd7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5e1b07bd01f7a0527e89397bc4beb0076ea59517",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5e1b07bd01f7a0527e89397bc4beb0076ea59517"
  },
  "repo": "lyekka/AniLabX"
 }

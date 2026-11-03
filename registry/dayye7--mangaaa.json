@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#dayye7/Mangaaa",
   "sha256": "22c8cae6be21f257c46428f68a2fe43983e832ec06c5bc81e82b5e6ad8b939c7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dayye7--mangaaa",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3c8452a66d150e4968389af21bc5517d8cb7f999",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3c8452a66d150e4968389af21bc5517d8cb7f999"
  },
  "repo": "dayye7/Mangaaa"
 }

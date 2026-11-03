@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#JTANISME/quick-search",
   "sha256": "b46d4a7506510923523c10a48392dd6d52b9fb96becd858bd2993fad1e91d5ad"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jtanisme--quick-search",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4d1acbb9a1e6e4a22c45ea29e489b07421cf2e18",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4d1acbb9a1e6e4a22c45ea29e489b07421cf2e18"
  },
  "repo": "JTANISME/quick-search"
 }

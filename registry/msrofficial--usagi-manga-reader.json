@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#msrofficial/Usagi-Manga-Reader",
   "sha256": "fc80cefcd432dcef3d98396d406f68c03cda91a3c0338af4b77e6aa0067af7cc"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "msrofficial--usagi-manga-reader",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ae570f07906de54b4fa55d18773f1c00fb10a4b7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ae570f07906de54b4fa55d18773f1c00fb10a4b7"
  },
  "repo": "msrofficial/Usagi-Manga-Reader"
 }

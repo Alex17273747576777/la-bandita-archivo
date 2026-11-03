@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ghinescumarius13-spec/playtranslate",
   "sha256": "25fdf8901d57fad653ce4c34c820bd7909b27fcf5ae8a76a06a2eee2332793b9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ghinescumarius13-spec--playtranslate",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b0e891a1a4942d5bace48b7a4d8fdec32cbca1a2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b0e891a1a4942d5bace48b7a4d8fdec32cbca1a2"
  },
  "repo": "ghinescumarius13-spec/playtranslate"
 }

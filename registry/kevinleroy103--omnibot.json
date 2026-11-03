@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kevinleroy103/OmniBot",
   "sha256": "343643b7c3cd9270847a3ccd66019c5f4ba30888f048c7768b761b4cafc2e770"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kevinleroy103--omnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "11a380d72bd1385422c3d8ec9e521a895d22bb8d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:11a380d72bd1385422c3d8ec9e521a895d22bb8d"
  },
  "repo": "Kevinleroy103/OmniBot"
 }

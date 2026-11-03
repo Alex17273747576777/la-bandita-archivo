@@ -1,9 +1,9 @@
 # PIEZA 51 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/51-La-discoteca-II-el-jugador-grande-y-la-mudanza-de-Finamp-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `ff028b342136f92003ee79531c673f9888b27e1afa3ea88b1243f6e28ec64020`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3726 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3726 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 931 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 7 · GPL-2.0 2 · NOASSERTION 1 · MPL-2
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/51-La-discoteca-II-el-jugador-grande-y-la-mudanza-de-Finamp-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3726 caracteres ═══
 
@@ -97,25 +97,25 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1923 caracteres ═══
+═══ MENSAJE 4 de 5 · 1912 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 51*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• PixelPlayerHQ/PixelPlayer — ★6.874 (+38) · empujó el 21-sep-2026 (hace 42 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
-• finamp-app/finamp — ★4.471 (+64) · empujó en las últimas horas · MPL-2.0 · última release 1.0.2 (29-oct-2026)
-• jellyfin/jellyfin-android — ★2.851 (+12) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
-• mafik/echo — ★333 (+1) · *dormido*: sin empujar desde el 5-jun-2025 (515 días) · GPL-3.0
-• PixelPlayerHQ/PixelPlayerOSS — ★308 (+11) · empujó en las últimas horas · GPL-3.0 · última release v0.4.0 (17-oct-2026)
-• armanmaurya/InternetRadio — ★178 (+4) · empujó en las últimas horas · GPL-3.0 · última release v0.9.0 (22-oct-2026)
-• recloudstream/extensions — ★143 (+1) · *dormido*: sin empujar desde el 22-may-2026 (164 días) · sin licencia detectada por la API
-• RisorseArtificiali/anti-vocale — ★138 (+2) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v1.15.0 (27-oct-2026)
-• XilinJia/Podcini.A — ★39 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v12.17.7 (2-nov-2026)
-• resurrectdev1/Flac-R — ★31 (sin cambio) · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release v0.6.2 (18-oct-2026)
-• arslandaim-hub/OmegaPlayer — ★19 (sin cambio) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v1.2.1 (14-sep-2026)
-• XilinJia/UT.urn — ★10 (sin cambio) · empujó el 15-oct-2026 (hace 18 días) · GPL-3.0 · última release v1.1.7 (15-oct-2026)
+• jellyfin/jellyfin — ★58.963 (+176) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• PixelPlayerHQ/PixelPlayer — ★6.880 (+44) · empujó el 21-sep-2026 (hace 43 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
+• finamp-app/finamp — ★4.482 (+75) · empujó en las últimas horas · MPL-2.0 · última release 1.0.2 (29-oct-2026)
+• jellyfin/jellyfin-android — ★2.856 (+17) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• mafik/echo — ★333 (+1) · *dormido*: sin empujar desde el 5-jun-2025 (516 días) · GPL-3.0
+• PixelPlayerHQ/PixelPlayerOSS — ★309 (+12) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v0.4.0 (17-oct-2026)
+• armanmaurya/InternetRadio — ★179 (+5) · empujó en las últimas horas · GPL-3.0 · última release v0.9.0 (22-oct-2026)
+• recloudstream/extensions — ★143 (+1) · *dormido*: sin empujar desde el 22-may-2026 (165 días) · sin licencia detectada por la API
+• RisorseArtificiali/anti-vocale — ★138 (+2) · empujó en las últimas horas · Apache-2.0 · última release v1.15.0 (27-oct-2026)
+• XilinJia/Podcini.A — ★39 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v12.18.0 (3-nov-2026)
+• resurrectdev1/Flac-R — ★31 (sin cambio) · empujó el 30-oct-2026 (hace 4 días) · GPL-3.0 · última release v0.6.2 (18-oct-2026)
+• arslandaim-hub/OmegaPlayer — ★19 (sin cambio) · empujó el 28-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.2.1 (14-sep-2026)
+• XilinJia/UT.urn — ★10 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v1.1.8 (3-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

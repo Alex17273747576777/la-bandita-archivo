@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#cheeemmms/jenny-android-ai-agent",
   "sha256": "dd7a68a0ff0b7e193c8fb6c0e4ad95698002bd8568017581acee05cd3a83439f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "cheeemmms--jenny-android-ai-agent",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b87cee5b46878208f04cc01d75518c4441d8a772",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b87cee5b46878208f04cc01d75518c4441d8a772"
  },
  "repo": "cheeemmms/jenny-android-ai-agent"
 }

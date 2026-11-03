@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-30",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-09-27"
+  "ultima_release": "v9.7.8",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Manga reader for Android",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Ithan-Cassiano/Kaisoku",
   "sha256": "d50755ecc870ea970e902f431311eb920fe0a9ce4a7dd6921645ad09278e3db9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ithan-cassiano--kaisoku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f306699745ec5b1ee35d1591e5f2b12414789dee",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f306699745ec5b1ee35d1591e5f2b12414789dee"
  },
  "repo": "Ithan-Cassiano/Kaisoku"
 }

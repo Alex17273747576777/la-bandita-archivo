@@ -1,9 +1,9 @@
 # PIEZA 60 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/60-La-hornada-de-las-bibliotecas-los-ordenadores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `16855f91d4167d1170760dfc137ec2ae04219bf8c242d993a4687bc50fefeff3`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3767 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3767 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 934 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 9 · NOASSERTION 1 · Apache-2.0 1 · GP
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/60-La-hornada-de-las-bibliotecas-los-ordenadores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3767 caracteres ═══
 
@@ -94,25 +94,25 @@ Hay release de esta semana: **materializr-cad/materializr** publicó v1.7.5 (202
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2155 caracteres ═══
+═══ MENSAJE 4 de 5 · 2126 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 60*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• photoprism/photoprism — ★40.390 (+20) · empujó el 29-oct-2026 (hace 4 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• pynicolas/FairScan — ★1.005 (+8) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v2.3.0 (20-sep-2026)
-• leonlatsch/Photok — ★998 (+4) · empujó en las últimas horas · Apache-2.0 · última release 3.7.0 (19-oct-2026)
-• Radiokot/photoprism-android-client — ★621 (sin cambio) · empujó el 27-oct-2026 (hace 6 días) · GPL-3.0 · última release 1.47.1(73) (26-sep-2026)
-• Justwen/NGA-CLIENT-VER-OPEN-SOURCE — ★601 (sin cambio) · empujó el 24-oct-2026 (hace 9 días) · GPL-2.0 · última release 5.0.2 (30-ago-2026)
-• materializr-cad/materializr — ★314 (+112) · empujó en las últimas horas · GPL-3.0 · última release v1.7.7 (1-nov-2026)
-• magic-cucumber/Pixiv-MultiPlatform — ★196 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v1.8.6 (6-jun-2026)
-• VincentEngel/VES-Image-Compare — ★144 (sin cambio) · *dormido*: sin empujar desde el 1-ago-2026 (93 días) · GPL-3.0 · última release fdroid-v2.3.6 (26-may-2026)
-• pastthepixels/FreePaint — ★120 (+1) · *dormido*: sin empujar desde el 29-jul-2026 (96 días) · GPL-3.0 · última release v1.2.0 (10-may-2024)
-• UmerCodez/WebsocketCAM — ★74 (sin cambio) · *dormido*: sin empujar desde el 14-jun-2026 (141 días) · GPL-3.0 · última release v1.4.0 (14-jun-2026)
-• SecUSo/privacy-friendly-sketching — ★25 (sin cambio) · *dormido*: sin empujar desde el 29-may-2026 (157 días) · GPL-3.0 · última release v1.1.3 (4-sep-2025)
-• zorgluf/souvenirs-android — ★17 (sin cambio) · empujó el 18-oct-2026 (hace 15 días) · GPL-3.0 · última release v3.1.0 (14-oct-2026)
-• LukeNeedham/VideoDiary — ★14 (sin cambio) · empujó el 31-oct-2026 (hace 2 días) · sin licencia detectada por la API · última release v1.0.8 (16-feb-2025)
+• photoprism/photoprism — ★40.403 (+33) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• pynicolas/FairScan — ★1.009 (+12) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (20-sep-2026)
+• leonlatsch/Photok — ★1.000 (+6) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 3.7.0 (19-oct-2026)
+• Radiokot/photoprism-android-client — ★620 (-1) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release 1.47.1(73) (26-sep-2026)
+• Justwen/NGA-CLIENT-VER-OPEN-SOURCE — ★601 (sin cambio) · empujó el 24-oct-2026 (hace 10 días) · GPL-2.0 · última release 5.0.2 (30-ago-2026)
+• materializr-cad/materializr — ★324 (+122) · empujó en las últimas horas · GPL-3.0 · última release v1.7.7 (1-nov-2026)
+• magic-cucumber/Pixiv-MultiPlatform — ★198 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.8.8 (3-nov-2026)
+• VincentEngel/VES-Image-Compare — ★145 (+1) · *dormido*: sin empujar desde el 1-ago-2026 (94 días) · GPL-3.0 · última release fdroid-v2.3.6 (26-may-2026)
+• pastthepixels/FreePaint — ★120 (+1) · *dormido*: sin empujar desde el 29-jul-2026 (97 días) · GPL-3.0 · última release v1.2.0 (10-may-2024)
+• UmerCodez/WebsocketCAM — ★74 (sin cambio) · *dormido*: sin empujar desde el 14-jun-2026 (142 días) · GPL-3.0 · última release v1.4.0 (14-jun-2026)
+• SecUSo/privacy-friendly-sketching — ★25 (sin cambio) · *dormido*: sin empujar desde el 29-may-2026 (158 días) · GPL-3.0 · última release v1.1.3 (4-sep-2025)
+• zorgluf/souvenirs-android — ★17 (sin cambio) · empujó el 18-oct-2026 (hace 16 días) · GPL-3.0 · última release v3.1.0 (14-oct-2026)
+• LukeNeedham/VideoDiary — ★14 (sin cambio) · empujó el 31-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release v1.0.8 (16-feb-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

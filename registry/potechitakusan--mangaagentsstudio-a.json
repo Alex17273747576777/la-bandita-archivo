@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 87,
+  "stars": 89,
   "stars_por_mes": null
  },
  "nombre": "MangaAgentsStudio-A",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8d5becb652921b884f005a163487ec04a49d46a9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8d5becb652921b884f005a163487ec04a49d46a9"
  },
  "repo": "potechitakusan/MangaAgentsStudio-A"
 }

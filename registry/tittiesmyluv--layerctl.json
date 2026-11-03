@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-25",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Non-root Android app-standby layer switchboard. Re-map packages into 7 tiers, apply only the diff. No root.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1b087d4efd4de33a99d07d50295cdcadee02d613",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1b087d4efd4de33a99d07d50295cdcadee02d613"
  },
  "repo": "tittiesmyluv/layerctl"
 }

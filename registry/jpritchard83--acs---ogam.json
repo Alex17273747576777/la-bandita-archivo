@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Jpritchard83/ACS---OGAM",
   "sha256": "f92d11abbf261b4b37fb972998f28dc742a08963c36906c1ebc189caef644b43"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jpritchard83--acs---ogam",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "856bca125b2f742857c016b49b526d9e43e35dbd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:856bca125b2f742857c016b49b526d9e43e35dbd"
  },
  "repo": "Jpritchard83/ACS---OGAM"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.4",
   "ultimo_push": "2026-09-30"
  },
  "descripcion": "Take control of Android's native Night Light - advanced scheduling, boost phases, and precise color temperature.  ",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b636929e382e5f6f3c6f14432d1f8c8d063866d3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b636929e382e5f6f3c6f14432d1f8c8d063866d3"
  },
  "repo": "paulsnuff/BetterNightLight"
 }

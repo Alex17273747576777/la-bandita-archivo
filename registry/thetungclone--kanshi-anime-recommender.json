@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#thetungclone/Kanshi-Anime-Recommender",
   "sha256": "9d232ce13b4570c01a6a4540acde442a3e09299844aa3b48f84a63aafed4e2eb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3ba9c5efe380c37caa36275023f551f99ca56884",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3ba9c5efe380c37caa36275023f551f99ca56884"
  },
  "repo": "thetungclone/Kanshi-Anime-Recommender"
 }

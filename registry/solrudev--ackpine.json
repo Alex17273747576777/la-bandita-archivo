@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-07-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.0.1",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "Android package installer toolkit",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 185,
+  "stars": 186,
   "stars_por_mes": null
  },
  "nombre": "Ackpine",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6fe77aa6814a95a907ec948e58ccc0287e4479b5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6fe77aa6814a95a907ec948e58ccc0287e4479b5"
  },
  "repo": "solrudev/Ackpine",
  "web": "https://ackpine.solrudev.ru/"

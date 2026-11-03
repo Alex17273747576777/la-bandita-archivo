@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#dirtyjohn957-cmyk/ObtainX",
   "sha256": "22d0600778af73d9fba9ae536fc58135948ba5279c3e103a06b966fc151915cf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dirtyjohn957-cmyk--obtainx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d50626a879e6c647c88b2fc97af95d7f8397508b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d50626a879e6c647c88b2fc97af95d7f8397508b"
  },
  "repo": "dirtyjohn957-cmyk/ObtainX"
 }

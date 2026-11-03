@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Darklightning2008/AniLabZ",
   "sha256": "179037612f9052600fbfc50826d0d6da0707f1c8960792a173e951ebb633c10c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b51f2cb97b7c8e9d4e8786c9c012b690c3bc0a50",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b51f2cb97b7c8e9d4e8786c9c012b690c3bc0a50"
  },
  "repo": "Darklightning2008/AniLabZ"
 }

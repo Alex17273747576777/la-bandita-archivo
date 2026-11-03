@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-12-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.3",
   "ultimo_push": "2026-07-19"
  },
  "descripcion": "哔哩哔哩缓存导出工具",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 382,
+  "stars": 383,
   "stars_por_mes": null
  },
  "nombre": "bili-down-out",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3ed22d25d9d840706a59a00e74324590bb3650d1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3ed22d25d9d840706a59a00e74324590bb3650d1"
  },
  "repo": "10miaomiao/bili-down-out"
 }

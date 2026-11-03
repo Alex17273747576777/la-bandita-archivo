@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2025-09-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.2-beta",
   "ultimo_push": "2026-02-26"
  },
  "descripcion": "Play games using mouse and keyboard on Android device",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d072b0f201310436d0ec3b44a8b6a4b472e03ddd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d072b0f201310436d0ec3b44a8b6a4b472e03ddd"
  },
  "repo": "aka-munan/keysync"
 }

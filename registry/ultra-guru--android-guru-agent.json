@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-11-01",
+  "release_en": "2026-08-14",
   "semantica_http": 200,
-  "ultima_release": "v1.5.16",
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "beta娴嬭瘯",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "🤖 An autonomous AI agent that lives entirely on your Android device — 109 tools · PRoot Ubuntu terminal · bionic memory (cs-mem) · BYO-LLM. No server. No PC.",
  "evidencia": {
@@ -21,26 +21,26 @@
  "id": "ultra-guru--android-guru-agent",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 14,
+  "stars": 17,
   "stars_por_mes": null
  },
  "nombre": "Android-Guru-Agent",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "41a39235e97b19eb636915ea1846ebbdef7ea2f0",
+  "commit": "00ed288b0e22669dacf1400867cab6fe3c5d67d9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:00ed288b0e22669dacf1400867cab6fe3c5d67d9"
  },
  "repo": "Ultra-Guru/Android-Guru-Agent",
  "web": "https://ultra-guru.github.io/Android-Guru-Agent/"

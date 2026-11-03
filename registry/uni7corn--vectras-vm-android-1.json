@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#uni7corn/Vectras-VM-Android-1",
   "sha256": "3c2eb6e47e600fcdf7184387ca31603a93b78d62e37bb70f44264abb9dd67721"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "uni7corn--vectras-vm-android-1",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2c3d666eafccc31905bb288bcdd12b483aa5bbb8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2c3d666eafccc31905bb288bcdd12b483aa5bbb8"
  },
  "repo": "uni7corn/Vectras-VM-Android-1"
 }

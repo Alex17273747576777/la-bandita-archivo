@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#LIBRARIAN828/mihon",
   "sha256": "270f8dfafae8d99d5bac6ae715a2fd5112cf7ccba0c83a10890d01d2d6136270"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "librarian828--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3a3abc6854c8035e0d489750a04fba8400ef2c84",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3a3abc6854c8035e0d489750a04fba8400ef2c84"
  },
  "repo": "LIBRARIAN828/mihon"
 }

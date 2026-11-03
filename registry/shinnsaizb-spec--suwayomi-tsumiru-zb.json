@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-23",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-14"
+  "ultima_release": "v1.4.1",
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "A native manga & manhwa reader for Suwayomi-Server - enhanced fork of Tachidesk-",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#shinnsaizb-spec/Suwayomi-Tsumiru-zb",
   "sha256": "48c7d9d55200f48d670cebf42c14d11e5be0fe63f2877bc36468cf1e237b3691"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shinnsaizb-spec--suwayomi-tsumiru-zb",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7953905fa0e1edfa630c322b9949d6ff9f44b970",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7953905fa0e1edfa630c322b9949d6ff9f44b970"
  },
  "repo": "shinnsaizb-spec/Suwayomi-Tsumiru-zb"
 }

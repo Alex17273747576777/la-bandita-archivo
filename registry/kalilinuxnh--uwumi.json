@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kalilinuxnh/uwumi",
   "sha256": "9514fb76fdc058f5ead21af0827c5739da6c70ed5bc221274bcc9138549cd87a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1c3a41d401a34d57a52b121250d8676934b8a2a4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1c3a41d401a34d57a52b121250d8676934b8a2a4"
  },
  "repo": "Kalilinuxnh/uwumi"
 }

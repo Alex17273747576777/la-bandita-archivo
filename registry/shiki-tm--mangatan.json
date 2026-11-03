@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#shiki-tm/Mangatan",
   "sha256": "57d8b35f1edbaf221d11133ab0571e8a813d98cd11a7e42e8b885f4faeaf9b25"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shiki-tm--mangatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2374f9f6383f5cc21f7f5145c67117118774dc33",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2374f9f6383f5cc21f7f5145c67117118774dc33"
  },
  "repo": "shiki-tm/Mangatan"
 }

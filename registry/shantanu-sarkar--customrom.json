@@ -26,21 +26,21 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 346,
+  "stars": 347,
   "stars_por_mes": null
  },
  "nombre": "CustomROM",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7131df569b8b8eb46159c950233fad3489e489e2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7131df569b8b8eb46159c950233fad3489e489e2"
  },
  "repo": "shantanu-sarkar/CustomROM"
 }

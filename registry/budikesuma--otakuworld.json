@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#budikesuma/OtakuWorld",
   "sha256": "23fe80a4aa527e8fa5464c4de8a8ad02eb3e30ff2d52d05020b6d52782600f2a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "budikesuma--otakuworld",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "87a9394e0772a9ec9a240cfccb344ecedaf43beb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:87a9394e0772a9ec9a240cfccb344ecedaf43beb"
  },
  "repo": "budikesuma/OtakuWorld"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.3.1",
   "ultimo_push": "2026-10-22"
  },
  "descripcion": "Wireless and USB Android Auto receiver for BYD DiLink. No extra phone app or dongle.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 522,
+  "stars": 530,
   "stars_por_mes": null
  },
  "nombre": "DiAuto",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f3046721814bff289a78e58f597b45d895efbb95",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f3046721814bff289a78e58f597b45d895efbb95"
  },
  "repo": "shihabal3amri/DiAuto",
  "web": "https://shihabal3amri.github.io/DiAuto/"

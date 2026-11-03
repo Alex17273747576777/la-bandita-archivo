@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-03-20",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "🎧 Open source music streaming app! Available for both desktop & mobile!",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 50524,
+  "stars": 50564,
   "stars_por_mes": null
  },
  "nombre": "spotube",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "08f8f65a2a7fcfb94c69882333fe0a9f7e56d0ec",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:08f8f65a2a7fcfb94c69882333fe0a9f7e56d0ec"
  },
  "repo": "team-spotube/spotube",
  "web": "https://spotube.cc/"

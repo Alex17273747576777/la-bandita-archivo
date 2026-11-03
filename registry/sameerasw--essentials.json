@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-12-04",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Essential tools and mods for Android nerds",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3656,
+  "stars": 3680,
   "stars_por_mes": null
  },
  "nombre": "essentials",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "472a33e35311ea0d93c1b1f77b0eff7770d5b8eb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:472a33e35311ea0d93c1b1f77b0eff7770d5b8eb"
  },
  "repo": "sameerasw/essentials",
  "web": "https://sameerasw.com/essentials"

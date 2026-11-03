@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2015-09-03",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultima_release": "c0.1.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Adblock Fast is a faster ad blocker for Windows, Android, iOS, Chrome, and Opera.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4b9d5c345c25d5e5f2e5089d2851e1b0f129df88",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4b9d5c345c25d5e5f2e5089d2851e1b0f129df88"
  },
  "repo": "rocketshipapps/adblockfast",
  "web": "https://adblockfast.com/"

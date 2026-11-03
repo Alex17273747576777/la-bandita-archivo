@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "patch-latest",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "One-tap unofficial English patch installer for Mushoku Tensei mobile (Shizuku, no root)",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1086d12c4f537b682549eb7a873c2a51e0b098f9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1086d12c4f537b682549eb7a873c2a51e0b098f9"
  },
  "repo": "Aikiooo/mt-en-applier"
 }

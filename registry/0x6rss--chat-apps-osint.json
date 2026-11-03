@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 251,
+  "stars": 252,
   "stars_por_mes": null
  },
  "nombre": "chat-apps-osint",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "767dcca2c1467cedfc24d0b20ebf5e4528bfe9dd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:767dcca2c1467cedfc24d0b20ebf5e4528bfe9dd"
  },
  "repo": "0x6rss/chat-apps-osint"
 }

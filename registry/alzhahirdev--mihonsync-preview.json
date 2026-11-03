@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-04-10",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "r6869",
   "ultimo_push": "2026-08-03"
  },
  "descripcion": "Preview builds for MihonSync",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#alzhahirdev/mihonsync-preview",
   "sha256": "6e599ef5a30584368068699913e4a2a0fe2d54a0e000a860e6c614340ee64613"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "alzhahirdev--mihonsync-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "93c535273b656ce403e43676aaa5384953ff26c9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:93c535273b656ce403e43676aaa5384953ff26c9"
  },
  "repo": "alzhahirdev/mihonsync-preview"
 }

@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 66,
+  "stars": 67,
   "stars_por_mes": null
  },
  "nombre": "Dantotsu",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "9c0ef7a78885f22851640ac6436fb285f26fa6bf",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:9c0ef7a78885f22851640ac6436fb285f26fa6bf"
  },
  "repo": "albertxiao/Dantotsu"
 }

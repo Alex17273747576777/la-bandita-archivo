@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#hamishfromatech/OGAM",
   "sha256": "1ec69402bd1823dfc791b84f0dd4b5ca731192bfc8df3b2f43275f4301f48016"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hamishfromatech--ogam",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3e1ae3ef0cb09a6e031a05914c46a8fe764b6f04",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3e1ae3ef0cb09a6e031a05914c46a8fe764b6f04"
  },
  "repo": "hamishfromatech/OGAM"
 }

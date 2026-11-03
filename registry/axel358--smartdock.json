@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-05-21",
+  "release_en": "2023-05-09",
   "semantica_http": 200,
-  "ultima_release": "1.15.0",
+  "ultima_release": "1.9.8",
   "ultimo_push": "2026-05-21"
  },
  "descripcion": "A user-friendly desktop mode launcher that offers a modern and customizable user interface",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1459,
+  "stars": 1463,
   "stars_por_mes": null
  },
  "nombre": "smartdock",

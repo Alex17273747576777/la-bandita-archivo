@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#arewewhy7-cloud/fmhy-safeguard",
   "sha256": "a500b8b0dff0cea8fc81fdad52859c8940555d895826446df2adec0f2a2f4048"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "arewewhy7-cloud--fmhy-safeguard",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ca1b4f8562d5e91f955d5ff6223a91892710f108",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ca1b4f8562d5e91f955d5ff6223a91892710f108"
  },
  "repo": "arewewhy7-cloud/fmhy-safeguard"
 }

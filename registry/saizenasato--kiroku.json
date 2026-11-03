@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#saizenasato/Kiroku",
   "sha256": "5d7228f4ed22b4dc5e796d984bd40846bd44b3bdfb724f7d5b93d2e8c87b2505"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "saizenasato--kiroku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "896a064468aad7df8c28ddfce609ad841a0cfd1c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:896a064468aad7df8c28ddfce609ad841a0cfd1c"
  },
  "repo": "saizenasato/Kiroku"
 }

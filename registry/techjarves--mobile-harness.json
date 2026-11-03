@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-05",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-11"
+  "ultima_release": "v1.0.2",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Claude Code on Android:  AI-powered mobile coding IDE for Android — chat with a coding agent, run Linux commands, edit files, review diffs, and preview web apps directly from your phone. No root required.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 757,
+  "stars": 788,
   "stars_por_mes": null
  },
  "nombre": "Mobile-Harness",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ae299adc7ecef5d9ed63f46e3dbd9af30818968d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ae299adc7ecef5d9ed63f46e3dbd9af30818968d"
  },
  "repo": "techjarves/Mobile-Harness",
  "web": "https://techjarves.github.io/Mobile-Harness/"

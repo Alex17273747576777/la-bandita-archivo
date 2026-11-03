@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2024-10-16",
+  "release_en": "2022-04-22",
   "semantica_http": 200,
-  "ultima_release": "v1.13.1",
+  "ultima_release": "v0.0.3",
   "ultimo_push": "2026-09-25"
  },
  "descripcion": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 30225,
+  "stars": 30298,
   "stars_por_mes": null
  },
  "nombre": "Seal",

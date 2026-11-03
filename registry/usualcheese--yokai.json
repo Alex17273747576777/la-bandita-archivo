@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#UsualCheese/yokai",
   "sha256": "0f1bf7e154ef73190c875174f10a038c21ddb945c819a9531a2f5ad07bda1b5f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "usualcheese--yokai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d46f5fb73e6ca0e50eced475c73d7e0f5b48b91a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d46f5fb73e6ca0e50eced475c73d7e0f5b48b91a"
  },
  "repo": "UsualCheese/yokai"
 }

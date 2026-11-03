@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2014-03-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2023-08-28"
  },
  "descripcion": "Small tool to display chats from the Android msgstore.db database (crypt12)",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1443,
+  "stars": 1445,
   "stars_por_mes": null
  },
  "nombre": "whatsapp-viewer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f857da400a8b4a7e02138daf1c7f0947860fad17",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f857da400a8b4a7e02138daf1c7f0947860fad17"
  },
  "repo": "andreas-mausch/whatsapp-viewer",
  "web": "https://andreas-mausch.de/whatsapp-viewer/"

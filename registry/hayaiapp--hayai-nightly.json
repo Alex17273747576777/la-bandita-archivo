@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-12",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "r6404",
   "ultimo_push": "2026-10-03"
  },
  "descripcion": "Automated development builds from Hayai master. Nightlies may be unstable; no reset-era stable release has been published yet.",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b2146ee474acc30953aeeef1c2bb708568df15f8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b2146ee474acc30953aeeef1c2bb708568df15f8"
  },
  "repo": "HayaiApp/hayai-nightly",
  "web": "https://github.com/HayaiApp/hayai/wiki/Installation-and-Nightlies"

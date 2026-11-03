@@ -1,9 +1,9 @@
 # PIEZA 80 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/80-El-mapa-del-salon-la-pared-que-mide-Facebook-La-Bandita-2026-10-15.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `f3cb358fb06fd3ed4bc415636ede0548aea3d45d7a966c50038e484f7a0ac7d9`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1218 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 1218 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 833 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/80-El-mapa-del-salon-la-pared-que-mide-Facebook-La-Bandita-2026-10-15.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1218 caracteres ═══
 
@@ -50,9 +50,9 @@ Sin sobresaltos: el empuje más cercano es de **scummvm/scummvm** (hace 2 días)
 
 💓 *EL ESTADO DE HOY · pieza 80*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• scummvm/scummvm — ★2.878 (+8) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
+• scummvm/scummvm — ★2.879 (+9) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

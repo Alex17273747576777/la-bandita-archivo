@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1",
   "ultimo_push": "2026-11-01"
  },
  "descripcion": "A serious terminal emulator with a stupid name",
@@ -21,11 +21,11 @@
  "id": "pg83--shitty",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "GPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "509bd3f95778729d9890c68ab150d94bff372a0e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:509bd3f95778729d9890c68ab150d94bff372a0e"
  },
  "repo": "pg83/shitty"
 }

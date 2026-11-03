@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-09-09",
+  "release_en": "2026-07-10",
   "semantica_http": 200,
-  "ultima_release": "v1.0.5",
+  "ultima_release": "v1.0.1",
   "ultimo_push": "2026-09-24"
  },
  "descripcion": "Android app that monitors and automatically restarts background services, accessibility services, and notification listeners killed by the system, using Shizuku for privileged access.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "356b3d987a8b4ff1a6e7183fbb8313b0a653d105",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:356b3d987a8b4ff1a6e7183fbb8313b0a653d105"
  },
  "repo": "sklndev/Service-Keeper"
 }

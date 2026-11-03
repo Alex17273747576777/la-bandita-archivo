@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-28",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-24"
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Clone and manage your Android apps with help of Shizuku",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 20,
+  "stars": 19,
   "stars_por_mes": null
  },
  "nombre": "CloneCat",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5a76bd5f4492d4844ee9bdf633c1c1119e5a53ee",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5a76bd5f4492d4844ee9bdf633c1c1119e5a53ee"
  },
  "repo": "AhmetCanArslan/CloneCat"
 }

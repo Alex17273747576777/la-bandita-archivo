@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2025-03-23",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.9.8",
   "ultimo_push": "2025-03-23"
  },
  "descripcion": "Free and open source manga reader for Android",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#driftywinds/yokai",
   "sha256": "5da7faa28bd7de1713d08b8c7e21691c47f8050ab68e5ab423c299a07125481a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "driftywinds--yokai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d6c5a9a7c26cf7cf8604a31740f273336392c7d3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d6c5a9a7c26cf7cf8604a31740f273336392c7d3"
  },
  "repo": "driftywinds/yokai"
 }

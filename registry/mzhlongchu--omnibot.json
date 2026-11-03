@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-21"
+  "ultimo_push": "2026-10-29"
  },
  "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MZHlongchu/OmniBot",
   "sha256": "dfa9c3f85e2c57f8eb8da7928f07013394de09200d5ffcbf39ea2ec9c4356c60"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mzhlongchu--omnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "08daea9d1cbfc103c1d39a2d03a2de9b8e990bce",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:08daea9d1cbfc103c1d39a2d03a2de9b8e990bce"
  },
  "repo": "MZHlongchu/OmniBot"
 }

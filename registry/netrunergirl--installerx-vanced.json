@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#NetrunerGirl/InstallerX-Vanced-",
   "sha256": "7bd30470156abcb6c4373cb80d94349d920f432040dad7608d011a426e57340f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "netrunergirl--installerx-vanced",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1055b947b42c8527c283b146214ef89588e33ff8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1055b947b42c8527c283b146214ef89588e33ff8"
  },
  "repo": "NetrunerGirl/InstallerX-Vanced-"
 }

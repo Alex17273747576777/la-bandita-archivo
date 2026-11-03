@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2021-03-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.1",
   "ultimo_push": "2025-08-13"
  },
  "descripcion": "All in one app and workflow launcher / 小而美的应用启动器。",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 167,
+  "stars": 168,
   "stars_por_mes": null
  },
  "nombre": "krude",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ed9bd2f939fa6df93c9eb49bcc168a67032924ce",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ed9bd2f939fa6df93c9eb49bcc168a67032924ce"
  },
  "repo": "KusStar/krude",
  "web": "https://krude.uselessthing.top/"

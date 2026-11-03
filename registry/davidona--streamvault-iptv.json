@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-07",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "master-build-7",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "StreamVault is a TV-first free IPTV player for Android TV built with Kotlin, Jetpack Compose, Room, Hilt, and Media3.",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "davidona--streamvault-iptv",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 907,
+  "stars": 970,
   "stars_por_mes": null
  },
  "nombre": "StreamVault-IPTV",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "bacaae7972f4ebe322b12e38ea57cfc31ff48552",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:bacaae7972f4ebe322b12e38ea57cfc31ff48552"
  },
  "repo": "Davidona/StreamVault-IPTV"
 }

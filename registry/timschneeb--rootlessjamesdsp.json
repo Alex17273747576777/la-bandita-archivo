@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2024-12-23",
+  "release_en": "2022-09-21",
   "semantica_http": 200,
-  "ultima_release": "v1.6.13",
+  "ultima_release": "v0.0.1",
   "ultimo_push": "2026-08-31"
  },
  "descripcion": "An implementation of the system-wide JamesDSP audio processing engine for non-rooted Android devices",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1721,
+  "stars": 1723,
   "stars_por_mes": null
  },
  "nombre": "RootlessJamesDSP",

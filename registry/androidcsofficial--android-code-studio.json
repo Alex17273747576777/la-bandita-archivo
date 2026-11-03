@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-07-09",
+  "release_en": "2025-09-27",
   "semantica_http": 200,
-  "ultima_release": "v1.0.0+gh.r4",
+  "ultima_release": "v1.0.0+gh.r0",
   "ultimo_push": "2026-07-09"
  },
  "descripcion": "Android Code Studio is an IDE for Android to develop full featured Android apps.",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1384,
+  "stars": 1390,
   "stars_por_mes": null
  },
  "nombre": "android-code-studio",

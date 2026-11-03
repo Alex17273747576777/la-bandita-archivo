@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AndyManastorm/smithery-reference-servers",
   "sha256": "a7dc6969987ba77a3e0c2b5819439f39ae8d7cbb9277626ad20cc6a7a800ad98"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "andymanastorm--smithery-reference-servers",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "aca014934a24dd03def1a0e2e0b9868fdcbd78b6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:aca014934a24dd03def1a0e2e0b9868fdcbd78b6"
  },
  "repo": "AndyManastorm/smithery-reference-servers"
 }

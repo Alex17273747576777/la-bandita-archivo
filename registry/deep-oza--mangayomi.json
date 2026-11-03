@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#deep-oza/mangayomi",
   "sha256": "f63d2c1f400ebe5c0e42f56b182e800d7c02d9c956108661f362868b03f6c137"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "deep-oza--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5170ad0fdd15c552aca24d4e7f7416421a13ff0c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5170ad0fdd15c552aca24d4e7f7416421a13ff0c"
  },
  "repo": "deep-oza/mangayomi"
 }

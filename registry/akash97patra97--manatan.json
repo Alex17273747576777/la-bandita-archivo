@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#akash97patra97/Manatan",
   "sha256": "da92328eab3d11833a5233591e34a5a622a5a0da88dbb09d10c06170f4b12175"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "akash97patra97--manatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f55a9b13be70a82f703f8e2798c0a1ba59f7da32",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f55a9b13be70a82f703f8e2798c0a1ba59f7da32"
  },
  "repo": "akash97patra97/Manatan"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-10-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "39.0",
   "ultimo_push": "2026-06-27"
  },
  "descripcion": "FFUpdater: Updater for privacy friendly browser",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "492e9172312cd1e8da49993d10c119ee1eec391e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:492e9172312cd1e8da49993d10c119ee1eec391e"
  },
  "repo": "Tobi823/ffupdater",
  "web": "https://f-droid.org/en/packages/de.marmaro.krt.ffupdater"

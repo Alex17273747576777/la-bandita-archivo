@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-20",
+  "release_en": "2026-07-22",
   "semantica_http": 200,
-  "ultima_release": "v3.1.2",
-  "ultimo_push": "2026-10-20"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Lucent 📝 — Notes, tasks & an AI assistant that respects your privacy 🔒 Encrypted & offline-first ✨",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d40de77e484ebc465756f811758e6f8524e611e3",
+  "commit": "7d3babbd52c90828632ca7811ce7ff3c21aaa2a3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7d3babbd52c90828632ca7811ce7ff3c21aaa2a3"
  },
  "repo": "Lucent-Project/Lucent",
  "web": "https://lucent-project.github.io/lucentapp/"

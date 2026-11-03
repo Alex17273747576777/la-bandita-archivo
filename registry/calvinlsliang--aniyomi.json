@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#calvinlsliang/aniyomi",
   "sha256": "bbcb952fd79cc6d9363f9382a8619646f9e0a2ae2f75d98be3687d8bff8168e0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "calvinlsliang--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "70efdd8f0109abeadf5612947a1ba91587dfe92a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:70efdd8f0109abeadf5612947a1ba91587dfe92a"
  },
  "repo": "calvinlsliang/aniyomi"
 }

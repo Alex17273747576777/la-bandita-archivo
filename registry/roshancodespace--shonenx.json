@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-10-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.1.1-beta",
   "ultimo_push": "2026-10-26"
  },
  "descripcion": "A modern Flutter application for media discovery, tracking, and streaming. Featuring seamless AniList and MyAnimeList integration, customizable content providers, offline capabilities, smooth playback, and a refined user experience, the app is built with a strong focus on performance, scalability, and modern design principles.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 356,
+  "stars": 357,
   "stars_por_mes": null
  },
  "nombre": "ShonenX",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a0dd5fb5afe07dc2c4109c96be31a53eee5da228",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a0dd5fb5afe07dc2c4109c96be31a53eee5da228"
  },
  "repo": "roshancodespace/ShonenX",
  "web": "https://roshancodespace.github.io/ShonenX/"

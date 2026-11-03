@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#startech04/Yorumi",
   "sha256": "c6b511504d5bbdc9ad4ebd40b19623bee02f42e9e9836d65b0bac74e0b12d01d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "startech04--yorumi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5dbc8edbf1b1ffa2aacc797a41f90986cb30f051",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5dbc8edbf1b1ffa2aacc797a41f90986cb30f051"
  },
  "repo": "startech04/Yorumi"
 }

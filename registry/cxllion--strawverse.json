@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Cxllion/StrawVerse",
   "sha256": "995e75ae76a198fffa606895b406982324bc61b61ccfec5c36f8335c5f23c189"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "68f5ab83c12c52c5a060ee716f36ff3832396325",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:68f5ab83c12c52c5a060ee716f36ff3832396325"
  },
  "repo": "Cxllion/StrawVerse"
 }

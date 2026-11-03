@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "release",
   "ultimo_push": "2026-10-06"
  },
  "descripcion": "Opensource FPS Meter for Android",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12,
+  "stars": 14,
   "stars_por_mes": null
  },
  "nombre": "DroidPerf",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "9735aa2b1c0b7a4d8d516687a64148ac90c9914d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:9735aa2b1c0b7a4d8d516687a64148ac90c9914d"
  },
  "repo": "fortifying/DroidPerf"
 }

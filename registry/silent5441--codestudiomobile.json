@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#silent5441/CodeStudioMobile",
   "sha256": "1b522a9bbe70205b6319cef716e18ff38f31557dd21a682f95f6f6939470c1b0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "silent5441--codestudiomobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1c9fc15f4e7be7e6462217cd81e3b9b6076f6bd0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1c9fc15f4e7be7e6462217cd81e3b9b6076f6bd0"
  },
  "repo": "silent5441/CodeStudioMobile"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2026-04-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "26.04.10a5310",
   "ultimo_push": "2026-04-06"
  },
  "descripcion": "More Expressive InstallerX !",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kwisma/InstallerX-Revived",
   "sha256": "54e6834391f432c06b411239bc5b4ffa6e7bc320b0d134c55305dab58cb87e49"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kwisma--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "10a5310d5067e217befffce993af8239dbcd3243",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:10a5310d5067e217befffce993af8239dbcd3243"
  },
  "repo": "Kwisma/InstallerX-Revived"
 }

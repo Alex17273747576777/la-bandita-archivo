@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-02-08",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1",
   "ultimo_push": "2026-10-19"
  },
  "descripcion": "Graphics API Manager for Android (GAMA)",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 445,
+  "stars": 447,
   "stars_por_mes": null
  },
  "nombre": "gama",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ed8c21c9ff2a96769b80112bc942c2c6f8f15b6a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ed8c21c9ff2a96769b80112bc942c2c6f8f15b6a"
  },
  "repo": "palincat/gama"
 }

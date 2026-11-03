@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1801,
+  "stars": 1802,
   "stars_por_mes": null
  },
  "nombre": "NovelReader",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0b8e281b30beecbc1b91d1deeca30301a88b6f5c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0b8e281b30beecbc1b91d1deeca30301a88b6f5c"
  },
  "repo": "newbiechen1024/NovelReader"
 }

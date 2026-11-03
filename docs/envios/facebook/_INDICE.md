@@ -1,6 +1,6 @@
 # ENVÍOS DE FACEBOOK · índice
 
-Generado el 2026-11-02 a partir de la medición del mismo día (`docs/envios/_medicion-facebook.json`). Reglas y plan: `docs/envios/COMO-SE-MANDA.md`.
+Generado el 2026-11-03 a partir de la medición del mismo día (`docs/envios/_medicion-facebook.json`). Reglas y plan: `docs/envios/COMO-SE-MANDA.md`.
 
 Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada, cuerpo partido en mensajes de menos de 4.000 caracteres y cierre con el estado de hoy. La pieza original no se toca; su sha256 va en la cabecera del envío, así que si la pieza cambia, el envío queda marcado como desactualizado.
 
@@ -11,6 +11,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 02 | La música que no se cae: once reproductores, un tronco seco y tres for | 20 | 3648 | 11 | 0 | no | `02-La-musica-que-no-se-cae-once-reproductores-un-tronco-seco-y-tres-formas-de-quedarse-sin-catalogo-Facebook-La-Bandita-2026-11-02-dominicano-ES` |
 | 03 | La caja fuerte del bolsillo: un autenticador muerto, mil seiscientos d | 20 | 3352 | 10 | 0 | no | `03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES` |
 | 04 | ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR, MEDIDA CON | 4 | 3187 | 6 | 0 | no | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
+| 04 | Los cinco herederos de Shizuku: un original con quinientos tres días d | 19 | 3664 | 7 | 0 | no | `04-Los-cinco-herederos-de-Shizuku-un-original-con-quinientos-tres-dias-de-silencio-y-cuatro-forks-que-si-empujan-Facebook-La-Bandita-2026-11-03-dominicano-ES` |
 | 05 | TMO CAYÓ. LOS CLONES COSECHAN CLAVES. TU LISTA NO SE RESTAURA. TODO CO | 2 | 857 | 0 | 0 | no | `05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 06 | FORKS LECTORES: LA CANCHA ENTERA CON PLACA Y HORA, 22-sep-2026 22 DE S | 4 | 2512 | 5 | 0 | no | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 07 | EL ÁRBOL VECINO MEDIDO ESTA MAÑANA: USAGI VIVA, EL MAESTRO EN SU MUSEO | 4 | 3372 | 7 | 0 | no | `07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
@@ -36,7 +37,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 116 | Las ramas nuevas del lector: DropSauce, Chimahon y Kaisoku | 4 | 2286 | 3 | 0 | no | `116-Las-ramas-nuevas-del-lector-DropSauce-Chimahon-y-Kaisoku-Facebook-La-Bandita-2026-10-29` |
 | 117 | La tienda sobre las forjas: Komi Store y el fenómeno de las veinte mil | 4 | 1639 | 1 | 0 | no | `117-La-tienda-sobre-las-forjas-Komi-Store-y-el-fenomeno-de-las-20000-Facebook-La-Bandita-2026-10-29` |
 | 118 | Cuando el padre se archiva: las sucesiones firmadas | 4 | 2784 | 5 | 0 | no | `118-Cuando-el-padre-se-archiva-las-sucesiones-firmadas-Facebook-La-Bandita-2026-10-29` |
-| 119 | El papel y el e-reader: Rakuyomi, KCC y la mesa del Kindle | 4 | 2235 | 3 | 0 | no | `119-El-papel-y-el-e-reader-Rakuyomi-KCC-y-la-mesa-del-Kindle-Facebook-La-Bandita-2026-10-29` |
+| 119 | El papel y el e-reader: Rakuyomi, KCC y la mesa del Kindle | 4 | 2235 | 3 | 1 | no | `119-El-papel-y-el-e-reader-Rakuyomi-KCC-y-la-mesa-del-Kindle-Facebook-La-Bandita-2026-10-29` |
 | 120 | La mesa de trabajo: traducir con FrankYomik y bajar con FMD2 | 4 | 1609 | 2 | 0 | no | `120-La-mesa-de-trabajo-del-manga-traducir-con-FrankYomik-y-bajar-con-FMD2-Facebook-La-Bandita-2026-10-29` |
 | 121 | Ghost Downloader 3: el administrador que baja de todo | 4 | 2264 | 3 | 0 | no | `121-Ghost-Downloader-3-el-administrador-que-baja-de-todo-Facebook-La-Bandita-2026-10-29` |
 | 122 | Universal Patch Manager: el taller de parches universal | 4 | 2085 | 2 | 0 | no | `122-Universal-Patch-Manager-el-taller-de-parches-universal-Facebook-La-Bandita-2026-10-29` |
@@ -77,9 +78,9 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 51 | La discoteca II: el jugador grande y la mudanza de Finamp | 5 | 3726 | 13 | 0 | no | `51-La-discoteca-II-el-jugador-grande-y-la-mudanza-de-Finamp-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 52 | La discoteca III: el censo completo del baile La Bandita · 15 de septi | 5 | 3759 | 12 | 0 | no | `52-La-discoteca-III-el-censo-completo-del-baile-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 53 | Las otras forjas: GitLab, Codeberg y los sitios de la mina | 2 | 835 | 0 | 0 | no | `53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 54 | Las puertas del sistema y el taller — censo de la mina I | 11 | 3858 | 52 | 0 | no | `54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 55 | Las puertas del lector y las bibliotecas — censo de la mina II | 13 | 3940 | 60 | 0 | no | `55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 56 | Las puertas del anime y los servidores — censo de la mina III | 12 | 3912 | 62 | 3 | no | `56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
+| 54 | Las puertas del sistema y el taller — censo de la mina I | 11 | 3834 | 52 | 0 | no | `54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
+| 55 | Las puertas del lector y las bibliotecas — censo de la mina II | 13 | 3907 | 60 | 0 | no | `55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
+| 56 | Las puertas del anime y los servidores — censo de la mina III | 12 | 3918 | 62 | 3 | no | `56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 57 | La hornada del lector: la mina con nombre | 5 | 3654 | 15 | 0 | no | `57-La-hornada-del-lector-la-mina-con-nombre-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 58 | La hornada del anime: el segundo territorio | 5 | 3687 | 14 | 0 | no | `58-La-hornada-del-anime-el-segundo-territorio-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 59 | La hornada del taller: las herramientas de la mina | 5 | 3775 | 16 | 0 | no | `59-La-hornada-del-taller-herramientas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
@@ -124,6 +125,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 98 | La foto III: el sótano completo | 4 | 1825 | 2 | 0 | no | `98-La-foto-III-el-sotano-completo-Facebook-La-Bandita-2026-10-29` |
 | 99 | La foto IV: los jóvenes del censo | 4 | 1302 | 1 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29` |
 
-**117 piezas · 556 mensajes** · el mayor de todos: 3940 caracteres.
+**118 piezas · 575 mensajes** · el mayor de todos: 3918 caracteres.
 
 

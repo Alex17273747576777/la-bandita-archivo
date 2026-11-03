@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#OlegEnot/ultimate-file-manager-pro",
   "sha256": "16de9b6c7b0cfc9ba5e2679ee5067b3a56c3e954a8b79f6d7b1435adcbe94171"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "olegenot--ultimate-file-manager-pro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "dabddbd1947c28e672029f7a5442189cc6575667",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dabddbd1947c28e672029f7a5442189cc6575667"
  },
  "repo": "OlegEnot/ultimate-file-manager-pro"
 }

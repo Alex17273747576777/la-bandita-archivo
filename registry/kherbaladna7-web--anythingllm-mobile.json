@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kherbaladna7-web/anythingllm-mobile",
   "sha256": "84b0fb8865a014af4e0f046abfff040a1c3a7b5b261c1f94fe267769592607d1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kherbaladna7-web--anythingllm-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2deb277d65ebc1a1dcccb1b8cf178e9b7ac2f2d5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2deb277d65ebc1a1dcccb1b8cf178e9b7ac2f2d5"
  },
  "repo": "kherbaladna7-web/anythingllm-mobile"
 }

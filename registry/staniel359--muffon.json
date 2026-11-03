@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-05-11",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0-alpha",
   "ultimo_push": "2026-10-26"
  },
  "descripcion": "Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2254,
+  "stars": 2258,
   "stars_por_mes": null
  },
  "nombre": "muffon",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b443eb86e688381a8fdade9709847d6eee2440ec",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b443eb86e688381a8fdade9709847d6eee2440ec"
  },
  "repo": "staniel359/muffon",
  "web": "https://muffon.netlify.app"

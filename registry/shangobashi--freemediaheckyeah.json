@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#shangobashi/FreeMediaHeckYeah",
   "sha256": "b592ba5f61319058dab981c5bc033d1c539a3ad2bd4a38bd333eafbad1bde829"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "adfb93c97fc432c1088a904ea8922c54cd2b5679",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:adfb93c97fc432c1088a904ea8922c54cd2b5679"
  },
  "repo": "shangobashi/FreeMediaHeckYeah"
 }

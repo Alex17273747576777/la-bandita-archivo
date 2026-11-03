@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#TheDreDay1000/Stellar-debugs",
   "sha256": "3ea64665f8afca33eb6f745213c82cb5588afd4b362c3a6a0e888f3b72b8171a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "thedreday1000--stellar-debugs",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1ccea43f5f29d60e32a80686c410e29ed31d61b3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1ccea43f5f29d60e32a80686c410e29ed31d61b3"
  },
  "repo": "TheDreDay1000/Stellar-debugs"
 }

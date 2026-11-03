@@ -1,9 +1,9 @@
 # PIEZA 68 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/68-La-segunda-fila-de-los-ayudantes-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `bd1b8949da493bf5f76bf37a4687f415b0c082cde86ccb699290262488290b4f`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3716 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3716 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 887 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 7 · Apache-2.0 2 · AGPL-3.0 2 · sin l
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/68-La-segunda-fila-de-los-ayudantes-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3716 caracteres ═══
 
@@ -100,26 +100,26 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1973 caracteres ═══
+═══ MENSAJE 4 de 5 · 1966 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 68*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
-• thunderbird/thunderbird-android — ★14.171 (+14) · empujó el 30-oct-2026 (hace 3 días) · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
-• iSoron/uhabits — ★10.382 (+10) · empujó el 22-oct-2026 (hace 11 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
-• tasks/tasks — ★5.710 (+12) · empujó el 30-oct-2026 (hace 3 días) · GPL-3.0 · última release 15.13 (14-oct-2026)
-• Etar-Group/Etar-Calendar — ★2.630 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.0.57 (27-jul-2026)
-• dongdongbh/Mindwtr — ★2.363 (+22) · empujó en las últimas horas · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
-• curbox-app/curbox-android — ★1.485 (+11) · empujó en las últimas horas · GPL-3.0 · última release 6 (15-oct-2026)
-• GlassHaven/Haven — ★1.405 (+18) · empujó en las últimas horas · AGPL-3.0 · última release v5.93.2 (2-nov-2026)
-• K3vinb5/unyo-app — ★672 (+3) · empujó en las últimas horas · BSD-3-Clause
-• RohitKushvaha01/ReTerminal — ★661 (+1) · empujó el 26-sep-2026 (hace 37 días) · MIT · última release v1.2.0 (10-jun-2025)
-• ReWelp/HayasexShiru-Extensions — ★99 (sin cambio) · *dormido*: sin empujar desde el 2-feb-2026 (273 días) · GPL-3.0
-• dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 10 días) · GPL-3.0 · última release d605625 (23-oct-2026)
-• K3vinb5/Unyo-Extensions — ★10 (sin cambio) · *dormido*: sin empujar desde el 3-nov-2024 (729 días) · GPL-3.0
-• Awerkori/manga-fonte-extensoes — ★9 (sin cambio) · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions — ★15.426 (+57) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-1 (3-nov-2026)
+• thunderbird/thunderbird-android — ★14.175 (+18) · empujó en las últimas horas · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
+• iSoron/uhabits — ★10.387 (+15) · empujó el 22-oct-2026 (hace 12 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
+• tasks/tasks — ★5.715 (+17) · empujó en las últimas horas · GPL-3.0 · última release 15.13 (14-oct-2026)
+• Etar-Group/Etar-Calendar — ★2.631 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.0.57 (27-jul-2026)
+• dongdongbh/Mindwtr — ★2.365 (+24) · empujó en las últimas horas · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
+• curbox-app/curbox-android — ★1.491 (+17) · empujó en las últimas horas · GPL-3.0 · última release 6 (15-oct-2026)
+• GlassHaven/Haven — ★1.409 (+22) · empujó en las últimas horas · AGPL-3.0 · última release v5.94.2 (3-nov-2026)
+• K3vinb5/unyo-app — ★671 (+2) · empujó en las últimas horas · BSD-3-Clause
+• RohitKushvaha01/ReTerminal — ★661 (+1) · empujó el 26-sep-2026 (hace 38 días) · MIT · última release v1.2.0 (10-jun-2025)
+• ReWelp/HayasexShiru-Extensions — ★99 (sin cambio) · *dormido*: sin empujar desde el 2-feb-2026 (274 días) · GPL-3.0
+• dragonx943/manga-repo — ★24 (sin cambio) · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release d605625 (23-oct-2026)
+• K3vinb5/Unyo-Extensions — ★10 (sin cambio) · *dormido*: sin empujar desde el 3-nov-2024 (730 días) · GPL-3.0
+• Awerkori/manga-fonte-extensoes — ★9 (sin cambio) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

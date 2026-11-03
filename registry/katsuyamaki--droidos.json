@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "vivo",
-  "release_en": null,
+  "estado": "dormido",
+  "release_en": "2025-11-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-05-04"
  },
  "descripcion": "A powerful launcher and related tools to superpower AndroidOS",
@@ -21,11 +21,11 @@
  "id": "katsuyamaki--droidos",
  "licencia": {
   "archivo": "LICENSE.txt",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6194d9e4ee2a3c2c30b1e55cfe290bf688b4f722",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6194d9e4ee2a3c2c30b1e55cfe290bf688b4f722"
  },
  "repo": "Katsuyamaki/DroidOS"
 }

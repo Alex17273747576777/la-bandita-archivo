@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-01-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "Android command palette that unifies app launching, device search, and system utilities into a single, customizable overlay.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 95,
+  "stars": 98,
   "stars_por_mes": null
  },
  "nombre": "OmniPrompt",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "efba11895541f4f0b372e8756765da2326ad8ece",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:efba11895541f4f0b372e8756765da2326ad8ece"
  },
  "repo": "mrndstvndv/OmniPrompt"
 }

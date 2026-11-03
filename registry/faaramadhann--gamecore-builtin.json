@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.3.1",
   "ultimo_push": "2026-10-19"
  },
  "descripcion": "Non-root Android game booster built on Shizuku: reversible app freeze, crash-safe recovery, floating overlay. No root/Magisk required.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "97a2b80d3818341b1ef6eedeb4f6ceeaf797af40",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:97a2b80d3818341b1ef6eedeb4f6ceeaf797af40"
  },
  "repo": "FaaRamadhann/GameCore-BuiltIn",
  "web": "https://github.com/FaaRamadhann/GameCore-BuiltIn/releases/latest"

@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1119,
+  "stars": 1156,
   "stars_por_mes": null
  },
  "nombre": "CF-Workers-TGProxy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e565c57ff58656fd544755f67e1c266148c0b88f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e565c57ff58656fd544755f67e1c266148c0b88f"
  },
  "repo": "ToiCF/CF-Workers-TGProxy"
 }

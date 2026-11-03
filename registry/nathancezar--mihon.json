@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#nathancezar/mihon",
   "sha256": "8ba61fc0c8a580d05abe458a1aa8542e09bb12ceb5beeb1b222c6403b76e9e76"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "nathancezar--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ef1e7ba907f9dd89bf4aa5b16142daa9e4d28a00",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ef1e7ba907f9dd89bf4aa5b16142daa9e4d28a00"
  },
  "repo": "nathancezar/mihon"
 }

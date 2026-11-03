@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-12",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0-Release",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "A customizable Glyph visualizer with support for a wide range of Nothing Phone models",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "cc1b285b07374ec79ec78ed01f027e504416491f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:cc1b285b07374ec79ec78ed01f027e504416491f"
  },
  "repo": "Link2011-Act2/GlyphBarty"
 }

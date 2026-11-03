@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2026-02-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.3.0",
   "ultimo_push": "2026-02-25"
  },
  "descripcion": "The Version That Works For Me!",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#0-BlackSpectrum-0/InstallerX-Revived",
   "sha256": "a0af429167e206c9ca19e2b5e2c63ed8b7250d61d9f457ab4f867c188ee6a8dc"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "0-blackspectrum-0--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "21b93255608f1bf1a4e77849e4e60e3366586d4a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:21b93255608f1bf1a4e77849e4e60e3366586d4a"
  },
  "repo": "0-BlackSpectrum-0/InstallerX-Revived"
 }

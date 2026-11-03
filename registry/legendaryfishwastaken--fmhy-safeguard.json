@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2024-11-09",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "dev-version",
   "ultimo_push": "2024-12-03"
  },
  "descripcion": "An extension that detects starred, safe, unsafe or potentially unsafe sites usin",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#legendaryfishwastaken/FMHY-SafeGuard",
   "sha256": "c1ca1f46fad796ab9d724c2f1729c5f765226505c9a0a45bd9e3ab2c877a1db5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "legendaryfishwastaken--fmhy-safeguard",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "6a82b1aac8d923116c11631a526a6a461797abc3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6a82b1aac8d923116c11631a526a6a461797abc3"
  },
  "repo": "legendaryfishwastaken/FMHY-SafeGuard"
 }

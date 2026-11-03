@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#marshalkovalera-code/InstallerX-Revived",
   "sha256": "4dd40dd6dfa6336b55dc66705f420a67a21522bf5fba321d14067f79642e2603"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "marshalkovalera-code--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9467642601aebacf1f85aa3b83170fbe9c92dc5d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9467642601aebacf1f85aa3b83170fbe9c92dc5d"
  },
  "repo": "marshalkovalera-code/InstallerX-Revived"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-12-12",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Universal search app for Android which can search apps, shortcuts, contacts, files, calendar events, notes, settings and the internet.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 613,
+  "stars": 620,
   "stars_por_mes": null
  },
  "nombre": "quick-search",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f7416c01fee9caf2946ee466d87c09b428d07365",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f7416c01fee9caf2946ee466d87c09b428d07365"
  },
  "repo": "teja2495/quick-search"
 }

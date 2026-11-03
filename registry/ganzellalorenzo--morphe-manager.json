@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#GanzellaLorenzo/morphe-manager",
   "sha256": "16937093908e5b703b218e9b5b34e9492397437240f6f4a6d9cecd5ae905e29d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ganzellalorenzo--morphe-manager",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f6caeb66860571483c01fa644c83367ddb5b846a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f6caeb66860571483c01fa644c83367ddb5b846a"
  },
  "repo": "GanzellaLorenzo/morphe-manager"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#tchelocarp-bit/playtranslate",
   "sha256": "84de2b8083618fe07a46669ada50fc0ee62a0632a7044ec36eaa1e62133f52ee"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "tchelocarp-bit--playtranslate",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "cfaaca6e76df66402f07e7555d04b1372a9cd1db",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cfaaca6e76df66402f07e7555d04b1372a9cd1db"
  },
  "repo": "tchelocarp-bit/playtranslate"
 }

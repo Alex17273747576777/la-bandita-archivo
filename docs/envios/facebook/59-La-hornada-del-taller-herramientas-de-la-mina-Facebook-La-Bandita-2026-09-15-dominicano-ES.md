@@ -1,9 +1,9 @@
 # PIEZA 59 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/59-La-hornada-del-taller-herramientas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `67edc89cc24229bcf9e69626beea1debd53256e6a268f24597b628206fb0cc06`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3775 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3775 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 908 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4 · GPL-2.0 3 · Apache-2.0 3 · MIT 3.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/59-La-hornada-del-taller-herramientas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3775 caracteres ═══
 
@@ -108,28 +108,28 @@ Pulso de hoy sobre los 16 repos de la pieza: 16 vivos, 14 activos este mes. Mand
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2315 caracteres ═══
+═══ MENSAJE 4 de 5 · 2281 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 59*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★332.977 (+1190) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
-• jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• photoprism/photoprism — ★40.390 (+20) · empujó el 29-oct-2026 (hace 4 días) · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• komi-store/komi-store — ★20.248 (+158) · empujó en las últimas horas · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• FreshRSS/FreshRSS — ★16.488 (+42) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
-• offa/android-foss — ★11.611 (+25) · empujó el 26-oct-2026 (hace 7 días) · GPL-3.0
-• jellyfin/jellyfin-androidtv — ★4.697 (+22) · empujó el 29-oct-2026 (hace 4 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
-• wgtunnel/android — ★3.324 (+8) · empujó en las últimas horas · MIT · última release 5.8.2 (19-oct-2026)
-• f-droid/fdroidclient — ★3.257 (+10) · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release 1.18.0 (24-ene-2024)
-• jellyfin/jellyfin-android — ★2.851 (+12) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
-• lihenggui/blocker — ★2.479 (+13) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v2.0.6447 (22-oct-2026)
-• AhmetCanArslan/ShizuWall — ★2.438 (+29) · empujó en las últimas horas · GPL-3.0 · última release v4.6.8 (24-oct-2026)
-• VegaBobo/DSU-Sideloader — ★2.353 (+9) · *dormido*: sin empujar desde el 13-mar-2024 (964 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
-• F0x1d/LogFox — ★1.380 (+7) · empujó el 15-oct-2026 (hace 18 días) · GPL-3.0 · última release v2.1.10-79 (1-mar-2026)
-• Khh-vu/wifi-password-manager — ★324 (+2) · empujó el 29-oct-2026 (hace 4 días) · MIT · última release v1.21 (29-oct-2026)
-• Carry-rrk/ManageSensors — ★46 (sin cambio) · *dormido*: sin empujar desde el 18-ene-2025 (653 días) · MIT · última release debug (18-ene-2025)
+• awesome-selfhosted/awesome-selfhosted — ★333.310 (+1523) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• jellyfin/jellyfin — ★58.963 (+176) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• photoprism/photoprism — ★40.403 (+33) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• komi-store/komi-store — ★20.287 (+197) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• FreshRSS/FreshRSS — ★16.503 (+57) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
+• offa/android-foss — ★11.620 (+34) · empujó en las últimas horas · GPL-3.0
+• jellyfin/jellyfin-androidtv — ★4.703 (+28) · empujó en las últimas horas · GPL-2.0 · última release v0.19.10 (16-ago-2026)
+• wgtunnel/android — ★3.326 (+10) · empujó en las últimas horas · MIT · última release 5.8.2 (19-oct-2026)
+• f-droid/fdroidclient — ★3.255 (+8) · empujó en las últimas horas · GPL-3.0 · última release 1.18.0 (24-ene-2024)
+• jellyfin/jellyfin-android — ★2.856 (+17) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• lihenggui/blocker — ★2.480 (+14) · empujó en las últimas horas · Apache-2.0 · última release v2.0.6447 (22-oct-2026)
+• AhmetCanArslan/ShizuWall — ★2.441 (+32) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.6.8 (24-oct-2026)
+• VegaBobo/DSU-Sideloader — ★2.352 (+8) · *dormido*: sin empujar desde el 13-mar-2024 (965 días) · Apache-2.0 · última release 2.03 (29-abr-2023)
+• F0x1d/LogFox — ★1.380 (+7) · empujó el 15-oct-2026 (hace 19 días) · GPL-3.0 · última release v2.1.10-79 (1-mar-2026)
+• Khh-vu/wifi-password-manager — ★324 (+2) · empujó en las últimas horas · MIT · última release v1.21 (29-oct-2026)
+• Carry-rrk/ManageSensors — ★46 (sin cambio) · *dormido*: sin empujar desde el 18-ene-2025 (654 días) · MIT · última release debug (18-ene-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

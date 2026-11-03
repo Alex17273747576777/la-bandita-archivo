@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#VIPOJIKOP/morphe-manager",
   "sha256": "fee5e109b28e430cade4aa91ae774b4d44f950a377d4b9a9357e9a44af0c0164"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "vipojikop--morphe-manager",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a2c3d31bd7ab42e6bc4b9dd528ed856fc72fb948",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a2c3d31bd7ab42e6bc4b9dd528ed856fc72fb948"
  },
  "repo": "VIPOJIKOP/morphe-manager"
 }

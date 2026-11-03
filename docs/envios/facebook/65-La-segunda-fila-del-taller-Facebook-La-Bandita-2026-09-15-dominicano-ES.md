@@ -1,9 +1,9 @@
 # PIEZA 65 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/65-La-segunda-fila-del-taller-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `74d6277e96160a77853237ab607b007d66cdcf5228c00becfa4bd25232ccddee`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3724 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3724 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 870 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 5 · Apache-2.0 5 · GPL-3.0 3 · sin licenc
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/65-La-segunda-fila-del-taller-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3724 caracteres ═══
 
@@ -111,30 +111,30 @@ Hay release de esta semana: **ggml-org/llama.cpp** publicó v0.8.0 (2026-10-28).
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2616 caracteres ═══
+═══ MENSAJE 4 de 5 · 2591 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 65*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.142 (+371) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• SagerNet/sing-box — ★39.542 (+153) · empujó el 28-oct-2026 (hace 5 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
-• mlc-ai/mlc-llm — ★23.294 (+9) · empujó el 30-oct-2026 (hace 3 días) · Apache-2.0
-• FlareSolverr/FlareSolverr — ★16.114 (+43) · empujó el 24-oct-2026 (hace 9 días) · MIT · última release v3.5.2 (12-sep-2026)
-• AAswordman/Operit — ★9.187 (+102) · empujó el 5-oct-2026 (hace 28 días) · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
-• LibChecker/LibChecker — ★7.296 (+5) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
-• TeamWin/Team-Win-Recovery-Project — ★2.070 (+2) · *dormido*: sin empujar desde el 6-feb-2022 (1730 días) · sin licencia detectada por la API
-• zacharee/Tweaker — ★1.761 (+4) · empujó el 21-oct-2026 (hace 12 días) · MIT · última release 362 (17-feb-2024)
-• TeamWin/android_bootable_recovery — ★1.725 · *dormido*: sin empujar desde el 24-ago-2026 (70 días) · sin licencia detectada por la API
-• freeotp/freeotp-android — ★1.683 (sin cambio) · empujó el 27-oct-2026 (hace 6 días) · Apache-2.0
-• pass-with-high-score/universal-installer — ★1.666 (+26) · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
-• sdex/ActivityManager — ★1.375 (+9) · empujó el 27-oct-2026 (hace 6 días) · Apache-2.0 · última release 5.5.3 (10-oct-2026)
-• Anthonyy232/Paperize — ★1.258 (+1) · empujó el 28-oct-2026 (hace 5 días) · GPL-3.0 · última release v4.2.1 (13-oct-2026)
+• ggml-org/llama.cpp — ★133.256 (+485) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• SagerNet/sing-box — ★39.577 (+188) · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• mlc-ai/mlc-llm — ★23.298 (+13) · empujó el 30-oct-2026 (hace 4 días) · Apache-2.0
+• FlareSolverr/FlareSolverr — ★16.131 (+60) · empujó el 24-oct-2026 (hace 10 días) · MIT · última release v3.5.2 (12-sep-2026)
+• AAswordman/Operit — ★9.202 (+117) · empujó en las últimas horas · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
+• LibChecker/LibChecker — ★7.302 (+11) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
+• TeamWin/Team-Win-Recovery-Project — ★2.071 (+3) · *dormido*: sin empujar desde el 6-feb-2022 (1731 días) · sin licencia detectada por la API
+• zacharee/Tweaker — ★1.762 (+5) · empujó el 21-oct-2026 (hace 13 días) · MIT · última release 362 (17-feb-2024)
+• TeamWin/android_bootable_recovery — ★1.725 · empujó en las últimas horas · sin licencia detectada por la API
+• freeotp/freeotp-android — ★1.683 (+2) · empujó el 27-oct-2026 (hace 7 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)
+• pass-with-high-score/universal-installer — ★1.673 (+33) · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
+• sdex/ActivityManager — ★1.375 (+9) · empujó el 27-oct-2026 (hace 7 días) · Apache-2.0 · última release 5.5.3 (10-oct-2026)
+• Anthonyy232/Paperize — ★1.260 (+3) · empujó en las últimas horas · GPL-3.0 · última release v4.2.1 (13-oct-2026)
 • commons-app/apps-android-commons — ★1.192 (+1) · empujó en las últimas horas · Apache-2.0 · última release v6.8.0 (14-oct-2026)
-• session-foundation/session-android — ★942 (+8) · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release 1.33.7 (14-oct-2026)
-• supershadoe/delta — ★586 (+2) · empujó en las últimas horas · BSD-3-Clause · última release 2025.08+0 (24-ago-2025)
-• dorumrr/de1984 — ★473 (+5) · empujó el 27-oct-2026 (hace 6 días) · MIT · última release v2.8.4 (27-oct-2026)
-• LinZong/Hostman — ★58 (sin cambio) · *dormido*: sin empujar desde el 31-dic-2025 (306 días) · MIT · última release 1.1.1 (31-dic-2025)
+• session-foundation/session-android — ★942 (+8) · empujó en las últimas horas · GPL-3.0 · última release 1.33.7 (14-oct-2026)
+• supershadoe/delta — ★587 (+3) · empujó en las últimas horas · BSD-3-Clause · última release 2025.08+0 (24-ago-2025)
+• dorumrr/de1984 — ★473 (+5) · empujó el 27-oct-2026 (hace 7 días) · MIT · última release v2.8.4 (27-oct-2026)
+• LinZong/Hostman — ★58 (sin cambio) · *dormido*: sin empujar desde el 31-dic-2025 (307 días) · MIT · última release 1.1.1 (31-dic-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

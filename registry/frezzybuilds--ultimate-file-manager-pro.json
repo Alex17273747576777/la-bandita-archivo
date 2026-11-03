@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#FreZZyBuilds/ultimate-file-manager-pro",
   "sha256": "03e56f5dc9c27583c4de94c16e8f62354056a9e3f268134ec2c0ddc7805d9049"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "frezzybuilds--ultimate-file-manager-pro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c00c26d364ff46922ee9b5a066c1745900f7b934",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c00c26d364ff46922ee9b5a066c1745900f7b934"
  },
  "repo": "FreZZyBuilds/ultimate-file-manager-pro"
 }

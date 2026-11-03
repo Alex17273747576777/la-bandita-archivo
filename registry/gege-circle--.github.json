@@ -26,21 +26,21 @@
   "spdx": "CC BY-SA 3.0",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2073,
+  "stars": 2080,
   "stars_por_mes": null
  },
  "nombre": ".github",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "411e203937adac5e60f1df135db10581019c075e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:411e203937adac5e60f1df135db10581019c075e"
  },
  "repo": "gege-circle/.github",
  "web": "https://www.reddit.com/r/gege_circle/"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Hamakaze1s/JHenTai",
   "sha256": "d109a8a877d60f8333ef69464d544871cad2910864c9a7ae186b43a74fcf42fd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hamakaze1s--jhentai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a78ae920d7b15ab8236c43dc2a593b6880ebc7d9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a78ae920d7b15ab8236c43dc2a593b6880ebc7d9"
  },
  "repo": "Hamakaze1s/JHenTai"
 }

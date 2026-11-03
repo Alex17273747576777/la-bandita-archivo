@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Richiedevoops/quick-search",
   "sha256": "b0d5f438b3e252ff94352121d4799a815c1a52aebc7495787c65d334d30e8278"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "richiedevoops--quick-search",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2dcf4d6d1149a251311cd7e7efa643bd47becd6f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2dcf4d6d1149a251311cd7e7efa643bd47becd6f"
  },
  "repo": "Richiedevoops/quick-search"
 }

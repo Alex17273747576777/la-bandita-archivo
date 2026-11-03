@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#motte135/ultimate-file-manager-pro",
   "sha256": "7a8b60d16c180cf2e4478cc483679f11cfcd18374d8e44ae1fe1340b5dbbdd09"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "motte135--ultimate-file-manager-pro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "de94fe1b3aa017b9e609d997ae6563df5f858500",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:de94fe1b3aa017b9e609d997ae6563df5f858500"
  },
  "repo": "motte135/ultimate-file-manager-pro"
 }

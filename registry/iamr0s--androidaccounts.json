@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2023-07-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.3",
   "ultimo_push": "2023-07-19"
  },
  "descripcion": "",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 350,
+  "stars": 351,
   "stars_por_mes": null
  },
  "nombre": "AndroidAccounts",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5448d79ddc144b4b5c2510e7d89b0a258a6df78b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5448d79ddc144b4b5c2510e7d89b0a258a6df78b"
  },
  "repo": "iamr0s/AndroidAccounts"
 }

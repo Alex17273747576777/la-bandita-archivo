@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mmagria/argos-im-availability-gateway",
   "sha256": "8a53d6160b77e156e8364d5bcb521e666a611b953de53d8e5b5df90aa0eddd33"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "63e5a27606fb779c7edd3d77b0493501ea6a0d24",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:63e5a27606fb779c7edd3d77b0493501ea6a0d24"
  },
  "repo": "mmagria/argos-im-availability-gateway"
 }

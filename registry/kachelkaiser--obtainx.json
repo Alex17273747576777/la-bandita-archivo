@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-07-09"
+  "ultimo_push": "2026-10-27"
  },
  "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kachelkaiser/ObtainX",
   "sha256": "dfa1d32293136ac5c83a7d2dfe5823e69ce31528ca019d764fbf295fe7a13546"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kachelkaiser--obtainx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "52eca6823538e0f39b26cd95e6b03f0d797c068b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:52eca6823538e0f39b26cd95e6b03f0d797c068b"
  },
  "repo": "Kachelkaiser/ObtainX"
 }

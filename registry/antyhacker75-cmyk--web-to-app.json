@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#antyhacker75-cmyk/web-to-app",
   "sha256": "9c6be92397beeea518b9aaa2de9bfe44d82e7ef7a730cbab52a086a78ec7256b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "antyhacker75-cmyk--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "87c605c8e0a7bdafbc3f4344d23df9ea366df0f6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:87c605c8e0a7bdafbc3f4344d23df9ea366df0f6"
  },
  "repo": "antyhacker75-cmyk/web-to-app"
 }

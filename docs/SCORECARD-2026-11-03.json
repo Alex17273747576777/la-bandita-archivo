@@ -1,7 +1,7 @@
 {
  "fecha": "2026-11-03",
  "medidos": 9,
- "sin_dato": 46,
+ "sin_dato": 49,
  "detalle": [
   {
    "repo": "freeotp/freeotp-android",
@@ -328,6 +328,21 @@
   },
   {
    "repo": "software-ace/PocketSense",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "16/17",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "7/10",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "thedjchi/Shizuku",
    "scorecard": null,
    "motivo": "sin dato en deps.dev"
   }

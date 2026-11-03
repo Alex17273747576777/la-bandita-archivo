@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#troyadisparta-ctrl/airi",
   "sha256": "45d581b99cbb6c6df8b7808b2cabe192f9f8b61b45fc069241540f1dbb12b67d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "troyadisparta-ctrl--airi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "563a738c88cc42967fd0721a6ca5ad0c9aa403a6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:563a738c88cc42967fd0721a6ca5ad0c9aa403a6"
  },
  "repo": "troyadisparta-ctrl/airi"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-29",
+  "release_en": "2026-10-25",
   "semantica_http": 200,
-  "ultima_release": "build-18",
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "build-1",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Installs and updates the Tintloom apps, silently with Shizuku or root",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "277d73e8ede40d6ed37535bb38bb498a585b0024",
+  "commit": "5f9b0f89a336390b92cb182ba53b333858e6d5b3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5f9b0f89a336390b92cb182ba53b333858e6d5b3"
  },
  "repo": "ShoalApps/shoal",
  "web": "https://tintloom.github.io"

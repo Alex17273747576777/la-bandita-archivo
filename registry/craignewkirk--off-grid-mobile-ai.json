@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Craignewkirk/off-grid-mobile-ai",
   "sha256": "960e45334b1c222d413388b5a3dc6465bfb43ecd025391a089510c6847504879"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "craignewkirk--off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4e1ca928032d6b68e0785fd82e93208a3179f4ea",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e1ca928032d6b68e0785fd82e93208a3179f4ea"
  },
  "repo": "Craignewkirk/off-grid-mobile-ai"
 }

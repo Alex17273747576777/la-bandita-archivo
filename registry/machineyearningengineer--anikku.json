@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#machineyearningengineer/anikku",
   "sha256": "4ca8ccc870fe278846ce13280947ca91e3f383d4d1e6d29b0261b544a4c36b55"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "machineyearningengineer--anikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "aa016c4c3244d5fdc82835668298dd688bc74caf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:aa016c4c3244d5fdc82835668298dd688bc74caf"
  },
  "repo": "machineyearningengineer/anikku"
 }

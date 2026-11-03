@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#FAHZANK2000/mpvRx",
   "sha256": "93ec8fc4eea1879c63b4bdc8c60c7b3e33bc66a7faca3f2b45d8e43cef86ae8a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "fahzank2000--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "916c31d3e9bc1b3dc2acc8d7c63dcad5cbef5a1e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:916c31d3e9bc1b3dc2acc8d7c63dcad5cbef5a1e"
  },
  "repo": "FAHZANK2000/mpvRx"
 }

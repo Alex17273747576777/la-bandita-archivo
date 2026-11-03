@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AndrewKeYanzhe/MicroG-RE",
   "sha256": "b900708e6318f414aa9060641a199f8e50577fd8cac1fce402a72656c4d889a6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "andrewkeyanzhe--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a1c47098d8b17486583cec271e4fbb20dd0cc15b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a1c47098d8b17486583cec271e4fbb20dd0cc15b"
  },
  "repo": "AndrewKeYanzhe/MicroG-RE"
 }

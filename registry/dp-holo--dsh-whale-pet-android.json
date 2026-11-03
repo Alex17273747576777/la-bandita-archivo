@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1.0-Pre",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "",
@@ -21,11 +21,11 @@
  "id": "dp-holo--dsh-whale-pet-android",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0feda5bbc764baa631ac22106199b8f2eaa3fefe",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0feda5bbc764baa631ac22106199b8f2eaa3fefe"
  },
  "repo": "Dp-Holo/DSH-whale-pet-android"
 }

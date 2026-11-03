@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-11",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.3.3-belu",
   "ultimo_push": "2026-05-11"
  },
  "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a338bc2a279f577be31afd36175836a5c7258ff8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a338bc2a279f577be31afd36175836a5c7258ff8"
  },
  "repo": "adarshbelu/mpvBelu"
 }

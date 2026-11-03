@@ -1,9 +1,9 @@
 # PIEZA 85 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/85-Pixel-en-mano-PixelXpert-el-taller-del-Pixel-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `4bac4a03c1f514241049cf590f742ce372f453964bee25ae00a2b831bde0dbc8`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1366 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 1366 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 865 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/85-Pixel-en-mano-PixelXpert-el-taller-del-Pixel-Facebook-La-Bandita-2026-10-29.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1366 caracteres ═══
 
@@ -50,9 +50,9 @@ Pulso tranquilo: lo último que se movió fue **siavash79/PixelXpert**, hace 132
 
 💓 *EL ESTADO DE HOY · pieza 85*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• siavash79/PixelXpert — ★2.441 (+1) · *dormido*: sin empujar desde el 21-jun-2026 (134 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
+• siavash79/PixelXpert — ★2.439 (-1) · *dormido*: sin empujar desde el 21-jun-2026 (135 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#lumen-for-kairunkr/Manatan",
   "sha256": "8fd66925d92431f93ed654bd57c952c8cc223a5202aa20da3a43a3bfef57e0a3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lumen-for-kairunkr--manatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c2af131aa9048d5fb1170ca524bc67a5980f5cc0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c2af131aa9048d5fb1170ca524bc67a5980f5cc0"
  },
  "repo": "lumen-for-kairunkr/Manatan"
 }

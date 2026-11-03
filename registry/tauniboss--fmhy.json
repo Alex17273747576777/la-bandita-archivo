@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#tauniboss/FMHY",
   "sha256": "0c37ae560900371edb2d69666f935c11d1b230823bd25cd07fe1658ad264d22f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8398a098e0d37646eec5c739cf6416b1c0276cfc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8398a098e0d37646eec5c739cf6416b1c0276cfc"
  },
  "repo": "tauniboss/FMHY"
 }

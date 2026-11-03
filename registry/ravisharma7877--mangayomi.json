@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#RaviSharma7877/mangayomi",
   "sha256": "02c86a2c1cc34169b42b1062014c896b2df494c82c920e587c3ed3bf407a9121"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ravisharma7877--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b0bd1451a86dbd1243acab0434fec6f873224b8c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b0bd1451a86dbd1243acab0434fec6f873224b8c"
  },
  "repo": "RaviSharma7877/mangayomi"
 }

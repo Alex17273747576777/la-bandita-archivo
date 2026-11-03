@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#akunbaru5326364-star/Usagi",
   "sha256": "9d9df72c8fbb6164110254a1f6aa18604d071dc6d3bfe685cf26ef5722830232"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "akunbaru5326364-star--usagi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "021a8c1d7eb0d5f85b4e54e83e6813d2dec56835",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:021a8c1d7eb0d5f85b4e54e83e6813d2dec56835"
  },
  "repo": "akunbaru5326364-star/Usagi"
 }

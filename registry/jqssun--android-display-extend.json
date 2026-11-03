@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.1",
   "ultimo_push": "2026-10-19"
  },
  "descripcion": "An all-purpose Android display manager for any connected physical or virtual display",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 209,
+  "stars": 211,
   "stars_por_mes": null
  },
  "nombre": "android-display-extend",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4598db3f710a7d7081c4386c5353d909f573ed10",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4598db3f710a7d7081c4386c5353d909f573ed10"
  },
  "repo": "jqssun/android-display-extend",
  "web": "https://f-droid.org/packages/io.github.jqssun.displayextend/"

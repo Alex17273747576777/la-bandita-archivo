@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0-1",
   "ultimo_push": "2026-10-13"
  },
  "descripcion": "NetToggle brings advanced cellular network controls to Android Quick Settings. Switch between 5G Only (SA/NR), 4G/LTE Only, Preferred 5G, Preferred 4G, Preferred 3G, and 2G Only. Build custom tile cycles, target one or both SIMs, create shortcuts, use secure broadcast automation, restore preferred modes, and diagnose failures using Root or Shizuku.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 75,
+  "stars": 76,
   "stars_por_mes": null
  },
  "nombre": "NetToggle",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "286caab37d917746a657cf128b37c1e94a9857ea",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:286caab37d917746a657cf128b37c1e94a9857ea"
  },
  "repo": "Dhangofa/NetToggle",
  "web": "https://github.com/Dhangofa/NetToggle"

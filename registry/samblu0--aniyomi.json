@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SamBlu0/aniyomi",
   "sha256": "08846b3cfaa99521a71804e488aea371ef8b4b0fdee69cce4206f8edec6bae3b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "samblu0--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5f0b3b5524ef729ab95a0cfa83d2d7c104bcf794",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5f0b3b5524ef729ab95a0cfa83d2d7c104bcf794"
  },
  "repo": "SamBlu0/aniyomi"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-02-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.3.7",
   "ultimo_push": "2026-08-25"
  },
  "descripcion": "安卓电视直播APK：IPTV/網頁視頻支持X5，可自定義源(支持webview://格式)，IPTV支持畫中畫和熄屏播放。 Android TV Live APK: IPTV/web video supports X5, customizable sources (support webview:// format), IPTV supports picture-in-picture and off-screen playback.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1358,
+  "stars": 1359,
   "stars_por_mes": null
  },
  "nombre": "yourtv",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "16ab601d640eff080d501ef00ca1fabc10b1d8f5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:16ab601d640eff080d501ef00ca1fabc10b1d8f5"
  },
  "repo": "horsemail/yourtv",
  "web": "https://github.com/horsemail/yourtv"

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#maniacs-oss/OGAM",
   "sha256": "27d62e112cf32122af64f0dfec399cea6e10dd9045da838f4833cdf8677f7975"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "maniacs-oss--ogam",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b32253569f3e70ce250980566cb41ce30ac6c1c7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b32253569f3e70ce250980566cb41ce30ac6c1c7"
  },
  "repo": "maniacs-oss/OGAM"
 }

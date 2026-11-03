@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-02-15",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.8(100089)",
   "ultimo_push": "2026-10-18"
  },
  "descripcion": "Another Shizuku impl",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1716,
+  "stars": 1737,
   "stars_por_mes": null
  },
  "nombre": "Stellar",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "bc03f6a2d7c95167d1853e24d3e52587634e7c58",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:bc03f6a2d7c95167d1853e24d3e52587634e7c58"
  },
  "repo": "roro2239/Stellar"
 }

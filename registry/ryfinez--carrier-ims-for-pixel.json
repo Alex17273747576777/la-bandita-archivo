@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-17",
+  "release_en": "2026-01-29",
   "semantica_http": 200,
-  "ultima_release": "3.9.1.r107.4312b5a9",
+  "ultima_release": "3.6.r80.bc3604f9",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "Carrier IMS for Pixel (TurboIMS): multilingual (中文/English) pixel ims / ims / carrierconfig / volte / vowifi / 5G+ toolkit for Google Pixel.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1990,
+  "stars": 2009,
   "stars_por_mes": null
  },
  "nombre": "carrier-ims-for-pixel",
@@ -39,7 +39,7 @@
   "commit": "4312b5a9244a20444cccf5c4a5f763f6fd9d2ab5",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4312b5a9244a20444cccf5c4a5f763f6fd9d2ab5"
  },
  "repo": "ryfineZ/carrier-ims-for-pixel"
 }

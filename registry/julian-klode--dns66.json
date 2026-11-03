@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2016-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-03-02"
  },
  "descripcion": "DNS-based Host Blocker (and lightweight ad blocker) for Android",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2245,
+  "stars": 2244,
   "stars_por_mes": null
  },
  "nombre": "dns66",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3e80e35915dd9a501ba99779b01f53e906c2fffd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3e80e35915dd9a501ba99779b01f53e906c2fffd"
  },
  "repo": "julian-klode/dns66",
  "web": "https://jak-linux.org/projects/dns66/"

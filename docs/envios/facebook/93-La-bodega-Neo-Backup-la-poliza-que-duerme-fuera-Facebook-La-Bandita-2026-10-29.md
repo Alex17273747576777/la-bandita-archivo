@@ -1,9 +1,9 @@
 # PIEZA 93 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/93-La-bodega-Neo-Backup-la-poliza-que-duerme-fuera-Facebook-La-Bandita-2026-10-29.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `d30a00dbe274a0f17d59297dccd840781e3793c48b5a9e0b7fa145b578e7f5fd`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1202 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 1202 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 859 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: AGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/93-La-bodega-Neo-Backup-la-poliza-que-duerme-fuera-Facebook-La-Bandita-2026-10-29.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1202 caracteres ═══
 
@@ -46,13 +46,13 @@ Pulso tranquilo: lo último que se movió fue **NeoApplications/Neo-Backup**, ha
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 433 caracteres ═══
+═══ MENSAJE 3 de 4 · 463 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 93*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• NeoApplications/Neo-Backup — ★3.890 (sin cambio) · empujó el 17-oct-2026 (hace 16 días) · AGPL-3.0
+• NeoApplications/Neo-Backup — ★3.892 (+11) · empujó el 17-oct-2026 (hace 17 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

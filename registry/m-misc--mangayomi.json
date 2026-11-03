@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-10-28"
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#m-misc/mangayomi",
   "sha256": "665ea0860ed47dc2bf5ac0859c05ecfdca6c6cc72a2b25f3a8ff3ee7b2cfb1ef"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "m-misc--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e40815e0f3ab24468fa023ebf0d70c69f3d7c7a5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e40815e0f3ab24468fa023ebf0d70c69f3d7c7a5"
  },
  "repo": "m-misc/mangayomi"
 }

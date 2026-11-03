@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2015-01-09",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.2.1",
   "ultimo_push": "2024-04-22"
  },
  "descripcion": "Android library (AAR). Highly configurable, easily extendable deep zoom view for displaying huge images without loss of detail. Perfect for photo galleries, maps, building plans etc.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8009,
+  "stars": 8011,
   "stars_por_mes": null
  },
  "nombre": "subsampling-scale-image-view",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "173e421fdbfa971fe8db2d943c1bd758ce679d24",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:173e421fdbfa971fe8db2d943c1bd758ce679d24"
  },
  "repo": "davemorrissey/subsampling-scale-image-view"
 }

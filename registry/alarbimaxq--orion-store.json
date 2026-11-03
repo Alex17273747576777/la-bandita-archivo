@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#alarbimaxq/Orion-Store",
   "sha256": "8496451bba57a33c9aa42a3ae02e18015909659255e3489f0dd992e7551ff9a1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "alarbimaxq--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "96faec24d476aa57abcbbfd0daff31c2d4e3276f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:96faec24d476aa57abcbbfd0daff31c2d4e3276f"
  },
  "repo": "alarbimaxq/Orion-Store"
 }

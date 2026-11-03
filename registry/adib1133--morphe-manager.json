@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Adib1133/morphe-manager",
   "sha256": "1aed67247f2c9f09e9e96b3605fb0cbe271d0e14abbc524ccb22b180d6e16c53"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "adib1133--morphe-manager",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ebf77cb4d7317db705e425c5cc8e9b7a92570fd5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ebf77cb4d7317db705e425c5cc8e9b7a92570fd5"
  },
  "repo": "Adib1133/morphe-manager"
 }

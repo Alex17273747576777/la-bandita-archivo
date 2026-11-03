@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#tste7azs/Stellar-TK",
   "sha256": "35ce886d5a0514ae5298e65ac6ed12235d14fe2f43a4850e3e7efb7bb562692c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "tste7azs--stellar-tk",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2730d9b4e2178ef1d4480fe76ca8990800c18d4e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2730d9b4e2178ef1d4480fe76ca8990800c18d4e"
  },
  "repo": "tste7azs/Stellar-TK"
 }

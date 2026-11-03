@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-16",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.7.45",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Free & open-source manga · anime · series · music · novels hub — cross-platform, self-hostable, extensible via JS plugins",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "76071f22eeabcdf7f34b94f34c17e2cdf42d969f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:76071f22eeabcdf7f34b94f34c17e2cdf42d969f"
  },
  "repo": "ferelking242/watchtower",
  "web": "https://watchtower-cyan.vercel.app"

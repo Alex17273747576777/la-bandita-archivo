@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-09",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.2",
   "ultimo_push": "2026-10-10"
  },
  "descripcion": "Offline Wi-Fi recovery and saved network manager for AYN Thor. English/French Android app with targeted forget-restart-reconnect workflow.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d62085d54e046c05263195da7693411ae1a05ec6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d62085d54e046c05263195da7693411ae1a05ec6"
  },
  "repo": "empy94/ayn-thor-wifi-recovery"
 }

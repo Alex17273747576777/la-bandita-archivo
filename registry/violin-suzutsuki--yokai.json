@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#violin-suzutsuki/yokai",
   "sha256": "77ba440fd859a625a8bf34d582a9b1a0ef6f8e4184e8b2ea1cd6f08ffc9e1803"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "violin-suzutsuki--yokai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ff15d1e9cb112c0065ae2a8a4f12970799a6083a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ff15d1e9cb112c0065ae2a8a4f12970799a6083a"
  },
  "repo": "violin-suzutsuki/yokai"
 }

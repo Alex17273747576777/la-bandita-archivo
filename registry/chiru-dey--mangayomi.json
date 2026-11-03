@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Chiru-Dey/mangayomi",
   "sha256": "2cc2b73f0c24d26c3bc1db0b84585e1a699c3fb0ee9cda2f0c39773717ae1da3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "chiru-dey--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "003e2eda9c09c9c2d9adf632bd833743a307c714",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:003e2eda9c09c9c2d9adf632bd833743a307c714"
  },
  "repo": "Chiru-Dey/mangayomi"
 }

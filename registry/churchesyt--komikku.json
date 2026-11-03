@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-03-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.2.0",
   "ultimo_push": "2026-07-17"
  },
  "descripcion": "Free and open source manga reader for Android, this is a fork where I add a new",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#churchesyt/komikku",
   "sha256": "a5690279f8f814ce24dc59f166927fad0f552134a36022eb63c65073427b7aff"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "churchesyt--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "52f06022b9b358707e6beaf48f427b29a4a7cb8b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:52f06022b9b358707e6beaf48f427b29a4a7cb8b"
  },
  "repo": "churchesyt/komikku"
 }

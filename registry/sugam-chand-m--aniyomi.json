@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Sugam-Chand-M/aniyomi",
   "sha256": "24ebb11838e0f590f6cb7689ce172c2ddf4d00180b79537425d5945b468b7c26"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "sugam-chand-m--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c91fb86e4b7f22172e3d9d788372ca8d03d044db",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c91fb86e4b7f22172e3d9d788372ca8d03d044db"
  },
  "repo": "Sugam-Chand-M/aniyomi"
 }

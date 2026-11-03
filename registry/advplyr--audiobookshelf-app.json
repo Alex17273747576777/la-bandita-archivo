@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-09-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.2.1-beta",
   "ultimo_push": "2026-10-11"
  },
  "descripcion": "Mobile application for Audiobookshelf",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2811,
+  "stars": 2816,
   "stars_por_mes": null
  },
  "nombre": "audiobookshelf-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "609f9d644c8390fc662869e08ace18ce4a519b00",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:609f9d644c8390fc662869e08ace18ce4a519b00"
  },
  "repo": "advplyr/audiobookshelf-app",
  "web": "https://audiobookshelf.org"

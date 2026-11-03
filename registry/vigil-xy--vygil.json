@@ -21,11 +21,11 @@
  "id": "vigil-xy--vygil",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8defc45414664e4c222cb288f21e56cfd18ca456",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8defc45414664e4c222cb288f21e56cfd18ca456"
  },
  "repo": "vigil-xy/vygil",
  "web": "https://modelcontextprotocol.io"

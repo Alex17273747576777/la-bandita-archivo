@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-11-01",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "fc7a827-0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Extension repository for Mihon and variants",
  "evidencia": {
@@ -25,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15396,
+  "stars": 15426,
   "stars_por_mes": null
  },
  "nombre": "extensions",
@@ -45,10 +45,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b01ad156965bf4e386bee18828c6f8f6f5846f7b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b01ad156965bf4e386bee18828c6f8f6f5846f7b"
  },
  "repo": "keiyoushi/extensions",
  "web": "https://keiyoushi.github.io/"

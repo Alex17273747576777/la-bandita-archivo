@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#akane599/AppBooster",
   "sha256": "d765671194b0f496a7fa0233f92f5a99d1b28b4f50662b5f88593f5ddafb190b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ffe9ee340cbd76df7acecdf49408db0b3bf09b4c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ffe9ee340cbd76df7acecdf49408db0b3bf09b4c"
  },
  "repo": "akane599/AppBooster"
 }

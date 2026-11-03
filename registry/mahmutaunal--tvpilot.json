@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-21",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-09-21"
  },
  "descripcion": "Remote-first system control and app management utility for Android TV / Google TV, with optional Shizuku-powered advanced actions.",
@@ -21,11 +21,11 @@
  "id": "mahmutaunal--tvpilot",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "bdd0f830215ef1692071a8d7debfcb097a9aa17a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:bdd0f830215ef1692071a8d7debfcb097a9aa17a"
  },
  "repo": "mahmutaunal/TVPilot",
  "web": "https://www.alpwarestudio.com/en/products/tvpilot/"

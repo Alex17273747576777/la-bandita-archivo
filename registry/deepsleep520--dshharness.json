@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0beta6",
   "ultimo_push": "2026-10-02"
  },
  "descripcion": "装一个 APK，安卓手机就多了一整台 Linux：PRoot + Alpine + Node.js 跑起 AI 编程助手 dsh 的 Web UI，无需 root / Termux / 电脑，装完点开即用（带确定性进度条）。真机存储三入口直通（/mnt/sdcard、/sdcard、/storage/emulated/0），DCIM/Pictures/Movies/Android 可只读保护；五种控制档位（自动/无障碍/Root/Shizuku/基础），授权后 AI 可直接点按、输入、截屏操作手机；支持局域网访问、会话导入导出、dsh 插件体系。零数据收集、不内置密钥。仅 arm64 · Android 8.0+ · Apache-2.0 开源。",
@@ -21,26 +21,26 @@
  "id": "deepsleep520--dshharness",
  "licencia": {
   "archivo": "LICENSE-APP.md",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 16,
+  "stars": 18,
   "stars_por_mes": null
  },
  "nombre": "DSHHarness",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "20a30c4a566fa55136ea01da173a0e2254ec45be",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:20a30c4a566fa55136ea01da173a0e2254ec45be"
  },
  "repo": "deepsleep520/DSHHarness",
  "web": "https://github.com/deepsleep520/DSHHarness/releases/latest"

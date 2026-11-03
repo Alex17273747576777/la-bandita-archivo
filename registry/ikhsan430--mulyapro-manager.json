@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ikhsan430/mulyapro-manager",
   "sha256": "fb7d27bfc90d00ab6e32f24b492244afa5a3c43fcddd0f9ef1f5818a3658deb1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ikhsan430--mulyapro-manager",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8c0e5ac8523926471d56c871618134bd00d96211",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8c0e5ac8523926471d56c871618134bd00d96211"
  },
  "repo": "ikhsan430/mulyapro-manager"
 }

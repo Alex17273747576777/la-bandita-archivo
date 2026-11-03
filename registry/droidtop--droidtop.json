@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "build-toolchains",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Turns an Android handheld into a shared desktop — Windows via Wine/Box64, Linux via containers, one merged compositor, dom0-style architecture",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e528e190cfc07a0fbbd45656aaff83a4c5d5cc53",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e528e190cfc07a0fbbd45656aaff83a4c5d5cc53"
  },
  "repo": "Droidtop/droidtop"
 }

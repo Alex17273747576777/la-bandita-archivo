@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#moeinkey/Orion-Store",
   "sha256": "f6311167da23ab813cc030c30a022b3dd65b8b761bb45e29cd1cb55fe5ab55b8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "moeinkey--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "95b22334cf9ec3c2317a16dd5781b25789f8687e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:95b22334cf9ec3c2317a16dd5781b25789f8687e"
  },
  "repo": "moeinkey/Orion-Store"
 }

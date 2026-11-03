@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MasterX185/better-InstallerX-Revived",
   "sha256": "db775bd04697b931bbad863955caac65be3424a7f835db7b69222c01d1e7b9cf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "masterx185--better-installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f6ffcd8ea84e629bc14160414e7343f07a4d3d76",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f6ffcd8ea84e629bc14160414e7343f07a4d3d76"
  },
  "repo": "MasterX185/better-InstallerX-Revived"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-03-26",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "v3.2.2+8b1c4a8",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Anilist client based on Saikou",
  "evidencia": {
@@ -21,15 +21,15 @@
  "id": "itsmechinmoy--dantotsu",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
-  "spdx": "GPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 92,
+  "stars": 93,
   "stars_por_mes": null
  },
  "nombre": "Dantotsu",
@@ -40,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "74ae756e85645ae279c2e1ce0e76e2dfaf10112a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:74ae756e85645ae279c2e1ce0e76e2dfaf10112a"
  },
  "repo": "itsmechinmoy/Dantotsu",
  "web": "https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev"

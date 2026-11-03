@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "build-1",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "Nhân bản tất cả các app trên Samsung",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "48563f9b9e9765ed583738f7a2db342449b54878",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:48563f9b9e9765ed583738f7a2db342449b54878"
  },
  "repo": "dung997tb/Dual-full-app-samsung"
 }

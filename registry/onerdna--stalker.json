@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-06-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.1.0",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "An android application for viewing and modifying save files of Shadow Fight 2 game.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 59,
+  "stars": 60,
   "stars_por_mes": null
  },
  "nombre": "stalker",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8100660c652fdd429fb8a476a56733582ca14f81",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8100660c652fdd429fb8a476a56733582ca14f81"
  },
  "repo": "onerdna/stalker"
 }

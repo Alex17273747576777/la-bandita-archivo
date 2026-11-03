@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-03",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.1.1-bgcheck.1",
   "ultimo_push": "2026-10-14"
  },
  "descripcion": "Android process, resource and battery monitor with Shizuku background controls; signed updates through Obtainium.",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e7d9151a99e35b4c97e3f1c8e3a44795763bd5dc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e7d9151a99e35b4c97e3f1c8e3a44795763bd5dc"
  },
  "repo": "jordanwoodson/background-check"
 }

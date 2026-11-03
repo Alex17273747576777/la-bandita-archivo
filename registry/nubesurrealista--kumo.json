@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": null,
+  "estado": "vivo",
+  "release_en": "2025-07-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.18.0-20250722011830",
   "ultimo_push": "2026-08-20"
  },
  "descripcion": "A fork of Mihon with small custom changes and patches from other forks.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "39950e178d0c3c2d1a35bca300e687b93327e881",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:39950e178d0c3c2d1a35bca300e687b93327e881"
  },
  "repo": "nubesurrealista/Kumo"
 }

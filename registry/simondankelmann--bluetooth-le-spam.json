@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-11-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "bluetooth-le-spam-0.0.1",
   "ultimo_push": "2026-10-12"
  },
  "descripcion": "",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4966,
+  "stars": 4969,
   "stars_por_mes": null
  },
  "nombre": "Bluetooth-LE-Spam",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5b034bae628c935a49bc26335851b0f0d0a29978",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5b034bae628c935a49bc26335851b0f0d0a29978"
  },
  "repo": "simondankelmann/Bluetooth-LE-Spam"
 }

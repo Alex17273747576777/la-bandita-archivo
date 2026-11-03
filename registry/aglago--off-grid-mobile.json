@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#aglago/off-grid-mobile",
   "sha256": "53c05c470e5312f0bc4a27e92228cb296b36305f680fd70bd522e1ed8029a6ad"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "aglago--off-grid-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c1851b3bb452af4edd4d44f50adaf8124a3422f7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c1851b3bb452af4edd4d44f50adaf8124a3422f7"
  },
  "repo": "aglago/off-grid-mobile"
 }

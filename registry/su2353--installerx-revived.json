@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#su2353/InstallerX-Revived",
   "sha256": "b13b64fd8d549af3c53b02c0bd3ecf6fdb28e70c4a9eebd39ba366231b5f49f1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "su2353--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8f7cd1d671f77463364d81e98106c477ac0e1d78",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8f7cd1d671f77463364d81e98106c477ac0e1d78"
  },
  "repo": "su2353/InstallerX-Revived"
 }

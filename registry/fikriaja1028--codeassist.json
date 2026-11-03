@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#fikriaja1028/CodeAssist",
   "sha256": "353aa08e5fa40cc21e73741fb5737d502982958a0cac9d7c8bd50458bc29f323"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "fikriaja1028--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4deb5f07f8e53f1a80f5c5e54cf87020ecbb9ce8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4deb5f07f8e53f1a80f5c5e54cf87020ecbb9ce8"
  },
  "repo": "fikriaja1028/CodeAssist"
 }

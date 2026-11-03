@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#mhlywxl/JHenTai-ohos",
   "sha256": "9cbe0630a6c4f9128ec0f8c9c2e6a3ea9e2bc2c236b8a48b4c3fafbeb7d39891"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mhlywxl--jhentai-ohos",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b4e57b33443c8e9f1a14626d6cebd65e84ec1ec5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b4e57b33443c8e9f1a14626d6cebd65e84ec1ec5"
  },
  "repo": "mhlywxl/JHenTai-ohos"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "personal-0.20.4.1",
   "ultimo_push": "2026-09-20"
  },
  "descripcion": "Free and open source manga reader for Android",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#arashari/mihon",
   "sha256": "1de9bba0877c5e5e806097e7facfc77127391cf65c76825971afab9febc7f0ee"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "arashari--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e0106b080f1c712bde21a6013bd0d5e5e1a24448",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e0106b080f1c712bde21a6013bd0d5e5e1a24448"
  },
  "repo": "arashari/mihon"
 }

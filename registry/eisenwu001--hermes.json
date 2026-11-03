@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Eisenwu001/Hermes",
   "sha256": "2bad7a455d2ae9311564dab592a4abc3a1a441c4f53dd0555048e3b88a7a734d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "eisenwu001--hermes",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7337fd0848473df670b5edf172a4f23c370aaaa0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7337fd0848473df670b5edf172a4f23c370aaaa0"
  },
  "repo": "Eisenwu001/Hermes"
 }

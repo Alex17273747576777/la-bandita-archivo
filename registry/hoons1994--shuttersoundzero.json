@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-18",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "v1.5.4",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "ShutterSoundZero App repository",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 92,
+  "stars": 95,
   "stars_por_mes": null
  },
  "nombre": "ShutterSoundZero",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8f4f741d7a5c41968ce828d56afc3afd095d4e19",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8f4f741d7a5c41968ce828d56afc3afd095d4e19"
  },
  "repo": "hoons1994/ShutterSoundZero"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-03",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1.0",
   "ultimo_push": "2026-09-23"
  },
  "descripcion": "Stream and download YouTube videos without intrusive ads. Fast and lightweight at just ~8MB, with a clean, modern UI.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 148,
+  "stars": 150,
   "stars_por_mes": null
  },
  "nombre": "PlayTube",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d2f9ec7bf82fab5f86e2829a0f5ca1f61ab4a8f8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d2f9ec7bf82fab5f86e2829a0f5ca1f61ab4a8f8"
  },
  "repo": "arslandaim-hub/PlayTube"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2025-10-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "3.0",
   "ultimo_push": "2025-10-17"
  },
  "descripcion": "  Enhanced IMS Configuration Tool for Google Pixel Devices",
@@ -26,7 +26,7 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -37,10 +37,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2fac25757af6807c3d94e412d1f27e999b1d63ca",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2fac25757af6807c3d94e412d1f27e999b1d63ca"
  },
  "repo": "Turbo1123/TurboIMS"
 }

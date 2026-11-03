@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#garlicvread/playtranslate",
   "sha256": "c2e12cea22c09ea3c90fb02756cdb877b3c97f9004d10d4df84127d4d05a3384"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "garlicvread--playtranslate",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "277cc41de6c45d5b17dcafed385f8b0cbbdccdf2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:277cc41de6c45d5b17dcafed385f8b0cbbdccdf2"
  },
  "repo": "garlicvread/playtranslate"
 }

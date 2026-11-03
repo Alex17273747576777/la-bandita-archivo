@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-06",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-06"
+  "ultima_release": "26.10.0f13c2d",
+  "ultimo_push": "2026-10-20"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AsyaShubina/InstallerX-Revived",
   "sha256": "4b30f99dbcbbdd661e2498781aebb2ff8beabc107ba1c5160269d0050d9be33c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "asyashubina--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3fb235a16995c4ca546957c7e760355453b70b55",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3fb235a16995c4ca546957c7e760355453b70b55"
  },
  "repo": "AsyaShubina/InstallerX-Revived"
 }

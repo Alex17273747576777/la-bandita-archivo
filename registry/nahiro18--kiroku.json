@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-19",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-16"
+  "ultima_release": "v1.0.8",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Kiroku — fork of ReDantotsu: app anime/manga ",
  "evidencia": {
@@ -21,11 +21,11 @@
  "id": "nahiro18--kiroku",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
-  "spdx": "GPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f7cc77985b6181f9f8e8fd84fad57d9946222079",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f7cc77985b6181f9f8e8fd84fad57d9946222079"
  },
  "repo": "Nahiro18/Kiroku",
  "web": "https://nahiro18.github.io/Kiroku/"

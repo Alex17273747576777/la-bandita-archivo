@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#absolute206/anythingllm-mobile",
   "sha256": "a8cc943be9e4b1f5f31a4127d0ea0282af5ee19177e36957edb5560348c2b445"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "absolute206--anythingllm-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1282a8c70f338cc33b070a5a51b3cfb89bbdf2d0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1282a8c70f338cc33b070a5a51b3cfb89bbdf2d0"
  },
  "repo": "absolute206/anythingllm-mobile"
 }

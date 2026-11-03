@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#cptunderpantsmoons/Praxis-Ai-mobile-",
   "sha256": "aba7de55af0c6750df918eb2f23dbefd6dba770cfe8e339ea4d190a5641f7295"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "cptunderpantsmoons--praxis-ai-mobile",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "949384bdf0fcc2b577a20048f7e6285c21130dde",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:949384bdf0fcc2b577a20048f7e6285c21130dde"
  },
  "repo": "cptunderpantsmoons/Praxis-Ai-mobile-"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MaxyMaxTheDev/Vectras-VM-Android-Fork",
   "sha256": "418787b0af7445464a990c01b8680f0859c5310be8216546ba8b9bcd364192c7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "maxymaxthedev--vectras-vm-android-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "95daa4bfbcf5884642ed9aa12b827f438d5d1b81",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:95daa4bfbcf5884642ed9aa12b827f438d5d1b81"
  },
  "repo": "MaxyMaxTheDev/Vectras-VM-Android-Fork"
 }

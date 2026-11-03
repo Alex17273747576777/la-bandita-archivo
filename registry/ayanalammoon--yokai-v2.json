@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ayanalamMOON/yokai-V2",
   "sha256": "99c1c4748bcbe110cfe6146b86d0d4856214e14fe76586399932c53de7fe736d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ayanalammoon--yokai-v2",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "10499c4334d4ebc00c7ac62a5d58786d93b0f5d9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:10499c4334d4ebc00c7ac62a5d58786d93b0f5d9"
  },
  "repo": "ayanalamMOON/yokai-V2"
 }

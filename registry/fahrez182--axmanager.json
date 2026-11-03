@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-29",
+  "release_en": "2025-08-17",
   "semantica_http": 200,
-  "ultima_release": "v3.0.0",
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "0.1",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "AxManager is an Android application designed to provide deeper control over apps and the system.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1533,
+  "stars": 1545,
   "stars_por_mes": null
  },
  "nombre": "AxManager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c6b44cc09481991f03d67212b4f823d541f03732",
+  "commit": "7ed7f508464076d2617a9172c9de5bca2e7bcf7a",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7ed7f508464076d2617a9172c9de5bca2e7bcf7a"
  },
  "repo": "fahrez182/AxManager"
 }

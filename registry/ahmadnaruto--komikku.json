@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AhmadNaruto/komikku",
   "sha256": "d65c1e35ad02b98b8613b8d82050abd50efe0d86e1c45a0aa5f2ba542e3a8cb9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ahmadnaruto--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a7dd5d5d5a99a6364b0f1ab88b430173f3c24742",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a7dd5d5d5a99a6364b0f1ab88b430173f3c24742"
  },
  "repo": "AhmadNaruto/komikku"
 }

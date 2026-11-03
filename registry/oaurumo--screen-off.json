@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-19"
+  "ultima_release": "screenoff-debug",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "",
  "evidencia": {
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "097ccc7b9ae4bb2d15111853e17d82dc2cb3a6d1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:097ccc7b9ae4bb2d15111853e17d82dc2cb3a6d1"
  },
  "repo": "oaurumo/screen-off"
 }

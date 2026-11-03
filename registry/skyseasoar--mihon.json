@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SkySeaSoar/mihon",
   "sha256": "be95de30b6169f712ee5db42e8c11446ac9e679f51a8f34bcb575722eb826ec5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "skyseasoar--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "25d4bf5e2ffdcb84f6469f5e0a81108777a98e85",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:25d4bf5e2ffdcb84f6469f5e0a81108777a98e85"
  },
  "repo": "SkySeaSoar/mihon"
 }

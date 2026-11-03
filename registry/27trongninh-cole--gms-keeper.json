@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.6.1",
   "ultimo_push": "2026-10-02"
  },
  "descripcion": "",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "cbdf00f08ba9a2b66d04bc64689f2c27203191b3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:cbdf00f08ba9a2b66d04bc64689f2c27203191b3"
  },
  "repo": "27trongninh-cole/gms-keeper"
 }

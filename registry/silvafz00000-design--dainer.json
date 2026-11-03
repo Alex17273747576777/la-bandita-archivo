@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#silvafz00000-design/Dainer",
   "sha256": "d1351e7d57630f861a78a48997fea37ba13611cf9189b85426c4d852864a91da"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "silvafz00000-design--dainer",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a574f3eb10b436515bc8db09b0d7bb5c0d111ddf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a574f3eb10b436515bc8db09b0d7bb5c0d111ddf"
  },
  "repo": "silvafz00000-design/Dainer"
 }

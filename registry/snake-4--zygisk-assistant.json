@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "vivo",
-  "release_en": null,
+  "estado": "dormido",
+  "release_en": "2024-04-01",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.0.2",
   "ultimo_push": "2026-05-04"
  },
  "descripcion": "A Zygisk module to hide root for KernelSU, Magisk and APatch, designed to work on Android 5.0 and above.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2662,
+  "stars": 2663,
   "stars_por_mes": null
  },
  "nombre": "Zygisk-Assistant",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4c1842f33f253745f357feb4b20b17d096c9d300",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4c1842f33f253745f357feb4b20b17d096c9d300"
  },
  "repo": "snake-4/Zygisk-Assistant"
 }

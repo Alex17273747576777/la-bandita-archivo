@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-10-10",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v14.11.0",
   "ultimo_push": "2026-10-13"
  },
  "descripcion": "Some Popular Android APK",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "cd2d9806e70e3d4ef663c7aaaf24de8789d6026a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:cd2d9806e70e3d4ef663c7aaaf24de8789d6026a"
  },
  "repo": "arghya339/apk-me",
  "web": "https://revanced.app"

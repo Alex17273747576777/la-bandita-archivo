@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Jhshamim/kaizen-app",
   "sha256": "574fd65e6edef358961e30c3389975ddf6ae94c9f74210e265817b077c086420"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jhshamim--kaizen-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "be09257e6370c112aa5b8ae8f1e9852c4ca5b3b2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:be09257e6370c112aa5b8ae8f1e9852c4ca5b3b2"
  },
  "repo": "Jhshamim/kaizen-app"
 }

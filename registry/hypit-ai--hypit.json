@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-14",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.1.8",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "hypit-ai--hypit",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 27140,
+  "stars": 27688,
   "stars_por_mes": null
  },
  "nombre": "hypit",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0762c6be56c0af43fff3cdbdb285e21414dd249b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0762c6be56c0af43fff3cdbdb285e21414dd249b"
  },
  "repo": "hypit-ai/hypit",
  "web": "https://hypit.ai"

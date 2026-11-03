@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-06-16",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-27"
+  "ultima_release": "0.1.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "A free, open source, and extensible speech-to-text application that works completely offline.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 35916,
+  "stars": 37267,
   "stars_por_mes": null
  },
  "nombre": "Handy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "82dfab9fda18c4bc24e1f6e56d36474d38eca0bc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:82dfab9fda18c4bc24e1f6e56d36474d38eca0bc"
  },
  "repo": "cjpais/Handy",
  "web": "https://handy.computer"

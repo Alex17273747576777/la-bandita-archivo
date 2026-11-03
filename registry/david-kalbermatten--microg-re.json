@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#david-kalbermatten/MicroG-RE",
   "sha256": "49e594ddcab989bb9a13f5780bfb5d6fd4b8f660dca4a1f58de1a4d675182bb6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "david-kalbermatten--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "dc8da76192493dc686182eb23dbb4c257c00fe37",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dc8da76192493dc686182eb23dbb4c257c00fe37"
  },
  "repo": "david-kalbermatten/MicroG-RE"
 }

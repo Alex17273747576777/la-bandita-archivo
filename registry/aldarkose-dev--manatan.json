@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AldarKose-dev/Manatan",
   "sha256": "7fcd1e26878819f1bc71f2e19fe6e21bdcecfcfcaebc9be24636e380f6baefa4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "aldarkose-dev--manatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a360ad6baf3b09ba6250cfdaea26231a7856406f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a360ad6baf3b09ba6250cfdaea26231a7856406f"
  },
  "repo": "AldarKose-dev/Manatan"
 }

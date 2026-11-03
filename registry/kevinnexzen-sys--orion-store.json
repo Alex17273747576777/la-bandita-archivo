@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-10-19"
  },
  "descripcion": "The ultimate home for modded apps. OrionStore offers instant access to YouTube M",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kevinnexzen-sys/Orion-Store",
   "sha256": "ebc3f3bb29ae48b75b8ec407b33ae189063f59f4cb30d85bae8850b7a248df81"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kevinnexzen-sys--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "db276b85999a477287b4eb1148eb53bbabd3d4ca",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:db276b85999a477287b4eb1148eb53bbabd3d4ca"
  },
  "repo": "kevinnexzen-sys/Orion-Store"
 }

@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12619,
+  "stars": 12623,
   "stars_por_mes": null
  },
  "nombre": "awesome-cheatsheets",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a933bf7d19e1750c832c3f22250dfc3cbf72fdf6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a933bf7d19e1750c832c3f22250dfc3cbf72fdf6"
  },
  "repo": "skywind3000/awesome-cheatsheets"
 }

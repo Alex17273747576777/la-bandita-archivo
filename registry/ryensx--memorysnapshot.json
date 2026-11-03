@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-16",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0",
   "ultimo_push": "2026-08-16"
  },
  "descripcion": "查看 Android 应用的实时内存占用，记录快照，并对比不同时间点的内存变化。 / Monitor Android app memory, capture snapshots, and compare memory usage across points in time.",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4a16dc956909508d210469a47b245fe2c1224094",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4a16dc956909508d210469a47b245fe2c1224094"
  },
  "repo": "RyensX/MemorySnapshot"
 }

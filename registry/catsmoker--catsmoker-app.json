@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-08-07",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "2-1.1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Catsmoker app - Game FPS Unlocker, Gaming Booster.",
  "evidencia": {
@@ -21,26 +21,26 @@
  "id": "catsmoker--catsmoker-app",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 133,
+  "stars": 135,
   "stars_por_mes": null
  },
  "nombre": "catsmoker-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "e449421b6ea84615c931a6bffefd1a6ab60788e4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:e449421b6ea84615c931a6bffefd1a6ab60788e4"
  },
  "repo": "catsmoker/catsmoker-app",
  "web": "https://catsmoker.github.io/"

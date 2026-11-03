@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1830,
+  "stars": 1909,
   "stars_por_mes": null
  },
  "nombre": "kotlin-footguns",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2c391bc9c9f873580aa855d7a7b1c3a2ed9e68ae",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2c391bc9c9f873580aa855d7a7b1c3a2ed9e68ae"
  },
  "repo": "maxrave-dev/kotlin-footguns"
 }

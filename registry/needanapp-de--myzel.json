@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-30",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "myzel-0.22.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "App-Store für freie Software aus F-Droid-Paketquellen, mit Begleit-App für Wear OS · App store for free software from F-Droid repositories, with a Wear OS companion",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "61ec6024e4c0e184f0e3b9dc6a2ce58192688a30",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:61ec6024e4c0e184f0e3b9dc6a2ce58192688a30"
  },
  "repo": "needanapp-de/myzel",
  "web": "https://apps.needanapp.de/de.needanapp.myzel/"

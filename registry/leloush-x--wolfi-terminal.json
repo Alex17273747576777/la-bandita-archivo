@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "latest",
   "ultimo_push": "2026-10-23"
  },
  "descripcion": "Wolfi + Alpine + void arch + debian -  Android terminal (ReTerminal fork with rolling APK releases)",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 16,
   "stars_por_mes": null
  },
  "nombre": "wolfi-terminal",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "d4cc3912d08edbf8557aac446e76fca0bee08ce3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d4cc3912d08edbf8557aac446e76fca0bee08ce3"
  },
  "repo": "leloush-x/wolfi-terminal"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Master-Gamer-glitch/MicroG-RE",
   "sha256": "589263d31cb511169ba277e2cbaae39677dcef4a12fadb258850ffc9704ee05a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "master-gamer-glitch--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9ddda4325cfb9f00ae09dcac218ecd2c81c64e1b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9ddda4325cfb9f00ae09dcac218ecd2c81c64e1b"
  },
  "repo": "Master-Gamer-glitch/MicroG-RE"
 }

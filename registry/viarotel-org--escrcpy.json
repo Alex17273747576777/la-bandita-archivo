@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-09-16",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-26"
  },
  "descripcion": "📱 Display and control your Android device graphically with scrcpy.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12251,
+  "stars": 12281,
   "stars_por_mes": null
  },
  "nombre": "escrcpy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3a73e0d4de58a4674dddd61fc43956b4882c8bec",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3a73e0d4de58a4674dddd61fc43956b4882c8bec"
  },
  "repo": "viarotel-org/escrcpy",
  "web": "https://viarotel.eu.org/"

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-29",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.9.2",
   "ultimo_push": "2026-10-25"
  },
  "descripcion": "",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ba9009f1c98edefa3776184343dd90d9ec82cd2f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ba9009f1c98edefa3776184343dd90d9ec82cd2f"
  },
  "repo": "Gabriel-Liz2003/Ludex"
 }

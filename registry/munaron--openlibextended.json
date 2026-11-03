@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#munaron/OpenlibExtended",
   "sha256": "ffdfee19303c7f81a6eb5259d00e4a1a9399a9b0a07829e5edbc68cf98f440b5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "munaron--openlibextended",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c0abfab663bd747a5b16b0905fd7fcbd183f4f5b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c0abfab663bd747a5b16b0905fd7fcbd183f4f5b"
  },
  "repo": "munaron/OpenlibExtended"
 }

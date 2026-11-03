@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-21",
+  "release_en": "2022-10-29",
   "semantica_http": 200,
-  "ultima_release": "build107.3.0",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "build44",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a custom theme engine, developed with purely custom UI design and reproducible build.",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d88dff24a9520f3f9a43e71cc5ad3cf916f67ac0",
+  "commit": "717cd1a836d2ee65b242e436843a3acd5082d17a",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:717cd1a836d2ee65b242e436843a3acd5082d17a"
  },
  "repo": "Hamza417/Inure"
 }

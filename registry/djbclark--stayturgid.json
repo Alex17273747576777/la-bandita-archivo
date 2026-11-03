@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-22",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "agent-v0.3.1",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Keep wireless ADB (port 5555) and Shizuku alive on Android across reboots — without root",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 25,
+  "stars": 26,
   "stars_por_mes": null
  },
  "nombre": "stayturgid",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "febc927cec56a2b6849350ec8c05cc4a45eedcd1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:febc927cec56a2b6849350ec8c05cc4a45eedcd1"
  },
  "repo": "djbclark/stayturgid"
 }

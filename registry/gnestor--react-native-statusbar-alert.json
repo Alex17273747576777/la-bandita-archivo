@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2016-05-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.0.1",
   "ultimo_push": "2022-12-07"
  },
  "descripcion": "A status bar alert (e.g. in-call, recording, navigating) for React Native",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a27d24f3a26deac8b35fd985fcdd2ebd2cfc70c2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a27d24f3a26deac8b35fd985fcdd2ebd2cfc70c2"
  },
  "repo": "gnestor/react-native-statusbar-alert"
 }

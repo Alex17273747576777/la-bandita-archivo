@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#arup7646/Usagi77",
   "sha256": "7fea71da6e8a777ead8215e1d20ba2673ccc7d1fd6dd02f50cef8b8040d1dfd2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "arup7646--usagi77",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "cc92b696755b6aaf1b179262f36bf4bc3b10bb92",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cc92b696755b6aaf1b179262f36bf4bc3b10bb92"
  },
  "repo": "arup7646/Usagi77"
 }

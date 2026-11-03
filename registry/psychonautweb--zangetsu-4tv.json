@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#psychonautweb/Zangetsu-4tv",
   "sha256": "76e4719cf26f31476d54cc8dcb8409c090f6a17a574a777b90291fda9c35c8fd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "819f70b546c73bf0a5cdf1f28c49e48cfeb7223c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:819f70b546c73bf0a5cdf1f28c49e48cfeb7223c"
  },
  "repo": "psychonautweb/Zangetsu-4tv"
 }

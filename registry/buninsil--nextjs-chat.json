@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-05",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "mlbb-v1.0.2",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "",
  "evidencia": {
@@ -25,7 +25,7 @@
   "spdx": "mIt",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0964997dcd33da654ca6bd31c9da529d19c90171",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0964997dcd33da654ca6bd31c9da529d19c90171"
  },
  "repo": "BuninSil/nextjs-chat"
 }

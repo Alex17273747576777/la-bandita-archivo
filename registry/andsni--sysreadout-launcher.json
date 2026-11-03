@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-05"
  },
  "descripcion": "Minimal Android launcher that turns your home screen into a live, terminal-style system monitor: status rows, processes, connections, DNS, battery drain, CRT effects. SRL for short.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "60c9f92f9b108f68f8ebe9238da2a2d78d274b85",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:60c9f92f9b108f68f8ebe9238da2a2d78d274b85"
  },
  "repo": "AndSni/SysReadout-Launcher",
  "web": "https://github.com/AndSni/SysReadout-Launcher/blob/main/docs/MANUAL.md"

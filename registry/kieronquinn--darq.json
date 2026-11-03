@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": "2022-02-11",
+  "release_en": "2020-02-05",
   "semantica_http": 200,
-  "ultima_release": "2.2.1",
+  "ultima_release": "1.2",
   "ultimo_push": "2023-09-01"
  },
  "descripcion": "DarQ provides a per-app selectable force dark option for Android 10 and above",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1677,
+  "stars": 1676,
   "stars_por_mes": null
  },
  "nombre": "DarQ",

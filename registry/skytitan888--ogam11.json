@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#skytitan888/OGAM11",
   "sha256": "709888600ed13db14f3bd3e6261d98e6988bdadd240f65c6b2123838ea47eb3d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "skytitan888--ogam11",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fa5c0f1290f1fab66c30455c1e200389a8599900",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fa5c0f1290f1fab66c30455c1e200389a8599900"
  },
  "repo": "skytitan888/OGAM11"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#silentlamp/mangayomi",
   "sha256": "abf4ef511073f5178ac6a4f3b7fb8d8892ea41e58a5f0d812838e0789226c9a5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "silentlamp--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "19b84a8bb54dfb6ddf19c5aba0f90c6c4385fece",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:19b84a8bb54dfb6ddf19c5aba0f90c6c4385fece"
  },
  "repo": "silentlamp/mangayomi"
 }

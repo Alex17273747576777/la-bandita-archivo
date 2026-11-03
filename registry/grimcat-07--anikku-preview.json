@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#GRIMCAT-07/anikku-preview",
   "sha256": "2cfc7daa04216c123aa066a2fe3d97559c69d5f121160c66d2af029bd4d8b224"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "grimcat-07--anikku-preview",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "136a124d65b8a69b1855d0e16665fb8a01527a49",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:136a124d65b8a69b1855d0e16665fb8a01527a49"
  },
  "repo": "GRIMCAT-07/anikku-preview"
 }

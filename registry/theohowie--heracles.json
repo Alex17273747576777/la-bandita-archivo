@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-26",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.2.2",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Heracles 是一个装在手机里的开发智能体：一句话说清需求，它就在你的手机上读文件、改代码、跑命令，把 App 构建、解包、重打包成能直接安装的成品——从想法到装上手机，一台手机全搞定。",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "dae8f2a998299fa0bf77771b4cd0c42f0eef477f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:dae8f2a998299fa0bf77771b4cd0c42f0eef477f"
  },
  "repo": "theohowie/Heracles"
 }

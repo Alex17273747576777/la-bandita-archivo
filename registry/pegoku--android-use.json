@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-12",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.3.0",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "Computer use for Android: an on-device agent and assistant that operates your phone via Shizuku, powered by your ChatGPT/Codex subscription",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ff7851a8270fe35adedad89b25211b75dedb0f79",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ff7851a8270fe35adedad89b25211b75dedb0f79"
  },
  "repo": "Pegoku/android-use"
 }

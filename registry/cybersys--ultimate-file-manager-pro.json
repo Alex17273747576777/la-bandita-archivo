@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#CyberSys/ultimate-file-manager-pro",
   "sha256": "bb68a6c1a68d5857e9c1910783468f64912f2c75509fe7d87d8a0bcfd947dd2b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "cybersys--ultimate-file-manager-pro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c00c26d364ff46922ee9b5a066c1745900f7b934",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c00c26d364ff46922ee9b5a066c1745900f7b934"
  },
  "repo": "CyberSys/ultimate-file-manager-pro"
 }

@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 140,
+  "stars": 141,
   "stars_por_mes": null
  },
  "nombre": "CustomAnimator",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "746638d9d457e3d11bc37b3e2604307818719a9e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:746638d9d457e3d11bc37b3e2604307818719a9e"
  },
  "repo": "AhmetCanArslan/CustomAnimator"
 }

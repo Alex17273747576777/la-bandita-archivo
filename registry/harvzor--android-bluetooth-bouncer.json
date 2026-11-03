@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0-test",
   "ultimo_push": "2026-05-10"
  },
  "descripcion": "Android app that prevents Bluetooth auto-connect unless you let the device in",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 11,
+  "stars": 12,
   "stars_por_mes": null
  },
  "nombre": "android-bluetooth-bouncer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5534cc6d8f8e839af42b5512432f574b34f1e5bd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5534cc6d8f8e839af42b5512432f574b34f1e5bd"
  },
  "repo": "harvzor/android-bluetooth-bouncer"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2025-01-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "debug",
   "ultimo_push": "2025-01-18"
  },
  "descripcion": "use appops and shizuku manage sensor",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "378e026823a3c21b3fd583b40b96af7183f83a0f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:378e026823a3c21b3fd583b40b96af7183f83a0f"
  },
  "repo": "Carry-rrk/ManageSensors"
 }

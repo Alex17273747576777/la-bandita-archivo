@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-11-15",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "3.0.r27.1ec9e4ed",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "TensorIMS（原 Mystery00/TurboIMS）：由 Mystery00 维护的 Pixel Tensor IMS 配置工具，聚焦中国大陆的中国移动、中国联通、中国电信网络；其他运营商因缺少测试条件，不作为主要适配和维护对象。",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 686,
+  "stars": 688,
   "stars_por_mes": null
  },
  "nombre": "TensorIMS",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0b114fe038c259f5b3889aa82f618f8873b109c7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0b114fe038c259f5b3889aa82f618f8873b109c7"
  },
  "repo": "Pixel-Tailor-CN/TensorIMS",
  "web": "https://pixel.mystery0.app"

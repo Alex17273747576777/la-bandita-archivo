@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-03-01",
+  "release_en": "2022-06-09",
   "semantica_http": 200,
-  "ultima_release": "v2.1.10-79",
+  "ultima_release": "v1.0.4",
   "ultimo_push": "2026-10-15"
  },
  "descripcion": "Yet another LogCat reader for Android",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1375,
+  "stars": 1380,
   "stars_por_mes": null
  },
  "nombre": "LogFox",

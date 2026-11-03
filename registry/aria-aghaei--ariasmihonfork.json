@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#aria-aghaei/ariasmihonfork",
   "sha256": "6e1b951e5626f0aa9a1e57382d573e2d3ef861b6a12e534a1c19f314923d4363"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "aria-aghaei--ariasmihonfork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fc2c8c06a940392161cf5110e222edbedf9b7e47",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fc2c8c06a940392161cf5110e222edbedf9b7e47"
  },
  "repo": "aria-aghaei/ariasmihonfork"
 }

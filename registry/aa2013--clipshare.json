@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-05-10",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "1.0-beta12",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "A cross-platform (currently Android, Windows, Linux, MacOS) clipboard history and synchronization software that supports background sync on Android 10 and above, and can copy and sync text, images, files, and text messages. / 一个支持跨平台（目前为Android、Windows、Linux、MacOS）的剪贴板历史记录与同步软件，支持Android10以上版本后台同步，支持文本、图片、文件、短信的复制和同步。",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 348,
+  "stars": 347,
   "stars_por_mes": null
  },
  "nombre": "ClipShare",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "337e2afcb69cba40b45aeb3746dbd6e529caf111",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:337e2afcb69cba40b45aeb3746dbd6e529caf111"
  },
  "repo": "aa2013/ClipShare",
  "web": "https://clipshare.coclyun.top/"

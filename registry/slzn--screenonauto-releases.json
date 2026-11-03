@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-13",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Public APK downloads and release notes for ScreenOnAuto — mirror your phone's screen to an Android Auto head unit.",
  "evidencia": {
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 141,
+  "stars": 143,
   "stars_por_mes": null
  },
  "nombre": "ScreenOnAuto-releases",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "05d6a2dd1df6727f1631c190be1d856c76c82f94",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:05d6a2dd1df6727f1631c190be1d856c76c82f94"
  },
  "repo": "slzn/ScreenOnAuto-releases",
  "web": "https://screenonauto.lzn.idv.tw/"

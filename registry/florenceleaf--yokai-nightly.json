@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#FlorenceLeaf/yokai-nightly",
   "sha256": "f63700bdac8acae5dc1d82df541db57054af88ea989797301d8f8b6a2cb94bd8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "florenceleaf--yokai-nightly",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "0ae9d7fabe872ce4f9646bd362764389eee5d952",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:0ae9d7fabe872ce4f9646bd362764389eee5d952"
  },
  "repo": "FlorenceLeaf/yokai-nightly"
 }

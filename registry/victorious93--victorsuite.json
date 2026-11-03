@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.118.3.59",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Termux-based Android Linux suite: proot containers, backup/restore, plugins, X11, and automation tools.",
@@ -21,11 +21,11 @@
  "id": "victorious93--victorsuite",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f5739723e360c689dde35d48bdaa3e312cfa205c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f5739723e360c689dde35d48bdaa3e312cfa205c"
  },
  "repo": "Victorious93/VictorSuite"
 }

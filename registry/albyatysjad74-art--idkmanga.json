@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#albyatysjad74-art/idkmanga",
   "sha256": "0d3bc5bcb6550ea0e195f8f591ea252e405401a41d8eceffc9b955d5ba7a71db"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "albyatysjad74-art--idkmanga",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "feaf9e7240e33531841776b29efe64474c306d72",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:feaf9e7240e33531841776b29efe64474c306d72"
  },
  "repo": "albyatysjad74-art/idkmanga"
 }

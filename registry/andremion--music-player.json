@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2018-02-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "SNAPSHOT2",
   "ultimo_push": "2018-12-02"
  },
  "descripcion": "From UI Proposal to Code :notes::arrow_forward:",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3504,
+  "stars": 3505,
   "stars_por_mes": null
  },
  "nombre": "Music-Player",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f7cbbfe9fee7d2ec268d62eb25c901f72d4d1778",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f7cbbfe9fee7d2ec268d62eb25c901f72d4d1778"
  },
  "repo": "andremion/Music-Player",
  "web": "https://medium.com/@andremion/music-player-3a85864d6df7#.iklz50r6n"

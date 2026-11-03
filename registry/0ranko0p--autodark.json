@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2019-09-16",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1",
   "ultimo_push": "2022-01-31"
  },
  "descripcion": "A small android app to help you schedule dark mode on and off.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "c59bae15f3e89b5f768d71d937539b498f405e9a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:c59bae15f3e89b5f768d71d937539b498f405e9a"
  },
  "repo": "0ranko0P/AutoDark"
 }

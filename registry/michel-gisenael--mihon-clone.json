@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Michel-Gisenael/mihon-clone",
   "sha256": "5e25aa26461c72751cbc1aef8f5a69329d975db3b33112ab74596b7bd8163118"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "michel-gisenael--mihon-clone",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3b8ed3059ad1e54aef597155b40f2e3fe1b25c4f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3b8ed3059ad1e54aef597155b40f2e3fe1b25c4f"
  },
  "repo": "Michel-Gisenael/mihon-clone"
 }

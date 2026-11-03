@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2017-12-14",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.1.8",
   "ultimo_push": "2024-03-08"
  },
  "descripcion": "A simple app to use Xposed without root, unlock the bootloader or modify system image, etc.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 16084,
+  "stars": 16089,
   "stars_por_mes": null
  },
  "nombre": "VirtualXposed",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "122beb371519cb2d221ce06756361aaa30e2674f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:122beb371519cb2d221ce06756361aaa30e2674f"
  },
  "repo": "android-hacker/VirtualXposed",
  "web": "https://vxp.app"

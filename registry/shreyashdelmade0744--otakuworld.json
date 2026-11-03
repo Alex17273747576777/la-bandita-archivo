@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#shreyashdelmade0744/OtakuWorld",
   "sha256": "d425d7ddca9e897197033a1c900710ab928061af49aa0b8fba7b457ff29f2942"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shreyashdelmade0744--otakuworld",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "cb8577fe27ca712f42b64ea1487f376f10a6aafc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cb8577fe27ca712f42b64ea1487f376f10a6aafc"
  },
  "repo": "shreyashdelmade0744/OtakuWorld"
 }

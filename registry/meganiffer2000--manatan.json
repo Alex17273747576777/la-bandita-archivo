@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#meganiffer2000/Manatan",
   "sha256": "376ce493bbe3c3656d0bde9d14d9a9d2a31499ca0cc3ed4ce9a9f787431075e8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "meganiffer2000--manatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9c726eff63f1db0208341d0593c7a7f0511db48c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9c726eff63f1db0208341d0593c7a7f0511db48c"
  },
  "repo": "meganiffer2000/Manatan"
 }

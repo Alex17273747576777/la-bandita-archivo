@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SAIKIRAN1999-UNKNOWN/aniyomi",
   "sha256": "c8bcb1d65dba4f10f91feec98cd9f6c93cc7c3deb5d8f8aec21beaeaf7f6f3d4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "saikiran1999-unknown--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "86372071213e2979e379183b4d2eaa01e444b88f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:86372071213e2979e379183b4d2eaa01e444b88f"
  },
  "repo": "SAIKIRAN1999-UNKNOWN/aniyomi"
 }

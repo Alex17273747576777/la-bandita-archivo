@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kkurootetsuro/koma",
   "sha256": "b16ad82dcd387c145be6990d8806c8b50f459a431c2b881df0ee372789f3f0b1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kkurootetsuro--koma",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "51c21d1165c2077387b751b14e381dcc03a3f8e3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:51c21d1165c2077387b751b14e381dcc03a3f8e3"
  },
  "repo": "kkurootetsuro/koma"
 }

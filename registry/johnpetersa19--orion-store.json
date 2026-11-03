@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#johnpetersa19/Orion-Store",
   "sha256": "ad74fa1388aebac3b934ca3bbe2abcf9dc5195220cf423d5e2c7924957cdacc1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "johnpetersa19--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "98568be548003f54a5b5d58c591953e9b04ebf15",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:98568be548003f54a5b5d58c591953e9b04ebf15"
  },
  "repo": "johnpetersa19/Orion-Store"
 }

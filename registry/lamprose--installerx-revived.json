@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#lamprose/InstallerX-Revived",
   "sha256": "3f06d2146d5dbf46a497c29ef9c429c2ab1361b9d0239d65d0a61579a4e98544"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "lamprose--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b368d5a89d7fd3447851ebdb7ea126e78487a1d1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b368d5a89d7fd3447851ebdb7ea126e78487a1d1"
  },
  "repo": "lamprose/InstallerX-Revived"
 }

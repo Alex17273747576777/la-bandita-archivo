@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-11-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0.1",
   "ultimo_push": "2026-10-09"
  },
  "descripcion": "Easy TV Live App, a lightweight IPTV player, supports all platforms and Android TV big screens. Welcome to download and experience!  极简TV App，一款轻量级IPTV播放器，支持全平台以及安卓电视大屏欢迎下载体验!",
@@ -21,26 +21,26 @@
  "id": "aiyakuaile--easy_tv_live",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1161,
+  "stars": 1163,
   "stars_por_mes": null
  },
  "nombre": "easy_tv_live",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5adf2c8183cb6cf5c807e54bc690b3eb8b337558",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5adf2c8183cb6cf5c807e54bc690b3eb8b337558"
  },
  "repo": "aiyakuaile/easy_tv_live"
 }

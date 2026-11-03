@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-04-09",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "2.0.0",
   "ultimo_push": "2026-05-31"
  },
  "descripcion": "Companion app for localizing the Android version of CHAOS;CHILD visual novel",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1fd0dcddef53f9a6fa3b4196c322ce04a70a3172",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1fd0dcddef53f9a6fa3b4196c322ce04a70a3172"
  },
  "repo": "solrudev/OkkeiPatcher"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#veljko-vulovic/komikku_plus",
   "sha256": "fc0f7ad83aed52d1d40927b4ca297e5d6a14093432f127e23c741abf37ed4011"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "veljko-vulovic--komikku_plus",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "43e92b62949a33a672f16a6a084f86c54b6e7f10",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:43e92b62949a33a672f16a6a084f86c54b6e7f10"
  },
  "repo": "veljko-vulovic/komikku_plus"
 }

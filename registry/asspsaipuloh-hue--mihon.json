@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#asspsaipuloh-hue/mihon",
   "sha256": "dc28c96387b92d8a8980498d3e9082f4da9fb4a3999aa663b2cb6ce9950808a4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "asspsaipuloh-hue--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c6a96b3970f0ba4643f438155653790973fa00f6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c6a96b3970f0ba4643f438155653790973fa00f6"
  },
  "repo": "asspsaipuloh-hue/mihon"
 }

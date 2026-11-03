@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#KPsimel/OpenOmniBot",
   "sha256": "54169161f1d355569d65a42c0f8511474d88638ec3c155885cd2b417e68f69b2"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "kpsimel--openomnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c8f6de66058e6185702c2f385a4b50c2b5e0cfb6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c8f6de66058e6185702c2f385a4b50c2b5e0cfb6"
  },
  "repo": "KPsimel/OpenOmniBot"
 }

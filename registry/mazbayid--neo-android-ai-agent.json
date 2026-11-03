@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MazBayID/Neo-Android-AI-Agent",
   "sha256": "925e1dfd509a5248b91ad9a8e52c8908753d6f03e709e6cc4e77d8405ba26cdd"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mazbayid--neo-android-ai-agent",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "249481b31eb54c347085d436a276f3726d478da6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:249481b31eb54c347085d436a276f3726d478da6"
  },
  "repo": "MazBayID/Neo-Android-AI-Agent"
 }

@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-19"
+  "ultimo_push": "2026-10-18"
  },
  "descripcion": "Another Shizuku impl",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#flyhong666/Stellar",
   "sha256": "81c74a2ca4553ef4511ddb93d220e72876839985cf655c9924e401ad04693ca3"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "flyhong666--stellar",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bc03f6a2d7c95167d1853e24d3e52587634e7c58",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bc03f6a2d7c95167d1853e24d3e52587634e7c58"
  },
  "repo": "flyhong666/Stellar"
 }

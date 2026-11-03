@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ahmedbob2857-cyber/aniyomi",
   "sha256": "5d36db4fc28066847182b5fbe2ea2fd4a4684022301c05014ef2349768f7320f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "ahmedbob2857-cyber--aniyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7c90fff82fb8e5c5a9654dddb8dee8bf24a3b6bd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7c90fff82fb8e5c5a9654dddb8dee8bf24a3b6bd"
  },
  "repo": "ahmedbob2857-cyber/aniyomi"
 }

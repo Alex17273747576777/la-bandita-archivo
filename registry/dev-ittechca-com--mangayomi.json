@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#dev-ittechca-com/mangayomi",
   "sha256": "85b2764a2db11a0d6a347d8f4b35741848b8c90d4e2c065a521e3390a1db0d66"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "dev-ittechca-com--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "5170ad0fdd15c552aca24d4e7f7416421a13ff0c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5170ad0fdd15c552aca24d4e7f7416421a13ff0c"
  },
  "repo": "dev-ittechca-com/mangayomi"
 }

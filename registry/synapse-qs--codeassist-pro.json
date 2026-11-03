@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Synapse-QS/CodeAssist-Pro",
   "sha256": "547cfbcebb5a304a6befe2e1f078b69d2996392ec99e7a09363d6a51cbca3b6a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "synapse-qs--codeassist-pro",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4e059a815afca44406dbde8ebfab4d7ef8dbbf5b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e059a815afca44406dbde8ebfab4d7ef8dbbf5b"
  },
  "repo": "Synapse-QS/CodeAssist-Pro"
 }

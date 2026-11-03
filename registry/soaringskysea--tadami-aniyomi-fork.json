@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#soaringskysea/Tadami-Aniyomi-fork",
   "sha256": "8599d81985d711e5add994b810a83c9d30ae34d22d6e3f0eb3baf27c548bd85a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "soaringskysea--tadami-aniyomi-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "aefb95bcd50bca5ecfa74f42bcb5e3e45c07b127",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:aefb95bcd50bca5ecfa74f42bcb5e3e45c07b127"
  },
  "repo": "soaringskysea/Tadami-Aniyomi-fork"
 }

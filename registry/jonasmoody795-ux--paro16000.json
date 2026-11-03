@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#jonasmoody795-ux/PARO16000",
   "sha256": "c8099e6c222f579ccb72016b2ea71b3545fda77e5cc7a938922715b38b862591"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jonasmoody795-ux--paro16000",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fa10fba7d3177919275aa8af90a67e2fab8e2f49",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fa10fba7d3177919275aa8af90a67e2fab8e2f49"
  },
  "repo": "jonasmoody795-ux/PARO16000"
 }

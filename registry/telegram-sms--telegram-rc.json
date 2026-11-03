@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2019-10-27",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "master-3395a9b0-201910272052",
   "ultimo_push": "2026-05-26"
  },
  "descripcion": "[Shizuku] A robot running on an Android device that controls your phone.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2eb080666dac5220e65d21eeec406023c5314553",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2eb080666dac5220e65d21eeec406023c5314553"
  },
  "repo": "telegram-sms/telegram-rc"
 }

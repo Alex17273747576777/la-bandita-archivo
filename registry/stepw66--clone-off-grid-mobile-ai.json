@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#stepw66/Clone-off-grid-mobile-ai",
   "sha256": "b96c60c761fb0cfff85458cb5faab38e443a07ed368ae74a30a9cd9e2d1c128d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "stepw66--clone-off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "2f383896be0c4200dad665e364b8d1a72dc7e7e2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2f383896be0c4200dad665e364b8d1a72dc7e7e2"
  },
  "repo": "stepw66/Clone-off-grid-mobile-ai"
 }

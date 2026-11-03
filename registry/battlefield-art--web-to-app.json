@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Battlefield-Art/web-to-app",
   "sha256": "475357f298f1a7b0b8abd74cd2533b4ae9ab2d742fe6bd5da379da990706360c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "battlefield-art--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f61e05e95fb4767c1b491ac11ffc046e65ce7d8c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f61e05e95fb4767c1b491ac11ffc046e65ce7d8c"
  },
  "repo": "Battlefield-Art/web-to-app"
 }

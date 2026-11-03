@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#soymadip/mangayomi-fork",
   "sha256": "a8767ec569d44ae6e161a08179847855072cb616aa2ce60f33a16af48dc8be59"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "soymadip--mangayomi-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bc233e6af8a6b4a82b3db2bfeef1d03fd666eb69",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bc233e6af8a6b4a82b3db2bfeef1d03fd666eb69"
  },
  "repo": "soymadip/mangayomi-fork"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#DevElderLost/WinNative-test",
   "sha256": "171cabcceb0fcaac07b73eb6158fa07e8bb42e0bf0d5ea621e0bd29aaafcc738"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "develderlost--winnative-test",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "89daef3bc5693762868b2254054b47f4cdf27edf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:89daef3bc5693762868b2254054b47f4cdf27edf"
  },
  "repo": "DevElderLost/WinNative-test"
 }

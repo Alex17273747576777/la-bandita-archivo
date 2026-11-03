@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#nischalbijukchhe/animeze",
   "sha256": "8fedd21e59b9b64c82691a76acaa03ca1474804e8a44fe83ef7afbc13a58e9ad"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "74835b3543b8683169d0146e7a3c4da93047e910",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:74835b3543b8683169d0146e7a3c4da93047e910"
  },
  "repo": "nischalbijukchhe/animeze"
 }

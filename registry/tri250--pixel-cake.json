@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.0.0-alpha03",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "AI Photo Editor",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 0,
   "stars_por_mes": null
  },
  "nombre": "pixel-cake",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f2f6a30a9fde89fffdf4a92f444f126aee0daa66",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f2f6a30a9fde89fffdf4a92f444f126aee0daa66"
  },
  "repo": "Tri250/pixel-cake"
 }

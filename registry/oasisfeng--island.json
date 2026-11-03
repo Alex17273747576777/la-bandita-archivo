@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": "2023-10-19",
+  "release_en": "2017-02-18",
   "semantica_http": 200,
-  "ultima_release": "v6.2.1",
+  "ultima_release": "v2.0-beta1",
   "ultimo_push": "2025-04-24"
  },
  "descripcion": "Island for Android",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3993,
+  "stars": 3995,
   "stars_por_mes": null
  },
  "nombre": "island",

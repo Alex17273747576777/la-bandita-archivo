@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#JDMD21/Syntac",
   "sha256": "8ea3ef6466a97a0bf96ea3be5f157f741886b9d745f2d5efb26f000bcd181a38"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7f6a0f9d7ca3d9be196ebdbef55bcc0f383350d6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7f6a0f9d7ca3d9be196ebdbef55bcc0f383350d6"
  },
  "repo": "JDMD21/Syntac"
 }

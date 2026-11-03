@@ -1,9 +1,9 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": null,
+  "estado": "vivo",
+  "release_en": "2026-08-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.0.1",
   "ultimo_push": "2026-08-03"
  },
  "descripcion": "Font manager for Samsung Galaxy (OneUI) via System shell or Root.",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4afbf825631a190782f1280002ac8702ab5fc84c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4afbf825631a190782f1280002ac8702ab5fc84c"
  },
  "repo": "KhunHtetzNaing/ScamsungFonts"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#AdityaKr2002/Tadami",
   "sha256": "ec1ce3e3b122371c80c74d9dd72727d27eda63781498403ea858a8aaf61c3b8e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "adityakr2002--tadami",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "24d524adbd7c710316431fe4c9b749e1d70ce588",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:24d524adbd7c710316431fe4c9b749e1d70ce588"
  },
  "repo": "AdityaKr2002/Tadami"
 }

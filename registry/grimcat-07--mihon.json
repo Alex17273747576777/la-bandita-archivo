@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#GRIMCAT-07/mihon",
   "sha256": "d578d61e5a88756c418ba2b41dba3225d053a66348a1156ec81e2e4aa69b7bc0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "grimcat-07--mihon",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "57a0ab67112d1966c00d7ec433a2cff70064495e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:57a0ab67112d1966c00d7ec433a2cff70064495e"
  },
  "repo": "GRIMCAT-07/mihon"
 }

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-31",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.1.0-pre.10",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "",
  "evidencia": {
@@ -21,11 +21,11 @@
  "id": "feralyth1337--raven-terminal",
  "licencia": {
   "archivo": "LICENSE-MIT",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "afadb063c53b4f8d9afd338190d678433f01b5b5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:afadb063c53b4f8d9afd338190d678433f01b5b5"
  },
  "repo": "feralyth1337/RAVEN-terminal"
 }

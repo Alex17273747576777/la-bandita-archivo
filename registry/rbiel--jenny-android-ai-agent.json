@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#rbiel/jenny-android-ai-agent",
   "sha256": "de4f0621ac5198fb1041cda5234dfcf324f3f32879da51fa0a5637ad7ec3c26b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "rbiel--jenny-android-ai-agent",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "36bab54746bd8c3c179d817b254706f3a04d7c24",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:36bab54746bd8c3c179d817b254706f3a04d7c24"
  },
  "repo": "rbiel/jenny-android-ai-agent"
 }

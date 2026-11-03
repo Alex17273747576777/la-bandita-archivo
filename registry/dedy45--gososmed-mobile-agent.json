@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-03",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "agent-v0.3.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Agent GoSosmed BYOD mobile agent: APK Android (AccessibilityService) connect outbound ke GoSosmed agenthub untuk kontrol HP real tanpa adb/PC",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "85e1ffc14b97a677fe48b64fe5303f5ce5f882e3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:85e1ffc14b97a677fe48b64fe5303f5ce5f882e3"
  },
  "repo": "dedy45/gososmed-mobile-agent",
  "web": "https://bamsbung.id"

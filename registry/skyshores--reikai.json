@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#SkyShores/Reikai",
   "sha256": "fa1b70b2f0eddf2bbe1b1af9b6cade998e20e0348836560aaf995bbc4ca62de1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "skyshores--reikai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "01e44c7fccbb3fb0a445d2e60ddfd044e5f8a51c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:01e44c7fccbb3fb0a445d2e60ddfd044e5f8a51c"
  },
  "repo": "SkyShores/Reikai"
 }

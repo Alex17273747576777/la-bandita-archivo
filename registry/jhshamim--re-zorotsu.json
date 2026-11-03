@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Jhshamim/Re-zorotsu",
   "sha256": "4c0349327adfb65fe11dcba3a6ea552908c03f62d0a15fdfdeaae9772663fe96"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "jhshamim--re-zorotsu",
  "licencia": {
   "archivo": "LICENSE.md",
-  "metodo": "texto-license",
-  "spdx": "GPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e57bb01aa44b6727e02aba27d55d22f6a869370d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e57bb01aa44b6727e02aba27d55d22f6a869370d"
  },
  "repo": "Jhshamim/Re-zorotsu"
 }

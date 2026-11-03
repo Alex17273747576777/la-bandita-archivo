@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "Rootless wifi-tethering bypass for Android with Shizuku.",
@@ -26,21 +26,21 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 237,
+  "stars": 252,
   "stars_por_mes": null
  },
  "nombre": "shizzi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "44a31095572c17497a3e5ea9fdf2cae8e8f68401",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:44a31095572c17497a3e5ea9fdf2cae8e8f68401"
  },
  "repo": "carlelieser/shizzi"
 }

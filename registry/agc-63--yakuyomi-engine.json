@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#agc-63/yakuyomi-engine",
   "sha256": "fb6b31ae7575d15e3513e8365cc82a2828215145df23c65baae008252eadf541"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "agc-63--yakuyomi-engine",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "25cfe95bf94d66e545eab363b9abceff42cf845f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:25cfe95bf94d66e545eab363b9abceff42cf845f"
  },
  "repo": "agc-63/yakuyomi-engine"
 }

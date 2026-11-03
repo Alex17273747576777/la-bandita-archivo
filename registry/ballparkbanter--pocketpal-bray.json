@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.20.1-bray.1",
   "ultimo_push": "2026-10-20"
  },
  "descripcion": "PocketPal Bray: personal fork of a-ghorbani/pocketpal-ai (MIT) with Shizuku tablet tools, offline Joplin notes and an MCP client for a Galaxy Tab S7",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "45d0b58b7ff229300767bca06184be4de755016c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:45d0b58b7ff229300767bca06184be4de755016c"
  },
  "repo": "BallParkBanter/pocketpal-bray"
 }

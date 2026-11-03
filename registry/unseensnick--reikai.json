@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-07",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-27"
+  "ultima_release": "v1.9.7.5.1",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "One library for manga and light novels. A free and open source reader for Android, built on Mihon, with multi-source grouping and merge.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 42,
+  "stars": 44,
   "stars_por_mes": null
  },
  "nombre": "Reikai",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2bfcfa8ea92ab0073d6d4b2eab246dcdcba10997",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2bfcfa8ea92ab0073d6d4b2eab246dcdcba10997"
  },
  "repo": "unseensnick/Reikai",
  "web": "https://reikai.app/"

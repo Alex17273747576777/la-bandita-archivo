@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#kliopa10/strumok",
   "sha256": "d538274b9ef580ea05d172993ea9a534d44595218a82f62717a0664192446202"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d6793d312efe4de5a26cf83736b03b178a1734f8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d6793d312efe4de5a26cf83736b03b178a1734f8"
  },
  "repo": "kliopa10/strumok"
 }

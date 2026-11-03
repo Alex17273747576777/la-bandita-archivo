@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Shiho-Patch/komikku",
   "sha256": "b61d17d39880bc22cd9643df5388c94bfb16b06cd185bbcf5e7e35bfe97f83ed"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "shiho-patch--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3fa1cf9e0714c9440d24a52e3cc7fc19de56ad2e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3fa1cf9e0714c9440d24a52e3cc7fc19de56ad2e"
  },
  "repo": "Shiho-Patch/komikku"
 }

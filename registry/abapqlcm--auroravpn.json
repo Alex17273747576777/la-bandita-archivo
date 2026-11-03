@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-19",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v3.2-preview",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "AuroraVPN - Advanced Multi-Protocol VPN Client for Android (MASQUE/WireGuard/Gool) powered by Aether Core",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8f1e9ed4d5ae3d0f53c6f786b9759bbe7665481a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8f1e9ed4d5ae3d0f53c6f786b9759bbe7665481a"
  },
  "repo": "abapqlcm/AuroraVPN"
 }

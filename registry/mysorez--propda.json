@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MYSOREZ/ProPDA",
   "sha256": "51a14d4a4e0b8564cec60d80d0ba1279f844ce01aa350a606b205b15d3c36c3b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "mysorez--propda",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8046417ac3094196ec3fcc8f681f3b0406cf81b9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8046417ac3094196ec3fcc8f681f3b0406cf81b9"
  },
  "repo": "MYSOREZ/ProPDA"
 }

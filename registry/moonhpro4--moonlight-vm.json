@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#moonhpro4/moonlight-vm",
   "sha256": "a0cd12440e683ca0b2f8bfab2196dd3658e81583594c266e9a0e70dabf95134f"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "moonhpro4--moonlight-vm",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "bc6b438fdd1b9b40078e46bd09de79fa2973e684",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bc6b438fdd1b9b40078e46bd09de79fa2973e684"
  },
  "repo": "moonhpro4/moonlight-vm"
 }

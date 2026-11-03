@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#surya7xi-web/WIFI-Frankenstein",
   "sha256": "6f5e7e82af751deb6b82e1ab96fd7ef3910e772aec8921b4aa35b8b8e0f43be0"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "surya7xi-web--wifi-frankenstein",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4d85d274c57eccc9eb89f41f3dc1fec280e9e7ba",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4d85d274c57eccc9eb89f41f3dc1fec280e9e7ba"
  },
  "repo": "surya7xi-web/WIFI-Frankenstein"
 }

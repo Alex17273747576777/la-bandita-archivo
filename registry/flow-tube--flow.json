@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-10-21",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v1.0.11",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "A modern, feature-rich YouTube and YouTube  Music client with local recommendation for Android built with Jetpack Compose",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3226,
+  "stars": 3280,
   "stars_por_mes": null
  },
  "nombre": "Flow",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3130cf1c83fb05f614ca268a0550ca91299d78d9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3130cf1c83fb05f614ca268a0550ca91299d78d9"
  },
  "repo": "Flow-Tube/Flow",
  "web": "https://flow-tube.org"

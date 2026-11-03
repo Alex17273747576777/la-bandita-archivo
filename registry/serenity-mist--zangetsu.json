@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-10-27"
  },
  "descripcion": "Free, open-source app for anime, movies, series, manga and light novels — on And",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Serenity-MIST/Zangetsu",
   "sha256": "758448425013e29ec49a4eeb3886da1bdbd0c4e3fdaecd2dbe4186f8199fcac9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "serenity-mist--zangetsu",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b30fd13203abb3f8f5186c4b09ff85682e8e245c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b30fd13203abb3f8f5186c4b09ff85682e8e245c"
  },
  "repo": "Serenity-MIST/Zangetsu"
 }

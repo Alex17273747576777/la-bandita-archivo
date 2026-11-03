@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#meowmeoww70007-web/Tadami-Aniyomi-fork",
   "sha256": "af942ceb6924df7ff8ffd7a817104bc71ca7779630f059d55a7bf6dd12e4f2bc"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "meowmeoww70007-web--tadami-aniyomi-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e34f35383fd436a90be342117263291ed61ba307",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e34f35383fd436a90be342117263291ed61ba307"
  },
  "repo": "meowmeoww70007-web/Tadami-Aniyomi-fork"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-08-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "2.2.14",
   "ultimo_push": "2026-10-19"
  },
  "descripcion": "Archive viewer for TVs",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 211,
+  "stars": 215,
   "stars_por_mes": null
  },
  "nombre": "Fluffy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3bc6532de963db32d8fb53dbe6fb2bfe9696fa7c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3bc6532de963db32d8fb53dbe6fb2bfe9696fa7c"
  },
  "repo": "mlm-games/Fluffy"
 }

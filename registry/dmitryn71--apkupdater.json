@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-03-19",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "v3.6.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "APKUpdater is an open source tool that simplifies the process of finding updates for your installed apps.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 105,
+  "stars": 108,
   "stars_por_mes": null
  },
  "nombre": "apkupdater",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f9e26cacaeb043f9d420bb0cc36ccdff0fe93b34",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f9e26cacaeb043f9d420bb0cc36ccdff0fe93b34"
  },
  "repo": "DmitryN71/apkupdater"
 }

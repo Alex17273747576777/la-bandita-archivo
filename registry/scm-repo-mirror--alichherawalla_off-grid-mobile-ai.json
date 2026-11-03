@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#scm-repo-mirror/alichherawalla_off-grid-mobile-ai",
   "sha256": "6dae6bad47e217b7b13bf77b5238bef3ac5da55310b0f58e7adce311f31b33b8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "scm-repo-mirror--alichherawalla_off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4e1ca928032d6b68e0785fd82e93208a3179f4ea",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e1ca928032d6b68e0785fd82e93208a3179f4ea"
  },
  "repo": "scm-repo-mirror/alichherawalla_off-grid-mobile-ai"
 }

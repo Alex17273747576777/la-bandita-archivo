@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#BigUncle/mcp-official-servers",
   "sha256": "315a36ec7625a9ec6b7285c2d622b284e5599f61402a496ce42f39ddbaefda93"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "biguncle--mcp-official-servers",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9735df6da7fcddd6a770ee57b0fcac2416b3c9c8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9735df6da7fcddd6a770ee57b0fcac2416b3c9c8"
  },
  "repo": "BigUncle/mcp-official-servers"
 }

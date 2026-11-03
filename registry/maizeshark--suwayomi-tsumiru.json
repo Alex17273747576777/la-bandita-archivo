@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#MaizeShark/Suwayomi-Tsumiru",
   "sha256": "be31eceb2a6bf3bd2461d7b0aa9188dd60748ad7e64d05e2c34203bcddebd0f7"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "maizeshark--suwayomi-tsumiru",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "e3d3cd0ac243bf3584e4b687da9c40b7def08b18",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e3d3cd0ac243bf3584e4b687da9c40b7def08b18"
  },
  "repo": "MaizeShark/Suwayomi-Tsumiru"
 }

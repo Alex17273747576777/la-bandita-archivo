@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-25",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.0.1",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "潮汐改卡：无 Root 的 Android SIM 地区配置工具，内置本机无线调试配对与后台，支持单双卡、持续保持和停止恢复。",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7,
+  "stars": 9,
   "stars_por_mes": null
  },
  "nombre": "TideCard-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0ed1395a2691a11ca5bb9840c362a268b5e993da",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0ed1395a2691a11ca5bb9840c362a268b5e993da"
  },
  "repo": "DustinYe/TideCard-Android"
 }

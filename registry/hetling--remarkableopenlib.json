@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Hetling/RemarkableOpenlib",
   "sha256": "4d390f6cdf3d9742ad44c0c06602db7d8c1defdbe97a35716e4b279cfdd4dabf"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "hetling--remarkableopenlib",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c4a9b5c647beb4bad9b7d79256114aef6ce15675",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c4a9b5c647beb4bad9b7d79256114aef6ce15675"
  },
  "repo": "Hetling/RemarkableOpenlib"
 }

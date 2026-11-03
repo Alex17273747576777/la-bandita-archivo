@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2017-12-08",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.02",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "Password manager app for Android",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": 2.8,
   "scorecard_en": "2026-08-24",
-  "stars": 6350,
+  "stars": 6364,
   "stars_por_mes": null
  },
  "nombre": "keepass2android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "8b60a72fc8eb23e8580df053a49ca813a686c838",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:8b60a72fc8eb23e8580df053a49ca813a686c838"
  },
  "repo": "PhilippC/keepass2android",
  "web": "https://play.google.com/store/apps/details?id=keepass2android.keepass2android"

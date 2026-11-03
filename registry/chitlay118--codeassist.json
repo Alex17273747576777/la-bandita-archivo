@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ChitLay118/CodeAssist",
   "sha256": "66c4869374cee4c74db7ce66098787004374cb39f888cb81226e0ae34f35f8b5"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "chitlay118--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4deb5f07f8e53f1a80f5c5e54cf87020ecbb9ce8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4deb5f07f8e53f1a80f5c5e54cf87020ecbb9ce8"
  },
  "repo": "ChitLay118/CodeAssist"
 }

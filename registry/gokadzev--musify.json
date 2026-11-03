@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-06-10",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "1.0.0",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Unlock the full potential of music: Stream effortlessly with one app!",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4389,
+  "stars": 4397,
   "stars_por_mes": null
  },
  "nombre": "Musify",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "35ff9080632c6442d61ec4715325932ae63841dd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:35ff9080632c6442d61ec4715325932ae63841dd"
  },
  "repo": "gokadzev/Musify",
  "web": "https://gokadzev.github.io/Musify"

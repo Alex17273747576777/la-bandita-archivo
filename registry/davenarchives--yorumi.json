@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-01-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.0",
   "ultimo_push": "2026-10-16"
  },
  "descripcion": "an anime/manga/ln cross-platform app",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0bd0c304a9ffb42654989351bc4740a3ef45ccbb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0bd0c304a9ffb42654989351bc4740a3ef45ccbb"
  },
  "repo": "davenarchives/Yorumi",
  "web": "https://yorumi.vercel.app"
