@@ -643,7 +643,7 @@ REV|210.4★ — diordna/tnatsissa-emoh=1|REV|0.2-LPG=2|REV|03-01-6202 — diord
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• home-assistant/android — ★4.017 (+5) · empujó en las últimas horas · Apache-2.0 · última release 2026.11.1 (2-nov-2026)
+• home-assistant/android — ★4.021 (+9) · empujó en las últimas horas · Apache-2.0 · última release 2026.11.1 (2-nov-2026)
 • KDE/kdeconnect-android — ★1.497 (+6) · empujó en las últimas horas · GPL-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

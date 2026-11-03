@@ -66,7 +66,7 @@ REV|)71-21-5202( 1.1.5v — trepXlexiP/97hsavais=1|REV|044.2★ — trepXlexiP/9
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• siavash79/PixelXpert — ★2.439 (-1) · *dormido*: sin empujar desde el 21-jun-2026 (135 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
+• siavash79/PixelXpert — ★2.438 (-2) · *dormido*: sin empujar desde el 21-jun-2026 (135 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

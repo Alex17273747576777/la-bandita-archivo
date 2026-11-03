@@ -74,8 +74,8 @@ REV|)42-01-6202( 1.41.1 — yrellaG/grOyfissoF=1|REV|92-01-6202 — msirpotohp/m
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★118.062 (+450) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• photoprism/photoprism — ★40.403 (+33) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• immich-app/immich — ★118.115 (+503) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• photoprism/photoprism — ★40.404 (+34) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • FossifyOrg/Gallery — ★3.880 (+19) · empujó en las últimas horas · GPL-3.0 · última release 1.14.1 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

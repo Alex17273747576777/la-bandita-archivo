@@ -1069,22 +1069,22 @@ REV|0.3-LPGA=1|REV|895.36★ — ksigaM/uwnhojpot=2|REV|92-01-6202 — cisuMpmiS
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1606 caracteres ═══
+═══ MENSAJE 19 de 20 · 1607 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• topjohnwu/Magisk — ★63.726 (+131) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
-• team-spotube/spotube — ★50.564 (+98) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• tiann/KernelSU — ★20.031 (+219) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
-• MetrolistGroup/Metrolist — ★13.979 (+88) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.687 (+153) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• Dr-TSNG/ZygiskNext — ★10.798 (+56) · empujó el 15-oct-2026 (hace 19 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.714 (+75) · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
-• bmax121/APatch — ★8.121 (+17) · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
-• namidaco/namida — ★6.779 (+41) · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• OuterTune/OuterTune — ★5.441 (+4) · empujó el 12-oct-2026 (hace 22 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• topjohnwu/Magisk — ★63.739 (+144) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• team-spotube/spotube — ★50.565 (+99) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• tiann/KernelSU — ★20.045 (+233) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
+• MetrolistGroup/Metrolist — ★13.996 (+105) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.709 (+175) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• Dr-TSNG/ZygiskNext — ★10.804 (+62) · empujó el 15-oct-2026 (hace 19 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.726 (+87) · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
+• bmax121/APatch — ★8.125 (+21) · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
+• namidaco/namida — ★6.781 (+43) · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• OuterTune/OuterTune — ★5.442 (+5) · empujó el 12-oct-2026 (hace 22 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

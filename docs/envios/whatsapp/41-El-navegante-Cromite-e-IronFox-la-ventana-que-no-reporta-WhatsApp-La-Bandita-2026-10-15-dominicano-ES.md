@@ -75,7 +75,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 • uazo/cromite — ★8.458 (+9) · empujó en las últimas horas · GPL-3.0 · última release v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a (15-sep-2026)
 • bromite/bromite — ★6.321 (sin cambio) · *dormido*: sin empujar desde el 24-ene-2024 (1014 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
-• ironfox-oss/IronFox — ★1.092 (+5) · empujó en las últimas horas · AGPL-3.0
+• ironfox-oss/IronFox — ★1.095 (+8) · empujó en las últimas horas · AGPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1123,15 +1123,15 @@ REV|386.19★ — srevres/locotorptxetnocledom=1|REV|TIM=2|REV|03-01-6202 — na
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 9 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• modelcontextprotocol/servers — ★91.768 (+87) · empujó el 29-oct-2026 (hace 5 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
-• ChatGPTNextWeb/NextChat — ★88.938 (+20) · empujó el 20-oct-2026 (hace 14 días) · MIT · última release v2.16.1 (29-jul-2025)
-• Ebony-Vinyl/dsh-our-free-model — ★58.595 (+7652) · empujó en las últimas horas · MIT · última release v2.8.0-macos-unofficial (1-nov-2026)
-• moeru-ai/airi — ★51.056 (+166) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
-• janhq/jan — ★45.371 (+218) · empujó en las últimas horas · NOASSERTION · última release v0.8.8 (28-oct-2026)
-• xai-org/grok-build — ★27.669 (+67) · empujó el 29-sep-2026 (hace 35 días) · Apache-2.0
-• yetone/magpie — ★28.957 (+3535) · empujó en las últimas horas · MIT · última release v0.1.2862 (3-nov-2026)
-• browser-use/jev-ultrafast — ★24.121 (+228) · empujó en las últimas horas · MIT
-• modelcontextprotocol/modelcontextprotocol — ★9.601 (+39) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
+• modelcontextprotocol/servers — ★91.772 (+91) · empujó el 29-oct-2026 (hace 5 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
+• ChatGPTNextWeb/NextChat — ★88.936 (+18) · empujó el 20-oct-2026 (hace 14 días) · MIT · última release v2.16.1 (29-jul-2025)
+• Ebony-Vinyl/dsh-our-free-model — ★58.956 (+8013) · empujó en las últimas horas · MIT · última release v2.8.0-macos-unofficial (1-nov-2026)
+• moeru-ai/airi — ★51.065 (+175) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
+• janhq/jan — ★45.397 (+244) · empujó en las últimas horas · NOASSERTION · última release v0.8.8 (28-oct-2026)
+• xai-org/grok-build — ★27.676 (+74) · empujó el 29-sep-2026 (hace 35 días) · Apache-2.0
+• yetone/magpie — ★29.043 (+3621) · empujó en las últimas horas · MIT · última release v0.1.2884 (3-nov-2026)
+• browser-use/jev-ultrafast — ★24.138 (+245) · empujó en las últimas horas · MIT
+• modelcontextprotocol/modelcontextprotocol — ★9.607 (+45) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

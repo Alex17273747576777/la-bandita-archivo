@@ -74,9 +74,9 @@ REV|92-01-6202 — nifyllej/nifyllej=1|REV|0.2-LPG=2|REV|787.85★ — nifyllej/
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jellyfin/jellyfin — ★58.964 (+177) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• jellyfin/jellyfin-androidtv — ★4.703 (+28) · empujó en las últimas horas · GPL-2.0 · última release v0.19.10 (16-ago-2026)
-• jellyfin/jellyfin-android — ★2.857 (+18) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• jellyfin/jellyfin — ★58.979 (+192) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• jellyfin/jellyfin-androidtv — ★4.704 (+29) · empujó en las últimas horas · GPL-2.0 · última release v0.19.10 (16-ago-2026)
+• jellyfin/jellyfin-android — ★2.860 (+21) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

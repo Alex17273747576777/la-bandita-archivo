@@ -65,7 +65,7 @@ REV|71-01-6202 — rotalniw/58vedonurb=1|REV|486.91★ — rotalniw/58vedonurb=2
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• brunodev85/winlator — ★19.794 (+110) · empujó en las últimas horas · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
+• brunodev85/winlator — ★19.798 (+114) · empujó en las últimas horas · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

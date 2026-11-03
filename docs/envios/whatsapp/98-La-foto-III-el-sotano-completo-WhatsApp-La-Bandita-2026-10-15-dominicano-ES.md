@@ -95,13 +95,13 @@ REV|92-01-6202 — revres/duolctxen=1|REV|)82-01-6202( 2.0.53-elbats — diordna
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• pi-hole/pi-hole — ★61.646 (+87) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
-• jellyfin/jellyfin — ★58.964 (+177) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• nextcloud/server — ★37.402 (+57) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• nextcloud/android — ★5.671 (+15) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• jellyfin/jellyfin-androidtv — ★4.703 (+28) · empujó en las últimas horas · GPL-2.0 · última release v0.19.10 (16-ago-2026)
-• home-assistant/android — ★4.017 (+5) · empujó en las últimas horas · Apache-2.0 · última release 2026.11.1 (2-nov-2026)
-• jellyfin/jellyfin-android — ★2.857 (+18) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• pi-hole/pi-hole — ★61.651 (+92) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
+• jellyfin/jellyfin — ★58.979 (+192) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• nextcloud/server — ★37.405 (+60) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• jellyfin/jellyfin-androidtv — ★4.704 (+29) · empujó en las últimas horas · GPL-2.0 · última release v0.19.10 (16-ago-2026)
+• home-assistant/android — ★4.021 (+9) · empujó en las últimas horas · Apache-2.0 · última release 2026.11.1 (2-nov-2026)
+• jellyfin/jellyfin-android — ★2.860 (+21) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

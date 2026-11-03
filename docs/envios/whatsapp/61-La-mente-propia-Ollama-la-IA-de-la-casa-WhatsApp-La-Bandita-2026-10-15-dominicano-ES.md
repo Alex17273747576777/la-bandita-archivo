@@ -70,8 +70,8 @@ REV|932.581★ — amallo/amallo=1|REV|)82-01-6202( 31.04.0v — amallo/amallo=2
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.784 (+545) · empujó en las últimas horas · MIT · última release v0.40.14 (3-nov-2026)
-• ggml-org/llama.cpp — ★133.257 (+486) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• ollama/ollama — ★185.817 (+578) · empujó en las últimas horas · MIT · última release v0.40.14 (3-nov-2026)
+• ggml-org/llama.cpp — ★133.288 (+517) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

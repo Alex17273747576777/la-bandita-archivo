@@ -627,17 +627,17 @@ REV|978.98★ — gnihtcnys/gnihtcnys=1|REV|esualC-2-DSB=2|REV|92-01-6202 — ai
 
 ⏬ sigue abajo · parte 13 de 15
 
-═══ MENSAJE 15 de 16 · 973 caracteres ═══
+═══ MENSAJE 15 de 16 · 974 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 26*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★90.036 (+163) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• restic/restic — ★36.968 (+86) · empujó el 1-nov-2026 (hace 2 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
-• kopia/kopia — ★14.567 (+44) · empujó en las últimas horas · Apache-2.0 · última release v0.23.1 (16-jun-2026)
+• syncthing/syncthing — ★90.047 (+174) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• restic/restic — ★36.983 (+101) · empujó el 1-nov-2026 (hace 2 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• kopia/kopia — ★14.569 (+46) · empujó en las últimas horas · Apache-2.0 · última release v0.23.1 (16-jun-2026)
 • syncthing/syncthing-android — ★4.290 (-3) · *dormido*: sin empujar desde el 3-dic-2024 (700 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
-• researchxxl/syncthing-android — ★3.243 (+51) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.244 (+52) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

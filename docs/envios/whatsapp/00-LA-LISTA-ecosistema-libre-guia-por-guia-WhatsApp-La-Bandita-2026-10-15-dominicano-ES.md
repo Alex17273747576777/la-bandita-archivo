@@ -1149,12 +1149,12 @@ REV|92-01-6202 — gnihtcnys/gnihtcnys=1|REV|978.98★ — gnihtcnys/gnihtcnys=2
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★90.036 (+163) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• team-spotube/spotube — ★50.564 (+98) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• KotatsuApp/Kotatsu — ★8.951 (+8) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
+• syncthing/syncthing — ★90.047 (+174) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• team-spotube/spotube — ★50.565 (+99) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• KotatsuApp/Kotatsu — ★8.949 (+6) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
 • syncthing/syncthing-android — ★4.290 (-3) · *dormido*: sin empujar desde el 3-dic-2024 (700 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • phhusson/treble_experimentations — ★3.553 (-3) · *dormido*: sin empujar desde el 27-ene-2025 (645 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*
-• siavash79/PixelXpert — ★2.439 (-1) · *dormido*: sin empujar desde el 21-jun-2026 (135 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
+• siavash79/PixelXpert — ★2.438 (-2) · *dormido*: sin empujar desde el 21-jun-2026 (135 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
 • oxyroid/M3UAndroid — ★1.285 (+1) · empujó el 20-sep-2026 (hace 44 días) · GPL-3.0 · última release v1.15.0 (29-mar-2025) · *ARCHIVADO*
 • ponces/treble_aosp — ★313 (+2) · *dormido*: sin empujar desde el 25-jul-2025 (466 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
 • AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (77 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*

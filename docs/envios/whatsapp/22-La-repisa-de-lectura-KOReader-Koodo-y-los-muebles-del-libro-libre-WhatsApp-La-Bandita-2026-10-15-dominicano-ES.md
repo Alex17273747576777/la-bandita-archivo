@@ -631,12 +631,12 @@ REV|834.911★ — NC_hz-skoob-gnimmargorp-eerf/cavajtsuj=1|REV|0.2-LPM=2|REV|92
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• justjavac/free-programming-books-zh_CN — ★119.496 (+58) · *dormido*: sin empujar desde el 29-jul-2026 (97 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
-• syncthing/syncthing — ★90.036 (+163) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• Crosstalk-Solutions/project-nomad — ★41.975 (+687) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.35.1 (5-oct-2026)
-• koreader/koreader — ★30.845 (+106) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• koodo-reader/koodo-reader — ★28.708 (+40) · empujó el 1-nov-2026 (hace 2 días) · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
-• smuyyh/BookReader — ★6.972 (+8) · *dormido*: sin empujar desde el 24-abr-2023 (1289 días) · Apache-2.0
+• justjavac/free-programming-books-zh_CN — ★119.497 (+59) · *dormido*: sin empujar desde el 29-jul-2026 (97 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
+• syncthing/syncthing — ★90.047 (+174) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• Crosstalk-Solutions/project-nomad — ★42.053 (+765) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.35.1 (5-oct-2026)
+• koreader/koreader — ★30.850 (+111) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• koodo-reader/koodo-reader — ★28.711 (+43) · empujó el 1-nov-2026 (hace 2 días) · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• smuyyh/BookReader — ★6.971 (+7) · *dormido*: sin empujar desde el 24-abr-2023 (1289 días) · Apache-2.0
 • PaulWoitaschek/Voice — ★3.245 (+15) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

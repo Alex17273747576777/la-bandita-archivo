@@ -994,8 +994,8 @@ REV|92-01-6202 — ksuH/vediiveL=1|REV|0.3-LPGA=2|REV|748.2★ — ksuH/vediiveL
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Leviidev/Husk — ★2.990 (+143) · empujó en las últimas horas · GPL-2.0 · última release 3.3 (1-nov-2026)
-• flectar/mail — ★1.745 (+59) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
+• Leviidev/Husk — ★3.015 (+168) · empujó en las últimas horas · GPL-2.0 · última release 3.3 (1-nov-2026)
+• flectar/mail — ★1.753 (+67) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

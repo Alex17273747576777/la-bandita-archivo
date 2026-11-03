@@ -82,11 +82,11 @@ REV|0.2-LPM=1|REV|932.581★ — amallo/amallo=2|REV|92-01-6202 — segakcap-xum
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.784 (+545) · empujó en las últimas horas · MIT · última release v0.40.14 (3-nov-2026)
-• syncthing/syncthing — ★90.036 (+163) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• termux/termux-app — ★64.009 (+333) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• jellyfin/jellyfin — ★58.964 (+177) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• termux/termux-packages — ★17.298 (+38) · empujó en las últimas horas · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
+• ollama/ollama — ★185.817 (+578) · empujó en las últimas horas · MIT · última release v0.40.14 (3-nov-2026)
+• syncthing/syncthing — ★90.047 (+174) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• termux/termux-app — ★64.039 (+363) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• jellyfin/jellyfin — ★58.979 (+192) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• termux/termux-packages — ★17.301 (+41) · empujó en las últimas horas · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

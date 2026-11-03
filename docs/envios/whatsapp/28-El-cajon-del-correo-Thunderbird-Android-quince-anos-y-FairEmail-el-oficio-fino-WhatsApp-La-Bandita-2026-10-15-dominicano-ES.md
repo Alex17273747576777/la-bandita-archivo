@@ -636,10 +636,10 @@ REV|92-01-6202 — liamEriaF/B66M=1|REV|978.98★ — gnihtcnys/gnihtcnys=2|REV|
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★90.036 (+163) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• thunderbird/thunderbird-android — ★14.175 (+19) · empujó en las últimas horas · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
-• M66B/FairEmail — ★4.746 (+7) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 1.2339 (24-oct-2026)
-• M66B/NetGuard — ★3.960 (+11) · *dormido*: sin empujar desde el 1-ago-2026 (94 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
+• syncthing/syncthing — ★90.047 (+174) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• thunderbird/thunderbird-android — ★14.177 (+21) · empujó en las últimas horas · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
+• M66B/FairEmail — ★4.748 (+9) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 1.2339 (24-oct-2026)
+• M66B/NetGuard — ★3.963 (+14) · *dormido*: sin empujar desde el 1-ago-2026 (94 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

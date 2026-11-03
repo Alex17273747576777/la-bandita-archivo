@@ -141,31 +141,31 @@ REV|932.581★ — amallo/amallo=1|REV|92-01-6202 — revres/duolctxen=2|REV|)62
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2708 caracteres ═══
+═══ MENSAJE 5 de 6 · 2706 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 103*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.784 (+545) · empujó en las últimas horas · MIT · última release v0.40.14 (3-nov-2026)
-• open-webui/open-webui — ★157.642 (+470) · empujó en las últimas horas · NOASSERTION · última release v0.13.0 (3-nov-2026)
-• ggml-org/llama.cpp — ★133.257 (+486) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• immich-app/immich — ★118.062 (+450) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• louislam/uptime-kuma — ★93.211 (+146) · empujó en las últimas horas · MIT · última release 2.5.9 (31-oct-2026)
-• modelcontextprotocol/servers — ★91.768 (+87) · empujó el 29-oct-2026 (hace 5 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
-• ChatGPTNextWeb/NextChat — ★88.938 (+20) · empujó el 20-oct-2026 (hace 14 días) · MIT · última release v2.16.1 (29-jul-2025)
-• termux/termux-app — ★64.009 (+333) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• pi-hole/pi-hole — ★61.646 (+87) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
-• go-gitea/gitea — ★58.846 (+80) · empujó en las últimas horas · MIT · última release v28.3.0 (1-nov-2026)
-• moeru-ai/airi — ★51.056 (+166) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
-• team-spotube/spotube — ★50.564 (+98) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• qbittorrent/qBittorrent — ★41.329 (+116) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
-• photoprism/photoprism — ★40.403 (+33) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• nextcloud/server — ★37.402 (+57) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• koodo-reader/koodo-reader — ★28.708 (+40) · empujó el 1-nov-2026 (hace 2 días) · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
-• keiyoushi/extensions — ★15.427 (+58) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-1 (3-nov-2026)
-• Dr-TSNG/ZygiskNext — ★10.798 (+56) · empujó el 15-oct-2026 (hace 19 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
-• modelcontextprotocol/modelcontextprotocol — ★9.601 (+39) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
+• ollama/ollama — ★185.817 (+578) · empujó en las últimas horas · MIT · última release v0.40.14 (3-nov-2026)
+• open-webui/open-webui — ★157.683 (+511) · empujó en las últimas horas · NOASSERTION · última release v0.13.0 (3-nov-2026)
+• ggml-org/llama.cpp — ★133.288 (+517) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• immich-app/immich — ★118.115 (+503) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• louislam/uptime-kuma — ★93.225 (+160) · empujó en las últimas horas · MIT · última release 2.5.9 (31-oct-2026)
+• modelcontextprotocol/servers — ★91.772 (+91) · empujó el 29-oct-2026 (hace 5 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
+• ChatGPTNextWeb/NextChat — ★88.936 (+18) · empujó el 20-oct-2026 (hace 14 días) · MIT · última release v2.16.1 (29-jul-2025)
+• termux/termux-app — ★64.039 (+363) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• pi-hole/pi-hole — ★61.651 (+92) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
+• go-gitea/gitea — ★58.856 (+90) · empujó en las últimas horas · MIT · última release v28.3.0 (1-nov-2026)
+• moeru-ai/airi — ★51.065 (+175) · empujó en las últimas horas · MIT · última release v0.14.1 (30-oct-2026)
+• team-spotube/spotube — ★50.565 (+99) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• qbittorrent/qBittorrent — ★41.338 (+125) · empujó en las últimas horas · NOASSERTION · última release release-5.3.0 (20-oct-2026)
+• photoprism/photoprism — ★40.404 (+34) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• nextcloud/server — ★37.405 (+60) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• koodo-reader/koodo-reader — ★28.711 (+43) · empujó el 1-nov-2026 (hace 2 días) · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• keiyoushi/extensions — ★15.427 (+58) · empujó en las últimas horas · sin licencia detectada por la API · última release 6296017 (3-nov-2026)
+• Dr-TSNG/ZygiskNext — ★10.804 (+62) · empujó el 15-oct-2026 (hace 19 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• modelcontextprotocol/modelcontextprotocol — ★9.607 (+45) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

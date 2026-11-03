@@ -78,10 +78,10 @@ REV|543.73★ — revres/duolctxen=1|REV|)92-01-6202( 3.4.41v — eno-ni-lla/duo
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• nextcloud/server — ★37.402 (+57) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• nextcloud/all-in-one — ★10.780 (+30) · empujó en las últimas horas · AGPL-3.0 · última release v14.4.3 (29-oct-2026)
+• nextcloud/server — ★37.405 (+60) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• nextcloud/all-in-one — ★10.781 (+31) · empujó en las últimas horas · AGPL-3.0 · última release v14.4.3 (29-oct-2026)
 • nextcloud/docker — ★7.418 (+1) · empujó el 23-oct-2026 (hace 11 días) · AGPL-3.0 · última release v2026.6.2 (11-jun-2026)
-• nextcloud/android — ★5.671 (+15) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

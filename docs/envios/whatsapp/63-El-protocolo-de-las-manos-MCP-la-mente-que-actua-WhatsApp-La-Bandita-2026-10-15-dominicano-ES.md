@@ -69,8 +69,8 @@ REV|)6202-tco-92 ,oper us ed otxet núges( 0.2-ehcapA=1|REV|186.19★ — srevre
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• modelcontextprotocol/servers — ★91.768 (+87) · empujó el 29-oct-2026 (hace 5 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
-• modelcontextprotocol/modelcontextprotocol — ★9.601 (+39) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
+• modelcontextprotocol/servers — ★91.772 (+91) · empujó el 29-oct-2026 (hace 5 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
+• modelcontextprotocol/modelcontextprotocol — ★9.607 (+45) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

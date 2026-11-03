@@ -612,22 +612,22 @@ Queda una cosa más, que es la que más se olvida: la ventana y la casa. Cinco d
 
 ⏬ sigue abajo · parte 26 de 28
 
-═══ MENSAJE 28 de 29 · 1617 caracteres ═══
+═══ MENSAJE 28 de 29 · 1618 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • KRTirtho/spotube — sin dato hoy (la API no respondió). No afirmo nada.
-• MetrolistGroup/Metrolist — ★13.979 (+88) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.687 (+153) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• MetrolistGroup/Metrolist — ★13.996 (+105) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.709 (+175) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • AntennaPod/AntennaPod — ★8.260 (+6) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • theovilardo/PixelPlayer — sin dato hoy (la API no respondió). No afirmo nada.
-• namidaco/namida — ★6.779 (+41) · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• z-huang/InnerTune — ★6.135 (+6) · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• OuterTune/OuterTune — ★5.441 (+4) · empujó el 12-oct-2026 (hace 22 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• namidaco/namida — ★6.781 (+43) · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• z-huang/InnerTune — ★6.137 (+8) · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• OuterTune/OuterTune — ★5.442 (+5) · empujó el 12-oct-2026 (hace 22 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.382 (+8) · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)
-• OxygenCobalt/Auxio — ★4.418 (+16) · empujó en las últimas horas · GPL-3.0 · última release v4.1.5 (4-ago-2026)
+• OxygenCobalt/Auxio — ★4.419 (+17) · empujó en las últimas horas · GPL-3.0 · última release v4.1.5 (4-ago-2026)
 • fast4x/RiMusic — ★3.897 · *dormido*: sin empujar desde el 30-jul-2025 (461 días) · GPL-3.0 · última release v0.6.76 (21-mar-2025) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

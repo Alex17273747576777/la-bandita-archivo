@@ -1029,17 +1029,17 @@ REV|048.42★ — nohim/ppanohim=1|REV|0.2-ehcapA=2|REV|92-01-6202 — liateminA
 
 ⏬ sigue abajo · parte 22 de 24
 
-═══ MENSAJE 24 de 25 · 1629 caracteres ═══
+═══ MENSAJE 24 de 25 · 1621 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.999 (+159) · empujó el 26-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• aniyomiorg/aniyomi — ★7.863 (+7) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• komikku-app/komikku — ★4.973 (+17) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• jobobby04/TachiyomiSY — ★4.200 (+4) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• nekomangaorg/Neko — ★2.821 (+4) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• mihonapp/mihon — ★25.003 (+163) · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• aniyomiorg/aniyomi — ★7.864 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• komikku-app/komikku — ★4.975 (+19) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• jobobby04/TachiyomiSY — ★4.201 (+5) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
+• nekomangaorg/Neko — ★2.822 (+5) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 3.8.5 (30-oct-2026)
 • komikku-app/anikku — ★1.128 (+6) · empujó el 22-oct-2026 (hace 12 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
 • syncyomi/syncyomi — ★742 (+5) · empujó en las últimas horas · GPL-2.0 · última release v1.7.4 (29-oct-2026)
 • Animetailapp/Animetail — ★614 (+1) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.20.4.0 (5-ago-2026)

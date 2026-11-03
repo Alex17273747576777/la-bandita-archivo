@@ -66,7 +66,7 @@ REV|82-01-6202 — nedrawtluav/aicrag-inad=1|REV|)50-01-6202( 4.73.1 — nedrawt
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dani-garcia/vaultwarden — ★70.168 (+273) · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• dani-garcia/vaultwarden — ★70.184 (+289) · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

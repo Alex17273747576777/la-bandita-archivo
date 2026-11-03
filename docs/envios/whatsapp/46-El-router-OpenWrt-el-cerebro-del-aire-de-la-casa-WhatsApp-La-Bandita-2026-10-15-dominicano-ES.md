@@ -66,21 +66,21 @@ REV|0.2-ehcapA=1|REV|92-01-6202 — trwnepo/trwnepo=2|REV|579.82★ — trwnepo/
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 682 caracteres ═══
+═══ MENSAJE 3 de 4 · 680 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 46*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• openwrt/openwrt — ★29.033 (+58) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
-• openwrt/luci — ★7.952 (+13) · empujó en las últimas horas · Apache-2.0
-• openwrt/packages — ★4.664 (+4) · empujó en las últimas horas · GPL-2.0
+• openwrt/openwrt — ★29.047 (+72) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
+• openwrt/luci — ★7.957 (+18) · empujó en las últimas horas · Apache-2.0
+• openwrt/packages — ★4.663 (+3) · empujó en las últimas horas · GPL-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
 De los 5 enlaces de esta pieza, *4 responden*.
 
-• https://git.openwrt.org/openwrt/openwrt.git — 404. No existe hoy: no lo abras, no lo recomiendo.
+• https://git.openwrt.org/openwrt/openwrt.git — 502. Error del servidor; no es culpa del enlace.
 
 ⏬ sigue abajo · parte 2 de 3
 

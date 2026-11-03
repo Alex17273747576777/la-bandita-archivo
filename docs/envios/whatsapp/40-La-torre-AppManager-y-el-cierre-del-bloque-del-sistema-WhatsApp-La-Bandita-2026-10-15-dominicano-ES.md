@@ -66,7 +66,7 @@ REV|073.9★ — reganaMppA/nokArihsatnuM=1|REV|91-01-6202 — reganaMppA/nokAri
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MuntashirAkon/AppManager — ★9.424 (+54) · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• MuntashirAkon/AppManager — ★9.427 (+57) · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

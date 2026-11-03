@@ -124,24 +124,24 @@ REV|)12-01-6202( 7.1.2v — gnihtcnys/gnihtcnys=1|REV|92-01-6202 — gnihtcnys/g
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2778 caracteres ═══
+═══ MENSAJE 4 de 5 · 2779 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 101*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• justjavac/free-programming-books-zh_CN — ★119.496 (+58) · *dormido*: sin empujar desde el 29-jul-2026 (97 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
-• syncthing/syncthing — ★90.036 (+163) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• RikkaApps/Shizuku — ★32.708 (+324) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• beemdevelopment/Aegis — ★13.452 (+38) · *dormido*: sin empujar desde el 6-sep-2026 (58 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• KotatsuApp/Kotatsu — ★8.951 (+8) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
-• aniyomiorg/aniyomi — ★7.863 (+7) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• Droid-ify/client — ★7.686 (+23) · *dormido*: sin empujar desde el 12-sep-2026 (52 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• cloudflare/boringtun — ★7.248 (+11) · *dormido*: sin empujar desde el 29-jun-2026 (127 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
-• smuyyh/BookReader — ★6.972 (+8) · *dormido*: sin empujar desde el 24-abr-2023 (1289 días) · Apache-2.0
+• justjavac/free-programming-books-zh_CN — ★119.497 (+59) · *dormido*: sin empujar desde el 29-jul-2026 (97 días) · GPL-3.0 · última release 3.0 (5-nov-2018)
+• syncthing/syncthing — ★90.047 (+174) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• RikkaApps/Shizuku — ★32.724 (+340) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• beemdevelopment/Aegis — ★13.458 (+44) · *dormido*: sin empujar desde el 6-sep-2026 (58 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• KotatsuApp/Kotatsu — ★8.949 (+6) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
+• aniyomiorg/aniyomi — ★7.864 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• Droid-ify/client — ★7.687 (+24) · *dormido*: sin empujar desde el 12-sep-2026 (52 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• cloudflare/boringtun — ★7.247 (+10) · *dormido*: sin empujar desde el 29-jun-2026 (127 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
+• smuyyh/BookReader — ★6.971 (+7) · *dormido*: sin empujar desde el 24-abr-2023 (1289 días) · Apache-2.0
 • bromite/bromite — ★6.321 (sin cambio) · *dormido*: sin empujar desde el 24-ene-2024 (1014 días) · GPL-3.0 · última release 108.0.5359.156 (19-dic-2022)
-• z-huang/InnerTune — ★6.135 (+6) · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• miru-project/miru-app — ★5.793 (+9) · *dormido*: sin empujar desde el 5-dic-2025 (333 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
+• z-huang/InnerTune — ★6.137 (+8) · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• miru-project/miru-app — ★5.794 (+10) · *dormido*: sin empujar desde el 5-dic-2025 (333 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
 • syncthing/syncthing-android — ★4.290 (-3) · *dormido*: sin empujar desde el 3-dic-2024 (700 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
 • MatteCarra/AccA — ★1.404 (+2) · *dormido*: sin empujar desde el 17-jun-2024 (869 días) · GPL-3.0 · última release v1.0.35 (31-ago-2021)
 • Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)

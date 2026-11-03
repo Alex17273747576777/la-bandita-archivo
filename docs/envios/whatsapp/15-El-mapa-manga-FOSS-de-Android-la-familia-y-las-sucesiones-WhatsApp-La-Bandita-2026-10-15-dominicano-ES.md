@@ -1024,25 +1024,25 @@ REV|048.42★ — nohim/ppanohim=1|REV|)odacifirev( oper us ne ESNECIL ovihcra n
 
 ⏬ sigue abajo · parte 18 de 20
 
-═══ MENSAJE 20 de 21 · 2818 caracteres ═══
+═══ MENSAJE 20 de 21 · 2808 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mihonapp/mihon — ★24.999 (+159) · empujó el 26-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• keiyoushi/extensions — ★15.427 (+58) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-1 (3-nov-2026)
-• KotatsuApp/Kotatsu — ★8.951 (+8) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
-• aniyomiorg/aniyomi — ★7.863 (+7) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• komikku-app/komikku — ★4.973 (+17) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• keiyoushi/extensions-source — ★4.860 (+29) · empujó en las últimas horas · Apache-2.0
-• jobobby04/TachiyomiSY — ★4.200 (+4) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• lnreader/lnreader — ★2.953 (+11) · empujó el 1-nov-2026 (hace 2 días) · MIT · última release v2.1.4 (26-sep-2026)
-• nekomangaorg/Neko — ★2.821 (+4) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• mihonapp/mihon — ★25.003 (+163) · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• keiyoushi/extensions — ★15.427 (+58) · empujó en las últimas horas · sin licencia detectada por la API · última release 6296017 (3-nov-2026)
+• KotatsuApp/Kotatsu — ★8.949 (+6) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
+• aniyomiorg/aniyomi — ★7.864 (+8) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• komikku-app/komikku — ★4.975 (+19) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• keiyoushi/extensions-source — ★4.862 (+31) · empujó en las últimas horas · Apache-2.0
+• jobobby04/TachiyomiSY — ★4.201 (+5) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
+• lnreader/lnreader — ★2.955 (+13) · empujó el 1-nov-2026 (hace 2 días) · MIT · última release v2.1.4 (26-sep-2026)
+• nekomangaorg/Neko — ★2.822 (+5) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 3.8.5 (30-oct-2026)
 • null2264/yokai — ★1.915 (+2) · empujó en las últimas horas · Apache-2.0 · última release v1.10.2 (23-sep-2026)
-• Kototoro-app/Kototoro — ★666 (+13) · empujó en las últimas horas · Apache-2.0 · última release v2.3.7 (3-nov-2026)
-• aayush2622/Dartotsu — ★550 (+5) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
-• itsmechinmoy/dantotsu-updater — ★156 (+2) · empujó el 1-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
+• Kototoro-app/Kototoro — ★667 (+14) · empujó en las últimas horas · Apache-2.0 · última release v2.3.8 (3-nov-2026)
+• aayush2622/Dartotsu — ★552 (+7) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
+• itsmechinmoy/dantotsu-updater — ★157 (+3) · empujó el 1-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
 • AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (77 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
 • itsmechinmoy/Dantotsu — ★93 (+1) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
 • Noirero/Miyorare — ★21 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.4.18 (2-nov-2026)

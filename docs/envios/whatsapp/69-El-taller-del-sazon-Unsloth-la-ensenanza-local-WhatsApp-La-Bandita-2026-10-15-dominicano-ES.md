@@ -64,14 +64,14 @@ REV|)82-01-6202( ateb-219.1.0v — htolsnu/iahtolsnu=1|REV|92-01-6202 — htolsn
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 574 caracteres ═══
+═══ MENSAJE 3 de 4 · 573 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 69*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★90.036 (+163) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• unslothai/unsloth — ★79.003 (+243) · empujó en las últimas horas · Apache-2.0 · última release v0.1.913-beta (30-oct-2026)
+• syncthing/syncthing — ★90.047 (+174) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• unslothai/unsloth — ★79.015 (+255) · empujó en las últimas horas · Apache-2.0 · última release v0.1.914-beta (3-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

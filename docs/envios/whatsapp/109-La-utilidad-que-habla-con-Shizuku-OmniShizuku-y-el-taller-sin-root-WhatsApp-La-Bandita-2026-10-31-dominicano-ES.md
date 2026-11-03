@@ -375,16 +375,16 @@ escondido.
 
 ⏬ sigue abajo · parte 5 de 7
 
-═══ MENSAJE 7 de 8 · 957 caracteres ═══
+═══ MENSAJE 7 de 8 · 955 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 109*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • krishna3163/OmniShizuku — ★17 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• thedjchi/Shizuku — ★6.695 · *dormido*: sin empujar desde el 15-jul-2026 (111 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
-• iamr0s/Dhizuku — ★4.079 (+29) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• krishna3163/best_shizuku_apps_for_android_no_root — ★159 · empujó en las últimas horas · sin licencia detectada por la API · última release adb-toolbox-v1.0.7 (3-nov-2026)
+• thedjchi/Shizuku — ★6.700 · *dormido*: sin empujar desde el 15-jul-2026 (111 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
+• iamr0s/Dhizuku — ★4.080 (+30) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• krishna3163/best_shizuku_apps_for_android_no_root — ★161 · empujó en las últimas horas · sin licencia detectada por la API · última release spyhound-v0.3.12 (3-nov-2026)
 • Alex17273747576777/la-bandita-archivo — ★1 · empujó en las últimas horas · MIT
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

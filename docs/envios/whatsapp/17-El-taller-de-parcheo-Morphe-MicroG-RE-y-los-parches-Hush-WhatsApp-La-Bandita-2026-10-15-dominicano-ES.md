@@ -1122,24 +1122,24 @@ REV|986.9★ — reganam-ehprom/ppAehproM=1|REV|0.3-LPG=2|REV|03-01-6202 — reg
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1769 caracteres ═══
+═══ MENSAJE 19 de 20 · 1762 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 17*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MorpheApp/morphe-manager — ★9.908 (+219) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
-• bmax121/APatch — ★8.121 (+17) · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
-• j-hc/revanced-magisk-module — ★7.713 (+8) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 20221124 (1-nov-2026)
-• shiaho777/web-to-app — ★7.172 (+45) · empujó en las últimas horas · Unlicense · última release v2.8.4 (2-nov-2026)
-• MorpheApp/MicroG-RE — ★6.160 (+151) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 7.3.0 (31-oct-2026)
-• MeowDump/Integrity-Box — ★2.815 (+18) · empujó el 30-oct-2026 (hace 4 días) · GPL-3.0 · última release v46 (29-oct-2026)
-• snake-4/Zygisk-Assistant — ★2.663 (+1) · *dormido*: sin empujar desde el 4-may-2026 (183 días) · MIT · última release v2.1.4 (23-feb-2025)
-• MMRLApp/MMRL — ★2.227 (+4) · empujó el 25-oct-2026 (hace 9 días) · GPL-3.0 · última release v34296 (8-mar-2026)
-• SysAdminDoc/HushFacebook — ★462 (+24) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
-• SysAdminDoc/HushFeed — ★349 (+24) · empujó en las últimas horas · GPL-3.0 · última release v0.80.0 (2-nov-2026)
-• SysAdminDoc/Hushfacebook — ★462 · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
-• SysAdminDoc/hushfeed — ★349 · empujó en las últimas horas · GPL-3.0 · última release v0.80.0 (2-nov-2026)
+• MorpheApp/morphe-manager — ★9.927 (+238) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
+• bmax121/APatch — ★8.125 (+21) · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
+• j-hc/revanced-magisk-module — ★7.710 (+5) · empujó en las últimas horas · GPL-3.0 · última release 20221125 (3-nov-2026)
+• shiaho777/web-to-app — ★7.178 (+51) · empujó en las últimas horas · Unlicense · última release v2.8.4 (2-nov-2026)
+• MorpheApp/MicroG-RE — ★6.172 (+163) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 7.3.0 (31-oct-2026)
+• MeowDump/Integrity-Box — ★2.817 (+20) · empujó el 30-oct-2026 (hace 4 días) · GPL-3.0 · última release v46 (29-oct-2026)
+• snake-4/Zygisk-Assistant — ★2.664 (+2) · *dormido*: sin empujar desde el 4-may-2026 (183 días) · MIT · última release v2.1.4 (23-feb-2025)
+• MMRLApp/MMRL — ★2.228 (+5) · empujó el 25-oct-2026 (hace 9 días) · GPL-3.0 · última release v34296 (8-mar-2026)
+• SysAdminDoc/HushFacebook — ★463 (+25) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
+• SysAdminDoc/HushFeed — ★351 (+26) · empujó en las últimas horas · GPL-3.0 · última release v0.80.0 (2-nov-2026)
+• SysAdminDoc/Hushfacebook — ★463 · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (1-nov-2026)
+• SysAdminDoc/hushfeed — ★351 · empujó en las últimas horas · GPL-3.0 · última release v0.80.0 (2-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

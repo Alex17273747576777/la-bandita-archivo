@@ -69,7 +69,7 @@ REV|)32-90-6202( 7.3.4v — kiuq/sms-kiuq=1|REV|72-90-6202 — kiuq/sms-kiuq=2|R
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• quik-sms/quik — ★2.887 (+10) · empujó el 27-sep-2026 (hace 37 días) · GPL-3.0 · última release v4.3.7 (23-sep-2026)
+• quik-sms/quik — ★2.889 (+12) · empujó el 27-sep-2026 (hace 37 días) · GPL-3.0 · última release v4.3.7 (23-sep-2026)
 • you-apps/ConnectYou — ★729 (sin cambio) · *dormido*: sin empujar desde el 30-jul-2026 (96 días) · GPL-3.0 · última release v12.0 (4-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

@@ -1045,9 +1045,9 @@ REV|293.23★ — ukuzihS/sppAakkiR=1|REV|81-60-5202 — ukuzihS/sppAakkiR=2|REV
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.708 (+324) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.724 (+340) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • kitsumed/ShizuCallRecorder — ★1.989 (+57) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (24-oct-2026)
-• flectar/mail — ★1.745 (+59) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
+• flectar/mail — ★1.753 (+67) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

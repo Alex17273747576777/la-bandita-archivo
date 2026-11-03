@@ -985,9 +985,9 @@ REV|349.8★ — ustatoK/ppAustatoK=1|REV|40-11-5202 — ustatoK/ppAustatoK=2|RE
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• KotatsuApp/Kotatsu — ★8.951 (+8) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
-• Kotatsu-Redo/Kotatsu-Redo — ★991 (+17) · empujó en las últimas horas · GPL-3.0 · última release 9.8.6 (2-nov-2026)
-• Kototoro-app/Kototoro — ★666 (+13) · empujó en las últimas horas · Apache-2.0 · última release v2.3.7 (3-nov-2026)
+• KotatsuApp/Kotatsu — ★8.949 (+6) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
+• Kotatsu-Redo/Kotatsu-Redo — ★994 (+20) · empujó en las últimas horas · GPL-3.0 · última release 9.8.6 (2-nov-2026)
+• Kototoro-app/Kototoro — ★667 (+14) · empujó en las últimas horas · Apache-2.0 · última release v2.3.8 (3-nov-2026)
 • AppFuton/Futon — ★476 (+9) · empujó en las últimas horas · GPL-3.0 · última release v9.9 (21-oct-2026)
 • UsagiApp/Usagi — ★290 (+4) · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • Gekkoushi/plugin-source — ★93 (sin cambio) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · GPL-3.0 · última release 1.2.6 (10-ago-2026)

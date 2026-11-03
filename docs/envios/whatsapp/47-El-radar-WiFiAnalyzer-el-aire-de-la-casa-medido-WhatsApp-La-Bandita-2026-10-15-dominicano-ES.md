@@ -66,7 +66,7 @@ REV|050.5★ — rezylanAiFiW/tnempoleveDerawtfoSMERV=1|REV|30-01-6202 — rezyl
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• VREMSoftwareDevelopment/WiFiAnalyzer — ★5.061 (+11) · empujó el 3-oct-2026 (hace 31 días) · GPL-3.0 · última release V3.3.1-F-DROID (1-jul-2026)
+• VREMSoftwareDevelopment/WiFiAnalyzer — ★5.065 (+15) · empujó el 3-oct-2026 (hace 31 días) · GPL-3.0 · última release V3.3.1-F-DROID (1-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

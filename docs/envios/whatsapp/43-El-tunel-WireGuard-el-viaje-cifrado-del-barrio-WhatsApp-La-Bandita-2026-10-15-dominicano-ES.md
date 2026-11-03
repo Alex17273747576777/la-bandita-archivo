@@ -71,16 +71,16 @@ REV|403.83★ — elacsliat/elacsliat=1|REV|)82-01-6202( 6ef784d9bg-891312839t-4
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 881 caracteres ═══
+═══ MENSAJE 3 de 4 · 888 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 43*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• tailscale/tailscale — ★38.572 (+268) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.5 (3-nov-2026)
-• cloudflare/boringtun — ★7.248 (+11) · *dormido*: sin empujar desde el 29-jun-2026 (127 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
-• tailscale/tailscale-android — ★2.783 (+27) · empujó en las últimas horas · BSD-3-Clause · última release 1.104.4-t938213198-gb9d487fe6 (28-oct-2026)
-• WireGuard/wireguard-android — ★1.658 (+1) · *dormido*: sin empujar desde el 29-jun-2026 (127 días) · Apache-2.0
+• tailscale/tailscale — ★38.585 (+281) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.5 (3-nov-2026)
+• cloudflare/boringtun — ★7.247 (+10) · *dormido*: sin empujar desde el 29-jun-2026 (127 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
+• tailscale/tailscale-android — ★2.786 (+30) · empujó en las últimas horas · BSD-3-Clause · última release 1.104.5-t788384763-gd8673104f (3-nov-2026)
+• WireGuard/wireguard-android — ★1.657 (sin cambio) · *dormido*: sin empujar desde el 29-jun-2026 (127 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

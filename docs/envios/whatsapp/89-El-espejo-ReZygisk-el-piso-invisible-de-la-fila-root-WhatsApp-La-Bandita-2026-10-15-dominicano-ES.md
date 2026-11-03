@@ -70,8 +70,8 @@ REV|)62-01-6202( 1.6 — toor-diordna-emosewa/toor-diordna-emosewa=1|REV|82-01-6
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-android-root/awesome-android-root — ★5.630 (+62) · empujó en las últimas horas · MIT · última release 6.2 (2-nov-2026)
-• PerformanC/ReZygisk — ★4.112 (+13) · empujó en las últimas horas · GPL-3.0 · última release v1.0.0 (10-may-2026)
+• awesome-android-root/awesome-android-root — ★5.652 (+84) · empujó en las últimas horas · MIT · última release 6.2 (2-nov-2026)
+• PerformanC/ReZygisk — ★4.114 (+15) · empujó en las últimas horas · GPL-3.0 · última release v1.0.0 (10-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
