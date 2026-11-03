@@ -1,0 +1,75 @@
+{
+ "id": "immich",
+ "nombre": "Immich",
+ "repo": "immich-app/immich",
+ "autores": [
+  {
+   "nombre": "Immich y su comunidad",
+   "enlace": "https://immich.app"
+  }
+ ],
+ "licencia": {
+  "spdx": "AGPL-3.0",
+  "archivo": "https://github.com/immich-app/immich/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Tener las fotos y los vídeos del teléfono en un servidor propio, con respaldo automático, búsqueda por persona y lugar, y sin subirlos a ninguna nube ajena.",
+ "capitulo": 7,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien tiene miles de fotos en el teléfono y quiere el álbum de recuerdos de una nube comercial, pero con los archivos y las caras en su casa.",
+  "no_es": "para quien quiere una copia de seguridad y nada más: Immich es la biblioteca, y su propia documentación avisa que hay que respaldar aparte."
+ },
+ "manos": [
+  "Prepará un equipo que pueda quedar encendido y con espacio suficiente: la biblioteca de fotos crece más rápido de lo que parece.",
+  "Levantá el servidor siguiendo la guía oficial —la forma más simple es con contenedores— y anotá dónde vive la carpeta donde se guardan las fotos.",
+  "Instalá la aplicación en el teléfono, conectala a la dirección del servidor y creá tu usuario: no hay cuenta en internet, el usuario existe sólo en tu equipo.",
+  "Activá el respaldo automático y elegí qué carpetas suben; dejá que la primera subida termine con el teléfono enchufado.",
+  "Comprobá lo que no se puede improvisar: borrá una foto del teléfono y mirá que sigue en el servidor, porque el servidor es la biblioteca y el teléfono sólo la alimenta."
+ ],
+ "resultado_esperado": "Las fotos del teléfono están en tu servidor, agrupadas por fecha, buscables por persona y por lugar, y siguen ahí aunque el teléfono se pierda.",
+ "si_sale_mal": [
+  "Si el respaldo no avanza, revisá que la aplicación tenga permiso de trabajar en segundo plano y que el teléfono no esté en ahorro de batería extremo.",
+  "Si te quedás sin espacio, mirá primero las copias duplicadas: la biblioteca reconoce archivos idénticos y no los guarda dos veces.",
+  "Y si el servidor se rompe: sin respaldo, la biblioteca se pierde con él. Su documentación lo dice con todas las letras, y esta ficha también."
+ ],
+ "deshacer": "Borrar el servidor borra la biblioteca: los archivos viven en la carpeta del servidor, no en el teléfono. Antes de cualquier cambio grande, copiá esa carpeta completa a otro disco y comprobá que se puede abrir sin el servidor.",
+ "cabeza": [
+  "Immich hace en tu casa lo que hace un servicio comercial de fotos: sube automáticamente, ordena por fecha y lugar, reconoce caras y permite buscar «playa 2023» o el nombre de una persona. La diferencia es dónde ocurre: el reconocimiento corre en tu equipo, las fotos quedan en tu disco y la cuenta existe sólo en tu servidor.",
+  "Su forma de guardar es la que hay que entender antes de confiarle nada: los archivos se copian a una carpeta con nombres generados —no conserva el nombre original— y toda la información de álbumes, personas y fechas vive en una base de datos aparte. Eso significa dos cosas: que la carpeta de fotos, sola, no reconstruye los álbumes; y que el respaldo serio tiene que llevarse **la carpeta y la base de datos juntas**.",
+  "Con ciento dieciocho mil ciento cuatro estrellas es el proyecto más popular de la guía, superando a LocalSend y a Syncthing. Y es el único cuya propia presentación abre con una advertencia: seguir el plan de tres copias, dos medios y una fuera para las fotos que importan. Un proyecto de este tamaño avisando que no es un respaldo es la lección más honesta del capítulo."
+ ],
+ "limites": [
+  "No es un respaldo: su propia documentación pide seguir el plan de tres copias aparte.",
+  "Guarda los archivos con nombres generados y con la información en una base de datos: hay que respaldar las dos cosas.",
+  "Pide un equipo encendido y cada vez más espacio; el reconocimiento de caras consume recursos.",
+  "Su versión de referencia mide trescientos trece megas de repositorio y está en movimiento constante: conviene leer las notas de cada entrega antes de actualizar."
+ ],
+ "oficio": {
+  "dato": "La biblioteca reconoce un archivo repetido por su contenido, no por su nombre: si subís dos veces la misma foto con nombres distintos, ocupa espacio una sola vez. Eso se ve mejor de lo que se explica, y hay una prueba de dos minutos: duplicá una foto con otro nombre, subila y mirá el recuento antes y después. El número sube uno, no dos. La contracara es la que hay que tener presente antes de borrar nada desde el servidor: si borrás el original y el duplicado era el mismo archivo, no hay segunda copia. La deduplicación ahorra espacio; no es un respaldo, y confundirlas es cómo se pierden álbumes enteros.",
+  "como_comprobar": "Elegí una foto, copiala con otro nombre y subila. Compará el recuento de la biblioteca antes y después, y después pedile al sistema la suma de los dos archivos: si coinciden, la biblioteca guardó uno solo.",
+  "comando": "sha256sum foto.jpg copia-de-foto.jpg"
+ },
+ "riesgos": [
+  "Tratarlo como respaldo y quedarse sin copia cuando el disco del servidor falle.",
+  "Respadar sólo la carpeta de fotos y perder la base de datos con los álbumes y las personas."
+ ],
+ "alternativas": [
+  "nextcloud/server",
+  "ente-io/ente"
+ ],
+ "senal": {
+  "estrellas": 118104,
+  "nota": 64,
+  "edad_dias": 1734,
+  "ultima_entrega": "2026-10-30",
+  "descargas_10": 446840,
+  "contribuyentes": 100,
+  "repo_mb": 313.2,
+  "ci": 5,
+  "incidencias": "718 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Immich y su comunidad · AGPL-3.0 · medido el 3 de noviembre de 2026"
+}

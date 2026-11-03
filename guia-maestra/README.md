@@ -2,7 +2,7 @@
 
 **Aplicaciones y recursos de código abierto, en español, con el oficio explicado.**
 
-_Estado: 6 capítulos publicados de 12 · 34 fichas verificadas · última medición 3 de noviembre de 2026_
+_Estado: 7 capítulos publicados de 12 · 40 fichas verificadas · última medición 3 de noviembre de 2026_
 
 Cada ficha tiene tres capas: **Manos** (los pasos, para quien empieza), **Cabeza** (cómo funciona y
 dónde se rompe) y **Oficio** (un dato que casi nadie sabe y que se puede comprobar). Sin la tercera,
@@ -18,7 +18,7 @@ la aplicación no entra.
 | 4 | Instalar fuera de la tienda | publicado | 6 |
 | 5 | Privacidad que se puede comprobar | publicado | 6 |
 | 6 | Tu música y tus libros, tuyos | publicado | 6 |
-| 7 | Archivos, copias y nubes propias | en preparación | 0 |
+| 7 | Archivos, copias y nubes propias | publicado | 6 |
 | 8 | La red | en preparación | 0 |
 | 9 | El televisor y la casa | en preparación | 0 |
 | 10 | El taller | en preparación | 0 |
@@ -63,6 +63,12 @@ la aplicación no entra.
 | [KOReader](https://github.com/koreader/koreader) | experto | **53** | AGPL-3.0 | KOReader y su comunidad de voluntarios | 3 de noviembre de 2026 |
 | [Navidrome](https://github.com/navidrome/navidrome) | experto | **51** | GPL-3.0 | Navidrome y su comunidad | 3 de noviembre de 2026 |
 | [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | experto | **49** | GPL-3.0 | advplyr y colaboradores | 3 de noviembre de 2026 |
+| [LocalSend](https://github.com/localsend/localsend) | principiante | **50** | Apache-2.0 | LocalSend y sus colaboradores | 3 de noviembre de 2026 |
+| [Syncthing (bifurcación)](https://github.com/researchxxl/syncthing-android) | intermedio | **61** | MPL-2.0 | researchxxl y la comunidad de Syncthing | 3 de noviembre de 2026 |
+| [Immich](https://github.com/immich-app/immich) | intermedio | **64** | AGPL-3.0 | Immich y su comunidad | 3 de noviembre de 2026 |
+| [Nextcloud](https://github.com/nextcloud/server) | experto | **59** | AGPL-3.0 | Nextcloud y su comunidad | 3 de noviembre de 2026 |
+| [restic](https://github.com/restic/restic) | experto | **60** | BSD-2-Clause | restic y sus colaboradores | 3 de noviembre de 2026 |
+| [rclone](https://github.com/rclone/rclone) | experto | **74** | MIT | Nick Craig-Wood y colaboradores de rclone | 3 de noviembre de 2026 |
 
 ## Cómo se mide la nota
 

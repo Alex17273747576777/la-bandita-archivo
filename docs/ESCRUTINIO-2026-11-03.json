@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-03",
- "medido_en": "2026-11-03T21:08:53+00:00",
+ "medido_en": "2026-11-03T21:19:56+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 371,
+ "medidos": 376,
  "fichas": [
   {
    "repo": "MMFoundation/WallpaperMachine",
@@ -1856,6 +1856,41 @@
     "437 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 520/605 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "rclone/rclone",
+   "puntos": 74,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "build.yml",
+    "build_publish_docker_image.yml",
+    "build_publish_docker_plugin.yml",
+    "notify.yml",
+    "winget.yml"
+   ],
+   "adjuntos": 510,
+   "con_huella": 10,
+   "ultima_entrega": "2026-10-09",
+   "commits_30d": 252,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 946,
+    "cerradas": 5370
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 4615,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 5 flujo(s) +10",
+    "adjunto con huella (SHA256SUMS) +10",
+    "entrega en los últimos 30 días +10",
+    "252 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 5370/6316 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4714,11 +4749,11 @@
    "adjuntos": 100,
    "con_huella": 0,
    "ultima_entrega": "2026-10-30",
-   "commits_30d": 268,
+   "commits_30d": 274,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 503,
-    "cerradas": 9184
+    "cerradas": 9185
    },
    "security_md": false,
    "scorecard": null,
@@ -4729,9 +4764,9 @@
     "integración continua con 27 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "268 cambios en 30 días +10",
+    "274 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 9184/9687 +9",
+    "incidencias cerradas 9185/9688 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5651,6 +5686,41 @@
    ]
   },
   {
+   "repo": "Catfriend1/syncthing-android",
+   "puntos": 61,
+   "licencia": "MPL-2.0",
+   "flujos_ci": [
+    "build-app.yaml",
+    "common-build.yaml",
+    "common-sign.yaml",
+    "copilot-setup-steps.yml",
+    "lock-threads.yml"
+   ],
+   "adjuntos": 60,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-21",
+   "commits_30d": 22,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 9,
+    "cerradas": 141
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 370,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MPL-2.0) +15",
+    "integración continua con 9 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "22 cambios en 30 días +7",
+    "100 personas empujando +10",
+    "incidencias cerradas 141/150 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "wxxsfxyzm/InstallerX-Revived",
    "puntos": 61,
    "licencia": "GPL-3.0",
@@ -6030,6 +6100,40 @@
    ]
   },
   {
+   "repo": "restic/restic",
+   "puntos": 60,
+   "licencia": "BSD-2-Clause",
+   "flujos_ci": [
+    "codespell.yml",
+    "docker.yml",
+    "size-label.yml",
+    "tests.yml"
+   ],
+   "adjuntos": 284,
+   "con_huella": 30,
+   "ultima_entrega": "2026-07-05",
+   "commits_30d": 15,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 493,
+    "cerradas": 2558
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 4573,
+   "archivado": false,
+   "notas": [
+    "licencia legible (BSD-2-Clause) +15",
+    "integración continua con 4 flujo(s) +10",
+    "adjunto con huella (restic-0.19.1.tar.gz.asc) +10",
+    "sin entrega reciente +0",
+    "15 cambios en 30 días +7",
+    "100 personas empujando +10",
+    "incidencias cerradas 2558/3051 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "googleworkspace/cli",
    "puntos": 60,
    "licencia": "Apache-2.0",
@@ -6097,6 +6201,42 @@
     "4932 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 4432/4720 +9",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "nextcloud/server",
+   "puntos": 59,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "ai-policy.yml",
+    "autocheckers.yml",
+    "block-merge-eol.yml",
+    "block-merge-freeze.yml",
+    "block-outdated-3rdparty.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-15",
+   "commits_30d": 748,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 2789,
+    "cerradas": 19044
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 3806,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 53 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "entrega en los últimos 30 días +10",
+    "748 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 19044/21833 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -9088,6 +9228,41 @@
     "100 personas empujando +10",
     "incidencias cerradas 758/783 +10",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "localsend/localsend",
+   "puntos": 50,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "build_android_apk.yml",
+    "build_linux_appimage_arm64.yml",
+    "build_linux_appimage_x64.yml",
+    "build_linux_cli.yml",
+    "build_linux_deb_arm64.yml"
+   ],
+   "adjuntos": 133,
+   "con_huella": 0,
+   "ultima_entrega": "2026-08-21",
+   "commits_30d": 36,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 892,
+    "cerradas": 1027
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1418,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 18 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "36 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 1027/1919 +5",
     "sin Scorecard en deps.dev +0"
    ]
   },

@@ -45,7 +45,7 @@ Cada ficha lleva su autor, su licencia y la fecha en que se midió.</p>
 <tr><td>4</td><td>Instalar fuera de la tienda</td><td>publicado</td><td>6</td></tr>
 <tr><td>5</td><td>Privacidad que se puede comprobar</td><td>publicado</td><td>6</td></tr>
 <tr><td>6</td><td>Tu música y tus libros, tuyos</td><td>publicado</td><td>6</td></tr>
-<tr><td>7</td><td>Archivos, copias y nubes propias</td><td>pendiente</td><td>0</td></tr>
+<tr><td>7</td><td>Archivos, copias y nubes propias</td><td>publicado</td><td>6</td></tr>
 <tr><td>8</td><td>La red</td><td>pendiente</td><td>0</td></tr>
 <tr><td>9</td><td>El televisor y la casa</td><td>pendiente</td><td>0</td></tr>
 <tr><td>10</td><td>El taller</td><td>pendiente</td><td>0</td></tr>
@@ -57,7 +57,8 @@ Cada ficha lleva su autor, su licencia y la fecha en que se midió.</p>
 <li><a href="capitulo-03.html"><strong>3 · El permiso prestado</strong></a> — Conceder, comprobar y revocar el permiso de depuración; usarlo con criterio. (6 fichas)</li>
 <li><a href="capitulo-04.html"><strong>4 · Instalar fuera de la tienda</strong></a> — Paquetes, huellas, formatos partidos y actualizaciones. (6 fichas)</li>
 <li><a href="capitulo-05.html"><strong>5 · Privacidad que se puede comprobar</strong></a> — Permisos, rastreadores, DNS y qué se puede auditar de verdad. (6 fichas)</li>
-<li><a href="capitulo-06.html"><strong>6 · Tu música y tus libros, tuyos</strong></a> — Reproducir y leer sin depender de nadie. (6 fichas)</li></ul>
+<li><a href="capitulo-06.html"><strong>6 · Tu música y tus libros, tuyos</strong></a> — Reproducir y leer sin depender de nadie. (6 fichas)</li>
+<li><a href="capitulo-07.html"><strong>7 · Archivos, copias y nubes propias</strong></a> — Sincronizar y respaldar sin empresa de por medio. (6 fichas)</li></ul>
 <h2>Fichas</h2>
 
 <article class="ficha">
@@ -186,6 +187,51 @@ Cada ficha lleva su autor, su licencia y la fecha en que se midió.</p>
 
   <p class="meta">Programa de samolego · LGPL-3.0 · medido el 3 de noviembre de 2026 · licencia LGPL-3.0
      (<a href="https://github.com/samolego/Canta/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>LocalSend <span class="meta">· localsend/localsend</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>50/100</strong> ·
+    ★97,199 · 1418 días · última entrega 2026-08-21 ·
+    13,199,244 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 1025 abiertas.
+  </p>
+  <p>Pasar archivos y mensajes entre el teléfono, la computadora y la tableta por la red de la casa, sin cuenta, sin servidor y sin que nada salga a internet.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien manda fotos y documentos a sus propios aparatos y está cansado de pasar por un servicio de mensajería que las recompone y las reduce.
+     <br><strong>Para quién no es:</strong> para quien quiere que dos aparatos se mantengan iguales solos: eso es sincronizar y está en la ficha siguiente.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá la aplicación en los dos aparatos desde su repositorio o su tienda, y comprobá antes la descarga si la bajaste de GitHub.</li>
+<li>Conectá los dos aparatos a la misma red —el mismo wifi, o el teléfono como punto de acceso para la computadora—.</li>
+<li>Abrí la aplicación en los dos: cada uno aparece con un nombre y un icono; si no se ven, revisá que el wifi no esté aislando a los clientes.</li>
+<li>Elegí un archivo, tocá el aparato de destino y aceptá del otro lado; la transferencia va directa, sin salir de la red.</li>
+<li>Repetí la prueba con el wifi apagado y los datos móviles encendidos: no va a funcionar, y eso es exactamente lo que demuestra que nada salió de tu casa.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> El archivo llega intacto al otro aparato, con su nombre y su tamaño originales, y la transferencia se hizo sin internet y sin intermediarios.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si los aparatos no se ven, casi siempre es la red: muchos routers aíslan a los clientes del wifi, y el punto de acceso del teléfono suele funcionar mejor que la red de un hotel.</li>
+<li>Si la transferencia se corta en archivos grandes, dejá las dos pantallas encendidas y la aplicación abierta: el sistema duerme el wifi cuando la pantalla se apaga.</li>
+<li>Si el archivo llega con otro nombre, mirá el ajuste de nombre duplicado: no se sobrescribe nada, se agrega un sufijo.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No hay nada que deshacer: no modifica archivos, no sincroniza y no deja nada instalado en el sistema. Desinstalarla no afecta a ningún archivo tuyo.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>LocalSend no tiene servidor. Cada aparato es a la vez cliente y servidor: al abrir la aplicación, escucha en un puerto de tu red y se anuncia; los demás aparatos de la red lo ven y le mandan el archivo directamente. Si no hay internet, funciona igual, porque no hay nada que consultar afuera.</p>
+<p>La parte interesante es cómo protege eso. Cada instalación genera su propio certificado y lo presenta a los demás, así que lo que viaja va cifrado y el receptor puede comprobar que quien le manda es el mismo aparato de la vez anterior. De ahí que la primera vez pida confirmar y las siguientes no: está recordando una huella, igual que Android recuerda la firma de una aplicación.</p>
+<p>Sus cifras explican por qué es la puerta de entrada de este capítulo: noventa y siete mil ciento noventa y nueve estrellas y <strong>trece millones ciento noventa y nueve mil doscientas cuarenta y cuatro descargas</strong> en sus diez últimas entregas. Es, con diferencia, el programa más bajado de toda la guía, y su trabajo es el más simple de todos: mover un archivo de un cuarto a otro.</p>
+    <p><strong>Límites:</strong></p><ul><li>Sólo funciona en la misma red: entre tu casa y la de un familiar necesita otra cosa.</li>
+<li>No sincroniza ni respalda: mueve un archivo cuando se lo pedís, y ahí termina su trabajo.</li>
+<li>En redes de hoteles, universidades y oficinas suele no funcionar, porque aíslan a los aparatos entre sí.</li>
+<li>Con la pantalla apagada, el sistema puede dormir la conexión y cortar una transferencia grande.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La aplicación escucha en un puerto concreto y habla cifrado con un certificado que ella misma generó. Eso se puede mirar sin instalar nada más: desde otra máquina de la red, una orden muestra el certificado que presenta el teléfono, con su fecha de creación y su huella. Es la misma comprobación del capítulo 4 —la huella dice quién es— aplicada a dos aparatos que se hablan por wifi. Y explica un comportamiento que desconcierta: si reinstalás la aplicación, o cambiás de teléfono, el certificado es nuevo y los demás aparatos te piden confirmar otra vez, porque la huella cambió. No es un fallo de seguridad: es la seguridad funcionando en voz alta.</p>
+    <p><strong>Cómo se comprueba:</strong> Con la aplicación abierta en el teléfono, pedile a otra máquina de la red que se conecte a su puerto y muestre el certificado. Vas a ver a quién está emitido, cuándo se creó y con qué huella. Después reinstalá la aplicación y repetí: la huella es otra.</p>
+    <pre><code>openssl s_client -connect 192.168.1.23:53317 &lt;/dev/null 2&gt;/dev/null | openssl x509 -noout -subject -dates -fingerprint -sha256</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Usar una red pública de wifi para transferir algo privado: aunque va cifrado, los aparatos de la red se ven entre sí y el nombre del archivo puede quedar a la vista de quien esté escuchando.</li>
+<li>Confundir esta herramienta con una copia de seguridad: no guarda versiones de nada.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/Catfriend1/syncthing-android">Catfriend1/syncthing-android</a>, <a href="https://github.com/KDE/kdeconnect-android">KDE/kdeconnect-android</a></p></div>
+
+  <p class="meta">Programa de LocalSend y sus colaboradores · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/localsend/localsend/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
 </article>
 
 <article class="ficha">
@@ -588,6 +634,51 @@ curl -s &quot;https://gitlab.com/api/v4/projects/fdroid%2Ffdroidclient/repositor
 </article>
 
 <article class="ficha">
+  <h3>Syncthing (bifurcación) <span class="meta">· researchxxl/syncthing-android</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>61/100</strong> ·
+    ★3,244 · 370 días · última entrega 2026-10-21 ·
+    1,202,884 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 12 abiertas.
+  </p>
+  <p>Mantener las mismas carpetas en el teléfono, la computadora y el servidor de casa, sin nube de por medio y sin que los datos pasen por un servidor ajeno.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiere que la carpeta de documentos sea la misma en todos sus aparatos y entiende que sincronizar propaga también los borrados.
+     <br><strong>Para quién no es:</strong> para quien busca una copia de seguridad con versiones anteriores: esta herramienta sincroniza, y para lo otro está restic, más abajo.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá la aplicación en el teléfono desde su repositorio o desde F-Droid, y—si tenés computadora— el programa base en la computadora desde su propio repositorio.</li>
+<li>En la computadora, añadí una carpeta para compartir y copiá el identificador de ese aparato, que es una cadena larga de letras.</li>
+<li>En el teléfono, añadí ese identificador como aparato remoto: las dos partes se muestran la una a la otra y hay que aceptar en las dos.</li>
+<li>Compartí la carpeta desde la computadora y aceptala en el teléfono; comprobá que un archivo nuevo aparece en los dos en segundos.</li>
+<li>Borrá ese archivo de prueba en un aparato y mirá cómo desaparece en el otro: esa es la lección de la diferencia entre sincronizar y respaldar, y conviene verla una vez.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Las carpetas compartidas coinciden en todos los aparatos, los cambios aparecen en segundos y todo el tráfico va cifrado entre tus aparatos, sin servidor de por medio.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si los aparatos no se encuentran, copiá la dirección del aparato remoto a mano en lugar de esperar el descubrimiento automático; en redes con aislamiento de clientes, esa es la única vía.</li>
+<li>Si aparece un archivo con la palabra <code>sync-conflict</code> en el nombre, hubo dos versiones del mismo archivo: ninguna se perdió, pero hay que elegir cuál vale.</li>
+<li>Si la sincronización se detiene al apagar la pantalla, quitale al teléfono la optimización de batería para esta aplicación y dejá la sincronización sólo por wifi si estás con datos limitados.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Quitar una carpeta del programa no borra los archivos: se deja de sincronizar y queda lo que había. Ojo con la opción de borrado en el otro extremo: si se activa y se quita un aparato, lo que se borre de un lado puede borrarse del otro.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Syncthing no tiene servidor central: cada aparato guarda su propia copia y se pone de acuerdo con los demás sobre qué archivos tiene cada uno. Los datos viajan cifrados entre aparatos, y si dos nunca coinciden en línea, el archivo simplemente espera. Eso es lo que lo vuelve una alternativa real a una nube: no hay empresa en el medio, sólo tus aparatos hablándose.</p>
+<p>Su diseño asume que el desacuerdo existe. Cuando dos aparatos cambian el mismo archivo sin verse, ninguno pisa al otro: aparecen dos archivos, y al que perdió se le agrega <code>sync-conflict</code> con la fecha, la hora y el nombre del aparato en el nombre. Es un caos aparente que en realidad es respeto por los datos: nadie decide por vos cuál versión borrar.</p>
+<p>Y acá está la lección de ecosistema de este capítulo, que vale como lección general: <strong>la aplicación oficial para Android está archivada desde el 3 de diciembre de 2024</strong>, y quien la continúa es una bifurcación de la comunidad. Peor: la dirección que medio internet sigue recomendando —la del autor original de la bifurcación— ya no es una casa, es una redirección a otro repositorio. Instalar «lo que dicen los tutoriales» hoy puede terminar en una página archivada de hace dos años.</p>
+    <p><strong>Límites:</strong></p><ul><li>Sincroniza, no respalda: un borrado se propaga a todos los aparatos en segundos.</li>
+<li>La aplicación oficial para Android está archivada desde diciembre de 2024; hay que usar la bifurcación mantenida, y la dirección recomendada redirige.</li>
+<li>Consume batería y datos si se deja sincronizando en segundo plano sin límites.</li>
+<li>La primera configuración no es amable: identificadores largos, aceptación en dos sentidos y permisos de carpeta.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Cuando dos aparatos editan el mismo archivo sin haberse visto, Syncthing no elige: guarda las dos versiones y marca la que llegó después con <code>sync-conflict</code>, la fecha, la hora y el nombre del aparato que la produjo. Eso significa que en una carpeta sincronizada los conflictos se pueden contar, y contar conflictos es la mejor forma de saber si tu configuración funciona. Una carpeta con treinta archivos de conflicto en un mes no está sincronizando bien: está peleando consigo misma, casi siempre porque dos aparatos mantienen el mismo archivo abierto o porque una aplicación reescribe su base de datos cada rato. Y hay una regla que se aprende mirando esos nombres: las bases de datos de aplicaciones y los archivos que se reescriben enteros no se sincronizan, se respaldan.</p>
+    <p><strong>Cómo se comprueba:</strong> Buscá en la carpeta sincronizada los archivos cuyo nombre contiene la marca de conflicto y contalos. Después mirá la fecha y el nombre del aparato en cada uno: eso te dice qué aparato ganó cada pelea y cada cuánto pelean.</p>
+    <pre><code>find ~/Documentos -name &quot;*sync-conflict*&quot; -printf &quot;%TY-%Tm-%Td %p\n&quot; | sort | tail -20</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Instalar la aplicación oficial archivada, o una dirección que ya redirige, y quedarse con una versión sin mantenimiento.</li>
+<li>Sincronizar la carpeta donde una aplicación guarda su base de datos: se corrompe con conflictos que nadie mira.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/localsend/localsend">localsend/localsend</a>, <a href="https://github.com/nextcloud/server">nextcloud/server</a></p></div>
+
+  <p class="meta">Bifurcación de researchxxl sobre el trabajo de la comunidad Syncthing · MPL-2.0 · medido el 3 de noviembre de 2026 · licencia MPL-2.0
+     (<a href="https://github.com/researchxxl/syncthing-android/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
   <h3>Accrescent <span class="meta">· accrescent/accrescent</span></h3>
   <p class="meta">
     <span class="sello n1">intermedio</span>
@@ -672,6 +763,51 @@ curl -s &quot;https://gitlab.com/api/v4/projects/fdroid%2Ffdroidclient/repositor
 
   <p class="meta">Programa de XayahSuSuSu · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
      (<a href="https://github.com/XayahSuSuSu/Android-DataBackup/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Immich <span class="meta">· immich-app/immich</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>64/100</strong> ·
+    ★118,104 · 1734 días · última entrega 2026-10-30 ·
+    446,840 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 718 abiertas.
+  </p>
+  <p>Tener las fotos y los vídeos del teléfono en un servidor propio, con respaldo automático, búsqueda por persona y lugar, y sin subirlos a ninguna nube ajena.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tiene miles de fotos en el teléfono y quiere el álbum de recuerdos de una nube comercial, pero con los archivos y las caras en su casa.
+     <br><strong>Para quién no es:</strong> para quien quiere una copia de seguridad y nada más: Immich es la biblioteca, y su propia documentación avisa que hay que respaldar aparte.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Prepará un equipo que pueda quedar encendido y con espacio suficiente: la biblioteca de fotos crece más rápido de lo que parece.</li>
+<li>Levantá el servidor siguiendo la guía oficial —la forma más simple es con contenedores— y anotá dónde vive la carpeta donde se guardan las fotos.</li>
+<li>Instalá la aplicación en el teléfono, conectala a la dirección del servidor y creá tu usuario: no hay cuenta en internet, el usuario existe sólo en tu equipo.</li>
+<li>Activá el respaldo automático y elegí qué carpetas suben; dejá que la primera subida termine con el teléfono enchufado.</li>
+<li>Comprobá lo que no se puede improvisar: borrá una foto del teléfono y mirá que sigue en el servidor, porque el servidor es la biblioteca y el teléfono sólo la alimenta.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Las fotos del teléfono están en tu servidor, agrupadas por fecha, buscables por persona y por lugar, y siguen ahí aunque el teléfono se pierda.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el respaldo no avanza, revisá que la aplicación tenga permiso de trabajar en segundo plano y que el teléfono no esté en ahorro de batería extremo.</li>
+<li>Si te quedás sin espacio, mirá primero las copias duplicadas: la biblioteca reconoce archivos idénticos y no los guarda dos veces.</li>
+<li>Y si el servidor se rompe: sin respaldo, la biblioteca se pierde con él. Su documentación lo dice con todas las letras, y esta ficha también.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Borrar el servidor borra la biblioteca: los archivos viven en la carpeta del servidor, no en el teléfono. Antes de cualquier cambio grande, copiá esa carpeta completa a otro disco y comprobá que se puede abrir sin el servidor.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Immich hace en tu casa lo que hace un servicio comercial de fotos: sube automáticamente, ordena por fecha y lugar, reconoce caras y permite buscar «playa 2023» o el nombre de una persona. La diferencia es dónde ocurre: el reconocimiento corre en tu equipo, las fotos quedan en tu disco y la cuenta existe sólo en tu servidor.</p>
+<p>Su forma de guardar es la que hay que entender antes de confiarle nada: los archivos se copian a una carpeta con nombres generados —no conserva el nombre original— y toda la información de álbumes, personas y fechas vive en una base de datos aparte. Eso significa dos cosas: que la carpeta de fotos, sola, no reconstruye los álbumes; y que el respaldo serio tiene que llevarse <strong>la carpeta y la base de datos juntas</strong>.</p>
+<p>Con ciento dieciocho mil ciento cuatro estrellas es el proyecto más popular de la guía, superando a LocalSend y a Syncthing. Y es el único cuya propia presentación abre con una advertencia: seguir el plan de tres copias, dos medios y una fuera para las fotos que importan. Un proyecto de este tamaño avisando que no es un respaldo es la lección más honesta del capítulo.</p>
+    <p><strong>Límites:</strong></p><ul><li>No es un respaldo: su propia documentación pide seguir el plan de tres copias aparte.</li>
+<li>Guarda los archivos con nombres generados y con la información en una base de datos: hay que respaldar las dos cosas.</li>
+<li>Pide un equipo encendido y cada vez más espacio; el reconocimiento de caras consume recursos.</li>
+<li>Su versión de referencia mide trescientos trece megas de repositorio y está en movimiento constante: conviene leer las notas de cada entrega antes de actualizar.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La biblioteca reconoce un archivo repetido por su contenido, no por su nombre: si subís dos veces la misma foto con nombres distintos, ocupa espacio una sola vez. Eso se ve mejor de lo que se explica, y hay una prueba de dos minutos: duplicá una foto con otro nombre, subila y mirá el recuento antes y después. El número sube uno, no dos. La contracara es la que hay que tener presente antes de borrar nada desde el servidor: si borrás el original y el duplicado era el mismo archivo, no hay segunda copia. La deduplicación ahorra espacio; no es un respaldo, y confundirlas es cómo se pierden álbumes enteros.</p>
+    <p><strong>Cómo se comprueba:</strong> Elegí una foto, copiala con otro nombre y subila. Compará el recuento de la biblioteca antes y después, y después pedile al sistema la suma de los dos archivos: si coinciden, la biblioteca guardó uno solo.</p>
+    <pre><code>sha256sum foto.jpg copia-de-foto.jpg</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Tratarlo como respaldo y quedarse sin copia cuando el disco del servidor falle.</li>
+<li>Respadar sólo la carpeta de fotos y perder la base de datos con los álbumes y las personas.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/nextcloud/server">nextcloud/server</a>, <a href="https://github.com/ente-io/ente">ente-io/ente</a></p></div>
+
+  <p class="meta">Programa de Immich y su comunidad · AGPL-3.0 · medido el 3 de noviembre de 2026 · licencia AGPL-3.0
+     (<a href="https://github.com/immich-app/immich/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
 </article>
 
 <article class="ficha">
@@ -933,6 +1069,51 @@ curl -s &quot;https://gitlab.com/api/v4/projects/fdroid%2Ffdroidclient/repositor
 
   <p class="meta">Programa de KOReader y su comunidad de voluntarios · AGPL-3.0 · medido el 3 de noviembre de 2026 · licencia AGPL-3.0
      (<a href="https://github.com/koreader/koreader/blob/master/COPYING">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Nextcloud <span class="meta">· nextcloud/server</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>59/100</strong> ·
+    ★37,405 · 3806 días · última entrega 2026-10-15 ·
+    0 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 3905 abiertas.
+  </p>
+  <p>Tener una nube completa en casa: archivos con historial de versiones, calendario, contactos, notas y tareas, compartibles y accesibles desde el teléfono.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiere reemplazar de una vez la nube comercial que usa toda la familia, con cuentas separadas y con aplicaciones para cada cosa.
+     <br><strong>Para quién no es:</strong> para quien sólo quiere pasar fotos entre aparatos o sincronizar una carpeta: hay herramientas más chicas y mucho más fáciles, y están arriba.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Buscá un equipo que pueda quedar encendido y tenga disco de sobra: la nube crece, y con versiones de archivo crece más rápido.</li>
+<li>Instalalo por el método que documenta el proyecto para tu sistema, y durante la instalación creá la cuenta de administración con una contraseña larga.</li>
+<li>Entrá por el navegador, creá un usuario para cada persona de la casa y comprobá que cada uno ve sólo sus archivos.</li>
+<li>Copiá una carpeta de prueba a mano en el disco del servidor y comprobá que no aparece en la nube hasta que la escaneás: ese es el dato de oficio de esta ficha.</li>
+<li>Instalá la aplicación en el teléfono, activá la subida automática de la cámara y comprobá que las versiones anteriores de un documento se pueden recuperar.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Cada persona de la casa tiene su espacio, los archivos se sincronizan con el teléfono y la computadora, y un archivo sobrescrito por error se puede recuperar de su historial de versiones.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si un archivo copiado a mano no aparece, hay que escanear la carpeta: la nube no vigila el disco, tiene su propio índice.</li>
+<li>Si el servidor va lento o da errores raros, mirá el registro y el estado del sistema en el panel de administración antes de tocar nada.</li>
+<li>Si actualizás y algo se rompe, el proyecto publica notas de versión con los cambios que rompen: leerlas antes de actualizar es la diferencia entre una tarde y un fin de semana.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Borrar el servidor borra la nube entera: archivos, calendarios, contactos y versiones. La carpeta de datos del servidor se copia a otro disco y se comprueba antes de cualquier cambio grande, y los archivos también se pueden descargar por la aplicación de escritorio.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Nextcloud no es una aplicación: es una plataforma. El servidor guarda archivos y, encima, corre aplicaciones —calendario, contactos, notas, tareas, charla, edición de documentos— que se instalan desde su propia tienda. Eso es lo que le permite reemplazar de una vez a varios servicios comerciales y lo que lo vuelve el proyecto más pesado de esta guía: siete gigas y medio de repositorio y casi cuatro mil incidencias abiertas.</p>
+<p>Su rasgo más valioso en el uso diario es el <strong>historial de versiones</strong>: cuando un archivo se sobrescribe, las versiones anteriores quedan guardadas y se pueden recuperar desde la interfaz. Eso no es un respaldo —vive en el mismo servidor— pero resuelve el error humano más frecuente, que no es perder el disco sino guardar encima de lo que estaba bien.</p>
+<p>Y su punto débil es el de toda plataforma: hay que mantenerla. Actualizaciones periódicas, copias de la base de datos, espacio que se llena, cuentas que se multiplican. Es la ficha de este capítulo que de verdad pide un administrador, y por eso va marcada como experta aunque su interfaz sea sencilla.</p>
+    <p><strong>Límites:</strong></p><ul><li>Pide mantenimiento continuo: actualizaciones, copias de la base de datos y espacio creciente.</li>
+<li>Es pesado: siete gigas y medio de repositorio y una cola de incidencias enorme, porque es una plataforma con muchas aplicaciones encima.</li>
+<li>El historial de versiones vive en el mismo servidor: no sustituye a un respaldo externo.</li>
+<li>Abrirlo a internet conlleva decisiones de seguridad serias que este capítulo sólo nombra.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Nextcloud no mira el disco: mira su propia base de datos. Si copiás una carpeta a mano en la carpeta de datos del servidor, la nube no la va a mostrar, aunque ocupe espacio y esté perfectamente ahí. Para que aparezca hay que pedirle al servidor que escanee los archivos, con su herramienta de administración por consola. Ese detalle explica dos cosas que la gente vive como misterios: por qué un archivo copiado «desapareció» —nunca apareció— y por qué el servidor puede tardar minutos en ponerse al día después de una restauración grande. Copiar archivos no es lo mismo que registrarlos, y saberlo ahorra una tarde de pánico.</p>
+    <p><strong>Cómo se comprueba:</strong> Copiá un archivo cualquiera a la carpeta de datos, entrá por el navegador y comprobá que no está. Después corré el escaneo de esa cuenta y mirá cómo aparece, con su tamaño y su fecha, sin haber movido nada más.</p>
+    <pre><code>sudo -u www-data php occ files:scan --all -v</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Abrir el servidor a internet con una contraseña débil o sin actualizar, y exponer todos los archivos de la familia.</li>
+<li>Creer que el historial de versiones es un respaldo: vive en el mismo disco que el resto.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/immich-app/immich">immich-app/immich</a>, <a href="https://github.com/haiwen/seafile">haiwen/seafile</a></p></div>
+
+  <p class="meta">Programa de Nextcloud y su comunidad · AGPL-3.0 · medido el 3 de noviembre de 2026 (sin adjuntos en GitHub: se distribuye como servidor) · licencia AGPL-3.0
+     (<a href="https://github.com/nextcloud/server/blob/master/COPYING">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
 </article>
 
 <article class="ficha">
@@ -1329,6 +1510,52 @@ curl -s &quot;https://gitlab.com/api/v4/projects/fdroid%2Ffdroidclient/repositor
 </article>
 
 <article class="ficha">
+  <h3>restic <span class="meta">· restic/restic</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>60/100</strong> ·
+    ★36,981 · 4573 días · última entrega 2026-07-05 ·
+    24,376,147 descargas en 10 entregas · 100 personas ·
+    4 flujos de compilación · incidencias 657 abiertas.
+  </p>
+  <p>Hacer copias cifradas que guardan versiones anteriores, que se pueden verificar contra la corrupción y que se restauran enteras o por un solo archivo.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien ya tiene los archivos donde quiere y ahora necesita la copia que sobrevive a un disco roto, a un robo y a un borrado propio dentro de un año.
+     <br><strong>Para quién no es:</strong> para quien quiere una interfaz con botones: se maneja por consola y esa es parte de su garantía.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalalo en la computadora o el servidor desde su entrega, eligiendo el archivo de tu sistema; cada entrega incluye su firma separada para comprobar la descarga.</li>
+<li>Inicializá el repositorio en el disco externo, con una contraseña larga que guardes en dos lugares físicos distintos.</li>
+<li>Lanzá la primera copia indicando las carpetas del mapa que hiciste al principio del capítulo, y dejá que termine.</li>
+<li>Enumerá las copias guardadas y comprobá que la primera aparece con su fecha y su cantidad de archivos.</li>
+<li>Restaurá un solo archivo a una carpeta temporal y abrilo: esa es la prueba que separa un respaldo de una intención.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Existe una copia cifrada con fecha, se puede enumerar y se puede restaurar un archivo suelto sin tocar el resto, y la verificación no encuentra daños.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si perdés la contraseña, los datos son irrecuperables: no hay puerta trasera, ni la del autor del programa.</li>
+<li>Si la verificación encuentra daños, no borres nada: restaurá primero lo que puedas y guardá el repositorio como está, porque las piezas sanas siguen sirviendo.</li>
+<li>Si la copia tarda demasiado la primera vez, es lo normal: después sólo se guarda lo que cambió, y una copia diaria pasa a durar segundos.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Nada de lo que hace toca tus archivos originales: sólo lee. Un repositorio se puede borrar entero sin consecuencias para los datos, y una copia concreta se puede eliminar sin afectar a las otras.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>restic no guarda copias completas: guarda piezas. Cuando copia un archivo, lo parte en trozos, y cada trozo se guarda una sola vez; si dentro de un mes cambia una página de un documento de cien, sólo se guarda el trozo que cambió. Por eso hacer diez copias de una carpeta de fotos ocupa poco más que una, y por eso el respaldo se vuelve algo que se puede hacer todos los días sin pensarlo.</p>
+<p>Todo va cifrado y autenticado, y el repositorio no revela qué contiene: para quien mire el disco, hay una maraña de archivos con nombres generados. Esa es la razón por la que se puede dejar un repositorio de restic en un disco que viaja, en un servidor de un amigo o en una nube ajena sin que el contenido quede expuesto.</p>
+<p>Y su función más valiosa es la que casi nadie usa: la verificación, que tiene dos niveles y hay que saber cuál se está corriendo. Pero eso se explica en el dato de oficio, porque es la diferencia entre una copia que existe y una copia que sirve.</p>
+    <p><strong>Límites:</strong></p><ul><li>Se maneja por consola: sin interfaz, sin botones y con mensajes en inglés.</li>
+<li>Si se pierde la contraseña, no hay recuperación posible, ni pagando.</li>
+<li>No sirve para sincronizar carpetas ni para acceder a los archivos del día a día: es un respaldo.</li>
+<li>La deduplicación ahorra espacio, pero un repositorio grande necesita su propio mantenimiento periódico.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>restic tiene dos verificaciones y no son la misma. La primera, sin opciones, revisa la estructura del repositorio: que las piezas estén y que el índice cuadre. La segunda, con la opción de leer datos, <strong>abre y descifra el contenido</strong> y comprueba que las piezas guardadas coinciden con su suma. La diferencia es la que separa una copia que existe de una copia que sirve: un disco que se degrada puede tener todas las piezas en su sitio y una de ellas llena de basura, y sólo la segunda verificación lo detecta. Leer todo tarda, y por eso existe la variante que revisa un porcentaje al azar cada vez, de modo que en un mes se haya revisado todo sin leerlo de golpe. La regla práctica: estructura todas las semanas, contenido en tandas, y una restauración de prueba de vez en cuando.</p>
+    <p><strong>Cómo se comprueba:</strong> Corré las dos verificaciones sobre el mismo repositorio y compará cuánto tardan y qué dicen. Después restaurá un archivo suelto a una carpeta temporal y abrilo: si abre, la cadena completa funciona.</p>
+    <pre><code>restic check
+restic check --read-data-subset=5%</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Guardar la contraseña sólo en la cabeza o en el mismo disco que el repositorio.</li>
+<li>Verificar la estructura y creer que se verificaron los datos: son dos comprobaciones distintas.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/kopia/kopia">kopia/kopia</a>, <a href="https://github.com/rclone/rclone">rclone/rclone</a></p></div>
+
+  <p class="meta">Programa de restic y sus colaboradores · BSD-2-Clause · medido el 3 de noviembre de 2026 · licencia BSD-2-Clause
+     (<a href="https://github.com/restic/restic/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
   <h3>Seedvault <span class="meta">· seedvault-app/seedvault</span></h3>
   <p class="meta">
     <span class="sello n1">intermedio</span>
@@ -1548,6 +1775,51 @@ aapt dump badging copia-de-la-tienda.apk | grep -m1 package:</code></pre></div>
 
   <p class="meta">Programa de Emanuele Faranda · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
      (<a href="https://github.com/emanuele-f/PCAPdroid/blob/master/COPYING">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>rclone <span class="meta">· rclone/rclone</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>74/100</strong> ·
+    ★60,771 · 4615 días · última entrega 2026-10-09 ·
+    1,972,732 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 1276 abiertas.
+  </p>
+  <p>Copiar y sincronizar carpetas entre tu equipo y casi cualquier nube, con una capa de cifrado que deja los archivos ilegibles para el proveedor.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien ya tiene una nube comercial y quiere usarla como destino de copia sin entregarle el contenido, o mover su biblioteca de un servicio a otro sin descargarla a mano.
+     <br><strong>Para quién no es:</strong> para quien no quiere tocar una consola: en Android existe un gestor que usa este motor por dentro, y se nombra en las alternativas.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalalo desde su entrega o desde el gestor de paquetes de tu sistema, y comprobá la descarga contra el archivo de sumas que publica el proyecto.</li>
+<li>Configurá el destino con el asistente, que guarda un nombre de remoto con sus credenciales en un archivo de configuración tuyo.</li>
+<li>Creá encima un remoto cifrado que apunte al anterior, con su contraseña y su sal: esa capa es la que impide que la nube lea nada.</li>
+<li>Copiá una carpeta de prueba al remoto cifrado y comprobá, en la web del proveedor, que los nombres de archivo no significan nada.</li>
+<li>Compará origen y destino con la orden de verificación por sumas, que es la que dice si el contenido llegó igual y no sólo si el archivo existe.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tus carpetas se copian a la nube con nombres y contenido cifrados, y una comparación por sumas confirma que el destino tiene exactamente lo que tiene el origen.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si perdés la contraseña del remoto cifrado, los archivos en la nube son irrecuperables aunque el proveedor te los devuelva todos.</li>
+<li>Si la comparación falla, no borres nada en el destino: revisá primero qué archivos difieren y por qué, antes de volver a copiar.</li>
+<li>Si el proveedor limita la velocidad o el número de peticiones, copiá por tandas y con menos conexiones simultáneas en lugar de insistir.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Nada de lo que hace en el origen cambia: rclone lee y escribe en el destino. Borrar un remoto cifrado deja la copia inútil para siempre, aunque los archivos sigan en la nube.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>rclone se describe como el programa de copia para nubes: entiende más de setenta servicios y los trata a todos como si fueran carpetas. Eso permite lo que ninguna aplicación de nube permite: mover una biblioteca entera de un proveedor a otro, comparar contenidos por sumas y automatizar la copia sin depender de la aplicación de nadie.</p>
+<p>Su capa más útil es la de cifrado. Un remoto cifrado se monta encima de otro y hace tres cosas a la vez: cifra el contenido, cifra los nombres de archivo y oculta el tamaño real. Para el proveedor, tu carpeta de fotos es una lista de nombres aleatorios de tamaños redondeados. Para vos, sigue siendo tu carpeta.</p>
+<p>Y su función menos glamorosa es la que evita desastres: la comparación. Copiar termina cuando el programa dice que terminó; verificar es otra orden, que compara el origen con el destino por contenido. La diferencia entre las dos es la diferencia entre creer y saber, que es el tema de los doce capítulos de esta guía.</p>
+    <p><strong>Límites:</strong></p><ul><li>Se maneja por consola: el asistente de configuración ayuda, pero el uso diario es escribir órdenes.</li>
+<li>Con cifrado, la contraseña y la sal son irrecuperables si se pierden: no hay forma de abrir nada sin ellas.</li>
+<li>Los proveedores cambian sus reglas y a veces sus límites, y las copias empiezan a fallar por razones ajenas al programa.</li>
+<li>En Android no corre como tal: hace falta un gestor que lo use por dentro.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Copiar y verificar son dos operaciones distintas y la segunda es la que importa. La copia termina cuando el programa dice que terminó; la verificación compara el origen y el destino por contenido —suma de cada archivo— y enumera lo que falta, lo que sobra y lo que difiere. En un remoto cifrado la comprobación se hace sobre el contenido ya descifrado, de modo que un archivo que llegó a medias se detecta igual que en un disco local. Y hay una trampa de la que casi nadie habla: algunos proveedores no guardan ni devuelven una suma fiable de sus archivos, y entonces la comprobación se hace bajando y comparando. Saber cuál de las dos está haciendo el programa es saber cuánto vale el resultado.</p>
+    <p><strong>Cómo se comprueba:</strong> Compará una carpeta pequeña con su destino cifrado y leé el resumen: cuántos archivos coinciden, cuántos difieren y cuántos faltan. Después corrompé a propósito un archivo pequeño en el destino y repetí la comparación: tiene que aparecer como distinto.</p>
+    <pre><code>rclone check ~/Documentos nube-cifrada:Documentos --checksum</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Cifrar sin guardar la contraseña y la sal en dos lugares: la nube se queda con datos que nadie puede abrir.</li>
+<li>Confundir la copia terminada con la copia verificada: son dos órdenes y la segunda es la que responde.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/restic/restic">restic/restic</a>, <a href="https://github.com/newhinton/Round-Sync">newhinton/Round-Sync</a></p></div>
+
+  <p class="meta">Programa de Nick Craig-Wood y colaboradores · MIT · medido el 3 de noviembre de 2026 · licencia MIT
+     (<a href="https://github.com/rclone/rclone/blob/master/COPYING">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
 </article>
 <footer>
 <p>Texto: CC BY-SA 4.0 · datos: CC BY 4.0 · titular: La Bandita.

@@ -1,0 +1,75 @@
+{
+ "id": "restic",
+ "nombre": "restic",
+ "repo": "restic/restic",
+ "autores": [
+  {
+   "nombre": "restic y sus colaboradores",
+   "enlace": "https://restic.net"
+  }
+ ],
+ "licencia": {
+  "spdx": "BSD-2-Clause",
+  "archivo": "https://github.com/restic/restic/blob/master/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Hacer copias cifradas que guardan versiones anteriores, que se pueden verificar contra la corrupción y que se restauran enteras o por un solo archivo.",
+ "capitulo": 7,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien ya tiene los archivos donde quiere y ahora necesita la copia que sobrevive a un disco roto, a un robo y a un borrado propio dentro de un año.",
+  "no_es": "para quien quiere una interfaz con botones: se maneja por consola y esa es parte de su garantía."
+ },
+ "manos": [
+  "Instalalo en la computadora o el servidor desde su entrega, eligiendo el archivo de tu sistema; cada entrega incluye su firma separada para comprobar la descarga.",
+  "Inicializá el repositorio en el disco externo, con una contraseña larga que guardes en dos lugares físicos distintos.",
+  "Lanzá la primera copia indicando las carpetas del mapa que hiciste al principio del capítulo, y dejá que termine.",
+  "Enumerá las copias guardadas y comprobá que la primera aparece con su fecha y su cantidad de archivos.",
+  "Restaurá un solo archivo a una carpeta temporal y abrilo: esa es la prueba que separa un respaldo de una intención."
+ ],
+ "resultado_esperado": "Existe una copia cifrada con fecha, se puede enumerar y se puede restaurar un archivo suelto sin tocar el resto, y la verificación no encuentra daños.",
+ "si_sale_mal": [
+  "Si perdés la contraseña, los datos son irrecuperables: no hay puerta trasera, ni la del autor del programa.",
+  "Si la verificación encuentra daños, no borres nada: restaurá primero lo que puedas y guardá el repositorio como está, porque las piezas sanas siguen sirviendo.",
+  "Si la copia tarda demasiado la primera vez, es lo normal: después sólo se guarda lo que cambió, y una copia diaria pasa a durar segundos."
+ ],
+ "deshacer": "Nada de lo que hace toca tus archivos originales: sólo lee. Un repositorio se puede borrar entero sin consecuencias para los datos, y una copia concreta se puede eliminar sin afectar a las otras.",
+ "cabeza": [
+  "restic no guarda copias completas: guarda piezas. Cuando copia un archivo, lo parte en trozos, y cada trozo se guarda una sola vez; si dentro de un mes cambia una página de un documento de cien, sólo se guarda el trozo que cambió. Por eso hacer diez copias de una carpeta de fotos ocupa poco más que una, y por eso el respaldo se vuelve algo que se puede hacer todos los días sin pensarlo.",
+  "Todo va cifrado y autenticado, y el repositorio no revela qué contiene: para quien mire el disco, hay una maraña de archivos con nombres generados. Esa es la razón por la que se puede dejar un repositorio de restic en un disco que viaja, en un servidor de un amigo o en una nube ajena sin que el contenido quede expuesto.",
+  "Y su función más valiosa es la que casi nadie usa: la verificación, que tiene dos niveles y hay que saber cuál se está corriendo. Pero eso se explica en el dato de oficio, porque es la diferencia entre una copia que existe y una copia que sirve."
+ ],
+ "limites": [
+  "Se maneja por consola: sin interfaz, sin botones y con mensajes en inglés.",
+  "Si se pierde la contraseña, no hay recuperación posible, ni pagando.",
+  "No sirve para sincronizar carpetas ni para acceder a los archivos del día a día: es un respaldo.",
+  "La deduplicación ahorra espacio, pero un repositorio grande necesita su propio mantenimiento periódico."
+ ],
+ "oficio": {
+  "dato": "restic tiene dos verificaciones y no son la misma. La primera, sin opciones, revisa la estructura del repositorio: que las piezas estén y que el índice cuadre. La segunda, con la opción de leer datos, **abre y descifra el contenido** y comprueba que las piezas guardadas coinciden con su suma. La diferencia es la que separa una copia que existe de una copia que sirve: un disco que se degrada puede tener todas las piezas en su sitio y una de ellas llena de basura, y sólo la segunda verificación lo detecta. Leer todo tarda, y por eso existe la variante que revisa un porcentaje al azar cada vez, de modo que en un mes se haya revisado todo sin leerlo de golpe. La regla práctica: estructura todas las semanas, contenido en tandas, y una restauración de prueba de vez en cuando.",
+  "como_comprobar": "Corré las dos verificaciones sobre el mismo repositorio y compará cuánto tardan y qué dicen. Después restaurá un archivo suelto a una carpeta temporal y abrilo: si abre, la cadena completa funciona.",
+  "comando": "restic check\nrestic check --read-data-subset=5%"
+ },
+ "riesgos": [
+  "Guardar la contraseña sólo en la cabeza o en el mismo disco que el repositorio.",
+  "Verificar la estructura y creer que se verificaron los datos: son dos comprobaciones distintas."
+ ],
+ "alternativas": [
+  "kopia/kopia",
+  "rclone/rclone"
+ ],
+ "senal": {
+  "estrellas": 36981,
+  "nota": 60,
+  "edad_dias": 4573,
+  "ultima_entrega": "2026-07-05",
+  "descargas_10": 24376147,
+  "contribuyentes": 100,
+  "repo_mb": 66.6,
+  "ci": 4,
+  "incidencias": "657 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de restic y sus colaboradores · BSD-2-Clause · medido el 3 de noviembre de 2026"
+}

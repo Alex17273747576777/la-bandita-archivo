@@ -1,0 +1,75 @@
+{
+ "id": "syncthing-fork",
+ "nombre": "Syncthing (bifurcación)",
+ "repo": "researchxxl/syncthing-android",
+ "autores": [
+  {
+   "nombre": "researchxxl y la comunidad de Syncthing",
+   "enlace": "https://github.com/researchxxl"
+  }
+ ],
+ "licencia": {
+  "spdx": "MPL-2.0",
+  "archivo": "https://github.com/researchxxl/syncthing-android/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Mantener las mismas carpetas en el teléfono, la computadora y el servidor de casa, sin nube de por medio y sin que los datos pasen por un servidor ajeno.",
+ "capitulo": 7,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien quiere que la carpeta de documentos sea la misma en todos sus aparatos y entiende que sincronizar propaga también los borrados.",
+  "no_es": "para quien busca una copia de seguridad con versiones anteriores: esta herramienta sincroniza, y para lo otro está restic, más abajo."
+ },
+ "manos": [
+  "Instalá la aplicación en el teléfono desde su repositorio o desde F-Droid, y—si tenés computadora— el programa base en la computadora desde su propio repositorio.",
+  "En la computadora, añadí una carpeta para compartir y copiá el identificador de ese aparato, que es una cadena larga de letras.",
+  "En el teléfono, añadí ese identificador como aparato remoto: las dos partes se muestran la una a la otra y hay que aceptar en las dos.",
+  "Compartí la carpeta desde la computadora y aceptala en el teléfono; comprobá que un archivo nuevo aparece en los dos en segundos.",
+  "Borrá ese archivo de prueba en un aparato y mirá cómo desaparece en el otro: esa es la lección de la diferencia entre sincronizar y respaldar, y conviene verla una vez."
+ ],
+ "resultado_esperado": "Las carpetas compartidas coinciden en todos los aparatos, los cambios aparecen en segundos y todo el tráfico va cifrado entre tus aparatos, sin servidor de por medio.",
+ "si_sale_mal": [
+  "Si los aparatos no se encuentran, copiá la dirección del aparato remoto a mano en lugar de esperar el descubrimiento automático; en redes con aislamiento de clientes, esa es la única vía.",
+  "Si aparece un archivo con la palabra `sync-conflict` en el nombre, hubo dos versiones del mismo archivo: ninguna se perdió, pero hay que elegir cuál vale.",
+  "Si la sincronización se detiene al apagar la pantalla, quitale al teléfono la optimización de batería para esta aplicación y dejá la sincronización sólo por wifi si estás con datos limitados."
+ ],
+ "deshacer": "Quitar una carpeta del programa no borra los archivos: se deja de sincronizar y queda lo que había. Ojo con la opción de borrado en el otro extremo: si se activa y se quita un aparato, lo que se borre de un lado puede borrarse del otro.",
+ "cabeza": [
+  "Syncthing no tiene servidor central: cada aparato guarda su propia copia y se pone de acuerdo con los demás sobre qué archivos tiene cada uno. Los datos viajan cifrados entre aparatos, y si dos nunca coinciden en línea, el archivo simplemente espera. Eso es lo que lo vuelve una alternativa real a una nube: no hay empresa en el medio, sólo tus aparatos hablándose.",
+  "Su diseño asume que el desacuerdo existe. Cuando dos aparatos cambian el mismo archivo sin verse, ninguno pisa al otro: aparecen dos archivos, y al que perdió se le agrega `sync-conflict` con la fecha, la hora y el nombre del aparato en el nombre. Es un caos aparente que en realidad es respeto por los datos: nadie decide por vos cuál versión borrar.",
+  "Y acá está la lección de ecosistema de este capítulo, que vale como lección general: **la aplicación oficial para Android está archivada desde el 3 de diciembre de 2024**, y quien la continúa es una bifurcación de la comunidad. Peor: la dirección que medio internet sigue recomendando —la del autor original de la bifurcación— ya no es una casa, es una redirección a otro repositorio. Instalar «lo que dicen los tutoriales» hoy puede terminar en una página archivada de hace dos años."
+ ],
+ "limites": [
+  "Sincroniza, no respalda: un borrado se propaga a todos los aparatos en segundos.",
+  "La aplicación oficial para Android está archivada desde diciembre de 2024; hay que usar la bifurcación mantenida, y la dirección recomendada redirige.",
+  "Consume batería y datos si se deja sincronizando en segundo plano sin límites.",
+  "La primera configuración no es amable: identificadores largos, aceptación en dos sentidos y permisos de carpeta."
+ ],
+ "oficio": {
+  "dato": "Cuando dos aparatos editan el mismo archivo sin haberse visto, Syncthing no elige: guarda las dos versiones y marca la que llegó después con `sync-conflict`, la fecha, la hora y el nombre del aparato que la produjo. Eso significa que en una carpeta sincronizada los conflictos se pueden contar, y contar conflictos es la mejor forma de saber si tu configuración funciona. Una carpeta con treinta archivos de conflicto en un mes no está sincronizando bien: está peleando consigo misma, casi siempre porque dos aparatos mantienen el mismo archivo abierto o porque una aplicación reescribe su base de datos cada rato. Y hay una regla que se aprende mirando esos nombres: las bases de datos de aplicaciones y los archivos que se reescriben enteros no se sincronizan, se respaldan.",
+  "como_comprobar": "Buscá en la carpeta sincronizada los archivos cuyo nombre contiene la marca de conflicto y contalos. Después mirá la fecha y el nombre del aparato en cada uno: eso te dice qué aparato ganó cada pelea y cada cuánto pelean.",
+  "comando": "find ~/Documentos -name \"*sync-conflict*\" -printf \"%TY-%Tm-%Td %p\\n\" | sort | tail -20"
+ },
+ "riesgos": [
+  "Instalar la aplicación oficial archivada, o una dirección que ya redirige, y quedarse con una versión sin mantenimiento.",
+  "Sincronizar la carpeta donde una aplicación guarda su base de datos: se corrompe con conflictos que nadie mira."
+ ],
+ "alternativas": [
+  "localsend/localsend",
+  "nextcloud/server"
+ ],
+ "senal": {
+  "estrellas": 3244,
+  "nota": 61,
+  "edad_dias": 370,
+  "ultima_entrega": "2026-10-21",
+  "descargas_10": 1202884,
+  "contribuyentes": 100,
+  "repo_mb": 32.9,
+  "ci": 5,
+  "incidencias": "12 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Bifurcación de researchxxl sobre el trabajo de la comunidad Syncthing · MPL-2.0 · medido el 3 de noviembre de 2026"
+}

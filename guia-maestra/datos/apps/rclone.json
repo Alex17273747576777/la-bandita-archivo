@@ -1,0 +1,75 @@
+{
+ "id": "rclone",
+ "nombre": "rclone",
+ "repo": "rclone/rclone",
+ "autores": [
+  {
+   "nombre": "Nick Craig-Wood y colaboradores de rclone",
+   "enlace": "https://rclone.org"
+  }
+ ],
+ "licencia": {
+  "spdx": "MIT",
+  "archivo": "https://github.com/rclone/rclone/blob/master/COPYING"
+ },
+ "nivel": "experto",
+ "tarea": "Copiar y sincronizar carpetas entre tu equipo y casi cualquier nube, con una capa de cifrado que deja los archivos ilegibles para el proveedor.",
+ "capitulo": 7,
+ "orden": 6,
+ "para_quien": {
+  "es": "para quien ya tiene una nube comercial y quiere usarla como destino de copia sin entregarle el contenido, o mover su biblioteca de un servicio a otro sin descargarla a mano.",
+  "no_es": "para quien no quiere tocar una consola: en Android existe un gestor que usa este motor por dentro, y se nombra en las alternativas."
+ },
+ "manos": [
+  "Instalalo desde su entrega o desde el gestor de paquetes de tu sistema, y comprobá la descarga contra el archivo de sumas que publica el proyecto.",
+  "Configurá el destino con el asistente, que guarda un nombre de remoto con sus credenciales en un archivo de configuración tuyo.",
+  "Creá encima un remoto cifrado que apunte al anterior, con su contraseña y su sal: esa capa es la que impide que la nube lea nada.",
+  "Copiá una carpeta de prueba al remoto cifrado y comprobá, en la web del proveedor, que los nombres de archivo no significan nada.",
+  "Compará origen y destino con la orden de verificación por sumas, que es la que dice si el contenido llegó igual y no sólo si el archivo existe."
+ ],
+ "resultado_esperado": "Tus carpetas se copian a la nube con nombres y contenido cifrados, y una comparación por sumas confirma que el destino tiene exactamente lo que tiene el origen.",
+ "si_sale_mal": [
+  "Si perdés la contraseña del remoto cifrado, los archivos en la nube son irrecuperables aunque el proveedor te los devuelva todos.",
+  "Si la comparación falla, no borres nada en el destino: revisá primero qué archivos difieren y por qué, antes de volver a copiar.",
+  "Si el proveedor limita la velocidad o el número de peticiones, copiá por tandas y con menos conexiones simultáneas en lugar de insistir."
+ ],
+ "deshacer": "Nada de lo que hace en el origen cambia: rclone lee y escribe en el destino. Borrar un remoto cifrado deja la copia inútil para siempre, aunque los archivos sigan en la nube.",
+ "cabeza": [
+  "rclone se describe como el programa de copia para nubes: entiende más de setenta servicios y los trata a todos como si fueran carpetas. Eso permite lo que ninguna aplicación de nube permite: mover una biblioteca entera de un proveedor a otro, comparar contenidos por sumas y automatizar la copia sin depender de la aplicación de nadie.",
+  "Su capa más útil es la de cifrado. Un remoto cifrado se monta encima de otro y hace tres cosas a la vez: cifra el contenido, cifra los nombres de archivo y oculta el tamaño real. Para el proveedor, tu carpeta de fotos es una lista de nombres aleatorios de tamaños redondeados. Para vos, sigue siendo tu carpeta.",
+  "Y su función menos glamorosa es la que evita desastres: la comparación. Copiar termina cuando el programa dice que terminó; verificar es otra orden, que compara el origen con el destino por contenido. La diferencia entre las dos es la diferencia entre creer y saber, que es el tema de los doce capítulos de esta guía."
+ ],
+ "limites": [
+  "Se maneja por consola: el asistente de configuración ayuda, pero el uso diario es escribir órdenes.",
+  "Con cifrado, la contraseña y la sal son irrecuperables si se pierden: no hay forma de abrir nada sin ellas.",
+  "Los proveedores cambian sus reglas y a veces sus límites, y las copias empiezan a fallar por razones ajenas al programa.",
+  "En Android no corre como tal: hace falta un gestor que lo use por dentro."
+ ],
+ "oficio": {
+  "dato": "Copiar y verificar son dos operaciones distintas y la segunda es la que importa. La copia termina cuando el programa dice que terminó; la verificación compara el origen y el destino por contenido —suma de cada archivo— y enumera lo que falta, lo que sobra y lo que difiere. En un remoto cifrado la comprobación se hace sobre el contenido ya descifrado, de modo que un archivo que llegó a medias se detecta igual que en un disco local. Y hay una trampa de la que casi nadie habla: algunos proveedores no guardan ni devuelven una suma fiable de sus archivos, y entonces la comprobación se hace bajando y comparando. Saber cuál de las dos está haciendo el programa es saber cuánto vale el resultado.",
+  "como_comprobar": "Compará una carpeta pequeña con su destino cifrado y leé el resumen: cuántos archivos coinciden, cuántos difieren y cuántos faltan. Después corrompé a propósito un archivo pequeño en el destino y repetí la comparación: tiene que aparecer como distinto.",
+  "comando": "rclone check ~/Documentos nube-cifrada:Documentos --checksum"
+ },
+ "riesgos": [
+  "Cifrar sin guardar la contraseña y la sal en dos lugares: la nube se queda con datos que nadie puede abrir.",
+  "Confundir la copia terminada con la copia verificada: son dos órdenes y la segunda es la que responde."
+ ],
+ "alternativas": [
+  "restic/restic",
+  "newhinton/Round-Sync"
+ ],
+ "senal": {
+  "estrellas": 60771,
+  "nota": 74,
+  "edad_dias": 4615,
+  "ultima_entrega": "2026-10-09",
+  "descargas_10": 1972732,
+  "contribuyentes": 100,
+  "repo_mb": 252.2,
+  "ci": 5,
+  "incidencias": "1276 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Nick Craig-Wood y colaboradores · MIT · medido el 3 de noviembre de 2026"
+}
