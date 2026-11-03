@@ -1,0 +1,75 @@
+{
+ "id": "kodi",
+ "nombre": "Kodi",
+ "repo": "xbmc/xbmc",
+ "autores": [
+  {
+   "nombre": "XBMC Foundation y la comunidad de Kodi",
+   "enlace": "https://kodi.tv"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-2.0-or-later",
+  "archivo": "https://github.com/xbmc/xbmc/blob/master/LICENSE.md"
+ },
+ "nivel": "intermedio",
+ "tarea": "Convertir un televisor o un equipo conectado en un centro de medios que ordena, cataloga y reproduce lo que ya tenés en archivos, con carátulas y con memoria de lo visto.",
+ "capitulo": 9,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien tiene una carpeta grande de películas, series o música y quiere verla en el televisor con carátulas, argumentos y «continuar donde lo dejé».",
+  "no_es": "para quien ve todo por internet o quiere un servidor para varios aparatos: Kodi es un reproductor que puede leer de la red, no un servidor."
+ },
+ "manos": [
+  "Instalalo en el aparato que va a reproducir —televisor con Android, computadora conectada al televisor, o una caja barata dedicada— y comprobá la descarga.",
+  "Añadí la carpeta de tus películas como fuente de vídeo, indicando de qué tipo es el contenido para que sepa qué buscar.",
+  "Dejá que analice la carpeta: va a buscar carátulas, argumentos y reparto por su cuenta; si algún título sale mal, se corrige indicándolo a mano.",
+  "Reproducí veinte minutos de una película, salí y volvé a entrar: tiene que ofrecerte continuar donde ibas.",
+  "Buscá la carpeta donde Kodi guarda su biblioteca —está en su carpeta de datos— y copiala a otro disco: sin ella, tus carátulas y tu historial no viajan con tus archivos."
+ ],
+ "resultado_esperado": "Tus películas y series aparecen con carátula y argumento, se reproducen desde el mando, y la posición de lo que estabas viendo se conserva entre sesiones.",
+ "si_sale_mal": [
+  "Si una película se reproduce con la imagen pero sin sonido, es el formato de audio: Kodi puede pasar el audio sin tocarlo o convertirlo, y conviene probar la otra opción antes de cambiar el archivo.",
+  "Si las carátulas salen mal, el nombre del archivo es la causa: poné el título y el año, y volvé a analizar esa película.",
+  "Si la biblioteca se vacía de golpe, revisá que la carpeta siga montada con la misma ruta: Kodi guarda rutas, y si la carpeta se mueve, para él ya no existe."
+ ],
+ "deshacer": "Desinstalarlo no toca tus archivos de vídeo: sólo se pierde la biblioteca y el historial, que viven en su carpeta de datos. Copiar esa carpeta antes de cualquier cambio es todo el respaldo que hace falta.",
+ "cabeza": [
+  "Kodi nació en 2003 y es el abuelo de este capítulo: veintiún mil cuatrocientas treinta y una estrellas, más de quinientos desarrolladores históricos y setenta idiomas. Funciona en televisores, computadoras, cajas y sistemas pequeños, con la misma lógica: una carpeta entra, una biblioteca sale.",
+  "Lo que hace no es reproducir —eso lo hace cualquier reproductor— sino **catalogar**. Al añadir una carpeta, Kodi busca cada película en bases de datos públicas, trae carátula, argumento, año y reparto, y arma una biblioteca navegable desde un mando. Ese catálogo es el valor, y también el riesgo: vive en una base de datos dentro de su carpeta de datos, no en tus archivos.",
+  "Su licencia se lee en una línea: el archivo de licencia del repositorio declara la licencia pública general de GNU, versión 2 o posterior, con el identificador exacto en la cabecera. Es un buen ejemplo de por qué conviene abrir el archivo en lugar de fiarse de la etiqueta que pone un catálogo: el sistema que lee licencias no la reconoció, y la cabecera del archivo sí lo dice sin ambigüedad."
+ ],
+ "limites": [
+  "Es un reproductor, no un servidor: cada aparato tiene su propia biblioteca salvo que se configure algo aparte.",
+  "La biblioteca vive en una base de datos: si se pierde su carpeta de datos, se pierden carátulas e historial.",
+  "Puede quedarse corto en aparatos con poca memoria; los televisores baratos sufren con las pieles más pesadas.",
+  "Su interfaz tiene años de historia: hay ajustes para todo y el primer recorrido no es intuitivo."
+ ],
+ "oficio": {
+  "dato": "La biblioteca de Kodi no está en tu carpeta de películas: está en una base de datos dentro de su carpeta de datos, y ahí viven las carátulas, el reparto, la posición de lo que estabas viendo y la marca de lo ya visto. Eso explica tres cosas que la gente vive como misterios: por qué al cambiar de aparato hay que volver a analizar todo, por qué al mover la carpeta de películas la biblioteca se vacía, y por qué una copia de tus archivos no conserva tu historial. La contracara es una ventaja si se sabe usar: esa carpeta de datos se puede copiar y llevar a otro aparato, y con ella viaja todo lo que Kodi sabía, sin volver a analizar nada.",
+  "como_comprobar": "Buscá la carpeta de datos de Kodi y listá su contenido. Vas a ver los archivos de su base de datos; su fecha de modificación cambia cada vez que marcas algo como visto o avanzas en una película.",
+  "comando": "find /sdcard/Android/data/org.xbmc.kodi -name '*.db' -printf '%TY-%Tm-%Td %p\\n'"
+ },
+ "riesgos": [
+  "Cambiar de sitio la carpeta de las películas y perder la biblioteca sin entender por qué.",
+  "Instalar complementos de origen desconocido: un complemento corre con los permisos de Kodi, y Kodi corre con los del aparato."
+ ],
+ "alternativas": [
+  "jellyfin/jellyfin",
+  "videolan/vlc-android"
+ ],
+ "senal": {
+  "estrellas": 21431,
+  "nota": 29,
+  "edad_dias": 5783,
+  "ultima_entrega": "2026-09-27",
+  "descargas_10": 0,
+  "contribuyentes": 100,
+  "repo_mb": 1631.8,
+  "ci": 5,
+  "incidencias": "569 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de la XBMC Foundation y su comunidad · GPL-2.0-or-later · medido el 3 de noviembre de 2026"
+}

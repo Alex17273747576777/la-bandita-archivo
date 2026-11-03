@@ -1,0 +1,75 @@
+{
+ "id": "tvslim",
+ "nombre": "TVSlim",
+ "repo": "jolabs40/TVSlim",
+ "autores": [
+  {
+   "nombre": "jolabs40",
+   "enlace": "https://github.com/jolabs40"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/jolabs40/TVSlim/blob/main/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Quitar del televisor la publicidad, la telemetría y las aplicaciones de fábrica que nadie pidió, sin root, sin instalar nada en el televisor y con cada cambio reversible por escrito.",
+ "capitulo": 9,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien compró un televisor con publicidad en la pantalla de inicio y quiere apagarla sin abrir un teclado delante del aparato.",
+  "no_es": "para quien espera un programa que también ordene la biblioteca o instale aplicaciones: esta herramienta hace una sola cosa y la hace reversible."
+ },
+ "manos": [
+  "Mirá el televisor primero: anotá qué aplicaciones aparecen en la pantalla de inicio y cuáles te molestan, porque después de un cambio ya no vas a recordar cómo era.",
+  "Activá las opciones de desarrollador en el televisor y la depuración por red, y anotá la dirección del aparato en la red de casa.",
+  "Instalá la herramienta en la computadora o en el teléfono —nunca en el televisor— y conectala a esa dirección aceptando el aviso del televisor cuando aparezca en pantalla.",
+  "Recorré la lista de paquetes y desactivá primero la telemetría y la publicidad, reiniciá el televisor y comprobá que todo lo que usás sigue funcionando.",
+  "Guardá el registro de cambios que genera la herramienta en un lugar seguro: es la lista de órdenes exactas que devuelve cada paquete a como estaba."
+ ],
+ "resultado_esperado": "La pantalla de inicio deja de mostrar publicidad, las aplicaciones que no usás no vuelven a ejecutarse y cada cambio está anotado con la orden que lo deshace.",
+ "si_sale_mal": [
+  "Si algo deja de funcionar, usá la restauración de la herramienta o la orden del registro para reactivar ese paquete concreto; el aparato no perdió nada.",
+  "Si el televisor no acepta la conexión, revisá que estés en la misma red, que la depuración por red esté activa y que aceptes el aviso que aparece en la pantalla grande.",
+  "Si la pantalla de inicio queda rara después de desactivar algo del lanzador, reactivá ese paquete y dejá el lanzador para el final."
+ ],
+ "deshacer": "La herramienta no desinstala: desactiva, y deja escrito el comando de vuelta para cada paquete en un registro. Con ese registro se recupera todo, y si se pierde, cada paquete se reactiva a mano con la orden correspondiente.",
+ "cabeza": [
+  "TVSlim no instala nada en el televisor. Se ejecuta en la computadora o en el teléfono, se conecta al televisor por la red con la depuración que ya trae Android, y desde ahí envía las mismas órdenes que escribiría alguien con consola. Eso lo vuelve inofensivo para el aparato: si se detiene la conexión, el televisor no queda con nada raro corriendo.",
+  "Su decisión central es la correcta para un televisor: **desactivar, nunca desinstalar**, y escribir cada cambio en un registro con el comando que lo revierte. En un aparato sin teclado y sin forma de conectar un cable de rescate, esa distinción no es un detalle de estilo: es la diferencia entre un experimento y un televisiorio restablecido de fábrica.",
+  "Y su ficha tiene que decir el otro número, porque es el que decide a quién se recomienda: **treinta y cinco estrellas, una sola persona y un proyecto que nació el 13 de septiembre de 2026**, cincuenta y un días antes de esta medición. La técnica es la del capítulo 2 y no depende de esta herramienta; lo que la herramienta aporta es comodidad y registro. Quien prefiera no depender de un proyecto de dos meses puede escribir las mismas órdenes a mano con las del capítulo 2 y llevar su propio registro en un archivo de texto."
+ ],
+ "limites": [
+  "Es un proyecto de dos meses y una sola persona: cómodo hoy, sin garantía de continuidad.",
+  "Necesita la depuración por red activa, que mientras esté abierta deja el televisor accesible a toda la red de casa.",
+  "No adivina: la decisión de qué paquete es publicidad y cuál es del sistema sigue siendo tuya.",
+  "Cada fabricante cambia el nombre de sus paquetes: una lista de otro modelo no sirve."
+ ],
+ "oficio": {
+  "dato": "En un televisor, un paquete desactivado deja de ejecutarse pero sigue en el aparato, y eso se puede comprobar desde la computadora sin encender la pantalla: la lista de paquetes desinstalados para el usuario lo muestra, y la lista completa lo sigue teniendo. La consecuencia práctica es que el espacio no se recupera —igual que se explicó en el capítulo 2 para el teléfono— y que la vuelta atrás es una orden de un segundo. Y hay un detalle propio de los televisores: los paquetes del lanzador y de la tienda del fabricante se llaman distinto en cada marca, así que cualquier lista de «lo que se puede quitar» que circule por un grupo corresponde a un modelo concreto y a una versión concreta. La única lista que sirve es la que se saca del aparato que tenés delante.",
+  "como_comprobar": "Conectate al televisor y pedile las dos listas: la completa y la de desactivados. Si el paquete que apagaste aparece en la segunda y sigue en la primera, está desactivado y no borrado, y su vuelta atrás está disponible.",
+  "comando": "adb connect 192.168.1.40:5555\nadb shell pm list packages -u | grep -i -E \"ads|demo|shop\"\nadb shell pm list packages -d"
+ },
+ "riesgos": [
+  "Desactivar un paquete del que depende el lanzador o el sistema de actualización y dejar el televisor sin interfaz.",
+  "Dejar la depuración por red abierta después de terminar el trabajo."
+ ],
+ "alternativas": [
+  "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+  "yuliskov/SmartTube"
+ ],
+ "senal": {
+  "estrellas": 35,
+  "nota": 55,
+  "edad_dias": 51,
+  "ultima_entrega": "2026-10-20",
+  "descargas_10": 2427,
+  "contribuyentes": 1,
+  "repo_mb": 4.2,
+  "ci": 2,
+  "incidencias": "6 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de jolabs40 · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

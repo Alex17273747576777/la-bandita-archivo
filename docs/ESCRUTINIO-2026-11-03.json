@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-03",
- "medido_en": "2026-11-03T21:42:27+00:00",
+ "medido_en": "2026-11-03T21:55:35+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 382,
+ "medidos": 387,
  "fichas": [
   {
    "repo": "MMFoundation/WallpaperMachine",
@@ -5336,7 +5336,7 @@
    "commits_30d": 115,
    "contribuyentes": 41,
    "incidencias": {
-    "abiertas": 764,
+    "abiertas": 766,
     "cerradas": 3671
    },
    "security_md": false,
@@ -5350,7 +5350,7 @@
     "entrega en los últimos 30 días +10",
     "115 cambios en 30 días +10",
     "41 personas empujando +10",
-    "incidencias cerradas 3671/4435 +8",
+    "incidencias cerradas 3671/4437 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -7577,6 +7577,41 @@
    ]
   },
   {
+   "repo": "home-assistant/core",
+   "puntos": 55,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "aw.json",
+    "builder.yml",
+    "check-requirements-deterministic.yml",
+    "check-requirements.lock.yml",
+    "check-requirements.md"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 4744,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 2437,
+    "cerradas": 73292
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 4795,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 20 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "entrega en los últimos 30 días +10",
+    "4744 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 73292/75729 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "JetBrains/kotlin",
    "puntos": 55,
    "licencia": null,
@@ -7884,6 +7919,38 @@
    ]
   },
   {
+   "repo": "jolabs40/TVSlim",
+   "puntos": 55,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "android.yml",
+    "windows.yml"
+   ],
+   "adjuntos": 38,
+   "con_huella": 18,
+   "ultima_entrega": "2026-10-20",
+   "commits_30d": 54,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 6,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 51,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjunto con huella (SHA256SUMS.txt) +10",
+    "entrega en los últimos 30 días +10",
+    "54 cambios en 30 días +10",
+    "1 personas empujando +0",
+    "incidencias cerradas 0/6 +0",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "wg-easy/wg-easy",
    "puntos": 55,
    "licencia": "AGPL-3.0",
@@ -8053,6 +8120,41 @@
     "77 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 1542/1685 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "jellyfin/jellyfin",
+   "puntos": 54,
+   "licencia": "GPL-2.0",
+   "flujos_ci": [
+    "ci-codeql-analysis.yml",
+    "ci-compat.yml",
+    "ci-format.yml",
+    "ci-tests.yml",
+    "commands.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-26",
+   "commits_30d": 75,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 493,
+    "cerradas": 8621
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 2886,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-2.0) +15",
+    "integración continua con 15 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "entrega en los últimos 30 días +10",
+    "75 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 8621/9114 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -11267,6 +11369,41 @@
    ]
   },
   {
+   "repo": "esphome/esphome",
+   "puntos": 39,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "actions.lock",
+    "auto-label-pr.yml",
+    "ci-api-proto.yml",
+    "ci-docker.yml",
+    "ci-github-scripts.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-02",
+   "commits_30d": 1818,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 253,
+    "cerradas": 2214
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 3133,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 24 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "entrega en los últimos 30 días +10",
+    "1818 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 2214/2467 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "nocobase/nocobase",
    "puntos": 39,
    "licencia": null,
@@ -12171,6 +12308,41 @@
     "0 cambios en 30 días +0",
     "100 personas empujando +10",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "xbmc/xbmc",
+   "puntos": 29,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "documentation-creation.yml",
+    "gh-action-weblate-upload.yml",
+    "sonarqube.yml",
+    "stale.yml",
+    "sync-addon-metadata-translations.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-27",
+   "commits_30d": 934,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 293,
+    "cerradas": 5027
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 5783,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 5 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "sin entrega reciente +0",
+    "934 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 5027/5320 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },

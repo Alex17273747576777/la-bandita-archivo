@@ -21,11 +21,15 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Canta](https://github.com/samolego/Canta) | [samolego](https://github.com/samolego) | LGPL-3.0 | 3 de noviembre de 2026 |
 | [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) | [XayahSuSuSu](https://github.com/XayahSuSuSu) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Dhizuku](https://github.com/iamr0s/Dhizuku) | [iamr0s](https://github.com/iamr0s) | GPL-3.0 | 3 de noviembre de 2026 |
+| [ESPHome](https://github.com/esphome/esphome) | [ESPHome y su comunidad](https://esphome.io) | MIT y GPL-3.0 | 3 de noviembre de 2026 |
 | [F-Droid](https://github.com/f-droid/fdroidclient) | [F-Droid](https://gitlab.com/fdroid/fdroidclient) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Hail](https://github.com/aistra0528/Hail) | [aistra0528](https://github.com/aistra0528) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Headscale](https://github.com/juanfont/headscale) | [Juan Font y la comunidad Headscale](https://github.com/juanfont) | BSD-3-Clause | 3 de noviembre de 2026 |
 | [Hiddify](https://github.com/hiddify/hiddify-app) | [Hiddify y sus colaboradores](https://hiddify.com) | GPL-3.0 | 3 de noviembre de 2026 |
+| [Home Assistant](https://github.com/home-assistant/core) | [Home Assistant y su comunidad](https://www.home-assistant.io) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Immich](https://github.com/immich-app/immich) | [Immich y su comunidad](https://immich.app) | AGPL-3.0 | 3 de noviembre de 2026 |
+| [Jellyfin](https://github.com/jellyfin/jellyfin) | [Jellyfin y su comunidad](https://jellyfin.org) | GPL-2.0 | 3 de noviembre de 2026 |
+| [Kodi](https://github.com/xbmc/xbmc) | [XBMC Foundation y la comunidad de Kodi](https://kodi.tv) | GPL-2.0-or-later | 3 de noviembre de 2026 |
 | [KOReader](https://github.com/koreader/koreader) | [KOReader y su comunidad de voluntarios](https://koreader.rocks/) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [LocalSend](https://github.com/localsend/localsend) | [LocalSend y sus colaboradores](https://localsend.org) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Mullvad VPN](https://github.com/mullvad/mullvadvpn-app) | [Mullvad VPN AB](https://mullvad.net) | GPL-3.0 | 3 de noviembre de 2026 |
@@ -48,8 +52,10 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Shizuku](https://github.com/RikkaApps/Shizuku) | [RikkaApps (RikkaW)](https://github.com/RikkaApps) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Shizuku-Next](https://github.com/rushiranpise/Shizuku-Next) | [rushiranpise](https://github.com/rushiranpise) | Apache-2.0 | 3 de noviembre de 2026 |
 | [sing-box](https://github.com/SagerNet/sing-box) | [SagerNet](https://sing-box.sagernet.org) | GPL-3.0 | 3 de noviembre de 2026 |
+| [SmartTube](https://github.com/yuliskov/SmartTube) | [yuliskov](https://github.com/yuliskov) | MIT | 3 de noviembre de 2026 |
 | [Syncthing (bifurcación)](https://github.com/researchxxl/syncthing-android) | [researchxxl y la comunidad de Syncthing](https://github.com/researchxxl) | MPL-2.0 | 3 de noviembre de 2026 |
 | [TrackerControl](https://github.com/TrackerControl/tracker-control-android) | [Konrad Kollnig y la comunidad TrackerControl](https://github.com/TrackerControl) | GPL-3.0 | 3 de noviembre de 2026 |
+| [TVSlim](https://github.com/jolabs40/TVSlim) | [jolabs40](https://github.com/jolabs40) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Universal Android Debloater NG](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation) | [Universal-Debloater-Alliance](https://github.com/Universal-Debloater-Alliance) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Universal Installer](https://github.com/pass-with-high-score/universal-installer) | [pass-with-high-score](https://github.com/pass-with-high-score) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Uraam](https://github.com/Ruraam/Uraam) | [Ruraam](https://github.com/Ruraam) | GPL-3.0 | 3 de noviembre de 2026 |

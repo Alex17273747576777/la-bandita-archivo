@@ -1,0 +1,309 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capítulo 9 · El televisor y la casa · Guía Maestra</title><style>
+:root{--papel:#f5f7fa;--tinta:#1f2933;--suave:#5b6673;--linea:#e0e5ec;--acento:#2b6cb0;--alerta:#8a2b2b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.68 Georgia,'Times New Roman',serif}
+.hoja{max-width:1080px;margin:0 auto;padding:34px 22px 70px}
+.rejilla{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}
+header{border-bottom:3px double var(--linea);padding-bottom:16px;margin-bottom:26px}
+h1{font-size:2.15rem;line-height:1.18;margin:.2em 0 .3em;letter-spacing:-.01em}
+h2{font-size:1.42rem;margin:2.1em 0 .5em;border-left:5px solid var(--acento);padding-left:12px}
+h3{font-size:1.12rem;margin:1.7em 0 .35em}
+p{margin:.65em 0}
+.ficha{background:#fff;border:1px solid var(--linea);border-radius:10px;padding:20px 22px;margin:22px 0;box-shadow:0 1px 0 #fff inset}
+.sello{display:inline-block;background:var(--tinta);color:#fff;border-radius:999px;padding:2px 11px;font:600 12px/1.9 system-ui,sans-serif;letter-spacing:.03em}
+.n0{background:#2f6b4f}.n1{background:#8a6d1f}.n2{background:#8a2b2b}
+.meta{color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+.capa{border-top:1px dashed var(--linea);margin-top:16px;padding-top:12px}
+.capa h4{margin:.2em 0 .4em;font:700 13px/1.4 system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--acento)}
+ol,ul{padding-left:22px}li{margin:.35em 0}
+code,pre{font-family:'DejaVu Sans Mono',ui-monospace,monospace;font-size:.9em}
+code{background:#eef1f5;padding:1px 5px;border-radius:4px}
+pre{background:#1f2933;color:#f5f7fa;padding:12px 14px;border-radius:8px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font:14px/1.5 system-ui,sans-serif;margin:12px 0}
+th,td{border-bottom:1px solid var(--linea);padding:7px 8px;text-align:left;vertical-align:top}
+th{background:#eef1f5}
+.aviso{background:#fff;border-left:5px solid var(--alerta);padding:12px 16px;margin:16px 0}
+footer{margin-top:44px;border-top:3px double var(--linea);padding-top:14px;color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+a{color:var(--acento)}
+@media(max-width:760px){.col-8,.col-4{grid-column:span 12}}
+</style></head>
+<body><div class="hoja"><p class="meta"><a href="index.html">← Guía Maestra</a> · capítulo 9</p>
+<h1>Capítulo 9 · El televisor y la casa</h1><h2>Qué vas a poder hacer al terminar</h2><p>Limpiar el televisor de la publicidad y de las aplicaciones que vinieron con él, ponerle un reproductor que abra todo lo que tenés en el servidor de casa, y controlar los aparatos de tu hogar de forma que <strong>sigan funcionando si se cae internet</strong>.</p><p>Y vas a poder hacerte la pregunta que separa una casa inteligente de una casa alquilada: cuando se corta la conexión, ¿tu casa sigue obedeciendo? Al final del capítulo vas a tener una prueba de dos minutos para saberlo, y la vas a poder aplicar a cada aparato que compraste.</p><h2>La regla que ordena el capítulo: el televisor es un Android con mando</h2><p>Un televisor moderno —Android TV, Google TV, y en buena medida los demás— es un teléfono sin pantalla táctil: mismo sistema, mismas aplicaciones, mismos paquetes, mismos permisos. Todo lo que aprendiste en los capítulos 2 y 3 se aplica igual, con dos diferencias que cambian la estrategia.</p><p><strong>No hay teclado.</strong> Escribir una orden en un televisor con un mando es una tortura, y por eso el trabajo se hace desde otro aparato: desde la computadora o desde el teléfono, por red, con la misma depuración del capítulo 3.</p><p><strong>Hay menos que perder.</strong> Nadie guarda su vida en el televisor. Eso lo vuelve el aparato más seguro para practicar: si algo se rompe, se restablece de fábrica y no se perdió nada. Es el sitio donde conviene aprender antes de tocar el teléfono.</p><p>Y la casa es lo contrario: no tiene pantalla, casi nunca tiene teclado, y en cambio tiene cosas que importan —la puerta, la luz, la calefacción, la cámara—. Ahí la regla es otra: <strong>lo que controla la casa tiene que funcionar sin internet</strong>. Un interruptor que necesita un servidor en otro país para encender la luz no es un interruptor inteligente: es un interruptor con dueño.</p><h2>La ruta de decisión, en cuatro preguntas</h2><p><strong>Si el televisor vino con publicidad y aplicaciones que no pediste</strong> → <strong>TVSlim</strong>. Conecta por red, muestra lo que hay instalado y <strong>desactiva</strong> en lugar de desinstalar, con un registro de cada cambio para poder volver atrás.</p><p><strong>Si querés ver vídeo en el televisor, desde tu servidor o desde un disco</strong> → <strong>Kodi</strong> para todo lo que ya tenés en archivos, <strong>Jellyfin</strong> si querés un servidor que sirva a varios aparatos a la vez y recuerde por dónde ibas en cada uno.</p><p><strong>Si lo que te molesta son los anuncios de la aplicación de vídeos del televisor</strong> → <strong>SmartTube</strong>, con una advertencia que este capítulo explica con detalle porque es un caso real de seguridad.</p><p><strong>Si querés que la casa obedezca sin depender de nadie</strong> → <strong>Home Assistant</strong> para el cerebro y <strong>ESPHome</strong> para los aparatos que vos mismo construyes o reescribes.</p><h2>El televisor: lo mismo que el teléfono, desde otro sitio</h2><p>La depuración por red es la puerta. En Android TV se abre igual que en un teléfono: se activan las opciones de desarrollador —en los televisores suele estar escondido en el apartado de información del aparato, tocando varias veces la versión del sistema— y se habilita la depuración por red. A partir de ahí, el televisor acepta órdenes desde la computadora o desde el teléfono, en el mismo puerto de siempre.</p><p>Esa puerta tiene las mismas reglas del capítulo 3, y una más: <strong>la red del televisor es la de la casa</strong>, así que esa puerta queda abierta para cualquier aparato de la red mientras esté habilitada. Se abre para trabajar y se cierra después.</p><p>Con la puerta abierta, lo que se puede hacer es exactamente lo del capítulo 2: ver qué paquetes hay, cuáles son del sistema, y <strong>desactivar</strong> los que no hacen falta. Desactivar no es desinstalar: el paquete sigue en el aparato, deja de ejecutarse, y la vuelta atrás es una orden. En un televisor esa distinción importa todavía más, porque el aparato no se puede rescatar con un cable: si algo se rompe, la salida es el restablecimiento de fábrica y la pérdida de todas las cuentas configuradas.</p><h2>La economía del vídeo: quién decide y quién paga</h2><p>Acá hay un concepto que resuelve casi todos los problemas de este capítulo, y casi nadie lo tiene claro.</p><p>Un servidor de vídeo casero tiene que decidir, para cada reproducción, entre dos caminos: <strong>entregar el archivo tal cual</strong> y que el televisor lo decodifique —directo, rápido, sin gasto— o <strong>convertirlo sobre la marcha</strong> a un formato que el televisor entienda. La conversión, que en el oficio se llama transcodificación, la paga el servidor: procesador a fondo, calor, ventilador, y a veces ni así alcanza.</p><p>El televisor decide sin preguntar: si no entiende el códec, pide la conversión. Y ahí empieza el síntoma que la gente describe mal: «el servidor va lento», «se corta cada tanto», «la película tarda en arrancar». No es la red: es el procesador convirtiendo vídeo en tiempo real.</p><p>De esa economía salen tres reglas prácticas:</p><ul><li><strong>El formato del archivo decide quién paga.</strong> Un archivo que el televisor entiende se sirve sin gasto; uno exótico obliga al servidor a trabajar en cada reproducción.</li><li><strong>Un televisor nuevo no necesita conversión; uno viejo sí.</strong> Y un aparato barato conectado al televisor por cable puede hacer ese trabajo mejor que el servidor.</li><li><strong>Si el servidor sufre, la solución casi nunca es más procesador</strong>: es un archivo mejor, o un reproductor que entienda el original.</li></ul><h2>La casa: la prueba del router apagado</h2><p>Esta es la prueba central del capítulo y lleva dos minutos.</p><p>Apagá el aparato que te da internet —el router— dejando encendida la red de casa. Después probá, uno por uno: encender una luz, subir una persiana, ver la cámara, abrir la puerta, leer la temperatura. Todo lo que deje de funcionar depende de un servidor que no está en tu casa.</p><p>Lo que sobrevive a esa prueba es control local. Lo que se cae, aunque sea cómodo, es una casa alquilada por mes.</p><p>La tecnología que hace posible el control local ya está resuelta y es aburrida: los aparatos hablan por la red de casa con protocolos abiertos, y el cerebro que los coordina corre en tu equipo. Lo que falta no es técnica, es decisión al comprar: <strong>antes de comprar un aparato para la casa, preguntá si funciona sin la nube del fabricante</strong>. No siempre se puede; casi siempre se puede saber antes de pagar.</p><h2>Los tres errores que se pagan</h2><p><strong>Desinstalar en lugar de desactivar, en el televisor.</strong> Sin una copia del sistema y sin poder conectar un teclado, recuperar un paquete del sistema es complicado. Desactivar da el mismo resultado en el uso diario y la vuelta atrás es instantánea.</p><p><strong>Poner la casa entera en una nube.</strong> Además de la dependencia, hay un problema de vida útil: cuando el fabricante deja de mantener el servicio, el aparato deja de existir aunque siga enchufado y funcionando. Los aparatos de casa duran diez o quince años; los servicios en la nube, mucho menos.</p><p><strong>Automatizar antes de entender.</strong> Una automatización que apaga la calefacción a cierta hora es magnífica hasta el día que la casa está vacía en invierno. Las reglas se escriben pensando en lo que puede salir mal, y se prueban con la mano en el interruptor.</p><h2>Una historia real que este capítulo no puede callar</h2><p>La aplicación de vídeos para televisor más usada de esta guía —SmartTube, treinta y cinco mil ochocientas noventa estrellas— publica en la primera línea del archivo de presentación de su repositorio un aviso de seguridad: su entorno de desarrollo estuvo infectado por software malicioso, <strong>algunas compilaciones pueden haber quedado afectadas</strong>, las llaves públicas pueden haber quedado comprometidas, y desde entonces todo se analiza antes de publicar.</p><p>Está escrito por el propio autor, con el detalle suficiente para que el usuario decida: qué pasó, qué puede haber quedado afectado, qué hacer si se usó una versión afectada y cómo revocar los accesos que la aplicación pudo haber obtenido.</p><p>Esta guía lo publica tal cual, y saca tres lecciones que valen para todo lo demás:</p><ul><li><strong>La cadena de confianza llega hasta el teclado de quien compila.</strong> No importa cuán libre sea el código: si el equipo donde se compila está comprometido, el resultado también.</li><li><strong>Un aviso así es una señal de salud, no de enfermedad.</strong> Un proyecto que publica esto se puede auditar; uno que lo esconde, no.</li><li><strong>Y es la razón por la que los capítulos 4 y 7 existen.</strong> Comprobar la firma de lo que instalás no es paranoia de manual: es la única defensa que tenés cuando el otro lado se rompe.</li></ul><h2>Antes de irte: la prueba de las dos personas</h2><p>Dale este capítulo a alguien que acaba de comprar un televisor: si consigue quitarle la publicidad de la pantalla de inicio y entiende por qué se desactiva en lugar de desinstalar, el capítulo sirve.</p><p>Y dalo a alguien que lleva años con esto: si no encuentra al menos un dato que no supiera —que la biblioteca de Kodi vive en una base de datos y no en las carpetas, que la transcodificación la paga el servidor y no la red, que el identificador de una entidad de Home Assistant no cambia aunque le cambies el nombre, que ESPHome publica su código Python con una licencia y su código de ejecución con otra, que la aplicación de vídeos más usada del capítulo arrastra un aviso de compromiso de sus compilaciones—, el capítulo no sirve y hay que reescribirlo.</p><h2>Las seis fichas</h2><p>Van del aparato a la casa: primero el televisor, después lo que se ve en él, y al final el cerebro y los aparatos del hogar. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas, sus licencias y sus repositorios.</p>
+<h2>Las 6 fichas del capítulo</h2>
+
+<article class="ficha">
+  <h3>TVSlim <span class="meta">· jolabs40/TVSlim</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>55/100</strong> ·
+    ★35 · 51 días · última entrega 2026-10-20 ·
+    2,427 descargas en 10 entregas · 1 personas ·
+    2 flujos de compilación · incidencias 6 abiertas.
+  </p>
+  <p>Quitar del televisor la publicidad, la telemetría y las aplicaciones de fábrica que nadie pidió, sin root, sin instalar nada en el televisor y con cada cambio reversible por escrito.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien compró un televisor con publicidad en la pantalla de inicio y quiere apagarla sin abrir un teclado delante del aparato.
+     <br><strong>Para quién no es:</strong> para quien espera un programa que también ordene la biblioteca o instale aplicaciones: esta herramienta hace una sola cosa y la hace reversible.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Mirá el televisor primero: anotá qué aplicaciones aparecen en la pantalla de inicio y cuáles te molestan, porque después de un cambio ya no vas a recordar cómo era.</li>
+<li>Activá las opciones de desarrollador en el televisor y la depuración por red, y anotá la dirección del aparato en la red de casa.</li>
+<li>Instalá la herramienta en la computadora o en el teléfono —nunca en el televisor— y conectala a esa dirección aceptando el aviso del televisor cuando aparezca en pantalla.</li>
+<li>Recorré la lista de paquetes y desactivá primero la telemetría y la publicidad, reiniciá el televisor y comprobá que todo lo que usás sigue funcionando.</li>
+<li>Guardá el registro de cambios que genera la herramienta en un lugar seguro: es la lista de órdenes exactas que devuelve cada paquete a como estaba.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> La pantalla de inicio deja de mostrar publicidad, las aplicaciones que no usás no vuelven a ejecutarse y cada cambio está anotado con la orden que lo deshace.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si algo deja de funcionar, usá la restauración de la herramienta o la orden del registro para reactivar ese paquete concreto; el aparato no perdió nada.</li>
+<li>Si el televisor no acepta la conexión, revisá que estés en la misma red, que la depuración por red esté activa y que aceptes el aviso que aparece en la pantalla grande.</li>
+<li>Si la pantalla de inicio queda rara después de desactivar algo del lanzador, reactivá ese paquete y dejá el lanzador para el final.</li></ul>
+    <p><strong>Cómo se deshace:</strong> La herramienta no desinstala: desactiva, y deja escrito el comando de vuelta para cada paquete en un registro. Con ese registro se recupera todo, y si se pierde, cada paquete se reactiva a mano con la orden correspondiente.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>TVSlim no instala nada en el televisor. Se ejecuta en la computadora o en el teléfono, se conecta al televisor por la red con la depuración que ya trae Android, y desde ahí envía las mismas órdenes que escribiría alguien con consola. Eso lo vuelve inofensivo para el aparato: si se detiene la conexión, el televisor no queda con nada raro corriendo.</p>
+<p>Su decisión central es la correcta para un televisor: <strong>desactivar, nunca desinstalar</strong>, y escribir cada cambio en un registro con el comando que lo revierte. En un aparato sin teclado y sin forma de conectar un cable de rescate, esa distinción no es un detalle de estilo: es la diferencia entre un experimento y un televisiorio restablecido de fábrica.</p>
+<p>Y su ficha tiene que decir el otro número, porque es el que decide a quién se recomienda: <strong>treinta y cinco estrellas, una sola persona y un proyecto que nació el 13 de septiembre de 2026</strong>, cincuenta y un días antes de esta medición. La técnica es la del capítulo 2 y no depende de esta herramienta; lo que la herramienta aporta es comodidad y registro. Quien prefiera no depender de un proyecto de dos meses puede escribir las mismas órdenes a mano con las del capítulo 2 y llevar su propio registro en un archivo de texto.</p>
+    <p><strong>Límites:</strong></p><ul><li>Es un proyecto de dos meses y una sola persona: cómodo hoy, sin garantía de continuidad.</li>
+<li>Necesita la depuración por red activa, que mientras esté abierta deja el televisor accesible a toda la red de casa.</li>
+<li>No adivina: la decisión de qué paquete es publicidad y cuál es del sistema sigue siendo tuya.</li>
+<li>Cada fabricante cambia el nombre de sus paquetes: una lista de otro modelo no sirve.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>En un televisor, un paquete desactivado deja de ejecutarse pero sigue en el aparato, y eso se puede comprobar desde la computadora sin encender la pantalla: la lista de paquetes desinstalados para el usuario lo muestra, y la lista completa lo sigue teniendo. La consecuencia práctica es que el espacio no se recupera —igual que se explicó en el capítulo 2 para el teléfono— y que la vuelta atrás es una orden de un segundo. Y hay un detalle propio de los televisores: los paquetes del lanzador y de la tienda del fabricante se llaman distinto en cada marca, así que cualquier lista de «lo que se puede quitar» que circule por un grupo corresponde a un modelo concreto y a una versión concreta. La única lista que sirve es la que se saca del aparato que tenés delante.</p>
+    <p><strong>Cómo se comprueba:</strong> Conectate al televisor y pedile las dos listas: la completa y la de desactivados. Si el paquete que apagaste aparece en la segunda y sigue en la primera, está desactivado y no borrado, y su vuelta atrás está disponible.</p>
+    <pre><code>adb connect 192.168.1.40:5555
+adb shell pm list packages -u | grep -i -E &quot;ads|demo|shop&quot;
+adb shell pm list packages -d</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Desactivar un paquete del que depende el lanzador o el sistema de actualización y dejar el televisor sin interfaz.</li>
+<li>Dejar la depuración por red abierta después de terminar el trabajo.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation">Universal-Debloater-Alliance/universal-android-debloater-next-generation</a>, <a href="https://github.com/yuliskov/SmartTube">yuliskov/SmartTube</a></p></div>
+
+  <p class="meta">Programa de jolabs40 · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/jolabs40/TVSlim/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>SmartTube <span class="meta">· yuliskov/SmartTube</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>63/100</strong> ·
+    ★35,890 · 2289 días · última entrega 2026-10-20 ·
+    755,618 descargas en 10 entregas · 41 personas ·
+    4 flujos de compilación · incidencias 827 abiertas.
+  </p>
+  <p>Ver vídeos en el televisor con las reglas que elijas —sin anuncios, con la calidad que quieras— en lugar de con las que impone la aplicación de fábrica.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien usa el televisor sobre todo para vídeo en internet y está cansado de anuncios que no se pueden saltar en un aparato donde no hay bloqueador posible.
+     <br><strong>Para quién no es:</strong> para quien quiere ver archivos propios: para eso están Kodi y Jellyfin, en las dos fichas siguientes.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Leé el aviso de seguridad que el proyecto publica en la primera línea de su repositorio antes de instalar nada, y comprobá la huella del archivo que bajes.</li>
+<li>Instalá la aplicación en el televisor con el instalador de siempre o por red desde el teléfono, y dale el permiso de instalar aplicaciones desconocidas.</li>
+<li>Al abrirla, seguí el código de vinculación que muestra la pantalla: es un código de un solo uso, no una contraseña, y conviene entender la diferencia.</li>
+<li>Ajustá lo que de verdad cambia el uso diario: calidad máxima, salto automático de los patrocinios dentro del vídeo y el diseño de la pantalla de inicio para el mando.</li>
+<li>Revisá cada tanto los accesos que quedaron vinculados a tu cuenta y revocá los que ya no uses: la aplicación lo permite y casi nadie lo hace.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> El televisor reproduce vídeo sin anuncios, con la calidad y los controles que elegiste, y en tu cuenta quedan sólo los accesos que autorizaste.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la aplicación deja de funcionar tras una actualización del servicio, no hay truco: el proyecto publica correcciones y hay que esperar.</li>
+<li>Si el vídeo se corta en calidad alta, bajá la resolución máxima: en televisores con poca memoria el búfer es el que falla, no la red.</li>
+<li>Si usaste una versión de las que el aviso de seguridad marca como posiblemente afectadas, revocá los accesos vinculados y reinstalá desde una entrega posterior al aviso.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desinstalarla del televisor devuelve la aplicación de fábrica como única opción. Los accesos vinculados se revocan desde la cuenta, en la página de seguridad, y el proyecto explica cómo recuperar las copias de seguridad de la propia aplicación.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>SmartTube no usa la interfaz oficial del televisor: reproduce el vídeo con su propio motor web, que es lo que le permite saltarse los anuncios y ofrecer calidad y velocidad que la aplicación de fábrica no da en todos los aparatos. Con treinta y cinco mil ochocientas noventa estrellas y setecientas cincuenta y cinco mil seiscientas dieciocho descargas en sus diez últimas entregas, es la aplicación libre más usada de este capítulo y una de las más usadas de toda la guía.</p>
+<p>Su forma de autenticarse es la parte que hay que entender: no guarda tu contraseña, obtiene un <strong>código de vinculación de un solo uso</strong> con permisos limitados. Por eso, cuando el proyecto sufrió un incidente, pudo decir con precisión qué se podía y qué no se podía hacer con esos códigos: no permiten cambiar la contraseña, y se pueden revocar. Es un buen ejemplo de diseño que limita el daño por adelantado.</p>
+<p>Y su ficha no puede terminar sin el aviso, porque está en el propio repositorio: el entorno de desarrollo del autor estuvo infectado por software malicioso, algunas compilaciones pueden haber quedado afectadas y las llaves públicas pueden haber quedado comprometidas. Desde entonces, según el propio aviso, todo se analiza antes de publicar. Esta guía lo cuenta en el texto del capítulo con sus tres lecciones, y lo deja también acá, porque una ficha que lo omitiera estaría eligiendo qué parte de la verdad contar.</p>
+    <p><strong>Límites:</strong></p><ul><li>Depende de un servicio ajeno que cambia sin avisar: ninguna versión está garantizada para siempre.</li>
+<li>Arrastra un aviso de compromiso de su entorno de desarrollo, publicado por el propio autor.</li>
+<li>No sirve para archivos propios ni para otros servicios: es un reproductor de una sola fuente.</li>
+<li>En televisores con poca memoria puede necesitar ajustes de calidad para no cortarse.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La vinculación por código de un solo uso es una defensa que se puede ver funcionando. La aplicación pide un código, el servicio devuelve un permiso acotado para ese aparato, y el permiso aparece en la lista de accesos de la cuenta con un nombre reconocible. La diferencia con guardar la contraseña es enorme: un permiso se revoca sin cambiar la contraseña, no da acceso a todo y se puede identificar cuál es cuál. Cualquier aplicación que pida tu contraseña para un televisor está eligiendo la opción menos segura que existe, y eso incluye a las oficiales. Revisar esa lista cada tanto —y vaciar lo que no se usa— es de las pocas costumbres de seguridad que dan resultado inmediato y no cuestan nada.</p>
+    <p><strong>Cómo se comprueba:</strong> Entrá a la página de seguridad de tu cuenta y buscá la lista de accesos de terceros. Ahí aparece el permiso del televisor con su nombre; revocalo y comprobá que la aplicación deja de entrar hasta que vincules otra vez.</p>
+    <pre><code>adb shell pm list packages | grep -i smarttube</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Instalar una versión anterior al aviso de seguridad sin revisar la fecha ni la huella del archivo.</li>
+<li>Dar la contraseña de la cuenta a cualquier cliente de televisor en lugar de usar un código de vinculación.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/jellyfin/jellyfin">jellyfin/jellyfin</a>, <a href="https://github.com/xbmc/xbmc">xbmc/xbmc</a></p></div>
+
+  <p class="meta">Programa de yuliskov y cuarenta personas más · MIT · medido el 3 de noviembre de 2026 · licencia MIT
+     (<a href="https://github.com/yuliskov/SmartTube/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Kodi <span class="meta">· xbmc/xbmc</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>29/100</strong> ·
+    ★21,431 · 5783 días · última entrega 2026-09-27 ·
+    0 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 569 abiertas.
+  </p>
+  <p>Convertir un televisor o un equipo conectado en un centro de medios que ordena, cataloga y reproduce lo que ya tenés en archivos, con carátulas y con memoria de lo visto.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tiene una carpeta grande de películas, series o música y quiere verla en el televisor con carátulas, argumentos y «continuar donde lo dejé».
+     <br><strong>Para quién no es:</strong> para quien ve todo por internet o quiere un servidor para varios aparatos: Kodi es un reproductor que puede leer de la red, no un servidor.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalalo en el aparato que va a reproducir —televisor con Android, computadora conectada al televisor, o una caja barata dedicada— y comprobá la descarga.</li>
+<li>Añadí la carpeta de tus películas como fuente de vídeo, indicando de qué tipo es el contenido para que sepa qué buscar.</li>
+<li>Dejá que analice la carpeta: va a buscar carátulas, argumentos y reparto por su cuenta; si algún título sale mal, se corrige indicándolo a mano.</li>
+<li>Reproducí veinte minutos de una película, salí y volvé a entrar: tiene que ofrecerte continuar donde ibas.</li>
+<li>Buscá la carpeta donde Kodi guarda su biblioteca —está en su carpeta de datos— y copiala a otro disco: sin ella, tus carátulas y tu historial no viajan con tus archivos.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tus películas y series aparecen con carátula y argumento, se reproducen desde el mando, y la posición de lo que estabas viendo se conserva entre sesiones.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si una película se reproduce con la imagen pero sin sonido, es el formato de audio: Kodi puede pasar el audio sin tocarlo o convertirlo, y conviene probar la otra opción antes de cambiar el archivo.</li>
+<li>Si las carátulas salen mal, el nombre del archivo es la causa: poné el título y el año, y volvé a analizar esa película.</li>
+<li>Si la biblioteca se vacía de golpe, revisá que la carpeta siga montada con la misma ruta: Kodi guarda rutas, y si la carpeta se mueve, para él ya no existe.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desinstalarlo no toca tus archivos de vídeo: sólo se pierde la biblioteca y el historial, que viven en su carpeta de datos. Copiar esa carpeta antes de cualquier cambio es todo el respaldo que hace falta.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Kodi nació en 2003 y es el abuelo de este capítulo: veintiún mil cuatrocientas treinta y una estrellas, más de quinientos desarrolladores históricos y setenta idiomas. Funciona en televisores, computadoras, cajas y sistemas pequeños, con la misma lógica: una carpeta entra, una biblioteca sale.</p>
+<p>Lo que hace no es reproducir —eso lo hace cualquier reproductor— sino <strong>catalogar</strong>. Al añadir una carpeta, Kodi busca cada película en bases de datos públicas, trae carátula, argumento, año y reparto, y arma una biblioteca navegable desde un mando. Ese catálogo es el valor, y también el riesgo: vive en una base de datos dentro de su carpeta de datos, no en tus archivos.</p>
+<p>Su licencia se lee en una línea: el archivo de licencia del repositorio declara la licencia pública general de GNU, versión 2 o posterior, con el identificador exacto en la cabecera. Es un buen ejemplo de por qué conviene abrir el archivo en lugar de fiarse de la etiqueta que pone un catálogo: el sistema que lee licencias no la reconoció, y la cabecera del archivo sí lo dice sin ambigüedad.</p>
+    <p><strong>Límites:</strong></p><ul><li>Es un reproductor, no un servidor: cada aparato tiene su propia biblioteca salvo que se configure algo aparte.</li>
+<li>La biblioteca vive en una base de datos: si se pierde su carpeta de datos, se pierden carátulas e historial.</li>
+<li>Puede quedarse corto en aparatos con poca memoria; los televisores baratos sufren con las pieles más pesadas.</li>
+<li>Su interfaz tiene años de historia: hay ajustes para todo y el primer recorrido no es intuitivo.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La biblioteca de Kodi no está en tu carpeta de películas: está en una base de datos dentro de su carpeta de datos, y ahí viven las carátulas, el reparto, la posición de lo que estabas viendo y la marca de lo ya visto. Eso explica tres cosas que la gente vive como misterios: por qué al cambiar de aparato hay que volver a analizar todo, por qué al mover la carpeta de películas la biblioteca se vacía, y por qué una copia de tus archivos no conserva tu historial. La contracara es una ventaja si se sabe usar: esa carpeta de datos se puede copiar y llevar a otro aparato, y con ella viaja todo lo que Kodi sabía, sin volver a analizar nada.</p>
+    <p><strong>Cómo se comprueba:</strong> Buscá la carpeta de datos de Kodi y listá su contenido. Vas a ver los archivos de su base de datos; su fecha de modificación cambia cada vez que marcas algo como visto o avanzas en una película.</p>
+    <pre><code>find /sdcard/Android/data/org.xbmc.kodi -name &#x27;*.db&#x27; -printf &#x27;%TY-%Tm-%Td %p\n&#x27;</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Cambiar de sitio la carpeta de las películas y perder la biblioteca sin entender por qué.</li>
+<li>Instalar complementos de origen desconocido: un complemento corre con los permisos de Kodi, y Kodi corre con los del aparato.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/jellyfin/jellyfin">jellyfin/jellyfin</a>, <a href="https://github.com/videolan/vlc-android">videolan/vlc-android</a></p></div>
+
+  <p class="meta">Programa de la XBMC Foundation y su comunidad · GPL-2.0-or-later · medido el 3 de noviembre de 2026 · licencia GPL-2.0-or-later
+     (<a href="https://github.com/xbmc/xbmc/blob/master/LICENSE.md">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Jellyfin <span class="meta">· jellyfin/jellyfin</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>54/100</strong> ·
+    ★58,976 · 2886 días · última entrega 2026-10-26 ·
+    0 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 862 abiertas.
+  </p>
+  <p>Servir películas, series y música a todos los aparatos de la casa desde un equipo propio, recordando en cada uno por dónde iba cada persona.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tiene varias personas y varios aparatos viendo lo mismo y quiere un servidor que recuerde el avance de cada una, sin cuotas ni cuentas ajenas.
+     <br><strong>Para quién no es:</strong> para quien ve solo, en un solo aparato: Kodi hace el trabajo sin montar un servidor ni mantenerlo.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Prepará el equipo servidor —el mismo de los capítulos 6 y 7 sirve— y comprobá que tenga espacio y que pueda convertir vídeo sin ahogarse.</li>
+<li>Instalalo siguiendo su guía, creá la cuenta de administración y añade la carpeta de tu biblioteca indicando el tipo de contenido.</li>
+<li>Dejá que analice y ordene: trae carátulas y metadatos, y separa series por temporadas si la estructura de carpetas se lo permite.</li>
+<li>Creá una cuenta para cada persona de la casa, así el avance de cada una es suyo y no se mezcla.</li>
+<li>Reproducí en el televisor y comprobá lo que define a este servidor: empezar una película en un aparato y retomarla en otro por donde ibas.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Cada persona de la casa ve su propia biblioteca con su propio avance, el televisor reproduce desde el servidor y ninguna cuenta depende de un servicio externo.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el vídeo se corta o el equipo se pone a tope, es conversión en marcha: mirá si el aparato está convirtiendo y probá con un archivo que el televisor entienda directamente.</li>
+<li>Si faltan capítulos de una serie, revisá la estructura de carpetas: el servidor deduce temporadas y episodios de los nombres, y un nombre raro lo descoloca.</li>
+<li>Si un aparato no encuentra el servidor, comprobá que esté en la misma red y que la dirección sea la del equipo, no un nombre que sólo resuelve dentro de casa.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Borrar el servidor borra la biblioteca, las cuentas y el historial, no los archivos de vídeo. La carpeta de configuración se copia antes de cualquier cambio, y con ella vuelven las cuentas y los avances.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Jellyfin es lo que el capítulo 7 llamó biblioteca: un servidor que lee tus carpetas, las cataloga y las sirve a los aparatos, con cuentas separadas y memoria de lo visto. Nació como bifurcación de un proyecto que se volvió de pago, y su presentación lo dice sin rodeos: sin licencias premium, sin funciones escondidas, sin cuotas.</p>
+<p>Su diferencia con Kodi es de arquitectura: Kodi tiene la biblioteca en el aparato que reproduce; Jellyfin la tiene en un servidor y cada aparato es una ventana. Eso da lo que un reproductor local no puede dar —el mismo avance en el televisor y en el teléfono, cuentas para cada persona— y cobra el precio de siempre: un equipo encendido y su mantenimiento.</p>
+<p>Su cifra más honesta no son las cincuenta y ocho mil novecientas setenta y seis estrellas: es que <strong>no publica archivos adjuntos en sus entregas de GitHub</strong>, porque el servidor se distribuye por sus canales de instalación. Quien mida descargas ahí lee un cero que no describe el proyecto, igual que pasó con Nextcloud, AntennaPod y Audiobookshelf en capítulos anteriores.</p>
+    <p><strong>Límites:</strong></p><ul><li>Necesita un equipo encendido y mantenido; sin él no hay nada.</li>
+<li>Convierte vídeo cuando el aparato no entiende el formato, y eso consume procesador: es el origen de casi todas las quejas de rendimiento.</li>
+<li>No publica binarios en GitHub: se instala por sus canales oficiales.</li>
+<li>Abrirlo a internet para ver fuera de casa exige las decisiones de seguridad del capítulo 8.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Cada reproducción en un servidor de medios tiene un método, y el servidor lo declara: directo si el aparato entiende el archivo, o convertido si no. Ese dato se puede consultar en vivo y cambia por completo el diagnóstico: si el televisor está en directo y se corta, el problema es la red; si está convirtiendo y el equipo se pone a tope, el problema es el procesador y no hay ancho de banda que lo arregle. Casi todas las quejas de «va lento» en una casa con servidor de vídeo se resuelven mirando ese campo: un archivo mejor elegido —o un aparato reproductor que entienda el original— hace desaparecer el problema sin comprar hardware.</p>
+    <p><strong>Cómo se comprueba:</strong> Con una reproducción en marcha, pedile al servidor la lista de sesiones activas y mirá el método de cada una. Después probá con un archivo distinto y compará: si uno va directo y el otro convierte, ya sabés dónde está la diferencia.</p>
+    <pre><code>curl -s &quot;http://192.168.1.10:8096/Sessions?api_key=TU_CLAVE&quot; | grep -o &#x27;&quot;PlayMethod&quot;:&quot;[A-Za-z]*&quot;&#x27;</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Servir la biblioteca a internet sin protección y exponer la casa entera.</li>
+<li>Elegir archivos que el televisor no entiende, condenar al servidor a convertir siempre y culpar al programa.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/xbmc/xbmc">xbmc/xbmc</a>, <a href="https://github.com/Streamyfin/streamyfin">Streamyfin/streamyfin</a></p></div>
+
+  <p class="meta">Programa de Jellyfin y su comunidad · GPL-2.0 · medido el 3 de noviembre de 2026 (sin adjuntos en GitHub: se distribuye por sus canales) · licencia GPL-2.0
+     (<a href="https://github.com/jellyfin/jellyfin/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Home Assistant <span class="meta">· home-assistant/core</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>55/100</strong> ·
+    ★91,939 · 4795 días · última entrega 2026-11-03 ·
+    0 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 3425 abiertas.
+  </p>
+  <p>Controlar y automatizar los aparatos de la casa desde un cerebro que corre en tu equipo, con reglas propias y sin depender de la nube de ningún fabricante.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tiene varios aparatos conectados, de marcas distintas, y quiere una sola aplicación que los coordine y reglas que se cumplan aunque no haya internet.
+     <br><strong>Para quién no es:</strong> para quien tiene dos bombillas y un enchufe: para eso alcanza la aplicación del fabricante, y montar esto sería un pasatiempo caro.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Decidí dónde va a vivir: un equipo pequeño dedicado es lo más cómodo; una computadora que se apaga no sirve para una casa.</li>
+<li>Instalalo por el método que documenta el proyecto, y antes de añadir nada configurá una copia de seguridad automática.</li>
+<li>Añadí los aparatos que puedas controlar de forma local y anotá cuáles dependen de la nube de su fabricante: esa lista decide qué sigue funcionando sin internet.</li>
+<li>Hacé la prueba del router apagado con tres aparatos como mínimo, y anotá el resultado en la misma lista.</li>
+<li>Escribí una automatización simple —una luz que se enciende a una hora— y probala durante una semana sin tocar nada, para descubrir qué falla cuando nadie mira.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Los aparatos de la casa se controlan y se coordinan desde un solo lugar, con reglas propias que se cumplen por horario, y la lista de lo que depende de internet está escrita y comprobada.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si un aparato no aparece, buscá si su integración es local o pasa por la nube del fabricante: la mitad de los problemas de «no funciona» son de la nube del otro lado.</li>
+<li>Si una automatización no se dispara, revisá el estado de la entidad que la dispara y no la regla: casi siempre el aparato no reportó el cambio.</li>
+<li>Si el equipo se queda sin espacio o se corrompe, la culpa es de la tarjeta de memoria: usá un disco y una copia automática, no una tarjeta barata.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Quitar una integración deja el aparato como estaba, funcionando con su aplicación de fábrica. Borrar el equipo borra la casa entera tal como la configuraste: la copia automática es lo único que la devuelve.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Home Assistant no es una aplicación de bombillas: es un cerebro. Junta en un mismo lugar los aparatos de todas las marcas —con más de tres mil integraciones, una por fabricante o por protocolo— y sobre esa mezcla deja escribir reglas que ninguna aplicación de fabricante podría cumplir, porque ninguna ve más allá de sus propios aparatos.</p>
+<p>Su valor está en dos capas distintas. La primera es la <strong>unificación</strong>: un solo panel para el aire, las luces, la puerta y la cámara. La segunda, y la que importa para esta guía, es la <strong>localidad</strong>: muchas integraciones hablan con los aparatos directamente en la red de casa, sin pasar por ningún servidor ajeno. Cuáles y cuántas depende de cada marca, y por eso el capítulo insiste con la prueba del router apagado: es la única forma de saber qué tenés de verdad.</p>
+<p>Sus números explican su lugar en el ecosistema: noventa y un mil novecientas treinta y nueve estrellas, casi cuarenta mil derivados y una versión nueva el mismo día de esta medición. Es el proyecto más grande de la guía después de Immich, y el que más se parece a un sistema operativo para la casa.</p>
+    <p><strong>Límites:</strong></p><ul><li>Requiere un equipo encendido permanentemente y mantenimiento: actualizaciones que a veces rompen integraciones.</li>
+<li>Muchas integraciones dependen de la nube del fabricante aunque el cerebro sea tuyo: la localidad se comprueba, no se supone.</li>
+<li>La curva de entrada es real: entidades, automatizaciones, plantillas y una cantidad de opciones que abruma.</li>
+<li>Una tarjeta de memoria como disco es la forma más común de perder la casa entera en un año.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El identificador de una entidad no cambia cuando le cambiás el nombre. Un aparato entra con un identificador heredado de su marca —algo como <code>light.hue_color_lamp_1</code>— y ese texto es el que usan todas las automatizaciones y todos los paneles. Si después renombrás el aparato a «Luz del pasillo», el nombre visible cambia y el identificador no: la casa sigue funcionando, y cualquier regla que escribas a mano con el nombre nuevo no encontrará nada. Eso explica dos clásicos: automatizaciones que dejan de dispararse después de reorganizar la casa, y guías que no funcionan porque el identificador de quien las escribió no coincide con el tuyo. La costumbre que evita el problema es la de los programadores: escribir las reglas con el identificador, no con el nombre que se ve en pantalla.</p>
+    <p><strong>Cómo se comprueba:</strong> Renombrá un aparato desde la interfaz y después mirá su identificador en los ajustes de la entidad: el nombre cambió, el identificador no. Copiá ese identificador y usalo en una automatización escrita a mano.</p>
+    <pre><code>grep -o &#x27;&quot;entity_id&quot;: *&quot;[a-z_]*\.[a-z0-9_]*&quot;&#x27; /ruta/a/config/.storage/core.entity_registry | head -20</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Suponer que la casa funciona sin internet sin haber hecho nunca la prueba del router apagado.</li>
+<li>Correr el sistema en una tarjeta de memoria sin copias: es el modo más frecuente de perder años de configuración.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/esphome/esphome">esphome/esphome</a>, <a href="https://github.com/home-assistant/android">home-assistant/android</a></p></div>
+
+  <p class="meta">Programa de Home Assistant y su comunidad · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/home-assistant/core/blob/dev/LICENSE.md">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>ESPHome <span class="meta">· esphome/esphome</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>39/100</strong> ·
+    ★12,006 · 3133 días · última entrega 2026-11-02 ·
+    0 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 698 abiertas.
+  </p>
+  <p>Construir o reescribir los aparatos de la casa escribiendo un archivo de texto, con el aparato funcionando solo y sin depender de ningún servidor externo.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiere sensores y actuadores propios —una placa pequeña, un relé, un termómetro— que funcionen sin nube y sin programar en un lenguaje de verdad.
+     <br><strong>Para quién no es:</strong> para quien no quiere tocar hardware: sin una placa y un cable no hay nada que hacer acá.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Conseguí una placa compatible y un cable, y conectala a la computadora: el programa detecta el aparato y su puerto.</li>
+<li>Escribí un archivo de configuración mínimo —la placa, la red, una entrada y una salida— y guardá las credenciales de la red en un archivo aparte que no se comparte.</li>
+<li>Compilá antes de cargar: el programa convierte tu archivo en el firmware completo del aparato, y ese paso te dice si algo está mal escrito.</li>
+<li>Cargalo por cable la primera vez y, desde la segunda, por red: las actualizaciones siguientes se hacen sin desenchufar nada.</li>
+<li>Comprobá lo que define a esta herramienta: apagá el router y mirá si el aparato sigue obedeciendo desde la red de casa.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> El aparato hace lo que dice tu archivo, se actualiza por red y sigue funcionando cuando la conexión a internet se cae.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la compilación falla, el mensaje dice qué línea y qué componente: casi siempre es una indentación del archivo de configuración.</li>
+<li>Si el aparato deja de responder tras una actualización por red, hay que volver a cargarlo por cable: por eso conviene no tocar la configuración de red en la misma actualización.</li>
+<li>Si el aparato se reinicia solo, es alimentación insuficiente: una placa con relés necesita más corriente de la que da un puerto USB.</li></ul>
+    <p><strong>Cómo se deshace:</strong> El aparato no tiene nada que deshacer más allá de su firmware: se vuelve a compilar y cargar la versión anterior del archivo. El archivo es el aparato, y conservar versiones del archivo es todo el respaldo que hace falta.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>ESPHome no es una aplicación que se instala en un aparato: es un <strong>compilador</strong>. Le escribís un archivo de texto —qué placa es, a qué red se conecta, qué sensores tiene, qué debe hacer— y el programa genera el firmware completo y lo carga. A partir de ahí el aparato funciona solo, con esa lógica dentro, sin hablar con ningún servidor.</p>
+<p>Esa forma de trabajar cambia el cálculo de la dependencia: no hay nube que se apague, porque no hay nube. El aparato responde en la red de casa mientras haya corriente. Y explica su lugar en este capítulo: es la pieza que convierte la promesa de control local en algo que se puede fabricar uno mismo.</p>
+<p>Su licencia es la más curiosa de la guía, y está escrita con claridad en su archivo: el código de ejecución del aparato —los archivos de C y C++— va con licencia pública general de GNU versión 3, y el resto, incluido el código en Python que compila, va con licencia MIT. Dos licencias en el mismo proyecto, cada una donde tiene sentido. Es el ejemplo perfecto de por qué una ficha debe enlazar el archivo de licencia y no limitarse a una etiqueta.</p>
+    <p><strong>Límites:</strong></p><ul><li>Requiere hardware compatible y saber qué se conecta a qué: un error de cableado se lleva la placa.</li>
+<li>Las actualizaciones por red son cómodas y peligrosas: un cambio en la configuración de red puede dejar el aparato sin forma de responder.</li>
+<li>No es para cualquiera: hay que escribir un archivo con sintaxis estricta y entender indentación.</li>
+<li>Su licencia es doble: GPL-3.0 para el código del aparato y MIT para el resto.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El firmware de un aparato de estos no se baja de internet: se compila en tu computadora a partir de tu archivo, y la primera vez se carga por cable. Eso tiene una consecuencia que vale como lección general de esta guía: <strong>el archivo de configuración es el aparato</strong>. Si lo guardás con fecha y versión, podés reconstruir el aparato exacto dentro de cinco años aunque el proyecto haya cambiado cien veces; si no lo guardás, perdés la lógica y hay que reescribirla. Y hay un detalle práctico que casi todos aprenden a golpes: no cambiar la configuración de red y la lógica en la misma actualización, porque si la red queda mal, el aparato se va de la red y hay que volver al cable.</p>
+    <p><strong>Cómo se comprueba:</strong> Compilá la configuración sin cargarla y mirá el archivo que produce: es el firmware completo. Guardalo junto al archivo de configuración y la fecha; con esas dos cosas, el aparato se reconstruye en cualquier momento.</p>
+    <pre><code>esphome compile sensor.yaml &amp;&amp; ls -la .esphome/build/*/.pioenvs/*/firmware.bin</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Cambiar la configuración de red y la lógica en la misma actualización, y dejar el aparato inalcanzable.</li>
+<li>Alimentar una placa con relés desde un puerto USB y provocar reinicios aleatorios que parecen fallos de software.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/home-assistant/core">home-assistant/core</a>, <a href="https://github.com/home-assistant/android">home-assistant/android</a></p></div>
+
+  <p class="meta">Programa de ESPHome y su comunidad · MIT para el código en Python y GPL-3.0 para el código de ejecución del aparato · medido el 3 de noviembre de 2026 · licencia MIT y GPL-3.0
+     (<a href="https://github.com/esphome/esphome/blob/dev/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 3 de noviembre de 2026.</p></footer>
+</div></body></html>

@@ -2,7 +2,7 @@
 
 **Aplicaciones y recursos de código abierto, en español, con el oficio explicado.**
 
-_Estado: 8 capítulos publicados de 12 · 46 fichas verificadas · última medición 3 de noviembre de 2026_
+_Estado: 9 capítulos publicados de 12 · 52 fichas verificadas · última medición 3 de noviembre de 2026_
 
 Cada ficha tiene tres capas: **Manos** (los pasos, para quien empieza), **Cabeza** (cómo funciona y
 dónde se rompe) y **Oficio** (un dato que casi nadie sabe y que se puede comprobar). Sin la tercera,
@@ -20,7 +20,7 @@ la aplicación no entra.
 | 6 | Tu música y tus libros, tuyos | publicado | 6 |
 | 7 | Archivos, copias y nubes propias | publicado | 6 |
 | 8 | La red | publicado | 6 |
-| 9 | El televisor y la casa | en preparación | 0 |
+| 9 | El televisor y la casa | publicado | 6 |
 | 10 | El taller | en preparación | 0 |
 | 11 | Cuando algo se rompe | en preparación | 0 |
 | 12 | El oficio | en preparación | 0 |
@@ -75,6 +75,12 @@ la aplicación no entra.
 | [sing-box](https://github.com/SagerNet/sing-box) | experto | **49** | GPL-3.0 | SagerNet | 3 de noviembre de 2026 |
 | [Headscale](https://github.com/juanfont/headscale) | experto | **64** | BSD-3-Clause | Juan Font y la comunidad Headscale | 3 de noviembre de 2026 |
 | [NetBird](https://github.com/netbirdio/netbird) | experto | **53** | BSD-3-Clause | NetBird y sus colaboradores | 3 de noviembre de 2026 |
+| [TVSlim](https://github.com/jolabs40/TVSlim) | principiante | **55** | Apache-2.0 | jolabs40 | 3 de noviembre de 2026 |
+| [SmartTube](https://github.com/yuliskov/SmartTube) | intermedio | **63** | MIT | yuliskov | 3 de noviembre de 2026 |
+| [Kodi](https://github.com/xbmc/xbmc) | intermedio | **29** | GPL-2.0-or-later | XBMC Foundation y la comunidad de Kodi | 3 de noviembre de 2026 |
+| [Jellyfin](https://github.com/jellyfin/jellyfin) | experto | **54** | GPL-2.0 | Jellyfin y su comunidad | 3 de noviembre de 2026 |
+| [Home Assistant](https://github.com/home-assistant/core) | experto | **55** | Apache-2.0 | Home Assistant y su comunidad | 3 de noviembre de 2026 |
+| [ESPHome](https://github.com/esphome/esphome) | experto | **39** | MIT y GPL-3.0 | ESPHome y su comunidad | 3 de noviembre de 2026 |
 
 ## Cómo se mide la nota
 
