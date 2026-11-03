@@ -11,6 +11,7 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Accrescent](https://github.com/accrescent/accrescent) | [The Accrescent Contributors](https://github.com/accrescent) | Apache-2.0 | 3 de noviembre de 2026 |
 | [AdAway](https://github.com/AdAway/AdAway) | [PerfectSlayer y colaboradores de AdAway](https://github.com/PerfectSlayer) | GPL-3.0 | 3 de noviembre de 2026 |
 | [AntennaPod](https://github.com/AntennaPod/AntennaPod) | [AntennaPod y su comunidad](https://github.com/AntennaPod) | GPL-3.0 | 3 de noviembre de 2026 |
+| [APKiD](https://github.com/rednaga/APKiD) | [Red Naga (Caleb Fenton y colaboradores)](https://github.com/rednaga) | GPL-3.0-only | 3 de noviembre de 2026 |
 | [Apktool](https://github.com/iBotPeaches/Apktool) | [Connor Tumbleson (iBotPeaches) y colaboradores](https://apktool.org) | Apache-2.0 | 3 de noviembre de 2026 |
 | [App Manager NG](https://github.com/SysAdminDoc/AppManagerNG) | [SysAdminDoc](https://github.com/SysAdminDoc) | GPL-3.0 | 3 de noviembre de 2026 |
 | [AppListBackup](https://github.com/AndroidLabs-org/AppListBackup) | [AndroidLabs-org](https://github.com/AndroidLabs-org) | GPL-3.0 | 3 de noviembre de 2026 |
@@ -22,11 +23,13 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Battery Monitor](https://github.com/tswistak/Battery-Monitor) | [Tomasz Świstak (bifurcación actual)](https://github.com/tswistak), [Darshan Computing (origen, 2009-2020)](https://github.com/DarshanComputing) | GPL-3.0-or-later | 3 de noviembre de 2026 |
 | [Canta](https://github.com/samolego/Canta) | [samolego](https://github.com/samolego) | LGPL-3.0 | 3 de noviembre de 2026 |
 | [ConnectBot](https://github.com/connectbot/connectbot) | [Kenny Root y la comunidad de ConnectBot](https://github.com/connectbot) | Apache-2.0 | 3 de noviembre de 2026 |
+| [cosign](https://github.com/sigstore/cosign) | [Sigstore y sus contribuyentes](https://github.com/sigstore) | Apache-2.0 | 3 de noviembre de 2026 |
 | [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) | [XayahSuSuSu](https://github.com/XayahSuSuSu) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Dhizuku](https://github.com/iamr0s/Dhizuku) | [iamr0s](https://github.com/iamr0s) | GPL-3.0 | 3 de noviembre de 2026 |
 | [disky](https://github.com/newhinton/disky) | [Felix Nüsse](https://github.com/newhinton) | GPL-3.0 | 3 de noviembre de 2026 |
 | [ESPHome](https://github.com/esphome/esphome) | [ESPHome y su comunidad](https://esphome.io) | MIT y GPL-3.0 | 3 de noviembre de 2026 |
 | [F-Droid](https://github.com/f-droid/fdroidclient) | [F-Droid](https://gitlab.com/fdroid/fdroidclient) | GPL-3.0 | 3 de noviembre de 2026 |
+| [GitHub CLI](https://github.com/cli/cli) | [GitHub y sus contribuyentes](https://github.com/cli) | MIT | 3 de noviembre de 2026 |
 | [Hail](https://github.com/aistra0528/Hail) | [aistra0528](https://github.com/aistra0528) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Headscale](https://github.com/juanfont/headscale) | [Juan Font y la comunidad Headscale](https://github.com/juanfont) | BSD-3-Clause | 3 de noviembre de 2026 |
 | [Hiddify](https://github.com/hiddify/hiddify-app) | [Hiddify y sus colaboradores](https://hiddify.com) | GPL-3.0 | 3 de noviembre de 2026 |
@@ -47,6 +50,7 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Nextcloud](https://github.com/nextcloud/server) | [Nextcloud y su comunidad](https://nextcloud.com) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [Obtainium](https://github.com/ImranR98/Obtainium) | [ImranR98](https://github.com/ImranR98) | GPL-3.0 | 3 de noviembre de 2026 |
 | [OmniShizuku](https://github.com/krishna3163/OmniShizuku) | [krishna3163](https://github.com/krishna3163) | Apache-2.0 | 3 de noviembre de 2026 |
+| [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) | [OSS Review Toolkit y sus contribuyentes](https://github.com/oss-review-toolkit) | Apache-2.0 | 3 de noviembre de 2026 |
 | [PCAPdroid](https://github.com/emanuele-f/PCAPdroid) | [Emanuele Faranda](https://github.com/emanuele-f) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Permission Manager X](https://github.com/mirfatif/PermissionManagerX) | [mirfatif](https://github.com/mirfatif) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [personalDNSfilter](https://github.com/IngoZenz/personaldnsfilter) | [Ingo Zenz](https://www.zenz-solutions.de/) | GPL-2.0 | 3 de noviembre de 2026 |
@@ -56,6 +60,7 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [restic](https://github.com/restic/restic) | [restic y sus colaboradores](https://restic.net) | BSD-2-Clause | 3 de noviembre de 2026 |
 | [restoid](https://github.com/hddq/restoid) | [hddq](https://github.com/hddq) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Rethink](https://github.com/celzero/rethink-app) | [celzero](https://github.com/celzero) | Apache-2.0 | 3 de noviembre de 2026 |
+| [Scorecard](https://github.com/ossf/scorecard) | [Open Source Security Foundation](https://github.com/ossf) | Apache-2.0 | 3 de noviembre de 2026 |
 | [scrcpy](https://github.com/Genymobile/scrcpy) | [Romain Vimont y Genymobile](https://github.com/Genymobile) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Seedvault](https://github.com/seedvault-app/seedvault) | [Seedvault](https://github.com/seedvault-app) | Apache-2.0 (declarada en el proyecto; GitHub no la detecta) | 3 de noviembre de 2026 |
 | [Shevery](https://github.com/HmnDev-Tech/shevery) | [HmnDev-Tech](https://github.com/HmnDev-Tech) | Apache-2.0 | 3 de noviembre de 2026 |
@@ -65,6 +70,7 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [SmartTube](https://github.com/yuliskov/SmartTube) | [yuliskov](https://github.com/yuliskov) | MIT | 3 de noviembre de 2026 |
 | [Syncthing (bifurcación)](https://github.com/researchxxl/syncthing-android) | [researchxxl y la comunidad de Syncthing](https://github.com/researchxxl) | MPL-2.0 | 3 de noviembre de 2026 |
 | [Termux](https://github.com/termux/termux-app) | [Termux y su comunidad](https://termux.dev) | GPL-3.0 | 3 de noviembre de 2026 |
+| [testssl.sh](https://github.com/testssl/testssl.sh) | [Dirk Wetter y colaboradores](https://github.com/drwetter) | GPL-2.0 | 3 de noviembre de 2026 |
 | [TrackerControl](https://github.com/TrackerControl/tracker-control-android) | [Konrad Kollnig y la comunidad TrackerControl](https://github.com/TrackerControl) | GPL-3.0 | 3 de noviembre de 2026 |
 | [TVSlim](https://github.com/jolabs40/TVSlim) | [jolabs40](https://github.com/jolabs40) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Universal Android Debloater NG](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation) | [Universal-Debloater-Alliance](https://github.com/Universal-Debloater-Alliance) | GPL-3.0 | 3 de noviembre de 2026 |

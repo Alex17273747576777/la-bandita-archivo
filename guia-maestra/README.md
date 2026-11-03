@@ -2,7 +2,7 @@
 
 **Aplicaciones y recursos de código abierto, en español, con el oficio explicado.**
 
-_Estado: 11 capítulos publicados de 12 · 64 fichas verificadas · última medición 3 de noviembre de 2026_
+_Estado: 12 capítulos publicados de 12 · 70 fichas verificadas · última medición 3 de noviembre de 2026_
 
 Cada ficha tiene tres capas: **Manos** (los pasos, para quien empieza), **Cabeza** (cómo funciona y
 dónde se rompe) y **Oficio** (un dato que casi nadie sabe y que se puede comprobar). Sin la tercera,
@@ -23,7 +23,7 @@ la aplicación no entra.
 | 9 | El televisor y la casa | publicado | 6 |
 | 10 | El taller | publicado | 6 |
 | 11 | Cuando algo se rompe | publicado | 6 |
-| 12 | El oficio | en preparación | 0 |
+| 12 | El oficio | publicado | 6 |
 
 ## Fichas publicadas
 
@@ -93,6 +93,12 @@ la aplicación no entra.
 | [WiFi Analyzer](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer) | principiante | **50** | GPL-3.0 | VREM Software Development | 3 de noviembre de 2026 |
 | [Battery Monitor](https://github.com/tswistak/Battery-Monitor) | principiante | **46** | GPL-3.0-or-later | Tomasz Świstak (bifurcación actual), Darshan Computing (origen, 2009-2020) | 3 de noviembre de 2026 |
 | [QADB](https://github.com/ludoven/QADB) | experto | **33** | MIT | ludoven | 3 de noviembre de 2026 |
+| [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) | experto | **73** | Apache-2.0 | OSS Review Toolkit y sus contribuyentes | 3 de noviembre de 2026 |
+| [Scorecard](https://github.com/ossf/scorecard) | intermedio | **67** | Apache-2.0 | Open Source Security Foundation | 3 de noviembre de 2026 |
+| [cosign](https://github.com/sigstore/cosign) | experto | **71** | Apache-2.0 | Sigstore y sus contribuyentes | 3 de noviembre de 2026 |
+| [GitHub CLI](https://github.com/cli/cli) | intermedio | **63** | MIT | GitHub y sus contribuyentes | 3 de noviembre de 2026 |
+| [APKiD](https://github.com/rednaga/APKiD) | experto | **31** | GPL-3.0-only | Red Naga (Caleb Fenton y colaboradores) | 3 de noviembre de 2026 |
+| [testssl.sh](https://github.com/testssl/testssl.sh) | experto | **45** | GPL-2.0 | Dirk Wetter y colaboradores | 3 de noviembre de 2026 |
 
 ## Cómo se mide la nota
 

@@ -1,0 +1,75 @@
+{
+ "id": "scorecard",
+ "nombre": "Scorecard",
+ "repo": "ossf/scorecard",
+ "autores": [
+  {
+   "nombre": "Open Source Security Foundation",
+   "enlace": "https://github.com/ossf"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/ossf/scorecard/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Medir la salud de un proyecto con dieciocho comprobaciones que cualquiera puede repetir, para decidir con un número y no con una impresión.",
+ "capitulo": 12,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien tiene que elegir entre dos programas parecidos y quiere un criterio que no dependa de su gusto, y para quien audita el proyecto propio antes de que lo auditen otros.",
+  "no_es": "para quien busca una nota de calidad del programa: esto mide prácticas de trabajo, no si el programa hace bien lo suyo."
+ },
+ "manos": [
+  "Instalá la herramienta desde su repositorio o pedí el resultado en su visor público, que no necesita instalación.",
+  "Corréla sobre un proyecto concreto y guardá el resultado en un archivo, para poder compararlo más adelante.",
+  "Mirá las comprobaciones que salieron en cero: casi siempre son permisos de los flujos de integración y dependencias sin fijar.",
+  "Corré la misma orden sobre un segundo proyecto y compará los dos números en las mismas comprobaciones, no el total.",
+  "Repetí la medición dentro de seis meses y mirá qué se movió: eso dice más que cualquier captura de pantalla."
+ ],
+ "resultado_esperado": "Tenés un número con fecha, repetible por cualquier otra persona, y sabés en qué comprobaciones concretas un proyecto está flojo y en cuáles no.",
+ "si_sale_mal": [
+  "Si el proyecto no aparece, revisá el formato del nombre: pide organización y repositorio, no la dirección completa.",
+  "Si una comprobación falla por falta de datos del ecosistema, no es culpa del proyecto: anotá la comprobación como no medida.",
+  "Si el número te sorprende, mirá las comprobaciones una por una antes de sacar conclusiones: el total es un resumen y los resúmenes engañan."
+ ],
+ "deshacer": "No modifica el proyecto analizado: lee y escribe un archivo de resultado. Se borra la herramienta y el archivo, y no queda nada.",
+ "cabeza": [
+  "La pregunta «¿este proyecto está bien mantenido?» se contesta casi siempre con una impresión: la página se ve viva, las estrellas son muchas, alguien dijo que era bueno. Scorecard la contesta con dieciocho preguntas que se pueden repetir: si las dependencias están fijadas con versión, si los flujos de integración piden los permisos mínimos, si hay revisión antes de fusionar, si las entregas se firman, si hay canal de seguridad.",
+  "Su límite es también su virtud: mide **prácticas**, no calidad. Un proyecto pequeñísimo puede sacar menos que uno grande que sólo sigue las modas de la industria. Pero las prácticas medidas son las que evitan los dos desastres reales del ecosistema —que te inyecten código por una dependencia sin fijar, y que una entrega se sustituya sin que nadie lo note—, y eso no es una moda.",
+  "Con cincuenta y ocho mil estrellas y más de medio millón de descargas, es el instrumento más usado del oficio, y es de la fundación que también firmó el estándar de puntuación que esta guía imitó sin saberlo. Su nota, sesenta y siete, sale de sus propios criterios aplicados a sí mismo, que es la prueba más honesta que puede pasar una herramienta así."
+ ],
+ "limites": [
+  "Mide prácticas del repositorio, no la calidad ni la seguridad del programa publicado.",
+  "Depende de datos públicos de la plataforma: proyectos en otras forjas puntúan distinto o no puntúan.",
+  "El número total esconde diferencias importantes entre comprobaciones.",
+  "Un proyecto puede subir la nota sin mejorar el programa, sólo ordenando su casa."
+ ],
+ "oficio": {
+  "dato": "La comprobación que más desastres evita no es la más famosa: es la de dependencias fijadas. Un flujo de integración que usa una acción por su nombre y sin versión exacta está confiando en que nadie cambie esa etiqueta, y las etiquetas se pueden mover. Ese es el mecanismo de los ataques de cadena de suministro más repetidos de los últimos años: no se rompe el proyecto, se mueve una pieza de la que el proyecto cuelga. Fijar la versión por su huella completa convierte ese ataque en imposible sin tocar el archivo. Es una línea de cambio y vale más que cualquier política escrita.",
+  "como_comprobar": "Corré la herramienta sobre un repositorio propio y mirá el detalle de esa comprobación: cada flujo aparece con la referencia que usa, y se ve cuáles están fijadas y cuáles no.",
+  "comando": "scorecard --repo=github.com/Genymobile/scrcpy --show-details"
+ },
+ "riesgos": [
+  "Tomar el número como certificado de seguridad y bajar cualquier cosa de un proyecto con nota alta.",
+  "Optimizar la nota sin arreglar lo que la nota señala, que es la forma más común de mentir con datos."
+ ],
+ "alternativas": [
+  "oss-review-toolkit/ort",
+  "cli/cli"
+ ],
+ "senal": {
+  "estrellas": 5809,
+  "nota": 67,
+  "edad_dias": 2216,
+  "ultima_entrega": "2026-10-12",
+  "descargas_10": 559904,
+  "contribuyentes": 100,
+  "repo_mb": 377.3,
+  "ci": 5,
+  "incidencias": "502 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Herramienta de Open Source Security Foundation · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

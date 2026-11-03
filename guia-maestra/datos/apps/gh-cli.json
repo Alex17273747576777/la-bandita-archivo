@@ -1,0 +1,75 @@
+{
+ "id": "gh-cli",
+ "nombre": "GitHub CLI",
+ "repo": "cli/cli",
+ "autores": [
+  {
+   "nombre": "GitHub y sus contribuyentes",
+   "enlace": "https://github.com/cli"
+  }
+ ],
+ "licencia": {
+  "spdx": "MIT",
+  "archivo": "https://github.com/cli/cli/blob/trunk/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Preguntar a la fuente los datos exactos de una entrega —versión, fecha, archivos, descargas, incidencias— sin abrir un navegador y sin copiar cifras de una captura.",
+ "capitulo": 12,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien mide proyectos con frecuencia y quiere el mismo dato siempre igual, y para quien quiere poder repetir las señales de esta guía por su cuenta.",
+  "no_es": "para quien sólo quiere instalar un programa: para eso no hace falta la línea de órdenes, y la página del repositorio dice lo mismo con menos trabajo."
+ },
+ "manos": [
+  "Instalá la herramienta desde su repositorio o desde el gestor de paquetes de tu sistema, y comprobá la versión.",
+  "Entrá a tu cuenta con la orden de acceso, o usala sin cuenta para consultar datos públicos.",
+  "Pedí la última entrega de un proyecto que conozcas y mirá la fecha y los archivos que devuelve.",
+  "Pedí el mismo dato en formato de máquina, que es el que sirve para comparar y para guardar histórico.",
+  "Armá una lista de cinco proyectos de esta guía y sacá las cinco fechas de una vez: eso ya es una medición."
+ ],
+ "resultado_esperado": "Tenés los datos exactos de cualquier entrega en la pantalla, en un formato que se puede guardar y comparar, sin depender de cómo se vea una página ese día.",
+ "si_sale_mal": [
+  "Si la orden pide autenticación y no querés darla, muchas consultas públicas funcionan igual; si no, se usa el modo de solo lectura con un token.",
+  "Si el proyecto cambió de nombre, la orden falla: buscá el nombre actual en la respuesta de error antes de insistir.",
+  "Si el formato de máquina parece ilegible, es lo normal: está pensado para guardarse y compararse, no para leerse de corrido."
+ ],
+ "deshacer": "No cambia nada en el proyecto consultado: sólo lee. En tu computadora queda un archivo de configuración con la sesión, que se cierra con una orden cuando quieras.",
+ "cabeza": [
+  "Toda esta guía se construyó con datos que devuelve la plataforma donde viven los proyectos: la fecha de la última entrega, el número de descargas, las incidencias cerradas, el equipo que empuja. Ese mismo dato está disponible para cualquiera con una orden, y la diferencia entre leerlo en una página y leerlo así es la misma que hay entre mirar un reloj y anotar la hora.",
+  "GitHub CLI es esa puerta. Tiene cuarenta y seis mil estrellas y más de trece millones de descargas en sus diez últimas entregas, y su licencia es la más permisiva del capítulo. Con ella se consulta cualquier repositorio público, se guarda el resultado y se compara dentro de un mes o de un año, que es exactamente lo que hay que hacer con una señal.",
+  "Su nota es sesenta y tres, y el detalle importa: pierde puntos por no declarar un canal de seguridad propio, no por su trabajo. Una herramienta que consulta a otros tiene que ser ejemplar en lo suyo, y conviene decir cuando no lo es."
+ ],
+ "limites": [
+  "Consulta una plataforma concreta: proyectos que viven en otras forjas no aparecen.",
+  "Los contadores de descargas son acumulados y no distinguen entre persona y robot.",
+  "Sin cuenta se accede a menos datos y con límites de consulta más bajos.",
+  "Devuelve lo que la plataforma publica, incluido lo que el autor escribió con prisa."
+ ],
+ "oficio": {
+  "dato": "El número de descargas que aparece en una entrega no cuenta personas: cuenta archivos bajados, y cada intento fallido o repetido suma. Por eso un proyecto con diez millones de descargas puede tener diez mil usuarios, y uno con cien mil puede tener cincuenta mil. La señal honesta es la comparación consigo misma en el tiempo —si una entrega tiene diez veces las descargas de la anterior, algo pasó—, no la comparación entre proyectos distintos. Casi todas las conclusiones falsas sobre popularidad salen de comparar cifras que se midieron de formas distintas.",
+  "como_comprobar": "Pedí la última entrega de dos proyectos y compará sus descargas con la fecha de publicación: un número alto en poco tiempo dice más que el mismo número acumulado durante años.",
+  "comando": "gh api repos/Genymobile/scrcpy/releases/latest --jq '.tag_name, .published_at'"
+ },
+ "riesgos": [
+  "Guardar un token con permisos de escritura en un archivo de texto sin proteger, para consultar algo que era público.",
+  "Repetir una cifra de descargas como si fueran usuarios y sacar conclusiones de adopción."
+ ],
+ "alternativas": [
+  "ossf/scorecard",
+  "oss-review-toolkit/ort"
+ ],
+ "senal": {
+  "estrellas": 46857,
+  "nota": 63,
+  "edad_dias": 2588,
+  "ultima_entrega": "2026-10-26",
+  "descargas_10": 13368019,
+  "contribuyentes": 100,
+  "repo_mb": 81.0,
+  "ci": 5,
+  "incidencias": "1107 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Herramienta de GitHub y sus contribuyentes · MIT · medido el 3 de noviembre de 2026"
+}

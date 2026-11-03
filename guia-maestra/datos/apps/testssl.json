@@ -1,0 +1,75 @@
+{
+ "id": "testssl",
+ "nombre": "testssl.sh",
+ "repo": "testssl/testssl.sh",
+ "autores": [
+  {
+   "nombre": "Dirk Wetter y colaboradores",
+   "enlace": "https://github.com/drwetter"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-2.0",
+  "archivo": "https://github.com/testssl/testssl.sh/blob/3.3dev/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Revisar el cifrado de un servidor propio desde fuera, con los protocolos y cifrados que acepta, para saber qué está encendido que no debería.",
+ "capitulo": 12,
+ "orden": 6,
+ "para_quien": {
+  "es": "para quien montó un servidor en los capítulos 7, 8 o 9 y quiere saber cómo se ve desde internet, y para quien tiene que guardar una línea de base y compararla dentro de seis meses.",
+  "no_es": "para quien quiere pentesting: esto revisa la configuración del cifrado y nada más, y no busca fallos en la aplicación."
+ },
+ "manos": [
+  "Descargá el programa de su repositorio y comprobá la versión con la orden que él mismo trae para eso.",
+  "Corrélo contra un dominio público conocido para ver cómo se lee un resultado sano y aprender el formato.",
+  "Corrélo contra tu propio servidor, con la dirección completa y el puerto si no es el de siempre.",
+  "Mirá tres cosas y en este orden: protocolos aceptados, cifrados débiles y validez del certificado.",
+  "Guardá la salida en un archivo con la fecha en el nombre, y repetí la medición dentro de seis meses comparando los dos."
+ ],
+ "resultado_esperado": "Tenés un informe del cifrado de tu servidor con la fecha, sabés qué protocolos viejos están apagados y cuáles no, y guardaste una línea de base para comparar.",
+ "si_sale_mal": [
+  "Si el servidor no responde, comprobá que el puerto esté abierto desde fuera y no sólo desde tu red: es el error más común.",
+  "Si aparecen protocolos antiguos activos, no los apagues sin mirar qué aparatos de la casa dependen de ellos.",
+  "Si el certificado sale inválido, revisá la fecha y el nombre: la mayoría de las veces es renovación vencida y no configuración."
+ ],
+ "deshacer": "Sólo lee desde fuera: no cambia nada en el servidor ni en tu red. Borrás el programa y los informes, y no queda rastro.",
+ "cabeza": [
+  "Un servidor casero se ve distinto desde dentro y desde fuera. Desde dentro funciona; desde fuera, acepta protocolos y cifrados que uno nunca eligió, porque los trae encendidos el programa que puso encima. Ese hueco es el que se cierra con una medición desde fuera, que es exactamente la posición del que va a intentar entrar.",
+  "testssl.sh es un solo archivo de órdenes de sistema que hace ese trabajo: se conecta como se conectaría un cliente y reporta qué acepta el servidor. No necesita instalar nada en la máquina remota ni tener acceso a ella, y no deja rastro. Es la herramienta más antigua del capítulo —más de doce años— con ciento veintinueve megabytes de repositorio y noventa y dos mil estrellas.",
+  "Su nota es cuarenta y cinco, y el número se explica solo: es un proyecto de un solo archivo, sin entregas empaquetadas y sin huellas publicadas, que se distribuye por el propio repositorio. Nada de eso impide usarlo; todo eso hay que saberlo antes de meterlo en un flujo automático."
+ ],
+ "limites": [
+  "Revisa el cifrado, no la aplicación ni los permisos del servidor.",
+  "No publica entregas con archivos: se usa desde el repositorio.",
+  "Un informe largo necesita criterio para leerse: no todo lo marcado es un problema real.",
+  "Apagar protocolos viejos puede dejar fuera aparatos antiguos de la casa."
+ ],
+ "oficio": {
+  "dato": "Un certificado válido y un cifrado fuerte son dos cosas distintas y se comprueban por separado. El certificado dice que el servidor es quien dice ser; el cifrado dice cómo se habla con él. Un servidor puede tener un certificado perfecto y aceptar al mismo tiempo un protocolo de hace quince años, que es como tener una puerta blindada con la ventana abierta. La medición desde fuera mira las dos cosas a la vez y por eso vale: no pregunta cómo se configuró el servidor, pregunta qué acepta cuando alguien llama.",
+  "como_comprobar": "Corré el programa contra tu dominio y leé la lista de protocolos aceptados: si aparece alguno anterior al TLS 1.2, ahí hay trabajo.",
+  "comando": "./testssl.sh --quiet --protocols tudominio.com"
+ },
+ "riesgos": [
+  "Apagar protocolos viejos de golpe y dejar sin servicio a aparatos de la casa que sólo hablan esos.",
+  "Correr la herramienta contra servidores ajenos sin permiso: mirar el propio es oficio, escanear el de otro no."
+ ],
+ "alternativas": [
+  "juanfont/headscale",
+  "netbirdio/netbird"
+ ],
+ "senal": {
+  "estrellas": 9261,
+  "nota": 45,
+  "edad_dias": 4508,
+  "ultima_entrega": "2026-07-12",
+  "descargas_10": 0,
+  "contribuyentes": 100,
+  "repo_mb": 129.3,
+  "ci": 1,
+  "incidencias": "251 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Herramienta de Dirk Wetter y colaboradores · GPL-2.0 · medido el 3 de noviembre de 2026"
+}

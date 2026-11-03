@@ -1,0 +1,75 @@
+{
+ "id": "ort",
+ "nombre": "OSS Review Toolkit",
+ "repo": "oss-review-toolkit/ort",
+ "autores": [
+  {
+   "nombre": "OSS Review Toolkit y sus contribuyentes",
+   "enlace": "https://github.com/oss-review-toolkit"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/oss-review-toolkit/ort/blob/main/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Saber de qué está hecho un proyecto y qué licencias arrastran todas sus dependencias, para nombrar a cada autor y cumplir lo que cada licencia pide.",
+ "capitulo": 12,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien arma un proyecto con código ajeno y necesita saber qué debe publicar y a quién nombrar, y para quien audita lo que ya está publicado.",
+  "no_es": "para quien quiere revisar un solo programa de un solo autor: para eso alcanza con abrir su archivo de licencia y leerlo, que es más rápido y no necesita instalar nada."
+ },
+ "manos": [
+  "Instalá la herramienta en la computadora, con su entorno de ejecución, y comprobá la versión contra la entrega del repositorio.",
+  "Corré el análisis sobre un proyecto concreto y esperá: descarga y examina cada dependencia, y en un proyecto grande tarda.",
+  "Abrí el informe de licencias: cada componente aparece con su licencia detectada y el archivo donde la encontró.",
+  "Mirá las que salieron sin licencia o con licencia desconocida: son las que hay que resolver a mano antes de publicar nada.",
+  "Compará el informe con el archivo de créditos de tu propio proyecto y completá lo que falte: ese es el entregable real."
+ ],
+ "resultado_esperado": "Tenés una lista completa de los componentes de un proyecto, con su licencia y su origen, y un archivo de créditos que nombra a todos los autores y no deja obligaciones sin cumplir.",
+ "si_sale_mal": [
+  "Si alguna dependencia no se puede descargar, el resultado queda incompleto: mirá el informe de errores antes de confiar en la lista.",
+  "Si aparece una licencia inesperada, no la corrijas a mano: buscá el archivo real en el componente y anotá de dónde salió.",
+  "Si el análisis se queda sin memoria en un proyecto grande, dividilo por módulos: es lo que hace la propia herramienta en su documentación."
+ ],
+ "deshacer": "No toca el proyecto analizado: escribe un directorio de salida que se borra cuando quieras. Quitar la herramienta de la computadora deja todo como estaba.",
+ "cabeza": [
+  "Nadie escribe un programa solo. Un proyecto moderno puede arrastrar cientos de piezas ajenas, cada una con su autor y su licencia, y la mayoría de las veces ni quien programa sabe cuáles son. Ese desconocimiento no es un problema legal abstracto: es el motivo por el que un proyecto publica su versión y descubre, años después, que debía haber nombrado a alguien que nunca nombró.",
+  "OSS Review Toolkit ataca justamente eso: recorre el árbol de dependencias, identifica la licencia de cada pieza leyendo los archivos y no adivinando por el nombre, y arma el informe. Su nota es la más alta de este capítulo —setenta y tres—, con cien personas, entrega de hace cinco días y una cultura de trabajo que se ve en su propio repositorio: cada archivo declara su licencia.",
+  "Es la herramienta más seria del oficio del crédito, y también la más pesada: ciento cincuenta y seis megabytes de repositorio y un entorno de ejecución completo. Se usa cuando de verdad hace falta, no todos los días. Para todo lo demás, leer el archivo de licencia con los ojos alcanza, y es lo que esta guía hizo setenta veces."
+ ],
+ "limites": [
+  "Necesita un entorno de ejecución aparte y bastante memoria para proyectos grandes.",
+  "Detecta lo declarado; una pieza sin archivo de licencia queda como desconocida y hay que resolverla a mano.",
+  "No decide por vos si una licencia es compatible con tu uso: informa y la decisión es jurídica.",
+  "Está pensado para proyectos de software; para una aplicación suelta es demasiado aparato."
+ ],
+ "oficio": {
+  "dato": "La licencia de un proyecto no es un archivo: es una declaración por archivo. El estándar que se usa para eso se llama REUSE, y su regla es simple: cada archivo lleva una línea con el identificador de su licencia y el nombre de su titular. Así, cuando un proyecto mezcla piezas con licencias distintas —y casi todos lo hacen—, la respuesta está en el archivo mismo y no en un documento aparte que envejece. Un proyecto que cumple REUSE se puede auditar en minutos; uno que no, exige exactamente este tipo de herramienta. Saber cuál de los dos tenés delante te dice de entrada cuánto trabajo te va a costar el crédito.",
+  "como_comprobar": "En cualquier proyecto que declares cumplir el estándar, contá cuántos archivos llevan su identificador de licencia y compará ese número con el total de archivos del árbol.",
+  "comando": "reuse lint"
+ },
+ "riesgos": [
+  "Publicar un proyecto con una dependencia sin licencia y creer que por ser gratis se puede usar.",
+  "Cumplir el nombre de la licencia y olvidar el aviso de copyright que la misma licencia exige conservar."
+ ],
+ "alternativas": [
+  "cli/cli",
+  "ossf/scorecard"
+ ],
+ "senal": {
+  "estrellas": 2117,
+  "nota": 73,
+  "edad_dias": 3302,
+  "ultima_entrega": "2026-10-29",
+  "descargas_10": 3186,
+  "contribuyentes": 100,
+  "repo_mb": 156.2,
+  "ci": 5,
+  "incidencias": "341 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Herramienta de OSS Review Toolkit y sus contribuyentes · Apache-2.0 · medido el 3 de noviembre de 2026"
+}
