@@ -2,7 +2,7 @@
 
 *Cómo está hecho este repositorio, por qué está hecho así y qué se puede comprobar de lo que declara. Actualizado el 3 de noviembre de 2026.*
 
-**TL;DR —** el repositorio tiene **tres capas** (ley, oficio, producto) y **un solo sentido del dato**: se mide, se guarda, se escribe la enseñanza, se genera el producto y se sella todo. La regla que decide qué es código y qué es texto es una sola frase: **lo que es dato se genera, lo que es enseñanza se escribe**. Hoy: 31 herramientas, 10.193 archivos sellados, 70 fichas medidas, 12 capítulos y 2 canales con 5 piezas publicadas cada uno. Quien quiera el detalle de cada programa tiene `docs/CODIGO.md`; quien quiera el mapa de carpetas tiene `MAPA-DEL-ARCHIVO.md`.
+**TL;DR —** el repositorio tiene **tres capas** (ley, oficio, producto) y **un solo sentido del dato**: se mide, se guarda, se escribe la enseñanza, se genera el producto y se sella todo. La regla que decide qué es código y qué es texto es una sola frase: **lo que es dato se genera, lo que es enseñanza se escribe**. Hoy: 31 herramientas, 10.196 archivos sellados, 70 fichas medidas, 12 capítulos y 2 canales con 5 piezas publicadas cada uno. Quien quiera el detalle de cada programa tiene `docs/CODIGO.md`; quien quiera el mapa de carpetas tiene `MAPA-DEL-ARCHIVO.md`.
 
 ---
 
@@ -87,7 +87,7 @@ Lo que se declara aquí se puede volver a medir con `make verificar`.
 
 | Métrica | Valor del corte | Cómo se obtiene |
 |---|---|---|
-| Archivos sellados | **10.193** | `atestar.py`, manifiesto SHA-256 |
+| Archivos sellados | **10.196** | `atestar.py`, manifiesto SHA-256 |
 | Fichas del registro | 9.472 | `registry/*.json` |
 | Fichas de la guía | **70** en 12 capítulos | `guia-maestra/datos/apps/` |
 | Herramientas | **31** en `tools/` + 1 generador | `indice_docs.py` |

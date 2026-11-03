@@ -15,7 +15,7 @@ La pasada de orden. Se hizo porque el archivo, que presume de verificar, tenía 
 - `ARQUITECTURA.md`: las tres capas, el sentido del dato en cinco pasos, seis decisiones con su contexto y su coste, y los números del corte.
 - `docs/CODIGO.md`: las 31 herramientas explicadas una por una —qué recibe, qué hace, qué produce y **qué no hace**— más tres invariantes.
 - `tools/tareas.py`: extrae el tablero de tareas de las piezas y los documentos, y falla si una pieza repite número o salta uno dentro de su propia serie. Salida: `docs/TAREAS.md`, 12 tareas, 0 incidencias, 2 declaradas.
-- `tools/indice_docs.py`: índice de documentos con resumen largo verificado. Salida: `docs/INDICE.md`, 48 documentos en 19 familias y 31 herramientas.
+- `tools/indice_docs.py`: índice de documentos con resumen largo verificado. Salida: `docs/INDICE.md`, 49 documentos en 19 familias y 31 herramientas.
 - `tools/doctor.py`: cinco bloques de diagnóstico y un veredicto. Se niega a decir LISTO si falta una pieza esencial.
 - `Makefile`: catorce destinos (`ayuda`, `doctor`, `verificar`, `sellar`, `compuertas`, `licencias`, `generar`, `sitio`, `tareas`, `indice`, `libro`, `medir`, `publicar`, `push`) para que el primer comando no haya que adivinarlo.
 - Archivos de salud comunitaria: `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `SUPPORT.md`, `CHANGELOG.md`, plantillas de incidencia y de solicitud de cambio, y `CODEOWNERS`.
@@ -23,7 +23,7 @@ La pasada de orden. Se hizo porque el archivo, que presume de verificar, tenía 
 ### Cambiado
 
 - **`ARCHIVO-HISTORICO/`**: ocho carpetas de memoria (`03-PUBLICACIONES-2026-09-15`, `04-VERSIONES-MULTIIDIOMA`, `backup-previo-correccion-14-09`, `archivo`, `site-demo`, `datos-censo`, `datos-miyomi`, `datos-v25`) consolidadas en una sola, con `INDICE-2026-10.md` y `MANIFIESTO-2026-10.md`. La raíz pasa de 29 a 24 entradas.
-- **El sello ahora cubre el gobierno del repositorio.** `tools/sello_reglas.py` no sellaba `Makefile`, `ARQUITECTURA.md`, los archivos de salud comunitaria, `.github/`, `LICENSES/` ni las licencias: el README podía cambiar sin que la integridad lo notara. Con la corrección, el sello pasa de 10.173 a **10.193 archivos**.
+- **El sello ahora cubre el gobierno del repositorio.** `tools/sello_reglas.py` no sellaba `Makefile`, `ARQUITECTURA.md`, los archivos de salud comunitaria, `.github/`, `LICENSES/` ni las licencias: el README podía cambiar sin que la integridad lo notara. Con la corrección, el sello pasa de 10.173 a **10.196 archivos**.
 - Rutas de herramienta corregidas en `tools/duplicados.py`, `tools/idioma_mojibake.py` y `tools/sitio.py`, que seguían apuntando a las carpetas movidas. Las dos compuertas vuelven a salir con código 0.
 - `README.md` y `MAPA-DEL-ARCHIVO.md` revisados: tabla de rutas anteriores traducidas, estado del corte y punto de entrada único.
 
@@ -36,7 +36,7 @@ La pasada de orden. Se hizo porque el archivo, que presume de verificar, tenía 
 ### Verificado
 
 - `vara.py`: **fallos NINGUNO** en las quince compuertas.
-- `atestar.py`: **10.193 archivos**, huella encadenada en `attestations/lote-2026-11-03.json`.
+- `atestar.py`: **10.196 archivos**, huella encadenada en `attestations/lote-2026-11-03.json`.
 - Integración continua: `success` sobre el árbol sellado.
 - `envio.py --verificar`: 5 de 5 en Facebook y 5 de 5 en WhatsApp, cero fallos.
 

@@ -44,7 +44,7 @@ No hace falta instalar nada más que Python 3.11 o superior. El sitio que se gen
 ```bash
 python3 tools/sitio.py            # escribe site/ — índice, piezas, fichas, RSS
 python3 tools/tareas.py           # escribe docs/TAREAS.md — el tablero de tareas abiertas
-python3 tools/indice_docs.py      # escribe docs/INDICE.md — 48 documentos con su resumen
+python3 tools/indice_docs.py      # escribe docs/INDICE.md — 49 documentos con su resumen
 ```
 
 **Si vas a publicar una pieza:**
@@ -126,7 +126,7 @@ El orden no es opcional: cada paso produce la evidencia que el siguiente comprue
 
 | Indicador | Valor del corte | Cómo se comprueba |
 |---|---|---|
-| Archivos sellados | **10.193** | `tools/atestar.py --verificar` |
+| Archivos sellados | **10.196** | `tools/atestar.py --verificar` |
 | Fichas del registro | 6.838 | `tools/vara.py`, compuerta G1 |
 | Compuertas | **G0 a G15**, ninguna en rojo | `tools/vara.py` |
 | Piezas del archivo | 258 (5 + 5 vivas, el resto en histórico) | G0 |

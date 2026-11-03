@@ -26,11 +26,12 @@ CUBIERTAS = ("registry", "schemas", "Arena-Reimagined/01-PUBLICACIONES",
              "README.md", "ARQUITECTURA.md", "MAPA-DEL-ARCHIVO.md",
              "MANIFIESTO-ARQUITECTURA.md", "CORAZON-LA-BANDITA.md",
              "CONTRIBUTING.md", "CODE_OF_CONDUCT.md", "SECURITY.md", "SUPPORT.md",
-             "CHANGELOG.md", "NOTICE", "LICENSE")
+             "CHANGELOG.md", "NOTICE", "LICENSE", "Makefile")
 
-# Archivos sin sufijo que también se sellan (el `Makefile` es la puerta de entrada: si cambia
-# un destino, cambia lo que cualquiera ejecuta con confianza).
-EXACTOS = {"Makefile"}
+# Archivos sin sufijo que también se sellan: el `Makefile` es la puerta de entrada —si cambia un
+# destino, cambia lo que cualquiera ejecuta con confianza— y `.reuse/dep5` es la licencia de todo
+# lo que no lleva cabecera propia.
+EXACTOS = {"Makefile", ".reuse/dep5"}
 
 SUFIJOS = {".json", ".md", ".tsv", ".yml", ".html", ".schema", ".txt"}
 

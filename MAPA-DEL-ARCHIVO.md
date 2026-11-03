@@ -82,7 +82,7 @@ schemas/                      el contrato de datos: la forma que toda ficha debe
 docs/                         compuertas, bandas, envíos, actas, tableros
   bandas.json                 la banda de longitud de cada pieza viva
   TAREAS.md                   el tablero de tareas, generado por tools/tareas.py
-  INDICE.md                   los 48 documentos con su resumen, generado
+  INDICE.md                   los 49 documentos con su resumen, generado
   CODIGO.md                   qué hace y qué no hace cada una de las 31 herramientas
   envios/<canal>/             los envíos listos para mandar
   envios/_historico/          los envíos de las piezas que pasaron al archivo

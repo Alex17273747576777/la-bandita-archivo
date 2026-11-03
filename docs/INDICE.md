@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 48 documentos en `docs/`, agrupados en 19 familias, y 31 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 49 documentos en `docs/`, agrupados en 19 familias, y 31 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -23,6 +23,7 @@
 | [`ACTA-PIEZA-01-2026-11-03.md`](ACTA-PIEZA-01-2026-11-03.md) | Acta de la pieza 01 de Facebook · segunda versión · 3 de noviembre de 2026 | La primera eligió doce proyectos a ojo entre los medidos. | 52 |
 | [`ACTA-PIEZA-04-2026-11-03.md`](ACTA-PIEZA-04-2026-11-03.md) | Acta de la pieza 04 · Facebook · 3 de noviembre de 2026 | — sin primera oración con cuerpo — | 48 |
 | [`ACTA-PIEZA-04-WA-2026-11-03.md`](ACTA-PIEZA-04-WA-2026-11-03.md) | Acta de la pieza 04 de WhatsApp · 3 de noviembre de 2026 | — sin primera oración con cuerpo — | 30 |
+| [`ACTA-REFINADO-Y-VERIFICACION-2026-11-03-B.md`](ACTA-REFINADO-Y-VERIFICACION-2026-11-03-B.md) | ACTA · refinado del repositorio y verificación triple (segunda pasada) | Quince archivos de gobierno descargados con la API sobre el commit publicado y comparados por SHA-256 contra el manifiesto local. **13 iguales en la… | 83 |
 | [`ACTA-REINICIO-CICLO-2026-11-02.md`](ACTA-REINICIO-CICLO-2026-11-02.md) | Acta de reinicio del ciclo de publicaciones · 2 de noviembre de 2026 | Una pieza publicada es evidencia: se midió, se gateó y salió a la calle. | 87 |
 ### Barridos · barridos de error
 
@@ -166,7 +167,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`novedad_gate.py`](../tools/novedad_gate.py) | TESTIGO DE NOVEDAD Y DE SERIE CORTA — N01–N08, M24–M28, M00. | 248 |
 | [`pulso.py`](../tools/pulso.py) | PULSO · mide repositorios en fuente primaria y escribe fichas con evidencia cruda. | 430 |
 | [`registro_construir.py`](../tools/registro_construir.py) | REGISTRO · construye las fichas JSON del activo vendible desde el censo medido. | 201 |
-| [`sello_reglas.py`](../tools/sello_reglas.py) | REGLAS DEL SELLO · en un solo sitio, para que la vara y la atestación no se contradigan. | 53 |
+| [`sello_reglas.py`](../tools/sello_reglas.py) | REGLAS DEL SELLO · en un solo sitio, para que la vara y la atestación no se contradigan. | 54 |
 | [`sitio.py`](../tools/sitio.py) | SITIO · genera el sitio estático de La Bandita desde las piezas y el registro. | 617 |
 | [`swhid.py`](../tools/swhid.py) | SWHID POR REVISIÓN MEDIDA · el código que se midió, citado de forma que no se pueda perder. | 155 |
 | [`tareas.py`](../tools/tareas.py) | TAREAS · el extractor del archivo: de las piezas al tablero, sin copiar a mano. | 163 |
