@@ -33,6 +33,14 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from fecha_casa import hoy as fecha_casa_hoy  # noqa: E402
 
+# Fecha "de trabajo". En generación es la del día; al verificar un envío ya archivado es la que el
+# propio envío declara, para que la comprobación sea determinista y no se caiga sola a medianoche.
+_FECHA_AS_OF: str | None = None
+
+
+def hoy_efectivo() -> str:
+    return _FECHA_AS_OF or fecha_casa_hoy()
+
 RAIZ = Path(__file__).resolve().parents[1]  # se puede cambiar con --raiz (lo usa la autoprueba)
 PUBLICACIONES = RAIZ / "Arena-Reimagined" / "01-PUBLICACIONES"
 SALIDA = RAIZ / "docs" / "envios"
@@ -101,7 +109,7 @@ def fecha_real(texto: str, p: Path) -> tuple[str, str]:
 def edad(f: str) -> int:
     if not f:
         return -1
-    return (date(*map(int, fecha_casa_hoy().split("-"))) - date(*map(int, f.split("-")))).days
+    return (date(*map(int, hoy_efectivo().split("-"))) - date(*map(int, f.split("-")))).days
 
 
 # ─────────────────────── extracción de datos ───────────────────────
@@ -219,7 +227,7 @@ def medir(tok: str, canal: str = "whatsapp") -> int:
         links = dict(zip(sorted(urls), ex.map(medir_enlace, sorted(urls))))
     print("enlaces medidos", flush=True)
     datos = {
-        "medido_en": fecha_casa_hoy(),
+        "medido_en": hoy_efectivo(),
         "medido_en_utc": datetime.now().astimezone().isoformat(timespec="seconds"),
         "repos": {k: {**v, "stars_pieza": repos[k].get("stars_pieza")} for k, v in medidos.items()},
         "enlaces": links,
@@ -322,7 +330,7 @@ def partir(texto: str, tope: int = TOPE) -> list[str]:
 def cierre_viejo(texto: str) -> tuple[str, str]:
     """Separa (cuerpo, apéndice) cuando el cierre está fechado en un día que no es hoy."""
     lineas = texto.rstrip("\n").split("\n")
-    hoy = fecha_casa_hoy()
+    hoy = hoy_efectivo()
     corte = None
     for i, ln in enumerate(lineas):
         if i < len(lineas) * 0.5:
@@ -477,7 +485,7 @@ def titulo_pieza(texto: str, p: Path | None = None) -> str:
 
 def portada(p: Path, texto: str, repos: dict, med: dict, n_mensajes: int) -> str:
     f, fuente = fecha_real(texto, p)
-    hoy = fecha_casa_hoy()
+    hoy = hoy_efectivo()
     vivos = sum(1 for r in repos if (med.get(r) or {}).get("estado") == "vivo")
     muertos = [r for r in repos if (med.get(r) or {}).get("estado") == "muerto"]
     lic = {}
@@ -501,7 +509,7 @@ def portada(p: Path, texto: str, repos: dict, med: dict, n_mensajes: int) -> str
     ]
     if lic_txt:
         lineas += ["", f"Licencias de lo que recomienda: {lic_txt}."]
-    if f and f != fecha_casa_hoy():
+    if f and f != hoy_efectivo():
         lineas += ["", (f"⚠️ *Aviso de fecha:* este texto se escribió el {bon(f)}. Todo lo que dice "
                         f"«hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, "
                         f"firmada y con su fecha.")]
@@ -542,12 +550,12 @@ def una(p: Path, med: dict, escribir: bool = True) -> dict:
     # enlaces de verdad (http), con su veredicto de hoy
     links = {u: viv[u] for u in urls
              if u in viv and isinstance(viv[u], dict) and "veredicto" in viv[u]}
-    cierre = cierre_hoy(repos, {"_hoy": fecha_casa_hoy(), **viv}, f"pieza {numero(p)}", links)
+    cierre = cierre_hoy(repos, {"_hoy": hoy_efectivo(), **viv}, f"pieza {numero(p)}", links)
     # el cierre se agrupa: mensajes cortos seguidos se pegan si caben
     while len(cierre) > 2 and len(cierre[0]) + len(cierre[1]) + 2 <= TOPE - MARGEN:
         cierre = [cierre[0] + "\n\n" + cierre[1]] + cierre[2:]
     f_real, _ = fecha_real(cuerpo, p)
-    if f_real and f_real != fecha_casa_hoy() and partes:
+    if f_real and f_real != hoy_efectivo() and partes:
         partes[0] = (f"[Texto del {bon(f_real)}: cuando dice «hoy», es ese día. La medición de hoy está "
                      f"al final.]\n\n") + partes[0]
     # la portada se escribe al final, cuando ya se sabe cuántos mensajes van de verdad
@@ -562,7 +570,7 @@ def una(p: Path, med: dict, escribir: bool = True) -> dict:
               f"- **Fecha de la pieza:** {bon(fecha_real(cuerpo, p)[0])} "
               f"(según {fecha_real(cuerpo, p)[1]}; edad hoy: {edad(fecha_real(cuerpo, p)[0])} días)",
               f"- **sha256 de la pieza:** `{sha}`",
-              f"- **Envío generado:** {fecha_casa_hoy()} · {len(mensajes)} mensajes · "
+              f"- **Envío generado:** {hoy_efectivo()} · {len(mensajes)} mensajes · "
               f"el mayor de {max(len(t) for t in mensajes)} caracteres",
               "- **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.",]
     if valla_abierta:
@@ -606,7 +614,7 @@ def generar(solo: str | None = None, canal: str = "whatsapp", permitir_huecos: b
             huecos.append((p.name, faltan))
         filas.append(una(p, med))
     indice = [f"# ENVÍOS DE {'WHATSAPP' if canal == 'whatsapp' else 'FACEBOOK'} · índice", "",
-              f"Generado el {fecha_casa_hoy()} a partir de la medición del mismo día "
+              f"Generado el {hoy_efectivo()} a partir de la medición del mismo día "
               f"(`docs/envios/_medicion-{canal}.json`). Reglas y plan: `docs/envios/COMO-SE-MANDA.md`.", "",
               f"Cada archivo de `docs/envios/{canal}/` es un envío listo para copiar: portada, cuerpo "
               "partido en mensajes de menos de 4.000 caracteres y cierre con el estado de hoy. La pieza "
@@ -640,6 +648,28 @@ def generar(solo: str | None = None, canal: str = "whatsapp", permitir_huecos: b
 
 
 # ─────────────────────────── verificar ───────────────────────────
+
+def fecha_declarada(envio: str) -> str | None:
+    """La fecha que el propio envío declara, para verificar un archivo archivado contra el
+    generador *de su día*.
+
+    Sin esto, todo envío nacía imposible de verificar a la mañana siguiente y la línea de CI se
+    ponía roja sola cada medianoche aunque nadie hubiera tocado un byte. Se lee de la cabecera
+    (`- **Envío generado:** AAAA-MM-DD`), que es la que el generador escribe siempre; si falta,
+    se intenta la firma final.
+    """
+    m = re.search(r"En[ **]*vío generado:\*\*\s*(\d{4})-(\d{2})-(\d{2})", envio)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    m = re.search(r"💓[^\n]*?(\d{1,2}) de ([a-záéíóú]+) de (\d{4})", envio)
+    if not m:
+        return None
+    meses = {v: k for k, v in MESES.items()}
+    mes = m.group(2).lower()[:3]
+    if mes not in meses:
+        return None
+    return f"{m.group(3)}-{meses[mes]:02d}-{int(m.group(1)):02d}"
+
 
 def verificar(canal: str = "whatsapp") -> int:
     """Tres cosas: que quepa, que el cuerpo esté entero y que el archivo sea exactamente lo que el
@@ -694,7 +724,10 @@ def verificar(canal: str = "whatsapp") -> int:
         if "💓" not in bloques_msg[-1][2]:
             fallos.append(f"{env.name}: el último mensaje no lleva firma")
         if med:
+            global _FECHA_AS_OF
+            previa, _FECHA_AS_OF = _FECHA_AS_OF, fecha_declarada(t)
             esperado = una(src, med, escribir=False)["_contenido"]
+            _FECHA_AS_OF = previa
             if esperado != t:
                 fallos.append(f"{env.name}: el archivo no coincide con lo que genera el programa "
                               f"(editado a mano o medición vieja: regenerar)")
