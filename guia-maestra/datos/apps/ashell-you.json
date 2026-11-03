@@ -1,0 +1,51 @@
+{
+ "id": "ashell-you",
+ "nombre": "aShellYou",
+ "repo": "DP-Hridayan/aShellYou",
+ "autores": [{"nombre": "DP-Hridayan", "enlace": "https://github.com/DP-Hridayan"}],
+ "licencia": {"spdx": "GPL-3.0", "archivo": "https://github.com/DP-Hridayan/aShellYou/blob/main/LICENSE"},
+ "nivel": "experto",
+ "tarea": "Ejecutar órdenes del sistema desde el teléfono, con el permiso prestado, sin computadora ni cable.",
+ "capitulo": 3,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien ya sabe qué es un paquete y quiere dejar de depender de la computadora para cada orden.",
+  "no_es": "para quien nunca haya escrito una orden: un error de dedo aquí desinstala algo."
+ },
+ "manos": [
+  "Concede el permiso y autoriza aShellYou como cualquier otra aplicación.",
+  "Abre la consola y escribe `id` para confirmar con qué usuario estás ejecutando.",
+  "Prueba una orden que no cambia nada: `pm list packages -3 | wc -l` cuenta las aplicaciones instaladas por el usuario.",
+  "Para congelar una aplicación: `pm disable-user --user 0 <paquete>`. Comprueba con `pm list packages -d` que aparece en la lista de deshabilitadas.",
+  "Para revertir: `pm enable <paquete>`. Comprueba que desaparece de la lista de deshabilitadas."
+ ],
+ "resultado_esperado": "Las órdenes responden sin errores de permiso y los cambios se ven en los ajustes del sistema.",
+ "si_sale_mal": [
+  "Si dice «Permission denied», el permiso no está activo: vuelve a Shizuku y comprueba el estado.",
+  "Si una orden deja el teléfono raro, reinicia: lo congelado vuelve a su estado si no tocaste paquetes del sistema."
+ ],
+ "deshacer": "Cada congelado se revierte con `pm enable <paquete>`; cada desinstalación para el usuario, con `cmd package install-existing <paquete>`.",
+ "cabeza": [
+  "Una consola con el permiso prestado es la herramienta más honesta de este capítulo: no esconde lo que hace, lo escribe. Todo lo que las demás aplicaciones hacen con botones, aquí se puede leer y repetir por partes.",
+  "Su límite es de fecha más que de código: su última entrega es del 22 de mayo de 2026, aunque el repositorio se movió treinta y tres veces en el último mes. Un proyecto que empuja y no entrega deja a quien lo usa esperando correcciones ya escritas."
+ ],
+ "limites": [
+  "No trae la última corrección publicada: ciento sesenta y cinco días desde la entrega.",
+  "Un error de dedo en una orden con `pm uninstall` puede quitar algo que el teléfono necesita.",
+  "Más de setenta megabytes de repositorio para una consola."
+ ],
+ "oficio": {
+  "dato": "Desinstalar para el usuario no es desinstalar. `pm uninstall -k --user 0 <paquete>` quita la aplicación del usuario cero pero conserva sus datos y su copia en la partición del sistema, y `cmd package install-existing <paquete>` la devuelve tal como estaba. Es la diferencia entre desinstalar y arrancar: casi toda la publicidad de fábrica se va así, y casi nadie sabe que el camino de vuelta existe y es una sola orden.",
+  "como_comprobar": "Después de `pm uninstall -k --user 0`, la orden `pm list packages -u | grep <paquete>` debe seguir mostrándolo: si aparece, está desinstalado para ti y presente en el sistema. Si no aparece en ninguna lista, se desinstaló de verdad.",
+  "comando": "adb shell cmd package install-existing com.ejemplo.app"
+ },
+ "riesgos": [
+  "Una orden mal escrita puede dejar el teléfono sin lanzador o sin teclado.",
+  "Ejecutar órdenes copiadas de un grupo sin leerlas es la forma más rápida de romper el aparato."
+ ],
+ "alternativas": ["RikkaApps/Shizuku", "krishna3163/OmniShizuku"],
+ "senal": {"estrellas": 2546, "nota": 58, "edad_dias": 1015, "ultima_entrega": "2026-05-22", "descargas_10": 210355, "contribuyentes": 13, "repo_mb": 73.4, "ci": 16, "incidencias": "112/141"},
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de DP-Hridayan · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

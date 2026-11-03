@@ -1,0 +1,54 @@
+{
+ "id": "shizuku",
+ "nombre": "Shizuku",
+ "repo": "RikkaApps/Shizuku",
+ "autores": [{"nombre": "RikkaApps (RikkaW)", "enlace": "https://github.com/RikkaApps"}],
+ "licencia": {"spdx": "Apache-2.0", "archivo": "https://github.com/RikkaApps/Shizuku/blob/master/LICENSE"},
+ "nivel": "principiante",
+ "tarea": "Conceder el permiso de depuración a las aplicaciones que lo necesitan, sin root y sin computadora después del primer emparejamiento.",
+ "capitulo": 3,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien quiera que sus aplicaciones puedan ordenar el sistema sin rootear el teléfono.",
+  "no_es": "para quien no pueda activar las opciones de desarrollador o tenga un aparato con la depuración bloqueada por el fabricante."
+ },
+ "manos": [
+  "Descarga el paquete desde la página de entregas del proyecto: elige el archivo que termina en .apk y no los archivos de sumas de comprobación.",
+  "Ábrelo e instálalo. El sistema pedirá permiso para instalar aplicaciones de esa fuente: acéptalo solo si lo bajaste del repositorio oficial.",
+  "Abre Ajustes, entra en Información del teléfono y toca siete veces «Número de compilación». Aparecerá «Ya eres desarrollador».",
+  "Entra en Ajustes, Sistema, Opciones de desarrollador y activa «Depuración inalámbrica», o «Depuración por ADB» si la primera no existe.",
+  "En Shizuku toca «Iniciar por depuración inalámbrica». En Android 11 o superior el teléfono muestra un código de seis cifras: escríbelo en Shizuku.",
+  "Comprueba el resultado: la pantalla principal debe decir «En ejecución» con una versión. Si dice «Detenido», el emparejamiento no tomó."
+ ],
+ "resultado_esperado": "La pantalla de Shizuku dice «En ejecución». Al abrir una aplicación que pide el permiso, aparece una ventana de autorización con su nombre.",
+ "si_sale_mal": [
+  "Si el emparejamiento falla, apaga y vuelve a encender la depuración inalámbrica y repite el paso del código.",
+  "Si el fabricante esconde las opciones de desarrollador, busca el nombre de tu capa: algunas las mueven a «Ajustes avanzados».",
+  "Si la aplicación se queda en «Detenido» tras reiniciar, el permiso se perdió: es el comportamiento normal y se recupera repitiendo los dos últimos pasos."
+ ],
+ "deshacer": "Desactiva la depuración inalámbrica y desinstala Shizuku. Las aplicaciones que dependían del permiso dejan de funcionar hasta que vuelvas a concederlo; ninguna pierde sus datos.",
+ "cabeza": [
+  "Shizuku arranca un proceso que corre con el usuario del sistema encargado de la depuración, no con el usuario root. Ese proceso escucha dentro del propio teléfono y solo responde a las aplicaciones que el usuario ha autorizado una por una.",
+  "Esa es la diferencia de fondo con root: aquí el sistema lleva la cuenta de quién pidió qué y puede negarlo, mientras que root no rinde cuentas de nada.",
+  "El precio de no rootear es este: el permiso vive en la sesión de depuración, y una sesión de depuración termina al reiniciar. En Android 11 o superior el sistema permite que se reabra sola si la depuración inalámbrica quedó activada."
+ ],
+ "limites": [
+  "No da acceso a los archivos de otras aplicaciones ni al sistema de raíz.",
+  "No sobrevive al reinicio en todas las versiones, y no sobrevive nunca a desactivar la depuración.",
+  "Consume batería mientras está en ejecución: es un servicio, y los servicios cuestan."
+ ],
+ "oficio": {
+  "dato": "El permiso es por usuario del sistema, no por teléfono: cada aplicación autorizada recibe su propio visto bueno y se puede retirar sin tocar las demás. Y hay un detalle que casi nadie usa: si el aparato tiene varias cuentas, la depuración y el permiso se conceden en la cuenta desde la que se activa, así que en la segunda cuenta las aplicaciones vuelven a pedirlo.",
+  "como_comprobar": "Con la sesión activa, ejecuta `dumpsys package <paquete> | grep -i -A2 granted` para ver qué permisos tiene concedidos una aplicación concreta; lo que el permiso de depuración te deja ver es exactamente lo que el sistema le concede.",
+  "comando": "adb shell dumpsys package com.ejemplo.app | grep -i -A2 granted"
+ },
+ "riesgos": [
+  "Conceder el permiso a un paquete que llegó por un enlace de un grupo de mensajería es la forma más común de entregar el teléfono.",
+  "El proyecto original no publica desde mayo de 2025; los derivados sí. Instala desde el repositorio y no desde un espejo."
+ ],
+ "alternativas": ["HmnDev-Tech/shevery", "rushiranpise/Shizuku-Next", "krishna3163/OmniShizuku"],
+ "senal": {"estrellas": 32721, "nota": 40, "edad_dias": 3450, "ultima_entrega": "2025-05-25", "descargas_10": 4956190, "contribuyentes": 100, "repo_mb": 38.1, "ci": 1, "incidencias": "628/1234"},
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de RikkaApps (RikkaW) · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

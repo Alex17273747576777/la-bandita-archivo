@@ -1,0 +1,51 @@
+{
+ "id": "dhizuku",
+ "nombre": "Dhizuku",
+ "repo": "iamr0s/Dhizuku",
+ "autores": [{"nombre": "iamr0s", "enlace": "https://github.com/iamr0s"}],
+ "licencia": {"spdx": "GPL-3.0", "archivo": "https://github.com/iamr0s/Dhizuku/blob/main/LICENSE"},
+ "nivel": "experto",
+ "tarea": "Repartir el permiso de dueño del aparato entre aplicaciones, para políticas de bloqueo y administración.",
+ "capitulo": 3,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien administre un teléfono dedicado, un quiosco o un aparato de la casa y necesite políticas, no solo instalar cosas.",
+  "no_es": "para quien solo quiera quitar anuncios: este permiso es más fuerte y más difícil de deshacer."
+ },
+ "manos": [
+  "Lee la guía del proyecto antes de instalar: el permiso de dueño del aparato no se concede desde un menú normal.",
+  "Activa la depuración y concede el permiso base siguiendo las instrucciones del proyecto.",
+  "Autoriza solo las aplicaciones que vayas a usar para administrar, una por una, y anota cuáles.",
+  "Prueba una política reversible —por ejemplo, impedir la desinstalación de una aplicación concreta— antes de aplicar ninguna global.",
+  "Comprueba el resultado en los ajustes del sistema: el teléfono debe mostrar que está administrado y por quién."
+ ],
+ "resultado_esperado": "Las aplicaciones autorizadas aplican políticas y el teléfono las reconoce como administración legítima.",
+ "si_sale_mal": [
+  "Si el teléfono queda bloqueado, la salida está en el modo de recuperación del fabricante: por eso se prueba en un aparato de repuesto.",
+  "Si una aplicación no ve el permiso, revisa que esté autorizada en Dhizuku y no solo instalada."
+ ],
+ "deshacer": "Retira el permiso de dueño desde los ajustes del sistema, en Administración del dispositivo, antes de desinstalar Dhizuku. Desinstalarlo primero puede dejar políticas activas sin quien las controle.",
+ "cabeza": [
+  "Es el otro permiso, y conviene no confundirlos: el de depuración deja ordenar el sistema; el de dueño del aparato deja imponer reglas y sobrevive a reinicios. Con él se bloquean aplicaciones, se impiden desinstalaciones y se fijan políticas de empresa o de quiosco.",
+  "Su cola es de las mejores de todo el ecosistema —ciento setenta y una cerradas de ciento setenta y cuatro— y sesenta y nueve personas han empujado código en tres años y medio. Ese respaldo es lo que hace razonable confiarle un aparato dedicado y no el teléfono personal."
+ ],
+ "limites": [
+  "El permiso de dueño es difícil de retirar si se aplica mal.",
+  "Pensado para aparatos administrados; en un teléfono personal es herramienta de último recurso.",
+  "Requiere pasos que el sistema no ofrece en un menú."
+ ],
+ "oficio": {
+  "dato": "El permiso de dueño del aparato y el de perfil de trabajo son dos cosas distintas, y el segundo se puede crear sin root en Android 11 o superior desde los ajustes. Una aplicación que solo necesita aislar un conjunto de programas —por ejemplo, para trabajar— puede vivir en un perfil aparte sin conceder el permiso de dueño a nadie. Antes de administrar el teléfono entero, vale la pena preguntarse si bastaba con aislar una parte.",
+  "como_comprobar": "Con el permiso concedido, `dumpsys device_policy` lista los administradores activos y el dueño del aparato. Si aparece una aplicación que no reconoces, ahí está el problema y ahí se retira.",
+  "comando": "adb shell dumpsys device_policy | head -40"
+ },
+ "riesgos": [
+  "Aplicar una política global sin probar una reversible puede dejar el aparato inutilizable.",
+  "Es el permiso que más se presta a abusos: solo a programas con código auditable y equipo visible."
+ ],
+ "alternativas": ["RikkaApps/Shizuku", "DP-Hridayan/aShellYou"],
+ "senal": {"estrellas": 4079, "nota": 65, "edad_dias": 1303, "ultima_entrega": "2026-10-30", "descargas_10": 153340, "contribuyentes": 69, "repo_mb": 3.0, "ci": 2, "incidencias": "171/174"},
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de iamr0s · GPL-3.0 · medido el 3 de noviembre de 2026"
+}
