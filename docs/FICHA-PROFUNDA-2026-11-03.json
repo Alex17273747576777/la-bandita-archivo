@@ -1,0 +1,4072 @@
+{
+ "fecha": "2026-11-03",
+ "medido_en": "2026-11-03T14:37:50+00:00",
+ "fichas": [
+  {
+   "repo": "Gathin23/cleanyourtv",
+   "nombre": "cleanyourtv",
+   "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+   "autoria": "Gathin23",
+   "tipo_autor": "User",
+   "web": "https://cleanyour.tv",
+   "creado": "2026-10-17",
+   "edad_dias": 17,
+   "push": "2026-11-03",
+   "dias_sin_push": 0,
+   "stars": 50995,
+   "forks": 6441,
+   "vigilantes": 131,
+   "incidencias": 197,
+   "peticiones_abiertas": 76,
+   "contribuyentes": 100,
+   "licencia": "NOASSERTION",
+   "licencia_texto": "MIT License\n\nCopyright (c) 2026 Gathin\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge,",
+   "lenguaje": "Python",
+   "tamanyo_kb": 72395,
+   "temas": [
+    "adb",
+    "adblock",
+    "android-tv",
+    "android-tv-launcher",
+    "apple-tv",
+    "bloatware-removal",
+    "claude-code",
+    "debloat",
+    "fire-tv",
+    "google-tv",
+    "launcher",
+    "privacy",
+    "smart-tv",
+    "sony-bravia",
+    "tcl",
+    "vibe-coding",
+    "xiaomi"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 11,
+   "ultimas": [
+    {
+     "tag": "v3.3.0",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": []
+    },
+    {
+     "tag": "v3.2.0",
+     "fecha": "2026-10-29",
+     "pre": false,
+     "adjuntos": []
+    },
+    {
+     "tag": "v3.1.0",
+     "fecha": "2026-10-27",
+     "pre": false,
+     "adjuntos": []
+    },
+    {
+     "tag": "v3.0.0",
+     "fecha": "2026-10-25",
+     "pre": false,
+     "adjuntos": []
+    },
+    {
+     "tag": "v2.7.0",
+     "fecha": "2026-10-23",
+     "pre": false,
+     "adjuntos": []
+    },
+    {
+     "tag": "v2.6.0",
+     "fecha": "2026-10-22",
+     "pre": false,
+     "adjuntos": []
+    },
+    {
+     "tag": "v2.5.0",
+     "fecha": "2026-10-21",
+     "pre": false,
+     "adjuntos": []
+    },
+    {
+     "tag": "v2.4.0",
+     "fecha": "2026-10-20",
+     "pre": false,
+     "adjuntos": []
+    },
+    {
+     "tag": "v2.3.0",
+     "fecha": "2026-10-19",
+     "pre": false,
+     "adjuntos": []
+    },
+    {
+     "tag": "v2.2.0",
+     "fecha": "2026-10-19",
+     "pre": false,
+     "adjuntos": []
+    }
+   ],
+   "adjuntos_10": 0,
+   "descargas_10": 0,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "d7b0d4a5284d3934a1fce192bd4e2f43aa1fbf97",
+   "readme_chars": 37385,
+   "readme_inicio": "<p align=\"center\">\n  <a href=\"https://cleanyour.tv\"><img src=\"https://raw.githubusercontent.com/Gathin23/cleanyourtv/main/docs/banner.png\" alt=\"CleanYourTV. Your TV, minus the ads. Strip the bloatware from any Android TV or Google TV over Wi-Fi and replace the ad-filled home screen with a clean launcher that looks like an Apple TV. No root, no cable, nothing uninstalled, and a one-line restore.\" width=\"800\"></a>\n</p>\n\n<p align=\"center\">\n  Read in: <a href=\"README.zh-CN.md\">简体中文</a> · <a href=\"README.zh-TW.md\">正體中文</a> · <a href=\"README.vi.md\">Tiếng Việt</a> · <a href=\"README.ja.md\">日本語</a> · <a href=\"README.it.md\">Italiano</a> · <a href=\"README.nl.md\">Nederlands</a> · <a href=\"README.de.md\">Deutsch</a> · <a href=\"README.uk.md\">Українська</a> · <a href=\"README.tr.md\">Türkçe</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/Gathin23/cleanyourtv/stargazers\"><img src=\"https://img.shields.io/github/stars/Gathin23/cleanyourtv?style=flat&cacheSeconds=1800&color=cfffcf&labelColor=15181e\" alt=\"Stars\"></a>\n  <a href=\"https://github.com/Gathin23/cleanyourtv/pulls?q=is%3Amerged\"><img src=\"https://img.shields.io/github/issues-search?query=repo%3AGathin23%2Fcleanyourtv%20is%3Apr%20is%3Amerged&style=flat&cacheSeconds=1800&label=merged%20PRs&color=cfffcf&labelColor=15181e\" alt=\"Merged PRs\"></a>\n  <a href=\"https://github.com/Gathin23/cleanyourtv/network/members\"><img src=\"https://img.shields.io/github/forks/Gathin23/cleanyourtv?style=flat&cacheSeconds=1800&color=cfffcf&labelColor=15181e\" alt=\"Forks\"></a>\n  <a href=\"https://github.com/Gathin23/cleanyourtv/graphs/contributors\"><img src=\"https://img.shields.io/github/contributors/Gathin23/cleanyourtv?style=flat&cacheSeconds=1800&color=cfffcf&labelColor=15181e\" alt=\"Contributors\"></a>\n  <a href=\"https://buymeacoffee.com/gathint\"><i",
+   "readme_idiomas": [
+    "中文",
+    "日本語"
+   ]
+  },
+  {
+   "repo": "InukaAsith/TwinDesk",
+   "nombre": "TwinDesk",
+   "desc": " All your computers and your phone, working as one desk. Screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux and Android. Free and open source. No account, no cloud, and now no shared network needed.",
+   "autoria": "InukaAsith",
+   "tipo_autor": "User",
+   "web": "https://twin-desk.vercel.app",
+   "creado": "2026-10-14",
+   "edad_dias": 20,
+   "push": "2026-11-02",
+   "dias_sin_push": 1,
+   "stars": 3176,
+   "forks": 238,
+   "vigilantes": 27,
+   "incidencias": 28,
+   "peticiones_abiertas": 1,
+   "contribuyentes": 18,
+   "licencia": "GPL-3.0",
+   "licencia_texto": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n             ",
+   "lenguaje": "JavaScript",
+   "tamanyo_kb": 13097,
+   "temas": [
+    "android",
+    "connect",
+    "electron",
+    "kde-connect-alternative",
+    "kvm",
+    "linux",
+    "macbook",
+    "macos",
+    "mouse-sharing",
+    "phone-link-alternative",
+    "productivity",
+    "screen-sharing",
+    "synergy-alternative",
+    "windows"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 9,
+   "ultimas": [
+    {
+     "tag": "v2.5.0-beta.1",
+     "fecha": "2026-10-29",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "TwinDesk-2.5.0-beta.1-full.apk",
+       "kb": 26712.7,
+       "descargas": 157
+      },
+      {
+       "nombre": "TwinDesk-2.5.0-beta.1.apk",
+       "kb": 26712.4,
+       "descargas": 41
+      },
+      {
+       "nombre": "TwinDesk-2.5.0-beta.1.dmg",
+       "kb": 157133.5,
+       "descargas": 77
+      },
+      {
+       "nombre": "TwinDesk-2.5.0-beta.1-x86_64.AppImage",
+       "kb": 129644.6,
+       "descargas": 59
+      },
+      {
+       "nombre": "TwinDesk-2.5.0-beta.1-intel.deb",
+       "kb": 89658.6,
+       "descargas": 48
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.5.0-beta.1.exe",
+       "kb": 105492.6,
+       "descargas": 323
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.5.0-beta.1-arm64.exe",
+       "kb": 107586.4,
+       "descargas": 46
+      }
+     ]
+    },
+    {
+     "tag": "v2.4.0",
+     "fecha": "2026-10-28",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "TwinDesk-2.4.0.apk",
+       "kb": 24522.3,
+       "descargas": 5338
+      },
+      {
+       "nombre": "TwinDesk-2.4.0-full.apk",
+       "kb": 24522.6,
+       "descargas": 2823
+      },
+      {
+       "nombre": "TwinDesk-2.4.0-amd64.deb",
+       "kb": 89369.6,
+       "descargas": 1013
+      },
+      {
+       "nombre": "TwinDesk-2.4.0-x86_64.AppImage",
+       "kb": 128755.8,
+       "descargas": 1149
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.4.0-arm64.exe",
+       "kb": 106924.0,
+       "descargas": 488
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.4.0.exe",
+       "kb": 104830.2,
+       "descargas": 11822
+      },
+      {
+       "nombre": "twindesk-bin-2.4.0-1-x86_64.pkg.tar.zst",
+       "kb": 121814.1,
+       "descargas": 444
+      },
+      {
+       "nombre": "TwinDesk-2.4.0-arm64.dmg",
+       "kb": 156156.7,
+       "descargas": 3375
+      },
+      {
+       "nombre": "TwinDesk-2.4.0-x64_Intel.dmg",
+       "kb": 164007.9,
+       "descargas": 745
+      }
+     ]
+    },
+    {
+     "tag": "v2.3.0",
+     "fecha": "2026-10-26",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "TwinDesk-2.3.0-x64_Intel.dmg",
+       "kb": 163871.7,
+       "descargas": 97
+      },
+      {
+       "nombre": "TwinDesk-2.3.0.apk",
+       "kb": 24520.9,
+       "descargas": 889
+      },
+      {
+       "nombre": "TwinDesk-2.3.0-full.apk",
+       "kb": 24521.2,
+       "descargas": 808
+      },
+      {
+       "nombre": "TwinDesk-2.3.0-amd64.deb",
+       "kb": 89330.3,
+       "descargas": 168
+      },
+      {
+       "nombre": "TwinDesk-2.3.0-x86_64.AppImage",
+       "kb": 128687.8,
+       "descargas": 184
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.3.0.exe",
+       "kb": 104780.6,
+       "descargas": 1376
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.3.0-arm64.exe",
+       "kb": 106874.2,
+       "descargas": 119
+      },
+      {
+       "nombre": "TwinDesk-2.3.0-arm64.dmg",
+       "kb": 156070.4,
+       "descargas": 425
+      },
+      {
+       "nombre": "twindesk-bin-2.3.0-1-x86_64.pkg.tar.zst",
+       "kb": 121741.3,
+       "descargas": 52
+      }
+     ]
+    },
+    {
+     "tag": "v2.2.0",
+     "fecha": "2026-10-23",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "TwinDesk-2.2.0.apk",
+       "kb": 24381.8,
+       "descargas": 667
+      },
+      {
+       "nombre": "TwinDesk-2.2.0-full.apk",
+       "kb": 24382.1,
+       "descargas": 794
+      },
+      {
+       "nombre": "TwinDesk-2.2.0-amd64.deb",
+       "kb": 89241.7,
+       "descargas": 116
+      },
+      {
+       "nombre": "TwinDesk-2.2.0-x86_64.AppImage",
+       "kb": 128567.6,
+       "descargas": 218
+      },
+      {
+       "nombre": "TwinDesk.dmg",
+       "kb": 155939.0,
+       "descargas": 209
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.2.0.exe",
+       "kb": 104393.9,
+       "descargas": 976
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.2.0-arm64.exe",
+       "kb": 106487.6,
+       "descargas": 41
+      },
+      {
+       "nombre": "Twindesk_intel.dmg",
+       "kb": 163806.1,
+       "descargas": 25
+      }
+     ]
+    },
+    {
+     "tag": "v2.1.0",
+     "fecha": "2026-10-21",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "TwinDesk.dmg",
+       "kb": 155538.0,
+       "descargas": 204
+      },
+      {
+       "nombre": "TwinDesk-2.1.0-amd64.deb",
+       "kb": 89068.4,
+       "descargas": 97
+      },
+      {
+       "nombre": "TwinDesk-2.1.0-x86_64.AppImage",
+       "kb": 128270.9,
+       "descargas": 175
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.1.0-arm64.exe",
+       "kb": 106200.7,
+       "descargas": 91
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.1.0.exe",
+       "kb": 104107.0,
+       "descargas": 873
+      },
+      {
+       "nombre": "TwinDesk-2.1.0.apk",
+       "kb": 24381.8,
+       "descargas": 434
+      },
+      {
+       "nombre": "TwinDesk-2.1.0-full.apk",
+       "kb": 24382.1,
+       "descargas": 328
+      }
+     ]
+    },
+    {
+     "tag": "v2.0.1",
+     "fecha": "2026-10-19",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "TwinDesk-2.0.1.apk",
+       "kb": 24075.5,
+       "descargas": 1616
+      },
+      {
+       "nombre": "TwinDesk-2.0.1-full.apk",
+       "kb": 24075.6,
+       "descargas": 959
+      },
+      {
+       "nombre": "TwinDesk-2.0.1-x86_64.AppImage",
+       "kb": 119486.9,
+       "descargas": 416
+      },
+      {
+       "nombre": "TwinDesk-2.0.1-amd64.deb",
+       "kb": 82852.8,
+       "descargas": 192
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.0.1-arm64.exe",
+       "kb": 105898.0,
+       "descargas": 103
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.0.1.exe",
+       "kb": 103804.3,
+       "descargas": 2115
+      },
+      {
+       "nombre": "TwinDesk.dmg",
+       "kb": 146405.5,
+       "descargas": 284
+      }
+     ]
+    },
+    {
+     "tag": "v2.0.0",
+     "fecha": "2026-10-18",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "TwinDesk-2.0.0-full.apk",
+       "kb": 24075.6,
+       "descargas": 82
+      },
+      {
+       "nombre": "TwinDesk-2.0.0.apk",
+       "kb": 24075.5,
+       "descargas": 154
+      },
+      {
+       "nombre": "TwinDesk-2.0.0-amd64.deb",
+       "kb": 82858.7,
+       "descargas": 16
+      },
+      {
+       "nombre": "TwinDesk-2.0.0-x86_64.AppImage",
+       "kb": 119486.9,
+       "descargas": 29
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.0.0.exe",
+       "kb": 103806.5,
+       "descargas": 128
+      },
+      {
+       "nombre": "TwinDesk-Setup-2.0.0-arm64.exe",
+       "kb": 105900.3,
+       "descargas": 14
+      },
+      {
+       "nombre": "TwinDesk.dmg",
+       "kb": 146406.2,
+       "descargas": 24
+      }
+     ]
+    },
+    {
+     "tag": "v0.2.0",
+     "fecha": "2026-10-16",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "TwinDesk-0.2.0-amd64.deb",
+       "kb": 78759.8,
+       "descargas": 44
+      },
+      {
+       "nombre": "TwinDesk-0.2.0-x86_64.AppImage",
+       "kb": 114088.0,
+       "descargas": 149
+      },
+      {
+       "nombre": "TwinDesk.dmg",
+       "kb": 136143.1,
+       "descargas": 161
+      },
+      {
+       "nombre": "TwinDesk-Setup-0.2.0.exe",
+       "kb": 93941.0,
+       "descargas": 702
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.0",
+     "fecha": "2026-10-14",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "TwinDesk-v0.1.0.dmg",
+       "kb": 140192.0,
+       "descargas": 9
+      },
+      {
+       "nombre": "TwinDesk-Setup-0.1.0.exe",
+       "kb": 93938.2,
+       "descargas": 19
+      },
+      {
+       "nombre": "TwinDesk-0.1.0-x86_64.AppImage",
+       "kb": 114092.0,
+       "descargas": 9
+      },
+      {
+       "nombre": "TwinDesk-0.1.0-amd64.deb",
+       "kb": 79125.1,
+       "descargas": 4
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 62,
+   "descargas_10": 44543,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "76b69c1d00609d5cb82e9e5cdfe2f42f8257955d",
+   "readme_chars": 44684,
+   "readme_inicio": "<p align=\"center\">\n  <img src=\".github/assets/icon.png\" width=\"112\" alt=\"TwinDesk icon\">\n</p>\n\n<h1 align=\"center\"><a href=\"https://twin-desk.vercel.app\">TwinDesk</a></h1>\n\n<p align=\"center\">\n  <b>All your computers and your phone, working as one desk.</b><br>\n  Screens, apps, files, clipboard, cameras, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux and Android.<br>\n  Free and open source. No account, no cloud, no shared network needed.\n</p>\n\n<p align=\"center\">\n  <a href=\"#download\"><b>⬇️ Download 2.4</b></a> ·\n  <a href=\"https://twin-desk.vercel.app\"><b>Website</b></a> ·\n  <a href=\"#-new-in-23\"><b>What's new</b></a> ·\n  <a href=\"#-get-started\"><b>Get started</b></a> ·\n  <a href=\"#how-it-works\"><b>How it works</b></a>\n</p>\n\n<p align=\"center\">\n  <img alt=\"Version\" src=\"https://img.shields.io/github/v/release/InukaAsith/TwinDesk?label=version&color=4b8bff\">\n  <img alt=\"macOS 13+\" src=\"https://img.shields.io/badge/macOS-13%2B-black\">\n  <img alt=\"Windows 10/11\" src=\"https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4\">\n  <img alt=\"Linux X11 and Wayland\" src=\"https://img.shields.io/badge/Linux-X11%20%7C%20Wayland-f0a30a\">\n  <img alt=\"Android 10+\" src=\"https://img.shields.io/badge/Android-10%2B-3ddc84\">\n  <img alt=\"License: GPL-3.0\" src=\"https://img.shields.io/badge/license-GPL--3.0-blue\">\n  <a href=\"https://github.com/inukaasith/twindesk/releases\"><img src=\"https://img.shields.io/github/downloads/inukaasith/twindesk/total\" alt=\"Downloads\"></a>\n</p>\n\n<p align=\"center\">\n  <img src=\".github/assets/hero.jpg\" alt=\"One Mac's extended screen in a window on another Mac, the Mac's desktop extended onto a tablet, and TwinDesk on a phone\" width=\"100%\">\n</p>\n\nYour devices are good at their own jobs and bad at working together. TwinDesk fixes tha",
+   "readme_idiomas": []
+  },
+  {
+   "repo": "Leviidev/Husk",
+   "nombre": "Husk",
+   "desc": "Run Android on iOS. Natively or Emulated.",
+   "autoria": "Leviidev",
+   "tipo_autor": "User",
+   "web": "https://itslevii.dev",
+   "creado": "2026-09-12",
+   "edad_dias": 52,
+   "push": "2026-11-03",
+   "dias_sin_push": 0,
+   "stars": 2993,
+   "forks": 210,
+   "vigilantes": 21,
+   "incidencias": 36,
+   "peticiones_abiertas": 2,
+   "contribuyentes": 9,
+   "licencia": "GPL-2.0",
+   "licencia_texto": "\t\t    GNU GENERAL PUBLIC LICENSE\n\t\t       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.,\n 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowe",
+   "lenguaje": "Java",
+   "tamanyo_kb": 27626,
+   "temas": [
+    "android",
+    "emulator",
+    "ios",
+    "ios-development"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 26,
+   "ultimas": [
+    {
+     "tag": "3.3",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Husk.ipa",
+       "kb": 138905.4,
+       "descargas": 7257
+      },
+      {
+       "nombre": "Husk.tipa",
+       "kb": 138904.7,
+       "descargas": 991
+      }
+     ]
+    },
+    {
+     "tag": "3.2.1",
+     "fecha": "2026-10-31",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Husk.ipa",
+       "kb": 137399.6,
+       "descargas": 3753
+      },
+      {
+       "nombre": "Husk.tipa",
+       "kb": 137399.0,
+       "descargas": 526
+      }
+     ]
+    },
+    {
+     "tag": "3.2",
+     "fecha": "2026-10-31",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Husk.ipa",
+       "kb": 137394.5,
+       "descargas": 462
+      },
+      {
+       "nombre": "Husk.tipa",
+       "kb": 137393.9,
+       "descargas": 70
+      }
+     ]
+    },
+    {
+     "tag": "3.1",
+     "fecha": "2026-10-27",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Husk.ipa",
+       "kb": 137246.1,
+       "descargas": 7611
+      },
+      {
+       "nombre": "Husk.tipa",
+       "kb": 137245.5,
+       "descargas": 1180
+      }
+     ]
+    },
+    {
+     "tag": "3.0",
+     "fecha": "2026-10-17",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Husk.ipa",
+       "kb": 136841.9,
+       "descargas": 26459
+      },
+      {
+       "nombre": "Husk.tipa",
+       "kb": 136841.3,
+       "descargas": 3630
+      }
+     ]
+    },
+    {
+     "tag": "2.0",
+     "fecha": "2026-10-11",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Husk.ipa",
+       "kb": 108322.1,
+       "descargas": 15244
+      },
+      {
+       "nombre": "Husk.tipa",
+       "kb": 108319.0,
+       "descargas": 2304
+      }
+     ]
+    },
+    {
+     "tag": "1.1.0",
+     "fecha": "2026-10-09",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Husk.ipa",
+       "kb": 53110.8,
+       "descargas": 9204
+      },
+      {
+       "nombre": "Husk.tipa",
+       "kb": 53110.3,
+       "descargas": 1640
+      }
+     ]
+    },
+    {
+     "tag": "1.0.1",
+     "fecha": "2026-10-09",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Husk.ipa",
+       "kb": 54614.5,
+       "descargas": 3391
+      }
+     ]
+    },
+    {
+     "tag": "1.0.0",
+     "fecha": "2026-10-08",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Husk.ipa",
+       "kb": 46445.3,
+       "descargas": 767
+      }
+     ]
+    },
+    {
+     "tag": "0.9.0",
+     "fecha": "2026-10-07",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Husk.ipa",
+       "kb": 45857.7,
+       "descargas": 1590
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 17,
+   "descargas_10": 86079,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "32acdda2a58691b0f88c30f30ede0422e8671633",
+   "readme_chars": 3026,
+   "readme_inicio": "<p align=\"center\">\n  <img src=\"src/app/Husk/Assets.xcassets/AppIcon.appiconset/Icon-Default.png\" width=\"120\" height=\"120\" alt=\"Husk\">\n</p>\n\n<h1 align=\"center\">Husk</h1>\n\n<p align=\"center\">Android apps and games on your iPhone.</p>\n\n<p align=\"center\">\n  <a href=\"https://itslevii.dev/docs/install\">Install</a>\n  ·\n  <a href=\"https://itslevii.dev/husk\">Compatibility</a>\n  ·\n  <a href=\"https://itslevii.dev\">Website</a>\n  ·\n  <a href=\"https://github.com/Leviidev/Husk/releases\">Releases</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/Leviidev/Husk/releases\"><img src=\"https://img.shields.io/github/downloads/Leviidev/Husk/total?style=flat-square&color=5B49EB&labelColor=111111\" alt=\"Downloads\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/Leviidev/Husk?style=flat-square&color=5B49EB&labelColor=111111\" alt=\"GPL-2.0-or-later\"></a>\n</p>\n\nAdd an APK, tap it, and it opens full-screen.\n\n- **Translation layer** — the game’s own 64-bit Android code runs on the iPhone. Husk stands in for Android around it (C library, Java, GL, Vulkan, audio, input). No Android boot; a game starts in seconds.\n- **Emulation** — a full LineageOS guest under QEMU, for apps the translation layer cannot run yet.\n- **PS4** — fake packages and game folders on iOS 17.4+.\n\n## Install\n\nSideload with SideStore, AltStore, or TrollStore. iOS 15.5 or later.\n\n**Guide:** [itslevii.dev/docs/install](https://itslevii.dev/docs/install)\n\nAdd this source in SideStore or AltStore (Sources › +). It also lists AetherPS4, Utsuro, Podium and Fathom:\n\n```\nhttps://itslevii.dev/repo.json\n```\n\nOr download `Husk.ipa` from [Releases](https://github.com/Leviidev/Husk/releases).\n\nGames need [JIT](https://itslevii.dev/docs/jit), or they can run from [Play without JIT](https://itslevii.dev/docs/play-with",
+   "readme_idiomas": []
+  },
+  {
+   "repo": "Clash-Projects/LastWave-Native",
+   "nombre": "LastWave-Native",
+   "desc": "Next-Gen YouTube Music Client with Liquid Glass UI , Algorithmic Smart Playlist Generator, Real-Time Synced Lyrics & Universal Last.fm Scrobbler for Android.",
+   "autoria": "Clash-Projects",
+   "tipo_autor": "Organization",
+   "web": "https://t.me/clashprojects",
+   "creado": "2026-07-30",
+   "edad_dias": 96,
+   "push": "2026-11-03",
+   "dias_sin_push": 0,
+   "stars": 2474,
+   "forks": 145,
+   "vigilantes": 17,
+   "incidencias": 102,
+   "peticiones_abiertas": 17,
+   "contribuyentes": 38,
+   "licencia": "GPL-3.0",
+   "licencia_texto": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n             ",
+   "lenguaje": "Kotlin",
+   "tamanyo_kb": 31833,
+   "temas": [
+    "autoeq",
+    "bit-perfect",
+    "dolby-atmos",
+    "equalizer",
+    "foss",
+    "innertube",
+    "kotlin",
+    "lastfm",
+    "liquid-glass",
+    "loseless",
+    "lyrics",
+    "material3",
+    "scrobbler",
+    "ytmusic"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 18,
+   "ultimas": [
+    {
+     "tag": "5.0.0",
+     "fecha": "2026-10-30",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "LastWave-v5.0.0-android7.apk",
+       "kb": 29311.0,
+       "descargas": 9837
+      },
+      {
+       "nombre": "LastWave-v5.0.0-universal-uncompressed.apk",
+       "kb": 105199.8,
+       "descargas": 3796
+      },
+      {
+       "nombre": "LastWave-v5.0.0-universal.apk",
+       "kb": 36500.3,
+       "descargas": 35440
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 48
+      }
+     ]
+    },
+    {
+     "tag": "4.3.1",
+     "fecha": "2026-10-18",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "LastWave-v4.3.1-android7.apk",
+       "kb": 19036.2,
+       "descargas": 42099
+      },
+      {
+       "nombre": "LastWave-v4.3.1-universal-uncompressed.apk",
+       "kb": 92290.0,
+       "descargas": 7115
+      },
+      {
+       "nombre": "LastWave-v4.3.1-universal.apk",
+       "kb": 25514.7,
+       "descargas": 72166
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 137
+      }
+     ]
+    },
+    {
+     "tag": "4.3.0",
+     "fecha": "2026-10-17",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "LastWave-v4.3.0-android7.apk",
+       "kb": 19012.2,
+       "descargas": 13095
+      },
+      {
+       "nombre": "LastWave-v4.3.0-universal-uncompressed.apk",
+       "kb": 92196.3,
+       "descargas": 863
+      },
+      {
+       "nombre": "LastWave-v4.3.0-universal.apk",
+       "kb": 25473.8,
+       "descargas": 2165
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 17
+      }
+     ]
+    },
+    {
+     "tag": "4.2.4",
+     "fecha": "2026-10-05",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "LastWave-v4.2.4-android7.apk",
+       "kb": 17580.1,
+       "descargas": 39492
+      },
+      {
+       "nombre": "LastWave-v4.2.4-universal-uncompressed.apk",
+       "kb": 90374.8,
+       "descargas": 5153
+      },
+      {
+       "nombre": "LastWave-v4.2.4-universal.apk",
+       "kb": 23347.9,
+       "descargas": 11680
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 120
+      }
+     ]
+    },
+    {
+     "tag": "4.2.3",
+     "fecha": "2026-10-03",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "LastWave-v4.2.3-android7.apk",
+       "kb": 17255.8,
+       "descargas": 20470
+      },
+      {
+       "nombre": "LastWave-v4.2.3-universal-uncompressed.apk",
+       "kb": 90398.5,
+       "descargas": 2315
+      },
+      {
+       "nombre": "LastWave-v4.2.3-universal.apk",
+       "kb": 23019.6,
+       "descargas": 2584
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 81
+      }
+     ]
+    },
+    {
+     "tag": "4.2.2",
+     "fecha": "2026-09-27",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "LastWave-v4.2.2-android7.apk",
+       "kb": 17479.4,
+       "descargas": 28337
+      },
+      {
+       "nombre": "LastWave-v4.2.2-universal-uncompressed.apk",
+       "kb": 90177.9,
+       "descargas": 8743
+      },
+      {
+       "nombre": "LastWave-v4.2.2-universal.apk",
+       "kb": 23079.1,
+       "descargas": 8965
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 186
+      }
+     ]
+    },
+    {
+     "tag": "4.2.1",
+     "fecha": "2026-09-26",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "LastWave-v4.2.1-android7.apk",
+       "kb": 18075.6,
+       "descargas": 10950
+      },
+      {
+       "nombre": "LastWave-v4.2.1-raw.apk",
+       "kb": 89997.6,
+       "descargas": 1206
+      },
+      {
+       "nombre": "LastWave-v4.2.1-release.apk",
+       "kb": 23831.4,
+       "descargas": 1696
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 33
+      }
+     ]
+    },
+    {
+     "tag": "4.2.0",
+     "fecha": "2026-09-23",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "LastWave-v4.2.0-android7.apk",
+       "kb": 17951.6,
+       "descargas": 13243
+      },
+      {
+       "nombre": "LastWave-v4.2.0-universal-uncompressed.apk",
+       "kb": 89525.5,
+       "descargas": 1794
+      },
+      {
+       "nombre": "LastWave-v4.2.0-universal.apk",
+       "kb": 23555.3,
+       "descargas": 2260
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 44
+      }
+     ]
+    },
+    {
+     "tag": "4.1.1",
+     "fecha": "2026-09-18",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "LastWave-v4.1.1-android7.apk",
+       "kb": 17428.7,
+       "descargas": 18538
+      },
+      {
+       "nombre": "LastWave-v4.1.1-raw.apk",
+       "kb": 87829.1,
+       "descargas": 3087
+      },
+      {
+       "nombre": "LastWave-v4.1.1-release.apk",
+       "kb": 22864.4,
+       "descargas": 4202
+      }
+     ]
+    },
+    {
+     "tag": "4.1.0",
+     "fecha": "2026-09-14",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "LastWave-v4.1.0-android7.apk",
+       "kb": 17215.1,
+       "descargas": 17087
+      },
+      {
+       "nombre": "LastWave-v4.1.0-universal-uncompressed.apk",
+       "kb": 87693.1,
+       "descargas": 6716
+      },
+      {
+       "nombre": "LastWave-v4.1.0-universal.apk",
+       "kb": 22446.9,
+       "descargas": 6921
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 38,
+   "descargas_10": 402681,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "d25283a037e9694383ccf0eba055d94768bfd462",
+   "readme_chars": 10925,
+   "readme_inicio": "<div align=\"center\">\r\n\r\n<img src=\"lastwave_logo.png\" alt=\"LastWave Logo\" width=\"120\" height=\"120\" style=\"border-radius: 50%;\" />\r\n\r\n# LastWave\r\n\r\n**Next-Gen YouTube Music Client with Algorithmic Smart Playlist Generator, Real-Time Synced Lyrics & Universal Last.fm Scrobbler for Android.**\r\n\r\n<p align=\"center\">\r\n  <a href=\"https://github.com/Clash-Projects/LastWave-native/stargazers\">\r\n    <img src=\"https://img.shields.io/github/stars/Clash-Projects/LastWave-native?style=for-the-badge&color=ffd0b0&labelColor=2d2d2d\" alt=\"Stars\" />\r\n  </a>\r\n  <a href=\"https://github.com/Clash-Projects/LastWave-native/network/members\">\r\n    <img src=\"https://img.shields.io/github/forks/Clash-Projects/LastWave-native?style=for-the-badge&color=ffb4a2&labelColor=2d2d2d\" alt=\"Forks\" />\r\n  </a>\r\n  <a href=\"#\">\r\n    <img src=\"https://img.shields.io/badge/Client-YouTube%20Music-FF0000?style=for-the-badge&logo=youtubemusic&logoColor=white&labelColor=2d2d2d\" alt=\"YouTube Music Client\" />\r\n  </a>\r\n  <a href=\"#\">\r\n    <img src=\"https://img.shields.io/badge/Scrobbler-Last.fm-D51007?style=for-the-badge&logo=lastdotfm&logoColor=white&labelColor=2d2d2d\" alt=\"Last.fm Scrobbler\" />\r\n  </a>\r\n  <a href=\"#\">\r\n    <img src=\"https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=2d2d2d\" alt=\"Platform\" />\r\n  </a>\r\n</p>\r\n\r\n<p align=\"center\">\r\n  <a href=\"https://trendshift.io/repositories/197973?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-197973\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n    <img src=\"https://trendshift.io/api/badge/trendshift/repositories/197973/daily?language=Kotlin\" alt=\"Clash-Projects%2FLastWave-Native | Trendshift\" width=\"250\" height=\"55\" />\r\n  </a>\r\n  &nbsp;\r\n  <a href=\"https://trendshift.io/re",
+   "readme_idiomas": []
+  },
+  {
+   "repo": "jxlarrea/kiosk-satellite",
+   "nombre": "kiosk-satellite",
+   "desc": "Turn any Android device into a beautiful, dedicated Home Assistant kiosk. Purpose-built for Home Assistant from the ground up.",
+   "autoria": "jxlarrea",
+   "tipo_autor": "User",
+   "web": "https://kiosksatellite.com",
+   "creado": "2026-07-15",
+   "edad_dias": 111,
+   "push": "2026-11-03",
+   "dias_sin_push": 0,
+   "stars": 2461,
+   "forks": 83,
+   "vigilantes": 15,
+   "incidencias": 3,
+   "peticiones_abiertas": null,
+   "contribuyentes": 1,
+   "licencia": "NOASSERTION",
+   "licencia_texto": "Kiosk Satellite\nCopyright (c) 2026 Xavier Larrea\n\nThis work is licensed under the Creative Commons\nAttribution-NonCommercial-NoDerivatives 4.0 International License\n(CC BY-NC-ND 4.0).\n\nYou are free to:\n\n  Share: copy and redistribute the material in any medium or format.\n\nUnder the following terms:\n",
+   "lenguaje": "Dart",
+   "tamanyo_kb": 181203,
+   "temas": [
+    "android",
+    "apk",
+    "bluetooth-low-energy",
+    "bluetooth-proxy",
+    "camera",
+    "dlna",
+    "esphome",
+    "home-assistant",
+    "home-automation",
+    "homeassistant",
+    "iot",
+    "kiosk",
+    "mqtt",
+    "music-assistant",
+    "sendspin",
+    "voice",
+    "voice-assistant",
+    "voice-control",
+    "voice-satellite",
+    "webrtc"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 317,
+   "ultimas": [
+    {
+     "tag": "2026.11.3",
+     "fecha": "2026-11-03",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "kiosk-satellite-2026.11.3.apk",
+       "kb": 244450.9,
+       "descargas": 143
+      },
+      {
+       "nombre": "kiosk-satellite-2026.11.3.arm64-v8a.apk",
+       "kb": 110533.3,
+       "descargas": 997
+      },
+      {
+       "nombre": "kiosk-satellite-2026.11.3.armeabi-v7a.apk",
+       "kb": 93894.8,
+       "descargas": 528
+      },
+      {
+       "nombre": "kiosk-satellite-2026.11.3.x86_64.apk",
+       "kb": 103712.7,
+       "descargas": 18
+      }
+     ]
+    },
+    {
+     "tag": "2026.11.2",
+     "fecha": "2026-11-03",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "kiosk-satellite-2026.11.2.apk",
+       "kb": 244450.9,
+       "descargas": 23
+      },
+      {
+       "nombre": "kiosk-satellite-2026.11.2.arm64-v8a.apk",
+       "kb": 110533.3,
+       "descargas": 131
+      },
+      {
+       "nombre": "kiosk-satellite-2026.11.2.armeabi-v7a.apk",
+       "kb": 93894.8,
+       "descargas": 81
+      },
+      {
+       "nombre": "kiosk-satellite-2026.11.2.x86_64.apk",
+       "kb": 103712.7,
+       "descargas": 4
+      }
+     ]
+    },
+    {
+     "tag": "2026.11.1",
+     "fecha": "2026-11-03",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "kiosk-satellite-2026.11.1.apk",
+       "kb": 244433.9,
+       "descargas": 24
+      },
+      {
+       "nombre": "kiosk-satellite-2026.11.1.arm64-v8a.apk",
+       "kb": 110532.4,
+       "descargas": 153
+      },
+      {
+       "nombre": "kiosk-satellite-2026.11.1.armeabi-v7a.apk",
+       "kb": 93877.9,
+       "descargas": 77
+      },
+      {
+       "nombre": "kiosk-satellite-2026.11.1.x86_64.apk",
+       "kb": 103711.7,
+       "descargas": 7
+      }
+     ]
+    },
+    {
+     "tag": "2026.10.45",
+     "fecha": "2026-10-30",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "kiosk-satellite-2026.10.45.apk",
+       "kb": 234579.9,
+       "descargas": 2402
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.45.arm64-v8a.apk",
+       "kb": 106742.3,
+       "descargas": 4917
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.45.armeabi-v7a.apk",
+       "kb": 90871.8,
+       "descargas": 2847
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.45.x86_64.apk",
+       "kb": 99601.7,
+       "descargas": 108
+      }
+     ]
+    },
+    {
+     "tag": "2026.10.44",
+     "fecha": "2026-10-29",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "kiosk-satellite-2026.10.44.apk",
+       "kb": 234499.3,
+       "descargas": 357
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.44.arm64-v8a.apk",
+       "kb": 106677.7,
+       "descargas": 1958
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.44.armeabi-v7a.apk",
+       "kb": 90855.2,
+       "descargas": 1076
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.44.x86_64.apk",
+       "kb": 99601.1,
+       "descargas": 39
+      }
+     ]
+    },
+    {
+     "tag": "2026.10.43",
+     "fecha": "2026-10-29",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "kiosk-satellite-2026.10.43.apk",
+       "kb": 234418.9,
+       "descargas": 268
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.43.arm64-v8a.apk",
+       "kb": 106677.4,
+       "descargas": 1308
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.43.armeabi-v7a.apk",
+       "kb": 90838.9,
+       "descargas": 745
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.43.x86_64.apk",
+       "kb": 99536.7,
+       "descargas": 29
+      }
+     ]
+    },
+    {
+     "tag": "2026.10.42",
+     "fecha": "2026-10-27",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "kiosk-satellite-2026.10.42.apk",
+       "kb": 236456.7,
+       "descargas": 895
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.42.arm64-v8a.apk",
+       "kb": 106699.1,
+       "descargas": 3139
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.42.armeabi-v7a.apk",
+       "kb": 90924.6,
+       "descargas": 1822
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.42.x86_64.apk",
+       "kb": 99686.4,
+       "descargas": 68
+      }
+     ]
+    },
+    {
+     "tag": "2026.10.41",
+     "fecha": "2026-10-26",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "kiosk-satellite-2026.10.41.apk",
+       "kb": 236440.1,
+       "descargas": 314
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.41.arm64-v8a.apk",
+       "kb": 106698.6,
+       "descargas": 2360
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.41.armeabi-v7a.apk",
+       "kb": 90908.1,
+       "descargas": 1275
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.41.x86_64.apk",
+       "kb": 99685.9,
+       "descargas": 41
+      }
+     ]
+    },
+    {
+     "tag": "2026.10.40",
+     "fecha": "2026-10-25",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "kiosk-satellite-2026.10.40.apk",
+       "kb": 236423.6,
+       "descargas": 309
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.40.arm64-v8a.apk",
+       "kb": 106698.0,
+       "descargas": 2046
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.40.armeabi-v7a.apk",
+       "kb": 90891.5,
+       "descargas": 1096
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.40.x86_64.apk",
+       "kb": 99685.4,
+       "descargas": 37
+      }
+     ]
+    },
+    {
+     "tag": "2026.10.39",
+     "fecha": "2026-10-24",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "kiosk-satellite-2026.10.39.apk",
+       "kb": 236243.6,
+       "descargas": 390
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.39.arm64-v8a.apk",
+       "kb": 106630.0,
+       "descargas": 1933
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.39.armeabi-v7a.apk",
+       "kb": 90839.5,
+       "descargas": 909
+      },
+      {
+       "nombre": "kiosk-satellite-2026.10.39.x86_64.apk",
+       "kb": 99617.3,
+       "descargas": 27
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 40,
+   "descargas_10": 34901,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "089ceb868ff7a39fb18298999ed42dac932e3759",
+   "readme_chars": 13311,
+   "readme_inicio": "<h1 align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/banners/ks_banner_dark.svg\" />\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"assets/banners/ks_banner_light.svg\" />\n    <img alt=\"Kiosk Satellite for Home Assistant\" src=\"assets/banners/ks_banner_default.svg\" width=\"650\" />\n  </picture>\n</h1>\n\n<p align=\"center\">\n<img src=\"https://img.shields.io/github/stars/jxlarrea/kiosk-satellite?style=for-the-badge&label=Stars&color=d6a102\" alt=\"Stars\">\n<a href=\"https://github.com/jxlarrea/kiosk-satellite/releases\"><img src=\"https://img.shields.io/github/downloads/jxlarrea/kiosk-satellite/total?style=for-the-badge&label=Downloads&color=e8604c\" alt=\"Downloads\"></a>\n<a href=\"https://github.com/jxlarrea/kiosk-satellite/releases/latest\"><img src=\"https://shields.io/github/v/release/jxlarrea/kiosk-satellite?style=for-the-badge&color=5da3a6\" alt=\"version\"></a>\n<a href=\"https://github.com/jxlarrea/kiosk-satellite/actions/workflows/release.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/jxlarrea/kiosk-satellite/release.yml?style=for-the-badge&label=Build&color=3fbf5f\" alt=\"Build\"></a>\n</p>\n\n<p align=\"center\">\n<a href=\"https://buymeacoffee.com/jxlarrea\"><img src=\"https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black\" alt=\"Buy Me A Coffee\"></a>\n</p>\n\n<p align=\"center\">\n  Kiosk Satellite is an Android app designed for dedicated Home Assistant kiosks, with native Voice Satellite support, synchronized music playback and photo screensavers.<br />\n  Kiosk Satellite is fully local and free for personal, non-commercial use.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://kiosksatellite.com/download/\">Download</a> · <a href=\"https://kiosksatellite.com/#get-started\">Get",
+   "readme_idiomas": []
+  },
+  {
+   "repo": "humblemuzzu/dumbtv",
+   "nombre": "dumbtv",
+   "desc": "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.",
+   "autoria": "humblemuzzu",
+   "tipo_autor": "User",
+   "web": "https://dumbtv.org",
+   "creado": "2026-10-18",
+   "edad_dias": 16,
+   "push": "2026-11-03",
+   "dias_sin_push": 0,
+   "stars": 1903,
+   "forks": 200,
+   "vigilantes": 7,
+   "incidencias": 5,
+   "peticiones_abiertas": 2,
+   "contribuyentes": 64,
+   "licencia": "NOASSERTION",
+   "licencia_texto": "MIT License\n\nCopyright (c) 2026 dumbtv contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, m",
+   "lenguaje": "Java",
+   "tamanyo_kb": 1539,
+   "temas": [
+    "ad-blocking",
+    "adb",
+    "android-tv",
+    "debloat",
+    "dns-filter",
+    "fire-os",
+    "fire-tv",
+    "firetv",
+    "launcher",
+    "privacy",
+    "smart-tv",
+    "telemetry"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 8,
+   "ultimas": [
+    {
+     "tag": "launcher-v1.7",
+     "fecha": "2026-11-03",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "dumbtv-home.apk",
+       "kb": 60.6,
+       "descargas": 32
+      },
+      {
+       "nombre": "dumbtv-home.apk.sha256",
+       "kb": 0.1,
+       "descargas": 5
+      }
+     ]
+    },
+    {
+     "tag": "launcher-v1.6",
+     "fecha": "2026-10-27",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "dumbtv-home.apk",
+       "kb": 56.6,
+       "descargas": 2230
+      },
+      {
+       "nombre": "dumbtv-home.apk.sha256",
+       "kb": 0.1,
+       "descargas": 87
+      }
+     ]
+    },
+    {
+     "tag": "launcher-v1.5",
+     "fecha": "2026-10-25",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "dumbtv-home.apk",
+       "kb": 56.6,
+       "descargas": 662
+      },
+      {
+       "nombre": "dumbtv-home.apk.sha256",
+       "kb": 0.1,
+       "descargas": 35
+      }
+     ]
+    },
+    {
+     "tag": "launcher-v1.4",
+     "fecha": "2026-10-25",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "dumbtv-home.apk",
+       "kb": 56.6,
+       "descargas": 33
+      },
+      {
+       "nombre": "dumbtv-home.apk.sha256",
+       "kb": 0.1,
+       "descargas": 4
+      }
+     ]
+    },
+    {
+     "tag": "launcher-v1.3",
+     "fecha": "2026-10-24",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "dumbtv-home.apk",
+       "kb": 52.6,
+       "descargas": 493
+      },
+      {
+       "nombre": "dumbtv-home.apk.sha256",
+       "kb": 0.1,
+       "descargas": 17
+      }
+     ]
+    },
+    {
+     "tag": "launcher-v1.2",
+     "fecha": "2026-10-22",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "dumbtv-home.apk",
+       "kb": 52.6,
+       "descargas": 1048
+      },
+      {
+       "nombre": "dumbtv-home.apk.sha256",
+       "kb": 0.1,
+       "descargas": 56
+      }
+     ]
+    },
+    {
+     "tag": "launcher-v1.1",
+     "fecha": "2026-10-19",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "dumbtv-home.apk",
+       "kb": 44.6,
+       "descargas": 1171
+      },
+      {
+       "nombre": "dumbtv-home.apk.sha256",
+       "kb": 0.1,
+       "descargas": 66
+      }
+     ]
+    },
+    {
+     "tag": "launcher-v1.0",
+     "fecha": "2026-10-18",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "dumbtv-home.apk",
+       "kb": 40.6,
+       "descargas": 294
+      },
+      {
+       "nombre": "dumbtv-home.apk.sha256",
+       "kb": 0.1,
+       "descargas": 13
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 16,
+   "descargas_10": 6246,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "865488fc333e31562b1b8d03ac2fd45187f7ab2a",
+   "readme_chars": 21218,
+   "readme_inicio": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/assets/logo-dark.svg\">\n    <img src=\"docs/assets/logo-light.svg\" alt=\"dumbtv\" width=\"300\">\n  </picture>\n</p>\n\n<p align=\"center\"><b>Your TV should do what you paid for.</b><br>\nAds, tracking and clutter out of your Fire TV. Your apps and HDMI inputs stay.</p>\n\n<p align=\"center\">\n  <a href=\"https://dumbtv.org\"><b>dumbtv.org</b></a> ·\n  <a href=\"https://dumbtv.org/start\">Get started</a> ·\n  <a href=\"https://dumbtv.org/blocked\">What it blocks</a> ·\n  <a href=\"https://dumbtv.org/tv\">Devices</a> ·\n  <a href=\"https://dumbtv.org/help\">Get help</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/humblemuzzu/dumbtv/stargazers\"><img src=\"https://img.shields.io/github/stars/humblemuzzu/dumbtv?style=flat&color=4C8DFF\" alt=\"Stars\"></a>\n  <a href=\"https://github.com/humblemuzzu/dumbtv/releases/latest\"><img src=\"https://img.shields.io/github/v/release/humblemuzzu/dumbtv?label=dumbtv%20home&color=4C8DFF\" alt=\"Latest launcher release\"></a>\n  <a href=\"https://github.com/humblemuzzu/dumbtv/actions/workflows/validate.yml\"><img src=\"https://github.com/humblemuzzu/dumbtv/actions/workflows/validate.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-4C8DFF\" alt=\"MIT licence\"></a>\n  <a href=\"#thanks\"><img src=\"https://img.shields.io/github/contributors/humblemuzzu/dumbtv?color=4C8DFF\" alt=\"Contributors\"></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"docs/assets/hero.png\" alt=\"dumbtv home on a television: a clock, an Apps row and an Inputs row\" width=\"880\">\n</p>\n\n<p align=\"center\"><sub>As seen in\n<a href=\"https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/\">TechCrunch</a> ·\n<a href=\"https://www.techradar.com/entertain",
+   "readme_idiomas": []
+  },
+  {
+   "repo": "Verlintas/NOIR",
+   "nombre": "NOIR",
+   "desc": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+   "autoria": "Verlintas",
+   "tipo_autor": "User",
+   "web": "https://verlintas.dev/noir/",
+   "creado": "2026-10-31",
+   "edad_dias": 3,
+   "push": "2026-11-03",
+   "dias_sin_push": 0,
+   "stars": 1693,
+   "forks": 122,
+   "vigilantes": 1,
+   "incidencias": 1,
+   "peticiones_abiertas": 1,
+   "contribuyentes": 2,
+   "licencia": "MIT",
+   "licencia_texto": "MIT License\n\nCopyright (c) 2026 Verlintas\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, mer",
+   "lenguaje": "Kotlin",
+   "tamanyo_kb": 1813,
+   "temas": [
+    "adb",
+    "android",
+    "android-privacy",
+    "android-security",
+    "android-tools",
+    "apk-analysis",
+    "bloatware",
+    "cli",
+    "cross-platform",
+    "debloat",
+    "jadx",
+    "kotlin",
+    "kotlin-multiplatform",
+    "privacy",
+    "privacy-tools",
+    "security-audit",
+    "static-analysis",
+    "telemetry",
+    "terminal-ui",
+    "tui"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 9,
+   "ultimas": [
+    {
+     "tag": "v0.2.5",
+     "fecha": "2026-11-02",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "noir-v0.2.5-Linux-portable.zip",
+       "kb": 62297.1,
+       "descargas": 321
+      },
+      {
+       "nombre": "noir-v0.2.5-macOS-portable.zip",
+       "kb": 57870.0,
+       "descargas": 431
+      },
+      {
+       "nombre": "noir-v0.2.5-Windows-portable.zip",
+       "kb": 59983.0,
+       "descargas": 1600
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 292
+      }
+     ]
+    },
+    {
+     "tag": "v0.2.4",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "noir-v0.2.4-Linux-portable.zip",
+       "kb": 62281.3,
+       "descargas": 117
+      },
+      {
+       "nombre": "noir-v0.2.4-macOS-portable.zip",
+       "kb": 57854.6,
+       "descargas": 188
+      },
+      {
+       "nombre": "noir-v0.2.4-Windows-portable.zip",
+       "kb": 59967.6,
+       "descargas": 817
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 158
+      }
+     ]
+    },
+    {
+     "tag": "v0.2.3",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "noir-v0.2.3-Linux-portable.zip",
+       "kb": 62280.7,
+       "descargas": 5
+      },
+      {
+       "nombre": "noir-v0.2.3-macOS-portable.zip",
+       "kb": 57853.7,
+       "descargas": 11
+      },
+      {
+       "nombre": "noir-v0.2.3-Windows-portable.zip",
+       "kb": 59966.6,
+       "descargas": 24
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 10
+      }
+     ]
+    },
+    {
+     "tag": "v0.2.2",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "noir-v0.2.2-Linux-portable.zip",
+       "kb": 62280.6,
+       "descargas": 3
+      },
+      {
+       "nombre": "noir-v0.2.2-macOS-portable.zip",
+       "kb": 57853.6,
+       "descargas": 1
+      },
+      {
+       "nombre": "noir-v0.2.2-Windows-portable.zip",
+       "kb": 59966.6,
+       "descargas": 3
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 1
+      }
+     ]
+    },
+    {
+     "tag": "v0.2.1",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "noir-v0.2.1-Linux-portable.zip",
+       "kb": 62174.5,
+       "descargas": 5
+      },
+      {
+       "nombre": "noir-v0.2.1-macOS-portable.zip",
+       "kb": 57747.9,
+       "descargas": 5
+      },
+      {
+       "nombre": "noir-v0.2.1-Windows-portable.zip",
+       "kb": 59861.0,
+       "descargas": 12
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 3
+      }
+     ]
+    },
+    {
+     "tag": "v0.2.0",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "noir-v0.2.0-Linux-portable.zip",
+       "kb": 62173.9,
+       "descargas": 10
+      },
+      {
+       "nombre": "noir-v0.2.0-macOS-portable.zip",
+       "kb": 57747.0,
+       "descargas": 14
+      },
+      {
+       "nombre": "noir-v0.2.0-Windows-portable.zip",
+       "kb": 59861.6,
+       "descargas": 76
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 20
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.2",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "noir-v0.1.2-Linux-portable.zip",
+       "kb": 62142.6,
+       "descargas": 1
+      },
+      {
+       "nombre": "noir-v0.1.2-macOS-portable.zip",
+       "kb": 57715.7,
+       "descargas": 2
+      },
+      {
+       "nombre": "noir-v0.1.2-Windows-portable.zip",
+       "kb": 59830.3,
+       "descargas": 4
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 1
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.1",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "noir-v0.1.1-Linux-portable.zip",
+       "kb": 62142.3,
+       "descargas": 2
+      },
+      {
+       "nombre": "noir-v0.1.1-macOS-portable.zip",
+       "kb": 57715.4,
+       "descargas": 1
+      },
+      {
+       "nombre": "noir-v0.1.1-Windows-portable.zip",
+       "kb": 59829.9,
+       "descargas": 18
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 4
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.0",
+     "fecha": "2026-10-31",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "noir-v0.1.0-Linux.zip",
+       "kb": 1724.1,
+       "descargas": 5
+      },
+      {
+       "nombre": "noir-v0.1.0-macOS.zip",
+       "kb": 1724.1,
+       "descargas": 9
+      },
+      {
+       "nombre": "noir-v0.1.0-Windows.zip",
+       "kb": 1726.8,
+       "descargas": 28
+      },
+      {
+       "nombre": "SHA256SUMS.txt",
+       "kb": 0.3,
+       "descargas": 7
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 36,
+   "descargas_10": 4209,
+   "commits_30d": 25,
+   "commits_90d": 25,
+   "commit": "04646aac7870cd00cbff8b9f6f0f7805fe8b342a",
+   "readme_chars": 9560,
+   "readme_inicio": "```\n  ███╗   ██╗ ██████╗ ██╗██████╗\n  ████╗  ██║██╔═══██╗██║██╔══██╗\n  ██╔██╗ ██║██║   ██║██║██████╔╝\n  ██║╚██╗██║██║   ██║██║██╔══██╗\n  ██║ ╚████║╚██████╔╝██║██║  ██║\n  ╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═╝\n```\n\n# NOIR\n\n[![build](https://github.com/Verlintas/NOIR/actions/workflows/build.yml/badge.svg)](https://github.com/Verlintas/NOIR/actions/workflows/build.yml)\n[![release](https://img.shields.io/github/v/release/Verlintas/NOIR)](https://github.com/Verlintas/NOIR/releases)\n[![license](https://img.shields.io/github/license/Verlintas/NOIR)](LICENSE)\n![platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-2ea44f)\n[![AtomGit](https://img.shields.io/badge/AtomGit-Verlintas%2FNOIR-2f81f7)](https://atomgit.com/Verlintas/NOIR)\n\n**把「这台手机到底能泄露什么」变成一份可复现的报告。**\n\nNOIR 是一个跑在电脑上的审计工具，通过 `adb` 读取已连接 Android 设备的应用清单、权限和 APK 里的网络端点，给出分类、风险评分和可执行的处置建议。它也可以在需要时调用 `jadx` 对单个应用做反编译和关键字检索。\n\n> 定位：**审计与自我防护**。面向自己的设备、自己的应用、已授权的安全研究。\n\n**官网 / Website:** https://verlintas.dev/noir/ · [中文](https://verlintas.dev/noir/zh/)\n\n**AtomGit 镜像 / Mirror:** https://atomgit.com/Verlintas/NOIR\n\n---\n\n## 它做什么\n\n1. **盘点**：列出所有「有网络权限 + 敏感权限」的应用，以及它们各自拿到了什么。\n2. **抽取端点**：在设备端用 `unzip + strings` 从每个 APK 的 dex 里提取 URL，只回传几 KB，不把整包拉回电脑。\n3. **分类与打分**：按包名和域名识别厂商（Xiaomi / Google / 腾讯 / 高德 …）与类别（遥测、广告、定位、输入法 …），结合权限和上报端点计算风险分。\n4. **数据关联**：把权限翻译成\"能拿到什么数据\"（位置/通讯录/短信/通话/麦克风/相机/屏幕/应用列表/设备标识/文件/日历/账号），再和上报域名配对，得出\"哪类数据可能流向哪里\"。\n5. **共享 UID**：识别 `android.uid.system` 这类共享用户，列出哪些包实际上共享同一套权限并集。\n6. **清单层**：解析 `AndroidManifest.xml` 二进制 AXML，找出没有权限保护的导出组件、明文流量、备份、debuggable、targetSdk。\n4. **给建议**：区分「可安全自动执行」「需人工确认」「不建议动」，并为每条动作生成回滚命令。\n5. **必要时深挖**：`deep` 会把单个 APK 拉到本地，用 `jadx` 反编译后检索 `Runtime.exec`、`setApplicationEnabledSetting`、`DexClassLoader`、`MediaProjection` 等高风险调用。\n\n## 它不做什么\n\n- 不联网、不上传任何数据、不需要账号。\n- 不修改系统分区",
+   "readme_idiomas": [
+    "中文"
+   ]
+  },
+  {
+   "repo": "mokshablr/gander",
+   "nombre": "gander",
+   "desc": "Take a gander at any file. Offline, zero-permission Android viewer for PDF, Word, Excel, PowerPoint, ODT, RTF, ZIP, STL, photos, video, audio, Markdown and code.",
+   "autoria": "mokshablr",
+   "tipo_autor": "User",
+   "web": "https://arjun.maniyani.com/gander",
+   "creado": "2026-07-19",
+   "edad_dias": 107,
+   "push": "2026-11-03",
+   "dias_sin_push": 0,
+   "stars": 1356,
+   "forks": 68,
+   "vigilantes": 3,
+   "incidencias": 8,
+   "peticiones_abiertas": 1,
+   "contribuyentes": 5,
+   "licencia": "MIT",
+   "licencia_texto": "MIT License\n\nCopyright (c) 2026 Arjun Maniyani\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify",
+   "lenguaje": "JavaScript",
+   "tamanyo_kb": 43240,
+   "temas": [
+    "android",
+    "android-app",
+    "apk",
+    "document-viewer",
+    "docx",
+    "docx-viewer",
+    "exoplayer",
+    "file-viewer",
+    "foss",
+    "kotlin",
+    "markdown",
+    "material-design",
+    "no-permissions",
+    "offline-first",
+    "pdf-viewer",
+    "pptx",
+    "privacy",
+    "stl-viewer",
+    "video-player",
+    "xlsx"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 28,
+   "ultimas": [
+    {
+     "tag": "v2.8",
+     "fecha": "2026-10-31",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Gander-2.8.apk",
+       "kb": 5203.0,
+       "descargas": 341
+      }
+     ]
+    },
+    {
+     "tag": "v2.7",
+     "fecha": "2026-10-25",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Gander-2.7.apk",
+       "kb": 4991.2,
+       "descargas": 1363
+      }
+     ]
+    },
+    {
+     "tag": "v2.6",
+     "fecha": "2026-10-22",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Gander-2.6.apk",
+       "kb": 4980.2,
+       "descargas": 1178
+      }
+     ]
+    },
+    {
+     "tag": "v2.5",
+     "fecha": "2026-10-14",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Gander-2.5.apk",
+       "kb": 4954.7,
+       "descargas": 1721
+      }
+     ]
+    },
+    {
+     "tag": "v2.4",
+     "fecha": "2026-10-11",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Gander-2.4.apk",
+       "kb": 4905.0,
+       "descargas": 1352
+      }
+     ]
+    },
+    {
+     "tag": "v2.3",
+     "fecha": "2026-10-08",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Gander-2.3.apk",
+       "kb": 4903.0,
+       "descargas": 1299
+      }
+     ]
+    },
+    {
+     "tag": "v2.2",
+     "fecha": "2026-10-05",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Gander-2.2.apk",
+       "kb": 5203.0,
+       "descargas": 1110
+      }
+     ]
+    },
+    {
+     "tag": "v2.1",
+     "fecha": "2026-10-04",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Gander-2.1.apk",
+       "kb": 5198.8,
+       "descargas": 570
+      }
+     ]
+    },
+    {
+     "tag": "v2.0",
+     "fecha": "2026-09-26",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Gander-2.0.apk",
+       "kb": 5146.9,
+       "descargas": 2019
+      }
+     ]
+    },
+    {
+     "tag": "v1.17",
+     "fecha": "2026-09-14",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Gander-1.17.apk",
+       "kb": 4978.3,
+       "descargas": 1686
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 10,
+   "descargas_10": 12639,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "89bf8106f581960d161baf73514ce41657a27177",
+   "readme_chars": 15342,
+   "readme_inicio": "<p align=\"center\">\n  <img src=\"docs/social-preview.png\" alt=\"Gander: take a gander at any file. Open source Android file viewer for PDF, DOCX, XLSX, PPTX, JPG, MP4, MP3 and Markdown. 100% offline, 5 MB APK, zero permissions, no ads or trackers.\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://play.google.com/store/apps/details?id=com.arjun.gander&listing=github\"><img src=\"docs/play-badge.png\" alt=\"Get it on Google Play\" height=\"80\" align=\"middle\"></a>\n  <a href=\"https://trendshift.io/repositories/98260\"><img src=\"https://trendshift.io/api/badge/repositories/98260\" alt=\"Trendshift: GitHub Trending, #8 Repository Of The Day\" width=\"250\" height=\"55\" align=\"middle\"></a>\n</p>\n\n# Gander 🪿\n\n**Take a gander at any file.** A tiny, open source, fully offline **file viewer for Android** that opens\nPDF, Word (`.docx`), Excel, PowerPoint (`.pptx`), photos, videos, audio, Markdown, text, code\nand `.zip` archives in one app, with **zero permissions, no ads, no tracking and no internet\naccess at all**.\n\n[Join the mailing list](https://groups.google.com/g/gander-testers) for announcements, follow [@ArjunManiyani](https://x.com/ArjunManiyani) on X, or grab the APK from [Releases](../../releases/latest).\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Release](https://img.shields.io/github/v/release/mokshablr/gander)](../../releases/latest)\n[![Downloads](https://img.shields.io/github/downloads/mokshablr/gander/total)](../../releases)\n[![Build](https://img.shields.io/github/actions/workflow/status/mokshablr/gander/build.yml?branch=main)](../../actions)\n![Min API](https://img.shields.io/badge/minSdk-26%20(Android%208)-brightgreen)\n\nEvery phone ships with a dozen half-viewers that bounce your documents to cloud services.\nGander is the opposite: one small APK (a",
+   "readme_idiomas": []
+  },
+  {
+   "repo": "man15h/tellyscope",
+   "nombre": "tellyscope",
+   "desc": "Debloat your Android TV, install apps, browse and transfer files on it, all from your phone. Just 3 MB, no tracking, no root, no PC.",
+   "autoria": "man15h",
+   "tipo_autor": "User",
+   "web": "https://man15h.github.io/tellyscope/",
+   "creado": "2026-10-22",
+   "edad_dias": 12,
+   "push": "2026-11-03",
+   "dias_sin_push": 0,
+   "stars": 1322,
+   "forks": 72,
+   "vigilantes": 5,
+   "incidencias": 29,
+   "peticiones_abiertas": 5,
+   "contribuyentes": 3,
+   "licencia": "GPL-3.0",
+   "licencia_texto": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n             ",
+   "lenguaje": "Kotlin",
+   "tamanyo_kb": 16179,
+   "temas": [
+    "android",
+    "androidtv",
+    "googletv",
+    "privacy"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 73,
+   "ultimas": [
+    {
+     "tag": "v0.15.0-alpha.1",
+     "fecha": "2026-11-03",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "Tellyscope-v0.15.0-alpha.1.apk",
+       "kb": 3116.3,
+       "descargas": 14
+      }
+     ]
+    },
+    {
+     "tag": "v0.14.0",
+     "fecha": "2026-10-30",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Tellyscope-0.14.0.apk",
+       "kb": 3030.9,
+       "descargas": 6846
+      }
+     ]
+    },
+    {
+     "tag": "v0.14.0-alpha.3",
+     "fecha": "2026-10-30",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "Tellyscope-v0.14.0-alpha.3.apk",
+       "kb": 2916.6,
+       "descargas": 48
+      }
+     ]
+    },
+    {
+     "tag": "v0.14.0-alpha.2",
+     "fecha": "2026-10-30",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "Tellyscope-v0.14.0-alpha.2.apk",
+       "kb": 2887.2,
+       "descargas": 31
+      }
+     ]
+    },
+    {
+     "tag": "v0.14.0-alpha.1",
+     "fecha": "2026-10-30",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "Tellyscope-v0.14.0-alpha.1.apk",
+       "kb": 2686.6,
+       "descargas": 11
+      }
+     ]
+    },
+    {
+     "tag": "v0.13.0",
+     "fecha": "2026-10-29",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Tellyscope-0.13.0.apk",
+       "kb": 2628.9,
+       "descargas": 2527
+      }
+     ]
+    },
+    {
+     "tag": "v0.13.0-alpha.6",
+     "fecha": "2026-10-29",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "Tellyscope-v0.13.0-alpha.6.apk",
+       "kb": 2629.0,
+       "descargas": 22
+      }
+     ]
+    },
+    {
+     "tag": "v0.13.0-alpha.5",
+     "fecha": "2026-10-29",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "Tellyscope-v0.13.0-alpha.5.apk",
+       "kb": 2613.0,
+       "descargas": 34
+      }
+     ]
+    },
+    {
+     "tag": "v0.13.0-alpha.4",
+     "fecha": "2026-10-29",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "Tellyscope-v0.13.0-alpha.4.apk",
+       "kb": 2629.0,
+       "descargas": 15
+      }
+     ]
+    },
+    {
+     "tag": "v0.13.0-alpha.3",
+     "fecha": "2026-10-29",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "Tellyscope-v0.13.0-alpha.3.apk",
+       "kb": 2613.0,
+       "descargas": 17
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 10,
+   "descargas_10": 9565,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "442330d85a84d8bad0930883693e14a36fe6cd09",
+   "readme_chars": 10978,
+   "readme_inicio": "# <img src=\"docs/logo/icon.svg\" alt=\"\" width=\"64\" height=\"64\" align=\"middle\"> Tellyscope\n\nDebloat your Android TV, install apps, and browse and transfer files on it, all from your phone. No root, no PC.\n\n<p>\n  <img src=\"https://img.shields.io/badge/size-3%20MB-00696B\" alt=\"3 MB\">\n  <img src=\"https://img.shields.io/badge/tracking-none-00696B\" alt=\"No tracking\">\n  <img src=\"https://img.shields.io/badge/root-not%20needed-00696B\" alt=\"No root\">\n  <img src=\"https://img.shields.io/badge/languages-6-00696B\" alt=\"6 languages\">\n  <img src=\"https://img.shields.io/badge/license-GPL--3.0-00696B\" alt=\"GPL-3.0\">\n  <a href=\"../../releases/latest\"><img src=\"https://img.shields.io/github/v/release/man15h/tellyscope?color=00696B&label=release\" alt=\"Latest release\"></a>\n</p>\n\n<a href=\"../../releases/latest\"><img src=\"docs/badges/get-it-on-github.png\" alt=\"Get the signed APK on GitHub\" height=\"60\"></a>\n<a href=\"https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/man15h/tellyscope\"><img src=\"docs/badges/get-it-on-obtainium.png\" alt=\"Get it on Obtainium\" height=\"60\"></a>\n<a href=\"https://rookieenough.github.io/Orion-Data/redirect.html?id=tellyscope&icon=https%3A%2F%2Fraw.githubusercontent.com%2Fman15h%2Ftellyscope%2Fmain%2Fdocs%2Flogo%2Ficon.svg\"><img src=\"docs/badges/get-it-on-orion.png\" alt=\"Get it on Orion Store\" height=\"60\"></a>\n\n[![Watch the demo](docs/site/demo-thumb.webp)](https://youtu.be/N_PeDw5GiCc)\n\n<table>\n  <tr>\n    <td width=\"25%\"><img src=\"docs/screenshots/tv-page.png\" alt=\"A TV's page: the TV at a glance, its vitals, and the Install, Debloat and Send buttons\"></td>\n    <td width=\"25%\"><img src=\"docs/screenshots/remote.png\" alt=\"The Remote: Screen off and Restart under a menu in the top bar, a D-pad, icon keys for Back, Home, Menu, mute and volume, ",
+   "readme_idiomas": [
+    "español",
+    "English",
+    "中文",
+    "日本語"
+   ]
+  },
+  {
+   "repo": "InlitX/GymMane",
+   "nombre": "GymMane",
+   "desc": " Offline gym log for Android. No account, no ads, no internet.",
+   "autoria": "InlitX",
+   "tipo_autor": "User",
+   "web": "https://inlitx.github.io/GymMane/",
+   "creado": "2026-08-05",
+   "edad_dias": 90,
+   "push": "2026-11-01",
+   "dias_sin_push": 2,
+   "stars": 1284,
+   "forks": 142,
+   "vigilantes": 7,
+   "incidencias": 13,
+   "peticiones_abiertas": 0,
+   "contribuyentes": 12,
+   "licencia": "GPL-3.0",
+   "licencia_texto": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n             ",
+   "lenguaje": "Dart",
+   "tamanyo_kb": 133667,
+   "temas": [
+    "android",
+    "bodybuilding",
+    "dart",
+    "exercises",
+    "f-droid",
+    "fitness",
+    "flutter",
+    "gym",
+    "gym-app",
+    "health",
+    "privacy",
+    "workout",
+    "workout-app",
+    "workout-tracker"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 10,
+   "ultimas": [
+    {
+     "tag": "v1.9.0",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "GymMane-arm64-v8a.apk",
+       "kb": 43638.8,
+       "descargas": 635
+      },
+      {
+       "nombre": "GymMane-armeabi-v7a.apk",
+       "kb": 42348.7,
+       "descargas": 25
+      },
+      {
+       "nombre": "GymMane-x86_64.apk",
+       "kb": 45032.8,
+       "descargas": 39
+      }
+     ]
+    },
+    {
+     "tag": "v1.8.0",
+     "fecha": "2026-10-30",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "GymMane-arm64-v8a.apk",
+       "kb": 42313.9,
+       "descargas": 685
+      },
+      {
+       "nombre": "GymMane-armeabi-v7a.apk",
+       "kb": 40927.9,
+       "descargas": 21
+      },
+      {
+       "nombre": "GymMane-x86_64.apk",
+       "kb": 43772.0,
+       "descargas": 29
+      }
+     ]
+    },
+    {
+     "tag": "v1.7.0",
+     "fecha": "2026-10-24",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "GymMane-arm64-v8a.apk",
+       "kb": 41607.1,
+       "descargas": 2941
+      },
+      {
+       "nombre": "GymMane-armeabi-v7a.apk",
+       "kb": 40013.1,
+       "descargas": 71
+      },
+      {
+       "nombre": "GymMane-x86_64.apk",
+       "kb": 43001.2,
+       "descargas": 130
+      }
+     ]
+    },
+    {
+     "tag": "v1.6.0",
+     "fecha": "2026-10-18",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "GymMane-arm64-v8a.apk",
+       "kb": 41414.0,
+       "descargas": 2694
+      },
+      {
+       "nombre": "GymMane-armeabi-v7a.apk",
+       "kb": 39787.9,
+       "descargas": 72
+      },
+      {
+       "nombre": "GymMane-x86_64.apk",
+       "kb": 42744.0,
+       "descargas": 149
+      }
+     ]
+    },
+    {
+     "tag": "v1.5.0",
+     "fecha": "2026-10-11",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "GymMane-arm64-v8a.apk",
+       "kb": 40680.4,
+       "descargas": 2716
+      },
+      {
+       "nombre": "GymMane-armeabi-v7a.apk",
+       "kb": 39022.4,
+       "descargas": 72
+      },
+      {
+       "nombre": "GymMane-x86_64.apk",
+       "kb": 42074.4,
+       "descargas": 135
+      }
+     ]
+    },
+    {
+     "tag": "v1.4.0",
+     "fecha": "2026-10-02",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "GymMane-arm64-v8a.apk",
+       "kb": 36623.2,
+       "descargas": 2209
+      },
+      {
+       "nombre": "GymMane-armeabi-v7a.apk",
+       "kb": 34789.2,
+       "descargas": 84
+      },
+      {
+       "nombre": "GymMane-x86_64.apk",
+       "kb": 38017.3,
+       "descargas": 160
+      }
+     ]
+    },
+    {
+     "tag": "v1.3.0",
+     "fecha": "2026-09-19",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "GymMane-arm64-v8a.apk",
+       "kb": 34769.1,
+       "descargas": 4012
+      },
+      {
+       "nombre": "GymMane-armeabi-v7a.apk",
+       "kb": 32903.0,
+       "descargas": 167
+      },
+      {
+       "nombre": "GymMane-x86_64.apk",
+       "kb": 36163.1,
+       "descargas": 598
+      }
+     ]
+    },
+    {
+     "tag": "v1.2.0",
+     "fecha": "2026-09-13",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "GymMane-arm64-v8a.apk",
+       "kb": 33498.9,
+       "descargas": 823
+      },
+      {
+       "nombre": "GymMane-armeabi-v7a.apk",
+       "kb": 31376.9,
+       "descargas": 23
+      },
+      {
+       "nombre": "GymMane-x86_64.apk",
+       "kb": 34893.0,
+       "descargas": 37
+      }
+     ]
+    },
+    {
+     "tag": "v1.1.0",
+     "fecha": "2026-09-05",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "GymMane-arm64-v8a.apk",
+       "kb": 32212.6,
+       "descargas": 762
+      },
+      {
+       "nombre": "GymMane-armeabi-v7a.apk",
+       "kb": 30042.5,
+       "descargas": 25
+      },
+      {
+       "nombre": "GymMane-x86_64.apk",
+       "kb": 33606.6,
+       "descargas": 26
+      }
+     ]
+    },
+    {
+     "tag": "v1.0.0",
+     "fecha": "2026-08-29",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "GymMane-arm64-v8a.apk",
+       "kb": 31510.4,
+       "descargas": 150
+      },
+      {
+       "nombre": "GymMane-armeabi-v7a.apk",
+       "kb": 29132.3,
+       "descargas": 23
+      },
+      {
+       "nombre": "GymMane-source-v1.0.0.zip",
+       "kb": 29391.3,
+       "descargas": 6
+      },
+      {
+       "nombre": "GymMane-x86_64.apk",
+       "kb": 32840.4,
+       "descargas": 19
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 31,
+   "descargas_10": 19538,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "7a9baf4476f5825520d6a548583566bb0a3a6495",
+   "readme_chars": 10958,
+   "readme_inicio": "<div align=\"center\">\n\n<img src=\"docs/screenshots/banner-en.png\" alt=\"GymMane — Lift. Log it. Grow.\" width=\"860\" />\n\n<br/>\n\n<img src=\"docs/screenshots/icon.png\" width=\"94\" alt=\"GymMane\" />\n\n# GymMane\n\nA free, offline gym log for Android.<br/>\nTap the muscles you want to train, log your sets and watch your numbers go up.\n\n<br/>\n\n<p>\n  <img alt=\"Android 7.0+\" src=\"https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=flat&logo=android&logoColor=white\" />\n  <img alt=\"License GPLv3\" src=\"https://img.shields.io/badge/Code-GPLv3-C2410C?style=flat&logo=gnu&logoColor=white\" />\n  <img alt=\"Art CC BY-SA 4.0\" src=\"https://img.shields.io/badge/Art-CC%20BY--SA%204.0-8A6B41?style=flat&logo=creativecommons&logoColor=white\" />\n  <a href=\"https://github.com/InlitX/GymMane/stargazers\"><img alt=\"Stars\" src=\"https://img.shields.io/github/stars/InlitX/GymMane?style=flat&color=D9A184&labelColor=181717&logo=github\" /></a>\n  <a href=\"https://github.com/InlitX/GymMane/releases\"><img alt=\"Downloads\" src=\"https://img.shields.io/github/downloads/InlitX/GymMane/total?style=flat&color=D9A184&labelColor=181717&logo=github&label=downloads\" /></a>\n</p>\n\n<p>\n  <a href=\"https://trendshift.io/repositories/107197?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-107197\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/107197\" alt=\"InlitX%2FGymMane | Trendshift\" width=\"250\" height=\"55\"/></a>\n</p>\n\n<a href=\"https://f-droid.org/packages/com.gymmane.app/\"><img alt=\"Get it on F-Droid\" src=\"docs/badges/get-it-on-fdroid.png\" height=\"60\" /></a>\n&nbsp;\n<a href=\"https://apt.izzysoft.de/fdroid/index/apk/com.gymmane.app?repo=main\"><img alt=\"Get it on IzzyOnDroid\" src=\"docs/badges/get-it-on-izzyondroid.png\" height=\"60\" /></a>\n&nbsp;\n<a h",
+   "readme_idiomas": [
+    "español",
+    "English",
+    "中文"
+   ]
+  },
+  {
+   "repo": "metasequoiaime/msime",
+   "nombre": "msime",
+   "desc": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
+   "autoria": "metasequoiaime",
+   "tipo_autor": "Organization",
+   "web": "https://msime.app/",
+   "creado": "2026-09-02",
+   "edad_dias": 62,
+   "push": "2026-11-03",
+   "dias_sin_push": 0,
+   "stars": 1138,
+   "forks": 83,
+   "vigilantes": 1,
+   "incidencias": 69,
+   "peticiones_abiertas": 26,
+   "contribuyentes": 25,
+   "licencia": "GPL-3.0",
+   "licencia_texto": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.\n\n              ",
+   "lenguaje": "Rust",
+   "tamanyo_kb": 191067,
+   "temas": [
+    "android",
+    "chinese",
+    "cpp",
+    "harmonyos",
+    "ime",
+    "input-method",
+    "inputmethodkit",
+    "ios",
+    "linux",
+    "macos",
+    "pinyin",
+    "rust",
+    "windows"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 73,
+   "ultimas": [
+    {
+     "tag": "nightly",
+     "fecha": "2026-10-15",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.4.1-nightly.41554246568.1.exe",
+       "kb": 203382.1,
+       "descargas": 22
+      },
+      {
+       "nombre": "MetasequoiaIME-Japanese_Setup_v0.4.1-nightly.41554246568.1.exe",
+       "kb": 101115.8,
+       "descargas": 1
+      },
+      {
+       "nombre": "MetasequoiaIME-Pinyin_Setup_v0.4.1-nightly.41554246568.1.exe",
+       "kb": 197816.1,
+       "descargas": 2
+      },
+      {
+       "nombre": "MetasequoiaIME-Tibetan_Setup_v0.4.1-nightly.41554246568.1.exe",
+       "kb": 87355.3,
+       "descargas": 1
+      },
+      {
+       "nombre": "MetasequoiaIME-Vietnamese_Setup_v0.4.1-nightly.41554246568.1.exe",
+       "kb": 87357.7,
+       "descargas": 1
+      },
+      {
+       "nombre": "MetasequoiaIME-Wubi_Setup_v0.4.1-nightly.41554246568.1.exe",
+       "kb": 156125.7,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-android-japanese-nightly.41353700583.2.apk",
+       "kb": 116118.3,
+       "descargas": 3
+      },
+      {
+       "nombre": "msime-android-nightly.41353700583.2.apk",
+       "kb": 126938.2,
+       "descargas": 26
+      },
+      {
+       "nombre": "msime-android-pinyin-nightly.41353700583.2.apk",
+       "kb": 126938.2,
+       "descargas": 12
+      },
+      {
+       "nombre": "msime-android-tibetan-nightly.41353700583.2.apk",
+       "kb": 96730.0,
+       "descargas": 3
+      },
+      {
+       "nombre": "msime-android-vietnamese-nightly.41353700583.2.apk",
+       "kb": 96730.0,
+       "descargas": 4
+      },
+      {
+       "nombre": "msime-android-wubi-nightly.41353700583.2.apk",
+       "kb": 197330.9,
+       "descargas": 5
+      },
+      {
+       "nombre": "msime-bin-0.15.0-1-x86_64-nightly.41554246568.1.pkg.tar.zst",
+       "kb": 101781.9,
+       "descargas": 3
+      },
+      {
+       "nombre": "msime-harmony-0.3.3-unsigned-nightly.41554246568.1.hap",
+       "kb": 237182.2,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux-0.15.0-1.aarch64-nightly.41554246568.1.rpm",
+       "kb": 62950.7,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-0.15.0-1.x86_64-nightly.41554246568.1.rpm",
+       "kb": 66708.8,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-japanese-0.15.0-1.aarch64-nightly.41554246568.1.rpm",
+       "kb": 30660.2,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-japanese-0.15.0-1.x86_64-nightly.41554246568.1.rpm",
+       "kb": 34389.8,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-japanese_0.15.0_amd64-nightly.41554246568.1.deb",
+       "kb": 34070.2,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux-japanese_0.15.0_arm64-nightly.41554246568.1.deb",
+       "kb": 32965.0,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux-pinyin-0.15.0-1.aarch64-nightly.41554246568.1.rpm",
+       "kb": 57460.7,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-pinyin-0.15.0-1.x86_64-nightly.41554246568.1.rpm",
+       "kb": 61198.8,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-pinyin_0.15.0_amd64-nightly.41554246568.1.deb",
+       "kb": 60910.0,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux-pinyin_0.15.0_arm64-nightly.41554246568.1.deb",
+       "kb": 59816.2,
+       "descargas": 2
+      },
+      {
+       "nombre": "msime-linux-tibetan-0.15.0-1.aarch64-nightly.41554246568.1.rpm",
+       "kb": 30663.3,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-tibetan-0.15.0-1.x86_64-nightly.41554246568.1.rpm",
+       "kb": 34388.9,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-tibetan_0.15.0_amd64-nightly.41554246568.1.deb",
+       "kb": 34081.2,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux-tibetan_0.15.0_arm64-nightly.41554246568.1.deb",
+       "kb": 32953.1,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux-vietnamese-0.15.0-1.aarch64-nightly.41554246568.1.rpm",
+       "kb": 30658.4,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-vietnamese-0.15.0-1.x86_64-nightly.41554246568.1.rpm",
+       "kb": 34395.7,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-vietnamese_0.15.0_amd64-nightly.41554246568.1.deb",
+       "kb": 34083.3,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux-vietnamese_0.15.0_arm64-nightly.41554246568.1.deb",
+       "kb": 32953.0,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux-wubi-0.15.0-1.aarch64-nightly.41554246568.1.rpm",
+       "kb": 33320.0,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-wubi-0.15.0-1.x86_64-nightly.41554246568.1.rpm",
+       "kb": 37043.1,
+       "descargas": 0
+      },
+      {
+       "nombre": "msime-linux-wubi_0.15.0_amd64-nightly.41554246568.1.deb",
+       "kb": 36737.0,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux-wubi_0.15.0_arm64-nightly.41554246568.1.deb",
+       "kb": 35617.4,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux_0.15.0_amd64-nightly.41554246568.1.deb",
+       "kb": 66508.4,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-linux_0.15.0_arm64-nightly.41554246568.1.deb",
+       "kb": 65243.1,
+       "descargas": 1
+      },
+      {
+       "nombre": "msime-macos-0.57.0-universal-nightly.41554246568.1.pkg",
+       "kb": 159161.8,
+       "descargas": 3
+      },
+      {
+       "nombre": "msime-macos-japanese-0.57.0-universal-nightly.41554246568.1.pkg",
+       "kb": 90528.2,
+       "descargas": 2
+      },
+      {
+       "nombre": "msime-macos-pinyin-0.57.0-universal-nightly.41554246568.1.pkg",
+       "kb": 159430.4,
+       "descargas": 4
+      },
+      {
+       "nombre": "msime-macos-tibetan-0.57.0-universal-nightly.41554246568.1.pkg",
+       "kb": 90381.9,
+       "descargas": 2
+      },
+      {
+       "nombre": "msime-macos-vietnamese-0.57.0-universal-nightly.41554246568.1.pkg",
+       "kb": 90371.2,
+       "descargas": 2
+      },
+      {
+       "nombre": "msime-macos-wubi-0.57.0-universal-nightly.41554246568.1.pkg",
+       "kb": 157394.3,
+       "descargas": 2
+      },
+      {
+       "nombre": "SHA256SUMS-41554246568.1",
+       "kb": 5.3,
+       "descargas": 1
+      }
+     ]
+    },
+    {
+     "tag": "windows7-v0.5.1",
+     "fecha": "2026-11-02",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.5.1_win7_x64.exe",
+       "kb": 153486.7,
+       "descargas": 35
+      },
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.5.1_win7_x64.exe.sha256",
+       "kb": 0.1,
+       "descargas": 2
+      },
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.5.1_win7_x86.exe",
+       "kb": 138685.4,
+       "descargas": 10
+      },
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.5.1_win7_x86.exe.sha256",
+       "kb": 0.1,
+       "descargas": 1
+      },
+      {
+       "nombre": "SHA256SUMS",
+       "kb": 0.2,
+       "descargas": 2
+      }
+     ]
+    },
+    {
+     "tag": "onnxruntime-minimal-1.24.4-r2",
+     "fecha": "2026-11-02",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "libonnxruntime-aarch64-apple-darwin.a.gz",
+       "kb": 6935.5,
+       "descargas": 113
+      },
+      {
+       "nombre": "libonnxruntime-aarch64-apple-ios-sim.a.gz",
+       "kb": 7607.4,
+       "descargas": 106
+      },
+      {
+       "nombre": "libonnxruntime-aarch64-apple-ios.a.gz",
+       "kb": 7612.1,
+       "descargas": 8
+      },
+      {
+       "nombre": "libonnxruntime-aarch64-linux-android.a.gz",
+       "kb": 8771.8,
+       "descargas": 15
+      },
+      {
+       "nombre": "libonnxruntime-aarch64-unknown-linux-gnu.a.gz",
+       "kb": 9596.2,
+       "descargas": 3
+      },
+      {
+       "nombre": "libonnxruntime-x86_64-apple-darwin.a.gz",
+       "kb": 6255.9,
+       "descargas": 13
+      },
+      {
+       "nombre": "libonnxruntime-x86_64-linux-android.a.gz",
+       "kb": 8019.7,
+       "descargas": 80
+      },
+      {
+       "nombre": "libonnxruntime-x86_64-unknown-linux-gnu.a.gz",
+       "kb": 8789.8,
+       "descargas": 143
+      },
+      {
+       "nombre": "LICENSE",
+       "kb": 1.0,
+       "descargas": 1
+      },
+      {
+       "nombre": "onnxruntime-aarch64-pc-windows-msvc.lib.gz",
+       "kb": 19969.7,
+       "descargas": 1
+      },
+      {
+       "nombre": "onnxruntime-x86_64-pc-windows-msvc.lib.gz",
+       "kb": 20638.6,
+       "descargas": 74
+      },
+      {
+       "nombre": "required_operators_and_types.config",
+       "kb": 1.2,
+       "descargas": 1
+      },
+      {
+       "nombre": "SHA256SUMS",
+       "kb": 1.3,
+       "descargas": 2
+      },
+      {
+       "nombre": "ThirdPartyNotices.txt",
+       "kb": 317.4,
+       "descargas": 1
+      }
+     ]
+    },
+    {
+     "tag": "onnxruntime-minimal-1.24.4-r1",
+     "fecha": "2026-11-02",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "libonnxruntime-aarch64-apple-darwin.a.gz",
+       "kb": 6935.5,
+       "descargas": 8
+      },
+      {
+       "nombre": "libonnxruntime-aarch64-apple-ios-sim.a.gz",
+       "kb": 7607.4,
+       "descargas": 6
+      },
+      {
+       "nombre": "libonnxruntime-aarch64-apple-ios.a.gz",
+       "kb": 7612.1,
+       "descargas": 5
+      },
+      {
+       "nombre": "libonnxruntime-aarch64-linux-android.a.gz",
+       "kb": 8771.8,
+       "descargas": 4
+      },
+      {
+       "nombre": "libonnxruntime-aarch64-unknown-linux-gnu.a.gz",
+       "kb": 9596.2,
+       "descargas": 3
+      },
+      {
+       "nombre": "libonnxruntime-x86_64-apple-darwin.a.gz",
+       "kb": 6255.9,
+       "descargas": 5
+      },
+      {
+       "nombre": "libonnxruntime-x86_64-linux-android.a.gz",
+       "kb": 8019.7,
+       "descargas": 3
+      },
+      {
+       "nombre": "LICENSE",
+       "kb": 1.0,
+       "descargas": 2
+      },
+      {
+       "nombre": "onnxruntime-aarch64-pc-windows-msvc.lib.gz",
+       "kb": 19969.7,
+       "descargas": 3
+      },
+      {
+       "nombre": "onnxruntime-x86_64-pc-windows-msvc.lib.gz",
+       "kb": 20638.6,
+       "descargas": 5
+      },
+      {
+       "nombre": "required_operators_and_types.config",
+       "kb": 1.2,
+       "descargas": 2
+      },
+      {
+       "nombre": "SHA256SUMS",
+       "kb": 1.2,
+       "descargas": 2
+      },
+      {
+       "nombre": "ThirdPartyNotices.txt",
+       "kb": 317.4,
+       "descargas": 2
+      }
+     ]
+    },
+    {
+     "tag": "macos-v0.57.0",
+     "fecha": "2026-11-02",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "msime-macos-0.57.0-universal.pkg",
+       "kb": 158990.9,
+       "descargas": 73
+      },
+      {
+       "nombre": "msime-macos-japanese-0.57.0-universal.pkg",
+       "kb": 90463.6,
+       "descargas": 6
+      },
+      {
+       "nombre": "msime-macos-pinyin-0.57.0-universal.pkg",
+       "kb": 159300.2,
+       "descargas": 9
+      },
+      {
+       "nombre": "msime-macos-tibetan-0.57.0-universal.pkg",
+       "kb": 90324.0,
+       "descargas": 5
+      },
+      {
+       "nombre": "msime-macos-vietnamese-0.57.0-universal.pkg",
+       "kb": 90328.6,
+       "descargas": 5
+      },
+      {
+       "nombre": "msime-macos-wubi-0.57.0-universal.pkg",
+       "kb": 157277.6,
+       "descargas": 5
+      },
+      {
+       "nombre": "SHA256SUMS",
+       "kb": 0.6,
+       "descargas": 3
+      }
+     ]
+    },
+    {
+     "tag": "macos-v0.56.2-beta",
+     "fecha": "2026-11-02",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "msime-macos-0.56.2-universal.pkg",
+       "kb": 132302.3,
+       "descargas": 12
+      },
+      {
+       "nombre": "msime-macos-japanese-0.56.2-universal.pkg",
+       "kb": 87907.9,
+       "descargas": 5
+      },
+      {
+       "nombre": "msime-macos-pinyin-0.56.2-universal.pkg",
+       "kb": 132912.8,
+       "descargas": 5
+      },
+      {
+       "nombre": "msime-macos-tibetan-0.56.2-universal.pkg",
+       "kb": 88006.5,
+       "descargas": 5
+      },
+      {
+       "nombre": "msime-macos-vietnamese-0.56.2-universal.pkg",
+       "kb": 88006.3,
+       "descargas": 5
+      },
+      {
+       "nombre": "msime-macos-wubi-0.56.2-universal.pkg",
+       "kb": 155064.5,
+       "descargas": 7
+      },
+      {
+       "nombre": "SHA256SUMS",
+       "kb": 0.6,
+       "descargas": 2
+      }
+     ]
+    },
+    {
+     "tag": "windows7-v0.5.0",
+     "fecha": "2026-11-02",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.5.0_win7_x64.exe",
+       "kb": 153262.3,
+       "descargas": 18
+      },
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.5.0_win7_x64.exe.sha256",
+       "kb": 0.1,
+       "descargas": 2
+      },
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.5.0_win7_x86.exe",
+       "kb": 138528.2,
+       "descargas": 7
+      },
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.5.0_win7_x86.exe.sha256",
+       "kb": 0.1,
+       "descargas": 2
+      },
+      {
+       "nombre": "SHA256SUMS",
+       "kb": 0.2,
+       "descargas": 2
+      }
+     ]
+    },
+    {
+     "tag": "windows-v0.4.1",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.4.1.exe",
+       "kb": 176520.7,
+       "descargas": 123
+      },
+      {
+       "nombre": "MetasequoiaIME-Full_Setup_v0.4.1.exe.sha256",
+       "kb": 0.1,
+       "descargas": 2
+      },
+      {
+       "nombre": "SHA256SUMS",
+       "kb": 0.1,
+       "descargas": 0
+      }
+     ]
+    },
+    {
+     "tag": "macos-v0.56.1",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "msime-macos-0.56.1-universal.dmg",
+       "kb": 142167.1,
+       "descargas": 68
+      },
+      {
+       "nombre": "msime-macos-japanese-0.56.1-universal.dmg",
+       "kb": 95342.4,
+       "descargas": 4
+      },
+      {
+       "nombre": "msime-macos-pinyin-0.56.1-universal.dmg",
+       "kb": 142238.2,
+       "descargas": 9
+      },
+      {
+       "nombre": "msime-macos-tibetan-0.56.1-universal.dmg",
+       "kb": 95386.6,
+       "descargas": 2
+      },
+      {
+       "nombre": "msime-macos-vietnamese-0.56.1-universal.dmg",
+       "kb": 95360.3,
+       "descargas": 2
+      },
+      {
+       "nombre": "msime-macos-wubi-0.56.1-universal.dmg",
+       "kb": 166454.2,
+       "descargas": 5
+      },
+      {
+       "nombre": "SHA256SUMS",
+       "kb": 0.6,
+       "descargas": 4
+      }
+     ]
+    },
+    {
+     "tag": "macos-v0.56.0",
+     "fecha": "2026-10-31",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "msime-macos-0.56.0-universal.dmg",
+       "kb": 138517.3,
+       "descargas": 66
+      },
+      {
+       "nombre": "msime-macos-japanese-0.56.0-universal.dmg",
+       "kb": 91719.2,
+       "descargas": 2
+      },
+      {
+       "nombre": "msime-macos-pinyin-0.56.0-universal.dmg",
+       "kb": 138554.4,
+       "descargas": 17
+      },
+      {
+       "nombre": "msime-macos-tibetan-0.56.0-universal.dmg",
+       "kb": 91698.8,
+       "descargas": 3
+      },
+      {
+       "nombre": "msime-macos-vietnamese-0.56.0-universal.dmg",
+       "kb": 91658.4,
+       "descargas": 2
+      },
+      {
+       "nombre": "msime-macos-wubi-0.56.0-universal.dmg",
+       "kb": 162663.8,
+       "descargas": 2
+      },
+      {
+       "nombre": "SHA256SUMS",
+       "kb": 0.6,
+       "descargas": 3
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 113,
+   "descargas_10": 1267,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "a5fb2c668bd509af45f11d7912a921dc70e54d98",
+   "readme_chars": 21604,
+   "readme_inicio": "# 水杉输入法\n\n**简体中文** · [English](docs/readme/README.en.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md) · [繁體中文](docs/readme/README.zh-Hant.md)\n\n### 打中文，候选旁就是英文。\n\n打开「显示英文释义」后，查得到释义的候选旁会标出英文。在电脑上再打开「候选词翻译」，按 Ctrl+Enter 上屏的就是高亮候选的英文：只有一条释义时直接上屏，有几条时先列出来让你选。\n\n```text\n你打的       候选窗里            按 Ctrl+Enter 上屏\nyusuan   →  预算   budget    →  budget\nzhoumo   →  周末   weekend   →  weekend\n```\n\n**[下载水杉输入法](https://msime.app/download/)** · Windows · macOS · Linux · Android · iOS · HarmonyOS · 免费开源（GPL-3.0-only）\n\n- **怎么打开**：默认都是关的。在设置里打开「显示英文释义」（Android 和 iOS 上叫「离线英文释义」），想看读音再开「显示读音」：英文释义标音标，日文和韩文释义标罗马字，法、西、俄、德释义标国际音标（德语给实际读音）。释义和读音查本机词库，显示时不联网（Android、iOS 和 Linux 上英文音标词典和法日西俄德韩的外语读音词典各要在设置里下载一次）；「候选词翻译」不选在线翻译服务时也只查本机词库。\n- **还有什么**：「候选词翻译」的目标语言还可以换成法、日、西、俄、德、韩（鸿蒙手机上没有俄语）；「背单词」内置中考到 GRE 八本词书，按间隔重复排复习。\n- **平台差异**：读音目前在 macOS、Linux、Android、iOS、鸿蒙和 Windows 新版预览上显示；Windows 正式版由 [msime-windows](https://github.com/metasequoiaime/msime-windows) 发布，没有单独的「显示英文释义」开关，打开「候选词翻译」就会显示离线英文释义，也能用 Ctrl+Enter，暂时没有音标，也没有按间隔重复排复习的「背单词」词书；手机版仍是测试版。\n\n**输入法能看到你输入的一切，所以这个问题应该有一个能逐条核对的答案：[哪些数据会离开设备](PRIVACY.md)。**简短版本：新装的默认配置下没有功能会把你输入的内容发出设备；云联想（把正在组的拼音发给 Google 输入工具）要你在首次询问或设置里打开，其余联网功能都要你自己填凭据或选择服务才会工作。另有一条不携带输入内容的自有匿名使用统计：六个平台都会向 `api.msime.app` 发送每日活跃、会话和崩溃（错误摘要与去掉目录的调用栈）记录，默认开启，可以在设置的「匿名使用统计」里关闭——字段、逐平台差异和落盘位置逐条列在 [PRIVACY.md](PRIVACY.md#使用统计与崩溃上报默认开启可关闭)。仓库不接入任何第三方统计或崩溃上报 SDK。\n\n水杉输入法（MSIME）是面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法。六个平台各有自己的原生输入法宿主，都接入同一套共享输入运行时；设置界面按平台归属：macOS、Linux 与 HarmonyOS 用同一份共享 React 设置页，Windows、iOS 与 Android 用各自的原生设置界面，设置的业务规则应当放在共享的 Rust 层、各平台界面只做界面（目前还有部分规则写在原生界面里）；React 设置页在 macOS 与 Linux 上通过 Tauri 调用普通 Rust 业务库，在 HarmonyOS 上不经过 Tauri，由 ArkWeb 加载、经 ArkTS 原生桥与 NAPI 调用 Rust；输入算法由 msime-engine 提供。\n\n项目主页：[msime.app](https://msime.app/) · [GitH",
+   "readme_idiomas": [
+    "English",
+    "中文",
+    "日本語"
+   ]
+  },
+  {
+   "repo": "kota-zo/myspoti",
+   "nombre": "myspoti",
+   "desc": "Native Android client for Spotify, built with Jetpack Compose",
+   "autoria": "kota-zo",
+   "tipo_autor": "User",
+   "web": "",
+   "creado": "2026-10-14",
+   "edad_dias": 20,
+   "push": "2026-11-02",
+   "dias_sin_push": 1,
+   "stars": 1050,
+   "forks": 53,
+   "vigilantes": 17,
+   "incidencias": 109,
+   "peticiones_abiertas": 13,
+   "contribuyentes": 2,
+   "licencia": "GPL-3.0",
+   "licencia_texto": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n             ",
+   "lenguaje": "Kotlin",
+   "tamanyo_kb": 7074,
+   "temas": [
+    "ad-free",
+    "adblock",
+    "android",
+    "jetpack-compose",
+    "kotlin",
+    "lyrics",
+    "music-player",
+    "music-video",
+    "myspoti",
+    "spotify",
+    "spotify-adblocker",
+    "spotify-client",
+    "spotify-connect",
+    "spotui"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 23,
+   "ultimas": [
+    {
+     "tag": "v2.3.0",
+     "fecha": "2026-11-01",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "myspoti-stable-2.3.0-arm64-v8a.apk",
+       "kb": 18065.7,
+       "descargas": 17665
+      },
+      {
+       "nombre": "myspoti-stable-2.3.0-armeabi-v7a.apk",
+       "kb": 17904.6,
+       "descargas": 967
+      }
+     ]
+    },
+    {
+     "tag": "automix2-build205",
+     "fecha": "2026-11-02",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "MySpoti-AutoMix2-arm64-build205.apk",
+       "kb": 134765.0,
+       "descargas": 69
+      },
+      {
+       "nombre": "MySpoti-AutoMix2-arm64-build206.apk",
+       "kb": 134517.9,
+       "descargas": 13
+      }
+     ]
+    },
+    {
+     "tag": "v2.2.0",
+     "fecha": "2026-10-29",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "myspoti-2.2.0.apk",
+       "kb": 18153.6,
+       "descargas": 13194
+      }
+     ]
+    },
+    {
+     "tag": "v2.1.0",
+     "fecha": "2026-10-27",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "myspoti-2.1.0.apk",
+       "kb": 17781.6,
+       "descargas": 13161
+      }
+     ]
+    },
+    {
+     "tag": "v2.0.2-beta.8",
+     "fecha": "2026-10-26",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "myspoti-2.0.2-beta.8.apk",
+       "kb": 17572.3,
+       "descargas": 2959
+      }
+     ]
+    },
+    {
+     "tag": "v2.0.2-beta.7",
+     "fecha": "2026-10-26",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "myspoti-2.0.2-beta.7.apk",
+       "kb": 17318.7,
+       "descargas": 1156
+      }
+     ]
+    },
+    {
+     "tag": "v2.0.2-beta.6",
+     "fecha": "2026-10-25",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "myspoti-2.0.2-beta.6.apk",
+       "kb": 17300.9,
+       "descargas": 1204
+      }
+     ]
+    },
+    {
+     "tag": "v2.0.2-beta.5",
+     "fecha": "2026-10-25",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "myspoti-2.0.2-beta.5.apk",
+       "kb": 17233.9,
+       "descargas": 761
+      }
+     ]
+    },
+    {
+     "tag": "v2.0.2-beta.4",
+     "fecha": "2026-10-24",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "myspoti-2.0.2-beta.4.apk",
+       "kb": 14702.5,
+       "descargas": 1257
+      }
+     ]
+    },
+    {
+     "tag": "v2.0.2-beta.3",
+     "fecha": "2026-10-23",
+     "pre": true,
+     "adjuntos": [
+      {
+       "nombre": "myspoti-2.0.2-beta.3.apk",
+       "kb": 13493.0,
+       "descargas": 2212
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 12,
+   "descargas_10": 54618,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "8e8898af03a21772357ae6248a41a33a28cd9b5e",
+   "readme_chars": 14060,
+   "readme_inicio": "# Myspoti\n\n[![Latest release](https://img.shields.io/github/v/release/kota-zo/myspoti?label=release)](https://github.com/kota-zo/myspoti/releases/latest)\n[![License: GPL-3.0](https://img.shields.io/github/license/kota-zo/myspoti)](LICENSE)\n[![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://discord.gg/jXKnGVFnGS)\n\n**Spotify without ads, on a free account.** Your own Spotify account, playlists and Wrapped, in a native Android app that blocks the ads, with offline downloads through extensions you install.\n\n<p align=\"center\">\n  <img src=\"docs/screenshots/banner.jpg\" alt=\"Myspoti in its two looks: the Immersive home and player, the Classic player and an artist page\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/kota-zo/myspoti/releases/latest\"><b>⬇ Download the latest APK</b></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://ko-fi.com/myspoti\"><img src=\"https://storage.ko-fi.com/cdn/kofi6.png?v=6\" alt=\"Support Myspoti on Ko-fi\" height=\"56\"></a>\n  <a href=\"https://github.com/sponsors/kota-zo\"><img src=\"https://img.shields.io/badge/Sponsor_on_GitHub-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white\" alt=\"Sponsor kota-zo on GitHub\" height=\"56\"></a>\n</p>\n\n## Why Myspoti\n\n### 🚫 Spotify with no ads, on a free account\nNo audio ads, no video ads, no banners, and no 30-second break between songs. Myspoti switches off the ad breaks of Spotify's own player, so a free account plays like Premium: pick any song, skip as much as you want. No Premium, no modified Spotify app, nothing to root.\n\n### ⬇️ Offline downloads, through extensions\nMyspoti has no download source of its own. Install a **download-source extension** (Settings, Extensions) and you can download a song, an album, a playlist or all y",
+   "readme_idiomas": [
+    "English"
+   ]
+  },
+  {
+   "repo": "Zfinix/eleven",
+   "nombre": "eleven",
+   "desc": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you.",
+   "autoria": "Zfinix",
+   "tipo_autor": "User",
+   "web": "https://eleven.chizi.app",
+   "creado": "2026-10-13",
+   "edad_dias": 21,
+   "push": "2026-10-31",
+   "dias_sin_push": 3,
+   "stars": 961,
+   "forks": 145,
+   "vigilantes": 1,
+   "incidencias": 6,
+   "peticiones_abiertas": 4,
+   "contribuyentes": 3,
+   "licencia": "Apache-2.0",
+   "licencia_texto": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for ",
+   "lenguaje": "TypeScript",
+   "tamanyo_kb": 9200,
+   "temas": [
+    "acp",
+    "ai-agents",
+    "android",
+    "decompiler",
+    "disassembler",
+    "ghidra",
+    "hopper",
+    "macos",
+    "rea",
+    "reverse-engineering"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 14,
+   "ultimas": [
+    {
+     "tag": "v0.1.13",
+     "fecha": "2026-10-22",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Eleven-0.1.13-arm64.zip",
+       "kb": 122765.7,
+       "descargas": 73
+      },
+      {
+       "nombre": "Eleven-0.1.13-linux-x64.tar.gz",
+       "kb": 144382.7,
+       "descargas": 22
+      },
+      {
+       "nombre": "Eleven-0.1.13-windows-x64.zip",
+       "kb": 130502.5,
+       "descargas": 114
+      },
+      {
+       "nombre": "Eleven-0.1.13-x86_64.AppImage",
+       "kb": 132394.5,
+       "descargas": 51
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.12",
+     "fecha": "2026-10-22",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Eleven-0.1.12-arm64.zip",
+       "kb": 122758.1,
+       "descargas": 3
+      },
+      {
+       "nombre": "Eleven-0.1.12-linux-x64.tar.gz",
+       "kb": 144362.0,
+       "descargas": 2
+      },
+      {
+       "nombre": "Eleven-0.1.12-windows-x64.zip",
+       "kb": 130497.0,
+       "descargas": 2
+      },
+      {
+       "nombre": "Eleven-0.1.12-x86_64.AppImage",
+       "kb": 132390.5,
+       "descargas": 2
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.11",
+     "fecha": "2026-10-22",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Eleven-0.1.11-arm64.zip",
+       "kb": 122743.9,
+       "descargas": 8
+      },
+      {
+       "nombre": "Eleven-0.1.11-linux-x64.tar.gz",
+       "kb": 144368.0,
+       "descargas": 3
+      },
+      {
+       "nombre": "Eleven-0.1.11-windows-x64.zip",
+       "kb": 130486.8,
+       "descargas": 5
+      },
+      {
+       "nombre": "Eleven-0.1.11-x86_64.AppImage",
+       "kb": 132370.5,
+       "descargas": 5
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.10",
+     "fecha": "2026-10-21",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Eleven-0.1.10-arm64.zip",
+       "kb": 122700.4,
+       "descargas": 3
+      },
+      {
+       "nombre": "Eleven-0.1.10-linux-x64.tar.gz",
+       "kb": 144310.2,
+       "descargas": 1
+      },
+      {
+       "nombre": "Eleven-0.1.10-windows-x64.zip",
+       "kb": 130451.2,
+       "descargas": 2
+      },
+      {
+       "nombre": "Eleven-0.1.10-x86_64.AppImage",
+       "kb": 132334.5,
+       "descargas": 2
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.9",
+     "fecha": "2026-10-16",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Eleven-0.1.9-arm64.zip",
+       "kb": 122676.3,
+       "descargas": 192
+      },
+      {
+       "nombre": "Eleven-0.1.9-linux-x64.tar.gz",
+       "kb": 144333.0,
+       "descargas": 97
+      },
+      {
+       "nombre": "Eleven-0.1.9-windows-x64.zip",
+       "kb": 130452.4,
+       "descargas": 170
+      },
+      {
+       "nombre": "Eleven-0.1.9-x86_64.AppImage",
+       "kb": 132346.5,
+       "descargas": 101
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.8",
+     "fecha": "2026-10-16",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Eleven-0.1.8-arm64.zip",
+       "kb": 122677.1,
+       "descargas": 40
+      },
+      {
+       "nombre": "Eleven-0.1.8-linux-x64.tar.gz",
+       "kb": 144332.2,
+       "descargas": 7
+      },
+      {
+       "nombre": "Eleven-0.1.8-windows-x64.zip",
+       "kb": 130452.7,
+       "descargas": 23
+      },
+      {
+       "nombre": "Eleven-0.1.8-x86_64.AppImage",
+       "kb": 132346.5,
+       "descargas": 7
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.7",
+     "fecha": "2026-10-16",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Eleven-0.1.7-arm64.zip",
+       "kb": 122675.5,
+       "descargas": 3
+      },
+      {
+       "nombre": "Eleven-0.1.7-linux-x64.tar.gz",
+       "kb": 144156.8,
+       "descargas": 4
+      },
+      {
+       "nombre": "Eleven-0.1.7-windows-x64.zip",
+       "kb": 130452.4,
+       "descargas": 4
+      },
+      {
+       "nombre": "Eleven-0.1.7-x86_64.AppImage",
+       "kb": 132186.5,
+       "descargas": 4
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.6",
+     "fecha": "2026-10-15",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Eleven-0.1.6-arm64.zip",
+       "kb": 122673.0,
+       "descargas": 41
+      },
+      {
+       "nombre": "Eleven-0.1.6-linux-x64.AppImage",
+       "kb": 131674.5,
+       "descargas": 10
+      },
+      {
+       "nombre": "Eleven-0.1.6-linux-x64.tar.gz",
+       "kb": 143616.6,
+       "descargas": 7
+      },
+      {
+       "nombre": "Eleven-0.1.6-windows-x64.zip",
+       "kb": 130449.1,
+       "descargas": 48
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.5",
+     "fecha": "2026-10-15",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Eleven-0.1.5-arm64.zip",
+       "kb": 122673.3,
+       "descargas": 4
+      },
+      {
+       "nombre": "Eleven-0.1.5-linux-x64.AppImage",
+       "kb": 131674.5,
+       "descargas": 1
+      },
+      {
+       "nombre": "Eleven-0.1.5-linux-x64.tar.gz",
+       "kb": 143625.6,
+       "descargas": 3
+      },
+      {
+       "nombre": "Eleven-0.1.5-windows-x64.zip",
+       "kb": 130449.2,
+       "descargas": 14
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.4",
+     "fecha": "2026-10-14",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Eleven-0.1.4-arm64.zip",
+       "kb": 122542.5,
+       "descargas": 46
+      },
+      {
+       "nombre": "Eleven-0.1.4-linux-x64.AppImage",
+       "kb": 131602.5,
+       "descargas": 3
+      },
+      {
+       "nombre": "Eleven-0.1.4-linux-x64.tar.gz",
+       "kb": 143523.7,
+       "descargas": 8
+      },
+      {
+       "nombre": "Eleven-0.1.4-windows-x64.zip",
+       "kb": 130342.5,
+       "descargas": 19
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 40,
+   "descargas_10": 1154,
+   "commits_30d": 100,
+   "commits_90d": 100,
+   "commit": "9fb1042696a0e0a3387e3c3317b6e697013ae835",
+   "readme_chars": 8061,
+   "readme_inicio": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/images/icon-dark.png\">\n    <img src=\"docs/images/icon-light.png\" width=\"128\" alt=\"Eleven\">\n  </picture>\n</p>\n\n<h1 align=\"center\">Eleven</h1>\n\n<p align=\"center\"><a href=\"https://github.com/reacher-z/Awesome-REA\"><img src=\"https://raw.githubusercontent.com/reacher-z/Awesome-REA/main/assets/featured-by-awesome-rea-inline.svg\" alt=\"Featured by Awesome REA\" width=\"184\" height=\"20\"></a></p>\n\n<p align=\"center\">An agent-first reverse-engineering app for macOS, Windows and Linux.</p>\n\n<div align=\"center\">\n\n**English** · [简体中文](README_zh.md) · [繁體中文](README_zh-TW.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Türkçe](README_tr.md) · [Русский](README_ru.md) · [Tiếng Việt](README_vi.md) · [ไทย](README_th.md) · [Deutsch](README_de.md) · [Español](README_es.md) · [Français](README_fr.md) · [Українська](README_uk.md) · [Polski](README_pl.md) · [Português (Brasil)](README_pt-BR.md) · [العربية](README_ar.md) · [فارسی](README_fa.md) · [Bahasa Indonesia](README_id.md) · [Italiano](README_it.md)\n\n</div>\n\n<p align=\"center\">\n  <img src=\"docs/images/home.png\" width=\"820\" alt=\"Eleven home screen\">\n</p>\n\nEleven is a reverse-engineering app built around agents. Drop in an app, a binary, an Android APK, a GPU kernel, a shader or a model and ask what it does. Any agent that speaks the [Agent Client Protocol](https://agentclientprotocol.com) can read the code, follow references, rename functions, leave notes and suggest patches, while you watch and approve in the same window.\n\nNative code is read by [Ghidra](https://ghidra-sre.org) through [REA](https://github.com/morluto/rea), or by [Rizin](https://rizin.re) when you want files to open in seconds. Android apps are read by [jadx](https://github.com/skyl",
+   "readme_idiomas": [
+    "español",
+    "English",
+    "中文",
+    "日本語"
+   ]
+  },
+  {
+   "repo": "Turtlecute33/Fonte",
+   "nombre": "Fonte",
+   "desc": "Private, fast, minimal Android app updater: GitHub, GitLab, Codeberg/Forgejo, F-Droid and IzzyOnDroid. No native code, works with GrapheneOS dynamic code loading restrictions.",
+   "autoria": "Turtlecute33",
+   "tipo_autor": "User",
+   "web": null,
+   "creado": "2026-10-25",
+   "edad_dias": 9,
+   "push": "2026-11-02",
+   "dias_sin_push": 1,
+   "stars": 19,
+   "forks": 0,
+   "vigilantes": 0,
+   "incidencias": 2,
+   "peticiones_abiertas": 0,
+   "contribuyentes": 1,
+   "licencia": "GPL-3.0",
+   "licencia_texto": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n             ",
+   "lenguaje": "Kotlin",
+   "tamanyo_kb": 1577,
+   "temas": [
+    "android",
+    "app-updater",
+    "f-droid",
+    "grapheneos",
+    "jetpack-compose",
+    "obtainium-alternative",
+    "privacy"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 10,
+   "ultimas": [
+    {
+     "tag": "v0.1.9",
+     "fecha": "2026-11-02",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Fonte-0.1.9.apk",
+       "kb": 2485.4,
+       "descargas": 80
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.8",
+     "fecha": "2026-10-31",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Fonte-0.1.8.apk",
+       "kb": 2472.6,
+       "descargas": 135
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.7",
+     "fecha": "2026-10-29",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Fonte-0.1.7.apk",
+       "kb": 2614.4,
+       "descargas": 84
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.6",
+     "fecha": "2026-10-28",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Fonte-0.1.6.apk",
+       "kb": 2614.1,
+       "descargas": 80
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.5",
+     "fecha": "2026-10-27",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Fonte-0.1.5.apk",
+       "kb": 2614.1,
+       "descargas": 9
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.4",
+     "fecha": "2026-10-26",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Fonte-0.1.4.apk",
+       "kb": 2612.6,
+       "descargas": 58
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.3",
+     "fecha": "2026-10-26",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Fonte-0.1.3.apk",
+       "kb": 2612.6,
+       "descargas": 21
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.2",
+     "fecha": "2026-10-25",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Fonte-0.1.2.apk",
+       "kb": 2612.5,
+       "descargas": 4
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.1",
+     "fecha": "2026-10-25",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Fonte-0.1.1.apk",
+       "kb": 2574.9,
+       "descargas": 4
+      }
+     ]
+    },
+    {
+     "tag": "v0.1.0",
+     "fecha": "2026-10-25",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "Fonte-0.1.0.apk",
+       "kb": 2568.9,
+       "descargas": 4
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 10,
+   "descargas_10": 479,
+   "commits_30d": 63,
+   "commits_90d": 63,
+   "commit": "24149e8a94090bc5de9abefa388638ebde49286e",
+   "readme_chars": 10199,
+   "readme_inicio": "<div align=\"center\">\n\n<img src=\"docs/logo.svg\" width=\"96\" alt=\"Fonte logo\">\n\n# Fonte\n\n**Open-source app updater for Android.**<br>\nInstalls and updates apps straight from their source. Fast, private and minimal. No trackers, no\nGoogle Play Services.\n\n[![Android 15+](https://img.shields.io/badge/Android-15%2B-3DDC84?logo=android&logoColor=white)](#build)\n[![GrapheneOS](https://img.shields.io/badge/GrapheneOS-ready-1B6E7A)](#security)\n[![Release](https://img.shields.io/github/v/release/Turtlecute33/Fonte?include_prereleases&color=1B6E7A)](https://github.com/Turtlecute33/Fonte/releases)\n[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue)](LICENSE)\n\n<img src=\"docs/banner.png\" width=\"100%\" alt=\"Fonte for Android: app details, the app list with two updates, and the add sheet in dark mode\">\n\n</div>\n\n## About\n\nFonte keeps the apps that you install from outside an app store up to date. Give it a link to a\nrepository or an app page. Fonte finds the latest release, picks the APK for your phone, checks it\nand installs it.\n\nIt is an alternative to Obtainium, with fewer features and a smaller attack surface, and it imports\nyour Obtainium list. Fonte has no native code, no WebView and no dynamic code loading. It is made to\nrun on GrapheneOS with \"Restrict dynamic code loading\" (memory and storage) on.\n\n## Features\n\n- **Sources**: GitHub (also private repositories, with a token), GitLab (also self-hosted),\n  Codeberg, Forgejo and Gitea, F-Droid and IzzyOnDroid, and other F-Droid repos (for example the\n  Guardian Project repo). Give the repo link with its fingerprint, then choose the app.\n- **The right APK**: the build for your processor, an optional name filter (regex), and\n  pre-releases if you want them.\n- **Background updates**: a check every 3, 6, 12 or 24 hour",
+   "readme_idiomas": []
+  },
+  {
+   "repo": "norsehorse-dev/PassPonyAndroid",
+   "nombre": "PassPonyAndroid",
+   "desc": null,
+   "autoria": "norsehorse-dev",
+   "tipo_autor": "User",
+   "web": "https://passpony.app",
+   "creado": "2026-08-09",
+   "edad_dias": 86,
+   "push": "2026-10-27",
+   "dias_sin_push": 7,
+   "stars": 18,
+   "forks": 1,
+   "vigilantes": 4,
+   "incidencias": 6,
+   "peticiones_abiertas": 0,
+   "contribuyentes": 2,
+   "licencia": "Apache-2.0",
+   "licencia_texto": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for u",
+   "lenguaje": "Kotlin",
+   "tamanyo_kb": 1574,
+   "temas": [
+    "age-encryption",
+    "android",
+    "f-droid",
+    "git",
+    "jetpack-compose",
+    "kotlin",
+    "pass",
+    "password-manager",
+    "pgp"
+   ],
+   "archivado": false,
+   "es_copia": false,
+   "publicaciones_totales": 12,
+   "ultimas": [
+    {
+     "tag": "v2.1.0",
+     "fecha": "2026-10-27",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "PassPonyAndroid-2.1.0-foss.apk",
+       "kb": 24047.2,
+       "descargas": 46
+      },
+      {
+       "nombre": "PassPonyAndroid-2.1.0-SHA256SUMS.txt",
+       "kb": 0.1,
+       "descargas": 2
+      }
+     ]
+    },
+    {
+     "tag": "v2.0.0",
+     "fecha": "2026-10-17",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "PassPonyAndroid-2.0.0-foss.apk",
+       "kb": 24021.3,
+       "descargas": 83
+      },
+      {
+       "nombre": "PassPonyAndroid-2.0.0-SHA256SUMS.txt",
+       "kb": 0.1,
+       "descargas": 2
+      }
+     ]
+    },
+    {
+     "tag": "v1.1.3",
+     "fecha": "2026-09-12",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "PassPonyAndroid-1.1.3-foss.apk",
+       "kb": 22514.9,
+       "descargas": 116
+      },
+      {
+       "nombre": "PassPonyAndroid-1.1.3-SHA256SUMS.txt",
+       "kb": 0.1,
+       "descargas": 5
+      }
+     ]
+    },
+    {
+     "tag": "v1.1.2",
+     "fecha": "2026-09-11",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "PassPonyAndroid-1.1.2-foss.apk",
+       "kb": 22512.3,
+       "descargas": 16
+      },
+      {
+       "nombre": "PassPonyAndroid-1.1.2-SHA256SUMS.txt",
+       "kb": 0.1,
+       "descargas": 1
+      }
+     ]
+    },
+    {
+     "tag": "v1.1.1",
+     "fecha": "2026-09-10",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "PassPonyAndroid-1.1.1-foss.apk",
+       "kb": 22448.3,
+       "descargas": 18
+      },
+      {
+       "nombre": "PassPonyAndroid-1.1.1-SHA256SUMS.txt",
+       "kb": 0.1,
+       "descargas": 1
+      }
+     ]
+    },
+    {
+     "tag": "v1.1.0",
+     "fecha": "2026-09-08",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "PassPonyAndroid-1.1.0-foss.apk",
+       "kb": 22320.2,
+       "descargas": 24
+      },
+      {
+       "nombre": "PassPonyAndroid-1.1.0-SHA256SUMS.txt",
+       "kb": 0.1,
+       "descargas": 1
+      }
+     ]
+    },
+    {
+     "tag": "v1.0.5",
+     "fecha": "2026-08-28",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "PassPonyAndroid-1.0.5-foss.apk",
+       "kb": 21710.2,
+       "descargas": 30
+      },
+      {
+       "nombre": "PassPonyAndroid-1.0.5-SHA256SUMS.txt",
+       "kb": 0.1,
+       "descargas": 1
+      }
+     ]
+    },
+    {
+     "tag": "v1.0.4",
+     "fecha": "2026-08-25",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "PassPonyAndroid-1.0.4-foss.apk",
+       "kb": 22446.9,
+       "descargas": 484
+      },
+      {
+       "nombre": "PassPonyAndroid-1.0.4-SHA256SUMS.txt",
+       "kb": 0.1,
+       "descargas": 1
+      }
+     ]
+    },
+    {
+     "tag": "v1.0.3",
+     "fecha": "2026-08-24",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "PassPonyAndroid-1.0.3-foss.apk",
+       "kb": 22447.0,
+       "descargas": 7
+      },
+      {
+       "nombre": "PassPonyAndroid-1.0.3-SHA256SUMS.txt",
+       "kb": 0.1,
+       "descargas": 0
+      }
+     ]
+    },
+    {
+     "tag": "v1.0.2",
+     "fecha": "2026-08-11",
+     "pre": false,
+     "adjuntos": [
+      {
+       "nombre": "PassPonyAndroid-1.0.2-foss.apk",
+       "kb": 20703.0,
+       "descargas": 19
+      },
+      {
+       "nombre": "PassPonyAndroid-1.0.2-play.aab",
+       "kb": 16823.1,
+       "descargas": 1
+      },
+      {
+       "nombre": "PassPonyAndroid-1.0.2-SHA256SUMS.txt",
+       "kb": 0.2,
+       "descargas": 0
+      }
+     ]
+    }
+   ],
+   "adjuntos_10": 21,
+   "descargas_10": 858,
+   "commits_30d": 20,
+   "commits_90d": 100,
+   "commit": "6be43f3ec854f18c14d8236872606740f12be2a6",
+   "readme_chars": 9053,
+   "readme_inicio": "# PassPony (Android)\n\n[![CI](https://github.com/norsehorse-dev/PassPonyAndroid/actions/workflows/ci.yml/badge.svg)](https://github.com/norsehorse-dev/PassPonyAndroid/actions/workflows/ci.yml)\n\nA password manager that speaks pass and passage: plain encrypted files,\nyour keys, git sync. Kotlin and Jetpack Compose over the shared Rust core\n([PassPonyCore](https://github.com/norsehorse-dev/passponycore)), the\nsame core that backs [PassPony iOS](https://github.com/norsehorse-dev/passpony).\n\nBuilt packet by packet against the plan in `PLAN.md` and `docs/plan/`; see\nthat directory for how each feature below landed. The v1 feature set below\nis implemented and CI-green; release engineering (packaging, storefront\nlistings, the signed release flow) is the packet in progress now -- see\n`docs/plan/P16-release.md` and `docs/RELEASE_CHECKLIST.md`.\n\n- Browse, search, and edit entries in pass (OpenPGP) and passage (age)\n  stores. Each format keeps its own store; switching never touches the\n  other store's data.\n- One-time codes: scan a QR code, paste an otpauth link, or type the\n  key; live codes with a countdown ring. Reads and writes the same\n  `otpauth://` line as pass-otp, including entries made with\n  `pass otp insert`. Counter-based (HOTP) codes advance and commit the\n  counter the way `pass otp code` does.\n- Import from Google Authenticator: scan its export QR codes and each\n  account becomes its own one-time code entry.\n- Password generator with length and character-class options; the\n  untouched default is pass's own 25 from the full set.\n- Import an existing age identity for passage stores, plaintext or\n  passphrase-protected (the `age -p` format gopass's age backend writes,\n  binary or armored); the passphrase is asked for on import and the file\n  is decrypted on the device. ",
+   "readme_idiomas": [
+    "English"
+   ]
+  }
+ ]
+}

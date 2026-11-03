@@ -110,9 +110,9 @@ Empieza por las bajas: **risunCode/AppControl-X** (caído (404)) no contestaron 
 Medí otra vez, hoy 3 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • 0x192/universal-android-debloater — ★20.322 (+34) · *dormido*: sin empujar desde el 2-ago-2024 (823 días) · GPL-3.0
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.712 (+74) · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
-• d4rken-org/sdmaid-se — ★7.971 (+49) · empujó en las últimas horas · GPL-3.0 · última release v2.2.2-rc0 (19-oct-2026)
-• samolego/Canta — ★6.439 (+84) · empujó el 31-oct-2026 (hace 3 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.718 (+80) · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
+• d4rken-org/sdmaid-se — ★7.973 (+51) · empujó en las últimas horas · GPL-3.0 · última release v2.2.2-rc0 (19-oct-2026)
+• samolego/Canta — ★6.440 (+85) · empujó el 31-oct-2026 (hace 3 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
 • oasisfeng/island — ★3.995 (+7) · *dormido*: sin empujar desde el 24-abr-2025 (558 días) · Apache-2.0 · última release v6.2.1 (19-oct-2023)
 • PeterCxy/Shelter — ★3.686 (+6) · empujó el 27-sep-2026 (hace 37 días) · GPL-3.0 · última release 1.6 (29-sep-2020)
 • keymapperorg/KeyMapper — ★2.790 (+7) · empujó en las últimas horas · GPL-3.0 · última release v4.6.2 (22-oct-2026)

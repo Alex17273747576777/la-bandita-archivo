@@ -1,0 +1,48 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-10-15",
+  "semantica_http": 200,
+  "ultima_release": "nightly",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
+ "evidencia": {
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "6a45e0874fd726e933a8e5a28f0ed4865946c2b2fdb8986426069fa785d324ee"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "metasequoiaime--msime",
+ "licencia": {
+  "archivo": "GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free",
+  "metodo": "endpoint-license",
+  "nota": "certificada contra el texto del archivo LICENSE",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1138,
+  "stars_por_mes": null
+ },
+ "nombre": "msime",
+ "piezas": [
+  "01"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a5fb2c668bd509af45f11d7912a921dc70e54d98",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a5fb2c668bd509af45f11d7912a921dc70e54d98"
+ },
+ "repo": "metasequoiaime/msime"
+}

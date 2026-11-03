@@ -400,10 +400,10 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pi
 
 • KRTirtho/spotube — sin dato hoy (la API no respondió). No afirmo nada.
 • MetrolistGroup/Metrolist — ★13.979 (+90) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.687 (+158) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/SimpMusic — ★12.688 (+159) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • AntennaPod/AntennaPod — ★8.260 (+3) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • theovilardo/PixelPlayer — sin dato hoy (la API no respondió). No afirmo nada.
-• namidaco/namida — ★6.779 · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• namidaco/namida — ★6.780 · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • z-huang/InnerTune — ★6.135 (+4) · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • OuterTune/OuterTune — ★5.441 (+4) · empujó el 12-oct-2026 (hace 22 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.382 (+8) · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)

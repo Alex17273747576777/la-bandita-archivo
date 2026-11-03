@@ -1,47 +1,48 @@
 {
  "actividad": {
-  "estado": "vivo",
-  "release_en": "2026-07-18",
+  "estado": "dormido",
+  "release_en": "2026-11-03",
   "semantica_http": 200,
-  "ultima_release": "v0.1.0-beta",
+  "ultima_release": "2026.11.3",
   "ultimo_push": "2026-11-03"
  },
  "descripcion": "Turn any Android device into a beautiful, dedicated Home Assistant kiosk. Purpose-built for Home Assistant from the ground up.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
-  "payload_ref": "registry/_evidencia/jxlarrea--kiosk-satellite.json",
-  "sha256": "9dbc41a0c9f797fea219b50dd1869c32155162f75244cddb96813ccab8ced23d"
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "6df0bd59861991f0f1100eeadb19632a13a4c889e081056aeebf0f8a2f8d0834"
  },
  "frescura_dias": 0,
  "fuente": {
-  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "jxlarrea--kiosk-satellite",
  "licencia": {
-  "archivo": "LICENSE",
-  "metodo": "spdx-api",
-  "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
-  "spdx": "NOASSERTION",
+  "archivo": "Kiosk Satellite\nCopyright (c) 2026 Xavier Larrea\n\nThis work is licensed under the Creative Commons\nAttribution-NonCommer",
+  "metodo": "ausencia-firmada",
+  "nota": "la API no reconoce la licencia (NOASSERTION); el archivo del repositorio sí la declara y se transcribe",
+  "spdx": null,
   "verificado_en": "2026-11-03"
  },
  "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2459,
+  "stars": 2461,
   "stars_por_mes": null
  },
  "nombre": "kiosk-satellite",
- "piezas": [],
+ "piezas": [
+  "01"
+ ],
  "procedencia": {
   "atestacion": null,
   "commit": "089ceb868ff7a39fb18298999ed42dac932e3759",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:089ceb868ff7a39fb18298999ed42dac932e3759"
  },
- "repo": "jxlarrea/kiosk-satellite",
- "web": "https://kiosksatellite.com"
+ "repo": "jxlarrea/kiosk-satellite"
 }

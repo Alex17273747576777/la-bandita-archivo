@@ -1,27 +1,28 @@
 {
  "actividad": {
-  "estado": "vivo",
-  "release_en": "2026-09-13",
+  "estado": "dormido",
+  "release_en": "2026-11-01",
   "semantica_http": 200,
-  "ultima_release": "lineage-v2",
+  "ultima_release": "3.3",
   "ultimo_push": "2026-11-03"
  },
  "descripcion": "Run Android on iOS. Natively or Emulated.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
-  "payload_ref": "registry/_evidencia/leviidev--husk.json",
-  "sha256": "9ebcabdd538d7e655e765b7e2175bf9ebf888a9f1fb4113e63b0d04b031657c0"
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "b2cf914f380ccb27a571a0aabf042a1d0db763ac999d21096de2d4552bc93263"
  },
  "frescura_dias": 0,
  "fuente": {
-  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "leviidev--husk",
  "licencia": {
-  "archivo": null,
-  "metodo": "spdx-api",
+  "archivo": "GNU GENERAL PUBLIC LICENSE\n\t\t       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.",
+  "metodo": "endpoint-license",
+  "nota": "certificada contra el texto del archivo LICENSE",
   "spdx": "GPL-2.0",
   "verificado_en": "2026-11-03"
  },
@@ -29,18 +30,19 @@
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2988,
+  "stars": 2993,
   "stars_por_mes": null
  },
  "nombre": "Husk",
- "piezas": [],
+ "piezas": [
+  "01"
+ ],
  "procedencia": {
   "atestacion": null,
   "commit": "32acdda2a58691b0f88c30f30ede0422e8671633",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:32acdda2a58691b0f88c30f30ede0422e8671633"
  },
- "repo": "Leviidev/Husk",
- "web": "https://itslevii.dev"
+ "repo": "Leviidev/Husk"
 }

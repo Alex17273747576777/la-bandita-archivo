@@ -100,13 +100,13 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 13 activos este mes. Mand
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★118.060 (+448) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• yuliskov/SmartTube — ★35.878 (+169) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• immich-app/immich — ★118.063 (+451) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• yuliskov/SmartTube — ★35.880 (+171) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • xbmc/xbmc — ★21.427 (+28) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
 • muzei/muzei — ★4.962 (+8) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • anilbeesetti/nextplayer — ★4.670 (+35) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (2-nov-2026)
 • videolan/vlc-android — ★4.128 (+8) · empujó en las últimas horas · GPL-2.0
-• NuvioMedia/NuvioTV — ★3.343 (+72) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• NuvioMedia/NuvioTV — ★3.344 (+73) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
 • mahlernim/google-timeline-visualizer — ★3.060 (+3) · empujó el 22-oct-2026 (hace 12 días) · MIT · última release v3.1.0 (5-oct-2026)
 • 10miaomiao/bilimiao2 — ★2.976 (+11) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 2.5.2.2 (1-nov-2026)
 • moneytoo/Player — ★2.787 (+28) · empujó el 22-oct-2026 (hace 12 días) · Unlicense · última release v0.217 (11-sep-2026)

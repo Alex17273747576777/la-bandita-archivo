@@ -261,26 +261,26 @@ Hay release de esta semana: **Khh-vu/wifi-password-manager** publicó v1.21 (202
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 52 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★333.310 (+1523) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
-• ggml-org/llama.cpp — ★133.256 (+485) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• jellyfin/jellyfin — ★58.963 (+176) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• awesome-selfhosted/awesome-selfhosted — ★333.323 (+1536) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• ggml-org/llama.cpp — ★133.259 (+488) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• jellyfin/jellyfin — ★58.966 (+179) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • photoprism/photoprism — ★40.403 (+33) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• SagerNet/sing-box — ★39.577 (+188) · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• SagerNet/sing-box — ★39.580 (+191) · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.298 (+13) · empujó el 30-oct-2026 (hace 4 días) · Apache-2.0
-• komi-store/komi-store — ★20.287 (+197) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• komi-store/komi-store — ★20.290 (+200) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • FreshRSS/FreshRSS — ★16.503 (+57) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
 • FlareSolverr/FlareSolverr — ★16.131 (+60) · empujó el 24-oct-2026 (hace 10 días) · MIT · última release v3.5.2 (12-sep-2026)
 • thunderbird/thunderbird-android — ★14.175 (+18) · empujó en las últimas horas · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
 • offa/android-foss — ★11.620 (+34) · empujó en las últimas horas · GPL-3.0
 • iSoron/uhabits — ★10.387 (+15) · empujó el 22-oct-2026 (hace 12 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
-• AAswordman/Operit — ★9.202 (+117) · empujó en las últimas horas · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
+• AAswordman/Operit — ★9.206 (+121) · empujó en las últimas horas · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
 • LibChecker/LibChecker — ★7.302 (+11) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
 • tasks/tasks — ★5.715 (+17) · empujó en las últimas horas · GPL-3.0 · última release 15.13 (14-oct-2026)
 • jellyfin/jellyfin-androidtv — ★4.703 (+28) · empujó en las últimas horas · GPL-2.0 · última release v0.19.10 (16-ago-2026)
 • KieronQuinn/Smartspacer — ★3.590 (+12) · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release 1.11.4 (2-oct-2026)
-• wgtunnel/android — ★3.326 (+10) · empujó en las últimas horas · MIT · última release 5.8.2 (19-oct-2026)
+• wgtunnel/android — ★3.327 (+11) · empujó en las últimas horas · MIT · última release 5.8.2 (19-oct-2026)
 • f-droid/fdroidclient — ★3.255 (+8) · empujó en las últimas horas · GPL-3.0 · última release 1.18.0 (24-ene-2024)
-• jellyfin/jellyfin-android — ★2.856 (+17) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• jellyfin/jellyfin-android — ★2.857 (+18) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 • Etar-Group/Etar-Calendar — ★2.631 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.0.57 (27-jul-2026)
 • lihenggui/blocker — ★2.480 (+14) · empujó en las últimas horas · Apache-2.0 · última release v2.0.6447 (22-oct-2026)
 • AhmetCanArslan/ShizuWall — ★2.441 (+32) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.6.8 (24-oct-2026)
@@ -296,7 +296,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 52 repositorios que cita esta pi
 
 ═══ MENSAJE 9 de 11 · 2649 caracteres ═══
 
-• GlassHaven/Haven — ★1.409 (+22) · empujó en las últimas horas · AGPL-3.0 · última release v5.94.2 (3-nov-2026)
+• GlassHaven/Haven — ★1.410 (+23) · empujó en las últimas horas · AGPL-3.0 · última release v5.94.2 (3-nov-2026)
 • F0x1d/LogFox — ★1.380 (+7) · empujó el 15-oct-2026 (hace 19 días) · GPL-3.0 · última release v2.1.10-79 (1-mar-2026)
 • sdex/ActivityManager — ★1.375 (+9) · empujó el 27-oct-2026 (hace 7 días) · Apache-2.0 · última release 5.5.3 (10-oct-2026)
 • Anthonyy232/Paperize — ★1.260 (+3) · empujó en las últimas horas · GPL-3.0 · última release v4.2.1 (13-oct-2026)

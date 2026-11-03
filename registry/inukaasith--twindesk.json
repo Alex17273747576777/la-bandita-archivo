@@ -1,0 +1,48 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-29",
+  "semantica_http": 200,
+  "ultima_release": "v2.5.0-beta.1",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": " All your computers and your phone, working as one desk. Screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux and Android. Free and open source. No account, no cloud, and now no shared network needed.",
+ "evidencia": {
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "70b33035571f9360fe51a537cbe7e0f84cd801641487a2db6d54a6decf4c83bd"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "inukaasith--twindesk",
+ "licencia": {
+  "archivo": "GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free",
+  "metodo": "endpoint-license",
+  "nota": "certificada contra el texto del archivo LICENSE",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3176,
+  "stars_por_mes": null
+ },
+ "nombre": "TwinDesk",
+ "piezas": [
+  "01"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "76b69c1d00609d5cb82e9e5cdfe2f42f8257955d",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:76b69c1d00609d5cb82e9e5cdfe2f42f8257955d"
+ },
+ "repo": "InukaAsith/TwinDesk"
+}

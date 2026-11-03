@@ -137,17 +137,17 @@ Hay release de esta semana: **Awerkori/manga-extensoes** publicó f4a374c (2026-
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3057 caracteres ═══
+═══ MENSAJE 5 de 6 · 3048 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 26*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iptv-org/iptv — ★143.116 (+387) · empujó en las últimas horas · Unlicense
-• nexu-io/open-design — ★105.660 (+797) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
+• iptv-org/iptv — ★143.118 (+389) · empujó en las últimas horas · Unlicense
+• nexu-io/open-design — ★105.668 (+805) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
 • android/nowinandroid — ★22.002 (+19) · empujó en las últimas horas · Apache-2.0 · última release 0.1.1 (13-jul-2023)
 • JingMatrix/Vector — ★13.019 (+52) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
-• CluvexStudio/Aether — ★2.414 (+40) · empujó el 24-oct-2026 (hace 10 días) · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
+• CluvexStudio/Aether — ★2.414 (+40) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
 • meshtastic/Meshtastic-Android — ★1.905 (+9) · empujó en las últimas horas · GPL-3.0 · última release v2.8.3 (19-oct-2026)
 • HmnDev-Tech/shevery — ★1.582 (+55) · empujó en las últimas horas · Apache-2.0 · última release 14.6.1 (1-nov-2026)
 • NikhilKain/vyxel-apps — ★958 (+6) · empujó el 25-oct-2026 (hace 9 días) · NOASSERTION · última release v1.1.5 (25-oct-2026)

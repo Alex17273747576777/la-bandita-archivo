@@ -1,0 +1,48 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-11-03",
+  "semantica_http": 200,
+  "ultima_release": "v0.15.0-alpha.1",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Debloat your Android TV, install apps, browse and transfer files on it, all from your phone. Just 3 MB, no tracking, no root, no PC.",
+ "evidencia": {
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "a414abdb3a70fcc3ffe3520d93e4bfa98c9780a334646849b3971a3d0fada0b7"
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "man15h--tellyscope",
+ "licencia": {
+  "archivo": "GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free",
+  "metodo": "endpoint-license",
+  "nota": "certificada contra el texto del archivo LICENSE",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1322,
+  "stars_por_mes": null
+ },
+ "nombre": "tellyscope",
+ "piezas": [
+  "01"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "442330d85a84d8bad0930883693e14a36fe6cd09",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:442330d85a84d8bad0930883693e14a36fe6cd09"
+ },
+ "repo": "man15h/tellyscope"
+}

@@ -317,8 +317,8 @@ Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Mand
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 60 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ente/ente — ★29.858 (+116) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.68 (2-nov-2026)
-• T8RIN/ImageToolbox — ★15.310 (+69) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
+• ente/ente — ★29.859 (+117) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.68 (2-nov-2026)
+• T8RIN/ImageToolbox — ★15.311 (+70) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
 • floccusaddon/floccus — ★8.614 (+11) · empujó el 1-nov-2026 (hace 2 días) · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.677 (+3) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
 • ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (84 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)

@@ -71,7 +71,7 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda *
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.426 (+57) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-1 (3-nov-2026)
+• keiyoushi/extensions — ★15.427 (+58) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-2 (3-nov-2026)
 • keiyoushi/extensions-source — ★4.860 (+29) · empujó en las últimas horas · Apache-2.0
 • LittleSurvival/copymanga-copy20 — ★2.993 (+21) · empujó el 11-oct-2026 (hace 23 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • yuzono/anime-extensions — ★529 (+7) · empujó en las últimas horas · Apache-2.0

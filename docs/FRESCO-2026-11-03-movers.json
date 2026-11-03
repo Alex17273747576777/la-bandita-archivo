@@ -1,0 +1,18 @@
+{
+ "fecha": "2026-11-03",
+ "medido_en": "2026-11-03T14:32:29+00:00",
+ "modo": "movers",
+ "ventana_dias": 7,
+ "consultas": [
+  "topic:android pushed:>=2026-10-27 stars:>=30",
+  "topic:f-droid pushed:>=2026-10-27 stars:>=30",
+  "topic:self-hosted pushed:>=2026-10-27 stars:>=30",
+  "topic:privacy pushed:>=2026-10-27 stars:>=30",
+  "topic:kotlin pushed:>=2026-10-27 stars:>=30",
+  "topic:rust pushed:>=2026-10-27 stars:>=30"
+ ],
+ "medidos": 0,
+ "vivos_30d": 0,
+ "con_publicaciones": 0,
+ "fichas": []
+}

@@ -117,11 +117,11 @@ Hay release de esta semana: **ggml-org/llama.cpp** publicó v0.8.0 (2026-10-28).
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.256 (+485) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• SagerNet/sing-box — ★39.577 (+188) · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• ggml-org/llama.cpp — ★133.259 (+488) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• SagerNet/sing-box — ★39.580 (+191) · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • mlc-ai/mlc-llm — ★23.298 (+13) · empujó el 30-oct-2026 (hace 4 días) · Apache-2.0
 • FlareSolverr/FlareSolverr — ★16.131 (+60) · empujó el 24-oct-2026 (hace 10 días) · MIT · última release v3.5.2 (12-sep-2026)
-• AAswordman/Operit — ★9.202 (+117) · empujó en las últimas horas · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
+• AAswordman/Operit — ★9.206 (+121) · empujó en las últimas horas · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
 • LibChecker/LibChecker — ★7.302 (+11) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.071 (+3) · *dormido*: sin empujar desde el 6-feb-2022 (1731 días) · sin licencia detectada por la API
 • zacharee/Tweaker — ★1.762 (+5) · empujó el 21-oct-2026 (hace 13 días) · MIT · última release 362 (17-feb-2024)

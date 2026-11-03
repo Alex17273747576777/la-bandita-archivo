@@ -92,7 +92,7 @@ La noticia fresca es de **Xitee1/sleep-timer**: release v1.4.0 (2026-10-27). El 
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1923 caracteres ═══
+═══ MENSAJE 4 de 5 · 1915 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 31*
 
@@ -103,9 +103,9 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pi
 • Hamza417/Peristyle — ★744 (+4) · empujó el 23-oct-2026 (hace 11 días) · Apache-2.0 · última release v9.8.4 (23-oct-2026)
 • adil192/no_more_background — ★386 (+2) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.8.2 (1-ago-2026)
 • Akylas/EnforceDoze — ★368 (+2) · *dormido*: sin empujar desde el 26-jul-2026 (100 días) · GPL-3.0 · última release v1.10.2/86 (18-abr-2026)
-• agupta07505/SmartIsland — ★400 (+52) · empujó el 19-oct-2026 (hace 15 días) · GPL-3.0 · última release v7.6.0 (19-oct-2026)
+• agupta07505/SmartIsland — ★401 (+53) · empujó el 19-oct-2026 (hace 15 días) · GPL-3.0 · última release v7.6.0 (19-oct-2026)
 • daisukiKaffuChino/RebootNya — ★293 (+5) · *dormido*: sin empujar desde el 20-ago-2026 (75 días) · Apache-2.0 · última release 1.9.0 (20-ago-2026)
-• mlm-games/BatStats — ★235 (+2) · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release 6.2.6 (14-sep-2026)
+• mlm-games/BatStats — ★235 (+2) · empujó en las últimas horas · GPL-3.0 · última release 6.2.6 (14-sep-2026)
 • C10udburst/Grayscaler — ★168 (sin cambio) · *dormido*: sin empujar desde el 18-feb-2025 (623 días) · GPL-3.0 · última release 1.0 (18-feb-2025)
 • eiyooooo/Fold_Switcher — ★122 (+1) · *dormido*: sin empujar desde el 10-jun-2025 (511 días) · Apache-2.0 · última release V1.2.2 (11-abr-2025)
 • mahmutaunal/Adaptive-Hz — ★98 (+3) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · MIT · última release 2.3.0 (20-ago-2026)

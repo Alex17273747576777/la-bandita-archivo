@@ -99,13 +99,13 @@ Pulso de hoy sobre los 12 repos de la pieza: 12 vivos, 9 activos este mes. Manda
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• rustdesk/rustdesk — ★128.013 (+518) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.1 (1-nov-2026)
-• localsend/localsend — ★97.151 (+694) · empujó en las últimas horas · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• termux/termux-app — ★64.008 (+330) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• RikkaApps/Shizuku — ★32.708 (+323) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• rustdesk/rustdesk — ★128.018 (+523) · empujó en las últimas horas · AGPL-3.0 · última release 1.5.1 (1-nov-2026)
+• localsend/localsend — ★97.159 (+702) · empujó en las últimas horas · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• termux/termux-app — ★64.012 (+334) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• RikkaApps/Shizuku — ★32.712 (+327) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • mihonapp/mihon — ★24.998 (+159) · empujó el 26-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• komi-store/komi-store — ★20.287 (+197) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• keiyoushi/extensions — ★15.426 (+57) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-1 (3-nov-2026)
+• komi-store/komi-store — ★20.290 (+200) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• keiyoushi/extensions — ★15.427 (+58) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-2 (3-nov-2026)
 • hrydgard/ppsspp — ★14.817 (+35) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
 • guardianproject/orbot-android — ★3.675 (+14) · empujó el 26-oct-2026 (hace 8 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
 • itsmechinmoy/dantotsu-updater — ★156 (+2) · empujó el 1-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)

@@ -1,44 +1,80 @@
 {
  "fecha": "2026-11-03",
- "repositorios": 6,
- "archivadas": 2,
- "solicitadas": 4,
+ "repositorios": 12,
+ "archivadas": 0,
+ "solicitadas": 12,
  "detalle": [
   {
-   "repo": "RikkaApps/Shizuku",
-   "swhid": "swh:1:rev:b844bc491f1790c72328e1a8e5b2349f8978f0ea",
-   "estado": "archivada",
-   "solicitud": "b844bc491f1790c72328e1a8e5b2349f8978f0ea"
-  },
-  {
-   "repo": "thedjchi/Shizuku",
-   "swhid": "swh:1:rev:15ade0e40042dc72f0e502d50b4cb16e3a19095e",
-   "estado": "archivada",
-   "solicitud": "15ade0e40042dc72f0e502d50b4cb16e3a19095e"
-  },
-  {
-   "repo": "thejaustin/ShizukuPlus",
-   "swhid": "swh:1:rev:a2b0077733134fe84c262f4afed176a3d5024df5",
+   "repo": "InukaAsith/TwinDesk",
+   "swhid": "swh:1:rev:76b69c1d00609d5cb82e9e5cdfe2f42f8257955d",
    "estado": "solicitud 200",
    "solicitud": "accepted"
   },
   {
-   "repo": "rushiranpise/Shizuku-Next",
-   "swhid": "swh:1:rev:e1bcc2525f8be047e88e80528c7306e0ee5f88b5",
+   "repo": "Gathin23/cleanyourtv",
+   "swhid": "swh:1:rev:d7b0d4a5284d3934a1fce192bd4e2f43aa1fbf97",
    "estado": "solicitud 200",
    "solicitud": "accepted"
   },
   {
-   "repo": "kerneldroid/Nightzuku",
-   "swhid": "swh:1:rev:e6904452b6a2b9a72fac2d1f7fce9978a08bd883",
+   "repo": "Leviidev/Husk",
+   "swhid": "swh:1:rev:32acdda2a58691b0f88c30f30ede0422e8671633",
    "estado": "solicitud 200",
    "solicitud": "accepted"
   },
   {
-   "repo": "krishna3163/OmniShizuku",
-   "swhid": "swh:1:rev:153d6ecba28f7974b13a68542b9206197297616a",
+   "repo": "jxlarrea/kiosk-satellite",
+   "swhid": "swh:1:rev:089ceb868ff7a39fb18298999ed42dac932e3759",
    "estado": "solicitud 200",
    "solicitud": "accepted"
+  },
+  {
+   "repo": "Clash-Projects/LastWave-Native",
+   "swhid": "swh:1:rev:d25283a037e9694383ccf0eba055d94768bfd462",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "humblemuzzu/dumbtv",
+   "swhid": "swh:1:rev:865488fc333e31562b1b8d03ac2fd45187f7ab2a",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "Verlintas/NOIR",
+   "swhid": "swh:1:rev:04646aac7870cd00cbff8b9f6f0f7805fe8b342a",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "mokshablr/gander",
+   "swhid": "swh:1:rev:89bf8106f581960d161baf73514ce41657a27177",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "man15h/tellyscope",
+   "swhid": "swh:1:rev:442330d85a84d8bad0930883693e14a36fe6cd09",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "metasequoiaime/msime",
+   "swhid": "swh:1:rev:a5fb2c668bd509af45f11d7912a921dc70e54d98",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "Turtlecute33/Fonte",
+   "swhid": "swh:1:rev:24149e8a94090bc5de9abefa388638ebde49286e",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "norsehorse-dev/PassPonyAndroid",
+   "swhid": "swh:1:rev:6be43f3ec854f18c14d8236872606740f12be2a6",
+   "estado": "solicitud 429",
+   "solicitud": null
   }
  ]
 }

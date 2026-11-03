@@ -827,7 +827,9 @@ Orden obligatorio: **acta → pieza → envío → sello**. Saltarse un paso dej
 2. **Archivo viejo:** las piezas anteriores al reinicio conservan su número y su fecha, quedan congeladas y no se renumeran. `firma_literal` las cuenta como «archivo viejo sin exigencia» y la vara no las toca.
 3. **Prohibido inventar un número alto.** Una pieza «81» o «257» no existe y no puede publicarse: si el número no corresponde al siguiente del ciclo, el archivo está mal y la compuerta G10 lo canta al no encontrar su banda.
 
-**Al corte hay nueve publicaciones vivas en el ciclo:** FB 01 (40.355), WA 01 (63.068), FB 02 (44.996), WA 02 (63.006), FB 03 (44.914), WA 03 (63.098), **FB 04 (44.867)** y **WA 04 (63.096)**, más la serie corta **HdP 01** (4.152 exactos). La 04 de WhatsApp no es una copia de la 04 de Facebook: comparten medición, no texto —la de WhatsApp entra por el caso de una persona con un teléfono lleno y no repite ni un párrafo, cosa que M23 comprueba—. La siguiente pieza larga es la **05**.
+**Al corte hay nueve publicaciones vivas en el ciclo:** **FB 01 rehecha el 3-nov (44.964)**, WA 01 (63.068), FB 02 (44.996), WA 02 (63.006), FB 03 (44.914), WA 03 (63.098), FB 04 (44.867) y WA 04 (63.096), más la serie corta **HdP 01** (4.152 exactos). La 01 anterior —«La puerta y el recibo»— queda archivada en `_reemplazadas/`, no borrada: una pieza que se rehace se conserva para que se pueda comparar el antes y el después. La 04 de WhatsApp no es una copia de la 04 de Facebook: comparten medición, no texto —la de WhatsApp entra por el caso de una persona con un teléfono lleno y no repite ni un párrafo, cosa que M23 comprueba—. La siguiente pieza larga es la **05**.
+
+**Regla de rehacer, fijada el 3-nov-2026:** una pieza que el dueño manda rehacer no se parchea. Se archiva la anterior en `_reemplazadas/`, se vuelve a medir con el entorno de extracción del día y se escribe de nuevo, sin conservar frases. La 01 es la primera que se rehízo entera por esta regla y la diferencia se ve: la vieja se apoyaba en recursos de abril; la nueva nace de 1.238 repositorios creados en los últimos 120 días, medidos el mismo día de publicación.
 
 ## 25-BIS. CADENCIA Y CONTINUIDAD
 
@@ -1228,11 +1230,22 @@ Cada deuda con su veredicto de hoy: **cerrada** (existe, corre y está probada),
 | 10 | Las seis piezas de la oleada 01 no cumplen M24 | **deuda congelada y declarada** | publicadas antes de la doctrina; 11 líneas visibles en cada informe (`tools/baseline.json`); no crece |
 | 11 | Re-medición del registro completo (corte del 15-oct) | **cerrada en método, corriendo al cierre** | `tools/censo_medir.py` con GraphQL: cincuenta fichas por consulta, sin tocar el límite de la API; el 404 se escribe como veredicto (`muerto`, `semantica_http 404`) en vez de contarse como hueco |
 | 12 | SWHID por revisión medida (Software Heritage) | **cerrada para lo citado; el resto por lotes** | `tools/swhid.py`: SWHID calculado del commit de la cabeza, comprobación en el archivo y **solicitud de archivado** cuando no está. Hoy: 6 repositorios de la pieza 04 → 2 ya archivados, 4 con solicitud aceptada |
-| 13 | Token de grano fino (`PAT_FINO`) | **caído el 3-nov a las 14:05** | devolvió `401 Bad credentials` a mitad de la tarde, después de haber servido la re-medición completa; se sigue con los clásicos `GHP_A`/`GHP_B` y hay que reponerlo antes de la próxima corrida larga |
+| 13 | Token de grano fino (`PAT_FINO`) | **cerrada el 3-nov** | el anterior devolvió `401` a media tarde; el token nuevo entró sin el prefijo `github_pat_` y por eso fallaba: se normalizó el valor, quedó en 93 caracteres y hoy responde 200 en `rate_limit`, `/user`, `repos` y GraphQL. Los tres clásicos siguen en la bóveda como respaldo |
+| 14 | MCP con credenciales (Linear, Notion, GitHub Copilot, Snag, Inference) | **abierta: depende del dueño** | cinco servidores devuelven `401` sin llave; el protocolo ya está implementado y probado con los cinco abiertos. Conectar esos cinco exige pegar su credencial, y eso no lo hace un programa por su cuenta |
+| 15 | Seis solicitudes de conservación en cola (SWH) | **abierta** | de las doce revisiones de la pieza 01, seis quedaron con `429` por límite de peticiones del archivo público; se reintentan espaciadas y el estado va en cada ficha |
 
 **Y la primera entrega de la serie corta, ya publicada** (3-nov-2026): abre con el hallazgo —el fork vivo contra el original con 503 días de silencio—, trae el Scorecard del original medido (2,7/10) para no vender estrellas, declara la madurez del fork sin adornos («diez días y versiones `-dev`: no es un reemplazo de nada, es un hallazgo») y cierra con tres tareas verificables. Ese es el formato, y ya no está escrito: está publicado.
 
-### 59.4 El SWHID: el código que se midió, citado para que no se pierda
+### 59.4-bis El entorno de extracción: buscar barato, medir caro, y decirlo cuando la red falla
+
+Una guía que se apoya en un censo de hace siete meses no informa: arquea. El 3-nov-2026 se añadieron dos herramientas que separan lo que antes iba junto y por eso se caía:
+
+- **`tools/extraer_fresco.py`** — primero **busca barato** (diez consultas por tema, ventana de creación configurable, solo nombre, estrellas y fechas) y después **mide caro** (cada repositorio elegido, en lotes de veinte alias, con licencia, copias, incidencias, tamaño, temas, publicaciones y el commit de la cabeza). Juntar las dos cosas en una sola consulta hacía que la búsqueda devolviera error de puerta de enlace: la primera corrida perdió cinco de diez consultas y devolvió 41 repositorios donde había 1.238. **La corrida que se publica es la completa, y la fallida se guarda en el acta.** Un dato que no llegó no es un cero.
+- **`tools/ficha_profunda.py`** — abre el repositorio antes de recomendarlo: presentación en crudo, licencia en crudo, las diez últimas entregas con fecha, tamaño de cada adjunto y descargas, contribuyentes, peticiones abiertas y cambios de los últimos treinta días. Es lo que distingue «existe» de «sirve».
+
+**Y el tercer pilar: MCP.** `tools/mcp_conectar.py` habla el protocolo de verdad —JSON-RPC 2.0 sobre HTTP, `initialize`, `notifications/initialized`, `tools/list`, `tools/call`— contra los servidores que publican endpoint abierto. Medido hoy: **5 de 10 abren sesión y listan 27 herramientas** (DeepWiki 3, Context7 2, GitMCP 5, Hugging Face 4, Tandem 13); los otros cinco exigen credenciales y se declaran como tales, sin simular la conexión. Un conector que no abre sesión no se dice «conectado».
+
+### 59.5 El SWHID: el código que se midió, citado para que no se pierda
 
 Un identificador de Software Heritage de una revisión git —`swh:1:rev:<sha1>`— es **intrínseco**: se calcula del propio commit, no hay que pedírselo a nadie. Lo que sí hay que preguntar es si el archivo lo tiene guardado, porque un identificador que nadie archivó no cita nada. `tools/swhid.py` hace las dos cosas y una tercera: si la revisión no está, **pide el archivado del origen** y guarda el número de solicitud en la ficha (`procedencia.swh_estado`, `procedencia.swh_solicitud`).
 

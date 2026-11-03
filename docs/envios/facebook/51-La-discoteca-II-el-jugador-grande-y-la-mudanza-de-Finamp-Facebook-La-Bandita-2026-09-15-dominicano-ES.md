@@ -103,10 +103,10 @@ Pulso de hoy sobre los 14 repos de la pieza: 14 vivos, 11 activos este mes. Mand
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jellyfin/jellyfin — ★58.963 (+176) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• jellyfin/jellyfin — ★58.966 (+179) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • PixelPlayerHQ/PixelPlayer — ★6.880 (+44) · empujó el 21-sep-2026 (hace 43 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
 • finamp-app/finamp — ★4.482 (+75) · empujó en las últimas horas · MPL-2.0 · última release 1.0.2 (29-oct-2026)
-• jellyfin/jellyfin-android — ★2.856 (+17) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• jellyfin/jellyfin-android — ★2.857 (+18) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 • mafik/echo — ★333 (+1) · *dormido*: sin empujar desde el 5-jun-2025 (516 días) · GPL-3.0
 • PixelPlayerHQ/PixelPlayerOSS — ★309 (+12) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v0.4.0 (17-oct-2026)
 • armanmaurya/InternetRadio — ★179 (+5) · empujó en las últimas horas · GPL-3.0 · última release v0.9.0 (22-oct-2026)

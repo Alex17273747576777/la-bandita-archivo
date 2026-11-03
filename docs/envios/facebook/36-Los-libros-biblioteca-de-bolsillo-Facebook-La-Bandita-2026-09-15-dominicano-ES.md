@@ -90,13 +90,13 @@ Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.845 (+108) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• kovidgoyal/calibre — ★26.335 (+52) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
-• readest/readest — ★25.904 (+162) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• koreader/koreader — ★30.846 (+109) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• kovidgoyal/calibre — ★26.336 (+53) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
+• readest/readest — ★25.907 (+165) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
 • foobnix/LibreraReader — ★4.998 (+22) · empujó en las últimas horas · NOASSERTION · última release 10.0.22 (1-nov-2026)
 • Pool-Of-Tears/Myne — ★1.542 (+1) · empujó el 21-sep-2026 (hace 43 días) · Apache-2.0 · última release v5.1.0 (21-ago-2026)
 • kiwix/kiwix-android — ★1.528 (+11) · empujó en las últimas horas · GPL-3.0 · última release v3.14.1 (14-may-2026)
-• Acclorite/book-story — ★1.420 (+4) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.8.0 (13-oct-2025)
+• Acclorite/book-story — ★1.419 (+3) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.8.0 (13-oct-2025)
 • tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
 • PrivacyDragon/Bookwyrm_Android — ★38 (sin cambio) · empujó el 4-oct-2026 (hace 30 días) · BSD-3-Clause · última release v1.3.9 (13-may-2026)
 • pkmetski/riffle — ★18 (sin cambio) · empujó en las últimas horas · AGPL-3.0 · última release v2.45.4 (5-oct-2026)

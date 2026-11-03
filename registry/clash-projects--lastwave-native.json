@@ -1,27 +1,28 @@
 {
  "actividad": {
-  "estado": "vivo",
-  "release_en": "2026-08-15",
+  "estado": "dormido",
+  "release_en": "2026-10-30",
   "semantica_http": 200,
-  "ultima_release": "2.0",
+  "ultima_release": "5.0.0",
   "ultimo_push": "2026-11-03"
  },
  "descripcion": "Next-Gen YouTube Music Client with Liquid Glass UI , Algorithmic Smart Playlist Generator, Real-Time Synced Lyrics & Universal Last.fm Scrobbler for Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
-  "payload_ref": "registry/_evidencia/clash-projects--lastwave-native.json",
-  "sha256": "8b253cf6bfdc73bf579cb2af328b69d2143f2262f24150285611428d9e4ea194"
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "6cb9c431fc6090569078a81a5162d11160b1b0f8cabe0d844f43e42881ff027f"
  },
  "frescura_dias": 0,
  "fuente": {
-  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
   "primaria": "github-api",
   "secundarias": []
  },
  "id": "clash-projects--lastwave-native",
  "licencia": {
-  "archivo": null,
-  "metodo": "spdx-api",
+  "archivo": "GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free",
+  "metodo": "endpoint-license",
+  "nota": "certificada contra el texto del archivo LICENSE",
   "spdx": "GPL-3.0",
   "verificado_en": "2026-11-03"
  },
@@ -29,18 +30,19 @@
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2471,
+  "stars": 2474,
   "stars_por_mes": null
  },
  "nombre": "LastWave-Native",
- "piezas": [],
+ "piezas": [
+  "01"
+ ],
  "procedencia": {
   "atestacion": null,
-  "commit": "78ed26242c091315c11081e74990fab1ab6c84fd",
-  "swh_estado": null,
-  "swh_solicitud": null,
-  "swhid": "swh:1:rev:78ed26242c091315c11081e74990fab1ab6c84fd"
+  "commit": "d25283a037e9694383ccf0eba055d94768bfd462",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:d25283a037e9694383ccf0eba055d94768bfd462"
  },
- "repo": "Clash-Projects/LastWave-Native",
- "web": "https://t.me/clashprojects"
+ "repo": "Clash-Projects/LastWave-Native"
 }
