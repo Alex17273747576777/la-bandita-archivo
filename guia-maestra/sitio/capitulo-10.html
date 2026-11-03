@@ -1,0 +1,307 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capítulo 10 · El taller · Guía Maestra</title><style>
+:root{--papel:#f5f7fa;--tinta:#1f2933;--suave:#5b6673;--linea:#e0e5ec;--acento:#2b6cb0;--alerta:#8a2b2b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.68 Georgia,'Times New Roman',serif}
+.hoja{max-width:1080px;margin:0 auto;padding:34px 22px 70px}
+.rejilla{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}
+header{border-bottom:3px double var(--linea);padding-bottom:16px;margin-bottom:26px}
+h1{font-size:2.15rem;line-height:1.18;margin:.2em 0 .3em;letter-spacing:-.01em}
+h2{font-size:1.42rem;margin:2.1em 0 .5em;border-left:5px solid var(--acento);padding-left:12px}
+h3{font-size:1.12rem;margin:1.7em 0 .35em}
+p{margin:.65em 0}
+.ficha{background:#fff;border:1px solid var(--linea);border-radius:10px;padding:20px 22px;margin:22px 0;box-shadow:0 1px 0 #fff inset}
+.sello{display:inline-block;background:var(--tinta);color:#fff;border-radius:999px;padding:2px 11px;font:600 12px/1.9 system-ui,sans-serif;letter-spacing:.03em}
+.n0{background:#2f6b4f}.n1{background:#8a6d1f}.n2{background:#8a2b2b}
+.meta{color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+.capa{border-top:1px dashed var(--linea);margin-top:16px;padding-top:12px}
+.capa h4{margin:.2em 0 .4em;font:700 13px/1.4 system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--acento)}
+ol,ul{padding-left:22px}li{margin:.35em 0}
+code,pre{font-family:'DejaVu Sans Mono',ui-monospace,monospace;font-size:.9em}
+code{background:#eef1f5;padding:1px 5px;border-radius:4px}
+pre{background:#1f2933;color:#f5f7fa;padding:12px 14px;border-radius:8px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font:14px/1.5 system-ui,sans-serif;margin:12px 0}
+th,td{border-bottom:1px solid var(--linea);padding:7px 8px;text-align:left;vertical-align:top}
+th{background:#eef1f5}
+.aviso{background:#fff;border-left:5px solid var(--alerta);padding:12px 16px;margin:16px 0}
+footer{margin-top:44px;border-top:3px double var(--linea);padding-top:14px;color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+a{color:var(--acento)}
+@media(max-width:760px){.col-8,.col-4{grid-column:span 12}}
+</style></head>
+<body><div class="hoja"><p class="meta"><a href="index.html">← Guía Maestra</a> · capítulo 10</p>
+<h1>Capítulo 10 · El taller</h1><h2>Qué vas a poder hacer al terminar</h2><p>Tener a mano las herramientas con las que se hace todo lo que esta guía estuvo haciendo de refilón desde el capítulo 1: una terminal en el bolsillo, el teléfono manejado desde la computadora con teclado y mouse, un programa que abre una aplicación y te deja leer su código, y dos que te conectan a tus servidores para administrarlos desde donde estés.</p><p>Y algo que no es una herramienta sino una costumbre: vas a saber <strong>dónde mirar cuando algo no funciona</strong>, sin reinstalar, sin reiniciar y sin preguntar en un grupo a ver si a alguien le pasó.</p><h2>La regla que ordena el capítulo: lo que se puede leer, se puede arreglar</h2><p>Todo lo que se hizo en los nueve capítulos anteriores —comprobar una firma, ver qué empresa habla con una aplicación, revisar si un servidor responde, saber qué paquete se desactivó— se hizo con una orden escrita. El taller es tener esas órdenes a mano y saber leer lo que contestan.</p><p>De ahí sale la regla: <strong>frente a una pantalla que dice «no se pudo», siempre hay una orden que dice por qué.</strong> El taller es la diferencia entre adivinar y mirar.</p><p>Y una segunda regla, que ahorra años: <strong>el taller se monta una vez</strong>. Instalás una terminal, un programa de control remoto y un cliente de servidores; con eso resolvés el noventa por ciento de lo que va a pasar de aquí en adelante. No se instala una herramienta por problema.</p><h2>La ruta de decisión, en cuatro preguntas</h2><p><strong>Si querés una terminal de verdad en el teléfono</strong> → <strong>Termux</strong>. Es un entorno Linux completo con su propio gestor de paquetes, y sirve para lo que sirve cualquier terminal: mirar, mover, automatizar y conectarse.</p><p><strong>Si querés manejar el teléfono desde la computadora</strong> —escribir rápido, copiar y pegar entre aparatos, grabar la pantalla, ver lo que pasa en el aparato de un familiar sin estar al lado— → <strong>scrcpy</strong>. No instala nada en el teléfono y no necesita root.</p><p><strong>Si querés saber qué hace una aplicación por dentro</strong> → <strong>jadx</strong> para leer su código y <strong>Apktool</strong> para abrirla, tocar recursos y volver a cerrarla. Son las dos caras del mismo oficio: entender y desarmar.</p><p><strong>Si querés administrar tus servidores desde el teléfono</strong> → <strong>ConnectBot</strong> para las órdenes, <strong>Material Files</strong> para mover archivos entre el teléfono y tus servidores propios por los protocolos de siempre.</p><h2>La terminal en el bolsillo</h2><p>Termux no es un emulador ni una cárcel: es un entorno Linux con su propio prefijo de sistema, su gestor de paquetes y miles de programas compilados para teléfonos. Con él se puede hacer desde una copia cifrada hasta un servidor pequeño, pasando por scripts que ordenan fotos.</p><p>Tres cosas hay que saber antes de instalarlo, y las tres están en su propio repositorio:</p><ul><li><strong>Viene de su repositorio o de F-Droid, no de la tienda de Google.</strong> La versión de la tienda quedó abandonada hace años y su política es incompatible con cómo funciona esta terminal.</li><li><strong>Android 12 y posteriores matan procesos.</strong> El sistema limita los procesos fantasma a treinta y dos en total entre todas las aplicaciones y además mata los que consumen mucha batería. Un script largo puede morir a mitad de camino, y no es un fallo de la terminal: es el sistema administrando el aparato.</li><li><strong>Su sistema de archivos no es el de Linux de escritorio.</strong> Los binarios y las librerías viven bajo su propio prefijo, y una orden escrita para una computadora puede no encontrarlos. Por eso los tutoriales de servidores no se copian tal cual.</li></ul><p>Con eso claro, la terminal hace algo que ninguna aplicación hace: <strong>te devuelve el control de lo repetitivo</strong>. Un script de diez líneas que ordena las fotos por fecha vale más que diez aplicaciones.</p><h2>El teléfono en la pantalla grande</h2><p><strong>scrcpy</strong> muestra la pantalla del teléfono en la computadora y deja manejarla con teclado y mouse. No instala nada en el aparato, no pide root y no necesita internet: es la misma conexión de depuración que se explicó en el capítulo 3, aprovechada al máximo.</p><p>Sus números son los más altos de toda la guía: <strong>ciento cincuenta y tres mil novecientas treinta y seis estrellas</strong> y casi diez millones de descargas en sus diez últimas entregas. No es casual: resuelve un problema que todos tienen —escribir en un teléfono con el teclado de una computadora— y lo resuelve sin dejar rastro.</p><p>Y su repositorio abre con una advertencia que vale para todo lo demás: <strong>es la única fuente oficial</strong>; no se bajan sus archivos de sitios que llevan su nombre. Un programa popular y libre tiene copias falsas en la primera página de cualquier buscador, y eso incluye a cualquiera de las fichas de esta guía.</p><h2>Leer un binario: la diferencia entre ver y desarmar</h2><p>Acá el capítulo se pone serio, y conviene entender dos herramientas que se confunden todo el tiempo.</p><p><strong>jadx lee.</strong> Toma un paquete, traduce el código compilado a algo parecido a Java y lo muestra en pantalla con búsqueda y navegación. Es la herramienta con la que se responde: «¿esta aplicación manda datos a algún sitio?», «¿a qué dominio llama cuando arranco?», «¿qué permiso pide y para qué?». Su propio repositorio avisa que <strong>no siempre puede con todo</strong>: hay código que no se puede reconstruir con exactitud, y en esos casos muestra errores. Eso no es un defecto: es la naturaleza del oficio, y saberlo evita conclusiones falsas.</p><p><strong>Apktool abre y vuelve a cerrar.</strong> Decodifica los recursos —textos, imágenes, diseños, el manifiesto— a una forma casi original, deja modificarlos y reconstruye el paquete. Es la herramienta del que traduce una aplicación o le añade algo, y su presentación dice con claridad que <strong>no es para piratear</strong>.</p><p>Las dos juntas dan lo que ningún análisis de tienda puede dar: la capacidad de mirar por dentro y decidir con evidencia. Y las dos tienen la misma consecuencia al final, que ya se explicó en el capítulo 4: un paquete reconstruido lleva otra firma, y Android lo tratará como un programa distinto.</p><h2>Las cinco órdenes que valen un curso</h2><p>Si te llevás algo de este capítulo, que sea esto. Con estas cinco se diagnostica casi todo.</p><h3>Ver qué está pasando ahora mismo en el aparato:</h3><pre><code>adb logcat -d | tail -200</code></pre><h3>Saber quién instaló una aplicación y cuándo:</h3><pre><code>adb shell dumpsys package com.ejemplo.app | grep -iE &quot;installerPackageName|lastUpdateTime&quot;</code></pre><h3>Saber dónde viven los archivos de una aplicación y si está partida:</h3><pre><code>adb shell pm path com.ejemplo.app</code></pre><h3>Listar lo que está desactivado, para saber qué se puede devolver:</h3><pre><code>adb shell pm list packages -d</code></pre><h3>Ver la batería por aplicación, que es donde miente el sentido común:</h3><pre><code>adb shell dumpsys batterystats --charged | grep -A5 &quot;Estimated power&quot;</code></pre><p>Cinco órdenes, ninguna necesita root, todas contestan una pregunta concreta. Un taller es eso.</p><h2>Los cuatro errores que se pagan</h2><p><strong>Instalar la terminal desde una tienda cualquiera.</strong> Además de la versión abandonada de Google, hay copias empaquetadas por terceros. La regla del capítulo 4 se aplica igual: se baja del repositorio de quien lo hizo y se comprueba.</p><p><strong>Copiar un tutorial de servidor sin mirar la ruta.</strong> Las rutas de una terminal de teléfono no son las de una computadora; un script que escribe en <code>/etc</code> va a fallar siempre, y no por el script.</p><p><strong>Modificar una aplicación y esperar que se actualice.</strong> Al reconstruir, la firma cambia: la aplicación modificada vive aparte y nunca se actualiza encima de la original. Es el precio del taller, y hay que saberlo antes, no después.</p><p><strong>Usar el taller para lo que no es.</strong> Desarmar una aplicación propia para traducirla o para entender un fallo es oficio. Desarmar la de otro para saltarse un pago es lo que el propio Apktool pide no hacer, y esta guía tampoco.</p><h2>Tres cosas que se dicen y no son verdad</h2><p><strong>«La depuración es solo para desarrolladores».</strong> Es la puerta por la que pasa todo lo de esta guía, desde quitar publicidad hasta hacer una copia. Lo que hay que hacer es cerrarla al terminar.</p><p><strong>«Con root el taller es mejor».</strong> Root añade herramientas y quita garantías. La mayor parte del taller de este capítulo funciona sin él, y lo que no funciona sin root se puede resolver con la depuración del capítulo 3 en la mayoría de los casos.</p><p><strong>«Si el teléfono va lento, hay que reinstalar».</strong> Casi siempre hay una aplicación despertando el aparato cada minuto, y se ve en el registro. Reinstalar es lo que se hace cuando ya se miró y no se encontró; no antes.</p><h2>Antes de irte: la prueba de las dos personas</h2><p>Dale este capítulo a alguien que nunca abrió una terminal: si consigue ver la pantalla de su teléfono en la computadora y copiar un texto de una a otra con el teclado, el capítulo sirve.</p><p>Y dalo a alguien que administra servidores: si no encuentra al menos un dato que no supiera —que Termux vive en un prefijo propio y no en las rutas de Linux, que Android 12 mata los procesos fantasma por encima de treinta y dos, que jadx no reconstruye todo el código y lo dice en su presentación, que al reconstruir con Apktool la firma cambia y la aplicación deja de actualizarse, que scrcpy no instala nada en el aparato—, el capítulo no sirve y hay que reescribirlo.</p><h2>Las seis fichas</h2><p>Van de la más simple a la más honda: el teléfono en la pantalla grande, la terminal, el cliente de servidores, el gestor de archivos remoto, y al final las dos que abren binarios. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas y sus licencias.</p>
+<h2>Las 6 fichas del capítulo</h2>
+
+<article class="ficha">
+  <h3>scrcpy <span class="meta">· Genymobile/scrcpy</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>67/100</strong> ·
+    ★153,936 · 3269 días · última entrega 2026-10-08 ·
+    9,982,397 descargas en 10 entregas · 100 personas ·
+    1 flujos de compilación · incidencias 2948 abiertas.
+  </p>
+  <p>Ver y manejar el teléfono desde la computadora con teclado y mouse, sin instalar nada en el aparato y sin root.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien escribe mucho en el teléfono, para quien enseña a otra persona a usarlo estando lejos, y para quien necesita grabar la pantalla sin aplicaciones de por medio.
+     <br><strong>Para quién no es:</strong> para quien quiere administrar el sistema o leer registros: esto muestra y controla la pantalla, y para lo demás hace falta la terminal o el propio intérprete de órdenes de Android.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá el programa en la computadora —Linux, Windows o macOS— y comprobá la descarga desde el repositorio oficial, que es el único que el proyecto reconoce.</li>
+<li>Activá en el teléfono las opciones de desarrollador y la depuración por USB, y conectalo con el cable.</li>
+<li>Aceptá en la pantalla del teléfono el aviso de autorización de depuración; sin eso, la computadora no puede hacer nada.</li>
+<li>Ejecutá el programa sin opciones: la pantalla del teléfono aparece en una ventana, y el teclado y el mouse del ordenador la manejan.</li>
+<li>Probá lo que de verdad cambia el trabajo: copiar un texto en la computadora y pegarlo en el teléfono, y grabar un fragmento de pantalla a un archivo.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> La pantalla del teléfono se ve en la computadora, se maneja con teclado y mouse, y al desconectar el cable no queda nada instalado en el aparato.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el aparato no aparece, revisá el cable y la autorización de depuración: muchos cables sólo cargan y no transportan datos.</li>
+<li>Si la imagen va lenta, bajá la resolución máxima o la tasa de refresco al lanzarlo: en aparatos modestos el cuello de botella es el teléfono, no la computadora.</li>
+<li>Si otra herramienta de depuración está abierta, cerrála: varias se pelean por el mismo aparato y la conexión falla sin explicar por qué.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No hay nada que deshacer dentro del teléfono: no instala aplicaciones, no modifica ajustes y no deja archivos. Al desconectar el cable, el aparato queda exactamente como estaba.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>scrcpy hace algo que parece magia y es ingeniería sobria: pide al servidor de depuración de Android que le entregue la pantalla ya codificada, la recibe, la decodifica en la computadora y devuelve los eventos de teclado y mouse. Como el trabajo pesado ocurre fuera del teléfono, el aparato casi no gasta batería y la respuesta es inmediata.</p>
+<p>Esa decisión de diseño explica sus tres propiedades: no instala nada, porque todo vive en la computadora; no necesita root, porque la depuración es una puerta legítima del sistema; y funciona con el aparato en otro cuarto, si se conecta por red en lugar de por cable.</p>
+<p>Con ciento cincuenta y tres mil novecientas treinta y seis estrellas, es el proyecto más popular de toda la guía, por delante de Immich y de LocalSend. Y es el único que abre su presentación advirtiendo que <strong>su repositorio es la única fuente oficial</strong>: hay sitios con su nombre que reparten archivos que no son suyos, y esa advertencia vale como regla general para todo lo que se instala.</p>
+    <p><strong>Límites:</strong></p><ul><li>Necesita la depuración activa, que mientras esté abierta deja el aparato accesible a la computadora conectada.</li>
+<li>No da acceso al sistema de archivos ni a la administración: muestra la pantalla y nada más.</li>
+<li>Con cifrado de pantalla activo, algunas aplicaciones se ven en negro: el sistema protege su contenido y eso es correcto.</li>
+<li>La conexión por red depende de la calidad del wifi y de que el aparato no duerma la conexión.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El servidor de depuración de Android no corre como root: corre como un usuario llamado <code>shell</code>, con un identificador concreto y permisos acotados. Eso se puede comprobar en un segundo y explica por qué este programa no es una llave maestra: puede ver la pantalla, instalar aplicaciones y leer registros, y no puede tocar los datos privados de otra aplicación ni el sistema. Saber con qué usuario estás hablando cuando escribís una orden es la diferencia entre entender lo que hacés y repetir lo que dice un tutorial. Y sirve para lo contrario: si alguna vez ves que una orden funciona como root y no como <code>shell</code>, ya sabés que hay algo más en juego que la depuración.</p>
+    <p><strong>Cómo se comprueba:</strong> Con el teléfono conectado, pedile al servidor de depuración que te diga quién es. La respuesta trae el identificador del usuario y su nombre, y ese nombre no es root.</p>
+    <pre><code>adb shell id</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Bajar los archivos de un sitio que no es el repositorio oficial y quedarse con un binario ajeno.</li>
+<li>Dejar la depuración por red activa en una red compartida, con lo que cualquier aparato de esa red puede intentar conectarse.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/termux/termux-app">termux/termux-app</a>, <a href="https://github.com/shizuku">shizuku</a></p></div>
+
+  <p class="meta">Programa de Romain Vimont y Genymobile · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/Genymobile/scrcpy/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Termux <span class="meta">· termux/termux-app</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>43/100</strong> ·
+    ★64,037 · 4029 días · última entrega 2025-05-22 ·
+    11,062,042 descargas en 10 entregas · 81 personas ·
+    5 flujos de compilación · incidencias 655 abiertas.
+  </p>
+  <p>Tener un entorno Linux completo en el teléfono, con su gestor de paquetes, para automatizar tareas y ejecutar las mismas órdenes que en una computadora.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien ya usó una terminal y quiere la misma comodidad en el teléfono: scripts, copias cifradas, servidores pequeños y conexiones por SSH.
+     <br><strong>Para quién no es:</strong> para quien nunca escribió una orden: la terminal no enseña, ejecuta, y un comando copiado sin entender puede borrar cosas.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalala desde F-Droid o desde su repositorio, nunca desde la tienda de Google: la versión de la tienda está abandonada y no recibe paquetes.</li>
+<li>Abrí la terminal y actualizá la lista de paquetes antes de instalar nada; el propio proyecto documenta qué hacer si el repositorio responde con un error de mantenimiento.</li>
+<li>Instalá un paquete pequeño y comprobá dónde queda: la ruta de los programas no es la de una computadora, y todo lo demás depende de entender eso.</li>
+<li>Concedé el acceso al almacenamiento compartido desde la aplicación, y comprobá que podés listar tus carpetas del teléfono desde la terminal.</li>
+<li>Escribí un script corto que ordene una carpeta por fecha y ejecutalo con el teléfono conectado a la corriente, para que el sistema no lo mate a mitad.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés una terminal funcionando con paquetes instalados, acceso a tus archivos y un script propio que hace en un segundo lo que antes era trabajo manual.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si los paquetes no instalan, mirá el mensaje del repositorio: el proyecto documenta los dos errores habituales y su arreglo, y casi siempre es un cambio de dirección del espejo.</li>
+<li>Si un script largo muere solo, es el sistema: Android 12 y posteriores limitan los procesos y matan los que consumen mucho. Partilo en tandas y dejalo con la pantalla encendida.</li>
+<li>Si una orden que funciona en la computadora falla acá, revisá las rutas: la terminal vive en su propio prefijo y no en el sistema de archivos estándar.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desinstalarla borra su entorno y todo lo que instalaste dentro, no tus archivos personales si los guardaste en el almacenamiento compartido. Los scripts conviene tenerlos en la carpeta compartida y no sólo dentro de la terminal.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Termux es una terminal con su propio sistema de archivos y su propio gestor de paquetes, con miles de programas compilados para teléfonos. No es un emulador: los programas corren nativos sobre el mismo núcleo de Android, y por eso es rápido y por eso mismo choca con las reglas de Android.</p>
+<p>Esa convivencia explica su límite más citado: <strong>desde Android 12 el sistema mata procesos</strong>. Hay un tope global de procesos fantasma —treinta y dos entre todas las aplicaciones— y además se matan los que consumen mucha batería. Un trabajo largo en la terminal puede morir sin explicación, y no es un fallo: es el sistema administrando el aparato por encima de la aplicación.</p>
+<p>Su licencia también hay que leerla en el archivo, porque incluye excepciones declaradas por el proyecto además de la licencia pública general de GNU. Y su entrega más reciente que se midió es una beta de mayo de 2025 con once millones sesenta y dos mil cuarenta y dos descargas acumuladas: es un proyecto enorme, con ochenta y una personas, cuyo ritmo de publicación es más lento que su ritmo de uso.</p>
+    <p><strong>Límites:</strong></p><ul><li>No viene de la tienda de Google: hay que instalarla desde F-Droid o su repositorio, y eso deja fuera a quien sólo usa la tienda.</li>
+<li>Android 12 y posteriores matan procesos: los trabajos largos necesitan cuidado.</li>
+<li>Sus rutas no son las de Linux de escritorio, así que los tutoriales de servidores no se copian tal cual.</li>
+<li>Su última entrega medida es de mayo de 2025, aunque el proyecto siga publicando paquetes aparte.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Todo lo que instalás en Termux vive bajo un prefijo propio, una ruta que empieza por su carpeta de aplicación y no por la raíz del sistema. Esa única decisión explica casi todos los tropiezos: por qué un script que busca algo en la carpeta de configuración del sistema no lo encuentra, por qué las rutas de los tutoriales de servidores fallan, y por qué se pueden tener dos versiones de un programa sin conflicto. La variable de entorno que guarda esa ruta es la primera que hay que mirar cuando algo «no existe» aunque esté instalado. Y es también la razón de que la terminal sea fácil de desinstalar sin rastro: todo lo que creó está en una carpeta.</p>
+    <p><strong>Cómo se comprueba:</strong> Pedile a la terminal que te muestre su prefijo y después listá esa carpeta. Ahí están los programas y las librerías que instalaste, separados de todo lo demás del teléfono.</p>
+    <pre><code>echo &quot;$PREFIX&quot; &amp;&amp; ls &quot;$PREFIX/bin&quot; | head -20</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Instalar la versión abandonada de la tienda y creer que la terminal está rota.</li>
+<li>Ejecutar comandos copiados de internet sin leerlos, con acceso a tus carpetas reales.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/Genymobile/scrcpy">Genymobile/scrcpy</a>, <a href="https://github.com/connectbot/connectbot">connectbot/connectbot</a></p></div>
+
+  <p class="meta">Programa de Termux y su comunidad · GPL-3.0 con excepciones declaradas · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/termux/termux-app/blob/master/LICENSE.md">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>ConnectBot <span class="meta">· connectbot/connectbot</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>62/100</strong> ·
+    ★3,580 · 6479 días · última entrega 2026-11-03 ·
+    1,386 descargas en 10 entregas · 68 personas ·
+    5 flujos de compilación · incidencias 263 abiertas.
+  </p>
+  <p>Administrar tus servidores por SSH desde el teléfono, con llaves propias y comprobando la identidad del servidor la primera vez.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tiene un servidor en casa o alquilado y quiere resolver algo puntual sin abrir la computadora.
+     <br><strong>Para quién no es:</strong> para quien quiere una terminal local: eso es Termux; este cliente sólo sirve para conectarse a otro aparato.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalalo desde su repositorio o desde la tienda, sabiendo que la versión de la tienda cambia la firma y después no admite la del repositorio.</li>
+<li>Generá un par de llaves dentro de la aplicación y poné una frase de paso: la llave privada no sale del teléfono.</li>
+<li>Copiá la llave pública al servidor y desactivá el acceso por contraseña cuando compruebes que la llave entra.</li>
+<li>En la primera conexión, compará la huella que muestra la aplicación con la que el servidor publica en su consola: si no coincide, no es tu servidor.</li>
+<li>Guardá el acceso con un nombre claro y comprobá que vuelve a entrar después de reiniciar el teléfono.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Entrás a tus servidores desde el teléfono con una llave propia, sin contraseñas viajando, y sabés reconocer si el servidor con el que hablás es el tuyo.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la llave no entra, revisá los permisos de su archivo en el servidor: una llave pública con permisos abiertos es rechazada, y el mensaje no siempre lo dice.</li>
+<li>Si el aviso de huella cambia sin que hayas reinstalado el servidor, detené la conexión: o cambió la llave del servidor o hay alguien en medio.</li>
+<li>Si perdés el teléfono con las llaves dentro, revocá esas llaves en el servidor: es lo primero que hay que hacer, antes de cualquier otra cosa.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Borrar un acceso de la aplicación no toca el servidor: las llaves siguen autorizadas allí hasta que las quites. Desinstalar la aplicación borra las llaves privadas del teléfono, y entonces hay que generar otras.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>ConnectBot es de 2009 y fue el primer cliente de SSH para Android: tres mil quinientas ochenta estrellas y un ritmo de trabajo sorprendente para su edad, con ciento veintitrés cambios en treinta días y una compilación el mismo día de esta medición. Es software viejo en años y vivo en actividad.</p>
+<p>Su virtud es que hace lo que hace SSH y nada más: un canal cifrado entre dos aparatos, autenticado por llaves. No hay nube, no hay cuenta intermedia y no hay nada que el proveedor de la aplicación pueda ver.</p>
+<p>Y su advertencia de instalación es una lección del capítulo 4 en una frase: la versión de la tienda y la del repositorio <strong>no comparten firma</strong>, porque la de la tienda cambió a un algoritmo más moderno. Eso significa que si instalás primero una y después la otra, Android no deja actualizar encima: hay que desinstalar y perder los accesos guardados. Elegir el canal antes, y no después.</p>
+    <p><strong>Límites:</strong></p><ul><li>Sólo sirve con servidores que hablen SSH: no es una terminal local ni un cliente de escritorio remoto.</li>
+<li>La versión de la tienda y la del repositorio no se pueden mezclar por la firma.</li>
+<li>Guardar llaves en el teléfono añade un riesgo: si el aparato se pierde, hay que revocarlas en cada servidor.</li>
+<li>La pantalla pequeña hace incómodo el trabajo largo: sirve para resolver, no para administrar todo el día.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La primera vez que te conectás a un servidor, el cliente muestra una huella y pregunta si confiás. Esa pregunta es toda la defensa contra el ataque de quien se pone en medio: si la huella coincide con la que el servidor publica por otra vía, hablás con el servidor; si no coincide, hablás con alguien que se hace pasar por él. La costumbre correcta es la que casi nadie tiene: comprobar la huella por fuera de la conexión —en la consola del servidor, en un papel guardado, en otra máquina— y no aceptar a ciegas porque el aviso «aparece siempre». Aceptar sin comparar convierte una defensa en una costumbre vacía.</p>
+    <p><strong>Cómo se comprueba:</strong> Pedile al servidor la huella de su llave desde su propia consola, y compará ese número con el que te mostró la aplicación la primera vez. Si coinciden, la conexión es la que creés.</p>
+    <pre><code>ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Aceptar la huella del servidor sin compararla, y quedarse sin defensa frente a un intermediario.</li>
+<li>Guardar llaves sin frase de paso en un teléfono sin bloqueo de pantalla.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/termux/termux-app">termux/termux-app</a>, <a href="https://github.com/zhanghai/MaterialFiles">zhanghai/MaterialFiles</a></p></div>
+
+  <p class="meta">Programa de Kenny Root y la comunidad de ConnectBot · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/connectbot/connectbot/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Material Files <span class="meta">· zhanghai/MaterialFiles</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>44/100</strong> ·
+    ★9,384 · 3082 días · última entrega 2026-09-20 ·
+    312,412 descargas en 10 entregas · 2 personas ·
+    1 flujos de compilación · incidencias 626 abiertas.
+  </p>
+  <p>Manejar archivos en el teléfono y en tus servidores propios desde una sola aplicación, por SFTP y por los protocolos de red de toda la vida.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien mueve archivos entre el teléfono y sus servidores de casa y está cansado de que cada aplicación tenga su propia carpeta y su propio gestor.
+     <br><strong>Para quién no es:</strong> para quien sólo necesita ver las fotos del teléfono: el gestor del sistema hace eso sin añadir nada.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalala desde F-Droid, desde la tienda o desde su repositorio, y comprobá la descarga si la bajaste de GitHub.</li>
+<li>Dale permiso para ver el almacenamiento y recorré tus carpetas: comprobá que aparece también la carpeta de descargas del sistema.</li>
+<li>Añadí un servidor por SFTP con su dirección, su usuario y su llave o contraseña, y verificá la huella la primera vez.</li>
+<li>Copiá un archivo del servidor al teléfono y viceversa, y mirá los permisos del archivo en el listado: ahí está la explicación de casi todo lo que no se puede hacer.</li>
+<li>Guardá el acceso con un nombre y comprobá que sigue funcionando al día siguiente, para no descubrir el problema justo cuando lo necesitás.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Ves y movés archivos del teléfono y de tus servidores en la misma aplicación, y sabés por qué un archivo no se deja escribir cuando pasa.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si no podés escribir en una carpeta del servidor, mirá los permisos del listado: casi siempre es un archivo del sistema o una carpeta de otro usuario.</li>
+<li>Si la conexión por SFTP falla, comprobá el puerto y el tipo de autenticación: con llave, la contraseña no sirve aunque la pongas.</li>
+<li>Si un archivo grande se corta, dejá la pantalla encendida y la aplicación abierta para que el sistema no duerma la conexión.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Quitar un servidor de la lista no borra nada en el servidor: sólo olvida el acceso. Desinstalar la aplicación no toca tus archivos, ni los del teléfono ni los del servidor.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Material Files es un gestor de archivos que además habla los protocolos de red que importan: SFTP, FTP, SMB y WebDAV. Eso lo convierte en la pieza que faltaba en el taller: con el cliente de órdenes administrás el servidor, y con este movés sus archivos, los dos desde el teléfono y los dos sin nube de por medio.</p>
+<p>Su decisión más útil es tratar un servidor como si fuera una carpeta. Al añadir un acceso, la raíz del servidor aparece en el mismo lugar donde aparecen las carpetas del teléfono, y desde ahí se copia, se renombra y se abre con las mismas acciones. Para quien viene de arrastrar archivos en una computadora, eso es exactamente lo que faltaba.</p>
+<p>Nueve mil trescientas ochenta y cuatro estrellas y <strong>dos personas</strong> en el proyecto, con una entrega de septiembre de 2026 y trescientas doce mil cuatrocientas doce descargas en sus diez últimas. Es un proyecto pequeño y maduro: la señal de que conviene tenerlo, y también de que no hay que esperar que crezca rápido.</p>
+    <p><strong>Límites:</strong></p><ul><li>Dos personas sostienen el proyecto: menos funciones nuevas y más tiempo entre arreglos.</li>
+<li>No monta carpetas del sistema del servidor como si fueran locales: copia y mueve, no sincroniza.</li>
+<li>Los protocolos antiguos que ofrece siguen siendo antiguos: SFTP es la opción por defecto razonable.</li>
+<li>Los archivos grandes dependen de que el sistema no duerma la conexión.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Cuando un archivo se niega a moverse o a abrirse, el listado de permisos da la respuesta antes que cualquier mensaje de error. Cada archivo lleva tres grupos de permisos —lectura, escritura y ejecución— para el dueño, para su grupo y para el resto, y casi todos los «no tengo permiso» de un servidor propio se explican ahí: el archivo es del usuario del sistema, o la carpeta no deja escribir a nadie más. Aprender a leer esa hilera de letras es de las cosas más útiles del taller, porque convierte un fracaso en un diagnóstico y una búsqueda en internet en una decisión.</p>
+    <p><strong>Cómo se comprueba:</strong> En el listado del servidor, elegí un archivo y mirá sus permisos. Después intentá escribir en una carpeta del sistema y en una de tu usuario: la diferencia entre los dos intentos es la lección completa.</p>
+    <pre><code>ls -l /ruta/del/servidor</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Usar FTP sin cifrado en una red compartida: usuario y contraseña viajan legibles.</li>
+<li>Guardar credenciales de servidor en una aplicación sin bloqueo de pantalla en el teléfono.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/connectbot/connectbot">connectbot/connectbot</a>, <a href="https://github.com/localsend/localsend">localsend/localsend</a></p></div>
+
+  <p class="meta">Programa de Hai Zhang · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/zhanghai/MaterialFiles/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>jadx <span class="meta">· skylot/jadx</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>58/100</strong> ·
+    ★51,554 · 4978 días · última entrega 2026-07-10 ·
+    5,255,417 descargas en 10 entregas · 100 personas ·
+    3 flujos de compilación · incidencias 468 abiertas.
+  </p>
+  <p>Abrir una aplicación y leer su código en forma legible, para saber qué hace, a dónde llama y qué permisos usa de verdad.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiere comprobar con sus ojos lo que una aplicación hace en lugar de creer lo que dice su ficha en una tienda.
+     <br><strong>Para quién no es:</strong> para quien busca modificar una aplicación: para eso está Apktool, en la ficha siguiente, y para piratear no está ninguna de las dos.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalalo en la computadora desde su entrega, con la interfaz gráfica o por consola; comprobá antes la descarga.</li>
+<li>Abrí un paquete propio o uno libre —nunca uno de pago— y esperá a que termine: en paquetes grandes tarda y consume memoria.</li>
+<li>Buscá por texto los nombres de dominio que aparezcan: cada uno es un servidor con el que la aplicación puede hablar, y la lista es corta y reveladora.</li>
+<li>Mirá el manifiesto decodificado: ahí están los permisos declarados y los servicios que se ejecutan al arrancar.</li>
+<li>Anotá lo que encontraste con la fecha y la versión del archivo: sin esa referencia, el análisis no se puede repetir ni comparar.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés una lista de los servidores con los que habla una aplicación y de los permisos que declara, sacada del archivo y no de su publicidad.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si parte del código aparece con errores, es lo esperado: el proyecto avisa que no siempre se puede reconstruir todo. Se lee lo que hay y se completan las conclusiones con otros medios.</li>
+<li>Si el programa se queda sin memoria en un paquete enorme, subí el límite de memoria al lanzarlo o analizá sólo el archivo de código.</li>
+<li>Si el código aparece con nombres sin sentido, está ofuscado: hay herramientas que lo limpian parcialmente, y aun así los textos y los dominios suelen quedar visibles.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No hay nada que deshacer: lee archivos y escribe su resultado en una carpeta que elegís. Nunca modifica el paquete original.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>jadx traduce el código compilado de Android a algo que se parece a Java y lo muestra navegable: se puede saltar a una definición, buscar texto en todo el paquete y leer el manifiesto decodificado. Es la herramienta con la que el capítulo 5 se puede comprobar en lugar de creerse: los dominios que aparecen en la lista son los servidores con los que la aplicación puede hablar.</p>
+<p>Su límite está escrito por el propio proyecto en la presentación: <strong>no siempre se puede reconstruir todo</strong>, y en esos casos salen errores. Eso no invalida el análisis: lo hace honesto. Un informe que dice «encontré estos dominios» es verificable; uno que dice «la aplicación espía» a partir de un fragmento mal reconstruido, no.</p>
+<p>Cincuenta y un mil quinientas cincuenta y cuatro estrellas y cinco millones doscientas cincuenta y cinco mil cuatrocientas diecisiete descargas en diez entregas. Es el estándar de facto del oficio, y su licencia permisiva permite usarlo incluso dentro de herramientas comerciales de análisis.</p>
+    <p><strong>Límites:</strong></p><ul><li>La reconstrucción es imperfecta por naturaleza y el proyecto lo dice.</li>
+<li>Consume mucha memoria en paquetes grandes: conviene tener margen en la computadora.</li>
+<li>El código ofuscado se lee a medias, aunque los textos y los dominios suelen sobrevivir.</li>
+<li>Es una herramienta de escritorio: en el teléfono no corre.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Los nombres de dominio sobreviven al análisis aunque el código esté ofuscado: no se pueden cambiar sin romper la aplicación, así que quedan escritos en los textos del paquete. Por eso una búsqueda de direcciones en el resultado es la forma más rápida de saber con quién puede hablar un programa, y por qué esa lista es corta, concreta y comprobable. Comparar dos versiones de la misma aplicación con esa técnica muestra lo que se añadió entre una y otra, que es exactamente lo que un registro de cambios no siempre cuenta. Es el tipo de análisis que un usuario puede hacer sin ser experto: no hace falta entender el código, hace falta saber qué buscar.</p>
+    <p><strong>Cómo se comprueba:</strong> Analizá un paquete y extraé todas las direcciones que aparezcan, sin repetir. Compará la lista con lo que la aplicación dice en su política de privacidad: las diferencias son la parte interesante.</p>
+    <pre><code>jadx -d salida app.apk &amp;&amp; grep -rhoE &#x27;https?://[a-zA-Z0-9.-]+&#x27; salida | sort -u | head -40</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Sacar conclusiones de un fragmento mal reconstruido en lugar de una lista de hechos verificables.</li>
+<li>Analizar paquetes de pago: el análisis es legal en muchos sitios, la redistribución del resultado no.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/iBotPeaches/Apktool">iBotPeaches/Apktool</a>, <a href="https://github.com/MuntashirAkon/AppManager">MuntashirAkon/AppManager</a></p></div>
+
+  <p class="meta">Programa de skylot y colaboradores · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/skylot/jadx/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Apktool <span class="meta">· iBotPeaches/Apktool</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>57/100</strong> ·
+    ★26,977 · 5342 días · última entrega 2026-07-20 ·
+    2,610,670 descargas en 10 entregas · 100 personas ·
+    3 flujos de compilación · incidencias 76 abiertas.
+  </p>
+  <p>Abrir un paquete hasta sus recursos y su manifiesto, modificarlo y reconstruirlo, para traducir, adaptar o entender una aplicación desde dentro.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiere traducir una aplicación libre a su idioma, adaptarla a un aparato distinto o entender por qué un recurso no carga.
+     <br><strong>Para quién no es:</strong> para quien quiere una aplicación modificada de una aplicación comercial: eso cambia la firma, rompe las actualizaciones y el propio proyecto pide no hacerlo.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalalo en la computadora y comprobá la descarga; necesita además un entorno de ejecución de Java, que el proyecto documenta.</li>
+<li>Desempaquetá una aplicación propia o libre y mirá la estructura: recursos, textos, manifiesto y código en un formato intermedio.</li>
+<li>Cambiá un texto en el archivo de cadenas de tu idioma y volvé a empaquetar; el proceso tarda y avisa si algo quedó mal.</li>
+<li>Firmá el resultado con tu propia llave antes de instalarlo, porque el empaquetado no conserva la firma del original.</li>
+<li>Instalá el resultado sabiendo lo que implica: es un programa distinto para Android, no se actualizará encima del original y convive con él como otra aplicación si cambia el nombre del paquete.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés una versión de la aplicación con tu cambio, firmada por vos, que se instala y funciona, y sabés exactamente qué se perdió en el camino: la firma original y las actualizaciones automáticas.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el empaquetado falla, el mensaje señala el archivo y la línea: casi siempre es un recurso que referencia algo que no existe en esa versión.</li>
+<li>Si el teléfono rechaza la instalación, falta firmar el resultado: sin firma no hay instalación, y con otra firma no hay actualización encima.</li>
+<li>Si la aplicación se cierra al abrir después de tu cambio, revertí a la copia original y compará los archivos uno por uno: los cambios mínimos son los que funcionan.</li></ul>
+    <p><strong>Cómo se deshace:</strong> El paquete original no se toca: se trabaja sobre una copia y el resultado es un archivo nuevo. Desinstalar la versión modificada y volver a instalar la original devuelve todo a su sitio, con la pérdida de datos que implica cualquier cambio de firma.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Apktool hace lo contrario de jadx: en lugar de traducir el código, desarma el paquete en recursos comprensibles —textos, imágenes, diseños, manifiesto— y lo vuelve a armar. Es la herramienta del traductor y del que adapta, y su presentación lo dice con una frase que conviene copiar: <strong>no está pensada para la piratería</strong>; sirve para traducir, añadir funciones y dar soporte a plataformas nuevas.</p>
+<p>Su consecuencia técnica es la que conecta este capítulo con el cuarto: al reconstruir, <strong>la firma original se pierde</strong>. El archivo resultante lo firma quien lo reconstruyó, Android lo trata como otro programa, no se actualiza encima del original y no puede compartir sus datos. Es exactamente el mismo mecanismo que hace que un programa modificado sea un programa re-firmado por otra persona, dicho desde el lado de la herramienta.</p>
+<p>Veintiséis mil novecientas setenta y siete estrellas, dos millones seiscientas diez mil seiscientas setenta descargas en diez entregas y una cola de incidencias pequeña —setenta y seis— para un proyecto de su edad. Es maduro, y su rama principal ya está en la versión tres, con la dos en mantenimiento.</p>
+    <p><strong>Límites:</strong></p><ul><li>No conserva la firma: todo resultado hay que firmarlo y deja de actualizarse desde el origen.</li>
+<li>Necesita un entorno de Java y una llave de firma propia para cerrar el trabajo.</li>
+<li>Reconstruir recursos no es recompilar código: no sirve para cambiar la lógica de una aplicación.</li>
+<li>Su uso sobre software de pago tiene límites legales en muchos países, y el proyecto lo pide por escrito.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El manifiesto de una aplicación está en un formato binario que no se puede leer con un editor de texto, y ahí está la mitad de lo que importa: qué permisos declara, qué componentes se ejecutan al arrancar y qué servicios corren en segundo plano. Al desempaquetar con esta herramienta, ese archivo se convierte en texto legible, y entonces la pregunta «¿por qué esta aplicación se enciende sola?» pasa a tener respuesta escrita. Es una comprobación que se puede hacer en cinco minutos y que casi nadie hace antes de instalar: leer los servicios del manifiesto dice más del comportamiento real que toda la publicidad del programa.</p>
+    <p><strong>Cómo se comprueba:</strong> Desempaquetá un paquete libre y abrí el manifiesto decodificado. Buscá las entradas de servicios y receptores, y comprobalas contra lo que la aplicación dice que hace.</p>
+    <pre><code>apktool d app.apk -o salida &amp;&amp; grep -A3 -E &#x27;&lt;service|&lt;receiver&#x27; salida/AndroidManifest.xml | head -30</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Modificar software de pago sin permiso de su autor: es el límite que el propio proyecto marca.</li>
+<li>Instalar la versión reconstruida sin firmar o con una llave perdida, y quedar sin forma de volver al canal original conservando datos.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/skylot/jadx">skylot/jadx</a>, <a href="https://github.com/termux/termux-app">termux/termux-app</a></p></div>
+
+  <p class="meta">Programa de Connor Tumbleson y colaboradores · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/iBotPeaches/Apktool/blob/main/LICENSE.md">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 3 de noviembre de 2026.</p></footer>
+</div></body></html>

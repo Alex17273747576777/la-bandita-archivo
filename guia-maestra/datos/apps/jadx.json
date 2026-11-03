@@ -1,0 +1,75 @@
+{
+ "id": "jadx",
+ "nombre": "jadx",
+ "repo": "skylot/jadx",
+ "autores": [
+  {
+   "nombre": "skylot y colaboradores",
+   "enlace": "https://github.com/skylot"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/skylot/jadx/blob/master/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Abrir una aplicación y leer su código en forma legible, para saber qué hace, a dónde llama y qué permisos usa de verdad.",
+ "capitulo": 10,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien quiere comprobar con sus ojos lo que una aplicación hace en lugar de creer lo que dice su ficha en una tienda.",
+  "no_es": "para quien busca modificar una aplicación: para eso está Apktool, en la ficha siguiente, y para piratear no está ninguna de las dos."
+ },
+ "manos": [
+  "Instalalo en la computadora desde su entrega, con la interfaz gráfica o por consola; comprobá antes la descarga.",
+  "Abrí un paquete propio o uno libre —nunca uno de pago— y esperá a que termine: en paquetes grandes tarda y consume memoria.",
+  "Buscá por texto los nombres de dominio que aparezcan: cada uno es un servidor con el que la aplicación puede hablar, y la lista es corta y reveladora.",
+  "Mirá el manifiesto decodificado: ahí están los permisos declarados y los servicios que se ejecutan al arrancar.",
+  "Anotá lo que encontraste con la fecha y la versión del archivo: sin esa referencia, el análisis no se puede repetir ni comparar."
+ ],
+ "resultado_esperado": "Tenés una lista de los servidores con los que habla una aplicación y de los permisos que declara, sacada del archivo y no de su publicidad.",
+ "si_sale_mal": [
+  "Si parte del código aparece con errores, es lo esperado: el proyecto avisa que no siempre se puede reconstruir todo. Se lee lo que hay y se completan las conclusiones con otros medios.",
+  "Si el programa se queda sin memoria en un paquete enorme, subí el límite de memoria al lanzarlo o analizá sólo el archivo de código.",
+  "Si el código aparece con nombres sin sentido, está ofuscado: hay herramientas que lo limpian parcialmente, y aun así los textos y los dominios suelen quedar visibles."
+ ],
+ "deshacer": "No hay nada que deshacer: lee archivos y escribe su resultado en una carpeta que elegís. Nunca modifica el paquete original.",
+ "cabeza": [
+  "jadx traduce el código compilado de Android a algo que se parece a Java y lo muestra navegable: se puede saltar a una definición, buscar texto en todo el paquete y leer el manifiesto decodificado. Es la herramienta con la que el capítulo 5 se puede comprobar en lugar de creerse: los dominios que aparecen en la lista son los servidores con los que la aplicación puede hablar.",
+  "Su límite está escrito por el propio proyecto en la presentación: **no siempre se puede reconstruir todo**, y en esos casos salen errores. Eso no invalida el análisis: lo hace honesto. Un informe que dice «encontré estos dominios» es verificable; uno que dice «la aplicación espía» a partir de un fragmento mal reconstruido, no.",
+  "Cincuenta y un mil quinientas cincuenta y cuatro estrellas y cinco millones doscientas cincuenta y cinco mil cuatrocientas diecisiete descargas en diez entregas. Es el estándar de facto del oficio, y su licencia permisiva permite usarlo incluso dentro de herramientas comerciales de análisis."
+ ],
+ "limites": [
+  "La reconstrucción es imperfecta por naturaleza y el proyecto lo dice.",
+  "Consume mucha memoria en paquetes grandes: conviene tener margen en la computadora.",
+  "El código ofuscado se lee a medias, aunque los textos y los dominios suelen sobrevivir.",
+  "Es una herramienta de escritorio: en el teléfono no corre."
+ ],
+ "oficio": {
+  "dato": "Los nombres de dominio sobreviven al análisis aunque el código esté ofuscado: no se pueden cambiar sin romper la aplicación, así que quedan escritos en los textos del paquete. Por eso una búsqueda de direcciones en el resultado es la forma más rápida de saber con quién puede hablar un programa, y por qué esa lista es corta, concreta y comprobable. Comparar dos versiones de la misma aplicación con esa técnica muestra lo que se añadió entre una y otra, que es exactamente lo que un registro de cambios no siempre cuenta. Es el tipo de análisis que un usuario puede hacer sin ser experto: no hace falta entender el código, hace falta saber qué buscar.",
+  "como_comprobar": "Analizá un paquete y extraé todas las direcciones que aparezcan, sin repetir. Compará la lista con lo que la aplicación dice en su política de privacidad: las diferencias son la parte interesante.",
+  "comando": "jadx -d salida app.apk && grep -rhoE 'https?://[a-zA-Z0-9.-]+' salida | sort -u | head -40"
+ },
+ "riesgos": [
+  "Sacar conclusiones de un fragmento mal reconstruido en lugar de una lista de hechos verificables.",
+  "Analizar paquetes de pago: el análisis es legal en muchos sitios, la redistribución del resultado no."
+ ],
+ "alternativas": [
+  "iBotPeaches/Apktool",
+  "MuntashirAkon/AppManager"
+ ],
+ "senal": {
+  "estrellas": 51554,
+  "nota": 58,
+  "edad_dias": 4978,
+  "ultima_entrega": "2026-07-10",
+  "descargas_10": 5255417,
+  "contribuyentes": 100,
+  "repo_mb": 25.7,
+  "ci": 3,
+  "incidencias": "468 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de skylot y colaboradores · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

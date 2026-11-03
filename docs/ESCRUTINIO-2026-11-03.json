@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-03",
- "medido_en": "2026-11-03T21:55:35+00:00",
+ "medido_en": "2026-11-03T22:04:59+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 387,
+ "medidos": 390,
  "fichas": [
   {
    "repo": "MMFoundation/WallpaperMachine",
@@ -5425,6 +5425,41 @@
    ]
   },
   {
+   "repo": "connectbot/connectbot",
+   "puntos": 62,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "bathysign-release.yml",
+    "ci-build.yml",
+    "ci-docs.yml",
+    "ci-tags.yml",
+    "ci.yml"
+   ],
+   "adjuntos": 60,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 123,
+   "contribuyentes": 68,
+   "incidencias": {
+    "abiertas": 246,
+    "cerradas": 576
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 6479,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 9 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "123 cambios en 30 días +10",
+    "68 personas empujando +10",
+    "incidencias cerradas 576/822 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "Predidit/Kazumi",
    "puntos": 62,
    "licencia": "GPL-3.0",
@@ -10739,6 +10774,38 @@
    ]
   },
   {
+   "repo": "zhanghai/MaterialFiles",
+   "puntos": 44,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "android.yml"
+   ],
+   "adjuntos": 26,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-20",
+   "commits_30d": 1,
+   "contribuyentes": 2,
+   "incidencias": {
+    "abiertas": 608,
+    "cerradas": 938
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 3082,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "1 cambios en 30 días +4",
+    "2 personas empujando +4",
+    "incidencias cerradas 938/1546 +6",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "rumboalla/apkupdater",
    "puntos": 44,
    "licencia": "GPL-3.0",
@@ -10936,6 +11003,42 @@
     "0 cambios en 30 días +0",
     "10 personas empujando +10",
     "incidencias cerradas 39/48 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "termux/termux-app",
+   "puntos": 43,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "attach_debug_apks_to_release.yml",
+    "debug_build.yml",
+    "dependency-submission.yml",
+    "gradle-wrapper-validation.yml",
+    "run_tests.yml"
+   ],
+   "adjuntos": 60,
+   "con_huella": 10,
+   "ultima_entrega": "2025-05-22",
+   "commits_30d": 0,
+   "contribuyentes": 81,
+   "incidencias": {
+    "abiertas": 518,
+    "cerradas": 2688
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 4029,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 6 flujo(s) +10",
+    "adjunto con huella (termux-app_v0.119.0-beta.3+apt-android-5-github-debug_sha256sums) +10",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "81 personas empujando +10",
+    "incidencias cerradas 2688/3206 +8",
+    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },

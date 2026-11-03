@@ -1,0 +1,75 @@
+{
+ "id": "apktool",
+ "nombre": "Apktool",
+ "repo": "iBotPeaches/Apktool",
+ "autores": [
+  {
+   "nombre": "Connor Tumbleson (iBotPeaches) y colaboradores",
+   "enlace": "https://apktool.org"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/iBotPeaches/Apktool/blob/main/LICENSE.md"
+ },
+ "nivel": "experto",
+ "tarea": "Abrir un paquete hasta sus recursos y su manifiesto, modificarlo y reconstruirlo, para traducir, adaptar o entender una aplicación desde dentro.",
+ "capitulo": 10,
+ "orden": 6,
+ "para_quien": {
+  "es": "para quien quiere traducir una aplicación libre a su idioma, adaptarla a un aparato distinto o entender por qué un recurso no carga.",
+  "no_es": "para quien quiere una aplicación modificada de una aplicación comercial: eso cambia la firma, rompe las actualizaciones y el propio proyecto pide no hacerlo."
+ },
+ "manos": [
+  "Instalalo en la computadora y comprobá la descarga; necesita además un entorno de ejecución de Java, que el proyecto documenta.",
+  "Desempaquetá una aplicación propia o libre y mirá la estructura: recursos, textos, manifiesto y código en un formato intermedio.",
+  "Cambiá un texto en el archivo de cadenas de tu idioma y volvé a empaquetar; el proceso tarda y avisa si algo quedó mal.",
+  "Firmá el resultado con tu propia llave antes de instalarlo, porque el empaquetado no conserva la firma del original.",
+  "Instalá el resultado sabiendo lo que implica: es un programa distinto para Android, no se actualizará encima del original y convive con él como otra aplicación si cambia el nombre del paquete."
+ ],
+ "resultado_esperado": "Tenés una versión de la aplicación con tu cambio, firmada por vos, que se instala y funciona, y sabés exactamente qué se perdió en el camino: la firma original y las actualizaciones automáticas.",
+ "si_sale_mal": [
+  "Si el empaquetado falla, el mensaje señala el archivo y la línea: casi siempre es un recurso que referencia algo que no existe en esa versión.",
+  "Si el teléfono rechaza la instalación, falta firmar el resultado: sin firma no hay instalación, y con otra firma no hay actualización encima.",
+  "Si la aplicación se cierra al abrir después de tu cambio, revertí a la copia original y compará los archivos uno por uno: los cambios mínimos son los que funcionan."
+ ],
+ "deshacer": "El paquete original no se toca: se trabaja sobre una copia y el resultado es un archivo nuevo. Desinstalar la versión modificada y volver a instalar la original devuelve todo a su sitio, con la pérdida de datos que implica cualquier cambio de firma.",
+ "cabeza": [
+  "Apktool hace lo contrario de jadx: en lugar de traducir el código, desarma el paquete en recursos comprensibles —textos, imágenes, diseños, manifiesto— y lo vuelve a armar. Es la herramienta del traductor y del que adapta, y su presentación lo dice con una frase que conviene copiar: **no está pensada para la piratería**; sirve para traducir, añadir funciones y dar soporte a plataformas nuevas.",
+  "Su consecuencia técnica es la que conecta este capítulo con el cuarto: al reconstruir, **la firma original se pierde**. El archivo resultante lo firma quien lo reconstruyó, Android lo trata como otro programa, no se actualiza encima del original y no puede compartir sus datos. Es exactamente el mismo mecanismo que hace que un programa modificado sea un programa re-firmado por otra persona, dicho desde el lado de la herramienta.",
+  "Veintiséis mil novecientas setenta y siete estrellas, dos millones seiscientas diez mil seiscientas setenta descargas en diez entregas y una cola de incidencias pequeña —setenta y seis— para un proyecto de su edad. Es maduro, y su rama principal ya está en la versión tres, con la dos en mantenimiento."
+ ],
+ "limites": [
+  "No conserva la firma: todo resultado hay que firmarlo y deja de actualizarse desde el origen.",
+  "Necesita un entorno de Java y una llave de firma propia para cerrar el trabajo.",
+  "Reconstruir recursos no es recompilar código: no sirve para cambiar la lógica de una aplicación.",
+  "Su uso sobre software de pago tiene límites legales en muchos países, y el proyecto lo pide por escrito."
+ ],
+ "oficio": {
+  "dato": "El manifiesto de una aplicación está en un formato binario que no se puede leer con un editor de texto, y ahí está la mitad de lo que importa: qué permisos declara, qué componentes se ejecutan al arrancar y qué servicios corren en segundo plano. Al desempaquetar con esta herramienta, ese archivo se convierte en texto legible, y entonces la pregunta «¿por qué esta aplicación se enciende sola?» pasa a tener respuesta escrita. Es una comprobación que se puede hacer en cinco minutos y que casi nadie hace antes de instalar: leer los servicios del manifiesto dice más del comportamiento real que toda la publicidad del programa.",
+  "como_comprobar": "Desempaquetá un paquete libre y abrí el manifiesto decodificado. Buscá las entradas de servicios y receptores, y comprobalas contra lo que la aplicación dice que hace.",
+  "comando": "apktool d app.apk -o salida && grep -A3 -E '<service|<receiver' salida/AndroidManifest.xml | head -30"
+ },
+ "riesgos": [
+  "Modificar software de pago sin permiso de su autor: es el límite que el propio proyecto marca.",
+  "Instalar la versión reconstruida sin firmar o con una llave perdida, y quedar sin forma de volver al canal original conservando datos."
+ ],
+ "alternativas": [
+  "skylot/jadx",
+  "termux/termux-app"
+ ],
+ "senal": {
+  "estrellas": 26977,
+  "nota": 57,
+  "edad_dias": 5342,
+  "ultima_entrega": "2026-07-20",
+  "descargas_10": 2610670,
+  "contribuyentes": 100,
+  "repo_mb": 353.1,
+  "ci": 3,
+  "incidencias": "76 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Connor Tumbleson y colaboradores · Apache-2.0 · medido el 3 de noviembre de 2026"
+}
