@@ -52,7 +52,7 @@ El grupo respira despacio; su empuje más reciente, **bmax121/APatch**, fue hace
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• bmax121/APatch — ★8.123 (+19) · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
+• bmax121/APatch — ★8.125 (+21) · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

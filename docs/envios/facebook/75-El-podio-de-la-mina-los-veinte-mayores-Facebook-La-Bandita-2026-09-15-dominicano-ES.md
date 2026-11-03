@@ -137,24 +137,24 @@ La noticia fresca es de **lollipopkit/flutter_server_box**: release v1.0.1844 (2
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• awesome-selfhosted/awesome-selfhosted — ★333.386 (+1599) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
-• ggml-org/llama.cpp — ★133.278 (+507) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• immich-app/immich — ★118.093 (+481) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• photoprism/photoprism — ★40.403 (+33) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
-• SagerNet/sing-box — ★39.591 (+202) · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
-• yuliskov/SmartTube — ★35.884 (+175) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
-• ente/ente — ★29.862 (+120) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.68 (2-nov-2026)
-• mlc-ai/mlc-llm — ★23.301 (+16) · empujó el 30-oct-2026 (hace 4 días) · Apache-2.0
+• awesome-selfhosted/awesome-selfhosted — ★333.422 (+1635) · empujó en las últimas horas · NOASSERTION · última release 1.0.0 (22-ago-2023)
+• ggml-org/llama.cpp — ★133.288 (+517) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• immich-app/immich — ★118.114 (+502) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• photoprism/photoprism — ★40.404 (+34) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• SagerNet/sing-box — ★39.595 (+206) · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• yuliskov/SmartTube — ★35.892 (+183) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• ente/ente — ★29.866 (+124) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.68 (2-nov-2026)
+• mlc-ai/mlc-llm — ★23.302 (+17) · empujó el 30-oct-2026 (hace 4 días) · Apache-2.0
 • xbmc/xbmc — ★21.432 (+33) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• komi-store/komi-store — ★20.301 (+211) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• komi-store/komi-store — ★20.304 (+214) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
 • FreshRSS/FreshRSS — ★16.503 (+57) · empujó en las últimas horas · AGPL-3.0 · última release 1.30.4 (21-oct-2026)
 • FlareSolverr/FlareSolverr — ★16.132 (+61) · empujó el 24-oct-2026 (hace 10 días) · MIT · última release v3.5.2 (12-sep-2026)
-• T8RIN/ImageToolbox — ★15.342 (+101) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
+• T8RIN/ImageToolbox — ★15.359 (+118) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
 • thunderbird/thunderbird-android — ★14.177 (+20) · empujó en las últimas horas · Apache-2.0 · última release K9MAIL_24_0 (5-oct-2026)
-• offa/android-foss — ★11.622 (+36) · empujó en las últimas horas · GPL-3.0
+• offa/android-foss — ★11.623 (+37) · empujó en las últimas horas · GPL-3.0
 • iSoron/uhabits — ★10.388 (+16) · empujó el 22-oct-2026 (hace 12 días) · GPL-3.0 · última release v2.3.2 (17-oct-2026)
-• lollipopkit/flutter_server_box — ★8.941 (+44) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
-• floccusaddon/floccus — ★8.614 (+11) · empujó el 1-nov-2026 (hace 2 días) · MPL-2.0 · última release v5.12.0 (23-oct-2026)
+• lollipopkit/flutter_server_box — ★8.944 (+47) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
+• floccusaddon/floccus — ★8.615 (+12) · empujó el 1-nov-2026 (hace 2 días) · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

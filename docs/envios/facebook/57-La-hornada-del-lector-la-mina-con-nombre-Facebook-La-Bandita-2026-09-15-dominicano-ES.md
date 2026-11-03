@@ -116,7 +116,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 15 repositorios que cita esta pi
 • chmouel/liseur — ★174 (+10) · empujó en las últimas horas · MIT · última release v0.27.0 (2-nov-2026)
 • ArtifexSoftware/mupdf-android-viewer-mini — ★138 (-1) · empujó el 25-sep-2026 (hace 39 días) · AGPL-3.0
 • mshdabiola/NotePad — ★131 (sin cambio) · *dormido*: sin empujar desde el 27-oct-2025 (372 días) · GPL-3.0 · última release 1.3.7 (30-ene-2025)
-• KevinCFechtel/FluxNews — ★112 (+1) · empujó el 19-oct-2026 (hace 15 días) · BSD-3-Clause · última release v2.3.2 (5-sep-2026)
+• KevinCFechtel/FluxNews — ★113 (+2) · empujó el 19-oct-2026 (hace 15 días) · BSD-3-Clause · última release v2.3.2 (5-sep-2026)
 • aarddict/android — ★88 (sin cambio) · *dormido*: sin empujar desde el 9-may-2015 (4196 días) · GPL-3.0 · última release 1.6.11 (18-ago-2016) · *ARCHIVADO*
 • javalc6/rssreader — ★26 (sin cambio) · *dormido*: sin empujar desde el 16-jun-2026 (140 días) · GPL-2.0 · última release 120 (16-jun-2026)
 • rektpartyaftermath/Legado-booksource-collection — ★15 (sin cambio) · *dormido*: sin empujar desde el 19-nov-2025 (349 días) · sin licencia detectada por la API

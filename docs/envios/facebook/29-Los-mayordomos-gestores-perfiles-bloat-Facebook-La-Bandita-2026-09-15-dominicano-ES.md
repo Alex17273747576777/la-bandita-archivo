@@ -109,16 +109,16 @@ Empieza por las bajas: **risunCode/AppControl-X** (caído (404)) no contestaron 
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• 0x192/universal-android-debloater — ★20.322 (+34) · *dormido*: sin empujar desde el 2-ago-2024 (823 días) · GPL-3.0
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.724 (+86) · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
+• 0x192/universal-android-debloater — ★20.323 (+35) · *dormido*: sin empujar desde el 2-ago-2024 (823 días) · GPL-3.0
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.725 (+87) · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
 • d4rken-org/sdmaid-se — ★7.974 (+52) · empujó en las últimas horas · GPL-3.0 · última release v2.2.2-rc0 (19-oct-2026)
-• samolego/Canta — ★6.446 (+91) · empujó el 31-oct-2026 (hace 3 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
-• oasisfeng/island — ★3.995 (+7) · *dormido*: sin empujar desde el 24-abr-2025 (558 días) · Apache-2.0 · última release v6.2.1 (19-oct-2023)
-• PeterCxy/Shelter — ★3.687 (+7) · empujó el 27-sep-2026 (hace 37 días) · GPL-3.0 · última release 1.6 (29-sep-2020)
+• samolego/Canta — ★6.448 (+93) · empujó el 31-oct-2026 (hace 3 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
+• oasisfeng/island — ★3.994 (+6) · *dormido*: sin empujar desde el 24-abr-2025 (558 días) · Apache-2.0 · última release v6.2.1 (19-oct-2023)
+• PeterCxy/Shelter — ★3.686 (+6) · empujó el 27-sep-2026 (hace 37 días) · GPL-3.0 · última release 1.6 (29-sep-2020)
 • keymapperorg/KeyMapper — ★2.792 (+9) · empujó en las últimas horas · GPL-3.0 · última release v4.6.2 (22-oct-2026)
-• legendsayantan/ShizuTools — ★2.647 (+16) · empujó el 29-sep-2026 (hace 35 días) · GPL-3.0 · última release v1.4.6 (25-oct-2024)
+• legendsayantan/ShizuTools — ★2.648 (+17) · empujó el 29-sep-2026 (hace 35 días) · GPL-3.0 · última release v1.4.6 (25-oct-2024)
 • Hamza417/Inure — ★1.984 (+4) · empujó en las últimas horas · GPL-3.0 · última release build107.3.1 (2-nov-2026)
-• bikram-agarwal/ObtainX — ★1.592 (+37) · empujó el 5-oct-2026 (hace 29 días) · GPL-3.0 · última release v2.21.0 (4-oct-2026)
+• bikram-agarwal/ObtainX — ★1.593 (+38) · empujó el 5-oct-2026 (hace 29 días) · GPL-3.0 · última release v2.21.0 (4-oct-2026)
 • BinTianqi/OwnDroid — ★1.449 (+7) · empujó en las últimas horas · GPL-3.0 · última release v8.4.1 (1-nov-2026)
 • Akylas/EnforceDoze — ★368 (+2) · *dormido*: sin empujar desde el 26-jul-2026 (100 días) · GPL-3.0 · última release v1.10.2/86 (18-abr-2026)
 • BugeStudioTeam/Buge-App-Manager — ★324 (+15) · empujó en las últimas horas · GPL-3.0 · última release AppManager13.81.143 (1-nov-2026)

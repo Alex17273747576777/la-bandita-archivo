@@ -87,21 +87,21 @@ La noticia fresca es de **N-Zik-Group/N-Zik**: release v8.5.0 (2026-10-28). En l
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1546 caracteres ═══
+═══ MENSAJE 4 de 5 · 1545 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• TeamNewPipe/NewPipe — ★40.413 (+59) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
-• MetrolistGroup/Metrolist — ★13.992 (+103) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.703 (+174) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• TeamNewPipe/NewPipe — ★40.415 (+61) · empujó en las últimas horas · GPL-3.0 · última release v0.29.1 (15-ago-2026)
+• MetrolistGroup/Metrolist — ★13.996 (+107) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.709 (+180) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • AntennaPod/AntennaPod — ★8.260 (+3) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
-• z-huang/InnerTune — ★6.136 (+5) · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• z-huang/InnerTune — ★6.137 (+6) · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • OuterTune/OuterTune — ★5.442 (+5) · empujó el 12-oct-2026 (hace 22 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • OxygenCobalt/Auxio — ★4.419 (+8) · empujó en las últimas horas · GPL-3.0 · última release v4.1.5 (4-ago-2026)
 • anandnet/Harmony-Music — ★3.087 (-2) · *dormido*: sin empujar desde el 8-dic-2025 (330 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
-• N-Zik-Group/N-Zik — ★281 (+1) · empujó en las últimas horas · GPL-3.0 · última release v8.5.0 (28-oct-2026)
+• N-Zik-Group/N-Zik — ★281 (+1) · empujó en las últimas horas · GPL-3.0 · última release v8.6.0 (3-nov-2026)
 • Hotaro26/gabi — ★105 (+1) · empujó el 30-sep-2026 (hace 34 días) · MIT · última release v4.6.1 (1-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

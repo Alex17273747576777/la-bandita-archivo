@@ -52,7 +52,7 @@ Hay release de esta semana: **jellyfin/jellyfin** publicó v12.4 (2026-10-26). C
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jellyfin/jellyfin — ★58.975 (+188) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• jellyfin/jellyfin — ★58.978 (+191) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

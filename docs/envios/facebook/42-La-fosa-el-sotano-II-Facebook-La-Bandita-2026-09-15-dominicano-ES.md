@@ -107,7 +107,7 @@ Hay release de esta semana: **jeryjs/TachiyomiSY-with-discord-RPC** publicó pre
 Medí otra vez, hoy 3 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • jobobby04/TachiyomiSY — ★4.202 (+6) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• stumpapp/stump — ★2.767 (+7) · empujó en las últimas horas · MIT · última release v0.1.12 (1-nov-2026)
+• stumpapp/stump — ★2.768 (+8) · empujó en las últimas horas · MIT · última release v0.1.12 (1-nov-2026)
 • xgi/houdoku — ★1.119 (sin cambio) · *dormido*: sin empujar desde el 17-ene-2025 (655 días) · MIT · última release v2.16.0 (17-dic-2024)
 • maforget/ComicRackCE — ★758 (+2) · empujó el 23-oct-2026 (hace 11 días) · GPL-2.0 · última release nightly (17-ene-2024)
 • az4521/TachiyomiAZ — ★735 (sin cambio) · empujó el 25-oct-2026 (hace 9 días) · NOASSERTION · última release v8.9.1-AZ (14-ago-2026)

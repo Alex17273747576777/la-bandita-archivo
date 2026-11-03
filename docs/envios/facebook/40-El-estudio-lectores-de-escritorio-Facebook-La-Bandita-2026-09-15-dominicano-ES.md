@@ -105,14 +105,14 @@ Pulso de hoy sobre los 13 repos de la pieza: 13 vivos, 11 activos este mes. Mand
 Medí otra vez, hoy 3 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Anxcye/anx-reader — ★9.185 (+91) · empujó el 17-oct-2026 (hace 17 días) · MIT · última release v1.14.0 (19-mar-2026)
-• koharu-rs/koharu — ★6.584 (+45) · empujó en las últimas horas · Apache-2.0 · última release 0.83.5 (22-sep-2026)
+• koharu-rs/koharu — ★6.583 (+44) · empujó en las últimas horas · Apache-2.0 · última release 0.83.5 (22-sep-2026)
 • lnreader/lnreader — ★2.955 (+13) · empujó el 1-nov-2026 (hace 2 días) · MIT · última release v2.1.4 (26-sep-2026)
 • edrlab/thorium-reader — ★2.930 (+8) · empujó en las últimas horas · BSD-3-Clause · última release v3.5.1 (2-sep-2026)
 • dstark5/Openlib — ★2.511 (+4) · *dormido*: sin empujar desde el 18-ene-2026 (289 días) · GPL-3.0 · última release v1.0.11 (18-ene-2026)
 • ollm/OpenComic — ★2.026 (+4) · empujó en las últimas horas · GPL-3.0 · última release v1.6.5 (31-oct-2025)
 • LagradOst/QuickNovel — ★1.878 (+1) · empujó en las últimas horas · GPL-3.0 · última release v3.8.1 (26-oct-2026)
 • YACReader/yacreader — ★1.428 (+7) · empujó en las últimas horas · GPL-3.0 · última release 10.4.0 (9-oct-2026)
-• dazedcat19/FMD2 — ★1.173 (+2) · empujó en las últimas horas · GPL-2.0 · última release 2.0.34.5 (17-mar-2025)
+• dazedcat19/FMD2 — ★1.172 (+1) · empujó en las últimas horas · GPL-2.0 · última release 2.0.34.5 (17-mar-2025)
 • IReaderorg/IReader — ★984 (+4) · empujó el 28-oct-2026 (hace 6 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
 • Paperback-iOS/app — ★788 (+1) · empujó el 29-oct-2026 (hace 5 días) · sin licencia detectada por la API · última release v0.8.11-r2 (20-may-2025)
 • mienaiyami/yomikiru — ★576 (+4) · empujó el 22-oct-2026 (hace 12 días) · MIT · última release v2.25.1 (23-oct-2026)

@@ -289,18 +289,18 @@ La noticia amarga: **jpdoshi/dragon-store** (caído (404)), **ycngmn/CuxPlug** (
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 62 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• immich-app/immich — ★118.093 (+481) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• yuliskov/SmartTube — ★35.884 (+175) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• immich-app/immich — ★118.114 (+502) · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• yuliskov/SmartTube — ★35.892 (+183) · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • xbmc/xbmc — ★21.432 (+33) · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• lollipopkit/flutter_server_box — ★8.941 (+44) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
+• lollipopkit/flutter_server_box — ★8.944 (+47) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.1856 (1-nov-2026)
 • standardnotes/app — ★6.697 (+9) · empujó en las últimas horas · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • muzei/muzei — ★4.962 (+8) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • anilbeesetti/nextplayer — ★4.672 (+37) · empujó en las últimas horas · GPL-3.0 · última release v0.20.0 (2-nov-2026)
-• 5rahim/seanime — ★4.303 (+18) · empujó el 14-oct-2026 (hace 20 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
-• jarnedemeulemeester/findroid — ★4.301 (+21) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (25-oct-2026)
+• 5rahim/seanime — ★4.302 (+17) · empujó el 14-oct-2026 (hace 20 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
+• jarnedemeulemeester/findroid — ★4.302 (+22) · empujó en las últimas horas · GPL-3.0 · última release v1.2.0 (25-oct-2026)
 • owncloud/android — ★4.174 (-1) · empujó en las últimas horas · GPL-2.0 · última release v4.8.4 (31-ago-2026)
-• videolan/vlc-android — ★4.128 (+8) · empujó en las últimas horas · GPL-2.0
+• videolan/vlc-android — ★4.129 (+9) · empujó en las últimas horas · GPL-2.0
 • NuvioMedia/NuvioTV — ★3.348 (+77) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
 • researchxxl/syncthing-android — ★3.244 (+52) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • mahlernim/google-timeline-visualizer — ★3.060 (+3) · empujó el 22-oct-2026 (hace 12 días) · MIT · última release v3.1.0 (5-oct-2026)
@@ -311,26 +311,26 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 62 repositorios que cita esta pi
 • bk138/droidVNC-NG — ★2.424 (+5) · empujó el 29-oct-2026 (hace 5 días) · GPL-2.0 · última release v2.22.2 (29-oct-2026)
 • newhinton/Round-Sync — ★2.415 (+2) · *dormido*: sin empujar desde el 16-nov-2025 (352 días) · GPL-3.0 · última release v2.5.6 (10-sep-2024)
 • Myzel394/Alibi — ★1.730 (+7) · *dormido*: sin empujar desde el 11-feb-2026 (265 días) · GPL-3.0 · última release v0.5.3 (7-sep-2024)
-• cosmictaserdev-creator/Convx — ★1.175 (+111) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.5.2 (15-ago-2026)
+• cosmictaserdev-creator/Convx — ★1.177 (+113) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.5.2 (15-ago-2026)
 • chenxiaolong/RSAF — ★1.044 (+7) · empujó el 24-oct-2026 (hace 10 días) · GPL-3.0 · última release v4.16 (24-oct-2026)
 • chenxiaolong/BasicSync — ★740 (+10) · empujó el 25-oct-2026 (hace 9 días) · GPL-3.0 · última release v3.27 (25-oct-2026)
 • dn0ne/lotus — ★717 (sin cambio) · *dormido*: sin empujar desde el 25-ene-2025 (647 días) · GPL-3.0 · última release v1.2.0 (25-ene-2025)
 • KNKPA/KNKPAnime — ★651 (+1) · *dormido*: sin empujar desde el 1-feb-2025 (640 días) · GPL-3.0 · última release 1.1.7 (1-feb-2025)
 • haiwen/seadroid — ★637 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v4.0.15 (2-nov-2026)
 • iodn/android-ir-blaster — ★606 (+4) · empujó el 15-oct-2026 (hace 19 días) · GPL-3.0 · última release v3.4.6 (15-oct-2026)
-• pass-with-high-score/ANeko — ★594 (+3) · *dormido*: sin empujar desde el 28-ago-2026 (67 días) · LGPL-2.1 · última release v2.4.4 (28-ago-2026)
+• pass-with-high-score/ANeko — ★595 (+4) · *dormido*: sin empujar desde el 28-ago-2026 (67 días) · LGPL-2.1 · última release v2.4.4 (28-ago-2026)
 
 ⏬ sigue abajo · parte 7 de 11
 
-═══ MENSAJE 9 de 12 · 3674 caracteres ═══
+═══ MENSAJE 9 de 12 · 3675 caracteres ═══
 
 • recloudstream/cs-repos — ★545 (+2) · empujó el 28-oct-2026 (hace 6 días) · sin licencia detectada por la API
 • phisher98/cloudstream-extensions-phisher — ★531 (+5) · empujó en las últimas horas · sin licencia detectada por la API
 • cvzi/ScreenshotTile — ★397 (-1) · empujó el 30-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.21.4 (26-sep-2026)
-• RenzoBeux/Dashboarr — ★380 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.22.0 (29-oct-2026)
+• RenzoBeux/Dashboarr — ★381 (+4) · empujó en las últimas horas · GPL-3.0 · última release v1.22.0 (29-oct-2026)
 • WirelessAlien/MovieDB — ★368 (+2) · empujó el 20-oct-2026 (hace 14 días) · GPL-3.0 · última release v4.8.1 (1-sep-2026)
 • bikram-agarwal/FilePipe — ★317 (+3) · empujó el 2-oct-2026 (hace 32 días) · GPL-3.0 · última release v3.11.3 (26-sep-2026)
-• retransmit/Atrium — ★294 (+9) · empujó en las últimas horas · GPL-3.0 · última release v1.10.1 (2-nov-2026)
+• retransmit/Atrium — ★296 (+11) · empujó en las últimas horas · GPL-3.0 · última release v1.10.1 (2-nov-2026)
 • tuntorius/mightier_amp — ★237 (+1) · *dormido*: sin empujar desde el 21-ene-2025 (651 días) · MIT · última release v1.0.16 (23-jul-2024)
 • koofr/vault — ★207 (sin cambio) · *dormido*: sin empujar desde el 13-ago-2026 (82 días) · MIT · última release v0.1.26 (13-ago-2026)
 • roozbehzarei/filester — ★197 (sin cambio) · empujó el 28-oct-2026 (hace 6 días) · GPL-3.0 · última release v3.4.0 (28-oct-2026)

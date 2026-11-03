@@ -117,15 +117,15 @@ Hay release de esta semana: **ggml-org/llama.cpp** publicó v0.8.0 (2026-10-28).
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.278 (+507) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• SagerNet/sing-box — ★39.591 (+202) · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
-• mlc-ai/mlc-llm — ★23.301 (+16) · empujó el 30-oct-2026 (hace 4 días) · Apache-2.0
+• ggml-org/llama.cpp — ★133.288 (+517) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• SagerNet/sing-box — ★39.595 (+206) · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• mlc-ai/mlc-llm — ★23.302 (+17) · empujó el 30-oct-2026 (hace 4 días) · Apache-2.0
 • FlareSolverr/FlareSolverr — ★16.132 (+61) · empujó el 24-oct-2026 (hace 10 días) · MIT · última release v3.5.2 (12-sep-2026)
-• AAswordman/Operit — ★9.216 (+131) · empujó en las últimas horas · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
+• AAswordman/Operit — ★9.217 (+132) · empujó en las últimas horas · LGPL-3.0 · última release v1.12.2 (18-sep-2026)
 • LibChecker/LibChecker — ★7.304 (+13) · empujó en las últimas horas · Apache-2.0 · última release 2.5.4 (17-jun-2026)
-• TeamWin/Team-Win-Recovery-Project — ★2.071 (+3) · *dormido*: sin empujar desde el 6-feb-2022 (1731 días) · sin licencia detectada por la API
-• zacharee/Tweaker — ★1.763 (+6) · empujó el 21-oct-2026 (hace 13 días) · MIT · última release 362 (17-feb-2024)
-• TeamWin/android_bootable_recovery — ★1.724 · empujó en las últimas horas · sin licencia detectada por la API
+• TeamWin/Team-Win-Recovery-Project — ★2.072 (+4) · *dormido*: sin empujar desde el 6-feb-2022 (1731 días) · sin licencia detectada por la API
+• zacharee/Tweaker — ★1.764 (+7) · empujó el 21-oct-2026 (hace 13 días) · MIT · última release 362 (17-feb-2024)
+• TeamWin/android_bootable_recovery — ★1.725 · empujó en las últimas horas · sin licencia detectada por la API
 • freeotp/freeotp-android — ★1.683 (+2) · empujó en las últimas horas · Apache-2.0 · última release v2.0.6 (17-feb-2026)
 • pass-with-high-score/universal-installer — ★1.677 (+37) · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
 • sdex/ActivityManager — ★1.375 (+9) · empujó el 27-oct-2026 (hace 7 días) · Apache-2.0 · última release 5.5.3 (10-oct-2026)

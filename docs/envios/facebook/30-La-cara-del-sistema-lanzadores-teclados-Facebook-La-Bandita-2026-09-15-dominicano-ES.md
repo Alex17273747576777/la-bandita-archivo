@@ -91,9 +91,9 @@ Hay release de esta semana: **you-apps/WallYou** publicó v17.1 (2026-10-29). El
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• LawnchairLauncher/lawnchair — ★13.851 (+34) · empujó en las últimas horas · NOASSERTION · última release 1.2.0.1884 (23-jul-2018)
-• florisboard/florisboard — ★8.748 (+16) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
-• HeliBorg/HeliBoard — ★6.488 (+45) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
+• LawnchairLauncher/lawnchair — ★13.850 (+33) · empujó en las últimas horas · NOASSERTION · última release 1.2.0.1884 (23-jul-2018)
+• florisboard/florisboard — ★8.750 (+18) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
+• HeliBorg/HeliBoard — ★6.489 (+46) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
 • muzei/muzei — ★4.962 (+8) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • KieronQuinn/TapTap — ★4.060 (+2) · *dormido*: sin empujar desde el 26-oct-2024 (738 días) · GPL-3.0 · última release 1.6.2 (26-oct-2024)
 • KieronQuinn/Smartspacer — ★3.590 (+12) · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release 1.11.4 (2-oct-2026)

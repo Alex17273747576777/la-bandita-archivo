@@ -317,22 +317,22 @@ Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Mand
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 60 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ente/ente — ★29.862 (+120) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.68 (2-nov-2026)
-• T8RIN/ImageToolbox — ★15.342 (+101) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
-• floccusaddon/floccus — ★8.614 (+11) · empujó el 1-nov-2026 (hace 2 días) · MPL-2.0 · última release v5.12.0 (23-oct-2026)
+• ente/ente — ★29.866 (+124) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.68 (2-nov-2026)
+• T8RIN/ImageToolbox — ★15.359 (+118) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
+• floccusaddon/floccus — ★8.615 (+12) · empujó el 1-nov-2026 (hace 2 días) · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.677 (+3) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
 • ReadYouApp/ReadYou — ★7.634 (+10) · *dormido*: sin empujar desde el 11-ago-2026 (84 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
 • deckerst/aves — ★5.484 (+16) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
 • burhanrashid52/PhotoEditor — ★4.532 (+2) · empujó el 27-sep-2026 (hace 37 días) · MIT · última release v.3.1.1 (17-sep-2026)
-• pulsejet/memories — ★3.874 (+6) · empujó en las últimas horas · AGPL-3.0 · última release v11.0.1 (3-nov-2026)
+• pulsejet/memories — ★3.875 (+7) · empujó en las últimas horas · AGPL-3.0 · última release v11.0.1 (3-nov-2026)
 • spacecowboy/Feeder — ★3.107 (+11) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)
-• wikimedia/apps-android-wikipedia — ★3.054 (+4) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
+• wikimedia/apps-android-wikipedia — ★3.055 (+5) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
 • IacobIonut01/ReFra — ★2.979 (+20) · empujó el 27-oct-2026 (hace 7 días) · Apache-2.0 · última release 5.2.2 (4-oct-2026)
-• anonfaded/FadCam — ★2.872 (+7) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v3.0.1 (16-dic-2025)
+• anonfaded/FadCam — ★2.873 (+8) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v3.0.1 (16-dic-2025)
 • MMRLApp/MMRL — ★2.227 (+4) · empujó el 25-oct-2026 (hace 9 días) · GPL-3.0 · última release v34296 (8-mar-2026)
 • SimonSchubert/LinuxCommandLibrary — ★2.094 (+8) · empujó en las últimas horas · Apache-2.0 · última release v4.9.1 (14-oct-2026)
 • LinwoodDev/Butterfly — ★2.089 (+7) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.2 (28-oct-2026)
-• plateaukao/einkbro — ★2.053 (+5) · empujó el 30-oct-2026 (hace 4 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
+• plateaukao/einkbro — ★2.054 (+6) · empujó el 30-oct-2026 (hace 4 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
 • null2264/yokai — ★1.915 (+3) · empujó en las últimas horas · Apache-2.0 · última release v1.10.2 (23-sep-2026)
 • mateusz-bak/openreads — ★1.669 (+5) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · GPL-2.0 · última release v2.11.0 (9-sep-2025)
 • Livinglist/Hacki — ★1.640 (+4) · empujó en las últimas horas · GPL-3.0 · última release v3.8.2 (11-oct-2026)
@@ -364,7 +364,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 60 repositorios que cita esta pi
 • ArtifexSoftware/mupdf-android-viewer-mini — ★138 (-1) · empujó el 25-sep-2026 (hace 39 días) · AGPL-3.0
 • mshdabiola/NotePad — ★131 (sin cambio) · *dormido*: sin empujar desde el 27-oct-2025 (372 días) · GPL-3.0 · última release 1.3.7 (30-ene-2025)
 • pastthepixels/FreePaint — ★120 (+1) · *dormido*: sin empujar desde el 29-jul-2026 (97 días) · GPL-3.0 · última release v1.2.0 (10-may-2024)
-• KevinCFechtel/FluxNews — ★112 (+1) · empujó el 19-oct-2026 (hace 15 días) · BSD-3-Clause · última release v2.3.2 (5-sep-2026)
+• KevinCFechtel/FluxNews — ★113 (+2) · empujó el 19-oct-2026 (hace 15 días) · BSD-3-Clause · última release v2.3.2 (5-sep-2026)
 • itsmechinmoy/Dantotsu — ★93 (+1) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
 • aarddict/android — ★88 (sin cambio) · *dormido*: sin empujar desde el 9-may-2015 (4196 días) · GPL-3.0 · última release 1.6.11 (18-ago-2016) · *ARCHIVADO*
 • UmerCodez/WebsocketCAM — ★74 (sin cambio) · *dormido*: sin empujar desde el 14-jun-2026 (142 días) · GPL-3.0 · última release v1.4.0 (14-jun-2026)

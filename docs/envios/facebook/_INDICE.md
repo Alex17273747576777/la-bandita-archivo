@@ -11,6 +11,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 02 | La música que no se cae: once reproductores, un tronco seco y tres for | 20 | 3686 | 11 | 0 | no | `02-La-musica-que-no-se-cae-once-reproductores-un-tronco-seco-y-tres-formas-de-quedarse-sin-catalogo-Facebook-La-Bandita-2026-11-02-dominicano-ES` |
 | 03 | La caja fuerte del bolsillo: un autenticador muerto, mil seiscientos d | 20 | 3352 | 10 | 0 | no | `03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES` |
 | 04 | La lista del permiso: cuarenta y cuatro medidos, catorce con ficha y l | 20 | 3595 | 17 | 0 | no | `04-La-lista-del-permiso-cuarenta-y-cuatro-medidos-catorce-con-ficha-y-los-nueve-de-la-lista-del-dia-uno-por-uno-Facebook-La-Bandita-2026-11-03-dominicano-ES` |
+| 05 | La guía maestra: doce capítulos, setenta fichas y el método para no te | 20 | 3876 | 32 | 1 | no | `05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES` |
 | 05 | TMO CAYÓ. LOS CLONES COSECHAN CLAVES. TU LISTA NO SE RESTAURA. TODO CO | 2 | 857 | 0 | 0 | no | `05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 06 | FORKS LECTORES: LA CANCHA ENTERA CON PLACA Y HORA, 22-sep-2026 22 DE S | 4 | 2512 | 5 | 0 | no | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 07 | EL ÁRBOL VECINO MEDIDO ESTA MAÑANA: USAGI VIVA, EL MAESTRO EN SU MUSEO | 4 | 3372 | 7 | 0 | no | `07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
@@ -124,6 +125,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 98 | La foto III: el sótano completo | 4 | 1825 | 2 | 0 | no | `98-La-foto-III-el-sotano-completo-Facebook-La-Bandita-2026-10-29` |
 | 99 | La foto IV: los jóvenes del censo | 4 | 1302 | 1 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29` |
 
-**117 piezas · 573 mensajes** · el mayor de todos: 3939 caracteres.
+**118 piezas · 593 mensajes** · el mayor de todos: 3939 caracteres.
 
 

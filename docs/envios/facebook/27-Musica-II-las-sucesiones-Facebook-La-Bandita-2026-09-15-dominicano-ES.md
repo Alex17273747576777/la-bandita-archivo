@@ -64,7 +64,7 @@ El grupo respira despacio; su empuje más reciente, **Fhox006/Iride**, fue hace 
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MetrolistGroup/Metrolist — ★13.992 (+103) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• MetrolistGroup/Metrolist — ★13.996 (+107) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
 • 956tris/MetroFuse — ★186 (+1) · empujó el 18-oct-2026 (hace 16 días) · GPL-3.0 · última release 8.0 (16-sep-2026)
 • josprox/Estrella-Music — ★47 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v2.4.5 (2-nov-2026)
 • Fhox006/Iride — ★17 (sin cambio) · empujó en las últimas horas · GPL-3.0
