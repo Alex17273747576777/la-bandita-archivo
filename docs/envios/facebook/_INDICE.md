@@ -10,7 +10,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 01 | El turno de los que nacieron este trimestre: doce proyectos con nota p | 20 | 3641 | 12 | 0 | no | `01-El-turno-de-los-que-nacieron-este-trimestre-doce-proyectos-medidos-hoy-y-uno-que-no-aguanta-el-escrutinio-Facebook-La-Bandita-2026-11-03-dominicano-ES` |
 | 02 | La música que no se cae: once reproductores, un tronco seco y tres for | 20 | 3686 | 11 | 0 | no | `02-La-musica-que-no-se-cae-once-reproductores-un-tronco-seco-y-tres-formas-de-quedarse-sin-catalogo-Facebook-La-Bandita-2026-11-02-dominicano-ES` |
 | 03 | La caja fuerte del bolsillo: un autenticador muerto, mil seiscientos d | 20 | 3352 | 10 | 0 | no | `03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES` |
-| 04 | El permiso prestado: doce proyectos que le piden al sistema lo que el  | 19 | 3675 | 16 | 0 | no | `04-El-permiso-prestado-doce-proyectos-que-piden-al-sistema-lo-que-el-sistema-no-da-y-el-original-que-ya-no-empuja-Facebook-La-Bandita-2026-11-03-dominicano-ES` |
+| 04 | La lista del permiso: cuarenta y cuatro medidos, catorce con ficha y l | 20 | 3595 | 17 | 0 | no | `04-La-lista-del-permiso-cuarenta-y-cuatro-medidos-catorce-con-ficha-y-los-nueve-de-la-lista-del-dia-uno-por-uno-Facebook-La-Bandita-2026-11-03-dominicano-ES` |
 | 05 | TMO CAYÓ. LOS CLONES COSECHAN CLAVES. TU LISTA NO SE RESTAURA. TODO CO | 2 | 857 | 0 | 0 | no | `05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 06 | FORKS LECTORES: LA CANCHA ENTERA CON PLACA Y HORA, 22-sep-2026 22 DE S | 4 | 2512 | 5 | 0 | no | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
 | 07 | EL ÁRBOL VECINO MEDIDO ESTA MAÑANA: USAGI VIVA, EL MAESTRO EN SU MUSEO | 4 | 3372 | 7 | 0 | no | `07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-Facebook-La-Bandita-2026-09-22-dominicano-ES` |
@@ -78,7 +78,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 52 | La discoteca III: el censo completo del baile La Bandita · 15 de septi | 5 | 3759 | 12 | 0 | no | `52-La-discoteca-III-el-censo-completo-del-baile-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 53 | Las otras forjas: GitLab, Codeberg y los sitios de la mina | 2 | 835 | 0 | 0 | no | `53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 54 | Las puertas del sistema y el taller — censo de la mina I | 11 | 3939 | 52 | 0 | no | `54-Las-puertas-del-sistema-y-el-taller-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
-| 55 | Las puertas del lector y las bibliotecas — censo de la mina II | 13 | 3905 | 60 | 0 | no | `55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
+| 55 | Las puertas del lector y las bibliotecas — censo de la mina II | 13 | 3907 | 60 | 0 | no | `55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 56 | Las puertas del anime y los servidores — censo de la mina III | 12 | 3919 | 62 | 3 | no | `56-Las-puertas-del-anime-y-los-servidores-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 57 | La hornada del lector: la mina con nombre | 5 | 3654 | 15 | 0 | no | `57-La-hornada-del-lector-la-mina-con-nombre-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
 | 58 | La hornada del anime: el segundo territorio | 5 | 3687 | 14 | 0 | no | `58-La-hornada-del-anime-el-segundo-territorio-Facebook-La-Bandita-2026-09-15-dominicano-ES` |
@@ -124,6 +124,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 98 | La foto III: el sótano completo | 4 | 1825 | 2 | 0 | no | `98-La-foto-III-el-sotano-completo-Facebook-La-Bandita-2026-10-29` |
 | 99 | La foto IV: los jóvenes del censo | 4 | 1302 | 1 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-Facebook-La-Bandita-2026-10-29` |
 
-**117 piezas · 572 mensajes** · el mayor de todos: 3939 caracteres.
+**117 piezas · 573 mensajes** · el mayor de todos: 3939 caracteres.
 
 

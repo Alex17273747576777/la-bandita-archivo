@@ -60,7 +60,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 • animiruorg/Animiru — ★907 (+3) · empujó en las últimas horas · GPL-3.0 · última release v0.20.1.0 (3-nov-2026)
 • Riteshp2001/mpvRx — ★885 (+26) · empujó en las últimas horas · AGPL-3.0 · última release v3.0.2 (25-oct-2026)
-• Kototoro-app/Kototoro — ★666 (+13) · empujó en las últimas horas · Apache-2.0 · última release v2.3.7 (3-nov-2026)
+• Kototoro-app/Kototoro — ★666 (+13) · empujó en las últimas horas · Apache-2.0 · última release v2.3.8 (3-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

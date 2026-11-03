@@ -40,8 +40,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "e1bcc2525f8be047e88e80528c7306e0ee5f88b5",
-  "swh_estado": "solicitud 200",
-  "swh_solicitud": "accepted",
+  "swh_estado": "archivada",
+  "swh_solicitud": "e1bcc2525f8be047e88e80528c7306e0ee5f88b5",
   "swhid": "swh:1:rev:e1bcc2525f8be047e88e80528c7306e0ee5f88b5"
  },
  "repo": "rushiranpise/Shizuku-Next"

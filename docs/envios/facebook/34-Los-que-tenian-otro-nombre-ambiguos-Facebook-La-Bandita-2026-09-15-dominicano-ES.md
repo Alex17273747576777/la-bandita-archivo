@@ -73,9 +73,9 @@ La noticia fresca es de **Imtiaz-Official/Smart-Edge**: release v1.3.7 (2026-10-
 Medí otra vez, hoy 3 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • VegaBobo/Language-Selector — ★788 (+3) · *dormido*: sin empujar desde el 29-dic-2024 (674 días) · Apache-2.0 · última release 1.04 (16-may-2023)
-• eyalm2000/adns — ★743 (+9) · empujó en las últimas horas · MIT · última release v2.1.8 (3-oct-2026)
-• Imtiaz-Official/Smart-Edge — ★445 (+4) · empujó el 28-oct-2026 (hace 6 días) · MIT · última release v1.3.7 (26-oct-2026)
-• Senzme/NFile — ★437 (+2) · *dormido*: sin empujar desde el 11-ago-2026 (84 días) · GPL-3.0 · última release v1.0.43 (4-jul-2026)
+• eyalm2000/adns — ★743 (+9) · empujó en las últimas horas · MIT · última release v2.1.9 (3-nov-2026)
+• Imtiaz-Official/Smart-Edge — ★446 (+5) · empujó el 28-oct-2026 (hace 6 días) · MIT · última release v1.3.7 (26-oct-2026)
+• Senzme/NFile — ★438 (+3) · *dormido*: sin empujar desde el 11-ago-2026 (84 días) · GPL-3.0 · última release v1.0.43 (4-jul-2026)
 • preethamkmr3/WidgetsPro — ★172 (+1) · *dormido*: sin empujar desde el 20-ene-2026 (287 días) · sin licencia detectada por la API · última release 1.2.7 (20-ene-2026)
 • exiarepairii/deskcontrol — ★67 (sin cambio) · empujó el 20-sep-2026 (hace 44 días) · GPL-3.0 · última release v1.3.13 (8-ago-2026)
 • EtashTyagi/SelfLock — ★7 (sin cambio) · *dormido*: sin empujar desde el 18-jul-2026 (108 días) · MIT · última release v1.0.0 (18-jul-2026)

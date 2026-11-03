@@ -102,22 +102,22 @@ La noticia amarga: **ayman708-UX/PlayTorrioV3** (caído (404)) ya no respondiero
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2531 caracteres ═══
+═══ MENSAJE 4 de 5 · 2515 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 41*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jiangtian616/JHenTai — ★5.773 (+29) · empujó el 31-oct-2026 (hace 3 días) · Apache-2.0 · última release v8.0.18 (23-oct-2026)
-• RyanYuuki/AnymeX — ★1.278 (+3) · empujó en las últimas horas · MIT · última release v3.2.0 (27-oct-2026)
+• jiangtian616/JHenTai — ★5.774 (+30) · empujó el 31-oct-2026 (hace 3 días) · Apache-2.0 · última release v8.0.18 (23-oct-2026)
+• RyanYuuki/AnymeX — ★1.279 (+4) · empujó en las últimas horas · MIT · última release v3.2.0 (27-oct-2026)
 • SuperMarcus/NineAnimator — ★819 (sin cambio) · *dormido*: sin empujar desde el 14-nov-2024 (719 días) · GPL-3.0 · última release 1.2.7-6 (26-abr-2021) · *ARCHIVADO*
 • hitarth-gg/zenshin — ★777 (+3) · *dormido*: sin empujar desde el 24-may-2026 (163 días) · GPL-3.0 · última release v3.0.0 (24-may-2026)
-• akashdh11/skystream — ★675 (+12) · empujó el 17-oct-2026 (hace 17 días) · GPL-3.0 · última release v2.9.0 (17-oct-2026)
+• akashdh11/skystream — ★676 (+13) · empujó el 17-oct-2026 (hace 17 días) · GPL-3.0 · última release v2.9.0 (17-oct-2026)
 • jakepurple13/OtakuWorld — ★637 (-1) · empujó en las últimas horas · Apache-2.0 · última release v32.1.2 (29-jun-2026)
-• imashnake0/Animite — ★523 (sin cambio) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.7.15-alpha01 (1-nov-2026)
-• Spyou/Zangetsu — ★495 (+40) · empujó en las últimas horas · GPL-3.0 · última release v2.3.5 (1-nov-2026)
+• imashnake0/Animite — ★524 (+1) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.7.15-alpha01 (1-nov-2026)
+• Spyou/Zangetsu — ★497 (+42) · empujó en las últimas horas · GPL-3.0 · última release v2.3.5 (1-nov-2026)
 • frostnova721/animestream — ★446 (+2) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v1.4.7 (14-sep-2026)
-• cranci1/Sora — ★427 (sin cambio) · *dormido*: sin empujar desde el 20-ago-2026 (75 días) · GPL-3.0 · última release 1.3.0 (20-ago-2026) · *ARCHIVADO*
+• cranci1/Sora — ★428 (+1) · *dormido*: sin empujar desde el 20-ago-2026 (75 días) · GPL-3.0 · última release 1.3.0 (20-ago-2026) · *ARCHIVADO*
 • roshancodespace/ShonenX — ★357 (+2) · empujó el 26-oct-2026 (hace 8 días) · GPL-3.0 · última release v2.1.5 (25-oct-2026)
 • AniLabX/AniLabX — ★286 (sin cambio) · *dormido*: sin empujar desde el 2-sep-2026 (62 días) · sin licencia detectada por la API · última release v5.8_update16 (2-sep-2026)
 • manga-you-know/desktop — ★222 (sin cambio) · *dormido*: sin empujar desde el 11-sep-2026 (53 días) · MIT · última release v0.9.31 (28-sep-2025)

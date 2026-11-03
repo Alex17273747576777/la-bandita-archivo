@@ -39,8 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "67a43c8ea7d43eddf51d840f3615b97ce6079c9b",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "67a43c8ea7d43eddf51d840f3615b97ce6079c9b",
   "swhid": "swh:1:rev:67a43c8ea7d43eddf51d840f3615b97ce6079c9b"
  },
  "repo": "aistra0528/Hail"

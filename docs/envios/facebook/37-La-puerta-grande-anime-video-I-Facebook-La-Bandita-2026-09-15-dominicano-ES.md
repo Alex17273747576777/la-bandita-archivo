@@ -92,22 +92,22 @@ La noticia amarga: **rebelonion/Dantotsu** (bloqueado legal (451): existe) ya no
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2169 caracteres ═══
+═══ MENSAJE 4 de 5 · 2170 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 37*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• recloudstream/cloudstream — ★11.148 (+53) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
-• miru-project/miru-app — ★5.794 (+10) · *dormido*: sin empujar desde el 5-dic-2025 (333 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
+• recloudstream/cloudstream — ★11.149 (+54) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• miru-project/miru-app — ★5.795 (+11) · *dormido*: sin empujar desde el 5-dic-2025 (333 días) · AGPL-3.0 · última release v1.8.1 (19-ene-2024)
 • 5rahim/seanime — ★4.303 (+18) · empujó el 14-oct-2026 (hace 20 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
-• NuvioMedia/NuvioMobile — ★4.382 (+98) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (31-oct-2026)
-• kodjodevf/mangayomi — ★4.330 (+58) · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• Kototoro-app/Kototoro — ★666 (+13) · empujó en las últimas horas · Apache-2.0 · última release v2.3.7 (3-nov-2026)
+• NuvioMedia/NuvioMobile — ★4.385 (+101) · empujó en las últimas horas · GPL-3.0 · última release 0.6.6-beta (31-oct-2026)
+• kodjodevf/mangayomi — ★4.334 (+62) · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
+• Kototoro-app/Kototoro — ★666 (+13) · empujó en las últimas horas · Apache-2.0 · última release v2.3.8 (3-nov-2026)
 • RockinChaos/Shiru — ★654 (+2) · empujó en las últimas horas · GPL-3.0 · última release v6.9.1 (13-oct-2026)
-• aayush2622/Dartotsu — ★550 (+5) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
+• aayush2622/Dartotsu — ★551 (+6) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
 • DodoraApp/DodoStream — ★247 (sin cambio) · empujó el 20-sep-2026 (hace 44 días) · GPL-3.0 · última release v0.12.3 (13-sep-2026)
-• itsmechinmoy/dantotsu-updater — ★156 (+2) · empujó el 1-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
+• itsmechinmoy/dantotsu-updater — ★157 (+3) · empujó el 1-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release v3.2.2+74ae756 (29-oct-2026)
 • Anisurge/App — ★122 (+2) · empujó el 31-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release v0.58.2 (31-oct-2026)
 • itsmechinmoy/Dantotsu — ★93 (+1) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
 • rebelonion/Dantotsu — sin dato hoy (la API no respondió). No afirmo nada.

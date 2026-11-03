@@ -102,7 +102,7 @@ Hay release de esta semana: **Paduu29/KomaStream** publicó v3.17 (2026-10-26). 
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Marco-9456/AniSync — ★160 (+2) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v3.3.0 (20-oct-2026)
+• Marco-9456/AniSync — ★161 (+3) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v3.3.0 (20-oct-2026)
 • AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (77 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
 • KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 44 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
 • e18lab/NHApp — ★134 (-1) · *dormido*: sin empujar desde el 11-ago-2026 (84 días) · sin licencia detectada por la API · última release 1.3.1 (7-may-2026)

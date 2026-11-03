@@ -40,8 +40,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "e6904452b6a2b9a72fac2d1f7fce9978a08bd883",
-  "swh_estado": "solicitud 200",
-  "swh_solicitud": "accepted",
+  "swh_estado": "archivada",
+  "swh_solicitud": "e6904452b6a2b9a72fac2d1f7fce9978a08bd883",
   "swhid": "swh:1:rev:e6904452b6a2b9a72fac2d1f7fce9978a08bd883"
  },
  "repo": "kerneldroid/Nightzuku"

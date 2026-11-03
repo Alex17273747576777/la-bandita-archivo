@@ -37,8 +37,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "ab17ed2ba77197d4b7d1b8e98de2b5cedbd9c1ce",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:ab17ed2ba77197d4b7d1b8e98de2b5cedbd9c1ce"
  },
  "repo": "d4rken-org/porter",

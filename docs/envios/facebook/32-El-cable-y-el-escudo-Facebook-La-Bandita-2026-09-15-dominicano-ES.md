@@ -85,17 +85,17 @@ Pulso tranquilo: lo último que se movió fue **emanuele-f/PCAPdroid**, hace 2 d
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1770 caracteres ═══
+═══ MENSAJE 4 de 5 · 1674 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 32*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• emanuele-f/PCAPdroid — ★5.065 (+55) · empujó en las últimas horas · GPL-3.0 · última release v2.0.2 (20-sep-2026)
-• M66B/NetGuard — ★3.961 (+12) · *dormido*: sin empujar desde el 1-ago-2026 (94 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
-• TrackerControl/tracker-control-android — ★2.718 (+14) · empujó en las últimas horas · GPL-3.0 · última release 2026110101 (1-nov-2026)
+• emanuele-f/PCAPdroid — ★5.070 (+60) · empujó en las últimas horas · GPL-3.0 · última release v2.0.2 (20-sep-2026)
+• M66B/NetGuard — ★3.962 (+13) · *dormido*: sin empujar desde el 1-ago-2026 (94 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
+• TrackerControl/tracker-control-android — ★2.719 (+15) · empujó en las últimas horas · GPL-3.0 · última release 2026110101 (1-nov-2026)
 • badabing2005/PixelFlasher — ★2.345 (+4) · empujó el 30-oct-2026 (hace 4 días) · GPL-3.0 · última release v10.2.0.0 (30-oct-2026)
-• TeamWin/android_bootable_recovery — ★1.725 · empujó en las últimas horas · sin licencia detectada por la API
+• TeamWin/android_bootable_recovery — ★1.724 · empujó en las últimas horas · sin licencia detectada por la API
 • DUpdateSystem/UpgradeAll — ★1.357 (-2) · empujó en las últimas horas · GPL-3.0 · última release 0.13-beta.4 (24-abr-2023)
 • Androidacy/MagiskModuleManager — ★1.240 (-1) · *dormido*: sin empujar desde el 9-abr-2026 (208 días) · LGPL-3.0 · última release v2.3.8-1 (31-mar-2025)
 • Tobi823/ffupdater — ★1.106 (sin cambio) · *dormido*: sin empujar desde el 27-jun-2026 (129 días) · GPL-3.0 · última release 81.0.0 (15-jun-2025)
@@ -104,9 +104,8 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *15 responden*.
-
-• https://www.androidacy.com — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 16 enlaces de esta pieza, *16 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 3 de 4
 

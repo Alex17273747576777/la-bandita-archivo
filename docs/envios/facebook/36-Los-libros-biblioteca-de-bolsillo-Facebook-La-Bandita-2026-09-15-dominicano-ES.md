@@ -84,20 +84,20 @@ Hay release de esta semana: **foobnix/LibreraReader** publicó 10.0.19 (2026-10-
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1580 caracteres ═══
+═══ MENSAJE 4 de 5 · 1572 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 36*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• koreader/koreader — ★30.849 (+112) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• kovidgoyal/calibre — ★26.337 (+54) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
-• readest/readest — ★25.910 (+168) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
-• foobnix/LibreraReader — ★4.998 (+22) · empujó en las últimas horas · NOASSERTION · última release 10.0.22 (1-nov-2026)
+• koreader/koreader — ★30.850 (+113) · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• kovidgoyal/calibre — ★26.338 (+55) · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
+• readest/readest — ★25.913 (+171) · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• foobnix/LibreraReader — ★4.999 (+23) · empujó en las últimas horas · NOASSERTION · última release 10.0.22 (1-nov-2026)
 • Pool-Of-Tears/Myne — ★1.542 (+1) · empujó el 21-sep-2026 (hace 43 días) · Apache-2.0 · última release v5.1.0 (21-ago-2026)
-• kiwix/kiwix-android — ★1.528 (+11) · empujó en las últimas horas · GPL-3.0 · última release v3.14.1 (14-may-2026)
+• kiwix/kiwix-android — ★1.527 (+10) · empujó en las últimas horas · GPL-3.0 · última release v3.14.1 (14-may-2026)
 • Acclorite/book-story — ★1.419 (+3) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.8.0 (13-oct-2025)
-• tadamiorg/tadami — ★61 (sin cambio) · empujó el 30-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
+• tadamiorg/tadami — ★62 (+1) · empujó el 30-oct-2026 (hace 4 días) · sin licencia detectada por la API · última release v1.17.0 (30-oct-2026)
 • PrivacyDragon/Bookwyrm_Android — ★38 (sin cambio) · empujó el 4-oct-2026 (hace 30 días) · BSD-3-Clause · última release v1.3.9 (13-may-2026)
 • pkmetski/riffle — ★18 (sin cambio) · empujó en las últimas horas · AGPL-3.0 · última release v2.45.4 (5-oct-2026)
 

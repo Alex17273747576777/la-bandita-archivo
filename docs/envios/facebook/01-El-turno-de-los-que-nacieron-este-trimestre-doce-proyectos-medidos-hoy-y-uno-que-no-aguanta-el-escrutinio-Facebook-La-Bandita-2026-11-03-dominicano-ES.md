@@ -410,17 +410,17 @@ La raya de descargas de la primera fila no es un cero: no hay archivo que descar
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• InukaAsith/TwinDesk — ★3.192 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (28-oct-2026)
-• flectar/mail — ★1.747 · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
-• rddmwmddr/android-ad-cleaner — ★6.048 · empujó en las últimas horas · MIT · última release v0.3.1 (3-nov-2026)
-• Clash-Projects/LastWave-Native — ★2.477 · empujó en las últimas horas · GPL-3.0 · última release 5.0.0 (30-oct-2026)
-• udhaykumarbala/cleanyourtv-app — ★1.515 · empujó en las últimas horas · MIT · última release v0.4.8 (3-nov-2026)
-• Gathin23/cleanyourtv — ★51.061 · empujó en las últimas horas · NOASSERTION · última release v3.3.0 (1-nov-2026)
-• humblemuzzu/dumbtv — ★1.903 · empujó en las últimas horas · NOASSERTION · última release launcher-v1.7 (3-nov-2026)
-• man15h/tellyscope — ★1.327 · empujó en las últimas horas · GPL-3.0 · última release v0.14.0 (30-oct-2026)
+• InukaAsith/TwinDesk — ★3.230 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (28-oct-2026)
+• flectar/mail — ★1.750 · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
+• rddmwmddr/android-ad-cleaner — ★6.061 · empujó en las últimas horas · MIT · última release v0.3.1 (3-nov-2026)
+• Clash-Projects/LastWave-Native — ★2.482 · empujó en las últimas horas · GPL-3.0 · última release 5.0.0 (30-oct-2026)
+• udhaykumarbala/cleanyourtv-app — ★1.531 · empujó en las últimas horas · MIT · última release v0.4.8 (3-nov-2026)
+• Gathin23/cleanyourtv — ★51.210 · empujó en las últimas horas · NOASSERTION · última release v3.3.0 (1-nov-2026)
+• humblemuzzu/dumbtv — ★1.910 · empujó en las últimas horas · NOASSERTION · última release launcher-v1.7 (3-nov-2026)
+• man15h/tellyscope — ★1.338 · empujó en las últimas horas · GPL-3.0 · última release v0.14.0 (30-oct-2026)
 • mokshablr/gander — ★1.356 · empujó en las últimas horas · MIT · última release v2.8 (31-oct-2026)
-• Verlintas/NOIR — ★1.723 · empujó en las últimas horas · MIT · última release v0.2.5 (2-nov-2026)
-• metasequoiaime/msime — ★1.139 · empujó en las últimas horas · GPL-3.0 · última release macos-v0.57.0 (2-nov-2026)
+• Verlintas/NOIR — ★1.743 · empujó en las últimas horas · MIT · última release v0.2.5 (2-nov-2026)
+• metasequoiaime/msime — ★1.140 · empujó en las últimas horas · GPL-3.0 · última release macos-v0.57.0 (2-nov-2026)
 • Turtlecute33/Fonte — ★19 · empujó en las últimas horas · GPL-3.0 · última release v0.1.9 (2-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

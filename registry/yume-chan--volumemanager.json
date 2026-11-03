@@ -37,8 +37,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "0915776d897a9e93b661d7758e215e64617df694",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "0915776d897a9e93b661d7758e215e64617df694",
   "swhid": "swh:1:rev:0915776d897a9e93b661d7758e215e64617df694"
  },
  "repo": "yume-chan/VolumeManager"

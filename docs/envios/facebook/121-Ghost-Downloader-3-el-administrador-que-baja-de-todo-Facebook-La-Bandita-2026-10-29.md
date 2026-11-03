@@ -60,9 +60,9 @@ Pulso de hoy sobre los 3 repos de la pieza: 3 vivos, 3 activos este mes. Manda *
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• agalwood/Motrix — ★57.747 (+200) · empujó en las últimas horas · NOASSERTION · última release v2.2.1 (3-nov-2026)
-• GopeedLab/gopeed — ★27.353 (+107) · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
-• XiaoYouChR/Ghost-Downloader-3 — ★10.648 (+147) · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release v4.4.6 (28-oct-2026)
+• agalwood/Motrix — ★57.751 (+204) · empujó en las últimas horas · NOASSERTION · última release v2.2.1 (3-nov-2026)
+• GopeedLab/gopeed — ★27.359 (+113) · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
+• XiaoYouChR/Ghost-Downloader-3 — ★10.651 (+150) · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release v4.4.6 (28-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

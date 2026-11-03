@@ -39,8 +39,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f",
   "swhid": "swh:1:rev:e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f"
  },
  "repo": "samolego/Canta",

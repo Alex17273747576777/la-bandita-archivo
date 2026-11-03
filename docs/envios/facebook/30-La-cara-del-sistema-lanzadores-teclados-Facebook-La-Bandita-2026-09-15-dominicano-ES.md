@@ -91,17 +91,17 @@ Hay release de esta semana: **you-apps/WallYou** publicó v17.1 (2026-10-29). El
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• LawnchairLauncher/lawnchair — ★13.850 (+33) · empujó en las últimas horas · NOASSERTION · última release 1.2.0.1884 (23-jul-2018)
-• florisboard/florisboard — ★8.746 (+14) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
-• HeliBorg/HeliBoard — ★6.487 (+44) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
+• LawnchairLauncher/lawnchair — ★13.851 (+34) · empujó en las últimas horas · NOASSERTION · última release 1.2.0.1884 (23-jul-2018)
+• florisboard/florisboard — ★8.748 (+16) · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
+• HeliBorg/HeliBoard — ★6.488 (+45) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
 • muzei/muzei — ★4.962 (+8) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • KieronQuinn/TapTap — ★4.060 (+2) · *dormido*: sin empujar desde el 26-oct-2024 (738 días) · GPL-3.0 · última release 1.6.2 (26-oct-2024)
 • KieronQuinn/Smartspacer — ★3.590 (+12) · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release 1.11.4 (2-oct-2026)
 • openboard-team/openboard — ★2.758 (+4) · *dormido*: sin empujar desde el 16-may-2024 (901 días) · GPL-3.0 · última release v1.4.5 (5-ago-2022)
 • Mahmud0808/ColorBlendr — ★2.583 (+14) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v3.1.2 (31-oct-2026)
-• KieronQuinn/AmbientMusicMod — ★2.527 (+3) · *dormido*: sin empujar desde el 7-sep-2024 (787 días) · GPL-3.0 · última release 2.4 (7-sep-2024)
+• KieronQuinn/AmbientMusicMod — ★2.528 (+4) · *dormido*: sin empujar desde el 7-sep-2024 (787 días) · GPL-3.0 · última release 2.4 (7-sep-2024)
 • NeoApplications/Neo-Launcher — ★2.155 (+4) · empujó en las últimas horas · GPL-3.0 · última release 0.9.3 (18-dic-2023)
-• you-apps/WallYou — ★1.452 (+12) · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release v17.1 (29-oct-2026)
+• you-apps/WallYou — ★1.453 (+13) · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release v17.1 (29-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

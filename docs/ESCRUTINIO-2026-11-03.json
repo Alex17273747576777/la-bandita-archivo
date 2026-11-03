@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-03",
- "medido_en": "2026-11-03T16:00:44+00:00",
+ "medido_en": "2026-11-03T19:52:59+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 316,
+ "medidos": 344,
  "fichas": [
   {
    "repo": "MMFoundation/WallpaperMachine",
@@ -2675,6 +2675,41 @@
    ]
   },
   {
+   "repo": "samolego/Canta",
+   "puntos": 71,
+   "licencia": "LGPL-3.0",
+   "flujos_ci": [
+    "build.yml",
+    "crowdin_escapes.yml",
+    "docs.yml",
+    "pull_request_build.yml",
+    "release.yml"
+   ],
+   "adjuntos": 15,
+   "con_huella": 3,
+   "ultima_entrega": "2026-10-29",
+   "commits_30d": 12,
+   "contribuyentes": 18,
+   "incidencias": {
+    "abiertas": 31,
+    "cerradas": 185
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1162,
+   "archivado": false,
+   "notas": [
+    "licencia legible (LGPL-3.0) +15",
+    "integración continua con 5 flujo(s) +10",
+    "adjunto con huella (SHA256SUMS.txt) +10",
+    "entrega en los últimos 30 días +10",
+    "12 cambios en 30 días +7",
+    "18 personas empujando +10",
+    "incidencias cerradas 185/216 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "storytold/effectcraft",
    "puntos": 70,
    "licencia": "Apache-2.0",
@@ -2952,6 +2987,42 @@
     "276 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 100/105 +10",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "HmnDev-Tech/shevery",
+   "puntos": 70,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "ai-triage.yml",
+    "apk-build.yml",
+    "app.yml",
+    "copilot-auto.yml",
+    "issue-similarity.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 198,
+   "contribuyentes": 16,
+   "incidencias": {
+    "abiertas": 3,
+    "cerradas": 123
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 172,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 7 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "198 cambios en 30 días +10",
+    "16 personas empujando +10",
+    "incidencias cerradas 123/126 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -3250,7 +3321,7 @@
    "adjuntos": 20,
    "con_huella": 0,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 507,
+   "commits_30d": 509,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 29,
@@ -3265,7 +3336,7 @@
     "integración continua con 7 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "507 cambios en 30 días +10",
+    "509 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 539/568 +9",
     "SECURITY.md presente +5",
@@ -3772,6 +3843,42 @@
    ]
   },
   {
+   "repo": "krishna3163/OmniShizuku",
+   "puntos": 67,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "ai-triage.yml",
+    "android.yml",
+    "apk-build.yml",
+    "appknox.yml",
+    "black-duck-security-scan-ci.yml"
+   ],
+   "adjuntos": 36,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-02",
+   "commits_30d": 235,
+   "contribuyentes": 5,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 1
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 10,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 17 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "235 cambios en 30 días +10",
+    "5 personas empujando +7",
+    "incidencias cerradas 1/1 +10",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "Hamza417/Inure",
    "puntos": 67,
    "licencia": "GPL-3.0",
@@ -4107,6 +4214,38 @@
     "1 personas empujando +0",
     "incidencias cerradas 9/19 +5",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "iamr0s/Dhizuku",
+   "puntos": 65,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build.yml",
+    "release.yml"
+   ],
+   "adjuntos": 21,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-30",
+   "commits_30d": 212,
+   "contribuyentes": 69,
+   "incidencias": {
+    "abiertas": 3,
+    "cerradas": 171
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1303,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "212 cambios en 30 días +10",
+    "69 personas empujando +10",
+    "incidencias cerradas 171/174 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4834,6 +4973,39 @@
    ]
   },
   {
+   "repo": "madkongo/CallVault",
+   "puntos": 63,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build-app.yml",
+    "codeql.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 477,
+   "contribuyentes": 3,
+   "incidencias": {
+    "abiertas": 7,
+    "cerradas": 42
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 145,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "477 cambios en 30 días +10",
+    "3 personas empujando +4",
+    "incidencias cerradas 42/49 +9",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "Weiss-UltimateSavior/Tyranor-Next",
    "puntos": 63,
    "licencia": "GPL-2.0",
@@ -4973,39 +5145,6 @@
    ]
   },
   {
-   "repo": "madkongo/CallVault",
-   "puntos": 62,
-   "licencia": "GPL-3.0",
-   "flujos_ci": [
-    "build-app.yml",
-    "codeql.yml"
-   ],
-   "adjuntos": 10,
-   "con_huella": 0,
-   "ultima_entrega": "2026-11-03",
-   "commits_30d": 477,
-   "contribuyentes": 3,
-   "incidencias": {
-    "abiertas": 8,
-    "cerradas": 41
-   },
-   "security_md": true,
-   "scorecard": null,
-   "edad_dias": 145,
-   "archivado": false,
-   "notas": [
-    "licencia legible (GPL-3.0) +15",
-    "integración continua con 2 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "477 cambios en 30 días +10",
-    "3 personas empujando +4",
-    "incidencias cerradas 41/49 +8",
-    "SECURITY.md presente +5",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
    "repo": "MuwMx/YumaPlayer",
    "puntos": 62,
    "licencia": "GPL-3.0",
@@ -5103,6 +5242,38 @@
     "28 cambios en 30 días +7",
     "100 personas empujando +10",
     "incidencias cerradas 5788/5813 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "SanmerApps/PI",
+   "puntos": 62,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "android.yaml",
+    "dependency-submission.yaml"
+   ],
+   "adjuntos": 30,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-24",
+   "commits_30d": 25,
+   "contribuyentes": 10,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 50
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1081,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "25 cambios en 30 días +7",
+    "10 personas empujando +10",
+    "incidencias cerradas 50/50 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5243,6 +5414,38 @@
    ]
   },
   {
+   "repo": "pass-with-high-score/universal-installer",
+   "puntos": 61,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build-debug.yml",
+    "publish-release.yml"
+   ],
+   "adjuntos": 59,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-01",
+   "commits_30d": 46,
+   "contribuyentes": 7,
+   "incidencias": {
+    "abiertas": 24,
+    "cerradas": 140
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 463,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "46 cambios en 30 días +10",
+    "7 personas empujando +7",
+    "incidencias cerradas 140/164 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "Khh-vu/wifi-password-manager",
    "puntos": 61,
    "licencia": "MIT",
@@ -5305,6 +5508,41 @@
     "32 cambios en 30 días +10",
     "76 personas empujando +10",
     "incidencias cerradas 603/941 +6",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "wxxsfxyzm/InstallerX-Revived",
+   "puntos": 61,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "auto-preview-dev.yml",
+    "auto-preview-release.yml",
+    "codeql.yml",
+    "manual-stable-release.yml",
+    "pr-check.yml"
+   ],
+   "adjuntos": 17,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-20",
+   "commits_30d": 21,
+   "contribuyentes": 50,
+   "incidencias": {
+    "abiertas": 31,
+    "cerradas": 361
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 727,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 5 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "21 cambios en 30 días +7",
+    "50 personas empujando +10",
+    "incidencias cerradas 361/392 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5895,6 +6133,41 @@
     "100 personas empujando +10",
     "incidencias cerradas 878/1010 +9",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "trinadhthatakula/Thor",
+   "puntos": 59,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "1-dev-publish.yml",
+    "2-master-promote.yml",
+    "3-production-promote.yml",
+    "codeql.yml",
+    "copilot-setup-steps.yml"
+   ],
+   "adjuntos": 20,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 31,
+   "contribuyentes": 5,
+   "incidencias": {
+    "abiertas": 17,
+    "cerradas": 33
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 652,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 15 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "31 cambios en 30 días +10",
+    "5 personas empujando +7",
+    "incidencias cerradas 33/50 +7",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -6759,6 +7032,39 @@
    ]
   },
   {
+   "repo": "ciddwd/overlay-translator",
+   "puntos": 57,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "ci.yml",
+    "codeql.yml",
+    "release.yml"
+   ],
+   "adjuntos": 20,
+   "con_huella": 10,
+   "ultima_entrega": "2026-10-24",
+   "commits_30d": 2,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 4,
+    "cerradas": 15
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 134,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjunto con huella (ScreenTranslator-0.4.8.apk.sha256) +10",
+    "entrega en los últimos 30 días +10",
+    "2 cambios en 30 días +4",
+    "1 personas empujando +0",
+    "incidencias cerradas 15/19 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "Zfinix/eleven",
    "puntos": 56,
    "licencia": "Apache-2.0",
@@ -7123,6 +7429,41 @@
    ]
   },
   {
+   "repo": "kerneldroid/Nightzuku",
+   "puntos": 55,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "app.yml",
+    "issue-similarity.yml",
+    "release.yml",
+    "screenshots.yml",
+    "unit-tests.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-02",
+   "commits_30d": 91,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 7
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 182,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 5 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "91 cambios en 30 días +10",
+    "1 personas empujando +0",
+    "incidencias cerradas 7/7 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "lissy93/web-check",
    "puntos": 55,
    "licencia": "MIT",
@@ -7154,41 +7495,6 @@
     "90 cambios en 30 días +10",
     "40 personas empujando +10",
     "incidencias cerradas 156/159 +10",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "kerneldroid/Nightzuku",
-   "puntos": 55,
-   "licencia": "Apache-2.0",
-   "flujos_ci": [
-    "app.yml",
-    "issue-similarity.yml",
-    "release.yml",
-    "screenshots.yml",
-    "unit-tests.yml"
-   ],
-   "adjuntos": 10,
-   "con_huella": 0,
-   "ultima_entrega": "2026-11-02",
-   "commits_30d": 86,
-   "contribuyentes": 1,
-   "incidencias": {
-    "abiertas": 0,
-    "cerradas": 7
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 182,
-   "archivado": false,
-   "notas": [
-    "licencia legible (Apache-2.0) +15",
-    "integración continua con 5 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "86 cambios en 30 días +10",
-    "1 personas empujando +0",
-    "incidencias cerradas 7/7 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -7432,6 +7738,38 @@
     "33 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 2171/2329 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "yume-chan/VolumeManager",
+   "puntos": 54,
+   "licencia": "GPL-2.0",
+   "flujos_ci": [
+    "build.yml",
+    "release.yml"
+   ],
+   "adjuntos": 3,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-31",
+   "commits_30d": 12,
+   "contribuyentes": 3,
+   "incidencias": {
+    "abiertas": 10,
+    "cerradas": 48
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 605,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-2.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "12 cambios en 30 días +7",
+    "3 personas empujando +4",
+    "incidencias cerradas 48/58 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -7742,6 +8080,37 @@
    ]
   },
   {
+   "repo": "eyalm2000/adns",
+   "puntos": 53,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "release.yml"
+   ],
+   "adjuntos": 20,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 10,
+   "contribuyentes": 3,
+   "incidencias": {
+    "abiertas": 17,
+    "cerradas": 41
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 209,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "10 cambios en 30 días +7",
+    "3 personas empujando +4",
+    "incidencias cerradas 41/58 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "Zackriya-Solutions/meetily",
    "puntos": 53,
    "licencia": "MIT",
@@ -7914,6 +8283,38 @@
    ]
   },
   {
+   "repo": "sky22333/skyadb",
+   "puntos": 52,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "android-checks.yml",
+    "android-ci.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-16",
+   "commits_30d": 5,
+   "contribuyentes": 2,
+   "incidencias": {
+    "abiertas": 4,
+    "cerradas": 27
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 161,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "5 cambios en 30 días +4",
+    "2 personas empujando +4",
+    "incidencias cerradas 27/31 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "gogs/gogs",
    "puntos": 52,
    "licencia": "MIT",
@@ -8048,6 +8449,41 @@
     "23 cambios en 30 días +7",
     "1 personas empujando +0",
     "incidencias cerradas 51/58 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "XiaoTong6666/Sui",
+   "puntos": 51,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build.yml",
+    "ksu-release.yml",
+    "module.yml",
+    "pages.yml",
+    "readme-sync.yml"
+   ],
+   "adjuntos": 2,
+   "con_huella": 0,
+   "ultima_entrega": "2026-02-06",
+   "commits_30d": 16,
+   "contribuyentes": 11,
+   "incidencias": {
+    "abiertas": 3,
+    "cerradas": 26
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 344,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 6 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "16 cambios en 30 días +7",
+    "11 personas empujando +10",
+    "incidencias cerradas 26/29 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -8244,6 +8680,35 @@
     "174 cambios en 30 días +10",
     "25 personas empujando +10",
     "incidencias cerradas 64/64 +10",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "ShiroiKuma0/shiroikuma-shizuku",
+   "puntos": 50,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-11",
+   "commits_30d": 117,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 97,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "117 cambios en 30 días +10",
+    "100 personas empujando +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -8719,6 +9184,40 @@
    ]
   },
   {
+   "repo": "supershadoe/delta",
+   "puntos": 48,
+   "licencia": "BSD-3-Clause",
+   "flujos_ci": [
+    "ci.yml",
+    "daily.yml",
+    "release.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2025-08-24",
+   "commits_30d": 0,
+   "contribuyentes": 11,
+   "incidencias": {
+    "abiertas": 16,
+    "cerradas": 72
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 704,
+   "archivado": false,
+   "notas": [
+    "licencia legible (BSD-3-Clause) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "11 personas empujando +10",
+    "incidencias cerradas 72/88 +8",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "ccch1mneyyy/dsh-Go",
    "puntos": 47,
    "licencia": "AGPL-3.0",
@@ -8750,6 +9249,37 @@
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0",
     "atención anómala: menos de 14 días, más de 5.000 estrellas y sin equipo −15"
+   ]
+  },
+  {
+   "repo": "aistra0528/Hail",
+   "puntos": 47,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "android.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-08-26",
+   "commits_30d": 11,
+   "contribuyentes": 87,
+   "incidencias": {
+    "abiertas": 171,
+    "cerradas": 147
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1909,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "11 cambios en 30 días +7",
+    "87 personas empujando +10",
+    "incidencias cerradas 147/318 +5",
+    "sin Scorecard en deps.dev +0"
    ]
   },
   {
@@ -9230,6 +9760,74 @@
    ]
   },
   {
+   "repo": "roro2239/Stellar",
+   "puntos": 43,
+   "licencia": "MPL-2.0",
+   "flujos_ci": [
+    "manager-ci.yml",
+    "manager-release.yml",
+    "publish.yml",
+    "sync-release-gitee.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-08-22",
+   "commits_30d": 1,
+   "contribuyentes": 9,
+   "incidencias": {
+    "abiertas": 27,
+    "cerradas": 74
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 356,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MPL-2.0) +15",
+    "integración continua con 4 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "1 cambios en 30 días +4",
+    "9 personas empujando +7",
+    "incidencias cerradas 74/101 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "RohitKushvaha01/ReTerminal",
+   "puntos": 43,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "android.yml",
+    "deleteoldrus.yml",
+    "verifyDiff.sh",
+    "verifyDiff.yml"
+   ],
+   "adjuntos": 7,
+   "con_huella": 0,
+   "ultima_entrega": "2025-06-10",
+   "commits_30d": 0,
+   "contribuyentes": 10,
+   "incidencias": {
+    "abiertas": 9,
+    "cerradas": 39
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 689,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 4 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "10 personas empujando +10",
+    "incidencias cerradas 39/48 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "lysine-dev/retrofit",
    "puntos": 42,
    "licencia": "Apache-2.0",
@@ -9295,6 +9893,71 @@
    ]
   },
   {
+   "repo": "arpanjot-coding/AVault",
+   "puntos": 42,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "build-app.yml",
+    "close-missing-info-issues.yml",
+    "codeql.yml"
+   ],
+   "adjuntos": 4,
+   "con_huella": 1,
+   "ultima_entrega": "2026-11-02",
+   "commits_30d": 11,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 3,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 3 flujo(s) +10",
+    "adjunto con huella (AVault-v2.0.1-debug.apk.sha256) +10",
+    "entrega en los últimos 30 días +10",
+    "11 cambios en 30 días +7",
+    "1 personas empujando +0",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "deltazefiro/Amarok-Hider",
+   "puntos": 42,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "build_on_push.yml",
+    "release.yml"
+   ],
+   "adjuntos": 20,
+   "con_huella": 0,
+   "ultima_entrega": "2026-02-25",
+   "commits_30d": 0,
+   "contribuyentes": 16,
+   "incidencias": {
+    "abiertas": 59,
+    "cerradas": 115
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1737,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "16 personas empujando +10",
+    "incidencias cerradas 115/174 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "egoist/waku",
    "puntos": 42,
    "licencia": "GPL-3.0",
@@ -9325,6 +9988,41 @@
     "16 personas empujando +10",
     "incidencias cerradas 31/136 +2",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "kyujin-cho/pixel-volte-patch",
+   "puntos": 42,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "auto-author-assign.yml",
+    "build-aab.yml",
+    "build-apk.yml",
+    "build-debug-apk.yml",
+    "default.yml"
+   ],
+   "adjuntos": 14,
+   "con_huella": 0,
+   "ultima_entrega": "2026-02-07",
+   "commits_30d": 0,
+   "contribuyentes": 32,
+   "incidencias": {
+    "abiertas": 79,
+    "cerradas": 154
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1367,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 5 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "32 personas empujando +10",
+    "incidencias cerradas 154/233 +7",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9458,6 +10156,37 @@
     "422 cambios en 30 días +10",
     "1 personas empujando +0",
     "incidencias cerradas 993/996 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "YasserNull/shappky",
+   "puntos": 40,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "android.yml"
+   ],
+   "adjuntos": 9,
+   "con_huella": 0,
+   "ultima_entrega": "2026-08-25",
+   "commits_30d": 11,
+   "contribuyentes": 2,
+   "incidencias": {
+    "abiertas": 17,
+    "cerradas": 10
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 570,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "11 cambios en 30 días +7",
+    "2 personas empujando +4",
+    "incidencias cerradas 10/27 +4",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -10060,6 +10789,68 @@
    ]
   },
   {
+   "repo": "legendsayantan/ShizuTools",
+   "puntos": 32,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "release.yml"
+   ],
+   "adjuntos": 7,
+   "con_huella": 0,
+   "ultima_entrega": "2024-10-25",
+   "commits_30d": 0,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 31,
+    "cerradas": 65
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1107,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "1 personas empujando +0",
+    "incidencias cerradas 65/96 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "xjunz/AutoSkip",
+   "puntos": 32,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "android.yml"
+   ],
+   "adjuntos": 2,
+   "con_huella": 0,
+   "ultima_entrega": "2021-09-15",
+   "commits_30d": 0,
+   "contribuyentes": 3,
+   "incidencias": {
+    "abiertas": 11,
+    "cerradas": 5
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1962,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "3 personas empujando +4",
+    "incidencias cerradas 5/16 +3",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "zn0wii/satelite-proxy",
    "puntos": 32,
    "licencia": "Apache-2.0",
@@ -10087,6 +10878,35 @@
     "0 cambios en 30 días +0",
     "1 personas empujando +0",
     "incidencias cerradas 85/129 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "zacharee/InstallWithOptions",
+   "puntos": 31,
+   "licencia": "MIT",
+   "flujos_ci": [],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-03-14",
+   "commits_30d": 0,
+   "contribuyentes": 5,
+   "incidencias": {
+    "abiertas": 17,
+    "cerradas": 109
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1024,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "5 personas empujando +7",
+    "incidencias cerradas 109/126 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -10179,6 +10999,35 @@
     "0 cambios en 30 días +0",
     "100 personas empujando +10",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "mirfatif/PermissionManagerX",
+   "puntos": 28,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [],
+   "adjuntos": 18,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-29",
+   "commits_30d": 0,
+   "contribuyentes": 2,
+   "incidencias": {
+    "abiertas": 6,
+    "cerradas": 63
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 2194,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "2 personas empujando +4",
+    "incidencias cerradas 63/69 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -10340,6 +11189,67 @@
     "4 cambios en 30 días +4",
     "1 personas empujando +0",
     "incidencias cerradas 11/58 +2",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "asrtroh-netizen/shizuku",
+   "puntos": 25,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "app.yml"
+   ],
+   "adjuntos": 7,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-06",
+   "commits_30d": 0,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 109,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "niait/Cinnazuku",
+   "puntos": 25,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "app.yml"
+   ],
+   "adjuntos": 1,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-05",
+   "commits_30d": 0,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 2,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 59,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "1 personas empujando +0",
+    "incidencias cerradas 0/2 +0",
     "sin Scorecard en deps.dev +0"
    ]
   },

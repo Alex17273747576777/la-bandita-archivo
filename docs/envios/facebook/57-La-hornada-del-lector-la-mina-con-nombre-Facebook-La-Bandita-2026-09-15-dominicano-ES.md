@@ -103,7 +103,7 @@ Pulso de hoy sobre los 15 repos de la pieza: 15 vivos, 5 activos este mes. Manda
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2501 caracteres ═══
+═══ MENSAJE 4 de 5 · 2502 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 57*
 
@@ -113,7 +113,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 15 repositorios que cita esta pi
 • ZWolken/Light-Novel-Yuedu-Source — ★452 (+4) · *dormido*: sin empujar desde el 22-sep-2025 (407 días) · MIT · última release v24-12-13 (13-dic-2024)
 • ArtifexSoftware/mupdf-android-viewer — ★199 (sin cambio) · empujó el 25-sep-2026 (hace 39 días) · AGPL-3.0
 • nilsbraden/ttrss-reader-fork — ★181 (sin cambio) · *dormido*: sin empujar desde el 7-ago-2026 (88 días) · sin licencia detectada por la API · última release v1.98.1_1981 (30-dic-2025)
-• chmouel/liseur — ★173 (+9) · empujó en las últimas horas · MIT · última release v0.27.0 (2-nov-2026)
+• chmouel/liseur — ★174 (+10) · empujó en las últimas horas · MIT · última release v0.27.0 (2-nov-2026)
 • ArtifexSoftware/mupdf-android-viewer-mini — ★138 (-1) · empujó el 25-sep-2026 (hace 39 días) · AGPL-3.0
 • mshdabiola/NotePad — ★131 (sin cambio) · *dormido*: sin empujar desde el 27-oct-2025 (372 días) · GPL-3.0 · última release 1.3.7 (30-ene-2025)
 • KevinCFechtel/FluxNews — ★112 (+1) · empujó el 19-oct-2026 (hace 15 días) · BSD-3-Clause · última release v2.3.2 (5-sep-2026)

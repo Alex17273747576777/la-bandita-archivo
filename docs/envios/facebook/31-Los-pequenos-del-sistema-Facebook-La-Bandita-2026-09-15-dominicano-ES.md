@@ -99,7 +99,7 @@ La noticia fresca es de **Xitee1/sleep-timer**: release v1.4.0 (2026-10-27). El 
 Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Hamza417/Inure — ★1.984 (+4) · empujó en las últimas horas · GPL-3.0 · última release build107.3.1 (2-nov-2026)
-• axel358/smartdock — ★1.463 (+5) · *dormido*: sin empujar desde el 21-may-2026 (166 días) · GPL-3.0 · última release 1.15.0 (21-may-2026)
+• axel358/smartdock — ★1.464 (+6) · *dormido*: sin empujar desde el 21-may-2026 (166 días) · GPL-3.0 · última release 1.15.0 (21-may-2026)
 • Hamza417/Peristyle — ★744 (+4) · empujó el 23-oct-2026 (hace 11 días) · Apache-2.0 · última release v9.8.4 (23-oct-2026)
 • adil192/no_more_background — ★386 (+2) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.8.2 (1-ago-2026)
 • Akylas/EnforceDoze — ★368 (+2) · *dormido*: sin empujar desde el 26-jul-2026 (100 días) · GPL-3.0 · última release v1.10.2/86 (18-abr-2026)

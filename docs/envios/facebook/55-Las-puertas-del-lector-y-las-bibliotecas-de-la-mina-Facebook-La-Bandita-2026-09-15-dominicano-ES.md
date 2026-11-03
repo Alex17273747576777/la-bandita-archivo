@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/55-Las-puertas-del-lector-y-las-bibliotecas-de-la-mina-Facebook-La-Bandita-2026-09-15-dominicano-ES.md`
 - **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `48f8b1c6bd4f8569a5887a7236ecf9c077eb639c1e61596134def8fdb11e1583`
-- **Envío generado:** 2026-11-03 · 13 mensajes · el mayor de 3905 caracteres
+- **Envío generado:** 2026-11-03 · 13 mensajes · el mayor de 3907 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 13 · 929 caracteres ═══
@@ -311,26 +311,26 @@ Pulso de hoy sobre los 64 repos de la pieza: 64 vivos, 40 activos este mes. Mand
 
 ⏬ sigue abajo · parte 7 de 12
 
-═══ MENSAJE 9 de 13 · 3905 caracteres ═══
+═══ MENSAJE 9 de 13 · 3907 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 55*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 60 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ente/ente — ★29.861 (+119) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.68 (2-nov-2026)
-• T8RIN/ImageToolbox — ★15.316 (+75) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
-• floccusaddon/floccus — ★8.615 (+12) · empujó el 1-nov-2026 (hace 2 días) · MPL-2.0 · última release v5.12.0 (23-oct-2026)
+• ente/ente — ★29.862 (+120) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.68 (2-nov-2026)
+• T8RIN/ImageToolbox — ★15.342 (+101) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
+• floccusaddon/floccus — ★8.614 (+11) · empujó el 1-nov-2026 (hace 2 días) · MPL-2.0 · última release v5.12.0 (23-oct-2026)
 • samuelclay/NewsBlur — ★7.677 (+3) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
-• ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (84 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
+• ReadYouApp/ReadYou — ★7.634 (+10) · *dormido*: sin empujar desde el 11-ago-2026 (84 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
 • deckerst/aves — ★5.484 (+16) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
 • burhanrashid52/PhotoEditor — ★4.532 (+2) · empujó el 27-sep-2026 (hace 37 días) · MIT · última release v.3.1.1 (17-sep-2026)
-• pulsejet/memories — ★3.873 (+5) · empujó en las últimas horas · AGPL-3.0 · última release v11.0.1 (3-nov-2026)
+• pulsejet/memories — ★3.874 (+6) · empujó en las últimas horas · AGPL-3.0 · última release v11.0.1 (3-nov-2026)
 • spacecowboy/Feeder — ★3.107 (+11) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)
-• wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
-• IacobIonut01/ReFra — ★2.978 (+19) · empujó el 27-oct-2026 (hace 7 días) · Apache-2.0 · última release 5.2.2 (4-oct-2026)
-• anonfaded/FadCam — ★2.873 (+8) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v3.0.1 (16-dic-2025)
+• wikimedia/apps-android-wikipedia — ★3.054 (+4) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
+• IacobIonut01/ReFra — ★2.979 (+20) · empujó el 27-oct-2026 (hace 7 días) · Apache-2.0 · última release 5.2.2 (4-oct-2026)
+• anonfaded/FadCam — ★2.872 (+7) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v3.0.1 (16-dic-2025)
 • MMRLApp/MMRL — ★2.227 (+4) · empujó el 25-oct-2026 (hace 9 días) · GPL-3.0 · última release v34296 (8-mar-2026)
-• SimonSchubert/LinuxCommandLibrary — ★2.093 (+7) · empujó en las últimas horas · Apache-2.0 · última release v4.9.1 (14-oct-2026)
+• SimonSchubert/LinuxCommandLibrary — ★2.094 (+8) · empujó en las últimas horas · Apache-2.0 · última release v4.9.1 (14-oct-2026)
 • LinwoodDev/Butterfly — ★2.089 (+7) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.2 (28-oct-2026)
 • plateaukao/einkbro — ★2.053 (+5) · empujó el 30-oct-2026 (hace 4 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
 • null2264/yokai — ★1.915 (+3) · empujó en las últimas horas · Apache-2.0 · última release v1.10.2 (23-sep-2026)
@@ -342,7 +342,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 60 repositorios que cita esta pi
 • leonlatsch/Photok — ★999 (+5) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 3.7.0 (19-oct-2026)
 • IReaderorg/IReader — ★984 (+4) · empujó el 28-oct-2026 (hace 6 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
 • K3vinb5/unyo-app — ★671 (+2) · empujó en las últimas horas · BSD-3-Clause
-• axiel7/AniHyou-android — ★628 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (26-sep-2026)
+• axiel7/AniHyou-android — ★629 (+2) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (26-sep-2026)
 • Radiokot/photoprism-android-client — ★620 (-1) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release 1.47.1(73) (26-sep-2026)
 • Justwen/NGA-CLIENT-VER-OPEN-SOURCE — ★601 (sin cambio) · empujó el 24-oct-2026 (hace 10 días) · GPL-2.0 · última release 5.0.2 (30-ago-2026)
 • opendocument-app/OpenDocument.droid — ★487 (+3) · empujó el 31-oct-2026 (hace 3 días) · MPL-2.0 · última release v4.24.0 (31-oct-2026)
@@ -350,7 +350,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 60 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 8 de 12
 
-═══ MENSAJE 10 de 13 · 3715 caracteres ═══
+═══ MENSAJE 10 de 13 · 3716 caracteres ═══
 
 • Chimahon/chimahon — ★245 (+8) · empujó en las últimas horas · GPL-3.0 · última release v2.4.8 (19-oct-2026)
 • Utazukin/Ichaival — ★220 (sin cambio) · *dormido*: sin empujar desde el 26-ago-2026 (69 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
@@ -358,7 +358,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 60 repositorios que cita esta pi
 • ArtifexSoftware/mupdf-android-viewer — ★199 (sin cambio) · empujó el 25-sep-2026 (hace 39 días) · AGPL-3.0
 • magic-cucumber/Pixiv-MultiPlatform — ★198 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.8.8 (3-nov-2026)
 • nilsbraden/ttrss-reader-fork — ★181 (sin cambio) · *dormido*: sin empujar desde el 7-ago-2026 (88 días) · sin licencia detectada por la API · última release v1.98.1_1981 (30-dic-2025)
-• chmouel/liseur — ★173 (+9) · empujó en las últimas horas · MIT · última release v0.27.0 (2-nov-2026)
+• chmouel/liseur — ★174 (+10) · empujó en las últimas horas · MIT · última release v0.27.0 (2-nov-2026)
 • KamiYomu/KamiYomu — ★150 (sin cambio) · empujó el 20-sep-2026 (hace 44 días) · AGPL-3.0 · última release 1.4.0 (1-sep-2026)
 • VincentEngel/VES-Image-Compare — ★145 (+1) · *dormido*: sin empujar desde el 1-ago-2026 (94 días) · GPL-3.0 · última release fdroid-v2.3.6 (26-may-2026)
 • ArtifexSoftware/mupdf-android-viewer-mini — ★138 (-1) · empujó el 25-sep-2026 (hace 39 días) · AGPL-3.0

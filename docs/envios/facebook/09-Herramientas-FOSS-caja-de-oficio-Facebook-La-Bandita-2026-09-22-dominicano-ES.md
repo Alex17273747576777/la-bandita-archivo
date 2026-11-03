@@ -96,14 +96,14 @@ Hay release de esta semana: **ImranR98/Obtainium** publicó v1.7.3 (2026-10-25).
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• localsend/localsend — ★97.173 (+716) · empujó en las últimas horas · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• termux/termux-app — ★64.018 (+340) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• RikkaApps/Shizuku — ★32.715 (+330) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• ImranR98/Obtainium — ★21.175 (+156) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• organicmaps/organicmaps — ★15.860 (+17) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
-• beemdevelopment/Aegis — ★13.453 (+11) · *dormido*: sin empujar desde el 6-sep-2026 (58 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• MuntashirAkon/AppManager — ★9.425 (+26) · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• Kunzisoft/KeePassDX — ★7.609 (+28) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• localsend/localsend — ★97.190 (+733) · empujó en las últimas horas · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• termux/termux-app — ★64.031 (+353) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• RikkaApps/Shizuku — ★32.722 (+337) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• ImranR98/Obtainium — ★21.181 (+162) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• organicmaps/organicmaps — ★15.862 (+19) · empujó en las últimas horas · NOASSERTION · última release 2026.09.29-32-android (29-sep-2026)
+• beemdevelopment/Aegis — ★13.456 (+14) · *dormido*: sin empujar desde el 6-sep-2026 (58 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• MuntashirAkon/AppManager — ★9.427 (+28) · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• Kunzisoft/KeePassDX — ★7.610 (+29) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
 • TeamAmaze/AmazeFileManager — ★6.450 (sin cambio) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v3.11.4 (15-oct-2026)
 • guardianproject/orbot-android — ★3.675 (+14) · empujó el 26-oct-2026 (hace 8 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
 

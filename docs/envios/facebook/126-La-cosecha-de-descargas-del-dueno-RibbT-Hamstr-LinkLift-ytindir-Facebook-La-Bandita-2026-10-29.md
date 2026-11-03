@@ -67,7 +67,7 @@ Hay release de esta semana: **Mailo037/Hamstr** publicó v0.7.4 (2026-10-29). Co
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RajnishOne/linklift — ★15 (+4) · empujó en las últimas horas · MIT · última release v2.22 (2-nov-2026)
+• RajnishOne/linklift — ★15 (+4) · empujó en las últimas horas · MIT · última release v2.23 (3-nov-2026)
 • RAMiK4/ytindir — ★18 (+7) · empujó en las últimas horas · GPL-3.0 · última release v2.14.0-build65 (28-oct-2026)
 • rcrandon/gimmiedat — ★3 (sin cambio) · empujó el 8-oct-2026 (hace 26 días) · GPL-3.0 · última release v1.0.3 (8-oct-2026)
 • Mailo037/Hamstr — ★2 (+1) · empujó en las últimas horas · GPL-3.0 · última release v0.9.6 (3-nov-2026)
