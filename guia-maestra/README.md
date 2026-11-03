@@ -2,7 +2,7 @@
 
 **Aplicaciones y recursos de código abierto, en español, con el oficio explicado.**
 
-_Estado: 12 capítulos planificados · 16 fichas verificadas · última medición 3 de noviembre de 2026_
+_Estado: 4 capítulos publicados de 12 · 22 fichas verificadas · última medición 3 de noviembre de 2026_
 
 Cada ficha tiene tres capas: **Manos** (los pasos, para quien empieza), **Cabeza** (cómo funciona y
 dónde se rompe) y **Oficio** (un dato que casi nadie sabe y que se puede comprobar). Sin la tercera,
@@ -15,7 +15,7 @@ la aplicación no entra.
 | 1 | Antes de tocar nada | publicado | 5 |
 | 2 | El teléfono que decide por ti | publicado | 5 |
 | 3 | El permiso prestado | publicado | 6 |
-| 4 | Instalar fuera de la tienda | en preparación | 0 |
+| 4 | Instalar fuera de la tienda | publicado | 6 |
 | 5 | Privacidad que se puede comprobar | en preparación | 0 |
 | 6 | Tu música y tus libros, tuyos | en preparación | 0 |
 | 7 | Archivos, copias y nubes propias | en preparación | 0 |
@@ -45,6 +45,12 @@ la aplicación no entra.
 | [aShellYou](https://github.com/DP-Hridayan/aShellYou) | experto | **58** | GPL-3.0 | DP-Hridayan | 3 de noviembre de 2026 |
 | [Dhizuku](https://github.com/iamr0s/Dhizuku) | experto | **65** | GPL-3.0 | iamr0s | 3 de noviembre de 2026 |
 | [OmniShizuku](https://github.com/krishna3163/OmniShizuku) | experto | **67** | Apache-2.0 | krishna3163 | 3 de noviembre de 2026 |
+| [Obtainium](https://github.com/ImranR98/Obtainium) | principiante | **73** | GPL-3.0 | ImranR98 | 3 de noviembre de 2026 |
+| [F-Droid](https://github.com/f-droid/fdroidclient) | principiante | **45** | GPL-3.0 | F-Droid | 3 de noviembre de 2026 |
+| [Accrescent](https://github.com/accrescent/accrescent) | intermedio | **53** | Apache-2.0 | The Accrescent Contributors | 3 de noviembre de 2026 |
+| [Universal Installer](https://github.com/pass-with-high-score/universal-installer) | intermedio | **61** | GPL-3.0 | pass-with-high-score | 3 de noviembre de 2026 |
+| [AppVerifier](https://github.com/soupslurpr/AppVerifier) | intermedio | **32** | ISC | soupslurpr | 3 de noviembre de 2026 |
+| [Aurora Store](https://github.com/AuroraOSS/AuroraStore) | experto | **25** | GPL-3.0 | Aurora OSS | 3 de noviembre de 2026 |
 
 ## Cómo se mide la nota
 

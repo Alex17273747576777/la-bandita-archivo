@@ -156,10 +156,11 @@ def creditos(fs: list[dict]) -> str:
 
 def indices(fs: list[dict]) -> str:
     caps = capitulos()
+    publicados = sum(1 for c in caps if (TEXTO / c["archivo"]).exists())
     hoy = date.today().isoformat()
     l = ["# Guía Maestra de La Bandita", "",
          "**Aplicaciones y recursos de código abierto, en español, con el oficio explicado.**", "",
-         f"_Estado: {len(caps)} capítulos planificados · {len(fs)} fichas verificadas · última medición {bon(hoy)}_", "",
+         f"_Estado: {publicados} capítulos publicados de {len(caps)} · {len(fs)} fichas verificadas · última medición {bon(hoy)}_", "",
          "Cada ficha tiene tres capas: **Manos** (los pasos, para quien empieza), **Cabeza** (cómo funciona y",
          "dónde se rompe) y **Oficio** (un dato que casi nadie sabe y que se puede comprobar). Sin la tercera,",
          "la aplicación no entra.", "",
@@ -223,14 +224,22 @@ a{color:var(--acento)}
 """
 
 
+def enlinea(txt: str) -> str:
+    """Escapa un párrafo y respeta lo que el texto marca: `código` y **negrita**."""
+    t = html.escape(txt.strip())
+    t = re.sub(r"`([^`]+)`", r"<code>\1</code>", t)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    return t
+
+
 def html_ficha(f: dict) -> str:
     s = f["senal"]
     nivel_cls = {"principiante": "n0", "intermedio": "n1", "experto": "n2"}[f["nivel"]]
-    pasos = "\n".join(f"<li>{html.escape(p)}</li>" for p in f["manos"])
-    mal = "\n".join(f"<li>{html.escape(p)}</li>" for p in f["si_sale_mal"])
-    cabeza = "\n".join(f"<p>{html.escape(p)}</p>" for p in f["cabeza"])
-    limite = "\n".join(f"<li>{html.escape(p)}</li>" for p in f["limites"])
-    riesgo = "\n".join(f"<li>{html.escape(p)}</li>" for p in f["riesgos"])
+    pasos = "\n".join(f"<li>{enlinea(p)}</li>" for p in f["manos"])
+    mal = "\n".join(f"<li>{enlinea(p)}</li>" for p in f["si_sale_mal"])
+    cabeza = "\n".join(f"<p>{enlinea(p)}</p>" for p in f["cabeza"])
+    limite = "\n".join(f"<li>{enlinea(p)}</li>" for p in f["limites"])
+    riesgo = "\n".join(f"<li>{enlinea(p)}</li>" for p in f["riesgos"])
     autores = ", ".join(f'<a href="{a["enlace"]}">{html.escape(a["nombre"])}</a>' for a in f["autores"])
     alt = ", ".join(f'<a href="https://github.com/{r}">{html.escape(r)}</a>' for r in f.get("alternativas", []))
     return f"""
@@ -243,21 +252,21 @@ def html_ficha(f: dict) -> str:
     {s['descargas_10']:,} descargas en 10 entregas · {s['contribuyentes']} personas ·
     {s['ci']} flujos de compilación · incidencias {html.escape(s['incidencias'])}.
   </p>
-  <p>{html.escape(f['tarea'])}</p>
-  <p class="meta"><strong>Para quién es:</strong> {html.escape(f['para_quien']['es'])}
-     <br><strong>Para quién no es:</strong> {html.escape(f['para_quien']['no_es'])}</p>
+  <p>{enlinea(f['tarea'])}</p>
+  <p class="meta"><strong>Para quién es:</strong> {enlinea(f['para_quien']['es'])}
+     <br><strong>Para quién no es:</strong> {enlinea(f['para_quien']['no_es'])}</p>
 
   <div class="capa"><h4>Manos · los pasos</h4><ol>{pasos}</ol>
-    <p><strong>Qué debe verse al terminar:</strong> {html.escape(f['resultado_esperado'])}</p>
+    <p><strong>Qué debe verse al terminar:</strong> {enlinea(f['resultado_esperado'])}</p>
     <p><strong>Si sale mal:</strong></p><ul>{mal}</ul>
-    <p><strong>Cómo se deshace:</strong> {html.escape(f['deshacer'])}</p></div>
+    <p><strong>Cómo se deshace:</strong> {enlinea(f['deshacer'])}</p></div>
 
   <div class="capa"><h4>Cabeza · por qué funciona</h4>{cabeza}
     <p><strong>Límites:</strong></p><ul>{limite}</ul></div>
 
   <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
-    <p>{html.escape(f['oficio']['dato'])}</p>
-    <p><strong>Cómo se comprueba:</strong> {html.escape(f['oficio']['como_comprobar'])}</p>
+    <p>{enlinea(f['oficio']['dato'])}</p>
+    <p><strong>Cómo se comprueba:</strong> {enlinea(f['oficio']['como_comprobar'])}</p>
     <pre><code>{html.escape(f['oficio']['comando'])}</code></pre></div>
 
   <div class="capa"><h4>Riesgos y alternativas</h4><ul>{riesgo}</ul>
@@ -277,6 +286,10 @@ def html_indice(fs: list[dict]) -> str:
         f"<tr><td>{c['numero']}</td><td>{html.escape(c['titulo'])}</td>"
         f"<td>{'publicado' if (TEXTO / c['archivo']).exists() else 'pendiente'}</td>"
         f"<td>{len(por_cap.get(c['numero'], []))}</td></tr>" for c in caps)
+    lista_caps = "\n".join(
+        f'<li><a href="capitulo-{c["numero"]:02d}.html"><strong>{c["numero"]} · {html.escape(c["titulo"])}</strong></a>'
+        f' — {html.escape(c.get("tarea", ""))} ({len(por_cap.get(c["numero"], []))} fichas)</li>'
+        for c in caps if (TEXTO / c["archivo"]).exists())
     fichas_html = "\n".join(html_ficha(f) for f in sorted(fs, key=lambda x: x["orden"]))
     return f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -291,9 +304,8 @@ Cada ficha lleva su autor, su licencia y la fecha en que se midió.</p>
 <main class="rejilla"><div class="col-12">
 <h2>Capítulos</h2><table><thead><tr><th>#</th><th>Capítulo</th><th>Estado</th><th>Fichas</th></tr></thead>
 <tbody>{filas}</tbody></table>
-<h2>Capítulo publicado</h2>
-<p><a href="capitulo-03.html"><strong>3 · El permiso prestado</strong></a> — qué es el permiso de depuración,
-cómo se concede, cómo se revoca y seis aplicaciones que lo usan, con sus tres capas.</p>
+<h2>Capítulos publicados</h2>
+<ul>{lista_caps}</ul>
 <h2>Fichas</h2>
 {fichas_html}
 <footer>
@@ -336,14 +348,14 @@ def generar() -> int:
             elif bl.startswith("```"):
                 bloques.append(f"<pre><code>{html.escape(bl.strip('`').strip())}</code></pre>")
             elif bl.startswith("- "):
-                lis = "".join(f"<li>{html.escape(x[2:])}</li>" for x in bl.splitlines() if x.startswith("- "))
+                lis = "".join(f"<li>{enlinea(x[2:])}</li>" for x in bl.splitlines() if x.startswith("- "))
                 bloques.append(f"<ul>{lis}</ul>")
             elif bl.startswith("**") and bl.endswith("**") and "\n" not in bl:
                 bloques.append(f"<h3>{html.escape(bl.strip('*'))}</h3>")
+            elif bl.startswith(">"):
+                bloques.append(f"<blockquote>{enlinea(bl.lstrip('>'))}</blockquote>")
             else:
-                txt = html.escape(bl)
-                txt = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", txt)
-                bloques.append(f"<p>{txt}</p>")
+                bloques.append(f"<p>{enlinea(bl)}</p>")
         pagina = f"capitulo-{c['numero']:02d}.html"
         (SITIO / pagina).write_text(
             f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
@@ -357,40 +369,6 @@ def generar() -> int:
 </div></body></html>""", encoding="utf-8")
         caps_hechos.append(pagina)
     cap = (SITIO / "capitulo-03.html")
-    if False:
-        cuerpo = cap.read_text(encoding="utf-8")
-        fichas_pub = [f for f in fs if f["capitulo"] == 3]
-        fichas_html = "\n".join(html_ficha(f) for f in sorted(fichas_pub, key=lambda x: x["orden"]))
-        bloques = []
-        for b in cuerpo.split("\n\n"):
-            b = b.strip()
-            if not b:
-                continue
-            if b.startswith("### "):
-                bloques.append(f"<h3>{html.escape(b[4:])}</h3>")
-            elif b.startswith("## "):
-                bloques.append(f"<h2>{html.escape(b[3:])}</h2>")
-            elif b.startswith("# "):
-                bloques.append(f"<h1>{html.escape(b[2:])}</h1>")
-            elif b.startswith("```"):
-                bloques.append(f"<pre><code>{html.escape(b.strip('`').strip())}</code></pre>")
-            elif b.startswith("- "):
-                lis = "".join(f"<li>{html.escape(x[2:])}</li>" for x in b.splitlines() if x.startswith("- "))
-                bloques.append(f"<ul>{lis}</ul>")
-            elif b.startswith(">"):
-                bloques.append(f"<blockquote>{html.escape(b.lstrip('> '))}</blockquote>")
-            else:
-                bloques.append(f"<p>{html.escape(b)}</p>")
-        (SITIO / "capitulo-03.html").write_text(
-            f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Capítulo 3 · El permiso prestado · Guía Maestra</title><style>{CSS}</style></head>
-<body><div class="hoja"><p class="meta"><a href="index.html">← Guía Maestra</a> · capítulo 3</p>
-{''.join(bloques)}
-<h2>Las seis fichas del capítulo</h2>
-{fichas_html}
-<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del {bon(date.today().isoformat())}.</p></footer>
-</div></body></html>""", encoding="utf-8")
     print(f"generado: README.md · CREDITOS.md · sitio/index.html · "
           f"{len(caps_hechos)} páginas de capítulo ({', '.join(caps_hechos)}) · {len(fs)} fichas")
     return 0

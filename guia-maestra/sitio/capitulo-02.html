@@ -55,7 +55,7 @@ a{color:var(--acento)}
     <p><strong>Qué debe verse al terminar:</strong> Las aplicaciones de fábrica desaparecen del cajón y del sistema, el teléfono arranca normal y no se pierde ninguna función que uses.</p>
     <p><strong>Si sale mal:</strong></p><ul><li>Si algo deja de funcionar, reinstala con la orden de reversión usando el nombre de paquete que anotaste.</li>
 <li>Si el teléfono no arranca bien, el modo seguro o la recuperación del fabricante es la salida; por eso se prueba en dos aplicaciones y no en veinte.</li></ul>
-    <p><strong>Cómo se deshace:</strong> La aplicación quitada se devuelve con `cmd package install-existing &lt;paquete&gt;`, que la reinstala desde la copia del sistema.</p></div>
+    <p><strong>Cómo se deshace:</strong> La aplicación quitada se devuelve con <code>cmd package install-existing &lt;paquete&gt;</code>, que la reinstala desde la copia del sistema.</p></div>
 
   <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Una aplicación de fábrica vive en una partición que no se puede borrar sin root. Lo que hace Canta es quitarla para tu usuario: deja de existir para ti, deja de ejecutarse, libera sus datos, y el archivo original sigue en el sistema esperando a que lo devuelvas.</p>
 <p>Eso es lo que hace la operación reversible y lo que la distingue de un formateo: el sistema conserva el paquete, y la vuelta atrás es una orden.</p>
@@ -139,7 +139,7 @@ a{color:var(--acento)}
     <p><strong>Qué debe verse al terminar:</strong> El teléfono arranca normal, las aplicaciones elegidas ya no aparecen y la herramienta lista el historial de lo quitado para poder revertirlo.</p>
     <p><strong>Si sale mal:</strong></p><ul><li>Si el aparato deja de responder a la herramienta, desconecta y vuelve a conectar: la sesión de depuración se cae con frecuencia.</li>
 <li>Si algo esencial desaparece, la misma herramienta tiene la opción de restaurar el paquete desde su historial.</li></ul>
-    <p><strong>Cómo se deshace:</strong> Cada paquete quitado se restaura desde la propia herramienta, que guarda el registro de la sesión, o con `cmd package install-existing &lt;paquete&gt;`.</p></div>
+    <p><strong>Cómo se deshace:</strong> Cada paquete quitado se restaura desde la propia herramienta, que guarda el registro de la sesión, o con <code>cmd package install-existing &lt;paquete&gt;</code>.</p></div>
 
   <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Su valor no es la herramienta sino las listas: cientos de paquetes de decenas de fabricantes, cada uno con su descripción y su nivel de riesgo, mantenidas por una comunidad que las prueba en aparatos reales.</p>
 <p>Y su ventaja sobre las aplicaciones de teléfono es la pantalla: en una computadora se ve la lista completa con descripciones, se puede buscar y se puede leer antes de decidir. En el teléfono, la misma decisión se toma a ciegas entre nombres incomprensibles.</p>
@@ -181,7 +181,7 @@ a{color:var(--acento)}
     <p><strong>Qué debe verse al terminar:</strong> Las acciones se ejecutan y el teléfono responde; las de lectura devuelven información que antes no tenías.</p>
     <p><strong>Si sale mal:</strong></p><ul><li>Si una acción falla con error de permiso, la sesión se cayó: vuelve a concederla.</li>
 <li>Si una acción deja el teléfono raro, reinicia antes de hacer otra cosa.</li></ul>
-    <p><strong>Cómo se deshace:</strong> Las acciones de lectura no cambian nada. Las de escritura dependen de cada una: las de limpieza son reversibles, las de desinstalación se revierten con `install-existing`.</p></div>
+    <p><strong>Cómo se deshace:</strong> Las acciones de lectura no cambian nada. Las de escritura dependen de cada una: las de limpieza son reversibles, las de desinstalación se revierten con <code>install-existing</code>.</p></div>
 
   <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Es la versión de bolsillo de un taller: la misma idea que la consola del capítulo 3, pero con las órdenes agrupadas por tarea para no tener que recordarlas.</p>
 <p>Su nota es alta para su tamaño —cincuenta y nueve con dos personas y ciento cincuenta y un días— porque publica: su última entrega es de ayer y su cola está casi vacía.</p>
@@ -190,7 +190,7 @@ a{color:var(--acento)}
 <li>La comodidad de tener órdenes listas invita a ejecutarlas sin leerlas.</li></ul></div>
 
   <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
-    <p>Una de las órdenes más útiles y menos conocidas no desinstala nada: `pm clear` borra todos los datos de una aplicación y la deja como recién instalada, sin quitarla. Es la forma más rápida de arreglar una aplicación que se quedó en un estado imposible —sin perder el paquete, sin reinstalar, sin buscar el archivo— y también la forma más rápida de perder una sesión que no se quiere perder. La regla: se usa cuando la aplicación ya no funciona, nunca para &#x27;limpiar&#x27; por gusto.</p>
+    <p>Una de las órdenes más útiles y menos conocidas no desinstala nada: <code>pm clear</code> borra todos los datos de una aplicación y la deja como recién instalada, sin quitarla. Es la forma más rápida de arreglar una aplicación que se quedó en un estado imposible —sin perder el paquete, sin reinstalar, sin buscar el archivo— y también la forma más rápida de perder una sesión que no se quiere perder. La regla: se usa cuando la aplicación ya no funciona, nunca para &#x27;limpiar&#x27; por gusto.</p>
     <p><strong>Cómo se comprueba:</strong> Antes de ejecutarla, comprueba que la aplicación no tiene datos que no puedas recuperar: si tiene una sesión abierta o archivos dentro, esos se van con la orden. Después, el sistema informa de cuántos datos se borraron.</p>
     <pre><code>adb shell pm clear &lt;paquete&gt;</code></pre></div>
 

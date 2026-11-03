@@ -1,0 +1,312 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capítulo 4 · Instalar fuera de la tienda · Guía Maestra</title><style>
+:root{--papel:#f5f7fa;--tinta:#1f2933;--suave:#5b6673;--linea:#e0e5ec;--acento:#2b6cb0;--alerta:#8a2b2b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.68 Georgia,'Times New Roman',serif}
+.hoja{max-width:1080px;margin:0 auto;padding:34px 22px 70px}
+.rejilla{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}
+header{border-bottom:3px double var(--linea);padding-bottom:16px;margin-bottom:26px}
+h1{font-size:2.15rem;line-height:1.18;margin:.2em 0 .3em;letter-spacing:-.01em}
+h2{font-size:1.42rem;margin:2.1em 0 .5em;border-left:5px solid var(--acento);padding-left:12px}
+h3{font-size:1.12rem;margin:1.7em 0 .35em}
+p{margin:.65em 0}
+.ficha{background:#fff;border:1px solid var(--linea);border-radius:10px;padding:20px 22px;margin:22px 0;box-shadow:0 1px 0 #fff inset}
+.sello{display:inline-block;background:var(--tinta);color:#fff;border-radius:999px;padding:2px 11px;font:600 12px/1.9 system-ui,sans-serif;letter-spacing:.03em}
+.n0{background:#2f6b4f}.n1{background:#8a6d1f}.n2{background:#8a2b2b}
+.meta{color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+.capa{border-top:1px dashed var(--linea);margin-top:16px;padding-top:12px}
+.capa h4{margin:.2em 0 .4em;font:700 13px/1.4 system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--acento)}
+ol,ul{padding-left:22px}li{margin:.35em 0}
+code,pre{font-family:'DejaVu Sans Mono',ui-monospace,monospace;font-size:.9em}
+code{background:#eef1f5;padding:1px 5px;border-radius:4px}
+pre{background:#1f2933;color:#f5f7fa;padding:12px 14px;border-radius:8px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font:14px/1.5 system-ui,sans-serif;margin:12px 0}
+th,td{border-bottom:1px solid var(--linea);padding:7px 8px;text-align:left;vertical-align:top}
+th{background:#eef1f5}
+.aviso{background:#fff;border-left:5px solid var(--alerta);padding:12px 16px;margin:16px 0}
+footer{margin-top:44px;border-top:3px double var(--linea);padding-top:14px;color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+a{color:var(--acento)}
+@media(max-width:760px){.col-8,.col-4{grid-column:span 12}}
+</style></head>
+<body><div class="hoja"><p class="meta"><a href="index.html">← Guía Maestra</a> · capítulo 4</p>
+<h1>Capítulo 4 · Instalar fuera de la tienda</h1><h2>Qué vas a poder hacer al terminar</h2><p>Bajar una aplicación desde la página de su autor, comprobar en un minuto que el archivo es el que dice ser y dejarla instalada y actualizable sin depender de ninguna tienda. Sabrás leer una huella, distinguir un paquete de un montón de paquetes partidos, y entender por qué el teléfono a veces se niega a actualizar algo que debería actualizarse.</p><p>Y algo que casi nadie tiene claro aunque lleve años haciéndolo: por qué la misma aplicación, con el mismo nombre y el mismo icono, viene firmada con dos llaves distintas según de dónde salga. Eso explica los errores que la gente sufre sin saber por qué, y al final del capítulo lo vas a poder demostrar en tu propio teléfono.</p><h2>La regla que ordena el capítulo: la firma manda</h2><p>Un paquete de Android lleva dentro una firma criptográfica, puesta por quien lo compiló. Android no te pregunta si confías en esa persona: compara la firma del paquete nuevo con la del que ya está instalado. Si coinciden, la actualización entra y conserva tus datos. Si no coinciden, la rechaza —aunque el nombre sea el mismo, aunque la versión sea más nueva, aunque el icono sea idéntico.</p><p>Todo lo demás de este capítulo es alrededor de esa regla. Una huella te dice de quién es la firma. Los paquetes partidos son una forma de empaquetar. Las tiendas son formas de repartir. Y los errores que la gente ve en la pantalla son, casi siempre, la misma frase dicha de cinco maneras: *esta firma no es la que yo tengo*.</p><h2>La ruta de decisión, en tres preguntas</h2><p><strong>Si querés actualizar aplicaciones que ya tenés, sin tiendas</strong> → <strong>Obtainium</strong>. Es la pieza central del capítulo: apuntás a la página del proyecto y él vigila las entregas nuevas. Una vez configurado, el trabajo es ninguno.</p><p><strong>Si querés una tienda entera, con catálogo y curaduría</strong> → <strong>F-Droid</strong> si querés el catálogo grande y libre; <strong>Accrescent</strong> si querés un catálogo pequeño, revisado y con reglas modernas de firma. Los dos son tiendas, no repositorios sueltos, y esa diferencia importa: una tienda firma su índice, y eso te permite comprobar que el catálogo que ves es el que ellos publicaron.</p><p><strong>Si te bajaste un archivo y el teléfono no lo instala, o querés verificar un APK que te pasaron</strong> → <strong>Universal Installer</strong> para los paquetes partidos y <strong>AppVerifier</strong> para la huella. Y si querés la versión de una aplicación que la tienda no tiene, <strong>Aurora Store</strong>, con las advertencias que trae su ficha.</p><h2>Qué es un paquete, de verdad</h2><p>Un APK es un archivo comprimido con reglas: manifiesto, código, recursos, firma. Nada más. Si le cambiás un byte, la firma deja de cuadrar y el teléfono lo rechaza. Por eso «modificar el APK para quitarle los anuncios» es un trabajo de recompilar y volver a firmar, no de editar.</p><p>La complicación moderna es que una aplicación ya no es un archivo. Desde Android 5, un paquete puede venir <strong>partido</strong>: un APK base y varios pedazos que sólo sirven para tu teléfono —el del procesador, el de la densidad de pantalla, el del idioma—. El teléfono instala el base más los pedazos que le corresponden. Esos conjuntos circulan con extensiones distintas según quién los empaquete: <code>.apks</code>, <code>.apkm</code>, <code>.xapk</code>. Son lo mismo por dentro: un comprimido con varios APK y un archivo de metadatos que dice cuál es el base.</p><p>Si te bajás un <code>.apks</code> y lo abrís como si fuera un APK, no vas a poder. Y si te bajás el APK base suelto de una aplicación que sólo publica paquetes partidos, puede instalarse y luego caerse al abrir, porque le faltan los pedazos.</p><p>La forma de saber qué estás mirando, ya instalado, es preguntarle al sistema:</p><pre><code>adb shell pm path com.ejemplo.app</code></pre><p>Un teléfono con paquetes partidos devuelve varias líneas: <code>base.apk</code> y dos o tres <code>split_config.*</code>. Uno con paquete sencillo devuelve una sola. Esa lista es la diferencia entre «la aplicación está instalada» y «la aplicación está completa».</p><h2>La huella, en un minuto</h2><p>Hay dos huellas que se confunden todo el tiempo y no son lo mismo.</p><p><strong>La huella del archivo</strong> es un resumen del contenido: si cambia un byte, cambia la huella. Sirve para saber que la descarga llegó completa y que nadie la tocó en el camino. Los proyectos serios la publican al lado del archivo. Obtainium, en su entrega del 1 de noviembre de 2026, publica treinta y dos adjuntos: por cada sabor y cada arquitectura, la APK, su <code>.idsig</code>, la suma <code>.sha256</code> y la firma de esa suma, <code>.sha256.sig</code>. Cuatro piezas por archivo, sin excepción.</p><p><strong>La huella de la llave</strong> es distinta: no describe el archivo, describe al firmante. Dos versiones distintas de la misma aplicación tienen huellas de archivo distintas y huella de llave idéntica. Esa es la que Android compara para decidir si una actualización entra.</p><p>Con <code>apksigner</code> —viene con las herramientas de Android y también corre en el teléfono con Termux— se ven las dos cosas en una orden:</p><pre><code>apksigner verify --print-certs aplicacion.apk</code></pre><p>Ahí aparece el <code>SHA-256 digest</code> del certificado. Compare ese número con el que el proyecto publica en su repositorio: si coincide, el archivo lo firmó quien dice. Y si el proyecto publica el archivo de huella, compruebe primero el archivo:</p><pre><code>sha256sum aplicacion.apk</code></pre><p>Dos comprobaciones distintas para dos preguntas distintas: <code>sha256sum</code> te dice que el archivo es el que se publicó; <code>apksigner</code> te dice quién lo firmó. Y hay una tercera pieza que casi nadie usa: el archivo <code>.asc</code>, una firma separada hecha con GPG, que se verifica con <code>gpg --verify aplicacion.apk.asc aplicacion.apk</code>. F-Droid publica el APK con su firma separada <code>.asc</code>, que es lo que permite verificar el archivo sin instalarlo; el <code>.idsig</code> aparece en su entrega vieja del espejo, la de enero de 2024, no en las actuales.</p><p>Ese <code>.idsig</code> merece una línea, porque es el dato que separa al curioso del experto. Es la firma de cuarta generación de Android y sirve para instalar por partes, sin reescribir el paquete completo; el teléfono la usa cuando actualiza en segundo plano. Que un proyecto la publique significa que compila con herramientas actuales y que piensa en actualizaciones incrementales, no en descargas manuales.</p><h2>La casa y el espejo</h2><p>Acá va la lección de método más caras de este capítulo, y la medí para poder contarla con números.</p><p>Casi todo proyecto libre tiene dos direcciones: la casa, donde de verdad se trabaja, y uno o varios espejos, donde el código se copia para que otros lo vean. Confundirlas produce un error de medición que se repite en los catálogos de aplicaciones que circulan por ahí: <strong>recomiendan una versión que tiene dos años</strong>.</p><p>El cliente de F-Droid lo muestra desnudo. En su espejo de GitHub, la última entrega publicada es la 1.18.0, del 24 de enero de 2024, y tiene 3.255 estrellas. En su casa de GitLab, la etiqueta más reciente es la 2.0.3, del 29 de octubre de 2026, y hay 2.688 estrellas y actividad de hoy mismo. Quien se guíe por el espejo se queda dos versiones mayores atrás y, peor, cree que el proyecto está parado.</p><p>Aurora Store es el caso al revés y todavía más claro. Su espejo de GitHub nació el 11 de enero de 2026 y lleva 74 estrellas y ninguna entrega publicada. Su casa, en GitLab, tiene 2.284 estrellas y va por la 4.8.4, del 27 de julio de 2026. Un catálogo que mida el espejo va a decir que Aurora Store es un proyecto de 74 estrellas sin entregas. El número no está mintiendo: está midiendo otra cosa.</p><p>De ahí sale una regla que sirve para todo lo que venga después en esta guía, y también para cuando la guía no esté: <strong>antes de creer una cifra, mirá dónde se midió</strong>. Las fichas de este capítulo declaran en cada caso cuál es la casa y cuál el espejo, y qué número salió de cada uno.</p><h2>Actualizar sin perder datos: la regla de la misma llave</h2><p>Como Android exige la misma llave para actualizar, hay consecuencias prácticas que la gente descubre cuando ya perdió los datos.</p><p><strong>Cambiar de canal puede costar todo.</strong> Si instalaste una aplicación desde una tienda que recompila y refirma —F-Droid lo hace— y después querés la versión del autor desde GitHub, el teléfono te va a decir que la actualización es incompatible. La salida es desinstalar, y desinstalar borra los datos. Antes de cambiar de canal: exportá lo que valga la pena.</p><p><strong>La tienda de Google refirma.</strong> En las aplicaciones acogidas a la firma de Google, el paquete que baja de Play lleva la llave de Google, no la del autor. Por eso una aplicación instalada desde Play no se puede actualizar con el APK del repositorio, aunque sea el mismo código, la misma versión y el mismo nombre. Es la comprobación que podés hacer con dos archivos y <code>apksigner</code>: huellas de llave distintas, huella de archivo distinta, nombre de paquete idéntico.</p><p><strong>Y cuando un proyecto cambia de llave, avisa o rompe.</strong> Si el autor perdió su llave y firmó de nuevo, todas las actualizaciones se van a negar hasta que desinstales. No es un ataque: es la protección funcionando.</p><h2>Los cinco errores de instalación, traducidos</h2><p>El teléfono no explica lo que pasa, pero los mensajes son pocos y siempre los mismos.</p><ul><li><strong>«No se pudo instalar»</strong> o <code>INSTALL_FAILED_UPDATE_INCOMPATIBLE</code> — la firma no coincide con la que ya está instalada. Salida: desinstalar (perdés datos) o conseguir el paquete firmado con la misma llave.</li><li><code>INSTALL_FAILED_VERSION_DOWNGRADE</code> — estás intentando poner una versión anterior sobre una más nueva. Salida: desinstalar primero, o <code>adb install -r -d</code> si tenés consola y sabés lo que hacés.</li><li><code>INSTALL_FAILED_INVALID_APK</code> con mención de splits — bajaste un pedazo suelto de un paquete partido. Salida: el conjunto completo, base incluido.</li><li><code>INSTALL_FAILED_DEPRECATED_SDK_VERSION</code> — desde Android 14, el sistema no instala aplicaciones dirigidas a versiones muy antiguas de Android. No hay truco: ese paquete no está mantenido.</li><li><strong>«Play Protect no reconoce esta aplicación»</strong> — no es un error de instalación, es un aviso. Un APK que no pasó por Play no tiene historial de instalaciones; vos sos el primero. Se puede continuar, y conviene hacerlo sólo si comprobaste la firma.</li></ul><h2>Cuatro cosas que se dicen y no son verdad</h2><p><strong>«Instalar fuera de la tienda es ilegal».</strong> No lo es en casi ningún país; lo que puede violar un contrato es la licencia de una aplicación concreta o los términos de un servicio. Esta guía sólo enlaza proyectos cuyo código y licencia permiten redistribuir. Lo que sí es un delito en muchos sitios es usar software para acceder a contenido de pago sin pagarlo, y eso no tiene nada que ver con instalar un APK libre.</p><p><strong>«F-Droid es la opción más segura porque es F-Droid».</strong> F-Droid firma su catálogo y publica firmas separadas en sus entregas —es de los pocos que publica el <code>.asc</code>—, y eso es serio. Pero sus paquetes los compila y firma F-Droid, no el autor, así que estás confiando en dos partes a la vez. Eso no es malo: es distinto, y hay que saberlo antes de elegir el canal.</p><p><strong>«Más estrellas, más seguro».</strong> Aurora Store tiene 2.284 estrellas en su casa y 74 en el espejo. Canta, que está en el capítulo 2, tiene 6.446 y saca 71 puntos de 100; Obtainium tiene 21.181 y saca 73. La nota mide cómo se publica —con huellas, con compilación automática, con entregas fechadas, con cola de incidencias atendida—, no cuánta gente lo bajó.</p><p><strong>«Si la tienda lo tiene, ya está verificado».</strong> La verificación de la que hablan las tiendas suele ser del índice: que el catálogo no fue alterado en el camino. Que el paquete que te llega sea el que el autor compiló es otra pregunta, y casi nadie la responde. La única manera de responderla con tus manos es comparar firmas.</p><h2>Antes de irte: la prueba de las dos personas</h2><p>Dale este capítulo a alguien que nunca instaló nada fuera de la tienda: si consigue instalar Obtainium desde su repositorio y comprobar la huella del archivo en menos de veinte minutos sin ayuda, el capítulo sirve.</p><p>Y dalo a alguien que lleva años haciéndolo: si no encuentra al menos un dato que no supiera —que la misma aplicación viene firmada por llaves distintas según la tienda, que el espejo de F-Droid está dos años atrás, que un paquete partido se comprueba con <code>pm path</code>, que el <code>.idsig</code> es la firma de cuarta generación—, el capítulo no sirve y hay que reescribirlo.</p><h2>Las seis fichas</h2><p>Las que siguen están ordenadas por dificultad, no por fama. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando para comprobarlo. Todas se midieron abriendo sus entregas una por una el 3 de noviembre de 2026, y en las dos que viven en GitLab se midió la casa, no el espejo.</p>
+<h2>Las 6 fichas del capítulo</h2>
+
+<article class="ficha">
+  <h3>Obtainium <span class="meta">· ImranR98/Obtainium</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>73/100</strong> ·
+    ★21,181 · 1545 días · última entrega 2026-11-01 ·
+    1,553,765 descargas en 10 entregas · 100 personas ·
+    3 flujos de compilación · incidencias 372 abiertas.
+  </p>
+  <p>Instalar y mantener al día las aplicaciones que se publican en su propio repositorio, sin pasar por ninguna tienda y sin volver a buscar el enlace cada mes.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien ya sabe qué aplicación quiere y está cansado de perseguir el enlace de la última entrega a mano.
+     <br><strong>Para quién no es:</strong> para quien busca descubrir aplicaciones nuevas: Obtainium no tiene catálogo ni recomendaciones, sólo vigila lo que le señalas.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Baja la APK de la última entrega desde la página de entregas del repositorio y comprueba que la huella del archivo coincide con el <code>.sha256</code> que el proyecto publica al lado.</li>
+<li>Instálala aceptando el aviso de Play Protect: es normal en un paquete que no pasó por una tienda.</li>
+<li>Añade la primera aplicación pegando la dirección de su repositorio; Obtainium lee las entregas y te muestra la versión que encontró antes de instalar nada.</li>
+<li>Revisa en los ajustes de esa aplicación la expresión regular de la versión y el filtro de archivos: ahí decides qué adjunto se considera la aplicación y cuál es documentación o código fuente.</li>
+<li>Activa la comprobación periódica en segundo plano y limita las actualizaciones automáticas a las aplicaciones que quieras; en el resto, deja que te avise y decides tú.</li>
+<li>Exporta la lista de aplicaciones a un archivo y guárdalo fuera del teléfono, con la fecha: reinstalar el teléfono se vuelve cuestión de minutos.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tus aplicaciones se actualizan solas desde su origen, sin tienda de por medio, y tienes una lista exportada que reconstruye toda la configuración si cambias de teléfono.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la actualización falla con un error de firma, el paquete nuevo no lo firmó la misma llave que el instalado: reinstalar implica borrar los datos, así que exporta antes.</li>
+<li>Si Obtainium no encuentra la versión correcta de un proyecto, casi siempre es el filtro de archivos o la expresión regular: apúntalo a un adjunto concreto en lugar de dejarlo automático.</li>
+<li>Si una aplicación se actualiza sola y se rompe, desactiva la actualización automática de esa entrada y quédate en la versión anterior hasta que el proyecto publique un arreglo.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desinstalar Obtainium no toca las aplicaciones que instaló: siguen funcionando y se actualizan a mano. Para revertir una aplicación concreta a su versión anterior hay que desinstalarla primero, porque Android no acepta bajar de versión conservando los datos.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Obtainium no es un repositorio ni una tienda: es un lector. Entra a la página del proyecto, busca las entregas, se queda con el archivo que le indicaste y comprueba por su cuenta el número de versión leyendo el interior del APK. Eso último es lo que lo distingue de un lector de titulares: un proyecto puede titular una entrega «versión estable» y llevar dentro un <code>versionCode</code> más bajo; Obtainium lee el paquete, no el título.</p>
+<p>Esa misma forma de trabajar marca su límite: instala lo que el proyecto publique, sin verificar quién lo compiló. Si la cuenta de GitHub de un autor se ve comprometida y se publica una entrega falsa, Obtainium la va a ofrecer como una actualización legítima. La defensa no está en la aplicación, está en la huella de la llave, y esa comprobación se hace aparte, con AppVerifier o con <code>apksigner</code>.</p>
+<p>Su valor real aparece con el tiempo: veintiuna mil ciento ochenta y una estrellas y un millón quinientas cincuenta y tres mil setecientas sesenta y cinco descargas en sus diez últimas entregas no dicen nada sobre su calidad, pero sí sobre cuánta gente depende de él para no volver a una tienda. En la entrega del 1 de noviembre de 2026 publica treinta y dos adjuntos: por cada sabor y arquitectura, la APK, su <code>.idsig</code>, la suma <code>.sha256</code> y la firma <code>.sha256.sig</code> de esa suma. Cuatro piezas por archivo, que permiten comprobar la descarga y al firmante antes de instalar nada.</p>
+    <p><strong>Límites:</strong></p><ul><li>No verifica firmas: instala lo que la página del proyecto publique, así que una cuenta comprometida se traduce en una actualización falsa ofrecida como normal.</li>
+<li>No tiene catálogo: no sirve para descubrir software, sólo para vigilar lo que ya conoces.</li>
+<li>Depende de la forma de cada página: cuando un proyecto cambia cómo publica, hay que reajustar el filtro de archivos de esa entrada.</li>
+<li>Las actualizaciones automáticas en segundo plano dependen de que el sistema deje instalar sin confirmación; en varios teléfonos hay que darle permiso explícito una vez.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Cada aplicación instalada guarda en su expediente el nombre de quien la instaló. Android lo llama <code>installerPackageName</code> y no se puede falsificar desde una aplicación normal: el instalador de Google, el instalador del sistema, o la aplicación que abrió la sesión de instalación. En la práctica, eso significa que el teléfono recuerda de dónde vino cada cosa, y que se puede auditar. Una aplicación que dice haber llegado de un sitio y figura instalada desde otro es una pregunta que exige respuesta. Y sirve para lo contrario también: si instalaste algo con Obtainium, el expediente lo delata, y si un día encontrás un instalador distinto es que algo la actualizó por fuera.</p>
+    <p><strong>Cómo se comprueba:</strong> Elegí cualquier aplicación instalada y pedile al sistema su expediente. En la línea del instalador vas a ver el paquete que la puso ahí; si está vacía, se instaló por consola con <code>pm install</code>. Comparalo con lo que recordás haber hecho.</p>
+    <pre><code>adb shell dumpsys package com.ejemplo.app | grep -iE &quot;installerPackageName|versionName|lastUpdateTime&quot;</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Confiar en la entrega de un proyecto cuya cuenta no se comprueba: Obtainium no distingue una publicación legítima de una publicada con la cuenta robada.</li>
+<li>Instalar la versión de un proyecto desde su repositorio cuando ya tenías la de una tienda que recompila: la firma no coincide y sólo se resuelve desinstalando.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/f-droid/fdroidclient">f-droid/fdroidclient</a>, <a href="https://github.com/accrescent/accrescent">accrescent/accrescent</a>, <a href="https://github.com/rumboalla/apkupdater">rumboalla/apkupdater</a></p></div>
+
+  <p class="meta">Programa de ImranR98 · GPL-3.0 · medido el 3 de noviembre de 2026 en su repositorio, no en un espejo · licencia GPL-3.0
+     (<a href="https://github.com/ImranR98/Obtainium/blob/main/LICENSE.txt">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>F-Droid <span class="meta">· f-droid/fdroidclient</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>45/100</strong> ·
+    ★3,255 · 4486 días · última entrega 2024-01-24 ·
+    73,228 descargas en 10 entregas · 100 personas ·
+    0 flujos de compilación · incidencias 1 abierta en el espejo; el trabajo se ve en GitLab.
+  </p>
+  <p>Tener una tienda entera de software libre en el teléfono, con catálogo, avisos de actualización y un índice firmado que se puede comprobar.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiere una tienda completa de aplicaciones libres, con un catálogo que alguien revisa y con avisos de cuándo una aplicación deja de ser libre.
+     <br><strong>Para quién no es:</strong> para quien busca la última versión el mismo día que sale: F-Droid compila y revisa antes de publicar, y eso tarda semanas o meses.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Bajá la APK del cliente desde la entrega de su casa en GitLab, no del espejo de GitHub: en el espejo la última entrega es de enero de 2024.</li>
+<li>Comprobá el archivo con su firma separada antes de instalar: el proyecto publica el APK junto a su <code>.asc</code>, y esa firma se verifica con <code>gpg --verify</code>.</li>
+<li>Al abrir la aplicación por primera vez, dejá que actualice el índice y revisá en los ajustes qué repositorios tenés activos; el catálogo principal viene solo.</li>
+<li>Instalá una aplicación pequeña y mirá la ficha: la tienda te dice qué permisos declara y si la aplicación tiene rastreadores conocidos.</li>
+<li>Activá las actualizaciones automáticas y revisá cada tanto la lista de aplicaciones que quedaron sin actualizar: ahí aparecen los proyectos que dejaron de publicar.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés una tienda funcionando con catálogo propio, actualizaciones avisadas y la posibilidad de comprobar que el índice que ves es el que F-Droid firmó.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el cliente no actualiza el índice, revisá la fecha del teléfono: con la hora corrida, la firma del índice no valida y la descarga se niega.</li>
+<li>Si una aplicación de otra tienda no se puede instalar encima de la de F-Droid, el motivo es la firma: F-Droid recompila y refirma con su llave.</li>
+<li>Si querés la versión del autor en lugar de la de F-Droid, desinstalá primero y exportá los datos: no hay actualización posible entre las dos.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desinstalar el cliente de F-Droid no desinstala nada de lo que instaló: las aplicaciones siguen funcionando y dejan de recibir avisos. Volver a la versión del autor de una aplicación concreta exige desinstalarla, porque la llave de F-Droid no es la del autor.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>F-Droid no es un espejo de repositorios: es una fábrica. Toma el código publicado, lo compila en sus servidores, lo firma con su propia llave y publica el resultado. Eso le permite revisar qué contiene el paquete y avisar cuando una aplicación incorpora una biblioteca de seguimiento, algo que ninguna tienda que sólo redistribuye puede afirmar. Y le cuesta tiempo: la versión que te llega suele ser la de hace semanas o meses, no la de ayer.</p>
+<p>La consecuencia práctica es la que más consultas genera y la que casi nadie explica: el paquete de F-Droid y el paquete del autor son la misma aplicación firmada por personas distintas. Android los trata como enemigos. No hay manera de pasar de uno a otro conservando los datos, y tampoco es un fallo de la tienda: es el diseño de la firma funcionando como debe.</p>
+<p>Su índice está firmado, y ese es su argumento serio: si alguien intercepta la descarga del catálogo y lo altera, la firma no valida y la tienda se niega. Es una defensa real, distinta de la que ofrece la firma de cada paquete.</p>
+    <p><strong>Límites:</strong></p><ul><li>Recompila y refirma: la llave del paquete es de F-Droid, no del autor, así que no se puede cambiar de canal sin desinstalar.</li>
+<li>Publica con retraso respecto del proyecto: si necesitás una corrección de seguridad del día anterior, esta tienda no te la va a dar todavía.</li>
+<li>En su espejo de GitHub la última entrega es la 1.18.0, de enero de 2024, mientras la casa va por la 2.0.3, de octubre de 2026: la dirección que uses decide qué versión te llevás.</li>
+<li>Su catálogo excluye lo que no puede compilar desde el código, aunque el proyecto sea libre.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El mismo proyecto da dos respuestas distintas según a qué API le preguntes, y esa distancia es el error de medición más común en los catálogos de aplicaciones que circulan por los grupos. En el espejo de GitHub, la última entrega del cliente de F-Droid es la 1.18.0, publicada el 24 de enero de 2024, con setenta y tres mil doscientas veintiocho descargas acumuladas en su única entrega listada. En la casa de GitLab, la etiqueta más reciente es la 2.0.3, del 29 de octubre de 2026, con actividad el mismo día de la medición. Dos años y nueve meses de diferencia en el mismo programa. Y no es un caso raro: Aurora Store tiene el mismo patrón al revés. Antes de recomendar una versión, mirá qué dirección estás leyendo.</p>
+    <p><strong>Cómo se comprueba:</strong> Preguntale a las dos direcciones por lo más reciente y compará. La primera orden consulta el espejo; la segunda, la casa. La diferencia de fechas es la lección completa.</p>
+    <pre><code>curl -s &quot;https://api.github.com/repos/f-droid/fdroidclient/releases?per_page=1&quot; | grep tag_name
+curl -s &quot;https://gitlab.com/api/v4/projects/fdroid%2Ffdroidclient/repository/tags?per_page=1&quot; | grep -m1 name</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Bajar el cliente del espejo equivocado y quedarse con una versión de hace casi tres años.</li>
+<li>Instalar la versión de F-Droid de una aplicación que ya tenías del autor y descubrir, al intentar actualizarla, que hay que borrar los datos.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/accrescent/accrescent">accrescent/accrescent</a>, <a href="https://github.com/ImranR98/Obtainium">ImranR98/Obtainium</a></p></div>
+
+  <p class="meta">Programa de F-Droid y su comunidad · GPL-3.0 · medido el 3 de noviembre de 2026 en el espejo de GitHub y en la casa de GitLab · licencia GPL-3.0
+     (<a href="https://github.com/f-droid/fdroidclient/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Accrescent <span class="meta">· accrescent/accrescent</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>53/100</strong> ·
+    ★2,305 · 1784 días · última entrega 2025-11-10 ·
+    56,716 descargas en 10 entregas · 100 personas ·
+    2 flujos de compilación · incidencias 44 abiertas.
+  </p>
+  <p>Tener una tienda pequeña, revisada y con reglas modernas de firma, donde cada aplicación está atada a la llave con la que se publicó la primera vez.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien prefiere un catálogo corto y exigente a uno enorme, y quiere que el teléfono actualice solo sin pedirle permiso cada vez.
+     <br><strong>Para quién no es:</strong> para quien necesita encontrar cualquier aplicación libre: su catálogo es pequeño y está en alfa desde 2021.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Bajá la APK de la última entrega y verificá su certificado con <code>apksigner</code>: el número debe coincidir con el que el proyecto publica en su repositorio.</li>
+<li>Instalá y abrí la aplicación; el catálogo se descarga firmado y la propia tienda comprueba la firma antes de mostrarlo.</li>
+<li>Instalá una aplicación desde ahí y comprobá en sus detalles que la huella de la llave que muestra coincide con la que publica el autor del programa.</li>
+<li>En Android 12 o superior, activá las actualizaciones sin intervención: esta tienda usa el mecanismo del sistema que no pide confirmación por cada instalación.</li>
+<li>Cada tanto volvé a la página del proyecto y compará la fecha de la última entrega con la que tenés instalada: el código se mueve más rápido que las versiones publicadas.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés un catálogo corto, con llaves fijadas por aplicación y actualizaciones silenciosas, y sabés que cada paquete está atado al firmante con el que entró la primera vez.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si una aplicación no aparece en el catálogo, no es un fallo: la tienda sólo aloja lo que revisó y aceptó.</li>
+<li>Si el teléfono es Android 9 o inferior, esta tienda no corre: pide Android 10 como mínimo y las actualizaciones silenciosas, Android 12.</li>
+<li>Si una aplicación se actualiza y cambia de firmante, la tienda la rechaza aunque Android la aceptara: eso es la fijación de llave haciendo su trabajo.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desinstalar la tienda deja las aplicaciones instaladas intactas. Volver a una versión anterior de cualquiera de ellas exige desinstalar y reinstalar el paquete con la misma llave, porque Android no permite retroceder conservando los datos.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Accrescent hace tres cosas que casi ninguna tienda libre hace juntas. Fija la llave de cada aplicación: la primera vez que instala algo guarda la huella de su certificado, y a partir de ahí rechaza cualquier actualización firmada con otra, incluso si el sistema la aceptaría. Firma sus metadatos: el catálogo viaja firmado y la tienda se niega a mostrarlo si la firma no cuadra. Y actualiza sin intervención en Android 12 o superior, con el mecanismo del sistema, sin pedir confirmación instalación por instalación.</p>
+<p>La primera de las tres es la que más cambia el panorama. La fijación de llave cierra el ataque más viejo del ecosistema: un autor cuya llave se filtra, uno nuevo que compra el proyecto y refirma, o una entrega falsa publicada con la cuenta robada. Android acepta la nueva firma si viene con el paquete; la tienda que fijó la llave, no.</p>
+<p>Su límite es el de siempre en los proyectos honestos: está en alfa desde 2021, su última entrega es la 0.28.1 del 10 de noviembre de 2025 —casi un año antes de esta medición—, y el código se mueve más rápido que las versiones. Treinta y seis mil setecientas sesenta y siete descargas de esa sola entrega indican que hay gente usándola como tienda principal; la fecha indica que conviene tener una segunda vía de actualización para lo importante.</p>
+    <p><strong>Límites:</strong></p><ul><li>Está declarada en alfa por sus propios autores, y su última entrega tiene casi un año a la fecha de esta medición.</li>
+<li>Catálogo pequeño: lo que no revisó, no está.</li>
+<li>Exige Android 10 o superior, y las actualizaciones sin intervención, Android 12 o superior.</li>
+<li>Publica un solo adjunto por entrega, sin archivo de huella al lado: la comprobación se hace con <code>apksigner</code>, no con <code>sha256sum</code>.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Accrescent publica en su repositorio la huella SHA-256 de su propio certificado de firma, y lo hace justamente para que puedas comprobarla antes de instalar. Eso convierte una descarga en un acto verificable: bajás la APK, corrés <code>apksigner verify --print-certs</code> y el número que aparece tiene que ser exactamente el que está escrito en el repositorio. Si no coincide, no importa lo que diga la página: el archivo lo firmó otra persona. Es el mismo procedimiento que se usa para comprobar cualquier aplicación, y el detalle que casi nadie nota es que esa huella se lee en el certificado, no en el nombre del archivo ni en la suma de verificación de la descarga. La suma te dice que el archivo llegó completo; el certificado te dice de quién es.</p>
+    <p><strong>Cómo se comprueba:</strong> Bajá la APK de la última entrega y pedile al verificador la huella del certificado. Tiene que dar <code>06:7a:40:c4:19:3a:…:c0:71</code>, el número que el proyecto publica en su README. Si querés verlo en minúsculas y sin dos puntos, quitá el formato con <code>tr -d &#x27;:&#x27;</code>.</p>
+    <pre><code>apksigner verify --print-certs accrescent-0.28.1.apk | grep -i sha-256</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Usar una tienda en alfa como única vía de actualización de todo el teléfono.</li>
+<li>Confundir la huella del archivo con la huella del certificado y dar por buena una descarga manipulada.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/f-droid/fdroidclient">f-droid/fdroidclient</a>, <a href="https://github.com/ImranR98/Obtainium">ImranR98/Obtainium</a></p></div>
+
+  <p class="meta">Programa de The Accrescent Contributors · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/accrescent/accrescent/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Universal Installer <span class="meta">· pass-with-high-score/universal-installer</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>61/100</strong> ·
+    ★1,677 · 463 días · última entrega 2026-11-01 ·
+    53,751 descargas en 10 entregas · 7 personas ·
+    2 flujos de compilación · incidencias 25 abiertas.
+  </p>
+  <p>Instalar paquetes que no vienen en un solo archivo: conjuntos partidos, lotes de varias aplicaciones a la vez y paquetes para televisor o reloj.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien se bajó un <code>.apks</code>, un <code>.apkm</code> o un <code>.xapk</code> y el teléfono no lo abre, o quiere instalar varias aplicaciones de una sola vez.
+     <br><strong>Para quién no es:</strong> para quien sólo instala APK sencillos: el instalador del sistema ya hace eso y no hay por qué añadir una pieza.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Bajá la APK del teléfono desde la entrega: el proyecto publica archivos distintos para teléfono, televisor y reloj, y también los paquetes <code>.aab</code> que no se instalan directamente.</li>
+<li>Instalala y dale el permiso de instalar aplicaciones desconocidas cuando el sistema lo pida.</li>
+<li>Abrí el archivo partido desde esta aplicación, no desde el gestor de archivos: ella separa el base de los pedazos y elige los que corresponden a tu aparato.</li>
+<li>Antes de confirmar, mirá la lista de piezas que va a instalar y el nombre del paquete; si el nombre no coincide con el que esperabas, cancelá.</li>
+<li>Después de instalar, comprobá desde una consola que el paquete quedó completo y con todas sus partes en su sitio.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> El paquete partido queda instalado con su base y sus piezas correctas, y la aplicación abre sin cerrarse al arrancar.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la aplicación se instala y se cierra al abrir, casi siempre falta una pieza o el paquete es para otra arquitectura: volvé a bajar el conjunto completo y verificá que el base esté incluido.</li>
+<li>Si el sistema dice que el paquete no es válido, abriste un pedazo suelto en lugar del conjunto.</li>
+<li>Si ya tenías la aplicación instalada con otra firma, desinstalá primero y exportá los datos; el instalador no puede saltarse esa regla.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Se desinstala desde los ajustes como cualquier aplicación, y las aplicaciones que instaló se quitan una por una desde el mismo sitio. No hay una operación de deshacer conjunta: si instalaste un lote, desinstalás el lote a mano.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Una aplicación moderna deja de ser un archivo y pasa a ser un conjunto: un APK base y varios pedazos con el código nativo del procesador, los recursos de la pantalla y los idiomas. El teléfono instala el base más los que le sirven, y así el paquete pesa menos de lo que pesaría con todo dentro. Este instalador hace lo que el instalador del sistema no hace bien: leer el conjunto, quedarse con lo que corresponde al aparato y abrir una sesión de instalación con varias piezas a la vez.</p>
+<p>Ese mecanismo se llama sesión y es el mismo que usa la tienda de Google: se abre, se escriben las piezas una por una, se confirman todas juntas y sólo entonces el sistema instala. Por eso una instalación partida puede fallar y dejar el teléfono limpio, sin restos: si algo no cuadra, no se confirma la sesión.</p>
+<p>En su entrega del 1 de noviembre de 2026 publica seis adjuntos: tres APK —teléfono, televisor y reloj— y tres <code>.aab</code>. Esa distinción es la que se explica más abajo, y es la razón por la que mucha gente baja un archivo que no puede instalar. Mil seiscientas setenta y siete estrellas, siete personas y cincuenta y tres mil setecientas cincuenta y una descargas en sus diez últimas entregas: un proyecto joven y pequeño, con más actividad que muchos veteranos.</p>
+    <p><strong>Límites:</strong></p><ul><li>No arregla una firma que no coincide: la regla de la misma llave sigue valiendo dentro del instalador.</li>
+<li>Los paquetes <code>.aab</code> que publica el proyecto no se instalan: son el formato de entrega para tiendas, y hay que convertirlos antes.</li>
+<li>Necesita permiso de instalar aplicaciones desconocidas, que es exactamente el permiso que hay que dar con cuidado.</li>
+<li>Sólo siete personas sostienen el proyecto: si se detiene, no hay relevo evidente.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Un APK moderno no es un archivo, es una carpeta disfrazada. Cuando una aplicación se instala partida, el sistema la reparte en varios archivos dentro del teléfono: el base y las piezas que le tocaron a ese aparato. La orden <code>pm path</code> los lista todos, y ahí se ve algo que sorprende a quien nunca lo miró: dos teléfonos distintos con la misma aplicación instalada tienen archivos distintos, porque los pedazos dependen del procesador y de la pantalla. Eso explica dos cosas de golpe: por qué un paquete partido bajado de internet puede no servir en tu teléfono, y por qué una copia de seguridad hecha desde el teléfono no siempre se restaura en otro modelo. La lista de rutas es también la forma más rápida de comprobar que una instalación quedó completa: si falta el pedazo de la arquitectura, la aplicación va a abrir y cerrarse.</p>
+    <p><strong>Cómo se comprueba:</strong> Elegí una aplicación grande —una de mapas, de mensajería o un juego— y pedile al sistema la ruta de sus archivos. Si devuelve varias líneas con nombres que empiezan por <code>split_</code>, está partida. Contá cuántas piezas tiene la tuya y compará con la de otra persona.</p>
+    <pre><code>adb shell pm path com.ejemplo.app</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Instalar un conjunto partido de origen desconocido: el instalador no comprueba de dónde viene ni quién lo firmó.</li>
+<li>Dar el permiso de instalar aplicaciones desconocidas a un programa que no se puede leer.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/Aefyr/SAI">Aefyr/SAI</a>, <a href="https://github.com/f-droid/fdroidclient">f-droid/fdroidclient</a></p></div>
+
+  <p class="meta">Programa de pass-with-high-score y seis personas más · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/pass-with-high-score/universal-installer/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>AppVerifier <span class="meta">· soupslurpr/AppVerifier</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>32/100</strong> ·
+    ★1,221 · 1042 días · última entrega 2025-04-23 ·
+    74,365 descargas en 10 entregas · 11 personas ·
+    0 flujos de compilación · incidencias 33 abiertas.
+  </p>
+  <p>Comprobar que la aplicación instalada es del mismo autor que la que te pasaron, comparando la huella de la llave que la firma.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien intercambia APK con otras personas por mensajería y necesita una forma corta de decir «este archivo es el mío» sin copiar un número de sesenta y cuatro caracteres.
+     <br><strong>Para quién no es:</strong> para quien quiere saber si una aplicación es segura: comprobar la huella sólo confirma quién la firmó, no que el código haga lo que promete.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Bajá la APK del repositorio del proyecto o de Accrescent, y comprobá primero la huella con <code>apksigner</code> para no verificar el verificador con el verificador.</li>
+<li>Instalala y abrí la sección de aplicaciones: la lista muestra cada paquete instalado con el resumen de su certificado.</li>
+<li>Elegí una aplicación y copiá su información de verificación; esa ficha —nombre de paquete y huella— es lo que se comparte.</li>
+<li>Pedile a la otra persona su ficha y pegala en la aplicación: el resultado te dice si el paquete y la huella coinciden con lo que tenés instalado.</li>
+<li>Guardá las fichas de las aplicaciones que te importan fuera del teléfono, para poder comparar dentro de un año sin depender de la memoria ni del chat.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Podés confirmar en segundos que dos copias de la misma aplicación las firmó la misma persona, sin leer números a mano ni confiar en el nombre del archivo.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la comparación falla, alguna de las dos copias no la firmó el mismo autor: no actualices encima, averiguá primero.</li>
+<li>Si el paquete coincide pero la huella no, estás ante el caso clásico de la tienda que refirma; no es un fraude, es otro firmante.</li>
+<li>No uses esta aplicación para verificarse a sí misma ni para verificar la tienda de la que la bajaste: la comprobación se hace por fuera, con <code>apksigner</code>.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Es una aplicación de consulta: desinstalarla no cambia nada del resto del teléfono. Las fichas de verificación que guardaste siguen siendo válidas y se pueden volver a comparar en cualquier momento.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>La huella de un certificado no cambia entre versiones. Eso es todo lo que hay que entender para usar esta herramienta bien: la 0.8.0 y la 13 del mismo programa son archivos distintos, con sumas de verificación distintas, y la misma huella de llave. Comparar huellas es comparar autores, no archivos.</p>
+<p>El proyecto lo dice de una manera que conviene copiar: no sirve para verificarse a sí mismo, ni para verificar la tienda de la que salió. Esa advertencia parece un detalle y es la parte más honesta de su diseño: si el verificador está comprometido, todo lo que verifique está comprometido, así que la raíz de confianza tiene que estar fuera del teléfono —en el número publicado por el autor, en una conversación con otra persona, en una servilleta—. La cadena se corta donde una decide cortarla, y hay que saber dónde.</p>
+<p>Sus números son los de un proyecto pequeño y útil: mil doscientas veintiuna estrellas, once personas, cuarenta y seis mil quinientas cuatro descargas de la versión 13 —publicada el 23 de abril de 2025— y un solo adjunto por entrega. No se ha movido desde entonces, y aun así sigue siendo la forma más práctica que existe de responder a la pregunta «¿este archivo es del mismo autor que el que ya tengo?».</p>
+    <p><strong>Límites:</strong></p><ul><li>Comprueba firmas, no intenciones: una aplicación maliciosa firmada por su propio autor pasa la verificación sin problema.</li>
+<li>Su base de datos de huellas la alimentan las personas, así que una huella nueva puede no estar.</li>
+<li>No debe usarse para verificarse a sí misma ni a la tienda de la que se bajó.</li>
+<li>Sin actualizaciones desde abril de 2025: sigue sirviendo porque no depende de un servicio, pero no esperes mejoras.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Hay dos formas de comprobar un APK y casi todo el mundo usa sólo la primera. La suma de verificación dice si el archivo llegó completo y sin cambios en el camino; el certificado dice quién lo firmó. Son preguntas distintas y con respuestas distintas: un atacante que reemplaza el archivo por completo puede publicar también su propia suma de verificación, y entonces la comprobación pasa sin decir nada. La huella del certificado no se puede falsificar sin la llave privada, y ahí está la diferencia. Y hay un caso que sorprende: la misma aplicación, con el mismo nombre de paquete, puede tener dos huellas legítimas —la del autor y la de una tienda que recompila y refirma—. Cuando eso pasa, no hay fraude, hay dos canales; el error es mezclarlos y esperar que se actualicen entre sí.</p>
+    <p><strong>Cómo se comprueba:</strong> Preguntale al verificador de Android por el certificado de la propia aplicación y compara el número con el que el proyecto publica en su README: <code>3A:04:A8:0B:…:02:B2</code>. Después hacé lo mismo con dos versiones distintas del mismo programa y comprobá que la huella del certificado no cambia aunque el archivo sea otro.</p>
+    <pre><code>apksigner verify --print-certs AppVerifier-13.apk | grep -i sha-256</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Tomar una huella coincidente como prueba de que el programa es confiable: sólo prueba quién lo firmó.</li>
+<li>Verificar el verificador con el verificador, que es la forma más común de que la comprobación no valga nada.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/accrescent/accrescent">accrescent/accrescent</a>, <a href="https://github.com/f-droid/fdroidclient">f-droid/fdroidclient</a></p></div>
+
+  <p class="meta">Programa de soupslurpr y diez personas más · ISC · medido el 3 de noviembre de 2026 · licencia ISC
+     (<a href="https://github.com/soupslurpr/AppVerifier/blob/main/LICENSE.txt">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Aurora Store <span class="meta">· AuroraOSS/AuroraStore</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>25/100</strong> ·
+    ★74 · 296 días · última entrega sin entregas en el espejo ·
+    0 descargas en 10 entregas · 100 personas ·
+    0 flujos de compilación · incidencias 3 abiertas en el espejo; la casa es GitLab.
+  </p>
+  <p>Bajar de la tienda de Google la aplicación que sólo existe ahí, sin cuenta de Google y sabiendo qué se está aceptando a cambio.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien necesita una aplicación que sólo se publica en la tienda de Google y entiende que esto es un puente, no una alternativa: usa la infraestructura de Google.
+     <br><strong>Para quién no es:</strong> para quien quiere dejar de depender de Google: esta aplicación depende de Google para todo lo que hace, y si Google cambia su API, deja de funcionar.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Bajá la APK desde la entrega de su casa en GitLab, donde el proyecto publica de verdad; el espejo de GitHub no tiene entregas.</li>
+<li>Elegí sesión anónima en la primera pantalla y no inicies sesión con una cuenta personal salvo que sepas por qué lo hacés.</li>
+<li>Buscá la aplicación que necesitás y mirá la ficha: además de la descripción, esta tienda te muestra qué rastreadores declara y si funciona sin los servicios de Google.</li>
+<li>Antes de instalar, comprobá el nombre del paquete y la huella del firmante, y compará con la que muestra el teléfono si ya la tenías instalada desde la tienda oficial.</li>
+<li>Después de instalar, evitá mezclar canales: si la aplicación también existe en un repositorio del autor, quedate en uno solo para no perder datos en la próxima actualización.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés la aplicación que sólo estaba en la tienda de Google, con una sesión anónima y sin haber instalado los servicios de Google en el teléfono.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la búsqueda no devuelve nada, la API que usa el proyecto cambió: es el fallo típico de este tipo de programa y se arregla cuando el proyecto publica.</li>
+<li>Si el sistema se niega a instalar una actualización sobre la copia que tenías de Play, es porque la firma es la misma pero la sesión anónima no puede continuar el canal: desinstalá y reinstalá, exportando antes los datos.</li>
+<li>Si necesitás comprar o pagar dentro de la aplicación, olvidalo: una sesión anónima no tiene cartera ni cuenta.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desinstalar la aplicación no desinstala nada de lo que bajó. Las aplicaciones instaladas siguen funcionando aunque la sesión anónima caduque, pero dejan de recibir actualizaciones por esa vía: para volver al canal oficial hay que desinstalar y reinstalar, perdiendo los datos.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Aurora Store no aloja aplicaciones: se conecta a la tienda de Google con un cliente que imita al oficial y baja el paquete desde los servidores de Google. Su propia documentación lo dice con claridad: no tiene relación ni autorización de Google, y no distribuye nada propio. Es un puente, y como todo puente depende de que el otro lado siga igual: la API que usa está reconstruida observando el tráfico del cliente oficial, así que un cambio del lado de Google rompe la aplicación hasta que el proyecto se adapte.</p>
+<p>Lo que la hace interesante para esta guía no es la descarga: es lo que revela sobre las firmas. Cuando una aplicación está acogida a la firma de Google, el paquete que baja de la tienda lleva la llave de Google, no la del autor —Google refirma lo que recibe—. Por eso la copia de Play y la copia del repositorio del autor son la misma aplicación, con el mismo nombre de paquete y dos huellas distintas. Y por eso no se puede pasar de una a otra sin desinstalar. Es la demostración perfecta de la regla del capítulo, y la podés hacer con dos archivos y <code>apksigner</code>.</p>
+<p>El detalle de medición de esta ficha es tan importante como el programa: su espejo de GitHub nació el 11 de enero de 2026, tiene 74 estrellas y ninguna entrega publicada; su casa en GitLab tiene 2.284 estrellas, actividad del mismo día de la medición y la versión 4.8.4 del 27 de julio de 2026. Quien mida el espejo va a describir un proyecto distinto del que existe. Eso no es un error de la aplicación: es un error de quien mide sin preguntar dónde vive el proyecto.</p>
+    <p><strong>Límites:</strong></p><ul><li>Usa la infraestructura de Google y su API reconstruida: los cambios del lado de Google la rompen.</li>
+<li>No sirve para comprar, suscribirse ni pagar dentro de las aplicaciones.</li>
+<li>Una sesión anónima no es tu cuenta: las compras y el historial de tu cuenta de Google no aparecen.</li>
+<li>Mezclar la copia de Play con la del repositorio del autor termina en desinstalación y pérdida de datos, porque las dos firmas son distintas.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La misma aplicación puede tener dos certificados legítimos. Cuando un desarrollador se acoge a la firma de Google, sube su paquete y Google lo refirma con una llave que el desarrollador no tiene: el paquete que baja al teléfono lleva la firma de Google. La copia que el mismo autor publica en su repositorio lleva la suya. Nombres de paquete idénticos, versiones idénticas, huellas distintas, y Android tratándolas como si fueran de empresas distintas, porque a efectos de la firma lo son. La consecuencia no es teórica: quien instala desde la tienda y luego quiere la versión del repositorio, o al revés, descubre que no puede actualizar sin desinstalar, y desinstalar borra los datos. Antes de cambiar de canal en cualquier aplicación, comprobá las dos huellas y decidí con esa información, no después de perder el historial de un juego o una conversación.</p>
+    <p><strong>Cómo se comprueba:</strong> Conseguí la misma aplicación por los dos canales —una copia bajada de la tienda y otra del repositorio del autor— y pedile a <code>apksigner</code> el certificado de cada una. Van a dar números distintos con el mismo nombre de paquete. Si querés confirmarlo sin instalar nada, <code>aapt dump badging</code> muestra el nombre del paquete de cada archivo.</p>
+    <pre><code>apksigner verify --print-certs copia-de-la-tienda.apk | grep -i sha-256
+apksigner verify --print-certs copia-del-autor.apk | grep -i sha-256
+aapt dump badging copia-de-la-tienda.apk | grep -m1 package:</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Iniciar sesión con la cuenta personal de Google en un cliente no oficial: el proyecto lo permite y no lo recomienda.</li>
+<li>Cambiar de canal sin haber exportado los datos, y descubrir que hay que desinstalar para actualizar.</li>
+<li>Dar por hecho que la aplicación seguirá funcionando: depende de una API que no controla.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/ImranR98/Obtainium">ImranR98/Obtainium</a>, <a href="https://github.com/f-droid/fdroidclient">f-droid/fdroidclient</a></p></div>
+
+  <p class="meta">Programa de Aurora OSS · GPL-3.0 · medido el 3 de noviembre de 2026: 74 estrellas en el espejo, 2.284 en la casa de GitLab · licencia GPL-3.0
+     (<a href="https://github.com/AuroraOSS/AuroraStore/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 3 de noviembre de 2026.</p></footer>
+</div></body></html>

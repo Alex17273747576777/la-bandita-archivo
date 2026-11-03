@@ -1,0 +1,75 @@
+{
+ "id": "appverifier",
+ "nombre": "AppVerifier",
+ "repo": "soupslurpr/AppVerifier",
+ "autores": [
+  {
+   "nombre": "soupslurpr",
+   "enlace": "https://github.com/soupslurpr"
+  }
+ ],
+ "licencia": {
+  "spdx": "ISC",
+  "archivo": "https://github.com/soupslurpr/AppVerifier/blob/main/LICENSE.txt"
+ },
+ "nivel": "intermedio",
+ "tarea": "Comprobar que la aplicación instalada es del mismo autor que la que te pasaron, comparando la huella de la llave que la firma.",
+ "capitulo": 4,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien intercambia APK con otras personas por mensajería y necesita una forma corta de decir «este archivo es el mío» sin copiar un número de sesenta y cuatro caracteres.",
+  "no_es": "para quien quiere saber si una aplicación es segura: comprobar la huella sólo confirma quién la firmó, no que el código haga lo que promete."
+ },
+ "manos": [
+  "Bajá la APK del repositorio del proyecto o de Accrescent, y comprobá primero la huella con `apksigner` para no verificar el verificador con el verificador.",
+  "Instalala y abrí la sección de aplicaciones: la lista muestra cada paquete instalado con el resumen de su certificado.",
+  "Elegí una aplicación y copiá su información de verificación; esa ficha —nombre de paquete y huella— es lo que se comparte.",
+  "Pedile a la otra persona su ficha y pegala en la aplicación: el resultado te dice si el paquete y la huella coinciden con lo que tenés instalado.",
+  "Guardá las fichas de las aplicaciones que te importan fuera del teléfono, para poder comparar dentro de un año sin depender de la memoria ni del chat."
+ ],
+ "resultado_esperado": "Podés confirmar en segundos que dos copias de la misma aplicación las firmó la misma persona, sin leer números a mano ni confiar en el nombre del archivo.",
+ "si_sale_mal": [
+  "Si la comparación falla, alguna de las dos copias no la firmó el mismo autor: no actualices encima, averiguá primero.",
+  "Si el paquete coincide pero la huella no, estás ante el caso clásico de la tienda que refirma; no es un fraude, es otro firmante.",
+  "No uses esta aplicación para verificarse a sí misma ni para verificar la tienda de la que la bajaste: la comprobación se hace por fuera, con `apksigner`."
+ ],
+ "deshacer": "Es una aplicación de consulta: desinstalarla no cambia nada del resto del teléfono. Las fichas de verificación que guardaste siguen siendo válidas y se pueden volver a comparar en cualquier momento.",
+ "cabeza": [
+  "La huella de un certificado no cambia entre versiones. Eso es todo lo que hay que entender para usar esta herramienta bien: la 0.8.0 y la 13 del mismo programa son archivos distintos, con sumas de verificación distintas, y la misma huella de llave. Comparar huellas es comparar autores, no archivos.",
+  "El proyecto lo dice de una manera que conviene copiar: no sirve para verificarse a sí mismo, ni para verificar la tienda de la que salió. Esa advertencia parece un detalle y es la parte más honesta de su diseño: si el verificador está comprometido, todo lo que verifique está comprometido, así que la raíz de confianza tiene que estar fuera del teléfono —en el número publicado por el autor, en una conversación con otra persona, en una servilleta—. La cadena se corta donde una decide cortarla, y hay que saber dónde.",
+  "Sus números son los de un proyecto pequeño y útil: mil doscientas veintiuna estrellas, once personas, cuarenta y seis mil quinientas cuatro descargas de la versión 13 —publicada el 23 de abril de 2025— y un solo adjunto por entrega. No se ha movido desde entonces, y aun así sigue siendo la forma más práctica que existe de responder a la pregunta «¿este archivo es del mismo autor que el que ya tengo?»."
+ ],
+ "limites": [
+  "Comprueba firmas, no intenciones: una aplicación maliciosa firmada por su propio autor pasa la verificación sin problema.",
+  "Su base de datos de huellas la alimentan las personas, así que una huella nueva puede no estar.",
+  "No debe usarse para verificarse a sí misma ni a la tienda de la que se bajó.",
+  "Sin actualizaciones desde abril de 2025: sigue sirviendo porque no depende de un servicio, pero no esperes mejoras."
+ ],
+ "oficio": {
+  "dato": "Hay dos formas de comprobar un APK y casi todo el mundo usa sólo la primera. La suma de verificación dice si el archivo llegó completo y sin cambios en el camino; el certificado dice quién lo firmó. Son preguntas distintas y con respuestas distintas: un atacante que reemplaza el archivo por completo puede publicar también su propia suma de verificación, y entonces la comprobación pasa sin decir nada. La huella del certificado no se puede falsificar sin la llave privada, y ahí está la diferencia. Y hay un caso que sorprende: la misma aplicación, con el mismo nombre de paquete, puede tener dos huellas legítimas —la del autor y la de una tienda que recompila y refirma—. Cuando eso pasa, no hay fraude, hay dos canales; el error es mezclarlos y esperar que se actualicen entre sí.",
+  "como_comprobar": "Preguntale al verificador de Android por el certificado de la propia aplicación y compara el número con el que el proyecto publica en su README: `3A:04:A8:0B:…:02:B2`. Después hacé lo mismo con dos versiones distintas del mismo programa y comprobá que la huella del certificado no cambia aunque el archivo sea otro.",
+  "comando": "apksigner verify --print-certs AppVerifier-13.apk | grep -i sha-256"
+ },
+ "riesgos": [
+  "Tomar una huella coincidente como prueba de que el programa es confiable: sólo prueba quién lo firmó.",
+  "Verificar el verificador con el verificador, que es la forma más común de que la comprobación no valga nada."
+ ],
+ "alternativas": [
+  "accrescent/accrescent",
+  "f-droid/fdroidclient"
+ ],
+ "senal": {
+  "estrellas": 1221,
+  "nota": 32,
+  "edad_dias": 1042,
+  "ultima_entrega": "2025-04-23",
+  "descargas_10": 74365,
+  "contribuyentes": 11,
+  "repo_mb": 0.4,
+  "ci": 0,
+  "incidencias": "33 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de soupslurpr y diez personas más · ISC · medido el 3 de noviembre de 2026"
+}

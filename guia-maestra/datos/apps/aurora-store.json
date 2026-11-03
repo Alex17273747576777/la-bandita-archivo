@@ -1,0 +1,76 @@
+{
+ "id": "aurora-store",
+ "nombre": "Aurora Store",
+ "repo": "AuroraOSS/AuroraStore",
+ "autores": [
+  {
+   "nombre": "Aurora OSS",
+   "enlace": "https://gitlab.com/AuroraOSS/AuroraStore"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/AuroraOSS/AuroraStore/blob/master/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Bajar de la tienda de Google la aplicación que sólo existe ahí, sin cuenta de Google y sabiendo qué se está aceptando a cambio.",
+ "capitulo": 4,
+ "orden": 6,
+ "para_quien": {
+  "es": "para quien necesita una aplicación que sólo se publica en la tienda de Google y entiende que esto es un puente, no una alternativa: usa la infraestructura de Google.",
+  "no_es": "para quien quiere dejar de depender de Google: esta aplicación depende de Google para todo lo que hace, y si Google cambia su API, deja de funcionar."
+ },
+ "manos": [
+  "Bajá la APK desde la entrega de su casa en GitLab, donde el proyecto publica de verdad; el espejo de GitHub no tiene entregas.",
+  "Elegí sesión anónima en la primera pantalla y no inicies sesión con una cuenta personal salvo que sepas por qué lo hacés.",
+  "Buscá la aplicación que necesitás y mirá la ficha: además de la descripción, esta tienda te muestra qué rastreadores declara y si funciona sin los servicios de Google.",
+  "Antes de instalar, comprobá el nombre del paquete y la huella del firmante, y compará con la que muestra el teléfono si ya la tenías instalada desde la tienda oficial.",
+  "Después de instalar, evitá mezclar canales: si la aplicación también existe en un repositorio del autor, quedate en uno solo para no perder datos en la próxima actualización."
+ ],
+ "resultado_esperado": "Tenés la aplicación que sólo estaba en la tienda de Google, con una sesión anónima y sin haber instalado los servicios de Google en el teléfono.",
+ "si_sale_mal": [
+  "Si la búsqueda no devuelve nada, la API que usa el proyecto cambió: es el fallo típico de este tipo de programa y se arregla cuando el proyecto publica.",
+  "Si el sistema se niega a instalar una actualización sobre la copia que tenías de Play, es porque la firma es la misma pero la sesión anónima no puede continuar el canal: desinstalá y reinstalá, exportando antes los datos.",
+  "Si necesitás comprar o pagar dentro de la aplicación, olvidalo: una sesión anónima no tiene cartera ni cuenta."
+ ],
+ "deshacer": "Desinstalar la aplicación no desinstala nada de lo que bajó. Las aplicaciones instaladas siguen funcionando aunque la sesión anónima caduque, pero dejan de recibir actualizaciones por esa vía: para volver al canal oficial hay que desinstalar y reinstalar, perdiendo los datos.",
+ "cabeza": [
+  "Aurora Store no aloja aplicaciones: se conecta a la tienda de Google con un cliente que imita al oficial y baja el paquete desde los servidores de Google. Su propia documentación lo dice con claridad: no tiene relación ni autorización de Google, y no distribuye nada propio. Es un puente, y como todo puente depende de que el otro lado siga igual: la API que usa está reconstruida observando el tráfico del cliente oficial, así que un cambio del lado de Google rompe la aplicación hasta que el proyecto se adapte.",
+  "Lo que la hace interesante para esta guía no es la descarga: es lo que revela sobre las firmas. Cuando una aplicación está acogida a la firma de Google, el paquete que baja de la tienda lleva la llave de Google, no la del autor —Google refirma lo que recibe—. Por eso la copia de Play y la copia del repositorio del autor son la misma aplicación, con el mismo nombre de paquete y dos huellas distintas. Y por eso no se puede pasar de una a otra sin desinstalar. Es la demostración perfecta de la regla del capítulo, y la podés hacer con dos archivos y `apksigner`.",
+  "El detalle de medición de esta ficha es tan importante como el programa: su espejo de GitHub nació el 11 de enero de 2026, tiene 74 estrellas y ninguna entrega publicada; su casa en GitLab tiene 2.284 estrellas, actividad del mismo día de la medición y la versión 4.8.4 del 27 de julio de 2026. Quien mida el espejo va a describir un proyecto distinto del que existe. Eso no es un error de la aplicación: es un error de quien mide sin preguntar dónde vive el proyecto."
+ ],
+ "limites": [
+  "Usa la infraestructura de Google y su API reconstruida: los cambios del lado de Google la rompen.",
+  "No sirve para comprar, suscribirse ni pagar dentro de las aplicaciones.",
+  "Una sesión anónima no es tu cuenta: las compras y el historial de tu cuenta de Google no aparecen.",
+  "Mezclar la copia de Play con la del repositorio del autor termina en desinstalación y pérdida de datos, porque las dos firmas son distintas."
+ ],
+ "oficio": {
+  "dato": "La misma aplicación puede tener dos certificados legítimos. Cuando un desarrollador se acoge a la firma de Google, sube su paquete y Google lo refirma con una llave que el desarrollador no tiene: el paquete que baja al teléfono lleva la firma de Google. La copia que el mismo autor publica en su repositorio lleva la suya. Nombres de paquete idénticos, versiones idénticas, huellas distintas, y Android tratándolas como si fueran de empresas distintas, porque a efectos de la firma lo son. La consecuencia no es teórica: quien instala desde la tienda y luego quiere la versión del repositorio, o al revés, descubre que no puede actualizar sin desinstalar, y desinstalar borra los datos. Antes de cambiar de canal en cualquier aplicación, comprobá las dos huellas y decidí con esa información, no después de perder el historial de un juego o una conversación.",
+  "como_comprobar": "Conseguí la misma aplicación por los dos canales —una copia bajada de la tienda y otra del repositorio del autor— y pedile a `apksigner` el certificado de cada una. Van a dar números distintos con el mismo nombre de paquete. Si querés confirmarlo sin instalar nada, `aapt dump badging` muestra el nombre del paquete de cada archivo.",
+  "comando": "apksigner verify --print-certs copia-de-la-tienda.apk | grep -i sha-256\napksigner verify --print-certs copia-del-autor.apk | grep -i sha-256\naapt dump badging copia-de-la-tienda.apk | grep -m1 package:"
+ },
+ "riesgos": [
+  "Iniciar sesión con la cuenta personal de Google en un cliente no oficial: el proyecto lo permite y no lo recomienda.",
+  "Cambiar de canal sin haber exportado los datos, y descubrir que hay que desinstalar para actualizar.",
+  "Dar por hecho que la aplicación seguirá funcionando: depende de una API que no controla."
+ ],
+ "alternativas": [
+  "ImranR98/Obtainium",
+  "f-droid/fdroidclient"
+ ],
+ "senal": {
+  "estrellas": 74,
+  "nota": 25,
+  "edad_dias": 296,
+  "ultima_entrega": "sin entregas en el espejo",
+  "descargas_10": 0,
+  "contribuyentes": 100,
+  "repo_mb": 42.5,
+  "ci": 0,
+  "incidencias": "3 abiertas en el espejo; la casa es GitLab"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Aurora OSS · GPL-3.0 · medido el 3 de noviembre de 2026: 74 estrellas en el espejo, 2.284 en la casa de GitLab"
+}

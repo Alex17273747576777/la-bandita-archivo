@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-03",
- "medido_en": "2026-11-03T19:52:59+00:00",
+ "medido_en": "2026-11-03T20:34:47+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 344,
+ "medidos": 357,
  "fichas": [
   {
    "repo": "MMFoundation/WallpaperMachine",
@@ -2024,6 +2024,39 @@
     "408 cambios en 30 días +10",
     "90 personas empujando +10",
     "incidencias cerradas 325/387 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "ImranR98/Obtainium",
+   "puntos": 73,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "fastlane.yml",
+    "release.yml",
+    "translation-validate.yaml"
+   ],
+   "adjuntos": 320,
+   "con_huella": 160,
+   "ultima_entrega": "2026-11-01",
+   "commits_30d": 251,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 355,
+    "cerradas": 1766
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1545,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjunto con huella (app-arm64-v8a-fdroid-release.apk.sha256) +10",
+    "entrega en los últimos 30 días +10",
+    "251 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 1766/2121 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -8044,6 +8077,38 @@
    ]
   },
   {
+   "repo": "accrescent/accrescent",
+   "puntos": 53,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "build.yaml",
+    "bump-timestamp.yaml"
+   ],
+   "adjuntos": 9,
+   "con_huella": 0,
+   "ultima_entrega": "2025-11-10",
+   "commits_30d": 42,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 41,
+    "cerradas": 171
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1784,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "42 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 171/212 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "toeverything/AFFiNE",
    "puntos": 53,
    "licencia": "NOASSERTION",
@@ -8649,6 +8714,37 @@
     "279 cambios en 30 días +10",
     "2 personas empujando +4",
     "incidencias cerradas 16/112 +1",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "jrs8205/ARK-Store",
+   "puntos": 50,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "index.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-15",
+   "commits_30d": 178,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 1,
+    "cerradas": 1
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 33,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "178 cambios en 30 días +10",
+    "1 personas empujando +0",
+    "incidencias cerradas 1/2 +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9381,6 +9477,35 @@
    ]
   },
   {
+   "repo": "bl3xand/APK-Toolbox",
+   "puntos": 45,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [],
+   "adjuntos": 15,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-28",
+   "commits_30d": 244,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 1
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 26,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "244 cambios en 30 días +10",
+    "1 personas empujando +0",
+    "incidencias cerradas 1/1 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "rust-unofficial/awesome-rust",
    "puntos": 45,
    "licencia": "CC0-1.0",
@@ -9411,6 +9536,34 @@
     "107 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 143/150 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "f-droid/fdroidclient",
+   "puntos": 45,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [],
+   "adjuntos": 3,
+   "con_huella": 1,
+   "ultima_entrega": "2024-01-24",
+   "commits_30d": 64,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 4486,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "sin flujos de integración +0",
+    "adjunto con huella (org.fdroid.fdroid_1018050.apk.asc) +10",
+    "sin entrega reciente +0",
+    "64 cambios en 30 días +10",
+    "100 personas empujando +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9477,6 +9630,37 @@
     "13 cambios en 30 días +7",
     "20 personas empujando +10",
     "incidencias cerradas 2133/2643 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "Aefyr/SAI",
+   "puntos": 45,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "stale.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2021-02-25",
+   "commits_30d": 0,
+   "contribuyentes": 13,
+   "incidencias": {
+    "abiertas": 1,
+    "cerradas": 224
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 2881,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "13 personas empujando +10",
+    "incidencias cerradas 224/225 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -9690,6 +9874,37 @@
    ]
   },
   {
+   "repo": "rumboalla/apkupdater",
+   "puntos": 44,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-05-28",
+   "commits_30d": 0,
+   "contribuyentes": 30,
+   "incidencias": {
+    "abiertas": 24,
+    "cerradas": 311
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 3726,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "30 personas empujando +10",
+    "incidencias cerradas 311/335 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "Gathin23/cleanyourtv",
    "puntos": 43,
    "licencia": "NOASSERTION",
@@ -9790,6 +10005,38 @@
     "1 cambios en 30 días +4",
     "9 personas empujando +7",
     "incidencias cerradas 74/101 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "Droid-ify/client",
+   "puntos": 43,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "notify.yml",
+    "release_build.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-12",
+   "commits_30d": 0,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 202,
+    "cerradas": 670
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1583,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "100 personas empujando +10",
+    "incidencias cerradas 670/872 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -10362,6 +10609,40 @@
    ]
   },
   {
+   "repo": "DUpdateSystem/UpgradeAll",
+   "puntos": 39,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "android.yml",
+    "issue-closed-labeler.yml",
+    "issue-labeler.yml",
+    "labeled-issue-to-project.yml"
+   ],
+   "adjuntos": 13,
+   "con_huella": 0,
+   "ultima_entrega": "2023-04-24",
+   "commits_30d": 0,
+   "contribuyentes": 24,
+   "incidencias": {
+    "abiertas": 43,
+    "cerradas": 26
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 2755,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 4 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "24 personas empujando +10",
+    "incidencias cerradas 26/69 +4",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "yewstack/yew",
    "puntos": 39,
    "licencia": "Apache-2.0",
@@ -10658,6 +10939,37 @@
    ]
   },
   {
+   "repo": "wxx9248/SplitApkInstaller",
+   "puntos": 33,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build.yml",
+    "dependabot-auto-approve.yml"
+   ],
+   "adjuntos": 6,
+   "con_huella": 0,
+   "ultima_entrega": "2026-03-01",
+   "commits_30d": 7,
+   "contribuyentes": 2,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 441,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "7 cambios en 30 días +4",
+    "2 personas empujando +4",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "DFarm6/Prism-Browser-Community",
    "puntos": 33,
    "licencia": "MIT",
@@ -10816,6 +11128,35 @@
     "0 cambios en 30 días +0",
     "1 personas empujando +0",
     "incidencias cerradas 65/96 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "soupslurpr/AppVerifier",
+   "puntos": 32,
+   "licencia": "ISC",
+   "flujos_ci": [],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2025-04-23",
+   "commits_30d": 0,
+   "contribuyentes": 11,
+   "incidencias": {
+    "abiertas": 33,
+    "cerradas": 96
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1042,
+   "archivado": false,
+   "notas": [
+    "licencia legible (ISC) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "11 personas empujando +10",
+    "incidencias cerradas 96/129 +7",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -11189,6 +11530,35 @@
     "4 cambios en 30 días +4",
     "1 personas empujando +0",
     "incidencias cerradas 11/58 +2",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "AuroraOSS/AuroraStore",
+   "puntos": 25,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "",
+   "commits_30d": 69,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 3,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 296,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "sin flujos de integración +0",
+    "ninguna entrega con adjuntos −10",
+    "sin entrega reciente +0",
+    "69 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 0/3 +0",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -11590,6 +11960,35 @@
     "0 cambios en 30 días +0",
     "8 personas empujando +7",
     "incidencias cerradas 125/420 +3",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "szn0506/Mergify",
+   "puntos": 15,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [],
+   "adjuntos": 2,
+   "con_huella": 0,
+   "ultima_entrega": "2026-08-01",
+   "commits_30d": 0,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 2,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 148,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "1 personas empujando +0",
+    "incidencias cerradas 0/2 +0",
     "sin Scorecard en deps.dev +0"
    ]
   },

@@ -57,14 +57,14 @@ a{color:var(--acento)}
 <li>Si solo aparecen tus aplicaciones, activa la opción de incluir las del sistema: son las que más cuesta recordar después.</li></ul>
     <p><strong>Cómo se deshace:</strong> No hay nada que deshacer: la aplicación solo lee la lista y escribe un archivo.</p></div>
 
-  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>El nombre visible de una aplicación y su nombre de paquete son dos cosas distintas: «Galería» es una etiqueta, `com.fabricante.gallery` es la identidad. Cuando dentro de un año quieras volver a poner esa aplicación, el nombre visible no te sirve de nada: solo el paquete te dice cuál era.</p>
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>El nombre visible de una aplicación y su nombre de paquete son dos cosas distintas: «Galería» es una etiqueta, <code>com.fabricante.gallery</code> es la identidad. Cuando dentro de un año quieras volver a poner esa aplicación, el nombre visible no te sirve de nada: solo el paquete te dice cuál era.</p>
 <p>Por eso esta ficha va primero en el capítulo aunque parezca poca cosa: es la única que convierte una decisión irreversible en una reversible.</p>
     <p><strong>Límites:</strong></p><ul><li>No copia datos ni archivos: solo la lista.</li>
 <li>No sirve para restaurar nada por sí sola.</li>
 <li>Un solo autor y un solo flujo de compilación.</li></ul></div>
 
   <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
-    <p>La lista de paquetes se puede sacar sin instalar ninguna aplicación, con una orden, y esa lista incluye las aplicaciones del sistema que no aparecen en ningún menú: `pm list packages -s` muestra solo las del sistema y `pm list packages -u` incluye las que ya desinstalaste para tu usuario. Guardar esa salida en un archivo de texto es la copia de seguridad más pequeña y más útil que existe: unos pocos kilobytes que caben en un correo y que permiten reconstruir el teléfono semanas después.</p>
+    <p>La lista de paquetes se puede sacar sin instalar ninguna aplicación, con una orden, y esa lista incluye las aplicaciones del sistema que no aparecen en ningún menú: <code>pm list packages -s</code> muestra solo las del sistema y <code>pm list packages -u</code> incluye las que ya desinstalaste para tu usuario. Guardar esa salida en un archivo de texto es la copia de seguridad más pequeña y más útil que existe: unos pocos kilobytes que caben en un correo y que permiten reconstruir el teléfono semanas después.</p>
     <p><strong>Cómo se comprueba:</strong> Con el permiso de depuración activo, ejecuta la orden de abajo y guarda la salida en un archivo. Compara el número de líneas con las aplicaciones que ves en el menú: la diferencia son las del sistema, y esas son las que se olvidan.</p>
     <pre><code>adb shell pm list packages -u &gt; lista-de-paquetes.txt &amp;&amp; wc -l lista-de-paquetes.txt</code></pre></div>
 
@@ -177,10 +177,10 @@ a{color:var(--acento)}
 <li>Ejecuta una primera copia de una sola aplicación para comprobar que el repositorio se abre y escribe.</li>
 <li>Verifica el repositorio con una comprobación de integridad desde la computadora o desde la propia aplicación.</li>
 <li>Programa una copia periódica y prueba una restauración en un directorio temporal antes de necesitarla de verdad.</li></ol>
-    <p><strong>Qué debe verse al terminar:</strong> Un repositorio restic con las copias dentro, verificable con `restic check`, y una restauración de prueba que devuelve los archivos.</p>
+    <p><strong>Qué debe verse al terminar:</strong> Un repositorio restic con las copias dentro, verificable con <code>restic check</code>, y una restauración de prueba que devuelve los archivos.</p>
     <p><strong>Si sale mal:</strong></p><ul><li>Si la contraseña del repositorio se pierde, las copias son irrecuperables: no hay puerta trasera y eso es una virtud, no un fallo.</li>
 <li>Si la copia falla por espacio, el repositorio deduplica, pero necesita sitio libre para el índice.</li></ul>
-    <p><strong>Cómo se deshace:</strong> Las copias quedan en el repositorio y se borran con `restic forget` y `restic prune`. Lo restaurado se puede volver a restaurar de la copia anterior.</p></div>
+    <p><strong>Cómo se deshace:</strong> Las copias quedan en el repositorio y se borran con <code>restic forget</code> y <code>restic prune</code>. Lo restaurado se puede volver a restaurar de la copia anterior.</p></div>
 
   <div class="capa"><h4>Cabeza · por qué funciona</h4><p>restic no guarda archivos: guarda bloques. Dos copias de la misma aplicación solo almacenan lo que cambió entre una y otra, y cada bloque va cifrado con la clave del repositorio.</p>
 <p>Esa es la diferencia entre esta ficha y las dos anteriores: aquí la copia no vive en una carpeta que cualquiera puede abrir, vive en un repositorio que solo se abre con la contraseña, y que se puede comprobar y podar sin miedo.</p>
@@ -189,7 +189,7 @@ a{color:var(--acento)}
 <li>La contraseña del repositorio es una llave que no se puede recuperar.</li></ul></div>
 
   <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
-    <p>La comprobación de integridad es lo que separa una copia de una carpeta con archivos. `restic check` lee el índice y verifica que cada bloque referenciado exista y coincida con su resumen; una copia que nunca se comprobó puede estar rota desde el mes pasado y nadie lo sabría hasta el día de restaurar. Y hay un detalle práctico: la comprobación sin `--read-data` no lee los bloques, solo el índice, así que es rápida y sirve para el día a día, mientras que la lectura completa se reserva para una vez al mes.</p>
+    <p>La comprobación de integridad es lo que separa una copia de una carpeta con archivos. <code>restic check</code> lee el índice y verifica que cada bloque referenciado exista y coincida con su resumen; una copia que nunca se comprobó puede estar rota desde el mes pasado y nadie lo sabría hasta el día de restaurar. Y hay un detalle práctico: la comprobación sin <code>--read-data</code> no lee los bloques, solo el índice, así que es rápida y sirve para el día a día, mientras que la lectura completa se reserva para una vez al mes.</p>
     <p><strong>Cómo se comprueba:</strong> Ejecuta la comprobación contra el repositorio del teléfono desde la computadora: si termina sin errores, la copia se puede restaurar. Si dice que faltan bloques, hay que volver a copiar esa aplicación.</p>
     <pre><code>restic -r &lt;repositorio&gt; check</code></pre></div>
 

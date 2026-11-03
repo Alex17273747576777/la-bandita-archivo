@@ -3,29 +3,89 @@
  "actualizado": "2026-11-03",
  "regla": "Los capítulos se ordenan por tarea que resuelve, no por tipo de programa.",
  "capitulos": [
-  {"numero": 1, "titulo": "Antes de tocar nada", "archivo": "01-antes-de-tocar-nada.md", "planificado": true,
-   "tarea": "Copia de seguridad, qué se pierde, cómo se vuelve atrás."},
-  {"numero": 2, "titulo": "El teléfono que decide por ti", "archivo": "02-el-telefono-que-decide-por-ti.md", "planificado": true,
-   "tarea": "Quitar publicidad y aplicaciones de fábrica sin root."},
-  {"numero": 3, "titulo": "El permiso prestado", "archivo": "03-el-permiso-prestado.md", "planificado": false,
-   "tarea": "Conceder, comprobar y revocar el permiso de depuración; usarlo con criterio."},
-  {"numero": 4, "titulo": "Instalar fuera de la tienda", "archivo": "04-instalar-fuera-de-la-tienda.md", "planificado": true,
-   "tarea": "Paquetes, huellas, formatos partidos y actualizaciones."},
-  {"numero": 5, "titulo": "Privacidad que se puede comprobar", "archivo": "05-privacidad-comprobable.md", "planificado": true,
-   "tarea": "Permisos, rastreadores, DNS y qué se puede auditar de verdad."},
-  {"numero": 6, "titulo": "Tu música y tus libros, tuyos", "archivo": "06-musica-y-libros.md", "planificado": true,
-   "tarea": "Reproducir y leer sin depender de nadie."},
-  {"numero": 7, "titulo": "Archivos, copias y nubes propias", "archivo": "07-archivos-y-copias.md", "planificado": true,
-   "tarea": "Sincronizar y respaldar sin empresa de por medio."},
-  {"numero": 8, "titulo": "La red", "archivo": "08-la-red.md", "planificado": true,
-   "tarea": "VPN, proxy, bloqueo y lo que no hace falta."},
-  {"numero": 9, "titulo": "El televisor y la casa", "archivo": "09-televisor-y-casa.md", "planificado": true,
-   "tarea": "Lo mismo para la pantalla grande y los aparatos de la casa."},
-  {"numero": 10, "titulo": "El taller", "archivo": "10-el-taller.md", "planificado": true,
-   "tarea": "Terminal, depuración, automatización y administración del aparato."},
-  {"numero": 11, "titulo": "Cuando algo se rompe", "archivo": "11-cuando-algo-se-rompe.md", "planificado": true,
-   "tarea": "Diagnóstico paso a paso, sin milagros."},
-  {"numero": 12, "titulo": "El oficio", "archivo": "12-el-oficio.md", "planificado": true,
-   "tarea": "Cómo verificar por tu cuenta lo que esta guía afirma."}
+  {
+   "numero": 1,
+   "titulo": "Antes de tocar nada",
+   "archivo": "01-antes-de-tocar-nada.md",
+   "planificado": false,
+   "tarea": "Copia de seguridad, qué se pierde, cómo se vuelve atrás."
+  },
+  {
+   "numero": 2,
+   "titulo": "El teléfono que decide por ti",
+   "archivo": "02-el-telefono-que-decide-por-ti.md",
+   "planificado": false,
+   "tarea": "Quitar publicidad y aplicaciones de fábrica sin root."
+  },
+  {
+   "numero": 3,
+   "titulo": "El permiso prestado",
+   "archivo": "03-el-permiso-prestado.md",
+   "planificado": false,
+   "tarea": "Conceder, comprobar y revocar el permiso de depuración; usarlo con criterio."
+  },
+  {
+   "numero": 4,
+   "titulo": "Instalar fuera de la tienda",
+   "archivo": "04-instalar-fuera-de-la-tienda.md",
+   "planificado": false,
+   "tarea": "Paquetes, huellas, formatos partidos y actualizaciones."
+  },
+  {
+   "numero": 5,
+   "titulo": "Privacidad que se puede comprobar",
+   "archivo": "05-privacidad-comprobable.md",
+   "planificado": true,
+   "tarea": "Permisos, rastreadores, DNS y qué se puede auditar de verdad."
+  },
+  {
+   "numero": 6,
+   "titulo": "Tu música y tus libros, tuyos",
+   "archivo": "06-musica-y-libros.md",
+   "planificado": true,
+   "tarea": "Reproducir y leer sin depender de nadie."
+  },
+  {
+   "numero": 7,
+   "titulo": "Archivos, copias y nubes propias",
+   "archivo": "07-archivos-y-copias.md",
+   "planificado": true,
+   "tarea": "Sincronizar y respaldar sin empresa de por medio."
+  },
+  {
+   "numero": 8,
+   "titulo": "La red",
+   "archivo": "08-la-red.md",
+   "planificado": true,
+   "tarea": "VPN, proxy, bloqueo y lo que no hace falta."
+  },
+  {
+   "numero": 9,
+   "titulo": "El televisor y la casa",
+   "archivo": "09-televisor-y-casa.md",
+   "planificado": true,
+   "tarea": "Lo mismo para la pantalla grande y los aparatos de la casa."
+  },
+  {
+   "numero": 10,
+   "titulo": "El taller",
+   "archivo": "10-el-taller.md",
+   "planificado": true,
+   "tarea": "Terminal, depuración, automatización y administración del aparato."
+  },
+  {
+   "numero": 11,
+   "titulo": "Cuando algo se rompe",
+   "archivo": "11-cuando-algo-se-rompe.md",
+   "planificado": true,
+   "tarea": "Diagnóstico paso a paso, sin milagros."
+  },
+  {
+   "numero": 12,
+   "titulo": "El oficio",
+   "archivo": "12-el-oficio.md",
+   "planificado": true,
+   "tarea": "Cómo verificar por tu cuenta lo que esta guía afirma."
+  }
  ]
 }
