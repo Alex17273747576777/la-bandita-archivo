@@ -105,8 +105,6 @@ CAMPOS = """a%d: repository(owner:"%s", name:"%s") {
   licenseInfo{spdxId} hasIssuesEnabled
   issuesOpen: issues(states: OPEN){totalCount}
   issuesClosed: issues(states: CLOSED){totalCount}
-  releases(last:3, orderBy:{field: CREATED_AT, direction: DESC}){totalCount nodes{tagName publishedAt isPrerelease
-    releaseAssets(first:20){totalCount nodes{name size downloadCount}}}}
   defaultBranchRef{target{... on Commit{oid history(since:"%s"){totalCount}}}}
   workflows: object(expression:"HEAD:.github/workflows"){ ... on Tree { entries { name } } }
   seguridad: object(expression:"HEAD:SECURITY.md"){ oid }
@@ -130,7 +128,8 @@ def medir_bloque(repos: list[str], desde: str) -> dict[str, dict]:
     return out
 
 
-def evaluar(repo: str, b: dict, contribuyentes: int | None, sc: float | None, hoy: date) -> dict:
+def evaluar(repo: str, b: dict, contribuyentes: int | None, sc: float | None, hoy: date,
+             entregas: list[dict] | None = None) -> dict:
     r, notas = 0, []
     lic = (b.get("licenseInfo") or {}).get("spdxId")
     if lic and lic != "NOASSERTION":
@@ -142,8 +141,7 @@ def evaluar(repo: str, b: dict, contribuyentes: int | None, sc: float | None, ho
         r += 10; notas.append(f"integración continua con {len(flujos)} flujo(s) +10")
     else:
         notas.append("sin flujos de integración +0")
-    adj = [a for rel in ((b.get("releases") or {}).get("nodes") or [])
-           for a in ((rel.get("releaseAssets") or {}).get("nodes") or [])]
+    adj = [a for rel in (entregas or []) for a in (rel.get("adjuntos") or [])]
     huella = [a for a in adj if any(x in (a.get("name") or "").lower()
                                     for x in (".sha256", ".sig", ".asc", "sha256sum", ".sha512"))]
     if huella:
@@ -152,8 +150,8 @@ def evaluar(repo: str, b: dict, contribuyentes: int | None, sc: float | None, ho
         notas.append("adjuntos sin huella +0")
     else:
         r -= 10; notas.append("ninguna entrega con adjuntos −10")
-    ult = ((b.get("releases") or {}).get("nodes") or [{}])[0]
-    fecha_ult = (ult.get("publishedAt") or "")[:10]
+    # la entrega más reciente PUBLICADA: los borradores traen fecha nula y no cuentan
+    fecha_ult = max((e.get("fecha") or "" for e in (entregas or [])), default="")
     if fecha_ult and (hoy - date.fromisoformat(fecha_ult)).days <= 30:
         r += 10; notas.append("entrega en los últimos 30 días +10")
     else:
@@ -230,7 +228,15 @@ def main() -> int:
         c, _ = rest(f"/repos/{repo}/contributors?per_page=100&anon=false")
         contrib = len(c) if isinstance(c, list) else None
         sc, _ = scorecard(repo)
-        fichas.append(evaluar(repo, b, contrib, sc, hoy))
+        rel, _ = rest(f"/repos/{repo}/releases?per_page=10")
+        entregas = []
+        if isinstance(rel, list):
+            for x in rel:
+                if not isinstance(x, dict) or x.get("draft"):
+                    continue
+                entregas.append({"tag": x.get("tag_name"), "fecha": (x.get("published_at") or "")[:10],
+                                 "adjuntos": [{"name": (ay or {}).get("name") or ""} for ay in (x.get("assets") or [])]})
+        fichas.append(evaluar(repo, b, contrib, sc, hoy, entregas))
         if (i + 1) % 10 == 0:
             print(f"  … {i + 1}/{len(repos)}", flush=True)
         time.sleep(0.2)
