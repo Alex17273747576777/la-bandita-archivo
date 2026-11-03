@@ -9,6 +9,7 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | Aplicación | Autor | Licencia | Medido |
 |---|---|---|---|
 | [Accrescent](https://github.com/accrescent/accrescent) | [The Accrescent Contributors](https://github.com/accrescent) | Apache-2.0 | 3 de noviembre de 2026 |
+| [AdAway](https://github.com/AdAway/AdAway) | [PerfectSlayer y colaboradores de AdAway](https://github.com/PerfectSlayer) | GPL-3.0 | 3 de noviembre de 2026 |
 | [App Manager NG](https://github.com/SysAdminDoc/AppManagerNG) | [SysAdminDoc](https://github.com/SysAdminDoc) | GPL-3.0 | 3 de noviembre de 2026 |
 | [AppListBackup](https://github.com/AndroidLabs-org/AppListBackup) | [AndroidLabs-org](https://github.com/AndroidLabs-org) | GPL-3.0 | 3 de noviembre de 2026 |
 | [AppVerifier](https://github.com/soupslurpr/AppVerifier) | [soupslurpr](https://github.com/soupslurpr) | ISC | 3 de noviembre de 2026 |
@@ -20,13 +21,18 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [F-Droid](https://github.com/f-droid/fdroidclient) | [F-Droid](https://gitlab.com/fdroid/fdroidclient) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Hail](https://github.com/aistra0528/Hail) | [aistra0528](https://github.com/aistra0528) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Neo Backup](https://github.com/NeoApplications/Neo-Backup) | [NeoApplications](https://github.com/NeoApplications) | AGPL-3.0 | 3 de noviembre de 2026 |
+| [NetGuard](https://github.com/M66B/NetGuard) | [Marcel Bokhorst (M66B)](https://github.com/M66B) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Obtainium](https://github.com/ImranR98/Obtainium) | [ImranR98](https://github.com/ImranR98) | GPL-3.0 | 3 de noviembre de 2026 |
 | [OmniShizuku](https://github.com/krishna3163/OmniShizuku) | [krishna3163](https://github.com/krishna3163) | Apache-2.0 | 3 de noviembre de 2026 |
+| [PCAPdroid](https://github.com/emanuele-f/PCAPdroid) | [Emanuele Faranda](https://github.com/emanuele-f) | GPL-3.0 | 3 de noviembre de 2026 |
+| [personalDNSfilter](https://github.com/IngoZenz/personaldnsfilter) | [Ingo Zenz](https://www.zenz-solutions.de/) | GPL-2.0 | 3 de noviembre de 2026 |
 | [restoid](https://github.com/hddq/restoid) | [hddq](https://github.com/hddq) | GPL-3.0 | 3 de noviembre de 2026 |
+| [Rethink](https://github.com/celzero/rethink-app) | [celzero](https://github.com/celzero) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Seedvault](https://github.com/seedvault-app/seedvault) | [Seedvault](https://github.com/seedvault-app) | Apache-2.0 (declarada en el proyecto; GitHub no la detecta) | 3 de noviembre de 2026 |
 | [Shevery](https://github.com/HmnDev-Tech/shevery) | [HmnDev-Tech](https://github.com/HmnDev-Tech) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Shizuku](https://github.com/RikkaApps/Shizuku) | [RikkaApps (RikkaW)](https://github.com/RikkaApps) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Shizuku-Next](https://github.com/rushiranpise/Shizuku-Next) | [rushiranpise](https://github.com/rushiranpise) | Apache-2.0 | 3 de noviembre de 2026 |
+| [TrackerControl](https://github.com/TrackerControl/tracker-control-android) | [Konrad Kollnig y la comunidad TrackerControl](https://github.com/TrackerControl) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Universal Android Debloater NG](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation) | [Universal-Debloater-Alliance](https://github.com/Universal-Debloater-Alliance) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Universal Installer](https://github.com/pass-with-high-score/universal-installer) | [pass-with-high-score](https://github.com/pass-with-high-score) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Uraam](https://github.com/Ruraam/Uraam) | [Ruraam](https://github.com/Ruraam) | GPL-3.0 | 3 de noviembre de 2026 |

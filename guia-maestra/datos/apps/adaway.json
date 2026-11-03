@@ -1,0 +1,75 @@
+{
+ "id": "adaway",
+ "nombre": "AdAway",
+ "repo": "AdAway/AdAway",
+ "autores": [
+  {
+   "nombre": "PerfectSlayer y colaboradores de AdAway",
+   "enlace": "https://github.com/PerfectSlayer"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/AdAway/AdAway/blob/master/LICENSE.md"
+ },
+ "nivel": "principiante",
+ "tarea": "Quitar los anuncios y buena parte del seguimiento de todo el teléfono con una lista de nombres, sin configurar reglas y sin tocar ninguna aplicación.",
+ "capitulo": 5,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien quiere una sola decisión, tomada una vez, y que el teléfono deje de cargar anuncios sin más preguntas.",
+  "no_es": "para quien necesita reglas por aplicación, ver registros o decidir qué red se permite: para eso hace falta un cortafuegos, y está en las fichas siguientes."
+ },
+ "manos": [
+  "Bajá la APK de la última entrega publicada o instalala desde F-Droid; comprobá antes la huella del archivo si la bajaste de GitHub.",
+  "Al abrirla por primera vez, revisá qué método de bloqueo usa el teléfono: sin root usa el túnel local, y con root escribe el archivo de nombres del sistema.",
+  "Mirá la lista de fuentes que trae y desactivá las que no quieras; cada una muestra cuántos nombres aporta y cuándo se actualizó.",
+  "Aplicá la lista y esperá a que termine: en el modo sin root, la aplicación reescribe su copia local y levanta el túnel.",
+  "Abrí en el navegador una página con anuncios conocidos y comprobá que cargan los huecos; después reiniciá el teléfono y repetí la prueba."
+ ],
+ "resultado_esperado": "El teléfono deja de resolver los nombres de las listas: los anuncios no cargan, las aplicaciones siguen funcionando y el túnel o el archivo de nombres queda activo tras reiniciar.",
+ "si_sale_mal": [
+  "Si alguna web o aplicación deja de funcionar, desactivá la fuente más agresiva y volvé a aplicar: casi siempre es una lista de terceros y no la principal.",
+  "Si el bloqueo desaparece tras reiniciar en modo sin root, revisá que el túnel tenga permiso de arranque automático.",
+  "Si tenés root y el teléfono no arranca bien después de aplicar una lista enorme, la recuperación del fabricante reescribe el archivo del sistema; por eso conviene empezar con la lista por defecto."
+ ],
+ "deshacer": "Desactivar el bloqueo y aplicar de nuevo deja el teléfono como estaba: en modo sin root se apaga el túnel; con root se restaura el archivo original que la propia aplicación guarda antes de tocarlo.",
+ "cabeza": [
+  "AdAway no bloquea anuncios: bloquea **nombres**. Escribe una lista donde cada nombre de anunciante apunta a una dirección nula, de modo que cuando una aplicación pide el anuncio el sistema le contesta que esa dirección no lleva a ninguna parte. No hay inspección, no hay descifrado y no hay base de datos de programas: sólo una lista de nombres y una respuesta falsa.",
+  "Esa simplicidad es su fuerza y su límite al mismo tiempo. Es rapidísima, ocupa poco, funciona con cualquier aplicación y no distingue a quién bloquea. Y falla exactamente donde falla toda lista: ante una dirección escrita en números, ante una aplicación que resuelve nombres por su cuenta y ante un nombre que todavía no está en la lista.",
+  "El detalle de método que hay que mirar en esta ficha es otro. AdAway tiene la cifra de estrellas más alta del capítulo —nueve mil quinientas noventa y dos— y su última entrega publicada es de octubre de 2024, aunque el código se mueve en septiembre de 2026. Un proyecto puede estar vivo en el código y quieto en las entregas, y ninguna de las dos cosas lo descalifica: el modo de bloqueo por lista no caduca. Lo que caduca es la lista, y por eso la comprobación importante no es la fecha de la aplicación sino la de sus fuentes."
+ ],
+ "limites": [
+  "No bloquea direcciones numéricas escritas dentro de la aplicación: para eso hace falta cortar por aplicación.",
+  "Sin root depende del túnel local, así que ocupa el único disponible y compite con cualquier red privada.",
+  "No ve el tráfico: no sirve para averiguar qué hace una aplicación, sólo para impedir que resuelva ciertos nombres.",
+  "Su última entrega es de octubre de 2024; las listas se actualizan aparte, y esa es la fecha que importa de verdad."
+ ],
+ "oficio": {
+  "dato": "La lista que bloquea no viene con la aplicación: viene de una dirección de internet, y se puede medir. Hoy, 3 de noviembre de 2026, la lista por defecto de AdAway sirve 6.541 nombres bloqueados; la de Dan Pollock, 12.976; y la de Steven Black, que mezcla varias fuentes, 77.762. Tres fuentes, tres tamaños, y la de mayor tamaño no es la mejor: cuanto más grande, más probabilidades de que incluya algo que tu banco o tu trabajo necesitan. Esa es la decisión real de este apartado, y no se toma leyendo recomendaciones sino contando líneas. Si mañana una de esas direcciones devuelve un error o una lista de tres líneas, tu bloqueo dejó de existir aunque la aplicación siga diciendo que está activo.",
+  "como_comprobar": "Pedí la lista por defecto y contá cuántos nombres aporta. Repetilo con la fuente que tengas activa: si el número es muy distinto del que muestra la aplicación, la fuente cambió y tu bloqueo no es el que creés.",
+  "comando": "curl -s https://adaway.org/hosts.txt | grep -cE '^(0\\.0\\.0\\.0|127\\.0\\.0\\.1)'"
+ },
+ "riesgos": [
+  "Aplicar una lista enorme de una fuente desconocida y romper funciones que dependen de dominios legítimos.",
+  "Con root, reemplazar el archivo de nombres del sistema sin copia previa: la vuelta atrás deja de estar en tus manos."
+ ],
+ "alternativas": [
+  "IngoZenz/personaldnsfilter",
+  "TrackerControl/tracker-control-android"
+ ],
+ "senal": {
+  "estrellas": 9592,
+  "nota": 42,
+  "edad_dias": 5224,
+  "ultima_entrega": "2024-10-27",
+  "descargas_10": 1645916,
+  "contribuyentes": 50,
+  "repo_mb": 40.2,
+  "ci": 5,
+  "incidencias": "683 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de PerfectSlayer y la comunidad AdAway · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

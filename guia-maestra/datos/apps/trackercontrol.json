@@ -1,0 +1,76 @@
+{
+ "id": "trackercontrol",
+ "nombre": "TrackerControl",
+ "repo": "TrackerControl/tracker-control-android",
+ "autores": [
+  {
+   "nombre": "Konrad Kollnig y la comunidad TrackerControl",
+   "enlace": "https://github.com/TrackerControl"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/TrackerControl/tracker-control-android/blob/master/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Ver con tus ojos con qué empresas habla cada aplicación del teléfono, saber para qué dice hacerlo y cortarle el paso a las que no te convienen.",
+ "capitulo": 5,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien quiere empezar por entender antes de cortar: la aplicación muestra primero y bloquea después, con el nombre de la empresa rastreadora delante.",
+  "no_es": "para quien busca un cortafuegos fino por dirección o por red: para eso están Rethink y NetGuard, que dan reglas más precisas y menos explicación."
+ },
+ "manos": [
+  "Bajá la APK de la última entrega junto a sus dos archivos de comprobación —el resumen de construcción y las sumas— y verificá el archivo antes de instalar.",
+  "Al abrirla, aceptá que cree el túnel local: es el mecanismo sin root que le permite ver el tráfico, y el teléfono mostrará una llave mientras esté activo.",
+  "Usá el teléfono un día normal, sin bloquear nada todavía; al volver, abrí cada aplicación en la lista y mirá las empresas que aparecen con su categoría.",
+  "Ordená por número de contactos y bloqueá primero los rastreadores de publicidad de las aplicaciones que menos te importan; dejá las de mensajería y banca para el final.",
+  "Comprobá el resultado a la semana: si una aplicación dejó de funcionar, desbloqueá sus rastreadores de análisis y dejá sólo los de publicidad."
+ ],
+ "resultado_esperado": "Tenés un informe por aplicación de las empresas de seguimiento con las que habla, con la categoría declarada, y las que bloqueaste dejan de recibir datos sin que el teléfono se rompa.",
+ "si_sale_mal": [
+  "Si alguna aplicación se niega a abrir, desbloqueá sus rastreadores de análisis y volvé a probar: casi siempre el bloqueo de más es el de análisis y no el de publicidad.",
+  "Si el túnel se cae tras reiniciar, revisá que la aplicación tenga permiso para iniciarse con el sistema; el aviso de la llave en la barra es la señal de que está activo.",
+  "Si querés usar a la vez una red privada de pago, activá el enrutado remoto hacia un proveedor desde esta misma aplicación, o elegí Rethink: Android no admite dos túneles a la vez."
+ ],
+ "deshacer": "Desactivar el túnel desde la propia aplicación devuelve el teléfono al estado anterior en un segundo: no toca archivos, no modifica aplicaciones y no deja rastro. Desinstalarla borra el historial de contactos que había registrado.",
+ "cabeza": [
+  "La aplicación crea un túnel local —el mecanismo de red privada del sistema, sin servidor externo— y analiza el tráfico de nombres **en el propio teléfono**. Con eso ve con quién habla cada aplicación y, sobre todo, clasifica: cada dominio aparece asociado a una empresa y a un propósito, publicidad, análisis o contenido incrustado. Esa clasificación es lo que la vuelve didáctica, y es lo que la distingue de un bloqueador a secas.",
+  "Lo que detecta no es sólo tráfico: también lee el interior del paquete instalado buscando bibliotecas de seguimiento por firma de código, con el criterio que usan ClassyShark3xodus y εxodus. Por eso a veces te avisa de una biblioteca antes de que esa aplicación haya hablado con nadie: la encontró dentro del paquete, no en la red.",
+  "Y una tercera capacidad que casi nadie usa: detecta **encubrimiento de DNS**, la técnica de resolver nombres por un canal propio para que el filtro no vea a quién se le pregunta. No la bloquea siempre, pero la marca, y una marca así es información: la aplicación que esconde su resolutor está diciendo algo de sí misma."
+ ],
+ "limites": [
+  "Ocupa el único túnel disponible: mientras esté activa, otra aplicación de red privada no puede funcionar sobre ella.",
+  "Clasifica por listas: una empresa nueva o un dominio recién acuñado puede tardar en aparecer con nombre y categoría.",
+  "El túnel consume batería, aunque el proyecto lo mantiene contenido; en teléfonos antiguos se nota.",
+  "La aplicación pesa más de cincuenta megas y su repositorio arrastra años de historia: no es un programa ligero."
+ ],
+ "oficio": {
+  "dato": "TrackerControl publica en cada entrega tres archivos, no uno: la APK, un resumen de construcción y un archivo de sumas. Ese terceto es una cadena de comprobación completa y permite hacer algo que casi nadie hace: verificar la descarga contra el archivo de sumas en lugar de comparar a ojo un número de sesenta y cuatro caracteres. La entrega del 1 de noviembre de 2026 trae los tres, y con la orden de comprobación el propio sistema te dice si el archivo coincide o no. Es el patrón que conviene exigir a cualquier proyecto del que te bajes un binario: si publica una suma, comprobar es una orden; si no la publica, comprobar es imposible y eso también es información.",
+  "como_comprobar": "Descargá la APK y el archivo de sumas de la misma entrega, ponelos en la misma carpeta y pedile al sistema que verifique. Si la respuesta dice que el archivo está correcto, coincide; si dice que falló, el archivo no es el que se publicó.",
+  "comando": "sha256sum -c TrackerControl-githubRelease-latest.apk.sha256sums"
+ },
+ "riesgos": [
+  "Bloquear todo de golpe el primer día y quedarse con un teléfono sin notificaciones ni compras dentro de aplicaciones.",
+  "Confundir el informe con una garantía: muestra lo que sale por la red, no lo que la aplicación ya guardó en el teléfono."
+ ],
+ "alternativas": [
+  "celzero/rethink-app",
+  "M66B/NetGuard",
+  "IngoZenz/personaldnsfilter"
+ ],
+ "senal": {
+  "estrellas": 2719,
+  "nota": 75,
+  "edad_dias": 2550,
+  "ultima_entrega": "2026-11-01",
+  "descargas_10": 103115,
+  "contribuyentes": 15,
+  "repo_mb": 53.4,
+  "ci": 5,
+  "incidencias": "5 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Konrad Kollnig y la comunidad TrackerControl · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

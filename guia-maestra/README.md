@@ -2,7 +2,7 @@
 
 **Aplicaciones y recursos de código abierto, en español, con el oficio explicado.**
 
-_Estado: 4 capítulos publicados de 12 · 22 fichas verificadas · última medición 3 de noviembre de 2026_
+_Estado: 5 capítulos publicados de 12 · 28 fichas verificadas · última medición 3 de noviembre de 2026_
 
 Cada ficha tiene tres capas: **Manos** (los pasos, para quien empieza), **Cabeza** (cómo funciona y
 dónde se rompe) y **Oficio** (un dato que casi nadie sabe y que se puede comprobar). Sin la tercera,
@@ -16,7 +16,7 @@ la aplicación no entra.
 | 2 | El teléfono que decide por ti | publicado | 5 |
 | 3 | El permiso prestado | publicado | 6 |
 | 4 | Instalar fuera de la tienda | publicado | 6 |
-| 5 | Privacidad que se puede comprobar | en preparación | 0 |
+| 5 | Privacidad que se puede comprobar | publicado | 6 |
 | 6 | Tu música y tus libros, tuyos | en preparación | 0 |
 | 7 | Archivos, copias y nubes propias | en preparación | 0 |
 | 8 | La red | en preparación | 0 |
@@ -51,6 +51,12 @@ la aplicación no entra.
 | [Universal Installer](https://github.com/pass-with-high-score/universal-installer) | intermedio | **61** | GPL-3.0 | pass-with-high-score | 3 de noviembre de 2026 |
 | [AppVerifier](https://github.com/soupslurpr/AppVerifier) | intermedio | **32** | ISC | soupslurpr | 3 de noviembre de 2026 |
 | [Aurora Store](https://github.com/AuroraOSS/AuroraStore) | experto | **25** | GPL-3.0 | Aurora OSS | 3 de noviembre de 2026 |
+| [TrackerControl](https://github.com/TrackerControl/tracker-control-android) | principiante | **75** | GPL-3.0 | Konrad Kollnig y la comunidad TrackerControl | 3 de noviembre de 2026 |
+| [AdAway](https://github.com/AdAway/AdAway) | principiante | **42** | GPL-3.0 | PerfectSlayer y colaboradores de AdAway | 3 de noviembre de 2026 |
+| [Rethink](https://github.com/celzero/rethink-app) | intermedio | **62** | Apache-2.0 | celzero | 3 de noviembre de 2026 |
+| [personalDNSfilter](https://github.com/IngoZenz/personaldnsfilter) | intermedio | **47** | GPL-2.0 | Ingo Zenz | 3 de noviembre de 2026 |
+| [NetGuard](https://github.com/M66B/NetGuard) | experto | **25** | GPL-3.0 | Marcel Bokhorst (M66B) | 3 de noviembre de 2026 |
+| [PCAPdroid](https://github.com/emanuele-f/PCAPdroid) | experto | **48** | GPL-3.0 | Emanuele Faranda | 3 de noviembre de 2026 |
 
 ## Cómo se mide la nota
 

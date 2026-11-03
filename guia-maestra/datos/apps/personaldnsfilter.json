@@ -1,0 +1,75 @@
+{
+ "id": "personaldnsfilter",
+ "nombre": "personalDNSfilter",
+ "repo": "IngoZenz/personaldnsfilter",
+ "autores": [
+  {
+   "nombre": "Ingo Zenz",
+   "enlace": "https://www.zenz-solutions.de/"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-2.0",
+  "archivo": "https://github.com/IngoZenz/personaldnsfilter/blob/master/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Filtrar consultas de nombres en el teléfono y, si querés, en toda la casa, con registro de cada consulta y con la posibilidad de usar el propio teléfono como servidor de nombres.",
+ "capitulo": 5,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien quiere leer el registro consulta por consulta, usar sus propias listas y hasta servir a toda la red de la casa desde un solo aparato.",
+  "no_es": "para quien quiere una aplicación con pantalla moderna y asistentes: la interfaz es austera y la configuración se hace en un archivo de texto."
+ },
+ "manos": [
+  "Instalala desde F-Droid o desde su entrega, y abrí la configuración para ver el archivo de ajustes: ahí se eligen las listas y el servidor de nombres de salida.",
+  "Revisá las listas que vienen puestas y añadí o quitá las que quieras; cada una es una dirección que el programa consulta cada cierto tiempo.",
+  "Activá el filtro en el teléfono, aceptando el túnel local, y abrí el registro: vas a ver cada consulta con hora y con el veredicto.",
+  "Probá una consulta a mano desde una computadora de la misma red apuntando al teléfono como servidor de nombres, para ver el filtro funcionando por fuera de la aplicación.",
+  "Guardá el archivo de configuración fuera del teléfono: es todo lo que hace falta para reproducir tu filtro en otro aparato."
+ ],
+ "resultado_esperado": "Cada consulta de nombres queda registrada y filtrada en el propio teléfono, y si lo configuraste como servidor, los demás aparatos de la casa usan el mismo filtro sin instalar nada.",
+ "si_sale_mal": [
+  "Si el teléfono se queda sin resolución de nombres, desactivá el filtro y comprobá qué servidor de salida tenías configurado: un resolutor mal escrito deja todo sin nombres.",
+  "Si una aplicación deja de funcionar, añadí su dominio a la lista de excepciones en el archivo de configuración y recargá.",
+  "Si el registro crece sin control, limitá su tamaño en la configuración: es un archivo de texto y crece con el uso."
+ ],
+ "deshacer": "Desactivar el filtro devuelve la resolución normal al instante. Desinstalar la aplicación borra el registro y la configuración, así que conviene copiar el archivo de ajustes antes si pensás volver.",
+ "cabeza": [
+  "El programa es un pequeño servidor de nombres que corre en el teléfono. Intercepta la consulta, la compara con sus listas y, si el nombre está filtrado, contesta con la dirección local en lugar de la real. Nada más. Esa modestia es la razón de que ocupe pocos megas mientras filtra millones de nombres: no guarda el contenido, sólo decide sobre la pregunta.",
+  "Su rasgo poco conocido es que también corre fuera del teléfono. El mismo programa existe para computadoras y se puede dejar en un aparato pequeño de la casa funcionando como servidor de nombres de toda la red: entonces el teléfono, la televisión y la tableta quedan filtrados sin instalar nada en ellos. Es la diferencia entre proteger un aparato y proteger una casa, y es la puerta de entrada al capítulo de la red.",
+  "En el teléfono admite dos formas de funcionar, con túnel local y sin él si el aparato tiene root. La segunda es más limpia porque no ocupa el túnel, pero pierde el registro por aplicación: cuando filtras por debajo, el sistema no te dice qué programa hizo la consulta. Ahí está el compromiso real de esta herramienta: ves la consulta, no siempre el autor."
+ ],
+ "limites": [
+  "Interfaz austera y configuración por archivo de texto: no es una aplicación para regalar a alguien que empieza.",
+  "Sin root ocupa el único túnel disponible, igual que las demás de esta categoría.",
+  "Filtra nombres: una aplicación que use direcciones fijas o su propio resolutor se le escapa.",
+  "El registro puede crecer mucho y hay que limitarlo a mano."
+ ],
+ "oficio": {
+  "dato": "Cuando el filtro decide que un nombre está bloqueado, no devuelve un error: devuelve la dirección local del aparato. Es una decisión técnica con consecuencias visibles, porque significa que la aplicación que pidió el nombre cree que el servidor existe y está ahí mismo. Muchas veces eso basta para que el programa siga funcionando sin el anuncio; otras veces, la aplicación se queda esperando una respuesta que nunca llega y tarda en arrancar. Saber esto explica un síntoma que la gente describe mal —«la aplicación se queda pensando»— y permite diagnosticarlo: si al desactivar el filtro arranca rápido, el problema es una consulta bloqueada, no la aplicación. Y el registro, que es lo más valioso de la herramienta, se lee como un diario: nombre consultado, hora y veredicto.",
+  "como_comprobar": "Consultá un nombre que sepas filtrado, primero contra el resolutor de tu operador y después contra el aparato donde corre el filtro. La dirección que devuelve el segundo es la pista: si es la local, está bloqueando.",
+  "comando": "nslookup doubleclick.net 192.168.1.50"
+ },
+ "riesgos": [
+  "Dejar el registro sin límite y llenar el almacenamiento del teléfono.",
+  "Usar listas de terceros sin revisarlas y romper servicios legítimos de la casa entera si el filtro sirve a toda la red."
+ ],
+ "alternativas": [
+  "AdAway/AdAway",
+  "celzero/rethink-app"
+ ],
+ "senal": {
+  "estrellas": 951,
+  "nota": 47,
+  "edad_dias": 3148,
+  "ultima_entrega": "2026-10-18",
+  "descargas_10": 13216,
+  "contribuyentes": 16,
+  "repo_mb": 3.4,
+  "ci": 0,
+  "incidencias": "66 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Ingo Zenz · GPL-2.0 · medido el 3 de noviembre de 2026"
+}
