@@ -1,9 +1,9 @@
 # PIEZA 33 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/33-El-apoderado-Dhizuku-y-la-escuela-del-permiso-delegado-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 19 días)
 - **sha256 de la pieza:** `71b8b9317319750bddb83fc24f902f153f0149632f6915059da4ca133bba6491`
-- **Envío generado:** 2026-11-02 · 18 mensajes · el mayor de 3630 caracteres
+- **Envío generado:** 2026-11-03 · 18 mensajes · el mayor de 3630 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 18 · 851 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1 · MIT 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/33-El-apoderado-Dhizuku-y-la-escuela-del-permiso-delegado-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 18 · 2744 caracteres ═══
 
@@ -629,14 +629,14 @@ REV|050.4★ — ukuzihD/s0rmai=1|REV|TIM=2|REV|03-01-6202 — IPA-ukuzihD/s0rma
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 568 caracteres ═══
+═══ MENSAJE 17 de 18 · 560 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 33*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iamr0s/Dhizuku — ★4.075 (+25) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• iamr0s/Dhizuku-API — ★207 (+3) · empujó el 30-oct-2026 (hace 3 días) · MIT · última release v2.7.0 (30-oct-2026)
+• iamr0s/Dhizuku — ★4.079 (+29) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• iamr0s/Dhizuku-API — ★207 (+3) · empujó el 30-oct-2026 (hace 4 días) · MIT · última release v2.7.0 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

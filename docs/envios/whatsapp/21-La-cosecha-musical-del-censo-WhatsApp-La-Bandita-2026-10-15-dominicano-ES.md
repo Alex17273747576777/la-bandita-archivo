@@ -1,9 +1,9 @@
 # PIEZA 21 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/21-La-cosecha-musical-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 19 días)
 - **sha256 de la pieza:** `daacec1f71ff7a996ff973f827d6a4021cd056455e27db4dead6af763e347275`
-- **Envío generado:** 2026-11-02 · 20 mensajes · el mayor de 3617 caracteres
+- **Envío generado:** 2026-11-03 · 20 mensajes · el mayor de 3617 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 872 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 8 · AGPL-3.0 2 · NOASSERTION 2 · MIT 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/21-La-cosecha-musical-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 1379 caracteres ═══
 
@@ -774,26 +774,26 @@ REV|82-40-3202 — rebmiT/41naman=1|REV|92-01-6202 — ecruoSreyalPtlaS/ylfairoM
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1949 caracteres ═══
+═══ MENSAJE 19 de 20 · 2109 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 21*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• team-spotube/spotube — ★50.553 (+87) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• maxrave-dev/SimpMusic — ★12.671 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• rukamori/ArchiveTune — ★7.889 (+114) · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
-• Moriafly/SaltPlayerSource — ★7.592 (+17) · empujó en las últimas horas · MIT · última release 12.6.0 (2-nov-2026)
-• naman14/Timber — ★7.034 (+1) · *dormido*: sin empujar desde el 28-abr-2023 (1284 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
-• PixelPlayerHQ/PixelPlayer — ★6.874 (+37) · empujó el 21-sep-2026 (hace 42 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
-• namidaco/namida — ★6.772 (sin cambio) · empujó en las últimas horas · NOASSERTION
-• z-huang/InnerTune — ★6.135 (sin cambio) · *dormido*: sin empujar desde el 13-nov-2025 (354 días) · GPL-3.0
-• OuterTune/OuterTune — ★5.442 (sin cambio) · empujó el 12-oct-2026 (hace 21 días) · GPL-3.0
-• RetroMusicPlayer/RetroMusicPlayer — ★5.381 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• gokadzev/Musify — ★4.390 (+9) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release 10.6.0 (23-oct-2026)
-• cwuom/NeriPlayer — ★4.050 (+66) · empujó en las últimas horas · GPL-3.0 · última release NeriPlayer-51f0100c.10312030 (31-oct-2026)
-• sonorahq/sonora — ★2.558 (+65) · empujó en las últimas horas · GPL-3.0 · última release v0.47.0 (2-nov-2026)
-• staniel359/muffon — ★2.257 (+6) · empujó el 26-oct-2026 (hace 7 días) · AGPL-3.0 · última release v2.5.0 (24-oct-2026)
+• team-spotube/spotube — ★50.564 (+98) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• maxrave-dev/SimpMusic — ★12.687 (+153) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• rukamori/ArchiveTune — ★7.930 (+155) · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
+• Moriafly/SaltPlayerSource — ★7.594 (+19) · empujó en las últimas horas · MIT · última release 12.6.0 (2-nov-2026)
+• naman14/Timber — ★7.036 (+3) · *dormido*: sin empujar desde el 28-abr-2023 (1285 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
+• PixelPlayerHQ/PixelPlayer — ★6.880 (+43) · empujó el 21-sep-2026 (hace 43 días) · NOASSERTION · última release 0.7.5-beta (13-jun-2026)
+• namidaco/namida — ★6.779 (+41) · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• z-huang/InnerTune — ★6.135 (+6) · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• OuterTune/OuterTune — ★5.441 (+4) · empujó el 12-oct-2026 (hace 22 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• RetroMusicPlayer/RetroMusicPlayer — ★5.382 (+8) · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)
+• gokadzev/Musify — ★4.397 (+16) · empujó en las últimas horas · GPL-3.0 · última release 10.6.0 (23-oct-2026)
+• cwuom/NeriPlayer — ★4.071 (+87) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release NeriPlayer-51f0100c.10312030 (31-oct-2026)
+• sonorahq/sonora — ★2.592 (+99) · empujó en las últimas horas · GPL-3.0 · última release v0.47.0 (2-nov-2026)
+• staniel359/muffon — ★2.258 (+7) · empujó el 26-oct-2026 (hace 8 días) · AGPL-3.0 · última release v2.5.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

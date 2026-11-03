@@ -1,9 +1,9 @@
 # PIEZA 43 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/43-El-tunel-WireGuard-el-viaje-cifrado-del-barrio-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `d95b5982cfd770655924be87196df4b7864e6b4c84e75431a32d4a7ab6cd770c`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2728 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 2728 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 850 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: BSD-3-Clause 3 · Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/43-El-tunel-WireGuard-el-viaje-cifrado-del-barrio-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2728 caracteres ═══
 
@@ -71,16 +71,16 @@ REV|403.83★ — elacsliat/elacsliat=1|REV|)82-01-6202( 6ef784d9bg-891312839t-4
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 889 caracteres ═══
+═══ MENSAJE 3 de 4 · 881 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 43*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• tailscale/tailscale — ★38.517 (+213) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
-• cloudflare/boringtun — ★7.246 (+9) · *dormido*: sin empujar desde el 29-jun-2026 (126 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
-• tailscale/tailscale-android — ★2.776 (+20) · empujó el 29-oct-2026 (hace 4 días) · BSD-3-Clause · última release 1.104.4-t938213198-gb9d487fe6 (28-oct-2026)
-• WireGuard/wireguard-android — ★1.658 (+1) · *dormido*: sin empujar desde el 29-jun-2026 (126 días) · Apache-2.0
+• tailscale/tailscale — ★38.572 (+268) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.5 (3-nov-2026)
+• cloudflare/boringtun — ★7.248 (+11) · *dormido*: sin empujar desde el 29-jun-2026 (127 días) · BSD-3-Clause · última release boringtun-cli-0.5.2 (20-jul-2022)
+• tailscale/tailscale-android — ★2.783 (+27) · empujó en las últimas horas · BSD-3-Clause · última release 1.104.4-t938213198-gb9d487fe6 (28-oct-2026)
+• WireGuard/wireguard-android — ★1.658 (+1) · *dormido*: sin empujar desde el 29-jun-2026 (127 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,9 +1,9 @@
 # PIEZA 69 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/69-El-taller-del-sazon-Unsloth-la-ensenanza-local-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `77aeb79aa062625e6b40909d2906ec7f60c076deea4cf2ca888751d7168c00c2`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2276 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 2276 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 856 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MPL-2.0 1 · Apache-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/69-El-taller-del-sazon-Unsloth-la-ensenanza-local-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2276 caracteres ═══
 
@@ -68,10 +68,10 @@ REV|)82-01-6202( ateb-219.1.0v — htolsnu/iahtolsnu=1|REV|92-01-6202 — htolsn
 
 💓 *EL ESTADO DE HOY · pieza 69*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• unslothai/unsloth — ★78.951 (+191) · empujó en las últimas horas · Apache-2.0 · última release v0.1.913-beta (30-oct-2026)
+• syncthing/syncthing — ★90.036 (+163) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• unslothai/unsloth — ★79.003 (+243) · empujó en las últimas horas · Apache-2.0 · última release v0.1.913-beta (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,9 +1,9 @@
 # PIEZA 104 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/104-La-foto-IX-las-casas-con-apellido-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `5fee05e6f952d403d69ee6191845d7ca35d4666ea2a9b56468def0797d752923`
-- **Envío generado:** 2026-11-02 · 6 mensajes · el mayor de 3680 caracteres
+- **Envío generado:** 2026-11-03 · 6 mensajes · el mayor de 3680 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 6 · 890 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 6 · GPL-3.0 5 · NOASSERTION 4 · AG
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/104-La-foto-IX-las-casas-con-apellido-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 6 · 3651 caracteres ═══
 
@@ -128,29 +128,29 @@ REV|40-11-5202 — ustatoK/ppAustatoK=1|REV|)92-01-6202( 657ea47+2.2.3v — usto
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 2750 caracteres ═══
+═══ MENSAJE 5 de 6 · 2734 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 104*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• home-assistant/core — ★91.912 (+81) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
-• nextcloud/server — ★37.396 (+51) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• openwrt/openwrt — ★29.021 (+46) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
-• mihonapp/mihon — ★24.965 (+125) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• MorpheApp/morphe-manager — ★9.856 (+167) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
-• KotatsuApp/Kotatsu — ★8.948 (+5) · *dormido*: sin empujar desde el 4-nov-2025 (363 días) · GPL-3.0 · *ARCHIVADO*
-• aniyomiorg/aniyomi — ★7.865 (+9) · *dormido*: sin empujar desde el 14-sep-2026 (49 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
-• nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• Kototoro-app/Kototoro — ★662 (+9) · empujó en las últimas horas · Apache-2.0 · última release v2.3.6 (2-nov-2026)
+• home-assistant/core — ★91.929 (+98) · empujó en las últimas horas · Apache-2.0 · última release 2026.10.4 (24-oct-2026)
+• nextcloud/server — ★37.402 (+57) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• openwrt/openwrt — ★29.033 (+58) · empujó en las últimas horas · NOASSERTION · última release v25.12.6 (18-oct-2026)
+• mihonapp/mihon — ★24.999 (+159) · empujó el 26-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• MorpheApp/morphe-manager — ★9.908 (+219) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (30-oct-2026)
+• KotatsuApp/Kotatsu — ★8.951 (+8) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
+• aniyomiorg/aniyomi — ★7.863 (+7) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · Apache-2.0 · última release v0.18.2.1 (14-sep-2026)
+• nextcloud/android — ★5.671 (+15) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• Kototoro-app/Kototoro — ★666 (+13) · empujó en las últimas horas · Apache-2.0 · última release v2.3.7 (3-nov-2026)
 • aayush2622/Dartotsu — ★550 (+5) · empujó en las últimas horas · NOASSERTION · última release v1.2.0 (31-oct-2026)
-• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
-• UsagiApp/Usagi — ★289 (+3) · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
-• AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (76 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
-• itsmechinmoy/Dantotsu — ★92 (sin cambio) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
-• Noirero/Miyorare — ★20 (+1) · empujó en las últimas horas · GPL-3.0 · última release v1.4.17 (2-nov-2026)
-• Med-amine0/aniyomi_plus — ★9 (sin cambio) · empujó el 29-oct-2026 (hace 4 días) · Apache-2.0 · última release v0.18.2.7 (21-oct-2026)
-• sang765/Usagi — ★0 (sin cambio) · empujó el 16-oct-2026 (hace 17 días) · GPL-3.0
+• andarcanum/Tadami-Aniyomi-fork — ★287 (sin cambio) · empujó el 29-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.63.2 (27-oct-2026)
+• UsagiApp/Usagi — ★290 (+4) · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
+• AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (77 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
+• itsmechinmoy/Dantotsu — ★93 (+1) · empujó en las últimas horas · NOASSERTION · última release v3.2.2+74ae756 (29-oct-2026)
+• Noirero/Miyorare — ★21 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.4.18 (2-nov-2026)
+• Med-amine0/aniyomi_plus — ★9 (sin cambio) · empujó el 29-oct-2026 (hace 5 días) · Apache-2.0 · última release v0.18.2.7 (21-oct-2026)
+• sang765/Usagi — ★0 (sin cambio) · empujó en las últimas horas · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

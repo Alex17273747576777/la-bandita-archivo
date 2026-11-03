@@ -1,9 +1,9 @@
 # PIEZA 63 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/63-El-protocolo-de-las-manos-MCP-la-mente-que-actua-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `3fef75a6e93a61ea7159bbf32cc94cc7a54054e4e187788595852d355e219af8`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2375 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 2375 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 853 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/63-El-protocolo-de-las-manos-MCP-la-mente-que-actua-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2375 caracteres ═══
 
@@ -67,10 +67,10 @@ REV|)6202-tco-92 ,oper us ed otxet núges( 0.2-ehcapA=1|REV|186.19★ — srevre
 
 💓 *EL ESTADO DE HOY · pieza 63*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• modelcontextprotocol/servers — ★91.743 (+62) · empujó el 29-oct-2026 (hace 4 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
-• modelcontextprotocol/modelcontextprotocol — ★9.589 (+27) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
+• modelcontextprotocol/servers — ★91.768 (+87) · empujó el 29-oct-2026 (hace 5 días) · NOASSERTION · última release v2.2.0 (28-oct-2026)
+• modelcontextprotocol/modelcontextprotocol — ★9.601 (+39) · empujó en las últimas horas · NOASSERTION · última release 2026-07-28 (28-jul-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

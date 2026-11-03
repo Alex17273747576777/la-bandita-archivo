@@ -1,9 +1,9 @@
 # PIEZA 72 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/72-El-windows-de-la-mesa-Winlator-la-oficina-en-el-bolsillo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `4c8b773fbeab915360f91483d9d2e712774342be49bfa872b85cb8b706efc0f4`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1540 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 1540 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 854 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: LGPL-2.1 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/72-El-windows-de-la-mesa-Winlator-la-oficina-en-el-bolsillo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1540 caracteres ═══
 
@@ -59,13 +59,13 @@ REV|71-01-6202 — rotalniw/58vedonurb=1|REV|486.91★ — rotalniw/58vedonurb=2
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 459 caracteres ═══
+═══ MENSAJE 3 de 4 · 451 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 72*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• brunodev85/winlator — ★19.774 (+90) · empujó el 17-oct-2026 (hace 16 días) · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
+• brunodev85/winlator — ★19.794 (+110) · empujó en las últimas horas · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

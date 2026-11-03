@@ -1,9 +1,9 @@
 # PIEZA 109 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/109-La-utilidad-que-habla-con-Shizuku-OmniShizuku-y-el-taller-sin-root-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md`
-- **Fecha de la pieza:** 31-oct-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 31-oct-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `a6388e28fc7989ee0ef17b321dc12e3f68eda13ae3651b797e163b23a2d4bccc`
-- **Envío generado:** 2026-11-02 · 8 mensajes · el mayor de 3715 caracteres
+- **Envío generado:** 2026-11-03 · 8 mensajes · el mayor de 3715 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 8 · 917 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 2 · GPL-3.0 1 · sin licencia 1 · M
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/109-La-utilidad-que-habla-con-Shizuku-OmniShizuku-y-el-taller-sin-root-WhatsApp-La-Bandita-2026-10-31-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 8 · 3715 caracteres ═══
 
@@ -375,16 +375,16 @@ escondido.
 
 ⏬ sigue abajo · parte 5 de 7
 
-═══ MENSAJE 7 de 8 · 962 caracteres ═══
+═══ MENSAJE 7 de 8 · 957 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 109*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • krishna3163/OmniShizuku — ★17 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• thedjchi/Shizuku — ★6.676 · *dormido*: sin empujar desde el 15-jul-2026 (110 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
-• iamr0s/Dhizuku — ★4.075 (+25) · empujó el 31-oct-2026 (hace 2 días) · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• krishna3163/best_shizuku_apps_for_android_no_root — ★159 · empujó en las últimas horas · sin licencia detectada por la API · última release deskcast-v1.0.5 (2-nov-2026)
+• thedjchi/Shizuku — ★6.695 · *dormido*: sin empujar desde el 15-jul-2026 (111 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
+• iamr0s/Dhizuku — ★4.079 (+29) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• krishna3163/best_shizuku_apps_for_android_no_root — ★159 · empujó en las últimas horas · sin licencia detectada por la API · última release adb-toolbox-v1.0.7 (3-nov-2026)
 • Alex17273747576777/la-bandita-archivo — ★1 · empujó en las últimas horas · MIT
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

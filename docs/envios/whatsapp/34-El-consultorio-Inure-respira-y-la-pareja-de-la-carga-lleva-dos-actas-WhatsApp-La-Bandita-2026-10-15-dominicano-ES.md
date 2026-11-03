@@ -1,9 +1,9 @@
 # PIEZA 34 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/34-El-consultorio-Inure-respira-y-la-pareja-de-la-carga-lleva-dos-actas-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 18 días)
+- **Fecha de la pieza:** 15-oct-2026 (según nombre; edad hoy: 19 días)
 - **sha256 de la pieza:** `7e91efd421177f3a4a97f1be2bb440bd700eff96f2f217446aa5b826e708c177`
-- **Envío generado:** 2026-11-02 · 15 mensajes · el mayor de 3639 caracteres
+- **Envío generado:** 2026-11-03 · 15 mensajes · el mayor de 3639 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 15 · 859 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 4.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/34-El-consultorio-Inure-respira-y-la-pareja-de-la-carga-lleva-dos-actas-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 15 · 2778 caracteres ═══
 
@@ -640,16 +640,16 @@ REV|134.2★ — cca/52-RV=1|REV|0.3-LPG=2|REV|61-01-3202 — cca/opeR-seludoM-k
 
 ⏬ sigue abajo · parte 12 de 14
 
-═══ MENSAJE 14 de 15 · 823 caracteres ═══
+═══ MENSAJE 14 de 15 · 822 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 34*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• VR-25/acc — ★2.434 (+3) · *dormido*: sin empujar desde el 6-jun-2025 (514 días) · GPL-3.0 · última release v2023.10.16 (16-oct-2023)
-• Hamza417/Inure — ★1.985 (+5) · empujó en las últimas horas · GPL-3.0 · última release build107.3.0 (21-oct-2026)
-• MatteCarra/AccA — ★1.404 (+2) · *dormido*: sin empujar desde el 17-jun-2024 (868 días) · GPL-3.0 · última release v1.0.35 (31-ago-2021)
-• Magisk-Modules-Repo/acc — ★361 · *dormido*: sin empujar desde el 16-oct-2023 (1113 días) · GPL-3.0
+• VR-25/acc — ★2.435 (+4) · *dormido*: sin empujar desde el 6-jun-2025 (515 días) · GPL-3.0 · última release v2023.10.16 (16-oct-2023)
+• Hamza417/Inure — ★1.984 (+4) · empujó en las últimas horas · GPL-3.0 · última release build107.3.1 (2-nov-2026)
+• MatteCarra/AccA — ★1.404 (+2) · *dormido*: sin empujar desde el 17-jun-2024 (869 días) · GPL-3.0 · última release v1.0.35 (31-ago-2021)
+• Magisk-Modules-Repo/acc — ★361 · *dormido*: sin empujar desde el 16-oct-2023 (1114 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

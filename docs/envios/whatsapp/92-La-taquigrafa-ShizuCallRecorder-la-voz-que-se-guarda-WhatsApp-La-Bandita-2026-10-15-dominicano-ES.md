@@ -1,9 +1,9 @@
 # PIEZA 92 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/92-La-taquigrafa-ShizuCallRecorder-la-voz-que-se-guarda-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `ae7d033835ce6b52dc4daab2d2da12cbc2aed4022cca81f7c2a7565584ddd002`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2839 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 2839 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 903 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 1 · MIT 1 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/92-La-taquigrafa-ShizuCallRecorder-la-voz-que-se-guarda-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2839 caracteres ═══
 
@@ -67,15 +67,15 @@ REV|483.23★ — ukuzihS/sppAakkiR=1|REV|82-01-6202 — redroceRllaCuzihS/demus
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 696 caracteres ═══
+═══ MENSAJE 3 de 4 · 729 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 92*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.663 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0
-• awesome-android-root/awesome-android-root — ★5.601 (+33) · empujó en las últimas horas · MIT · última release 6.2 (2-nov-2026)
-• kitsumed/ShizuCallRecorder — ★1.979 (+47) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (24-oct-2026)
+• RikkaApps/Shizuku — ★32.708 (+324) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• awesome-android-root/awesome-android-root — ★5.630 (+62) · empujó en las últimas horas · MIT · última release 6.2 (2-nov-2026)
+• kitsumed/ShizuCallRecorder — ★1.989 (+57) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (24-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

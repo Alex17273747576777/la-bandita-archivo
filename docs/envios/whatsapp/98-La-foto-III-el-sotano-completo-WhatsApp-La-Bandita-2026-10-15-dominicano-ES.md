@@ -1,9 +1,9 @@
 # PIEZA 98 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/98-La-foto-III-el-sotano-completo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `804501608f8986c4eba8e874c184d91fd1b0f5a2c3c75a7d15581bd47b52ad36`
-- **Envío generado:** 2026-11-02 · 5 mensajes · el mayor de 3742 caracteres
+- **Envío generado:** 2026-11-03 · 5 mensajes · el mayor de 3742 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 5 · 880 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-2.0 4 · NOASSERTION 1 · AGPL-3.0 1 · Apac
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/98-La-foto-III-el-sotano-completo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 5 · 3742 caracteres ═══
 
@@ -89,19 +89,19 @@ REV|92-01-6202 — revres/duolctxen=1|REV|)82-01-6202( 2.0.53-elbats — diordna
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 1174 caracteres ═══
+═══ MENSAJE 4 de 5 · 1166 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 98*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• pi-hole/pi-hole — ★61.631 (+72) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
-• jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• nextcloud/server — ★37.396 (+51) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• nextcloud/android — ★5.674 (+18) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• jellyfin/jellyfin-androidtv — ★4.697 (+22) · empujó el 29-oct-2026 (hace 4 días) · GPL-2.0 · última release v0.19.10 (16-ago-2026)
+• pi-hole/pi-hole — ★61.646 (+87) · empujó en las últimas horas · NOASSERTION · última release v6.5 (17-oct-2026)
+• jellyfin/jellyfin — ★58.964 (+177) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• nextcloud/server — ★37.402 (+57) · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• nextcloud/android — ★5.671 (+15) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• jellyfin/jellyfin-androidtv — ★4.703 (+28) · empujó en las últimas horas · GPL-2.0 · última release v0.19.10 (16-ago-2026)
 • home-assistant/android — ★4.017 (+5) · empujó en las últimas horas · Apache-2.0 · última release 2026.11.1 (2-nov-2026)
-• jellyfin/jellyfin-android — ★2.851 (+12) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
+• jellyfin/jellyfin-android — ★2.857 (+18) · empujó en las últimas horas · GPL-2.0 · última release v2.7.3 (14-sep-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

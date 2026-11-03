@@ -1,9 +1,9 @@
 # PIEZA 11 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/11-Vela-Maps-el-mapa-que-no-le-cuenta-tu-vida-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según dateline; edad hoy: 18 días)
+- **Fecha de la pieza:** 15-oct-2026 (según dateline; edad hoy: 19 días)
 - **sha256 de la pieza:** `5fdc119044fdd62233d28174922041f865576bcee16f765c2749858afd0173e2`
-- **Envío generado:** 2026-11-02 · 23 mensajes · el mayor de 3687 caracteres
+- **Envío generado:** 2026-11-03 · 23 mensajes · el mayor de 3687 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 23 · 873 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1 · AGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/11-Vela-Maps-el-mapa-que-no-le-cuenta-tu-vida-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 23 · 1944 caracteres ═══
 
@@ -1449,10 +1449,10 @@ REV|82-01-6202 — aleV/nikpmuPnipmiP=1|REV|282.2★ — aleV/nikpmuPnipmiP=2|RE
 
 💓 *EL ESTADO DE HOY · pieza 11*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• PimpinPumpkin/Vela — ★2.317 (+35) · empujó en las últimas horas · GPL-3.0 · última release v0.5.2621 (19-oct-2026)
-• flectar/mail — ★1.736 (+50) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
+• PimpinPumpkin/Vela — ★2.350 (+68) · empujó en las últimas horas · GPL-3.0 · última release v0.5.2621 (19-oct-2026)
+• flectar/mail — ★1.745 (+59) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,12 +1,12 @@
 # PIEZA 03 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`
-- **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `64a9c2083cccdfdeec601311453eab4ffd52f18667a6e4052b280f82a54760b0`
-- **Envío generado:** 2026-11-02 · 29 mensajes · el mayor de 3687 caracteres
+- **Envío generado:** 2026-11-03 · 29 mensajes · el mayor de 3687 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 29 · 879 caracteres ═══
+═══ MENSAJE 1 de 29 · 1066 caracteres ═══
 
 *La caja del bolsillo — versión de WhatsApp: la libreta que se moja, el código que caduca cada treinta segundos y el sobre que nadie prepara*
 
@@ -14,13 +14,17 @@ La Bandita · pieza 03 · guía del 2-nov-2026 · te la mando hoy en 29 mensajes
 
 Antes de mandártela volví a medir lo que afirma: *10 repositorios, 9 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 6 · AGPL-3.0 2 · Apache-2.0 1.
+Licencias de lo que recomienda: GPL-3.0 6 · AGPL-3.0 1 · MIT 1 · Apache-2.0 1.
+
+⚠️ *Aviso de fecha:* este texto se escribió el 2-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 29 · 1746 caracteres ═══
+═══ MENSAJE 2 de 29 · 1836 caracteres ═══
+
+[Texto del 2-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La caja del bolsillo — versión de WhatsApp: la libreta que se moja, el código que caduca cada treinta segundos y el sobre que nadie prepara*
 
@@ -494,26 +498,26 @@ Y queda la frase que sirve para cualquier año y cualquier teléfono: la caja fu
 
 ⏬ sigue abajo · parte 26 de 28
 
-═══ MENSAJE 28 de 29 · 1274 caracteres ═══
+═══ MENSAJE 28 de 29 · 1514 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dani-garcia/vaultwarden — ★70.134 (sin cambio) · empujó en las últimas horas · AGPL-3.0
-• ente-io/ente — ★29.844 (sin cambio) · empujó en las últimas horas · AGPL-3.0
-• beemdevelopment/Aegis — ★13.448 (sin cambio) · *dormido*: sin empujar desde el 6-sep-2026 (57 días) · GPL-3.0
-• bitwarden/android — ★9.577 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• Kunzisoft/KeePassDX — ★7.601 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• PhilippC/keepass2android — ★6.357 · empujó el 29-oct-2026 (hace 4 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
-• stratumauth/app — ★4.633 (sin cambio) · empujó en las últimas horas · GPL-3.0
-• andOTP/andOTP — sin dato hoy (la API no respondió). No afirmo nada.
-• open-keychain/open-keychain — ★2.631 (sin cambio) · *dormido*: sin empujar desde el 16-may-2024 (900 días) · GPL-3.0
-• freeotp/freeotp-android — ★1.683 (sin cambio) · empujó el 27-oct-2026 (hace 6 días) · Apache-2.0
+• dani-garcia/vaultwarden — ★70.168 (+273) · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• ente-io/ente — sin dato hoy (la API no respondió). No afirmo nada.
+• beemdevelopment/Aegis — ★13.452 (+38) · *dormido*: sin empujar desde el 6-sep-2026 (58 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• bitwarden/android — ★9.580 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
+• Kunzisoft/KeePassDX — ★7.608 (+43) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• PhilippC/keepass2android — ★6.364 · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
+• stratumauth/app — ★4.635 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
+• andOTP/andOTP — ★3.705 · *dormido*: sin empujar desde el 14-jun-2022 (1603 días) · MIT · última release v0.9.0.1 (15-jun-2021) · *ARCHIVADO*
+• open-keychain/open-keychain — ★2.631 · *dormido*: sin empujar desde el 16-may-2024 (901 días) · GPL-3.0
+• freeotp/freeotp-android — ★1.683 · empujó el 27-oct-2026 (hace 7 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 5 enlaces de esta pieza, *5 responden*.
+De los 11 enlaces de esta pieza, *11 responden*.
 Ninguno roto.
 
 ⏬ sigue abajo · parte 27 de 28

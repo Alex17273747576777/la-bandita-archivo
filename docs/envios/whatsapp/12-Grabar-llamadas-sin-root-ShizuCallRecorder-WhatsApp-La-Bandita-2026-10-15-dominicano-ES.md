@@ -1,9 +1,9 @@
 # PIEZA 12 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/12-Grabar-llamadas-sin-root-ShizuCallRecorder-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 15-oct-2026 (según dateline; edad hoy: 18 días)
+- **Fecha de la pieza:** 15-oct-2026 (según dateline; edad hoy: 19 días)
 - **sha256 de la pieza:** `c9e3099fdfcb51033a59bf30f00bce542da242add17be904fe1e6c6ceb54a37b`
-- **Envío generado:** 2026-11-02 · 20 mensajes · el mayor de 3681 caracteres
+- **Envío generado:** 2026-11-03 · 20 mensajes · el mayor de 3681 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 - **Aviso:** la pieza original deja una valla de código sin cerrar; este envío la cierra al final del cuerpo para que se pueda leer. La pieza no se modificó.
 
@@ -21,7 +21,7 @@ Licencias de lo que recomienda: Apache-2.0 1 · GPL-3.0 1 · AGPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/12-Grabar-llamadas-sin-root-ShizuCallRecorder-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 3587 caracteres ═══
 
@@ -1039,15 +1039,15 @@ REV|293.23★ — ukuzihS/sppAakkiR=1|REV|81-60-5202 — ukuzihS/sppAakkiR=2|REV
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 685 caracteres ═══
+═══ MENSAJE 19 de 20 · 718 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 12*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.663 (sin cambio) · *dormido*: sin empujar desde el 18-jun-2025 (502 días) · Apache-2.0
-• kitsumed/ShizuCallRecorder — ★1.979 (+47) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (24-oct-2026)
-• flectar/mail — ★1.736 (+50) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
+• RikkaApps/Shizuku — ★32.708 (+324) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• kitsumed/ShizuCallRecorder — ★1.989 (+57) · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (24-oct-2026)
+• flectar/mail — ★1.745 (+59) · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

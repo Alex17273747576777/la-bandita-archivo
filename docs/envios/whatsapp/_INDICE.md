@@ -1,6 +1,6 @@
 # ENVÍOS DE WHATSAPP · índice
 
-Generado el 2026-11-02 a partir de la medición del mismo día (`docs/envios/_medicion-whatsapp.json`). Reglas y plan: `docs/envios/COMO-SE-MANDA.md`.
+Generado el 2026-11-03 a partir de la medición del mismo día (`docs/envios/_medicion-whatsapp.json`). Reglas y plan: `docs/envios/COMO-SE-MANDA.md`.
 
 Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada, cuerpo partido en mensajes de menos de 4.000 caracteres y cierre con el estado de hoy. La pieza original no se toca; su sha256 va en la cabecera del envío, así que si la pieza cambia, el envío queda marcado como desactualizado.
 
@@ -11,6 +11,7 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 02 | La música que no se cae — versión de WhatsApp: el inventario que nadie | 29 | 3628 | 11 | 0 | no | `02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES` |
 | 03 | La caja del bolsillo — versión de WhatsApp: la libreta que se moja, el | 29 | 3687 | 10 | 0 | no | `03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES` |
 | 04 | Almacenes de extensiones KeiSource AbiSource y el resurtimiento del ma | 28 | 3638 | 6 | 0 | sí | `04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
+| 04 | Los cinco herederos de Shizuku — versión de WhatsApp: el teléfono que  | 26 | 3553 | 7 | 0 | no | `04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES` |
 | 05 | TMO caida clones no iniciar sesion | 22 | 3677 | 0 | 0 | sí | `05-TMO-caida-clones-no-iniciar-sesion-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 06 | Forks lectores Mihon Aniyomi segundas generaciones | 25 | 3596 | 10 | 0 | sí | `06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 07 | El arbol vecino Usagi Kotatsu Redo Futon Kototoro | 25 | 3662 | 12 | 0 | sí | `07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -19,7 +20,7 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 10 | GLTools no se receta spoof GPU | 21 | 3697 | 2 | 0 | sí | `10-GLTools-no-se-receta-spoof-GPU-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 100 | La foto V la mesa redonda del censo | 4 | 2158 | 2 | 0 | no | `100-La-foto-V-la-mesa-redonda-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 101 | La foto VI el pabellon de los dormidos | 5 | 3662 | 17 | 0 | no | `101-La-foto-VI-el-pabellon-de-los-dormidos-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
-| 102 | La foto VII los invisibles de la foto | 6 | 3860 | 28 | 0 | no | `102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
+| 102 | La foto VII los invisibles de la foto | 6 | 3858 | 28 | 0 | no | `102-La-foto-VII-los-invisibles-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 103 | La foto VIII las licencias de la mesa | 6 | 3746 | 19 | 0 | no | `103-La-foto-VIII-las-licencias-de-la-mesa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 104 | La foto IX las casas con apellido | 6 | 3680 | 17 | 0 | no | `104-La-foto-IX-las-casas-con-apellido-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 105 | La foto X el dia de la foto | 2 | 788 | 0 | 0 | no | `105-La-foto-X-el-dia-de-la-foto-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
@@ -117,6 +118,6 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 98 | La foto III el sotano completo | 5 | 3742 | 7 | 0 | no | `98-La-foto-III-el-sotano-completo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 | 99 | La foto IV los jovenes del censo | 4 | 3492 | 5 | 0 | no | `99-La-foto-IV-los-jovenes-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES` |
 
-**110 piezas · 1052 mensajes** · el mayor de todos: 3860 caracteres.
+**111 piezas · 1078 mensajes** · el mayor de todos: 3858 caracteres.
 
 

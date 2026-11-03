@@ -1,9 +1,9 @@
 # PIEZA 39 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/39-El-timbre-Fossify-Phone-y-Koler-la-llamada-con-dueno-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `d2206442d24da6a63c28d7735c5f68b0ae44bf44e00e4b8d8af52df2268e33d7`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2042 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 2042 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 853 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 1 · NOASSERTION 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/39-El-timbre-Fossify-Phone-y-Koler-la-llamada-con-dueno-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2042 caracteres ═══
 
@@ -68,10 +68,10 @@ REV|493.1★ — enohP/grOyfissoF=1|REV|)30-20-6202( 1.11.1 — enohP/grOyfissoF
 
 💓 *EL ESTADO DE HOY · pieza 39*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• FossifyOrg/Phone — ★1.398 (+4) · empujó en las últimas horas · GPL-3.0 · última release 1.11.1 (3-feb-2026)
-• Chooloo/koler — ★1.070 (+1) · empujó en las últimas horas · NOASSERTION · última release v1.6.1 (20-jun-2023)
+• FossifyOrg/Phone — ★1.399 (+5) · empujó en las últimas horas · GPL-3.0 · última release 1.11.1 (3-feb-2026)
+• Chooloo/koler — ★1.071 (+2) · empujó en las últimas horas · NOASSERTION · última release v1.6.1 (20-jun-2023)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

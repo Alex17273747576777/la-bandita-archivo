@@ -1,9 +1,9 @@
 # PIEZA 94 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/94-El-termostato-ACC-la-corriente-que-se-gobierna-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `953c0ef3318538cd49507da8dbb3444047e1376414d73d981bfc1b8a8bc18091`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 1555 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 1555 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 868 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/94-El-termostato-ACC-la-corriente-que-se-gobierna-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 1555 caracteres ═══
 
@@ -64,10 +64,10 @@ REV|134.2★ — cca/52-RV=1|REV|60-60-5202 — cca/52-RV=2|REV|60-60-5202 — c
 
 💓 *EL ESTADO DE HOY · pieza 94*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• VR-25/acc — ★2.434 (+3) · *dormido*: sin empujar desde el 6-jun-2025 (514 días) · GPL-3.0 · última release v2023.10.16 (16-oct-2023)
-• Magisk-Modules-Repo/acc — ★361 · *dormido*: sin empujar desde el 16-oct-2023 (1113 días) · GPL-3.0
+• VR-25/acc — ★2.435 (+4) · *dormido*: sin empujar desde el 6-jun-2025 (515 días) · GPL-3.0 · última release v2023.10.16 (16-oct-2023)
+• Magisk-Modules-Repo/acc — ★361 · *dormido*: sin empujar desde el 16-oct-2023 (1114 días) · GPL-3.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

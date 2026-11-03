@@ -1,9 +1,9 @@
 # PIEZA 95 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/95-El-mapa-de-la-fila-la-biblioteca-mirandose-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `678a16f9be659d6fd6f8cb383249a7c9745ce936df1ec44a756b0aa04bc0ea11`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2854 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 2854 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 900 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 1 · Apache-2.0 1 · sin licencia 1 · GPL-3
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/95-El-mapa-de-la-fila-la-biblioteca-mirandose-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2854 caracteres ═══
 
@@ -72,16 +72,16 @@ REV|932.581★ — amallo/amallo=1|REV|0.2-ehcapA=2|REV|92-01-6202 — mvmmucs/m
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 819 caracteres ═══
+═══ MENSAJE 3 de 4 · 820 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 95*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.659 (+420) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• localsend/localsend — ★97.029 (+572) · empujó en las últimas horas · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• keiyoushi/extensions — ★15.415 (+46) · empujó en las últimas horas · sin licencia detectada por la API · última release 91ee06d (2-nov-2026)
-• scummvm/scummvm — ★2.878 (+8) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
+• ollama/ollama — ★185.784 (+545) · empujó en las últimas horas · MIT · última release v0.40.14 (3-nov-2026)
+• localsend/localsend — ★97.157 (+700) · empujó en las últimas horas · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• keiyoushi/extensions — ★15.427 (+58) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-1 (3-nov-2026)
+• scummvm/scummvm — ★2.879 (+9) · empujó en las últimas horas · GPL-3.0 · última release v2026.4.0 (11-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

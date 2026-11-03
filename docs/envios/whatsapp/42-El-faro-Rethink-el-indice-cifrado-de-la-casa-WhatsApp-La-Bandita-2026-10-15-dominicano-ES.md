@@ -1,9 +1,9 @@
 # PIEZA 42 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/42-El-faro-Rethink-el-indice-cifrado-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `ec4a62bf772ea8c9b5d1091ffa8a7914d532d1018025d30526f0be4d2be6bb50`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2328 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 2328 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 842 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 1 · MPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/42-El-faro-Rethink-el-indice-cifrado-de-la-casa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2328 caracteres ═══
 
@@ -68,10 +68,10 @@ REV|)31-01-6202( 8.5.0v — ppa-knihter/orezlec=1|REV|018.5★ — ppa-knihter/o
 
 💓 *EL ESTADO DE HOY · pieza 42*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• celzero/rethink-app — ★5.834 (+24) · empujó el 26-oct-2026 (hace 7 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
-• serverless-dns/serverless-dns — ★3.836 (+4) · *dormido*: sin empujar desde el 6-may-2026 (180 días) · MPL-2.0
+• celzero/rethink-app — ★5.837 (+27) · empujó el 26-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
+• serverless-dns/serverless-dns — ★3.835 (+3) · *dormido*: sin empujar desde el 6-may-2026 (181 días) · MPL-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,9 +1,9 @@
 # PIEZA 00 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/00-LA-LISTA-ecosistema-libre-guia-por-guia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `36b34940ee4088529c297c842c3fe26a117563e4836e362921f8bad6b2addd0d`
-- **Envío generado:** 2026-11-02 · 26 mensajes · el mayor de 3675 caracteres
+- **Envío generado:** 2026-11-03 · 26 mensajes · el mayor de 3675 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 26 · 955 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 5 · MPL-2.0 2 · AGPL-3.0 1 · sin lice
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/00-LA-LISTA-ecosistema-libre-guia-por-guia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 26 · 2402 caracteres ═══
 
@@ -1147,19 +1147,19 @@ REV|92-01-6202 — gnihtcnys/gnihtcnys=1|REV|978.98★ — gnihtcnys/gnihtcnys=2
 
 💓 *EL ESTADO DE HOY · pieza 00*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• team-spotube/spotube — ★50.553 (+87) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• KotatsuApp/Kotatsu — ★8.948 (+5) · *dormido*: sin empujar desde el 4-nov-2025 (363 días) · GPL-3.0 · *ARCHIVADO*
-• syncthing/syncthing-android — ★4.292 (-1) · *dormido*: sin empujar desde el 3-dic-2024 (699 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
-• phhusson/treble_experimentations — ★3.552 (-4) · *dormido*: sin empujar desde el 27-ene-2025 (644 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*
-• siavash79/PixelXpert — ★2.441 (+1) · *dormido*: sin empujar desde el 21-jun-2026 (134 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
-• oxyroid/M3UAndroid — ★1.285 (+1) · empujó el 20-sep-2026 (hace 43 días) · GPL-3.0 · última release v1.15.0 (29-mar-2025) · *ARCHIVADO*
-• ponces/treble_aosp — ★313 (+2) · *dormido*: sin empujar desde el 25-jul-2025 (465 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
-• AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (76 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
-• UsagiApp/core-exts — ★7 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (127 días) · GPL-3.0 · última release 1.0.3 (27-abr-2026) · *ARCHIVADO*
-• UsagiApp/core-parsers — ★2 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (127 días) · GPL-3.0 · última release 0.0.3 (16-may-2026) · *ARCHIVADO*
+• syncthing/syncthing — ★90.036 (+163) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• team-spotube/spotube — ★50.564 (+98) · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• KotatsuApp/Kotatsu — ★8.951 (+8) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
+• syncthing/syncthing-android — ★4.290 (-3) · *dormido*: sin empujar desde el 3-dic-2024 (700 días) · MPL-2.0 · última release 1.28.1 (3-dic-2024) · *ARCHIVADO*
+• phhusson/treble_experimentations — ★3.553 (-3) · *dormido*: sin empujar desde el 27-ene-2025 (645 días) · sin licencia detectada por la API · última release v416 (9-nov-2022) · *ARCHIVADO*
+• siavash79/PixelXpert — ★2.439 (-1) · *dormido*: sin empujar desde el 21-jun-2026 (135 días) · GPL-3.0 · última release v5.1.1 (17-dic-2025) · *ARCHIVADO*
+• oxyroid/M3UAndroid — ★1.285 (+1) · empujó el 20-sep-2026 (hace 44 días) · GPL-3.0 · última release v1.15.0 (29-mar-2025) · *ARCHIVADO*
+• ponces/treble_aosp — ★313 (+2) · *dormido*: sin empujar desde el 25-jul-2025 (466 días) · Apache-2.0 · última release v2025.06.25 (25-jun-2025) · *ARCHIVADO*
+• AsrOfficialDev/ReDantotsu — ★153 (+1) · *dormido*: sin empujar desde el 18-ago-2026 (77 días) · NOASSERTION · última release v1.0.7 (26-jun-2026) · *ARCHIVADO*
+• UsagiApp/core-exts — ★7 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (128 días) · GPL-3.0 · última release 1.0.3 (27-abr-2026) · *ARCHIVADO*
+• UsagiApp/core-parsers — ★2 (sin cambio) · *dormido*: sin empujar desde el 28-jun-2026 (128 días) · GPL-3.0 · última release 0.0.3 (16-may-2026) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,9 +1,9 @@
 # PIEZA 58 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/58-El-tunel-de-la-casa-Headscale-la-red-privada-de-la-familia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `83a98b8c42f063d09647a02f0eff8dfea0ba119e72d59e22e8acab2a518ccee7`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 2127 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 2127 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 858 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: BSD-3-Clause 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/58-El-tunel-de-la-casa-Headscale-la-red-privada-de-la-familia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 2127 caracteres ═══
 
@@ -64,14 +64,14 @@ REV|92-01-6202 — elacsliat/elacsliat=1|REV|)82-01-6202( 4.401.1v — elacsliat
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 578 caracteres ═══
+═══ MENSAJE 3 de 4 · 577 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 58*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• juanfont/headscale — ★45.286 (+112) · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
-• tailscale/tailscale — ★38.517 (+213) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.4 (28-oct-2026)
+• juanfont/headscale — ★45.324 (+150) · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
+• tailscale/tailscale — ★38.572 (+268) · empujó en las últimas horas · BSD-3-Clause · última release v1.104.5 (3-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

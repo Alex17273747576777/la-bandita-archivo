@@ -1,9 +1,9 @@
 # PIEZA 66 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/66-El-taller-de-bolsillo-Termux-la-computadora-en-tu-mano-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md`
-- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 4 días)
+- **Fecha de la pieza:** 29-oct-2026 (según dateline; edad hoy: 5 días)
 - **sha256 de la pieza:** `a9799b58d0eb87b838b913b102539f0ca1563aaf0d746b50b0bfd93c281da9c8`
-- **Envío generado:** 2026-11-02 · 4 mensajes · el mayor de 3344 caracteres
+- **Envío generado:** 2026-11-03 · 4 mensajes · el mayor de 3344 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 4 · 887 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: NOASSERTION 2 · MIT 1 · MPL-2.0 1 · GPL-2.0 1
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/66-El-taller-de-bolsillo-Termux-la-computadora-en-tu-mano-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md
 
-💓 2 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 4 · 3344 caracteres ═══
 
@@ -76,17 +76,17 @@ REV|0.2-LPM=1|REV|932.581★ — amallo/amallo=2|REV|92-01-6202 — segakcap-xum
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 958 caracteres ═══
+═══ MENSAJE 3 de 4 · 957 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 66*
 
-Medí otra vez, hoy 2 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 3 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ollama/ollama — ★185.659 (+420) · empujó en las últimas horas · MIT · última release v0.40.13 (28-oct-2026)
-• syncthing/syncthing — ★90.007 (+134) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
-• termux/termux-app — ★63.952 (+276) · empujó el 26-sep-2026 (hace 37 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• jellyfin/jellyfin — ★58.920 (+133) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• termux/termux-packages — ★17.292 (+32) · empujó en las últimas horas · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
+• ollama/ollama — ★185.784 (+545) · empujó en las últimas horas · MIT · última release v0.40.14 (3-nov-2026)
+• syncthing/syncthing — ★90.036 (+163) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7 (21-oct-2026)
+• termux/termux-app — ★64.009 (+333) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• jellyfin/jellyfin — ★58.964 (+177) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• termux/termux-packages — ★17.298 (+38) · empujó en las últimas horas · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

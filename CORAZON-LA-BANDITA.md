@@ -827,7 +827,7 @@ Orden obligatorio: **acta → pieza → envío → sello**. Saltarse un paso dej
 2. **Archivo viejo:** las piezas anteriores al reinicio conservan su número y su fecha, quedan congeladas y no se renumeran. `firma_literal` las cuenta como «archivo viejo sin exigencia» y la vara no las toca.
 3. **Prohibido inventar un número alto.** Una pieza «81» o «257» no existe y no puede publicarse: si el número no corresponde al siguiente del ciclo, el archivo está mal y la compuerta G10 lo canta al no encontrar su banda.
 
-**Al corte hay siete publicaciones vivas en el ciclo:** FB 01 (40.355), WA 01 (63.068), FB 02 (44.996), WA 02 (63.006), FB 03 (44.914), WA 03 (63.098) y **FB 04 (44.867)**, más la serie corta **HdP 01** (4.152 exactos). La siguiente pieza larga es la **05**, y su versión de WhatsApp sale del mismo cuerpo.
+**Al corte hay nueve publicaciones vivas en el ciclo:** FB 01 (40.355), WA 01 (63.068), FB 02 (44.996), WA 02 (63.006), FB 03 (44.914), WA 03 (63.098), **FB 04 (44.867)** y **WA 04 (63.096)**, más la serie corta **HdP 01** (4.152 exactos). La 04 de WhatsApp no es una copia de la 04 de Facebook: comparten medición, no texto —la de WhatsApp entra por el caso de una persona con un teléfono lleno y no repite ni un párrafo, cosa que M23 comprueba—. La siguiente pieza larga es la **05**.
 
 ## 25-BIS. CADENCIA Y CONTINUIDAD
 
@@ -1228,6 +1228,7 @@ Cada deuda con su veredicto de hoy: **cerrada** (existe, corre y está probada),
 | 10 | Las seis piezas de la oleada 01 no cumplen M24 | **deuda congelada y declarada** | publicadas antes de la doctrina; 11 líneas visibles en cada informe (`tools/baseline.json`); no crece |
 | 11 | Re-medición del registro completo (corte del 15-oct) | **cerrada en método, corriendo al cierre** | `tools/censo_medir.py` con GraphQL: cincuenta fichas por consulta, sin tocar el límite de la API; el 404 se escribe como veredicto (`muerto`, `semantica_http 404`) en vez de contarse como hueco |
 | 12 | SWHID por revisión medida (Software Heritage) | **cerrada para lo citado; el resto por lotes** | `tools/swhid.py`: SWHID calculado del commit de la cabeza, comprobación en el archivo y **solicitud de archivado** cuando no está. Hoy: 6 repositorios de la pieza 04 → 2 ya archivados, 4 con solicitud aceptada |
+| 13 | Token de grano fino (`PAT_FINO`) | **caído el 3-nov a las 14:05** | devolvió `401 Bad credentials` a mitad de la tarde, después de haber servido la re-medición completa; se sigue con los clásicos `GHP_A`/`GHP_B` y hay que reponerlo antes de la próxima corrida larga |
 
 **Y la primera entrega de la serie corta, ya publicada** (3-nov-2026): abre con el hallazgo —el fork vivo contra el original con 503 días de silencio—, trae el Scorecard del original medido (2,7/10) para no vender estrellas, declara la madurez del fork sin adornos («diez días y versiones `-dev`: no es un reemplazo de nada, es un hallazgo») y cierra con tres tareas verificables. Ese es el formato, y ya no está escrito: está publicado.
 
