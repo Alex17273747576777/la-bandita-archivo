@@ -1,0 +1,75 @@
+{
+ "id": "headscale",
+ "nombre": "Headscale",
+ "repo": "juanfont/headscale",
+ "autores": [
+  {
+   "nombre": "Juan Font y la comunidad Headscale",
+   "enlace": "https://github.com/juanfont"
+  }
+ ],
+ "licencia": {
+  "spdx": "BSD-3-Clause",
+  "archivo": "https://github.com/juanfont/headscale/blob/main/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Coordinar tu propia red privada entre aparatos usando los clientes oficiales de Tailscale, pero con el servidor de coordinación en tu casa y no en una empresa.",
+ "capitulo": 8,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien quiere la comodidad de una red entre aparatos que se encuentran solos, sin que el servidor que los presenta sea de otra persona.",
+  "no_es": "para quien sólo necesita entrar a un equipo de casa: wg-easy hace eso con menos piezas y menos mantenimiento."
+ },
+ "manos": [
+  "Consigue un equipo con una dirección alcanzable desde internet —el mismo que ya usás para otras cosas— y un nombre que apunte a ella.",
+  "Instalá el servidor siguiendo su guía, con una base de datos propia y una clave de cifrado guardada fuera del equipo.",
+  "Creá un usuario para vos y generá la orden de registro que va a usar cada aparato para entrar a tu red.",
+  "Instalá en cada aparato el cliente oficial de Tailscale —no hace falta nada especial— y registralo apuntándolo a la dirección de tu servidor.",
+  "Comprobá lo que importa: que los aparatos se vean entre sí aunque estén en redes distintas, y que el listado del servidor los muestre a todos con su última conexión."
+ ],
+ "resultado_esperado": "Todos tus aparatos forman una red privada que se encuentra sola, coordinada por un servidor tuyo, y podés listarlos, renombrarlos y expulsarlos desde tu propia consola.",
+ "si_sale_mal": [
+  "Si un aparato no registra, revisá que esté apuntando a tu servidor y no al de la empresa: es el primer error y el más común.",
+  "Si los aparatos no se ven, mirá el listado del servidor y el estado del cliente: casi siempre falta aceptar una ruta o el aparato quedó expulsado.",
+  "Si perdés la clave de cifrado del servidor, las sesiones dejan de valer y hay que volver a registrar los aparatos."
+ ],
+ "deshacer": "Expulsar un aparato del listado lo saca de la red al instante, aunque conserve el cliente instalado. Borrar el servidor deja los aparatos como estaban, con su cliente sin red a la que conectarse.",
+ "cabeza": [
+  "Tailscale es una red privada que se configura sola: los aparatos se encuentran, se identifican y arman el túnel entre ellos, y el tráfico va directo o por relevo. Lo único que necesita de la empresa es la **coordinación**: alguien que les diga a los aparatos quién es quién. Headscale es ese alguien, hecho por la comunidad, con licencia permisiva y corriendo en tu casa.",
+  "Su valor es de soberanía más que de velocidad: no cambia cómo se hablan los aparatos, cambia quién lleva la lista. En la práctica eso significa que el servidor que conoce todos tus aparatos —el mapa completo de tu vida digital— deja de estar en manos de una empresa y pasa a estar en tu equipo, con tus copias y tus reglas de acceso.",
+  "Cuarenta y cinco mil trescientas treinta y siete estrellas y ciento noventa y ocho mil trescientas ochenta y siete descargas en diez entregas para un programa que casi nadie instala por gusto: se instala porque la alternativa es entregar ese mapa. Y se mantiene: cuatrocientos veintiocho cambios en treinta días y una entrega cada pocas semanas."
+ ],
+ "limites": [
+  "Necesita un servidor con dirección alcanzable desde internet y un nombre: es infraestructura, no una aplicación.",
+  "Reimplementa un protocolo ajeno: cuando el otro lado cambia algo, hay que esperar a que Headscale lo siga.",
+  "Perder la clave de cifrado del servidor obliga a registrar de nuevo cada aparato.",
+  "Sin cifrado de disco y sin copias, el equipo que lo corre pasa a ser el punto más débil de tu red."
+ ],
+ "oficio": {
+  "dato": "La coordinación es la parte que casi nadie mira de una red privada moderna. Los aparatos no necesitan un servidor que lleve su tráfico: necesitan que alguien les diga dónde está cada uno y quién puede hablar con quién. Ese servidor ve el mapa completo —qué aparatos tenés, cómo se llaman y cuándo se conectan— aunque no vea el contenido. Cambiarlo de manos no mejora la velocidad de tu red ni su cifrado: cambia quién conoce ese mapa. Es la pregunta correcta que hay que hacerse antes de adoptar cualquier red que se configura sola, y es la que este capítulo deja planteada.",
+  "como_comprobar": "Pedile al servidor la lista de aparatos registrados: cada uno aparece con su nombre, su usuario y su última vez visto. Después expulsá uno y mirá cómo desaparece. Esa lista es el mapa, y ahora está en tu equipo.",
+  "comando": "headscale nodes list"
+ },
+ "riesgos": [
+  "Dejar la consola de administración accesible desde internet sin protección suficiente.",
+  "Correr el servidor en un equipo sin copias ni cifrado, y perder el mapa y las llaves a la vez."
+ ],
+ "alternativas": [
+  "netbirdio/netbird",
+  "wg-easy/wg-easy"
+ ],
+ "senal": {
+  "estrellas": 45337,
+  "nota": 64,
+  "edad_dias": 2270,
+  "ultima_entrega": "2026-10-30",
+  "descargas_10": 198387,
+  "contribuyentes": 100,
+  "repo_mb": 71.9,
+  "ci": 5,
+  "incidencias": "105 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Juan Font y la comunidad Headscale · BSD-3-Clause · medido el 3 de noviembre de 2026"
+}

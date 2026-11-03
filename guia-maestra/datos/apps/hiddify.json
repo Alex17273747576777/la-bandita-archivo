@@ -1,0 +1,75 @@
+{
+ "id": "hiddify",
+ "nombre": "Hiddify",
+ "repo": "hiddify/hiddify-app",
+ "autores": [
+  {
+   "nombre": "Hiddify y sus colaboradores",
+   "enlace": "https://hiddify.com"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/hiddify/hiddify-app/blob/main/LICENSE.md"
+ },
+ "nivel": "intermedio",
+ "tarea": "Salir adelante cuando la red está bloqueada, con un cliente que elige y combina configuraciones sin pedirte que entiendas el protocolo.",
+ "capitulo": 8,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien vive o viaja donde la red filtra y necesita un cliente que pruebe configuraciones y funcione sin conocimientos técnicos.",
+  "no_es": "para quien sólo quiere privacidad en el wifi del café: para eso sirve una red privada normal, y esta aplicación es más complicada de lo necesario."
+ },
+ "manos": [
+  "Bajá la aplicación del repositorio del proyecto, eligiendo el archivo que corresponde a tu aparato, y comprobá la descarga.",
+  "Al abrirla, importá una configuración —un enlace o un archivo que te haya pasado quien administra el servicio—; sin configuración, esta aplicación no tiene a dónde conectarse.",
+  "Activá el modo automático y dejá que pruebe: el programa elige entre las configuraciones disponibles y muestra cuál está usando.",
+  "Comprobá que el túnel funciona por fuera de la aplicación: mirada la dirección desde la que te ve internet antes y después.",
+  "Revisá las reglas de qué aplicaciones pasan por el túnel y cuáles van directo, para no mandar por el camino lento lo que no lo necesita."
+ ],
+ "resultado_esperado": "La red bloqueada deja de ser un problema: el cliente elige una configuración que funciona, la mantiene y te avisa cuando cambia.",
+ "si_sale_mal": [
+  "Si nada conecta, el problema no es la aplicación: la configuración está vencida o el servidor no responde. Pedí una nueva.",
+  "Si funciona una aplicación y otra no, mirá las reglas por aplicación: el modo automático puede estar mandando todo por el túnel, incluido lo que no debe.",
+  "Si el teléfono calienta y la batería se va, es el coste real de estos protocolos: conviene activarlo cuando hace falta y no dejarlo siempre."
+ ],
+ "deshacer": "Desactivar el túnel devuelve la conexión normal al instante. Las configuraciones importadas quedan guardadas en el teléfono y conviene borrarlas cuando ya no se usen: son llaves de acceso a un servidor ajeno.",
+ "cabeza": [
+  "Hiddify es una envoltura amable sobre motores más duros: por dentro usa sing-box y otras familias de protocolos, y por fuera ofrece un botón que dice conectar. Su trabajo real es la **selección**: probar las configuraciones que le diste, medir cuál responde y mantener la mejor, sin que el usuario vea un archivo de configuración.",
+  "Sus cifras son las de una herramienta que se usa donde hace falta: treinta y tres mil seiscientas dieciocho estrellas y **nueve millones seiscientas noventa y seis mil setenta y siete descargas** en sus diez últimas entregas, con una entrega el mismo día de esta medición. Cuando una aplicación de esta categoría publica todos los días, casi siempre es porque hay gente que depende de ella para trabajar.",
+  "Y su licencia merece leerse: se publica como **licencia pública general de GNU con condiciones adicionales** al amparo de su sección 7, y el proyecto lo dice en la primera línea de su archivo. No es GPL a secas ni es propietaria: es una tercera cosa, legítima y con efectos concretos sobre cómo se puede redistribuir. Un catálogo que la llame simplemente «open source» está ahorrándose la parte que importa."
+ ],
+ "limites": [
+  "No funciona sin una configuración que alguien te dé: no es un servicio, es un cliente.",
+  "Consume batería de forma notoria: mantener un túnel con protocolos de camuflaje cuesta.",
+  "Su licencia es GPL con condiciones adicionales, no GPL a secas.",
+  "Ocupa el único túnel del teléfono, y su modo automático puede ocultar qué regla está actuando."
+ ],
+ "oficio": {
+  "dato": "Estas aplicaciones no prometen «conectar»: eligen. Debajo hay una lista de configuraciones —cada una con su servidor, su protocolo y su forma de camuflarse— y el programa prueba, mide y se queda con la que responde. Por eso el dato que hay que mirar no es si el botón está verde, sino **cuál** de las configuraciones está en uso y cuánto tarda en responder: si cambia cada pocos minutos, tu acceso está en problemas, y si se queda quieta durante días, el camino está estable. Ese dato existe en la pantalla de la aplicación y casi nadie lo lee, aunque es el que explica por qué a veces va rápido y a veces no.",
+  "como_comprobar": "Abrí el detalle de la conexión activa y anotá qué configuración y qué protocolo está usando. Repetí la lectura a distintas horas del día: el cambio de configuración es la señal de que la red del otro lado está filtrando.",
+  "comando": "adb shell dumpsys connectivity | grep -i -A3 'VPN' | head -20"
+ },
+ "riesgos": [
+  "Usar configuraciones de origen desconocido: quien las entrega puede ver todo lo que pasa por su servidor.",
+  "Dejar la aplicación conectada todo el día y quedarse sin batería justo cuando hace falta."
+ ],
+ "alternativas": [
+  "SagerNet/sing-box",
+  "mullvad/mullvadvpn-app"
+ ],
+ "senal": {
+  "estrellas": 33618,
+  "nota": 50,
+  "edad_dias": 1545,
+  "ultima_entrega": "2026-11-03",
+  "descargas_10": 9696077,
+  "contribuyentes": 79,
+  "repo_mb": 89.6,
+  "ci": 5,
+  "incidencias": "41 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Hiddify y sus colaboradores · GPL-3.0 con condiciones adicionales (sección 7) · medido el 3 de noviembre de 2026"
+}

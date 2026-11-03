@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-03",
- "medido_en": "2026-11-03T21:19:56+00:00",
+ "medido_en": "2026-11-03T21:42:27+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 376,
+ "medidos": 382,
  "fichas": [
   {
    "repo": "MMFoundation/WallpaperMachine",
@@ -3447,6 +3447,42 @@
    ]
   },
   {
+   "repo": "mullvad/mullvadvpn-app",
+   "puntos": 69,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "advisory-team-access.yml",
+    "android-app.yml",
+    "android-audit.yml",
+    "android-benchmark.yml",
+    "android-kotlin-format-check.yml"
+   ],
+   "adjuntos": 92,
+   "con_huella": 46,
+   "ultima_entrega": "2026-09-30",
+   "commits_30d": 663,
+   "contribuyentes": 90,
+   "incidencias": {
+    "abiertas": 113,
+    "cerradas": 1471
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 3241,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 61 flujo(s) +10",
+    "adjunto con huella (MullvadVPN-2026.12.apk.asc) +10",
+    "sin entrega reciente +0",
+    "663 cambios en 30 días +10",
+    "90 personas empujando +10",
+    "incidencias cerradas 1471/1584 +9",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "thejaustin/ShizukuPlus",
    "puntos": 69,
    "licencia": "Apache-2.0",
@@ -4664,6 +4700,41 @@
     "836 cambios en 30 días +10",
     "17 personas empujando +10",
     "incidencias cerradas 516/577 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "juanfont/headscale",
+   "puntos": 64,
+   "licencia": "BSD-3-Clause",
+   "flujos_ci": [
+    "build.yml",
+    "check-generated.yml",
+    "check-tests.yaml",
+    "container-main.yml",
+    "docs-deploy.yml"
+   ],
+   "adjuntos": 90,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-30",
+   "commits_30d": 428,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 71,
+    "cerradas": 1323
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 2326,
+   "archivado": false,
+   "notas": [
+    "licencia legible (BSD-3-Clause) +15",
+    "integración continua con 24 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "428 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 1323/1394 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -7813,6 +7884,41 @@
    ]
   },
   {
+   "repo": "wg-easy/wg-easy",
+   "puntos": 55,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "codeql.yml",
+    "deploy-development.yml",
+    "deploy-edge.yml",
+    "deploy-pr.yml",
+    "deploy.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-24",
+   "commits_30d": 35,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 37,
+    "cerradas": 1112
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1991,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 8 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "entrega en los últimos 30 días +10",
+    "35 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 1112/1149 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "onyx-dot-app/onyx",
    "puntos": 54,
    "licencia": "NOASSERTION",
@@ -8283,6 +8389,42 @@
     "223 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 1835/2359 +8",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "netbirdio/netbird",
+   "puntos": 53,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "agent-network-e2e.yml",
+    "buf.yml",
+    "check-license-dependencies.yml",
+    "docs-ack.yml",
+    "forum.yml"
+   ],
+   "adjuntos": 699,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-29",
+   "commits_30d": 149,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 470,
+    "cerradas": 2419
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 2029,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 28 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "149 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 2419/2889 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -9037,6 +9179,41 @@
    ]
   },
   {
+   "repo": "hiddify/hiddify-app",
+   "puntos": 50,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "build.yml",
+    "ci.yml",
+    "release.yml",
+    "virustotal_scan.yml",
+    "windows-store-sync.yml"
+   ],
+   "adjuntos": 137,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 374,
+   "contribuyentes": 79,
+   "incidencias": {
+    "abiertas": 34,
+    "cerradas": 1830
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1262,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 6 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "374 cambios en 30 días +10",
+    "79 personas empujando +10",
+    "incidencias cerradas 1830/1864 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "kota-zo/myspoti",
    "puntos": 50,
    "licencia": "GPL-3.0",
@@ -9463,6 +9640,41 @@
     "176 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 1712/2011 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "SagerNet/sing-box",
+   "puntos": 49,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "build.yml",
+    "docker.yml",
+    "lint.yml",
+    "linux.yml",
+    "test.yml"
+   ],
+   "adjuntos": 1675,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-24",
+   "commits_30d": 136,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 361,
+    "cerradas": 3166
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 1587,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 5 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "136 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 3166/3527 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },

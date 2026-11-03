@@ -1,0 +1,75 @@
+{
+ "id": "wg-easy",
+ "nombre": "wg-easy",
+ "repo": "wg-easy/wg-easy",
+ "autores": [
+  {
+   "nombre": "wg-easy y sus colaboradores",
+   "enlace": "https://github.com/wg-easy"
+  }
+ ],
+ "licencia": {
+  "spdx": "AGPL-3.0",
+  "archivo": "https://github.com/wg-easy/wg-easy/blob/master/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Entrar a los servidores y carpetas de tu casa desde la calle con una red privada propia, con una pantalla web para crear y revocar los accesos.",
+ "capitulo": 8,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien ya tiene algo en casa al que quiere llegar desde afuera —fotos, archivos, un equipo encendido— y no quiere abrir puertos a internet.",
+  "no_es": "para quien quiere salir a internet desde otro país: esto conecta tus aparatos con tu casa, no te cambia la dirección de salida hacia el mundo."
+ },
+ "manos": [
+  "Consigue un equipo en casa que pueda quedarse encendido —el mismo del capítulo 7 sirve— y anota su dirección en la red local.",
+  "Instálalo siguiendo la guía del proyecto, que lo levanta en un contenedor y publica el puerto de administración y el del túnel.",
+  "Entrá a la pantalla de administración desde la red de casa, creá el primer perfil y descargá su configuración o su código para el teléfono.",
+  "Con el wifi apagado y los datos móviles encendidos, activá el perfil en el teléfono y abrí la dirección interna del equipo de casa: si aparece, el túnel está haciendo su trabajo.",
+  "Creá un perfil aparte para cada aparato y para cada persona, y revocá el de cualquier aparato que dejes de usar: un perfil es una llave."
+ ],
+ "resultado_esperado": "Desde cualquier red del mundo entrás a tu casa con una llave propia, y cuando revocás un perfil ese aparato deja de entrar en el acto.",
+ "si_sale_mal": [
+  "Si no conecta desde los datos móviles, revisá la dirección del extremo en el perfil: tiene que ser una dirección pública o un nombre que resuelva a tu casa.",
+  "Si el túnel levanta pero no llegás a las carpetas, el problema es el reenvío dentro de casa: el túnel entrega el paquete y falta decirle a qué equipo va.",
+  "Si la conexión se corta cada tanto, es normal en redes móviles: el túnel se reconecta solo, y por eso se comprueba por el intercambio de llaves y no por el estado del icono."
+ ],
+ "deshacer": "Borrar un perfil lo invalida al instante: ese aparato deja de entrar aunque conserve el archivo. Detener el contenedor cierra todos los accesos sin borrar las llaves, y desinstalarlo no toca tus archivos, que están en otra parte.",
+ "cabeza": [
+  "wg-easy no es una red privada: es un envoltorio. Debajo está WireGuard, el protocolo de túneles que hoy está dentro del núcleo de Linux y que se caracteriza por ser pequeño, rápido y silencioso: no responde a quien llama sin la llave correcta. Un escaneo de puertos no ve nada, y eso es la mitad de su valor.",
+  "Lo que agrega el envoltorio es lo que falta en el mundo de WireGuard: una pantalla. Crear un par de llaves, descargar la configuración, mostrar el código para escanear desde el teléfono y revocar un acceso son operaciones de una consola; acá son botones. Para quien empieza, esa diferencia decide si la red privada casera existe o no.",
+  "Y hay una decisión de arquitectura que hay que entender: cada aparato que entra es un **par de llaves** distinto. Por eso se crea un perfil por aparato y no se comparte uno entre todos: revocar es borrar un par, y si todos comparten el mismo, revocar a uno es revocar a todos."
+ ],
+ "limites": [
+  "Requiere que tu casa tenga una dirección alcanzable desde afuera, o un nombre que apunte a ella: sin eso, el túnel no tiene por dónde empezar.",
+  "No cambia tu dirección de salida a internet: sirve para entrar a tu casa, no para ocultarte.",
+  "Ocupa el único túnel disponible del teléfono, igual que cualquier otra red privada.",
+  "Es una pieza de administración: si el equipo que lo corre se apaga, no hay accesos hasta que vuelva."
+ ],
+ "oficio": {
+  "dato": "WireGuard no tiene sesiones: tiene **intercambios de llaves**, y cada uno deja una marca de tiempo. Eso da una forma de comprobar la salud del túnel que no depende de ninguna interfaz ni de ningún color: si la fecha del último intercambio de un aparato es de hace un minuto, ese aparato está conectado; si es de hace tres días, ese perfil está ahí pero nadie lo usa, y probablemente se pueda revocar. Los programas de administración muestran ese dato si se lo pides. Y sirve para lo que ninguna pantalla contesta: saber cuál de los perfiles que creaste está vivo de verdad y cuál quedó olvidado en un teléfono que ya no existe.",
+  "como_comprobar": "Conectá un aparato, usá el túnel y después pedile al servidor la lista de pares conectados. Cada uno aparece con su último intercambio de llaves y cuánto subió y bajó. Repetilo con el aparato desconectado y mirá cómo el dato deja de moverse.",
+  "comando": "docker exec wg-easy wg show"
+ },
+ "riesgos": [
+  "Compartir un mismo perfil entre varios aparatos y después no poder revocar a uno sin cortar a todos.",
+  "Dejar el puerto de administración de la pantalla web expuesto a internet, que es abrir la puerta que el túnel venía a evitar."
+ ],
+ "alternativas": [
+  "juanfont/headscale",
+  "netbirdio/netbird"
+ ],
+ "senal": {
+  "estrellas": 27389,
+  "nota": 55,
+  "edad_dias": 2004,
+  "ultima_entrega": "2026-10-24",
+  "descargas_10": 0,
+  "contribuyentes": 100,
+  "repo_mb": 25.2,
+  "ci": 5,
+  "incidencias": "47 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de wg-easy y sus colaboradores · AGPL-3.0 · medido el 3 de noviembre de 2026"
+}

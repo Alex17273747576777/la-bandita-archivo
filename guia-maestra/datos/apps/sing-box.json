@@ -1,0 +1,75 @@
+{
+ "id": "sing-box",
+ "nombre": "sing-box",
+ "repo": "SagerNet/sing-box",
+ "autores": [
+  {
+   "nombre": "SagerNet",
+   "enlace": "https://sing-box.sagernet.org"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/SagerNet/sing-box/blob/testing/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Dirigir cada conexión del aparato por el camino que corresponde, con reglas escritas en un archivo y con la posibilidad de comprobarlo antes de aplicarlo.",
+ "capitulo": 8,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien quiere reglas finas —qué aplicación, qué dominio, qué red— y prefiere leer un archivo de configuración a confiar en un botón automático.",
+  "no_es": "para quien empieza: un archivo de configuración mal escrito deja el aparato sin internet y sin pistas."
+ },
+ "manos": [
+  "Instalá el cliente de Android desde su entrega, o el programa de escritorio desde el gestor de paquetes de tu sistema.",
+  "Escribí una configuración mínima con una entrada y una salida, y antes de aplicarla pedile al programa que la revise.",
+  "Corregí lo que la revisión marque y sólo entonces activá: la revisión existe para que un error no te deje sin red.",
+  "Añadí reglas por aplicación o por dominio, una por vez, comprobando después de cada una que lo que tenía que pasar por el túnel pasa y lo demás no.",
+  "Guardá el archivo de configuración fuera del teléfono: es el programa entero, y sirve para reproducir la misma red en cualquier aparato."
+ ],
+ "resultado_esperado": "Cada conexión va por donde tu archivo dice, las reglas se aplican sin sorpresas y la configuración se puede copiar, revisar y volver a usar en otro aparato.",
+ "si_sale_mal": [
+  "Si te quedás sin internet después de activar, desactivá el túnel y pedile la revisión al archivo: ahí está el error, con número de línea.",
+  "Si una aplicación concreta deja de funcionar, agregá una regla para su dominio en lugar de abrir todo el aparato.",
+  "Si actualizás y la configuración que funcionaba deja de hacerlo, mirá las notas de la entrega: el proyecto avisa cuándo una opción cambió de forma."
+ ],
+ "deshacer": "Desactivar el túnel devuelve el aparato al estado anterior sin tocar la configuración. El archivo se puede borrar o guardar; el programa no modifica nada del sistema fuera de su propio funcionamiento.",
+ "cabeza": [
+  "sing-box es un solo programa que entiende casi todos los protocolos de túnel y proxy que existen, y que en lugar de decidir por vos ejecuta lo que dice un archivo de configuración. Esa sencillez aparente esconde la verdad del oficio: el programa es el archivo, y todo lo que hace tu red está escrito en un texto que podés leer, versionar y comparar.",
+  "Su decisión más importante está en el repositorio, no en el manual: **la rama principal se llama `testing`** y las entregas que publica son versiones de prueba —la última medida es la 1.15.0, en su tercera prueba alfa—. Quien lo instala desde ahí está usando software en movimiento, y conviene saberlo antes y no después.",
+  "Y el dato que lo vuelve una herramienta de administración y no de consumo: cuarenta mil estrellas, un millón novecientas veintiuna mil seiscientas setenta y una descargas en diez entregas y ciento treinta y seis cambios en treinta días. Se mueve rápido, y por eso el archivo de configuración —que es tuyo— vale más que la versión instalada."
+ ],
+ "limites": [
+  "La curva de entrada es alta: sin un archivo válido no hace nada.",
+  "Sus entregas son versiones de prueba: la rama principal del repositorio se llama `testing`.",
+  "Una configuración mal escrita puede dejar el aparato sin internet, y el mensaje no siempre explica por qué.",
+  "Ocupa el único túnel disponible del teléfono, como toda la categoría."
+ ],
+ "oficio": {
+  "dato": "El programa trae una orden que revisa la configuración sin aplicarla: lee el archivo, valida la forma de cada opción y avisa con el número de línea antes de que nada se rompa. Eso convierte el trabajo de configurar una red en algo que se puede hacer con red, sin miedo a quedarse a oscuras: se escribe, se revisa, se corrige y sólo entonces se activa. Es la misma lógica que la restauración de prueba del capítulo 7 y la verificación de sumas del capítulo 4, aplicada a un archivo de texto. Y tiene un premio extra: el archivo revisado se puede guardar junto a la fecha, de modo que cuando algo deje de funcionar dentro de seis meses, haya una versión anterior a la que volver.",
+  "como_comprobar": "Escribí una configuración con una opción inventada y pedile la revisión: el programa la rechaza y señala dónde. Corregila, volvé a revisar y recién entonces activá. La diferencia entre las dos salidas es todo el método.",
+  "comando": "sing-box check -c config.json"
+ },
+ "riesgos": [
+  "Usar la versión de prueba en el único aparato que necesitás para trabajar.",
+  "Copiar configuraciones de internet sin leerlas: son instrucciones que tu aparato va a obedecer, incluido hacia dónde manda tu tráfico."
+ ],
+ "alternativas": [
+  "hiddify/hiddify-app",
+  "mullvad/mullvadvpn-app"
+ ],
+ "senal": {
+  "estrellas": 39595,
+  "nota": 49,
+  "edad_dias": 1647,
+  "ultima_entrega": "2026-10-24",
+  "descargas_10": 1921671,
+  "contribuyentes": 100,
+  "repo_mb": 78.5,
+  "ci": 5,
+  "incidencias": "398 abiertas"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de SagerNet · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

@@ -23,11 +23,15 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Dhizuku](https://github.com/iamr0s/Dhizuku) | [iamr0s](https://github.com/iamr0s) | GPL-3.0 | 3 de noviembre de 2026 |
 | [F-Droid](https://github.com/f-droid/fdroidclient) | [F-Droid](https://gitlab.com/fdroid/fdroidclient) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Hail](https://github.com/aistra0528/Hail) | [aistra0528](https://github.com/aistra0528) | GPL-3.0 | 3 de noviembre de 2026 |
+| [Headscale](https://github.com/juanfont/headscale) | [Juan Font y la comunidad Headscale](https://github.com/juanfont) | BSD-3-Clause | 3 de noviembre de 2026 |
+| [Hiddify](https://github.com/hiddify/hiddify-app) | [Hiddify y sus colaboradores](https://hiddify.com) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Immich](https://github.com/immich-app/immich) | [Immich y su comunidad](https://immich.app) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [KOReader](https://github.com/koreader/koreader) | [KOReader y su comunidad de voluntarios](https://koreader.rocks/) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [LocalSend](https://github.com/localsend/localsend) | [LocalSend y sus colaboradores](https://localsend.org) | Apache-2.0 | 3 de noviembre de 2026 |
+| [Mullvad VPN](https://github.com/mullvad/mullvadvpn-app) | [Mullvad VPN AB](https://mullvad.net) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Navidrome](https://github.com/navidrome/navidrome) | [Navidrome y su comunidad](https://github.com/navidrome) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Neo Backup](https://github.com/NeoApplications/Neo-Backup) | [NeoApplications](https://github.com/NeoApplications) | AGPL-3.0 | 3 de noviembre de 2026 |
+| [NetBird](https://github.com/netbirdio/netbird) | [NetBird y sus colaboradores](https://netbird.io) | BSD-3-Clause | 3 de noviembre de 2026 |
 | [NetGuard](https://github.com/M66B/NetGuard) | [Marcel Bokhorst (M66B)](https://github.com/M66B) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Nextcloud](https://github.com/nextcloud/server) | [Nextcloud y su comunidad](https://nextcloud.com) | AGPL-3.0 | 3 de noviembre de 2026 |
 | [Obtainium](https://github.com/ImranR98/Obtainium) | [ImranR98](https://github.com/ImranR98) | GPL-3.0 | 3 de noviembre de 2026 |
@@ -43,11 +47,13 @@ conservan su propia licencia, que se cita en cada ficha y no se altera aquí.
 | [Shevery](https://github.com/HmnDev-Tech/shevery) | [HmnDev-Tech](https://github.com/HmnDev-Tech) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Shizuku](https://github.com/RikkaApps/Shizuku) | [RikkaApps (RikkaW)](https://github.com/RikkaApps) | Apache-2.0 | 3 de noviembre de 2026 |
 | [Shizuku-Next](https://github.com/rushiranpise/Shizuku-Next) | [rushiranpise](https://github.com/rushiranpise) | Apache-2.0 | 3 de noviembre de 2026 |
+| [sing-box](https://github.com/SagerNet/sing-box) | [SagerNet](https://sing-box.sagernet.org) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Syncthing (bifurcación)](https://github.com/researchxxl/syncthing-android) | [researchxxl y la comunidad de Syncthing](https://github.com/researchxxl) | MPL-2.0 | 3 de noviembre de 2026 |
 | [TrackerControl](https://github.com/TrackerControl/tracker-control-android) | [Konrad Kollnig y la comunidad TrackerControl](https://github.com/TrackerControl) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Universal Android Debloater NG](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation) | [Universal-Debloater-Alliance](https://github.com/Universal-Debloater-Alliance) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Universal Installer](https://github.com/pass-with-high-score/universal-installer) | [pass-with-high-score](https://github.com/pass-with-high-score) | GPL-3.0 | 3 de noviembre de 2026 |
 | [Uraam](https://github.com/Ruraam/Uraam) | [Ruraam](https://github.com/Ruraam) | GPL-3.0 | 3 de noviembre de 2026 |
+| [wg-easy](https://github.com/wg-easy/wg-easy) | [wg-easy y sus colaboradores](https://github.com/wg-easy) | AGPL-3.0 | 3 de noviembre de 2026 |
 
 ## Retirada
 
