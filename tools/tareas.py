@@ -96,14 +96,14 @@ def escribir(tareas: list[dict], fallos: list[str], avisos: list[str]) -> None:
         f"| {t['id']:03d} | {t['texto']} | {t['canal']} · {t['pieza'][:2]} | {t['corte']} |"
         for t in tareas)
     rango = f"{ids[0]:03d} a {ids[-1]:03d}" if ids else "—"
-    estado = "sin huecos ni repetidos dentro de cada pieza" if not fallos else "con incidencias"
+    estado = "Numeración sin huecos ni repetidos dentro de cada pieza." if not fallos else "Numeración CON incidencias: ver la nota al pie."
     nota_avisos = ("\n".join(f"> **Declarado:** {a}" for a in avisos)
                    or "> Ninguna pieza fuera de la regla de numeración.")
     cuerpo = f"""# TABLERO DE TAREAS
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** {len(tareas)} tareas abiertas en {len(piezas())} piezas vivas, numeradas dentro de cada pieza de {rango}, cosechadas de {len(piezas())} piezas vivas. Numeración {estado}. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** {len(tareas)} tareas abiertas en {len(piezas())} piezas vivas, numeradas dentro de cada pieza, de {rango}. {estado} El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 

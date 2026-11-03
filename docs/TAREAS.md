@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 12 tareas abiertas en 10 piezas vivas, numeradas dentro de cada pieza de 001 a 009, cosechadas de 10 piezas vivas. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 12 tareas abiertas en 10 piezas vivas, numeradas dentro de cada pieza, de 001 a 009. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
