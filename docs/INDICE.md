@@ -81,7 +81,7 @@
 
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
-| [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 155 |
+| [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 182 |
 | [`INVESTIGACION-RECURSOS-2026-11-01.md`](INVESTIGACION-RECURSOS-2026-11-01.md) | INVESTIGACIÓN DE RECURSOS NUEVOS · domingo 1 de noviembre de 2026, 07:00 (Santo Domingo) | Cuatro consultas a la API de GitHub, ordenadas por estrellas, filtrando por fecha de creación: | 145 |
 | [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 45 |
 | [`COMO-SE-MANDA.md`](envios/COMO-SE-MANDA.md) | CÓMO SE MANDA · reglas y mapa de los envíos | Esto no es un catálogo de archivos: es la decisión de cómo sale el archivo a la calle. | 103 |
@@ -166,7 +166,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`novedad_gate.py`](../tools/novedad_gate.py) | TESTIGO DE NOVEDAD Y DE SERIE CORTA — N01–N08, M24–M28, M00. | 248 |
 | [`pulso.py`](../tools/pulso.py) | PULSO · mide repositorios en fuente primaria y escribe fichas con evidencia cruda. | 430 |
 | [`registro_construir.py`](../tools/registro_construir.py) | REGISTRO · construye las fichas JSON del activo vendible desde el censo medido. | 201 |
-| [`sello_reglas.py`](../tools/sello_reglas.py) | REGLAS DEL SELLO · en un solo sitio, para que la vara y la atestación no se contradigan. | 42 |
+| [`sello_reglas.py`](../tools/sello_reglas.py) | REGLAS DEL SELLO · en un solo sitio, para que la vara y la atestación no se contradigan. | 53 |
 | [`sitio.py`](../tools/sitio.py) | SITIO · genera el sitio estático de La Bandita desde las piezas y el registro. | 617 |
 | [`swhid.py`](../tools/swhid.py) | SWHID POR REVISIÓN MEDIDA · el código que se midió, citado de forma que no se pueda perder. | 155 |
 | [`tareas.py`](../tools/tareas.py) | TAREAS · el extractor del archivo: de las piezas al tablero, sin copiar a mano. | 163 |
