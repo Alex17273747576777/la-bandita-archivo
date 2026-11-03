@@ -1212,10 +1212,12 @@ Cada deuda con su veredicto de hoy: **cerrada** (existe, corre y está probada),
 | 6 | Fichas con licencia no concluyente | **cerrada en lo resoluble** | `tools/licencias_resolver.py`: **179 → 44**; **134 resueltas con SPDX** (Apache-2.0 60 · AGPL 26 · MIT 22 · GPL 18 · otras 8) y **39 clasificadas como propietarias** con la frase literal que lo prueba y su fecha |
 | 7 | ★ como señal de mérito, sin Scorecard | **cerrada en método, abierta en cobertura** | `tools/merito.py` escribe `merito.scorecard` + fecha; piloto medido: **9 de 48** repositorios citados (el resto no está indexado). El dato ya enseña lo que la doctrina dice: **freeotp ★1.681 → 5,2/10** y **Shizuku ★32.705 → 2,7/10** |
 | 8 | La fusión comprime tres volúmenes | **no es deuda: es la decisión** | Tratado 1,19 MB · Manual de Campo 543 KB · LEEME 305 KB viven enteros en el repositorio; su doctrina operativa está aquí (Parte XV) |
-| 9 | La serie corta no ha publicado su primer número de noviembre | **abierta — es el siguiente trabajo** | no se finge: no hay HdP publicada este mes; la banda y el trámite ya están decididos (§30.5) |
+| 9 | La serie corta no había publicado su primer número de noviembre | **cerrada** | **HdP 01 publicada el 3-nov-2026**: `post-2026-11-03-hdp-01-omnishizuku-…`, **4.152 caracteres exactos**, una sola idea (OmniShizuku contra Shizuku), tres `#task` numerados, cero meta-comentarios, VERDE en el testigo de novedad |
 | 10 | Las seis piezas de la oleada 01 no cumplen M24 | **deuda congelada y declarada** | publicadas antes de la doctrina; 11 líneas visibles en cada informe (`tools/baseline.json`); no crece |
 | 11 | Re-medición del registro completo (§PENDIENTES: corte del 15-oct) | **abierta, del dueño el cuándo** | cuesta una corrida de API por ficha; G2 avisa a los 180 días y hoy la mediana es de 19 días |
 | 12 | SWHID por revisión medida (Software Heritage) | **abierta** | la API responde; falta archivar cada revisión citada, y eso es trabajo por lotes |
+
+**Y la primera entrega de la serie corta, ya publicada** (3-nov-2026): abre con el hallazgo —el fork vivo contra el original con 503 días de silencio—, trae el Scorecard del original medido (2,7/10) para no vender estrellas, declara la madurez del fork sin adornos («diez días y versiones `-dev`: no es un reemplazo de nada, es un hallazgo») y cierra con tres tareas verificables. Ese es el formato, y ya no está escrito: está publicado.
 
 **Y una que se cierra sola con la fecha:** la orden del dueño de «un solo documento» está cumplida: **56 archivos retirados** del núcleo local, acta en la Parte XV, y ninguna regla se quedó fuera.
 

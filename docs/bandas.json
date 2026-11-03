@@ -1,52 +1,56 @@
 {
-  "_nota": "Banda de longitud de cada pieza reescrita. Obliga a la vara (G10): una pieza que no cae dentro de su banda no pasa. Las piezas que aún no se han reescrito no están aquí y no se les exige. Vaciado el 2-nov-2026 al reiniciar el ciclo en la pieza 01 (ver docs/ACTA-REINICIO-CICLO-2026-11-02.md).",
-  "facebook": {
-    "_motivo": "banda pedida por el dueño para la 01 de Facebook; se aplica igual a las siguientes",
-    "max": 45000,
-    "min": 40000,
-    "piezas": {
-      "01": {
-        "archivo": "01-La-puerta-y-el-recibo-instalar-sin-tienda-y-el-paquete-que-no-es-el-empujon-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
-        "caracteres": 40355
-      },
-      "02": {
-        "archivo": "02-La-musica-que-no-se-cae-once-reproductores-un-tronco-seco-y-tres-formas-de-quedarse-sin-catalogo-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
-        "caracteres": 44996
-      },
-      "03": {
-        "archivo": "03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
-        "caracteres": 44914
-      }
-    }
-  },
-  "posts": {
-    "_motivo": "post de comunidad, no pieza de la serie: se le exige caer exactamente en su longitud declarada, sin banda ancha, porque no admite ni relleno ni recorte",
-    "max": 4152,
-    "min": 4152,
-    "piezas": {
-      "01": {
-        "archivo": "post-2026-11-01-mama-hueso-WhatsApp-La-Bandita-dominicano-ES.md",
-        "caracteres": 4152
-      }
-    }
-  },
-  "whatsapp": {
-    "_motivo": "el dueño pidió 63.000 como mínimo y máximo a la vez; se admite até 63.099 para no forzar recortes cosméticos de última hora",
-    "max": 63099,
-    "min": 63000,
-    "piezas": {
-      "01": {
-        "archivo": "01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
-        "caracteres": 63068
-      },
-      "02": {
-        "archivo": "02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
-        "caracteres": 63006
-      },
-      "03": {
-        "archivo": "03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
-        "caracteres": 63098
-      }
-    }
+ "_nota": "Banda de longitud de cada pieza reescrita. Obliga a la vara (G10): una pieza que no cae dentro de su banda no pasa. Las piezas que aún no se han reescrito no están aquí y no se les exige. Vaciado el 2-nov-2026 al reiniciar el ciclo en la pieza 01 (ver docs/ACTA-REINICIO-CICLO-2026-11-02.md).",
+ "facebook": {
+  "_motivo": "banda pedida por el dueño para la 01 de Facebook; se aplica igual a las siguientes",
+  "max": 45000,
+  "min": 40000,
+  "piezas": {
+   "01": {
+    "archivo": "01-La-puerta-y-el-recibo-instalar-sin-tienda-y-el-paquete-que-no-es-el-empujon-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
+    "caracteres": 40355
+   },
+   "02": {
+    "archivo": "02-La-musica-que-no-se-cae-once-reproductores-un-tronco-seco-y-tres-formas-de-quedarse-sin-catalogo-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
+    "caracteres": 44996
+   },
+   "03": {
+    "archivo": "03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES.md",
+    "caracteres": 44914
+   }
   }
+ },
+ "posts": {
+  "_motivo": "post de comunidad, no pieza de la serie: se le exige caer exactamente en su longitud declarada, sin banda ancha, porque no admite ni relleno ni recorte",
+  "max": 4152,
+  "min": 4152,
+  "piezas": {
+   "01": {
+    "archivo": "post-2026-11-01-mama-hueso-WhatsApp-La-Bandita-dominicano-ES.md",
+    "caracteres": 4152
+   },
+   "02": {
+    "archivo": "post-2026-11-03-hdp-01-omnishizuku-el-fork-vivo-y-el-original-callado-WhatsApp-La-Bandita-dominicano-ES.md",
+    "caracteres": 4152
+   }
+  }
+ },
+ "whatsapp": {
+  "_motivo": "el dueño pidió 63.000 como mínimo y máximo a la vez; se admite até 63.099 para no forzar recortes cosméticos de última hora",
+  "max": 63099,
+  "min": 63000,
+  "piezas": {
+   "01": {
+    "archivo": "01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
+    "caracteres": 63068
+   },
+   "02": {
+    "archivo": "02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
+    "caracteres": 63006
+   },
+   "03": {
+    "archivo": "03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
+    "caracteres": 63098
+   }
+  }
+ }
 }
